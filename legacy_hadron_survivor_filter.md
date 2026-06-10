@@ -759,6 +759,28 @@ residuals are native C1 boundary quantities;
 source accounting remains open.
 ```
 
+Pure-channel source accounting gate:
+
+```text
+A3 wedge A3 residual:
+    -1/6 + q/2 = 0
+    typed role: scalar C1 boundary-momentum deficit
+
+S5 wedge S5 residual:
+    +1/36 - eta/2 = 0
+    typed role: one-sided H1 transfer surplus
+
+pure pair with typed boundary supply/export:
+    (-1/6 + 1/36) + q/2 - eta/2 = 0
+```
+
+Status:
+
+```text
+pure-channel residuals pass a necessary native accounting gate;
+they are still not particle assignments or mass coefficients.
+```
+
 ## Working Hypothesis
 
 The useful legacy hadron material is probably not the old particle mechanism.

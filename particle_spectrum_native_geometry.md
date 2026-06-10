@@ -2706,3 +2706,89 @@ Pure-channel residuals are native C1 boundary quantities. They are not yet
 particle mechanisms. Pure channels require source/boundary accounting before
 they can enter spectrum construction.
 ```
+
+## 36. Pure Channel Source Accounting Gate
+
+Implemented in `native_pure_channel_source_accounting_gate.py`.
+
+The previous section left the pure-channel residuals as open source-accounting
+terms. The exact C1 boundary identities now make the accounting typed.
+
+Native boundary instruments at the common `q=1/3` collar:
+
+```text
+scalar C1 boundary momentum:
+    q/2 = 1/6
+
+H1 projected unit:
+    eta = 1/18
+
+one-sided H1 transfer:
+    eta/2 = 1/36
+
+unprojected C1 action unit:
+    S_C1/R = 1/12
+```
+
+Pure-channel residuals:
+
+```text
+A3 wedge A3 -> A3:
+    residual = -1/6
+
+S5 wedge S5 -> A3:
+    residual = +1/36
+
+A3 wedge S5 -> S5:
+    residual = 0
+```
+
+Typed closures:
+
+```text
+A3-A3 residual + scalar boundary momentum:
+    -1/6 + q/2 = 0
+
+S5-S5 residual - one-sided H1 transfer:
+    +1/36 - eta/2 = 0
+
+pure pair with boundary supply and side export:
+    (-1/6 + 1/36) + q/2 - eta/2 = 0
+```
+
+Two additional exact alignments:
+
+```text
+image unit:
+    1/12 = (q/2)/2
+
+domain unit:
+    1/36 = eta/2
+```
+
+Interpretation:
+
+```text
+A3-A3:
+    not freely balanced;
+    it is exactly a scalar boundary-momentum deficit.
+
+S5-S5:
+    not freely balanced;
+    it is exactly a one-sided projected-transfer surplus.
+
+A3-S5:
+    already balanced;
+    no source accounting is needed at this layer.
+```
+
+Thirty-sixth spectrum-stage verdict:
+
+```text
+The pure channels now pass a necessary native accounting gate: their residuals
+are exactly absorbed/exported by already-derived C1 boundary quantities with
+matching type. This is not yet a particle mechanism or a spectrum formula. It
+means pure channels may enter later only through typed boundary accounting,
+while the mixed A3-S5 branch remains the first freely balanced interaction
+branch.
+```
