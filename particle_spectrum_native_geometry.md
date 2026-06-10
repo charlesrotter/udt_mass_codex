@@ -3268,3 +3268,85 @@ This is not the local channel residual ledger and not a mass formula. It is a
 global quotient/load split that must next be connected to the admissible
 two-form roads and the radial/depth rule.
 ```
+
+## 43. Quotient-Channel Unit Bridge
+
+Implemented in `native_quotient_channel_unit_bridge.py`.
+
+The quotient split can be compared across unit systems:
+
+```text
+domain unit = 1/36
+image unit = 1/12
+eta = 1/18
+ninth unit = 1/9
+```
+
+Quotient roles:
+
+```text
+scalar anchor:
+    value = 1/9
+    domain units = 4
+    eta units = 2
+    ninth units = 1
+
+trace bridge:
+    value = 2/9
+    domain units = 8
+    eta units = 4
+    ninth units = 2
+
+active image:
+    value = 2/3
+    domain units = 24
+    image units = 8
+    eta units = 12
+    ninth units = 6
+```
+
+Local/global matches:
+
+```text
+trace bridge = trace wedge T8 domain load
+    2/9 = 8 * (1/36)
+
+active image = global T8 commutator image action
+    2/3 = 8 * (1/12)
+```
+
+Scalar-anchor warning:
+
+```text
+scalar anchor = 1/9 = 4 domain units = 2 eta
+```
+
+but:
+
+```text
+4 is not a local two-form channel domain:
+    trace wedge T8: 8
+    A3 wedge A3: 3
+    A3 wedge S5: 15
+    S5 wedge S5: 10
+```
+
+Therefore:
+
+```text
+do not force scalar anchor into a missing local channel.
+```
+
+Forty-third spectrum-stage verdict:
+
+```text
+The quotient split connects to the two-form roads in two places:
+
+    trace bridge = trace wedge T8 domain load,
+    active image = global T8 image action.
+
+The scalar anchor is different. It is a central End(H1) normalization anchor,
+not a missing local two-form channel. This keeps the layer discipline intact:
+local channel domains live naturally in 36ths; quotient completion closes
+cleanly in ninths.
+```

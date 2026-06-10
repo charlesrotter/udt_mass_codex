@@ -910,6 +910,25 @@ closed quotient/load accounting layer;
 not the local channel ledger and not a mass formula.
 ```
 
+Quotient-channel unit bridge:
+
+```text
+trace bridge = trace wedge T8 domain load
+    2/9 = 8 domain units
+
+active image = global T8 image action
+    2/3 = 8 image units = 24 domain units
+
+scalar anchor = 1/9 = 4 domain units = 2 eta
+```
+
+Guard:
+
+```text
+scalar anchor is not a missing local two-form channel;
+it is the central End(H1) normalization anchor.
+```
+
 ## Working Hypothesis
 
 The useful legacy hadron material is probably not the old particle mechanism.
