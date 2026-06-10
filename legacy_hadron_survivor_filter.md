@@ -519,6 +519,51 @@ Radial coupling route order:
    until a metric coupling rule selects them
 ```
 
+Radial projector-weight coupling update:
+
+```text
+common radial branch:
+    q = 1/3
+    S_C1/R = 1/12
+
+sector action on common branch:
+    A(P)=Tr(P) * S_C1/R = Tr(P)/12 = W(P)
+```
+
+So:
+
+```text
+A(A3)=1/4
+A(S5)=5/12
+A(T8)=2/3
+```
+
+Status:
+
+```text
+common-branch projector-weighted action: derived
+sector-dependent radial exponents q(P): hypothesis only
+```
+
+Sector-dependent q gate:
+
+```text
+q(P) from S_C1(q_P)/R = W(P):
+    finite-action candidates
+    but not equal to q=1/3
+    would change eta=q/6 and eta/2=q/12
+```
+
+Therefore:
+
+```text
+common q=1/3:
+    current elementary taxonomy
+
+q(P):
+    parked as possible excitation/depth branch
+```
+
 ## Working Hypothesis
 
 The useful legacy hadron material is probably not the old particle mechanism.

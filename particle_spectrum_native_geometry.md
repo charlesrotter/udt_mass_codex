@@ -1985,3 +1985,135 @@ is to ask whether the radial negative-phi sector reads the projector action
 weights W(A3), W(S5), or W(T8). Do not use product counts, kernels, or
 three-form support as mass inputs unless their radial coupling is derived.
 ```
+
+## 25. Radial Projector-Weight Coupling
+
+Implemented in `native_radial_projector_weight_coupling.py`.
+
+The self-similar C1 radial branch has:
+
+```text
+q = 1/3
+S_C1/R = q^2/[4(1-2q)] = 1/12.
+```
+
+For a canonical active image projector `P`, the sector action on the fixed
+radial branch is:
+
+```text
+A(P) = Tr(P) * S_C1/R
+     = Tr(P) / 12
+     = W(P).
+```
+
+Therefore:
+
+```text
+A(A3) = 3 * 1/12 = 1/4
+A(S5) = 5 * 1/12 = 5/12
+A(T8) = 8 * 1/12 = 2/3.
+```
+
+This is a derived radial coupling in the following limited sense:
+
+```text
+the common radial C1 branch supplies the unit action 1/12;
+the active operator taxonomy supplies projector traces;
+their product gives W(P).
+```
+
+It does **not** mean each sector has a different radial exponent.
+
+Stronger but unproved hypothesis:
+
+```text
+sector-dependent radial exponent q(P) selected by:
+    S_C1(q_P)/R = W(P).
+```
+
+This would give finite-action candidate exponents:
+
+```text
+A3:
+    q = sqrt(2) - 1 ~= 0.4142135624
+
+S5:
+    q = (2 sqrt(10) - 5)/3 ~= 0.4415184401
+
+T8:
+    q = (2 sqrt(22) - 8)/3 ~= 0.4602771732
+```
+
+All satisfy:
+
+```text
+0 < q < 1/2.
+```
+
+But the equation:
+
+```text
+S_C1(q_P)/R = W(P)
+```
+
+has not been derived as a boundary condition, variational principle, or
+Calderon/Cauchy projector rule.
+
+Twenty-fifth spectrum-stage verdict:
+
+```text
+The metric currently supports projector-weighted action readout on the common
+q=1/3 radial branch. Sector-dependent radial depths are a mathematically clean
+hypothesis, but not yet a derived result.
+```
+
+## 26. Sector-Dependent q Gate
+
+Implemented in `native_sector_dependent_q_gate.py`.
+
+The stronger hypothesis:
+
+```text
+S_C1(q_P)/R = W(P)
+```
+
+gives finite-action exponents for `A3`, `S5`, and `T8`, but all differ from:
+
+```text
+q = 1/3.
+```
+
+They also change the momentum/readout chain:
+
+```text
+eta = q/6
+eta/2 = q/12.
+```
+
+Therefore sector-dependent `q(P)` cannot be used inside the current elementary
+branch while keeping:
+
+```text
+q=1/3
+eta=1/18
+eta/2=1/36.
+```
+
+Current classification:
+
+```text
+common q=1/3:
+    elementary ground taxonomy
+
+sector-dependent q(P):
+    possible radial excitation/depth branch
+    not derived
+```
+
+Twenty-sixth spectrum-stage verdict:
+
+```text
+The current taxonomy keeps the common q=1/3 radial branch and reads sectors by
+projector-weighted action. Sector-dependent radial depths are parked as a
+possible excitation mechanism until a boundary condition derives them.
+```
