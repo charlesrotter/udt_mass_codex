@@ -1376,3 +1376,352 @@ The native particle alphabet is now substantially constrained before any mass
 formula is attempted. The next legitimate step is not to fit masses, but to
 derive a readout rule from this operator hierarchy to spectrum observables.
 ```
+
+## 17. Projector-Trace Readout Candidate
+
+Implemented in `native_projector_trace_readout_candidate.py`.
+
+The C1-weighted commutator selector gives:
+
+```text
+(1/36) B B^T = (1/12) P_T8.
+```
+
+Therefore every active `T8` image direction carries the same native weight:
+
+```text
+1/12.
+```
+
+The only label-free scalar readout available from a canonical image-sector
+projector `P` is its trace. This suggests the candidate rule:
+
+```text
+W(P) = Tr(P) / 12.
+```
+
+For the canonical angular tensor split:
+
+```text
+T8 = A3 + S5
+```
+
+the projector traces are:
+
+```text
+Tr(P_A3) = 3
+Tr(P_S5) = 5
+Tr(P_T8) = 8.
+```
+
+So the readout weights are:
+
+```text
+W(A3) = 3/12 = 1/4
+W(S5) = 5/12
+W(T8) = 8/12 = 2/3.
+```
+
+Exact consequences:
+
+```text
+W(S5) / W(A3) = 5/3
+W(S5) - W(A3) = 1/6
+W(A3) + W(S5) = W(T8) = 2/3.
+```
+
+This is the first native readout candidate because it uses only:
+
+```text
+C1 side action;
+commutator isotropy;
+canonical projector trace.
+```
+
+It does not use:
+
+```text
+particle labels;
+Standard Model charges/couplings;
+legacy kappa;
+fitted mass data.
+```
+
+Seventeenth spectrum-stage verdict:
+
+```text
+The metric now supplies a minimal scalar readout candidate on the active
+operator image: W(P)=Tr(P)/12. It produces native weights 1/4, 5/12, and 2/3
+for A3, S5, and T8 respectively. This is a readout rule candidate, not yet a
+mass formula.
+```
+
+## 18. Readout Mode Audit
+
+Implemented in `native_readout_mode_audit.py`.
+
+The same operator hierarchy supplies several different scalar-looking outputs.
+They must not be conflated.
+
+For `P = A3, S5, T8`:
+
+```text
+rank readout:
+    D(P)=Tr(P)
+
+C1 action readout:
+    W(P)=Tr(P)/12
+
+domain composite count:
+    C(P)=dim Lambda^2 End(H1) * Tr(P)
+
+inverse weight:
+    1/W(P)
+```
+
+Outputs:
+
+```text
+A3:
+    rank = 3
+    W = 1/4
+    composite count = 108
+    inverse weight = 4
+
+S5:
+    rank = 5
+    W = 5/12
+    composite count = 180
+    inverse weight = 12/5
+
+T8:
+    rank = 8
+    W = 2/3
+    composite count = 288
+    inverse weight = 3/2
+```
+
+Current status:
+
+```text
+C1 action readout:
+    best current native scalar readout candidate
+
+rank:
+    dimension ledger only
+
+domain composite count:
+    fingerprint only; produces 108 and 180 but no observable rule yet
+
+inverse weight:
+    not selected; do not use without a variational or spectral reason
+```
+
+Eighteenth spectrum-stage verdict:
+
+```text
+The only current native action readout candidate is W(P)=Tr(P)/12. Counts such
+as 108 and 180 remain fingerprints, not mass coefficients, until the metric
+selects count readout rather than action readout.
+```
+
+## 19. Count-Readout Gate
+
+Implemented in `native_count_readout_gate.py`.
+
+There is a tempting count mode:
+
+```text
+C(P) = dim Lambda^2 End(H1) * Tr(P)
+     = 36 * Tr(P).
+```
+
+This gives:
+
+```text
+C(A3) = 36 * 3 = 108
+C(S5) = 36 * 5 = 180
+C(T8) = 36 * 8 = 288.
+```
+
+But this is not the same as the current commutator action readout:
+
+```text
+W(P)=Tr(P)/12.
+```
+
+The current commutator selector couples the two-form domain to the `T8` image:
+
+```text
+Lambda^2 End(H1) -> T8.
+```
+
+It does not by itself provide an independent tensor-product trace over:
+
+```text
+Lambda^2 End(H1) cells x image-sector labels.
+```
+
+Therefore:
+
+```text
+108 and 180 require an additional product-trace readout rule.
+```
+
+Possible native sources for such a rule:
+
+```text
+boundary gluing trace;
+source-overlap trace;
+separate partition trace;
+independent domain/image factorization.
+```
+
+None is derived here.
+
+Nineteenth spectrum-stage verdict:
+
+```text
+The current native action readout is W(P)=Tr(P)/12. The composite counts 108
+and 180 are available only if the metric supplies an independent product-trace
+readout. That product-trace rule is now the proof obligation before using those
+numbers as observable coefficients.
+```
+
+## 20. Product Trace Versus Commutator Gate
+
+Implemented in `native_product_trace_vs_commutator_gate.py`.
+
+Existing pre-spectrum work supports:
+
+```text
+single internal trace:
+    phi0 internal gluing + induced S2 measure
+    operation: Tr over an internal boundary label
+```
+
+It also supports product traces only conditionally:
+
+```text
+product trace:
+    Tr(K1 tensor K2) = Tr(K1) Tr(K2)
+    gate: independent local transfer slots must be derived.
+```
+
+The current spectrum operator is different:
+
+```text
+commutator selector:
+    Lambda^2 End(H1) -> T8
+```
+
+This map couples and quotients the two-form domain into:
+
+```text
+image + kernel.
+```
+
+Therefore the count:
+
+```text
+dim Lambda^2 End(H1) * Tr(P)
+```
+
+is not licensed by the commutator selector. It would require:
+
+```text
+Lambda^2 End(H1) cells
+```
+
+and:
+
+```text
+image-sector labels
+```
+
+to be independent internal trace slots.
+
+Allowed now:
+
+```text
+W(P)=Tr(P)/12;
+single internal trace over canonical image projectors.
+```
+
+Not allowed yet:
+
+```text
+108=36*3 as an observable coefficient;
+180=36*5 as an observable coefficient;
+mass formulas using domain*image count.
+```
+
+Twentieth spectrum-stage verdict:
+
+```text
+The metric currently licenses commutator-coupled action readout, not
+independent product-count readout. Upgrading 108 or 180 from fingerprints to
+observable coefficients requires a separate derivation of independent
+domain/image transfer slots.
+```
+
+## 21. Quarter Source Reinterpretation
+
+Implemented in `native_quarter_source_reinterpretation.py`.
+
+The legacy corpus contained a recurring:
+
+```text
+source ~= 1/4
+```
+
+in Form-T / `kappa` language.
+
+The new native readout gives:
+
+```text
+W(A3)=Tr(P_A3)/12.
+```
+
+Since:
+
+```text
+Tr(P_A3)=3
+```
+
+we get:
+
+```text
+W(A3)=3/12=1/4.
+```
+
+Inputs:
+
+```text
+T8=A3+S5;
+commutator image unit = 1/12;
+projector trace Tr(P_A3)=3.
+```
+
+Updated status:
+
+```text
+1/4 has a native projector-weight interpretation.
+```
+
+Quarantine remains:
+
+```text
+do not restore kappa;
+do not restore Form-T source machinery;
+do not treat A3 as a particle label yet;
+do not treat 1/4 as a mass coefficient.
+```
+
+Twenty-first spectrum-stage verdict:
+
+```text
+The old quarter source can be reinterpreted natively as the A3 projector trace
+weight under the C1-normalized commutator readout. This preserves the number
+while replacing the mechanism.
+```

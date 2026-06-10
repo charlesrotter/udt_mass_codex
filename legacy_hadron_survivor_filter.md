@@ -359,12 +359,118 @@ C1 normalization bridge: present
 mass readout rule: open
 ```
 
+Projector-trace readout candidate:
+
+```text
+W(P)=Tr(P)/12
+```
+
+on canonical projectors inside the active `T8` image. This gives:
+
+```text
+W(A3)=3/12=1/4
+W(S5)=5/12
+W(T8)=8/12=2/3
+W(S5)/W(A3)=5/3
+W(S5)-W(A3)=1/6
+```
+
+Updated readout status:
+
+```text
+native scalar readout candidate: present
+mass mapping: open
+```
+
+Readout mode audit:
+
+```text
+action readout:
+    W(P)=Tr(P)/12
+    current best native scalar readout candidate
+
+rank readout:
+    Tr(P)
+    dimension ledger only
+
+domain composite count:
+    dim Lambda^2 End(H1) * Tr(P)
+    gives 108 and 180 as fingerprints only
+
+inverse weight:
+    1/W(P)
+    not selected
+```
+
+Guardrail:
+
+```text
+Do not promote 108 or 180 to mass coefficients unless the metric derives
+count readout rather than action readout.
+```
+
+Count-readout gate:
+
+```text
+current action readout:
+    W(P)=Tr(P)/12
+
+unselected product-count readout:
+    C(P)=36*Tr(P)
+    C(A3)=108
+    C(S5)=180
+```
+
+Proof obligation before using `108` or `180` as observable coefficients:
+
+```text
+derive an independent product trace over
+Lambda^2 End(H1) cells x image-sector labels
+from boundary gluing, source overlap, partition trace, or another native
+metric readout.
+```
+
+Product trace versus commutator gate:
+
+```text
+single internal trace:
+    supported by phi0 gluing + induced S2 measure
+
+product trace:
+    conditional on independent local transfer slots
+
+commutator selector:
+    Lambda^2 End(H1) -> T8
+    couples/quotients the two-form domain
+```
+
+Therefore:
+
+```text
+W(P)=Tr(P)/12 is currently licensed;
+36*Tr(P) is not yet licensed as an observable coefficient.
+```
+
+Quarter-source reinterpretation:
+
+```text
+W(A3)=Tr(P_A3)/12=3/12=1/4
+```
+
+Updated status:
+
+```text
+old source ~= 1/4:
+    native projector-weight candidate
+    old Form-T/kappa mechanism remains quarantined
+```
+
 Best next target:
 
 ```text
-interpret the kernel/image split of the commutator projection without importing
-particle labels, then test whether this supplies the first hadron-sector
-operator alphabet.
+test whether W(P)=Tr(P)/12 is only a dimension ledger or whether it couples to
+radial/negative-phi mass readout in a way that can produce observed spectrum
+quantities.
 ```
 
 ## Working Hypothesis
