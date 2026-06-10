@@ -142,6 +142,58 @@ Therefore the updated status is:
 36 and 84 do not yet have native particle-sector selection laws.
 ```
 
+Additional split audit:
+
+```text
+Lambda^2 End(H1) = 8 + 28 = 8 + (3 + 15 + 10) = 36
+Lambda^3 End(H1) = 28 + 56 = 28 + (1 + 15 + 30 + 10) = 84
+```
+
+The old `7` also has a first native-looking replacement target:
+
+```text
+Lambda^2 End(H1) is Hodge-dual to Lambda^7 End(H1).
+```
+
+So `7` may be the Hodge-complement grade of a two-form sector in the native
+9-dimensional operator alphabet. This is not yet the old seven-position orbit.
+It is a candidate native interpretation to test before any legacy orbit
+language is restored.
+
+Pre-spectrum dimension-ladder consilience:
+
+```text
+q = 1/3 = 1 / dim H1
+s = 1/9 = 1 / dim End(H1)
+Delta Pi/R = 1/6 = 1 / (2 dim H1)
+eta = 1/18 = 2 / dim Lambda^2 End(H1)
+eta/2 = 1/36 = 1 / dim Lambda^2 End(H1)
+```
+
+This gives `Lambda^2 End(H1)` the first serious selector candidacy. The
+remaining proof obligation is functional:
+
+```text
+show that the C1 action actually acts on, or projects through,
+Lambda^2 End(H1), rather than merely sharing its dimension.
+```
+
+The match is also `N=3`-locked:
+
+```text
+eta/2 = 1/(4N^2)
+dim Lambda^2 End(H) = C(N^2,2)
+1/(4N^2) = 1/C(N^2,2) only when N=3.
+```
+
+So the current candidate hierarchy is:
+
+```text
+first exterior candidate: Lambda^2 End(H1), dimension 36
+Hodge-complement grade: 7
+next unselected fingerprint: Lambda^3 End(H1), dimension 84
+```
+
 ## Working Hypothesis
 
 The useful legacy hadron material is probably not the old particle mechanism.

@@ -277,3 +277,270 @@ law.
 ```
 
 This is progress, not closure.
+
+## 5. Structured Splits Of 36, 84, And First Native Location For 7
+
+Implemented in `native_h1_exterior_split_audit.py`.
+
+The exterior fingerprints are not isolated binomial numbers. They inherit the
+native splits already found:
+
+```text
+End(H1) = 1 + 8
+8 = 3 + 5.
+```
+
+For the two-form sector:
+
+```text
+Lambda^2 End(H1)
+  = trace wedge 8  +  Lambda^2 8
+  = 8 + 28
+  = 36.
+```
+
+Using `8 = 3 + 5`:
+
+```text
+Lambda^2 8
+  = Lambda^2 3  +  3 tensor 5  +  Lambda^2 5
+  = 3 + 15 + 10
+  = 28.
+```
+
+Therefore:
+
+```text
+36 = 8 + (3 + 15 + 10).
+```
+
+For the three-form sector:
+
+```text
+Lambda^3 End(H1)
+  = trace wedge Lambda^2 8  +  Lambda^3 8
+  = 28 + 56
+  = 84.
+```
+
+Using `8 = 3 + 5`:
+
+```text
+Lambda^3 8
+  = Lambda^3 3
+    + Lambda^2 3 tensor 5
+    + 3 tensor Lambda^2 5
+    + Lambda^3 5
+  = 1 + 15 + 30 + 10
+  = 56.
+```
+
+Therefore:
+
+```text
+84 = 28 + (1 + 15 + 30 + 10).
+```
+
+These are exact structural decompositions of the native operator alphabet.
+They are stronger than a loose numerical coincidence because every term is
+forced by:
+
+```text
+H1 dimension 3;
+End(H1) trace split 1+8;
+angular tensor split 8=3+5;
+exterior algebra.
+```
+
+The selector is still not closed:
+
+```text
+The metric has not yet been shown to choose Lambda^2 End(H1) or
+Lambda^3 End(H1) as particle sectors.
+```
+
+However, the old `7` also gets its first native-looking location. In the
+9-dimensional operator alphabet:
+
+```text
+* Lambda^2 End(H1) = Lambda^7 End(H1).
+```
+
+So:
+
+```text
+7 = Hodge-complement grade of the two-form sector in End(H1).
+```
+
+This is not the old seven-position closure orbit. It is a native grade
+relation:
+
+```text
+pair sector grade 2  <->  complement grade 7.
+```
+
+Fifth spectrum-stage verdict:
+
+```text
+36 and 84 are now structured exterior fingerprints of the native H1 operator
+alphabet. The number 7 has a first native Hodge-grade interpretation as the
+dual grade to a two-form sector. A particle-sector selector is still required.
+```
+
+## 6. Pre-Spectrum Constants As A Dimension Ladder
+
+Implemented in `native_prespectrum_dimension_ladder.py`.
+
+The pre-spectrum closure produced:
+
+```text
+q = 1/3
+s = 1/9
+Delta Pi/R = 1/6
+eta = 1/18
+eta/2 = 1/36
+```
+
+The native operator alphabet gives:
+
+```text
+dim H1 = 3
+dim End(H1) = 9
+dim Lambda^2 End(H1) = 36
+```
+
+These match exactly:
+
+```text
+q = 1 / dim H1
+s = 1 / dim End(H1)
+Delta Pi/R = 1 / (2 dim H1)
+eta = 2 / dim Lambda^2 End(H1)
+eta/2 = 1 / dim Lambda^2 End(H1)
+```
+
+This is the first nontrivial selector candidate.
+
+The metric did not merely produce `1/36` as a free number. In the current
+operator alphabet:
+
+```text
+1/36 = 1 / dim Lambda^2 End(H1).
+```
+
+Therefore the two-form sector:
+
+```text
+Lambda^2 End(H1)
+```
+
+is no longer just a legacy fingerprint target. It is the first exterior sector
+whose dimension is already imprinted in the pre-spectrum C1 action.
+
+Candidate selector statement:
+
+```text
+The elementary branch C1 action selects the normalized two-form operator
+sector of End(H1).
+```
+
+Status:
+
+```text
+CANDIDATE, not yet DERIVED.
+```
+
+What is derived:
+
+```text
+the exact dimension equalities.
+```
+
+What is not yet derived:
+
+```text
+that the C1 action functionally acts on Lambda^2 End(H1);
+that Lambda^2 End(H1) is a particle sector;
+that its Hodge complement Lambda^7 End(H1) is the old closure orbit;
+that Lambda^3 End(H1) and the coefficient 84 are selected.
+```
+
+Still, the jigsaw pattern tightened:
+
+```text
+3  -> H1
+9  -> End(H1)
+36 -> Lambda^2 End(H1)
+7  -> Hodge-complement grade to Lambda^2 in 9D
+84 -> next exterior/Hodge-paired three-form fingerprint
+```
+
+Sixth spectrum-stage verdict:
+
+```text
+The pre-spectrum constants align exactly with the native H1 operator dimension
+ladder through Lambda^2 End(H1). This gives a serious native selector candidate
+for the two-form sector, while leaving the three-form/84 selector open.
+```
+
+## 7. The Two-Form Match Is N=3-Locked
+
+Implemented in `native_twoform_selector_n3_lock.py`.
+
+For a general rank-`N` carrier `H`, the one-graph branch would give:
+
+```text
+q = 1/N
+eta/2 = 1/(4N^2).
+```
+
+The operator alphabet would have:
+
+```text
+dim End(H) = N^2
+dim Lambda^2 End(H) = C(N^2,2).
+```
+
+The C1 side action matches the reciprocal two-form dimension only if:
+
+```text
+1/(4N^2) = 1/C(N^2,2)
+```
+
+equivalently:
+
+```text
+C(N^2,2) = 4N^2
+N^2(N^2-1)/2 = 4N^2
+N^2 - 1 = 8
+N = 3.
+```
+
+Thus:
+
+```text
+eta/2 = 1/dim Lambda^2 End(H)
+```
+
+is not a generic dimension coincidence. It is locked to:
+
+```text
+dim H = 3.
+```
+
+Seventh spectrum-stage verdict:
+
+```text
+The projected C1 side action selects the reciprocal of the two-form operator
+dimension only on the H1/N=3 branch. This strengthens Lambda^2 End(H1) as the
+first native exterior-sector candidate.
+```
+
+Still not claimed:
+
+```text
+the C1 functional has been proven to act on Lambda^2 End(H1);
+Lambda^2 End(H1) is a particle sector;
+the Hodge-dual grade 7 is a closure orbit;
+Lambda^3 End(H1), dimension 84, is selected.
+```
