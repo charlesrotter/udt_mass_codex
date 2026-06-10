@@ -2329,3 +2329,76 @@ The metric taxonomy has a layered grammar. Spectrum readout must pass through
 the global quotient before scalar weights are assigned. This prevents local
 interaction structure from being mistaken for global particle multiplicity.
 ```
+
+## 30. First Spectrum Branch Gate
+
+Implemented in `native_first_spectrum_branch_gate.py`.
+
+Candidate branches:
+
+```text
+single-sector action:
+    objects:
+        A3, S5, T8
+    readout:
+        W(A3)=1/4
+        W(S5)=5/12
+        W(T8)=2/3
+    radial status:
+        common q=1/3 branch
+    missing:
+        species map or generation/depth rule
+
+balanced two-form channel:
+    object:
+        A3 wedge S5 -> S5
+    domain load:
+        5/12
+    image action:
+        5/12
+    residual:
+        0
+    missing:
+        source-overlap / physical interpretation
+
+pure S5 channel:
+    object:
+        S5 wedge S5 -> A3
+    residual:
+        eta/2 = 1/36
+    missing:
+        side-action/source residual interpretation
+
+pure A3 channel:
+    object:
+        A3 wedge A3 -> A3
+    residual:
+        -q/2 = -1/6
+    missing:
+        boundary momentum/source supply interpretation
+
+three-form support:
+    objects:
+        Lambda^3 A3
+        A3 wedge Lambda^2 S5
+    missing:
+        radial readout for three-form scalar
+```
+
+Recommended order:
+
+```text
+1. single-sector action
+2. balanced A3-S5 two-form channel
+3. pure S5 residual channel
+4. pure A3 residual channel
+5. three-form support
+```
+
+Thirtieth spectrum-stage verdict:
+
+```text
+The first spectrum test should use single-sector action readout on the common
+radial branch. The first interaction test should use the balanced A3-S5 channel.
+Observed particle names remain premature until a species/depth map is derived.
+```

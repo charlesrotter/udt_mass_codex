@@ -639,6 +639,22 @@ sector-dependent q(P) -> ground spectrum
 kernel dimensions -> hidden energy
 ```
 
+First branch gate:
+
+```text
+first spectrum test:
+    single-sector action readout
+    W(A3), W(S5), W(T8) on common q=1/3 branch
+
+first interaction test:
+    balanced A3 wedge S5 -> S5 channel
+
+defer:
+    pure residual channels
+    three-form support
+    product-count coefficients
+```
+
 ## Working Hypothesis
 
 The useful legacy hadron material is probably not the old particle mechanism.
