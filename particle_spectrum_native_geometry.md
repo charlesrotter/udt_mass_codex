@@ -2867,3 +2867,71 @@ a single ratio ladder: the channels differ by how they couple to the phi=0
 C1 boundary instruments. This is a spectrum-construction grammar, not an
 observed-particle assignment.
 ```
+
+## 38. Trace-Kernel Bridge Audit
+
+Implemented in `native_trace_kernel_bridge_audit.py`.
+
+The parked channel is:
+
+```text
+trace wedge T8.
+```
+
+Because the trace generator is central, the commutator gives:
+
+```text
+trace wedge T8 -> no commutator image.
+```
+
+But the channel is not empty. Its domain load is:
+
+```text
+dim(trace wedge T8) * domain unit
+    = 8 * (1/36)
+    = 2/9.
+```
+
+Exact identities:
+
+```text
+2/9 = 8 * (eta/2)
+2/9 = 4 * eta
+2/9 = q * W(T8)
+```
+
+with:
+
+```text
+q = 1/3
+eta = 1/18
+W(T8) = 2/3.
+```
+
+Interpretation:
+
+```text
+trace wedge T8 is silent under the commutator,
+but it carries an exact scalar-identity load over the whole active T8 alphabet.
+```
+
+Possible native roles:
+
+```text
+boundary normalization;
+scalar-background bridge;
+gauge/quotient load removed before active interaction readout.
+```
+
+Thirty-eighth spectrum-stage verdict:
+
+```text
+The trace-kernel channel should not be discarded as zero. It is zero as an
+interaction image, but exact as a scalar load:
+
+    2/9 = q * W(T8).
+
+This may be the native place where the scalar/trace side couples to the active
+angular alphabet. Its role remains open until a boundary-normalization or
+quotient rule is derived.
+```

@@ -800,6 +800,25 @@ trace wedge T8:
     parked until trace-kernel readout is derived
 ```
 
+Trace-kernel bridge audit:
+
+```text
+trace wedge T8 has no commutator image,
+but its domain load is exact:
+
+    8 * (1/36) = 2/9
+    2/9 = 8 * (eta/2)
+    2/9 = 4 * eta
+    2/9 = q * W(T8)
+```
+
+Status:
+
+```text
+not an interaction image;
+candidate scalar/trace bridge to the active T8 alphabet.
+```
+
 ## Working Hypothesis
 
 The useful legacy hadron material is probably not the old particle mechanism.
