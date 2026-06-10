@@ -781,6 +781,25 @@ pure-channel residuals pass a necessary native accounting gate;
 they are still not particle assignments or mass coefficients.
 ```
 
+Two-form channel admissibility classes:
+
+```text
+A3 wedge S5 -> S5:
+    freely balanced interaction
+
+S5 wedge S5 -> A3:
+    one-sided-transfer coupled
+    closes only with eta/2 export
+
+A3 wedge A3 -> A3:
+    boundary-momentum coupled
+    closes only with q/2 supply
+
+trace wedge T8:
+    silent kernel load
+    parked until trace-kernel readout is derived
+```
+
 ## Working Hypothesis
 
 The useful legacy hadron material is probably not the old particle mechanism.

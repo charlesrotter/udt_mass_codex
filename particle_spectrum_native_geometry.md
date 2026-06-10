@@ -2792,3 +2792,78 @@ means pure channels may enter later only through typed boundary accounting,
 while the mixed A3-S5 branch remains the first freely balanced interaction
 branch.
 ```
+
+## 37. Channel Admissibility Classes
+
+Implemented in `native_channel_admissibility_classes.py`.
+
+After the pure-channel accounting gate, the two-form sector splits into typed
+admissibility classes.
+
+Native instruments:
+
+```text
+scalar boundary momentum:
+    q/2 = 1/6
+
+one-sided H1 transfer:
+    eta/2 = 1/36
+
+C1 image unit:
+    1/12
+
+C1 domain unit:
+    1/36
+```
+
+Channel classes:
+
+```text
+A3 wedge S5 -> S5:
+    class: freely balanced interaction
+    residual: 0
+    admissibility: before source accounting
+
+S5 wedge S5 -> A3:
+    class: one-sided-transfer coupled
+    residual: +1/36
+    closure: +1/36 - eta/2 = 0
+    admissibility: only with eta/2 transfer export
+
+A3 wedge A3 -> A3:
+    class: boundary-momentum coupled
+    residual: -1/6
+    closure: -1/6 + q/2 = 0
+    admissibility: only with q/2 boundary supply
+
+trace wedge T8:
+    class: silent kernel load
+    residual: 2/9
+    admissibility: parked until trace-kernel role is derived
+```
+
+Admissibility order:
+
+```text
+1. A3 wedge S5 -> S5
+2. S5 wedge S5 -> A3
+3. A3 wedge A3 -> A3
+4. trace wedge T8
+```
+
+The order is not a mass ranking. It is a construction discipline:
+
+```text
+free channel first;
+typed-boundary channels second;
+silent kernel only after a derived trace-kernel readout.
+```
+
+Thirty-seventh spectrum-stage verdict:
+
+```text
+The metric now supplies a native two-form channel taxonomy. It is richer than
+a single ratio ladder: the channels differ by how they couple to the phi=0
+C1 boundary instruments. This is a spectrum-construction grammar, not an
+observed-particle assignment.
+```
