@@ -56,6 +56,14 @@ coupling as the prime suspect for the discreteness gap.
   check N-specificity) before being banked as evidence.
 - Commit per result; push to github.com/charlesrotter/udt_mass_codex.
 
+## Canon
+
+Charles-canonized statements live in CANON.md (append-only). As of
+2026-06-10: R-areal reading (rho = r is a theorem; branch-(iii) statics
+closed), the finite-cell canon (no spatial infinity; universe and matter
+cells are finite mirrored domains), and the discreteness-program
+redirect (nonstationary weld sector / transfer ladder / ensembles).
+
 ## Orientation
 
 - Load STATE.md first (frontier snapshot), then INDEX.md (repo map).
