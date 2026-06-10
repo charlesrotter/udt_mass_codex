@@ -2185,3 +2185,147 @@ The pure S5-S5 and A3-A3 channels leave residuals equal to already-native C1
 quantities. This is a channel-coupling clue, not yet a particle force or mass
 formula.
 ```
+
+## 28. Channel Locality Versus Global Quotient
+
+Implemented in `native_channel_global_quotient_audit.py`.
+
+The channel-balance audit is local to each block. Local image ranks are:
+
+```text
+trace wedge T8:
+    image 0
+
+A3 wedge A3:
+    image 3
+
+A3 wedge S5:
+    image 5
+
+S5 wedge S5:
+    image 3
+```
+
+Their local sum is:
+
+```text
+0 + 3 + 5 + 3 = 11.
+```
+
+But the global commutator image is:
+
+```text
+T8 = A3 + S5
+dim T8 = 8.
+```
+
+Therefore the local channel image count contains an overlap:
+
+```text
+overlap rank = 11 - 8 = 3.
+```
+
+This overlap is precisely the repeated `A3` image:
+
+```text
+A3 wedge A3 -> A3
+S5 wedge S5 -> A3
+```
+
+Action accounting:
+
+```text
+total domain load = 36 * (1/36) = 1
+
+local image action = 11 * (1/12) = 11/12
+local residual = 1/12
+
+global image action = 8 * (1/12) = 2/3
+global residual = 1/3
+
+overlap action = 3 * (1/12) = 1/4.
+```
+
+Exact identity:
+
+```text
+local residual + overlap action = global residual
+1/12 + 1/4 = 1/3.
+```
+
+Native meanings:
+
+```text
+overlap action = 1/4 = W(A3)
+local residual = 1/12 = S_C1/R
+global residual = 1/3 = trace-kernel fraction of Lambda^3 End(H1)
+global image action = 2/3 = active Lambda^3 T8 fraction.
+```
+
+Twenty-eighth spectrum-stage verdict:
+
+```text
+Local channel balances diagnose interaction structure. Global spectrum readout
+must use the quotient image T8, where the duplicate A3 image is identified.
+The quotient correction is exactly the A3 projector weight 1/4.
+```
+
+## 29. Taxonomy Grammar Layers
+
+Implemented in `native_taxonomy_grammar_layers.py`.
+
+The emerging taxonomy has layers:
+
+```text
+Layer 0: container
+    negative-phi mass-emergence container
+    common radial branch q=1/3
+    C1 action unit 1/12
+
+Layer 1: alphabet
+    End(H1)=trace + A3 + S5
+    available sector letters before interactions
+
+Layer 2: local channels
+    Lambda^2 End(H1) channel blocks
+    diagnose interaction routes and local residuals
+    not global spectrum counts
+
+Layer 3: global quotient
+    commutator image T8
+    identifies overlapping local images
+    especially repeated A3
+
+Layer 4: readout
+    W(P)=Tr(P)/12
+    current scalar action readout on global image sectors
+
+Layer 5: excitation candidates
+    sector-dependent q(P)
+    product counts
+    kernel energies
+    all parked until extra boundary/source rules derive them
+```
+
+Allowed transition:
+
+```text
+container -> alphabet -> local channels -> global quotient -> readout.
+```
+
+Blocked shortcuts:
+
+```text
+local channel counts -> masses;
+domain*image product counts -> observables;
+sector-dependent q(P) -> ground spectrum;
+kernel dimensions -> hidden energy.
+```
+
+Twenty-ninth spectrum-stage verdict:
+
+```text
+The metric taxonomy has a layered grammar. Spectrum readout must pass through
+the global quotient before scalar weights are assigned. This prevents local
+interaction structure from being mistaken for global particle multiplicity.
+```

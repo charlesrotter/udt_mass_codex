@@ -592,6 +592,53 @@ native channel-coupling clue: present
 particle force/mass interpretation: open
 ```
 
+Channel local/global quotient:
+
+```text
+local channel image ranks:
+    A3^A3 -> 3
+    A3^S5 -> 5
+    S5^S5 -> 3
+    total local image = 11
+
+global image:
+    T8 = 8
+
+overlap:
+    11 - 8 = 3 = repeated A3 image
+```
+
+Action correction:
+
+```text
+overlap action = 3/12 = 1/4 = W(A3)
+local residual = 1/12
+global residual = 1/3
+1/12 + 1/4 = 1/3
+```
+
+Guardrail:
+
+```text
+use local channel balances to diagnose interaction structure;
+use global quotient T8 for spectrum readout.
+```
+
+Taxonomy grammar:
+
+```text
+container -> alphabet -> local channels -> global quotient -> readout
+```
+
+Blocked shortcuts:
+
+```text
+local channel counts -> masses
+domain*image product counts -> observables
+sector-dependent q(P) -> ground spectrum
+kernel dimensions -> hidden energy
+```
+
 ## Working Hypothesis
 
 The useful legacy hadron material is probably not the old particle mechanism.
