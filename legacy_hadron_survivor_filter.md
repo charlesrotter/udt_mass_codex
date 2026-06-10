@@ -194,6 +194,22 @@ Hodge-complement grade: 7
 next unselected fingerprint: Lambda^3 End(H1), dimension 84
 ```
 
+Functional selector status:
+
+```text
+dimension ladder: strong
+N=3 lock: strong
+functional Lambda^2 End(H1) action: open
+```
+
+Best next target:
+
+```text
+derive an End(H1)-valued boundary field, curvature, or source-overlap operator
+whose native action is an alternating two-form over the 9-dimensional operator
+alphabet.
+```
+
 ## Working Hypothesis
 
 The useful legacy hadron material is probably not the old particle mechanism.

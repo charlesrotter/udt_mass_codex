@@ -544,3 +544,73 @@ Lambda^2 End(H1) is a particle sector;
 the Hodge-dual grade 7 is a closure orbit;
 Lambda^3 End(H1), dimension 84, is selected.
 ```
+
+## 8. Functional Selector Audit
+
+Implemented in `native_twoform_functional_selector_audit.py`.
+
+The current evidence for `Lambda^2 End(H1)` has two parts:
+
+```text
+exact dimension match:
+    eta/2 = 1/dim Lambda^2 End(H1)
+
+N=3 lock:
+    this match happens only for dim H = 3.
+```
+
+That is strong, but it is still a dimensional selector candidate. A functional
+selector must show that a native action, boundary form, curvature, or source
+operator actually acts on:
+
+```text
+Lambda^2 End(H1).
+```
+
+Candidate routes:
+
+```text
+1. dimension ladder
+   status: strong dimensional selector candidate
+   gap: does not prove functional action on Lambda^2 End(H1)
+
+2. C1 boundary symplectic form
+   status: native two-form exists
+   gap: it acts on boundary phase-space pairs delta Pi wedge delta f,
+        not yet on unordered pairs of End(H1) operator directions
+
+3. H1 harmonic area carrier
+   status: native exterior/top-form structure on H1
+   gap: selects Lambda^3 H1 -> dOmega_S2, not Lambda^2 End(H1)
+
+4. angular connection/curvature
+   status: promising native route
+   gap: S2/H1 connection first acts in the antisymmetric 3; must show whether
+        the full End(H1) pair space is involved
+
+5. scalar/vector/tensor metric perturbation split
+   status: possible orchestra ingredient
+   gap: gives sector ingredients, not a two-form selector by itself
+```
+
+Functional-selector verdict:
+
+```text
+No route currently proves a functional Lambda^2 End(H1) particle-sector
+selector.
+```
+
+Best next target:
+
+```text
+derive an End(H1)-valued boundary field, curvature, or source-overlap operator
+whose native action is an alternating two-form over the 9-dimensional operator
+alphabet.
+```
+
+This is now the bottleneck between pre-spectrum and particle-sector spectrum:
+
+```text
+dimension ladder: strong;
+functional selector: open.
+```
