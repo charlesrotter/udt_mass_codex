@@ -94,7 +94,24 @@ first principles).
 
 ## Active priority queue
 
-0. CANONIZATION PENDING (macro_sector_fork_resolution.md): the macro
+0. WELD PHASE 2 — THE HIGHEST-LEVERAGE COMPUTATION: Reading-A spectra
+   on the banked sourced backgrounds (eta=1/18, ell=1 source, CANON C-2
+   interface BCs). Phase 1 settled (weld_status_results.md, grade d):
+   the native C1 system has its OWN algebraic weld f*phi0'*H1 =
+   2*d_t(dphi) (= vanishing radial energy flux, delta-T_tr = 0); H1 is
+   auxiliary; K=0 forced by perturbed R-areal canon; eliminating H1
+   flips the kinetic sign -> elliptic on vacuum (no real modes, E0>=0
+   theorem) BUT on SOURCED collars (E0<0) a real-frequency oscillation
+   window OPENS (verified counterexample omega^2=+7.53): the source
+   that softens the core can enable its own oscillation modes. Question
+   now computable: does the physical eta=1/18 cell sit inside the
+   window? Also queued: Readings B/C comparison spectra; the macro
+   discriminator (native-weld CMB projection H1 = -4 d_t(dphi)/f' vs
+   the record); the Einstein weld is a freestanding import at BOTH
+   scopes (channel-specific macro support; phase channel may not
+   discriminate).
+[RESOLVED 2026-06-10 — canonized, see CANON.md] CANONIZATION
+   (macro_sector_fork_resolution.md): the macro
    sector resolves the fork — the data-validated SNe/BAO/Misner-Sharp
    stack (Pantheon+ chi2/dof 0.94 beating LCDM at 0 free params) treats
    r as AREAL radius throughout => R-areal reading => rho=r FORCED (C2
