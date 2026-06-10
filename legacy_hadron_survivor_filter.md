@@ -213,11 +213,51 @@ trace wedge T8 lies in the kernel
 active bracket domain Lambda^2 T8 has dimension 28
 ```
 
+Isotropic commutator projection:
+
+```text
+B: Lambda^2 End(H1) -> T8
+B B^T = 3 P_T8
+(1/sqrt(3)) B is coisometric onto T8
+```
+
+C1 weighting:
+
+```text
+eta/2 = 1/36 = 1 / dim Lambda^2 End(H1)
+```
+
+So the current two-form selector status is:
+
+```text
+C1 supplies uniform domain weight over Lambda^2 End(H1);
+the native commutator maps that domain isotropically onto T8;
+physical sector interpretation and mass readout remain open.
+```
+
+Kernel/image hierarchy:
+
+```text
+Lambda^2 End(H1): domain 36, image 8, kernel 28
+trace wedge T8: central kernel 8
+Lambda^2 T8: active domain 28, image 8, internal kernel 20
+image T8: 8 = A3 + S5 = 3 + 5
+```
+
+This means old hadron-sector `36` clues should be read first as the C1-weighted
+two-form domain, not as the active particle alphabet itself. The first active
+operator image is:
+
+```text
+T8 = 3 + 5.
+```
+
 Best next target:
 
 ```text
-show whether the C1 side action eta/2=1/36 weights or normalizes the native
-commutator two-form in the particle sector.
+interpret the kernel/image split of the commutator projection without importing
+particle labels, then test whether this supplies the first hadron-sector
+operator alphabet.
 ```
 
 ## Working Hypothesis

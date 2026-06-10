@@ -736,3 +736,193 @@ The native operator alphabet now supplies both:
 This is the first concrete bridge from pre-spectrum constants to a native
 operator-sector mechanism. It is not yet a mass spectrum.
 ```
+
+## 10. Isotropic Commutator Projection And C1 Domain Weight
+
+Implemented in `native_commutator_isotropy_c1_weight.py`.
+
+Let:
+
+```text
+B: Lambda^2 End(H1) -> T8
+```
+
+be the commutator map:
+
+```text
+B(A wedge C) = [A,C].
+```
+
+Using the standard trace/Frobenius pairing on `End(H1)`, the exact audit gives:
+
+```text
+B B^T = 3 P_T8
+```
+
+where:
+
+```text
+P_T8 = projector onto the traceless 8-dimensional subspace.
+```
+
+Therefore the commutator two-form is isotropic onto `T8`. After normalization:
+
+```text
+(1/sqrt(3)) B
+```
+
+is a coisometry onto `T8`.
+
+Exact data:
+
+```text
+dim Lambda^2 End(H1) = 36
+rank image = 8
+kernel dimension = 28
+trace(B B^T) = 24
+singular square on T8 = 3
+```
+
+The C1 side action is:
+
+```text
+eta/2 = 1/36.
+```
+
+So the C1 side action is exactly the uniform unit weight over the
+two-form operator domain:
+
+```text
+eta/2 = 1 / dim Lambda^2 End(H1).
+```
+
+This sharpens the selector picture:
+
+```text
+domain measure:
+    C1 supplies uniform weight 1/36 over Lambda^2 End(H1)
+
+functional map:
+    commutator sends Lambda^2 End(H1) isotropically onto T8
+
+normalized image:
+    (1/sqrt(3))[.,.] is the canonical coisometric projection onto T8
+```
+
+This is a native bridge between:
+
+```text
+pre-spectrum C1 side action
+and
+operator-sector traceless dynamics.
+```
+
+Still not claimed:
+
+```text
+particle masses;
+hadron spectrum;
+local gauge principle;
+quarks/color;
+that every Lambda^2 End(H1) cell is physically occupied;
+that the kernel has been interpreted physically.
+```
+
+Tenth spectrum-stage verdict:
+
+```text
+The C1 side action now has a precise native operator meaning: it is the
+uniform domain weight on Lambda^2 End(H1), whose commutator map projects
+isotropically onto the traceless 8-sector. This closes the existence and
+normalization parts of the two-form selector, leaving physical sector
+interpretation and mass readout open.
+```
+
+## 11. Kernel/Image Split Of The Commutator Selector
+
+Implemented in `native_commutator_kernel_image_split.py`.
+
+The full two-form domain decomposes as:
+
+```text
+Lambda^2 End(H1)
+  = trace wedge T8
+    + Lambda^2 A3
+    + A3 wedge S5
+    + Lambda^2 S5
+```
+
+with dimensions:
+
+```text
+8 + 3 + 15 + 10 = 36.
+```
+
+The commutator acts as:
+
+```text
+[trace, T8] = 0
+[A3, A3] -> A3
+[A3, S5] -> S5
+[S5, S5] -> A3
+```
+
+Exact block ranks:
+
+```text
+trace wedge T8:
+    domain 8, image 0, kernel 8
+
+Lambda^2 A3:
+    domain 3, image 3, kernel 0
+
+A3 wedge S5:
+    domain 15, image 5, kernel 10
+
+Lambda^2 S5:
+    domain 10, image 3, kernel 7
+```
+
+Combined active sector:
+
+```text
+Lambda^2 T8:
+    domain 28, image 8, kernel 20
+```
+
+Full selector:
+
+```text
+Lambda^2 End(H1):
+    domain 36, image 8, kernel 28
+```
+
+Interpretation:
+
+```text
+The C1-weighted two-form domain is larger than the active image.
+The commutator filters it down to the traceless 8-sector.
+The image keeps the angular tensor split:
+    A3 image + S5 image = 3 + 5.
+```
+
+This gives a native operator-orchestra pattern:
+
+```text
+domain: 36 two-form cells
+central silent sector: 8
+active traceless domain: 28
+internal active kernel: 20
+image: 8 = 3 + 5
+```
+
+No particle labels are needed for this statement.
+
+Eleventh spectrum-stage verdict:
+
+```text
+The metric-native operator algebra now supplies a weighted two-form domain,
+an isotropic commutator projection, and an intrinsic kernel/image filter.
+The first active spectrum alphabet is the traceless image T8=3+5, not the full
+36-dimensional two-form domain.
+```
