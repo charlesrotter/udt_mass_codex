@@ -2402,3 +2402,180 @@ The first spectrum test should use single-sector action readout on the common
 radial branch. The first interaction test should use the balanced A3-S5 channel.
 Observed particle names remain premature until a species/depth map is derived.
 ```
+
+## 31. Single-Sector Action Ladder Audit
+
+Implemented in `native_single_sector_action_ladder_audit.py`.
+
+The single-sector action weights are:
+
+```text
+A3 = 1/4
+S5 = 5/12
+T8 = 2/3.
+```
+
+Native order:
+
+```text
+A3 < S5 < T8.
+```
+
+Gaps:
+
+```text
+S5 - A3 = 5/12 - 1/4 = 1/6
+T8 - S5 = 2/3 - 5/12 = 1/4
+T8 - A3 = 2/3 - 1/4 = 5/12.
+```
+
+Ratios:
+
+```text
+S5 / A3 = 5/3
+T8 / S5 = 8/5
+T8 / A3 = 8/3.
+```
+
+Complements:
+
+```text
+1 - A3 = 3/4
+1 - S5 = 7/12
+1 - T8 = 1/3.
+```
+
+Normalized to the full active image weight `T8=2/3`:
+
+```text
+A3/T8 = 3/8
+S5/T8 = 5/8
+T8/T8 = 1.
+```
+
+This is a native classification ladder seed:
+
+```text
+sector order;
+sector gaps;
+sector ratios;
+sector complements;
+sector shares inside T8.
+```
+
+But it is not yet a mass ladder. Missing:
+
+```text
+rule mapping action weights, gaps, ratios, complements, or T8 shares to
+observed mass ratios.
+```
+
+Thirty-first spectrum-stage verdict:
+
+```text
+The single-sector readout gives a structured taxonomy ladder, not yet a
+particle mass ladder. The metric has ordered the sector weights; it has not
+yet said which observable reads that order.
+```
+
+## 32. Sector Share And Channel Consistency
+
+Implemented in `native_sector_share_channel_consistency.py`.
+
+Normalize the single-sector weights by the full active image:
+
+```text
+A3/T8 = (1/4)/(2/3) = 3/8
+S5/T8 = (5/12)/(2/3) = 5/8.
+```
+
+These shares are not isolated.
+
+The global quotient audit found:
+
+```text
+overlap action = W(A3) = 1/4
+global image action = W(T8) = 2/3
+```
+
+so:
+
+```text
+overlap share = (1/4)/(2/3) = 3/8.
+```
+
+Therefore:
+
+```text
+A3 share = quotient-overlap share.
+```
+
+The balanced mixed channel found:
+
+```text
+A3 wedge S5 -> S5
+domain load = image action = W(S5) = 5/12.
+```
+
+So:
+
+```text
+S5 share = balanced mixed-channel image share = 5/8.
+```
+
+Thirty-second spectrum-stage verdict:
+
+```text
+The single-sector ladder is channel-consistent: A3 is the quotient-overlap
+share, while S5 is stabilized by the balanced A3-S5 mixed channel. This
+strengthens the taxonomy, but still does not assign observed particles.
+```
+
+## 33. Single-Sector To Interaction Handoff
+
+Implemented in `native_single_to_interaction_handoff.py`.
+
+The `S5` single-sector readout is:
+
+```text
+W(S5)=5/12.
+```
+
+The balanced mixed channel gives:
+
+```text
+A3 wedge S5 -> S5
+domain load = 15/36 = 5/12
+image action = 5/12
+residual = 0.
+```
+
+Therefore:
+
+```text
+W(S5)
+  = mixed-channel domain load
+  = mixed-channel image action.
+```
+
+This creates the first exact handoff:
+
+```text
+single-sector taxonomy -> interaction taxonomy.
+```
+
+Meaning:
+
+```text
+S5 can be read both as:
+    an active image sector;
+    the output of the first balanced mixed interaction channel.
+```
+
+Thirty-third spectrum-stage verdict:
+
+```text
+The S5 branch is the first composable taxonomy object: it is simultaneously a
+single-sector readout and the balanced A3-S5 interaction output. This is a
+native composition rule, not yet a particle assignment.
+```

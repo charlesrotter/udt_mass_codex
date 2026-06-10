@@ -655,6 +655,71 @@ defer:
     product-count coefficients
 ```
 
+Single-sector action ladder:
+
+```text
+A3 = 1/4
+S5 = 5/12
+T8 = 2/3
+
+order:
+    A3 < S5 < T8
+
+gaps:
+    S5-A3 = 1/6
+    T8-S5 = 1/4
+    T8-A3 = 5/12
+
+shares in T8:
+    A3/T8 = 3/8
+    S5/T8 = 5/8
+```
+
+Status:
+
+```text
+classification ladder seed: present
+mass ladder: not derived
+```
+
+Sector share/channel consistency:
+
+```text
+A3/T8 = 3/8
+S5/T8 = 5/8
+
+A3 share:
+    quotient-overlap share
+
+S5 share:
+    balanced A3 wedge S5 channel image share
+```
+
+Status:
+
+```text
+3/5 split is channel-consistent;
+particle assignment remains open.
+```
+
+Single-sector to interaction handoff:
+
+```text
+W(S5)=5/12
+A3 wedge S5 -> S5:
+    domain load = 5/12
+    image action = 5/12
+    residual = 0
+```
+
+Status:
+
+```text
+S5 is the first composable taxonomy object:
+    single-sector readout
+    balanced mixed-channel output
+```
+
 ## Working Hypothesis
 
 The useful legacy hadron material is probably not the old particle mechanism.
