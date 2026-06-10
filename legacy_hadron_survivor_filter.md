@@ -819,6 +819,35 @@ not an interaction image;
 candidate scalar/trace bridge to the active T8 alphabet.
 ```
 
+Metric fan-out atlas:
+
+```text
+negative phi -> phi=0 boundary -> H1 -> End(H1) -> T8
+```
+
+with channel roads:
+
+```text
+A3 wedge S5 -> S5:
+    freely balanced
+
+S5 wedge S5 -> A3:
+    eta/2 transfer-coupled
+
+A3 wedge A3 -> A3:
+    q/2 boundary-momentum-coupled
+
+trace wedge T8:
+    scalar/trace bridge candidate
+```
+
+Status:
+
+```text
+this is a native admissibility atlas;
+not yet a particle assignment.
+```
+
 ## Working Hypothesis
 
 The useful legacy hadron material is probably not the old particle mechanism.

@@ -2935,3 +2935,116 @@ This may be the native place where the scalar/trace side couples to the active
 angular alphabet. Its role remains open until a boundary-normalization or
 quotient rule is derived.
 ```
+
+## 39. Metric Fan-Out Atlas
+
+Implemented in `native_metric_fanout_atlas.py`.
+
+The current spectrum-stage structure can be read as a native road atlas
+supplied by the metric.
+
+Nodes:
+
+```text
+negative-phi container:
+    mass-emergence domain
+
+phi=0 boundary:
+    interface between negative-phi matter cell and positive-phi scalar background
+
+trace:
+    scalar identity sector
+    central under the commutator
+
+H1:
+    dimension 3
+    first nontrivial finite angular endpoint sector
+
+A3:
+    dimension 3
+    W(A3) = 1/4
+
+S5:
+    dimension 5
+    W(S5) = 5/12
+
+T8:
+    dimension 8
+    W(T8) = 2/3
+    T8 = A3 + S5
+```
+
+Boundary instruments:
+
+```text
+q = 1/3
+eta = 1/18
+C1 boundary momentum = q/2 = 1/6
+H1 projected unit = eta = 1/18
+one-sided H1 transfer = eta/2 = 1/36
+domain unit = 1/36
+image unit = 1/12
+```
+
+Roads:
+
+```text
+negative-phi container -> phi=0 boundary:
+    finite C1 boundary/conjugate data
+    exact quantity: q/2
+
+phi=0 boundary -> H1:
+    round S2/H1 projection
+    exact quantity: eta = (q/2)/3
+
+H1 -> End(H1):
+    endomorphism algebra
+    exact quantity: 9 = 1 + 3 + 5
+
+End(H1) -> T8:
+    commutator kills trace and images traceless sector
+    exact quantity: T8 = A3 + S5
+
+A3 wedge S5 -> S5:
+    freely balanced interaction
+    exact quantity: 5/12 - 5/12 = 0
+
+S5 wedge S5 -> A3:
+    one-sided-transfer coupled
+    exact quantity: 5/18 - 1/4 = eta/2
+
+A3 wedge A3 -> A3:
+    boundary-momentum coupled
+    exact quantity: 1/12 - 1/4 = -q/2
+
+trace wedge T8 -> kernel load:
+    scalar/trace bridge candidate
+    exact quantity: 2/9 = q * W(T8)
+```
+
+Open gates:
+
+```text
+trace-kernel role:
+    derive whether 2/9 is boundary normalization, scalar-background bridge,
+    or quotient load.
+
+boundary-orientation rule:
+    derive the sign/orientation convention for q/2 supply in A3-A3.
+
+transfer-kernel rule:
+    derive when eta/2 is exported as one side of a composable boundary kernel.
+
+spectrum assignment:
+    defer observed-particle labels until road grammar plus radial/depth rule
+    are native.
+```
+
+Thirty-ninth spectrum-stage verdict:
+
+```text
+The metric supplies a typed fan-out atlas from negative phi to boundary
+instruments to angular operator channels. This is more constrained than a
+ratio ladder and less committed than a particle spectrum. The roads are
+admissibility structure, not destinations or observed species names.
+```
