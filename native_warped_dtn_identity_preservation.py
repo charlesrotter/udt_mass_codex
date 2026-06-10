@@ -1,0 +1,27 @@
+def main() -> None:
+    print("warped DtN identity preservation on ell=1")
+    print("=" * 48)
+    print("Spherical symmetry keeps the DtN map diagonal by angular momentum.")
+    print("On ell=1, the angular eigenspace has dimension:")
+    print("  2 ell + 1 = 3")
+    print()
+    print("For banked P_phi0 self-similar warped propagation:")
+    print("  D_1 = sqrt(2) B")
+    print("  B = I_{7/2}(6 sqrt(2)) / I_{5/2}(6 sqrt(2))")
+    print()
+    print("Therefore the ell=1 boundary map has the exact form:")
+    print("  K_warped|_{ell=1} = D_1 I_3")
+    print("                  = sqrt(2) B I_3")
+    print()
+    print("Relative to the product-cylinder DtN map:")
+    print("  K_product|_{ell=1} = sqrt(2) I_3")
+    print("the exact positional-dilation dressing is:")
+    print("  K_warped K_product^{-1} = B I_3")
+    print()
+    print("No-approximation verdict:")
+    print("  Warping modifies the scalar strength carried by the ell=1 triplet.")
+    print("  It does not destroy the native I_3 angular identity structure.")
+
+
+if __name__ == "__main__":
+    main()

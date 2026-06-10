@@ -1,0 +1,27 @@
+def main() -> None:
+    print("transfer operator fork")
+    print("=" * 23)
+    print("Known exact ell=1 identity structures:")
+    print("  intrinsic boundary angular operator: L1|_{ell=1} = I_3")
+    print("  product-cylinder DtN comparison: K_product|_{ell=1} = sqrt(2) I_3")
+    print("  self-similar UDT warped DtN: K_warped|_{ell=1} = sqrt(2) B I_3")
+    print()
+    print("where:")
+    print("  B = I_{7/2}(6 sqrt(2)) / I_{5/2}(6 sqrt(2))")
+    print()
+    print("If the transfer action is intrinsic-boundary angular:")
+    print("  A_side = (eta/2) I_3")
+    print("  Tr exp(-A_side) = 3 exp(-eta/2)")
+    print()
+    print("If the transfer action uses warped DtN dressing relative to product:")
+    print("  A_side = (eta/2) B I_3")
+    print("  Tr exp(-A_side) = 3 exp(-eta B/2)")
+    print()
+    print("No-approximation verdict:")
+    print("  Both forms preserve the native angular triplet.")
+    print("  The unresolved mathematical question is which native operator")
+    print("  enters the phi0 transfer action.")
+
+
+if __name__ == "__main__":
+    main()

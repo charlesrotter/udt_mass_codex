@@ -1,0 +1,28 @@
+def main() -> None:
+    print("ell=1 warped DtN half-integer closed form")
+    print("=" * 50)
+    print("For banked P_phi0 and ell=1:")
+    print("  q = 1/3")
+    print("  beta = 1/6")
+    print("  x = 6 sqrt(2)")
+    print()
+    print("Exact half-integer modified Bessel forms share the same prefactor A:")
+    print("  I_{5/2}(x) = A [sinh(x) - 3 cosh(x)/x + 3 sinh(x)/x^2]")
+    print("  I_{7/2}(x) = A [cosh(x) - 6 sinh(x)/x")
+    print("                    + 15 cosh(x)/x^2 - 15 sinh(x)/x^3]")
+    print()
+    print("Therefore the exact warped DtN ratio is:")
+    print("  I_{7/2}(x) / I_{5/2}(x)")
+    print("    = [cosh(x) - 6 sinh(x)/x + 15 cosh(x)/x^2")
+    print("       - 15 sinh(x)/x^3]")
+    print("      / [sinh(x) - 3 cosh(x)/x + 3 sinh(x)/x^2]")
+    print("  with x = 6 sqrt(2)")
+    print()
+    print("No-approximation verdict:")
+    print("  The positional-dilation warped DtN correction is an exact")
+    print("  hyperbolic rational expression. It is not the product-cylinder")
+    print("  value unless this expression is proven to equal 1.")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,25 @@
+def main() -> None:
+    print("shell versus collar source split")
+    print("=" * 34)
+    print("Two different source localizations have different jobs.")
+    print()
+    print("Collar density:")
+    print("  s(t) = 1/9 across the active collar")
+    print("  q-flow: dq/dt = q^2 - q + 2s")
+    print("  q=1/3 is a fixed solution")
+    print("  supports delta_h=0 and P_phi0 derivation")
+    print()
+    print("Localized phi0 shell:")
+    print("  source concentrated at the interface")
+    print("  changes boundary momentum / jump")
+    print("  supports eta as interface-local transfer scale")
+    print("  does not by itself prove q was constant through the collar")
+    print()
+    print("No-approximation verdict:")
+    print("  The same metric may supply both instruments, but they are not the")
+    print("  same mathematical object. Collar density addresses q preservation;")
+    print("  phi0 shell stress addresses interface transfer.")
+
+
+if __name__ == "__main__":
+    main()

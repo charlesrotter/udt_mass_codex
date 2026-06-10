@@ -1,0 +1,26 @@
+def main() -> None:
+    print("plain-sight internal-boundary trace")
+    print("=" * 37)
+    print("A phi0 surface can be read in two different ways:")
+    print()
+    print("External boundary:")
+    print("  H1 label is fixed by outside data")
+    print("  contribution = K_ii = exp(-a)")
+    print()
+    print("Internal glued interface:")
+    print("  H1 label lives on the shared phi0 boundary")
+    print("  outside observer does not fix which H1 basis label crosses the interface")
+    print("  gluing contracts the shared index")
+    print("  contribution = sum_i K_ii = Tr_H1 K")
+    print()
+    print("For K=exp(-a) I3:")
+    print("  Tr_H1 K = 3 exp(-a)")
+    print()
+    print("Plain-sight verdict:")
+    print("  If phi0 is the bridge between negative-phi matter side and positive-phi")
+    print("  scalar/background side, the H1 label is naturally internal to the")
+    print("  bridge. Then trace is the gluing contraction, not an extra mechanism.")
+
+
+if __name__ == "__main__":
+    main()

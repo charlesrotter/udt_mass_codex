@@ -1,0 +1,27 @@
+def main() -> None:
+    print("simple versus warped branch discriminator")
+    print("=" * 44)
+    print("Simple intrinsic-interface branch:")
+    print("  gamma_simple = 3 exp(-eta/2)")
+    print("  with banked P_phi0: gamma_simple = 3 exp(-1/36)")
+    print("  dependence: eta and H1 only")
+    print()
+    print("Self-similar warped bulk-DtN branch:")
+    print("  gamma_warped = 3 exp(-eta B/2)")
+    print("  B = I_{7/2}(6 sqrt(2)) / I_{5/2}(6 sqrt(2))")
+    print("  with banked P_phi0: gamma_warped = 3 exp(-B/36)")
+    print("  dependence: eta, H1, and radial collar DtN dressing")
+    print()
+    print("Exact discriminator:")
+    print("  If transfer is intrinsic to the phi0 interface, it is insensitive")
+    print("  to the radial collar profile after q/eta are fixed.")
+    print("  If transfer is bulk-DtN propagation, it is profile-sensitive.")
+    print()
+    print("No-approximation verdict:")
+    print("  The next mathematical test is not numerical closeness.")
+    print("  It is whether the metric's transfer object is profile-local at phi0")
+    print("  or remembers the negative-phi collar through the DtN map.")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,28 @@
+def main() -> None:
+    print("internal gluing symplectic form")
+    print("=" * 32)
+    print("For a boundary field u with conjugate momentum p, the C1/HJ boundary")
+    print("variation has the canonical form:")
+    print("  delta S_boundary = integral_boundary p delta u")
+    print()
+    print("For two regions glued at phi0, orientations are opposite.")
+    print("The shared-boundary variation is:")
+    print("  delta S_glued = integral_phi0 (p_minus + p_plus + p_source) delta u")
+    print()
+    print("Admissible internal gluing therefore imposes:")
+    print("  u_minus = u_plus")
+    print("  p_minus + p_plus + p_source = 0")
+    print()
+    print("Consequences:")
+    print("  the shared value u is not external data")
+    print("  the shared label is summed/contracted in the glued amplitude")
+    print("  for an H1 identity kernel, this contraction is Tr_H1")
+    print()
+    print("Symplectic verdict:")
+    print("  Internal trace is the boundary symplectic gluing rule in finite")
+    print("  dimensions. It becomes an extra assumption only if phi0 is treated")
+    print("  as an external observed boundary rather than a shared interface.")
+
+
+if __name__ == "__main__":
+    main()
