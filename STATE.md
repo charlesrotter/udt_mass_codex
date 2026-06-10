@@ -19,11 +19,19 @@ first principles).
 
 ## Open gates (the real frontier)
 
-1. **Native discreteness** — deepest hole. Charles's hunch (2026-06-10):
-   it comes from phi-sector x angular-sector INTERACTION, possibly via an
-   uncovered metric function. Route 2 (nonlinear self-trapped /
-   self-consistent coupled mode) identified in the docs but NEVER
-   implemented. ACTIVE PUSH.
+1. **Native discreteness** — deepest hole, now STRUCTURALLY MAPPED
+   (open_domain_discreteness_results.md): box-control was a THEOREM, not
+   numerics — the open matter side has empty point spectrum (Friedrichs)
+   for ell >= 1, any interior structure. Exactly FOUR escape branches:
+   (i) open-cell resonances — CLOSED (clean negative, no potential
+   pocket, featureless time delay, reach Gamma >~ 4e-3); (iv)
+   non-Friedrichs center BC — charter-closed (infinite probe energy)
+   unless a selection mechanism is derived; leaving OPEN: (ii) truly
+   compact probe domain (zero-tail a_tail=0 mechanism + genuine
+   compactness — flat exterior alone does NOT escape); (iii) MODIFIED
+   ASYMPTOTIC THRESHOLD — an uncovered metric function must add an
+   effective-mass-like term to the probe's asymptotic dispersion. Branch
+   (iii) is the precise form of Charles's phi-angular hunch. ACTIVE.
 2. **P_domain** (pre-spectrum elementary branch) — open with THREE
    premises (p_domain_closure_attempt_results.md): (i) source product
    rule s(phi0)=q/3 from the variational principle (needs a
@@ -47,7 +55,15 @@ first principles).
 ## Banked negatives (do not re-litigate without new structure)
 
 - Box-control: localized angular sources alone give no native spectrum
-  (omega1*Rmax ~ 3.6-4.5 constant).
+  (omega1*Rmax ~ 3.6-4.5 constant) — UPGRADED to the open-domain
+  threshold THEOREM (empty point spectrum, verifier-confirmed incl. the
+  Coulomb-tail attack: the a/r tail sits in the weight, Z_eff = a*kappa²
+  vanishes at threshold).
+- Open-cell resonances: clean negative (no pocket; V = f(lambda/r² +
+  f'/r) exact; core is subcritical -3/16/rho² at p=1/3).
+- Face-value ell=2 sourced background (s=1/3) does NOT exist (complex
+  indicial roots; every interior solution oscillates) — at eta=1/18,
+  ell=1 is the only valid sourced ordinary sector (echoes N=3/H1).
 - Sector-dependent q(P) as eigenvalue mechanism: dead (59/60 misses).
 - Pointwise/local share law s_loc=(1/3)(1-f(1-q)): dynamically excluded.
 - Frozen lepton ladder [depths 5/7 + gamma, one coefficient/branch]:
@@ -66,14 +82,18 @@ first principles).
 
 ## Active priority queue
 
-1. Route-2 native-discreteness probe: coupled nonlinear phi-angular
-   system from ONE metric action (no invented couplings), open domain,
-   box-control discriminator pre-registered. IN PROGRESS.
-2. B(F,Q,H1) joint boundary functional attempt (closes P_domain premises
-   and possibly Tier-D). GR corpus under positional dilation is the mine
-   (principle 4): junction/Israel/Gibbons-Hawking-type derivative-
-   sensitive boundary objects, refactored.
-3. Functional selector for Lambda^2 End(H1) (spectrum doc's own next
+1. BRANCH-(iii) HUNT: GR-corpus mining under positional dilation
+   (principle 4) for metric functions/cross terms that modify the
+   probe's asymptotic dispersion (effective-mass-like weight at
+   infinity). Native candidates to examine: phi-angular cross metric
+   components, two-form flux sector contribution to the wave operator,
+   g_tt*g_rr != -1 deformations. This is the hunch, made precise.
+2. BRANCH-(ii): the a_tail=0 zero-tail mechanism (Matter Cell
+   Postulate's nonlinear global condition) + what makes the probe domain
+   genuinely compact.
+3. B(F,Q,H1) joint boundary functional attempt (closes P_domain premises
+   and possibly Tier-D; same GR-corpus mine).
+4. Functional selector for Lambda^2 End(H1) (spectrum doc's own next
    target).
 
 ## Map
