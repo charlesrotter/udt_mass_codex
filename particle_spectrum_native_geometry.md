@@ -926,3 +926,116 @@ an isotropic commutator projection, and an intrinsic kernel/image filter.
 The first active spectrum alphabet is the traceless image T8=3+5, not the full
 36-dimensional two-form domain.
 ```
+
+## 12. Native Three-Form Location For 84
+
+Implemented in `native_commutator_threeform_84_audit.py`.
+
+The commutator and trace pairing define a canonical alternating three-form:
+
+```text
+Omega(A,B,C) = Tr(A[B,C]).
+```
+
+Its natural full domain is:
+
+```text
+Lambda^3 End(H1)
+```
+
+with:
+
+```text
+dim Lambda^3 End(H1) = 84.
+```
+
+Therefore `84` now has a native functional location:
+
+```text
+84 = dimension of the full domain of Tr(A[B,C]).
+```
+
+But the form kills trace arguments:
+
+```text
+Omega(trace, X, Y) = 0.
+```
+
+So:
+
+```text
+trace wedge Lambda^2 T8
+```
+
+is a 28-dimensional kernel, and the active domain is:
+
+```text
+Lambda^3 T8
+```
+
+with:
+
+```text
+dim Lambda^3 T8 = 56.
+```
+
+Using:
+
+```text
+T8 = A3 + S5
+```
+
+the active three-form domain splits as:
+
+```text
+Lambda^3 T8
+  = Lambda^3 A3
+    + Lambda^2 A3 wedge S5
+    + A3 wedge Lambda^2 S5
+    + Lambda^3 S5
+```
+
+with dimensions:
+
+```text
+1 + 15 + 30 + 10 = 56.
+```
+
+The exact audit finds nonzero three-form support in:
+
+```text
+Lambda^3 A3:
+    domain 1, nonzero
+
+A3 wedge Lambda^2 S5:
+    domain 30, nonzero
+```
+
+and zero support in:
+
+```text
+Lambda^2 A3 wedge S5:
+    domain 15, zero
+
+Lambda^3 S5:
+    domain 10, zero.
+```
+
+This is another native filter:
+
+```text
+full three-form domain: 84
+trace kernel: 28
+active T8 domain: 56
+nonzero support: Lambda^3 A3 plus A3 wedge Lambda^2 S5
+```
+
+Twelfth spectrum-stage verdict:
+
+```text
+84 is no longer only a legacy fingerprint: it is the full native domain
+dimension of the canonical three-form Tr(A[B,C]) on End(H1). However, the
+active nonzero three-form is filtered to the traceless sector, with a 28D trace
+kernel and 56D active domain. This is a native functional location for 84, not
+yet a mass coefficient or particle count.
+```

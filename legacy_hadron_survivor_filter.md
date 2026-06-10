@@ -252,6 +252,38 @@ operator image is:
 T8 = 3 + 5.
 ```
 
+Three-form / `84` update:
+
+```text
+Omega(A,B,C) = Tr(A[B,C])
+Omega: Lambda^3 End(H1) -> scalar
+dim Lambda^3 End(H1) = 84
+```
+
+The trace sector is killed:
+
+```text
+trace wedge Lambda^2 T8: kernel 28
+active domain Lambda^3 T8: dimension 56
+```
+
+Active support under `T8=A3+S5`:
+
+```text
+Lambda^3 A3: nonzero
+A3 wedge Lambda^2 S5: nonzero
+Lambda^2 A3 wedge S5: zero
+Lambda^3 S5: zero
+```
+
+Updated `84` status:
+
+```text
+native functional domain: yes
+active full 84-dimensional particle sector: no
+mass coefficient: not derived
+```
+
 Best next target:
 
 ```text
