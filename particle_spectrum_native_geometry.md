@@ -3197,3 +3197,74 @@ This supports the reading that the metric is organizing a scalar-background /
 active-angular split, with the central trace as the scalar anchor. It remains
 a quotient/normalization identity, not a particle assignment or mass formula.
 ```
+
+## 42. Two-Form Quotient Completion Audit
+
+Implemented in `native_twoform_quotient_completion_audit.py`.
+
+The scalar-anchor residue completes a normalized top-level split.
+
+Use End(H1) ninth-units:
+
+```text
+s = 1/9
+dim End(H1) = 9
+```
+
+The three quotient-level roles are:
+
+```text
+scalar anchor:
+    value = 1/9
+    ninth-units = 1
+    role = central trace share of End(H1)
+
+trace bridge:
+    value = 2/9
+    ninth-units = 2
+    role = q-scaled scalar bridge/shadow of active T8
+
+active image:
+    value = 2/3 = 6/9
+    ninth-units = 6
+    role = global commutator image action W(T8)
+```
+
+Exact completion:
+
+```text
+1/9 + 2/9 + 6/9 = 9/9 = 1
+```
+
+Equivalent identities:
+
+```text
+trace bridge + active image:
+    2/9 + 6/9 = 8/9 = T8 share in End(H1)
+
+scalar anchor + T8 share:
+    1/9 + 8/9 = 1 = End(H1)
+```
+
+Interpretation:
+
+```text
+The top-level quotient/load layer has a complete native accounting:
+
+    scalar anchor : trace bridge : active image = 1 : 2 : 6
+
+in End(H1) ninth-units.
+```
+
+Forty-second spectrum-stage verdict:
+
+```text
+The metric now supplies a closed quotient-level accounting layer for the
+two-form structure:
+
+    scalar anchor + trace bridge + active image = full normalized End(H1) unit.
+
+This is not the local channel residual ledger and not a mass formula. It is a
+global quotient/load split that must next be connected to the admissible
+two-form roads and the radial/depth rule.
+```

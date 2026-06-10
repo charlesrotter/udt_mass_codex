@@ -892,6 +892,24 @@ candidate End(H1) quotient identity:
 active angular share plus scalar trace anchor.
 ```
 
+Two-form quotient completion:
+
+```text
+scalar anchor : trace bridge : active image
+    = 1/9 : 2/9 : 6/9
+    = 1 : 2 : 6 in End(H1) ninth-units
+
+completion:
+    1/9 + 2/9 + 6/9 = 1
+```
+
+Status:
+
+```text
+closed quotient/load accounting layer;
+not the local channel ledger and not a mass formula.
+```
+
 ## Working Hypothesis
 
 The useful legacy hadron material is probably not the old particle mechanism.
