@@ -29,9 +29,21 @@ first principles).
    unless a selection mechanism is derived; leaving OPEN: (ii) truly
    compact probe domain (zero-tail a_tail=0 mechanism + genuine
    compactness — flat exterior alone does NOT escape); (iii) MODIFIED
-   ASYMPTOTIC THRESHOLD — an uncovered metric function must add an
-   effective-mass-like term to the probe's asymptotic dispersion. Branch
-   (iii) is the precise form of Charles's phi-angular hunch. ACTIVE.
+   ASYMPTOTIC THRESHOLD — branch-(iii) hunt COMPLETE for the static
+   sector (branch_iii_hunt_results.md): rigidity theorem (finite
+   exterior C1 action => threshold exactly 0 on rho=r; unique power-law
+   lifter k=1 costs infinite action); the ONE static escape is the
+   unaudited areal function rho(r) (saturating rho lifts threshold to
+   f*lambda/rho_inf² at finite action — masses from angular
+   eigenvalues); freeing rho under the total native action: rho=r NOT
+   derived (P0 kinematic), flux sector consistent only on the
+   EXTREMALITY LOCK |a| = c_q|q| then physically underdetermined, H1
+   source overdetermined, NO determined native throat. The missing
+   rho-equation is identified: the EH remainder 2 - 2*f*rho*rho''
+   (boundary-term only at rho=r), guardrail-forbidden as import —
+   deriving it natively is the sharpest named target. Either fork is
+   decisive: rho=r derived (branch iii dead) or throats selected
+   (native discreteness, hunch realized).
 2. **P_domain** (pre-spectrum elementary branch) — open with THREE
    premises (p_domain_closure_attempt_results.md): (i) source product
    rule s(phi0)=q/3 from the variational principle (needs a
@@ -82,12 +94,13 @@ first principles).
 
 ## Active priority queue
 
-1. BRANCH-(iii) HUNT: GR-corpus mining under positional dilation
-   (principle 4) for metric functions/cross terms that modify the
-   probe's asymptotic dispersion (effective-mass-like weight at
-   infinity). Native candidates to examine: phi-angular cross metric
-   components, two-form flux sector contribution to the wave operator,
-   g_tt*g_rr != -1 deformations. This is the hunch, made precise.
+1. DERIVE RHO-DYNAMICS NATIVELY (the branch-(iii) fork): candidates —
+   (a) C1 action at full metric-perturbation level (do the banked
+   angular Hessian blocks induce an effective (rho')² term when
+   integrated out?); (b) H1 carrier gradient energy on the (f,rho)
+   background; (c) native re-derivation of the EH remainder
+   2 - 2*f*rho*rho'' from positional-dilation first principles
+   (principle 4). Either outcome decisive (rho=r theorem, or throats).
 2. BRANCH-(ii): the a_tail=0 zero-tail mechanism (Matter Cell
    Postulate's nonlinear global condition) + what makes the probe domain
    genuinely compact.
@@ -95,6 +108,8 @@ first principles).
    and possibly Tier-D; same GR-corpus mine).
 4. Functional selector for Lambda^2 End(H1) (spectrum doc's own next
    target).
+5. Spectrum-side follow-up on the EXTREMALITY LOCK |a| = c_q|q| (first
+   exact native tail-charge relation; branch_iii_hunt_results.md).
 
 ## Map
 

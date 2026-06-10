@@ -31,6 +31,13 @@ come from an INTERACTION of the phi sector and the angular sector —
 perhaps through a metric function not yet uncovered. Treat phi-angular
 coupling as the prime suspect for the discreteness gap.
 
+## Session workflow
+
+- **Maximize the use of subagents to preserve main context** (Charles,
+  2026-06-10): delegate reconnaissance, implementation, verification, and
+  doc-drafting to agents; keep only distilled reports in the main loop.
+  Present the process plan before launching long pushes.
+
 ## Repo discipline (the Self-Hardening culture — do not soften)
 
 - Research-record markdown docs are append-never-edit; committed audit
