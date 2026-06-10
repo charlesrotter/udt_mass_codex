@@ -1725,3 +1725,263 @@ The old quarter source can be reinterpreted natively as the A3 projector trace
 weight under the C1-normalized commutator readout. This preserves the number
 while replacing the mechanism.
 ```
+
+## 22. First Native Particle-Taxonomy Skeleton
+
+Implemented in `native_particle_taxonomy_skeleton.py`.
+
+Lay framing:
+
+```text
+The negative-phi metric supplies the mass-emergence container.
+The H1/operator/commutator structure supplies the first taxonomy of what can
+live inside that container.
+```
+
+Native alphabet:
+
+```text
+End(H1) = trace + A3 + S5
+        = 1 + 3 + 5.
+```
+
+The trace sector is:
+
+```text
+dimension 1;
+value/normalization scalar;
+central under the commutator;
+not part of the active T8 image.
+```
+
+The active image is:
+
+```text
+T8 = A3 + S5.
+```
+
+Primary active sectors:
+
+```text
+A3:
+    dimension 3
+    antisymmetric / rotation-like traceless image
+    readout weight W(A3)=1/4
+
+S5:
+    dimension 5
+    symmetric-traceless / shape-like traceless image
+    readout weight W(S5)=5/12
+
+T8:
+    dimension 8
+    full active traceless image
+    readout weight W(T8)=2/3
+```
+
+Two-form interaction taxonomy:
+
+```text
+trace wedge T8:
+    domain 8
+    image 0
+    kernel 8
+    central silent channel
+
+A3 wedge A3:
+    domain 3
+    image 3
+    kernel 0
+    self-interaction returns A3
+
+A3 wedge S5:
+    domain 15
+    image 5
+    kernel 10
+    mixed interaction returns S5
+
+S5 wedge S5:
+    domain 10
+    image 3
+    kernel 7
+    shape-shape interaction returns A3
+```
+
+Three-form support taxonomy:
+
+```text
+trace wedge Lambda^2 T8:
+    domain 28
+    support 0
+    trace kernel
+
+Lambda^3 A3:
+    domain 1
+    nonzero
+    orientation-like A3 triple support
+
+Lambda^2 A3 wedge S5:
+    domain 15
+    support 0
+    filtered out
+
+A3 wedge Lambda^2 S5:
+    domain 30
+    nonzero
+    mixed A3/S5 support
+
+Lambda^3 S5:
+    domain 10
+    support 0
+    pure S5 triple filtered out
+```
+
+Twenty-second spectrum-stage verdict:
+
+```text
+The metric now supplies a taxonomy before particle names:
+
+container -> alphabet -> active image -> active sector split -> interaction
+channels -> three-form support.
+
+This is more than a ratio ladder. It is the first native sorting machinery for
+mass-emergent sectors. The map from this taxonomy to observed particle species
+and masses remains open.
+```
+
+## 23. Spectrum Path Decision
+
+Implemented in `native_spectrum_path_decision.py`.
+
+Three possible next paths:
+
+```text
+lepton first:
+    available:
+        C1 action readout W(P)
+        A3/S5/T8 projector weights
+        electron anchor allowed
+    missing:
+        native depth ladder or radial readout coupling to W(P)
+        generation/typing rule
+    risk:
+        fitting ratios before deriving the depth rule
+
+hadron first:
+    available:
+        A3/S5 active image
+        two-form interaction channels
+        three-form support
+        localized legacy fingerprints 84/108/180
+    missing:
+        product-trace readout
+        source-overlap/domain partition rule
+        mass readout
+    risk:
+        importing particle labels too early
+
+taxonomy first:
+    available:
+        operator taxonomy skeleton
+        action readout candidate
+        product-count gate
+    missing:
+        radial/negative-phi coupling to sector weights
+```
+
+Decision:
+
+```text
+taxonomy first -> radial coupling audit -> lepton/hadron branch.
+```
+
+Reason:
+
+```text
+The operator taxonomy is native, but mass readout requires showing how
+negative-phi radial/depth structure couples to the sector weights.
+```
+
+Twenty-third spectrum-stage verdict:
+
+```text
+The next legitimate frontier is radial coupling: determine whether the
+negative-phi mass-emergence side couples to W(A3), W(S5), W(T8), two-form
+channels, or three-form support. Particle labels remain premature.
+```
+
+## 24. Radial Coupling Audit
+
+Implemented in `native_radial_coupling_audit.py`.
+
+Candidate coupling routes:
+
+```text
+1. projector-weight coupling
+   form:
+       radial action/depth depends on W(P)=Tr(P)/12
+   native support:
+       C1 side action;
+       commutator isotropy;
+       projector trace readout.
+   missing:
+       operator equation coupling radial negative-phi depth to W(P)
+
+2. two-form channel coupling
+   form:
+       radial readout depends on two-form channel image/kernel fractions
+   native support:
+       2/7 and 5/7 active filter;
+       channel rules A3-A3, A3-S5, S5-S5.
+   missing:
+       physical meaning of kernel/image energy or source overlap
+
+3. three-form support coupling
+   form:
+       radial readout depends on Tr(A[B,C]) support
+   native support:
+       84 full domain;
+       56 active domain;
+       nonzero A3^3 and A3*S5^2 support.
+   missing:
+       why radial depth reads a three-form scalar
+
+4. product-count coupling
+   form:
+       radial readout depends on 36*Tr(P)
+   missing:
+       independent product trace
+
+5. kernel-energy coupling
+   form:
+       radial readout depends on filtered-out modes
+   missing:
+       native rule assigning energy/action to kernel modes
+```
+
+Decision:
+
+```text
+best first test:
+    projector-weight coupling
+
+reason:
+    it is the only candidate with a native scalar action readout already
+    derived.
+```
+
+Next proof target:
+
+```text
+derive or reject an equation where radial negative-phi depth/action is
+multiplied, shifted, or constrained by W(P).
+```
+
+Twenty-fourth spectrum-stage verdict:
+
+```text
+The taxonomy is ready for a radial coupling test. The least speculative path
+is to ask whether the radial negative-phi sector reads the projector action
+weights W(A3), W(S5), or W(T8). Do not use product counts, kernels, or
+three-form support as mass inputs unless their radial coupling is derived.
+```

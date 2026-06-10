@@ -465,12 +465,58 @@ old source ~= 1/4:
     old Form-T/kappa mechanism remains quarantined
 ```
 
+Taxonomy skeleton update:
+
+```text
+mass-emergence container:
+    negative-phi region with H1 carrier
+
+operator alphabet:
+    End(H1)=trace + A3 + S5 = 1+3+5
+
+active image:
+    T8=A3+S5
+
+current readout:
+    W(A3)=1/4
+    W(S5)=5/12
+    W(T8)=2/3
+
+two-form interaction channels:
+    A3 wedge A3 -> A3
+    A3 wedge S5 -> S5
+    S5 wedge S5 -> A3
+    trace wedge T8 -> kernel
+
+three-form support:
+    Lambda^3 A3 nonzero
+    A3 wedge Lambda^2 S5 nonzero
+    pure/misaligned S5-heavy blocks filtered
+```
+
+Updated high-level status:
+
+```text
+native taxonomy skeleton: present
+observed particle ID map: open
+mass readout: open
+```
+
 Best next target:
 
 ```text
 test whether W(P)=Tr(P)/12 is only a dimension ledger or whether it couples to
 radial/negative-phi mass readout in a way that can produce observed spectrum
 quantities.
+```
+
+Radial coupling route order:
+
+```text
+1. test projector-weight coupling W(P)
+2. then test two-form channel coupling
+3. defer three-form support, product counts, and kernel-energy readings
+   until a metric coupling rule selects them
 ```
 
 ## Working Hypothesis
@@ -502,15 +548,16 @@ demands them.
 
 ## Immediate Next Work
 
-1. Interpret the active commutator image `T8 = A3 + S5` without particle labels.
-2. Decide whether the kernel/image fractions `2/7`, `5/7`, and `7/9` correspond
-   to metric readout, source overlap, or only algebraic filtering.
-3. Retest legacy `63`, `108`, and `180` against the new operator hierarchy:
-   C1-weighted domain `36`, active image `8`, active denominator `7`, and
-   three-form domain `84`.
-4. Revisit baryon sub-cavity/golden splitting only after the operator readout is
-   clear enough to avoid importing Form-T node structure.
-5. Attempt mass-spectrum construction only after a native readout rule exists.
+1. Audit how negative-phi radial/depth structure couples to the taxonomy:
+   `W(A3)`, `W(S5)`, `W(T8)`, two-form channels, or three-form support.
+2. Only after radial coupling is known, choose lepton-first or hadron-first
+   spectrum construction.
+3. Keep `108` and `180` as fingerprints unless an independent product-trace
+   readout is derived.
+4. Revisit baryon sub-cavity/golden splitting only after the operator/radial
+   readout is clear enough to avoid importing Form-T node structure.
+5. Attempt mass-spectrum construction only after taxonomy plus radial readout
+   are both native.
 
 ## Relation To The Existing Audit
 
