@@ -1,0 +1,150 @@
+# Legacy Hadron Survivor Filter
+
+Status: working filter, not canonical.
+Created: 2026-06-10.
+
+## Purpose
+
+This file is the filtering strategy for mining the legacy mass-emergence,
+matter-recycling, pion, baryon, and hadron material in
+`udt_canonical_geometry.md` without re-importing the old Dirac Form-T
+scaffold.
+
+It is a companion to `mass_emergence_canonical_geometry.md`, not a replacement.
+That document is the hard audit/prosecution record. This document is the
+recovery atlas: it asks which legacy structures might survive after the new
+negative-phi / angular-sector rebuild.
+
+The rule is simple:
+
+> Do not preserve a legacy mechanism. Preserve only metric-native structure,
+> exact angular/combinatorial fingerprints, or open targets that can be
+> rederived from the current native geometry.
+
+## Inputs
+
+Primary legacy source:
+
+- `udt_canonical_geometry.md`
+
+Current audit/rebuild sources:
+
+- `mass_emergence_canonical_geometry.md`
+- `UDT_REBUILD.md`
+- `negative_phi_native_geometry.md`
+
+Current native pre-spectrum status:
+
+- negative-phi matter side is a native metric region;
+- positive-phi scalar side is the macro/scalar background;
+- normalized angular spectrum bridges both sides;
+- elementary pre-spectrum branch is the least-action mixed-Hodge harmonic
+  carrier branch on `I x S2`;
+- `H1` gives the rank-one angular carrier with `N = 3`;
+- old `q`, `eta`, and `eta/2` inputs have collapsed into the current branch
+  definition;
+- full lepton/hadron spectrum coefficients are not yet derived.
+
+## Filter Grades
+
+Use these grades for legacy hadron material:
+
+- `SURVIVES`: follows from current metric/angular facts without Form-T.
+- `CANDIDATE`: not yet derived, but has a plausible native target.
+- `FINGERPRINT`: exact integer/ratio pattern worth testing, not a mechanism.
+- `QUARANTINE`: depends on Dirac Form-T, old boundary choices, fitted shape
+  parameters, Standard Model naming, or linearized hadron-scale calculation.
+- `DROP`: already null-rejected or contradicted by current native work.
+
+No item may be upgraded above `CANDIDATE` without an explicit derivation from
+the current metric frame.
+
+## Hard Rules
+
+1. No Dirac Form-T import.
+2. No Standard Model mechanism import.
+3. No linearized conclusion at hadronic scale.
+4. No fitted mass formula promoted as derived.
+5. No single-number match promoted to mechanism.
+6. Preserve exact integer fingerprints as clues only.
+7. Apply the orchestra frame only after each component is native or explicitly
+   labeled as an unproven candidate.
+
+The hadronic-scale warning in the legacy document is binding for this filter:
+at the locked legacy depth, `exp(-2 phi0) = 5.04`, so linearization is invalid
+by a factor of about five. Any future hadron calculation must use the full
+nonlinear metric operator.
+
+## Survivor Ledger
+
+| Legacy item | Filter grade | Why it matters now | Rebuild target |
+| --- | --- | --- | --- |
+| `H1` triplet / `N = 3` angular carrier | `SURVIVES` | Already native in the current mixed-Hodge branch. Repeated appearance of `3` is no longer just numerology. | Use as first hadron angular carrier before importing any particle labels. |
+| Traceless `H1` operator algebra, `3^2 - 1 = 8` | `CANDIDATE` | Legacy `su(3)` language is contaminated by labels, but the dimension count may be native angular operator algebra. | Recompute from the current `H1` projector/domain, not from quark/color assumptions. |
+| `3 + 8 = 11` angular coefficient | `FINGERPRINT` | May be a native operator-count identity behind old running/coupling claims. | Test whether it arises from scalar plus traceless `H1` angular operators under positional dilation. |
+| Closure/orbit size `7` | `CANDIDATE` | Old origin used `kappa`, but the repeated `7` may encode a native boundary graph, quotient, or angular closure orbit. | Rebuild as a metric/angular boundary graph, not a Form-T `kappa` orbit. |
+| Gap/interior number `5` | `FINGERPRINT` | Appears with `7`, golden-ratio/pentagonal structure, and nuclear/hadron factors. | Check whether it is a native interior/endpoint count after the `7`-graph is rederived. |
+| `9 = 3^2` | `SURVIVES` as arithmetic, `CANDIDATE` as physics | Natural from `H1` pair/operator space. | Determine which part is scalar, vector, traceless, symmetric, or Hodge-dual in the current branch. |
+| `36 = C(9,2)` | `FINGERPRINT` | Appears in old EM/coupling and vector-decay constants. | Test as two-form or pair-count on the native 9-dimensional angular/operator space. |
+| `84 = C(9,3)` | `FINGERPRINT` | Old pion coefficient; prior audits already found no operator-pinning derivation. Still a strong combinatorial clue. | Look for a native third exterior/symmetric/Hodge count after the current `H1` domain is fixed. |
+| `63 = 9 x 7` | `FINGERPRINT` | Old deuteron denominator; channel-blind as mechanism, but may combine `H1` operator area with closure orbit. | Treat as orchestra clue only: derive both `9` and `7` natively before using the product. |
+| `108 = 36 x 3`, `180 = 36 x 5`, ratios such as `5/3` | `FINGERPRINT` | May be mixed pair-count plus carrier/interior counts. | Test only after `36`, `3`, and `5` have native meanings. |
+| Baryon sub-cavity and `r*/r_b ~= golden ratio` | `CANDIDATE` | Old derivation used Form-T nodes, but the stable partition could indicate a native negative-phi subdomain split. | Search for a nonlinear metric/domain condition that creates the split without Dirac nodes. |
+| Scalar/vector/tensor metric perturbation sectors | `CANDIDATE` | Less dependent on Form-T than spinor eigenmodes; possible hadron orchestra components. | Recompute under positional dilation and full nonlinear negative-phi geometry. |
+| Three-exchange nuclear potential | `QUARANTINE` as mechanism, `CANDIDATE` as metric-sector clue | Old version borrows nuclear phenomenology and has channel/form-factor gaps, but the scalar/vector/tensor split may be native. | Replace with native metric perturbation/source-overlap operators. |
+| Deuteron `C/63` match | `QUARANTINE` as prediction, `FINGERPRINT` as integer | Existing audit says one-point channel-blind algebraic match. | Use only as a later consistency target after channel operators exist. |
+| Single-particle baryon/meson Form-T eigenvalues | `QUARANTINE` | Depend directly on imported Dirac Form-T and fitted boundary choices. | Do not use in the native hadron build. |
+| `kappa` as charge/color/flavor mechanism | `QUARANTINE` | Form-T-specific and SM-shaped. | Replace with native angular graph/projector labels only if derived. |
+| Neumann-wall confinement | `QUARANTINE` | Boundary condition/mechanism import. | Look for native endpoint, finite-action, Cauchy/projector, or nonlinear domain filters. |
+| Linearized hadron calculations | `DROP` for conclusions | Legacy itself flags linearization as invalid at hadronic scale. | Redo with full nonlinear metric operator only. |
+
+## Working Hypothesis
+
+The useful legacy hadron material is probably not the old particle mechanism.
+It is the integer and operator atlas left behind by the angular sector:
+
+- `3` from the native `H1` carrier;
+- `8` from traceless angular operators, if rederived;
+- `9` from the `H1` operator/pair space;
+- `7` from a still-unrecovered closure or boundary graph;
+- `5` from an interior/gap/pentagonal remnant;
+- `36`, `63`, `84`, `108`, `180` as composite fingerprints.
+
+This is compatible with the orchestra metaphor. A later hadron result may come
+from several native components acting together:
+
+- negative-phi nonlinear domain geometry;
+- scale-invariant angular bridge;
+- `H1` carrier/projector structure;
+- closure/boundary graph structure;
+- scalar/vector/tensor metric perturbation sectors;
+- finite-action or Cauchy-data filters;
+- source-overlap/domain partition effects.
+
+The filter does not assume these components are particles, forces, quarks,
+gluons, or Standard Model analogs. Those words are labels only until the metric
+demands them.
+
+## Immediate Next Work
+
+1. Recompute the `H1` operator algebra from the current mixed-Hodge elementary
+   branch and decide whether `3^2 - 1 = 8` is native.
+2. Search for a native source of the `7` closure graph without Form-T `kappa`.
+3. Revisit the baryon sub-cavity/golden split using only nonlinear positional
+   dilation geometry and current boundary/domain filters.
+4. Reexpress old `36`, `63`, `84`, `108`, and `180` as tests against the new
+   angular graph rather than as imported formulas.
+5. Only after those pieces are native, attempt any hadron-spectrum construction.
+
+## Relation To The Existing Audit
+
+`mass_emergence_canonical_geometry.md` remains correct as the skeptical audit:
+it shows that the old quantitative hadron spectrum did not survive as an
+unfittable prediction.
+
+This file asks a different question:
+
+> After the failed mechanism is removed, which exact metric/angular footprints
+> are still worth trying to uncover natively?
+
+That makes this file a forward filter, not a canonization.
