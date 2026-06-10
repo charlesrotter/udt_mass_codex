@@ -600,6 +600,13 @@ No route currently proves a functional Lambda^2 End(H1) particle-sector
 selector.
 ```
 
+Superseded immediately by the commutator audit in section 9:
+
+```text
+the operator commutator does provide a native functional two-form map.
+The remaining gap is not existence of a two-form map, but C1 coupling to it.
+```
+
 Best next target:
 
 ```text
@@ -613,4 +620,119 @@ This is now the bottleneck between pre-spectrum and particle-sector spectrum:
 ```text
 dimension ladder: strong;
 functional selector: open.
+```
+
+## 9. Native Commutator Two-Form On End(H1)
+
+Implemented in `native_endh1_commutator_twoform.py`.
+
+There is a canonical alternating operation on the operator alphabet:
+
+```text
+[A,B] = AB - BA.
+```
+
+Since it is antisymmetric in `(A,B)`, it defines a native map:
+
+```text
+Lambda^2 End(H1) -> End(H1).
+```
+
+Because every commutator is traceless, the image actually lands in:
+
+```text
+T8 = traceless End(H1).
+```
+
+Exact ranks:
+
+```text
+rank [End(H1), End(H1)] = 8
+rank [T8, T8] = 8
+rank [trace, T8] = 0
+```
+
+Thus:
+
+```text
+Lambda^2 End(H1) -> T8
+36-dimensional domain -> 8-dimensional image.
+```
+
+The trace-wedge part is central:
+
+```text
+trace wedge T8 has dimension 8
+[trace, T8] = 0.
+```
+
+The active commutator domain is:
+
+```text
+Lambda^2 T8
+```
+
+with:
+
+```text
+dim Lambda^2 T8 = 28
+kernel dimension = 20
+image dimension = 8.
+```
+
+Using the angular tensor split:
+
+```text
+T8 = A3 + S5
+```
+
+the bracket ranks are:
+
+```text
+[A3, A3] -> A3 rank 3
+[A3, S5] -> S5 rank 5
+[S5, S5] -> A3 rank 3
+```
+
+This is important because it is a genuine native functional two-form structure:
+
+```text
+Lambda^2 End(H1) -> T8.
+```
+
+It uses only operator composition on the already-native `H1` carrier. It does
+not require:
+
+```text
+Form-T;
+kappa;
+quarks;
+color;
+local gauge principle;
+Standard Model imports.
+```
+
+Updated selector status:
+
+```text
+dimension selector:
+    eta/2 = 1/dim Lambda^2 End(H1), N=3-locked
+
+functional two-form:
+    commutator map Lambda^2 End(H1) -> T8
+
+remaining gap:
+    show that the C1 side action weights or normalizes this commutator
+    two-form in the particle sector.
+```
+
+Ninth spectrum-stage verdict:
+
+```text
+The native operator alphabet now supplies both:
+1. a C1-imprinted two-form dimension, dim Lambda^2 End(H1)=36;
+2. a functional alternating two-form map, Lambda^2 End(H1)->T8.
+
+This is the first concrete bridge from pre-spectrum constants to a native
+operator-sector mechanism. It is not yet a mass spectrum.
 ```

@@ -199,15 +199,25 @@ Functional selector status:
 ```text
 dimension ladder: strong
 N=3 lock: strong
-functional Lambda^2 End(H1) action: open
+functional Lambda^2 End(H1) map: present through commutator
+C1 weighting of that map: open
+```
+
+Native commutator map:
+
+```text
+[A,B]=AB-BA
+Lambda^2 End(H1) -> T8
+36-dimensional two-form domain -> 8-dimensional traceless image
+trace wedge T8 lies in the kernel
+active bracket domain Lambda^2 T8 has dimension 28
 ```
 
 Best next target:
 
 ```text
-derive an End(H1)-valued boundary field, curvature, or source-overlap operator
-whose native action is an alternating two-form over the 9-dimensional operator
-alphabet.
+show whether the C1 side action eta/2=1/36 weights or normalizes the native
+commutator two-form in the particle sector.
 ```
 
 ## Working Hypothesis

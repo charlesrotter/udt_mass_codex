@@ -58,6 +58,18 @@ def main():
             "status": "orchestra component candidate",
             "gap": "gives operator-sector ingredients, not an exterior-sector selector by itself",
         },
+        {
+            "route": "operator commutator",
+            "native_inputs": [
+                "End(H1) operator composition",
+                "[A,B]=AB-BA",
+                "commutators are traceless",
+            ],
+            "reaches_twoform": True,
+            "reaches_Lambda2_EndH1_functionally": True,
+            "status": "native functional two-form map",
+            "gap": "does not yet prove that the C1 side action weights this map in the particle sector",
+        },
     ]
 
     closed = [
@@ -68,10 +80,10 @@ def main():
     print(f"routes: {routes}")
     print(f"partial_twoform_routes: {[route['route'] for route in partial]}")
     print(f"closed_functional_routes: {[route['route'] for route in closed]}")
-    print("verdict: no route currently proves a functional Lambda^2 End(H1) particle-sector selector")
+    print("verdict: the operator commutator supplies a native functional Lambda^2 End(H1) -> T8 map")
     print(
-        "next_target: derive an End(H1)-valued boundary field or curvature/source-overlap "
-        "operator whose natural action is an alternating two-form over the operator alphabet"
+        "next_target: show whether the C1 side action eta/2=1/36 weights or normalizes "
+        "the commutator two-form in the particle sector"
     )
 
 
