@@ -94,13 +94,24 @@ first principles).
 
 ## Active priority queue
 
-1. DERIVE RHO-DYNAMICS NATIVELY (the branch-(iii) fork): candidates —
-   (a) C1 action at full metric-perturbation level (do the banked
-   angular Hessian blocks induce an effective (rho')² term when
-   integrated out?); (b) H1 carrier gradient energy on the (f,rho)
-   background; (c) native re-derivation of the EH remainder
-   2 - 2*f*rho*rho'' from positional-dilation first principles
-   (principle 4). Either outcome decisive (rho=r theorem, or throats).
+1. DERIVE beta(rho) NATIVELY — the rho-dynamics derivation CONVERGED
+   (rho_dynamics_derivation_results.md): requiring the banked vacuum to
+   survive forces L_C1 + D* = (1/4)[(f*rho)']² (perfect square in the
+   dilation-weighted radius u = f*rho) plus an areal potential
+   beta(rho)(1+(rho')²) with first integral beta(1-(rho')²) = J. J=0
+   leaf = exactly the banked P0 vacuum (first SELECTING action). The
+   entire branch-(iii) decision sits in beta: b0*rho² => throats exist
+   (new anti-Fisher-like exact metric) but never lift the threshold;
+   beta with a positive critical value => verified threshold-lifting
+   members with m² = f_inf*lambda/rho_inf² (masses from angular
+   eigenvalues — the hunch realized). Linked CANONIZATION FORK pending
+   Charles: distance reading (areal => rho=r forced, branch iii dead),
+   growth canon (unbounded dilation kills lifting members + selects
+   C=0), beta itself. Candidates for native beta: H1 induced areal
+   energy; flux revisited in u = f*rho; areal stiffness from first
+   principles. Also: Einstein tension quantified (Delta = pi*c*a²/r⁴;
+   rho-dynamics NOT secretly EH); P0 areal-reading theorem (B=1/A in
+   areal chart <=> rho=r).
 2. BRANCH-(ii): the a_tail=0 zero-tail mechanism (Matter Cell
    Postulate's nonlinear global condition) + what makes the probe domain
    genuinely compact.
