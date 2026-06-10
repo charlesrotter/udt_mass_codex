@@ -98,6 +98,50 @@ nonlinear metric operator.
 | Neumann-wall confinement | `QUARANTINE` | Boundary condition/mechanism import. | Look for native endpoint, finite-action, Cauchy/projector, or nonlinear domain filters. |
 | Linearized hadron calculations | `DROP` for conclusions | Legacy itself flags linearization as invalid at hadronic scale. | Redo with full nonlinear metric operator only. |
 
+## Spectrum-Stage Update: H1 Operator Alphabet
+
+Added 2026-06-10; see `particle_spectrum_native_geometry.md`.
+
+The first spectrum-stage rebuild gives:
+
+```text
+H1 dimension = 3
+End(H1) dimension = 9
+End(H1) = trace 1 + traceless 8
+traceless 8 = antisymmetric 3 + symmetric-traceless 5
+```
+
+This upgrades the native status of the `9` and `1 + 8` fingerprints:
+
+```text
+9 is native as End(H1);
+1 + 8 is native as trace/traceless split;
+3 + 5 is native as angular tensor split.
+```
+
+The exterior algebra of `End(H1)` also gives exact fingerprint locations:
+
+```text
+dim Lambda^2 End(H1) = 36
+dim Lambda^3 End(H1) = 84
+dim Lambda^6 End(H1) = 84
+```
+
+This does not yet derive hadron coefficients. The missing step is still the
+native selector:
+
+```text
+Why should the particle sector use Lambda^2 End(H1), Lambda^3 End(H1), or
+their Hodge-dual partners?
+```
+
+Therefore the updated status is:
+
+```text
+36 and 84 have native operator-algebra locations;
+36 and 84 do not yet have native particle-sector selection laws.
+```
+
 ## Working Hypothesis
 
 The useful legacy hadron material is probably not the old particle mechanism.
