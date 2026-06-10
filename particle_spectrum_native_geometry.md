@@ -3130,3 +3130,70 @@ End(H1) unit s=1/9. This is a strong candidate for a native
 scalar-background/active-image quotient rule, but not yet a mass formula or
 force assignment.
 ```
+
+## 41. Scalar Anchor Residue Audit
+
+Implemented in `native_scalar_anchor_residue_audit.py`.
+
+The `1/9` residue from the trace-image pairing is not a new fitted term.
+
+Native End(H1) decomposition:
+
+```text
+End(H1) = trace + T8
+dim End(H1) = 9
+dim trace = 1
+dim T8 = 8
+```
+
+Normalized shares:
+
+```text
+trace share in End(H1):
+    1/9 = s
+
+T8 share in End(H1):
+    8/9 = 8s
+```
+
+From the trace-image pairing:
+
+```text
+trace-kernel load:
+    2/9
+
+active image action:
+    2/3
+
+trace-kernel load + active image action:
+    2/9 + 2/3 = 8/9
+```
+
+Therefore:
+
+```text
+full normalized unit - (trace-kernel load + active image action)
+    = 1 - 8/9
+    = 1/9
+    = s
+    = trace share in End(H1).
+```
+
+Interpretation:
+
+```text
+The trace-kernel plus active-image structure accounts for exactly the T8 share
+of End(H1). The leftover is exactly the central trace share.
+```
+
+Forty-first spectrum-stage verdict:
+
+```text
+The trace-image bridge now closes as a native End(H1) quotient identity:
+
+    active share 8/9 + scalar anchor 1/9 = 1.
+
+This supports the reading that the metric is organizing a scalar-background /
+active-angular split, with the central trace as the scalar anchor. It remains
+a quotient/normalization identity, not a particle assignment or mass formula.
+```

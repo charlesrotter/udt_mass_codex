@@ -870,6 +870,28 @@ candidate scalar-background/active-image quotient rule;
 not a mass formula.
 ```
 
+Scalar-anchor residue:
+
+```text
+End(H1) = trace + T8
+normalized shares:
+    trace = 1/9 = s
+    T8 = 8/9
+
+trace-kernel load + active image action:
+    2/9 + 2/3 = 8/9
+
+remaining unit:
+    1 - 8/9 = 1/9 = trace share
+```
+
+Status:
+
+```text
+candidate End(H1) quotient identity:
+active angular share plus scalar trace anchor.
+```
+
 ## Working Hypothesis
 
 The useful legacy hadron material is probably not the old particle mechanism.
