@@ -62,3 +62,13 @@ Static throat/threshold-lifting mechanisms are retired per C-1.
 
 **Provenance:** macro_sector_fork_resolution.md; AUDIT.md (S116 weld
 derivation). Canonized by Charles 2026-06-10.
+
+## Provenance annotation (2026-06-10, appended)
+
+The origin prompts (2025-08-12, Grok; see PROVENANCE.md) bear on two
+canon entries: C-1's areal reading is a later refinement — the original
+"time dilation with distance" left the distance notion unspecified, and
+R-areal was fixed by macro data. C-2's finite-cell canon matches the
+founding intent directly — Prompt 2 already asserts redshift increasing
+asymptotically "as you approach the universe boundary." Recorded as
+provenance/consilience, not as evidence for either canon.
