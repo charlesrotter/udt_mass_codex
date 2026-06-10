@@ -564,6 +564,34 @@ q(P):
     parked as possible excitation/depth branch
 ```
 
+Two-form channel balance:
+
+```text
+domain unit = 1/36
+image unit = 1/12
+
+A3 wedge S5 -> S5:
+    domain load 15/36 = 5/12
+    image action 5/12
+    balanced
+
+S5 wedge S5 -> A3:
+    residual = +1/36 = eta/2
+
+A3 wedge A3 -> A3:
+    residual = -1/6 = -q/2
+
+trace wedge T8:
+    load 2/9, no image
+```
+
+Status:
+
+```text
+native channel-coupling clue: present
+particle force/mass interpretation: open
+```
+
 ## Working Hypothesis
 
 The useful legacy hadron material is probably not the old particle mechanism.

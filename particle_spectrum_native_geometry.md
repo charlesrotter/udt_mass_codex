@@ -2117,3 +2117,71 @@ The current taxonomy keeps the common q=1/3 radial branch and reads sectors by
 projector-weighted action. Sector-dependent radial depths are parked as a
 possible excitation mechanism until a boundary condition derives them.
 ```
+
+## 27. Two-Form Channel Action Balance
+
+Implemented in `native_twoform_channel_action_balance.py`.
+
+Use:
+
+```text
+domain unit = eta/2 = 1/36
+image unit = S_C1/R = 1/12.
+```
+
+For each two-form channel, compare:
+
+```text
+domain load = channel domain dimension * 1/36
+image action = commutator image rank * 1/12.
+```
+
+Results:
+
+```text
+trace wedge T8:
+    domain load = 8/36 = 2/9
+    image action = 0
+    residual = 2/9
+
+A3 wedge A3 -> A3:
+    domain load = 3/36 = 1/12
+    image action = 3/12 = 1/4
+    residual = -1/6
+
+A3 wedge S5 -> S5:
+    domain load = 15/36 = 5/12
+    image action = 5/12
+    residual = 0
+
+S5 wedge S5 -> A3:
+    domain load = 10/36 = 5/18
+    image action = 3/12 = 1/4
+    residual = 1/36
+```
+
+Native identities:
+
+```text
+A3 wedge S5 is exactly balanced.
+
+S5 wedge S5 residual = eta/2.
+
+A3 wedge A3 deficit = -1/6 = -q/2.
+```
+
+Interpretation:
+
+```text
+The two-form taxonomy is not just dimensions. Its C1 domain load and
+commutator image action have structured balances and residuals.
+```
+
+Twenty-seventh spectrum-stage verdict:
+
+```text
+The mixed A3-S5 channel is the first internally balanced interaction channel.
+The pure S5-S5 and A3-A3 channels leave residuals equal to already-native C1
+quantities. This is a channel-coupling clue, not yet a particle force or mass
+formula.
+```
