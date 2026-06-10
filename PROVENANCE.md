@@ -66,3 +66,12 @@ screenshot is archived as `provenance_origin_prompts_2025-08-12.png`
    as potential future audit targets (does the banked metric realize
    reciprocity exactly? what is c_eff operationally at quantum
    distances on the matter side?).
+
+## The idea's true origin (appended 2026-06-10, per Charles)
+
+The positional-dilation idea itself dates to circa 1991 (recorded
+elsewhere by Charles). It remained undeveloped for roughly three
+decades for lack of any means to develop it; the advent of LLMs made
+the development possible, beginning with the 2025-08-12 Grok prompts
+above. The 2025 prompts are therefore the first *formalization* event,
+not the conception.
