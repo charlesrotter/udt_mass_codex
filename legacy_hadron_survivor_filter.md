@@ -848,6 +848,28 @@ this is a native admissibility atlas;
 not yet a particle assignment.
 ```
 
+Trace-image pairing:
+
+```text
+dim(trace wedge T8) = dim(image T8) = 8
+
+trace-kernel load = q * active image action
+    2/9 = (1/3) * (2/3)
+
+trace load + image action:
+    2/9 + 2/3 = 8/9
+
+remaining normalized unit:
+    1 - 8/9 = 1/9 = s
+```
+
+Status:
+
+```text
+candidate scalar-background/active-image quotient rule;
+not a mass formula.
+```
+
 ## Working Hypothesis
 
 The useful legacy hadron material is probably not the old particle mechanism.

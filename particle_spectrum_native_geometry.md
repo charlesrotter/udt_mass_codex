@@ -3048,3 +3048,85 @@ instruments to angular operator channels. This is more constrained than a
 ratio ladder and less committed than a particle spectrum. The roads are
 admissibility structure, not destinations or observed species names.
 ```
+
+## 40. Trace-Image Pairing Audit
+
+Implemented in `native_trace_image_pairing_audit.py`.
+
+The trace-kernel bridge has a sharper exact structure.
+
+Dimensions:
+
+```text
+trace wedge T8 kernel copy:
+    dim = 8
+
+commutator image T8:
+    dim = 8
+
+Lambda2 End(H1):
+    dim = 36
+
+End(H1):
+    dim = 9
+```
+
+Action/load values:
+
+```text
+trace-kernel load:
+    8 * (1/36) = 2/9
+
+active image action:
+    8 * (1/12) = 2/3
+
+one End(H1) unit:
+    s = 1/9
+
+full two-form domain load:
+    36 * (1/36) = 1
+```
+
+Exact identities:
+
+```text
+dim(trace wedge T8) = dim(image T8) = 8
+
+trace-kernel load = q * active image action
+    2/9 = (1/3) * (2/3)
+
+active image action = 3 * trace-kernel load
+    2/3 = 3 * (2/9)
+
+trace-kernel load + active image action = 8/9
+
+full domain load - (trace-kernel load + active image action) = 1/9 = s
+```
+
+Candidate reading:
+
+```text
+The central trace-kernel channel may be a q-scaled scalar copy or shadow of
+the active T8 image.
+```
+
+Equivalent quotient reading:
+
+```text
+central T8 copy + active T8 image:
+    2/9 + 2/3 = 8/9
+
+remaining unit:
+    1/9 = one End(H1) scalar unit
+```
+
+Fortieth spectrum-stage verdict:
+
+```text
+The trace-kernel bridge is not just a loose load. It pairs exactly with the
+active T8 image by dimension and by q-scaling. The combined trace-plus-image
+structure occupies 8/9 of the normalized two-form load and leaves exactly the
+End(H1) unit s=1/9. This is a strong candidate for a native
+scalar-background/active-image quotient rule, but not yet a mass formula or
+force assignment.
+```
