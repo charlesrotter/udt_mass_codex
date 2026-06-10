@@ -2579,3 +2579,130 @@ The S5 branch is the first composable taxonomy object: it is simultaneously a
 single-sector readout and the balanced A3-S5 interaction output. This is a
 native composition rule, not yet a particle assignment.
 ```
+
+## 34. Pure Channel Residual Ledger
+
+Implemented in `native_pure_channel_residual_ledger.py`.
+
+Pure channel residuals:
+
+```text
+S5 wedge S5 -> A3:
+    residual = +1/36 = eta/2
+
+A3 wedge A3 -> A3:
+    residual = -1/6 = -q/2
+
+A3 wedge S5 -> S5:
+    residual = 0.
+```
+
+Pure residual sum:
+
+```text
+eta/2 - q/2 = 1/36 - 1/6 = -5/36.
+```
+
+Useful identities:
+
+```text
+pure residual sum + q/2 = eta/2
+pure residual sum + S_C1/R = -eta
+```
+
+Interpretation:
+
+```text
+S5-S5:
+    underfills image action by eta/2;
+    carries a small positive side-action residual.
+
+A3-A3:
+    overdemands image action by q/2;
+    needs boundary momentum/source supply.
+
+A3-S5:
+    exactly balanced.
+```
+
+Thirty-fourth spectrum-stage verdict:
+
+```text
+The pure channels do not close by themselves. They are source-accounting
+branches. The mixed A3-S5 channel remains the only currently balanced
+interaction branch.
+```
+
+## 35. Pure Channel Boundary Role Audit
+
+Implemented in `native_pure_channel_boundary_role_audit.py`.
+
+The pure-channel residuals are not arbitrary.
+
+For:
+
+```text
+S5 wedge S5 -> A3
+```
+
+the residual is:
+
+```text
++1/36 = eta/2.
+```
+
+Boundary role:
+
+```text
+one-sided projected C1 action.
+```
+
+Interpretation:
+
+```text
+side-action residual.
+```
+
+For:
+
+```text
+A3 wedge A3 -> A3
+```
+
+the residual is:
+
+```text
+-1/6 = -q/2.
+```
+
+Boundary role:
+
+```text
+negative of unprojected C1 boundary momentum.
+```
+
+Interpretation:
+
+```text
+momentum/source deficit.
+```
+
+Open accounting:
+
+```text
+S5-S5:
+    needs one side-action unit eta/2
+    candidate source: symmetric interface side action or residual boundary layer
+
+A3-A3:
+    needs boundary momentum q/2 with opposite sign
+    candidate source: C1 momentum jump / source orientation
+```
+
+Thirty-fifth spectrum-stage verdict:
+
+```text
+Pure-channel residuals are native C1 boundary quantities. They are not yet
+particle mechanisms. Pure channels require source/boundary accounting before
+they can enter spectrum construction.
+```

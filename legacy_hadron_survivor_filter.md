@@ -720,6 +720,45 @@ S5 is the first composable taxonomy object:
     balanced mixed-channel output
 ```
 
+Pure channel residual ledger:
+
+```text
+S5 wedge S5 -> A3:
+    residual = +1/36 = eta/2
+
+A3 wedge A3 -> A3:
+    residual = -1/6 = -q/2
+
+A3 wedge S5 -> S5:
+    residual = 0
+```
+
+Status:
+
+```text
+pure channels require source/boundary accounting;
+mixed A3-S5 remains the only balanced interaction branch.
+```
+
+Pure-channel boundary roles:
+
+```text
+S5 wedge S5 residual:
+    +1/36 = eta/2
+    one-sided projected C1 action
+
+A3 wedge A3 residual:
+    -1/6 = -q/2
+    negative unprojected C1 boundary momentum
+```
+
+Status:
+
+```text
+residuals are native C1 boundary quantities;
+source accounting remains open.
+```
+
 ## Working Hypothesis
 
 The useful legacy hadron material is probably not the old particle mechanism.
