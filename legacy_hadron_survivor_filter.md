@@ -284,6 +284,81 @@ active full 84-dimensional particle sector: no
 mass coefficient: not derived
 ```
 
+Native `7`-family fractions:
+
+```text
+Lambda^2 End(H1):
+    image/full domain = 2/9
+    kernel/full domain = 7/9
+
+Lambda^2 T8:
+    image/active domain = 2/7
+    kernel/active domain = 5/7
+```
+
+Updated `7` status:
+
+```text
+native commutator-filter denominator: yes
+legacy seven-position orbit: not restored
+hadron/nuclear coefficient: not derived
+```
+
+Composite fingerprint update:
+
+```text
+84 = dim Lambda^3 End(H1)
+84 = 3 * dim Lambda^2 T8 = 3 * 28
+
+108 = A3 * dim Lambda^2 End(H1) = 3 * 36
+180 = S5 * dim Lambda^2 End(H1) = 5 * 36
+180/108 = 5/3 = S5/A3
+```
+
+Updated composite status:
+
+```text
+84: native three-form domain, not a mass coefficient
+108: native A3-weighted two-form-domain fingerprint, no readout rule
+180: native S5-weighted two-form-domain fingerprint, no readout rule
+5/3: native S5/A3 image-split ratio, not a coupling by itself
+63: weaker 9*7 fingerprint, not yet a native dimension
+```
+
+C1 normalization bridge:
+
+```text
+eta/2 = 1/36 on Lambda^2 End(H1)
+B B^T = 3 P_T8 for the commutator map
+(1/36) B B^T = (1/12) P_T8
+```
+
+The value `1/12` is exactly the unprojected self-similar C1 action:
+
+```text
+S_C1/R = 1/12
+(S_C1/R)/3 = 1/36
+```
+
+Total image weight:
+
+```text
+8 * (1/12) = 2/3
+```
+
+matches:
+
+```text
+dim Lambda^3 T8 / dim Lambda^3 End(H1) = 56/84 = 2/3.
+```
+
+Updated selector status:
+
+```text
+C1 normalization bridge: present
+mass readout rule: open
+```
+
 Best next target:
 
 ```text
@@ -321,14 +396,15 @@ demands them.
 
 ## Immediate Next Work
 
-1. Recompute the `H1` operator algebra from the current mixed-Hodge elementary
-   branch and decide whether `3^2 - 1 = 8` is native.
-2. Search for a native source of the `7` closure graph without Form-T `kappa`.
-3. Revisit the baryon sub-cavity/golden split using only nonlinear positional
-   dilation geometry and current boundary/domain filters.
-4. Reexpress old `36`, `63`, `84`, `108`, and `180` as tests against the new
-   angular graph rather than as imported formulas.
-5. Only after those pieces are native, attempt any hadron-spectrum construction.
+1. Interpret the active commutator image `T8 = A3 + S5` without particle labels.
+2. Decide whether the kernel/image fractions `2/7`, `5/7`, and `7/9` correspond
+   to metric readout, source overlap, or only algebraic filtering.
+3. Retest legacy `63`, `108`, and `180` against the new operator hierarchy:
+   C1-weighted domain `36`, active image `8`, active denominator `7`, and
+   three-form domain `84`.
+4. Revisit baryon sub-cavity/golden splitting only after the operator readout is
+   clear enough to avoid importing Form-T node structure.
+5. Attempt mass-spectrum construction only after a native readout rule exists.
 
 ## Relation To The Existing Audit
 

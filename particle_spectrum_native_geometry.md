@@ -1039,3 +1039,340 @@ active nonzero three-form is filtered to the traceless sector, with a 28D trace
 kernel and 56D active domain. This is a native functional location for 84, not
 yet a mass coefficient or particle count.
 ```
+
+## 13. Native Dimension Fractions From The Commutator Filter
+
+Implemented in `native_commutator_dimension_fractions.py`.
+
+The two-form selector gives exact domain/image/kernel fractions.
+
+Full two-form domain:
+
+```text
+Lambda^2 End(H1):
+    domain = 36
+    image = 8
+    kernel = 28
+```
+
+Therefore:
+
+```text
+image/full domain = 8/36 = 2/9
+kernel/full domain = 28/36 = 7/9
+```
+
+The central trace kernel is:
+
+```text
+trace wedge T8 = 8
+```
+
+so:
+
+```text
+central kernel/full domain = 8/36 = 2/9
+active domain/full domain = 28/36 = 7/9.
+```
+
+Inside the active traceless two-form domain:
+
+```text
+Lambda^2 T8:
+    domain = 28
+    image = 8
+    kernel = 20
+```
+
+Therefore:
+
+```text
+image/active domain = 8/28 = 2/7
+kernel/active domain = 20/28 = 5/7.
+```
+
+Block fractions:
+
+```text
+Lambda^2 A3:
+    image fraction = 3/3 = 1
+
+A3 wedge S5:
+    image fraction = 5/15 = 1/3
+    kernel fraction = 10/15 = 2/3
+
+Lambda^2 S5:
+    image fraction = 3/10
+    kernel fraction = 7/10
+```
+
+Three-form fractions:
+
+```text
+Lambda^3 End(H1):
+    full domain = 84
+    trace kernel = 28
+    active domain = 56
+```
+
+so:
+
+```text
+trace kernel/full domain = 1/3
+active domain/full domain = 2/3.
+```
+
+This creates a native home for old `7`-family fingerprints:
+
+```text
+2/7 = active two-form image fraction
+5/7 = active two-form kernel fraction
+7/9 = active two-form domain fraction inside Lambda^2 End(H1)
+```
+
+These are not imported nuclear couplings or particle labels. They are exact
+fractions of the native commutator selector.
+
+Thirteenth spectrum-stage verdict:
+
+```text
+The number 7 now appears natively in the active two-form filter, not as a
+seven-position legacy orbit: Lambda^2 T8 filters to image/kernel fractions
+2/7 and 5/7. Legacy uses of 2/7, 5/7, and 7 should be retested against this
+commutator-filter origin.
+```
+
+## 14. Legacy Composite Fingerprint Audit
+
+Implemented in `native_legacy_composite_fingerprint_audit.py`.
+
+The new native hierarchy gives:
+
+```text
+dim H1 = 3
+dim End(H1) = 9
+T8 = A3 + S5 = 3 + 5
+dim Lambda^2 End(H1) = 36
+dim Lambda^2 T8 = 28
+dim Lambda^3 End(H1) = 84
+dim Lambda^3 T8 = 56
+```
+
+Retesting old composite fingerprints:
+
+```text
+84 = dim Lambda^3 End(H1)
+84 = H1 * Lambda^2 T8 = 3 * 28
+84 = trace kernel 28 + active three-form domain 56
+```
+
+So `84` is now native as a full three-form domain.
+
+The old `108` and `180` fingerprints also have a clean native reading:
+
+```text
+108 = A3 * Lambda^2 End(H1) = 3 * 36
+180 = S5 * Lambda^2 End(H1) = 5 * 36
+```
+
+Therefore:
+
+```text
+180 / 108 = 5/3 = S5 / A3.
+```
+
+This means:
+
+```text
+108 and 180 are C1 two-form-domain composites weighted by the active image
+split 3+5.
+```
+
+But no readout rule has yet mapped them to observables.
+
+The old `63` is weaker:
+
+```text
+63 = End(H1) * active-two-form denominator = 9 * 7.
+```
+
+That is a native fingerprint, but not yet a native dimension of a constructed
+operator space or a trace/invariant.
+
+Fourteenth spectrum-stage verdict:
+
+```text
+84, 108, 180, and 5/3 now have native operator-algebra fingerprints. 84 is a
+genuine three-form domain. 108 and 180 are two-form-domain composites weighted
+by A3 and S5. 63 remains only a weaker 9*7 fingerprint until a native readout
+or operator space produces it directly.
+```
+
+## 15. C1 Weight Closure Through The Commutator
+
+Implemented in `native_commutator_c1_weight_closure.py`.
+
+The two-form selector has:
+
+```text
+dim Lambda^2 End(H1) = 36
+eta/2 = 1/36.
+```
+
+The commutator isotropy result gives:
+
+```text
+B B^T = 3 P_T8.
+```
+
+Therefore uniform C1 side weight over the two-form domain pushes forward to:
+
+```text
+(1/36) B B^T = (1/12) P_T8.
+```
+
+But:
+
+```text
+S_C1/R = 1/12
+```
+
+for the self-similar `q=1/3` branch before H1 projection, while:
+
+```text
+(S_C1/R)/3 = 1/36 = eta/2.
+```
+
+So the same C1 action appears in two equivalent native forms:
+
+```text
+H1-projected side action:
+    1/36 on Lambda^2 End(H1)
+
+commutator-projected image action:
+    1/12 on each T8 image direction.
+```
+
+The total image weight is:
+
+```text
+8 * (1/12) = 2/3.
+```
+
+This matches the three-form filter:
+
+```text
+dim Lambda^3 T8 / dim Lambda^3 End(H1) = 56/84 = 2/3.
+```
+
+and:
+
+```text
+trace-kernel fraction = 28/84 = 1/3.
+```
+
+Fifteenth spectrum-stage verdict:
+
+```text
+The C1 side action, the commutator two-form selector, and the three-form
+trace filter now share one exact normalization pattern:
+
+1/36 -> commutator isotropy -> 1/12 on T8,
+total T8 image weight 2/3 = active three-form fraction.
+
+This is a native normalization bridge between the two-form and three-form
+operator layers. It is still not a mass readout.
+```
+
+## 16. Particle Alphabet Status Before Mass Readout
+
+Implemented in `native_particle_alphabet_status.py`.
+
+Current derived/native alphabet:
+
+```text
+H1:
+    rank 3 harmonic angular carrier
+
+End(H1):
+    dimension 9
+    split 1 + 8
+
+T8:
+    active traceless commutator image
+    split 3 + 5
+
+Lambda^2 End(H1):
+    C1-weighted selector domain
+    dimension 36
+    uniform side weight eta/2 = 1/36
+
+commutator selector:
+    Lambda^2 End(H1) -> T8
+    isotropic with B B^T = 3 P_T8
+
+Lambda^3 End(H1):
+    native three-form domain for Tr(A[B,C])
+    dimension 84
+
+Lambda^3 T8:
+    active three-form domain
+    dimension 56
+    active fraction 2/3
+```
+
+Native fingerprints now explained or partly explained:
+
+```text
+3:
+    H1 and A3
+
+5:
+    S5
+
+7:
+    active two-form image/kernel denominator
+
+8:
+    T8 image
+
+9:
+    End(H1)
+
+36:
+    C1-weighted Lambda^2 End(H1)
+
+84:
+    Lambda^3 End(H1) domain
+
+108:
+    3 * 36
+
+180:
+    5 * 36
+
+5/3:
+    S5/A3
+```
+
+Still weak:
+
+```text
+63:
+    9 * 7 fingerprint only;
+    not yet a native dimension or invariant.
+```
+
+Still open:
+
+```text
+mass readout rule.
+```
+
+Sixteenth spectrum-stage verdict:
+
+```text
+The native particle alphabet is now substantially constrained before any mass
+formula is attempted. The next legitimate step is not to fit masses, but to
+derive a readout rule from this operator hierarchy to spectrum observables.
+```
