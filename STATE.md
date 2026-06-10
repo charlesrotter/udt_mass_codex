@@ -94,7 +94,23 @@ first principles).
 
 ## Active priority queue
 
-1. DERIVE beta(rho) NATIVELY — the rho-dynamics derivation CONVERGED
+0. CANONIZATION PENDING (macro_sector_fork_resolution.md): the macro
+   sector resolves the fork — the data-validated SNe/BAO/Misner-Sharp
+   stack (Pantheon+ chi2/dof 0.94 beating LCDM at 0 free params) treats
+   r as AREAL radius throughout => R-areal reading => rho=r FORCED (C2
+   theorem) => branch (iii) statics DEAD, beta(rho) moot in statics.
+   Growth canon superseded: the universe is a FINITE cell ([0, r_CMB],
+   phi: 0 -> 7.004 at the boundary) => branch (ii) realized BY the
+   cosmology; discreteness is native but Gpc-scale => the sharp question
+   becomes spectral SCALE-AUTONOMY of particle cells. The phi-angular
+   hunch survives in the NONSTATIONARY sector: the CMB rung-2 weld
+   d_r(e^{-2phi0}H1) = 2 d_t(dphi) + d_t K is a derived, data-tested
+   dynamical phi-angular coupling — outside every static no-go.
+   Awaiting Charles's sign-off on: R-areal canon, finite-cell canon,
+   program redirect (nonstationary weld sector / transfer ladder /
+   ensembles).
+1. [superseded by 0 if R-areal canonized] DERIVE beta(rho) NATIVELY —
+   the rho-dynamics derivation CONVERGED
    (rho_dynamics_derivation_results.md): requiring the banked vacuum to
    survive forces L_C1 + D* = (1/4)[(f*rho)']² (perfect square in the
    dilation-weighted radius u = f*rho) plus an areal potential
