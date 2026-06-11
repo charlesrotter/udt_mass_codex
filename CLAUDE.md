@@ -54,6 +54,19 @@ coupling as the prime suspect for the discreteness gap.
   coverage ~16-23%, see dimension_ladder_null_audit.md). New value
   identities must pass the TEST-B-style classifier (generalize, solve,
   check N-specificity) before being banked as evidence.
+- **Negative results are scoped, never absolute** (Charles, 2026-06-11):
+  every banked negative/no-go carries its PREMISE SET (background,
+  source treatment, boundary conditions, domain class, truncation,
+  method). The living index is NEGATIVES_REGISTRY.md. When any premise
+  is later revised or refuted, every negative carrying it is flagged
+  CONDITIONS-CHANGED in the registry and loses blocking authority until
+  re-graded under the new conditions. Check the registry at every push
+  plan and every premise-changing result.
+- **Hypothesis discipline** (Charles, 2026-06-11: "I'm trying to find
+  what's real, not what confirms my priors"): Charles's physical
+  pictures are direction, not evidence. Aim verifiers hardest at
+  results that would confirm the standing picture; accommodations to a
+  hypothesis are pre-registered, never retrofitted after a residual.
 - Commit per result; push to github.com/charlesrotter/udt_mass_codex.
 
 ## Canon

@@ -66,6 +66,11 @@ first principles).
 
 ## Banked negatives (do not re-litigate without new structure)
 
+NOTE (2026-06-11): negatives are now premise-scoped in
+NEGATIVES_REGISTRY.md (charter rule). Several entries below are
+CONDITIONS-CHANGED there — check the registry before treating any of
+these as blocking.
+
 - Box-control: localized angular sources alone give no native spectrum
   (omega1*Rmax ~ 3.6-4.5 constant) — UPGRADED to the open-domain
   threshold THEOREM (empty point spectrum, verifier-confirmed incl. the
