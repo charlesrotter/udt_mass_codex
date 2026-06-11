@@ -168,3 +168,16 @@ Every results doc that revises a premise MUST update this registry in
 the same commit. Every push plan checks this registry for
 CONDITIONS-CHANGED entries touching its route before treating any
 banked negative as blocking.
+
+18. W_B TIME WEIGHT (1/f^3 family): RETIRED 2026-06-11
+    (measure_fork_results.md, VMF) — structurally unattainable from
+    the covariant C1 second variation (flip factor f-free for every
+    completion loading). Its m=1 limit-point kill at the seal is
+    refuted; the theta-family is real.
+19. BANKED WELD MASS TERM 2s (the n=0 commitment): REFUTED-AS-NATIVE
+    2026-06-11 (measure_fork_results.md; holdout killed; zero-tail
+    shelter compute-settled dead). Premises it survives under: the
+    posited-family/zero-tail idealization only. All L0 maps keep
+    internal validity as posited-family computations; native standing
+    withdrawn. Carries the program-wide full-action boundary-term
+    caveat.
