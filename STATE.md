@@ -94,7 +94,26 @@ first principles).
 
 ## Active priority queue
 
-0. WELD PHASE 3 — TWO-SIDED/COMPOUND INTERFACE AUDIT: phase 2 returned
+0. DECISION POINT (Charles): the interface-shell route to native
+   oscillation is CLOSED at every banked and adjacent configuration
+   (weld_two_sided_results.md): single shell short by 2.0075x (phase 2,
+   exact Bessel threshold); the banked two-sided structure supplies NO
+   second shell (composition law only; per-side doubling forbidden); the
+   non-licensed symmetric pair reduces exactly to the single-cell
+   problem (even sector gamma=2q, odd Dirichlet — the 4/3-vs-L0 0.376%
+   proximity confirmed mirage). Exact obstruction: geometry supplies
+   gamma = 2q <= 1, binding needs L0 >= 1.338. Choose: (a) ensemble
+   route — non-concentric multi-cell mode problems (new machinery; last
+   standing weld-sector route; the orchestra); (b) pivot to macro
+   discriminator (native-weld CMB projection) + Tier-D coefficient
+   derivation vs the six wall numbers (transfer ladder untouched by all
+   weld negatives). Standing flag: the E0<0 oscillation window remains
+   the one live mechanism — any future native sector supplying NEGATIVE
+   E0 reopens it immediately. Scope note: all weld negatives are linear
+   normal-mode results; nonlinear breathers remain outside every
+   theorem.
+[RESOLVED 2026-06-10 — closed, see weld_two_sided_results.md] WELD
+   PHASE 3 — TWO-SIDED/COMPOUND INTERFACE AUDIT: phase 2 returned
    NEGATIVE WITH AN EXACT THRESHOLD MAP (weld_interface_mode_results.md):
    the banked single cell misses the oscillation window — bulk E0 =
    s/r^2 > 0 (window needs negative), the interface shell supplies
