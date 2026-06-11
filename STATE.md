@@ -19,8 +19,8 @@ THE VERIFIED STACK THIS SESSION (all blind-adversarially passed;
 read the results docs in this order):
 1. sphi0/sourced-jet/n-derivation: the source = the metric's own
    angular activity; W_ff kernel; slot-covariance; measure fork
-   DISSOLVED; W_A derived exactly (the same-minus record — the
-   single named premise carrying the force sign).
+   DISSOLVED; W_A derived exactly (the same-minus structure — later
+   UPGRADED TO A THEOREM of the time-row elimination, VN).
 2. exterior_cavity + fork_tests: formation law c* = 0.499 gamma^2
    (diagonal class); attribution gauge; mirror forced; f = 1
    geometrically nothing; seal curvature-singular (erratum: 24a^2/y^4).
@@ -36,7 +36,8 @@ read the results docs in this order):
 6. ensembles: LIKE CELLS ATTRACT inverse-square via flipped dynamics
    over verified-repulsive statics; Q = 2 p_F (CHARGE = MS MASS);
    E_int = 8 pi m1 m2/d; isolation impossible (walls at 1.8-6.9 R);
-   single-cell secular stability OPEN (gates everything dynamical).
+   single-cell secular stability — ANSWERED post-close: no
+   bounded-in-T continuation (nonstationary_opener_results.md).
 7. pde_p1: the theorem above; Class B (q-eliminated) is hyperbolic
    and well-posed (exterior data propagates inward); deep cells at
    cosmic driving are diagonal-class-only (59x, ell<=3-tied).
@@ -57,9 +58,9 @@ ADJUDICATED — nonstationary_opener_results.md, VN-ruled]:
 4. SPARC/macro program per sparc_native_force_law_note.md +
    macro-consilience roadmap (memory).
 DISCIPLINE LEDGER: interrogation rule (metric-led declarations),
-premise-scoped negatives (NEGATIVES_REGISTRY.md, entries 1-21),
+premise-scoped negatives (NEGATIVES_REGISTRY.md, entries 1-22),
 classifier/figure conventions mandatory, three-term extrapolation
-rule, the same-minus single-point-of-failure flag. GPU: V100 via
+rule, same-minus now THEOREM-grade (VN). GPU: V100 via
 torch float64 (see CLAUDE.md pitfalls).
 
 ## [SUPERSEDED 2026-06-11] Where the program stands in one paragraph

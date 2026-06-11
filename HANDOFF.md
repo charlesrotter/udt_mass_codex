@@ -10,7 +10,7 @@ lose" below). Read order for a new session:
    additions (interrogation discipline: declare metric-led vs
    template-led; premise-scoped negatives; hypothesis discipline; GPU
    usage + the two recorded torch pitfalls).
-3. NEGATIVES_REGISTRY.md — 21 premise-scoped entries; check before
+3. NEGATIVES_REGISTRY.md — 22 premise-scoped entries; check before
    treating ANY banked negative as blocking.
 4. Results docs in the order STATE lists them, as needed.
 
