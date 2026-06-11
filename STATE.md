@@ -1,8 +1,7 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-10 (ownership handover; post null-audit, spectral
-probe, P_domain attempt, frozen lepton test).
+Last update: 2026-06-11 (S_phi0 derivation panel + Tier-D round 3).
 
 ## Where the program stands in one paragraph
 
@@ -84,6 +83,17 @@ first principles).
   term).
 - Dilaton as inter-quark binder; algebraic derive-B routes; legacy
   pi-fits: all dead (see UDT_REBUILD.md / mass_emergence audit).
+- Typed-slot independence as a collar theorem: REFUTED as stated (core
+  slot is a flat direction at the canonical endpoint; coupling b_ell
+  vanishes only at the core-stiffness rate). Core-side node weights get
+  ZERO from the collar (sphi0_derivation_panel_results.md).
+- C_E1 = exp(eta) shape-norm recount: refuted (model change vs frozen
+  ladder; corpus had already tabulated and declined the norm^2=1/2
+  variant).
+- nu=5/2 warped family as the C1 second jet: refuted in every
+  variable (it is the spatial Dirichlet probe, exactly).
+- Tier-D round 3 (first derived conditional readings): 12/12 miss;
+  positive-exponent slot dressings cannot reach C < 1.
 
 ## Near-misses worth remembering (not evidence, calibration)
 
@@ -94,7 +104,42 @@ first principles).
 
 ## Active priority queue
 
-0. TIER-D: THE DERIVATION PROGRAM IS THE ONLY PATH. Two pre-registered
+0. TIER-D AFTER THE S_PHI0 PANEL (2026-06-11,
+   sphi0_derivation_panel_results.md + tier_d_round3_results.md): the
+   first derivation-grade push at the boundary functional ran (three
+   data-blind routes + two blind adversarial verifiers). NO
+   parameter-free coefficient exists yet; round 3 (pre-registered,
+   first DERIVED conditional readings) missed cleanly 12/12 — all
+   licensed readings give C_M1 >= 1, walls need C_M1 < 1; default
+   C_E1 = 1 misses by near-factor-2. Banked machinery from the panel:
+   S_phi0 IS the DtN quadratic form (exact); exact two-boundary collar
+   DtN with closed-form coupling b_ell = W0/Delta and exact
+   Schur=Neumann identity; two-sided Calderon projector (algebraic
+   section-383 fill; banked Cauchy projector = its Dirichlet-fiber
+   degeneration); monopole sector identity giving the first DERIVED
+   between-rung objects (M1 quarter-rung eta/8 at lambda=1/2 deg 2 =
+   the CP1 doublet; M2 half-rung eta/4 at lambda=1 deg 3).
+   FIRST-CLASS REFUTATION: the banked nu=5/2 warped DtN family is NOT
+   the C1 second jet in any variable — it is exactly the spatial
+   Dirichlet probe (section 253); the C1 Hessian is
+   parametrization-dependent off-shell (f -> nu=3, phi -> nu=sqrt(17),
+   hybrid -> sqrt(7)); gamma_warped's foundation is relocated.
+   SHARPENED TARGETS, in order: (1) P_f-variable — derive which
+   fluctuation coordinate carries the licensed second jet (canonical
+   chain favors f; resolving on-shell-ness may collapse the fork);
+   (2) the boundary measure / core-interior weight — the missing
+   coefficient object is now LOCALIZED: core-side typed-node weights
+   receive ZERO from the collar (independence "theorem" refuted as
+   stated; phi0-side decoupling survives conditionally); a negative-
+   exponent mechanism must enter here (phi-angular coupling = Charles's
+   hunch sits exactly at this gap); (3) the clock fork (same-mode-ratio
+   vs eigenvalue-clock) from the weld variational problem; (4) rebuild
+   or natively derive the warped branch (licensed nu=3 family:
+   D_B(2)=0.925083523113, B_C1=0.654132832357). Structural prediction
+   banked (conditional): the shared H1 frame block cancels exactly in
+   C_E1/C_M1 — the ratio is pure shape-sector.
+[prior queue head follows]
+0-r2. TIER-D: THE DERIVATION PROGRAM IS THE ONLY PATH. Two pre-registered
    vocabulary rounds both missed cleanly (round 1: 126/126; round 2
    with the session's new exact constants: 740/740,
    tier_d_round2_results.md) — the wall numbers are not expressible in
