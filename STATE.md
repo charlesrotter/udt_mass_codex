@@ -110,7 +110,30 @@ these as blocking.
 
 ## Active priority queue
 
-0. EXTERIOR-SOURCED CAVITY (Charles-ordered, launched 2026-06-11;
+0. POST-EXTERIOR-PUSH FRONTIER (exterior_cavity_results.md,
+   2026-06-11, both halves verifier-adjudicated). FORMATION REALIZED:
+   cells precipitate from the universe-side medium under the
+   universal law c* = chat*gamma^2 (chat = 0.498912, NOT 1/2);
+   gamma shapes, c seals; depth diverges at threshold; attribution is
+   GAUGE at configuration level (interface jet = entire invariant),
+   physical at completion level (native completion =
+   exterior-continuable responsive field). LINEAR BINDING SHUT
+   THEOREM-GRADE: flip uniformity exact, dressing repulsive at all
+   real omega, mirror exterior deletes the attractive shell
+   (gamma_eff = 0; zero-tail kink artifact; partial re-grade) and
+   makes E0 > 0 global. f >= 1 resolved on the average reading.
+   NEXT (ordered): (1) the SEALED CAVITY's spectrum — the formed
+   cell is the first genuinely compact native domain, mode problem
+   never posed, gated on controlling the seal truncation (ell=2);
+   (2) ENSEMBLES — collective modes, the last linear route;
+   (3) nonlinear/breathers (CANON C-3); (4) reconcile formed-cavity
+   steepness with the banked collar (over-determination negative:
+   the y^{-1/3} collar is NOT an ell<=1 source-free solution);
+   (5) balance equation. TWO CANON ADJUDICATIONS FOR CHARLES:
+   pointwise-vs-average interface reading; zero-tail-vs-mirror gloss
+   of C-2 (two existing docs gloss the other way).
+0-x. [COMPLETE 2026-06-11 — see exterior_cavity_results.md]
+   EXTERIOR-SOURCED CAVITY (Charles-ordered, launched 2026-06-11;
    follows n_derivation_results.md). n = W_ff is RESOLVED in the
    responsive reading: a channel/scale-resolved kernel, quasi-static
    character = the n~1 family to 0.7% (exact pointwise screening +

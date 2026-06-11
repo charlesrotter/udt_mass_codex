@@ -26,6 +26,12 @@ demonstration of why this registry exists.
    stands AS PROVEN on its premises; its blocking authority over the
    discreteness program is suspended pending re-grade on terminated
    domains with the screened/responsive interior.
+   UPDATE 2026-06-11 (exterior_cavity_results.md): the smooth
+   mirrored configuration is now ALSO shut (theorem-grade), but the
+   SEALED CAVITY's compact-domain spectrum (formed cells, reopening
+   route x) remains the unexamined case — this entry's suspension
+   stands for exactly that case, gated on controlling the seal-region
+   truncation.
 2. OPEN-CELL RESONANCES CLEAN NEGATIVE (no potential pocket)
    — open_domain_discreteness_results.md.
    Premises: vacuum potential V = f(lambda/r^2 + f'/r); sourceless;
@@ -39,11 +45,18 @@ demonstration of why this registry exists.
    results); nu = sqrt(17) family mass term 2s; VACUUM exterior;
    single static shell; coordinate measure; spherical-average
    interface reading implicit.
-   Status: RE-GRADE IN PROGRESS (exterior-sourced cavity push, agent
-   X2): n = 0 is unsupported by the native source (mass term wrong by
-   >= 2 orders if responsive); vacuum exterior under replacement by
-   the mirrored medium. The exact Bessel mathematics stands; the
-   physical verdict is suspended.
+   Status: RE-GRADED 2026-06-11 (exterior_cavity_results.md,
+   VX2-adjudicated): the negative SURVIVES STRENGTHENED. Corrected
+   vacuum-exterior deficit 1.8876x (screened interior); under the
+   canon-consistent mirror exterior the attractive shell itself is
+   DELETED (gamma_eff = 0 — it was the zero-tail truncation's kink;
+   partial re-grade: the zero-tail configuration stays internally
+   valid as a second configuration) and the shut verdict is
+   theorem-grade (global E0 > 0 positivity). Blocking authority
+   RESTORED and extended, scoped to linear normal modes of single
+   embedded cells; see the widened reopening register in
+   exterior_cavity_results.md (10 routes incl. sealed-cavity
+   spectrum, ensembles, proper measure, pointwise fork).
 4. TWO-SIDED/COMPOUND SHELL CLOSURE (no second shell; pair reduces to
    single cell) — weld_two_sided_results.md.
    Premises: vacuum exterior; licensed gluing only; n = 0 commitment;
@@ -55,10 +68,13 @@ demonstration of why this registry exists.
    oscillation) — weld_status_results.md.
    Premises: E0 >= 0 background; n = 0 source treatment (source not
    varied); single-channel elimination; coordinate measure.
-   Status: CONDITIONS-CHANGED — the responsive source makes the
-   fluctuation problem two-channel and energy-dependent (resonant);
-   the screened mass is not 2s. The E0 < 0 window flag remains the
-   live mechanism. Re-grade folds into X2.
+   Status: RE-GRADED 2026-06-11 (exterior_cavity_results.md): the
+   theorem SURVIVES STRENGTHENED under the responsive source — flip
+   uniformity is exact (no channel escapes), the two-channel dressing
+   is repulsive at every real frequency (the flagged resonance was a
+   sign-convention artifact; omega0^2 < 0 on-shell), and the mirror
+   exterior makes E0 > 0 global. Blocking authority restored, scoped
+   to linear modes / coordinate measure / average reading.
 6. ELL = 2 SOURCED BACKGROUND NONEXISTENCE (complex indicial roots;
    ell = 1 unique at eta = 1/18) — open_domain_discreteness_results.md.
    Premises: face-value static sourced ordinary sector; s = 1/3
