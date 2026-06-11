@@ -181,3 +181,18 @@ banked negative as blocking.
     internal validity as posited-family computations; native standing
     withdrawn. Carries the program-wide full-action boundary-term
     caveat.
+
+## ANGULAR-FLIP RE-GRADE (2026-06-11, angular_completeness_results.md)
+
+20. BLANKET PREMISE ADDED TO THE SILENCE FAMILY (#1, #2, #3, #5, and
+    the S2 narrowing under #1): all were computed in the DIAGONAL
+    METRIC CLASS. The verified angular flip (joint elimination of
+    q, w, u, v alongside the time row) REVERSES the sign of both
+    angular gradient terms in the corrected class. Status of the
+    family's ell >= 1 channels: CONDITIONS-CHANGED — blocking
+    authority suspended for ell >= 2 specifically (real-frequency
+    candidates exist on collar test domains; 1 -> 6 per channel as
+    ell -> 6). Their ell = 0/1 content survives (ell = 1: flip
+    relocates relaxation rates only; ell = 0: W_A territory,
+    unaffected). Re-grade owner: the full-PDE run (corrected-class
+    spectrum on self-consistent q,w-on backgrounds).
