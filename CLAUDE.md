@@ -79,6 +79,16 @@ coupling as the prime suspect for the discreteness gap.
   pictures are direction, not evidence. Aim verifiers hardest at
   results that would confirm the standing picture; accommodations to a
   hypothesis are pre-registered, never retrofitted after a residual.
+- **Interrogation discipline** (Charles, 2026-06-11; adopted after the
+  oscillator-thread audit): every push DECLARES up front whether its
+  question is METRIC-LED ("what does derived structure X do?") or
+  TEMPLATE-LED ("can the metric perform mechanism Y?"). Template-led
+  pushes are legal falsification exercises, but their negatives indict
+  the TEMPLATE first, the metric second — and a run of template
+  refusals triggers a REFRAME, not a deeper drill. Watch the questions
+  for smuggled mechanisms (the resonator/mass-as-eigenvalue template
+  ran ten months before being named). Principles 1 and 3 police
+  answers and vocabulary; this rule polices the questions.
 - Commit per result; push to github.com/charlesrotter/udt_mass_codex.
 
 ## Canon
