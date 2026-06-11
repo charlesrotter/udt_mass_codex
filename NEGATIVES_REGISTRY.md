@@ -196,3 +196,18 @@ banked negative as blocking.
     relocates relaxation rates only; ell = 0: W_A territory,
     unaffected). Re-grade owner: the full-PDE run (corrected-class
     spectrum on self-consistent q,w-on backgrounds).
+
+21. STATIC ANGULAR CELLS IN THE COMPLETE CLASS: ELIMINATED BY THEOREM
+    (pde_p1_results.md, VP1 61/61, 2026-06-11). The full static
+    even-sector solution set under C1 alone is {f spherical, q = 0,
+    w arbitrary}; the w-equation has no smooth nondegenerate zero
+    off-spherical (parameterization-robust; pointwise-algebraic).
+    BLANKET PREMISE ADDED REGISTRY-WIDE: every banked cell object
+    (library, seals, thresholds, formation law, ensembles E1/E2) is a
+    CONSTRAINED-CLASS flow (diagonal or Class B), not a full-class
+    static solution. Reopening routes: (i) the nonstationary sector
+    (CANON C-3; three independent arrows); (ii) a derived native
+    w-stiffness sector (EH-remainder species — structurally
+    plausible, unverified forward claim). The angular-flip re-grade's
+    "decisive computation" (entry 20) is UNRUNNABLE AS POSED and
+    rescopes accordingly.
