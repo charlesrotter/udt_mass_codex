@@ -45,6 +45,10 @@ coupling as the prime suspect for the discreteness gap.
   1024² symmetric eigensolve batched; 6x single-solve). Keep mpmath/
   sympy on CPU for high-precision anchors and symbolic identities;
   GPU results get CPU spot-checks at a few points per run.
+  KNOWN PITFALL (found 2026-06-11): on this V100/cu121 stack, batched
+  torch.linalg.solve_triangular with a BROADCAST Cholesky factor
+  silently corrupts at large batch (~150+); use explicit inverse +
+  batched matmul, and always run per-batch CPU asserts.
 
 ## Repo discipline (the Self-Hardening culture — do not soften)
 

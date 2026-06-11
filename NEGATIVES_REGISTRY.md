@@ -32,6 +32,16 @@ demonstration of why this registry exists.
    route x) remains the unexamined case — this entry's suspension
    stands for exactly that case, gated on controlling the seal-region
    truncation.
+   UPDATE 2 (2026-06-11, sealed_cavity_s2_results.md, VS2-ruled): the
+   sealed cavity's BULK is now settled — no interior discreteness;
+   pure relaxation ladder; "bulk cannot ring" is theorem-grade on the
+   full sealed interior (perspective convexity), conditional on the
+   ell<=3 reduced model + derived time weight. THE SUSPENSION NARROWS
+   to the SEAL-SURFACE BC SECTOR ONLY: the theta-family (real under
+   W_A, unselected; forced under W_B) at the true seal — undecided,
+   not empty (the attractive third of the family rings at the
+   stand-in). Gated on the measure-fork resolution + a native
+   theta-selector or controlled seal asymptotics.
 2. OPEN-CELL RESONANCES CLEAN NEGATIVE (no potential pocket)
    — open_domain_discreteness_results.md.
    Premises: vacuum potential V = f(lambda/r^2 + f'/r); sourceless;
