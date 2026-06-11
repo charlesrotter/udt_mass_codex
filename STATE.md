@@ -94,7 +94,19 @@ first principles).
 
 ## Active priority queue
 
-0. TIER-D COEFFICIENT DERIVATION — the active frontier. The macro weld
+0. TIER-D: THE DERIVATION PROGRAM IS THE ONLY PATH. Two pre-registered
+   vocabulary rounds both missed cleanly (round 1: 126/126; round 2
+   with the session's new exact constants: 740/740,
+   tier_d_round2_results.md) — the wall numbers are not expressible in
+   the native vocabulary at any derived complexity; they require an
+   OBJECT: the boundary functional S_phi0[typed nodes] + Hessian.
+   Prerequisites (corpus-named): typed-node variables (M1
+   compact/bundle, E1 shape-plane), a derived boundary action over
+   them, typed-slot independence. A post-hoc 160/81 = 2(1-s^2)
+   ratio observation is QUARANTINED at p~1.0 (becomes a confirmation
+   target only if a derivation produces the form independently).
+[prior queue text follows]
+0-prev. TIER-D COEFFICIENT DERIVATION — the active frontier. The macro weld
    discriminator is COMPLETE (weld_discriminator_results.md): verdict
    INDISTINGUISHABLE-AT-CURRENT-RECORD — the metric's own algebraic
    weld is NOT vetoed by the macro data (reproduces Einstein-weld
