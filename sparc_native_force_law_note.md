@@ -88,3 +88,18 @@ then fit nothing.
   cells — the structural form (massless channel + kernel +
   anisotropy + ambient) is the transferable content, not the cell
   numerics.
+
+## STATUS UPDATE (2026-06-11, appended): VERIFIER RULED — SURVIVES WITH AMENDMENTS
+
+The ensembles verifier (ensembles_results.md) ruled: the law survives.
+Amendments binding on any SPARC use: (1) the attraction sign rests
+SOLELY on the verified flipped-sector conjunction (-(c/2)[T+U], the
+same-minus record) — single named point of failure; the static
+landscape alone is repulsive for like charges; (2) charge bookkeeping
+pinned: Q = gamma = 2 p_F, E_int = 8 pi m1 m2/d (Newtonian-shaped in
+the MS masses); (3) the measured weld stress equals the channel
+cross-term EXACTLY in magnitude (gamma G/2) — the law's strongest
+quantitative confirmation; (4) isolation-impossible verified outright
+(walls at 1.8-6.9 cell radii); (5) open before SPARC use: single-cell
+secular stability under the flip (gates the dynamical picture), the
+corrected-class channel dressing, the wall-band Q-matching.
