@@ -94,7 +94,21 @@ first principles).
 
 ## Active priority queue
 
-0. DECISION POINT (Charles): the interface-shell route to native
+0. TIER-D COEFFICIENT DERIVATION — the active frontier. The macro weld
+   discriminator is COMPLETE (weld_discriminator_results.md): verdict
+   INDISTINGUISHABLE-AT-CURRENT-RECORD — the metric's own algebraic
+   weld is NOT vetoed by the macro data (reproduces Einstein-weld
+   phenomenology to ~1% of comb spacing); a real, robust ~3-ell EE comb
+   downshift (native vs Einstein) is BANKED as a falsifiable
+   differential prediction awaiting any few-ell Planck position
+   analysis (recorded pass precision is 30-42 ell, 10-14x coarser).
+   Tier-D: derive the branch coefficients data-blind against the six
+   wall numbers (local C_M1=0.977679087638, C_E1=1.93121474779,
+   ratio=1.97530536575 + warped triple) to 1e-4; structural hint:
+   required corrections sit between eta/2 rungs. Sand-free micro
+   sector.
+[RESOLVED 2026-06-10 — route (b) chosen; discriminator complete]
+   DECISION POINT (Charles): the interface-shell route to native
    oscillation is CLOSED at every banked and adjacent configuration
    (weld_two_sided_results.md): single shell short by 2.0075x (phase 2,
    exact Bessel threshold); the banked two-sided structure supplies NO
