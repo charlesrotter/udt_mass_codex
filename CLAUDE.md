@@ -37,6 +37,14 @@ coupling as the prime suspect for the discreteness gap.
   2026-06-10): delegate reconnaissance, implementation, verification, and
   doc-drafting to agents; keep only distilled reports in the main loop.
   Present the process plan before launching long pushes.
+- **Use the GPU** (Charles, 2026-06-11): a Tesla V100-PCIE-32GB is
+  available via PyTorch (`torch.linalg`, float64, cuda=True; note
+  nvidia-smi/NVML is broken — driver mismatch — but torch works fine;
+  expect an NVML warning, ignore it). Production eigensolves, scans,
+  and flow sweeps should use batched torch float64 (~14 ms per
+  1024² symmetric eigensolve batched; 6x single-solve). Keep mpmath/
+  sympy on CPU for high-precision anchors and symbolic identities;
+  GPU results get CPU spot-checks at a few points per run.
 
 ## Repo discipline (the Self-Hardening culture — do not soften)
 
