@@ -119,7 +119,10 @@ these as blocking.
    validity law ell+1 - D_+ = q[2ell/(2ell+1) - lambda/(4lambda+1)]);
    (2) f = 1 IS GEOMETRICALLY NOTHING (no (f-1) factor in any
    invariant; crossings invisible; the SEAL is the real locus —
-   curvature-singular in-ansatz, f^2 K -> 12a^2/y^4 exact); every
+   curvature-singular in-ansatz; ERRATUM 2026-06-11
+   (mass_audit_results.md): the exact on-axis law is
+   f^2 K -> 4 f_u(pole)^2/y^4 = 24a^2/y^4, twice the originally
+   printed 12a^2/y^4); every
    terminating flow crosses pointwise f = 1 (certified for
    c > 1.3c*; near-threshold band = certification gap, folded into
    S1). Residue for Charles: one canon sentence (mirror-class
