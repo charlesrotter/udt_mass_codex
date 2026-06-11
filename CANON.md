@@ -72,3 +72,12 @@ R-areal was fixed by macro data. C-2's finite-cell canon matches the
 founding intent directly — Prompt 2 already asserts redshift increasing
 asymptotically "as you approach the universe boundary." Recorded as
 provenance/consilience, not as evidence for either canon.
+
+## Standing flag (Charles, 2026-06-10, appended)
+
+The Planck blackbody derivation in the macro/CMB work relies on
+quarantined or withdrawn mass-emergence theories. Macro observables that
+ride it may be used as HYPOTHETICAL/common-mode layers only, never as
+derived foundations. Do not build on sand: any macro computation must
+carry a provenance grade per layer, and weld-discrimination conclusions
+must be differential (conditional on the flagged common pipeline).
