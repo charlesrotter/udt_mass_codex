@@ -6859,3 +6859,24 @@ External observational anchor: Planck 2018 Results VI; raw $C_\ell^{TT}$ peak po
 ### §31.10 CG §32 forward-pointer — DEFERRED post-S84-001 close
 
 **Status post-S84-001 (2026-05-20):** CG §32 sub-section landing REMAINS DEFERRED per Vδ REJECT cumulative disposition (fifth-consecutive trio rejection at S77-002 + S77-004 + S78-002 + S79-003 + S84-001). Mode (iv) framework-level scope-shift REFUSED at strict refined criterion per S77-002 §7.6 binding wording. **Methodology trio scope bounded at canonical-content-INTERNAL structural extraction** per SE-δ-5 manuscript-grade observation (sixteenth-element CANDIDATE at active doc §3.8). **Landing remains DEFERRED until canonical-content scaffolding extension reconnaissance at S85+ closes substantive content at canonical-content scaffolding extension scope OR honest-negative-at-canonical-content disposition is registered at framework-level scope.** No CG §32 edit at S84-002 record-edit dispatch. Substantive content cumulative S81-S84 stands at canonical record at appropriate scope (CG §31.5.2 status updates + active doc §3.8 cluster + §3.4 D-OBSARCH-2 CMB-PEAK sub-status). Cross-references: `dispatch_S84_001/AUDIT.md` §4 (Vδ binding three-axis disposition); `dispatch_S84_001/BROWSER_LLM_SUMMARY.md`; CG §31.5.2 (S84-001 verifier round-trip closure status; landed at S84-002 Part 1 record-edit dispatch).
+
+---
+
+## POST-QUARANTINE CROSS-REFERENCE (appended 2026-06-11; not legacy content)
+
+This document is the QUARANTINED LEGACY record (superseded 2026;
+mine-for-structure-only per CLAUDE.md). This appended pointer exists
+at Charles's instruction so the canonical-geometry trail reaches the
+rebuilt-track SPARC material:
+
+**THE NATIVE INTER-CELL FORCE LAW AND ITS SPARC APPLICATION are
+recorded in `sparc_native_force_law_note.md`** (rebuilt track,
+verifier-ruled 2026-06-11, status appended in-file): Coulomb-class
+channel with derived correction kernel, charge = 2 x the derived
+Misner-Sharp interface mass (E_int = 8 pi m1 m2 / d), attraction via
+the verified flipped-sector dynamics (single named premise),
+anisotropy and population-set ambient as parameter-free SPARC
+predictions, pre-registration requirements, and binding caveats.
+Supporting chain: ensembles_results.md, mass_audit_results.md,
+measure_fork_results.md, pde_p1_results.md. Resume protocol:
+HANDOFF.md.
