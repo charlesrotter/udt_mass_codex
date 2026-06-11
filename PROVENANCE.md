@@ -82,3 +82,14 @@ The source screenshot of the origin prompts (the Grok exchange
 transcribed above) is archived in-repo as
 origin_prompts_screenshot_2025-08-12.png (dropped in by Charles as
 "image (104).png"; renamed and committed for provenance).
+
+## The pre-metric search (Charles, recorded 2026-06-11)
+
+Charles began active work ~July 2025, roughly six weeks before the
+2025-08-12 formalization. That period consisted of failed attempts and
+bizarre hybrid solutions — none kept — whose role was to harden three
+decades of intuition into the specific prompt that generated the
+metric. The successful prompt was therefore a distillate of a
+failure-driven search, not a first cast. (If transcripts of the failed
+attempts survive, they are provenance-grade artifacts worth archiving
+alongside the origin screenshot.)
