@@ -30,10 +30,15 @@ to github.com/charlesrotter/udt_mass_codex.
 The static sector is CLASSIFIED BY THEOREM (pde_p1_results.md,
 61/61): under C1 alone the complete static solution set is
 {f spherical, q = 0, w arbitrary} — formed angular cells are not
-static solutions. The forced fork: (i) matter is genuinely
-nonstationary (CANON C-3; three independent arrows), or (ii) derive a
-native w-stiffness sector (EH-remainder species — the program's
-oldest named target, now required for static matter to exist).
+static solutions. THE FORK IS ADJUDICATED
+(nonstationary_opener_results.md, VN-ruled): motion never sources
+shape (the fate polynomial is f_T-free); no sector of C1 propagates
+hyperbolically in T; formed cells admit no bounded-in-T continuation.
+C1 ALONE HOLDS NO MATTER — the SINGLE FORCED OBJECT is the native
+w-stiffness sector (EH-remainder species, the program's oldest named
+target, reached independently by two eras). The only T-bounded
+oscillatory sector: the attractive seal family h > h_c (the
+theta-dial — its selector = the persistence condition).
 Along the way, verified: cells condense from the medium under
 c* = 0.499 gamma^2 (diagonal class); LIKE CELLS ATTRACT inverse-square
 with CHARGE = MISNER-SHARP MASS (Q = 2 p_F, E_int = 8 pi m1 m2/d);
@@ -43,10 +48,12 @@ candidates.
 
 ## Must-not-lose facts
 
-- THE SAME-MINUS PREMISE: the entire attraction sign rides on the
-  verified -(c/2)[T + U] conjunction (measure_fork_results.md, the
-  62-check record) — single named point of failure; if it falls, the
-  force flips and ensembles_results.md re-grades.
+- THE SAME-MINUS STRUCTURE IS NOW A THEOREM (upgraded by VN,
+  nonstationary_opener_results.md): the flip is derived by the unique
+  nondegenerate time-row elimination — no longer a premise. Rejecting
+  it would unwind the fork adjudication itself. (If the branch
+  convention were ever overturned: fate polynomial and ellipticity
+  survive; only the growth/oscillation assignment inverts.)
 - The six lepton wall numbers stand UNHIT (local C_M1=0.977679087638,
   C_E1=1.93121474779, ratio=1.97530536575 + warped triple; contract
   at 26fc757); three pre-registered rounds missed (126/126, 740/740,
@@ -78,9 +85,12 @@ candidates.
 
 ## Queue (mirrors STATE)
 
-1. THE FORK: native w-stiffness derivation attempt AND/OR open the
-   nonstationary sector — single-cell secular stability FIRST (it
-   gates clustering, exchange, and cell persistence).
+1. DERIVE THE NATIVE w-STIFFNESS SECTOR — the single forced object
+   (the nonstationary opener ran and adjudicated the fork; secular
+   stability answered: no bounded-in-T continuation, all rescues
+   refuted, no breather support at probe level). Acceptance tests
+   banked: shaped-matter solutions + preserve the data-validated
+   spherical/macro sector. Then the theta-dial selector.
 2. ell >= 2 corrected-class spectrum, rescoped (trust-bounded
    diagonal/Class-B, or nonstationary).
 3. Tier-D re-pose once the species-bridge exists (pre-registration
