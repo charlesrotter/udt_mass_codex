@@ -75,3 +75,10 @@ decades for lack of any means to develop it; the advent of LLMs made
 the development possible, beginning with the 2025-08-12 Grok prompts
 above. The 2025 prompts are therefore the first *formalization* event,
 not the conception.
+
+## Artifact appended 2026-06-10 (session resume)
+
+The source screenshot of the origin prompts (the Grok exchange
+transcribed above) is archived in-repo as
+origin_prompts_screenshot_2025-08-12.png (dropped in by Charles as
+"image (104).png"; renamed and committed for provenance).
