@@ -40,11 +40,16 @@ read the results docs in this order):
 7. pde_p1: the theorem above; Class B (q-eliminated) is hyperbolic
    and well-posed (exterior data propagates inward); deep cells at
    cosmic driving are diagonal-class-only (59x, ell<=3-tied).
-QUEUE FOR NEXT SESSION (ordered):
-1. THE FORK: attempt the native w-stiffness derivation (static
-   matter's existence condition; curvature-type; the EH-remainder
-   arc) AND/OR open the nonstationary sector (single-cell secular
-   stability first — it gates clustering, exchange, AND persistence).
+QUEUE FOR NEXT SESSION (ordered) [UPDATED post-close: the fork is
+ADJUDICATED — nonstationary_opener_results.md, VN-ruled]:
+1. DERIVE THE NATIVE w-STIFFNESS SECTOR — the program's SINGLE FORCED
+   OBJECT (motion never sources shape: the fate polynomial is
+   f_T-free; C1 alone holds no matter, static or dynamic; no sector
+   propagates hyperbolically in T; same-minus is now a THEOREM of the
+   elimination). Acceptance: shaped-matter solutions + preserve the
+   data-validated spherical/macro sector. Then: the theta-dial
+   selector (= the persistence condition; the h > h_c seal family is
+   the theory's only oscillatory sector).
 2. The ell >= 2 corrected-class spectrum, rescoped (trust-bounded
    diagonal/B, or nonstationary).
 3. Tier-D re-pose on the interface sub-rung objects once the
