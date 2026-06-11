@@ -94,7 +94,26 @@ first principles).
 
 ## Active priority queue
 
-0. WELD PHASE 2 — THE HIGHEST-LEVERAGE COMPUTATION: Reading-A spectra
+0. WELD PHASE 3 — TWO-SIDED/COMPOUND INTERFACE AUDIT: phase 2 returned
+   NEGATIVE WITH AN EXACT THRESHOLD MAP (weld_interface_mode_results.md):
+   the banked single cell misses the oscillation window — bulk E0 =
+   s/r^2 > 0 (window needs negative), the interface shell supplies
+   gamma = 2q = 2/3 vs required gamma_c = L0 (exact Bessel closed form,
+   nu = sqrt(17); L0 = 1.33835 at lambda=2) — deficit factor 2.0075
+   (NOT 2; 0.376%, null-recorded). No q closes it; window needs
+   lambda < 0.268 (monopole gap). All three interface ontologies
+   relaxation-only; BC selection moot at single-cell level.
+   NEXT: does the banked two-sided/internal-gluing structure
+   (native_internal_gluing_symplectic_form.py,
+   native_two_sided_half_action_status.py,
+   native_half_action_from_symmetric_gluing.py) supply a compound shell
+   with total gamma > gamma_c? Candidate only — the factor-2 proximity
+   must survive null-test discipline. Then: cell ensembles; the macro
+   CMB discriminator (native weld H1 = -4 d_t(dphi)/f'). Also recorded:
+   horizon_cmb_correspondence.md (Charles's realization — the CMB
+   boundary sits asymptotically at the universe's own Schwarzschild
+   condition c^2 = 2GM/r*; two audit targets named).
+[RESOLVED 2026-06-10 — phase 2 complete] WELD PHASE 2: Reading-A spectra
    on the banked sourced backgrounds (eta=1/18, ell=1 source, CANON C-2
    interface BCs). Phase 1 settled (weld_status_results.md, grade d):
    the native C1 system has its OWN algebraic weld f*phi0'*H1 =
