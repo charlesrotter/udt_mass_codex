@@ -211,3 +211,14 @@ banked negative as blocking.
     plausible, unverified forward claim). The angular-flip re-grade's
     "decisive computation" (entry 20) is UNRUNNABLE AS POSED and
     rescopes accordingly.
+
+22. SHAPED MATTER UNDER ANY TIME DEPENDENCE (C1 alone): ELIMINATED BY
+    THEOREM (nonstationary_opener_results.md, VN-ruled 2026-06-11).
+    The fate polynomial is f_T-free; motion never sources shape; no
+    sector propagates hyperbolically in T; formed cells admit no
+    bounded-in-T continuation (BVP saddles, unbounded rate ladder).
+    Premises: P1 metric class + full time row, axisymmetric even
+    sector, C1-only, Q != 0 convention. THE SINGLE REOPENING ROUTE =
+    the native w-stiffness sector (now the program's forced object).
+    The only T-bounded oscillatory sector: the attractive seal family
+    h > h_c (the theta-dial). Same-minus upgraded premise -> theorem.
