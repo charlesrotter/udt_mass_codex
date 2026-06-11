@@ -105,7 +105,36 @@ first principles).
 
 ## Active priority queue
 
-0. DERIVE n = W_ff — THE SOURCE'S DILATION-RESPONSE EXPONENT
+0. EXTERIOR-SOURCED CAVITY (Charles-ordered, launched 2026-06-11;
+   follows n_derivation_results.md). n = W_ff is RESOLVED in the
+   responsive reading: a channel/scale-resolved kernel, quasi-static
+   character = the n~1 family to 0.7% (exact pointwise screening +
+   lifting bounded by 3y^2 kappa'^2/(3+kappa^2)^2); n = 0 ATTAINED
+   NOWHERE (banked weld mass 2s unsupported by the native source —
+   conditional on the responsive reading; a fixed external (i-phi)
+   source remains the one logical n=0 holdout). Slot-covariance of
+   all second-order static structure PROVEN (n = a connection choice;
+   I7). Weld chain slot-blind under coordinate measure (all orders);
+   proper measure forbids n=0, corrected special points -+8
+   (conditional); rung-2/macro record n-blind (future sourced-collar
+   discriminator named). Tier-D static dressing family: nu ~ 3 with
+   exact far-collar channel corrections (lambda=2 m+-1:
+   mu = -1/45, nu = 2.863564212655 — VA-confirmed; rest
+   hypothesis-grade). Charles's exterior-field picture (matter cells
+   formed/shaped by the surrounding universe-side medium, not by
+   interior matter): three derived hooks — the selector's surviving
+   datum is interface momentum p_source = (1/2)y^2 a'; terminated
+   cells own no center (selector doesn't bind them); the
+   cavity-forming flows are exactly the boundary-momentum-driven
+   ones. PUSH QUESTIONS (pre-declared): (a) supply attribution /
+   chimera test; (b) formation threshold under boundary-only
+   exterior driving; (c) binding threshold with matter-conditioned
+   exterior D_+(omega) — does the resonant two-channel structure
+   supply the E0<0-window direction, does the factor-2 deficit
+   close; (d) f>=1 pathology resolution. GATING FORK for Charles:
+   pointwise-vs-average interface reading (CANON C-2 adjudication).
+0-n. [RESOLVED 2026-06-11 — see n_derivation_results.md]
+   DERIVE n = W_ff — THE SOURCE'S DILATION-RESPONSE EXPONENT
    (sourced_second_jet_results.md, 2026-06-11). The sourced-jet push
    (Charles's matter-source question) collapsed the parametrization
    fork EXACTLY (pure contact difference, all n, q; hybrid refuted as
