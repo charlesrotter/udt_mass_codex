@@ -110,7 +110,36 @@ these as blocking.
 
 ## Active priority queue
 
-0. POST-EXTERIOR-PUSH FRONTIER (exterior_cavity_results.md,
+0. SEALED-CAVITY SPECTRUM PUSH (Charles-ordered, launched 2026-06-11
+   after the fork tests settled; fork_tests_results.md). Both canon
+   forks COMPUTE-SETTLED: (1) MIRROR FORCED — zero-tail exteriors are
+   illegal for nontrivial embedded cells (trivial-cell lemma + three
+   obstructions; the exterior is the unique smooth continuation of
+   the interface jet; zero-tail = the q->0 idealization with derived
+   validity law ell+1 - D_+ = q[2ell/(2ell+1) - lambda/(4lambda+1)]);
+   (2) f = 1 IS GEOMETRICALLY NOTHING (no (f-1) factor in any
+   invariant; crossings invisible; the SEAL is the real locus —
+   curvature-singular in-ansatz, f^2 K -> 12a^2/y^4 exact); every
+   terminating flow crosses pointwise f = 1 (certified for
+   c > 1.3c*; near-threshold band = certification gap, folded into
+   S1). Residue for Charles: one canon sentence (mirror-class
+   continuation wording) + one vocabulary choice ("inside" = weld
+   sphere vs f >= 1 region; nothing physical rides on it).
+   THE PUSH: S1 — seal control (ell<=3 convergence audit of the
+   formed-cavity background; kappa -> 1 asymptotics; derive the
+   admissible fluctuation BC at the curvature-singular seal;
+   reproducible seal-shell bookkeeping; settles the fork-2
+   certification gap). S2 (after S1) — THE COMPACT-DOMAIN MODE
+   PROBLEM on the controlled sealed background: the first genuinely
+   compact native domain; every banked no-spectrum theorem assumed
+   open domains (registry #1 suspension is exactly this case);
+   two-channel screened structure; pre-registered interpretation
+   both ways (modes => first native spectrum + scale-autonomy check;
+   silence => stability narrows to ensembles + nonlinear).
+   ALSO QUEUED: monopole-exponent reading (1/y vs y^{-2/3} —
+   reading-dependent per VF; GATES the ensembles route's coulombic
+   superposition).
+0-prev. POST-EXTERIOR-PUSH FRONTIER (exterior_cavity_results.md,
    2026-06-11, both halves verifier-adjudicated). FORMATION REALIZED:
    cells precipitate from the universe-side medium under the
    universal law c* = chat*gamma^2 (chat = 0.498912, NOT 1/2);
