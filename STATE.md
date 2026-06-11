@@ -1,10 +1,63 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-11 (S_phi0 panel + Tier-D round 3 + sourced
-second jet).
+Last update: 2026-06-11 SESSION CLOSE (the static program is
+COMPLETE; the fork is forced).
 
-## Where the program stands in one paragraph
+## SESSION-CLOSE SNAPSHOT (2026-06-11) — READ THIS FIRST
+
+THE STATIC SECTOR IS NOW CLASSIFIED BY THEOREM (pde_p1_results.md,
+61/61): under C1 alone, the complete static solution set is
+{f spherical, q = 0, w arbitrary} — FORMED ANGULAR CELLS ARE NOT
+STATIC SOLUTIONS. The forced fork (binary, exhaustive):
+(i) matter is genuinely NONSTATIONARY (CANON C-3; three independent
+arrows: the w-theorem, single-cell secular stability under the
+verified flip, the canon redirect); or (ii) derive a native
+w-stiffness sector (EH-remainder species — the program's oldest
+named target, now REQUIRED for static matter to exist).
+THE VERIFIED STACK THIS SESSION (all blind-adversarially passed;
+read the results docs in this order):
+1. sphi0/sourced-jet/n-derivation: the source = the metric's own
+   angular activity; W_ff kernel; slot-covariance; measure fork
+   DISSOLVED; W_A derived exactly (the same-minus record — the
+   single named premise carrying the force sign).
+2. exterior_cavity + fork_tests: formation law c* = 0.499 gamma^2
+   (diagonal class); attribution gauge; mirror forced; f = 1
+   geometrically nothing; seal curvature-singular (erratum: 24a^2/y^4).
+3. sealed_cavity S1/S2: seal controlled; forced pole-Dirichlet +
+   theta-family (real, unselected); bulk cannot ring (convexity,
+   diagonal class).
+4. mass_audit: p_F = Misner-Sharp exterior mass (DERIVED); two-object
+   verdict; sub-rung interface corrections (C < 1 direction,
+   phi-angular sourced).
+5. angular_completeness: THE ANGULAR FLIP (three signs, verified;
+   silence record diagonal-class-conditional; ell >= 2 real-frequency
+   candidates on test domains); new fields q, w; bundle bridge named.
+6. ensembles: LIKE CELLS ATTRACT inverse-square via flipped dynamics
+   over verified-repulsive statics; Q = 2 p_F (CHARGE = MS MASS);
+   E_int = 8 pi m1 m2/d; isolation impossible (walls at 1.8-6.9 R);
+   single-cell secular stability OPEN (gates everything dynamical).
+7. pde_p1: the theorem above; Class B (q-eliminated) is hyperbolic
+   and well-posed (exterior data propagates inward); deep cells at
+   cosmic driving are diagonal-class-only (59x, ell<=3-tied).
+QUEUE FOR NEXT SESSION (ordered):
+1. THE FORK: attempt the native w-stiffness derivation (static
+   matter's existence condition; curvature-type; the EH-remainder
+   arc) AND/OR open the nonstationary sector (single-cell secular
+   stability first — it gates clustering, exchange, AND persistence).
+2. The ell >= 2 corrected-class spectrum, rescoped (trust-bounded
+   diagonal/B, or nonstationary).
+3. Tier-D re-pose on the interface sub-rung objects once the
+   species-bridge exists.
+4. SPARC/macro program per sparc_native_force_law_note.md +
+   macro-consilience roadmap (memory).
+DISCIPLINE LEDGER: interrogation rule (metric-led declarations),
+premise-scoped negatives (NEGATIVES_REGISTRY.md, entries 1-21),
+classifier/figure conventions mandatory, three-term extrapolation
+rule, the same-minus single-point-of-failure flag. GPU: V100 via
+torch float64 (see CLAUDE.md pitfalls).
+
+## [SUPERSEDED 2026-06-11] Where the program stands in one paragraph
 
 The pre-spectrum interface structure is the healthy core: q=1/3 from the
 exact collar flow, eta=1/18 via H1/S2 projection, N=3 native from the H1
