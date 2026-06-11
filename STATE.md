@@ -1,7 +1,8 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-11 (S_phi0 derivation panel + Tier-D round 3).
+Last update: 2026-06-11 (S_phi0 panel + Tier-D round 3 + sourced
+second jet).
 
 ## Where the program stands in one paragraph
 
@@ -104,7 +105,41 @@ first principles).
 
 ## Active priority queue
 
-0. TIER-D AFTER THE S_PHI0 PANEL (2026-06-11,
+0. DERIVE n = W_ff — THE SOURCE'S DILATION-RESPONSE EXPONENT
+   (sourced_second_jet_results.md, 2026-06-11). The sourced-jet push
+   (Charles's matter-source question) collapsed the parametrization
+   fork EXACTLY (pure contact difference, all n, q; hybrid refuted as
+   truncation; P_f-variable closed as a parametrization question) and
+   left ONE physical unknown: n in the completion S_src = ∫c_n f^n,
+   with invariant family nu^2 = 17 - 8n at q=1/3 and dressing
+   D_nu(λ) = sqrt(λ) I_{nu+1}(6 sqrt λ)/I_nu(6 sqrt λ) + (q*nu-1)/2.
+   THE FORK: n=1 (canonical chain Pi_f/dS_b/dF; nu=3; weld mass
+   HALVES, E0_eff = s/2r^2; all L0 thresholds move to D_3+q, e.g.
+   1.33835 -> 1.25842) vs n=0 (what the ENTIRE banked weld sector
+   operationally uses — a second-jet commitment BY OMISSION, the
+   source was never varied; nu=sqrt(17); exact identity
+   L0 = D_sqrt17 + q) vs n=-1 (activation/responsive reading,
+   nonstationary, CANON C-3 compatible; nu=5 hypothesis-grade).
+   Deriving n natively simultaneously: fixes the Tier-D typed-slot
+   dressing family, re-grades or confirms every weld threshold, and
+   decides whether E0-softening is half strength. Also DERIVED this
+   push: closure selector theorem (closed cell + finite action +
+   nontriviality => sigma != 0 — matter is forced; cells owning their
+   center, Galerkin class); joint termination (nontrivial closed
+   finite-action cells terminate at finite depth — native compactness,
+   branch-(ii) adjacent; universality refuted, escapes killed by the
+   selector); exact responsive-source structure (rank-1 Hessian,
+   Goldstone dichotomy => frame weights are MEASURE objects not
+   stiffness, superselection blocks = the typed-node anatomy, the
+   first exact phi-angular cross entries V_a1g1 = -sqrt5 kappa/2F,
+   V_a0g0 = -sqrt15 kappa/3F). Corrections on record: 4pi slip
+   (demanded kappa(1) = 0.683 not 0.230; y_dgn 0.22-0.62 not 0.307);
+   0:s:2s hierarchy refuted; eta/4-per-e-fold is leading-order only
+   (3q=1 marginality verified, q-selector CANDIDATE); interface
+   pointwise-vs-average fork OPEN and gating. Core-side weights remain
+   open: bulk routes closed, interface route not established, measure/
+   trace column survives.
+0-prev. TIER-D AFTER THE S_PHI0 PANEL (2026-06-11,
    sphi0_derivation_panel_results.md + tier_d_round3_results.md): the
    first derivation-grade push at the boundary functional ran (three
    data-blind routes + two blind adversarial verifiers). NO
