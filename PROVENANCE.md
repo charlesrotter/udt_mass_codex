@@ -93,3 +93,8 @@ metric. The successful prompt was therefore a distillate of a
 failure-driven search, not a first cast. (If transcripts of the failed
 attempts survive, they are provenance-grade artifacts worth archiving
 alongside the origin screenshot.)
+
+Addendum (Charles, 2026-06-11): the pre-metric and early-development
+transcripts DO survive — dozens to hundreds of chats — to be gathered
+and archived if/when the project succeeds. Deferred by his choice;
+recorded here so the existence of the corpus is not forgotten.
