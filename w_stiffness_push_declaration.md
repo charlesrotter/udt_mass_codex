@@ -207,3 +207,33 @@ structure (mode trapping, quantization, selection), that is the
 metric's own answer to the angular-discreteness gap and the kappa
 question simultaneously — and must then be derived, not just mapped.
 Negative outcomes first-class with premise sets.
+
+## W6 — THE COUPLED 2D BRANCH OPERATOR (declared 2026-06-12;
+## queue head per STATE; working styles binding)
+
+The angular discreteness question (bands -> lines) now lives in one
+derived object: the coupled fluctuation operator of
+S = C1 + kappa (W_wave + D_alg) [+ beta D_cell] on the q-on class,
+whose four derived pieces are (w5_results.md): the w-row
+{4 f r^2 sin P/Delta_w, S_rtheta, 0}; the f-row w_thth door
+c_f[w_thth] = -8 f r^3 f_r^3 f_th^2 (2f + r f_r) sin/(Delta_w^2 P)
+(the pairing's channel); the Delta_w elimination-breakdown surface
+(L_qq ~ Delta_w^{-3}, sign-flipping — POSE UNREDUCED, three fields);
+the dynamical delta-q channel (c[q_TT] != 0).
+- Arm 1 (UNCOVER, runs first): derive the exact unreduced
+  (delta-f, delta-q, delta-w) fluctuation operator about shaped
+  (f_theta != 0) backgrounds, static and time-on; extract its
+  ANGULAR character — does the coupled problem (Schur onto any
+  channel, or the joint principal symbol in (r, theta)) carry
+  angular derivative stiffness / an angular well? What happens at
+  Delta_w? Failure pre-stated: angular character may remain absent
+  (bands stand at the coupled level — first-class, premise-scoped).
+- Arm 2 (SOLVE, launched on Arm 1's operator): discretize and sweep
+  the exact coupled operator on trust windows, SUBTRACTED species
+  force, TRUE units (c = 2), both D_cell branches, kappa both signs;
+  bands-vs-lines verdict with convergence evidence; plus the
+  corrected-force coupled kappa re-sweep (the kappa = +3 collapse
+  scope).
+Hypothesis discipline: LINES is the hoped outcome — failure criteria
+pre-stated in every script; verifiers aimed hardest at any
+quantization claim. All kappa != 0 physics hypothesis-grade.
