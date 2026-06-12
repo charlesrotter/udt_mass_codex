@@ -1,10 +1,108 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-11 SESSION CLOSE (the static program is
-COMPLETE; the fork is forced).
+Last update: 2026-06-12 SESSION CLOSE (the W1-W5 chain: the forced
+object located, solved, and reduced to one coupled operator + one
+number).
 
-## SESSION-CLOSE SNAPSHOT (2026-06-11) — READ THIS FIRST
+## SESSION-CLOSE SNAPSHOT (2026-06-12) — READ THIS FIRST
+
+THE PERSPECTIVE (read this before the facts; this session nearly
+misfired at startup by resuming from the one-line queue instead of
+the close's momentum — Charles had to course-correct three times;
+do not repeat that): The program stands ONE DERIVATION from a
+complete candidate theory of matter — everything else (formation,
+gravitation, accretion, environment, mode solvers, verification
+culture) is built and in escrow. The previous close proved C1 alone
+holds no matter and ordered: derive the native w-stiffness from
+positional-dilation first principles. This session (W1-W5) carried
+that order to within sight of the end, powered by Charles's three
+binding working styles, each of which produced its own headline:
+UNCOVER, DON'T PROPOSE (the metric was found to already CONTAIN the
+stiffness species); DON'T THEORIZE, SOLVE IT (the solution space
+produced durable ringing shaped matter and a selection band); TEST
+BOTH (the unchosen forks turned out to be physics discriminators).
+The discreteness gap — Charles's original phi-angular hunch — now
+lives in ONE derived object: the coupled 2D branch operator (W6).
+
+THE W1-W5 CHAIN (every step blind-verified; results docs
+w_stiffness_results.md, w2_uncovering_results.md, w3_results.md,
+w4_results.md, w5_results.md; registry #23-29):
+- W1 (trichotomy, theorem-grade): the stiffness is NOT in C1 on any
+  metric class (C1 is first-jet in g_tt ONLY, via the tie
+  phi = -(1/2)ln(-g_tt) — the tie is the theory's single derivative
+  channel, #23); NOT selectable by survival demands (blind at w = 0,
+  #24; the D_cell fork found there); NOT in any banked sector (#25).
+- W2 (uncover): the metric already CONTAINS the species — the
+  f-weighted hyperbolic wave operator [2r^2 sin/(1+w)^2]
+  (w_T^2/f - f w_r^2), characteristics dr/dT = +-f = c_eff, riding
+  exactly the sonic locus (the close's fingerprint; theorem-grade,
+  VW1-strengthened). The metric's own interface demand [w]=[w_r]=0
+  is exactly derived but CONDITIONAL on an unbanked
+  curvature-regularity premise (the crease fork). Unique
+  continuation FAILS in the w-channel (all orders) — the forced
+  object's job description: restore w-uniqueness at interfaces. The
+  seal is w-BLIND (locus inversion vs the close's expectation). The
+  exact pairing (1-f) <-> 4 w_thth (one curvature component).
+- W3 (re-pose): no theta-dial selector on C1-only; the fluctuation
+  problem is chart-conditional STRUCTURALLY (the tadpole obstruction
+  made spectral); S1 holds VERBATIM on the D_cell branch (#27 — the
+  D_cell fork is physics, not bookkeeping).
+- W4 (solve): C1 + kappa*W_wave gives DURABLE SHAPED RINGING MATTER
+  outside a computed kappa-band — persistence selects (pre-registered
+  outcome (ii)); bands NOT lines (no angular stiffness at this order,
+  #28); trust-window coupled system marches (full-domain collapse =
+  seal-margin artifact); the truncation finding named W5.
+- W5 (untruncated): locus nulls (#29). THE PAIRING REVERSAL (VW5-1,
+  the session's deepest single result): on the q*-branch the reduced
+  f-equation at O(kappa) carries the w_thth coefficient
+  c_f[w_thth] = -8 f r^3 f_r^3 f_th^2 (2f + r f_r) sin/(Delta_w^2 P)
+  — CHARLES'S PHI-ANGULAR HUNCH HAS ITS FIRST DERIVED EQUATION,
+  found by a verifier attacking a recorded death. The -2/f origin:
+  postulate-structural on the unimodular tie line; ONLY the number
+  "-2" is EH-specific (the guardrail question is now one number's
+  provenance). Convention erratum reconciled W4's two kappa_c
+  families (W4-B kappas are member-unit: kappa_banked =
+  kappa_true c_m/2). The window edge-ratio invariant: member
+  independence ROBUST (10+ members), value convention-graded
+  (Newton-basin 1.84 / dynamic ~2.12) — a derivation target, not yet
+  a constant.
+
+QUEUE (ordered; W6 head):
+1. W6 — THE COUPLED 2D BRANCH OPERATOR (where bands-vs-lines = the
+   angular discreteness question now lives). Its four derived
+   pieces: the w-row {4 f r^2 sin P/Delta_w, S_rth =
+   -16 f r^2 sin f_r f_th^3/(P Delta_w), 0}; the f-row w_thth door
+   (the pairing's channel, formula above); the Delta_w surface
+   (q-elimination breakdown, L_qq ~ Delta_w^{-3} sign-flipping —
+   triply characterized across W3/W4/W5); the dynamical delta-q
+   channel (c[q_TT] != 0). Method per the working styles: UNCOVER
+   the operator's exact structure first (sympy), THEN solve/sweep on
+   trust windows with the SUBTRACTED species force (the bare-D_alg
+   coupled artifacts are on record) and corrected member units.
+2. Derive kappa: the member-independent window invariant (dynamic
+   ~2.12; the seal-weight Bratu structure) + the "-2" provenance
+   question (one number between native and import).
+3. Coupled kappa re-sweep under the corrected force (kappa = +3
+   collapse scope; single member/window/amp so far).
+4. The three forks under TEST-BOTH (standing protocol): D_cell
+   (clean-but-silent vs chart-ambiguous-until-stiffness — now a
+   physics discriminator); the crease rule (decides the interface
+   law's status); the tie reading (R-stat corpus-ranked; R-norm
+   hands C1 w-dynamics at the cost of second-jet f).
+5. Then as before: theta-dial/persistence on whatever W6 yields;
+   species bridge; Tier-D re-pose; the macro roadmap (memory:
+   macro-consilience-roadmap).
+DISCIPLINE LEDGER: hypothesis-grade labels binding on all
+kappa != 0 physics (numerics = telescope; nothing graduates without
+analytic derivation + blind verification); registry #23-29 active;
+verifiers aim at NEGATIVES too (the pairing reversal proves why);
+commit scripts WITH their results docs (the /tmp provenance rescue
+of 2026-06-11 is in rescued_workspaces/); agents dying mid-compute:
+collect from their /tmp logs + rerun scripts (SendMessage is absent
+in this harness). GPU: V100 torch float64 (CLAUDE.md pitfalls).
+
+## [SUPERSEDED 2026-06-12] SESSION-CLOSE SNAPSHOT (2026-06-11)
 
 THE STATIC SECTOR IS NOW CLASSIFIED BY THEOREM (pde_p1_results.md,
 61/61): under C1 alone, the complete static solution set is
