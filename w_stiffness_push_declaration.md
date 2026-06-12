@@ -121,3 +121,18 @@ verbs only:
 Nothing is added to the theory by either arm; both compute existing
 structure. The theta-dial/persistence question stays downstream as a
 READOUT of whatever is found, not a generator.
+
+## W3 — the cross-block re-pose (declared 2026-06-12, per Charles:
+## "If I don't have to choose, run the cross-block re-pose. Test both.")
+
+METRIC-LED. No fork choice required or made: the computation is C1's
+own second variation on the static diagonal+w class with the w- and
+q-fluctuation channels INCLUDED (VW2 proved the cross blocks are
+nonzero and that eliminating the algebraic delta-w flips the
+f-channel angular gradient -c/4 -> +c/12 with effective stiffness
+numerator exactly Delta_w). Task: re-pose S1's seal fluctuation
+problem and the theta-dial (h, h_c, selector question) on the
+w-completed fluctuation class. The three standing forks (regularity
+demand, tie reading, D_cell) are NOT inputs; where any would touch a
+conclusion, BOTH branches are carried and labeled (Charles's
+test-both protocol, now standing).
