@@ -179,3 +179,31 @@ broadcast Cholesky — explicit inverse + matmul; per-batch CPU
 asserts); mpmath/sympy CPU exact anchors at spot points per run;
 classifier and seal-shell conventions carried; three-term
 extrapolations not bankable.
+
+## W5 — THE UNTRUNCATED SPECIES (declared 2026-06-12, per Charles:
+## continue "uncover, don't propose" + "don't theorize, solve it")
+
+The W4 system truncated the curvature species (w-jets kept, algebraic
+force dropped — VA4). The full species' w-EL content obeys the exact
+relation E_w[sqrt(-g)R] = EL_w[W_wave] - (2/f) dL_C1/dw (q=0 class),
+so the untruncated system's w-equation carries the factor
+(1 - 2 kappa/f) on C1's tadpole: the obstruction CANCELS POINTWISE on
+the derived interior locus f = 2 kappa. Nothing is proposed; both
+arms compute.
+- Arm 1 (UNCOVER, exact): the (1 - 2 kappa/f) structure — what the
+  untruncated system does, where the f = 2 kappa locus sits in formed
+  cells, its relation to the sonic locus / seal / wave cone; the
+  q*-branch w_rtheta content (registry #28's unadjudicated branch);
+  the species' full angular content at q != 0 (does angular stiffness
+  enter there — the discreteness gap's named suspect).
+- Arm 2 (SOLVE, numeric sweep): the W4 program re-run UNTRUNCATED —
+  existence/fold, persistence band, the 1.90 ratio, spectra
+  (bands-vs-lines re-posed), on trust-window domains (the coupled
+  system is regular there) and with a fully primary-frame f-flow
+  (kill W4's frame-mixing premise). Sweep kappa both signs; D_cell
+  both branches; hypothesis-grade labels binding.
+Grading pre-registered: if the f = 2 kappa locus produces interior
+structure (mode trapping, quantization, selection), that is the
+metric's own answer to the angular-discreteness gap and the kappa
+question simultaneously — and must then be derived, not just mapped.
+Negative outcomes first-class with premise sets.
