@@ -1,0 +1,24 @@
+linear layer: mu/tau -> 7.5279 (package v* = 7.5339); log-log slope 0.9950
+VCHECK L0 linear seal layer mu = v* tau (slope 1, v* ~ 7.53): PASS 
+entries vs mu:
+  A_vhat :      1.4930      4.9905     17.6969     54.4961    183.9081   slope -1.010
+  A_m1   :      0.0327      0.0383      0.0460      0.0536      0.0621   slope -0.123
+  A_m2   :      0.0213      0.0209      0.0209      0.0209      0.0210   slope -0.002
+  A_comp :      0.0551      0.0582      0.0607      0.0619      0.0625   slope -0.008
+  B_vhat :      3.0291     27.5465    307.8620   2776.3530  30871.9127   slope -2.001
+  B_m1   :      0.0161      0.0405      0.1255      0.3674      1.2130   slope -0.992
+  B_m2   :      0.0048      0.0057      0.0070      0.0083      0.0097   slope -0.137
+VCHECK W1 W_A vhat ~ 1/mu (package -1.010): PASS -1.010
+VCHECK W2 W_A m=1 sub-power/log (package -0.123): PASS -0.123
+VCHECK W3 W_A m=2 + m=0-complement bounded: PASS -0.002 -0.008
+VCHECK W4 W_B vhat ~ 1/mu^2 (package -2.001): PASS -2.001
+VCHECK W5 W_B m=1 ~ 1/mu (package -0.992): PASS -0.992
+VCHECK W6 W_A m=1 is genuinely logarithmic (linear in ln(1/mu), residual < 3%): PASS b=0.0064, rel residual 1.4e-02
+
+LC/LP integral test (numerical, on-flow):
+  decade mass Int W dtau: W_A m=1: [2e-4,2e-3] 9.50e-05 vs [2e-3,2e-2] 7.70e-04 (ratio 0.123 -> 0: CONVERGES); W_B m=1: 1.04e-03 vs 1.20e-03 (ratio 0.860 -> const: log-DIVERGES)
+VCHECK W7 LC/LP: W_A m=1 constant branch normalizable (decade mass vanishing => limit circle, theta-family SURVIVES); W_B m=1 decade mass ~constant => Int(1/tau) log-diverges => limit point (family KILLED). With verified powers (W1-W6) + linear layer (L0) this is an analytic consequence.: PASS 
+
+GRADE of the fork (verifier): W_A is the licensed primary (banked n-symbolic time term + exact Jacobian d-phi = -d-f/2f); W_B is hypothesis-grade (H1 elimination not re-derived on nonspherical backgrounds). They agree on every sign/structure result in S2 and disagree ONLY on the m=1 endpoint class at the true seal => the fork is load-bearing exactly where the report says it is (the BC-family's existence), nowhere else.
+
+V4 STAGE: PASS 8/8  wall 3s

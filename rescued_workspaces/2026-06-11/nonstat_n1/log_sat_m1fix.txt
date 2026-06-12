@@ -1,0 +1,8 @@
+CHECK N1-P3c m=1 fixed kinetic: E''(0) == sigma/2: PASS E'' 7.7182 vs 7.7164
+CHECK N1-P4c K(0) == 1/4: PASS 0.25000
+  M2 m=1: CORNER f_min=0.012 at (t,u)=(0.17,+0.27) at a=0.286; dE_end +0.343; turned False; T 0.892 (~3.5 e-folds)
+   a:   +0.020  +0.040  +0.060  +0.080  +0.100  +0.120  +0.140  +0.160  +0.180  +0.202  +0.226  +0.253  +0.283  +0.286
+   dE:  +0.002  +0.006  +0.014  +0.025  +0.039  +0.056  +0.077  +0.100  +0.128  +0.161  +0.205  +0.260  +0.336  +0.343
+CHECK N1-Q3c m=1 corner at finite a, E rising, no turning point: PASS 
+
+N1-SAT-M1FIX PASS 3/3

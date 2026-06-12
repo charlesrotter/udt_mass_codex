@@ -1,0 +1,75 @@
+=== V1: exterior ODE reconstruction vs banked D_+ (sigma=0) ===
+  lam=   2 nu=3.000: D integrate-in 1.73981168 vs closed form 1.73981168
+  lam=   2 nu=4.123: D integrate-in 1.80622024 vs closed form 1.80622024
+  lam=   6 nu=3.000: D integrate-in 2.74564605 vs closed form 2.74564605
+  lam=   6 nu=4.123: D integrate-in 2.78719083 vs closed form 2.78719083
+  lam=  12 nu=3.000: D integrate-in 3.74745999 vs closed form 3.74745999
+  lam=  12 nu=4.123: D integrate-in 3.77770570 vs closed form 3.77770570
+CHECK V1 exterior ODE + K_nu decaying solution reproduce the banked D_+ closed form (3 lam x 2 nu, <= 2e-6): PASS max 1.3e-13
+CHECK V2 l=0, sigma=0, far wall: D -> (1+nu)/6 (indicial root): PASS 0.666668 vs 0.666667
+
+=== V3: unwalled exterior at sigma = 7.06 (M1 rate^2): both solutions oscillate; envelope exponent; B-norm divergence ===
+  lam=  0: zeros on [50,3900]: 1981; envelope ~ y^-0.847 (LG: -5/6 = -0.833); B-norm ~ Y^+1.331 (LG: +4/3)
+CHECK V3 envelope/B-norm exponents match Liouville-Green (osc. continuum; no finite-action growing mode unwalled): PASS env -0.847, norm +1.331
+  lam=  6: zeros on [50,3900]: 1974; envelope ~ y^-0.839 (LG: -5/6 = -0.833); B-norm ~ Y^+1.336 (LG: +4/3)
+
+=== T8: walled STATIC D (sigma=0) vs banked infinite-exterior D_+ (screened) ===
+  M1 (y_w=2.746): l=0: inf 0.667 wallD 1.239 wallN 0.245 | l=1: inf 1.740 wallD 1.858 wallN 1.596 | l=2: inf 2.746 wallD 2.767 wallN 2.721 | l=3: inf 3.747 wallD 3.751 wallN 3.744
+  M2 (y_w=2.353): l=0: inf 0.667 wallD 1.406 wallN 0.207 | l=1: inf 1.740 wallD 1.947 wallN 1.502 | l=2: inf 2.746 wallD 2.797 wallN 2.686 | l=3: inf 3.747 wallD 3.759 wallN 3.735
+  M4 (y_w=6.851): l=0: inf 0.667 wallD 0.838 wallN 0.441 | l=1: inf 1.740 wallD 1.744 wallN 1.735 | l=2: inf 2.746 wallD 2.746 wallN 2.746 | l=3: inf 3.747 wallD 3.747 wallN 3.747
+
+=== T9: composite (cell + walled exterior) growing modes ===
+  M1 m=0 wall-D: fixed points sigma = [1.3199 5.3744 12.0669]  (static-D_+ ref 7.0576)
+  M1 m=0 wall-N: fixed points sigma = [0.1326 2.8530 8.2298]  (static-D_+ ref 7.0576)
+  M1 m=1 wall-D: fixed points sigma = [2.0814 2.6043 6.6659]  (static-D_+ ref 15.8140)
+  M1 m=1 wall-N: fixed points sigma = [3.8817 5.1548 9.7676 18.2231]  (static-D_+ ref 15.8140)
+  M1 m=2 wall-D: fixed points sigma = [16.4949 22.9204 26.9659]  (static-D_+ ref 28.5813)
+  M1 m=2 wall-N: fixed points sigma = [1.1724 1.2095 12.0553 16.7024 21.2483]  (static-D_+ ref 28.5813)
+  M1 m=3 wall-D: fixed points sigma = [10.8811 11.9215 19.5445 22.9204 30.7942 38.1451]  (static-D_+ ref 44.4885)
+  M1 m=3 wall-N: fixed points sigma = [24.6817 29.7964 37.2240]  (static-D_+ ref 44.4885)
+  M2 m=0 wall-D: fixed points sigma = [2.0790 5.6331]  (static-D_+ ref 7.1344)
+  M2 m=0 wall-N: fixed points sigma = [0.2197 0.7686 0.9948 1.7061 1.8266 2.9780]  (static-D_+ ref 7.1344)
+  M2 m=1 wall-D: fixed points sigma = [3.1486 5.6331 10.1599 21.1007]  (static-D_+ ref 15.4327)
+  M2 m=1 wall-N: fixed points sigma = [0.7657 0.9948 5.9101 12.2495 14.8854]  (static-D_+ ref 15.4327)
+  M2 m=2 wall-D: fixed points sigma = [4.8310 5.6331 13.0004 25.0672]  (static-D_+ ref 28.0585)
+  M2 m=2 wall-N: fixed points sigma = [18.3000 27.9774 32.3253]  (static-D_+ ref 28.0585)
+  M2 m=3 wall-D: fixed points sigma = [6.9215 7.3830 16.3175 19.5264 29.6318 38.9914]  (static-D_+ ref 44.1240)
+  M2 m=3 wall-N: fixed points sigma = [10.8553 12.2495 37.5114 51.2562 56.7992]  (static-D_+ ref 44.1240)
+  M4 m=0 wall-D: fixed points sigma = [0.0952 0.1156 1.6453 2.5837 3.1944 3.7329]  (static-D_+ ref 4.2381)
+  M4 m=0 wall-N: fixed points sigma = [0.6196 0.7357 1.2419 1.4641 3.8214 4.3735]  (static-D_+ ref 4.2381)
+  M4 m=1 wall-D: fixed points sigma = [1.9577 2.0924 2.9549 3.1944]  (static-D_+ ref 12.3513)
+  M4 m=1 wall-N: fixed points sigma = [2.4173 2.5994 3.5179 3.8214 6.3413 7.3491]  (static-D_+ ref 12.3513)
+  M4 m=2 wall-D: fixed points sigma = [16.7502 24.9524]  (static-D_+ ref 24.0903)
+  M4 m=2 wall-N: fixed points sigma = [7.0163 20.9132]  (static-D_+ ref 24.0903)
+  M4 m=3 wall-D: fixed points sigma = [20.6369]  (static-D_+ ref 38.6722)
+  M4 m=3 wall-N: fixed points sigma = [16.4941 23.2653 48.3066]  (static-D_+ ref 38.6722)
+  wall 182s
+CHECK T9 growth SURVIVES exterior matching: every member/block/wall-BC has at least one self-consistent growing composite mode: PASS 
+
+  lowest composite rate vs static-D_+ rate:
+   M1 m=0: k_comp(lowest) = 0.3641 vs k_ref = 2.6566
+   M1 m=1: k_comp(lowest) = 1.4427 vs k_ref = 3.9767
+   M1 m=2: k_comp(lowest) = 1.0828 vs k_ref = 5.3461
+   M1 m=3: k_comp(lowest) = 3.2987 vs k_ref = 6.6700
+   M2 m=0: k_comp(lowest) = 0.4688 vs k_ref = 2.6710
+   M2 m=1: k_comp(lowest) = 0.8751 vs k_ref = 3.9284
+   M2 m=2: k_comp(lowest) = 2.1980 vs k_ref = 5.2970
+   M2 m=3: k_comp(lowest) = 2.6309 vs k_ref = 6.6426
+   M4 m=0: k_comp(lowest) = 0.3085 vs k_ref = 2.0587
+   M4 m=1: k_comp(lowest) = 1.3992 vs k_ref = 3.5144
+   M4 m=2: k_comp(lowest) = 2.6488 vs k_ref = 4.9082
+   M4 m=3: k_comp(lowest) = 4.0613 vs k_ref = 6.2187
+
+=== T10: conserved quantities ===
+ (i) Hamiltonian: H2[mode] = E2 - K2 = (sigma - k^2)<u,Bu>/4 = 0
+     exactly on every growing mode (k^2 = sigma): growth is
+     energetically FREE under L2 = -(c/2)[T+U]; energy
+     conservation cannot quench it. (analytic; zero by
+     construction of the mode pair)
+ (ii) weld flux / Q = 2 p_F: the no-flux (pure-Neumann) spectra
+   M1: reference mode u(0) = [ 1.853  0.148 -0.004 -0.002], u'(0) = [ 3.041  0.064 -0.039 -0.011] (monopole flux NONZERO); no-flux sigma 0.0941 vs ref 7.0576 (rate slowdown x8.66)
+   M2: reference mode u(0) = [ 1.849  0.22  -0.012 -0.008], u'(0) = [ 3.004  0.08  -0.1   -0.037] (monopole flux NONZERO); no-flux sigma 0.1586 vs ref 7.1344 (rate slowdown x6.71)
+   M4: reference mode u(0) = [ 1.738e+00  4.100e-02 -4.000e-03 -1.000e-03], u'(0) = [ 2.013 -0.066 -0.017 -0.004] (monopole flux NONZERO); no-flux sigma 0.0825 vs ref 4.2381 (rate slowdown x7.17)
+CHECK T10 flux constraint SLOWS but does not freeze the m=0 scaling sector (no-flux sigma_min > 0 in all members): PASS 
+
+N1-EXTERIOR PASS 5/5

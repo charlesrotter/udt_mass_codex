@@ -1,0 +1,30 @@
+/home/udt-admin/.local/lib/python3.10/site-packages/torch/cuda/__init__.py:716: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+anchors: ell<=1 c*_A = 0.206994 (banked 0.206994/0.207001); ell<=3 c*_A = 0.141653 (banked 0.141644)   [7s]
+V-19f: PASS  Class A threshold anchors: 0.206994 vs 0.207001, 0.141653 vs 0.141644 (ride-away event was the defect; classification now horizon-only)
+Class B at M2 driving, t_max=60: sealed=False, t_stop=60.000  [0s]
+   kappa_B(t): max=0.2577 at t=1.35, end=0.13588; f_min end = 1.019e+26
+V-25: PASS  Class B fate at M2 driving on long horizon recorded: SAT to t=60 (shape decays: kappa_end=1.4e-01)
+
+c*(ell), gamma = 1, t_max = 60, no ride exit:
+   ell    c*_A         c*_B
+   1      0.206995     1.351749   [7s]
+   2      0.158954     1.655139   [8s]
+   3      0.141653     1.849201   [9s]
+   4      0.132799     1.985099   [10s]
+   5      0.127411     2.085349   [8s]
+V-26: PASS  c*_A(ell) ell=1..5 reproduce the banked/VS1 values {1: 0.206995, 2: 0.158954, 3: 0.141653, 4: 0.132799, 5: 0.127411}
+   |incr| A: ['0.04804', '0.01730', '0.00885', '0.00539'] ratios ['0.360', '0.512', '0.609']
+   |incr| B: ['0.30339', '0.19406', '0.13590', '0.10025'] ratios ['0.640', '0.700', '0.738']
+
+bracketing c*_3(diagonal) = 0.141644 (t_max=60):
+   c=0.12: A: SAT(t60);  B: SAT(t60)
+   c=0.17: A: TERM t_seal*=4.1338 y_seal*=0.01602;  B: SAT(t60)
+V-27: PASS  bracketing pair recorded
+
+Class B sealed-flow audit (just above c*_B):
+   ell<=1, c = 1.02 c*_B = 1.3788: sealed=True t_seal*=0.6982 y_seal*=0.49747 min Delta=-2.441e+00 at t=0.681 -> radial-dominant branch EXITED (mixed-type flow: trust-bounded)
+   ell<=3, c = 1.02 c*_B = 1.8862: sealed=True t_seal*=0.4418 y_seal*=0.64287 min Delta=-2.631e+00 at t=0.439 -> radial-dominant branch EXITED (mixed-type flow: trust-bounded)
+V-28: PASS  sonic/branch audit of near-threshold Class B seals recorded
+
+STAGE f3: 5 PASS / 0 FAIL

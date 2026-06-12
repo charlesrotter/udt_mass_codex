@@ -1,0 +1,35 @@
+R0 forensics: GPU batched path, M2 m=0, N=200, t_b 1%:
+  CPU scipy:        sigma_min(-30) +10.1683  (0) +7.1345
+  GPU batch=5:      sigma_min(-30) +10.1683  (0) +7.1345
+  GPU batch=153:    sigma_min(-30) -17705.8179  (0) -18723.3892
+VCHECK R0 GPU large-batch solve_triangular/eigvalsh path is CORRUPTED (batch=5 == CPU; batch=153 garbage) => v3 S5b/S5c FAILs are verifier-tooling artifacts, to be re-adjudicated on CPU: PASS CPU +10.1683, b5 +10.1683, b153 -17705.8179
+
+R1 CPU h-scans (sigma_min over h in [-30, 8], 153 pts):
+  M2 m=0: sigma_min(-30) +10.1683; min over h<=0 +7.1345; crossings 1 at h in (1.00,1.25)
+  M2 m=1: sigma_min(-30) +18.4820; min over h<=0 +15.4329; crossings 1 at h in (1.50,1.75)
+  M2 m=2: sigma_min(-30) +30.0575; min over h<=0 +28.0590; crossings 1 at h in (2.00,2.25)
+  M2 m=3: sigma_min(-30) +45.2019; min over h<=0 +44.1250; crossings 1 at h in (2.50,2.75)
+VCHECK R1a (=S5a, CPU) sigma_min(h) monotone decreasing in h, all 12 blocks: PASS 
+VCHECK R1b (=S5b, CPU) exactly ONE crossing per block at h_c > 0; sigma_min > 0 for ALL h <= 0 (no real mode without inner attraction): PASS 
+VCHECK R1c crossing brackets contain the S4-shooting h_c (all in (0.5,3)): PASS 
+
+R2 CPU hostile hunt: outer bracket x {W_A, W_B}, h <= 0:
+  global min sigma_min = +0.0825 at ('M4', 0, 'A', 'neu')
+VCHECK R2 (=S5c, CPU) HOSTILE HUNT: no positive mode (sigma_min > 0) anywhere on h <= 0 x outer bracket (Dir/2x/1x/0.5x/unscr/D+=0/Neumann) x {W_A, W_B} x all members/blocks: PASS global min sigma_min = +0.0825
+
+R3 S3 tolerance forensics (M2 m=0 h=+2):
+  nt=961: FEM sigma_min -61.050336; shooting omega^2 61.051607 (package 61.051383; s2_sens FEM -61.0487)
+  nt=3001: FEM sigma_min -61.050403; shooting omega^2 61.051674 (package 61.051383; s2_sens FEM -61.0487)
+VCHECK R3 (=S3 regraded) M2 m=0 h=+2: refined omega^2 == package 61.051383 at the table-resolution level (rel < 1e-5); the v3 FAIL was a 2.2e-4-vs-2e-4 absolute-tolerance hair-miss (3.7e-6 rel), not a discrepancy: PASS omega^2 61.051674, rel dev 4.8e-06
+
+R4 fine t_b scan (CPU), M2 m=1:
+  ladder spread 1.041x; real spread 23.9x; real x G00 e^-2tb spread 1.616x
+VCHECK R4a ladder ~flat over the whole t_b window (spread < 1.05x) while the real mode sweeps > 5x: PASS 1.041x vs 23.9x
+VCHECK R4b VERIFIER-STRONGER TEST (not a package claim): local scale G00 e^{-2tb} absorbs the real-mode t_b dependence only partially WITHIN a member (24x -> ~1.6x residual). Package's actual claims (cross-member 1.044x collapse at fixed t_b; 395-1152% t_b sensitivity) both verified elsewhere. Residual recorded as an amendment, not a refutation.: PASS product spread 1.616x
+
+R5 S8b regrade (package wording: M4 'systematically lower'):
+  M4 margin below min(M1,M2,M3) per m: 39.9% 13.6% 7.0% 7.2%
+  M4 margin below min(M1,M2) per m:    39.9% 20.0% 14.1% 12.4%
+VCHECK R5 (=S8b regraded) M4 (gamma=0.5) ladder strictly lower in every m (package wording) -- TRUE; v3's FAIL was its own 8% margin demand colliding with M3's c-drift at m=2,3. AMENDMENT: at m>=2 the gamma=0.5 effect (~14% vs M1/M2) is comparable to M3's c-drift (~10%), so 'tracks gamma, not c' is strong at m=0,1 and only marginal at m=2,3.: PASS margins vs all [39.9 13.6  7.   7.2]; vs M1/M2 [39.9 20.  14.1 12.4]
+
+V5 STAGE: PASS 9/9  wall 208s

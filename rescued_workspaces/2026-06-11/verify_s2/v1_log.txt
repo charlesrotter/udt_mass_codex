@@ -1,0 +1,38 @@
+VCHECK V0 own analytic grad(P) == own FD grad (6 admissible states): PASS max dev 4.9e-11
+
+V1 backgrounds (own DOP853 + own P):
+  M1: gamma=1.0 c=0.184137  t_stop(own)=3.59865  rel dev vs .dat (t<=5%locus) 3.58e-10
+  M2: gamma=1.0 c=0.283287  t_stop(own)=2.13424  rel dev vs .dat (t<=5%locus) 4.35e-09
+  M3: gamma=1.0 c=0.566575  t_stop(own)=1.10004  rel dev vs .dat (t<=5%locus) 2.21e-09
+  M4: gamma=0.5 c=0.090872  t_stop(own)=2.82275  rel dev vs .dat (t<=5%locus) 7.12e-09
+VCHECK V1 own re-integration matches library on trust domain (<2e-8): PASS 
+VCHECK V2 constant-f: H_ll = l(l+1)/(2F0) (EL coeff 2H = l(l+1)/F0, the x2-amendment anchor), G_A = I/F0^2, H off-diag = 0: PASS devs 9.3e-14 4.0e-14 1.6e-15
+VCHECK V2b constant-f m=1 block: H_ll = l(l+1)/(2F0): PASS dev 3.4e-13
+
+V3 second variation: 2D-FD vs own analytic (M2 t=0.9, M1 t=1.2):
+  M2 t=0.9 m=0: rel dev 2.41e-08
+  M2 t=0.9 m=1: rel dev 3.09e-09
+  M2 t=0.9 m=2: rel dev 3.99e-09
+  M2 t=0.9 m=3: rel dev 7.23e-09
+  M1 t=1.2 m=0: rel dev 9.22e-09
+  M1 t=1.2 m=1: rel dev 4.06e-09
+  M1 t=1.2 m=2: rel dev 1.75e-09
+  M1 t=1.2 m=3: rel dev 2.45e-09
+VCHECK V3 analytic H == 2D finite-difference second variation (all m, rel < 5e-6): PASS 
+VCHECK V3b own H^(1),G_A^(1)(M2,t=0.9) == package assembled values: PASS max dev H 4.8e-09 G 4.6e-09
+VCHECK V4 G_A, G_B == direct 2D quadrature (M2 t=0.9 m=1): PASS max dev 1.2e-15
+
+V5 D_+ (own mpmath):
+  scr  : 0.666667 1.739812 2.745646 3.747460
+  unscr: 0.853851 1.806220 2.787191 3.777706
+VCHECK V5a screened D_+ == banked 0.666667/1.739812/2.745646/3.747460: PASS 
+  NOTE task prompt cited 'screened 3.7777 at ell=3'; 3.777706 is the UNSCREENED value; screened is 3.747460. Package used screened (scanned both) -- prompt typo, not a package error.
+  M1 m=0 M_out eigs [1.6356 2.7439 3.7469 4.7733]
+  M2 m=0 M_out eigs [1.5947 2.7477 3.7497 4.8075]
+  M3 m=0 M_out eigs [1.4041 2.7448 3.7792 4.9715]
+  M4 m=0 M_out eigs [1.159  2.2409 3.2459 4.2538]
+VCHECK V5b own M_out PSD for every member/block (banked scr D_+): PASS 
+VCHECK V5c own M_out == package blocks.pkl (all members/blocks): PASS max dev 2.0e-13
+VCHECK V5d M_out stays PSD over the scanned bracket [0.5x,2x,unscr,D+=0]: PASS 
+
+V1 STAGE: PASS 11/11  wall 8s

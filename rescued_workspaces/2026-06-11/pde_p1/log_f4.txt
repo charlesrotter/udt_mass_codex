@@ -1,0 +1,33 @@
+Class B at M2 driving, t_max=60, ell-extension:
+/home/udt-admin/.local/lib/python3.10/site-packages/torch/cuda/__init__.py:716: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+   ell<=1: sealed=False t_stop=60.0 kappa_end=0.1333
+   ell<=2: sealed=False t_stop=60.0 kappa_end=0.1359
+   ell<=3: sealed=False t_stop=60.0 kappa_end=0.1359
+   ell<=4: sealed=False t_stop=60.0 kappa_end=0.1359
+   ell<=5: sealed=False t_stop=60.0 kappa_end=0.1359
+   ell<=6: sealed=False t_stop=60.0 kappa_end=0.1359
+V-29: PASS  Class B NO-SEAL at the M2 driving is ell-robust (1..6), t_max=60
+
+Class B ell<=1 c*_B = 1.351749
+   depth at threshold (Class B):
+   c = 1.0005 c*_B: sealed=True t_seal*=0.7793 y_seal*=0.45875
+   c = 1.0050 c*_B: sealed=True t_seal*=0.7429 y_seal*=0.47572
+   c = 1.0500 c*_B: sealed=True t_seal*=0.6430 y_seal*=0.52571
+   c = 1.5000 c*_B: sealed=True t_seal*=0.3552 y_seal*=0.70101
+   [contrast Class A at 1.0005 c*_A: sealed=True t_seal*=11.2794 y_seal*=0.000013]
+V-30: PASS  Class B threshold geometry recorded (shallow seal, no depth divergence) vs Class A deep-cell divergence
+
+gamma-scaling (ell<=1):
+   gamma=0.5: c*_A = 0.069156 (chat_A = 0.276626);  c*_B = 0.996497 (chat_B = 3.985988, c*_B/gamma = 1.992994)
+   gamma=1.0: c*_A = 0.206993 (chat_A = 0.206993);  c*_B = 1.351752 (chat_B = 1.351752, c*_B/gamma = 1.351752)
+   gamma=2.0: c*_A = 0.568247 (chat_A = 0.142062);  c*_B = 2.019190 (chat_B = 0.504797, c*_B/gamma = 1.009595)
+V-31: PASS  gamma-scaling of both thresholds recorded
+
+2D Newton grid sweep (Class A, T=1.1, library Dirichlet data):
+   (Nt,Nu)=(32,24): f(t=0.550,u=+0.315) = 1.6115539370  |R|=1.5e-10 ok=True
+   (Nt,Nu)=(48,32): f(t=0.550,u=+0.332) = 1.6049680413  |R|=9.9e-10 ok=True
+   (Nt,Nu)=(64,40): f(t=0.550,u=+0.268) = 1.6298906515  |R|=3.9e-09 ok=True
+V-32: PASS  2D Newton grid sweep converged at all resolutions (probe values above; node positions differ slightly between grids — Dirichlet data fixed)
+
+STAGE f4: 4 PASS / 0 FAIL

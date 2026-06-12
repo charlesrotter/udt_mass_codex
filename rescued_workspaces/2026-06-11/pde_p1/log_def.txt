@@ -1,0 +1,82 @@
+/home/udt-admin/.local/lib/python3.10/site-packages/torch/cuda/__init__.py:716: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+=== (d) the joint system on the M2-formed background ===
+Class A (diagonal): sealed=True, t_seal*=2.134509, y_seal*=0.118303
+
+(d1) q* response field on the DIAGONAL M2 solution (the first-response tadpole):
+   t      y       max|Q*|   at u     min Delta   Delta<0 ?
+   0.25  0.7788  0.21122  +0.575   +4.3949e-01   False
+   0.50  0.6065  0.33916  +0.675   +6.2032e-01   False
+   1.00  0.3679  0.57373  +0.877   +5.3839e-01   False
+   1.50  0.2231  0.75145  +0.991   -2.0324e+00   True
+   1.90  0.1496  0.80680  +0.957   -1.8321e+01   True
+   2.05  0.1287  0.98971  +0.973   -3.6488e+01   True
+   2.13  0.1188  3.20420  +0.998   -5.2785e+01   True
+V-13: PASS  q* response on diagonal M2 reported; min Delta over flow = -5.278e+01 (sonic check: Delta>0 = radial-dominant branch valid)
+
+(d2) w-runaway numeric confirmation: pointwise L(W) with Q = Q*(W), sample points of the M2 background:
+   (t=0.8, u=+0.5): W_crit=0.0901  L(W) dec below, inc above corner; L(50)=0.126387 -> asymptote e^-t f_t^2/8 = 0.126616
+   (t=1.5, u=-0.4): W_crit=0.0203  L(W) — below, inc above corner; L(50)=0.994006 -> asymptote e^-t f_t^2/8 = 0.994409
+   (t=2.0, u=-0.8): W_crit=0.0047  L(W) — below, inc above corner; L(50)=2.521596 -> asymptote e^-t f_t^2/8 = 2.521835
+   (t=2.0, u=+0.6): W_crit=0.8819  L(W) dec below, inc above corner; L(50)=0.148811 -> asymptote e^-t f_t^2/8 = 0.151483
+V-14: PASS  L(W) has NO interior stationary point: strictly monotone on each side of the degenerate-metric corner W_crit = f_th^2/(f r^2 f_r^2) — runaway theorem confirmed numerically on formed backgrounds
+
+(d3) self-consistent Class B (q freed) at the M2 driving:
+Class B: sealed=False, t_stop=15.000000
+
+   t      f_min(A)   f_min(B)   kappa(A)  kappa(B)   F(A)     F(B)
+   0.000  1.00000   1.00000   0.0000   0.0000   1.0000  1.0000
+   0.268  1.15323   1.15996   0.1178   0.1130   1.3075  1.3075
+   0.536  1.33176   1.38923   0.2191   0.1889   1.7091  1.7100
+   0.804  1.51793   1.72552   0.3131   0.2330   2.2328  2.2372
+   1.072  1.68087   2.21130   0.4040   0.2534   2.9146  2.9280
+   1.341  1.76518   2.89539   0.4936   0.2578   3.8009  3.8331
+   1.609  1.66997   3.83701   0.5826   0.2525   4.9509  5.0183
+   1.877  1.20391   5.11133   0.6724   0.2420   6.4394  6.5697
+
+   Class B solution: max|Q*| = 0.2562; min Delta = +2.9557e-01 (sonic line NOT crossed); max w-force (1/4)e^-t f_th^2/f = 0.0170
+V-15: PASS  Class B self-consistent run completed: sealed=False
+
+=== (e) grid convergence on (d) ===
+ell-extension (M2 driving), Class A vs Class B:
+   ell   A: sealed t_seal*      B: sealed t_seal*   B: f_min(t=1.5)
+   1     True  2.961810      False nan   3.351309
+   2     True  2.310465      False nan   3.415544
+   3     True  2.134509      False nan   3.419742
+   4     True  2.054500      False nan   3.419643
+   5     True  2.009637      False nan   3.419585
+   6     True  1.981325      False nan   3.419580
+   |t_seal increments| A: [0.65135 0.17596 0.08001 0.04486 0.02831]
+   |t_seal increments| B: [nan nan nan nan nan]
+V-16: PASS  ell-convergence table recorded (see increments; Class A known non-convergent in-layer; compare Class B)
+
+quadrature and tolerance sweeps (Class B, ell<=3, M2 driving):
+   GL N=1000: d t_ref = +0.00e+00
+   GL N=4000: d t_ref = +0.00e+00
+   rtol=1e-09: d t_ref = +0.00e+00
+   rtol=1e-13: d t_ref = +0.00e+00
+V-17: PASS  quadrature/tolerance robustness recorded
+
+=== (f) first physics readout: thresholds and seal survival ===
+Class A ell<=1: c* = 0.206994  (banked 0.206994)  [3s]
+V-18: PASS  Class A ell<=1 threshold anchor reproduced: c* = 0.206994 vs banked 0.206994
+Class A ell<=3: c* = 0.141653  (banked 0.141644)  [4s]
+V-19: PASS  Class A ell<=3 threshold anchor reproduced: c* = 0.141653 vs banked 0.141644
+
+Class B exploration (gamma=1, ell<=3): status at sample c:
+   c=0.1200: SAT@t25      t_stop=25.0000 t_seal*=nan y_seal*=nan
+   c=0.1700: SAT@t25      t_stop=25.0000 t_seal*=nan y_seal*=nan
+   c=0.2833: SAT@t25      t_stop=25.0000 t_seal*=nan y_seal*=nan
+   c=0.5000: SAT@t25      t_stop=25.0000 t_seal*=nan y_seal*=nan
+   c=1.0000: SAT@t25      t_stop=25.0000 t_seal*=nan y_seal*=nan
+   c=2.0000: TERM(seal)   t_stop=0.3899 t_seal*=0.3913 y_seal*=0.67618
+
+bracketing the diagonal-class c*_3 = 0.141644 (both classes):
+   c=0.12: A: SAT (t_seal*=nan); B: SAT (t_seal*=nan)
+   c=0.17: A: TERM (t_seal*=4.1338); B: SAT (t_seal*=nan)
+
+Class B ell<=3: c*_B = 1.849203  (diagonal: 0.141644)  [2s]
+Class B ell<=1: c*_B = 1.351748  (diagonal: 0.206994)
+V-20: PASS  threshold structure under q-freeing recorded
+
+STAGE def: 8 PASS / 0 FAIL

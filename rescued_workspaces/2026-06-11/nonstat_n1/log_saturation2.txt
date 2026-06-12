@@ -1,0 +1,39 @@
+/tmp/seal_s1/s1_potential.py:52: RuntimeWarning: divide by zero encountered in divide
+  g = (q.s*(2*fu*q.Yp/fc - (fu**2)*q.Y/fc**2)) @ q.w / 8.0
+/tmp/seal_s1/s1_potential.py:52: RuntimeWarning: invalid value encountered in matmul
+  g = (q.s*(2*fu*q.Yp/fc - (fu**2)*q.Y/fc**2)) @ q.w / 8.0
+=== m=0 rung-1 saturation paths (corrected endpoints) ===
+  M1 a>0: NO corner by a=+60.2 (f_min=3.04 rising); dE_end +6312.623; E monotone up True; turned False; kappa(tb) 0.378->0.242; f(pole,tb) +3.037; T(path) 1.296 (~3.4 e-folds)
+      a:    +0.02   +1.24   +9.83  +19.83  +29.83  +39.83  +49.83  +59.83
+      dE:  +0.001  +2.674 +168.257 +684.471 +1548.659 +2760.820 +4320.955 +6229.061
+CHECK N1-Q2[M1] a>0: no turning point; amplitude inflation with kappa decreasing (spheroidalizing dissolution direction): PASS 
+  M1 a<0: CORNER f_min=0.012 at t=0.14, u=+1.00; dE_end +0.369; E monotone up True; turned False; kappa(tb) 0.378->0.417; f(pole,tb) +3.037; T(path) 2.022 (~5.4 e-folds)
+      a:    -0.02   -0.06   -0.10   -0.14   -0.18   -0.23   -0.28   -0.36   -0.45
+      dE:  +0.001  +0.006  +0.018  +0.035  +0.057  +0.090  +0.143  +0.226  +0.361
+CHECK N1-Q1[M1] corner reached on a<0 at finite a with E still rising (terminal runaway, no turning point): PASS a_c=-0.450, dE_c=+0.369
+  M2 a>0: NO corner by a=+60.2 (f_min=1.72 rising); dE_end +6287.808; E monotone up True; turned False; kappa(tb) 0.436->0.175; f(pole,tb) +1.724; T(path) 1.286 (~3.4 e-folds)
+      a:    +0.02   +1.24   +9.83  +19.83  +29.83  +39.83  +49.83  +59.83
+      dE:  +0.001  +2.677 +167.728 +681.998 +1542.819 +2750.191 +4304.111 +6204.581
+CHECK N1-Q2[M2] a>0: no turning point; amplitude inflation with kappa decreasing (spheroidalizing dissolution direction): PASS 
+  M2 a<0: CORNER f_min=0.012 at t=0.13, u=+1.00; dE_end +0.353; E monotone up True; turned False; kappa(tb) 0.436->0.563; f(pole,tb) +1.724; T(path) 2.000 (~5.3 e-folds)
+      a:    -0.02   -0.06   -0.10   -0.14   -0.18   -0.23   -0.28   -0.36   -0.43
+      dE:  +0.001  +0.006  +0.018  +0.035  +0.058  +0.092  +0.146  +0.232  +0.353
+CHECK N1-Q1[M2] corner reached on a<0 at finite a with E still rising (terminal runaway, no turning point): PASS a_c=-0.432, dE_c=+0.353
+  M4 a>0: NO corner by a=+60.2 (f_min=1.95 rising); dE_end +3811.176; E monotone up True; turned False; kappa(tb) 0.369->0.321; f(pole,tb) +1.951; T(path) 1.681 (~3.5 e-folds)
+      a:    +0.02   +1.24   +9.83  +19.83  +29.83  +39.83  +49.83  +59.83
+      dE:  +0.000  +1.611 +101.547 +413.179 +934.914 +1666.749 +2608.687 +3760.725
+CHECK N1-Q2[M4] a>0: no turning point; amplitude inflation with kappa decreasing (spheroidalizing dissolution direction): PASS 
+  M4 a<0: CORNER f_min=0.012 at t=0.22, u=+1.00; dE_end +0.286; E monotone up True; turned False; kappa(tb) 0.369->0.395; f(pole,tb) +1.951; T(path) 3.006 (~6.2 e-folds)
+      a:    -0.02   -0.06   -0.10   -0.14   -0.18   -0.23   -0.28   -0.36   -0.45   -0.51
+      dE:  +0.000  +0.004  +0.011  +0.021  +0.034  +0.054  +0.085  +0.134  +0.212  +0.286
+CHECK N1-Q1[M4] corner reached on a<0 at finite a with E still rising (terminal runaway, no turning point): PASS a_c=-0.515, dE_c=+0.286
+
+=== m=1 rung-1 path, M2, corrected R = N P cos(phi) basis ===
+CHECK N1-P3b m=1 corrected basis: E''(0) == sigma/2: FAIL E'' 7.1975 vs 7.7164
+CHECK N1-P4b m=1 corrected basis: K(0) == 1/4: PASS 0.25000
+  M2 m=1 (a<0 = mirror by phi-parity): CORNER f_min=0.012 at (t,u)=(0.17,+0.27) at a=0.286; dE_end +0.322; turned False; T 0.923 (~3.6 e-folds)
+      a:   +0.020  +0.060  +0.100  +0.140  +0.180  +0.226  +0.283
+      dE:  +0.001  +0.013  +0.036  +0.071  +0.119  +0.191  +0.315
+CHECK N1-Q3 m=1: corner at finite a, E rising, no turning point (off-axis f->0: tilt/reorientation runaway hits degeneracy): PASS 
+
+N1-SATURATION-2 PASS 8/9

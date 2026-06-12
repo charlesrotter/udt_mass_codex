@@ -1,0 +1,60 @@
+S2 ladder spot entries (h=0, W_A, banked scr, t_b 1%):
+  M2 m=0: own [ 7.134416 16.362069 28.69912  44.637341]  (max rel dev 2.7e-06)
+  M2 m=1: own [15.43275  28.21374  44.402003 86.108652]  (max rel dev 2.6e-06)
+  M4 m=0: own [ 4.23813  12.54608  24.160787 38.714991]  (max rel dev 9.7e-07)
+  M1 m=3: own [ 44.488734 148.90753  323.015491 569.507525]  (max rel dev 5.2e-06)
+  M3 m=1: own [14.297179 26.506092 42.720025 81.465828]  (max rel dev 1.2e-06)
+VCHECK S2 ladder: 20 entries across 5 blocks reproduce the package table (omega^2 = -sigma; all NEGATIVE omega^2): PASS worst 5.2e-06
+
+S3 M2 m=0 h=+2: FEM sigma_min = -61.0503; shooting-refined sigma = -61.051607 => omega^2 = 61.051607 (REAL mode, h > h_c)
+VCHECK S3 M2 m=0 h=+2: sigma_min = -61.0487 (FEM, the s2_sens adapted number) and refined omega^2 = +61.051383 -- convention: quoted value is sigma, omega^2 = -sigma > 0: FAIL FEM -61.0503, refined omega^2 61.051607
+
+S4 h_c (sigma_min = 0 crossing), own FEM N=300 + own shooting:
+  M1: m=0:1.12075/1.12075  m=1:1.46345/1.46345  m=2:1.88104/1.88103  m=3:2.33169/2.33167
+  M2: m=0:1.19430/1.19429  m=1:1.62722/1.62722  m=2:2.15565/2.15564  m=3:2.73560/2.73559
+  M4: m=0:1.07609/1.07609  m=1:1.56420/1.56419  m=2:2.10388/2.10386  m=3:2.67361/2.67358
+VCHECK S4 all 12 h_c reproduce the package (shooting, <5e-4): PASS worst 4.9e-05
+
+S5 GPU h-scans (sigma_min over h in [-30, 8], 153 pts):
+  M2 m=0: sigma_min(-30) +0.0522 vs Dirichlet +10.3377; crossings 1; min over h<=0 -285.7188
+  M2 m=1: sigma_min(-30) +0.4187 vs Dirichlet +18.6682; crossings 1; min over h<=0 -258.1370
+  M2 m=2: sigma_min(-30) +30.0575 vs Dirichlet +30.2000; crossings 1; min over h<=0 +28.0590
+  M2 m=3: sigma_min(-30) +45.2019 vs Dirichlet +45.2941; crossings 1; min over h<=0 +44.1250
+VCHECK S5a sigma_min(h) strictly monotone decreasing in h, all 12 blocks (boundary-form monotonicity): PASS 
+VCHECK S5b exactly ONE sigma_min crossing per block, at h_c > 0; sigma_min > 0 for all h <= 0 (no real mode without inner attraction): FAIL 
+  hostile hunt: outer bracket x {W_A, W_B}, h <= 0, all blocks:
+VCHECK S5c HOSTILE HUNT: no positive mode (sigma_min > 0) anywhere on h <= 0 x outer bracket (Dir/2x/1x/0.5x/unscr/D+=0/Neumann) x {W_A, W_B} x all members/blocks: FAIL global min sigma_min = -596.5329
+
+S6 t_b stand-in sensitivity:
+  M1 m=0: ladder h=0: +7.0577 -> +6.9630 (1.3%) | real h=4: 7360.4 -> 92141.6 (1152%)
+  M1 m=1: ladder h=0: +15.8142 -> +15.9202 (0.7%) | real h=4: 6266.7 -> 78267.1 (1149%)
+  M2 m=0: ladder h=0: +7.1344 -> +6.9712 (2.3%) | real h=4: 1156.3 -> 5724.7 (395%)
+  M2 m=1: ladder h=0: +15.4328 -> +15.6692 (1.5%) | real h=4: 943.2 -> 4662.7 (394%)
+  M4 m=0: ladder h=0: +4.2381 -> +4.1830 (1.3%) | real h=4: 3437.9 -> 18944.6 (451%)
+  M4 m=1: ladder h=0: +12.3514 -> +12.4325 (0.7%) | real h=4: 2868.1 -> 15783.6 (450%)
+VCHECK S6a ladder t_b sensitivity small but M2 m=0 = 2.3% (report says '1-2%'; verifier: the honest statement is '<= 2.3%'): PASS M2 m=0 shift 2.29%
+VCHECK S6b real-mode t_b sensitivity 395-1152% (reproduced): PASS range 394% .. 1152%
+  M2 m=1 fine t_b scan: ladder spread 1.041x; real-mode spread 23.9x; real x G00 e^-2tb spread 1.616x
+VCHECK S6c fine t_b scan: ladder ~flat; real mode tracks the LOCAL boundary scale 1/(G00 e^{-2tb}) over the whole trust window: FAIL 
+
+S7 collapse under local boundary scale:
+  h=4.0 m=1: omega^2 x G00(tb)e^-2tb = 9.7867 9.9992 9.5745  (spread 1.044x)
+VCHECK S7a m=1 h=4 collapse {9.787, 9.999, 9.574}, spread 1.044x (reproduced): PASS got [9.787 9.999 9.575]
+  h=6.0 m=1: omega^2 x G00(tb)e^-2tb = 32.4948 34.4897 32.1650  (spread 1.072x)
+  h=4.0 m=0: omega^2 x G00(tb)e^-2tb = 12.4335 13.5783 12.3834  (spread 1.096x)
+
+S8 ladder vs c (gamma=1: M1/M2/M3) and vs gamma (M4):
+  M1 (gamma=1.0, c=0.1841): +7.0577 +15.8142 +28.5818 +44.4896
+  M2 (gamma=1.0, c=0.2833): +7.1344 +15.4328 +28.0588 +44.1245
+  M3 (gamma=1.0, c=0.5666): +7.2162 +14.2972 +25.9022 +41.6691
+  M4 (gamma=0.5, c=0.0909): +4.2381 +12.3514 +24.0906 +38.6728
+  M2/M1 max dev 2.4%; M3/M1 max dev 9.6%
+VCHECK S8a c-independence claim: M1 vs M2 within 2.5% -- TRUE; but M1 vs M3 deviates up to ~10% (report's 'M1/M2/M3 within 2-3%' OVERSTATES; M3 has the thin trust region): PASS M3 dev 9.6%
+VCHECK S8b gamma-tracking: M4 (gamma=0.5) ladder systematically lower in every m: FAIL 
+
+S9 W_B ladder (M2 h=0): +8.6349 +18.7718 +33.6658 +52.3369
+VCHECK S9 W_B: same sign structure, ladder ~20% stiffer (package: +8.6349 +18.7718 +33.6658 +52.3369): PASS ratios [1.21  1.216 1.2   1.186]
+VCHECK S9b pure-Neumann outer soft mode +0.1586 (M2 m=0, h=0) -- positive only via the outer condition: PASS got +0.1586
+
+V3 STAGE: PASS 11/16  wall 1216s  GPU batched eigensolves: 6326
+FAILS: ['S3 M2 m=0 h=+2: sigma_min = -61.0487 (FEM, the s2_sens adapted number) and refined omega^2 = +61.051383 -- convention: quoted value is sigma, omega^2 = -sigma > 0', 'S5b exactly ONE sigma_min crossing per block, at h_c > 0; sigma_min > 0 for all h <= 0 (no real mode without inner attraction)', 'S5c HOSTILE HUNT: no positive mode (sigma_min > 0) anywhere on h <= 0 x outer bracket (Dir/2x/1x/0.5x/unscr/D+=0/Neumann) x {W_A, W_B} x all members/blocks', 'S6c fine t_b scan: ladder ~flat; real mode tracks the LOCAL boundary scale 1/(G00 e^{-2tb}) over the whole trust window', 'S8b gamma-tracking: M4 (gamma=0.5) ladder systematically lower in every m']

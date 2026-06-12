@@ -1,0 +1,88 @@
+=== T1: growth rates k = sqrt(sigma) (weld-time units), h=0, banked scr D_+, t_b = 1% ===
+member  block   k1       k2       k3       k4
+  M1   m=0    2.6566   4.0242   5.3640   6.6830
+  M1   m=1    3.9767   5.3521   6.6790   9.5098
+  M1   m=2    5.3461   6.6756  10.8050  12.2632
+  M1   m=3    6.6700  12.2027  17.9726  23.8643
+  M2   m=0    2.6710   4.0450   5.3571   6.6811
+  M2   m=1    3.9284   5.3117   6.6635   9.2795
+  M2   m=2    5.2970   6.6556  10.5678  12.1887
+  M2   m=3    6.6426  12.0474  17.7141  23.6985
+  M4   m=0    2.0587   3.5420   4.9154   6.2221
+  M4   m=1    3.5144   4.9096   6.2208   8.0752
+  M4   m=2    4.9082   6.2200   9.4236  10.8184
+  M4   m=3    6.2187  10.8001  15.4995  20.2678
+
+=== T2: the (rung, m) near-degeneracy structure ===
+sigma organized by N = rung + m (rung = 1.. radial):
+  M1:
+    N=1: m=0:   7.0576   spread 1.0000x
+    N=2: m=0:  16.1940  m=1:  15.8140   spread 1.0240x
+    N=3: m=0:  28.7721  m=1:  28.6451  m=2:  28.5813   spread 1.0067x
+    N=4: m=0:  44.6624  m=1:  44.6092  m=2:  44.5638  m=3:  44.4885   spread 1.0039x
+  M2:
+    N=1: m=0:   7.1344   spread 1.0000x
+    N=2: m=0:  16.3620  m=1:  15.4327   spread 1.0602x
+    N=3: m=0:  28.6990  m=1:  28.2137  m=2:  28.0585   spread 1.0228x
+    N=4: m=0:  44.6372  m=1:  44.4019  m=2:  44.2969  m=3:  44.1240   spread 1.0116x
+  M4:
+    N=1: m=0:   4.2381   spread 1.0000x
+    N=2: m=0:  12.5461  m=1:  12.3513   spread 1.0158x
+    N=3: m=0:  24.1608  m=1:  24.1042  m=2:  24.0903   spread 1.0029x
+    N=4: m=0:  38.7150  m=1:  38.6982  m=2:  38.6884  m=3:  38.6722   spread 1.0011x
+
+=== T3: theta-family scan: rate of the LOWEST mode vs seal Robin h (sigma_min from production scan) ===
+  h:     Dir      4.0      2.0      1.0      0.5      0.0     -0.5     -1.0     -1.5     -2.0     -3.0     -4.0     -6.0    -10.0    -20.0
+  M1 m=0:    2.956   osc      osc       1.618    2.468    2.657    2.740    2.787    2.817    2.838    2.865    2.882    2.903    2.921    2.938
+  M1 m=1:    4.141   osc      osc       3.654    3.895    3.977    4.018    4.043    4.059    4.071    4.086    4.096    4.108    4.120    4.130
+  M1 m=2:    5.404   osc      osc       5.279    5.325    5.346    5.358    5.366    5.372    5.376    5.382    5.385    5.390    5.395    5.399
+  M1 m=3:    6.686   osc       6.552    6.657    6.665    6.670    6.673    6.675    6.677    6.678    6.679    6.680    6.682    6.683    6.685
+  M2 m=0:    3.215   osc      osc       1.623    2.406    2.671    2.805    2.886    2.940    2.979    3.031    3.065    3.105    3.143    3.176
+  M2 m=1:    4.321   osc      osc       3.429    3.774    3.928    4.015    4.071    4.109    4.137    4.176    4.201    4.232    4.262    4.289
+  M2 m=2:    5.495   osc       3.348    5.120    5.236    5.297    5.335    5.361    5.380    5.394    5.414    5.427    5.444    5.461    5.477
+  M2 m=3:    6.730   osc       6.342    6.587    6.621    6.643    6.657    6.667    6.675    6.681    6.690    6.696    6.704    6.712    6.720
+  M4 m=0:    2.344   osc      osc       1.004    1.876    2.059    2.139    2.184    2.212    2.232    2.259    2.275    2.294    2.312    2.327
+  M4 m=1:    3.634   osc      osc       3.311    3.459    3.514    3.543    3.561    3.573    3.581    3.593    3.600    3.609    3.617    3.625
+  M4 m=2:    4.939   osc       4.045    4.879    4.898    4.908    4.914    4.918    4.921    4.923    4.926    4.928    4.931    4.934    4.936
+  M4 m=3:    6.225   osc       6.198    6.215    6.217    6.219    6.220    6.220    6.221    6.221    6.222    6.223    6.223    6.224    6.224
+  ('osc' = sigma_min < 0: that direction OSCILLATES under the flip -- the attractive-seal sector h > h_c is the stable one; all other directions in those configs still grow)
+
+=== T4: outer-bracket robustness of the lowest rate (M2, h=0; production sens table) ===
+  outer Dirichlet        k_min per m:   5.525   6.216   7.387   8.673
+  2.0 x scr              k_min per m:   3.053   4.461   5.878   7.260
+  1.0 x scr (ref)        k_min per m:   2.671   3.928   5.297   6.643
+  1.0 x unscr            k_min per m:   2.786   3.954   5.309   6.649
+  0.5 x scr              k_min per m:   2.429   3.540   4.839   6.129
+  D_+ = 0 (jet kept)     k_min per m:   2.130   3.005   4.173   5.352
+  pure Neumann           k_min per m:   0.398   2.081   3.481   4.754
+
+=== T5: mode spatial structure (my FEM modes, reference config) ===
+  M1 m=0 rung1: B-mass quartiles t = 0.08/0.18/0.33 of tb=1.64; weld20% 0.75 seal20% 0.00; channel weights l=0:1.00 l=1:0.00 l=2:0.00 l=3:0.00
+  M1 m=1 rung1: B-mass quartiles t = 0.08/0.18/0.32 of tb=1.64; weld20% 0.76 seal20% 0.00; channel weights l=1:1.00 l=2:0.00 l=3:0.00
+  M1 m=2 rung1: B-mass quartiles t = 0.08/0.16/0.29 of tb=1.64; weld20% 0.80 seal20% 0.00; channel weights l=2:1.00 l=3:0.00
+  M1 m=3 rung1: B-mass quartiles t = 0.07/0.15/0.26 of tb=1.64; weld20% 0.84 seal20% 0.00; channel weights l=3:1.00
+  M2 m=0 rung1: B-mass quartiles t = 0.08/0.18/0.33 of tb=1.17; weld20% 0.62 seal20% 0.01; channel weights l=0:0.99 l=1:0.01 l=2:0.00 l=3:0.00
+  M2 m=1 rung1: B-mass quartiles t = 0.08/0.18/0.33 of tb=1.17; weld20% 0.61 seal20% 0.01; channel weights l=1:0.99 l=2:0.01 l=3:0.00
+  M2 m=2 rung1: B-mass quartiles t = 0.08/0.17/0.30 of tb=1.17; weld20% 0.65 seal20% 0.00; channel weights l=2:0.99 l=3:0.01
+  M2 m=3 rung1: B-mass quartiles t = 0.08/0.15/0.27 of tb=1.17; weld20% 0.70 seal20% 0.00; channel weights l=3:1.00
+  M4 m=0 rung1: B-mass quartiles t = 0.09/0.21/0.38 of tb=1.71; weld20% 0.71 seal20% 0.00; channel weights l=0:1.00 l=1:0.00 l=2:0.00 l=3:0.00
+  M4 m=1 rung1: B-mass quartiles t = 0.09/0.20/0.36 of tb=1.71; weld20% 0.73 seal20% 0.00; channel weights l=1:1.00 l=2:0.00 l=3:0.00
+  M4 m=2 rung1: B-mass quartiles t = 0.09/0.18/0.32 of tb=1.71; weld20% 0.78 seal20% 0.00; channel weights l=2:1.00 l=3:0.00
+  M4 m=3 rung1: B-mass quartiles t = 0.09/0.17/0.29 of tb=1.71; weld20% 0.83 seal20% 0.00; channel weights l=3:1.00
+  M2 m=0 rung2: quartiles 0.08/0.17/0.31; weld20% 0.63 seal20% 0.01
+
+=== T6: homogeneity-direction overlap (m=0 rung 1 and the no-flux soft mode vs the scaling direction u = X(t)) ===
+  M1: <mode1, X>_B (banked D_+) = +0.980;  no-flux soft mode = +0.968;  no-flux sigma = 0.0941 (rate 0.307)
+  M2: <mode1, X>_B (banked D_+) = +0.978;  no-flux soft mode = +0.969;  no-flux sigma = 0.1586 (rate 0.398)
+  M4: <mode1, X>_B (banked D_+) = +0.993;  no-flux soft mode = +0.985;  no-flux sigma = 0.0825 (rate 0.287)
+
+=== T7: physical conversion ===
+interior crossing time T_x = Int_0^tb e^-t sqrt(G_00(t)) dt (slowest-channel signal time across the trusted interior):
+  M1: T_x = 0.4864; e-fold time 1/k1 = 0.3764 (= 0.77 crossings); tb = 1.638, t_seal = 3.599; gamma = 1.0
+  M2: T_x = 0.4606; e-fold time 1/k1 = 0.3744 (= 0.81 crossings); tb = 1.168, t_seal = 2.135; gamma = 1.0
+  M4: T_x = 0.5891; e-fold time 1/k1 = 0.4858 (= 0.82 crossings); tb = 1.711, t_seal = 2.823; gamma = 0.5
+rate-vs-gamma: k1(M1,gamma=1)/k1(M4,gamma=0.5) = 1.2904  (c-independence M1 vs M2: 1.0054)
+CHECK N1-G1 rate ladder is increasing (UV-unbounded growth in the quadratic theory; Sturm-Liouville sigma_n -> inf): PASS [2.657 4.024 5.364 6.683]
+CHECK N1-G2 (rung+m) near-degeneracy: every N-shell spread <= 1.01x for N<=4 across members: FAIL max spread 1.0602x
+
+N1-GROWTHMAP PASS 1/2

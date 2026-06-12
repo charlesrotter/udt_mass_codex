@@ -1,0 +1,157 @@
+  M1: my t_stop 3.598647 vs header 3.598647; re-integration vs .dat max rel dev 4.38e-10
+  M2: my t_stop 2.134243 vs header 2.134243; re-integration vs .dat max rel dev 4.65e-09
+  M3: my t_stop 1.100045 vs header 1.100045; re-integration vs .dat max rel dev 2.14e-09
+  M4: my t_stop 2.822749 vs header 2.822749; re-integration vs .dat max rel dev 7.21e-09
+V3 N1 my independent flow matches the library (M1-M4, <1e-7) and the header t_stop (<2e-4): PASS 
+  M1: DEN<0 slices t in [2.5191, 3.5986]
+  M2: DEN<0 slices t in [1.2583, 2.1342]
+  M3: DEN<0 slices t in [0.1169, 1.1000]
+  M4: DEN<0 slices t in [1.8701, 2.8227]
+V3 N2 alpha_aa = 0 locus exists INSIDE every member's domain (truncated spherical-transplant scheme singular on formed bgs): PASS 
+  mu=  0.100: DEN<0 band u in [+0.5933, +0.9287]
+  mu=  0.030: DEN<0 band u in [+0.5917, +0.9270]
+  mu=  0.010: DEN<0 band u in [+0.5913, +0.9258]
+  mu=  0.003: DEN<0 band u in [+0.5913, +0.9253]
+V3 N3 near-seal band INTERIOR (within [0.3,0.95]); latest slice band approx [0.59, 0.93] as recorded: PASS band [0.591, 0.925] at mu=0.003
+  truncated <Y1^2 Lambda/f^2> under doubling: -0.6492 -0.0371 +3.5848 -0.0885 +0.0899
+V3 N4 truncated weight NON-CONVERGENT (PV-singular integrand): PASS last doubling moves 1.78e-01
+  loading s2_blocks (banked target; its own checks will print)...
+  M1: re-integration vs .dat rows (t <= 2.347): max rel dev 3.60e-10
+  M2: re-integration vs .dat rows (t <= 1.608): max rel dev 4.35e-09
+  M3: re-integration vs .dat rows (t <= 0.907): max rel dev 2.21e-09
+  M4: re-integration vs .dat rows (t <= 2.238): max rel dev 7.11e-09
+CHECK B1 backgrounds re-integrated from header jets match library (<= 1e-8 on trusted domain): PASS 
+CHECK B2 m=0 Hessian matches s1_potential.P_hess (independent path): PASS rel dev 1.2e-13
+CHECK B-norm m=1: <R_lm^2> = 1: PASS max dev 1.2e-14
+CHECK B-norm m=2: <R_lm^2> = 1: PASS max dev 4.2e-15
+CHECK B-norm m=3: <R_lm^2> = 1: PASS max dev 1.3e-15
+background: gamma=1, c = 0.283287 (= 2 c*_3), ell<=3, cutoff f_min = 0.002 ABS, GL N=2000/3000
+t_stop = 2.13424, t_seal* = 2.13451, v* = 7.5339
+
+--- B1: m=0 Hessian: 4*mu*(vhat.Hess.vhat) / N^2 -> 1 ---
+  mu= 0.3000: ratio = 0.9195
+  mu= 0.1000: ratio = 0.9603
+  mu= 0.0300: ratio = 0.9834
+  mu= 0.0100: ratio = 0.9930
+  mu= 0.0030: ratio = 0.9974
+CHECK B1 rank-one 1/(4 mu) law on-flow (within 6% at mu=0.003): PASS 0.9974
+
+--- B2: m=0 complement: w.Hess.w BOUNDED (log terms carry v) ---
+  mu= 0.1000: complement eigs   +0.0003   +0.1636   +0.5366
+  mu= 0.0300: complement eigs   +0.0001   +0.1614   +0.5331
+  mu= 0.0100: complement eigs   +0.0000   +0.1608   +0.5322
+  mu= 0.0030: complement eigs   +0.0000   +0.1606   +0.5319
+CHECK B2 complement eigenvalues CONVERGE (bounded: drift < 0.01 over 3.3x in mu at mu=0.003): PASS max drift 0.00030
+CHECK B2b scaling zero mode: Hess.X_bg = 0 on-flow and X_bg nearly in the complement (X_bg.vhat = mu/|X| -> 0): PASS |Hess.X|max 4.5e-13, overlap 0.0001
+
+--- B3: m=1 channels: M_{l1} = A ln(1/mu) + O(1), A = (2l+1)l(l+1)/(8D) ---
+  mu= 0.1000: D=  13.905  M11=   0.2615 M21=   1.1321 M31=   2.7393
+  mu= 0.0300: D=  14.246  M11=   0.3181 M21=   1.4192 M31=   3.5449
+  mu= 0.0100: D=  14.343  M11=   0.3731 M21=   1.6953 M31=   4.3184
+  mu= 0.0030: D=  14.377  M11=   0.4349 M21=   2.0045 M31=   5.1843
+  M11: fitted log-slope 0.0513 vs derived 0.0522 (ratio 0.982)
+CHECK B3 M11 log coefficient matches (2l+1)l(l+1)/(8D) within 25%: PASS ratio 0.982
+  M21: fitted log-slope 0.2568 vs derived 0.2611 (ratio 0.984)
+CHECK B3 M21 log coefficient matches (2l+1)l(l+1)/(8D) within 25%: PASS ratio 0.984
+  M31: fitted log-slope 0.7192 vs derived 0.7312 (ratio 0.984)
+CHECK B3 M31 log coefficient matches (2l+1)l(l+1)/(8D) within 25%: PASS ratio 0.984
+
+--- B4: m>=2 channels stay FINITE at the seal ---
+  M_22:    0.4075    0.4067    0.4069  (drift over 33x in mu: 0.1%)
+CHECK B4 M_22 bounded (no log/power growth: drift < 100% while a log channel grows by ~ln(33)x its slope): PASS drift 0.1%
+  M_32:    1.0873    1.1063    1.1095  (drift over 33x in mu: 2.0%)
+CHECK B4 M_32 bounded (no log/power growth: drift < 100% while a log channel grows by ~ln(33)x its slope): PASS drift 2.0%
+  M_33:    0.7505    0.7418    0.7411  (drift over 33x in mu: 1.3%)
+CHECK B4 M_33 bounded (no log/power growth: drift < 100% while a log channel grows by ~ln(33)x its slope): PASS drift 1.3%
+
+--- B5: finite-action selection, vhat (pole-value) channel ---
+  potential-energy density V(tau)*u^2 at tau = 0.02 0.01 0.003 0.001
+   u=1   branch:     25.157     51.361    174.613    527.969
+   u=tau branch:    0.01006    0.00514    0.00157    0.00053
+CHECK B5 sigma=0 branch action density ~ 1/tau (diverges; ratio ~ tau-step 3): PASS ratio 3.02
+CHECK B5 sigma=1 branch action density -> 0 (finite action): PASS ratio 0.34
+
+================== ADMISSIBLE BC AT THE SEAL (per channel) ==================
+Endpoint: t = t_seal (tau -> 0), background mu = v* tau, v* = 7.5339
+(gamma=1, c=2c*_3=0.28329, ell<=3, cutoff f_min=0.002 ABS, GL N=2000/3000)
+
+CHANNEL                      SINGULARITY        CLASS         BC STATUS
+m=0, pole-value dir vhat     2HessP ~ N^2/(2v*tau)  limit-circle  FORCED
+  (vhat prop (1,sqrt3,sqrt5,sqrt7))  indicial {0,1}: sigma=0 branch has
+  log-DIVERGENT C1 action => finite action forces the Friedrichs branch:
+  delta f(pole) ~ tau -> 0.        [the ONLY forced condition]
+m=0, complement (lmax dirs)  NONE (regular: all  regular      FAMILY (1-par
+  log terms carry a factor of v => vanish on w.v=0; one direction is the
+  exact homogeneity zero mode Hess.X_bg = 0)                   per channel)
+m=1 (each l>=1)              M ~ A_{l1} ln(1/tau) limit-circle  FAMILY
+  A_{l1} = (2l+1)l(l+1)/(8D) > 0 (derived + verified to 1.6%)
+m>=2 (each l>=m)             NONE (regular)     regular       FAMILY
+=============================================================================
+FLAG (prominent): under the C1 reduced action the seal endpoint is
+limit-circle/regular in EVERY channel; finite action forces exactly ONE
+condition (the pole-value Dirichlet). Every other channel keeps a genuine
+one-parameter family of admissible self-adjoint BCs. If S2 finds no native
+selector (e.g. a stronger weight from the time sector, or a 4D-action
+boundary term at the curvature-singular locus), this family is a PHYSICAL
+degree of freedom of sealed cavities -- a candidate home for the program's
+discreteness. S2 MUST scan BC-robustness across this family.
+CAVEAT: classification is under the C1 measure e^-t dt and the reduced
+(truncated) potential; an S2 weight more singular than ~1/mu at the pole
+could upgrade m=0 channels to limit-point (re-check once S2's weight is
+derived natively).
+
+S1-FLUCT PASS 11/11
+CHECK B3 m=1 diagonal == S1 Mlm (Hessian level; EL = 2H applies the VS1 x2 amendment uniformly): PASS max rel dev 3.5e-13
+
+B4 PSD scan (perspective-convexity theorem check):
+  M1: min eig of H^(m) over t<= 2.236: m=0:-2.44e-17 m=1:+1.00e-01 m=2:+3.03e-01 m=3:+6.52e-01
+  M2: min eig of H^(m) over t<= 1.531: m=0:-6.25e-17 m=1:+2.00e-01 m=2:+6.09e-01 m=3:+1.34e+00
+  M3: min eig of H^(m) over t<= 0.864: m=0:-1.29e-16 m=1:+3.82e-01 m=2:+1.17e+00 m=3:+2.68e+00
+  M4: min eig of H^(m) over t<= 2.131: m=0:-4.30e-17 m=1:+1.98e-01 m=2:+6.01e-01 m=3:+1.29e+00
+CHECK B4 every H^(m)(t) PSD on every member (floor >= -1e-10): PASS global floor -1.29e-16
+CHECK B5a constant-f identities: H_ll = l(l+1)/(2F0) (=> EL b_tt - b_t = l(l+1)/F0 b, the banked weld form), G_ll = 1/F0^2: PASS H 1.2000000000 vs 1.2000000000; G 0.1600000000 vs 0.1600000000
+D_+ table (q=1/3, tau0=6 sqrt(lam)):
+  lam:      0         2         6         12
+  screened  0.666667  1.739812  2.745646  3.747460
+  unscr.    0.853851  1.806220  2.787191  3.777706
+CHECK A1a D_+ reproduces banked 1.7398/1.8062/2.7456/2.7872 (4 dp): PASS max dev 4.6e-05
+CHECK A1b D_+ unscreened reproduces fork-doc 9-digit values: PASS max dev 3.3e-09
+CHECK A3a gamma_c = L0(lam=2) = 1.33835009 (banked): PASS got 1.33835009
+CHECK A3b zero-energy interior log-derivative = L0 (shooting vs Bessel): PASS shoot 1.33835009
+CHECK A2a BC-c lam=2 banked omega^2 = -3.4667814: PASS got -3.4667814
+CHECK A2b BC-c lam=6 banked omega^2 = -10.376405: PASS got -10.376405
+CHECK A3c boosted real mode omega^2 = +4.0701100 (flip: omega^2 = -sigma): PASS got 4.0701100
+CHECK A4 physical gamma=2/3 < gamma_c: lowest sigma > 0 (no real mode; banked smooth-background negative reproduced): PASS sigma_min = 3.466781
+  FEM lam=2 gamma=2/3 N=2000: lowest sigmas [  3.46678674  49.30842518 127.29916426]
+  FEM lam=2 gamma=2/3 N=4000: lowest sigmas [  3.46678276  49.30831197 127.29841691]
+CHECK A5a FEM lowest sigma matches shooting to 6+ digits (lam=2, relax): PASS FEM 3.4667828 vs shoot 3.4667814
+CHECK A5b FEM reproduces the boosted REAL mode (sign + value): PASS FEM -4.0701119 vs shoot -4.0701100
+CHECK A5c FEM lam=6 relaxation matches banked: PASS got -10.376410
+
+S2-ANCHORS PASS 11/11
+CHECK B5b my (A,B) system == banked weld operator spectrum on smooth collar (4 lowest, rel): PASS max rel dev 6.4e-13
+   sigmas: [148.49670323 467.60654397 982.83062682] vs [148.49670323 467.60654397 982.83062682]
+CHECK B6 G_A, G_B positive definite everywhere: PASS floor 4.74e-04
+
+B7 outer Robin matrices M_out = (gamma + D_+(l)) I - c C:
+  M1 m=0 C(0,1)=+1.0000; M_out(scr) eigs [1.6356 2.7439 3.7469 4.7733]
+  M2 m=0 C(0,1)=+1.0000; M_out(scr) eigs [1.5947 2.7477 3.7497 4.8075]
+  M3 m=0 C(0,1)=+1.0000; M_out(scr) eigs [1.4041 2.7448 3.7792 4.9715]
+  M4 m=0 C(0,1)=+1.0000; M_out(scr) eigs [1.159  2.2409 3.2459 4.2538]
+CHECK B7 M_out PSD for every member/block (outer boundary adds no negative energy at banked D_+): PASS 
+CHECK B8 quadrature 800 vs 1600 on H at deepest trusted state: PASS max dev 5.5e-13
+
+S2-BLOCKS PASS 12/12
+V3 N5 derived weight == S2 GA (W_A) to 1e-12; distinct from GB (W_B): FAIL maxdev GA 0.0e+00; mindev GB 4.57e-04
+  endpoint powers (derived weight, M2):
+   vhat :     1.4930     4.9905    17.6969    54.4961   183.9081  slope -1.010
+   comp :     0.0551     0.0582     0.0607     0.0619     0.0625  slope -0.008
+   m1   :     0.0327     0.0383     0.0460     0.0536     0.0621  slope -0.123
+   m2   :     0.0114     0.0111     0.0111     0.0112     0.0112  slope -0.002
+V3 N6a vhat ~ 1/mu (slope -1 within 10%): the 1/tau forced limit-circle endpoint: PASS slope -1.010
+V3 N6b m=1 LOG growth (|slope|<0.15, increments track ln-steps): limit-circle under the derived W_A weight (W_B's limit-point kill NOT reproduced): PASS slope -0.123, incr ratio 1.129 vs ln 1.096
+V3 N6c m=2 and m0-complement bounded (|slope|<0.05): PASS -0.002, -0.008
+   m=1 under W_B:      0.016      0.040      0.125      0.367      1.213  slope -0.992
+V3 N6d under W_B the m=1 entry DIVERGES like a power (slope <= -0.5): the two weights genuinely separate the m=1 endpoint class; the derived weight decides: PASS slope -0.992
+
+V3 TOTAL: 8/9 PASS

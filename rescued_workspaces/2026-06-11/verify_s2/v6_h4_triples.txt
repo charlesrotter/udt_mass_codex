@@ -1,0 +1,4 @@
+M2 m=0 h=+4 omega^2: own [1156.374291  742.529029  398.957088] vs report [1156.369931, 742.526753, 398.956366]  max rel dev 3.8e-06  PASS
+M2 m=1 h=+4 omega^2: own [943.219431 542.609369 236.230235] vs report [943.21607, 542.607994, 236.229846]  max rel dev 3.6e-06  PASS
+M2 m=2 h=+4 omega^2: own [705.988796 307.509738] vs report [705.986519, 307.509112]  max rel dev 3.2e-06  PASS
+M2 m=3 h=+4 omega^2: own [425.105063] vs report [425.103896]  max rel dev 2.7e-06  PASS

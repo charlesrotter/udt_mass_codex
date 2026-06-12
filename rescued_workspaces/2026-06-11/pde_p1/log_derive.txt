@@ -1,0 +1,36 @@
+D-01: PASS  det g = -(r^2 sin^2/W) * (r^2 W - f q^2)  exactly
+D-02: PASS  det(angular block) = r^4 sin^2 theta exactly (areal radius preserved)
+D-03: PASS  sqrt(-g) = r sin(th) sqrt(r^2 W - f q^2)/(1+w)
+D-04: PASS  exact 4x4 inverse verified (g g^{-1} = 1)
+D-05: PASS  g^rr = f r^2 W/D, g^rth = -f q/D, g^thth = 1/D, D = r^2 W - f q^2
+D-06: PASS  L = -(c/8) r sin(th) [f r^2 W f_r^2 - 2 f q f_r f_th + f_th^2] / ((1+w) f sqrt(D))
+D-07: PASS  L contains no q_r, q_th, w_r, w_th (only d(phi) appears in S_C1): q and w are EXACTLY ALGEBRAIC (non-dynamical) at full nonlinear order
+D-08: PASS  dL/dq = -(c r sin/(8(1+w) D^{3/2})) [q A - 2 r^2 W f_r f_th]: dL/dq = 0  <=>  q (f r^2 W f_r^2 + f_th^2) = 2 r^2 W f_r f_th   [exact, D>0]
+D-09: PASS  unique algebraic solution  q* = 2 r^2 W f_r f_th / (f r^2 W f_r^2 + f_th^2)
+D-10: PASS  q* solves dL/dq = 0 exactly
+D-11: PASS  g_rtheta tadpole at diagonal point = +(c/4) f_r f_th sin(th)  (matches measure_fork_results.md magnitude (c/4) f_r f_th sin)
+D-12: PASS  A^2 - 4 f r^2 W (f_r f_th)^2 = (f r^2 W f_r^2 - f_th^2)^2  [perfect square]
+D-13: PASS  L_eff(q*) = -(c/8) sin(th) |f r^2 f_r^2 - f_th^2/W| / f   [exact]
+D-14: PASS  dL_eff/dw = -(c/4) sin(th) f_th^2 / (f (1+w)^3):  NEVER ZERO unless f_th = 0
+D-15: PASS  dL/dw|_(q=q*) proportional to f_th^2 (ratio f_th-free: False)
+    -> THEOREM (W-runaway): the joint algebraic system dL/dq = dL/dw = 0 has NO solution with f_th != 0 and nondegenerate metric (D > 0).
+       Smooth solution set of the FULLY-FREE system = spherical family only.
+D-16: PASS  diagonal class: L2D dt du = -(c/8) e^{-t} [ f_t^2 + (1-u^2) f_u^2/f ] dt du
+    -> with c = -2 and measure du/2 this is EXACTLY the banked reduced
+       action  S = Int e^{-t} [ (1/4) Sum X_t^2 + P ] dt,
+       P = (1/8) Int (1-u^2) f_u^2 / f du   (library M2 header, verbatim).
+D-17: PASS  normalization lock: c_red = -c/2 = 1, integrand (1/4)f_t^2 + (1/4)(1-u^2)f_u^2/f per du/2
+D-18: PASS  Class A f-PDE:  f_tt - f_t = -d_u[(1-u^2) f_u/f] - (1-u^2) f_u^2/(2 f^2)
+D-19: PASS  Class B f-PDE:  f_tt - f_t = +d_u[(1-u^2) f_u/f] + (1-u^2) f_u^2/(2 f^2)  (q-elimination FLIPS the angular sign)
+D-20: PASS  Q* = e^t q* = 2 f_t v / (f f_t^2 + v^2),  v = sqrt(1-u^2) f_u
+D-21: PASS  metric nondegeneracy on the q* branch: D = Delta^2/A^2 >= 0, degenerate EXACTLY on the sonic locus Delta = f f_t^2 - (1-u^2) f_u^2 = 0
+D-22: PASS  Class A elliptic (signs +,+); Class B hyperbolic (signs +,-), char speeds du/dt = +-sqrt((1-u^2)/f): poles characteristic, speed -> infinity at the seal f -> 0
+D-23: PASS  ANCHOR #1: -2 P_F = L/(2 kappa) - 1 = H(kappa) EXACTLY (banked capacity, exterior_cavity_results.md)
+D-24: PASS  P(F, a1) = F p(kappa) homogeneous of degree 1 (the banked screening identity's root)
+D-25: PASS  interface root kappa(1) = 0.68309514 (banked 0.68309514)
+D-26: PASS  spherical vacuum: f = C1 + C2 e^t = A + B/y  (exact)
+D-27: PASS  collar y^{-1/3}: F_tt - F_t = -2 s F with s = 1/9 exactly (sourced structure (y^2 f')' = -2 s y f / ... in t-form)
+D-28: PASS  Y0..Y3 orthonormal under du/2 (library convention)
+D-29: PASS  Galerkin projection of Class A PDE = X_tt - X_t = 2 P_X (library M2 EL, verified on a generic ell<=3 state, mpmath 30 dps)
+
+DERIVATION CHECKS: 29 PASS / 0 FAIL

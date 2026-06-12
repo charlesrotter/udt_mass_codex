@@ -1,0 +1,27 @@
+/home/udt-admin/.local/lib/python3.10/site-packages/torch/cuda/__init__.py:716: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+V-14r: PASS  w-runaway confirmed numerically: L(W) strictly decreasing below / increasing above the degenerate-metric corner W_crit at every sampled formed-background point; NO interior stationary point (theorem D-14)
+diagonal M2 solution crosses the joint-system sonic line at t = 1.2558 (y = 0.2848); seal at t_seal* = 2.1345
+V-13r: PASS  the DIAGONAL M2 solution leaves the radial-dominant branch (Delta<0) at t = 1.2558, well before its seal t = 2.1345: the diagonal seal sits OUTSIDE the q-joint radial-dominant branch
+Class A anchors (t_max=60): ell<=1 c* = 0.206994 (banked 0.206994/0.207001), ell<=3 c* = 0.141653 (banked 0.141644)  [7s]
+V-19r: PASS  Class A threshold anchors reproduced at t_max=60: 0.206994, 0.141653
+
+c*(ell) tables (gamma = 1, absolute classifier, t_max=60):
+   ell    c*_A         c*_B
+   1      0.206995     1.351749
+   2      0.158954     1.655140
+   3      0.141653     1.849202
+   4      0.132799     1.985320
+   5      0.127411     2.085349
+   |increments| A: ['0.04804', '0.01730', '0.00885', '0.00539']  ratios ['0.360', '0.512', '0.609']
+   |increments| B: ['0.30339', '0.19406', '0.13612', '0.10003']  ratios ['0.640', '0.701', '0.735']
+V-21: PASS  c*(ell) convergence tables recorded for both classes
+
+sonic audit of sealed Class B flows:
+   c=2.0000: sealed=True t_seal*=0.3913 y_seal*=0.67618 min Delta=-2.286e+00 (at t=0.390) -> branch EXITED
+   c=1.9417: sealed=True t_seal*=0.4139 y_seal*=0.66107 min Delta=-2.427e+00 (at t=0.412) -> branch EXITED
+V-22: PASS  branch validity of sealed Class B flows recorded
+V-23: PASS  Newton-Chebyshev (Cauchy) on CLASS B == Class B IVP: max diff 1.4e-12, |R| floor 7.8e-09, 6 its
+V-24: PASS  pseudo-arclength continuation hook: 3 steps along c = ['0.28329', '0.28333', '0.28337', '0.28341'], each point solving the system (residual < 1e-6)  [0s]
+
+STAGE f2: 7 PASS / 0 FAIL

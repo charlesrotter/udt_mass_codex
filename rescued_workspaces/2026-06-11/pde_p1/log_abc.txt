@@ -1,0 +1,26 @@
+device = cuda
+/home/udt-admin/.local/lib/python3.10/site-packages/torch/cuda/__init__.py:716: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+V-00: PASS  torch kernels == sympy-generated numpy kernels (grad diff 8.3e-17, hess diff 8.9e-16)
+V-01: PASS  analytic P_X, P_XX match finite differences of quadrature P
+
+--- (a) spherical vacuum f = A + B/y ---
+V-02: PASS  IVP: f = (1-g) + g e^t reproduced (rel err 3.8e-16; angular 0.0e+00)
+V-03: PASS  Newton-Chebyshev BVP (Dirichlet): vacuum reproduced, rel err 5.5e-14, |R|=1.2e-10, 2 its
+V-04: PASS  2D tensor-spectral Newton (Class A): vacuum reproduced, rel err 4.3e-14, |R|=2.2e-10, 3 its
+
+--- (b) library M2 reproduction (ell<=3, gamma=1, c=0.2832873535156249512) ---
+   flow time 0.0s; sealed=True t_stop=2.134243 t_seal*=2.134509 y_seal*=0.118303
+V-05: PASS  M2 profiles reproduced: max|dF|/F=4.2e-16, |da1|=1.8e-15, |dg2|=3.3e-16, |dh3|=2.8e-16
+V-06: PASS  M2 seal locus: t_stop 2.134243 (lib 2.134243), t_seal* 2.134509 (lib 2.134509), y_seal* 0.118303 (lib 0.118303)
+V-07: PASS  f_min profile max abs diff 5.2e-15
+V-08: PASS  Newton-Chebyshev (Cauchy weld rows, Nt=160) == IVP flow: max diff 1.0e-12 (|R| floor 1.1e-08 = D^2 conditioning at Nt=160, cond~N^4; solution machine-accurate), 6 its, 0.0s
+V-09: PASS  2D Newton (full theta, Nt=48 x Nu=32) vs ell<=3 library in trust region [0,1.1]: max rel diff 5.16e-04 (interior truncation error; trust-region bound 1%)  |R|=9.9e-10
+   2D-vs-library rel diff profile: t=0.28: 4.25e-05, t=0.55: 2.48e-04, t=0.83: 4.99e-04
+
+--- (c) free q, w on the spherical background ---
+V-10: PASS  spherical background: angular modes 0.0e+00, q* field 0.0e+00 -> q tadpole = 0, q* = 0 (exact)
+V-11: PASS  spherical background: w-force (1/4)e^-t f_th^2/f = 0.0e+00 -> w tadpole = 0 (w is an exact FLAT direction spherically: L is W-independent at f_th=0)
+V-12: PASS  Class B (q freed) on spherical data == Class A flow: max diff 0.0e+00 (zero tadpole spherically)
+
+STAGE abc: 13 PASS / 0 FAIL
