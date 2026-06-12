@@ -222,3 +222,65 @@ banked negative as blocking.
     the native w-stiffness sector (now the program's forced object).
     The only T-bounded oscillatory sector: the attractive seal family
     h > h_c (the theta-dial). Same-minus upgraded premise -> theorem.
+
+## W1 push negatives (2026-06-11/12, w_stiffness_results.md; all blind-verified)
+
+23. C1 SUPPLIES NO ANGULAR-BLOCK DERIVATIVES ON ANY METRIC CLASS
+    (W1 Route A, 34/34 + VA 23 checks): the C1 density is FIRST-JET
+    IN g_tt ONLY (via the tie phi = -(1/2) ln(-g_tt)) and zeroth-jet
+    in every other component — verified on a fully generic
+    10-function metric. No class enlargement can make C1 supply w- or
+    shear-stiffness. PREMISES: the g_tt tie; shape modes outside the
+    tied slot; C1 alone. CONDITIONS-CHANGED trigger: any revision of
+    the tie (the W2 tie-depth fork is exactly this dial; R-stat
+    ranked, R-norm unforced — see w2 results).
+
+24. THE BALANCE/FORCED-COMPLETION METHOD CANNOT SELECT A w-STIFFNESS
+    (W1 Route B, 70/70 + VB 48/48): every w-jet-quadratic EL term is
+    identically invisible on w = 0 configurations, and every banked
+    configuration has w = 0 (by #21/#22) — survival demands select
+    nothing; the completion family is free-function-parametrized and
+    GROWS with jet order. Method-level negative. PREMISES: banked
+    stack w = 0; statics; P1 fields; rho = r. Note: the D_cell member
+    (= (c/4) sin(th)[w f_th^2/f + q f_r f_th]) cancels the cell
+    tadpoles with NO stiffness, making banked Class-A cells exact
+    full-system statics — an unselected completion fork awaiting
+    Charles. ERRATUM OF RECORD (VB): the claim "C1 + kappa EH is
+    dynamically refused on the P1 class" is FALSE (operator artifact;
+    EH contributes zero to all three P1 field equations on every
+    spherical configuration). The EH-import prohibition rests on
+    principle-1 provenance + the rho-sector A1 result only.
+
+25. THE BANKED ACTION STACK IS ZEROTH-JET IN THE ANGULAR BLOCK
+    (W1 Route C, 41 checks + VC2 47/47, dual-rep all-orders closure
+    of the Maxwell re-solving loophole; Q_f topologically protected):
+    flux, H1 collar source, S_phi0/DtN, responsive source, completion
+    family — union of differentiated functions = {f}, also with
+    g_thetaphi on. The w-analog of "no native sector carries rho'".
+    SCOPE (VC2 re-grade): "banked ACTION stack, statics" — the weld
+    CONSTRAINT identities (rung-2 weld carries d_t K) are excluded
+    constraint-grade objects, named not silent; K = 0 is forced on
+    the native branch by the perturbed R-areal canon. Flux w-tadpole
+    qualifiers: opposition to the C1 w-force is Delta > 0
+    branch-conditional; at O(q^2) on-shell a sign-definite screening
+    term (1/2)<a*, G' a*> enters at the same order — the tadpole
+    alone is not the on-shell w-force.
+
+## W2 push negatives (2026-06-12, w2 uncovering arms; blind-verified)
+
+26. THE SEAL IS w-BLIND, AND THE SEAL IMPOSES NO w-BC (W2 Arm 2,
+    61 checks + VW2 58 checks): (a) the seal singularity law is
+    exactly the diagonal law f^2 K -> 4 f_u(pole)^2/y^4 with ZERO
+    w-jet content (robust to order-3 transverse jets; the w-jet lives
+    in exactly one regular orthonormal component, R_th^ph^th^ph^ =
+    [(1-f) + 4 w_thth]/y^2); (b) the C1 w-channel second variation is
+    potential-only (no SL operator on delta-w; no BC forced).
+    PREMISES: static diagonal+w class, q = 0, axis-regular profiles,
+    rho = r, FROZEN delta-w for the S1-coefficient statement.
+    LOAD-BEARING CAVEAT (VW2): the w-f and w-q cross blocks are
+    NONZERO; Schur-eliminating the algebraic delta-w flips the
+    f-channel angular gradient -c/4 -> +c/12 with effective stiffness
+    numerator exactly Delta_w = f r^2 (1+w)^2 f_r^2 - f_th^2 — S1 and
+    the theta-dial REQUIRE RE-POSING on the w-completed fluctuation
+    class. The "no theta-dial selector" reading is conditional on the
+    frozen-delta-w premise.
