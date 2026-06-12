@@ -177,3 +177,19 @@ trust windows). The kappa question remains open alongside it (the
 member-independent window invariant survives re-grading; its
 convention-robust value ~2.12 awaits derivation; the -2/f provenance
 is narrowed to one EH-specific number on the unimodular tie line).
+
+## ADDENDUM (2026-06-12, post-commit; VW5-2-6 R1-R3 completed)
+
+The interrupted subtracted-force coupled runs completed
+(/tmp/w5_arm2_verifier6_coupled_full.log): R1 (kappa = +1, t5, ON,
+amp 0.05): durable, bounded, pinning flat. R2 (kappa = -1, same):
+DURABLE AND BOUNDED — the kappa < 0 coupled divergence is
+definitively a bare-D_alg artifact; the kinetic-matched branch
+marches with full back-reaction. R3 (kappa = +3, same): FCOLLAPSE at
+T = 1.13 — under the CORRECTED force the higher-kappa run terminates
+in f-collapse where the artifact-dressed W5 run had marched (the
+spurious dressing was stabilizing). SCOPE CORRECTION to "durable
+coupled shaped matter stands": established at moderate kappa, both
+signs (+1, -1); fails at kappa = +3 on this member/window/amp under
+the subtracted force. The coupled kappa-map needs the corrected-force
+re-sweep (W6 scope; single member, single window, single amp so far).
