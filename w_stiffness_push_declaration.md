@@ -97,3 +97,27 @@ preserve the macro sector; dress the sonic-locus w-force flip
 (g = f f_r^2 - f_T^2/f = 0); axis-regular shaped solutions; action
 bounded below with DERIVED sign; no EH import (provenance must be the
 dilation postulate, not R).
+
+## W2 framing correction (Charles, 2026-06-11, before any arm ran)
+
+"We are not inventing mechanisms to tack on. We are uncovering what
+the metric is doing on its own, some of which we may not have seen or
+noticed yet. Or even discovered." The Arm-2 wording above ("derive the
+stiffness as what persistence REQUIRES" via an added undetermined
+density) was template drift — struck. Corrected arms, uncovering
+verbs only:
+- Arm 1: compute what the metric's clock-transport geometry IS on a
+  shaped cell, one jet deeper than C1 reads (dilation transport /
+  loop holonomy; the honest depth of the postulate's tie; where the
+  twice-self-appearing perfect squares come from in the metric, and
+  what the same structure is in the angular block). Report what is
+  there.
+- Arm 2: compute the metric's OWN demands at the places it is already
+  objecting — the curvature-singular seal and the smooth-continuation
+  / junction machinery (mirror-theorem species) — on shaped (w-on)
+  configurations, for the first time. The stiffness may already exist
+  as an interface law the metric enforces by itself, never seen
+  because only the bulk action was ever varied.
+Nothing is added to the theory by either arm; both compute existing
+structure. The theta-dial/persistence question stays downstream as a
+READOUT of whatever is found, not a generator.
