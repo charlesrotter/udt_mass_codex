@@ -78,3 +78,22 @@ selector downstream."
 - Conventions binding: same-minus time-row elimination is
   theorem-grade (VN); Q != 0 convention; R-areal canon (rho = r) holds
   — the enlargement freed here is the ANGULAR block, not rho.
+
+## W2 — THE DERIVATION (appended 2026-06-11, per Charles: "derive the stiffness")
+
+METRIC-LED. The route is the close's own, verbatim
+(nonstationary_opener_results.md:117-120): "the target is its native
+derivation from positional-dilation first principles — principle 4's
+GR-corpus mine, transformed." Two arms:
+- Arm 1: construct the native second-jet angular density from the
+  dilation postulate itself (the GR curvature corpus transformed under
+  positional dilation; the perfect-square / dilation-weighted-variable
+  heuristic as organizer).
+- Arm 2: derive the stiffness as what the persistence of the h > h_c
+  seal family (the theta-dial, the theory's only T-bounded oscillatory
+  sector) REQUIRES.
+Filters (from the close + W1, all binding): vanish on spherical;
+preserve the macro sector; dress the sonic-locus w-force flip
+(g = f f_r^2 - f_T^2/f = 0); axis-regular shaped solutions; action
+bounded below with DERIVED sign; no EH import (provenance must be the
+dilation postulate, not R).
