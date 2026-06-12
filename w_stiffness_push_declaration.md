@@ -136,3 +136,46 @@ w-completed fluctuation class. The three standing forks (regularity
 demand, tie reading, D_cell) are NOT inputs; where any would touch a
 conclusion, BOTH branches are carried and labeled (Charles's
 test-both protocol, now standing).
+
+## W4 — SOLUTION-SPACE PROBE (declared 2026-06-12, per Charles:
+## "Instead of proposing what the metric does, solve it." — the
+## standing solution-space default, now executed)
+
+Mode: SOLUTION-SPACE EXPLORATION OF DERIVED STRUCTURE. The system
+solved is S[f,q,w] = C1 + kappa * W_wave, where W_wave is the
+metric's OWN curvature-species w-dynamics uncovered and
+theorem-graded in W2/VW1 (the unique EL-visible w-content of the
+second-jet species at q = 0: [2 r^2 sin(theta)/(1+w)^2]
+(w_T^2/f - f w_r^2); right-sign kinetic; characteristics
+dr/dT = +-f). NOTHING IS INVENTED: the density is computed structure;
+kappa (magnitude AND sign) is its one underived number and is SWEPT,
+not chosen. Branches carried (test-both, standing): D_cell on/off;
+chart window noted where fluctuation-level readouts are taken.
+ALL runs are HYPOTHESIS-GRADE: numerics are the telescope, not the
+proof — any discovery must afterwards survive analytic derivation +
+blind verification before it is banked as theory.
+
+Pre-registered probes (observables fixed before any run):
+P1 static existence: axis-regular shaped static solutions of the
+   full nonlinear system (BVP; regularity checked, never assumed).
+P2 spectra: discreteness and scale-autonomy of shape modes on
+   solved backgrounds (notes vs depth).
+P3 persistence: nonlinear time evolution of the hyperbolic w-channel
+   on banked-library initial data (durable cells / breathers /
+   collapse; bounded-in-T or not).
+P4 macro invariance: the spherical sector must be untouched at every
+   kappa (verified exactly, not trusted).
+P5 selection: the kappa-map of durable shaped matter.
+Pre-registered grading: (i) NO kappa gives durable shaped matter =>
+the wave-sector completion is FALSIFIED as the missing piece
+(decisive, first-class); (ii) a kappa-BAND => a numerical fingerprint
+of the selection principle (derivation target, not a result);
+(iii) durable matter at ALL kappa => persistence does not select at
+this level (scoped).
+
+Numerics conventions: torch float64 on the V100 for batched sweeps
+(CLAUDE.md pitfalls binding: no batched solve_triangular with
+broadcast Cholesky — explicit inverse + matmul; per-batch CPU
+asserts); mpmath/sympy CPU exact anchors at spot points per run;
+classifier and seal-shell conventions carried; three-term
+extrapolations not bankable.
