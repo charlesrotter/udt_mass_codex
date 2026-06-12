@@ -348,3 +348,41 @@ banked negative as blocking.
     persists at this order; CONDITIONS-CHANGED triggers: the W5
     untruncated solve; any q*-branch adjudication; any derived
     angular stiffness.
+
+## W5 push (2026-06-12, w5_results.md; verifier-adjudicated)
+
+[#28 AMENDED per its CONDITIONS-CHANGED protocol — W5/VW5-1: the
+q*-branch w-row is adjudicated symbolically (c[w_thth] = 0 in the
+density at all q; the reduced w-row carries no angular well — the
+bands verdict survives at the w-row level; truncation flag cleared
+for q = 0). NEW residual, OPEN: the coupled 2D branch operator —
+w-row {4 f r^2 sin P/Delta_w, S_rtheta, 0} + the f-row w_thth door
+c_f[w_thth] = -8 f r^3 f_r^3 f_theta^2 (2f + r f_r) sin/(Delta_w^2 P)
+(VW5-1's reversal of Arm-1's pairing death: the (1-f) <-> 4 w_thth
+pairing IS EL-visible on the q* branch, f-row) + the dynamical
+delta-q channel. Bands-vs-lines is NOT settled at the coupled level;
+W6 owns it.]
+
+29. THE f = 2 kappa LOCUS IS DYNAMICALLY INERT (W5 Arm-2 + VW5-2-4,
+    three probes + sharpened attack): no mode trapping (Agmon: no
+    classically forbidden region — all eigenvalues far above the
+    barrier), no new eigenvalue branch (spectra match species-off to
+    < 0.034 spacing), no f-pinning at 2 kappa (bounded oscillation
+    about the static dressed cell; no attraction). The locus
+    STABILIZES the spectrum slightly and marks where the tadpole
+    flips; it does not select, trap, or quantize. PREMISES: q = 0
+    diagonal class; frozen-f or 4-mode library-slice back-reaction
+    (the slice ansatz cannot represent a pinned surface even in
+    principle — named); Nu = 24 (48 spot); ell <= 3 backgrounds;
+    subtracted-species coupled runs at probed kappa; the geometry
+    fact that the locus is a seal-funnel cap (true f_max 14-58, not
+    an interior surface) on banked members.
+    ERRATA carried by this entry (details w5_results.md): W4-B
+    member-unit kappa convention (kappa_banked = kappa_true c_m/2;
+    ratio invariant; reconciles W4's two kappa_c families to 0.4%);
+    the W5 coupled "cell renormalization"/kappa<0 divergence were
+    bare-D_alg artifacts (subtracted species f-force: cell undressed
+    to 3.4e-8, coupled runs durable); the window ratio constant is
+    convention-graded (Newton-basin 1.84 vs dynamic ~2.12 —
+    member-independence is the robust invariant); OFF-branch
+    evolution headlines |kappa| < 3 rescoped (energy-invalid rows).
