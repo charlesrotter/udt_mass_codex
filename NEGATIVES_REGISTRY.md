@@ -320,3 +320,31 @@ banked negative as blocking.
     the forced object's necessity is now visible at THREE levels:
     statics (#21/#22), interfaces (W2 continuation failure), and
     fluctuations (this entry).
+
+## W4 push (2026-06-12, w4_results.md; hypothesis-grade maps, verifier-adjudicated)
+
+28. NO ANGULAR QUANTIZATION FROM THE WAVE SECTOR AT THIS ORDER
+    (BANDS, NOT LINES): the w-channel mode problem of
+    C1 + kappa*W_wave at q = 0 has NO angular gradient stiffness —
+    per-u radial SL pencils, radial-discrete x angular-continuum;
+    discrete rungs smear into bands. VA4-adjudicated grades: on the
+    D_cell-ON, w-bar = 0, q = 0 branch the delta-w/delta-f cross
+    block vanishes IDENTICALLY (corollary of the tadpole-cancellation
+    identity), so bands-not-lines is THEOREM-GRADE there (true normal
+    modes of the coupled system); on D_cell-OFF the frozen spectra
+    are diagonal-block readouts on an off-shell background; the
+    q*-branch (where the species' w_rtheta atoms are q-mediated) is
+    UNADJUDICATED. PREMISES (all load-bearing): the W4 system is a
+    TRUNCATION of the curvature species (w-jet content only — VA4
+    found the species' additional exact algebraic w-tadpole
+    sin(theta) f_theta^2/((1+w)^3 f^2) = -(2/f) dL_C1/dw, dropped by
+    the declaration; W5 re-solves untruncated); truncated trust
+    domains (the 1%->5% cut moves omega^2_1 by 31-35% — scale
+    autonomy NOT established; seal treatment owns the notes,
+    registry-#1 species); frozen-f for the full-domain catalog
+    (VB4's trust-window test showed the full-domain coupled collapse
+    is a SEAL-MARGIN DOMAIN ARTIFACT — the coupled system marches
+    regularly on t <= t_5% domains). The angular discreteness gap
+    persists at this order; CONDITIONS-CHANGED triggers: the W5
+    untruncated solve; any q*-branch adjudication; any derived
+    angular stiffness.
