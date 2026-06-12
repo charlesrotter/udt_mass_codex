@@ -284,3 +284,39 @@ banked negative as blocking.
     the theta-dial REQUIRE RE-POSING on the w-completed fluctuation
     class. The "no theta-dial selector" reading is conditional on the
     frozen-delta-w premise.
+
+## W3 push (2026-06-12, w3_results.md; verifier-adjudicated, test-both)
+
+27. NO THETA-DIAL SELECTOR ON THE C1-ONLY BRANCH (W3, 54 real checks
+    + VW3 41 checks): the w-completed fluctuation problem does NOT
+    select within the h > h_c seal family — the family survives
+    unselected in every carried variant. PREMISES: C1-only off-shell
+    backgrounds; carried charts (frozen, V-w, V-s, V-q, V-wq-layer);
+    W_A; ell <= 3; 1%-trust spectra stand-in. The family does not
+    die. Chart-robust survivors of the completion: the Delta_w
+    interior turning surface (before shell and seal on every member,
+    axis subsonic to touchdown), the h_c-LOWERING direction (the
+    correction is a fixed-sign rank-one square on the connected
+    chart family), and the per-m exponent-species list. Everything
+    sign-level (h = 0 interior ringing; the forced-Dirichlet
+    coefficient) is CHART-CONDITIONAL, and VW3 established this is
+    STRUCTURAL (the tadpole obstruction made spectral; zero-crossing
+    of sigma_min at be* = 0.032, between the carried charts), not a
+    numerical artifact.
+    RESOLUTION OF #26's CAVEAT (verifier-graded, supersedes the
+    endpoint script's wording): S1's endpoint classification is
+    upheld VERBATIM on the C1 + D_cell branch (theorem-grade; the
+    entire W3 dressing vanishes identically there, tadpole
+    cancellation restores Hessian tensoriality, the chart ambiguity
+    itself dissolves). On C1-only it is upheld
+    carried-chart-conditionally: the forcing argument FAILS on the
+    chart band be/al^2 in [2,3], whose edge contains the
+    corpus-natural phi-root chart — no chart-invariant classification
+    exists on C1-only. The D_CELL FORK IS ELEVATED accordingly
+    (awaiting Charles): adopting D_cell = clean, S1/S2/theta-dial
+    verbatim, but shape stays non-dynamical (no ringing from shape);
+    rejecting it = every fluctuation conclusion stays
+    chart-conditional until the stiffness sector exists. Either way
+    the forced object's necessity is now visible at THREE levels:
+    statics (#21/#22), interfaces (W2 continuation failure), and
+    fluctuations (this entry).
