@@ -122,3 +122,41 @@ NOT a free constant. Compute it from the w6 mirror-fold crease BC
 (rho = b - f q a) + the formation flow weld data with the angular drive c on,
 sector by sector. This is a boundary/seal calculation (where the physics is),
 not an interior solve.
+
+## BLIND VERIFIER VERDICT (2026-06-13, independent main-loop pass, agent acc434a1722153e9d): TYPES CLAIM = NUMEROLOGY, REJECTED
+
+The section (i) TYPES claims ({3,5,7} = three generations; depths 5,7 =
+dim S5, dim L7) are NUMEROLOGY, NOT principled — REJECTED. Do not treat
+as a live candidate.
+- (a) The "7" is IMPORTED. The banked SO(3) content of End(H1) is
+  {1,3,5} only (traceless part is 8 = 3+5; no spin-3/dim-7 irrep
+  exists). The doc's "7" is the Hodge GRADE INDEX of *Lambda^2 =
+  Lambda^7 (whose DIMENSION is 36, not 7) — a grade index conflated
+  with an irrep dimension. "L7 (dim 7)" appears in NO banked file,
+  only in this doc. The third generation was invented, not found.
+- (b) The selection rule is convenient, not forced: a coincidence
+  classifier finds 5 of 24 equally-simple slicings of the dim-9 object
+  yield "three pieces"; the banked {trace, A3, S5} already gives three
+  natively with NO import. "Drop trace AND whole, import a 7" is two
+  exclusions + one import chosen to land on three. Not N-specific
+  (N+2(d-1) is an unbounded odd ladder; "three" is hand-stopped). The
+  legacy corpus's separate 2L+1=3 generation story is INCOMPATIBLE
+  with {3,5,7} — two inconsistent "why three" stories = a numerology
+  signature.
+- (c) The depths 5,7 were HARDCODED in the diagnostic lane since the
+  initial snapshot and frozen in contract 26fc757 via the
+  closure-constraint count n_close = N + 2(d-1) (N=3) — a CONSTRAINT
+  COUNT, not a sector dimension. "Depth = dim" merely re-labels the
+  same odd progression; no derivation that transfer depth equals irrep
+  dimension exists. Retrofit confirmed.
+WHAT STANDS (verifier-confirmed exact, claims 3-4): the masses still
+MISS the wall numbers at 0.5-few% with NO manufactured fit (registry
+falsification pressure stands; the kappa~-eta "seal attenuation" is a
+1-param-per-lepton fit, pointer-only, NOT banked); and the SOLID
+re-derivations (N=3 forced by C(N^2,2)=4N^2; q=1/3, eta=1/18, s=1/9;
+W(P)=Tr(P)/12; p_F=gamma/2; c*=0.498912 gamma^2; Delta_p_F 100%
+angular-sourced) are genuine. The one native discreteness remains N=3 /
+q=1/3 from the H1 area form. REAL NEXT OBJECT (unchanged): derive
+Delta_p_F (the per-type phi-angular seal charge-correction) from the
+w6 mirror-fold crease BC — a boundary/seal calculation, the only object
+between the proven results and the wall numbers.

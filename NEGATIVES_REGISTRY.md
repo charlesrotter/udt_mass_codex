@@ -663,3 +663,26 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     NOT generate a multiplicity of distinct types — any type-multiplicity
     must come from the boundary/topological sector or the whole-universe
     tiling, not the bulk interior.
+
+## Particles types-claim (2026-06-13, particles_types_results.md; blind-verifier rejected)
+
+35. "THREE GENERATIONS = {3,5,7} ODD SECTORS" AND "DEPTHS = SECTOR
+    DIMS" ARE NUMEROLOGY (rejected, blind verifier acc434a1722153e9d).
+    The dim-7 "third sector" is IMPORTED — banked End(H1) SO(3) content
+    is {1,3,5} only (8=3+5, no dim-7 irrep); the "7" is the Hodge grade
+    index of Lambda^7 (dimension 36, not 7), conflated with an irrep
+    dim; "L7 (dim 7)" exists only in the particles doc. Selection rule
+    not forced (5/24 simple slicings give "three"; banked {trace,A3,S5}
+    gives three natively); not N-specific (N+2(d-1) unbounded; "three"
+    hand-stopped); incompatible with the legacy 2L+1=3 generation story
+    (two inconsistent "why three" = numerology signature). Depths 5,7
+    were hardcoded since the initial snapshot / frozen via the
+    closure-count n_close=N+2(d-1), NOT sector dims — "depth=dim"
+    re-labels the same odd progression; no depth=dim derivation exists.
+    DOES NOT STAND as a result. WHAT STANDS (verifier-confirmed):
+    masses still miss the wall (no fit manufactured; kappa~-eta is a
+    1-param/lepton fit, pointer-only); the solid re-derivations (N=3,
+    q=1/3, eta=1/18, W(P)=Tr(P)/12, p_F=gamma/2, c*=0.498912 gamma^2,
+    Delta_p_F 100% angular-sourced) genuine; the one native discreteness
+    is N=3/q=1/3 from the H1 area form. NEXT: derive Delta_p_F per type
+    from the w6 mirror-fold crease BC (boundary/seal calc).
