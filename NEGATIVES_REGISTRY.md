@@ -222,6 +222,25 @@ banked negative as blocking.
     the native w-stiffness sector (now the program's forced object).
     The only T-bounded oscillatory sector: the attractive seal family
     h > h_c (the theta-dial). Same-minus upgraded premise -> theorem.
+    *** CONDITIONS-CHANGED 2026-06-13 (solution_space_map.md; ns_scan_*;
+    blind-verified a9cfcd85385bff920, ns_scan_verifier_results.md): the
+    clause "NO SECTOR PROPAGATES HYPERBOLICALLY IN T" and "cells do not
+    evolve" are REFUTED in the diagonal dilation-tie class. They rested on
+    a SINGLE SIGN ERROR in this negative's own verifier v_a3.py (~line 23:
+    +f_T^2/f^2, Euclidean/elliptic) vs the Lorentzian dilation-tie metric's
+    -f_T^2/f^2 (hyperbolic). Independently re-derived: principal part
+    (-,+,+) strictly hyperbolic; high-k discriminator shows the CORRECT
+    sign stays bounded while v_a3's sign blows up ~1e60 (the "Hadamard
+    ill-posedness" WAS the sign error); wave is physical (Ricci carries
+    phi_TT). These two clauses LOSE BLOCKING AUTHORITY until re-graded.
+    WHAT STILL STANDS (verifier-reproduced, NOT touched by the fix): the
+    FATE-POLYNOMIAL leg 2 f q v_h(f q v_r - v_h)^3 is f_T-free -> MOTION
+    NEVER SOURCES SHAPE (no nonstationary shaped MATTER); and the
+    off-diagonal Class-B Q-partition (R=fP+D2 v_T^2, correct sign already).
+    SECONDARY CAVEAT: the Class-B "0/6800 e_T never timelike" WORDING is
+    metric-definition-sensitive (~12.5% e_T-dominated; v_a3's own C-3b
+    already failed at 45%) -> the off-diagonal time row is the least-settled
+    record. Pending Charles for canon. ***
 
 ## W1 push negatives (2026-06-11/12, w_stiffness_results.md; all blind-verified)
 

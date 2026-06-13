@@ -73,6 +73,37 @@ founding intent directly — Prompt 2 already asserts redshift increasing
 asymptotically "as you approach the universe boundary." Recorded as
 provenance/consilience, not as evidence for either canon.
 
+## C-2026-06-13-1: The nonstationary diagonal sector propagates in T
+
+**Statement:** The whole metric, in its diagonal dilation-tie class
+(g_tt = -e^{-2phi}, g_rr = +e^{2phi}), is STRICTLY HYPERBOLIC in time:
+its own field equation has principal-part signature (-,+,+), with finite
+positive wave speeds c_r^2 = e^{-4phi}, c_theta^2 = e^{-2phi}/r^2. The
+metric PROPAGATES in T; it does not cell-collapse to an elliptic dead end.
+The wave is physical (the Ricci scalar carries real phi_TT / phi_T^2).
+
+**Forces (and what it does NOT force):**
+- The banked negative #22 ("no sector propagates hyperbolically in T;
+  cells do not evolve") is CONDITIONS-CHANGED on those clauses: they
+  rested on a single sign error (v_a3.py time-kinetic term +f_T^2/f^2,
+  Euclidean/elliptic, vs the Lorentzian -f_T^2/f^2). The original
+  "Hadamard ill-posedness" WAS the sign error (high-k discriminator:
+  corrected sign bounded; v_a3 sign blows up ~1e60).
+- It does NOT lift the no-shaped-matter conclusion: the fate polynomial
+  2 f q v_h (f q v_r - v_h)^3 is f_T-free, so MOTION NEVER SOURCES SHAPE.
+  The diagonal metric evolves but makes no nonstationary matter by itself.
+- It CONFIRMS the C-2026-06-10-3 redirect's bet that the live home of the
+  phi-angular interaction is the NONSTATIONARY sector, and it relocates
+  the program's open frontier to the OFF-DIAGONAL angular row (where the
+  centrifugal term is reported to flip attractive, where the gap test
+  needs the measure-weighted self-adjoint eigenproblem, and where the
+  "e_T never timelike" record is least settled).
+
+**Provenance:** solution_space_map.md (queue-head open-ended scan);
+ns_scan_results.md; blind verifier ns_scan_verifier_results.md
+(agent a9cfcd85385bff920), independent re-derivation + high-k test.
+Canonized by Charles 2026-06-13.
+
 ## Standing flag (Charles, 2026-06-10, appended)
 
 The Planck blackbody derivation in the macro/CMB work relies on
