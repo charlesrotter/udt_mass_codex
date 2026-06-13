@@ -475,3 +475,49 @@ only); the discreteness program's named suspect remains open. The
 overtone-ratio shape invariant (= the 2pi^2/(3G*) Gelfand-Bratu family)
 and the derived same-minus parity structure are the real, banked W7
 gains; the "native discreteness / gap closed" framing is RETRACTED.
+
+## W8 catalog solve (2026-06-13, w8_results.md; independent-verifier-adjudicated)
+
+31. STABILITY DOES NOT DISCRETIZE THE CELLS — CONTINUUM (the catalog
+    frame's naive form). Imposing all cell-defining conditions at once
+    (self-consistent formation-flow background, finite action, seal
+    closure, persistence, fixed q=1/3/eta=1/18/N=3, formation law) on
+    the W_wave-completed system leaves the stable self-consistent set
+    OPEN in (gamma, mult), both D_cell forks. The Misner-Sharp weld
+    charge p_F = gamma/2 is forced exactly by the weld data
+    (re-derived, verifier-confirmed); gamma is a FREE CONTINUOUS input;
+    so the catalog's mass RATIOS are the chosen gamma-grid, NOT a
+    metric-selected discrete set; the wall numbers are not predicted
+    (data-blind miss; tuning gamma would not be a prediction).
+    THE q*/MIRROR-FOLD "DISCRETIZER" LEAD IS WITHDRAWN as a BC artifact:
+    w8b_qstar.py imposed an arbitrary underived Robin (h=1) at the f->0
+    seal, NOT the same-minus fold BC. The genuine fold BC
+    (w7_a_mirror_bc.py 7/7) is a PARITY DICHOTOMY (Neumann/even,
+    Dirichlet/odd) at the D=0 crease (normal rho = b - f q a), and W7
+    already showed (B-4) the crease BC alone does NOT quantize — the
+    OUTER finite-cell wall does (= registry #1 box-control). The genuine
+    Neumann fold reproduces the "narrowing" exactly; the Dirichlet tower
+    is the equally-legitimate WIDE band. Registry #30's f-row w_thth
+    door gains NO support from W8-B; the mirror fold LABELS parity, it
+    does not discretize. PREMISES: frozen-f persistence on formation-flow
+    backgrounds (the named w8b_selfconsistent.py does NOT exist —
+    defect; trust-window coupled re-pose confirms the stable branch
+    SURVIVES f back-reaction at base cell, kappa in {-1,+kc}, single
+    cadence — not theorem-grade; kappa=-2 not executable even on trust
+    window); kappa swept underived; diagonal/Class-B constrained class
+    (#21). DEFECT: the negative-stable cell count omitted the energy
+    gate (59 invalid rows; recount before reuse). The catalog frame is
+    NOT refuted (whole-cell discreteness could live in a correctly-posed
+    fold/outer-wall quotient or the breather sector) but the
+    scan-for-isolated-stable-points FORM is exhausted.
+    PATTERN NOTE (fifth discreteness refusal of the
+    dynamical/spectral/stability family: box-control #1, open-cell
+    resonances, bands-not-lines #28, W7 symphony box-recolored, W8
+    continuum): the only NATIVE discreteness ever produced in the
+    program is the angular/topological counting (N=3, q=1/3 from the H1
+    area form) — a COUNTING/topological discreteness, not a dynamical
+    one. Reframe candidate (driver inference, Charles's call): the
+    catalog is discrete because cells are built from a discrete COUNT of
+    constituents/topological units (Charles's "families differ by
+    different numbers of constituents"), not because stable cells are
+    isolated in parameter space.
