@@ -165,21 +165,37 @@ family; p-fold twist => L(p,q) => finite p-family. Intrinsic chi=2/4pi
 transgression is sigma-EVEN/symmetric (sigma=time-reversal, time row
 only), dynamics-invisible because EXACT not by parity.
 
-1. NEXT — QUEUE HEAD (Charles, 2026-06-13): BROADLY SOLVE THE SOLUTION
-   SPACE OF THE WHOLE METRIC AGAIN, focused on ANALYZING UNEXPECTED
-   REGIONS — places where the metric is doing something NOT previously
-   documented (anomalies, surprises, transitions/structure we have not
-   catalogued). This is OPEN-ENDED EXPLORATION, not hypothesis-testing:
-   solve broadly across the whole metric's free data (both sectors,
-   interacting, nothing frozen/slaved/added), scan WIDE, and FLAG +
-   characterize whatever is unexpected. Deliverable = a MAP of the
-   solution space with the undocumented/anomalous regions identified
-   and described. Discipline (binding): do NOT retreat to the easy
-   interior (the evil-genie failure), do NOT match mass numbers, do NOT
-   invent; GPU available for broad sweeps. The overarching GOAL
-   (particles: formation/topology/properties) still stands — this
-   exploration serves it by finding where the metric does something we
-   have not seen.
+1. NEXT — QUEUE HEAD (Charles, 2026-06-13): BROADLY SOLVE THE WHOLE-
+   METRIC SOLUTION SPACE AGAIN, to FIND UNEXPECTED REGIONS — where the
+   metric does something NOT previously documented. Open-ended
+   exploration, not hypothesis-testing. Run it in THREE STEPS so
+   "unexpected" has meaning and the scan does not just re-document the
+   known:
+   (a) BASELINE FIRST — state plainly what IS already documented, so
+       departures are detectable: the trivial round interior; the
+       single-cell compactness continuum (#33/#34); the singular seal /
+       same-minus mirror fold; the cohomological area form / exact
+       transgression (#36); absolute scale-freedom (#32). That is the
+       "expected"; anything departing from it is a candidate.
+   (b) SCAN THE UNDER-EXPLORED AXES (NOT the static single-cell
+       interior — known trivial), where the unexpected most likely
+       lives: the NONSTATIONARY / time-dependent sector; MULTI-CELL /
+       ensemble configurations; the EXTERIOR / medium side; and
+       STRONG-FIELD / off-diagonal (shear, q-on) regimes. Both sectors
+       live, interacting, nothing frozen/slaved/added. GPU for the
+       broad sweeps.
+   (c) FLAG + VERIFY — flag regions where DOCUMENTED BEHAVIOR CHANGES
+       CHARACTER (a transition not in the registry, an invariant that
+       stops holding, structure that appears), and put EACH flagged
+       anomaly through a blind pass (real vs numerical artifact vs
+       already-documented) before banking. Deliverable = a MAP of the
+       solution space with the genuine undocumented/anomalous regions
+       identified and characterized.
+   Discipline (binding): do NOT retreat to the easy interior (the
+   evil-genie failure), do NOT match mass numbers, do NOT invent. The
+   overarching GOAL (particles: formation/topology/properties) still
+   stands — this serves it by finding where the metric does something
+   we have not seen.
    PARKED (Charles's call, 2026-06-13): the topology-classes /
    MATTER-CELL-CORE-CLOSURE thread. Registry #37 STANDS as a banked
    result (genus rigid; winding family fork-dependent on the core), but
