@@ -95,30 +95,32 @@ calculation (see Queue).
 
 ## Queue (ordered)
 
-ANSWERED 2026-06-13 (registry #32/#33, w_whole_results.md): does the
-WHOLE metric pin the critical configuration? SINGLE-CELL CLOSURE DOES
-NOT PIN — absolute size is scale-free (units, one observation, #32);
-the dimensionless compactness is a CONTINUUM, one universe per
-"partition energy" E (#33; the earlier Gelfand-Bratu single root was
-a FROZEN-LENGTH artifact — freeing the cell length turns the isolated
-fold into a curve). The bootstrap (a) is NOT delivered by closing a
-single cell. BUT the calculation REDIRECTED, convergently: discreteness
-must come from the whole finite universe being TILED by an INTEGER
-number of cells (L = T/N, N a whole number) — Charles's partition
-picture made precise, and the SAME integer/topological counting that
-is the program's only native discreteness (N=3 from the H1 area form).
+DETERMINACY ASIDE (registry #32/#33, w_whole_results.md): a
+single-cell whole-profile closure does NOT pin a unique universe —
+absolute size is scale-free (#32, units, one observation) and the
+single-cell compactness is a continuum (#33). NOTE: the
+"integer cell-tiling / whole-number-of-lumps" idea that briefly
+appeared as a redirect was a DRIVER OVER-REFRAME, NOT Charles's — it
+is STRUCK. Charles's picture is that the geometry forces the TYPES of
+lumps (what kinds of stable structures can exist), not a count of
+identical tiled lumps. The determinacy/pinning analysis itself was a
+DETOUR from the actual instruction below.
 
-1. THE INTEGER CELL-TILING / PARTITION-COUNT CONDITION (the redirect):
-   does the finite whole universe tile into an integer number N of
-   cells, discretizing the partition? Two derived prerequisites to
-   settle first: (a) does the metric's own field content SELECT the
-   "restoring" (ON, two-exponential) source that makes a closed cell,
-   vs the monotone vacuum that cannot close (the load-bearing physical
-   step of #33)? (b) is there a derived closure fixing the total
-   universe extent T, so that L = T/N quantizes? This is where the
-   one native discreteness (N=3, area-form integer) and Charles's
-   finite-energy partition meet — the sharp next object.
-2. Absolute scale stays one observational anchor; pursue the
-   dimensionless partition (ratios -> wall numbers, data-blind) once
-   the tiling count is derived.
+1. THE ACTUAL INSTRUCTION (what was skipped): COMPUTE THE SOLUTION
+   SPACE OF THE WHOLE METRIC WITH METRIC AND MATTER FULLY INTERACTING
+   (two-way, NEITHER FROZEN — it is NOT the metric on a fixed matter
+   background; it is how the metric and matter interact / back-react),
+   AND ANALYZE WHAT STRUCTURES FORM — specifically the TYPES of stable
+   lumps the geometry produces. Solve and LOOK; impose nothing. NOT:
+   determinacy/counting (the detour), a frozen background (the
+   shortcut), or any imposed discreteness mechanism (tiling/spectrum/
+   quantize). The interacting solve blows up across the seal on the
+   full domain but converges on the interior/trust window — do it
+   self-consistently there and catalog the structure-TYPES that
+   emerge, with their invariants (shape, angular q/N, Misner-Sharp
+   mass). Discreteness, if any, will be in the TYPES, not a count.
+   (Computation launched 2026-06-13, agent a13c35ccdf53eac8f.)
+2. If distinct types emerge with MS masses: their RATIOS are the
+   data-blind test vs the wall numbers (no tuning). Absolute scale
+   stays one observational anchor.
 3. Macro consilience roadmap (memory) once the frame is load-bearing.
