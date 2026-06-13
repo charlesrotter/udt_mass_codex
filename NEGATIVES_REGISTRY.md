@@ -386,3 +386,41 @@ W6 owns it.]
     convention-graded (Newton-basin 1.84 vs dynamic ~2.12 —
     member-independence is the robust invariant); OFF-branch
     evolution headlines |kappa| < 3 rescoped (energy-invalid rows).
+
+## W-ALG push (2026-06-12, w_alg_results.md; independent-verifier-adjudicated)
+
+30. THE SOLUTION SPACE IS ALGEBRAIC WHERE WE HAD MEASURED IT; the
+    discreteness candidate is now NON-TEMPLATE but its mechanism is
+    hypothesis-grade (W-ALG + VWALG agent a96bb99b1da5aaa54).
+    THEOREM-GRADE (independently re-derived): the W4/W5 "1.90-class"
+    selection ratio = 2 pi^2/(3 G*) = 1.87252511385... EXACTLY on the
+    flat f ~ 1/r member, G* = Gelfand-Bratu constant (s tanh s = 1);
+    member spread 1.89-1.90 = computable weight-non-flatness
+    correction; fold and gap share one Sturm-Liouville operator. The
+    derived per-ray wave sources are integrable as DERIVED (no
+    deformation): OFF = Liouville, ON = Tzitzeica/DBM (exponent pair
+    +1,-2 = the -2/f mismatch); WTC passes ON, obstructs off-slice to
+    -psi'^2 (ln K)''/K^2; transport obstruction beta = 2f/r a
+    point-invariant (no non-spherical vacuum background globally
+    integrable); f ~ 1/r the UNIQUE solvable scaling; dressed pencil
+    exactly Poschl-Teller (lambda=1), zero-mode 1 - X tanh X = the
+    fold. On the q* branch D|q* = r^2 W Delta_w^2/P^2; signal speeds
+    diverge as 1/D at Delta_w = 0; u*^2 = 1 - a^3 W/(a_u^2 r) is an
+    irregular characteristic surface; wall count = deg(Delta_w in u^2),
+    RISES with ell (2 -> 6 at ell=2). Delta_w now four-way
+    characterized (W3/W4/W5/W-ALG).
+    HYPOTHESIS-GRADE, REFUTED AS A MECHANISM (VWALG, do not upgrade):
+    "degenerate characteristic => insulating wall => discrete angular
+    cell count" is unsupported and sign-backwards (at Delta_w -> 0 the
+    flux coefficient g^{thth} = 1/D BLOWS UP, not vanishes; finite
+    energy gives a Neumann-like turning condition, NOT a decoupling
+    wall) and partly a q-elimination artifact (W5: L_qq ~ Delta_w^{-3};
+    unreduced 3-field EL finite there). The cell-partition reading is
+    the resonator-template risk in new clothes; it stays a labeled
+    hypothesis pending a W6 DYNAMICAL ANGULAR-FLUX TEST across a u*
+    latitude. PREMISES: flat C=0 member (ratio/wall-count exact there
+    only); q*-branch; frozen-f; u* real only in the outer band
+    r > a^3 W/a_u^2 (absent in the deep core). METHOD VERDICT banked:
+    exact-solvability is an established PATTERN; banked numerics are
+    search keys into closed-form space first (the integer insight),
+    numerics locate/validate rather than define constants.
