@@ -454,3 +454,24 @@ identity; exact finite-K VALUES member-numerical (C=0 ell=2 family, q*
 + generic q, constant & same-minus-stationary time rows); time-dependent
 physics hypothesis-grade. Two verifier passes consistent: edge ON the
 measure-zero fixed slice, fold in the full geometry.
+
+## W7 re-confirmation of #1 (2026-06-13, w7_results.md amendment; independent-verifier-adjudicated)
+
+#1 BOX-CONTROL — NOT lifted by W7; RE-CONFIRMED on the finite-mirrored-
+cell ensemble. W7 posed the coupled folded time-on ensemble (Poschl-
+Teller radial-phi spine + same-minus mirror crease BC + algebraic
+angular web + finite-cell outer Dirichlet) and SOLVED it; the spectrum
+is discrete but the discreteness is the OUTER BOX: omega_1 * L -> kL_1
+bounded in [pi/2, pi]; spacing -> 0 as 1/L when the outer wall recedes
+(continuum in the limit; only the single PT bound state, imaginary
+omega, survives) — independent verifier w7_verifier_boxsep.py +
+w7_verifier_bcprov.py, 17/17. The dressed PT + same-minus mirror add a
+depth-invariant OVERTONE RATIO (Gelfand-Bratu shape factor) and parity
+labeling ON TOP OF the box, but supply NO native absolute scale. The
+mirror BC LABELS (parity), the outer Dirichlet QUANTIZES. #1 STANDING,
+blocking authority intact for the absolute ladder. SCOPE: W7 does NOT
+realize the phi-angular DIFFERENTIAL hunch (angular enters algebraically
+only); the discreteness program's named suspect remains open. The
+overtone-ratio shape invariant (= the 2pi^2/(3G*) Gelfand-Bratu family)
+and the derived same-minus parity structure are the real, banked W7
+gains; the "native discreteness / gap closed" framing is RETRACTED.

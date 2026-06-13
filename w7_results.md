@@ -207,3 +207,53 @@ the outer finite-cell Dirichlet from canon (no spatial infinity). The
 closed-form PT spectrum and quantization conditions are THEOREM-GRADE
 on this member; the kappa-threshold and the discreteness verdict carry
 this premise set; full scale autonomy is OPEN (theta inherited).
+
+## VERIFIER AMENDMENT — DOWNGRADE (2026-06-13, independent main-loop pass)
+
+Independent blind verifier (agent a98f2e9f2d10e132e, own free-box-
+calibrated machinery, w7_verifier_boxsep.py 12/12 + w7_verifier_bcprov.py
+5/5; shared no machinery with the arm) — the branch-(i) headline
+("THE ENSEMBLE QUANTIZES INTO A DISCRETE CLOSED-FORM LADDER / gap
+addressed") is OVERCLAIMED and is DOWNGRADED. The arm's mathematics is
+correct and every sub-claim is independently confirmed (below), but the
+DISCRETENESS ITSELF is the outer finite-cell Dirichlet BOX (registry
+#1), not native discreteness from the ensemble.
+
+DECISIVE box-vs-mirror separation (holding theta = the inherited
+dressing length fixed, varying cell size L): omega_1 = kL_1/L -> 0 as
+exactly 1/L, with kL_1 BOUNDED in [pi/2, pi] (1.5957 -> 1.5723 at
+L = 64 -> 1024) — i.e. omega_1 * L ~ box constant: this IS registry #1
+("omega ~ 1/R_max", "omega1*Rmax ~ const") verbatim. Wall-off test
+(L -> infinity at fixed theta): the ladder spacing collapses as ~pi/L
+(1.745 at L=2 -> 0.0247 at L=128) -> CONTINUUM; only the single PT
+bound state survives (E0 = -theta^2, imaginary omega, not a propagating
+note). Outer wall Dirichlet<->Neumann moves eigenvalues drastically
+(the OUTER wall quantizes); the crease BC only swaps odd<->even towers
+(the mirror LABELS, it does not quantize). The ONLY depth-invariant is
+the overtone RATIO omega_2/omega_1 (the Gelfand-Bratu shape factor,
+2.04 -> 2.96 across s); NO L-independent absolute note exists.
+
+CONFIRMED verbatim (these stand): the dressed spine is exactly
+Poschl-Teller lambda=1 reflectionless, one bound state; the closed-form
+quantization conditions and the s*tanh s = Gelfand-Bratu connection
+(G* = 3.51383072); the mirror BC is genuinely DERIVED from the
+same-minus involution sigma:(a,b)->(-a,-b) (= time reversal on the
+stationary row; rho=(b-fqa) odd; parity dichotomy real, NOT a smuggled
+quantizing BC); the two arm-verifier bugs were scaffolding-only;
+W_wave FORCED-AS-REQUIRED (kappa=0 => no dressing => no notes); the
+fold + BC do NOT fix absolute kappa (saddle-node threshold + free dial;
+ratio kappa_s/kappa_c = 2pi^2/(3G*) exact).
+
+HONEST OBJECT (what W7 actually delivered): a finite-cell box spectrum
+(absolute omega ~ 1/L = registry #1 box-control) carrying (a) a
+depth-invariant Gelfand-Bratu OVERTONE RATIO (shape invariant) and
+(b) same-minus-derived PARITY labeling. Real and non-trivial; NOT
+native discreteness; the discreteness gap is NOT closed.
+
+SCOPE (Charles-relevant): the posed operator is 1D in z (radial-phi +
+time); the ANGULAR sector enters ALGEBRAICALLY (theta, L scalar
+parameter-suppliers), NOT as a phi-angular DIFFERENTIAL co-oscillator.
+Charles's named discreteness-gap suspect (the phi-angular interaction)
+is explicitly NOT the mechanism here; the orchestra that plays is
+phi-spine x finite-box-boundary, with the angular instrument not
+co-oscillating. The standing hunch remains OPEN and unrealized.
