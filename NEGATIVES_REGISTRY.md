@@ -768,3 +768,54 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     the transgression is EXACT, not by parity. NEXT: derive the
     matter-cell core closure (areal r at phi->-inf) — converts the
     winding-family hypothesis to a result = the particle-type count.
+
+## Off-diagonal angular row (2026-06-13, solution_space_map.md ->
+## offdiag_scan_results.md + offdiagII_results.md; blind-verified TWICE,
+## aabc972773b7bd025 [on-shell flip] + af4991092d3e7cc5b [final gate])
+
+38. THE STATIC SINGLE-CELL OFF-DIAGONAL ANGULAR CLASS IS INCOMPLETE
+    WHERE THE FLIP LIVES — a THIRD outcome, NOT a no-go and NOT a type.
+    The convergent off-diagonal frontier (solution_space_map.md), run as
+    the angular_completeness "full-PDE" calibration demanded (q=g_rtheta
+    and w=sphere-shape carried as the OFF-DIAGONAL fields, self-consistent
+    background, correct measure). RESULT in three blind-verified parts:
+    (a) TOOLING FIX (SOLID, banked): the self-adjoint measure is
+    M=r^2 sin(theta) BARE; the e^{-2phi} weights belong in the STIFFNESS
+    (K_r=e^{-4phi}, K_th=e^{-2phi}/r^2), NOT the measure — the prior
+    ~18000 spurious negatives (ext_scan/sf_scan) were a MEASURE
+    DOUBLE-COUNT. Generalized eigenproblem eigh(A,M) / Cholesky-of-M,
+    never symmetrized A·M^{-1}. (b) THE ATTRACTIVE CENTRIFUGAL FLIP IS
+    ON-SHELL REAL AND GENERIC (SOLID): with q slaved EXACTLY on the
+    metric's own EL and w=0 (which IS the static stationary point — L even
+    in w, L_ww=+16.18, joint 2D Newton -> w=0; the consistent (q,w) Schur
+    equals the q-only Schur, so the sign is INTRINSIC not a prescription
+    artifact), the on-shell K_th goes NEGATIVE on the radially-anisotropic
+    formed-cell wall (|phi_r|/|phi_th|~28x; even at pth=0/q*=0 the radial
+    gradient alone gives K_th~-5), strengthening toward and PAST the
+    seal/medium (phi 0.5 -> -2: K_th -0.78 -> -303; equator-peaked,
+    extended). This VINDICATES the angular_completeness flip on-shell and
+    REFUTED a primary "round only" claim whose decisive grid topped out at
+    |phi_r|/|phi_th|~3x and never entered the flip region. (c) THE FULL
+    OPERATOR IS UNBOUNDED BELOW THERE (SOLID, basis-independent): the
+    pointwise-negative leading 2nd-order coefficient makes a wrong-sign
+    (backward-heat) Laplacian; lam0 -> -inf under refinement in BOTH a
+    conforming continuous-P1 FEM AND a grid-free spectral sine-Galerkin
+    basis (the FD checkerboard was incidental), while the flip-off control
+    converges to finite +. So NO finite shaped type exists IN THE STATIC
+    SINGLE-CELL CLASS, and the truncation is INCOMPLETE exactly where the
+    physics turns on — the missing REGULARIZING term must live in the
+    w-shape / seal-area-form (#36) / nonstationary (CANON C-2026-06-13-1)
+    completion. PHYSICAL CONTENT: the metric's RADIAL gradient FORCES an
+    angular/boundary completion — Charles's phi-angular hunch made
+    RIGOROUS (the interaction is forced, not optional); the candidate
+    "metric function not yet uncovered" is the regularizer. PREMISES:
+    static, single cell, C1-only, q slaved on its own EL, w=0 (static
+    stationary), self-consistent formed background extended with the
+    off-diagonal q live, areal/canon-true scheme. REOPENING / NEXT GATE
+    (genuinely open): supply the seal-area-form/w/nonstationary
+    regularizer and test whether a FINITE shaped type exists once it is
+    in — the direct continuation into the boundary/seal sector. CONSEQUENCE
+    for angular_completeness #1/#2/#3/#5 (ell>=2 suspensions): they STAY
+    CONDITIONS-CHANGED — their q,w-on self-consistent calibration is
+    vindicated and, run honestly, the flip survives on-shell (but yields
+    incompleteness, not a static type). Pending Charles for canon.
