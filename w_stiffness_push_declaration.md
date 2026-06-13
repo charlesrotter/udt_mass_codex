@@ -317,3 +317,37 @@ then compare; NO tuning to the wall numbers. Mechanism stays open
 (do not pre-decide static/breather/algebraic/oscillatory). All
 kappa!=0 / time-dependent physics hypothesis-grade; verifier-before-
 record; classification not deformation.
+
+## W9 — THE GEOMETRIC SOLUTION SPACE (declared 2026-06-13, per Charles:
+## "it's been (b) for months; all the AIs have taken shortcuts")
+
+Charles's standing frame, finally executed without the shortcut. The
+metric is a GEOMETRIC OBJECT (tied to the dilation field); its solution
+space = the REGULAR, CLOSED, SELF-CONSISTENT geometries, with BOTH the
+radial-phi and the angular sectors as CO-EQUAL geometric unknowns.
+Discreteness, if present, is GEOMETRIC/TOPOLOGICAL CLOSURE (only certain
+configurations close smoothly) — the kind the H1 AREA FORM already
+produced for N=3 and q=1/3. ANALYZE, do not invent.
+THE SHORTCUTS THIS PUSH FORBIDS (the trained reflexes that produced
+every wall): (1) extremizing a chosen action (C1) instead of analyzing
+the metric's geometry; (2) slaving the angular sector to an algebraic
+root (q*) or a scanned parameter (w-shape) — both sectors must stay
+co-equal geometric unknowns; (3) adding ANY term (W_wave, stiffness,
+D_cell) — nothing is added; (4) reducing to an eigenvalue/mode-spectrum
+problem. The durable results (fold, Misner-Sharp mass, seal, the
+H1-area-form angular numbers) all came from geometric analysis; the
+failures all came from these shortcuts.
+THE ANALYSIS: characterize, by the metric's OWN geometry (curvature
+invariants/regularity, the dilation tie, closure = finite cell / seal /
+same-minus mirror fold, signature), which coupled radial-AND-angular
+geometries are admissible (regular + closed + self-consistent) = the
+candidate cells; compute their geometric/topological invariants
+(Misner-Sharp mass, areas, the angular counting); determine whether the
+admissible set is DISCRETE (geometric closure selects) or continuous.
+Curvature is the metric's OWN — usable as DIAGNOSTIC/geometry (allowed);
+adding it as an invented force is forbidden (the guardrail). Front-end:
+RECOVER the genuine geometric program from the record (negative_phi
+_native_geometry.md, the H1 area-form derivation, the geometric closure
+results) and mark where prior pushes shortcut into action/spectrum,
+BEFORE advancing — so the driver does not re-invent (b). All results
+hypothesis-grade; verifier-before-record; analyze-don't-invent binding.
