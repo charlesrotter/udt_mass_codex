@@ -1,5 +1,29 @@
 # HANDOFF — Resume Instructions and Perspective
 
+## THE GOAL — READ BEFORE ANYTHING ELSE (Charles, 2026-06-13)
+
+The goal is THE FORMATION, TOPOLOGY, AND PROPERTIES OF PARTICLES
+(particles = the closed cells). Deliver: what TYPES exist
+(families/generations), HOW they form, their PROPERTIES (angular
+numbers + MASSES, aimed at the lepton wall numbers). NOT "what a
+cavity looks like inside."
+
+RECURRING FAILURE MODE TO AVOID (Charles named it the "evil genie";
+the innocent version is "LLMs reach for the easiest response"): every
+push this session drifted to the TRACTABLE thing instead of the GOAL —
+the interior/bulk solve (DEAD END: smooths to one round type, #34),
+frozen backgrounds, the trust-window, determinacy/counting
+sub-questions, action-extremization, invented mechanisms (stiffness,
+integer-tiling, constituent-counting), and narration/reassurance.
+Do NOT. WHERE THE ANSWER LIVES: the BOUNDARY / TOPOLOGY / FORMATION
+sector — the H1 AREA FORM (which produced the only real discrete
+results, N=3, q=1/3, eta=1/18), the seal/closure, the mirror fold. The
+seal is hard/singular — that is WHERE THE PHYSICS IS, not a reason to
+retreat to the interior. Aim at the WHOLE goal; do not stop at a
+sub-result; do not invent; deliver the answer, not reassurance.
+(Full lesson: memory goal-particles-not-interior.)
+
+
 Rewritten 2026-06-13 at the critical-universe reframe. Supersedes the
 2026-06-12 W-series version (in git history; the W1-W8 blow-by-blow is
 in the results docs + NEGATIVES_REGISTRY, not repeated here).
@@ -106,21 +130,25 @@ lumps (what kinds of stable structures can exist), not a count of
 identical tiled lumps. The determinacy/pinning analysis itself was a
 DETOUR from the actual instruction below.
 
-1. THE ACTUAL INSTRUCTION (what was skipped): COMPUTE THE SOLUTION
-   SPACE OF THE WHOLE METRIC WITH METRIC AND MATTER FULLY INTERACTING
-   (two-way, NEITHER FROZEN — it is NOT the metric on a fixed matter
-   background; it is how the metric and matter interact / back-react),
-   AND ANALYZE WHAT STRUCTURES FORM — specifically the TYPES of stable
-   lumps the geometry produces. Solve and LOOK; impose nothing. NOT:
-   determinacy/counting (the detour), a frozen background (the
-   shortcut), or any imposed discreteness mechanism (tiling/spectrum/
-   quantize). The interacting solve blows up across the seal on the
-   full domain but converges on the interior/trust window — do it
-   self-consistently there and catalog the structure-TYPES that
-   emerge, with their invariants (shape, angular q/N, Misner-Sharp
-   mass). Discreteness, if any, will be in the TYPES, not a count.
-   (Computation launched 2026-06-13, agent a13c35ccdf53eac8f.)
-2. If distinct types emerge with MS masses: their RATIOS are the
-   data-blind test vs the wall numbers (no tuning). Absolute scale
-   stays one observational anchor.
+DONE 2026-06-13 (registry #34): the interacting-whole BULK INTERIOR
+solve (both sectors live, two-way) gives EXACTLY ONE TYPE — a round
+cell, a smooth continuum; the metric's angular operator is pure
+DAMPING (no bulk angular source). The interior is a DEAD END for
+types. Confirmed: the TYPES live at the BOUNDARY/TOPOLOGY, not the
+bulk.
+
+1. THE GOAL PUSH (queue head): THE PARTICLES — formation, topology,
+   properties — via the BOUNDARY/TOPOLOGICAL/FORMATION sector (NOT the
+   interior). Derive: (a) what TYPES of particles the topology admits
+   (the H1 AREA FORM that gave N=3/q=1/3 is the proven discreteness
+   template; the seal/closure/mirror-fold is the boundary); (b) how a
+   type FORMS (closure/condensation/threshold); (c) PROPERTIES — the
+   angular numbers extended + the MASSES, data-blind vs the wall
+   numbers (C_M1=0.977679087638, C_E1=1.93121474779,
+   ratio=1.97530536575). ASSEMBLE + EXTEND the banked spectrum-stage
+   machinery (particle_spectrum_native_geometry.md: End(H1)=1+3+5,
+   typed nodes, commutator selector, W(P)=Tr(P)/12) toward the
+   spectrum. Work the seal/boundary head-on; do not retreat to the
+   interior; do not stop at a sub-result.
+2. Absolute scale stays one observational anchor (#32).
 3. Macro consilience roadmap (memory) once the frame is load-bearing.
