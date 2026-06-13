@@ -619,3 +619,47 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     grade redirect: the partition axis now points at the cell-TILING
     closure (does the closed universe force an integer number of
     critical cells?), the sharp next object.
+
+## Interacting-whole structure types (2026-06-13, wint_results.md; blind-verifier-adjudicated ab889812658d33162)
+
+34. THE TWO-WAY INTERACTING METRIC+MATTER FORMS EXACTLY ONE TYPE — A
+    ROUND CELL, SMOOTH FAMILY IN E; NO DISTINCT SHAPED (ANGULAR) BULK
+    TYPE (first-class result; answers Charles's "what TYPES of lumps
+    form" for the BULK interior). Agent: INTERACTING-WHOLE (Opus 4.8).
+    Scripts wint_symcheck.py (3/3), wint_cell2d.py (6/6: radial anchor,
+    20/20 2D solves, refine-persistence, Jacobian-existence). Blind
+    verifier ab889812658d33162 CONFIRMED-WITH-AMENDMENTS (re-derived the
+    C1 EL from scratch; supplied the decisive existence argument; flagged
+    a coarse-grid axis artifact at strong seed amp — both amendments
+    folded in and re-run clean). METRIC-LED, HYPOTHESIS-GRADE.
+    THE FINDING: the metric's OWN field equation with BOTH sectors live
+    (radial = registry #33; angular = the e^{2phi}/r^2-dressed operator
+    phi_thth + cot th phi_th - phi_th^2, the derived phi-angular coupling,
+    NOTHING added) coupled two-way to its OWN derived ON two-exponential
+    matter source S=Phi(e^{-2v}-e^{v}), iterated to mutual
+    self-consistency, settles to a ROUND cell from EVERY angular seed
+    (Legendre l=1..4, amp up to 1.0 -> th_var ~ 1e-13..1e-16). The
+    round-cell Jacobian is NON-SINGULAR across the whole E-family
+    (min|eig| 0.015 -> 0.145, monotone, never 0): NO bifurcation -> NO
+    shaped bulk type can be born. The one type is a smooth continuum in
+    the partition energy E (X: 0.48 -> 0.99 toward the seal; L: 1.8 ->
+    1.2). NO discrete distinct types -> NO data-blind wall-ratio
+    comparison defined (consistent with #33: relates invariants to E,
+    does not pin a catalog). PREMISE SET: ON two-exponential source
+    (w_alg PART E); flow-chart Neumann-Neumann closure; INTERIOR/trust-
+    window scope (NOT closed to the seal f->0); BULK dynamical angular
+    sector (the TOPOLOGICAL/boundary angular structure q=1/3,N=3 from the
+    H1 area form is a DIFFERENT sector, NOT included here). BLOCKING
+    SCOPE: blocks "the bulk interacting interior produces distinct shaped
+    cell TYPES / an angular catalog." Does NOT block angular types living
+    in the BOUNDARY/topological sector at the seal (untested here — the
+    genuine open edge), nor the area-form discreteness (different sector).
+    CONDITIONS-CHANGED trigger: if the seal/boundary closure (not just the
+    trust window) is solved and re-introduces angular structure, or if the
+    area-form (q,N) enters as a boundary condition. CONSEQUENCE for the
+    frame: the geometry forces ONE bulk lump type (a round critical cell,
+    a smooth E-family); "the geometry forces the TYPES of lumps" holds in
+    the weak sense (one type is forced) but the BULK two-way interior does
+    NOT generate a multiplicity of distinct types — any type-multiplicity
+    must come from the boundary/topological sector or the whole-universe
+    tiling, not the bulk interior.

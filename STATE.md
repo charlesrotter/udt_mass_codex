@@ -32,6 +32,30 @@ configuration?). DRIVER NOTE: all prior AIs shortcut (action-instead-
 of-geometry, angular-slaving, pieces-not-whole, mechanism-invention);
 stop inventing, analyze the whole.
 
+INTERACTING-WHOLE SOLVE (2026-06-13, wint_results.md, registry #34;
+blind-verified ab889812658d33162). Charles's order — "compute the
+solution space of the WHOLE metric and analyse what structures form...
+the geometry forces the TYPES of lumps... two-way INTERACTING, neither
+frozen" — executed with BOTH sectors live (radial = #33; angular = the
+metric's OWN e^{2phi}/r^2-dressed operator phi_thth+cot th phi_th-
+phi_th^2, derived, nothing added) coupled two-way to the derived ON
+matter source S=Phi(e^{-2v}-e^{v}), iterated to self-consistency on the
+trust window. RESULT: the bulk interior forms EXACTLY ONE TYPE — a ROUND
+cell, a smooth continuum in the partition energy E (X 0.48->0.99, L
+1.8->1.2). EVERY angular seed (Legendre l=1..4, amp<=1.0) relaxes to
+round (th_var ~1e-15); the round-cell Jacobian is non-singular across
+the whole family (min|eig| 0.015->0.145, monotone) -> NO bifurcation ->
+NO distinct shaped bulk type. NO discrete catalog -> no data-blind wall
+comparison defined (consistent with #33). HONEST READING: the metric
+carries no BULK angular source (only damping operators), so the bulk
+two-way interior gives one round type; the program's angular discreteness
+(q=1/3,N=3) is TOPOLOGICAL/boundary (H1 area form) — a DIFFERENT sector
+the interior trust-window solve does not reach. THE OPEN EDGE: solve the
+seal/boundary closure (not just the trust window) and test whether the
+area-form/boundary sector re-introduces distinct angular types. "The
+geometry forces the TYPES" holds weakly (one bulk type is forced); any
+type-multiplicity lives in the boundary/topological sector, not the bulk.
+
 CHARLES'S CATALOG-FRAME REFRAME (CATALOG_FRAME.md; canon-candidate
 pending sign-off; charter-principle-3 level). A particle = one
 individual STABLE SOLUTION of the metric equations; DISCRETENESS = a
