@@ -7,6 +7,31 @@ number).
 
 ## FRAME REDIRECT (2026-06-13) — READ THIS FIRST, ABOVE EVERYTHING
 
+CHARLES'S CRITICAL-UNIVERSE FRAME (CRITICAL_UNIVERSE_FRAME.md;
+CONFIRMED 2026-06-13; canon-candidate; SUPERSEDES/DEEPENS the catalog
+frame below). THE METRIC IS PRIMARY and GENERATES the dilation field;
+the universe = the metric curving a FINITE mass-energy; MATTER EXISTS
+ONLY AT ONE CRITICAL AMOUNT of mass-energy (the curvature is exactly
+enough to hold structure; depart either way -> unformed energy). It is
+DIMENSIONFUL (critical-density / critical-compactness picture, Omega=1
+-like; the horizon condition c^2=2GM/r* is plausibly it). Bootstrap
+(a): one self-consistent universe ("it only closes one way").
+DISSOLVES discreteness (= partition of the critical finite energy, not
+a spectrum) and stiffness (matter holds because the universe is at the
+critical point, not via an added term); re-reads W8's continuum (free
+gamma = scale-freedom of a PIECE; physics is the partition of the
+WHOLE). OPEN checkable thread: one absolute universe vs a scale-family
+(does the WHOLE closed metric carry a ruler the pieces don't? — the
+determines-vs-relates question; 7.004 = ln(1+z_CMB), observational
+anchor or closure-derived?). METHOD: SOLVE THE WHOLE METRIC —
+unreduced, both phi and angular co-equal, ADD NOTHING, SLAVE NOTHING,
+do not extremize a chosen action as a substitute for geometry. The
+W1-W8 stiffness/spectrum/catalog work re-reads as PIECES; the next
+push is the whole-metric closure (does it pin the critical
+configuration?). DRIVER NOTE: all prior AIs shortcut (action-instead-
+of-geometry, angular-slaving, pieces-not-whole, mechanism-invention);
+stop inventing, analyze the whole.
+
 CHARLES'S CATALOG-FRAME REFRAME (CATALOG_FRAME.md; canon-candidate
 pending sign-off; charter-principle-3 level). A particle = one
 individual STABLE SOLUTION of the metric equations; DISCRETENESS = a
