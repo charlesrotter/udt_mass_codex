@@ -521,3 +521,37 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     constituents/topological units (Charles's "families differ by
     different numbers of constituents"), not because stable cells are
     isolated in parameter space.
+
+## Whole-metric pinning (2026-06-13, w_whole_results.md; verifier pending on Axis 2)
+
+32. THE WHOLE CLOSED METRIC: ABSOLUTE SIZE IS SCALE-FREE (theorem),
+    COMPACTNESS/PARTITION PLAUSIBLY DISCRETE (hypothesis — the
+    bootstrap lives here). First calculation of the critical-universe
+    frame (agent a5a4c7c001ca41275). AXIS 1 (absolute size) —
+    THEOREM-GRADE: under r->lr, M->lM, t->lt (c,G fixed) every closure/
+    regularity condition (center, MS/dilation tie, mirror-fold seal,
+    Dirichlet+Neumann boundary, finite action, scalar EOM) is
+    rescale-invariant; absolute size is a provably FREE one-parameter
+    family; absolute scale = one observational input; the horizon
+    c^2=2GM/r* relates M,r* and fixes neither. So Charles's literal
+    "one absolute mass" is NOT delivered by c-and-G closure (the
+    kilograms are units, not the fixed thing). AXIS 2 (dimensionless
+    compactness X=2GM/c^2 r*) — HYPOTHESIS-GRADE: X is set by the
+    whole-profile closure, which is OVER-DETERMINED (outer Dirichlet +
+    Neumann + inner regularity on the nonlinear profile) = a NONLINEAR
+    EIGENVALUE problem, generically DISCRETE; on the one solvable
+    member (f~1/r) the closure is exactly the Gelfand-Bratu fold
+    s tanh s = 1 (single isolated root) — so the dimensionless
+    structure (hence the wall RATIOS) is plausibly pinned to a
+    discrete set while absolute size stays free. NOT mode-spectrum/
+    box-control (it is the over-determined nonlinear WHOLE-profile
+    closure, a fold). CAVEAT: flat-member-only; the GENERAL-MEMBER
+    eigenvalue count (discrete set vs curve leaving X free) is
+    NUMERICAL, UNRUN — the actual determines-vs-relates resolution.
+    7.004 = ln(1+z_CMB) is FREE (observational anchor) at the size
+    level unless Axis-2 forces X. CONSEQUENCE: the bootstrap (a)
+    migrates from absolute mass to the compactness/partition axis and
+    is ALIVE there; the discreteness mechanism is the over-determined
+    whole closure (a nonlinear eigenvalue), not a spectrum or an added
+    term. NEXT: the general-member compactness eigenvalue count
+    (verifier-grade).
