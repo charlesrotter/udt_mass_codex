@@ -154,21 +154,27 @@ into a trivial round dynamical body + a non-trivial TOPOLOGICAL
 2-form at the seal, and ALL real structure (the discreteness, the
 numbers that worked) is in the topological part.
 
-1. THE GOAL PUSH (queue head, now TOPOLOGICAL not dynamical): derive
-   the PARTICLE TYPES from the COHOMOLOGY OF THE CLOSURE — what the
-   area form omega_H1 (integral 4pi), the exact boundary transgression
-   d[(ln f)omega_H1], and the seal's odd-parity crease sector encode
-   about distinct types. This is purely topological/cohomological work
-   on the closure — NOT dynamics, NOT a mode spectrum, NOT
-   mass-matching, NOT integer-hunting (the {3,5,7} numerology was
-   rejected #35). FIRST: the dedicated TOPOLOGY VERIFIER on the #36
-   D3 reading — does the area-form transgression glue antisymmetrically
-   across D=0 under the actual same-minus junction (vs the orientation
-   argument used)? Then: assemble the cohomological closure structure
-   (the area form + transgression + parity sectors) toward what
-   distinguishes types. Properties/masses come AFTER the type-structure
-   is topologically derived; the seal charge-correction Delta_p_F
-   (per type, from the mirror-fold crease BC) is the bridge to numbers,
-   data-blind, LAST.
+TOPOLOGY DERIVED 2026-06-13 (registry #37, topo_results.md,
+blind-verified): GENUS rigid g=0 (axis regularity => two poles =>
+chi=2 => sphere; NO genus family). A WINDING/Chern FAMILY of particle
+types is genuinely possible, FORK-DEPENDENT on ONE OPEN DERIVABLE FACT
+— the matter-cell CORE closure: core areal r->0 => S^3 => ONE rigid
+type (no family); finite second seal => S^2xS^1 (H^2=Z) => INTEGER
+family; p-fold twist => L(p,q) => finite p-family. Intrinsic chi=2/4pi
+(N=3, q=1/3) survives every branch. #36's D3 reading CORRECTED: the
+transgression is sigma-EVEN/symmetric (sigma=time-reversal, time row
+only), dynamics-invisible because EXACT not by parity.
+
+1. THE GOAL PUSH (queue head): DERIVE THE MATTER-CELL CORE CLOSURE —
+   the areal radius at the phi->-infinity core, from the metric's own
+   radial profile. This single radial-endpoint calc DECIDES the
+   particle-type count: r->0 => S^3 => one rigid topology, NO family;
+   finite r => S^2xS^1 => discrete INTEGER family of types; p-twist =>
+   L(p,q) => finite p-family. Canon pins the UNIVERSE cell core
+   (->S^3) but leaves the MATTER (particle) cell core OPEN — that is
+   the object. Topology only; DERIVE the radial endpoint, do NOT
+   assert a count. Also pending: 2nd blind verifier on the #37
+   doubling fork. Properties/masses come AFTER the type-structure is
+   fixed (Delta_p_F from the crease BC, data-blind, LAST).
 2. Absolute scale stays one observational anchor (#32).
 3. Macro consilience roadmap (memory) once the frame is load-bearing.
