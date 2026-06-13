@@ -819,3 +819,50 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     CONDITIONS-CHANGED — their q,w-on self-consistent calibration is
     vindicated and, run honestly, the flip survives on-shell (but yields
     incompleteness, not a static type). Pending Charles for canon.
+
+## Off-diagonal completion gate (2026-06-13, offdiagIII_results.md;
+## blind-verified vf-odiii-9f3c1a47) — #38 RESOLVED
+
+38-cont. THE METRIC SUPPLIES NO NATIVE TERM TO BOUND #38'S OPERATOR; THE
+    OFF-DIAGONAL FLIP REGION IS THE CELL'S MEDIUM-EDGE, NOT A TYPE LOCUS.
+    The completion gate asked (anti-invention, principle 1): does the
+    metric's OWN action contain a term the static single-cell C1 truncation
+    DROPPED that bounds the wrong-sign angular operator of #38? VERDICT
+    (CONFIRMED, blind-verified, with a kill-shot-D scope correction): NO,
+    on four independent derived grounds.
+    (A) ACTION ORDER. The UDT action is dilation-kinetic S_phi alone
+    (first-order in field gradients; the metric IS phi, B=1/A makes Einstein
+    tautological), so the EL is at most 2nd-order — no native higher-
+    derivative (bounding) term. The verifier built sqrt(-g)R from scratch
+    and pressed the FORBIDDEN EH import anyway: the EH-remainder gives delta-w
+    only a RADIAL stiffness (coeff[d^2_theta]=0) and delta-q a purely
+    algebraic EL — ZERO angular structure on either field. Even the
+    forbidden import cannot bound a wrong-sign ANGULAR operator. THIS ALSO
+    CLOSES THE W1 #21/#23-25 EH-REMAINDER / "forced w-stiffness species"
+    REOPENING ROUTE IN THE NEGATIVE (no native angular stiffness exists).
+    (B) AXIAL/THIRD-COMPONENT. The full axial triple (g_tphi,g_rphi,g_thphi)
+    and both "w" fields (sphere-shape g_thth AND time-theta g_ttheta) are
+    PURELY ALGEBRAIC at every order — part of the CAUSE of the flip, not a
+    cure. (C) SEAL AREA-FORM #36. EXACT transgression => Stokes => zero bulk
+    EL; a maximal Dirichlet boundary leaves lam0->-inf (bit-identical); even
+    a non-simply-connected (winding) omega_H1 is a GLOBAL INTEGER datum, not
+    a local operator — cannot change K_theta. A boundary term cannot bound a
+    BULK wrong-sign Laplacian. (D) NONSTATIONARY HANDOFF = RELOCATION, NOT
+    CURE (verifier correction): the nonstationary whole (C-2026-06-13-1) adds
+    a 2nd-TIME-derivative but NO spatial regularizer; with K_theta<0 the
+    angular wave speed^2 = K_theta < 0 => omega^2<0 => Hadamard-ill-posed
+    angular Cauchy, growth ~sqrt|K_theta|*k_theta -> inf. The pathology
+    relocates.
+    INTERPRETIVE RESULT (the honest reading): K_theta strengthens
+    MONOTONICALLY toward the seal (-0.78 -> -303), so the off-diagonal flip
+    region is most plausibly THE CELL'S MEDIUM-EDGE — where the cell ENDS
+    into the medium (consistent with the finite-cell canon C-2026-06-10-2) —
+    NOT a particle-type locus. The metric's radial gradient driving K_theta
+    negative toward the seal is plausibly HOW THE CELL TERMINATES, not a new
+    structure. PREMISES: static + nonstationary single cell; C1 action (EH
+    import tested and forbidden); all off-diagonal components carried.
+    ONLY REMAINING off-diagonal type-route: the closed-cell CORE closure
+    (#37, the phi->-inf core areal radius / winding topology) must supply
+    genuinely NEW structure — otherwise the medium-edge reading stands. That
+    route is PARKED (Charles, 2026-06-13: likely-wrong rabbit hole; do not
+    pursue without his go). Pending Charles for canon.
