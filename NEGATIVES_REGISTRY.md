@@ -686,3 +686,42 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     Delta_p_F 100% angular-sourced) genuine; the one native discreteness
     is N=3/q=1/3 from the H1 area form. NEXT: derive Delta_p_F per type
     from the w6 mirror-fold crease BC (boundary/seal calc).
+
+## Whole closed-cell structure (2026-06-13, wcc_results.md; blind-verified a035deeb280d8bbf9)
+
+36. THE CLOSED CELL'S STRUCTURE IS TOPOLOGICAL (COHOMOLOGICAL), NOT
+    DYNAMICAL. The whole closed cell solved as one BVP — interior +
+    seal MIRROR-FOLD closure, both sectors live, two-way — supports
+    NO dynamical angular structure: ONE ROUND type even when closed.
+    The angular nonlinearity -v_theta^2 linearizes to EXACTLY ZERO
+    about the round background => sign-definite pure damping; the
+    self-adjoint angular bifurcation gap is positive and bounded away
+    from zero under EVERY seal closure (bulk / sigma-even-Neumann /
+    sigma-odd-Dirichlet; min ~0.65 over the E-family, grid-stable,
+    positive even at the horizon X->0.99); no lobed seed persists. The
+    seal closure CANNOT soften the damping. This closes wint's open
+    edge (#34) in the negative for the DYNAMICAL sector.
+    WHERE THE STRUCTURE ACTUALLY LIVES (exact, sympy 6/6): the H1 area
+    form omega_H1 is a COHOMOLOGICAL, not dynamical, datum —
+    integral(omega_H1) = 4 pi (topological invariant); d ln f ^
+    omega_H1 = d[(ln f) omega_H1] is an EXACT BOUNDARY TRANSGRESSION,
+    invisible to the bulk EL, delivered AT THE CLOSURE. THIS IS WHY
+    q=1/3, N=3 (the area-form discreteness) are REAL yet never appear
+    in any dynamical spectrum — cohomology vs eigenvalues, different
+    objects. Resolves the decade-long "the dynamical discreteness hunt
+    keeps failing but N=3 is real" puzzle.
+    CONSEQUENCE (reframes the program): the discreteness/structure of
+    particles is TOPOLOGICAL — the closure's cohomology / area form —
+    definitively NOT a dynamical mode spectrum. Every dynamical/
+    spectral discreteness attempt (#1 box-control, #28 bands-not-lines,
+    W7, W8, #34) was looking in the wrong sector. The next work is
+    TOPOLOGICAL: the cohomology of the closure (what the area form /
+    the transgression / the odd-parity crease sector encode about
+    particle types), NOT dynamics, NOT mass-matching.
+    HYPOTHESIS-GRADE / needs a dedicated topology verifier: the D3
+    reading (the transgression carried specifically by the
+    sigma-odd/Dirichlet crease sector) is a geometric orientation
+    argument, not a full same-minus junction computation across D=0.
+    PREMISES: ON two-exponential source (w_alg PART E, load-bearing);
+    the spectral test is linear (finite-amplitude folds not excluded
+    by theorem, none found by continuation); D3 orientation reading.
