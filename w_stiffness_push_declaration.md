@@ -237,3 +237,43 @@ the dynamical delta-q channel (c[q_TT] != 0).
 Hypothesis discipline: LINES is the hoped outcome — failure criteria
 pre-stated in every script; verifiers aimed hardest at any
 quantization claim. All kappa != 0 physics hypothesis-grade.
+
+## W7 — THE SYMPHONY (the ensemble solve in the fold quotient)
+## (declared 2026-06-13, per Charles: return to the algebraic/
+## solution-space mode + "look for the symphony of instruments")
+
+Mode: UNCOVER + SOLVE (algebraic/solution-space), NOT geometric
+layering, NOT importing. Governing architecture: the ORCHESTRA
+(charter principle 5 — mass emergence is a composition of sectors
+playing together, invisible probed alone). The discreteness question
+(bands -> lines) is re-posed as: does SOLVING the COUPLED, FOLDED,
+TIME-ON system yield a discrete spectrum from the COMPOSITION of
+sectors that no single sector shows?
+What W-ALG left unharvested (carry forward, as DERIVED — classification
+not deformation): the dressed mode pencil is EXACTLY Poschl-Teller
+(lambda=1, reflectionless) => the spectrum is CLOSED-FORM (extract it,
+do not just classify); the OFF/ON per-ray sources are Liouville /
+Tzitzeica with known general solutions (write them down); the
+Gelfand-Bratu fold identity; the angular sector closes algebraically
+(q*, w algebraic; radial phi + time the only differential spine).
+The new domain (handed us by W6): the FOLD QUOTIENT with the TIME ROW
+ON — the regular nonstationary geometry (det g4|_{D=0} =
+-(r sin)^2 (b-fqa)^2/[f(1+w)^2] != 0; D=0 the same-minus mirror
+crease), NOT the static slice that misled the edge reading. Re-pose
+the exactly-solvable structures THERE; the mirror closure supplies the
+boundary condition that couples the sectors.
+THE SYMPHONY TEST: solve the ensemble (radial phi spine + algebraic
+angular web + fold/mirror boundary + time row); look for a discrete
+spectrum / closed-form notes emerging from the cross-sector
+composition. Pre-registered grading: (i) discrete spectrum from the
+ensemble => the orchestra realized, the discreteness gap addressed
+without a resonator (program-confirming — aim hardest skepticism here,
+earn it by closed form + verifier); (ii) continuum / box-controlled
+=> the ensemble does not quantize at this order (first-class negative,
+premise-scoped); (iii) the solve DETERMINES kappa or forces/refutes
+W_wave (settles the watched import thread by derivation, not
+assumption — clean either way).
+Discipline: classification never deformation; the integer insight
+(digits are search keys; prefer closed forms/identities); all
+kappa != 0 / time-dependent physics hypothesis-grade until derived;
+verifier-before-record; pre-state failure criteria.
