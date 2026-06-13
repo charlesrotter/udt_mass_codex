@@ -725,3 +725,27 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     PREMISES: ON two-exponential source (w_alg PART E, load-bearing);
     the spectral test is linear (finite-amplitude folds not excluded
     by theorem, none found by continuation); D3 orientation reading.
+
+## Topology classes of the closure (2026-06-13, topo_results.md; blind-verified ab449c89, 2nd verifier pending on the doubling fork)
+
+37. WHICH TOPOLOGIES THE CLOSURE ADMITS. GENUS: rigid g=0 (sphere) —
+    axis regularity => two index-+1 poles => chi=2 => g=0 uniquely; NO
+    genus family (SOLID). WINDING/CHERN: a family is POSSIBLE and is
+    FORK-DEPENDENT on the matter-cell CORE closure (finite action does
+    NOT cut winding; chi=0 for all closed orientable 3-mfds cannot
+    decide): core caps r->0 => S^3 (H^2=0) => ONE rigid class; finite
+    second seal => S^2xS^1 (H^2=Z) => integer (Chern) FAMILY of types;
+    p-fold twist => L(p,q) (H^2=Z/p) => finite p-family. The intrinsic
+    chi=2/4pi class (Euler class; where N=3,q=1/3 live) survives every
+    branch. ANSWER to "families of topologies?": genus family excluded;
+    a winding family is genuinely possible (Z or Z/p tower, DERIVED not
+    hand-picked) and HINGES ON ONE OPEN DERIVABLE FACT — the
+    matter-cell core areal radius (r->0 vs finite vs twist). HYP-GRADE
+    (the core closure is underived). CORRECTION TO #36 (verifier-
+    confirmed): the area-form transgression is sigma-EVEN and glues
+    SYMMETRICALLY (sigma=time-reversal touches only the time row; r,
+    theta, phi, f, omega_H1 all sigma-invariant) — NOT the sigma-odd/
+    Dirichlet reading #36 used; topology is dynamics-invisible because
+    the transgression is EXACT, not by parity. NEXT: derive the
+    matter-cell core closure (areal r at phi->-inf) — converts the
+    winding-family hypothesis to a result = the particle-type count.
