@@ -424,3 +424,33 @@ W6 owns it.]
     exact-solvability is an established PATTERN; banked numerics are
     search keys into closed-form space first (the integer insight),
     numerics locate/validate rather than define constants.
+
+## W6 RE-AMENDMENT of #30 (2026-06-13, w6_results.md; independent-verifier-adjudicated)
+
+#30 RE-AMENDED (the Delta_w surface — fold, not edge). The W6 flux
+test settled the character of D=0 (D = r^2 W - f q^2). Verdict:
+MIRROR FOLD, not a curvature-singularity edge (overturns the Phase-0
+static-slice reading; CANON-consistent, C-2026-06-10-2 finite mirrored
+cells). DECISIVE EXACT IDENTITY (class-general, independent verifier
+agent a091cecbdfdb2c1ef, own Schwarzschild-validated engine): with the
+time row on, det g4 = -(r sin)^2/[f(1+w)^2] [ f D (1+a^2) + (b-fqa)^2 ],
+so on D=0, det g4 = -(r sin)^2 (b-fqa)^2/[f(1+w)^2] != 0 — the static
+(a=b=0) degeneracy LIFTS for any (a,b) with b != f q a. D=0 is exactly
+the fixed-point set of the same-minus involution (a,b)->(-a,-b)
+(Charles's "frame-symmetric, no observer" crease). Curvature: a=b=0
+control K ~ D^{-4} diverges; every nonzero (a,b) and the same-minus
+stationary row (a*~f_T, b*=(f_theta/f_r)a*) give K FINITE
+(member-numerical); the divergence is controlled by (b-fqa)^2 ∝ f_T,
+nonzero off the static slice. Geodesics cross D=0 smoothly with the
+time row on (signature preserved both sides; Christoffels finite) = a
+FOLD; the static slice's Gamma~1/D edge is the measure-zero crease.
+CONSEQUENCE: the "edge => discreteness closed" reading does NOT
+survive; the arm's insulating-WALL negative still stands (no interior
+flux wall in a valid region), but cell-count discreteness REOPENS in
+the quotient/mirror structure of the fold, driven by f_T — i.e. on the
+NONSTATIONARY phi-angular sector (CANON C-2026-06-10-3), the orchestra
+frame. PREMISES: verdict class-general via the exact determinant
+identity; exact finite-K VALUES member-numerical (C=0 ell=2 family, q*
++ generic q, constant & same-minus-stationary time rows); time-dependent
+physics hypothesis-grade. Two verifier passes consistent: edge ON the
+measure-zero fixed slice, fold in the full geometry.
