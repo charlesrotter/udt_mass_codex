@@ -137,18 +137,38 @@ DAMPING (no bulk angular source). The interior is a DEAD END for
 types. Confirmed: the TYPES live at the BOUNDARY/TOPOLOGY, not the
 bulk.
 
-1. THE GOAL PUSH (queue head): THE PARTICLES — formation, topology,
-   properties — via the BOUNDARY/TOPOLOGICAL/FORMATION sector (NOT the
-   interior). Derive: (a) what TYPES of particles the topology admits
-   (the H1 AREA FORM that gave N=3/q=1/3 is the proven discreteness
-   template; the seal/closure/mirror-fold is the boundary); (b) how a
-   type FORMS (closure/condensation/threshold); (c) PROPERTIES — the
-   angular numbers extended + the MASSES, data-blind vs the wall
-   numbers (C_M1=0.977679087638, C_E1=1.93121474779,
-   ratio=1.97530536575). ASSEMBLE + EXTEND the banked spectrum-stage
-   machinery (particle_spectrum_native_geometry.md: End(H1)=1+3+5,
-   typed nodes, commutator selector, W(P)=Tr(P)/12) toward the
-   spectrum. Work the seal/boundary head-on; do not retreat to the
-   interior; do not stop at a sub-result.
+STRUCTURE SOLVED 2026-06-13 (registry #36, wcc_results.md,
+blind-verified): the WHOLE closed cell (interior + seal mirror-fold
+closure, both sectors, two-way, solved as one BVP — finally NOT
+truncated at the interior) supports NO dynamical angular structure —
+ONE ROUND body even closed (the angular nonlinearity -v_theta^2
+linearizes to EXACTLY ZERO about round => sign-definite pure damping;
+angular gap positive under every seal closure). THE STRUCTURE IS
+COHOMOLOGICAL, NOT DYNAMICAL: the H1 area form is topological
+(integral = 4pi; an EXACT boundary transgression d[(ln f)omega_H1]
+delivered at the closure, invisible to the bulk EL). This is WHY
+q=1/3 and N=3 are real yet NEVER appear in any dynamical spectrum
+(cohomology vs eigenvalues) — and why every spectral discreteness
+hunt (#1/#28/W7/W8/#34) failed: wrong sector. The geometry splits
+into a trivial round dynamical body + a non-trivial TOPOLOGICAL
+2-form at the seal, and ALL real structure (the discreteness, the
+numbers that worked) is in the topological part.
+
+1. THE GOAL PUSH (queue head, now TOPOLOGICAL not dynamical): derive
+   the PARTICLE TYPES from the COHOMOLOGY OF THE CLOSURE — what the
+   area form omega_H1 (integral 4pi), the exact boundary transgression
+   d[(ln f)omega_H1], and the seal's odd-parity crease sector encode
+   about distinct types. This is purely topological/cohomological work
+   on the closure — NOT dynamics, NOT a mode spectrum, NOT
+   mass-matching, NOT integer-hunting (the {3,5,7} numerology was
+   rejected #35). FIRST: the dedicated TOPOLOGY VERIFIER on the #36
+   D3 reading — does the area-form transgression glue antisymmetrically
+   across D=0 under the actual same-minus junction (vs the orientation
+   argument used)? Then: assemble the cohomological closure structure
+   (the area form + transgression + parity sectors) toward what
+   distinguishes types. Properties/masses come AFTER the type-structure
+   is topologically derived; the seal charge-correction Delta_p_F
+   (per type, from the mirror-fold crease BC) is the bridge to numbers,
+   data-blind, LAST.
 2. Absolute scale stays one observational anchor (#32).
 3. Macro consilience roadmap (memory) once the frame is load-bearing.
