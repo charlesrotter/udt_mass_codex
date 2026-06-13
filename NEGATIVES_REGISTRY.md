@@ -555,3 +555,67 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     whole closure (a nonlinear eigenvalue), not a spectrum or an added
     term. NEXT: the general-member compactness eigenvalue count
     (verifier-grade).
+
+## General-member compactness (2026-06-13, w_whole_results.md amendment; blind-verifier-adjudicated ab72b577c0c705d75)
+
+33. AXIS-2 RESOLVED — THE SINGLE-CELL WHOLE-PROFILE CLOSURE IS A
+    CONTINUUM IN X, NOT DISCRETE (first-class NEGATIVE; resolves the
+    #32 Axis-2 hypothesis against the program-confirming outcome).
+    Agent: GENERAL-MEMBER COMPACTNESS (Opus 4.8). Scripts
+    w_whole_gm_derive.py (2/2), w_whole_gm_scan.py (6/6),
+    w_whole_gm_hostile.py (8/8); logs /tmp/w_whole_gm_*.log. The
+    whole-profile ODE is the metric's own static scalar equation
+    Box phi = (1/r^2) d/dr(r^2 e^{-2phi} phi')=0 (2nd order); the full
+    derived closure is center regularity phi'(0)=0 + outer Dirichlet
+    phi(r*)=phi_* + outer Neumann phi'(r*)=0 (CR-87 pair); net
+    over-determination +1 (correct, as #32 said). BUT +1 over a system
+    with a conserved first integral yields a 1-PARAMETER CURVE, not a
+    discrete set. The metric's geometry collapses general members to
+    the ON two-exponential whole-profile equation
+    v_mm = Phi(e^{-2v}-e^{v}) (w_alg PART E, exact elliptic), first
+    integral (1/2)v_m^2+(Phi/2)e^{-2v}+Phi e^{v}=E, a restoring well
+    (U_min=3Phi/2 at v=0). Every bounded orbit (E>U_min) has TWO
+    turning points (v_m=0) AUTOMATICALLY -> the inner-regularity and
+    outer-Neumann nodes impose NOTHING; the only non-automatic
+    condition is the Dirichlet depth, a CONTINUOUS BIJECTION depth<->E.
+    So a CONTINUUM of compactness X (one per E) closes; X is NOT pinned.
+    Cell width L(E) and boundary depth v_max(E) are smooth strictly-
+    monotone (desingularized split-panel quadrature; small-amplitude
+    endpoint L->pi/sqrt(3Phi) confirmed). Convergence: L(E=3,Phi=1)=
+    1.67427938129 stable to <1e-15 under quadrature-degree doubling and
+    reproduced to 9 digits by an independent RK4 IVP (cross-method).
+    The OFF/vacuum single-exponential member e^{-2v} is MONOTONE ->
+    no second Neumann node -> Neumann-Neumann closure EMPTY (the closed
+    cell requires the ON restoring source; the metric tells us so).
+    RECONCILIATION of the #32 flat-member single Gelfand-Bratu root
+    (s tanh s=1): that was DIRICHLET-DIRICHLET at an EXTERNALLY-FROZEN
+    cell length M; freeing M (which IS the compactness in the whole
+    closure) turns the isolated fold into a continuous (M,s) curve
+    (verified). The single root was a frozen-length artifact, not a
+    pin. BLIND VERIFIER ab72b577c0c705d75: CONFIRMED A/B/C/D with
+    independent machinery, including the dangerous center r=0 attack
+    (r=0 IS the inner turning point, forced by regularity -> stays +1,
+    no hidden +2; chart denominator does NOT diverge, turning points at
+    finite m by independent RK4 IVP). PREMISE SET: (c,G) classical
+    closure; single closed cell; both sectors at the derived ON
+    two-exponential whole-profile equation; angular numbers q=1/3,N=3
+    held; mirror-fold parity center; CR-87 Dirichlet+Neumann pair.
+    BLOCKING SCOPE: blocks "the (c,G) single-cell whole-profile closure
+    pins the dimensionless compactness / wall ratios." Does NOT block
+    discreteness from (i) an INTEGER CELL-TILING condition (the
+    partition picture: N identical cells of width L tiling a closed
+    universe of fixed tau-extent -> L=T/N discrete, integer N the
+    label; needs T fixed by an un-derived closure) or (ii) hbar
+    entering the partition. CONDITIONS-CHANGED trigger: if a closure is
+    found that fixes the total universe extent T (then tiling
+    re-discretizes X), or if hbar enters. CONSEQUENCE for the frame:
+    bootstrap (a) is NOT delivered by single-cell closure on EITHER
+    axis (absolute size #32, compactness #33); the frame as currently
+    closed RELATES X to the partition energy E but does not pin it. The
+    discreteness, if real, is a TILING/INTEGER count or a quantum, NOT
+    the over-determined single-cell nonlinear eigenvalue (#32's
+    mechanism is refuted as the source of discreteness). 7.004=
+    ln(1+z_CMB) remains an OBSERVATIONAL anchor (X free). Hypothesis-
+    grade redirect: the partition axis now points at the cell-TILING
+    closure (does the closed universe force an integer number of
+    critical cells?), the sharp next object.
