@@ -5,7 +5,29 @@ Last update: 2026-06-12 SESSION CLOSE (the W1-W5 chain: the forced
 object located, solved, and reduced to one coupled operator + one
 number).
 
-## SESSION-CLOSE SNAPSHOT (2026-06-12) — READ THIS FIRST
+## FRAME REDIRECT (2026-06-13) — READ THIS FIRST, ABOVE EVERYTHING
+
+CHARLES'S CATALOG-FRAME REFRAME (CATALOG_FRAME.md; canon-candidate
+pending sign-off; charter-principle-3 level). A particle = one
+individual STABLE SOLUTION of the metric equations; DISCRETENESS = a
+CATALOG of stable cells, NOT a quantized eigenvalue ladder ("quantize"
+was an imported Standard-Model concept — the resonator/mass-as-
+eigenvalue template). Families = variations of a base cell; different
+families = different base cells (perhaps different constituent counts).
+The angular sector has multiple EFFECTS on the negative-phi base
+structure (mechanism — algebraic vs oscillatory, static vs breather —
+OPEN, to be DERIVED, not assumed). CONSEQUENCE: the research question
+is "find the discrete CATALOG of stable self-consistent cells and
+their Misner-Sharp masses; match the wall numbers" — a nonlinear
+existence/stability problem (stability = persistence), agnostic to
+mechanism. THE DISCRETENESS REFUSALS (box-control #1, bands-not-lines
+#28, W7) WERE MODE-SPECTRUM QUESTIONS AND DO NOT BIND THE CATALOG
+FRAME. The W1-W7 stiffness/spectrum work below is RE-READ under this
+frame: the wave sector / kappa-band / fold are about which shaped
+cells hold together (catalog), not about a mode ladder. Next push
+must be posed in the catalog frame, mechanism open.
+
+## SESSION-CLOSE SNAPSHOT (2026-06-12)
 
 THE PERSPECTIVE (read this before the facts; this session nearly
 misfired at startup by resuming from the one-line queue instead of
