@@ -165,16 +165,26 @@ family; p-fold twist => L(p,q) => finite p-family. Intrinsic chi=2/4pi
 transgression is sigma-EVEN/symmetric (sigma=time-reversal, time row
 only), dynamics-invisible because EXACT not by parity.
 
-1. THE GOAL PUSH (queue head): DERIVE THE MATTER-CELL CORE CLOSURE —
-   the areal radius at the phi->-infinity core, from the metric's own
-   radial profile. This single radial-endpoint calc DECIDES the
-   particle-type count: r->0 => S^3 => one rigid topology, NO family;
-   finite r => S^2xS^1 => discrete INTEGER family of types; p-twist =>
-   L(p,q) => finite p-family. Canon pins the UNIVERSE cell core
-   (->S^3) but leaves the MATTER (particle) cell core OPEN — that is
-   the object. Topology only; DERIVE the radial endpoint, do NOT
-   assert a count. Also pending: 2nd blind verifier on the #37
-   doubling fork. Properties/masses come AFTER the type-structure is
-   fixed (Delta_p_F from the crease BC, data-blind, LAST).
+1. NEXT — QUEUE HEAD (Charles, 2026-06-13): BROADLY SOLVE THE SOLUTION
+   SPACE OF THE WHOLE METRIC AGAIN, focused on ANALYZING UNEXPECTED
+   REGIONS — places where the metric is doing something NOT previously
+   documented (anomalies, surprises, transitions/structure we have not
+   catalogued). This is OPEN-ENDED EXPLORATION, not hypothesis-testing:
+   solve broadly across the whole metric's free data (both sectors,
+   interacting, nothing frozen/slaved/added), scan WIDE, and FLAG +
+   characterize whatever is unexpected. Deliverable = a MAP of the
+   solution space with the undocumented/anomalous regions identified
+   and described. Discipline (binding): do NOT retreat to the easy
+   interior (the evil-genie failure), do NOT match mass numbers, do NOT
+   invent; GPU available for broad sweeps. The overarching GOAL
+   (particles: formation/topology/properties) still stands — this
+   exploration serves it by finding where the metric does something we
+   have not seen.
+   PARKED (Charles's call, 2026-06-13): the topology-classes /
+   MATTER-CELL-CORE-CLOSURE thread. Registry #37 STANDS as a banked
+   result (genus rigid; winding family fork-dependent on the core), but
+   Charles judged PURSUING the core-closure derivation a LIKELY-WRONG
+   RABBIT HOLE — do NOT pursue it (nor the #37 2nd-verifier) without
+   his explicit go.
 2. Absolute scale stays one observational anchor (#32).
 3. Macro consilience roadmap (memory) once the frame is load-bearing.
