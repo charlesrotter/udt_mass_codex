@@ -95,20 +95,30 @@ calculation (see Queue).
 
 ## Queue (ordered)
 
-1. SOLVE THE WHOLE METRIC; does it pin the critical configuration?
-   The first honest calculation of the new frame: set up the WHOLE
-   closed-universe metric (finite cell, both sectors co-equal, the
-   dilation tie, nothing added/slaved) and determine whether its
-   closure + regularity conditions PIN the critical configuration
-   (one universe / discrete set = bootstrap (a)) or leave a
-   scale-family (relates only). Concretely: count independent
-   closure/regularity conditions vs free parameters; test whether the
-   closure FORCES the critical compactness / the boundary value
-   (7.004), or leaves it free. (This push launched 2026-06-13.)
-2. If pinned: the partition of the critical finite energy = the
-   particle catalog; compute mass RATIOS, data-blind vs wall numbers.
-3. If a family: identify what (if anything) could break the
-   scale-freedom in the whole (vs the pieces), or accept absolute
-   scale as one observational anchor and pursue the dimensionless
-   partition.
-4. Macro consilience roadmap (memory) once the frame is load-bearing.
+ANSWERED 2026-06-13 (registry #32/#33, w_whole_results.md): does the
+WHOLE metric pin the critical configuration? SINGLE-CELL CLOSURE DOES
+NOT PIN — absolute size is scale-free (units, one observation, #32);
+the dimensionless compactness is a CONTINUUM, one universe per
+"partition energy" E (#33; the earlier Gelfand-Bratu single root was
+a FROZEN-LENGTH artifact — freeing the cell length turns the isolated
+fold into a curve). The bootstrap (a) is NOT delivered by closing a
+single cell. BUT the calculation REDIRECTED, convergently: discreteness
+must come from the whole finite universe being TILED by an INTEGER
+number of cells (L = T/N, N a whole number) — Charles's partition
+picture made precise, and the SAME integer/topological counting that
+is the program's only native discreteness (N=3 from the H1 area form).
+
+1. THE INTEGER CELL-TILING / PARTITION-COUNT CONDITION (the redirect):
+   does the finite whole universe tile into an integer number N of
+   cells, discretizing the partition? Two derived prerequisites to
+   settle first: (a) does the metric's own field content SELECT the
+   "restoring" (ON, two-exponential) source that makes a closed cell,
+   vs the monotone vacuum that cannot close (the load-bearing physical
+   step of #33)? (b) is there a derived closure fixing the total
+   universe extent T, so that L = T/N quantizes? This is where the
+   one native discreteness (N=3, area-form integer) and Charles's
+   finite-energy partition meet — the sharp next object.
+2. Absolute scale stays one observational anchor; pursue the
+   dimensionless partition (ratios -> wall numbers, data-blind) once
+   the tiling count is derived.
+3. Macro consilience roadmap (memory) once the frame is load-bearing.
