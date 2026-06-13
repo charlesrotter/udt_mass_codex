@@ -277,3 +277,43 @@ Discipline: classification never deformation; the integer insight
 (digits are search keys; prefer closed forms/identities); all
 kappa != 0 / time-dependent physics hypothesis-grade until derived;
 verifier-before-record; pre-state failure criteria.
+
+## W8 — THE CATALOG SOLVE (declared 2026-06-13; the catalog frame's
+## first push, per Charles: point machinery at the catalog question,
+## examine the solution space and see how the metric assembles it)
+
+Frame: CATALOG_FRAME.md (a particle = one stable metric solution;
+discreteness = the discrete CATALOG of stable cells; mechanism OPEN).
+Charles's solution-space default: it is an equation with LIMITED
+VARIABLES — find which combinations give stable self-consistent
+solutions; all DOF at once, full nonlinearity, never per-component.
+Two phases (agents; GPU for the scan; conserve main context):
+- Phase A (ASSEMBLE, no GPU): state the catalog problem explicitly —
+  the forced field system (mechanism-open: static AND breather
+  allowed), the cell-defining conditions already banked (closure
+  selector sigma!=0; finite action; joint termination/finite depth;
+  the seal = mirror fold closure; center-ownership; formation law
+  c* = 0.499 gamma^2), the LIMITED free parameters of a candidate
+  cell (what is free vs fixed by the metric), the observable
+  (Misner-Sharp mass), and an operational definition of "stable
+  self-consistent cell" (persistence as in W4 + finite action +
+  proper closure). Inventory reusable machinery (w4b_*, w5_*,
+  formation/MS-mass code). Output a precise problem statement + a GPU
+  solve spec. Do NOT slide into mode-spectrum/eigenvalue framing.
+- Phase B (SOLVE, GPU): scan the limited parameter space for the
+  discrete stable self-consistent solutions (static + breather
+  branches; persistence-stable; finite action; closes properly);
+  compute their MS masses; report the catalog and its mass RATIOS.
+Grading (pre-registered): (i) a DISCRETE catalog of stable cells with
+computable MS masses => the bet realized (verify hardest — this is
+program-confirming); (ii) a CONTINUUM of stable cells => stability
+does not discretize at this order (first-class; would challenge the
+frame, scope it); (iii) NO stable shaped cells => back to the
+forced-object/stiffness question.
+DATA DISCIPLINE (binding): the six lepton wall numbers
+(lepton_ladder_falsification_contract.md, contract 26fc757) are the
+FALSIFICATION target — find the catalog and its ratios DATA-BLIND,
+then compare; NO tuning to the wall numbers. Mechanism stays open
+(do not pre-decide static/breather/algebraic/oscillatory). All
+kappa!=0 / time-dependent physics hypothesis-grade; verifier-before-
+record; classification not deformation.
