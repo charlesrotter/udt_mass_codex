@@ -35,6 +35,15 @@ level; the real test needs OUR angular Lagrangian (below).
   nonlinear angular-radial soliton boundary-value problem). This CONVERGES
   with our deepest result (#40 / the GOAL: structure lives in the
   angular/boundary sector). **[direction]**
+- KEY NUANCE (Gauss-Bonnet; aligns with #40): the BARE topological invariant
+  N=3/q=1/3 LABELS sectors but does NOT by itself GENERATE energy or a
+  ladder — integrated curvature is a fixed topological number. So the
+  angular sector must enter as a DYNAMICAL FIELD (its gradients /
+  off-diagonal coupling / a radial hedgehog profile) to affect the radial
+  equations. This is exactly why #40 found the cohomology RIGID: the energy
+  is in the FIELD's dynamics, not in the invariant. Precedent that this
+  works: Bartnik-McKinnon — gravity + a nonlinear angular sector yields a
+  DISCRETE soliton family even though neither piece alone does. **[direction]**
 - AIM FOR RATIOS, not absolute masses (a classical geometry carries one
   irreducible scale). Matches our Step 0. **[direction]**
 - THE HIERARCHY IS EXPONENTIAL: m_e/M_Pl ~ 4e-23 cannot come from algebraic

@@ -234,7 +234,13 @@ models + our own findings agree): a plain SCALAR cannot source the metric;
 the ANGULAR / TOPOLOGICAL sector (N=3, q=1/3) is the plausible SOURCE and
 phi is the RESPONSE (slaved via p_r=-rho); a particle = a topological knot
 dressed by a phi cavity; the spectrum = its nonlinear soliton mode-tower;
-aim for RATIOS; the hierarchy is EXPONENTIAL (m~M_Pl e^{-Gamma}). THREE
+aim for RATIOS; the hierarchy is EXPONENTIAL (m~M_Pl e^{-Gamma}). KEY
+NUANCE (Gauss-Bonnet, aligns with #40): the bare topological invariant
+N=3/q=1/3 LABELS sectors but does NOT by itself GENERATE energy/a ladder —
+the angular sector must enter as a DYNAMICAL FIELD (gradients / off-diagonal
+coupling / a radial hedgehog profile) to affect the radial equations, not
+as a fixed number. Precedent that this works: Bartnik-McKinnon (gravity +
+nonlinear angular sector => a DISCRETE soliton family). THREE
 FORKS to settle first (two touch CANON): (1) B=1/A inside matter — keep
 (=> topological source) or relax (=> scalar can source)? (2) mass =
 Misner-Sharp vs hbar*omega (the latter dissolves the negative-mass sign
@@ -247,12 +253,21 @@ eigenproblem -> parameter-free mass RATIOS; Koide 2/3=2q is a PASS/FAIL
 target, never evidence. Caution: "hedgehog" is a template-import to verify,
 not adopt; the 22/3 numerology is direction not result.
 
-1. NEXT — QUEUE HEAD (Charles, 2026-06-14): NOT a derivation target. When
-   work resumes, READ CLAUDE.md "How we work" FIRST and operate that way:
-   START in MAP mode — lay out the frame WHOLE + the premise ledger in LAY
-   language, PONDER with Charles, let structure EMERGE from solving the
-   metric; do NOT chase a mass/ratio, do NOT "one-more-thing" the next
-   sector. The governing PHYSICS frame is the Dynamic-Phi / Universal-MS-
+1. NEXT — QUEUE HEAD (Charles, 2026-06-14). *** SETTLE THE B=1/A FORK FIRST
+   (Charles's explicit instruction). *** Does the one-function metric
+   (g_tt g_rr = -c^2, B=1/A) hold INSIDE matter, or is it only a VACUUM
+   result (the postulate fixes only A=e^{-2phi})? This is the most
+   load-bearing premise the outside models surfaced: KEEP it => the source
+   must be topological (a scalar can't, since p_r=-rho needs p_r+rho=0);
+   RELAX it => a two-function interior lets a field source. Our canon
+   (C-2026-06-10-1) asserts B=1/A as the areal reading — settle whether
+   that is derived for matter or only vacuum BEFORE building anything on
+   it. (Do it in MAP/PONDER, lay language, premises visible.)
+   THEN: NOT a derivation target. READ CLAUDE.md "How we work" FIRST and
+   operate that way: START in MAP mode — lay out the frame WHOLE + the
+   premise ledger in LAY language, PONDER with Charles, let structure
+   EMERGE from solving the metric; do NOT chase a mass/ratio, do NOT
+   "one-more-thing" the next sector. The governing PHYSICS frame is the Dynamic-Phi / Universal-MS-
    Scale synthesis (DYNAMIC_SCALE_SYNTHESIS.md): phi dynamic, M sets the one
    dimensionful scale, re-derive legacy natively (cavities + angular charge
    + MS scale, NO Dirac import). The LEADING candidate to EXPLORE (observe +
