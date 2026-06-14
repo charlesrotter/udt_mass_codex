@@ -281,3 +281,31 @@ METRIC-LED (interrogating what the derived hedgehog source + back-reacting phi d
 on the finite cell), not template-led — and where a template question arose (does
 a radial soliton exist?), its NEGATIVE was reported as a forced-stabilizer
 finding, not buried. No Skyrme term or potential was added.
+
+---
+
+## VERIFIER-CLEARED (appended 2026-06-14; supersedes the PENDING line)
+
+Blind adversarial verifier (Claude Opus 4.8, agent ad93954b78525b33e,
+2026-06-14; coupled_cell_soliton_verifier_results.md + verifier_scripts_
+coupled_cell/v_*.py) independently re-derived all five claims (own sympy /
+mpmath dps=50 / V100 float64; constructor scripts NOT run). VERDICT: the
+study STANDS — nothing refuted, nothing unreproducible.
+- CELL FINITIZES: CONFIRMED (rho*4pi r^2 = 4pi xi constant; E=4pi xi(r_int-
+  r_core); no 1/r_core divergence; proper-volume energy finite to p=50).
+- PHI ALONE: does NOT finitize — CONFIRMED (M(r)~delta*r linear divergence).
+- HIDDEN DISCRETENESS: the verifier BUILT the simultaneous core+seal self-
+  adjoint eigenproblem on the GPU specifically to find quantization the shoot
+  missed, and found NONE that is particle-discreteness (bounded-domain modes
+  move smoothly with delta, r_int; pure 1/r_int^2 Laplacian scaling, no
+  intrinsic length). "All free, nothing discrete" CONFIRMED + correctly
+  scoped (static, single-cell, minimal-model).
+- rs<0 (mass defect): CONFIRMED but BC-tied (forced under phi(r_int)=0; under
+  the Neumann/mirror-fold seal rs=r_core(delta-1+e^{-2p}), generically <0 but
+  flips for shallow core + large deficit; with no interface pin rs=0). Real,
+  load-bearing, premise-attached — not an artifact.
+- DERRICK NO-GO: CONFIRMED (both energy terms scale lambda^1; E(2L)/E(L)~2.0
+  on three probe profiles; conical background doesn't change the exponent;
+  the seal does NOT select a size). No stable radial-twist soliton in the
+  minimal model => a stabilizer (Skyrme/potential or a native equivalent) is
+  FORCED for an internal-profile particle.

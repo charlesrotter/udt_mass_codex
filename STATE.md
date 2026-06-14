@@ -1,7 +1,33 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-14 (LATER) — FIRST CONSTRUCTIVE POSITIVE.
+Last update: 2026-06-14 (LATER-2) — FOUNDATION SECURED; native-stabilizer hunt.
+
+## 2026-06-14 (LATER-2) — STATIC MINIMAL CELL CHARACTERIZED; HUNT NATIVE STABILIZER
+
+OBSERVE study (coupled_cell_soliton_results.md; blind-verified ad93954b78525b33e,
+STANDS) of the genuinely coupled angular-source + dilation on the finite cell
+(NEW ground, #43). Charles's "cell vs phi vs both" question RESOLVED:
+- THE CELL finitizes the knot (constant integrand vs bare r^2 measure);
+  PHI back-reaction does NOT (deficit only, MS mass ~delta*r diverges). For
+  finiteness only the cell is strictly needed; phi is passive in the static
+  minimal model (no length, no discreteness manufactured).
+- The realized particle = a FREE 3-parameter continuum, NO discreteness (the
+  verifier HUNTED the core+seal eigenproblem, found none). An internal-profile
+  soliton is DERRICK-FORBIDDEN in the minimal model => a stabilizer is FORCED.
+Banked as #43 (premise-scoped: static/single/minimal/grav-only-phi).
+
+CHARLES'S STEER (2026-06-14): we are NOWHERE NEAR a reset from the negatives
+run — these are productive scoping, NOT a wall; CONTINUE. Do NOT over-trigger
+the refusal-run reframe tripwire here.
+
+NEXT (live): (alpha) TEST WHETHER A STABILIZER IS NATIVE — try to DERIVE the
+two imports (Skyrme term, potential) from UDT's OWN objects (eta=1/18 seal as
+a native potential? su(3)/4-derivative structure as a native Skyrme term?),
+keeping a richer phi-angular coupling / seal term on the table. Charter rule:
+an import is a HYPOTHESIS about a native object — if it falls out, it named
+something real (keep the native version); if not, drop it. DATA-BLIND; not a
+mass derivation yet (still securing the foundation / term content).
 
 ## 2026-06-14 (LATER) — B=1/A INSIDE MATTER IS DERIVED (queue-head fork SETTLED)
 

@@ -1017,3 +1017,44 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     NONSTATIONARY sector (canon C-2026-06-13-1) + the parity count from the
     banked time-row sigma. This is the precise next object. DATA-BLIND
     (contract 26fc757 untouched); NO dim-7. Pending Charles.
+
+## Coupled cell+angular-source on the finite cell (2026-06-14,
+## coupled_cell_soliton_results.md; blind-verified ad93954b78525b33e)
+
+43. THE STATIC MINIMAL SINGLE CELL, WITH THE ANGULAR FIELD NOW SOURCING THE
+    METRIC, GIVES A FINITE BUT STRUCTURELESS CONTINUUM — and an internal
+    soliton is DERRICK-FORBIDDEN (a stabilizer is forced). The first OBSERVE
+    of the genuinely coupled, self-consistent angular-source + dilation
+    system on the finite matter cell (NEW ground: prior #34/#39/#40/#41
+    tested the metric's OWN angular operator or time-dependent perturbations,
+    NOT an external angular-Lagrangian SOURCE; the new sourced-metric canon
+    C-2026-06-14-1 made this testable). FINDINGS (blind-verified STANDS):
+    (a) THE CELL finitizes the knot (rho=xi/r^2 against the bare r^2 measure
+    => constant integrand => E=4pi xi(r_int-r_core), finite, no 1/r_core
+    divergence); PHI back-reaction does NOT finitize (global-monopole deficit,
+    Misner-Sharp M(r)~delta*r diverges linearly). So for FINITENESS only the
+    cell is strictly needed; phi is the EOS/deficit-geometry, PASSIVE in the
+    static minimal model (manufactures neither a length nor discreteness).
+    (b) THE REALIZED PARTICLE is a FREE 3-parameter family (core depth p,
+    deficit delta, cell size r_int), M_total continuous in every parameter,
+    NO discreteness — the verifier built the simultaneous core+seal self-
+    adjoint eigenproblem to HUNT hidden quantization and found none that is
+    particle-discreteness (bounded-domain modes vary smoothly; pure 1/r_int^2
+    scaling, no intrinsic length). Re-confirms single-cell mode-discreteness
+    exhaustion in the NEW sourced-metric frame. (c) DERRICK NO-GO: the
+    minimal model (NO Skyrme, NO potential) admits NO stable radial-twist
+    soliton (both energy terms scale lambda^1 => collapse); a finite internal-
+    profile particle FORCES a stabilizer term. PREMISE SET (scope; this is
+    NOT absolute): STATIC; SINGLE cell; MINIMAL two-derivative angular
+    Lagrangian (no Skyrme/no potential, choice C1); phi couples
+    GRAVITATIONALLY only (no direct phi-n term); interface BC phi(r_int)=0
+    (choice C3, forces rs<0); seal = same-minus mirror fold (Neumann static /
+    Dirichlet sigma-odd), bare measure. CONDITIONS-CHANGED TRIGGERS: a native
+    stabilizer term (Skyrme/potential derived from our objects), a direct
+    phi-angular coupling, the NONSTATIONARY sector, or the ENSEMBLE each lie
+    OUTSIDE this premise set and are NOT blocked by #43. NEXT (Charles,
+    2026-06-14): test whether a stabilizer is NATIVE — try to DERIVE the two
+    imports (Skyrme term, potential) from UDT's own objects (e.g. eta=1/18
+    seal as a potential; su(3)/4-derivative structure as a Skyrme term), and
+    keep a richer phi-coupling / seal term on the table. DATA-BLIND (contract
+    26fc757 untouched). Pending Charles.

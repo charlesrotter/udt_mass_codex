@@ -142,14 +142,24 @@ ROADMAP — NEXT STEPS IN ORDER (the live work; dependency order, 2026-06-14):
 0. [DONE 2026-06-14] SETTLE the B=1/A fork — RESOLVED (KEEP); the angular
    source derives p_r=-rho natively (CANON C-2026-06-14-1; angular_lagrangian_
    results.md + verifier). The program's first constructive positive.
-1. NEXT — SECURE THE FOUNDATION (Charles, 2026-06-14): settle natively WHICH
-   terms belong in the angular Lagrangian before any spectrum work. The EOS
-   (B=1/A) is robust to additions (Skyrme/potential preserve T^t_t=T^r_r), but
-   the SPECTRUM/masses hinge on the term content (they set T^theta_theta + the
-   deficit). So the term content is the load-bearing prerequisite to ANY ratio
-   work. MAP/PONDER first (which terms are FORCED by the metric/our objects vs
-   CHOSEN); do NOT rush to masses. Items 3-4 below (soliton mode-tower ->
-   ratios) are GATED on this and on Charles's go.
+1. SECURE THE FOUNDATION (Charles, 2026-06-14) — IN PROGRESS. Settle natively
+   WHICH terms belong in the angular Lagrangian before any spectrum work.
+   STEP DONE [#43, blind-verified]: the STATIC MINIMAL single cell (no Skyrme/
+   no potential) gives a finite-but-STRUCTURELESS continuum — the cell
+   finitizes, phi is passive, NO discreteness, and an internal-profile soliton
+   is DERRICK-FORBIDDEN => a stabilizer term is FORCED. So "which terms" now
+   has teeth. CHARLES: we are NOWHERE NEAR a reset from the negatives run —
+   CONTINUE (do not over-trigger the refusal-run tripwire).
+   LIVE STEP (alpha): test whether the forced stabilizer is NATIVE — try to
+   DERIVE the two imports (Skyrme term; potential) from UDT's own objects
+   (eta=1/18 seal as a native potential? su(3)/4-derivative structure as a
+   native Skyrme term?), keeping a richer phi-angular coupling / seal term on
+   the table. Charter: import = HYPOTHESIS about a native object; if it falls
+   out it named something real (keep native version), else drop it. If BOTH
+   are only imports => the static angular sector can't build a structured
+   particle, which THEN licenses the (beta) nonstationary / (gamma) ensemble
+   reframe. DATA-BLIND; not a mass derivation yet. Items 3-4 (soliton mode-
+   tower -> ratios) stay GATED on this + Charles's go.
 2. SETTLE the other two forks: mass = Misner-Sharp vs hbar*omega; and
    matter = negative-phi vs positive-phi (load-bearing for the hierarchy
    SIGN). Both touch canon.
