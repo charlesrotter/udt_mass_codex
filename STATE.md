@@ -1,7 +1,26 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-14 (LATER-3) — ANGULAR LAGRANGIAN SETTLED (all-native); SPECTRUM GO.
+Last update: 2026-06-14 (LATER-4) — SPECTRUM PRE-REG FAIL (one cell = one particle).
+
+## 2026-06-14 (LATER-4) — LEPTON SPECTRUM: PRE-REGISTERED FAIL; "ONE CELL = ONE PARTICLE"
+
+First gated DERIVE (pre-registered contract d2283ea, data-blind; #44; blind-
+verified a71e5f8ae4383082d, FAIL survived active rescue). The native single-cell
+L2+L4 soliton gives EXACTLY ONE static charge-1 soliton + an O(1) breathing
+tower (NOT exponential to p=10), Koide Q~1/3 (never 2/3). vs empirical
+m_mu/m_e~207, m_tau/m_e~3477, Koide 2/3 => FAIL on all three pre-registered
+targets. The honest prior (in the contract) called it: an overtone tower can't
+make the exponential lepton hierarchy.
+- POSITIVE STRUCTURAL FACT (the real takeaway): a charge-1 cell holds EXACTLY
+  ONE particle, not a tower. So a GENERATION family is NOT modes-of-one-cell —
+  it points to the ENSEMBLE / different CELLS (catalog frame: particle = one
+  stable cell) and/or the EXPONENTIAL dilation-depth hierarchy across cells.
+- The session's POSITIVES are UNTOUCHED: B=1/A sourced (C-2026-06-14-1), native
+  L2+L4 settled, a sized soliton exists. The FAIL is a scoped SPECTRUM negative
+  (single/static/breathing-tower), not a hit on the foundation.
+- Charles steer holds: nowhere near a reset; record + ponder direction WITH him
+  (ensemble vs depth-exponential vs nonstationary), do NOT declare a reframe.
 
 ## 2026-06-14 (LATER-3) — NATIVE STABILIZER DERIVED; FOUNDATION SECURED; SPECTRUM GATED-GO
 

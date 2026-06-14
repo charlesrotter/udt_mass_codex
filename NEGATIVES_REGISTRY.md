@@ -1058,3 +1058,36 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     seal as a potential; su(3)/4-derivative structure as a Skyrme term), and
     keep a richer phi-coupling / seal term on the table. DATA-BLIND (contract
     26fc757 untouched). Pending Charles.
+
+## Lepton soliton spectrum — PRE-REGISTERED FAIL (2026-06-14,
+## lepton_soliton_spectrum_results.md; contract d2283ea; blind-verified a71e5f8ae4383082d)
+
+44. THE LEPTON FAMILY IS NOT THE BREATHING TOWER OF A SINGLE L2+L4 CELL
+    SOLITON (pre-registered, data-blind, FAIL survived active rescue). First
+    gated DERIVE under the settled native angular Lagrangian (L2 + native L4,
+    CANON C-2026-06-14-1 refinement). Pre-registration (contract d2283ea,
+    committed BEFORE the run): family (P) radial tower modes 0,1,2 -> e,mu,tau
+    (locked), targets T1=m_mu/m_e, T2=m_tau/m_e (<=1%), T3=Koide 2/3=2q.
+    RESULT (blind-verified STANDS, active rescue failed): the model gives
+    EXACTLY ONE static charge-1 soliton (nodeless ground state); the only
+    radial family is the BREATHING/fluctuation tower (omega^2 all-positive,
+    O(1)-spaced, NOT exponential). Scale-free ratios R1,R2 are O(1)
+    (~1.0-4.4 depending on a chosen energy-reading convention A/B/C; deep-phi
+    to p=10 saturates R1~4.4 then declines, never exponential). Koide
+    Q in [0.333,0.37] under every defensible reading (near the degenerate 1/3,
+    never 2/3). DATA-BLIND REVEAL: vs empirical m_mu/m_e~206.8 (T1),
+    m_tau/m_e~3477 (T2), Koide 2/3 (T3) -> FAIL on all three. PREMISE SET
+    (scope; NOT absolute): SINGLE cell; STATIC; the breathing-mode reading of
+    "generations"; minimal native L2+L4 (no extra sector). POSITIVE STRUCTURAL
+    FACT (banked, not a negative): a charge-1 cell holds EXACTLY ONE static
+    soliton = ONE particle (matches the catalog frame: particle = one stable
+    cell), so a lepton GENERATION family is NOT modes-of-one-cell. CONDITIONS-
+    CHANGED TRIGGERS (outside this premise set, NOT blocked by #44): the
+    ENSEMBLE / multi-cell family (different cells, not modes of one), the
+    EXPONENTIAL dilation-depth hierarchy (m~M_Pl e^{-Gamma}) across cells, the
+    NONSTATIONARY sector. NON-BLOCKING: (W) winding ratios unsettled (doc
+    1.99/3.64 vs verifier 2.57/4.95, both O(1)); a 4.2x breathing-weight
+    normalization (cancels in all ratios). The session's POSITIVES are
+    untouched: B=1/A sourced (C-2026-06-14-1), native L2+L4 settled, a sized
+    soliton exists. DATA-BLIND (contract 26fc757 untouched in the derivation).
+    Pending Charles.
