@@ -165,42 +165,44 @@ family; p-fold twist => L(p,q) => finite p-family. Intrinsic chi=2/4pi
 transgression is sigma-EVEN/symmetric (sigma=time-reversal, time row
 only), dynamics-invisible because EXACT not by parity.
 
-1. NEXT — QUEUE HEAD (Charles, 2026-06-13): BROADLY SOLVE THE WHOLE-
-   METRIC SOLUTION SPACE AGAIN, to FIND UNEXPECTED REGIONS — where the
-   metric does something NOT previously documented. Open-ended
-   exploration, not hypothesis-testing. Run it in THREE STEPS so
-   "unexpected" has meaning and the scan does not just re-document the
-   known:
-   (a) BASELINE FIRST — state plainly what IS already documented, so
-       departures are detectable: the trivial round interior; the
-       single-cell compactness continuum (#33/#34); the singular seal /
-       same-minus mirror fold; the cohomological area form / exact
-       transgression (#36); absolute scale-freedom (#32). That is the
-       "expected"; anything departing from it is a candidate.
-   (b) SCAN THE UNDER-EXPLORED AXES (NOT the static single-cell
-       interior — known trivial), where the unexpected most likely
-       lives: the NONSTATIONARY / time-dependent sector; MULTI-CELL /
-       ensemble configurations; the EXTERIOR / medium side; and
-       STRONG-FIELD / off-diagonal (shear, q-on) regimes. Both sectors
-       live, interacting, nothing frozen/slaved/added. GPU for the
-       broad sweeps.
-   (c) FLAG + VERIFY — flag regions where DOCUMENTED BEHAVIOR CHANGES
-       CHARACTER (a transition not in the registry, an invariant that
-       stops holding, structure that appears), and put EACH flagged
-       anomaly through a blind pass (real vs numerical artifact vs
-       already-documented) before banking. Deliverable = a MAP of the
-       solution space with the genuine undocumented/anomalous regions
-       identified and characterized.
-   Discipline (binding): do NOT retreat to the easy interior (the
-   evil-genie failure), do NOT match mass numbers, do NOT invent. The
-   overarching GOAL (particles: formation/topology/properties) still
-   stands — this serves it by finding where the metric does something
-   we have not seen.
-   PARKED (Charles's call, 2026-06-13): the topology-classes /
-   MATTER-CELL-CORE-CLOSURE thread. Registry #37 STANDS as a banked
-   result (genus rigid; winding family fork-dependent on the core), but
-   Charles judged PURSUING the core-closure derivation a LIKELY-WRONG
-   RABBIT HOLE — do NOT pursue it (nor the #37 2nd-verifier) without
-   his explicit go.
-2. Absolute scale stays one observational anchor (#32).
+DONE 2026-06-13 — THE OPEN-ENDED SCAN + THE BULK CLOSURE (this session,
+all blind-verified; solution_space_map.md, registry #38/#38-cont/#39,
+neg_sweep/wmneg/wmdeep results). The three-step whole-metric scan ran;
+its one real anomaly (the nonstationary diagonal sector PROPAGATES in T,
+a sign-error overturn of #22) is CANON C-2026-06-13-1. The off-diagonal
+row resolved to the cell's MEDIUM-EDGE with NO native completion
+(#38/#38-cont; closes the W1 EH-remainder route). Then, per Charles's
+"sweep the WHOLE metric, stop building from fragments" redirect, the bulk
+was solved comprehensively: BOTH phi signs, BOTH sectors GENUINELY LIVE,
+shallow AND deep (negative-phi matter regime to p=-40 by SOLVE not
+argument). VERDICT: the BULK is ONE ROUND CONTINUUM with NO discrete/
+angular/shaped type, anywhere — EXHAUSTED as a home for particle
+structure. (#39: RELATES r* to (p,Phi) but DETERMINES nothing -> the
+one-universe-vs-family thread stays OPEN. Reciprocal-c phi->-phi mirror
+confirmed; the -7.004 "wall" refuted = the deep "blowups" were float64
+artifacts. Matter mass = e^{-2phi}-1.) Method rulings banked to memory:
+accurate Taylor function-replacement is NOT forbidden linearization;
+sweep-the-whole-not-fragments. Minor open edge: l=0 gauge-floor
+Richardson re-check (wmdeep).
+
+1. NEXT — QUEUE HEAD (Charles, 2026-06-13): GO TO THE BOUNDARY / H1
+   SECTOR — the home of q=1/3, N=3, eta=1/18. The bulk is closed (above);
+   by exhaustion AND by #36 (the structure is COHOMOLOGICAL, not
+   dynamical — the H1 area form / EXACT boundary transgression, integral
+   4pi, invisible to the bulk EL), the particle TYPES and the
+   discreteness live in the BOUNDARY / TOPOLOGICAL sector that no bulk
+   solve can reach. DERIVE the particle types / structure / properties
+   FROM that sector (the H1 area form, the seal mirror-fold closure, the
+   cohomology). This is the GOAL (formation/topology/properties of
+   particles), now correctly located. Discipline (binding): metric-led
+   (derive from the H1/area-form geometry, do not invent a mechanism);
+   data-blind vs the wall numbers; verifier-before-record; the
+   resonator/mass-as-eigenvalue template is BANKED-DEAD (discreteness is
+   cohomological/topological, NOT a vibration spectrum). Note: #37
+   (topology classes) and its MATTER-CELL-CORE-CLOSURE fork remain
+   PARKED (Charles: likely-wrong rabbit hole) — the H1 area-form sector
+   is the live route, not the core-closure topology derivation, unless
+   Charles reopens it.
+2. Absolute scale stays one observational anchor (#32); the
+   one-universe-vs-scale-family thread stays OPEN (#39).
 3. Macro consilience roadmap (memory) once the frame is load-bearing.

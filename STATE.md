@@ -1,9 +1,56 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-12 SESSION CLOSE (the W1-W5 chain: the forced
-object located, solved, and reduced to one coupled operator + one
-number).
+Last update: 2026-06-13 SESSION CLOSE (the BULK comprehensively closed;
+matter regime corrected to NEGATIVE phi; queue head -> boundary/H1).
+
+## 2026-06-13 SESSION CLOSE — THE BULK IS CLOSED; GO TO THE BOUNDARY/H1
+
+THE MILESTONE: the BULK metric is now comprehensively solved and
+EXHAUSTED as a home for particle structure — both phi SIGNS, both
+sectors GENUINELY LIVE (no slaving/inheriting/symmetry-assuming),
+shallow AND deep (to p=-40, c_eff~5.5e34, deep in the runaway), by
+SOLVE not argument: it is ONE ROUND CONTINUUM with NO discrete/angular/
+shaped type, anywhere. Therefore the particle TYPES and the
+discreteness live in the BOUNDARY/H1 sector (q=1/3, N=3, eta=1/18 — the
+one place a real discrete result ever appeared), which no bulk solve can
+reach. THAT is the queue head.
+
+Session arc (all blind-verified; results docs + registry):
+- CANON C-2026-06-13-1: the nonstationary DIAGONAL sector PROPAGATES
+  hyperbolically in T (sign-error overturn of #22's propagation clause;
+  the no-shaped-matter / fate-polynomial leg survives). Wave speeds
+  c_r^2=e^{-4phi}, c_th^2=e^{-2phi}/r^2 -> diverge toward the matter core.
+- Registry #38 (+38-cont): the OFF-DIAGONAL angular row is the cell's
+  MEDIUM-EDGE, not a type locus; the metric supplies NO native bounding
+  term (statics, EH-remainder, axial, seal-form, nonstationary all
+  fail) -> CLOSES the W1 #21/#23-25 EH-remainder / "forced w-stiffness"
+  route in the negative. Tooling fix banked: self-adjoint measure is
+  r^2 sin th BARE (e^{-2phi} in the stiffness; offdiag_gateA).
+- Registry #39 (corrected before push): the whole-metric bulk is one
+  round family in core depth p; RELATES r* to (p,Phi) but DETERMINES
+  nothing -> the one-universe-vs-scale-family thread STAYS OPEN (Phi a
+  free dimensionful input; bounded r*; the bet-(a) over-claim demoted).
+- REGIME CORRECTION (Charles): matter lives at NEGATIVE phi (canon
+  inside-out cell; hadronic phi0~-0.80). The first sweep ran POSITIVE
+  phi (the universe/horizon half) -> WRONG HALF; redone in negative phi.
+  Negative-phi bulk (radial + angular live, to p=-40): one round
+  continuum, NO structure (lowest non-gauge angular eigenvalue strictly
+  positive, floor ~9.6e-3; gauge l=1 translation + l=0 size excluded).
+  Reciprocal-c MIRROR confirmed exact (c_eff(-X)*c_eff(+X)=1, phi->-phi);
+  the -7.004 "wall" REFUTED (boundary is the -inf seal; the old deep-phi
+  "blowups" were FLOAT64 artifacts, dissolved by mpmath + the sanctioned
+  Taylor/regular-series). Mass convention: e^{-2phi}-1 (positive, grows
+  toward the core). Open edge (minor): l=0 gauge floor Richardson re-check.
+- METHOD RULINGS (Charles, memory): an accurate machine-precision Taylor
+  function-replacement is NOT the forbidden linearization (allowed; use
+  it through folds/overflow). SWEEP THE WHOLE METRIC and see emergent
+  structure; stop probing isolated mechanisms / walling off / building a
+  model from fragments; hold banked negatives loosely.
+
+QUEUE HEAD: the BOUNDARY/H1 sector — derive the particle TYPES /
+STRUCTURE from the H1 area-form / boundary / topological sector (the home
+of q=1/3, N=3, eta=1/18), NOT the bulk. See HANDOFF Queue.
 
 ## FRAME REDIRECT (2026-06-13) — READ THIS FIRST, ABOVE EVERYTHING
 
