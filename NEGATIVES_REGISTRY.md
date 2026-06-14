@@ -866,3 +866,44 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     genuinely NEW structure — otherwise the medium-edge reading stands. That
     route is PARKED (Charles, 2026-06-13: likely-wrong rabbit hole; do not
     pursue without his go). Pending Charles for canon.
+
+## Comprehensive whole-metric sweep (2026-06-13, sweep_results.md;
+## independent blind verifier b3e91f7a2c8d4061, sweep_verifier_results.md)
+## — Charles's zoom-out: sweep the whole metric, both sectors, vs r*
+
+39. THE WHOLE-METRIC BULK IS ONE ROUND-CELL FAMILY; THE ONE-UNIVERSE-VS-
+    SCALE-FAMILY THREAD STAYS OPEN (RELATES, DOES NOT DETERMINE). Ordered
+    by Charles after critiquing the program's fragment/mechanism/wall-off
+    mode: solve the whole metric (phi + angular LIVE and simultaneous, full
+    physical (r,theta) chart, the metric's own ON source, MS tie) directly
+    and comprehensively across r* and depth, and see the emergent structure
+    whole. RESULT (verifier-adjudicated): (a) the bulk forms EXACTLY ONE
+    round-cell family indexed by core depth p; compactness = 1 - e^{-2p}
+    MACHINE-EXACT; r* runs in (1.685895 asymptote, 2.20920 vacuum edge);
+    Gm/c^2 saturates ~0.5026 (NOT exactly 1/2); Kretschmann concentrates at
+    the core; a continuum, no bifurcation ON THE NODELESS BULK BRANCH. Every
+    Legendre lobe l=1..4 relaxes to ROUND at machine zero in the FULL
+    physical 2D both-sector solve -> re-renders #34 (round-only) off the
+    flow-chart trust window into the physical metric, and #33 (continuum)
+    holds. (b) CENTRAL THREAD, corrected from the first-pass over-claim: the
+    exact rescaling u=sqrt(Phi)*r proves the bulk metric is NOT scale-
+    INVARIANT (Phi breaks it) — but Phi is a FREE dimensionful INPUT (at
+    fixed p, sweeping Phi 8 decades runs r* 168.9->1.008) and a continuum in
+    p survives at fixed Phi, so the solve RELATES r* to (p,Phi) and
+    DETERMINES nothing. THE ONE-UNIVERSE-VS-SCALE-FAMILY OPEN THREAD IS
+    UNADVANCED (same standing as #33); it is NOT answered toward bet (a).
+    The clean 1/sqrt(Phi) law holds only as r_in->0. (c) two-sided
+    form/unform interval: flat-vacuum edge p->0, smooth curvature-singular
+    SEALED-CORE limit p->inf (a smooth seal limit, not a second fold; the
+    deep numerical failure is e^{3p} overflow on an already-asymptoted
+    solution). (d) the exterior field crossing zero past r* is the
+    linearized Bessel MEDIUM ripple (half-wavelength pi/sqrt(3 Phi)=1.814),
+    NOT a cell chain — first-zero-as-interface is correct. METHOD FINDING
+    (load-bearing): the physical Dirichlet cell is a BRATU TURNING-POINT
+    problem (why a prior push retreated to the flow chart); robust traversal
+    = outward integration from the regular core parametrized by p. PREMISES /
+    SCOPE: NODELESS BULK branch only; both sectors live but in the BULK (the
+    boundary/H1 area-form sector where q=1/3, N=3 live, and any NODAL
+    interior cells, are OUT OF SCOPE — the type question is absent from the
+    nodeless bulk, not closed by it). Phi taken (w_alg source). DATA-BLIND,
+    HYPOTHESIS-GRADE. Pending Charles for canon.
