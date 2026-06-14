@@ -907,3 +907,42 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     interior cells, are OUT OF SCOPE — the type question is absent from the
     nodeless bulk, not closed by it). Phi taken (w_alg source). DATA-BLIND,
     HYPOTHESIS-GRADE. Pending Charles for canon.
+
+## Boundary/H1 area-form sector (2026-06-14, h1_types_results.md;
+## independent blind verifier af0cfc6744b3334e9, 16/16, h1_types_verifier_results.md)
+
+40. THE BOUNDARY-COHOMOLOGY AREA FORM IS RIGID — ONE TYPE x CONTINUOUS
+    MASS, NO DISCRETE TYPE FAMILY. The GOAL push after the bulk closed
+    (#34/#39 both phi signs, both sectors live to p=-40): derive what the
+    H1 area-form / boundary cohomology PRODUCES and whether it admits a
+    discrete set of stable configurations (= particle types). VERDICT
+    (blind-verified): RIGID. The object Theta=(ln f) omega_H1
+    (omega_H1=sin th dth^dph, integral 4pi) has Xi=dTheta=-q(dr/r)^omega_H1
+    (q=1/3) EXACT, so by Stokes its ENTIRE content is one number
+    D=4pi*(ln f)_seal = (DISCRETE fixed 4pi deg-1 H^2 class) x (CONTINUOUS
+    (ln f)_seal set by the FREE partition energy E). Cohomology of the
+    collar IxS^2: b0=1, b1=0, b2=1, H^2=Z at a fixed deg-1 generator. The
+    metric imposes NO quantization: exact form => zero periods; all four
+    quantization attacks fail independently (Dirac/flux, holonomy
+    [sigma-even ln f single-valued], regularity [regular Lorentzian fold,
+    Neumann fixes slope not value], the q=1/3+4pi seam [charge & mass
+    ORTHOGONAL]); relative-H^3 period valued in R not a lattice; the Z/2
+    fold torsion sits in the trivial (sigma-even) summand and does not
+    quantize. ANTI-NUMEROLOGY anchor re-confirmed TWO ways (CG identity +
+    SO(3) orthogonality m=1,1,1): End(H1)=3x3=1+3+5 EXHAUSTIVE, NO dim-7
+    (the {3,5,7} generations claim stays banked-dead numerology). The 3,5
+    pieces are pure-damping decompositions of ONE round object (wcc-B), not
+    distinct cells; the linear-damped breather route is gap-obstructed.
+    CONSEQUENCE: particle TYPES are NOT in the boundary cohomology (nor the
+    bulk). THE SINGLE REMAINING ROUTE to a discrete catalog: whether a
+    GLOBAL closure condition discretizes the CONTINUOUS E (= the mass). The
+    critical-universe frame's "matter at ONE CRITICAL AMOUNT" (c^2=2GM/r*,
+    the finite-cell mirror, whole-universe tiling) is exactly such a global
+    condition but has NEVER been written as a derived closure ACTING ON E
+    — that is the sharp next object. SCOPE (correctly bounded): RIGID rests
+    on E free, established for the SINGLE-CELL closure only (#33/#34/#39
+    RELATES-not-DETERMINES); "single-cell can't pin E" is NOT inflated to
+    "no closure could" — the global-critical/tiling closure is a GENUINE
+    OPEN ROUTE. The parked #37 core-closure winding is a SEPARATE bundle
+    (the leaf class stays deg-1 rigid in S^3/S^2xS^1/L(p,q)), not the
+    scalar mass. DATA-BLIND. Pending Charles for canon.
