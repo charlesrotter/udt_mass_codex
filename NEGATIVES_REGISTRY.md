@@ -983,3 +983,37 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     premise "ratios from the angular charge" is now WEAK (the charge is one
     rigid value #40; dynamics doesn't discretize) — the ladder is not in
     the single cell's angular structure. DATA-BLIND. Pending Charles.
+
+## Delta_p_F seal charge-correction (2026-06-14, dpf2_results.md;
+## blind-verified a0e0b1cc2bf7ac39f; supersedes the dpf_results.md splice)
+
+42. THE GENUINE O(c^2) Delta_p_F FORM IS DERIVED; THE INTER-SECTOR RATIO
+    IS NOT FORCED (CONVENTION). Charles's cohomological entry: derive
+    Delta_p_F (the per-type phi-angular seal charge-correction) the RIGHT
+    way — by perturbing the ACTUAL charge functional, not assembling banked
+    pieces. SOLID (blind-verified, bankable): perturbing the exterior_cavity
+    functional H(kappa)=L/(2kappa)-1 (EVEN, H(0)=0) on the c-perturbed seal
+    gives Delta_p_F = -(J^2/2)(c^2/gamma) + O(c^4) — c^2-scaling, c->0
+    vanishing EXACT (theorem of H even, the jet norm gamma^2+c^2), and NO
+    W(P) / NO exponential. This RETIRES the prior dpf_results.md ASSEMBLED
+    splice -p_F·W·(c^2/gamma^2)·exp(-(eta/2)d) and its ratio (5/3)e^{-1/18}
+    (registry note: that splice is DEAD — W(P) never multiplies p_F in any
+    real functional). NOT FORCED (do NOT bank as a ratio): the inter-sector
+    ratio (claimed 2) rests on THREE UNCOMPUTED CONVENTIONS — (a) the
+    amplitude map kappa_seal=sqrt(3) J c/gamma (the 1/gamma uncomputed; and
+    a SECTOR MISMATCH — exterior_cavity's kappa is a STATIC spatial
+    anisotropy of f, while the c-jet b*=-c is a TIME-ROW component g_Ttheta;
+    the time-row->static-shape bridge is NEVER SOLVED); (b) the junction
+    count used the WRONG involution (theta->pi-theta) — the banked
+    same-minus sigma is TIME-REVERSAL on the TIME ROW (a,b)=(g_Tr,g_Ttheta)
+    ->(-a,-b), f_T->-f_T, with the angular (r,theta) sector EXPLICITLY
+    UNTOUCHED (w7:49,53-54); the parity/count must come from the ACTUAL
+    sigma, not an angular reflection; (c) the J^2=L closure (no closure
+    integral computed). Flip any convention -> different ratio (3/2, 1/2);
+    ratio "2=L_S5/L_A3" is trivial-by-construction; the MASS ratio still
+    carries c/gamma. THE GENUINE OBSTRUCTION (identified): the angular drive
+    c is a TIME-ROW / NONSTATIONARY quantity (g_Ttheta); deriving Delta_p_F's
+    ratio requires the TIME-ROW -> STATIC-SHAPE bridge (kappa_seal) via the
+    NONSTATIONARY sector (canon C-2026-06-13-1) + the parity count from the
+    banked time-row sigma. This is the precise next object. DATA-BLIND
+    (contract 26fc757 untouched); NO dim-7. Pending Charles.
