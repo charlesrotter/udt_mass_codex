@@ -134,6 +134,34 @@ domino-heuristic-template-tripwire, critical-universe-frame.
 
 ## Queue (ordered)
 
+ROADMAP — NEXT STEPS IN ORDER (the live work; dependency order, 2026-06-14):
+1. SETTLE the B=1/A fork inside matter (queue-head premise): keep
+   g_tt g_rr=-c^2 (=> the source must be TOPOLOGICAL) or relax it (=> a
+   field can source a two-function interior)? MAP/PONDER first.
+2. SETTLE the other two forks: mass = Misner-Sharp vs hbar*omega; and
+   matter = negative-phi vs positive-phi (load-bearing for the hierarchy
+   SIGN). Both touch canon.
+3. GET the actual N=3 / q=1/3 ANGULAR-SECTOR LAGRANGIAN (its target-space +
+   winding term) — the prerequisite the outside models need to proceed.
+4. SOLVE the angular soliton/hedgehog in the UDT background (regular core ->
+   decay to vacuum) as a SHOOTING EIGENPROBLEM => parameter-free mass
+   RATIOS; test vs the lepton ratios + Koide 2/3 = 2q (PASS/FAIL, not
+   evidence).
+5. PLANCK / hbar + the EXPONENTIAL HIERARCHY: legitimize hbar as the native
+   quantization of UDT's OWN derived gauge skeleton (Coulomb / su(3) / Dirac
+   modes, UDT_REBUILD); derive the absolute scale via m ~ m_P e^{-Gamma},
+   Gamma = (angular rational) x (dilation depth) — the cosmic->particle
+   bridge. (Ratios first, absolute scale second.)
+6. ENSEMBLE / multi-cell (the orchestra) IF single-cell + soliton rings
+   smooth: multiple fermions in the shared back-reacted metric + the abelian
+   Coulomb + the su(3) color-singlet SELECTION rule (UDT_REBUILD's queued
+   build). Do NOT smuggle a color FORCE to force a result.
+7. MACRO consilience (CMB / SPARC / MESA / lensing) once the frame is
+   load-bearing.
+Discipline throughout: the METHOD (CLAUDE.md "How we work" — MAP/ponder,
+premise ledger, gated derive, lay pre-work); data-blind; verifier-before-
+record; treat every import as a HYPOTHESIS to verify, not an adoption.
+
 SETTLED THIS SESSION (pointers; full detail in NEGATIVES_REGISTRY #32-#42,
 STATE.md 2026-06-14 block, and the results docs):
 - BULK exhausted as a home for types: both phi signs, both sectors live,
