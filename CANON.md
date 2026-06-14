@@ -163,3 +163,22 @@ genuineness independently re-derived from the original dpf density
 sympy-exact stress tensor + V100 float64 machine-zero over 4096 points. Two
 non-blocking errata recorded (G1/H prose; deficit sign convention).
 Canonized by Charles 2026-06-14.
+
+## Refinement to C-2026-06-14-1 (appended 2026-06-14; exterior-vs-interior)
+
+The native angular Lagrangian is now settled as L2 + L4 — the minimal
+two-derivative kinetic term PLUS the native winding-current term L4 =
+-(kappa/4)|omega_H1|^2_g (the Skyrme term DERIVED as the metric-norm of our
+own H1 area form; an import that named a real UDT object; NO bulk potential —
+eta=1/18 is a seal/boundary object). L4 stabilizes a soliton of definite size
+sqrt(kappa/xi) (one scale), curing the Derrick collapse of the minimal model
+(#43). CONSEQUENCE for C-2026-06-14-1: a REALIZED sized particle carries a
+radial profile (Theta'!=0 through its body), so by the canon's own scope
+(B=1/A breaks under a radial twist) g_tt g_rr = -c^2 is EXACT only in the
+particle's UNWOUND EXTERIOR and is EOS-softened (p_r+rho = e^{-2phi}Theta'^2
+(xi + 2 kappa sin^2 Theta/r^2) > 0) throughout its twisting interior — the
+same structure as a GR star (B=1/A exact outside, corrected inside). The
+canonized "B=1/A sourced inside matter" is thus the EXTERIOR / idealized-knot
+law; a realized particle has a genuine EOS-softened interior body. This
+REFINES, does not retract, C-2026-06-14-1 (blind-verified a1f2213b6410a6f35;
+native_stabilizer_results.md). Recorded by Charles 2026-06-14.

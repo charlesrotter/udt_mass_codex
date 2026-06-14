@@ -1,7 +1,33 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-14 (LATER-2) — FOUNDATION SECURED; native-stabilizer hunt.
+Last update: 2026-06-14 (LATER-3) — ANGULAR LAGRANGIAN SETTLED (all-native); SPECTRUM GO.
+
+## 2026-06-14 (LATER-3) — NATIVE STABILIZER DERIVED; FOUNDATION SECURED; SPECTRUM GATED-GO
+
+native_stabilizer_results.md (blind-verified a1f2213b6410a6f35, STANDS). The
+foundation question is ANSWERED, all-native:
+- THE STABILIZER IS OURS: the textbook Skyrme four-derivative term EQUALS the
+  metric-norm of our OWN H1 winding current, L4 = -(kappa/4)|omega_H1|^2_g
+  (rigorous on |n|=1; survives a random non-diagonal metric — not a basis
+  trick). The import named a real UDT object => keep the native version. NO
+  bulk potential (eta=1/18 is a seal/boundary object, exact transgression).
+- ANGULAR LAGRANGIAN SETTLED: L2 + L4, both from our own objects (n-field +
+  omega_H1). This CURES the #43 Derrick collapse: a soliton of DEFINITE SIZE
+  sqrt(kappa/xi) now EXISTS — the program's FIRST intrinsic length. ONE scale
+  (kappa/xi); no second tunable dial.
+- EOS REFINEMENT (canon C-2026-06-14-1): a realized sized particle has B=1/A
+  EXACT only in its unwound EXTERIOR, EOS-softened through its twisting
+  interior body (like a GR star). Canon refinement appended; not a retraction.
+
+CHARLES (2026-06-14): structure is READY — GO for the discrete family / ratios
+(the gated DERIVE, queue item 4). PROTOCOL (binding): PRE-REGISTER the
+falsification contract (frozen model L2+L4 + finite cell + BCs + soliton->
+particle candidate map + tolerances + look-elsewhere) and commit it BEFORE the
+blind run; DATA-BLIND (wall contract 26fc757 NOT loaded during derivation);
+Koide 2/3=2q is PASS/FAIL, never evidence; verifier-before-record; reveal/
+compare only AFTER. Aim scale-free RATIOS (one scale kappa/xi; m_e a 2nd
+anchor for absolute scale, later).
 
 ## 2026-06-14 (LATER-2) — STATIC MINIMAL CELL CHARACTERIZED; HUNT NATIVE STABILIZER
 

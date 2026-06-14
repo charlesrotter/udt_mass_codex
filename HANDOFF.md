@@ -150,16 +150,26 @@ ROADMAP — NEXT STEPS IN ORDER (the live work; dependency order, 2026-06-14):
    is DERRICK-FORBIDDEN => a stabilizer term is FORCED. So "which terms" now
    has teeth. CHARLES: we are NOWHERE NEAR a reset from the negatives run —
    CONTINUE (do not over-trigger the refusal-run tripwire).
-   LIVE STEP (alpha): test whether the forced stabilizer is NATIVE — try to
-   DERIVE the two imports (Skyrme term; potential) from UDT's own objects
-   (eta=1/18 seal as a native potential? su(3)/4-derivative structure as a
-   native Skyrme term?), keeping a richer phi-angular coupling / seal term on
-   the table. Charter: import = HYPOTHESIS about a native object; if it falls
-   out it named something real (keep native version), else drop it. If BOTH
-   are only imports => the static angular sector can't build a structured
-   particle, which THEN licenses the (beta) nonstationary / (gamma) ensemble
-   reframe. DATA-BLIND; not a mass derivation yet. Items 3-4 (soliton mode-
-   tower -> ratios) stay GATED on this + Charles's go.
+   STEP DONE [native_stabilizer_results.md, blind-verified a1f2213b6410a6f35]:
+   the forced stabilizer IS NATIVE — the Skyrme term = the metric-norm of our
+   OWN H1 winding current, L4 = -(kappa/4)|omega_H1|^2_g (import named a real
+   UDT object). NO bulk potential (eta is boundary-only). ANGULAR LAGRANGIAN
+   SETTLED: L2 + L4, all-native; pins a soliton of definite SIZE sqrt(kappa/xi)
+   (first intrinsic length; ONE scale). EOS refinement: B=1/A exact only in the
+   realized particle's unwound EXTERIOR (canon C-2026-06-14-1 refined). The
+   foundation is SECURED.
+2. *** NEXT — GATED-GO (Charles, 2026-06-14): THE DISCRETE FAMILY / RATIOS. ***
+   Solve L2+L4 on the finite cell for the soliton family (charge/winding sectors
+   + radial modes) and compute scale-free mass RATIOS. PROTOCOL (binding repo
+   discipline): (i) PRE-REGISTER the falsification contract FIRST — frozen model
+   (L2+L4, the finite cell, the BCs), the soliton->particle candidate map, mode
+   labels, tolerances, look-elsewhere accounting — and COMMIT it before the run;
+   (ii) run the derivation DATA-BLIND (wall contract 26fc757 NOT loaded); (iii)
+   Koide 2/3=2q is PASS/FAIL, never evidence; (iv) verifier-before-record; (v)
+   reveal/compare to the wall numbers only AFTER. Aim RATIOS (one scale
+   kappa/xi); m_e a 2nd anchor for absolute scale, later. The renumbered roadmap
+   items 3-7 below (angular Lagrangian / soliton tower / Planck-hierarchy /
+   ensemble / macro) fold into this now that the Lagrangian is in hand.
 2. SETTLE the other two forks: mass = Misner-Sharp vs hbar*omega; and
    matter = negative-phi vs positive-phi (load-bearing for the hierarchy
    SIGN). Both touch canon.
