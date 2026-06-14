@@ -129,8 +129,23 @@ CONFIRMED not assumed. Treat each as a HYPOTHESIS about a UDT-native object:
 - the DISCRETE-TOWER (Bartnik-McKinnon-style overdetermined BVP) may be
   exactly UDT's own regular-core + finite-mass + localization closure —
   discreteness emerging natively from the metric's boundary conditions;
-- hbar-QUANTIZATION may EMERGE if UDT and QM genuinely connect at the
-  cavity-action level (a possible real RESULT, never an up-front assumption).
+- hbar-QUANTIZATION is plausibly NATIVE — strengthened by UDT_REBUILD.md.
+  UDT already DERIVES the CLASSICAL gauge SKELETON of QED/QCD from the
+  metric: exact flat-space COULOMB at every scale (verified — g^tt g^rr=-1
+  => the phi's cancel => static Maxwell gives A_t=c0+Q/r), and the su(3)
+  KINEMATICS of the two-sphere (the l=1 algebra 8=3+5, the eps_abc color
+  singlet unique iff N=3, the quark triplet, charges = multiplicity ratios).
+  Those classical structures are NATIVE, so QUANTIZING THEM (applying hbar
+  to UDT's OWN Coulomb field / su(3) / Dirac bound modes) is a NATIVE
+  completion, NOT a foreign import. And UDT_REBUILD's own conclusion (sec 6)
+  is that the discreteness/"ruler" most likely lives in "the metric's OWN
+  quantum sector — its QED/QCD." CAVEATS: only the classical SKELETON is
+  derived (NO metric-given color FORCE / confinement / quantum dynamics yet;
+  the quark identification rides imports); UDT_REBUILD is strong-but-NOT-
+  canonized; the fermion itself is a BANKED input (postulate A). NET:
+  hbar-as-quantizing-function is legitimately NATIVE to VERIFY (the quantum
+  completion of UDT's derived gauge skeleton) — the open frontier, not yet a
+  derived result.
 Verify each against the actual angular sector / metric: if it falls out, the
 import named something real; if not, follow UDT's own version.
 

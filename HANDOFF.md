@@ -15,27 +15,38 @@ the interior/bulk solve (DEAD END: smooths to one round type, #34),
 frozen backgrounds, the trust-window, determinacy/counting
 sub-questions, action-extremization, invented mechanisms (stiffness,
 integer-tiling, constituent-counting), and narration/reassurance.
-Do NOT. WHERE THE ANSWER LIVES: the BOUNDARY / TOPOLOGY / FORMATION
-sector — the H1 AREA FORM (which produced the only real discrete
-results, N=3, q=1/3, eta=1/18), the seal/closure, the mirror fold. The
-seal is hard/singular — that is WHERE THE PHYSICS IS, not a reason to
-retreat to the interior. Aim at the WHOLE goal; do not stop at a
-sub-result; do not invent; deliver the answer, not reassurance.
-(Full lesson: memory goal-particles-not-interior.)
+Do NOT. WHERE THE ANSWER LIVES (updated 2026-06-14): the ANGULAR /
+TOPOLOGICAL sector — which produced the only real discrete results
+(N=3, q=1/3, eta=1/18) and which our findings + two outside models now
+point to as the SOURCE of matter (phi RESPONDS; a particle = a topological
+knot dressed by a phi cavity). NOTE #40: the BARE cohomological invariant
+LABELS sectors but does NOT by itself GENERATE a mass ladder — it must
+enter as a DYNAMICAL FIELD (gradients / off-diagonal / a hedgehog profile).
+The seal/closure/mirror-fold remain where the hard physics is. Aim at the
+WHOLE goal; do not stop at a sub-result; do not invent; deliver the answer,
+not reassurance. (Full lesson: memory goal-particles-not-interior.)
 
 
-Rewritten 2026-06-13 at the critical-universe reframe. Supersedes the
-2026-06-12 W-series version (in git history; the W1-W8 blow-by-blow is
-in the results docs + NEGATIVES_REGISTRY, not repeated here).
+Rewritten 2026-06-13; UPDATED 2026-06-14 (the METHOD reframe + the
+angular-source direction). The W1-W8 + 2026-06-13/14 blow-by-blow lives in
+NEGATIVES_REGISTRY + STATE + the results docs, not repeated here.
+
+CURRENT STATE (2026-06-14, one line): many eliminations, ZERO constructive
+positives yet; SINGLE-CELL discreteness is EXHAUSTED (static / cohomological
+/ dynamic); the reframe is the METHOD, not the physics; the live direction
+(our findings + two outside models) is the ANGULAR / TOPOLOGICAL sector as
+the SOURCE of matter (phi RESPONDS), via the forced p_r = -rho; SETTLE the
+B=1/A fork FIRST.
 
 Read order for a new instance:
-1. THIS FILE, all of it — the perspective and the working discipline.
-2. CRITICAL_UNIVERSE_FRAME.md — the governing frame (confirmed by
-   Charles 2026-06-13). Then CATALOG_FRAME.md (which it subsumes).
-3. STATE.md — the FRAME REDIRECT block leads; frontier + queue follow.
-4. CLAUDE.md — the charter. NEGATIVES_REGISTRY.md (#1-#31) before
-   treating any banked negative as blocking.
-5. Results docs as needed (w_alg, w6, w8 are the live ones).
+1. CLAUDE.md "How we work" — THE BINDING METHOD (2026-06-14). Read FIRST.
+2. THIS FILE (the perspective + the queue) + memory how-we-work-method.
+3. STATE.md (the 2026-06-14 session-close block leads) +
+   external_input_notes.md (the fresh-eyes input + the three forks).
+4. CRITICAL_UNIVERSE_FRAME.md + DYNAMIC_SCALE_SYNTHESIS.md (the physics
+   frame); UDT_REBUILD.md (the QED/QCD gauge skeleton).
+5. NEGATIVES_REGISTRY.md (esp. #34/#39/#40/#41/#42) before treating any
+   banked negative as blocking; results docs as needed.
 
 ## The perspective (carry this; do not re-derive your way back to it)
 
@@ -60,35 +71,32 @@ vibration spectrum); STIFFNESS is the universe SITTING at the critical
 point (not an added term). The whole W2-W8 stiffness/spectrum/catalog
 effort re-reads as solving PIECES of a whole we were solving wrong.
 
-THE ONE OPEN, CHECKABLE THREAD: does closing the WHOLE metric PIN one
-absolute universe (Charles's "it only closes one way") or leave a
-scale-family? The solved pieces look scale-free (c and G alone are
-scale-free; the quantities we test are dimensionless RATIOS = the wall
-numbers; absolute scale normally set by one observation). Charles
-bets the whole carries a ruler the pieces don't. That bet is THE
-calculation (see Queue).
+THE ONE OPEN THREAD (updated 2026-06-14, largely ANSWERED by Step 0): the
+universe's Misner-Sharp mass M is a real universal ruler for the COSMIC
+scale but does NOT bridge to the particle scale by itself (the M_u/m ratio
+is probe-dependent; the bridge runs THROUGH the cavity+angular structure;
+the hierarchy is EXPONENTIAL). So the absolute scale takes a second anchor
+(m_e) and the program aims at scale-free RATIOS. hbar is now a solid anchor
+(with c,G); UDT derives the CLASSICAL QED/QCD gauge SKELETON (UDT_REBUILD),
+so quantizing UDT's OWN structures is NATIVE (the open frontier, not yet
+derived). See external_input_notes.md + DYNAMIC_SCALE_SYNTHESIS.md.
 
-## How to work (the discipline this session paid for)
+## How to work — SUPERSEDED by CLAUDE.md "How we work" (binding, 2026-06-14)
 
-- SOLVE THE WHOLE METRIC. Unreduced. Both radial-phi AND angular
-  sectors co-equal. ADD NOTHING (no W_wave/stiffness/D_cell/kappa).
-  SLAVE NOTHING (no algebraic q* elimination, no scanned shape). Do
-  NOT extremize a chosen action as a substitute for analyzing the
-  metric's geometry. Every AI before has shortcut exactly here.
-- Charles holds the FRAME; the driver executes and verifies. He
-  corrected the driver's framing three times this session (each a
-  real fix). Watch your own verbs: "add/demand/select/quantize" are
-  invent-tells; "compute/what is there/does it close" are the native
-  register. Aim verifiers at NEGATIVES as hard as positives (the
-  session's deepest find came from a verifier attacking a recorded
-  death).
-- Verifier-before-record (independent, own machinery); pre-register;
-  data-blind vs the wall numbers (never tune); commit per result;
-  nothing canonical without Charles. Maximize subagents to conserve
-  context; GPU = V100 torch float64 (CLAUDE.md pitfalls).
-- Memory carries the deep lessons: critical-universe-frame,
-  particle-catalog-frame, framing-not-computation-charles-role,
-  domino-heuristic-template-tripwire, integer-insight-origin.
+The discipline is now the binding METHOD in CLAUDE.md (+ memory
+how-we-work-method): invert the default from derive to MAKE-VISIBLE-AND-
+PONDER — MAP (whole frame + premise ledger, "chose or derived?") / OBSERVE
+(report what IS there) / PONDER with Charles are PRIMARY; DERIVE is GATED
+(no mass/ratio until Charles says ready); pre-work discussion in LAY
+language; a refusal-RUN => REFRAME, never "one more thing." Standing
+practice retained: verifier-before-record (independent, own machinery);
+data-blind vs the wall numbers (never tune); maximize subagents to conserve
+context; GPU = V100 torch float64 (CLAUDE.md pitfalls); commit per result;
+nothing canonical without Charles. (The old "SOLVE THE WHOLE METRIC / add
+nothing" framing is subsumed — solving the whole is still right, but the
+METHOD above governs HOW.) Memory deep lessons: how-we-work-method,
+sweep-whole-not-fragments, framing-not-computation-charles-role,
+domino-heuristic-template-tripwire, critical-universe-frame.
 
 ## Must-not-lose (durable facts; the rest is in the results docs)
 
@@ -107,10 +115,17 @@ calculation (see Queue).
 - 7.004 (dilation depth at the CMB boundary) = ln(1+z_CMB) via
   1+z=e^phi — currently an observational anchor; whether closure
   derives it is the determines-vs-relates question made concrete.
-- NEGATIVES_REGISTRY #1-#31 are premise-scoped; the discreteness
-  refusals (#1 box-control, #28 bands-not-lines, W7, W8 #31) were
-  MODE-SPECTRUM/STABILITY questions and do NOT bind the critical-
-  universe frame (they answered the wrong question).
+- NEGATIVES_REGISTRY #1-#42 are premise-scoped. SINGLE-CELL discreteness is
+  EXHAUSTED across static (#34/#39), cohomological (#40 — but "exhausted"
+  walked back: only the narrow mass-quantization question was answered), and
+  dynamic-stability (#41). A discrete spectrum is NOT in a single cell.
+- VERIFIED 2026-06-14: the one-function metric FORCES p_r = -rho (a scalar
+  cannot source it; the source must be ANGULAR/TOPOLOGICAL — phi responds).
+  UDT derives the CLASSICAL QED/QCD gauge SKELETON (Coulomb exact + su(3)
+  kinematics, UDT_REBUILD); quantizing UDT's OWN structures is native.
+- Delta_p_F (#42): genuine O(c^2) form -(J^2/2)(c^2/gamma) derived; the
+  inter-sector RATIO is NOT forced (the splice and {3,5,7} were both
+  numerology, verifier-caught). Two ratio attempts, zero banked ratios.
 - Convention: W4-B kappas are member-unit (kappa_true = kappa*2/c_m);
   all kappa!=0/time-dependent physics is hypothesis-grade.
 - Provenance: theorem scripts rescued in rescued_workspaces/ (commit
@@ -119,10 +134,14 @@ calculation (see Queue).
 
 ## Queue (ordered)
 
-DETERMINACY ASIDE (registry #32/#33, w_whole_results.md): a
-single-cell whole-profile closure does NOT pin a unique universe —
-absolute size is scale-free (#32, units, one observation) and the
-single-cell compactness is a continuum (#33). NOTE: the
+(STALE/superseded blocks below kept as session record; the detail is in
+NEGATIVES_REGISTRY + STATE. The CURRENT queue is item 1 onward.)
+
+DETERMINACY ASIDE (registry #32/#33; SUPERSEDED by Step 0 2026-06-14 which
+answered it cleanly: M is a cosmic-scale ruler, does NOT pin the particle
+scale): a single-cell whole-profile closure does NOT pin a unique universe —
+absolute size is scale-free (#32) and the single-cell compactness is a
+continuum (#33). NOTE: the
 "integer cell-tiling / whole-number-of-lumps" idea that briefly
 appeared as a redirect was a DRIVER OVER-REFRAME, NOT Charles's — it
 is STRUCK. Charles's picture is that the geometry forces the TYPES of
