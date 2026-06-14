@@ -946,3 +946,40 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     OPEN ROUTE. The parked #37 core-closure winding is a SEPARATE bundle
     (the leaf class stays deg-1 rigid in S^3/S^2xS^1/L(p,q)), not the
     scalar mass. DATA-BLIND. Pending Charles for canon.
+
+## Single-cell dynamic stability (2026-06-14, dyn1_results.md; independent
+## blind verifier a57b61777bb04e8b7, dyn1_verifier_results.md)
+
+41. SINGLE-CELL DYNAMIC STABILITY GIVES A CONTINUUM — NO DISCRETE
+    SPECTRUM; SINGLE-CELL DISCRETENESS IS NOW EXHAUSTED. Phase 1 of the
+    Dynamic-Phi build (DYNAMIC_SCALE_SYNTHESIS): does temporal stability
+    discretize the cavity p-ladder? VERDICT (blind-verified): NO. The
+    cavity potential U=(1/2)e^{-2v}+e^{v} is STRICTLY CONVEX everywhere
+    (U''>=2.3811>0) so every static cell is a strict energy minimum ->
+    linearly STABLE, all omega^2>0; the Jacobi eigenproblem
+    J u=omega^2 e^{4v0} u has omega^2_min strictly positive across
+    E=1.55..30 (decreasing toward 0+ as cells widen, never crossing).
+    Stability is a BAND (the whole continuum); mass varies smoothly /
+    monotonically with E -> no discrete set. The "nodal family" is a
+    mirage: multi-bounce orbits are PERIOD-REPEATS of the same one-bounce
+    cell (identical amplitude/energy), not distinct sealed configs.
+    SEAL-PARITY CAVEAT TESTED + SURVIVED (the decisive check): the correct
+    seal BC for a TIME-DEPENDENT perturbation is the w6/wcc sigma-ODD ->
+    DIRICHLET branch (dyn1 used Neumann), BUT Dirichlet STIFFENS the cell
+    (omega^2_min LARGER, e.g. 0.387 vs 0.097 at E=3); U''>0 makes J
+    positive-definite under ANY stabilizing seal (Neumann/Dirichlet/
+    outward-Robin) by a Rayleigh argument; only an inward/anti-stabilizing
+    Robin term gives a negative mode and the mirror-fold derives no such
+    term (an inward-Robin CONTROL correctly went negative, -10.7 — the
+    test is live). No metric-derivable seal closure destabilizes any
+    cavity. CONSEQUENCE: with #33/#34/#39 (static bulk continuum) and #40
+    (cohomology rigid), SINGLE-CELL routes to a discrete spectrum are
+    CLOSED across static, cohomological, AND dynamic-stability axes. A
+    native spectrum must come from MULTI-CELL ENSEMBLES (the
+    constituent-count catalog / orchestra), the global critical-M
+    condition (scale, not obviously spectrum; Step 0), or a finite-
+    amplitude (nonlinear) fold the LINEAR stability test cannot see (the
+    one un-excluded gap; same scope limit dyn1/wcc flag). Also: the path-(a)
+    premise "ratios from the angular charge" is now WEAK (the charge is one
+    rigid value #40; dynamics doesn't discretize) — the ladder is not in
+    the single cell's angular structure. DATA-BLIND. Pending Charles.
