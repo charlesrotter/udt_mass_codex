@@ -226,6 +226,27 @@ are PRIMARY; DERIVE is GATED (no mass/ratio until Charles says ready);
 pre-work discussion in LAY language; a refusal-RUN => REFRAME not
 "one more thing."
 
+EXTERNAL FRESH-EYES INPUT (2026-06-14, external_input_notes.md). Charles ran
+the LLM.md spec past outside models. ONE VERIFIED computed result to carry
+in: the UDT metric FORCES the equation of state p_r = -rho (G^t_t=G^r_r
+identically for any phi; re-derived). Convergent DIRECTION (two independent
+models + our own findings agree): a plain SCALAR cannot source the metric;
+the ANGULAR / TOPOLOGICAL sector (N=3, q=1/3) is the plausible SOURCE and
+phi is the RESPONSE (slaved via p_r=-rho); a particle = a topological knot
+dressed by a phi cavity; the spectrum = its nonlinear soliton mode-tower;
+aim for RATIOS; the hierarchy is EXPONENTIAL (m~M_Pl e^{-Gamma}). THREE
+FORKS to settle first (two touch CANON): (1) B=1/A inside matter — keep
+(=> topological source) or relax (=> scalar can source)? (2) mass =
+Misner-Sharp vs hbar*omega (the latter dissolves the negative-mass sign
+problem)? (3) matter = negative phi (canon) vs positive phi (gives the
+exponential hierarchy + positive mass)? hbar is now a SOLID anchor (with
+c,G); discipline = count dimensionful dials (one scale allowed). MAKE-OR-
+BREAK next computation: get OUR actual N=3/q=1/3 angular Lagrangian, solve
+the hedgehog/soliton radial profile in the UDT background as a shooting
+eigenproblem -> parameter-free mass RATIOS; Koide 2/3=2q is a PASS/FAIL
+target, never evidence. Caution: "hedgehog" is a template-import to verify,
+not adopt; the 22/3 numerology is direction not result.
+
 1. NEXT — QUEUE HEAD (Charles, 2026-06-14): NOT a derivation target. When
    work resumes, READ CLAUDE.md "How we work" FIRST and operate that way:
    START in MAP mode — lay out the frame WHOLE + the premise ledger in LAY
