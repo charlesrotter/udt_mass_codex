@@ -834,3 +834,47 @@ these as blocking.
   sector_weight_spectral_probe_results.md,
   p_domain_closure_attempt_results.md, lepton_ladder_test_results.md,
   lepton_ladder_falsification_contract.md (pre-registration).
+
+## OPEN FRONTIER (2026-06-14) — THE EM / PHOTON SECTOR (unmapped)
+
+Flagged by Charles 2026-06-14 (caught LLM2 importing photons/redshift-of-
+radiation): the program — and the driver — have NOT thought about
+electromagnetism. Honest native status:
+- LIGHT = the null structure of the metric (the finite-c-as-dilation reading;
+  redshift 1+z=e^phi acts on null rays). Native, geometric.
+- A SEPARATE EM field (A_mu, photons) is NOT established as native. UDT_REBUILD
+  shows that IF a Maxwell field is put on the UDT background, g^tt g^rr=-1 makes
+  the phi's cancel => exact flat Coulomb A_t=Q/r at every scale — but that
+  ASSUMES A_mu; it does not derive it. UDT_REBUILD is strong-but-NOT-canonized.
+- NO quantized photon; hbar is an add-on.
+=> OPEN: what are charge, light, and EM in UDT, from the metric alone? Is EM
+just the metric's null/abelian sector, or a genuinely separate field? Deserves
+its own MAP session. OPERATIONAL RULE meanwhile: reason with UDT's actual
+larder (phi, metric, winding unit-vector field, Misner-Sharp mass, topological
+invariants N=3/q=1/3, the conditional classical gauge skeleton) — import NO
+photon, spinor, or hbar into the mass-sector reasoning.
+
+## 2026-06-14 (LATER-5) — KOIDE/sqrt(m) LIVE IN THE SPINOR, NOT THE WINDING SECTOR
+
+Decisive thread close (#45; n3_direction_distribution_results.md; blind-verified
+acdd8fd9d95206c42, STANDS). Found a prior NATIVE-LOOKING Koide derivation
+(legacy S13.11, udt_canonical_geometry.md: Brannen Z3, A=sqrt(2j+1)=sqrt2 from
+SPIN, theta=2/9, Q=2/3, 45-deg theorem, m_tau to +0.007%) — but it RIDES the
+Dirac spinor (postulate A) and ASSIGNS the amplitude. Tested whether the bare
+WINDING sector (no spinor) supplies the missing pieces:
+- It does NOT. STRUCTURAL: the axisymmetric easy-axis hedgehog gives an AXIAL
+  2+1 split (FOUR operationalizations agree, incl. the legacy orbital-l=1
+  reading; zero l=1 dipole), NEVER a cyclic Z3. And NO native sqrt(m): L2+L4 has
+  no Dirac-mass-type sqrt-of-density term; every primitive is energy-valued.
+- CLARIFYING SYNTHESIS: Koide's sqrt(m) IS the spinor's Dirac mass; the cyclic
+  Z3 is the spinor's orbital l=1; the sqrt2 amplitude is spin multiplicity. So
+  S13.11's spinor reliance is ESSENTIAL — S13.11 IS native Koide GIVEN postulate
+  A. ALL roads to Koide/sqrt(m) lead through the SPINOR (or an ensemble that
+  still needs a sqrt(m) source). LLM2 independently reinvented S13.11 and hit
+  the same wall (sqrt(m) is the spinor's, not the winding sector's).
+- THE FRONTIER NOW (sharp): is the Dirac fermion (postulate A) DERIVABLE from
+  UDT's geometry (e.g. from q=1/3's projective/spinorial structure, the metric's
+  tetrad/Clifford structure), or irreducibly postulated? Tied to the EM/photon
+  frontier logged above. The ensemble route is the alternative.
+- STILL PENDING: LLM #3 (Charles's three-LLM plan). Session POSITIVES untouched
+  (B=1/A sourced C-2026-06-14-1; native L2+L4; sized soliton).

@@ -300,3 +300,32 @@ METRIC-LED (what does the settled winding sector give for the three internal
 directions?), not target-led. The amplitude was reported as it fell out
 (background-dependent, axial 2+1), explicitly NOT tuned toward any comparison
 value.
+
+---
+
+## VERIFIER-CLEARED — RESULT STANDS (appended 2026-06-14)
+
+Blind verifier (Claude Opus 4.8, agent acdd8fd9d95206c42, 2026-06-14;
+n3_direction_distribution_verifier_results.md + verif_n3_*.py) re-derived
+independently and actively tried to rescue a cyclic-Z3 / native-sqrt(m). Both
+decisive negatives STAND, with a STRUCTURAL theorem:
+- AXIAL 2+1 IS ROBUST; CYCLIC Z3 NOT REACHABLE. FOUR native operationalizations
+  (iso-rotation; the legacy ORBITAL l=1 m-state reading of S13.11; the l=1
+  energy-density harmonic decomposition; the component-overlap tensor) ALL give
+  a diagonal (X,X,Y) tensor — two equal + one special. The energy density has
+  ZERO l=1 dipole (anisotropy is l=0 + l=2, axial/quadrupolar). STRUCTURAL: the
+  easy-axis hedgehog n3=cosTheta leaves an exact SO(2) about axis 3, and an
+  axisymmetric field can only give 2+1, NEVER a discrete 3-fold split.
+- sqrt(m) NOT NATIVE; SPINOR-ONLY. L2+L4 is built entirely from the
+  dimensionless unit vector n and its derivatives (quadratic/quartic in dn), so
+  it contains NO term linear in a sqrt-of-density field with a mass coefficient
+  — which is exactly what a Dirac mass m psibar psi supplies. Every native
+  primitive is dimensionless (n), a count (winding B), a velocity (omega), or an
+  energy/inertia; omega=sqrt(E/Lambda) is a tautology, not a native sqrt.
+- Self-audit (isotropic hedgehog reads isotropic), closed forms, L4 axial,
+  background-dependence: all CONFIRMED. NON-BLOCKING CORRECTION: the ratio's
+  phi-depth trend is non-monotonic (inverts near p~0.75-1.5), not a monotonic
+  shrink to ~7 — strengthens "not universal". The robust invariant is the
+  axial 2+1 PATTERN (perp degenerate to machine precision at every depth).
+BOTTOM LINE: Koide / sqrt(m) are NOT native to the bare single-cell winding
+sector. Both require a spinor (Dirac mass) or an inter-cell/ensemble ingredient.

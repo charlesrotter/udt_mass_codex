@@ -1091,3 +1091,40 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     untouched: B=1/A sourced (C-2026-06-14-1), native L2+L4 settled, a sized
     soliton exists. DATA-BLIND (contract 26fc757 untouched in the derivation).
     Pending Charles.
+
+## N=3-direction mass distribution — Koide/sqrt(m) NOT in the bare winding sector
+## (2026-06-14, n3_direction_distribution_results.md; blind-verified acdd8fd9d95206c42)
+
+45. THE BARE SINGLE-CELL WINDING SECTOR CONTAINS NEITHER A CYCLIC-Z3 SPLIT NOR
+    A NATIVE sqrt(m) — KOIDE/sqrt(m) NEED THE SPINOR (postulate A) OR AN
+    ENSEMBLE. Data-blind computation (decision criteria pre-declared) of how the
+    settled native L2+L4 soliton distributes energy across the three N=3
+    internal directions, WITHOUT a spinor (deliberately omitting the Dirac
+    structure the legacy S13.11 Koide derivation used). RESULT (blind-verified
+    STANDS, active rescue failed):
+    (a) AXIAL 2+1, NOT CYCLIC Z3 — structural theorem: FOUR native
+    operationalizations (iso-rotation; the legacy ORBITAL l=1 reading; the l=1
+    energy-density harmonic decomposition; component overlap) ALL give (X,X,Y);
+    the energy density has ZERO l=1 dipole (anisotropy is l=0+l=2); the
+    easy-axis hedgehog n3=cosTheta leaves an exact SO(2) about axis 3, and an
+    axisymmetric field CANNOT give a discrete 3-fold split. The 3-on-equal-
+    footing structure Koide needs is absent.
+    (b) sqrt(m) NOT NATIVE — L2+L4 is built from the dimensionless unit vector n
+    and its derivatives (quadratic/quartic in dn); it has NO term linear in a
+    sqrt-of-density field with a mass coefficient (= a Dirac mass m psibar psi).
+    Every native primitive is dimensionless n, a count B, a velocity omega, or
+    an energy/inertia; omega=sqrt(E/Lambda) is a tautology. The sqrt(m) of Koide
+    IS the spinor's Dirac-mass structure, deliberately omitted here, confirmed
+    absent from the winding sector.
+    CONSEQUENCE (the clarifying synthesis): the legacy S13.11 Koide derivation's
+    reliance on the Dirac spinor is ESSENTIAL, not removable — the spinor
+    supplies exactly the missing ingredients (sqrt(m) via Dirac mass; cyclic Z3
+    via orbital l=1; the sqrt(2) amplitude via spin multiplicity sqrt(2j+1)).
+    S13.11 IS a native Koide derivation GIVEN postulate A (the fermion). The
+    program's Koide question REDUCES to: is the Dirac fermion (postulate A)
+    DERIVABLE from UDT, or irreducibly postulated? (the fermion/EM frontier).
+    The ENSEMBLE route (3 cells on equal footing -> cyclic Z3, LLM2's ring) is
+    the alternative but STILL needs a sqrt(m) source. PREMISE SET (scope):
+    SINGLE cell; bare L2+L4 (no spinor, no ensemble, no hbar); static. NON-
+    BLOCKING: the easy-axis ratio is non-monotonic in phi-depth (not the doc's
+    monotonic ~7). DATA-BLIND held. Pending Charles.
