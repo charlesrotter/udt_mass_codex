@@ -48,9 +48,18 @@ Session arc (all blind-verified; results docs + registry):
   structure; stop probing isolated mechanisms / walling off / building a
   model from fragments; hold banked negatives loosely.
 
-QUEUE HEAD: the BOUNDARY/H1 sector — derive the particle TYPES /
-STRUCTURE from the H1 area-form / boundary / topological sector (the home
-of q=1/3, N=3, eta=1/18), NOT the bulk. See HANDOFF Queue.
+UPDATE 2026-06-14: the BOUNDARY/H1 sector is ALSO RIGID (#40,
+blind-verified) — one type x CONTINUOUS mass, no discrete family. Types
+are not in the bulk NOR the boundary cohomology. The single remaining
+route to discreteness = a GLOBAL condition pinning the continuous scale,
+and Charles's synthesis (DYNAMIC_SCALE_SYNTHESIS.md, memory
+dynamic-msscale-synthesis) is that the global condition = the universe's
+total MISNER-SHARP mass M. phi is DYNAMIC (C-2026-06-13-1); M sets its one
+dimensionful scale (missing all along; isolated-cell scale conclusions are
+suspect). QUEUE HEAD: build the DYNAMIC, M-ANCHORED CAVITY-STABILITY
+machinery (re-derive legacy physics natively — cavities + angular charge
+q=1/3 + universal MS scale, NO Dirac import) and scan M for the
+stable-matter window. Phased build in HANDOFF Queue item 1.
 
 ## FRAME REDIRECT (2026-06-13) — READ THIS FIRST, ABOVE EVERYTHING
 

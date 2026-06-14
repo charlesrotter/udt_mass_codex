@@ -185,24 +185,41 @@ accurate Taylor function-replacement is NOT forbidden linearization;
 sweep-the-whole-not-fragments. Minor open edge: l=0 gauge-floor
 Richardson re-check (wmdeep).
 
-1. NEXT — QUEUE HEAD (Charles, 2026-06-13): GO TO THE BOUNDARY / H1
-   SECTOR — the home of q=1/3, N=3, eta=1/18. The bulk is closed (above);
-   by exhaustion AND by #36 (the structure is COHOMOLOGICAL, not
-   dynamical — the H1 area form / EXACT boundary transgression, integral
-   4pi, invisible to the bulk EL), the particle TYPES and the
-   discreteness live in the BOUNDARY / TOPOLOGICAL sector that no bulk
-   solve can reach. DERIVE the particle types / structure / properties
-   FROM that sector (the H1 area form, the seal mirror-fold closure, the
-   cohomology). This is the GOAL (formation/topology/properties of
-   particles), now correctly located. Discipline (binding): metric-led
-   (derive from the H1/area-form geometry, do not invent a mechanism);
-   data-blind vs the wall numbers; verifier-before-record; the
-   resonator/mass-as-eigenvalue template is BANKED-DEAD (discreteness is
-   cohomological/topological, NOT a vibration spectrum). Note: #37
-   (topology classes) and its MATTER-CELL-CORE-CLOSURE fork remain
-   PARKED (Charles: likely-wrong rabbit hole) — the H1 area-form sector
-   is the live route, not the core-closure topology derivation, unless
-   Charles reopens it.
-2. Absolute scale stays one observational anchor (#32); the
-   one-universe-vs-scale-family thread stays OPEN (#39).
+DONE 2026-06-14 — THE BOUNDARY/H1 SECTOR IS ALSO RIGID (registry #40,
+h1_types_results.md, blind-verified 16/16). The H1 area-form / boundary
+cohomology gives ONE type x CONTINUOUS mass: the discrete part (4pi,
+deg-1 H^2 class, N=3, q=1/3) x the continuous part ((ln f)_seal = the free
+partition energy E). NO discrete type family; no quantization (exact
+transgression => zero periods; all 4 quantization attacks fail; anti-
+numerology re-confirmed: 3x3=1+3+5, NO dim-7). So TYPES are not in the
+bulk NOR the boundary cohomology. The SINGLE remaining route to a discrete
+catalog = a GLOBAL condition that discretizes the continuous E (the mass).
+
+1. NEXT — QUEUE HEAD (Charles, 2026-06-14): BUILD THE DYNAMIC, M-ANCHORED
+   CAVITY-STABILITY MACHINERY (DYNAMIC_SCALE_SYNTHESIS.md — the governing
+   synthesis; read it + memory dynamic-msscale-synthesis). The global
+   condition #40 needs IS the universe holding the critical Misner-Sharp
+   mass M. phi is the DYNAMIC field (canon C-2026-06-13-1); M sets the one
+   dimensionful scale it lives in (the piece missing all along — isolated
+   cells set scale=1 arbitrarily, hence the suspect free-scale + broken
+   r* mirror 2.5459 vs 1.6859). Re-derive the legacy physics NATIVELY (no
+   Dirac import): drive phi negative -> cavities; the angular charge
+   q=1/3/N=3 selects which cavities are allowed; M sets the universal
+   scale. PHASED BUILD: (1) dynamic phi evolver carrying a negative-phi
+   cavity (Taylor/mpmath deep; verify well-posed); (2) wire M in via
+   total-MS=M fixing the scale (Phi DERIVED from M, not free); (3)
+   cavity-stability-vs-M test + the angular charge selector ("stabilize" =
+   the cavity PERSISTS/recycles, doesn't disperse — a dynamic question);
+   (4) the M-scan for the stable-matter window (bracket sub-percent IF
+   narrow; the scan is a TEST — tight window confirms the critical picture
+   + explains observed flatness, wide mush challenges it). The cosmic->
+   particle bridge must run THROUGH the cavity+angular structure (c,G,M
+   alone give only the cosmic size); the legacy ~7/cos(pi/5) may re-emerge
+   as its DERIVED output. Discipline: NO Dirac import; resonator template
+   BANKED-DEAD; metric-led; data-blind; solve the WHOLE dynamic M-anchored
+   system, not isolated cells. M = observational input (CMB) for the first
+   pass; whether M is self-determined (bet a) is deferred.
+2. Scale conclusions from isolated single cells are SUSPECT (#39 framing);
+   the scale-independent results (q=1/3, N=3; propagation C-2026-06-13-1;
+   cavity-forms) survive. #37 core-closure stays PARKED.
 3. Macro consilience roadmap (memory) once the frame is load-bearing.
