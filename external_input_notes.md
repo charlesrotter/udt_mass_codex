@@ -97,4 +97,41 @@ hit BEFORE looking, NEVER as evidence. **[caution]** The "hedgehog/global
 monopole" is a TEMPLATE-IMPORT to verify against our real angular sector,
 not adopt blindly; the 22/3 ~ gamma numerology is direction, not result.
 
+## Imports vs precedents — verify, don't adopt (and some may be UDT-native)
+
+The outside models reached for the standard toolkit for "a discrete family
+of stable localized lumps." Guard (charter principle 1):
+- A PRECEDENT is a harmless ANALOGY showing the niche is real — KEEP it.
+  E.g. Bartnik-McKinnon: gravity + a nonlinear sector DID yield a discrete
+  soliton family. It imports nothing; it shows the mechanism can exist.
+- An IMPORT/ASSUMPTION is adopting a borrowed GADGET's equations in place of
+  deriving UDT's own — RESIST until the metric produces it.
+
+The imports flagged:
+1. The HEDGEHOG / global-monopole field — needs an EXTRA direction-field
+   with its own target-space rulebook; UDT has only the one dilation field.
+2. The VIBRATING-DRUM / eigenfrequency (RESONATOR) framing — mass = the
+   "notes" of a cavity; this is the banked-dead "particle = vibration"
+   picture (#1/#28/W7/W8/#41). UDT's real discreteness is geometric/
+   topological, not musical.
+3. The QUANTIZATION RULE — "action comes in whole chunks of hbar"
+   (mass = hbar*omega; closed-loop action quantized). FINE LINE:
+   hbar-as-CONSTANT (a ruler with c,G) is allowed (Charles); hbar-as-
+   quantization-LAW is an import (assumes QM on top of UDT instead of
+   letting UDT make discreteness itself).
+
+BUT — IMPORTANT — SOME IMPORTS MAY HAVE NATIVE UDT DERIVATIONS / ANALOGS, in
+which case the import was a good GUESS at UDT's own structure, to be
+CONFIRMED not assumed. Treat each as a HYPOTHESIS about a UDT-native object:
+- the HEDGEHOG may be the native form of the angular N=3 / q=1/3 winding —
+  if UDT's angular sector produces that knot, it IS a UDT-native
+  hedgehog-analog, derived not imported;
+- the DISCRETE-TOWER (Bartnik-McKinnon-style overdetermined BVP) may be
+  exactly UDT's own regular-core + finite-mass + localization closure —
+  discreteness emerging natively from the metric's boundary conditions;
+- hbar-QUANTIZATION may EMERGE if UDT and QM genuinely connect at the
+  cavity-action level (a possible real RESULT, never an up-front assumption).
+Verify each against the actual angular sector / metric: if it falls out, the
+import named something real; if not, follow UDT's own version.
+
 Files: external_source_analysis.py (the run; only p_r=-rho is computed).
