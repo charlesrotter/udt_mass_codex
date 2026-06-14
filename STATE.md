@@ -1,8 +1,10 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-13 SESSION CLOSE (the BULK comprehensively closed;
-matter regime corrected to NEGATIVE phi; queue head -> boundary/H1).
+Last update: 2026-06-14 SESSION CLOSE (single-cell discreteness EXHAUSTED
+across static/cohomological/dynamic; the real reframe is the METHOD — see
+CLAUDE.md "How we work"; physics points to the DYNAMIC/nonstationary
+phi-angular coupling but is NOT to be drilled as "one more thing").
 
 ## 2026-06-13 SESSION CLOSE — THE BULK IS CLOSED; GO TO THE BOUNDARY/H1
 
@@ -48,18 +50,64 @@ Session arc (all blind-verified; results docs + registry):
   structure; stop probing isolated mechanisms / walling off / building a
   model from fragments; hold banked negatives loosely.
 
-UPDATE 2026-06-14: the BOUNDARY/H1 sector is ALSO RIGID (#40,
-blind-verified) — one type x CONTINUOUS mass, no discrete family. Types
-are not in the bulk NOR the boundary cohomology. The single remaining
-route to discreteness = a GLOBAL condition pinning the continuous scale,
-and Charles's synthesis (DYNAMIC_SCALE_SYNTHESIS.md, memory
-dynamic-msscale-synthesis) is that the global condition = the universe's
-total MISNER-SHARP mass M. phi is DYNAMIC (C-2026-06-13-1); M sets its one
-dimensionful scale (missing all along; isolated-cell scale conclusions are
-suspect). QUEUE HEAD: build the DYNAMIC, M-ANCHORED CAVITY-STABILITY
-machinery (re-derive legacy physics natively — cavities + angular charge
-q=1/3 + universal MS scale, NO Dirac import) and scan M for the
-stable-matter window. Phased build in HANDOFF Queue item 1.
+## 2026-06-14 SESSION CLOSE — THE REFRAME IS THE METHOD, NOT THE PHYSICS
+
+READ CLAUDE.md "How we work" FIRST. The honest scorecard of this session:
+MANY eliminations, ZERO constructive positives — not a single mass or ratio
+derived. Charles named the pattern: the driver keeps ELIMINATING sectors and
+declaring "only one thing left" (dozens of times), which FEELS like
+convergence but is the "one-more-thing" failure mode — the space being
+eliminated from is not closed, each kill spawns a reframe. The bottleneck is
+the METHOD, not the physics. NEW BINDING METHOD (CLAUDE.md, memory
+how-we-work-method): invert the default from derive to
+make-visible-and-ponder; MAP (premise ledger, "chose or derived?") /
+OBSERVE (report what IS there) / PONDER with Charles are PRIMARY; DERIVE is
+GATED (no mass/ratio until Charles says the structure is ready); pre-work
+discussion in LAY language; a refusal-RUN triggers REFRAME, never "one more
+thing." Goal = let STRUCTURE EMERGE from the metric, analyze/refine
+together.
+
+The day's findings (all blind-verified; results docs + registry):
+- #40 boundary cohomology: the AREA FORM gives charge (4pi, N=3, q=1/3) x
+  CONTINUOUS mass — does NOT quantize the mass. CORRECTION (Charles): #40
+  answered only that NARROW question; the cohomological SECTOR was NOT
+  genuinely explored / NOT exhausted (the "exhausted" wording is walked
+  back).
+- Step 0 (bridge check): the universe's total MS mass M is a real universal
+  ruler for ONE length (the COSMIC scale) but does NOT bridge to the
+  particle scale — the M_u/m ratio is probe-dependent (~m^{3/2}, not
+  universal); the dilation depth can't carry the ~10^40 (would need |phi|~90,
+  matter is ~0.8); the legacy ~7/cos(pi/5) does NOT re-emerge (the corpus
+  itself flags ~7 as a 0.6% coincidence). => the cosmic->particle hierarchy
+  needs a 2nd anchor (m_e) or genuine cavity+angular structure; path chosen
+  = (a) two-anchor (M + m_e), chase the RATIOS (scale-free).
+- #41 single-cell DYNAMIC stability = CONTINUUM (blind-verified, seal-parity
+  caveat tested + survived: U''>=2.38>0 => stable under every metric-
+  derivable seal). With #34/#39 (bulk) + #40 (cohomology), SINGLE-CELL
+  routes to a discrete spectrum are CLOSED across static, cohomological, AND
+  dynamic-stability axes. "Ratios from the angular charge" is now weak.
+- #42 Delta_p_F: the genuine O(c^2) form -(J^2/2)(c^2/gamma) IS derived (by
+  perturbing the actual functional H(kappa)=L/(2kappa)-1; c->0 vanishing;
+  retires the prior ASSEMBLED splice + its (5/3)e^{-1/18} ratio). The
+  inter-sector RATIO is NOT forced (convention; the junction count used the
+  WRONG involution). GENUINE OBSTRUCTION identified: the angular drive c is
+  a TIME-ROW / NONSTATIONARY quantity (g_Ttheta); the ratio needs the
+  TIME-ROW -> STATIC-SHAPE bridge via the nonstationary sector
+  (C-2026-06-13-1) + the parity count from the banked time-row sigma.
+- SYNTHESIS (DYNAMIC_SCALE_SYNTHESIS.md, canon-candidate): phi is the
+  dynamic field; the universe's MS mass M sets its single dimensionful
+  scale; re-derive legacy physics natively (cavities + angular charge + MS
+  scale), no Dirac import. Two numerology-class attempts at the ratios
+  ({3,5,7}, the Delta_p_F splice) were both caught by verifiers.
+
+QUEUE HEAD (2026-06-14): NOT a derivation target. When work resumes, START
+in the new method — MAP the frame + premise ledger in LAY language, PONDER
+with Charles, let structure emerge; do NOT derive masses/ratios until he
+says ready, and do NOT "one-more-thing" the next sector. The LEADING physics
+candidate to EXPLORE (not drill) is the DYNAMIC / NONSTATIONARY phi-angular
+coupling (the time-row->shape object, the M-anchored dynamic synthesis) —
+the one place the discreteness still points and the home of Charles's
+standing hunch. See HANDOFF Queue.
 
 ## FRAME REDIRECT (2026-06-13) — READ THIS FIRST, ABOVE EVERYTHING
 

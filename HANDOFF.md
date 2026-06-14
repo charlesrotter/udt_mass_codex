@@ -195,31 +195,53 @@ numerology re-confirmed: 3x3=1+3+5, NO dim-7). So TYPES are not in the
 bulk NOR the boundary cohomology. The SINGLE remaining route to a discrete
 catalog = a GLOBAL condition that discretizes the continuous E (the mass).
 
-1. NEXT — QUEUE HEAD (Charles, 2026-06-14): BUILD THE DYNAMIC, M-ANCHORED
-   CAVITY-STABILITY MACHINERY (DYNAMIC_SCALE_SYNTHESIS.md — the governing
-   synthesis; read it + memory dynamic-msscale-synthesis). The global
-   condition #40 needs IS the universe holding the critical Misner-Sharp
-   mass M. phi is the DYNAMIC field (canon C-2026-06-13-1); M sets the one
-   dimensionful scale it lives in (the piece missing all along — isolated
-   cells set scale=1 arbitrarily, hence the suspect free-scale + broken
-   r* mirror 2.5459 vs 1.6859). Re-derive the legacy physics NATIVELY (no
-   Dirac import): drive phi negative -> cavities; the angular charge
-   q=1/3/N=3 selects which cavities are allowed; M sets the universal
-   scale. PHASED BUILD: (1) dynamic phi evolver carrying a negative-phi
-   cavity (Taylor/mpmath deep; verify well-posed); (2) wire M in via
-   total-MS=M fixing the scale (Phi DERIVED from M, not free); (3)
-   cavity-stability-vs-M test + the angular charge selector ("stabilize" =
-   the cavity PERSISTS/recycles, doesn't disperse — a dynamic question);
-   (4) the M-scan for the stable-matter window (bracket sub-percent IF
-   narrow; the scan is a TEST — tight window confirms the critical picture
-   + explains observed flatness, wide mush challenges it). The cosmic->
-   particle bridge must run THROUGH the cavity+angular structure (c,G,M
-   alone give only the cosmic size); the legacy ~7/cos(pi/5) may re-emerge
-   as its DERIVED output. Discipline: NO Dirac import; resonator template
-   BANKED-DEAD; metric-led; data-blind; solve the WHOLE dynamic M-anchored
-   system, not isolated cells. M = observational input (CMB) for the first
-   pass; whether M is self-determined (bet a) is deferred.
-2. Scale conclusions from isolated single cells are SUSPECT (#39 framing);
-   the scale-independent results (q=1/3, N=3; propagation C-2026-06-13-1;
-   cavity-forms) survive. #37 core-closure stays PARKED.
+DONE 2026-06-14 (later) — SINGLE-CELL DISCRETENESS EXHAUSTED; the Delta_p_F
+attempt; THE METHOD REFRAME. (a) STEP 0 bridge check: the universe's MS mass
+M is a real universal ruler for ONE length (the COSMIC scale) but does NOT
+bridge to the particle scale (M_u/m is probe-dependent ~m^{3/2}; the
+dilation depth can't carry ~10^40; the legacy ~7 does NOT re-emerge — the
+corpus itself flags it as a 0.6% coincidence). Path chosen = (a) two-anchor
+(M + m_e), chase the scale-free RATIOS. (b) REGISTRY #41 (blind-verified):
+single-cell DYNAMIC stability = CONTINUUM (U''>=2.38>0 => stable under every
+metric-derivable seal; seal-parity caveat tested + survived). With
+#34/#39/#40, SINGLE-CELL routes to a discrete spectrum are CLOSED across
+static, cohomological, AND dynamic axes. (c) REGISTRY #42: the genuine O(c^2)
+Delta_p_F form -(J^2/2)(c^2/gamma) IS derived (retires the prior ASSEMBLED
+splice + its (5/3)e^{-1/18}); the inter-sector RATIO is NOT forced
+(convention; wrong involution). OBSTRUCTION identified: the angular drive c
+is a TIME-ROW / NONSTATIONARY quantity; the ratio needs the
+TIME-ROW->STATIC-SHAPE bridge via the nonstationary sector. (d) #40's
+"cohomology exhausted" wording WALKED BACK (Charles): #40 answered only the
+narrow mass-quantization question; the sector was not genuinely explored.
+
+THE REFRAME (Charles, 2026-06-14) — THE METHOD, NOT THE PHYSICS. The honest
+scorecard: many eliminations, ZERO constructive positives (no mass/ratio
+derived; two ratio attempts — {3,5,7}, the Delta_p_F splice — both caught as
+numerology). Charles named the driver's "only one thing left" pattern (said
+dozens of times) as the "one-more-thing" failure mode. NEW BINDING METHOD in
+CLAUDE.md "How we work" (+ memory how-we-work-method): invert the default
+from derive to MAKE-VISIBLE-AND-PONDER — MAP (whole frame + premise ledger,
+"chose or derived?") / OBSERVE (report what IS there) / PONDER with Charles
+are PRIMARY; DERIVE is GATED (no mass/ratio until Charles says ready);
+pre-work discussion in LAY language; a refusal-RUN => REFRAME not
+"one more thing."
+
+1. NEXT — QUEUE HEAD (Charles, 2026-06-14): NOT a derivation target. When
+   work resumes, READ CLAUDE.md "How we work" FIRST and operate that way:
+   START in MAP mode — lay out the frame WHOLE + the premise ledger in LAY
+   language, PONDER with Charles, let structure EMERGE from solving the
+   metric; do NOT chase a mass/ratio, do NOT "one-more-thing" the next
+   sector. The governing PHYSICS frame is the Dynamic-Phi / Universal-MS-
+   Scale synthesis (DYNAMIC_SCALE_SYNTHESIS.md): phi dynamic, M sets the one
+   dimensionful scale, re-derive legacy natively (cavities + angular charge
+   + MS scale, NO Dirac import). The LEADING candidate to EXPLORE (observe +
+   ponder, not drill) is the DYNAMIC / NONSTATIONARY phi-angular coupling —
+   the time-row->static-shape object (#42), where the discreteness still
+   points and the home of Charles's standing hunch. Treat it as a region to
+   map, not a wall to declare.
+2. Scale conclusions from isolated single cells are SUSPECT (#39); the
+   scale-independent results (q=1/3, N=3; propagation C-2026-06-13-1;
+   cavity-forms) survive. The cohomological sector is NOT exhausted (only
+   the narrow #40 mass-quantization question was answered). #37 core-closure
+   stays PARKED.
 3. Macro consilience roadmap (memory) once the frame is load-bearing.
