@@ -134,104 +134,34 @@ domino-heuristic-template-tripwire, critical-universe-frame.
 
 ## Queue (ordered)
 
-(STALE/superseded blocks below kept as session record; the detail is in
-NEGATIVES_REGISTRY + STATE. The CURRENT queue is item 1 onward.)
-
-DETERMINACY ASIDE (registry #32/#33; SUPERSEDED by Step 0 2026-06-14 which
-answered it cleanly: M is a cosmic-scale ruler, does NOT pin the particle
-scale): a single-cell whole-profile closure does NOT pin a unique universe —
-absolute size is scale-free (#32) and the single-cell compactness is a
-continuum (#33). NOTE: the
-"integer cell-tiling / whole-number-of-lumps" idea that briefly
-appeared as a redirect was a DRIVER OVER-REFRAME, NOT Charles's — it
-is STRUCK. Charles's picture is that the geometry forces the TYPES of
-lumps (what kinds of stable structures can exist), not a count of
-identical tiled lumps. The determinacy/pinning analysis itself was a
-DETOUR from the actual instruction below.
-
-DONE 2026-06-13 (registry #34): the interacting-whole BULK INTERIOR
-solve (both sectors live, two-way) gives EXACTLY ONE TYPE — a round
-cell, a smooth continuum; the metric's angular operator is pure
-DAMPING (no bulk angular source). The interior is a DEAD END for
-types. Confirmed: the TYPES live at the BOUNDARY/TOPOLOGY, not the
-bulk.
-
-STRUCTURE SOLVED 2026-06-13 (registry #36, wcc_results.md,
-blind-verified): the WHOLE closed cell (interior + seal mirror-fold
-closure, both sectors, two-way, solved as one BVP — finally NOT
-truncated at the interior) supports NO dynamical angular structure —
-ONE ROUND body even closed (the angular nonlinearity -v_theta^2
-linearizes to EXACTLY ZERO about round => sign-definite pure damping;
-angular gap positive under every seal closure). THE STRUCTURE IS
-COHOMOLOGICAL, NOT DYNAMICAL: the H1 area form is topological
-(integral = 4pi; an EXACT boundary transgression d[(ln f)omega_H1]
-delivered at the closure, invisible to the bulk EL). This is WHY
-q=1/3 and N=3 are real yet NEVER appear in any dynamical spectrum
-(cohomology vs eigenvalues) — and why every spectral discreteness
-hunt (#1/#28/W7/W8/#34) failed: wrong sector. The geometry splits
-into a trivial round dynamical body + a non-trivial TOPOLOGICAL
-2-form at the seal, and ALL real structure (the discreteness, the
-numbers that worked) is in the topological part.
-
-TOPOLOGY DERIVED 2026-06-13 (registry #37, topo_results.md,
-blind-verified): GENUS rigid g=0 (axis regularity => two poles =>
-chi=2 => sphere; NO genus family). A WINDING/Chern FAMILY of particle
-types is genuinely possible, FORK-DEPENDENT on ONE OPEN DERIVABLE FACT
-— the matter-cell CORE closure: core areal r->0 => S^3 => ONE rigid
-type (no family); finite second seal => S^2xS^1 (H^2=Z) => INTEGER
-family; p-fold twist => L(p,q) => finite p-family. Intrinsic chi=2/4pi
-(N=3, q=1/3) survives every branch. #36's D3 reading CORRECTED: the
-transgression is sigma-EVEN/symmetric (sigma=time-reversal, time row
-only), dynamics-invisible because EXACT not by parity.
-
-DONE 2026-06-13 — THE OPEN-ENDED SCAN + THE BULK CLOSURE (this session,
-all blind-verified; solution_space_map.md, registry #38/#38-cont/#39,
-neg_sweep/wmneg/wmdeep results). The three-step whole-metric scan ran;
-its one real anomaly (the nonstationary diagonal sector PROPAGATES in T,
-a sign-error overturn of #22) is CANON C-2026-06-13-1. The off-diagonal
-row resolved to the cell's MEDIUM-EDGE with NO native completion
-(#38/#38-cont; closes the W1 EH-remainder route). Then, per Charles's
-"sweep the WHOLE metric, stop building from fragments" redirect, the bulk
-was solved comprehensively: BOTH phi signs, BOTH sectors GENUINELY LIVE,
-shallow AND deep (negative-phi matter regime to p=-40 by SOLVE not
-argument). VERDICT: the BULK is ONE ROUND CONTINUUM with NO discrete/
-angular/shaped type, anywhere — EXHAUSTED as a home for particle
-structure. (#39: RELATES r* to (p,Phi) but DETERMINES nothing -> the
-one-universe-vs-family thread stays OPEN. Reciprocal-c phi->-phi mirror
-confirmed; the -7.004 "wall" refuted = the deep "blowups" were float64
-artifacts. Matter mass = e^{-2phi}-1.) Method rulings banked to memory:
-accurate Taylor function-replacement is NOT forbidden linearization;
-sweep-the-whole-not-fragments. Minor open edge: l=0 gauge-floor
-Richardson re-check (wmdeep).
-
-DONE 2026-06-14 — THE BOUNDARY/H1 SECTOR IS ALSO RIGID (registry #40,
-h1_types_results.md, blind-verified 16/16). The H1 area-form / boundary
-cohomology gives ONE type x CONTINUOUS mass: the discrete part (4pi,
-deg-1 H^2 class, N=3, q=1/3) x the continuous part ((ln f)_seal = the free
-partition energy E). NO discrete type family; no quantization (exact
-transgression => zero periods; all 4 quantization attacks fail; anti-
-numerology re-confirmed: 3x3=1+3+5, NO dim-7). So TYPES are not in the
-bulk NOR the boundary cohomology. The SINGLE remaining route to a discrete
-catalog = a GLOBAL condition that discretizes the continuous E (the mass).
-
-DONE 2026-06-14 (later) — SINGLE-CELL DISCRETENESS EXHAUSTED; the Delta_p_F
-attempt; THE METHOD REFRAME. (a) STEP 0 bridge check: the universe's MS mass
-M is a real universal ruler for ONE length (the COSMIC scale) but does NOT
-bridge to the particle scale (M_u/m is probe-dependent ~m^{3/2}; the
-dilation depth can't carry ~10^40; the legacy ~7 does NOT re-emerge — the
-corpus itself flags it as a 0.6% coincidence). Path chosen = (a) two-anchor
-(M + m_e), chase the scale-free RATIOS. (b) REGISTRY #41 (blind-verified):
-single-cell DYNAMIC stability = CONTINUUM (U''>=2.38>0 => stable under every
-metric-derivable seal; seal-parity caveat tested + survived). With
-#34/#39/#40, SINGLE-CELL routes to a discrete spectrum are CLOSED across
-static, cohomological, AND dynamic axes. (c) REGISTRY #42: the genuine O(c^2)
-Delta_p_F form -(J^2/2)(c^2/gamma) IS derived (retires the prior ASSEMBLED
-splice + its (5/3)e^{-1/18}); the inter-sector RATIO is NOT forced
-(convention; wrong involution). OBSTRUCTION identified: the angular drive c
-is a TIME-ROW / NONSTATIONARY quantity; the ratio needs the
-TIME-ROW->STATIC-SHAPE bridge via the nonstationary sector. (d) #40's
-"cohomology exhausted" wording WALKED BACK (Charles): #40 answered only the
-narrow mass-quantization question; the sector was not genuinely explored.
+SETTLED THIS SESSION (pointers; full detail in NEGATIVES_REGISTRY #32-#42,
+STATE.md 2026-06-14 block, and the results docs):
+- BULK exhausted as a home for types: both phi signs, both sectors live,
+  shallow to deep p=-40, by SOLVE not argument => ONE ROUND CONTINUUM, no
+  discrete/angular/shaped type (#34/#39). The off-diagonal angular row =
+  the cell's MEDIUM-EDGE, no native completion; closes the W1 EH-remainder
+  route (#38). Matter lives at NEGATIVE phi (regime corrected); reciprocal-c
+  phi->-phi mirror exact; the -7.004 "wall" refuted (deep blowups = float64
+  artifacts, dissolved by mpmath/Taylor).
+- COHOMOLOGY: the closed cell's structure is COHOMOLOGICAL not dynamical
+  (#36); the H1 area form gives the discrete CHARGE (N=3, q=1/3, eta=1/18)
+  but is RIGID -- one charge x CONTINUOUS mass, no discrete type family (#40;
+  "exhausted" WALKED BACK: only the narrow mass-quantization question was
+  answered). Topology: genus rigid g=0; a winding family is fork-dependent on
+  the PARKED matter-cell core closure (#37).
+- SINGLE-CELL discreteness EXHAUSTED across static (#34/#39), cohomological
+  (#40), and DYNAMIC stability (#41 = continuum; U''>0 stable under every
+  seal). Delta_p_F (#42): genuine O(c^2) form -(J^2/2)(c^2/gamma) derived,
+  but the inter-sector RATIO is NOT forced (convention; {3,5,7} + the splice
+  were both numerology, verifier-caught). Obstruction: the angular drive c is
+  a TIME-ROW / nonstationary quantity (needs the time-row->shape bridge).
+- SCALE (Step 0): M is a real ruler for the COSMIC scale but does NOT bridge
+  to particles (M_u/m probe-dependent; the hierarchy is EXPONENTIAL) => aim
+  scale-free RATIOS + a 2nd anchor (m_e). CANON C-2026-06-13-1: the
+  nonstationary diagonal sector PROPAGATES in T (sign-error overturn of #22).
+- DETERMINACY (#32/#33): a single-cell closure does NOT pin a unique
+  universe (superseded/clarified by Step 0). The "integer cell-tiling"
+  redirect was a driver over-reframe, STRUCK.
 
 THE REFRAME (Charles, 2026-06-14) — THE METHOD, NOT THE PHYSICS. The honest
 scorecard: many eliminations, ZERO constructive positives (no mass/ratio
