@@ -1,10 +1,44 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-14 SESSION CLOSE (single-cell discreteness EXHAUSTED
-across static/cohomological/dynamic; the real reframe is the METHOD — see
-CLAUDE.md "How we work"; physics points to the DYNAMIC/nonstationary
-phi-angular coupling but is NOT to be drilled as "one more thing").
+Last update: 2026-06-14 (LATER) — FIRST CONSTRUCTIVE POSITIVE.
+
+## 2026-06-14 (LATER) — B=1/A INSIDE MATTER IS DERIVED (queue-head fork SETTLED)
+
+THE MILESTONE (the program's FIRST constructive positive — after a long run
+of eliminations, a result that BUILDS): the queue-head B=1/A fork is resolved
+in favor of KEEP, the honest way (Route Y: the source derives it, not a
+postulate). UDT's OWN angular field — the unit 3-vector n_a whose winding is
+the H1 area form omega_H1 (the N=3, q=1/3 carrier) — sourced by the minimal
+two-derivative Lagrangian L = -(xi/2) g^{mn} d_m n_a d_n n_a, gives
+T^t_t = T^r_r in any purely-angular config, hence p_r = -rho, hence
+g_tt g_rr = -c^2 holds INSIDE matter as a theorem. CANONIZED C-2026-06-14-1.
+
+- Blind-verified (constructor a440405d389552f39 + independent verifier
+  a4edbefa0e29edfa2). The anti-smuggling anchor is GENUINE: the reduction
+  integrand is the 1/f warp already in the project's own dpf density
+  (predating the push), I_native == G1 to ~1e-48 — NATIVE, not a textbook
+  global monopole. p_r+rho = 0 sympy-exact + GPU machine-zero (4096 pts).
+- VERIFIER STRENGTHENING: T^t_t=T^r_r holds for ANY purely-angular field (not
+  just the hedgehog) and is ROBUST to native Skyrme/potential additions (they
+  preserve T^t_t=T^r_r, changing only T^theta_theta + the deficit). So B=1/A
+  does NOT hinge on the minimal-model choice; the SPECTRUM does.
+- SCOPE: breaks under a radial twist (p_r+rho = xi e^{-2phi}(Theta')^2 >= 0).
+  A canonical SCALAR cannot source it (p_r+rho>0): the source MUST be angular;
+  phi RESPONDS. Two non-blocking errata recorded (G1/H prose; deficit sign).
+- ROUTE X (dilation = reciprocal/boost) is now the INTERPRETATION of this, not
+  a relied-on postulate; Y carried it. Files: angular_lagrangian_results.md,
+  angular_lagrangian_verifier_results.md (+ scripts).
+
+NEXT (Charles, 2026-06-14): do NOT rush to masses. SECURE THE FOUNDATION
+first — settle natively WHICH terms belong in the angular Lagrangian (the
+term content is what the spectrum hinges on, even though B=1/A does not).
+Only after that is the structure "ready" for any ratio work.
+
+## 2026-06-14 SESSION CLOSE — single-cell discreteness EXHAUSTED
+(static/cohomological/dynamic; the reframe is the METHOD — see CLAUDE.md
+"How we work"; physics points to the DYNAMIC/nonstationary phi-angular
+coupling but is NOT to be drilled as "one more thing").
 
 ## 2026-06-13 SESSION CLOSE — THE BULK IS CLOSED; GO TO THE BOUNDARY/H1
 

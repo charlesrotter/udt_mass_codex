@@ -112,3 +112,54 @@ ride it may be used as HYPOTHETICAL/common-mode layers only, never as
 derived foundations. Do not build on sand: any macro computation must
 carry a provenance grade per layer, and weld-discrimination conclusions
 must be differential (conditional on the flagged common pipeline).
+
+## C-2026-06-14-1: B=1/A is SOURCED inside matter by the angular sector
+
+**Statement:** Inside matter, the defining UDT relation g_tt g_rr = -c^2
+(equivalently B = 1/A, the two radial dials locked) is not merely postulated
+but DERIVED: UDT's own angular-sector field — the unit 3-vector n_a whose
+winding density is the H1 area form omega_H1 = eps_abc n_a dn_b ^ dn_c (the
+same object carrying N=3, q=1/3) — sourced by the minimal covariant
+two-derivative Lagrangian L = -(xi/2) g^{mu nu} d_mu n_a d_nu n_a built from
+the UDT metric measure, produces a stress tensor with T^t_t = T^r_r in any
+PURELY-ANGULAR (no-radial-gradient) configuration. Since the metric identity
+g_tt g_rr = -c^2 <=> G^t_t = G^r_r <=> p_r = -rho, this T^t_t = T^r_r source
+is exactly what the relation demands; it leaves the theta-equation that fixes
+g_rr = e^{2phi} intact (deg-1 hedgehog: T^theta_theta = 0). Hence B=1/A holds
+inside matter as a THEOREM of the angular source, not a choice.
+
+**Scope / boundaries (binding — do not overstate):**
+- Holds for any purely-angular config (d_r n = 0); the degree-1 hedgehog
+  n = x/r is the unique member with also T^theta_theta = 0.
+- ROBUST to native additions: a Skyrme term, a potential V(n), or the
+  eta-seal coupling all preserve T^t_t = T^r_r (they change T^theta_theta and
+  the solid-angle-deficit value only). So B=1/A does NOT hinge on the
+  minimal-model choice; the SPECTRUM (masses) will, but the EOS does not.
+- BREAKS under a radial twist: for Theta = Theta(r),
+  p_r + rho = xi e^{-2phi}(Theta'(r))^2 >= 0, zero iff Theta' = 0. A
+  realized smoothed-core soliton satisfies p_r = -rho exactly only where
+  Theta' = 0; the pure topological n = x/r is exact everywhere.
+- A canonical SCALAR cannot do this (p_r + rho = e^{-2phi} phi'^2 > 0): the
+  source MUST be the angular/topological sector. phi RESPONDS.
+
+**Forces:**
+- RESOLVES the B=1/A fork (external_input_notes.md fork #1, the queue head)
+  in favor of KEEP. Model A ("relax B=1/A inside matter; a scalar sources a
+  two-function interior") is excluded for the topological sector: the
+  one-function form is sourced, not relaxed.
+- STRENGTHENS C-2026-06-10-1: the areal-reading B=1/A, previously a
+  vacuum-validated postulate, is now derived inside matter via the angular
+  source. The relation g_tt g_rr = -c^2 is the first defining UDT relation
+  shown to be SOURCED by a derived UDT object rather than postulated.
+- Confirms the convergent direction (our findings + two external models): the
+  angular/topological sector is the SOURCE of matter, phi is the response
+  (slaved via p_r = -rho). This is the program's FIRST constructive positive.
+
+**Provenance:** angular_lagrangian_results.md (constructor, Claude Opus 4.8,
+agent a440405d389552f39); angular_lagrangian_verifier_results.md (BLIND
+adversarial verifier, Claude Opus 4.8, agent a4edbefa0e29edfa2) — anchor
+genuineness independently re-derived from the original dpf density
+(rescued_workspaces/.../v_c1_closedforms.py:90-99), I_native == G1 to ~1e-48;
+sympy-exact stress tensor + V100 float64 machine-zero over 4096 points. Two
+non-blocking errata recorded (G1/H prose; deficit sign convention).
+Canonized by Charles 2026-06-14.

@@ -31,12 +31,16 @@ Rewritten 2026-06-13; UPDATED 2026-06-14 (the METHOD reframe + the
 angular-source direction). The W1-W8 + 2026-06-13/14 blow-by-blow lives in
 NEGATIVES_REGISTRY + STATE + the results docs, not repeated here.
 
-CURRENT STATE (2026-06-14, one line): many eliminations, ZERO constructive
-positives yet; SINGLE-CELL discreteness is EXHAUSTED (static / cohomological
-/ dynamic); the reframe is the METHOD, not the physics; the live direction
-(our findings + two outside models) is the ANGULAR / TOPOLOGICAL sector as
-the SOURCE of matter (phi RESPONDS), via the forced p_r = -rho; SETTLE the
-B=1/A fork FIRST.
+CURRENT STATE (2026-06-14 LATER, one line): the B=1/A fork is SETTLED (KEEP) —
+the program's FIRST constructive positive: UDT's own angular n-field
+(winding = omega_H1, N=3/q=1/3), minimal two-derivative Lagrangian, sources
+T^t_t=T^r_r => p_r=-rho => g_tt g_rr=-c^2 holds INSIDE matter as a theorem
+(blind-verified, anchor genuine/native, CANON C-2026-06-14-1). The angular
+sector IS the source, phi RESPONDS, confirmed by derivation not just argument.
+NEXT (Charles): do NOT rush to masses — SECURE THE FOUNDATION by settling
+natively WHICH terms belong in the angular Lagrangian (the spectrum hinges on
+the term content; B=1/A does not). SINGLE-CELL discreteness remains EXHAUSTED
+(static/cohomological/dynamic); the method is still binding.
 
 Read order for a new instance:
 1. CLAUDE.md "How we work" — THE BINDING METHOD (2026-06-14). Read FIRST.
@@ -135,9 +139,17 @@ domino-heuristic-template-tripwire, critical-universe-frame.
 ## Queue (ordered)
 
 ROADMAP — NEXT STEPS IN ORDER (the live work; dependency order, 2026-06-14):
-1. SETTLE the B=1/A fork inside matter (queue-head premise): keep
-   g_tt g_rr=-c^2 (=> the source must be TOPOLOGICAL) or relax it (=> a
-   field can source a two-function interior)? MAP/PONDER first.
+0. [DONE 2026-06-14] SETTLE the B=1/A fork — RESOLVED (KEEP); the angular
+   source derives p_r=-rho natively (CANON C-2026-06-14-1; angular_lagrangian_
+   results.md + verifier). The program's first constructive positive.
+1. NEXT — SECURE THE FOUNDATION (Charles, 2026-06-14): settle natively WHICH
+   terms belong in the angular Lagrangian before any spectrum work. The EOS
+   (B=1/A) is robust to additions (Skyrme/potential preserve T^t_t=T^r_r), but
+   the SPECTRUM/masses hinge on the term content (they set T^theta_theta + the
+   deficit). So the term content is the load-bearing prerequisite to ANY ratio
+   work. MAP/PONDER first (which terms are FORCED by the metric/our objects vs
+   CHOSEN); do NOT rush to masses. Items 3-4 below (soliton mode-tower ->
+   ratios) are GATED on this and on Charles's go.
 2. SETTLE the other two forks: mass = Misner-Sharp vs hbar*omega; and
    matter = negative-phi vs positive-phi (load-bearing for the hierarchy
    SIGN). Both touch canon.
