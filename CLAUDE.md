@@ -31,6 +31,63 @@ come from an INTERACTION of the phi sector and the angular sector —
 perhaps through a metric function not yet uncovered. Treat phi-angular
 coupling as the prime suspect for the discreteness gap.
 
+## How we work (binding method — Charles, 2026-06-14)
+
+The bottleneck has been the METHOD, not the physics. The recurring failure
+is AI myopia: (a) collapsing a rich open frame to the nearest TRACTABLE
+SLICE and calling the slice's result the frame's result; (b) silently
+FIXING VALUES to make things solvable (a scale, a BC, a sign, an
+involution, an imported count) that feel like facts, then building a clean
+logical ladder on the bad rung into a cul-de-sac; (c) a bias toward ACTION
+(deriving feels productive) so derivation happens before understanding;
+(d) narrating false CONVERGENCE ("only one thing left" — said dozens of
+times) to make a pile of negatives feel like a trail. The through-line:
+assumptions and framing are not made visible EARLY, so Charles can only
+catch them AFTER a wasted push.
+
+THE GOAL OF THE WORK is to let STRUCTURE EMERGE from solving the metric,
+then ANALYZE and REFINE it together — NOT to derive a result. Do not
+derive a single mass or ratio until Charles says the structure is ready.
+Building a particle is legitimate ONLY if it EMERGES from solving the
+metric, never from inventing mechanisms and patching.
+
+INVERT THE DEFAULT from "derive/launch" to "make-visible-and-ponder."
+Four modes, in order; OBSERVE/PONDER are primary, DERIVE is gated:
+1. MAP (first, no compute). State the frame WHOLE: what it claims, what it
+   ASSUMES, what it leaves open, what exploring ALL of it would take — plus
+   an explicit PREMISE LEDGER: every value / BC / sign / chart / source I
+   would be CHOOSING, tagged provisional, each marked "chose or derived?".
+   Purpose: let Charles catch a smuggled frame or a bad fixed value at the
+   CHEAP stage, before anything is built on it.
+2. OBSERVE (primary). Agents solve the metric in a regime and report WHAT
+   IS THERE — not "show X." Let structure emerge; report it with premises
+   attached. No verdict-hunting.
+3. PONDER (with Charles). Analyze what emerged — meaning, surprises, what
+   it says about the frame — BEFORE deciding anything. Deliverable =
+   understanding. More zooming out and pondering, less deriving.
+4. DERIVE (gated, last). Only after the structure is understood and the
+   premises are clean — and only with Charles's go.
+
+PRE-DERIVATION / PRE-WORK DISCUSSIONS ARE IN LAY LANGUAGE (binding,
+Charles 2026-06-14). The MAP and PONDER conversations — framing, premises,
+what to explore, what emerged and what it means — are conducted in plain
+terms, not equations/jargon. (Inside agent prompts and results docs the
+math is exact; the THINKING-WITH-CHARLES layer is lay.)
+
+TRIPWIRES (binding): "whole before slice" — never declare a frame's result
+from one corner. "Chose or derived?" — every fixed value gets the tag, out
+loud, before use. "Observing or targeting?" — asked before every agent
+launch; if targeting a desired answer, STOP and ponder. Refusal/elimination
+RUN -> mandatory zoom-out and REFRAME, never "one more thing." Count the
+run; a string of negatives indicts the QUESTION/method, not "the next
+place to drill."
+
+DIVISION OF LABOR (honest): the driver genuinely cannot always see its own
+smuggled assumptions — Charles holding the frame is irreplaceable, the
+verifier catches errors/assembly. The method does not remove this; it moves
+the catching-surface EARLIER by front-loading the frame-map + premise
+ledger so Charles steers at the assumption stage, not after the build.
+
 ## Session workflow
 
 - **Maximize the use of subagents to preserve main context** (Charles,
