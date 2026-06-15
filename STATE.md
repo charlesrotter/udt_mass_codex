@@ -919,3 +919,23 @@ canon time; q=1/3 wrong cohomology slot). The fermion's origin is NOT the fold.
 is the winding field the SQUARE of a forced spinor?) — now running.
 Net: we went hunting the electron in the seal and found the PHOTON; the electron
 is elsewhere (Hopf). Open hinges flagged (the same-minus junction across D=0).
+
+## 2026-06-14 (LATER-8 / SESSION CLOSE) — CLASSICAL FORCES THE PHOTON, NOT THE FERMION
+
+The fermion-origin trilogy (Charles's routes 1,2,3) is complete:
+- 1 [POSITIVE]: the PHOTON is native (em_forcing, verifier-cleared, canon-cand).
+- 2 [NEG]: the global spin structure does NOT force the spinor (fold sigma^2=id).
+- 3 [NEG]: Hopf-squaring is a bosonic CP^1 re-encoding; L4 != Hopf term; the
+  soliton-fermion rides hbar + a free Z_2.
+=> #47: the CLASSICAL metric forces the PHOTON + a sized soliton but NOT the
+fermion/sqrt(m)/Koide — those are a QUANTUM-SECTOR property (the soliton
+quantized as a fermion via Finkelstein-Rubinstein + hbar), the open frontier
+UDT_REBUILD sec 6 named. THE FRONTIER NOW: the QUANTUM COMPLETION of UDT (hbar
+applied to the soliton + the now-native gauge skeleton) — where the fermion,
+sqrt(m), and Koide (via the legacy S13.11 given the fermion) all live.
+NIGHT'S POSITIVES: B=1/A sourced (C-2026-06-14-1); native L2+L4 + sized soliton;
+the PHOTON native. NIGHT'S CLARIFICATIONS: lepton mass/Koide/sqrt(m)/fermion is
+a QUANTUM phenomenon, cleanly localized out of the classical sector.
+OPEN HINGES (flagged): the same-minus junction across D=0; whether canon time
+closes into a circle. VERIFIERS PENDING: global_spin, hopf_spinor (corroborating
+negatives, self-checked; full blind pass deferred to next session).

@@ -1162,3 +1162,33 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     seal-value forcing argument; the same-minus time-row class; G=kappa T. The
     GLOBAL/topological two-valuedness route is OUT OF SCOPE (not refuted). DATA-
     BLIND. Pending Charles.
+
+## The classical metric does NOT force the fermion (three routes) — it is a
+## quantum-sector property (2026-06-14; #46 + global_spin + hopf_spinor)
+
+47. THE FERMION (T^2=-1 / sqrt(m) / Koide) IS NOT FORCED BY THE CLASSICAL
+    METRIC; IT IS A QUANTUM-SECTOR PROPERTY THE METRIC ADMITS BUT DOES NOT
+    FORCE. Three independent classical routes to force a native fermion from the
+    t->-t time-reversal seal / the winding sector ALL land negative:
+    (a) LOCAL seal-value (#46, blind-verified): the forced sigma-ODD source
+    vanishes at the seal => a single-valued (Proca/vector) boson suffices; the
+    forced matter is the PHOTON (massless, Coulomb-selected — EM native, #47-pos
+    / em_forcing), NOT a fermion.
+    (b) GLOBAL spin structure (global_spin_structure_results.md): the doubled
+    cell is orientable, spin EXISTS, but sigma^2=id => contractible loop =>
+    holonomy +1; the antiperiodic (fermionic) structure is NOT even ADMITTED for
+    canon interval/hyperbolic time; q=1/3 is in the wrong (H^2) cohomology slot.
+    (c) HOPF-squaring (hopf_spinor_results.md): n=psi-dag-sigma-psi gives a
+    BOSONIC CP^1 re-encoding (circular); L4 is the curvature-squared (P/T-even),
+    not the Hopf term; the soliton-as-fermion (Finkelstein-Rubinstein) rides
+    hbar + a free Z_2. No native sqrt(m).
+    SYNTHESIS: the CLASSICAL geometry (metric + winding field) forces the PHOTON
+    (native EM) and a sized soliton, but the FERMION / sqrt(m) / Koide is a
+    QUANTUM-SECTOR phenomenon (the soliton quantized as a fermion via FR + hbar)
+    — the open frontier UDT_REBUILD sec 6 named (the ruler lives in the metric's
+    own quantum sector). Charles's spinor-in-negative-phi intuition is right that
+    the soliton CAN be a fermion, but it is a QUANTUM statement, not a classical
+    forcing. PREMISE SET: CLASSICAL (no hbar); the t->-t fold + winding sector;
+    canon interval time. The QUANTUM completion (hbar on the soliton/gauge
+    skeleton) is the live frontier, NOT refuted — it is where the fermion lives.
+    DATA-BLIND. Pending Charles.
