@@ -878,3 +878,26 @@ WINDING sector (no spinor) supplies the missing pieces:
   frontier logged above. The ensemble route is the alternative.
 - STILL PENDING: LLM #3 (Charles's three-LLM plan). Session POSITIVES untouched
   (B=1/A sourced C-2026-06-14-1; native L2+L4; sized soliton).
+
+## 2026-06-14 (LATER-6) — TIME-REVERSAL FOLD FORCES sigma-ODD MATTER, NOT A SPINOR
+
+Tested Charles's hypothesis (the spinor is born from the cell's seal). KEY
+REFRAME found in the blueprints: the same-minus seal is TIME REVERSAL (time row
+(g_tr,g_ttheta)->(-,-), t->-t; angular sector untouched), and spin-1/2's T^2=-1
+(Kramers) is exactly the two-valuedness it would double-cover. Computed (#46;
+blind-verified a3f1cd7630f15c01e, 3 methods, STANDS):
+- A nonstationary cell FORCES sigma-ODD matter (G_tr,G_ttheta!=0); the bosonic
+  sigma-EVEN winding field CANNOT supply it. So the nonstationary sector forces
+  NEW matter beyond the winding field [real positive].
+- BUT the SPINOR is NOT forced: the forced sigma-ODD source's SEAL-VALUE is
+  identically ZERO (arm sigma-ODD => 0 at the fixed surface), so a single-valued
+  Dirichlet sigma-ODD BOSON (Proca/vector) suffices; T^2=-1 two-valuedness is NOT
+  required by this LOCAL mechanism [decisive negative on this route].
+- The forced sigma-ODD matter is VECTOR/Proca-type => plausibly the EM/GAUGE
+  sector (ties to the EM frontier), not the fermion. sqrt(m)/spinor REVERT to the
+  other candidates: Hopf-squaring (n=psi-dag-sigma-psi), q=1/3 projective, or a
+  GLOBAL spin structure / antiperiodicity on the doubled cell (the LOCAL
+  seal-value route is closed; the GLOBAL/topological route is UNTESTED, not
+  refuted).
+Charles's intuition: PARTIAL support (nonstationary sector forces new matter);
+the specific local spinor-forcing did NOT pan out. Nowhere near a reset.

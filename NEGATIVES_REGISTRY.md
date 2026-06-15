@@ -1128,3 +1128,37 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     SINGLE cell; bare L2+L4 (no spinor, no ensemble, no hbar); static. NON-
     BLOCKING: the easy-axis ratio is non-monotonic in phi-depth (not the doc's
     monotonic ~7). DATA-BLIND held. Pending Charles.
+
+## Fermion forcing across the time-reversal fold — sigma-ODD matter forced, but
+## NOT a two-valued spinor (2026-06-14, fermion_forcing_results.md;
+## blind-verified a3f1cd7630f15c01e, 3 independent methods)
+
+46. A NONSTATIONARY CELL FORCES sigma-ODD MATTER (bosonic winding insufficient),
+    BUT THE TIME-REVERSAL FOLD DOES NOT FORCE A TWO-VALUED SPINOR. Tested
+    Charles's hypothesis that the same-minus seal (TIME REVERSAL: time row
+    (g_tr,g_ttheta)->(-,-), t->-t; angular sector untouched) forces the fermion's
+    two-valuedness. FINDINGS (blind-verified STANDS):
+    (a) FORCED [derived]: for a sealed nonstationary cell the sigma-ODD Einstein
+    components G_tr,G_ttheta != 0, so G=kappa T forces sigma-ODD matter
+    T_tr,T_ttheta != 0; survives time-dependent phi (a time-dependent even phi
+    adds G_tr=2 phi_t/r but cannot cancel the arm). 
+    (b) BOSONIC WINDING INSUFFICIENT [derived]: the static/sigma-EVEN hedgehog
+    has T_tr=T_ttheta=0; a sigma-EVEN field cannot source the sigma-ODD sector.
+    So a nonstationary cell needs NEW matter beyond the winding field.
+    (c) SPINOR NOT FORCED [derived, the decisive negative]: the forced sigma-ODD
+    source's SEAL-VALUE is IDENTICALLY ZERO (arm sigma-ODD => vanishes at the
+    fixed surface => G_tr=0 there => T_tr=0 there; three methods). A single-
+    valued Dirichlet sigma-ODD boson (Proca/vector-type, T^2=+1) suffices; a
+    Kramers T^2=-1 two-valued source is NOT required by this LOCAL mechanism. The
+    time-reversal fold forces new matter but NOT its two-valuedness.
+    CONSEQUENCE: Charles's "spinor born from the mirror fold" gets PARTIAL
+    support (new sigma-ODD matter IS forced in the nonstationary sector) but the
+    KEY claim (forced TWO-VALUEDNESS) fails by THIS route. The forced sigma-ODD
+    matter is a VECTOR/Proca-type boson — plausibly the EM/gauge sector (ties to
+    the logged EM frontier), NOT (necessarily) the fermion. sqrt(m)/the spinor
+    revert to the OTHER candidates (Hopf-squaring n=psi-dag-sigma-psi; q=1/3
+    projective; a GLOBAL spin structure / antiperiodicity on the doubled cell —
+    untested by this LOCAL seal-value computation). PREMISE SET: the LOCAL
+    seal-value forcing argument; the same-minus time-row class; G=kappa T. The
+    GLOBAL/topological two-valuedness route is OUT OF SCOPE (not refuted). DATA-
+    BLIND. Pending Charles.
