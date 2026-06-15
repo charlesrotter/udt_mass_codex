@@ -321,3 +321,123 @@ question REOPENS and this negative is CONDITIONS-CHANGED.
    confirm NO WZW/Hopf/FR/N_c term was inserted (no IMPORT), AND no native term
    was silently omitted to force Phi=0 (the symmetric trap). Confirm no
    mass/ratio/wall-number entered.
+
+---
+
+## BLIND ADVERSARIAL VERIFIER PASS — 2026-06-15
+
+VERIFIER crux2_coinflip / 2026-06-15 / 3069f8befd063fb8 (independent machinery —
+own Gaussian-state Berry-connection construction, own spin-1 / su(3) generators
+from the angular-momentum algebra, own field-theoretic / measure / cocycle
+reasoning; NOT a re-run-and-agree of crux2_coinflip.py).
+
+VERDICT: **STANDS-WITH-CAVEAT.** Both routes give Phi=0; the result FAIL/FREE
+(postulate A IRREDUCIBLE) survives independent reproduction AND the hardest
+field-theoretic / infinite-mode / measure-anomaly attack the contract flagged.
+The caveat is scoping, not load-bearing: the result's own "all routes collapse to
+ONE missing object = a native double cover" fingerprint is SOUND, and the one
+genuine residual hinge (the sigma-grading of omega_H1 under the same-minus seal,
+#47b) is correctly a CONDITIONS-CHANGED trigger, not a present defect.
+
+INDEPENDENTLY REPRODUCED (own machinery):
+- ROUTE (i.1). Built the Gaussian (squeezed) ground-state Berry connection
+  a = i<psi|d_A psi> from scratch. For ANY REAL normalized state a=0 exactly
+  (<psi|d_A psi> = (1/2)d_A<psi|psi> = 0, and real). SHARPENED the attack
+  surface: the ONLY way to a nonzero connection is a COMPLEX vacuum width
+  W=Wr+iWi, giving Re(a) = dWi/(4 Wr) != 0 — which requires an antisymmetric
+  p-q (first-order-in-time / gyroscopic) term in the fluctuation Hamiltonian.
+  That term IS the linear-in-velocity WZW/Berry term #49 verified ABSENT (only
+  (chidot)^2,(Psi')^2). So Wi=0 -> a=0. (i.1) reproduced, vulnerability located.
+- ROUTE (ii). Rebuilt spin-1 generators from the |1,m> algebra (not the script's
+  matrices): [Jx,Jy]=iJz, J^2=2 (l=1). U(2pi)=exp(-i2pi n.J)=1_3 for ANY axis
+  (integer eigenvalues {1,0,-1}). Rebuilt su(3) from E_ij: all 8 generators
+  traceless => no normal-ordering c-number => non-projective rep. Reproduced.
+
+THE KEY TEST — FIELD-THEORETIC / INFINITE-MODE / MEASURE ATTACK (the flagged
+vulnerability that the result is a finite collective-coordinate truncation). All
+four named routes hunted HARDEST for a nonzero phase; ALL closed by the SAME
+firewall the finite result used, now lifted to the functional level:
+ (a) Fermionic determinant / eta-invariant / spectral-flow: requires a
+     fundamental fermion to integrate out — ABSENT (hopf_spinor #47c: bosonic
+     CP^1, no first-order Dirac op). The bosonic functional determinant
+     det(-D^2+...) is a real-positive Laplace-type det (phase 0); there is NO
+     bosonic eta (eta needs a first-order Dirac spectrum). The (i.1) reality
+     LIFTS to infinite modes. NO PASS.
+ (b) WZW/theta from the MEASURE (Fujikawa Jacobian): the bosonic sigma-model
+     Jacobian is the target-curvature (beta-function) anomaly — a P/T-EVEN
+     LOCAL term, NOT a P/T-ODD topological WZW/Hopf. And it cannot manufacture
+     an integer N=3 coefficient: the only 5D slot is pi_5(S^2)=Z2 (a FREE sign,
+     no Z to hold 3). NO PASS.
+ (c) 2-cocycle / projective phase from the full current algebra: a Schwinger /
+     Mickelsson-Faddeev cocycle is an INTERNAL gauge anomaly, the WRONG object
+     for the spatial-rotation spin-statistics Z2 (the rotation generator is the
+     spacetime L, fixed by integer spin). And a projective rep of the rotation
+     itself is classified by H^2(SO(3),U(1))=Z2 = the SAME free Z2 (the SU(2)
+     double cover) — a CHOICE of lift, not a derived pi*N. NO derived PASS.
+ (d) Is the rigid-rotor truncation topologically faithful (sees pi_4(S^2)=Z2)?
+     YES to the COIN's EXISTENCE: the rotor's 2pi loop = gen of pi_1(SO(3))=Z2
+     = the same loop that suspends to S^4->S^2 = pi_4(S^2)=Z2 (crux1). The
+     truncation faithfully sees the noncontractible loop (both sides of the
+     coin); what it cannot see is a PHASE assigned to the loop by a topological
+     term OUTSIDE its finite action — and that term is exactly the
+     absent/free WZW sign (b)/(c). No HIDDEN derived phase. NO PASS.
+ OUTCOME: NO nonzero DERIVED phase exists at the field-theoretic level. The
+ truncation did not hide a fermion; the functional computation reproduces Phi=0.
+
+EXTRA SUBTLE CHECK (the real-Skyrme fermion mechanism, not in the doc's framing):
+in the genuine Skyrme model the fermion appears NOT as "holonomy +1" but via the
+FR-constrained HALF-INTEGER offset nu in the spin tower E_n=E0+hbar^2(n+nu)^2/2L
+(#49), with nu=N_c*B/2 from the integer-graded 5D WZW (pi_5(SU(3))=Z). I checked
+whether our rotor smuggles nu=1/2: nu is FIXED by the rotor WZW term, which #49
+verified ABSENT and #50 found has no integer channel => nu=0 (boson) is DERIVED,
+not assumed. Half-integer nu would require the very WZW term the contract forbids
+importing. The script's "holonomy +1" IS the nu=0 statement and correctly
+inherits nu=0 from the verified-flat rotor. CONFIRMS FAIL/FREE; does not break it.
+
+SYMMETRIC DERIVED-NOT-IMPORTED AUDIT (did the constructor OMIT a native term to
+force Phi=0?). Three candidates assessed by independent degree/parity reasoning:
+ - SEAL eta=1/18 transgression: a 2-form in H^2, EXACT, sigma-EVEN, with no leg
+   along the rotor loop. A statistics WZW is a 3-form (P/T-ODD). Wrong DEGREE
+   (2!=3), wrong PARITY, wrong location. Cannot source a 2pi phase. Not omitted.
+ - NONSTATIONARY / time-row sector: the one route that COULD deposit a linear-
+   in-velocity term -> complex width -> nonzero (i.1). But #46's forced source is
+   sigma-odd yet seal-vanishing and quadratic; #49 verified (chidot)^2 only, zero
+   linear, for S^2 AND S^3; antiperiodic time is not even admitted for interval
+   time (canon). Correctly scoped out; OPEN only if time CLOSES (a premise
+   change). Properly a CONDITIONS-CHANGED trigger, not a silent omission.
+ - sigma-ODD omega_H1 / genuine S^3-Hopf lift (#47b, THE sharpest candidate):
+   a parity re-grading of a 2-form (omega_H1, H^2) cannot make it a 3-form Hopf
+   term (degree firewall); it feeds the SEPARATE background spin-structure Z2
+   (crux1's (c)), not the soliton's FR coin; and even an S^3 lift carries
+   (Psi')^2 only with Hopf invariant 0 (crux1 numerics). Does NOT source a
+   derived 2pi phase on current evidence.
+ AUDIT VERDICT: NO native term was wrongfully omitted. Phi=0 is derived from a
+ genuine absence (degree/parity/integer-channel firewalls), not a hidden zeroing.
+ The symmetric trap is CLEARED both ways (nothing inserted; nothing omitted).
+
+FINGERPRINT CHECK: "all routes collapse to ONE missing object = a native double
+cover." SOUND. Route (i.2) no-linear-term, route (ii.4) no-half-integer-
+fundamental, the nu=0 offset, and the field-theoretic (b)/(c)/(d) are all the
+SAME object — the absence of (a WZW line bundle / a half-integer rep / an SU(2)
+spinor target / a flat-Z2-nontrivial-connection), i.e. a native DOUBLE COVER.
+Every face is the free pi_5(S^2)=Z2 sign vs the absent integer pi_5(SU(3))=Z
+level. The collapse is genuine, not a narrated convergence.
+
+RESIDUAL OPEN HINGE (correctly handed forward, not a defect here): the
+sigma-grading of omega_H1 under the same-minus mirror seal (#47b) — IF (against
+the degree firewall) it were ever shown to inject a P/T-ODD 3-form / open a
+Hopf-nontrivial S^3 lift, OR if time closes into a circle (admitting the
+antiperiodic structure), the existence question REOPENS and this negative is
+CONDITIONS-CHANGED. On present evidence both firewalls (degree 2!=3; parity
+even-vs-odd; no integer pi_5 channel) hold, so Phi=0 is not artificially forced.
+
+TARGETING CHECK: the verdict FREE (Phi=0) was DERIVED from the soliton's own
+quantum state (real Gaussian vacuum; integer-spin l=1 carrier; traceless su(3))
+plus the reused, blind-verified absences (#47c/#49/#50/#51), not steered. No
+WZW/Hopf/FR/N_c term was inserted (no IMPORT); no native term was silently
+omitted (symmetric trap cleared). No mass / ratio / Koide / sqrt(2) / 45-deg /
+wall number was loaded, computed, or compared (DATA-BLIND held). The result does
+not over-claim (the fermion is NOT excluded as a POSTULATE — only shown not
+FORCED) nor under-claim (a genuine two-sided coin exists; it is simply unlanded).
+
+VERIFIER crux2_coinflip / 2026-06-15 / 3069f8befd063fb8

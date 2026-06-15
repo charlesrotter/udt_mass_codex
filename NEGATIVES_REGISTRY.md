@@ -1377,3 +1377,46 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     tower — the native raw material, no fermion/WZW needed. PREMISE SET: cell =
     radial interval x S^2; deep negative phi; charge-1 (m=1); the settled L2+L4+seal
     action; two-way phi. DATA-BLIND. Pending Charles.
+
+## Coin-flip Crux 2 (the postulate-A test): quantizing the soliton does NOT make it
+## a fermion — Berry/anomaly phase = 0, both routes; postulate A IRREDUCIBLE
+## (2026-06-15, crux2_coinflip_results.md; pre-reg contract crux2_coinflip_contract.md;
+## blind-verified 3069f8befd063fb8 STANDS-WITH-CAVEAT, field-theoretic attack closed)
+
+53. QUANTIZING THE SOLITON'S COLLECTIVE/ANGULAR COORDINATES DOES NOT LAND THE
+    STATISTICS COIN — THE FERMION IS NOT DERIVED; UDT MUST POSTULATE IT (like the
+    SM). The pre-registered postulate-A test (data-blind, honest prior = FREE,
+    committed BEFORE the run). RESULT (blind-verified STANDS, hardest field-theoretic
+    attack failed to find a PASS): both routes give emergent Berry/geometric/anomaly
+    phase Phi = 0 around the 2pi-rotation loop, so the free pi_4(S^2)=Z2 coin (#51)
+    is NOT affinely shifted to the fermionic side.
+    (i) RIGID-ROTOR: the Gaussian fluctuation-vacuum Berry connection (1/2)Im Tr[S^-1
+    dS] = 0 (L2+L4 REAL & P/T-even => real symmetric fluctuation operator => real
+    covariance); no linear-in-velocity/WZW term (#49) => flat connection => 2pi
+    holonomy +1; the FR half-integer spin-tower offset nu is fixed by the absent
+    rotor WZW term => nu=0 DERIVED (a half-integer would need the forbidden import).
+    (ii) su(3) REP-THEORY: carrier l=1 (integer spin) => U(2pi)=exp(-i2pi Lz)=1_3
+    exactly on every Fock state; all 8 su(3) generators traceless => NO central
+    extension => non-projective rep. The finite no-anomaly LIFTS to the functional
+    level: no fermion determinant/eta-invariant (nothing to integrate out); the
+    Fujikawa measure Jacobian is a P/T-EVEN beta-function term, NOT a P/T-ODD WZW,
+    and cannot manufacture the integer N=3 (the only native 5D slot is pi_5(S^2)=Z2,
+    a free SIGN, not pi_5(SU(3))=Z); a current-algebra cocycle is the wrong object
+    (internal gauge, not rotation spin-statistics).
+    FINGERPRINT (the useful residue, per Charles "even an ill-posed question may
+    emit useful info"): ALL routes collapse to ONE missing native object — a DOUBLE
+    COVER (an SU(2)/spinor target or a WZW line bundle). The metric gives the
+    integer-spin 3, never the spinor 2; N=3 enters the Z2 only MULTIPLICATIVELY
+    (=identity for odd N), never the AFFINE shift a fermion needs — #51's topological
+    fact reconfirmed at the operator AND functional level.
+    SCOPE / OPEN HINGE: this closes the CLASSICAL + semiclassical-quantization fermion
+    routes. CONDITIONS-CHANGED triggers (would reopen): the same-minus seal re-grades
+    omega_H1 sigma-ODD (#47b hinge) or closed-time admits the antiperiodic structure
+    — on present evidence the degree/parity/integer-channel firewalls hold.
+    METHOD CONSEQUENCE: this is the 5th refusal of the SM-fermion TEMPLATE (#47,#49,
+    #50,#51,#53) => the interrogation-discipline REFRAME is now taken (Charles
+    2026-06-15, [[reframe-observation-led]]): SHELVE the fermion/coin-flip line;
+    reorient onto matching raw observations (mass pattern / charge / macro) from
+    UDT's own structures (mass family in DEPTH, charge family in WINDING). PREMISE
+    SET: target S^2; 3 spatial dims; single cell; collective-coordinate + functional
+    quantization; hbar. DATA-BLIND. Pending Charles.
