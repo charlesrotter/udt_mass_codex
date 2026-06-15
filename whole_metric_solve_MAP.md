@@ -15,23 +15,23 @@ standing note: getting it right may OVERTURN a lot of prior results (see §9).
 ## 1. Geometry, coordinates, and the ONE flagged symmetry
 - Cell = a FINITE domain (finite-cell canon; no spatial infinity). Coordinates
   (t, r, θ, ψ), ψ = azimuth about the winding axis.
-- SYMMETRY (the one spatial reduction, made VISIBLE — chose, justified): the winding
-  field selects an axis; we take AXISYMMETRY about ψ (fields depend on (t,r,θ)).
-  This is the natural symmetry of a winding soliton, NOT the old slicing. FLAG: it
-  IS still a reduction from full (t,r,θ,ψ); non-axisymmetric (multi-lobe) configs
-  are a named FURTHER step, and the solution must be tested for spontaneous
-  ψ-breaking before axisymmetry is trusted as the ground state.
-- This is the minimal, honest reduction. EVERYTHING ELSE stays live.
+- SYMMETRY: NONE imposed (Charles 2026-06-15: "go full 3D, we have computation
+  power; approximating only hides results"). Fields depend on the FULL (t,r,θ,ψ).
+  We do NOT assume axisymmetry, sphericity, or any reduction — we let the solver
+  DISCOVER whatever shape the metric wants (round, axisymmetric, lobed, off-axis).
+  If the ground state turns out axisymmetric, that is a RESULT, not an input.
+- NOTHING is reduced. Every spatial degree of freedom is live.
 
 ## 2. THE UNKNOWNS — all metric DOF LIVE (the anti-freezing list)
-General axisymmetric metric on (t,r,θ), 10 components, NOTHING pre-set to zero:
+General metric on the FULL (t,r,θ,ψ) — 10 components, NOTHING pre-set to zero,
+NO symmetry imposed (full 3D space + time):
 - DIAGONAL warps: g_tt, g_rr, g_θθ, g_ψψ. [derived unknowns]
 - "ELECTRIC" off-diagonals (the time-row / shear — the #38 medium-edge, frozen in
   every prior soliton solve): g_tr, g_tθ, g_rθ. [derived unknowns — KEY new DOF]
 - "MAGNETIC" off-diagonals (rotation / frame-dragging / twist): g_tψ, g_rψ, g_θψ.
   [derived unknowns — g_tψ = angular momentum, also never in a soliton solve]
 MATTER: the unit 3-vector n (target S², 2 functions — profile Θ and internal phase
-χ), full (t,r,θ) dependence, winding m about ψ. [derived]
+χ), full (t,r,θ,ψ) dependence, winding m. [derived]
 φ: NOT an independent field — read from g_tt via the tie φ=−(1/2)ln(−g_tt). NOT
 slaved, NOT imposed. [derived/definitional]
 => 10 metric + 2 matter functions of (t,r,θ), minus gauge (§6). The prior radial
@@ -91,7 +91,7 @@ A general metric carries 4 coordinate freedoms; a chart MUST be fixed to solve.
 |---|---|
 | Action L2+L4+seal, two-way φ | DERIVED (this arc) |
 | Target S² (real n) | DERIVED (#50) |
-| Axisymmetry about the winding axis | CHOSE (justified; non-axisym = flagged further step; test for spontaneous breaking) |
+| NO spatial symmetry imposed (full 3D + time) | Charles 2026-06-15 ("go full 3D; approximating hides results") — let the solver DISCOVER the shape |
 | ALL 10 metric components live | DERIVED-unknowns (the un-freezing) |
 | φ read from g_tt (tie), not slaved | DERIVED/definitional |
 | κ₈ (back-reaction) value | OPEN (#52: free dial w/ over-collapse ceiling; criticality a conjecture — TEST BOTH still) |
@@ -131,13 +131,21 @@ NOTHING here is deleted — it is FLAGGED pending re-grade under the unreduced s
    components; G_μν in the canonical gauge; the n EL) — VERIFIED (independent
    re-derivation) before any numerics. Recover the reduced sweep as a special case
    (gauge/DOF sanity check).
-2. SOLVE realization (A): the full STATIONARY whole-metric soliton (coupled 2-D
-   elliptic, all DOF live) on the V100. Map the solution space; compare to the
-   reduced #52 result (does freeing the off-diagonals/angular metric change "one
-   round knot"?).
-3. SOLVE realization (B): the time-periodic eigencondition; DETERMINE the time-
-   topology hinge; hunt the native depth-selector.
-4. Verifier-before-record at each stage; re-grade the §9 overturn list per results.
+2. SOLVE realization (A): the full STATIONARY whole-metric soliton on a FULL 3-D
+   (r,θ,ψ) grid, ALL 10 metric + matter DOF live, NO symmetry imposed, on the V100
+   (hours are acceptable — Charles). Seed-and-relax from many qualitatively
+   different 3-D configs (round, shaped, lobed, off-axis, multi-center) and let the
+   solver find whatever persists. Map the solution space; compare to the reduced
+   #52 result (does freeing the off-diagonals + going full 3-D change "one round
+   knot"?). MANDATORY VALIDATION GATE before ANY 3-D result is trusted: the 3-D code
+   must reproduce the reduced radial #52 soliton as a special case (M_MS, profile,
+   B=1/A to committed values), satisfy the constraints, and the gauge proven
+   non-restrictive (DOF count). No gate => no trusted 3-D result (report the build
+   problem instead).
+3. SOLVE realization (B): the time-periodic eigencondition on the full 3-D config;
+   DETERMINE the time-topology hinge (closed time?); hunt the native depth-selector.
+4. Verifier-before-record at each stage (independent machinery); re-grade the §9
+   overturn list per results.
 
 ## Discipline
 DATA-BLIND; OBSERVE not target; verifier-before-record (independent machinery);
