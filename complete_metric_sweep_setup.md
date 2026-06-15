@@ -87,3 +87,45 @@ Discipline: DATA-BLIND; verifier-before-record; mpmath/sanctioned Taylor through
 folds/overflow (method ruling), GPU V100 torch float64 for batched solves (CLAUDE.md
 pitfalls); no linearization as a stated result (principle 2); no imported mechanism
 (principle 1) — solve what the metric gives and observe.
+
+---
+
+## STAGE-B ADDENDUM (2026-06-15) — κ₈ as PRIMARY axis; TEST-BOTH dual reading
+
+Stage A (merged to main; reproduces #43/#44 exactly) forced into the open a SECOND
+dial the original ledger missed: **κ₈, the back-reaction / Einstein coupling** — the
+strength of the TWO-WAY φ–angular interaction. ALL prior work (the single-soliton
+picture, the breathing tower, #34's "everything relaxes to round", #43's "φ is
+passive") lived in the WEAK-κ₈ corner. κ₈ is therefore the UNPROBED axis — and it
+is exactly Charles's standing φ–angular-coupling hunch. Stage A already saw an
+emergent OVER-COLLAPSE feature near κ₈ ≈ 0.1 (not targeted).
+
+PREMISE RULING (Charles, 2026-06-15): criticality is a CONJECTURE (qualitatively
+reinforced over time, NOT established). So κ₈ "chose or derived?" stays OPEN, and we
+TEST BOTH forks — ONE sweep (κ₈ primary; depth p and seed shape secondary; weak →
+through the feature → strong), READ TWICE:
+
+- PATH 1 — the κ₈≈0.1 feature IS a genuine critical threshold. Consequences to
+  examine: what sits exactly AT it; is the critical configuration special (do
+  distinct types / substructure / the catalog appear at/near criticality); does it
+  PIN a unique configuration ("the one critical amount"); is it where the soliton's
+  character changes (bifurcation onset).
+- PATH 2 — there is NO special threshold; κ₈ is a free dial. Consequences to
+  examine: the solution space is a continuous family over κ₈ — is it ONE round
+  continuum merely deforming, or does it contain distinct types INDEPENDENT of any
+  threshold; what does free-κ₈ imply (scale-family / non-uniqueness — the
+  one-universe-vs-scale-family open thread, #39)?
+
+THE DISCRIMINATOR (the sweep yields evidence, without forcing a verdict): is the
+κ₈≈0.1 feature a SHARP critical point (a real bifurcation/singularity — Jacobian
+min|eig| → 0 with order-parameter-like scaling, possible hysteresis between seed
+directions) or a SMOOTH crossover (no special point)? Sharp + structure-appears-only-
+there ⇒ favors Path 1; smooth/featureless ⇒ favors Path 2. Criticality is NOT
+canonized either way — the conjecture is informed, not settled.
+
+MANDATORY GUARD: distinguish a PHYSICAL feature from a NUMERICAL artifact at the
+threshold. Stage A's prior CPU loop "over-collapse" was partly overflow (fixed by the
+batched-Newton + correct two-constant MS closure). The κ₈≈0.1 feature MUST be
+confirmed physical (mpmath / higher-resolution / independent solver method /
+convergence study) before EITHER path reads it as criticality. A solver breakdown is
+not a critical point.
