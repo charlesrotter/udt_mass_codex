@@ -1192,3 +1192,19 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     canon interval time. The QUANTUM completion (hbar on the soliton/gauge
     skeleton) is the live frontier, NOT refuted — it is where the fermion lives.
     DATA-BLIND. Pending Charles.
+
+## Diagnostic: a constant-ratio exponential mass ladder is incompatible with
+## Koide+data (2026-06-14, LLM#3 input, algebra re-checked)
+
+48. A LINEAR-EXPONENT (CONSTANT-RATIO) MASS LADDER IS KILLED BY KOIDE + THE
+    OBSERVED LEPTON RATIOS. If m_n = m_0 e^{a n} (Gamma_n = Gamma_0 + a*n,
+    geometric ladder 1:r:r^2), imposing Koide Q=2/3 gives
+    (s^2-5s+1)(s^2+s+1)=0 with s=sqrt(r) => r=((5+sqrt21)/2)^2 ~ 22.96, i.e.
+    m_mu/m_e ~ 23 and m_tau/m_e ~ 527 — vs observed 206.8 and 3477. Algebra
+    re-checked exactly. CONSEQUENCE (a constraint, not a no-go on the program):
+    whatever selects the cross-cell depths D_n must produce a NONLINEAR exponent
+    sequence (UNEVENLY-spaced depths), NOT even spacing. The real lepton
+    structure is the Brannen/Foot sqrt(m)-cosine (S13.11), not a geometric
+    ladder. Useful guard for the depth-selection mechanism (constrains LLM#3's
+    own monodromy D_n: evenly-spaced => dead). DATA-COMPARISON (public lepton
+    ratios; not the wall contract). Provenance: LLM#3 fresh-eyes input.

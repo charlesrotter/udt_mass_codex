@@ -166,14 +166,30 @@ import can turn out NATIVE (the Skyrme term was our own winding current).
 
 ## Queue (the quantum-completion frontier)
 
-1. *** THE QUANTUM COMPLETION (the live frontier). *** Does N=3 (UDT's N_c)
-   supply the WESS-ZUMINO-WITTEN term that makes the L2+L4 soliton a FERMION
-   (fixing the free Finkelstein-Rubinstein Z2)? This is where sqrt(m), Koide
-   (via S13.11), the fermion, and the mass ladder live. The QED/QCD overlap
-   makes it finite and well-posed: quantize UDT's OWN derived skeleton (the
-   phi-cancelled flat Coulomb + the su(3) kinematics + the Dirac modes from
-   the native tetrad), hbar as a native completion. MAP first (premise ledger:
-   what is derived vs the hbar/WZW assumptions); honest that it rides hbar.
+1. *** THE QUANTUM COMPLETION (the live frontier) — quantize the soliton's
+   COLLECTIVE COORDINATES. Two facets, both concrete: ***
+   (1a) STATISTICS facet: does N=3 (UDT's N_c) supply the WESS-ZUMINO-WITTEN
+   term that makes the L2+L4 soliton a FERMION (fixing the free Finkelstein-
+   Rubinstein Z2)? => WHAT the particle is (a fermion; sqrt(m), spin; the
+   S13.11 ingredients).
+   (1b) LADDER facet (LLM#3, the useful contribution): the cell depth D is a
+   continuum in isolation (#39), but a SINGLE-VALUEDNESS / BOHR-SOMMERFELD
+   MONODROMY condition on the angular collective phase chi discretizes it —
+   J_chi(D) = oint p_chi d chi = 2 pi hbar (n+nu), or classically
+   Delta chi(D_n)=2 pi n — selecting discrete depths D_n => WHICH particles
+   exist (the e/mu/tau ladder as a monodromy integer n, NOT a radial mode;
+   consistent with "one cell = one particle"). Mass = exp of the native action
+   at D_n: m_n ~ M* e^{-S(D_n)/hbar}. FIRST COMPUTATION: reduce the collective-
+   coordinate action keeping chi as a genuine coordinate, compute p_chi and
+   J_chi(D); check for ISOLATED discrete depths. KILL: no periodic chi / no
+   monodromy / EVENLY-spaced D_n (the latter killed by #48: a constant-ratio
+   ladder is Koide-incompatible). CHECK whether the classical Delta chi=2 pi n
+   version avoids hbar.
+   Both facets quantize UDT's OWN derived skeleton (the phi-cancelled flat
+   Coulomb + su(3) kinematics + the Dirac modes from the native tetrad), hbar
+   as a native completion. MAP first (premise ledger: derived vs the hbar/WZW/
+   monodromy assumptions); honest that they ride hbar (classical single-
+   valuedness is the hbar-free fallback to test).
 2. The EM sector as a live frontier: settle the photon-native CANON-CANDIDATE
    with Charles; then "what are charge, light, and EM in UDT, fully?" (the
    logged EM-frontier MAP) — the nonstationary cell forcing a vector is the way in.
