@@ -901,3 +901,21 @@ blind-verified a3f1cd7630f15c01e, 3 methods, STANDS):
   refuted).
 Charles's intuition: PARTIAL support (nonstationary sector forces new matter);
 the specific local spinor-forcing did NOT pan out. Nowhere near a reset.
+
+## 2026-06-14 (LATER-7) — THE PHOTON IS NATIVE; the fold is NOT the fermion's home
+
+Ran routes 1,2 (of Charles's 1,2,3). RESULT 1 [POSITIVE, verifier-cleared
+ab4fcb8be1c587404, canon-CANDIDATE]: the nonstationary cell FORCES a sigma-ODD
+source, the UNIQUE supplier that closes UDT's own Coulomb structure is a MASSLESS
+VECTOR (the scalar competitor gives a phi-deformed law, not 1/r), and its static
+limit IS UDT_REBUILD's Coulomb A_t=Q/r exactly. => THE EM/GAUGE SECTOR (the
+photon) IS NATIVE to UDT — forced + Coulomb-selected + massless — moving EM from
+"assumed add-on" to "forced native vector". Addresses the logged EM frontier.
+(em_forcing_results.md.) RESULT 2 [NEGATIVE, corroborates #46]: the mirror fold
+does NOT force the spinor, GLOBALLY either (doubled cell orientable, spin exists,
+but sigma^2=id => contractible loop => holonomy +1; antiperiodic not admitted for
+canon time; q=1/3 wrong cohomology slot). The fermion's origin is NOT the fold.
+=> the spinor/sqrt(m) reverts to route 3, the HOPF-SQUARING (n=psi-dag-sigma-psi,
+is the winding field the SQUARE of a forced spinor?) — now running.
+Net: we went hunting the electron in the seal and found the PHOTON; the electron
+is elsewhere (Hopf). Open hinges flagged (the same-minus junction across D=0).
