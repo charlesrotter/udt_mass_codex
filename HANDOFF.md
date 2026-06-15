@@ -166,10 +166,16 @@ import can turn out NATIVE (the Skyrme term was our own winding current).
 
 ## OPEN DEBTS + HINGES (clear these / hold them)
 
-- VERIFIER DEBTS: global_spin_structure_results.md, hopf_spinor_results.md
-  (#47 b/c) and su3_field_test_results.md (#50) are corroborating negatives
-  (self-checked, converge) with blind verifier DEFERRED — run before treating
-  them as hard-banked. (monodromy #49 WAS blind-verified.)
+- VERIFIER DEBTS: CLEARED 2026-06-15. global_spin_structure (#47b, blind-verified
+  a7f3c9e21d6b08e4 STANDS-WITH-CAVEAT), hopf_spinor (#47c, blind-verified
+  4c1e9a7f2b8d6e03 STANDS clean), su3_field_test (#50, blind-verified
+  a3f7c1e9d4b86205 STANDS-WITH-CAVEAT) — all three STAND under independent
+  machinery; two STRENGTHENED (47b: antiperiodic never topology-forced in any
+  shape; 50: connection-antisymmetry from eta-preservation alone). Two non-load-
+  bearing errata recorded in the docs (47b: Pin- T^2=-1 lift is admitted-but-
+  unselected, so "T squares to +1" reworded; 50: target coset mislabel — S^2 is
+  SU(2)/U(1), the "SU(3)/U(2)" written is CP^2). The classical "no native fermion"
+  conclusion is now hard-banked. (monodromy #49 was already blind-verified.)
 - OPEN GEOMETRIC HINGE: the actual same-minus JUNCTION CONDITION across D=0
   (the wcc-flagged computation) settles (i) orientability rigorously and
   (ii) whether omega_H1 is sigma-EVEN or sigma-ODD. If it re-grades omega_H1 as

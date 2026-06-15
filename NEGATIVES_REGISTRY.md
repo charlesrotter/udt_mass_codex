@@ -1174,11 +1174,20 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     vanishes at the seal => a single-valued (Proca/vector) boson suffices; the
     forced matter is the PHOTON (massless, Coulomb-selected — EM native, #47-pos
     / em_forcing), NOT a fermion.
-    (b) GLOBAL spin structure (global_spin_structure_results.md): the doubled
+    (b) GLOBAL spin structure (global_spin_structure_results.md; blind-verified
+    a7f3c9e21d6b08e4 2026-06-15, STANDS-WITH-CAVEAT — verifier strengthened it:
+    the periodic spin structure is ALWAYS a torsor member, so antiperiodic can
+    never be FORCED by topology in any shape, robust even if time closes; caveat:
+    the Pin- T^2=-1 lift is topologically ADMITTED-but-unselected, so "geometric
+    T squares to +1" is reworded to "admits both +-1 lifts, +1 natural, -1 not
+    selected" — NOT-FORCED + NOT-SELECTED both stand): the doubled
     cell is orientable, spin EXISTS, but sigma^2=id => contractible loop =>
     holonomy +1; the antiperiodic (fermionic) structure is NOT even ADMITTED for
     canon interval/hyperbolic time; q=1/3 is in the wrong (H^2) cohomology slot.
-    (c) HOPF-squaring (hopf_spinor_results.md): n=psi-dag-sigma-psi gives a
+    (c) HOPF-squaring (hopf_spinor_results.md; blind-verified 4c1e9a7f2b8d6e03
+    2026-06-15, STANDS clean — exact degree/parity firewall: even >=0 metric
+    scalar L4 cannot contain the odd metric-free 3-form Hopf term; the eta=1/18
+    transgression is a 2-form/H^2, wrong degree for a 3-form/H^3): n=psi-dag-sigma-psi gives a
     BOSONIC CP^1 re-encoding (circular); L4 is the curvature-squared (P/T-even),
     not the Hopf term; the soliton-as-fermion (Finkelstein-Rubinstein) rides
     hbar + a free Z_2. No native sqrt(m).
@@ -1239,14 +1248,18 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
 
 ## The classical metric gives U(1)+SO(3,1)+real-S^2, NOT SU(3): the genuine
 ## SU(3)/WZW field is not classically native (2026-06-15, su3_field_test_results.md;
-## blind verifier PENDING)
+## blind-verified a3f7c1e9d4b86205 2026-06-15, STANDS-WITH-CAVEAT)
 
 50. THE GENUINE SU(3) FIELD (THE WZW CRUX OF #49) IS NOT CLASSICALLY NATIVE; THE
     FERMION SECTOR IS PURELY QUANTUM (an OPERATOR ALGEBRA, not a classical
     field). Charles's "explore the genuine field, easiest way to decide":
     constructed the complex l=1 amplitude field z in C^3 (the SU(3) fundamental)
-    and asked what structure the metric puts on it. RESULT (sympy, verifier
-    PENDING): the metric induces a connection ONLY for U(1) (the native photon,
+    and asked what structure the metric puts on it. RESULT (sympy; blind-verified
+    a3f7c1e9d4b86205 2026-06-15, STANDS-WITH-CAVEAT — verifier rebuilt the spin-
+    connection-antisymmetry theorem from eta-preservation ALONE, NOT needing g
+    symmetric, strengthening it; ERRATUM: the target coset is mislabeled "S^2 =
+    SU(3)/U(2)" [that is CP^2]; target is genuinely S^2 = SU(2)/U(1), verdict
+    unaffected): the metric induces a connection ONLY for U(1) (the native photon,
     em_forcing, generator=1_3) x SO(3) (the antisymmetric L_a = spin connection)
     x SO(3,1) (gravity). The 5 SYMMETRIC rank-2 Q_ab generators — exactly
     SU(3)\(U(1)xSO(3)) — have NO native gauge field (the spin connection of any

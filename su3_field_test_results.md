@@ -315,3 +315,49 @@ triplet on which the su(3) OPERATOR ALGEBRA acts; whether the WZW/fermion
 emerges THERE is the genuinely open frontier (rides hbar, not classical).
 Verifier target: the spin-connection-antisymmetry theorem; any native object
 carrying a symmetric internal index pair.
+
+---
+
+## BLIND ADVERSARIAL VERIFIER PASS — 2026-06-15
+VERIFIER su3_field / 2026-06-15 / a3f7c1e9d4b86205 (independent machinery, not a
+re-run of su3_field_test.py).
+
+VERDICT: **STANDS-WITH-CAVEAT.** The central claim — the classical metric induces
+a connection valued only in U(1) x SO(3) x SO(3,1), with the 5 symmetric rank-2
+Q_ab (= the coset distinguishing SU(3) from U(1)xSO(3)) getting NO native gauge
+field, so z collapses to the real n and no native integer WZW exists — survives
+every independent attack.
+
+INDEPENDENT REPRODUCTION OF THE LOAD-BEARING THEOREM (rebuilt from metric-
+compatibility om^T eta + eta om = 0, NOT from the committed script): the connection
+is forced antisymmetric (a=d=0, c=-b). CRUCIALLY this uses ONLY eta-preservation,
+NEVER the symmetry of g_mn — so the theorem is STRONGER and more general than the
+doc states. Rebuilt the spin-1 generators a different way (real Cartesian SO(3) ->
+3 antisym + 5 symmetric-traceless) and confirmed a symmetric-valued connection is
+incompatible with the antisymmetric metric-compatible spin connection.
+
+ADVERSARIAL BREAKS (all FAILED): (A) non-metricity Q_mab is symmetric but =0 for
+Levi-Civita (would be a Principle-1 import); (B) dilation gradient dphi is purely
+radial, an SO(3)-scalar, carries no a,b index pair; (C) extrinsic curvature K_ab
+enters as a tensor source, not a connection 1-form (explicit S^2 frame connection
+[[0,-cos th],[cos th,0]] is antisymmetric); (D) <z|Q_ab|z> is nonzero but exactly
+the QUADRUPOLE of the real n (= -(n_z^2-1/3) for Q_zz) — a function of n, no
+independent phase DOF (sharpens the collapse beyond the doc: <z|L|z>=0 AND
+<z|Q|z>=quadrupole(n)); (E) composite U(1)_photon x winding stays in {1, L_a}
+([1_3,L_a]=0); reaching Q_ab needs L_aL_b (a curvature, not a 1-form); (F) verdict
+robust to U(1)-generator (Cartan) ambiguity. Homotopy checked: pi_3(S^2)=Z,
+pi_5(S^2)=Z2, pi_5(SU(3))=Z — the integer WZW genuinely needs the SU(3)/S^3 target
+the collapse denies.
+
+ERRATUM (cosmetic, non-load-bearing): the doc writes the target as "S^2 =
+SU(3)/U(2)"; that coset is CP^2 (4-dim), not S^2. The target IS genuinely S^2 (the
+2 real DOF of n) — established by the collapse independently of the coset name —
+so the verdict is unaffected. Use "S^2 = SU(2)/U(1) = SO(3)/SO(2)" in any future
+record.
+
+OPEN HINGES (correctly scoped OPEN by the doc): (1) the QUANTUM sector — hbar
+promoting the amplitudes to a complex Hilbert triplet with an emergent WZW/Berry
+phase (NOT excluded by this work); (2) a non-metric/torsionful UDT extension would
+be a new mechanism (Principle-1 import), legitimately outside the metric's native
+scope. No data/wall-numbers; no targeting (the absence of the Q_ab connection is
+DERIVED, not steered).

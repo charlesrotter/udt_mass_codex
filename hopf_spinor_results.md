@@ -314,3 +314,45 @@ the QUESTION ("does the classical metric force a fermion?") — the honest answe
 is that fermion statistics is a QUANTUM-SECTOR (hbar) property the classical
 metric ADMITS but does not FORCE (converges with UDT_REBUILD sec 6: the ruler
 lives in the metric's own quantum sector).
+
+---
+
+## BLIND ADVERSARIAL VERIFIER PASS — 2026-06-15
+VERIFIER hopf_spinor / 2026-06-15 / 4c1e9a7f2b8d6e03 (independent machinery, not
+a re-run of hopf_spinor.py / hopf_spinor_verify.py).
+
+VERDICT: **STANDS (clean).** The central claim — n=psi-dag-sigma-psi is a bosonic
+CP^1 structure; L4=(kappa/4)|omega_H1|^2 is the curvature-squared Skyrme term and
+NOT the Hopf/WZW (pi_3) term; so L2+L4 contain no native Hopf/WZW term and the
+soliton's fermionic statistics rides hbar + a FREE Finkelstein-Rubinstein Z2 —
+survives independent reconstruction and four adversarial attacks aimed at finding
+a hidden Hopf coupling.
+
+INDEPENDENTLY REPRODUCED (own machinery): (a) projector route n·sigma=2P-1,
+P=psi psi-dag => sum_a(dn_a)^2 = 2 tr((dP)^2), residual exactly 0 symbolically
+(1.5e-9 numerically) — L2 is the bosonic CP^1/projector kinetic term, no
+anticommuting structure. (b) Explicit 3D Hopf-map field: the Skyrme density |F|^2
+is sign-definite (>=0) everywhere (a metric energy), while the Chern-Simons
+density A∧dA is NOT sign-definite and integrates to the Hopf invariant H~-0.96
+(=±1 integer pi_3 class) — demonstrably DIFFERENT objects; L4 is the former and
+cannot be rewritten as the latter. (c) S^3 lift: the Hopf-fiber phase gamma is
+gamma-independent in n, drops out of the L2 density entirely (d/d-gamma-dot = 0),
+and enters a genuine S^3 target only as (gamma-dot)^2 — no bare/linear coupling.
+This independently matches monodromy_depth_results.md ((Psi')^2 only, both S^2 and
+S^3).
+
+ATTEMPTED BREAKS (all FAILED): (1) hidden Hopf term in L4 — an even (>=0) degree-0
+metric scalar cannot contain an odd metric-free degree-3 form (exact degree/parity
+firewall). (2) the seal/eta=1/18 transgression as a disguised WZW — it is a 2-form
+in H^2 (the pi_2/area-form sector), EXACT and sigma-even; a Hopf/WZW term is a
+3-form in H^3 (pi_3); 2 != 3, wrong degree AND wrong slot. (3) force the FR Z2
+from q=1/3 — q=1/3 lives in H^2, wrong slot for a Z2 spin label; nothing fixes the
+FR coefficient. (4) linear S^3-phase coupling — strictly (gamma-dot)^2, no bare
+term.
+
+HINGE ASSESSED (non-blocking for THIS claim): the same-minus sigma-ODD re-grading
+of omega_H1 touches the GLOBAL spin-structure question, NOT this one — a parity
+re-grading does not turn a 2-form into a 3-form, does not inject A∧dA into L2+L4,
+and L4=|omega_H1|^2 is sigma-even (a square) regardless. No data/wall-numbers; no
+targeting; the claim is correctly scoped to the settled classical L2+L4+seal and
+explicitly leaves the quantum (hbar + free FR Z2) route open.

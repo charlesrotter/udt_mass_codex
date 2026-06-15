@@ -379,3 +379,40 @@ the LOCAL #46 negative. OPEN HINGES (flagged, not yet computed): the actual
 same-minus junction across D=0 (orientation-preserving? omega_H1 even or odd?);
 whether the finite-cell canon closes time into a circle. The fermion's origin is
 NOT the fold; live sqrt(m)/spinor candidate = the Hopf-squaring route.
+
+---
+
+## BLIND ADVERSARIAL VERIFIER PASS — 2026-06-15
+VERIFIER global_spin / 2026-06-15 / a7f3c9e21d6b08e4 (independent machinery,
+not a re-run of global_spin_structure.py).
+
+VERDICT: **STANDS-WITH-CAVEAT.** The registered negative (the global topology of
+the time-reversal-doubled cell does NOT force or select a fermionic T^2=-1 spin
+structure) survives independent reconstruction in sympy/numpy.
+
+INDEPENDENTLY REPRODUCED: sigma^2=id exactly; reflection Jacobian det=-1 (single-
+chart orientation flip only); w2(S^2)=0 (spin structure EXISTS in every candidate
+shape); H^1(M;Z2)=0 for interval time, Z2 for circle time; core-closure forks
+S^3->0, S^2xS^1->Z2, lens L(p,q)->Z2 iff p even (none changes the verdict);
+q=1/3 is a real H^2 1-form coefficient (1/3 mod 1 != 1/2), wrong slot for a Z2
+spin label, and exact (zero holonomy).
+
+STRENGTHENING (cleaner than the doc's contractible-loop argument): whenever w2=0
+the spin structures form a torsor over H^1(M;Z2) and the PERIODIC (bounding)
+structure is ALWAYS a member; therefore an antiperiodic structure can NEVER be
+forced by topology alone, in ANY shape — so NOT-FORCED is robust even to the
+time-closure fork, not just to interval time.
+
+CAVEAT (non-load-bearing): with w1=w2=0 BOTH Pin+ and Pin- exist, so a reflection
+lift squaring to -1 (Kramers T^2=-1) IS topologically ADMISSIBLE. The doc's
+sub-statement "the geometric time-reversal squares to +1" is therefore too strong;
+correct reading = "admits both +-1 lifts; +1 is geometrically natural, -1 is not
+SELECTED by any banked condition." NOT-FORCED and NOT-SELECTED both still stand;
+the -1 lift is admitted-but-unselected, not unavailable. A genuine physical
+T^2=-1 / Kramers / fermion-number SELECTOR from OUTSIDE the seal topology remains
+the live route — consistent with the handoff.
+
+OPEN HINGES (confirmed): (1) the same-minus junction across D=0 (orientability;
+omega_H1 sigma-even vs sigma-odd) gates the orientability sub-claim and the q-spin
+caveat; (2) Pin- admissibility (new) — the result rests on selection, not
+unavailability. No data/wall-numbers used; no targeting detected.
