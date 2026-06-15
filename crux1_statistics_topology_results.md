@@ -374,3 +374,102 @@ loop and test whether it = exp(i*pi*N), N=3, selecting the fermionic side of the
 free pi_4(S^2)=Z2 coin. Crux 1 makes Crux 2 well-posed and fixes its exact loop,
 target group, and the channel N must use (an induced phase, the classical one
 being absent).
+
+---
+
+## BLIND ADVERSARIAL VERIFIER PASS — 2026-06-15
+VERIFIER crux1_statistics / 2026-06-15 / 7e2b9c4f1a8d6035 (independent machinery
++ independent homotopy reasoning; NOT a re-run-and-agree of
+crux1_statistics_topology.py).
+
+VERDICT: **STANDS-WITH-CAVEAT.** Every central claim survives. The load-bearing
+claim #4 (N=3 cannot classically land the coin) survives the SHARPEST possible
+attack — the degree-N action on pi_4(S^2)=Z2 — and is in fact MORE robust than
+the doc argued. Caveats are scoping/wording, not load-bearing.
+
+PER-CLAIM:
+1. FIELD ID (degree-1 hedgehog, Hopf=0, 3D) — **STANDS.** Reproduced with my own
+   independent integrator: hedgehog degree = 0.99997 (and the integrator passes
+   winding-2 -> 1.99984 and winding-3 -> 2.99949 sanity checks, so it is not
+   trivially returning 1); hedgehog Hopf = 0.0000; genuine Hopf control = 0.758
+   on 28^3 rising MONOTONICALLY to 0.873 (40/56/72^3) toward the integer 1, so
+   the control is a real Hopf=1 texture and the hedgehog's Hopf=0 is genuine, not
+   a grid artifact. Hedgehog = a degree (pi_2=Z) texture, NOT a Hopf (pi_3)
+   texture. 3-spatial-dim reading sound (cell = radial x S^2).
+2. THE COIN EXISTS (pi_4(S^2)=Z2 in pi_1(Q), two sides) — **STANDS.** Independently
+   confirmed pi_2=Z, pi_3=Z(Hopf), pi_4(S^2)=Z2 (gen eta^2=eta o Eta),
+   pi_5(S^2)=Z2, pi_5(SU(3))=Z against standard tables. The 2pi-rotation/exchange
+   loop in Maps(S^3,S^2) suspends S^1^S^3=S^4 -> S^2 = pi_4(S^2)=Z2; both 1-D reps
+   (boson +1, fermion -1) available. Dimensional attack repelled: the cell is
+   genuinely 3 spatial dims, so the group is pi_4 (Z2), NOT the 2+1-D anyonic pi_3
+   (any phase) and NOT the SU(2)-Skyrme pi_4(S^3) (different generator Eta; doc
+   correctly uses the S^2 reason eta^2, imports no SU(2) machinery).
+3. THREE-Z2 RELATION — **STANDS.** (a) pi_4(S^2) [FR class] and (b) pi_5(S^2)
+   [would-be 4D theta/WZW coefficient on the S^2 target] are genuinely linked as
+   class-vs-coefficient (both target-S^2; a theta-term on S^2 evaluated on the
+   rotation loop would fix the FR sign), and #50's "pi_5(S^2)=Z2 free, not
+   pi_5(SU(3))=Z" correctly says the coefficient slot holds only a free sign. (c)
+   H^1(M;Z2) is a BACKGROUND spin-structure Z2, a different object — correctly set
+   aside. The "two faces of one question" is fair physics language; the doc is
+   explicit they are distinct groups (pi_4 vs pi_5), so not a conflation.
+4. N-MOD-2 (the load-bearing claim) — **STANDS, strengthened.** I attacked this
+   hardest via the exact mechanism the prompt flagged: does composition by a
+   degree-N map act as xN (or xN^2) on pi_4(S^2)=Z2? INDEPENDENT ANSWER: YES it
+   does act -- as multiplication by N^2 mod 2 = N mod 2 (postcomposition uses the
+   degree^2 law on the Hopf invariant H(d o eta)=N^2 eta, reduced mod 2;
+   precomposition by a degree-N source map acts as xN on the suspension element).
+   BUT THIS DOES NOT FLIP THE COIN: multiplication-by-(N mod 2) is a GROUP
+   HOMOMORPHISM Z2->Z2, not an affine shift. For N=3 (odd) it is multiply-by-1 =
+   the IDENTITY: it leaves the FR class EXACTLY where it was. "Landing the coin"
+   (boson<->fermion) requires ADDING the generator (an affine offset s->s+1), not
+   MULTIPLYING by N. So even granting the feared mechanism, N=3 does NOT land the
+   coin -- the result is MORE robust than the doc's argument, not less. Secondary
+   routes also closed: (W1) Whitehead square [iota,iota]=2eta is internal target
+   structure, no B-coupling; (W2) the genuine B-parity is the COMPOSITE-statistics
+   rule s^B (a charge-B lump is fermionic iff B odd GIVEN the unit is), which for
+   the B=1 unit soliton (= our field) is just the free s -- it does NOT fix the
+   fundamental coin; (W3) any Toda bracket into Z2 reduces an integer input mod 2
+   homomorphically (multiply, not flip) and needs an integer source group;
+   (W4) framing = the P/T-even Berry curvature already in L4 (statistics-blind).
+   The ONLY genuine N-channel (the 5D WZW level N_c) requires pi_5(SU(3))=Z,
+   which #50 showed is not classically native. CLAIM #4 SURVIVES.
+5. TRUNCATION (purely topological, robust) — **STANDS.** Every result depends only
+   on target (S^2), spatial dim (3), and homotopy groups; no rigid-rotor /
+   collective-coordinate / linearization input enters the EXISTENCE of the coin.
+   The rigid-rotor is correctly scoped to Crux 2 (quantization), not Crux 1.
+
+INDEPENDENTLY REPRODUCED: degree=1 (0.99997, with winding-2/3 integrator
+sanity), hedgehog Hopf=0, control Hopf converging to 1; the homotopy table; and
+the crux degree-N action on pi_4(S^2)=Z2 (= xN mod 2 = identity for N odd).
+
+ATTEMPTED BREAKS (all FAILED to land the coin): (i) degree-N composition acts
+nontrivially on pi_4 -> found it acts as x(N mod 2) = identity for N=3, a homo-
+morphism not a flip; (ii) composite-statistics B-parity -> exists but only for
+B>1 composites, free for the B=1 unit; (iii) Whitehead/Toda secondary ops ->
+reduce mod 2 homomorphically, need an integer source; (iv) 2+1-D anyonic reading
+-> excluded (cell is 3 spatial dims); (v) SU(2)-Skyrme pi_4(S^3) import -> not
+used, S^2/eta^2 reason given.
+
+CAVEATS (non-load-bearing): (a) the doc's "loop-space adjunction => pi_1(degree-B
+component) = pi_4(target)" is the standard FR identification for the BASED 2pi-
+rotation generator; a fuller treatment notes pi_1(Q) can also receive a pi_0
+deck-contribution, but the spin-statistics Z2 generator is correctly the
+based rotation loop -> pi_4(S^2)=Z2. Does not affect the verdict. (b) "two faces
+of one question" for (a)/(b) is physics shorthand for distinct groups pi_4 vs
+pi_5 -- the doc says so explicitly, so acceptable.
+
+TARGETING CHECK: the verdict "coin exists AND is free" was DERIVED from OUR
+field's topology (S^2 target per #50, 3 spatial dims, the homotopy groups), not
+steered. It neither under-claims (a real two-sided Z2 IS present) nor over-claims
+(no classical selection was manufactured; the one mechanism that COULD select --
+the integer WZW -- is correctly ruled non-native via #50). No SU(2)/S^3 Skyrme
+machinery substituted for the actual S^2 field. No mass/ratio/wall-number used.
+
+RESIDUAL OPEN HINGE (correctly handed to Crux 2, not a defect here): whether the
+QUANTIZED collective-coordinate Berry phase on the 2pi-rotation loop equals
+exp(i*pi*N) and thereby AFFINELY shifts the free pi_4(S^2)=Z2 sign. That is the
+one channel (an induced quantum phase, an affine offset rather than a degree
+multiplication) that this classical topology cannot decide -- exactly as the doc
+scopes it.
+
+VERIFIER crux1_statistics / 2026-06-15 / 7e2b9c4f1a8d6035
