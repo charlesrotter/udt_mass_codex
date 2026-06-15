@@ -1236,3 +1236,32 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     flagged). CONDITIONS-CHANGED TRIGGER: a native WZW/Hopf term (facet 1a)
     would reopen BOTH facets at once. DATA-BLIND (#48 guard, not target). 
     Pending Charles.
+
+## The classical metric gives U(1)+SO(3,1)+real-S^2, NOT SU(3): the genuine
+## SU(3)/WZW field is not classically native (2026-06-15, su3_field_test_results.md;
+## blind verifier PENDING)
+
+50. THE GENUINE SU(3) FIELD (THE WZW CRUX OF #49) IS NOT CLASSICALLY NATIVE; THE
+    FERMION SECTOR IS PURELY QUANTUM (an OPERATOR ALGEBRA, not a classical
+    field). Charles's "explore the genuine field, easiest way to decide":
+    constructed the complex l=1 amplitude field z in C^3 (the SU(3) fundamental)
+    and asked what structure the metric puts on it. RESULT (sympy, verifier
+    PENDING): the metric induces a connection ONLY for U(1) (the native photon,
+    em_forcing, generator=1_3) x SO(3) (the antisymmetric L_a = spin connection)
+    x SO(3,1) (gravity). The 5 SYMMETRIC rank-2 Q_ab generators — exactly
+    SU(3)\(U(1)xSO(3)) — have NO native gauge field (the spin connection of any
+    real symmetric g_mn is so(3,1)/antisymmetric-valued, a theorem; it cannot
+    source a symmetric internal pair). So z COLLAPSES to the real n (4 of 6 DOF
+    unphysical; <z|L_a|z>=0), the target is S^2=SU(3)/U(2) [pi_5=Z_2, a free
+    sign] NOT the SU(3) group manifold [pi_5=Z, integer N_c]. => NO native
+    integer WZW; the fermion stays the free FR Z_2. This RESOLVES the #49 WZW
+    crux NEGATIVELY for the CLASSICAL metric: the whole fermion/sqrt(m)/Koide/
+    ladder cannot come from a classical native SU(3) field. SHARPENED FRONTIER
+    (the one open door, NOT refuted): the QUANTUM sector — hbar promotes the
+    angular mode amplitudes to a complex Hilbert-space triplet on which the
+    su(3) OPERATOR ALGEBRA (already native as kinematics) acts; the fermion/WZW
+    is representation-theoretic/quantum, not a classical sigma-model field.
+    su(3) being an OPERATOR ALGEBRA (acts on states), not a gauge field, is now
+    a feature: the quantum completion = quantize the angular modes, su(3) acts
+    on the Hilbert space, does the WZW/fermion emerge? PREMISE SET: CLASSICAL
+    (no hbar); the real metric's spin connection. DATA-BLIND. Pending Charles.
