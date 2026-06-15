@@ -274,3 +274,118 @@ NOTHING is deleted; #52/#34/#39 are FLAGGED pending re-grade under a B=1/A-free 
 4. **Scope:** is the right correction really "drop B=1/A → 2-function radial metric", or
    does the reduced solve have a different repairable inconsistency? Stress the claim
    that #52 satisfies ONLY (t,t) (look for any other equation it secretly satisfies).
+
+---
+
+## 11. BLIND ADVERSARIAL VERIFIER — VERDICT (2026-06-15)
+
+Verifier: Claude (Opus 4.8, 1M), independent blind pass. DATA-BLIND. Mandate: this
+result OVERTURNS a canonized statement, so rigor in BOTH directions. Independent
+machinery only — own from-scratch closed-form Einstein engine (NOT whole_metric_3d_core).
+Scripts (committed with this block): verify_indep_einstein.py, verify_indep_field.py,
+verify_indep_residual.py, verify_indep_residual2.py, verify_indep_residual3.py.
+
+### 11.1 INDEPENDENT ENGINE (own closed-form G^mu_nu for diagonal g_tt(r),g_rr(r))
+Built g -> Christoffel -> Riemann -> Ricci -> G_{mn} -> G^mu_nu from scratch in sympy,
+NO shared code with the committed FD engine.
+- VALIDATION on Schwarzschild (g_tt=-(1-2M/r), g_rr=1/(1-2M/r)): G^t_t=G^r_r=G^th_th
+  =G^ps_ps = 0 EXACTLY. **PASS.**
+- For B=1/A (g_tt=-e^{-2phi}, g_rr=e^{2phi}):
+  G^t_t = G^r_r = (-2 r phi' - e^{2phi} + 1) e^{-2phi}/r^2, and
+  **G^t_t - G^r_r = 0 IDENTICALLY** (sympy-proved, independent). This is the hinge.
+
+### 11.2 THE CRUX — independent residuals on the committed #52 soliton (p=0.4,kappa8=0.05)
+Evaluated my closed-form G on the committed profile (Theta,phi from
+complete_metric_batched.selfconsistent_batched) with the committed stress() (=unit-S^3
+Hilbert stress, see 11.3). KEY algebraic identity (verified to ~1e-14, all N):
+        res_rr  ==  res_tt  -  kappa8 (p_r + rho)         [forced by G^t_t==G^r_r]
+i.e. the (r,r) residual = the (t,t) FD-truncation error (common-mode) PLUS the analytic
+EOS gap -kappa8(p_r+rho). Decomposed in the smooth body (r>rc+1.0, off the deep-core
+coordinate spike and FD edges):
+| quantity | value | character |
+|---|---|---|
+| (t,t) residual, smooth body | max ~1.5e-2 | pure FD truncation (common-mode) |
+| (r,r) residual, smooth body | mean ~2e-2, max ~1.5e-1 | EOS gap + FD |
+| (r,r) residual, EXTERIOR (Theta'=0) | ~3e-4 | ~0 (B=1/A consistent) |
+| analytic EOS gap kappa8(p_r+rho), body | mean ~2.0-2.6e-2, **max 0.160 STABLE** | resolution-INDEPENDENT |
+- **(t,t) is satisfied** (residual is FD-only). **(r,r) is VIOLATED in the body and ~0 in
+  the exterior** — CONFIRMED.
+- **Non-convergence CONFIRMED in the correct sense:** the irreducible part -kappa8(p_r+rho)
+  is analytic and resolution-INDEPENDENT (max|EOS gap|=0.160 at N=700/1400/2800,
+  unchanged). [Caveat on the committed gate's reported magnitudes: the raw whole-grid
+  max|res| is dominated by a deep-core (r~0.1) / near-axis COORDINATE spike that GROWS
+  with N — that part is truncation/coordinate, not physics. The committed gate's O(1)
+  body numbers (max ~2.75) are inflated by those near-core points; the *genuine,
+  resolution-independent, body* violation is the EOS gap, max ~0.16 here, mean ~0.02 —
+  still unambiguously NONZERO and O(1) relative to the local sources. The qualitative and
+  causal verdict is unchanged; the precise magnitude is smaller once core/axis coordinate
+  spikes are excluded.] Robust across (p,kappa8) in {(0.3,.05),(0.4,.03),(0.5,.05)}.
+
+### 11.3 DISENTANGLEMENT — B=1/A over-imposition vs field provenance (DECISIVE)
+(a) **B=1/A over-imposition — REAL cause (analytically forced).** Independent chain:
+    B=1/A => G^t_t=G^r_r (11.1) ; impose (t,t): G^t_t=kappa8 T^t_t=-kappa8 rho ; then
+    G^r_r=-kappa8 rho automatically ; full (r,r): G^r_r=kappa8 T^r_r=kappa8 p_r =>
+    **p_r=-rho is REQUIRED**. But the L2+L4 soliton has p_r+rho=e^{-2phi}Theta'^2
+    (xi+2 kappa sin^2Theta/r^2) > 0 in the body (sympy-factored, independent) => (r,r)
+    MUST fail wherever Theta'!=0. CONFIRMED.
+(b) **Field provenance — REAL mismatch but does NOT rescue the soliton.** Independent
+    sympy Hilbert stress:
+    - committed record field S2 = (sinT sinth cosps, sinT sinth sinps, cosT):
+      |n|^2 = 1 - cos^2(th) sin^2(Theta) != 1 (**NOT unit**); its Hilbert stress does NOT
+      match committed stress() (and is theta-dependent).
+    - unit S^3 hedgehog (sinT sinth cosps, sinT sinth sinps, sinT costh, cosT):
+      **|n|^2 = 1 exactly**, and its mixed Hilbert stress reproduces committed stress()
+      EXACTLY (T^t_t+rho=0, T^r_r-p_r=0, sympy-simplify, all theta).
+    The gate sources Einstein from stress() (= the unit-S^3 stress), NOT from the energies.
+    The provenance mismatch is between energy_pieces() (S2) and stress() (S3) — REAL, but
+    IRRELEVANT to the gate. Using the CORRECT unit field gives the SAME stress => SAME
+    (r,r) verdict. **The (r,r) violation is NOT a non-unit-field artifact.**
+=> Cause (a) is the real cause; cause (b) is a genuine bookkeeping defect that does not
+   change the verdict. **The overturn survives correct field treatment.**
+
+### 11.4 THE CANON — what survives of C-2026-06-14-1
+Independent: T^t_t - T^r_r = -(p_r+rho) = -e^{-2phi}Theta'^2(xi+2 kappa sin^2Theta/r^2).
+- For a PURELY-ANGULAR config (Theta'=0): T^t_t=T^r_r EXACTLY => B=1/A sourced. The
+  CORE canon statement (B=1/A is sourced, not postulated, by the angular field in the
+  no-radial-gradient case) **SURVIVES INTACT** — verified independently.
+- For the L2+L4 SIZED soliton (Theta'!=0 in the body): T^t_t != T^r_r => B=1/A is NOT
+  sourced in the twisting body; it holds only in the unwound exterior. The
+  **EOS-softening REFINEMENT (appended 2026-06-14) SURVIVES INTACT and is exactly what
+  the gate measures at the level of the full Einstein equations.**
+- What this push adds: the refinement's consequence is now shown to be a HARD
+  INCOMPATIBILITY at the (r,r) Einstein equation, not merely an EOS inequality. C-2026-
+  06-14-1 must NOT be read as "B=1/A holds throughout a realized particle"; that reading
+  was never canonized (the refinement already scoped it to the exterior/idealized knot).
+
+### 11.5 SCOPE — is "drop B=1/A -> 2-function radial metric" the right correction?
+Independently: yes, and it is forced. With g_tt,g_rr INDEPENDENT, G^t_t != G^r_r in
+general, so (t,t) and (r,r) become two independent equations that can be met by
+rho and p_r separately (the standard GR-star interior, TOV-like). Imposing B=1/A
+collapses them to one => one of {(t,t),(r,r)} must break unless p_r=-rho. #52 secretly
+satisfies ONLY (t,t) (the Misner-Sharp m'=kappa8 r^2 rho it integrates); it does NOT
+secretly satisfy any other component — confirmed (the angular G^th_th carries the
+independent phi'' content the reduced solve never constrained). The correction is to
+solve the 2-function radial metric; no cheaper repair exists.
+
+### 11.6 VERDICT (per claim)
+- INDEPENDENT ENGINE validated (Schwarzschild G=0): **CONFIRMED.**
+- (t,t) satisfied; (r,r) violated in body, ~0 in exterior: **CONFIRMED.**
+- Non-convergent (irreducible analytic EOS gap, resolution-independent): **CONFIRMED**
+  (with the magnitude caveat in 11.2: the genuine body violation is ~0.16 max / ~0.02
+  mean once the deep-core/near-axis coordinate spikes are excluded; the committed gate's
+  larger O(1) figure is partly inflated by those spikes — verdict unchanged).
+- Root cause = B=1/A over-imposition + EOS-softening (p_r!=-rho): **CONFIRMED, analytically
+  forced.** The field-provenance confound is real but does NOT rescue #52.
+- C-2026-06-14-1 core (purely-angular T^t_t=T^r_r) and its EOS-softening refinement:
+  **BOTH SURVIVE.** The overturn does NOT touch the canon; it CONFIRMS the refinement's
+  prediction at the full-Einstein level.
+- **OVERTURN VERDICT: WARRANTED.** The reduced #52 round soliton is NOT a solution of the
+  full Einstein-matter system — it solves only {(t,t) Einstein + matter EL + assumed
+  B=1/A}. The re-grade of #52 (and the flag on #34/#39) to CONDITIONS-CHANGED is JUSTIFIED.
+  #54 untouched (realization B not reached). This is a SCOPE finding (real physics), not a
+  build/engine/gauge/field artifact.
+
+ONE CORRECTION TO THE RECORD (non-blocking): §5/§8 should not over-state the body (r,r)
+magnitude as uniformly O(1)~1.64; the genuine resolution-independent body violation is
+the EOS gap (max ~0.16, mean ~0.02 here), with the larger raw maxima coming from
+deep-core/near-axis coordinate spikes. The causal claim and the gate FAIL stand.
