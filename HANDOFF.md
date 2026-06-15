@@ -192,13 +192,23 @@ import can turn out NATIVE (the Skyrme term was our own winding current).
    SU(3); NO classical integer WZW). So do NOT re-run a classical SU(3)-field /
    classical-monodromy search. THE LIVE QUESTION: su(3) is an OPERATOR ALGEBRA
    (acts on STATES), already native as the l=1 kinematics. QUANTIZE the angular
-   l=1 amplitudes -> a complex su(3)-triplet HILBERT SPACE -> does the WZW /
-   fermionic statistics / sqrt(m) / the e-mu-tau ladder emerge as a QUANTUM
-   ANOMALY (or representation-theoretic structure) of that Hilbert space? This
-   rides hbar (a solid anchor) and is the genuine open frontier; it is exactly
-   where the founding integer / representation-theory insight pointed. MAP first
-   (premise ledger: what the su(3) operator algebra + the quantized angular
-   Hilbert space genuinely give vs the hbar/anomaly assumptions). Anchors to
+   l=1 amplitudes -> a complex su(3)-triplet HILBERT SPACE.
+   *** THE DECISIVE FIRST COMPUTATION (do it ALONE, FIRST — it IS the
+   postulate-A test): THE COIN-FLIP. *** Classically the soliton's statistics is
+   a FREE Finkelstein-Rubinstein Z2 (boson vs fermion = which 1-D rep of
+   pi_1(collective-coordinate config space)=Z2; calling it a fermion = postulate
+   A). Does QUANTIZING the angular collective coordinates produce a topological /
+   Berry / WZW phase that SELECTS the fermionic (double-valued) rep, with sign/
+   coefficient FIXED by N=3? YES => postulate A is DERIVED (electron forced, like
+   QCD's baryon-as-Skyrmion via WZW/N_c). Z2 stays FREE => postulate A is
+   IRREDUCIBLE (UDT postulates the fermion like the SM). This single yes/no is
+   PRIOR to and more important than sqrt(m)/Koide/ladder. ONLY AFTER it: does the
+   WZW / sqrt(m) / the e-mu-tau ladder follow as the rep-theory of that Hilbert
+   space? This rides hbar (a solid anchor) and is the genuine open frontier;
+   exactly where the founding integer / representation-theory insight pointed.
+   MAP first (premise ledger: what the su(3) operator algebra + the quantized
+   angular Hilbert space genuinely give vs the hbar/anomaly/WZW-phase IMPORTS —
+   DERIVE whether quantization produces the phase, do NOT import it). Anchors to
    carry: the legacy S13.11 IS native Koide GIVEN the fermion (sqrt(m)=Dirac
    mass, cyclic Z3=orbital l=1, sqrt2=spin multiplicity); #48 (a constant-ratio
    ladder is Koide-incompatible — any depth sequence must be unevenly spaced).
