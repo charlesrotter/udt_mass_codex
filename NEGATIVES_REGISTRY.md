@@ -1330,6 +1330,9 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
 ## (no classical catalog of types); kappa8 is a free dial with an over-collapse
 ## ceiling, NOT criticality (2026-06-15, complete_metric_sweep_stageB_results.md;
 ## blind-verified cb3f7443884aa6f1 by an INDEPENDENT non-Picard full-Newton solver)
+## [CONDITIONS-CHANGED 2026-06-15 by #55: the swept soliton imposed B=1/A in the
+## twisted body and is NOT a full-metric solution (violates the (r,r)+angular Einstein
+## eqs); re-grade required under the B=1/A-free solve. Loses blocking authority.]
 
 52. THE COMPLETE-ACTION SOLUTION SPACE (L2+L4+seal+two-way phi), SWEPT IN THE DEEP
     NEGATIVE-PHI REGION FOR THE FIRST TIME, IS ONE ROUND CHARGE-1 CONTINUUM — NO
@@ -1420,3 +1423,51 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     UDT's own structures (mass family in DEPTH, charge family in WINDING). PREMISE
     SET: target S^2; 3 spatial dims; single cell; collective-coordinate + functional
     quantization; hbar. DATA-BLIND. Pending Charles.
+
+## A validated full-4D Einstein engine shows the reduced soliton (#52/#34/#39) was
+## NOT a full-metric solution — B=1/A was over-imposed in the twisted body
+## (2026-06-15, whole_metric_solve_3D_results.md; blind-verified a1f0c68b3bf1e92fe by
+## an INDEPENDENT closed-form Einstein engine). CANON C-2026-06-14-1 SURVIVES (confirmed).
+
+55. THE FIRST GENUINELY UNREDUCED METRIC TEST OVERTURNS THE REDUCED SOLITON: #52's
+    "one round knot" SOLVES ONLY A SUBSET OF EINSTEIN'S EQUATIONS. Charles-ordered
+    whole-metric solve (he caught that #52/#54 were the complete ACTION on a REDUCED
+    metric; full 3D, no symmetry imposed). FINDINGS (blind-verified by an independent
+    closed-form Einstein engine, Schwarzschild-validated):
+    (a) ASSET: a full-4D numerical Einstein engine was built and INDEPENDENTLY
+    VALIDATED (flat->0, Schwarzschild->0, and a generic OFF-DIAGONAL metric with
+    frame-drag g_tψ + shear g_rθ vs exact analytic G to ~5e-6, converging). The
+    off-diagonal sector is computed correctly, not gauged away. The matter stress
+    (L2+L4) reproduces the committed reduced (rho,p_r) to ~5e-14. This engine is the
+    durable tool for the whole-metric program.
+    (b) THE GATE: seeding the committed #52 round soliton into the FULL Einstein
+    system, (t,t) is SATISFIED but (r,r) is VIOLATED in the twisted body (Theta'!=0)
+    and ~0 in the unwound exterior (Theta'=0); the angular eqs are violated too. The
+    violation is RESOLUTION-INDEPENDENT, forced by the exact identity res_rr =
+    res_tt - k8(p_r+rho): the irreducible piece -k8(p_r+rho) is analytic, max ~0.16
+    in the body, unchanged across N=700/1400/2800. => the #52 soliton is NOT a
+    full-metric solution; it solves only {(t,t) Einstein + matter EL + ASSUMED
+    B=1/A}.
+    (c) CAUSE (disentangled, decisive): B=1/A OVER-IMPOSITION is the real cause —
+    B=1/A + (t,t) analytically FORCES p_r=-rho, but the L2+L4 soliton has
+    p_r+rho = e^{-2phi}Theta'^2(xi+2k sin^2Theta/r^2) > 0 in the body (EOS-softened)
+    => (r,r) MUST fail. A secondary matter-field provenance mismatch (the committed n
+    is NOT unit-norm; energies vs stress from different fields) is REAL but does NOT
+    rescue #52 (the unit S^3 hedgehog reproduces the committed stress() exactly; the
+    gate sources from stress()). Correct field => same verdict.
+    (d) CANON C-2026-06-14-1 SURVIVES INTACT — the overturn does NOT touch it, it
+    CONFIRMS its EOS-softening refinement: for purely-angular (Theta'=0) T^t_t=T^r_r
+    exactly (B=1/A sourced); wherever Theta'!=0, T^t_t-T^r_r=-(p_r+rho)!=0 (B=1/A
+    exact ONLY in the unwound exterior). The reduced solver ERRED by imposing B=1/A
+    EVERYWHERE, contradicting the canon's own refinement — the gate is that refinement
+    made into a hard incompatibility at the (r,r) Einstein equation.
+    THE CORRECTION (forced): drop B=1/A => independent (g_tt, g_rr) — a 2-function
+    radial metric satisfying ALL Einstein equations — then build up to the full
+    off-diagonal 3D metric on the validated engine.
+    RE-GRADES (premise CONDITIONS-CHANGED — lose blocking authority until re-solved
+    with B=1/A freed): #52 (one round charge-1 continuum) and #34/#39 (one round
+    continuum) — their soliton was not a full solution; #54 (micro mass-shape) — its
+    M_MS values ride the same non-solution soliton (the qualitative depth-continuum /
+    charge-axis structure may survive but must be re-graded under the corrected
+    solve). NOT changed: the canon (d); the validated engine (a). PREMISE SET: deep
+    negative phi; charge-1; settled L2+L4 action. DATA-BLIND. Pending Charles.
