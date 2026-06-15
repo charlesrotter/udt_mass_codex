@@ -1325,3 +1325,55 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     (electron forced); free/0 => postulate A IRREDUCIBLE (UDT postulates the
     fermion like the SM). PREMISE SET: target S^2; 3 spatial dims; single cell;
     classical topology (Crux 2 adds hbar). DATA-BLIND. Pending Charles.
+
+## The COMPLETE action swept in deep negative-phi = ONE round charge-1 continuum
+## (no classical catalog of types); kappa8 is a free dial with an over-collapse
+## ceiling, NOT criticality (2026-06-15, complete_metric_sweep_stageB_results.md;
+## blind-verified cb3f7443884aa6f1 by an INDEPENDENT non-Picard full-Newton solver)
+
+52. THE COMPLETE-ACTION SOLUTION SPACE (L2+L4+seal+two-way phi), SWEPT IN THE DEEP
+    NEGATIVE-PHI REGION FOR THE FIRST TIME, IS ONE ROUND CHARGE-1 CONTINUUM — NO
+    DISTINCT CLASSICAL TYPES / BIFURCATIONS / SUBSTRUCTURE. Closes the gap the
+    record-audit (a7454aab) found: every prior negative-phi SWEEP was pre-L4
+    (#34/#39), every L4 study was a single-cell point-probe (#43/#44); this is the
+    first complete-action SWEEP that maps the space. FINDINGS (blind-verified
+    STANDS by an independent damped FULL-NEWTON on the joint (Theta,phi) field with
+    NO Picard fixed-point fragility — the solver the headline most needed):
+    (a) HEADLINE: across kappa8 (primary) x depth p in [0.2,2.0] x 5 seeds
+    (round/extra-node/two-core/Legendre l1,l2), every existing cell is the round
+    monotone charge-1 soliton (turns=0) of #43/#44 with the L4 size sqrt(kappa/xi),
+    deforming smoothly (width 0.66->1.03 with depth; M_MS grows with p and kappa8).
+    The round-cell Jacobian min|eig| in [0.18,0.23] NEVER crosses zero (RISES with
+    depth — cells get MORE rigid) => no bifurcation, no shaped/multi-constituent
+    type. VERIFIER CRUX: the 170/270 Picard non-convergences were SOLVER artifacts
+    — the independent full-Newton CONVERGED on the shaped/composite/deep/near-
+    ceiling seeds Picard failed on, and EVERY one relaxed to the SAME round profile.
+    No missed charge-1 type, no second branch, no multi-core bound state.
+    (b) kappa8 (the phi-angular back-reaction = Charles's hunch axis; all prior work
+    weak/passive) is a FREE dial with an OVER-COLLAPSE / horizon EXISTENCE CEILING
+    kappa8*(p) (lowers with depth). The feature is PHYSICAL (grid-converged, mpmath
+    dps=40) but NON-CRITICAL: min|eig| stays FLAT (~0.193, no order-parameter
+    softening, no min|eig|->0) right up to the cliff, then the deficit jumps
+    discontinuously => saddle-node/first-order existence edge, NOT a 2nd-order
+    critical point. => PATH 2 (kappa8 free) EVIDENTIALLY FAVORED over PATH 1
+    (criticality); the critical-universe conjecture is NOT supported in this regime
+    (nothing special sits at kappa8*). CAVEAT: the non-critical CHARACTER is robust,
+    but the precise kappa8*(p) VALUE is solver-dependent (warm-started Newton holds
+    clean cells past the Picard value, to ~0.070 at p=0.4 vs the Picard 0.0634).
+    (c) #38 FLIP RE-RUN WITH L4: no shaped seed bounds into a distinct type; L4
+    makes the cell MORE rigid; the forced angular completion never appears as a
+    solution.
+    (d) SCOPE TAG + NEW OPEN ROUTE: the headline is for WINDING m=1. The verifier
+    found a STABLE HIGHER-WINDING TOWER outside that sector (m=2 grid-stable
+    M_MS=0.190 min|eig|=0.18>0; m=3 borderline) — NOT charge-1 substructure (does
+    not break the headline) but a separate native TOPOLOGICAL-CHARGE family (the
+    already-open winding-family route).
+    CONSEQUENCE: the classical content is EXHAUSTED for charge-1 — the lepton MASS
+    family (same charge, different mass) is NOT a classical catalog of charge-1
+    shapes. The complete-action sweep the quantum-pivot premise was missing now
+    EXISTS and the premise SURVIVES it. Observation-led nugget (carried to the
+    reframe, [[reframe-observation-led]]): a one-parameter MASS family already lives
+    in the DEPTH axis (M_MS(p) at fixed charge), and a CHARGE family in the WINDING
+    tower — the native raw material, no fermion/WZW needed. PREMISE SET: cell =
+    radial interval x S^2; deep negative phi; charge-1 (m=1); the settled L2+L4+seal
+    action; two-way phi. DATA-BLIND. Pending Charles.

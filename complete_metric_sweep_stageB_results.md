@@ -269,3 +269,92 @@ confirmation; grid-convergence of the sub-boundary soliton. Recommended verifier
 "one round continuum" claim by (a) hunting a converged distinct type at deep p with a
 non-Picard solver, (b) checking whether the over-collapse ceiling hides a shaped branch
 just past it under arc-length continuation, (c) re-deriving κ₈*(p) independently.
+
+---
+
+## 9. BLIND ADVERSARIAL VERIFIER (Stage C) — 2026-06-15
+
+Independent verifier, INDEPENDENT solver machinery (V100 float64). Tasked to BREAK
+the headline; aimed HARDEST at the headline-confirming result (hypothesis discipline).
+Method: did NOT re-run the committed Picard SCF. Built an INDEPENDENT engine
+`verify_stageB_indep.py` — a single damped FULL-NEWTON on the JOINT coupled unknown
+u=[Θ_int; φ_int] with Armijo line search, reusing only the committed PHYSICS
+primitives (`theta_ddot`, `stress`, `phi_from_source` MS closure, `grad_central`).
+This solver has NO Picard relaxation and NO fixed-point basin fragility — exactly the
+non-Picard solver the doc's own §8 recommended. Dense numerical Jacobian (no banded
+ansatz that could mask a nonlocal branch).
+
+### Engine validation (independent vs committed)
+Round, p=0.4, κ₈=0.05, N=240: independent Newton lands on the committed Picard
+solution — M_MS 0.28999 vs 0.29016 (|Δ|=1.7e-4), min|eig| 0.1946 (committed sweep:
+0.1949), res 2.3e-13. Independent engine validated.
+
+### A. CONVERGENCE-FAILURE RE-ATTACK (the crux) — HEADLINE STANDS
+The independent full-Newton CONVERGES (res 1e-11…1e-13) on the seeds Picard FAILED on:
+extranode / twocore / **twocenter (widely separated)** / **asym (strongly asymmetric)**
+/ multipole / **staircase (multi-node)**, at deep p=0.8, 1.2, 1.6, 2.0 AND near the
+ceiling (p=0.4, κ₈=0.06). Result: **every converged shaped/multi-core/asymmetric seed
+relaxes to the SAME round profile** (turns=0; identical width; identical M_MS to the
+round cell at that point). The turns=1 that appears at p≥1.6 is the deep-φ round
+profile developing a single inflection — it appears IDENTICALLY for the round and all
+shaped seeds (same width 0.932/1.065), i.e. a deformation of the one cell, not a
+distinct type. The ONE flagged "distinct" (p=1.2, κ₈=1e-3, multipole, dev 0.011) is
+the SAME non-washed-out borderline iterate the doc already identified, not a new type.
+A robust solver WITHOUT Picard's basin problem surfaced **NO missed distinct stable
+charge-1 type, no second branch, no multi-constituent bound state.** The crux attack
+FAILS to break the headline → headline CONFIRMED by an independent solver.
+
+### B. TOPOLOGICAL-SECTOR HUNT (the sweep ran only m=1) — SCOPE CAVEAT (not a break)
+The Stage-B sweep fixed winding m=1. The verifier solved m=2, m=3 hedgehogs (never
+swept). m=2 (p=0.4, κ₈=0.01): converges, ncross=2, min|eig|=0.185>0, grid-stable
+(M_MS 0.1902→0.1894, min|eig| 0.185→0.181 from N=240→360) — a REAL, STABLE, distinct
+HIGHER-WINDING soliton. m=3 (p=0.8): converges at N=240 (min|eig|=0.180>0) but fails
+to grid-refine (less robust). This is the WINDING TOWER, which is an ALREADY-OPEN
+registry route (winding family / Z or Z/p tower, NEGATIVES_REGISTRY ~L760), NOT
+classical substructure of a charge-1 cell. It does NOT break the headline — the
+headline is explicitly scoped to the **charge-1** continuum — but it is recorded as a
+CAVEAT: a stable higher-charge family exists and was outside the swept sector; "the
+classical content is exhausted" is true FOR CHARGE-1, with the winding tower a separate
+open topological question.
+
+### C. κ₈* RE-CHARACTERIZATION — STANDS on character; CAVEAT on the value
+Two independent probes: (i) pseudo-arclength march (κ₈ free, solved by
+deficit-bisection so it can round a fold the Picard κ₈-march cannot); (ii) fine
+warm-started κ₈ march to the cliff (p=0.4, N=300). Both give the SAME picture:
+min|eig| stays FLAT at ~0.1934–0.1948 with **zero softening trend** all the way to the
+existence cliff; the cell is full-strength right up to it. There is **NO min|eig|→0
+critical scaling and NO order-parameter softening** → independently confirms an
+over-collapse / horizon EXISTENCE CEILING, saddle-node/first-order-like, **NOT a
+second-order critical point**. Path 2 (free κ₈, capped by a non-critical ceiling) is
+independently favored. CAVEAT on the NUMBER: the warm-started robust Newton holds clean
+solitons past the doc's quoted κ₈*(0.4)=0.06341 — to κ₈≈0.070 (deficit still 0.807,
+min|eig| 0.193) — so the precise κ₈*(p) is partly SOLVER-DEPENDENT (the Picard basin
+gives up earlier than the true existence boundary). The non-critical CHARACTER of the
+ceiling is robust; its exact location is a soft, solver-sensitive bracket.
+
+### D. ROUND-BRANCH PHYSICS spot-check — STANDS
+B=1/A / EOS-softening (CANON D7+L4), size √(κ/ξ), M_MS monotonic in κ₈ and p,
+min|eig|∈[0.18,0.20] strictly positive — all reproduced by the independent engine,
+consistent with #43/#44 and the Stage-A baseline.
+
+### VERDICT (per claim)
+1. HEADLINE (one round charge-1 continuum; no distinct types / bifurcations /
+   substructure / multi-constituent; shaped seeds relax to round): **STANDS** —
+   independently confirmed by a non-Picard full-Newton that converged where Picard
+   failed and still found no missed charge-1 type.
+2. κ₈≈0.1 feature physical but non-critical over-collapse ceiling (Path 2 favored):
+   **STANDS-WITH-CAVEAT** — non-critical character independently confirmed (flat
+   min|eig|, no softening); the precise κ₈*(p) value is solver-dependent (true cliff
+   ≳0.07 at p=0.4, higher than the Picard-quoted 0.0634).
+3. #38 flip with L4 yields no distinct bounded shaped type: **STANDS** — confirmed for
+   m=1 with the independent solver.
+4. NEW SCOPE CAVEAT (not in the original headline): a STABLE higher-WINDING tower
+   (m=2 grid-stable; m=3 borderline) exists OUTSIDE the m=1 swept sector. The headline's
+   "classical content exhausted" is correct for charge-1; the winding family remains a
+   separate open topological route (already in the registry). Recommend the registry
+   entry scope the headline explicitly to charge-1 and cross-reference the winding tower.
+
+Scripts: `verify_stageB_indep.py` (independent full-Newton engine + attacks A–D).
+DATA-BLIND throughout. Self-id below.
+
+VERIFIER stageB_sweep / 2026-06-15 / cb3f7443884aa6f1
