@@ -1208,3 +1208,31 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     ladder. Useful guard for the depth-selection mechanism (constrains LLM#3's
     own monodromy D_n: evenly-spaced => dead). DATA-COMPARISON (public lepton
     ratios; not the wall contract). Provenance: LLM#3 fresh-eyes input.
+
+## Monodromy depth-quantization (LLM#3 facet 1b) does NOT work in L2+L4 — both
+## quantum facets reduce to the SAME missing WZW/Hopf term (2026-06-15,
+## monodromy_depth_results.md; blind-verified a578d8f97c25bf4f6)
+
+49. THE ANGULAR MONODROMY MECHANISM DOES NOT QUANTIZE THE CELL DEPTH IN L2+L4;
+    BOTH QUANTUM FACETS COLLAPSE TO ONE CRUX — A NATIVE WZW/HOPF (pi_3) TERM.
+    First quantum-completion computation (facet 1b, ladder, hbar-free first).
+    RESULT (blind-verified STANDS, active S^3 rescue failed): the settled L2+L4
+    (S^2 baby-Skyrme) hedgehog has NO depth-dependent angular phase — winding =
+    deg 1 at every depth, profile angle = pi (BC-fixed), Berry phase = 0 (pure
+    meridian); the iso-rotation chi is a RIGID cyclic collective coordinate
+    (Delta chi=2 pi n closes for every depth => selects NO D_n; the #39/#43
+    depth continuum is not lifted). The internal-longitude twist Psi(r) enters
+    ONLY as (Psi')^2 (zero source, no linear/bare term) for BOTH S^2 AND S^3
+    targets => back-reaction + the seal cannot induce a depth-twist. hbar
+    (Bohr-Sommerfeld) only quantizes the SPIN (an n^2 band on a cell of
+    arbitrary depth), NOT the depth. THE DECISIVE CONVERGENCE: a genuine
+    depth-monodromy needs the S^3 HOPF/WZW TOPOLOGICAL (pi_3) term, not a sigma
+    profile — the SAME term facet 1a (statistics/fermion) needs. So the TWO
+    quantum facets are ONE question: DOES UDT HAVE A NATIVE WZW/HOPF TERM TIED
+    TO N=3 (=N_c)? L2+L4 does NOT contain it (#47c, hopf_spinor). The whole
+    quantum completion (fermion statistics + sqrt(m) + the depth ladder) now
+    rests on that single crux. PREMISE SET: L2+L4 single-cell; the axisymmetric
+    collective-coordinate reduction; hbar-free classical first (Bohr-Sommerfeld
+    flagged). CONDITIONS-CHANGED TRIGGER: a native WZW/Hopf term (facet 1a)
+    would reopen BOTH facets at once. DATA-BLIND (#48 guard, not target). 
+    Pending Charles.
