@@ -66,27 +66,43 @@ docs + NEGATIVES_REGISTRY #43-#47.
    (n=psi-dag-sigma-psi gives a BOSONIC CP^1; L4 is curvature-squared, not the
    Hopf term; the soliton-fermion rides hbar + a free Z2). => the fermion /
    sqrt(m) / Koide is a QUANTUM-SECTOR property, not a classical forcing.
-6. THE QUANTUM FRONTIER (the live next step). The QED/QCD overlap SIMPLIFIES
-   the quantization: phi-cancellation (g^tt g^rr=-1) makes the gauge sector
-   FLAT-SPACE-standard; hbar becomes a NATIVE completion of UDT's own derived
-   classical skeleton; and UDT's L2+L4 IS the Skyrme model, where QCD's
-   Skyrmion IS the baryon (a fermion, via Witten). KEY CANDIDATE: N=3 (UDT's
-   angular carrier rank = its N_c) supplies the WESS-ZUMINO-WITTEN term that
-   FIXES the soliton's fermionic statistics — the exact free Z2 the classical
-   routes could not pin. (Conjecture grounded in banked structure; MAP it.)
+6. THE QUANTUM FRONTIER. The QED/QCD overlap simplifies the quantization
+   (phi-cancellation g^tt g^rr=-1 makes the gauge sector flat-space-standard;
+   hbar is a native completion of UDT's own derived skeleton; L2+L4 IS the
+   Skyrme model, QCD's Skyrmion IS the baryon). The whole completion reduced to
+   ONE crux: a native WZW term (coeff N_c=N=3) would make the soliton a fermion.
+7. [DAY 2, 2026-06-15] THE CLASSICAL WZW ROUTE IS CLOSED; THE FERMION IS A
+   QUANTUM / REPRESENTATION-THEORETIC OBJECT. Two computations resolved the
+   crux: (i) #49 — the monodromy/depth-ladder mechanism (LLM#3) does NOT work in
+   L2+L4 (no depth-dependent angular phase; both quantum facets need the SAME
+   missing WZW/Hopf term). (ii) #50 — the genuine SU(3) field is NOT classically
+   native: the metric induces a connection only for U(1) (the photon) x SO(3)
+   (spin connection) x SO(3,1) (gravity); the 5 SYMMETRIC su(3) generators
+   (SU(3)\U(1)xSO(3)) have NO native gauge field (the spin connection of a real
+   metric is antisymmetric — a theorem), so the complex l=1 triplet collapses to
+   the real n, target=S^2 [pi_5=Z_2, free sign] not SU(3) [pi_5=Z]; NO native
+   integer WZW. => CLASSICAL UDT is essentially complete (real-S^2 angular field
+   + U(1) photon + SO(3,1) gravity + a sized soliton + B=1/A), and it does NOT
+   contain the fermion/sqrt(m)/Koide. THE SHARPENED FRONTIER: su(3) is an
+   OPERATOR ALGEBRA (acts on STATES), not a classical field — so the fermion is
+   the QUANTUM ANOMALY / representation theory of the angular modes. Quantize the
+   l=1 angular amplitudes -> a complex su(3)-triplet Hilbert space -> does the
+   WZW/fermion/sqrt(m) emerge as a quantum anomaly there? (Rides hbar; the genuine
+   open door. This is exactly where the founding integer/representation-theory
+   insight pointed — [[integer-insight-origin]].)
 
 ## Read order for a new instance
 
 1. CLAUDE.md "How we work" — THE BINDING METHOD. Read FIRST.
 2. THIS FILE + memory: session-handoff-pointer, how-we-work-method,
    refusal-run-tripwire-calibration, project-frontier-quantum-completion.
-3. STATE.md — the 2026-06-14 LATER-1..8 blocks lead (the session arc).
+3. STATE.md — the 2026-06-14 LATER-1..8 + 2026-06-15 day-2 blocks (the arc).
 4. CANON.md (C-2026-06-14-1 + its refinement) and UDT_REBUILD.md (the QED/QCD
    gauge skeleton — now LOAD-BEARING for the quantum frontier).
-5. NEGATIVES_REGISTRY.md #43-#47 + the results docs as needed
+5. NEGATIVES_REGISTRY.md #43-#50 + the results docs as needed
    (angular_lagrangian, native_stabilizer, lepton_soliton_spectrum,
-   n3_direction_distribution, fermion_forcing, em_forcing,
-   global_spin_structure, hopf_spinor).
+   n3_direction_distribution, fermion_forcing, em_forcing, global_spin_structure,
+   hopf_spinor; day 2: monodromy_depth, su3_field_test).
 
 ## The perspective (carry this; do not re-derive your way back to it)
 
@@ -150,46 +166,42 @@ import can turn out NATIVE (the Skyrme term was our own winding current).
 
 ## OPEN DEBTS + HINGES (clear these / hold them)
 
-- VERIFIER DEBTS: global_spin_structure_results.md and hopf_spinor_results.md
-  are corroborating negatives (self-checked, converge with #46) but their full
-  blind verifier passes were DEFERRED — run them before treating #47's (b)/(c)
-  legs as hard-banked.
+- VERIFIER DEBTS: global_spin_structure_results.md, hopf_spinor_results.md
+  (#47 b/c) and su3_field_test_results.md (#50) are corroborating negatives
+  (self-checked, converge) with blind verifier DEFERRED — run before treating
+  them as hard-banked. (monodromy #49 WAS blind-verified.)
 - OPEN GEOMETRIC HINGE: the actual same-minus JUNCTION CONDITION across D=0
   (the wcc-flagged computation) settles (i) orientability rigorously and
   (ii) whether omega_H1 is sigma-EVEN or sigma-ODD. If it re-grades omega_H1 as
   sigma-ODD, the q=1/3 spin-structure / global-spinor route reopens.
 - TIME TOPOLOGY: whether the finite-cell canon closes time into a circle
   (would change the admitted spin structures). Underived.
-- LLM #3 still pending (Charles's three-LLM plan); its best contribution is now
-  the QUANTUM-SECTOR / WZW question. (LLM #1 discounted — shortcut-prone; LLM #2
-  productive but its Koide recast reinvented S13.11 and rides the same sqrt(m).)
+- THE THREE LLM READS ARE IN: #1 discounted (shortcut-prone); #2 productive but
+  its Koide recast reinvented S13.11 and rides the same sqrt(m); #3 (the
+  disciplined one) gave the #48 diagnostic + the monodromy idea (tested #49,
+  negative). All folded in; nothing further pending from them.
 
 ## Queue (the quantum-completion frontier)
 
-1. *** THE QUANTUM COMPLETION (the live frontier) — quantize the soliton's
-   COLLECTIVE COORDINATES. Two facets, both concrete: ***
-   (1a) STATISTICS facet: does N=3 (UDT's N_c) supply the WESS-ZUMINO-WITTEN
-   term that makes the L2+L4 soliton a FERMION (fixing the free Finkelstein-
-   Rubinstein Z2)? => WHAT the particle is (a fermion; sqrt(m), spin; the
-   S13.11 ingredients).
-   (1b) LADDER facet (LLM#3, the useful contribution): the cell depth D is a
-   continuum in isolation (#39), but a SINGLE-VALUEDNESS / BOHR-SOMMERFELD
-   MONODROMY condition on the angular collective phase chi discretizes it —
-   J_chi(D) = oint p_chi d chi = 2 pi hbar (n+nu), or classically
-   Delta chi(D_n)=2 pi n — selecting discrete depths D_n => WHICH particles
-   exist (the e/mu/tau ladder as a monodromy integer n, NOT a radial mode;
-   consistent with "one cell = one particle"). Mass = exp of the native action
-   at D_n: m_n ~ M* e^{-S(D_n)/hbar}. FIRST COMPUTATION: reduce the collective-
-   coordinate action keeping chi as a genuine coordinate, compute p_chi and
-   J_chi(D); check for ISOLATED discrete depths. KILL: no periodic chi / no
-   monodromy / EVENLY-spaced D_n (the latter killed by #48: a constant-ratio
-   ladder is Koide-incompatible). CHECK whether the classical Delta chi=2 pi n
-   version avoids hbar.
-   Both facets quantize UDT's OWN derived skeleton (the phi-cancelled flat
-   Coulomb + su(3) kinematics + the Dirac modes from the native tetrad), hbar
-   as a native completion. MAP first (premise ledger: derived vs the hbar/WZW/
-   monodromy assumptions); honest that they ride hbar (classical single-
-   valuedness is the hbar-free fallback to test).
+1. *** THE QUANTUM COMPLETION (the live frontier) — the fermion is the QUANTUM
+   ANOMALY / REPRESENTATION THEORY of the angular modes. *** [SHARPENED day 2.]
+   The CLASSICAL routes are now CLOSED: the depth-monodromy does not work in
+   L2+L4 (#49), and the genuine SU(3) field is not classically native (#50 — the
+   metric gives only U(1) photon x SO(3) spin connection x SO(3,1) gravity; the
+   5 symmetric su(3) generators have no native gauge field; target=S^2 not
+   SU(3); NO classical integer WZW). So do NOT re-run a classical SU(3)-field /
+   classical-monodromy search. THE LIVE QUESTION: su(3) is an OPERATOR ALGEBRA
+   (acts on STATES), already native as the l=1 kinematics. QUANTIZE the angular
+   l=1 amplitudes -> a complex su(3)-triplet HILBERT SPACE -> does the WZW /
+   fermionic statistics / sqrt(m) / the e-mu-tau ladder emerge as a QUANTUM
+   ANOMALY (or representation-theoretic structure) of that Hilbert space? This
+   rides hbar (a solid anchor) and is the genuine open frontier; it is exactly
+   where the founding integer / representation-theory insight pointed. MAP first
+   (premise ledger: what the su(3) operator algebra + the quantized angular
+   Hilbert space genuinely give vs the hbar/anomaly assumptions). Anchors to
+   carry: the legacy S13.11 IS native Koide GIVEN the fermion (sqrt(m)=Dirac
+   mass, cyclic Z3=orbital l=1, sqrt2=spin multiplicity); #48 (a constant-ratio
+   ladder is Koide-incompatible — any depth sequence must be unevenly spaced).
 2. The EM sector as a live frontier: settle the photon-native CANON-CANDIDATE
    with Charles; then "what are charge, light, and EM in UDT, fully?" (the
    logged EM-frontier MAP) — the nonstationary cell forcing a vector is the way in.

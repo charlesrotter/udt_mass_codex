@@ -939,3 +939,29 @@ a QUANTUM phenomenon, cleanly localized out of the classical sector.
 OPEN HINGES (flagged): the same-minus junction across D=0; whether canon time
 closes into a circle. VERIFIERS PENDING: global_spin, hopf_spinor (corroborating
 negatives, self-checked; full blind pass deferred to next session).
+
+## 2026-06-15 (DAY 2 / SESSION CLOSE) — CLASSICAL UDT COMPLETE; FERMION IS QUANTUM
+
+Opened the quantum-completion frontier; resolved its classical part. The whole
+completion had reduced to ONE crux: a native WZW term (coeff N_c=N=3) to make
+the soliton a fermion. Two computations closed the CLASSICAL route:
+- #49 (blind-verified): the monodromy/depth-ladder mechanism (LLM#3 facet 1b)
+  does NOT work in L2+L4 — no depth-dependent angular phase; the iso-twist is a
+  zero-source U(1)-cyclic coordinate for both S^2 and S^3; both quantum facets
+  need the SAME missing WZW/Hopf term.
+- #50 (verifier pending): the genuine SU(3) field is NOT classically native. The
+  metric induces a connection only for U(1) (the photon) x SO(3) (spin
+  connection) x SO(3,1) (gravity); the 5 SYMMETRIC su(3) generators have NO
+  native gauge field (a real metric's spin connection is antisymmetric — a
+  theorem); the complex l=1 triplet collapses to the real n; target=S^2
+  [pi_5=Z_2, free sign] not SU(3) [pi_5=Z, integer N_c]; NO classical integer WZW.
+=> CLASSICAL UDT is essentially COMPLETE — real-S^2 angular field + U(1) photon
++ SO(3,1) gravity + a sized soliton + B=1/A — and does NOT contain the
+fermion/sqrt(m)/Koide. THE SHARPENED FRONTIER (next session): su(3) is an
+OPERATOR ALGEBRA (acts on STATES), not a classical field; the fermion is the
+QUANTUM ANOMALY / representation theory of the angular modes. Quantize the l=1
+amplitudes -> a complex su(3)-triplet Hilbert space -> does the WZW/fermion/
+sqrt(m)/ladder emerge as a quantum anomaly there? (Rides hbar; exactly where the
+founding integer/representation-theory insight pointed.) Do NOT re-run a
+classical SU(3)-field or classical-monodromy search. HANDOFF + frontier memory
+updated. Verifier debts: #50 (su3_field_test), plus the carried #47 b/c.
