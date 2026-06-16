@@ -1471,3 +1471,46 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     charge-axis structure may survive but must be re-graded under the corrected
     solve). NOT changed: the canon (d); the validated engine (a). PREMISE SET: deep
     negative phi; charge-1; settled L2+L4 action. DATA-BLIND. Pending Charles.
+
+## CORRECTED radial soliton (B=1/A FREED) is a TRUE full-radial-Einstein solution;
+## re-grades #52/#54; removed a hidden IMPORTED seal-injection mechanism; STILL no
+## native discreteness at the radial classical level (2026-06-15,
+## radial_Bfree_soliton_results.md; blind-verified 9ebc5e5184d1e58f by an independent
+## from-scratch solver)
+
+56. THE CORRECTED RADIAL SOLITON (the first faithful piece of the whole-metric
+    honest-binary test [[whole-metric-honest-binary]]): with B=1/A FREED (g_tt, g_rr
+    independent; the #55 correction), the soliton is a GENUINE full-radial-Einstein
+    solution. FINDINGS (blind-verified STANDS, 5/5 claims, by an independent
+    from-scratch numpy/scipy solver):
+    (a) GATE PASSED: all three body Einstein residuals (t,t),(r,r),(theta,theta)
+    converge O(h^2) to 0 (res_rr 4.6e-3->1.2e-3->2.9e-4 at N=600/1200/2400; exactly
+    4.00x/doubling) — vs the reduced #52's body res_rr FROZEN at ~0.16. B=1/A is
+    RECOVERED in the unwound exterior as a RESULT (e^{a+b}=1.0039, broken only in the
+    twisted body, max|a+b|=0.196 = the EOS-softening the rigid tie wrongly zeroed).
+    Schwarzschild ~7e-7 O(h^2); flat 0.
+    (b) THE CORRECTED SOLITON EXISTS: M_MS=0.281, size 0.838 L, phi0=-0.143; all
+    Einstein eqs satisfied; EOS p_r+rho>=0.
+    (c) WHAT CHANGED vs #52: B=1/A-freeing -2.085% on M_MS; PLUS removal of a hidden
+    IMPORTED "seal-injection" mechanism (m_closed = m_areal + rs*span in
+    complete_metric_batched.phi_from_source) that VIOLATED (t,t) (frozen un-converging
+    res_tt~0.098) => total -3.0% (0.2897->0.2810), width +16%. The seal-injection was a
+    principle-1 import, NOT native physics; its removal is verified-legitimate. So the
+    sweep family (#52/#54) carried TWO flaws: B=1/A over-imposition + the seal defect.
+    The correction also REMOVES a spurious deep-depth instability (reduced #52 blows up
+    at p>=0.5; corrected stays smooth/monotone) — a FALSE pathology gone, not a
+    bifurcation.
+    (d) NO NEW STRUCTURE / NO NATIVE DISCRETENESS at the radial classical level: the
+    discreteness hunt (wide+fine p-scan, 5 disparate seeds -> identical fixed point,
+    Theta-EL linearization min|eig|~0.11 never ->0) found NO second branch, NO
+    bifurcation, NO selection. #54's super-exponential depth-mass shape SURVIVES and
+    cleans up (single smooth branch, d(lnM)/dp 0.148->0.563 over p in [0.2,1.5]).
+    RE-GRADE: #52/#54 re-established in corrected form — their qualitative conclusions
+    (one round type, super-exponential depth, NO native discreteness) SURVIVE the
+    correction; the soliton numbers shift -3% and the seal-injection is deleted.
+    HONEST-BINARY STATUS: at the RADIAL CLASSICAL level the verdict is "no native
+    particle/mass discreteness here" — expected; the still-frozen DOF that could carry
+    structure are the OFF-DIAGONALS (full 3D) and the TIME-PERIODICITY selector. This
+    is a SCOPED negative (single cell, stationary, radial-diagonal, classical), NOT the
+    whole-metric verdict. PREMISE SET: charge-1; areal gauge (non-restrictive);
+    deep negative phi; settled L2+L4. DATA-BLIND. Pending Charles.

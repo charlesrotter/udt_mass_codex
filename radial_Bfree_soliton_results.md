@@ -186,3 +186,88 @@ but surfaces NO new branch / bifurcation / selection. This is the first faithful
 piece of the honest binary test: UDT DOES produce mass structure here; whether
 it produces the DISCRETE catalog remains open (no quantization emerged at the
 classical radial level — consistent with the quantum-completion frontier).
+
+---
+
+## BLIND ADVERSARIAL VERIFIER (2026-06-15)
+
+Independent machinery: a from-scratch numpy/scipy CPU radial coupled solver
+(`/tmp/indep_solver.py`) — own non-uniform-grid FD, own 3-color-FD banded Newton
+(scipy `solve_banded`) for the Theta EL, own forward-integration of m(r) [(t,t)]
+and a(r) [(r,r)], own mixed Einstein engine. NOT a re-run of the committed scripts.
+The mixed G^i_i formulas AND the EOS identity p_r+rho = X(xi+2 kap Y) were
+re-derived from scratch in sympy (independent Christoffel→Ricci→G): all three
+G^i_i diffs = 0; p_r+rho identity exact, vanishes iff X=0 (=> B=1/A breaks iff
+Theta'!=0 — the canon C-2026-06-14-1 refinement, independently reproduced). The
+standing-picture-confirming claim ("clean continuum, no structure, no discreteness")
+was attacked hardest. DATA-BLIND throughout.
+
+**TASK A — independent solver reproduces the numbers (exact):**
+- Schwarzschild engine: max|G|→0 at O(h^2) (3.86e-4→1.32e-4→3.90e-5, ratio 4.0x
+  per doubling; uniform grid so absolute floor differs from their geom grid, order
+  identical); flat = exactly 0.
+- Corrected soliton (14L, p=0.4, kap8=0.05), my numbers vs the doc's:
+  N=600  M_MS=0.281040 (=); res_tt/rr/thth = 1.461e-3/4.607e-3/2.305e-3 (=)
+  N=1200 M_MS=0.281000 (=); 3.647e-4/1.151e-3/5.771e-4 (=)
+  N=2400 M_MS=0.280983 (=); 9.127e-5/2.880e-4/1.444e-4 (=)
+  All three converge at EXACTLY 4.00x per N-doubling = clean O(h^2). a0=0.1425
+  (phi0=-0.1425), b0=-0.4000 — exact match.
+- Exterior B=1/A recovery (28L, N=2400): e^(a+b) mean=1.003938 std=4.07e-7;
+  ext max|a+b|=3.9e-3; twisted-body max|a+b|=0.196 — exact match.
+  CLAIMS 1, 2 => STAND (independently reproduced to all reported digits).
+
+**TASK B — removed-mechanism scrutiny (the decisive legitimacy test):**
+The "seal-injection" mechanism is the mirror-fold closure in
+`complete_metric_batched.phi_from_source` (m_closed = m_areal + rs*span, lines
+229-231): it forces m(seal)=0 by smearing the un-sourced defect rs=-m_areal(seal)
+LINEARLY across the cell. Independently confirmed it VIOLATES (t,t):
+- With the defect ON, body max|res_tt| is FROZEN: 9.75e-2 → 9.88e-2 → 9.91e-2
+  across N=600/1200/2400 (does NOT converge — creeps toward ~0.099). With it OFF,
+  res_tt converges O(h^2): 1.46e-3 → 3.65e-4 → 9.13e-5. A genuine inconsistency,
+  not truncation.
+- Mechanistic match: the defect injects constant m' = rs/span = -0.01570 that no
+  field sources; G^t_t=-m'/r^2 => spurious res_tt(r=0.4)=+0.0981, matching the
+  observed frozen floor. m_src(seal)=+0.281 (mass genuinely does not vanish at
+  the seal). REMOVAL IS LEGITIMATE: it deletes an imported, un-physical closure
+  term (Charter principle 1), NOT real native physics; the result is the correct
+  GR statement (a soliton with a Schwarzschild-like exterior mass). VERDICT: STANDS.
+
+**TASK C — discreteness / branch / bifurcation hunt (the crux, attacked hardest):**
+- Fine p-scan (p=0.10..1.00, step 0.05, my solver): M_MS strictly monotone
+  (all dM/dp>0, min 1.65e-3), 2nd-difference sign changes = 0 (no kink), d(lnM)/dp
+  rises monotonically 0.122→0.385 (super-exponential). Single smooth branch; my
+  values match the doc's depth map (e.g. p=0.40→0.281040, p=1.00→0.332824).
+- Multi-seed at p=0.4 (5 very different Th0: round/wide/narrow/extranode/twocore):
+  ALL land on the IDENTICAL fixed point M_MS=0.281040, width=0.8380, turns=0. No
+  second branch, no substructure attractor — solution is unique.
+- Bifurcation: min|eig| of the Theta-EL linearization vs p stays BOUNDED AWAY from
+  zero (0.119→0.108 over p∈[0.2,1.5]); it never approaches 0 — NO zero mode, NO
+  bifurcation anywhere. (p>=1.5 min|eig| grows, not crosses; that is the flagged
+  e^{-2b} clamp saturation, not a branch.)
+  CLAIMS 4, 5 => STAND. I found NO discreteness, NO branch, NO selection the solve
+  missed. The headline ("smooth continuum, no native structure") HOLDS.
+
+**TASK D — #52 deep-depth blowup was a FALSE pathology (confirmed):**
+Ran the reduced B=1/A-imposed engine deep: p=0.5 gives M_MS=11.52 with res_th=7.3e+3;
+p=0.6 gives res_th=1.8e+10 — solver blowups (huge residual), erratic (p=0.8,1.0
+"recover"). My freed solver over the SAME depths is smooth/monotone
+(0.287→0.293→0.310→0.333, all converged). The deep blowup is an over-constraint
+numerical pathology, not physics. (My reproduced blown-up magnitude ~11.5 differs
+from the doc's quoted ~1.08 — expected, since a non-converged value is solver-noise;
+the QUALITATIVE finding is robust.) CLAIM 4(D) => STANDS.
+
+**RESIDUAL HINGES:** (1) The O(h^2) convergence of all three residuals is the load-
+bearing fact and it reproduces exactly on independent machinery. (2) The defect-ON
+res_tt floor is FROZEN under refinement on my solver too — the cleanest proof the
+removed term was a real (t,t) inconsistency. (3) The bifurcation null rests on the
+min|eig| staying ~0.11 with no downward trend toward zero across the clean p-range.
+
+**VERDICT PER CLAIM:** 1 STANDS · 2 STANDS · 3 STANDS · 4 STANDS · 5 STANDS.
+No caveat needed beyond the doc's own (the deep-p e^{-2b} clamp, already flagged;
+shape conclusion rests on p<=1.0, which is fully clean). The standing-picture claim
+survived a hard independent attack: I tried to find discreteness/a branch/a
+selection and could not — the corrected radial soliton is a single smooth
+self-consistent full-Einstein continuum, and the removed seal mechanism was a
+genuine imported inconsistency whose deletion is correct.
+
+VERIFIER radial_Bfree / 2026-06-15 / 9ebc5e5184d1e58f
