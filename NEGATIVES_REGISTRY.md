@@ -1615,3 +1615,57 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     or twist solve that finds a type this scope missed. NO physics patch used (B=1/A free +
     recovered; no seal/source injection; no linearization-as-result; no dial tuned to a
     target). VERIFIER PENDING. DATA-BLIND. Pending Charles.
+
+## Spectral catalog solver: matter-FREE coupled solve + catalog search (2026-06-16, spectral_catalog_solver_results.md; verifier PENDING)
+
+59. SPECTRAL CATALOG SEARCH (matter FREE) — SCOPED NEGATIVE (classical,
+    static-axisymmetric, MATTER-DEFORMING). Agent: SPECTRAL CONSTRUCTOR (Opus 4.8).
+    THIS CLOSES THE #58 CAPABILITY GAP: a coupled Einstein+L2+L4 solve with the
+    MATTER FREE to deform (the #58 frozen-matter limitation, from an FD inner-body
+    Theta-EL truncation ~0.2, is REMOVED — the spectral EL is machine-zero on the
+    round soliton). Scripts: spectral_cheb.py, spectral_2d.py,
+    spectral_radial_soliton.py (Stage A radial gate), axisym_einstein_analytic.py +
+    axisym_matter_el.py (auto-generated analytic G + matter EL), spectral_axisym_engine.py,
+    spectral_catalog_solver.py (2-D coupled solver, dense LM), spectral_catalog_search.py.
+    BUILD: Chebyshev_r x Gauss-Legendre_mu spectral; analytic axisym Einstein (cot/1/sin
+    handled symbolically, smooth derivs spectral); diagonal Weyl gauge (a,b,c,d FREE,
+    B=1/A NOT tied); matter Theta(r,theta) FREE; production dense LM (Phi -> ~1e-10).
+    Every technique audited CATEGORY-A (conditioning, not simplification): recovers #56,
+    basis-invariant, exponential convergence; proofs in the results doc Sec 1.
+    STAGE A GATE PASS: spectral radial recovers #56 (M_MS=0.28096, b0=-0.400, a0=0.142,
+    width=0.838, exterior B=1/A recovered as a RESULT) with EXPONENTIAL residual
+    convergence AND machine-zero matter Theta-EL in the inner body (the #58 cure, 1-D).
+    STAGE B 2-D GATE PASS: round #56 seed held to the residual FLOOR (all SIX residuals
+    -- 4 diagonal Einstein + off-diagonal G^r_theta + matter EL -- Phi 1e3 -> 2.6e-10),
+    M_MS=0.280, tvar (gauge-invariant shape) at the round floor; basis-invariant Nr40/Nr64.
+    ROBUSTNESS PASS (DECISIVE, driven to the floor): a perturbed MATTER l=2 quadrupole
+    (tvar=0.94) relaxes back -- Phi crashes to the FLOOR (1.5e-10) AND the gauge-invariant
+    shape collapses (0.94 -> 9.7e-4 in one block -> 1.3e-4), M_MS -> round. (#58 could not
+    reach the floor; here the relax-back is unambiguous.)
+    CATALOG SEARCH: NINE matter-shaped seeds (Theta-multipole l=1..4, prolate, oblate,
+    ring/toroidal, two-center, large-amplitude) each reach Phi AT THE FLOOR (1e-9..1e-13)
+    WITH the gauge-invariant ANGULAR shape REMOVED (final tvar 1e-4..2e-3 = round floor)
+    and M_MS -> round. NO seed lands at the floor WITH a persistent gauge-invariant angular
+    shape (the disconnected signature). Large-amp -> a DEEPER ROUND soliton (theta-symmetric,
+    tvar at floor; higher M_MS = the depth continuum #54, not an angular type). CONTINUATION
+    (p=0.2..1.0): M_MS smooth, NO fold/jump, Jacobian sigma_min bounded away from 0
+    (1e-9..2e-8, gauge/Bianchi null, no zero-crossing) => NO bifurcation, NO branch point.
+    VERDICT: classical catalog binary reads "MASS YES, DISCONNECTED-TYPE NO" within the
+    genuinely-searched scope -- now INCLUDING the deforming-matter sector #58 could not
+    reach. UDT carries MASS (round soliton M_MS=0.281, full 2-D coupled solution to floor)
+    but NO disconnected stable matter-shaped type emerges.
+    PREMISE SET (BLOCKING SCOPE): classical; static; single finite cell; charge-1 settled
+    L2+L4; AXISYMMETRIC (r,theta) diagonal Weyl gauge; MATTER FREE (w_matter=1; the #58
+    freeze is REMOVED); B=1/A free + recovered in exterior; core/axis regularity (GL
+    off-axis + Cheb-edge excision); proper-volume weight; Nr40/Nr64 Nth6/8; all solves
+    driven to the residual FLOOR (Phi 1e-9..1e-13 -- unlike #58). DOES NOT block: (i) the
+    full-3-D NON-axisymmetric (psi-dependent) sector; (ii) off-diagonal TWIST/rotation
+    (stationary, not static) types; (iii) the QUANTUM sector. CONDITIONS-CHANGED trigger:
+    a converged non-axisymmetric or stationary-twist solve that finds a type this
+    static-axisym scope missed. NO category-B simplification used (B=1/A free + recovered;
+    matter FREE; no seal/source injection; no linearization-as-result; no dial tuned to a
+    target; the analytic-G substitution is the SAME native Einstein content, proven on
+    flat/Schwarzschild/round). RE-GRADE on #58: the #58 frozen-matter INCONCLUSIVE is now
+    SUPERSEDED for the axisymmetric matter-shape question -- the genuine matter-free search
+    was performed and reaches the floor; the catalog is NOT classical in the axisym sector.
+    VERIFIER PENDING. DATA-BLIND. Pending Charles.

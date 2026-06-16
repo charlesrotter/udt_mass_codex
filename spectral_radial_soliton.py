@@ -241,8 +241,6 @@ if __name__ == "__main__":
         out = solve(N, p=0.4, kap8=0.05, maxit=80, verbose=False)
         r = out['r']
         # body mask: exclude the very innermost/outermost collocation nodes
-        body = (r > rc_body if False else (r > 0.5) & (r < r[-1]-0.5))
-        rc_body = 0.5
         body = (r > 0.5) & (r < r[-1]-0.5)
         elbody = np.max(np.abs(out['res_thetaEL'][body]))
         print(f"{N:>4} {out['M_MS']:>10.6f} {out['Fnorm']:>11.2e} "
