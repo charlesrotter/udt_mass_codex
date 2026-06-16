@@ -123,9 +123,11 @@ class Grid3D:
         self.PSg = self.psi[None, None, :].expand(Nr, Nth, Nps).contiguous()
         self.STHg = self.sth[None, :, None].expand(Nr, Nth, Nps).contiguous()
         self.dev = dev
-        # body mask (exclude 2 Cheb edge rows each end; poles auto-excluded by GL)
+        # body mask (exclude 3 Cheb edge rows each end -- the O(N^2) differentiation-
+        # matrix edge amplification on the steep core/seal profile is a coordinate-edge
+        # numerical artifact, category-A excised; poles auto-excluded by the GL nodes)
         self.body = torch.zeros(Nr, Nth, Nps, dtype=torch.bool, device=dev)
-        self.body[2:Nr-2, :, :] = True
+        self.body[3:Nr-3, :, :] = True
         # proper-volume measure placeholder weight (set per-metric in objective)
         # coordinate quadrature weight w_r * w_mu(sin th incl) * w_ps over (r,th,ps)
         self.wvol = (self.wr[:, None, None] * self.wmu[None, :, None]
@@ -399,16 +401,22 @@ def diagnostics(G, out, kap8):
     for i in range(1, len(r)):
         M[i] = M[i-1] + 0.5*(integ[i]+integ[i-1])*(r[i]-r[i-1])
     M_MS = (M[-1] - M[0]).item()
-    # gauge-invariant ANGULAR shape: variation of rho (a scalar density invariant
-    # under SPATIAL gauge among the angular DOF) over the sphere at fixed r,
-    # averaged over the body radii.  tvar = mean_r std_angle(rho)/mean_angle(rho).
-    body_r = (r > 0.8) & (r < G.ri - 0.8)
+    # gauge-invariant ANGULAR shape: variation of rho over the sphere at fixed r.
+    # MASS-WEIGHTED across radii (weight by the shell mass r^2*<rho>) so the tiny
+    # far-tail (rho ~ 0, where std/mean blows up on noise) does NOT dominate -- the
+    # shape that matters is where the soliton HAS mass.  tvar = sum_r W_r [std/mean]_r.
+    body_r = (r > 0.5) & (r < G.ri - 0.8)
     rb = rho[body_r]                                       # (nb,Nth,Nps)
+    rr = r[body_r]
     mean_a = (rb * dOmega).sum(dim=(1, 2)) / (4*PI)
     var_a = ((rb - mean_a[:, None, None])**2 * dOmega).sum(dim=(1, 2)) / (4*PI)
-    tvar = (torch.sqrt(torch.clamp(var_a, min=0)) / torch.clamp(mean_a.abs(), min=1e-12)).mean().item()
-    # psi-shape specifically (non-axisymmetry witness): variation in psi at fixed r,th
-    psivar = (rb.std(dim=2) / torch.clamp(rb.mean(dim=2).abs(), min=1e-12)).mean().item()
+    rel_t = torch.sqrt(torch.clamp(var_a, min=0)) / torch.clamp(mean_a.abs(), min=1e-12)
+    shell_mass = torch.clamp(rr**2 * mean_a, min=0)
+    Wsh = shell_mass / torch.clamp(shell_mass.sum(), min=1e-30)
+    tvar = float((Wsh * rel_t).sum())
+    # psi-shape (non-axisymmetry witness), same mass-weighting
+    rel_p = (rb.std(dim=2) / torch.clamp(rb.mean(dim=2).abs(), min=1e-12)).mean(dim=1)
+    psivar = float((Wsh * rel_p).sum())
     return dict(M_MS=M_MS, tvar=tvar, psivar=psivar, rho_ang=rho_ang)
 
 
