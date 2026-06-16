@@ -56,19 +56,20 @@ Scripts (committed with this doc; all run IN-PROCESS / blocking, GPU V100 torch 
 - **ROBUSTNESS: PASS (relax-back, monotone, no plateau).** From a PERTURBED seed (l=2
   conformal quadrupole; genuine geometric quadrupole, Ricci theta-var = 0.86), the solver
   RELAXES BACK toward round: BOTH the metric-residual Phi AND the GAUGE-INVARIANT Ricci
-  theta-variation decrease MONOTONICALLY with NO plateau (tvar: 0.86 seed -> 1.03 -> ... ->
-  [FINAL] toward the round floor), and M_MS returns to 0.28130.  A disconnected solution
-  would ARREST at finite tvar with Phi at the floor; instead the shape is continuously
-  removed.  (Convergence is SLOW — linear, the elliptic-operator rate — but unambiguously
-  monotone; see Sec 3.)
+  theta-variation decrease MONOTONICALLY with NO plateau (tvar: 0.86 seed -> 1.03 (blk0) ->
+  0.24 (blk17), a 3.6-4.4x reduction toward the round floor), and M_MS stays at 0.28130.  A
+  disconnected solution would ARREST at finite tvar with Phi at the floor; instead the shape
+  is continuously removed.  (Convergence is SLOW — linear, the elliptic-operator rate; not
+  driven fully to the floor — but unambiguously monotone and plateau-free; see Sec 3.)
 
-- **DISCONNECTED-TYPE SEARCH: NO disconnected stable type found.**  Seven qualitatively-
+- **DISCONNECTED-TYPE SEARCH: NO disconnected stable type found.**  EIGHT qualitatively-
   different axisymmetric metric seeds (multipole l=1..4, prolate, oblate, ring, large-
-  amplitude) each RELAX toward round: the gauge-invariant Ricci theta-variation decreases,
-  M_MS returns to the round 0.28130 at fixed charge, Phi decreases.  No seed arrests at the
-  gate floor (Phi~3e-4) with a persistent gauge-invariant shape (the disconnected
-  signature).  The trend is uniform and consistent with the robustness relax-back and the
-  banked linear-bifurcation/stability nulls (#34/#57).
+  amplitude) each either RELAX toward round (gauge-invariant Ricci theta-variation decreases,
+  M_MS -> 0.28130 at fixed charge, Phi decreases) or FAIL to converge (ring Phi=0.25,
+  large-amp Phi=0.84 — not solutions, not types).  No seed arrests at the gate floor
+  (Phi~3e-4) with a persistent gauge-invariant shape (the disconnected signature).  The
+  trend is uniform and consistent with the robustness relax-back and the banked
+  linear-bifurcation/stability nulls (#34/#57).
 
 - **VERDICT (classical, axisymmetric + fixed-settled-matter scope): the classical binary
   CLOSES "MASS YES, DISCRETENESS NO" — UDT natively carries MASS (the round soliton,
