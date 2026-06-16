@@ -251,6 +251,48 @@ def residual_vector(u, G, p, kap8, xi=1.0, kap=1.0, m=1, wmat=1.0):
 # ===========================================================================
 # Matrix-free Levenberg-Marquardt (Gauss-Newton) with autograd JVP/VJP.
 # ===========================================================================
+def lm_solve_dense(u0, G, p, kap8, xi=1.0, kap=1.0, m=1, wmat=1.0,
+                   maxit=40, tol=1e-9, lam0=1e-3, verbose=False, record=False):
+    """Dense LM/Gauss-Newton: one autograd Jacobian per iteration (single graph
+    pass), then direct dense normal-equation solves with LM damping + monotone
+    acceptance.  Far faster than matrix-free CG for our O(1e3) unknowns; SAME
+    native residual.  This is the production solver."""
+    u = u0.clone().detach()
+    lam = lam0
+    hist = []
+    def Ffun(uu):
+        return residual_vector(uu, G, p, kap8, xi, kap, m, wmat)[0]
+    n = u.numel()
+    I = torch.eye(n, device=DEV)
+    for it in range(maxit):
+        J = torch.autograd.functional.jacobian(Ffun, u.detach(), vectorize=True)
+        F = Ffun(u.detach())
+        phi = float((F**2).sum()); Fnorm = float(F.abs().max())
+        if record or verbose:
+            hist.append((it, phi, Fnorm))
+        if verbose and (it % 2 == 0):
+            print(f"  [lmD] it={it:3d} Phi={phi:.4e} |F|={Fnorm:.3e} lam={lam:.1e}")
+        if Fnorm < tol:
+            break
+        JtJ = J.T @ J
+        JtF = J.T @ F
+        accepted = False
+        for _t in range(8):
+            du = torch.linalg.solve(JtJ + lam*I, -JtF)
+            u_new = u.detach() + du
+            phi_new = float((Ffun(u_new)**2).sum())
+            if phi_new < phi:
+                u = u_new.detach(); lam = max(lam*0.4, 1e-12); accepted = True; break
+            lam *= 5.0
+        if not accepted:
+            lam *= 5.0
+            if lam > 1e10:
+                break
+    u = u.detach()
+    rf = residual_vector(u, G, p, kap8, xi, kap, m, wmat)[1]
+    return u, rf, hist
+
+
 def lm_solve(u0, G, p, kap8, xi=1.0, kap=1.0, m=1, wmat=1.0,
              maxit=40, tol=1e-9, lam0=1e-3, cg_iters=80, verbose=False,
              record=False):
