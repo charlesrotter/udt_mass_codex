@@ -28,20 +28,32 @@ bmask,freeze=PX.body_and_freeze(G,1.0); wgeom=NW.geom_weight(G)
 phi0=PX.residual_norm_full(g0.clone(),Th0.clone(),G,KAP8,bmask,wgeom).item()
 print(f"round-soliton residual floor phi0={phi0:.4e}")
 
+def gauge_inv_nonaxisym(g):
+    """GAUGE-INVARIANT non-axisymmetry: psi-variation of the Ricci SCALAR (a curvature
+    invariant; cannot be created by a coordinate off-diagonal).  This is the honest test
+    of whether a PHYSICAL shaped/non-round structure survives."""
+    Gmn,ginv,Ric,Rscal=S.full_einstein(g,G)
+    body=bmask.bool()
+    # std over psi of the curvature scalar, relative to its mean magnitude
+    rs=Rscal
+    psistd=rs.std(dim=2)
+    psimean=rs.abs().mean(dim=2)+1e-12
+    rel=(psistd/psimean)
+    return (rel*bmask[:,:,0])[body[:,:,0]].max().item()
+
+
 def report(name,out,seed_g):
     g=out['g'];
-    # off-diagonal survival
     offs={'g_tr':(T,R),'g_ttheta':(T,TH),'g_tpsi':(T,PS),'g_rtheta':(R,TH),'g_rpsi':(R,PS),'g_thetapsi':(TH,PS)}
     body=bmask.bool()
     seedoff={k:(seed_g[...,a,b]*bmask)[body].abs().max().item() for k,(a,b) in offs.items()}
     finoff={k:(g[...,a,b]*bmask)[body].abs().max().item() for k,(a,b) in offs.items()}
-    # non-axisymmetry of g_tt (psi-variation)
-    gtt=g[...,T,T]
-    psivar=(gtt.std(dim=2)*bmask[:,:,0]).max().item()
+    gi_seed=gauge_inv_nonaxisym(seed_g)
+    gi_fin=gauge_inv_nonaxisym(g)
     print(f"  [{name}] final phi={out['hist'][-1]:.4e} (floor {phi0:.2e})")
     for k in offs:
         print(f"      {k}: seed={seedoff[k]:.3e} -> final={finoff[k]:.3e}")
-    print(f"      g_tt psi-variation (non-axisymmetry) max={psivar:.3e}")
+    print(f"      GAUGE-INVARIANT psi-asymmetry of Ricci scalar: seed={gi_seed:.3e} -> final={gi_fin:.3e}")
 
 # ---- SEED 1: rotation -- inject finite g_tpsi (frame-dragging / angular momentum)
 hdr("SEED: ROTATION (finite g_tpsi)")
