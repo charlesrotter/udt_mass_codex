@@ -76,13 +76,32 @@ LEGEND: [V]=solved native + blind-verified · [v]=solved/validated (lighter) ·
 - TOOLING CORPUS being mined (category-A, NR): spectral elliptic methods, self-consistent-
       field (KEH/Hachisu), gravitating-Skyrmion/boson-star solvers, pseudo-arclength continuation.
 
+## THE TEN COMPLETENESS CRITERIA (the mathematically-complete governing set;
+## refined 2026-06-16 from Charles's "sectors/effects/operators" — his words map as
+## operators→2; sectors→4,6,7; effects→8,9). A variational field theory's FULL solution
+## space is exhausted iff all ten are covered. Each push declares its status on each.
+## LAYER 1 — what you're solving:
+##  1. FIELDS (every varying DOF: 10 g_μν + matter + φ).
+##  2. ACTION TERMS (every term: L2,L4,gravity,seal/boundary) — the "operators".
+##  3. FULL EQUATIONS (every variation of every field — NEVER a subset; the #55 scar).
+##  4. DOMAIN & COORDINATES (r,θ,ψ,t live unless a STATED symmetry; the 2-D-in-4-D scar).
+##  5. BOUNDARY & REGULARITY (seal, center/axis, finite cell — they SELECT solutions).
+## LAYER 2 — which world:
+##  6. TOPOLOGICAL SECTOR (winding/charge m — each a disconnected world).
+##  7. DYNAMICAL CHARACTER (sit=static / spin=stationary / ring=time-periodic / evolve=dynamic;
+##     elliptic vs eigenvalue vs hyperbolic; the time-selector lives in "ring").
+## LAYER 3 — what emerges:
+##  8. BRANCH / BIFURCATION STRUCTURE (are there OTHER disconnected solutions? = the CATALOG).
+##  9. STABILITY SPECTRUM (which solutions persist; a "particle" = a STABLE solution).
+## 10. REGIME OF VALIDITY (scale/coupling range; where the math changes character).
+
 ## STANDING COMPLETENESS QUESTIONS (run every push)
-1. Which sectors/DOF/dims/terms does this push INCLUDE, and which does it DROP (explicitly)?
-2. Could any DROPPED sector host emergent structure? If yes ⇒ flagged blind-spot, not a closure.
-3. What is the REGIME OF VALIDITY of the result (state the boundaries)?
+1. For EACH of the ten criteria: what does this push cover, and what does it DROP (explicitly)?
+2. Could any DROPPED criterion host emergent structure? If yes ⇒ flagged blind-spot, not a closure.
+3. State the REGIME OF VALIDITY (criterion 10) of the result.
 4. Is every technique category-A (conditioning) — not category-B (physics simplification)?
-5. What tooling/tractability step covers the dropped sectors next?
-6. (anti-inflation) This is ONE tile — how much of the sector-space above is still blank?
+5. What tooling/tractability step covers the dropped criteria next?
+6. (anti-inflation) This is ONE tile — how much of the ten-criteria space is still blank?
 
 ## CURRENT HEADLINE (honest, regime-stamped)
 UDT NATIVELY PRODUCES MASS (#56, the milestone): a self-consistent full-(radial)-Einstein
