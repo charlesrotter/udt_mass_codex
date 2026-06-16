@@ -1,0 +1,37 @@
+==============================================================================
+TASK 3/4: head-to-head at p=0.4 -- isolating the two corrections
+  reduced#52 (b=-a tie, seal defect) | freed+defect | freed-CORRECTED (delivered)
+==============================================================================
+  reduced #52     : M_MS=0.289735  width(Th=pi/2)=0.7192
+  freed + defect  : M_MS=0.283695  width=0.8476  (B-freeing alone moves M by -2.085%)
+  freed CORRECTED : M_MS=0.281040  width=0.8380  (total move vs #52 -3.001%)
+  max|Theta_corrected - Theta_#52| = 2.1949e-01
+  corrected interior max|a+b| (B=1/A departure / interior warp) = 2.5334e-01
+
+==============================================================================
+TASK 4: CORRECTED depth-mass map, B=1/A freed + defect dropped (data-blind)
+==============================================================================
+      p     M_MS_corr      M_MS_#52    ratio    width   max|a+b|   a0=phi0
+   0.20      0.272185      0.279327   0.9744   0.7933  2.755e-01   -0.2160
+   0.30      0.276248      0.284065   0.9725   0.8144  2.645e-01   -0.1848
+   0.40      0.281040      0.289735   0.9700   0.8380  2.533e-01   -0.1550
+   0.50      0.286676      1.079444   0.2656   0.8642  2.422e-01   -0.1262
+   0.60      0.293288    (unstable)       --   0.8933  2.312e-01   -0.0982
+   0.70      0.301025    (unstable)       --   0.9254  2.205e-01   -0.0714
+   0.80      0.310057    (unstable)       --   0.9607  2.101e-01   -0.0460
+   0.90      0.320582    (unstable)       --   0.9994  2.005e-01   -0.0228
+   1.00      0.332824    (unstable)       --   1.0417  1.916e-01   -0.0032
+   1.20      0.363531    (unstable)       --   1.1379  1.763e-01    0.0000
+   1.50      0.430410    (unstable)       --   1.3137  1.624e-01    0.0000
+
+  shape diagnostic: d(ln M_MS_corr)/dp (super-exp if RISING with p)
+    p in [0.20,0.30]: d(lnM)/dp = 0.1482
+    p in [0.30,0.40]: d(lnM)/dp = 0.1720
+    p in [0.40,0.50]: d(lnM)/dp = 0.1986
+    p in [0.50,0.60]: d(lnM)/dp = 0.2280
+    p in [0.60,0.70]: d(lnM)/dp = 0.2604
+    p in [0.70,0.80]: d(lnM)/dp = 0.2957
+    p in [0.80,0.90]: d(lnM)/dp = 0.3338
+    p in [0.90,1.00]: d(lnM)/dp = 0.3747
+    p in [1.00,1.20]: d(lnM)/dp = 0.4413
+    p in [1.20,1.50]: d(lnM)/dp = 0.5629
