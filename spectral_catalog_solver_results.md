@@ -421,3 +421,118 @@ function-replacements. No linearization kept as a result.
 6. THE FULL-3-D / TWIST LIMITATION: grade whether the axisymmetric + matter-free
    search adequately covers the binary, or whether a non-axisymmetric or
    stationary-twist type could exist that this static-axisym scope cannot see.
+
+---
+
+## 8. BLIND ADVERSARIAL VERIFIER BLOCK (2026-06-16)
+
+Verifier: Claude (Opus 4.8, 1M context), independent blind adversarial pass.
+DATA-BLIND throughout. Method: built OWN machinery (sympy-from-scratch GR engine;
+independent Hilbert-stress + variational matter EL; independent numpy/scipy 2-D
+solver; correct-EL swap into the committed torch solver). Did NOT merely re-run
+and agree. Files: VERIF_indep_gr.py, VERIF_indep_matter.py, VERIF_hilbert_stress.py,
+VERIF_stress_compare.py, VERIF_radial_el_check.py, VERIF_el_symbolic_final.py,
+gen_correct_axisym_el2.py, axisym_matter_el_CORRECT.py, VERIF_torch_correct.py,
+VERIF_check_committed_solutions.py, VERIF_remaining.py.
+
+### VERDICTS BY CLAIM
+
+**Claim 2 (analytic axisym Einstein = same native Einstein content): STANDS.**
+Independent sympy-from-scratch G^mu_nu (metric->Christoffel->Riemann->Ricci->
+Einstein) vs the committed axisym_einstein_analytic.Gmix_components on SIX random
+NONTRIVIAL axisym metrics with a,b,c,d ALL nonzero & theta-dependent (off-diagonal
+g_rtheta channel live). Worst abs diff across all components & trials = 2.7e-15
+(machine zero), INCLUDING the off-diagonal G^r_theta (e.g. -4.367e-01, +8.5e-02,
+-8.45e-01 at the sampled points; G^r_theta != G^theta_r as mixed, both matched).
+Nothing dropped/decoupled. The Einstein engine is the genuine, complete, correct
+mixed Einstein tensor.
+
+**Claim 1 (Stage A spectral gate / #58 cure): STANDS.**
+Independent re-run of spectral_radial_soliton: M_MS 0.281586@N32 -> 0.280949@N96
+(exponential), max|res_tt|body 1e-15, **max|matter Theta-EL|body 5e-14..3e-13
+(machine zero) — the #58 inner-body truncation cure CONFIRMED**, b0=-0.4000,
+a0->0.1420 (#56: 0.1425). The RADIAL EL (theta_ddot_freed / spectral
+theta_el_residual) was proven SYMBOLICALLY CORRECT: it equals my from-scratch
+variation of int sqrt(g)(L2+L4) exactly (difference = 0), and satisfies the
+conservation identity div_mu T^mu_r = -EL*Theta' exactly. Off-diagonal matter
+coupling is genuinely live: matter T^r_theta = 2e-15 on round, 0.69 on an l=2
+shaped seed (matter is FREE, not pinned; full 6-residual coupled system).
+
+**Claim 3 (CATALOG NULL: no disconnected type): STANDS-WITH-CAVEAT.**
+The null holds, but a GENUINE BUG was found in a load-bearing component
+(see below). After repairing the bug and re-running the relax-back / search /
+continuation with the CORRECTED equations, the null SURVIVES:
+- l=2, l=3 matter quadrupole seeds (correct EL, robust torch dense LM): relax to
+  round (tvar 0.87->5e-4, 0.82->2.2e-3) at Phi at the floor (8e-10, 4.7e-10),
+  M_MS->round. No arrest at finite tvar.
+- ring, two-center, prolate, large-amp seeds (correct EL): all relax to round
+  (final tvar 1.2e-4..5e-4 at Phi floor); large-amp -> deeper ROUND (depth
+  continuum), not a distinct angular type.
+- Continuation p=0.2..1.0 (correct EL): M_MS smooth/monotone, NO fold; Jacobian
+  sigma_min bounded (1e-11..1e-9), NO zero-crossing => NO bifurcation/branch.
+- DECISIVE cross-check: on the committed solver's relaxed-to-round endpoints, the
+  CORRECT EL residual equals the committed EL residual to identical floor values
+  (round 4.2e-7, l1 2.8e-7, l2 4.8e-7, l3 3.4e-7, l4 1.2e-5) — because once the
+  matter has relaxed to a theta-symmetric (round) state, the buggy and correct EL
+  COINCIDE (proven: they are equal to 3e-16 in the round limit). So the committed
+  round endpoints ARE true solutions of the correct equations; the null is NOT an
+  artifact of the bug.
+FIND-A-TYPE OUTCOME: genuinely NONE found, with the correct equations, in the
+axisymmetric static scope.
+
+### THE BUG FOUND (does NOT overturn the null, but the doc OVERCLAIMS the EL)
+
+`axisym_matter_el.py` (the 2-D matter Theta Euler-Lagrange used as the 6th
+residual of the catalog solver) is WRONG in the L4 (Skyrme quartic) sector
+whenever the matter carries GENUINE ANGULAR deformation (Theta_theta != 0 and/or
+c,d != 0). Proven three independent ways:
+1. It disagrees with my from-scratch variation of int sqrt(g)(L2+L4) off the round
+   limit (ratio non-constant 0.61..0.95 on random axisym configs; diff only in the
+   kappa/L4 terms — the xi/L2 part is correct).
+2. The committed Hilbert stress (matter_stress_t / C_ab) was verified EXACTLY EQUAL
+   to the true Hilbert stress T_munu = -2 dL/dg^munu + g_munu L (all components,
+   diff 0). The true stress satisfies div_mu T^mu_r = -EL_correct * Theta' exactly
+   (= 0 symbolically). The committed EL does NOT satisfy this identity in the L4
+   sector (residual purely in kappa terms). So the committed EL is inconsistent
+   with the stress that sources Einstein.
+3. In the ROUND limit ONLY, the committed EL = correct EL (machine zero, 3e-16) —
+   which is why the round soliton, the Stage A radial gate, and the gate fixed
+   point are all unaffected, and why the doc's round-limit validations passed.
+The corrected EL (axisym_matter_el_CORRECT.py, generated by direct variation,
+verified machine-zero on the round soliton and identity-consistent with the stress)
+is what the catalog re-run above used.
+
+IMPACT: the doc's CATEGORY-A claim that "the matter EL is the true L2+L4 EL,
+machine-zero on the round soliton" is TRUE ONLY in the round limit; the 2-D
+angular EL used during the OFF-round relax trajectory was incorrect. Because the
+search endpoints are round (where the two ELs coincide) AND the corrected re-run
+reproduces relax-to-round, the BINARY VERDICT is unchanged. But Sec 1.x / Sec 5
+should be amended: axisym_matter_el.py is NOT the correct variation off-round; the
+relax TRAJECTORIES in Sec 3-4 were driven by a quartic-incorrect EL (the converged
+ENDPOINTS are valid). Recommend re-running the production search with the corrected
+EL before canon.
+
+### CATEGORY-B CHECK (Claim D): CLEAN.
+No B=1/A tie (a,b independent; e^{a+b} departs in the interior, -> const exterior);
+no injected seal/source term; no linearization kept as a result (spectral
+derivative + autograd Jacobian are sanctioned exact/machine-precision function
+replacements); the analytic-G substitution is provably the SAME native Einstein
+content (2.7e-15); matter genuinely FREE (live off-diagonal coupling on shaped
+seeds). The ONE category-B-adjacent issue is the L4-incorrect matter EL above —
+not a deliberate simplification (an auto-generation error), but it IS a wrong
+operator used as a result-bearing residual, so flagged.
+
+### SCOPE (Claim 6): accurately stated.
+Axisymmetric + static + diagonal is honestly declared. NOT closed against:
+(i) full-3-D non-axisymmetric (psi-dependent); (ii) stationary off-diagonal
+twist/rotation; (iii) the quantum sector. Verifier concurs these remain open;
+the binary is "MASS YES, DISCONNECTED-TYPE NO" only within the searched scope.
+
+### NET VERDICT
+Claim 1: STANDS. Claim 2: STANDS. Claim 3: STANDS-WITH-CAVEAT (null survives the
+bug fix; production search should be re-run with the corrected EL before canon).
+Claim D (no category-B): CLEAN, with the L4-EL error flagged as an auto-generation
+bug to repair. The strengthened catalog negative is NOT manufactured by a
+round-biasing bug — verified by independent machinery in both directions.
+
+VERIFIER spectral_catalog / 2026-06-16 / 7cf94053d23d60fe
