@@ -1570,9 +1570,10 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
 
 ## Gap-closer: gauge-fixed nonlinear solve + disconnected-type search (2026-06-16, nonlinear_gapcloser_results.md; verifier PENDING)
 
-36. NO CLASSICAL DISCONNECTED STABLE SOLITON TYPE FROM THE AXISYMMETRIC GAUGE-FIXED
-    NONLINEAR SEARCH (closes the #57-outstanding capability, axisymmetric scope). Agent:
-    GAP-CLOSER (Opus 4.8). Scripts gapcloser_axisym.py (the validated axisym solver),
+58. GAP-CLOSER ATTEMPT — INCONCLUSIVE: NO disconnected type found in a NARROW
+    (axisymmetric, metric-only, matter-FROZEN) search, but the GENUINE search was NOT
+    achieved, so the catalog question remains OPEN (does NOT close the #57 capability —
+    only partly delivers it). Agent: GAP-CLOSER (Opus 4.8). Scripts gapcloser_axisym.py (the validated axisym solver),
     gapcloser_axisym_gate.py, gapcloser_axisym_search.py, gapcloser_search_run.py;
     gapcloser_solver.py/gapcloser_seeds.py (full-3D, did not converge). This is the
     #57-named missing capability (gauge-fixed nonlinear arbitrary-seed solve) PARTLY
@@ -1591,10 +1592,16 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     oblate, ring, large-amp) all RELAX toward round (Ricci tvar decreases, M_MS->0.28130 at
     fixed charge, Phi decreasing) or FAIL to converge (ring Phi=0.25, large-amp Phi=0.84 --
     NOT disconnected types). NO seed lands at the gate floor WITH a persistent
-    gauge-invariant shape (the disconnected signature). VERDICT (scoped): the classical
-    binary CLOSES "MASS YES, DISCRETENESS NO" -- UDT carries mass (the round soliton) but
-    no classical disconnected stable type emerges. Consistent with #34/#39/#54/#57
-    (one round family) and the quantum-sector frontier.
+    gauge-invariant shape (the disconnected signature). VERDICT (honest — NOT a closure):
+    the catalog question is NOT closed. Within the NARROW scope actually searched (axisym,
+    metric-only, matter FROZEN at the round profile) no disconnected type emerged and the
+    metric demonstrably FOLLOWS the round matter -- but the GENUINE searches were NOT
+    performed: full-3-D did not converge (#57 wall), and the MATTER could not be deformed
+    (a Theta-EL grid truncation forced w_matter=0), so MATTER-SHAPED types (the most likely
+    catalog members) were never probed. This is an honest PARTIAL/INCONCLUSIVE attempt, NOT
+    a banked negative. UDT carries mass (#56); whether it carries a discrete CATALOG remains
+    OPEN. The real next step: a matter+metric coupled solver (fix the Theta-EL truncation so
+    the MATTER can be deformed) and/or cracking full-3-D convergence.
     PREMISE SET (BLOCKING SCOPE): classical; stationary; single finite cell; charge-1
     settled L2+L4; AXISYMMETRIC (r,theta) diagonal Weyl gauge; matter FROZEN at the round
     #56 Theta (w_matter=0 -- the 4-D action EL on the grid has a ~0.2 inner-body truncation
