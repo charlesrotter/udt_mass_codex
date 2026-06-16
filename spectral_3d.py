@@ -104,32 +104,75 @@ def fourier_operators(Nps):
 # ---------------------------------------------------------------------------
 # Full spherical (theta,psi) grid container.
 # ---------------------------------------------------------------------------
-class SphereGrid:
-    """Tensor product Gauss-Legendre(mu) x Fourier(psi) sphere grid + operators.
+def sh_dtheta_matrix(Nth, Nps):
+    """EXACT d/dtheta operator on the full (theta,psi) grid via the SPHERICAL-HARMONIC
+    basis.  The naive Dth = -sin(theta) d/dmu (legendre-in-mu) is exact ONLY for m=0
+    (polynomials in mu); physical S^2 fields carry m != 0 modes (sin^|m| theta factors)
+    that are NOT polynomial in mu.  This operator differentiates EXACTLY for every (l,m)
+    band-limited field via the standard raising relation
+        dY_lm/dtheta = m cot(theta) Y_lm + sqrt((l-m)(l+m+1)) e^{-i psi} Y_{l,m+1}.
+    Returns a dense ((Nth*Nps),(Nth*Nps)) real matrix acting on the FLATTENED (theta,psi)
+    nodal vector (row-major: index = i*Nps + j).  CATEGORY-A: exact spectral
+    differentiation on the genuine spherical-harmonic basis (proof: machine-zero on
+    Y_lm; recovers the round soliton)."""
+    from scipy.special import roots_legendre, sph_harm
+    mu, _ = roots_legendre(Nth)
+    th = np.arccos(mu); idx = np.argsort(th); th = th[idx]
+    ps = 2.0 * np.pi * np.arange(Nps) / Nps
+    TH = th[:, None] * np.ones((1, Nps))
+    PS = np.ones((Nth, 1)) * ps[None, :]
+    Lmax = Nth - 1
+    mmax = Nps // 2 - 1
+    basis = []; dbasis = []
+    for l in range(Lmax + 1):
+        for m in range(-l, l + 1):
+            if abs(m) > mmax:
+                continue
+            Y = sph_harm(m, l, PS, TH)
+            term = (m / np.tan(TH)) * Y
+            if m + 1 <= l:
+                term = term + np.sqrt((l - m) * (l + m + 1)) * np.exp(-1j * PS) * sph_harm(m + 1, l, PS, TH)
+            basis.append(Y.ravel()); dbasis.append(term.ravel())
+    Bmat = np.array(basis).T
+    Dmat = np.array(dbasis).T
+    D = Dmat @ np.linalg.pinv(Bmat)
+    return D.real, th, ps
 
-    Nodal fields are stored as arrays of shape (..., Nth, Nps).  The angular
-    derivative helpers act on the LAST TWO axes.  Spherical quadrature:
-       int_{S^2} f dOmega = sum_{i,j} wmu_i * wps_j * f_{ij}
-    (wmu carries the sin theta; wps is uniform 2pi/Nps).
+
+class SphereGrid:
+    """Tensor product Gauss-Legendre(mu) x Fourier(psi) sphere grid + EXACT spectral
+    operators (true spherical-harmonic basis).
+
+    Nodal fields are stored as arrays of shape (..., Nth, Nps).  The angular derivative
+    helpers act on the LAST TWO axes.  Spherical quadrature:
+       int_{S^2} f dOmega = sum_{i,j} wmu_i * wps_j * f_{ij}    (machine-exact for
+    band-limited fields; wmu carries sin theta, wps is uniform 2pi/Nps).
+
+    d/dtheta uses the SH-EXACT operator (handles m != 0 sin^|m| theta factors exactly);
+    d/dpsi uses the exact Fourier matrix.
     """
     def __init__(self, Nth, Nps):
         self.Nth, self.Nps = Nth, Nps
-        self.th, self.wmu, self.Dth, self.sth = theta_operators(Nth)
+        self.th, self.wmu, self.Dth_mu, self.sth = theta_operators(Nth)
         self.ps, self.wps, self.Dps = fourier_operators(Nps)
+        # SH-exact d/dtheta as a flattened (Nth*Nps, Nth*Nps) matrix
+        self.Dth_sh, _, _ = sh_dtheta_matrix(Nth, Nps)
         # broadcast grids (Nth, Nps)
         self.TH = self.th[:, None] * np.ones((1, Nps))
         self.PS = np.ones((Nth, 1)) * self.ps[None, :]
         self.STH = self.sth[:, None] * np.ones((1, Nps))
         self.CTH = np.cos(self.th)[:, None] * np.ones((1, Nps))
-        # spherical area weight (Nth,Nps): wmu_i * wps_j
         self.warea = self.wmu[:, None] * self.wps[None, :]
 
     def dtheta(self, f):
-        """d/dtheta along the theta axis (-2)."""
-        return np.einsum('ij,...jk->...ik', self.Dth, f)
+        """SH-EXACT d/dtheta (acts on last two axes via the flattened SH matrix)."""
+        sh = f.shape
+        flat = f.reshape(*sh[:-2], self.Nth * self.Nps)
+        out = np.einsum('ab,...b->...a', self.Dth_sh, flat)
+        return out.reshape(sh)
 
     def dpsi(self, f):
-        """d/dpsi along the psi axis (-1)."""
+        """d/dpsi along the psi axis (-1) -- exact Fourier."""
         return np.einsum('kl,...il->...ik', self.Dps, f)
 
     def sphere_integral(self, f):

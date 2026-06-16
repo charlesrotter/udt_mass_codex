@@ -34,6 +34,6 @@ syms+=[xi,kap]
 f=sp.lambdify(syms,ELx,'numpy')
 # fallback: write source with numpy printer
 from sympy.printing.numpy import NumPyPrinter
-code="import numpy as np\nfrom numpy import exp,sin,cos,tan,sqrt\n\ndef matter_el_resid_CORRECT("+",".join(str(s) for s in syms)+"):\n    return "+NumPyPrinter().doprint(ELx)+"\n"
+code="import numpy\nimport numpy as np\nfrom numpy import exp,sin,cos,tan,sqrt\n\ndef matter_el_resid_CORRECT("+",".join(str(s) for s in syms)+"):\n    return "+NumPyPrinter().doprint(ELx)+"\n"
 open('axisym_matter_el_CORRECT.py','w').write(code)
 print("OK len",len(str(ELx)))
