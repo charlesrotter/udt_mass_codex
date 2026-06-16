@@ -1668,4 +1668,15 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     flat/Schwarzschild/round). RE-GRADE on #58: the #58 frozen-matter INCONCLUSIVE is now
     SUPERSEDED for the axisymmetric matter-shape question -- the genuine matter-free search
     was performed and reaches the floor; the catalog is NOT classical in the axisym sector.
-    VERIFIER PENDING. DATA-BLIND. Pending Charles.
+    BLIND-VERIFIED 7cf94053d23d60fe (2026-06-16), STANDS-WITH-CAVEAT: an independent
+    sympy-GR + Hilbert-stress + numpy/scipy attack CONFIRMS the spectral validation (Einstein
+    analytic matches to 2.7e-15 incl off-diagonal G^r_theta; Hilbert stress exact; #56 +
+    machine-zero radial matter-EL) AND the catalog null — BUT found a real BUG: axisym_matter_el.py
+    (the 6th residual) is wrong in the L4/Skyrme sector OFF-ROUND (correct in the round limit only,
+    which is why all round validations passed; the radial EL #56 is provably correct). The null
+    SURVIVES the fix: the verifier's INDEPENDENT corrected-EL relax-backs (l2,l3,ring,two-center,
+    prolate,large-amp) all -> round with no fold/bifurcation, and the committed round endpoints are
+    true solutions of the CORRECT EL (round = where buggy/correct ELs coincide) => the null is NOT
+    a bug artifact. CLOSING STEP (in progress): fix the production tool (axisym_matter_el_CORRECT.py)
+    and re-run the production search with it to remove the caveat + leave correct reusable
+    infrastructure. Category-B CLEAN. DATA-BLIND. Pending Charles.
