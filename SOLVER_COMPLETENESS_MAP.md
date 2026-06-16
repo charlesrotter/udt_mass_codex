@@ -90,15 +90,21 @@ soliton; large-N QCD is classical) — coherent with no quantum layer. [[no-pres
 ## TRACTABILITY MAP (what the numerics reach)
 - TRACTABLE NOW: 1-D radial coupled Einstein+L2+L4 (#56); 2-D axisym SPECTRAL coupled solve
       (Cheb_r × Legendre_θ), exponential convergence, matter free (#59). Continuation (depth).
-- PARTLY OPENED (#60): full-3-D SPECTRAL (Cheb_r × GL_θ × Fourier_ψ) cures the #57/#58
-      coordinate-spike for the GEOMETRY/EL (pole-stable analytic 3-D Einstein flat=0 /
-      Schwarzschild exp / 2-D-match 1e-14; correct 3-D matter EL machine-zero on round +
-      symbolic div(T) ν=r exact) AND recovers the round soliton in the 3-D basis (gate
-      PASS, M_MS=0.281). REMAINING WALL: the OFF-ROUND coupled SOLVE convergence — the
-      matrix-free Jacobi-PCG LM does not drive off-round angular configs (incl the
-      axisym control #59 relaxes) to a clean floor in feasible cost. The non-axisym /
-      higher-winding catalog SEARCH is gated on a faster off-round 3-D solver (dense-LM
-      on a moderate grid / Newton-Krylov w/ elliptic preconditioner / block SCF).
+- OFF-ROUND WALL BROKEN (Phase-2, 2026-06-16, off_round_solver_results.md): the OFF-ROUND
+      coupled SOLVE now CONVERGES via an explicit-Jacobian Newton/LM (full3d_newton.py) —
+      value-equivalent to the committed residual to 1.4e-14 (category-A), round floor 3.8e-13
+      with the ANGULAR Einstein eqns satisfied (~1e-8), B=1/A FREE (maxB1A=0.14), continuation
+      working. The #60 "solver-limited / INCONCLUSIVE" gate is REMOVED. CAVEATS: a perturb-and-
+      relax off-round probe RELAXED BACK to axisym (NOT a catalog member — expected null, not a
+      verdict); M_MS≈0.289 at gate grid (the prior "0.281" partly conflated radial-grid res);
+      INFRA-AUDIT #2 corrected #60's "machine-zero round gate PASS / div(T) exact" — round
+      recovery was ~1% (radial slice never imposed θθ) and the committed div(T) gate was broken
+      (now fixed: divT_excised.py). SH-exact θ op (sh_theta_operator.py) built for m≠0 winding,
+      NOT yet wired into a coupled solve. The non-axisym / higher-winding catalog SEARCH itself
+      (criteria 6/8/9) is now TRACTABLE but UNRUN — Phase 3.
+- PRIOR #60 framing (superseded by Phase-2 + INFRA-AUDIT #2): "full-3-D round gate PASS at
+      machine zero, div(T) ν=r exact, M_MS=0.281" — corrected above; the round solution is real
+      (M_MS≈0.289 grid-dependent) but the machine-zero/div(T) claims were overstated.
 - NOT YET BUILT: fully-dynamic (time-evolution) NR-grade solver; the quantum-sector machinery.
 - TOOLING CORPUS being mined (category-A, NR): spectral elliptic methods, self-consistent-
       field (KEH/Hachisu), gravitating-Skyrmion/boson-star solvers, pseudo-arclength continuation.
