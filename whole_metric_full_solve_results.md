@@ -36,10 +36,13 @@ Blind verifier: see the ATTACK-HERE block at the end (verifier-before-record).
 
 - **3-D SOLVER GATE: PASS.** The validated full-4-D engine recognizes the CORRECTED #56
   round soliton (B=1/A free, a,b independent) as a full 3-D Einstein solution: all 10
-  components satisfied, off-diagonal residual at MACHINE ZERO (~1e-13), the four diagonal
-  equations converging at O(h^2) in the smooth body, M_MS reproduced to ~1e-12, B=1/A
-  recovered in the exterior. (Contrast the prior #55 gate, which seeded the OLD #52 B=1/A-
-  IMPOSED soliton and correctly FAILED. The corrected soliton passes.)
+  components satisfied, the four diagonal equations converging at O(h^2) in the smooth body,
+  M_MS reproduced to ~1e-12, B=1/A recovered in the exterior. The off-diagonal residual is at
+  MACHINE ZERO (~1e-13) — but this is true BY CONSTRUCTION (a diagonal static metric has an
+  identically-diagonal Einstein tensor and the hedgehog stress is diagonal here), so it is a
+  consistency check, NOT a demonstration of a nontrivially-coupled solution. (Contrast the
+  prior #55 gate, which seeded the OLD #52 B=1/A-IMPOSED soliton and correctly FAILED. The
+  corrected soliton passes.)
 - **NEW STRUCTURE FROM THE UNREDUCED METRIC: NONE detected.** (i) The matter-sector
   bifurcation operator is bounded away from zero across the depth dial (reproduces the
   verified radial no-bifurcation null). (ii) The off-diagonal (rotation/twist/shear)
@@ -48,13 +51,15 @@ Blind verifier: see the ATTACK-HERE block at the end (verifier-before-record).
   sourced at linear order (a Regge-Wheeler-type parity decoupling), so no shaped/rotating
   type BIFURCATES off the round soliton at linear order. (iii) The soliton's breathing
   spectrum is entirely POSITIVE (omega^2 > 0) — dynamically stable, no growing mode.
-- **TIME-PERIODICITY SELECTOR: determined, and it does NOT fire classically.** The seal is
-  a t -> -t TIME-REVERSAL mirror fold (a Z2 reflection, w6/#42), which closes time into an
-  INTERVAL with a reflecting boundary, NOT a circle. A single reflection does not impose a
-  periodicity condition (there is no closed time-circumference T, no second time-wall), so
-  the eigencondition omega_n(depth)*T = 2*pi*k is not forced at the classical stationary
-  level. The breathing frequencies omega_n(depth) form a CONTINUUM in depth (no native
-  discrete selector emerges classically).
+- **TIME-PERIODICITY SELECTOR: does NOT fire classically (two independent reasons).** (a) The
+  seal is a t -> -t TIME-REVERSAL mirror fold (a Z2 reflection, w6/#42), which closes time
+  into an INTERVAL with a reflecting boundary, NOT a circle — no closed time-circumference T
+  is forced (the project lists the time-circle question as an underived hinge; we identify no
+  reading that forces one classically). (b) DECISIVE & topology-independent: the lowest
+  breathing frequency omega_1(depth) is DEPTH-FLAT (0.30995..0.31021 over a 5x change in the
+  depth dial), so even GRANTING a time-circle of any period T, omega_1*T = 2*pi*k carries NO
+  depth-discriminating power. The breathing frequencies form a CONTINUUM; no native discrete
+  selector emerges classically.
 - **HONEST-BINARY STATUS: UDT natively produces MASS structure (a regular, self-consistent,
   gravitationally-massed soliton that satisfies the FULL unreduced Einstein system) but, at
   the classical unreduced level, produces ONE round continuum — no distinct types, no
@@ -200,13 +205,19 @@ no growing/imaginary mode. Striking: **omega_1 is essentially DEPTH-INDEPENDENT*
 to 0.31021 across p = 0.2..1.0; the higher modes drift only mildly). So the breathing
 frequencies form a continuum AND the lowest is flat in depth.
 
-### 5.2 The time-topology hinge — DETERMINED
+### 5.2 The time-topology hinge — assessed (no defensible classical circle identified)
 The MAP's decisive open question: does the finite-cell canon close TIME into a circle?
-**Determination: NO.** The finite-cell canon (C-2026-06-10-2) governs the SPATIAL domain
-(phi monotone on a finite cell, mirror-folded across phi -> -phi); it says nothing about
-the time coordinate. The seal is documented (w6/#42, HANDOFF) as a t -> -t TIME-REVERSAL
-mirror fold — a Z2 REFLECTION, not a continuous translation identification t ~ t+T. A
-reflection closes time into an INTERVAL with a reflecting boundary, NOT a circle.
+**Assessment: NO defensible classical time-circle is identified** (and the load-bearing
+selector-killer is independent of this call — see 5.3). The finite-cell canon
+(C-2026-06-10-2) governs the SPATIAL domain (phi monotone on a finite cell, mirror-folded
+across phi -> -phi); it says nothing about the time coordinate. The seal is documented
+(w6/#42, HANDOFF) as a t -> -t TIME-REVERSAL mirror fold — a Z2 REFLECTION, not a continuous
+translation identification t ~ t+T. A reflection closes time into an INTERVAL with a
+reflecting boundary, NOT a circle. CAVEAT (verifier-flagged): the project's own HANDOFF lists
+"whether the finite-cell canon closes time into a circle" as an UNDERIVED open hinge; we do
+NOT canonize this as "determined" — we report that no reading currently forces a classical
+time-circle, while the Euclidean path-integral time-circle (the standard origin of
+discreteness) is exactly the QUANTUM layer left open below.
 
 ### 5.3 The selector outcome
 For a periodicity eigencondition omega_n(p) * T = 2*pi*k to SELECT discrete depths it needs
@@ -239,20 +250,31 @@ honest scoping, not slicing: the classical selector is determined to be absent h
 (rotation: finite g_tpsi; non-axisymmetric psi-lobes; theta-shaped prolate P2) relaxed by
 stable gradient descent on the geometry-weighted ||F||^2, core/axis/seal frozen.
 
-[PERSISTENCE TABLE — gauge-invariant (Ricci-scalar psi-asymmetry) seed -> final]
+Round-soliton residual floor (this coarse Nr=60 grid, dominated by the inner-edge
+coordinate region) phi0 = 2.94e4. Per seed (gradient descent, 300 steps):
 
-**FINDING + HONEST LIMITATION:** the descent monotonically lowers ||F||^2, but WITHOUT
-GAUGE FIXING the unconstrained metric DOF wander into coordinate (spatial off-diagonal)
-directions that lower the weighted residual without changing the physics — so raw metric-
-component survival is NOT a clean read of new structure (it is gauge contamination, exactly
-the MAP's #1 danger). The GAUGE-INVARIANT measure (psi-variation of the Ricci curvature
-scalar — a coordinate-independent invariant) is the honest read [see table]. A fully-
-trustworthy arbitrary-seed nonlinear 3-D solve REQUIRES an imposed gauge (the boson-/
-rotating-star quasi-isotropic elliptic formulation the MAP names) — that gauge-fixed
-nonlinear solver is the one piece NOT completed here, and it is honestly scoped as the next
-build, NOT claimed. The LINEAR bifurcation (Section 3-4) + STABILITY (Section 5.1) +
-gauge-invariant persistence (this section) all point the SAME way: one round family, no
-distinct persistent type surfaced.
+| seed                         | final phi | gauge-inv. Ricci psi-asymmetry: seed -> final |
+|------------------------------|-----------|------------------------------------------------|
+| ROTATION (finite g_tpsi)     | 4.6e3     | 0 -> 1.65                                       |
+| NON-AXISYMMETRIC (psi-lobes) | 1.3e3     | 0 -> 1.74                                       |
+| THETA-SHAPED (prolate P2)    | 5.9e2     | 0 -> 0.83                                       |
+
+**FINDING: this test is INCONCLUSIVE on its own — and that is the honest read.** Two facts:
+(a) the descent monotonically lowers phi (2.9e4 -> 6e2..5e3) but NEVER reaches a clean
+solution floor (it plateaus at hundreds-to-thousands, far above machine zero) — so these are
+NOT converged solutions; (b) WITHOUT GAUGE FIXING the unconstrained metric DOF wander into
+coordinate directions, and even the GAUGE-INVARIANT measure (psi-variation of the Ricci
+curvature scalar) GROWS from 0 to ~1 — i.e. the descent is introducing real curvature
+asymmetry while failing to converge. This is exactly the MAP's #1 danger realized: an
+arbitrary-seed nonlinear 3-D solve REQUIRES an imposed gauge (the boson-/rotating-star
+quasi-isotropic elliptic formulation the MAP names). That gauge-fixed nonlinear solver is the
+one capability NOT completed here. It is honestly scoped as the next build; the persistence
+test as run neither demonstrates relax-back NOR a new type — it demonstrates the solver
+limitation. **The trustworthy evidence for the binary therefore rests on the LINEAR
+bifurcation (Sections 3-4, conformal-mode-free, gauge-deflated) + the STABILITY spectrum
+(Section 5.1) — both clean, both pointing to one round family with no branch and no growing
+mode.** The nonlinear persistence test is recorded as a limitation, not as supporting
+evidence.
 
 ---
 
@@ -318,3 +340,45 @@ NOTHING is deleted.
    solve leaves a gap — could a gauge-fixed solve find a shaped type the linear + descent
    evidence missed? Grade whether the three independent lines (linear bifurcation,
    stability, gauge-invariant persistence) adequately cover the binary.
+
+---
+
+## 10. BLIND ADVERSARIAL VERIFIER — VERDICT (2026-06-15)
+
+Independent blind pass (own sympy-derived mixed Einstein tensor; own from-scratch numpy
+hedgehog stress; own scipy generalized eigensolver; committed scripts re-run where the
+engine itself is the object). DATA-BLIND. Attacked hardest at the standing-picture-
+confirming claims.
+
+- **CLAIM 1 GATE: STANDS.** Independently re-derived the mixed Einstein tensor of the
+  diagonal metric in sympy — matches `radial_Bfree_soliton.py` lines 16-18 exactly (incl.
+  G^th_th=G^ps_ps). Body residuals on the #56 profile: res_tt~1.5e-4, res_rr~2.9e-5,
+  res_thth~6e-5, converging O(h^2); M_MS=0.2811 (= doc, coarse-grid offset). NOTE
+  (incorporated above): off-diagonal=machine-zero is a structural tautology of the diagonal
+  seed, not a solved coupling — recorded as such.
+- **CLAIM 2 BIFURCATION: STANDS.** Matter sigma_min reproduced to the digit (62.6/63.1/64.3/
+  66.2). Off-diagonal sigma_min and the gauge disambiguation reproduced exactly (raw
+  near-null 292/336, gauge dim 69, gauge-orthogonal sigma_min ~1e-5, not lifted). ADDED
+  adversarial test: participation ratios of the smallest singular vectors are 43-136 (of
+  4752) — a spread near-null SUBSPACE (Regge-Wheeler decoupling), NOT a single isolated
+  localized zero mode. No hidden bifurcation found.
+- **CLAIM 3 STABILITY: STANDS** (field-sector scoped). omega^2>0 at every depth reproduced
+  independently (scipy dense generalized eigensolve); 0 negative modes; omega_1 depth-flat.
+  Caveat: it is the matter-field breather on a frozen metric (a legitimate field-sector
+  stability statement, scoped as such).
+- **CLAIM 4 TIME TOPOLOGY: STANDS-WITH-CAVEAT.** Seal-as-reflection correctly sourced;
+  finite-cell canon is spatial. Caveat (incorporated above): "determined" overstated vs the
+  project's own underived-hinge listing — reworded. The conclusion survives on the
+  topology-INDEPENDENT leg (omega_1 depth-flatness), independently confirmed.
+- **CLAIM 5 LIMITATION: STANDS** (honestly scoped). The three covering lines are real and
+  mutually consistent; linear bifurcation is the strongest leg. The honest residual gap
+  (a finite-amplitude type disconnected from the round family) is acknowledged, not hidden.
+
+**OVERALL: the honest-binary conclusion is SUPPORTED — UDT classically produces one round,
+gravitationally-massed soliton satisfying the FULL unreduced Einstein system; no distinct
+types, no classical bifurcation, no native classical discreteness selector; the quantum
+sector is explicitly left open.** Every number reproduced under independent machinery. Two
+tempering points (gate off-diagonal "by construction"; time-topology "determined" softened)
+have been incorporated into the text above. No claim FAILS.
+
+VERIFIER whole_metric_full_solve / 2026-06-15 / a09bbf2affd616421

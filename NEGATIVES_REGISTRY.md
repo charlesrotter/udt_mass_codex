@@ -1514,3 +1514,56 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     is a SCOPED negative (single cell, stationary, radial-diagonal, classical), NOT the
     whole-metric verdict. PREMISE SET: charge-1; areal gauge (non-restrictive);
     deep negative phi; settled L2+L4. DATA-BLIND. Pending Charles.
+
+## WHOLE-METRIC FULL 3-D SOLVE (off-diagonals live, B=1/A free, time-periodicity
+## examined): the CORRECTED #56 soliton PASSES the full 3-D gate; the unreduced metric
+## produces NO new structure / NO distinct types / NO classical native discreteness
+## selector at the classical level (2026-06-15, whole_metric_full_solve_results.md;
+## blind-verified a09bbf2affd616421 by independent sympy/numpy/scipy machinery)
+##   SCOPED NEGATIVE (classical, stationary, single-cell). What was done & found:
+##   (a) BUILT the 3-D coupled solver machinery (relaxation; matrix-free Newton-Krylov
+##       via autograd JVP; stable gradient descent) on the VALIDATED full-4D Einstein
+##       engine (off-diag G to 5e-6) + matter stress (to 5e-14). Central numerical
+##       difficulty surfaced & diagnosed: the global residual is dominated by the
+##       deep-core/near-axis COORDINATE spike (res=442 at r=0.05 vs 1e-6 in the body);
+##       a global Newton chases it -> excise/anchor the coordinate-singular core (a
+##       center-regularity BC) + geometry-weight the residual.
+##   (b) VALIDATION GATE PASS: the corrected #56 round soliton (a,b independent, NOT
+##       B=1/A) is recognized by the engine as a full 3-D Einstein solution -- all 4
+##       diagonal eqs converge O(h^2) in the smooth body, M_MS to 1e-12, B=1/A
+##       recovered in the exterior. (Off-diagonal residual machine-zero is BY
+##       CONSTRUCTION of the diagonal seed -- a consistency check, not a solved coupling.)
+##   (c) BIFURCATION (field-eq Jacobian sigma_min, conformal-mode-free): matter block
+##       bounded from 0 (reproduces the radial no-bifurcation null); the OFF-DIAGONAL
+##       (rotation/twist/shear) sector is LINEARLY DECOUPLED from the round background
+##       -- ~300 near-null directions of which only ~69 are gauge (gauge deflation does
+##       NOT lift sigma_min), a Regge-Wheeler-type parity decoupling, NOT a clean
+##       bifurcation. Verifier: smallest singular vectors are a spread subspace (PR
+##       43-136), no isolated localized zero mode -> no hidden shaped/rotating branch.
+##   (d) STABILITY: the breathing (normal-mode) spectrum omega^2 > 0 at every depth
+##       (0 negative modes) -> dynamically stable, no growing mode. omega_1 is
+##       DEPTH-INDEPENDENT (0.30995..0.31021 over a 5x depth change).
+##   (e) TIME-PERIODICITY SELECTOR: does NOT fire classically (two independent reasons):
+##       the seal is a t->-t TIME-REVERSAL (Z2 reflection) => time is an INTERVAL with a
+##       reflecting boundary, NOT a circle (no time-circumference T forced; project lists
+##       the time-circle as an underived hinge -- we identify no classical reading that
+##       forces one); AND omega_1 is depth-flat => even granting a circle, omega_1*T=2pi*k
+##       carries no depth-discriminating power. Depth stays a CONTINUUM.
+##   (f) HONEST LIMITATION (recorded, not hidden): a GAUGE-FIXED nonlinear arbitrary-seed
+##       3-D solver was NOT completed -- the unconstrained descent wanders into coordinate
+##       directions (even the gauge-invariant Ricci-scalar asymmetry grows while phi fails
+##       to reach a clean floor), so the persistence test is INCONCLUSIVE on its own. The
+##       trustworthy binary evidence is the LINEAR bifurcation (gauge-deflated) + the
+##       STABILITY spectrum, both clean, both => one round family.
+##   RE-GRADE: #34/#39/#52/#54 (one round continuum, depth a continuum, no selector) --
+##   their suspension pending the unreduced solve is now LIFTED for the CLASSICAL
+##   whole-metric question: the unreduced 3-D solve re-affirms one round family / no
+##   classical selector. Blocking authority RESTORED at the classical level; the QUANTUM
+##   sector (a Euclidean time-circle path integral, the standard origin of discreteness)
+##   remains the open frontier they were always scoped away from. #47b/fermion negatives:
+##   the off-diagonal sector is linearly decoupled on the round background (no classical
+##   re-grade trigger fired); remain banked for the quantum sector. NOT changed: the
+##   canon; the validated engine; the corrected #56 soliton.
+##   PREMISE SET: classical; stationary; single finite cell; deep negative phi; charge-1;
+##   settled L2+L4; areal/regular-core gauge; off-diagonals live but linearly examined
+##   (gauge-fixed nonlinear arbitrary-seed solve OUTSTANDING). DATA-BLIND. Pending Charles.
