@@ -1567,3 +1567,44 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
 ##   PREMISE SET: classical; stationary; single finite cell; deep negative phi; charge-1;
 ##   settled L2+L4; areal/regular-core gauge; off-diagonals live but linearly examined
 ##   (gauge-fixed nonlinear arbitrary-seed solve OUTSTANDING). DATA-BLIND. Pending Charles.
+
+## Gap-closer: gauge-fixed nonlinear solve + disconnected-type search (2026-06-16, nonlinear_gapcloser_results.md; verifier PENDING)
+
+36. NO CLASSICAL DISCONNECTED STABLE SOLITON TYPE FROM THE AXISYMMETRIC GAUGE-FIXED
+    NONLINEAR SEARCH (closes the #57-outstanding capability, axisymmetric scope). Agent:
+    GAP-CLOSER (Opus 4.8). Scripts gapcloser_axisym.py (the validated axisym solver),
+    gapcloser_axisym_gate.py, gapcloser_axisym_search.py, gapcloser_search_run.py;
+    gapcloser_solver.py/gapcloser_seeds.py (full-3D, did not converge). This is the
+    #57-named missing capability (gauge-fixed nonlinear arbitrary-seed solve) PARTLY
+    delivered: the FULL-3-D (r,theta,psi) 10-component residual-Newton does NOT converge
+    robustly (ill-conditioned coupled J^T J; reproduces #57) -> prompt-sanctioned fallback
+    to an AXISYMMETRIC (r,theta) JOINT-LM solver in the quasi-isotropic/Weyl diagonal gauge
+    (B=1/A FREE), with axis+core regularity excision + proper-volume weighting (numerical
+    conditioning of the SAME native Einstein+L2+L4 eqs; NO physics patch).
+    GATE PASS: the round #56 soliton is HELD (M_MS=0.28130, Phi monotone ->2.9e-4, exterior
+    B=1/A recovered as a RESULT, gauge-invariant Ricci theta-var ~0). ROBUSTNESS PASS
+    (relax-back, trend-decisive): an l=2 geometric quadrupole (Ricci tvar 0.86) relaxes
+    back -- BOTH Phi and the gauge-invariant Ricci theta-var decay MONOTONICALLY with no
+    plateau (tvar 0.86->0.24, 3.6x) and M_MS returns to round (convergence slow/linear, not
+    driven fully to floor -- the load-bearing feature is the monotone plateau-free decay).
+    SEARCH: 8 qualitatively-different axisym metric seeds (multipole l=1..4, prolate,
+    oblate, ring, large-amp) all RELAX toward round (Ricci tvar decreases, M_MS->0.28130 at
+    fixed charge, Phi decreasing) or FAIL to converge (ring Phi=0.25, large-amp Phi=0.84 --
+    NOT disconnected types). NO seed lands at the gate floor WITH a persistent
+    gauge-invariant shape (the disconnected signature). VERDICT (scoped): the classical
+    binary CLOSES "MASS YES, DISCRETENESS NO" -- UDT carries mass (the round soliton) but
+    no classical disconnected stable type emerges. Consistent with #34/#39/#54/#57
+    (one round family) and the quantum-sector frontier.
+    PREMISE SET (BLOCKING SCOPE): classical; stationary; single finite cell; charge-1
+    settled L2+L4; AXISYMMETRIC (r,theta) diagonal Weyl gauge; matter FROZEN at the round
+    #56 Theta (w_matter=0 -- the 4-D action EL on the grid has a ~0.2 inner-body truncation
+    residual, so the metric-shape question is scoped to a fixed settled source); rfreeze
+    core/axis excision; proper-volume weight; Nr=160 Nth=24; convergence solver-limited
+    (slow linear; trends not fully-closed solves). DOES NOT block: (i) the full-3-D
+    NON-AXISYMMETRIC (psi-dependent) sector (the hard #57 wall, did not converge); (ii)
+    genuinely MATTER-SHAPED types (matter profile carrying the shape -- only the metric
+    response to a fixed source was probed); (iii) off-diagonal TWIST/rotation types; (iv)
+    the QUANTUM sector. CONDITIONS-CHANGED trigger: a converged full-3-D or matter-shaped
+    or twist solve that finds a type this scope missed. NO physics patch used (B=1/A free +
+    recovered; no seal/source injection; no linearization-as-result; no dial tuned to a
+    target). VERIFIER PENDING. DATA-BLIND. Pending Charles.
