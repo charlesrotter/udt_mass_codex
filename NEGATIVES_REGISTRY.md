@@ -1680,3 +1680,56 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     a bug artifact. CLOSING STEP (in progress): fix the production tool (axisym_matter_el_CORRECT.py)
     and re-run the production search with it to remove the caveat + leave correct reusable
     infrastructure. Category-B CLEAN. DATA-BLIND. Pending Charles.
+
+## Full-3-D spectral solver: round gate PASS, non-axisym/winding search SOLVER-LIMITED (2026-06-16, full3d_catalog_results.md; verifier PENDING)
+
+60. FULL-3-D NON-AXISYM + HIGHER-WINDING CATALOG SEARCH — INCONCLUSIVE / SOLVER-LIMITED
+    (NOT a banked negative; the catalog binary is left OPEN in the 3-D sector). Agent:
+    FULL-3-D SPECTRAL CONSTRUCTOR (Opus 4.8). Scripts: spectral_sph.py (Fourier-psi +
+    GL-theta), gen_einstein_3d_weyl.py/einstein_3d_weyl_gen.py/einstein_3d_eval.py
+    (analytic pole-stable 3-D Weyl Einstein), gen_matter_el_3d.py/matter_el_3d_gen.py
+    (correct 3-D matter EL by direct variation), full3d_spectral.py, full3d_solver.py,
+    full3d_campaign.py, full3d_final_run.py.
+    INFRASTRUCTURE VALIDATED (the durable deliverable, all category-A): (A) analytic
+    3-D mixed Einstein for the diagonal Weyl metric, psi LIVE -- flat=0 EXACT,
+    Schwarzschild->0 EXPONENTIAL (2e-3@Nr16 -> 4e-7@Nr48), MATCHES validated 2-D
+    analytic engine to 1.2e-14 incl off-diagonal G^r_theta (the purely-NUMERICAL NR
+    core FAILS: double-spectral-diff pole amplification, flat-residual GROWS with N --
+    analytic engine is the cure). (B) correct full-3-D matter EL by DIRECT variation
+    (the proven 2-D-CORRECT method + psi + winding m) -- MACHINE-ZERO on round soliton
+    (3e-12..6e-11), symbolic div(T)=-EL d_r Theta EXACT (sympy=0); immune to the #59
+    L4 codegen bug. (C) exact-chain-rule field gradient -- stress matches 1-D radial
+    to 1e-13.
+    VALIDATION GATE PASS: round #56 recovered in the full-3-D (psi-live) basis,
+    M_MS=0.2808 (#56 0.2811-0.2812) across Nr40/48 Nps8/12; mass-weighted gauge-
+    invariant angular shape DECREASES with resolution -> round (tvar 8.5e-3->3.1e-3,
+    psivar 8e-3->2.2e-3); Phi->3e-4. Round is a clean fixed point; basis non-restrictive.
+    SEARCH SOLVER-LIMITED: off-round relaxation could NOT be driven to a clean floor
+    with trustworthy round-recovery. DECISIVE diagnostic -- the AXISYM CONTROL (axisym
+    l=2 perturbation, which the validated 2-D solver #59 relaxes to round at the floor
+    tvar 0.94->1e-3) here reaches Phi~4e-5 but STALLS at mass-weighted tvar~0.086 and
+    develops spurious psivar~0.059 (axisym input has psivar=0). Because a KNOWN-relax
+    case does not converge cleanly, the non-axisym (psi1/psi2) + higher-winding (m=2,3,4)
+    results CANNOT be read as type-vs-unconverged; shapes/masses NOT mapped. The matrix-
+    free Jacobi-PCG Levenberg-Marquardt converges too slowly on the off-round angular
+    sector at feasible iteration counts; the affordable coarse grid (32^3-class) has an
+    angular-diagnostic floor ~0.05. Per charter STOP-and-REPORT.
+    VERDICT: the classical NON-AXISYMMETRIC + HIGHER-WINDING catalog question remains
+    OPEN -- now with the CORRECT, pole-stable 3-D physics machinery built+validated and
+    the round soliton reconfirmed in the 3-D basis; the gap is isolated to OFF-ROUND
+    coupled-solve TRACTABILITY (the next build), not the physics content.
+    PREMISE SET (scope of the SOLVER-LIMITED status, NOT a blocking negative): classical;
+    static; single finite cell (14L); charge-1 settled L2+L4; diagonal Weyl gauge,
+    psi-live (a,b,c,d FREE; B=1/A free + recovered on gate); single-Theta(r,theta,psi)
+    hedgehog (restricted non-axisym -- div(T) nu=theta,psi remainder; full S^3 map F,G,H
+    NOT done); spatial off-diagonal metric g_rth/g_rps/g_thps NOT carried by the analytic
+    engine; matrix-free Jacobi-PCG LM solver (off-round convergence INSUFFICIENT, the
+    load-bearing limitation). DOES NOT block / leaves OPEN: (i) non-axisym charge-1
+    catalog; (ii) winding m=2,3,4 shapes/masses; (iii) off-diagonal-metric non-axisym
+    shapes; (iv) full-S^3-matter non-axisym; (v) rotation/twist; (vi) quantum. The #59
+    static-axisym negative is UNCHANGED (this push neither extends nor refutes it -- it
+    targets the disjoint non-axisym/winding sector and did not converge there).
+    NO category-B simplification used (B=1/A free + recovered; matter free; no seal/source
+    injection; no linearization-as-result; no dropped term; analytic-G + direct-EL = same
+    native content, proven). HOUSEKEEPING: axisym_matter_el.py marked DEPRECATED/INVALID-
+    off-round. VERIFIER PENDING. DATA-BLIND. Pending Charles.

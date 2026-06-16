@@ -1,3 +1,14 @@
+# ============================================================================
+# DEPRECATED / INVALID OFF-ROUND -- DO NOT USE for shaped (off-round) matter.
+# Found by blind verifier 7cf94053 (2026-06-16): this auto-generated 2-D matter
+# Euler-Lagrange is WRONG in the L4 (Skyrme quartic) sector whenever the matter
+# carries genuine ANGULAR deformation (Theta_theta != 0 and/or c,d != 0).  It is
+# correct ONLY in the round limit (coincides with the true EL to 3e-16; that is
+# why all round validations passed).  Correct 2-D EL: axisym_matter_el_CORRECT.py
+# (direct variation, identity-consistent with the Hilbert stress).  Correct full-
+# 3-D EL: matter_el_3d_gen.py (same direct-variation method; machine-zero on round;
+# symbolic div(T) = -EL d_r Theta exact).  Kept for provenance only.  2026-06-16.
+# ============================================================================
 import numpy as np
 from numpy import exp,sin,cos,sqrt
 

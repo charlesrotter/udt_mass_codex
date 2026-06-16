@@ -22,7 +22,10 @@ LEGEND: [V]=solved native + blind-verified · [v]=solved/validated (lighter) ·
 ## B. COORDINATES / DIMENSIONS (t, r, θ, ψ)
 - [V] r (radial) — #56.
 - [v] θ (polar) — 2-D spectral #59.
-- [!] ψ (azimuth) — UNTESTED; the non-axisymmetric blind spot. (full-3-D build IN PROGRESS)
+- [v] ψ (azimuth) — OPENED (#60, full3d_catalog_results.md): Fourier-ψ spectral
+      basis machine-exact; the ROUND #56 soliton recovered in the full-3-D (ψ-live)
+      basis (M_MS=0.281, gate PASS). Criterion-4 ψ-DOMAIN now covered for the round
+      solution. (OFF-ROUND ψ-shaped solve = solver-limited, see F / 8.)
 - [E] t (time) — STATIC solved; time-periodicity SELECTOR examined #57 (seal = interval,
       not a circle; ω₁ depth-flat ⇒ no classical selector). Fully-dynamic evolution [ ].
 
@@ -30,8 +33,10 @@ LEGEND: [V]=solved native + blind-verified · [v]=solved/validated (lighter) ·
 - [V] Θ(r) radial profile — #56.
 - [v] Θ(r,θ) angular shape, matter FREE — 2-D spectral #59 (charge-1, axisym; corrected EL).
 - [v] winding m=1 — ground state, round (spherical).
-- [R] winding m=2,3 — found grid-stable (#52d/#57d) but shapes/masses NOT mapped. (3-D build)
-- [ ] winding m≥4 — UNTESTED.
+- [R] winding m=2,3 — found grid-stable (#52d/#57d); 3-D EL now carries winding m
+      (matter_el_3d_gen.py, correct), seeds built (#60) but shapes/masses NOT mapped
+      — OFF-ROUND solve solver-limited (#60). Still [R].
+- [ ] winding m≥4 — seed built (#60) but solver-limited; UNMAPPED.
 - [V] depth p (dilation) — continuous family, super-exponential M(p), NO native selector
       (#54/#56; the lepton-relevant same-charge axis).
 
@@ -53,8 +58,12 @@ LEGEND: [V]=solved native + blind-verified · [v]=solved/validated (lighter) ·
 ## F. SYMMETRY SECTOR
 - [V] spherical (charge-1 ground state).
 - [v] axisymmetric (r,θ) — 2-D spectral #59.
-- [!] NON-axisymmetric (ψ-dependent; platonic higher-winding types) — UNTESTED; the most
-      likely home of a Skyrme-type distinct-shape catalog. (full-3-D build IN PROGRESS)
+- [E] NON-axisymmetric (ψ-dependent; platonic/higher-winding types) — MACHINERY BUILT
+      + ROUND-GATE PASS in 3-D (#60: pole-stable analytic 3-D Einstein, correct 3-D
+      matter EL machine-zero on round + symbolic div(T) ν=r exact, Fourier-ψ). SEARCH
+      itself SOLVER-LIMITED (off-round coupled-solve convergence gap — the axisym
+      CONTROL that #59 relaxes does NOT relax cleanly here). Catalog binary OPEN, NOT
+      banked. Residual: full off-diagonal METRIC + full S³ matter map (F,G,H).
 
 ## G. SCALE REGIME
 - [V] shallow ↔ deep φ — radial to p≈6 (#56); bulk swept to p≈-40 pre-L4 (#39).
@@ -69,9 +78,15 @@ LEGEND: [V]=solved native + blind-verified · [v]=solved/validated (lighter) ·
 ## TRACTABILITY MAP (what the numerics reach)
 - TRACTABLE NOW: 1-D radial coupled Einstein+L2+L4 (#56); 2-D axisym SPECTRAL coupled solve
       (Cheb_r × Legendre_θ), exponential convergence, matter free (#59). Continuation (depth).
-- WALLED (being opened): full-3-D nonlinear — FINITE-DIFFERENCE failed (#57/#58 coordinate-
-      spike ill-conditioning); SPECTRAL 3-D (Cheb_r × spherical-harmonics) is the cure, IN
-      PROGRESS (this build).
+- PARTLY OPENED (#60): full-3-D SPECTRAL (Cheb_r × GL_θ × Fourier_ψ) cures the #57/#58
+      coordinate-spike for the GEOMETRY/EL (pole-stable analytic 3-D Einstein flat=0 /
+      Schwarzschild exp / 2-D-match 1e-14; correct 3-D matter EL machine-zero on round +
+      symbolic div(T) ν=r exact) AND recovers the round soliton in the 3-D basis (gate
+      PASS, M_MS=0.281). REMAINING WALL: the OFF-ROUND coupled SOLVE convergence — the
+      matrix-free Jacobi-PCG LM does not drive off-round angular configs (incl the
+      axisym control #59 relaxes) to a clean floor in feasible cost. The non-axisym /
+      higher-winding catalog SEARCH is gated on a faster off-round 3-D solver (dense-LM
+      on a moderate grid / Newton-Krylov w/ elliptic preconditioner / block SCF).
 - NOT YET BUILT: fully-dynamic (time-evolution) NR-grade solver; the quantum-sector machinery.
 - TOOLING CORPUS being mined (category-A, NR): spectral elliptic methods, self-consistent-
       field (KEH/Hachisu), gravitating-Skyrmion/boson-star solvers, pseudo-arclength continuation.
@@ -105,7 +120,32 @@ LEGEND: [V]=solved native + blind-verified · [v]=solved/validated (lighter) ·
 
 ## CURRENT HEADLINE (honest, regime-stamped)
 UDT NATIVELY PRODUCES MASS (#56, the milestone): a self-consistent full-(radial)-Einstein
-soliton, no imports. NO classical discrete catalog YET found — but only the CHARGE-1,
-STATIC, AXISYMMETRIC, matter-deforming tile has been genuinely searched (#59). The most
-likely catalog home — NON-AXISYMMETRIC + HIGHER-WINDING + rotation/twist — is still BLANK,
-and is what the full-3-D spectral build targets. Time-dynamic and quantum sectors remain open.
+soliton, no imports. NO classical discrete catalog YET found in the genuinely-searched
+CHARGE-1 STATIC AXISYMMETRIC matter-deforming tile (#59). The full-3-D spectral build
+(#60) now has the CORRECT, POLE-STABLE 3-D MACHINERY (analytic Einstein, correct off-round
+matter EL, Fourier-ψ) and RECONFIRMS the round soliton in the 3-D ψ-live basis (gate PASS,
+M_MS=0.281) — but the NON-AXISYMMETRIC + HIGHER-WINDING catalog SEARCH is SOLVER-LIMITED
+(off-round coupled-solve convergence gap; the axisym control #59 relaxes does not relax
+cleanly here), so that catalog home is still OPEN (NOT banked, not a negative). The gap is
+now isolated to OFF-ROUND 3-D SOLVE TRACTABILITY (the next build), not the physics content.
+Time-dynamic, rotation/twist, full-off-diagonal-metric, full-S³-matter, and quantum
+sectors remain open.
+
+## STANDING-QUESTION ANSWERS — push #60 (full-3-D spectral)
+1. COVERS: criteria 1-5 for the diagonal-Weyl/single-Θ 3-D class incl. ψ (criterion-4
+   OPENED, round gate). DROPS (explicit): spatial off-diagonal metric g_rθ/g_rψ/g_θψ;
+   full S³ matter map (F,G,H) [single-Θ is restricted non-axisym]; twist (crit-7);
+   off-round CONVERGENCE for crit-6/8/9.
+2. Could a dropped criterion host structure? YES — the non-axisym catalog (crit-8) and
+   winding shapes (crit-6) are exactly what could not be searched ⇒ flagged blind-spot,
+   NOT a closure. The off-diagonal metric + full S³ map are the most likely missing DOF.
+3. REGIME: validated machinery + round gate basis-robust at (p=0.4, kap8=0.05, 14L). The
+   off-round search has NO established regime (did not converge).
+4. Category-A? YES — every technique conditioning, proven (flat/Schwarzschild/round/2-D-
+   match/machine-zero EL/div-identity). NO category-B. The honest limit is SOLVER speed.
+5. Tooling next: a faster off-round 3-D solver (dense-LM on a moderate grid / Newton-
+   Krylov with an elliptic preconditioner / metric-matter block SCF) to drive off-round
+   to a clean floor (Phi~1e-9 with the axisym control round-recovered), THEN re-run the
+   non-axisym + winding search.
+6. ONE tile: the 3-D non-axisym/winding CATALOG verdict is still BLANK; what is newly
+   filled is the 3-D ROUND recovery + the correct 3-D physics machinery.
