@@ -10,7 +10,7 @@ matching OBSERVATIONS straight off the bare metric, with NO imports, NO scaffold
 NO mechanisms bolted on. Let structure EMERGE; do not derive masses until Charles
 says ready (gated DERIVE).
 
-## THE BIG SHIFT THIS SESSION (2026-06-15/16) — read this first
+## THE BIG SHIFT (2026-06-15/16 session) — read this first
 1. REFRAME — the SM-analog line is SHELVED. Five straight refusals of the
    "make-the-soliton-a-fermion" template (#47 no-fermion, #49 no-monodromy, #50
    no-SU(3)-field, #51 coin-free, #53 quantize→still-free) indicted the QUESTION.
@@ -92,17 +92,21 @@ says ready (gated DERIVE).
   UNWRITTEN (the #51/#53 "no" used retired imports). Reverse-engineer the precision solver from
   quantum math (RG↔dilation first) — extract target+type, never import the mechanism.
 
-## THE REUSABLE INFRASTRUCTURE (audited)
+## THE REUSABLE INFRASTRUCTURE (audit status per item — do NOT assume "audited" blanket)
 - whole_metric_3d_core.py — full-4D numerical Einstein engine (validated: flat/Schwarzschild→0,
-  off-diagonal G to ~5e-6; audit-clean).
-- whole_metric_3d_matter.py — L2+L4 Hilbert stress (audit-clean; unit field).
-- radial_Bfree_soliton.py — the corrected radial soliton solver (#56, blind-verified; B=1/A free).
+  off-diagonal G to ~5e-6). INFRA-AUDIT #1 CLEAN (08fd4ef).
+- whole_metric_3d_matter.py — L2+L4 Hilbert stress (unit field). INFRA-AUDIT #1 CLEAN.
+- radial_Bfree_soliton.py — corrected radial soliton solver (#56, blind-verified; B=1/A free).
+  INFRA-AUDIT #1 CLEAN.
 - spectral_cheb.py / spectral_2d.py / spectral_catalog_solver.py … — 2-D SPECTRAL coupled
   Einstein+L2+L4 solver (exponential convergence, matter free, #59) — the conditioning cure for
-  the FD coordinate-spike wall.
+  the FD coordinate-spike wall. VERIFIER-CHECKED via #59 (the off-round EL bug was caught there);
+  NOT yet through a standalone infra-audit.
 - full-3-D spectral (Chebyshev_r × Gauss-Legendre_θ × Fourier_ψ): primitives + analytic 3-D Weyl
   Einstein (pole-stable: flat=0, Schwarzschild exp, 2-D-match 1e-14) + CORRECT 3-D matter EL
-  (machine-zero on round, div(T) exact) — BUILT + VALIDATED (#60; round gate PASS, M_MS=0.281).
+  (machine-zero on round, div(T) exact) — BUILT, internally VALIDATED (#60; round gate PASS,
+  M_MS=0.281). ⚠ NOT independently verified/audited (the #60 run was INCONCLUSIVE and its final
+  summary was lost to an API error) — AUDIT/VERIFY THIS before relying on it for a real search.
   REMAINING WALL: the OFF-ROUND coupled SOLVE is solver-limited (matrix-free Jacobi-PCG too weak).
   FIX (category-A conditioning, next session): block-SCF/KEH + continuation-from-round + a real
   elliptic/block preconditioner (or coarse dense spectral grid). See SOLVER_COMPLETENESS_MAP tractability.
@@ -165,7 +169,7 @@ says ready (gated DERIVE).
   revisited it is a QUANTUM-sector question (#47b spin-structure hinge: a σ-ODD re-grade of omega_H1
   would reopen it).
 - Provenance: commit scripts WITH results docs; AUDIT.md / step0_bridge*.py / dpf_verify_indep.py are
-  Charles's untracked working files — leave them. The background full-3-D agent is a3e0655d8fc0e65d8.
+  Charles's untracked working files — leave them.
 
 ## Perspective (carry this; do not re-derive your way back to it)
 The metric is primary and generates the dilation field phi; matter is the angular/topological sector
