@@ -1,7 +1,56 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-14 (LATER-4) — SPECTRUM PRE-REG FAIL (one cell = one particle).
+Last update: 2026-06-16 — NATIVE MASS MILESTONE + the whole-metric/native-solver turn.
+
+## 2026-06-16 — THE WHOLE-METRIC TURN: UDT MAKES MASS NATIVELY; CATALOG OPEN
+
+The session that shelved the SM-analog line and built the native solver. Read HANDOFF.md
+(refreshed) + SOLVER_COMPLETENESS_MAP.md (the coverage ledger + the TEN completeness
+criteria) first; the new memories carry the binding principles.
+
+THE ARC (each blind-verified unless noted; results docs + NEGATIVES_REGISTRY #51-#59):
+- REFRAME (memory reframe-observation-led): five refusals of the SM-fermion template
+  (#47/#49/#50/#51/#53) indicted the QUESTION. SHELVED the fermion/coin-flip/quantum-
+  completion line; reoriented to matching RAW OBSERVATIONS (mass pattern, charge, macro)
+  from UDT's own structures. The coin-flip Crux-1 (#51: statistics coin two-sided but
+  classically FREE) and Crux-2 (#53: quantizing gives Berry phase = 0, postulate A
+  IRREDUCIBLE) were completed as the closing of that line, both blind-verified.
+- THE MILESTONE (#56, memory milestone-udt-makes-mass-natively): UDT MAKES MASS NATIVELY.
+  Solving the bare WHOLE metric honestly (B=1/A FREED, no imports) gives a real
+  gravitationally-massed self-consistent FULL-(radial)-Einstein soliton, M_MS≈0.281
+  √(κ/ξ). Mass appeared ONLY once every patch was removed — the subtraction was the
+  discovery. First clean demonstration of UDT's core thesis (mass = native geometry).
+- THE OVERTURN (#55): a new, independently-validated full-4D Einstein engine showed the
+  PRIOR reduced soliton (#52/#54, and #34/#39) was NOT a full-metric solution — B=1/A was
+  over-imposed in the twisted body (forces p_r=−ρ, which the EOS-softened body violates) +
+  a smuggled seal-injection term. Blind-verified. CANON C-2026-06-14-1 SURVIVES — the gate
+  CONFIRMS its EOS-softening refinement. #52/#54/#34/#39 re-graded; #56 is the correction.
+- THE CATALOG SEARCH (the live frontier): does UDT carry a DISCRETE catalog of distinct
+  stable types, or one round family? #58 (FD, matter-frozen) = inconclusive. #59 (SPECTRAL,
+  matter FREE, axisymmetric, charge-1): NO disconnected type — blind-verified, and a real
+  off-round L4 matter-EL BUG was found by the verifier and the null SURVIVED it (corrected
+  EL written). The likely catalog home — NON-AXISYMMETRIC + HIGHER-WINDING — is the LIVE
+  full-3-D spectral run (background agent a3e0655..., in progress at session pause).
+- INFRASTRUCTURE (reusable, audited): the full-4D Einstein engine (off-diag G to 5e-6), the
+  L2+L4 stress, the corrected radial solver (#56), and the 2-D SPECTRAL coupled solver
+  (exponential convergence — the cure for the FD coordinate-spike wall). Proactive infra
+  audit #1 = CLEAN (the seal-injection / EL-bug scars drove the new audit cadence).
+
+BINDING PRINCIPLES ADDED (memories): native-solve / no-regression (better conditioning not
+approximations; category-A vs category-B); regularly AUDIT the solving infrastructure;
+SOLVER-ARCHITECT metacognition (track COVERAGE via the ten completeness criteria; each
+result is one tile + regime stamp); MACRO = a different epistemic grade (GR-level, conceptual
+models/estimates, not metric-pure — label native-derived vs GR-modeled); pre-registration
+reserved for the gated mass-vs-wall-numbers test; the PARTICLE's nature is OPEN (geometric
+three-ness vs multi-constituent; N=3 may be geometric, not color).
+
+NEXT (live): the full-3-D run lands → verifier → bank → update the completeness map. Then per
+outcome (catalog exists → characterize shapes/masses, possible geometric baryon at winding-3;
+or null → discreteness is quantum / a blank sector). Remaining blank tiles: rotation/twist
+off-diagonals, the time-dynamic sector, the quantum sector. Parallel front: macro consilience
+(CMB models in AUDIT.md refined by the new solvers; SPARC dim-baryon + infinite-time stellar;
+SNe ~unchanged). Gated, far off: the lepton mass pattern (depth/winding) vs the wall numbers.
 
 ## 2026-06-14 (LATER-4) — LEPTON SPECTRUM: PRE-REGISTERED FAIL; "ONE CELL = ONE PARTICLE"
 
