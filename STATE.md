@@ -45,12 +45,32 @@ models/estimates, not metric-pure — label native-derived vs GR-modeled); pre-r
 reserved for the gated mass-vs-wall-numbers test; the PARTICLE's nature is OPEN (geometric
 three-ness vs multi-constituent; N=3 may be geometric, not color).
 
-NEXT (live): the full-3-D run lands → verifier → bank → update the completeness map. Then per
-outcome (catalog exists → characterize shapes/masses, possible geometric baryon at winding-3;
-or null → discreteness is quantum / a blank sector). Remaining blank tiles: rotation/twist
-off-diagonals, the time-dynamic sector, the quantum sector. Parallel front: macro consilience
-(CMB models in AUDIT.md refined by the new solvers; SPARC dim-baryon + infinite-time stellar;
-SNe ~unchanged). Gated, far off: the lepton mass pattern (depth/winding) vs the wall numbers.
+UPDATE (3-D run landed = #60): the full-3-D spectral machinery is BUILT + VALIDATED (analytic 3-D
+Weyl Einstein pole-stable; correct 3-D matter EL machine-zero on round + div(T) exact; round soliton
+recovered in the ψ-live basis, gate PASS) but the OFF-ROUND search is SOLVER-LIMITED (matrix-free
+Jacobi-PCG too weak) ⇒ INCONCLUSIVE, catalog STILL OPEN. So EVERY static search returns a continuum /
+one round family / no catalog.
+
+THE NEW PERSPECTIVE (2026-06-16, the session's sharpest reframe — memories particle-catalog-frame
+2026-06-16b + no-presumed-quantum-sector): the catalog may be a DYNAMICAL SPECTRUM, not static cells —
+discreteness in nature is standing-wave / eigenvalue (atomic spectra ≠ a catalog of static lumps), and
+the lepton-relevant DEPTH axis is a CONTINUUM with no static selector (#54/#56) = exactly the setup
+where a standing-wave eigencondition imposes discreteness. So the lepton FAMILY may be the discrete
+EIGENMODES on the depth continuum (DYNAMICAL), living in an eigenvalue/standing-wave solver NOT yet
+built. The static nulls become EVIDENCE pointing there. AND: there may be NO separate quantum sector —
+quantum-appearing observations may be geometric (standing-wave/eigenvalue/topology); the QCD/QED overlap
+is with their classical face; the precision tier (g−2…) is reverse-engineerable from quantum math
+(RG↔dilation first). Caveat: the static catalog is NOT closed (#60 solver-limited), so this is a
+leading hypothesis, not established.
+
+NEXT-SESSION (two complementary builds — see HANDOFF queue): (1) FIX the off-round 3-D static solver
+(block-SCF/KEH + continuation-from-round + real preconditioner — category-A) to CLOSE the static-catalog
+question; (2) SCOPE/BUILD the EIGENVALUE / standing-wave (dynamical) solver where the families may
+actually live. Three-tier roadmap: structure→static solver; spectra→eigenvalue solver; precision→
+dynamical/response solver. Remaining blank tiles: rotation/twist off-diagonals, time-dynamic, the
+quantum-appearing observations (tile H reframed). Parallel front: macro consilience (GR-level grade;
+CMB in AUDIT.md refined by the new solvers; SPARC dim-baryon + infinite-time stellar; SNe ~unchanged).
+Gated, far off: the lepton mass pattern (depth / eigenvalue spectrum) vs the wall numbers.
 
 ## 2026-06-14 (LATER-4) — LEPTON SPECTRUM: PRE-REGISTERED FAIL; "ONE CELL = ONE PARTICLE"
 
