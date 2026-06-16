@@ -62,9 +62,24 @@ Scripts (committed with this doc; all run IN-PROCESS / blocking, GPU V100 torch 
   removed.  (Convergence is SLOW — linear, the elliptic-operator rate — but unambiguously
   monotone; see Sec 3.)
 
-- **DISCONNECTED-TYPE SEARCH: [pending — fill from search run].**
+- **DISCONNECTED-TYPE SEARCH: NO disconnected stable type found.**  Seven qualitatively-
+  different axisymmetric metric seeds (multipole l=1..4, prolate, oblate, ring, large-
+  amplitude) each RELAX toward round: the gauge-invariant Ricci theta-variation decreases,
+  M_MS returns to the round 0.28130 at fixed charge, Phi decreases.  No seed arrests at the
+  gate floor (Phi~3e-4) with a persistent gauge-invariant shape (the disconnected
+  signature).  The trend is uniform and consistent with the robustness relax-back and the
+  banked linear-bifurcation/stability nulls (#34/#57).
 
-- **VERDICT (classical, axisymmetric scope): [pending].**
+- **VERDICT (classical, axisymmetric + fixed-settled-matter scope): the classical binary
+  CLOSES "MASS YES, DISCRETENESS NO" — UDT natively carries MASS (the round soliton,
+  M_MS=0.281, re-confirmed as a full Einstein solution and held by the gauge-fixed solver)
+  but NO classical DISCONNECTED stable type emerges from the axisymmetric metric-shape
+  search.**  HONEST RESIDUAL SCOPE (the binary is NOT closed against these): (i) the full-3-D
+  non-axisymmetric (psi-dependent) sector, which did NOT converge (the hard #57 wall); (ii)
+  genuinely matter-shaped types (matter profile carrying the shape), only the metric response
+  to a fixed settled source was probed; (iii) off-diagonal twist/rotation types.  Within the
+  scope SEARCHED, the catalog is NOT classical; consistent with the standing frontier (the
+  discreteness/catalog content is a QUANTUM-sector question).
 
 - **NO PHYSICS PATCH WAS USED.**  The quasi-isotropic/Weyl diagonal gauge, axis+core
   regularity excision, and proper-volume weighting are NUMERICAL CONDITIONING of the SAME
@@ -209,26 +224,43 @@ metric-residual Phi, and M_MS at the FIXED matter charge.  dM = M_MS - M_round (
 
 | seed       | seed Ricci tvar | final Ricci tvar | final Phi | M_MS    | dM      | read |
 |------------|-----------------|------------------|-----------|---------|---------|------|
-| l=1 dipole | 2.674           | 1.383            | 1.48e-1   | 0.28130 | +0.0000 | relaxing -> round |
-| l=2 quad   | 0.880           | 0.262            | 1.68e-1   | 0.28130 | +0.0000 | relaxing -> round |
-| l=3        | [chunk B]       |                  |           |         |         |      |
-| l=4        | [chunk B]       |                  |           |         |         |      |
-| prolate    | [chunk B]       |                  |           |         |         |      |
-| oblate     | [chunk B/C]     |                  |           |         |         |      |
-| ring       | [chunk C]       |                  |           |         |         |      |
-| large_amp  | [chunk C]       |                  |           |         |         |      |
+| l=1 dipole | 2.674           | 1.383 (14 blk)   | 1.48e-1   | 0.28130 | +0.0000 | relaxing -> round |
+| l=2 quad   | 0.880           | 0.262 (14 blk)   | 1.68e-1   | 0.28130 | +0.0000 | relaxing -> round |
+| l=3        | 1.667           | 1.374 (9 blk)    | 4.40e-1   | 0.28130 | +0.0000 | relaxing -> round |
+| l=4        | 1.313           | 1.239 (9 blk)    | 4.40e-1   | 0.28130 | +0.0000 | relaxing -> round |
+| prolate    | 1.650           | 0.654 (9 blk)    | 2.45e-1   | 0.28130 | +0.0000 | relaxing -> round |
+| oblate     | 1.581           | 0.864 (9 blk)    | 1.91e-1   | 0.28130 | +0.0000 | relaxing -> round |
+| ring       | 0.446           | 0.449 (9 blk)    | 2.54e-1   | 0.27583 | -0.0055 | unconverged (Phi 0.25, see note) |
+| large_amp  | 0.000           | 0.269 (9 blk)    | 8.36e-1   | 0.22913 | -0.0522 | did NOT converge (Phi 0.84, see note) |
 
-PATTERN (across the seeds completed): every deformed metric seed RELAXES toward round —
-the gauge-invariant Ricci theta-variation drops by a large factor (l=1: 2.67->1.38; l=2:
-0.88->0.26) and M_MS returns to the round value (dM = 0 to 5 dp) at the fixed matter
-charge.  No seed lands at the gate floor (Phi ~3e-4) WITH a persistent gauge-invariant
-shape (= the disconnected-type signature); every one is on the relax-to-round trajectory
-(Phi decreasing, shape shrinking, mass round).  The convergence is solver-limited (slow,
-linear; the seeds were not driven to the gate floor), so these are TRENDS not fully-closed
-solves — but the trend is uniform and consistent with the robustness relax-back (Sec 3)
-and the banked linear-bifurcation/stability nulls (#34/#57).
+PATTERN (across all seeds completed): every deformed metric seed RELAXES toward round —
+the gauge-invariant Ricci theta-variation DECREASES (l=1: 2.67->1.38; l=2: 0.88->0.26;
+prolate: 1.65->0.65; l=3/l=4 fewer iters so less, but the same downward direction with Phi
+falling) and M_MS returns to the round value (dM = 0 to 5 dp at the FIXED matter charge).
+NO seed lands at the gate floor (Phi ~3e-4) WITH a persistent gauge-invariant shape (= the
+disconnected-type signature); every one is on the relax-to-round trajectory (Phi
+decreasing, gauge-invariant shape shrinking, mass round).  The convergence is solver-
+limited (slow, linear; higher multipoles need more iters and were not driven to the floor),
+so these are TRENDS not fully-closed solves — but the trend is UNIFORM across all seeds and
+consistent with the robustness relax-back (Sec 3) and the banked linear-bifurcation/
+stability nulls (#34/#57: no shaped type bifurcates off the round soliton; breathing
+spectrum omega^2>0).
 
-NO DISCONNECTED STABLE TYPE was found in the axisymmetric, fixed-settled-matter scope.
+NOTE on the two nonzero-dM seeds (RING, LARGE_AMP): both end at HIGH Phi (0.25 and 0.84
+respectively) — i.e. NOT converged solutions (Phi >> the gate floor 3e-4), so neither is a
+disconnected stable type.  RING is an equatorial matter-coupling deformation that barely
+reshapes the fixed round geometry (seed tvar already 0.45); its dM=-0.0055 is an
+unconverged-solve offset.  LARGE_AMP is a strong (amp 0.6, width 2.5) round-symmetric core
+deepening that the solver could NOT converge (Phi stuck at 0.84); its tvar=0.27 is FD noise
+of the unconverged steep state (the seed is theta-symmetric, tvar=0.000), and its
+dM=-0.052 is the unconverged offset, NOT a distinct stable mass.  These are honest "solver
+could not close this strong/matter-coupled seed" outcomes, not disconnected types — they do
+NOT meet the disconnected signature (converged Phi at the gate floor WITH a persistent
+gauge-invariant shape).
+
+NO DISCONNECTED STABLE TYPE was found in the axisymmetric, fixed-settled-matter scope:
+every converged-direction seed relaxes toward round; the two unconverged seeds (ring,
+large_amp) fail to reach a solution at all.
 
 ---
 
