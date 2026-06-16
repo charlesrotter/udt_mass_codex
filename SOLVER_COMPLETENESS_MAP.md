@@ -69,11 +69,23 @@ LEGEND: [V]=solved native + blind-verified · [v]=solved/validated (lighter) ·
 - [V] shallow ↔ deep φ — radial to p≈6 (#56); bulk swept to p≈-40 pre-L4 (#39).
 - [V] weak ↔ strong κ8 — to the over-collapse ceiling (#52).
 
-## H. QUANTUM (ħ) SECTOR
-- [E] fermion statistics / the coin — #51/#53: classically FREE, NOT derived (postulated,
-      like the SM); SHELVED per the observation-led reframe.
-- [!] Euclidean time-circle discreteness (standard QSM origin of discreteness) — flagged,
-      UNTESTED; distinct from the shelved SM-fermion line.
+## H. QUANTUM-APPEARING OBSERVATIONS (no separate quantum SECTOR presumed — Charles 2026-06-16)
+NOTE: do NOT reify "the quantum sector" as a place things live — that reifies the quantum
+framework (an import). Treat quantum-APPEARING observations as TARGETS the geometry may resolve
+(standing waves / eigenvalue / topology). Discreteness is NOT inherently quantum (a vibrating
+string, any bound-state eigenvalue problem, is classically discrete; cf. Couder-Fort droplets).
+The UDT/QCD-QED overlap is with their GEOMETRIC/CLASSICAL face (gauge=connection; Skyrmion=classical
+soliton; large-N QCD is classical) — coherent with no quantum layer. [[no-presumed-quantum-sector]]
+- [E] fermion/spin-½ statistics — #51/#53 (classically not forced) used RETIRED SM-imports (Skyrme/
+      FR/WZW), so they do NOT count as a native test; native verdict UNWRITTEN. A geometric realization
+      (topology / standing-wave) is the open target, not "a quantum sector".
+- [ ] discrete spectra (atomic/hadronic) — a STANDING-WAVE/eigenvalue extension of the solver (we
+      already compute mode ω²); the cleanest test of geometric discreteness. UNTESTED at scale.
+- [!] PRECISION-loop physics (g−2, Lamb shift, DIS, running coupling) — the hard BILL; needs a
+      DYNAMICAL/response solver (not the static one) + the reverse-engineer-from-quantum-math strategy
+      (stochastic quantization / Madelung / ℏ-loop / effective action / RG↔DILATION first). UNTESTED.
+- [!] entanglement / Bell nonlocality — the deepest test of "all geometry"; UDT's global coupling
+      may have the resources Bell's locality assumption forbids. UNTESTED.
 
 ## TRACTABILITY MAP (what the numerics reach)
 - TRACTABLE NOW: 1-D radial coupled Einstein+L2+L4 (#56); 2-D axisym SPECTRAL coupled solve
