@@ -127,6 +127,24 @@ says ready (gated DERIVE).
 5. CANON.md (C-2026-06-14-1 + its EOS-softening refinement — SURVIVES the overturn).
 
 ## QUEUE / next-session frontier (the 3-D run LANDED = #60, INCONCLUSIVE / solver-limited)
+
+RECOMMENDED ORDER (driver, 2026-06-16; Charles asked for the sequencing): **lead with item 1,
+quickly, then make item 2 the centerpiece — NOT pure-parallel.** Reasoning: (a) they're largely
+INDEPENDENT (item 2 builds eigenmodes around the round #56 soliton we already have, so it is NOT
+blocked by item 1) — this is about optimal order, not necessity. (b) Item 1 is CHEAP, CERTAIN
+INSURANCE (the fix is textbook NR) that does DOUBLE DUTY: it closes the static-catalog door (a static
+winding-3 / platonic baryon could be sitting UNFOUND — current "no catalog" is SOLVER-LIMITED #60, not
+a clean null) AND it CONFIRMS the premise that justifies the whole item-2 investment (do NOT build the
+dynamical solver on an unconfirmed "static is empty"); it might find the geometric baryon en route, and
+it hands item 2 robust, well-conditioned backgrounds to perturb. (c) Item 2 is the CENTERPIECE — where
+the prize (discreteness) most likely IS (a dynamical spectrum), so it follows immediately, becoming the
+main thrust once item 1 has confirmed the premise. (d) NOT pure-parallel: two heavy from-scratch builds
+at once strain the get-it-right / constant-audit discipline + GPU + would build item 2 on an unconfirmed
+premise; the only good overlap is to SCOPE item 2 once item 1's search is grinding hands-off.
+HONEST EXCEPTION: if conviction that discreteness is dynamical is strong and the priority is fastest-to-
+prize, sprint at item 2 around the round soliton — but still slip a quick item-1 pass in first, so we
+don't declare "no static catalog" while a winding-3 baryon sits unfound.
+
 1. FIX THE OFF-ROUND 3-D STATIC SOLVER (category-A conditioning only) to CLOSE the static-catalog
    question: BLOCK-SCF/KEH (alternate metric-solve / matter-solve, each well-conditioned) +
    CONTINUATION from the already-converged round #56 soliton + a real elliptic/block PRECONDITIONER
