@@ -1520,7 +1520,7 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
 ## produces NO new structure / NO distinct types / NO classical native discreteness
 ## selector at the classical level (2026-06-15, whole_metric_full_solve_results.md;
 ## blind-verified a09bbf2affd616421 by independent sympy/numpy/scipy machinery)
-##   SCOPED NEGATIVE (classical, stationary, single-cell). What was done & found:
+57. WHOLE-METRIC FULL 3-D SOLVE — SCOPED NEGATIVE (classical, stationary, single-cell). What was done & found:
 ##   (a) BUILT the 3-D coupled solver machinery (relaxation; matrix-free Newton-Krylov
 ##       via autograd JVP; stable gradient descent) on the VALIDATED full-4D Einstein
 ##       engine (off-diag G to 5e-6) + matter stress (to 5e-14). Central numerical
