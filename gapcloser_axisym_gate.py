@@ -90,7 +90,7 @@ def run(Nr=400, Nth=24, outer=30, rfreeze=1.0, p=0.4, kap8=0.05):
     print("\n## (a) GATE: relax ROUND seed")
     a, b, c, d, Th, hist = ax.metric_lm_solve(a0, b0, c0, d0, Th0, G, kap8,
                                               outer=outer, rfreeze=rfreeze, mr=2, mth=2,
-                                              verbose=True, tag="GATE")
+                                              verbose=True, tag="GATE", w_matter=0.0)
     em, es = exterior_B1A(a, b, G, ri)
     MMS = M_MS_readout(b, G, rc)
     print(f"GATE: M_MS(readout)={MMS:.5f} (seed {M0:.5f})  exterior a+b mean={em:.3e} std={es:.3e}")
@@ -103,7 +103,7 @@ def run(Nr=400, Nth=24, outer=30, rfreeze=1.0, p=0.4, kap8=0.05):
     tv_seed = theta_shape(ap, G, rc)
     a2, b2, c2, d2, Th2, hist2 = ax.metric_lm_solve(ap, bp, cp, dp, Th0.clone(), G, kap8,
                                                     outer=outer, rfreeze=rfreeze, mr=2, mth=2,
-                                                    verbose=True, tag="ROBUST")
+                                                    verbose=True, tag="ROBUST", w_matter=0.0)
     MMS2 = M_MS_readout(b2, G, rc)
     tv_final = theta_shape(a2, G, rc)
     # also c-d-theta shape (the genuine warp)
