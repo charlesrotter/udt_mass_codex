@@ -252,6 +252,9 @@ dilation (precision tier). Picking one prematurely repeats the slice-for-whole e
 DECISION (Charles, 2026-06-17): (1) DONE here -- scope documented + paused. Chose
 (3) as the upstream pursuit: the FOUNDATIONAL MAP "how does quantization emerge from
 the metric?" precedes (2) any solver, to guard (2) against a template-led
-spectrum-hunt (the resonator template risk). Armchair-ponder of (3) opened this
-session (de Broglie clock / metric-as-refractive-medium / where the quantum "i"
-lives / hbar as the third domino) -- to be written up as the (3) MAP next.
+spectrum-hunt (the resonator template risk). Armchair-ponder of (3) written up as the
+(3) MAP: quantization_from_metric_MAP.md -- four conjectures (A metric-as-optical-
+cavity = discreteness without hbar; B where the quantum "i" lives = native U(1)
+and/or closed time; C hbar as the third domino = the action of one turn of the
+texture's geometric de Broglie clock, with the double cover from circulation), each
+with premise ledger (chose-or-derived) + breaker. The walls re-read as clues.
