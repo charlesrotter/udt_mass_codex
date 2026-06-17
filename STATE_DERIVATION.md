@@ -684,3 +684,42 @@ HIERARCHY is, on strong evidence, NOT in the phi-angular interaction. NEXT SESSI
 (1) pin the q residual (cheap, decisive); if dead, (2) the hierarchy needs a
 genuinely NEW mechanism, OUTSIDE the phi-angular-interaction suspect that has anchored
 the program. The macro/mass/topology positives stand untouched throughout.
+
+## 2026-06-17 (LATER-14) — SESSION RE-GRADE (Charles, binding): NOTHING THIS SESSION IS CONCLUSIVE
+
+Charles's close-out judgment (correct, charter-level -- the verification discipline this
+session under-applied): the tests were run WITHOUT the full check apparatus, so
+assumptions / fixed approximations / reduced (limited) solution spaces likely slipped in
+unaudited. THEREFORE NOTHING in LATER-1..LATER-13 is CONCLUSIVE. Every "DEAD" /
+"eliminated" / "~0.8" verdict is DOWNGRADED to PROVISIONAL / hypothesis-grade, scoped to
+its (un-audited) premise set.
+
+WHAT WAS UNDER-CHECKED (honest):
+- VERIFIER-BEFORE-RECORD applied to ONLY conjecture-A's core (3-method blind). The
+  criticality five-way fan-out, the tiling closure, the bridge-winding (C2), and the
+  resonance test were SINGLE-PASS agents (refute-first + some internal controls, but NO
+  independent blind verification).
+- FORCED/FIXED PREMISES taken on the agent's self-report, NOT independently audited:
+  tiling C2 (angular bridge = scalar seal-depth); resonance C1 (Lambda_3(b)=
+  Lambda_3(p)(1+b)^2); conjecture-A u~1/r inadmissibility (a modeling choice); the
+  frame-test measures. Each is load-bearing for its own negative.
+- REDUCED / LIMITED SOLUTION SPACES (the charter's "tractable slice" trap): minimal
+  two-cell tiling; two-mode Mathieu reduction; scalar-depth reductions; near-origin-only
+  indicial analysis. Negatives = "the SLICE did not show it," NOT "it is not there."
+- NO PRE-REGISTRATION of falsification contracts before the runs.
+
+RE-GRADE: treat every LATER-1..13 verdict as a PROVISIONAL premise-scoped LEAD, not a
+banked negative. The convergent META-READ (discreteness is topological; phi-angular
+interaction eliminated) is a SESSION-GENERATED HYPOTHESIS, NOT established. The genuine
+positives (macro consilience, geometric mass, texture identity, native photon,
+topological charge) predate and are independent of this session -- UNAFFECTED.
+
+NEXT SESSION -- DO IT RIGHT (the apparatus this session skipped): for ANY verdict to
+count -- (1) PRE-REGISTER the falsification contract (frozen model, premises, tolerances)
+BEFORE the run; (2) FULL solution space, not a reduced slice (or explicitly bound +
+justify the slice); (3) independent BLIND verifier on each result, aimed at the
+load-bearing premise; (4) AUDIT every forced premise -- does the verdict survive when the
+premise is relaxed? Cheap high-leverage starts: the resonance q residual (real
+dLambda_3/d-breathing); C2 as a true two-field (not scalar) weld; conjecture-A's center
+BC. Momentum does NOT override verification: run agents fast for EXPLORATION, but mark
+exploratory output PROVISIONAL and gate "conclusive" behind the apparatus.
