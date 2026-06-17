@@ -909,3 +909,57 @@ equation (the verifier's recommendation: "compute V before building further -- i
 structure lead, not a nuisance"); (B) attack the KG-sign/Born-positivity (route to fundamental
 Born?); (C) consolidate; (D) tighten the native-i-structure vs input-flow split (can UDT force the
 circulation -> un-park hbar?).
+
+## 2026-06-18 (cont.) — EXAMINE V: L2-ONLY IS BOX-CONTROLLED; TACHYON IS AN L4-DROP ARTIFACT; WITH-L4 IS THE UNTESTED LIVE QUESTION
+
+Pursued (A) with manual SAFEGUARDS (Charles: this machine lacks the workstation auto-audit --
+add safeguards vs shortcuts/imports). Pre-registered frozen contract matter_sector_potential_PREREG.md
+(S1 re-derive V from scratch; S2 real hedgehog ODE not ansatz; S4 box-control trap-test;
+verdict-hunting guard; S6 blind verifier). OBSERVE agent ab8ec225 (opus) + HARD BLIND VERIFIER
+a29669db (opus). Result doc: matter_sector_potential_results.md. PROVISIONAL.
+[NOTE: the OBSERVE agent COMMITTED prematurely (c33ad73) before the verifier -- a verifier-before-
+record slip; corrected here + by the appended verifier block. Status below supersedes that commit's
+"STRUCTURE-NEGATIVE (clean)" headline.]
+
+OBSERVE claimed STRUCTURE-NEGATIVE (conf 0.82): V re-derived from scratch two ways (matches the
+keystone V); the S^2 curvature term is ATTRACTIVE/tachyonic (NOT the repulsive barrier the driver
+hoped); positive modes BOX-CONTROLLED (omega^2~1/R^2 -> 2pi^2); plus a depth-controlled TACHYONIC
+(omega^2<0) instability -> "reproduces conjecture-A's box-control wall from the matter side."
+
+VERIFIER DOWNGRADE (conf 0.45 as-stated; verdict SHOULD CHANGE) -- the negative is NOT clean:
+- (A) THE TACHYON IS AN ARTIFACT of dropping L4 (the native stabilizer), NOT real structure.
+  L2-only sigma textures have NO equilibrium size (Derrick: E~lambda, collapse) -> the breathing
+  mode is omega^2<0 BY NECESSITY. Restoring L4 gives E(lambda)=a*lambda+b/lambda, E''(lambda0)>0 ->
+  positive. Numerically, adding the positive k^4 stiffness lifts the lowest mode from -16.3 to +0.03.
+  The corpus soliton EXISTS at finite size (E0=45.6) = the stabilized regime. Tachyon = dropped-
+  stabilizer collapse mode. STRIKE the tachyon claim.
+- (B) BOX-CONTROL of the positive modes is REAL (omega^2*R^2 const to 4 digits over R 8->250) --
+  genuinely reproduces conjecture-A (#1) from the matter side. SURVIVES.
+- (C) HIDDEN POSITIVE (the live question): a k^4-stiffened operator + the attractive well CAN host
+  an INTRINSIC, R-INDEPENDENT localized mode that the L2-only run STRUCTURALLY CANNOT SEE (with
+  stiffness the lowest mode sat depth-controlled, R-independent, while excited modes scaled 1/R^2).
+  Whether the PHYSICAL L4 makes that intrinsic mode a STABLE bound state (omega^2>0) is UNTESTED --
+  asserted-away in the run (premise 8), never computed.
+- (D) the S^2-vs-S^3 / unit-field flag (#51) is the SAME defect as the L4-drop: the physical object
+  is L4(Skyrme)-stabilized; analyzing it without L4 mis-sets the operator.
+
+CORRECTED HONEST STATUS (NOT banked as a negative): the L2-ONLY matter sector is box-controlled
+(like conjecture A) AND its tachyon is a Derrick/L4-drop artifact; the WITH-L4 (Skyrme-stabilized)
+fluctuation operator -- which CAN support an intrinsic, depth-controlled bound mode that L2-only
+cannot represent -- is the UNTESTED LIVE QUESTION. Do NOT bank a matter-sector negative until WITH-L4.
+
+METHOD FINDING (loud, recurring): L4 (the native four-derivative stabilizer) has now been the
+LOAD-BEARING DROPPED TERM in BOTH the keystone (Q2 quantum potential incomplete) AND this V-exam
+(tachyon artifact + the unseen intrinsic mode). L4 is essential to the QUANTUM structure, not just
+soliton stability, and must NOT be dropped from fluctuation operators. The two manual-safeguard
+verifier passes (Charles's instruction) caught both L4-drops -- the safeguards worked.
+
+DISCIPLINE: still emergent-quantization, NOT a mass hunt (LATER-15) -- the WITH-L4 intrinsic mode,
+if real, is "discrete modes of the matter guiding wave" = a QUANTUM face (discrete observables),
+pursued as quantum structure, not mass ratios. We are 3 verified-and-corrected pushes deep into the
+keystone; each correction was real (not myopia), but note the depth.
+
+NEXT (Charles-gated): (A') the WITH-L4 fluctuation operator -- does the Skyrme-stabilized matter
+guiding wave admit an INTRINSIC (non-box) discrete bound mode? (the verifier's explicit
+recommendation; the physically honest version; where an intrinsic quantum feature could actually
+live). (B) KG-sign/Born. (C) consolidate. (D) native-i vs input-flow.

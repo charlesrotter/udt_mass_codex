@@ -203,3 +203,122 @@ recomputed into the fluctuation operator changing the large-R scaling.
 - Probe premise 8: put a representative L4-stiffening term in V_eff and check the R->large scaling.
 - Probe premise 5: try the u~1/r (irregular) branch — does it bind intrinsically? (conjecture-A:
   yes but infinite-energy/unphysical — confirm the same here).
+
+---
+
+## BLIND ADVERSARIAL VERIFIER BLOCK
+
+**Date:** 2026-06-17. **Verifier agent:** blind-adversarial-verifier (Opus 4.8 1M).
+**Compute:** sympy 1.14.0, numpy 2.2.6, scipy 1.15.3 (CPU). Independent re-derivation of the
+Jacobi operator (harmonic-map 2nd variation) + independent FD/biharmonic eigensolves.
+**Stance:** STRUCTURE-NEGATIVE under test; attacked both ways (is the negative real; is there a
+hidden positive). Most effort on (A), the L4/Derrick attack, as instructed.
+
+### (A) L4 / DERRICK ATTACK — **FAILS (the tachyon is an L4-drop artifact, not real structure)**
+
+This is the make-or-break, and the result's tachyonic-instability finding does NOT survive.
+- **Derrick (exact, analytic).** An L2-only sigma texture in D=3 has Derrick energy E2(lambda) ~
+  lambda (rescale x->lambda x), monotone decreasing as lambda->0: NO equilibrium size, the
+  texture COLLAPSES. The l=0 dilation/breathing channel of an L2-only texture therefore has
+  omega^2 < 0 NECESSARILY — this is the textbook Derrick instability, not a UDT feature. The run
+  found a tachyon in EVERY background (flat l=0, deep l=1, etc.); that universality is the
+  signature of the scale (Derrick) instability, exactly what one expects from dropping the
+  stabilizer.
+- **L4 removes it (self-consistent, not tunable).** With L4, E(lambda)=a*lambda+b/lambda has a
+  minimum at lambda0=sqrt(b/a) with E''(lambda0)=2 a^{3/2}/b^{1/2} > 0 for all a,b>0 (sympy).
+  The SAME b that fixes the soliton's finite SIZE makes the breather frequency POSITIVE. Since the
+  corpus soliton demonstrably EXISTS at finite size (E0=45.6, profile solved here too), its L4 is
+  in the stabilizing regime, so its breather is stable by construction.
+- **Numeric confirmation.** Deep attractive well (= -|grad n0|^2) + positive 4-derivative stiffness
+  s, clamped BC (positive-definite biharmonic, no edge artifact), l=0: lowest omega^2 rises
+  monotonically -16.3 (s=0) -> -9.9 -> -4.4 -> -0.68 -> +0.03 (s=1). The positive k^4 stiffness
+  the run DROPPED is exactly what lifts the tachyon to omega^2 >= 0.
+**Corrected status:** the tachyonic-instability finding is an ARTIFACT of dropping L4 (the native
+stabilizer). It must be struck from the headline. Only the box-control of the POSITIVE modes
+stands as a genuine L2-only structural fact.
+
+### (B) BOX-CONTROL RE-CHECK — **SURVIVES**
+
+Independently reproduced the trap test. Built the radial operator (flat phi=0), l=1, V_curv on,
+Dirichlet, FD; varied R={8,25,80,250} (factor ~31): lowest positive omega^2 = 7.25e1, 7.42e0,
+7.25e-1, 7.42e-2, with omega^2*R^2 = 4637.0 CONSTANT to 4 digits across the whole range. So
+omega^2 ~ 1/R^2 EXACTLY — the positive modes are box-controlled and vanish as R grows. (My box
+constant 4637 differs from the run's 20.2 purely by profile/weight/centrifugal convention; the
+DIAGNOSTIC is the 1/R^2 scaling, which I reproduce independently.) This genuinely reproduces
+conjecture-A's box-control wall from the matter side. Box-control diagnosis CONFIRMED.
+
+### (C) HIDDEN-POSITIVE ATTACK — **PARTIAL — a real intrinsic mode is possible WITH L4; UNTESTED by the run**
+
+Curvature term re-derived: V_transverse = -K|grad n0|^2, K=+1 => attractive in the transverse
+channel (E1 sign CONFIRMED). The only repulsive near-core term in L2-only is the ordinary scalar
+centrifugal l(l+1)/r^2 — correct, not a matter specialty.
+BUT the decisive new finding: a higher-derivative (k^4) operator + a localized attractive well CAN
+support an INTRINSIC (R-independent, depth-controlled) localized mode below the box continuum —
+the scenario the L2-only run structurally cannot produce. Numeric (shift-invert, vary R):
+- deep well + s=0.3: lowest omega^2 = -0.198, -0.199, -0.199, -0.199 across R=10..80 (R-INDEPENDENT,
+  intrinsic), while the excited modes scale ~1/R^2 (box). Here the intrinsic mode is tachyonic, but
+  it is INTRINSIC, not box.
+- another balance (A0=20,s=0.5): all modes box (low*R^2 -> 10.1 const), no intrinsic mode.
+So the WITH-L4 operator can host an intrinsic mode whose stability (omega^2 >< 0) is set by the
+actual L4/depth balance. Whether the PHYSICAL UDT L4 yields a STABLE (omega^2>0) intrinsic bound
+mode is a quantitative question the run NEVER computed — it was asserted-away in premise 8, not
+tested. This is exactly the hidden-positive the L2-only run would miss.
+
+### (D) S^2-vs-S^3 / UNIT-FIELD SUBTLETY — **SURVIVES (does not change the box-control negative; reinforces (A)/(C))**
+
+The pure unit-S^2 hedgehog gives sin^2F/(r^2 sin^2 th) (azimuthal 1/sin^2 th), not the corpus
+factor-2 sin^2Th/r^2 — sympy-confirmed. The factor 2 is the SU(2)/S^3 Skyrme |grad U|^2 form (#51).
+Impact: it changes the well COEFFICIENT (hence tachyon depth and required L4 stiffness) and the
+number of tangent modes, but NOT the box-control of positive modes nor the Derrick conclusion. The
+run's ledger #4 ("load-bearing for the angular coefficient, not the box-control verdict") is
+CORRECT. Crucially, if the true target is S^3-Skyrme, L4 IS the genuine Skyrme stabilizer — so the
+S^2/S^3 issue and the L4-drop issue are the SAME defect: the run analyzed an L2-only S^2 reduction
+of what is physically an L4-stabilized (S^3) texture. Reinforces (A) and (C).
+
+### (E) PREMISE AUDIT — corrected honest verdict
+
+1. Box-control of positive modes: **REAL** (B confirms; this is the solid part).
+2. Tachyonic instability: **NOT REAL — an L4-drop (Derrick) artifact** (A). Must be removed from
+   the headline verdict.
+3. WITH-L4 intrinsic-binding scenario: **NOT TESTED — asserted-away in premise 8, and (C) shows it
+   is a live possibility** (an intrinsic R-independent mode does appear once k^4 stiffness is added).
+Premise 8's bound ("L4 cannot create a negative-curvature trap / cannot change the R->large
+scaling") is half right and half wrong: correct that L4 won't change the box scaling of the
+positive continuum-in-the-box; WRONG to conclude the spectrum is therefore settled, because L4 can
+introduce a NEW intrinsic (non-box) mode below that continuum (C), and L4 is precisely what
+controls whether the lowest mode is tachyonic or a stable bound state (A). The cleanest honest
+statement: **"The L2-only matter sector is box-controlled for its positive modes, like conjecture A;
+the L2-only tachyon is a Derrick collapse artifact of dropping the native L4 stabilizer; the
+WITH-L4 case (which can host an intrinsic, depth-controlled mode) is the UNTESTED live question."**
+Confirmed.
+
+### VERDICTS / CONFIDENCE
+
+| Task | Verdict |
+|------|---------|
+| (A) L4/Derrick | **FAILS** — tachyon is an L4-drop (Derrick collapse) artifact, not real structure |
+| (B) box-control | **SURVIVES** — omega^2*R^2 = const reproduced independently; reproduces conjecture A |
+| (C) hidden positive | **PARTIAL** — WITH-L4 can host an INTRINSIC (R-indep) mode; untested by the run |
+| (D) S^2/S^3 | **SURVIVES** — changes coefficients only; reinforces that L4 is the relevant physics |
+| (E) premise audit | corrected verdict above |
+
+**Overall confidence that STRUCTURE-NEGATIVE is correct AS STATED: 0.45.** The "clean
+STRUCTURE-NEGATIVE" headline does NOT survive intact. Half of it is right (positive modes
+box-controlled, robustly reproduced); the other headline half (a real depth-controlled tachyonic
+instability) is a Derrick artifact of dropping L4, and the WITH-L4 intrinsic-binding scenario was
+asserted-away rather than tested.
+
+**Single biggest weakness:** premise 8 — L4 dropped from the fluctuation operator and only
+"bounded, un-recomputed." L4 is the native stabilizer that (a) removes the tachyon (Derrick) and
+(b) can introduce an intrinsic non-box mode. Dropping it makes BOTH the tachyon-finding and the
+"no intrinsic mode" claim unreliable. This is the same dropped-Jacobi/stabilizer term the keystone
+verifier already flagged as load-bearing and "possibly the discreteness lead."
+
+**Does the verdict change? YES — re-grade.** Honest status: **NEGATIVE for L2-only (positive modes
+box-controlled, like conjecture A); the L2-only tachyon is a dropped-L4 Derrick artifact, not a
+structural instability; the WITH-L4 case — which can support an intrinsic, depth-controlled mode —
+is UNTESTED and is the live question.** Recommend: strike the tachyonic-instability claim from the
+headline, downgrade the verdict from "STRUCTURE-NEGATIVE (clean)" to "L2-only box-controlled;
+WITH-L4 UNTESTED," and open the WITH-L4 (Skyrme-stabilized) fluctuation operator as the next push
+before banking any negative. The proposed NEGATIVES_REGISTRY entry must carry the L4-drop premise
+prominently and is CONDITIONS-CHANGE-pending on the WITH-L4 computation.
