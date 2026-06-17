@@ -58,12 +58,14 @@ LEGEND: [V]=solved native + blind-verified · [v]=solved/validated (lighter) ·
 ## F. SYMMETRY SECTOR
 - [V] spherical (charge-1 ground state).
 - [v] axisymmetric (r,θ) — 2-D spectral #59.
-- [E] NON-axisymmetric (ψ-dependent; platonic/higher-winding types) — MACHINERY BUILT
-      + ROUND-GATE PASS in 3-D (#60: pole-stable analytic 3-D Einstein, correct 3-D
-      matter EL machine-zero on round + symbolic div(T) ν=r exact, Fourier-ψ). SEARCH
-      itself SOLVER-LIMITED (off-round coupled-solve convergence gap — the axisym
-      CONTROL that #59 relaxes does NOT relax cleanly here). Catalog binary OPEN, NOT
-      banked. Residual: full off-diagonal METRIC + full S³ matter map (F,G,H).
+- [v] NON-axisymmetric (ψ-dependent; platonic types) — OPENED + EXPLOITED (Phase 3,
+      2026-06-16): the off-round solver (full3d_newton, category-A) + SH-exact θ grid
+      (full3d_grid_shexact) make non-axisym solves converge. RESULT: m>=2 winding ground
+      states ARE non-axisymmetric (platonic) — sign-calibrated Hessian m=2 n_neg=30, m=3
+      n_neg=37 (m=1 n_neg=0 calibration); the SH-exact m=2 solve falls to a platonic
+      M~13.4 state below the axisym saddle ~59. Catalog binary now: a DISCRETE winding
+      catalog EXISTS with platonic m>=2 ground states. Residual (Phase 3b): platonic
+      symmetry/binding/deep-floor masses; full off-diagonal METRIC; full S³ matter map.
 
 ## G. SCALE REGIME
 - [V] shallow ↔ deep φ — radial to p≈6 (#56); bulk swept to p≈-40 pre-L4 (#39).
@@ -136,8 +138,19 @@ soliton; large-N QCD is classical) — coherent with no quantum layer. [[no-pres
 5. What tooling/tractability step covers the dropped criteria next?
 6. (anti-inflation) This is ONE tile — how much of the ten-criteria space is still blank?
 
-## CURRENT HEADLINE (honest, regime-stamped)
-UDT NATIVELY PRODUCES MASS (#56, the milestone): a self-consistent full-(radial)-Einstein
+## CURRENT HEADLINE (updated 2026-06-16 — Phase 3: the winding catalog + platonic ground states)
+UDT carries a DISCRETE catalog of topologically-protected winding (charge) sectors (m=1,2,3 all
+converge as distinct types — winding_catalog_verified_results.md). m=1 = round STABLE hedgehog
+(M_MS~0.298). For m>=2 the AXISYMMETRIC soliton is UNSTABLE to platonic symmetry-breaking
+(sign-calibrated autograd Hessian: m=1 n_neg=0 [calibration PASS], m=2 n_neg=30, m=3 n_neg=37);
+the TRUE ground states are NON-AXISYMMETRIC and LIGHTER (m=2 platonic M~13.4 vs axisym saddle ~59,
+INTERIM). This MATCHES the Skyrme/large-N-QCD soliton structure (multi-solitons go platonic) =
+the angular sector on QCD's classical face, now reaching from static counting toward binding
+DYNAMICS. A first-pass "no platonic instability" claim was REFUTED (sign-broken probe + inexact
+theta operator) before banking — verifier-validated reversal. NOT yet banked: platonic symmetry
+per charge / binding / deep-floor masses / grid convergence / full coupled Hessian = Phase 3b.
+
+PRIOR milestone (stands): UDT NATIVELY PRODUCES MASS (#56): a self-consistent full-(radial)-Einstein
 soliton, no imports. NO classical discrete catalog YET found in the genuinely-searched
 CHARGE-1 STATIC AXISYMMETRIC matter-deforming tile (#59). The full-3-D spectral build
 (#60) now has the CORRECT, POLE-STABLE 3-D MACHINERY (analytic Einstein, correct off-round
