@@ -14,11 +14,14 @@ STATE.md top block + winding_platonic_phase3b_results.md (with its grid-converge
   ranged 9.8-38.5; residual-Newton finds different critical points per grid) — masses/shapes UNSETTLED. ***
 - METHOD: fixed-metric matter Hessian over-counts instabilities for gravitating solitons; use coupled
   re-solve [[gravitating-soliton-stability-test]]. SH power-spectrum symmetry ID self-test PASSED.
-- NEW FRONTIER / TOOL GAP: residual-Newton lands on arbitrary critical points; to pin the m>=2 STABLE
-  GROUND STATES (the particles = global minima) build an ENERGY MINIMIZER (gradient flow / arrested
-  Newton / neg-mode descent). NB warm-start CONTINUATION was TRIED + FAILED its m=1 gate this session
-  (cross_grid_branch.py: interp exact but tracked m=1 drifts 0.29->0.33 — re-finds critical points, does
-  not descend) — don't repeat it; also the dense Newton under-converges at larger grids (need deep floors).
+- ENERGY MINIMIZER (energy_minimizer.py, BUILT 2026-06-17): global-min search now WORKS at a fixed grid.
+  basin_hop confirms the m=2 ground state = the OBLATE basin, M~12.2-12.4 @18x8x8 (multistart 12.16 +
+  basin_hop 12.37 agree). [Gate 1 caught a sign bug in the original gradient-descent inner loop; pivoted
+  local_min->Newton + basin_hop, justified because phase3b_descend showed the states are already MINIMA.]
+  Warm-start CONTINUATION was tried+FAILED (cross_grid_branch.py; don't repeat).
+- THE RE-SCOPED REMAINING ITEM: grid-CONVERGING the m>=2 mass is blocked by LARGE-GRID NEWTON UNDER-
+  CONVERGENCE (20x8x8/18x10x10 don't reach a deep floor) — a SOLVER-STRENGTH need (a deep-floor,
+  well-conditioned large-grid solver), NOT global search. Build that next to pin the m>=2 masses.
   THEN the agreed centerpiece: the EIGENVALUE/standing-wave
   ("spectrum") solver — Charles's hunch is it may BUILD ITSELF as the natural modes of these classical
   objects ([[no-presumed-quantum-sector]], the angular sector = QCD/QED reverse-engineering clue-source).

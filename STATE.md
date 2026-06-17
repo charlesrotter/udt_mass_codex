@@ -38,11 +38,17 @@ TWO numerical co-causes of the m>=2 spread (both tool, not physics): (a) MANY ne
 seed-dependence (need global min, not nearest critical point); (b) the dense Newton does NOT reach deep
 floors at the larger grids needed for convergence (20x8x8 Phi 3e-6, 18x10x10 Phi 3e-7 = under-converged).
 ATTEMPTED + FAILED this session: warm-start CONTINUATION (cross_grid_branch.py) — interpolation exact
-(gate A 1.8e-15) but it FAILS the m=1 reproduction gate (tracked m=1 drifts 0.29->0.33; re-finds nearby
-critical points with compounding drift, does NOT descend to minima). So DON'T retry plain continuation;
-the fix is a genuine energy minimizer (gradient flow / arrested Newton to the actual min) + a solver that
-reaches deep floors at production grids. Until then m>=2 masses stay UNSETTLED. (m=1 unaffected: direct
-solves agree ~0.29-0.30.)
+(gate A 1.8e-15) but FAILS the m=1 reproduction gate (tracked m=1 drifts 0.29->0.33; re-finds nearby
+critical points with compounding drift). DON'T retry plain continuation.
+ENERGY MINIMIZER (energy_minimizer.py, BUILT 2026-06-17): a gradient-descent inner loop had a sign bug
+(Gate 1 caught it; descent stalled, fell back to Newton); pivoted local_min -> validated Newton +
+basin_hop GLOBAL search (justified: phase3b_descend showed the states are already MINIMA, so no saddle-
+rolling needed; the problem is GLOBAL). basin_hop CONFIRMS the m=2 global min = the OBLATE basin,
+M~12.2-12.4 @18x8x8 (two independent methods: multistart 12.16, basin_hop 12.37 -- agree on the basin).
+=> global search is now SOLVED at a fixed grid (m=2 ground state = oblate ~12.3). REMAINING HARD ITEM
+(re-scoped): GRID-CONVERGING that mass -- blocked by LARGE-GRID NEWTON UNDER-CONVERGENCE (20x8x8 /
+18x10x10 don't reach a deep floor), a SOLVER-STRENGTH need (better-conditioned/faster large-grid solve),
+NOT a global-search problem. That deep-floor large-grid solver is the next tool. (m=1 grid-stable ~0.29-0.30.)
 
 NEW SCRIPTS (committed): phase3b_platonic_solve.py (checkpoints u_plat_m{1,2,3}_18x8x8.pt),
 phase3b_symmetry.py (SH power spectrum + self-test), phase3b_hessian.py (fixed-metric Hessian),
