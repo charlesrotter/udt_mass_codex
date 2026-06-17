@@ -258,3 +258,50 @@ cavity = discreteness without hbar; B where the quantum "i" lives = native U(1)
 and/or closed time; C hbar as the third domino = the action of one turn of the
 texture's geometric de Broglie clock, with the double cover from circulation), each
 with premise ledger (chose-or-derived) + breaker. The walls re-read as clues.
+
+## 2026-06-17 (LATER-4) — CONJECTURE A (solo): OPTICAL WELL IS REAL, REGULARITY-KILLED
+
+OBSERVE compute (agent a419c3de; scripts VERIF_ceff_potential.py,
+VERIF_ceff_potential_eigen.py). PRELIMINARY — blind verifier + orchestra-completion
+agents RUNNING; upgrade on their return.
+
+The W2 c_eff wave reduces (optical/tortoise coord dr*=dr/f, psi=u*sqrt(P),
+P=2r^2/(1+w)^2) to Liouville form -psi'' + V psi = omega^2 psi with
+  V(r) = -2 phi' f^2 / r,  f = e^{-2phi},  shape-flat (FROZEN w=0) cell.
+- THE WELL IS REAL: V<0 everywhere (attractive), finite depth set by the DILATION
+  profile (phi'); NO anti-guiding, NO barrier, NO sonic horizon (c_eff=f finite,
+  ~4.95 at phi0=-0.8). [Charles's c_eff-speedup intuition CONFIRMED: the speedup
+  DIGS a genuine well -- not the anti-guiding the driver had worried about.]
+- BUT IT DOES NOT TRAP: under the physically REGULAR core BC (u finite =>
+  psi=sqrt(P)u ~ r => Dirichlet at r=0), psi is forced to ZERO exactly where the
+  well is deepest. Eigen-scan (R_wall x4): omega_0^2 ~ 1/R_wall^2, box constant ~9
+  -- pure BOX-CONTROL (registry #1) at EVERY depth (even phi0=-5). The only bound
+  state needs a Neumann/irregular BC (u~1/r) = the open-domain non-Friedrichs,
+  infinite-energy branch (iv). Unphysical.
+=> CONJECTURE A is DEAD in its linear single-field "intrinsic optical-cavity mode"
+form: the attraction is real, regularity-at-the-core nullifies it. 4th INDEPENDENT
+route to the Friedrichs/box-control wall (open-domain #1, sealed-cavity S2, W7, now
+the W2 optical well). THE CAUSE (the real insight): regular linear CENTRAL-WELL
+trapping is STRUCTURALLY FORBIDDEN here -- the wave must vanish exactly where the
+well sits.
+- SCOPE / ORCHESTRA: this is the SOLO phi instrument (frozen w). NOT YET tested: the
+  w-completed COUPLED operator (Delta_w cross-block / W6) -- does inter-sector
+  coupling supply a repulsive ~1/r*^2 near-core barrier that pushes binding OFF the
+  dead-centre and escapes the kill? (orchestra principle: solo null != ensemble
+  null). RUNNING (agent).
+- REAL #56 PROFILE CAVEAT: the actual hedgehog phi is non-monotonic (core dip
+  -0.142 then body bump +0.155) -> a core spike + small barrier, not the clean deep
+  well; the test used a clean representative deep cell phi0=-0.8 exp(-(r/Rc)^2).
+- c_eff -> infinity NOTE (Charles, 2026-06-17): in the BULK c_eff=e^{-2phi} is
+  FINITE (~5); it diverges only at the SEAL (phi -> -inf boundary / the mirror
+  fold). So the c_eff->inf locus is the SEAL, not the bulk -- candidate home of
+  NONLOCALITY/entanglement (light cone fully opens), conjecture-B/C territory, NOT
+  the (dead) bulk-trapping conjecture A. Flagged for the B/closed-time thread.
+
+IMPLICATION (frame, to ponder with Charles): the ONLY native discreteness in the
+whole program remains TOPOLOGICAL (N=3, q=1/3 winding) -- counting, not
+dynamical-trapping; every linear-trapping route is Friedrichs-killed. Open forks:
+(i) orchestra (coupling supplies the missing barrier -- testing); (ii) discreteness
+is genuinely TOPOLOGICAL (stop hunting trapped-wave spectra); (iii) NONLINEAR
+whole-closure eigenvalue (critical-universe bootstrap); (iv) the SEAL's c_eff->inf
+as the nonlocality locus (conjecture B).
