@@ -366,3 +366,40 @@ campaign; (c) step back -- maybe the lepton masses are not a "spectrum" at all.
 Scripts (this thread): VERIF_ceff_potential[_eigen].py, VERIF_frame_BC_revival.py,
 VERIF_ceff_DEATH/BC/clean/binding/mpmath/spectrum/deepscan_check.py,
 VERIF_coupled_indicial.py, VERIF_w_completed_barrier.py.
+
+## 2026-06-17 (LATER-6) — q=m/3 CHARGE TOWER REFUTED; PIECEWISE PROBES KEEP NULLING -> GO TO THE WHOLE
+
+Charge-vs-winding check (agent a8f2753, refute-first; VERIF_charge_vs_winding.py).
+The driver's "winding tower -> q=1/3,2/3,1 = d,u,lepton" is REFUTED -- it conflated
+TWO distinct native charges:
+- TOPOLOGICAL charge = area-form integral = 4pi*m -> the INTEGER degree m (1,2,3),
+  NOT m/3 (computed exactly, sympy+numeric; matches banked area_form 1.270=2x0.636).
+- PUBLIC q=1/3 = the radial collar SLOPE q=(N-2m)/N (flow fixed point); the "/3" is
+  from N=3 the SO(3) CARRIER RANK, independent of winding. At N=3: m=1->1/3,
+  m=2->-1/3 (NOT 2/3), m=3->-1. 2/3 needs N=6,m=1 -- a different RANK, not a winding
+  step. So neither object gives {1/3,2/3,1}.
+- Higher-degree cells EXIST (m=2 stable, m=3 borderline/solver-limited #52d), carry
+  charge 2,3 -- refuting q=m/3 by the very cells it needs; masses O(1) (M2/M1~3.0),
+  not the lepton pattern. NO native charge-SIGN structure (q=1/3 is an EVEN EXACT
+  transgression, "the wrong slot", global_spin_structure VERDICT5).
+
+DRIVER SELF-NOTE: q=m/3 is the SECOND seductive single-mechanism guess refuted today
+(after the QNM/frame-revival). Pattern: each simple completion guess dies because
+UDT is RICHER than the guess (two charges not one; topology not spectra). Cheap-
+rational matching of the 2-param (N,m) slope family to SM charges is the charter's
+named trap -- NOT pursued.
+
+STRATEGIC READ (the morning's convergence): every PIECEWISE SOLO probe this session
+(optical-well trapping; charge tower) NULLED -- exactly what the ORCHESTRA principle
+predicts (solo null != ensemble null). The failures converge on Charles's deepest
+frame (CRITICAL_UNIVERSE_FRAME): stop building from pieces; solve the WHOLE closure;
+the completion (if present) is the partition of the critical whole, produced
+all-at-once (charge+mass+generation together). RECOMMENDATION: next campaign = the
+WHOLE-CLOSURE (option a), a deliberate big build, Charles-gated -- NOT another
+piecewise check.
+HONEST HEDGES (hypothesis discipline): (1) the whole-closure may ALSO fail;
+(2) "no native charge-sign structure / wrong slot" is a real candidate for a genuine
+INGREDIENT-gap (theory, not just method) -- kept on the table; (3) today produced
+NEGATIVES, not a positive completion, so Charles's "gaps are method-gaps" frame
+remains the reasonable BET, not yet demonstrated -- the whole-closure attempt is how
+to actually test it.
