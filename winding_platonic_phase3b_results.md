@@ -92,3 +92,35 @@ the reading from "saddle (n_neg=19,44)" to "coupled-stable." Banked as a reusabl
 Step1 phase3b_step1_out.json; symmetry phase3b_symmetry_out.json (self-test PASS);
 hessian phase3b_hessian_out.json; descent phase3b_descend_m2/m3_out.json. Checkpoints
 u_plat_m{1,2,3}_18x8x8.pt. All this session (2026-06-16/17), driver-run, foreground solves.
+
+## GRID-CONVERGENCE UPDATE (CORRECTION, 2026-06-17) — m>=2 mass is NOT converged
+phase3b_grid_converge.py (base-only solves; phase3b_grid_converge_out.json):
+| grid | m=1 M (psivar,Phi) | m=2 M (psivar,Phi) |
+|------|--------------------|--------------------|
+| 16x8x8   | 0.2919 (1.3e-3, 8e-13) | 19.547 (5.9e-3, 2e-15) |
+| 18x8x8   | 0.2993 (2.9e-3, 5e-12) | 13.404 (0.297, 1e-8) |
+| 20x8x8   | 0.2893 (8e-4, 3e-12)   | 9.758 (0.067, 3e-6*) |
+| 18x10x10 | 0.3026 (3.3e-3, 3e-11) | 38.454 (0.203, 3e-7*) |
+(* under-converged: Phi did not reach a deep floor.)
+
+FINDING: **m=1 is grid-stable (M ~ 0.29-0.30); m=2 is NOT grid-converged** — M_MS ranges
+9.8-38.5 and psivar jumps 0.006-0.30 across grids. The base solve lands on DIFFERENT critical
+points at different resolutions (even the DEEPLY-converged 16x8x8, Phi 2e-15, found a near-
+AXISYMMETRIC state at M=19.5, not the toroid). This is consistent with the Hessian's many nearby
+modes: residual-Newton converges to WHICHEVER critical point is nearest the seed/grid-path, NOT the
+global minimum. So the earlier "m=2 toroidal ground state M=13.40" is GRID-SPECIFIC, one of several
+critical points — NOT a converged ground-state mass. Binding at 18x10x10 (B=-37.8, ratio 63) is
+therefore NOT meaningful.
+
+SCOPE CORRECTION to the headline above: what stands is (a) m=1 is a clean, grid-stable, coupled-
+stable ROUND ground state; (b) for m>=2 the round state is unstable and lower NON-axisymmetric
+(toroidal/axial) critical points EXIST and are coupled-stable along the steepest tested modes AT A
+GIVEN GRID — but the m>=2 GROUND-STATE MASS and the global shape are NOT numerically pinned (multiple
+grid-dependent critical points + some under-convergence). The m=2~toroidal / m=3~axial / Skyrme-B2-
+overlap / not-tetrahedral readings are SCOPED to specific grid-states, not grid-robust.
+
+TOOL GAP (the real next step for the catalog): residual-Newton finds arbitrary critical points; to
+pin the m>=2 STABLE GROUND STATES (the actual particles = global minima) needs an ENERGY MINIMIZER
+(gradient flow / arrested Newton / negative-mode descent to convergence) + systematic CONTINUATION
+in resolution from one tracked branch — not residual-zeroing from a fresh seed per grid. Until then
+the m>=2 catalog masses are UNSETTLED. (m=1, the one true minimum found, is unaffected.)
