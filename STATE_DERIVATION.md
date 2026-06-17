@@ -643,3 +643,44 @@ depths is OPEN -- it is NOT criticality-generates (dead). Also open: charge SIGN
 (+/-, antiparticle), unsourced. The "what KIND of discreteness" question is CLOSED
 (topological). NEXT SESSION: attack the HIERARCHY (depth axis) and the SIGN FRESH --
 NOT by re-drilling the dead dynamical-discreteness routes.
+
+## 2026-06-17 (LATER-13) — phi-ANGULAR RESONANCE: DEAD (~0.8); FOUNDING PRIME-SUSPECT FAILS (dynamical form)
+
+Dynamical two-sector resonance test (agent a7c789a4; scripts
+VERIF_phi_angular_resonance.py + ...2.py [Floquet/Mathieu, the trustworthy one]).
+Charles's resonance/interference intuition = the program's FOUNDING prime-suspect
+(the phi-angular INTERACTION as the discreteness source, CLAUDE.md) with the
+RESONANCE verb, tested in the TIME domain (the regime all today's static negatives
+were blind to).
+- CLOCKS: angular = FREE RIGID ROTOR (omega_ang=J/Lambda_3; chi cyclic, (chidot)^2
+  only -- monodromy_depth #49 / crux2 P4). phi = breathing freqs 0.44,0.81,1.26,
+  1.76,2.27 (O(1); lepton_soliton_spectrum).
+- COUPLING: static phi-angular cross-term RELAXES TO ROUND (no resonance, wint). The
+  ONE energy-exchange channel = CENTRIFUGAL-BREATHING (breathing->shape->Lambda_3->
+  rotor energy back-reacts). DOES pump. Mathieu: u'' + [a + 2q cos(Omega t)]u = 0.
+- RESULT: control validates (q=0->|mu|=1; small-q tongue SHARP, discrete selection
+  works for q<~0.3). BUT native q ~ 17-268 (q ~ 2*Lambda_3, Lambda_3>>1) -> BROADBAND
+  instability: |mu|>>1 at EVERY drive freq / depth / n -- off-resonance as unstable as
+  on. NO discrete phase-locking. Coupling TOO STRONG, not too weak: centrifugal
+  runaway that fires everywhere, selects nothing. Commensurate depths (if granted)
+  O(1)-spaced (~2,1.5,1.33), NOT 207/17. mpmath dps=40 confirms.
+=> VERDICT: DEAD (~0.8, this native channel). The dynamical regime does NOT rescue the
+static negatives.
+NEW FAILURE MODE (characterizing): UDT is STRONGLY coupled (q~Lambda_3>>1; cf.
+e^{-2phi}~5) -> resonance gives BROADBAND runaway, not the gentle q<~0.3 needed for
+discrete tongue selection. Strong coupling => no clean discrete structure from
+resonance.
+RESIDUAL / sharpest follow-on (the one un-pinned thing, cheap+decisive): native q
+rests on premise C1 (Lambda_3(b)=Lambda_3(p)(1+b)^2, CHOSEN to maximize pumping).
+q>>1 follows from Lambda_3>>1 alone (hard to evade), BUT the real dLambda_3/d(breathing)
+is not computed -- perturb the relaxed Theta(r) by the lowest breathing eigenmode,
+recompute Lambda_3, get the REAL q. q>>0.3 -> conclusively dead; q in 0.05-0.3 ->
+discrete selection reopens.
+
+WEIGHT: tests the program's FOUNDING PRIME-SUSPECT (phi-angular interaction) in its
+dynamical/resonance form -- now NEGATIVE, joining the static forms. The prime suspect
+is LARGELY ELIMINATED (static AND resonant; modulo the q residual). => the lepton
+HIERARCHY is, on strong evidence, NOT in the phi-angular interaction. NEXT SESSION:
+(1) pin the q residual (cheap, decisive); if dead, (2) the hierarchy needs a
+genuinely NEW mechanism, OUTSIDE the phi-angular-interaction suspect that has anchored
+the program. The macro/mass/topology positives stand untouched throughout.
