@@ -20,6 +20,10 @@ WHAT STANDS (honest, regime-stamped p=0.4, kap8=0.05):
   M_MS(m=2) ranged 9.8-38.5 across 16/18/20/18x10x10 grids; residual-Newton lands on DIFFERENT critical
   points per grid (even deeply-converged 16x8x8 found near-axisym M=19.5, not the toroid). So the
   "m=2 toroidal M~13.4" was GRID-SPECIFIC; m>=2 masses/shapes are UNSETTLED, binding meaningless.
+- MULTI-START survey (m=2, 18x8x8, 11 seeds all Phi~1e-9): the landscape is CROWDED — 6 distinct
+  non-axisym local minima M=12.2-17.2; LOWEST ~12.16 (OBLATE seed), below the 13.40 "base" (the default
+  solve isn't even the ground state). Confirms crowded-landscape physics + need basin-hunting. Best m=2
+  estimate at this grid ~12.2 oblate (still grid-specific). All oblate/toroidal-family (no platonic l=3).
 
 METHOD LESSON (new memory [[gravitating-soliton-stability-test]]): the fixed-metric matter Hessian
 OVER-COUNTS instabilities for a gravitating soliton (perturbing Theta at fixed metric leaves the
