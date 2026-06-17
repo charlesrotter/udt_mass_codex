@@ -403,3 +403,38 @@ INGREDIENT-gap (theory, not just method) -- kept on the table; (3) today produce
 NEGATIVES, not a positive completion, so Charles's "gaps are method-gaps" frame
 remains the reasonable BET, not yet demonstrated -- the whole-closure attempt is how
 to actually test it.
+
+## 2026-06-17 (LATER-7) — WHOLE-CLOSURE SCOPED: LIVE BUT UNFORMULATED; FORMULATE-WITH-CHARLES FIRST
+
+Scoping recon (agent a99179109, adversarial). Verdict: the whole-closure campaign is
+LIVE but PREMATURE/UNDER-SPECIFIED -- the bottleneck is FORMULATION (PDE/physics), NOT
+compute.
+- DETERMINACY (crux): currently UNDERDETERMINED -- #39 "RELATES r* to (p,Phi) but
+  DETERMINES nothing"; single-cell solves give one round family, E/Phi FREE. BUT the
+  underdeterminacy is established for SINGLE-CELL closure ONLY; the GLOBAL-critical /
+  tiling closure is a GENUINE OPEN ROUTE (registry note), NOT doomed.
+- STATIC WHOLE = CONTINUUM: #34 interacting-whole gave one round continuum, no
+  discreteness => a STATIC whole-closure can answer the SCALE/determinacy question but
+  NOT discreteness; discreteness needs the DYNAMICAL whole (depth-continuum
+  standing-wave; partition mechanism does NOT exist yet -- a hope, no equation).
+- THE BOTTLENECK (biggest obstruction): the UNIVERSE-MATTER JUNCTION (at r_int) and
+  the M-CONSTRAINT ("total MS = M") are NOT mathematically formulated.
+  CRITICAL_UNIVERSE_FRAME / DYNAMIC_SCALE_SYNTHESIS state the physics IDEA, not a BVP
+  system. Until the junction + M-constraint are written as equations the closure is
+  ILL-POSED; solving now = "building on sand."
+
+TWO PRIZES (decomposed): (i) DETERMINACY/SCALE -- does the closed universe pin ONE M
+(PREDICT z_CMB / 7.004 instead of taking it as input)? STATIC, cleanly FALSIFIABLE,
+macro-testable. (ii) DISCRETENESS/SPECTRUM -- partition into discrete particles;
+DYNAMICAL, harder, no partition equation yet. TARGET (i) FIRST.
+
+NEXT STEP (NOT a solver -- per the recon's verdict + the charter, Charles's
+irreplaceable role): FORMULATE the closure WITH Charles -- write the universe-matter
+JUNCTION + the M-CONSTRAINT as actual equations, aimed at the determinacy/z_CMB prize,
+THEN solve. Two load-bearing choices put to Charles 2026-06-17:
+  Q1 (the seam): is a matter cell the phi->-phi MIRROR-FLIP of a universe patch joined
+    smoothly at phi=0, or is there a source/jump at the interface?
+  Q2 (the critical lock): is "critical" the HORIZON condition c^2=2GM/r* (universe at
+    its own Schwarzschild compactness), or a different lock (compactness / Omega=1)?
+Derived pieces in hand (metric eqn w/ native angular sector; native matter well L2+L4;
+finite-cell mirror canon). Premise ledger + machinery status in the agent brief.
