@@ -154,3 +154,57 @@ MULTI-TEXTURE question, posed METRIC-LED -- "solve multi-texture configurations 
 OBSERVE what binds, how many, what charge emerges" (not "force three -> baryon").
 Reuses the banked ensemble machinery (like-cells-attract, #6 / 2026-06-11) as an
 OBSERVE study.
+
+## 2026-06-17 (LATER-2) — MULTI-TEXTURE MAP: CLASSICAL ROUTE LACKS THE SELECTORS
+
+First-pass MAP of the composite/multi-texture question (lay, with Charles) +
+RECON (Explore agent a1456210, citations to ensembles_results.md,
+ens_scan_results.md, crux2_coinflip_results.md, STATE.md #44, NEGATIVES_REGISTRY
+#1/#3/#4/#21). Result: the CLASSICAL multi-texture route cannot assemble a hadron.
+
+CONFIRMED (both MAP forks):
+- BINDING IS DYNAMICAL, NOT STATIC: static like-textures REPEL (E_int=2pi Q1Q2/d,
+  monotone, no preferred separation); attraction is purely the FLIPPED/dynamic
+  sector (F~Q1Q2/d^2), the sign reversal riding the same-minus conjunction. =>
+  any composite is INTRINSICALLY NONSTATIONARY; cannot be posed statically.
+- UP/DOWN CHARGE PROBLEM (worse than framed): there is ONLY q=1/3 -- no sign
+  structure, no +2/3, no variants (winding is a topological integer). Three
+  identical textures give Q=1 and nothing else; cannot make the up-quark (+2/3)
+  or the nucleon/Delta/strange diversity.
+
+NEW OBSTRUCTIONS (reframe the question):
+- NO NUMBER SELECTOR: binding energy monotone, no minimum; welding pins no count.
+  Nothing classical picks "three"; the count is a FREE parameter.
+- NO CLASSICAL COLOR: the three textures are TOPOLOGICALLY IDENTICAL -- no native
+  3-valued label to distinguish/bind them (su(3) is operator-algebra-on-states
+  only, #50).
+- GEOMETRY RESISTS CLUSTERING: the metric operator is single-center (angular bare,
+  radial dressed); the only faithful multi-cell object is a RADIAL CHAIN (collinear,
+  each its own center), NOT a flexible 3-body cluster.
+- SCOPE: "one cell = one particle" (#44) blocks towers-WITHIN-one-cell, NOT
+  multi-cell composites (door open). Static shaped cells eliminated by theorem
+  (#21), reopening only via the nonstationary sector or a derived w-stiffness.
+
+THE SYNTHESIS: the classical layer is EXHAUSTED OF SELECTORS -- it lacks the count,
+the charge-diversity, AND the color label, and the geometry fights the clustered
+shape. All three missing pieces live in the SAME place: quantizing the texture's
+three l=1 angular wobble-amplitudes (three quantum oscillators) -> the algebra that
+organizes them IS su(3) (color). So "three" and "color" are BORN TOGETHER upon
+quantization (#50's named open door; crux2_coinflip_results.md). => the hadron is
+NOT a classical bound state of three textures; it is an EMERGENT-QUANTIZATION
+object -- and that step is REPRESENTATION THEORY (su(3) on 3 oscillators),
+derivation not soliton-numerics (matches the "pure derivation" instinct).
+
+DISCIPLINE: not "one thing left." The CLASSICAL route is reported exhausted (cited);
+TWO live homes named for the missing pieces -- (a) the l=1 amplitude quantization
+(su(3)), (b) the nonstationary sector (where binding already lives, reopens #21).
+
+ALSO: charge = mass here (Q=2 p_F, exact). UDT ties charge, mass, AND the N=3
+winding to the SAME geometric object -- three things QCD keeps independent.
+Deep-unity prediction or tension; on the radar.
+
+DECISION POINT (gated on Charles): the MAP has reached the BOUNDARY of the classical
+layer. Going further = MAP/gate the EMERGENT-QUANTIZATION layer (quantize the l=1
+amplitudes; #50 / crux2 open door) -- a bigger, hbar-riding commitment, and the
+shared home of BOTH the composite question and the dynamical-spectrum question.
+Options: (1) MAP that layer next; (2) pause/consolidate; (3) redirect.
