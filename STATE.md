@@ -29,9 +29,16 @@ re-solve / reduced Hessian, with m=1 round as sign-calibration. Also: SH power-s
 (phase3b_symmetry.py) self-test PASSED (trustworthy).
 
 THE TOOL GAP (the real next step for the catalog): residual-Newton finds ARBITRARY critical points, not
-minima; pinning the m>=2 stable GROUND STATES (= the particles, global minima) needs an ENERGY MINIMIZER
-(gradient flow / arrested Newton / negative-mode descent) + systematic CONTINUATION in resolution from
-one tracked branch. Until then the m>=2 catalog masses stay unsettled. (m=1 is unaffected.)
+minima; pinning the m>=2 stable GROUND STATES (= the particles, global minima) needs an ENERGY MINIMIZER.
+TWO numerical co-causes of the m>=2 spread (both tool, not physics): (a) MANY nearby local minima +
+seed-dependence (need global min, not nearest critical point); (b) the dense Newton does NOT reach deep
+floors at the larger grids needed for convergence (20x8x8 Phi 3e-6, 18x10x10 Phi 3e-7 = under-converged).
+ATTEMPTED + FAILED this session: warm-start CONTINUATION (cross_grid_branch.py) — interpolation exact
+(gate A 1.8e-15) but it FAILS the m=1 reproduction gate (tracked m=1 drifts 0.29->0.33; re-finds nearby
+critical points with compounding drift, does NOT descend to minima). So DON'T retry plain continuation;
+the fix is a genuine energy minimizer (gradient flow / arrested Newton to the actual min) + a solver that
+reaches deep floors at production grids. Until then m>=2 masses stay UNSETTLED. (m=1 unaffected: direct
+solves agree ~0.29-0.30.)
 
 NEW SCRIPTS (committed): phase3b_platonic_solve.py (checkpoints u_plat_m{1,2,3}_18x8x8.pt),
 phase3b_symmetry.py (SH power spectrum + self-test), phase3b_hessian.py (fixed-metric Hessian),

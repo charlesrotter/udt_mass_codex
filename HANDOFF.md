@@ -16,7 +16,10 @@ STATE.md top block + winding_platonic_phase3b_results.md (with its grid-converge
   re-solve [[gravitating-soliton-stability-test]]. SH power-spectrum symmetry ID self-test PASSED.
 - NEW FRONTIER / TOOL GAP: residual-Newton lands on arbitrary critical points; to pin the m>=2 STABLE
   GROUND STATES (the particles = global minima) build an ENERGY MINIMIZER (gradient flow / arrested
-  Newton / neg-mode descent) + continuation. THEN the agreed centerpiece: the EIGENVALUE/standing-wave
+  Newton / neg-mode descent). NB warm-start CONTINUATION was TRIED + FAILED its m=1 gate this session
+  (cross_grid_branch.py: interp exact but tracked m=1 drifts 0.29->0.33 — re-finds critical points, does
+  not descend) — don't repeat it; also the dense Newton under-converges at larger grids (need deep floors).
+  THEN the agreed centerpiece: the EIGENVALUE/standing-wave
   ("spectrum") solver — Charles's hunch is it may BUILD ITSELF as the natural modes of these classical
   objects ([[no-presumed-quantum-sector]], the angular sector = QCD/QED reverse-engineering clue-source).
   Both are gated on Charles's go. m=4 + finer-grid (Nps>=12) m=3 tetrahedral check are smaller open items.
