@@ -208,3 +208,50 @@ layer. Going further = MAP/gate the EMERGENT-QUANTIZATION layer (quantize the l=
 amplitudes; #50 / crux2 open door) -- a bigger, hbar-riding commitment, and the
 shared home of BOTH the composite question and the dynamical-spectrum question.
 Options: (1) MAP that layer next; (2) pause/consolidate; (3) redirect.
+
+## 2026-06-17 (LATER-3) — EMERGENT-QUANTIZATION RECON: CANONICAL DOOR ALREADY CLOSED; SCOPE BANKED
+
+Recon (Explore agent a947887e; citations crux1_statistics_topology_results.md,
+crux2_coinflip_results.md, su3_field_test_results.md, em_forcing_results.md,
+HANDOFF, NEGATIVES_REGISTRY #46/#47/#49/#50/#51/#53). The l=1->su(3)
+CANONICAL-quantization door our thread funneled toward is open in NAME only and was
+already TESTED + SHELVED (the 2026-06-15 five-refusal reframe). Driver correction:
+last turn I called it a fresh "consilience" -- wrong; it is known-closed territory.
+
+WHAT IS CLOSED (canonical/semiclassical quantization of the soliton):
+- su(3) is KINEMATIC (selection rule / algebra closure on Fock states), NOT a color
+  gauge symmetry; the 3 "complex" l=1 amplitudes COLLAPSE to the real n
+  (<z|L_a|z>=0) -- no genuine complex triplet to make color from.
+- charge diversity (+2/3, signs, antiparticles): ABSENT.
+- fermion: Berry phase = 0 by TWO routes (rigid-rotor + su(3)-rep); POSTULATE A
+  (fermion is derived) is IRREDUCIBLE -- UDT must POSTULATE the fermion, like the SM.
+- DEEPEST WALL (route-independent): NO native DOUBLE COVER -- the metric gives the
+  integer-spin "3", never the spinor "2"; fermion / sqrt(m) / Koide all need it.
+- SOBERING: N=3 may just be "the internal arrow has 3 components" (eps_abc rank), a
+  kinematic fact -- not a color/constituent count. The QCD-3 hook may be over-read.
+
+THE CRUCIAL DISTINCTION (saves Charles's caveat): EVERY failure above is of the
+IMPORTED hbar-quantization RECIPE applied to the soliton. Charles's caveat is the
+GEOMETRIC replacement (emergent, no imported recipe) -- the OPPOSITE, and UNTESTED.
+The failures MOTIVATE the geometric route, they do not refute it.
+
+HONEST SCOPE OF UDT -> QCD (banked conclusion of the thread):
+- DERIVES (stands): the CHARGE + N=3-topology + MASS + GRAVITY skeleton -- the
+  texture, the native U(1) photon, q=1/3, M_MS, one scale.
+- DOES NOT derive: the quantum-REPRESENTATION layer (color-as-force, quark charge
+  diversity, fermion, sqrt(m), Koide) -- hits the missing-double-cover wall, the
+  SAME wall the project hit from the fermion side. This is the layer the SM also
+  POSTULATES; UDT geometrizes MORE than the SM (mass, charge, photon).
+
+LIVE VEHICLES for the emergent reading (NOT "one path" -- Charles's correction of my
+myopia): depth-continuum standing-wave solver; the nonstationary phi-angular sector;
+sealed-cavity compact-domain spectrum; topological/winding catalog; closed/periodic
+time + sigma-odd seal re-grade (target the double cover directly, #47b/#47c); RG <->
+dilation (precision tier). Picking one prematurely repeats the slice-for-whole error.
+
+DECISION (Charles, 2026-06-17): (1) DONE here -- scope documented + paused. Chose
+(3) as the upstream pursuit: the FOUNDATIONAL MAP "how does quantization emerge from
+the metric?" precedes (2) any solver, to guard (2) against a template-led
+spectrum-hunt (the resonator template risk). Armchair-ponder of (3) opened this
+session (de Broglie clock / metric-as-refractive-medium / where the quantum "i"
+lives / hbar as the third domino) -- to be written up as the (3) MAP next.
