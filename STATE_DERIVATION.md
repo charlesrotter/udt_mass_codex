@@ -484,3 +484,33 @@ matter-existence threshold. Targets (possibly one mechanism): (i) SCALE -- does 
 threshold pin one universe / predict z_CMB (falsifiable, first); (ii) QUANTUM
 EMERGENCE -- does criticality FORCE the discrete structure (the deep new prize). Next:
 turn "criticality -> quantum emergence" into a concrete, testable mechanism.
+
+## 2026-06-17 (LATER-9) — CRITICALITY->QUANTUM: FIVE-INTERPRETATION MENU + FAN-OUT
+
+Charles's caution (correct, charter-level): the h_c reading is likely-right but NOT
+the only interpretation. Both Charles (intuition limit reached) and the driver (3
+seductive-pattern deaths today) are past adjudicating by intuition => DON'T pick;
+make the interpretations a SIGNATURE CHECKLIST and let the formulated critical-closure
+SOLVE adjudicate (let structure emerge, then analyze together).
+
+THE FIVE INTERPRETATIONS (each = a signature to OBSERVE at the critical point):
+1. THRESHOLD (h_c): quantum switches on at a knife-edge (relaxation below, oscillation
+   above); matter sits at the edge. Signature: sharp spectral transition vs a
+   parameter. Uses banked sealed-cavity h>h_c oscillation theorem.
+2. SCALE-FREE / RG FIXED POINT: criticality = scale-invariance = RG fixed point;
+   RG<->dilation (banked hook) -> the quantum/hbar structure. Signature: scale-
+   invariance / power-law at criticality. (Conjecture C.)
+3. BEADING / PARTITION: a conserved critical total "beads into preferred portions" --
+   discrete topological partition. Signature: discrete topological partition of a
+   conserved total. MOST EVIDENCED (Charles's original phrasing + matches today's
+   topological-discreteness result N=3,q=1/3). Driver's bet.
+4. HORIZON / CAUSAL: at critical compactness the causal structure changes (c_eff->inf
+   at the seal) -> nonlocality/entanglement (conjecture B). Signature: causal/horizon
+   change at criticality.
+5. FLUCTUATION: critical fluctuations (all-scales) ARE the quantum. Signature:
+   dominant fluctuation spectrum. (Vaguest.)
+
+FAN-OUT (2026-06-17): five parallel agents launched, one per interpretation -- each
+recons the corpus, makes the interpretation CONCRETE (its signature), reports the
+sharpest next test + an honest viability verdict. Results -> the checklist the
+critical-closure solve will be read against. NONE pre-selected.
