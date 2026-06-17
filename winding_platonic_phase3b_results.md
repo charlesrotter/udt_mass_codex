@@ -124,3 +124,19 @@ pin the m>=2 STABLE GROUND STATES (the actual particles = global minima) needs a
 (gradient flow / arrested Newton / negative-mode descent to convergence) + systematic CONTINUATION
 in resolution from one tracked branch — not residual-zeroing from a fresh seed per grid. Until then
 the m>=2 catalog masses are UNSETTLED. (m=1, the one true minimum found, is unaffected.)
+
+## BRANCH-TRACKING ATTEMPT (2026-06-17) — FAILED its m=1 validation gate (tool NOT ready)
+To pin the m>=2 mass I built warm-start CONTINUATION (cross_grid_branch.py): converge once, then
+spectrally INTERPOLATE the state onto the next grid and warm-start Newton (track one branch).
+HARD GATES first:
+- GATE A (interpolation accuracy, analytic field 18x8x8->24x12x12): PASS, max err 1.78e-15 (exact).
+- GATE B (m=1 branch-track must reproduce the DIRECT m=1 solve): **FAIL**. Tracked m=1 masses DRIFT
+  monotonically UP: 0.29192 -> 0.29427 -> 0.30109 -> 0.33202 (grids 16/18/20/22) while DIRECT solves
+  stay 0.292/0.299/0.289/0.296. Warm-started solves converge to good residuals (Phi ~1e-8) but to
+  DIFFERENT, drifting critical points than the direct solves; the bias COMPOUNDS along the chain.
+VERDICT: warm-start continuation does NOT fix mass-pinning — it re-finds a nearby CRITICAL POINT at
+each grid (accumulating drift), it does not DESCEND to the minimum. No masses banked (gate failed).
+CONFIRMS the tool gap: pinning the m>=2 ground-state mass needs a genuine ENERGY MINIMIZER (gradient
+flow / arrested-Newton descent to the actual local minimum, which IS grid-robust), not continuation
+of critical points. (m=1's stability/mass claim stands: direct solves agree ~0.29-0.30; the tracked
+drift to 0.332 is a continuation artifact, not real m=1 physics.) Next-session build, gated.
