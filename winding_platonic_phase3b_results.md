@@ -156,3 +156,19 @@ that the ground state requires BASIN-HUNTING — even at fixed grid only the obl
 Best m=2 ground-state estimate at 18x8x8 = ~12.2 (oblate), but (a) not exhaustive (lower may exist),
 (b) still grid-specific (cross-grid convergence needs the energy minimizer). All shapes are oblate/
 toroidal-family (no platonic l=3); consistent with the axial reading, refined: lowest is OBLATE.
+
+## ENERGY MINIMIZER (2026-06-17) — built, bug-caught, pivoted; m=2 global min CONFIRMED (oblate ~12.3)
+energy_minimizer.py: metric-slave solve + local relaxation + basin_hop global search.
+- GATE 1 caught a BUG in the original gradient-descent inner loop: it stepped DOWN the action while
+  the line search required energy(=-action) to DROP -- opposed directions, so eta underflowed and the
+  descent did nothing (fell back to Newton, fullPhi 4.7e-7). Since phase3b_descend already established
+  these states are local MINIMA (not saddles), the saddle-rolling descent is also UNNECESSARY here ->
+  local_min pivoted to the validated Newton as the inner relaxation; basin_hop does the GLOBAL search.
+- m=2 basin_hop (8 hops, 18x8x8): seed 13.68; most hops land in the ~16 cluster; an OBLATE perturbation
+  (hop 5) drops to **M=12.370 (psivar 0.349)** = the accepted global min. INDEPENDENTLY CONFIRMS the
+  multi-start lowest (12.16, also oblate): the m=2 GROUND-STATE BASIN is the OBLATE soliton, M~12.2-12.4
+  at 18x8x8 (two independent global-search methods agree on the basin; ~1.7% apart within it).
+RESULT: the energy minimizer reliably IDENTIFIES the m=2 global minimum at a fixed grid (oblate, ~12.3).
+STILL OPEN (the remaining hard item): GRID-CONVERGING that mass -- blocked by large-grid Newton
+under-convergence (20x8x8 / 18x10x10 don't reach a deep floor), a separate SOLVER-STRENGTH need, NOT a
+global-search problem. Banked at-grid: m=2 ground state = oblate, M_MS ~ 12.2-12.4 @ 18x8x8 (interim).
