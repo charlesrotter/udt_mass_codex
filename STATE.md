@@ -1,7 +1,51 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-16 — NATIVE MASS MILESTONE + the whole-metric/native-solver turn.
+Last update: 2026-06-16 (LATER) — THE CATALOG RESOLVES: discrete winding catalog, PLATONIC ground states.
+
+## 2026-06-16 (LATER) — OFF-ROUND WALL BROKEN; THE WINDING CATALOG EXISTS; m>=2 GO PLATONIC
+
+The session that closed the #60 "solver-limited / catalog OPEN" gap and turned the catalog
+verdict from OPEN to: a DISCRETE winding catalog EXISTS, with NON-AXISYMMETRIC (platonic)
+ground states for charge >= 2 — UDT's angular sector landing on the Skyrme/large-N-QCD soliton
+structure. The arc (all verifier-validated; results docs + commits this session):
+
+- PHASE 1 — INFRA-AUDIT #2 (infrastructure_audit_3d_2026-06-16.md): the #60 full-3-D machinery
+  is CLEAN (no B=1/A tie, no seal-injection, no dialed M_MS; Einstein algebra exact 2.4e-15;
+  matter EL machine-zero + bit-exact vs corrected 2-D). 3 PREMISE CORRECTIONS to #60: the
+  off-round wall is the SOLVER not the physics; "round gate PASS at machine zero" was ~1% (the
+  radial slice never imposed the angular Einstein eqn); the committed div(T) gate was BROKEN.
+- PHASE 2 — OFF-ROUND WALL BROKEN (off_round_solver_results.md): full3d_newton.py, an explicit-
+  Jacobian Newton/LM (category-A, value-equivalent to the committed residual to 1.4e-14), drives
+  the off-round coupled solve to ~1e-12 where the matrix-free Jacobi-PCG crawled. Round floor
+  3.8e-13 with the angular Einstein eqns satisfied; B=1/A FREE; continuation works; GPU==CPU.
+  Plus sh_theta_operator.py (SH-exact theta for m!=0, machine-exact) and divT_excised.py (fixed
+  conservation gate). full3d_grid_shexact.py wires the SH-exact theta into the coupled solve
+  (round result bit-identical). The #60 INCONCLUSIVE gate is REMOVED.
+- PHASE 3 — THE WINDING CATALOG (winding_catalog_verified_results.md): m=1,2,3 converge as
+  distinct topologically-protected types. m=1 = round STABLE hedgehog (M_MS~0.298). For m>=2 the
+  AXISYMMETRIC soliton is UNSTABLE to platonic symmetry-breaking — sign-calibrated autograd
+  Hessian: m=1 n_neg=0 (CALIBRATION PASS), m=2 n_neg=30, m=3 n_neg=37; the SH-exact m=2 solve
+  FALLS to a platonic M~13.4 state below the axisym saddle ~59. A first-pass "no platonic
+  instability / UDT differs from Skyrme" claim was REFUTED before banking (sign-broken finite-diff
+  probe that flagged even m=1, + the psi-inexact Legendre operator pinning the saddle) — caught
+  by aiming the verifier hardest at the hypothesis-confirming result. The "200x super-linear"
+  m=1->m=2 was a SADDLE artifact; ground-state ratio ~45x (still super-linear, gravitational).
+
+SIGNIFICANCE (Charles's framing this session): the platonic finding extends the QCD/UDT overlap
+from STATIC counting (N=3, q=1/3) toward BINDING/SHAPING DYNAMICS — the angular sector's self-
+interaction doing the Skyrmion force-and-shape work (QCD's classical face). Honest grade: a
+structural down-payment, NOT the precision/quantum bill; masses INTERIM (one grid, not deep-
+floored). Charles also set binding guidance for the FUTURE quantum-equivalence solver: build it
+TRUE TO THE UDT METRIC, NO imported SM concepts/shortcuts/targets, same category-A/B + audit +
+verifier discipline; the angular sector <-> QCD/QED overlap is the reverse-engineering CLUE-SOURCE
+(extract target+type, never mechanism). [[no-presumed-quantum-sector]] updated.
+
+NEXT (queue): Phase 3b — map the platonic GROUND STATES (symmetry per charge: toroidal/tetrahedral/
+cubic? + binding + deep-floor masses + grid convergence + full coupled Hessian); a stable winding-3
+platonic type = geometric-baryon candidate. (verify_winding_platonic sweep was running at pause; its
+JSON lands in /tmp.) THEN queue item 2: the EIGENVALUE / standing-wave (dynamical spectrum) solver
+(the lepton-family / discreteness centerpiece). Three-tier roadmap unchanged.
 
 ## 2026-06-16 — THE WHOLE-METRIC TURN: UDT MAKES MASS NATIVELY; CATALOG OPEN
 
