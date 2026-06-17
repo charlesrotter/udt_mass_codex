@@ -438,3 +438,49 @@ THEN solve. Two load-bearing choices put to Charles 2026-06-17:
     its own Schwarzschild compactness), or a different lock (compactness / Omega=1)?
 Derived pieces in hand (metric eqn w/ native angular sector; native matter well L2+L4;
 finite-cell mirror canon). Premise ledger + machinery status in the agent brief.
+
+## 2026-06-17 (LATER-8) — CHARLES ANSWERS Q1/Q2: ANGULAR-SECTOR BRIDGE + "CRITICALITY -> QUANTUM EMERGENCE"
+
+Q1 (the seam) — RESOLVED, and it DISSOLVES the scoping's "biggest obstruction":
+- DROP the inside-out / phi->-phi MIRROR reading (driver over-promoted a one-off
+  hypothesis; NOT Charles's canon). The regimes are PHYSICALLY ASYMMETRIC: NEGATIVE
+  phi is the MATTER-BEARING regime (eigenvalue/spinor-rich); positive phi is the
+  universe background -> they CANNOT be mirror images.
+- THE BRIDGE = the phi-INVARIANT ANGULAR SECTOR. Negative-phi matter exists on /
+  interacts with the positive-phi background THROUGH the angular sector (phi-blind,
+  lives in both regimes). The junction is ANGULAR-SECTOR CONTINUITY across an embedded
+  negative-phi region, NOT a phi-matching/reflection rule.
+- STRONG CONSISTENCY: the bridge IS the carrier of the one native discreteness
+  (N=3, q=1/3 winding) -- connective tissue and discreteness-carrier are the SAME
+  object. The scoping's unformulated junction now has its physics; formulation can
+  proceed. (BH>hadron correspondence: kept at arm's length -- rides an incomplete
+  hadron model.)
+
+Q2 (the critical lock) — REFRAMED to Charles's upstream version:
+- "Critical" = the CONJECTURE that the universe's matter-content + volume are EXACTLY
+  what is needed for matter to EXIST AT ALL (depart either way -> unformed energy).
+  The horizon condition c^2=2GM/r* is DOWNSTREAM (a possible consequence), NOT the
+  definition.
+
+NEW HYPOTHESIS (Charles, 2026-06-17, flagged "genuinely new" -- arose from a
+misreading worth keeping): THE CRITICAL CONDITION IS WHAT LEADS TO QUANTUM EMERGENCE.
+Criticality as the GEOMETRIC ORIGIN of the quantum layer. Rationale: criticality is
+universally where discreteness/fluctuations/scaling are BORN; a universe poised at the
+matter-existence threshold forces the matter there to be quantum (discrete,
+eigenvalue/spinor-structured) BECAUSE it is critical. Closes the loop with the
+emergent-quantization caveat (quantization emerges from geometry; the geometric source
+= criticality). CONSISTENT with today's hard result (discreteness is TOPOLOGICAL not
+trapped-mode): criticality would FORCE a discrete topological partition, not a
+continuum. => the critical-universe closure may deliver BOTH prizes (scale AND quantum
+emergence) from ONE condition. DISCIPLINE: direction, not evidence -- must be made
+concrete (what does being-at-threshold MECHANICALLY do to force discreteness?).
+EIGENVALUE/SPINOR note: the static/canonical routes to those died today (conj-A 5-route,
+#53 postulate-A); if negative-phi matter bears them, they live in the
+dynamical/nonstationary sector.
+
+FORMULATION now UNBLOCKED: positive-phi universe + embedded negative-phi matter cells,
+BRIDGED by the phi-invariant angular sector; "critical" = universe poised at the
+matter-existence threshold. Targets (possibly one mechanism): (i) SCALE -- does the
+threshold pin one universe / predict z_CMB (falsifiable, first); (ii) QUANTUM
+EMERGENCE -- does criticality FORCE the discrete structure (the deep new prize). Next:
+turn "criticality -> quantum emergence" into a concrete, testable mechanism.
