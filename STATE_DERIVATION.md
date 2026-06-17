@@ -514,3 +514,50 @@ FAN-OUT (2026-06-17): five parallel agents launched, one per interpretation -- e
 recons the corpus, makes the interpretation CONCRETE (its signature), reports the
 sharpest next test + an honest viability verdict. Results -> the checklist the
 critical-closure solve will be read against. NONE pre-selected.
+
+## 2026-06-17 (LATER-10) — FIVE-INTERP SYNTHESIS: CRITICALITY SELECTS/SCALES, DOES NOT GENERATE
+
+All five recons in (refute-first). GRADED CHECKLIST:
+- #3 BEADING/PARTITION: SPLIT -- the KIND-of-discreteness half ~0.9 SOLID; the ENGINE
+  "fixing M discretizes E" ~0.75 FALSE.
+- #2 SCALE/RG: ~2.5/5 underbaked (RG<->dilation named-only), cleanly testable (M-determinacy).
+- #1 THRESHOLD h_c: ~80% AGAINST -- sign-inverted (nonstationary_opener: the "relaxation"
+  side is GROWTH; h>h_c is the only bounded-oscillatory sector); one-sided h_c vs two-sided
+  critical-M mismatch; no bridge to phi/M, no selector (#27).
+- #4 HORIZON/CAUSAL: ~15% hand-wavy -- the seal is a SINGULAR PUNCTURE not a horizon, so
+  "cone opens -> entanglement" has NO mechanism; B1 broken (neutral particles), B2 unformulated.
+- #5 FLUCTUATION: ~15-20% weakest -- UDT has NO native fluctuation structure; parked.
+
+CONVERGENT FINDING (interp-2 + interp-3 independently): criticality/M does NOT GENERATE
+discreteness -- it SELECTS/SCALES it. Toy (interp-3) + corpus (#34/#39/#41 monotone-convex
+single-cell closure; dD/dE!=0): conserved total + convex energy => equipartition (one value)
+or continuum, NEVER a tower. M sets the UNIT/absolute scale; discreteness must PRE-EXIST as
+the topological integer label. => "criticality -> quantum GENERATION" (strong form) NOT
+supported.
+
+SURVIVES (~0.9): UDT's only native discreteness is TOPOLOGICAL (N=3, q=1/3, integer winding)
+-- a combinatorial PARTITION, not a vibration spectrum. Charles's beading names the KIND right.
+REFINED HYPOTHESIS (Charles's, survives refined): criticality = SCALE-SETTER + candidate
+DEPTH-SELECTOR for already-topological discreteness, NOT its generator.
+
+HIERARCHY INSIGHT (driver synthesis): topological axis gives O(1) ratios (winding tower
+1.99/3.64 or 2.57/4.95; breathing tower O(1); #44) -- NOT the lepton exponential (207, 3477).
+The EXPONENTIAL hierarchy lives on the DEPTH axis (M_MS(p) super-exponential, #56). =>
+TYPES/charges = topology (O(1)); exponential MASSES = depth. The lepton question = WHAT
+SELECTS THREE DISCRETE, EXP-SPACED DEPTHS -- exactly criticality's refined (select-not-generate)
+job.
+
+THE ONE SHARP OPEN OBJECT (interp-3 sharpest test + #40 named "sharp next object"): the
+MULTI-CELL / WHOLE-TILING closure -- is the coupled residual C(E;M)=0 MULTI-ROOTED in E
+(criticality SELECTS discrete depths) or single-root/continuum (M only sets scale)? Single
+cells monotone/convex (one root); multi-rootedness must come from the multi-cell coupling
+(UNWRITTEN). This IS the concrete realization of the whole-closure using Charles's
+angular-sector-bridge junction (Q1); cheap-ish (multi-cell generalization of the existing
+single-cell BVP). Caveat: even if multi-rooted, the roots must land on the EXP depth axis to
+solve the hierarchy.
+
+SCORECARD (honest): heavy negative run today (conj-A 5-route; q=m/3; frame-revival; 4/5
+criticality interps weak) -- but CONVERGENT not scattered: all say "discreteness is
+topological & pre-existing, not dynamically generated." Answers the KIND-of-discreteness
+question; sharpens the next to one buildable object. NEXT (Charles-gated): formulate + solve
+the multi-cell tiling closure, roots-in-E on the depth axis.
