@@ -600,3 +600,46 @@ bridge. Convergent, not scattered.
 DECISION (Charles-gated; refusal-run reframe respected -- driver did NOT auto-drill):
 (1) test C2 via the two-field (depth+angular-phase) weld (relational bridge winding),
 or (2) consolidate the day.
+
+## 2026-06-17 (LATER-12) — C2 / BRIDGE-WINDING: NO WINDING; TOPOLOGICAL CONCLUSION CLOSES
+
+C2 test (agent ae53d9073; script VERIF_bridge_winding.py; HIGH confidence). Relational
+bridge winding does NOT exist:
+- chi is a ZERO-SOURCE U(1)-cyclic coordinate over a CONTRACTIBLE collar (pi_1=0);
+  only (chi')^2, no potential, no WZW/linear term (banked: monodromy_depth #49, crux2
+  P4, h1_types H^1=0).
+- For each integer W a weld has finite action S=2pi^2 W^2/R, but W=0 is the UNIQUE
+  global min; explicit homotopy unwinds W=1->0 with NO barrier. Distinct W = same
+  path-component (matches H^1=0).
+- CONTROL (refute-proof): the same machinery DETECTS a real barrier-protected winding
+  (sine-Gordon kink, S=8sqrt(g)) the instant a chi-potential is added -> the null is
+  real, not a blind spot. UDT has no such potential.
+=> C2's scalar reduction JUSTIFIED; the LATER-11 tiling negative STANDS even with the
+angular DOF fully restored. The topological ESCAPE is CLOSED. Over-determined (3
+banked records + control + shape-randomization).
+LOAD-BEARING PREMISE (reopens everything if revised): the whole "no more discreteness"
+chain rests on the angular phase having NO native potential / WZW / linear term
+(zero-source cyclic; triply banked crux2/#49/monodromy_depth). IF a native periodic
+chi-potential or topological term is ever uncovered in the angular Lagrangian, the
+bridge-winding escape REOPENS. Flag at any angular-Lagrangian revision.
+
+=== SESSION CONSOLIDATION (2026-06-17) ===
+ARC: "derive QCD from UDT?" -> texture-not-baryon -> composite-is-emergent ->
+canonical-quantization-closed (#46-#53) -> conjecture A (trapped-mode discreteness)
+DEAD 5 routes -> criticality->quantum five-way fan-out -> criticality SELECTS/SCALES
+not GENERATES -> beading-via-tiling DEAD (proven monotone) -> bridge-winding DEAD.
+CONVERGENT CONCLUSION (high conf, multiply-proven): UDT's discreteness is TOPOLOGICAL
+-- the single-cell winding (N=3, q=1/3) -- FULL STOP. Every DYNAMICAL / spectral /
+continuous-selection / relational-topological alternative is ELIMINATED, with proofs.
+Criticality = scale-setter, not generator.
+STANDS (untouched): macro consilience (SNe) + geometric-mass milestone; texture =
+self-gravitating GLOBAL MONOPOLE (NOT baryon); native U(1) photon; topological charge
+q=1/3, N=3. The QCD overlap is the CHARGE/topology structure, not a baryon-soliton or
+a dynamical spectrum.
+OPEN FRONTIER (honest): the lepton mass HIERARCHY (exponential 207/3477) is
+UNEXPLAINED -- topology gives TYPES + O(1) ratios, not the exponential. The exponential
+lives on the DEPTH axis (M_MS(p) super-exponential); WHAT SELECTS discrete exp-spaced
+depths is OPEN -- it is NOT criticality-generates (dead). Also open: charge SIGN
+(+/-, antiparticle), unsourced. The "what KIND of discreteness" question is CLOSED
+(topological). NEXT SESSION: attack the HIERARCHY (depth axis) and the SIGN FRESH --
+NOT by re-drilling the dead dynamical-discreteness routes.
