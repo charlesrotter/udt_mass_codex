@@ -748,3 +748,50 @@ MAP / PONDER first, per the four-mode method), NOT a derive-the-masses hunt. The
 discreteness/hierarchy are at most ONE downstream symptom; do not let them recapture the
 frame. The genuine positives (macro consilience, geometric mass, texture, photon,
 topological charge) stand independent of all of this.
+
+## 2026-06-18 — EMERGENT-QUANTIZATION RESUMED: PILOT-WAVE PROGRAM, CHECK 1 (guiding->Schrodinger)
+
+Resumed the GOAL-CORRECT track (emergent quantization, the WHOLE quantum face). Frontier =
+the three pilot-wave checks (quantization_pilot_wave_program.md). H-BAR PARKED (Charles):
+hbar is an INPUT calibration constant for now (like c_einstein, G, probably m_e), possibly
+derived once the model completes -- so a check need only show the STRUCTURE locks together,
+not conjure hbar's number. (Charles's sharpening: "is hbar geometric?" conflated the NUMBER
+[a legitimate input; forcing it = predicting the (m_e/m_Pl)^2 hierarchy, a miracle we should
+NOT hang emergence on] with the STRUCTURAL ROLE [the E=hbar*omega bridge]. Emergence = the
+bridge is native even if its calibration is input.)
+
+CHECK 1 MAP (quantization_check1_guiding_MAP.md): re-aimed METRIC-LED by Charles (do NOT
+smuggle "matter is a wave"; OBSERVE how the m=1 texture moves, let its nature emerge). Three
+walls: (1) flowing phase real-vs-complex; (2) order-in-time (2nd-order wave vs 1st-order
+Schrodinger -> Schrodinger only as a SLOW correspondence LIMIT, declared not smuggled);
+(3) guidance law UNBUILT. Wall 1 first (upstream, cheapest, decisive).
+
+CHECK 1 / WALL 1 RESULT (OBSERVE agent aea43e77 + BLIND VERIFIER a8ce0ede, conf 0.88;
+wall1_flowing_phase_results.md). Provisional (single OBSERVE+verify, point-worldline eikonal
+treatment) but verifier-before-record satisfied:
+- The de Broglie "moving-clock -> traveling-wave" machinery (eikonal/Hamilton-Jacobi closure
+  g^munu d_mu S d_nu S = -omega_clock^2) is GENERIC RELATIVITY -- true in ANY metric, NOT a
+  UDT achievement (verifier's key catch: do not overclaim "native"). UDT's ONLY native touch
+  there is c_eff=e^{-2phi} graded-index REFRACTION (k_r = p_hat*e^{phi}; a graded lens).
+- CRUX (survives refute-first hunt): the static m=1 texture has NO native REST-ENERGY/Compton
+  clock -- no beat at omega ~ E_rest/hbar. Its ONLY native clock is the SPIN-tied iso-rotor
+  (omega_ang=J/Lambda_3, zero if J=0; rate set by SPIN not MASS -> falsifiable mismatch if
+  misused as the de Broglie carrier). Breathing ground carries zero beat; medium-well is
+  box-controlled (conj-A dead); seal is a Z2 reflection, no time-circle.
+- VERDICT: Wall 1 FAILS classically/metric-led (no mass-tied carrier clock). It PASSES the
+  instant omega_clock = E_rest/hbar is supplied -- and THAT clock IS the parked hbar
+  (hbar = the constant turning E into a ticking rate). => "no native rest clock" and "hbar is
+  an input" are the SAME GAP. With hbar parked as input, Check-1 wave-face is native MODULO
+  that one input (the generic relativistic wave + UDT refraction).
+
+WHAT CHECK 1 DELIVERED (the real prize): it LOCALIZED "is the wave-face of QM emergent in UDT"
+to ONE crisp question -- does the matter object have a NATIVE REST CLOCK (a beat at its own
+mass-energy), or is that clock the irreducible input (= hbar)? If input -> coherent pilot-wave
+structure but wave-face assembled with one posited dial, not fully emergent. If UDT ever grows
+a native rest clock -> wave-face genuinely emergent + hbar un-parks. The ONE place a native
+rest clock could still hide (others emptied by the verifier): the CLOSED-TIME / SEAL sector
+(a periodic time = a beat; the old conjecture-B "where the i lives" territory).
+
+DECISION (Charles, 2026-06-18): BANK Check 1 (conditional pass, recorded) and proceed to
+CHECK 2 (does finite-cell TYPICALITY give the Born rule |psi|^2?). The rest-clock/closed-time
+route (chase emergence of hbar itself) is deferred, not dropped.
