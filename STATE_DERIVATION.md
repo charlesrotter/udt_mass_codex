@@ -839,3 +839,73 @@ rest-clock/hbar conditional); (B) Check 3 (seal/Bell) -- but it is even more dow
 (C) consolidate -- the program is now well-mapped, keystone identified; ponder the shape;
 (D) step back -- reconsider whether pilot-wave is the right frame given everything defers to
 two unbuilt pieces (the rest clock + the guidance law).
+
+## 2026-06-18 (cont.) — KEYSTONE (Wall 3, FULL FIELD): PARTIAL; ARCHITECTURE REAL; FULL-FIELD HONESTY EXPOSES A DERIVED phi-ANGULAR POTENTIAL
+
+DECISION (Charles): build the keystone (A), and -- BINDING -- with NO simplified stand-in (use
+the full native matter field + exact conservation, because a complex-scalar toy would SMUGGLE
+the very complex phase in question). Pre-registered frozen contract: check1_wall3_keystone_PREREG.md.
+DERIVE agent a5139d58 (opus) + HARD BLIND VERIFIER a7683d29 (opus, two independent derivations).
+Result doc: check1_wall3_keystone_results.md. PROVISIONAL (one DERIVE + one verifier).
+
+DERIVE claimed full SUCCESS (conf 0.8). The verifier -- aimed hardest per hypothesis discipline
+(a prior-confirming positive) -- DOWNGRADED it to PARTIAL (conf 0.4 as-stated). Honest verified
+picture:
+
+SURVIVES (exact, both verifier derivations agree, sympy difference=0):
+- The pilot-wave ARCHITECTURE is real. UDT IS a relativistic-KG-Bohm host. Q1 GUIDANCE
+  v^r = -c^2 e^{-4phi} (d_r S)/(d_t S) -- phase-following (de Broglie/Bohm), refracted by c_eff,
+  NOT an intensity/trapping force. Q4 SCHRODINGER LIMIT i hbar e^{2phi} d_t Phi =
+  -(hbar^2/2m) Delta_g Phi + V Phi -- clean slow-corner limit, EXACTLY flat Schrodinger at
+  phi->0 (the e^{2phi} is the inverse-lapse/time-dilation clock-rate correction; vanishes at lab,
+  grows in wells -> falsifiable). Q3 conserved current j^mu=R^2 g^{mu nu} d_nu S, density e^{2phi}R^2.
+- THE "i" HAS A NATIVE HOME (genuine, non-trivial): S^2's tangent plane carries a natural complex
+  (Kahler) structure = the AREA FORM -- the SAME area form that is the native topological charge
+  (N=3, q=1/3). So the quantum imaginary unit = the matter field's internal area-form. The
+  complex STRUCTURE is native (not smuggled).
+
+CORRECTED / DOWNGRADED (the verifier's catches):
+- THE i-FLOW IS THE INPUT, not native (A, PARTIAL): a generic tangent fluctuation is LINEARLY
+  polarized = a real STANDING oscillation (no flow). The FLOWING phase needs CIRCULAR
+  polarization (the field circulating in the native complex plane), which is NOT forced by the
+  sigma-model -- it is the rest-clock input (omega=E/hbar) wearing the area-form's clothes.
+  HONEST: i-STRUCTURE native; i-FLOW = the one parked-hbar input. Same one-input story, precise.
+- "IDENTICALLY box_g" IS FALSE (B, the lynchpin -- FAILS as stated): the true L2 tangent-
+  fluctuation operator is the JACOBI/geodesic-deviation operator D^m D_m eta + K[|grad n0|^2 eta
+  - <eta,grad n0> grad n0], NOT free box_g. The full real field (the winding background n0) induces
+  a DERIVED BACKGROUND POTENTIAL V ~ K|grad n0|^2 ~ sin^2(Theta)/r^2 + e^{-2phi} Theta'^2 (plus a
+  tangent-bundle U(1) connection) -- divergent at the core. So the matter wave equation is
+  curved-KG-WITH-A-DERIVED-POTENTIAL, not a free wave; Q2's quantum potential Q=-hbar^2 box_g R/R
+  is INCOMPLETE by +V (Q2 SUCCEEDS->PARTIAL). A scalar stand-in would have HIDDEN this entirely --
+  Charles's no-simplification constraint is what exposed it.
+- BORN IS SLOW-CORNER ONLY (D, PARTIAL): e^{2phi}R^2 is the indefinite KG charge, positive only
+  in the slow/positive-frequency corner. "Born from typicality" is so far a non-relativistic-corner
+  approximation, NOT yet fundamental emergent Born. (Classic relativistic single-particle sign
+  problem.)
+
+HONEST KEYSTONE VERDICT (PARTIAL): UDT is a native relativistic-KG-Bohm pilot-wave ARCHITECTURE
+given the rest-clock input AND the circulation choice (= the same input) AND dropping nothing --
+i.e. the wave equation carries a DERIVED phi-angular background potential V -- AND with Born
+positivity only in the slow corner. Not "host given ONLY the rest clock."
+
+THE LEAD (metric-led, fell out on its own -- the real prize of doing it honestly): the derived
+V ~ sin^2(Theta)/r^2 + e^{-2phi}Theta'^2 IS the phi-ANGULAR COUPLING Charles named at the program's
+START as the prime suspect for native structure (CLAUDE.md standing hunch). And it is exactly the
+sigma-model CENTRIFUGAL term sin^2(Theta)/r^2 that conjecture-A's death (LATER-5) found ABSENT --
+because that analysis was of METRIC fluctuations (f,q,w: no internal index, no such term), whereas
+THIS is the MATTER-FIELD fluctuation (S^2 index present). So a barrier absent in the metric sector
+is PRESENT in the matter sector. CONDITIONS-CHANGED flag for the conjecture-A negatives if this
+matter-sector potential is pursued. The Check-2 fork (Q-MEASURE) is resolved by Q3 to the e^{2phi}
+branch (the verifier's predicted "third branch"), but conditional on the slow corner.
+
+DISCIPLINE: still ONE DERIVE + ONE verifier = PROVISIONAL. Goal is emergent quantization, NOT a
+mass hunt (LATER-15) -- V is pursued as "what it does to the QUANTUM structure" (modifies Q, may
+give discrete wave modes = a quantum face), not as a mass-ratio hunt. The numeric hedgehog profile
+(needed to compute V exactly) lives on the workstation (GPU); this machine can do V on a
+representative/analytic profile.
+
+NEXT (Charles-gated): (A) compute the derived V exactly + see what it does to the guiding-wave
+equation (the verifier's recommendation: "compute V before building further -- it may be the
+structure lead, not a nuisance"); (B) attack the KG-sign/Born-positivity (route to fundamental
+Born?); (C) consolidate; (D) tighten the native-i-structure vs input-flow split (can UDT force the
+circulation -> un-park hbar?).
