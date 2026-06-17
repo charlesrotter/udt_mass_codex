@@ -1,5 +1,26 @@
 # HANDOFF — Resume Instructions and Perspective
 
+## *** 2026-06-17 UPDATE (read FIRST; supersedes the queue below) ***
+Overnight automode run executed the whole "fix-static then characterize-catalog" arc. READ
+STATE.md top block + winding_platonic_phase3b_results.md (with its grid-convergence CORRECTION)
++ off_round_solver_results.md + winding_catalog_verified_results.md + infrastructure_audit_3d_2026-06-16.md.
+- PHASE 1: INFRA-AUDIT #2 — #60 machinery clean; 3 premise corrections (off-round wall = solver not
+  physics; "round gate machine-zero" was ~1%; div(T) gate broken→fixed divT_excised.py).
+- PHASE 2: OFF-ROUND WALL BROKEN — full3d_newton.py (explicit-Jacobian Newton, category-A, value-equiv
+  1.4e-14, B=1/A free). Plus sh_theta_operator.py + full3d_grid_shexact.py (SH-exact θ for m≠0).
+- PHASE 3/3b: winding catalog of SECTORS exists; m=1 round STABLE grid-stable minimum (M~0.29-0.30);
+  m>=2 round UNSTABLE → lower non-axisym states (m=2 toroidal=Skyrme B2; m=3 axial, NOT tetrahedral),
+  coupled-stable along steepest modes. *** BUT m>=2 ground-state MASS NOT grid-converged (M_MS(2)
+  ranged 9.8-38.5; residual-Newton finds different critical points per grid) — masses/shapes UNSETTLED. ***
+- METHOD: fixed-metric matter Hessian over-counts instabilities for gravitating solitons; use coupled
+  re-solve [[gravitating-soliton-stability-test]]. SH power-spectrum symmetry ID self-test PASSED.
+- NEW FRONTIER / TOOL GAP: residual-Newton lands on arbitrary critical points; to pin the m>=2 STABLE
+  GROUND STATES (the particles = global minima) build an ENERGY MINIMIZER (gradient flow / arrested
+  Newton / neg-mode descent) + continuation. THEN the agreed centerpiece: the EIGENVALUE/standing-wave
+  ("spectrum") solver — Charles's hunch is it may BUILD ITSELF as the natural modes of these classical
+  objects ([[no-presumed-quantum-sector]], the angular sector = QCD/QED reverse-engineering clue-source).
+  Both are gated on Charles's go. m=4 + finer-grid (Nps>=12) m=3 tetrahedral check are smaller open items.
+
 (Refreshed 2026-06-16. The prior HANDOFF described the quantum-completion / coin-flip
 frontier — that line is now SHELVED; see the reframe below.)
 

@@ -1,7 +1,47 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-16 (LATER) — THE CATALOG RESOLVES: discrete winding catalog, PLATONIC ground states.
+Last update: 2026-06-17 — Phase 3b: winding shapes/stability characterized; m>=2 masses UNSETTLED (tool gap = minimizer).
+
+## 2026-06-17 — PHASE 3b: WINDING GROUND-STATE SHAPES + STABILITY (m>=2 mass NOT yet converged)
+
+Overnight automode run completing the classical winding-catalog characterization (Charles steer:
+finish the classical catalog before the "spectrum" thrust). Read winding_platonic_phase3b_results.md
+(incl. its GRID-CONVERGENCE CORRECTION) + the new scripts. All category-A, DATA-BLIND, foreground solves.
+
+WHAT STANDS (honest, regime-stamped p=0.4, kap8=0.05):
+- m=1: round, grid-STABLE (M_MS~0.29-0.30), matter-Hessian n_neg=0, coupled-stable. The ONE clean,
+  confirmed winding ground state.
+- m>=2: the round state is UNSTABLE; lower NON-axisymmetric critical points exist — m=2 reads TOROIDAL
+  (SH power spectrum l=2,4 even ladder = the Skyrme/large-N-QCD B=2 torus analog), m=3 reads AXIAL
+  (l=3 absent => NOT the tetrahedral Skyrme B=3; UDT overlaps Skyrme at B=2, diverges at B=3 — plausibly
+  gravitational self-binding reshaping it). All coupled-stable along the steepest tested modes.
+- *** KEY CAVEAT (Phase 3b grid convergence) ***: the m>=2 GROUND-STATE MASS is NOT grid-converged —
+  M_MS(m=2) ranged 9.8-38.5 across 16/18/20/18x10x10 grids; residual-Newton lands on DIFFERENT critical
+  points per grid (even deeply-converged 16x8x8 found near-axisym M=19.5, not the toroid). So the
+  "m=2 toroidal M~13.4" was GRID-SPECIFIC; m>=2 masses/shapes are UNSETTLED, binding meaningless.
+
+METHOD LESSON (new memory [[gravitating-soliton-stability-test]]): the fixed-metric matter Hessian
+OVER-COUNTS instabilities for a gravitating soliton (perturbing Theta at fixed metric leaves the
+Einstein constraint surface). It flagged n_neg=19(m2),44(m3) — but the constraint-respecting COUPLED
+re-solve along those modes sent ALL uphill => off-constraint, states coupled-stable. Use coupled
+re-solve / reduced Hessian, with m=1 round as sign-calibration. Also: SH power-spectrum symmetry ID
+(phase3b_symmetry.py) self-test PASSED (trustworthy).
+
+THE TOOL GAP (the real next step for the catalog): residual-Newton finds ARBITRARY critical points, not
+minima; pinning the m>=2 stable GROUND STATES (= the particles, global minima) needs an ENERGY MINIMIZER
+(gradient flow / arrested Newton / negative-mode descent) + systematic CONTINUATION in resolution from
+one tracked branch. Until then the m>=2 catalog masses stay unsettled. (m=1 is unaffected.)
+
+NEW SCRIPTS (committed): phase3b_platonic_solve.py (checkpoints u_plat_m{1,2,3}_18x8x8.pt),
+phase3b_symmetry.py (SH power spectrum + self-test), phase3b_hessian.py (fixed-metric Hessian),
+phase3b_descend.py (coupled stability test), phase3b_grid_converge.py. Plus full3d_grid_shexact.py,
+sh_theta_operator.py, divT_excised.py, full3d_newton.py (Phase 1/2).
+
+NEXT (gated on Charles): (1) within the catalog — build the energy MINIMIZER + continuation to pin the
+m>=2 ground states (masses/shapes), and a finer-grid (Nps>=12) m=3 tetrahedral check; (2) THEN the agreed
+centerpiece — the EIGENVALUE / standing-wave ("spectrum") solver. Charles's standing hunch: the "quantum"
+solver may BUILD ITSELF as the natural modes of these classical objects (test after the catalog is solid).
 
 ## 2026-06-16 (LATER) — OFF-ROUND WALL BROKEN; THE WINDING CATALOG EXISTS; m>=2 GO PLATONIC
 

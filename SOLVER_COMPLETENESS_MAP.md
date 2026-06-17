@@ -58,14 +58,15 @@ LEGEND: [V]=solved native + blind-verified · [v]=solved/validated (lighter) ·
 ## F. SYMMETRY SECTOR
 - [V] spherical (charge-1 ground state).
 - [v] axisymmetric (r,θ) — 2-D spectral #59.
-- [v] NON-axisymmetric (ψ-dependent; platonic types) — OPENED + EXPLOITED (Phase 3,
-      2026-06-16): the off-round solver (full3d_newton, category-A) + SH-exact θ grid
-      (full3d_grid_shexact) make non-axisym solves converge. RESULT: m>=2 winding ground
-      states ARE non-axisymmetric (platonic) — sign-calibrated Hessian m=2 n_neg=30, m=3
-      n_neg=37 (m=1 n_neg=0 calibration); the SH-exact m=2 solve falls to a platonic
-      M~13.4 state below the axisym saddle ~59. Catalog binary now: a DISCRETE winding
-      catalog EXISTS with platonic m>=2 ground states. Residual (Phase 3b): platonic
-      symmetry/binding/deep-floor masses; full off-diagonal METRIC; full S³ matter map.
+- [R] NON-axisymmetric (ψ-dependent; platonic types) — OPENED (Phase 3/3b, 2026-06-16/17):
+      the off-round solver (full3d_newton, category-A) + SH-exact θ grid (full3d_grid_shexact)
+      make non-axisym solves converge; m>=2 round is UNSTABLE and lower non-axisym (toroidal/
+      axial) critical points exist (m=2 toroidal l=2,4 = Skyrme B=2; m=3 axial, NOT tetrahedral),
+      coupled-stable along steepest tested modes. BUT grid convergence (Phase 3b) shows the m>=2
+      GROUND-STATE MASS is NOT converged (M_MS(2) ranges 9.8-38.5; residual-Newton lands on
+      different critical points per grid) ⇒ m>=2 masses/shapes UNSETTLED, not banked. Catalog of
+      SECTORS exists; the m>=2 ground STATES need an energy MINIMIZER + continuation to pin.
+      Residual: that minimizer; full off-diagonal METRIC; full S³ matter map; higher m.
 
 ## G. SCALE REGIME
 - [V] shallow ↔ deep φ — radial to p≈6 (#56); bulk swept to p≈-40 pre-L4 (#39).
@@ -138,17 +139,20 @@ soliton; large-N QCD is classical) — coherent with no quantum layer. [[no-pres
 5. What tooling/tractability step covers the dropped criteria next?
 6. (anti-inflation) This is ONE tile — how much of the ten-criteria space is still blank?
 
-## CURRENT HEADLINE (updated 2026-06-16 — Phase 3: the winding catalog + platonic ground states)
-UDT carries a DISCRETE catalog of topologically-protected winding (charge) sectors (m=1,2,3 all
-converge as distinct types — winding_catalog_verified_results.md). m=1 = round STABLE hedgehog
-(M_MS~0.298). For m>=2 the AXISYMMETRIC soliton is UNSTABLE to platonic symmetry-breaking
-(sign-calibrated autograd Hessian: m=1 n_neg=0 [calibration PASS], m=2 n_neg=30, m=3 n_neg=37);
-the TRUE ground states are NON-AXISYMMETRIC and LIGHTER (m=2 platonic M~13.4 vs axisym saddle ~59,
-INTERIM). This MATCHES the Skyrme/large-N-QCD soliton structure (multi-solitons go platonic) =
-the angular sector on QCD's classical face, now reaching from static counting toward binding
-DYNAMICS. A first-pass "no platonic instability" claim was REFUTED (sign-broken probe + inexact
-theta operator) before banking — verifier-validated reversal. NOT yet banked: platonic symmetry
-per charge / binding / deep-floor masses / grid convergence / full coupled Hessian = Phase 3b.
+## CURRENT HEADLINE (updated 2026-06-17 — Phase 3 + 3b, honest after grid convergence)
+UDT carries a discrete catalog of topologically-protected winding (charge) SECTORS (m=1,2,3 all
+converge — winding_catalog_verified_results.md, winding_platonic_phase3b_results.md). m=1 = round
+STABLE hedgehog, grid-stable M_MS~0.29-0.30 (matter Hessian n_neg=0; coupled-stable). For m>=2 the
+round state is UNSTABLE and lower NON-axisymmetric (toroidal/axial) critical points exist and are
+coupled-stable along the steepest tested modes AT A GIVEN GRID. m=2 reads toroidal (l=2,4 = Skyrme
+B=2 analog), m=3 axial (NOT tetrahedral). KEY CAVEAT (Phase 3b grid convergence): the m>=2 GROUND-
+STATE MASS is NOT converged — M_MS(m=2) ranges 9.8-38.5 across grids and residual-Newton lands on
+DIFFERENT critical points per grid, so masses/shapes for m>=2 are UNSETTLED (the "M~13.4" was grid-
+specific). The angular sector overlapping Skyrme/QCD (toroidal m=2) is suggestive, not numerically
+banked. METHOD lesson [[gravitating-soliton-stability-test]]: fixed-metric matter Hessian over-counts
+instabilities (off-constraint); use coupled re-solve. TOOL GAP: residual-Newton finds arbitrary
+critical points; pinning m>=2 stable ground states (= the particles, global minima) needs an ENERGY
+MINIMIZER + continuation. Only m=1 is a clean, grid-stable, confirmed ground state.
 
 PRIOR milestone (stands): UDT NATIVELY PRODUCES MASS (#56): a self-consistent full-(radial)-Einstein
 soliton, no imports. NO classical discrete catalog YET found in the genuinely-searched
