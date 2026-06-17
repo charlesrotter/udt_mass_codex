@@ -723,3 +723,28 @@ premise is relaxed? Cheap high-leverage starts: the resonance q residual (real
 dLambda_3/d-breathing); C2 as a true two-field (not scalar) weld; conjecture-A's center
 BC. Momentum does NOT override verification: run agents fast for EXPLORATION, but mark
 exploratory output PROVISIONAL and gate "conclusive" behind the apparatus.
+
+## 2026-06-17 (LATER-15) — GOAL CORRECTION (Charles, binding): THE GOAL WAS EMERGENT QUANTIZATION, NOT "DERIVE THE DISCRETENESS/HIERARCHY"
+
+Charles: the session goal was NOT "find where UDT's particle discreteness + lepton mass
+hierarchy come from" (a derive-a-result target) -- it was the FOUNDATIONAL/conceptual
+question: HOW could QUANTIZATION be an EMERGENT property of UDT? (His early caveat: a
+GEOMETRIC REPLACEMENT for quantization -- emergent, not imported.) The driver DRIFTED the
+open conceptual question into a RESULT-HUNT -- the charter's bias-toward-deriving +
+collapse-the-open-frame-to-a-tractable-target myopia.
+
+CONSEQUENCE: the day's mechanism-attempts (topological winding, criticality, tiling,
+resonance) were aimed at the NARROWED target "produce the discreteness/hierarchy," which
+is NOT the goal. So beyond LATER-14 (none conclusive), the negatives DO NOT bear on the
+actual question. "Can quantization be emergent geometry in UDT, and how?" remains
+GENUINELY OPEN -- neither answered nor foreclosed today. Emergent quantization is BROADER
+than discreteness/masses: it includes the quantum PHASE (the "i"), hbar, statistics,
+superposition -- the whole quantum CHARACTER. The right question is conceptual: WHAT
+GEOMETRIC STRUCTURE IN UDT PLAYS THE ROLE QUANTIZATION PLAYS? (The day barely touched this
+-- it hunted masses instead.)
+
+NEXT SESSION: pursue the GOAL AS STATED -- the emergent-quantization MECHANISM (conceptual
+MAP / PONDER first, per the four-mode method), NOT a derive-the-masses hunt. The
+discreteness/hierarchy are at most ONE downstream symptom; do not let them recapture the
+frame. The genuine positives (macro consilience, geometric mass, texture, photon,
+topological charge) stand independent of all of this.
