@@ -561,3 +561,42 @@ criticality interps weak) -- but CONVERGENT not scattered: all say "discreteness
 topological & pre-existing, not dynamically generated." Answers the KIND-of-discreteness
 question; sharpens the next to one buildable object. NEXT (Charles-gated): formulate + solve
 the multi-cell tiling closure, roots-in-E on the depth axis.
+
+## 2026-06-17 (LATER-11) — MULTI-CELL TILING CLOSURE: BEADING-VIA-TILING DEAD (static); CRUX = C2
+
+Formulate+solve (agent aead1ed0; script VERIF_multicell_tiling.py). PRELIMINARY --
+verifier debt = premise C2 (below).
+RESULT: the angular-bridge multi-cell tiling closure does NOT discretize E.
+Structurally PROVEN: monotone single-cell map M(v_*(E)) + monotone conserved sum =
+monotone total -> the level set C(E;M_total)=SUM M - M_total crosses ONCE. Root
+cardinality 0-or-1, NEVER >=2, at every M_total in [0.1,1e9]; K-cell tiling
+K=2,3,5,10,207 all 0-or-1; offset Delta in [-1,1] all 0-or-1; no windows open.
+mpmath dps=40: single clean monotone crossing. => criticality/M_total SETS SCALE,
+does NOT generate discreteness -- confirms the convergent finding (conserved total +
+convex energy = equipartition/continuum, never a tower). Beading-via-tiling DEAD in
+the minimal faithful (static, scalar-depth) model.
+
+CRUX / SMUGGLE-RISK (agent-flagged, load-bearing): premise C2 -- the bridge was
+reduced to SCALAR SEAL-DEPTH equality (A_i = 2q v_i), presuming the angular sector
+carries NO independent DOF beyond depth. IF the angular field carries its OWN
+phase/profile across the bridge (the nonstationary angular sector, canon
+C-2026-06-13-1), the residual is no longer a scalar function of one E and the
+monotonicity argument FAILS.
+
+THE ESCAPE (sharp, TOPOLOGICAL -- consistent with the whole day): the discreteness,
+if real, would be a WINDING INTEGER in the angular BRIDGE -- multiple distinct
+continuous welds between two given depths -- a TOPOLOGICAL label, NOT a continuous-E
+selection. Same KIND as UDT's only-working discreteness (single-cell N=3, q=1/3
+winding); this would be a RELATIONAL / inter-cell winding (a NEW topological quantum
+number in the bridge). Test: the bridge as a genuine TWO-FIELD (depth + angular
+phase) weld BVP -- does it admit a winding integer (multiple distinct welds)?
+
+DAY'S CONVERGENT META-READ: every route to DYNAMICAL / continuous-selection
+discreteness is now dead (conj-A trapped modes 5-route; q=m/3; frame-revival;
+criticality=selects-not-generates; beading-via-tiling static). UDT's discreteness is
+TOPOLOGICAL (winding). The single open frontier (if more discreteness exists) is the
+NONSTATIONARY ANGULAR-PHASE WINDING -- in the single cell and/or the inter-cell
+bridge. Convergent, not scattered.
+DECISION (Charles-gated; refusal-run reframe respected -- driver did NOT auto-drill):
+(1) test C2 via the two-field (depth+angular-phase) weld (relational bridge winding),
+or (2) consolidate the day.
