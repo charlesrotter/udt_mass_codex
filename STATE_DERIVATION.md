@@ -795,3 +795,47 @@ rest clock could still hide (others emptied by the verifier): the CLOSED-TIME / 
 DECISION (Charles, 2026-06-18): BANK Check 1 (conditional pass, recorded) and proceed to
 CHECK 2 (does finite-cell TYPICALITY give the Born rule |psi|^2?). The rest-clock/closed-time
 route (chase emergence of hbar itself) is deferred, not dropped.
+
+## 2026-06-18 (cont.) — CHECK 2 / Q-MEASURE: NATIVE e^{phi} WEIGHT; BORN FORK GATED ON THE GUIDING WAVE
+
+Check 2 MAP (quantization_check2_born_MAP.md): Born = equivariance + typicality; UDT's
+FINITE CLOSED cell is the natural (rigorous) home for the typicality argument. Dependency-free
+first probe = Q-MEASURE (the configuration-space measure; flat-Born vs dilation-weighted).
+
+Q-MEASURE RESULT (OBSERVE agent adf783f9 + BLIND VERIFIER a7f503d2, conf 0.85;
+check2_qmeasure_results.md). Provisional (single OBSERVE+verify):
+- NATIVE MEASURE (derived, sympy-confirmed both passes): sqrt(g_spatial) = e^{phi} r^2 sin(theta).
+  Dilation weight W = e^{phi} (power +1, NOT e^{3phi}) -- because the dilation lives ONLY in the
+  RADIAL leg; the 2-sphere is BARE r^2 (canon, STATE.md ~204-205 / measure_fork). At hadronic
+  depth (phi0=-0.8) proper volume ~0.449x coordinate; measure -> 0 at the seal (benign:
+  bounded, normalizable over the finite cell -- like r^2->0 at an origin).
+- THE BORN "SQUARE" IS A CONDITIONAL FORK, not a verdict: curved continuity makes the
+  COORDINATE density N=sqrt(g)*rho_proper the equivariant object; whether |psi|^2 = N
+  (-> weight ABSORBED -> exactly flat-Born) or |psi|^2 = rho_proper (-> uncancelled deviation
+  D(r)=e^{phi}, ~0.45 at hadronic depth, ->1 at lab) depends on the SCALAR CHARACTER of the
+  guiding wave. Check 2 CANNOT decide it.
+- FORK-COLLAPSE ATTACK FAILED (good reason): the only concrete UDT wave (LATER-4 medium-wave
+  psi=u*sqrt(P)) is a ripple of the metric SHAPE field w -- an optical-cavity mode of the
+  GEOMETRY, NOT the particle's GUIDING/pilot wave (which is UNBUILT: Check-1 Wall 3). So the
+  fork is honestly conditional on Check 1, not a smuggled flat-Born.
+- COLLATERAL (verifier): that metric-shape wave's conserved norm weight P/f=2r^2 e^{2phi}/(1+w)^2
+  is NEITHER N nor rho_proper -> the naive {N, rho_proper} dichotomy is NOT exhaustive; the Born
+  answer may be RICHER than flat-vs-e^{phi} once the real guiding wave is built. On the radar.
+
+THE CONVERGENT META-READ (two checks in; honest, NOT "one thing left"): the pilot-wave program
+has a clear KEYSTONE -- the PARTICLE'S GUIDING WAVE. Check 1 localized its EXISTENCE to the
+rest clock (= parked hbar). Check 2 shows its STRUCTURE (the guidance law, Wall 3) decides the
+Born measure. Both downstream faces defer to the SAME unbuilt object. UDT is a viable pilot-wave
+HOST -- it HAS the assets (finite closed cell for typicality [well-posed in principle, a real
+plus]; graded-index refraction; the seal for nonlocality; a real native config-space measure) --
+but the guiding wave itself is (a) conditional on the rest-clock/hbar and (b) structurally
+unbuilt (Wall 3). The program reduces to: supply/derive the rest clock -> build the guidance law
+-> Born & Bell follow conditionally.
+
+DECISION POINT (Charles-gated): (A) attempt the KEYSTONE -- build the guidance law (Check-1
+Wall 3: how a winding is advected by a wave in the medium; a real derivation, presupposes the
+rest-clock/hbar conditional); (B) Check 3 (seal/Bell) -- but it is even more downstream
+(many-body guidance); the seal/nonlocality causal-structure piece may be partly independent;
+(C) consolidate -- the program is now well-mapped, keystone identified; ponder the shape;
+(D) step back -- reconsider whether pilot-wave is the right frame given everything defers to
+two unbuilt pieces (the rest clock + the guidance law).
