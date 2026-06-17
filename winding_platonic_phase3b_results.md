@@ -140,3 +140,19 @@ CONFIRMS the tool gap: pinning the m>=2 ground-state mass needs a genuine ENERGY
 flow / arrested-Newton descent to the actual local minimum, which IS grid-robust), not continuation
 of critical points. (m=1's stability/mass claim stands: direct solves agree ~0.29-0.30; the tracked
 drift to 0.332 is a continuation artifact, not real m=1 physics.) Next-session build, gated.
+
+## MULTI-START LANDSCAPE SURVEY (2026-06-17) — m=2 at 18x8x8 (validated solver only)
+11 diverse seeds (base, cos2psi/cos3psi/tetra/oblate/sin2psi @ amp 0.3,0.6), all converged deeply
+(Phi~1e-9), all category-A (maxB1A~2.8, B=1/A free). phase3b_multistart_out.json.
+RESULT: the m=2 landscape is CROWDED — **6 distinct local-minimum clusters spanning M=12.2-17.2**,
+ALL non-axisymmetric (psivar 0.30-0.40, tvar 0.67-0.77):
+  M~12.0 (oblate) | M~13.5 (base) | M~14.0 (oblate@0.3) | M~16.0 (cos2psi,tetra,sin2psi x5) |
+  M~16.5 (cos3psi) | M~17.0 (cos3psi,sin2psi)
+LOWEST found: **M=12.16, psivar 0.343, via the 'oblate' seed** — LOWER than the "base" 13.40 we had
+been quoting (the default solve was NOT the ground state even at this grid). Most seeds fall into a
+higher ~M=16 cluster.
+READING: confirms (physics) a genuinely crowded landscape of many nearby NON-axisym minima, and (tool)
+that the ground state requires BASIN-HUNTING — even at fixed grid only the oblate seed reached 12.16.
+Best m=2 ground-state estimate at 18x8x8 = ~12.2 (oblate), but (a) not exhaustive (lower may exist),
+(b) still grid-specific (cross-grid convergence needs the energy minimizer). All shapes are oblate/
+toroidal-family (no platonic l=3); consistent with the axial reading, refined: lowest is OBLATE.
