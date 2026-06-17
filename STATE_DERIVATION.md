@@ -963,3 +963,60 @@ NEXT (Charles-gated): (A') the WITH-L4 fluctuation operator -- does the Skyrme-s
 guiding wave admit an INTRINSIC (non-box) discrete bound mode? (the verifier's explicit
 recommendation; the physically honest version; where an intrinsic quantum feature could actually
 live). (B) KG-sign/Born. (C) consolidate. (D) native-i vs input-flow.
+
+## 2026-06-18 (cont.) — WITH-L4: NEGATIVE IS SHALLOW-ONLY; DEEP-phi HOSTS AN INTRINSIC (NON-BOX) MODE -- FIRST ESCAPE OF THE BOX-CONTROL WALL, IN THE phi-ANGULAR PRIME-SUSPECT SECTOR
+
+Did (A') WITH-L4, pre-registered + safeguarded (with_L4_fluctuation_PREREG.md). OBSERVE agent
+a942a041 (opus) + HARD BLIND VERIFIER ae590d8c (opus, mpmath deep-phi). Result doc:
+with_L4_fluctuation_results.md. PROVISIONAL -- and the verifier FLIPPED the scope.
+
+OBSERVE claimed clean NEGATIVE (conf 0.78): L4 INCLUDED (positive k^4 stiffness, derived from
+scratch); L4 CURES the L2-only Derrick tachyon (lowest radial -4.99 -> +0.099, confirming the
+matter_sector verifier's artifact diagnosis); real stabilized profile (E0=45.599 vs corpus 45.607);
+radial tower same KIND as #44 but BOX-CONTROLLED (omega^2 R^2 -> 9.9 const); ALL angular l=0,1,2
+box-controlled; phi-angular V "adds NO intrinsic structure"; lowest l=1 = box-lifted translational
+Goldstone. ADMITTED WEAKNESS: deep-phi (p=1) trap-test float64 conditioning-limited; used the
+FLAT background as "the reliable diagnostic."
+
+VERIFIER FLIP (clean-negative conf 0.30; SHALLOW-scoped conf 0.85): the flat test was the WRONG
+diagnostic -- it tested precisely the regime where the effect is ABSENT. The phi-angular potential
+V ~ sin^2Theta/r^2 + e^{-2phi}Theta'^2 is DEPTH-AMPLIFIED (e^{-2phi} ~ 1e6 at p=1).
+- SHALLOW (flat): box-control CONFIRMED to the digit (omega^2 R^2 -> 9.92/20.23/33.28, l=0/1/2;
+  conjecture-A wall, third hit) -- SOLID.
+- DEEP-phi (mpmath, log-grid x=ln r, dps=50-70, converged N=60/90/120; the trick that beats the
+  e^{phi}-span conditioning float64 cannot): the lowest mode is INTRINSIC, NOT box -- omega^2 ~ -0.55
+  (l=0), ~ -0.3 (l=1), R-INDEPENDENT in MAGNITUDE (drifts ~5% over R=15->40) while omega^2 R^2 GROWS
+  (does NOT -> const). CAUSAL TOGGLE: well OFF -> omega^2=+0.175 and box-control RETURNS
+  (omega^2 R^2 const) => the mode IS the depth-amplified attractive phi-angular Jacobi well, NOT a
+  stencil artifact. L4 does NOT cure the deep-phi mode (-4.64 -> -0.55).
+
+SIGNIFICANCE (honest, not inflated): for the FIRST time in the session/program, something ESCAPES
+the Friedrichs/box-control wall -- an INTRINSIC (non-box, depth-controlled) mode -- and it is in the
+phi-ANGULAR sector at hadronic depth, i.e. EXACTLY Charles's founding prime suspect (CLAUDE.md:
+discreteness from the phi-angular INTERACTION) at the physically relevant depth. This is the
+hidden-positive the prior matter_sector verifier (a29669db) pre-flagged.
+
+THE CATCH (must NOT be inflated): the intrinsic mode is currently UNSTABLE (omega^2 < 0). An
+unstable mode is NOT a "quantum observable" -- it would mean the deep-phi texture is unstable, OR
+the sign is an artifact of the UNRESOLVED S^2-vs-S^3 well coefficient (#51, the corpus
+unit-field/factor-2 target-manifold subtlety -- now LOAD-BEARING a THIRD time: keystone, V-exam,
+here). Whether this is (i) a real instability, (ii) a #51 artifact, or (iii) a stable bound
+"quantum face" once the coefficient is right, is NOT settled. omega^2>0 = the quantum face we want;
+omega^2<0 = instability.
+
+HONEST STATUS: the WITH-L4 negative is SHALLOW-SCOPED, not clean. Do NOT bank a deep-phi box-control
+negative. The deep-phi INTRINSIC mode is a verifier-found LEAD (one mpmath computation + causal
+control) -- strong but needs independent confirmation AND the #51 coefficient resolved to fix its
+SIGN. The "WITH-L4 untested" caveat is only PARTIALLY closed (shallow yes; deep-phi = new open lead).
+
+RECURRING METHOD FINDING: #51 (S^2 texture vs S^3/Skyrme target, the factor-2 angular invariant /
+unit-field subtlety) is now the load-bearing unresolved premise in THREE consecutive results. It
+gates the sign of the deep-phi mode. Likely the highest-leverage thing to resolve next -- and may be
+a workstation question (exact field content of the numeric hedgehog).
+
+NEXT (Charles-gated): (A'') resolve #51 (the target-manifold/well-coefficient) + independently
+confirm the deep-phi intrinsic mode and FIX ITS SIGN (stable quantum face vs instability); (B)
+KG-sign/Born; (C) consolidate the session (the keystone arc is rich + honestly graded); (D)
+native-i vs input-flow. NOTE: pursue the deep-phi mode as emergent-quantization structure
+(intrinsic discrete observable IF omega^2>0), NOT as a mass-hierarchy hunt (LATER-15); #44 already
+showed the spacing is not the lepton ladder.
