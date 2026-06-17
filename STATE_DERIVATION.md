@@ -305,3 +305,64 @@ dynamical-trapping; every linear-trapping route is Friedrichs-killed. Open forks
 is genuinely TOPOLOGICAL (stop hunting trapped-wave spectra); (iii) NONLINEAR
 whole-closure eigenvalue (critical-universe bootstrap); (iv) the SEAL's c_eff->inf
 as the nonlocality locus (conjecture B).
+
+## 2026-06-17 (LATER-5) — CONJECTURE A: DEAD BY FIVE ROUTES (CONFIRMED) + REFRAME
+
+All three revival tests in; LATER-4's PRELIMINARY is now CONFIRMED.
+- VERIFIER (agent aba3abaf; blind, 3 independent methods + symbolic, conf ~0.9):
+  V=-2phi'f^2/r re-derived EXACTLY; regularity=>Dirichlet BC crux SOUND (binding
+  branch u~1/r has INFINITE gradient-energy). KILLER TEST: deepening the well 17
+  orders of magnitude (Vmin -> -1e19) leaves E0 at the box value (E0*R^2 -> pi^2),
+  depth IRRELEVANT, no sub-threshold state at any depth/profile. One soft spot
+  (named, honest): u~1/r inadmissibility is a standard, consistent MODELING choice,
+  not a forced computation.
+- FRAME REVIVAL (agent aa677b2f; Charles's hypothesis, refute-first): DEAD, exact.
+  g_tt=-e^{-2phi}, g_rr=+e^{2phi}. Branch-iv probe energy DIVERGES in EVERY measure
+  (coordinate, proper-distance, orthonormal-frame x proper-volume) -- finiteness is
+  reparameterization-invariant. omega_local^2 = omega^2 e^{2phi}, e^{2phi}>0 => the
+  omega^2 SIGN is frame-invariant (relaxation stays relaxation). THE INTUITION'S
+  SIGN IS BACKWARDS: c_eff->inf = high redshift sqrt(f) => proper time runs FAST =>
+  coordinate modes are DIVIDED by sqrt(f) => the deep core FREEZES modes toward zero
+  frequency, never blue-shifts them. Corpus consilience: this proper-lift move was
+  already refuted (measure_fork; e^{-2phi} belongs in STIFFNESS, not MEASURE).
+- ORCHESTRA / COUPLED INDICIAL (agent a2382ab5; the ensemble completion): DEAD. The
+  w-completed coupled operator supplies NO repulsive l_eff(l_eff+1)/r*^2 barrier in
+  the wave (w) channel -- l_eff=0 EXACTLY, because w_thth is ABSENT from the entire
+  fluctuation operator (verified general-background, 3 ways). DEEP WHY: f,q,w are
+  metric SCALARS on (T,r,theta), no internal index => NO sigma-model sin^2(Theta)/r^2
+  winding centrifugal term. The only l(l+1)/r^2 is the ordinary scalar Laplacian in
+  the f-channel (wrong channel; solo already had it); q is algebraic (Schur-
+  eliminable), its w-couplings radial x angular only => cannot inject Lambda/r^2.
+
+=> CONJECTURE A is DEAD, theorem-grade, by FIVE independent routes (open-domain #1,
+sealed-cavity S2, W7, the solo optical well, the coupled+frame pair). The
+TRAPPED-WAVE / linear cavity-mode route to geometric discreteness is CLOSED.
+
+THE INDICTMENT (charter: a refusal RUN indicts the QUESTION, not the next crevice):
+the QUESTION "is geometric discreteness a trapped cavity mode?" is answered NO.
+Driver did NOT launch a fold-sector drill (the named-but-resisted "one-more-thing"):
+the fold (Delta_w/D=0, nonstationary-regular) and the nonstationary sector are the
+only untested crevices, but per the reframe tripwire they are a DELIBERATE
+Charles-gated choice, not momentum.
+
+THE POSITIVE (real deliverable): the ONLY native discreteness in UDT is TOPOLOGICAL
+(winding: N=3, q=1/3) -- counting, no hbar, no trapping. The atomic-spectra /
+standing-wave picture is STRUCTURALLY ABSENT (metric-scalar perturbations carry no
+winding centrifugal barrier). So "emergent geometric quantization" (Charles's
+caveat) is REAL but in the TOPOLOGICAL sense, not the spectral sense.
+
+HONEST CONSEQUENCE: topological discreteness gives TYPE/CHARGE, NOT the lepton mass
+RATIOS (207, 3477) -- and the trapped-mode route that would have supplied them is
+dead (with #44, the one-cell breathing tower, also dead). Mass-ratio origin remains
+OPEN; surviving candidates (to PONDER, not drill): the GLOBAL CLOSURE (universe's
+one scale + partition, critical-universe frame) and/or the NONSTATIONARY/fold sector
+(Charles's standing hunch). Conjectures B (the seal / c_eff->inf SIGNAL speed = the
+nonlocality home -- SURVIVES, untested) and C (hbar as third domino) are UNTOUCHED
+by A's death.
+
+REFRAME FORK (Charles's call): (a) accept discreteness = TOPOLOGICAL, hunt the mass
+scale from the global closure; (b) the nonstationary/fold as a DELIBERATE next
+campaign; (c) step back -- maybe the lepton masses are not a "spectrum" at all.
+Scripts (this thread): VERIF_ceff_potential[_eigen].py, VERIF_frame_BC_revival.py,
+VERIF_ceff_DEATH/BC/clean/binding/mpmath/spectrum/deepscan_check.py,
+VERIF_coupled_indicial.py, VERIF_w_completed_barrier.py.
