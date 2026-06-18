@@ -1,9 +1,48 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-18 (LATER) — FOUNDATION RE-ANCHORED + canonized (C-2026-06-18-1: metric form
-DERIVED from relativity); BARE TIME-LIVE GEON program launched; Birkhoff banked (round=static); Phase-0
-done+verified; closed-time DROPPED for open-time. Next = PHASE-1 (l>=2 quadrupole standing-wave geon).
+Last update: 2026-06-18 (LATEST) — UDT FIELD EQUATIONS DERIVED (blind-verified): the whole modification
+is ONE number 'a' (mass-dilation exponent) in the matter source weight e^{(a+1)phi}; vacuum = GR exactly;
+UDT modifies GR IFF a!=-1; principle doesn't pin a. NEXT CRUX = PIN 'a' (a matter-sector question).
+
+## 2026-06-18 (LATEST) — UDT'S FIELD EQUATIONS DERIVED: THE WHOLE MODIFICATION IS ONE NUMBER 'a' IN THE MATTER SOURCE
+
+The crux foundational derivation (udt_field_equations_derivation_results.md; blind-verified a15684af,
+STANDS). After Charles re-clarified the goal + caught that we'd been using VANILLA Einstein (= GR) not
+UDT's own equations. The goal (Charles, definitive): GR-STANDARD emergence — mass-energy is PRESENT and
+the dilation-metric SHAPES it into discrete definite-mass particles (this IS the critical-energy
+hypothesis: enough mass-energy is needed for particles to form). NOT matter-from-nothing. And: UDT must
+have its OWN field equations (Einstein MODIFIED by positional dilation), which we had not derived.
+
+THE PRINCIPLE (Charles): dilation = the 0th-derivative-of-position term completing the SR(1st=velocity)/
+GR(2nd=acceleration) hierarchy; MASS AND TIME both dilate with position (mass-dilation is NEW vs GR);
+c = c(phi) is NOT constant (esp. at cosmological + sub-nuclear extremes).
+
+THE RESULT (derived + verified):
+- c(phi): coordinate light speed c0 e^{-2phi} (= the committed c_r^2=e^{-4phi}); LOCAL speed = c0 constant
+  for any diagonal metric => varying-c ALONE is the trivial coordinate kind, absorbable => collapses to GR.
+- m(phi) = m0 e^{a phi} (only composition-consistent form); the exponent a is the whole game.
+- *** UDT GENUINELY MODIFIES GR IFF a != -1 *** (the un-hideable dimensionless ratio matter-ruler/metric-
+  ruler ~ e^{-(a+1)phi}); a=-1 => mass rides the metric => UDT = GR in disguise.
+- Modified field equations: G^mu_nu = (8piG/c^4) T^mu_nu with the ENTIRE modification a WEIGHT e^{(a+1)phi}
+  on the matter source; the CURVATURE side is UNCHANGED; VACUUM = Schwarzschild/Birkhoff EXACTLY (a absent
+  with no matter). => the bare-vacuum no-go's (Phases 1-2, #62/#63) are UDT verdicts too, NOT rescued;
+  confirms the critical-energy hypothesis at the field-equation level (UDT differs from GR ONLY where
+  matter is present).
+- HONEST CATCH: the principle does NOT pin a (consistent with both a=-1 GR and a!=-1 modified). So this
+  does NOT prove UDT is modified -- it proves the CONDITION and RELOCATES the live question into the MATTER
+  coupling (where the area-form charge / C-2026-06-14-1 live).
+
+WHAT THIS REFRAMES: the entire "is UDT modified GR + where does mass emerge" question collapses to ONE
+number, a (how a particle's rest mass dilates with position vs the metric's own clocks/rulers). The
+session's bare-vacuum geon program (Phase 0/1/2a/2b) is CONFIRMED (vacuum barren in UDT as in GR) but was
+the wrong arena -- the new physics lives ENTIRELY in the matter source weight e^{(a+1)phi}.
+
+NEXT (gated on Charles): PIN 'a' -- derive how the (UDT-native, area-form/angular) matter's rest mass
+dilates with position, from UDT's matter structure (NOT posited). a!=-1 => genuine modification + the
+source weight is the engine of mass-shaping; a=-1 => UDT=GR, novelty must be elsewhere (global closure?).
+This is a matter-sector derivation + a physical-intuition call (does rest mass dilate in lockstep with the
+metric's rulers or out of step?). Canonization of the field-equations result = Charles's call.
 
 ## 2026-06-18 (LATER) — FOUNDATION DERIVED FROM RELATIVITY (CANON C-2026-06-18-1); BARE TIME-LIVE GEON PROGRAM; BIRKHOFF BANKED; PHASE-0 DONE
 
