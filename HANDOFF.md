@@ -1,5 +1,25 @@
 # HANDOFF — Resume Instructions and Perspective
 
+## *** 2026-06-18 FOUNDATION TURN (read FIRST; SUPERSEDES the closed-time framing below) ***
+Charles re-anchored on the BARE program: solve the metric on its own, impose NOTHING, let structure
+EMERGE; UDT EXTENDS GR and MUST REMAIN RELATIVISTIC; borrow GR numerics for tractability only. Then:
+- CANON **C-2026-06-18-1** (blind-verified): the metric FORM is DERIVED from "remain relativistic" —
+  exponential dilation law + B=1/A reciprocal tie, SOURCE-FREE (B=1/A upstream of C-2026-06-14-1).
+  Relativity locks ONLY those; static/spherical/diagonal/areal-r are CHOICES, not consequences.
+- CATALOG RE-GRADED (#61): the m>=2 winding multiplicity rode an IMPORTED Skyrme BC; native pi_2
+  area-form charge solid; native carrier = S^2 ("S^3 DERIVED" unearned).
+- THE PROGRAM = the BARE TIME-LIVE WHOLE-METRIC (GEON) SOLVE: Einstein on the C-2026-06-18-1 structure,
+  finite mirrored cell + seal, matter slot EMPTY (gravity's own motion+shape = geon), OPEN time
+  (closed-time DROPPED — a rhythm needs no loop), RHYTHM-FIRST (free omega; static contained), shape live.
+  Scale: ratios+shapes only; absolute from the ONE CMB-temp obs if metric-ALLOWS, derive-from-closure stretch.
+- PHASE-0 DONE+BANKED: BIRKHOFF (round+empty=STATIC by theorem; "round"="static" same trap); the NON-ROUND
+  l=2 quadrupole carries a PHYSICAL GW DOF = the Phase-1 standing-wave/geon class; kernel carries a live time axis.
+- NEXT (gated): PHASE-1 — the non-round (l>=2) time-periodic standing-wave/geon solve, explicit dense Newton
+  + continuation, honest omega-quantization, OBSERVE the solution space (modes/ratios/shapes; box-control gate).
+Read STATE.md TOP (2026-06-18 LATER block) + CANON C-2026-06-18-1 + the turn's docs (relativistic_metric_
+rederivation_results.md, whole_metric_bare_solve_MAP.md, time_live_bare_solve_DESIGN.md, phase0_time_live_results.md).
+The 2026-06-17 closed-time block below is SUPERSEDED (closed-time dropped for open-time geon; S^2-vs-S^3 resolved = S^2).
+
 ## *** 2026-06-17 UPDATE (read FIRST; supersedes the queue below) ***
 Overnight automode run executed the whole "fix-static then characterize-catalog" arc. READ
 STATE.md top block + winding_platonic_phase3b_results.md (with its grid-convergence CORRECTION)

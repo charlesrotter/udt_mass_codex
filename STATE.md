@@ -1,8 +1,49 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-18 — CARRIER AUDIT: native carrier = S^2 area-form (pi_2); the m>=2 winding-catalog
-discreteness rests on an IMPORTED Skyrme BC. Next = the NATIVE-catalog question (option a).
+Last update: 2026-06-18 (LATER) — FOUNDATION RE-ANCHORED + canonized (C-2026-06-18-1: metric form
+DERIVED from relativity); BARE TIME-LIVE GEON program launched; Birkhoff banked (round=static); Phase-0
+done+verified; closed-time DROPPED for open-time. Next = PHASE-1 (l>=2 quadrupole standing-wave geon).
+
+## 2026-06-18 (LATER) — FOUNDATION DERIVED FROM RELATIVITY (CANON C-2026-06-18-1); BARE TIME-LIVE GEON PROGRAM; BIRKHOFF BANKED; PHASE-0 DONE
+
+A foundational + methodological turn, Charles steering closely (lay PONDER throughout). Read this block,
+then the carrier-audit block below. All blind-verified; CANON C-2026-06-18-1; docs listed at end.
+
+- METHOD RE-ANCHOR (Charles caught a drift): I'd slid into probing imported mechanisms / static slices by
+  momentum. Re-anchored on the ACTUAL program: SOLVE THE BARE METRIC, impose NOTHING, let structure
+  EMERGE. UDT EXTENDS GR and MUST REMAIN RELATIVISTIC. Borrow GR numerics for TRACTABILITY ONLY.
+- FOUNDATION DERIVED + CANONIZED (C-2026-06-18-1, blind-verified): the metric FORM follows from "remain
+  relativistic" — exponential dilation law (R1 no-privileged-position/differences-only + R2 composition)
+  + B=1/A reciprocal tie (R3 mutual reciprocity), SOURCE-FREE / kinematic (modulo one natural slot-id P8:
+  the conjugate-to-time direction is grad phi). B=1/A is UPSTREAM of the matter-source C-2026-06-14-1
+  (now downstream consistency). Relativity locks ONLY the dilation law + the tie; static/spherical/
+  diagonal/areal-r are CHOICES, not consequences (the FREE solution-space DOF). phi up to a constant.
+- CARRIER + CATALOG RE-GRADED (#61, blind-verified, see block below): m>=2 winding-catalog multiplicity
+  rode on an IMPORTED Skyrme BC Theta(core)=m*pi (self-tagged CHOSE); native pi_2 area-form charge
+  (N=3,q=1/3) solid; "S^3 DERIVED" unearned; native carrier = S^2 area-form.
+- THE PROGRAM (now): the BARE TIME-LIVE WHOLE-METRIC SOLVE. Einstein on the C-2026-06-18-1 structure,
+  finite mirrored cell + seal, NOTHING external in the matter slot (gravity's OWN motion+shape = a Wheeler
+  GEON), OPEN time (closed-time thread DROPPED — Einstein-orthodox; a rhythm needs no time-loop),
+  RHYTHM-FIRST (free omega; static = omega->0 CONTAINED), shape/angular content LIVE early. SCALE: bare
+  gravity is scale-invariant => gives RATIOS + SHAPES only; absolute scale from the ONE CMB-temp
+  observation (7.004=ln(1+z_CMB)), admitted ONLY IF the metric ALLOWS it (never hand-inserted), stretch
+  goal = DERIVE it from whole-metric closure. Bare-FIRST: add UDT's NATIVE matter ONLY if Einstein
+  demands it (i.e. nothing persists). Docs: whole_metric_bare_solve_MAP.md, time_live_bare_solve_DESIGN.md.
+- PHASE-0 DONE + BANKED (blind-verified abef35d7; phase0_time_live_results.md): *** BIRKHOFF *** — a
+  round + matter-empty UDT cell is STATIC BY THEOREM (vacuum G_tr=2 d_t phi/r => d_t phi=0; tie =
+  Schwarzschild AB=1, no extra DOF). "round" and "static" are the SAME trap — past round/static solves
+  were static by theorem, not physics. Structure (a vacuum geon) lives ONLY in the NON-ROUND class:
+  the l=2 QUADRUPOLE carries a PHYSICAL (gauge-invariant, verified via explicit gauge test)
+  gravitational-wave DOF = the Phase-1 standing-wave/geon search class; rotation g_tpsi is a 2nd route
+  (Phase 2/3; joint frame-drag profile exists, bounded-vs-gauge open). The committed Einstein kernel
+  carries a live time axis (harmonic-balance, algebraic in omega; omega->0 returns static).
+- NEXT (gated on Charles): PHASE-1 — the NON-ROUND (l>=2 quadrupole) TIME-PERIODIC self-gravitating
+  STANDING-WAVE (GEON) solve on the mirrored cell. Explicit-Jacobian dense Newton + pseudo-arclength
+  continuation (NOT matrix-free PCG, known to stall). Free omega; honest omega-quantization (do NOT tie
+  spatial-seal parity to time-harmonic parity). OBSERVE the solution space (distinct modes? ratios?
+  shapes?); apply the box-control gate at this non-round phase (physical vs box-artifact). Phase 2/3 =
+  rotation + full off-diagonal; native-matter only if bare yields nothing persistent.
 
 ## 2026-06-18 — CARRIER SETTLED TO ROOT: NATIVE CHARGE IS S^2/pi_2; THE STATIC "CATALOG OF TYPES" RODE AN IMPORTED BC
 
