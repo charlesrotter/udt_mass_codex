@@ -99,3 +99,78 @@ Charles flagged that the parallel session may not share our safeguards. Adversar
   redirect, but MUST be closed before building any DERIVE on this fluctuation operator.
 NET: the warning is trustworthy. Single-cell fluctuation spectrum is box-controlled (audited) -> do not
 build a lepton-mass-family solver on it; discreteness is topological/winding or closed-time/non-stationary.
+
+## FOUR-CLUSTER AUDIT (2026-06-17) — remaining branch claims, graded + bring-over decisions
+Four parallel adversarial audits (agents a9b561.../addbb6.../a28510.../af42e1...; read-only on branch +
+independent re-derivation). Verdicts:
+
+### A. OBJECT IDENTITY / TOPOLOGY (agent a9b561)
+- Branch claim "single-cell soliton = global-monopole O(3)/S^2 degree-texture (pi_2=Z, Hopf=0), NOT a
+  Skyrme baryon": HOLDS *for the BRANCH's carrier* (the non-unit 3-vector, target S^2) — VERIFIED
+  (rests on crux1_statistics_topology blind-verified 2026-06-15).
+- *** CONFLICT with cluster D (important, do NOT bank an object-identity correction): *** the BRANCH
+  analyzed an S^2 (non-unit 3-vector) field; our MAIN line's soliton+catalog use the UNIT S^3 (SU(2)/
+  Skyrme) 4-vector (cluster D, confirmed |n|^2=1 to 4e-17). DIFFERENT CARRIER FIELDS -> different
+  topological class (branch S^2/pi_2 texture vs main S^3/pi_3 Skyrme-class). So "it's a texture not a
+  Skyrmion" is about the BRANCH field and does NOT correct main; our "Skyrme B=2" reading is defensible
+  for the S^3 object. OPEN RECONCILIATION ITEM: pin the precise carrier + topological class of main's
+  ACTUAL catalog object (S^3/pi_3 vs S^2/pi_2). Hold "Skyrme B=2 torus" loosely but do NOT replace with
+  "texture." Branch multicell-tiling-dead + relational-winding-no-catalog: HOLD as PROVISIONAL, static-
+  scoped, premise-laden, single-pass (branch's own HANDOFF: "nothing conclusive").
+
+### B. de BROGLIE CLOCK ABSENT (agent addbb6) — SCOPED, HOLDS
+- "Static texture has no native rest-energy clock; only native clock is spin-tied omega=J/Lambda_3
+  (Lambda_3 native)": HOLDS but SCOPED to the STATIC ansatz (by construction). Single-pass (verifier
+  pending there); de Broglie eikonal machinery independently re-derived + strengthened (worldline-INDEP).
+- IMPACT: SUPPORTS our closed-time/non-stationary selector plan (green light, not wall): the moment the
+  closed-time sector supplies a carrier omega_clock, the native de Broglie wave follows for free. Soften
+  the branch's "whole wave-face = one missing input" (over-collapses static->all).
+
+### C. PILOT-WAVE / SCHRODINGER / BORN (agent a28510)
+- Guidance law + Schrodinger slow-limit: SCOPED — mostly GENERIC relativity (any curved KG metric) with
+  hbar + flowing phase PARKED as inputs; only the e^{-4phi}/e^{2phi} factors are UDT-native. HOSTING/
+  consistency, NOT emergence. Do NOT port as "native QM."
+- box_g "identically" claim: REFUTED (their own verifier caught it). Corrected operator =
+  D^m D_m eta + K|grad n0|^2 eta; the dropped Jacobi term K|grad n0|^2 IS the phi-angular coupling (the
+  discreteness prime-suspect) — interesting to OBSERVE, not bury.
+- Born native measure sqrt(g_spatial)=e^{phi} r^2 sin th (radial-only dilation, power +1, NOT e^{3phi}):
+  HOLDS — the ONE genuinely UDT-native result in this cluster (independently reproduced). Fork is honest
+  but under-enumerated (a 3rd branch e^{2phi}=KG charge density exists).
+
+### D. phi-ANGULAR RESONANCE + #51 (agent af42e1) — the load-bearing cluster
+- phi-angular resonance "DEAD ~0.8": SCOPED, weaker than billed. Mechanism is "TOO STRONGLY coupled ->
+  broadband parametric runaway selects nothing" (not "too weak"). Retires Charles's founding suspect
+  ONLY in the dynamical/parametric form, ONE channel (centrifugal-breathing), under FORCED premise C1
+  (Lambda_3(b)=(1+b)^2), single-pass, NO blind verifier, ALREADY downgraded to PROVISIONAL by Charles
+  (branch LATER-14). => provisionally weakened in one form, NOT genuinely retired; topological/closed-
+  time forms untouched.
+- matter-sector V box-control + "tachyon = L4-drop (Derrick) artifact": HOLDS (consistent with our
+  box-control audit; branch's own verifier walked back the tachyon overclaim -> "L2-only box-controlled;
+  WITH-L4 untested").
+- *** #51 (non-unit carrier) — the worry RESOLVED FOR OUR LINE: *** the corpus 3-vector IS genuinely
+  non-unit (|n|^2 = 1 - sin^2 Theta cos^2 theta, independently confirmed); the obvious unit fixes are
+  singular (1/sinth pole) or profile-free. BUT the correct unit field = the S^3 (SU(2)/Skyrme) 4-vector,
+  and OUR MAIN LINE ALREADY USES IT: the milestone soliton (radial_Bfree/whole_metric_solve_3D), the
+  winding catalog (full3d_spectral/winding_catalog_map, |n|^2=1 to 4e-17), and CANON C-2026-06-14-1
+  (unit monopole n=x/r) are UNAFFECTED. #51 is QUARANTINED to the SHELVED single-cell fluctuation-V line.
+  *** CORRECTION to this doc's earlier "#51 caps every matter-sector coefficient on BOTH lines": it does
+  NOT threaten main. We do NOT need to close #51 for the soliton/catalog/canon (already closed there via
+  the S^3 4-vector). #51 only caps the branch's matter-sector-V coefficients. ***
+
+## BRING-OVER DECISIONS (what we PORT to main vs leave)
+PORT (as scoped records/registry negatives):
+- The #51 RESOLUTION (above) — high value: removes the cross-line worry; main uses the unit S^3 carrier.
+- Scoped PROVISIONAL negatives -> NEGATIVES_REGISTRY (each with premise set, cross-session/UNVERIFIED-here):
+  phi-angular dynamical-resonance dead (one channel, forced C1); static texture no native rest clock
+  (supports closed-time selector); static multicell tiling + relational-winding give no catalog.
+- The Born NATIVE MEASURE e^{phi} (radial-only) — as a scoped reusable geometric fact.
+- The de Broglie eikonal machinery is native+exact (worldline-indep) — reusable capability note; the
+  closed-time sector supplying omega_clock would complete it.
+LEAVE / do NOT port as results:
+- pilot-wave "native host" + Schrodinger "native" HEADLINES (hosting/consistency, not emergence).
+- the box_g "identically" claim (refuted) — if referenced, use the CORRECTED operator (+ note the dropped
+  K|grad n0|^2 = phi-angular suspect).
+- "object is a texture not a Skyrmion" as a CORRECTION to main (it's about the branch's S^2 field; main is
+  S^3) — record as an OPEN reconciliation item instead.
+NET: nothing merged; main keeps the unit-S^3 soliton/catalog (unaffected by #51); the closed-time selector
+remains the pointed-to lepton-generation route, now with a native de Broglie machinery waiting for a carrier.
