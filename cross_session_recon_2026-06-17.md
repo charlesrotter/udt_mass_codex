@@ -187,3 +187,20 @@ rest-energy clock, and hbar are ALL THE SAME ONE missing input, and the candidat
 the CLOSED-TIME / seal sector. So three independent threads -- the lepton mass FAMILY (generations), the
 native WAVE (de Broglie), and the quantum i -- ALL land on the closed-time selector. That is the sharpened
 single target for the quantum-emergence / lepton-generation route (the #57 closed-time thread done properly).
+
+## REFRAME (Charles 2026-06-17): the "i" finding potentially SOLVES an SM ASSUMPTION
+Charles's sharpening: in QM/SM the COMPLEX structure -- that there is an "i" at all -- is a POSTULATE
+("why is QM complex?" is a named open foundations question). If UDT's geometry NATIVELY contains that i
+(= the S^2 area form / complex structure = the SAME object as the topological charge N=3, q=1/3), then
+UDT is DERIVING an SM ASSUMPTION from the metric -- the good kind of win (we forbid reproducing SM
+ENTITIES, but EXPLAINING an SM assumption is exactly the goal). The audit-confirmed native part is the
+i-STRUCTURE (the sqrt(-1) itself) -- precisely the postulated object -- so the match is on the right thing;
+the separate i-FLOW (dynamics) is the parked clock/hbar gap, NOT part of the "why complex" postulate.
+Calibration: currently an IDENTIFICATION, ponder/MAP-grade (needs rigor); full "UDT derives QM's complex
+structure" also wants superposition + the inner product to follow (not shown).
+USEFUL LENS opened: a LEDGER of which SM/QM foundational ASSUMPTIONS UDT DERIVES vs merely SHARES:
+  - complex structure / "i"  -> candidate DERIVE (this finding; structural i native & unrefuted).
+  - fermion / spin-statistics -> UDT must POSTULATE it too (Berry phase 0) = SHARED, not solved.
+  - Born rule -> PARTIAL/fork (native e^{phi} measure; indefinite-sign unsolved).
+Stakes on the closed-time route: if structural-i is native AND flowing-i comes from the closed-time
+sector, UDT derives BOTH "why complex" AND the dynamics = a foundational result, not just hosting.
