@@ -69,6 +69,15 @@ fluctuation spectrum); (c) #51 shown not to threaten main; (d) the SM-assumption
 lay PONDER with Charles) -- it is a new dynamical sector, gated DERIVE discipline applies. The fork's
 option (A) (research-grade solver to pin m>=2 absolute masses) remains valid but lower-value than (B);
 absolute masses may also be moot if generations live in the closed-time spectrum (ratios, grid-robust).
+*** SHARPENED 2026-06-18 (branch closed-time audit, cross_session_recon final section + NEGATIVES CS4/CS5):
+the parallel branch ALREADY ran the LINEARIZED form (rest-clock as a small oscillation about the STATIC
+soliton) -> BOX-CONTROLLED, BC-robust, M_MS-independent (audited, holds; their stated elliptic mechanism was
+refuted -- full L2+L4 is HYPERBOLIC, real osc exists but box-controlled). So the push must be the FULL
+NONLINEAR NONSTATIONARY solve (NOT linearized-on-static -- that's done/box-controlled), built on the CORRECTED
+S^2-texture / settled-#51 carrier (NOT the retired S^3 Skyrme soliton), with the linearized box-control as the
+PRE-REGISTERED FOIL to beat (must yield an M_MS-tied periodic structure the linearized sector provably can't).
+Also: the SEAL is NOT the Bell channel (audited, CS5) -- if a Bell resource exists it's the inter-cell crease
+(unbuilt), not the self-fold seal. ***
 
 (Refreshed 2026-06-16/17. The prior HANDOFF described the quantum-completion / coin-flip
 frontier — that line is now SHELVED; see the reframe below.)

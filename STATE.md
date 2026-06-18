@@ -27,9 +27,13 @@ WHAT THIS SETTLED (all recorded; nothing merged):
 THE FRONTIER (next push, gated): the CLOSED-TIME / non-stationary selector (#57 done PROPERLY, full dynamical).
 THREE threads converge on it -- the lepton mass FAMILY (generations), the native WAVE, the quantum i. De-risked
 (box-control ruled out; #51 not a threat; SM-assumption lens defines the win = derive "why complex" + dynamics).
-MAP first (premise ledger, lay PONDER). Lower-value alt: research-grade solver to pin m>=2 absolute masses
-(may be moot if generations are the closed-time spectrum = ratios). Reusable if spectral work: the branch's
-exact deep-phi operator + mpmath log-grid dps>=50.
+SHARPENED 2026-06-18 (branch closed-time audit): the LINEARIZED form (rest-clock as a small oscillation about
+the STATIC soliton) is already done + BOX-CONTROLLED (audited, BC-robust, M_MS-independent; CS4). So the push =
+the FULL NONLINEAR NONSTATIONARY solve (not linearized-on-static), on the CORRECTED S^2-texture/#51 carrier (not
+the retired S^3 Skyrme soliton), with the linearized box-control as the PRE-REGISTERED FOIL. Also audited: the
+SEAL is NOT the Bell channel (CS5; a Bell resource, if any, is the unbuilt inter-cell crease). MAP first.
+Lower-value alt: research-grade solver to pin m>=2 absolute masses (may be moot if generations are the
+closed-time spectrum = ratios).
 
 ## 2026-06-17 — PHASE 3b: WINDING GROUND-STATE SHAPES + STABILITY (m>=2 mass NOT yet converged)
 
