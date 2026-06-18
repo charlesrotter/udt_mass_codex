@@ -172,3 +172,31 @@ RESULT: the energy minimizer reliably IDENTIFIES the m=2 global minimum at a fix
 STILL OPEN (the remaining hard item): GRID-CONVERGING that mass -- blocked by large-grid Newton
 under-convergence (20x8x8 / 18x10x10 don't reach a deep floor), a separate SOLVER-STRENGTH need, NOT a
 global-search problem. Banked at-grid: m=2 ground state = oblate, M_MS ~ 12.2-12.4 @ 18x8x8 (interim).
+
+## MASS GRID-CONVERGENCE — a robust NEGATIVE (2026-06-17): not achievable with current tools
+Goal: grid-converge the winding masses to the continuum. After the energy minimizer fixed the
+GLOBAL-min search at a fixed grid (m=2 oblate ~12.3 @18x8x8), the remaining step was grid convergence.
+ALL approaches tried FAIL to give grid-converged masses:
+- LARGE-GRID DEEP-FLOOR SOLVER (large_grid_solver.py): DIAGNOSIS = the jacrev Jacobian BUILD dominates
+  (37.9s/iter @20x8x8, 132.7s/iter @24x10x10; lstsq only 0.5-2s). Dense newton_solve works but is
+  cost-limited at scale. MATRIX-FREE 2-grid Newton-Krylov (newton_krylov_2grid) STALLS: Phi frozen
+  (10.84 flat for 12 iters) with BOTH a cheap (12x6x6) AND a geometric (prev-grid) coarse precond
+  built-once -- the preconditioned-CG step is not a descent direction (likely a bug/ineffectiveness in
+  the matrix-free JVP/precond machinery; the dense route works on the same grids). Dead end as built.
+- DEEP-FLOORED WARM-START CONTINUATION (phase3b_richardson.py, tol 1e-11): DRIFTS/DIVERGES.
+  m=1: 16->18->20 = 0.2918 -> 0.2997 -> 0.3181 (UP 8.6%), psivar GROWS 6e-4 -> 0.022 -> 0.034 -- the
+  ROUND soliton picks up spurious NON-axisym structure under warm-start (yet FRESH m=1 solves are grid-
+  stable 0.29-0.30). => interp_state warm-start INJECTS structure into steep soliton states (passes the
+  smooth-field accuracy gate 1.8e-15 but not the steep-core reality), compounding up the ladder.
+  m=2 (oblate seed): 16->18->20 = 16.87 -> 41.25 -> 94.39 (diverges); the oblate basin isn't even
+  reached at 16x8x8 (psivar 2e-3 ~ axisym there). Richardson meaningless.
+KEY DIAGNOSTIC: FRESH per-grid solves give grid-STABLE m=1 (~0.29-0.30); WARM-START continuation does
+NOT (injects non-axisym structure). For m>=2 the multi-basin landscape + per-grid basin shift + finer-
+grid solver difficulty compound, so even fresh basin-hopping per grid does not yield a consistent mass.
+VERDICT: the CATALOG STRUCTURE is solid (sectors exist; m=1 round stable, mass 0.29-0.30 grid-stable;
+m>=2 break to non-axisym oblate/toroidal, coupled-stable) but the m>=2 ABSOLUTE MASSES are NOT grid-
+convergeable with the current spectral solver + continuation machinery. Pinning them needs a research-
+grade upgrade (a working strong-preconditioned matrix-free solver, or a discretization that doesn't
+inject non-axisym structure under refinement, or a fundamentally better-conditioned large-grid solve)
+-- a real next-phase effort, OR a reframe. Banked m>=2 mass = NOT DETERMINED (only at-grid 18x8x8
+estimates: m=2 oblate ~12.2-12.4, which itself is one grid). DATA-BLIND; category-A throughout.
