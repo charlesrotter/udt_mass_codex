@@ -1733,3 +1733,39 @@ gains; the "native discreteness / gap closed" framing is RETRACTED.
     injection; no linearization-as-result; no dropped term; analytic-G + direct-EL = same
     native content, proven). HOUSEKEEPING: axisym_matter_el.py marked DEPRECATED/INVALID-
     off-round. VERIFIER PENDING. DATA-BLIND. Pending Charles.
+
+## Cross-session imports (origin/session-2026-06-17, NOT merged) — PROVISIONAL, audited 2026-06-17
+Imported from the parallel quantization-emergence branch via cross_session_recon_2026-06-17.md (four-cluster
+adversarial audit). All PROVISIONAL: the branch's own HANDOFF says "nothing conclusive"; graded by our audit
+but mostly single-pass there. Premise sets attached; CONDITIONS-CHANGED reopeners noted.
+
+CS1. phi-ANGULAR DYNAMICAL RESONANCE DEAD (founding prime-suspect, dynamical form only).
+   Premises: parametric/dynamical resonance form; ONE channel (centrifugal-breathing, omega=J/Lambda_3
+   rotor x breathing); FORCED premise C1 Lambda_3(b)=Lambda_3(p)(1+b)^2 (generous, un-pinned); single
+   cell; classical. Mechanism: TOO-strongly-coupled broadband parametric runaway (q~17-268) selects
+   nothing (not "too weak"). Status: PROVISIONAL / UNVERIFIED-here (no blind verifier; branch LATER-14
+   downgraded to hypothesis-grade). Scope: retires the phi-angular suspect ONLY in the dynamical-resonance
+   form; TOPOLOGICAL / CLOSED-TIME forms UNTOUCHED. CONDITIONS-CHANGED reopener: real dLambda_3/d(breathing)
+   computation, or a non-centrifugal channel, or topological/closed-time form. Do NOT treat the founding
+   prime-suspect as retired.
+
+CS2. STATIC TEXTURE HAS NO NATIVE REST-ENERGY / COMPTON CLOCK.
+   Premises: STATIC ansatz (d/dt=0 by construction); single cell; target field; classical (hbar parked);
+   collective-coordinate reduction. Only native internal clock = spin-tied omega_ang=J/Lambda_3 (Lambda_3
+   native; J a free datum). Status: PROVISIONAL / SCOPED / UNVERIFIED-here. NOTE: this SUPPORTS (does not
+   block) the closed-time/#57 selector pursuit -- it establishes the static sector lacks a rest clock, and
+   the de Broglie eikonal machinery is native+exact (worldline-indep) so a carrier from the closed-time
+   sector completes the wave for free. CONDITIONS-CHANGED reopener: closed-time/#57 or seal supplying a
+   periodic rest-beat.
+
+CS3. STATIC MULTI-CELL TILING + RELATIONAL-WINDING GIVE NO DISCRETE CATALOG.
+   Premises: STATIC layer; scalar seal-depth-equality bridge (premise C2, smuggle-risk, self-flagged);
+   chi a zero-source U(1)-cyclic collar coordinate with no potential, H^1(I x S2)=0. Single-root closure
+   at all cell counts; W=0 unique minimum (no barrier). Status: PROVISIONAL / single-pass / UNVERIFIED-here.
+   Scope: STATIC only (branch notes binding is dynamical; like-textures repel statically); does NOT touch
+   single-field spatial-degree winding (pi_2/pi_3, integer, real). CONDITIONS-CHANGED reopener: dynamical
+   binding, or the non-stationary sector.
+
+NB premise #51 (non-unit corpus 3-vector carrier): REAL but QUARANTINED to the shelved single-cell
+fluctuation-V line; our main soliton/catalog/canon use the UNIT S^3 4-vector and are UNAFFECTED (not a
+blocking negative for main). See cross_session_recon_2026-06-17.md cluster D.
