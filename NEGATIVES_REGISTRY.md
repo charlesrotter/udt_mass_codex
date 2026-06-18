@@ -1814,3 +1814,23 @@ CS5. THE SEAL IS NOT THE BELL-NONLOCALITY CHANNEL (no-signaling + self/terminus 
    BC; the NATIVE-catalog question (does multiplicity fall out of the pi_2 area-form degree with Theta FREE?)
    is OPEN and is the next push (option a). CONDITIONS-CHANGED reopener: a native derivation of the radial
    endpoints, or a native pi_2-degree catalog of distinct stable types.
+
+## Bare time-live geon (Phase-1, 2026-06-18, blind-verified)
+#62. A SINGLE BARE l=2 VACUUM GEON IS BOX-CONTROLLED + CARRIES NO POSITIVE MASS (=> not a particle).
+   Docs: phase1_geon_results.md (+verifier a955621ebe9538f70, STANDS). The bare time-live whole-metric
+   solve (Einstein, finite mirrored cell + seal, matter slot EMPTY, open time, rhythm-first) in the
+   NON-ROUND l=2 quadrupole sector: a finite-amplitude self-gravitating standing wave (geon) EXISTS and
+   converges (~1e-12 to A~0.35), BUT (i) the spectrum is box-controlled -- w_n*R = j_2 zeros analytically
+   exactly (single-l Sturm-Liouville; no richer structure); (ii) NO intrinsic length (GW-stress is
+   scale-homogeneous, length-weight 2 -- structural at O(A^2)); (iii) the nonlinear frequency bend is
+   real (backreaction-driven) but also box-controlled (~1/R^2; the "universal escape law" was a
+   normalization tautology, caught + downgraded); (iv) the single bare eigenmode has sign-indefinite,
+   net-NEGATIVE self-gravitating mass. => OUTCOME B (scale-free): a single bare gravity standing wave is
+   not a particle. Consistent with Einstein vacuum scale-invariance + the critical-universe "pieces are
+   scale-free, physics is in the whole/ratios" frame.
+   Premises: BARE diagonal vacuum, l=2 SINGLE multipole, O(A^2) single-harmonic, static round background
+   (=flat by Birkhoff+regularity), finite cell radius R free. Status: STANDING (blind-verified), SCOPED.
+   CONDITIONS-CHANGED reopener (the genuinely-open next attacks): multi-harmonic / O(A^4) / mixed-l /
+   ROTATION (g_tpsi angular momentum) / multi-mode ensembles / whole-cell CLOSURE / the gated native-matter
+   step. A box-invariant quantity (e.g. quantized angular momentum, or a closure-pinned scale) surfacing in
+   any of those reopens it.

@@ -38,12 +38,25 @@ then the carrier-audit block below. All blind-verified; CANON C-2026-06-18-1; do
   gravitational-wave DOF = the Phase-1 standing-wave/geon search class; rotation g_tpsi is a 2nd route
   (Phase 2/3; joint frame-drag profile exists, bounded-vs-gauge open). The committed Einstein kernel
   carries a live time axis (harmonic-balance, algebraic in omega; omega->0 returns static).
-- NEXT (gated on Charles): PHASE-1 — the NON-ROUND (l>=2 quadrupole) TIME-PERIODIC self-gravitating
-  STANDING-WAVE (GEON) solve on the mirrored cell. Explicit-Jacobian dense Newton + pseudo-arclength
-  continuation (NOT matrix-free PCG, known to stall). Free omega; honest omega-quantization (do NOT tie
-  spatial-seal parity to time-harmonic parity). OBSERVE the solution space (distinct modes? ratios?
-  shapes?); apply the box-control gate at this non-round phase (physical vs box-artifact). Phase 2/3 =
-  rotation + full off-diagonal; native-matter only if bare yields nothing persistent.
+- PHASE-1 DONE + BANKED (blind-verified a955621e; phase1_geon_results.md; NEGATIVES #62) = OUTCOME B
+  (scale-free). The NON-ROUND l=2 time-periodic self-gravitating STANDING WAVE (geon) EXISTS and
+  converges (~1e-12 to A~0.35), BUT: (i) box-controlled — w_n*R = j_2 zeros ANALYTICALLY EXACTLY
+  (single-l Sturm-Liouville, no richer structure); (ii) NO intrinsic length (GW-stress scale-homogeneous,
+  structural at O(A^2)); (iii) the nonlinear frequency bend is real (backreaction) but also box-controlled
+  (~1/R^2; a tempting "escape law" was a normalization tautology, caught + downgraded by the agent's own
+  adversarial pass); (iv) the single bare eigenmode has sign-indefinite, net-NEGATIVE self-gravitating
+  mass. => A SINGLE BARE GRAVITY STANDING WAVE IS NOT A PARTICLE — but this is exactly what Einstein
+  vacuum scale-invariance predicts for a PIECE (the critical-universe frame: pieces scale-free; physics in
+  the whole/ratios). Also: round static vacuum is FLAT by Birkhoff+regularity (so the linear waves are
+  ordinary Zerilli GWs in a flat reflecting cavity; Phase-0's "l=2 is physical" survives, its single-warp
+  ansatz was over-constrained -> full Zerilli operator -Psi''+(6/r^2)Psi=w^2 Psi).
+- NEXT (gated on Charles — a PONDER fork, scope-rigorous-at-O(A^2)-single-l so these are the open attacks):
+  (a) ROTATION / angular momentum — the off-diagonal g_tpsi spinning geon (Phase-0 B1; angular momentum
+  as a possible quantized/box-invariant handle); (b) MULTI-MODE / confined-packet ENSEMBLES (the orchestra
+  — net-positive mass a single mode lacks); (c) HIGHER-ORDER / mixed-l (past O(A^2) single-l, where the
+  scale-homogeneity no-go does NOT bind); (d) WHOLE-CELL CLOSURE (the critical-universe ruler/absolute
+  scale) or the CMB-anchor admission; (e) the gated NATIVE-MATTER step (Einstein saying a mass background
+  is required). Explicit dense Newton + continuation throughout; matter-empty bare-first.
 
 ## 2026-06-18 — CARRIER SETTLED TO ROOT: NATIVE CHARGE IS S^2/pi_2; THE STATIC "CATALOG OF TYPES" RODE AN IMPORTED BC
 
