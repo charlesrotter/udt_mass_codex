@@ -1769,6 +1769,10 @@ CS3. STATIC MULTI-CELL TILING + RELATIONAL-WINDING GIVE NO DISCRETE CATALOG.
 NB premise #51 (non-unit corpus 3-vector carrier): REAL but QUARANTINED to the shelved single-cell
 fluctuation-V line; our main soliton/catalog/canon use the UNIT S^3 4-vector and are UNAFFECTED (not a
 blocking negative for main). See cross_session_recon_2026-06-17.md cluster D.
+   *** CORRECTION 2026-06-18 (carrier audit, see #61): the "main uses the UNIT S^3 4-vector" claim is NOT
+   earned. The native, canonized carrier is the unit 3-vector / S^2 area-form (CANON C-2026-06-14-1); the
+   S^3 4-vector was a later stress-matching adoption whose "DERIVED" tag failed audit. The metric does NOT
+   source the 4th component (it is a passenger off the imported Theta(core)=m*pi BC). Carrier = SCOPED-OPEN.
 
 ## Cross-session imports (origin/session-2026-06-17) — closed-time/seal, audited 2026-06-18 (PROVISIONAL)
 CS4. LINEARIZED TIME-ROW REST-CLOCK IS BOX-CONTROLLED (rest clock NOT native as a static-background mode).
@@ -1783,3 +1787,30 @@ CS5. THE SEAL IS NOT THE BELL-NONLOCALITY CHANNEL (no-signaling + self/terminus 
    Premises: D=0 mirror fold exact (phi->-inf endpoint strongly-indicated, not proven on full W6); intra-cell
    self-fold (inter-cell shared-crease UNBUILT). Closes: super-quantum signaling; "seal IS the Bell channel."
    Leaves open: inter-cell crease rescue; many-particle nonlocality (homeless). Pre-reg + blind-verified (0.8).
+
+## Carrier / catalog-discreteness provenance (main line, 2026-06-18, blind-verified)
+#61. THE m=1,2,3 WINDING-CATALOG DISCRETENESS IS INDEXED BY AN IMPORTED SKYRME BC, NOT A NATIVE CHARGE.
+   Docs: fourth_component_sourced_results.md (+verifier b7e3a4f0c1d29856), theta_bc_provenance_results.md
+   (+verifier ae844999686082572). Both blind-verified 2026-06-18.
+   FINDING: the catalog's protected types m=1,2,3 are distinguished by the RADIAL chiral-profile BC
+   Theta(core)=m*pi, Theta(seal)=0 (spectral_radial_soliton.py:141) -- a pi_3/SU(2)-Skyrme baryon quantity,
+   self-tagged CHOSE in the project's own ledger (native_stabilizer_results.md:244-249;
+   radial_Bfree_soliton_results.md:164), stated as "the SU(2)/S^3 chiral Skyrme hedgehog" convention
+   (matter_ansatz_derive.py:28,31-32). It is NOT derived from UDT structure: the seal/junction/transgression
+   machinery constrains only metric/dilation (NOT the matter twist angle -- dpf_derive.py:118 "Theta" is the
+   metric 2-form, a naming collision); and the 4th field component n_4=cosTheta is an unsourced passenger
+   (the bulk EOM is solved by Theta=pi/2 as a constant; #50 gives no SU(3)/S^3 connection).
+   Premises: committed finite-r_core cell (r_core=0.05 [CHOSEN], NOT the canon phi->-inf core); the charge-1
+   energy minimizer's sweep was computed USING the suspect BC (circular); static.
+   Status: STANDING (blind-verified, well-corroborated across two independent audits + two verifiers).
+   ROBUSTNESS: the one route that could derive a core endpoint -- regularity at strict r=0 -- forces only
+   sin(Theta(0))=0 (a node), which selects NEITHER the value NOR the m-ladder => the import verdict for
+   m>=2 is robust EVEN IF the cell reaches r=0.
+   WHAT STANDS (not contaminated): the native pi_2 area-form CHARGE quantization (omega_H1, N=3, q=1/3,
+   CANON C-2026-06-14-1) -- genuinely derived, requires no radial Theta condition; and the EXISTENCE of a
+   sized soliton (L2+L4 Derrick-evading). Only the MULTIPLICITY of static types is import-driven.
+   CONSEQUENCE: "the discrete winding catalog of particle types EXISTS" (STATE 2026-06-16/17 headline) is
+   RE-GRADED -> native charge quantization solid; multiple-static-types catalog rests on an imported Skyrme
+   BC; the NATIVE-catalog question (does multiplicity fall out of the pi_2 area-form degree with Theta FREE?)
+   is OPEN and is the next push (option a). CONDITIONS-CHANGED reopener: a native derivation of the radial
+   endpoints, or a native pi_2-degree catalog of distinct stable types.
