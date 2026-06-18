@@ -25,6 +25,16 @@ canonizes; nothing is canonical without his sign-off.
    Null results on solo instruments do not rule out the ensemble.
 6. **Zoom out often.** No tunnel vision. Re-read STATE.md and step back
    before each new push.
+7. **Derive UDT's equations NATIVELY; never default to the parent theory's
+   (GR's) standard form** (Charles, 2026-06-18). UDT EXTENDS GR but is NOT
+   GR: derive the metric AND the field equations from the positional-dilation
+   principle. Defaulting to GR's equation-FORM re-imports GR and erases the
+   extension before it can appear. SCAR: assuming standard Einstein
+   (G=8πT/c⁴, the EH R-term) forced "vacuum = GR" and made "UDT's field
+   equations don't depart from GR" — a smuggled artifact, not a result.
+   Interrogate every "this term folds away / reduces to the standard case"
+   step — that is exactly where the parent theory sneaks back in. (Principle 1
+   applied to the EQUATIONS THEMSELVES.)
 
 Charles's standing physical hunch (2026-06-10): native discreteness will
 come from an INTERACTION of the phi sector and the angular sector —
