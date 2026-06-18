@@ -182,3 +182,50 @@ canonized "B=1/A sourced inside matter" is thus the EXTERIOR / idealized-knot
 law; a realized particle has a genuine EOS-softened interior body. This
 REFINES, does not retract, C-2026-06-14-1 (blind-verified a1f2213b6410a6f35;
 native_stabilizer_results.md). Recorded by Charles 2026-06-14.
+
+## C-2026-06-18-1: The bare metric form is DERIVED from relativity (exponential + B=1/A, source-free)
+
+**Statement:** Requiring UDT to REMAIN RELATIVISTIC derives the functional form of
+the metric; it is not assumed. From three relativistic requirements —
+(R1) positional dilation depends only on DIFFERENCES in phi (no position is
+geometrically privileged); (R2) dilations COMPOSE consistently across intermediate
+positions; (R3) MUTUAL RECIPROCITY (each position sees the other's clock run slow,
+with neither preferred) — it follows that:
+- the clock-rate law is EXPONENTIAL in phi: g_tt = -e^{-2phi}c^2 (forced uniquely by
+  R1 + physical regularity; R2 then automatic);
+- the time and radial components obey the reciprocal lock B = 1/A, i.e.
+  g_tt g_rr = -c^2, SOURCE-FREE / KINEMATIC (from R3, no matter, no action, no field
+  equation, no asymptotic flatness).
+phi is defined only up to an additive constant (only differences are physical = R1 as
+a gauge freedom). The derived structure remains relativistic (Lorentzian signature for
+all phi; local Lorentz invariance intact).
+
+**Scope / one named caveat (binding — do not overstate):**
+- The B=1/A step uses ONE natural analog identification (P8): the direction conjugate
+  to time under reciprocity is the phi-GRADIENT (radial) direction, not a transverse
+  one. This is the physically obvious choice but it IS a choice, not forced by relativity
+  in the abstract. Reciprocity transverse to grad phi is vacuous (zero phi-difference =>
+  identity). No circularity (the identification does not assume B=1/A). The exponential
+  law (R1) carries no such caveat.
+
+**Forces:**
+- Relativity locks ONLY the exponential dilation law + the reciprocal tie along grad phi.
+  It leaves FREE: the angular/transverse block, all off-diagonal/shift terms (rotation,
+  shear), the TIME-DEPENDENCE of phi (non-stationary allowed), the chart, and the
+  topology. Therefore STATIC + SPHERICAL + DIAGONAL + AREAL-r are four INDEPENDENT
+  CHOICES, not consequences — they must not be smuggled; they are part of the solution
+  space to be solved/observed.
+- RECONTEXTUALIZES C-2026-06-14-1: B=1/A is relativistic-KINEMATIC and UPSTREAM. The
+  angular-source derivation (T^t_t = T^r_r => B=1/A) is DOWNSTREAM CONSISTENCY — matter
+  must RESPECT the relativistically-forced tie; it does not create it. C-2026-06-14-1 is
+  refined (not retracted): it remains true that the angular source respects/realizes the
+  tie inside matter.
+- The Einstein identity G^t_t - G^r_r = -(AB)'/(rAB^2) becomes a downstream check: with
+  AB=1 forced, it vanishes identically for arbitrary A, no source.
+
+**Provenance:** relativistic_metric_rederivation_results.md (constructor, Claude Opus 4.8,
+agent aa7c4d21d426fea02; relrederiv_checks.py sympy-exact) + BLIND adversarial verifier
+(Claude Opus 4.8, agent ad75fef845c31a128; independent re-derivation, verify_relrederiv_*.py)
+— STANDS-CONDITIONALLY on the named premises P4 (regularity, physically mandatory) and P8
+(the reciprocity slot-identification). Owner stated the R1/R2/R3 requirements 2026-06-18.
+Canonized by Charles 2026-06-18.
