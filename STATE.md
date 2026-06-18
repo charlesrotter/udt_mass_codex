@@ -50,13 +50,26 @@ then the carrier-audit block below. All blind-verified; CANON C-2026-06-18-1; do
   the whole/ratios). Also: round static vacuum is FLAT by Birkhoff+regularity (so the linear waves are
   ordinary Zerilli GWs in a flat reflecting cavity; Phase-0's "l=2 is physical" survives, its single-warp
   ansatz was over-constrained -> full Zerilli operator -Psi''+(6/r^2)Psi=w^2 Psi).
-- NEXT (gated on Charles — a PONDER fork, scope-rigorous-at-O(A^2)-single-l so these are the open attacks):
-  (a) ROTATION / angular momentum — the off-diagonal g_tpsi spinning geon (Phase-0 B1; angular momentum
-  as a possible quantized/box-invariant handle); (b) MULTI-MODE / confined-packet ENSEMBLES (the orchestra
-  — net-positive mass a single mode lacks); (c) HIGHER-ORDER / mixed-l (past O(A^2) single-l, where the
-  scale-homogeneity no-go does NOT bind); (d) WHOLE-CELL CLOSURE (the critical-universe ruler/absolute
-  scale) or the CMB-anchor admission; (e) the gated NATIVE-MATTER step (Einstein saying a mass background
-  is required). Explicit dense Newton + continuation throughout; matter-empty bare-first.
+- PHASE-2a (ROTATION) + 2b (ENSEMBLES) DONE + BANKED (blind-verified a80a2ba; NEGATIVES #63/#64): BOTH
+  clean negatives that CONVERGE. 2a: a source-free vacuum interior carries NO angular momentum (rotation-
+  twin of Birkhoff — the regular axial-shift branch is pure gauge J=0; the J-carrying branch is singular,
+  excluded by core regularity + empty slot). 2b: NO orchestra structure — every multi-mode composition is
+  net-NEGATIVE mass (cross terms vanish unless l_i=l_j AND omega_i=omega_j; mass additive over individually-
+  negative modes), box-controlled, no selection.
+- THE CONVERGENT VERDICT (bare-vacuum phase COMPLETE): across the diagonal standing-wave (Phase-1), rotation
+  (2a), and ensembles (2b), the BARE matter-EMPTY vacuum interior of the finite mirrored cell yields NO
+  particle-like object — no positive mass, no angular momentum, no intrinsic scale, no structure. The
+  structural CORE is EXACT GR (Birkhoff: no mass without a source; Komar: no J without an enclosed source);
+  the wave-energy negativity / box-control are verified at O(A^2)/O(eps). => the bare metric, ON ITS OWN,
+  does not make a particle. Per the LOCKED plan ("bare-first; add NATIVE matter ONLY if Einstein demands
+  it"), Einstein has now demanded an enclosed SOURCE — across three independent sectors.
+- NEXT (gated on Charles): the GATED NATIVE-MATTER STEP — bring in UDT's OWN metric-derived matter (the
+  area-form/angular content, NOT external; the L2+L4 source whose scale sqrt(kappa/xi) is the intrinsic
+  length the bare vacuum structurally lacks) and re-run the time-live solve: does a particle (positive mass,
+  intrinsic scale) now form? Lower-priority bare-vacuum residuals (genuinely open, do NOT block the matter
+  step): nonlinear O(A^2) rotating geon (l=2 wave sourcing an l=1 drag); O(A^4)/multi-time-harmonic
+  ensembles; whole-cell CLOSURE / CMB-anchor for absolute scale. Matter step holds C-2026-06-18-1 + uses
+  the same dense-Newton time-live machinery; native-only, data-blind, verifier-bound.
 
 ## 2026-06-18 — CARRIER SETTLED TO ROOT: NATIVE CHARGE IS S^2/pi_2; THE STATIC "CATALOG OF TYPES" RODE AN IMPORTED BC
 

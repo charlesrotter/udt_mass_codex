@@ -1834,3 +1834,23 @@ CS5. THE SEAL IS NOT THE BELL-NONLOCALITY CHANNEL (no-signaling + self/terminus 
    ROTATION (g_tpsi angular momentum) / multi-mode ensembles / whole-cell CLOSURE / the gated native-matter
    step. A box-invariant quantity (e.g. quantized angular momentum, or a closure-pinned scale) surfacing in
    any of those reopens it.
+
+#63. ROTATION SECTOR: a SOURCE-FREE VACUUM INTERIOR CARRIES NO ANGULAR MOMENTUM (rotation-twin of Birkhoff).
+   Doc: phase2a_rotation_results.md (+verifier a80a2ba1293f453ef, STANDS). The O(eps) stationary axial shift
+   g_tpsi=eps f(r)sin^2 th obeys f''=2f/r^2 => f=C1/r+C2 r^2; Komar J/eps=C1 (r-indep). The core-REGULAR
+   branch (C2 r^2) is PURE GAUGE (J=0, = rigid rotation psi->psi-Omega t of flat Minkowski); the J-carrying
+   branch (C1/r) is SINGULAR at the core => excluded by core regularity (C-2026-06-10-2) + empty matter slot
+   => J=0. No rotating vacuum object. Premises: O(eps) linear, stationary, l=1 axial, matter-empty, finite
+   regular cell. Status: STANDING (blind-verified); structural Komar/Birkhoff core EXACT. CONDITIONS-CHANGED
+   reopener: nonlinear O(A^2) rotating geon (l=2 wave sourcing an l=1 drag); higher-l axial; an enclosed source.
+
+#64. MULTI-MODE ENSEMBLE ("orchestra"): NO STRUCTURE; ALL COMPOSITIONS NET-NEGATIVE MASS.
+   Doc: phase2b_ensemble_results.md (+verifier a80a2ba1293f453ef, STANDS at O(A^2)). Multi-mode self-
+   gravitating packets exist+converge (~1e-11) but every composition has net-NEGATIVE Misner-Sharp mass.
+   Cross/interference terms survive the time+angle average ONLY IF l_i=l_j AND omega_i=omega_j (TWO selection
+   rules; angle rule via the self-adjoint Laplace-Beltrami operator) => mass ADDITIVE over individually-
+   negative modes => never positive; the only surviving (exact-degenerate) channel makes M MORE negative.
+   No selection/structure; box-controlled (mixed-l Bessel ladder, no new scale). Single-mode m/norm^2=-0.905
+   (normalization-INDEPENDENT, = Phase-1). Premises: O(A^2) single-time-harmonic, bare vacuum, finite cell.
+   Status: STANDING (blind-verified at O(A^2)). CONDITIONS-CHANGED reopener: O(A^4)/multi-time-harmonic
+   (non-degenerate cross terms re-enter); the gated native-matter step.
