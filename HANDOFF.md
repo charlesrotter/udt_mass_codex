@@ -1,6 +1,30 @@
 # HANDOFF — Resume Instructions and Perspective
 
-## *** 2026-06-18 FOUNDATION TURN (read FIRST; SUPERSEDES the closed-time framing below) ***
+## *** 2026-06-18 (LATEST/continued) FRONTIER — GOAL CLARIFIED + CIRCULARITY CHECK (read FIRST) ***
+Read STATE.md TOP (2026-06-18 LATEST/continued block) first; then the FOUNDATION TURN block below.
+- GOAL (Charles, definitive): **GR-STANDARD emergence** — mass-energy is PRESENT and the dilation-metric
+  SHAPES it into discrete definite-mass particles (= the critical-energy hypothesis: enough mass-energy is
+  NEEDED to form particles). NOT matter-from-nothing. "UDT's own matter" = UDT's NATIVE field (area-form/
+  angular, S^2/pi_2, N=3, q=1/3) used the STANDARD GR way (sources the metric via Einstein), NOT external SM.
+- WHAT UDT IS: OBSERVER-FRAME (Sense 1); NO local-physics modification (local c=c0, rest mass=m0, hbar fixed);
+  dilation is comparative/as-seen-from-afar; departs from GR ONLY at the extremes (|phi| large), GR at phi~0;
+  clocks & rulers diverge reciprocally (time ~ e^{-phi}, space ~ e^{+phi}).
+- **CIRCULARITY CHECK (direct read of complete_metric_batched.py):** the committed matter sector is
+  GR-COUPLED (constant xi,kappa,8pi; standard sqrt(-g)); the e^{-2phi} sits ONLY inside X=e^{-2phi}Theta'^2 as
+  the metric contraction g^{rr} (present at a=-1), angular Y carries no phi. => the UDT source weight
+  e^{(a+1)phi} (a!=-1) is **GENUINELY NEW, not in the code, not a relabel** (NOT circular). IMPLICATION: the
+  prior catalog/#56 were GR-COUPLED = GR answers, not UDT answers, IF a!=-1.
+- a: DERIVED + blind-verified (a4ff94f, STANDS-COND; udt_a_exponent_derivation_results.md): **a is
+  UNDER-DETERMINED** — menu {-3,-1,0,+1,+3}; **a=-1 (UDT field eqns = GR, via Killing/afar energy) is
+  ADMISSIBLE => "a!=-1 / UDT modifies GR locally" is NOT proven.** PIN a = compute UDT's matter soliton's
+  COVARIANT rest-mass two ways (timelike-Killing energy [likely a=-1] vs matter-action Noether charge); if
+  =Killing => a=-1 => UDT novelty is GLOBAL/structural, not local-coupling. THAT is the decisive next push.
+- NEXT (gated): (1) PIN a (confirm a!=-1 + value); (2) IF a!=-1, RE-RUN the matter-present solve with the
+  CORRECT UDT weight e^{(a+1)phi} (NOT the GR-coupled committed version, NOT the imported-BC catalog #61) and
+  OBSERVE whether particle structure/definite masses emerge. Solid narrow claim = the weight is NEW; a's value
+  + whether it makes masses are OPEN. CANON C-2026-06-18-1 + bare-vacuum no-go's (#62/#63/#64) still hold.
+
+## *** 2026-06-18 FOUNDATION TURN (read after the LATEST/continued block above; SUPERSEDES the closed-time framing below) ***
 Charles re-anchored on the BARE program: solve the metric on its own, impose NOTHING, let structure
 EMERGE; UDT EXTENDS GR and MUST REMAIN RELATIVISTIC; borrow GR numerics for tractability only. Then:
 - CANON **C-2026-06-18-1** (blind-verified): the metric FORM is DERIVED from "remain relativistic" —

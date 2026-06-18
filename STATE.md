@@ -1,9 +1,63 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-18 (LATEST) — UDT FIELD EQUATIONS DERIVED (blind-verified): the whole modification
-is ONE number 'a' (mass-dilation exponent) in the matter source weight e^{(a+1)phi}; vacuum = GR exactly;
-UDT modifies GR IFF a!=-1; principle doesn't pin a. NEXT CRUX = PIN 'a' (a matter-sector question).
+Last update: 2026-06-18 (LATEST/continued) — GOAL definitively clarified (GR-STANDARD emergence: present
+mass-energy SHAPED by the dilation-metric into discrete particles; NOT matter-from-nothing). CIRCULARITY
+CHECK by direct code-read: the committed matter sector is GR-COUPLED (no e^{(a+1)phi} weight) => the UDT
+source weight is GENUINELY NEW, not a relabel — and the prior catalog/#56 were GR answers, not UDT ones.
+The 'a' derivation is DONE (blind-verified a4ff94f, STANDS-COND): **a is UNDER-DETERMINED** — a=-1 (UDT
+field eqns = GR, via the Killing/afar energy) is ADMISSIBLE, so "a!=-1 / UDT genuinely modifies GR" is NOT
+proven; candidates span GR(-1) AND modified(0,+1,-3,+3). PIN a = compute UDT's matter soliton's COVARIANT
+rest-mass two ways (timelike-Killing energy [likely a=-1] vs matter-action Noether charge) = the decisive
+next push. (Extends the field-equations block below.)
+
+## 2026-06-18 (LATEST/continued) — GOAL CLARIFIED + CIRCULARITY CHECK: THE UDT SOURCE WEIGHT IS GENUINELY NEW (NOT IN THE COMMITTED CODE); PRIOR MATTER RESULTS WERE GR-COUPLED
+
+Continues the field-equations block below (same day). Charles tightened the goal and the driver ran a
+direct-read circularity check on the committed solver. No new canon; the narrow solid claim is small but
+load-bearing. Lay PONDER throughout.
+
+- GOAL CLARIFIED (Charles, definitive): the program is **GR-STANDARD emergence** — mass-energy is PRESENT
+  and the dilation-modified metric SHAPES it into discrete, definite-mass particles. This IS the critical-
+  energy hypothesis (enough mass-energy is NEEDED for particles to form). It is NOT matter-from-nothing.
+  "UDT's own matter" means UDT's NATIVE field (the area-form/angular content: S^2/pi_2, N=3, q=1/3) used
+  the STANDARD GR way — it SOURCES the metric via Einstein's equations — NOT external SM matter. The live
+  question: do the dilation-MODIFIED field equations + present mass-energy produce particle structure?
+- WHAT UDT IS (Charles, confirmed; in relativistic-foundation memory): OBSERVER-FRAME (Sense 1), NO
+  modification to LOCAL physics (local c=c0, local rest mass=m0, hbar fixed). The dilation is comparative /
+  as-seen-from-afar (c & time slow at the cosmic boundary, speed up toward the core, as seen from afar);
+  departs from GR ONLY at the extremes (|phi| large); GR in the middle (phi~0). Clocks & rulers DIVERGE
+  reciprocally (time ~ e^{-phi}, space ~ e^{+phi}).
+- *** THE CIRCULARITY CHECK (this session, by DIRECT read of complete_metric_batched.py) ***: answers
+  Charles's "is the new weight revelatory or circular?" worry. The committed matter sector is GR-COUPLED —
+  constant couplings xi, kappa, 8pi, standard sqrt(-g) coupling. The e^{-2phi} that appears in its source
+  sits ONLY inside X = e^{-2phi} Theta'^2 as the metric contraction g^{rr} (geometry, present already at
+  a=-1), and the angular term Y carries NO phi. => the UDT mass-dilation source weight e^{(a+1)phi} (for
+  a != -1) is NOT in the committed code. It is GENUINELY NEW — a real addition, NOT a relabel of the
+  existing metric-contraction factor. (NOT circular.)
+- IMPLICATION (sharp): the prior matter results — the winding catalog, #56 — were effectively GR-COUPLED
+  (a = -1 equivalent), MISSING the UDT modification. So they are **GR answers, not UDT answers, IF a != -1.**
+  The real UDT matter-present solve has not yet been run.
+- THE EXPONENT a — DERIVED + BLIND-VERIFIED (a4ff94f, STANDS-COND; udt_a_exponent_derivation_results.md):
+  **a is UNDER-DETERMINED.** Sign-careful kinematics give a menu {-3,-1,0,+1,+3}, the value hinging on HOW
+  the localized object's rest-mass is defined: mass-as-energy (clock/afar redshift) => a=-1 = standard GR;
+  mass-as-length (Compton/ruler) => a=+1; Sense-1-literal (local m0 fixed) => a=0. Charles's "no single
+  metric rate to ride" is vindicated STRUCTURALLY but does NOT force a!=-1 — **a=-1 (UDT = GR) remains
+  admissible.** So "UDT genuinely modifies GR locally" is NOT proven. PINNING a needs a COVARIANT rest-mass
+  definition not yet computed: the timelike-Killing energy at infinity (likely => a=-1) OR the matter
+  action's Noether charge. If covariant mass = Killing energy => a=-1 => UDT's novelty is GLOBAL/structural,
+  not a local-coupling modification (consistent with where the macro successes live).
+- NEXT (gated on Charles): (1) PIN a = compute UDT's actual matter soliton's COVARIANT rest-mass two ways
+  (timelike-Killing energy vs matter-action Noether charge); whether they agree, and the value, settles the
+  whole "is UDT genuinely modified GR (a!=-1) or GR-in-disguise / global-only (a=-1)" question — the
+  decisive, computable cliff-edge. (2) IF a != -1, RE-RUN the matter-present solve with the CORRECT UDT
+  source weight e^{(a+1)phi} (NOT the GR-coupled committed version, NOT the imported-Skyrme-BC catalog #61)
+  and OBSERVE whether particle structure / definite masses emerge. HONEST STANCE (Charles): we cannot yet know this solves everything or
+  is fully rigorous; the solid, narrow claim is that the weight is NEW (not in the code); the value of a
+  and whether it produces masses are OPEN.
+- STILL TRUE (keep): CANON C-2026-06-18-1 (metric form derived from relativity; modification = matter
+  source weight e^{(a+1)phi}; vacuum = GR/Birkhoff exactly). The bare-vacuum geon program (Phases 0/1/2a/2b,
+  NEGATIVES #62/#63/#64) is DONE + confirmed: vacuum is barren in UDT as in GR — you need matter.
 
 ## 2026-06-18 (LATEST) — UDT'S FIELD EQUATIONS DERIVED: THE WHOLE MODIFICATION IS ONE NUMBER 'a' IN THE MATTER SOURCE
 
