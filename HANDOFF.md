@@ -44,8 +44,33 @@ STATE.md top block + winding_platonic_phase3b_results.md (with its grid-converge
   ("spectrum") solver — Charles's hunch is it may BUILD ITSELF as the natural modes of these classical
   objects ([[no-presumed-quantum-sector]], the angular sector = QCD/QED reverse-engineering clue-source).
   Both are gated on Charles's go. m=4 + finer-grid (Nps>=12) m=3 tetrahedral check are smaller open items.
+- FOUR-CLUSTER BRANCH AUDIT (cross_session_recon_2026-06-17.md, all to OUR standards): box-control
+  CONFIRMED (free-BC test + independent re-run); #51 (non-unit carrier) is REAL but QUARANTINED to the
+  shelved single-cell-V line -- our soliton/catalog/canon use the UNIT S^3 carrier and are UNAFFECTED (we
+  do NOT need to close #51 for main); phi-angular dynamical-resonance "dead" is only PROVISIONAL/one-channel
+  (founding suspect NOT retired); pilot-wave/Schrodinger = HOSTING not emergence (generic-relativity + parked
+  hbar); native Born measure e^{phi} HOLDS. 3 provisional cross-session negatives imported to NEGATIVES_REGISTRY.
+- THE "i" FINDING -> AN SM-ASSUMPTION DERIVED [[udt-derives-sm-assumptions]] (Charles reframe 2026-06-17):
+  the quantum "i" (complex structure) is a POSTULATE in QM/SM; the branch found (structural part native +
+  audit-unrefuted) that i = the S^2 AREA FORM = the topological charge (N=3,q=1/3). => UDT may DERIVE the
+  "why is QM complex" assumption (the GOOD kind of win: derive an SM ASSUMPTION, never reproduce an SM
+  ENTITY). Caveat: ponder/MAP-grade identification; the i-FLOW (dynamics) is the parked clock/hbar gap.
+  LEDGER (derive vs share): i=candidate DERIVE; fermion=SHARED postulate (Berry phase 0); Born=partial.
+- GAP UNIFICATION (the sharp result): the flowing-i, the de Broglie carrier, the rest-energy clock, and
+  hbar are ALL THE SAME ONE missing input -> candidate source = the CLOSED-TIME / seal sector. THREE
+  independent threads -- lepton mass FAMILY (generations), the native WAVE, and the quantum i -- ALL
+  converge on the closed-time selector.
 
-(Refreshed 2026-06-16. The prior HANDOFF described the quantum-completion / coin-flip
+*** RECOMMENDED NEXT PUSH (driver, 2026-06-17): the CLOSED-TIME / non-stationary selector (#57 done
+PROPERLY -- full dynamical, not static-linearized). It is now the single high-value, de-risked target:
+(a) three threads converge on it; (b) the box-control dead-end is ruled out (don't build a single-cell
+fluctuation spectrum); (c) #51 shown not to threaten main; (d) the SM-assumption lens says a win here
+= deriving "why QM is complex" + the dynamics (foundational, not hosting). MAP it first (premise ledger,
+lay PONDER with Charles) -- it is a new dynamical sector, gated DERIVE discipline applies. The fork's
+option (A) (research-grade solver to pin m>=2 absolute masses) remains valid but lower-value than (B);
+absolute masses may also be moot if generations live in the closed-time spectrum (ratios, grid-robust).
+
+(Refreshed 2026-06-16/17. The prior HANDOFF described the quantum-completion / coin-flip
 frontier — that line is now SHELVED; see the reframe below.)
 
 ## THE GOAL — READ BEFORE ANYTHING ELSE

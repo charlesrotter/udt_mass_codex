@@ -184,3 +184,16 @@ sectors remain open.
    non-axisym + winding search.
 6. ONE tile: the 3-D non-axisym/winding CATALOG verdict is still BLANK; what is newly
    filled is the 3-D ROUND recovery + the correct 3-D physics machinery.
+
+## FRONTIER POINTER (2026-06-17 LATER) — the CLOSED-TIME selector (criterion 7, "ring")
+Cross-session recon + audit (cross_session_recon_2026-06-17.md) sharpened the next target. The STATIC
+sectors are now well-covered/closed: criteria 1-6,8,9 for the winding catalog (m=1 stable; m>=2 non-axisym
+coupled-stable; absolute masses NOT grid-convergeable = a tooling negative); criterion-8/9 single-cell
+fluctuation SPECTRUM = BOX-CONTROLLED (audited) -> NOT the lepton family. THE OPEN HIGH-VALUE TILE is
+criterion 7 DYNAMICAL CHARACTER = "ring" (time-periodic / CLOSED-TIME / non-stationary), done PROPERLY
+(full dynamical, not static-linearized #57). THREE threads converge there: lepton mass FAMILY
+(generations), the native de Broglie WAVE, and the quantum "i" (all = ONE missing input: the rest
+clock/hbar/flowing-phase). SM-assumption lens [[udt-derives-sm-assumptions]]: a win there derives "why QM
+is complex" (the i = S^2 area form) + the dynamics. Tile H (quantum-appearing observations) is downstream
+of this. Reusable for any deep-phi spectral work: the branch's exact fluctuation operator + mpmath
+log-grid dps>=50 (float64 garbage in deep-phi).

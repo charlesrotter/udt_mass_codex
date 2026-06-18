@@ -1,7 +1,35 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-17 — Phase 3b: winding shapes/stability characterized; m>=2 masses UNSETTLED (tool gap = minimizer).
+Last update: 2026-06-17 (LATER) — cross-session recon + audit; the CLOSED-TIME selector is the next target.
+
+## 2026-06-17 (LATER) — CROSS-SESSION RECON + AUDIT; THREE THREADS CONVERGE ON THE CLOSED-TIME SECTOR
+
+Read HANDOFF.md top (refreshed) first, then cross_session_recon_2026-06-17.md (the mined parallel branch
+origin/session-2026-06-17 -- quantization-emergence fork, NOT merged; we keep main). Audited to OUR standards.
+
+WHAT THIS SETTLED (all recorded; nothing merged):
+- BOX-CONTROL (audited, holds): a single-cell FLUCTUATION/"vibration-notes" eigenvalue solver will NOT give
+  lepton ratios -- omega^2~1/R^2, the box's own ladder. DON'T build it. [[single-cell-spectrum-box-controlled]]
+- #51 (non-unit carrier): REAL but QUARANTINED to the shelved single-cell-V line; our soliton/catalog/CANON
+  use the UNIT S^3 carrier and are UNAFFECTED -- do NOT need to close #51 for main.
+- phi-angular dynamical-resonance "dead": only PROVISIONAL / one channel / forced premise -- founding suspect
+  NOT retired (topological/closed-time forms untouched). 3 provisional cross-session negatives -> NEGATIVES_REGISTRY.
+- pilot-wave/Schrodinger from the branch = HOSTING not emergence (generic relativity + parked hbar); native
+  Born measure e^{phi} HOLDS; object-identity (branch S^2 texture vs main S^3 Skyrme) = open reconciliation.
+- THE "i" = AN SM ASSUMPTION DERIVED (Charles reframe): quantum "i" (complex structure) is a QM/SM POSTULATE;
+  the branch found i = the S^2 AREA FORM = the topological charge (N=3,q=1/3), structural part native+unrefuted.
+  => UDT may DERIVE "why QM is complex" (derive an SM ASSUMPTION, not reproduce an SM entity).
+  [[udt-derives-sm-assumptions]]; ledger: i=DERIVE candidate, fermion=SHARED, Born=partial.
+- GAP UNIFICATION: flowing-i = de Broglie carrier = rest clock = hbar = ONE missing input; source candidate =
+  the CLOSED-TIME / seal sector.
+
+THE FRONTIER (next push, gated): the CLOSED-TIME / non-stationary selector (#57 done PROPERLY, full dynamical).
+THREE threads converge on it -- the lepton mass FAMILY (generations), the native WAVE, the quantum i. De-risked
+(box-control ruled out; #51 not a threat; SM-assumption lens defines the win = derive "why complex" + dynamics).
+MAP first (premise ledger, lay PONDER). Lower-value alt: research-grade solver to pin m>=2 absolute masses
+(may be moot if generations are the closed-time spectrum = ratios). Reusable if spectral work: the branch's
+exact deep-phi operator + mpmath log-grid dps>=50.
 
 ## 2026-06-17 — PHASE 3b: WINDING GROUND-STATE SHAPES + STABILITY (m>=2 mass NOT yet converged)
 
