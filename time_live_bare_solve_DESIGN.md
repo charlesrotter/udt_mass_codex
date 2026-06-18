@@ -457,3 +457,31 @@ DESIGN only. No solve run. Awaiting Charles's check + the five open decisions
   LEGITIMATE recordable result (the physics is in the ratios), NOT to be patched with a hand-scale.
 
 STATUS: decisions locked; design pending a blind faithfulness red-team, then Phase-0 build.
+
+---
+
+## RED-TEAM REVISIONS ADOPTED (2026-06-18, verifier ac721580ce18bc99c; Charles: go)
+
+Verdict was REVISE-FIRST. Frame + all DECISIONS-LOCKED survive; these are technical fixes:
+1. *** BIRKHOFF ***: the ROUND (spherical) + diagonal + vacuum class is STATIC BY THEOREM —
+   the vacuum momentum constraint gives G_Tr = 2 d_T(phi)/r, so G_Tr=0 => d_T phi = 0. UDT's
+   B=1/A tie IS Schwarzschild's AB=1 (no extra DOF), so Birkhoff stands. => a round empty cell
+   CANNOT have a rhythm. C-2026-06-13-1's "diagonal sector propagates in T" does NOT rescue it
+   (that carried the L2+L4 MATTER source; empty => gone). CONSEQUENCE: "round" and "static" are
+   the SAME trap (round forces static). Structure (a vacuum geon) can ONLY live in the NON-ROUND
+   class: quadrupole (l>=2) and/or rotation (off-diagonal g_Tpsi, frame-dragging). => Phase-1 is
+   the NON-ROUND solve; the round/diagonal case is demoted to a static/gauge SANITY CHECK only;
+   the box-control gate is only meaningful at Phase 2/3 (non-round).
+2. TIME-MIRROR BC: do NOT let the SPATIAL seal parity (Neumann/Dirichlet at the wall) dictate
+   which TIME-harmonics (cos/sin) survive — they are independent axes; tying them can pre-select
+   omega (a smuggle). Impose only the spatial wall BC; keep the full cos+sin (free-phase) harmonic
+   content; let the eigenvalue solve quantize omega honestly.
+3. SOLVER: commit to explicit-Jacobian dense Newton + pseudo-arclength continuation
+   (full3d_newton.py lineage). The matrix-free Jacobi-PCG is KNOWN to stall (CG step not a descent
+   direction) — NOT a fallback.
+4. PHASE-0 (re-targeted): (a) symbolically CONFIRM + BANK Birkhoff (round+diagonal+vacuum =>
+   d_T phi=0); (b) show the MINIMAL non-round extension (g_Tpsi rotation and/or l>=2) ESCAPES
+   Birkhoff (the constraint no longer forces d_T=0) => time-life is possible there; (c) feasibility:
+   the committed Einstein kernel accepts a live time-derivative slot + omega->0 returns static.
+
+STATUS: revisions adopted; Phase-0 build STARTED (Charles: go).
