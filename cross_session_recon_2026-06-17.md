@@ -79,3 +79,23 @@ PRE-REGISTERED but NOT RUN.
    heed the representative-coefficient + drop-L4 traps.
 3. Reconcile the OBJECT IDENTITY (global-monopole texture vs Skyrmion) before leaning on QCD-baryon analogy.
 4. Bell/seal (Check 3) is unrun and orthogonal to our solver — a separate future falsifier.
+
+## AUDIT of the box-control claim (2026-06-17) — CONFIRMED to our standards
+Charles flagged that the parallel session may not share our safeguards. Adversarial audit
+(agent a0c2d1dcae12a52fe, read-only on branch + independent re-derivation/re-run) VERDICT:
+**BOX-CONTROL HOLDS; the redirect is SAFE.**
+- Operator = genuine exact 2nd variation of the native reduced energy (L2+L4, full xi,kappa, correct
+  weight W~e^{3phi}); NOT a representative coefficient, L4 kept. Reproduced independently.
+- BC is NOT the artifact (the key risk): re-ran with a FREE (Neumann) seal -> still box-controlled
+  (omega^2*R^2 ~ const). Dirichlet is conservative (raises eigenvalues, can't hide a negative). So the
+  1/R^2 scaling is a property of the OPERATOR, not the wall.
+- 1/R^2 MEASURED, reproduced to all printed digits: omega^2*R^2 = 57.7/55.6/53.5/50.9 at R=8/16/32/64.
+- The interim "intrinsic unstable deep-phi mode" (omega^2~-0.55) RETRACTION is CORRECT (it was a
+  representative-coefficient/weight mis-normalization). Pre-registered + blind-verified there (conf 0.82),
+  category-A clean (only chosen value xi=kappa=1, ratio-robust).
+- GENUINE CAVEAT (both sessions share it): premise #51 -- the hedgehog carrier is NOT pointwise-unit
+  (|n|^2 = 1 - sin^2 Theta cos^2 theta), so the well's coefficients rest on that carrier; a true unit map
+  gives a different energy (65.7 vs corpus 4.74). Caps confidence <0.9. Does NOT undermine the box-control
+  redirect, but MUST be closed before building any DERIVE on this fluctuation operator.
+NET: the warning is trustworthy. Single-cell fluctuation spectrum is box-controlled (audited) -> do not
+build a lepton-mass-family solver on it; discreteness is topological/winding or closed-time/non-stationary.
