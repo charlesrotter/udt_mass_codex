@@ -52,13 +52,52 @@ charge (q=1/3, N=3).
    (1) does the medium-wave reproduce SCHRODINGER guiding? (2) does finite-cell
    TYPICALITY give |psi|^2? (3) does the seal reproduce EXACTLY the Bell correlations?
 
+## SESSION 2026-06-18 RESULT — PILOT-WAVE ARC RUN (Checks 1+2 + the keystone); see STATE_DERIVATION LATER-16..21
+hbar PARKED as input (Charles): emergence = STRUCTURE locks, not the NUMBER conjured.
+VERIFIED POSITIVES (modest, real): (a) UDT can HOST a relativistic-KG-Bohm pilot-wave
+architecture (guidance law, Bohm quantum potential, clean Schrodinger slow-limit flat at
+phi->0, native config measure sqrt(g)=e^{phi}r^2 sin th, finite closed cell = rigorous
+typicality setting) -- CAVEAT: the clock->wave eikonal step is GENERIC relativity, UDT-native
+there is only the graded-index refraction. (b) THE QUANTUM "i" HAS A NATIVE HOME = the S^2
+area form = the SAME object as the topological charge (N=3, q=1/3); i-STRUCTURE native, i-FLOW
+= the input. (c) THE WHOLE WAVE-FACE REDUCES TO ONE INPUT = the rest clock = parked hbar
+("no native rest clock" and "hbar is input" are the same gap).
+VERIFIED NEGATIVES: NO intrinsic spectral discreteness in the matter sector (box-controlled at
+the EXACT coefficient, l=0 AND l>=1; conjecture A re-confirmed from the matter side); the
+deep-phi "escape" lead was a representative-coefficient ARTIFACT (retracted). Born is SLOW-CORNER
+only (KG indefinite charge). Native discreteness stays TOPOLOGICAL (winding), not spectral.
+METHOD WIN: manual safeguards (pre-register + EXACT-not-representative coefficient + blind
+verifier) caught FOUR would-be-wrong bankings; recurring culprits = dropping L4 (the native
+stabilizer, essential to the QUANTUM structure) + representative coefficients.
+
+## THE LIVE FRONTIER NOW (open, Charles-gated)
+1. #51 FOUNDATIONAL FLAG (highest-leverage, likely WORKSTATION): the as-written corpus hedgehog
+   is NOT pointwise unit (|n|^2 = 1 - sin^2(Theta)cos^2(theta)); the reduced energy is
+   FIELD-CHOICE-DEPENDENT (non-unit carrier 4.74 = corpus; genuine-unit 65.7; normalized 5.345).
+   The matter-field DEFINITION / well-coefficient needs settling at the source. Caps confidence
+   on every matter-sector coefficient.
+2. EMERGENCE OF hbar ITSELF (un-park): the rest clock = hbar. Can the CLOSED-TIME / SEAL sector
+   supply a native rest-energy beat (a periodic time = a clock)? = the old conjecture-B "where the
+   i lives" + the i-FLOW (circulation) question. The deepest emergent-quantization prize.
+3. FUNDAMENTAL (non-slow-corner) BORN: the KG indefinite-charge sign problem -- is there a native
+   route (finite closed cell, e^{phi} measure, the seal) to positive Born beyond the slow corner?
+4. CHECK 3 (seal / Bell): untouched. Many-body guidance + does c_eff->inf at the seal reproduce
+   EXACTLY the Bell correlations (the sharpest falsifier)?
+
 ## NEXT-SESSION FIRST MOVES (conceptual MAP first, then gated)
-- The pilot-wave program's three checks ARE the frontier. Start check (1) or (2) as a
-  MAP: what would UDT's medium-wave guiding dynamics be? what is the finite-cell
-  configuration measure?
-- The hbar-geometric discriminator (is hbar a ratio of UDT's native scales?) is the
-  cleanest standalone test of "emergence."
-- Do NOT re-drill the dead/provisional dynamical mass-mechanisms.
+- Likely highest-leverage: settle #51 at the source (the matter-field unit-norm / coefficient) --
+  may be a WORKSTATION question (exact numerical soliton field content). Everything matter-sector
+  rests on it.
+- Or pursue (2) the emergence of the rest clock / hbar (closed-time/seal) -- the deepest prize,
+  the one route that could un-park hbar and make the wave-face FULLY emergent.
+- Do NOT re-drill the dead matter-sector spectral-discreteness routes (box-controlled, confirmed).
+
+## SESSION ARTIFACTS (2026-06-18, local branch)
+MAPs/PREREGs: quantization_check1_guiding_MAP.md, quantization_check2_born_MAP.md,
+check1_wall3_keystone_PREREG.md, matter_sector_potential_PREREG.md, with_L4_fluctuation_PREREG.md,
+deep_phi_mode_sign_PREREG.md. RESULTS (each with blind-verifier block): wall1_flowing_phase_results.md,
+check2_qmeasure_results.md, check1_wall3_keystone_results.md, matter_sector_potential_results.md,
+with_L4_fluctuation_results.md, deep_phi_mode_sign_results.md.
 
 ## HOUSEKEEPING
 - The `credential-manager-core` git warning is cosmetic; one-line fix:
