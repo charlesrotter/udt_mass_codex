@@ -1091,3 +1091,60 @@ tachyon (L4 dropped); (3) WITH-L4 "clean negative" (was shallow-only, deep untes
 "escape" instability+intrinsic (representative-coefficient artifact). The recurring culprits: dropping
 L4 (the native stabilizer, essential to the QUANTUM structure) and using representative instead of
 exact coefficients. Verifier-before-record + exact-coefficient discipline is VINDICATED.
+
+## 2026-06-18 (cont.) — CHECK 3 (seal/Bell) BREAK A: THE SEAL IS NOT THE NONLOCALITY CHANNEL
+
+Branch PUSHED to origin/session-2026-06-17 (Charles, 2026-06-18) -- the session is now durable +
+cross-machine (main still untouched). Then ran Check 3 BREAK A.
+
+MAP (quantization_check3_bell_MAP.md): the seal was re-characterized as a regular MIRROR FOLD (not a
+puncture) -> the LATER-10 ~15% interp-4 downgrade was CONDITIONS-CHANGED (strawman premise); fresh look.
+The decisive cheap probe = the seal's CAUSAL STRUCTURE: is c_eff->inf a NO-SIGNALING config-space-type
+connection (Bell-compatible) or a SIGNALING physical-space channel (super-quantum) or self/null?
+
+BREAK A RESULT (pre-registered seal_causal_structure_PREREG.md; OBSERVE agent ad123c35 + BLIND VERIFIER
+ab282782, conf ~0.82). VERDICT (c) WRONG-AXIS/NULL; (b) super-quantum RULED OUT:
+- NO-SIGNALING (good): c_eff->inf does NOT give a usable fast-signal channel. At the D=0 fold the spatial
+  3-slice det h ~ D pinches (one direction -> zero proper length); the angular null dispersion
+  omega^2=(f/D)k_th^2 forces a finite-energy signal to k_th~sqrt(D)->0 (infinite proper wavelength, no
+  localizable info); a localized signal costs omega->inf. Super-quantum/signaling EXCLUDED. (exact sympy,
+  both passes.)
+- SELF-CONNECTION (the kill): the fold is the FIXED surface of the same-minus involution -> it glues each
+  point to its OWN mirror image of the SAME cell, NOT a bridge between two INDEPENDENT particles. It
+  cannot mediate a two-particle Bell correlation. (Verifier confirmed; the inter-cell-crease rescue #6 is
+  unbuilt + the topological version is DEAD, LATER-12.)
+- TWO-LOCUS GAP (verifier catch, PARTIAL): the run computed the D=0 q*-fold, but conjecture B named the
+  phi->-inf (c_eff=f->inf) core endpoint -- a DISTINCT surface (f->inf => D->-inf, not 0). The verifier
+  analyzed phi->-inf itself (diagonal premise): SAME structure -- cone opens but modes FREEZE
+  (omega_local=omega*e^phi->0, confirming LATER-5's "sign backwards"), infinite coordinate energy,
+  self-reflection terminus. Verdict SURVIVES at the correct locus (strongly-indicated; a full-W6 phi->-inf
+  treatment would bank it cleanly).
+=> CONJECTURE B's "SEAL = Bell nonlocality" ROUTE IS REFUTED AT THE CATEGORY LEVEL (premise-scoped): the
+seal is no-signaling (not super-quantum) but a self/terminus identification, NOT a link between
+independent particles. The pilot-wave program's most-touted native asset ("the seal fills the
+where-does-entanglement-live gap") DOES NOT hold. Two-particle nonlocality needs a DIFFERENT home
+(candidates, all unbuilt: the config-space measure as posited Bohmian nonlocality [not a native
+mechanism]; the closed-time sector B2; an inter-cell shared crease).
+
+=== SESSION CONSOLIDATION UPDATE (all three checks now mapped + probed) ===
+PILOT-WAVE PROGRAM, honest scorecard after Checks 1-3:
+- Check 1 (guiding): architecture hostable; i = S^2 area form (native home); wave-face = ONE input
+  (rest clock = parked hbar). The clock->wave step is generic relativity; UDT-native = graded-index
+  refraction + the i-home.
+- Check 2 (Born measure): native e^{phi} config-space weight; the square resolved (by the keystone) to
+  the e^{2phi} branch but SLOW-CORNER only (KG indefinite charge) -- not yet fundamental Born.
+- Keystone (guidance law, full field): PARTIAL -- guidance + Bohm quantum potential + clean Schrodinger
+  slow-limit are real; matter sector has NO intrinsic spectral discreteness (box-controlled at the EXACT
+  coefficient; deep-phi "escape" was an artifact). Native discreteness stays TOPOLOGICAL.
+- Check 3 (nonlocality): the SEAL DOES NOT provide it (no-signaling but self/terminus). The program's
+  many-particle nonlocality is HOMELESS.
+NET: UDT can host the SINGLE-PARTICLE pilot-wave architecture given the one input (rest clock = hbar),
+with the "i" natively homed; but (a) Born is only slow-corner, (b) there is no intrinsic spectral
+discreteness (topological only), and (c) the MANY-PARTICLE nonlocality the program most needs is NOT
+supplied by the seal. The pilot-wave reading is a viable SINGLE-PARTICLE host, NOT yet a complete
+many-body quantum theory. Honest, premise-scoped, and the cleanest map of the program to date.
+
+OPEN FRONTIER (updated): (i) #51 foundational field-definition (workstation); (ii) emergence of hbar
+itself (closed-time/seal rest clock; un-park); (iii) fundamental (non-slow-corner) Born; (iv) a NEW HOME
+for two-particle nonlocality (the seal is out) -- the config-space measure, closed-time B2, or an
+inter-cell crease. Method: the four-safeguard discipline is vindicated; keep it on every result.

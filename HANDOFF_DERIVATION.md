@@ -81,8 +81,16 @@ stabilizer, essential to the QUANTUM structure) + representative coefficients.
    i lives" + the i-FLOW (circulation) question. The deepest emergent-quantization prize.
 3. FUNDAMENTAL (non-slow-corner) BORN: the KG indefinite-charge sign problem -- is there a native
    route (finite closed cell, e^{phi} measure, the seal) to positive Born beyond the slow corner?
-4. CHECK 3 (seal / Bell): untouched. Many-body guidance + does c_eff->inf at the seal reproduce
-   EXACTLY the Bell correlations (the sharpest falsifier)?
+4. CHECK 3 (seal / Bell): BREAK A DONE -- the SEAL DOES NOT provide the nonlocality. It is
+   NO-SIGNALING (super-quantum ruled out) but a SELF/TERMINUS identification (same-minus involution
+   glues a point to its own mirror image of the SAME cell), NOT a link between two independent
+   particles -> cannot mediate a two-particle Bell correlation. Conjecture-B "seal=nonlocality"
+   REFUTED at the category level (premise-scoped; exact at D=0, strongly-indicated at phi->-inf;
+   a full-W6 phi->-inf treatment would bank it cleanly). seal_causal_structure_results.md (OBSERVE
+   ad123c35 + verifier ab282782). => MANY-PARTICLE NONLOCALITY IS NOW HOMELESS for the program;
+   candidates (all unbuilt): the config-space measure (posited Bohmian, not a native mechanism),
+   the closed-time sector (B2), an INTER-cell shared crease (two distinct cells gluing -- the one
+   geometric rescue, #6, untested). This is the sharpest open question.
 
 ## NEXT-SESSION FIRST MOVES (conceptual MAP first, then gated)
 - Likely highest-leverage: settle #51 at the source (the matter-field unit-norm / coefficient) --
