@@ -26,11 +26,21 @@ STATE.md top block + winding_platonic_phase3b_results.md (with its grid-converge
   injects non-axisym structure into steep solitons; m=2 oblate 16.9->41->94 diverges). FRESH per-grid m=1
   IS grid-stable. NET: catalog STRUCTURE solid + m=1 mass pinned (~0.29-0.30), but m>=2 ABSOLUTE MASSES
   are NOT grid-convergeable with current machinery. Banked m=2 = at-grid only (oblate ~12.2-12.4 @18x8x8).
+- CROSS-SESSION RECON (cross_session_recon_2026-06-17.md): mined the parallel branch
+  origin/session-2026-06-17 (quantization-emergence fork, NOT merged; we keep main). KEY USABLE FINDING
+  that REDIRECTS fork B: a SINGLE-CELL FLUCTUATION/"vibration-notes" eigenvalue solver is BOX-CONTROLLED
+  (4x blind-verified there) -- it will NOT give lepton ratios; only the box's integer ladder is intrinsic.
+  Escape (convergent both sessions): discreteness is TOPOLOGICAL (winding) or in the CLOSED-TIME/non-
+  stationary sector. Lepton GENERATIONS (same charge) are NOT the winding catalog (=charge) NOR the
+  box-controlled breathing tower => most likely the CLOSED-TIME selector (#57 done properly). Reusable:
+  their exact deep-phi fluctuation operator + mpmath log-grid dps>=50 recipe (float64 garbage in deep-phi).
+  TENSION to reconcile: they identify the single-cell soliton as a global-monopole TEXTURE (Barriola-
+  Vilenkin, Hopf=0), NOT a Skyrmion -- hold our "Skyrme B=2 torus" reading loosely.
 - THE FORK (Charles's call): (A) RESEARCH-GRADE solver upgrade to pin m>=2 masses (fix/replace the
   matrix-free solver -- debug why the CG step isn't a descent direction; or a refinement that doesn't
   inject non-axisym structure; or Shamanskii/chord Jacobian-reuse to amortize the dense build); OR
-  (B) REFRAME -- accept the structural catalog (sectors/shapes/stability/m=1 mass) as the deliverable and
-  move to the EIGENVALUE/standing-wave
+  (B-REDIRECTED) the quantum/spectrum route -- but NOT the box-controlled single-cell fluctuation
+  spectrum; target the CLOSED-TIME/non-stationary selector (#57 done properly) or the topological/winding
   ("spectrum") solver — Charles's hunch is it may BUILD ITSELF as the natural modes of these classical
   objects ([[no-presumed-quantum-sector]], the angular sector = QCD/QED reverse-engineering clue-source).
   Both are gated on Charles's go. m=4 + finer-grid (Nps>=12) m=3 tetrahedral check are smaller open items.
