@@ -99,26 +99,17 @@ says ready (gated DERIVE).
    new, independently-validated full-4D Einstein engine; blind-verified. CANON
    C-2026-06-14-1 SURVIVES — the gate CONFIRMS its EOS-softening refinement (B=1/A is
    exact only in the unwound exterior). Fixed by freeing B=1/A → the corrected #56.
-4. THE CATALOG QUESTION — does UDT carry a DISCRETE CATALOG of distinct stable types, or
-   just one round family (which carries mass)? Charge-1 static axisym matter-free search
-   (#59): NO disconnected type (blind-verified; a real off-round L4 EL bug was found + the
-   null survived it). The full-3-D spectral run (#60) then BUILT + VALIDATED the full-3-D
-   machinery (round soliton recovered in the ψ-live basis, gate PASS, M_MS=0.281) but the
-   OFF-ROUND search is SOLVER-LIMITED (the matrix-free Jacobi-PCG iterative solve won't
-   converge off-round) ⇒ INCONCLUSIVE, catalog STILL OPEN. Net: every STATIC search to date
-   returns a CONTINUUM / one round family / no catalog.
-5. *** THE NEW PERSPECTIVE (2026-06-16) — the catalog may be a DYNAMICAL SPECTRUM, not
-   static cells *** ([[particle-catalog-frame]] sharpening). Discreteness in nature is
-   typically STANDING-WAVE / SPECTRAL (atomic spectra = eigenvalues of a wave equation, not
-   a catalog of static lumps). The lepton-relevant axis (DEPTH) is a CONTINUUM with NO STATIC
-   selector (#54/#56) — exactly the setup where a standing-wave / EIGENVALUE condition imposes
-   discreteness. So the lepton FAMILY may be the discrete EIGENMODES of one continuous depth
-   family (DYNAMICAL) — living in an EIGENVALUE / standing-wave solver we have NOT built. The
-   static nulls then become EVIDENCE pointing there, not failures. This converges with the
-   quantum reframe (#6), the #57 time-periodicity selector (only ever probed via STATIC
-   linearized modes — not closed), and RG↔dilation. CAVEAT: the static catalog is NOT closed
-   (off-round #60 is solver-LIMITED, not a clean null), so this is a leading hypothesis, not
-   established.
+4. THE CATALOG QUESTION — RESOLVED this session (see the 2026-06-17 top block): the off-round wall was
+   BROKEN (Phase 2) and the catalog characterized (Phase 3/3b) — a discrete winding catalog of SECTORS
+   exists (m=1 round STABLE, mass grid-pinned ~0.29-0.30; m>=2 break to non-axisym oblate/toroidal,
+   coupled-stable); m>=2 ABSOLUTE masses are NOT grid-convergeable = a tooling negative. (The 2026-06-16
+   "#60 INCONCLUSIVE / solver-limited / catalog STILL OPEN" framing is RETIRED — HANDOFF_ARCHIVE.md.)
+5. DISCRETENESS-IS-DYNAMICAL ([[particle-catalog-frame]]) SURVIVES but is REDIRECTED: discreteness is
+   NOT a static catalog AND NOT a single-cell eigenvalue/standing-wave tower (the cross-session box-control
+   audit showed the latter is box-controlled — [[single-cell-spectrum-box-controlled]]). The lepton FAMILY
+   (generations) is the CLOSED-TIME / non-stationary selector (#57 done properly) — the live target (top
+   block). (The 2026-06-16 "build an eigenvalue solver of one depth family" plan is retracted —
+   HANDOFF_ARCHIVE.md.)
 6. THE QUANTUM REFRAMING ([[no-presumed-quantum-sector]]): do NOT presume a separate quantum
    SECTOR. Quantum-APPEARING observations (discreteness, spin, exclusion) are TARGETS the
    GEOMETRY may resolve (standing waves / eigenvalue / topology). The UDT/QCD–QED overlap is
@@ -172,14 +163,17 @@ says ready (gated DERIVE).
   Einstein+L2+L4 solver (exponential convergence, matter free, #59) — the conditioning cure for
   the FD coordinate-spike wall. VERIFIER-CHECKED via #59 (the off-round EL bug was caught there);
   NOT yet through a standalone infra-audit.
-- full-3-D spectral (Chebyshev_r × Gauss-Legendre_θ × Fourier_ψ): primitives + analytic 3-D Weyl
-  Einstein (pole-stable: flat=0, Schwarzschild exp, 2-D-match 1e-14) + CORRECT 3-D matter EL
-  (machine-zero on round, div(T) exact) — BUILT, internally VALIDATED (#60; round gate PASS,
-  M_MS=0.281). ⚠ NOT independently verified/audited (the #60 run was INCONCLUSIVE and its final
-  summary was lost to an API error) — AUDIT/VERIFY THIS before relying on it for a real search.
-  REMAINING WALL: the OFF-ROUND coupled SOLVE is solver-limited (matrix-free Jacobi-PCG too weak).
-  FIX (category-A conditioning, next session): block-SCF/KEH + continuation-from-round + a real
-  elliptic/block preconditioner (or coarse dense spectral grid). See SOLVER_COMPLETENESS_MAP tractability.
+- full-3-D spectral (Chebyshev_r × Gauss-Legendre_θ × Fourier_ψ): analytic 3-D Weyl Einstein
+  (pole-stable) + CORRECT 3-D matter EL. INFRA-AUDIT #2 CLEAN (2026-06-17,
+  infrastructure_audit_3d_2026-06-16.md; it corrected #60's overstated "machine-zero gate / div(T) exact"
+  — round recovery was ~1%, the div(T) gate was broken → fixed by divT_excised.py). The OFF-ROUND wall
+  is BROKEN by full3d_newton.py (Phase 2, category-A, value-equiv 1.4e-14, B=1/A free).
+- NEW this session (2026-06-17): full3d_newton.py (explicit-Jacobian Newton solver) · full3d_grid_shexact.py
+  (SH-exact θ for m≠0 winding; round bit-identical) · divT_excised.py (fixed conservation gate) ·
+  winding_catalog_map.py (winding seeds + diagnostics) · energy_minimizer.py (global-min basin-hop, WORKS
+  at a fixed grid) · cross_grid_branch.py (interp_state — but warm-start CONTINUATION DRIFTS, don't reuse).
+  ⚠ large_grid_solver.py (matrix-free 2-grid Newton-Krylov) STALLS — do NOT rely on it; m>=2 absolute-mass
+  grid-convergence is the open tooling negative.
 - BUG (fixed): axisym_matter_el.py was WRONG off-round (L4 sector) → axisym_matter_el_CORRECT.py;
   the 3-D EL (matter_el_3d_gen.py) is generated correct (div-identity test). Deprecate the buggy one.
 - verify_indep_einstein.py + the VERIF_*.py — independent verifier machinery.
@@ -191,41 +185,21 @@ says ready (gated DERIVE).
    (esp. the 2026-06-16b "catalog = dynamical spectrum" sharpening), macro-consilience-roadmap.
 2. SOLVER_COMPLETENESS_MAP.md — the coverage ledger + the TEN criteria (the operative map).
 3. THIS FILE + STATE.md (top block).
-4. NEGATIVES_REGISTRY.md #55/#56/#57/#58/#59/#60 (+ the results docs as needed:
-   whole_metric_solve_3D_results, radial_Bfree_soliton_results, spectral_catalog_solver_results,
-   full3d_catalog_results).
+4. NEGATIVES_REGISTRY.md (#55-#60 + the 3 cross-session imports) + this session's results docs:
+   off_round_solver_results, winding_catalog_verified_results, winding_platonic_phase3b_results
+   (with its grid-convergence CORRECTION + the energy-minimizer + the mass-grid-convergence NEGATIVE),
+   infrastructure_audit_3d_2026-06-16, cross_session_recon_2026-06-17. Older: whole_metric_solve_3D_results,
+   radial_Bfree_soliton_results.
 5. CANON.md (C-2026-06-14-1 + its EOS-softening refinement — SURVIVES the overturn).
 
-## QUEUE / next-session frontier (the 3-D run LANDED = #60, INCONCLUSIVE / solver-limited)
+## QUEUE / forward items (the LIVE next push is the top-block RECOMMENDED NEXT PUSH = the CLOSED-TIME selector)
 
-RECOMMENDED ORDER (driver, 2026-06-16; Charles asked for the sequencing): **lead with item 1,
-quickly, then make item 2 the centerpiece — NOT pure-parallel.** Reasoning: (a) they're largely
-INDEPENDENT (item 2 builds eigenmodes around the round #56 soliton we already have, so it is NOT
-blocked by item 1) — this is about optimal order, not necessity. (b) Item 1 is CHEAP, CERTAIN
-INSURANCE (the fix is textbook NR) that does DOUBLE DUTY: it closes the static-catalog door (a static
-winding-3 / platonic baryon could be sitting UNFOUND — current "no catalog" is SOLVER-LIMITED #60, not
-a clean null) AND it CONFIRMS the premise that justifies the whole item-2 investment (do NOT build the
-dynamical solver on an unconfirmed "static is empty"); it might find the geometric baryon en route, and
-it hands item 2 robust, well-conditioned backgrounds to perturb. (c) Item 2 is the CENTERPIECE — where
-the prize (discreteness) most likely IS (a dynamical spectrum), so it follows immediately, becoming the
-main thrust once item 1 has confirmed the premise. (d) NOT pure-parallel: two heavy from-scratch builds
-at once strain the get-it-right / constant-audit discipline + GPU + would build item 2 on an unconfirmed
-premise; the only good overlap is to SCOPE item 2 once item 1's search is grinding hands-off.
-HONEST EXCEPTION: if conviction that discreteness is dynamical is strong and the priority is fastest-to-
-prize, sprint at item 2 around the round soliton — but still slip a quick item-1 pass in first, so we
-don't declare "no static catalog" while a winding-3 baryon sits unfound.
+NOTE (2026-06-17): the 2026-06-16 "fix-static THEN build the single-cell eigenvalue solver" order is
+DONE / REDIRECTED and ARCHIVED in HANDOFF_ARCHIVE.md. Item 1 (fix the off-round static solver) = DONE
+(Phase 2, full3d_newton). Item 2 (single-cell eigenvalue/standing-wave solver) = REDIRECTED — the
+cross-session box-control audit retired it (a single-cell fluctuation spectrum is box-controlled). The
+live frontier is the CLOSED-TIME selector (see the top-block RECOMMENDED NEXT PUSH). Remaining forward items:
 
-1. FIX THE OFF-ROUND 3-D STATIC SOLVER (category-A conditioning only) to CLOSE the static-catalog
-   question: BLOCK-SCF/KEH (alternate metric-solve / matter-solve, each well-conditioned) +
-   CONTINUATION from the already-converged round #56 soliton + a real elliptic/block PRECONDITIONER
-   (or a coarse dense spectral grid). Then run the non-axisym + higher-winding search; a winding-3 /
-   platonic stable type may be the geometric BARYON (data-blind shape/mass/stability). Verifier-first.
-2. *** SCOPE / BUILD THE EIGENVALUE / STANDING-WAVE (DYNAMICAL) SOLVER *** — per the NEW PERSPECTIVE
-   (big-shift #5): this may be WHERE THE FAMILIES ACTUALLY LIVE (discrete EIGENMODES on the depth
-   continuum), not the static catalog. It's a natural extension of the breathing-mode (ω²) machinery,
-   and it's the #57 time-periodicity selector done PROPERLY (full dynamical, not static-linearized).
-   Arguably the higher-value build for the mass-pattern observation. (Both 1 and 2 are complementary:
-   1 closes the static door cleanly; 2 opens the door the evidence points at.)
 3. THREE-TIER ROADMAP (the tractability split — different builds, NOT one regime): STRUCTURE
    (mass/charge/static catalog) → the static solver (have it); SPECTRA (discreteness / the mass
    family) → the eigenvalue/standing-wave solver (item 2); PRECISION (g−2, Lamb shift, running
@@ -245,9 +219,11 @@ don't declare "no static catalog" while a winding-3 baryon sits unfound.
   26fc757. We predict RATIOS.
 - CANON C-2026-06-14-1 (B=1/A sourced by the angular sector; EOS-softened interior) — SURVIVES,
   confirmed by the whole-metric gate.
-- Native mass: corrected soliton M_MS ≈ 0.281 √(κ/ξ); the depth axis gives a super-exponential,
-  single-branch, no-native-selector mass family (#54/#56); winding m=2,3 are stable distinct
-  (charge) sectors.
+- Native mass: radial #56 soliton M_MS ≈ 0.281 √(κ/ξ) (radial-grid value); the full-3-D round m=1 mass
+  is grid-pinned ~0.29-0.30 (Phase 1/3b). The depth axis gives a super-exponential, single-branch,
+  no-native-selector mass family (#54/#56). Winding m=2,3 are distinct charge sectors that break to
+  NON-axisym (oblate/toroidal) coupled-stable ground states; their ABSOLUTE masses are NOT yet
+  grid-convergeable (tooling negative).
 - κ8 (back-reaction) is a FREE dial with a non-critical over-collapse ceiling (#52) — criticality
   is a conjecture, NOT supported in this regime.
 - Durable GEOMETRY: the seal = same-minus MIRROR FOLD = TIME REVERSAL (t→−t); Misner-Sharp mass =
@@ -269,6 +245,7 @@ NOT a catalog of static cells (the static searches keep returning continua, whic
 telling us we were looking for the wrong KIND of object). And there may be NO separate quantum sector
 at all: what we call "quantum" (discreteness, spin, the QCD/QED structures) may be the geometry's
 standing-wave / eigenvalue / topological behavior seen through the quantum calculational layer. Build
-the complete native solver (now: a static one that works to 2-D/round-3-D, plus a dynamical/eigenvalue
-one to build); audit it constantly; let structure emerge; match observations; never patch a "no" into
+the complete native solver (now: a static one that works to 2-D/round/off-round-3-D incl. the winding
+catalog, plus a CLOSED-TIME / non-stationary one to build — NOT a single-cell eigenvalue tower, which is
+box-controlled); audit it constantly; let structure emerge; match observations; never patch a "no" into
 a "yes"; and report each result as ONE tile with its regime, never "the capstone."
