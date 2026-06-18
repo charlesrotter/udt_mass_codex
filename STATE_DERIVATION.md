@@ -1020,3 +1020,74 @@ KG-sign/Born; (C) consolidate the session (the keystone arc is rich + honestly g
 native-i vs input-flow. NOTE: pursue the deep-phi mode as emergent-quantization structure
 (intrinsic discrete observable IF omega^2>0), NOT as a mass-hierarchy hunt (LATER-15); #44 already
 showed the spacing is not the lepton ladder.
+
+## 2026-06-18 (cont.) — DEEP-phi LEAD FULLY RETRACTED AT THE EXACT COEFFICIENT; #51 WRINKLE SURFACES
+
+Did (A''): RECON resolved #51 as "corpus consistent" (S^2 throughout, factor-2 native) -> so the
+deep-phi sign became a determinate computation with the EXACT native coefficient. Pre-registered
+(deep_phi_mode_sign_PREREG.md); OBSERVE agent a344cffa (opus) + BLIND VERIFIER a7997e76 (opus,
+independent re-derivation + delegated l>=1 eigensolve). Result: deep_phi_mode_sign_results.md.
+
+VERDICT (verifier conf 0.82, conclusion UNCHANGED by verifier): the deep-phi INTRINSIC/INSTABILITY
+LEAD IS FULLY RETRACTED at the exact native coefficient.
+- THE SIGN FLIPS to POSITIVE (stable): l=0 lowest omega^2 = +0.055 / +0.170 / +0.451 at p=0/1/2
+  (mpmath dps60=dps70=float64, independently reproduced). The prior omega^2<0 (verifier ae590d8c)
+  was a REPRESENTATIVE-COEFFICIENT ARTIFACT (s4=kappa=1, missing the L4 stabilizing terms; the
+  reduced-invariant Veff gives -5e7). The native well is STABILIZING, not destabilizing.
+- BOX-CONTROLLED at the exact coefficient: omega^2 R^2 -> per-depth const over a factor-8 cell
+  scan (omega^2 ~ 1/R^2). The "intrinsic / R-independent" property does NOT survive the exact
+  coefficient either. So BOTH legs of the lead (the instability AND the intrinsicness) are dead.
+- l>=1 (the gap): transverse operator POSITIVE-DEFINITE at all depths, no unstable non-Goldstone
+  mode; the prior l=1 omega^2~-0.3 reproduced ONLY on a non-stationary background = artifact. Iso-
+  rotation Goldstones at omega^2=0 (correctly identified). Lead retracted INCLUDING l>=1.
+=> the matter sector, done with the EXACT native coefficient, is BOX-CONTROLLED and STABLE --
+conjecture A confirmed AGAIN (now exact-coefficient, at depth, l=0 AND l>=1). Native discreteness
+remains TOPOLOGICAL (winding), NOT spectral. The deep-phi "first escape of the box wall" was a
+coefficient artifact.
+
+NEW WRINKLE (verifier-surfaced, supersedes the recon's "fully consistent"): #51 is NOT cleanly
+resolved. The as-written corpus hedgehog is NOT pointwise unit (|n|^2 = 1 - sin^2(Theta)cos^2(theta)
+!= 1, verified), and the reduced energy is FIELD-CHOICE-DEPENDENT (non-unit carrier -> 4.74 = corpus;
+genuine-unit map -> 65.7; normalized -> 5.345). The positive sign is robust AS the Hessian of the
+energy ACTUALLY IN USE, but "the exact native coefficient" rests on accepting that specific non-unit
+carrier. This is a real FOUNDATIONAL subtlety (the matter-field definition), likely a workstation /
+foundational question -- it caps confidence and should be a NEGATIVES_REGISTRY / foundational flag.
+It does NOT change the deep-phi retraction (box-controlled + stable under the corpus coefficient).
+
+=== SESSION CONSOLIDATION (2026-06-18) — EMERGENT-QUANTIZATION / PILOT-WAVE ARC ===
+GOAL (corrected, LATER-15): can QUANTIZATION be emergent geometry in UDT, and HOW -- the conceptual
+question, the whole quantum face. hbar PARKED as input (Charles): emergence = STRUCTURE locks, not
+the NUMBER conjured (forcing the number = predicting (m_e/m_Pl)^2, a miracle not to hang this on).
+
+VERIFIED POSITIVES (modest, real):
+- UDT can HOST a relativistic-KG-Bohm pilot-wave architecture: guidance law v^r=-c^2 e^{-4phi}S_r/S_t,
+  Bohm quantum potential, clean Schrodinger SLOW-LIMIT (flat at phi->0, e^{2phi} time-dilation
+  correction), native config-space measure sqrt(g)=e^{phi}r^2 sin th, finite closed cell = rigorous
+  typicality setting. CAVEAT (verifier): the moving-clock->wave eikonal closure is GENERIC relativity;
+  UDT-native there = only the graded-index refraction + the i-home.
+- THE QUANTUM "i" HAS A NATIVE HOME: the S^2 tangent-plane area form (Kahler J) = the SAME area form
+  that is the native topological charge (N=3, q=1/3). The imaginary unit of QM = the matter field's
+  internal area form. (Conceptual find. The i-STRUCTURE is native; the i-FLOW/circulation = the input.)
+- THE WHOLE WAVE-FACE REDUCES TO ONE INPUT: the rest clock = parked hbar (frequency=energy/hbar).
+  "No native rest clock" and "hbar is input" are the SAME gap. Clean localization of what is/isn't
+  emergent.
+
+VERIFIED NEGATIVES:
+- NO intrinsic spectral discreteness in the matter sector: box-controlled at the exact coefficient,
+  at depth, l=0 AND l>=1 (conjecture A, now 4th-5th independent confirmation incl. the matter side).
+  Native discreteness is TOPOLOGICAL only.
+- Born is SLOW-CORNER ONLY here (KG indefinite charge) -- not yet fundamental emergent Born.
+- The full-field quantum potential carries a derived phi-angular potential V, but V adds NO intrinsic
+  spectral structure (box-controlled, stable).
+
+OPEN / FLAGGED: (i) #51 -- the matter field's unit-norm/coefficient is under-resolved (foundational,
+likely workstation). (ii) emergence of hbar itself (un-park) -- the closed-time/seal route (deferred).
+(iii) fundamental (non-slow-corner) Born -- the KG-sign route. (iv) Check 3 (seal/Bell) -- untouched.
+
+METHOD WIN (loud): the manual safeguards Charles mandated (pre-register + EXACT-not-representative
+coefficient + independent blind verifier) CAUGHT FOUR corrections this session that would otherwise
+have banked WRONG results: (1) keystone over-claim "free box_g" (L4 dropped); (2) V-exam fake Derrick
+tachyon (L4 dropped); (3) WITH-L4 "clean negative" (was shallow-only, deep untested); (4) deep-phi
+"escape" instability+intrinsic (representative-coefficient artifact). The recurring culprits: dropping
+L4 (the native stabilizer, essential to the QUANTUM structure) and using representative instead of
+exact coefficients. Verifier-before-record + exact-coefficient discipline is VINDICATED.
