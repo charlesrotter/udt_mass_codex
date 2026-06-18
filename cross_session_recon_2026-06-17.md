@@ -204,3 +204,37 @@ USEFUL LENS opened: a LEDGER of which SM/QM foundational ASSUMPTIONS UDT DERIVES
   - Born rule -> PARTIAL/fork (native e^{phi} measure; indefinite-sign unsolved).
 Stakes on the closed-time route: if structural-i is native AND flowing-i comes from the closed-time
 sector, UDT derives BOTH "why complex" AND the dynamics = a foundational result, not just hosting.
+
+## CLOSED-TIME / SEAL AUDIT (2026-06-18) — the branch ran our planned next push; audited to OUR standards
+Branch added closed-time/rest-clock + seal/Bell work (hbar_emergence_closed_time_MAP, timerow_rest_clock_PREREG,
+nonstationary_opener_results, timerow_boxcontrol_confirm.py, seal_causal_structure_results). Audit agent
+a9230a3b8e085e9e2 (read-only + independent re-run in /tmp). VERDICTS:
+
+### Closed-time / rest-clock "box-controlled -> hbar input" = SCOPED (does NOT kill our route)
+- *** It is a LINEARIZED fluctuation on the STATIC soliton, NOT the full nonstationary solve. *** So the #57
+  caveat still applies; it rules out ONLY the linearized-on-static rest-clock, not the closed-time route.
+- The box-control itself reproduced + BC-ROBUST (re-ran Neumann vs Dirichlet outer BC: magnitude changes
+  -20 vs -4.3 but omega^2~1/R^2 scaling persists -> NOT a BC artifact); freq is M_MS-INDEPENDENT (M_MS const
+  to 0.7% while omega^2*R^2 const). Grade 0.85 (production-res + real-soliton confirmation pending).
+- The STATED mechanism is REFUTED by the branch's OWN verifier: the derive script used the C1 dilation action
+  ALONE (omitted L2+L4 stress in the H1 variation); with full L2+L4 the on-shell eqn is HYPERBOLIC not
+  elliptic -> a REAL oscillation (omega^2>0) DOES exist, just box-controlled. The "elliptic/relaxation/
+  omega^2<0" story must NOT be banked (grade ~0.05).
+- INHERITED premise flaw (unflagged by the result): built on radial_Bfree_soliton's UNIT S^3/SU(2) Skyrme
+  hedgehog -- the very class the branch's own MAP retired (object = S^2 global-monopole TEXTURE); + #51.
+
+### *** IMPACT ON OUR PLAN: the closed-time push is NOT blocked -- it is SHARPENED. ***
+Killed: a rest clock as a small oscillation ABOUT the static soliton (box-controlled, BC-robust). LEFT OPEN:
+(a) the FULL nonlinear coupled metric+matter time-evolution (never run -- GPU-flagged by author+verifier);
+(b) genuine closed/periodic time; (c) the whole thing on the CORRECT S^2-texture / settled-#51 field, not the
+retired S^3 Skyrme soliton. So our next push = the FULL NONSTATIONARY solve on the corrected field, with the
+linearized box-control as the PRE-REGISTERED FOIL to beat (it must produce an M_MS-tied periodic structure the
+linearized sector provably cannot).
+
+### Seal / Bell (Check 3 Break A) = SOUND, scoped
+The SEAL is NOT the Bell-nonlocality channel: at the mirror fold the cone opens (v^2~1/D) but the spatial det
+pinches (det h ~ D->0) => NO-SIGNALING (super-quantum ruled out, reparam-invariant); and the fold is the fixed
+surface of the same-minus involution => a SELF/TERMINUS identification (cell <-> its own mirror), the WRONG
+CATEGORY for a two-particle Bell link. Pre-reg + blind-verified (0.85 at D=0; 0.8 at the named phi->-inf locus,
+strongly-indicated not proven). LEAVES OPEN: the inter-cell shared-crease rescue (two distinct cells gluing --
+unbuilt) and many-particle nonlocality (now "homeless" -- the sharpest open Bell question).

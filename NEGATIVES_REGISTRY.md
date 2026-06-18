@@ -1769,3 +1769,17 @@ CS3. STATIC MULTI-CELL TILING + RELATIONAL-WINDING GIVE NO DISCRETE CATALOG.
 NB premise #51 (non-unit corpus 3-vector carrier): REAL but QUARANTINED to the shelved single-cell
 fluctuation-V line; our main soliton/catalog/canon use the UNIT S^3 4-vector and are UNAFFECTED (not a
 blocking negative for main). See cross_session_recon_2026-06-17.md cluster D.
+
+## Cross-session imports (origin/session-2026-06-17) — closed-time/seal, audited 2026-06-18 (PROVISIONAL)
+CS4. LINEARIZED TIME-ROW REST-CLOCK IS BOX-CONTROLLED (rest clock NOT native as a static-background mode).
+   Premises: LINEARIZED fluctuation on the STATIC soliton (NOT the full nonstationary solve); S^3/SU(2)
+   Skyrme background (object-identity retired by branch MAP; #51 unsettled); K=0 slice; reduced resolution.
+   Audited (a9230a3b): box-control BC-ROBUST (Neumann vs Dirichlet, omega^2~1/R^2 both) + M_MS-independent
+   (grade 0.85); the STATED elliptic/relaxation mechanism RETRACTED (full L2+L4 = hyperbolic, real osc exists
+   but box-controlled). Status: PROVISIONAL / blocks ONLY the linearized-on-static rest-clock form. Does NOT
+   block the FULL nonlinear nonstationary / closed-time solve (the live route) or a rebuild on the S^2 field.
+   CONDITIONS-CHANGED reopener: full nonstationary solve; corrected S^2/#51 carrier; production resolution.
+CS5. THE SEAL IS NOT THE BELL-NONLOCALITY CHANNEL (no-signaling + self/terminus = wrong category).
+   Premises: D=0 mirror fold exact (phi->-inf endpoint strongly-indicated, not proven on full W6); intra-cell
+   self-fold (inter-cell shared-crease UNBUILT). Closes: super-quantum signaling; "seal IS the Bell channel."
+   Leaves open: inter-cell crease rescue; many-particle nonlocality (homeless). Pre-reg + blind-verified (0.8).
