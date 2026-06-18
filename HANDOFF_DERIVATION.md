@@ -1,8 +1,8 @@
 # HANDOFF — Derivation Track resume point (2026-06-17)
 
 ## HOW TO RESUME
-- This work is on the LOCAL branch `session-2026-06-17` (NOT main, NOT pushed).
-  `main` is clean at the workstation's yesterday state (49292cf).
+- This work is on branch `session-2026-06-17`, now PUSHED to origin (2026-06-18, Charles) --
+  durable + cross-machine. `main` is clean/untouched (NOT merged).
 - Resume: `git checkout session-2026-06-17`; read this file, then STATE_DERIVATION.md
   (full session record, entries LATER-1..15), then the three `quantization_*.md`
   ponder artifacts (below).
