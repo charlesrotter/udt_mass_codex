@@ -1,15 +1,42 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-18 (LATEST/continued) — GOAL definitively clarified (GR-STANDARD emergence: present
-mass-energy SHAPED by the dilation-metric into discrete particles; NOT matter-from-nothing). CIRCULARITY
-CHECK by direct code-read: the committed matter sector is GR-COUPLED (no e^{(a+1)phi} weight) => the UDT
-source weight is GENUINELY NEW, not a relabel — and the prior catalog/#56 were GR answers, not UDT ones.
-The 'a' derivation is DONE (blind-verified a4ff94f, STANDS-COND): **a is UNDER-DETERMINED** — a=-1 (UDT
-field eqns = GR, via the Killing/afar energy) is ADMISSIBLE, so "a!=-1 / UDT genuinely modifies GR" is NOT
-proven; candidates span GR(-1) AND modified(0,+1,-3,+3). PIN a = compute UDT's matter soliton's COVARIANT
-rest-mass two ways (timelike-Killing energy [likely a=-1] vs matter-action Noether charge) = the decisive
-next push. (Extends the field-equations block below.)
+Last update: 2026-06-18 (close) — NEXT-SESSION REFRAME: QUESTION WHETHER UDT'S GRAVITATIONAL FIELD EQUATION
+ITSELF IS MODIFIED (the suspect "vacuum=GR/Birkhoff" folding-away of the varying-c(phi)^4-on-R coefficient =
+a varying gravitational coupling that GENERICALLY modifies the field equations even in vacuum). This goes
+FIRST, above/before PIN-a; it converges with Charles's boundary-tension anti-collapse GRAVITY HYPOTHESIS.
+See the top block below. (The prior "Last update" — GOAL clarified + circularity check + 'a' under-determined
+— is preserved in the LATEST/continued block.)
+
+## *** NEXT-SESSION REFRAME (2026-06-18 close — Charles's suspicion + the candidate error): QUESTION WHETHER UDT'S GRAVITATIONAL FIELD EQUATION ITSELF IS MODIFIED ***
+
+Charles flagged that "UDT's field equations do NOT depart from GR" is SUSPICIOUS — likely an ERROR, not a
+result. CANDIDATE ERROR (driver, concrete): the field-equations derivation
+(udt_field_equations_derivation_results.md) ASSUMED UDT's gravity equation is standard Einstein
+(Einstein-Hilbert R term, G=(8piG/c^4)T), putting positional dilation ONLY into c(phi) and the matter
+source. That assumption FORCED "vacuum=GR/Birkhoff" and confined any modification to a matter-source weight
+(the whole "a" question). BUT the gravitational term carries a coefficient c(phi)^4, and c(phi)=c0 e^{-2phi}
+VARIES with position => a position-varying coefficient on the curvature R = a VARYING GRAVITATIONAL COUPLING
+(Brans-Dicke-type), which GENERICALLY MODIFIES THE FIELD EQUATIONS EVEN IN VACUUM (derivative-of-coefficient
+terms that do NOT vanish at T=0). The derivation concluded this "folds into the lapse => vacuum=GR"; THAT
+folding-away is the SUSPECT STEP and must be re-derived carefully. If it is wrong, vacuum UDT != vacuum GR,
+UDT departs from GR in the GRAVITY/curvature sector, and the "a-under-determined / a=-1-admissible" result
+was looking in the WRONG sector (matter source) while the real modification sits in gravity.
+
+This CONVERGES with Charles's GRAVITY HYPOTHESIS (recorded in relativistic-foundation memory): the
+boundary's "infinite mass" holds the static universe APART from collapse (net-zero locally, global tension)
+— a gravity-sector/global effect GR lacks (boundary-tension in place of Lambda). #1 (gravity idea) is
+plausibly the PHYSICAL CONTENT of the #2 candidate error. Mechanism caveat: a spherical mass shell exerts
+ZERO net force INSIDE (Newton shell theorem), so "holds apart" must be a relativistic/dilation/global-geometry
+effect, not a Newtonian pull; and "infinite mass" needs pinning (literal phi->inf vs the finite CMB-boundary
+dilation ~7).
+
+=> NEXT SESSION, FIRST QUESTION (before/above pin-a): does positional dilation MODIFY UDT'S GRAVITATIONAL
+FIELD EQUATION ITSELF (the varying-c(phi)^4-on-R / boundary-tension sector)? Re-derive the field equations
+WITHOUT assuming the c(phi)^4-on-R factor folds away; test whether vacuum UDT departs from GR; explore the
+boundary-tension anti-collapse mechanism. PIN-a (covariant soliton mass: Killing vs Noether) becomes the
+matter-side FOLLOW-UP, possibly moot if the real modification is gravitational. These two (gravity-sector
+modification + Charles's gravity hypothesis) are likely MORE IMPORTANT than pin-a.
 
 ## 2026-06-18 (LATEST/continued) — GOAL CLARIFIED + CIRCULARITY CHECK: THE UDT SOURCE WEIGHT IS GENUINELY NEW (NOT IN THE COMMITTED CODE); PRIOR MATTER RESULTS WERE GR-COUPLED
 
