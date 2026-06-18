@@ -55,6 +55,11 @@ load-bearing. Lay PONDER throughout.
   and OBSERVE whether particle structure / definite masses emerge. HONEST STANCE (Charles): we cannot yet know this solves everything or
   is fully rigorous; the solid, narrow claim is that the weight is NEW (not in the code); the value of a
   and whether it produces masses are OPEN.
+- ALSO TEED UP (Charles's end-of-session HYPOTHESIS, not derived; see relativistic-foundation memory): the
+  ONE possible exception to "no local physics modified" may be GRAVITY — the boundary's "infinite mass"
+  pulls every interior observer ISOTROPICALLY (net-zero local) but holds the static universe APART from
+  collapse (boundary-tension in place of Lambda; dovetails with c^2=2GM/r* + critical-universe). Explore
+  next session alongside PIN-a.
 - STILL TRUE (keep): CANON C-2026-06-18-1 (metric form derived from relativity; modification = matter
   source weight e^{(a+1)phi}; vacuum = GR/Birkhoff exactly). The bare-vacuum geon program (Phases 0/1/2a/2b,
   NEGATIVES #62/#63/#64) is DONE + confirmed: vacuum is barren in UDT as in GR — you need matter.
