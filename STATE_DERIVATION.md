@@ -1148,3 +1148,68 @@ OPEN FRONTIER (updated): (i) #51 foundational field-definition (workstation); (i
 itself (closed-time/seal rest clock; un-park); (iii) fundamental (non-slow-corner) Born; (iv) a NEW HOME
 for two-particle nonlocality (the seal is out) -- the config-space measure, closed-time B2, or an
 inter-cell crease. Method: the four-safeguard discipline is vindicated; keep it on every result.
+
+## 2026-06-18 (cont.) — EMERGENCE-OF-hbar PROBE: TIME-ROW HAS REAL OSCILLATIONS BUT THEY ARE BOX-CONTROLLED (not M_MS) -> hbar STAYS AN INPUT
+
+Pursued the deepest prize (ii): does the NONSTATIONARY time-row carry a native rest-energy clock?
+MAP (hbar_emergence_closed_time_MAP.md): emergence of hbar = a native LOCK omega=E_rest/hbar; closed
+time is the natural lock; but UDT's only native phase is the SPIN rotor -> closed time locks spin not
+mass (banked). FRESH probe = the nonstationary time-row's frequency content. Charles gated: push in NOW,
+FULL derivation, NO approximations/minimal-path. Pre-registered (timerow_rest_clock_PREREG.md). FULL
+DERIVE agent ad63c296 (opus) + HARD BLIND VERIFIER a34d7bef (opus). Result: timerow_rest_clock_results.md.
+
+DERIVE claimed NEGATIVE via an ELLIPTIC/relaxation mechanism (omega^2<0, the C1-weld flips the
+time-kinetic sign). VERIFIER (conf: overall-negative 0.80; stated-mechanism 0.05) -- the FIFTH
+safeguard-catch of the session:
+- (A) the C1-only sign-flip (-> elliptic) is real AS C1-only. SURVIVES.
+- (B) BUT C1-only was INCOMPLETE (dropped term, again): the FULL L2+L4 matter stress (C-2026-06-14-1)
+  adds beta_matter = -(kappa/4r^2 + xi/2) to the weld, giving on-shell coeff N = c r^4 phi0'^2 -
+  (kappa+2r^2 xi)e^{4phi0}. On the REAL self-consistent soliton N<0 over the ENTIRE cell -> the
+  equation is HYPERBOLIC and REAL OSCILLATION MODES EXIST (omega^2 = +0.52, +1.96, ...). The DERIVE's
+  "elliptic / omega^2<0 / relaxation at every depth" is REFUTED (conf 0.05). The full matter stress
+  RESTORES oscillation. [Pattern: dropping a sector/term -- here the full matter stress -- flips the
+  result; the 5th such catch. The safeguards held.]
+- (C) BUT the now-REAL oscillation is BOX-CONTROLLED (omega^2 ~ 1/R^2, omega^2 R^2 ~ 19-20 const, two
+  independent box-traps), NOT M_MS-tied. THIS rescues the overall negative.
+- (D) NEGATIVE survives, stated mechanism refuted. Workstation flag: confirm N<0 cell-wide + omega^2~1/R^2
+  on production-resolution real soliton (CPU SCF timed out at N=1600; N-sign confirmed at N=300).
+
+HONEST VERDICT (deepest prize): NEGATIVE -- the nonstationary time-row DOES carry real time-oscillations
+(the agent's "relaxation" was wrong), but they are BOX-CONTROLLED (universe/cell-size-tied), NOT tied to
+the particle rest mass M_MS. So they are NOT the de Broglie rest clock. hbar STAYS AN INPUT. The
+conjecture-A box-control wall now extends to the NONSTATIONARY TIME-ROW matter channel too.
+
+THE DEEP META-READ (ties the whole session + program together): EVERY dynamical frequency UDT produces
+-- static optical well, sealed cavity, W7, coupled indicial, breathing tower, WITH-L4 deep-phi, and now
+the nonstationary time-row -- is BOX-CONTROLLED (the cell/universe sets the scale), NEVER intrinsic/
+particle-mass-tied. The one apparent escape (deep-phi) was a coefficient artifact. So UDT has NO intrinsic
+particle-scale dynamical frequency; its mode scale is COSMOLOGICAL (the box = the universe, finite-cell
+canon). The rest clock (= hbar) needs the PARTICLE scale (M_MS); UDT's modes live at the COSMIC scale;
+nothing in the mode structure bridges them. THIS IS THE SAME particle/cosmic scale separation
+(m_e/m_Planck) that made hbar's NUMBER a non-target at the session's start. => the negative is DEEPLY
+CONSISTENT with parking hbar: hbar is precisely the particle<->cosmic action-scale bridge, and it does
+NOT emerge from the (cosmically-scaled) mode structure. Emergent quantization in UDT is: the wave-face is
+emergent GIVEN hbar (the one input = the rest clock = the scale bridge); hbar itself is the irreducible
+scale-bridge, not derivable from modes.
+
+=== SESSION FINAL CONSOLIDATION (2026-06-18) ===
+The emergent-quantization / pilot-wave arc is COMPLETE and honestly graded. NET FINDINGS:
+- UDT can HOST the single-particle pilot-wave architecture (guidance + Bohm quantum potential + clean
+  Schrodinger slow-limit), GIVEN one input: the rest clock = hbar.
+- POSITIVE conceptual win: the quantum "i" has a NATIVE HOME = the S^2 area form = the topological charge
+  structure (N=3, q=1/3). The i-structure is native; the i-flow is the input.
+- NEGATIVES (all verified, premise-scoped): no intrinsic spectral discreteness (box-control wall, now
+  confirmed across ~7 sectors incl. the nonstationary time-row); Born only slow-corner (KG sign); the
+  seal does NOT provide two-particle nonlocality (no-signaling self/terminus); hbar does NOT emerge from
+  the mode structure (modes are cosmic-scale, the rest clock is particle-scale -- the scale-bridge = hbar
+  is the irreducible input).
+- THE UNIFYING STRUCTURAL FACT: UDT's only native discreteness is TOPOLOGICAL (winding); its only native
+  dynamical mode scale is COSMOLOGICAL (box=universe); the particle<->cosmic bridge (hbar, the rest mass
+  ratio) is the irreducible input. Emergent quantization = the wave-face emerges GIVEN that bridge.
+- METHOD: FIVE safeguard-caught corrections (keystone box_g, V-exam tachyon, WITH-L4 shallow-only,
+  deep-phi artifact, time-row mechanism) -- all from dropping L4/the matter stress or using representative
+  coefficients. Pre-register + exact-coefficient + full-stress + blind-verifier discipline is the reason
+  the banked findings are trustworthy. KEEP IT.
+OPEN (next session): #51 (workstation); fundamental Born; a new home for nonlocality; and -- if hbar's
+emergence is ever revisited -- it must come from the particle/cosmic SCALE-BRIDGE, not the mode structure
+(which is now thoroughly box-confirmed). Branch PUSHED to origin/session-2026-06-17; main untouched.
