@@ -45,10 +45,21 @@ ENERGY MINIMIZER (energy_minimizer.py, BUILT 2026-06-17): a gradient-descent inn
 basin_hop GLOBAL search (justified: phase3b_descend showed the states are already MINIMA, so no saddle-
 rolling needed; the problem is GLOBAL). basin_hop CONFIRMS the m=2 global min = the OBLATE basin,
 M~12.2-12.4 @18x8x8 (two independent methods: multistart 12.16, basin_hop 12.37 -- agree on the basin).
-=> global search is now SOLVED at a fixed grid (m=2 ground state = oblate ~12.3). REMAINING HARD ITEM
-(re-scoped): GRID-CONVERGING that mass -- blocked by LARGE-GRID NEWTON UNDER-CONVERGENCE (20x8x8 /
-18x10x10 don't reach a deep floor), a SOLVER-STRENGTH need (better-conditioned/faster large-grid solve),
-NOT a global-search problem. That deep-floor large-grid solver is the next tool. (m=1 grid-stable ~0.29-0.30.)
+=> global search is SOLVED at a fixed grid (m=2 ground state = oblate ~12.3 @18x8x8).
+LARGE-GRID DEEP-FLOOR SOLVER (large_grid_solver.py, BUILT 2026-06-17) + GRID CONVERGENCE = a ROBUST
+NEGATIVE (winding_platonic_phase3b_results.md final section). DIAGNOSIS: the jacrev Jacobian BUILD
+dominates cost (38-133s/iter); dense newton_solve works but is cost-limited at scale; matrix-free
+2-grid Newton-Krylov STALLS (Phi flat, the preconditioned-CG step is not a descent direction -- with
+BOTH cheap and geometric coarse, precond-once; likely a bug/ineffectiveness in the matrix-free machinery).
+DEEP-FLOORED WARM-START CONTINUATION DRIFTS: m=1 16->18->20 = 0.292->0.300->0.318 with GROWING psivar
+(interp_state INJECTS non-axisym structure into steep solitons despite the 1.8e-15 smooth-field gate);
+m=2 oblate 16.9->41->94 diverges. KEY: FRESH per-grid m=1 IS grid-stable (~0.29-0.30); warm-start is not.
+NET: the catalog STRUCTURE is solid (sectors; m=1 round stable mass 0.29-0.30 grid-stable; m>=2 break to
+non-axisym oblate/toroidal, coupled-stable) but the m>=2 ABSOLUTE MASSES are NOT grid-convergeable with
+the current spectral solver + continuation machinery. Banked m=2 mass = only at-grid (oblate ~12.2-12.4
+@18x8x8, one grid). Pinning m>=2 masses needs a RESEARCH-GRADE upgrade (working strong-preconditioned
+matrix-free solver; or a refinement that doesn't inject non-axisym structure; or fundamentally better
+large-grid conditioning) OR a REFRAME -- Charles's call. (m=1 mass IS pinned: ~0.29-0.30.)
 
 NEW SCRIPTS (committed): phase3b_platonic_solve.py (checkpoints u_plat_m{1,2,3}_18x8x8.pt),
 phase3b_symmetry.py (SH power spectrum + self-test), phase3b_hessian.py (fixed-metric Hessian),

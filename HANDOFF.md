@@ -19,10 +19,18 @@ STATE.md top block + winding_platonic_phase3b_results.md (with its grid-converge
   basin_hop 12.37 agree). [Gate 1 caught a sign bug in the original gradient-descent inner loop; pivoted
   local_min->Newton + basin_hop, justified because phase3b_descend showed the states are already MINIMA.]
   Warm-start CONTINUATION was tried+FAILED (cross_grid_branch.py; don't repeat).
-- THE RE-SCOPED REMAINING ITEM: grid-CONVERGING the m>=2 mass is blocked by LARGE-GRID NEWTON UNDER-
-  CONVERGENCE (20x8x8/18x10x10 don't reach a deep floor) — a SOLVER-STRENGTH need (a deep-floor,
-  well-conditioned large-grid solver), NOT global search. Build that next to pin the m>=2 masses.
-  THEN the agreed centerpiece: the EIGENVALUE/standing-wave
+- MASS GRID-CONVERGENCE = a ROBUST NEGATIVE (2026-06-17, winding_platonic_phase3b_results.md final
+  section). Built large_grid_solver.py: jacrev Jacobian build dominates (38-133s/iter); dense works but
+  cost-limited; matrix-free 2-grid Newton-Krylov STALLS (CG step not a descent direction, cheap+geometric
+  coarse both); deep-floored warm-start continuation DRIFTS (m=1 0.29->0.32 with growing psivar -- interp
+  injects non-axisym structure into steep solitons; m=2 oblate 16.9->41->94 diverges). FRESH per-grid m=1
+  IS grid-stable. NET: catalog STRUCTURE solid + m=1 mass pinned (~0.29-0.30), but m>=2 ABSOLUTE MASSES
+  are NOT grid-convergeable with current machinery. Banked m=2 = at-grid only (oblate ~12.2-12.4 @18x8x8).
+- THE FORK (Charles's call): (A) RESEARCH-GRADE solver upgrade to pin m>=2 masses (fix/replace the
+  matrix-free solver -- debug why the CG step isn't a descent direction; or a refinement that doesn't
+  inject non-axisym structure; or Shamanskii/chord Jacobian-reuse to amortize the dense build); OR
+  (B) REFRAME -- accept the structural catalog (sectors/shapes/stability/m=1 mass) as the deliverable and
+  move to the EIGENVALUE/standing-wave
   ("spectrum") solver — Charles's hunch is it may BUILD ITSELF as the natural modes of these classical
   objects ([[no-presumed-quantum-sector]], the angular sector = QCD/QED reverse-engineering clue-source).
   Both are gated on Charles's go. m=4 + finer-grid (Nps>=12) m=3 tetrahedral check are smaller open items.
