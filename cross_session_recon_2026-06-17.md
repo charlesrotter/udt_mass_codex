@@ -174,3 +174,16 @@ LEAVE / do NOT port as results:
   S^3) — record as an OPEN reconciliation item instead.
 NET: nothing merged; main keeps the unit-S^3 soliton/catalog (unaffected by #51); the closed-time selector
 remains the pointed-to lepton-generation route, now with a native de Broglie machinery waiting for a carrier.
+
+## The "i" finding (structural) + the GAP-UNIFICATION (useful framing, not a result)
+The branch's "quantum i has a native home" = the COMPLEX STRUCTURE / area form on the target S^2, the
+SAME geometric object as the topological charge (N=3, q=1/3). AUDIT: the i-STRUCTURE (static sqrt(-1))
+is native and NOT refuted -- an elegant convergence with "no separate quantum sector" (i is geometry we
+already have, not an import). BUT the i-FLOW (the circulating phase in e^{iS/hbar} that generates dynamics)
+is NOT derived -- it is the SAME parked input as the rest-clock/hbar (their verifier: "the rest-clock input
+wearing the area-form's clothes"; the "near-derived" framing was walked back).
+USEFUL PAYOFF = GAP UNIFICATION: the audits collectively show the flowing-i, the de Broglie carrier, the
+rest-energy clock, and hbar are ALL THE SAME ONE missing input, and the candidate source for all of them is
+the CLOSED-TIME / seal sector. So three independent threads -- the lepton mass FAMILY (generations), the
+native WAVE (de Broglie), and the quantum i -- ALL land on the closed-time selector. That is the sharpened
+single target for the quantum-emergence / lepton-generation route (the #57 closed-time thread done properly).
