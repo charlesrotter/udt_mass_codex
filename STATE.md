@@ -55,6 +55,14 @@ in the catalog, and what sets their DEPTHS" — NOT "what tower". (Alt, against 
 fully-coupled nonlinear well.) DURABLE WINS banked: postulate A broke the box-trap (first intrinsic discrete
 level); mass-as-cost is the native exponential/scale-free/box-free home for the hierarchy.
 
+*** FORWARD PLAN: VISION_POST_POSTULATE.md *** (2026-06-19) — the compiled repo-wide recon (RECON_A/B/C/D) +
+the post-postulate-A vision: two-halves status (cosmology SOLID/CMB-amplitude contested/rotation open;
+microphysics walled, only topological discreteness ever); the SPINE (catalog = distinct TOPOLOGICAL objects,
+mass = dilation cost, distinguished by the FREE DOF non-stationary/rotation/ensembles; unification = shared
+geometry); the ordered path; the honest risks (native curvature action UNBUILT = deepest P7; the catalog crux
+is the home of the #61 import + #58/#60 solver-limit). **STEP 1 (gated): the native pi_2, Theta-FREE, time-live
+non-round CATALOG solve.** Read VISION_POST_POSTULATE.md as the forward plan.
+
 ## *** 2026-06-19 OVERNIGHT — FIELD-EQUATION QUESTION RESOLVED; ALGEBRAIC PIVOT; THREE TRACKS CONVERGE ON THE TIME-LIVE NON-ROUND NATIVE-MATTER SOLVE ***
 
 A long session (2026-06-18 into 19), Charles driving a deep reframe, then an overnight push (Charles asleep).

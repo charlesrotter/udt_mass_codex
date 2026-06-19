@@ -4,8 +4,8 @@ Navigable map of udt_mass_codex. Created 2026-06-10. Layout note: the repo
 is deliberately FLAT — ~474 `native_*.py` scripts plus 13 markdown docs in
 one directory. See "Conventions" at the bottom before judging the layout.
 
-Reading order: CLAUDE.md -> STATE.md -> this file -> the two research
-records -> the 2026-06-10 audit-cycle docs -> the audit/legacy layer.
+Reading order (2026-06-19): CLAUDE.md "How we work" -> **VISION_POST_POSTULATE.md** (the
+forward plan) -> STATE.md TOP -> HANDOFF.md -> this file -> the records.
 
 ---
 
@@ -13,9 +13,14 @@ records -> the 2026-06-10 audit-cycle docs -> the audit/legacy layer.
 
 ### Charter and frontier (read first, always)
 
-- **CLAUDE.md** — Working charter: Charles's six binding principles, the
+- **CLAUDE.md** — Working charter: Charles's binding principles (1-7), the
   Self-Hardening repo discipline (append-never-edit, verifier-before-record,
   pre-registration), orientation pointers. Read FIRST, every session.
+- **VISION_POST_POSTULATE.md** (2026-06-19) — THE FORWARD PLAN. Compiled repo-wide
+  recon (4 era docs: RECON_A_cosmology, RECON_B_microphysics, RECON_C_session,
+  RECON_D_canon_negatives_weaknesses) + the post-postulate-A vision: the two-halves
+  status, the central hypothesis (catalog = distinct topological objects, mass =
+  dilation cost), the ordered path, the honest risks. Read after CLAUDE.md "How we work".
 - **STATE.md** — Frontier snapshot: one-paragraph program status, the five
   open gates, banked negatives, near-misses, active priority queue.
   Updated at every session close. Read SECOND.

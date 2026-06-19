@@ -168,6 +168,9 @@ redirect (nonstationary weld sector / transfer ladder / ensembles).
 
 ## Orientation
 
+- **VISION_POST_POSTULATE.md is the live FORWARD PLAN** (2026-06-19): the compiled
+  repo-wide recon + the post-postulate-A vision (UDT = quantized dilation-geometry;
+  the catalog hypothesis; the ordered path; the risks). Read it after "How we work".
 - Load STATE.md first (frontier snapshot), then INDEX.md (repo map).
 - Main research record: negative_phi_native_geometry.md (31k lines,
   pre-spectrum) and particle_spectrum_native_geometry.md (spectrum stage).

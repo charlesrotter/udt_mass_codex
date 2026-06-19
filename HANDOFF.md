@@ -104,14 +104,21 @@ matching OBSERVATIONS straight off the bare metric, with NO imports, NO scaffold
 NO mechanisms bolted on. Let structure EMERGE; do not derive masses until Charles
 says ready (gated DERIVE).
 
-## Read order for a new instance
-1. CLAUDE.md "How we work" (binding method) + memories: session-handoff-pointer,
-   relativistic-foundation-and-bare-solve, how-we-work-method, solver-architect-metacognition,
-   whole-metric-honest-binary, audit-solving-infrastructure.
-2. STATE.md TOP (the NEXT-SESSION REFRAME + the 2026-06-18 blocks).
-3. THIS FILE; CANON.md (esp. C-2026-06-18-1 + C-2026-06-14-1, both SURVIVE); NEGATIVES_REGISTRY (#61-#64).
-4. The turn's docs (listed in the FOUNDATION TURN block above).
-5. HANDOFF_ARCHIVE.md for the superseded pre-2026-06-18 history (only if needed).
+## Read order for a new instance (2026-06-19)
+1. CLAUDE.md "How we work" (binding method) + memories: session-handoff-pointer (read FIRST),
+   postulate-A-accepted, frontier-time-live-native-matter, particle-catalog-frame, how-we-work-method,
+   cleaner-is-not-clean-no-shortcuts, algebraic-objects-can-be-imports, audit-solving-infrastructure.
+2. **VISION_POST_POSTULATE.md** — the FORWARD PLAN (recon + post-postulate-A vision; the spine + ordered path).
+3. STATE.md TOP (the 2026-06-19 MORNING + OVERNIGHT blocks).
+4. THIS FILE; CANON.md (C-2026-06-18-1 + C-2026-06-14-1, both SURVIVE); NEGATIVES_REGISTRY (#61-#64).
+5. The recon docs (RECON_A/B/C/D) + this session's docs (B1_*, B2_*, quantized_carrier_*, mass_as_cost_*,
+   depth_selector_*, gravity_sector_*, udt_a_*) only as needed; HANDOFF_ARCHIVE.md for pre-2026-06-18 history.
+
+**NEXT STEP (gated on Charles, = VISION step 1):** the native pi_2, Theta-FREE, time-live non-round CATALOG
+solve — does UDT's OWN area-form charge (no imported Skyrme BC, #61) give a catalog of DISTINCT STABLE TYPES?
+HIGH risk/leverage (home of the live import + the #58/#60 off-round solver-limit). Anti-import + anti-box-
+control + anti-frozen-matter discipline LOCKED. Then: quantize per object -> depth-selector {D_n} -> gated
+pre-registered mass-as-cost vs wall numbers -> two-anchor scale bridge.
 
 ## Must-not-lose (durable facts)
 - DATA-BLIND wall numbers (NEVER load during a derivation): the six lepton wall numbers, contract
