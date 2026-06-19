@@ -11,7 +11,52 @@ LEGEND: [V]=solved native + blind-verified · [v]=solved/validated (lighter) ·
 [R]=solved but REDUCED (scoped) · [E]=examined separately · [ ]=untested ·
 [!]=known blind-spot/open.
 
-## A. METRIC DEGREES OF FREEDOM (the 10 components)
+---
+
+## *** 2026-06-19 POST-POSTULATE RE-CAST — THIS MAP IS NOW THE INSTRUMENT FOR THE EVERYTHING-ON SOLVER ***
+
+Reframe (Charles, 2026-06-19): the microphysics space is UNENTERED, not walled. The status TILES in
+sections A-H below were graded in the pre-postulate / contaminated-solver / catalog-hunt frame; they are
+**RETIRED AS VERDICTS** (do not cite as blocking; NEGATIVES_REGISTRY wholesale-retirement banner) but
+**RETAINED AS TOOL-STATE / COVERAGE info** — what code touched what, and how cleanly. The TEN COMPLETENESS
+CRITERIA and the STANDING QUESTIONS (below) are the timeless bones and are unchanged. The CURRENT HEADLINE
+and FRONTIER POINTER sections at the bottom are SUPERSEDED (marked there).
+
+The map's job now: make the SOLVER-FIRST discipline operable. Before trusting any result we must SEE which
+DOF/term/coupling is on/off/frozen/never-built — so a mismatch-with-observation indicts the solver's
+COMPLETENESS first (Charles's four questions: left-out term? numerics? frozen/forgotten DOF? unexplored
+solution space with everything on?), never a missing mechanism.
+
+### THE EVERYTHING-ON STANDARD vs CURRENT TOOL STATE (from the 2026-06-19 solver-source recon)
+
+Postulates are INCORPORATED STRUCTURE (not targets): i = the S^2 area form (native); spin-1/2 = the
+area-form Maslov index; hbar-quantization acts on the CONTINUOUS solution family; statistics. No SM import.
+
+| Component | EVERYTHING-ON target | Current state | Cleanest providing code | Gap to close |
+|---|---|---|---|---|
+| Einstein kernel | general 4x4, off-diag + time live | CLEAN, general, validated 2.7e-15; time slot present but ZEROED by choice | `whole_metric_3d_core.py` | turn on the d_t g row |
+| **Residual wiring** | field eqns use the GENERAL Einstein | **BUILT-BUT-DEAD: production residual calls the DIAGONAL einstein_mixed_weyl ⇒ off-diagonals never reach the field equations** | full3d_newton / full3d_spectral | **re-route residual through `einstein_mixed` (the #1 rewire)** |
+| Matter stress | general 4x4 L2+L4 | CLEAN, general, exact (4.2e-17) | `whole_metric_3d_matter.py` | wire a(phi) weight (below); S^2 carrier |
+| Carrier | S^2 area-form (pi_2), Theta FREE | symbolic derivation CLEAN; node-core EL CLEAN but only 1-D RADIAL | `coupled_tl_s2_derive.py`, `coupled_tl_stage1a.py` | generalize Theta-free node EL to 3-D (r,th,ps) |
+| Theta core BC | native regularity node, value free | CLEAN (the ONLY no-Skyrme code) | `coupled_tl_stage1a.py` | port to 3-D spectral field |
+| **Matter coupling a(phi)** | a(phi) a FUNCTION (=-1 where tested, departs at extremes) | **CONTAMINATED EVERYWHERE: silently a=-1 (GR) in every solver; a(phi) lives only in symbolic side-scripts (`a_function_both_extremes.py` etc.), never wired in** | (none in-solver) | **insert e^{(a+1)phi} weight into action measure + stress** |
+| Metric warps A,B | A,B independent (NOT B=1/A injected) | CLEAN — B=1/A genuinely FREE across the modern stack (#55 scar ABSENT) | full3d / radial_Bfree / coupled_tl | — |
+| Off-diagonals g_tr,g_tps | live (frame-drag / shear / rotation) | built in metric build; UNWIRED to residual; never solved nonlinearly | whole_metric_3d_core (capable) | the residual rewire + a converged solve |
+| Time | live (open-time, harmonic balance / evolution) | only a ROUND breathing-mode proxy (coupled_tl_timelive) + a fixed-bg eigensolve; no non-round time-live coupled solve | (none full) | build on the kernel's time slot |
+| Non-round spatial (l>=2) | live with everything else | off-round COUPLED solve does NOT converge at production grid (#60 conditioning wall) | full3d_newton (anchor only) | research-grade preconditioned/Newton-Krylov upgrade |
+| Seal / finite cell | reflecting time-live boundary | DESIGNED only (time_live_bare_solve_DESIGN.md), not implemented | — | build |
+| Deep core | honest (phi->-inf, not a 0.05 cutoff) | FD 1/r^2 strain; body+bulk trustworthy, core excised | — | log/geometric grid or analytic core |
+| Driver | scales to off-round coupled at clean floor | dense-Newton clean + proven ~1e-13 SMALL grid; does NOT scale off-round | `full3d_newton.py` (correctness ANCHOR) | preconditioned/Newton-Krylov or sparse-direct upgrade |
+| Discretization/observables | spectral + divT gate + M_MS | CLEAN | full3d_spectral, divT_excised, M_MS | — |
+
+BOTTOM LINE (recon): tooling is ~half-way. Clean general primitives exist; THREE things are
+contaminated/missing everywhere — a(phi) frozen to -1, off-diagonals built-but-unwired, native Theta-free
+EL only 1-D — plus the off-round driver needs a research-grade upgrade (dense-Newton is the anchor, not the
+engine). Build order is in POST_POSTULATE_PROGRAM.md.
+
+---
+
+## A. METRIC DEGREES OF FREEDOM (the 10 components)   [tiles below = TOOL-STATE/coverage, RETIRED as verdicts]
 - [V] g_tt, g_rr diagonal warps, B=1/A FREE (independent) — radial #56 (blind-verified);
       2-D axisym spectral #59.
 - [v] g_θθ, g_ψψ angular metric — carried in 2-D spectral #59 (axisym).
@@ -139,7 +184,7 @@ soliton; large-N QCD is classical) — coherent with no quantum layer. [[no-pres
 5. What tooling/tractability step covers the dropped criteria next?
 6. (anti-inflation) This is ONE tile — how much of the ten-criteria space is still blank?
 
-## CURRENT HEADLINE (updated 2026-06-17 — Phase 3 + 3b, honest after grid convergence)
+## CURRENT HEADLINE  [SUPERSEDED 2026-06-19 — the winding-catalog frame is RETIRED/unentered; see the POST-POSTULATE RE-CAST banner near the top + POST_POSTULATE_PROGRAM.md. Text below is history.] (updated 2026-06-17 — Phase 3 + 3b, honest after grid convergence)
 UDT carries a discrete catalog of topologically-protected winding (charge) SECTORS (m=1,2,3 all
 converge — winding_catalog_verified_results.md, winding_platonic_phase3b_results.md). m=1 = round
 STABLE hedgehog, grid-stable M_MS~0.29-0.30 (matter Hessian n_neg=0; coupled-stable). For m>=2 the
@@ -185,7 +230,7 @@ sectors remain open.
 6. ONE tile: the 3-D non-axisym/winding CATALOG verdict is still BLANK; what is newly
    filled is the 3-D ROUND recovery + the correct 3-D physics machinery.
 
-## FRONTIER POINTER (2026-06-17 LATER) — the CLOSED-TIME selector (criterion 7, "ring")
+## FRONTIER POINTER  [SUPERSEDED 2026-06-19 — closed-time selector was a catalog-mechanism target, now RETIRED; the frontier is the everything-on clean solve, see the top banner + POST_POSTULATE_PROGRAM.md. History below.] (2026-06-17 LATER) — the CLOSED-TIME selector (criterion 7, "ring")
 Cross-session recon + audit (cross_session_recon_2026-06-17.md) sharpened the next target. The STATIC
 sectors are now well-covered/closed: criteria 1-6,8,9 for the winding catalog (m=1 stable; m>=2 non-axisym
 coupled-stable; absolute masses NOT grid-convergeable = a tooling negative); criterion-8/9 single-cell

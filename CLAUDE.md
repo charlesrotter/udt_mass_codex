@@ -90,7 +90,25 @@ loud, before use. "Observing or targeting?" — asked before every agent
 launch; if targeting a desired answer, STOP and ponder. Refusal/elimination
 RUN -> mandatory zoom-out and REFRAME, never "one more thing." Count the
 run; a string of negatives indicts the QUESTION/method, not "the next
-place to drill."
+place to drill." "Mismatch -> SOLVER, not MECHANISM" — see below.
+
+MISMATCH -> SOLVER, NOT MECHANISM (binding, Charles 2026-06-19). When a result
+is far from observation, the FIRST hunt is the SOLVER and our application of
+it — NEVER a mechanism. In order: (1) what did we leave OUT of the solver (a
+term/coupling/sector/boundary); (2) is it a NUMERIC problem (convergence,
+box-control, conditioning, a bug, grid); (3) did we FREEZE or forget to turn
+on a degree of freedom; (4) have we explored the solution space with
+EVERYTHING ON, or only a corner — plus the many WAYS to examine the same solve
+(bases, grids, seeds, continuation, gauge tests, independent re-derivation).
+Reaching for a MECHANISM to close a gap is FORBIDDEN until the solver is
+demonstrably complete and the solution space genuinely explored. A mismatch
+indicts the solver's COMPLETENESS first, the metric last, and a mechanism
+never (that is the import reflex). This is Principle 1 applied to our own
+numerics. Instrument = SOLVER_COMPLETENESS_MAP.md (shows on/off/frozen/
+never-built before any result is trusted). Forward frame = POST_POSTULATE_PROGRAM.md.
+SCAR it heads off: the year-long catalog/mechanism hunt that read a graveyard
+of contaminated/classical-solver negatives as a verdict on the metric;
+microphysics was UNENTERED, not walled.
 
 DIVISION OF LABOR (honest): the driver genuinely cannot always see its own
 smuggled assumptions — Charles holding the frame is irreplaceable, the

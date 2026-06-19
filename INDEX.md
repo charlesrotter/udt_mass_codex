@@ -4,8 +4,12 @@ Navigable map of udt_mass_codex. Created 2026-06-10. Layout note: the repo
 is deliberately FLAT — ~474 `native_*.py` scripts plus 13 markdown docs in
 one directory. See "Conventions" at the bottom before judging the layout.
 
-Reading order (2026-06-19): CLAUDE.md "How we work" -> **VISION_POST_POSTULATE.md** (the
-forward plan) -> STATE.md TOP -> HANDOFF.md -> this file -> the records.
+Reading order (2026-06-19, LATE): CLAUDE.md "How we work" -> **POST_POSTULATE_PROGRAM.md** (the
+corrected forward plan, DRAFT — supersedes VISION_POST_POSTULATE.md) -> **SOLVER_COMPLETENESS_MAP.md**
+(the live instrument) -> STATE.md TOP -> HANDOFF.md -> this file -> the records.
+NOTE (2026-06-19 reframe): the pre-postulate MICROPHYSICS records below are RETIRED/legacy — the
+microphysics space is UNENTERED, not walled (see NEGATIVES_REGISTRY wholesale-retirement banner +
+STATE TOP). Mine them for TOOLING only, never for verdicts.
 
 ---
 
@@ -16,16 +20,25 @@ forward plan) -> STATE.md TOP -> HANDOFF.md -> this file -> the records.
 - **CLAUDE.md** — Working charter: Charles's binding principles (1-7), the
   Self-Hardening repo discipline (append-never-edit, verifier-before-record,
   pre-registration), orientation pointers. Read FIRST, every session.
-- **VISION_POST_POSTULATE.md** (2026-06-19) — THE FORWARD PLAN. Compiled repo-wide
-  recon (4 era docs: RECON_A_cosmology, RECON_B_microphysics, RECON_C_session,
-  RECON_D_canon_negatives_weaknesses) + the post-postulate-A vision: the two-halves
-  status, the central hypothesis (catalog = distinct topological objects, mass =
-  dilation cost), the ordered path, the honest risks. Read after CLAUDE.md "How we work".
+- **POST_POSTULATE_PROGRAM.md** (2026-06-19 LATE, DRAFT) — THE CORRECTED FORWARD PLAN,
+  supersedes VISION_POST_POSTULATE.md. The reframe: the microphysics space is UNENTERED
+  (the legacy negatives are facts about contaminated/classical TOOLS, not the metric;
+  retired wholesale). Program = solve the whole CLEAN metric with EVERYTHING ON + the
+  postulates as STRUCTURE, OBSERVE, quantize; solver-first on any mismatch, never a
+  mechanism hunt. Read after CLAUDE.md "How we work". (Awaiting Charles's sign-off.)
+- **SOLVER_COMPLETENESS_MAP.md** — the LIVE INSTRUMENT: every DOF/term/coupling/boundary,
+  marked on/off/frozen/never-built, postulates as incorporated structure, with the
+  tool-provenance (cleanest building blocks) wired in. Gates trust in any result.
+- **VISION_POST_POSTULATE.md** (2026-06-19) — [SUPERSEDED by POST_POSTULATE_PROGRAM.md].
+  The compiled recon + post-postulate-A vision (two-halves status, catalog-as-distinct-
+  objects hypothesis, ordered path). RETAINED as history; its microphysics framing
+  ("walled half", the catalog spine) is the frozen misinterpretation the reframe corrects.
+  Its COSMOLOGY half (§I) is unaffected and still the strong, metric-pure layer.
 - **STATE.md** — Frontier snapshot: one-paragraph program status, the five
   open gates, banked negatives, near-misses, active priority queue.
   Updated at every session close. Read SECOND.
 
-### Active research records (the main line)
+### Microphysics research records (RETIRED/legacy as of 2026-06-19 — mine for TOOLING only, never verdicts; the microphysics space is UNENTERED)
 
 - **negative_phi_native_geometry.md** (31k lines, sections 0-434) — The
   pre-spectrum research record: native negative-phi geometry rebuilt from

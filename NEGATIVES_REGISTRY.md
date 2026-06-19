@@ -12,7 +12,51 @@ Created 2026-06-11. Initial population audits all majors; several are
 already CONDITIONS-CHANGED by this session's results — which is the
 demonstration of why this registry exists.
 
-## Discreteness / spectrum blockers
+---
+
+## *** 2026-06-19 WHOLESALE RETIREMENT — THE PRE-POSTULATE MICROPHYSICS NEGATIVE CORPUS IS LEGACY/UNENTERED (Charles) ***
+
+Binding driver action, Charles-directed (2026-06-19). Two premises changed at once: (1) the
+POSTULATES were admitted ([[postulate-A-accepted]] — UDT = quantized dilation-geometry), and
+(2) the solver only reached its first genuinely clean native state THIS session. Under that
+admission the ENTIRE pre-postulate MICROPHYSICS space is **UNENTERED**, and the whole
+microphysics discreteness / spectrum / catalog / multiplicity negative corpus below is
+**RETIRED — LEGACY — NO BLOCKING AUTHORITY**.
+
+WHY (the corrected reading): these negatives were produced by an evolving succession of
+solvers that were each contaminated or sliced SOMEWHERE (GR-coupled matter a=-1; imported
+Skyrme BC; B=1/A injection in the reduced solver; box-control; off-round non-convergence;
+static/round/single-cell slices) — and almost all were CLASSICAL, asking a classical solve to
+produce a discrete result. They are facts about the TOOLS, not about the metric. Stacking
+scoped negatives from flawed tools never built a verdict on the metric (the false-convergence
+failure mode operating at the scale of the whole history). Under the postulates, "no classical
+discreteness" is the EXPECTED pre-quantization continuum, not a wall. **Do NOT mine these for
+verdicts; do NOT cite them as blocking; do NOT sort them (wrong vs correctly-erroneous is
+moot — all retired).** The MICROPHYSICS half is unentered, not walled.
+
+SCOPE — RETIRED (no blocking authority): all discreteness/spectrum/catalog/multiplicity/
+winding/tower/depth-selector negatives — incl. #1 (box-control), #34/#39/#52/#54 (one round
+continuum / no depth selector), #44 (lepton tower FAIL), #57 (time-selector), #58 (gap-closer),
+#59 (spectral catalog static-axisym), #60 (off-round catalog solver-limited), #61 (Skyrme-BC
+winding multiplicity import), #65 (one-carrier coupled time-live no-tower), and the cross-session
+import entries. They remain on the record as HISTORY only.
+
+NOT retired (these are NOT microphysics-discreteness negatives): the bare-vacuum STRUCTURAL
+theorems #62/#63/#64 survive as GR-structural facts (vacuum is barren ⇒ matter must be present —
+this MOTIVATES the everything-on solve, it does not block it). And the POSITIVE native results
+(the relativity-derived metric form C-18-1; B=1/A; rho=r; the native charge counting N=3, q=1/3,
+eta=1/18; mass-as-cost FORM; the postulate-A wins) are not negatives and stand.
+
+THE ONE SALVAGE from the retired corpus: its TOOLING — the later, cleaner solves as source code
+to build the clean "everything-on" solver upon. See SOLVER_COMPLETENESS_MAP.md and the new
+program doc **POST_POSTULATE_PROGRAM.md** (DRAFT). The forward stance is no longer "find the
+catalog" — it is "solve the whole clean metric with everything on + the postulates as structure,
+OBSERVE what it does, then quantize; on any mismatch, suspect the SOLVER first, never reach for a
+mechanism" (Principle 1, restated post-postulate).
+
+---
+
+## Discreteness / spectrum blockers  [RETIRED — see the 2026-06-19 wholesale-retirement banner above; history only]
 
 1. OPEN-DOMAIN EMPTY POINT SPECTRUM THEOREM (box control upgraded)
    — open_domain_discreteness_results.md.

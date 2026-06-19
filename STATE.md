@@ -1,6 +1,14 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
+Last update: 2026-06-19 (LATE) — *** REFRAME: MICROPHYSICS IS UNENTERED, NOT WALLED *** (Charles). The
+VISION mistook a graveyard of contaminated/classical tools for a map of the metric. Under the postulate
+admission the entire pre-postulate microphysics negative corpus is RETIRED/legacy (no blocking authority;
+NEGATIVES_REGISTRY wholesale-retirement banner). New program (DRAFT, supersedes VISION): solve the WHOLE
+CLEAN metric with EVERYTHING ON + the postulates as structure, OBSERVE what it does, then quantize; on any
+mismatch suspect the SOLVER first (left-out terms / numerics / frozen DOF / unexplored solution space),
+NEVER a mechanism hunt. Instrument = SOLVER_COMPLETENESS_MAP.md. Doc = POST_POSTULATE_PROGRAM.md (DRAFT).
+Prior line:
 Last update: 2026-06-19 (AFTERNOON) — *** STEP 1 DONE: COUPLED TIME-LIVE SOLVE = SCOPED NEGATIVE (#65) ***
 The authorized "one shot against the tripwire" (the fully-coupled nonlinear back-reaction the reduced proxy
 dropped) was BUILT + RUN + blind-verified: it is ACTIVE but SOFTENS the ladder toward a tachyon, opens NO new
@@ -9,6 +17,59 @@ confirmed even with the back-reaction. Charles took the PIVOT: the catalog = DIS
 labels + the free non-stationary/off-diagonal/ensemble DOF), NOT one carrier's spectrum. See TOP block.
 (Prior context: POSTULATE A ACCEPTED — UDT = QUANTIZED DILATION-GEOMETRY; box-trap broken; mass-as-COST is the
 exponential/scale-free/box-free home for the hierarchy. The OVERNIGHT field-eqn/algebraic-pivot block STANDS.)
+
+## *** 2026-06-19 LATE — THE REFRAME: MICROPHYSICS IS UNENTERED, NOT WALLED; LEGACY NEGATIVE CORPUS RETIRED WHOLESALE; PROGRAM CORRECTED TO "SOLVE THE WHOLE CLEAN METRIC WITH EVERYTHING ON + POSTULATES, OBSERVE, QUANTIZE" ***
+
+A deep methodological PONDER with Charles (lay-language throughout) that re-reads the whole project. Supersedes
+the "distinct-sectors catalog" MAP and the VISION_POST_POSTULATE forward frame. NOT canon (Charles canonizes
+the corrected program; the retirement + map are driver/method actions).
+
+**THE CATCH (Charles):** the VISION doc + the recon that built it were INSUFFICIENT — they COMPILED results
+without perspective on how they were produced. The negatives are facts about an evolving succession of
+contaminated/sliced/CLASSICAL solvers, NOT about the metric. Stacking scoped negatives from flawed tools never
+built a verdict on the metric (the false-convergence failure mode at the scale of the WHOLE HISTORY). And two
+premises changed at once — the POSTULATES were admitted AND the solver only reached its first clean native state
+this session — yet the VISION (written the same morning) re-inscribed the classical graveyard as the "walled
+microphysics half." It froze the frame exactly when the frame should have been re-derived.
+
+**THE INVERSION:** under the postulates, "no classical discreteness" is the EXPECTED pre-quantization continuum,
+not a wall (quantization is what discretizes a continuum — the whole point of admitting it). So the microphysics
+negatives flip from WALLS to expected-continuum-or-simply-wrong, and either way they are RETIRED. **The
+microphysics half is UNENTERED, not walled** (Charles confirmed; some legacy results may also simply be WRONG —
+buggy solvers — but it doesn't matter: all retired regardless). The whole pre-postulate microphysics
+discreteness/spectrum/catalog corpus is LEGACY — see the NEGATIVES_REGISTRY wholesale-retirement banner.
+
+**WHY THE CATALOG HUNT WAS THE WRONG MOVE (Principle 1):** "distinct sectors / depth-selector / what label
+indexes objects" works BACKWARD from the observed 3 generations to a MECHANISM that produces them — importing the
+target and engineering machinery to hit it. The primary goal is to UNCOVER WHAT THE METRIC DOES, now with the
+postulates incorporated as STRUCTURE (i = area form, spin-1/2 = Maslov on it, hbar ready to act on the continuous
+carrier) — NOT to build a catalog.
+
+**THE CORRECTED PROGRAM (DRAFT, POST_POSTULATE_PROGRAM.md, for Charles's sign-off):** solve the WHOLE CLEAN
+metric with EVERYTHING TURNED ON (all DOF live; native S^2 Theta-FREE matter; a(phi) a FUNCTION not frozen to -1;
+off-diagonals WIRED to the field equations; time LIVE; native seal; honest deep core) + the postulates as
+structure -> OBSERVE the continuous solution structure -> QUANTIZE -> OBSERVE what is picked. **Solver-first
+discipline (Charles, binding):** if a result is far from observation, the FIRST hunt is NOT a mechanism — it is
+(1) what did we leave OUT of the solver, (2) numeric problems, (3) frozen/forgotten DOF, (4) unexplored
+solution space with everything on. A mechanism hunt is FORBIDDEN until the solver is demonstrably complete and
+the solution space explored. The instrument that makes this operable = SOLVER_COMPLETENESS_MAP.md (updated to
+the post-postulate everything-on standard, with the tool-provenance recon wired in).
+
+**TOOLING STATUS (solver-source recon, this session):** the tooling is ~half-way to an everything-on solver.
+CLEAN/general primitives exist: whole_metric_3d_core.py (general 4x4 Einstein, off-diagonal + live time slot
+present, validated), whole_metric_3d_matter.py (general L2+L4 stress), coupled_tl_stage1a.py (the ONLY native
+Theta-FREE node-core matter EL, 1-D radial), the spectral bases, divT gate, M_MS. THREE things are
+contaminated/missing EVERYWHERE: (a) matter coupling is silently GR a=-1 in every solver — a(phi)-as-a-function
+lives only in symbolic side-scripts, never wired in; (b) the production residual calls the DIAGONAL Einstein, so
+off-diagonals + time are BUILT-BUT-DEAD (the single most important rewire); (c) the only Theta-free node EL is
+1-D radial (needs 3-D). B=1/A is genuinely FREE (the #55 scar is absent). Driver: clean dense-Newton, proven
+~1e-13 small-grid, but does NOT scale off-round (#60 = conditioning wall) — it is the correctness ANCHOR; an
+everything-on build needs a research-grade preconditioned/Newton-Krylov upgrade.
+
+**NEXT (gated on Charles):** sign off the corrected program; then build the clean everything-on solver from the
+named foundation (the recon's 4 scripts + the 3 rewires/builds), validate against the dense-Newton anchor, solve
+to OBSERVE, quantize, observe — completeness-map-gated, solver-first on any mismatch. The DEEPEST open
+Principle-7 item (UDT's native curvature-sector action) is still unbuilt and noted.
 
 ## *** 2026-06-19 AFTERNOON — STEP 1 (FULL COUPLED TIME-LIVE SOLVE) = SCOPED NEGATIVE (#65); CHARLES TOOK THE PIVOT => CATALOG = DISTINCT SECTORS, NOT ONE CARRIER'S SPECTRUM ***
 
