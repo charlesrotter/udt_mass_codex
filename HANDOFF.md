@@ -5,7 +5,26 @@ quantum-completion material, the 2026-06-15/16 BIG SHIFT + standing principles +
 queue + durable facts + perspective) are SUPERSEDED by the 2026-06-18 foundation turn and live in
 **HANDOFF_ARCHIVE.md**. This file holds ONLY the live frontier. Full history is also in git + STATE.md.
 
-## *** 2026-06-19 OVERNIGHT FRONTIER — ALGEBRAIC PIVOT; CONVERGENT NEXT STEP = TIME-LIVE NON-ROUND NATIVE MATTER (read FIRST) ***
+## *** 2026-06-19 MORNING FRONTIER — POSTULATE A ACCEPTED; BOX-TRAP BROKEN; TOWER FRAMING INDICTED => CATALOG REFRAME (read FIRST) ***
+Read STATE.md TOP (the 2026-06-19 MORNING block) + memory postulate-A-accepted. Distilled:
+- *** POSTULATE A ACCEPTED (Charles) ***: UDT = QUANTIZED DILATION-GEOMETRY. Geometry NATIVE; quantization
+  (postulate A = hbar/spin-1/2/statistics ONLY; i=area-form STAYS NATIVE; no SM import) gives discreteness.
+  UDT does NOT derive QM from geometry — "unify cosmology+microphysics is good enough"; door OPEN for later.
+- DURABLE WINS: (1) postulate A BROKE the box-control trap — FIRST intrinsic (non-box) discrete level on the
+  program; spin-1/2 = native area-form. (2) mass-as-COST (B1 Misner-Sharp, not hbar*omega) is EXPONENTIAL +
+  SCALE-FREE + BOX-FREE + INTRINSIC in FORM — the native home for the hierarchy. (cost sees e^{phi}
+  undifferentiated; frequency saw its log-derivative => power-law. The split is the key insight.)
+- THE WALL: every "tower of ONE carrier" route (radial overtones / depth-rungs / nonlinear breather U(D)) gives
+  ~1 stable level then a tachyon at D*; more rungs reintroduce box-control. No multi-rung exponential ladder
+  from one carrier. The depth-selector NON-CLOSURE is blind-verified.
+- *** REFRAME (confirms #44) ***: one charge-1 cell = EXACTLY ONE particle, NOT a tower. The
+  generations-as-a-TOWER framing is INDICTED. Generations = a CATALOG of distinct stable objects
+  (particle-catalog-frame), masses exponential in their DEPTH DIFFERENCES (mass-as-cost).
+- **NEXT (Charles's frame, gated):** "what DISTINGUISHES the distinct stable objects + sets their DEPTHS" (the
+  catalog), NOT "what tower". Residual flagged-not-drilled (tripwire): the fully-coupled nonlinear well.
+  Docs: quantized_carrier_structure_results.md, mass_as_cost_ladder_results.md, depth_selector_breather_results.md.
+
+## *** 2026-06-19 OVERNIGHT FRONTIER — ALGEBRAIC PIVOT; CONVERGENT NEXT STEP = TIME-LIVE NON-ROUND NATIVE MATTER (superseded by MORNING block above) ***
 Read STATE.md TOP (the 2026-06-19 OVERNIGHT block) first — it has the full day's arc. Distilled frontier:
 - The 2026-06-18 "is UDT's gravity field equation modified?" question is RESOLVED: it is GR-FORM (f(phi)R
   departs but is Cassini-dead; the running-rate source weight absorbs back to GR). The UDT-vs-GR departure

@@ -1,12 +1,59 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-19 (OVERNIGHT, Charles asleep — "push to B2, see it in the morning"). FIELD-EQUATION
-QUESTION RESOLVED (it is GR-FORM; the UDT-vs-GR departure relocated to the MATTER coupling, unforced at the
-principle level) + ALGEBRAIC PIVOT (numerics structurally can't be clean; read off exact invariants) + THREE
-TRACKS CONVERGE on the TIME-LIVE NON-ROUND NATIVE-MATTER solve as the located next step. See the TOP block.
-The 2026-06-18 reframe just below is SUPERSEDED — the gravity-sector "is vacuum modified?" question was
-chased to ground (f(phi)R departs but is Cassini-dead; running-rate absorbs to GR).
+Last update: 2026-06-19 (MORNING) — *** POSTULATE A ACCEPTED *** (Charles): UDT = QUANTIZED DILATION-GEOMETRY.
+Postulate A (hbar/spin-1/2/statistics) BROKE the box-control trap — FIRST intrinsic discrete level + mass-as-
+COST is exponential/scale-free/box-free in FORM (durable WINS). BUT every "tower of one carrier" route (radial,
+depth, breather) gives ~1 level then tachyon => the GENERATIONS-AS-A-TOWER framing is INDICTED (confirms #44:
+one cell = one particle). REFRAME: generations = a CATALOG of distinct stable objects, masses exponential in
+DEPTH differences. See TOP block. (The OVERNIGHT block below — field-eqn resolved + algebraic pivot — STANDS.)
+
+## *** 2026-06-19 MORNING — POSTULATE A ACCEPTED (UDT = QUANTIZED DILATION-GEOMETRY); BOX-TRAP BROKEN; TOWER FRAMING INDICTED => CATALOG REFRAME ***
+
+Continues the OVERNIGHT block below (same day). Charles drove the postulate-A decision + a sequence of
+data-blind structure-first quantization solves (each blind-verified; NOT canon — Charles canonizes).
+
+**THE DECISION (Charles, 2026-06-19; memory postulate-A-accepted):** ACCEPT POSTULATE A as an irreducible
+quantum input. UDT does NOT derive quantum mechanics FROM geometry — it provides the NATIVE GEOMETRY (dilation
+metric, area-form charge, time-live standing-wave carrier, depth/scale) and QUANTIZATION acts on it. Rationale:
+"a UDT that unifies cosmology + microphysics is good enough"; door stays OPEN for later emergence ("hiding in
+plain sight"). Why it ends the loops: the native carrier is a CONTINUOUS standing-wave family; QUANTIZATION is
+what discretizes a continuum — the classical-discreteness chase was trying to get a quantum result classically.
+BOUNDARY (binding): postulate ONLY {hbar-quantization, spin-1/2, statistics}; KEEP NATIVE the carrier, charge,
+depth, AND **i = the area form** (Charles: i stays native). NO Dirac/gauge/SM-mass import.
+
+**THE SEQUENCE (data-blind, structure-first, blind-verified, NOT canon):**
+- QUANTIZATION-STRUCTURE (quantized_carrier_structure_results.md): postulate A on the native carrier BROKE the
+  BOX-CONTROL TRAP — the FIRST intrinsic (non-box) discrete level on the whole program (R-independent to 5
+  digits over 8x cell); spin-1/2 = native area-form Maslov +1/2 (i native). *** This validated the postulate-A
+  call on contact. *** BUT: the eigen-FREQUENCY binding is POWER-LAW in depth (~D^4), NOT exponential — V_eff is
+  built from LOG-DERIVATIVES of the depth profile, so the e^{phi} is DIFFERENTIATED AWAY (the #44 mechanism,
+  now understood exactly); radial-overtone tower SHALLOW (~1 stable level then tachyon at D*~2.4-3.4).
+- MASS-AS-COST / frequency-vs-cost split (mass_as_cost_ladder_results.md): the MASS is the dilation COST (B1's
+  Misner-Sharp m=(c^2 r/2G)(1-e^{-2phi})), NOT hbar*omega. Cost sees e^{phi} UNDIFFERENTIATED => EXPONENTIAL in
+  depth; frequency saw its log-derivative => power-law. *** mass-as-cost is EXPONENTIAL (~e^{2D}) + SCALE-FREE +
+  BOX-FREE + INTRINSIC in FORM (3/4 desiderata clean, derived not fitted) — the exponential hierarchy has a
+  native home. *** Missing: a native DEPTH-SELECTOR for the discrete rungs {D_n}.
+- DEPTH-SELECTOR via the nonlinear breather (depth_selector_breather_results.md): the last postulate-A route to
+  {D_n}. Native U(D)=c_grav(e^{2D}-1)+(1/2)A0^2 omega^2(D) CONFINES (a genuine omega^2>0 well in scale-free
+  window R=A0^2/c_grav in [~140,230]) — but only ~1 SHALLOW rung; more rungs reintroduce BOX-CONTROL (count
+  proportional to D*sqrt(m_D)) or hit the tachyon cap D*. Ladder ratios DECREASE toward 1, cap at cost(D*):
+  NOT discrete-multi-rung-exponential. NON-CLOSURE, blind-verifier-confirmed. Residual (flagged, NOT drilled):
+  the fully-COUPLED (non-linearized-amplitude) back-reaction might deepen the well — a Principle-2 issue, the
+  "one more thing" the method says not to chase after a converged wall.
+
+*** THE LANDING / REFRAME ***: every "TOWER OF ONE CARRIER" route — radial overtones, depth-rungs, breather
+levels — gives EXACTLY ONE stable level then a tachyon. The carrier-binding that would deepen the well IS the
+same omega^2 that hits the stability cap; no native sub-cap counter-term makes a deep multi-level well. This
+CONFIRMS #44 (now even with postulate A): one charge-1 cell = EXACTLY ONE particle, NOT a tower. => the
+**generations-as-a-quantized-TOWER framing is INDICTED**. A SINGLE intrinsic particle is clean + native
+(postulate A delivered it); the generation FAMILY is a **CATALOG of DISTINCT stable objects** (the catalog
+frame [[particle-catalog-frame]]), with masses exponential in their DEPTH DIFFERENCES (mass-as-cost).
+
+**NEXT (Charles's frame to hold, gated):** the question becomes "what DISTINGUISHES the distinct stable objects
+in the catalog, and what sets their DEPTHS" — NOT "what tower". (Alt, against the tripwire: one shot at the
+fully-coupled nonlinear well.) DURABLE WINS banked: postulate A broke the box-trap (first intrinsic discrete
+level); mass-as-cost is the native exponential/scale-free/box-free home for the hierarchy.
 
 ## *** 2026-06-19 OVERNIGHT — FIELD-EQUATION QUESTION RESOLVED; ALGEBRAIC PIVOT; THREE TRACKS CONVERGE ON THE TIME-LIVE NON-ROUND NATIVE-MATTER SOLVE ***
 
