@@ -5,7 +5,27 @@ History note: all pre-2026-06-19 frontier blocks (the 2026-06-18 field-equation/
 the 2026-06-19 MORNING frontier + **VISION_POST_POSTULATE.md** and condensed into **HANDOFF_ARCHIVE.md**
 (full detail in STATE.md TOP + git). This file holds ONLY the live frontier.
 
-## *** 2026-06-19 MORNING FRONTIER — POSTULATE A ACCEPTED; BOX-TRAP BROKEN; TOWER FRAMING INDICTED => CATALOG REFRAME (read FIRST) ***
+## *** 2026-06-19 AFTERNOON FRONTIER — STEP 1 (FULL COUPLED TIME-LIVE SOLVE) = SCOPED NEGATIVE (#65); PIVOT TAKEN => CATALOG = DISTINCT SECTORS (read FIRST) ***
+Read STATE.md TOP (the 2026-06-19 AFTERNOON block) + NEGATIVES_REGISTRY #65. Distilled:
+- VISION Step 1 was taken in FULL ("Build the full coupled solve", Charles-gated = the one shot against the
+  tripwire). MAP-first CAUGHT that a reduced/structural version had already run overnight (time-live REVIVES
+  the dead static operator into a real standing-wave problem — phi-angular hunch gets its carrier, a durable
+  win — but gives {l(l+1) charge-barrier floor + box continuum}, no new tower). The ONE omitted ingredient =
+  the fully-coupled NONLINEAR back-reaction. Charles authorized the shot at it.
+- **#65 SCOPED NEGATIVE (pre-registered + blind-verified):** native S^2/pi_2 carrier Theta-FREE (r=0 node BC,
+  NO Skyrme import; M_MS=0.281 clean), live time, fully-coupled finite-amplitude back-reaction. The
+  back-reaction is ACTIVE + genuinely nonlinear but SOFTENS the ladder toward a TACHYON (omega^2->0), opens NO
+  new bound level; lowest level stays ~1/R^2 box-controlled. Gate B PASS (grid-converged => real verdict, not
+  a stall). => #44 (one carrier = one particle) confirmed EVEN WITH the back-reaction; tripwire residual CLOSED.
+- Residual scope cost (flagged, non-blocking, = #65 reopener): the live mode was the ROUND radial breather;
+  spatial l>=2 non-roundness reduced to round; the joint nonlinear+l>=2 corner argued-empty via the proxy's
+  LINEARIZED drift finding, not a direct solve (would need a full 3-D live-time solver).
+- **THE PIVOT (Charles, "do 1"):** retire the "catalog = one carrier's spectrum/tower" template. Catalog
+  frontier = what DISTINGUISHES DISTINCT objects + sets their DEPTHS — distinct charge/winding SECTORS + the
+  free non-stationary/off-diagonal/ensemble DOF (VISION spine §III). Mass-as-cost = the exponential home.
+  Docs: coupled_timelive_solve_CONTRACT.md, coupled_timelive_solve_results.md, coupled_timelive_VERIFIER.md.
+
+## *** 2026-06-19 MORNING FRONTIER — POSTULATE A ACCEPTED; BOX-TRAP BROKEN; TOWER FRAMING INDICTED => CATALOG REFRAME ***
 Read STATE.md TOP (the 2026-06-19 MORNING block) + memory postulate-A-accepted. Distilled:
 - *** POSTULATE A ACCEPTED (Charles) ***: UDT = QUANTIZED DILATION-GEOMETRY. Geometry NATIVE; quantization
   (postulate A = hbar/spin-1/2/statistics ONLY; i=area-form STAYS NATIVE; no SM import) gives discreteness.

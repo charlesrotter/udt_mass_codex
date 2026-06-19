@@ -1854,3 +1854,31 @@ CS5. THE SEAL IS NOT THE BELL-NONLOCALITY CHANNEL (no-signaling + self/terminus 
    (normalization-INDEPENDENT, = Phase-1). Premises: O(A^2) single-time-harmonic, bare vacuum, finite cell.
    Status: STANDING (blind-verified at O(A^2)). CONDITIONS-CHANGED reopener: O(A^4)/multi-time-harmonic
    (non-degenerate cross terms re-enter); the gated native-matter step.
+
+## Coupled time-live native-matter solve (Step 1, 2026-06-19, blind-verified)
+#65. THE FULLY-COUPLED TIME-LIVE NATIVE BREATHER WITH FINITE-AMPLITUDE NONLINEAR BACK-REACTION OPENS NO NEW
+   DISCRETE BOUND LEVEL -- IT SOFTENS THE LADDER TOWARD A TACHYON (=> one charge-1 carrier = one particle,
+   #44 confirmed even with the back-reaction). Docs: coupled_timelive_solve_results.md (+CONTRACT
+   coupled_timelive_solve_CONTRACT.md, pre-registered; +blind verifier coupled_timelive_VERIFIER.md
+   af6b5caadb494bde2, STANDS). The explicitly-authorized "one shot against the tripwire": the reduced proxy
+   (timelive_nonround_native_solve_results.md) flagged the fully-coupled nonlinear amplitude back-reaction as
+   the ONE place a deeper binding could hide; this push BUILT it (native S^2/pi_2 carrier, Theta-FREE with the
+   r=0 node condition replacing the imported Skyrme BC #61 -- calibration M_MS=0.281; live time axis;
+   metric a,b + matter Th0 + mode u re-solved self-consistently with the A^2 mode energy in <T>). RESULT: the
+   back-reaction is GENUINELY finite-amplitude + ACTIVE (max|da|~1.0, max|dTh0|~0.17; differs from the A->0
+   proxy) but it SOFTENS the whole standing-wave ladder (omega^2_low: 0.073->0.033->~0 over A=0..8, tachyon
+   onset ~A=8) -- the OPPOSITE of opening a bound rung. The lowest level stays ~1/R^2 BOX-CONTROLLED at A=0 AND
+   A=4 (Gate A FAIL for a new intrinsic level; spread ~96-98% over a 7x cell range; omega^2_low/(l(l+1)W_inf)->0).
+   The only intrinsic content is the already-banked l(l+1) angular charge barrier (NOT new). Gate B PASSES
+   (grid-converged, spread 0.44-2.5% over N=300/500/800) => a REAL verdict, NOT a solver stall / inconclusive.
+   => the tripwire residual the proxy left open is CLOSED; a single carrier's coupled spectrum is not a catalog.
+   Premises: native S^2 area-form carrier (diagonal mass sector carrier-robust S^2==S^3); a=-1 (GR-coupled)
+   baseline; B=1/A FREED in body; open-time single-mode harmonic balance; *** ROUND radial breather (SPATIAL
+   non-roundness reduced to round -- the time axis is live, l>=2 angular-AND-time mode NOT directly solved; the
+   joint nonlinear+l>=2 corner is argued-empty via the proxy's LINEARIZED spatial-drift finding, NOT a direct
+   solve) ***; deg-1 core pinned to the pi node (a homotopy-sector choice, not an m-ladder); deep core r<~0.4
+   excluded (FD strain); regime p=0.4,kap8=0.05,rc=0.05,cell~14. DATA-BLIND. Status: STANDING (pre-registered +
+   blind-verified). CONDITIONS-CHANGED reopener: a full 3-D live-time solver directly solving the joint
+   nonlinear + spatial-l>=2 corner (the one residual scope cost); or any box-invariant quantity surfacing there.
+   FORWARD: this NEGATIVE retires the "catalog = one carrier's spectrum/tower" template; the catalog frontier
+   pivots to DISTINCT SECTORS (charge/winding labels + the free non-stationary/off-diagonal/ensemble DOF).

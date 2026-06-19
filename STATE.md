@@ -1,12 +1,49 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-19 (MORNING) — *** POSTULATE A ACCEPTED *** (Charles): UDT = QUANTIZED DILATION-GEOMETRY.
-Postulate A (hbar/spin-1/2/statistics) BROKE the box-control trap — FIRST intrinsic discrete level + mass-as-
-COST is exponential/scale-free/box-free in FORM (durable WINS). BUT every "tower of one carrier" route (radial,
-depth, breather) gives ~1 level then tachyon => the GENERATIONS-AS-A-TOWER framing is INDICTED (confirms #44:
-one cell = one particle). REFRAME: generations = a CATALOG of distinct stable objects, masses exponential in
-DEPTH differences. See TOP block. (The OVERNIGHT block below — field-eqn resolved + algebraic pivot — STANDS.)
+Last update: 2026-06-19 (AFTERNOON) — *** STEP 1 DONE: COUPLED TIME-LIVE SOLVE = SCOPED NEGATIVE (#65) ***
+The authorized "one shot against the tripwire" (the fully-coupled nonlinear back-reaction the reduced proxy
+dropped) was BUILT + RUN + blind-verified: it is ACTIVE but SOFTENS the ladder toward a tachyon, opens NO new
+bound level (still ~1/R^2 box-controlled). The tripwire residual is CLOSED; one carrier = one particle (#44)
+confirmed even with the back-reaction. Charles took the PIVOT: the catalog = DISTINCT SECTORS (charge/winding
+labels + the free non-stationary/off-diagonal/ensemble DOF), NOT one carrier's spectrum. See TOP block.
+(Prior context: POSTULATE A ACCEPTED — UDT = QUANTIZED DILATION-GEOMETRY; box-trap broken; mass-as-COST is the
+exponential/scale-free/box-free home for the hierarchy. The OVERNIGHT field-eqn/algebraic-pivot block STANDS.)
+
+## *** 2026-06-19 AFTERNOON — STEP 1 (FULL COUPLED TIME-LIVE SOLVE) = SCOPED NEGATIVE (#65); CHARLES TOOK THE PIVOT => CATALOG = DISTINCT SECTORS, NOT ONE CARRIER'S SPECTRUM ***
+
+Continues the MORNING block below. Charles gated VISION Step 1 ("Build the full coupled solve" — the one shot
+against the tripwire), driver ran it MAP-first then pre-registered + built + solved + blind-verified.
+
+**THE MAP CATCH (cheap-stage, the method working):** the Step-1 MAP found a REDUCED/structural version of the
+solve had already run overnight (timelive_nonround_native_solve_results.md, blind-verified): time-live REVIVES
+B2/wcc's dead static operator into a real standing-wave eigenproblem (Charles's phi-angular hunch gets its
+CARRIER — durable win), but the spectrum = {intrinsic FLOOR = the already-banked l(l+1) angular charge barrier}
++ {box continuum}, NO new tower. The ONE thing the reduced proxy omitted = the fully-coupled NONLINEAR
+amplitude back-reaction (a Principle-2 flagged-not-drilled residual). Charles chose to take the one shot at it.
+
+**THE SOLVE (#65, pre-registered coupled_timelive_solve_CONTRACT.md, blind-verified af6b5caadb494bde2):** built
+the native S^2/pi_2 carrier Theta-FREE (r=0 node BC replacing the imported Skyrme BC #61; calibration M_MS=0.281
+clean), live time axis, metric a,b + matter Th0 + mode u re-solved self-consistently with the A^2 mode energy.
+RESULT = SCOPED NEGATIVE, grid-converged: the back-reaction is GENUINELY finite-amplitude + ACTIVE (max|da|~1.0,
+max|dTh0|~0.17, differs from the A->0 proxy) but SOFTENS the standing-wave ladder (omega^2_low 0.073->0.033->~0
+over A=0..8, tachyon onset ~A=8) -- the OPPOSITE of binding. Lowest level stays ~1/R^2 BOX-CONTROLLED at A=0 AND
+A=4 (Gate A FAIL for a new intrinsic level). Gate B PASS (grid-stable 0.44-2.5%) => REAL verdict, NOT a stall.
+*** confirms #44 (one charge-1 carrier = one particle) EVEN WITH the nonlinear back-reaction; CLOSES the
+tripwire residual. *** Residual scope cost (honestly flagged, verifier-confirmed, NON-blocking): the live mode
+was the ROUND radial breather -- the TIME axis is live but SPATIAL non-roundness (l>=2) was reduced to round;
+the joint nonlinear+l>=2 corner is argued-empty via the proxy's LINEARIZED spatial-drift finding, NOT a direct
+solve (a full 3-D live-time solver would be needed -- the CONDITIONS-CHANGED reopener for #65).
+
+**THE PIVOT (Charles, 2026-06-19 = "do 1"):** take the reframe (NOT "one more thing"). This NEGATIVE retires the
+"catalog = one carrier's spectrum/tower" template for good. The catalog frontier now = **what DISTINGUISHES
+DISTINCT stable objects and sets their DEPTHS** -- distinct charge/winding SECTORS + the free DOF relativity
+leaves open (non-stationary / off-diagonal / ensembles), per the VISION spine (§III). Mass-as-cost is the
+exponential home; the depth-selector across distinct objects is the open piece. DURABLE WIN re-confirmed: the
+time-live operator is a genuine carrier (phi-angular hunch real); a single carrier just doesn't tower.
+
+**NEXT (gated on Charles):** the DISTINCT-SECTORS catalog question (VISION Step 1 reframed past the tower) +
+Step 2 depth-selector across objects. NOT the single-carrier spectrum (closed, #65). MAP-first as always.
 
 ## *** 2026-06-19 MORNING — POSTULATE A ACCEPTED (UDT = QUANTIZED DILATION-GEOMETRY); BOX-TRAP BROKEN; TOWER FRAMING INDICTED => CATALOG REFRAME ***
 
