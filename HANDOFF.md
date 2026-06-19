@@ -5,7 +5,34 @@ quantum-completion material, the 2026-06-15/16 BIG SHIFT + standing principles +
 queue + durable facts + perspective) are SUPERSEDED by the 2026-06-18 foundation turn and live in
 **HANDOFF_ARCHIVE.md**. This file holds ONLY the live frontier. Full history is also in git + STATE.md.
 
-## *** 2026-06-18 (LATEST/continued) FRONTIER — GOAL CLARIFIED + CIRCULARITY CHECK (read FIRST) ***
+## *** 2026-06-19 OVERNIGHT FRONTIER — ALGEBRAIC PIVOT; CONVERGENT NEXT STEP = TIME-LIVE NON-ROUND NATIVE MATTER (read FIRST) ***
+Read STATE.md TOP (the 2026-06-19 OVERNIGHT block) first — it has the full day's arc. Distilled frontier:
+- The 2026-06-18 "is UDT's gravity field equation modified?" question is RESOLVED: it is GR-FORM (f(phi)R
+  departs but is Cassini-dead; the running-rate source weight absorbs back to GR). The UDT-vs-GR departure
+  relocated entirely to the MATTER coupling — a(phi), the matter mass-dilation exponent — which is a FUNCTION
+  (=-1 where tested, departing at extremes), NOT forced from the principle alone (needs the matter object).
+- THE PIVOT (Charles): the field-equation chase smuggled the GR matter/geometry split + a free coupling.
+  Numerics structurally can't be clean (grid/box/cutoff = fixed values). UDT's clean wins are ALGEBRAIC
+  read-offs. => ALGEBRAIC PATH to matter (ALGEBRAIC_MATTER_PATH_PLAN.md); numerics demoted to a check.
+  New binding memories: algebraic-objects-can-be-imports (audit native-vs-import), cleaner-is-not-clean-no-
+  shortcuts, myopic-errors-dilation-exponent.
+- B1 (algebraic): CHARGE closes NATIVE + DISCRETE (N=3, q=1/3, eta=1/18; provenance-verified native, de-inflate
+  the N=3 "two locks" QCD-echo framing). MASS does NOT close from the STATIC charge cost — obstructions O1
+  (scale), O2 (mass<->charge bridge is MONOPOLE-ONLY = the phi-angular gap), O3 (no static spectrum).
+- B2 (algebraic): clean native NON-CLOSURE — the angular nonlinearity linearizes to ZERO about the ROUND
+  background (sign-definite damping, no tower); transfer-ladder/junction/closed-time = import/unaudited.
+- NUMERIC ANCHOR: reproduced M_MS=0.281 sqrt(kappa/xi), charge clean, B=1/A freed, box-control intrinsic; and
+  CAUGHT THE SLICE — T_tr != 0 for a TIME-LIVE native profile (monopole survives) => it sources G_tr, escapes
+  Birkhoff, UNFREEZES time. The untaken gated step.
+- *** CONVERGENCE (3 tracks) ***: the discreteness / mass SPECTRUM needs the TIME-LIVE, NON-ROUND,
+  MATTER-SOURCED native solve. The static/round slice is exactly where the phi-angular coupling vanishes.
+- **NEXT STEP (gated on Charles's morning review):** the TIME-LIVE NON-ROUND NATIVE-MATTER solve — native
+  L2+L4 (S^2 area-form carrier, Theta FREE, NO imported Skyrme BC) with its OWN time DOF LIVE, on the
+  time-live kernel — observe whether a DISCRETE spectrum (catalog/generations) emerges. Unifies B2's carrier
+  + the anchor's untaken step. New docs: ALGEBRAIC_MATTER_PATH_PLAN.md, B1_*, B2_*, native_matter_step_*,
+  the field-equation arc docs (udt_field_equation_*, udt_a_*, gravity_sector_*, udt_hbar_*).
+
+## *** 2026-06-18 (LATEST/continued) FRONTIER — GOAL CLARIFIED + CIRCULARITY CHECK ***  [SUPERSEDED 2026-06-19]
 Read STATE.md TOP (the NEXT-SESSION REFRAME + the 2026-06-18 LATEST/continued block) first; then the FOUNDATION TURN block below.
 - GOAL (Charles, definitive): **GR-STANDARD emergence** — mass-energy is PRESENT and the dilation-metric
   SHAPES it into discrete definite-mass particles (= the critical-energy hypothesis: enough mass-energy is

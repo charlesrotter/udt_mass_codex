@@ -1,14 +1,80 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-18 (close) — NEXT-SESSION REFRAME: QUESTION WHETHER UDT'S GRAVITATIONAL FIELD EQUATION
-ITSELF IS MODIFIED (the suspect "vacuum=GR/Birkhoff" folding-away of the varying-c(phi)^4-on-R coefficient =
-a varying gravitational coupling that GENERICALLY modifies the field equations even in vacuum). This goes
-FIRST, above/before PIN-a; it converges with Charles's boundary-tension anti-collapse GRAVITY HYPOTHESIS.
-See the top block below. (The prior "Last update" — GOAL clarified + circularity check + 'a' under-determined
-— is preserved in the LATEST/continued block.)
+Last update: 2026-06-19 (OVERNIGHT, Charles asleep — "push to B2, see it in the morning"). FIELD-EQUATION
+QUESTION RESOLVED (it is GR-FORM; the UDT-vs-GR departure relocated to the MATTER coupling, unforced at the
+principle level) + ALGEBRAIC PIVOT (numerics structurally can't be clean; read off exact invariants) + THREE
+TRACKS CONVERGE on the TIME-LIVE NON-ROUND NATIVE-MATTER solve as the located next step. See the TOP block.
+The 2026-06-18 reframe just below is SUPERSEDED — the gravity-sector "is vacuum modified?" question was
+chased to ground (f(phi)R departs but is Cassini-dead; running-rate absorbs to GR).
 
-## *** NEXT-SESSION REFRAME (2026-06-18 close — Charles's suspicion + the candidate error): QUESTION WHETHER UDT'S GRAVITATIONAL FIELD EQUATION ITSELF IS MODIFIED ***
+## *** 2026-06-19 OVERNIGHT — FIELD-EQUATION QUESTION RESOLVED; ALGEBRAIC PIVOT; THREE TRACKS CONVERGE ON THE TIME-LIVE NON-ROUND NATIVE-MATTER SOLVE ***
+
+A long session (2026-06-18 into 19), Charles driving a deep reframe, then an overnight push (Charles asleep).
+All results data-blind, provenance-audited, verifier-checked; NOT canon (Charles canonizes in the morning).
+
+**THE FIELD-EQUATION ARC (the 2026-06-18 "is UDT's gravity modified?" question — RESOLVED):**
+- Charles's suspicion (vacuum UDT departs from GR) chased to ground. The c^4R / f(phi)R packaging DOES depart
+  but is SOLAR-SYSTEM-FALSIFIED (PPN gamma=9, Cassini-dead; gravity_sector_local_reduction). UDT's validated
+  action is minimal-coupling (Einstein-Hilbert + minimal scalar; udt_validated_results.md:3064), NOT f(phi)R.
+- Charles-confirmed frame: "the mass-energy<->curvature trade-rate depends on where you are." Built honestly
+  (running coupling on the SOURCE, NOT f(phi)R-on-curvature): G = (standard Einstein source) x e^{(a+1)phi};
+  Bianchi FORCES div T = -(a+1) phi' T (mass dilates with position, derived). But a SCALAR weight is
+  ABSORBABLE (twice blind-verified) => relabels to GR. The whole UDT-vs-GR question collapses to ONE quantity,
+  a(phi) = the matter mass-dilation exponent.
+- A CONSTANT a is a FALSE BINARY (Charles caught it): a=-1 is GR; a!=-1 violates terrestrial tests. So UDT
+  REQUIRES a to be a FUNCTION a(phi) (=-1 where tested, departing at the extremes). hbar (the universal
+  Compton scale) collapses the menu 5->1 and DERIVES "mass tied to time," but the literal Sense-1 reading
+  lands a=-1. Carrying the function + the nonlinear Compton-vs-metric scale-comparison gives a real a(phi)
+  departing into the core (SNe pins the cosmic side to a~=-1 to z~2) — BUT (verifier) "eps runs" does NOT
+  force "a departs": a can be ==-1 even with eps running; the departure needs matter to COUPLE to the scale
+  ratio (k!=0), unforced at the principle level. NET: the field equation is GR-FORM; any departure lives in
+  MATTER and is NOT forced from the principle alone — it needs the matter object.
+
+**THE REFRAME (Charles, armchair ponder — THE PIVOT):** the field-equation chase smuggled the GR
+matter/geometry SPLIT + a generic FREE coupling. UDT's clean wins are ALGEBRAIC read-offs (charge from the
+area form), NOT numeric builds; numerics STRUCTURALLY can't be clean (grid/box/cutoff/BC = fixed values where
+a shortcut always sneaks in). PIVOT to the ALGEBRAIC PATH to matter; numerics DEMOTED to a check.
+Plan: ALGEBRAIC_MATTER_PATH_PLAN.md. New binding discipline (memories): the algebraic path has its OWN sand —
+IMPORTED algebraic objects (audit native-vs-import); cleaner != clean (AI always shortcuts); a(phi) is a
+FUNCTION not a constant.
+
+**THE ALGEBRAIC RESULTS (data-blind, provenance-audited, NOT canon):**
+- B1 (mass = dilation cost of charge; B1_mass_dilation_cost_results.md): the CHARGE closes NATIVE + DISCRETE
+  (N=3, q=1/3, eta=1/18, native transgression Theta=(ln f) omega_H1). Provenance-audited NATIVE (NOT QCD
+  imports) + INDEPENDENTLY verified (B1_nativeness_verifier): q=1/3 cleanly native; N=3 native as the metric's
+  own l=1 (2l+1) three-ness — but its "two independent locks" framing is an INFLATED QCD ECHO, de-inflate.
+  The MASS does NOT close to mass(N) from the STATIC charge cost: O1 (overall scale not fixed by N), O2 (the
+  mass<->charge bridge is MONOPOLE-ONLY, needs exterior angular structure = the phi-angular gap), O3 (no
+  native charge-sum => no static spectrum).
+- B2 (phi-angular spectrum; B2_phi_angular_spectrum_results.md): CLEAN NATIVE NON-CLOSURE. Exact obstruction
+  (sympy-exact): the native angular nonlinearity -v_theta^2 linearizes to EXACTLY ZERO about the round
+  background => sign-definite DAMPING at every harmonic, NO discrete tower; the seal is native but ONE
+  CONTINUOUS boundary number (4pi(ln f)_seal), not a quantizer; transfer-ladder / junction / closed-time =
+  IMPORT/unaudited (correctly NOT used). The spectrum needs a NON-ROUND, MATTER-SOURCED, TIME-LIVE carrier.
+- NUMERIC ANCHOR (background check; native_matter_step_results.md): reproduced M_MS=0.281 sqrt(kappa/xi),
+  charge clean+topological, B=1/A genuinely FREED, box-control INTRINSIC (0.12% over 10x cell). CAUGHT A
+  SLICE: the "native hedgehog is static (T_tr=0)" claim is FALSE for a time-dependent profile —
+  T_tr = xi(1-cos^2 th cos^2 Theta) d_r Theta d_t Theta, monopole projection SURVIVES =>
+  <T_tr> = (xi/3)(sin^2 Theta + 2) d_r Theta d_t Theta != 0 => a TIME-LIVE native profile sources G_tr,
+  ESCAPES Birkhoff, UNFREEZES time. The genuinely untaken gated step was taken by NO ONE.
+
+*** THE CONVERGENCE (the overnight headline) ***: THREE independent tracks — B2 (algebraic), the numeric
+anchor, and B1's O2 gap — ALL point to the SAME untaken step: the discreteness / mass SPECTRUM requires the
+TIME-LIVE, NON-ROUND native-matter solve. The STATIC/ROUND slice (taken repeatedly across the project) is
+EXACTLY where the phi-angular coupling VANISHES (B2's exact sign-definite damping) and no spectrum can form;
+the numeric anchor PROVED a time-live native profile is non-trivial (T_tr!=0 unfreezes time, escaping
+Birkhoff). Charles's phi-angular discreteness hunch is REAL but its native carrier (NON-ROUND, MATTER-SOURCED,
+TIME-LIVE, closed by the native seal) is STILL UNBUILT.
+
+**NEXT STEP (located, convergent — NOT "one more thing"):** the TIME-LIVE NON-ROUND NATIVE-MATTER solve —
+native L2+L4 (S^2 area-form carrier, Theta FREE, NO imported Skyrme BC per #61) with its OWN time DOF LIVE,
+coupled on the time-live kernel — and observe whether a DISCRETE spectrum (the catalog / generations) emerges
+where the static/round slice forbade it. This unifies the algebraic B2 carrier and the numeric anchor's
+untaken step. Lower-priority: O1 scale (cosmic-anchor-only); de-inflate the N=3 "two locks" framing in docs.
+GATED on Charles's morning review.
+
+## *** NEXT-SESSION REFRAME (2026-06-18 close — Charles's suspicion + the candidate error): QUESTION WHETHER UDT'S GRAVITATIONAL FIELD EQUATION ITSELF IS MODIFIED ***  [SUPERSEDED 2026-06-19 — see TOP block]
 
 Charles flagged that "UDT's field equations do NOT depart from GR" is SUSPICIOUS — likely an ERROR, not a
 result. CANDIDATE ERROR (driver, concrete): the field-equations derivation
