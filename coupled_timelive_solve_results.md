@@ -83,12 +83,15 @@ and degree-1 must be carried by the two ends sitting at OPPOSITE nodes (core pi,
 
 **ANTI-IMPORT GREP (contract §3):**
 ```
-grep -nE "m\s*\*\s*pi|m\*np\.pi|core.*pi"  on coupled_tl_*.py CODE lines:
-  -> exit 1: NO core-twist BC in any code path.
-  (All textual matches are docstrings/prints discussing the prohibition; the literal
-   m*PI occurrences are SEED amplitudes (initial guesses), never a solved BC.)
-  The deg-1 core BC is `F[:,0] = Theta(0) - PI` (a single NODE value for the charge-1
-  sector), NOT `m*pi` parametrized by a free ladder index m. No m-scan is performed.
+grep -nE "m\s*\*\s*pi|m\*np\.pi|core.*pi"  on coupled_tl_*.py:
+  -> matches EXIST but are ALL docstrings/prints (discussing the prohibition) and
+     SEED amplitudes (m_seed*PI / m_for_seed*PI, initial guesses, never a solved BC).
+  -> the ONLY actual core-BC CODE line is  `F[:,0] = Theta(0) - PI`  (deg1 mode) or
+     `F[:,0] = Theta'(0)=0` (free mode):  NO core-twist BC, NO `m*pi` parametrized by
+     a free ladder index m, NO m-scan.  (Precise note: the grep exits 0 because of
+     the comment/print/seed matches; the SUBSTANTIVE audit -- no m-ladder core BC in
+     any solved code path -- is what holds, verifier-confirmed.)
+  The deg-1 core BC pins a single NODE value (pi) for the charge-1 sector ONLY.
 ```
 
 **Stage 1b (containment):** the open-time harmonic-balance mode about the static bg
