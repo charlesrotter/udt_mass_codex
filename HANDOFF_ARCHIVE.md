@@ -5,6 +5,22 @@ current/non-contradictory. Full history is also in git. Each block carries why i
 
 ---
 
+## [ARCHIVED 2026-06-19] The 2026-06-18 + 2026-06-19-overnight frontier blocks (field-equation arc)
+SUPERSEDED by the 2026-06-19 MORNING frontier (POSTULATE A accepted; catalog reframe) + **VISION_POST_POSTULATE.md**.
+Condensed (full detail in STATE.md TOP — the 2026-06-19 OVERNIGHT + the 2026-06-18 blocks are retained there — and git):
+- **2026-06-18 LATEST/continued** (GOAL = GR-standard emergence; the circularity check on complete_metric_batched.py;
+  'a' under-determined, a=-1/GR admissible; PIN-a as the decisive push). RESOLVED: the field-equation is GR-FORM.
+- **2026-06-18 FOUNDATION TURN** (CANON C-2026-06-18-1 metric-from-relativity; #61 catalog re-grade = imported Skyrme BC;
+  the bare time-live geon program; PHASE-0 Birkhoff; bare-vacuum no-go's #62/#63/#64 = vacuum barren). C-18-1 SURVIVES.
+- **2026-06-19 OVERNIGHT** (field-equation question chased to ground = GR-FORM [f(phi)R Cassini-dead; running-rate absorbs];
+  departure relocated to matter a(phi), unforced; the ALGEBRAIC PIVOT; B1 charge-native/mass-as-cost; B2 phi-angular
+  non-closure; the 3-track convergence on the time-live non-round solve). All folded into the catalog reframe.
+- **The old "THE GOAL" block** ("no mechanisms bolted on; match observations off the bare metric") — superseded by the
+  postulate-A goal: UDT = quantized dilation-geometry (geometry native + postulate {hbar/spin/statistics}); unify
+  cosmology+microphysics. See VISION_POST_POSTULATE.md §II.
+
+---
+
 ## [ARCHIVED 2026-06-17] The 2026-06-16 QUEUE / "fix-static then eigenvalue" recommended order
 SUPERSEDED by the 2026-06-17 top-block RECOMMENDED NEXT PUSH (the CLOSED-TIME selector). Item 1
 (fix the off-round static solver) was DONE (Phase 2, full3d_newton). Item 2 (build the eigenvalue/
