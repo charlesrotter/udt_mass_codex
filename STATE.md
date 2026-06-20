@@ -92,11 +92,25 @@ set by BC/regularity) is the CHEAP path that RESCUES JFNK (#1) — try BEFORE th
 build agent leaned KEH; the verifier corrected: re-pose makes the dense-anchor's success transferable to
 matrix-free Krylov; KEH = fallback if re-pose's residual kappa~1e6 + one leftover inner-body gauge/coupling
 mode fails in the nonlinear tail.)
-NEXT (gated on Charles — a fork, his call): P5a' = RE-POSE to full-rank body DOF + retry JFNK (cheap, rescues
-#1) vs jump to #2 KEH. Recommended: re-pose first. Then P5b (anchor reproduction + PC-independence) -> P5c
-(off-round static 32^3 + box-control) -> P5d (time-live free-omega + pseudo-arclength) -> P5e (deep-phi a(phi),
-needs P6 deep core). NOTE: the body-mask rank-deficiency is a LOAD-BEARING TOOL DEFECT inherited from
-full3d_spectral — re-posing also cleans the dense anchor.
+P5a' DONE = PASS (blind-verified, merged ba89c2e; p5a_prime_repose_results.md + p5a_prime_VERIFIER.md). *** The
+RE-POSE RESCUES JFNK (#1) — the everything-on solver has a scalable engine. *** Unknowns = full-rank BODY DOF
+(the unconstrained body-mask edge DOF removed, set by BC/regularity): kappa collapses 4.45e18/216-near-zero ->
+2.31e5/ZERO-near-zero. GATE A (re-pose preserves physics): reposed dense == original anchor, dM_MS=5.6e-17.
+GATE C (beats #60): reposed JFNK drives the Jacobi-PCG stall case (1.28e-5) >1 order below the wall (1.26e-6@it10,
+still falling; ->3.2e-8), the matrix-free Newton step is FLAT across grids (the scalability win). Discipline clean
+(committed residual verbatim; edge gauge declared; no physical DOF frozen; data-blind).
+*** HIGH-STAKES RULING: the build agent's alarming "solution MANIFOLD / angular-Einstein under-determination"
+finding is an ARTIFACT (verifier's decisive Nth-convergence check: bare G^th_th is Nth-INDEPENDENT 0.6988@8=16 =>
+RADIAL-edge operator, not the angular sector; Nr-convergent in the interior; EDGE-localized; at Nr=12 all body
+rows are edge-adjacent = the P1/P2 spectral-edge confound). THE DENSE-NEWTON ANCHOR IS SOUND. ***
+LOOSE THREAD (re-grade, non-blocking): a floored two-gauge run at Nr=24/40 should confirm the cross-gauge dM_MS
+spread SHRINKS (couldn't be cleanly measured; if it does NOT shrink the artifact ruling flips — unlikely given
+the direct residual evidence).
+NEXT (gated on Charles): P5b = add a light PC to recover machine floor + at-floor PC-independence at scale +
+grid scans, with RESOLUTION/EDGE-GAUGE HYGIENE around the 3-row body mask (the next step's real chore, NOT an
+anchor defect). -> P5c off-round static at refined Nr + box-control (re-confirm off-round physics tvar~1e-2) ->
+P5d time-live free-omega + pseudo-arclength continuation -> P5e deep-phi a(phi) (needs P6 deep core). The KEH (#2)
+fallback is NOT needed (JFNK rescued).
 Build contingency (Charles): if solver-limited (the #60 wall at P5), do a thorough GR-numerics-corpus search
 before reinventing (Principle 4).
 
