@@ -1,0 +1,264 @@
+#!/usr/bin/env python3
+"""
+p1_residual_general_einstein.py -- PHASE 1 of the everything-on solver build.
+
+GOAL (EVERYTHING_ON_SOLVER_BUILD_MAP.md S III, P1): the production residual
+(full3d_solver.residual_vector / full3d_newton.residual_vector_vsafe) calls the
+DIAGONAL analytic Einstein `einstein_mixed_weyl`, so although the metric build
+ALLOCATES spatial off-diagonal warps (e_rt, e_rp, e_tp), those off-diagonals NEVER
+reach the field equations.  P1 RE-ROUTES the residual through the GENERAL 4x4 Einstein
+so the spatial off-diagonal metric components become LIVE unknowns whose residual rows
+are the corresponding GENERAL-Einstein components (G^r_th, G^r_ps, G^th_ps).
+
+Driver: Claude (Opus 4.8, 1M).  2026-06-19.  OBSERVE mode.  DATA-BLIND
+(units L=sqrt(kappa/xi)=1; no wall numbers).
+
+REPO DISCIPLINE: committed scripts are IMMUTABLE.  This is a NEW file that IMPORTS the
+clean primitives (full3d_spectral, full3d_solver, full3d_newton, whole_metric_3d_core,
+whole_metric_3d_matter) and wires the general Einstein.  Nothing committed is edited.
+
+=== THE CONDITIONING REALITY (found this session; honest, load-bearing) ===
+A NAIVE swap `einstein_mixed_weyl -> einstein_mixed` (the general spectral Einstein,
+which differentiates the Christoffels by a SECOND spectral pass) is NOT clean: on the
+steep soliton warps (b = p ln(r/r_seal), with a 1/r derivative) the double spectral
+pass is BADLY conditioned near the Chebyshev core edge.  Diagnosed flat-space error
+GROWS with Nr (1.2e3 @ Nr=20 -> 3.8e3 @ Nr=40 in the innermost rows), and even the
+DEEP-interior diagonal blocks of `einstein_mixed` disagree with the analytic
+pole-stable `einstein_mixed_weyl` by O(1-3) on the soliton.  So routing the WHOLE
+residual through the raw general Einstein would corrupt the DIAGONAL sector for a
+NUMERICAL (conditioning) reason and the round soliton would NOT recover -- a false
+"P1 failed" that is really a solver-conditioning artifact, not physics.
+
+THE POLE-STABLE HYBRID (category-A conditioning ONLY; the field equations are
+UNCHANGED -- it is the SAME general 4x4 Einstein, evaluated in a pole-stable way):
+
+   G_full = G_weyl(a,b,c,d)  +  [ einstein_mixed(g_full) - einstein_mixed(g_diag) ]
+
+where g_full = build_metric(a,b,c,d, e_rt,e_rp,e_tp) and g_diag = build_metric with
+the off-diagonals ZEROED.  The bracket is the off-diagonal CONTRIBUTION to the general
+Einstein.  Because both general evaluations share the SAME steep diagonal background,
+the dominant core-conditioning error SUBTRACTS OUT in the difference (verified: the
+difference is O(1e-3) near the core vs O(1e3) raw), while the genuine off-diagonal
+content survives.  When e_rt=e_rp=e_tp=0 the bracket is IDENTICALLY ZERO (verified
+machine-0), so G_full == G_weyl EXACTLY -> the diagonal sector and the round soliton
+are provably unchanged.  This is the validated #56/2-D pole-stable analytic Einstein
+as the BACKBONE plus the general-Einstein off-diagonal DELTA.
+
+WHY THIS IS GENUINELY GENERAL-EINSTEIN (not "still diagonal"): the off-diagonal warps
+e_rt,e_rp,e_tp ENTER the field equations through the general Einstein (the bracket),
+both in the new OFF-DIAGONAL residual rows AND as their back-reaction onto the DIAGONAL
+rows (the bracket has nonzero diagonal-block entries when off-diagonals are present --
+the cross terms G^t_t, G^r_r, ... pick up the off-diagonal shear).  Off-diagonals are
+therefore LIVE unknowns that feed the full coupled system.  The ONLY thing the analytic
+Weyl provides is the pole-stable VALUE of the diagonal background at zero off-diagonal;
+every off-diagonal effect is carried by the validated general 4x4 Einstein.
+
+=== MATTER (P1 scope; NO Skyrme, NO B=1/A) ===
+Matter stays the native S^2-carrier single-profile field + the general L2+L4 Hilbert
+stress (whole_metric_3d_matter) -- the SAME stress the committed residual uses, which
+already sources off-diagonal T components when the field is non-axisymmetric.  The CORE
+boundary condition is the NATIVE regularity NODE (Theta'(core)=0, value FREE) -- NOT the
+Skyrme twist Theta(core)=m*pi.  (The deg-1 homotopy seal value Theta(seal)=0 pins the
+charge-1 sector at the OUTER node; that is a homotopy-sector choice, not the m*pi core
+ladder.)  See `node_core` flag below.  B=1/A is FREE (a,b independent), a=-1 (GR) is the
+fixed baseline this phase (a(phi) is P3, not touched here).
+
+This module provides the P1 residual + Jacobian; validation/observation live in
+p1_validate.py.
+"""
+import os
+os.environ.setdefault("PYTORCH_NVML_BASED_CUDA_CHECK", "0")
+# functorch vmap (jacrev) trips the broken-NVML CUDA caching allocator on this V100;
+# disabling the caching allocator sidesteps it (infra workaround, no numerics effect).
+os.environ.setdefault("PYTORCH_NO_CUDA_MEMORY_CACHING", "1")
+import math
+import torch
+torch.set_default_dtype(torch.float64)
+
+from full3d_spectral import (Grid3D, attach_coord_weight, build_metric,
+    einstein_mixed, einstein_mixed_weyl, field_dn, matter_el_3d, DEV, PI,
+    T, R, TH, PS)
+import whole_metric_3d_core as CORE
+import whole_metric_3d_matter as MAT
+from full3d_newton import inv4x4, det4x4   # vmap-safe 4x4 algebra (byte-equal to linalg)
+
+
+# ===========================================================================
+# PACK / UNPACK -- 5 diagonal fields (a,b,c,d,Th) + 3 spatial off-diagonal warps
+# (e_rt, e_rp, e_tp), each (Nr,Nth,Nps).  The off-diagonals are the NEW live DOF P1
+# turns on.  (Time-row off-diagonals stay ZEROED -- that is P4, not P1.)
+# ===========================================================================
+def pack8(a, b, c, d, Th, e_rt, e_rp, e_tp):
+    return torch.cat([x.reshape(-1) for x in (a, b, c, d, Th, e_rt, e_rp, e_tp)])
+
+
+def unpack8(u, G):
+    n = G.Nr * G.Nth * G.Nps
+    sh = (G.Nr, G.Nth, G.Nps)
+    fs = [u[i*n:(i+1)*n].reshape(sh) for i in range(8)]
+    return fs  # a,b,c,d,Th,e_rt,e_rp,e_tp
+
+
+# ===========================================================================
+# THE GENERAL (POLE-STABLE HYBRID) MIXED EINSTEIN.  Returns G^mu_nu (...,4,4) for
+# the FULL metric with off-diagonals live, computed pole-stably (see header).
+# ===========================================================================
+def einstein_general_hybrid(G, a, b, c, d, e_rt, e_rp, e_tp):
+    g_full = build_metric(G, a, b, c, d, e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)
+    # off-diagonal delta from the validated general 4x4 Einstein
+    g_diag = build_metric(G, a, b, c, d)
+    Ggen_full, _, _, _ = einstein_mixed(G, g_full)
+    Ggen_diag, _, _, _ = einstein_mixed(G, g_diag)
+    delta = Ggen_full - Ggen_diag                 # the off-diagonal contribution
+    Gweyl = einstein_mixed_weyl(G, a, b, c, d)    # pole-stable diagonal backbone
+    return Gweyl + delta, g_full
+
+
+# ===========================================================================
+# THE P1 RESIDUAL VECTOR.  Off-diagonals LIVE.  Field eqns use the GENERAL Einstein.
+#  Rows:
+#    diagonal Einstein:  G^t_t, G^r_r, G^th_th, G^ps_ps  - kap8 T^mu_nu   (now incl.
+#       off-diagonal back-reaction via the hybrid)
+#    OFF-DIAGONAL Einstein: G^r_th, G^r_ps, G^th_ps      - kap8 T^mu_nu   (THE P1 rows
+#       -- these are what the off-diagonal warps e_rt,e_rp,e_tp solve)
+#    matter EL (matter_el_3d)
+#    BC rows (Theta core/seal, gauge a(seal), depth b(core), c,d regular, off-diag
+#       regular at core+seal).
+# ===========================================================================
+def residual_vector_p1(u, G, p, kap8, m=1, wbc=30.0, node_core=True,
+                       core_mode="deg1"):
+    """core_mode (the NATIVE no-Skyrme core condition; see coupled_tl_stage1a):
+        "deg1" (default): the charge-1 (degree-1) homotopy sector connects two
+            OPPOSITE NODES core=pi -> seal=0.  pi is a NODE VALUE selecting the
+            degree-1 class (sin pi = 0), NOT the forbidden m*pi LADDER (m is not a
+            free index; we solve ONLY the charge-1 sector).  This is the condition
+            that HOLDS the round soliton (stage1a finding: the free-value node
+            relaxes to trivial vacuum; deg1 holds the degree-1 profile).
+        "free": maximally-agnostic node Theta'(core)=0, value free.  FINDING
+            (stage1a, reproduced here): the round charge-1 config UNWINDS to the
+            trivial node (vacuum, M_MS~0) -- a genuine result, recorded not patched.
+      node_core=False is the negative-control Skyrme twist (clearly labelled)."""
+    a, b, c, d, Th, e_rt, e_rp, e_tp = unpack8(u, G)
+    Gmix, g = einstein_general_hybrid(G, a, b, c, d, e_rt, e_rp, e_tp)
+    ginv = inv4x4(g)
+    dn = field_dn(G, Th, m=m)
+    Tab, _, _, _ = MAT.stress_tensor(g, ginv, dn, 1.0, 1.0)
+    Tmix = torch.einsum('...ma,...an->...mn', ginv, Tab)
+    resE = Gmix - kap8 * Tmix
+    el = matter_el_3d(G, a, b, c, d, Th, m=m)
+    sqrtg = torch.sqrt(torch.clamp(-det4x4(g), min=1e-30))
+    W = torch.sqrt(sqrtg * G.wvol_coord)
+    W = W / W[G.body].mean()
+    bod = G.body
+    rows = []
+    # four diagonal + three spatial off-diagonal mixed Einstein
+    for (mm, nn) in [(T, T), (R, R), (TH, TH), (PS, PS), (R, TH), (R, PS), (TH, PS)]:
+        rows.append((W * resE[..., mm, nn])[bod])
+    rows.append((W * el)[bod])
+    # ---- BC rows ----
+    if node_core:
+        if core_mode == "free":
+            # maximally-agnostic node, VALUE FREE: Theta'(core)=0 (spectral radial
+            # row).  sin Theta(0)=0 with finite energy => node, value not pinned.
+            rows.append(wbc * G.d_r(Th)[0, :, :].reshape(-1))
+        else:  # "deg1": charge-1 sector, opposite nodes core=pi -> seal=0
+            # pi is the NODE value selecting the degree-1 class, NOT the m*pi ladder.
+            rows.append(wbc * (Th[0, :, :].reshape(-1) - PI))
+    else:
+        # negative-control ONLY (clearly labelled): the Skyrme twist core BC.
+        rows.append(wbc * (Th[0, :, :].reshape(-1) - m * PI))
+    # deg-1 charge sector: outer node Theta(seal)=0 (homotopy-sector pin, NOT m*pi)
+    rows.append(wbc * (Th[-1, :, :].reshape(-1) - 0.0))
+    rows.append(wbc * a[-1, :, :].reshape(-1))            # seal gauge a(seal)=0
+    rows.append(wbc * (b[0, :, :].reshape(-1) + p))       # depth dial b(core)=-p
+    rows.append(wbc * c[0, :, :].reshape(-1)); rows.append(wbc * c[-1, :, :].reshape(-1))
+    rows.append(wbc * d[0, :, :].reshape(-1)); rows.append(wbc * d[-1, :, :].reshape(-1))
+    # off-diagonal warps regular (=0) at core AND seal (they may grow in the BODY)
+    for e in (e_rt, e_rp, e_tp):
+        rows.append(wbc * e[0, :, :].reshape(-1))
+        rows.append(wbc * e[-1, :, :].reshape(-1))
+    F = torch.cat([r.reshape(-1) for r in rows])
+    return F
+
+
+# ===========================================================================
+# BATCHED Jacobian via torch.func.jacrev (one batched reverse pass).  Same pattern
+# as full3d_newton.jacobian_jacrev; the residual is vmap-safe (inv4x4/det4x4, no
+# linalg.inv/det/solve inside).
+# ===========================================================================
+def jacobian_p1(u, G, p, kap8, m=1, wbc=30.0, node_core=True, core_mode="deg1",
+                chunk_size=128):
+    from torch.func import jacrev
+    f = lambda uu: residual_vector_p1(uu, G, p, kap8, m=m, wbc=wbc,
+                                      node_core=node_core, core_mode=core_mode)
+    J = jacrev(f, chunk_size=chunk_size)(u)
+    F = residual_vector_p1(u, G, p, kap8, m=m, wbc=wbc, node_core=node_core,
+                           core_mode=core_mode).detach()
+    return J.detach(), F
+
+
+# ===========================================================================
+# PRODUCTION LM / Newton solve (direct factorized damped LS step; strict monotone
+# accept).  Identical control flow to full3d_newton.newton_solve.
+# ===========================================================================
+def newton_solve_p1(u, G, p, kap8, m=1, maxit=40, lam0=1e-4, tol=1e-11,
+                    verbose=False, wbc=30.0, node_core=True, core_mode="deg1",
+                    chunk_size=128, lam_min=1e-14):
+    import numpy as np
+    u = u.detach().clone()
+    lam = lam0
+    F = residual_vector_p1(u, G, p, kap8, m=m, wbc=wbc, node_core=node_core,
+                           core_mode=core_mode)
+    Phi = float((F * F).sum()); hist = [Phi]
+    nU = u.numel()
+    I = torch.eye(nU, device=u.device)
+    for it in range(maxit):
+        if Phi < tol:
+            break
+        J, F = jacobian_p1(u, G, p, kap8, m=m, wbc=wbc, node_core=node_core,
+                           core_mode=core_mode, chunk_size=chunk_size)
+        accepted = False
+        for _try in range(12):
+            try:
+                Jaug = torch.cat([J, math.sqrt(lam) * I], dim=0)
+                Faug = torch.cat([-F, torch.zeros(nU, device=u.device)], dim=0)
+                du = torch.linalg.lstsq(Jaug, Faug).solution
+            except Exception:
+                lam *= 4.0; continue
+            un = u + du
+            Pn = float((residual_vector_p1(un, G, p, kap8, m=m, wbc=wbc,
+                                           node_core=node_core,
+                                           core_mode=core_mode) ** 2).sum())
+            if np.isfinite(Pn) and Pn < Phi:
+                u = un; Phi = Pn; lam = max(lam * 0.25, lam_min); accepted = True; break
+            lam *= 4.0
+        hist.append(Phi)
+        if verbose:
+            print(f"  [p1-newton] it={it:3d} Phi={Phi:.4e} lam={lam:.1e} "
+                  f"{'acc' if accepted else 'STALL'}")
+        if not accepted:
+            break
+    return u.detach(), hist
+
+
+# ===========================================================================
+# per-component residual breakdown (validation report)
+# ===========================================================================
+def component_residuals_p1(u, G, p, kap8, m=1):
+    a, b, c, d, Th, e_rt, e_rp, e_tp = unpack8(u, G)
+    Gmix, g = einstein_general_hybrid(G, a, b, c, d, e_rt, e_rp, e_tp)
+    ginv = inv4x4(g)
+    dn = field_dn(G, Th, m=m)
+    Tab, _, _, _ = MAT.stress_tensor(g, ginv, dn, 1.0, 1.0)
+    Tmix = torch.einsum('...ma,...an->...mn', ginv, Tab)
+    resE = Gmix - kap8 * Tmix
+    el = matter_el_3d(G, a, b, c, d, Th, m=m)
+    bod = G.body
+    names = {(T, T): 'tt', (R, R): 'rr', (TH, TH): 'thth', (PS, PS): 'psps',
+             (R, TH): 'rth', (R, PS): 'rps', (TH, PS): 'thps'}
+    out = {nm: float(resE[..., mm, nn][bod].abs().max()) for (mm, nn), nm in names.items()}
+    out['el'] = float(el[bod].abs().max())
+    out['e_rt_max'] = float(e_rt[bod].abs().max())
+    out['e_rp_max'] = float(e_rp[bod].abs().max())
+    out['e_tp_max'] = float(e_tp[bod].abs().max())
+    return out
