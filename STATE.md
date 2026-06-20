@@ -119,15 +119,29 @@ must NOT be banked off the Nr=12 reposed-hold solve. *** The P5a' "anchor sound"
 (residual Nth-independent + interior-Nr-convergent) BUT the coarse-grid solution non-uniqueness must be resolved
 at usable resolution before banking physics. THE DECISIVE RESOLUTION is THROUGHPUT-LIMITED (Nr=16 plateaued under
 an iteration cap + 3-way GPU contention; the descent is steep => budget-limited, NOT a conditioning wall).
-NEXT (gated on Charles) — P5c's FIRST job is the decisive item: floor the same case at Nr=16/24 with a REAL
-iteration budget (no GPU contention, ~40+ Newton iters), then re-run PC-INDEPENDENCE + cross-gauge dM_MS. If they
-COLLAPSE to one solution => the Nr=12 valley is a coarse-grid edge artifact, the anchor is resolution-robust
-(green, §0 cure confirmed), M_MS bankable. If the spread PERSISTS => the re-pose 'hold' edge gauge under-
-determines the physics and the manifold question reopens. THEN P5c proper (off-round static + box-control) -> P5d
-time-live free-omega + pseudo-arclength -> P5e deep-phi a(phi) (needs P6 deep core). KEH (#2) not needed.
-NOTE (throughput): the GPU contention came from running multiple solves at once; P5c needs a clean single-process
-budget. Solves are slow (jacrev/iteration-bound) — keep grids bounded + iteration-capped (the P5b agent hung
-twice on unbounded solves; bound them).
+P5c-step-1 DONE (the decisive uniqueness re-run; merged 88ce108; p5c_uniqueness_results.md + p5c_VERIFIER.md).
+VERDICT = PERSIST, and the verifier deepened it: *** the committed 3-D coupled solver admits MULTIPLE distinct
+solutions at MACHINE FLOOR with NO selection principle. *** The build agent found the reposed-'hold' floor is
+non-unique + WORSENS with Nr (refuting the P5a'/P5b 'coarse-grid artifact' ruling) and localized it to the
+re-pose hold-gauge instrument (claiming the FREE full-space solve is clean). The VERIFIER REFUTED that
+localization: it ran the FREE solve from a SECOND seed (the build agent only used one) -> the FREE solve is ALSO
+NON-UNIQUE (M_MS 0.309 vs 0.287 @Nr12 = 7.1%; 0.292 vs 0.278 @Nr16 = 4.9%, both floored). So the disease is
+genuine PHYSICAL solution MULTIPLICITY in the committed residual (basin multiplicity), NOT the instrument; the
+hold gauge adds a further ambiguity on top. Reconciles P5a' GATE A (the dM_MS=5.6e-17 anchor-match was a
+matched-gauge/matched-seed CONSISTENCY check, never a uniqueness proof — P5a' flagged this in its OPEN note).
+*** M_MS is NOT bankable from EITHER solve at Nr=12/16 (both non-unique). *** This is a SOLVER-COMPLETENESS gap,
+NOT a metric defect (MISMATCH->SOLVER): the solver lacks a SELECTION PRINCIPLE (which floored solution = the
+particle = a STABLE/min-energy solution = completeness criterion 9). PRECEDENTED: the phase3b crowded-landscape /
+energy-minimizer finding ([[gravitating-soliton-stability-test]]) — m>=2 was already known multi-basin; this
+shows the 3-D solve is multi-basin more broadly. BOUNDED: the spread is ~5-7% within the established 0.28-0.31
+band (consistent with the radial #56 M_MS~0.29-0.30), not wild. JFNK scalability NOT recovered (dense-LM only at
+Nr>=16; matrix-free can't floor in budget).
+NEXT (gated on Charles — a PONDER/fork): the forward path is the SELECTION PRINCIPLE. Options: (a) characterize
+the basins (how many, are high-Theta/large-amplitude branches spurious by a physical criterion) + Nr=24 seed
+sweep; (b) add a DERIVED selection principle — energy minimization / STABILITY (criterion 9, the phase3b
+energy-minimizer/continuation lesson) / continuation from a known limit / Theta regularity. NOT P5d/P5e until a
+unique physical solution can be pinned. Anti-hang LOCKED: single clean process, bounded grids (Nr<=24) + iter
+caps, dense-LM (jacrev+lstsq) is the flooring tool, NEVER background-poll (3 agents hung on unbounded solves).
 Build contingency (Charles): if solver-limited (the #60 wall at P5), do a thorough GR-numerics-corpus search
 before reinventing (Principle 4).
 
