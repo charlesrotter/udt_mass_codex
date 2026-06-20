@@ -126,6 +126,12 @@ answerable yet.
    time-live coupled system may resist a clean floor; if so the program is solver-limited, not
    metric-limited — and we say INCONCLUSIVE, not null. This is the single biggest schedule/▸
    feasibility risk. The dense-Newton anchor de-risks correctness but not scale.
+   **CONTINGENCY (Charles 2026-06-19, = Principle 4 "the GR corpus is a mine"): if we find
+   ourselves solver-limited, do a THOROUGH search of the GR numerical-relativity corpus before
+   reinventing — boson-star / gravitating-soliton solvers, KEH/Hachisu self-consistent field,
+   spectral elliptic methods, pseudo-arclength continuation, Newton-Krylov preconditioners,
+   multigrid. Many have gone down a very similar path; mine their methods (transformed under
+   positional dilation) rather than building from scratch.**
 2. **L-a being made to look forced.** The temptation to pick a k that "works." Guard: declared
    parameter, baseline a=−1, separate reporting.
 3. **Over-engineering / deferral.** Building forever, never observing. Guard: observe at every

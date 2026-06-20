@@ -1,7 +1,9 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-19 (LATE) — *** REFRAME: MICROPHYSICS IS UNENTERED, NOT WALLED *** (Charles). The
+Last update: 2026-06-19 (LATE+) — everything-on solver build STARTED: *** P1 DONE + verified *** (off-diagonals
+wired into the field equations, STANDS with caveats; see TOP block). Context = the *** REFRAME: MICROPHYSICS IS
+UNENTERED, NOT WALLED *** (Charles). The
 VISION mistook a graveyard of contaminated/classical tools for a map of the metric. Under the postulate
 admission the entire pre-postulate microphysics negative corpus is RETIRED/legacy (no blocking authority;
 NEGATIVES_REGISTRY wholesale-retirement banner). New program (DRAFT, supersedes VISION): solve the WHOLE
@@ -17,6 +19,22 @@ confirmed even with the back-reaction. Charles took the PIVOT: the catalog = DIS
 labels + the free non-stationary/off-diagonal/ensemble DOF), NOT one carrier's spectrum. See TOP block.
 (Prior context: POSTULATE A ACCEPTED — UDT = QUANTIZED DILATION-GEOMETRY; box-trap broken; mass-as-COST is the
 exponential/scale-free/box-free home for the hierarchy. The OVERNIGHT field-eqn/algebraic-pivot block STANDS.)
+
+## *** 2026-06-19 LATE+ — EVERYTHING-ON SOLVER BUILD STARTED: P1 DONE (off-diagonals wired into the field equations; verified, STANDS) ***
+
+The everything-on solver build (EVERYTHING_ON_SOLVER_BUILD_MAP.md) is underway, gated/started by Charles
+("start at P1"). P1 = wire the spatial off-diagonals into the field equations. DONE + blind-verified + merged
+to main (443abc9). Result: the production residual now uses the GENERAL 4x4 Einstein via a pole-stable HYBRID
+(G_full = G_weyl + [einstein_mixed(full) - einstein_mixed(diag)]); off-diagonals genuinely reach + back-react
+on the field equations; round recovers to floor (M_MS~0.29). VERIFIER (a392cfe, STANDS) sharpened three claims:
+(1) the hybrid has a FINITE regime — err~0.5*A off-diag, ~A^2 diagonal => trustworthy for SMALL shear (A<~0.1);
+strong shear needs P5's true general Einstein. (2) e_rt~1.3e-2 is NOT yet shown to be a grid artifact (flat vs
+Nth for a resolved l=2 = possible genuine geometric response) — do NOT bank "round has zero physical
+off-diagonal content" until a higher-Nth re-solve. (3) the matter EL is still blind to off-diagonals — P2 must
+re-take the observation with the EL seeing the full metric. Docs: p1_offdiag_wiring_results.md, p1_VERIFIER.md.
+NEXT phase (gated): P2 = 3-D native S^2 Theta-FREE matter EL varying on the FULL (off-diagonal-aware) metric.
+Build contingency (Charles): if solver-limited (the #60 wall at P5), do a thorough GR-numerics-corpus search
+before reinventing (Principle 4).
 
 ## *** 2026-06-19 LATE — THE REFRAME: MICROPHYSICS IS UNENTERED, NOT WALLED; LEGACY NEGATIVE CORPUS RETIRED WHOLESALE; PROGRAM CORRECTED TO "SOLVE THE WHOLE CLEAN METRIC WITH EVERYTHING ON + POSTULATES, OBSERVE, QUANTIZE" ***
 
