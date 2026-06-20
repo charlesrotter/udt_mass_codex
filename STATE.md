@@ -78,11 +78,25 @@ Deferred to P5 (throughput wall): the full OFF-ROUND time-live COUPLED solve to 
 clean (open-time only; a=-1; native S^2; no Skyrme; B=1/A free; data-blind). **P5 inherits** a validated time-live
 residual (omega=0 = static soliton, provably), the pole-stable hybrid evaluator, and the off-round diagonal as
 the channel to push.
-NEXT phase (gated, = the genuine next MAP point): P5 = the RESEARCH-GRADE off-round driver (the #60 throughput
-wall where ALL the P2/P3/P4 deep-regime/off-round deferrals come due). The approach is a real open choice =>
-MAP P5 before building. Build contingency (Charles, Principle 4): if solver-limited, do a THOROUGH GR-numerics-
-corpus search (boson-star/gravitating-soliton solvers, KEH/Hachisu SCF, spectral elliptic, Newton-Krylov
-preconditioners, multigrid, pseudo-arclength continuation) before reinventing.
+P5 (research-grade off-round driver) IN PROGRESS — MAP'd (EVERYTHING_ON_SOLVER_P5_MAP.md), survey done
+(p5_solver_survey_results.md: #1=JFNK+physics-PC, #2 fallback=KEH/Hachisu SCF), Charles signed off #1 de-risk-
+first. P5a (the PC prototype) DONE = FAIL, blind-verified (p5a_jfnk_precond_results.md + p5a_VERIFIER.md, merged
+245c85b). The de-risk worked: cheaply found #1's PC fails AND diagnosed why — and CORRECTED the survey's
+steep-core hypothesis. ROOT CAUSE (verified): the committed coupled Jacobian is MASSIVELY RANK-DEFICIENT (kappa
+astronomical ~1e20+; ~90% of the null-energy on the INHERITED body-mask Cheb-EDGE-excision DOF, Grid3D.body),
+NOT steep-core elliptic conditioning. Honest operator property (matrix-free JVP == dense J@v to 1e-16, not a
+JFNK bug); only the anchor's rank-revealing lstsq handles it; CG/LSMR + every PC choke on the nullspace.
+*** DECISIVE FORK (verifier did the path-check): restricting J to the BODY DOF collapses the deficiency (near-
+zero 430->1; kappa 1.98e37 -> ~1e6). => RE-POSE the discretization to full-rank (solve only body DOF, edge rows
+set by BC/regularity) is the CHEAP path that RESCUES JFNK (#1) — try BEFORE the heavier KEH rebuild. *** (The
+build agent leaned KEH; the verifier corrected: re-pose makes the dense-anchor's success transferable to
+matrix-free Krylov; KEH = fallback if re-pose's residual kappa~1e6 + one leftover inner-body gauge/coupling
+mode fails in the nonlinear tail.)
+NEXT (gated on Charles — a fork, his call): P5a' = RE-POSE to full-rank body DOF + retry JFNK (cheap, rescues
+#1) vs jump to #2 KEH. Recommended: re-pose first. Then P5b (anchor reproduction + PC-independence) -> P5c
+(off-round static 32^3 + box-control) -> P5d (time-live free-omega + pseudo-arclength) -> P5e (deep-phi a(phi),
+needs P6 deep core). NOTE: the body-mask rank-deficiency is a LOAD-BEARING TOOL DEFECT inherited from
+full3d_spectral — re-posing also cleans the dense anchor.
 Build contingency (Charles): if solver-limited (the #60 wall at P5), do a thorough GR-numerics-corpus search
 before reinventing (Principle 4).
 

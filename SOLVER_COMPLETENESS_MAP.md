@@ -47,7 +47,7 @@ area-form Maslov index; hbar-quantization acts on the CONTINUOUS solution family
 | Non-round spatial (l>=2) | live with everything else | off-round COUPLED solve does NOT converge at production grid (#60 conditioning wall) | full3d_newton (anchor only) | research-grade preconditioned/Newton-Krylov upgrade |
 | Seal / finite cell | reflecting time-live boundary | DESIGNED only (time_live_bare_solve_DESIGN.md), not implemented | — | build |
 | Deep core | honest (phi->-inf, not a 0.05 cutoff) | FD 1/r^2 strain; body+bulk trustworthy, core excised | — | log/geometric grid or analytic core |
-| Driver | scales to off-round coupled at clean floor | dense-Newton clean + proven ~1e-13 SMALL grid; does NOT scale off-round | `full3d_newton.py` (correctness ANCHOR) | preconditioned/Newton-Krylov or sparse-direct upgrade |
+| Driver | scales to off-round coupled at clean floor | P5 in progress: #1=JFNK+physics-PC (survey); P5a PROTOTYPE FAILED (verified) — ROOT CAUSE = the committed coupled Jacobian is MASSIVELY RANK-DEFICIENT (kappa~1e20+; ~90% null-energy on the INHERITED body-mask edge-excision DOF), NOT steep-core. dense-Newton (anchor) handles it via rank-revealing lstsq; Krylov can't. FORK: restricting to BODY DOF collapses kappa 1e37->1e6 => RE-POSE rescues JFNK (cheap) before KEH fallback | full3d_newton.py (ANCHOR), p5a_jfnk_precond.py | P5a' re-pose to full-rank body DOF + retry JFNK (gated) |
 | Discretization/observables | spectral + divT gate + M_MS | CLEAN | full3d_spectral, divT_excised, M_MS | — |
 
 BOTTOM LINE (recon): tooling is ~half-way. Clean general primitives exist; THREE things are
