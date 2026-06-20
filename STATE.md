@@ -52,9 +52,22 @@ correctness check. DEFERRED to P5 (throughput wall): the fully-coupled axis-regu
 large-shear coupled solve (T^r_theta=3.47 would push e_rt outside the P1 hybrid's small-shear validity A<~0.1).
 **P3 inherits:** a native S^2 matter sector whose stress + EL both couple to the full off-diagonal metric
 (proven), and the F(r,theta) axis-regularity requirement — NOT a non-round claim.
-NEXT phase (gated): P3 = wire a(phi) as a FUNCTION (the e^{(a+1)phi} weight) into the action/stress; a=-1 the
-validated baseline, a(phi)!=-1 a separate declared exploration (never conflated). Then P4 (time live), P5
-(research-grade off-round driver — the throughput wall where P2's deferrals live).
+P3 DONE (blind-verified + driver-confirmed, merged e4fecb4; p3_aphi_coupling_results.md + p3_VERIFIER.md +
+p3_aphi_FIX_results.md). The a(phi) matter-coupling CAPABILITY is wired: the e^{(a+1)phi} source weight on the
+matter ACTION density (DERIVED placement, uniform on the whole L; phi=b read off the metric). Baseline a=-1
+(k=0) reproduces P2 BITWISE (W=1; the layer collapses to P2). a(phi)!=-1 a DECLARED, UNFORCED, non-absorbable
+exploration (never "the UDT answer"; a=-1=GR admissible). Verifier caught a REAL defect (running-a conservation
+coefficient) -> FIXED: the weight is the RULER-INTEGRAL W=exp(INT(a+1)dphi), forced by the arc's local rate law
+d ln m/dphi=a (product form contaminates the rate); driver-confirmed sympy d lnW/dphi=a+1 EXACT, baseline W=1.
+On the SHALLOW-phi round anchor the weight does little (modest source suppression, soliton stays localized);
+the DEEP-core O(1)-departure regime the arc expects is NOT reached (deferred to P6 deep core + P5 driver).
+SCOPED OUT (Principle 7, flagged not hidden): phi-as-metric-DOF curvature-side dW/dg = the unbuilt native-
+curvature-action; P3 stays inside the GR-form field eqn with the matter weight. **P4 inherits** a weight-capable
+native S^2 matter sector (stress + EL both carry e^{(a+1)phi}, ruler form, on the full off-diagonal metric).
+NEXT phase (gated): P4 = turn on the LIVE TIME row (open-time harmonic balance; omega free; static=omega->0
+contained) on top of the P1-P3 sector. Then P5 (research-grade off-round driver = the throughput wall where the
+P2/P3 deep-regime deferrals live). Build contingency (Charles): if solver-limited at P5, do a thorough
+GR-numerics-corpus search before reinventing (Principle 4).
 Build contingency (Charles): if solver-limited (the #60 wall at P5), do a thorough GR-numerics-corpus search
 before reinventing (Principle 4).
 
