@@ -64,10 +64,25 @@ the DEEP-core O(1)-departure regime the arc expects is NOT reached (deferred to 
 SCOPED OUT (Principle 7, flagged not hidden): phi-as-metric-DOF curvature-side dW/dg = the unbuilt native-
 curvature-action; P3 stays inside the GR-form field eqn with the matter weight. **P4 inherits** a weight-capable
 native S^2 matter sector (stress + EL both carry e^{(a+1)phi}, ruler form, on the full off-diagonal metric).
-NEXT phase (gated): P4 = turn on the LIVE TIME row (open-time harmonic balance; omega free; static=omega->0
-contained) on top of the P1-P3 sector. Then P5 (research-grade off-round driver = the throughput wall where the
-P2/P3 deep-regime deferrals live). Build contingency (Charles): if solver-limited at P5, do a thorough
-GR-numerics-corpus search before reinventing (Principle 4).
+P4 DONE = DONE-for-scope / PARTIAL-on-physics (blind-verified, merged cb1de83; p4_time_live_results.md +
+p4_VERIFIER.md). The LIVE TIME ROW is wired into the full P1-P3 stack (open-time single-harmonic balance,
+d_t^2->-omega^2, omega free; d_T g != 0 reaches the kernel t-slot; matter profile time-dependence live).
+CONTAINMENT bitwise: omega->0 returns the static P3 soliton EXACTLY (dM_MS=0, amplitudes=0). Time is GENUINELY
+live: d_T g reaches Christoffels -> nonzero G^t_r LINEAR in omega (the Birkhoff-escape channel) + T_tr!=0
+(sourced by d_t F, odd/linear in omega, escapes Birkhoff). KEY two-edged finding (verifier-confirmed by an
+independent non-round probe): the round DIAGONAL G^t_t time-kinetics CANCEL — genuine Birkhoff (round+diagonal),
+NOT a wiring bug (a NON-round amplitude makes a diagonal component SURVIVE) — so the surviving d_t^2 channel is
+the OFF-ROUND l>=2 wave = P5. Same pole-stable hybrid as P1 (bitwise at omega=0; inherits P1's small-shear/
+large-omega accuracy caveat). NO omega claim, NO box-control verdict, NO tower re-hunt (#65 not re-litigated).
+Deferred to P5 (throughput wall): the full OFF-ROUND time-live COUPLED solve to a free-omega eigenvalue. Discipline
+clean (open-time only; a=-1; native S^2; no Skyrme; B=1/A free; data-blind). **P5 inherits** a validated time-live
+residual (omega=0 = static soliton, provably), the pole-stable hybrid evaluator, and the off-round diagonal as
+the channel to push.
+NEXT phase (gated, = the genuine next MAP point): P5 = the RESEARCH-GRADE off-round driver (the #60 throughput
+wall where ALL the P2/P3/P4 deep-regime/off-round deferrals come due). The approach is a real open choice =>
+MAP P5 before building. Build contingency (Charles, Principle 4): if solver-limited, do a THOROUGH GR-numerics-
+corpus search (boson-star/gravitating-soliton solvers, KEH/Hachisu SCF, spectral elliptic, Newton-Krylov
+preconditioners, multigrid, pseudo-arclength continuation) before reinventing.
 Build contingency (Charles): if solver-limited (the #60 wall at P5), do a thorough GR-numerics-corpus search
 before reinventing (Principle 4).
 
