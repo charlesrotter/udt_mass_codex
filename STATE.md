@@ -38,7 +38,23 @@ L2+L4 sources NO stable 4th component (the only interior critical point is n_4=0
 unwinds the charge to vacuum, NOT an S^3 soliton); S^3 is never native, always imported (Skyrme BC #61). The
 cos-theta "texture" that motivated the check was an ARTIFACT of a non-unit embedding; the genuine unit hedgehog
 n=x/r is texture-free + B=1/A-consistent. => P2 proceeds on the clean S^2 unit 3-vector.
-NEXT phase (gated): P2 = 3-D native S^2 Theta-FREE matter EL varying on the FULL (off-diagonal-aware) metric.
+P2 DONE = PARTIAL (blind-verified, merged da399a8; p2_matter_fullmetric_results.md + p2_VERIFIER.md). Two
+CLOSURES proven: the native S^2 unit-3-vector matter EL (a) lives in full 3-D (F(r,theta,psi)) and (b) VARIES
+ON THE FULL off-diagonal metric (the P1 gap closed; off-diagonal dependence first-order, =0 at zero shear,
+linear, independently confirmed). Shear observation settled: e_rp,e_tp genuinely 0; e_rt GENUINE (not a grid
+artifact). *** OVER-CLAIM CAUGHT + CORRECTED by the verifier ***: the build doc's "genuine native object is
+intrinsically NON-ROUND in theta" OVER-REACHES — the polar-singularity is the STANDARD AXIS-REGULARITY of an
+m=1 winding; the minimal axis-regular deg-1 object is F=theta, which is ROUND (T^r_theta machine-zero). e_rt is
+sourced by DEVIATION FROM the round profile (driver-IMPOSED in the observe config), NOT metric-selected, NOT
+theta-dependence per se. Whether the SOLVED object is non-round is the P5 coupled-solve question, NOT
+established. Covariant divT gate = Nth-noise (committed S^3 path fails it too) => FD-variational gate is the
+correctness check. DEFERRED to P5 (throughput wall): the fully-coupled axis-regular F(r,theta) round anchor +
+large-shear coupled solve (T^r_theta=3.47 would push e_rt outside the P1 hybrid's small-shear validity A<~0.1).
+**P3 inherits:** a native S^2 matter sector whose stress + EL both couple to the full off-diagonal metric
+(proven), and the F(r,theta) axis-regularity requirement — NOT a non-round claim.
+NEXT phase (gated): P3 = wire a(phi) as a FUNCTION (the e^{(a+1)phi} weight) into the action/stress; a=-1 the
+validated baseline, a(phi)!=-1 a separate declared exploration (never conflated). Then P4 (time live), P5
+(research-grade off-round driver — the throughput wall where P2's deferrals live).
 Build contingency (Charles): if solver-limited (the #60 wall at P5), do a thorough GR-numerics-corpus search
 before reinventing (Principle 4).
 
