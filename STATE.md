@@ -32,6 +32,12 @@ strong shear needs P5's true general Einstein. (2) e_rt~1.3e-2 is NOT yet shown 
 Nth for a resolved l=2 = possible genuine geometric response) — do NOT bank "round has zero physical
 off-diagonal content" until a higher-Nth re-solve. (3) the matter EL is still blind to off-diagonals — P2 must
 re-take the observation with the EL seeing the full metric. Docs: p1_offdiag_wiring_results.md, p1_VERIFIER.md.
+S^2-vs-S^3 OBJECT IDENTITY SETTLED (before P2, blind-verified 2026-06-19; s2_s3_identity_results.md +
+_VERIFIER.md): the native matter object is **S^2** (unit 3-vector, pi_2) — DEMANDS-level, no fork. The native
+L2+L4 sources NO stable 4th component (the only interior critical point is n_4=0; the unstable direction
+unwinds the charge to vacuum, NOT an S^3 soliton); S^3 is never native, always imported (Skyrme BC #61). The
+cos-theta "texture" that motivated the check was an ARTIFACT of a non-unit embedding; the genuine unit hedgehog
+n=x/r is texture-free + B=1/A-consistent. => P2 proceeds on the clean S^2 unit 3-vector.
 NEXT phase (gated): P2 = 3-D native S^2 Theta-FREE matter EL varying on the FULL (off-diagonal-aware) metric.
 Build contingency (Charles): if solver-limited (the #60 wall at P5), do a thorough GR-numerics-corpus search
 before reinventing (Principle 4).
