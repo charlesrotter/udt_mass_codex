@@ -106,11 +106,28 @@ rows are edge-adjacent = the P1/P2 spectral-edge confound). THE DENSE-NEWTON ANC
 LOOSE THREAD (re-grade, non-blocking): a floored two-gauge run at Nr=24/40 should confirm the cross-gauge dM_MS
 spread SHRINKS (couldn't be cleanly measured; if it does NOT shrink the artifact ruling flips — unlikely given
 the direct residual evidence).
-NEXT (gated on Charles): P5b = add a light PC to recover machine floor + at-floor PC-independence at scale +
-grid scans, with RESOLUTION/EDGE-GAUGE HYGIENE around the 3-row body mask (the next step's real chore, NOT an
-anchor defect). -> P5c off-round static at refined Nr + box-control (re-confirm off-round physics tvar~1e-2) ->
-P5d time-live free-omega + pseudo-arclength continuation -> P5e deep-phi a(phi) (needs P6 deep core). The KEH (#2)
-fallback is NOT needed (JFNK rescued).
+P5b DONE = PARTIAL (merged b1862f3; p5b_pc_floor_results.md). Two findings:
+(1) GOOD — light/NO PC suffices: a light right-PC (rband) drives the re-posed JFNK to machine floor (3.4e-13 in
+~17 iters at Nr=12); raw LSMR also floors. The "need a strong PC" premise is DISSOLVED (the engine works). The
+§0 diagnostic: the kappa~1e6 at Nr=12 is ONE isolated edge-adjacent metric-warp near-null mode; at Nr>=16 it
+VANISHES (kappa ~3e3, clean band).
+(2) CAUTION (qualifies the P5a' "anchor sound" ruling) — PC-INDEPENDENCE FAILS AT Nr=12: all PCs hit committed-
+Phi at machine floor yet land on PHYSICALLY DIFFERENT solutions (M_MS spread 0.269-0.296 = 9.3%; field diffs ~10
+in metric warps b,c,d, ~0 in Theta = exactly the §0 edge-warp mode). At the COARSE Nr=12 grid the F=0 set is a
+near-flat VALLEY along that mode => the reposed-hold Nr=12 solution is NON-UNIQUE / gauge-contaminated. *** M_MS
+must NOT be banked off the Nr=12 reposed-hold solve. *** The P5a' "anchor sound" ruling holds IN THE CONTINUUM
+(residual Nth-independent + interior-Nr-convergent) BUT the coarse-grid solution non-uniqueness must be resolved
+at usable resolution before banking physics. THE DECISIVE RESOLUTION is THROUGHPUT-LIMITED (Nr=16 plateaued under
+an iteration cap + 3-way GPU contention; the descent is steep => budget-limited, NOT a conditioning wall).
+NEXT (gated on Charles) — P5c's FIRST job is the decisive item: floor the same case at Nr=16/24 with a REAL
+iteration budget (no GPU contention, ~40+ Newton iters), then re-run PC-INDEPENDENCE + cross-gauge dM_MS. If they
+COLLAPSE to one solution => the Nr=12 valley is a coarse-grid edge artifact, the anchor is resolution-robust
+(green, §0 cure confirmed), M_MS bankable. If the spread PERSISTS => the re-pose 'hold' edge gauge under-
+determines the physics and the manifold question reopens. THEN P5c proper (off-round static + box-control) -> P5d
+time-live free-omega + pseudo-arclength -> P5e deep-phi a(phi) (needs P6 deep core). KEH (#2) not needed.
+NOTE (throughput): the GPU contention came from running multiple solves at once; P5c needs a clean single-process
+budget. Solves are slow (jacrev/iteration-bound) — keep grids bounded + iteration-capped (the P5b agent hung
+twice on unbounded solves; bound them).
 Build contingency (Charles): if solver-limited (the #60 wall at P5), do a thorough GR-numerics-corpus search
 before reinventing (Principle 4).
 
