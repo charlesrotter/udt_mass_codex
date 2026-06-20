@@ -1,5 +1,21 @@
 # HANDOFF — Resume Instructions and Perspective
 
+## *** STANDING BINDING DISCIPLINE — read every resume (Charles 2026-06-19) ***
+**MISMATCH -> SOLVER, NOT MECHANISM.** If a result is far from observation, the FIRST hunt is the
+SOLVER and our application of it — NEVER a mechanism. In order:
+1. What did we leave OUT of the solver? (a term, a coupling, a sector, a boundary)
+2. Is it a NUMERIC problem? (convergence, box-control, conditioning, a bug, grid)
+3. Did we FREEZE or forget to turn on a degree of freedom?
+4. Have we actually EXPLORED THE SOLUTION SPACE with everything on, or only a corner?
+Plus the many WAYS to examine the same solve (different bases, grids, seeds, continuation, gauge
+tests, independent re-derivation). **Reaching for a mechanism to close a gap is FORBIDDEN** until the
+solver is demonstrably complete and the solution space genuinely explored. A mismatch indicts the
+solver's COMPLETENESS first, the metric last, and a mechanism never (the import reflex). This is
+Principle 1 applied to our own numerics. And: **the microphysics space is UNENTERED, not walled** —
+the pre-postulate negative corpus is RETIRED (mine for TOOLING only). Forward frame =
+**POST_POSTULATE_PROGRAM.md** (supersedes VISION); instrument = SOLVER_COMPLETENESS_MAP.md.
+(Also in CLAUDE.md tripwires + memory [[solver-first-not-mechanism]].)
+
 History note: all pre-2026-06-19 frontier blocks (the 2026-06-18 field-equation/foundation turn, the
 2026-06-19-overnight algebraic pivot, and earlier closed-time/winding-catalog material) are SUPERSEDED by
 the 2026-06-19 MORNING frontier + **VISION_POST_POSTULATE.md** and condensed into **HANDOFF_ARCHIVE.md**
