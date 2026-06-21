@@ -26,7 +26,7 @@ FOUNDATIONAL_ASSUMPTIONS_LEDGER.md. This doc = the actionable checklist.
 - [x] **F5 — critical-universe frame.** CLOSED (F5_critical_universe_closure_results.md, verified CLEAN) = ADMITTED WORKING FRAME with a derived self-consistency mechanism (c²=2GM/R); pinning dimensional-only; does NOT bear on must-quantize. PARTIAL (bootstrap = critical universe w/ a why, c^2=2GM/R). FINISH:
   is "matter at ONE critical amount" DERIVABLE or an admitted FRAME? is the pinning derivable or dimensional-
   only? Deliverable: F5 closure (derived vs admitted-frame, explicit).
-- [ ] **F6 — postulate-A boundary.** OPEN (admitted). FINISH the clean ledger: what is truly POSTULATED
+- [x] **F6 — postulate-A boundary.** BOUNDARY CLOSED (F6_postulate_A_ledger_results.md, verified FAITHFUL): clean POSTULATED {hbar, spin-1/2, statistics} / FREE-with-imported-framework {the discreteness math} / NATIVE {i=area-form, omega_H1=symplectic-form identification, cell-independence, N=3/q=1/3} ledger. REMAINING for Charles: SIGN OFF the framework question (quantize-now vs geometric-emergence) + the k=2j-vs-N=3 open. (We have not quantized — that's Step B/C, gated.) OPEN (admitted). FINISH the clean ledger: what is truly POSTULATED
   {hbar, spin-1/2, statistics} vs FREE-with-the-imported-metaplectic-framework vs NATIVE (i=area-form,
   cell-independence); is quantization the right framework vs later geometric emergence (the door-open clause)?
   This is an ADMISSION/decision item, not a derivation — make the boundary crisp + Charles-signed. Deliverable:
