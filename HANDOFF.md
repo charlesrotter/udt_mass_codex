@@ -22,7 +22,45 @@ below + **POST_POSTULATE_PROGRAM.md**. The reframe that opened this arc: the VIS
 contaminated/classical-solver negatives for a map of the metric; microphysics is UNENTERED, not walled; the
 pre-postulate negative corpus is RETIRED. Full detail in STATE.md TOP + git. This file holds the live frontier.
 
-## *** 2026-06-21 LIVE FRONTIER — FOUNDATIONAL-ASSUMPTIONS AUDIT (Charles's zoom-out; read FIRST) ***
+## *** 2026-06-21 EVENING — LIVE FRONTIER: DERIVED OPERATOR + MATTER NOW PHYSICAL (read FIRST) ***
+The foundational audit below RAN and moved the program a long way in one session. The arc (all blind-verified,
+committed; see FOUNDATIONAL_ASSUMPTIONS_LEDGER.md TOP blocks + the named docs):
+1. **F0 systematic audit DONE** (F0_SYSTEMATIC_AUDIT_results.md): F1/F2/F3/F6/F7 are the right gaps; F1+F3 are
+   ENTANGLED (the absorbability that let us use a=-1 presupposes the EH left side); 3 solver-side soft spots
+   under "must-quantize"; mu^2=pi/3 was a LEGACY data-fit (not live); the m-catalog rode an IMPORTED Skyrme BC.
+2. **F1+F3 — the universal weight DERIVED** (native_dilation_weight_derivation_results.md): extending R1
+   ("no privileged depth") to the ACTION = invariance under a global depth-shift phi->phi+const FORCES the
+   weight **e^{+2phi}** (kinetic + gradient-curvature) and rest-mass **a(phi)=e^{+phi}** (NOT -1; the no-anomaly
+   terrestrial value). **FREEZE BROKEN: vacuum != GR** (box f survives) -> the classical-continuum "must-quantize"
+   headline is REOPENED. Cassini SURVIVABLE (healthy window X large negative). THE OBSTRUCTION: the depth-rule
+   canNOT wash out the transverse/ANGULAR curvature (and, same root=reciprocity, the TIME-live kinetic sector) =
+   **the phi-angular hunch from first principles**. Two branches characterized (branch_G/P docs): BOTH static
+   SCALE-FREE.
+3. **SCALE SYMMETRY (Charles's bootstrap question)** (scale_symmetry_bootstrap_analysis_results.md): "no
+   privileged depth" IS a scale (dilatation) symmetry -> **box-control omega~1/R is the symmetry's FINGERPRINT,
+   not a solver artifact** (VACUUM-scoped; MATTER breaks it). Charles's bootstrap = the canonized CRITICAL
+   UNIVERSE with a "why" (closure c^2=2GM/R). [IMPORTED-Hubble number RETRACTED; anchor = A = phi_seal=7.004 via
+   1+z=e^phi.] HEADLINE SPLIT: overall absolute scale looks classical-cosmological (one anchor); only the DISCRETE
+   SPECTRUM OF RATIOS is left for quantization or the nonlinear coupled solve.
+4. **Charles's strategic steer:** build a CONSISTENT THEORY OF MATTER first (anchor=A, VALUE-OPEN), serving the
+   COMPLETE-SOLVER goal — NOT spectrum/catalog matching; "pure geometry all the way down" is PARKED. KEY: MATTER
+   IS THE SCALE-SYMMETRY BREAKER (vacuum is scale-free). [[matter-theory-before-pure-geometry]].
+5. **MATTER on the derived operator** (matter_regrade_derived_operator_results.md, F2_matter_action_forcedness_results.md):
+   matter coupling is now **PHYSICAL** — the derived operator is NOT divergence-free, so the old "matter
+   absorbable -> UDT=GR on the matter side" tautology is OVERTURNED; the teeth come from the OPERATOR (vacuum!=GR),
+   NOT from a=+1-vs-(-1). New exterior = scalar-tensor {m,q} hair, B=1/A breaks with live hair, still a continuum.
+   **F2 = MINIMAL-BUT-NOT-UNIQUE:** core {L2,L4} native+necessary; admissible extras {X^2 (moves masses not EOS),
+   L6}; bulk potential V FORBIDDEN under full SO(3) (corrects the corpus); scale symmetry NEUTRAL on term-selection.
+
+**NEXT (Charles's sequence, gated): [1] THIS consolidation (done) -> [2] the BOUNDED STATIC RE-RUN of the lump on
+the corrected operator (the real halo / B=1/A-break / structure; operator-swap + re-run, bounded) -> [3] the
+TIME-LIVE COUPLED NATIVE-MATTER solve (the deepest gap = matter-the-scale-breaker MEETING the time sector; the
+redoubt now WITH TEETH — prior time-live was vacuum/scale-free/box-controlled).** Value-open throughout (the F2
+{X^2,L6} ambiguity only moves masses); DATA-BLIND; complete-solver-not-spectrum. Anti-hang LOCKED for [2]/[3]
+(bounded Nr<=16/24, single process, dense-LM flooring, NEVER background-poll). The everything-on solver machinery
+is operator-agnostic -> swap the operator (e^{2phi}R + X e^{2phi}(dphi)^2, a=e^{phi}) + re-run; not a rebuild.
+
+## *** 2026-06-21 (EARLIER) — FOUNDATIONAL-ASSUMPTIONS AUDIT (Charles's zoom-out; now SUBSTANTIALLY RUN — see the EVENING block above) ***
 Charles paused the forward build to audit the foundational assumptions the program rests on — several were
 carried SILENTLY (the deepest: the gravity-side curvature action was assumed = GR's Einstein-Hilbert through
 ALL of P1-P5d; "vacuum=GR" is built-in, not derived). THE KEY LINKAGE: the central result ("classical metric =

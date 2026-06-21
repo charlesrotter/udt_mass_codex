@@ -1,14 +1,29 @@
 # STATE — Frontier Snapshot
 
-*** 2026-06-21 TOP: FOUNDATIONAL-ASSUMPTIONS AUDIT is the live frontier (Charles's zoom-out). ***
-The forward build (P5e / quantization Step B/C) is PAUSED pending a foundational audit: several recipes the
+*** 2026-06-21 EVENING TOP: the foundational audit RAN — DERIVED OPERATOR + MATTER NOW PHYSICAL. ***
+Read HANDOFF.md TOP (the EVENING block) for the full distilled frontier. One-session arc, all blind-verified:
+F0 audit DONE -> F1+F3 derived the universal weight natively (R1-on-the-action: weight e^{+2phi}, a(phi)=e^{+phi}
+NOT -1; **FREEZE BROKEN, vacuum != GR**; the angular(+time) obstruction = the phi-angular hunch from first
+principles) -> SCALE SYMMETRY (Charles's bootstrap): "no privileged depth" IS a scale symmetry, **box-control =
+its FINGERPRINT not a solver artifact** (vacuum-scoped; matter breaks it); bootstrap = the critical-universe canon
+with a "why" (c^2=2GM/R), anchor=A=7.004 [imported-Hubble retracted] -> Charles's steer: CONSISTENT MATTER THEORY
+first (value-open, complete-solver-not-spectrum; **matter IS the scale-breaker**) -> MATTER on the derived
+operator: coupling now **PHYSICAL** ("UDT=GR on matter side" OVERTURNED; teeth from the OPERATOR), F2 =
+MINIMAL-BUT-NOT-UNIQUE ({L2,L4} core + extras {X^2,L6} that only move masses; V FORBIDDEN under SO(3)).
+Docs: F0_SYSTEMATIC_AUDIT, native_dilation_weight_derivation, scale_symmetry_bootstrap_analysis, branch_G/P_characterization,
+MATTER_SECTOR_MAP_new_foundation, matter_regrade_derived_operator, F2_matter_action_forcedness (+ _VERIFIER trails in each).
+NEXT (Charles's sequence, gated): [1] this consolidation (DONE) -> [2] BOUNDED STATIC RE-RUN of the lump on the
+corrected operator -> [3] the TIME-LIVE COUPLED NATIVE-MATTER solve (the deepest gap, redoubt-with-teeth). Anti-hang
+LOCKED for [2]/[3]; machinery is operator-agnostic (swap operator + re-run, not a rebuild). FOUNDATIONAL_ASSUMPTIONS_LEDGER.md
+TOP carries the per-item resolutions (F0/F1/F3/F5/F2 advanced; F4/F6/F7/F8 as they bear).
+
+----- prior TOP (2026-06-21 morning): FOUNDATIONAL-ASSUMPTIONS AUDIT framing (now substantially run) -----
+The forward build (P5e / quantization Step B/C) was PAUSED pending a foundational audit: several recipes the
 program rests on were carried SILENTLY — deepest = the gravity-side CURVATURE ACTION assumed = GR through all of
 P1-P5d ("vacuum=GR" is built-in, not derived). KEY LINKAGE: the central result "classical metric = continuum =>
 must quantize" is CONDITIONAL on this stack (Birkhoff is a curvature-action theorem) — a different recipe could
-make the classical metric do MORE. Ledger = FOUNDATIONAL_ASSUMPTIONS_LEDGER.md (F0-F8, each a task to discuss;
-F0 cheap audit -> F1 curvature + F2 matter action [twins, prior to P5e] -> F3 a(phi) -> rest). Largely ANALYTIC,
-logically prior to more solver work. Solver machinery is operator-agnostic/reusable if a recipe changes. See
-HANDOFF.md TOP. (The 2026-06-20 everything-on-solver + Quant-Step-A frontier below is now CONTEXT for this audit.)
+make the classical metric do MORE. Ledger = FOUNDATIONAL_ASSUMPTIONS_LEDGER.md (F0-F8). [RESULT: a different
+recipe DID emerge — vacuum != GR — see the EVENING block above.] Solver machinery is operator-agnostic/reusable.
 
 ----- prior STATE (2026-06-20) -----
 
