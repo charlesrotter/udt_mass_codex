@@ -9,14 +9,14 @@ FOUNDATIONAL_ASSUMPTIONS_LEDGER.md. This doc = the actionable checklist.
 
 ## PHASE A — finish F1–F8 (close every residual to a clean state)
 
-- [ ] **F1 — gravity curvature action.** DERIVED (vacuum!=GR). FINISH: confirm the derivation is airtight;
+- [x] **F1 — gravity curvature action.** CLOSED (F1F3_closure_results.md, verified CLEAN). DERIVED (vacuum!=GR). FINISH: confirm the derivation is airtight;
   formally close the superseded gravity-side residuals (N4 C1-uniqueness scope, N6 asymptotic-flatness-vs-
   no-infinity tension, N8 local-Lorentz-at-extremes); document the FREE X dial (kinetic/curvature ratio) as
   the one principle-unfixed parameter, with the no-ghost+Cassini window. Deliverable: F1 closure record.
-- [ ] **F2 — matter action L2+L4.** RESOLVED = minimal-but-not-unique. FINISH: document the {X^2,L6} admissible
+- [x] **F2 — matter action L2+L4.** CLOSED (F2_closure_results.md, verified CLEAN). RESOLVED = minimal-but-not-unique. FINISH: document the {X^2,L6} admissible
   extras as a bounded value-open ambiguity (mass-only, not EOS); CHECK the load-bearing full-SO(3) target
   assumption (if reduced, V re-enters). Deliverable: F2 closure record.
-- [ ] **F3 — a(phi) coupling.** DERIVED a=e^{+phi} (entangled w/ F1). FINISH: tie off with F1; confirm the
+- [x] **F3 — a(phi) coupling.** CLOSED (folded into F1F3_closure_results.md, verified CLEAN). DERIVED a=e^{+phi} (entangled w/ F1). FINISH: tie off with F1; confirm the
   physical-coupling re-grade is airtight; close "a=-1 silently used in P1-P5d" (the P1-P5 re-audit covers the
   downstream). Deliverable: folded into F1+F3 closure.
 - [ ] **F4 — finite-cell / seal / boundary.** Seal-as-QUANTIZER question CLOSED (verified). FINISH the STRUCTURE:
@@ -35,7 +35,7 @@ FOUNDATIONAL_ASSUMPTIONS_LEDGER.md. This doc = the actionable checklist.
   imported-Hubble NATIVE redo (anchor A=7.004, H0/rho_crit as DERIVED outputs); then either close the cosmic->
   particle bridge or formally characterize it as the IRREDUCIBLE open gap (what's needed, why it's hard).
   Deliverable: native cosmic-scale redo + bridge status record.
-- [ ] **F8 — embedded metric-form choices.** PARTIAL. FINISH: characterize each embedded choice (static /
+- [x] **F8 — embedded metric-form choices.** CLOSED (F8_metric_choices_results.md, verified CLEAN; one named residual = non-spherical on the derived operator, value/solve-open). PARTIAL. FINISH: characterize each embedded choice (static /
   spherical / diagonal / areal-r / P8 slot-id) as DERIVED-from-the-principle vs CHOSEN (free solution-space DOF),
   explicitly. Deliverable: F8 choice-provenance record.
 
