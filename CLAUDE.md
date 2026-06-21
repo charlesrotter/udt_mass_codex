@@ -206,8 +206,9 @@ redirect (nonstationary weld sector / transfer ladder / ensembles).
   (P5e-proper) machinery + the seal (F4). Tracker = COMPLETION_PROGRAM.md; status = the SCOREBOARD
   in FOUNDATIONAL_ASSUMPTIONS_LEDGER.md). Read it first after "How we work".
 - **FOUNDATIONAL_ASSUMPTIONS_LEDGER.md SCOREBOARD** is the per-item status-of-record (F0-F8 +
-  imports/gaps). **COMPLETION_PROGRAM.md** is the actionable checklist. POST_POSTULATE_PROGRAM.md
-  / SOLVER_COMPLETENESS_MAP.md remain the program frame + solver instrument.
+  imports/gaps). **COMPLETION_PROGRAM.md** is the actionable checklist (current NEXT = B1' off-round
+  build). POST_POSTULATE_PROGRAM.md / SOLVER_COMPLETENESS_MAP.md = the 2026-06-20 frame, now SUBSUMED
+  by COMPLETION_PROGRAM + the scoreboard (historical; the operator is DERIVED, machinery reused).
 - Then STATE.md TOP (frontier snapshot), then INDEX.md (repo map).
 - The DERIVED-operator arc (2026-06-21, the current foundation): native_dilation_weight_derivation,
   scale_symmetry_bootstrap_analysis, matter_regrade_derived_operator, F2_matter_action_forcedness,

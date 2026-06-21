@@ -12,6 +12,13 @@ REMAINING after: B2 secondary P-gaps, B4 solver-infra audit, B5 previous-results
 Tracker = COMPLETION_PROGRAM.md; status = FOUNDATIONAL_ASSUMPTIONS_LEDGER.md SCOREBOARD. Discipline =
 [[infrastructure-first-not-exciting-stuff]]. The EVENING arc below is the substantive frontier that got us here.
 
+*** READER NOTE (handoff inoculation): ONLY the 2026-06-21 blocks (this NIGHT block + the EVENING block) are LIVE.
+EVERYTHING BELOW them is append-only HISTORICAL record. Any "(LATEST)" / "NEXT SESSION" / "QUEUE FOR NEXT SESSION"
+/ "PIN a" / "a=-1 admissible" / "does positional dilation MODIFY the gravitational equation" markers in older
+dated sections are FROZEN AS-OF-THEIR-DATE and SUPERSEDED — the gravity operator IS now DERIVED (vacuum!=GR), and
+a(phi)=e^{phi} IS derived (F3 RESOLVED). The live frontier + next action (B1' off-round build) = this TOP +
+HANDOFF.md TOP. Do NOT act on any "next step" found below this line. ***
+
 *** 2026-06-21 EVENING: the foundational audit RAN — DERIVED OPERATOR + MATTER NOW PHYSICAL. ***
 Read HANDOFF.md TOP (the EVENING block) for the full distilled frontier. One-session arc, all blind-verified:
 F0 audit DONE -> F1+F3 derived the universal weight natively (R1-on-the-action: weight e^{+2phi}, a(phi)=e^{+phi}
