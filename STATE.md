@@ -16,8 +16,11 @@ SEQUENCE DONE (Charles's 1->3->2, all blind-verified): [3] static re-run = GR + 
 [2] TIME-LIVE COUPLED MATTER SOLVE = **BOX-CONTROL** on the derived operator (w^2~1/R^2, intercept ~0, R=64 clean
 no-plateau; the one negative mode = Derrick breathing; ACTION-ROBUST). *** The foundational audit's worry ("a
 different recipe could make the classical metric do MORE") is ANSWERED: the derived vacuum!=GR operator STILL
-box-controls => the **MUST-QUANTIZE conclusion SURVIVES the foundational audit.** *** Named residuals flagged,
-not banked (finite-A harmonic-balance proxy; strong-coupling grid limit; full off-diagonal g_tr PDE).
+box-controls => the **MUST-QUANTIZE conclusion SURVIVES the foundational audit.** *** P5e PROPER DONE
+(P5e_proper_results.md, blind-verified): the FULL coupled solve (off-diagonal g_tr LIVE, free-omega, time-spectral,
+finite-A) CONVERGED and reproduced box-control WITHOUT STEP-2's three reductions; the verdict now rests on the
+full coupled machinery. Remaining gap = NUMERICS not physics (wide-range R=4..64 gate, Nt>=5, strong coupling, A2
+true-Einstein -> spectral/multidomain/KEH-SCF/pseudo-arclength/JFNK+spectral-PC upgrade plan recorded).
 **FORWARD PATH UNBLOCKED:** quantization (Step B/C) now sits on an AUDITED foundation. NEXT (gated, MAP first):
 quantize, OR close a named residual, OR the remaining F-items (F4/F6/F7/F8; F2 {X^2,L6} mass-ambiguity is
 value-open). FOUNDATIONAL_ASSUMPTIONS_LEDGER.md TOP carries per-item resolutions.

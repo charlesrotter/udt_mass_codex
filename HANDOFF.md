@@ -62,17 +62,29 @@ committed; see FOUNDATIONAL_ASSUMPTIONS_LEDGER.md TOP blocks + the named docs):
   the one negative mode = the Derrick/breathing soft direction (not a level); ACTION-ROBUST (persists at kap=0 /
   across the L4-vs-X^2 ambiguity). Reproduces the old #65 verdict ON THE CORRECTED FOUNDATION.
 
+**P5e PROPER DONE (the heaviest residual, now RUN; blind-verified — P5e_proper_results.md):** the genuinely
+fully-coupled solve — FULL off-diagonal time row g_tr=H LIVE (dynamically sourced; 0 statically = a gauge mode),
+FREE-omega self-consistent eigenvalue, time-spectral (Nt=3 = DC+fundamental), finite-amplitude — CONVERGED
+(bounded, |F|~1e-4, cells R in [8,12]); it genuinely REMOVED STEP-2's three reductions. VERDICT REPRODUCED:
+softens/box-controls, NO intrinsic discreteness (omega softens with amplitude = anharmonic not locking; box
+intercept b<=0, sign robust on independent recompute). CALIBRATION (verifier): the box gate rests on a 2-3 point
+window — the SIGN is robust but a 2-point fit is not statistically airtight; the WIDE-RANGE (R=4..64) gate + Nt>=5
++ strong coupling + A2 true-Einstein are the remaining **NUMERICS, NOT physics** (Charles: "wall = better
+numerics"; concrete upgrade plan recorded: spectral collocation / multidomain / KEH-SCF / pseudo-arclength /
+JFNK+spectral PC).
+
 *** HEADLINE: the foundational audit's central worry — "a different recipe could make the classical metric do
-MORE" — is ANSWERED. The different recipe (vacuum!=GR) was DERIVED, and it STILL box-controls. => the
-classical-continuum **"MUST-QUANTIZE" conclusion SURVIVES the foundational audit** (robust on the R-scaling).
-NAMED RESIDUALS (flagged, NOT banked): the finite-A harmonic-balance proxy; strong-coupling grid limit; the full
-off-diagonal g_tr time-row PDE (the one remaining unbounded object). ***
+MORE" — is ANSWERED. The DERIVED vacuum!=GR operator STILL box-controls, NOW on the full coupled machinery
+(P5e-proper, reductions removed). => the classical-continuum **"MUST-QUANTIZE" conclusion SURVIVES the
+foundational audit** (strongly supported; the wide-range statistically-airtight version is a numerical-methods
+task, not a physics gap). ***
 
 **NEXT (gated on Charles): the forward path is UNBLOCKED** — quantization (Step B/C: the native Hamiltonian /
 mass-as-cost on the quantized states) now sits on an AUDITED foundation (derived operator, physical matter,
-redoubt closed). Open foundational items remain (F4 seal/F6 postulate-A boundary/F7 cosmic->particle bridge/F8;
-the F2 {X^2,L6} mass-ambiguity is value-open). Consider: quantize (the original next step, now on firm ground),
-OR close a named residual, OR the remaining F-items. MAP first; DATA-BLIND; anti-hang LOCKED.
+redoubt closed on the full coupled machinery). Options: quantize (the original next step, now on firm ground);
+OR the wide-range NUMERICS upgrade to make the box gate statistically airtight; OR remaining F-items (F4 seal/F6
+postulate-A boundary/F7 cosmic->particle bridge/F8; the F2 {X^2,L6} mass-ambiguity is value-open). MAP first;
+DATA-BLIND; anti-hang LOCKED.
 
 ## *** 2026-06-21 (EARLIER) — FOUNDATIONAL-ASSUMPTIONS AUDIT (Charles's zoom-out; now SUBSTANTIALLY RUN — see the EVENING block above) ***
 Charles paused the forward build to audit the foundational assumptions the program rests on — several were

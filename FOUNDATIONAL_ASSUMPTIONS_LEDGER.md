@@ -97,11 +97,16 @@ complete-solver goal, NOT spectrum-matching. Matter-sector MAP + two analytic ga
   DYNAMICS (static_soliton_rerun_derived_operator_results.md). [time-live] the fully-coupled matter+time solve on
   the derived operator = **BOX-CONTROL** (w^2~1/R^2, intercept ~0, R=64 no-plateau; negative mode = Derrick
   breathing; ACTION-ROBUST across the {L4,X^2} F2 ambiguity) — STEP2_timelive_matter_results.md.
+- P5e PROPER DONE (P5e_proper_results.md, blind-verified): the genuinely fully-coupled solve — off-diagonal time
+  row g_tr LIVE (dynamically sourced; 0 statically=gauge mode), FREE-omega self-consistent eigenvalue,
+  time-spectral, finite-amplitude — CONVERGED (bounded, R in [8,12]) and REPRODUCED box-control WITHOUT STEP-2's
+  three reductions. Remaining gap = NUMERICS not physics (wide-range R=4..64 gate, Nt>=5, strong coupling, A2
+  true-Einstein -> spectral/multidomain/KEH-SCF/pseudo-arclength/JFNK+spectral-PC plan recorded).
 - *** CENTRAL RESULT: the foundational audit's worry ("a different recipe could make the classical metric do
-  MORE") is ANSWERED — the DERIVED vacuum!=GR operator STILL box-controls => the classical-continuum
-  "MUST-QUANTIZE" conclusion SURVIVES the audit (robust on R-scaling; named residuals: finite-A harmonic-balance
-  proxy, strong-coupling grid limit, full off-diagonal g_tr PDE — flagged, not banked). The forward path
-  (quantization Step B/C) is UNBLOCKED, now on an audited foundation. ***
+  MORE") is ANSWERED — the DERIVED vacuum!=GR operator STILL box-controls, NOW on the full coupled machinery
+  (P5e-proper, reductions removed) => the classical-continuum "MUST-QUANTIZE" conclusion SURVIVES the audit
+  (strongly supported; the wide-range statistically-airtight gate is a numerical-methods task, not physics). The
+  forward path (quantization Step B/C) is UNBLOCKED, now on an audited foundation. ***
 
 ## THE KEY LINKAGE (read first)
 The program's central result — *"the CLASSICAL metric is a continuum (no classical discreteness) => we
