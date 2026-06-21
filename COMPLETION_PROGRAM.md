@@ -60,10 +60,40 @@ FOUNDATIONAL_ASSUMPTIONS_LEDGER.md. This doc = the actionable checklist.
       Derrick mode), operator=action's-equation confirmed. CORRECTION banked: NO resolvable scalar hair (conserved
       charge ~=0; static_soliton's "tiny hair 0.5" was a grid-fit artifact -> NEGATIVES_REGISTRY CONDITIONS-CHANGED).
       Reinforces "teeth in dynamics." Round limit validates the OPERATOR only.
-    - [ ] **B1'-step1 THE 3-D OFF-ROUND RESIDUAL (NEXT) — the real build:** wire phi into the genuine full3d
-      a,b,c,d off-round machinery; gate its round limit (coupled); then OBSERVE the off-round l>=2 angular sector
-      (where the derived angular obstruction = phi-angular hunch is finally tested on the correct operator).
-      Small-warp here was only a linearized l=2 proxy. DATA-BLIND, anti-hang LOCKED.
+    - [x] **B1'-step1 3-D OFF-ROUND RESIDUAL BUILT + proven correct** (Schwarzschild->0, flat->1e-14, box-f->6e-16;
+      reduces to radial operator). `b1prime_3d_offround_residual.py`. Angular fork RESOLVED NUMERICAL (E^th_th~2.9
+      was unpinned a'' grid-sawtooth; E^th_th is conservation-DEPENDENT, proven symbolically -> round IS a valid
+      off-round solution).
+    - [x] **B1'-step2/3 off-round OBSERVE (SCOPED) -> box-control**, BUT each was a SLICE (step2 phi-pinned; step3
+      diagonal coupled with off-diagonal SHEAR + matter-ansatz + time FROZEN). NOT verdicts (frozen DOFs).
+    - [ ] **B1'-COMPLETE -> SUPERSEDED INTO THE COMPLETE 4-D SOLVER BUILD (Charles 2026-06-21):** the off-round
+      slices exposed that NO solve is simultaneously full-spatial-3D AND time-dependent — must-quantize rests on
+      complementary slices. Charles: build the COMPLETE 4-D solver, MAXIMAL PURITY (fix all audit shortcuts + FREE
+      the areal chart). See **THE COMPLETE 4-D SOLVER BUILD PROGRAM** block below.
+
+## *** THE COMPLETE 4-D SOLVER BUILD PROGRAM (2026-06-21, Charles-directed; the live frontier) ***
+GOAL: ONE solver with EVERY axis live at once — full spatial metric INCL off-diagonal shear (g_rth,g_rps,g_thps)
++ live time row (g_tr,g_tth,g_tps) + multi-harmonic finite-amplitude time + phi(t,r,th,ps) independent + matter
+FULL angular freedom (no welded hedgehog) + FREE areal chart (sphere-size a DOF) + all harmonics; ONLY the grid
+bounded, NO frozen DOF. The audit (3 parallel agents 2026-06-21) found the primitives CLEAN (core christoffel/
+einstein general 4x4 to 2.7e-15; all 3 spatial axes full spectral; matter stress/lagrangian general) — the
+shortcuts are in what's FED to them. Charles rulings: S^2 everywhere (per M10/M11); FREE the areal chart; add an
+exp-clamp tripwire; replace 3-row edge excision with a real boundary.
+- [x] **S1 (GATING) — DONE + blind-verified** (complete_solver_stage1_general_einstein_results.md; verifier
+  afe291bf819a17d0a SUPPORTED-WITH-REVISIONS). Diagnosed: CORE.einstein noise is STRUCTURAL N-divergence (nested
+  spectral differentiation, grows with N). FIX: analytic general Christoffel/Einstein codegen (einstein_3d_general_*),
+  carries shear + time-row, machine-exact formula, ~1e-12..1e-14 vs diagonal-analytic, N-CONVERGENT. Edge-mask DROPPED
+  (engine clean at edges). BANKED LIMITATION: d_t=0 stationary (Stage 5 regenerates with live ∂_t).
+- **S2:** free matter — S^2 unit field as independent target-angle fields(r,th,ps) + |n|=1 constraint; reuse
+  MAT.stress_tensor/lagrangian/field_metric (general) + autograd-EL (extends to bigger DOF free). Retire codegen EL.
+- **S3:** free areal chart (r^2,sin^2 prefactors -> solved DOF) + gauge-fixing (radial + angular coord freedom).
+- **S4:** assemble COMPLETE STATIC solver (shear+free-chart+free-phi+free-matter); validate round/diagonal limits
+  recover banked gates; bounded run.
+- **S5:** multi-harmonic finite-amplitude TIME on the FULL 3-D grid (NOT the single-cos QEP eigenvalue) + time
+  off-diagonals live; validate P5e/STEP2 limits.
+- **S6:** run the complete 4-D solver bounded, OBSERVE (the hunch test on a tool with nothing frozen).
+Cleanups folded: S^2 everywhere, exp-clamp tripwire assert. Audit source: task#8 / the 3 ledgers (synthesize doc TBD).
+MULTI-SESSION. Anti-hang LOCKED throughout (BOUND the grid, never FREEZE a DOF — [[full-dimensional-complete-solver]]).
 - [ ] **B2 — secondary P-gaps:** P1 static spatial-shear on the EXACT operator; the P5a'/P5b solution-manifold.
 - [x] **B3 — standing imports (verified):** M12 RESOLVED-as-SCOPED (charge-1 native used / catalog parked / import quarantined; no native ladder; M12_winding_bc_closure). M10/M11 RESOLVED (S^2 DEMANDED + blind-verified 2026-06-19; F0 flag was STALE/wrong, RETIRED; texture=artifact; UPGRADES F2; M10_M11_object_identity_closure).
 - [ ] **B4 — SOLVER INFRASTRUCTURE audit** ([[audit-solving-infrastructure]]): engines/solvers/stress for hidden
