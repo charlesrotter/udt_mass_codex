@@ -177,11 +177,32 @@ LEANS TOWARD CHARLES'S FAMILY INTUITION:
   THE decisive measurement. (2) The Hessian was fixed-metric Theta-ONLY — close it with a constraint-projected
   coupled Hessian incl. METRIC-direction modes. (3) unbiased kicks on the 2 untested basins (prolate, pert_s) +
   an escape-radius amplitude sweep (NEVER a blend toward a chosen endpoint).
-NEXT (gated on Charles): the BARRIER-HEIGHT (NEB/string) test + the metric-direction Hessian gap = the decisive
-test of the family question. (The energy-minimizer/selection-principle build is now SECONDARY/reframed: if the
-barriers are high, "select one" is the WRONG frame — they'd be distinct objects, not one to be picked.) Still
-NO M_MS bankable. Anti-hang LOCKED: single clean process, Nr<=16, recompute-on-saved-fields, dense-LM, NEVER
-background-poll (FOUR+ agents hung on unbounded solves).
+P5c-step-4 DONE = the DECISIVE family test (barrier heights + full-direction stability); merged bd886b2,
+blind-verified incl. the Nr-trend gap CLOSED. *** CHARLES'S FAMILY QUESTION STANDS ANSWERED: NO durable family —
+the same-charge multiplicity is ONE SOFT CONNECTED OBJECT, not distinct particles. ***
+- NEB barriers between ALL basin pairs are ~0/negative — NO separating ridge. round<->each basin monotone
+  downhill; the killer oblate<->prolate path DIPS THROUGH round (|S|=84.4~=round 83.7 at s=0.5) — verified robust
+  with a finer 9-image chain, all images floored ~1e-13, no hidden ridge.
+- DECISIVE Nr-TREND GAP CLOSED (verifier ran Nr=16 NEB on the widest/biggest-spread-growth pair round<->toroidal):
+  no barrier sharpens at Nr=16 (s=0.5 floored |S|=98.4 inside [75.9,166.7], barrier_above=-68.3). The step-2
+  "spread GROWS with Nr (75->104%)" = a LENGTHENING FLAT MANIFOLD, not sharpening structure (directly observed).
+- Reconciliation (sound): each basin is LOCALLY a dimple (positive curvature -> step-3 small kicks return) but
+  there are NO GLOBAL WALLS -> a nearly-flat, fully-connected manifold of shallow dimples = one soft object.
+  Full-direction (metric+matter, constraint-respecting): round calibrated local min; broadband metric kicks
+  wander (no stiff walls); 5/5 unbiased kicks done.
+- => CONSISTENT WITH THE STANDING FRONTIER (#44 one cell=one particle; #65 the static classical carrier is one
+  soft object; postulate A: discreteness comes from QUANTIZATION, not classical multiplicity). The everything-on
+  solver's "non-uniqueness" is the NUMERICAL SHADOW of this soft object's flat direction, NOT a particle family.
+RESOLVES the P5c selection-principle question: there is no family to choose among; energy-minimization picks
+ROUND as THE soft object's ground state; the ~5-7% M_MS scatter is the flat-valley width, not distinct objects.
+So round's M_MS (~0.29-0.31) is the bankable ground-state representative MODULO grid convergence (the few-%
+0.309->0.292 drift Nr12->16). (DERIVE/banking still gated on Charles.)
+NEXT (gated on Charles): with the static object understood (one soft thing, round ground state), the everything-on
+program proceeds to OBSERVE WHAT THE METRIC DOES with everything on = P5c-proper (off-round static physics on the
+round ground state) and P5d (TIME-LIVE free-omega) — where the actual physics (and, per postulate A, the
+discreteness) lives. Families/discreteness come from QUANTIZATION or DISTINCT SECTORS, NOT this one carrier's
+classical basins. Anti-hang LOCKED (single clean process, Nr<=16, recompute-on-saved-fields, dense-LM, NEVER
+background-poll — FOUR+ agents hung on unbounded solves).
 Build contingency (Charles): if solver-limited (the #60 wall at P5), do a thorough GR-numerics-corpus search
 before reinventing (Principle 4).
 
