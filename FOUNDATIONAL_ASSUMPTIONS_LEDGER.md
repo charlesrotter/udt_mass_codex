@@ -45,6 +45,14 @@ the result — now CHECKED and CLOSED in favor of the central conclusion.
 | **M10/M11** S^2-vs-S^3 identity + cos-theta texture | object identity | **OPEN-ish** — used S^2 as given; not re-settled (M10 carries the F0 "unexecuted-settling" caveat) | S2_S3_OBJECT_IDENTITY_MAP |
 | wide-range numerics (box gate airtight) | numerics, not physics | **OPEN (by design)** — Charles's "better numerics" follow-up (spectral/multidomain/KEH-SCF/pseudo-arclength/JFNK+spectral-PC) | P5e_proper §upgrade-plan |
 
+*** CONSOLIDATED SOLVER-COMPLETENESS GAP (Phase B, 2026-06-21): the OFF-ROUND / NON-SPHERICAL / ANGULAR sector
+has NEVER been run on the DERIVED operator. *** Three threads reduce to this ONE gap: {F8 non-spherical residual}
+= {the off-round l>=2 discreteness gate, found mis-classified by the B0 triple-check = gap#4} = {P5c angular
+basins (B1 re-graded the RADIAL sector = one-soft-object SURVIVES; the angular basins need the 3-D solver)}.
+Closing it = port the derived operator (e^{2phi}R + X e^{2phi}(dphi)^2, a=e^{phi}) into the full3d 3-D off-round
+solver (a BUILD). It is the key remaining piece for a 100%-complete solver AND where the phi-angular hunch lives.
+(P5c RADIAL sector verified clean: P5c_regrade_derived_operator_results; B0 finding: P1P5_reaudit §B0.)
+
 Detailed dated working-blocks below; the F1-F8 narrative entries (further down) are the ORIGINAL framing — read
 this scoreboard for current status. N4/N6/N8 (gravity-side branch/extremes/local-Lorentz concerns) are largely
 SUPERSEDED-by-derivation (the operator is now derived, not the assumed-EH one); M22 = value-open (parked).

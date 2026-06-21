@@ -41,10 +41,18 @@ FOUNDATIONAL_ASSUMPTIONS_LEDGER.md. This doc = the actionable checklist.
 
 ## PHASE B — audit solvers + previous results, top to bottom
 
-- [ ] **B0 — verify the P1-P5 re-audit's COMPLETENESS** (P1P5_reaudit_vs_derived_operator_results.md) — did it
-  miss any silently-"survives" result that was never re-run? (triple-check)
-- [ ] **B1 — close the loud gap: re-grade P5c (family/landscape)** on the derived operator (vacuum!=GR + a=e^phi)
-  — the "no family / one soft object" answer (Charles's family question), un-re-graded.
+- [x] **B0 — verify the P1-P5 re-audit's COMPLETENESS** (verified, agent a488bcabf7fcde972) — FOUND ONE hidden
+  gap: the off-round l>=2 discreteness gate was mis-labeled REESTABLISHED (only the ROUND object was re-run on the
+  derived op) -> re-classified UNCHECKED-GAP #4. Three named gaps + imports list otherwise complete. Triple-check worked.
+- [x] **B1 — re-grade P5c (family/landscape)** on the derived operator (P5c_regrade_derived_operator_results.md,
+  verified): RADIAL sector = "one soft object, NO durable family" SURVIVES + sharpens (single basin, field-level
+  ~1e-10, no walls). Honest scope: the ANGULAR/non-axisymmetric basins are NOT in the radial chart -> that part
+  folds into the consolidated off-round gap below.
+- [ ] **B1' — *** THE CONSOLIDATED SOLVER-COMPLETENESS GAP *** : port the DERIVED operator into the full3d 3-D
+  OFF-ROUND solver and run the off-round/non-spherical/angular sector.** This single gap = {F8 non-spherical
+  residual} = {off-round discreteness gate, B0 gap#4} = {P5c angular basins}. It is where the phi-angular hunch
+  lives (the derived-operator angular obstruction). A BUILD (not a bounded re-grade). The key remaining piece for
+  a 100%-complete solver. Anti-hang LOCKED.
 - [ ] **B2 — secondary P-gaps:** P1 static spatial-shear on the EXACT operator; the P5a'/P5b solution-manifold.
 - [ ] **B3 — standing imports:** M12 (Theta=m*pi winding BC -> native sector-distinctness mechanism, or formally
   scope it); M10/M11 (S^2-vs-S^3 identity + cos-theta texture — re-settle or confirm).

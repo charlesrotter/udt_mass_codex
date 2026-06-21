@@ -150,3 +150,18 @@ re-grade is **P5c's multi-basin family/stability landscape**, never re-run on va
 ---
 
 **STATUS: UNVERIFIED auditor triage (read-only classification, not a physics result). The actionable finding — P5c is an un-re-graded gap — is the load-bearing item; a verifier pass on this audit's COMPLETENESS (did it miss any un-re-graded P-result?) is warranted before the gap list is treated as exhaustive.**
+
+---
+
+## B0 COMPLETENESS-CHECK CORRECTION (2026-06-21, agent a488bcabf7fcde972) — one hidden gap found
+The triple-check found ONE mis-classification: the **OFF-ROUND l>=2 classical-discreteness gate**
+(offround_classical_discreteness_results.md) was labeled SUPERSEDED-BUT-REESTABLISHED, but P5e_proper/STEP2
+re-ran only the ROUND object's breathing spectrum on the derived operator — the off-round angular-warp oscillator
+(M!=0, the distinct geometry the gate actually tested, partly built on the un-re-graded P5c off-round basins) was
+NEVER solved on vacuum!=GR + a=e^phi. RE-CLASSIFY it as UNCHECKED-GAP #4 (it also rode the pole-stable HYBRID in
+the off-round/non-small-shear regime = a hybrid-validity concern). The three named gaps + imports list were
+otherwise CONFIRMED complete. *** CONSOLIDATION: gap #1 (P5c angular basins), gap #4 (off-round discreteness gate),
+the F8 non-spherical residual, and B1's radial-only scope ALL reduce to ONE gap = the OFF-ROUND / NON-SPHERICAL /
+ANGULAR sector has never been run on the DERIVED operator. Closing it = port the derived operator into the full3d
+3-D off-round solver (a BUILD). This is the key remaining solver-completeness gap — and where the phi-angular
+hunch lives. ***
