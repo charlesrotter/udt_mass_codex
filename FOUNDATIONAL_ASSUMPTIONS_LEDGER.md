@@ -6,6 +6,28 @@ assumptions we need to deal with?"). Purpose: make EVERY load-bearing foundation
 derived vs assumed vs admitted — before more physics is built on it (Principle 6 + 7; the
 make-visible-and-ponder method).
 
+## F0 DONE (2026-06-21) — see F0_SYSTEMATIC_AUDIT_results.md
+The systematic audit ran (4 read-only OBSERVE agents over CANON + derivation docs + premise ledgers +
+everything-on build; 3 surprising catches blind-verifier-passed). OUTCOME: F1/F2/F3/F6/F7 confirmed as
+the right gaps; refinements banked:
+- **F1 + F3 are ENTANGLED (not independent):** the Bianchi argument that makes any matter weight
+  e^{(a+1)φ} absorbable (and lets us use a=−1) PRESUPPOSES the EH left side. So a(phi) cannot be settled
+  while the curvature action is open. ⇒ take F1 and F3 TOGETHER. The "two incompatible gravity actions"
+  scare was verifier-REFUTED (kept C1 ⇔ EH+minimal-scalar, same field equation; the non-EH f(φ)R was
+  tested+Cassini-killed, not banked). F1 stands as "assumed-EH, never principle-derived."
+- **The central 'must-quantize' verdict has 3 solver-side soft spots** (the KEY LINKAGE made concrete):
+  (M21) the time-live NATIVE matter solve was never run — "matter static ⇒ time orthogonal" is an
+  ansatz consequence; (M14/M9) box-control rests on a FIXED background, not the coupled P5e; (M4) the
+  committed off-round operator's angular Einstein is under-determined (near-flat solution manifold,
+  round residual ~1.2 non-convergent in Nr). Well-supported, NOT theorem-grade.
+- **NEW MACHINERY axis** the ledger lacked (the solver choices are themselves load-bearing assumptions:
+  hybrid-Einstein finite validity, re-pose-to-full-rank not pure gauge, grid caps, single-harmonic time).
+- **Data-hygiene:** μ²=π/3 was FIT to mesons (verifier-SUPPORTED) but is LEGACY-only (not in the live
+  program); the classical m=1,2,3 catalog rides an IMPORTED Skyrme winding BC (verifier-SUPPORTED;
+  banked #61), not the native π₂ charge.
+F2 confirmed OPEN (L4 native+blind-verified, but L2+L4 completeness/forced-ness NOT established). Full
+NEW-item list (N1–N8, M-rows, D-rows, A1) in the results doc.
+
 ## THE KEY LINKAGE (read first)
 The program's central result — *"the CLASSICAL metric is a continuum (no classical discreteness) => we
 MUST quantize"* — is CONDITIONAL on this whole stack. Birkhoff (-> round frozen -> continuum) is a
@@ -86,7 +108,15 @@ derivation doc + the premise ledgers, classifying each foundational claim derive
 would likely surface more and is cheap (reading, not solving). Recommended as F0 (the audit that
 completes this list) before committing to derive any single one.
 
-## DISCUSSION / DECISION ORDER (proposed, gated on Charles)
-F0 systematic audit (cheap, completes the list) -> then pick: F1 (curvature action) and F2 (matter
-action) are the deepest twins + logically prior to P5e; F3 (a(phi)) is the silent coupling. F4/F5/F6/F7/F8
-discussed as they bear. Each item above is a TASK to be discussed before any derive/build.
+## DISCUSSION / DECISION ORDER (updated post-F0, gated on Charles)
+F0 DONE. Revised order in light of what F0 found:
+- **F1 + F3 TOGETHER (next):** they are entangled (the absorbability argument presupposes EH). The first
+  move is to attempt to DERIVE the gravity action from the positional-dilation principle (is it
+  C1/EH-equivalent, or genuinely new?) — "EH as native start" is the unresolved premise. a(phi) rides
+  along (its physicality depends on the answer).
+- **F2 (matter action) in parallel/after:** is L2+L4 complete/forced, or assembled? (L4 native is solid;
+  completeness is the gap.)
+- **F4/F5/F6/F7/F8** discussed as they bear. F6's clean POSTULATED-vs-FREE-vs-NATIVE ledger is in the
+  F0 results doc (spin-1/2 REMAINS postulated; the discreteness math is imported-generic-S²; UDT's
+  genuine adds are i=area-form + the native-object identification + cell-independence).
+Each item is a TASK to be discussed before any derive/build.
