@@ -1,6 +1,14 @@
 # STATE — Frontier Snapshot
 
-*** 2026-06-21 EVENING TOP: the foundational audit RAN — DERIVED OPERATOR + MATTER NOW PHYSICAL. ***
+*** 2026-06-21 NIGHT TOP: COMPLETION PROGRAM UNDERWAY (Charles). *** Finish every F-item (no hanging threads)
++ audit solvers/previous-results top-to-bottom before the next level; goal = a clean physics-correct solver.
+DONE+verified: F0; F1/F2/F3 (derived operator); F4 (seal-as-quantizer closed); F8 (metric choices); P1-P5
+re-audited vs the derived operator. REMAINING: Phase A F5/F6/F7; Phase B = audit-completeness, P5c re-grade,
+secondary P-gaps, imports (M12/M10/M11), solver-infra audit, previous-results re-grade, wide-range numerics.
+Tracker = COMPLETION_PROGRAM.md; status = FOUNDATIONAL_ASSUMPTIONS_LEDGER.md SCOREBOARD. Discipline =
+[[infrastructure-first-not-exciting-stuff]]. The EVENING arc below is the substantive frontier that got us here.
+
+*** 2026-06-21 EVENING: the foundational audit RAN — DERIVED OPERATOR + MATTER NOW PHYSICAL. ***
 Read HANDOFF.md TOP (the EVENING block) for the full distilled frontier. One-session arc, all blind-verified:
 F0 audit DONE -> F1+F3 derived the universal weight natively (R1-on-the-action: weight e^{+2phi}, a(phi)=e^{+phi}
 NOT -1; **FREEZE BROKEN, vacuum != GR**; the angular(+time) obstruction = the phi-angular hunch from first

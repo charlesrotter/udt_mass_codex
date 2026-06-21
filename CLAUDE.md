@@ -199,14 +199,21 @@ redirect (nonstationary weld sector / transfer ladder / ensembles).
 
 ## Orientation
 
-- **HANDOFF.md TOP is the live frontier** (2026-06-21: the FOUNDATIONAL-ASSUMPTIONS
-  AUDIT — F0-F8 in FOUNDATIONAL_ASSUMPTIONS_LEDGER.md; the forward build P5e/quantization
-  is paused pending it). Read it first after "How we work".
-- **POST_POSTULATE_PROGRAM.md** is the corrected program (supersedes VISION_POST_POSTULATE.md,
-  which is now historical). **SOLVER_COMPLETENESS_MAP.md** is the live solver instrument.
+- **HANDOFF.md TOP is the live frontier** (2026-06-21 NIGHT: the COMPLETION PROGRAM — finish
+  every F-item + audit solvers/previous-results top-to-bottom before the next level; goal = a
+  clean physics-correct solver. The foundational audit RAN: the gravity operator is now DERIVED
+  (vacuum!=GR, weight e^{2phi}, a=e^{phi}); "must-quantize" survives on the derived + full-coupled
+  (P5e-proper) machinery + the seal (F4). Tracker = COMPLETION_PROGRAM.md; status = the SCOREBOARD
+  in FOUNDATIONAL_ASSUMPTIONS_LEDGER.md). Read it first after "How we work".
+- **FOUNDATIONAL_ASSUMPTIONS_LEDGER.md SCOREBOARD** is the per-item status-of-record (F0-F8 +
+  imports/gaps). **COMPLETION_PROGRAM.md** is the actionable checklist. POST_POSTULATE_PROGRAM.md
+  / SOLVER_COMPLETENESS_MAP.md remain the program frame + solver instrument.
 - Then STATE.md TOP (frontier snapshot), then INDEX.md (repo map).
-- The everything-on solver build (the recent arc): memory [[everything-on-solver-build]] +
-  the EVERYTHING_ON_SOLVER_*_MAP / p1..p5* / quant_stepA / offround_classical_* docs.
+- The DERIVED-operator arc (2026-06-21, the current foundation): native_dilation_weight_derivation,
+  scale_symmetry_bootstrap_analysis, matter_regrade_derived_operator, F2_matter_action_forcedness,
+  static_soliton_rerun / STEP2_timelive_matter / P5e_proper, seal_junction_condition, the F1F3/F2/F8
+  closure docs, P1P5_reaudit_vs_derived_operator. The PRIOR everything-on build (now superseded as the
+  operator changed; machinery still reused): memory [[everything-on-solver-build]] + EVERYTHING_ON_SOLVER_*.
 - Main research record: negative_phi_native_geometry.md (31k lines,
   pre-spectrum) and particle_spectrum_native_geometry.md (spectrum stage).
 - Audit/prosecution record: mass_emergence_canonical_geometry.md

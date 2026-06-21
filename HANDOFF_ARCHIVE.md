@@ -388,3 +388,76 @@ classical object is ONE soft thing + a continuum; discreteness is the quantizati
 ## Read order / NEXT STEP (2026-06-19) [SUPERSEDED — see HANDOFF TOP + INDEX.md 2026-06-20 reading order]
 Old next step was "VISION step 1: the native pi_2, Theta-FREE, time-live non-round CATALOG solve" — that line
 was taken (=> #65, then the reframe, then the everything-on solver build). The live next step is QUANTIZE.
+
+## *** ARCHIVED 2026-06-21 (from HANDOFF) — EARLIER foundational-audit framing + 2026-06-20 everything-on block ***
+Retired: the audit RAN; the derived-operator arc (the HANDOFF EVENING block, now the live frontier) + COMPLETION_PROGRAM.md supersede them. Verbatim below.
+## *** 2026-06-21 (EARLIER) — FOUNDATIONAL-ASSUMPTIONS AUDIT (Charles's zoom-out; now SUBSTANTIALLY RUN — see the EVENING block above) ***
+Charles paused the forward build to audit the foundational assumptions the program rests on — several were
+carried SILENTLY (the deepest: the gravity-side curvature action was assumed = GR's Einstein-Hilbert through
+ALL of P1-P5d; "vacuum=GR" is built-in, not derived). THE KEY LINKAGE: the central result ("classical metric =
+continuum => must quantize") is CONDITIONAL on this whole stack (Birkhoff is a curvature-action theorem, etc.) —
+if a foundational recipe is genuinely different under UDT, the classical metric may do MORE, and we'd need less
+quantization or none. So this audit is logically PRIOR to more solver/quantization work, and most items are
+ANALYTIC (cheaper than the throughput-walled solver). Solver machinery is operator-agnostic/REUSABLE if a recipe
+changes (modify-the-operator + re-run-the-physics, not a rebuild).
+LEDGER = **FOUNDATIONAL_ASSUMPTIONS_LEDGER.md** (F0-F8, each a TASK to be discussed): F0 systematic audit (cheap,
+completes the list); F1 curvature action (deepest; assumed GR; MAP target); F2 matter action L2+L4 (the twin —
+derived or assembled?); F3 a(phi) coupling (a=-1 silently used everywhere); F4 finite-cell/seal/boundary
+(posited); F5 critical-universe frame; F6 postulate-A boundary (admitted; spin-1/2 rides imported framework);
+F7 scale bridge (open gap); F8 metric-form embedded choices. Proposed order: F0 -> F1+F2 (deepest twins, prior
+to P5e) -> F3 -> rest as they bear. EACH GATED ON CHARLES (discuss before derive/build).
+NEXT-AFTER-FOUNDATIONS (deferred, not abandoned): P5e (fully-coupled time solve, EVERYTHING_ON_SOLVER_P5e_MAP.md)
++ the quantization Step B/C (Hamiltonian/mass-as-cost on the quantized states) — both wait on the foundational
+audit, because both build on the assumed curvature operator.
+
+## *** 2026-06-20 — THE EVERYTHING-ON SOLVER IS BUILT; CLASSICAL METRIC = CONTINUUM; QUANTIZATION STEP A DONE [context for the audit above] ***
+Read STATE.md TOP (the 2026-06-20 blocks) + memory [[everything-on-solver-build]] + POST_POSTULATE_PROGRAM.md.
+THE BIG PICTURE (this arc's result): we built ONE clean everything-on solver (all DOF live, native S^2 matter,
+a(phi), live time, scalable JFNK) and OBSERVED what the metric does. *** THE CLASSICAL METRIC GIVES A CONTINUUM,
+period — there is NO classical discreteness. *** This DEMONSTRATES the postulate-A frame on the clean operator
+("you were trying to get a quantum result classically" — now shown, not asserted). Discreteness REQUIRES
+quantization. **NEXT (gated): QUANTIZE (postulate A).**
+
+THE BUILD (each MAP-light -> branch -> blind-verify -> merge; the verifier caught something EVERY phase):
+- P1 off-diagonals wired into the field equations (pole-stable hybrid Einstein, valid small-shear). P2 native
+  S^2 Theta-free matter EL 3-D + coupled to the full off-diagonal metric. S^2-vs-S^3 SETTLED = S^2 (S^3 is an
+  import; the cos-theta "texture" was a non-unit-embedding artifact). P3 a(phi) coupling = RULER weight
+  exp(INT(a+1)dphi) (a=-1 baseline reproduces P2 bitwise; a!=-1 declared/unforced). P4 live time row
+  (containment bitwise omega->0=static). P5 driver: JFNK rescued by RE-POSE to full-rank body DOF (the committed
+  Jacobian was rank-deficient from the body-mask edge excision, NOT steep-core); light/no PC floors it.
+- THE OBJECT (P5c, verified): the committed 3-D solver admits MULTIPLE charge-1 floored solutions, but the
+  barrier test (NEB, Nr-trend closed) shows NO walls between them = ONE SOFT CONNECTED OBJECT, not a family.
+  *** CHARLES'S FAMILY QUESTION ANSWERED: NO (same-charge multiplicity is one soft object; round = lowest-energy
+  ground state; the ~5-7% mass scatter is the flat-valley width). *** M_MS(round)~0.29-0.31 bankable modulo
+  grid drift (gated, not yet banked).
+- TIME-LIVE (P5d, verified): the ROUND object is TIME-FROZEN by Birkhoff (d_t^2 inertia M=0) — no oscillator.
+  The off-round channel HAS an oscillator (M!=0) but (off-round classical-discreteness gate, verified incl. a
+  3-cell high-mode persistence test to Nr=24) it is BOX-CONTROLLED (omega~1/R, no intrinsic level binds). Matter
+  DOES pin a size sqrt(kappa/xi) (the loophole was genuine) but it sets only high core modes, not the spectrum.
+  Numerical + structural agree, on the CLEAN operator (not the distrusted #65 proxy).
+
+THE CAPABILITY GAP (named, honest — what the solver does NOT do): it is a STATIC + small-vibration (linearized-
+fluctuation) solver. It does NOT do the FULLY-COUPLED TIME version (off-round + time + back-reaction at full
+strength, free-omega, self-consistent). What that costs (ranked): (1) genuinely NONLINEAR time-dependent bound
+objects (breathers/geons) that linear analysis misses — the one place a classical surprise could still hide
+(#65 + the structural argument say coupling softens/box-mode-geometric, but it's not theorem-grade); (2) ROTATING/
+spinning stationary objects (angular momentum — relevant to spin/magnetic moment later); (3) genuine long-time
+evolution/stability; (4) airtightness on the no-discreteness verdict; (5) POSSIBLY the quantization substrate IF
+that route needs the off-round coupled modes (the forward risk — unknown until we quantize). We SKIPPED it on
+cost/benefit (hardest #60-class solve; the discreteness answer is well-supported without it). Per the standing
+discipline: if a mismatch with observation points at any of these, BUILD this solver — do not reach for a mechanism.
+
+NEXT (gated on Charles): QUANTIZE (postulate A) the box-controlled classical continuum. Substrate it inherits:
+the round object's surviving FIRST-ORDER G^t_r momentum/phase channel + K's flat directions. NATIVE LEAD: a
+first-order/phase structure quantizes differently than an oscillator (Birkhoff forbids a round oscillator) —
+possibly the i=area-form / Born thread [[udt-derives-sm-assumptions]]. MAP it first (the quantization approach
+is a real open choice). Docs: EVERYTHING_ON_SOLVER_BUILD_MAP.md (+ _P2/_P5 MAPs), p1..p5* results + _VERIFIER docs,
+offround_classical_discreteness_results.md.
+
+*** OPERATIONAL DISCIPLINE — ANTI-HANG (binding; SIX+ agents hung this arc): solves are SLOW (jacrev/iteration-
+bound, mins to ~1700s). ALWAYS run solves BOUNDED (Nr<=16/24, iter caps), SINGLE clean process, NEVER concurrent
+(GPU contention), NEVER launch-a-solve-and-background-poll. Fixed-background eigenproblems are cheap (5-22s);
+the dense-LM (jacrev+lstsq) is the flooring tool; recompute-on-saved-fields where possible. If a solve would
+exceed budget, REDUCE and report "throughput-limited" — a bounded honest partial beats a hang. Stability tests:
+NEVER blend toward a chosen endpoint (biased artifact) — use unbiased kicks + NEB + 3-cell persistence. ***
+
