@@ -4,13 +4,20 @@ Navigable map of udt_mass_codex. Created 2026-06-10. Layout note: the repo
 is deliberately FLAT — ~474 `native_*.py` scripts plus 13 markdown docs in
 one directory. See "Conventions" at the bottom before judging the layout.
 
-Reading order (2026-06-20): CLAUDE.md "How we work" + ANTI-HANG -> **HANDOFF.md TOP** (the live
-2026-06-20 everything-on-solver frontier) -> **POST_POSTULATE_PROGRAM.md** (the corrected program) ->
-**SOLVER_COMPLETENESS_MAP.md** (the live instrument) -> STATE.md TOP -> this file -> the records.
-LIVE WORK (2026-06-20): the EVERYTHING-ON SOLVER is built + the classical metric shown to be a CONTINUUM
-(no classical discreteness) -> NEXT = QUANTIZE. Build docs: EVERYTHING_ON_SOLVER_BUILD_MAP.md (+ _P2/_P5
-sub-MAPs), p1_*/p2_*/p3_*/p4_*/p5*_*/p5c_*/p5d_*/offround_classical_* results + _VERIFIER docs. See HANDOFF
-TOP + memory everything-on-solver-build for the distilled state + the capability gap (no fully-coupled-time solver).
+Reading order (2026-06-21): CLAUDE.md "How we work" + ANTI-HANG -> **HANDOFF.md TOP** (the live
+2026-06-21 FOUNDATIONAL-ASSUMPTIONS-AUDIT frontier) -> **FOUNDATIONAL_ASSUMPTIONS_LEDGER.md** (F0-F8,
+the live work) -> **POST_POSTULATE_PROGRAM.md** (the corrected program) -> **SOLVER_COMPLETENESS_MAP.md**
+(the live solver instrument) -> STATE.md TOP -> this file -> the records.
+LIVE WORK (2026-06-21): FOUNDATIONAL-ASSUMPTIONS AUDIT (FOUNDATIONAL_ASSUMPTIONS_LEDGER.md, F0-F8, tasks
+#23-31). Several recipes the program rests on were carried SILENTLY (deepest = the gravity-side curvature
+action assumed = GR through all of P1-P5d). The forward build (P5e fully-coupled time solve / quantization
+Step B/C) is PAUSED pending the audit (it builds on the assumed curvature operator). KEY LINKAGE: the central
+result (classical metric = CONTINUUM => must quantize) is conditional on this stack. CONTEXT (the prior arc,
+2026-06-20): the everything-on solver is BUILT + the classical metric shown to be a continuum + quantization
+Step A confirmed (intrinsic discreteness, escapes box-control; spin-1/2 stays a postulate). Build docs:
+FOUNDATIONAL_ASSUMPTIONS_LEDGER.md, EVERYTHING_ON_SOLVER_*_MAP.md (incl. _P5e), p1_*/p2_*/p3_*/p4_*/p5*_*/
+p5c_*/p5d_*/quant_stepA_*/offround_classical_* results + _VERIFIER docs. See HANDOFF TOP + memories
+everything-on-solver-build + solver-audit-rework-welcome for the distilled state + the capability gap.
 NOTE (reframe): the pre-postulate MICROPHYSICS records below are RETIRED/legacy — the microphysics space is
 UNENTERED, not walled (NEGATIVES_REGISTRY wholesale-retirement banner + STATE TOP). Mine for TOOLING only, never verdicts.
 
