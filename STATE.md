@@ -12,10 +12,15 @@ operator: coupling now **PHYSICAL** ("UDT=GR on matter side" OVERTURNED; teeth f
 MINIMAL-BUT-NOT-UNIQUE ({L2,L4} core + extras {X^2,L6} that only move masses; V FORBIDDEN under SO(3)).
 Docs: F0_SYSTEMATIC_AUDIT, native_dilation_weight_derivation, scale_symmetry_bootstrap_analysis, branch_G/P_characterization,
 MATTER_SECTOR_MAP_new_foundation, matter_regrade_derived_operator, F2_matter_action_forcedness (+ _VERIFIER trails in each).
-NEXT (Charles's sequence, gated): [1] this consolidation (DONE) -> [2] BOUNDED STATIC RE-RUN of the lump on the
-corrected operator -> [3] the TIME-LIVE COUPLED NATIVE-MATTER solve (the deepest gap, redoubt-with-teeth). Anti-hang
-LOCKED for [2]/[3]; machinery is operator-agnostic (swap operator + re-run, not a rebuild). FOUNDATIONAL_ASSUMPTIONS_LEDGER.md
-TOP carries the per-item resolutions (F0/F1/F3/F5/F2 advanced; F4/F6/F7/F8 as they bear).
+SEQUENCE DONE (Charles's 1->3->2, all blind-verified): [3] static re-run = GR + tiny hair (teeth are in DYNAMICS);
+[2] TIME-LIVE COUPLED MATTER SOLVE = **BOX-CONTROL** on the derived operator (w^2~1/R^2, intercept ~0, R=64 clean
+no-plateau; the one negative mode = Derrick breathing; ACTION-ROBUST). *** The foundational audit's worry ("a
+different recipe could make the classical metric do MORE") is ANSWERED: the derived vacuum!=GR operator STILL
+box-controls => the **MUST-QUANTIZE conclusion SURVIVES the foundational audit.** *** Named residuals flagged,
+not banked (finite-A harmonic-balance proxy; strong-coupling grid limit; full off-diagonal g_tr PDE).
+**FORWARD PATH UNBLOCKED:** quantization (Step B/C) now sits on an AUDITED foundation. NEXT (gated, MAP first):
+quantize, OR close a named residual, OR the remaining F-items (F4/F6/F7/F8; F2 {X^2,L6} mass-ambiguity is
+value-open). FOUNDATIONAL_ASSUMPTIONS_LEDGER.md TOP carries per-item resolutions.
 
 ----- prior TOP (2026-06-21 morning): FOUNDATIONAL-ASSUMPTIONS AUDIT framing (now substantially run) -----
 The forward build (P5e / quantization Step B/C) was PAUSED pending a foundational audit: several recipes the

@@ -52,13 +52,27 @@ committed; see FOUNDATIONAL_ASSUMPTIONS_LEDGER.md TOP blocks + the named docs):
    **F2 = MINIMAL-BUT-NOT-UNIQUE:** core {L2,L4} native+necessary; admissible extras {X^2 (moves masses not EOS),
    L6}; bulk potential V FORBIDDEN under full SO(3) (corrects the corpus); scale symmetry NEUTRAL on term-selection.
 
-**NEXT (Charles's sequence, gated): [1] THIS consolidation (done) -> [2] the BOUNDED STATIC RE-RUN of the lump on
-the corrected operator (the real halo / B=1/A-break / structure; operator-swap + re-run, bounded) -> [3] the
-TIME-LIVE COUPLED NATIVE-MATTER solve (the deepest gap = matter-the-scale-breaker MEETING the time sector; the
-redoubt now WITH TEETH — prior time-live was vacuum/scale-free/box-controlled).** Value-open throughout (the F2
-{X^2,L6} ambiguity only moves masses); DATA-BLIND; complete-solver-not-spectrum. Anti-hang LOCKED for [2]/[3]
-(bounded Nr<=16/24, single process, dense-LM flooring, NEVER background-poll). The everything-on solver machinery
-is operator-agnostic -> swap the operator (e^{2phi}R + X e^{2phi}(dphi)^2, a=e^{phi}) + re-run; not a rebuild.
+**SEQUENCE DONE (Charles's 1->3->2, all blind-verified, committed):**
+- [1] consolidation (done). [3] BOUNDED STATIC RE-RUN (static_soliton_rerun_derived_operator_results.md): the
+  static charge-1 soliton on the new operator = **GR + a TINY 1/r hair** (q~1/|X|); B=1/A break is dominantly the
+  OPERATOR-INDEPENDENT matter-kinetic one; the new operator's static effect is small => **the teeth are in DYNAMICS.**
+- [2] TIME-LIVE COUPLED MATTER SOLVE (STEP2_timelive_matter_results.md): **BOX-CONTROL** — on the DERIVED operator
+  (vacuum!=GR, physical matter coupling, charge-1, live time) the classical metric gives **NO intrinsic
+  discreteness**: positive tower w^2~1/R^2 (intercept statistically ZERO; R=64 push = clean 1/R^2, no plateau);
+  the one negative mode = the Derrick/breathing soft direction (not a level); ACTION-ROBUST (persists at kap=0 /
+  across the L4-vs-X^2 ambiguity). Reproduces the old #65 verdict ON THE CORRECTED FOUNDATION.
+
+*** HEADLINE: the foundational audit's central worry — "a different recipe could make the classical metric do
+MORE" — is ANSWERED. The different recipe (vacuum!=GR) was DERIVED, and it STILL box-controls. => the
+classical-continuum **"MUST-QUANTIZE" conclusion SURVIVES the foundational audit** (robust on the R-scaling).
+NAMED RESIDUALS (flagged, NOT banked): the finite-A harmonic-balance proxy; strong-coupling grid limit; the full
+off-diagonal g_tr time-row PDE (the one remaining unbounded object). ***
+
+**NEXT (gated on Charles): the forward path is UNBLOCKED** — quantization (Step B/C: the native Hamiltonian /
+mass-as-cost on the quantized states) now sits on an AUDITED foundation (derived operator, physical matter,
+redoubt closed). Open foundational items remain (F4 seal/F6 postulate-A boundary/F7 cosmic->particle bridge/F8;
+the F2 {X^2,L6} mass-ambiguity is value-open). Consider: quantize (the original next step, now on firm ground),
+OR close a named residual, OR the remaining F-items. MAP first; DATA-BLIND; anti-hang LOCKED.
 
 ## *** 2026-06-21 (EARLIER) — FOUNDATIONAL-ASSUMPTIONS AUDIT (Charles's zoom-out; now SUBSTANTIALLY RUN — see the EVENING block above) ***
 Charles paused the forward build to audit the foundational assumptions the program rests on — several were

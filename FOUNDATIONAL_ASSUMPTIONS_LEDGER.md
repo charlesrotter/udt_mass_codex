@@ -60,8 +60,11 @@ a4e4edc169ef191bb, SOUND with 2 corrections). Findings:
   consequence — the solver was right.
 - **Charles's bootstrap = the canonized critical universe, with a "why":** a background energy density
   rho_bg sets a length via Einstein's eq, and the loop closes EXACTLY at c^2=2GM/R (the banked
-  critical-universe condition; R_cell~4.46 Gpc = c/H0 at rho_crit). Criticality is WHERE the otherwise-flat
-  dilatation modulus gets pinned. F5 mechanism clarified.
+  critical-universe condition). Criticality is WHERE the otherwise-flat dilatation modulus gets pinned.
+  F5 mechanism clarified. **[CORRECTION 2026-06-21, Charles: the "R_cell~4.46 Gpc = c/H0 at rho_crit"
+  number was an IMPORT of the standard Hubble constant + critical density — RETRACTED. The closure
+  c^2=2GM/R survives; the NUMBER must be redone UDT-natively from phi_seal=7.004 (1+z=e^phi) + native
+  Misner-Sharp M + finite-cell metric, with H0/rho_crit as DERIVED outputs, never inputs.]**
 - **HONEST LIMITS (verified, no overclaim):** that the coupled field eqn PINS r_cell (vs merely rescaling
   the scale-free family) is DIMENSIONAL-not-derived (the make-or-break, needs the deferred coupled solve;
   the one linear time-live probe is STILL box-controlled). The bootstrap sets the COSMIC scale ONLY — the
@@ -73,6 +76,32 @@ a4e4edc169ef191bb, SOUND with 2 corrections). Findings:
   ("overall scale" half-answered; "cosmic->particle ratio + particle autonomy" still open).
 - OPEN: (1) the pinning (coupled solve, object-in-physical-background, not isolated); (2) cosmic->particle
   bridge (F7 hard half, step0's gap); (3) the discrete spectrum.
+
+## MATTER SECTOR on the derived operator (2026-06-21, verified) — bears on F2, F3, the headline
+Charles's pivot: build a CONSISTENT THEORY OF MATTER (anchor=A=7.004, value-open), serving the
+complete-solver goal, NOT spectrum-matching. Matter-sector MAP + two analytic gates, blind-verified
+(a4aa12aa522f06b6c). See matter_regrade_derived_operator_results.md, F2_matter_action_forcedness_results.md.
+- **Matter coupling is now PHYSICAL (F3 resolved for matter):** the derived gravity operator is NOT
+  divergence-free, so the old "matter absorbable -> UDT=GR on the matter side" tautology is OVERTURNED.
+  a(phi)=e^{+phi} is a real, non-removable depth coupling. SUBTLETY: the teeth come from the OPERATOR
+  (vacuum!=GR), NOT from a=+1-vs-(-1) (on the EH operator ANY constant a is absorbable). Matter =
+  scale-breaker WITH TEETH, confirmed. New exterior = scalar-tensor {m,q} hair (Fisher/JNW), B=1/A breaks
+  with live hair (recovers B=1/A hairless); still a continuum (operator alone doesn't restore discreteness).
+- **F2 RESOLVED = MINIMAL-BUT-NOT-UNIQUE (not forced):** core {L2,L4} native+necessary; the 4-deriv
+  strain-invariant space is exactly 2-dim {X^2, |omega_H1|^2} (L4 = the area-form-native one); admissible
+  extras = X^2 (not area-form-native; moves MASSES, not the EOS/B=1/A) + L6 (native, subleading). CORRECTS
+  the corpus: a bulk potential V(n) is FORBIDDEN under full SO(3). Scale symmetry is NEUTRAL on
+  angular-term selection. Verdict rests on the carrier target = full SO(3).
+- RE-SET DONE (blind-verified): [static] the soliton on the new operator = GR + a TINY 1/r hair (q~1/|X|); B=1/A
+  break dominantly the OPERATOR-INDEPENDENT matter-kinetic one => the operator's static effect is small, teeth in
+  DYNAMICS (static_soliton_rerun_derived_operator_results.md). [time-live] the fully-coupled matter+time solve on
+  the derived operator = **BOX-CONTROL** (w^2~1/R^2, intercept ~0, R=64 no-plateau; negative mode = Derrick
+  breathing; ACTION-ROBUST across the {L4,X^2} F2 ambiguity) — STEP2_timelive_matter_results.md.
+- *** CENTRAL RESULT: the foundational audit's worry ("a different recipe could make the classical metric do
+  MORE") is ANSWERED — the DERIVED vacuum!=GR operator STILL box-controls => the classical-continuum
+  "MUST-QUANTIZE" conclusion SURVIVES the audit (robust on R-scaling; named residuals: finite-A harmonic-balance
+  proxy, strong-coupling grid limit, full off-diagonal g_tr PDE — flagged, not banked). The forward path
+  (quantization Step B/C) is UNBLOCKED, now on an audited foundation. ***
 
 ## THE KEY LINKAGE (read first)
 The program's central result — *"the CLASSICAL metric is a continuum (no classical discreteness) => we
