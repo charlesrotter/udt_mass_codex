@@ -49,6 +49,31 @@ phi->phi+const, PINS the universal weight. Derived twice independently + adversa
   (Branch P, the hunch); CHARACTERIZING BOTH next (Charles 2026-06-21). (2) what fixes the kinetic/curvature
   ratio X within the healthy window. New named premise P7' (shift acts at fixed invariant orbit-area).
 
+## SCALE-SYMMETRY + BOOTSTRAP (2026-06-21, verified) — bears on F5, F7, and the headline
+See scale_symmetry_bootstrap_analysis_results.md (Charles's bootstrap question; blind-verified
+a4e4edc169ef191bb, SOUND with 2 corrections). Findings:
+- **"No privileged depth" IS a scale (dilatation) symmetry** (qualitatively; the clean conserved-charge
+  version is a CONJECTURE pending an improvement term — verifier correction). Consequence: VACUUM is
+  exactly scale-free, so **box-control omega~1/R is the symmetry's FINGERPRINT, not a solver artifact**
+  (vacuum-scoped; MATTER breaks the symmetry and DOES pin a length l=sqrt(kappa/xi), but only high core
+  modes, not the spectrum). This RETRO-EXPLAINS the program's isolated-vacuum continua as a symmetry
+  consequence — the solver was right.
+- **Charles's bootstrap = the canonized critical universe, with a "why":** a background energy density
+  rho_bg sets a length via Einstein's eq, and the loop closes EXACTLY at c^2=2GM/R (the banked
+  critical-universe condition; R_cell~4.46 Gpc = c/H0 at rho_crit). Criticality is WHERE the otherwise-flat
+  dilatation modulus gets pinned. F5 mechanism clarified.
+- **HONEST LIMITS (verified, no overclaim):** that the coupled field eqn PINS r_cell (vs merely rescaling
+  the scale-free family) is DIMENSIONAL-not-derived (the make-or-break, needs the deferred coupled solve;
+  the one linear time-live probe is STILL box-controlled). The bootstrap sets the COSMIC scale ONLY — the
+  ~10^40 cosmic->particle ratio (F7's hard half) is UNTOUCHED. The discrete SPECTRUM of ratios is still
+  classically a continuum.
+- **HEADLINE IMPACT:** quantization's job SPLITS + SHRINKS: the OVERALL absolute scale looks
+  classical-cosmological (one anchor, criticality) -> NOT a quantization burden; what's left for
+  quantization (or the nonlinear coupled solve) is only the DISCRETE SPECTRUM OF RATIOS. F7 is SPLIT
+  ("overall scale" half-answered; "cosmic->particle ratio + particle autonomy" still open).
+- OPEN: (1) the pinning (coupled solve, object-in-physical-background, not isolated); (2) cosmic->particle
+  bridge (F7 hard half, step0's gap); (3) the discrete spectrum.
+
 ## THE KEY LINKAGE (read first)
 The program's central result — *"the CLASSICAL metric is a continuum (no classical discreteness) => we
 MUST quantize"* — is CONDITIONAL on this whole stack. Birkhoff (-> round frozen -> continuum) is a
