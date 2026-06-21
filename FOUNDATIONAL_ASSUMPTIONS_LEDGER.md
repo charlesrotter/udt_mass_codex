@@ -30,7 +30,7 @@ the result — now CHECKED and CLOSED in favor of the central conclusion.
 |---|---|---|---|
 | **F1** gravity action assumed = EH | the deepest import | **RESOLVED** — derived natively (vacuum!=GR, e^{2phi}) | native_dilation_weight_derivation |
 | **F3** a=-1 used silently | silent coupling | **RESOLVED** — derived a(phi)=e^{phi}; coupling now PHYSICAL | native_dilation_weight, matter_regrade |
-| **F2** matter action forced? | completeness | **RESOLVED (characterized)** — minimal-not-unique {L2,L4}; extras {X^2,L6} move masses only; V FORBIDDEN | F2_matter_action_forcedness |
+| **F2** matter action forced? | completeness | **RESOLVED (characterized; UPGRADED)** — minimal-not-unique {L2,L4}; extras {X^2,L6} move masses only; V FORBIDDEN. Its "rests on full-SO(3)" conditional is now DISCHARGED (M10 settled S^2 at DEMANDS-level) -> F2's premise is verified-native. | F2_matter_action_forcedness, M10_M11_object_identity_closure |
 | **N1/N5** one-player / metric slaved to phi | smuggled single-DOF | **RESOLVED** — went TWO-PLAYER | native_dilation_weight |
 | **N3** "two incompatible gravity actions" | import scare | **RESOLVED** — verifier REFUTED (false alarm) | F0_SYSTEMATIC_AUDIT |
 | **N2** mu^2=pi/3 fit to mesons | data import in foundation | **RESOLVED (quarantined)** — LEGACY-only, flagged, not in live program | F0_SYSTEMATIC_AUDIT |

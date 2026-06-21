@@ -28,12 +28,37 @@ previous results top-to-bottom; goal = a CLEAN, PHYSICS-CORRECT SOLVER before th
 Discipline: [[infrastructure-first-not-exciting-stuff]] — check/double/triple-check; hunt imports/frozen/improper
 assumptions; verifier-before-record on EVERY closure. Tracker = COMPLETION_PROGRAM.md; status-of-record =
 FOUNDATIONAL_ASSUMPTIONS_LEDGER.md SCOREBOARD (top).
-DONE: F0 audit; F1,F2,F3 (derived operator), F4 (seal-as-quantizer closed), F8 (metric choices) — all verified.
-P1-P5 re-audited vs the derived operator (mostly survives; **P5c family-landscape = the loud un-re-graded gap**).
-REMAINING — Phase A: F5 (critical-universe), F6 (postulate-A boundary ledger), F7 (scale bridge + Hubble native
-redo). Phase B: verify-audit-completeness, P5c re-grade, secondary P-gaps, imports (M12/M10/M11), SOLVER-INFRA
-audit, PREVIOUS-RESULTS top-to-bottom re-grade, wide-range numerics. The EVENING block below is the substantive
-arc that got us here.
+**PHASE A COMPLETE** (F1-F8 all closed/tied-off + verified; F6 framework DECIDED = HOLD quantization, finish the
+solver first — emergence not a target, quantize only if needed after). **PHASE B in progress:** B0 audit-
+completeness (verified — found 1 hidden gap), B1 P5c radial re-grade (verified — one-soft-object SURVIVES), B3
+imports (verified — M12 scoped; M10/M11 SETTLED = S^2, and the triple-check CAUGHT + RETIRED a stale F0 flag,
+UPGRADING F2). REMAINING Phase B: **B1' off-round build (NEXT, see below)**, B2 secondary P-gaps, B4 solver-infra
+audit, B5 previous-results top-to-bottom re-grade, B6 wide-range numerics.
+
+## *** NEXT SESSION = THE OFF-ROUND BUILD (B1') — set up FRESH (Charles 2026-06-21) ***
+**WHAT:** port the DERIVED operator into the full3d 3-D OFF-ROUND solver and run the OFF-ROUND / NON-SPHERICAL /
+ANGULAR sector — the ONE consolidated solver-completeness gap (= F8 non-spherical residual = the off-round l>=2
+discreteness gate [B0 gap#4] = P5c angular basins). **It is the only remaining PHYSICS piece for a 100%-complete
+solver, AND where the phi-angular hunch lives** (the derived operator's DERIVED angular-curvature obstruction —
+R1 cannot wash out the phi-free 2/r^2 angular block — has never been SOLVED off-round on the correct operator).
+**THE OPERATOR (set):** S = INT sqrt(-g)[ e^{2phi}R + X e^{2phi}(dphi)^2 + e^{2phi}L_m ], two-player (phi & metric
+independent), X=-2e5 (healthy window), charge-1 native hedgehog (degree-1, NOT the m>=2 import). L_m = native
+S^2 L2+L4 (S^2 now DEMANDS-verified, M10).
+**REUSE (don't rebuild):** the OLD full3d 3-D off-round solver (full3d_newton / the p5c_basins angular DOF:
+a1,b1,c1,d1,F1 · P2(cos theta) warps) + the derived-operator radial solver (static_soliton_rerun's residual). The
+job = swap the operator (the EXACT general Einstein + e^{2phi} weight + a=e^{phi} matter) into the 3-D solver; the
+P1 hybrid is SUPERSEDED (P5e_proper built the exact operator in 3.3s — use exact, not the small-shear hybrid).
+**GATES:** omega->0 / round-limit MUST recover the STEP2/P5e_proper round box-control; small-warp MUST recover the
+off-round linear spectrum; box-control gate (cell-scan + wall-relocation + intrinsic-lock) on ANY claimed level.
+**EXPECTATION (anti-false-convergence):** LIKELY box-control (the old off-round was box-controlled on EH; the
+derived static is GR+tiny-hair) — BUT this is the one place the derived angular obstruction could finally bite;
+OBSERVE-not-target, DATA-BLIND. **ANTI-HANG LOCKED:** bounded (Nr<=16/24), SINGLE process, dense-LM flooring,
+NEVER background-poll; #60-class — if it walls, that's NUMERICS not physics (Charles: wall = better numerics;
+spectral/multidomain/KEH-SCF/pseudo-arclength/JFNK+spectral-PC) and feeds B6. MAP-light first, then bounded build,
+then blind-verify. Docs: COMPLETION_PROGRAM.md (B1'), p5c_basins_results.md (the 3-D solver to port),
+native_dilation_weight_derivation (the operator + the angular obstruction).
+
+The EVENING block below is the substantive arc that got us here.
 
 ## *** 2026-06-21 EVENING — LIVE FRONTIER: DERIVED OPERATOR + MATTER NOW PHYSICAL (read FIRST) ***
 The foundational audit below RAN and moved the program a long way in one session. The arc (all blind-verified,

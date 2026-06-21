@@ -2,9 +2,13 @@
 
 *** 2026-06-21 NIGHT TOP: COMPLETION PROGRAM UNDERWAY (Charles). *** Finish every F-item (no hanging threads)
 + audit solvers/previous-results top-to-bottom before the next level; goal = a clean physics-correct solver.
-DONE+verified: F0; F1/F2/F3 (derived operator); F4 (seal-as-quantizer closed); F8 (metric choices); P1-P5
-re-audited vs the derived operator. REMAINING: Phase A F5/F6/F7; Phase B = audit-completeness, P5c re-grade,
-secondary P-gaps, imports (M12/M10/M11), solver-infra audit, previous-results re-grade, wide-range numerics.
+**PHASE A COMPLETE** (F1-F8 all closed+verified; F6 framework DECIDED = HOLD quantization / finish the solver
+first / emergence not a target). **PHASE B in progress (verified):** B0 audit-completeness (found 1 hidden gap),
+B1 P5c radial re-grade (one-soft-object SURVIVES), B3 imports (M12 scoped; M10/M11 SETTLED=S^2 — triple-check
+caught + retired a stale F0 flag, UPGRADING F2). **NEXT = B1' THE OFF-ROUND BUILD** (port the derived operator
+into the full3d 3-D off-round solver; the ONE consolidated solver-completeness gap = F8 residual = off-round gate
+= P5c angular; where the phi-angular hunch lives — set up FRESH per HANDOFF.md TOP's dedicated B1' block).
+REMAINING after: B2 secondary P-gaps, B4 solver-infra audit, B5 previous-results re-grade, B6 wide-range numerics.
 Tracker = COMPLETION_PROGRAM.md; status = FOUNDATIONAL_ASSUMPTIONS_LEDGER.md SCOREBOARD. Discipline =
 [[infrastructure-first-not-exciting-stuff]]. The EVENING arc below is the substantive frontier that got us here.
 
