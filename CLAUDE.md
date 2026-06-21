@@ -134,6 +134,19 @@ ledger so Charles steers at the assumption stage, not after the build.
   torch.linalg.solve_triangular with a BROADCAST Cholesky factor
   silently corrupts at large batch (~150+); use explicit inverse +
   batched matmul, and always run per-batch CPU asserts.
+- **ANTI-HANG (binding operational rule, 2026-06-20 — SIX+ agents hung this
+  way).** The coupled solves are SLOW (jacrev/iteration-bound, minutes to
+  ~1700s). ALWAYS run solves BOUNDED: cap the grid (Nr<=16/24), cap Newton/
+  Krylov iters, and run a SINGLE clean process at a time — NEVER concurrent
+  (GPU contention stalls everything), and NEVER launch-a-solve-and-poll a
+  background task (agents hang waiting). Fixed-background eigenproblems are
+  cheap (5-22s); the dense-LM (jacrev+lstsq) is the flooring tool; recompute
+  on SAVED fields where possible. If a solve would exceed budget, REDUCE and
+  report "throughput-limited" — a bounded honest partial beats a hang.
+  Stability/landscape tests: NEVER blend a field toward a chosen endpoint and
+  call it dynamics (a biased artifact — it cost a wrong headline); use unbiased
+  kicks + NEB + a 3-cell persistence test (a 2-cell test throws look-elsewhere
+  false positives).
 
 ## Repo discipline (the Self-Hardening culture — do not soften)
 

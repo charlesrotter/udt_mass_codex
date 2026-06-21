@@ -4,12 +4,15 @@ Navigable map of udt_mass_codex. Created 2026-06-10. Layout note: the repo
 is deliberately FLAT — ~474 `native_*.py` scripts plus 13 markdown docs in
 one directory. See "Conventions" at the bottom before judging the layout.
 
-Reading order (2026-06-19, LATE): CLAUDE.md "How we work" -> **POST_POSTULATE_PROGRAM.md** (the
-corrected forward plan, DRAFT — supersedes VISION_POST_POSTULATE.md) -> **SOLVER_COMPLETENESS_MAP.md**
-(the live instrument) -> STATE.md TOP -> HANDOFF.md -> this file -> the records.
-NOTE (2026-06-19 reframe): the pre-postulate MICROPHYSICS records below are RETIRED/legacy — the
-microphysics space is UNENTERED, not walled (see NEGATIVES_REGISTRY wholesale-retirement banner +
-STATE TOP). Mine them for TOOLING only, never for verdicts.
+Reading order (2026-06-20): CLAUDE.md "How we work" + ANTI-HANG -> **HANDOFF.md TOP** (the live
+2026-06-20 everything-on-solver frontier) -> **POST_POSTULATE_PROGRAM.md** (the corrected program) ->
+**SOLVER_COMPLETENESS_MAP.md** (the live instrument) -> STATE.md TOP -> this file -> the records.
+LIVE WORK (2026-06-20): the EVERYTHING-ON SOLVER is built + the classical metric shown to be a CONTINUUM
+(no classical discreteness) -> NEXT = QUANTIZE. Build docs: EVERYTHING_ON_SOLVER_BUILD_MAP.md (+ _P2/_P5
+sub-MAPs), p1_*/p2_*/p3_*/p4_*/p5*_*/p5c_*/p5d_*/offround_classical_* results + _VERIFIER docs. See HANDOFF
+TOP + memory everything-on-solver-build for the distilled state + the capability gap (no fully-coupled-time solver).
+NOTE (reframe): the pre-postulate MICROPHYSICS records below are RETIRED/legacy — the microphysics space is
+UNENTERED, not walled (NEGATIVES_REGISTRY wholesale-retirement banner + STATE TOP). Mine for TOOLING only, never verdicts.
 
 ---
 
