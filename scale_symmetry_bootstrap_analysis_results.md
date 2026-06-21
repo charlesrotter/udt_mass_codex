@@ -444,3 +444,19 @@ Verdicts + two binding CORRECTIONS:
 NET: bank the bootstrap = critical-universe-with-a-why (cosmic-scale, pinning-deferred) and the
 vacuum-scoped box-control=fingerprint reading; the Noether-charge identification is a CONJECTURE (corrected);
 matter is itself a scale-symmetry breaker that pins a length (but not the spectrum).
+
+---
+
+## CORRECTION (2026-06-21) — IMPORTED Hubble constant flagged + retracted (Charles)
+Charles caught a Principle-1 smuggle: the "R_cell ~ 4.46 Gpc = c/H0 at rho_crit" confirmation IMPORTS the
+standard-cosmology Hubble constant H0 and critical density rho_crit = 3 H0^2 / 8piG. It merely restates the
+standard Hubble radius (R = c/H0 identically at critical density) — it is NOT a UDT-native derivation of the
+cosmic scale; it assumes the answer from LCDM.
+- SURVIVES natively: the closure c^2 = 2GM/R (field-equation self-consistency) + the identification with the
+  critical-universe canon.
+- RETRACTED as imported: the NUMBER (4.46 Gpc), the "= c/H0" framing, the rho_crit and ~9 Gpc CMB-cell matching.
+- NATIVE REDO REQUIRED (pending Charles's steer on the anchor): set the cosmic scale from UDT's OWN inputs —
+  the native depth anchor phi_seal = 7.004 (via the native 1+z = e^phi), the native Misner-Sharp mass M (=
+  the cell's public charge, CANON), the finite-cell metric, and the native critical condition c^2=2GM/R — with
+  H0 / rho_crit as DERIVED OUTPUTS to be COMPARED to observation, NEVER inputs. The cosmic-scale "confirmation"
+  is WITHDRAWN until redone this way.
