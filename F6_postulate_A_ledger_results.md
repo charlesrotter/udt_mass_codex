@@ -226,3 +226,17 @@ sympy-exact — not the generic "S^2 area form is canonical") and the BOX-CONTRO
 the TARGET area form not a spatial 1/R mode — not the trivial "area=4pi"); independently re-confirmed dA/dR=0,
 area=4pi, ratio=1. Framework question (quantize-now vs geometric-emergence) + k=2j-vs-N=3 correctly left OPEN for
 Charles. The ledger de-inflates exactly as the binding Step-A verifier + F0 did. FAITHFUL.
+
+---
+
+## FRAMEWORK DECISION (Charles 2026-06-21) — HOLD quantization; finish the solver first
+Charles (between "hold for geometric emergence" and "defer"): **"Once the solver is 100% complete we'll see if
+there's any emergence — but it's NOT a target. If we need to quantize after, then we'll quantize after."**
+=> THE DECISION:
+1. Do NOT quantize now. FINISH the solver to 100% complete (the COMPLETION PROGRAM, Phase B) FIRST.
+2. THEN OBSERVE whether any geometric emergence (discreteness/spin/i-flow) appears from the complete solver —
+   but emergence is **NOT a target** (do not hunt/verdict-chase it; observe what the complete solver does — the
+   metric-led, observe-not-target discipline). 
+3. Quantize (Step B/C) only IF NEEDED, AFTER. Quantization is DEFERRED behind solver-completion + an as-needed call.
+Supersedes the quantize-now lean in [[postulate-A-accepted]]. F6's BOUNDARY ledger stays the record; the
+framework is now decided = HOLD-and-finish-the-solver.
