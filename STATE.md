@@ -21,11 +21,14 @@ box-controls => the **MUST-QUANTIZE conclusion SURVIVES the foundational audit.*
 finite-A) CONVERGED and reproduced box-control WITHOUT STEP-2's three reductions; the verdict now rests on the
 full coupled machinery. Remaining gap = NUMERICS not physics (wide-range R=4..64 gate, Nt>=5, strong coupling, A2
 true-Einstein -> spectral/multidomain/KEH-SCF/pseudo-arclength/JFNK+spectral-PC upgrade plan recorded).
-**NEXT = F4 (the seal/boundary), MAP first (Charles 2026-06-21).** F4 is the LOAD-BEARING CAVEAT under
-"must-quantize": every box-control solve used a generic Dirichlet box, NOT UDT's actual physical seal
-(time-reversal involution at a physical cell radius). A physical cell makes box-modes physical; a non-trivial
-seal BC could give a non-harmonic spectrum — UNTESTED. Check F4 BEFORE quantizing (F6). See FOUNDATIONAL_ASSUMPTIONS_LEDGER.md
-SCOREBOARD (top) for the full resolved/partial/open status + the must-quantize-conditional-on-F4 caveat.
+**F4 DONE + CLOSED (the load-bearing caveat RESOLVED, verified — seal_junction_condition_results.md):** derived
+the sigma-ODD/time-on seal junction for BOTH involutions; sigma1=time-node (selects no omega, continuous),
+sigma2=trivial harmonic ladder ~1/R; neither is a non-harmonic classical quantizer (even a pinned cell gives only
+a trivial ladder). => **"must-quantize" is UNCONDITIONAL w.r.t. the seal BC** for the observed spectrum. The
+central conclusion is now robust on BOTH the gravity-action axis (P5e-proper) and the seal axis (F4) — the one
+result-changing open item was checked + closed in favor of it. NEXT (gated, MAP first): quantize (F6, now on
+doubly-audited ground), OR the wide-range numerics, OR framing-only F-items (F5/F7/F8, M12, M10/M11). See
+FOUNDATIONAL_ASSUMPTIONS_LEDGER.md SCOREBOARD (top) for full status.
 
 ----- prior TOP (2026-06-21 morning): FOUNDATIONAL-ASSUMPTIONS AUDIT framing (now substantially run) -----
 The forward build (P5e / quantization Step B/C) was PAUSED pending a foundational audit: several recipes the
