@@ -153,12 +153,35 @@ full-space solve, m=1, charge-1, 6 seeds):
   rigorous pin and a coupled-Hessian STABILITY check AFTER selection (= completeness criterion 9; the phase3b
   energy-minimizer+continuation tool, now re-derived natively). matter_action has a cosmetic RETURN bug (undefined
   var in the return packaging, NOT the action value) — flag/fix when convenient.
-NEXT (gated on Charles): BUILD the selection principle = an energy-minimizer over a WIDER seed sweep (global-min
-was over 6 seeds only; widen before banking) + continuation pin + post-selection coupled-Hessian stability ->
-pin the UNIQUE physical m=1 solution -> THEN M_MS is bankable -> THEN P5c-proper (off-round static) / P5d
-(time-live) can proceed on a unique solution. Still NOT bankable until the principle pins one branch.
-Anti-hang LOCKED: single clean process, bounded grids (Nr<=24)+iter caps, dense-LM (jacrev+lstsq) the flooring
-tool, recompute-on-saved-fields where possible, NEVER background-poll (FOUR agents hung on unbounded solves).
+P5c-step-3 DONE = the STABILITY TEST on all 5 basins, run as Charles's FAMILY QUESTION (family of stable distinct
+same-charge objects vs round=the one particle + others unstable). Merged d041a0a; p5c_stability_results.md +
+p5c_stability_VERIFIER.md. *** THE VERIFIER BROKE THE BUILD AGENT'S HEADLINE *** and the corrected reading
+LEANS TOWARD CHARLES'S FAMILY INTUITION:
+- The build agent claimed "round = dominant attractor, the 4 off-round shapes are shallow metastable wells that
+  MELT to round" -> the verifier showed the "melt" is a BIASED-BLEND ARTIFACT (the test blended each field 75%
+  toward round then noted it stayed; the solver moved it <=0.015 while the blend moved it 0.04-0.22 => ~0%
+  dynamical flow). The decay/shallow half is DISCREDITED. Do NOT propagate "round triply-selected / others decay".
+- WHAT SURVIVES (verified, unbiased): all 5 are genuine DISTINCT charge-1 LOCAL MINIMA (Theta-Hessian n_neg=0,
+  min eig 0.19-0.26; coupled refloor its=0); each is KICK-STABLE under a small unbiased perturbation (3/3 tested:
+  round, toroidal, oblate RETURN to themselves); round is NOT a universal sink (larger kicks hop basin->NEIGHBOR:
+  toroidal->prolate, round->oblate). Round's only surviving distinction = lowest energy |S| (an energy ORDERING,
+  not a decay hierarchy).
+- *** HONEST FAMILY VERDICT: OPEN, leaning MULTIPLE-STABLE *** — the signature of multiple genuine same-charge
+  local minima with UNMEASURED barriers, NOT "one particle + unstable echoes". This is potentially BIG (same-
+  SECTOR multiplicity; would be a DIFFERENT mechanism than the catalog-by-distinct-sectors hypothesis, and runs
+  against the old #44 'one cell=one particle' — which is under the unentered/reframe caveat anyway). KEEP
+  observe-not-target + data-blind (this is exactly the seductive 'multiplicity=family' pattern; the lean is from
+  UNBIASED evidence, which is the right footing, but barriers must be measured before any claim).
+- GAPS (decisive, before any family claim): (1) BARRIER HEIGHTS via NEB/string between round<->each off-round and
+  between off-round neighbors — HIGH barrier => genuine distinct family; LOW => soft metastable wiggles of round.
+  THE decisive measurement. (2) The Hessian was fixed-metric Theta-ONLY — close it with a constraint-projected
+  coupled Hessian incl. METRIC-direction modes. (3) unbiased kicks on the 2 untested basins (prolate, pert_s) +
+  an escape-radius amplitude sweep (NEVER a blend toward a chosen endpoint).
+NEXT (gated on Charles): the BARRIER-HEIGHT (NEB/string) test + the metric-direction Hessian gap = the decisive
+test of the family question. (The energy-minimizer/selection-principle build is now SECONDARY/reframed: if the
+barriers are high, "select one" is the WRONG frame — they'd be distinct objects, not one to be picked.) Still
+NO M_MS bankable. Anti-hang LOCKED: single clean process, Nr<=16, recompute-on-saved-fields, dense-LM, NEVER
+background-poll (FOUR+ agents hung on unbounded solves).
 Build contingency (Charles): if solver-limited (the #60 wall at P5), do a thorough GR-numerics-corpus search
 before reinventing (Principle 4).
 
