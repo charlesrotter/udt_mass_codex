@@ -128,8 +128,16 @@ soliton; large-N QCD is classical) — coherent with no quantum layer. [[no-pres
 - [E] fermion/spin-½ statistics — #51/#53 (classically not forced) used RETIRED SM-imports (Skyrme/
       FR/WZW), so they do NOT count as a native test; native verdict UNWRITTEN. A geometric realization
       (topology / standing-wave) is the open target, not "a quantum sector".
-- [ ] discrete spectra (atomic/hadronic) — a STANDING-WAVE/eigenvalue extension of the solver (we
-      already compute mode ω²); the cleanest test of geometric discreteness. UNTESTED at scale.
+- [V] CLASSICAL discreteness of the everything-on object — TESTED + blind-verified (2026-06-20,
+      offround_classical_discreteness_results.md): NONE. Round = Birkhoff-frozen (M=0, P5d); off-round =
+      box-controlled (omega~1/R, no intrinsic level survives a 3-cell persistence test to Nr=24; matter
+      ell=sqrt(kappa/xi) pins a size but sets only high core modes, spectrum is the box). The CLASSICAL
+      metric gives a CONTINUUM, period => DISCRETENESS REQUIRES QUANTIZATION (postulate A confirmed on the
+      clean operator, not asserted). Ceiling: fixed-bg+structural, not fully-coupled P5e (won't change it:
+      #65 coupling softens; box-mode geometric).
+- [ ] QUANTUM (postulate-A) discreteness — the NEXT step; quantize the box-controlled continuum + the
+      surviving first-order G^t_r momentum/phase channel + K flat directions. First-order structure may
+      quantize phase/constraint-like (i=area-form/Born thread), not as a Birkhoff-forbidden round oscillator.
 - [!] PRECISION-loop physics (g−2, Lamb shift, DIS, running coupling) — the hard BILL; needs a
       DYNAMICAL/response solver (not the static one) + the reverse-engineer-from-quantum-math strategy
       (stochastic quantization / Madelung / ℏ-loop / effective action / RG↔DILATION first). UNTESTED.

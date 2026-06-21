@@ -211,15 +211,35 @@ wired, reaches dGamma[T]->Riemann, and cancels IDENTICALLY on the round diagonal
   time-frozen. *** THE LIVE TIME-DYNAMICS LIVE IN THE OFF-ROUND (l>=2) CHANNEL — the verifier EXHIBITED nonzero
   classical inertia there (||M||/||K||~0.09-0.12). *** This is the EXPECTED pre-quantization classical result
   (postulate A: discreteness is a SEPARATE quantization step) — a real observation, not a failure.
-NEXT (gated on Charles): the off-round time-live channel is genuinely where a classical oscillator lives (P5d
-exhibited nonzero M there). TWO forward options: (P5e) the full off-round l>=2 time-live COUPLED solve — does that
-oscillator TOWER (discrete) or BOX-CONTROL (continuum, as #65's reduced proxy suggested)? = the #60-class hardest
-solve, likely throughput-limited. OR (QUANTIZE) apply postulate A to the surviving classical structure (the
-first-order G^t_r momentum channel + K flat directions on the round object) — note: a FIRST-ORDER (not
-second-order/oscillator) structure quantizes differently (phase/constraint-like, possibly the i=area-form/Born
-thread), which may be the more native route than forcing a round oscillator that Birkhoff forbids. Charles's call.
-Anti-hang LOCKED (single clean process, Nr<=16, recompute-on-saved-fields, dense-LM/re-posed-JFNK, NEVER
-background-poll — FIVE+ agents hung on unbounded solves; P5d's own solves were 5-18s, stay there).
+OFF-ROUND CLASSICAL-DISCRETENESS GATE DONE (Charles ran "1+2 both blind-verified", as the trustworthy answer to
+"is there classical discreteness before quantization" — he distrusted the earlier proxy results; merged a6e5d76;
+offround_classical_discreteness_results.md + offround_classical_VERIFIER.md). *** ANSWER: NO classical discreteness
+in the off-round channel before quantization — SOUND + COMPLETE on the clean operator + structural argument. ***
+- (1 NUMERICAL, full CLEAN operator not the #65 proxy) the off-round channel HAS a real classical oscillator
+  (M!=0, ||M||/||K||~0.5, unlike the Birkhoff-frozen round M=0) BUT its spectrum is BOX-CONTROLLED: omega~1/R
+  (omega*R constant to 1.2% over 2.8x wall relocation), continuum from omega~0, on 3 relaxed basin backgrounds.
+- *** THE DECISIVE high-mode check (verifier closed the build's own flagged gap): the FULL spectrum (low AND high)
+  at Nr=16+24 with a CROSSING-IMMUNE 3-cell persistence test (14/20/28) -> ZERO frequencies persist anywhere in
+  the band (w up to ~9, past 1/ell~1). A naive 2-cell test's 4 'intrinsic' near-matches EVAPORATE with a 3rd cell
+  = look-elsewhere flukes. NO intrinsic level binds — the one place it could have broken does not. ***
+- (2 STRUCTURAL, independent of numerics) sympy Derrick: matter DOES pin a size ell=sqrt(kappa/xi) (d2E/dl2>0) —
+  so the "matter has a scale the vacuum lacks" loophole was GENUINE (this was truly open, not pre-decided) — but
+  ell sets only HIGH CORE modes; the off-round fluctuation spectrum is the BOX mode (l>=2 core-to-wall), matter
+  asymptotes to the scale-free vacuum box away from the core (L4->0). Numerics + structural AGREE on all predictions.
+- DEFINITENESS: fixed-background + structural + high-mode persistence = the trustworthy answer (on the CLEAN
+  operator, blind-verified, NOT the distrusted #65 proxy). Honest ceiling = the fully-coupled P5e (fixed-vs-coupled),
+  the solver-completeness item quantization inherits — NOT pursued (expensive #60-class; #65 showed coupling SOFTENS
+  not binds; the structural box-mode is geometric/coupling-independent). Bypassing full P5e costs little (this is why).
+*** THE BIG PICTURE NOW CLOSED: the CLASSICAL metric gives a CONTINUUM, period — round Birkhoff-frozen (M=0, P5d) +
+off-round box-controlled (this gate). DISCRETENESS REQUIRES QUANTIZATION. This CONFIRMS the postulate-A frame
+([[postulate-A-accepted]]) on the clean operator: "you were trying to get a quantum result classically" is now
+DEMONSTRATED, not asserted. ***
+NEXT (gated on Charles): QUANTIZE (postulate A). The substrate quantization inherits: a box-controlled classical
+continuum (round AND off-round) + the surviving FIRST-ORDER G^t_r momentum/phase channel + K's flat directions on
+the round object. NATIVE LEAD: the round object's surviving structure is FIRST-ORDER (phase/constraint-like), which
+quantizes differently than an oscillator (possibly the i=area-form / Born thread [[udt-derives-sm-assumptions]]) —
+likely the more native route than a round oscillator Birkhoff forbids. Anti-hang LOCKED (single clean process,
+Nr<=16/24 fixed-bg eigenproblems are cheap 14-22s, NEVER background-poll — SIX+ agents hung on unbounded solves).
 Build contingency (Charles): if solver-limited (the #60 wall at P5), do a thorough GR-numerics-corpus search
 before reinventing (Principle 4).
 
