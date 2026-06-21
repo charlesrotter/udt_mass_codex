@@ -23,7 +23,7 @@ FOUNDATIONAL_ASSUMPTIONS_LEDGER.md. This doc = the actionable checklist.
   is the container DERIVED or POSITED — A1 (no spatial infinity), D2 (I×S^2 doubling vs S^2×S^1 Chern competitor),
   D3 (inner-core r=0 removal), and WHICH involution (t->-t vs P×T); resolve the time-surface/radial-crease fork
   held DERIVED-conditional. Deliverable: F4 structure closure (derived-vs-posited, each tagged).
-- [ ] **F5 — critical-universe frame.** PARTIAL (bootstrap = critical universe w/ a why, c^2=2GM/R). FINISH:
+- [x] **F5 — critical-universe frame.** CLOSED (F5_critical_universe_closure_results.md, verified CLEAN) = ADMITTED WORKING FRAME with a derived self-consistency mechanism (c²=2GM/R); pinning dimensional-only; does NOT bear on must-quantize. PARTIAL (bootstrap = critical universe w/ a why, c^2=2GM/R). FINISH:
   is "matter at ONE critical amount" DERIVABLE or an admitted FRAME? is the pinning derivable or dimensional-
   only? Deliverable: F5 closure (derived vs admitted-frame, explicit).
 - [ ] **F6 — postulate-A boundary.** OPEN (admitted). FINISH the clean ledger: what is truly POSTULATED
@@ -31,7 +31,7 @@ FOUNDATIONAL_ASSUMPTIONS_LEDGER.md. This doc = the actionable checklist.
   cell-independence); is quantization the right framework vs later geometric emergence (the door-open clause)?
   This is an ADMISSION/decision item, not a derivation — make the boundary crisp + Charles-signed. Deliverable:
   F6 postulated-vs-free-vs-native ledger.
-- [ ] **F7 — scale bridge / ~10^40 autonomy gap.** OPEN (known-hard). FINISH to a clean state: do the
+- [x] **F7 — scale bridge / ~10^40 autonomy gap.** CLOSED-TO-CLEAN-STATE (F7_scale_bridge_native_results.md, verified CLEAN): imported-Hubble REMOVED (M/R=c²/2G native; absolute size = unpinned dilatation modulus, H0 order-correct as OUTPUT, number pinning-deferred to the coupled solve); cosmic->particle half = the IRREDUCIBLE known-open gap, stated cleanly (M doesn't bridge; depth ~115x short; particle size must come from the cell's own cavity/angular structure). OPEN (known-hard). FINISH to a clean state: do the
   imported-Hubble NATIVE redo (anchor A=7.004, H0/rho_crit as DERIVED outputs); then either close the cosmic->
   particle bridge or formally characterize it as the IRREDUCIBLE open gap (what's needed, why it's hard).
   Deliverable: native cosmic-scale redo + bridge status record.
