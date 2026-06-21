@@ -6,6 +6,35 @@ assumptions we need to deal with?"). Purpose: make EVERY load-bearing foundation
 derived vs assumed vs admitted — before more physics is built on it (Principle 6 + 7; the
 make-visible-and-ponder method).
 
+## *** SCOREBOARD (2026-06-21, standing state — read FIRST) ***
+At-a-glance status of every F0-audit item. RESOLVED = derived/refuted/quarantined+not-load-bearing;
+PARTIAL = clarified but a gap remains; OPEN = untouched or parked. The audit's CENTRAL question — *was
+"must-quantize" an artifact of assuming GR?* — is **RESOLVED: NO, it survives on the derived, full-coupled
+(P5e-proper) machinery.** The deepest imports are cleared; ~half the items remain.
+
+| Item | What it was | Status | Where |
+|---|---|---|---|
+| **F1** gravity action assumed = EH | the deepest import | **RESOLVED** — derived natively (vacuum!=GR, e^{2phi}) | native_dilation_weight_derivation |
+| **F3** a=-1 used silently | silent coupling | **RESOLVED** — derived a(phi)=e^{phi}; coupling now PHYSICAL | native_dilation_weight, matter_regrade |
+| **F2** matter action forced? | completeness | **RESOLVED (characterized)** — minimal-not-unique {L2,L4}; extras {X^2,L6} move masses only; V FORBIDDEN | F2_matter_action_forcedness |
+| **N1/N5** one-player / metric slaved to phi | smuggled single-DOF | **RESOLVED** — went TWO-PLAYER | native_dilation_weight |
+| **N3** "two incompatible gravity actions" | import scare | **RESOLVED** — verifier REFUTED (false alarm) | F0_SYSTEMATIC_AUDIT |
+| **N2** mu^2=pi/3 fit to mesons | data import in foundation | **RESOLVED (quarantined)** — LEGACY-only, flagged, not in live program | F0_SYSTEMATIC_AUDIT |
+| **M21 + machinery soft-spots** (M4/M9/M14/M20 #60 wall) | must-quantize rested on reductions | **RESOLVED** — P5e-proper ran the full coupled solve, removed the reductions, crossed #60 in the resolvable window | STEP2, P5e_proper |
+| **F5** critical-universe / "one critical amount" | frame, not derived | **PARTIAL** — bootstrap = critical universe WITH a why (c^2=2GM/R); but "one critical amount" still an assumed frame; pinning dimensional-not-derived | scale_symmetry_bootstrap |
+| **F8** embedded metric-form choices | chart/symmetry choices | **PARTIAL** — full off-diagonal solve relaxed the diagonal choice; static/spherical/areal still working choices | P5e_proper |
+| **M12** imported Skyrme winding BC Theta(core)=m*pi | IMPORT (the m-catalog) | **OPEN (quarantined, NOT replaced)** — used charge-1 native only, parked the ladder; native sector-distinctness mechanism never built | theta_bc_provenance (#61) |
+| **F6** postulate-A / spin-1/2 rides imported metaplectic framework | IMPORT (quantization side) | **OPEN** — untouched; we DEMONSTRATED must-quantize but haven't quantized | quant_stepA_VERIFIER |
+| imported Hubble H0 / rho_crit | IMPORT (cosmic scale) | **OPEN (retracted, native redo deferred)** — anchor set to A=7.004; native recompute with H0 as OUTPUT not done | scale_symmetry_bootstrap §CORRECTION |
+| **F4** finite-cell / seal / boundary (A1 no-spatial-infinity, D1 seal=t->-t, D2 doubling, D3 core removal) | posited structure | **OPEN** — entirely untouched this session | (canon C-10-2) |
+| **F7** cosmic->particle ~10^40 bridge | known open gap | **OPEN (parked, value-open)** — bootstrap sets the COSMIC scale only | step0_bridge |
+| **M10/M11** S^2-vs-S^3 identity + cos-theta texture | object identity | **OPEN-ish** — used S^2 as given; not re-settled (M10 carries the F0 "unexecuted-settling" caveat) | S2_S3_OBJECT_IDENTITY_MAP |
+| wide-range numerics (box gate airtight) | numerics, not physics | **OPEN (by design)** — Charles's "better numerics" follow-up (spectral/multidomain/KEH-SCF/pseudo-arclength/JFNK+spectral-PC) | P5e_proper §upgrade-plan |
+
+Detailed dated working-blocks below; the F1-F8 narrative entries (further down) are the ORIGINAL framing — read
+this scoreboard for current status. N4/N6/N8 (gravity-side branch/extremes/local-Lorentz concerns) are largely
+SUPERSEDED-by-derivation (the operator is now derived, not the assumed-EH one); M22 = value-open (parked).
+
 ## F0 DONE (2026-06-21) — see F0_SYSTEMATIC_AUDIT_results.md
 The systematic audit ran (4 read-only OBSERVE agents over CANON + derivation docs + premise ledgers +
 everything-on build; 3 surprising catches blind-verifier-passed). OUTCOME: F1/F2/F3/F6/F7 confirmed as
