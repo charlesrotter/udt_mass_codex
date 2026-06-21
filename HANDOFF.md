@@ -35,7 +35,18 @@ imports (verified — M12 scoped; M10/M11 SETTLED = S^2, and the triple-check CA
 UPGRADING F2). REMAINING Phase B: **B1' off-round build (NEXT, see below)**, B2 secondary P-gaps, B4 solver-infra
 audit, B5 previous-results top-to-bottom re-grade, B6 wide-range numerics.
 
-## *** NEXT SESSION = THE OFF-ROUND BUILD (B1') — set up FRESH (Charles 2026-06-21) ***
+## *** B1' STATUS (2026-06-21 LATER): ROUND-LIMIT GATE DONE + VERIFIED; the 3-D OFF-ROUND RESIDUAL is the live NEXT ***
+Charles ran "clean the gate first." DONE + blind-verified (b1prime_round_gate_derived_operator_results.md, verifier
+a6b142162a3211abd, SUPPORTED-WITH-REVISIONS): the derived operator is reconstructed into a well-posed RADIAL solver
+(phi an independent player); a smuggled kap8=0.05 was found+fixed (kap8=1 DERIVED); Gate A PASS, Gate B PASS (1/R^2
+tower + one node-free negative Derrick mode), operator=action's-own-equation confirmed. **CORRECTION banked: NO
+resolvable scalar hair** (conserved charge ~=0; static_soliton's "tiny hair q.|X|~0.5" was a grid-fit artifact ->
+NEGATIVES_REGISTRY CONDITIONS-CHANGED; reinforces "teeth in dynamics"). The round limit validates the OPERATOR only.
+**LIVE NEXT = B1'-step1: the genuine 3-D OFF-ROUND residual** (wire phi into the full3d a,b,c,d machinery; gate its
+round limit coupled; then OBSERVE the off-round l>=2 angular sector = the phi-angular obstruction on the correct
+operator). The small-warp check so far was a linearized l=2 proxy only. See COMPLETION_PROGRAM.md B1'.
+
+## *** (the original B1' setup, still the spec for step1) THE OFF-ROUND BUILD (B1') — set up FRESH (Charles 2026-06-21) ***
 **WHAT:** port the DERIVED operator into the full3d 3-D OFF-ROUND solver and run the OFF-ROUND / NON-SPHERICAL /
 ANGULAR sector — the ONE consolidated solver-completeness gap (= F8 non-spherical residual = the off-round l>=2
 discreteness gate [B0 gap#4] = P5c angular basins). **It is the only remaining PHYSICS piece for a 100%-complete

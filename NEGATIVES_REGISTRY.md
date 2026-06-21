@@ -14,6 +14,22 @@ demonstration of why this registry exists.
 
 ---
 
+## *** 2026-06-21 BANKED-RESULT CORRECTION (not a negative; logged here per Charles's instruction) ***
+
+**`static_soliton_rerun_derived_operator_results.md` — "tiny 1/r scalar hair q.|X|~0.5" is CONDITIONS-
+CHANGED -> CORRECTED.** The B1' round-gate cleanup + blind verifier
+(`b1prime_round_gate_derived_operator_results.md`, agent a6b142162a3211abd) showed that hair magnitude
+is a GRID-FIT ARTIFACT: the 1/r body-fit does not converge (the doc's number diverges 0.5->1.3 with
+resolution; an independent reconstruction's flips sign), `|phi|max`->0 with refinement, and the
+CONSERVED scalar flux ~= 0 on both solvers (interior noise floor ~1e-6). The doc's own "SOFT — coarse
+outer grid" caveat is upheld; the 0.5 (and a competing 0.045) are NOT physical and are NOT to be banked.
+**Corrected statement:** the round charge-1 soliton on the derived operator carries NO resolvable scalar
+hair (conserved charge ~= 0) — the static object is GR + global monopole, MORE GR-like than recorded.
+This does NOT weaken any box-control negative; it REINFORCES "teeth in dynamics, not the static profile."
+The rest of static_soliton (gates G1/G2, localization L=1, B=1/A matter-kinetic break) STANDS (re-verified).
+
+---
+
 ## *** 2026-06-19 WHOLESALE RETIREMENT — THE PRE-POSTULATE MICROPHYSICS NEGATIVE CORPUS IS LEGACY/UNENTERED (Charles) ***
 
 Binding driver action, Charles-directed (2026-06-19). Two premises changed at once: (1) the

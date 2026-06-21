@@ -48,11 +48,22 @@ FOUNDATIONAL_ASSUMPTIONS_LEDGER.md. This doc = the actionable checklist.
   verified): RADIAL sector = "one soft object, NO durable family" SURVIVES + sharpens (single basin, field-level
   ~1e-10, no walls). Honest scope: the ANGULAR/non-axisymmetric basins are NOT in the radial chart -> that part
   folds into the consolidated off-round gap below.
-- [ ] **B1' — *** THE CONSOLIDATED SOLVER-COMPLETENESS GAP *** : port the DERIVED operator into the full3d 3-D
+- [~] **B1' — *** THE CONSOLIDATED SOLVER-COMPLETENESS GAP *** : port the DERIVED operator into the full3d 3-D
   OFF-ROUND solver and run the off-round/non-spherical/angular sector.** This single gap = {F8 non-spherical
   residual} = {off-round discreteness gate, B0 gap#4} = {P5c angular basins}. It is where the phi-angular hunch
   lives (the derived-operator angular obstruction). A BUILD (not a bounded re-grade). The key remaining piece for
   a 100%-complete solver. Anti-hang LOCKED.
+    - [x] **B1'-step0 ROUND-LIMIT GATE — DONE + blind-verified** (b1prime_round_gate_derived_operator_results.md,
+      verifier a6b142162a3211abd, SUPPORTED-WITH-REVISIONS). Reconstructed the derived operator into a well-posed
+      RADIAL solver, phi an independent player; found+fixed a smuggled kap8=0.05 (kap8=1 is DERIVED). Gate A PASS
+      (localized charge-1, B=1/A matter-kinetic break ~0.07), Gate B PASS (1/R^2 tower + one node-free negative
+      Derrick mode), operator=action's-equation confirmed. CORRECTION banked: NO resolvable scalar hair (conserved
+      charge ~=0; static_soliton's "tiny hair 0.5" was a grid-fit artifact -> NEGATIVES_REGISTRY CONDITIONS-CHANGED).
+      Reinforces "teeth in dynamics." Round limit validates the OPERATOR only.
+    - [ ] **B1'-step1 THE 3-D OFF-ROUND RESIDUAL (NEXT) — the real build:** wire phi into the genuine full3d
+      a,b,c,d off-round machinery; gate its round limit (coupled); then OBSERVE the off-round l>=2 angular sector
+      (where the derived angular obstruction = phi-angular hunch is finally tested on the correct operator).
+      Small-warp here was only a linearized l=2 proxy. DATA-BLIND, anti-hang LOCKED.
 - [ ] **B2 — secondary P-gaps:** P1 static spatial-shear on the EXACT operator; the P5a'/P5b solution-manifold.
 - [x] **B3 — standing imports (verified):** M12 RESOLVED-as-SCOPED (charge-1 native used / catalog parked / import quarantined; no native ladder; M12_winding_bc_closure). M10/M11 RESOLVED (S^2 DEMANDED + blind-verified 2026-06-19; F0 flag was STALE/wrong, RETIRED; texture=artifact; UPGRADES F2; M10_M11_object_identity_closure).
 - [ ] **B4 — SOLVER INFRASTRUCTURE audit** ([[audit-solving-infrastructure]]): engines/solvers/stress for hidden
