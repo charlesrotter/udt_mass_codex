@@ -321,3 +321,70 @@ ONLY the two 2026-06-18 blocks + THE GOAL. Verbatim, for the record:
 > catalog, plus a CLOSED-TIME / non-stationary one to build — NOT a single-cell eigenvalue tower, which is
 > box-controlled); audit it constantly; let structure emerge; match observations; never patch a "no" into
 > a "yes"; and report each result as ONE tile with its regime, never "the capstone."
+
+---
+
+# ARCHIVED 2026-06-20 — superseded HANDOFF frontier blocks (the everything-on-solver arc superseded these)
+
+These blocks were moved out of HANDOFF.md on 2026-06-20 when the live frontier became the EVERYTHING-ON SOLVER
+arc (classical metric = continuum; next = quantize; see HANDOFF.md TOP + STATE.md TOP + memory
+[[everything-on-solver-build]]). Full verbatim detail of the 2026-06-19 blocks also lives in STATE.md TOP + git.
+Preserved here verbatim for the HANDOFF lineage.
+
+## *** 2026-06-19 AFTERNOON FRONTIER [SUPERSEDED] — STEP 1 (FULL COUPLED TIME-LIVE SOLVE) = SCOPED NEGATIVE (#65); PIVOT TAKEN => CATALOG = DISTINCT SECTORS ***
+Read STATE.md TOP (the 2026-06-19 AFTERNOON block) + NEGATIVES_REGISTRY #65. Distilled:
+- VISION Step 1 was taken in FULL ("Build the full coupled solve", Charles-gated = the one shot against the
+  tripwire). MAP-first CAUGHT that a reduced/structural version had already run overnight (time-live REVIVES
+  the dead static operator into a real standing-wave problem — phi-angular hunch gets its carrier, a durable
+  win — but gives {l(l+1) charge-barrier floor + box continuum}, no new tower). The ONE omitted ingredient =
+  the fully-coupled NONLINEAR back-reaction. Charles authorized the shot at it.
+- #65 SCOPED NEGATIVE (pre-registered + blind-verified): native S^2/pi_2 carrier Theta-FREE (r=0 node BC,
+  NO Skyrme import; M_MS=0.281 clean), live time, fully-coupled finite-amplitude back-reaction. The
+  back-reaction is ACTIVE + genuinely nonlinear but SOFTENS the ladder toward a TACHYON (omega^2->0), opens NO
+  new bound level; lowest level stays ~1/R^2 box-controlled. Gate B PASS (grid-converged => real verdict, not
+  a stall). => #44 (one carrier = one particle) confirmed EVEN WITH the back-reaction; tripwire residual CLOSED.
+- Residual scope cost (flagged, non-blocking, = #65 reopener): the live mode was the ROUND radial breather;
+  spatial l>=2 non-roundness reduced to round; the joint nonlinear+l>=2 corner argued-empty via the proxy's
+  LINEARIZED drift finding, not a direct solve (would need a full 3-D live-time solver).
+- THE PIVOT (Charles, "do 1"): retire the "catalog = one carrier's spectrum/tower" template. Catalog
+  frontier = what DISTINGUISHES DISTINCT objects + sets their DEPTHS — distinct charge/winding SECTORS + the
+  free non-stationary/off-diagonal/ensemble DOF (VISION spine §III). Mass-as-cost = the exponential home.
+  Docs: coupled_timelive_solve_CONTRACT.md, coupled_timelive_solve_results.md, coupled_timelive_VERIFIER.md.
+
+## *** 2026-06-19 MORNING FRONTIER [SUPERSEDED] — POSTULATE A ACCEPTED; BOX-TRAP BROKEN; TOWER FRAMING INDICTED => CATALOG REFRAME ***
+Read STATE.md TOP (the 2026-06-19 MORNING block) + memory postulate-A-accepted. Distilled:
+- POSTULATE A ACCEPTED (Charles): UDT = QUANTIZED DILATION-GEOMETRY. Geometry NATIVE; quantization
+  (postulate A = hbar/spin-1/2/statistics ONLY; i=area-form STAYS NATIVE; no SM import) gives discreteness.
+  UDT does NOT derive QM from geometry — "unify cosmology+microphysics is good enough"; door OPEN for later.
+- DURABLE WINS: (1) postulate A BROKE the box-control trap — FIRST intrinsic (non-box) discrete level on the
+  program; spin-1/2 = native area-form. (2) mass-as-COST (B1 Misner-Sharp, not hbar*omega) is EXPONENTIAL +
+  SCALE-FREE + BOX-FREE + INTRINSIC in FORM — the native home for the hierarchy. (cost sees e^{phi}
+  undifferentiated; frequency saw its log-derivative => power-law. The split is the key insight.)
+- THE WALL: every "tower of ONE carrier" route (radial overtones / depth-rungs / nonlinear breather U(D)) gives
+  ~1 stable level then a tachyon at D*; more rungs reintroduce box-control. No multi-rung exponential ladder
+  from one carrier. The depth-selector NON-CLOSURE is blind-verified.
+- REFRAME (confirms #44): one charge-1 cell = EXACTLY ONE particle, NOT a tower. The generations-as-a-TOWER
+  framing is INDICTED. Generations = a CATALOG of distinct stable objects (particle-catalog-frame), masses
+  exponential in their DEPTH DIFFERENCES (mass-as-cost).
+- NEXT (Charles's frame, gated): "what DISTINGUISHES the distinct stable objects + sets their DEPTHS" (the
+  catalog), NOT "what tower". Residual flagged-not-drilled (tripwire): the fully-coupled nonlinear well.
+  Docs: quantized_carrier_structure_results.md, mass_as_cost_ladder_results.md, depth_selector_breather_results.md.
+
+## Prior arc (condensed) [SUPERSEDED]
+The field-equation question (2026-06-18) was chased to ground: it is GR-FORM (f(phi)R departs but is
+Cassini-dead; the running-rate source weight absorbs back to GR); the UDT-vs-GR departure relocated to the
+MATTER coupling a(phi), UNFORCED at the principle level (the native curvature-sector action is still UNBUILT =
+the deepest open Principle-7 item). That triggered the ALGEBRAIC PIVOT (B1 charge-native + mass-as-cost
+exponential; B2 phi-angular non-closure), the time-live solve, then POSTULATE A. CANON C-2026-06-18-1
+(metric from relativity) + C-2026-06-14-1 (B=1/A sourced) + the bare-vacuum no-go's #62/#63/#64 all SURVIVE.
+
+## THE GOAL (post-postulate-A) [SUPERSEDED by the everything-on/quantize frame in HANDOFF TOP + POST_POSTULATE_PROGRAM.md]
+UDT = QUANTIZED DILATION-GEOMETRY: provide the NATIVE geometry (the dilation metric, the area-form charge
+N=3/q=1/3, the standing-wave carrier, the depth/scale) and POSTULATE {hbar / spin-1/2 / statistics; i=area-form
+stays native}; QUANTIZATION supplies the discreteness. Goal = unify cosmology + microphysics by matching
+OBSERVATIONS. (The CATALOG-of-distinct-objects framing was superseded: the everything-on solver showed the
+classical object is ONE soft thing + a continuum; discreteness is the quantization step, not a classical catalog.)
+
+## Read order / NEXT STEP (2026-06-19) [SUPERSEDED — see HANDOFF TOP + INDEX.md 2026-06-20 reading order]
+Old next step was "VISION step 1: the native pi_2, Theta-FREE, time-live non-round CATALOG solve" — that line
+was taken (=> #65, then the reframe, then the everything-on solver build). The live next step is QUANTIZE.
