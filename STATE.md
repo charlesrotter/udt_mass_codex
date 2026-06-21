@@ -197,12 +197,29 @@ RESOLVES the P5c selection-principle question: there is no family to choose amon
 ROUND as THE soft object's ground state; the ~5-7% M_MS scatter is the flat-valley width, not distinct objects.
 So round's M_MS (~0.29-0.31) is the bankable ground-state representative MODULO grid convergence (the few-%
 0.309->0.292 drift Nr12->16). (DERIVE/banking still gated on Charles.)
-NEXT (gated on Charles): with the static object understood (one soft thing, round ground state), the everything-on
-program proceeds to OBSERVE WHAT THE METRIC DOES with everything on = P5c-proper (off-round static physics on the
-round ground state) and P5d (TIME-LIVE free-omega) — where the actual physics (and, per postulate A, the
-discreteness) lives. Families/discreteness come from QUANTIZATION or DISTINCT SECTORS, NOT this one carrier's
-classical basins. Anti-hang LOCKED (single clean process, Nr<=16, recompute-on-saved-fields, dense-LM, NEVER
-background-poll — FOUR+ agents hung on unbounded solves).
+P5d DONE = THE TIME-LIVE OBSERVATION on the round ground state (merged 32c782e; p5d_timelive_results.md +
+p5d_independent_VERIFIER.md, independently blind-verified incl. the decisive off-round test). *** THE ROUND
+OBJECT IS TIME-FROZEN BY BIRKHOFF: its d_t^2 INERTIA operator M is MACHINE-ZERO (||M||/||K||=5e-10) — NO classical
+oscillator on the round channel, NO eigenfrequency, NO tower. *** This is GENUINE Birkhoff physics, NOT a wiring
+bug: the verifier added a non-round warp and ||M|| JUMPED 1.6e-9 -> 8.5e-2 (factor ~5e7) — the d_t^2 content IS
+wired, reaches dGamma[T]->Riemann, and cancels IDENTICALLY on the round diagonal (Birkhoff), SURVIVING off-round.
+- The harmonic-balance time operator is K + omega C - omega^2 M: M=0 (no inertia/oscillator), C = first-order
+  G^t_r MOMENTUM channel (||C||/||K||=0.137, linear in omega, P4c), K rank-deficient (flat directions), global
+  sigma_min at omega=0. Containment: omega->0 = static round ground state. M=0 is R- and resolution-independent.
+- WHY THIS MATTERS: it reveals (beyond #65's reduced proxy) that the round object gives a CONTINUUM not because of
+  a centrifugal accident but because Birkhoff CANCELS its time-inertia. The round (symmetric) object is genuinely
+  time-frozen. *** THE LIVE TIME-DYNAMICS LIVE IN THE OFF-ROUND (l>=2) CHANNEL — the verifier EXHIBITED nonzero
+  classical inertia there (||M||/||K||~0.09-0.12). *** This is the EXPECTED pre-quantization classical result
+  (postulate A: discreteness is a SEPARATE quantization step) — a real observation, not a failure.
+NEXT (gated on Charles): the off-round time-live channel is genuinely where a classical oscillator lives (P5d
+exhibited nonzero M there). TWO forward options: (P5e) the full off-round l>=2 time-live COUPLED solve — does that
+oscillator TOWER (discrete) or BOX-CONTROL (continuum, as #65's reduced proxy suggested)? = the #60-class hardest
+solve, likely throughput-limited. OR (QUANTIZE) apply postulate A to the surviving classical structure (the
+first-order G^t_r momentum channel + K flat directions on the round object) — note: a FIRST-ORDER (not
+second-order/oscillator) structure quantizes differently (phase/constraint-like, possibly the i=area-form/Born
+thread), which may be the more native route than forcing a round oscillator that Birkhoff forbids. Charles's call.
+Anti-hang LOCKED (single clean process, Nr<=16, recompute-on-saved-fields, dense-LM/re-posed-JFNK, NEVER
+background-poll — FIVE+ agents hung on unbounded solves; P5d's own solves were 5-18s, stay there).
 Build contingency (Charles): if solver-limited (the #60 wall at P5), do a thorough GR-numerics-corpus search
 before reinventing (Principle 4).
 
