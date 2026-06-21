@@ -54,7 +54,8 @@ FOUNDATIONAL_ASSUMPTIONS_LEDGER.md. This doc = the actionable checklist.
   lives (the derived-operator angular obstruction). A BUILD (not a bounded re-grade). The key remaining piece for
   a 100%-complete solver. Anti-hang LOCKED.
 - [ ] **B2 — secondary P-gaps:** P1 static spatial-shear on the EXACT operator; the P5a'/P5b solution-manifold.
-- [ ] **B3 — standing imports:** M12 (Theta=m*pi winding BC -> native sector-distinctness mechanism, or formally
+- [x] **B3 — standing imports (verified):** M12 RESOLVED-as-SCOPED (charge-1 native used / catalog parked / import quarantined; no native ladder; M12_winding_bc_closure). M10/M11 RESOLVED (S^2 DEMANDED + blind-verified 2026-06-19; F0 flag was STALE/wrong, RETIRED; texture=artifact; UPGRADES F2; M10_M11_object_identity_closure).
+- [ ] ~~B3 orig~~ — M12 (Theta=m*pi winding BC -> native sector-distinctness mechanism, or formally
   scope it); M10/M11 (S^2-vs-S^3 identity + cos-theta texture — re-settle or confirm).
 - [ ] **B4 — SOLVER INFRASTRUCTURE audit** ([[audit-solving-infrastructure]]): engines/solvers/stress for hidden
   patches/imports/approximations/frozen-DOF; the pole-stable HYBRID (approx) now superseded by the exact operator
