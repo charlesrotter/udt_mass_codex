@@ -21,9 +21,11 @@ box-controls => the **MUST-QUANTIZE conclusion SURVIVES the foundational audit.*
 finite-A) CONVERGED and reproduced box-control WITHOUT STEP-2's three reductions; the verdict now rests on the
 full coupled machinery. Remaining gap = NUMERICS not physics (wide-range R=4..64 gate, Nt>=5, strong coupling, A2
 true-Einstein -> spectral/multidomain/KEH-SCF/pseudo-arclength/JFNK+spectral-PC upgrade plan recorded).
-**FORWARD PATH UNBLOCKED:** quantization (Step B/C) now sits on an AUDITED foundation. NEXT (gated, MAP first):
-quantize, OR close a named residual, OR the remaining F-items (F4/F6/F7/F8; F2 {X^2,L6} mass-ambiguity is
-value-open). FOUNDATIONAL_ASSUMPTIONS_LEDGER.md TOP carries per-item resolutions.
+**NEXT = F4 (the seal/boundary), MAP first (Charles 2026-06-21).** F4 is the LOAD-BEARING CAVEAT under
+"must-quantize": every box-control solve used a generic Dirichlet box, NOT UDT's actual physical seal
+(time-reversal involution at a physical cell radius). A physical cell makes box-modes physical; a non-trivial
+seal BC could give a non-harmonic spectrum — UNTESTED. Check F4 BEFORE quantizing (F6). See FOUNDATIONAL_ASSUMPTIONS_LEDGER.md
+SCOREBOARD (top) for the full resolved/partial/open status + the must-quantize-conditional-on-F4 caveat.
 
 ----- prior TOP (2026-06-21 morning): FOUNDATIONAL-ASSUMPTIONS AUDIT framing (now substantially run) -----
 The forward build (P5e / quantization Step B/C) was PAUSED pending a foundational audit: several recipes the

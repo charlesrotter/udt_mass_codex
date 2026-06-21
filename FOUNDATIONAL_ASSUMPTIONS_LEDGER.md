@@ -9,8 +9,21 @@ make-visible-and-ponder method).
 ## *** SCOREBOARD (2026-06-21, standing state — read FIRST) ***
 At-a-glance status of every F0-audit item. RESOLVED = derived/refuted/quarantined+not-load-bearing;
 PARTIAL = clarified but a gap remains; OPEN = untouched or parked. The audit's CENTRAL question — *was
-"must-quantize" an artifact of assuming GR?* — is **RESOLVED: NO, it survives on the derived, full-coupled
-(P5e-proper) machinery.** The deepest imports are cleared; ~half the items remain.
+"must-quantize" an artifact of assuming GR?* — is **RESOLVED on the GRAVITY-ACTION axis: NO, box-control
+survives on the derived, full-coupled (P5e-proper) machinery.** The deepest imports are cleared; ~half the
+items remain.
+
+*** LOAD-BEARING CAVEAT (Charles 2026-06-21): "must-quantize survives" is CONDITIONAL on F4. *** The
+box-control verdict treated the cell boundary as an ARBITRARY box (scan R -> omega~1/R -> "artifact"). But
+UDT's canon says the cell is PHYSICAL (no spatial infinity) and the seal is a SPECIFIC time-reversal
+involution — which was NEVER imposed as the BC (all box-control solves used a generic Dirichlet box). A
+PHYSICAL finite cell makes box-modes physical (omega_n~n/R_cell IS a discrete spectrum), and a non-trivial
+seal BC could give a NON-HARMONIC spectrum. So F4 is not just an open gap — it is the load-bearing item
+UNDERNEATH the must-quantize conclusion, and it must be checked BEFORE leaning on quantization (F6): you
+don't quantize to OBTAIN discreteness if the physical seal already supplies a classical one. **F4 = NEXT.**
+Which items could change current results/framing (Charles's risk question, 2026-06-21): F6/M12/numerics/
+M10 = additive, won't change results; F5+Hubble/F8 = could shift the COSMIC/off-round framing, not the
+particle box-control; **F4 = could genuinely change the RESULT** (above).
 
 | Item | What it was | Status | Where |
 |---|---|---|---|
@@ -26,7 +39,7 @@ PARTIAL = clarified but a gap remains; OPEN = untouched or parked. The audit's C
 | **M12** imported Skyrme winding BC Theta(core)=m*pi | IMPORT (the m-catalog) | **OPEN (quarantined, NOT replaced)** — used charge-1 native only, parked the ladder; native sector-distinctness mechanism never built | theta_bc_provenance (#61) |
 | **F6** postulate-A / spin-1/2 rides imported metaplectic framework | IMPORT (quantization side) | **OPEN** — untouched; we DEMONSTRATED must-quantize but haven't quantized | quant_stepA_VERIFIER |
 | imported Hubble H0 / rho_crit | IMPORT (cosmic scale) | **OPEN (retracted, native redo deferred)** — anchor set to A=7.004; native recompute with H0 as OUTPUT not done | scale_symmetry_bootstrap §CORRECTION |
-| **F4** finite-cell / seal / boundary (A1 no-spatial-infinity, D1 seal=t->-t, D2 doubling, D3 core removal) | posited structure | **OPEN** — entirely untouched this session | (canon C-10-2) |
+| **F4** finite-cell / seal / boundary (A1 no-spatial-infinity, D1 seal=t->-t, D2 doubling, D3 core removal) | posited structure | **OPEN — *NEXT*; the LOAD-BEARING CAVEAT under must-quantize** (the actual physical seal BC was never imposed in any box-control solve; it could turn box-modes physical / give a non-harmonic spectrum) | (canon C-10-2); see caveat above |
 | **F7** cosmic->particle ~10^40 bridge | known open gap | **OPEN (parked, value-open)** — bootstrap sets the COSMIC scale only | step0_bridge |
 | **M10/M11** S^2-vs-S^3 identity + cos-theta texture | object identity | **OPEN-ish** — used S^2 as given; not re-settled (M10 carries the F0 "unexecuted-settling" caveat) | S2_S3_OBJECT_IDENTITY_MAP |
 | wide-range numerics (box gate airtight) | numerics, not physics | **OPEN (by design)** — Charles's "better numerics" follow-up (spectral/multidomain/KEH-SCF/pseudo-arclength/JFNK+spectral-PC) | P5e_proper §upgrade-plan |

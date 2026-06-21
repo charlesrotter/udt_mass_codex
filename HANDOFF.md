@@ -79,12 +79,18 @@ MORE" — is ANSWERED. The DERIVED vacuum!=GR operator STILL box-controls, NOW o
 foundational audit** (strongly supported; the wide-range statistically-airtight version is a numerical-methods
 task, not a physics gap). ***
 
-**NEXT (gated on Charles): the forward path is UNBLOCKED** — quantization (Step B/C: the native Hamiltonian /
-mass-as-cost on the quantized states) now sits on an AUDITED foundation (derived operator, physical matter,
-redoubt closed on the full coupled machinery). Options: quantize (the original next step, now on firm ground);
-OR the wide-range NUMERICS upgrade to make the box gate statistically airtight; OR remaining F-items (F4 seal/F6
-postulate-A boundary/F7 cosmic->particle bridge/F8; the F2 {X^2,L6} mass-ambiguity is value-open). MAP first;
-DATA-BLIND; anti-hang LOCKED.
+**NEXT = F4 (the seal/boundary) — Charles 2026-06-21, MAP first.** *** F4 is the LOAD-BEARING CAVEAT under
+"must-quantize": *** the box-control verdict treated the cell boundary as an ARBITRARY box (scan R -> omega~1/R
+-> "artifact"), but UDT's canon says the cell is PHYSICAL and the seal is a SPECIFIC time-reversal involution
+that was NEVER imposed as the BC. A physical finite cell makes box-modes physical (omega_n~n/R_cell IS discrete);
+a non-trivial seal BC could give a NON-HARMONIC spectrum. So F4 must be checked BEFORE quantization (F6) — you
+don't quantize to OBTAIN discreteness if the physical seal already supplies a classical one. F4 work: (a) is the
+seal/finite-cell DERIVED or posited, and what forces seal=time-reversal? (b) THE decisive test — impose the
+ACTUAL seal BC (not a generic box) in the time-live solve and see if the spectrum stays box-control/continuum or
+becomes a physical (possibly non-harmonic) discrete spectrum. (Counter-weight, honest: box-modes are a trivial
+harmonic ladder + the cell size isn't natively pinned at particle scale (F7) — so it likely doesn't fully rescue
+a classical spectrum, but the non-trivial seal BC is UNTESTED.) AFTER F4: quantize (F6, on firm ground), the
+wide-range numerics, or the other F-items (F5/F7/F8; F2 {X^2,L6} value-open). MAP first; DATA-BLIND; anti-hang LOCKED.
 
 ## *** 2026-06-21 (EARLIER) — FOUNDATIONAL-ASSUMPTIONS AUDIT (Charles's zoom-out; now SUBSTANTIALLY RUN — see the EVENING block above) ***
 Charles paused the forward build to audit the foundational assumptions the program rests on — several were
