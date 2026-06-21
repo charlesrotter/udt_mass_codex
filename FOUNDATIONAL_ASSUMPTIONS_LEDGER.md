@@ -28,6 +28,27 @@ the right gaps; refinements banked:
 F2 confirmed OPEN (L4 native+blind-verified, but L2+L4 completeness/forced-ness NOT established). Full
 NEW-item list (N1–N8, M-rows, D-rows, A1) in the results doc.
 
+## F1+F3 IN PROGRESS (2026-06-21) — the universal weight is DERIVED (verified)
+See native_dilation_weight_derivation_results.md. Gated DERIVE taken (Charles's go). The relativistic
+principle's R1 ("no privileged position"), applied to the ACTION as invariance under a global depth-shift
+phi->phi+const, PINS the universal weight. Derived twice independently + adversarially verified
+(SUPPORTED-WITH-REVISIONS):
+- **FORCED:** depth-field kinetic + gradient-curvature weight = e^{+2phi}; rest-mass coupling
+  a(phi)=e^{+phi} (the NO-ANOMALY terrestrial value, static worldline); R2->pure-exponential,
+  R3 sources the +2. **a(phi) is NOT -1** — F3 is answered: the coupling is fixed by the same rule that
+  fixes the geometry weight (F1 and F3 untie TOGETHER, as predicted).
+- **BIRKHOFF BROKEN:** with the non-constant weight + two independent players, vacuum != GR (box f
+  survives, robust to the power). **The classical-continuum 'must-quantize' headline is REOPENED** — the
+  classical metric does MORE than freeze (structural door; discreteness still a separate solver question).
+- **CASSINI:** the old f(phi)R gamma=9 death does NOT transfer (different exponent, intrinsic bare kinetic,
+  phi unslaved). A healthy Cassini-passing window exists at X large NEGATIVE (no-ghost + Cassini).
+- **THE OBSTRUCTION (lands on the phi-angular hunch):** the depth-rule CANNOT wash out the transverse/
+  ANGULAR curvature (and, same root=reciprocity, the TIME-live kinetic sector). Angle + time are the only
+  sectors a physical depth-scale can enter — a hard SYMMETRY obstruction in the action, from first principles.
+- **OPEN FORKS:** (1) angular potential — GAUGE it away (Branch G, clean scalar-tensor) vs KEEP it physical
+  (Branch P, the hunch); CHARACTERIZING BOTH next (Charles 2026-06-21). (2) what fixes the kinetic/curvature
+  ratio X within the healthy window. New named premise P7' (shift acts at fixed invariant orbit-area).
+
 ## THE KEY LINKAGE (read first)
 The program's central result — *"the CLASSICAL metric is a continuum (no classical discreteness) => we
 MUST quantize"* — is CONDITIONAL on this whole stack. Birkhoff (-> round frozen -> continuum) is a
