@@ -22,7 +22,26 @@ below + **POST_POSTULATE_PROGRAM.md**. The reframe that opened this arc: the VIS
 contaminated/classical-solver negatives for a map of the metric; microphysics is UNENTERED, not walled; the
 pre-postulate negative corpus is RETIRED. Full detail in STATE.md TOP + git. This file holds the live frontier.
 
-## *** 2026-06-20 LIVE FRONTIER — THE EVERYTHING-ON SOLVER IS BUILT; CLASSICAL METRIC = CONTINUUM; NEXT = QUANTIZE (read FIRST) ***
+## *** 2026-06-21 LIVE FRONTIER — FOUNDATIONAL-ASSUMPTIONS AUDIT (Charles's zoom-out; read FIRST) ***
+Charles paused the forward build to audit the foundational assumptions the program rests on — several were
+carried SILENTLY (the deepest: the gravity-side curvature action was assumed = GR's Einstein-Hilbert through
+ALL of P1-P5d; "vacuum=GR" is built-in, not derived). THE KEY LINKAGE: the central result ("classical metric =
+continuum => must quantize") is CONDITIONAL on this whole stack (Birkhoff is a curvature-action theorem, etc.) —
+if a foundational recipe is genuinely different under UDT, the classical metric may do MORE, and we'd need less
+quantization or none. So this audit is logically PRIOR to more solver/quantization work, and most items are
+ANALYTIC (cheaper than the throughput-walled solver). Solver machinery is operator-agnostic/REUSABLE if a recipe
+changes (modify-the-operator + re-run-the-physics, not a rebuild).
+LEDGER = **FOUNDATIONAL_ASSUMPTIONS_LEDGER.md** (F0-F8, each a TASK to be discussed): F0 systematic audit (cheap,
+completes the list); F1 curvature action (deepest; assumed GR; MAP target); F2 matter action L2+L4 (the twin —
+derived or assembled?); F3 a(phi) coupling (a=-1 silently used everywhere); F4 finite-cell/seal/boundary
+(posited); F5 critical-universe frame; F6 postulate-A boundary (admitted; spin-1/2 rides imported framework);
+F7 scale bridge (open gap); F8 metric-form embedded choices. Proposed order: F0 -> F1+F2 (deepest twins, prior
+to P5e) -> F3 -> rest as they bear. EACH GATED ON CHARLES (discuss before derive/build).
+NEXT-AFTER-FOUNDATIONS (deferred, not abandoned): P5e (fully-coupled time solve, EVERYTHING_ON_SOLVER_P5e_MAP.md)
++ the quantization Step B/C (Hamiltonian/mass-as-cost on the quantized states) — both wait on the foundational
+audit, because both build on the assumed curvature operator.
+
+## *** 2026-06-20 — THE EVERYTHING-ON SOLVER IS BUILT; CLASSICAL METRIC = CONTINUUM; QUANTIZATION STEP A DONE [context for the audit above] ***
 Read STATE.md TOP (the 2026-06-20 blocks) + memory [[everything-on-solver-build]] + POST_POSTULATE_PROGRAM.md.
 THE BIG PICTURE (this arc's result): we built ONE clean everything-on solver (all DOF live, native S^2 matter,
 a(phi), live time, scalable JFNK) and OBSERVED what the metric does. *** THE CLASSICAL METRIC GIVES A CONTINUUM,

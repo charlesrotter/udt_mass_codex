@@ -1,5 +1,17 @@
 # STATE — Frontier Snapshot
 
+*** 2026-06-21 TOP: FOUNDATIONAL-ASSUMPTIONS AUDIT is the live frontier (Charles's zoom-out). ***
+The forward build (P5e / quantization Step B/C) is PAUSED pending a foundational audit: several recipes the
+program rests on were carried SILENTLY — deepest = the gravity-side CURVATURE ACTION assumed = GR through all of
+P1-P5d ("vacuum=GR" is built-in, not derived). KEY LINKAGE: the central result "classical metric = continuum =>
+must quantize" is CONDITIONAL on this stack (Birkhoff is a curvature-action theorem) — a different recipe could
+make the classical metric do MORE. Ledger = FOUNDATIONAL_ASSUMPTIONS_LEDGER.md (F0-F8, each a task to discuss;
+F0 cheap audit -> F1 curvature + F2 matter action [twins, prior to P5e] -> F3 a(phi) -> rest). Largely ANALYTIC,
+logically prior to more solver work. Solver machinery is operator-agnostic/reusable if a recipe changes. See
+HANDOFF.md TOP. (The 2026-06-20 everything-on-solver + Quant-Step-A frontier below is now CONTEXT for this audit.)
+
+----- prior STATE (2026-06-20) -----
+
 Maintained by the project driver; update at every session close.
 Last update: 2026-06-20 — *** EVERYTHING-ON SOLVER BUILT + QUANTIZATION STEP A DONE *** (see HANDOFF.md TOP for
 the distilled live frontier — read it first). Arc summary: built ONE clean everything-on solver (P1 off-diagonals
