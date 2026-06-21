@@ -136,12 +136,29 @@ energy-minimizer finding ([[gravitating-soliton-stability-test]]) — m>=2 was a
 shows the 3-D solve is multi-basin more broadly. BOUNDED: the spread is ~5-7% within the established 0.28-0.31
 band (consistent with the radial #56 M_MS~0.29-0.30), not wild. JFNK scalability NOT recovered (dense-LM only at
 Nr>=16; matrix-free can't floor in budget).
-NEXT (gated on Charles — a PONDER/fork): the forward path is the SELECTION PRINCIPLE. Options: (a) characterize
-the basins (how many, are high-Theta/large-amplitude branches spurious by a physical criterion) + Nr=24 seed
-sweep; (b) add a DERIVED selection principle — energy minimization / STABILITY (criterion 9, the phase3b
-energy-minimizer/continuation lesson) / continuation from a known limit / Theta regularity. NOT P5d/P5e until a
-unique physical solution can be pinned. Anti-hang LOCKED: single clean process, bounded grids (Nr<=24) + iter
-caps, dense-LM (jacrev+lstsq) is the flooring tool, NEVER background-poll (3 agents hung on unbounded solves).
+P5c-step-2 DONE = the BASIN CHARACTERIZATION (Charles chose characterize-first; merged 03bf6e7; p5c_basins_results.md
++ p5c_basins_VERIFIER.md, blind-verified SOUND). The basin map of the committed 3-D coupled residual (FREE
+full-space solve, m=1, charge-1, 6 seeds):
+- >=5 distinct PHYSICAL basins at Nr=12 (round 0.309, oblate 0.405, pert_s 0.375, prolate 0.440, toroidal 0.541)
+  + 1 SPURIOUS runaway (pert_L: M_MS 43.7, |S|~1e8, Theta out of [0,pi], warps 14 — flagged by a pre-stated
+  10x-loose criterion that hits ONLY pert_L). Genuinely distinct wells (0.17-0.42 apart in Theta itself, not
+  gauge). Multiplicity does NOT collapse with Nr (spread GROWS 75%@Nr12 -> 104%@Nr16) — confirms step-1; the
+  "single-valued free anchor" was a one-seed artifact.
+- *** THE KEY FINDING (verifier-confirmed, independent energy recompute matched to MACHINE ZERO): the ROUND
+  basin is SIMULTANEOUSLY the lowest-ENERGY (native matter action |S|, clear 39% gap), the most-REGULAR
+  (axisym psivar~0, monotone Theta, smallest warps), AND the only resolution-robust branch (0.309->0.292).
+  Energy-min and regularity COINCIDE on the SAME branch -> a candidate for "the particle" emerges UNIMPOSED. ***
+- => SELECTION PRINCIPLE identified + validated: ENERGY-MINIMIZATION (native, the matter action; no imported
+  mechanism), corroborated by regularity/symmetry, with continuation-from-a-known-limit (kap8->0/p->0) as the
+  rigorous pin and a coupled-Hessian STABILITY check AFTER selection (= completeness criterion 9; the phase3b
+  energy-minimizer+continuation tool, now re-derived natively). matter_action has a cosmetic RETURN bug (undefined
+  var in the return packaging, NOT the action value) — flag/fix when convenient.
+NEXT (gated on Charles): BUILD the selection principle = an energy-minimizer over a WIDER seed sweep (global-min
+was over 6 seeds only; widen before banking) + continuation pin + post-selection coupled-Hessian stability ->
+pin the UNIQUE physical m=1 solution -> THEN M_MS is bankable -> THEN P5c-proper (off-round static) / P5d
+(time-live) can proceed on a unique solution. Still NOT bankable until the principle pins one branch.
+Anti-hang LOCKED: single clean process, bounded grids (Nr<=24)+iter caps, dense-LM (jacrev+lstsq) the flooring
+tool, recompute-on-saved-fields where possible, NEVER background-poll (FOUR agents hung on unbounded solves).
 Build contingency (Charles): if solver-limited (the #60 wall at P5), do a thorough GR-numerics-corpus search
 before reinventing (Principle 4).
 
