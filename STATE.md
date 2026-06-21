@@ -1,7 +1,29 @@
 # STATE — Frontier Snapshot
 
 Maintained by the project driver; update at every session close.
-Last update: 2026-06-19 (LATE+) — everything-on solver build STARTED: *** P1 DONE + verified *** (off-diagonals
+Last update: 2026-06-20 — *** EVERYTHING-ON SOLVER BUILT + QUANTIZATION STEP A DONE *** (see HANDOFF.md TOP for
+the distilled live frontier — read it first). Arc summary: built ONE clean everything-on solver (P1 off-diagonals
+wired -> P2 native S^2 matter EL 3-D+full-metric -> S^2-vs-S^3 settled=S^2 -> P3 a(phi) ruler weight -> P4 live
+time row -> P5 driver JFNK-rescued-by-re-pose) and OBSERVED what the metric does. *** THE CLASSICAL METRIC GIVES
+A CONTINUUM, period — NO classical discreteness (round Birkhoff-frozen M=0; off-round box-controlled, verified
+incl. 3-cell high-mode persistence; the one object is SOFT, not a family — Charles's family question ANSWERED
+no). => discreteness REQUIRES quantization (postulate-A frame DEMONSTRATED on the clean operator). ***
+QUANTIZATION STEP A (geometric/area-form, blind-verified): NATIVE LEAD CONFIRMED — quantizing UDT's OWN area form
+gives INTRINSIC, CELL-INDEPENDENT discreteness (the FIRST route escaping the box-control trap; omega_H1 IS the
+S^2 symplectic form; area 4pi topological, dA/dR=0 survives the hardest attack). New UDT content = identification
++ cell-independence + unification (one object = charge + i + symplectic + spin). VERIFIER CORRECTION: "spin-1/2
+DERIVED / boundary beaten" was OVER-CLAIMED — it rides the imported metaplectic framework (generic to any S^2);
+spin-1/2 REMAINS a postulate. The discreteness MATH is textbook S^2 quantization; the native content is WHERE it
+lands. *** NO Hamiltonian / NO mass spectrum in Step A (k-ladder = spin/area, not a mass tower). ***
+NEXT (gated on Charles): STEP B/C = the actual physics test — put the native Hamiltonian / mass-as-cost on the
+quantized states; does a discrete MASS spectrum emerge + does its STRUCTURE hold? Re-apply the Q-source tripwire
+(intrinsic vs cell) to any energy/mass level; DATA-BLIND; gated DERIVE for wall-number comparison; MAP first.
+CAPABILITY GAP carried (HANDOFF): the solver is static+small-vibration, NOT fully-coupled-time (build only if a
+mismatch points there). Anti-hang LOCKED (bounded, single process, never background-poll — SIX+ agents hung).
+Docs: QUANTIZATION_MAP.md, quant_stepA_geometric_results.md + _VERIFIER. Full detail below + git.
+
+----- prior header (2026-06-19 LATE+) -----
+everything-on solver build STARTED: *** P1 DONE + verified *** (off-diagonals
 wired into the field equations, STANDS with caveats; see TOP block). Context = the *** REFRAME: MICROPHYSICS IS
 UNENTERED, NOT WALLED *** (Charles). The
 VISION mistook a graveyard of contaminated/classical tools for a map of the metric. Under the postulate
@@ -234,12 +256,11 @@ in the off-round channel before quantization — SOUND + COMPLETE on the clean o
 off-round box-controlled (this gate). DISCRETENESS REQUIRES QUANTIZATION. This CONFIRMS the postulate-A frame
 ([[postulate-A-accepted]]) on the clean operator: "you were trying to get a quantum result classically" is now
 DEMONSTRATED, not asserted. ***
-NEXT (gated on Charles): QUANTIZE (postulate A). The substrate quantization inherits: a box-controlled classical
-continuum (round AND off-round) + the surviving FIRST-ORDER G^t_r momentum/phase channel + K's flat directions on
-the round object. NATIVE LEAD: the round object's surviving structure is FIRST-ORDER (phase/constraint-like), which
-quantizes differently than an oscillator (possibly the i=area-form / Born thread [[udt-derives-sm-assumptions]]) —
-likely the more native route than a round oscillator Birkhoff forbids. Anti-hang LOCKED (single clean process,
-Nr<=16/24 fixed-bg eigenproblems are cheap 14-22s, NEVER background-poll — SIX+ agents hung on unbounded solves).
+NEXT — [SUPERSEDED: quantization STEP A is now DONE; see STATE TOP block. The native lead (geometric/area-form
+quantization) was CONFIRMED — intrinsic cell-independent discreteness; next = Step B/C, the Hamiltonian/mass-as-cost
+on the quantized states.] The original next-step text follows for lineage: QUANTIZE (postulate A); the substrate
+inherits the box-controlled continuum + the first-order G^t_r phase channel + K's flat directions; native lead =
+the first-order/phase structure quantizes via the area form (i=area-form / Born thread).
 Build contingency (Charles): if solver-limited (the #60 wall at P5), do a thorough GR-numerics-corpus search
 before reinventing (Principle 4).
 

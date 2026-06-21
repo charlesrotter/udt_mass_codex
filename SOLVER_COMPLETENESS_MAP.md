@@ -135,9 +135,16 @@ soliton; large-N QCD is classical) — coherent with no quantum layer. [[no-pres
       metric gives a CONTINUUM, period => DISCRETENESS REQUIRES QUANTIZATION (postulate A confirmed on the
       clean operator, not asserted). Ceiling: fixed-bg+structural, not fully-coupled P5e (won't change it:
       #65 coupling softens; box-mode geometric).
-- [ ] QUANTUM (postulate-A) discreteness — the NEXT step; quantize the box-controlled continuum + the
-      surviving first-order G^t_r momentum/phase channel + K flat directions. First-order structure may
-      quantize phase/constraint-like (i=area-form/Born thread), not as a Birkhoff-forbidden round oscillator.
+- [R] QUANTUM (postulate-A) discreteness, STEP A DONE (geometric/area-form, verified): NATIVE LEAD CONFIRMED —
+      quantizing UDT's OWN area form gives INTRINSIC, CELL-INDEPENDENT discreteness (omega_H1 = the S^2 symplectic
+      form; area 4pi topological, dA/dR=0; escapes the box-control trap — the FIRST route to do so). New UDT
+      content = identification + cell-independence + unification (one object = charge+i+symplectic+spin). CORRECTED:
+      the discreteness MATH is textbook S^2 quantization; "spin-1/2 derived/boundary beaten" was OVER-CLAIMED (rides
+      the imported metaplectic framework; spin-1/2 REMAINS a postulate). NO Hamiltonian/mass spectrum (k-ladder =
+      spin/area). | quant_stepA_geometric.py
+- [ ] QUANTUM discreteness STEP B/C (the actual physics test) — put the native Hamiltonian / mass-as-cost on the
+      quantized states; does a discrete MASS spectrum emerge + structure hold? Re-apply Q-source tripwire to any
+      energy/mass level (intrinsic vs cell). DATA-BLIND; gated DERIVE for wall-number comparison. MAP first.
 - [!] PRECISION-loop physics (g−2, Lamb shift, DIS, running coupling) — the hard BILL; needs a
       DYNAMICAL/response solver (not the static one) + the reverse-engineer-from-quantum-math strategy
       (stochastic quantization / Madelung / ℏ-loop / effective action / RG↔DILATION first). UNTESTED.
