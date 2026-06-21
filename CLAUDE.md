@@ -199,10 +199,14 @@ redirect (nonstationary weld sector / transfer ladder / ensembles).
 
 ## Orientation
 
-- **VISION_POST_POSTULATE.md is the live FORWARD PLAN** (2026-06-19): the compiled
-  repo-wide recon + the post-postulate-A vision (UDT = quantized dilation-geometry;
-  the catalog hypothesis; the ordered path; the risks). Read it after "How we work".
-- Load STATE.md first (frontier snapshot), then INDEX.md (repo map).
+- **HANDOFF.md TOP is the live frontier** (2026-06-21: the FOUNDATIONAL-ASSUMPTIONS
+  AUDIT — F0-F8 in FOUNDATIONAL_ASSUMPTIONS_LEDGER.md; the forward build P5e/quantization
+  is paused pending it). Read it first after "How we work".
+- **POST_POSTULATE_PROGRAM.md** is the corrected program (supersedes VISION_POST_POSTULATE.md,
+  which is now historical). **SOLVER_COMPLETENESS_MAP.md** is the live solver instrument.
+- Then STATE.md TOP (frontier snapshot), then INDEX.md (repo map).
+- The everything-on solver build (the recent arc): memory [[everything-on-solver-build]] +
+  the EVERYTHING_ON_SOLVER_*_MAP / p1..p5* / quant_stepA / offround_classical_* docs.
 - Main research record: negative_phi_native_geometry.md (31k lines,
   pre-spectrum) and particle_spectrum_native_geometry.md (spectrum stage).
 - Audit/prosecution record: mass_emergence_canonical_geometry.md
