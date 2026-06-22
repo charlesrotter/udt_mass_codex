@@ -84,8 +84,15 @@ exp-clamp tripwire; replace 3-row edge excision with a real boundary.
   spectral differentiation, grows with N). FIX: analytic general Christoffel/Einstein codegen (einstein_3d_general_*),
   carries shear + time-row, machine-exact formula, ~1e-12..1e-14 vs diagonal-analytic, N-CONVERGENT. Edge-mask DROPPED
   (engine clean at edges). BANKED LIMITATION: d_t=0 stationary (Stage 5 regenerates with live ∂_t).
-- **S2:** free matter — S^2 unit field as independent target-angle fields(r,th,ps) + |n|=1 constraint; reuse
-  MAT.stress_tensor/lagrangian/field_metric (general) + autograd-EL (extends to bigger DOF free). Retire codegen EL.
+- **S2 — REFRAMED (2026-06-21, verified):** the free-matter build surfaced + a data-blind re-derivation/blind
+  verifier CONFIRMED that the derived-operator soliton corpus ran the IMPORTED S^3/pi_3 Skyrme baryon (body
+  BC-held); UDT's NATIVE matter is the S^2/pi_2 winding (n=x/r), UNSOLVED on the derived operator
+  (matter_object_identity_native_vs_import_results.md). free_s2_matter.py built (machinery reusable) but its
+  gate was vs n=x/r — fine, since n=x/r IS the native object. **S2 deliverable = SOLVE the native S^2/pi_2
+  object (n=x/r, NO imported baryon BC) on the derived operator** — does it form a stable localized object
+  (size from geometry/weight, NOT a matter lump), and what is its gate (box-control or structure)? This is the
+  decisive open item + the genuine native matter stage. Reuse MAT.stress/lagrangian/field_metric + autograd-EL;
+  codegen EL retired. THEN the round gate / box-control get re-derived on the NATIVE object.
 - **S3:** free areal chart (r^2,sin^2 prefactors -> solved DOF) + gauge-fixing (radial + angular coord freedom).
 - **S4:** assemble COMPLETE STATIC solver (shear+free-chart+free-phi+free-matter); validate round/diagonal limits
   recover banked gates; bounded run.

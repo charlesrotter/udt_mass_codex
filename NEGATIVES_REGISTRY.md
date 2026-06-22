@@ -14,6 +14,22 @@ demonstration of why this registry exists.
 
 ---
 
+## *** 2026-06-21 OBJECT-IDENTITY SCOPING (verified; large — re-scopes the derived-operator soliton corpus) ***
+
+**The derived-operator soliton corpus is SCOPED to the IMPORTED S³ baryon (Object A); UDT's NATIVE S²
+matter is UNSOLVED on the derived operator.** Re-derivation + blind verification
+(matter_object_identity_native_vs_import_results.md; re-deriver a1e6f30e0156bd566, verifier a5d8a017511eda669,
+SUPPORTED-WITH-REVISIONS) established: the matter object that `static_soliton_rerun`, the **round gate**
+(b1prime_round_gate; Gate A, the B=1/A matter-kinetic break, the box-control 1/R² tower, the single negative
+Derrick mode), **STEP2**, **P5e-proper**, and the **B1' off-round slices** all solved is the **S³/π₃ Skyrme
+baryon**, whose radial BODY is held ENTIRELY by the IMPORTED winding BC Θ(core)=π (free the BC -> the native
+field rolls to vacuum; no native term holds the profile — verified TEST 2). UDT's NATIVE matter is the S²/π₂
+winding (CANON C-2026-06-14-1), which has NEVER been solved on the derived operator. These results STAND as
+statements about the imported S³ object but are **CONDITIONS-CHANGED w.r.t. UDT's native matter** — flagged,
+NOT blocking, pending the native-S² solve (the decisive next step). NB the must-quantize / box-control line
+inherits this scope: it was demonstrated on Object A; the native-S² gate is open. (Mechanism note: the body is
+BC-held, NOT — as first claimed — L4-import-held; the kinetic body is in L2, native L4 is not blind.)
+
 ## *** 2026-06-21 BANKED-RESULT CORRECTION (not a negative; logged here per Charles's instruction) ***
 
 **`static_soliton_rerun_derived_operator_results.md` — "tiny 1/r scalar hair q.|X|~0.5" is CONDITIONS-
