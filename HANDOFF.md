@@ -22,6 +22,37 @@ below + **POST_POSTULATE_PROGRAM.md**. The reframe that opened this arc: the VIS
 contaminated/classical-solver negatives for a map of the metric; microphysics is UNENTERED, not walled; the
 pre-postulate negative corpus is RETIRED. Full detail in STATE.md TOP + git. This file holds the live frontier.
 
+## *** 2026-06-22 — THE NATIVE-MATTER ARC + COMPLETE-SOLVER BUILD (read FIRST; supersedes the NIGHT/B1' blocks below) ***
+The Phase-B off-round work (B1') opened a foundational arc. Read order: this block -> COMPLETION_PROGRAM.md
+(THE COMPLETE 4-D SOLVER BUILD PROGRAM) -> the named results docs -> FOUNDATIONAL_ASSUMPTIONS_LEDGER scoreboard.
+All blind-verified + committed this session. THE ARC (each its own results doc):
+1. **Round gate CLEANED + banked** (b1prime_round_gate_derived_operator_results.md): found+fixed a smuggled
+   kap8=0.05 (kap8=1 DERIVED); CORRECTED the static_soliton "tiny hair" -> NO resolvable scalar hair (grid-fit
+   artifact; registry CONDITIONS-CHANGED).
+2. **STAGE 1 (the gating numerical problem) DONE + verified** (complete_solver_stage1_general_einstein_results.md):
+   the general CORE.einstein is N-DIVERGENT on the steep core (nested spectral diff) -> built an ANALYTIC general
+   Christoffel/Einstein engine (einstein_3d_general_*) that is shear+time-row capable, machine-exact, N-convergent.
+   This UNBLOCKS the whole complete solver (every prior residual was secretly diagonal). d_t=0 caveat (Stage 5 regen).
+3. **MATTER OBJECT IDENTITY re-derived + verified** (matter_object_identity_native_vs_import_results.md):
+   *** the round-gate/static_soliton/STEP2/P5e soliton is an IMPORTED S^3 Skyrme baryon; its BODY is held by the
+   imported winding BC. UDT's NATIVE matter is the S^2/pi_2 winding (CANON C-2026-06-14-1). *** The box-control/
+   must-quantize line was on the IMPORTED object (registry SCOPED).
+4. **NATIVE S^2 matter SOLVED on the derived operator (first ever)** — rigid (native_s2_object_..._results.md) +
+   twist-freed (native_s2_twist_freed_...) + off-round twist x shear coupled (native_offround_twist_shear_results.md),
+   all verified: **UDT's native matter is a scale-free global-monopole DEFECT, not a localized particle, in EVERY
+   STATIC configuration played** (rigid, radial-twist=flat-Goldstone, and the decisive constraint-respecting coupled
+   off-round twist x shear re-solve = mass RISES, 12 unbiased seeds all uphill -> defect STABLE). The matter strains
+   toward an off-round body but gravity wins on-constraint. Core: structurally self-regulated by the derived phi-hair
+   (q>0 DERIVED), ~1/|X|-weak. The localized particle/size/B!=1/A break were ALL the import.
+*** THE LIVE FRONTIER = TIME-LIVE / NON-STATIONARY native S^2. *** Every native-matter solve so far is STATIC. The
+project's STANDING HUNCH places discreteness at the closed-time/non-stationary sector (not the static metric) — and
+that is now the one major UNTESTED instrument. The complete-solver build's remaining stages (S2 full 2-angle matter,
+S3 free chart, S4 assemble, **S5 TIME-LIVE** [regen the engine with live d_t], S6 run) all converge here. NEXT =
+build the time-live native S^2 object (the orchestra's time instrument). Anti-hang LOCKED (the analytic engine + the
+bounded coupled-solve recipe are proven this session; the FD-Jacobian 9-field solve costs ~120-240s/grid — bound it).
+Memory: [[full-dimensional-complete-solver]] (BOUND grid, never FREEZE a DOF), [[gravitating-soliton-stability-test]]
+(constraint-respecting coupled re-solve, never off-constraint stiffness — the method that resolved the off-round null).
+
 ## *** 2026-06-21 NIGHT — COMPLETION PROGRAM UNDERWAY (read FIRST) ***
 Charles's directive: FINISH every F-item (no hanging threads, even substantially-done ones), THEN audit solvers +
 previous results top-to-bottom; goal = a CLEAN, PHYSICS-CORRECT SOLVER before the next level (quantize, etc.).
