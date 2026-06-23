@@ -57,7 +57,15 @@ becoming a NEW import surface (Charles's embedding-risk catch).
   Charles (lay): build P2 on the a=-1 baseline the operator ACTUALLY realizes (machinery now, derived version at
   migration) vs. treat the curvature fork + matter weight as gated PHYSICS to resolve first. L_m is MINIMAL-BUT-NOT-
   UNIQUE (F2: {L2,L4} core + optional {X²,L6}). Recon agent trail in this session; no codegen written yet.
-- **P3-P5 remain:** P3 disciplines-as-skills, P4 cross-model verify (ruling: fresh zero-context Claude), P5 LIVE.md shrink.
+- **P3 DONE + committed.** Factored the binding disciplines into 4 auto-loading skills (each <=1 screen) in
+  `.claude/skills/`: **solver-first** (mismatch->SOLVER four-question protocol), **verifier-before-record** (clean
+  blind-pass requirements), **no-shortcuts** (anti-import/anti-freeze checklist + `pytest tests/`), **completeness-map**
+  (ten criteria + standing questions). CLAUDE.md POINTS to them but KEEPS the short tripwires INLINE (skills lazy-load
+  their body; only the description is always-in-context — so the binding rules stay always-loaded; Charles-agreed
+  design). Fresh session auto-discovers them (confirmed via claude-code-guide; takes effect next session since
+  `.claude/` is new). Record = **p3_discipline_skills_results.md**.
+- **P4-P5 remain:** P4 cross-model verify (ruling: fresh zero-context Claude; documented flag; log disagreement),
+  P5 LIVE.md shrink. Then the integrity arc is complete and the physics frontier (time-live native S^2) resumes.
 
 ## *** 2026-06-22 — THE NATIVE-MATTER ARC + COMPLETE-SOLVER BUILD (read FIRST; supersedes the 2026-06-21 NIGHT/B1'/EVENING blocks, now in HANDOFF_ARCHIVE.md) ***
 The Phase-B off-round work (B1') opened a foundational arc. Read order: this block -> COMPLETION_PROGRAM.md

@@ -15,7 +15,11 @@ operator + flips the 5 P1 xfails green). P2 DONE + committed, blind-verified (ca
 tests/test_operator_from_action.py (matter stress PROVEN == Hilbert variation ~1e-15; gravity two engines agree
 no-drift; matter field-EOM CONSISTENCY converging ~0.4%; residual=G-κ8T regression-lock; catch-proof bites). Record =
 p2_operator_from_action_results.md. The P1 xfails + P2 baseline = the migration's acceptance tests. Full suite now
-16 passed / 5 xfailed. P3-P5 remain. ***
+16 passed / 5 xfailed. P3 DONE + committed: the binding disciplines factored into 4 auto-loading skills
+(.claude/skills/: solver-first, verifier-before-record, no-shortcuts, completeness-map; CLAUDE.md points to them but
+KEEPS the tripwires inline — skills lazy-load body, description always in context). Record = p3_discipline_skills_results.md.
+P4 (cross-model verify) + P5 (LIVE.md shrink) remain, then the integrity arc completes and the time-live native S^2
+physics frontier resumes. ***
 
 *** 2026-06-22 TOP (LIVE — supersedes everything below; verified + pushed github 25e1e6f): THE NATIVE-MATTER ARC. ***
 The Phase-B off-round build (B1') opened a foundational arc; full distilled frontier = HANDOFF.md TOP (2026-06-22

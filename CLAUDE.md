@@ -116,6 +116,23 @@ verifier catches errors/assembly. The method does not remove this; it moves
 the catching-surface EARLIER by front-loading the frame-map + premise
 ledger so Charles steers at the assumption stage, not after the build.
 
+## Discipline skills (full-form protocols — P3, 2026-06-23)
+
+The binding disciplines above are kept INLINE here as short tripwires (always in context). Their
+EXPANDED, self-contained full-form lives as auto-loading skills in `.claude/skills/` — invoke the
+relevant one at the relevant moment (the inline tripwire is the trigger, the skill is the protocol):
+- **`solver-first`** — the mismatch -> SOLVER-not-MECHANISM four-question protocol (run on any
+  result far from observation, BEFORE reaching for a mechanism).
+- **`verifier-before-record`** — what a clean blind adversarial pass requires (run before committing
+  ANY result; fresh zero-context, re-run, hunt false passes, redo the catch-proof, verdict).
+- **`no-shortcuts`** — the anti-import/anti-freeze checklist + `python3 -m pytest tests/` (the P1+P2
+  purity harness; run when building/editing solver code or before banking a result).
+- **`completeness-map`** — the ten completeness criteria + standing questions (run every push;
+  every result is ONE tile). Instrument = SOLVER_COMPLETENESS_MAP.md.
+
+(Skills are the expandable text; the inline tripwires remain binding and always-loaded — the skills
+do NOT replace them, they unfold them on demand.)
+
 ## Session workflow
 
 - **Maximize the use of subagents to preserve main context** (Charles,
