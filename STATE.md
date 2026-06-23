@@ -34,8 +34,11 @@ REMAINING after: B2 secondary P-gaps, B4 solver-infra audit, B5 previous-results
 Tracker = COMPLETION_PROGRAM.md; status = FOUNDATIONAL_ASSUMPTIONS_LEDGER.md SCOREBOARD. Discipline =
 [[infrastructure-first-not-exciting-stuff]]. The EVENING arc below is the substantive frontier that got us here.
 
-*** READER NOTE (handoff inoculation): ONLY the 2026-06-21 blocks (this NIGHT block + the EVENING block) are LIVE.
-EVERYTHING BELOW them is append-only HISTORICAL record. Any "(LATEST)" / "NEXT SESSION" / "QUEUE FOR NEXT SESSION"
+*** READER NOTE (handoff inoculation, updated 2026-06-23): ONLY the 2026-06-22 TOP block (the NATIVE-MATTER ARC,
+at the very top) is LIVE. EVERYTHING BELOW it — including the 2026-06-21 NIGHT + EVENING blocks immediately
+following — is append-only HISTORICAL record. The 2026-06-21 "B1' off-round build = NEXT" was RUN and became the
+native-matter arc; the must-quantize verdict it reports is now SCOPED to the IMPORTED S^3 object (native S^2 matter
+is a defect, unsolved beyond static). Any "(LATEST)" / "NEXT SESSION" / "QUEUE FOR NEXT SESSION"
 / "PIN a" / "a=-1 admissible" / "does positional dilation MODIFY the gravitational equation" markers in older
 dated sections are FROZEN AS-OF-THEIR-DATE and SUPERSEDED — the gravity operator IS now DERIVED (vacuum!=GR), and
 a(phi)=e^{phi} IS derived (F3 RESOLVED). The live frontier + next action (B1' off-round build) = this TOP +
