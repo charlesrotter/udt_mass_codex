@@ -19,6 +19,43 @@ the pre-postulate negative corpus is RETIRED (mine for TOOLING only). Forward fr
 test gravitating-soliton stability by a constraint-respecting COUPLED re-solve, never off-constraint stiffness
 ([[gravitating-soliton-stability-test]]). All pre-2026-06-22 frontier blocks are in HANDOFF_ARCHIVE.md + git.
 
+## *** 2026-06-23 — SOLVER-INTEGRITY-UPGRADES ARC (current activity; a Charles-requested detour BEFORE the time-live build) ***
+Charles paused the physics frontier to harden the solver's integrity MACHINERY first (spec =
+**SOLVER_INTEGRITY_UPGRADES_SPEC.md**, P1->P2->P3, then P4/P5). The PHYSICS frontier (time-live native S^2, below)
+is UNCHANGED — only DEFERRED. SPINE of the arc: **the harness REFERENCES derivations, it never RE-ASSERTS their
+results** (no derived VALUE hard-coded into a test; tags checked, values SOURCED) — keeps the integrity layer from
+becoming a NEW import surface (Charles's embedding-risk catch).
+- **P1 DONE + committed (4ef7add), blind-verified x2 (VERIFIED):** the PURITY HARNESS `tests/test_solver_integrity.py`
+  (+ conftest, pytest.ini) — pytest, **9 pass / 5 documented-gap xfails, <1s, no Newton/jacrev**. Four checks each
+  anchored to a banked bug: liveness (off-diagonals built-but-dead), provenance lint (smuggled kap8=0.05), limit
+  recovery (flat/Schwarzschild vacuum + a de Sitter NORMALIZATION anchor for operator scale), native-object guard
+  (S^3 Skyrme import). Guards the CURRENT live solver. **The 5 xfails ARE the migration TODO** (kap8=1 untagged,
+  a=-1 not a(φ), 4-comp S^3 hedgehog not native S^2, core_mode='deg1' pins Θ(0)=π, ξ=κ=1.0 untagged) — each XPASSes
+  when the live path is migrated (self-resolving tripwire). Catch-proof: 4 historical bugs + 2 verifier-found holes
+  reintroduced -> matching test RED, repo restored byte-identical. Record = **p1_purity_harness_results.md**; MAP =
+  P1_PURITY_HARNESS_MAP.md; verifiers a8d2dae18fdcecfc9, a1b23eea2004b7446.
+- **P2 — Charles DECISION (2026-06-23): build on the a=-1 GR-BASELINE NOW; the open physics is DEFERRED TO MIGRATION
+  (not dropped).** P2 = operator-from-the-action codegen + equality test. The MAP TRACED the spec's action
+  `S=∫√−g[e^{2φ}R + X e^{2φ}(∂φ)² + e^{2φ}L_m]` to the derivation docs and found it NOT safe to canonize as-is, so P2
+  builds the codegen+equality MACHINERY against the action the live engine ACTUALLY realizes (GR-baseline:
+  G^μ_ν = kap8 T^μ_ν, standard Einstein + L2+L4 matter, no e^{2φ} weight active). The DERIVED-action version is wired
+  at MIGRATION — the step that picks the fork + settles the matter weight + swaps a(φ)=e^{φ} in, and flips the 5 P1
+  xfails green. **The P1 xfails + this P2 baseline = the migration's acceptance tests.** MIGRATION-OPEN PHYSICS
+  (tripwired, do NOT silently resolve to make a test pass):
+  (1) **e^{2φ}R is DERIVED only on the GRADIENT-sector curvature; the ANGULAR curvature REFUSES the weight** — the
+  native_dilation derivation reaches a Branch G / Branch P FORK and never picks a side. Plain `e^{2φ}R` silently
+  assumes Branch P. (This fork IS the phi-angular tension / Charles's standing hunch, surfacing in the foundational
+  action.) (2) **the matter weight `e^{2φ}` in front of L_m is UNTRACED / pattern-matched** — it appears NOWHERE in
+  F2/scale-symmetry/CANON; the corpus matter action has NO such factor; inserting it CHANGES the matter field
+  equations = a candidate smuggled import IN THE SPEC. (3) **X is FREE/UNFORCED** (weight e^{2φ} derived, coefficient
+  not; healthy window |X|>~1.7e5, large NEGATIVE) — must be tagged FREE not DERIVED. (4) **the live operator runs the
+  a=-1 GR baseline, NOT the derived e^{2φ}/a(φ)=e^{φ} theory** — so "generated-from-derived-action == hand-coded
+  operator" CANNOT hold without either scoping the action to the a=-1 limit or migrating the operator. Decision for
+  Charles (lay): build P2 on the a=-1 baseline the operator ACTUALLY realizes (machinery now, derived version at
+  migration) vs. treat the curvature fork + matter weight as gated PHYSICS to resolve first. L_m is MINIMAL-BUT-NOT-
+  UNIQUE (F2: {L2,L4} core + optional {X²,L6}). Recon agent trail in this session; no codegen written yet.
+- **P3-P5 remain:** P3 disciplines-as-skills, P4 cross-model verify (ruling: fresh zero-context Claude), P5 LIVE.md shrink.
+
 ## *** 2026-06-22 — THE NATIVE-MATTER ARC + COMPLETE-SOLVER BUILD (read FIRST; supersedes the 2026-06-21 NIGHT/B1'/EVENING blocks, now in HANDOFF_ARCHIVE.md) ***
 The Phase-B off-round work (B1') opened a foundational arc. Read order: this block -> COMPLETION_PROGRAM.md
 (THE COMPLETE 4-D SOLVER BUILD PROGRAM) -> the named results docs -> FOUNDATIONAL_ASSUMPTIONS_LEDGER scoreboard.

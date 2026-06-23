@@ -1,5 +1,18 @@
 # STATE — Frontier Snapshot
 
+*** 2026-06-23 CURRENT ACTIVITY (a Charles-requested DETOUR; physics frontier below is UNCHANGED, only deferred):
+SOLVER-INTEGRITY-UPGRADES arc (spec = SOLVER_INTEGRITY_UPGRADES_SPEC.md). P1 DONE + committed (4ef7add),
+blind-verified x2: the PURITY HARNESS tests/test_solver_integrity.py (9 pass / 5 documented-gap xfails = the
+migration TODO; catch-proof bites; record = p1_purity_harness_results.md). SPINE: the harness REFERENCES
+derivations, never RE-ASSERTS their results (no derived value hard-coded). P2 (operator-from-the-action): the MAP
+traced the spec's action S=∫√−g[e^{2φ}R + X e^{2φ}(∂φ)² + e^{2φ}L_m] and found it NOT safe to canonize as-is —
+(1) e^{2φ}R derived only on the GRADIENT curvature, angular sector refuses it (Branch G/P fork UNRESOLVED = the
+phi-angular tension); (2) the matter weight e^{2φ} on L_m is UNTRACED/pattern-matched (corpus matter action has
+none); (3) X is FREE not derived; (4) the live operator is the a=-1 GR baseline. Charles DECISION (2026-06-23):
+build P2 on the GR-baseline NOW (machinery); the open physics is DEFERRED TO MIGRATION (the step that wires the
+derived operator + flips the 5 P1 xfails green). The P1 xfails + P2 baseline = the migration's acceptance tests.
+P3-P5 remain. ***
+
 *** 2026-06-22 TOP (LIVE — supersedes everything below; verified + pushed github 25e1e6f): THE NATIVE-MATTER ARC. ***
 The Phase-B off-round build (B1') opened a foundational arc; full distilled frontier = HANDOFF.md TOP (2026-06-22
 block), actionable stages = COMPLETION_PROGRAM.md "THE COMPLETE 4-D SOLVER BUILD PROGRAM". All blind-verified:
