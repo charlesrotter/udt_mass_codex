@@ -1,5 +1,27 @@
 # STATE — Frontier Snapshot
 
+*** 2026-06-22 TOP (LIVE — supersedes everything below; verified + pushed github 25e1e6f): THE NATIVE-MATTER ARC. ***
+The Phase-B off-round build (B1') opened a foundational arc; full distilled frontier = HANDOFF.md TOP (2026-06-22
+block), actionable stages = COMPLETION_PROGRAM.md "THE COMPLETE 4-D SOLVER BUILD PROGRAM". All blind-verified:
+(1) round gate CLEANED (smuggled kap8=0.05 -> kap8=1 DERIVED; "tiny hair" was a grid-fit artifact -> NO scalar hair);
+(2) **STAGE 1 the gating numerical problem SOLVED** — the general CORE.einstein is N-DIVERGENT on the steep core,
+so built an ANALYTIC general Christoffel/Einstein engine (einstein_3d_general_*, shear+time-row capable, machine-exact,
+N-convergent) — UNBLOCKS the complete solver (every prior residual was secretly diagonal); (3) *** MATTER OBJECT
+IDENTITY: the round-gate/static_soliton/STEP2/P5e soliton is an IMPORTED S^3 Skyrme baryon (body held by the imported
+winding BC); UDT's NATIVE matter is the S^2/pi_2 winding (n=x/r). The box-control/must-quantize line was on the
+IMPORTED object (registry SCOPED). ***; (4) **NATIVE S^2 matter solved on the derived operator (first ever) = a
+scale-free global-monopole DEFECT, not a particle, in EVERY static config** (rigid; radial-twist=flat-Goldstone; and
+the decisive constraint-respecting COUPLED off-round twist x shear re-solve -> mass RISES, 12 unbiased seeds all
+uphill -> defect STABLE; the matter strains toward an off-round body but gravity wins on-constraint; core
+self-regulated by the derived phi-hair q>0). Docs: matter_object_identity_native_vs_import, native_s2_object_derived_operator,
+native_s2_twist_freed, native_offround_twist_shear, complete_solver_stage1_general_einstein (+ verifier trails).
+**LIVE FRONTIER = TIME-LIVE / non-stationary native S^2** — every native solve so far is STATIC; the standing hunch
+places discreteness at the closed-time sector = the one major UNTESTED instrument. NEXT = build+solve the time-live
+native S^2 (regen the Stage-1 engine with live d_t; complete-solver Stages S2-S6 converge here). Anti-hang LOCKED;
+DATA-BLIND. Memories: [[native-matter-defect-import-discovery]], [[full-dimensional-complete-solver]],
+[[gravitating-soliton-stability-test]]. The 2026-06-21 blocks below are HISTORICAL (B1' "off-round build" = DONE,
+it became this arc; the must-quantize line is now SCOPED to the imported object).
+
 *** 2026-06-21 NIGHT TOP: COMPLETION PROGRAM UNDERWAY (Charles). *** Finish every F-item (no hanging threads)
 + audit solvers/previous-results top-to-bottom before the next level; goal = a clean physics-correct solver.
 **PHASE A COMPLETE** (F1-F8 all closed+verified; F6 framework DECIDED = HOLD quantization / finish the solver

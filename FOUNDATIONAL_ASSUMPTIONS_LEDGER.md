@@ -13,6 +13,21 @@ PARTIAL = clarified but a gap remains; OPEN = untouched or parked. The audit's C
 survives on the derived, full-coupled (P5e-proper) machinery.** The deepest imports are cleared; ~half the
 items remain.
 
+*** 2026-06-22 OBJECT-IDENTITY RE-SCOPING (verified — matter_object_identity_native_vs_import_results.md). ***
+The B1' off-round build opened a foundational arc that RE-SCOPES the must-quantize line and touches F2/M10/M11:
+the matter object that ALL derived-operator solves ran (round gate, static_soliton, STEP2, P5e — i.e. the
+"box-control survives" machinery) is an **IMPORTED S^3 Skyrme baryon** (body held by the imported winding BC).
+UDT's NATIVE matter is the **S^2/pi_2 winding** (n=x/r, CANON C-2026-06-14-1), solved on the derived operator for
+the first time = a scale-free **DEFECT, not a localized particle**, in EVERY static config (rigid / radial-twist /
+the decisive constraint-respecting coupled off-round twist x shear re-solve — all verified, mass RISES, defect
+STABLE). So **the box-control / must-quantize verdict STANDS as a statement about the imported S^3 object but is
+CONDITIONS-CHANGED w.r.t. UDT's NATIVE matter** — the native object is unsolved beyond static; the standing hunch's
+home (TIME-LIVE / non-stationary) is the one UNTESTED instrument = the live frontier. F2's "matter action": the
+NATIVE action is L2 + cross-product (S^2) L4; the Lagrange-identity L4 + winding BC that made the S^3 body are
+imports. M10/M11 (S^2 settled) STANDS but its scope is sharpened: it ruled out the orthogonal-tilt route to S^3,
+not the pi_3-baryon route (which is import-installed, not native). Build engine = Stage-1 analytic general Einstein
+(complete_solver_stage1_general_einstein_results.md). See HANDOFF.md TOP + [[native-matter-defect-import-discovery]].
+
 *** F4 CAVEAT now RESOLVED (2026-06-21, verified — seal_junction_condition_results.md). *** The F4 caveat
 ("must-quantize was conditional on never having imposed the physical seal BC") is CLOSED: the never-before-
 computed sigma-ODD/time-on seal junction was derived for BOTH involutions on record. sigma1 (t->-t): a NODE

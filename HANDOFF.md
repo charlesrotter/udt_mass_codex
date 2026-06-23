@@ -179,20 +179,25 @@ scoreboard these are additive/framing, NOT result-changing. MAP first; DATA-BLIN
 The 2026-06-21 EARLIER foundational-audit framing + the 2026-06-20 everything-on-solver / Quant-Step-A block were
 moved to HANDOFF_ARCHIVE.md (superseded by the EVENING block above + COMPLETION_PROGRAM.md). Git has full history.
 
-## Read order for a new instance (2026-06-21 NIGHT — current)
-1. CLAUDE.md "How we work" (binding method) + ANTI-HANG rule + memories: infrastructure-first-not-exciting-stuff
-   (read FIRST — the binding pace), solver-first-not-mechanism, matter-theory-before-pure-geometry (the arc),
-   how-we-work-method, cleaner-is-not-clean-no-shortcuts, audit-solving-infrastructure.
-2. THIS FILE TOP (the NIGHT COMPLETION-PROGRAM block + the NEXT-SESSION B1' off-round-build setup + the EVENING
-   derived-operator arc) -> **COMPLETION_PROGRAM.md** (the actionable checklist) -> **FOUNDATIONAL_ASSUMPTIONS_LEDGER.md
-   SCOREBOARD** (status-of-record, top) -> STATE.md TOP -> INDEX.md.
-3. The DERIVED-operator arc docs (the current foundation): native_dilation_weight_derivation, scale_symmetry_bootstrap_analysis,
-   matter_regrade_derived_operator, static_soliton_rerun / STEP2_timelive_matter / P5e_proper, seal_junction_condition,
-   the F1F3/F2/F4/F5/F6/F7/F8 + M12 + M10/M11 closures, P1P5_reaudit + P5c_regrade.
-4. CANON.md (C-2026-06-18-1 + C-2026-06-14-1, both SURVIVE); NEGATIVES_REGISTRY (pre-postulate corpus RETIRED —
-   mine for TOOLING only). HANDOFF_ARCHIVE.md for the superseded 2026-06-18/19/20 frontier blocks + earlier history.
-   [SUPERSEDED: POST_POSTULATE_PROGRAM.md / SOLVER_COMPLETENESS_MAP.md / the everything-on build were the 2026-06-20
-   arc — now subsumed by COMPLETION_PROGRAM.md + the LEDGER scoreboard; the operator is DERIVED, machinery reused.]
+## Read order for a new instance (2026-06-22 — current; supersedes the NIGHT read-order)
+1. CLAUDE.md "How we work" (binding method) + ANTI-HANG rule + memories: **native-matter-defect-import-discovery**
+   (read FIRST — the live foundational state), **full-dimensional-complete-solver** (BOUND grid, never FREEZE a DOF),
+   **gravitating-soliton-stability-test** (constraint-respecting coupled re-solve, never off-constraint stiffness),
+   solver-first-not-mechanism, audit-solving-infrastructure, algebraic-objects-can-be-imports.
+2. THIS FILE TOP (the **2026-06-22 NATIVE-MATTER ARC** block) -> **COMPLETION_PROGRAM.md** "THE COMPLETE 4-D SOLVER
+   BUILD PROGRAM" (the actionable stage list, S1 DONE) -> STATE.md TOP (2026-06-22 block) -> FOUNDATIONAL_ASSUMPTIONS_LEDGER.md
+   SCOREBOARD (status-of-record).
+3. The native-matter arc docs (the current foundation, all blind-verified + committed): **matter_object_identity_native_vs_import_results**
+   (the import discovery), **complete_solver_stage1_general_einstein_results** (the gating engine — einstein_3d_general_*),
+   native_s2_object_derived_operator_results, native_s2_twist_freed_derived_operator_results, native_offround_twist_shear_results.
+   The PRIOR derived-operator arc (now SCOPED to the imported S^3 object): b1prime_round_gate_derived_operator_results,
+   native_dilation_weight_derivation, static_soliton_rerun / STEP2_timelive_matter / P5e_proper.
+4. CANON.md (C-2026-06-18-1 metric-from-relativity + C-2026-06-14-1 native S^2 carrier + B=1/A, both SURVIVE);
+   NEGATIVES_REGISTRY (TOP: the 2026-06-22 object-identity SCOPING — the soliton corpus + must-quantize line are
+   scoped to the imported S^3 object; native S^2 is the defect). HANDOFF_ARCHIVE.md for superseded earlier frontier blocks.
+   [The 2026-06-21 NIGHT/EVENING blocks below this read-order are HISTORICAL: B1' "off-round build" became the
+   native-matter arc; F0-F8 audit COMPLETE; the must-quantize verdict is now SCOPED to the imported object, native
+   matter is unsolved beyond static (time-live = the live frontier).]
 
 (The pre-2026-06-20 frontier blocks — the 2026-06-19 AFTERNOON #65 block, the 2026-06-19 MORNING postulate-A
 block, the prior-arc condensation, and the old VISION-based goal/read-order/next-step — were moved to
