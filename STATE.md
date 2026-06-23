@@ -41,8 +41,10 @@ native-matter arc; the must-quantize verdict it reports is now SCOPED to the IMP
 is a defect, unsolved beyond static). Any "(LATEST)" / "NEXT SESSION" / "QUEUE FOR NEXT SESSION"
 / "PIN a" / "a=-1 admissible" / "does positional dilation MODIFY the gravitational equation" markers in older
 dated sections are FROZEN AS-OF-THEIR-DATE and SUPERSEDED — the gravity operator IS now DERIVED (vacuum!=GR), and
-a(phi)=e^{phi} IS derived (F3 RESOLVED). The live frontier + next action (B1' off-round build) = this TOP +
-HANDOFF.md TOP. Do NOT act on any "next step" found below this line. ***
+a(phi)=e^{phi} IS derived (F3 RESOLVED). **The live frontier + next action = the 2026-06-22 TOP block + HANDOFF.md
+TOP: build + solve the TIME-LIVE native S^2 object** (NOT "B1' off-round build" — that was RUN and became the
+native-matter arc). Do NOT act on any "next step" found in ANY block dated 2026-06-21 or earlier (everything below
+the 2026-06-22 TOP block). ***
 
 *** 2026-06-21 EVENING: the foundational audit RAN — DERIVED OPERATOR + MATTER NOW PHYSICAL. ***
 Read HANDOFF.md TOP (the EVENING block) for the full distilled frontier. One-session arc, all blind-verified:

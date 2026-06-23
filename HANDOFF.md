@@ -47,6 +47,13 @@ that is now the one major UNTESTED instrument. The complete-solver build's remai
 S3 free chart, S4 assemble, **S5 TIME-LIVE** [regen the engine with live d_t], S6 run) all converge here. NEXT =
 build the time-live native S^2 object (the orchestra's time instrument). Anti-hang LOCKED (the analytic engine + the
 bounded coupled-solve recipe are proven this session; the FD-Jacobian 9-field solve costs ~120-240s/grid — bound it).
+**PRECISE ENTRY POINT (do FIRST, MAP-not-launch; two items are genuine Charles decisions):** (i) **sequencing** —
+the static native S^2 is NOT exhausted (we played rigid, azimuthal-twist, and off-round twist x shear; the FULL
+2-angle static field Theta_t(r,theta),Phi_t and the other shear channels = the rest of "S2" are NOT done). So the
+first decision: finish the remaining STATIC native instruments (S2) first, or jump straight to TIME-LIVE (S5, the
+hunch's home)? Present this to Charles. (ii) **the GATE is undefined** — what observation counts as "discreteness
+found" vs "still a continuum/defect" for the time-live native object is NOT yet specified; MAP it (with premises,
+in lay terms) and get Charles's sign-off BEFORE building. Both are the make-visible-and-ponder method, not a stall.
 Memory: [[full-dimensional-complete-solver]] (BOUND grid, never FREEZE a DOF), [[gravitating-soliton-stability-test]]
 (constraint-respecting coupled re-solve, never off-constraint stiffness — the method that resolved the off-round null).
 

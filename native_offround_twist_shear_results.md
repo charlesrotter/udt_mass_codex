@@ -1,8 +1,15 @@
-# Ensemble Instrument 1 — Off-Round Twist×Shear on Native Matter: NOT a Defect — OPEN (the decisive coupled solve is undone)
+# Ensemble Instrument 1 — Off-Round Twist×Shear on Native Matter [TITLE-AS-FIRST-WRITTEN: "NOT a Defect — OPEN"]
 
-**Mode:** OBSERVE, METRIC-LED, DATA-BLIND, EMERGENCE-LED. **Status: BANKED as OPEN — constructor +
-blind adversarial verifier run; verifier REFUTED the constructor's "defect stable" headline** (constructor
-af85617d1306a44f0; verifier ac4c0f62e48467244). **NOT canon.** Driver: Claude Opus 4.8 (1M). 2026-06-21.
+> **STATUS SUPERSEDED -> RESOLVED (2026-06-22): NULL, DEFECT STABLE.** The "OPEN / NOT a Defect" headline below
+> (§0-§5, the fixed-background finding) was the as-first-written state; it was RESOLVED by the constraint-respecting
+> COUPLED re-solve + blind verifier — **see the RESOLUTION section at the BOTTOM.** Verdict: native off-round
+> twist×shear (static) does NOT lower the mass -> round defect STABLE; no native off-round particle from this
+> channel. (This status flag is a navigation correction, registry-style; the §0-§5 reasoning is preserved verbatim.)
+
+**Mode:** OBSERVE, METRIC-LED, DATA-BLIND, EMERGENCE-LED. **Status: RESOLVED 2026-06-22 = NULL / DEFECT STABLE
+(see RESOLUTION at bottom).** [Originally banked as OPEN; constructor af85617d1306a44f0 + verifier ac4c0f62e48467244
+REFUTED the early fixed-background "defect stable" reasoning, leaving it OPEN; the coupled re-solve a59b3e033e88fb339
++ verifier aec92a3bda89340f2 then settled it = defect stable.] **NOT canon.** Driver: Claude Opus 4.8 (1M). 2026-06-21/22.
 
 ## 0. WHY (the convergence)
 Every thread of this session meets here. UDT's native matter is the S²/π₂ winding (the round-gate
