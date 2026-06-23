@@ -9,9 +9,13 @@ traced the spec's action S=∫√−g[e^{2φ}R + X e^{2φ}(∂φ)² + e^{2φ}L_m
 (1) e^{2φ}R derived only on the GRADIENT curvature, angular sector refuses it (Branch G/P fork UNRESOLVED = the
 phi-angular tension); (2) the matter weight e^{2φ} on L_m is UNTRACED/pattern-matched (corpus matter action has
 none); (3) X is FREE not derived; (4) the live operator is the a=-1 GR baseline. Charles DECISION (2026-06-23):
-build P2 on the GR-baseline NOW (machinery); the open physics is DEFERRED TO MIGRATION (the step that wires the
-derived operator + flips the 5 P1 xfails green). The P1 xfails + P2 baseline = the migration's acceptance tests.
-P3-P5 remain. ***
+build P2 on the GR-baseline (machinery); open physics DEFERRED TO MIGRATION (the step that wires the derived
+operator + flips the 5 P1 xfails green). P2 DONE + committed, blind-verified (caveats closed): solver_action.py
+(single source-of-truth GR-baseline action + provenance registry; derived/untraced terms MIGRATION-DEFERRED) +
+tests/test_operator_from_action.py (matter stress PROVEN == Hilbert variation ~1e-15; gravity two engines agree
+no-drift; matter field-EOM CONSISTENCY converging ~0.4%; residual=G-κ8T regression-lock; catch-proof bites). Record =
+p2_operator_from_action_results.md. The P1 xfails + P2 baseline = the migration's acceptance tests. Full suite now
+16 passed / 5 xfailed. P3-P5 remain. ***
 
 *** 2026-06-22 TOP (LIVE — supersedes everything below; verified + pushed github 25e1e6f): THE NATIVE-MATTER ARC. ***
 The Phase-B off-round build (B1') opened a foundational arc; full distilled frontier = HANDOFF.md TOP (2026-06-22

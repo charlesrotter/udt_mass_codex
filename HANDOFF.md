@@ -34,14 +34,17 @@ becoming a NEW import surface (Charles's embedding-risk catch).
   when the live path is migrated (self-resolving tripwire). Catch-proof: 4 historical bugs + 2 verifier-found holes
   reintroduced -> matching test RED, repo restored byte-identical. Record = **p1_purity_harness_results.md**; MAP =
   P1_PURITY_HARNESS_MAP.md; verifiers a8d2dae18fdcecfc9, a1b23eea2004b7446.
-- **P2 — Charles DECISION (2026-06-23): build on the a=-1 GR-BASELINE NOW; the open physics is DEFERRED TO MIGRATION
-  (not dropped).** P2 = operator-from-the-action codegen + equality test. The MAP TRACED the spec's action
-  `S=∫√−g[e^{2φ}R + X e^{2φ}(∂φ)² + e^{2φ}L_m]` to the derivation docs and found it NOT safe to canonize as-is, so P2
-  builds the codegen+equality MACHINERY against the action the live engine ACTUALLY realizes (GR-baseline:
-  G^μ_ν = kap8 T^μ_ν, standard Einstein + L2+L4 matter, no e^{2φ} weight active). The DERIVED-action version is wired
-  at MIGRATION — the step that picks the fork + settles the matter weight + swaps a(φ)=e^{φ} in, and flips the 5 P1
-  xfails green. **The P1 xfails + this P2 baseline = the migration's acceptance tests.** MIGRATION-OPEN PHYSICS
-  (tripwired, do NOT silently resolve to make a test pass):
+- **P2 DONE + committed, blind-verified (VERIFIED-WITH-CAVEATS, caveats CLOSED).** Charles decision: build on the
+  a=-1 GR-BASELINE; open physics DEFERRED TO MIGRATION. Deliverables: **solver_action.py** (THE single source-of-truth
+  GR-baseline action `S=∫√−g[(1/2κ8)R + L2 + L4]` with a provenance-tagged ACTION_TERMS registry; the derived-theory
+  + UNTRACED matter-weight terms recorded MIGRATION-DEFERRED, operator=None) + **tests/test_operator_from_action.py**
+  (7 tests). PROVEN: matter STRESS == exact Hilbert variation (~1e-15); gravity = two independent analytic engines
+  agree (no drift, 1.7e-13; truth anchored by P1 de Sitter/Schwarzschild). CONSISTENCY: matter FIELD-EOM matter_el_3d
+  (strong) == -autograd(action) (weak), converging ~0.4% (codegen-bug-sensitive). REGRESSION-LOCK: residual assembles
+  G-κ8T. Catch-proof: 4 injected bugs -> matching test RED. Record = **p2_operator_from_action_results.md**; verifier
+  acc513a4bfdeef941. The DERIVED-action version is wired at MIGRATION — the step that picks the fork + settles the
+  matter weight + swaps a(φ)=e^{φ} in, and flips the 5 P1 xfails green. **The P1 xfails + the P2 baseline = the
+  migration's acceptance tests.** MIGRATION-OPEN PHYSICS (tripwired, do NOT silently resolve to make a test pass):
   (1) **e^{2φ}R is DERIVED only on the GRADIENT-sector curvature; the ANGULAR curvature REFUSES the weight** — the
   native_dilation derivation reaches a Branch G / Branch P FORK and never picks a side. Plain `e^{2φ}R` silently
   assumes Branch P. (This fork IS the phi-angular tension / Charles's standing hunch, surfacing in the foundational
