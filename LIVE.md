@@ -48,7 +48,17 @@ Live foundational state (2026-06-22 native-matter arc, all blind-verified):
   discreteness hunch's home and the one major UNTESTED instrument. Every native solve so far is STATIC.
 - **Two MAP-first decisions before building** (make-visible, get Charles's sign-off; detail in HANDOFF
   TOP): (i) finish the remaining STATIC native instruments first vs jump straight to time-live;
-  (ii) DEFINE THE DISCRETENESS GATE (what counts as "discreteness found" vs "still continuum/defect").
+  (ii) THE DISCRETENESS GATE (Charles 2026-06-23): OBSERVE for emergence first; if discreteness does
+  NOT emerge after sufficient development, IMPORT it under Postulate A (the accepted ħ/spin/statistics
+  quantum postulate; UDT = quantized dilation-geometry). Emergence is the goal, Postulate A the fallback.
+- **OPEN (found 2026-06-23, P4-style check): the curvature Branch G/P fork is already BEHIND us SILENTLY.**
+  The native-S² static solves ran the DERIVED operator on **Branch G** (gauges the angular obstruction
+  AWAY; scale-free by construction) — never named/flagged. **Branch P** (keeps the φ-angular curvature
+  as a physical potential + the scale-breaker e^{2φ}−1) was NEVER tried on the native object. So the
+  "scale-free defect" headline is BRANCH-G-CONDITIONED — possibly an artifact of the silent choice, and
+  Branch P is where the φ-angular hunch lives. Make the branch an EXPLICIT switch; try Branch P
+  (static, then time-live) before banking "featureless defect." (p1_residual GR-baseline solver is a
+  SEPARATE line from this derived-Branch-G native-S² solver.)
 
 ## DURABLE CANON (must-not-lose)
 - CANON **C-2026-06-14-1** (native S² carrier; B=1/A, EOS-softened interior) + **C-2026-06-18-1**
