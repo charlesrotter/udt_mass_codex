@@ -165,10 +165,21 @@ do NOT replace them, they unfold them on demand.)
   kicks + NEB + a 3-cell persistence test (a 2-cell test throws look-elsewhere
   false positives).
 
-## Repo discipline (the Self-Hardening culture — do not soften)
+## Repo discipline (use git AS git — Charles 2026-06-24)
 
-- Research-record markdown docs are append-never-edit; committed audit
-  scripts are immutable. New work = new files.
+- **EDIT files in place; let git history be the audit trail.** Commit per
+  logical change with a clear message; roll back via `git revert`/history if a
+  change regresses. The point of committing is ROLLBACK capability, not freezing.
+  REPEALED (Charles 2026-06-24, "patently absurd... the opposite of using a git
+  repository"): the old "committed scripts are immutable / new work = new files /
+  research-record markdown append-never-edit" rule. It froze improvement and
+  caused SOLVER PROLIFERATION — a stale harnessed path (p1_residual) while the
+  live work moved to an un-harnessed file (branchGP). When you improve a solver,
+  EDIT it (and update its harness); do not spawn branchGP_v2. Append-only is fine
+  for a running LAB-LOG section of a results doc, but correcting/superseding an
+  earlier claim by EDITING (with the change visible in git) is now preferred over
+  piling addenda. A RECONCILIATION is owed: consolidate the proliferated
+  solvers/scripts to ONE canonical solver + its harness, retire the rest.
 - **Verifier-before-record**: every result (positive or negative) gets a
   blind adversarial verifier pass, recorded in its results doc with agent
   id and date, before commit.
