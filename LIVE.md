@@ -42,10 +42,15 @@ the untried branch that keeps the φ-angular potential — see PHYSICS FRONTIER 
   bounded GPU solves floored G (Phi~37, 1/r² defect) but NOT P (Phi~1.5e4 — P is STIFFER; the U potential
   pulls φ ~5× deeper = the scale-breaker ACTS, but rho/localization are seed-dominated, inconclusive).
   The wall is SOLVER THROUGHPUT (dense jacrev ~113s/iter + P stiffness = the known #60 conditioning wall).
-- **→ NOW: build the research-grade JFNK / preconditioned coupled solver** (prior JFNK exists:
-  `p5a_prime_jfnk_fast.py`; COMPLETION-flagged). Wire it to the branchGP `residual_vec`. It unblocks
-  ALL downstream coupled solves (Branch-P static floor → localized vs defect; the SEAL-INDEPENDENCE gate
-  = native-scale-vs-imported-seal; off-round; time-live). Then re-run Step C floored.
+- **JFNK SOLVER BUILT** (`jfnk_branch_solver.py`, record = `jfnk_solver_results.md`): matrix-free
+  jvp/vjp + LSMR + Jacobi-PC + damping. Fixed a 1-D/4-D Krylov shape bug (flat-space fix; fidelity
+  INTACT — confirmed: JFNK reaches a LOWER residual than dense-LM = same branch, more converged).
+  **~15× faster** on Branch G (Phi 2.3e5→3.9 in 2 iters/120s vs dense-LM 37/340s). CAVEAT: **STALLS
+  near Phi≈4 with pc='none'** (not tightly floored); Branch P not yet reached.
+- **→ NOW: break the stall + FLOOR.** Turn ON the preconditioner (pc='jacobi' → then block/spectral PC)
+  + tune inner-tol/line-search so JFNK floors tightly; THEN floor Branch P (the OBSERVE: localized body
+  / selected scale vs the 1/r² defect?) → the SEAL-INDEPENDENCE gate (native scale vs imported seal).
+  Re-run all solves MYSELF via background-notify (agents HANG on solves — build-only, never delegate a solve).
 The "migration" (wiring the derived operator into the LIVE p1_residual + flipping the 5 P1 xfails) is a
 SEPARATE gated step, not the immediate next.
 
