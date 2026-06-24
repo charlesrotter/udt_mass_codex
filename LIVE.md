@@ -44,10 +44,16 @@ incl. native S² twist `gtw`). What the floor push found:
   floors ~like G); the interior-Einstein "obstruction" (cond~1e10) was a SCALING artifact — Ruiz
   equilibration drove Einstein residual→0, moving it to EL_φ (NOT under-resolution, NOT a missing term).
 - **PREMISE CAUGHT:** X=−2e5 is a CHOSEN placeholder (`FREE`, Cassini-bounded half-line; branch_operator.py:85)
-  that throttles φ ∝1/|X| — so "scale-free" was X-conditioned. But unthrottling φ (continuation) does NOT
-  reveal a hidden body: the extra structure is BC BOUNDARY-LAYERS (φ=−0.40 core/+0.44 seal, ~0.01 body),
-  NOT an interior core. **Static Branch P = scale-free defect, no interior localization** (scoped: Nr=10
-  coarse, static-only, deep-regime X OPEN).
+  that throttles φ ∝1/|X| — so "scale-free" was X-conditioned. Unthrottling φ (continuation) reveals NO
+  intrinsic localized body. **Static Branch P = no intrinsic scale / no localized particle** (scoped:
+  static-only, deep-regime X OPEN).
+- **FIRMED at Nr=16 + seal test (2026-06-24, blind-verified; CORRECTS the mechanism):** the Nr=16 floor
+  (Φ=5.1e-3) shows the continuation body is NOT featureless — it has BIMODAL structure (peaks r≈2.1/6.1)
+  that SHARPENS with resolution. BUT the seal/box scan (cell=6,8,12,16) shows that structure is
+  BOX-CONTROLLED: dominant peak at exactly 0.75·r_i in all four (pinned to the outer body grid node,
+  scales with the seal) = NOT intrinsic. So the negative STANDS/STRENGTHENED via the corrected mechanism
+  "box-controlled structure" (the original "featureless-defect/boundary-layer" shape-read was WRONG). New
+  scripts: grid_refine_{warmstart,resume}.py, seal_test.py.
 - **→ NEXT (Charles's pick at the next ponder):** statics on BOTH branches now say scale-free defect with
   the solver trustworthy → the φ-angular discreteness hunch's one UNTESTED instrument is the **TIME-LIVE /
   non-stationary native S²** (PHYSICS FRONTIER below). Optional firming: Nr=16/24 grid-refine to resolve

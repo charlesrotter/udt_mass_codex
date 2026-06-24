@@ -118,3 +118,53 @@ cold-seed value); (2) probe_phi magnitudes captured to /tmp/probe_phi.log (re-ru
 the 3.49 floor re-cited to jfnk_P_dilation_diagnostic.py (jfnk_floor_driver.py gave 8.67); (4) added
 the Derrick-on-defect-field evidence-scope note; (5) "206×" reworded to "column scale ~206". No
 overclaim found; verdict STANDS post-fix.
+
+---
+
+## FIRMING ADDENDUM (2026-06-24): Nr=16 floor + seal test — the body structure is BOX-CONTROLLED
+
+**Status:** this addendum CORRECTS the *mechanism* in the verdict above. The headline negative (no
+intrinsic localization on static Branch P) STANDS and is now rigorously established; but the
+description "the physical body stays a featureless ~1/r² defect" and the "BC boundary-layers" reading
+were a COARSE-GRID/under-resolved shape-read (the blind verifier had flagged exactly this: "shape-based
++ under-resolved, no Derrick test"). New scripts: `grid_refine_boundary_layer.py` (cold continuation —
+DIVERGED, throughput-limited, NOT a result), `grid_refine_warmstart.py` + `grid_refine_resume.py`
+(Nr=16 warm-started from the interpolated Nr=10 solution, floored to Φ=5.1e-3), `seal_test.py`.
+Logs: /tmp/refine16{,w,r}.log, /tmp/sealtest.log.
+
+**1. Nr=16 floor (Φ=5.1e-3, tight) — the body is NOT flat; it has structure that SHARPENS with resolution.**
+Warm-started from the interpolated Nr=10 tight solution (a direct cold Nr=16 continuation DIVERGED — the
+dense jacrev is ~135s/iter and the X=2e5-stiffness amplifies interpolation error to Φ~1e10; only resuming
+with a long wall floored it). The converged Nr=16 body is BIMODAL — proper-ρ peaks at r≈2.1 (0.50) and
+r≈6.1 (1.05) with a dip at r≈3.7 (0.07); body_flat(max/mean) 2.5(Nr=10)→3.9(Nr=16) at FIXED physical radii.
+The seal φ-layer cited at Nr=10 (+0.44) largely VANISHED at Nr=16 (~−0.02) = it was the coarse artifact;
+the core φ-layer persisted/resolved (−0.32 over 2–3 nodes). => "featureless flat defect / boundary-layers"
+was WRONG; there is real body structure.
+
+**2. Seal/box-independence test (seal_test.py) — that structure is BOX-CONTROLLED (the decisive read).**
+Continuation to −2e5 at Nr=10 with the seal moved (cell = 6, 8, 12, 16; r_i = 6.1, 8.1, 12.1, 16.1). The
+dominant proper-ρ peak sits at **exactly 0.75·r_i in every case** (r = 4.60, 6.10, 9.10, 12.10) — it
+**scales with the seal position**, pinned to the outermost body grid node (index 6). peak_r/r_i = 0.75
+constant ⇒ **BOX-CONTROLLED**, not a fixed physical radius ⇒ NOT an intrinsic localized object. (The
+project's central box-control criterion.) A structure can BOTH sharpen with resolution AND be box-pinned —
+both hold here (the spike grows on the outer body node, but that node scales with the box).
+
+**CORRECTED VERDICT.** Static Branch P selects **NO INTRINSIC SCALE / no localized particle** — confirmed,
+now with the CORRECT mechanism: the only body "structure" is **box-controlled** (peak ∝ 0.75 r_i), on BOTH
+the cold-seed branch (flat, box-controlled) and the continuation branch (bimodal, box-controlled). The
+original "featureless flat defect / BC boundary-layer" mechanism is SUPERSEDED by "box-controlled structure."
+The negative is unchanged and STRENGTHENED (resolution trend + a clean seal scan), not weakened. Nr=24 was
+judged redundant (the seal test is decisive). Premises unchanged (DATA-BLIND, static, X via continuation,
+derived Branch-P operator). The box-control evidence is the **Nr=10 cell-varied seal scan** (separate
+from the single-cell Nr=16 floor); the loose floors there (Φ~1e3–1e5) affect amplitude, not WHICH grid
+node hosts the peak — the peak-radius node (0.75 r_i) is invariant across all four cells.
+
+**Verifier (addendum):** Blind adversarial pass (agent a9b3d4bb6b8ae5adc, zero-context, 2026-06-24):
+**PASS-WITH-FIXES** (both applied). Verified every load-bearing number: the seal scan peak/r_i=0.75 for
+cell=6,8,12,16 (r=4.60,6.10,9.10,12.10), the criterion pre-registered in seal_test.py:80-81 (not
+retrofitted); the Nr=16 floor Φ=5.1e-3 with bimodal body (peaks r≈2.1/6.1, dip 3.7; body_flat 2.5→3.9;
+seal φ-layer vanished, core persisted); the cold Nr=16 continuation correctly called NOT-a-result
+(diverged to 9.3e8). Correction judged "honest, non-spin": the headline negative (no intrinsic
+localization) is kept scoped, the *mechanism* corrected from shape-read to box-control. "Strongest
+element: the seal scan — carries the corrected verdict on its own; the Nr=16 floor is supporting." Nr=24
+skip judged defensible. No overclaim found.

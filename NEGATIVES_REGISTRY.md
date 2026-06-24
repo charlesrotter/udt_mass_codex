@@ -1978,8 +1978,19 @@ CS5. THE SEAL IS NOT THE BELL-NONLOCALITY CHANNEL (no-signaling + self/terminus 
    is robust), STATIC only (time-live UNTESTED), X=-2e5 chosen (deep-regime X OPEN), DATA-BLIND, derived
    Branch-P operator + native S² L2+L4, gtw free both ends. Multi-branch "distinct" = continuation reaches a
    floorable boundary-layer state the cold seed cannot (Φ=0.18 vs 2720), NOT two clean physical branches.
-   Status: STANDING (scoped). CONDITIONS-CHANGED reopener: Nr=16/24 resolving the boundary layers into a
-   peaked interior core; a deep-regime derivation fixing X≠-2e5 that un-throttles φ into a self-bound body;
-   or the TIME-LIVE native S² producing a localized object the statics cannot. FORWARD: statics on BOTH
-   branches now say scale-free defect with the solver trustworthy + the X-premise retired => the φ-angular
-   discreteness hunch's one untested instrument is the TIME-LIVE / non-stationary native S².
+   Status: STANDING (scoped). CONDITIONS-CHANGED reopener: a deep-regime derivation fixing X≠-2e5 that
+   un-throttles φ into an intrinsic (non-box) self-bound body; or the TIME-LIVE native S² producing a
+   localized object the statics cannot. FORWARD: statics on BOTH branches now say no intrinsic scale with
+   the solver trustworthy + the X-premise retired => the φ-angular discreteness hunch's one untested
+   instrument is the TIME-LIVE / non-stationary native S².
+   *** AMENDED 2026-06-24 (firming addendum, blind-verified a9b3d4bb6b8ae5adc): the original MECHANISM
+   ("featureless ~1/r² defect / BC boundary-layers / flat body") was a coarse-grid shape-read and is
+   WRONG -- the Nr=16 floor (Φ=5.1e-3) shows the continuation body has BIMODAL structure (peaks r≈2.1/6.1)
+   that SHARPENS with resolution (body_flat 2.5→3.9), and the Nr=10 seal φ-layer (+0.44) was the coarse
+   artifact (vanished at Nr=16; core layer persists). BUT the seal/box-independence scan (cell=6,8,12,16)
+   shows that structure is BOX-CONTROLLED: the dominant peak sits at exactly 0.75·r_i in all four cells
+   (r=4.60,6.10,9.10,12.10), pinned to the outer body grid node, scaling with the seal => NOT an intrinsic
+   localized object. So the HEADLINE NEGATIVE (no intrinsic scale / no localized particle on static
+   Branch P) STANDS and is STRENGTHENED (resolution trend + clean seal scan), via the CORRECTED mechanism
+   "box-controlled structure" (not featureless-defect). Nr=24 judged redundant (seal scan decisive). The
+   Nr=16/24-resolves-into-an-interior-core reopener is now CLOSED (it resolved into BOX-controlled structure).
