@@ -5,6 +5,24 @@ current/non-contradictory. Full history is also in git. Each block carries why i
 
 ---
 
+## Trimmed 2026-06-23 LATE — the integrity-arc + native-matter verbose blocks (detail lives in the results docs)
+When `LIVE.md` became the only-current entry point and the Branch-P push opened, HANDOFF's two long blocks were
+trimmed to concise pointers (HANDOFF 160 -> ~70 lines). NOT lost — full detail is in the committed results docs:
+- **2026-06-23 SOLVER-INTEGRITY-UPGRADES ARC (P1-P5), verbatim P1-P5 detail** → `p1_purity_harness_results.md`,
+  `p2_operator_from_action_results.md`, `p3_discipline_skills_results.md`, `p4_cross_model_verify_results.md`,
+  `p5_live_state_shrink_results.md` (+ `SOLVER_INTEGRITY_UPGRADES_SPEC.md`, `P1_PURITY_HARNESS_MAP.md`). The 5
+  documented-gap xfails + the P2 baseline = the MIGRATION acceptance tests; the two MIGRATION-OPEN-PHYSICS items
+  (curvature Branch G/P fork; e^{2φ} matter weight) are detailed in `p2_operator_from_action_results.md` +
+  `p4_cross_model_verify_results.md`.
+- **2026-06-22 NATIVE-MATTER ARC, verbatim detail + its (now-superseded) "build the time-live native S² / two
+  Charles decisions" NEXT** → `matter_object_identity_native_vs_import_results.md`,
+  `complete_solver_stage1_general_einstein_results.md`, `native_s2_object_`/`native_s2_twist_freed_`/
+  `native_offround_twist_shear_results.md`. Its NEXT was SUPERSEDED by the Branch-P push (the sequencing decision
+  led to the silent-Branch-G finding; the discreteness gate was ruled = observe-for-emergence-else-Postulate-A).
+The pre-LIVE.md "Read order for a new instance (2026-06-22)" was also replaced (LIVE.md is now read #0).
+
+---
+
 ## [ARCHIVED 2026-06-19] The 2026-06-18 + 2026-06-19-overnight frontier blocks (field-equation arc)
 SUPERSEDED by the 2026-06-19 MORNING frontier (POSTULATE A accepted; catalog reframe) + **VISION_POST_POSTULATE.md**.
 Condensed (full detail in STATE.md TOP — the 2026-06-19 OVERNIGHT + the 2026-06-18 blocks are retained there — and git):

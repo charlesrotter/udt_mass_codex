@@ -14,26 +14,12 @@
 > Branch-P (localized vs 1/r² defect?) → seal-independence gate. Run solves yourself via background-notify (agents
 > hang); write long runs to a FILE not a grep-pipe. Detail = LIVE.md + jfnk_solver_results.md.
 
-*** 2026-06-23 CURRENT ACTIVITY (a Charles-requested DETOUR; physics frontier below is UNCHANGED, only deferred):
-SOLVER-INTEGRITY-UPGRADES arc (spec = SOLVER_INTEGRITY_UPGRADES_SPEC.md). P1 DONE + committed (4ef7add),
-blind-verified x2: the PURITY HARNESS tests/test_solver_integrity.py (9 pass / 5 documented-gap xfails = the
-migration TODO; catch-proof bites; record = p1_purity_harness_results.md). SPINE: the harness REFERENCES
-derivations, never RE-ASSERTS their results (no derived value hard-coded). P2 (operator-from-the-action): the MAP
-traced the spec's action S=∫√−g[e^{2φ}R + X e^{2φ}(∂φ)² + e^{2φ}L_m] and found it NOT safe to canonize as-is —
-(1) e^{2φ}R derived only on the GRADIENT curvature, angular sector refuses it (Branch G/P fork UNRESOLVED = the
-phi-angular tension); (2) the matter weight e^{2φ} on L_m is UNTRACED/pattern-matched (corpus matter action has
-none); (3) X is FREE not derived; (4) the live operator is the a=-1 GR baseline. Charles DECISION (2026-06-23):
-build P2 on the GR-baseline (machinery); open physics DEFERRED TO MIGRATION (the step that wires the derived
-operator + flips the 5 P1 xfails green). P2 DONE + committed, blind-verified (caveats closed): solver_action.py
-(single source-of-truth GR-baseline action + provenance registry; derived/untraced terms MIGRATION-DEFERRED) +
-tests/test_operator_from_action.py (matter stress PROVEN == Hilbert variation ~1e-15; gravity two engines agree
-no-drift; matter field-EOM CONSISTENCY converging ~0.4%; residual=G-κ8T regression-lock; catch-proof bites). Record =
-p2_operator_from_action_results.md. The P1 xfails + P2 baseline = the migration's acceptance tests. Full suite now
-16 passed / 5 xfailed. P3 DONE + committed: the binding disciplines factored into 4 auto-loading skills
-(.claude/skills/: solver-first, verifier-before-record, no-shortcuts, completeness-map; CLAUDE.md points to them but
-KEEPS the tripwires inline — skills lazy-load body, description always in context). Record = p3_discipline_skills_results.md.
-P4 (cross-model verify) + P5 (LIVE.md shrink) remain, then the integrity arc completes and the time-live native S^2
-physics frontier resumes. ***
+*** 2026-06-23 — the SOLVER-INTEGRITY-UPGRADES arc (P1-P5) is DONE + committed (records p1..p5_*_results.md;
+summary in the BRANCH-P block above + LIVE.md). The verbose P1-P5 detail was trimmed here 2026-06-23 LATE -> the
+results docs (it had become stale, e.g. "P4-P5 remain" — they are DONE). The 5 documented-gap xfails + the P2
+baseline = the MIGRATION acceptance tests; the two MIGRATION-OPEN-PHYSICS items (curvature Branch G/P fork; e^{2φ}
+matter weight) are now being explored by the Branch-P push. EVERYTHING FROM THE 2026-06-22 BLOCK BELOW is the
+HISTORICAL append-log (LIVE.md is the current entry point; the old inoculation banners below are frozen-as-of-date). ***
 
 *** 2026-06-22 TOP (LIVE — supersedes everything below; verified + pushed github 25e1e6f): THE NATIVE-MATTER ARC. ***
 The Phase-B off-round build (B1') opened a foundational arc; full distilled frontier = HANDOFF.md TOP (2026-06-22
