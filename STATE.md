@@ -1,5 +1,8 @@
 # STATE — Frontier Snapshot
 
+> **READ `LIVE.md` FIRST** — the short, only-guaranteed-current file. STATE is the detailed append-log;
+> if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
+
 *** 2026-06-23 CURRENT ACTIVITY (a Charles-requested DETOUR; physics frontier below is UNCHANGED, only deferred):
 SOLVER-INTEGRITY-UPGRADES arc (spec = SOLVER_INTEGRITY_UPGRADES_SPEC.md). P1 DONE + committed (4ef7add),
 blind-verified x2: the PURITY HARNESS tests/test_solver_integrity.py (9 pass / 5 documented-gap xfails = the

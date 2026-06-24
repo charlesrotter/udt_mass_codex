@@ -1,5 +1,8 @@
 # HANDOFF — Resume Instructions and Perspective
 
+> **READ `LIVE.md` FIRST** — it is the short, only-guaranteed-current file (frontier + next action).
+> This HANDOFF is the detailed record; if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
+
 ## *** STANDING BINDING DISCIPLINE — read every resume (Charles 2026-06-19) ***
 **MISMATCH -> SOLVER, NOT MECHANISM.** If a result is far from observation, the FIRST hunt is the
 SOLVER and our application of it — NEVER a mechanism. In order:
