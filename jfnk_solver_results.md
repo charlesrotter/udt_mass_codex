@@ -38,8 +38,11 @@ through it is identity). A Krylov solver lives in R^N and is indifferent to layo
 - **Branch P not reached** in the bounded budget (the 580s wall killed the G+P run during diagnostics).
 
 ## NEXT
-1. Turn ON the preconditioner (`pc='jacobi'`; then the block/spectral PC the completion docs flag) +
-   tune the inner-tolerance/line-search to BREAK THE STALL and FLOOR G tightly.
+1. SWITCH from the default `pc='none'` to `pc='jacobi'` — the Jacobi PC is ALREADY IMPLEMENTED
+   (`jacobi_pc`, used in `jfnk_solve` when `pc='jacobi'`, ~L210); the Phi≈4 stall was a `pc='none'`
+   run. Tune the inner-tolerance/line-search knobs (`eta0/eta_min/tol/lsmr_maxit`) to BREAK THE STALL
+   and FLOOR G tightly. BUILD the block/spectral PC only if Jacobi PC isn't enough. (Operational:
+   write runs to a FILE not a grep-pipe — buffering lost a PC-run's output on a timeout kill.)
 2. Floor Branch P (the stiff one) — the actual OBSERVE: localized body / selected scale vs the 1/r²
    defect? Then the SEAL-INDEPENDENCE gate (native scale vs imported seal).
 The ~15× speedup already substantially unblocks vs dense-LM. Gate (Charles): observe for emergence;

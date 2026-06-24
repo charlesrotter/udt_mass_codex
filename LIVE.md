@@ -47,10 +47,13 @@ the untried branch that keeps the φ-angular potential — see PHYSICS FRONTIER 
   INTACT — confirmed: JFNK reaches a LOWER residual than dense-LM = same branch, more converged).
   **~15× faster** on Branch G (Phi 2.3e5→3.9 in 2 iters/120s vs dense-LM 37/340s). CAVEAT: **STALLS
   near Phi≈4 with pc='none'** (not tightly floored); Branch P not yet reached.
-- **→ NOW: break the stall + FLOOR.** Turn ON the preconditioner (pc='jacobi' → then block/spectral PC)
-  + tune inner-tol/line-search so JFNK floors tightly; THEN floor Branch P (the OBSERVE: localized body
-  / selected scale vs the 1/r² defect?) → the SEAL-INDEPENDENCE gate (native scale vs imported seal).
-  Re-run all solves MYSELF via background-notify (agents HANG on solves — build-only, never delegate a solve).
+- **→ NOW: break the stall + FLOOR.** The Jacobi PC is ALREADY wired (`jfnk_solve(..., pc='jacobi')`,
+  jfnk_branch_solver.py ~L210); the stall was a run with the DEFAULT `pc='none'`. So: SWITCH to
+  `pc='jacobi'` + tune the inner-tol/line-search knobs (`eta0/eta_min/tol/lsmr_maxit`) so JFNK floors
+  tightly; BUILD the block/spectral PC only if Jacobi isn't enough. THEN floor Branch P (the OBSERVE:
+  localized body / selected scale vs the 1/r² defect?) → the SEAL-INDEPENDENCE gate (native scale vs
+  imported seal). Run all solves MYSELF via background-notify, WRITE runs to a file not a grep-pipe
+  (buffering loses output on kill); agents HANG on solves — build-only, NEVER delegate a solve.
 The "migration" (wiring the derived operator into the LIVE p1_residual + flipping the 5 P1 xfails) is a
 SEPARATE gated step, not the immediate next.
 
