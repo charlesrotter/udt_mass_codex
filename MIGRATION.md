@@ -29,10 +29,17 @@ analytic metric — it cannot catch a solve-level divergence; this guard can.)
   increment must preserve.
 
 ## Increments (each: EDIT p1 in place → guard → `pytest tests/` → commit)
-- [ ] **M1 — derived operator + φ, kinetic OFF.** Add φ as a 9th unknown + its EL row; swap
-  `einstein_general_hybrid` → `branch_operator.E_mixed_branch` (e^{2φ} weight), with **X=0** (kinetic off),
-  Branch G (no U). Keep S³ matter, kap8=0.05. Guard must stay GREEN. (Isolates: does the e^{2φ} weight +
-  φ-field alone diverge? Expect no.)
+- [x] **M1 — derived operator + φ, small X. DONE 2026-06-24, GUARD GREEN.** Replaced pack8→pack6
+  (a,b,c,d,Th,**φ**); residual now uses the audited `branch_operator.E_mixed_branch` + `EL_phi_branch`
+  (e^{2φ} weight) at **X=−1** (small/non-stiff — X=0 is degenerate: φ drops out of its own EL), Branch G,
+  S³ matter, kap8=0.05, diagonal (off-diagonals DROPPED — deferrable). Added φ(seal)=0 BC.
+  - **jacrev-safety fix** (the guard caught it): `b1prime.EL_Th_3d` uses `requires_grad_` (functorch
+    forbids it under jacrev) → wrote `_el_Th_weighted` using `torch.func.grad` (the validated branchGP
+    pattern). The guard caught this on the first run — the migration working as intended.
+  - guard: **GREEN** — Nr=10 Phi=1.2e-17 warp=1.043 (30s); Nr=14 Phi=1.6e-14 warp=1.119. FLOOR+N-CONVERGE
+    pass. ~5× faster than the 8-field baseline. pytest: 23 pass / 5 xfail (flipped `test_derived_a_phi_in_operator`).
+  - **Localizes the divergence:** the e^{2φ} weight + φ at small X are CLEAN → branchGP's divergence is NOT
+    here; it's in M2 (X→−2e5), M3 (Branch-P U), or M4 (native S²/kap8=1).
 - [ ] **M2 — X-kinetic ON, via continuation.** Turn on the X (∂φ)² term, ramping X 0 → −2e5
   (continuation-in-X is the in-built fix for its stiffness). Guard at each X. (Suspected primary culprit —
   the X=−2e5 singular stiffness we diagnosed. If the guard goes RED here, that's confirmed and the fix is

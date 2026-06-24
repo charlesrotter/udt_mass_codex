@@ -31,7 +31,7 @@ torch.set_default_dtype(torch.float64)
 from full3d_spectral import (Grid3D, attach_coord_weight, build_metric,
                              einstein_mixed_weyl, field_n, PI, T, R, TH, PS)
 from p1_residual_general_einstein import (residual_vector_p1, einstein_general_hybrid,
-                                          pack8)
+                                          pack6)
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OPERATOR_FILE = os.path.join(REPO, "p1_residual_general_einstein.py")
@@ -102,24 +102,29 @@ def _grid(Nr=12, Nth=8, Nps=8, rc=0.05, cell=14.0):
 # 1. LIVENESS  -- every live DOF must move the residual (off-diagonals not dead)
 # =============================================================================
 def test_all_dofs_live(grid, offround_fields):
-    """Perturb each of the 8 P1 fields at an interior body node on a GENERIC OFF-ROUND
-    background; the residual MUST change.  An unmoved residual = a dead DOF / a secretly
-    diagonal operator (the historical 'off-diagonals built but dead' bug)."""
-    fields = [f.clone() for f in offround_fields]
-    F0 = residual_vector_p1(pack8(*fields), grid, p=0.4, kap8=0.05)
+    """Perturb each of the 6 M1 fields (a,b,c,d,Th,phi) at an interior body node on a
+    GENERIC OFF-ROUND background; the residual MUST change.  An unmoved residual = a dead
+    DOF / a secretly degenerate operator.  (M1 dropped the spatial off-diagonals -- the
+    diagonal derived scalar-tensor target -- and added phi as the 6th field.)"""
+    a, b, c, d, Th = [f.clone() for f in offround_fields[:5]]
+    # phi: a generic nonzero off-round dilation field (so no DOF is symmetry-decoupled)
+    R, TH, PS = grid.Rg, grid.THg, grid.PSg
+    rmid = 0.5 * (grid.rc + grid.ri)
+    phi = 0.03 * torch.exp(-((R - rmid) / 2.0) ** 2) * (1.0 + 0.2 * torch.cos(TH) * torch.cos(PS))
+    fields = [a, b, c, d, Th, phi]
+    F0 = residual_vector_p1(pack6(*fields), grid, p=0.4, kap8=0.05)
     ir, it, ip = grid.Nr // 2, grid.Nth // 2, grid.Nps // 2
-    names = ["a", "b", "c", "d", "Th", "e_rt", "e_rp", "e_tp"]
+    names = ["a", "b", "c", "d", "Th", "phi"]
     moved = {}
     for k, name in enumerate(names):
         pert = [f.clone() for f in fields]
         pert[k][ir, it, ip] += 1e-3
-        F1 = residual_vector_p1(pack8(*pert), grid, p=0.4, kap8=0.05)
+        F1 = residual_vector_p1(pack6(*pert), grid, p=0.4, kap8=0.05)
         moved[name] = float((F1 - F0).norm())
     dead = {n: v for n, v in moved.items() if v < 1e-9}
     assert not dead, f"DEAD DOF(s) -- residual unmoved by perturbation: {dead}\n all: {moved}"
-    # the named bug: the three spatial off-diagonals specifically must be live
-    for od in ("e_rt", "e_rp", "e_tp"):
-        assert moved[od] > 1e-9, f"off-diagonal {od} is DEAD ({moved[od]:.2e})"
+    # the derived dilation field phi specifically must be live
+    assert moved["phi"] > 1e-9, f"phi DOF is DEAD ({moved['phi']:.2e})"
 
 
 def test_time_row_is_frozen_static(grid, offround_fields):
@@ -179,14 +184,16 @@ def test_matter_couplings_tagged():
     assert _line_has_tag(line), f"untagged xi/kap at stress call: {line.strip()!r}"
 
 
-@pytest.mark.documented_gap
-@pytest.mark.xfail(reason="live operator is the a=-1 (GR) baseline; the DERIVED a(phi)=e^{phi} "
-                          "is not wired into the production residual. P2 / migration.",
-                   strict=False)
 def test_derived_a_phi_in_operator():
-    """CLEAN target: the production path is no longer pinned to the a=-1 GR baseline."""
-    src = _src(CALLER_FILE)
-    assert "a=-1" not in src and "a = -1" not in src, "operator still on the a=-1 baseline"
+    """The production residual is migrated to the DERIVED scalar-tensor operator (M1):
+    it no longer reads the a=-1 GR baseline; the field equations come from the audited
+    branch_operator (E_mixed_branch / EL_phi_branch).  Was an xfail documented_gap; now
+    XPASSes after the M1 migration, flipped to a hard assert."""
+    src = _src(OPERATOR_FILE)
+    assert "import branch_operator" in src, "operator residual does not import branch_operator"
+    rv = inspect.getsource(residual_vector_p1)
+    assert "E_mixed_branch" in rv, "residual does not use the derived E_mixed_branch operator"
+    assert "a=-1" not in rv and "a = -1" not in rv, "residual still on the a=-1 baseline"
 
 
 # =============================================================================

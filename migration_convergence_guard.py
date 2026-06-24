@@ -41,10 +41,10 @@ def _solve(nr):
     dev = G.dev; r = G.Rg; s = (r - G.rc) / (G.ri - G.rc)
     z = torch.zeros(nr, G.Nth, G.Nps, device=dev)
     a = -1.0 * (1 - s); b = 1.0 * (1 - s); Th = math.pi * (1 - s)
-    u0 = P1.pack8(a, b, z.clone(), z.clone(), Th, z.clone(), z.clone(), z.clone())
+    u0 = P1.pack6(a, b, z.clone(), z.clone(), Th, z.clone())
     u, hist = P1.newton_solve_p1(u0, G, p=P, kap8=KAP8, m=M, maxit=MAXIT,
                                  core_mode='deg1', verbose=False)
-    a, b, c, d, Th, ert, erp, etp = P1.unpack8(u, G)
+    a, b, c, d, Th, phi = P1.unpack6(u, G)
     F = P1.residual_vector_p1(u, G, P, KAP8, m=M, core_mode='deg1')
     Phi = float((F * F).sum())
     mw = max(float(x.abs().max()) for x in (a, b, c, d))

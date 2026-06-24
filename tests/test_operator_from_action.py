@@ -21,7 +21,7 @@ from full3d_spectral import (Grid3D, attach_coord_weight, build_metric, einstein
 import whole_metric_3d_matter as MAT
 from einstein_3d_general_eval import einstein_mixed_general
 from full3d_newton import inv4x4, det4x4
-from p1_residual_general_einstein import residual_vector_p1, einstein_general_hybrid, pack8
+from p1_residual_general_einstein import residual_vector_p1, einstein_general_hybrid, pack6
 import solver_action as ACT
 
 VALID_TAGS = {"DERIVED", "FREE", "IMPORTED", "MIGRATION-DEFERRED"}
@@ -110,12 +110,17 @@ def test_matter_field_eom_consistent_with_action():
 #    kap8 sign/order, the component list, G - kap8 T not G - 2 kap8 T).  Tautological as an
 #    EL proof (same engine on both sides); valuable as a drift/regression guard.
 # =============================================================================
+@pytest.mark.xfail(reason="off-diagonals dropped in M1 derived-operator migration; the residual "
+                          "now assembles the DERIVED diagonal scalar-tensor operator "
+                          "(E_mixed_branch) not the GR hybrid G-kap8 T 7-row stack. Re-add this "
+                          "assembly lock against the derived operator as a later derived-P1 step.",
+                   strict=False)
 def test_residual_assembles_einstein_eq():
     G = _grid()
     a, b, c, d = _smooth(G, 0.05), _smooth(G, 0.04), _smooth(G, 0.03), _smooth(G, 0.02)
     Th = 0.6 * torch.exp(-(G.Rg - 0.1)) * (1.0 + 0.1 * torch.cos(G.THg))
     z = torch.zeros_like(a)
-    u = pack8(a, b, c, d, Th, z, z, z)
+    u = pack6(a, b, c, d, Th, z)
     p, kap8 = 0.4, 0.05
 
     F = residual_vector_p1(u, G, p, kap8)
