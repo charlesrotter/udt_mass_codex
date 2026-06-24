@@ -9,8 +9,14 @@
 > explicit G/P switch, blind-verified, committed 9cd80ef), Step B DONE (`branchGP_native_s2_coupled_OBSERVE.py`,
 > coupled residual w/ native S² radial twist live), Step C THROUGHPUT-LIMITED/INCONCLUSIVE (G floors to the
 > 1/r² defect; P stiffer, didn't floor — only signal = U pulls φ ~5× deeper; record =
-> `branch_p_coupled_observe_partial_results.md`). **NEXT = build the JFNK/preconditioned coupled solver**
-> (prior: `p5a_prime_jfnk_fast.py`) → floor Branch-P → the seal-independence gate. Full detail = LIVE.md.
+> `branch_p_coupled_observe_partial_results.md`). **JFNK SOLVER BUILT** (`jfnk_branch_solver.py`, committed
+> 4c0acb6, record `jfnk_solver_results.md`): matrix-free jvp/vjp+LSMR+Jacobi-PC, **~15× faster**, FIDELITY
+> INTACT (a 1-D/4-D Krylov shape bug fixed = flat-space storage fix; JFNK reaches a LOWER residual = same
+> branch, more converged). CAVEAT: STALLS near Phi≈4 with pc='none'; Branch P not yet reached. **NEXT (next
+> session) = break the stall + FLOOR** (pc='jacobi'→block/spectral PC + inner-tol/line-search tuning; the
+> genuine #60 conditioning wall) → floor Branch-P (localized body/scale vs the 1/r² defect?) → seal-
+> independence gate. RUN SOLVES YOURSELF via background-notify (agents HANG on solves); write long runs to a
+> FILE not a grep-pipe. Full detail = LIVE.md + jfnk_solver_results.md.
 
 ## *** STANDING BINDING DISCIPLINE — read every resume (Charles 2026-06-19) ***
 **MISMATCH -> SOLVER, NOT MECHANISM.** If a result is far from observation, the FIRST hunt is the

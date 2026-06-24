@@ -7,8 +7,12 @@
 > "scale-free defect" silently used Branch G; testing untried Branch P (keeps the φ-angular potential).
 > Step A `branch_operator.py` (G/P switch, verified, 9cd80ef) + Step B `branchGP_native_s2_coupled_OBSERVE.py`
 > (coupled residual, radial twist live) DONE; Step C throughput-limited/INCONCLUSIVE (G→1/r² defect; P stiffer,
-> unfloored; U pulls φ ~5× deeper). NEXT = build the JFNK coupled solver, then floor Branch-P + seal-independence
-> gate. Detail = LIVE.md + branch_p_coupled_observe_partial_results.md.
+> unfloored; U pulls φ ~5× deeper). JFNK SOLVER BUILT (jfnk_branch_solver.py, committed 4c0acb6, record
+> jfnk_solver_results.md): matrix-free, ~15× faster, fidelity intact (a 1-D/4-D Krylov shape bug fixed = storage
+> fix, not a fidelity loss); CAVEAT stalls near Phi≈4 with pc='none', Branch P not yet reached. NEXT (next session)
+> = break the stall + FLOOR (pc='jacobi'→block/spectral PC + inner-tol tuning; the #60 conditioning wall) → floor
+> Branch-P (localized vs 1/r² defect?) → seal-independence gate. Run solves yourself via background-notify (agents
+> hang); write long runs to a FILE not a grep-pipe. Detail = LIVE.md + jfnk_solver_results.md.
 
 *** 2026-06-23 CURRENT ACTIVITY (a Charles-requested DETOUR; physics frontier below is UNCHANGED, only deferred):
 SOLVER-INTEGRITY-UPGRADES arc (spec = SOLVER_INTEGRITY_UPGRADES_SPEC.md). P1 DONE + committed (4ef7add),
