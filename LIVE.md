@@ -31,31 +31,31 @@ acceptance tests** (kap8=1, a=e^φ, native S², core_mode free, ξ/κ tags). Mig
 the curvature **Branch G/P fork** (= the φ-angular tension) and the **e^{2φ} matter weight**
 (PARTIALLY-TRACED — a flagged CHOSE, NOT derived for field matter; P4).
 
-## NEXT ACTION — BUILD THE PROPER (JFNK) COUPLED SOLVER (Charles 2026-06-23)
-The BRANCH-P PUSH is underway (testing whether native matter localizes / selects a scale on Branch P,
-the untried branch that keeps the φ-angular potential — see PHYSICS FRONTIER below). Status:
-- **Step A DONE** (committed 9cd80ef): `branch_operator.py` — the DERIVED gravity operator with an
-  EXPLICIT G/P switch (blind-verified). Closed the silent-branch + uncommitted-operator gaps.
-- **Step B DONE**: `branchGP_native_s2_coupled_OBSERVE.py` — the static coupled residual, 6 LIVE fields
-  incl. the native S² radial twist `gtw` (the unfrozen rigid-slice DOF); G-control reproduces the defect.
-- **Step C THROUGHPUT-LIMITED / INCONCLUSIVE** (record = `branch_p_coupled_observe_partial_results.md`):
-  bounded GPU solves floored G (Phi~37, 1/r² defect) but NOT P (Phi~1.5e4 — P is STIFFER; the U potential
-  pulls φ ~5× deeper = the scale-breaker ACTS, but rho/localization are seed-dominated, inconclusive).
-  The wall is SOLVER THROUGHPUT (dense jacrev ~113s/iter + P stiffness = the known #60 conditioning wall).
-- **JFNK SOLVER BUILT** (`jfnk_branch_solver.py`, record = `jfnk_solver_results.md`): matrix-free
-  jvp/vjp + LSMR + Jacobi-PC + damping. Fixed a 1-D/4-D Krylov shape bug (flat-space fix; fidelity
-  INTACT — confirmed: JFNK reaches a LOWER residual than dense-LM = same branch, more converged).
-  **~15× faster** on Branch G (Phi 2.3e5→3.9 in 2 iters/120s vs dense-LM 37/340s). CAVEAT: **STALLS
-  near Phi≈4 with pc='none'** (not tightly floored); Branch P not yet reached.
-- **→ NOW: break the stall + FLOOR.** The Jacobi PC is ALREADY wired (`jfnk_solve(..., pc='jacobi')`,
-  jfnk_branch_solver.py ~L210); the stall was a run with the DEFAULT `pc='none'`. So: SWITCH to
-  `pc='jacobi'` + tune the inner-tol/line-search knobs (`eta0/eta_min/tol/lsmr_maxit`) so JFNK floors
-  tightly; BUILD the block/spectral PC only if Jacobi isn't enough. THEN floor Branch P (the OBSERVE:
-  localized body / selected scale vs the 1/r² defect?) → the SEAL-INDEPENDENCE gate (native scale vs
-  imported seal). Run all solves MYSELF via background-notify, WRITE runs to a file not a grep-pipe
-  (buffering loses output on kill); agents HANG on solves — build-only, NEVER delegate a solve.
-The "migration" (wiring the derived operator into the LIVE p1_residual + flipping the 5 P1 xfails) is a
-SEPARATE gated step, not the immediate next.
+## BRANCH-P PUSH — DONE/RESOLVED (2026-06-24): solver fixed, no static localization, X-premise caught
+The Branch-P push (does native matter localize / select a scale on the untried φ-angular branch?) is
+RESOLVED for STATICS. Record = `branchP_solver_floor_xcontinuation_results.md` (blind-verified
+PASS-WITH-FIXES; NEGATIVES_REGISTRY #66). Steps A+B (committed 9cd80ef): `branch_operator.py` (derived
+G/P-switch operator) + `branchGP_native_s2_coupled_OBSERVE.py` (static coupled residual, 6 LIVE fields
+incl. native S² twist `gtw`). What the floor push found:
+- **The solver is FIXED via CONTINUATION-IN-X** (`x_continuation.py`): warm-start up a geometric X-ladder
+  floors X=−2e5 to Φ=0.18 where every cold-started solver sticks (cold −2e5: Φ=2720). The wall was the
+  singularly-stiff φ-equation (`2X·div≈2U'(φ)`, X=−2e5 huge → φ forced ~flat; EL_φ≈X·curvature-error).
+- **Solver-integrity catches:** the "P stall at Φ=8.67" was a stochastic unseeded-Jacobi-PC artifact (P
+  floors ~like G); the interior-Einstein "obstruction" (cond~1e10) was a SCALING artifact — Ruiz
+  equilibration drove Einstein residual→0, moving it to EL_φ (NOT under-resolution, NOT a missing term).
+- **PREMISE CAUGHT:** X=−2e5 is a CHOSEN placeholder (`FREE`, Cassini-bounded half-line; branch_operator.py:85)
+  that throttles φ ∝1/|X| — so "scale-free" was X-conditioned. But unthrottling φ (continuation) does NOT
+  reveal a hidden body: the extra structure is BC BOUNDARY-LAYERS (φ=−0.40 core/+0.44 seal, ~0.01 body),
+  NOT an interior core. **Static Branch P = scale-free defect, no interior localization** (scoped: Nr=10
+  coarse, static-only, deep-regime X OPEN).
+- **→ NEXT (Charles's pick at the next ponder):** statics on BOTH branches now say scale-free defect with
+  the solver trustworthy → the φ-angular discreteness hunch's one UNTESTED instrument is the **TIME-LIVE /
+  non-stationary native S²** (PHYSICS FRONTIER below). Optional firming: Nr=16/24 grid-refine to resolve
+  the boundary layers and close the coarse-grid caveat. The "migration" (wire the derived operator into
+  the LIVE p1_residual + flip the 5 P1 xfails) remains a SEPARATE gated step.
+- **OPERATIONAL (relearned, 2026-06-24):** run solves MYSELF, bounded, single process; `run_in_background`
+  WITHOUT `nohup` (nohup detaches from the harness tracker → false "complete"); agents HANG on solves —
+  build-only, never delegate a solve.
 
 ## PHYSICS FRONTIER (parked, unchanged): TIME-LIVE NATIVE S²
 Live foundational state (2026-06-22 native-matter arc, all blind-verified):

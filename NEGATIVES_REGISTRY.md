@@ -1958,3 +1958,28 @@ CS5. THE SEAL IS NOT THE BELL-NONLOCALITY CHANNEL (no-signaling + self/terminus 
    nonlinear + spatial-l>=2 corner (the one residual scope cost); or any box-invariant quantity surfacing there.
    FORWARD: this NEGATIVE retires the "catalog = one carrier's spectrum/tower" template; the catalog frontier
    pivots to DISTINCT SECTORS (charge/winding labels + the free non-stationary/off-diagonal/ensemble DOF).
+
+## Static Branch-P localization, X-continuation floored (2026-06-24, blind-verified)
+#66. STATIC BRANCH-P NATIVE S² SHOWS NO INTERIOR LOCALIZATION EVEN WITH φ UNTHROTTLED -- φ's response to
+   the scale-breaker is a BC BOUNDARY-LAYER (core/seal), NOT a self-bound core; the physical body stays a
+   featureless ~1/r² defect. Doc: branchP_solver_floor_xcontinuation_results.md (+blind verifier
+   a7456ae7e3f520d1e PASS-WITH-FIXES, fixes applied). The Branch-P push to floor the coupled solver became
+   a SOLVER-INTEGRITY arc: (a) the "P stall at Φ=8.67" was a STOCHASTIC unseeded-Jacobi-PC artifact (P
+   floors ~like G, 3.49); (b) the apparent interior-Einstein obstruction (cond~1e10 on E_TT/E_RR) was a
+   SCALING artifact -- Ruiz equilibration drove the Einstein residual to 0 and moved it to EL_φ (NOT
+   under-resolution, NOT a missing term); (c) the real wall is the singularly-stiff φ-equation
+   (2X·div≈2U'(φ) with X=-2e5 huge => φ forced ~flat, EL_φ≈X·curvature-error); (d) X=-2e5 is a CHOSEN
+   placeholder (FREE within a Cassini-bounded half-line; branch_operator.py:85) that throttles φ ∝1/|X| --
+   so the "scale-free" verdict was X-CONDITIONED; (e) CONTINUATION IN X fixes the stiffness (floors -2e5 to
+   Φ=0.18 where the cold seed sticks at 2720) AND re-grades scale-free vs |X|; (f) the extra structure
+   continuation finds is BC boundary-layers (φ=-0.40 core / +0.44 seal, ~0.01 body; U-shaped edge-spiked
+   body), under-resolved at Nr=10, NOT an interior body. => unthrottling φ does NOT reveal a hidden particle.
+   Premises: Nr=10/Nth=6/Nps=8 (COARSE -- boundary layers ~1 node, magnitudes grid-dependent; the shape-read
+   is robust), STATIC only (time-live UNTESTED), X=-2e5 chosen (deep-regime X OPEN), DATA-BLIND, derived
+   Branch-P operator + native S² L2+L4, gtw free both ends. Multi-branch "distinct" = continuation reaches a
+   floorable boundary-layer state the cold seed cannot (Φ=0.18 vs 2720), NOT two clean physical branches.
+   Status: STANDING (scoped). CONDITIONS-CHANGED reopener: Nr=16/24 resolving the boundary layers into a
+   peaked interior core; a deep-regime derivation fixing X≠-2e5 that un-throttles φ into a self-bound body;
+   or the TIME-LIVE native S² producing a localized object the statics cannot. FORWARD: statics on BOTH
+   branches now say scale-free defect with the solver trustworthy + the X-premise retired => the φ-angular
+   discreteness hunch's one untested instrument is the TIME-LIVE / non-stationary native S².
