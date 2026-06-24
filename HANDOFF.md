@@ -2,6 +2,15 @@
 
 > **READ `LIVE.md` FIRST** — it is the short, only-guaranteed-current file (frontier + next action).
 > This HANDOFF is the detailed record; if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
+>
+> **CURRENT ACTIVITY (2026-06-23 late): the BRANCH-P PUSH.** Integrity arc P1-P5 DONE. Then found the
+> native-S² "scale-free defect" verdict silently used Branch G (gauges the φ-angular potential AWAY);
+> testing the untried **Branch P** (keeps it = a scale-breaker = the hunch). Step A DONE (`branch_operator.py`,
+> explicit G/P switch, blind-verified, committed 9cd80ef), Step B DONE (`branchGP_native_s2_coupled_OBSERVE.py`,
+> coupled residual w/ native S² radial twist live), Step C THROUGHPUT-LIMITED/INCONCLUSIVE (G floors to the
+> 1/r² defect; P stiffer, didn't floor — only signal = U pulls φ ~5× deeper; record =
+> `branch_p_coupled_observe_partial_results.md`). **NEXT = build the JFNK/preconditioned coupled solver**
+> (prior: `p5a_prime_jfnk_fast.py`) → floor Branch-P → the seal-independence gate. Full detail = LIVE.md.
 
 ## *** STANDING BINDING DISCIPLINE — read every resume (Charles 2026-06-19) ***
 **MISMATCH -> SOLVER, NOT MECHANISM.** If a result is far from observation, the FIRST hunt is the

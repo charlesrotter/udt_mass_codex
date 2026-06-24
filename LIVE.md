@@ -31,11 +31,23 @@ acceptance tests** (kap8=1, a=e^φ, native S², core_mode free, ξ/κ tags). Mig
 the curvature **Branch G/P fork** (= the φ-angular tension) and the **e^{2φ} matter weight**
 (PARTIALLY-TRACED — a flagged CHOSE, NOT derived for field matter; P4).
 
-## NEXT ACTION
-Integrity arc done → **resume the physics frontier** (below): MAP the two decisions with Charles and
-get sign-off BEFORE any build (do NOT auto-launch a solve). The "migration" (wiring the DERIVED
-operator + native S² matter into the live solver, which flips the 5 P1 xfails green) is a SEPARATE
-gated step, not the immediate next — reach for it only when a result points there.
+## NEXT ACTION — BUILD THE PROPER (JFNK) COUPLED SOLVER (Charles 2026-06-23)
+The BRANCH-P PUSH is underway (testing whether native matter localizes / selects a scale on Branch P,
+the untried branch that keeps the φ-angular potential — see PHYSICS FRONTIER below). Status:
+- **Step A DONE** (committed 9cd80ef): `branch_operator.py` — the DERIVED gravity operator with an
+  EXPLICIT G/P switch (blind-verified). Closed the silent-branch + uncommitted-operator gaps.
+- **Step B DONE**: `branchGP_native_s2_coupled_OBSERVE.py` — the static coupled residual, 6 LIVE fields
+  incl. the native S² radial twist `gtw` (the unfrozen rigid-slice DOF); G-control reproduces the defect.
+- **Step C THROUGHPUT-LIMITED / INCONCLUSIVE** (record = `branch_p_coupled_observe_partial_results.md`):
+  bounded GPU solves floored G (Phi~37, 1/r² defect) but NOT P (Phi~1.5e4 — P is STIFFER; the U potential
+  pulls φ ~5× deeper = the scale-breaker ACTS, but rho/localization are seed-dominated, inconclusive).
+  The wall is SOLVER THROUGHPUT (dense jacrev ~113s/iter + P stiffness = the known #60 conditioning wall).
+- **→ NOW: build the research-grade JFNK / preconditioned coupled solver** (prior JFNK exists:
+  `p5a_prime_jfnk_fast.py`; COMPLETION-flagged). Wire it to the branchGP `residual_vec`. It unblocks
+  ALL downstream coupled solves (Branch-P static floor → localized vs defect; the SEAL-INDEPENDENCE gate
+  = native-scale-vs-imported-seal; off-round; time-live). Then re-run Step C floored.
+The "migration" (wiring the derived operator into the LIVE p1_residual + flipping the 5 P1 xfails) is a
+SEPARATE gated step, not the immediate next.
 
 ## PHYSICS FRONTIER (parked, unchanged): TIME-LIVE NATIVE S²
 Live foundational state (2026-06-22 native-matter arc, all blind-verified):

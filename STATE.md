@@ -2,6 +2,13 @@
 
 > **READ `LIVE.md` FIRST** — the short, only-guaranteed-current file. STATE is the detailed append-log;
 > if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
+>
+> **2026-06-23 LATE — BRANCH-P PUSH (current):** integrity arc P1-P5 done; found the native-S²
+> "scale-free defect" silently used Branch G; testing untried Branch P (keeps the φ-angular potential).
+> Step A `branch_operator.py` (G/P switch, verified, 9cd80ef) + Step B `branchGP_native_s2_coupled_OBSERVE.py`
+> (coupled residual, radial twist live) DONE; Step C throughput-limited/INCONCLUSIVE (G→1/r² defect; P stiffer,
+> unfloored; U pulls φ ~5× deeper). NEXT = build the JFNK coupled solver, then floor Branch-P + seal-independence
+> gate. Detail = LIVE.md + branch_p_coupled_observe_partial_results.md.
 
 *** 2026-06-23 CURRENT ACTIVITY (a Charles-requested DETOUR; physics frontier below is UNCHANGED, only deferred):
 SOLVER-INTEGRITY-UPGRADES arc (spec = SOLVER_INTEGRITY_UPGRADES_SPEC.md). P1 DONE + committed (4ef7add),
