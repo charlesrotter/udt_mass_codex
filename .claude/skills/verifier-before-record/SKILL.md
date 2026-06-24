@@ -25,6 +25,13 @@ same pass.
 - Leave the repo EXACTLY as found (restore scratch edits; note UNTRACKED files won't
   `git checkout` back — back them up manually).
 
+## Cross-model escalation (load-bearing calls — P4)
+For NATIVE-vs-IMPORT classifications, "must-quantize"-class verdicts, and CANON candidates, ALSO
+run a verifier on a DIFFERENT Claude tier (Agent `model=` param, e.g. driver=opus -> sonnet), fresh
+zero-context, pointed at the source docs NOT the prior verdict. Log the cross-model agent's
+id+model+verdict; a DISAGREEMENT is resolved or escalated to Charles, NEVER dropped — and if it
+refines a classification, update the source-of-truth. Protocol = `CROSS_MODEL_VERIFY.md`.
+
 ## Aim
 Aim verifiers HARDEST at results that CONFIRM the standing hypothesis (hypothesis discipline:
 "find what's real, not what confirms priors"). Record caveats; CLOSE or explicitly SCOPE them

@@ -154,11 +154,12 @@ def test_action_terms_tagged():
 
 
 def test_matter_weight_is_flagged_not_used():
-    """The spec's e^{2phi} matter weight is UNTRACED -- it must be recorded as a deferred,
-    flagged candidate-import, and must NOT be in the live matter operator."""
+    """The spec's e^{2phi} matter weight is a flagged CHOSE/posit for field matter (P4 cross-model
+    verified, PARTIALLY-TRACED) -- it must be recorded as a deferred, flagged not-derived term, and
+    must NOT be in the live matter operator."""
     mw = ACT.term("matter_weight")
     assert mw["tag"] == "MIGRATION-DEFERRED"
-    assert "UNTRACED" in mw["evidence"]
+    assert "CHOSE" in mw["evidence"]          # flagged as a posit, NOT derived for field matter
     assert mw["operator"] is None
 
 

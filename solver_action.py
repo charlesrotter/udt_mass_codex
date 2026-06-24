@@ -110,13 +110,17 @@ ACTION_TERMS = [
     dict(
         name="matter_weight",
         symbol="e^{2phi} in front of L_m",
-        weight="e^{2phi} (UNTRACED)",
-        tag="MIGRATION-DEFERRED",          # candidate smuggled import -- see below
+        weight="e^{2phi} (PARTIALLY-TRACED -- a flagged CHOSE for field matter)",
+        tag="MIGRATION-DEFERRED",          # a flagged posit, NOT derived for field matter -- see below
         operator=None,
-        evidence="UNTRACED: the e^{2phi} matter weight in SOLVER_INTEGRITY_UPGRADES_SPEC line 33 "
-                 "appears NOWHERE in F2/scale-symmetry/CANON; the corpus matter action has NO such "
-                 "factor. Inserting it CHANGES the matter field equations. FLAGGED as a candidate "
-                 "smuggled import; the GR-baseline does NOT use it.",
+        evidence="PARTIALLY-TRACED (P4 cross-model verified, Sonnet 2026-06-23, agent af66e7f4a8b64ad09): "
+                 "a(phi)=e^{+phi} is DERIVED only for a STATIC POINT-PARTICLE rest-mass "
+                 "(native_dilation_weight_derivation D2). Extending it to the FULL field-matter Lagrangian "
+                 "as e^{2phi}L_m is an explicitly-FLAGGED CHOSE (matter_regrade_derived_operator_results R3, "
+                 "l.240; the author's own Attack-Here block calls it unresolved), NOT derived. The "
+                 "scale-symmetry principle gives angular field-matter weight 1 (e^0), not e^{2phi}; CANON is "
+                 "silent. Inserting it CHANGES the matter field equations. The GR-baseline does NOT use it. "
+                 "[Refines the P2 'appears nowhere' wording -- it appears as a named CHOSE.]",
         migration_note="must be DERIVED or DROPPED at migration -- do NOT add to pass a test.",
     ),
 ]
