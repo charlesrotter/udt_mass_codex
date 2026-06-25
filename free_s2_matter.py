@@ -79,6 +79,27 @@ def nhat_from_components(n_raw):
     return n_raw / nrm[..., None], nrm
 
 
+def field_dn_components_exact(G, n_raw):
+    """dn[...,k,a] = d_k nhat_a for the PURE 3-component S^2 carrier, with d/dtheta computed by
+    the SPHERICAL-HARMONIC-EXACT operator (spectral_sph_exact) instead of the grid's
+    -sin(theta) D_mu (which mis-differentiates winding sin(theta) structure non-convergently).
+    This is the grid-fixed, FULLY-FREE dn (no imposed polar shape).  Quotient rule on nhat=n/|n|;
+    built by stacking (jacrev-/vmap-safe, no in-place)."""
+    from spectral_sph_exact import dtheta_exact_torch
+    nrm = torch.sqrt(torch.clamp((n_raw**2).sum(-1), min=1e-300))
+    inv = 1.0 / nrm
+
+    def proj(dnk):                                   # tangential (quotient-rule) derivative
+        ndotk = (n_raw * dnk).sum(-1)
+        return inv[..., None] * dnk - (inv**3 * ndotk)[..., None] * n_raw
+
+    z3 = torch.zeros_like(n_raw)                      # d_t = 0
+    dr = torch.stack([G.d_r(n_raw[..., a]) for a in range(3)], dim=-1)
+    dth = torch.stack([dtheta_exact_torch(n_raw[..., a]) for a in range(3)], dim=-1)  # EXACT
+    dps = torch.stack([G.d_ps(n_raw[..., a]) for a in range(3)], dim=-1)
+    return torch.stack([z3, proj(dr), proj(dth), proj(dps)], dim=-2)   # (...,4,3): t,r,th,ps
+
+
 def field_dn_components(G, n_raw):
     """dn[...,k,a] = d_k nhat_a, k over (t,r,th,ps) (d_t=0), a over the 3 S^2 comps.
 

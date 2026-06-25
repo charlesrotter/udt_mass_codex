@@ -26,6 +26,7 @@ USE: precompute the per-|m| matrices once; apply to a field via psi-FFT -> per-m
 d/dpsi stays the existing Fourier-exact operator (spectral_sph.psi_operators).  Validated in
 __main__ (the winding components + a free field, with convergence) -- BUILD/VALIDATE only, no solve.
 """
+import functools
 import numpy as np
 from scipy.special import roots_legendre, assoc_legendre_p_all
 
@@ -63,6 +64,38 @@ def build_dtheta_exact(Nth, Mmax):
     """Return {|m|: Dtheta_m (Nth x Nth)} for |m| = 0..Mmax."""
     mu, th, w = _gl_mu_nodes(Nth)
     return {m: dtheta_exact_matrix(mu, m) for m in range(Mmax + 1)}
+
+
+def dtheta_exact_operator(Nth, Nps):
+    """Precompute the SH-exact d/dtheta as a SINGLE real (Nth,Nps,Nth,Nps) tensor M:
+        (d_theta f)[I,J] = sum_{i,j} M[I,J,i,j] f[i,j].
+    Linear (psi-FFT -> per-mode Dtheta -> ipsi), so the composite is a constant real tensor --
+    apply it in torch by contraction (jacrev-/vmap-SAFE, no fft inside the traced residual)."""
+    Dmats = build_dtheta_exact(Nth, Nps // 2)
+    j = np.arange(Nps); k = np.arange(Nps)
+    F = np.exp(-2j * np.pi * np.outer(k, j) / Nps)         # Fhat[k] = sum_j F[k,j] f[j]
+    Finv = np.exp(2j * np.pi * np.outer(j, k) / Nps) / Nps  # f[j]    = sum_k Finv[j,k] Fhat[k]
+    freqs = np.fft.fftfreq(Nps, d=1.0 / Nps)
+    M = np.zeros((Nth, Nps, Nth, Nps), dtype=complex)
+    for kk in range(Nps):
+        mk = int(abs(round(freqs[kk])))
+        M += np.einsum('J,Ii,j->IJij', Finv[:, kk], Dmats[mk], F[kk, :])
+    return np.real(M)                                       # real for real fields
+
+
+@functools.lru_cache(maxsize=None)
+def _operator_torch(Nth, Nps, device, dtype_str):
+    import torch
+    M = dtheta_exact_operator(Nth, Nps)
+    return torch.as_tensor(M, device=device, dtype=getattr(torch, dtype_str))
+
+
+def dtheta_exact_torch(f):
+    """SH-exact d/dtheta of a torch field f (..., Nth, Nps).  Applies the cached constant
+    operator tensor by contraction -- jacrev/vmap-SAFE (no fft/scipy inside the traced call)."""
+    import torch
+    M = _operator_torch(f.shape[-2], f.shape[-1], str(f.device), str(f.dtype).split('.')[-1])
+    return torch.einsum('IJij,...ij->...IJ', M, f)
 
 
 def dtheta_exact(f, Dmats):
