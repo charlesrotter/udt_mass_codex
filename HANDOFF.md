@@ -13,7 +13,12 @@
 > φ=2.2) all GREEN; M4a (kap8 0.05→1.0 derived) = RED** — warp diverges with Nr (3.98→8.42). branchGP's
 > divergence is LOCALIZED to the **kap8=1 strong-matter coupling** (NOT operator/X/U/S²-vs-S³).
 >
-> **NEXT SESSION — three Charles items (discussed 2026-06-25, HOLD until next session):**
+> **NEXT SESSION — three Charles items (discussed 2026-06-25). ORDER IS BINDING: do item (2) FIRST.**
+> Item (2) — the anti-imposition GATE — comes BEFORE the item-(1) kap8 physics, not because it's "important"
+> but because **the kap8 analysis IS the first live test of the gate** ("characterize the solution, don't
+> demand smoothness"). Doing the physics without the gate in place just risks drifting again (the recurring
+> failure). Infrastructure before exciting stuff ([[infrastructure-first-not-exciting-stuff]]). So: build the
+> gate (2), THEN run the kap8 analysis (1) under it.
 > 1. **Reconcile the kap8 alternatives by ANALYSIS, not numerics:** instead of grinding grids to tell "real
 >    singularity vs under-resolved core vs bad-kap8," ANALYZE what the metric DOES at strong coupling using
 >    the GR corpus (Principle 4). The self-gravitating global monopole is solved in GR: as the effective

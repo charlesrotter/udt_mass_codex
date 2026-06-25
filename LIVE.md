@@ -24,14 +24,17 @@ STATUS: M1 (derived operator+φ) ✅, M2 (X-kinetic→−2e5) ✅, M3 (Branch-P 
 — all GREEN, committed/pushed. **M4a (kap8 0.05→1.0, the DERIVED value) = GUARD RED**: the warp diverges
 with Nr (3.98→8.42). => branchGP's divergence is LOCALIZED to the **kap8=1 strong-matter coupling** (NOT
 the operator / X-kinetic / Branch-P U / S²-vs-S³).
-**NEXT SESSION — 3 Charles items (discussed 2026-06-25, HELD; full text in HANDOFF.md TOP):** (1) reconcile
-the kap8 alternatives by ANALYSIS not numerics — GR corpus on the strong-coupling self-gravitating global
-monopole (deficit→1 ⇒ inflating de Sitter/horizon core), re-derived under the DERIVED operator; the
-kap8=1 warp-divergence is LIKELY a real horizon, not a bug. (2) Are we exploring the metric's solution
-space or IMPOSING physics motivations? — the guard's floor+N-converge demand may call a real horizon a
-"failure"; lean = OBSERVE the full space, don't "fix" a real feature into convergence. (3) Organize the
-repo (legacy/ + prototype/ subfolders). M4b (native S²) gated on (1). (Prior solver = `branchGP_*`, now a
-reference prototype; the 2026-06-23 integrity-upgrades arc below is HISTORICAL.)
+**NEXT SESSION — DO (2) FIRST, THEN (1); (3) is DONE** (full text + build instructions in HANDOFF.md TOP).
+**(2) [DO FIRST] BUILD the anti-imposition GATE** — turn "explore the solution space, don't IMPOSE" into a
+machine gate (CLAUDE tripwire + `solution-space-not-imposition` skill + a premise-ledger lint), because a
+memory/tripwire is recall-class and already FAILED to stop the recurring drift. It comes first because the
+item-(1) kap8 analysis IS the gate's first live test (characterize, don't demand smoothness); doing the
+physics without the gate risks drifting again. See [[solution-space-not-imposition]]. **(1) [THEN, under the
+gate] reconcile the kap8 divergence by ANALYSIS not numerics** — GR corpus on the strong-coupling
+self-gravitating global monopole (deficit→1 ⇒ inflating de Sitter/horizon core), re-derived under the DERIVED
+operator; the kap8=1 warp-divergence is LIKELY a real horizon, not a bug. (3) Repo reorg — DONE 2026-06-25.
+M4b (native S²) gated on (1). (Prior solver = `branchGP_*`, now a reference prototype; the 2026-06-23
+integrity-upgrades arc below is HISTORICAL.)
 
 ## (HISTORICAL) 2026-06-23: solver-integrity-upgrades arc — COMPLETE
 A Charles-requested detour to harden the solver's integrity MACHINERY before resuming the physics
