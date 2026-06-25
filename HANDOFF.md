@@ -21,16 +21,29 @@
 >    Liebling/Maison). Likely: the kap8=1 warp-divergence is a REAL strong-field feature (a forming horizon),
 >    not a bug. CAVEAT: transform under the DERIVED operator (e^{2φ} weight + X-kinetic change the critical
 >    condition) — native re-derivation, NOT an import.
-> 2. **Are we exploring the metric's solution space, or imposing physics motivations?** The guard's "must
->    floor + N-converge" criterion silently expects smooth/localized solutions; if the metric forms a horizon,
->    the guard calls real physics a "failure" (same pattern as the lump-ruler + box-control demand). Lean: let
->    the metric show its full solution space (incl. horizons/singular branches); OBSERVE, don't "fix" the kap8
->    divergence into convergence if it's the metric being honest. (Ties to item 1.)
-> 3. **Organize the repo:** legacy/stale → subfolders. `legacy/` (superseded research + reduced solvers),
->    `prototype/` (branchGP_* + the session's one-off drivers jfnk_*/equilibrated_*/x_continuation/sharpen_*/
->    grid_refine_*/seal_test/probe_phi_terms), lean working root (canonical p1+branch_operator+full3d+b1prime+
->    whole_metric, tests/, the guard, the live records). CAUTION: moving files changes import paths — one
->    careful reorg commit, verify harness+solver still run.
+> 2. **HARDEN "explore the solution space, don't impose" into a GATE — TOP PRIORITY** (Charles 2026-06-25;
+>    full detail in memory [[solution-space-not-imposition]]). A RECURRING DRIFT (multiple times in ~2 weeks):
+>    we slide from EXPLORING the metric's solution space to IMPOSING the expected physics. Purity gates catch
+>    *imports*; NOTHING catches *impositions*. A memory/tripwire is RECALL-class and ALREADY FAILED to stop the
+>    drift — so it must become a GATE like the purity harness (binding + machine-run, NOT remembered). BUILD it
+>    (parallel to how the purity gate was built: skill + harness + CLAUDE pointer):
+>    (a) a BINDING TRIPWIRE in CLAUDE.md (always-loaded): before any solve/result, tag every BC / matter-sector /
+>        coupling / acceptance-criterion as explored-free, pinned-by-THEORY (cite it), or pinned-by-HABIT
+>        (= drift flag); and ask "does the diagnostic CHARACTERIZE the solution or FILTER it (demand a shape /
+>        smoothness / the expected answer)?".
+>    (b) a discipline skill `.claude/skills/solution-space-not-imposition` (the 4-point audit: ansatz/BC ledger;
+>        acceptance-criterion audit; question audit vs the SM-template list lump/mass/particle/spectrum;
+>        solution-space completeness — classify the solutions, don't just find the one you sought).
+>    (c) a MACHINE component so it's ENFORCED not remembered — e.g. a required PREMISE-LEDGER section every
+>        results doc must carry (a pin with no theory citation FAILS the check), and/or a lint in `tests/`; wire
+>        the acceptance-criterion audit into verifier-before-record + a `completeness-map` criterion.
+>    SALVAGE of the current solver = MINOR-to-MODERATE, periphery-not-core (the CORE residual = EL of the action
+>    is faithful): reframe the GUARD from filter→CHARACTERIZER (minor); FREE the matter sector (the Θ(core)=π /
+>    charge-1 pin → scan it) (moderate); the lump-questions are HABIT (method, not code). Do this BEFORE/ALONGSIDE
+>    item 1 — the kap8 analysis IS the first live test of "characterize the solution, don't demand smoothness."
+> 3. **Organize the repo — DONE 2026-06-25** (code split `prototype/`+`legacy/`; docs 274→111 live + 164→`archive/`;
+>    3-pass agent-verified; INDEX refreshed — see REORG_PLAN.md). REMAINING (minor): a future pass could archive
+>    dead `native_*.py` (~1000 still flat in root) with the same import-safety check.
 >
 > RUN SOLVES YOURSELF via background-notify, NO nohup (it detaches from the tracker); guards are SLOW (hours).
 
