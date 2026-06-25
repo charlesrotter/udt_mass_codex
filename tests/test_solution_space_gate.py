@@ -59,10 +59,10 @@ PROJECT_MODULE_REGISTRY = {
     "b1prime_3d_offround_residual": "action-EL-derived: validated derived-operator assembly (E_mixed/EL_phi/EL_Th)",
     "full3d_spectral":              "numeric-method: spectral grid, metric build, coord weights",
     "full3d_newton":                "numeric-method: vmap-safe 4x4 inverse/determinant",
-    "full3d_solver":                "AUDIT-PENDING: pack/unpack + driver -- verify no smuggled BC/ansatz",
-    "spectral_radial_soliton":      "AUDIT-PENDING: name flags a possible soliton ANSATZ (physics) -- verify it is dead/numeric on the live path, not an imposed profile",
-    "whole_metric_3d_core":         "AUDIT-PENDING: metric-core helpers -- verify numeric vs physics pins",
-    "whole_metric_3d_matter":       "AUDIT-PENDING: matter helpers -- verify the stress/winding is action-sourced",
+    "full3d_solver":                "numeric-method: pack/unpack (live path uses ONLY these) + Newton-LM drivers; its own residual_vector + round_seed are LEGACY/DEAD on the p1 path (solver-proliferation residue) -- CLEANUP: rewire pack/unpack so the live graph stops pulling this module's physics surface (audited 2026-06-25)",
+    "spectral_radial_soliton":      "numeric-method: standalone 1-D radial soliton SOLVER; DEAD on the live residual path (reached only via full3d_solver.round_seed, which the p1 solver does NOT call -- the guard builds its own linear seed). LATENT imposition vector: round_seed embeds the #56 round soliton as an initial guess (audited 2026-06-25)",
+    "whole_metric_3d_core":         "numeric-method: curvature calculus -- finite-diff, metric inverse, Christoffel, Einstein tensor (audited 2026-06-25, no physics pin)",
+    "whole_metric_3d_matter":       "action-EL-derived: matter stress/Lagrangian = Hilbert variation of L_m; carries the imported S^3 hedgehog ANSATZ (hedgehog_n) = the DOCUMENTED native-S^2 migration gap owned by P1 xfails test_matter_winding_is_native_S2 / test_default_core_mode_is_native_free (audited 2026-06-25, not a hidden smuggle)",
     "einstein_3d_eval":             "numeric-method: Einstein-tensor evaluator (Weyl form)",
     "einstein_3d_weyl_gen":         "numeric-method: sympy-generated Einstein components (codegen)",
     "spectral_cheb":                "numeric-method: Chebyshev nodes + Clenshaw-Curtis weights",
@@ -127,14 +127,11 @@ def test_solver_imports_are_numeric_or_registered():
         "\n  ".join(f"{i} -> {m}  [{why}]" for i, m, why in offenders))
 
 
-@pytest.mark.documented_gap
-@pytest.mark.xfail(reason="some reached project modules are AUDIT-PENDING / SMUGGLES until the "
-                          "direct solver audit classifies them; XPASSes when the audit closes.",
-                   strict=False)
 def test_no_unaudited_or_smuggling_modules():
-    """CLEAN target (provenance).  No reached project module is left AUDIT-PENDING or found to
-    SMUGGLE physics not sourced from the action.  This XPASSes the day the direct audit resolves
-    every classification to numeric-method / action-EL-derived -- the self-resolving tripwire."""
+    """HARD (provenance).  No reached project module is left AUDIT-PENDING or found to SMUGGLE
+    physics not sourced from the action.  Was an xfail documented_gap; the direct audit
+    (2026-06-25) classified every reached module to numeric-method / action-EL-derived, so this
+    is now a live assert -- it REDs if a new unaudited/smuggling module enters the solver graph."""
     seen, _ = _walk_solver_graph()
     open_items = {m: PROJECT_MODULE_REGISTRY[m] for m in sorted(seen)
                   if PROJECT_MODULE_REGISTRY.get(m, "").startswith(("AUDIT-PENDING", "SMUGGLES"))}
