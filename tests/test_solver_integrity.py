@@ -29,9 +29,9 @@ import pytest
 torch.set_default_dtype(torch.float64)
 
 from full3d_spectral import (Grid3D, attach_coord_weight, build_metric,
-                             einstein_mixed_weyl, field_n, PI, T, R, TH, PS)
+                             einstein_mixed_weyl, PI, T, R, TH, PS)
 from p1_residual_general_einstein import (residual_vector_p1, einstein_general_hybrid,
-                                          pack6, pack9)
+                                          pack11, seed_round_native)
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OPERATOR_FILE = os.path.join(REPO, "p1_residual_general_einstein.py")
@@ -51,6 +51,10 @@ STRUCTURAL_FLOATS = {0.0, 1e-30}
 # these lines is the documented xi=kap gap (surfaced by test_matter_couplings_tagged); a 1.0
 # anywhere ELSE in the operator is still flagged.
 REGISTERED_GAP_SITES = ("stress_tensor(",)
+# Registered STRUCTURAL sites (geometry of the native S^2 target, NOT physics couplings; anchored by
+# substring): the 3-component loop and the |n|=1 unit-sphere constraint.  A literal anywhere ELSE is
+# still flagged (e.g. a 3.0 coupling on a different line).
+STRUCTURAL_SITES = ("range(3)", "sum(-1) - 1.0")
 
 
 # ----------------------------------------------------------------------------- helpers
@@ -102,31 +106,34 @@ def _grid(Nr=12, Nth=8, Nps=8, rc=0.05, cell=14.0):
 # 1. LIVENESS  -- every live DOF must move the residual (off-diagonals not dead)
 # =============================================================================
 def test_all_dofs_live(grid, offround_fields):
-    """Perturb each of the 9 live fields (a,b,c,d,Th,phi + the 3 spatial off-diagonals
-    e_rt,e_rp,e_tp) at an interior body node on a GENERIC OFF-ROUND background; the residual
-    MUST change.  An unmoved residual = a dead DOF / a secretly degenerate operator.  (The
-    off-diagonal sector was completed 2026-06-25 -- gate #7; the e_* DOF are now live and the
-    residual carries their 3 off-diagonal Einstein rows.)"""
-    a, b, c, d, Th = [f.clone() for f in offround_fields[:5]]
+    """Perturb each of the 11 live fields (a,b,c,d + the 3 NATIVE-S^2 matter components n1,n2,n3 +
+    phi + the 3 spatial off-diagonals e_rt,e_rp,e_tp) at an interior body node on a GENERIC OFF-ROUND
+    background; the residual MUST change.  An unmoved residual = a dead DOF / a secretly degenerate
+    operator.  (Native-S^2 matter wired 2026-06-25: the matter is the free 3-component carrier; the
+    Theta-profile is retired.)"""
+    import free_s2_matter as S2M
+    a, b, c, d = [f.clone() for f in offround_fields[:4]]
     e_rt, e_rp, e_tp = [f.clone() for f in offround_fields[5:8]]   # generic off-round off-diagonals
-    # phi: a generic nonzero off-round dilation field (so no DOF is symmetry-decoupled)
     R, TH, PS = grid.Rg, grid.THg, grid.PSg
     rmid = 0.5 * (grid.rc + grid.ri)
     phi = 0.03 * torch.exp(-((R - rmid) / 2.0) ** 2) * (1.0 + 0.2 * torch.cos(TH) * torch.cos(PS))
-    fields = [a, b, c, d, Th, phi, e_rt, e_rp, e_tp]
-    F0 = residual_vector_p1(pack9(*fields), grid, p=0.4, kap8=0.05)
+    # native S^2 matter: a generic (non-trivially deformed) winding so each component is live
+    n = S2M.hedgehog_xr_components(grid, m=1).clone()
+    n1, n2, n3 = n[..., 0].clone(), n[..., 1].clone(), n[..., 2].clone()
+    fields = [a, b, c, d, n1, n2, n3, phi, e_rt, e_rp, e_tp]
+    F0 = residual_vector_p1(pack11(*fields), grid, p=0.4, kap8=0.05)
     ir, it, ip = grid.Nr // 2, grid.Nth // 2, grid.Nps // 2
-    names = ["a", "b", "c", "d", "Th", "phi", "e_rt", "e_rp", "e_tp"]
+    names = ["a", "b", "c", "d", "n1", "n2", "n3", "phi", "e_rt", "e_rp", "e_tp"]
     moved = {}
     for k, name in enumerate(names):
         pert = [f.clone() for f in fields]
         pert[k][ir, it, ip] += 1e-3
-        F1 = residual_vector_p1(pack9(*pert), grid, p=0.4, kap8=0.05)
+        F1 = residual_vector_p1(pack11(*pert), grid, p=0.4, kap8=0.05)
         moved[name] = float((F1 - F0).norm())
     dead = {n: v for n, v in moved.items() if v < 1e-9}
     assert not dead, f"DEAD DOF(s) -- residual unmoved by perturbation: {dead}\n all: {moved}"
-    # the derived dilation field phi specifically must be live
     assert moved["phi"] > 1e-9, f"phi DOF is DEAD ({moved['phi']:.2e})"
+    assert min(moved["n1"], moved["n2"], moved["n3"]) > 1e-9, "a native-S^2 matter DOF is DEAD"
 
 
 def test_time_row_is_frozen_static(grid, offround_fields):
@@ -158,7 +165,8 @@ def test_no_smuggled_literal_in_operator():
             line = src_lines[ln - 1] if 0 < ln <= len(src_lines) else ""
             ok = ((isinstance(val, int) and val in STRUCTURAL_INTS)
                   or (isinstance(val, float) and val in STRUCTURAL_FLOATS)
-                  or any(site in line for site in REGISTERED_GAP_SITES))  # registered gap line
+                  or any(site in line for site in REGISTERED_GAP_SITES)   # registered gap line
+                  or any(site in line for site in STRUCTURAL_SITES))      # native-S^2 geometry
             if not ok:
                 offenders.append((fn, val, ln))
     assert not offenders, (
@@ -253,42 +261,34 @@ def test_offdiag_zero_hybrid_equals_weyl(grid, offround_fields):
 
 
 # =============================================================================
-# 4. NATIVE-OBJECT GUARD  -- characterize the import; hard-fail only the m*pi control leak
+# 4. NATIVE-OBJECT GUARD  -- the matter is the native S^2 3-component winding; the imported S^3
+#    Theta-hedgehog, its core pin, and the m*pi Skyrme ladder are RETIRED (2026-06-25 native wiring).
 # =============================================================================
-def test_default_bc_is_not_skyrme_control():
-    """HARD: the production default must NOT be the labeled Skyrme-twist negative control."""
-    sig = inspect.signature(residual_vector_p1)
-    assert sig.parameters["node_core"].default is True, "default flipped to the Skyrme control!"
-
-
-def test_skyrme_mpi_ladder_is_control_only():
-    """HARD: the m*pi Skyrme ladder appears ONLY in the clearly-labeled negative-control branch
-    (node_core=False); the production node BCs use the single-node pi / 0, not the m*pi ladder."""
+def test_matter_is_native_s2_no_s3_in_residual():
+    """HARD: the live residual is on the native-S^2 carrier (field_dn_components_exact / S2M) and
+    no longer computes the S^3 hedgehog (field_n/field_dn) -- the imported object left the operator."""
     src = inspect.getsource(residual_vector_p1)
-    ladder = re.findall(r"m\s*\*\s*PI", src)
-    assert len(ladder) == 1, f"m*pi ladder appears {len(ladder)}x (expected 1, the control)"
-    assert "negative-control" in src, "the m*pi ladder is not labeled as the negative control"
+    assert ("field_dn_components_exact" in src) or ("S2M." in src), \
+        "residual is not on the native-S^2 carrier"
+    assert "field_dn(" not in src and "field_n(" not in src, "S^3 hedgehog still in the live residual"
+    assert "m * PI" not in src and "m*PI" not in src, "the m*pi Skyrme ladder is still present"
 
 
-@pytest.mark.documented_gap
-@pytest.mark.xfail(reason="production matter uses the 4-component S^3 hedgehog (field_n returns a "
-                          "cosTheta 4th component); the native S^2 winding n=x/r is not in the "
-                          "production path. Live-frontier (time-live native S^2) migration.",
-                   strict=False)
-def test_matter_winding_is_native_S2(grid):
-    """CLEAN target: native S^2/pi_2 carrier is a 3-vector (no cosTheta 4th component)."""
-    Th = torch.full((grid.Nr, grid.Nth, grid.Nps), 0.7, device=grid.dev)
-    n = field_n(grid, Th)
-    assert n.shape[-1] == 3, f"matter carrier is {n.shape[-1]}-component (S^3 hedgehog), not S^2"
+def test_native_carrier_is_three_vector():
+    """HARD (was the S^2 documented_gap, now FLIPPED): the native matter carrier and its dn are unit
+    3-vectors (S^2/pi_2), no cosTheta 4th component."""
+    import free_s2_matter as S2M
+    G = _grid()
+    n = S2M.hedgehog_xr_components(G, m=1)
+    assert n.shape[-1] == 3, f"native carrier is {n.shape[-1]}-component, not the S^2 3-vector"
+    dn = S2M.field_dn_components_exact(G, n)
+    assert dn.shape[-1] == 3, "native dn is not 3-component"
 
 
-@pytest.mark.documented_gap
-@pytest.mark.xfail(reason="default core_mode='deg1' pins Theta(0)=pi (imported-flavored BC that "
-                          "HOLDS the soliton body); the native value-free node is 'free'. The "
-                          "native migration flips the default.",
-                   strict=False)
-def test_default_core_mode_is_native_free():
-    """CLEAN target: the default core BC is the maximally-agnostic value-free node."""
+def test_matter_core_is_free_no_theta_pin():
+    """HARD (was the core-mode documented_gap, now FLIPPED): the matter CORE IS FREE -- the residual
+    has NO Theta-core pin parameter (node_core/core_mode RETIRED with the S^3 object; the winding
+    charge is set by the seed's homotopy class, not a BC)."""
     sig = inspect.signature(residual_vector_p1)
-    assert sig.parameters["core_mode"].default == "free", \
-        "default core_mode pins the node value (deg1: Theta(0)=pi)"
+    assert "core_mode" not in sig.parameters, "a core_mode Theta pin is still present"
+    assert "node_core" not in sig.parameters, "a node_core Theta pin is still present"

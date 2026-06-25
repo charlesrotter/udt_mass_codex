@@ -77,10 +77,11 @@ import torch
 torch.set_default_dtype(torch.float64)
 
 from full3d_spectral import (Grid3D, attach_coord_weight, build_metric,
-    einstein_mixed, einstein_mixed_weyl, field_dn, matter_el_3d, DEV, PI,
-    T, R, TH, PS)
+    einstein_mixed, einstein_mixed_weyl, DEV, PI, T, R, TH, PS)
 import whole_metric_3d_core as CORE
 import whole_metric_3d_matter as MAT
+import free_s2_matter as S2M               # native S^2 3-component matter (grid-exact dn); the
+                                           # imported S^3 field_n/field_dn left the live operator
 from full3d_newton import inv4x4, det4x4   # vmap-safe 4x4 algebra (byte-equal to linalg)
 from torch.func import grad as _fgrad        # functorch-composable grad (jacrev-safe)
 import branch_operator as BR
@@ -88,29 +89,37 @@ import b1prime_3d_offround_residual as B1
 
 
 # ===========================================================================
-# PACK / UNPACK -- 5 diagonal fields (a,b,c,d,Th) + 3 spatial off-diagonal warps
-# (e_rt, e_rp, e_tp), each (Nr,Nth,Nps).  The off-diagonals are the NEW live DOF P1
-# turns on.  (Time-row off-diagonals stay ZEROED -- that is P4, not P1.)
+# PACK / UNPACK -- the 11 LIVE fields of the complete static solver:
+#   4 diagonal metric warps (a,b,c,d) + 3 NATIVE-S^2 matter components (n1,n2,n3) +
+#   the dilaton phi + 3 spatial off-diagonal warps (e_rt,e_rp,e_tp).  Each (Nr,Nth,Nps).
+# The matter is the free unit-3-vector S^2 carrier (nhat=n/|n|); the imported S^3 Theta-profile
+# is RETIRED.  (Time-row off-diagonals stay ZEROED -- that is P4, not P1.)
 # ===========================================================================
-def pack9(a, b, c, d, Th, phi, e_rt, e_rp, e_tp):
-    return torch.cat([x.reshape(-1) for x in (a, b, c, d, Th, phi, e_rt, e_rp, e_tp)])
+_NFIELD = 11
 
 
-def unpack9(u, G):
+def pack11(a, b, c, d, n1, n2, n3, phi, e_rt, e_rp, e_tp):
+    return torch.cat([x.reshape(-1) for x in
+                      (a, b, c, d, n1, n2, n3, phi, e_rt, e_rp, e_tp)])
+
+
+def unpack11(u, G):
     n = G.Nr * G.Nth * G.Nps
     sh = (G.Nr, G.Nth, G.Nps)
-    return [u[i*n:(i+1)*n].reshape(sh) for i in range(9)]   # a,b,c,d,Th,phi,e_rt,e_rp,e_tp
+    return [u[i*n:(i+1)*n].reshape(sh) for i in range(_NFIELD)]   # a,b,c,d,n1,n2,n3,phi,e_rt,e_rp,e_tp
 
 
-def pack6(a, b, c, d, Th, phi):
-    # back-compat shim: the off-diagonal sector is live; a 6-field seed packs ZERO off-diagonals
-    # (-> the residual is regression-locked to the diagonal operator on this seed).
-    z = torch.zeros_like(a)
-    return pack9(a, b, c, d, Th, phi, z, z, z)
-
-
-def unpack6(u, G):
-    return unpack9(u, G)[:6]   # a,b,c,d,Th,phi (drops the off-diagonals)
+def seed_round_native(G, p=1.0, m=1):
+    """A clean static SEED: round metric warps (a=-p(1-s) gauge, b,c,d minimal) + the canon
+    degree-1 native winding n=x/r (the topological sector the solver then relaxes WITHIN -- the
+    winding charge is set by the seed's homotopy class, NOT a Theta-core BC pin).  phi=0, e_*=0."""
+    z = torch.zeros(G.Nr, G.Nth, G.Nps, device=G.dev)
+    s = (G.Rg - G.rc) / (G.ri - G.rc)
+    a = -1.0 * (1 - s); b = 1.0 * (1 - s)
+    n_raw = S2M.hedgehog_xr_components(G, m=m)          # (Nr,Nth,Nps,3) canon winding
+    return pack11(a, b, z.clone(), z.clone(),
+                  n_raw[..., 0], n_raw[..., 1], n_raw[..., 2], z.clone(),
+                  z.clone(), z.clone(), z.clone())
 
 
 # ===========================================================================
@@ -139,14 +148,14 @@ def einstein_general_hybrid(G, a, b, c, d, e_rt, e_rp, e_tp):
 #    BC rows (Theta core/seal, gauge a(seal), depth b(core), c,d regular, off-diag
 #       regular at core+seal).
 # ===========================================================================
-def _el_Th_weighted(G, a, b, c, d, phi, Th, xi, kap, m=1, kap8=1.0,
-                    e_rt=None, e_rp=None, e_tp=None):
-    """jacrev-SAFE e^{2phi}-weighted matter Theta-EL = kap8 * (1/measure) dS_m/dTheta,
-    S_m = INT sqrt-g e^{2phi} L_m.  Mirrors b1prime.EL_Th_3d but uses torch.func.grad
-    (functorch-composable) instead of requires_grad_/autograd.grad (the validated
-    branchGP.EL_gtw_s2 pattern -- nests cleanly under jacrev).  Metric/phi flow (no
-    detach), so jacrev captures the full coupling.  Off-diagonals (e_*) flow into the
-    FULL metric so the matter sector is consistent; e_*=0 => diagonal (regression lock)."""
+def _el_matter_s2_weighted(G, a, b, c, d, phi, n_raw, xi, kap, kap8=1.0,
+                           e_rt=None, e_rp=None, e_tp=None):
+    """jacrev-SAFE e^{2phi}-weighted NATIVE-S^2 matter EOM density over the 3 components n_raw:
+    = kap8 * (1/measure) dS_m/dn,  S_m = INT sqrt-g e^{2phi} L_m,  L_m = L2+L4 of nhat=n/|n| with
+    the GRID-EXACT dn (field_dn_components_exact).  torch.func.grad (functorch-composable) -> nests
+    cleanly under jacrev.  The action depends ONLY on nhat, so dS/dn is automatically TANGENT to
+    the sphere (the radial |n| direction is a null mode, pinned by the |n|=1 constraint row).  Off-
+    diagonals flow into the FULL metric (consistent matter sector); e_*=0 => diagonal regression."""
     z = torch.zeros_like(a)
     e_rt = z if e_rt is None else e_rt
     e_rp = z if e_rp is None else e_rp
@@ -155,35 +164,31 @@ def _el_Th_weighted(G, a, b, c, d, phi, Th, xi, kap, m=1, kap8=1.0,
     f = torch.exp(torch.clamp(2 * phi, max=60.0))
     sqrtg = torch.sqrt(torch.clamp(-det4x4(g), min=1e-30))
     fw = f * sqrtg * G.wvol_coord
-    def action_of_Th(th):
-        dn = field_dn(G, th, m=m)
+    def action_of_n(nr):
+        dn = S2M.field_dn_components_exact(G, nr)
         Gmn = MAT.field_metric(dn)
         Lm, _, _, _ = MAT.lagrangian(ginv, Gmn, xi, kap)
         return (fw * Lm).sum()
-    gradTh = _fgrad(action_of_Th)(Th)
-    return kap8 * gradTh / torch.clamp(fw, min=1e-30)
+    gradN = _fgrad(action_of_n)(n_raw)
+    return kap8 * gradN / torch.clamp(fw, min=1e-30)[..., None]    # (...,3) tangential EOM density
 
 
-def residual_vector_p1(u, G, p, kap8, m=1, wbc=30.0, node_core=True, core_mode="deg1",
-                       X=-1.0, xi=1.0, kap=1.0, branch="G"):
-    """core_mode (the NATIVE no-Skyrme core condition; see coupled_tl_stage1a):
-        "deg1" (default): the charge-1 (degree-1) homotopy sector connects two
-            OPPOSITE NODES core=pi -> seal=0.  pi is a NODE VALUE selecting the
-            degree-1 class (sin pi = 0), NOT the forbidden m*pi LADDER (m is not a
-            free index; we solve ONLY the charge-1 sector).  This is the condition
-            that HOLDS the round soliton (stage1a finding: the free-value node
-            relaxes to trivial vacuum; deg1 holds the degree-1 profile).
-        "free": maximally-agnostic node Theta'(core)=0, value free.  FINDING
-            (stage1a, reproduced here): the round charge-1 config UNWINDS to the
-            trivial node (vacuum, M_MS~0) -- a genuine result, recorded not patched.
-      node_core=False is the negative-control Skyrme twist (clearly labelled)."""
-    a, b, c, d, Th, phi, e_rt, e_rp, e_tp = unpack9(u, G)
-    E = BR.E_mixed_branch(G, a, b, c, d, phi, Th, X=X, xi=xi, kap=kap, m=m,
+def residual_vector_p1(u, G, p, kap8, m=1, wbc=30.0, X=-1.0, xi=1.0, kap=1.0, branch="G"):
+    """NATIVE-S^2 matter: the 3-component unit-3-vector carrier nhat=n/|n| with the GRID-EXACT dn.
+    The winding CHARGE is set by the SEED's homotopy class (degree-1 = n=x/r) and CONSERVED by
+    continuous relaxation -- there is NO Theta-core pin; the matter CORE IS FREE (the imported S^3
+    deg1/Skyrme core BC is RETIRED).  Off-diagonals live.
+    Rows: 4 diagonal + 3 off-diagonal Einstein; phi-EL; 3 native matter-EOM components; the |n|=1
+    constraint (radial gauge-fix); metric/dilaton BCs; off-diagonal regularity."""
+    a, b, c, d, n1, n2, n3, phi, e_rt, e_rp, e_tp = unpack11(u, G)
+    n_raw = torch.stack([n1, n2, n3], dim=-1)
+    dn = S2M.field_dn_components_exact(G, n_raw)
+    E = BR.E_mixed_branch(G, a, b, c, d, phi, dn, X=X, xi=xi, kap=kap, m=m,
                           kap8=kap8, branch=branch, e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)
-    elphi = BR.EL_phi_branch(G, a, b, c, d, phi, Th, X=X, xi=xi, kap=kap, m=m,
+    elphi = BR.EL_phi_branch(G, a, b, c, d, phi, dn, X=X, xi=xi, kap=kap, m=m,
                              kap8=kap8, branch=branch, e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)
-    elTh = _el_Th_weighted(G, a, b, c, d, phi, Th, xi, kap, m=m, kap8=kap8,
-                           e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)
+    elN = _el_matter_s2_weighted(G, a, b, c, d, phi, n_raw, xi, kap, kap8=kap8,
+                                 e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)        # (...,3) tangential EOM
     g = build_metric(G, a, b, c, d, e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)
     sqrtg = torch.sqrt(torch.clamp(-det4x4(g), min=1e-30))
     W = torch.sqrt(sqrtg * G.wvol_coord)
@@ -195,27 +200,17 @@ def residual_vector_p1(u, G, p, kap8, m=1, wbc=30.0, node_core=True, core_mode="
     for (mm, nn) in [(T, T), (R, R), (TH, TH), (PS, PS),
                      (R, TH), (R, PS), (TH, PS)]:
         rows.append((W * E[..., mm, nn])[bod])
-    rows.append((W * elphi)[bod])    # phi-EL
-    rows.append((W * elTh)[bod])     # Theta-EL
-    # ---- BC rows ----
-    if node_core:
-        if core_mode == "free":
-            # maximally-agnostic node, VALUE FREE: Theta'(core)=0 (spectral radial
-            # row).  sin Theta(0)=0 with finite energy => node, value not pinned.
-            rows.append(wbc * G.d_r(Th)[0, :, :].reshape(-1))
-        else:  # "deg1": charge-1 sector, opposite nodes core=pi -> seal=0
-            # pi is the NODE value selecting the degree-1 class, NOT the m*pi ladder.
-            rows.append(wbc * (Th[0, :, :].reshape(-1) - PI))
-    else:
-        # negative-control ONLY (clearly labelled): the Skyrme twist core BC.
-        rows.append(wbc * (Th[0, :, :].reshape(-1) - m * PI))
-    # deg-1 charge sector: outer node Theta(seal)=0 (homotopy-sector pin, NOT m*pi)
-    rows.append(wbc * (Th[-1, :, :].reshape(-1) - 0.0))   # Th(seal)=0
-    rows.append(wbc * a[-1, :, :].reshape(-1))            # a(seal)=0
-    rows.append(wbc * (b[0, :, :].reshape(-1) + p))       # b(core)=-p
+    rows.append((W * elphi)[bod])                         # phi-EL
+    # native S^2 matter: the 3 EOM components (tangential) + the |n|=1 constraint (radial gauge-fix)
+    for ai in range(3):                                      # DERIVED: 3 = the S^2 target's components
+        rows.append((W * elN[..., ai])[bod])
+    rows.append((wbc * ((n_raw ** 2).sum(-1) - 1.0))[bod])   # DERIVED: |n|=1 unit-sphere constraint
+    # ---- metric/dilaton BC rows (NO Theta pin -- the matter core is FREE; winding from seed) ----
+    rows.append(wbc * a[-1, :, :].reshape(-1))            # a(seal)=0 gauge
+    rows.append(wbc * (b[0, :, :].reshape(-1) + p))       # b(core)=-p depth dial
     rows.append(wbc * c[0, :, :].reshape(-1)); rows.append(wbc * c[-1, :, :].reshape(-1))
     rows.append(wbc * d[0, :, :].reshape(-1)); rows.append(wbc * d[-1, :, :].reshape(-1))
-    rows.append(wbc * phi[-1, :, :].reshape(-1))          # phi(seal)=0  (NEW)
+    rows.append(wbc * phi[-1, :, :].reshape(-1))          # phi(seal)=0
     # off-diagonal warps regular (=0) at core + seal (mirror c,d; the off-diagonal sector's BCs)
     for e in (e_rt, e_rp, e_tp):
         rows.append(wbc * e[0, :, :].reshape(-1)); rows.append(wbc * e[-1, :, :].reshape(-1))
@@ -228,15 +223,13 @@ def residual_vector_p1(u, G, p, kap8, m=1, wbc=30.0, node_core=True, core_mode="
 # as full3d_newton.jacobian_jacrev; the residual is vmap-safe (inv4x4/det4x4, no
 # linalg.inv/det/solve inside).
 # ===========================================================================
-def jacobian_p1(u, G, p, kap8, m=1, wbc=30.0, node_core=True, core_mode="deg1",
+def jacobian_p1(u, G, p, kap8, m=1, wbc=30.0,
                 X=-1.0, xi=1.0, kap=1.0, branch="G", chunk_size=128):
     from torch.func import jacrev
     f = lambda uu: residual_vector_p1(uu, G, p, kap8, m=m, wbc=wbc,
-                                      node_core=node_core, core_mode=core_mode,
                                       X=X, xi=xi, kap=kap, branch=branch)
     J = jacrev(f, chunk_size=chunk_size)(u)
-    F = residual_vector_p1(u, G, p, kap8, m=m, wbc=wbc, node_core=node_core,
-                           core_mode=core_mode, X=X, xi=xi, kap=kap,
+    F = residual_vector_p1(u, G, p, kap8, m=m, wbc=wbc, X=X, xi=xi, kap=kap,
                            branch=branch).detach()
     return J.detach(), F
 
@@ -246,22 +239,21 @@ def jacobian_p1(u, G, p, kap8, m=1, wbc=30.0, node_core=True, core_mode="deg1",
 # accept).  Identical control flow to full3d_newton.newton_solve.
 # ===========================================================================
 def newton_solve_p1(u, G, p, kap8, m=1, maxit=40, lam0=1e-4, tol=1e-11,
-                    verbose=False, wbc=30.0, node_core=True, core_mode="deg1",
+                    verbose=False, wbc=30.0,
                     X=-1.0, xi=1.0, kap=1.0, branch="G",
                     chunk_size=128, lam_min=1e-14):
     import numpy as np
     u = u.detach().clone()
     lam = lam0
-    F = residual_vector_p1(u, G, p, kap8, m=m, wbc=wbc, node_core=node_core,
-                           core_mode=core_mode, X=X, xi=xi, kap=kap, branch=branch)
+    F = residual_vector_p1(u, G, p, kap8, m=m, wbc=wbc, X=X, xi=xi, kap=kap, branch=branch)
     Phi = float((F * F).sum()); hist = [Phi]
     nU = u.numel()
     I = torch.eye(nU, device=u.device)
     for it in range(maxit):
         if Phi < tol:
             break
-        J, F = jacobian_p1(u, G, p, kap8, m=m, wbc=wbc, node_core=node_core,
-                           core_mode=core_mode, X=X, xi=xi, kap=kap, branch=branch,
+        J, F = jacobian_p1(u, G, p, kap8, m=m, wbc=wbc,
+                           X=X, xi=xi, kap=kap, branch=branch,
                            chunk_size=chunk_size)
         accepted = False
         for _try in range(12):
@@ -273,7 +265,6 @@ def newton_solve_p1(u, G, p, kap8, m=1, maxit=40, lam0=1e-4, tol=1e-11,
                 lam *= 4.0; continue
             un = u + du
             Pn = float((residual_vector_p1(un, G, p, kap8, m=m, wbc=wbc,
-                                           node_core=node_core, core_mode=core_mode,
                                            X=X, xi=xi, kap=kap, branch=branch) ** 2).sum())
             if np.isfinite(Pn) and Pn < Phi:
                 u = un; Phi = Pn; lam = max(lam * 0.25, lam_min); accepted = True; break
@@ -296,7 +287,7 @@ def newton_solve_p1(u, G, p, kap8, m=1, maxit=40, lam0=1e-4, tol=1e-11,
 # N-convergence at the production X.
 # ===========================================================================
 def continuation_solve_p1(u0, G, p, kap8, X_target=-2.0e5, X_start=-1.0, n_steps=10,
-                          m=1, maxit=12, core_mode="deg1", xi=1.0, kap=1.0,
+                          m=1, maxit=12, xi=1.0, kap=1.0,
                           branch="G", step_tol=1e-8, verbose=False):
     """ADAPTIVE geometric X-ladder: warm-start each step; if a step fails to floor
     below step_tol, SUBDIVIDE (halve the X-jump in log space) and retry, so a stalled
@@ -309,8 +300,7 @@ def continuation_solve_p1(u0, G, p, kap8, X_target=-2.0e5, X_start=-1.0, n_steps
     while i < len(logs):
         X = logs[i]
         u_try, h = newton_solve_p1(u, G, p, kap8, m=m, maxit=maxit, X=float(X),
-                                   xi=xi, kap=kap, branch=branch, core_mode=core_mode,
-                                   verbose=False)
+                                   xi=xi, kap=kap, branch=branch, verbose=False)
         if h[-1] > step_tol and Xprev is not None and abs(X - Xprev) > 1e-9 * abs(X):
             # stalled -> insert a midpoint (log) and retry from the last good u
             Xmid = -math.exp(0.5 * (math.log(abs(Xprev)) + math.log(abs(X))))
@@ -330,19 +320,22 @@ def continuation_solve_p1(u0, G, p, kap8, X_target=-2.0e5, X_start=-1.0, n_steps
 # per-component residual breakdown (validation report)
 # ===========================================================================
 def component_residuals_p1(u, G, p, kap8, m=1, X=-1.0, xi=1.0, kap=1.0, branch="G"):
-    a, b, c, d, Th, phi, e_rt, e_rp, e_tp = unpack9(u, G)
-    E = BR.E_mixed_branch(G, a, b, c, d, phi, Th, X=X, xi=xi, kap=kap, m=m,
+    a, b, c, d, n1, n2, n3, phi, e_rt, e_rp, e_tp = unpack11(u, G)
+    n_raw = torch.stack([n1, n2, n3], dim=-1)
+    dn = S2M.field_dn_components_exact(G, n_raw)
+    E = BR.E_mixed_branch(G, a, b, c, d, phi, dn, X=X, xi=xi, kap=kap, m=m,
                           kap8=kap8, branch=branch, e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)
-    elphi = BR.EL_phi_branch(G, a, b, c, d, phi, Th, X=X, xi=xi, kap=kap, m=m,
+    elphi = BR.EL_phi_branch(G, a, b, c, d, phi, dn, X=X, xi=xi, kap=kap, m=m,
                              kap8=kap8, branch=branch, e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)
-    elTh = _el_Th_weighted(G, a, b, c, d, phi, Th, xi, kap, m=m, kap8=kap8,
-                           e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)
+    elN = _el_matter_s2_weighted(G, a, b, c, d, phi, n_raw, xi, kap, kap8=kap8,
+                                 e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)
     bod = G.body
     names = {(T, T): 'tt', (R, R): 'rr', (TH, TH): 'thth', (PS, PS): 'psps',
              (R, TH): 'rth', (R, PS): 'rps', (TH, PS): 'thps'}
     out = {nm: float(E[..., mm, nn][bod].abs().max()) for (mm, nn), nm in names.items()}
     out['elphi'] = float(elphi[bod].abs().max())
-    out['elTh'] = float(elTh[bod].abs().max())
+    out['elN'] = float(elN[bod].abs().max())
     out['phi_max'] = float(phi[bod].abs().max())
+    out['nnorm_err'] = float(((n_raw ** 2).sum(-1) - 1.0)[bod].abs().max())  # DERIVED: |n|=1
     out['eoff_max'] = max(float(x[bod].abs().max()) for x in (e_rt, e_rp, e_tp))
     return out

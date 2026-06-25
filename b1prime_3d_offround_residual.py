@@ -126,8 +126,12 @@ def box_f_scalar(G, f, ginv, Gamma):
 #           - X f ((dphi)^mu (dphi)_nu - 1/2 delta^mu_nu (dphi)^2) - f T^mu_nu
 # with X-kinetic and matter weighted by f=e^{2phi}, kap8=1.
 # ===========================================================================
-def E_mixed(G, a, b, c, d, phi, Th, X, xi, kap, m=1, kap8=1.0,
+def E_mixed(G, a, b, c, d, phi, dn, X, xi, kap, m=1, kap8=1.0,
             e_rt=None, e_rp=None, e_tp=None, return_parts=False):
+    # MATTER decoupled (2026-06-25 native-S^2 wiring): the matter enters ONLY via its derivative
+    # tensor dn (...,4,3) -- the operator no longer knows the matter PARAMETRIZATION (the imported
+    # S^3 field_n/field_dn left the operator; dn is built natively in the residual via the grid-exact
+    # 3-component carrier).  Vacuum = dn=0.  (m kept unused for caller compat; winding lives in dn.)
     # OFF-DIAGONAL completion (2026-06-25, gate #7): when e_rt/e_rp/e_tp are live the metric is the
     # FULL off-round metric and the dilaton/kinetic/matter sectors see it.  Gravity = the pole-stable
     # diagonal Weyl backbone + the general-Einstein OFF-DIAGONAL BRACKET (einstein_mixed(g_full) -
@@ -160,8 +164,7 @@ def E_mixed(G, a, b, c, d, phi, Th, X, xi, kap, m=1, kap8=1.0,
     # (nabla^mu phi nabla_nu phi)  mixed = dphi_up[mu] * dphi[nu]
     kin_mix = torch.einsum('...m,...n->...mn', dphi_up, dphi)
     kinterm = -X * f[..., None, None] * (kin_mix - 0.5*delta*dphi2[..., None, None])
-    # matter T^mu_nu (validated Hilbert stress, xi=kap production regime) -------
-    dn = field_dn(G, Th, m=m)
+    # matter T^mu_nu (validated Hilbert stress, xi=kap production regime; dn passed in) -------
     Tab, Lscal, L2, L4 = MAT.stress_tensor(g, ginv, dn, xi, kap)
     Tmix = torch.einsum('...ma,...an->...mn', ginv, Tab)    # T^mu_nu
     # ASSEMBLE  E^mu_nu = f G + fterm + kinterm - kap8 f T --------------------
@@ -182,8 +185,9 @@ def E_mixed(G, a, b, c, d, phi, Th, X, xi, kap, m=1, kap8=1.0,
 # (kinetic term:  X f g^{mn} d_m phi d_n phi  ->  f' X (dphi)^2 - 2 X div(f grad phi).)
 # kap8 carried on the matter weight (matter enters as f L_m at coeff kap8=1).
 # ===========================================================================
-def EL_phi_3d(G, a, b, c, d, phi, Th, X, xi, kap, m=1, kap8=1.0,
+def EL_phi_3d(G, a, b, c, d, phi, dn, X, xi, kap, m=1, kap8=1.0,
               e_rt=None, e_rp=None, e_tp=None):
+    # matter (L_m) enters via dn (...,4,3); operator parametrization-agnostic (native-S^2 wiring).
     # OFF-DIAGONAL completion (2026-06-25): the phi-EOM sees the FULL metric so the dilaton
     # sector is consistent with the off-diagonal Einstein rows.  e_*=0 => g_full==g_diag =>
     # identical to the diagonal phi-EL (regression lock).
@@ -212,7 +216,6 @@ def EL_phi_3d(G, a, b, c, d, phi, Th, X, xi, kap, m=1, kap8=1.0,
     dphi_up = torch.einsum('...ma,...a->...m', ginv, dphi)
     dphi2 = torch.einsum('...m,...m->...', dphi_up, dphi)
     # matter L_m (xi=kap production)
-    dn = field_dn(G, Th, m=m)
     Gmn = MAT.field_metric(dn)
     Lm, _, _, _ = MAT.lagrangian(ginv, Gmn, xi, kap)
     # algebraic piece:  f'(R + X (dphi)^2 + kap8 L_m)
@@ -287,8 +290,11 @@ def EL_Th_3d(G, a, b, c, d, phi, Th, X, xi, kap, m=1, kap8=1.0,
 # bare interior residual is what we evaluate / linearize.)
 # ===========================================================================
 def residual_full(G, u, X, xi, kap, m=1, kap8=1.0):
+    # LEGACY 6-field eval helper (S^3 Th-profile): computes its own dn so it still works against the
+    # dn-decoupled operator.  The LIVE path (p1) uses the native-S^2 3-component dn instead.
     a, b, c, d, phi, Th = unpack(u)
-    E = E_mixed(G, a, b, c, d, phi, Th, X, xi, kap, m=m, kap8=kap8)
-    elphi = EL_phi_3d(G, a, b, c, d, phi, Th, X, xi, kap, m=m, kap8=kap8)
+    dn = field_dn(G, Th, m=m)
+    E = E_mixed(G, a, b, c, d, phi, dn, X, xi, kap, m=m, kap8=kap8)
+    elphi = EL_phi_3d(G, a, b, c, d, phi, dn, X, xi, kap, m=m, kap8=kap8)
     elTh = EL_Th_3d(G, a, b, c, d, phi, Th, X, xi, kap, m=m, kap8=kap8)
     return dict(E=E, elphi=elphi, elTh=elTh)

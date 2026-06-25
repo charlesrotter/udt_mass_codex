@@ -21,7 +21,8 @@ from full3d_spectral import (Grid3D, attach_coord_weight, build_metric, einstein
 import whole_metric_3d_matter as MAT
 from einstein_3d_general_eval import einstein_mixed_general
 from full3d_newton import inv4x4, det4x4
-from p1_residual_general_einstein import residual_vector_p1, einstein_general_hybrid, pack6
+from p1_residual_general_einstein import residual_vector_p1, einstein_general_hybrid, pack11
+import free_s2_matter as S2M
 import solver_action as ACT
 
 VALID_TAGS = {"DERIVED", "FREE", "IMPORTED", "MIGRATION-DEFERRED"}
@@ -118,17 +119,18 @@ def test_residual_assembles_einstein_eq():
     # all 7 rows to machine precision -- locking the assembly recipe incl. the off-diagonal rows.
     G = _grid()
     a, b, c, d = _smooth(G, 0.05), _smooth(G, 0.04), _smooth(G, 0.03), _smooth(G, 0.02)
-    Th = 0.6 * torch.exp(-(G.Rg - 0.1)) * (1.0 + 0.1 * torch.cos(G.THg))
+    n_raw = S2M.hedgehog_xr_components(G, m=1)         # native-S^2 matter (canon winding)
+    n1, n2, n3 = n_raw[..., 0], n_raw[..., 1], n_raw[..., 2]
     z = torch.zeros_like(a)
-    u = pack6(a, b, c, d, Th, z)
+    u = pack11(a, b, c, d, n1, n2, n3, z, z, z, z)     # phi=0, off-diagonals=0
     p, kap8 = 0.4, 0.05
 
     F = residual_vector_p1(u, G, p, kap8)
 
-    # independent reconstruction of the field-equation rows (same engine + weight)
+    # independent reconstruction of the field-equation rows (same engine + weight, native dn)
     Gmix, g = einstein_general_hybrid(G, a, b, c, d, z, z, z)
     ginv = inv4x4(g)
-    dn = field_dn(G, Th, m=1)
+    dn = S2M.field_dn_components_exact(G, n_raw)
     Tab, _, _, _ = MAT.stress_tensor(g, ginv, dn, 1.0, 1.0)
     Tmix = torch.einsum("...ma,...an->...mn", ginv, Tab)
     resE = Gmix - kap8 * Tmix                         # <-- the action's EOM: G - kap8 T

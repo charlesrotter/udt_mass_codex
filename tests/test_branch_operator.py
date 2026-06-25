@@ -25,6 +25,17 @@ def _grid(Nr=16, Nth=8, Nps=8, rc=0.3, cell=2.0):
     return attach_coord_weight(Grid3D(Nr=Nr, Nth=Nth, Nps=Nps, rc=rc, cell=cell))
 
 
+def _dn0(G):
+    """Vacuum matter: dn = 0 (...,4,3) -> T = 0 (the operator now takes the matter via dn)."""
+    return torch.zeros(G.Nr, G.Nth, G.Nps, 4, 3, device=G.Rg.device)
+
+
+def _native_dn(G):
+    """A native-S^2 matter dn (the canon degree-1 winding n=x/r)."""
+    import free_s2_matter as S2M
+    return S2M.field_dn_components_exact(G, S2M.hedgehog_xr_components(G, m=1))
+
+
 # =============================================================================
 # (1) FLAT: E = 0 to ~1e-10 for BOTH branches (phi=0 => U=0, so P == G here).
 # =============================================================================
@@ -32,7 +43,7 @@ def _grid(Nr=16, Nth=8, Nps=8, rc=0.3, cell=2.0):
 def test_flat_vacuum_E_zero(branch):
     G = _grid()
     z = torch.zeros(G.Nr, G.Nth, G.Nps, device=G.Rg.device)
-    E = BO.E_mixed_branch(G, z, z, z, z, z, z, branch=branch)   # phi=0, warps=0, Th=0 (T=0)
+    E = BO.E_mixed_branch(G, z, z, z, z, z, _dn0(G), branch=branch)   # phi=0, warps=0, Th=0 (T=0)
     mx = float(E[G.body].abs().max())
     assert mx < 1e-9, f"branch {branch}: flat E != 0, max|E|(body) = {mx:.2e}"
 
@@ -51,7 +62,7 @@ def test_branchG_schwarzschild_const_phi_is_vacuum():
     b_s = -0.5 * torch.log(f_schw)       # g_rr =  e^{2b} = 1/(1-rs/r)
     z = torch.zeros_like(G.Rg)
     phi_c = torch.full_like(G.Rg, 0.37)  # ARBITRARY constant phi (pure gauge); FREE
-    parts = BO.E_mixed_branch(G, a_s, b_s, z, z, phi_c, z, branch="G", return_parts=True)
+    parts = BO.E_mixed_branch(G, a_s, b_s, z, z, phi_c, _dn0(G), branch="G", return_parts=True)
     boxf = float(parts["boxf"][G.body].abs().max())
     Gmag = float(parts["Gmix"][G.body].abs().max())
     Emag = float(parts["E"][G.body].abs().max())
@@ -71,7 +82,7 @@ def test_branchG_slaved_phi_breaks_freeze():
     phi_sl = -0.5 * torch.log(f_schw)     # e^{2phi} = g_rr (slaved)
     a, b, c, d = BO.slaved_warps_from_phi(phi_sl)
     z = torch.zeros_like(G.Rg)
-    parts = BO.E_mixed_branch(G, a, b, c, d, phi_sl, z, branch="G", return_parts=True)
+    parts = BO.E_mixed_branch(G, a, b, c, d, phi_sl, _dn0(G), branch="G", return_parts=True)
     boxf = float(parts["boxf"][G.body].abs().max())
     assert boxf > 1e-2, f"slaved phi'(r)!=0 must give box f != 0 (vacuum != GR); got {boxf:.2e}"
 
@@ -86,15 +97,15 @@ def _smooth_config(G):
     c = 0.02 * torch.sin(2 * G.PSg) * torch.exp(-(Rg - 1.0) ** 2)
     d = 0.01 * torch.exp(-(Rg - 1.0) ** 2)
     phi = 0.2 * torch.exp(-(Rg - 1.0) ** 2) * (1 + 0.1 * torch.cos(G.THg))
-    Th = 0.5 * torch.exp(-(Rg - 0.3))
-    return a, b, c, d, phi, Th
+    dn = _native_dn(G)
+    return a, b, c, d, phi, dn
 
 
 def test_branchP_minus_branchG_is_potential():
     G = _grid()
-    a, b, c, d, phi, Th = _smooth_config(G)
-    EG = BO.E_mixed_branch(G, a, b, c, d, phi, Th, branch="G")
-    EP = BO.E_mixed_branch(G, a, b, c, d, phi, Th, branch="P")
+    a, b, c, d, phi, dn = _smooth_config(G)
+    EG = BO.E_mixed_branch(G, a, b, c, d, phi, dn, branch="G")
+    EP = BO.E_mixed_branch(G, a, b, c, d, phi, dn, branch="P")
     U = BO.U_potential(phi)
     delta = torch.eye(4, device=EG.device).expand(*phi.shape, 4, 4)
     expected = delta * U[..., None, None]
@@ -106,9 +117,9 @@ def test_branchP_minus_branchG_is_potential():
 
 def test_branchP_phi_eom_adds_minus_2Uprime():
     G = _grid()
-    a, b, c, d, phi, Th = _smooth_config(G)
-    elG = BO.EL_phi_branch(G, a, b, c, d, phi, Th, branch="G")
-    elP = BO.EL_phi_branch(G, a, b, c, d, phi, Th, branch="P")
+    a, b, c, d, phi, dn = _smooth_config(G)
+    elG = BO.EL_phi_branch(G, a, b, c, d, phi, dn, branch="G")
+    elP = BO.EL_phi_branch(G, a, b, c, d, phi, dn, branch="P")
     expected = -2.0 * BO.U_prime(phi)
     diff = elP - elG
     scale = float(elG[G.body].abs().max()) + 1.0
@@ -128,6 +139,6 @@ def test_branch_is_explicit_and_validated():
     assert sig.parameters["branch"].default == "G", "default branch must be explicit 'G'"
     # an unknown branch must RAISE (no silent fallback)
     with pytest.raises(ValueError):
-        BO.E_mixed_branch(G, z, z, z, z, z, z, branch="Q")
+        BO.E_mixed_branch(G, z, z, z, z, z, _dn0(G), branch="Q")
     with pytest.raises(ValueError):
-        BO.EL_phi_branch(G, z, z, z, z, z, z, branch="Q")
+        BO.EL_phi_branch(G, z, z, z, z, z, _dn0(G), branch="Q")

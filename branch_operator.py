@@ -109,13 +109,14 @@ def U_prime(phi):
 #   branch='P': adds + delta^mu_nu U(phi),  U = e^{2phi}-1  (branch_P Sec 1b).
 # The branch is a REQUIRED, EXPLICIT, TAGGED parameter -- no silent smuggling.
 # ===========================================================================
-def E_mixed_branch(G, a, b, c, d, phi, Th, X=X_PROD, xi=XI_PROD, kap=KAP_PROD,
+def E_mixed_branch(G, a, b, c, d, phi, dn, X=X_PROD, xi=XI_PROD, kap=KAP_PROD,
                    m=1, kap8=KAP8, branch="G", e_rt=None, e_rp=None, e_tp=None,
                    return_parts=False):
+    # matter enters via dn (...,4,3); native-S^2 wiring (the operator is parametrization-agnostic).
     if branch not in VALID_BRANCHES:
         raise ValueError(f"branch must be one of {VALID_BRANCHES}; got {branch!r} "
                          f"(the branch choice is EXPLICIT -- no silent default).")
-    parts = B1.E_mixed(G, a, b, c, d, phi, Th, X, xi, kap, m=m, kap8=kap8,
+    parts = B1.E_mixed(G, a, b, c, d, phi, dn, X, xi, kap, m=m, kap8=kap8,
                        e_rt=e_rt, e_rp=e_rp, e_tp=e_tp, return_parts=True)
     E = parts["E"]                                            # Branch-G mixed operator
     Pterm = None
@@ -138,11 +139,11 @@ def E_mixed_branch(G, a, b, c, d, phi, Th, X=X_PROD, xi=XI_PROD, kap=KAP_PROD,
 #   branch='P': adds the -2 U'(phi) potential contribution.
 # Sign vs EL_phi_3d's EL convention is EMPIRICALLY pinned in the self-test.
 # ===========================================================================
-def EL_phi_branch(G, a, b, c, d, phi, Th, X=X_PROD, xi=XI_PROD, kap=KAP_PROD,
+def EL_phi_branch(G, a, b, c, d, phi, dn, X=X_PROD, xi=XI_PROD, kap=KAP_PROD,
                   m=1, kap8=KAP8, branch="G", e_rt=None, e_rp=None, e_tp=None):
     if branch not in VALID_BRANCHES:
         raise ValueError(f"branch must be one of {VALID_BRANCHES}; got {branch!r}.")
-    elphi = B1.EL_phi_3d(G, a, b, c, d, phi, Th, X, xi, kap, m=m, kap8=kap8,
+    elphi = B1.EL_phi_3d(G, a, b, c, d, phi, dn, X, xi, kap, m=m, kap8=kap8,
                          e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)
     if branch == "P":
         # doc eq 1a carries a -2 U'(phi) term; U' = 2 e^{2phi}  (DERIVED).
@@ -153,12 +154,13 @@ def EL_phi_branch(G, a, b, c, d, phi, Th, X=X_PROD, xi=XI_PROD, kap=KAP_PROD,
 # ===========================================================================
 # Full branched residual stack (cheap eval only; NO solve).
 # ===========================================================================
-def residual_branch(G, a, b, c, d, phi, Th, X=X_PROD, xi=XI_PROD, kap=KAP_PROD,
+def residual_branch(G, a, b, c, d, phi, dn, X=X_PROD, xi=XI_PROD, kap=KAP_PROD,
                     m=1, kap8=KAP8, branch="G"):
-    E = E_mixed_branch(G, a, b, c, d, phi, Th, X, xi, kap, m=m, kap8=kap8, branch=branch)
-    elphi = EL_phi_branch(G, a, b, c, d, phi, Th, X, xi, kap, m=m, kap8=kap8, branch=branch)
-    elTh = B1.EL_Th_3d(G, a, b, c, d, phi, Th, X, xi, kap, m=m, kap8=kap8)
-    return dict(E=E, elphi=elphi, elTh=elTh, branch=branch)
+    # cheap eval only (NO solve); matter via dn.  The matter EOM is now assembled natively in the
+    # residual (over the 3-component carrier), so it is not recomputed here.
+    E = E_mixed_branch(G, a, b, c, d, phi, dn, X, xi, kap, m=m, kap8=kap8, branch=branch)
+    elphi = EL_phi_branch(G, a, b, c, d, phi, dn, X, xi, kap, m=m, kap8=kap8, branch=branch)
+    return dict(E=E, elphi=elphi, branch=branch)
 
 
 # ===========================================================================

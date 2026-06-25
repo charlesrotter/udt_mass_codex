@@ -48,19 +48,17 @@ BRANCH = "P"              # M3+: the Branch-P operator (adds the e^{2phi}-1 U po
 
 
 def _solve(nr):
-    """Run the CURRENT production solver matter-on at Nr=nr; return (Phi, max_warp).
-    UPDATE THIS as the migration adds phi/gtw/native-S^2 (pack8 -> pack9 -> ...)."""
+    """Run the production solver matter-on at Nr=nr; return (Phi, max_warp).  COMPLETE static
+    solver: derived operator + off-diagonals live + NATIVE-S^2 3-component matter (seed = the
+    canon degree-1 winding n=x/r; core FREE -- no Theta pin)."""
     import p1_residual_general_einstein as P1
     G = attach_coord_weight(Grid3D(Nr=nr, Nth=6, Nps=8, rc=0.1, cell=8.0))
-    dev = G.dev; r = G.Rg; s = (r - G.rc) / (G.ri - G.rc)
-    z = torch.zeros(nr, G.Nth, G.Nps, device=dev)
-    a = -1.0 * (1 - s); b = 1.0 * (1 - s); Th = math.pi * (1 - s)
-    u0 = P1.pack6(a, b, z.clone(), z.clone(), Th, z.clone())
+    u0 = P1.seed_round_native(G, p=P, m=M)
     # M2: continue X -1 -> production -2e5 (the stiff value); characterize the warp there.
     u, hist, Xfin = P1.continuation_solve_p1(u0, G, P, KAP8, X_target=X_TARGET, m=M,
-                                             core_mode='deg1', branch=BRANCH, verbose=False)
-    a, b, c, d, Th, phi = P1.unpack6(u, G)
-    F = P1.residual_vector_p1(u, G, P, KAP8, m=M, core_mode='deg1', X=Xfin, branch=BRANCH)
+                                             branch=BRANCH, verbose=False)
+    a, b, c, d, n1, n2, n3, phi, e_rt, e_rp, e_tp = P1.unpack11(u, G)
+    F = P1.residual_vector_p1(u, G, P, KAP8, m=M, X=Xfin, branch=BRANCH)
     Phi = float((F * F).sum())
     mw = max(float(x.abs().max()) for x in (a, b, c, d))
     return Phi, mw
