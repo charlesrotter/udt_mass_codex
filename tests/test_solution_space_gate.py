@@ -58,9 +58,8 @@ PROJECT_MODULE_REGISTRY = {
     "branch_operator":              "action-EL-derived: derived G/P-switch gravity operator",
     "b1prime_3d_offround_residual": "action-EL-derived: validated derived-operator assembly (E_mixed/EL_phi/EL_Th)",
     "full3d_spectral":              "numeric-method: spectral grid, metric build, coord weights",
-    "full3d_newton":                "numeric-method: vmap-safe 4x4 inverse/determinant",
-    "full3d_solver":                "numeric-method: pack/unpack (live path uses ONLY these) + Newton-LM drivers; its own residual_vector + round_seed are LEGACY/DEAD on the p1 path (solver-proliferation residue) -- CLEANUP: rewire pack/unpack so the live graph stops pulling this module's physics surface (audited 2026-06-25)",
-    "spectral_radial_soliton":      "numeric-method: standalone 1-D radial soliton SOLVER; DEAD on the live residual path (reached only via full3d_solver.round_seed, which the p1 solver does NOT call -- the guard builds its own linear seed). LATENT imposition vector: round_seed embeds the #56 round soliton as an initial guess (audited 2026-06-25)",
+    "full3d_newton":                "numeric-method: vmap-safe 4x4 inverse/determinant + pack/unpack via solver_pack",
+    "solver_pack":                  "numeric-method: 5-field <-> flat-vector reshape (pure torch; extracted 2026-06-25 so the live graph stops pulling full3d_solver's physics surface)",
     "whole_metric_3d_core":         "numeric-method: curvature calculus -- finite-diff, metric inverse, Christoffel, Einstein tensor (audited 2026-06-25, no physics pin)",
     "whole_metric_3d_matter":       "action-EL-derived: matter stress/Lagrangian = Hilbert variation of L_m; carries the imported S^3 hedgehog ANSATZ (hedgehog_n) = the DOCUMENTED native-S^2 migration gap owned by P1 xfails test_matter_winding_is_native_S2 / test_default_core_mode_is_native_free (audited 2026-06-25, not a hidden smuggle)",
     "einstein_3d_eval":             "numeric-method: Einstein-tensor evaluator (Weyl form)",
@@ -74,12 +73,32 @@ def _is_project_module(name):
     return os.path.exists(os.path.join(REPO, name + ".py"))
 
 
+def _is_main_guard(node):
+    """True for an `if __name__ == "__main__":` test (a block NOT executed on import)."""
+    t = getattr(node, "test", None)
+    return (isinstance(node, ast.If) and isinstance(t, ast.Compare)
+            and isinstance(t.left, ast.Name) and t.left.id == "__name__"
+            and len(t.comparators) == 1 and isinstance(t.comparators[0], ast.Constant)
+            and t.comparators[0].value == "__main__")
+
+
 def _top_level_imports(path):
-    """Top-level module names imported by a source file (first dotted component)."""
+    """Module names a source file imports AT IMPORT TIME (first dotted component).  Imports
+    lexically inside `if __name__ == "__main__":` are EXCLUDED -- that block never runs when the
+    module is imported by the solver, so it is not part of the live import-time dependency graph
+    (provenance accuracy, not a merit judgment)."""
     with open(path) as f:
         tree = ast.parse(f.read(), filename=path)
+    skip = set()
+    for node in ast.walk(tree):
+        if _is_main_guard(node):
+            for sub in ast.walk(node):
+                if isinstance(sub, (ast.Import, ast.ImportFrom)):
+                    skip.add(id(sub))
     names = set()
     for node in ast.walk(tree):
+        if id(node) in skip:
+            continue
         if isinstance(node, ast.Import):
             for a in node.names:
                 names.add(a.name.split(".")[0])

@@ -53,8 +53,9 @@ from full3d_spectral import (Grid3D, attach_coord_weight, build_metric,
     DEV, PI, T, R, TH, PS)
 import whole_metric_3d_core as CORE
 import whole_metric_3d_matter as MAT
-import full3d_solver as FS
-from full3d_solver import pack, unpack
+from solver_pack import pack, unpack   # numeric-only reshape (2026-06-25 import-traceability cleanup;
+                                       # full3d_solver -- legacy residual + round_seed/soliton -- is
+                                       # imported lazily in __main__ below, OFF the live import graph)
 
 
 # ===========================================================================
@@ -271,6 +272,7 @@ def component_residuals(u, G, p, kap8, m=1, wbc=30.0):
 
 
 if __name__ == "__main__":
+    import full3d_solver as FS   # legacy reference solver -- __main__ smoke only, NOT on the live graph
     print("=== full3d_newton: value-equivalence + smoke ===")
     G = Grid3D(20, 6, 8, rc=0.05, cell=14.0); G = attach_coord_weight(G)
     u0, sol = FS.round_seed(G, p=0.4, kap8=0.05)

@@ -37,19 +37,11 @@ import whole_metric_3d_matter as MAT
 
 
 # ---------------------------------------------------------------------------
-# pack/unpack the 5 fields <-> a flat parameter vector
+# pack/unpack the 5 fields <-> a flat parameter vector.  Moved to the numeric-only
+# solver_pack.py (2026-06-25 import-traceability cleanup); re-exported here so this module's
+# existing callers (full3d_solver.pack/unpack) are unaffected.
 # ---------------------------------------------------------------------------
-def pack(a, b, c, d, Th):
-    return torch.cat([a.reshape(-1), b.reshape(-1), c.reshape(-1),
-                      d.reshape(-1), Th.reshape(-1)])
-
-
-def unpack(u, G):
-    n = G.Nr*G.Nth*G.Nps
-    sh = (G.Nr, G.Nth, G.Nps)
-    a = u[0:n].reshape(sh); b = u[n:2*n].reshape(sh); c = u[2*n:3*n].reshape(sh)
-    d = u[3*n:4*n].reshape(sh); Th = u[4*n:5*n].reshape(sh)
-    return a, b, c, d, Th
+from solver_pack import pack, unpack
 
 
 # ---------------------------------------------------------------------------
