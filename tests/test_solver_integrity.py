@@ -35,7 +35,8 @@ from p1_residual_general_einstein import (residual_vector_p1, einstein_general_h
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OPERATOR_FILE = os.path.join(REPO, "p1_residual_general_einstein.py")
-CALLER_FILE = os.path.join(REPO, "p1_validate.py")
+# single source of truth for the production couplings (kap8, xi, kap, X), each provenance-tagged
+COUPLING_SOURCE = os.path.join(REPO, "branch_operator.py")
 
 PROVENANCE_TAGS = ("DERIVED", "POSTULATED", "FREE", "IMPORTED")
 
@@ -174,24 +175,19 @@ def test_no_smuggled_literal_in_operator():
         "(tag with # DERIVED|POSTULATED|FREE|IMPORTED or register): %s" % offenders)
 
 
-@pytest.mark.documented_gap
-@pytest.mark.xfail(reason="kap8=1 is DERIVED (round-gate) but has not propagated; live callers "
-                          "pass kap8=0.05 untagged. Value to be SOURCED at P2's action file.",
-                   strict=False)
 def test_kap8_callers_tagged():
-    """CLEAN target: every kap8 literal in a production caller carries a provenance tag."""
-    bad = _untagged_literal_assignments(CALLER_FILE, "kap8")
-    assert not bad, f"untagged kap8 literals in {os.path.basename(CALLER_FILE)}: {bad}"
+    """HARD (was a stale documented_gap pointing at the nonexistent p1_validate.py): the production
+    matter coefficient is SOURCED + tagged at its single source of truth, branch_operator.KAP8."""
+    bad = _untagged_literal_assignments(COUPLING_SOURCE, "KAP8")
+    assert not bad, f"untagged KAP8 in {os.path.basename(COUPLING_SOURCE)}: {bad}"
 
 
-@pytest.mark.documented_gap
-@pytest.mark.xfail(reason="matter couplings xi=kap=1.0 are hardcoded UNTAGGED in the operator "
-                          "body (stress_tensor call). FREE per F2; value to be sourced at P2.",
-                   strict=False)
 def test_matter_couplings_tagged():
-    """CLEAN target: the xi,kap couplings at the stress_tensor call carry a provenance tag."""
-    line = next((l for l in _src(OPERATOR_FILE).splitlines() if "stress_tensor(" in l), "")
-    assert _line_has_tag(line), f"untagged xi/kap at stress call: {line.strip()!r}"
+    """HARD (was a stale documented_gap scanning a stress_tensor( call that moved to b1prime): the
+    matter couplings xi,kap are SOURCED + tagged at branch_operator.XI_PROD / KAP_PROD."""
+    bad = (_untagged_literal_assignments(COUPLING_SOURCE, "XI_PROD")
+           + _untagged_literal_assignments(COUPLING_SOURCE, "KAP_PROD"))
+    assert not bad, f"untagged xi/kap couplings in {os.path.basename(COUPLING_SOURCE)}: {bad}"
 
 
 def test_derived_a_phi_in_operator():
