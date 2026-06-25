@@ -51,33 +51,31 @@ DOF ([[full-dimensional-complete-solver]]); test gravitating-soliton stability b
 COUPLED re-solve, never off-constraint stiffness ([[gravitating-soliton-stability-test]]). (Also in
 CLAUDE.md tripwires + the `.claude/skills/` discipline skills + memory [[solver-first-not-mechanism]].)
 
-## Foundation (the parked physics the Branch-P push builds on) + read order
+## Foundation (what the p1 MIGRATION builds on) + read order
 
-**The integrity-upgrades arc (P1-P5) is DONE** (records `p1..p5_*_results.md`; summary in LIVE.md). Built the
-purity harness (`pytest tests/` = 23 pass / 5 documented-gap xfails), the single source-of-truth `solver_action.py`,
-the discipline skills, cross-model verify (`CROSS_MODEL_VERIFY.md`), and LIVE.md. **The 5 xfails + the P2 baseline =
-the MIGRATION acceptance tests** (wiring the DERIVED operator + native S² into the live `p1_residual`). Migration
-must also resolve the two MIGRATION-OPEN-PHYSICS items the arc surfaced (tripwired, do NOT silently resolve to pass
-a test): the curvature **Branch G/P fork** (= the φ-angular tension; native-S² silently used Branch G — the Branch-P
-push is testing it) and the **e^{2φ} matter weight** (PARTIALLY-TRACED, a flagged CHOSE; P4 cross-model verified).
+**The integrity-upgrades arc (P1-P5) is DONE** (records `p1..p5_*_results.md`; summary in LIVE.md): the purity
+harness (`pytest tests/` = 23 pass / 5 documented-gap xfails), `solver_action.py`, the discipline skills, cross-model
+verify, LIVE.md. **The 5 xfails = the MIGRATION acceptance tests** — the p1 migration (MIGRATION.md) is flipping them
+as it wires the DERIVED operator + native S² into the live `p1_residual`. M1 (derived op+φ) / M2 (X-kinetic→−2e5) /
+M3 (Branch-P U) all GREEN to machine precision; M4a (kap8→1) RED = the open frontier (the e^{2φ} weight + Branch G/P
+fork the arc flagged are now resolved-in-the-operator and clean; only the kap8 strong-matter divergence remains).
 
 **The native-matter arc foundation** (2026-06-22, blind-verified; records = `matter_object_identity_native_vs_import`,
 `complete_solver_stage1_general_einstein`, `native_s2_object_`/`twist_freed_`/`offround_twist_shear_results`): the
 round/static soliton was an IMPORTED S³ Skyrme baryon; **UDT's NATIVE matter = the S²/π₂ winding (n=x/r) = a
-scale-free global-monopole DEFECT, not a localized particle, in every STATIC config played — but ALL on Branch G**
-(now made explicit; the Branch-P push tests whether keeping the φ-angular potential changes this). The gravity
-operator is DERIVED (vacuum≠GR, weight e^{2φ}, a(φ)=e^{φ}) but NOT yet wired into the live solver. The STANDING
-HUNCH places discreteness at the TIME-LIVE / non-stationary sector — the one major untested instrument; the Branch-P
-static push is the prerequisite probe before time-live.
+scale-free global-monopole DEFECT in every STATIC config** — and its discreteness is the integer TOPOLOGICAL CHARGE
+(Q=1, exact, native), NOT a localized lump (the "lump" search was FRAME CREEP — Charles's 2026-06-25 catch; the
+winding-native ruler in `prototype/winding_native_diagnostics.py`). The gravity operator is DERIVED (vacuum≠GR,
+weight e^{2φ}, a(φ)=e^{φ}); the migration is wiring it into `p1_residual` (branchGP, which prototyped it, is now a
+reference in `prototype/`). The STANDING φ-angular hunch's untested home is the TIME-LIVE / non-stationary sector,
+gated behind the kap8 question (M4b).
 
-**Read order for a new instance:** (0) **LIVE.md** (the only-current file — frontier + next action). (1) CLAUDE.md
-"How we work" + the ANTI-HANG rule + the `.claude/skills/` discipline skills; memories native-matter-defect-import-discovery,
-full-dimensional-complete-solver, gravitating-soliton-stability-test, solver-first-not-mechanism. (2) THIS FILE +
-the named results docs for detail. (3) CANON.md (C-2026-06-14-1 native S² carrier + B=1/A; C-2026-06-18-1 metric
-from relativity — both SURVIVE); NEGATIVES_REGISTRY; COMPLETION_PROGRAM.md / FOUNDATIONAL_ASSUMPTIONS_LEDGER scoreboard.
-**HANDOFF_ARCHIVE.md + STATE.md + git = the deep historical record** (all pre-2026-06-22 frontier blocks; the verbose
-2026-06-23 integrity-arc + 2026-06-22 native-matter blocks were trimmed here 2026-06-23 LATE — their full detail is
-in the results docs above).
+**Read order for a new instance:** (0) **LIVE.md** + **MIGRATION.md** (the only-current files). (1) CLAUDE.md
+"How we work" + ANTI-HANG + the `.claude/skills/` discipline skills; memories [[solver-migration-p1]],
+[[branchP-solver-continuation-x-premise]], [[charles-workflow-preferences]] (double-check=agent passes),
+native-matter-defect-import-discovery, solver-first-not-mechanism. (2) THIS FILE + REORG_PLAN.md + the named results
+docs. (3) CANON.md (C-2026-06-14-1; C-2026-06-18-1 — both SURVIVE); NEGATIVES_REGISTRY; FOUNDATIONAL_ASSUMPTIONS_LEDGER.
+**HANDOFF_ARCHIVE.md + STATE.md + git + `archive/` = the deep historical record** (all pre-migration frontier blocks).
 
 ## Must-not-lose (durable facts)
 - DATA-BLIND wall numbers (NEVER load during a derivation): the six lepton wall numbers, contract
