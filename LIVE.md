@@ -28,11 +28,13 @@ the operator / X-kinetic / Branch-P U / S²-vs-S³).
 to discuss before any building or solving. **TOP CONCERN (outranks the kap8 analysis + the current trajectory):
 FIX THE SOLVER TRAJECTORY — the solver's ONLY imports should be NUMERIC METHODS** (numpy/torch/scipy calculation
 primitives), nothing else, so every number is TRACEABLE to the action + numeric methods (no physics/mechanism
-smuggled via an import = calculation traceability). This needs a FULL AUDIT of the solver's imports (is each one
-a numeric method, or a smuggled physics object?) and feeds the solution-space GATE design (the gate has more to
-discuss too). So: DISCUSS the solver-import audit + trajectory fix + gate design FIRST; the kap8 analysis is
-LOWER priority than getting the solver's import-purity trajectory right. The (1)/(2) ordering below is the
-prior plan, now SUBORDINATE to this discussion.
+smuggled via an import = calculation traceability). **CRITICAL ORDER — you CANNOT gate an already-corrupted solver:** a gate PRESERVES a baseline, so gating the
+current (corrupted) solver would just FREEZE the corruption and stamp it "clean" (false confidence). Correct
+order: (i) AUDIT the solver (every import: numeric method or smuggled physics? every BC/ansatz/acceptance:
+imposed or theory?), (ii) CLEAN it to a numeric-only, imposition-free baseline, (iii) ONLY THEN build the gate to
+PRESERVE that clean baseline. Building the gate first (the prior plan) was BACKWARDS. So: DISCUSS the solver audit
++ clean-up plan with Charles FIRST; the kap8 analysis is LOWER priority. The (1)/(2) plan below is SUBORDINATE
+(the gate moves AFTER the clean-up, not first).
 
 **(prior plan, pending the discussion) — DO (2) FIRST, THEN (1); (3) is DONE** (full text + build instructions in HANDOFF.md TOP).
 **(2) [DO FIRST] BUILD the anti-imposition GATE** — turn "explore the solution space, don't IMPOSE" into a

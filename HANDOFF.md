@@ -19,8 +19,12 @@
 > else, so every number is traceable to the action + numeric methods (no physics/mechanism smuggled via an import
 > = calculation traceability). Needs a FULL AUDIT of the solver's imports (numeric method, or smuggled physics
 > object?) and feeds the gate design (the solution-space gate has more to discuss too — incl. this solver audit).
-> Charles is MORE concerned with this import-purity trajectory than with the kap8 analysis. So discuss the
-> solver-import audit + trajectory fix + gate design FIRST; the (1)/(2) plan below is now SUBORDINATE to that.
+> Charles is MORE concerned with this import-purity trajectory than with the kap8 analysis. **CRITICAL ORDER —
+> you CANNOT gate an already-corrupted solver:** a gate PRESERVES a baseline, so gating the current (corrupted)
+> solver would FREEZE the corruption and stamp it "clean" (false confidence). So: (i) AUDIT the solver (imports:
+> numeric vs smuggled physics; BCs/ansatz/acceptance: imposed vs theory) → (ii) CLEAN to a numeric-only,
+> imposition-free baseline → (iii) ONLY THEN build the gate to preserve it. Building the gate first (the (2)-first
+> plan) was BACKWARDS. DISCUSS the audit + clean-up with Charles FIRST; the (1)/(2) plan below is SUBORDINATE.
 >
 > **(prior plan, pending discussion) three Charles items — ORDER: do item (2) FIRST.**
 > Item (2) — the anti-imposition GATE — comes BEFORE the item-(1) kap8 physics, not because it's "important"
