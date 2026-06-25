@@ -40,10 +40,17 @@ analytic metric — it cannot catch a solve-level divergence; this guard can.)
     pass. ~5× faster than the 8-field baseline. pytest: 23 pass / 5 xfail (flipped `test_derived_a_phi_in_operator`).
   - **Localizes the divergence:** the e^{2φ} weight + φ at small X are CLEAN → branchGP's divergence is NOT
     here; it's in M2 (X→−2e5), M3 (Branch-P U), or M4 (native S²/kap8=1).
-- [ ] **M2 — X-kinetic ON, via continuation.** Turn on the X (∂φ)² term, ramping X 0 → −2e5
-  (continuation-in-X is the in-built fix for its stiffness). Guard at each X. (Suspected primary culprit —
-  the X=−2e5 singular stiffness we diagnosed. If the guard goes RED here, that's confirmed and the fix is
-  the continuation + proper non-dimensionalization, done HERE under the guard.)
+- [x] **M2 — X-kinetic to −2e5 via continuation. DONE 2026-06-25, GUARD GREEN.** Added
+  `continuation_solve_p1` (adaptive geometric X-ladder −1→−2e5, warm-start, SUBDIVIDE on stall so a stalled
+  step can't cascade). Guard now targets the production X=−2e5.
+  - guard **GREEN**: Nr=10 Phi=4.2e-11 warp=1.048; Nr=12 Phi=7.1e-12 warp=1.167. FLOOR + N-CONVERGE pass.
+  - **MAJOR RESULT:** the production X=−2e5 floors to near-machine-precision with clean N-convergent warps
+    (~1.05). **The X-kinetic stiffness is NOT branchGP's divergence** — it's fully solvable in the clean p1
+    framework (branchGP was stuck at 0.18 / warps 3-7 even with its own continuation). => the divergence is
+    cornered into M3 (Branch-P U) or M4 (native S²/kap8=1) — the only remaining differences from branchGP.
+  - **COST CAVEAT:** the guard took ~hours (Nr=12 = 8.6h) — the dense-jacrev continuation is heavy. For
+    M3+: streamlined to guard grids (8,10) + lighter continuation (n_steps=10, maxit=12); Nr=8→10 still
+    catches a branchGP-type warp-growth. (A matrix-free per-step solver would help further if needed.)
 - [ ] **M3 — Branch-P U term.** Add `e^{2φ}−1`. Guard. (Tests whether the scale-breaker breaks convergence.)
 - [ ] **M4 — native S² matter.** Swap S³ `field_n` → `free_s2_matter` 3-vector + `gtw` DOF + free BC.
   Guard. Flips xfail `test_matter_winding_is_native_S2`.

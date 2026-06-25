@@ -265,6 +265,45 @@ def newton_solve_p1(u, G, p, kap8, m=1, maxit=40, lam0=1e-4, tol=1e-11,
 
 
 # ===========================================================================
+# CONTINUATION IN X (M2): the X-kinetic coefficient is large-negative at the
+# production value (X=-2e5, Cassini-bounded) and SINGULARLY STIFF there (the
+# branchGP prototype could not floor it cold).  Warm-start up a geometric X-ladder
+# from a small/non-stiff X to the target so each step stays on the solution
+# manifold.  This is the in-built fix for the stiffness; the guard checks
+# N-convergence at the production X.
+# ===========================================================================
+def continuation_solve_p1(u0, G, p, kap8, X_target=-2.0e5, X_start=-1.0, n_steps=15,
+                          m=1, maxit=25, core_mode="deg1", xi=1.0, kap=1.0,
+                          branch="G", step_tol=1e-8, verbose=False):
+    """ADAPTIVE geometric X-ladder: warm-start each step; if a step fails to floor
+    below step_tol, SUBDIVIDE (halve the X-jump in log space) and retry, so a stalled
+    step cannot cascade.  Finer ladder + more iters than the first cut (the larger
+    grids need it -- worse conditioning at large |X|)."""
+    import numpy as np
+    logs = list(-np.geomspace(abs(X_start), abs(X_target), n_steps))  # endpoints incl target
+    u = u0; hist = [None]; Xprev = None
+    i = 0
+    while i < len(logs):
+        X = logs[i]
+        u_try, h = newton_solve_p1(u, G, p, kap8, m=m, maxit=maxit, X=float(X),
+                                   xi=xi, kap=kap, branch=branch, core_mode=core_mode,
+                                   verbose=False)
+        if h[-1] > step_tol and Xprev is not None and abs(X - Xprev) > 1e-9 * abs(X):
+            # stalled -> insert a midpoint (log) and retry from the last good u
+            Xmid = -math.exp(0.5 * (math.log(abs(Xprev)) + math.log(abs(X))))
+            logs.insert(i, Xmid)
+            if verbose:
+                print(f"  [X-cont] X={float(X):.3e} stalled Phi={h[-1]:.2e} "
+                      f"-> subdivide at {Xmid:.3e}", flush=True)
+            continue
+        u, hist, Xprev = u_try, h, X
+        if verbose:
+            print(f"  [X-cont] X={float(X):.3e} Phi={hist[-1]:.3e}", flush=True)
+        i += 1
+    return u, hist, float(logs[-1])
+
+
+# ===========================================================================
 # per-component residual breakdown (validation report)
 # ===========================================================================
 def component_residuals_p1(u, G, p, kap8, m=1, X=-1.0, xi=1.0, kap=1.0, branch="G"):

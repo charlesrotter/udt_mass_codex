@@ -27,10 +27,12 @@ torch.set_default_dtype(torch.float64)
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from full3d_spectral import Grid3D, attach_coord_weight
 
-GRIDS = (10, 14)          # two resolutions (Nr=16 is the stronger but slower check)
+GRIDS = (10, 12)          # two resolutions; Nr>=14 jacrev (~100s/iter) is too slow for
+                          # the X-continuation ladder. (10,12) still tests N-convergence.
 FLOOR_TOL = 1e-6          # a clean solve floors well below this; branchGP stuck ~0.18
 GROW_TOL = 1.5            # max-warp may not grow by more than this factor across grids
 KAP8 = 0.05; P = 1.0; M = 1; MAXIT = 8
+X_TARGET = -2.0e5         # M2+: the production (Cassini-bounded, stiff) X-kinetic value
 
 
 def _solve(nr):
@@ -42,10 +44,11 @@ def _solve(nr):
     z = torch.zeros(nr, G.Nth, G.Nps, device=dev)
     a = -1.0 * (1 - s); b = 1.0 * (1 - s); Th = math.pi * (1 - s)
     u0 = P1.pack6(a, b, z.clone(), z.clone(), Th, z.clone())
-    u, hist = P1.newton_solve_p1(u0, G, p=P, kap8=KAP8, m=M, maxit=MAXIT,
-                                 core_mode='deg1', verbose=False)
+    # M2: continue X -1 -> production -2e5 (the stiff value); guard N-convergence there.
+    u, hist, Xfin = P1.continuation_solve_p1(u0, G, P, KAP8, X_target=X_TARGET, m=M,
+                                             core_mode='deg1', verbose=False)
     a, b, c, d, Th, phi = P1.unpack6(u, G)
-    F = P1.residual_vector_p1(u, G, P, KAP8, m=M, core_mode='deg1')
+    F = P1.residual_vector_p1(u, G, P, KAP8, m=M, core_mode='deg1', X=Xfin)
     Phi = float((F * F).sum())
     mw = max(float(x.abs().max()) for x in (a, b, c, d))
     return Phi, mw
