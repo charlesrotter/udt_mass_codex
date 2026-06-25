@@ -24,7 +24,17 @@ STATUS: M1 (derived operator+φ) ✅, M2 (X-kinetic→−2e5) ✅, M3 (Branch-P 
 — all GREEN, committed/pushed. **M4a (kap8 0.05→1.0, the DERIVED value) = GUARD RED**: the warp diverges
 with Nr (3.98→8.42). => branchGP's divergence is LOCALIZED to the **kap8=1 strong-matter coupling** (NOT
 the operator / X-kinetic / Branch-P U / S²-vs-S³).
-**NEXT SESSION — DO (2) FIRST, THEN (1); (3) is DONE** (full text + build instructions in HANDOFF.md TOP).
+**NEXT SESSION — DO NOT AUTO-BEGIN. DISCUSS WITH CHARLES FIRST** (Charles 2026-06-25). There are open issues
+to discuss before any building or solving. **TOP CONCERN (outranks the kap8 analysis + the current trajectory):
+FIX THE SOLVER TRAJECTORY — the solver's ONLY imports should be NUMERIC METHODS** (numpy/torch/scipy calculation
+primitives), nothing else, so every number is TRACEABLE to the action + numeric methods (no physics/mechanism
+smuggled via an import = calculation traceability). This needs a FULL AUDIT of the solver's imports (is each one
+a numeric method, or a smuggled physics object?) and feeds the solution-space GATE design (the gate has more to
+discuss too). So: DISCUSS the solver-import audit + trajectory fix + gate design FIRST; the kap8 analysis is
+LOWER priority than getting the solver's import-purity trajectory right. The (1)/(2) ordering below is the
+prior plan, now SUBORDINATE to this discussion.
+
+**(prior plan, pending the discussion) — DO (2) FIRST, THEN (1); (3) is DONE** (full text + build instructions in HANDOFF.md TOP).
 **(2) [DO FIRST] BUILD the anti-imposition GATE** — turn "explore the solution space, don't IMPOSE" into a
 machine gate (CLAUDE tripwire + `solution-space-not-imposition` skill + a premise-ledger lint), because a
 memory/tripwire is recall-class and already FAILED to stop the recurring drift. It comes first because the

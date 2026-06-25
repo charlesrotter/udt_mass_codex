@@ -13,7 +13,16 @@
 > φ=2.2) all GREEN; M4a (kap8 0.05→1.0 derived) = RED** — warp diverges with Nr (3.98→8.42). branchGP's
 > divergence is LOCALIZED to the **kap8=1 strong-matter coupling** (NOT operator/X/U/S²-vs-S³).
 >
-> **NEXT SESSION — three Charles items (discussed 2026-06-25). ORDER IS BINDING: do item (2) FIRST.**
+> **NEXT SESSION — DO NOT AUTO-BEGIN; DISCUSS WITH CHARLES FIRST (Charles 2026-06-25).** Open issues to discuss
+> before any building/solving. **TOP CONCERN, OUTRANKS the kap8 analysis + the current trajectory: FIX THE SOLVER
+> TRAJECTORY — its ONLY imports should be NUMERIC METHODS** (numpy/torch/scipy calculation primitives), nothing
+> else, so every number is traceable to the action + numeric methods (no physics/mechanism smuggled via an import
+> = calculation traceability). Needs a FULL AUDIT of the solver's imports (numeric method, or smuggled physics
+> object?) and feeds the gate design (the solution-space gate has more to discuss too — incl. this solver audit).
+> Charles is MORE concerned with this import-purity trajectory than with the kap8 analysis. So discuss the
+> solver-import audit + trajectory fix + gate design FIRST; the (1)/(2) plan below is now SUBORDINATE to that.
+>
+> **(prior plan, pending discussion) three Charles items — ORDER: do item (2) FIRST.**
 > Item (2) — the anti-imposition GATE — comes BEFORE the item-(1) kap8 physics, not because it's "important"
 > but because **the kap8 analysis IS the first live test of the gate** ("characterize the solution, don't
 > demand smoothness"). Doing the physics without the gate in place just risks drifting again (the recurring
