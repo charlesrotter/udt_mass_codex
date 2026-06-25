@@ -1,5 +1,8 @@
 # NEGATIVES REGISTRY — Premise-Scoped Index of Banked No-Gos
 
+> **NOTE (2026-06-25 curation):** many historical provenance docs referenced below now live under
+> `archive/`; resolve `<name>` as `archive/<name>`.
+
 Living index, driver-maintained (like STATE.md; updated, not
 append-only). Charter rule (CLAUDE.md, Charles 2026-06-11): every
 banked negative carries its premise set; when a premise is revised or

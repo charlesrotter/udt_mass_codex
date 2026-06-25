@@ -1,5 +1,8 @@
 # INDEX — Repo Map
 
+> **NOTE (2026-06-25 curation):** many historical provenance docs referenced below now live under
+> `archive/`; resolve `<name>` as `archive/<name>`. This INDEX is stale and needs a later full refresh.
+
 Navigable map of udt_mass_codex. Created 2026-06-10. Layout note: the repo
 is deliberately FLAT — ~474 `native_*.py` scripts plus 13 markdown docs in
 one directory. See "Conventions" at the bottom before judging the layout.

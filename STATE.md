@@ -1,5 +1,8 @@
 # STATE — Frontier Snapshot
 
+> **NOTE (2026-06-25 curation):** many historical provenance docs referenced below now live under
+> `archive/`; resolve `<name>` as `archive/<name>`.
+
 > **READ `LIVE.md` FIRST** — the short, only-guaranteed-current file. STATE is the detailed append-log;
 > if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
 >
