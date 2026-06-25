@@ -47,18 +47,18 @@ X_TARGET = -2.0e5         # M2+: the production (Cassini-bounded, stiff) X-kinet
 BRANCH = "P"              # M3+: the Branch-P operator (adds the e^{2phi}-1 U potential)
 
 
-def _solve(nr):
-    """Run the production solver matter-on at Nr=nr; return (Phi, max_warp).  COMPLETE static
-    solver: derived operator + off-diagonals live + NATIVE-S^2 3-component matter (seed = the
-    canon degree-1 winding n=x/r; core FREE -- no Theta pin)."""
+def _solve(nr, branch):
+    """Run the production solver matter-on at Nr=nr on the given branch; return (Phi, max_warp).
+    COMPLETE static solver: derived operator + off-diagonals live + NATIVE-S^2 3-component matter
+    (seed = the canon degree-1 winding n=x/r; core FREE -- no Theta pin)."""
     import p1_residual_general_einstein as P1
     G = attach_coord_weight(Grid3D(Nr=nr, Nth=6, Nps=8, rc=0.1, cell=8.0))
     u0 = P1.seed_round_native(G, p=P, m=M)
     # M2: continue X -1 -> production -2e5 (the stiff value); characterize the warp there.
     u, hist, Xfin = P1.continuation_solve_p1(u0, G, P, KAP8, X_target=X_TARGET, m=M,
-                                             branch=BRANCH, verbose=False)
+                                             branch=branch, verbose=False)
     a, b, c, d, n1, n2, n3, phi, e_rt, e_rp, e_tp = P1.unpack11(u, G)
-    F = P1.residual_vector_p1(u, G, P, KAP8, m=M, X=Xfin, branch=BRANCH)
+    F = P1.residual_vector_p1(u, G, P, KAP8, m=M, X=Xfin, branch=branch)
     Phi = float((F * F).sum())
     mw = max(float(x.abs().max()) for x in (a, b, c, d))
     return Phi, mw
@@ -92,22 +92,31 @@ def _classify(res):
 
 
 def main():
-    t0 = time.time(); res = []
-    print(f"[migration characterizer] matter-on solve; grids={GRIDS} "
-          f"converge_tol={CONVERGE_TOL:.0e} (CHARACTERIZER, not a pass/fail filter)", flush=True)
-    for nr in GRIDS:
-        Phi, mw = _solve(nr)
-        res.append((nr, Phi, mw))
-        print(f"  Nr={nr}: Phi={Phi:.3e}  max|warp(a..d)|={mw:.3f}  "
-              f"t={time.time()-t0:.0f}s", flush=True)
-    numeric_ok, lines = _classify(res)
-    print("  --- characterization ---", flush=True)
-    for ln in lines:
-        print(ln, flush=True)
-    print(f"  ==> NUMERICALLY {'CONVERGED' if numeric_ok else 'NOT CONVERGED'} "
-          f"(exit reflects numeric health ONLY; warp behavior is characterized above, not failed)",
-          flush=True)
-    return 0 if numeric_ok else 1
+    """kap8 CHARACTERIZATION on the COMPLETE static solver, BOTH branches (G then P, SEQUENTIALLY
+    -- anti-hang: one process, never concurrent).  Observe/classify the warp; do NOT demand
+    smoothness.  Branch G (gauges the angular obstruction away) and Branch P (keeps it as the
+    scale-breaker potential) are the two operators; running both clears the branch exploration gate."""
+    t0 = time.time(); all_ok = True
+    print(f"[kap8 characterizer] COMPLETE solver (off-diagonals live + native-S^2 matter); "
+          f"kap8={KAP8} grids={GRIDS} branches=G,P  (CHARACTERIZER, not a pass/fail filter)", flush=True)
+    for branch in ("G", "P"):
+        print(f"\n=== BRANCH {branch} ===", flush=True)
+        res = []
+        for nr in GRIDS:
+            Phi, mw = _solve(nr, branch)
+            res.append((nr, Phi, mw))
+            print(f"  Nr={nr}: Phi={Phi:.3e}  max|warp(a..d)|={mw:.3f}  "
+                  f"t={time.time()-t0:.0f}s", flush=True)
+        numeric_ok, lines = _classify(res)
+        print(f"  --- branch {branch} characterization ---", flush=True)
+        for ln in lines:
+            print(ln, flush=True)
+        print(f"  ==> branch {branch}: NUMERICALLY {'CONVERGED' if numeric_ok else 'NOT CONVERGED'}",
+              flush=True)
+        all_ok = all_ok and numeric_ok
+    print(f"\n[done] total t={time.time()-t0:.0f}s (exit reflects numeric health ONLY; "
+          f"warp behavior is characterized per branch above, not failed)", flush=True)
+    return 0 if all_ok else 1
 
 
 if __name__ == "__main__":
