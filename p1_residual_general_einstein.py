@@ -92,14 +92,25 @@ import b1prime_3d_offround_residual as B1
 # (e_rt, e_rp, e_tp), each (Nr,Nth,Nps).  The off-diagonals are the NEW live DOF P1
 # turns on.  (Time-row off-diagonals stay ZEROED -- that is P4, not P1.)
 # ===========================================================================
+def pack9(a, b, c, d, Th, phi, e_rt, e_rp, e_tp):
+    return torch.cat([x.reshape(-1) for x in (a, b, c, d, Th, phi, e_rt, e_rp, e_tp)])
+
+
+def unpack9(u, G):
+    n = G.Nr * G.Nth * G.Nps
+    sh = (G.Nr, G.Nth, G.Nps)
+    return [u[i*n:(i+1)*n].reshape(sh) for i in range(9)]   # a,b,c,d,Th,phi,e_rt,e_rp,e_tp
+
+
 def pack6(a, b, c, d, Th, phi):
-    return torch.cat([x.reshape(-1) for x in (a, b, c, d, Th, phi)])
+    # back-compat shim: the off-diagonal sector is live; a 6-field seed packs ZERO off-diagonals
+    # (-> the residual is regression-locked to the diagonal operator on this seed).
+    z = torch.zeros_like(a)
+    return pack9(a, b, c, d, Th, phi, z, z, z)
 
 
 def unpack6(u, G):
-    n = G.Nr * G.Nth * G.Nps
-    sh = (G.Nr, G.Nth, G.Nps)
-    return [u[i*n:(i+1)*n].reshape(sh) for i in range(6)]   # a,b,c,d,Th,phi
+    return unpack9(u, G)[:6]   # a,b,c,d,Th,phi (drops the off-diagonals)
 
 
 # ===========================================================================
@@ -128,13 +139,19 @@ def einstein_general_hybrid(G, a, b, c, d, e_rt, e_rp, e_tp):
 #    BC rows (Theta core/seal, gauge a(seal), depth b(core), c,d regular, off-diag
 #       regular at core+seal).
 # ===========================================================================
-def _el_Th_weighted(G, a, b, c, d, phi, Th, xi, kap, m=1, kap8=1.0):
+def _el_Th_weighted(G, a, b, c, d, phi, Th, xi, kap, m=1, kap8=1.0,
+                    e_rt=None, e_rp=None, e_tp=None):
     """jacrev-SAFE e^{2phi}-weighted matter Theta-EL = kap8 * (1/measure) dS_m/dTheta,
     S_m = INT sqrt-g e^{2phi} L_m.  Mirrors b1prime.EL_Th_3d but uses torch.func.grad
     (functorch-composable) instead of requires_grad_/autograd.grad (the validated
     branchGP.EL_gtw_s2 pattern -- nests cleanly under jacrev).  Metric/phi flow (no
-    detach), so jacrev captures the full coupling."""
-    g = build_metric(G, a, b, c, d); ginv = inv4x4(g)
+    detach), so jacrev captures the full coupling.  Off-diagonals (e_*) flow into the
+    FULL metric so the matter sector is consistent; e_*=0 => diagonal (regression lock)."""
+    z = torch.zeros_like(a)
+    e_rt = z if e_rt is None else e_rt
+    e_rp = z if e_rp is None else e_rp
+    e_tp = z if e_tp is None else e_tp
+    g = build_metric(G, a, b, c, d, e_rt=e_rt, e_rp=e_rp, e_tp=e_tp); ginv = inv4x4(g)
     f = torch.exp(torch.clamp(2 * phi, max=60.0))
     sqrtg = torch.sqrt(torch.clamp(-det4x4(g), min=1e-30))
     fw = f * sqrtg * G.wvol_coord
@@ -160,20 +177,23 @@ def residual_vector_p1(u, G, p, kap8, m=1, wbc=30.0, node_core=True, core_mode="
             (stage1a, reproduced here): the round charge-1 config UNWINDS to the
             trivial node (vacuum, M_MS~0) -- a genuine result, recorded not patched.
       node_core=False is the negative-control Skyrme twist (clearly labelled)."""
-    a, b, c, d, Th, phi = unpack6(u, G)
+    a, b, c, d, Th, phi, e_rt, e_rp, e_tp = unpack9(u, G)
     E = BR.E_mixed_branch(G, a, b, c, d, phi, Th, X=X, xi=xi, kap=kap, m=m,
-                          kap8=kap8, branch=branch)
+                          kap8=kap8, branch=branch, e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)
     elphi = BR.EL_phi_branch(G, a, b, c, d, phi, Th, X=X, xi=xi, kap=kap, m=m,
-                             kap8=kap8, branch=branch)
-    elTh = _el_Th_weighted(G, a, b, c, d, phi, Th, xi, kap, m=m, kap8=kap8)
-    g = build_metric(G, a, b, c, d)
+                             kap8=kap8, branch=branch, e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)
+    elTh = _el_Th_weighted(G, a, b, c, d, phi, Th, xi, kap, m=m, kap8=kap8,
+                           e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)
+    g = build_metric(G, a, b, c, d, e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)
     sqrtg = torch.sqrt(torch.clamp(-det4x4(g), min=1e-30))
     W = torch.sqrt(sqrtg * G.wvol_coord)
     W = W / W[G.body].mean()
     bod = G.body
     rows = []
-    # FOUR diagonal Einstein rows only (NO off-diagonals -- diagonal target)
-    for (mm, nn) in [(T, T), (R, R), (TH, TH), (PS, PS)]:
+    # FOUR diagonal + THREE off-diagonal Einstein rows (the off-diagonal rows are the field
+    # equations the e_rt/e_rp/e_tp warps solve; identically the diagonal target when e_*=0).
+    for (mm, nn) in [(T, T), (R, R), (TH, TH), (PS, PS),
+                     (R, TH), (R, PS), (TH, PS)]:
         rows.append((W * E[..., mm, nn])[bod])
     rows.append((W * elphi)[bod])    # phi-EL
     rows.append((W * elTh)[bod])     # Theta-EL
@@ -196,6 +216,9 @@ def residual_vector_p1(u, G, p, kap8, m=1, wbc=30.0, node_core=True, core_mode="
     rows.append(wbc * c[0, :, :].reshape(-1)); rows.append(wbc * c[-1, :, :].reshape(-1))
     rows.append(wbc * d[0, :, :].reshape(-1)); rows.append(wbc * d[-1, :, :].reshape(-1))
     rows.append(wbc * phi[-1, :, :].reshape(-1))          # phi(seal)=0  (NEW)
+    # off-diagonal warps regular (=0) at core + seal (mirror c,d; the off-diagonal sector's BCs)
+    for e in (e_rt, e_rp, e_tp):
+        rows.append(wbc * e[0, :, :].reshape(-1)); rows.append(wbc * e[-1, :, :].reshape(-1))
     F = torch.cat([r.reshape(-1) for r in rows])
     return F
 
@@ -307,16 +330,19 @@ def continuation_solve_p1(u0, G, p, kap8, X_target=-2.0e5, X_start=-1.0, n_steps
 # per-component residual breakdown (validation report)
 # ===========================================================================
 def component_residuals_p1(u, G, p, kap8, m=1, X=-1.0, xi=1.0, kap=1.0, branch="G"):
-    a, b, c, d, Th, phi = unpack6(u, G)
+    a, b, c, d, Th, phi, e_rt, e_rp, e_tp = unpack9(u, G)
     E = BR.E_mixed_branch(G, a, b, c, d, phi, Th, X=X, xi=xi, kap=kap, m=m,
-                          kap8=kap8, branch=branch)
+                          kap8=kap8, branch=branch, e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)
     elphi = BR.EL_phi_branch(G, a, b, c, d, phi, Th, X=X, xi=xi, kap=kap, m=m,
-                             kap8=kap8, branch=branch)
-    elTh = _el_Th_weighted(G, a, b, c, d, phi, Th, xi, kap, m=m, kap8=kap8)
+                             kap8=kap8, branch=branch, e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)
+    elTh = _el_Th_weighted(G, a, b, c, d, phi, Th, xi, kap, m=m, kap8=kap8,
+                           e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)
     bod = G.body
-    names = {(T, T): 'tt', (R, R): 'rr', (TH, TH): 'thth', (PS, PS): 'psps'}
+    names = {(T, T): 'tt', (R, R): 'rr', (TH, TH): 'thth', (PS, PS): 'psps',
+             (R, TH): 'rth', (R, PS): 'rps', (TH, PS): 'thps'}
     out = {nm: float(E[..., mm, nn][bod].abs().max()) for (mm, nn), nm in names.items()}
     out['elphi'] = float(elphi[bod].abs().max())
     out['elTh'] = float(elTh[bod].abs().max())
     out['phi_max'] = float(phi[bod].abs().max())
+    out['eoff_max'] = max(float(x[bod].abs().max()) for x in (e_rt, e_rp, e_tp))
     return out

@@ -31,7 +31,7 @@ torch.set_default_dtype(torch.float64)
 from full3d_spectral import (Grid3D, attach_coord_weight, build_metric,
                              einstein_mixed_weyl, field_n, PI, T, R, TH, PS)
 from p1_residual_general_einstein import (residual_vector_p1, einstein_general_hybrid,
-                                          pack6)
+                                          pack6, pack9)
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OPERATOR_FILE = os.path.join(REPO, "p1_residual_general_einstein.py")
@@ -102,24 +102,26 @@ def _grid(Nr=12, Nth=8, Nps=8, rc=0.05, cell=14.0):
 # 1. LIVENESS  -- every live DOF must move the residual (off-diagonals not dead)
 # =============================================================================
 def test_all_dofs_live(grid, offround_fields):
-    """Perturb each of the 6 M1 fields (a,b,c,d,Th,phi) at an interior body node on a
-    GENERIC OFF-ROUND background; the residual MUST change.  An unmoved residual = a dead
-    DOF / a secretly degenerate operator.  (M1 dropped the spatial off-diagonals -- the
-    diagonal derived scalar-tensor target -- and added phi as the 6th field.)"""
+    """Perturb each of the 9 live fields (a,b,c,d,Th,phi + the 3 spatial off-diagonals
+    e_rt,e_rp,e_tp) at an interior body node on a GENERIC OFF-ROUND background; the residual
+    MUST change.  An unmoved residual = a dead DOF / a secretly degenerate operator.  (The
+    off-diagonal sector was completed 2026-06-25 -- gate #7; the e_* DOF are now live and the
+    residual carries their 3 off-diagonal Einstein rows.)"""
     a, b, c, d, Th = [f.clone() for f in offround_fields[:5]]
+    e_rt, e_rp, e_tp = [f.clone() for f in offround_fields[5:8]]   # generic off-round off-diagonals
     # phi: a generic nonzero off-round dilation field (so no DOF is symmetry-decoupled)
     R, TH, PS = grid.Rg, grid.THg, grid.PSg
     rmid = 0.5 * (grid.rc + grid.ri)
     phi = 0.03 * torch.exp(-((R - rmid) / 2.0) ** 2) * (1.0 + 0.2 * torch.cos(TH) * torch.cos(PS))
-    fields = [a, b, c, d, Th, phi]
-    F0 = residual_vector_p1(pack6(*fields), grid, p=0.4, kap8=0.05)
+    fields = [a, b, c, d, Th, phi, e_rt, e_rp, e_tp]
+    F0 = residual_vector_p1(pack9(*fields), grid, p=0.4, kap8=0.05)
     ir, it, ip = grid.Nr // 2, grid.Nth // 2, grid.Nps // 2
-    names = ["a", "b", "c", "d", "Th", "phi"]
+    names = ["a", "b", "c", "d", "Th", "phi", "e_rt", "e_rp", "e_tp"]
     moved = {}
     for k, name in enumerate(names):
         pert = [f.clone() for f in fields]
         pert[k][ir, it, ip] += 1e-3
-        F1 = residual_vector_p1(pack6(*pert), grid, p=0.4, kap8=0.05)
+        F1 = residual_vector_p1(pack9(*pert), grid, p=0.4, kap8=0.05)
         moved[name] = float((F1 - F0).norm())
     dead = {n: v for n, v in moved.items() if v < 1e-9}
     assert not dead, f"DEAD DOF(s) -- residual unmoved by perturbation: {dead}\n all: {moved}"

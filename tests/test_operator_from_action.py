@@ -110,12 +110,12 @@ def test_matter_field_eom_consistent_with_action():
 #    kap8 sign/order, the component list, G - kap8 T not G - 2 kap8 T).  Tautological as an
 #    EL proof (same engine on both sides); valuable as a drift/regression guard.
 # =============================================================================
-@pytest.mark.xfail(reason="off-diagonals dropped in M1 derived-operator migration; the residual "
-                          "now assembles the DERIVED diagonal scalar-tensor operator "
-                          "(E_mixed_branch) not the GR hybrid G-kap8 T 7-row stack. Re-add this "
-                          "assembly lock against the derived operator as a later derived-P1 step.",
-                   strict=False)
 def test_residual_assembles_einstein_eq():
+    # OFF-DIAGONAL completion (2026-06-25): the residual reassembles the FULL 7-row stack
+    # (4 diagonal + 3 off-diagonal Einstein) and this lock is restored to a HARD assert.  At
+    # phi=0 the DERIVED operator E_mixed_branch degenerates EXACTLY to the GR-baseline G - kap8 T
+    # (f=e^0=1; the f-terms and X-kinetic vanish), so the same-engine reconstruction below matches
+    # all 7 rows to machine precision -- locking the assembly recipe incl. the off-diagonal rows.
     G = _grid()
     a, b, c, d = _smooth(G, 0.05), _smooth(G, 0.04), _smooth(G, 0.03), _smooth(G, 0.02)
     Th = 0.6 * torch.exp(-(G.Rg - 0.1)) * (1.0 + 0.1 * torch.cos(G.THg))

@@ -127,11 +127,25 @@ def box_f_scalar(G, f, ginv, Gamma):
 # with X-kinetic and matter weighted by f=e^{2phi}, kap8=1.
 # ===========================================================================
 def E_mixed(G, a, b, c, d, phi, Th, X, xi, kap, m=1, kap8=1.0,
-            return_parts=False):
-    g = build_metric(G, a, b, c, d)
-    # gravity G^mu_nu : validated analytic pole-stable Weyl engine (route A choice)
-    Gmix = einstein_mixed_weyl(G, a, b, c, d)               # (...,4,4) G^mu_nu
-    Gamma, ginv, dg = christoffel_from_metric(G, g)
+            e_rt=None, e_rp=None, e_tp=None, return_parts=False):
+    # OFF-DIAGONAL completion (2026-06-25, gate #7): when e_rt/e_rp/e_tp are live the metric is the
+    # FULL off-round metric and the dilaton/kinetic/matter sectors see it.  Gravity = the pole-stable
+    # diagonal Weyl backbone + the general-Einstein OFF-DIAGONAL BRACKET (einstein_mixed(g_full) -
+    # einstein_mixed(g_diag)) -- the validated einstein_general_hybrid pattern.  e_*=None/0 =>
+    # g_full == g_diag => bracket == 0 AND ginv diagonal => E reduces EXACTLY to the diagonal derived
+    # operator (regression lock).
+    z = torch.zeros_like(a)
+    e_rt = z if e_rt is None else e_rt
+    e_rp = z if e_rp is None else e_rp
+    e_tp = z if e_tp is None else e_tp
+    g = build_metric(G, a, b, c, d, e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)   # g_full
+    # gravity G^mu_nu : pole-stable diagonal Weyl backbone + off-diagonal bracket (0 when e=0)
+    Gmix = einstein_mixed_weyl(G, a, b, c, d)               # (...,4,4) diagonal analytic backbone
+    g_diag = build_metric(G, a, b, c, d)
+    Ggen_full, _, _, _ = einstein_mixed(G, g)
+    Ggen_diag, _, _, _ = einstein_mixed(G, g_diag)
+    Gmix = Gmix + (Ggen_full - Ggen_diag)                  # off-diagonal contribution
+    Gamma, ginv, dg = christoffel_from_metric(G, g)        # f-terms/kinetic/matter see g_full
     f = torch.exp(torch.clamp(2*phi, max=60.0))
     # f-derivative terms ------------------------------------------------------
     boxf = box_f_scalar(G, f, ginv, Gamma)                  # scalar box f
@@ -168,8 +182,16 @@ def E_mixed(G, a, b, c, d, phi, Th, X, xi, kap, m=1, kap8=1.0,
 # (kinetic term:  X f g^{mn} d_m phi d_n phi  ->  f' X (dphi)^2 - 2 X div(f grad phi).)
 # kap8 carried on the matter weight (matter enters as f L_m at coeff kap8=1).
 # ===========================================================================
-def EL_phi_3d(G, a, b, c, d, phi, Th, X, xi, kap, m=1, kap8=1.0):
-    g = build_metric(G, a, b, c, d)
+def EL_phi_3d(G, a, b, c, d, phi, Th, X, xi, kap, m=1, kap8=1.0,
+              e_rt=None, e_rp=None, e_tp=None):
+    # OFF-DIAGONAL completion (2026-06-25): the phi-EOM sees the FULL metric so the dilaton
+    # sector is consistent with the off-diagonal Einstein rows.  e_*=0 => g_full==g_diag =>
+    # identical to the diagonal phi-EL (regression lock).
+    z = torch.zeros_like(a)
+    e_rt = z if e_rt is None else e_rt
+    e_rp = z if e_rp is None else e_rp
+    e_tp = z if e_tp is None else e_tp
+    g = build_metric(G, a, b, c, d, e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)   # g_full
     Gamma, ginv, dg = christoffel_from_metric(G, g)
     f = torch.exp(torch.clamp(2*phi, max=60.0))
     fp = 2.0 * f                                            # f'(phi) = 2 e^{2phi}
@@ -180,6 +202,11 @@ def EL_phi_3d(G, a, b, c, d, phi, Th, X, xi, kap, m=1, kap8=1.0):
     #  This is the radial build's "prefer analytic for the gravity part" lesson, off-round.)
     Gmix_w = einstein_mixed_weyl(G, a, b, c, d)
     Rscal = -torch.einsum('...mm->...', Gmix_w)
+    # off-diagonal correction to R (hybrid bracket; identically 0 when e_*=0)
+    g_diag = build_metric(G, a, b, c, d)
+    Rgen_full, _, _, _ = einstein_mixed(G, g)
+    Rgen_diag, _, _, _ = einstein_mixed(G, g_diag)
+    Rscal = Rscal - torch.einsum('...mm->...', Rgen_full - Rgen_diag)
     # (dphi)^2
     dphi = coord_grad(G, phi)
     dphi_up = torch.einsum('...ma,...a->...m', ginv, dphi)
@@ -232,8 +259,13 @@ def EL_phi_3d(G, a, b, c, d, phi, Th, X, xi, kap, m=1, kap8=1.0):
 # scaled below; here we recompute via autograd of (f * sqrt-g * L_m) for exactness
 # with the production xi,kap and the f weight.
 # ===========================================================================
-def EL_Th_3d(G, a, b, c, d, phi, Th, X, xi, kap, m=1, kap8=1.0):
-    g = build_metric(G, a, b, c, d)
+def EL_Th_3d(G, a, b, c, d, phi, Th, X, xi, kap, m=1, kap8=1.0,
+             e_rt=None, e_rp=None, e_tp=None):
+    z = torch.zeros_like(a)
+    e_rt = z if e_rt is None else e_rt
+    e_rp = z if e_rp is None else e_rp
+    e_tp = z if e_tp is None else e_tp
+    g = build_metric(G, a, b, c, d, e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)   # g_full
     ginv = CORE.metric_inverse(g)
     f = torch.exp(torch.clamp(2*phi, max=60.0))
     Th_ = Th.detach().clone().requires_grad_(True)
