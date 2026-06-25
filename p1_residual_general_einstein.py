@@ -272,8 +272,8 @@ def newton_solve_p1(u, G, p, kap8, m=1, maxit=40, lam0=1e-4, tol=1e-11,
 # manifold.  This is the in-built fix for the stiffness; the guard checks
 # N-convergence at the production X.
 # ===========================================================================
-def continuation_solve_p1(u0, G, p, kap8, X_target=-2.0e5, X_start=-1.0, n_steps=15,
-                          m=1, maxit=25, core_mode="deg1", xi=1.0, kap=1.0,
+def continuation_solve_p1(u0, G, p, kap8, X_target=-2.0e5, X_start=-1.0, n_steps=10,
+                          m=1, maxit=12, core_mode="deg1", xi=1.0, kap=1.0,
                           branch="G", step_tol=1e-8, verbose=False):
     """ADAPTIVE geometric X-ladder: warm-start each step; if a step fails to floor
     below step_tol, SUBDIVIDE (halve the X-jump in log space) and retry, so a stalled

@@ -51,7 +51,16 @@ analytic metric — it cannot catch a solve-level divergence; this guard can.)
   - **COST CAVEAT:** the guard took ~hours (Nr=12 = 8.6h) — the dense-jacrev continuation is heavy. For
     M3+: streamlined to guard grids (8,10) + lighter continuation (n_steps=10, maxit=12); Nr=8→10 still
     catches a branchGP-type warp-growth. (A matrix-free per-step solver would help further if needed.)
-- [ ] **M3 — Branch-P U term.** Add `e^{2φ}−1`. Guard. (Tests whether the scale-breaker breaks convergence.)
+- [x] **M3 — Branch-P U term. DONE 2026-06-25, GUARD GREEN.** Switched guard to `branch="P"` (the
+  operator/φ-EL already carry the +δU / −2U' terms via branch_operator). Streamlined the continuation
+  (n_steps=10, maxit=12) + guard grids → (8,10).
+  - guard **GREEN**: Nr=8 Phi=8.9e-9 warp=3.478; Nr=10 Phi=1.7e-15 warp=3.457. FLOOR + N-CONVERGE pass.
+  - **MILESTONE:** the scale-breaker `e^{2φ}−1` ACTS — it pulls φ **deep (φ=2.2)** and warps the metric
+    strongly (~3.5), but the solution is **resolution-STABLE** (warp 3.48→3.46) and floors to machine
+    precision. So (a) Branch-P U is NOT branchGP's divergence (large but stable warp); (b) **we reached the
+    deep/strong-field regime CLEANLY** — the frame the deep-regime exploration wanted — where branchGP was
+    stuck at 0.18. => the divergence is cornered into **M4** (native S² matter / kap8=1), the only
+    remaining difference from the prototype.
 - [ ] **M4 — native S² matter.** Swap S³ `field_n` → `free_s2_matter` 3-vector + `gtw` DOF + free BC.
   Guard. Flips xfail `test_matter_winding_is_native_S2`.
 - [ ] **M5 — tags + defaults.** core_mode default → 'free'; source/tag kap8, xi, kap. Flips xfails
