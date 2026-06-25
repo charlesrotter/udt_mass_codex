@@ -15,41 +15,35 @@ HANDOFF.md TOP → INDEX.md (repo map).
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## CURRENT ACTIVITY (2026-06-25): MIGRATION — extend hardened p1 to the derived operator. READ `MIGRATION.md`.
-Charles repealed the file-immutability rule (use git as git; edit in place). Decided: do NOT canonize the
-un-harnessed `branchGP` prototype (it had a matter-sourced resolution-divergent warp) — EXTEND the hardened
-`p1_residual_general_einstein.py` to the derived physics, incrementally, with a solve-level convergence
-GUARD live at each step (`migration_convergence_guard.py`). Tracker + full status = **`MIGRATION.md`**.
-STATUS: M1 (derived operator+φ) ✅, M2 (X-kinetic→−2e5) ✅, M3 (Branch-P U; reached deep φ=2.2 cleanly) ✅
-— all GREEN, committed/pushed. **M4a (kap8 0.05→1.0, the DERIVED value) = GUARD RED**: the warp diverges
-with Nr (3.98→8.42). => branchGP's divergence is LOCALIZED to the **kap8=1 strong-matter coupling** (NOT
-the operator / X-kinetic / Branch-P U / S²-vs-S³).
-**NEXT SESSION — DO NOT AUTO-BEGIN. DISCUSS WITH CHARLES FIRST** (Charles 2026-06-25). There are open issues
-to discuss before any building or solving. **TOP CONCERN (outranks the kap8 analysis + the current trajectory):
-FIX THE SOLVER TRAJECTORY — the solver's ONLY imports should be NUMERIC METHODS** (numpy/torch/scipy calculation
-primitives), nothing else, so every number is TRACEABLE to the action + numeric methods (no physics/mechanism
-smuggled via an import = calculation traceability). **CRITICAL ORDER — you CANNOT gate an already-corrupted solver:** a gate PRESERVES a baseline, so gating the
-current (corrupted) solver would just FREEZE the corruption and stamp it "clean" (false confidence). Correct
-order: (i) AUDIT the solver (every import: numeric method or smuggled physics? every BC/ansatz/acceptance:
-imposed or theory?), (ii) CLEAN it to a numeric-only, imposition-free baseline, (iii) ONLY THEN build the gate to
-PRESERVE that clean baseline. Building the gate first (the prior plan) was BACKWARDS. So: DISCUSS the solver audit
-+ clean-up plan with Charles FIRST; the kap8 analysis is LOWER priority. The (1)/(2) plan below is SUBORDINATE
-(the gate moves AFTER the clean-up, not first). **GOAL after cleaning = EXPLORE the metric's solution space —
-OBSERVE what it does, let structure EMERGE (CLAUDE Principle / "how we work"). NOT "then go do physics / get a
-result."** The kap8 question is pursued ONLY as EXPLORATION (characterize the solution; observe, don't target),
-gated on Charles — never as result-hunting.
+## CURRENT ACTIVITY (2026-06-25 EVENING): STATIC SOLVER now CODE-COMPLETE — next = kap8 characterization (both branches), then DYNAMIC.
+Charles's directive this session (BINDING, [[fix-all-flaws-before-dynamic]]): the goal is a WORKING solver to
+EXPLORE the solution space; **fix EVERY static-solver flaw (no pick-and-choose) before going dynamic — "no red
+gates before the next level."** And ([[apply-purist-logic-proactively]]) pick the PUREST/most-correct option and
+FIX THE FLAW yourself; don't take the imposing shortcut. The whole arc landed:
+- **Anti-imposition GATE** built (skill `solution-space-not-imposition` + 2 physics-blind lints in
+  `tests/test_solution_space_gate.py` + CLAUDE tripwire + the convergence guard reframed filter→CHARACTERIZER),
+  blind-verifier passed. Governing limit: a gate checks PROVENANCE & HONESTY, never MERIT.
+- **Import-traceability cleaned**: the live solver graph is numeric-method + action-EL modules ONLY (extracted
+  `solver_pack.py`; `full3d_solver`/`spectral_radial_soliton` left the graph). Direct solver audit done.
+- **Off-diagonal sector COMPLETED** in the derived operator (gate #7): the 3 spatial off-diagonals are live DOF
+  again (the kap8 RED was SOLVER-incompleteness — a frozen DOF — not a horizon).
+- **Grid fix** `spectral_sph_exact.py`: spherical-harmonic-EXACT d/dtheta (the GL-mu grid mis-differentiated
+  winding sin(theta) non-convergently) — unblocked the PURE native matter.
+- **NATIVE-S² matter WIRED**: the operator takes matter via `dn`; the imported S³ hedgehog is RETIRED; the live
+  matter is the free 3-component carrier (`free_s2_matter.field_dn_components_exact`) with the |n|=1 constraint;
+  **the matter CORE IS FREE** (no Theta pin — winding from the seed's homotopy class; `seed_round_native`).
+- Provenance gates re-pointed to the tagged source-of-truth (`branch_operator` KAP8/XI_PROD/KAP_PROD).
+**`pytest tests/` = 32 passed / 1 xfailed.** The one remaining gate `test_no_habit_pins` = the branch G/P fork
+(defaulted 'G') — an EXPLORATION gate, clears when the characterization runs BOTH branches (not a code flaw).
 
-**(prior plan, pending the discussion) — DO (2) FIRST, THEN (1); (3) is DONE** (full text + build instructions in HANDOFF.md TOP).
-**(2) [DO FIRST] BUILD the anti-imposition GATE** — turn "explore the solution space, don't IMPOSE" into a
-machine gate (CLAUDE tripwire + `solution-space-not-imposition` skill + a premise-ledger lint), because a
-memory/tripwire is recall-class and already FAILED to stop the recurring drift. It comes first because the
-item-(1) kap8 analysis IS the gate's first live test (characterize, don't demand smoothness); doing the
-physics without the gate risks drifting again. See [[solution-space-not-imposition]]. **(1) [THEN, under the
-gate] reconcile the kap8 divergence by ANALYSIS not numerics** — GR corpus on the strong-coupling
-self-gravitating global monopole (deficit→1 ⇒ inflating de Sitter/horizon core), re-derived under the DERIVED
-operator; the kap8=1 warp-divergence is LIKELY a real horizon, not a bug. (3) Repo reorg — DONE 2026-06-25.
-M4b (native S²) gated on (1). (Prior solver = `branchGP_*`, now a reference prototype; the 2026-06-23
-integrity-upgrades arc below is HISTORICAL.)
+**NEXT (gated on Charles — it's a SLOW solve; run it MYSELF, bounded, single process, background-notify, NO nohup):
+the kap8 characterization on the COMPLETE solver, BOTH branches G and P.** This is the original mystery (does the
+kap8=1 warp still N-grow now that the off-diagonals are LIVE and the matter is native?) AND it clears the branch
+gate. Use the REFRAMED guard (`migration_convergence_guard.py`) = CHARACTERIZER (observe/classify the warp:
+N-stable / N-growing→resolve-by-analysis / horizon — do NOT demand smoothness). OBSERVE, don't target. THEN dynamic
+(time-live / non-stationary native S² — the φ-angular hunch's home). Still owed before/with dynamic: check whether
+the GRAVITY sector also needs the SH-exact d/dtheta (verify, don't assume). MIGRATION.md M4/M5/M6 are SUBSUMED by
+this completion (historical).
 
 ## (HISTORICAL) 2026-06-23: solver-integrity-upgrades arc — COMPLETE
 A Charles-requested detour to harden the solver's integrity MACHINERY before resuming the physics
