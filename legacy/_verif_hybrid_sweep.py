@@ -16,6 +16,8 @@ Plan:
   diagonal-block back-reaction.  KEY: does err stay flat (cancellation holds) or
   blow up as A grows (off-diag no longer small on the steep background)?
 """
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 import os
 os.environ.setdefault("PYTORCH_NVML_BASED_CUDA_CHECK", "0")
 os.environ.setdefault("PYTORCH_NO_CUDA_MEMORY_CACHING", "1")

@@ -2,6 +2,8 @@
 """Reproduce b1/b2/b3 (single evals) + the Nth-shrinkage of G^r_th on a FIXED
 diagonal field with a small angular variation (tests the 'e_rt is a coarse-Nth
 artifact' claim).  NO solve."""
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 import os
 os.environ.setdefault("PYTORCH_NVML_BASED_CUDA_CHECK","0")
 os.environ.setdefault("PYTORCH_NO_CUDA_MEMORY_CACHING","1")

@@ -26,6 +26,8 @@ matter EL block) where needed, or the whole residual by a column-FD Jacobian.  T
 TRACTABILITY choice (the no-cache allocator + nested autograd) -- it does not change the
 physics; the residual itself is the exact full nonlinear system.  Flagged in the ledger.
 """
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 import os
 os.environ.setdefault("PYTORCH_NVML_BASED_CUDA_CHECK", "0")
 os.environ.setdefault("PYTORCH_NO_CUDA_MEMORY_CACHING", "1")

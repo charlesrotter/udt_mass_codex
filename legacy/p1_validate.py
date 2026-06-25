@@ -16,6 +16,8 @@ OBSERVATION (not target): with off-diagonals able to feed back, in the STATIC
 native-matter context -- round AND a mild l=2 non-round matter perturbation -- do the
 spatial off-diagonals want to grow, or stay zero?  Report the raw numbers.
 """
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 import os
 os.environ.setdefault("PYTORCH_NVML_BASED_CUDA_CHECK", "0")
 os.environ.setdefault("PYTORCH_NO_CUDA_MEMORY_CACHING", "1")

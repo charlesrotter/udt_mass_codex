@@ -56,7 +56,7 @@ import sys
 import numpy as np
 import torch
 torch.set_default_dtype(torch.float64)
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 
 from torch.func import jvp, vjp
 

@@ -50,7 +50,7 @@ os.environ['PYTORCH_NO_CUDA_MEMORY_CACHING'] = '1'
 import numpy as np
 import torch
 torch.set_default_dtype(torch.float64)
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 
 from full3d_spectral import Grid3D, attach_coord_weight, build_metric
 from einstein_3d_eval import einstein_mixed_weyl

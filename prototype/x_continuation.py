@@ -27,7 +27,7 @@ import sys, time
 import numpy as np
 import torch
 torch.set_default_dtype(torch.float64)
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 import branchGP_native_s2_coupled_OBSERVE as B
 from jfnk_branch_solver import _grid
 

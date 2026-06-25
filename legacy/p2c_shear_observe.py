@@ -19,6 +19,8 @@ intractable on the current allocator -- P5).  Reporting Nth-convergence explicit
 
 Driver: Claude (Opus 4.8, 1M).  2026-06-20.  OBSERVE mode.  DATA-BLIND.  NEW file.
 """
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 import os
 os.environ.setdefault("PYTORCH_NVML_BASED_CUDA_CHECK", "0")
 import numpy as np

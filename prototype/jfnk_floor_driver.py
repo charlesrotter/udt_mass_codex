@@ -21,7 +21,7 @@ os.environ.setdefault('PYTORCH_NVML_BASED_CUDA_CHECK', '0')
 import sys, time
 import torch
 torch.set_default_dtype(torch.float64)
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 
 import branchGP_native_s2_coupled_OBSERVE as B
 from jfnk_branch_solver import jfnk_solve, _grid
