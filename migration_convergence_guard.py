@@ -1,23 +1,31 @@
 #!/usr/bin/env python3
 """
-migration_convergence_guard.py -- SOLVE-LEVEL N-convergence guard for the p1
-extension migration.
+migration_convergence_guard.py -- SOLVE-LEVEL CHARACTERIZER for the p1 extension migration.
 
-Driver: Claude (Opus 4.8). 2026-06-24. INFRA. DATA-BLIND.
+Driver: Claude (Opus 4.8). 2026-06-24; REFRAMED filter->characterizer 2026-06-25. INFRA. DATA-BLIND.
 
-WHY: the fast pytest harness checks OPERATOR-level N-convergence (operator on an
-ANALYTIC metric at rising Nr).  It does NOT catch a SOLVE-level divergence -- the
-class of bug that sank the branchGP prototype (matter-on floor stuck ~0.18 with
-metric warps a..d ~3-7 that GROW with Nr, vs p1 which floors a matter solve to
-~1e-14 with small warps a,b~1/c,d~0.3).  This guard RUNS the production solver
-matter-on at two grids and ASSERTS (a) it floors below tol, (b) the metric warps
-do NOT grow with Nr.  Run it after EVERY migration increment; the increment that
-turns it RED is the divergence culprit.
+*** REFRAMED (Charles 2026-06-25, skill: solution-space-not-imposition). ***
+This was a FILTER: it asserted "warp floors AND does NOT grow with Nr -> GREEN, else RED."  That
+demands SMOOTHNESS -- it would stamp a REAL strong-field feature (a forming horizon at strong matter
+coupling) as a "failure," which is an IMPOSITION (judging MERIT, the thing the gate must never do).
+It is now a CHARACTERIZER: it REPORTS what the solve did and CLASSIFIES it, and never throws a
+solution away on physics grounds.  The provenance/honesty-not-merit split it obeys:
 
-Baseline (current p1, a=-1 GR baseline, S^3 winding, kap8=0.05): GREEN
-  Nr=10: Phi=1.0e-14, max|a|=1.08 |b|=1.00 |c|=0.38 |d|=0.23.
+  - NUMERIC HEALTH (did the solve converge -- residual drop, no NaN/Inf?) is a numeric fact, NOT a
+    physics-merit judgment.  A solve that cannot reduce its own residual is broken numerics; that is
+    the ONLY thing the exit code reflects (so it still catches a jacrev/codegen regression).
+  - WARP-vs-Nr is AMBIGUOUS: N-growth is EITHER under-resolution (numeric) OR a real strong-field
+    feature (horizon).  The characterizer CANNOT tell which -- that is resolved by ANALYSIS (GR
+    corpus, the kap8 strong-coupling question), NOT by demanding smoothness here.  So warp behavior
+    is REPORTED and CLASSIFIED (N-stable / N-growing), never failed.
 
-Usage: python3 migration_convergence_guard.py   (exit 0 = green, 1 = red)
+WHY the solve-level run still matters: the fast pytest harness checks OPERATOR-level N-convergence on
+an ANALYTIC metric.  It does NOT exercise the SOLVE.  This runs the production solver matter-on at two
+grids so a NUMERIC regression (won't floor, NaN) is caught and the warp behavior is characterized for
+the human/analysis step.
+
+Usage: python3 migration_convergence_guard.py   (exit 0 = numerically converged, 1 = broken numerics;
+       the warp CHARACTERIZATION is in the report, never in the exit code.)
 As the solver gains phi/gtw/S^2, update _solve() to the new pack/interface.
 """
 import os, sys, math, time
@@ -28,10 +36,12 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from full3d_spectral import Grid3D, attach_coord_weight
 
 GRIDS = (8, 10)           # two resolutions; the dense-jacrev X-continuation is heavy at
-                          # Nr>=12 (Nr=12 was 8.6h). (8,10) still catches a branchGP-type
-                          # warp-growth (which showed clearly at the smallest grids).
-FLOOR_TOL = 1e-6          # a clean solve floors well below this; branchGP stuck ~0.18
-GROW_TOL = 1.5            # max-warp may not grow by more than this factor across grids
+                          # Nr>=12 (Nr=12 was 8.6h). (8,10) still resolves a warp-vs-Nr trend.
+CONVERGE_TOL = 1e-6       # NUMERIC-HEALTH only: a solve that floors below this has converged
+                          # numerically.  This is NOT a physics filter -- a converged solve with a
+                          # large/growing warp is a RESULT to characterize, not a failure.
+GROW_FLAG = 1.5           # warp-growth factor above which we CLASSIFY the solve "N-growing" (report
+                          # it for analysis; NOT a pass/fail line).
 KAP8 = 1.0; P = 1.0; M = 1; MAXIT = 8   # M4a: kap8 0.05 -> 1.0 (the DERIVED round-gate value)
 X_TARGET = -2.0e5         # M2+: the production (Cassini-bounded, stiff) X-kinetic value
 BRANCH = "P"              # M3+: the Branch-P operator (adds the e^{2phi}-1 U potential)
@@ -46,7 +56,7 @@ def _solve(nr):
     z = torch.zeros(nr, G.Nth, G.Nps, device=dev)
     a = -1.0 * (1 - s); b = 1.0 * (1 - s); Th = math.pi * (1 - s)
     u0 = P1.pack6(a, b, z.clone(), z.clone(), Th, z.clone())
-    # M2: continue X -1 -> production -2e5 (the stiff value); guard N-convergence there.
+    # M2: continue X -1 -> production -2e5 (the stiff value); characterize the warp there.
     u, hist, Xfin = P1.continuation_solve_p1(u0, G, P, KAP8, X_target=X_TARGET, m=M,
                                              core_mode='deg1', branch=BRANCH, verbose=False)
     a, b, c, d, Th, phi = P1.unpack6(u, G)
@@ -56,24 +66,50 @@ def _solve(nr):
     return Phi, mw
 
 
+def _classify(res):
+    """CHARACTERIZE the solve from (nr, Phi, warp) samples.  Returns (numeric_ok, lines).
+    numeric_ok = did the solve CONVERGE NUMERICALLY (floored, finite) -- the only exit signal.
+    The warp behavior is described, never failed."""
+    phis = [p for _, p, _ in res]
+    mws = [m for _, _, m in res]
+    finite = all(math.isfinite(p) and math.isfinite(m) for _, p, m in res)
+    floored = all(p < CONVERGE_TOL for p in phis)
+    numeric_ok = finite and floored
+    lines = []
+    # numeric health (provenance/health, not merit)
+    if not finite:
+        lines.append("  NUMERIC HEALTH: BROKEN -- NaN/Inf in residual or warp (solve diverged numerically)")
+    elif floored:
+        lines.append(f"  NUMERIC HEALTH: converged (all Phi<{CONVERGE_TOL:.0e}); residual={phis[0]:.2e}->{phis[-1]:.2e}")
+    else:
+        lines.append(f"  NUMERIC HEALTH: did NOT floor (Phi={phis[0]:.2e}->{phis[-1]:.2e}); residual-limited solve")
+    # warp characterization (NOT a verdict -- the ambiguous physics-vs-numeric signal)
+    if mws[-1] <= mws[0] * GROW_FLAG:
+        lines.append(f"  WARP vs Nr: N-STABLE (max|warp| {mws[0]:.2f}->{mws[-1]:.2f}, x{mws[-1]/max(mws[0],1e-30):.2f})")
+    else:
+        lines.append(f"  WARP vs Nr: N-GROWING (max|warp| {mws[0]:.2f}->{mws[-1]:.2f}, x{mws[-1]/max(mws[0],1e-30):.2f})")
+        lines.append("    -> AMBIGUOUS: under-resolution OR a real strong-field feature (horizon).")
+        lines.append("    -> RESOLVE BY ANALYSIS (GR strong-coupling corpus), NOT by demanding smoothness.")
+    return numeric_ok, lines
+
+
 def main():
     t0 = time.time(); res = []
-    print(f"[migration guard] matter-on N-convergence; grids={GRIDS} "
-          f"floor_tol={FLOOR_TOL:.0e} grow_tol={GROW_TOL}", flush=True)
+    print(f"[migration characterizer] matter-on solve; grids={GRIDS} "
+          f"converge_tol={CONVERGE_TOL:.0e} (CHARACTERIZER, not a pass/fail filter)", flush=True)
     for nr in GRIDS:
         Phi, mw = _solve(nr)
         res.append((nr, Phi, mw))
         print(f"  Nr={nr}: Phi={Phi:.3e}  max|warp(a..d)|={mw:.3f}  "
               f"t={time.time()-t0:.0f}s", flush=True)
-    phi_ok = all(p < FLOOR_TOL for _, p, _ in res)
-    mws = [m for _, _, m in res]
-    grow_ok = mws[-1] <= mws[0] * GROW_TOL
-    print(f"  FLOOR: {'PASS' if phi_ok else 'FAIL'} (all Phi<{FLOOR_TOL:.0e})", flush=True)
-    print(f"  N-CONVERGE: {'PASS' if grow_ok else 'FAIL'} "
-          f"(max-warp {mws[0]:.2f}->{mws[-1]:.2f}, <= x{GROW_TOL})", flush=True)
-    green = phi_ok and grow_ok
-    print(f"  ==> GUARD {'GREEN' if green else 'RED'}", flush=True)
-    return 0 if green else 1
+    numeric_ok, lines = _classify(res)
+    print("  --- characterization ---", flush=True)
+    for ln in lines:
+        print(ln, flush=True)
+    print(f"  ==> NUMERICALLY {'CONVERGED' if numeric_ok else 'NOT CONVERGED'} "
+          f"(exit reflects numeric health ONLY; warp behavior is characterized above, not failed)",
+          flush=True)
+    return 0 if numeric_ok else 1
 
 
 if __name__ == "__main__":

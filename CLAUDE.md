@@ -110,6 +110,27 @@ SCAR it heads off: the year-long catalog/mechanism hunt that read a graveyard
 of contaminated/classical-solver negatives as a verdict on the metric;
 microphysics was UNENTERED, not walled.
 
+SOLUTION-SPACE, NOT IMPOSITION (binding, Charles 2026-06-25). The simple goal:
+perform PURE MATH and explore the metric's solution space for WHAT EMERGES,
+which LATER we consider as physics. The recurring drift (multiple times in ~2
+weeks): we slide from EXPLORING the solution space to IMPOSING the physics we
+expect. The purity gate catches IMPORTS; this catches IMPOSITIONS. Before any
+solve/result: (a) tag every BC / matter-sector / coupling / acceptance criterion
+as free-and-explored, pinned-by-THEORY (cite it), or pinned-by-HABIT (= drift
+flag — free or justify); (b) ask "does this diagnostic CHARACTERIZE the solution
+or FILTER it (demand a shape / smoothness / a lump / the expected answer)?" — a
+filter throws solutions away and is an imposition; (c) "observing or TARGETING?"
+checked against the SM-template list (lump/mass/particle/spectrum). GOVERNING
+LIMIT — any gate/guard/lint we build to enforce this may check only PROVENANCE
+(numeric-vs-smuggled import; derived-vs-pinned value) and HONESTY (is the pin
+tagged/surfaced) — NEVER MERIT (is the solution the right shape). A check that
+judges merit becomes a blocker that imposes, and that judgment accumulates into
+the very drift we fight; merit is judged LATER, with Charles. This limit is
+enforced BY HAND (verifier), deliberately not by a machine meta-test (a label is
+satisfiable by a drifting author; a binding principle is not). Skill =
+`solution-space-not-imposition`; gate = `tests/test_solution_space_gate.py`
+(numeric-only imports + premise-ledger tags, both physics-blind). [[solution-space-not-imposition]]
+
 DIVISION OF LABOR (honest): the driver genuinely cannot always see its own
 smuggled assumptions — Charles holding the frame is irreplaceable, the
 verifier catches errors/assembly. The method does not remove this; it moves
@@ -129,6 +150,10 @@ relevant one at the relevant moment (the inline tripwire is the trigger, the ski
   purity harness; run when building/editing solver code or before banking a result).
 - **`completeness-map`** — the ten completeness criteria + standing questions (run every push;
   every result is ONE tile). Instrument = SOLVER_COMPLETENESS_MAP.md.
+- **`solution-space-not-imposition`** — the 4-point anti-imposition audit (ansatz/BC ledger;
+  characterize-not-filter; observe-not-target; solution-space completeness) + the PROVENANCE/
+  HONESTY-never-MERIT limit on any gate we build (run before any solve/result). Gate =
+  `tests/test_solution_space_gate.py`.
 
 (Skills are the expandable text; the inline tripwires remain binding and always-loaded — the skills
 do NOT replace them, they unfold them on demand.)
