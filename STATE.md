@@ -6,7 +6,20 @@
 > **READ `LIVE.md` FIRST** — the short, only-guaranteed-current file. STATE is the detailed append-log;
 > if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
 >
-> **2026-06-23 LATE — BRANCH-P PUSH (current):** integrity arc P1-P5 done; found the native-S²
+> **2026-06-25 — p1 MIGRATION + REPO CURATION (current); read MIGRATION.md + LIVE.md.** The Branch-P/JFNK push
+> (below, now historical) led to: caught X=−2e5 as a chosen placeholder + built continuation-in-X; the
+> winding-native ruler (topological charge Q=1 = the real native discreteness; the "lump" question was frame
+> creep — Charles's catch); branchGP's matter-warp diagnosed as branchGP-specific. Charles REPEALED the
+> file-immutability rule and chose to EXTEND the hardened `p1_residual_general_einstein.py` to the derived
+> operator, incrementally, with a solve-level GUARD (`migration_convergence_guard.py`). **M1 (derived op+φ) /
+> M2 (X-kinetic→−2e5) / M3 (Branch-P U, deep φ=2.2) all GREEN; M4a (kap8→1.0) RED** — branchGP's divergence
+> LOCALIZED to the kap8=1 strong-matter coupling (NOT operator/X/U/S²-vs-S³). PARKED physics question (Charles):
+> analyze that divergence as a LIKELY REAL strong-coupling horizon via the GR corpus (not numerics); M4b
+> (native S²) gated on it. ALSO DONE this session: REPO CURATION — code split (`prototype/` 14 + `legacy/` 5),
+> docs 274→111 live + 164→`archive/` (3-pass agent-verified; all CANON + standing-negative provenance kept at
+> root), INDEX.md refreshed. Detail = MIGRATION.md + REORG_PLAN.md.
+>
+> **2026-06-23 LATE — BRANCH-P PUSH (historical):** integrity arc P1-P5 done; found the native-S²
 > "scale-free defect" silently used Branch G; testing untried Branch P (keeps the φ-angular potential).
 > Step A `branch_operator.py` (G/P switch, verified, 9cd80ef) + Step B `branchGP_native_s2_coupled_OBSERVE.py`
 > (coupled residual, radial twist live) DONE; Step C throughput-limited/INCONCLUSIVE (G→1/r² defect; P stiffer,
