@@ -3,20 +3,36 @@
 > **READ `LIVE.md` FIRST** — it is the short, only-guaranteed-current file (frontier + next action).
 > This HANDOFF is the detailed record; if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
 >
-> **CURRENT ACTIVITY (2026-06-23 late): the BRANCH-P PUSH.** Integrity arc P1-P5 DONE. Then found the
-> native-S² "scale-free defect" verdict silently used Branch G (gauges the φ-angular potential AWAY);
-> testing the untried **Branch P** (keeps it = a scale-breaker = the hunch). Step A DONE (`branch_operator.py`,
-> explicit G/P switch, blind-verified, committed 9cd80ef), Step B DONE (`branchGP_native_s2_coupled_OBSERVE.py`,
-> coupled residual w/ native S² radial twist live), Step C THROUGHPUT-LIMITED/INCONCLUSIVE (G floors to the
-> 1/r² defect; P stiffer, didn't floor — only signal = U pulls φ ~5× deeper; record =
-> `branch_p_coupled_observe_partial_results.md`). **JFNK SOLVER BUILT** (`jfnk_branch_solver.py`, committed
-> 4c0acb6, record `jfnk_solver_results.md`): matrix-free jvp/vjp+LSMR+Jacobi-PC, **~15× faster**, FIDELITY
-> INTACT (a 1-D/4-D Krylov shape bug fixed = flat-space storage fix; JFNK reaches a LOWER residual = same
-> branch, more converged). CAVEAT: STALLS near Phi≈4 with pc='none'; Branch P not yet reached. **NEXT (next
-> session) = break the stall + FLOOR** (pc='jacobi'→block/spectral PC + inner-tol/line-search tuning; the
-> genuine #60 conditioning wall) → floor Branch-P (localized body/scale vs the 1/r² defect?) → seal-
-> independence gate. RUN SOLVES YOURSELF via background-notify (agents HANG on solves); write long runs to a
-> FILE not a grep-pipe. Full detail = LIVE.md + jfnk_solver_results.md.
+> **CURRENT ACTIVITY (2026-06-25): the p1 MIGRATION — read `MIGRATION.md`.** The 2026-06-23 Branch-P/JFNK
+> push (historical, below) led to: caught X=−2e5 as a chosen placeholder, built continuation-in-X, found the
+> winding-native ruler (topological charge Q=1 = the real native discreteness; the "lump" question was frame
+> creep — Charles's catch), diagnosed branchGP's matter-warp as branchGP-specific. Charles then REPEALED the
+> file-immutability rule and decided to EXTEND the hardened `p1_residual_general_einstein.py` to the derived
+> operator (not canonize the un-harnessed branchGP prototype), incrementally, with a solve-level convergence
+> GUARD (`migration_convergence_guard.py`). **DONE: M1 (derived op+φ) / M2 (X→−2e5) / M3 (Branch-P U, deep
+> φ=2.2) all GREEN; M4a (kap8 0.05→1.0 derived) = RED** — warp diverges with Nr (3.98→8.42). branchGP's
+> divergence is LOCALIZED to the **kap8=1 strong-matter coupling** (NOT operator/X/U/S²-vs-S³).
+>
+> **NEXT SESSION — three Charles items (discussed 2026-06-25, HOLD until next session):**
+> 1. **Reconcile the kap8 alternatives by ANALYSIS, not numerics:** instead of grinding grids to tell "real
+>    singularity vs under-resolved core vs bad-kap8," ANALYZE what the metric DOES at strong coupling using
+>    the GR corpus (Principle 4). The self-gravitating global monopole is solved in GR: as the effective
+>    deficit → 1 (critical), the core INFLATES into a de Sitter/horizon (supermassive global monopole,
+>    Liebling/Maison). Likely: the kap8=1 warp-divergence is a REAL strong-field feature (a forming horizon),
+>    not a bug. CAVEAT: transform under the DERIVED operator (e^{2φ} weight + X-kinetic change the critical
+>    condition) — native re-derivation, NOT an import.
+> 2. **Are we exploring the metric's solution space, or imposing physics motivations?** The guard's "must
+>    floor + N-converge" criterion silently expects smooth/localized solutions; if the metric forms a horizon,
+>    the guard calls real physics a "failure" (same pattern as the lump-ruler + box-control demand). Lean: let
+>    the metric show its full solution space (incl. horizons/singular branches); OBSERVE, don't "fix" the kap8
+>    divergence into convergence if it's the metric being honest. (Ties to item 1.)
+> 3. **Organize the repo:** legacy/stale → subfolders. `legacy/` (superseded research + reduced solvers),
+>    `prototype/` (branchGP_* + the session's one-off drivers jfnk_*/equilibrated_*/x_continuation/sharpen_*/
+>    grid_refine_*/seal_test/probe_phi_terms), lean working root (canonical p1+branch_operator+full3d+b1prime+
+>    whole_metric, tests/, the guard, the live records). CAUTION: moving files changes import paths — one
+>    careful reorg commit, verify harness+solver still run.
+>
+> RUN SOLVES YOURSELF via background-notify, NO nohup (it detaches from the tracker); guards are SLOW (hours).
 
 ## *** STANDING BINDING DISCIPLINE — read every resume (Charles 2026-06-19) ***
 **MISMATCH -> SOLVER, NOT MECHANISM.** If a result is far from observation, the FIRST hunt is the

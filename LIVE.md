@@ -23,10 +23,15 @@ GUARD live at each step (`migration_convergence_guard.py`). Tracker + full statu
 STATUS: M1 (derived operator+φ) ✅, M2 (X-kinetic→−2e5) ✅, M3 (Branch-P U; reached deep φ=2.2 cleanly) ✅
 — all GREEN, committed/pushed. **M4a (kap8 0.05→1.0, the DERIVED value) = GUARD RED**: the warp diverges
 with Nr (3.98→8.42). => branchGP's divergence is LOCALIZED to the **kap8=1 strong-matter coupling** (NOT
-the operator / X-kinetic / Branch-P U / S²-vs-S³). NEXT ARC: understand+fix the kap8=1 matter-warp
-divergence under the guard (real strong-coupling singularity? under-resolved core? regime indictment?) —
-a frame question for Charles. M4b (native S²) gated on it. (Prior solver = `branchGP_*`, now a reference
-prototype; the 2026-06-23 integrity-upgrades arc below is HISTORICAL.)
+the operator / X-kinetic / Branch-P U / S²-vs-S³).
+**NEXT SESSION — 3 Charles items (discussed 2026-06-25, HELD; full text in HANDOFF.md TOP):** (1) reconcile
+the kap8 alternatives by ANALYSIS not numerics — GR corpus on the strong-coupling self-gravitating global
+monopole (deficit→1 ⇒ inflating de Sitter/horizon core), re-derived under the DERIVED operator; the
+kap8=1 warp-divergence is LIKELY a real horizon, not a bug. (2) Are we exploring the metric's solution
+space or IMPOSING physics motivations? — the guard's floor+N-converge demand may call a real horizon a
+"failure"; lean = OBSERVE the full space, don't "fix" a real feature into convergence. (3) Organize the
+repo (legacy/ + prototype/ subfolders). M4b (native S²) gated on (1). (Prior solver = `branchGP_*`, now a
+reference prototype; the 2026-06-23 integrity-upgrades arc below is HISTORICAL.)
 
 ## (HISTORICAL) 2026-06-23: solver-integrity-upgrades arc — COMPLETE
 A Charles-requested detour to harden the solver's integrity MACHINERY before resuming the physics
