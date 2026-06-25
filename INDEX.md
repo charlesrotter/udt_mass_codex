@@ -2,7 +2,7 @@
 
 Navigable map of `udt_mass_codex`. **Structure (post-curation):**
 - **root** — the LIVE spine: ~111 markdown (orientation + canon/negatives + audit/verifier + active-arc
-  records + load-bearing provenance) and the canonical solver `.py` (+ ~1000 legacy `native_*.py` tooling
+  records + load-bearing provenance) and the canonical solver `.py` (+ ~510 `native_*.py` tooling
   scripts, still flat, that back the kept research records).
 - **`prototype/`** (14 `.py`) — the branchGP/JFNK reference drivers from the 2026-06-23/24 Branch-P arc.
   Reference only; superseded by the p1 migration. (Each carries a `sys.path '..'` shim to still run.)
@@ -84,7 +84,7 @@ The migration target + its audited building blocks (all root; MUST stay — the 
   `spectral_radial_soliton.py`.
 - Harness: `tests/test_solver_integrity.py`, `tests/test_operator_from_action.py` (+ conftest).
 
-**Legacy tooling scripts (~1000 `native_*.py`, still flat in root):** these back the kept research records
+**Legacy tooling scripts (~510 `native_*.py`, of ~1078 root .py, still flat):** these back the kept research records
 (negative_phi / particle_spectrum) — one doc section = one script ("Implemented in `native_x.py`"). They are
 the microphysics-era tooling; mine for structure, not verdicts. (The .py layer was NOT curated — only the 19
 prototype/legacy drivers moved; a future pass could archive dead `native_*.py` with the same import-safety check.)

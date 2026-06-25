@@ -38,7 +38,8 @@ A Charles-requested detour to harden the solver's integrity MACHINERY before res
 build (spec = `SOLVER_INTEGRITY_UPGRADES_SPEC.md`). SPINE: the harness REFERENCES derivations, it
 never RE-ASSERTS their values. All committed + blind-verified:
 - **P1** — purity harness `tests/test_solver_integrity.py` (liveness, provenance lint, limit/de-Sitter
-  normalization, native-object guard). `pytest tests/` = **16 passed / 5 documented-gap xfails**.
+  normalization, native-object guard). `pytest tests/` = **16 passed / 5 xfails** (at the time; now **23
+  passed / 5 xfails** after the migration added the derived-operator + φ tests — see MIGRATION.md).
 - **P2** — `solver_action.py` (single source-of-truth GR-baseline action + provenance registry) +
   `tests/test_operator_from_action.py` (operator == EL of the action).
 - **P3** — 4 auto-loading discipline skills + CLAUDE.md pointer (tripwires stay inline).
