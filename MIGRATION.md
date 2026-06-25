@@ -61,8 +61,22 @@ analytic metric — it cannot catch a solve-level divergence; this guard can.)
     deep/strong-field regime CLEANLY** — the frame the deep-regime exploration wanted — where branchGP was
     stuck at 0.18. => the divergence is cornered into **M4** (native S² matter / kap8=1), the only
     remaining difference from the prototype.
-- [ ] **M4 — native S² matter.** Swap S³ `field_n` → `free_s2_matter` 3-vector + `gtw` DOF + free BC.
-  Guard. Flips xfail `test_matter_winding_is_native_S2`.
+- [~] **M4a — kap8 → 1.0 (derived). DONE 2026-06-25, GUARD RED — DIVERGENCE FOUND.** Set guard KAP8=1.0
+  (the DERIVED round-gate value; M3 used the live 0.05). Branch P, S³ matter, grids (8,10).
+  - guard **RED**: Nr=8 Phi=1.2e-12 warp=3.982; Nr=10 Phi=2.2e-12 warp=**8.420** — FLOOR passes (both
+    ~1e-12) but **N-CONVERGE FAILS** (warp grows 3.98→8.42, >1.5×).
+  - **THE DIVERGENCE IS LOCALIZED TO kap8 (strong matter coupling), NOT the S² swap.** Through M1-M3 +
+    M4a, branchGP's matter-sourced resolution-divergent warp is NOT the derived operator, the X=−2e5
+    kinetic, the Branch-P U term, or S²-vs-S³ (still S³ here) — it is the **kap8=1 strong-matter regime**:
+    the metric response to matter has NO clean continuum limit at the derived coupling (stable at
+    kap8=0.05, divergent at kap8=1.0). It still FLOORS (1e-12) — the solver finds the solution, but the
+    solution's warp grows with grid.
+  - **OPEN (frame question for Charles):** is this (a) a real strong-coupling singularity (monopole core)
+    needing excision/regularization, (b) an under-resolved core (finer rc resolution, not a physics
+    change), or (c) an indictment of kap8=1 / the regime? This is the climax — the original session-start
+    mystery, now cleanly pinned. NEXT ARC: understand + fix the kap8=1 matter-warp divergence under the guard.
+- [ ] **M4b — native S² matter.** Swap S³ `field_n` → `free_s2_matter` 3-vector + `gtw` DOF + free BC.
+  Guard. Flips xfail `test_matter_winding_is_native_S2`. (Gated on resolving M4a.)
 - [ ] **M5 — tags + defaults.** core_mode default → 'free'; source/tag kap8, xi, kap. Flips xfails
   `test_kap8_callers_tagged`, `test_matter_couplings_tagged`, `test_derived_a_phi_in_operator`,
   `test_default_core_mode_is_native_free`.

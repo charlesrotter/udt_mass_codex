@@ -32,7 +32,7 @@ GRIDS = (8, 10)           # two resolutions; the dense-jacrev X-continuation is 
                           # warp-growth (which showed clearly at the smallest grids).
 FLOOR_TOL = 1e-6          # a clean solve floors well below this; branchGP stuck ~0.18
 GROW_TOL = 1.5            # max-warp may not grow by more than this factor across grids
-KAP8 = 0.05; P = 1.0; M = 1; MAXIT = 8
+KAP8 = 1.0; P = 1.0; M = 1; MAXIT = 8   # M4a: kap8 0.05 -> 1.0 (the DERIVED round-gate value)
 X_TARGET = -2.0e5         # M2+: the production (Cassini-bounded, stiff) X-kinetic value
 BRANCH = "P"              # M3+: the Branch-P operator (adds the e^{2phi}-1 U potential)
 
