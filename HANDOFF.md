@@ -25,6 +25,9 @@
 > numeric vs smuggled physics; BCs/ansatz/acceptance: imposed vs theory) → (ii) CLEAN to a numeric-only,
 > imposition-free baseline → (iii) ONLY THEN build the gate to preserve it. Building the gate first (the (2)-first
 > plan) was BACKWARDS. DISCUSS the audit + clean-up with Charles FIRST; the (1)/(2) plan below is SUBORDINATE.
+> **GOAL after cleaning = EXPLORE the metric's solution space (OBSERVE what it does, let structure EMERGE) — NOT
+> "then go do physics / get a result." The kap8 question is pursued ONLY as EXPLORATION (characterize, don't
+> target), gated on Charles. Any "then physics"-style result-hunting framing is the drift — strike it.**
 >
 > **(prior plan, pending discussion) three Charles items — ORDER: do item (2) FIRST.**
 > Item (2) — the anti-imposition GATE — comes BEFORE the item-(1) kap8 physics, not because it's "important"

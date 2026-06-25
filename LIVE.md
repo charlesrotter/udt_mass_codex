@@ -34,7 +34,10 @@ order: (i) AUDIT the solver (every import: numeric method or smuggled physics? e
 imposed or theory?), (ii) CLEAN it to a numeric-only, imposition-free baseline, (iii) ONLY THEN build the gate to
 PRESERVE that clean baseline. Building the gate first (the prior plan) was BACKWARDS. So: DISCUSS the solver audit
 + clean-up plan with Charles FIRST; the kap8 analysis is LOWER priority. The (1)/(2) plan below is SUBORDINATE
-(the gate moves AFTER the clean-up, not first).
+(the gate moves AFTER the clean-up, not first). **GOAL after cleaning = EXPLORE the metric's solution space —
+OBSERVE what it does, let structure EMERGE (CLAUDE Principle / "how we work"). NOT "then go do physics / get a
+result."** The kap8 question is pursued ONLY as EXPLORATION (characterize the solution; observe, don't target),
+gated on Charles — never as result-hunting.
 
 **(prior plan, pending the discussion) — DO (2) FIRST, THEN (1); (3) is DONE** (full text + build instructions in HANDOFF.md TOP).
 **(2) [DO FIRST] BUILD the anti-imposition GATE** — turn "explore the solution space, don't IMPOSE" into a
