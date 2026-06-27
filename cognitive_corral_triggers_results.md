@@ -20,15 +20,18 @@ Charles challenged (the driver drifted to a "cured" kap8 headline; the verifier 
   (verifier-before-record). Merit-never: forces a procedure, never judges the answer. Hook field format
   confirmed against Claude Code v2.1.173 (claude-code-guide agent `aa108d9339303f7dc`).
 - **Part C — freshness pass** (agent `ac9003e276baf2a51`): all 48 memories tagged
-  DURABLE/CURRENT/SUPERSEDED/HISTORICAL vs `LIVE.md` (28 DURABLE, 9 CURRENT, 6 SUPERSEDED, 1 HISTORICAL,
-  0 conflicts). 3 judgment calls flagged for Charles (3 type:project files tagged DURABLE as
+  DURABLE/CURRENT/SUPERSEDED/HISTORICAL vs `LIVE.md` (**26 DURABLE, 14 CURRENT, 7 SUPERSEDED, 1 HISTORICAL,
+  0 conflicts; 40 included / 8 excluded** — ground-truth grep census, corrected 2026-06-27 after a blind
+  verifier caught the agent's mid-pass self-count 28/9/6/1 was wrong). 3 judgment calls flagged for Charles (3 type:project files tagged DURABLE as
   method-discipline; `milestone-udt-makes-mass-natively`→SUPERSEDED as the imported-S³ object).
 - **LLM export gate** (`export_for_local_llm.py`): builds the cross-check payload = DURABLE corral +
   CLAUDE.md + LIVE.md + only CURRENT memories + the allowed-lane clause verbatim; REFUSES untagged DATED
   and CONFLICT tags. The local LLM itself is not yet installed — this is the wiring point for when it is.
 
 ## CATCH-PROOF (per spec acceptance §)
-1. **Agent trigger** — dispatcher on `{"tool_name":"Task"}` → observing-or-targeting reminder. PASS.
+1. **Agent trigger** — dispatcher on `{"tool_name":"Task"}`/`{"Agent"}` → observing-or-targeting reminder.
+   PASS — and **live-confirmed in-session**: the PreToolUse:Agent harness hook fired on a real agent launch
+   (the blind-verifier agent), injecting the reminder. So BOTH Bash and Agent hooks are live-confirmed.
 2. **Solver trigger** — `{"tool_name":"Bash","command":"...continuation_solve_p1"}` → bound-grid/
    chose-or-derived reminder. PASS. Unrelated `ls` → SILENT (empty output). PASS.
 3. **Commit trigger** — `{"command":"git commit ..."}` → verifier-before-record reminder. PASS — and
@@ -49,7 +52,16 @@ Charles challenged (the driver drifted to a "cured" kap8 headline; the verifier 
 - **Does NOT close:** a genuinely-silent fork with no trigger token and no tool-call signature — that
   residual is the **local-LLM / second-reader** job (not yet installed; export gate is its wiring point).
   This setup narrows the gap; it does not eliminate it.
-- **Pending:** fresh-session confirmation of Part-A auto-load + live hook firing on a clean session start.
+- **Pending:** only the Part-A auto-load of `## DRIVER TRIGGERS` in a FRESH session remains unconfirmed
+  (it is auto-loaded by design from CLAUDE.md; verifiable next session). The live hook firing is NO LONGER
+  pending — both Bash and Agent hooks fired live in-session.
+
+## Verifier pass (blind, adversarial — 2026-06-27, agent `a1c2571e0aa132210`)
+Verdict: **CLEAN-WITH-GAPS** — Parts A/B/C, merit-never, the non-blocking hooks (live-fired for Bash AND
+Agent), the export gate (lane-verbatim + refuse-untagged-DATED, negative-tested), and all 48 freshness
+tags all PASS. Two gaps caught and FIXED here: (1) the Part-C tag counts in this doc were stale
+(28/9/6/1 → corrected to 26/14/7/1); (2) trigger-#4's source memory lacked the back-pointer (added to
+`session-handoff-pointer.md`). No functional defect.
 
 ## Verifier note
 Catch-proof performed inline (above). The hook-field correctness was independently confirmed by the
