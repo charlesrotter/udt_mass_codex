@@ -17,8 +17,13 @@ HANDOFF.md TOP → INDEX.md (repo map).
   to come — wiring = `export_for_local_llm.py` (refuses untagged DATED). Record = `cognitive_corral_triggers_results.md`.
   **PENDING — FIRST ACTION next fresh session (catch-proof §4, Charles will verify):** confirm the `## DRIVER
   TRIGGERS` section AUTO-LOADS — before touching any file, recite the 6 triggers / the allowed-lane clause from
-  context; if present unprompted, §4 passes. (Could not self-certify this session: the section was added AFTER
-  this session's CLAUDE.md auto-load, so the continuing-session snapshot predates it — needs a clean start.)
+  context; if present unprompted, §4 passes. (Could not self-certify the building session: the section was added
+  AFTER that session's CLAUDE.md auto-load.) **DRY-RUN (2026-06-27, empty-instance agent ae0d35a4): a fresh
+  SUBAGENT did NOT see the section in its auto-loaded CLAUDE.md (it had How-we-work + Orientation but not the
+  Discipline-skills/DRIVER-TRIGGERS block) — a YELLOW FLAG, not a verdict (subagent context may differ from a
+  top-level session). BUT the harness HOOKS fired regardless, so enforcement is LIVE either way. → The HOOKS
+  (Part B) are the load-bearing mechanism; if the top-level fresh session ALSO lacks the auto-load, rely on the
+  hooks and/or relocate `## DRIVER TRIGGERS` earlier in CLAUDE.md (right after "How we work").**
 - **DATA-BLIND:** never load the six lepton wall numbers during a derivation (contract 26fc757). We
   predict RATIOS.
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
@@ -87,7 +92,7 @@ RESOLVED for STATICS. Record = `branchP_solver_floor_xcontinuation_results.md` (
 PASS-WITH-FIXES; NEGATIVES_REGISTRY #66). Steps A+B (committed 9cd80ef): `branch_operator.py` (derived
 G/P-switch operator) + `branchGP_native_s2_coupled_OBSERVE.py` (static coupled residual, 6 LIVE fields
 incl. native S² twist `gtw`). What the floor push found:
-- **The solver is FIXED via CONTINUATION-IN-X** (`x_continuation.py`): warm-start up a geometric X-ladder
+- **The solver is FIXED via CONTINUATION-IN-X** (`prototype/x_continuation.py`): warm-start up a geometric X-ladder
   floors X=−2e5 to Φ=0.18 where every cold-started solver sticks (cold −2e5: Φ=2720). The wall was the
   singularly-stiff φ-equation (`2X·div≈2U'(φ)`, X=−2e5 huge → φ forced ~flat; EL_φ≈X·curvature-error).
 - **Solver-integrity catches:** the "P stall at Φ=8.67" was a stochastic unseeded-Jacobi-PC artifact (P
@@ -103,7 +108,7 @@ incl. native S² twist `gtw`). What the floor push found:
   BOX-CONTROLLED: dominant peak at exactly 0.75·r_i in all four (pinned to the outer body grid node,
   scales with the seal) = NOT intrinsic. So the negative STANDS/STRENGTHENED via the corrected mechanism
   "box-controlled structure" (the original "featureless-defect/boundary-layer" shape-read was WRONG). New
-  scripts: grid_refine_{warmstart,resume}.py, seal_test.py.
+  scripts: prototype/grid_refine_{warmstart,resume}.py, prototype/seal_test.py.
 - **→ NEXT (Charles's pick at the next ponder):** statics on BOTH branches now say scale-free defect with
   the solver trustworthy → the φ-angular discreteness hunch's one UNTESTED instrument is the **TIME-LIVE /
   non-stationary native S²** (PHYSICS FRONTIER below). Optional firming: Nr=16/24 grid-refine to resolve
