@@ -1,3 +1,5 @@
+> **[ARCHIVED 2026-06-27 — SUBSUMED by the static-solver completion; the live frontier is LIVE.md (detail: HANDOFF.md TOP). Kept for history.]**
+
 # THE PROGRAM — UDT after the postulates (corrected forward plan)
 
 **Status:** DRAFT for Charles's sign-off. **Supersedes** VISION_POST_POSTULATE.md.

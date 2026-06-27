@@ -104,8 +104,9 @@ Reaching for a MECHANISM to close a gap is FORBIDDEN until the solver is
 demonstrably complete and the solution space genuinely explored. A mismatch
 indicts the solver's COMPLETENESS first, the metric last, and a mechanism
 never (that is the import reflex). This is Principle 1 applied to our own
-numerics. Instrument = SOLVER_COMPLETENESS_MAP.md (shows on/off/frozen/
-never-built before any result is trusted). Forward frame = POST_POSTULATE_PROGRAM.md.
+numerics. (Historical instrument = `archive/SOLVER_COMPLETENESS_MAP.md`; forward frame =
+`archive/POST_POSTULATE_PROGRAM.md` — both ARCHIVED/subsumed now the static solver is code-complete;
+the live status is LIVE.md + `pytest tests/`.)
 SCAR it heads off: the year-long catalog/mechanism hunt that read a graveyard
 of contaminated/classical-solver negatives as a verdict on the metric;
 microphysics was UNENTERED, not walled.
@@ -149,7 +150,8 @@ relevant one at the relevant moment (the inline tripwire is the trigger, the ski
 - **`no-shortcuts`** — the anti-import/anti-freeze checklist + `python3 -m pytest tests/` (the P1+P2
   purity harness; run when building/editing solver code or before banking a result).
 - **`completeness-map`** — the ten completeness criteria + standing questions (run every push;
-  every result is ONE tile). Instrument = SOLVER_COMPLETENESS_MAP.md.
+  every result is ONE tile). (Old instrument `archive/SOLVER_COMPLETENESS_MAP.md` — archived; live
+  status = LIVE.md + `pytest tests/`.)
 - **`solution-space-not-imposition`** — the 4-point anti-imposition audit (ansatz/BC ledger;
   characterize-not-filter; observe-not-target; solution-space completeness) + the PROVENANCE/
   HONESTY-never-MERIT limit on any gate we build (run before any solve/result). Gate =
@@ -301,25 +303,26 @@ redirect (nonstationary weld sector / transfer ladder / ensembles).
 
 ## Orientation
 
-- **HANDOFF.md TOP is the live frontier** (2026-06-21 NIGHT: the COMPLETION PROGRAM — finish
-  every F-item + audit solvers/previous-results top-to-bottom before the next level; goal = a
-  clean physics-correct solver. The foundational audit RAN: the gravity operator is now DERIVED
-  (vacuum!=GR, weight e^{2phi}, a=e^{phi}); "must-quantize" survives on the derived + full-coupled
-  (P5e-proper) machinery + the seal (F4). Tracker = COMPLETION_PROGRAM.md; status = the SCOREBOARD
-  in FOUNDATIONAL_ASSUMPTIONS_LEDGER.md). Read it first after "How we work".
-- **FOUNDATIONAL_ASSUMPTIONS_LEDGER.md SCOREBOARD** is the per-item status-of-record (F0-F8 +
-  imports/gaps). **COMPLETION_PROGRAM.md** is the actionable checklist (current NEXT = B1' off-round
-  build). POST_POSTULATE_PROGRAM.md / SOLVER_COMPLETENESS_MAP.md = the 2026-06-20 frame, now SUBSUMED
-  by COMPLETION_PROGRAM + the scoreboard (historical; the operator is DERIVED, machinery reused).
-- Then STATE.md TOP (frontier snapshot), then INDEX.md (repo map).
-- The DERIVED-operator arc (2026-06-21, the current foundation): native_dilation_weight_derivation,
-  scale_symmetry_bootstrap_analysis, matter_regrade_derived_operator, F2_matter_action_forcedness,
-  static_soliton_rerun / STEP2_timelive_matter / P5e_proper, seal_junction_condition, the F1F3/F2/F8
-  closure docs, P1P5_reaudit_vs_derived_operator. The PRIOR everything-on build (now superseded as the
-  operator changed; machinery still reused): memory [[everything-on-solver-build]] + EVERYTHING_ON_SOLVER_*.
-- Main research record: negative_phi_native_geometry.md (31k lines,
-  pre-spectrum) and particle_spectrum_native_geometry.md (spectrum stage).
-- Audit/prosecution record: mass_emergence_canonical_geometry.md
-  (binding Self-Hardening Protocol — re-read before editing anything).
-- Legacy (superseded, mine for structure only): udt_canonical_geometry.md
-  via legacy_hadron_survivor_filter.md.
+- **`LIVE.md` IS THE FIRST READ — the only guaranteed-current file** (frontier + next action). If
+  anything else disagrees with it, LIVE.md wins. Read order: **LIVE.md → CLAUDE.md "How we work" +
+  "DRIVER TRIGGERS" + the `.claude/skills/` discipline skills → HANDOFF.md TOP (detailed record) →
+  INDEX.md (repo map).**
+- **Current state (2026-06-27, see LIVE.md for the live version):** the STATIC SOLVER is CODE-COMPLETE
+  (derived operator, all DOF live incl. off-diagonals, native-S² 3-component matter, grid-exact,
+  `pytest tests/` = 32/1xfail); the kap8=1 characterization RAN (PARTIAL — both branches mild/N-stable,
+  the "cured" headline verifier-rejected; winding SURVIVED = real matter; open follow-ups B/D). Guardrails
+  hardened (DRIVER TRIGGERS + harness hooks + memory freshness + LLM export gate). NEXT = the open solver
+  follow-ups, then DYNAMIC (time-live native S²). Records: `kap8_characterization_complete_solver_results.md`,
+  `cognitive_corral_triggers_results.md`.
+- **SUBSUMED / HISTORICAL trackers (do NOT treat as the live frontier — moved to `archive/` or tagged):**
+  COMPLETION_PROGRAM.md, SOLVER_COMPLETENESS_MAP.md, POST_POSTULATE_PROGRAM.md, MIGRATION.md, REORG_PLAN.md,
+  and the FOUNDATIONAL_ASSUMPTIONS_LEDGER.md F0-F8 scoreboard — all superseded by the static-solver
+  completion above. STATE.md = a long running LAB-LOG (mine for history; its TOP frontier may be stale —
+  LIVE.md is the frontier). The DERIVED-operator arc docs (native_dilation_weight_derivation,
+  matter_regrade_derived_operator, F2_matter_action_forcedness, seal_junction_condition, the F-closure
+  docs) remain the FOUNDATION record.
+- **Durable records (current):** CANON.md (Charles-canonized, append-only); NEGATIVES_REGISTRY.md
+  (scoped negatives w/ premise sets — check every push). Main research record: negative_phi_native_geometry.md
+  (pre-spectrum) + particle_spectrum_native_geometry.md (spectrum stage). Audit/prosecution record:
+  mass_emergence_canonical_geometry.md (binding Self-Hardening Protocol — re-read before editing it).
+- Legacy (superseded, mine for structure only): udt_canonical_geometry.md via legacy_hadron_survivor_filter.md.

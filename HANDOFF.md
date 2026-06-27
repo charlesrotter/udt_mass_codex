@@ -32,7 +32,7 @@
 > (Nr=12, ~days), neither started (correctly: firm guardrails before long solves). **THEN dynamic** (time-live /
 > non-stationary native S² — the φ-angular hunch's home). Still owed before/with dynamic: check whether the
 > GRAVITY sector also needs the SH-exact d/dθ (verify, don't assume). Op: run solves MYSELF, bounded, single
-> process, background-notify, NO nohup, NO `| grep` (block-buffers → no live progress). MIGRATION.md M4/M5/M6 = SUBSUMED.
+> process, background-notify, NO nohup, NO `| grep` (block-buffers → no live progress). archive/MIGRATION.md M4/M5/M6 = SUBSUMED.
 >
 > --- (HISTORICAL prior-session plan, all DONE — kept for provenance) ---
 > **NEXT SESSION — DO NOT AUTO-BEGIN; DISCUSS WITH CHARLES FIRST (Charles 2026-06-25).** Open issues to discuss
@@ -85,7 +85,7 @@
 >    charge-1 pin → scan it) (moderate); the lump-questions are HABIT (method, not code). Do this BEFORE/ALONGSIDE
 >    item 1 — the kap8 analysis IS the first live test of "characterize the solution, don't demand smoothness."
 > 3. **Organize the repo — DONE 2026-06-25** (code split `prototype/`+`legacy/`; docs 274→111 live + 164→`archive/`;
->    3-pass agent-verified; INDEX refreshed — see REORG_PLAN.md). REMAINING (minor): a future pass could archive
+>    3-pass agent-verified; INDEX refreshed — see archive/REORG_PLAN.md). REMAINING (minor): a future pass could archive
 >    dead `native_*.py` (~1000 still flat in root) with the same import-safety check.
 >
 > RUN SOLVES YOURSELF via background-notify, NO nohup (it detaches from the tracker); guards are SLOW (hours).
@@ -111,7 +111,7 @@ CLAUDE.md tripwires + the `.claude/skills/` discipline skills + memory [[solver-
 
 **The integrity-upgrades arc (P1-P5) is DONE** (records `p1..p5_*_results.md`; summary in LIVE.md): the purity
 harness (`pytest tests/` = 23 pass / 5 documented-gap xfails), `solver_action.py`, the discipline skills, cross-model
-verify, LIVE.md. **The 5 xfails = the MIGRATION acceptance tests** — the p1 migration (MIGRATION.md) is flipping them
+verify, LIVE.md. **The 5 xfails = the MIGRATION acceptance tests** — the p1 migration (archive/MIGRATION.md) is flipping them
 as it wires the DERIVED operator + native S² into the live `p1_residual`. M1 (derived op+φ) / M2 (X-kinetic→−2e5) /
 M3 (Branch-P U) all GREEN to machine precision; M4a (kap8→1) RED = the open frontier (the e^{2φ} weight + Branch G/P
 fork the arc flagged are now resolved-in-the-operator and clean; only the kap8 strong-matter divergence remains).
@@ -126,10 +126,10 @@ weight e^{2φ}, a(φ)=e^{φ}); the migration is wiring it into `p1_residual` (br
 reference in `prototype/`). The STANDING φ-angular hunch's untested home is the TIME-LIVE / non-stationary sector,
 gated behind the kap8 question (M4b).
 
-**Read order for a new instance:** (0) **LIVE.md** + **MIGRATION.md** (the only-current files). (1) CLAUDE.md
+**Read order for a new instance:** (0) **LIVE.md** (THE only-guaranteed-current file; archive/MIGRATION.md is now `archive/`). (1) CLAUDE.md
 "How we work" + ANTI-HANG + the `.claude/skills/` discipline skills; memories [[solver-migration-p1]],
 [[branchP-solver-continuation-x-premise]], [[charles-workflow-preferences]] (double-check=agent passes),
-native-matter-defect-import-discovery, solver-first-not-mechanism. (2) THIS FILE + REORG_PLAN.md + the named results
+native-matter-defect-import-discovery, solver-first-not-mechanism. (2) THIS FILE + archive/REORG_PLAN.md + the named results
 docs. (3) CANON.md (C-2026-06-14-1; C-2026-06-18-1 — both SURVIVE); NEGATIVES_REGISTRY; FOUNDATIONAL_ASSUMPTIONS_LEDGER.
 **HANDOFF_ARCHIVE.md + STATE.md + git + `archive/` = the deep historical record** (all pre-migration frontier blocks).
 

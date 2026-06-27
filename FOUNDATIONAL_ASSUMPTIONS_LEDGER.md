@@ -1,3 +1,5 @@
+> **[FRONTIER STALE as of 2026-06-27 — the top-of-file frontier here is superseded; LIVE.md is the current frontier. Body kept as record.]**
+
 # FOUNDATIONAL ASSUMPTIONS LEDGER — the recipes/structures UDT rests on
 
 **Status:** living ledger, driver-maintained. Each item is TO BE DISCUSSED with Charles (each is a

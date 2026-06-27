@@ -1,4 +1,4 @@
-# INDEX — Repo Map (refreshed 2026-06-25 after the curation)
+# INDEX — Repo Map (refreshed 2026-06-27 after the static-solver completion)
 
 Navigable map of `udt_mass_codex`. **Structure (post-curation):**
 - **root** — the LIVE spine: ~111 markdown (orientation + canon/negatives + audit/verifier + active-arc
@@ -7,23 +7,28 @@ Navigable map of `udt_mass_codex`. **Structure (post-curation):**
 - **`prototype/`** (14 `.py`) — the branchGP/JFNK reference drivers from the 2026-06-23/24 Branch-P arc.
   Reference only; superseded by the p1 migration. (Each carries a `sys.path '..'` shim to still run.)
 - **`legacy/`** (5 `.py`) — old P1/P2 validators + verifiers (`p1_validate`, `p2_*`, `_verif_*`).
-- **`archive/`** (164 `.md`) — sediment: the pre-2026-06-18 catalog/oscillator/sf_scan/weld/w-thread era,
-  the legacy corpus (udt_validated/active, udt_canonical via the survivor filter), and the superseded
-  everything-on/derived-operator build MAPs+VERIFIERs. RETIRED — mine for history/tooling only, never
-  verdicts. Recoverable via git or `archive/<name>`. (CANON/NEGATIVES load-bearing provenance was kept at
-  root, NOT archived — verified by a 3-pass agent check, see REORG_PLAN.md.)
+- **`archive/`** (~169 `.md`) — sediment: the pre-2026-06-18 catalog/oscillator/sf_scan/weld/w-thread era,
+  the legacy corpus (udt_validated/active, udt_canonical via the survivor filter), the superseded
+  everything-on/derived-operator build MAPs+VERIFIERs, and (2026-06-27) the 5 SUBSUMED status/program
+  trackers `COMPLETION_PROGRAM.md`, `SOLVER_COMPLETENESS_MAP.md`, `POST_POSTULATE_PROGRAM.md`,
+  `MIGRATION.md`, `REORG_PLAN.md` (each carries an ARCHIVED header). RETIRED — mine for history/tooling
+  only, never verdicts. Recoverable via git or `archive/<name>`. (CANON/NEGATIVES load-bearing provenance
+  was kept at root, NOT archived — verified by a 3-pass agent check, see `archive/REORG_PLAN.md`.)
 
 **Reading order (every session):** `LIVE.md` (only-guaranteed-current) → `CLAUDE.md` "How we work" + the
-discipline skills → `HANDOFF.md` TOP + `MIGRATION.md` (current activity) → `CANON.md` / `NEGATIVES_REGISTRY.md`
+discipline skills → `HANDOFF.md` TOP (current activity) → `CANON.md` / `NEGATIVES_REGISTRY.md`
 → this INDEX → the specific records. The file-immutability rule is **REPEALED** (Charles 2026-06-24): use git
 as git — edit in place, roll back via history.
 
-**CURRENT FRONTIER (2026-06-25, see MIGRATION.md):** the p1 MIGRATION — extending the hardened
-`p1_residual_general_einstein.py` to the derived scalar-tensor operator, incrementally, with a solve-level
-convergence GUARD per step. M1 (derived operator+φ) / M2 (X-kinetic→−2e5) / M3 (Branch-P U, deep φ=2.2) all
-GREEN; **M4a (kap8→1.0) RED** — branchGP's matter-warp divergence is localized to the kap8=1 strong-matter
-coupling. PARKED physics question (Charles): analyze that divergence as a likely real strong-coupling horizon
-via the GR corpus (not numerics); M4b (native S²) gated on it.
+**CURRENT FRONTIER (2026-06-27, see LIVE.md):** the STATIC SOLVER is **CODE-COMPLETE** — derived operator +
+the 3 spatial off-diagonals live + native-S² matter wired (free core, imported S³ hedgehog retired);
+`pytest tests/` = 32 passed / 1 xfailed. The **kap8 characterization RAN (both branches, ~40.9 h)** but its
+result is **PARTIAL/CAVEATED** (record = `kap8_characterization_complete_solver_results.md`): the strong-field
+horizon hypothesis REMAINS OPEN (the "cured / frozen-DOF not horizon" headline was REJECTED by the blind
+verifier on confounded 2-grid data). NEXT (gated on Charles): three follow-ups (firm convergence at Nr=12;
+characterize the matter solution; isolate the off-diagonal effect), then DYNAMIC (time-live / non-stationary
+native S² — the φ-angular hunch's home). The old "p1 MIGRATION / COMPLETION PROGRAM / F0-F8 scoreboard / B1'
+off-round" frame is **SUPERSEDED** (trackers in `archive/`).
 
 ---
 
@@ -31,7 +36,8 @@ via the GR corpus (not numerics); M4b (native S²) gated on it.
 
 **Orientation / charter:** `LIVE.md` (read first) · `CLAUDE.md` (binding charter: principles 1-7, how-we-work,
 repo discipline) · `HANDOFF.md` (frontier + next-session items) · `HANDOFF_ARCHIVE.md` (frontier history) ·
-`STATE.md` (snapshot) · `MIGRATION.md` (current activity) · `REORG_PLAN.md` (the curation plan) · this INDEX.
+`STATE.md` (snapshot — top-of-file frontier STALE, body is the running lab-log) · this INDEX.
+(`archive/MIGRATION.md`, `archive/REORG_PLAN.md` = archived; the curation plan + the superseded p1-migration record.)
 
 **Canon / negatives (load-bearing):** `CANON.md` (Charles-canonized statements, append-only; cites its
 provenance docs which are all kept at root) · `NEGATIVES_REGISTRY.md` (premise-scoped banked negatives; the
@@ -44,9 +50,11 @@ the STANDING negatives' provenance is kept at root).
 documented-gap xfails) + the discipline skills in `.claude/skills/` (solver-first, no-shortcuts,
 verifier-before-record, completeness-map).
 
-**Assumptions audits / programs:** `FOUNDATIONAL_ASSUMPTIONS_LEDGER.md` (the F0-F8 scoreboard, status-of-record) ·
-`COMPLETION_PROGRAM.md` · `SOLVER_COMPLETENESS_MAP.md` · `POST_POSTULATE_PROGRAM.md` · the live MAPs
-(`QUANTIZATION_MAP`, `MATTER_SECTOR_MAP_new_foundation`, `F4_seal_boundary_MAP`, `STEP2_timelive_matter_MAP`).
+**Assumptions audits / programs:** `FOUNDATIONAL_ASSUMPTIONS_LEDGER.md` (the F0-F8 scoreboard, status-of-record —
+top-of-file FRONTIER STALE, body kept as record) · the live MAPs (`QUANTIZATION_MAP`,
+`MATTER_SECTOR_MAP_new_foundation`, `F4_seal_boundary_MAP`, `STEP2_timelive_matter_MAP`). **ARCHIVED (2026-06-27,
+SUBSUMED by the static-solver completion):** `archive/COMPLETION_PROGRAM.md` · `archive/SOLVER_COMPLETENESS_MAP.md`
+· `archive/POST_POSTULATE_PROGRAM.md`.
 
 **Verifier requirements:** `CROSS_MODEL_VERIFY.md` (cross-tier blind verify) · `PROVENANCE.md` · `AUDIT.md`.
 
@@ -56,9 +64,11 @@ verifier-before-record, completeness-map).
 `F0_SYSTEMATIC_AUDIT`, `udt_field_equations_derivation`, `udt_gravity_sector_rederivation`,
 `F5/F6/F7_*` closures (all `_results.md`).
 
-**The migration / Branch-P record:** `branchP_solver_floor_xcontinuation_results.md` (#66; the continuation +
-winding-native ruler + the kap8 localization arc) + the standing time-live records (`coupled_timelive_solve`,
-`timelive_nonround_native_solve` + their CONTRACT/VERIFIER).
+**The static-solver-completion / Branch-P record:** `kap8_characterization_complete_solver_results.md` (2026-06-27;
+both-branch kap8 floor + the OPEN strong-field-horizon question, PARTIAL/CAVEATED) · `cognitive_corral_triggers_results.md`
+(the driver-trigger / corral-hook guardrail record) · `branchP_solver_floor_xcontinuation_results.md` (#66; the
+continuation + winding-native ruler + the kap8 localization arc) + the standing time-live records
+(`coupled_timelive_solve`, `timelive_nonround_native_solve` + their CONTRACT/VERIFIER).
 
 **Main research records (kept — hold the load-bearing derivations):** `negative_phi_native_geometry.md` (31k
 lines; the q=1/3, η=1/18, N=3 derivations — read via `grep '^## '`) · `particle_spectrum_native_geometry.md`
@@ -73,16 +83,32 @@ entries the wholesale banner did NOT retire.
 
 ## 2. The canonical solver (the live chain)
 
-The migration target + its audited building blocks (all root; MUST stay — the import-critical closure):
-- `p1_residual_general_einstein.py` — **the migration solver** (derived operator + φ; pack6 a,b,c,d,Th,φ;
-  X-continuation; Branch G/P). `migration_convergence_guard.py` — the solve-level N-convergence guard.
-- `branch_operator.py` — the DERIVED scalar-tensor operator (e^{2φ} weight, Branch G/P), wrapping the audited
-  `b1prime_3d_offround_residual.py` (`E_mixed`, `EL_phi_3d`).
+The CODE-COMPLETE static solver + its audited building blocks (all root; MUST stay — the import-critical closure):
+- `p1_residual_general_einstein.py` — **the live static solver** (derived operator + φ; pack6 a,b,c,d,Th,φ;
+  X-continuation; Branch G/P; the 3 spatial off-diagonals live; native-S² matter via `dn`).
+  `migration_convergence_guard.py` — the solve-level N-convergence guard (reframed filter→CHARACTERIZER).
+- `solver_pack.py` — the extracted numeric-method + action-EL pack (the import-traceability cleanup: the live
+  solver graph is THIS + the action-EL modules only; `full3d_solver`/`spectral_radial_soliton` left the graph).
+- `branch_operator.py` — the DERIVED scalar-tensor operator (e^{2φ} weight, Branch G/P; tagged source-of-truth
+  for KAP8/XI_PROD/KAP_PROD), wrapping the audited `b1prime_3d_offround_residual.py` (`E_mixed`, `EL_phi_3d`).
+- `free_s2_matter.py` — **native-S² matter, now LIVE** (`field_dn_components_exact`; free 3-component carrier,
+  |n|=1 constraint, FREE core — winding from the seed's homotopy class `seed_round_native`; the imported S³
+  hedgehog is RETIRED). `spectral_sph_exact.py` — the **SH-EXACT d/dtheta grid fix** (the GL-μ grid
+  mis-differentiated winding sin θ non-convergently; unblocked the pure native matter).
+- `check_winding_survival.py` — winding/|n| post-solve inspection (the parked follow-up: does the free core
+  unwind to vacuum?).
 - `full3d_spectral.py`, `full3d_newton.py`, `full3d_solver.py`, `whole_metric_3d_core.py`,
-  `whole_metric_3d_matter.py`, `free_s2_matter.py`, `spectral_cheb.py`, `spectral_sph.py`,
+  `whole_metric_3d_matter.py`, `spectral_cheb.py`, `spectral_sph.py`,
   `einstein_3d_eval.py` (+ `einstein_3d_weyl_gen`, `einstein_3d_general_eval/_gen`), `solver_action.py`,
   `spectral_radial_soliton.py`.
-- Harness: `tests/test_solver_integrity.py`, `tests/test_operator_from_action.py` (+ conftest).
+- Harness: `tests/test_solver_integrity.py`, `tests/test_operator_from_action.py`,
+  `tests/test_solution_space_gate.py` (the 2 physics-blind anti-imposition lints) (+ conftest).
+  `pytest tests/` = **32 passed / 1 xfailed** (the 1 xfail = `test_no_habit_pins`, the Branch G/P fork —
+  an EXPLORATION gate, not a code flaw).
+
+**Guardrail hooks / cross-check tooling:** `.claude/hooks/corral_trigger.py` + `.claude/settings.json` (the
+driver-trigger corral fires on Task/Bash/git-commit — pause+honesty, never merit) · `export_for_local_llm.py`
+(local-LLM cross-check export; refuses untagged DATED memory). Record = `cognitive_corral_triggers_results.md`.
 
 **Legacy tooling scripts (~510 `native_*.py`, of ~1078 root .py, still flat):** these back the kept research records
 (negative_phi / particle_spectrum) — one doc section = one script ("Implemented in `native_x.py`"). They are

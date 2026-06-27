@@ -1,3 +1,5 @@
+> **[FRONTIER STALE as of 2026-06-27 — the top-of-file frontier here is superseded; LIVE.md is the current frontier. Body kept as record.]**
+
 # STATE — Frontier Snapshot
 
 > **NOTE (2026-06-25 curation):** many historical provenance docs referenced below now live under

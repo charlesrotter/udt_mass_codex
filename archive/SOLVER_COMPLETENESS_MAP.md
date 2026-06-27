@@ -1,3 +1,5 @@
+> **[ARCHIVED 2026-06-27 — SUBSUMED by the static-solver completion; the live frontier is LIVE.md (detail: HANDOFF.md TOP). Kept for history.]**
+
 # SOLVER COMPLETENESS MAP — the UDT-native solver coverage ledger
 
 Living document (started 2026-06-16). The metacognitive "solver-architect" view

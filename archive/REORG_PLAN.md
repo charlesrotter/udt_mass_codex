@@ -1,3 +1,5 @@
+> **[ARCHIVED 2026-06-27 — SUBSUMED by the static-solver completion; the live frontier is LIVE.md (detail: HANDOFF.md TOP). Kept for history.]**
+
 # REORG_PLAN — repo curation (3-pass agent-verified, 2026-06-25)
 
 **Decision (Charles): Option A** — keep load-bearing provenance at ROOT; archive only true sediment.

@@ -1,3 +1,5 @@
+> **[ARCHIVED 2026-06-27 — SUBSUMED by the static-solver completion; the live frontier is LIVE.md (detail: HANDOFF.md TOP). Kept for history.]**
+
 # MIGRATION — extend the hardened p1 solver to the derived-operator native-S² physics
 
 **Decided 2026-06-24 (Charles):** do NOT canonize the `branchGP` prototype — it is un-harnessed and

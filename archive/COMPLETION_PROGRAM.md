@@ -1,3 +1,5 @@
+> **[ARCHIVED 2026-06-27 — SUBSUMED by the static-solver completion; the live frontier is LIVE.md (detail: HANDOFF.md TOP). Kept for history.]**
+
 # COMPLETION PROGRAM — finish every thread before the next level
 
 **Directive (Charles 2026-06-21):** finish ALL F-items (even the substantially-done ones — no hanging
