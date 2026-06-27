@@ -37,12 +37,16 @@ both are resolution-mild, not runaway.
    plateau. ×1.13–1.16 is *milder* than ×2.12 but is NOT a "converged" verdict — it could be slow creep
    or residual under-resolution. **A 3rd grid (Nr=12) is required** to tell plateau from creep
    (Branch-P warp is still *rising*, 2.53→2.87).
-2. **The matter solution's CHARACTER is UNMEASURED — could be trivial.** The guard returned ONLY
-   (Phi, metric warp); it never inspected the solved matter (winding survival, |n|=1, T^μ_ν), and the
-   solved field was NOT saved. The matter core is FREE, so the winding can UNWIND to vacuum (an unwound
-   constant n gives elN=0, |n|=1 exactly — a valid competing floored solution). The metric BCs alone
-   (b(core)=−1, a(seal)=0) already source an O(1) warp. **So the recorded warp could be a BC artifact
-   with NO matter** — the result does NOT yet establish a non-trivial S² matter solution.
+2. ~~**The matter solution's CHARACTER is UNMEASURED — could be trivial.**~~ **RESOLVED 2026-06-27
+   (follow-up #2, `check_winding_survival.py`) — the winding SURVIVED.** Re-solved Nr=8 / Branch G /
+   X=−2e5 saving the field; the topological DEGREE per shell (computed with the grid-EXACT dn;
+   diagnostic validated: canon winding reads Q=1, unwound vacuum reads Q=0) is **Q ≈ 1 on every shell**
+   (per-shell [0.996,0.986,0.957,1.0,0.974,0.976,0.989,1.0]; the ~2–4% wobble is coarse-grid (Nθ=6)
+   integration error, nowhere near the Q≈0 of vacuum), with **|n| in [0.987,1.010]** and **nonzero,
+   slightly-increased matter density rho 0.102→0.183**. So the converged solution is a GENUINE
+   non-trivial degree-1 S² matter object — NOT unwound vacuum; **the warp (1.022, reproducing the 40h
+   run exactly) is MATTER-sourced, not a BC artifact.** SCOPE: shown for Nr=8 / Branch G (the
+   representative case); Branch-P (deep φ) and finer grids not yet checked for degree leakage.
 3. **The "cure" comparison is CONFOUNDED.** Vs the old divergent run, TWO things changed at once:
    off-diagonals were completed AND the matter was swapped S³→native-S². So these solves do **NOT
    isolate** "the frozen off-diagonal DOF" as the cause; attributing the milder trend specifically to
