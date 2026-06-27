@@ -52,7 +52,18 @@ Charles challenged (the driver drifted to a "cured" kap8 headline; the verifier 
 - **Does NOT close:** a genuinely-silent fork with no trigger token and no tool-call signature — that
   residual is the **local-LLM / second-reader** job (not yet installed; export gate is its wiring point).
   This setup narrows the gap; it does not eliminate it.
-- **Pending:** only the Part-A auto-load of `## DRIVER TRIGGERS` in a FRESH session remains unconfirmed
+- **Failure-detection (added 2026-06-27):** a `SessionStart` hook (matcher `startup|resume`, same
+  `corral_trigger.py` dispatcher, format confirmed vs v2.1.173, agent `a8bad28918`) prints
+  `✓ CORRAL GUARDRAILS ACTIVE` + the startup self-check at the top of every session. PRESENCE = hooks
+  loaded; ABSENCE = hooks failed (the loud signal answering "how will I know if the triggers fail to
+  fire"). Catch-proof: dispatcher emits the banner on `{"hook_event_name":"SessionStart"}` (+ `continue:true`),
+  PreToolUse path unregressed. Live SessionStart firing confirms next session (it only loads at session start).
+- **Empty-instance dry-run (2026-06-27, agent `ae0d35a4`):** SEAMLESS-WITH-NITS — orientation reads cleanly,
+  no untagged contradictions, all hard pointers resolve, pytest matches. FINDING: a fresh SUBAGENT did not see
+  the `## DRIVER TRIGGERS` section in its auto-loaded CLAUDE.md (yellow flag; subagent context may differ from
+  a top-level session) — BUT the hooks fired regardless. Reinforces that the hooks (Part B) are the
+  load-bearing mechanism. Nits fixed (prototype/ bare paths).
+- **Pending:** only the Part-A auto-load of `## DRIVER TRIGGERS` in a FRESH top-level session remains unconfirmed
   (it is auto-loaded by design from CLAUDE.md; verifiable next session). The live hook firing is NO LONGER
   pending — both Bash and Agent hooks fired live in-session.
 

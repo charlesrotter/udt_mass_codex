@@ -24,6 +24,10 @@ HANDOFF.md TOP → INDEX.md (repo map).
   top-level session). BUT the harness HOOKS fired regardless, so enforcement is LIVE either way. → The HOOKS
   (Part B) are the load-bearing mechanism; if the top-level fresh session ALSO lacks the auto-load, rely on the
   hooks and/or relocate `## DRIVER TRIGGERS` earlier in CLAUDE.md (right after "How we work").**
+  **HOW YOU'LL KNOW IF THE HOOKS FAIL:** a `SessionStart` hook now prints **`✓ CORRAL GUARDRAILS ACTIVE`**
+  at the TOP of every session (+ the startup self-check prompt). Its PRESENCE = hooks loaded (Part B live);
+  its ABSENCE at session start = hooks did NOT load — the loud failure signal. (Per-tool-call DRIVER TRIGGER
+  reminders are the other visible signal.) First live confirmation = the banner appearing next session.
 - **DATA-BLIND:** never load the six lepton wall numbers during a derivation (contract 26fc757). We
   predict RATIOS.
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never

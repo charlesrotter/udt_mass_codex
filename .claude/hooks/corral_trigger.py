@@ -25,9 +25,11 @@ SOLVER_ENTRYPOINTS = (
 )
 
 
-def _inject(text):
-    json.dump({"hookSpecificOutput": {"hookEventName": "PreToolUse",
-                                      "additionalContext": text}}, sys.stdout)
+def _inject(text, event="PreToolUse"):
+    out = {"hookSpecificOutput": {"hookEventName": event, "additionalContext": text}}
+    if event == "SessionStart":
+        out["continue"] = True
+    json.dump(out, sys.stdout)
     sys.exit(0)
 
 
@@ -36,6 +38,19 @@ def main():
         data = json.load(sys.stdin)
     except Exception:
         sys.exit(0)                       # never block on a parse error -- silent pass
+
+    # SessionStart: print a banner whose PRESENCE proves the hooks loaded (Part B is live), and
+    # whose text prompts the startup self-check (Part A auto-load recite + the gate).  If this banner
+    # is ABSENT at the top of a session, the corral hooks did NOT load -- the loud failure signal.
+    if data.get("hook_event_name", "") == "SessionStart":
+        _inject(
+            "✓ CORRAL GUARDRAILS ACTIVE (DRIVER-TRIGGER hooks loaded). STARTUP SELF-CHECK: "
+            "(1) read LIVE.md FIRST; (2) confirm the `## DRIVER TRIGGERS` section AUTO-LOADED -- recite "
+            "the 6 triggers / the allowed-lane clause from context (Part-A check); (3) run "
+            "`python3 -m pytest tests/` (expect 32 passed / 1 xfailed). If this banner is the ONLY "
+            "corral signal you see (triggers not in context), rely on the hooks + note Part-A as failing.",
+            event="SessionStart")
+
     tool = data.get("tool_name", "") or ""
     cmd = ((data.get("tool_input") or {}).get("command") or "")
 
