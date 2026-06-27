@@ -12,3 +12,4 @@ Thumbs.db
 *.log
 memory_export.md
 solved_fields_*.pt
+local_llm_export.md

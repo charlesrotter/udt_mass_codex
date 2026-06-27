@@ -158,6 +158,55 @@ relevant one at the relevant moment (the inline tripwire is the trigger, the ski
 (Skills are the expandable text; the inline tripwires remain binding and always-loaded — the skills
 do NOT replace them, they unfold them on demand.)
 
+## DRIVER TRIGGERS (binding, always-loaded — fire WITHOUT being challenged)
+
+The cognitive corral above is recall-class: this session it fired only when Charles challenged, not on
+its own (the driver drifted to a "cured" headline; the verifier caught it). These triggers fix that:
+each binds to an OBSERVABLE SELF-OUTPUT TOKEN the driver is about to write — you cannot emit the token
+without owing the procedure. They force a PAUSE + HONESTY/PROVENANCE; they NEVER judge MERIT (is the
+answer the right shape / a lump / the expected mass). (Spec: COGNITIVE_CORRAL_TRIGGERS_SETUP.md.)
+
+**LEAVES ROOM FOR THE WORK — the allowed lane (binding; no trigger may fire to block these).** These
+triggers police the SMUGGLE OF PHYSICS, never the BORROWING OF METHOD. CATEGORY-A (conditioning /
+numerical technique / *how* we solve) is ALWAYS GREEN and only needs a soundness/convergence check:
+borrowing JFNK/Newton-Krylov, continuation/homotopy, spectral/collocation, preconditioners, junction-
+condition/DtN/Calderón & geon formalism, machine-precision Taylor replacement — and USING GR AS A
+REFERENCE/LIMIT (flat/Schwarzschild/de Sitter anchors, contrasting to see where UDT departs). A technique
+changes HOW we solve the UDT equations, not the physics: it is NOT a "mechanism/term/coupling" (does not
+trip #2) and need NOT be "derived from the metric" (does not trip #5); only two duties — apply it to the
+UDT equations (don't silently swap in GR's), and soundness-check it. CATEGORY-B (a change to the PHYSICS
+— a mechanism, coupling, equation-form, source, or a structure-holding BC) is gated. Default for a real
+technique or a GR-as-reference comparison is GREEN; progress is the point. *(This clause is non-droppable
+and MUST travel verbatim with any cross-check payload / local-LLM export — a "forbid"-only half over-blocks.)*
+
+Each: **TRIGGER** (the tokens/moment) → **STOP-AND-DO**.
+1. **Purist-logic / anti-tractable-slice.** TRIGGER: before recommending an approach, or writing
+   *easiest / simplest / just / cleaner / for now / tractable*. STOP-AND-DO: name the PUREST/least-imposed
+   option AND the easy one, with the objective cost of each; if the pure option is blocked by a flaw
+   (grid limit, frozen DOF, an import), the action is FIX THE FLAW — name it, refuse the shortcut (legal
+   only as an explicitly-ledgered temporary stand-in). THEN recommend. [[apply-purist-logic-proactively]]
+2. **Solver-first, not mechanism.** TRIGGER: before proposing a new mechanism/coupling/term/BC to explain
+   a gap, or writing *maybe if we add / a mechanism / what if the metric also*. STOP-AND-DO: run the four
+   solver questions — (1) what did we leave OUT? (2) is it NUMERIC (convergence/conditioning/grid/bug)?
+   (3) did we FREEZE a DOF? (4) explored the whole space with everything ON? Mechanism FORBIDDEN until the
+   solver is demonstrably complete; mismatch indicts solver first, metric last, mechanism never. [[solver-first-not-mechanism]]
+3. **Whole before slice.** TRIGGER: before reporting a result, or writing *the metric does / this shows /
+   scale-free / no localization / featureless / continuum*. STOP-AND-DO: name the regime actually solved
+   and the FREE choices held fixed (static / diagonal / branch G-or-P / grid / frozen rows); label the
+   result SCOPED to that regime. Never state a one-corner result as the frame's verdict. [[sweep-whole-not-fragments]]
+4. **Provisional until verified.** TRIGGER: before banking a verdict — committing a result doc, or writing
+   *cured / conclusive / confirmed / dead / no-go / proven / it works*. STOP-AND-DO: confirm all four —
+   pre-registered? full-space (or bounded slice justified)? blind-verified on the load-bearing premise?
+   every forced premise audited? If any is missing, label it PROVISIONAL / a LEAD, not a result. [[session-handoff-pointer]] (verifier-before-record)
+5. **Chose or derived.** TRIGGER: before any numeric value / BC / sign / chart enters a solve or a banked
+   claim. STOP-AND-DO: tag each FREE / THEORY(cite) / HABIT; a HABIT is a drift flag (free or justify it);
+   a result riding a FREE constant is conditioned on it — say so. SCOPE: PHYSICS premises only; conditioning/
+   solver params (grid, tol, continuation step, preconditioner) are category-A (soundness, not derivation).
+6. **Derive natively, not GR's form.** TRIGGER: before writing *folds away / reduces to the standard case /
+   as in GR / vacuum is / the usual Einstein*. STOP-AND-DO: that step is the prime suspect for smuggling GR
+   back in — show the term's fate from the positional-dilation operator NATIVELY; do not assume the
+   inherited form. (GR as reference is allowed (lane #2); ADOPTING GR's answer as UDT's is the smuggle.) [[derive-natively-not-inherited-form]]
+
 ## Session workflow
 
 - **Maximize the use of subagents to preserve main context** (Charles,

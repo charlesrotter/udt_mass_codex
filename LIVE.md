@@ -10,6 +10,11 @@ HANDOFF.md TOP → INDEX.md (repo map).
   EMERGE; pre-work discussion in LAY language; "chose or derived?" / "observing or targeting?".
 - Discipline skills (`.claude/skills/`, auto-loaded): **solver-first**, **verifier-before-record**
   (incl. cross-model escalation), **no-shortcuts** (run `python3 -m pytest tests/`), **completeness-map**.
+- **DRIVER TRIGGERS (CLAUDE.md, always-loaded) + harness HOOKS** (`.claude/hooks/corral_trigger.py`,
+  fires on Task/Bash/git-commit) now make the corral fire WITHOUT being challenged — pause+honesty, never
+  merit; the allowed-lane clause (category-A technique always GREEN) is non-droppable. Memory freshness:
+  every DATED memory carries a CURRENT/SUPERSEDED/HISTORICAL tag (read CURRENT only). Local-LLM cross-check
+  to come — wiring = `export_for_local_llm.py` (refuses untagged DATED). Record = `cognitive_corral_triggers_results.md`.
 - **DATA-BLIND:** never load the six lepton wall numbers during a derivation (contract 26fc757). We
   predict RATIOS.
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
