@@ -3,22 +3,36 @@
 > **READ `LIVE.md` FIRST** — it is the short, only-guaranteed-current file (frontier + next action).
 > This HANDOFF is the detailed record; if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
 >
-> **CURRENT ACTIVITY (2026-06-25 EVENING): the STATIC SOLVER is CODE-COMPLETE — see `LIVE.md` CURRENT ACTIVITY
-> (authoritative).** This session landed the WHOLE static-solver-completion arc Charles directed ("fix every flaw
-> before dynamic; no red gates before the next level"): anti-imposition GATE (skill + 2 physics-blind lints +
-> guard reframed filter→CHARACTERIZER) + import-traceability clean (`solver_pack.py`; solver graph = numeric +
-> action-EL only) + direct solver audit + **off-diagonal sector COMPLETED** (the kap8=1 GUARD-RED was a FROZEN
-> DOF = solver-incompleteness, NOT a horizon — Charles's "solver development not physics" catch) + **SH-exact
-> grid fix** (`spectral_sph_exact.py`; the GL-μ grid mis-differentiated winding sin θ non-convergently) +
-> **NATIVE-S² matter WIRED** (operator takes `dn`; S³ hedgehog RETIRED; free 3-component carrier; matter CORE
-> FREE, no Θ pin) + provenance gates re-pointed. `pytest tests/` = **32 passed / 1 xfailed** (the 1 = branch G/P
-> exploration gate). The everything below (the gate/kap8/reorg "three items") is now DONE — historical.
+> **CURRENT ACTIVITY (2026-06-27): static solver CODE-COMPLETE + kap8 characterized (PARTIAL) + guardrails
+> hardened — see `LIVE.md` CURRENT ACTIVITY (authoritative).** Across 2026-06-25→27 the WHOLE static-solver
+> arc landed (anti-imposition GATE + import-traceability clean `solver_pack.py` + audit + **off-diagonal sector
+> COMPLETED** (the kap8 GUARD-RED was a FROZEN DOF, not a horizon — Charles's "solver-dev not physics" catch) +
+> **SH-exact grid fix** `spectral_sph_exact.py` + **NATIVE-S² matter WIRED** (operator takes `dn`; S³ RETIRED;
+> free 3-component carrier; matter CORE FREE, no Θ pin) + provenance re-pointed). `pytest tests/` = **32 pass /
+> 1 xfail** (the 1 = branch G/P exploration gate).
 >
-> **NEXT (running / gated on Charles): the kap8 characterization on the COMPLETE solver, BOTH branches** via
-> `migration_convergence_guard.py` (CHARACTERIZER — observe/classify the warp; do NOT demand smoothness). Does the
-> kap8=1 warp still N-grow now off-diagonals are live + matter native? It also clears the branch gate. SLOW solve —
-> run MYSELF, bounded, single process, background-notify, NO nohup. THEN dynamic (time-live native S²). Still owed:
-> check if the GRAVITY sector also needs SH-exact d/dθ (verify, don't assume). MIGRATION.md M4/M5/M6 = SUBSUMED.
+> **kap8 characterization RAN (~40.9 h, both branches) — PARTIAL/CAVEATED; record `kap8_characterization_complete_solver_results.md`.**
+> Both branches FLOOR at Nr=8,10 with a MILD warp-trend (G 1.02→1.18 ×1.16; P 2.53→2.87 ×1.13) vs the old ×2.12.
+> The blind verifier REJECTED the "divergence CURED / it was the frozen DOF, not a horizon" headline — NOT banked.
+> **Follow-up #2 DONE (`check_winding_survival.py`): the winding SURVIVED** — Nr=8/Branch-G solved field has
+> degree Q≈1 on every shell + real matter (ρ 0.10→0.18), so the converged solution is a GENUINE non-trivial S²
+> matter object, NOT unwound vacuum; the warp is MATTER-sourced (resolves verifier caveat C). STILL OPEN: **B —
+> firm convergence (Nr=12, both branches, ~days)**; **D — isolate the cause (off-diagonals-OFF control on native
+> S², ~16 h)** since off-diag-completion AND S³→S² both changed at once. Horizon hypothesis now LESS likely but
+> formally open. `test_no_habit_pins` NOT flipped.
+>
+> **Guardrails hardened (COGNITIVE_CORRAL_TRIGGERS_SETUP.md, Option A):** CLAUDE.md `## DRIVER TRIGGERS` (6
+> output-bound triggers + non-droppable allowed-lane clause) + harness HOOKS (`.claude/hooks/corral_trigger.py`,
+> fire on Task/Agent/Bash — LIVE-confirmed) + memory FRESHNESS tags (read CURRENT only) + LLM export gate
+> (`export_for_local_llm.py`, refuses untagged DATED) — wiring point for the local LLM (not yet installed).
+> Blind-verified CLEAN-WITH-GAPS, gaps fixed (record `cognitive_corral_triggers_results.md`). Pending: confirm
+> the DRIVER TRIGGERS section auto-loads in a FRESH session.
+>
+> **NEXT (gated on Charles + compute): the open solver follow-ups** — D (off-diag-OFF control, ~16 h) and/or B
+> (Nr=12, ~days), neither started (correctly: firm guardrails before long solves). **THEN dynamic** (time-live /
+> non-stationary native S² — the φ-angular hunch's home). Still owed before/with dynamic: check whether the
+> GRAVITY sector also needs the SH-exact d/dθ (verify, don't assume). Op: run solves MYSELF, bounded, single
+> process, background-notify, NO nohup, NO `| grep` (block-buffers → no live progress). MIGRATION.md M4/M5/M6 = SUBSUMED.
 >
 > --- (HISTORICAL prior-session plan, all DONE — kept for provenance) ---
 > **NEXT SESSION — DO NOT AUTO-BEGIN; DISCUSS WITH CHARLES FIRST (Charles 2026-06-25).** Open issues to discuss
