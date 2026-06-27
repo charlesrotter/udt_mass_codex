@@ -36,14 +36,24 @@ FIX THE FLAW yourself; don't take the imposing shortcut. The whole arc landed:
 **`pytest tests/` = 32 passed / 1 xfailed.** The one remaining gate `test_no_habit_pins` = the branch G/P fork
 (defaulted 'G') — an EXPLORATION gate, clears when the characterization runs BOTH branches (not a code flaw).
 
-**NEXT (gated on Charles — it's a SLOW solve; run it MYSELF, bounded, single process, background-notify, NO nohup):
-the kap8 characterization on the COMPLETE solver, BOTH branches G and P.** This is the original mystery (does the
-kap8=1 warp still N-grow now that the off-diagonals are LIVE and the matter is native?) AND it clears the branch
-gate. Use the REFRAMED guard (`migration_convergence_guard.py`) = CHARACTERIZER (observe/classify the warp:
-N-stable / N-growing→resolve-by-analysis / horizon — do NOT demand smoothness). OBSERVE, don't target. THEN dynamic
-(time-live / non-stationary native S² — the φ-angular hunch's home). Still owed before/with dynamic: check whether
-the GRAVITY sector also needs the SH-exact d/dtheta (verify, don't assume). MIGRATION.md M4/M5/M6 are SUBSUMED by
-this completion (historical).
+**kap8 CHARACTERIZATION — RAN 2026-06-27 (~40.9 h, both branches), result PARTIAL/CAVEATED — record =
+`kap8_characterization_complete_solver_results.md`.** Both branches FLOORED at Nr=8,10 with a MILD warp-trend
+(Branch G 1.02→1.18 ×1.16; Branch P 2.53→2.87 ×1.13) — much milder than the old ×2.12. **BUT the blind verifier
+(agent a7cd2e2e) returned NOT-CLEAN as first framed and the "divergence CURED / it was the frozen off-diagonal
+DOF, not a horizon" headline is REJECTED, NOT banked.** Three blocking caveats: (1) 2-grid can't tell converged
+from slow-creep — need **Nr=12**; (2) the guard measured ONLY (Phi, metric warp) — the matter's post-solve
+CHARACTER is UNMEASURED, and with the free core the winding can UNWIND to vacuum (warp could be a BC artifact
+with no matter) → **save + inspect the solved fields** (winding/|n|/T); (3) the "cure" comparison is CONFOUNDED
+(off-diagonals AND S³→S² matter both changed) → needs an **off-diagonals-OFF control on native-S² matter** to
+isolate. **The strong-field HORIZON hypothesis REMAINS OPEN** (do NOT retire it — declaring "cured" on confounded
+2-grid data is the impose-the-answer drift the gate exists to stop). `test_no_habit_pins` NOT flipped.
+
+**NEXT (gated on Charles): the three follow-ups above** (firm convergence Nr=12; characterize the matter solution;
+isolate the off-diagonal effect) BEFORE any "cured" conclusion or moving on. Then dynamic (time-live / non-stationary
+native S² — the φ-angular hunch's home). Still owed: check whether the GRAVITY sector also needs the SH-exact
+d/dtheta (verify, don't assume). Solves are SLOW (Branch-P Nr=10 ~20 h) — run MYSELF, bounded, single process,
+background-notify, NO nohup; AVOID `| grep` (block-buffers → no live progress; write straight to file).
+MIGRATION.md M4/M5/M6 = SUBSUMED (historical).
 
 ## (HISTORICAL) 2026-06-23: solver-integrity-upgrades arc — COMPLETE
 A Charles-requested detour to harden the solver's integrity MACHINERY before resuming the physics
