@@ -58,16 +58,20 @@ FIX THE FLAW yourself; don't take the imposing shortcut. The whole arc landed:
 `kap8_characterization_complete_solver_results.md`.** Both branches FLOORED at Nr=8,10 with a MILD warp-trend
 (Branch G 1.02→1.18 ×1.16; Branch P 2.53→2.87 ×1.13) — much milder than the old ×2.12. **BUT the blind verifier
 (agent a7cd2e2e) returned NOT-CLEAN as first framed and the "divergence CURED / it was the frozen off-diagonal
-DOF, not a horizon" headline is REJECTED, NOT banked.** Three blocking caveats: (1) 2-grid can't tell converged
-from slow-creep — need **Nr=12**; (2) the guard measured ONLY (Phi, metric warp) — the matter's post-solve
-CHARACTER is UNMEASURED, and with the free core the winding can UNWIND to vacuum (warp could be a BC artifact
-with no matter) → **save + inspect the solved fields** (winding/|n|/T); (3) the "cure" comparison is CONFOUNDED
+DOF, not a horizon" headline is REJECTED, NOT banked.** Caveats — ONE now CLOSED, two remain: (1) 2-grid can't
+tell converged from slow-creep — need **Nr=12**; **(2) CLOSED 2026-06-28, blind-verified (agent `a63753fff`):
+the native-S² winding SURVIVED** — independently recomputed on the SAVED field `solved_fields_nr8_G_kap8_1.pt`
+by TWO methods, per-shell degree Q≈1 (interior mean 0.977), |n| in [0.987,1.010], matter density rho_max=0.182
+that vanishes EXACTLY when the winding is forced constant, residual Phi=9.13e-22 (converged); a forced-unwind
+fool-test collapses Q smoothly to 0 (diagnostic not rigged). PRECISE: real winding matter IS present, but
+*part* of the warp stays BC/gauge-driven (NOT "the entire warp is matter"). SCOPE: Nr=8 / Branch G only
+(Branch-P + finer grids unchecked for degree leakage); (3) the "cure" comparison is CONFOUNDED
 (off-diagonals AND S³→S² matter both changed) → needs an **off-diagonals-OFF control on native-S² matter** to
 isolate. **The strong-field HORIZON hypothesis REMAINS OPEN** (do NOT retire it — declaring "cured" on confounded
 2-grid data is the impose-the-answer drift the gate exists to stop). `test_no_habit_pins` NOT flipped.
 
-**NEXT (gated on Charles): the three follow-ups above** (firm convergence Nr=12; characterize the matter solution;
-isolate the off-diagonal effect) BEFORE any "cured" conclusion or moving on. Then dynamic (time-live / non-stationary
+**NEXT (gated on Charles): the TWO remaining follow-ups** (firm convergence Nr=12; isolate the off-diagonal
+effect via an off-diagonals-OFF control) BEFORE any "cured" conclusion or moving on. Then dynamic (time-live / non-stationary
 native S² — the φ-angular hunch's home). Still owed: check whether the GRAVITY sector also needs the SH-exact
 d/dtheta (verify, don't assume). Solves are SLOW (Branch-P Nr=10 ~20 h) — run MYSELF, bounded, single process,
 background-notify, NO nohup; AVOID `| grep` (block-buffers → no live progress; write straight to file).

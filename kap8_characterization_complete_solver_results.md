@@ -44,9 +44,18 @@ both are resolution-mild, not runaway.
    (per-shell [0.996,0.986,0.957,1.0,0.974,0.976,0.989,1.0]; the ~2–4% wobble is coarse-grid (Nθ=6)
    integration error, nowhere near the Q≈0 of vacuum), with **|n| in [0.987,1.010]** and **nonzero,
    slightly-increased matter density rho 0.102→0.183**. So the converged solution is a GENUINE
-   non-trivial degree-1 S² matter object — NOT unwound vacuum; **the warp (1.022, reproducing the 40h
-   run exactly) is MATTER-sourced, not a BC artifact.** SCOPE: shown for Nr=8 / Branch G (the
+   non-trivial degree-1 S² matter object — NOT unwound vacuum. PRECISE framing (per blind verifier,
+   below — corrects an earlier overstatement): **there is REAL matter** (ρ_max(body)=0.182, degree≈1)
+   and **ρ vanishes EXACTLY when n̂→const**, so the matter is real and winding-sourced; *part* of the
+   metric warp is BC/gauge-driven (b(core)=−1 depth dial, a(seal)=0 gauge) — the claim is "real
+   winding matter present," NOT "the entire warp is matter." SCOPE: shown for Nr=8 / Branch G (the
    representative case); Branch-P (deep φ) and finer grids not yet checked for degree leakage.
+   **BLIND-VERIFIED CONFIRMED (agent `a63753fff5ff008b5`, 2026-06-28, zero-context adversarial,
+   saved-field-only, no re-solve):** independently re-derived the degree integral AND built a SECOND
+   method (geometric solid-angle, no derivatives) — both read ≈1 on the solved field (A interior mean
+   0.977, B 0.943), calibrate cleanly (seed→1.0/0.939, vacuum→0/0), and the diagnostic is NOT rigged
+   (a forced solved→const unwinding collapses Q smoothly to exactly 0). Re-evaluated residual on the
+   loaded `u`: Φ=9.13e-22 (genuinely converged). VERDICT: could not break it — winding survived.
 3. **The "cure" comparison is CONFOUNDED.** Vs the old divergent run, TWO things changed at once:
    off-diagonals were completed AND the matter was swapped S³→native-S². So these solves do **NOT
    isolate** "the frozen off-diagonal DOF" as the cause; attributing the milder trend specifically to
