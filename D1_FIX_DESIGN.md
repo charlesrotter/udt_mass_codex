@@ -64,3 +64,51 @@ flat-space error-growth test). This is the real work; it's why the fix is not a 
 Recompute on the determined field vs the old min-norm values: ρ_max at core, warp magnitudes (max|a..d|, eoff),
 charge profile E(<r), caveat #3 warp-comparison. Large movement ⇒ the quantity was seed/Levenberg-set.
 Qualitative/topological claims (winding DEGREE, not-a-horizon, gentle-φ) expected to SURVIVE (constrained subspace).
+
+---
+
+## DERIVED BC TABLE (2026-06-29) — supersedes the proposal above; blind-verified CONFIRMED
+Derivation agent `aecae703e65ce043b` + blind adversarial verifier `aeb0ab5cfdb351889` (CONFIRMED; hardest attack
+on the parity split survived). The BCs are DERIVED from the seal's mirror-fold geometry (per-component reflection
+parity in the radial/normal index) + origin r^l regularity at the core + topological degree-conservation — NOT
+posited. This CORRECTS the proposal's table (my blanket "off-diagonals → Neumann" was WRONG).
+
+**Frame:** the seal is the φ=0 spatial mirror fold (radial reflection r→2r_seal−r; canon C-2026-06-10-2). For a
+C¹ doubled metric across a totally-geodesic reflection surface, parity = (−1)^(#radial indices): odd → Dirichlet
+(=0), even → Neumann (zero normal derivative). The t→−t involution is VACUOUS on static fields (governs only the
+absent time-arm g_tr), so the static off-diagonals are fixed by the spatial mirror. Core = finite cutoff (NOT a
+mirror) → origin r^l regularity (same off-diagonal pattern, different reason).
+
+| field (slot) | #r-idx | SEAL | CORE | provenance |
+|---|---|---|---|---|
+| a (g_tt) | 0 even | a=0 (gauge fix, allowed) | d_r a=0 (regularity) | DERIVED (+gauge) |
+| b (g_rr) | 2 even | Neumann ∂_r b=0 | b=−p (depth dial, **p FREE**) | DERIVED (+ p CHOSE; fixes D4) |
+| c (g_θθ) | 0 even | even→Neumann* | even→Neumann* | DERIVED |
+| d (g_ψψ) | 0 even | even→Neumann* | even→Neumann* | DERIVED |
+| φ | mirror var (odd) | **φ=0** (=domain definition) | d_r φ=0 (regularity, rides rc model) | DERIVED + residue 5a |
+| n1,n2,n3 | tangential | 2×tangential Neumann + \|n\|=1; **NO value-pin** | same | DERIVED (degree topological) |
+| **e_rt (g_rθ)** | **1 odd** | **Dirichlet e_rt=0** | Dirichlet (~r¹) | DERIVED (CORRECTS proposal) |
+| **e_rp (g_rψ)** | **1 odd** | **Dirichlet e_rp=0** | Dirichlet (~r¹) | DERIVED (CORRECTS proposal) |
+| **e_tp (g_θψ)** | **0 even** | **Neumann ∂_r e_tp=0** | Neumann | DERIVED (CORRECTS proposal) |
+
+***Even-sector FORM refinement (verifier):** the even/odd classification is firm, but the even-sector condition
+in WARP variables is ROBIN, not pure Neumann — e.g. ∂_r(g_θθ)=0 with g_θθ=e^{2c}r² gives c′=−1/r_seal (an
+r-power coefficient), not c′=0. **IMPLEMENTATION: impose the parity condition on the METRIC COMPONENT (∂_r g_θθ=0,
+∂_r g_ψψ=0, ∂_r g_rr=0, ∂_r g_θψ=0) — the geometrically correct statement — rather than on the bare warp.** This
+sidesteps the warp-vs-component subtlety. Classification unaffected.
+
+**Matter pin DROPPED (derived redundant):** the winding degree ∈π₂(S²) is conserved under continuous relaxation
+while |n|=1 (changing degree needs |n|=0, forbidden) — so the seal direction value-pin is redundant/over-imposing;
+2×tangential-Neumann + |n|=1 suffices. Sector label (degree 1) set by the seed homotopy class.
+
+**Not an imposition (verified):** e_rt=e_rp=0 is the geometric requirement that normal-tangential shear vanish on
+the crease; the tangential shear e_tp is left FREE (Neumann). The seal does NOT flatten the metric — STRICTLY LESS
+imposing than the old c=d=0 round-pinning table. BCs come from the fold geometry, not from us.
+
+**Determinacy unchanged:** Dirichlet↔Neumann is a one-for-one row swap → rows==cols==4224 at Nr=8. SVD/rank
+self-check still owed (cheap) post-implementation.
+
+**Residues (only non-derived choices):** (5a) φ(seal)=0 — corpus leans DOMAIN DEFINITION (C-2026-06-10-2) + the
+mirror-odd Dirichlet branch; the competing Neumann reading comes from the (vacuous-here) time involution. Proceed
+with φ=0 as the derived default; flag for Charles's canon confirmation (he can overrule). (5b) the rc finite-core
+model + p FREE = justified CHOSE (core derived-singular). EVERYTHING ELSE IS DERIVED.
