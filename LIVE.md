@@ -96,7 +96,32 @@ winding-defect core (ρ~1/r², 3.4e5 dynamic range) regulated by **rc=0.1, NOT N
 / φ deepens 6×" worry is RETRACTED — φ is resolved at Nr=8, and the 6× came from the under-floored frozen Nr=10,
 NOT real physics. **Genuinely soft = only the core-dominated CHARGE profile (rc-entangled, the defect core).**
 
-**NEXT (gated on Charles): Nr=12 is now LOW-VALUE (verified)** — the smooth sector (φ/lapse/interior metric) is
+## SOLVER AUDIT (2026-06-29) — broad-sweep, 21-agent workflow, FIX-FIRST before time-live (record = `SOLVER_AUDIT_2026-06-29.md`)
+Verdict: **the physics core is TRUSTWORTHY** (the live operator is a genuine derived scalar-tensor extension — NO
+smuggled GR-form / mechanism; native-S² matter EL correct; off-diagonals correct on the LIVE path; gates physics-
+blind), **but FIX-FIRST a bounded list before extending to time-live** (not a hard block). Bounded list:
+- **D1 (HIGH, top priority — and itself UNVERIFIED, an incompleteness observation): the static system may be
+  UNDERDETERMINED at the grids used** (body mask `[3:Nr-3]` + most fields one BC → rows<cols for Nr<59; at Nr=8
+  only ~2 interior layers carry equations; damped-LM lstsq makes the rank-deficient step solvable). **If true,
+  residual-smallness is partly seed+Levenberg-regularized, not pinned by the metric — which would REOPEN the
+  caveat #2 winding-survival result AND the native characterization (both rode Nr=8).** → **FIRST ACTION: cheap
+  determinacy check** (Jacobian SVD / numerical rank at the converged Nr=8 point). Full-rank ⇒ D1 dismissed,
+  session results stand; rank-deficient ⇒ re-grade on a resolved grid. Do THIS before anything else.
+- **B1/F-4/G8 (med):** the owed gravity-sector SH-exact d/dθ verify (matter uses SH-exact; gravity uses grid
+  Legendre — agree only at axisymmetry; off-diagonal/non-round/dynamic would mix exact-RHS with inexact-LHS).
+- **A2+D5 (med):** un-derived e^{2φ} field-matter weight is LIVE (tagged CHOSE in 3 places, not hidden) + live
+  drivers ride xi=kap=1.0 not the documented 2e-2 (untagged at call site) → resolve/tag at the banking surface.
+- **G3 (gap):** no stability notion on the 11-field object — establish a constraint-respecting one before/with dynamic.
+- **§3-iii consolidation (owed per CLAUDE.md):** retire the superseded diagonal/prototype solvers to ONE canonical
+  solver+harness (live closure ~17 modules; ~1086 root .py to archive) so time-live doesn't branch off a proliferated base.
+- **Cheap:** C5 (NameError dead code), D4 (seed ignores p / sign-opposite-BC), doc staleness (solver_action.py stale
+  GR-baseline label A1; constants A3; INDEX F-5; B2/B4/E4). 6 false-positives dismissed (don't re-chase — see §5).
+Dynamical/topology gaps (G1 time, G4-G6) = the build itself or stamped scope, NOT blockers. **Cross-model verification
+still reserved for the first time-live PHYSICS result** (the audit was same-model; its D1 lead needs the cheap rank check).
+
+**NEXT (gated on Charles): work the FIX-FIRST list, D1-determinacy-check FIRST.** Then time-live. (Superseded the
+"carry to dynamic" lean below — the audit found a foundation item that must be checked first.)
+**(prior lean, now gated behind the audit):** Nr=12 is LOW-VALUE (verified) — the smooth sector (φ/lapse/interior metric) is
 already resolved at Nr=8, so a finer Nr won't change "gentle well / not a horizon"; the core ρ is an rc-regulated
 singularity (relevant knob = rc, not Nr), and it's the defect core, not "the particle." With caveats #2+#3 closed,
 the object natively identified (core-concentrated winding defect, NOT a horizon), and the smooth sector resolved,
