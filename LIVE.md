@@ -84,17 +84,24 @@ horizon" reading was a misapplied ruler), NOT a localized lump (clean energy-cha
 a clean scale-free monopole (E/r FALLS ~5–6× across the interior, not constant). Gentle φ (~4% redshift, Nr=8),
 ρ=r to ~10%, ρ~r^−2.4 core-weighted. **This RESOLVES the horizon scare natively** (consistent with canon: native
 matter = winding defect, not a particle). Diagnostics: `ponder_horizon_signatures.py`, `native_object_characterization.py`
-(clean energy-charge replaces the spectral-ringing-contaminated Misner-Sharp m(r)). **NOT banked / OPEN:** the
-*quantitative* defect law (Nr=8 ~6 interior shells) and grid-stability — the shallow-φ is GRID-FRAGILE (under-
-floored frozen Nr=10 hints |φ| deepens ~6×). The verifier rejected the over-claimed "global monopole" headline;
-conservative identification above is the licensed wording.
+(clean energy-charge replaces the spectral-ringing-contaminated Misner-Sharp m(r)). The verifier rejected the
+over-claimed "global monopole" headline; conservative identification above is the licensed wording.
+**SPECTRAL-RESOLUTION CHECK (2026-06-29, blind-verified PARTIALLY-CONFIRMED, agent `a73caf9`): the SMOOTH sector
+is RESOLVED at Nr=8** — φ truncation decays cleanly (~3% at top mode), lapse a dominated by modes 0–1; **so the
+gentle-φ / not-a-horizon native reading rides a RESOLVED field (SOLID, not grid-fragile).** The apparent "fat
+tails" are NOT generic under-resolution: (i) b's flat spectrum is the EXACT fingerprint of the imposed
+`b(core)=−1` BC step (an endpoint cardinal function is exactly flat; excluding the core node b's tail collapses
+0.66→0.15 and decays) — benign, exactly captured, a finer Nr won't "converge" a BC step; (ii) ρ is the singular
+winding-defect core (ρ~1/r², 3.4e5 dynamic range) regulated by **rc=0.1, NOT Nr**. So the earlier "GRID-FRAGILE
+/ φ deepens 6×" worry is RETRACTED — φ is resolved at Nr=8, and the 6× came from the under-floored frozen Nr=10,
+NOT real physics. **Genuinely soft = only the core-dominated CHARGE profile (rc-entangled, the defect core).**
 
-**NEXT (gated on Charles): caveat #1 (now reframed natively)** — a PROPERLY-FLOORED finer grid (Nr=12, native-S²)
-to pin (i) whether the dilation well is grid-stable or deepens (the native form of plateau-vs-creep) and (ii) the
-defect's quantitative law. With #2+#3 closed and the object natively identified as a core-concentrated winding
-defect (NOT a horizon), the live question is grid-stability of the static defect — and if it is NOT grid-stable,
-that points to DYNAMIC (time-live / non-stationary native S² — the φ-angular hunch's home), which is the next
-build regardless. Still owed: check whether the GRAVITY sector also needs the SH-exact
+**NEXT (gated on Charles): Nr=12 is now LOW-VALUE (verified)** — the smooth sector (φ/lapse/interior metric) is
+already resolved at Nr=8, so a finer Nr won't change "gentle well / not a horizon"; the core ρ is an rc-regulated
+singularity (relevant knob = rc, not Nr), and it's the defect core, not "the particle." With caveats #2+#3 closed,
+the object natively identified (core-concentrated winding defect, NOT a horizon), and the smooth sector resolved,
+the recommendation is **carry forward to DYNAMIC** (time-live / non-stationary native S² — the φ-angular hunch's
+home), the next build regardless. (If anything is revisited it's rc-sensitivity of the core charge, not Nr.) Still owed: check whether the GRAVITY sector also needs the SH-exact
 d/dtheta (verify, don't assume). Solves are SLOW (Branch-P Nr=10 ~20 h) — run MYSELF, bounded, single process,
 background-notify, NO nohup; AVOID `| grep` (block-buffers → no live progress; write straight to file).
 archive/MIGRATION.md M4/M5/M6 = SUBSUMED (historical).

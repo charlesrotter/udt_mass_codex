@@ -135,10 +135,27 @@ Charles's directive: drop the GR "horizon/black-hole" question; read the object 
 winding defect sitting in a gentle dilation well** — neither a black hole (horizon), nor a localized particle,
 nor a clean scale-free monopole. This RESOLVES the horizon scare natively and is consistent with the canon
 (native matter = S² winding defect, not a localized particle).
-**OPEN / NOT banked:** (a) the *quantitative* defect law is not pinned at Nr=8 (~6 interior shells); (b) the
-shallow-φ is **grid-fragile** — the under-floored frozen Nr=10 hints |φ| deepens ~6× (0.04→0.23), which if real
-means the static defect is NOT grid-stable (a *native* restatement of caveat #1, and a possible pointer to the
-time-live frame). Pinning these needs a properly-floored finer grid.
+**OPEN / NOT banked:** (a) the *quantitative* defect law is not pinned at Nr=8 (~6 interior shells), and the
+core-dominated CHARGE profile is genuinely soft (rc-entangled — see spectral check below); (b) ~~the shallow-φ is
+grid-fragile (frozen Nr=10 hints |φ| deepens ~6×)~~ **RETRACTED 2026-06-29 — see spectral check: φ is RESOLVED
+at Nr=8; the 6× came from the under-floored frozen Nr=10, not real physics.**
+
+### Spectral-resolution check (2026-06-29) — blind-verified PARTIALLY-CONFIRMED, agent `a73caf9cf0e6ca7fd`
+A Chebyshev-spectrum / truncation-error check on the Nr=8 off-ON field, run because the native numbers above must
+not ride an under-resolved field. **Result: the SMOOTH sector is RESOLVED at Nr=8.** φ truncation error decays
+cleanly (~3% at the top mode); lapse a is dominated by modes 0–1. So the load-bearing native reading (gentle φ
+~4%, not-a-horizon) is on a **resolved** field — SOLID. The apparent "fat tails" are NOT generic under-resolution:
+(i) the radial-metric b's flat Chebyshev spectrum is the *mathematically exact* fingerprint of the imposed
+`b(core)=−1` depth-dial BC step (a single endpoint cardinal function on N=8 Lobatto nodes is exactly flat —
+demonstrated synthetically by the verifier; excluding the core node, b's tail collapses 0.66→0.15 and decays) —
+benign and exactly captured, NOT a smooth feature the solver missed; (ii) ρ is fully unresolved but that is the
+*inherent* singular winding-defect core (ρ~1/r², dynamic range ~3.4e5) regulated by **rc=0.1, not Nr**. Verifier
+REFUTED my original suspicion (the flat-b was an artifact/noise) — the numbers were sound — but corrected my
+mechanistic framing (I'd called it "generic under-resolution / grid-fragile φ"; it is a BC step + an inherent
+core singularity, with φ/interior actually resolved). **Consequence for the Nr=12 question:** LOW value — the
+smooth sector is resolved (finer Nr won't change "gentle well / not a horizon"), and the only soft quantity (the
+core charge) is rc-regulated, not Nr-fixable. Recommendation: carry to the time-live build rather than spend a
+finer-grid solve.
 **Blind verifier (zero-context adversarial, saved-field only, agent `a9efe4b52689b19a7`, 2026-06-29): PARTIALLY-
 CONFIRMED.** It UPHELD the exclusions (not-horizon: lapse 0.37, 2m/R not→1; not-localized) and the gentle-φ /
 ρ=r / core-concentration, and it REJECTED the original over-claim ("clean scale-free monopole / m∝r / constant-
