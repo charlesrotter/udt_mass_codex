@@ -59,3 +59,41 @@ principle force a pure direction or admit a radial/amplitude mode? (2) identity 
 or a distinct scalar (derived, not asserted)? (3) core — does the complete object's amplitude actually →0 at
 r=0 (regularize), given φ's behavior there? Outcomes are open: forced+φ+regularizes / forced+φ+does-not /
 distinct-scalar (≈import, gated) / underdetermined. Then blind + cross-model verify.
+
+---
+
+## DERIVATION RESULT (2026-06-29) — fork RESOLVED, blind-verified CONFIRMED
+Derivation agent `a1215c07f152d726f` + blind adversarial verifier `ac20415e04034ec96` (independent sympy;
+hit the "is there a native potential?" flip test hardest). Corroborated from the complementary code-side
+branch by the prior blind-verified `winding_amplitude_gauge_derivation_results.md`. The three sub-questions,
+answered SEPARATELY (they come apart):
+
+1. **Is unit-ness forced? NO.** The positional-dilation principle (R1–R3) is explicitly SILENT on matter
+   content (`native_dilation_weight_derivation_results.md:62`, "KEY SILENCE"); unit-ness is the upstream
+   h1_types area-form posit (`F2:232` "not re-opened"). The amplitude fork is genuinely OPEN — not a
+   derived necessity. (So defaulting to unit was indeed a habit, not a derivation — Charles's catch stands.)
+2. **Does the core regularize? A real native mechanism EXISTS, but it is φ-INDEPENDENT and CONDITIONAL.**
+   Un-normalizing (Φ=A·n̂) gives, exactly (sympy): `g^{mn}∂_mΦ·∂_nΦ = (∂A)² + A²(∂n̂)²` with `(∂n̂)²=2/r²`.
+   The amplitude EOM `A''+(2/r)A'−(2/r²)A=0` has roots {−2,+1}; the regular root `A~r→0` at the core
+   suppresses the BV density singularity. This regularization is **geometric/centrifugal (the 2/r² winding
+   factor), NOT dilatonic** — it settles the stated worry: φ is ≈0 at the core, so a φ-tied `A~e^{kφ}` would
+   NOT vanish there. BUT the action {L2,L4,·e^{2φ}} is **positive-definite in A, minimized at A≡0** — gravity
+   back-reaction, the L4 quartic, and the e^{2φ} profile all checked (flip test): none generates a nonzero-A
+   vacuum. **A realized soliton needs an imported Mexican-hat V(A) — Category-B Higgs-type import.**
+3. **Is the amplitude φ? NO — REFUTED.** A's kinetic coupling (ξ, matter sector, O(1)) is distinct from φ's
+   (X·e^{2φ}, X free ≈−2e5, geometry sector); no field redefinition merges them; the centrifugal suppression
+   is φ-free. The MAP's "amplitude IS φ" lead is dead.
+
+**NET (verified): the "more complete" object is NOT a free native win — it is a gated Category-B IMPORT** (a
+distinct new Higgs-radial scalar + its Mexican-hat V(A)); the dilaton cannot play the amplitude role. So
+**UDT-as-derived gives the rigid unit / intrinsically-singular-core field WITHOUT importing** — and we now
+know this by DERIVATION (the alternative was explored and shown to require an import), not by default. The
+non-myopic exploration VINDICATES the rigid path.
+
+**Implication for the D1 fix:** take the RIGID / unit / finite-core determined posing (direction-parity
+regularity + rc finite-core), per the research's proven recipe. The magnitude/linear-σ path stays a gated
+canon-level option for Charles (it buys a φ-independent centrifugal core-suppression but costs a new scalar +
+an imported potential — disfavored by purity). Premise-ledger: unit-ness = CHOSE; "the linear-σ alternative is
+an import" = now DERIVED + blind-verified.
+
+**Owed:** cross-model verification when the 2nd adversarial model lands (this is the matter-model foundation).
