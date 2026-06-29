@@ -113,3 +113,36 @@ trend (×1.16 at Nr=8→10) vs the old S³/diagonal ×2.12, and that milder beha
 and/or the grid-fix, NOT the off-diagonals. The REMAINING question is caveat #1 (Nr=12): is the native-S² ×1.16
 a converged plateau or slow creep toward a horizon? The strong-field HORIZON hypothesis is ALIVE and is now the
 live question. No "cured" conclusion is banked.
+
+## NATIVE REFRAME (2026-06-29): "what is this dense object?" in UDT variables, NOT the GR horizon lens
+Charles's directive: drop the GR "horizon/black-hole" question; read the object in UDT's own variables
+(dilation φ, the winding defect, areal law ρ=r, public charge). Diagnostics (`ponder_horizon_signatures.py`,
+`native_object_characterization.py`) run on the SAVED fields, no solve. Primary = off-ON Nr=8 (floored).
+**What the existing fields show (Nr=8, Branch G, kap8=1 — SCOPED):**
+- **NOT a forming horizon.** Lapse e^a min ≈ 0.37 (no collapse); GR compactness 2m/R peaks ~0.89 but does
+  NOT climb to 1; it sign-flips/degenerates in the outer interior (the GR "near-horizon, above-Buchdahl"
+  reading was a misapplied ruler, not a physical horizon). One real feature: a curvature (Ricci) spike at
+  the r→0 core (~−6e5) — a genuine core feature, not a horizon.
+- **NOT a localized lump.** The clean cumulative energy-charge E(<r) keeps rising to the seal (does not
+  saturate). [Clean diagnostic: dE/dr = ∫ρ√(det g_spatial) dθdφ — replaces the spectral-ringing-contaminated
+  Misner-Sharp m(r) the first cut used.]
+- **NOT a clean scale-free monopole either.** E(<r)/r FALLS ~5–6× across the interior (≈147→26), where a
+  scale-free defect (E∝r) would hold E/r constant. So the energy is **CORE-CONCENTRATED** (winding-gradient
+  density ρ ~ r^−2.4, huge at the core), with an extended power-law tail — degree-1 winding present on EVERY
+  shell (caveat #2) but energetically core-weighted.
+- **Gentle in φ** (~4% redshift, |φ|≲0.04 at Nr=8) and **ρ=r holds to ~10%** (exp(c)∈[0.90,1.09]).
+**THE NATIVE IDENTIFICATION (banked, conservative):** the kap8 object is a **core-concentrated degree-1 S²
+winding defect sitting in a gentle dilation well** — neither a black hole (horizon), nor a localized particle,
+nor a clean scale-free monopole. This RESOLVES the horizon scare natively and is consistent with the canon
+(native matter = S² winding defect, not a localized particle).
+**OPEN / NOT banked:** (a) the *quantitative* defect law is not pinned at Nr=8 (~6 interior shells); (b) the
+shallow-φ is **grid-fragile** — the under-floored frozen Nr=10 hints |φ| deepens ~6× (0.04→0.23), which if real
+means the static defect is NOT grid-stable (a *native* restatement of caveat #1, and a possible pointer to the
+time-live frame). Pinning these needs a properly-floored finer grid.
+**Blind verifier (zero-context adversarial, saved-field only, agent `a9efe4b52689b19a7`, 2026-06-29): PARTIALLY-
+CONFIRMED.** It UPHELD the exclusions (not-horizon: lapse 0.37, 2m/R not→1; not-localized) and the gentle-φ /
+ρ=r / core-concentration, and it REJECTED the original over-claim ("clean scale-free monopole / m∝r / constant-
+2m/R deficit": R²=0.013 over the full interior, MS-mass contaminated by spectral ringing). It also caught two
+errors since corrected here (a real core Ricci spike — NOT "no singularity"; and the grid-fragility of φ). The
+conservative identification above is the verifier-licensed wording; the strong "global monopole" headline is
+NOT banked.

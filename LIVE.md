@@ -77,10 +77,24 @@ control re-run), NOT the off-diagonals. **The strong-field HORIZON hypothesis RE
 — declaring "cured" on 2-grid data is the impose-the-answer drift the gate exists to stop). `test_no_habit_pins`
 NOT flipped.
 
-**NEXT (gated on Charles): caveat #1 is the LAST follow-up + now the LIVE question** — Nr=12 (native-S², both
-branches) to tell plateau from slow-creep. With #2+#3 closed, the "off-diagonal cure" story is DEAD; the open
-question is whether the native-S² ×1.16 warp-trend CONVERGES or creeps toward a HORIZON (hypothesis alive).
-THEN dynamic (time-live / non-stationary native S² — the φ-angular hunch's home). Still owed: check whether the GRAVITY sector also needs the SH-exact
+**NATIVE REFRAME (2026-06-29, blind-verified PARTIALLY-CONFIRMED, agent `a9efe4b`): the kap8 object read in
+UDT variables (not the GR horizon lens) is a CORE-CONCENTRATED degree-1 S² WINDING DEFECT in a GENTLE dilation
+well** — NOT a forming horizon (lapse e^a≈0.37, 2m/R does not climb to 1; the GR "compact/above-Buchdahl/near-
+horizon" reading was a misapplied ruler), NOT a localized lump (clean energy-charge E(<r) keeps rising), and NOT
+a clean scale-free monopole (E/r FALLS ~5–6× across the interior, not constant). Gentle φ (~4% redshift, Nr=8),
+ρ=r to ~10%, ρ~r^−2.4 core-weighted. **This RESOLVES the horizon scare natively** (consistent with canon: native
+matter = winding defect, not a particle). Diagnostics: `ponder_horizon_signatures.py`, `native_object_characterization.py`
+(clean energy-charge replaces the spectral-ringing-contaminated Misner-Sharp m(r)). **NOT banked / OPEN:** the
+*quantitative* defect law (Nr=8 ~6 interior shells) and grid-stability — the shallow-φ is GRID-FRAGILE (under-
+floored frozen Nr=10 hints |φ| deepens ~6×). The verifier rejected the over-claimed "global monopole" headline;
+conservative identification above is the licensed wording.
+
+**NEXT (gated on Charles): caveat #1 (now reframed natively)** — a PROPERLY-FLOORED finer grid (Nr=12, native-S²)
+to pin (i) whether the dilation well is grid-stable or deepens (the native form of plateau-vs-creep) and (ii) the
+defect's quantitative law. With #2+#3 closed and the object natively identified as a core-concentrated winding
+defect (NOT a horizon), the live question is grid-stability of the static defect — and if it is NOT grid-stable,
+that points to DYNAMIC (time-live / non-stationary native S² — the φ-angular hunch's home), which is the next
+build regardless. Still owed: check whether the GRAVITY sector also needs the SH-exact
 d/dtheta (verify, don't assume). Solves are SLOW (Branch-P Nr=10 ~20 h) — run MYSELF, bounded, single process,
 background-notify, NO nohup; AVOID `| grep` (block-buffers → no live progress; write straight to file).
 archive/MIGRATION.md M4/M5/M6 = SUBSUMED (historical).
