@@ -107,6 +107,11 @@ Re-pose `p1_residual_general_einstein.py::residual_vector_p1` as a DETERMINED sq
 ### Other fix-first items still open (after D1, before time-live) — from `SOLVER_AUDIT_2026-06-29.md`
 A2/D5 (tag the e^{2φ} weight + xi=kap provenance), G3 (stability notion on the 11-field object), §3-iii consolidation
 (retire proliferated solvers to one canonical), cheap bugs (C5 NameError, D4 seed). Then DYNAMIC (time-live native S²).
+**LEGACY ARCHIVING / CONSOLIDATION = the §3-iii task, DELIBERATELY NOT done end-of-session 2026-06-29:** the
+subsumed-tracker docs (FOUNDATIONAL_ASSUMPTIONS_LEDGER, SOLVER_INTEGRITY_UPGRADES_SPEC, COGNITIVE_CORRAL_TRIGGERS_SETUP,
+etc.) are each referenced 10+ places (incl. live `solver_action.py`, `CLAUDE.md`, the corral hook, INDEX.md) — moving
+them requires updating every reference + the transitive-closure check the audit scoped. Do it as a DEDICATED careful
+task (good workflow candidate), NOT a rushed cleanup. (Untracked scratch .log files are harmless gitignored clutter.)
 
 ## ============ (HISTORICAL below — superseded by the 2026-06-29 frontier above) ============
 
