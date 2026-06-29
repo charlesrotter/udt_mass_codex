@@ -218,15 +218,27 @@ def residual_vector_p1(u, G, p, kap8, m=1, wbc=30.0, X=-1.0, xi=1.0, kap=1.0, br
         rows += [wbc * dr_a[core].reshape(-1), wbc * a[seal].reshape(-1)]
         # b: core b=-p (depth dial; honor p -> fixes D4), seal Neumann on g_rr
         rows += [wbc * (b[core].reshape(-1) + p), wbc * drg(R, R)[seal].reshape(-1)]
-        # c,d: BOTH ends Neumann on the metric COMPONENT (even, tangential-tangential)
-        rows += [wbc * drg(TH, TH)[core].reshape(-1), wbc * drg(TH, TH)[seal].reshape(-1)]
-        rows += [wbc * drg(PS, PS)[core].reshape(-1), wbc * drg(PS, PS)[seal].reshape(-1)]
+        # c,d: SEAL = metric-COMPONENT Neumann (genuine mirror fold). CORE = bare-WARP Neumann
+        # c'(rc)=0, d'(rc)=0 (origin regularity of the angular block). DERIVED (P1-(1)/D1_FIX_DESIGN item 3;
+        # symbolic-verified): for the RIGID UNIT hedgehog the matter stress is T^th_th = (e^{-2c}-e^{-2d})/2r^2,
+        # i.e. the angular block is NOT singularly sourced -- it VANISHES in the round/areal gauge (c=d) and
+        # is otherwise just the gentle c-d warp anisotropy (global-monopole / Barriola-Vilenkin structure; the
+        # 1/r^2 singular load sits in the (t,r) block only). So g_thth stays ~r^2 with c->const at the core.
+        # The seal's metric-COMPONENT form d_r(g_thth)=0 at the FINITE cutoff would instead force the spurious
+        # stiff Robin c'(rc)=-1/rc=-10 (= the coordinate Jacobian of flattening g_thth in r where its areal
+        # behaviour is ~r^2) -- the RE-SOLVE ATTEMPT 1 stall: a BC-FORM artifact, not physical stiffness.
+        # NOTE (verifier false-pass warning): determinacy/rank is BLIND to which core form is correct (each
+        # supplies one endpoint row) -- this choice is a MERIT call resting on the derivation above, not the SVD.
+        rows += [wbc * G.d_r(c)[core].reshape(-1), wbc * drg(TH, TH)[seal].reshape(-1)]
+        rows += [wbc * G.d_r(d)[core].reshape(-1), wbc * drg(PS, PS)[seal].reshape(-1)]
         # phi: core d_r phi=0 (regularity), seal phi=0 (mirror-odd = domain definition, derived default)
         rows += [wbc * dr_phi[core].reshape(-1), wbc * phi[seal].reshape(-1)]
         # e_rt, e_rp: Dirichlet=0 BOTH ends (one radial index -> reflection-odd). e_tp: Neumann on g_thps (even)
         rows += [wbc * e_rt[core].reshape(-1), wbc * e_rt[seal].reshape(-1)]
         rows += [wbc * e_rp[core].reshape(-1), wbc * e_rp[seal].reshape(-1)]
-        rows += [wbc * drg(TH, PS)[core].reshape(-1), wbc * drg(TH, PS)[seal].reshape(-1)]
+        # e_tp (g_th ps): SEAL = metric-component Neumann (mirror, even); CORE = bare-warp Neumann
+        # e_tp'(rc)=0 (same global-monopole origin regularity as c,d; seed-neutral but correct off-round).
+        rows += [wbc * G.d_r(e_tp)[core].reshape(-1), wbc * drg(TH, PS)[seal].reshape(-1)]
         # matter: 2x tangential Neumann (d_r nhat, 3-comp -> 2 indep) at BOTH ends; |n|=1 already all-nodes.
         # NO seal direction value-pin (degree topologically conserved under |n|=1 -> pin redundant/over-imposing).
         for ai in range(3):

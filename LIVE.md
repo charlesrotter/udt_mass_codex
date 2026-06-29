@@ -33,35 +33,38 @@ HANDOFF.md TOP → INDEX.md (repo map).
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ FRONTIER (2026-06-29) — READ THIS FIRST (only DURABLE CANON follows) ============
-**One-line state:** the D1 determinacy fix is IMPLEMENTED (`residual_vector_p1(...,determined=True)`) and the
-DETERMINACY IS FIXED — rank==4224==cols, **null-dim 0** at two generic points (vs old null-dim 2448), pending an
-independent blind-verify (`bdcc705`, `d1_determined_posing_check.py`). The flagged conditioning risk DID appear:
-full-rank but ill-conditioned (smin≈6e-5, cond≈1e11). Determinacy now BLIND-VERIFIED (`ac02066`). **RE-SOLVE
-ATTEMPT 1 STALLED** (`392b4b7`): the determined posing does NOT yet solve — Phi stuck ~1e-2 at the EASIEST X≈−1,
-the X-continuation subdividing uselessly. Diagnosis: BC-driven stall (the round seed is far from the new derived
-BCs — the core metric-Neumann gives c'(rc)=−1/rc=−10, stiff) + cond≈1e11; the plain LM+X-continuation is the WRONG
-machinery (it mis-reads BC-stall as X-stiffness). **So D1 DETERMINACY is FIXED+verified, but the RE-GRADE is BLOCKED
-on conditioning machinery** (the design's flagged "real work"). **NEXT PHASE (deserves fresh context):** (1) warm-
-start from the old saved field + iterate at FIXED X (stall is BC-satisfaction, not X-stiffness — don't X-continue
-from the round seed); (2) the research's parity/Galerkin basis + Ruiz equilibration for cond≈1e11; (3) re-examine
-the stiff core Robin BC (∂_r g_θθ=0 at the rc CUTOFF — per-component parity form owed; a gentler correct form may
-remove much stiffness); (4) re-grade once it floors. `determined=True` stays NON-default until it solves; old path
-intact. Matter-model fork RESOLVED (rigid unit field native; amplitude a gated import).
+## ============ FRONTIER (2026-06-29 PM) — READ THIS FIRST (only DURABLE CANON follows) ============
+**One-line state:** D1 determinacy FIXED+blind-verified (null-dim 0). The **core-BC FORM artifact is now FIXED+
+symbolically-verified too** — P1-(1) RAN: the core had copied the SEAL's metric-component Neumann `∂_r g_θθ=0`,
+which at the finite cutoff forces the spurious stiff Robin `c'(rc)=−1/rc=−10` (the attempt-1 stall). DERIVED
+correct form = gentle bare-warp Neumann `c'(rc)=0` (rigid hedgehog `T^θ_θ=(e^{−2c}−e^{−2d})/2r²` → angular block
+NOT singularly sourced, vanishes at c=d; global-monopole/BV structure). Implemented (rows 222/223/229 core slots),
+pytest 32/1xfail, determinacy preserved. **RE-SOLVE ATTEMPT 2** (warm-start from old field, FIXED X=−2e5):
+**UNBLOCKED but not floored** — Phi 6.3e10 → 9.6e-2 over 60 MONOTONE steps at the PRODUCTION X (attempt-1
+death-spiraled at the easy X≈−1), then a slow ~4%/step LINEAR tail = the residual cond≈1e11 (Chebyshev ENDPOINT
+AMPLIFICATION, smax≈7e6 — a SEPARATE source the BC fix doesn't touch) is now rate-limiting. So: the BC-form
+artifact is CONFIRMED+removed (the binding stall), but **"floors with just the BC fix" was OVER-OPTIMISTIC — the
+parity/Galerkin basis + Ruiz equilibration (Category-A conditioning) is genuinely needed to floor + re-grade.**
+RE-GRADE is PROVISIONAL only (Phi not floored; qualitative survives — Q=0.990/|n|=1/gentle-φ/lapse 3.2 no-horizon;
+quantitative NOT banked). `determined=True` stays NON-default until it floors; old path intact. Records:
+`D1_FIX_DESIGN.md` (P1-(1) section). **DECISION FOR CHARLES = the FORK** (below): build the conditioning machinery
+now vs fold into time-live. Matter-model fork RESOLVED (rigid unit field native; amplitude a gated import).
 
 **GIT: push went down mid-session (auth) then RESTORED 2026-06-29 — fully synced (origin/main == HEAD). No
 unpushed commits.** (If push fails again it's auth: `gh auth login`.)
 
 ### NEXT-SESSION PRIORITIES (P1–P4; recommendation, not a menu)
-- **P1 (immediate) — make the determined posing SOLVE, then RE-GRADE.** D1 determinacy is fixed+verified; the
-  re-grade payoff is blocked because the posing won't floor (cond≈1e11 + BC-stiffness). Do cheapest-first:
-  **(1) re-examine the stiff core BC FIRST** (∂_r g_θθ=0 at the rc CUTOFF gives c'(rc)=−10; the per-component
-  parity FORM at the cutoff vs r=0 is owed — a gentler correct form may dissolve much of the stiffness for ~free;
-  check BEFORE building heavy machinery). **(2) warm-start from the old saved field + iterate at FIXED X** (the
-  stall is BC-satisfaction, not X-stiffness — don't X-continue from the round seed). **(3) only if still
-  ill-conditioned:** the research's parity/Galerkin basis + Ruiz equilibration (a real build — invest only if 1–2
-  fail). **(4) then RE-GRADE** ρ_max/warp/charge/caveat-#3 vs the old min-norm values + blind-verify (qualitative
-  claims expected to survive; quantitative may move).
+- **P1 — make the determined posing FLOOR, then RE-GRADE. [moves (1)+(2) DONE 2026-06-29 PM]** Done: (1) the
+  core-BC FORM check FOUND+FIXED the −10 artifact (warp-Neumann c'(rc)=0; symbolically verified); (2) the
+  warm-start fixed-X re-solve UNBLOCKED the solve (Phi 6.3e10→9.6e-2 monotone at production X). **REMAINING = the
+  FORK (decision for Charles):** the solve does NOT floor — a slow linear tail = residual cond≈1e11 (Chebyshev
+  ENDPOINT amplification, smax≈7e6, a separate source). So **(3) the conditioning build IS genuinely needed:**
+  Ruiz equilibration first (cheap row/col scaling, can drop cond orders) → parity/Galerkin basis-recombination
+  (bakes regularity into the basis, kills endpoint amplification) if equilibration alone is insufficient; possibly
+  examine the φ-core pin (d_rφ=0 may want a log). **(4) then RE-GRADE** ρ_max/warp/charge/caveat-#3 + blind-verify.
+  Per fix-all-flaws this is a static RED gate to clear before time-live, AND the same conditioning the time-live
+  solver needs — so building it now serves both. **The deliberate decision LIVE flagged: build it now vs fold into
+  the time-live solver build.**
 - **P2 (parallel, when the 2nd adversarial model lands) — CROSS-MODEL verify** this session's load-bearing,
   same-tier-only results: the matter-model fork (rigid unit / amplitude=gated-import / amplitude≠φ), the D1
   determinacy, the derived BC table.

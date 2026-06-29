@@ -158,3 +158,52 @@ but the plain LM + X-continuation is the WRONG machinery for it.** This is preci
 **STATUS:** D1 determinacy FIXED + blind-verified (the posing is determined). The determined posing does NOT yet
 solve (conditioning/BC-stiffness) — the re-grade is BLOCKED on the conditioning machinery above. `determined=True`
 stays NON-default until it solves. Old underdetermined path unchanged (pytest 32/1xfail).
+
+---
+
+## P1-(1) CORE-BC FIX + RE-SOLVE ATTEMPT 2 (2026-06-29, fresh session) — CORE ARTIFACT CONFIRMED; solve UNBLOCKED but does NOT yet floor (conditioning is now the rate-limiter)
+Driver + derivation agent `aac508665` + blind verifier `a9c669bf8` + symbolic adjudication (in-loop sympy).
+
+### The core-BC FORM was wrong (DERIVED + symbolically verified) — FIXED
+The `determined=True` branch had copied the SEAL's metric-component Neumann `d_r(g_thth)=0` to the CORE (rows
+222/223/229). At the finite cutoff rc that forces the spurious stiff Robin `c'(rc) = -1/rc = -10` (the coordinate
+Jacobian of flattening g_thth=e^{2c}r^2 in r where its areal behaviour is ~r^2) — the RE-SOLVE-ATTEMPT-1 stall.
+The CORRECT core regularity is the gentle bare-WARP Neumann `c'(rc)=0` (the round seed satisfies it exactly).
+- **Symbolic proof (in-loop sympy, the arbiter):** for the RIGID UNIT hedgehog `T^th_th = (e^{-2c}-e^{-2d})/2r^2`,
+  `T^t_t=T^r_r=-(e^{-2c}+e^{-2d})/2r^2`. The ANGULAR block is NOT singularly sourced: T^th_th VANISHES in the
+  round/areal gauge (c=d) and is otherwise just gentle c-d warp anisotropy (global-monopole / Barriola-Vilenkin
+  structure; the 1/r^2 load sits in the (t,r) block only). => g_thth ~ r^2, c->const, warp-Neumann is correct.
+- **Verifier process note:** the blind verifier CONFIRMED the conclusion but tried to refute the mechanism
+  (claimed T^th_th=2eta^2/r^2). That number is an AMPLITUDE-model algebra error (spurious f^2 term; the resolved
+  matter model is the rigid unit field, no amplitude). Adjudicated by the symbolic calc above — NOT taken on
+  authority. KEPT from the verifier: (a) the false-pass warning (determinacy is BLIND to which core form is
+  correct — this is a MERIT call on the derivation, not the SVD; noted in code); (b) the residual conditioning
+  risks (phi-log core pin + Chebyshev endpoint amplification), both since confirmed.
+- **Implemented:** `p1_residual_general_einstein.py` rows 222/223/229 core slots `drg(.,.)[core]` -> `G.d_r(c|d|e_tp)[core]`.
+  pytest 32/1xfail intact (default path unchanged). DETERMINACY PRESERVED (`d1_determined_posing_check.py`:
+  null-dim 0, rank 4224). Conditioning improved only modestly (cond ~1.2e11 -> ~8e10; smax~7e6 UNCHANGED = the
+  endpoint amplification, a separate source the BC fix does not touch).
+
+### RE-SOLVE ATTEMPT 2 (warm-start from old field, FIXED X=-2e5, determined posing) — UNBLOCKED, not floored
+`d1_resolve_and_regrade.py` (edited: cold X-continuation -> warm-start fixed-X LM). 60 iters, 6791s, Nr=8 G kap8=1.
+- **Phi: 6.34e10 (warm-start, new posing) -> 9.594e-2 over 60 MONOTONE-ACCEPTED steps** at the PRODUCTION X=-2e5
+  (attempt-1 death-spiraled at the EASY X~-1). The BC-form fix removed the stall: Phi drives 11 orders down.
+- **Does NOT floor (<1e-6):** from it~16 a slow ~4%/step LINEAR tail = the residual cond~1e11 (endpoint
+  amplification / possible phi-log) is now rate-limiting. More LM iters won't fix a conditioning-set RATE.
+- **VERDICT:** "BC-form artifact" CONFIRMED (removable, was the binding stall). "re-solve floors with just the BC
+  fix" was OVER-OPTIMISTIC — the parity/Galerkin basis + Ruiz equilibration (Category-A conditioning) is
+  genuinely needed to floor the determined solve. This is the design's long-flagged "conditioning is the real work."
+
+### RE-GRADE — PROVISIONAL ONLY (Phi=9.6e-2 not floored; numbers NOT banked)
+Qualitative (expected to survive, and do at this partial): winding Q_interior=0.990 (old 0.977); |n|=1 exact;
+phi in [-0.0012,0.0080] gentle; lapse exp(a)_min=3.21 (>0, NOT a horizon). Quantitative (UNTRUSTWORTHY until
+floored): warp max|a,b,c,d|=3.06 (old 1.02); eoff_max=1.76 (old 0.11); rho_max=8.3e-3 (old 0.18). These MOVED a
+lot but the solve is not converged — re-grade for real only after the conditioning build floors it.
+Field saved `solved_fields_nr8_G_kap8_1_DETERMINED.pt` (PROVISIONAL/partial — do not treat as a result).
+
+### THE FORK (for Charles): build the conditioning machinery now, vs fold into time-live
+D1 determinacy is FIXED+verified; the core-BC artifact is FIXED+verified; the solve is UNBLOCKED but needs the
+conditioning build (Ruiz equilibration first — cheap; then parity/Galerkin basis) to floor + give a trustworthy
+re-grade. Per fix-all-flaws-before-dynamic this is a static RED gate to clear before time-live; and the same
+conditioning machinery the time-live solver needs anyway. Recommendation: build it (equilibration-first), floor
+the static determined solve, re-grade — but this is the deliberate "real build" decision LIVE flagged for Charles.

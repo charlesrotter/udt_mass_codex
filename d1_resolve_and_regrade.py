@@ -17,10 +17,20 @@ from full3d_newton import inv4x4
 
 t0 = time.time()
 G = attach_coord_weight(Grid3D(Nr=8, Nth=6, Nps=8, rc=0.1, cell=8.0))
-u0 = P1.seed_round_native(G, p=1.0, m=1)
-print("=== D1 RE-SOLVE: determined=True, cold continuation, Nr=8 Branch G kap8=1 X->-2e5 ===", flush=True)
-u, hist, Xfin = P1.continuation_solve_p1(u0, G, 1.0, 1.0, X_target=-2.0e5, m=1, branch="G",
-                                         n_steps=14, maxit=12, determined=True, verbose=True)
+# WARM-START strategy (attempt 2, supersedes attempt-1 cold X-continuation): the RE-SOLVE-ATTEMPT-1
+# diagnosis was that the stall is BC-SATISFACTION at fixed X, NOT X-stiffness -- so DON'T X-continue from
+# the round seed. Start from the OLD saved near-solution (interior PDE already ~satisfied; X already -2e5)
+# and iterate fixed-X LM under the NEW (core-BC-fixed) determined posing. Decisive test: does it FLOOR
+# (BC-form artifact removed => the -10 stall is gone, re-grade) or STALL (cond~1e11 endpoint amplification /
+# phi-log dominate => the parity/Galerkin basis build is genuinely needed)?
+Xfin = -2.0e5
+d0 = torch.load('solved_fields_nr8_G_kap8_1.pt', map_location='cpu', weights_only=False)
+u0 = d0['u'].to(G.Dr.device)
+print("=== D1 RE-SOLVE attempt2: determined=True, WARM-START from old field, FIXED X=-2e5, Nr=8 G kap8=1 ===", flush=True)
+F0 = P1.residual_vector_p1(u0, G, 1.0, 1.0, X=Xfin, branch="G", determined=True)
+print(f"  warm-start Phi0 (new posing) = {float((F0*F0).sum()):.4e}", flush=True)
+u, hist = P1.newton_solve_p1(u0, G, 1.0, 1.0, X=Xfin, branch="G", m=1, maxit=60,
+                             determined=True, verbose=True)
 F = P1.residual_vector_p1(u, G, 1.0, 1.0, X=Xfin, branch="G", determined=True)
 Phi = float((F * F).sum())
 torch.save({'u': u.cpu(), 'Xfin': Xfin, 'Nr': 8, 'branch': 'G', 'kap8': 1.0, 'determined': True},
