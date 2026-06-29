@@ -3,9 +3,11 @@
 > **READ `LIVE.md` FIRST** — it is the short, only-guaranteed-current file (frontier + next action).
 > This HANDOFF is the detailed record; if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
 >
-> **CURRENT ACTIVITY (2026-06-29): D1 determinacy fix — DESIGNED + BCs DERIVED/blind-verified; NEXT = IMPLEMENT
-> it, then re-grade. See `LIVE.md` FRONTIER (2026-06-29) (authoritative) + `D1_FIX_DESIGN.md` (the DERIVED BC TABLE
-> = the implementation spec).** This session: kap8 caveats #2 (winding survived) + #3 (off-diagonals excluded)
+> **CURRENT ACTIVITY (2026-06-29): D1 determinacy fix — IMPLEMENTED + blind-verified (null-dim 0); the RE-SOLVE
+> STALLED (full-rank but cond≈1e11 + BC-stiffness) so the RE-GRADE is BLOCKED on conditioning machinery. NEXT =
+> the 3-move conditioning phase (warm-start+fixed-X / parity-Galerkin basis+equilibration / re-examine the stiff
+> core Robin BC), then re-grade. See `LIVE.md` FRONTIER (authoritative) + `D1_FIX_DESIGN.md` (DERIVED BC TABLE +
+> RE-SOLVE ATTEMPT 1). Git push RESTORED + synced.** This session: kap8 caveats #2 (winding survived) + #3 (off-diagonals excluded)
 > CLOSED; native reframe (kap8 object = core-concentrated S² winding DEFECT, NOT a horizon); broad-sweep solver
 > AUDIT → FIX-FIRST list, top item **D1 = static solve is UNDERDETERMINED** (1776 eqns / 4224 unknowns,
 > null-dim 2448; quantitative results SOFT, qualitative SURVIVE); GR-numerics research → proven determined-posing

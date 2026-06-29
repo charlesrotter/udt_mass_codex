@@ -49,8 +49,8 @@ the stiff core Robin BC (∂_r g_θθ=0 at the rc CUTOFF — per-component parit
 remove much stiffness); (4) re-grade once it floors. `determined=True` stays NON-default until it solves; old path
 intact. Matter-model fork RESOLVED (rigid unit field native; amplitude a gated import).
 
-**⚠ GIT PUSH IS DOWN (auth lapsed ~2026-06-29).** Local commits AHEAD of origin: `5fe1a44`, `898fbd4` (+ any from
-the implementation). Last pushed = `715c8e4`. Re-auth (`gh auth login` / refresh token) then `git push`. Nothing lost.
+**GIT: push went down mid-session (auth) then RESTORED 2026-06-29 — fully synced (origin/main == HEAD). No
+unpushed commits.** (If push fails again it's auth: `gh auth login`.)
 
 ### This session's arc (all committed; all blind-verified unless noted)
 1. **kap8 caveat #2 CLOSED** (`92e363a`): native-S² winding SURVIVED (degree Q≈1, real matter) — verifier `a63753fff`.
@@ -79,7 +79,7 @@ the implementation). Last pushed = `715c8e4`. Re-auth (`gh auth login` / refresh
 9. **D1 FIX DESIGNED + BCs DERIVED + VERIFIED** (`5fe1a44`, `898fbd4`; `D1_FIX_DESIGN.md`; verifiers
    `a71a586`/`aecae70`/`aeb0ab5`): see the IMPLEMENTATION SPEC immediately below.
 
-### NEXT ACTION — IMPLEMENT THE D1 FIX (spec is `D1_FIX_DESIGN.md`, the "DERIVED BC TABLE" section)
+### D1 IMPLEMENTATION SPEC — ✅ DONE (implemented `bdcc705`; determinacy blind-verified). This is the RECORD of what was built, NOT a pending action. (The pending action is the conditioning/re-solve phase in the one-line state above.) Spec also in `D1_FIX_DESIGN.md` "DERIVED BC TABLE".
 Re-pose `p1_residual_general_einstein.py::residual_vector_p1` as a DETERMINED square system:
 - **Interior:** impose the 11 coupled rows at ALL non-endpoint radial layers `[1:Nr-1]` (replace the `body=[3:Nr-3]`
   excision in `full3d_spectral.py:129-130` usage — do NOT re-excise, that IS D1).
