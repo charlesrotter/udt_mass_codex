@@ -52,6 +52,28 @@ intact. Matter-model fork RESOLVED (rigid unit field native; amplitude a gated i
 **GIT: push went down mid-session (auth) then RESTORED 2026-06-29 — fully synced (origin/main == HEAD). No
 unpushed commits.** (If push fails again it's auth: `gh auth login`.)
 
+### NEXT-SESSION PRIORITIES (P1–P4; recommendation, not a menu)
+- **P1 (immediate) — make the determined posing SOLVE, then RE-GRADE.** D1 determinacy is fixed+verified; the
+  re-grade payoff is blocked because the posing won't floor (cond≈1e11 + BC-stiffness). Do cheapest-first:
+  **(1) re-examine the stiff core BC FIRST** (∂_r g_θθ=0 at the rc CUTOFF gives c'(rc)=−10; the per-component
+  parity FORM at the cutoff vs r=0 is owed — a gentler correct form may dissolve much of the stiffness for ~free;
+  check BEFORE building heavy machinery). **(2) warm-start from the old saved field + iterate at FIXED X** (the
+  stall is BC-satisfaction, not X-stiffness — don't X-continue from the round seed). **(3) only if still
+  ill-conditioned:** the research's parity/Galerkin basis + Ruiz equilibration (a real build — invest only if 1–2
+  fail). **(4) then RE-GRADE** ρ_max/warp/charge/caveat-#3 vs the old min-norm values + blind-verify (qualitative
+  claims expected to survive; quantitative may move).
+- **P2 (parallel, when the 2nd adversarial model lands) — CROSS-MODEL verify** this session's load-bearing,
+  same-tier-only results: the matter-model fork (rigid unit / amplitude=gated-import / amplitude≠φ), the D1
+  determinacy, the derived BC table.
+- **P3 (after D1 solves) — the rest of the fix-first list:** A2/D5 (tag e^{2φ} weight + ξ=κ provenance), G3
+  (stability notion on the 11-field object), §3-iii consolidation (one canonical solver — good dedicated workflow),
+  cheap bugs C5/D4. Clearing these = "no red gates."
+- **P4 — DYNAMIC (time-live native S²)** — the actual physics frontier + the φ-angular hunch's home; gated behind P3.
+- **Calibration:** D1 is INFRASTRUCTURE (necessary per fix-all-flaws-before-dynamic, not the physics). If P1-move-1
+  shows the stiffness was a BC-form artifact → cheap win; if it genuinely needs the parity/Galerkin build → a
+  deliberate decision, and a fair moment to ask whether to do that conditioning work now vs fold it into the
+  time-live solver build (which needs robust conditioning anyway). **Recommended first move: P1-(1), the cheap core-BC-form check.**
+
 ### This session's arc (all committed; all blind-verified unless noted)
 1. **kap8 caveat #2 CLOSED** (`92e363a`): native-S² winding SURVIVED (degree Q≈1, real matter) — verifier `a63753fff`.
 2. **kap8 caveat #3 CLOSED** (`d3d81be`): off-diagonals EXCLUDED as the warp-tamer (Nr=8 same-grid +0.7%) — `ae5a16bb`.
