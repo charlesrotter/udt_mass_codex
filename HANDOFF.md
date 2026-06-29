@@ -3,8 +3,17 @@
 > **READ `LIVE.md` FIRST** — it is the short, only-guaranteed-current file (frontier + next action).
 > This HANDOFF is the detailed record; if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
 >
-> **CURRENT ACTIVITY (2026-06-27): static solver CODE-COMPLETE + kap8 characterized (PARTIAL) + guardrails
-> hardened — see `LIVE.md` CURRENT ACTIVITY (authoritative).** Across 2026-06-25→27 the WHOLE static-solver
+> **CURRENT ACTIVITY (2026-06-29): D1 determinacy fix — DESIGNED + BCs DERIVED/blind-verified; NEXT = IMPLEMENT
+> it, then re-grade. See `LIVE.md` FRONTIER (2026-06-29) (authoritative) + `D1_FIX_DESIGN.md` (the DERIVED BC TABLE
+> = the implementation spec).** This session: kap8 caveats #2 (winding survived) + #3 (off-diagonals excluded)
+> CLOSED; native reframe (kap8 object = core-concentrated S² winding DEFECT, NOT a horizon); broad-sweep solver
+> AUDIT → FIX-FIRST list, top item **D1 = static solve is UNDERDETERMINED** (1776 eqns / 4224 unknowns,
+> null-dim 2448; quantitative results SOFT, qualitative SURVIVE); GR-numerics research → proven determined-posing
+> recipe; the **|n|=1 / amplitude FORK RESOLVED** (matter = rigid unit field, native; the magnitude version is a
+> gated Higgs-type import; amplitude ≠ φ); D1 fix designed + the BCs DERIVED from the seal mirror-fold parity +
+> core regularity + topology (off-diagonal split: e_rt,e_rp Dirichlet / e_tp Neumann; φ(seal)=0; matter seal-pin
+> dropped). **⚠ GIT PUSH DOWN (auth) — local commits `5fe1a44`,`898fbd4` ahead of origin `715c8e4`; re-auth + push.**
+> (Prior 2026-06-27 line, now historical:) static solver CODE-COMPLETE + kap8 characterized (PARTIAL).** Across 2026-06-25→27 the WHOLE static-solver
 > arc landed (anti-imposition GATE + import-traceability clean `solver_pack.py` + audit + **off-diagonal sector
 > COMPLETED** (the kap8 GUARD-RED was a FROZEN DOF, not a horizon — Charles's "solver-dev not physics" catch) +
 > **SH-exact grid fix** `spectral_sph_exact.py` + **NATIVE-S² matter WIRED** (operator takes `dn`; S³ RETIRED;

@@ -33,6 +33,72 @@ HANDOFF.md TOP → INDEX.md (repo map).
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
+## ============ FRONTIER (2026-06-29) — READ THIS FIRST; supersedes everything below ============
+**One-line state:** the static solver has a CONFIRMED determinacy bug (D1); its fix is FULLY DESIGNED + the
+boundary conditions DERIVED + blind-verified; **NEXT ACTION = IMPLEMENT the D1 fix, then re-grade.** The matter-
+model fork that was blocking the fix is RESOLVED (rigid unit field is native; amplitude = a gated import).
+
+**⚠ GIT PUSH IS DOWN (auth lapsed ~2026-06-29).** Local commits AHEAD of origin: `5fe1a44`, `898fbd4` (+ any from
+the implementation). Last pushed = `715c8e4`. Re-auth (`gh auth login` / refresh token) then `git push`. Nothing lost.
+
+### This session's arc (all committed; all blind-verified unless noted)
+1. **kap8 caveat #2 CLOSED** (`92e363a`): native-S² winding SURVIVED (degree Q≈1, real matter) — verifier `a63753fff`.
+2. **kap8 caveat #3 CLOSED** (`d3d81be`): off-diagonals EXCLUDED as the warp-tamer (Nr=8 same-grid +0.7%) — `ae5a16bb`.
+3. **NATIVE REFRAME** (`772e6f5`): the kap8 object is a **core-concentrated degree-1 S² winding DEFECT in a gentle
+   dilation well — NOT a forming horizon** (the GR "compact/near-horizon" reading was a misapplied ruler) — `a9efe4b`.
+4. **Spectral check** (`1750f24`): the SMOOTH sector (φ/lapse/interior) is RESOLVED at Nr=8 → Nr=12 LOW-value; the
+   "fat tails" are a benign BC step + the inherent rc-regulated singular core — `a73caf9`.
+5. **BROAD-SWEEP SOLVER AUDIT** (`0086672`, 21-agent workflow, `SOLVER_AUDIT_2026-06-29.md`): physics core
+   TRUSTWORTHY (no smuggled GR/mechanism), FIX-FIRST a bounded list before time-live. Top finding = D1.
+6. **D1 CONFIRMED** (`ad5df06`): the static solve is UNDERDETERMINED — residual = 1776 eqns / 4224 unknowns at
+   Nr=8 (body mask `[3:Nr-3]` imposes the PDE on only 2 of 8 radial layers; most fields singly-BC'd), Jacobian
+   full ROW rank 1776 → 2448-dim null space; 58% of DOF set by seed/min-norm, not the metric — `a5e07d7`.
+   Localization: 85% of the slack in excised core/seal layers; qualitative/topological claims (winding degree,
+   not-a-horizon, gentle-φ) SURVIVE; the QUANTITATIVE core-dominated numbers (ρ_max, warp magnitudes, charge
+   profile) are SOFT → must re-grade on a determined solve.
+7. **GR-NUMERICS RESEARCH** (`a0f381a`, `GR_NUMERICS_RESEARCH_2026-06-29.md`, deep-research, 25 claims verified):
+   proven posing — impose the PDE at every interior node + sufficient endpoint BCs → determined square system;
+   origin regularity via parity (r^l), not excision.
+8. **|n|=1 / amplitude FORK RESOLVED** (`2151ccd`, `715c8e4`; `winding_amplitude_gauge_derivation_results.md`,
+   `matter_amplitude_native_MAP_2026-06-29.md`; verifiers `a803da6`/`a12f170`/`ac20415`): the matter field is the
+   verified RIGID UNIT field (amplitude is an exact gauge null mode; e^{2φ} gives it no dynamics; unit-ness is an
+   un-derived POSIT but the alternative — a linear-σ amplitude field — needs an imported Mexican-hat V(A) =
+   Category-B, and the amplitude is NOT φ). So UDT-as-derived gives the rigid intrinsically-singular core WITHOUT
+   import. The native exploration (Charles's anti-myopia push) VINDICATED the rigid path by derivation, not default.
+9. **D1 FIX DESIGNED + BCs DERIVED + VERIFIED** (`5fe1a44`, `898fbd4`; `D1_FIX_DESIGN.md`; verifiers
+   `a71a586`/`aecae70`/`aeb0ab5`): see the IMPLEMENTATION SPEC immediately below.
+
+### NEXT ACTION — IMPLEMENT THE D1 FIX (spec is `D1_FIX_DESIGN.md`, the "DERIVED BC TABLE" section)
+Re-pose `p1_residual_general_einstein.py::residual_vector_p1` as a DETERMINED square system:
+- **Interior:** impose the 11 coupled rows at ALL non-endpoint radial layers `[1:Nr-1]` (replace the `body=[3:Nr-3]`
+  excision in `full3d_spectral.py:129-130` usage — do NOT re-excise, that IS D1).
+- **Endpoint closures (DERIVED, verified — from the seal mirror-fold parity + core r^l regularity + topology):**
+  - a: seal a=0 (gauge), core ∂_r a=0. b: seal Neumann ∂_r(g_rr)=0, core b=−p (depth dial, **honor p — fixes D4 bug**).
+  - c,d: BOTH ends **Neumann on the METRIC COMPONENT** (∂_r g_θθ=0, ∂_r g_ψψ=0 — NOT the bare warp; Robin in warp vars).
+  - **e_rt, e_rp: Dirichlet =0 at BOTH ends** (one radial index → reflection-odd). **e_tp: Neumann at both ends**
+    (tangential-tangential → even). [This CORRECTS the old blanket choice — get the off-diagonal split right.]
+  - φ: seal **φ=0** (mirror-odd = domain definition, derived default — Charles confirmed-pending but proceed), core ∂_r φ=0.
+  - matter n1,n2,n3: 2× tangential Neumann (∂_r n̂_⊥=0) + |n|=1 algebraic at every node; **DROP the seal direction
+    value-pin** (degree topologically conserved under |n|=1 — the pin was redundant/over-imposing).
+- **Count:** interior 6×48×11 + endpoints 2×48×11 = **4224 == cols** at Nr=8 (Dirichlet↔Neumann = 1-for-1 row swap).
+- **DETERMINACY CHECK (the milestone):** rebuild the Jacobian (the `d1_determinacy_check.py` pattern) → expect
+  **rank==4224, null-dim 0** (vs current null-dim 2448). THIS is the pass/fail gate for the fix.
+- **RISK (flagged, must handle):** dropping the excision re-exposes Chebyshev endpoint conditioning on the steep
+  warps — use the research's parity/Galerkin basis + pole-stable hybrid; **re-validate conditioning** (flat-space
+  error-growth test), do NOT re-excise. **Owed + now load-bearing:** SH-exact d/dθ in the GRAVITY sector
+  (`full3d_grid_shexact.py` exists, not wired) — the off-diagonal rows are now active everywhere.
+- **THEN:** bounded re-solve (SLOW, hours — run MYSELF, single process, background-notify, NO nohup) → **RE-GRADE**
+  the soft quantities (ρ_max, warp magnitudes, charge E(<r), caveat #3 warp-comparison) vs the old min-norm values;
+  qualitative claims expected to survive, quantitative numbers may move. Blind-verify; cross-model when 2nd model lands.
+- **Residues for Charles (only non-derived choices):** φ(seal)=0 canon-confirm (derived default holds); rc finite-core
+  model = justified CHOSE. Everything else in the BC table is DERIVED + blind-verified.
+
+### Other fix-first items still open (after D1, before time-live) — from `SOLVER_AUDIT_2026-06-29.md`
+A2/D5 (tag the e^{2φ} weight + xi=kap provenance), G3 (stability notion on the 11-field object), §3-iii consolidation
+(retire proliferated solvers to one canonical), cheap bugs (C5 NameError, D4 seed). Then DYNAMIC (time-live native S²).
+
+## ============ (HISTORICAL below — superseded by the 2026-06-29 frontier above) ============
+
 ## CURRENT ACTIVITY (2026-06-25 EVENING): STATIC SOLVER now CODE-COMPLETE — next = kap8 characterization (both branches), then DYNAMIC.
 Charles's directive this session (BINDING, [[fix-all-flaws-before-dynamic]]): the goal is a WORKING solver to
 EXPLORE the solution space; **fix EVERY static-solver flaw (no pick-and-choose) before going dynamic — "no red
