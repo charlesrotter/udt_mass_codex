@@ -1,4 +1,4 @@
-# INDEX — Repo Map (refreshed 2026-06-27 after the static-solver completion)
+# INDEX — Repo Map (frontier refreshed 2026-06-29 — the D1 determinacy fix; see LIVE.md, authoritative)
 
 Navigable map of `udt_mass_codex`. **Structure (post-curation):**
 - **root** — the LIVE spine: ~111 markdown (orientation + canon/negatives + audit/verifier + active-arc
@@ -20,14 +20,15 @@ discipline skills → `HANDOFF.md` TOP (current activity) → `CANON.md` / `NEGA
 → this INDEX → the specific records. The file-immutability rule is **REPEALED** (Charles 2026-06-24): use git
 as git — edit in place, roll back via history.
 
-**CURRENT FRONTIER (2026-06-27, see LIVE.md):** the STATIC SOLVER is **CODE-COMPLETE** — derived operator +
-the 3 spatial off-diagonals live + native-S² matter wired (free core, imported S³ hedgehog retired);
-`pytest tests/` = 32 passed / 1 xfailed. The **kap8 characterization RAN (both branches, ~40.9 h)** but its
-result is **PARTIAL/CAVEATED** (record = `kap8_characterization_complete_solver_results.md`): the strong-field
-horizon hypothesis REMAINS OPEN (the "cured / frozen-DOF not horizon" headline was REJECTED by the blind
-verifier on confounded 2-grid data). NEXT (gated on Charles): three follow-ups (firm convergence at Nr=12;
-characterize the matter solution; isolate the off-diagonal effect), then DYNAMIC (time-live / non-stationary
-native S² — the φ-angular hunch's home). The old "p1 MIGRATION / COMPLETION PROGRAM / F0-F8 scoreboard / B1'
+**CURRENT FRONTIER (2026-06-29 — LIVE.md is authoritative, read it first):** the kap8 thread CLOSED (caveats #2
+winding-survived + #3 off-diagonals-excluded; the object is a core-concentrated S² winding DEFECT, NOT a horizon).
+A broad-sweep solver AUDIT (`SOLVER_AUDIT_2026-06-29.md`) found **D1 = the static solve is UNDERDETERMINED**
+(1776 eqns / 4224 unknowns; null-dim 2448). The **|n|=1 / amplitude FORK is RESOLVED** (matter = rigid unit field,
+native; the magnitude version is a gated Higgs-type import; amplitude ≠ φ). The **D1 fix is IMPLEMENTED + its
+determinacy blind-verified** (`residual_vector_p1(...,determined=True)`, null-dim 0), but **RE-SOLVE STALLED**
+(full-rank yet cond≈1e11 + BC-stiffness) so the re-grade is BLOCKED. **NEXT = the 3-move conditioning phase**
+(warm-start+fixed-X / parity-Galerkin basis+equilibration / re-examine the stiff core Robin BC; spec =
+`D1_FIX_DESIGN.md`), then re-grade; then the other fix-first items, then DYNAMIC (time-live native S²). The old "p1 MIGRATION / COMPLETION PROGRAM / F0-F8 scoreboard / B1'
 off-round" frame is **SUPERSEDED** (trackers in `archive/`).
 
 ---
