@@ -34,9 +34,14 @@ HANDOFF.md TOP → INDEX.md (repo map).
   background-poll a solve.
 
 ## ============ FRONTIER (2026-06-29) — READ THIS FIRST; supersedes everything below ============
-**One-line state:** the static solver has a CONFIRMED determinacy bug (D1); its fix is FULLY DESIGNED + the
-boundary conditions DERIVED + blind-verified; **NEXT ACTION = IMPLEMENT the D1 fix, then re-grade.** The matter-
-model fork that was blocking the fix is RESOLVED (rigid unit field is native; amplitude = a gated import).
+**One-line state:** the D1 determinacy fix is IMPLEMENTED (`residual_vector_p1(...,determined=True)`) and the
+DETERMINACY IS FIXED — rank==4224==cols, **null-dim 0** at two generic points (vs old null-dim 2448), pending an
+independent blind-verify (`bdcc705`, `d1_determined_posing_check.py`). The flagged conditioning risk DID appear:
+full-rank but ill-conditioned (smin≈6e-5, cond≈1e11 — Chebyshev endpoint amplification). **NEXT = blind-verify the
+determinacy; thread `determined=True` through newton/continuation; BOUNDED re-solve (tests whether ~1e11 is
+workable or needs the parity/Galerkin basis); then RE-GRADE the soft quantities.** Matter-model fork RESOLVED
+(rigid unit field native; amplitude a gated import). To make `determined=True` the default once the re-solve+
+re-grade verify, flip the default + update tests.
 
 **⚠ GIT PUSH IS DOWN (auth lapsed ~2026-06-29).** Local commits AHEAD of origin: `5fe1a44`, `898fbd4` (+ any from
 the implementation). Last pushed = `715c8e4`. Re-auth (`gh auth login` / refresh token) then `git push`. Nothing lost.
