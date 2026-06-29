@@ -131,3 +131,30 @@ symmetry-broken-seed cross-check):
 - **NEXT:** (1) blind-verify the determinacy (independent rank check); (2) thread `determined=True` through
   newton/continuation, attempt a BOUNDED re-solve (tests whether ~1e11 conditioning is workable or needs the
   basis); (3) re-grade the soft quantities on the determined field; (4) cross-model verify.
+
+---
+
+## RE-SOLVE ATTEMPT 1 (2026-06-29) — determined posing is full-rank but does NOT yet SOLVE (conditioning work needed)
+Cold determined continuation (`d1_resolve_and_regrade.py`) STALLED at the EASIEST end: Phi stuck ~8e-3–9e-2 at
+X≈−1 (the non-stiff X), with the adaptive X-continuation subdividing uselessly (X=−1.27→−1.004...). DIAGNOSIS:
+the stall is **BC-driven, not X-stiffness** — the round seed is FAR from the new derived BCs (e.g. the seed has
+∂_r(g_θθ)=2r≠0, but the BC demands ∂_r(g_θθ)=0 → at the finite core c'(rc)=−1/rc=−10, a stiff Robin condition),
+and with cond≈1e11 the plain LM (maxit=12/step) cannot floor it. The X-continuation MIS-reads the BC-stall as
+X-stiffness and subdivides → death spiral. So: **the determined posing is CORRECT (full-rank, blind-verified),
+but the plain LM + X-continuation is the WRONG machinery for it.** This is precisely the design's flagged
+"conditioning is the real work, not a flag-flip."
+
+**NEXT PHASE — make the determined posing SOLVE (substantial; deserves fresh context):**
+1. **Better initial guess / solver loop:** the stall is BC-satisfaction at fixed X, not X-stiffness — so warm-
+   start from the OLD saved field (interior closer) and iterate MANY newton steps at fixed X to satisfy the new
+   BCs, rather than an X-continuation from the round seed. Or relax the BCs gradually (BC-continuation).
+2. **Conditioning (cond≈1e11):** the research's **parity/Galerkin basis-recombination** (bakes regularity into
+   the basis → avoids the endpoint amplification) + Ruiz equilibration / a preconditioner. The design named this.
+3. **Re-examine the core Robin BC:** ∂_r(g_θθ)=0 at the FINITE cutoff core gives c'(rc)=−1/rc=−10 (very stiff) —
+   is the metric-component Neumann the right regularity at the rc CUTOFF (vs r=0)? The "per-component parity form
+   owed" caveat (verifier) lands here. A gentler/correct core regularity form may remove much of the stiffness.
+4. Only once it FLOORS: re-grade the soft quantities + blind/cross-model verify.
+
+**STATUS:** D1 determinacy FIXED + blind-verified (the posing is determined). The determined posing does NOT yet
+solve (conditioning/BC-stiffness) — the re-grade is BLOCKED on the conditioning machinery above. `determined=True`
+stays NON-default until it solves. Old underdetermined path unchanged (pytest 32/1xfail).
