@@ -122,3 +122,21 @@ Re-graded against the ten criteria (live solver = `p1_residual_general_einstein.
 ---
 
 **VERDICT: FIX-FIRST before the time-live build.** The physics core is trustworthy and no mechanism/GR-form is smuggled. Close this bounded list first: (1) **D1** — confirm the static solution is determined (rank/SVD at convergence) and re-grade the winding result on a resolved grid; (2) **B1/F-4/G8** — run the gravity SH-exact d/dθ verify; (3) **A2 + D5** — resolve/tag the un-derived matter weight and the xi=kap provenance at the banking surface; (4) **G3** — establish a static stability notion; (5) **§3-iii consolidation** — retire the superseded diagonal/prototype solvers to one canonical solver+harness so time-live does not branch off a proliferated base. The two code bugs (C5, D4) and the doc-staleness (A1, A3, INDEX, B2/B4/E4) are cheap and should go with the consolidation pass. The dynamical/stability/topology *gaps* (G1, G4-G6) are the build itself or stamped scope, not blockers. Do not begin time-live on top of an undetermined, unconverged, asymmetric-θ static base.
+
+---
+
+## D1 RESOLUTION (2026-06-29, blind-verified `a5e07d7` + localization)
+
+**D1 is CONFIRMED.** Independent recompute: residual = **1776 equations / 4224 unknowns** at Nr=8; Jacobian full
+ROW rank 1776 (all rows real — min row-norm 0.85, none padded/dependent; smallest SV 0.029) → **null space = 2448**.
+Row accounting verified: 1152 body (12 blocks × 96 body pts on `[3:Nr-3]`) + 624 BC = 1776. Φ=9.13e-22 does NOT pin
+the solution; 58% of DOF are seed/min-norm-set. NOT Nr-fixable (rows<cols to Nr≈59) — a formulation flaw.
+
+**Null-space localization (`d1_nullspace_localization.py`):** 85% of the 2448 unconstrained directions live in the
+EXCISED core/seal layers; BODY layers carry only 14.5%; φ is least-affected (3% of null weight); warps ~37%, matter
+~33%. **Impact MIXED:** qualitative/topological banked claims SURVIVE (winding DEGREE = topological; not-a-horizon =
+gross features; gentle-φ = constrained subspace); quantitative core-dominated numbers are SOFT (ρ_max, warp
+magnitudes, charge profile) and need re-grade on a determined formulation; caveat #3 warp-comparison wants a re-look.
+
+**Action:** fix the formulation (impose interior PDE on all non-endpoint layers / complete BCs so rows≈cols, a
+determined well-posed BVP), then re-grade the quantitative results. Top fix-first item, before time-live.

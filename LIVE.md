@@ -100,13 +100,20 @@ NOT real physics. **Genuinely soft = only the core-dominated CHARGE profile (rc-
 Verdict: **the physics core is TRUSTWORTHY** (the live operator is a genuine derived scalar-tensor extension — NO
 smuggled GR-form / mechanism; native-S² matter EL correct; off-diagonals correct on the LIVE path; gates physics-
 blind), **but FIX-FIRST a bounded list before extending to time-live** (not a hard block). Bounded list:
-- **D1 (HIGH, top priority — and itself UNVERIFIED, an incompleteness observation): the static system may be
-  UNDERDETERMINED at the grids used** (body mask `[3:Nr-3]` + most fields one BC → rows<cols for Nr<59; at Nr=8
-  only ~2 interior layers carry equations; damped-LM lstsq makes the rank-deficient step solvable). **If true,
-  residual-smallness is partly seed+Levenberg-regularized, not pinned by the metric — which would REOPEN the
-  caveat #2 winding-survival result AND the native characterization (both rode Nr=8).** → **FIRST ACTION: cheap
-  determinacy check** (Jacobian SVD / numerical rank at the converged Nr=8 point). Full-rank ⇒ D1 dismissed,
-  session results stand; rank-deficient ⇒ re-grade on a resolved grid. Do THIS before anything else.
+- **D1 (HIGH) — CONFIRMED & BLIND-VERIFIED 2026-06-29 (agent `a5e07d7`): the static solve IS UNDERDETERMINED.**
+  At Nr=8 the residual is **1776 equations for 4224 unknowns** (body mask `[3:Nr-3]` imposes the interior PDE on
+  only 2 of 8 radial layers; most fields carry a single endpoint BC). Jacobian = full ROW rank 1776 (all rows real,
+  smallest SV 0.029) → a **2448-dim null space**: 58% of the DOF are NOT pinned by the equations, fixed only by the
+  seed + damped-LM min-norm step. So Φ=9e-22 does NOT pin the solution. NOT Nr-fixable (rows<cols persists to Nr≈59)
+  — it's a FORMULATION flaw. **IMPACT (localization `d1_nullspace_localization.py`): MIXED.** 85% of the slack lives
+  in the EXCISED core/seal layers (body carries only 14.5%); φ is the LEAST-affected field (3% of null weight). So
+  the **QUALITATIVE/TOPOLOGICAL banked claims SURVIVE**: caveat #2's winding DEGREE (topologically protected), not-a-
+  horizon (gross lapse/2m-R features), gentle-φ (φ in the constrained subspace). The **QUANTITATIVE core-dominated
+  numbers are SOFT** (ρ_max at core, warp magnitudes near boundaries, charge profile — partly seed-determined) → need
+  re-grade on a DETERMINED formulation. Caveat #3's warp-comparison also wants a re-look (warps carry ~37% null weight).
+  **→ NEXT: FIX THE FORMULATION (make it determined — impose the PDE on all interior layers / complete the BCs so
+  rows≈cols), THEN re-grade the quantitative results.** This is the top fix-first item, before time-live. Scripts:
+  `d1_determinacy_check.py`, `d1_nullspace_localization.py`.
 - **B1/F-4/G8 (med):** the owed gravity-sector SH-exact d/dθ verify (matter uses SH-exact; gravity uses grid
   Legendre — agree only at axisymmetry; off-diagonal/non-round/dynamic would mix exact-RHS with inexact-LHS).
 - **A2+D5 (med):** un-derived e^{2φ} field-matter weight is LIVE (tagged CHOSE in 3 places, not hidden) + live
