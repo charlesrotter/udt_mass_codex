@@ -111,9 +111,25 @@ blind), **but FIX-FIRST a bounded list before extending to time-live** (not a ha
   horizon (gross lapse/2m-R features), gentle-φ (φ in the constrained subspace). The **QUANTITATIVE core-dominated
   numbers are SOFT** (ρ_max at core, warp magnitudes near boundaries, charge profile — partly seed-determined) → need
   re-grade on a DETERMINED formulation. Caveat #3's warp-comparison also wants a re-look (warps carry ~37% null weight).
-  **→ NEXT: FIX THE FORMULATION (make it determined — impose the PDE on all interior layers / complete the BCs so
-  rows≈cols), THEN re-grade the quantitative results.** This is the top fix-first item, before time-live. Scripts:
-  `d1_determinacy_check.py`, `d1_nullspace_localization.py`.
+  **→ FIX THE FORMULATION (make it determined — impose the PDE on all interior layers / complete the BCs so
+  rows≈cols), THEN re-grade the quantitative results.** Top fix-first item, before time-live. Scripts:
+  `d1_determinacy_check.py`, `d1_nullspace_localization.py`. GR-corpus methods mined (proven posing): `GR_NUMERICS_RESEARCH_2026-06-29.md`.
+- **The |n|=1 CORE FORK — RESOLVED 2026-06-29 (derivation + blind-verified CONFIRMED, agents `a803da6`/`a12f170`;
+  record `winding_amplitude_gauge_derivation_results.md`).** The D1 fix needed a decision on the defect core
+  (global-monopole-style vanishing-amplitude profile vs rigid |n|=1). Derived natively (let the action decide):
+  **LAYER-A (airtight, sympy):** the matter field is `nhat=n/|n|`; the action depends ONLY on the direction, so
+  the amplitude `|n|` is an EXACT gauge null direction with NO equation of motion, and **e^{2φ} gives it no
+  dynamics** (φ-only coefficient, never couples to |n|; the `|n|=1` row is a pure gauge-fix). So a native
+  amplitude-profile core regularization does NOT exist — the degree-1 S² core is a genuine TOPOLOGICAL
+  singularity (Barriola–Vilenkin: energy can be made finite, but `nhat` cannot be made continuous at r=0). A
+  profile would require IMPORTING a linear-σ/Mexican-hat V(|n|) — Category-B SM-Higgs-type import, forbidden by
+  default. → **D1 fix takes the RIGID / intrinsic-singular-core path: determined square system + parity-
+  regularity on the DIRECTION field + finite-core (rc) inner treatment.** Proceeds WITHOUT needing Charles to
+  decide layer-B. **LAYER-B (open, flagged for Charles):** the unit-field posit is itself NOT derived — F2 labels
+  it an upstream POSIT, and (honest correction) it is mis-attributed to canon C-2026-06-14-1 (whose actual
+  proposition is B=1/A) — there is NO canon entry requiring unit matter. So "is UDT matter nonlinear-σ (unit,
+  rigid core) or linear-σ (amplitude DOF, regularizable core)?" is a genuine **canon-level CHOSE** for Charles
+  (purity default disfavors the linear-σ import). Premise-ledger correction owed: unit-ness = FREE/CHOSE, not DERIVED.
 - **B1/F-4/G8 (med):** the owed gravity-sector SH-exact d/dθ verify (matter uses SH-exact; gravity uses grid
   Legendre — agree only at axisymmetry; off-diagonal/non-round/dynamic would mix exact-RHS with inexact-LHS).
 - **A2+D5 (med):** un-derived e^{2φ} field-matter weight is LIVE (tagged CHOSE in 3 places, not hidden) + live
