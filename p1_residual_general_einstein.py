@@ -173,7 +173,8 @@ def _el_matter_s2_weighted(G, a, b, c, d, phi, n_raw, xi, kap, kap8=1.0,
     return kap8 * gradN / torch.clamp(fw, min=1e-30)[..., None]    # (...,3) tangential EOM density
 
 
-def residual_vector_p1(u, G, p, kap8, m=1, wbc=30.0, X=-1.0, xi=1.0, kap=1.0, branch="G"):
+def residual_vector_p1(u, G, p, kap8, m=1, wbc=30.0, X=-1.0, xi=1.0, kap=1.0, branch="G",
+                       determined=False):
     """NATIVE-S^2 matter: the 3-component unit-3-vector carrier nhat=n/|n| with the GRID-EXACT dn.
     The winding CHARGE is set by the SEED's homotopy class (degree-1 = n=x/r) and CONSERVED by
     continuous relaxation -- there is NO Theta-core pin; the matter CORE IS FREE (the imported S^3
@@ -193,6 +194,44 @@ def residual_vector_p1(u, G, p, kap8, m=1, wbc=30.0, X=-1.0, xi=1.0, kap=1.0, br
     sqrtg = torch.sqrt(torch.clamp(-det4x4(g), min=1e-30))
     W = torch.sqrt(sqrtg * G.wvol_coord)
     W = W / W[G.body].mean()
+    if determined:
+        # ===== D1 DETERMINED POSING (2026-06-29; derived+verified BCs, D1_FIX_DESIGN.md DERIVED BC TABLE) =====
+        # Impose the 11 coupled rows at ALL non-endpoint radial layers [1:Nr-1] (NOT the [3:Nr-3] excision
+        # that left interior layers floating -> the D1 underdetermination), + the DERIVED endpoint closures.
+        Nr = G.Nr
+        intr = slice(1, Nr - 1)
+        core, seal = 0, Nr - 1
+        rows = []
+        for (mm, nn) in [(T, T), (R, R), (TH, TH), (PS, PS), (R, TH), (R, PS), (TH, PS)]:
+            rows.append((W * E[..., mm, nn])[intr])          # 7 Einstein at interior layers
+        rows.append((W * elphi)[intr])                       # phi-EL
+        for ai in range(3):                                  # 3 native matter EOM (2 tangential + null radial)
+            rows.append((W * elN[..., ai])[intr])
+        rows.append(wbc * ((n_raw ** 2).sum(-1) - 1.0))      # |n|=1 algebraic at EVERY node (interior+endpoints)
+        # ---- DERIVED endpoint closures (seal mirror-fold parity + core r^l regularity + topology) ----
+        # metric-COMPONENT Neumann (NOT the bare warp: g carries the r^2/sin^2 geometric factors) for the
+        # reflection-EVEN slots; Dirichlet=0 for the reflection-ODD (one-radial-index) off-diagonals.
+        drg = lambda mm, nn: G.d_r(g[..., mm, nn])
+        dr_a, dr_phi = G.d_r(a), G.d_r(phi)
+        dn_r = dn[..., R, :]                                 # d_r nhat (3-vec; tangential -> 2 independent)
+        # a: core d_r a=0 (regularity), seal a=0 (gauge)
+        rows += [wbc * dr_a[core].reshape(-1), wbc * a[seal].reshape(-1)]
+        # b: core b=-p (depth dial; honor p -> fixes D4), seal Neumann on g_rr
+        rows += [wbc * (b[core].reshape(-1) + p), wbc * drg(R, R)[seal].reshape(-1)]
+        # c,d: BOTH ends Neumann on the metric COMPONENT (even, tangential-tangential)
+        rows += [wbc * drg(TH, TH)[core].reshape(-1), wbc * drg(TH, TH)[seal].reshape(-1)]
+        rows += [wbc * drg(PS, PS)[core].reshape(-1), wbc * drg(PS, PS)[seal].reshape(-1)]
+        # phi: core d_r phi=0 (regularity), seal phi=0 (mirror-odd = domain definition, derived default)
+        rows += [wbc * dr_phi[core].reshape(-1), wbc * phi[seal].reshape(-1)]
+        # e_rt, e_rp: Dirichlet=0 BOTH ends (one radial index -> reflection-odd). e_tp: Neumann on g_thps (even)
+        rows += [wbc * e_rt[core].reshape(-1), wbc * e_rt[seal].reshape(-1)]
+        rows += [wbc * e_rp[core].reshape(-1), wbc * e_rp[seal].reshape(-1)]
+        rows += [wbc * drg(TH, PS)[core].reshape(-1), wbc * drg(TH, PS)[seal].reshape(-1)]
+        # matter: 2x tangential Neumann (d_r nhat, 3-comp -> 2 indep) at BOTH ends; |n|=1 already all-nodes.
+        # NO seal direction value-pin (degree topologically conserved under |n|=1 -> pin redundant/over-imposing).
+        for ai in range(3):
+            rows += [wbc * dn_r[core, :, :, ai].reshape(-1), wbc * dn_r[seal, :, :, ai].reshape(-1)]
+        return torch.cat([r.reshape(-1) for r in rows])
     bod = G.body
     rows = []
     # FOUR diagonal + THREE off-diagonal Einstein rows (the off-diagonal rows are the field

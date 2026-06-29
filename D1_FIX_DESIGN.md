@@ -112,3 +112,22 @@ self-check still owed (cheap) post-implementation.
 mirror-odd Dirichlet branch; the competing Neumann reading comes from the (vacuous-here) time involution. Proceed
 with φ=0 as the derived default; flag for Charles's canon confirmation (he can overrule). (5b) the rc finite-core
 model + p FREE = justified CHOSE (core derived-singular). EVERYTHING ELSE IS DERIVED.
+
+---
+
+## IMPLEMENTED + DETERMINACY VERIFIED (2026-06-29)
+The determined posing is implemented as `residual_vector_p1(..., determined=True)` (a branch; the old
+`determined=False` path is byte-unchanged, pytest 32/1xfail intact). Determinacy check
+(`d1_determined_posing_check.py`, Jacobian SVD at a GENERIC point — the saved converged field — + a
+symmetry-broken-seed cross-check):
+- **rank == 4224 == cols, NULL-DIM 0** (vs the old null-dim 2448). The D1 underdetermination is FIXED.
+  (Seed-only linearization gives a spurious small-SV band from the round symmetry — must check at a generic
+  point; both the converged field and seed+noise give null-dim 0.)
+- **Conditioning (the predicted risk): smin≈6e-5, smax≈7e6, condition ≈1e11** — full-rank but ILL-CONDITIONED
+  (the Chebyshev endpoint amplification from imposing the PDE adjacent to the endpoints). NOT a determinacy
+  failure; it is the flagged "real work." Float64 has ~16 digits so ~1e11 is marginally solvable with LM damping,
+  but a clean robust re-solve likely needs the parity/Galerkin basis (research recipe) to improve conditioning.
+- **STATUS:** determinacy FIXED (banked-pending-blind-verify); conditioning open; re-solve + re-grade next.
+- **NEXT:** (1) blind-verify the determinacy (independent rank check); (2) thread `determined=True` through
+  newton/continuation, attempt a BOUNDED re-solve (tests whether ~1e11 conditioning is workable or needs the
+  basis); (3) re-grade the soft quantities on the determined field; (4) cross-model verify.
