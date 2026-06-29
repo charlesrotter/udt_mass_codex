@@ -263,13 +263,13 @@ def residual_vector_p1(u, G, p, kap8, m=1, wbc=30.0, X=-1.0, xi=1.0, kap=1.0, br
 # linalg.inv/det/solve inside).
 # ===========================================================================
 def jacobian_p1(u, G, p, kap8, m=1, wbc=30.0,
-                X=-1.0, xi=1.0, kap=1.0, branch="G", chunk_size=128):
+                X=-1.0, xi=1.0, kap=1.0, branch="G", chunk_size=128, determined=False):
     from torch.func import jacrev
     f = lambda uu: residual_vector_p1(uu, G, p, kap8, m=m, wbc=wbc,
-                                      X=X, xi=xi, kap=kap, branch=branch)
+                                      X=X, xi=xi, kap=kap, branch=branch, determined=determined)
     J = jacrev(f, chunk_size=chunk_size)(u)
     F = residual_vector_p1(u, G, p, kap8, m=m, wbc=wbc, X=X, xi=xi, kap=kap,
-                           branch=branch).detach()
+                           branch=branch, determined=determined).detach()
     return J.detach(), F
 
 
@@ -280,11 +280,11 @@ def jacobian_p1(u, G, p, kap8, m=1, wbc=30.0,
 def newton_solve_p1(u, G, p, kap8, m=1, maxit=40, lam0=1e-4, tol=1e-11,
                     verbose=False, wbc=30.0,
                     X=-1.0, xi=1.0, kap=1.0, branch="G",
-                    chunk_size=128, lam_min=1e-14):
+                    chunk_size=128, lam_min=1e-14, determined=False):
     import numpy as np
     u = u.detach().clone()
     lam = lam0
-    F = residual_vector_p1(u, G, p, kap8, m=m, wbc=wbc, X=X, xi=xi, kap=kap, branch=branch)
+    F = residual_vector_p1(u, G, p, kap8, m=m, wbc=wbc, X=X, xi=xi, kap=kap, branch=branch, determined=determined)
     Phi = float((F * F).sum()); hist = [Phi]
     nU = u.numel()
     I = torch.eye(nU, device=u.device)
@@ -293,7 +293,7 @@ def newton_solve_p1(u, G, p, kap8, m=1, maxit=40, lam0=1e-4, tol=1e-11,
             break
         J, F = jacobian_p1(u, G, p, kap8, m=m, wbc=wbc,
                            X=X, xi=xi, kap=kap, branch=branch,
-                           chunk_size=chunk_size)
+                           chunk_size=chunk_size, determined=determined)
         accepted = False
         for _try in range(12):
             try:
@@ -304,7 +304,7 @@ def newton_solve_p1(u, G, p, kap8, m=1, maxit=40, lam0=1e-4, tol=1e-11,
                 lam *= 4.0; continue
             un = u + du
             Pn = float((residual_vector_p1(un, G, p, kap8, m=m, wbc=wbc,
-                                           X=X, xi=xi, kap=kap, branch=branch) ** 2).sum())
+                                           X=X, xi=xi, kap=kap, branch=branch, determined=determined) ** 2).sum())
             if np.isfinite(Pn) and Pn < Phi:
                 u = un; Phi = Pn; lam = max(lam * 0.25, lam_min); accepted = True; break
             lam *= 4.0
@@ -327,7 +327,7 @@ def newton_solve_p1(u, G, p, kap8, m=1, maxit=40, lam0=1e-4, tol=1e-11,
 # ===========================================================================
 def continuation_solve_p1(u0, G, p, kap8, X_target=-2.0e5, X_start=-1.0, n_steps=10,
                           m=1, maxit=12, xi=1.0, kap=1.0,
-                          branch="G", step_tol=1e-8, verbose=False):
+                          branch="G", step_tol=1e-8, verbose=False, determined=False):
     """ADAPTIVE geometric X-ladder: warm-start each step; if a step fails to floor
     below step_tol, SUBDIVIDE (halve the X-jump in log space) and retry, so a stalled
     step cannot cascade.  Finer ladder + more iters than the first cut (the larger
@@ -339,7 +339,7 @@ def continuation_solve_p1(u0, G, p, kap8, X_target=-2.0e5, X_start=-1.0, n_steps
     while i < len(logs):
         X = logs[i]
         u_try, h = newton_solve_p1(u, G, p, kap8, m=m, maxit=maxit, X=float(X),
-                                   xi=xi, kap=kap, branch=branch, verbose=False)
+                                   xi=xi, kap=kap, branch=branch, verbose=False, determined=determined)
         if h[-1] > step_tol and Xprev is not None and abs(X - Xprev) > 1e-9 * abs(X):
             # stalled -> insert a midpoint (log) and retry from the last good u
             Xmid = -math.exp(0.5 * (math.log(abs(Xprev)) + math.log(abs(X))))
