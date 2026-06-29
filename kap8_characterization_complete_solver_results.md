@@ -56,21 +56,36 @@ both are resolution-mild, not runaway.
    0.977, B 0.943), calibrate cleanly (seed→1.0/0.939, vacuum→0/0), and the diagnostic is NOT rigged
    (a forced solved→const unwinding collapses Q smoothly to exactly 0). Re-evaluated residual on the
    loaded `u`: Φ=9.13e-22 (genuinely converged). VERDICT: could not break it — winding survived.
-3. **The "cure" comparison is CONFOUNDED.** Vs the old divergent run, TWO things changed at once:
-   off-diagonals were completed AND the matter was swapped S³→native-S². So these solves do **NOT
-   isolate** "the frozen off-diagonal DOF" as the cause; attributing the milder trend specifically to
-   off-diagonals is unsupported here.
+3. ~~**The "cure" comparison is CONFOUNDED.**~~ **RESOLVED 2026-06-29 (follow-up #3, off-diagonals-OFF
+   control, `caveat3_offdiag_off_control.py`; BLIND-VERIFIED PARTIALLY-CONFIRMED, agent `ae5a16bb5c0247cdd`)
+   — the off-diagonal completion is EXCLUDED as the warp-tamer.** Control = the SAME native-S²/Branch-G/kap8=1
+   system with e_rt=e_rp=e_tp FROZEN to zero (masked Newton). LOAD-BEARING result (same-grid Nr=8, both
+   fields saved + reverified; off-ON is fully floored Φ=9e-22): freezing the off-diagonals moves the
+   diagonal warp only **1.0220→1.0293 (+0.7%)**. So completing the off-diagonals does NOT change the warp
+   magnitude → it is NOT the cause of the milder-than-×2.12 trend. Three independent Nr=8 warps agree
+   (off-ON 1.022, warm-frozen 1.021, cold-frozen 1.029). PRECISE (verifier's correction): off-diagonals
+   don't change the warp MAGNITUDE, but they ARE required for CONSISTENCY (e_rt=0.11 floors the rth
+   Einstein row; freezing leaves rth at 3.5e-3 / 0.39) — "irrelevant to the warp," NOT blanket-irrelevant.
+   SOFT leg (not load-bearing): the cold off-OFF TREND ×1.19 (Nr8 1.029→Nr10 1.221) vs off-ON ×1.16, BUT
+   the off-OFF Nr=10 point is under-floored (Φ=4.54, diagonal rows O(0.5), winding degraded Q_min=0.84) and
+   the off-ON Nr=10=1.181 anchor is un-reverifiable (no saved field). ATTRIBUTION NARROWED: off-diagonals
+   excluded; the milder trend is the **S³→native-S² matter swap and/or the SH-exact grid fix**, which remain
+   MUTUALLY CONFOUNDED (no S³ control re-run). So caveat #3's specific question is answered; one residual
+   confound (matter-vs-grid) is noted but was not part of #3's ask.
 4. **The strong-field HORIZON hypothesis REMAINS OPEN.** The standing hypothesis (kap8=1 divergence =
    a real forming horizon / supermassive global monopole, to be resolved by GR-corpus analysis) is NOT
    retired by this run. Declaring "cured by completeness" on confounded 2-grid data would be the
    "impose the expected answer / demand smoothness" drift the solution-space gate exists to stop.
 
-## Follow-ups to upgrade (none run yet)
-- **3rd grid Nr=12** (both branches) — plateau vs creep. (Costly: Branch-P Nr=10 was ~20 h; Nr=12 is days.)
-- **Save + inspect the solved fields** — winding degree, |n|, matter T^μ_ν max — to establish the
-  solution is a non-trivial S² object, not unwound vacuum. (Re-solve Nr=8 ~2 h, saving u.)
-- **Off-diagonals-OFF control on native-S² matter** — to actually isolate the off-diagonal effect from
-  the S³→S² matter swap (resolves caveat 3).
+## Follow-ups to upgrade
+- ✅ **DONE (2026-06-28) — Save + inspect the solved fields** (caveat #2): winding SURVIVED, blind-verified.
+- ✅ **DONE (2026-06-29) — Off-diagonals-OFF control** (caveat #3): off-diagonals EXCLUDED as the warp-tamer,
+  blind-verified PARTIALLY-CONFIRMED. Scripts: `caveat3_offdiag_off_control.py`; saved fields
+  `control_offdiagOFF_cold_nr{8,10}_G_kap8_1.pt`; trace `control_offdiagOFF_cold.log`.
+- ⏳ **OPEN — 3rd grid Nr=12** (caveat #1): plateau vs creep for the native-S² warp-trend. (Costly: Branch-P
+  Nr=10 was ~20 h; Nr=12 is days.) This is now THE live question: with off-diagonals excluded, is the
+  native-S² ×1.16 trend a converged plateau or a slow approach to a horizon? The HORIZON hypothesis is alive.
+- (optional firming) the off-OFF Nr=10 control point is under-floored (soft); the conclusion does not need it.
 
 ## Verifier (blind, adversarial — verifier-before-record)
 Agent `a7cd2e2e403170dfb`, 2026-06-27. Verdict: **NOT-CLEAN as first framed** — A (solver correctness)
@@ -79,3 +94,22 @@ grid-exact); **B CONCERN** (2-grid insufficient for "converged"); **C FAIL** (ma
 possibly-trivial/unwound solution); **D FAIL** (confounded baseline; horizon hypothesis pre-empted). The
 narrow statement above is the verifier's licensed wording. The strong "divergence cured / it was the
 frozen off-diagonal DOF, not a horizon" headline is REJECTED and NOT banked.
+
+### Follow-up verifiers (2026-06-28/29)
+- **Caveat #2** (winding survival): agent `a63753fff5ff008b5` — CONFIRMED (see caveat-2 block above).
+- **Caveat #3** (off-diagonals-OFF control): agent `ae5a16bb5c0247cdd`, 2026-06-29, zero-context adversarial,
+  saved-field + log only, no re-solve. Verdict **PARTIALLY-CONFIRMED**: all three warps reproduce to 4 sig
+  figs (off-ON 1.0220 / off-OFF Nr8 1.0293 / off-OFF Nr10 1.2214); freeze exact (e_*=0.000); same winding
+  class in all three; the fully-floored off-ON-vs-frozen Nr=8 same-grid pair (+0.7%) is the solid leg. Limits
+  it imposed (now reflected above): "irrelevant" → "irrelevant to the warp MAGNITUDE" (off-diagonals required
+  for rth consistency); the Nr=10 trend leg is soft (under-floored off-OFF point + un-reverifiable off-ON
+  anchor). Net: off-diagonal completion EXCLUDED as the warp-tamer; matter-vs-grid attribution left open.
+
+## STATUS after caveats #2 + #3 (the kap8 picture now)
+The original "divergence CURED — it was the frozen off-diagonal DOF, not a horizon" headline is DEAD on two
+counts: (#2) the native-S² matter is real and survived (the warp is matter-sourced, not an empty-cell artifact);
+(#3) the off-diagonal completion is NOT what tamed the trend. What stands: the native-S² run shows a MILD warp-
+trend (×1.16 at Nr=8→10) vs the old S³/diagonal ×2.12, and that milder behavior comes from the matter-swap
+and/or the grid-fix, NOT the off-diagonals. The REMAINING question is caveat #1 (Nr=12): is the native-S² ×1.16
+a converged plateau or slow creep toward a horizon? The strong-field HORIZON hypothesis is ALIVE and is now the
+live question. No "cured" conclusion is banked.

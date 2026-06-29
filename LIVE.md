@@ -65,14 +65,22 @@ by TWO methods, per-shell degree Q≈1 (interior mean 0.977), |n| in [0.987,1.01
 that vanishes EXACTLY when the winding is forced constant, residual Phi=9.13e-22 (converged); a forced-unwind
 fool-test collapses Q smoothly to 0 (diagnostic not rigged). PRECISE: real winding matter IS present, but
 *part* of the warp stays BC/gauge-driven (NOT "the entire warp is matter"). SCOPE: Nr=8 / Branch G only
-(Branch-P + finer grids unchecked for degree leakage); (3) the "cure" comparison is CONFOUNDED
-(off-diagonals AND S³→S² matter both changed) → needs an **off-diagonals-OFF control on native-S² matter** to
-isolate. **The strong-field HORIZON hypothesis REMAINS OPEN** (do NOT retire it — declaring "cured" on confounded
-2-grid data is the impose-the-answer drift the gate exists to stop). `test_no_habit_pins` NOT flipped.
+(Branch-P + finer grids unchecked for degree leakage); **(3) CLOSED 2026-06-29, blind-verified PARTIALLY-
+CONFIRMED (agent `ae5a16bb`): the off-diagonal completion is EXCLUDED as the warp-tamer.** Off-diagonals-OFF
+control (`caveat3_offdiag_off_control.py`, e_*=0 frozen): same-grid Nr=8 (off-ON fully floored Φ=9e-22 vs
+frozen) moves the diagonal warp only 1.022→1.029 (+0.7%); three independent Nr=8 warps agree (1.022/1.021/
+1.029). PRECISE (verifier): off-diagonals don't change the warp MAGNITUDE but ARE required for CONSISTENCY
+(they floor the rth row) — not blanket-irrelevant. SOFT leg: cold off-OFF trend ×1.19 vs off-ON ×1.16, but
+the off-OFF Nr=10 point is under-floored (Φ=4.54) and off-ON Nr=10 un-reverifiable. ATTRIBUTION: the milder-
+than-×2.12 trend is the **S³→native-S² matter swap and/or the SH-exact grid fix** (mutually confounded, no S³
+control re-run), NOT the off-diagonals. **The strong-field HORIZON hypothesis REMAINS OPEN** (do NOT retire it
+— declaring "cured" on 2-grid data is the impose-the-answer drift the gate exists to stop). `test_no_habit_pins`
+NOT flipped.
 
-**NEXT (gated on Charles): the TWO remaining follow-ups** (firm convergence Nr=12; isolate the off-diagonal
-effect via an off-diagonals-OFF control) BEFORE any "cured" conclusion or moving on. Then dynamic (time-live / non-stationary
-native S² — the φ-angular hunch's home). Still owed: check whether the GRAVITY sector also needs the SH-exact
+**NEXT (gated on Charles): caveat #1 is the LAST follow-up + now the LIVE question** — Nr=12 (native-S², both
+branches) to tell plateau from slow-creep. With #2+#3 closed, the "off-diagonal cure" story is DEAD; the open
+question is whether the native-S² ×1.16 warp-trend CONVERGES or creeps toward a HORIZON (hypothesis alive).
+THEN dynamic (time-live / non-stationary native S² — the φ-angular hunch's home). Still owed: check whether the GRAVITY sector also needs the SH-exact
 d/dtheta (verify, don't assume). Solves are SLOW (Branch-P Nr=10 ~20 h) — run MYSELF, bounded, single process,
 background-notify, NO nohup; AVOID `| grep` (block-buffers → no live progress; write straight to file).
 archive/MIGRATION.md M4/M5/M6 = SUBSUMED (historical).
