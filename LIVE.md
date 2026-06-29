@@ -37,11 +37,17 @@ HANDOFF.md TOP → INDEX.md (repo map).
 **One-line state:** the D1 determinacy fix is IMPLEMENTED (`residual_vector_p1(...,determined=True)`) and the
 DETERMINACY IS FIXED — rank==4224==cols, **null-dim 0** at two generic points (vs old null-dim 2448), pending an
 independent blind-verify (`bdcc705`, `d1_determined_posing_check.py`). The flagged conditioning risk DID appear:
-full-rank but ill-conditioned (smin≈6e-5, cond≈1e11 — Chebyshev endpoint amplification). **NEXT = blind-verify the
-determinacy; thread `determined=True` through newton/continuation; BOUNDED re-solve (tests whether ~1e11 is
-workable or needs the parity/Galerkin basis); then RE-GRADE the soft quantities.** Matter-model fork RESOLVED
-(rigid unit field native; amplitude a gated import). To make `determined=True` the default once the re-solve+
-re-grade verify, flip the default + update tests.
+full-rank but ill-conditioned (smin≈6e-5, cond≈1e11). Determinacy now BLIND-VERIFIED (`ac02066`). **RE-SOLVE
+ATTEMPT 1 STALLED** (`392b4b7`): the determined posing does NOT yet solve — Phi stuck ~1e-2 at the EASIEST X≈−1,
+the X-continuation subdividing uselessly. Diagnosis: BC-driven stall (the round seed is far from the new derived
+BCs — the core metric-Neumann gives c'(rc)=−1/rc=−10, stiff) + cond≈1e11; the plain LM+X-continuation is the WRONG
+machinery (it mis-reads BC-stall as X-stiffness). **So D1 DETERMINACY is FIXED+verified, but the RE-GRADE is BLOCKED
+on conditioning machinery** (the design's flagged "real work"). **NEXT PHASE (deserves fresh context):** (1) warm-
+start from the old saved field + iterate at FIXED X (stall is BC-satisfaction, not X-stiffness — don't X-continue
+from the round seed); (2) the research's parity/Galerkin basis + Ruiz equilibration for cond≈1e11; (3) re-examine
+the stiff core Robin BC (∂_r g_θθ=0 at the rc CUTOFF — per-component parity form owed; a gentler correct form may
+remove much stiffness); (4) re-grade once it floors. `determined=True` stays NON-default until it solves; old path
+intact. Matter-model fork RESOLVED (rigid unit field native; amplitude a gated import).
 
 **⚠ GIT PUSH IS DOWN (auth lapsed ~2026-06-29).** Local commits AHEAD of origin: `5fe1a44`, `898fbd4` (+ any from
 the implementation). Last pushed = `715c8e4`. Re-auth (`gh auth login` / refresh token) then `git push`. Nothing lost.
