@@ -46,9 +46,16 @@ AMPLIFICATION, smax≈7e6 — a SEPARATE source the BC fix doesn't touch) is now
 artifact is CONFIRMED+removed (the binding stall), but **"floors with just the BC fix" was OVER-OPTIMISTIC — the
 parity/Galerkin basis + Ruiz equilibration (Category-A conditioning) is genuinely needed to floor + re-grade.**
 RE-GRADE is PROVISIONAL only (Phi not floored; qualitative survives — Q=0.990/|n|=1/gentle-φ/lapse 3.2 no-horizon;
-quantitative NOT banked). `determined=True` stays NON-default until it floors; old path intact. Records:
-`D1_FIX_DESIGN.md` (P1-(1) section). **DECISION FOR CHARLES = the FORK** (below): build the conditioning machinery
-now vs fold into time-live. Matter-model fork RESOLVED (rigid unit field native; amplitude a gated import).
+quantitative NOT banked). `determined=True` stays NON-default until it floors; old path intact.
+**CONDITIONING: equilibration RULED OUT (structural, not scaling).** Tried Ruiz row+col (cond→3e5 but row-reweight
+corrupts the ‖F‖² objective → drives true residual UP to 7e3, garbage) and column-only (objective-safe but cond~1e9,
+genuine near-null smin~6e-9). The ill-conditioning is **structural Chebyshev endpoint differentiation amplification**
+(d_r ~O(N²) at rc,ri) — rescaling can't fix it. **DECISION (Charles 2026-06-29): build the principled discretization
+fix.** Phase 1 = targeted corpus research RUNNING (which well-conditioned spectral method for our finite-shell
+singular-core coupled mixed-BC system: integration/quasi-inverse (ultraspherical/Olver–Townsend) vs Galerkin
+recombination vs parity — parity's r^l is flagged for SMOOTH origins, ours is singular). Phase 2 = build + revalidate
+conditioning + re-solve + re-grade. OPERATIONAL: next solve UNBUFFERED (python3 -u, NO grep pipe — it hid progress 2.5h).
+Records: `D1_FIX_DESIGN.md` (P1-(1) + CONDITIONING INVESTIGATION). Matter-model fork RESOLVED (rigid unit / amplitude=gated import).
 
 **GIT: push went down mid-session (auth) then RESTORED 2026-06-29 — fully synced (origin/main == HEAD). No
 unpushed commits.** (If push fails again it's auth: `gh auth login`.)

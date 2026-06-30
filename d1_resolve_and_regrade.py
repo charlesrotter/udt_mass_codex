@@ -24,13 +24,21 @@ G = attach_coord_weight(Grid3D(Nr=8, Nth=6, Nps=8, rc=0.1, cell=8.0))
 # (BC-form artifact removed => the -10 stall is gone, re-grade) or STALL (cond~1e11 endpoint amplification /
 # phi-log dominate => the parity/Galerkin basis build is genuinely needed)?
 Xfin = -2.0e5
-d0 = torch.load('solved_fields_nr8_G_kap8_1.pt', map_location='cpu', weights_only=False)
+# attempt 3: RUIZ EQUILIBRATION (cond ~7.7e9 -> ~3e5, diagnosed offline) makes the determined posing
+# well-conditioned -> the LM should now FLOOR (not just crawl). Warm-start from the provisional determined
+# field (attempt-2 partial, Phi~9.6e-2) if present -- much closer than the old underdetermined field.
+try:
+    d0 = torch.load('solved_fields_nr8_G_kap8_1_DETERMINED.pt', map_location='cpu', weights_only=False)
+    src = 'provisional DETERMINED (attempt-2 partial)'
+except Exception:
+    d0 = torch.load('solved_fields_nr8_G_kap8_1.pt', map_location='cpu', weights_only=False)
+    src = 'old underdetermined'
 u0 = d0['u'].to(G.Dr.device)
-print("=== D1 RE-SOLVE attempt2: determined=True, WARM-START from old field, FIXED X=-2e5, Nr=8 G kap8=1 ===", flush=True)
+print(f"=== D1 RE-SOLVE attempt3: determined=True, EQUILIBRATED LM, warm-start={src}, FIXED X=-2e5, Nr=8 G kap8=1 ===", flush=True)
 F0 = P1.residual_vector_p1(u0, G, 1.0, 1.0, X=Xfin, branch="G", determined=True)
 print(f"  warm-start Phi0 (new posing) = {float((F0*F0).sum()):.4e}", flush=True)
-u, hist = P1.newton_solve_p1(u0, G, 1.0, 1.0, X=Xfin, branch="G", m=1, maxit=60,
-                             determined=True, verbose=True)
+u, hist = P1.newton_solve_p1(u0, G, 1.0, 1.0, X=Xfin, branch="G", m=1, maxit=80,
+                             tol=1e-12, determined=True, equilibrate=True, verbose=True)
 F = P1.residual_vector_p1(u, G, 1.0, 1.0, X=Xfin, branch="G", determined=True)
 Phi = float((F * F).sum())
 torch.save({'u': u.cpu(), 'Xfin': Xfin, 'Nr': 8, 'branch': 'G', 'kap8': 1.0, 'determined': True},

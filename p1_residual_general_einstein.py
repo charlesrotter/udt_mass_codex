@@ -286,37 +286,85 @@ def jacobian_p1(u, G, p, kap8, m=1, wbc=30.0,
 
 
 # ===========================================================================
+# RUIZ EQUILIBRATION (category-A conditioning) -- RETAINED AS A TOOL, but INSUFFICIENT for the
+# determined posing (recorded finding 2026-06-29; D1_FIX_DESIGN). The determined Jacobian's
+# cond~1e9-1e11 is STRUCTURAL (Chebyshev differentiation-matrix endpoint amplification, d_r ~O(N^2)
+# at the endpoints), NOT a mere scaling disparity:
+#   - Full row+col equilibration drops cond -> ~3e5 BUT row reweighting CHANGES the LS objective; with
+#     ~5000x weight spread it effectively DELETES the down-weighted equations -> the solve drives the TRUE
+#     ||F||^2 UP (to ~7e3) while the weighted objective falls (attempt-4). Unusable for this root-find.
+#   - Column-ONLY scaling (the only rescaling that PRESERVES ||F||^2) leaves cond ~1e9 (a genuine near-null
+#     direction, smin~6e-9). So rescaling cannot fix it. The structural fix = integration/quasi-inverse
+#     (ultraspherical) preconditioning or a Galerkin basis (see the Phase-2 build).
+# The equilibrate=True path below uses the frozen-Dr0 formulation (consistent objective ||Dr0 F||^2) -- kept
+# for reference / mild column-preconditioning, but it does NOT floor the determined posing; do not rely on it.
+# ===========================================================================
+def ruiz_scales(J, n_iter=10, eps=1e-300):
+    Dr = torch.ones(J.shape[0], device=J.device, dtype=J.dtype)
+    Dc = torch.ones(J.shape[1], device=J.device, dtype=J.dtype)
+    Js = J
+    for _ in range(n_iter):
+        rn = Js.abs().amax(dim=1).clamp_min(eps).rsqrt()
+        cn = Js.abs().amax(dim=0).clamp_min(eps).rsqrt()
+        Js = rn[:, None] * Js * cn[None, :]
+        Dr = Dr * rn; Dc = Dc * cn
+    return Dr, Dc
+
+
+def _col_scales(J, n_iter=3, eps=1e-300):
+    """Column-only inf-norm equilibration (preserves the row-weighted objective)."""
+    Dc = torch.ones(J.shape[1], device=J.device, dtype=J.dtype)
+    Js = J
+    for _ in range(n_iter):
+        cn = Js.abs().amax(dim=0).clamp_min(eps).rsqrt()
+        Js = Js * cn[None, :]; Dc = Dc * cn
+    return Dc
+
+
+# ===========================================================================
 # PRODUCTION LM / Newton solve (direct factorized damped LS step; strict monotone
 # accept).  Identical control flow to full3d_newton.newton_solve.
 # ===========================================================================
 def newton_solve_p1(u, G, p, kap8, m=1, maxit=40, lam0=1e-4, tol=1e-11,
                     verbose=False, wbc=30.0,
                     X=-1.0, xi=1.0, kap=1.0, branch="G",
-                    chunk_size=128, lam_min=1e-14, determined=False):
+                    chunk_size=128, lam_min=1e-14, determined=False, equilibrate=False):
     import numpy as np
     u = u.detach().clone()
     lam = lam0
     F = residual_vector_p1(u, G, p, kap8, m=m, wbc=wbc, X=X, xi=xi, kap=kap, branch=branch, determined=determined)
-    Phi = float((F * F).sum()); hist = [Phi]
     nU = u.numel()
     I = torch.eye(nU, device=u.device)
+    Dr0 = None                                    # frozen row weighting (set at it=0 when equilibrate)
+    Phi = float((F * F).sum()); hist = [Phi]
     for it in range(maxit):
         if Phi < tol:
             break
         J, F = jacobian_p1(u, G, p, kap8, m=m, wbc=wbc,
                            X=X, xi=xi, kap=kap, branch=branch,
                            chunk_size=chunk_size, determined=determined)
+        if equilibrate:
+            if Dr0 is None:
+                Dr0, _ = ruiz_scales(J)           # FREEZE row weighting once -> objective ||Dr0 F||^2
+                Phi = float(((Dr0 * F) ** 2).sum())   # recompute initial objective in the frozen metric
+            Jr = Dr0[:, None] * J; Fr = Dr0 * F   # fixed-row-weighted system (consistent objective)
+            Dc = _col_scales(Jr)                  # column precondition (recomputed; preserves the objective)
+            Jw = Jr * Dc[None, :]
+        else:
+            Dc = None; Fr = F; Jw = J
         accepted = False
         for _try in range(12):
             try:
-                Jaug = torch.cat([J, math.sqrt(lam) * I], dim=0)
-                Faug = torch.cat([-F, torch.zeros(nU, device=u.device)], dim=0)
-                du = torch.linalg.lstsq(Jaug, Faug).solution
+                Jaug = torch.cat([Jw, math.sqrt(lam) * I], dim=0)
+                Faug = torch.cat([-Fr, torch.zeros(nU, device=u.device)], dim=0)
+                dy = torch.linalg.lstsq(Jaug, Faug).solution
+                du = (Dc * dy) if Dc is not None else dy
             except Exception:
                 lam *= 4.0; continue
             un = u + du
-            Pn = float((residual_vector_p1(un, G, p, kap8, m=m, wbc=wbc,
-                                           X=X, xi=xi, kap=kap, branch=branch, determined=determined) ** 2).sum())
+            Fn = residual_vector_p1(un, G, p, kap8, m=m, wbc=wbc,
+                                    X=X, xi=xi, kap=kap, branch=branch, determined=determined)
+            Pn = float(((Dr0 * Fn) ** 2).sum()) if equilibrate else float((Fn * Fn).sum())
             if np.isfinite(Pn) and Pn < Phi:
                 u = un; Phi = Pn; lam = max(lam * 0.25, lam_min); accepted = True; break
             lam *= 4.0

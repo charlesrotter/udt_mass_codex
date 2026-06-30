@@ -207,3 +207,32 @@ conditioning build (Ruiz equilibration first — cheap; then parity/Galerkin bas
 re-grade. Per fix-all-flaws-before-dynamic this is a static RED gate to clear before time-live; and the same
 conditioning machinery the time-live solver needs anyway. Recommendation: build it (equilibration-first), floor
 the static determined solve, re-grade — but this is the deliberate "real build" decision LIVE flagged for Charles.
+
+---
+
+## CONDITIONING INVESTIGATION (2026-06-29) — equilibration INSUFFICIENT (structural); -> parity/Galerkin or integration-preconditioner build (Charles's call)
+After the core-BC fix, the determined posing is UNBLOCKED (solve descends) but does NOT floor: cond~1e9-1e11 is
+the rate-limiter. Tried the cheap rung (Ruiz equilibration) thoroughly; it is structurally insufficient:
+- **attempt-3 (per-iter Dr+Dc, accept on ||F||^2):** instant STALL at it=0 — row reweighting makes the step a
+  non-descent direction for the un-weighted objective.
+- **attempt-4 (FROZEN Dr0, accept on ||Dr0 F||^2 -- the consistent fix):** descends in the Dr0 metric (16.4->4.0
+  over 80 iters, no stall) BUT the TRUE ||F||^2 ends at 7.0e3 (WORSE than the 9.6e-2 start; eoff 0.11->9.0). The
+  ~5000x Ruiz weight spread effectively DELETES the down-weighted endpoint equations -> solver lets their true
+  residuals blow up. The re-grade from this field is GARBAGE (NOT banked). [it also overwrote the attempt-2
+  partial field -- do not warm-start from `solved_fields_nr8_G_kap8_1_DETERMINED.pt`, it is the attempt-4 garbage.]
+- **offline diagnostic (`d1_equilibration_diag.py`):** row+col Ruiz -> cond 3e5 (but objective-corrupting);
+  COLUMN-ONLY (objective-preserving) -> cond ~1e9 with a genuine near-null direction (smin~6e-9).
+- **VERDICT (recorded negative):** the ill-conditioning is STRUCTURAL — Chebyshev DIFFERENTIATION-matrix endpoint
+  amplification (d_r ~O(N^2) at rc, ri), reintroduced by imposing the PDE adjacent to the endpoints + derivative
+  BCs. Rescaling cannot fix it (the only objective-preserving rescaling leaves cond~1e9). The equilibration code
+  (`ruiz_scales`, `_col_scales`, `newton_solve_p1(equilibrate=True)`) is RETAINED as a tool but does NOT floor it.
+
+**DECISION (Charles, 2026-06-29):** build the principled discretization fix (he chose "build the parity/Galerkin
+basis" over a last cheap test or deferring). REFINEMENT before building: the generic parity/r^l recombination is
+flagged (research) for SMOOTH r=0 origins, but our domain is a finite shell [rc,ri] with a genuinely SINGULAR core
+-> the r^l smoothness does not hold at rc, and the cleaner corpus fix for O(N^2) Chebyshev endpoint amplification
+may be INTEGRATION / quasi-inverse (ultraspherical, Olver-Townsend) preconditioning. So: Phase 1 = targeted corpus
+research (which well-conditioned spectral method for our annular singular-core coupled mixed-BC system); Phase 2 =
+build it + revalidate conditioning (flat-space error-growth test + cond measurement; confirm the F=0 root is
+unchanged) + re-solve + re-grade. OPERATIONAL FIX owed: run the next solve with UNBUFFERED output (python3 -u, no
+grep pipe) -- the attempt-4 grep pipe block-buffered the per-iter log and hid progress for ~2.5h.
