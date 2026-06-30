@@ -216,8 +216,10 @@ def residual_vector_p1(u, G, p, kap8, m=1, wbc=30.0, X=-1.0, xi=1.0, kap=1.0, br
         dn_r = dn[..., R, :]                                 # d_r nhat (3-vec; tangential -> 2 independent)
         # a: core d_r a=0 (regularity), seal a=0 (gauge)
         rows += [wbc * dr_a[core].reshape(-1), wbc * a[seal].reshape(-1)]
-        # b: core b=-p (depth dial; honor p -> fixes D4), seal Neumann on g_rr
-        rows += [wbc * (b[core].reshape(-1) + p), wbc * drg(R, R)[seal].reshape(-1)]
+        # b: core b=-p (depth dial; honor p -> fixes D4), seal Neumann on g_rr.
+        # SEAL discretized in WARP form b'(ri)=0 (== d_r(g_rr)=0 in the continuum) for galerkin-basis
+        # consistency (2026-06-30): the spectral d_r(g_rr) form aliases vs the basis warp form at low Nr.
+        rows += [wbc * (b[core].reshape(-1) + p), wbc * G.d_r(b)[seal].reshape(-1)]
         # c,d: SEAL = metric-COMPONENT Neumann (genuine mirror fold). CORE = bare-WARP Neumann
         # c'(rc)=0, d'(rc)=0 (origin regularity of the angular block). DERIVED (P1-(1)/D1_FIX_DESIGN item 3;
         # symbolic-verified): for the RIGID UNIT hedgehog the matter stress is T^th_th = (e^{-2c}-e^{-2d})/2r^2,
@@ -229,16 +231,19 @@ def residual_vector_p1(u, G, p, kap8, m=1, wbc=30.0, X=-1.0, xi=1.0, kap=1.0, br
         # behaviour is ~r^2) -- the RE-SOLVE ATTEMPT 1 stall: a BC-FORM artifact, not physical stiffness.
         # NOTE (verifier false-pass warning): determinacy/rank is BLIND to which core form is correct (each
         # supplies one endpoint row) -- this choice is a MERIT call resting on the derivation above, not the SVD.
-        rows += [wbc * G.d_r(c)[core].reshape(-1), wbc * drg(TH, TH)[seal].reshape(-1)]
-        rows += [wbc * G.d_r(d)[core].reshape(-1), wbc * drg(PS, PS)[seal].reshape(-1)]
+        # SEAL discretized in WARP-ROBIN form c'(ri)=-1/ri, d'(ri)=-1/ri (== d_r(g_thth)=0, d_r(g_psps)=0
+        # in the continuum) for galerkin-basis consistency (2026-06-30; matches galerkin_basis _func_rows).
+        rows += [wbc * G.d_r(c)[core].reshape(-1), wbc * (G.d_r(c)[seal].reshape(-1) + 1.0 / G.ri)]
+        rows += [wbc * G.d_r(d)[core].reshape(-1), wbc * (G.d_r(d)[seal].reshape(-1) + 1.0 / G.ri)]
         # phi: core d_r phi=0 (regularity), seal phi=0 (mirror-odd = domain definition, derived default)
         rows += [wbc * dr_phi[core].reshape(-1), wbc * phi[seal].reshape(-1)]
         # e_rt, e_rp: Dirichlet=0 BOTH ends (one radial index -> reflection-odd). e_tp: Neumann on g_thps (even)
         rows += [wbc * e_rt[core].reshape(-1), wbc * e_rt[seal].reshape(-1)]
         rows += [wbc * e_rp[core].reshape(-1), wbc * e_rp[seal].reshape(-1)]
-        # e_tp (g_th ps): SEAL = metric-component Neumann (mirror, even); CORE = bare-warp Neumann
-        # e_tp'(rc)=0 (same global-monopole origin regularity as c,d; seed-neutral but correct off-round).
-        rows += [wbc * G.d_r(e_tp)[core].reshape(-1), wbc * drg(TH, PS)[seal].reshape(-1)]
+        # e_tp (g_th ps): CORE = bare-warp Neumann e_tp'(rc)=0; SEAL = WARP-ROBIN e_tp'(ri)+(2/ri)e_tp(ri)=0
+        # (== d_r(g_thps)=0 in the continuum) for galerkin-basis consistency (matches galerkin_basis _func_rows).
+        rows += [wbc * G.d_r(e_tp)[core].reshape(-1),
+                 wbc * (G.d_r(e_tp)[seal].reshape(-1) + (2.0 / G.ri) * e_tp[seal].reshape(-1))]
         # matter: 2x tangential Neumann (d_r nhat, 3-comp -> 2 indep) at BOTH ends; |n|=1 already all-nodes.
         # NO seal direction value-pin (degree topologically conserved under |n|=1 -> pin redundant/over-imposing).
         for ai in range(3):

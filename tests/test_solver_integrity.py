@@ -55,7 +55,10 @@ REGISTERED_GAP_SITES = ("stress_tensor(",)
 # Registered STRUCTURAL sites (geometry of the native S^2 target, NOT physics couplings; anchored by
 # substring): the 3-component loop and the |n|=1 unit-sphere constraint.  A literal anywhere ELSE is
 # still flagged (e.g. a 3.0 coupling on a different line).
-STRUCTURAL_SITES = ("range(3)", "sum(-1) - 1.0")
+#   "/ G.ri": the warp-Robin SEAL-BC geometric coefficients (c'(ri)=-1/ri, e_tp'(ri)=-2/ri e_tp) -- DERIVED
+#   from the metric-component seal BC d_r(g_thth)=0 / d_r(g_thps)=0 (the galerkin-basis-consistent
+#   discretization, 2026-06-30); G.ri is the seal radius (grid geometry), NOT a physics coupling.
+STRUCTURAL_SITES = ("range(3)", "sum(-1) - 1.0", "/ G.ri")
 
 
 # ----------------------------------------------------------------------------- helpers
