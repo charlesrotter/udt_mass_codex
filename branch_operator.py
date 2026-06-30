@@ -81,10 +81,15 @@ import b1prime_3d_offround_residual as B1   # validated derived-operator assembl
 
 PI = math.pi
 
-# Production constants (carried, each tagged) --------------------------------
-X_PROD   = -2.0e5    # FREE     : kinetic/curvature ratio; R1-R3 do NOT fix it; ghost+Cassini => large NEGATIVE (native_dilation_weight Sec 9; branch_G Sec 3)
-XI_PROD  = 2.0e-2    # FREE     : matter coupling xi (scale-breaker; value provenance open)
-KAP_PROD = 2.0e-2    # FREE     : matter coupling kap
+# TAGGED REFERENCE constants -- NOT silent defaults (2026-06-30 cleanup).
+# X_PROD especially is a FREE, Cassini-FORCED value (R1-R3 do NOT fix |X|; only the sign is derived -- see
+# PROVENANCE_AUDIT_2026-06-30.md): it must NEVER be injected silently. The live branch operators below now
+# REQUIRE X/xi/kap to be passed EXPLICITLY (no default) so every choice is ledgered at the call site. These
+# constants remain as the tagged provenance home (test_solver_integrity checks they are tagged; prototypes
+# read them explicitly) and as documented reference values -- read them by name when you want them, on purpose.
+X_PROD   = -2.0e5    # FREE/OBS-FIT : kinetic/curvature ratio; magnitude = Cassini PPN bound (NOT derived); sign(-) derived (no-ghost)
+XI_PROD  = 2.0e-2    # FREE     : matter coupling xi (scale-breaker; value provenance OPEN; the live solve uses xi=1 units)
+KAP_PROD = 2.0e-2    # FREE     : matter coupling kap (live solve uses kap=1 units)
 KAP8     = 1.0       # DERIVED  : matter coefficient (round-gate kap8=1; native_dilation_weight / F2)
 
 VALID_BRANCHES = ("G", "P")
@@ -109,13 +114,24 @@ def U_prime(phi):
 #   branch='P': adds + delta^mu_nu U(phi),  U = e^{2phi}-1  (branch_P Sec 1b).
 # The branch is a REQUIRED, EXPLICIT, TAGGED parameter -- no silent smuggling.
 # ===========================================================================
-def E_mixed_branch(G, a, b, c, d, phi, dn, X=X_PROD, xi=XI_PROD, kap=KAP_PROD,
+def _require_couplings(X, xi, kap):
+    """No silent default for the couplings (2026-06-30): X especially is a FREE Cassini-bounded value being
+    explored -- it must be pinned at the call site so the choice is ledgered, never injected silently."""
+    if X is None or xi is None or kap is None:
+        raise ValueError(
+            "X, xi, kap must be passed EXPLICITLY to the branch operator (no silent default). X is a FREE "
+            "Cassini-FORCED value (its magnitude is NOT derived) -- pass it at the call site so the choice is "
+            "ledgered. Documented reference values: branch_operator.X_PROD / XI_PROD / KAP_PROD.")
+
+
+def E_mixed_branch(G, a, b, c, d, phi, dn, X=None, xi=None, kap=None,
                    m=1, kap8=KAP8, branch="G", e_rt=None, e_rp=None, e_tp=None,
                    return_parts=False):
     # matter enters via dn (...,4,3); native-S^2 wiring (the operator is parametrization-agnostic).
     if branch not in VALID_BRANCHES:
         raise ValueError(f"branch must be one of {VALID_BRANCHES}; got {branch!r} "
                          f"(the branch choice is EXPLICIT -- no silent default).")
+    _require_couplings(X, xi, kap)
     parts = B1.E_mixed(G, a, b, c, d, phi, dn, X, xi, kap, m=m, kap8=kap8,
                        e_rt=e_rt, e_rp=e_rp, e_tp=e_tp, return_parts=True)
     E = parts["E"]                                            # Branch-G mixed operator
@@ -139,10 +155,11 @@ def E_mixed_branch(G, a, b, c, d, phi, dn, X=X_PROD, xi=XI_PROD, kap=KAP_PROD,
 #   branch='P': adds the -2 U'(phi) potential contribution.
 # Sign vs EL_phi_3d's EL convention is EMPIRICALLY pinned in the self-test.
 # ===========================================================================
-def EL_phi_branch(G, a, b, c, d, phi, dn, X=X_PROD, xi=XI_PROD, kap=KAP_PROD,
+def EL_phi_branch(G, a, b, c, d, phi, dn, X=None, xi=None, kap=None,
                   m=1, kap8=KAP8, branch="G", e_rt=None, e_rp=None, e_tp=None):
     if branch not in VALID_BRANCHES:
         raise ValueError(f"branch must be one of {VALID_BRANCHES}; got {branch!r}.")
+    _require_couplings(X, xi, kap)
     elphi = B1.EL_phi_3d(G, a, b, c, d, phi, dn, X, xi, kap, m=m, kap8=kap8,
                          e_rt=e_rt, e_rp=e_rp, e_tp=e_tp)
     if branch == "P":
@@ -154,7 +171,7 @@ def EL_phi_branch(G, a, b, c, d, phi, dn, X=X_PROD, xi=XI_PROD, kap=KAP_PROD,
 # ===========================================================================
 # Full branched residual stack (cheap eval only; NO solve).
 # ===========================================================================
-def residual_branch(G, a, b, c, d, phi, dn, X=X_PROD, xi=XI_PROD, kap=KAP_PROD,
+def residual_branch(G, a, b, c, d, phi, dn, X=None, xi=None, kap=None,
                     m=1, kap8=KAP8, branch="G"):
     # cheap eval only (NO solve); matter via dn.  The matter EOM is now assembled natively in the
     # residual (over the 3-component carrier), so it is not recomputed here.
@@ -185,5 +202,5 @@ if __name__ == "__main__":
     G = attach_coord_weight(Grid3D(Nr=12, Nth=8, Nps=8, rc=0.2, cell=2.0))
     z = torch.zeros(G.Nr, G.Nth, G.Nps, device=G.Rg.device)
     for br in VALID_BRANCHES:
-        E = E_mixed_branch(G, z, z, z, z, z, z, branch=br)
+        E = E_mixed_branch(G, z, z, z, z, z, z, X=X_PROD, xi=XI_PROD, kap=KAP_PROD, branch=br)  # explicit reference values
         print(f"flat phi=0 branch={br}: max|E|(body) = {float(E[G.body].abs().max()):.2e}")
