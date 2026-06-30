@@ -328,10 +328,19 @@ def _col_scales(J, n_iter=3, eps=1e-300):
 def newton_solve_p1(u, G, p, kap8, m=1, maxit=40, lam0=1e-4, tol=1e-11,
                     verbose=False, wbc=30.0,
                     X=-1.0, xi=1.0, kap=1.0, branch="G",
-                    chunk_size=128, lam_min=1e-14, determined=False, equilibrate=False):
+                    chunk_size=128, lam_min=1e-14, determined=False, equilibrate=False,
+                    step='lm', rcond=1e-10, svtrunc=5e-4, ls_max=40):
     import numpy as np
     u = u.detach().clone()
     lam = lam0
+    # GALERKIN change-of-variables (category-A conditioning; galerkin_basis.py): solve the Newton
+    # step in a BC-recombined RADIAL coefficient space (J_a = J @ B_full), keeping the iterate in the
+    # smooth BC-satisfying affine subspace.  residual_vector_p1 is UNCHANGED.  Built once; project u in.
+    B_full = u_part = None
+    if step == 'galerkin':
+        import galerkin_basis as _GB
+        B_full, u_part, _ = _GB.build_B_full(G, p=p, device=u.device)
+        u, _ = _GB.project_to_subspace(u, B_full, u_part)
     F = residual_vector_p1(u, G, p, kap8, m=m, wbc=wbc, X=X, xi=xi, kap=kap, branch=branch, determined=determined)
     nU = u.numel()
     I = torch.eye(nU, device=u.device)
@@ -343,6 +352,53 @@ def newton_solve_p1(u, G, p, kap8, m=1, maxit=40, lam0=1e-4, tol=1e-11,
         J, F = jacobian_p1(u, G, p, kap8, m=m, wbc=wbc,
                            X=X, xi=xi, kap=kap, branch=branch,
                            chunk_size=chunk_size, determined=determined)
+        if step == 'svd_ls':
+            # GLOBALIZATION for the soft-mode crawl (2026-06-30): the residual is ~reducible but lives in the
+            # SOFT (benign gauge/rotation) directions that the uniform LM lam*I over-damps. Take a TRUNCATED-SVD
+            # Gauss-Newton step -- drop ONLY the near-null gauge directions (SV<=thr), keep the full reducible
+            # step in the physical directions -- then backtracking LINE-SEARCH for the nonlinearity.
+            U, S, Vh = torch.linalg.svd(J, full_matrices=False)
+            thr = max(rcond * float(S[0]), svtrunc)
+            sinv = torch.where(S > thr, 1.0 / S, torch.zeros_like(S))
+            du0 = -(Vh.transpose(-1, -2) @ (sinv * (U.transpose(-1, -2) @ F)))
+            accepted = False; alpha = 1.0
+            for _ls in range(ls_max):
+                Fn = residual_vector_p1(u + alpha * du0, G, p, kap8, m=m, wbc=wbc,
+                                        X=X, xi=xi, kap=kap, branch=branch, determined=determined)
+                Pn = float((Fn * Fn).sum())
+                if np.isfinite(Pn) and Pn < Phi:
+                    u = u + alpha * du0; Phi = Pn; accepted = True; break
+                alpha *= 0.5
+            hist.append(Phi)
+            if verbose:
+                nkeep = int((S > thr).sum())
+                print(f"  [p1-svdls] it={it:3d} Phi={Phi:.4e} alpha={alpha:.1e} "
+                      f"keep={nkeep}/{len(S)} {'acc' if accepted else 'STALL'}")
+            if not accepted:
+                break
+            continue
+        if step == 'galerkin':
+            # Gauss-Newton in coefficient space: J_a = J @ B_full (well-conditioned -- the homogeneous
+            # BC rows + stiff near-edge modes are eliminated), LS solve for da, du = B_full @ da, then
+            # backtracking line-search for the nonlinearity.  The step stays in the BC-satisfying subspace.
+            Ja = J @ B_full
+            da = torch.linalg.lstsq(Ja, (-F).reshape(-1, 1)).solution.reshape(-1)
+            du0 = B_full @ da
+            accepted = False; alpha = 1.0
+            for _ls in range(ls_max):
+                Fn = residual_vector_p1(u + alpha * du0, G, p, kap8, m=m, wbc=wbc,
+                                        X=X, xi=xi, kap=kap, branch=branch, determined=determined)
+                Pn = float((Fn * Fn).sum())
+                if np.isfinite(Pn) and Pn < Phi:
+                    u = u + alpha * du0; Phi = Pn; accepted = True; break
+                alpha *= 0.5
+            hist.append(Phi)
+            if verbose:
+                print(f"  [p1-galerkin] it={it:3d} Phi={Phi:.4e} alpha={alpha:.1e} "
+                      f"{'acc' if accepted else 'STALL'}")
+            if not accepted:
+                break
+            continue
         if equilibrate:
             if Dr0 is None:
                 Dr0, _ = ruiz_scales(J)           # FREEZE row weighting once -> objective ||Dr0 F||^2

@@ -68,6 +68,7 @@ PROJECT_MODULE_REGISTRY = {
     "einstein_3d_weyl_gen":         "numeric-method: sympy-generated Einstein components (codegen)",
     "spectral_cheb":                "numeric-method: Chebyshev nodes + Clenshaw-Curtis weights",
     "spectral_sph":                 "numeric-method: theta/psi spectral operators (Gauss-Legendre)",
+    "galerkin_basis":               "numeric-method: BC-recombined RADIAL spectral-Galerkin basis (category-A conditioning) -- a fixed change-of-variables B_full mapping coefficients->nodal update so the homogeneous BC rows + stiff near-edge Chebyshev modes are eliminated; residual physics UNCHANGED (Shen 1994 / Boyd / Olver-Townsend)",
 }
 
 
