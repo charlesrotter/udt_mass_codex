@@ -3,11 +3,16 @@
 > **READ `LIVE.md` FIRST** — it is the short, only-guaranteed-current file (frontier + next action).
 > This HANDOFF is the detailed record; if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
 >
-> **CURRENT ACTIVITY (2026-06-29): D1 determinacy fix — IMPLEMENTED + blind-verified (null-dim 0); the RE-SOLVE
-> STALLED (full-rank but cond≈1e11 + BC-stiffness) so the RE-GRADE is BLOCKED on conditioning machinery. NEXT =
-> the 3-move conditioning phase (warm-start+fixed-X / parity-Galerkin basis+equilibration / re-examine the stiff
-> core Robin BC), then re-grade. See `LIVE.md` FRONTIER (authoritative) + `D1_FIX_DESIGN.md` (DERIVED BC TABLE +
-> RE-SOLVE ATTEMPT 1). Git push RESTORED + synced.** This session: kap8 caveats #2 (winding survived) + #3 (off-diagonals excluded)
+> **CURRENT ACTIVITY (2026-06-30 EOD — see LIVE.md "CURRENT STATE" block, authoritative): THE BIG DISCOVERY —
+> X=−2e5 (dilaton kinetic/curvature ratio) is a Cassini-FORCED FIT mis-tagged `# FREE`; 2 audits (incl. blind)
+> confirm it's the LONE observation-fit kluge on the live path → PIVOTED to EXPLORE X (object is X-stable). The
+> whole conditioning saga is RESOLVED in understanding (none indicted the metric). Built the GALERKIN BC-recombined
+> basis + seal-BC reconciliation → the determined solve now DESCENDS 6 orders (conditioning FIXED) — BUT the COLD
+> run from the round seed overshoots into a SPURIOUS dead-dilaton/huge-warp branch → re-grade NOT valid. NEXT =
+> PHYSICAL warm-start (LM-to-close → galerkin-POLISH), then re-grade across X + blind-verify; then the e^{2φ}-weight
+> + φ-seal-parity soft DERIVED-headlines; then DYNAMIC. Records: PROVENANCE_AUDIT_2026-06-30.md, D1_FIX_DESIGN.md.**
+> --- (HISTORICAL 2026-06-29) D1 determinacy fix implemented+blind-verified; re-solve stalled (which became the
+> X-kluge discovery above). kap8 caveats #2 (winding survived) + #3 (off-diagonals excluded)
 > CLOSED; native reframe (kap8 object = core-concentrated S² winding DEFECT, NOT a horizon); broad-sweep solver
 > AUDIT → FIX-FIRST list, top item **D1 = static solve is UNDERDETERMINED** (1776 eqns / 4224 unknowns,
 > null-dim 2448; quantitative results SOFT, qualitative SURVIVE); GR-numerics research → proven determined-posing

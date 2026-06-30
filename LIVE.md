@@ -33,8 +33,35 @@ HANDOFF.md TOP → INDEX.md (repo map).
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ FRONTIER (2026-06-29 PM) — READ THIS FIRST (only DURABLE CANON follows) ============
-**One-line state:** D1 determinacy FIXED+blind-verified (null-dim 0). The **core-BC FORM artifact is now FIXED+
+## ============ FRONTIER (2026-06-30 EOD) — READ THIS FIRST ============
+**CURRENT STATE (one paragraph, supersedes the 2026-06-29 arc below):** A long solver-trust marathon. THE BIG
+DISCOVERY: **X=−2e5 (the dilaton kinetic/curvature ratio) is a Cassini-FORCED FIT mis-tagged `# FREE`** — its
+magnitude is the solar-system PPN bound rounded up; nothing in the metric derives it (only the sign, via no-ghost).
+Charles caught it; TWO provenance audits (one blind-adversarial) confirmed **X is the LONE observation-fit kluge on
+the live path** (kap8=1 is genuinely DERIVED; ξ=κ=1 are units; no swarm). We PIVOTED: stop forcing the solve at the
+imposed X; **EXPLORE the determined solution across FREE X** (the X-sweep showed the kap8=1 object is X-STABLE — winding
+1, no horizon — across X=−1..−1000, so recent results survive un-pinning X; PROVISIONAL, unfloored). The whole
+conditioning saga is resolved in understanding (determinacy FIXED, core-BC artifact FIXED, smax=the X-kluge, soft
+modes=DERIVED gauge/rotation symmetries, posing CONSISTENT [F 99.9% reducible], edge-cond) — **none indicted the
+metric.** Built the **galerkin BC-recombined basis + seal-BC reconciliation** → the determined solve now DESCENDS 6
+orders (where LM/equil/KTE/SVD all crawled at 2e-3) — **conditioning machinery WORKS, pytest 32/1xfail.** ⚠️ **OPEN
+THREAD:** the COLD galerkin run from the round seed **overshoots into a SPURIOUS extreme-warp/dead-dilaton branch**
+(φ_max 0.90→0.021, max warp 2.57→10, ρ→3e-8; only winding survived) and is still under-converged → **the re-grade is
+NOT valid on that field.** This is a GLOBALIZATION bug, not a basis/conditioning failure.
+
+**IMMEDIATE NEXT ACTION (resume here):** floor the RIGHT branch via a PHYSICAL warm-start — **LM-to-close (reach the
+physical basin), THEN galerkin-POLISH near it** (do NOT cold-galerkin from the round seed — it overshoots). Then
+RE-GRADE the soft quantities on the floored field, **across X**, and blind-verify before banking any physics. After
+that: the two soft DERIVED-headlines the audit flagged — **the e^{2φ} matter weight** (CHOSE, LIVE, O(5) at hadronic
+depth = Principle-2 territory, Charles's eye owed) and **φ(seal)=0 parity** (two docs contradict) — then DYNAMIC.
+**Key files:** `galerkin_basis.py`, `newton_solve_p1(step='galerkin')`, `d1_gauge_check.py` (the spurious-branch
+catch), `x_solution_space_explore.py`, `PROVENANCE_AUDIT_2026-06-30.md`, `D1_FIX_DESIGN.md` (full conditioning arc).
+**Cleanup owed:** legacy kap8=0.05 scripts; the §3-iii solver consolidation. Op note: solves UNBUFFERED (python3 -u,
+no grep pipe), single process, run MYSELF.
+
+---
+### ↓↓↓ HISTORICAL ARC (2026-06-29 → 30; superseded by the CURRENT STATE above — mine for detail, not the frontier) ↓↓↓
+**One-line state (2026-06-29):** D1 determinacy FIXED+blind-verified (null-dim 0). The **core-BC FORM artifact is now FIXED+
 symbolically-verified too** — P1-(1) RAN: the core had copied the SEAL's metric-component Neumann `∂_r g_θθ=0`,
 which at the finite cutoff forces the spurious stiff Robin `c'(rc)=−1/rc=−10` (the attempt-1 stall). DERIVED
 correct form = gentle bare-warp Neumann `c'(rc)=0` (rigid hedgehog `T^θ_θ=(e^{−2c}−e^{−2d})/2r²` → angular block
@@ -101,7 +128,10 @@ Conditioning saga otherwise fully resolved (determinacy, core-BC, X-kluge, soft 
 **GIT: push went down mid-session (auth) then RESTORED 2026-06-29 — fully synced (origin/main == HEAD). No
 unpushed commits.** (If push fails again it's auth: `gh auth login`.)
 
-### NEXT-SESSION PRIORITIES (P1–P4; recommendation, not a menu)
+### NEXT-SESSION PRIORITIES (SUPERSEDED 2026-06-30 — see "IMMEDIATE NEXT ACTION" at the top of the frontier)
+*The P1–P4 below were the 2026-06-29 plan; P1 (floor the determined posing) is now the galerkin/warm-start work in
+the CURRENT STATE block above. P2 (cross-model verify) + P3 (e^{2φ} weight, φ-seal, §3-iii consolidation) + P4
+(DYNAMIC) still stand, after the warm-start floor + re-grade. Kept verbatim below for the detail.*
 - **P1 — make the determined posing FLOOR, then RE-GRADE. [moves (1)+(2) DONE 2026-06-29 PM]** Done: (1) the
   core-BC FORM check FOUND+FIXED the −10 artifact (warp-Neumann c'(rc)=0; symbolically verified); (2) the
   warm-start fixed-X re-solve UNBLOCKED the solve (Phi 6.3e10→9.6e-2 monotone at production X). **REMAINING = the
