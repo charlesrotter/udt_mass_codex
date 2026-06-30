@@ -56,6 +56,13 @@ singular-core coupled mixed-BC system: integration/quasi-inverse (ultraspherical
 recombination vs parity — parity's r^l is flagged for SMOOTH origins, ours is singular). Phase 2 = build + revalidate
 conditioning + re-solve + re-grade. OPERATIONAL: next solve UNBUFFERED (python3 -u, NO grep pipe — it hid progress 2.5h).
 Records: `D1_FIX_DESIGN.md` (P1-(1) + CONDITIONING INVESTIGATION). Matter-model fork RESOLVED (rigid unit / amplitude=gated import).
+**SOFT-MODE CHARACTERIZED (2026-06-29, Charles "derive don't assert"):** the 2 near-null directions (smin~1e-4, NOT
+the 6e-9 garbage-point value) are DERIVED SYMMETRIES — mode#1 = the matter SO(3) ROTATION (79% overlap w/ ω_z×n,
+77% matter, invariants unmoved), mode#2 = a metric DIFFEOMORPHISM gauge mode (off-diag, invariants unmoved). **No
+imposition needed** — they're the action's own rotation+coordinate invariance, benign, LM-damping-handled; smin is
+NOT a flooring obstruction. So the ONLY remaining obstruction = smax~7e6 (Chebyshev endpoint amplification), a pure
+Category-A numerical fix. **NEXT (in progress): mapped/declustered radial grid (KTE-type) to reduce smax → re-solve
++ floor.** (`d1_softmode_characterize.py`; blind-verify the symmetry finding owed before banking.)
 
 **GIT: push went down mid-session (auth) then RESTORED 2026-06-29 — fully synced (origin/main == HEAD). No
 unpushed commits.** (If push fails again it's auth: `gh auth login`.)

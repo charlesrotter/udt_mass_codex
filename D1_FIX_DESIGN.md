@@ -236,3 +236,26 @@ research (which well-conditioned spectral method for our annular singular-core c
 build it + revalidate conditioning (flat-space error-growth test + cond measurement; confirm the F=0 root is
 unchanged) + re-solve + re-grade. OPERATIONAL FIX owed: run the next solve with UNBUFFERED output (python3 -u, no
 grep pipe) -- the attempt-4 grep pipe block-buffered the per-iter log and hid progress for ~2.5h.
+
+---
+
+## SOFT-MODE CHARACTERIZATION (2026-06-29) — the near-null directions are DERIVED SYMMETRIES, not a flaw (no imposition)
+Charles's steer: "derive the path, don't make choices by assertion." So we CHARACTERIZED the 2 near-null
+directions (smin~1e-4) instead of imposing a gauge. Result (`d1_softmode_characterize.py`, at the old field;
+single-point, blind-verify owed before banking — but the signal is clean):
+- **smin SVs ~ [9.1e-5, 3.3e-4]** (NOT the 6e-9 quoted earlier — that was the attempt-4 GARBAGE linearization
+  point; at a clean field smin is ~1e-4).
+- **Soft mode #1 (SV 9.1e-5):** 77% matter energy; **79% overlap with the DERIVED hedgehog rotation generator
+  omega_z x n** (from the matter action's SO(3) invariance). Perturb u->u+eps*v: gauge-invariant observables
+  (winding Q, rho_max, lapse_min, max warp) DO NOT MOVE (dQ=0, d-obs ~1e-5 negligible) while the residual changes
+  only at SECOND order (|dResidual| ~ eps^2: 0.13/2.1/13.4 at eps 0.05/0.2/0.5 = pure quadratic -> linear response
+  ~smin*eps is negligible, confirming near-null). => **mode #1 IS the matter SO(3) ROTATION symmetry** (the
+  z-rotation the axisymmetric grid leaves soft). DERIVED, benign.
+- **Soft mode #2 (SV 3.3e-4):** off-diagonal-metric dominated (e_rp/e_tp), 0% rotation overlap, 7% matter.
+  Invariants likewise unmoved => a **metric DIFFEOMORPHISM (coordinate) gauge mode** (confirmed gauge by
+  invariant-preservation; full Lie-derivative generator-match owed if we want it pinned down, but not needed).
+- **CONCLUSION (answers Charles): NOTHING TO IMPOSE.** The soft directions are the UDT action's OWN rotation +
+  coordinate invariances. The solution is fully determined in every PHYSICAL direction; the gauge orbits are
+  handled by the LM damping automatically (it regularizes the soft SVs). So smin is NOT a flooring obstruction.
+- **=> the ONLY remaining flooring obstruction is smax~7e6** (Chebyshev endpoint differentiation amplification) —
+  a pure Category-A NUMERICAL technique (mapped/declustered grid or integration preconditioner), no physics choice.
