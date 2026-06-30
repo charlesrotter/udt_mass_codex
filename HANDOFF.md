@@ -11,15 +11,8 @@
 > run from the round seed overshoots into a SPURIOUS dead-dilaton/huge-warp branch → re-grade NOT valid. NEXT =
 > PHYSICAL warm-start (LM-to-close → galerkin-POLISH), then re-grade across X + blind-verify; then the e^{2φ}-weight
 > + φ-seal-parity soft DERIVED-headlines; then DYNAMIC. Records: PROVENANCE_AUDIT_2026-06-30.md, D1_FIX_DESIGN.md.**
-> --- (HISTORICAL 2026-06-29) D1 determinacy fix implemented+blind-verified; re-solve stalled (which became the
-> X-kluge discovery above). kap8 caveats #2 (winding survived) + #3 (off-diagonals excluded)
-> CLOSED; native reframe (kap8 object = core-concentrated S² winding DEFECT, NOT a horizon); broad-sweep solver
-> AUDIT → FIX-FIRST list, top item **D1 = static solve is UNDERDETERMINED** (1776 eqns / 4224 unknowns,
-> null-dim 2448; quantitative results SOFT, qualitative SURVIVE); GR-numerics research → proven determined-posing
-> recipe; the **|n|=1 / amplitude FORK RESOLVED** (matter = rigid unit field, native; the magnitude version is a
-> gated Higgs-type import; amplitude ≠ φ); D1 fix designed + the BCs DERIVED from the seal mirror-fold parity +
-> core regularity + topology (off-diagonal split: e_rt,e_rp Dirichlet / e_tp Neumann; φ(seal)=0; matter seal-pin
-> dropped). Determinacy blind-verified; re-solve stalled on conditioning. (Full session arc + next moves: `LIVE.md` FRONTIER.)
+> --- The full 2026-06-29→30 arc (D1 determinacy fix → re-solve stall → X-kluge discovery → galerkin) lives in
+> LIVE.md's frontier (CURRENT + HISTORICAL blocks). Pre-2026-06-30 HANDOFF detail archived to `HANDOFF_ARCHIVE.md`.
 
 ## *** STANDING BINDING DISCIPLINE — read every resume (Charles 2026-06-19) ***
 **MISMATCH -> SOLVER, NOT MECHANISM.** If a result is far from observation, the FIRST hunt is the
@@ -40,12 +33,11 @@ CLAUDE.md tripwires + the `.claude/skills/` discipline skills + memory [[solver-
 
 ## Foundation (what the p1 MIGRATION builds on) + read order
 
-**The integrity-upgrades arc (P1-P5) is DONE** (records `p1..p5_*_results.md`; summary in LIVE.md): the purity
-harness (`pytest tests/` = 23 pass / 5 documented-gap xfails), `solver_action.py`, the discipline skills, cross-model
-verify, LIVE.md. **The 5 xfails = the MIGRATION acceptance tests** — the p1 migration (archive/MIGRATION.md) is flipping them
-as it wires the DERIVED operator + native S² into the live `p1_residual`. M1 (derived op+φ) / M2 (X-kinetic→−2e5) /
-M3 (Branch-P U) all GREEN to machine precision; M4a (kap8→1) RED = the open frontier (the e^{2φ} weight + Branch G/P
-fork the arc flagged are now resolved-in-the-operator and clean; only the kap8 strong-matter divergence remains).
+**The static solver is CODE-COMPLETE** (the p1 MIGRATION + integrity-upgrades arc are DONE — archived; details in
+`HANDOFF_ARCHIVE.md`): purity harness `pytest tests/` = **32 passed / 1 xfailed** (the 1 = the G/P-fork + charge-1-core
+HABIT-pin gate), `solver_action.py`, the discipline skills, cross-model verify. The DERIVED operator (e^{2φ} weight,
+a(φ)=e^{φ}) + native-S² matter are wired into the live `p1_residual`. (M2's X-kinetic value −2e5 is the one later
+caught as the **Cassini KLUGE** — see LIVE.md CURRENT STATE + `PROVENANCE_AUDIT_2026-06-30.md`.)
 
 **The native-matter arc foundation** (2026-06-22, blind-verified; records = `matter_object_identity_native_vs_import`,
 `complete_solver_stage1_general_einstein`, `native_s2_object_`/`twist_freed_`/`offround_twist_shear_results`): the
@@ -53,16 +45,17 @@ round/static soliton was an IMPORTED S³ Skyrme baryon; **UDT's NATIVE matter = 
 scale-free global-monopole DEFECT in every STATIC config** — and its discreteness is the integer TOPOLOGICAL CHARGE
 (Q=1, exact, native), NOT a localized lump (the "lump" search was FRAME CREEP — Charles's 2026-06-25 catch; the
 winding-native ruler in `prototype/winding_native_diagnostics.py`). The gravity operator is DERIVED (vacuum≠GR,
-weight e^{2φ}, a(φ)=e^{φ}); the migration is wiring it into `p1_residual` (branchGP, which prototyped it, is now a
-reference in `prototype/`). The STANDING φ-angular hunch's untested home is the TIME-LIVE / non-stationary sector,
-gated behind the kap8 question (M4b).
+weight e^{2φ}, a(φ)=e^{φ}) and is wired into the live `p1_residual` (branchGP, which prototyped it, is now a reference
+in `prototype/`). The STANDING φ-angular hunch's untested home is the TIME-LIVE / non-stationary sector (DYNAMIC),
+gated behind flooring the determined static solve on the right branch (see LIVE.md NEXT ACTION).
 
-**Read order for a new instance:** (0) **LIVE.md** (THE only-guaranteed-current file; archive/MIGRATION.md is now `archive/`). (1) CLAUDE.md
-"How we work" + ANTI-HANG + the `.claude/skills/` discipline skills; memories [[solver-migration-p1]],
-[[branchP-solver-continuation-x-premise]], [[charles-workflow-preferences]] (double-check=agent passes),
-native-matter-defect-import-discovery, solver-first-not-mechanism. (2) THIS FILE + archive/REORG_PLAN.md + the named results
-docs. (3) CANON.md (C-2026-06-14-1; C-2026-06-18-1 — both SURVIVE); NEGATIVES_REGISTRY; FOUNDATIONAL_ASSUMPTIONS_LEDGER.
-**HANDOFF_ARCHIVE.md + STATE.md + git + `archive/` = the deep historical record** (all pre-migration frontier blocks).
+**Read order for a new instance:** (0) **LIVE.md "CURRENT STATE" block** (THE only-guaranteed-current file). (1) CLAUDE.md
+"How we work" + ANTI-HANG + the `.claude/skills/` discipline skills; frontier memory [[d1-fix-and-matter-fork-resolved]]
+(the X-kluge/galerkin state) + [[apply-purist-logic-proactively]], [[solution-space-not-imposition]],
+[[charles-workflow-preferences]], native-matter-defect-import-discovery, solver-first-not-mechanism. (2) THIS FILE +
+`PROVENANCE_AUDIT_2026-06-30.md` + `D1_FIX_DESIGN.md` + the named results docs. (3) CANON.md (C-2026-06-14-1;
+C-2026-06-18-1 — both SURVIVE); NEGATIVES_REGISTRY; FOUNDATIONAL_ASSUMPTIONS_LEDGER.
+**HANDOFF_ARCHIVE.md + STATE.md + git + `archive/` = the deep historical record** (all pre-2026-06-30 frontier blocks).
 
 ## Must-not-lose (durable facts)
 - DATA-BLIND wall numbers (NEVER load during a derivation): the six lepton wall numbers, contract

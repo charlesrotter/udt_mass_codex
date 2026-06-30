@@ -613,3 +613,22 @@ scoreboard these are additive/framing, NOT result-changing. MAP first; DATA-BLIN
 ## *** (ARCHIVED) earlier resume blocks moved out ***
 The 2026-06-21 EARLIER foundational-audit framing + the 2026-06-20 everything-on-solver / Quant-Step-A block were
 moved to HANDOFF_ARCHIVE.md (superseded by the EVENING block above + COMPLETION_PROGRAM.md). Git has full history.
+
+---
+
+## ARCHIVED 2026-06-30 from HANDOFF.md (superseded by the X-kluge/galerkin frontier; LIVE.md is authoritative)
+
+**(HISTORICAL 2026-06-29) D1 determinacy fix** implemented+blind-verified; re-solve stalled (which became the
+X-kluge discovery). kap8 caveats #2 (winding survived) + #3 (off-diagonals excluded) CLOSED; native reframe (kap8
+object = core-concentrated S² winding DEFECT, NOT a horizon); broad-sweep solver AUDIT → FIX-FIRST list, top item
+D1 = static solve UNDERDETERMINED (1776 eqns / 4224 unknowns, null-dim 2448; quantitative SOFT, qualitative SURVIVE);
+GR-numerics research → proven determined-posing recipe; |n|=1/amplitude FORK RESOLVED (matter = rigid unit field;
+magnitude version = gated Higgs import; amplitude ≠ φ); D1 BCs DERIVED (seal mirror-fold parity + core regularity +
+topology; off-diagonal split e_rt,e_rp Dirichlet / e_tp Neumann; φ(seal)=0; matter seal-pin dropped).
+
+**(STALE migration-era, P1-P5 / MIGRATION) — the integrity-upgrades arc was DONE** (records p1..p5_*_results.md):
+purity harness, solver_action.py, discipline skills, cross-model verify, LIVE.md. The "5 xfails = MIGRATION
+acceptance tests" framing (M1 derived-op+φ / M2 X-kinetic→−2e5 / M3 Branch-P U all GREEN; M4a kap8→1 RED) is
+SUPERSEDED: the static solver became code-complete, the kap8 question was characterized, pytest is now 32 passed /
+1 xfailed (the 1 = the G/P-fork + charge-1-core HABIT-pin gate). The migration (archive/MIGRATION.md) is closed.
+(Note: M2's X-kinetic→−2e5 is exactly the value later caught as the Cassini KLUGE — see PROVENANCE_AUDIT_2026-06-30.md.)
