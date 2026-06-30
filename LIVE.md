@@ -81,6 +81,23 @@ step) replacing uniform-damped LM → then the determined solve should FLOOR →
 Also done 2026-06-30: removed the silent coupling-default TRAP in branch_operator (X/xi/kap now require explicit pass).
 Equilibration/KTE/integration-preconditioner line = SUPERSEDED (the conditioning was the X kluge, now being explored).
 
+**=== GALERKIN BASIS BUILT — CONDITIONING FIXED, but the cold run floors to a SPURIOUS branch (2026-06-30 EOD) ===**
+Built `galerkin_basis.py` (BC-recombined radial basis) + `newton_solve_p1(step='galerkin')` (change-of-variables
+du=B@da; residual physics unchanged; lm default byte-stable, pytest 32/1xfail). Conditioning FIXED: cond(J@B) drops
+38x, stiff near-edge modes lifted. **Seal-BC reconciliation (commit 80d8e37):** the basis enforces the seal BC in
+WARP form (c'(ri)=-1/ri etc.); the residual imposed the SPECTRAL d_r(g_thth) form — inconsistent at Nr=8 (projection
+catapulted Phi 2e-3→7e7). FIXED by discretizing the residual seal rows (b,c,d,e_tp) in the matching warp-Robin form
+(== d_r(g_*)=0 in continuum; Category-A; 1/ri,2/ri are DERIVED geometry, registered in test_solver_integrity).
+**RESULT — honest:** the determined solve now DESCENDS 6 orders (round seed Phi 23.8→1.5e-5, where LM/equil/KTE/SVD all
+crawled at 2e-3) — **conditioning machinery WORKS.** BUT (`d1_gauge_check.py`): the 1.5e-5 residual is **100% PHYSICAL
+band (NOT gauge) → still UNDER-CONVERGED**, AND the observables moved SUSPICIOUSLY vs the old crawl-floor: **dilaton
+φ_max 0.90→0.021 (nearly DEAD), max warp 2.57→10.1 (BLEW UP), ρ_max 0.0097→3e-8 (collapsed), lapse 0.55→0.31** (only
+winding Q≈1 survived). => the **cold galerkin run wandered into a SPURIOUS extreme-warp/dead-dilaton branch** (big steps
+from the far round seed overshoot), NOT the physical compact object. **The "floor" is the residual onto a suspicious
+branch — the re-grade is NOT valid.** **NEXT (when resumed): gentler globalization / PHYSICAL warm-start — LM-to-close
+then galerkin-POLISH near the physical solution — so it floors the RIGHT branch, not a cold run that overshoots.**
+Conditioning saga otherwise fully resolved (determinacy, core-BC, X-kluge, soft modes, posing-consistency, edge-cond).
+
 **GIT: push went down mid-session (auth) then RESTORED 2026-06-29 — fully synced (origin/main == HEAD). No
 unpushed commits.** (If push fails again it's auth: `gh auth login`.)
 

@@ -277,3 +277,23 @@ Decisive test (`d1_lsfloor_test.py`, SVD of the determined Jacobian at the X=-1 
 - **NEXT (building): a better Newton step** — SVD-pseudoinverse + line-search (regularize only genuinely-null
   directions, take the reducible directions directly, scale by what the nonlinear residual accepts) replacing the
   uniform-damped LM. Category-A globalization. Then the determined solve should FLOOR -> trustworthy re-grade.
+
+---
+
+## GALERKIN BASIS: CONDITIONING FIXED, but the cold run floors to a SPURIOUS branch (2026-06-30 EOD; honest)
+`galerkin_basis.py` (BC-recombined radial basis) + `newton_solve_p1(step='galerkin')` (change-of-vars du=B@da;
+physics unchanged; lm default byte-stable, pytest 32/1xfail). Conditioning FIXED: cond(J@B) -38x, near-edge modes
+lifted. Seal-BC reconciliation (commit 80d8e37): residual seal rows b,c,d,e_tp changed to the warp-Robin form the
+basis uses (c'(ri)=-1/ri; e_tp'(ri)+(2/ri)e_tp=0; == d_r(g_*)=0 in continuum; Category-A; 1/ri,2/ri DERIVED geometry,
+registered "/ G.ri" in test_solver_integrity). Without this the projection catapulted Phi 2e-3->7e7 (residual used
+SPECTRAL d_r(g_thth), basis used analytic warp -> inconsistent at Nr=8).
+- **WORKS for conditioning:** cold round-seed galerkin descends 6 orders (23.8 -> 1.5e-5) where LM/equil/KTE/SVD all
+  crawled at 2e-3.
+- **BUT the floored field is SPURIOUS (`d1_gauge_check.py`):** the 1.5e-5 residual is 100% in the PHYSICAL singular
+  band (0% gauge) => UNDER-CONVERGED, still moving; and the observables moved alarmingly vs the old crawl-floor:
+  dilaton phi_max 0.90->0.021 (nearly dead), max warp 2.57->10.1, rho_max 0.0097->3e-8, lapse 0.55->0.31 (Q~1 only).
+  The cold galerkin run (big steps from the far round seed) overshot into a degenerate extreme-warp/dead-dilaton
+  branch, NOT the physical compact object. **The re-grade is NOT valid on this field.**
+- **NEXT (resume): gentler globalization / PHYSICAL warm-start** -- LM-to-close (the physical basin), THEN galerkin
+  to POLISH near it -- so the floor lands on the RIGHT branch. (The cold-galerkin overshoot is a globalization bug,
+  not a basis or conditioning failure; the basis + seal-BC reconciliation are correct and banked.)
