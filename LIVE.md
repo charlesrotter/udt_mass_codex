@@ -14,8 +14,10 @@ HANDOFF.md TOP + EXTERNAL_AUDIT_2026-06-30.md → INDEX.md (repo map).
   (incl. cross-model escalation), **no-shortcuts** (run `python3 -m pytest tests/`), **completeness-map**.
 - **DRIVER TRIGGERS (CLAUDE.md, always-loaded) + harness HOOKS** (`.claude/hooks/corral_trigger.py`,
   fires on Task/Bash/git-commit) now make the corral fire WITHOUT being challenged — pause+honesty, never
-  merit; the allowed-lane clause (category-A technique always GREEN) is non-droppable. Memory freshness:
-  every DATED memory carries a CURRENT/SUPERSEDED/HISTORICAL tag (read CURRENT only). Local-LLM cross-check
+  merit; the allowed-lane clause (category-A technique always GREEN) is non-droppable. Memory freshness: the
+  TOP entry in MEMORY.md is the CURRENT frontier; older FRONTIER-labeled entries are tagged "SUPERSEDED as
+  frontier" (durable lesson only — do NOT treat their "NEXT/read-FIRST" as live); the rest are durable
+  principle-memories (binding, not dated frontiers). Read the TOP entry + this LIVE file for the live plan. Local-LLM cross-check
   to come — wiring = `export_for_local_llm.py` (refuses untagged DATED). Record = `cognitive_corral_triggers_results.md`.
   **PENDING — FIRST ACTION next fresh session (catch-proof §4, Charles will verify):** confirm the `## DRIVER
   TRIGGERS` section AUTO-LOADS — before touching any file, recite the 6 triggers / the allowed-lane clause from

@@ -307,13 +307,13 @@ redirect (nonstationary weld sector / transfer ladder / ensembles).
   anything else disagrees with it, LIVE.md wins. Read order: **LIVE.md → CLAUDE.md "How we work" +
   "DRIVER TRIGGERS" + the `.claude/skills/` discipline skills → HANDOFF.md TOP (detailed record) →
   INDEX.md (repo map).**
-- **Current state (2026-06-27, see LIVE.md for the live version):** the STATIC SOLVER is CODE-COMPLETE
-  (derived operator, all DOF live incl. off-diagonals, native-S² 3-component matter, grid-exact,
-  `pytest tests/` = 32/1xfail); the kap8=1 characterization RAN (PARTIAL — both branches mild/N-stable,
-  the "cured" headline verifier-rejected; winding SURVIVED = real matter; open follow-ups B/D). Guardrails
-  hardened (DRIVER TRIGGERS + harness hooks + memory freshness + LLM export gate). NEXT = the open solver
-  follow-ups, then DYNAMIC (time-live native S²). Records: `kap8_characterization_complete_solver_results.md`,
-  `cognitive_corral_triggers_results.md`.
+- **Current state (2026-06-30 EOD — LIVE.md "CURRENT STATE" block is authoritative; this is a pointer):** the
+  static solver is CODE-COMPLETE + the D1 determinacy / core-BC / conditioning saga is RESOLVED (none indicted the
+  metric). THE BIG DISCOVERY: **X=−2e5 is a Cassini-FORCED FIT mis-tagged `# FREE`** — the LONE observation-fit
+  kluge on the live path (2 audits incl. blind) → PIVOTED to EXPLORE X. The galerkin BC-basis + seal-BC
+  reconciliation fixed the conditioning (determined solve descends 6 orders); it exposed TWO under-converged basins.
+  **NEXT = a NEUTRAL BASIN AUDIT (classify, don't select — NOT "find the physical branch"); see LIVE.md.** pytest
+  32/1xfail. Records: `LIVE.md`, `PROVENANCE_AUDIT_2026-06-30.md`, `EXTERNAL_AUDIT_2026-06-30.md`, `D1_FIX_DESIGN.md`.
 - **SUBSUMED / HISTORICAL trackers (do NOT treat as the live frontier — moved to `archive/` or tagged):**
   COMPLETION_PROGRAM.md, SOLVER_COMPLETENESS_MAP.md, POST_POSTULATE_PROGRAM.md, MIGRATION.md, REORG_PLAN.md,
   and the FOUNDATIONAL_ASSUMPTIONS_LEDGER.md F0-F8 scoreboard — all superseded by the static-solver

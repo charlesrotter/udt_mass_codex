@@ -1,8 +1,16 @@
-# D1 determinacy fix — DESIGN SPEC (PROPOSAL, pending Charles's BC sign-off)
+# D1 determinacy fix — DESIGN + IMPLEMENTATION RECORD (✅ IMPLEMENTED, not a pending proposal)
 
-**Status:** design only — no code edited, no solve. Several BC choices are FLAGGED premises requiring Charles's
-sign-off before implementation (anti-imposition + a derived-junction conflict). Design agent `a71a5861c6058a3e7`,
-2026-06-29. Recipe: `GR_NUMERICS_RESEARCH_2026-06-29.md`; matter model = verified RIGID unit field
+> **STATUS (2026-06-30): D1 is IMPLEMENTED, blind-verified (null-dim 0), and the conditioning/flooring arc is
+> COMPLETE — the determined posing + core-BC fix + galerkin basis + seal-BC reconciliation all DONE; pytest 32/1xfail.
+> The LIVE frontier is the BASIN AUDIT (see `LIVE.md` "CURRENT STATE" block). This file is the full design+build
+> RECORD (the sections below were originally a PROPOSAL but were implemented + corrected as the arc progressed — read
+> the dated sections in order). Do NOT re-implement D1; do NOT treat the "PROPOSAL / no code edited" wording below as
+> current.** The original header is preserved for the record:
+
+**(ORIGINAL HEADER, 2026-06-29 — superseded by the status banner above) DESIGN SPEC (PROPOSAL, pending Charles's BC
+sign-off). Status: design only — no code edited, no solve.** Several BC choices were FLAGGED premises requiring
+Charles's sign-off (anti-imposition + a derived-junction conflict). Design agent `a71a5861c6058a3e7`, 2026-06-29.
+Recipe: `GR_NUMERICS_RESEARCH_2026-06-29.md`; matter model = verified RIGID unit field
 (`matter_amplitude_native_MAP_2026-06-29.md` — no amplitude DOF; that's a gated import).
 
 ## The determined posing (the category-A part — clean, mechanical)
