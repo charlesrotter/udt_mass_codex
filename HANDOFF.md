@@ -7,10 +7,14 @@
 > X=−2e5 (dilaton kinetic/curvature ratio) is a Cassini-FORCED FIT mis-tagged `# FREE`; 2 audits (incl. blind)
 > confirm it's the LONE observation-fit kluge on the live path → PIVOTED to EXPLORE X (object is X-stable). The
 > whole conditioning saga is RESOLVED in understanding (none indicted the metric). Built the GALERKIN BC-recombined
-> basis + seal-BC reconciliation → the determined solve now DESCENDS 6 orders (conditioning FIXED) — BUT the COLD
-> run from the round seed overshoots into a SPURIOUS dead-dilaton/huge-warp branch → re-grade NOT valid. NEXT =
-> PHYSICAL warm-start (LM-to-close → galerkin-POLISH), then re-grade across X + blind-verify; then the e^{2φ}-weight
-> + φ-seal-parity soft DERIVED-headlines; then DYNAMIC. Records: PROVENANCE_AUDIT_2026-06-30.md, D1_FIX_DESIGN.md.**
+> basis + seal-BC reconciliation → the determined solve now DESCENDS 6 orders (conditioning FIXED). REFRAMED after an
+> external audit (NEUTRAL framing per the anti-imposition gate — NO merit judgment): there are TWO under-converged
+> BASINS — Branch A (LM/crawl, alive dilaton, ~2e-3) vs Branch B (cold-galerkin, ~1.5e-5 but dead-dilaton/extreme-warp,
+> physical-band); NEITHER is "the physical object". NEXT (next session, context-limited) = a **BASIN AUDIT**: continue
+> BOTH under identical fair globalization + a per-run manifest, **CLASSIFY don't select**, reject only vs a
+> PRE-REGISTERED geometric criterion. Do NOT do "LM-to-close → galerkin-polish" alone (biases Branch A by construction).
+> Then re-grade across X + blind-verify; the e^{2φ}-weight (couples to Branch B's dead dilaton) + φ-seal-parity soft
+> DERIVED-headlines; then DYNAMIC. Records: `EXTERNAL_AUDIT_2026-06-30.md`, PROVENANCE_AUDIT_2026-06-30.md, D1_FIX_DESIGN.md.**
 > --- The full 2026-06-29→30 arc (D1 determinacy fix → re-solve stall → X-kluge discovery → galerkin) lives in
 > LIVE.md's frontier (CURRENT + HISTORICAL blocks). Pre-2026-06-30 HANDOFF detail archived to `HANDOFF_ARCHIVE.md`.
 

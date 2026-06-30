@@ -52,7 +52,11 @@ not converged — strong signal, not floor-certified.
   degree-1 throughout, NO horizon at any X, warps/density flat. => the kap8=1 "winding-defect, not-a-horizon"
   result **survives un-pinning X** — a robust metric feature, NOT a creature of the Cassini-pinned X=-2e5.
 
-## 4. THE NEW CENTRAL PUZZLE: it does NOT floor even at the well-conditioned X=-1
+## 4. [SUPERSEDED later 2026-06-30 — RESOLVED; see LIVE.md CURRENT STATE] The non-flooring puzzle at X=-1
+**RESOLVED after this was written:** `d1_lsfloor_test.py` proved F is 99.9% REDUCIBLE (a near-exact solution EXISTS;
+posing CONSISTENT) → the non-flooring was solver GLOBALIZATION, not a posing flaw. The galerkin BC-basis + seal-BC
+reconciliation then made the determined solve DESCEND 6 orders. The live open item is NOT this puzzle but the BASIN
+AUDIT (Branch A vs B; see LIVE.md). Original (now-stale) note kept below for the record:
 At X=-1, smax~2.4e4 (good conditioning), yet 40 iters from the seed → Phi=2e-3, not floored. So there is a
 convergence obstruction BEYOND the X-stiffness we'd blamed. This is now the top solver-trust item — it undercuts
 trusting any quantitative result until resolved. NEXT: localize where the Phi=2e-3 residual concentrates (cheap

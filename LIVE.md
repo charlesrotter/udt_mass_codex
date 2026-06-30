@@ -1,9 +1,11 @@
 # LIVE — the only guaranteed-current file (READ ME FIRST)
 
-Everything here is true RIGHT NOW. `HANDOFF.md` / `STATE.md` are detailed history; **if they
-disagree with this file, THIS file wins.** No stale next-steps live here.
-**Read order:** LIVE.md → CLAUDE.md "How we work" + the discipline skills → (for detail)
-HANDOFF.md TOP → INDEX.md (repo map).
+**The "## ============ FRONTIER ... CURRENT STATE" block below is the ONLY current frontier** — read it and stop;
+everything under the "↓↓↓ HISTORICAL ARC" / "SUPERSEDED" fences is labeled-stale detail (mine for history, not the
+plan). `HANDOFF.md` / `STATE.md` are detailed history; **if they disagree with this file's CURRENT STATE block, the
+CURRENT STATE block wins.**
+**Read order:** LIVE.md CURRENT STATE → CLAUDE.md "How we work" + the discipline skills → (for detail)
+HANDOFF.md TOP + EXTERNAL_AUDIT_2026-06-30.md → INDEX.md (repo map).
 
 ## Binding method (never skip)
 - CLAUDE.md "How we work": MAP / OBSERVE / PONDER are primary, DERIVE is gated. Let structure
@@ -127,7 +129,10 @@ step) replacing uniform-damped LM → then the determined solve should FLOOR →
 Also done 2026-06-30: removed the silent coupling-default TRAP in branch_operator (X/xi/kap now require explicit pass).
 Equilibration/KTE/integration-preconditioner line = SUPERSEDED (the conditioning was the X kluge, now being explored).
 
-**=== GALERKIN BASIS BUILT — CONDITIONING FIXED, but the cold run floors to a SPURIOUS branch (2026-06-30 EOD) ===**
+**=== GALERKIN BASIS BUILT — CONDITIONING FIXED; cold run reaches a 2nd basin (2026-06-30 EOD) ===**
+*(⚠️ The words "spurious / RIGHT branch / physical compact object" in THIS historical block are PRE-REFRAME MERIT
+language — REPLACED by the neutral Branch A/B basin-audit framing in the CURRENT STATE block at the top of this file.
+Read this block for the technical detail (the seal-BC reconciliation, the numbers), NOT for the framing of what to do.)*
 Built `galerkin_basis.py` (BC-recombined radial basis) + `newton_solve_p1(step='galerkin')` (change-of-variables
 du=B@da; residual physics unchanged; lm default byte-stable, pytest 32/1xfail). Conditioning FIXED: cond(J@B) drops
 38x, stiff near-edge modes lifted. **Seal-BC reconciliation (commit 80d8e37):** the basis enforces the seal BC in
