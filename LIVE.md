@@ -69,9 +69,16 @@ X is the LONE observation-fit kluge on the live path** (kap8=1 verified DERIVED;
 no swarm). Two soft DERIVED-headlines flagged: **the e^{2φ} matter weight** (CHOSE, LIVE, O(5) at hadronic depth =
 Principle-2 territory — Charles's eye owed) and **φ(seal)=0 parity** (two docs contradict). **X-SWEEP (PROVISIONAL,
 unfloored): the kap8=1 object is X-STABLE across X=-1..-1000** (winding EXACTLY 1, dilaton alive φ≈0.8, no horizon,
-flat warps) → NOT a Cassini artifact; recent results survive un-pinning X. **NEW CENTRAL PUZZLE: the determined solve
-does NOT floor even at well-conditioned X=-1 (Phi~2e-3, 40 iters) → a convergence obstruction BEYOND X-stiffness.**
-NEXT = localize where the Phi=2e-3 residual concentrates (cheap row/sector breakdown) before expensive re-solves.
+flat warps) → NOT a Cassini artifact; recent results survive un-pinning X. **NON-FLOORING RESOLVED: it's solver GLOBALIZATION, not a posing flaw.**
+The determined solve crawls (~0.3%/iter) even at well-conditioned X=-1, but `d1_lsfloor_test.py` proves **F is 99.9%
+REDUCIBLE** (irreducible LS floor from the 4608-vs-4224 over-determination = only 2.67e-6) → a near-exact solution
+EXISTS; the posing is CONSISTENT. The reducible residual lives in the SOFT (benign gauge/rotation) directions that
+the uniform LM lam*I damping suppresses → crawl. **Whole conditioning saga resolves: determinacy FIXED, core-BC
+FIXED, smax = the X=-2e5 KLUGE (pivoted to explore X), soft modes = benign symmetries, posing CONSISTENT,
+non-flooring = solver globalization — none indicted the metric.** NEXT (building): **a better Newton step — SVD-
+pseudoinverse + line-search** (regularize only genuinely-null dirs; take reducible dirs; scale by nonlinear-accepted
+step) replacing uniform-damped LM → then the determined solve should FLOOR → trustworthy re-grade across X.
+Also done 2026-06-30: removed the silent coupling-default TRAP in branch_operator (X/xi/kap now require explicit pass).
 Equilibration/KTE/integration-preconditioner line = SUPERSEDED (the conditioning was the X kluge, now being explored).
 
 **GIT: push went down mid-session (auth) then RESTORED 2026-06-29 — fully synced (origin/main == HEAD). No

@@ -259,3 +259,21 @@ single-point, blind-verify owed before banking — but the signal is clean):
   handled by the LM damping automatically (it regularizes the soft SVs). So smin is NOT a flooring obstruction.
 - **=> the ONLY remaining flooring obstruction is smax~7e6** (Chebyshev endpoint differentiation amplification) —
   a pure Category-A NUMERICAL technique (mapped/declustered grid or integration preconditioner), no physics choice.
+
+---
+
+## NON-FLOORING RESOLVED: it's solver GLOBALIZATION, NOT a posing inconsistency (2026-06-30)
+The determined solve does not floor even at the well-conditioned X=-1 (Phi stuck ~2e-3, crawling ~0.3%/iter).
+Decisive test (`d1_lsfloor_test.py`, SVD of the determined Jacobian at the X=-1 field): project F onto range(J).
+- **F is 99.9% REDUCIBLE** (reducible 2.092e-3 of Phi 2.095e-3; the irreducible left-null/LS floor from the
+  4608-vs-4224 over-determination is only **2.67e-6**). So the posing is CONSISTENT — a near-exact solution exists.
+- => the non-flooring is **slow convergence (solver globalization)**, NOT a wrong BC / over-determination / physics
+  inconsistency. The reducible residual lives in the SOFT directions of J (the benign gauge/rotation modes, small
+  SV); the LM's uniform lam*I damping suppresses exactly those while the strong nonlinearity (warps~2.6) makes the
+  full step overshoot -> the solver can't efficiently take the step that demonstrably EXISTS.
+- **Whole conditioning/flooring saga resolves cleanly:** determinacy FIXED, core-BC FIXED, smax = the X=-2e5 KLUGE
+  (pivoted to explore X), soft modes = benign DERIVED symmetries, posing = CONSISTENT, non-flooring = solver
+  globalization. Every layer was fixable or benign — none indicted the metric. (Good for solver trust.)
+- **NEXT (building): a better Newton step** — SVD-pseudoinverse + line-search (regularize only genuinely-null
+  directions, take the reducible directions directly, scale by what the nonlinear residual accepts) replacing the
+  uniform-damped LM. Category-A globalization. Then the determined solve should FLOOR -> trustworthy re-grade.
