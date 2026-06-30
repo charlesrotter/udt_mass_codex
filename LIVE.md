@@ -56,13 +56,23 @@ singular-core coupled mixed-BC system: integration/quasi-inverse (ultraspherical
 recombination vs parity — parity's r^l is flagged for SMOOTH origins, ours is singular). Phase 2 = build + revalidate
 conditioning + re-solve + re-grade. OPERATIONAL: next solve UNBUFFERED (python3 -u, NO grep pipe — it hid progress 2.5h).
 Records: `D1_FIX_DESIGN.md` (P1-(1) + CONDITIONING INVESTIGATION). Matter-model fork RESOLVED (rigid unit / amplitude=gated import).
-**SOFT-MODE CHARACTERIZED (2026-06-29, Charles "derive don't assert"):** the 2 near-null directions (smin~1e-4, NOT
-the 6e-9 garbage-point value) are DERIVED SYMMETRIES — mode#1 = the matter SO(3) ROTATION (79% overlap w/ ω_z×n,
-77% matter, invariants unmoved), mode#2 = a metric DIFFEOMORPHISM gauge mode (off-diag, invariants unmoved). **No
-imposition needed** — they're the action's own rotation+coordinate invariance, benign, LM-damping-handled; smin is
-NOT a flooring obstruction. So the ONLY remaining obstruction = smax~7e6 (Chebyshev endpoint amplification), a pure
-Category-A numerical fix. **NEXT (in progress): mapped/declustered radial grid (KTE-type) to reduce smax → re-solve
-+ floor.** (`d1_softmode_characterize.py`; blind-verify the symmetry finding owed before banking.)
+**SOFT-MODE CHARACTERIZED (2026-06-29, Charles "derive don't assert"):** the 2 near-null directions (smin~1e-4) are
+DERIVED SYMMETRIES — mode#1 = matter SO(3) ROTATION (79% overlap w/ ω_z×n), mode#2 = metric DIFFEOMORPHISM gauge.
+No imposition needed (benign, LM-damping-handled); smin is NOT a flooring obstruction. (`d1_softmode_characterize.py`.)
+
+**=== MAJOR PIVOT (2026-06-30): the conditioning wall is the X=-2e5 KLUGE, not numerics. ===** smax was NOT Chebyshev
+endpoints (KTE falsified it: smax barely moved) — it is **smax ∝ |X|, carried entirely by the φ-EL row** (`d1_smax_source.py`).
+And X=-2e5 is a **Cassini-FORCED FIT mis-tagged FREE** (magnitude = the PPN bound rounded up; nothing in the metric
+selects it — Charles caught it). So we PIVOTED (Charles): stop forcing the floor at the imposed X; EXPLORE the
+determined solution across FREE X. **TWO PROVENANCE AUDITS (direct + blind-adversarial, `PROVENANCE_AUDIT_2026-06-30.md`):
+X is the LONE observation-fit kluge on the live path** (kap8=1 verified DERIVED; xi=kap=1 units; 2e-2 defaults dead;
+no swarm). Two soft DERIVED-headlines flagged: **the e^{2φ} matter weight** (CHOSE, LIVE, O(5) at hadronic depth =
+Principle-2 territory — Charles's eye owed) and **φ(seal)=0 parity** (two docs contradict). **X-SWEEP (PROVISIONAL,
+unfloored): the kap8=1 object is X-STABLE across X=-1..-1000** (winding EXACTLY 1, dilaton alive φ≈0.8, no horizon,
+flat warps) → NOT a Cassini artifact; recent results survive un-pinning X. **NEW CENTRAL PUZZLE: the determined solve
+does NOT floor even at well-conditioned X=-1 (Phi~2e-3, 40 iters) → a convergence obstruction BEYOND X-stiffness.**
+NEXT = localize where the Phi=2e-3 residual concentrates (cheap row/sector breakdown) before expensive re-solves.
+Equilibration/KTE/integration-preconditioner line = SUPERSEDED (the conditioning was the X kluge, now being explored).
 
 **GIT: push went down mid-session (auth) then RESTORED 2026-06-29 — fully synced (origin/main == HEAD). No
 unpushed commits.** (If push fails again it's auth: `gh auth login`.)
