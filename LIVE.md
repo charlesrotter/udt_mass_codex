@@ -82,6 +82,25 @@ first-class in the gate's import graph; hooks are reminders not guards. (Full ex
 **Key files:** `galerkin_basis.py`, `newton_solve_p1(step='galerkin'|'lm')`, `d1_gauge_check.py`,
 `x_solution_space_explore.py`, `PROVENANCE_AUDIT_2026-06-30.md`, `D1_FIX_DESIGN.md`. Op: solves UNBUFFERED, single process.
 
+### RESUME RUNBOOK (the concrete first moves — verified 2026-06-30; everything below is ON DISK + committed)
+0. **Confirm guardrails** (catch-proof §4): see the `✓ CORRAL GUARDRAILS ACTIVE` banner + recite the 6 DRIVER TRIGGERS
+   from context. `python3 -m pytest tests/` → expect **32 passed / 1 xfailed**.
+1. **The two start-fields EXIST + committed** (don't regenerate — hours each): **Branch A** = `xexplore_field_X1.pt`
+   (X=−1, Φ=2.09e-3, branch G, kap8=1, determined — LM/crawl, alive dilaton); **Branch B** = `galerkin_floored_X1.pt`
+   (X=−1, Φ=1.57e-5, same provenance — cold-galerkin, dead dilaton/extreme warp). Diagnostics: reuse `d1_gauge_check.py`
+   (observables Q/φ_max/warp/ρ_max/lapse + the physical/gauge residual split).
+2. **PRE-REGISTER FIRST, with Charles (do NOT skip — pre-registration discipline):** define + COMMIT the geometric
+   ACCEPTANCE/REJECTION criterion BEFORE any solve (e.g. what warp/compactness/dilaton-survival values would reject a
+   basin), so classification can't be retrofitted. The criterion does NOT exist yet — it's a PONDER-with-Charles item.
+3. **Pre-test hygiene:** write the basin-audit driver to pass ALL provenance EXPLICITLY (X, xi, kap, kap8, branch, p,
+   wbc, determined, step, grid — `residual_vector_p1`/`newton_solve_p1` still SILENTLY default X=−1/xi=1/kap=1/branch=G;
+   do not rely on them) and PRINT the manifest per run (run_id, seed_type, start_field, all provenance, Phi,
+   physical/gauge residual split, Q, φ_max, warp_max, ρ_max, lapse_min, accepted_steps).
+4. **Run the BASIN AUDIT (classify, don't select):** continue BOTH start-fields under IDENTICAL fair globalization
+   (e.g. step='galerkin' with damped/line-searched physical-band reduction — same settings both), log the manifest +
+   diagnostics, and CLASSIFY against the pre-registered criterion. Bounded grid, single process, UNBUFFERED, run MYSELF.
+   (Cleanup the ~14 one-off `d1_*.py`/`kte_*`/`x_*` diagnostic scripts = the §3-iii consolidation, owed but not blocking.)
+
 ---
 ### ↓↓↓ HISTORICAL ARC (2026-06-29 → 30; superseded by the CURRENT STATE above — mine for detail, not the frontier) ↓↓↓
 **One-line state (2026-06-29):** D1 determinacy FIXED+blind-verified (null-dim 0). The **core-BC FORM artifact is now FIXED+
