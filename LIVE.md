@@ -44,20 +44,39 @@ imposed X; **EXPLORE the determined solution across FREE X** (the X-sweep showed
 conditioning saga is resolved in understanding (determinacy FIXED, core-BC artifact FIXED, smax=the X-kluge, soft
 modes=DERIVED gauge/rotation symmetries, posing CONSISTENT [F 99.9% reducible], edge-cond) — **none indicted the
 metric.** Built the **galerkin BC-recombined basis + seal-BC reconciliation** → the determined solve now DESCENDS 6
-orders (where LM/equil/KTE/SVD all crawled at 2e-3) — **conditioning machinery WORKS, pytest 32/1xfail.** ⚠️ **OPEN
-THREAD:** the COLD galerkin run from the round seed **overshoots into a SPURIOUS extreme-warp/dead-dilaton branch**
-(φ_max 0.90→0.021, max warp 2.57→10, ρ→3e-8; only winding survived) and is still under-converged → **the re-grade is
-NOT valid on that field.** This is a GLOBALIZATION bug, not a basis/conditioning failure.
+orders (where LM/equil/KTE/SVD all crawled at 2e-3) — **conditioning machinery WORKS, pytest 32/1xfail.**
 
-**IMMEDIATE NEXT ACTION (resume here):** floor the RIGHT branch via a PHYSICAL warm-start — **LM-to-close (reach the
-physical basin), THEN galerkin-POLISH near it** (do NOT cold-galerkin from the round seed — it overshoots). Then
-RE-GRADE the soft quantities on the floored field, **across X**, and blind-verify before banking any physics. After
-that: the two soft DERIVED-headlines the audit flagged — **the e^{2φ} matter weight** (CHOSE, LIVE, O(5) at hadronic
-depth = Principle-2 territory, Charles's eye owed) and **φ(seal)=0 parity** (two docs contradict) — then DYNAMIC.
-**Key files:** `galerkin_basis.py`, `newton_solve_p1(step='galerkin')`, `d1_gauge_check.py` (the spurious-branch
-catch), `x_solution_space_explore.py`, `PROVENANCE_AUDIT_2026-06-30.md`, `D1_FIX_DESIGN.md` (full conditioning arc).
-**Cleanup owed:** legacy kap8=0.05 scripts; the §3-iii solver consolidation. Op note: solves UNBUFFERED (python3 -u,
-no grep pipe), single process, run MYSELF.
+⚠️ **OPEN — TWO BASINS, NOT a "spurious branch" (REFRAMED 2026-06-30 after an external audit; neutral framing per
+[[solution-space-not-imposition]] — the anti-imposition gate forbids MERIT judgments).** The driver had drifted into
+expectation language ("spurious / RIGHT / physical compact object"); there is NO derived or pre-registered criterion
+to reject either basin. State neutrally:
+- **Branch A** = the LM/crawl basin (alive dilaton φ_max≈0.90, modest warp≈2.6, residual ~2e-3, NOT floored).
+- **Branch B** = the cold-galerkin basin (low residual ~1.5e-5 but still UNDER-CONVERGED — residual in the PHYSICAL
+  band, still moving; dead dilaton φ_max≈0.021, extreme warp≈10, ρ→3e-8; winding Q≈1 in both).
+Neither is "the physical object." BOTH are under-converged. (`d1_gauge_check.py` = the diagnostic.)
+
+**IMMEDIATE NEXT ACTION (resume here) = BASIN AUDIT, not branch-selection.** Do NOT do "LM-to-close → galerkin-polish"
+as the only path — that biases toward Branch A by construction. Instead: (1) continue BOTH basins from their own
+starts under identical, fair globalization (damped/line-searched physical-band reduction); (2) track identical
+diagnostics + emit a MANIFEST per run (run_id, seed_type, start_field, X, xi, kap, kap8, branch, p, wbc, determined,
+step, grid, Phi, physical/gauge residual split, Q, φ_max, warp_max, ρ_max, lapse_min, accepted_steps); (3) CLASSIFY,
+don't select — let compactness / dilaton-survival / mass-localization EMERGE as diagnostics, NOT acceptance criteria;
+(4) reject a basin ONLY if it floors and violates a PRE-REGISTERED geometric criterion, or fails to floor under
+branch-local continuation. NB: Branch B's dead dilaton couples to the **e^{2φ} matter-weight** soft-headline — if that
+weight is wrong the basin structure may move; the two are linked.
+
+**PRE-TEST HYGIENE (cheap; do BEFORE the basin audit — external-audit items that could CONTAMINATE it):** (a) the
+basin-audit DRIVER hard-codes NO hidden provenance — pass X/xi/kap/kap8/branch/p/wbc/determined/step/grid explicitly +
+print the manifest (note: `residual_vector_p1`/`newton_solve_p1` STILL default X=-1/xi=1/kap=1/branch=G — a silent-
+default risk at the higher entrypoint, unlike branch_operator which now requires explicit; the driver must not rely on
+them); (b) keep the framing neutral (this block). **DEFER to before any PHYSICS claim (NOT blocking the basin audit):**
+action-registry staleness (`solver_action.py` still GR-baseline / MIGRATION-DEFERRED while the live path uses the
+derived e^{2φ} operator); premise-ledger upgrade (token-presence → call-path); add `determined=True` tests (liveness
+tests still exercise determined=False/kap8=0.05); split GR-baseline regression from live-UDT-action consistency
+(`test_operator_from_action.py` locks φ=0 = GR-baseline); make conditional solver modes (`galerkin`,`svd_ls`)
+first-class in the gate's import graph; hooks are reminders not guards. (Full external audit = `EXTERNAL_AUDIT_2026-06-30.md`.)
+**Key files:** `galerkin_basis.py`, `newton_solve_p1(step='galerkin'|'lm')`, `d1_gauge_check.py`,
+`x_solution_space_explore.py`, `PROVENANCE_AUDIT_2026-06-30.md`, `D1_FIX_DESIGN.md`. Op: solves UNBUFFERED, single process.
 
 ---
 ### ↓↓↓ HISTORICAL ARC (2026-06-29 → 30; superseded by the CURRENT STATE above — mine for detail, not the frontier) ↓↓↓
