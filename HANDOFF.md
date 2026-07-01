@@ -23,7 +23,7 @@
 > the electron"**; a UDT cell is a **finite MIRRORED domain** (not a lump in flat space — the infinity test is a
 > control only); Class A first = closed topological cell modes (smooth mirror seal φ'=ρ'=0, q=0, isolated cell sizes
 > per integer winding N); Class B later = charged pinned seal (q≠0); **N (sector) ≠ q (flux)**; 9 acceptance criteria;
-> no per-solution retuning. **Repo CONSOLIDATED** (1086 one-off .py → `legacy/root_oneoffs_2026-07-01/`; root 1113→27
+> no per-solution retuning. **Repo CONSOLIDATED** (1086 one-off .py → `legacy/root_oneoffs_2026-07-01/`; root 1113→29
 > .py; pytest 32/1xfail). **First solver built** (`cell_solver_round.py`): the derived frame makes the round cell a
 > CHEAP 1-D system — TWO fields φ(r),ρ(r) (ρ dynamical; areal ρ=r is the neutral sub-case). Vacuum mirror cell is
 > TRIVIAL → needs MATTER. **Round S² winding matter reduced + CAS-verified** (`round_matter_reduction_results.md`):

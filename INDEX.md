@@ -1,7 +1,7 @@
 # INDEX — Repo Map (frontier refreshed 2026-07-01 — RETURN-TO-SOLVER, native frame derived; see LIVE.md, authoritative)
 
 Navigable map of `udt_mass_codex`. **Structure (post-2026-07-01 consolidation):**
-- **root — now LEAN (27 `.py`, was 1113):** the 17-module test-import solver closure (the OLD wrong-frame
+- **root — now LEAN (29 `.py`, was 1113):** the 17-module test-import solver closure (the OLD wrong-frame
   static solver — kept only because pytest still imports it; retires when the new solver + test rewrite land),
   4 live tools, `matter_el_3d_gen.py` (codegen), the 5 this-session `verify_*.py`/`switch_criterion_derivation.py`
   (paired with results docs), plus the NEW derived-frame solver **`cell_solver_round.py`**. Markdown: orientation
@@ -56,9 +56,9 @@ the STANDING negatives' provenance is kept at root).
 
 **Purity gates / integrity arc (the discipline infrastructure — NEVER archive):** `SOLVER_INTEGRITY_UPGRADES_SPEC.md`,
 `P1_PURITY_HARNESS_MAP.md`, and the integrity-arc records `p1_*`/`p2_*`/`p3_*`/`p4_*`/`p5_*_results.md` +
-`p{1..4}_VERIFIER.md`. The machine harness is `tests/` (run `python3 -m pytest tests/`: 23 pass / 5
-documented-gap xfails) + the discipline skills in `.claude/skills/` (solver-first, no-shortcuts,
-verifier-before-record, completeness-map).
+`p{1..4}_VERIFIER.md` (the `p1_*`..`p5_*` records + VERIFIERs now archived to `legacy/root_oneoffs_2026-07-01/`).
+The machine harness is `tests/` (run `python3 -m pytest tests/`: **32 passed / 1 xfailed**) + the discipline skills
+in `.claude/skills/` (solver-first, no-shortcuts, verifier-before-record, completeness-map, solution-space-not-imposition).
 
 **Assumptions audits / programs:** `FOUNDATIONAL_ASSUMPTIONS_LEDGER.md` (the F0-F8 scoreboard, status-of-record —
 top-of-file FRONTIER STALE, body kept as record) · the live MAPs (`QUANTIZATION_MAP`,
@@ -107,10 +107,11 @@ The CODE-COMPLETE static solver + its audited building blocks (all root; MUST st
   mis-differentiated winding sin θ non-convergently; unblocked the pure native matter).
 - `check_winding_survival.py` — winding/|n| post-solve inspection (the parked follow-up: does the free core
   unwind to vacuum?).
-- `full3d_spectral.py`, `full3d_newton.py`, `full3d_solver.py`, `whole_metric_3d_core.py`,
-  `whole_metric_3d_matter.py`, `spectral_cheb.py`, `spectral_sph.py`,
+- `full3d_spectral.py`, `full3d_newton.py`, `whole_metric_3d_core.py`,
+  `whole_metric_3d_matter.py`, `matter_el_3d_gen.py` (codegen, exec'd by full3d_spectral at runtime),
+  `spectral_cheb.py`, `spectral_sph.py`, `galerkin_basis.py` (function-level import in p1),
   `einstein_3d_eval.py` (+ `einstein_3d_weyl_gen`, `einstein_3d_general_eval/_gen`), `solver_action.py`,
-  `spectral_radial_soliton.py`.
+  `spectral_radial_soliton.py`. (`full3d_solver.py` is now in `legacy/root_oneoffs_2026-07-01/` — NOT in the closure.)
 - Harness: `tests/test_solver_integrity.py`, `tests/test_operator_from_action.py`,
   `tests/test_solution_space_gate.py` (the 2 physics-blind anti-imposition lints) (+ conftest).
   `pytest tests/` = **32 passed / 1 xfailed** (the 1 xfail = `test_no_habit_pins`, the Branch G/P fork —
@@ -120,14 +121,18 @@ The CODE-COMPLETE static solver + its audited building blocks (all root; MUST st
 driver-trigger corral fires on Task/Bash/git-commit — pause+honesty, never merit) · `export_for_local_llm.py`
 (local-LLM cross-check export; refuses untagged DATED memory). Record = `cognitive_corral_triggers_results.md`.
 
-**Legacy tooling scripts (~510 `native_*.py`, of ~1078 root .py, still flat):** these back the kept research records
-(negative_phi / particle_spectrum) — one doc section = one script ("Implemented in `native_x.py`"). They are
-the microphysics-era tooling; mine for structure, not verdicts. (The .py layer was NOT curated — only the 19
-prototype/legacy drivers moved; a future pass could archive dead `native_*.py` with the same import-safety check.)
+**Legacy tooling scripts — ARCHIVED 2026-07-01.** The ~510 `native_*.py` (+ `w*`, `phase*`, `d1_*`, `p1..p5*`,
+topical-scan, historical `verify_*` one-offs — 1086 files) that backed the kept microphysics-era research records
+were moved to **`legacy/root_oneoffs_2026-07-01/`** in the return-to-solver consolidation (root went 1113→29 .py;
+pytest 32/1xfail preserved). One doc section = one script ("Implemented in `native_x.py`") still holds — resolve
+`native_x.py` under `legacy/root_oneoffs_2026-07-01/`. Mine for structure, not verdicts.
 
 ---
 
-## 3. Load-bearing results → script(s) → doc section (still valid; docs kept at root)
+## 3. Load-bearing results → script(s) → doc section (docs kept at root; SCRIPTS now in `legacy/root_oneoffs_2026-07-01/`)
+
+*(Every `native_*.py` in the Script column was archived 2026-07-01 to `legacy/root_oneoffs_2026-07-01/` — resolve
+filenames there. The DOC sections stay at root. These are canon-provenance for q=1/3 / η=1/18 / N=3, kept for that.)*
 
 | Result | Script(s) | Doc section |
 |---|---|---|
