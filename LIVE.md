@@ -103,6 +103,11 @@ cell lengths (φ,ρ,f close), unlabeled, fixed Z_φ/ξ/κ/N. Still collapses →
 The Z_φ fork stays a held-fixed parameter (consilience later); it does not gate the "are there cells at all?" question.
 Premise flags (standing): constrained-metric FORM (φ purely longitudinal) CHOSE-not-forced; angular term UNIQUE (K² excluded);
 Z_φ/mixing = OPEN FORK; seal-class (universe/matter ↔ A/B) OPEN; matter-φ-blind + shift rule ride R1+P5 (CHOSE).
+**STANDING RISKS (full analysis in HANDOFF.md "STANDING RISKS"): (1) the constrained-metric FORM may WALL OFF discreteness
+(off-round/non-static/φ-angular metric mixing excluded) → a "round static → continuum" result is a SLICE result, NEVER the
+theory's verdict; (2) Z_φ could become the new X-kluge fitting knob AND its fork is STRUCTURAL (Route B forces an extra
+φ-angular `e^φKφ'` term) — Z_φ doesn't gate "are there cells?" but DOES gate the quantitative ratios later. Both TAGGED (not
+hidden); the danger is only forgetting they're open.**
 **DO NOT (per Charles):** re-pose one-player in code, keep two-player as canonical, build any solver, or change the matter
 weight — until the action question is settled. Op: any CAS/solve UNBUFFERED, single process, no grep pipe, no nohup.
 

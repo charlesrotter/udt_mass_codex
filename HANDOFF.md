@@ -87,6 +87,36 @@ the five native-frame result docs + `discreteness_preregistration.md` + `round_m
 `cell_solver_round.py`. (3) CANON.md (C-2026-06-14-1; C-2026-06-18-1 — both SURVIVE); NEGATIVES_REGISTRY;
 FOUNDATIONAL_ASSUMPTIONS_LEDGER. **HANDOFF_ARCHIVE.md + STATE.md + git + `archive/` = the deep historical record.**
 
+## STANDING RISKS — the two flagged open items in the derived frame (Charles 2026-07-01, do NOT lose)
+Both are correctly TAGGED (unlike the X-kluge, which was mislabeled `# FREE` and so contaminated silently). A tagged
+open choice is manageable; the danger is only if we forget it's open. They come due at DIFFERENT stages — convenient
+for keeping them honest.
+
+**RISK 1 — the CONSTRAINED-METRIC FORM (the CHOSE) may WALL OFF the structure we're hunting.** Derived + solid: the
+exp clock law `g_tt=-e^{-2φ}` + the reciprocal tie `g_tt g_rr=-c²`. CHOSEN (not forced): static, diagonal, and the
+"φ purely longitudinal + h_AB independent transverse" split. The serious danger: if discreteness actually needs a
+metric structure our ansatz excludes — OFF-ROUND angular shape, a NON-STATIC/time-live piece, or φ mixing DIRECTLY
+into the angular sector at the METRIC level (not just via the matter/𝒦 coupling) — we could scan the round-static
+space forever, see only a continuum, and WRONGLY conclude "UDT has no discreteness." **A "round static → continuum"
+result must be read STRICTLY as "this SLICE is a continuum," NEVER as the theory's verdict** (whole-before-slice;
+frozen-DOF≠verdict). Load-bearing: ALL our derivations are SCOPED to this form — so if it's incomplete they're
+PARTIAL, not wrong; the staged plan (round → off-round → time-live) exists to un-freeze these one at a time. This is
+the bigger risk to WHETHER we find discreteness at all.
+
+**RISK 2 — the OPEN CONSTANT Z_φ.** (a) **It could become the new X-kluge**: if a quantitative result rides on Z_φ,
+the pull to "tune Z_φ until the ratios match" is the exact failure mode we just escaped — the pre-reg fence (held
+fixed, ONE global choice, no per-solution retuning, decided BEFORE checking the match, blind-verified) must actually
+hold. (b) **The fork is STRUCTURAL, not just a number**: Route B (`Z_φ=8`) FORCES an extra action term `e^φKφ'` (a
+longitudinal-transverse = φ-angular coupling); Route A omits it. So "open constant" is really "**is there an extra
+coupling term?**" — build in Route A and we may be missing a native channel (possibly THE φ-angular channel). (c)
+**Scoped:** Z_φ (overall kinetic normalization) mostly rescales SIZES → it does NOT gate the first question ("are
+there isolated cells?"); it DOES gate the QUANTITATIVE program (mass ratios) later. This is the bigger risk to
+getting the numbers right and NOT fooling ourselves.
+
+**Shared deep risk = INCOMPLETENESS** (a missing DOF for Risk 1; a missing term for Risk 2). Neither will announce
+itself — this is exactly where "keep auditing and digging until it's correct" earns its keep: is this scoped or
+general? chose or derived? whole or slice?
+
 ## Must-not-lose (durable facts)
 - DATA-BLIND wall numbers (NEVER load during a derivation): the six lepton wall numbers, contract
   26fc757. We predict RATIOS.
