@@ -30,7 +30,11 @@
 > ρ-source `ρ''_m=(e^{2φ}/4)(ξρI_r − κN²I_4θ/ρ³)`; **RIGID hedgehog (f=θ, I_r=0) → the cell COLLAPSES** (real, verified,
 > not a sign bug — rigid kills the outward ξρI_r channel).
 >
-> **IMMEDIATE NEXT (build, next session) = the MINIMALLY-FREE axisymmetric field f(r,θ)** (n=(sin f cosNψ, sin f sinNψ,
+> **IMMEDIATE NEXT (next session) — do NOT auto-start coding. FIRST: (a) startup self-check (banner + recite the 6
+> triggers + `pytest tests/`=32/1); (b) MAP the round-static f(r,θ) slice + a premise ledger (Z_φ/core-rule/constrained-
+> form/ξ,κ/N all CHOSE-or-held-fixed) + name what it does NOT test (off-round/non-static — see STANDING RISKS); (c)
+> PRESENT the plan to Charles and get his go (Session-workflow rule). It's OBSERVE mode, but still MAP+plan-present first.
+> THEN build = the MINIMALLY-FREE axisymmetric field f(r,θ)** (n=(sin f cosNψ, sin f sinNψ,
 > cos f); rigid=f=θ): a 2-D finite-mirror eigenproblem coupling f(r,θ) to φ(r),ρ(r) on a finite mirrored radial domain
 > (pole BCs f(r,0)=0,f(r,π)=π; mirror seal BCs). Matter EOM in `round_matter_reduction_results.md`. Do NOT insert I_r
 > by hand — let the BVP decide if f develops radial structure I_r>0 that balances the inward pull to a stable size

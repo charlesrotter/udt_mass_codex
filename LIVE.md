@@ -25,9 +25,10 @@ CURRENT STATE block wins.**
 
 ## ============ FRONTIER (2026-07-01 — RETURN TO SOLVER, native frame DERIVED) — READ THIS FIRST ============
 **⇒ WHERE WE ARE NOW (read this line first): the whole native frame is DERIVED + CAS + blind-verified; we have RETURNED TO
-BUILDING THE SOLVER on it. Pre-registration FROZEN (`discreteness_preregistration.md`). The IMMEDIATE NEXT ACTION is the 2-D
-free-field `f(r,θ)` finite-mirror eigenproblem — see the "SOLVER PROGRESS / IMMEDIATE NEXT ACTION" block further down. The
-field-equation results below are the DERIVED FOUNDATION (now complete + verified), not the pending frontier.**
+BUILDING THE SOLVER on it. Pre-registration FROZEN (`discreteness_preregistration.md`). The next work is the 2-D free-field
+`f(r,θ)` finite-mirror eigenproblem — but do NOT auto-start coding: FIRST run the startup self-check, then MAP the slice +
+premise ledger, then PRESENT the plan to Charles and get his go (see the "IMMEDIATE NEXT ACTION" block further down for the
+exact gate). The field-equation results below are the DERIVED FOUNDATION (now complete + verified), not the pending frontier.**
 
 **CURRENT STATE — Phase 1 (the derived foundation, 2026-07-01, all CAS + BLIND-verified):** The chain (basins → e^{2φ}-weight
 audit → frame audit) drove all the way to the FOUNDATION and Charles DERIVED the native UDT field equations (in-session).
@@ -96,8 +97,16 @@ perturbation-surviving, blind-classified (9 criteria in the pre-reg doc).
 the neutral sub-case, NOT free). Mirror-fold seal BC = φ'=ρ'=0 (drum → eigenvalue). VACUUM mirror cell is TRIVIAL (constant) →
 needs MATTER. Round S² winding matter reduced + CAS-verified (`round_matter_reduction_results.md`, `cell_solver_round.py`):
 `ρ''_m=(e^{2φ}/4)(ξρI_r − κN²I_4θ/ρ³)`. **RIGID hedgehog (f=θ, I_r=0) → the cell COLLAPSES (real, verified, not a sign bug)**;
-the stabilizing +ξρI_r needs RADIAL matter structure I_r>0; balance ρ⁴~κN²I_4θ/(ξI_r). **IMMEDIATE NEXT ACTION = BUILD the
-minimally-free axisymmetric field f(r,θ)** (n=(sin f cosNψ,sin f sinNψ,cos f); rigid=f=θ) — a 2-D finite-mirror eigenproblem
+the stabilizing +ξρI_r needs RADIAL matter structure I_r>0; balance ρ⁴~κN²I_4θ/(ξI_r).
+
+**IMMEDIATE NEXT ACTION — do NOT auto-start coding/computing. FIRST, in order:** (a) run the startup self-check (the
+`✓ CORRAL GUARDRAILS ACTIVE` banner → recite the 6 DRIVER TRIGGERS from context → `python3 -m pytest tests/` = 32 passed/1
+xfailed); (b) do the **MAP (no compute)** — state the round-static `f(r,θ)` slice WHOLE + a PREMISE LEDGER tagging every free
+choice (Z_φ, the core rule, the constrained-metric FORM, ξ/κ, N — all CHOSE/held-fixed) + name what this slice does NOT test
+(off-round, non-static — see HANDOFF "STANDING RISKS"); (c) **PRESENT the build plan to Charles in lay terms and get his go**
+(Session-workflow rule: "present the process plan before launching long pushes"). This is OBSERVE mode (sanctioned, not a gated
+DERIVE) — but it still goes through MAP + plan-present first; do not skip to code. **THEN build:**
+**the minimally-free axisymmetric field f(r,θ)** (n=(sin f cosNψ,sin f sinNψ,cos f); rigid=f=θ) — a 2-D finite-mirror eigenproblem
 coupling f(r,θ) to φ(r),ρ(r) (matter EOM in `round_matter_reduction_results.md`). Don't insert I_r by hand; look for ISOLATED
 cell lengths (φ,ρ,f close), unlabeled, fixed Z_φ/ξ/κ/N. Still collapses → scoped negative; isolated modes → first discreteness signal.
 The Z_φ fork stays a held-fixed parameter (consilience later); it does not gate the "are there cells at all?" question.
