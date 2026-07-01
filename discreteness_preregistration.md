@@ -47,6 +47,31 @@ or seal rules until a particle-like number appears. Count discreteness as real o
 solutions with quantized seal fluxes, found repeatedly from neutral scans, robust to numerical changes, and only
 compared to particles after the fact.
 
+## REFINEMENT (Charles, 2026-07-01) — finite mirrored cell; SEPARATE three things; two solver CLASSES
+The cell is a **finite mirrored domain** (canon: no spatial infinity), NOT a lump in flat space. The
+asymptotic-flat-infinity test is a CONTROL only, never the success criterion. And keep three things distinct:
+1. **N = topological winding sector** — a native integer, a legitimate source of discreteness; labels the
+   angular matter sector. **N is NOT the public flux q.**
+2. **Closed mirrored cell ⇒ q=0.** A smooth mirror-fold outer seal (`φ'=ρ'=0`) has public exterior flux
+   `q=(ρ²φ')_seal = 0`. Fine for the first eigenproblem — but do NOT call N the public charge.
+3. **Charged/public cell (q≠0) needs a nonzero seal flux** — a pinned/charged seal, NOT a smooth mirror.
+   Separate solver class; do not mix into the first.
+
+**CLASS A (first, this build): closed topological cell modes.** finite Branch-P domain; winding sector N;
+finite/singular core model; outer SMOOTH mirror seal (impose `φ'=0` AND `ρ'=0`); scan cell size for ISOLATED
+allowed modes at each integer N; output UNLABELED. **Discreteness (Class A) = for fixed N, Z_φ, core rule, the
+mirror-seal conditions close only at ISOLATED cell sizes.** It is NOT exterior particle charge.
+**CLASS B (later): charged public cell.** same interior winding cell; charged/pinned seal; nonzero q; test
+whether q is quantized by the allowed modes + seal law.
+
+**CORE MODEL — pre-registered (no tuning knobs):** rigid winding hedgehog as the first exploratory matter
+sector (NOT proven — a smooth center is forbidden by the equations, so a finite singular core is a justified
+model CLASS). FROZEN: fixed Z_φ; fixed integer N; fixed inner-core rule; scan cell length + core data NEUTRALLY;
+no particle labels; **no retuning per solution** (the core radius/BC must NOT become a fitting knob).
+
+**KEY ACCEPTANCE TEST (Class A):** for fixed N and fixed core rule, do the mirror-seal conditions close ONLY at
+isolated cell sizes (→ genuine finite-cell discreteness), or can every nearby size be adjusted to close (→ still
+a continuum)? First target is named **"closed topological cell modes," NOT "quantized public charge."**
+
 ## Status
-Committed as a pre-registration contract on 2026-07-01, before the constrained-two-player solver is built/run.
-Next: MAP the solver (recipe + how each criterion is instrumented), bring to Charles, then build (gated).
+Committed 2026-07-01 (+ the Class-A/B refinement above), BEFORE the finite-cell solver is built/run.
