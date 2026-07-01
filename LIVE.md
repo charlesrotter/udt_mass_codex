@@ -93,10 +93,17 @@ conditions from `δ(S_P+S_seal+S_G)=0`:
   (q is the normal-derivative flux, not the value — Dirichlet permits but doesn't force q≠0). The two-doc φ(seal) contradiction
   = these two seal CLASSES, not rival answers. Which cell (universe/matter) is which = OPEN physics/canon (Charles holds).
 
-**IMMEDIATE NEXT ACTION (2026-07-01, candidate — awaiting Charles's go):** either (i) which physical cell realizes Class A
-(closed) vs Class B (charged) + the seal source that charges a matter cell (couples via the seal's transverse geometry = the
-φ-angular structure); (ii) the **Z_φ fork → consilience**; or (iii) a **constrained-two-player SOLVER** (interior P + exterior G
-+ JC1/JC2), gated behind the Z_φ fork. MAP first, no solver.
+**PHASE SHIFT (Charles, 2026-07-01): DERIVATION DETOUR DONE → RETURN TO THE SOLVER.** More derivation now risks becoming a
+substitute for letting the geometry speak. The native frame is derived + trustworthy (one open constant Z_φ). BUILD the
+constrained-two-player solver ON THE DERIVED FRAME (interior P + exterior G + seal JC1/JC2) and let discreteness EMERGE.
+**PRE-REGISTRATION COMMITTED (`discreteness_preregistration.md`) — the falsification contract, frozen before solving.** Binding
+rule: **"Do not solve for the electron. Solve for the solution space."** Modest FIRST GOAL: does the derived system have ANY
+stable isolated finite-cell solutions AT ALL? (prove the geometry produces CELLS) → THEN do they form a DISCRETE FAMILY? →
+THEN (blind, after) compare to particles. Discreteness counts only if isolated/gapped, seed-independent, stability-without-
+imposed-targets, grid/method-independent, Z_φ-fixed (no per-solution retuning), quantized seal-flux q, branch-consistent,
+perturbation-surviving, blind-classified (9 criteria in the pre-reg doc). **IMMEDIATE NEXT ACTION = MAP the solver build**
+(recipe + how each pre-reg criterion is instrumented; bounded grid, single process, anti-hang), bring to Charles, then build.
+The Z_φ fork stays a held-fixed parameter (consilience later); it does not gate the "are there cells at all?" question.
 Premise flags (standing): constrained-metric FORM (φ purely longitudinal) CHOSE-not-forced; angular term UNIQUE (K² excluded);
 Z_φ/mixing = OPEN FORK; seal-class (universe/matter ↔ A/B) OPEN; matter-φ-blind + shift rule ride R1+P5 (CHOSE).
 **DO NOT (per Charles):** re-pose one-player in code, keep two-player as canonical, build any solver, or change the matter
