@@ -37,11 +37,15 @@ HANDOFF.md TOP + EXTERNAL_AUDIT_2026-06-30.md → INDEX.md (repo map).
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ FRONTIER (2026-07-01 — NATIVE FIELD EQUATIONS) — READ THIS FIRST ============
-**CURRENT STATE (2026-07-01 late — supersedes the basin/weight arc below):** The chain (basins → e^{2φ}-weight audit →
-frame audit) drove all the way to the FOUNDATION and Charles DERIVED the native UDT field-equation skeleton (in-session);
-the driver CAS-verified every step; blind-adversarial verifier PENDING. Full record: **`native_field_equations_constrained_two_player_results.md`**.
-Key results (all CAS-verified):
+## ============ FRONTIER (2026-07-01 — RETURN TO SOLVER, native frame DERIVED) — READ THIS FIRST ============
+**⇒ WHERE WE ARE NOW (read this line first): the whole native frame is DERIVED + CAS + blind-verified; we have RETURNED TO
+BUILDING THE SOLVER on it. Pre-registration FROZEN (`discreteness_preregistration.md`). The IMMEDIATE NEXT ACTION is the 2-D
+free-field `f(r,θ)` finite-mirror eigenproblem — see the "SOLVER PROGRESS / IMMEDIATE NEXT ACTION" block further down. The
+field-equation results below are the DERIVED FOUNDATION (now complete + verified), not the pending frontier.**
+
+**CURRENT STATE — Phase 1 (the derived foundation, 2026-07-01, all CAS + BLIND-verified):** The chain (basins → e^{2φ}-weight
+audit → frame audit) drove all the way to the FOUNDATION and Charles DERIVED the native UDT field equations (in-session).
+Full record: **`native_field_equations_constrained_two_player_results.md`** (+ the 4 companion docs). Key results:
 - **EH is EMPTY on the canonical UDT family:** `√-g·R` is a pure boundary term (`r²R=d/dr[…]`) → bare Einstein-Hilbert gives
   NO bulk equation for φ. "Vacuum=GR" was that emptiness showing through (the Principle-7 scar), never a result.
 - **Native bulk action = the R1-shift-invariant kinetic**, whose density `√-g·e^{2φ}g^{rr}φ'² = c r²sinθ·φ'²` is φ-FREE

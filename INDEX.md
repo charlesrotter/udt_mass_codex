@@ -1,12 +1,17 @@
-# INDEX — Repo Map (frontier refreshed 2026-06-29 — the D1 determinacy fix; see LIVE.md, authoritative)
+# INDEX — Repo Map (frontier refreshed 2026-07-01 — RETURN-TO-SOLVER, native frame derived; see LIVE.md, authoritative)
 
-Navigable map of `udt_mass_codex`. **Structure (post-curation):**
-- **root** — the LIVE spine: ~111 markdown (orientation + canon/negatives + audit/verifier + active-arc
-  records + load-bearing provenance) and the canonical solver `.py` (+ ~510 `native_*.py` tooling
-  scripts, still flat, that back the kept research records).
-- **`prototype/`** (14 `.py`) — the branchGP/JFNK reference drivers from the 2026-06-23/24 Branch-P arc.
-  Reference only; superseded by the p1 migration. (Each carries a `sys.path '..'` shim to still run.)
-- **`legacy/`** (5 `.py`) — old P1/P2 validators + verifiers (`p1_validate`, `p2_*`, `_verif_*`).
+Navigable map of `udt_mass_codex`. **Structure (post-2026-07-01 consolidation):**
+- **root — now LEAN (27 `.py`, was 1113):** the 17-module test-import solver closure (the OLD wrong-frame
+  static solver — kept only because pytest still imports it; retires when the new solver + test rewrite land),
+  4 live tools, `matter_el_3d_gen.py` (codegen), the 5 this-session `verify_*.py`/`switch_criterion_derivation.py`
+  (paired with results docs), plus the NEW derived-frame solver **`cell_solver_round.py`**. Markdown: orientation
+  + canon/negatives + the 2026-07-01 NATIVE-FRAME docs (`native_field_equations_constrained_two_player_results.md`,
+  `gp_switch_criterion_results.md`, `native_geometric_action_results.md`, `seal_matching_junction_results.md`,
+  `round_matter_reduction_results.md`, `discreteness_preregistration.md`, `solver_build_MAP.md`) + provenance.
+- **`prototype/`** (14 `.py`) — branchGP/JFNK reference drivers from the 2026-06-23/24 Branch-P arc. Reference only.
+- **`legacy/`** — retired `.py`. `legacy/root_oneoffs_2026-07-01/` (1086 files) = the whole one-off scatter
+  archived 2026-07-01 (`native_*`, `w*`, `phase*`, `d1_*`, `p1-p5*`, topical scans, historical `verify_*`) after
+  the frame changed. Plus the older 5 P1/P2 validators. Mine for history/tooling; recoverable via git.
 - **`archive/`** (~169 `.md`) — sediment: the pre-2026-06-18 catalog/oscillator/sf_scan/weld/w-thread era,
   the legacy corpus (udt_validated/active, udt_canonical via the survivor filter), the superseded
   everything-on/derived-operator build MAPs+VERIFIERs, and (2026-06-27) the 5 SUBSUMED status/program
