@@ -72,15 +72,19 @@ PINNED DIMENSIONLESS radial-to-angular invariant (Charles's sharpening — "fixe
 gate: **𝒦 is genuinely BULK** in the √h-measure action (√h·𝒦=−2e^{-2φ}sinθ, no local antiderivative), while 4D-EH `√-g R` is a
 total derivative (empty) — so P is UNCONDITIONALLY a bulk cell-interior equation; EH is the empty red herring (the P7 scar).
 Round G-cancellation `R^{(2)}+e^{2φ}𝒦=0` (any φ); native action ≠ 3D-EH (`R^{(3)}=R^{(2)}+𝒦+4e^{-2φ}φ'/r`) ≠ 4D-EH.
-**RESIDUAL (the new open item): action-form UNIQUENESS** — the form is MOTIVATED, not proven unique (a free `K²`/`X`-ratio term
-is admissible). **Blind-verifier sharpening: on ROUND h the invariants K²/K_ABK^AB/𝒦 are DEGENERATE (all ∝e^{-2φ}/r²) →
-uniqueness can only be tested OFF-ROUND (general h).**
+**OFF-ROUND UNIQUENESS — DERIVED (2026-07-01; CAS + blind-verified).** The angular extrinsic term is UNIQUE: off-round
+angular-flatness (`R^{(2)}=K²−K_ABK^AB` for flat ambient, verified on a paraboloid) forces `b=a,d=−a` → **`𝒦=K_ABK^AB−K²`;
+an independent `K²` is EXCLUDED** (round-h couldn't test it — degenerate; off-round resolved it).
+**REMAINING RESIDUAL = the Z_φ FORK** (no longer the K² ambiguity): the longitudinal kinetic normalization is NOT fixed by
+angular flatness or R1 shift symmetry. **Route A** (sector-orthogonal, banked action): **Z_φ FREE**, no mixing. **Route B**
+(kinetic = R1-weighted longitudinal-block curvature `R_L`): **Z_φ=8** but FORCES a mixed term `2e^φKφ'` (D=2). Real fork; the
+math alone doesn't pick it — a candidate for CONSILIENCE selection (fitted-constant-free spectrum).
 
-**IMMEDIATE NEXT ACTION (2026-07-01, candidate — awaiting Charles's go) = DERIVE ACTION-FORM UNIQUENESS OFF-ROUND** — on
-general (non-round) h, are `R^{(2)}+W_χ𝒦` the forced terms, or is an independent `K²`/second-kinetic coefficient admissible?
-MAP first, no solver. THEN the G↔P MATCHING problem at the seal; a constrained-two-player SOLVER is gated behind those.
-Premise flags (standing): constrained-metric FORM (φ purely longitudinal) CHOSE-not-forced; native-action FORM motivated-not-
-unique; matter-φ-blind + shift rule ride R1+P5 (CHOSE); Branch P breaks R1 in the angular sector.
+**IMMEDIATE NEXT ACTION (2026-07-01, candidate — awaiting Charles's go):** either (i) the **G↔P MATCHING problem** at the seal
+(where χ gets pinned; the exterior-G ↔ interior-P join), or (ii) let the **Z_φ fork ride to consilience** and proceed. A
+constrained-two-player SOLVER is gated behind the matching problem. MAP first, no solver.
+Premise flags (standing): constrained-metric FORM (φ purely longitudinal) CHOSE-not-forced; angular term now UNIQUE (K²
+excluded); Z_φ/mixing = OPEN FORK; matter-φ-blind + shift rule ride R1+P5 (CHOSE); Branch P breaks R1 in the angular sector.
 **DO NOT (per Charles):** re-pose one-player in code, keep two-player as canonical, build any solver, or change the matter
 weight — until the action question is settled. Op: any CAS/solve UNBUFFERED, single process, no grep pipe, no nohup.
 

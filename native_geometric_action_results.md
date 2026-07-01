@@ -53,27 +53,53 @@ bulk cell-interior equation; the switch criterion is now UNCONDITIONAL on the bu
 
 ---
 
-## RESIDUAL (the new open item) — action-form uniqueness
+## OFF-ROUND UNIQUENESS + the Z_φ FORK (2026-07-01, added; CAS `verify_offround_uniqueness.py`; blind-verified)
 
-The derivation MOTIVATES the action form (`R^{(2)}+𝒦` = Gauss angular-mismatch; `√h` = the 4D `√-g`) but does
-NOT prove it UNIQUE. The native action is a foliation-adapted construction, distinct from 3D-EH (`√g₃ R^{(3)}`,
-which CAS shows is also NOT a total derivative here — a third, different action) and 4D-EH (empty). So:
-- **𝒦 is bulk GIVEN this action form** — solid.
-- **Whether this is the unique admissible native geometric action** — OPEN. Other admissible local 2nd-order
-  combinations (e.g. adding `(K)²` with an independent coefficient, or an `X`-type kinetic ratio) are not yet
-  excluded. This is the residual that a "minimality/uniqueness" derivation must settle.
-- **Blind-verifier sharpening (load-bearing for the uniqueness test):** on ROUND h, `K²`, `K_AB K^AB`, and `𝒦`
-  are ALL ∝ `e^{-2φ}/r²` — mutually DEGENERATE — so a free `K²` coefficient merely rescales the same structure
-  and cannot be excluded in the round case. **Uniqueness can only be tested on GENERAL (non-round) h**, where the
-  three quadratic invariants become independent. ⇒ the action-uniqueness derivation must go off-round.
+Charles's off-round derivation (the round degeneracy forced this). Two results:
+
+**(A) 𝒦 = K_AB K^AB − K² is UNIQUELY forced off-round; an independent K² is EXCLUDED.** For any 2-surface in a
+LOCALLY FLAT 3-geometry, Gauss gives `R^{(2)} = K² − K_AB K^AB` (verified off-round on a paraboloid: both =
+2/(ρ²+1)²). Demand the angular action assign ZERO mismatch to flat geometry: `a R^{(2)} + b K_AB K^AB + d K² = 0`
+⇒ (using Gauss) `(b−a)K_AB K^AB + (d+a)K² = 0` for ALL shapes ⇒ **b=a, d=−a**. Normalizing a=1 gives exactly
+`R^{(2)} + K_AB K^AB − K²`. An added `α K²` is nonzero for a flat off-round embedding → assigns false bulk cost to
+flat space → excluded. **This closes the K²-ambiguity residual** (which round-h could not resolve — the invariants
+were degenerate). SCOPE (premises, honest): unique WITHIN the class {built from R^{(2)},K_AB K^AB,K²; no false
+curvature on flat; same W_χ weight on the extrinsic block; NO derivative-mixing}.
+
+**(B) Z_φ (the longitudinal kinetic normalization) is a genuine FORK — NOT fixed by current principles.**
+- Angular flatness does not touch φ'² (φ' absent from Gauss) → Z_φ free from (A).
+- R1 shift symmetry fixes the FORM φ'² (φ' invariant) but not its coefficient → Z_φ free from shift.
+- ONE principle fixes it: derive the kinetic from the R1-weighted longitudinal (t,r)-block curvature. `R_L =
+  2e^{-2φ}(φ''−2φ'²)` (CAS); `e^{2φ}R_L = 2φ''−4φ'²`; `−e^{2φ}R_L` integrated with √h (IBP, `(√h)'=√h e^φ K`) →
+  `4φ'² + 2e^φ K φ'`. So **Z_φ=8, D=2** — BUT this FORCES a mixed longitudinal-transverse term `2e^φ K φ'`.
+- **The fork:**
+  - **Route A (sector-orthogonal, no derivative mixing, D=0): Z_φ FREE** (the currently-banked action).
+  - **Route B (longitudinal-curvature completion): Z_φ=8, and the action gains `2e^φ K φ'` (D=2).**
+- The `e^φ K φ'` derivative-mixing term is the crux: excluded-by-premise in A, forced in B. **Recorded as a real
+  fork; consilience (a fitted-constant-free particle spectrum) could later select between them — the math alone
+  does not.**
+
+## RESIDUAL (updated) — Z_φ / derivative-mixing fork (was: action-form uniqueness)
+
+The angular EXTRINSIC structure is now UNIQUE (section above: off-round angular-flatness excludes independent K²,
+fixing 𝒦=K_AB K^AB−K²). What remains OPEN is the **longitudinal kinetic normalization Z_φ and the derivative-mixing
+term**, a genuine FORK:
+- **Route A (sector-orthogonal, the banked action): Z_φ FREE**, no `e^φ K φ'` term.
+- **Route B (longitudinal-curvature completion): Z_φ=8**, action gains the mixed `2e^φ K φ'` (D=2).
+Neither is forced by angular flatness or R1 shift symmetry alone; Route B needs the extra "kinetic-from-weighted-
+longitudinal-curvature" premise (which also brings the mixing term). Consilience (a fitted-constant-free spectrum)
+could later select; the math alone does not. (Historical note: round-h could not even pose the K² test — the
+invariants were degenerate; the off-round derivation resolved it.)
 
 ## Premise ledger
 | item | status |
 |---|---|
 | only 𝒦 carries the shift weight; G/P round cancellations; S_G, S_P EL | DERIVED (CAS) |
 | 𝒦 genuinely BULK in the √h-measure action; 4D-EH empty | DERIVED (CAS) — closes the switch-criterion gate |
-| the native action FORM (√h × [kinetic + R^{(2)} + W_χ𝒦]) | **MOTIVATED, not proven unique** (residual) |
+| angular extrinsic term 𝒦=K_AB K^AB−K² (independent K² EXCLUDED) | DERIVED off-round (angular-flatness; CAS) — closes the K² residual |
 | W_χ = e^{2φ}(G)/1(P) fixed by χ-pinning | DERIVED (from `gp_switch_criterion_results.md`) |
+| **Z_φ normalization + `e^φ K φ'` mixing term** | **OPEN FORK: Z_φ free (route A) / Z_φ=8 + D=2 (route B)** |
+| the angular-flatness / no-derivative-mixing / same-W_χ premises of the uniqueness class | CHOSE (named) |
 | rides upstream CHOSE: constrained-metric form; R1+P5 shift levers | inherited |
 
 ## VERIFIER
@@ -86,8 +112,22 @@ which CAS shows is also NOT a total derivative here — a third, different actio
   (K²/K_ABK^AB/𝒦 all ∝ e^{-2φ}/r² on round-h → uniqueness must be tested off-round). Scope: all headline numbers
   are round-h + static φ(r); on general h the three quadratic invariants are independent.
 
+## OFF-ROUND / Z_φ VERIFIER
+- **CAS (driver, `verify_offround_uniqueness.py`):** off-round flat Gauss identity R^{(2)}=K²−K_ABK^AB (paraboloid,
+  both 2/(ρ²+1)²); uniqueness algebra b=a,d=−a; R_L=2e^{-2φ}(φ''−2φ'²); e^{2φ}R_L=2φ''−4φ'²; IBP→4φ'²+2e^φKφ'
+  (Z_φ=8,D=2 route B). ALL confirmed.
+- **Blind-adversarial (agent `a85ac2c0954a1bdd9`, 2026-07-01, independent embeddings from scratch — paraboloid +
+  ellipsoid for the Gauss identity, general h_AB for B-5):** ALL 7 claims **CONFIRMED, none refuted.** Sharpenings:
+  (i) the K²-exclusion is valid quantified over the FULL off-round family — a single minimal surface (K≡0, pins only
+  b=a) or umbilic patch (collapses both invariants) is insufficient; non-minimal/non-umbilic members restore both
+  constraints. (ii) B-5 is the Jacobi formula (convention-robust). (iii) Route B's Z_φ=8 and D=2 are an INSEPARABLE
+  package (both IBP products of the one integrand 2φ''−4φ'²) — no principle gives Z_φ=8 without the mixing term; and
+  that forced mixing term `2√h e^φ K φ'` IS a φ-angular coupling (dilaton gradient × transverse expansion), forced
+  by the algebra, not imposed — dropping it while keeping Z_φ=8 would be inconsistent with its own derivation.
+
 ## OPEN (next candidates)
-1. **Action-form uniqueness/minimality** (the residual above) — is `√h[kinetic + R^{(2)} + W_χ𝒦]` the unique
-   admissible native geometric action, or are there other admissible terms (independent K², X-ratio, ...)?
+1. **Z_φ / derivative-mixing FORK** (the residual above) — route A (Z_φ free, sector-orthogonal) vs route B (Z_φ=8
+   with forced `e^φKφ'`). Not settleable by the current geometric principles; a candidate for CONSILIENCE selection
+   (does a fitted-constant-free spectrum pick one?). The angular extrinsic term is now UNIQUE (K² excluded off-round).
 2. Then the **G↔P matching problem** at the seal (where χ gets pinned), and only after that a constrained-two-
    player SOLVER.
