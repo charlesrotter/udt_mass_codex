@@ -1,4 +1,5 @@
-> **[FRONTIER STALE as of 2026-06-27 — the top-of-file frontier here is superseded; LIVE.md is the current frontier. Body kept as record.]**
+> **[FRONTIER STALE (confirmed 2026-07-01) — the whole top-of-file frontier here is superseded (it pre-dates the native-frame
+> derivation + return-to-solver phase); LIVE.md is the current frontier. This file is a running LAB-LOG kept as history only.]**
 
 # STATE — Frontier Snapshot
 

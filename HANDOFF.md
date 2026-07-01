@@ -58,31 +58,34 @@ DOF ([[full-dimensional-complete-solver]]); test gravitating-soliton stability b
 COUPLED re-solve, never off-constraint stiffness ([[gravitating-soliton-stability-test]]). (Also in
 CLAUDE.md tripwires + the `.claude/skills/` discipline skills + memory [[solver-first-not-mechanism]].)
 
-## Foundation (what the p1 MIGRATION builds on) + read order
+## Foundation (the DERIVED native frame the solver now builds on) + read order
 
-**The static solver is CODE-COMPLETE** (the p1 MIGRATION + integrity-upgrades arc are DONE — archived; details in
-`HANDOFF_ARCHIVE.md`): purity harness `pytest tests/` = **32 passed / 1 xfailed** (the 1 = the G/P-fork + charge-1-core
-HABIT-pin gate), `solver_action.py`, the discipline skills, cross-model verify. The DERIVED operator (e^{2φ} weight,
-a(φ)=e^{φ}) + native-S² matter are wired into the live `p1_residual`. (M2's X-kinetic value −2e5 is the one later
-caught as the **Cassini KLUGE** — see LIVE.md CURRENT STATE + `PROVENANCE_AUDIT_2026-06-30.md`.)
+**The native UDT frame is DERIVED + verified (2026-07-01) — this is the foundation the new solver stands on** (five docs:
+`native_field_equations_constrained_two_player_results.md`, `gp_switch_criterion_results.md`,
+`native_geometric_action_results.md`, `seal_matching_junction_results.md`, `round_matter_reduction_results.md`; each
+CAS + blind-verified). Metric = constrained-two-player `ds²=-e^{-2φ}c²dt²+e^{2φ}dr²+h_AB dx^A dx^B`; native geometric
+action `∫c√h[(Z_φ/2)φ'² + R^{(2)} + W_χ𝒦]`, `W_χ=e^{2φ}(G)/1(P)`; matter is **φ-BLIND** (sources geometry via
+`n→h_AB→𝒦→φ`, not `e^{2φ}T`). One open constant `Z_φ` (held fixed; free vs `=8`-with-forced-mixing fork → consilience).
 
-**The native-matter arc foundation** (2026-06-22, blind-verified; records = `matter_object_identity_native_vs_import`,
-`complete_solver_stage1_general_einstein`, `native_s2_object_`/`twist_freed_`/`offround_twist_shear_results`): the
-round/static soliton was an IMPORTED S³ Skyrme baryon; **UDT's NATIVE matter = the S²/π₂ winding (n=x/r) = a
-scale-free global-monopole DEFECT in every STATIC config** — and its discreteness is the integer TOPOLOGICAL CHARGE
-(Q=1, exact, native), NOT a localized lump (the "lump" search was FRAME CREEP — Charles's 2026-06-25 catch; the
-winding-native ruler in `prototype/winding_native_diagnostics.py`). The gravity operator is DERIVED (vacuum≠GR,
-weight e^{2φ}, a(φ)=e^{φ}) and is wired into the live `p1_residual` (branchGP, which prototyped it, is now a reference
-in `prototype/`). The STANDING φ-angular hunch's untested home is the TIME-LIVE / non-stationary sector (DYNAMIC),
-gated behind flooring the determined static solve on the right branch (see LIVE.md NEXT ACTION).
+**The OLD static solver is the WRONG FRAME (retained only for the tests).** The p1 MIGRATION solver (`p1_residual`,
+`branch_operator`, `full3d_*`, …) realizes the φ-OUTSIDE-the-metric two-player scalar-tensor frame that Phase 1 showed
+is a CHOSE extension, NOT canonical UDT. Its `e^{2φ}L_m`/`e^{2φ}T` matter weight is the NON-native artifact that
+manufactured the "basin A" runaway; the X=−2e5 was the Cassini KLUGE. `pytest tests/` = **32 passed / 1 xfailed** still
+imports these modules, so they STAY until the new solver + test rewrite land (then retire to `legacy/`). Do NOT tune them.
 
-**Read order for a new instance:** (0) **LIVE.md "CURRENT STATE" block** (THE only-guaranteed-current file). (1) CLAUDE.md
-"How we work" + ANTI-HANG + the `.claude/skills/` discipline skills; frontier memory [[d1-fix-and-matter-fork-resolved]]
-(the X-kluge/galerkin state) + [[apply-purist-logic-proactively]], [[solution-space-not-imposition]],
-[[charles-workflow-preferences]], native-matter-defect-import-discovery, solver-first-not-mechanism. (2) THIS FILE +
-`PROVENANCE_AUDIT_2026-06-30.md` + `D1_FIX_DESIGN.md` + the named results docs. (3) CANON.md (C-2026-06-14-1;
-C-2026-06-18-1 — both SURVIVE); NEGATIVES_REGISTRY; FOUNDATIONAL_ASSUMPTIONS_LEDGER.
-**HANDOFF_ARCHIVE.md + STATE.md + git + `archive/` = the deep historical record** (all pre-2026-06-30 frontier blocks).
+**Durable native-matter facts (SURVIVE, and the new solver uses them):** UDT's native matter = the **S²/π₂ winding**
+(`n=x/r`), a scale-free defect; its charge is the **integer TOPOLOGICAL degree N** (native quantization — the "lump"
+search was frame-creep, Charles's 2026-06-25 catch). In the new round solver: rigid `f=θ` collapses (I_r=0); the
+minimally-free `f(r,θ)` is the next test (see LIVE.md). The φ-angular hunch now appears NATIVELY (Branch-P `𝒦`-source;
+the route-B kinetic-completion mixing term; the seal source that charges a matter cell).
+
+**Read order for a new instance:** (0) **LIVE.md FRONTIER block** (THE only-guaranteed-current file). (1) CLAUDE.md
+"How we work" + ANTI-HANG + the `.claude/skills/` discipline skills; frontier memory **[[native-field-equations-frontier]]**
++ the principle memories ([[apply-purist-logic-proactively]], [[solution-space-not-imposition]],
+[[charles-workflow-preferences]], native-matter-defect-import-discovery, solver-first-not-mechanism). (2) THIS FILE +
+the five native-frame result docs + `discreteness_preregistration.md` + `round_matter_reduction_results.md` +
+`cell_solver_round.py`. (3) CANON.md (C-2026-06-14-1; C-2026-06-18-1 — both SURVIVE); NEGATIVES_REGISTRY;
+FOUNDATIONAL_ASSUMPTIONS_LEDGER. **HANDOFF_ARCHIVE.md + STATE.md + git + `archive/` = the deep historical record.**
 
 ## Must-not-lose (durable facts)
 - DATA-BLIND wall numbers (NEVER load during a derivation): the six lepton wall numbers, contract
