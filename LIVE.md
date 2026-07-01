@@ -80,11 +80,25 @@ angular flatness or R1 shift symmetry. **Route A** (sector-orthogonal, banked ac
 (kinetic = R1-weighted longitudinal-block curvature `R_L`): **Z_φ=8** but FORCES a mixed term `2e^φKφ'` (D=2). Real fork; the
 math alone doesn't pick it — a candidate for CONSILIENCE selection (fitted-constant-free spectrum).
 
-**IMMEDIATE NEXT ACTION (2026-07-01, candidate — awaiting Charles's go):** either (i) the **G↔P MATCHING problem** at the seal
-(where χ gets pinned; the exterior-G ↔ interior-P join), or (ii) let the **Z_φ fork ride to consilience** and proceed. A
-constrained-two-player SOLVER is gated behind the matching problem. MAP first, no solver.
-Premise flags (standing): constrained-metric FORM (φ purely longitudinal) CHOSE-not-forced; angular term now UNIQUE (K²
-excluded); Z_φ/mixing = OPEN FORK; matter-φ-blind + shift rule ride R1+P5 (CHOSE); Branch P breaks R1 in the angular sector.
+**G↔P MATCHING AT THE SEAL — DERIVED (2026-07-01; CAS + blind-verified; `seal_matching_junction_results.md`).** Two junction
+conditions from `δ(S_P+S_seal+S_G)=0`:
+- **JC1 (dilation-flux):** `[√h Z_φ φ']=0` continuous; round → `q=(r²φ')|_seal` — **the exterior public charge q IS the
+  interior dilation flux through the seal** (native Q=Misner-Sharp mass=2p_F). **External charge is SEAL FLUX, not bulk matter:**
+  `n → h_AB → 𝒦 → φ → Π_φ|_seal → q`.
+- **JC2 (transverse momentum):** `π^{AB}=c√h W_χ e^{-φ}(K^{AB}−K h^{AB})` continuous → `(K^{AB}−Kh^{AB})_P = e^{2φ_s}(K^{AB}−Kh^{AB})_G`
+  (source-free), or `[π^{AB}]=S^{AB}_seal` with a seal stress. The e^{2φ} weight-jump = the G/P interface signature.
+- **Seal parity = TWO CLASSES (NOT an adjudication — Charles corrected a driver error):** Class A = smooth source-free
+  mirror fold → even radial parity → Neumann φ'_n=0 → **q=0 closed cell**; Class B = pinned/charged seal → φ'_n≠0 → **q≠0,
+  needs a seal source/constraint**. RETRACTED: "time-reversal ⇒ radial Neumann" (doesn't follow) and "Dirichlet ⇒ charged"
+  (q is the normal-derivative flux, not the value — Dirichlet permits but doesn't force q≠0). The two-doc φ(seal) contradiction
+  = these two seal CLASSES, not rival answers. Which cell (universe/matter) is which = OPEN physics/canon (Charles holds).
+
+**IMMEDIATE NEXT ACTION (2026-07-01, candidate — awaiting Charles's go):** either (i) which physical cell realizes Class A
+(closed) vs Class B (charged) + the seal source that charges a matter cell (couples via the seal's transverse geometry = the
+φ-angular structure); (ii) the **Z_φ fork → consilience**; or (iii) a **constrained-two-player SOLVER** (interior P + exterior G
++ JC1/JC2), gated behind the Z_φ fork. MAP first, no solver.
+Premise flags (standing): constrained-metric FORM (φ purely longitudinal) CHOSE-not-forced; angular term UNIQUE (K² excluded);
+Z_φ/mixing = OPEN FORK; seal-class (universe/matter ↔ A/B) OPEN; matter-φ-blind + shift rule ride R1+P5 (CHOSE).
 **DO NOT (per Charles):** re-pose one-player in code, keep two-player as canonical, build any solver, or change the matter
 weight — until the action question is settled. Op: any CAS/solve UNBUFFERED, single process, no grep pipe, no nohup.
 
