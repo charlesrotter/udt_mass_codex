@@ -338,11 +338,12 @@ def newton_solve_p1(u, G, p, kap8, m=1, maxit=40, lam0=1e-4, tol=1e-11,
     import numpy as np
     u = u.detach().clone()
     lam = lam0
+    nu_lm = 2.0                                    # Nielsen lam-growth factor (step='glm')
     # GALERKIN change-of-variables (category-A conditioning; galerkin_basis.py): solve the Newton
     # step in a BC-recombined RADIAL coefficient space (J_a = J @ B_full), keeping the iterate in the
     # smooth BC-satisfying affine subspace.  residual_vector_p1 is UNCHANGED.  Built once; project u in.
     B_full = u_part = None
-    if step == 'galerkin':
+    if step in ('galerkin', 'glm'):
         import galerkin_basis as _GB
         B_full, u_part, _ = _GB.build_B_full(G, p=p, device=u.device)
         u, _ = _GB.project_to_subspace(u, B_full, u_part)
@@ -400,6 +401,50 @@ def newton_solve_p1(u, G, p, kap8, m=1, maxit=40, lam0=1e-4, tol=1e-11,
             hist.append(Phi)
             if verbose:
                 print(f"  [p1-galerkin] it={it:3d} Phi={Phi:.4e} alpha={alpha:.1e} "
+                      f"{'acc' if accepted else 'STALL'}")
+            if not accepted:
+                break
+            continue
+        if step == 'glm':
+            # LEVENBERG-MARQUARDT in the galerkin coeff space (2026-06-30): the pure-GN galerkin
+            # step (step='galerkin') solves via raw lstsq, which KEEPS the near-null soft coeff
+            # directions -> the step blows up there -> nonlinear overshoot -> backtracking can only
+            # SHORTEN the whole step, never kill the soft blowup -> crawl/stall (verified: A stalled
+            # at 2.8e-3 with lin-pred 1e-16, no alpha reduced it). LM damping lam*diag(H) tames
+            # exactly those soft directions while keeping the physical step: ROTATES GN->steepest-
+            # descent (verified: one step 2.8e-3 -> 2.9e-8, 97000x). Adaptive lam via the NIELSEN
+            # gain-ratio rule (NOT naive /nu-on-accept: that collapsed lam->lam_min -> undamped GN ->
+            # re-crawl at 3.5e-4). Nielsen grows lam back when the model stops predicting -> no
+            # collapse. Residual eval GUARDED (a singular-metric trial -> reject, not a crash).
+            # Category-A conditioning/globalization; residual UNCHANGED.
+            Ja = J @ B_full
+            H = Ja.transpose(-1, -2) @ Ja
+            grad = Ja.transpose(-1, -2) @ (-F)     # = -Ja^T F (normal-equation RHS)
+            dH = torch.diag(H)
+            accepted = False
+            for _try in range(30):
+                try:
+                    da = torch.linalg.solve(H + lam * torch.diag(dH), grad)
+                except Exception:
+                    lam = min(lam * nu_lm, 1e12); nu_lm *= 2.0; continue
+                du0 = B_full @ da
+                try:                                # GUARD: singular-metric trial -> reject, don't crash
+                    Fn = residual_vector_p1(u + du0, G, p, kap8, m=m, wbc=wbc,
+                                            X=X, xi=xi, kap=kap, branch=branch, determined=determined)
+                    Pn = float((Fn * Fn).sum())
+                except Exception:
+                    Pn = float('inf')
+                # NIELSEN gain ratio: rho = actual / predicted reduction of ||F||^2
+                pred = float((da * (lam * dH * da + grad)).sum())
+                rho = (Phi - Pn) / pred if (pred > 0.0 and np.isfinite(Pn)) else -1.0
+                if rho > 0.0:
+                    u = u + du0; Phi = Pn
+                    lam = max(lam * max(1.0 / 3.0, 1.0 - (2.0 * rho - 1.0) ** 3), lam_min)
+                    nu_lm = 2.0; accepted = True; break
+                lam = min(lam * nu_lm, 1e12); nu_lm *= 2.0
+            hist.append(Phi)
+            if verbose:
+                print(f"  [p1-glm] it={it:3d} Phi={Phi:.4e} lam={lam:.1e} "
                       f"{'acc' if accepted else 'STALL'}")
             if not accepted:
                 break

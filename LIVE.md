@@ -37,43 +37,51 @@ HANDOFF.md TOP + EXTERNAL_AUDIT_2026-06-30.md → INDEX.md (repo map).
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ FRONTIER (2026-06-30 EOD) — READ THIS FIRST ============
-**CURRENT STATE (one paragraph, supersedes the 2026-06-29 arc below):** A long solver-trust marathon. THE BIG
-DISCOVERY: **X=−2e5 (the dilaton kinetic/curvature ratio) is a Cassini-FORCED FIT mis-tagged `# FREE`** — its
-magnitude is the solar-system PPN bound rounded up; nothing in the metric derives it (only the sign, via no-ghost).
-Charles caught it; TWO provenance audits (one blind-adversarial) confirmed **X is the LONE observation-fit kluge on
-the live path** (kap8=1 is genuinely DERIVED; ξ=κ=1 are units; no swarm). We PIVOTED: stop forcing the solve at the
-imposed X; **EXPLORE the determined solution across FREE X** (the X-sweep showed the kap8=1 object is X-STABLE — winding
-1, no horizon — across X=−1..−1000, so recent results survive un-pinning X; PROVISIONAL, unfloored). The whole
-conditioning saga is resolved in understanding (determinacy FIXED, core-BC artifact FIXED, smax=the X-kluge, soft
-modes=DERIVED gauge/rotation symmetries, posing CONSISTENT [F 99.9% reducible], edge-cond) — **none indicted the
-metric.** Built the **galerkin BC-recombined basis + seal-BC reconciliation** → the determined solve now DESCENDS 6
-orders (where LM/equil/KTE/SVD all crawled at 2e-3) — **conditioning machinery WORKS, pytest 32/1xfail.**
+## ============ FRONTIER (2026-07-01) — READ THIS FIRST ============
+**CURRENT STATE (2026-07-01, supersedes the 2026-06-30 EOD block below):** The basin audit RAN (classify-only, no merit
+gate — Charles's call) and it redirected the frontier to a Principle-1 finding. Three results:
+1. **STALE-BRANCH-A CATCH:** the saved `xexplore_field_X1.pt` was floored on the PRE-seal-reconciliation residual
+   (commit 80d8e37) — it reads **Phi=3.4e5 on the CURRENT residual**, NOT the 2e-3 in the old notes. The old
+   "Branch A: φ≈0.90, warp 2.6, residual 2e-3" line describes a **superseded-residual field** (apples-to-oranges vs B).
+   Renamed **A_pre_reconciliation** until it floors under current code. (Caught by a projection-fairness pre-check.)
+2. **STRONGER STEP BUILT + VALIDATED:** `newton_solve_p1(step='glm')` = **Levenberg-Marquardt in the galerkin coeff
+   space** (Nielsen gain-ratio λ-update + singular-metric GUARD). Root-caused the crawl (pure-GN galerkin's raw lstsq
+   keeps near-null soft coeff dirs → overshoot → backtracking can only shorten not rotate). glm ROTATES GN→steepest-
+   descent: verified one step 2.8e-3→2.9e-8 (97000×). **It FLOORED Branch B to 8.2e-12** where every prior method
+   crawled. pytest 32/1xfail (existing modes byte-stable). Records: `basin_audit.py`, `basin_audit_manifest.json`.
+3. **CLASSIFY (PROVISIONAL — conditioned on the CHOSE e^{2φ} weight, see below):** two GENUINELY DISTINCT basins under
+   the corrected determined residual —
+   - **Branch B** FLOORS CLEAN (Phi 8.2e-12, a real residual-zero): **dead dilaton φ_max≈0.021**, warp≈10.3, lapse 0.35,
+     ρ_max 3.7e-8. Robust — its tiny φ makes the matter weight ≈1 either way.
+   - **A_pre_reconciliation** does NOT floor (stalls Phi≈2.9e-4; a lower LINEAR floor ~2.6e-7 EXISTS, so it is
+     stiffness-limited, NOT proven solutionless): glm runs its **dilaton UP to φ_max≈3.30** → **e^{2φ}≈735** → extreme
+     stiffness chokes the solve. Modest warp≈3.2, gentle lapse 0.78, real ρ_max 5.9e-3. Winding Q≈1 in both.
 
-⚠️ **OPEN — TWO BASINS, NOT a "spurious branch" (REFRAMED 2026-06-30 after an external audit; neutral framing per
-[[solution-space-not-imposition]] — the anti-imposition gate forbids MERIT judgments).** The driver had drifted into
-expectation language ("spurious / RIGHT / physical compact object"); there is NO derived or pre-registered criterion
-to reject either basin. State neutrally:
-- **Branch A** = the LM/crawl basin (alive dilaton φ_max≈0.90, modest warp≈2.6, residual ~2e-3, NOT floored).
-- **Branch B** = the cold-galerkin basin (low residual ~1.5e-5 but still UNDER-CONVERGED — residual in the PHYSICAL
-  band, still moving; dead dilaton φ_max≈0.021, extreme warp≈10, ρ→3e-8; winding Q≈1 in both).
-Neither is "the physical object." BOTH are under-converged. (`d1_gauge_check.py` = the diagnostic.)
+🔑 **THE REDIRECT — the e^{2φ} matter weight is a CHOSE posit, and A rides entirely on it (audit 2026-07-01,
+`a05295762e39e6260`; corroborated by PROVENANCE_AUDIT + EXTERNAL_AUDIT + solver_action.py:110-125).** The live matter
+Lagrangian weight `S_m=∫√-g·e^{2φ}·L_m` / source `−kap8·e^{2φ}·T` is **NOT derived** — it is the "natural reading"
+carry-over of the DERIVED *kinetic/gravity* e^{2φ} (D1, two metric powers) onto FIELD MATTER; self-tagged CHOSE
+(matter_regrade R3 l.240) / MIGRATION-DEFERRED ("must be DERIVED or DROPPED — do NOT add to pass a test"). The only
+DERIVED matter coupling is **a(φ)=e^{+φ}** (power +1, static point-particle rest mass, D2); the scale-symmetry rule on
+angular field-matter suggests weight **1 (e^0)**. Candidates span **e^{2φ}(735×) / e^{+φ}(27×) / e^0(1×)** at φ=3.3.
+**Decisive for the basins: A's runaway/stiffness IS the e^{2φ} weight (B, φ≈0.02, is insensitive).** Grinding A's
+floor before deriving the weight = polishing a basin manufactured by an un-derived posit — so we did NOT.
 
-**IMMEDIATE NEXT ACTION (resume here) = BASIN AUDIT, not branch-selection.** Do NOT do "LM-to-close → galerkin-polish"
-as the only path — that biases toward Branch A by construction. Instead: (1) continue BOTH basins from their own
-starts under identical, fair globalization (damped/line-searched physical-band reduction); (2) track identical
-diagnostics + emit a MANIFEST per run (run_id, seed_type, start_field, X, xi, kap, kap8, branch, p, wbc, determined,
-step, grid, Phi, physical/gauge residual split, Q, φ_max, warp_max, ρ_max, lapse_min, accepted_steps); (3) CLASSIFY,
-don't select — let compactness / dilaton-survival / mass-localization EMERGE as diagnostics, NOT acceptance criteria;
-(4) reject a basin ONLY if it floors and violates a PRE-REGISTERED geometric criterion, or fails to floor under
-branch-local continuation. NB: Branch B's dead dilaton couples to the **e^{2φ} matter-weight** soft-headline — if that
-weight is wrong the basin structure may move; the two are linked.
+**IMMEDIATE NEXT ACTION (Charles's go, 2026-07-01) = DERIVE THE FIELD-MATTER WEIGHT NATIVELY** (e^{2φ} vs e^{+φ} vs e^0)
+from the action / positional-dilation principle — Principle-1 core; its answer decides whether the A basin is real.
+**MAP FIRST** (premise ledger, no compute — bring to Charles before deriving). Anchor docs: `native_dilation_weight_derivation_results.md`
+(D1 kinetic e^{2φ}, D2 rest-mass e^{+φ}), `matter_regrade_derived_operator_results.md` (R3 the CHOSE, Attack-Here l.257-259),
+`F2_matter_action_forcedness*`. **SECONDARY (also flagged):** the φ(seal)=0 parity is a genuine TWO-DOC contradiction
+(`seal_junction_condition_results.md:69` even→Neumann ∂_rφ=0 vs `D1_FIX_DESIGN.md:88/96` odd→Dirichlet φ=0; live code
+rides Dirichlet) — adjudicate alongside/after the weight. Op: solves UNBUFFERED, single process, no grep pipe, no nohup.
 
+### ↓↓↓ SUPERSEDED 2026-07-01 (the basin audit below RAN — see CURRENT STATE above; kept for the hygiene checklist) ↓↓↓
 **PRE-TEST HYGIENE (cheap; do BEFORE the basin audit — external-audit items that could CONTAMINATE it):** (a) the
 basin-audit DRIVER hard-codes NO hidden provenance — pass X/xi/kap/kap8/branch/p/wbc/determined/step/grid explicitly +
 print the manifest (note: `residual_vector_p1`/`newton_solve_p1` STILL default X=-1/xi=1/kap=1/branch=G — a silent-
 default risk at the higher entrypoint, unlike branch_operator which now requires explicit; the driver must not rely on
-them); (b) keep the framing neutral (this block). **DEFER to before any PHYSICS claim (NOT blocking the basin audit):**
+them) [DONE: basin_audit.py passes all provenance explicit + prints manifest]; (b) keep the framing neutral (this
+block). **DEFER to before any PHYSICS claim (NOT blocking the basin audit):**
 action-registry staleness (`solver_action.py` still GR-baseline / MIGRATION-DEFERRED while the live path uses the
 derived e^{2φ} operator); premise-ledger upgrade (token-presence → call-path); add `determined=True` tests (liveness
 tests still exercise determined=False/kap8=0.05); split GR-baseline regression from live-UDT-action consistency
