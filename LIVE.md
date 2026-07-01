@@ -37,43 +37,46 @@ HANDOFF.md TOP + EXTERNAL_AUDIT_2026-06-30.md → INDEX.md (repo map).
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ FRONTIER (2026-07-01) — READ THIS FIRST ============
-**CURRENT STATE (2026-07-01, supersedes the 2026-06-30 EOD block below):** The basin audit RAN (classify-only, no merit
-gate — Charles's call) and it redirected the frontier to a Principle-1 finding. Three results:
-1. **STALE-BRANCH-A CATCH:** the saved `xexplore_field_X1.pt` was floored on the PRE-seal-reconciliation residual
-   (commit 80d8e37) — it reads **Phi=3.4e5 on the CURRENT residual**, NOT the 2e-3 in the old notes. The old
-   "Branch A: φ≈0.90, warp 2.6, residual 2e-3" line describes a **superseded-residual field** (apples-to-oranges vs B).
-   Renamed **A_pre_reconciliation** until it floors under current code. (Caught by a projection-fairness pre-check.)
-2. **STRONGER STEP BUILT + VALIDATED:** `newton_solve_p1(step='glm')` = **Levenberg-Marquardt in the galerkin coeff
-   space** (Nielsen gain-ratio λ-update + singular-metric GUARD). Root-caused the crawl (pure-GN galerkin's raw lstsq
-   keeps near-null soft coeff dirs → overshoot → backtracking can only shorten not rotate). glm ROTATES GN→steepest-
-   descent: verified one step 2.8e-3→2.9e-8 (97000×). **It FLOORED Branch B to 8.2e-12** where every prior method
-   crawled. pytest 32/1xfail (existing modes byte-stable). Records: `basin_audit.py`, `basin_audit_manifest.json`.
-3. **CLASSIFY (PROVISIONAL — conditioned on the CHOSE e^{2φ} weight, see below):** two GENUINELY DISTINCT basins under
-   the corrected determined residual —
-   - **Branch B** FLOORS CLEAN (Phi 8.2e-12, a real residual-zero): **dead dilaton φ_max≈0.021**, warp≈10.3, lapse 0.35,
-     ρ_max 3.7e-8. Robust — its tiny φ makes the matter weight ≈1 either way.
-   - **A_pre_reconciliation** does NOT floor (stalls Phi≈2.9e-4; a lower LINEAR floor ~2.6e-7 EXISTS, so it is
-     stiffness-limited, NOT proven solutionless): glm runs its **dilaton UP to φ_max≈3.30** → **e^{2φ}≈735** → extreme
-     stiffness chokes the solve. Modest warp≈3.2, gentle lapse 0.78, real ρ_max 5.9e-3. Winding Q≈1 in both.
+## ============ FRONTIER (2026-07-01 — NATIVE FIELD EQUATIONS) — READ THIS FIRST ============
+**CURRENT STATE (2026-07-01 late — supersedes the basin/weight arc below):** The chain (basins → e^{2φ}-weight audit →
+frame audit) drove all the way to the FOUNDATION and Charles DERIVED the native UDT field-equation skeleton (in-session);
+the driver CAS-verified every step; blind-adversarial verifier PENDING. Full record: **`native_field_equations_constrained_two_player_results.md`**.
+Key results (all CAS-verified):
+- **EH is EMPTY on the canonical UDT family:** `√-g·R` is a pure boundary term (`r²R=d/dr[…]`) → bare Einstein-Hilbert gives
+  NO bulk equation for φ. "Vacuum=GR" was that emptiness showing through (the Principle-7 scar), never a result.
+- **Native bulk action = the R1-shift-invariant kinetic**, whose density `√-g·e^{2φ}g^{rr}φ'² = c r²sinθ·φ'²` is φ-FREE
+  (only φ') → probe=self-consistent → `(r²φ')'=0` → `φ=φ_∞-q/r` → `g_tt=-e^{-2φ_∞+2q/r}`, an **exponential lapse, NOT
+  Schwarzschild.** The naive "one-player ⇒ GR-collapse" is FALSE.
+- **Native matter is φ-BLIND** (channel-corrected → couples to the UNDILATED metric; `δS_m/δφ=0`). So the live `e^{2φ}·L_m`
+  / `e^{2φ}T` was NON-native — **that is exactly what manufactured the "dilaton-runaway basin A."** The whole basin saga is
+  now EXPLAINED + retired. Matter sources φ only INDIRECTLY, via geometry: **n → h_AB → 𝒦 → φ** (Branch P), not n→e^{2φ}T→φ.
+- **Native frame = CONSTRAINED-TWO-PLAYER** (φ = longitudinal dilation INSIDE g; h_AB = independent transverse 2-geometry) —
+  NOT the live scalar-tensor solver (φ outside g). **⇒ the live solver is the WRONG frame** (do NOT keep tuning it).
+- **G/P are two REGIMES, not a global choice (Charles):** **Branch G** = strict depth-gauge → `(r²φ')'=0`, scale-free =
+  CONTINUUM EXTERIOR. **Branch P** = angular scale physical (BREAKS R1) → `Z(r²φ')'=4e^{-2φ}` = the native φ-angular coupling
+  = FINITE-CELL/microphysics. **Discriminator (CAS):** P has NO asymptotically-constant vacuum (`0=4e^{-2φ_∞}≠0`) ⇒ P is
+  intrinsically finite-domain. Map: continuum-exterior→G, finite-cell→P, boundary between→a MATCHING problem.
 
-🔑 **THE REDIRECT — the e^{2φ} matter weight is a CHOSE posit, and A rides entirely on it (audit 2026-07-01,
-`a05295762e39e6260`; corroborated by PROVENANCE_AUDIT + EXTERNAL_AUDIT + solver_action.py:110-125).** The live matter
-Lagrangian weight `S_m=∫√-g·e^{2φ}·L_m` / source `−kap8·e^{2φ}·T` is **NOT derived** — it is the "natural reading"
-carry-over of the DERIVED *kinetic/gravity* e^{2φ} (D1, two metric powers) onto FIELD MATTER; self-tagged CHOSE
-(matter_regrade R3 l.240) / MIGRATION-DEFERRED ("must be DERIVED or DROPPED — do NOT add to pass a test"). The only
-DERIVED matter coupling is **a(φ)=e^{+φ}** (power +1, static point-particle rest mass, D2); the scale-symmetry rule on
-angular field-matter suggests weight **1 (e^0)**. Candidates span **e^{2φ}(735×) / e^{+φ}(27×) / e^0(1×)** at φ=3.3.
-**Decisive for the basins: A's runaway/stiffness IS the e^{2φ} weight (B, φ≈0.02, is insensitive).** Grinding A's
-floor before deriving the weight = polishing a basin manufactured by an un-derived posit — so we did NOT.
+**IMMEDIATE NEXT ACTION (Charles, 2026-07-01) = DERIVE THE G↔P SWITCH CRITERION** (NOT "pick G or P"). Prove/falsify:
+> "Branch P is admissible ONLY IF finite angular geometry breaks the global depth-shift symmetry."
+Candidate switches to test: (1) finite angular-cell boundary; (2) nontrivial topology n:S²→S²; (3) a transverse curvature
+invariant that cannot be gauged away; (4) a BC fixing angular size so the global φ-shift stops being a redundancy. This is a
+DERIVATION target (MAP first, no solver). A constrained-two-player SOLVER is a LATER target, gated behind the switch criterion.
+Premise flags on the record: the constrained-metric FORM (φ purely longitudinal) is CHOSE-not-yet-forced; "matter φ-blind"
+rides the R1+P5 shift levers (CHOSE); Branch P deliberately BREAKS R1 in the angular sector.
+**DO NOT (per Charles):** re-pose one-player in code, keep two-player as canonical, build any solver, or change the matter
+weight — until the switch criterion is on the table. Op: any CAS/solve UNBUFFERED, single process, no grep pipe, no nohup.
 
-**IMMEDIATE NEXT ACTION (Charles's go, 2026-07-01) = DERIVE THE FIELD-MATTER WEIGHT NATIVELY** (e^{2φ} vs e^{+φ} vs e^0)
-from the action / positional-dilation principle — Principle-1 core; its answer decides whether the A basin is real.
-**MAP FIRST** (premise ledger, no compute — bring to Charles before deriving). Anchor docs: `native_dilation_weight_derivation_results.md`
-(D1 kinetic e^{2φ}, D2 rest-mass e^{+φ}), `matter_regrade_derived_operator_results.md` (R3 the CHOSE, Attack-Here l.257-259),
-`F2_matter_action_forcedness*`. **SECONDARY (also flagged):** the φ(seal)=0 parity is a genuine TWO-DOC contradiction
-(`seal_junction_condition_results.md:69` even→Neumann ∂_rφ=0 vs `D1_FIX_DESIGN.md:88/96` odd→Dirichlet φ=0; live code
-rides Dirichlet) — adjudicate alongside/after the weight. Op: solves UNBUFFERED, single process, no grep pipe, no nohup.
+### ↓↓↓ SUPERSEDED 2026-07-01 (basin/e^{2φ}-weight arc — HOW WE GOT HERE; the field-eq result above explains it) ↓↓↓
+**Basin audit (classify-only) + glm stronger step + the e^{2φ}-weight audit** — the chain that led to the frame result above.
+- **STALE-BRANCH-A CATCH:** `xexplore_field_X1.pt` was floored on the PRE-seal-reconciliation residual (commit 80d8e37) —
+  reads **Phi=3.4e5 on CURRENT code**, not 2e-3. Renamed A_pre_reconciliation. (Projection-fairness pre-check caught it.)
+- **STRONGER STEP:** `newton_solve_p1(step='glm')` = LM-in-galerkin + Nielsen + singular-metric guard. FLOORED Branch B to
+  8.2e-12 where all prior crawled. pytest 32/1xfail. (`basin_audit.py`.) **Still valid + useful** for the eventual solver.
+- **CLASSIFY (now EXPLAINED as an e^{2φ}-artifact):** B floors clean (dead dilaton φ≈0.02); A_pre_reconciliation ran its
+  dilaton to φ≈3.3 (e^{2φ}≈735) and stalled — because the NON-native e^{2φ}T drove it. The field-eq derivation dissolves this.
+- **e^{2φ}-weight audit (`a05295762e39e6260`):** the matter weight is a CHOSE posit (self-tagged / MIGRATION-DEFERRED) —
+  now SUPERSEDED by the native result: channel-corrected matter is φ-blind (weight ≡ undilated-metric coupling).
 
 ### ↓↓↓ SUPERSEDED 2026-07-01 (the basin audit below RAN — see CURRENT STATE above; kept for the hygiene checklist) ↓↓↓
 **PRE-TEST HYGIENE (cheap; do BEFORE the basin audit — external-audit items that could CONTAMINATE it):** (a) the
