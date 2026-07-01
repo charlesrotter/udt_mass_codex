@@ -63,16 +63,24 @@ PINNED DIMENSIONLESS radial-to-angular invariant (Charles's sharpening — "fixe
 - Invariant moved = the cell ASPECT RATIO `χ = (∫e^φ dr)/√(A/4π)` → `χ→e^λχ` (proper-length ratio; coord-invariant).
 - **N+S:** shift breaks → **Branch P** iff (N1) √A pinned AND (N2) radial interval [r_c,r_i] pinned AND (N3) `𝒦≠0`. Else G.
 - Adversarial: fixed-angular-scale ALONE insufficient (need N2); topology alone insufficient (degree pins no length);
-  **P is a genuine BULK equation** (∂𝒦/∂φ=−2𝒦≠0; `∫√h𝒦` not a total derivative) — SCOPED to 𝒦-as-standalone-action-piece.
+  **P is a genuine BULK equation** — now UNCONDITIONAL (see native-action result below).
 - Regime map: G = bulk where χ free (continuum exterior, scale-free); P = cell INTERIOR where χ pinned & 𝒦≠0 (φ-angular
   coupling); the seal/cell-wall = where χ gets pinned = the matching layer. Matches finite-cell canon; ADDED N2/N3 to the hunch.
 
-**IMMEDIATE NEXT ACTION (2026-07-01) = DERIVE WHAT THE NATIVE GEOMETRIC ACTION IS** — is `𝒦` a standalone invariant, or part
-of a total-derivative curvature combination (like the EH boundary result)? This is the LAST item gating full bulk-P certainty
-(Task-3 scope) AND bears on "is the minimal kinetic the whole bulk action." MAP first, no solver. THEN (later) the G↔P MATCHING
-problem at the seal; a constrained-two-player SOLVER is gated behind those.
-Premise flags (standing): constrained-metric FORM (φ purely longitudinal) CHOSE-not-forced; matter-φ-blind + shift rule ride
-R1+P5 (CHOSE); Branch P breaks R1 in the angular sector.
+**NATIVE GEOMETRIC ACTION — DERIVED (given form) + CAS + blind-verified (2026-07-01; `native_geometric_action_results.md`).**
+`S = ∫c√h[(Z/2)φ'² + R^{(2)} + W_χ(φ)𝒦]`, W_χ=e^{2φ}(G)/1(P) — the action-level G/P switch. It CLOSES the switch-criterion
+gate: **𝒦 is genuinely BULK** in the √h-measure action (√h·𝒦=−2e^{-2φ}sinθ, no local antiderivative), while 4D-EH `√-g R` is a
+total derivative (empty) — so P is UNCONDITIONALLY a bulk cell-interior equation; EH is the empty red herring (the P7 scar).
+Round G-cancellation `R^{(2)}+e^{2φ}𝒦=0` (any φ); native action ≠ 3D-EH (`R^{(3)}=R^{(2)}+𝒦+4e^{-2φ}φ'/r`) ≠ 4D-EH.
+**RESIDUAL (the new open item): action-form UNIQUENESS** — the form is MOTIVATED, not proven unique (a free `K²`/`X`-ratio term
+is admissible). **Blind-verifier sharpening: on ROUND h the invariants K²/K_ABK^AB/𝒦 are DEGENERATE (all ∝e^{-2φ}/r²) →
+uniqueness can only be tested OFF-ROUND (general h).**
+
+**IMMEDIATE NEXT ACTION (2026-07-01, candidate — awaiting Charles's go) = DERIVE ACTION-FORM UNIQUENESS OFF-ROUND** — on
+general (non-round) h, are `R^{(2)}+W_χ𝒦` the forced terms, or is an independent `K²`/second-kinetic coefficient admissible?
+MAP first, no solver. THEN the G↔P MATCHING problem at the seal; a constrained-two-player SOLVER is gated behind those.
+Premise flags (standing): constrained-metric FORM (φ purely longitudinal) CHOSE-not-forced; native-action FORM motivated-not-
+unique; matter-φ-blind + shift rule ride R1+P5 (CHOSE); Branch P breaks R1 in the angular sector.
 **DO NOT (per Charles):** re-pose one-player in code, keep two-player as canonical, build any solver, or change the matter
 weight — until the action question is settled. Op: any CAS/solve UNBUFFERED, single process, no grep pipe, no nohup.
 

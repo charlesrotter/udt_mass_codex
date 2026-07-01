@@ -114,7 +114,8 @@ the shift is still a redundancy) and the bulk claim (find 𝒦 as a total deriva
   claims 1–4 hold for general h; the self-similar-h case is where the r-rescale attack comes closest (blocked by N2).
 
 ## OPEN (next)
-Derive **what the native geometric action IS** (is 𝒦 a standalone invariant, or part of a total-derivative
-curvature combination like the EH boundary result?) — this is the last item gating full bulk-P certainty, and it
-also bears on "is the minimal kinetic the whole bulk action." Then (later) the G↔P MATCHING problem at the seal,
-and only after that a constrained-two-player SOLVER.
+~~Derive what the native geometric action IS (is 𝒦 standalone-bulk or a total-derivative combination?)~~ **RESOLVED
+2026-07-01 → `native_geometric_action_results.md`:** 𝒦 is genuinely BULK in the native √h-measure action (4D-EH is
+the empty total-derivative red herring) ⇒ **the bulk-P point of this criterion is now UNCONDITIONAL.** New residual:
+the native action FORM is motivated-not-unique, and on ROUND h the quadratic invariants are DEGENERATE, so
+action-uniqueness must be tested OFF-ROUND. Then (later) the G↔P MATCHING problem at the seal; then a solver.
