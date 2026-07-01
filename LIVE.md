@@ -101,8 +101,15 @@ rule: **"Do not solve for the electron. Solve for the solution space."** Modest 
 stable isolated finite-cell solutions AT ALL? (prove the geometry produces CELLS) → THEN do they form a DISCRETE FAMILY? →
 THEN (blind, after) compare to particles. Discreteness counts only if isolated/gapped, seed-independent, stability-without-
 imposed-targets, grid/method-independent, Z_φ-fixed (no per-solution retuning), quantized seal-flux q, branch-consistent,
-perturbation-surviving, blind-classified (9 criteria in the pre-reg doc). **IMMEDIATE NEXT ACTION = MAP the solver build**
-(recipe + how each pre-reg criterion is instrumented; bounded grid, single process, anti-hang), bring to Charles, then build.
+perturbation-surviving, blind-classified (9 criteria in the pre-reg doc).
+**SOLVER PROGRESS (2026-07-01):** round cell reduces to a CHEAP 1-D system, TWO fields φ(r),ρ(r) (ρ dynamical; areal ρ=r is
+the neutral sub-case, NOT free). Mirror-fold seal BC = φ'=ρ'=0 (drum → eigenvalue). VACUUM mirror cell is TRIVIAL (constant) →
+needs MATTER. Round S² winding matter reduced + CAS-verified (`round_matter_reduction_results.md`, `cell_solver_round.py`):
+`ρ''_m=(e^{2φ}/4)(ξρI_r − κN²I_4θ/ρ³)`. **RIGID hedgehog (f=θ, I_r=0) → the cell COLLAPSES (real, verified, not a sign bug)**;
+the stabilizing +ξρI_r needs RADIAL matter structure I_r>0; balance ρ⁴~κN²I_4θ/(ξI_r). **IMMEDIATE NEXT ACTION = BUILD the
+minimally-free axisymmetric field f(r,θ)** (n=(sin f cosNψ,sin f sinNψ,cos f); rigid=f=θ) — a 2-D finite-mirror eigenproblem
+coupling f(r,θ) to φ(r),ρ(r) (matter EOM in `round_matter_reduction_results.md`). Don't insert I_r by hand; look for ISOLATED
+cell lengths (φ,ρ,f close), unlabeled, fixed Z_φ/ξ/κ/N. Still collapses → scoped negative; isolated modes → first discreteness signal.
 The Z_φ fork stays a held-fixed parameter (consilience later); it does not gate the "are there cells at all?" question.
 Premise flags (standing): constrained-metric FORM (φ purely longitudinal) CHOSE-not-forced; angular term UNIQUE (K² excluded);
 Z_φ/mixing = OPEN FORK; seal-class (universe/matter ↔ A/B) OPEN; matter-φ-blind + shift rule ride R1+P5 (CHOSE).
