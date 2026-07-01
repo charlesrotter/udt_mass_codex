@@ -117,6 +117,37 @@ getting the numbers right and NOT fooling ourselves.
 itself — this is exactly where "keep auditing and digging until it's correct" earns its keep: is this scoped or
 general? chose or derived? whole or slice?
 
+## REUSABLE MACHINERY (the old solver = a PARTS BIN, not a foundation) — Charles 2026-07-01
+The old 3-D solver was the WRONG frame, but it has TWO layers: the **physics recipe** layer is DEAD (wrong frame),
+the **numerical machinery** layer is Category-A ("how we solve", frame-agnostic) and is a REUSABLE parts bin. Raid it
+DELIBERATELY, one audited part at a time, as the difficulty climbs — do NOT build on it wholesale.
+
+**REUSABLE (Category-A numerics — mine the METHOD, in `legacy/` + the kept root closure):**
+- `glm` step = Levenberg-Marquardt in a conditioned basis + Nielsen damping + line-search (in
+  `p1_residual_general_einstein.py::newton_solve_p1`) — a general robust nonlinear solver for when the 2-D/off-round
+  problem gets stiff.
+- galerkin BC-recombined basis (`galerkin_basis.py`) — bake BCs into the basis for conditioning (the mirror-seal cell
+  has its own tricky BCs).
+- spectral methods — **`spectral_sph_exact.py` (SH-EXACT angular d/dθ) is the most directly relevant**: the naive
+  GL-μ grid mis-differentiated the winding `sinθ` non-convergently; the new `f(r,θ)` winding field is EXACTLY that
+  structure. Also `spectral_cheb.py` (Chebyshev radial). GPU batching (torch float64) for large scans.
+- the junction/DtN/Israel formalism (already used for the seal JC1/JC2), and the grid/method-convergence harness
+  (a pre-reg acceptance criterion).
+- **Operational know-how (frame-independent, do NOT relearn the hard way):** the GL-μ-grid-mis-differentiates-winding
+  gotcha; the V100/cu121 batched-Cholesky-with-broadcast-factor corruption at batch ≳150 (use explicit inverse +
+  matmul); the ANTI-HANG rules (bound the grid, ONE process, never background-poll a solve).
+
+**DEAD (wrong-frame PHYSICS — do NOT reuse the ASSEMBLY):** `p1_residual_general_einstein.py` (the 11-field residual),
+`branch_operator.py` / `b1prime_3d_offround_residual.py` (the e^{2φ}-weighted derived operator), the X-continuation,
+`solver_action.py` GR-baseline. These build the φ-OUTSIDE-the-metric frame.
+
+**CAVEATS:** (1) the old modules INTERTWINE physics + numerics — you cannot just `import full3d_spectral` (it builds the
+wrong metric; the matter EL bakes in e^{2φ}); pull the METHOD, never the assembly, or you re-import the flaw
+(Category-A not B; the "audit-solving-infrastructure" discipline applies). (2) The near-term problem is MUCH simpler
+(1-D ODE now, 2-D PDE next — scipy-handled; `cell_solver_round.py` is ~60 lines), so for a while a FRESH small tool is
+CLEANER than untangling a 3-D module. (3) The parts bin being full is a real head start; assembling from it wholesale
+would drag the wrong frame back in.
+
 ## Must-not-lose (durable facts)
 - DATA-BLIND wall numbers (NEVER load during a derivation): the six lepton wall numbers, contract
   26fc757. We predict RATIOS.
