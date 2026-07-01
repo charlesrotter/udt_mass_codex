@@ -57,15 +57,24 @@ Key results (all CAS-verified):
   = FINITE-CELL/microphysics. **Discriminator (CAS):** P has NO asymptotically-constant vacuum (`0=4e^{-2φ_∞}≠0`) ⇒ P is
   intrinsically finite-domain. Map: continuum-exterior→G, finite-cell→P, boundary between→a MATCHING problem.
 
-**IMMEDIATE NEXT ACTION (Charles, 2026-07-01) = DERIVE THE G↔P SWITCH CRITERION** (NOT "pick G or P"). Prove/falsify:
-> "Branch P is admissible ONLY IF finite angular geometry breaks the global depth-shift symmetry."
-Candidate switches to test: (1) finite angular-cell boundary; (2) nontrivial topology n:S²→S²; (3) a transverse curvature
-invariant that cannot be gauged away; (4) a BC fixing angular size so the global φ-shift stops being a redundancy. This is a
-DERIVATION target (MAP first, no solver). A constrained-two-player SOLVER is a LATER target, gated behind the switch criterion.
-Premise flags on the record: the constrained-metric FORM (φ purely longitudinal) is CHOSE-not-yet-forced; "matter φ-blind"
-rides the R1+P5 shift levers (CHOSE); Branch P deliberately BREAKS R1 in the angular sector.
+**G↔P SWITCH CRITERION — DERIVED (2026-07-01; `gp_switch_criterion_results.md`; CAS + blind-verifier).** The switch is a
+PINNED DIMENSIONLESS radial-to-angular invariant (Charles's sharpening — "fixed angular scale" alone is too broad):
+- Only the transverse extrinsic term `𝒦=K_AB K^AB−K²` breaks the shift (kinetic/`R^{(2)}`/matter all invariant).
+- Invariant moved = the cell ASPECT RATIO `χ = (∫e^φ dr)/√(A/4π)` → `χ→e^λχ` (proper-length ratio; coord-invariant).
+- **N+S:** shift breaks → **Branch P** iff (N1) √A pinned AND (N2) radial interval [r_c,r_i] pinned AND (N3) `𝒦≠0`. Else G.
+- Adversarial: fixed-angular-scale ALONE insufficient (need N2); topology alone insufficient (degree pins no length);
+  **P is a genuine BULK equation** (∂𝒦/∂φ=−2𝒦≠0; `∫√h𝒦` not a total derivative) — SCOPED to 𝒦-as-standalone-action-piece.
+- Regime map: G = bulk where χ free (continuum exterior, scale-free); P = cell INTERIOR where χ pinned & 𝒦≠0 (φ-angular
+  coupling); the seal/cell-wall = where χ gets pinned = the matching layer. Matches finite-cell canon; ADDED N2/N3 to the hunch.
+
+**IMMEDIATE NEXT ACTION (2026-07-01) = DERIVE WHAT THE NATIVE GEOMETRIC ACTION IS** — is `𝒦` a standalone invariant, or part
+of a total-derivative curvature combination (like the EH boundary result)? This is the LAST item gating full bulk-P certainty
+(Task-3 scope) AND bears on "is the minimal kinetic the whole bulk action." MAP first, no solver. THEN (later) the G↔P MATCHING
+problem at the seal; a constrained-two-player SOLVER is gated behind those.
+Premise flags (standing): constrained-metric FORM (φ purely longitudinal) CHOSE-not-forced; matter-φ-blind + shift rule ride
+R1+P5 (CHOSE); Branch P breaks R1 in the angular sector.
 **DO NOT (per Charles):** re-pose one-player in code, keep two-player as canonical, build any solver, or change the matter
-weight — until the switch criterion is on the table. Op: any CAS/solve UNBUFFERED, single process, no grep pipe, no nohup.
+weight — until the action question is settled. Op: any CAS/solve UNBUFFERED, single process, no grep pipe, no nohup.
 
 ### ↓↓↓ SUPERSEDED 2026-07-01 (basin/e^{2φ}-weight arc — HOW WE GOT HERE; the field-eq result above explains it) ↓↓↓
 **Basin audit (classify-only) + glm stronger step + the e^{2φ}-weight audit** — the chain that led to the frame result above.
