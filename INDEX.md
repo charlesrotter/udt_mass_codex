@@ -25,16 +25,20 @@ discipline skills → `HANDOFF.md` TOP (current activity) → `CANON.md` / `NEGA
 → this INDEX → the specific records. The file-immutability rule is **REPEALED** (Charles 2026-06-24): use git
 as git — edit in place, roll back via history.
 
-**CURRENT FRONTIER (2026-06-29 — LIVE.md is authoritative, read it first):** the kap8 thread CLOSED (caveats #2
-winding-survived + #3 off-diagonals-excluded; the object is a core-concentrated S² winding DEFECT, NOT a horizon).
-A broad-sweep solver AUDIT (`SOLVER_AUDIT_2026-06-29.md`) found **D1 = the static solve is UNDERDETERMINED**
-(1776 eqns / 4224 unknowns; null-dim 2448). The **|n|=1 / amplitude FORK is RESOLVED** (matter = rigid unit field,
-native; the magnitude version is a gated Higgs-type import; amplitude ≠ φ). The **D1 fix is IMPLEMENTED + its
-determinacy blind-verified** (`residual_vector_p1(...,determined=True)`, null-dim 0), but **RE-SOLVE STALLED**
-(full-rank yet cond≈1e11 + BC-stiffness) so the re-grade is BLOCKED. **NEXT = the 3-move conditioning phase**
-(warm-start+fixed-X / parity-Galerkin basis+equilibration / re-examine the stiff core Robin BC; spec =
-`D1_FIX_DESIGN.md`), then re-grade; then the other fix-first items, then DYNAMIC (time-live native S²). The old "p1 MIGRATION / COMPLETION PROGRAM / F0-F8 scoreboard / B1'
-off-round" frame is **SUPERSEDED** (trackers in `archive/`).
+**CURRENT FRONTIER (2026-07-01 — LIVE.md is authoritative, read it first):** the native UDT field equations are
+DERIVED + CAS + blind-verified (EH is EMPTY on the canonical family; native frame = CONSTRAINED-TWO-PLAYER with φ
+INSIDE the metric; matter is φ-BLIND → the whole basin/X-kluge/e^{2φ} saga was a NON-native artifact, EXPLAINED +
+retired; G/P switch criterion; native geometric action; off-round 𝒦 uniqueness; seal junctions). Charles then called
+a **PHASE SHIFT: derivations done → RETURN TO THE SOLVER** on the derived frame, let discreteness EMERGE. Pre-reg
+FROZEN (`discreteness_preregistration.md`: "solve the SPACE, not the electron"; finite MIRRORED cell; Class A closed
+modes / Class B charged; N≠q). First solver = `cell_solver_round.py` (round cell = cheap 1-D, 2 fields φ,ρ); vacuum
+mirror cell trivial → needs MATTER; RIGID hedgehog collapses (I_r=0). **NEXT = build the minimally-free axisymmetric
+field f(r,θ) — a 2-D finite-mirror eigenproblem** (matter EOM in `round_matter_reduction_results.md`); look for
+ISOLATED cell modes, unlabeled, fixed Z_φ/ξ/κ/N. One open constant = the Z_φ fork (held fixed; consilience later).
+**SUPERSEDED (2026-07-01):** the whole 06-29→30 kap8/D1-determinacy/conditioning/basin arc (it was the trail that
+found the live FRAME itself was un-derived — detail in `archive/LIVE_basin_D1_galerkin_arc_2026-06-30.md`), and the
+older p1-MIGRATION/COMPLETION-PROGRAM/F0-F8/B1'-off-round frame (trackers in `archive/`). The old p1 solver modules
+stay at root ONLY because pytest imports them — do NOT tune them (wrong frame; retire after the new solver).
 
 ---
 
