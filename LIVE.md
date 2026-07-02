@@ -42,6 +42,17 @@ SHARP: φ'=0-both-ends essential (ρ'=0-only seals escape); Route-B fork robust 
 Φ̃=Zρ²φ'+4ρρ'. **OWED (surfaced by the pass): live solvers use Z=8 (the Route-B value) WITHOUT Route B's forced
 `2√h e^φKφ'` mixing term — justify Z under Route A or carry the term.**
 Doc: `universe_cell_vacuum_impossibility_results.md` + registry entry (R1/R2/T1 all STANDING, premise-scoped).
+**⇑⇑ FURTHER (same day): Charles ruled fork 1 → the FLUX-SEALED UNIVERSE CELL is the object; claude.ai mini-MAP
+recorded as pre-registration (`flux_sealed_universe_cell_miniMAP.md`: teeth = T1 physicality / T2 knob-free
+relations / T3 σ-slices; tripwire: T1 structural fail ⇒ ω≠0 forced). D1+D3 DERIVED + BLIND-VERIFIED (no
+refutations; `universe_cell_fold_jc_sigma_results.md`): odd fold pins φ(r_s)=0 AND ρ'(r_s)=0 with φ' free ⇒
+q=Zρ_s²φ' an OUTPUT, q≥0 forced; anchor ⇒ φ_c=−ln(1101); budget q²/(2Zρ_s²)=E_m(r_c)−E_m(r_s); free-endpoint
+posture ⇒ **E_m(r_c)=2 EXACTLY (F5 "one critical amount" as a DERIVED closure; vacuum fails it — independent
+2nd matter-required proof)**; σ = ONE FREE FUNCTION (tuned-σ universe = zero evidence, derivation-level); only
+failable Einstein-reading audit = σ_from_ε vs σ_from_matter-action (TOV/ε+2p_t = zero test power; T≡G/8π NOT
+native — scar-doc only; ε ≡ MS density); odd fold = exact G-symmetry (beyond-CMB natively Branch G, PONDER).
+**NEXT = PONDER with Charles: canon-gauge flag (canon φ:0→ln(1101) vs fold-pinned −ln(1101)→0 — physical in P);
+fixed-vs-dynamical folds (E_m(r_c)=2 rides on it); then T2 analytics + T3 σ-slice solver.**
 The block below is the morning frontier this update executes/supersedes in part (its step-1 "solve the universe
 cell" is now half-answered: vacuum branch closed analytically; the matter-bearing build waits on the fork ruling).
 **⇒ WHERE WE ARE NOW: the ROUND-STATIC (winding-cell) frame is EXHAUSTED against a MODEL ambient (3 blind-verified layers, no cell)
