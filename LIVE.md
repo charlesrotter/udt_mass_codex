@@ -51,8 +51,18 @@ posture ⇒ **E_m(r_c)=2 EXACTLY (F5 "one critical amount" as a DERIVED closure;
 2nd matter-required proof)**; σ = ONE FREE FUNCTION (tuned-σ universe = zero evidence, derivation-level); only
 failable Einstein-reading audit = σ_from_ε vs σ_from_matter-action (TOV/ε+2p_t = zero test power; T≡G/8π NOT
 native — scar-doc only; ε ≡ MS density); odd fold = exact G-symmetry (beyond-CMB natively Branch G, PONDER).
-**NEXT = PONDER with Charles: canon-gauge flag (canon φ:0→ln(1101) vs fold-pinned −ln(1101)→0 — physical in P);
-fixed-vs-dynamical folds (E_m(r_c)=2 rides on it); then T2 analytics + T3 σ-slice solver.**
+**RULED (Charles, same day): BREATHING EDGES adopted (H_tot≡0; E_m(core)=2 rides on a RULING now, not a driver
+CHOSE); anchor operated as Δφ (canon wording amendment pending). T2 DELIVERED (claude.ai) + BLIND-VERIFIED
+(agent ae5fd5860913a24f9, questions-only; `universe_cell_T2_identities_results.md`): flux law = untrappedness
+Φ'=4(1−2m/ρ), 2m≤ρ automatic, core born MARGINAL m_c=ρ_c/2; general-edge budget; H_m(core)=2 (F5 as a number);
+q-window Z·Δφ/∫dr/ρ² ≤ q ≤ 2ρ_s√(Z(1+ρ'_s²)) — upper side rides on H_m(seal)≥0 = FRESH PREMISE (tagged);
+window non-emptiness is SCALE-INVARIANT (constrains SHAPE not size) and **large Z closes the window** (ceiling
+√Z ≤ 2ρ_s√(1+ρ'_s²)·∫dr/ρ²/Δφ — ties the Z∈{1,8} fork to an anchor-anchored test). Non-monotone ρ is
+admissible (verifier counterexample) — whole-interval ρ_min only.
+**NEXT = T3: the σ-slice shoot** (from inner pins φ_c=−ln(1101), φ'_c=ρ'_c=0, ρ_c shooting param; land
+φ(r_s)=0 ∧ ρ'(r_s)=0 = one net closure ⇒ isolated ρ_c per fixed σ-slice; H_m(core)=2 constrains σ at core;
+acceptance = T2-A/B/C identities; frame test = the q-window; labeled slices per T3 pre-reg, ratios-first,
+Z∈{1,8} both). Bounded 1-D shooting, cheap. Then the σ cross-check audit (the ONLY test-power matter audit).
 The block below is the morning frontier this update executes/supersedes in part (its step-1 "solve the universe
 cell" is now half-answered: vacuum branch closed analytically; the matter-bearing build waits on the fork ruling).
 **⇒ WHERE WE ARE NOW: the ROUND-STATIC (winding-cell) frame is EXHAUSTED against a MODEL ambient (3 blind-verified layers, no cell)
