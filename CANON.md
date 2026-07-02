@@ -229,3 +229,24 @@ agent aa7c4d21d426fea02; relrederiv_checks.py sympy-exact) + BLIND adversarial v
 — STANDS-CONDITIONALLY on the named premises P4 (regularity, physically mandatory) and P8
 (the reciprocity slot-identification). Owner stated the R1/R2/R3 requirements 2026-06-18.
 Canonized by Charles 2026-06-18.
+
+---
+
+## C-2026-07-02-1 — The universe-cell anchor is a Δφ statement; the zero sits AT the CMB fold
+
+**Statement:** The finite-cell canon C-2026-06-10-2's wording "the universe is a finite cell
+([0, r_CMB], phi: 0 -> ln(1101) at the CMB boundary)" is CLARIFIED (not retracted): the
+physical content is the DIFFERENCE Δφ = φ(CMB fold) − φ(core) = ln(1101) (1+z = e^Δφ). The
+blind-verified fold derivation (universe_cell_fold_jc_sigma_results.md: the odd fold φ→−φ pins
+φ = 0 AT the CMB fold) fixes the canonical convention: **φ(CMB fold) = 0, interior running
+φ: −ln(1101) → 0.** In Branch P the absolute shift is physical (e^{−2φ} source), so this is a
+substantive convention, not gauge; all universe-cell work of 2026-07-02 (T2 identities, T3
+closure, the cascade/ladder program) is built on it and blind-verified within it.
+
+**Forces:** the fold-pinned convention is canonical for all cell solves; the original wording
+is to be read as the same Δφ with the zero relocated to the fold.
+
+**Provenance:** fold JC derivation + blind verification (agents a15ecc62590d15bd4 /
+a18115fe9d95cfb84); gauge flag raised in universe_cell_fold_jc_sigma_results.md; operated as
+Δφ by Charles from the T2 ruling (breathing edges) onward.
+**Charles-authorized 2026-07-02 (session ruling: "the canon Δφ amendment... all owed").**

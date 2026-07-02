@@ -7,7 +7,13 @@ Object (all boundary structure DERIVED, universe_cell_fold_jc_sigma_results.md):
   breathing edges H_tot == 0  =>  U(rho_c) = 2                   # THEORY (transversality) + Charles RULING 2026-07-02
   matter          potential-only phi-blind L_m = -U(rho)         # CHOSE (T3 slice family; D3: realizes any smooth sigma)
   slice shapes    u(rho) below                                   # CHOSE (labeled slices per T3 pre-registration)
-  Z in {1, 8}                                                    # both run (D2); Z=8 = route-B value, tension OWED
+  Z in {1, 8}                                                    # FREE-and-explored (Route A: Z_phi FREE, no mixing
+                                                                 # term forced; 8 = Route-B's value carried as a probe,
+                                                                 # NOT derived. Tension RESOLVED 2026-07-02: nothing on
+                                                                 # the live path claims Z=8 derived; both Z run always.
+                                                                 # Z is now observationally constrained by derived laws:
+                                                                 # window ceiling ~sqrt(Z), a_seal ~ sqrt(Z), q ~ Z --
+                                                                 # the Route fork = a consilience/observation call later.)
   r_c = 0                                                        # gauge pin
 EOMs (banked, CAS-verified; cell_solver_round.py + derive_universe_*):
   phi'' = 4 e^{-2phi} rho'^2/(Z rho^2) - 2 phi' rho'/rho
