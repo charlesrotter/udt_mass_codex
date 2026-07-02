@@ -1,13 +1,18 @@
-# INDEX — Repo Map (frontier refreshed 2026-07-01 — RETURN-TO-SOLVER, native frame derived; see LIVE.md, authoritative)
+# INDEX — Repo Map (frontier refreshed 2026-07-02 — round-static EXHAUSTED → RISK 1 → stationary ω≠0; see LIVE.md, authoritative)
 
 Navigable map of `udt_mass_codex`. **Structure (post-2026-07-01 consolidation):**
-- **root — now LEAN (29 `.py`, was 1113):** the 17-module test-import solver closure (the OLD wrong-frame
-  static solver — kept only because pytest still imports it; retires when the new solver + test rewrite land),
-  4 live tools, `matter_el_3d_gen.py` (codegen), the 5 this-session `verify_*.py`/`switch_criterion_derivation.py`
-  (paired with results docs), plus the NEW derived-frame solver **`cell_solver_round.py`**. Markdown: orientation
-  + canon/negatives + the 2026-07-01 NATIVE-FRAME docs (`native_field_equations_constrained_two_player_results.md`,
+- **root — LEAN:** the 17-module test-import solver closure (the OLD wrong-frame static solver — kept only because
+  pytest still imports it; retires when the new solver + test rewrite land), 4 live tools, `matter_el_3d_gen.py`
+  (codegen); the derived-frame solvers **`cell_solver_round.py`** (1-D round) + **`cell_solver_f2d.py`** (2-D
+  f(r,θ)+φ+ρ) and its run-family (`cell_solver_f2d_first_build.py`, `_N2.py`, `_embedded_run.py`, `_classB_run.py`);
+  the paired `verify_*.py` (native-frame `verify_*`/`switch_criterion_derivation.py` + this-session
+  `verify_f2d_reduction.py`, `verify_embedded_closure.py`, `verify_embedded_rulings.py`, `verify_classB_derivations.py`).
+  Markdown: orientation + canon/negatives + the 2026-07-01 NATIVE-FRAME docs (`native_field_equations_constrained_two_player_results.md`,
   `gp_switch_criterion_results.md`, `native_geometric_action_results.md`, `seal_matching_junction_results.md`,
-  `round_matter_reduction_results.md`, `discreteness_preregistration.md`, `solver_build_MAP.md`) + provenance.
+  `round_matter_reduction_results.md`, `discreteness_preregistration.md`) + the 2026-07-02 CELL-RUN arc docs
+  (`cell_solver_f2d_first_build_results.md`, `cell_solver_f2d_N2_results.md`, `embedded_cell_closure_H_amb_results.md`,
+  `embedded_run_mini_MAP.md`, `embedded_run_gate_rulings.md`, `cell_solver_f2d_embedded_run_results.md`,
+  `embedded_classB_mini_MAP.md`, `cell_solver_f2d_classB_run_results.md`) + provenance.
 - **`prototype/`** (14 `.py`) — branchGP/JFNK reference drivers from the 2026-06-23/24 Branch-P arc. Reference only.
 - **`legacy/`** — retired `.py`. `legacy/root_oneoffs_2026-07-01/` (1086 files) = the whole one-off scatter
   archived 2026-07-01 (`native_*`, `w*`, `phase*`, `d1_*`, `p1-p5*`, topical scans, historical `verify_*`) after
@@ -25,20 +30,23 @@ discipline skills → `HANDOFF.md` TOP (current activity) → `CANON.md` / `NEGA
 → this INDEX → the specific records. The file-immutability rule is **REPEALED** (Charles 2026-06-24): use git
 as git — edit in place, roll back via history.
 
-**CURRENT FRONTIER (2026-07-01 — LIVE.md is authoritative, read it first):** the native UDT field equations are
-DERIVED + CAS + blind-verified (EH is EMPTY on the canonical family; native frame = CONSTRAINED-TWO-PLAYER with φ
-INSIDE the metric; matter is φ-BLIND → the whole basin/X-kluge/e^{2φ} saga was a NON-native artifact, EXPLAINED +
-retired; G/P switch criterion; native geometric action; off-round 𝒦 uniqueness; seal junctions). Charles then called
-a **PHASE SHIFT: derivations done → RETURN TO THE SOLVER** on the derived frame, let discreteness EMERGE. Pre-reg
-FROZEN (`discreteness_preregistration.md`: "solve the SPACE, not the electron"; finite MIRRORED cell; Class A closed
-modes / Class B charged; N≠q). First solver = `cell_solver_round.py` (round cell = cheap 1-D, 2 fields φ,ρ); vacuum
-mirror cell trivial → needs MATTER; RIGID hedgehog collapses (I_r=0). **NEXT = build the minimally-free axisymmetric
-field f(r,θ) — a 2-D finite-mirror eigenproblem** (matter EOM in `round_matter_reduction_results.md`); look for
-ISOLATED cell modes, unlabeled, fixed Z_φ/ξ/κ/N. One open constant = the Z_φ fork (held fixed; consilience later).
-**SUPERSEDED (2026-07-01):** the whole 06-29→30 kap8/D1-determinacy/conditioning/basin arc (it was the trail that
-found the live FRAME itself was un-derived — detail in `archive/LIVE_basin_D1_galerkin_arc_2026-06-30.md`), and the
-older p1-MIGRATION/COMPLETION-PROGRAM/F0-F8/B1'-off-round frame (trackers in `archive/`). The old p1 solver modules
-stay at root ONLY because pytest imports them — do NOT tune them (wrong frame; retire after the new solver).
+**CURRENT FRONTIER (2026-07-02 — LIVE.md is authoritative, read it first):** the round-STATIC cell frame is
+**EXHAUSTED** across a three-layer, each-blind-verified arc — **(1)** CLOSED cell (H=0) N=1,2,3 → NO cell (geometry
+runs away); **(2)** EMBEDDED closure `H_cell=H_amb` DERIVED (ambient Misner–Sharp density = the scale pin) → embedding
+RESCUES FINITENESS but a Class-A mirror core is gradient-free/q≈0 → can't momentum-match a gradient-carrying ambient;
+**(3)** CLASS-B charged core → q CLOSES the flux match (canon charge=seal-flux) but NO band — a TWO-BRANCH MATTER wall
+(ρ'_amb>0 needs I_r>0 which V7 forbids from emerging; ρ'_amb≤0 opens R4 but R5/skin-E_ang blocks). **RULING (Charles/
+claude.ai): 3rd object failed → REFRAME not 4th object; the wall = "nothing in the round-STATIC frame forces radial
+matter structure" = RISK 1** (V7 is a static theorem). **NEXT = the STATIONARY (ω≠0) internal-rotation reduction**
+(Nψ→Nψ+ωt; g^tt=−e^{2φ} weights ω² → φ couples to internal frequency = the missing forcing = Charles's φ-angular
+hunch; mass~ω geometric). First deliverable (fresh session) = the ω≠0 mini-MAP (round reduction + full nonlinear
+e^{2φ}, COUNTING FIRST, gate+CAS+blind). Docs: `cell_solver_f2d_*_results.md`, `embedded_cell_closure_H_amb_results.md`,
+`embedded_run_*`/`embedded_classB_mini_MAP.md`, `cell_solver_f2d_classB_run_results.md`, `verify_{f2d_reduction,embedded_closure,embedded_rulings,classB_derivations}.py`.
+**SUPERSEDED:** the 2026-07-01 native-frame FOUNDATION + round-static next-action (still-valid foundation; canonical
+record = the 5 native-frame result docs) → `archive/LIVE_native_frame_round_static_2026-07-01.md`; the 06-29→30
+kap8/D1/conditioning/basin arc → `archive/LIVE_basin_D1_galerkin_arc_2026-06-30.md`; the older p1-MIGRATION/F0-F8
+frame (trackers in `archive/`). The old p1 solver modules stay at root ONLY because pytest imports them — do NOT tune
+them (wrong frame). **Risk 1 is now CONFIRMED as the wall; Risk 2 (Z_φ fork / `e^φKφ'` mixing) still open, gates ratios.**
 
 ---
 
