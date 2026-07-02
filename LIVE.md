@@ -52,6 +52,11 @@ THE ARC THIS SESSION (all CAS + BLIND-verified; each committed + pushed):
   e^{2φ} factor, COUNTING FIRST** (as every mini-MAP this session: state determinacy before running; gate with claude.ai; CAS+blind
   the reduction before banking). Connects to memory [[frontier-time-live-native-matter]] / [[everything-on-solver-build]] (the prior
   time-live arc) and [[project-ownership-and-hunch]] (φ-angular discreteness).
+  **START FROM:** the STATIC round reduction to extend is in `round_matter_reduction_results.md` (the S² winding matter reduction:
+  `ρ''_m=(e^{2φ}/4)(ξρI_r−κN²I_4θ/ρ³)`, moments I_r/I_4θ, the f(r,θ) EOM) + `cell_solver_round.py` (the 1-D φ,ρ solver header EOMs);
+  the ω≠0 task is to redo that reduction with n's phase Nψ→Nψ+ωt so g^tt=−e^{2φ} weights the new ω² term. **"V7"** (cited throughout
+  as "radial structure is never energetically free / rigid is a strict min") = the second-variation result in
+  `f2d_virial_step0_results.md` (V7), blind-verified — the static theorem the ω≠0 frame is meant to EVADE.
 
 **METHOD THAT WORKED THIS SESSION (keep it):** mini-MAP with counting done HONESTLY before any run → claude.ai gate ruling → CAS +
 BLIND-verify the derivations → build/run bounded (anti-hang) → BLIND-verify the run (attack the load-bearing claim hardest) →
