@@ -25,25 +25,30 @@ The ambient (universe-interior) solution at the seal location R_amb supplies KNO
 **Matching conditions at the seal (source-free Class-A embedded):**
 - field continuity: φ_cell(r_s)=φ_amb, ρ_cell(r_s)=ρ_amb  — 2 (essential)
 - momentum continuity (JC1/JC2): π_φ,cell=π_φ,amb, π_ρ,cell=π_ρ,amb — 2 (natural)
-- corner condition C2: H_cell(r_s)=H_amb — **REDUNDANCY QUESTION (must settle before running):** since
-  H=q'π−L̄ is built from (φ,ρ,π_φ,π_ρ), IF all four field/momentum matches hold then H matches
-  automatically ⇒ C2 is IMPLIED, not independent. (Contrast the CLOSED cell, where there is no field
-  match — the mirror φ'=ρ'=0 replaces it — so there C2=H=0 is the independent 3rd condition. C2's status
-  FLIPS between closed and embedded. This must be stated as a premise, because it decides the count.)
+- corner condition C2: H_cell(r_s)=H_amb — **RESOLVED by claude.ai Ruling 1 (`embedded_run_gate_rulings.md`),
+  CAS-verified `verify_embedded_rulings.py`:** C2 is redundant for the GEOMETRY only. CAS: the geometry
+  Legendre inversion gives `H_geo = π_φ²/(2Zρ²) − π_ρ²e^{2φ}/8 − 2`, a function of (φ,ρ,π_φ,π_ρ) only, so
+  field+momentum continuity ⇒ [H_geo]=0 automatically. BUT H has a MATTER part: at the seal (f_r=0) the
+  cell carries the winding's angular energy `E_ang(r_s)=(ξ/2)(I_θ+N²I_s)+(κN²/2)I_4θ/ρ²`, which the
+  ambient does not. So the corner condition [H]=0 (forced because r_s is dynamical) reduces, given the
+  four continuity matches, to ONE genuinely independent MATTER condition:
+      **E_ang,cell(r_s) = m_amb**   (the ambient matter's H-contribution at the seal).
+  Physical: the cell must impedance-match its SKIN's angular energy to the environment's matter energy —
+  the ambient-density mechanism appearing a SECOND time, in the skin. (Contrast the CLOSED cell: no field
+  match, the mirror φ'=ρ'=0 replaces it, so there C2=H=0 is independent. C2's status FLIPS closed↔embedded.)
 
-**Count (taking C2 as implied ⇒ 4 independent matching conditions):**
+**Count (CORRECTED per Ruling 1 — 5 independent conditions: 2 field + 2 momentum + 1 C2-matter):**
 | scenario | unknowns | conditions | determinacy | reading |
 |---|---|---|---|---|
-| **R_amb FREE** (scan ambient) | φ_c, ρ_c, r_s, R_amb = **4** | 4 | **SQUARE** | isolated cells generic — for each admissible ambient a cell |
-| **R_amb FIXED** (one ambient density) | φ_c, ρ_c, r_s = **3** | 4 | **OVER-determined by 1** | cells exist only at ISOLATED ambient densities → the **Misner–Sharp band** |
+| **R_amb FREE** (scan ambient) | φ_c, ρ_c, r_s, R_amb = **4** | 5 | **OVER-determined by 1** | cells only at ISOLATED ambient densities → the **Misner–Sharp band** |
+| **R_amb FIXED** (one ambient density) | φ_c, ρ_c, r_s = **3** | 5 | **OVER-determined by 2** | cells at even more isolated points |
 
-**⇒ The honest pre-registered expectation:** unlike the closed cell (exactly square → runaway), the
-embedded cell at fixed ambient density is **over-determined by one** → **cells are admitted only at
-isolated ambient densities.** Scanning the ambient (R_amb / H_amb) as a diagnostic axis should then show
-cells appearing at discrete/banded ambient values — that IS the discreteness mechanism (isolation source
-§4d), and it is the mass-vs-cosmology structure if it appears. **If C2 turns out NOT redundant** (e.g. a
-seal source, or the momentum match is weaker than full derivative continuity), the count shifts by 1 —
-so the redundancy question is settled FIRST (a CAS/analytic check, not a solve), and the table re-read.
+**⇒ Pre-registered expectation (STRENGTHENED vs the draft):** unlike the closed cell (exactly square →
+runaway), the embedded cell is **over-determined** → **cells are admitted only at isolated ambient
+densities** (the Misner–Sharp band; isolation source §4d). The mechanism is one notch STRICTER than the
+draft table (over-by-1 free, not square). **Model ambient = FIVE numbers** (φ_amb, ρ_amb, π_φ,amb,
+π_ρ,amb, m_amb); **H_amb is DERIVED = H_geo(φ,ρ,π) + m_amb, never specified independently** (over-
+specifying H_amb is an inconsistency trap — Ruling 1).
 
 ## 2. Premise ledger (chose / derived — tagged BEFORE running)
 | # | premise | tag |
@@ -64,11 +69,15 @@ universe solution (§4) is in hand. No cell is claimed at a hand-picked H_amb; t
 of where-cells-exist along the axis, with the derived value(s) annotated. If cells appear at isolated
 ambient densities, that plot is the first mass-spectrum-vs-cosmology figure of the program.
 
-## 4. ⚠️ LOAD-BEARING OPEN PREMISE — where does the ambient solution come from?
-The embedded run needs (φ_amb, ρ_amb, π_amb, H_amb). These come from a **universe-cell solution**. But:
-**if the universe cell is ALSO a closed round-static cell, our N=1,2,3 result says it too runs away** —
-so we may not HAVE a finite ambient solution to match to. Candidate resolutions (for claude.ai — this is
-exactly the kind of thing to settle before running):
+## 4. Ambient solution — RESOLVED by claude.ai Ruling 3 (the §4 alarm dissolves)
+**The N=1,2,3 runaway is scoped to WINDING-matter cells. The universe cell is NOT one** — it carries the
+theory's bulk matter (N=0 / different matter sector) and sits at the F5 critical closure, so the closed-
+cell runaway does NOT automatically apply to it (the universe solution is owed, not contradicted; the
+Machian reading stays — the universe may self-close precisely because its matter is not a winding knot).
+**Staging endorsed: MODEL ambient FIRST (ii → i).** The model ambient = the FIVE numbers (Ruling 1) with
+ONE diagnostic axis (an ambient-density-like parameter) and the other four tied to it by a simple declared
+rule (a coarse P-interior profile), everything labeled MODEL; the derived universe value is marked later.
+Original alarm + candidate resolutions retained below for the record:
 - (i) the universe cell is the ONE self-closing object (claude.ai's Machian reading / F5 / "critical
   universe" canon): it self-closes by a mechanism the small cells lack — e.g. it sits at the CRITICAL
   matter amount, or is a Branch-G (continuum-exterior, scale-free) object, or its size IS the thing set
@@ -85,10 +94,9 @@ Branch-G / critical, the "ambient" is not just a Branch-P interior value).
 ## 5. Boundary conditions + diagnostics change (claude.ai item 3)
 The outer seal is NO LONGER a mirror (φ'=ρ'=0). It is the **matched interface** (§1). Consequences:
 - The transversality/closure condition is **H_cell(r_s)=H_amb**, not H=0 (and see the P4 redundancy).
-- The **Derrick identity** must be RESTATED for the matched boundary: the closed-cell free-boundary
-  Derrick (S_a=S_b, boundary term killed by the mirror) picks up an ambient boundary term — the correct
-  per-solution identity for a matched cell is owed (analytic, before the run) and becomes the adapted
-  artifact filter.
+- The **Derrick identity** — RESTATED for the matched boundary by claude.ai Ruling 2 (CAS-verify OWED):
+  **`S_a − S_b + (r_s − r_c)H_amb − π_ρ(r_s)ρ(r_s) = 0`** (recovers the closed-cell S_a=S_b when H=0,
+  π_ρ,s=0). This is the adapted per-solution artifact filter (S_a, S_b as in Step-0 V6).
 - **H-drift** stays a discretization-soundness diagnostic (H conserved in the interior; check it lands on
   H_amb at the seal).
 - **Two-tier stability filter** as now built (tier-a ENERGY Hessian, tier-b constraint-respecting
