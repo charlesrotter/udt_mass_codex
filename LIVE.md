@@ -24,9 +24,11 @@ CURRENT STATE block wins.**
   background-poll a solve.
 
 ## ============ CURRENT STATE (2026-07-02 EOD) — READ THIS FIRST ============
-**⇒ WHERE WE ARE NOW: the ROUND-STATIC frame is EXHAUSTED (3 blind-verified layers, no cell) → RULING (Charles/claude.ai): this
-is RISK 1 (round-static walls off discreteness), NOT a fourth object. NEXT = the STATIONARY (ω≠0) reduction — do it in a FRESH
-session, MAP/counting FIRST (no auto-coding).**
+**⇒ WHERE WE ARE NOW: the ROUND-STATIC (winding-cell) frame is EXHAUSTED against a MODEL ambient (3 blind-verified layers, no cell)
+→ RULING (Charles/claude.ai): RISK 1 (round-static walls off discreteness), NOT a fourth object. NEXT — REORDERED: SOLVE THE
+UNIVERSE CELL FIRST (the real ambient + the rock-solidity test + the one object the theory says MUST self-close) → re-ask static
+matching against the real ambient → then ω≠0 (dynamical) on the validated background. FRESH session, MAP/counting FIRST, no
+auto-coding. Static-continuum stays open (routes to dynamical/quantized).**
 
 THE ARC THIS SESSION (all CAS + BLIND-verified; each committed + pushed):
 1. **CLOSED cell (H=0), N=1,2,3: NO cell** — geometry runs away / no finite stationary point (`cell_solver_f2d_first_build_results.md`,
@@ -44,19 +46,31 @@ THE ARC THIS SESSION (all CAS + BLIND-verified; each committed + pushed):
   radial matter structure."** V7 is a STATIC theorem. That is RISK 1 knocking. The proposed 4th object (a matter-BC'd/unwound
   core) is **REJECTED**: f(r_c,θ)=0 breaks the degree/pole BC f(r,π)=π → axis term N²sin²f/sinθ diverges (infinite energy); the
   pole-respecting repair h(θ)≠θ is an arbitrary infinite-dim function = an X-kluge. Do NOT spec it.
-- **NEXT = the STATIONARY internal-rotation reduction: extend the winding phase Nψ → Nψ + ωt.** From the metric g^tt=−e^{2φ}
-  weights the ω² term with e^{2φ} → **positional time dilation couples DIRECTLY to internal frequency** = the φ-angular coupling
-  the static frame structurally LACKS, and exactly the shape of the missing forcing (= Charles's founding φ-angular hunch). Evades
-  V7 (static assumption); native Derrick-evasion; **mass ~ ω would be geometric.** Tagged DIRECTION, not result.
-- **FIRST DELIVERABLE (fresh session): the ω≠0 mini-MAP — recompute the ROUND reduction with the time-live phase, FULL nonlinear
-  e^{2φ} factor, COUNTING FIRST** (as every mini-MAP this session: state determinacy before running; gate with claude.ai; CAS+blind
-  the reduction before banking). Connects to memory [[frontier-time-live-native-matter]] / [[everything-on-solver-build]] (the prior
-  time-live arc) and [[project-ownership-and-hunch]] (φ-angular discreteness).
-  **START FROM:** the STATIC round reduction to extend is in `round_matter_reduction_results.md` (the S² winding matter reduction:
-  `ρ''_m=(e^{2φ}/4)(ξρI_r−κN²I_4θ/ρ³)`, moments I_r/I_4θ, the f(r,θ) EOM) + `cell_solver_round.py` (the 1-D φ,ρ solver header EOMs);
-  the ω≠0 task is to redo that reduction with n's phase Nψ→Nψ+ωt so g^tt=−e^{2φ} weights the new ω² term. **"V7"** (cited throughout
-  as "radial structure is never energetically free / rigid is a strict min") = the second-variation result in
-  `f2d_virial_step0_results.md` (V7), blind-verified — the static theorem the ω≠0 frame is meant to EVADE.
+- **NEXT — REORDERED (Charles + claude.ai, 2026-07-02): SOLVE THE UNIVERSE CELL FIRST**, then re-ask static matching against the
+  REAL ambient, then ω≠0 on the validated background. WHY the reorder (solver-first): the whole embedded/Class-B arc matched against
+  a **MODEL ambient** (5 hand-picked numbers, ρ'_amb=+1) — so "round-static exhausted" rode on a stand-in; it is not yet a clean
+  METRIC verdict (is the "no band" a property of the metric or of our model ambient? — must check).
+- **1) SOLVE THE UNIVERSE CELL (FIRST — highest information-per-run on the board).** It is the theory's ONE falsifiable POSITIVE
+  commitment: F5/Machian canon says the universe cell MUST self-close. **If the rock-solid solver shows it ALSO running away → a
+  FRAME-LEVEL negative with teeth** (not "try the next object"). **If it closes → validates the solver + the REAL ambient + the
+  Machian reading in ONE object.** It is exactly the rock-solidity test to pass BEFORE going dynamical. It is a genuinely DIFFERENT
+  object than the failed winding cells (N=0 bulk matter at F5 critical, the self-closing one). See [[critical-universe-frame]].
+  **DISCIPLINE GUARD (do not skip):** the universe matter sector is UNPINNED = knob territory. The mini-MAP counting MUST tag the
+  bulk-matter form as an explicit CHOSE — or BETTER, first DERIVE what F5 critical closure FORCES about it. A universe solution got
+  by TUNING the matter sector proves NOTHING about the solver or the ambient (X-kluge shape).
+- **2) RE-ASK the static matching against the REAL ambient** (V7 is partly ambient-INDEPENDENT, so this may CONFIRM static-continuum
+  — that is FINE; it routes us to dynamical with a clean conscience). **3) THEN ω≠0 on the validated background:** the STATIONARY
+  internal-rotation reduction Nψ→Nψ+ωt — g^tt=−e^{2φ} weights ω² → φ couples DIRECTLY to internal frequency = the φ-angular coupling
+  the static frame LACKS = the missing forcing = Charles's founding hunch ([[project-ownership-and-hunch]]); evades V7; native
+  Derrick-evasion; mass~ω geometric. START FROM (when reached): `round_matter_reduction_results.md` + `cell_solver_round.py`; redo
+  the reduction with the phase Nψ→Nψ+ωt. Connects to [[frontier-time-live-native-matter]] / [[everything-on-solver-build]].
+- **TAGGED READING (argument, NOT derived — but the 2nd time the failures organize under it):** *"NO isolated particles — only
+  STRUCTURE IN the universe."* Particle cells failed to nucleate against FAKE boundaries because particles may not be separable
+  objects in this frame; you cannot find the structure until you have solved the thing it is structure OF. = the strong form of
+  "mass = the price of matching the universe." **Static-continuum stays OPEN at every step** (would route to dynamical/quantized,
+  not a fifth object). Charles: always open to DYNAMICAL discreteness (solver rock-solid first); reluctantly open to QUANTIZED if
+  dynamical fails. **"V7"** (cited throughout) = the second-variation "rigid is a strict min / radial structure never free" result
+  in `f2d_virial_step0_results.md`, blind-verified — the STATIC theorem the ω≠0 frame is meant to evade.
 
 **METHOD THAT WORKED THIS SESSION (keep it):** mini-MAP with counting done HONESTLY before any run → claude.ai gate ruling → CAS +
 BLIND-verify the derivations → build/run bounded (anti-hang) → BLIND-verify the run (attack the load-bearing claim hardest) →

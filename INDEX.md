@@ -37,10 +37,12 @@ RESCUES FINITENESS but a Class-A mirror core is gradient-free/q≈0 → can't mo
 **(3)** CLASS-B charged core → q CLOSES the flux match (canon charge=seal-flux) but NO band — a TWO-BRANCH MATTER wall
 (ρ'_amb>0 needs I_r>0 which V7 forbids from emerging; ρ'_amb≤0 opens R4 but R5/skin-E_ang blocks). **RULING (Charles/
 claude.ai): 3rd object failed → REFRAME not 4th object; the wall = "nothing in the round-STATIC frame forces radial
-matter structure" = RISK 1** (V7 is a static theorem). **NEXT = the STATIONARY (ω≠0) internal-rotation reduction**
-(Nψ→Nψ+ωt; g^tt=−e^{2φ} weights ω² → φ couples to internal frequency = the missing forcing = Charles's φ-angular
-hunch; mass~ω geometric). First deliverable (fresh session) = the ω≠0 mini-MAP (round reduction + full nonlinear
-e^{2φ}, COUNTING FIRST, gate+CAS+blind). Docs: `cell_solver_f2d_*_results.md`, `embedded_cell_closure_H_amb_results.md`,
+matter structure" = RISK 1** (V7 is a static theorem) — but note that verdict rode on a MODEL ambient. **NEXT —
+REORDERED (Charles + claude.ai, 2026-07-02): SOLVE THE UNIVERSE CELL FIRST** (real ambient + rock-solidity test + the
+theory's ONE falsifiable POSITIVE commitment — F5/Machian: MUST self-close; GUARD: unpinned matter sector = knob → tag
+CHOSE or derive from F5 critical closure) → re-ask static matching vs the real ambient → then **ω≠0** (Nψ→Nψ+ωt,
+g^tt=−e^{2φ} weights ω² = φ-angular hunch; mass~ω) on the validated background. Static-continuum stays open (→ dynamical/
+quantized). Tagged reading: "no isolated particles — only structure IN the universe." Fresh session, counting-first. Docs: `cell_solver_f2d_*_results.md`, `embedded_cell_closure_H_amb_results.md`,
 `embedded_run_*`/`embedded_classB_mini_MAP.md`, `cell_solver_f2d_classB_run_results.md`, `verify_{f2d_reduction,embedded_closure,embedded_rulings,classB_derivations}.py`.
 **SUPERSEDED:** the 2026-07-01 native-frame FOUNDATION + round-static next-action (still-valid foundation; canonical
 record = the 5 native-frame result docs) → `archive/LIVE_native_frame_round_static_2026-07-01.md`; the 06-29→30

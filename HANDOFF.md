@@ -5,10 +5,14 @@
 >
 > **CURRENT STATE (2026-07-02 EOD — LIVE.md "CURRENT STATE" block is authoritative; this is the pointer).**
 > The round-static f(r,θ) build (which the 2026-07-01 handoff pointed to) RAN across a three-layer arc and **EXHAUSTED
-> the round-STATIC frame** → RULING: this is **RISK 1** (round-static walls off discreteness), NOT a fourth object →
-> **NEXT = the STATIONARY (ω≠0) internal-rotation reduction** (Nψ→Nψ+ωt; g^tt=−e^{2φ} weights ω² → φ couples to
-> internal frequency = the missing forcing = Charles's φ-angular hunch; mass~ω geometric). First deliverable (FRESH
-> session) = the ω≠0 mini-MAP (round reduction + full nonlinear e^{2φ}, COUNTING FIRST, gate+CAS+blind before banking).
+> the round-STATIC frame** (against a MODEL ambient) → RULING: this is **RISK 1**, NOT a fourth object. **NEXT — REORDERED
+> (Charles + claude.ai, 2026-07-02): SOLVE THE UNIVERSE CELL FIRST** (the arc matched a stand-in ambient, so "round-static
+> exhausted" isn't yet a clean metric verdict; the universe cell = highest info-per-run = the theory's ONE falsifiable
+> POSITIVE commitment [F5/Machian: MUST self-close → runs away = frame-negative-with-teeth; closes = validates
+> solver+real-ambient+Machian]; GUARD: its matter sector is UNPINNED = knob → tag CHOSE or derive from F5 critical closure)
+> → re-ask static matching vs the REAL ambient → then **ω≠0** (Nψ→Nψ+ωt; g^tt=−e^{2φ} weights ω² = Charles's φ-angular
+> hunch; mass~ω) on the validated background. TAGGED reading: "NO isolated particles — only STRUCTURE IN the universe."
+> Static-continuum stays open → dynamical (open) / quantized (reluctant, if dynamical fails). FRESH session, counting-first.
 >
 > THE ARC (all CAS + BLIND-verified; committed + pushed): **(1) CLOSED cell H=0, N=1,2,3 → NO cell** (geometry runs
 > away; `cell_solver_f2d_first_build_results.md`, `cell_solver_f2d_N2_results.md`; two-tier stability filter built +
