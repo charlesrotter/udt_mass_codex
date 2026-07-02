@@ -88,6 +88,23 @@ Dimensionless tables per family × Z, unlabeled:
   NO matching of ratios against canon numbers in this push — that is a later, pre-registered
   exercise if universality survives.
 
+## Stage C addendum — CROSS-FAMILY / CROSS-Z RATIOS IN N (Charles's go 2026-07-02; frozen BEFORE any Stage C data)
+
+Ladder walks (N = 0..~8 per combo, budget-capped): A1 m=2 (the original family), A1 m=4,
+A2 k=3, A3 — all Z=8; PLUS A1 m=3 Z=1 (the Z-fork rider). Same protocol as Stage B (sweep →
+bisect every bracket → graduated-floor twin counts → per-rung table with identity checks).
+
+**Universality test (fit-free, primary):** at equal N, tabulate cross-family ratios of
+q_N, ρ_s,N, χ_N, L_N, d_N/d_0 — report the spread per N per column. No threshold pre-set for
+"universal"; the SPREADS are the deliverable (characterize, don't gate).
+
+**FROZEN q(N) FIT FORMS (the guard, pre-data; none added after):**
+(Q1) q = C·N^(−p) (N≥1); (Q2) q = C·e^(−λN) (N≥0); (Q3) q = C·(N+1)^(−p) (N≥0).
+Per family: parameters + residual-structure verdicts across all three; "unclassified" is the
+honest fallback. Same discipline for d(N) cross-family: the five Stage-B forms ONLY (re-used,
+not re-chosen). Charles's standing directive: the true law is to be DERIVED from the metric
+when its time comes, not fitted — fits here are characterization only, never a law claim.
+
 ## Gates (all binding)
 - Bounded: each shot seconds; total ≤ ~400 shots; single process; no background-poll.
 - Every NEW root: two-method (or tolerance-sweep) check before it enters a table.

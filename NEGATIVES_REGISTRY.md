@@ -17,6 +17,26 @@ demonstration of why this registry exists.
 
 ---
 
+## *** 2026-07-02 CHARLES RULING: THE EIGENMODE / BOX-CONTROL / MODE-SPECTRUM CORPUS IS CONDITIONS-CHANGED ***
+
+**Charles-authorized (2026-07-02): the entire eigenmode-spectrum / box-control negative line is
+flagged CONDITIONS-CHANGED — re-grade pending.** Scope: the box-control negatives (#1 and heirs;
+the 1/R² tower; "single-cell spectrum is box-controlled" 2026-06-17; the must-quantize /
+box-control inheritance line; the resonator/mass-as-eigenvalue template retirements; the
+"single-cell routes to a discrete spectrum are closed → multi-cell ensembles" conclusion) —
+whether inside the 2026-06-19 wholesale retirement (already non-blocking) or retaining standing
+scope. **PREMISE CHANGED:** every entry in this line was graded under the pre-native frame
+(assumed-Einstein equation form; e^{2φ}T non-native matter weight; imported S³ object; open/box
+outer wall or hand-placed Dirichlet; no flux seal; vacuum≡GR reading). That frame was rebuilt
+ground-up 2026-07-01→02 (native field equations; φ-blind matter; finite mirrored cell; DERIVED
+odd-fold flux seal) — and the rebuilt frame's first closed object (the flux-sealed universe
+cell) exhibits a BLIND-VERIFIED COMPLETE consecutive-integer mode spectrum (N=0..22, none
+missing; twin ladder, parity inversion; `cascade_stageB_results.md`, verifiers ad3564a74b9d51d7f
+/ a801cd73f512b52b4 / a826e7c47368930ab). Re-grading is NOT resurrection (Charles): each old
+negative must be re-graded UNDER THE NEW FRAME before any standing is restored or refuted;
+until then the line has no blocking authority AND no positive authority. Re-grade owed at the
+interpretation stage.
+
 ## *** 2026-07-02 UNIVERSE CELL: VACUUM IMPOSSIBLE + CENTER-FREE (verified) + TWO-MIRROR RIGIDITY (UNVERIFIED) ***
 
 **STANDING (R1, R2 — blind-verified, agent a717881d0ebb76695):** in the round-static Branch-P

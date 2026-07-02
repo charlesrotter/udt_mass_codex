@@ -63,6 +63,14 @@ q(N) or refined-d(N) law requires its own PRE-COMMITTED form set before analysis
 (≈11 rungs extrapolated, unrefined); sweep floor d=2e-4; above-side coverage coarse (8/11
 brackets unbisected); ladder beyond N=22 unconfirmed; single family, single Z on this walk.
 
+## RULING (Charles, 2026-07-02, recorded verbatim intent)
+Eigenmode corpus flagged CONDITIONS-CHANGED (registry entry added — "re-grading is not
+resurrection, it's honest bookkeeping"); Stage C GO (guards already frozen). For the record:
+the N=0–22 completeness + parity grain + twin ladder = "the strongest observe-mode structure
+this program has produced," and the fit guard returning "unclassified" on the accumulation law
+is a FEATURE of the record, not a gap — **the true law should be DERIVED from the metric when
+its time comes, not fitted now.**
+
 ## NEXT (for the PONDER with Charles — now unlocked)
 1. **INTERPRETATION** (gated on Charles): a complete consecutive-integer, twin-sided,
    parity-alternating spectrum of closed universe cells, indexed by a count that is
