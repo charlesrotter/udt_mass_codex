@@ -70,10 +70,21 @@ is NOT the wall for the universe cell). **VERIFIER DISCOVERY: a ROOT CASCADE —
 accumulating at the stuck point from both sides (later roots = near-cylinder oscillation modes, small q): a
 DISCRETE MULTIPLICITY of closed universe cells within ONE matter family** (grid-limited count). Transit
 structure: two branches clustering at ρ_s≈ρ_c·e^{±√Z/2} (0.1–1.2%, NOT exact — driver's "null-ray" read
-corrected). **NEXT = PONDER with Charles (no build until ruled): (1) the CASCADE (characterize the discrete
-spectrum — highest-value emergent structure); (2) the Z-fork lean (window margin + ε channel agree, one
-family only — widen before adjudicating); (3) long-thin cell ↔ χ/G-P-switch thread. OWED: Z=8/Route-B
-mixing term; canon Δφ wording; claude.ai relay.**
+corrected). **CHARLES RULED: cascade first (index = the decisive question), Z rides free, χ = one cheap check (done —
+compact fundamentals χ~2, stretched higher modes; no banked χ threshold exists). Mini-MAP committed incl.
+Charles's ECHO GUARD (pre-named N_δ=zeros of ρ−ρ_c PRIMARY; N_ρ' separate). STAGE A RAN + BLIND-VERIFIED
+(survey a5d6b43a0698bd6d5, 587 shots; verifier a801cd73f512b52b4, 244 shots, own integrator;
+`cascade_stageA_results.md`): (1) CASCADE IS STRUCTURAL — all 7 family×Z combos incl. a non-exponential
+family, accumulating at the analytic stuck points; (2) ECHO-GUARD VERDICT = CONVERGENCE: N_δ = N_ρ' exactly,
+18/18 roots, distinct interleaved zero sets; verifier's floor-audit attack showed the hazard biases toward
+false INEQUALITY — equality is the hard-to-fake direction (by T2-A, N_ρ' = interior MARGINAL-SPHERE count);
+(3) every family's FUNDAMENTAL is N=0, strictly-monotone ρ; (4) N (not grid ordinal) is the natural index —
+detected roots skip members, cascade denser than any grid (≥4 roots within 2e-4 near one target); candidate
+L/N ≈ 2-3 constant; (5) fundamentals CLUSTER cross-family (Z=8: q 11.2-13.2, χ 1.54-1.88 — matter-insensitive
+to ±10-15%). Method hazards banked (residual-tied floors undercount; dense-cluster bracket ambiguity).
+**NEXT = Stage B proper: WALK THE N-LADDER (one family, fill skipped N, index law + accumulation exponent) —
+pending Charles's go. Registry action on retired eigenmode corpus NOT taken (with Charles, post-index).
+OWED: Z=8/Route-B mixing term; canon Δφ wording; claude.ai relay.**
 The block below is the morning frontier this update executes/supersedes in part (its step-1 "solve the universe
 cell" is now half-answered: vacuum branch closed analytically; the matter-bearing build waits on the fork ruling).
 **⇒ WHERE WE ARE NOW: the ROUND-STATIC (winding-cell) frame is EXHAUSTED against a MODEL ambient (3 blind-verified layers, no cell)
