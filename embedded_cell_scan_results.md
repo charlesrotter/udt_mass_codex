@@ -1,3 +1,18 @@
+> **⚠️ RETRACTED AS METHOD-DEVIANT (2026-07-01, deviation audit agent a8c45f2). DO NOT CITE THE
+> CONCLUSIONS.** This scan did NOT follow the claude.ai spec (`f_rtheta_free_field_MAP.md` §4/§9 +
+> `f2d_virial_step0_results.md` Consequences). Load-bearing deviations: (1) it ran the pre-reg
+> **DEFERRED** embedded (H=H_amb) branch and SKIPPED the pre-registered FIRST build (Class A FREE,
+> H=0); (2) the **stability filter** (2nd-variation spectrum; MAP §9.3 / §4c / pre-reg criterion 8)
+> — the step the spec calls decisive ("discreteness = isolated structure in the *stability-filtered*
+> manifold") — was NEVER implemented or run; (3) the prescribed (φ_c,ρ_c,r_s) closure-MANIFOLD map
+> was replaced by a substituted free-L / fixed-L H(seal) instrument; (4) robustness gates skipped
+> (≥3 seeds, Nr 12→16→24+FD, BOTH Z∈{1,8} — Z=1 never run, N≥2 θ-relax-first). **Therefore the
+> "continuum / scale-free / no finite cell" reads below are INADMISSIBLE** — they rest on a scan that
+> omitted the stability filter and ran a single grid/seed/Z through a stalling solver. Kept only as a
+> record of the deviation. The correct first build (H=0 closure-manifold + stability filter + gates)
+> supersedes this. The embedded H_cell=H_amb DERIVATION (`embedded_cell_closure_H_amb_results.md`)
+> stands (blind-verified); only THIS SCAN and its conclusions are retracted.
+
 # Embedded-cell scan (test #1) — does H_cell=H_amb admit a finite cell? — SOLVER-LIMITED LEAD
 
 **Date:** 2026-07-01. **Mode:** OBSERVE (Charles's go: "commit and push so I can get input from

@@ -169,6 +169,41 @@ for Nv in (1, 2, 3):
     report(f"N={Nv}: rigid residual == {1-Nv**2}*cos(theta)", err < 1e-11, f"maxerr = {err:.2e}")
 
 
+# =======================================================================================
+# (d) vacuum-P scale symmetry [OBS-1] (MAP sec.4 / sec.9.5; ported from verify_f2d_virial_step0 V3)
+#     Under (r, rho) -> lambda(r, rho), f(r) -> f(r/lambda): the geometry + the whole xi-sector are
+#     scale-COVARIANT (each Lagrangian density piece has lambda-weight 0 -> vacuum P invariant); the
+#     kappa (quartic) sector BREAKS it (weight lambda^-2). => kap/xi sets the absolute cell length;
+#     only RATIOS are unit-free (consistent with the ratios-only data-blind rule).
+# =======================================================================================
+print("\n(d) vacuum-P scale symmetry [OBS-1]: geo+xi scale-invariant, kappa breaks (lam^-2)")
+rr, lam, uu = sp.symbols('r lambda u', positive=True)
+Zc, xic, kapc, Nc = sp.symbols('Z xi kappa N', positive=True)
+phic = sp.Function('phi')(rr); rhoc = sp.Function('rho')(rr); fc = sp.Function('f')(rr, T)
+Pc, Rc, Fc = sp.Function('P')(uu), sp.Function('R')(uu), sp.Function('F')(uu, T)
+subs_sc = {phic: Pc.subs(uu, rr / lam), rhoc: lam * Rc.subs(uu, rr / lam), fc: Fc.subs(uu, rr / lam)}
+def _weight(term):
+    return sp.simplify(term.subs(subs_sc).doit().subs(rr, lam * uu))
+pieces = {
+    'geo_kin_phi': (Zc / 2) * rhoc ** 2 * sp.diff(phic, rr) ** 2,
+    'geo_R2': sp.Integer(2),
+    'geo_K': -2 * sp.exp(-2 * phic) * sp.diff(rhoc, rr) ** 2,
+    'mat_xi_r': (xic / 2) * rhoc ** 2 * sp.diff(fc, rr) ** 2,
+    'mat_xi_th': (xic / 2) * sp.diff(fc, T) ** 2,
+    'mat_xi_s': (xic / 2) * Nc ** 2 * sp.sin(fc) ** 2,
+    'mat_k_r': (kapc * Nc ** 2 / 2) * sp.sin(fc) ** 2 * sp.diff(fc, rr) ** 2,
+    'mat_k_th': (kapc * Nc ** 2 / 2) * sp.sin(fc) ** 2 * sp.diff(fc, T) ** 2 / rhoc ** 2,
+}
+W = {k: _weight(v) for k, v in pieces.items()}
+geoxi = ['geo_kin_phi', 'geo_R2', 'geo_K', 'mat_xi_r', 'mat_xi_th', 'mat_xi_s']
+kappa = ['mat_k_r', 'mat_k_th']
+geoxi_invariant = all(not W[k].has(lam) for k in geoxi)                       # weight 0
+kappa_breaks = all((not sp.simplify(W[k] * lam ** 2).has(lam)) and W[k].has(lam) for k in kappa)  # weight -2
+report("(d) vacuum-P scale symmetry: geo+xi invariant, kappa breaks (lam^-2)",
+       geoxi_invariant and kappa_breaks,
+       f"geo+xi weight-0={geoxi_invariant}; kappa weight-(-2)={kappa_breaks}")
+
+
 print("\n" + "=" * 60)
 print(f"RESULT: {sum(PASSES)}/{len(PASSES)} checks PASS")
 print("=" * 60)
