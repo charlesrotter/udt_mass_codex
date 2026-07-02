@@ -82,8 +82,19 @@ false INEQUALITY — equality is the hard-to-fake direction (by T2-A, N_ρ' = in
 detected roots skip members, cascade denser than any grid (≥4 roots within 2e-4 near one target); candidate
 L/N ≈ 2-3 constant; (5) fundamentals CLUSTER cross-family (Z=8: q 11.2-13.2, χ 1.54-1.88 — matter-insensitive
 to ±10-15%). Method hazards banked (residual-tied floors undercount; dense-cluster bracket ambiguity).
-**NEXT = Stage B proper: WALK THE N-LADDER (one family, fill skipped N, index law + accumulation exponent) —
-pending Charles's go. Registry action on retired eigenmode corpus NOT taken (with Charles, post-index).
+**STAGE B RAN + BLIND-VERIFIED (survey af83644a55ba2f652 761 shots; verifier a826e7c47368930ab 178 shots, own
+integrator, 15 rungs reproduced blind to 9-10 digits; `cascade_stageB_results.md`): THE LADDER IS A COMPLETE
+CONSECUTIVE-INTEGER SPECTRUM — N=0..22 all present, none missing, none duplicated; twin equality N_δ=N_ρ' on
+every rung; identities to 1e-13; PARITY: ρ_s/χ alternate with N-parity (amplitude shrinks strictly per parity
+class — verifier-sharpened); A TWIN LADDER above the stuck point carries the SAME integers with parity
+INVERTED (N=8-11 consecutive found); accumulation law = "UNCLASSIFIED" (frozen-fit guard fired honestly — all
+5 pre-committed forms structured residuals; raw sequences banked; any q(N)/refined-d(N) law needs its own
+frozen forms first). Driver transcription error in the bv6 prompt caught BY the blind protocol (verifier
+refuted the prompt, matched the survey) — logged as protocol working. Hazards instanced: bracket ambiguity
+live (N=20 bracket held N=21); N_ρ' loose-floor undercount; failed-chunk-contains-seal shooter pattern (2nd
+instance) — banked. **NEXT = INTERPRETATION PONDER WITH CHARLES (now unlocked): the eigenmode-corpus
+CONDITIONS-CHANGED question is ripe (mini-MAP gate: with Charles only); then Stage C (cross-family/cross-Z
+ratios in N; q(N) forms frozen pre-analysis; aliased window + tail follow-up).
 OWED: Z=8/Route-B mixing term; canon Δφ wording; claude.ai relay.**
 The block below is the morning frontier this update executes/supersedes in part (its step-1 "solve the universe
 cell" is now half-answered: vacuum branch closed analytically; the matter-bearing build waits on the fork ruling).
