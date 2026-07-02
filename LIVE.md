@@ -58,6 +58,14 @@ THE ARC THIS SESSION (all CAS + BLIND-verified; each committed + pushed):
   **DISCIPLINE GUARD (do not skip):** the universe matter sector is UNPINNED = knob territory. The mini-MAP counting MUST tag the
   bulk-matter form as an explicit CHOSE — or BETTER, first DERIVE what F5 critical closure FORCES about it. A universe solution got
   by TUNING the matter sector proves NOTHING about the solver or the ambient (X-kluge shape).
+  **START FROM (gather the universe-cell definition — it's scattered):** (a) **F5** = `FOUNDATIONAL_ASSUMPTIONS_LEDGER.md` (the
+  F0–F8 scoreboard; find the F5 statement of critical closure — top-of-file FRONTIER is STALE, mine the F5 body). (b) The
+  **finite-mirrored-cell / critical-universe canon** = `CANON.md` (the finite-cell canon: universe + matter cells are finite
+  MIRRORED domains, no spatial infinity) + memory [[critical-universe-frame]] ("universe = metric curving a FINITE mass-energy;
+  matter exists at ONE critical amount; metric primary, generates φ; solve the WHOLE metric") + [[charles-exterior-field-picture]].
+  (c) **Solver machinery to reuse** = `cell_solver_round.py` (round 1-D φ,ρ, mirror-fold seal φ'=ρ'=0) and the `cell_solver_f2d.py`
+  operators — but with the universe's BULK matter (N=0 / F5-derived), NOT the winding N≥1 that failed. The universe cell = a round
+  finite mirrored domain whose matter is what F5 forces; the mini-MAP's first job is that F5-matter derivation, THEN counting.
 - **2) RE-ASK the static matching against the REAL ambient** (V7 is partly ambient-INDEPENDENT, so this may CONFIRM static-continuum
   — that is FINE; it routes us to dynamical with a clean conscience). **3) THEN ω≠0 on the validated background:** the STATIONARY
   internal-rotation reduction Nψ→Nψ+ωt — g^tt=−e^{2φ} weights ω² → φ couples DIRECTLY to internal frequency = the φ-angular coupling
