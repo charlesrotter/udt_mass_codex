@@ -56,15 +56,24 @@ is automatic given the 4 → C2 adds only E_ang.
 lacked). Over-by-1 at fixed a → scanning a, cells close only at isolated a = the band; q read off along
 it. **q-along-the-band is the flux/charge structure** (≠ N; label diagnostic, mark derived value later).
 
-## 3. THE ONE REAL FORK (flag before running) — does a φ-only charge close R4?
-The blind verifier found the ρ'-continuity miss **R4 (~+9) was LARGER than the flux miss R3 (~−4)**. The
-charged core (D1) directly supplies the φ-flux (fixes R3). **Open: can the BULK ρ-profile develop the
-ρ'_s needed to match π_ρ,amb (close R4)?** Two outcomes, both honest:
-- (i) YES → minimal Class-B (φ-charge, over-by-1) → the band. The clean result.
-- (ii) NO → a **ρ-source is also needed** (fully-sourced core: free φ'_c AND ρ'_c). Count then = 5
-  unknowns vs 5 at fixed a → SQUARE → a CONTINUUM of a (one cell per ambient — NOT a band). That would
-  say the charged core over-relaxes and discreteness needs a different pin. **Watch R4 specifically.**
-The run must REPORT which — do not force (i).
+## 3. THE R4 FORK — RESOLVED by claude.ai's ruling (no ρ-source; the MATTER is forced) + AIRTIGHT proof
+claude.ai's derived ruling (CAS + blind-verified, `verify_classB_derivations.py`, agent a915cc3): **NO
+ρ-source is needed.** The ρ-flux obeys the momentum identity (2φ'ρ' cancels exactly):
+    **`π_ρ' = Z ρ φ'² − ξ ρ I_r + κ N² I_4θ/ρ³`.**
+With the minimal Class-B core (π_ρ,c=0): `π_ρ(r_s) = ∫[Zρφ'² + κN²I_4θ/ρ³ − ξρI_r] dr`. The first two
+integrands are ≥0. So matching a **gradient-carrying ambient** with ρ'_amb>0 (⇒ π_ρ,amb = −4e^{−2φ}ρ'_amb
+< 0) FORCES `∫ξρI_r > ∫(Zρφ'² + κN²I_4θ/ρ³) ≥ 0` ⇒ **I_r>0 is MANDATORY** — the winding MUST carry radial
+structure to exist there. The matter IS the ρ-source, and the environment match FORCES it. Count stays
+minimal Class-B (over-by-1 → band); no square/continuum fork. (The raw-EOM "only outward channel" phrasing
+had a 2φ'ρ' loophole — the momentum-flux identity is the airtight form; verifier-supplied.)
+**THE DEEP LOOP (argument, two derivations deep, now both CAS+blind-verified): mass = the price of matching
+the universe.** Step-0 V7 (blind-verified) proved radial structure is NEVER energetically free (rigid is a
+strict min). This ruling is the *something* that forces it: the environment match. The cell must pay V7's
+strict energy cost to satisfy R4 → a DERIVED candidate for what mass IS in this frame. First time the
+energy-cost structure (V7) and the matching structure have touched.
+**Spec consequence (pre-registered):** the run RECORDS sign(ρ'_amb) at each ambient point and REPORTS I_r
+on any matched cell — the **I_r-vs-sign(ρ'_amb) correlation is a FREE TEST** of this ruling (I_r>0 must
+appear exactly where ρ'_amb>0). SEED with I_r>0 (V7: nothing flows there on its own).
 
 ## 4. Model ambient (unchanged from the Class-A run; now the flux is matchable via q)
 Same 5-number MODEL ambient on the native radial family (`φ=−q_A/a, ρ=a, π_φ,amb=Z q_A, π_ρ,amb=−4e^{2q_A/a},
@@ -77,9 +86,13 @@ seal conditions met (R3=R4=R5→0) at an isolated a, with q determined, adapted-
 two-tier-stable, seed/grid-robust, UNLABELED. Honest alternatives: NO closure even with q (the charge
 doesn't rescue the match → deeper obstruction); a CONTINUUM (fork ii); or the band (isolated a + q).
 
-## 6. Owed BEFORE the run (gate — send back for claude.ai)
-1. CAS/blind-verify **D1** (the sourced-core natural BC `π_φ,c=q` from the variational source term).
-2. CAS/blind-verify **D2** (no hidden core matter-H; the r_c-fixed vs dynamical statement).
-3. Confirm the **counting** (over-by-1 at fixed a) and the **R4 fork** framing.
-D3's flux-balance `π_φ,s=q+∫4e^{−2φ}ρ'²≥q` already rests on the blind-verified φ-EOM identity.
-**Send-back point: claude.ai checks D1/D2, the count, and the R4 fork before anything executes.**
+## 6. GATE STATUS (2026-07-02) — CLEARED to run
+claude.ai ruled: counting CONFIRMED (over-by-1 → band, q determined; R_amb-free = square = LOCATION
+SELECTION — cells nucleate at special universe locations); D1/D2 ENDORSED (r_c-fixed = labeled chose,
+r_c-dynamical variant only if fixed misbehaves); R4 fork RESOLVED (§3 — I_r forced, no ρ-source).
+D1/D2/R4 are **CAS + BLIND-VERIFIED** (`verify_classB_derivations.py`; blind agent a915cc3 re-derived D1
+with a different family, and supplied the AIRTIGHT momentum-flux proof of the I_r-mandatory ruling — now
+in the script, replacing three hollow lines it flagged). D3 rests on the blind-verified φ-EOM identity.
+**CLEARED to build + run the Class-B scan** (§5): charged core `π_φ,c=q` free, ρ regular, over-by-1,
+scan a → band with q determined; record sign(ρ'_amb) + I_r (free test of §3); seed I_r>0; adapted Derrick
+(Ruling 2) + two-tier filter; UNLABELED; band / continuum / no-closure all honest.
