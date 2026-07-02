@@ -36,12 +36,22 @@ Does the cascade appear beyond the m=2/k=2 rise-fall family? Families (each CHOS
 
 ## Stage B — THE INDEX (decisive per ruling)
 
-For every root along each cascade: count nodes/oscillations, unlabeled candidates:
-- N_ρ = interior zeros of ρ' (turning spheres — NOTE: each is an interior MARGINAL surface,
-  2m=ρ exactly, by the banked T2-A identity; the index may literally count marginal spheres);
-- N_φ = interior extrema of φ' ; oscillations of (φ,ρ) about the stuck cylinder;
+**ECHO GUARD (Charles, 2026-07-02, binding for this stage):** the elegant reading ("cascade
+counts interior marginal spheres") must NOT shape the diagnostic. The node-count variable is
+PRE-NAMED here, before any run, with no reference to marginal spheres; the marginal-surface
+count is a SEPARATE, independently-reported integer; convergence of the two = evidence,
+a diagnostic written toward the hoped answer = echo. (Note the trap explicitly: marginal
+spheres ARE the zeros of ρ' by the banked identity — so ρ'-zeros cannot serve as the "independent"
+primary. The deviation field can.)
+
+For every root along each cascade, report per root, unlabeled:
+- **PRIMARY (pre-named): N_δ = interior zeros of the deviation field δ(r) = ρ(r) − ρ_c** (the
+  natural oscillation variable about the stuck cylinder; zeros of δ ≠ zeros of ρ').
+- **SEPARATE: N_ρ' = interior zeros of ρ'(r)** (by the banked T2-A identity these are the
+  marginal surfaces — reported as its own integer, never merged with N_δ at collection time).
 - χ_n (logged pre-observation: first roots compact ~2, higher roots ~15+ — candidate correlate).
-- Correlate root ordinal n vs each count vs (q_n, χ_n, 1−a*_n).
+- Correlate — AFTER collection — root ordinal n vs N_δ vs N_ρ' vs (q_n, χ_n, 1−a*_n). A sine-like
+  mode would give a fixed offset relation (e.g. N_ρ' = N_δ ± 1), not identity; report what is.
 - **Conditional flag (Charles's ruling, verbatim intent):** IF the index = an integer counting
   φ-ρ-sector oscillations, the retired eigenmode-spectrum corpus (box-control / single-cell
   spectrum negatives) becomes a CONDITIONS-CHANGED CANDIDATE for re-reading — the frame it was
