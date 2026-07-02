@@ -58,6 +58,25 @@ For every root along each cascade, report per root, unlabeled:
   retired under (e^{2φ}T, pre-native, no flux seal) has since been rebuilt. Registry edit ONLY
   after this push's blind verification, and only as CANDIDATE flag, with Charles.
 
+## Stage B addendum — WALK THE N-LADDER (Charles's go + riders, 2026-07-02, committed BEFORE the sweep)
+
+Family: A1 m=3, Z=8 (cheapest cells). Fine sweep toward the stuck point a=1.5; bisect every
+sign change; graduated-floor N-count per root (count stable over ≥2 decades of floor, per the
+banked hazard). **Per-rung table (Charles's addition — the unlabeled ratio table must already
+exist if interpretation ever comes):** N, a*, d=1−a*/1.5, q_N, ρ_s, r_s, L_proper, χ_N,
+Δφ_carried (identity check: = ln(1101) every rung), 2m/ρ at seal (identity check: = 1),
+H_drift. Report which integers N are PRESENT vs MISSING (a missing integer is a finding).
+
+**ACCUMULATION-FIT GUARD (Charles, binding — frozen HERE, before any sweep data exists):**
+the exponent is a FIT — the one place curve-fitting could sneak in wearing a lab coat. The
+functional forms tested are pre-committed to EXACTLY these; none may be added after seeing data:
+- d(N): (F1) power law d = C·N^(−p); (F2) exponential/geometric d = C·e^(−λN);
+  (F3) logarithmic d = C·(ln(N+1))^(−p).
+- L(N): (G1) linear L = α + β·N (constant-wavelength candidate); (G2) power L = C·N^p.
+Report goodness (residual structure, not just R²) across ALL pre-committed forms; if none fit
+cleanly, the honest table entry is **"unclassified accumulation"** — no post-hoc forms, no
+form selection narrated as discovery.
+
 ## Stage C — RATIOS (the invariant observables; scale drops out)
 
 Dimensionless tables per family × Z, unlabeled:
