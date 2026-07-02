@@ -45,8 +45,13 @@ T2-C identity itself points to) has genuine isolated roots:**
 - **Homothety: a* is a SHAPE invariant** (ρ_c=3 rerun: a* identical to 5e−14; r_s, ρ_s, q scale
   linearly). Each closure = a one-parameter scale FAMILY; absolute size not pinned (as derived —
   T2's window is scale-invariant).
-- The closed cell is LONG AND THIN: ρ climbs only 1→1.37 (Z=1) over r_s≈753 — near-cylinder
-  bulk with the structure at the ends. [PONDER: cell aspect ratio χ — the G↔P switch invariant.]
+- ~~The closed cell is LONG AND THIN~~ **CORRECTED (same day, χ check): the coordinate length
+  r_s≈753 was misleading — the PROPER radial length is ∫e^φdr ≈ 3.14 (e^φ suppression), so the
+  first-root cells are COMPACT: χ = L_radial/ρ_s = 2.294 (Z=1), 1.630 (Z=8). Higher cascade
+  roots stretch: χ = 14.81 (Z=1 2nd), 16.92 (Z=8 later) — χ separates the cascade (candidate
+  index-correlate, unlabeled). Provenance note: NO banked numeric χ threshold exists (the G↔P
+  criterion is structural — χ *pinnedness* switches the branch; seal = where χ pins); the
+  "switch handshake" question is reframed to: does the cascade repeat/pin a special χ.**
 
 **R4 — THE CASCADE (blind-verifier discovery; driver scan missed it).** The first root is not
 alone: **≥5 (Z=1) / ≥6 (Z=8) sign changes accumulate at the stuck point a=1 from BOTH sides**
@@ -84,6 +89,31 @@ changes near the seal (positive plateau +0.972, dip to −1.446 at r≈659, +0.6
 | H_m(seal)≥0 premise | SATISFIED here (U≥0 everywhere both roots) — not assumed, observed |
 | Einstein-reading profiles | Category-A GR-as-reference tag |
 | cascade count | grid-limited (Δa=4e−4) — lower bound only |
+
+## PONDER (tagged SPECULATION — Charles + driver, 2026-07-02; macro-consilience ledger material,
+## no claims, no builds; logged at Charles's instruction)
+
+Prompted by the "Big Ring" (Lopez 2024: ~1.3 Gly ring/corkscrew of clusters at ~6.9 Gly, second
+giant structure adjacent to the Giant Arc; "impossible" vs ΛCDM's ~1.2 Gly homogeneity limit).
+Three rhymes, two mismatches, one currency:
+- **Rhyme 1 (canon-level, free):** the "impossibility" is relative to the cosmological principle
+  — a premise this frame never adopted. In the finite-cell canon the universe is ONE structured
+  cell with interior mode structure; coherent super-limit structure is the default, not anomaly.
+- **Rhyme 2 (cascade-level):** the observational tension is FREQUENCY (two giant neighbors vs a
+  budget of ~one). A discrete cascade converts "two flukes" into "members of a family." Higher
+  cascade modes = near-cylinder oscillation modes = concentric-shell vocabulary; a shell projects
+  to a ring. (The corkscrew is more specific than anything we have — noted, not stretched.)
+- **Rhyme 3 (strongest, because derived not analogized):** BAO = a preferred structure scale set
+  by the background; the banked embedded-cell closure (H_cell(seal)=H_ambient) says the ambient
+  MS density SELECTS embedded-cell size — a BAO-shaped statement with zero acoustics. (Caveat:
+  that arc's SCAN was retracted; the derivation stands.)
+- **Mismatches:** SPARC rotations = exterior G-branch continuum physics, not cells — different
+  thread. The CMB cannot be "explained" by the universe cell: it IS the cell's boundary (the
+  fold; the imposed anchor). Only CMB *anomalies* could ever attach to low-order interior modes
+  — deep speculation, parked.
+- **The currency:** all solutions are homothety shape-families — NO absolute sizes are
+  predictable; only DIMENSIONLESS RATIOS (mode spacings, q_n/q_1, shape invariants) can ever meet
+  observation. Ratio predictions await a mature solver; parked on the macro-consilience roadmap.
 
 ## NEXT (candidates, for PONDER with Charles — no build until ruled)
 1. **The cascade** is the highest-value emergent structure: a discrete spectrum of closed cells
