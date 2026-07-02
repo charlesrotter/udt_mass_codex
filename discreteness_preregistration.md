@@ -73,5 +73,31 @@ no particle labels; **no retuning per solution** (the core radius/BC must NOT be
 isolated cell sizes (→ genuine finite-cell discreteness), or can every nearby size be adjusted to close (→ still
 a continuum)? First target is named **"closed topological cell modes," NOT "quantized public charge."**
 
+## AMENDMENT 2026-07-01b (post Step-0 virial analysis; BEFORE the 2-D solver runs)
+Owed per `f2d_virial_step0_results.md` consequence #5 (blind-verified 2026-07-01, agent `af0a5fdd`).
+Step 0 derived that for a cell whose seal position is a dynamical variable of the action, the
+free-boundary variational principle FORCES the conserved radial Hamiltonian **H ≡ 0** through the
+cell — an extra scalar condition that makes the closed-cell problem SQUARE (3 conditions
+φ'_s=0, ρ'_s=0, H=0 vs 3 unknowns φ_c, ρ_c, r_s) → isolated cell sizes become the GENERIC
+expectation, with NO hand-pinned core radius (the MAP-P9 knob is derived away). This splits the
+Class-A closed cell into two registered sub-classes:
+- **Class A FREE (H=0):** strictly closed self-contained mirror cell; q=0; environment-blind by
+  construction. **H=0 is the third closure condition.** — THE FIRST BUILD (this scan).
+- **Class A EMBEDDED (H=H_amb):** the cell sits inside the universe cell; its seal matches the
+  ambient (universe interior) state, so H carries the ambient Misner-Sharp value H_amb instead of
+  0. This is where the ambient-density / Misner-Sharp isolation mechanism (Charles, MAP §4d) lives.
+  DERIVATION OWED before any embedded run: H=H_amb must follow from JC1 [√h Z_φ φ']=0 + JC2
+  π^{AB}-matching applied to (interior P_cell | seal | ambient=universe interior, NOT vacuum G).
+  — DEFERRED to a later build.
+NEW CHOSE introduced by Step 0 (tagged): **"the seal position r_s is a dynamical variable of the
+action"** (its alternative is the embedded/environment pin — the fork is now explicit, both lanes
+derived past that single chose). Acceptance criteria 1–9 above are UNCHANGED. Added solver
+diagnostics (not acceptance criteria): H(r) monitored as a discretization-drift check; the Derrick
+integral identity S_geo+ξ = S_κ as a per-solution consistency check.
+Z_φ handling for the first "are there cells at all?" scan: run at TWO fixed values Z∈{1, 8}
+(Route-A structure; Z=8 = OBS-2 note) to confirm cell EXISTENCE is Z-independent; Z held fixed
+within each scan, no per-solution retuning (criterion 5 intact).
+
 ## Status
 Committed 2026-07-01 (+ the Class-A/B refinement above), BEFORE the finite-cell solver is built/run.
+Amendment 2026-07-01b added post-Step-0 (still BEFORE the 2-D solver runs).
