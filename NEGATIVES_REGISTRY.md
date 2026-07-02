@@ -17,6 +17,22 @@ demonstration of why this registry exists.
 
 ---
 
+## *** 2026-07-02 UNIVERSE CELL: VACUUM IMPOSSIBLE + CENTER-FREE (verified) + TWO-MIRROR RIGIDITY (UNVERIFIED) ***
+
+**STANDING (R1, R2 — blind-verified, agent a717881d0ebb76695):** in the round-static Branch-P
+reduction, (R1) the VACUUM universe cell is IMPOSSIBLE (exact center obstruction −4e^{−2φ₀}/(Zr²);
+conserved-E gap center −2 vs mirror seal 0; center-regular vacuum class EMPTY) — matter is REQUIRED
+for the cell to close (Machian reading derived at this reduction level); (R2) even WITH matter no
+regular center exists (φ-blind matter provably cannot cure the φ-equation obstruction — proven for
+ARBITRARY φ-blind source) — the universe cell is CENTER-FREE (thick shell, ρ_c>0).
+**PREMISE SET:** round-static Branch-P reduction (static, round h=ρ²Ω, diagonal, W=1); φ-blind
+matter (DERIVED for winding; PREMISE for the N=0 bulk — if bulk matter turns out φ-coupled, R2 is
+CONDITIONS-CHANGED, R1 stands); mirror seal φ'=ρ'=0; Z>0 (values Z-independent / 1/Z-scaled).
+**UNVERIFIED (T1 — single-agent CAS finding, dedicated adversarial pass in flight):** two-mirror
+RIGIDITY — φ'=0 at BOTH ends + any φ-blind matter forces φ'≡ρ'≡0 (constant cylinder); a two-mirror
+universe cell CANNOT carry the CMB anchor Δφ=ln(1101). NO blocking authority until its own pass.
+Doc: `universe_cell_vacuum_impossibility_results.md`.
+
 ## *** 2026-06-21 OBJECT-IDENTITY SCOPING (verified; large — re-scopes the derived-operator soliton corpus) ***
 
 **The derived-operator soliton corpus is SCOPED to the IMPORTED S³ baryon (Object A); UDT's NATIVE S²

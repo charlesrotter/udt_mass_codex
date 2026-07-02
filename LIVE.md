@@ -24,6 +24,21 @@ CURRENT STATE block wins.**
   background-poll a solve.
 
 ## ============ CURRENT STATE (2026-07-02 EOD) — READ THIS FIRST ============
+**⇑ UPDATE (2026-07-02, later session — universe-cell step 1 partially ANSWERED ANALYTICALLY, no solve needed):**
+recon confirmed **F5 matter = CHOSE / algebraic c²=2GM/R closure = circular (no teeth)**. Charles ran the vacuum
+fork through claude.ai → analytic R1–R3; BLIND-verified (agent a717881d0ebb76695, questions-only protocol):
+**R1 VACUUM universe cell IMPOSSIBLE** (exact center obstruction −4e^{−2φ₀}/(Zr²); E-gap center −2 vs seal 0;
+center-regular vacuum class EMPTY) → **matter REQUIRED = Machian reading DERIVED at this reduction level**.
+**R2 CENTER-FREE even with matter** (φ-blind matter provably can't cure — arbitrary source) → thick shell, same
+finite-core cure as particle cells. **R3's H-matching BVP = SUPERSEDED by T1 (PROVISIONAL, adversarial pass IN
+FLIGHT):** two-mirror RIGIDITY — Φ=Zρ²φ' is non-decreasing under ANY φ-blind matter, so φ'=0 at both ends ⇒
+φ'≡ρ'≡0 ⇒ **a two-mirror universe cell CANNOT carry Δφ=ln(1101)** — the planned "solve the shell with both
+mirrors + anchor" is analytically EMPTY. **FORCED FORK (ponder with Charles, no build until ruled):** (1) CMB
+boundary ≠ Neumann mirror — canon's φ→−φ ODD fold = flux-type seal, Φ grows to a seal flux q at the CMB = JC1
+structure at universe scale (PONDER-tagged); (2) N=0 bulk matter not φ-blind (PREMISE now load-bearing);
+(3) round-static walls again → ω≠0. Doc: `universe_cell_vacuum_impossibility_results.md` + registry entry.
+The block below is the morning frontier this update executes/supersedes in part (its step-1 "solve the universe
+cell" is now half-answered: vacuum branch closed analytically; the matter-bearing build waits on the fork ruling).
 **⇒ WHERE WE ARE NOW: the ROUND-STATIC (winding-cell) frame is EXHAUSTED against a MODEL ambient (3 blind-verified layers, no cell)
 → RULING (Charles/claude.ai): RISK 1 (round-static walls off discreteness), NOT a fourth object. NEXT — REORDERED: SOLVE THE
 UNIVERSE CELL FIRST (the real ambient + the rock-solidity test + the one object the theory says MUST self-close) → re-ask static
