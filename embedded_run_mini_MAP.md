@@ -117,3 +117,15 @@ everywhere, are the honest alternative outcomes — reported as-is.
 Then implement + run (model ambient first), verify, and only then pursue the derived universe value.
 **Send-back point: this MAP is for claude.ai to check the counting, the P4/redundancy call, and the §4
 ambient question before anything executes.**
+
+## 8. GATE STATUS (2026-07-02) — cleared to implement
+claude.ai ruled on all three gate questions (`embedded_run_gate_rulings.md`); Rulings 1 & 2 are
+**CAS-verified + BLIND-VERIFIED** (`verify_embedded_rulings.py`; blind agent ac62bd9 independently
+re-derived both from scratch — H_geo momenta-only inversion, the +E_ang seal sign, the 5-condition count,
+the matched-boundary Derrick identity, AND the dS/dλ|₁=S_a−S_b homogeneity split). Count corrected in §1
+(5 conditions: over-by-1 free / over-by-2 fixed). §4 ambient alarm dissolved (Ruling 3). Item-3 Derrick
+restated in §5. **Cleared to IMPLEMENT the run** per §6 with: the 5-number MODEL ambient (H_amb=H_geo+m_amb
+derived, ONE labeled diagnostic axis, the other four tied by a declared coarse-P rule); the adapted
+Derrick artifact filter (§5); the two-tier stability filter (energy Hessian + constraint-respecting
+re-solve). Report closure structure along the ambient axis UNLABELED — isolated band / continuum /
+runaway-everywhere all honest.

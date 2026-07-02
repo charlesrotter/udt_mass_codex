@@ -10,6 +10,14 @@ R2   matched-boundary Derrick: dS/dlam|_1 (scaling family phi(r/lam), lam rho(r/
      = S_a - S_b, and the boundary terms give S_a - S_b = pi_rho(r_s) rho(r_s) - r_s H_s + r_c H_c;
      with H matched (H_s=H_c=H_amb) and the mirror core (pi_rho(r_c)=0):
        S_a - S_b + (r_s - r_c) H_amb - pi_rho(r_s) rho(r_s) = 0.  Closed limit (H=0, pi_rho,s=0): S_a=S_b.
+
+BLIND-VERIFIED 2026-07-02 (agent ac62bd9): both rulings independently re-derived from scratch, all
+PASS + bankable. Two transparency notes: (1) the R2 final-line check below is CONFIRMATORY ALGEBRA
+(given the boundary result); the SUBSTANCE — the boundary-term derivation AND the dS/dlam|_1 = S_a - S_b
+homogeneity split (S_a = lam^+1 geometry+xi class, S_b = lam^-1 kappa class) — is the independent
+derivation (verifier ac62bd9) + Step-0 V3/V6 (blind-verified). (2) The Dm below carries an overall 1/2
+vs the markdown's matter term; it CANCELS in every check (both sides carry it) and is absorbed into
+m_amb, so it touches no sign / momenta-only / homogeneity result — cosmetic only.
 """
 import sympy as sp
 
