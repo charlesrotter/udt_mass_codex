@@ -3,47 +3,29 @@
 > **READ `LIVE.md` FIRST** — it is the short, only-guaranteed-current file (frontier + next action).
 > This HANDOFF is the detailed record; if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
 >
-> **CURRENT ACTIVITY (2026-07-01 — see LIVE.md "FRONTIER" block, authoritative). TWO PHASES this session:**
+> **CURRENT STATE (2026-07-02 EOD — LIVE.md "CURRENT STATE" block is authoritative; this is the pointer).**
+> The round-static f(r,θ) build (which the 2026-07-01 handoff pointed to) RAN across a three-layer arc and **EXHAUSTED
+> the round-STATIC frame** → RULING: this is **RISK 1** (round-static walls off discreteness), NOT a fourth object →
+> **NEXT = the STATIONARY (ω≠0) internal-rotation reduction** (Nψ→Nψ+ωt; g^tt=−e^{2φ} weights ω² → φ couples to
+> internal frequency = the missing forcing = Charles's φ-angular hunch; mass~ω geometric). First deliverable (FRESH
+> session) = the ω≠0 mini-MAP (round reduction + full nonlinear e^{2φ}, COUNTING FIRST, gate+CAS+blind before banking).
 >
-> **PHASE 1 — the whole native frame DERIVED (the big arc).** The 2026-06-30 basin work (HISTORICAL note below)
-> chased the X=−2e5 kluge → the e^{2φ} matter-weight → and found the whole live "two-player scalar-tensor" frame
-> (φ OUTSIDE the metric) was a CHOSE extension, NOT canonical UDT. So Charles DERIVED UDT's field equations natively
-> (in-session); the driver CAS-verified AND blind-adversarially verified every step. Results (each its own doc):
-> **EH is EMPTY on the canonical family** (√-g R = boundary term → "vacuum=GR" was the Principle-7 scar, not a result);
-> native frame = **CONSTRAINED-TWO-PLAYER** (φ = longitudinal dilation INSIDE g; h_AB = independent transverse
-> 2-geometry) → **the old solver was the WRONG frame**; **matter is φ-BLIND** → the whole basin/X/e^{2φ} saga was a
-> NON-native artifact, EXPLAINED + retired; **G/P switch criterion** (pinned aspect ratio χ); **native geometric
-> action** (angular-mismatch, 𝒦 genuinely bulk, EH the empty red herring); **off-round uniqueness** (𝒦=K_ABK^AB−K²
-> forced, independent K² excluded, only the Z_φ fork left); **seal junctions** (JC1: external charge = seal FLUX;
-> JC2: e^{2φ} weight-jump; seal parity = two classes). Docs: `native_field_equations_constrained_two_player_results.md`,
-> `gp_switch_criterion_results.md`, `native_geometric_action_results.md`, `seal_matching_junction_results.md`.
+> THE ARC (all CAS + BLIND-verified; committed + pushed): **(1) CLOSED cell H=0, N=1,2,3 → NO cell** (geometry runs
+> away; `cell_solver_f2d_first_build_results.md`, `cell_solver_f2d_N2_results.md`; two-tier stability filter built +
+> corrected = energy Hessian not action; `verify_f2d_reduction.py` 11/11). **(2) EMBEDDED closure H_cell=H_amb DERIVED
+> + blind-verified** (`embedded_cell_closure_H_amb_results.md`; Weierstrass–Erdmann corner condition; ambient
+> Misner–Sharp density = the scale pin) → embedding RESCUES FINITENESS but a Class-A mirror core is gradient-free/q≈0
+> → can't momentum-match a gradient-carrying ambient (`cell_solver_f2d_embedded_run_results.md`). **(3) CLASS-B charged
+> core** (claude.ai gate rulings `embedded_run_gate_rulings.md` + `embedded_classB_mini_MAP.md` + `verify_classB_derivations.py`,
+> all blind-verified): **q CLOSES the flux match** (q≈Zq_A = canon charge=seal-flux) **but NO band** — a TWO-BRANCH
+> MATTER wall: ρ'_amb>0 needs I_r>0 (airtight `π_ρ'=Zρφ'²−ξρI_r+κN²I_4θ/ρ³`) which does NOT emerge (V7: radial structure
+> never free); ρ'_amb≤0 → R4 opens but R5 (skin E_ang match) blocks (`cell_solver_f2d_classB_run_results.md`).
 >
-> **PHASE 2 — RETURN TO THE SOLVER** (Charles: "more derivation risks substituting for letting the geometry speak").
-> Pre-registration FROZEN before solving (`discreteness_preregistration.md`): binding rule = **"solve the SPACE, not
-> the electron"**; a UDT cell is a **finite MIRRORED domain** (not a lump in flat space — the infinity test is a
-> control only); Class A first = closed topological cell modes (smooth mirror seal φ'=ρ'=0, q=0, isolated cell sizes
-> per integer winding N); Class B later = charged pinned seal (q≠0); **N (sector) ≠ q (flux)**; 9 acceptance criteria;
-> no per-solution retuning. **Repo CONSOLIDATED** (1086 one-off .py → `legacy/root_oneoffs_2026-07-01/`; root 1113→29
-> .py; pytest 32/1xfail). **First solver built** (`cell_solver_round.py`): the derived frame makes the round cell a
-> CHEAP 1-D system — TWO fields φ(r),ρ(r) (ρ dynamical; areal ρ=r is the neutral sub-case). Vacuum mirror cell is
-> TRIVIAL → needs MATTER. **Round S² winding matter reduced + CAS-verified** (`round_matter_reduction_results.md`):
-> ρ-source `ρ''_m=(e^{2φ}/4)(ξρI_r − κN²I_4θ/ρ³)`; **RIGID hedgehog (f=θ, I_r=0) → the cell COLLAPSES** (real, verified,
-> not a sign bug — rigid kills the outward ξρI_r channel).
->
-> **IMMEDIATE NEXT (next session) — do NOT auto-start coding. FIRST: (a) startup self-check (banner + recite the 6
-> triggers + `pytest tests/`=32/1); (b) MAP the round-static f(r,θ) slice + a premise ledger (Z_φ/core-rule/constrained-
-> form/ξ,κ/N all CHOSE-or-held-fixed) + name what it does NOT test (off-round/non-static — see STANDING RISKS); (c)
-> PRESENT the plan to Charles and get his go (Session-workflow rule). It's OBSERVE mode, but still MAP+plan-present first.
-> THEN build = the MINIMALLY-FREE axisymmetric field f(r,θ)** (n=(sin f cosNψ, sin f sinNψ,
-> cos f); rigid=f=θ): a 2-D finite-mirror eigenproblem coupling f(r,θ) to φ(r),ρ(r) on a finite mirrored radial domain
-> (pole BCs f(r,0)=0,f(r,π)=π; mirror seal BCs). Matter EOM in `round_matter_reduction_results.md`. Do NOT insert I_r
-> by hand — let the BVP decide if f develops radial structure I_r>0 that balances the inward pull to a stable size
-> (balance ρ⁴~κN²I_4θ/(ξI_r)). Look for ISOLATED cell lengths (φ,ρ,f close), UNLABELED, fixed Z_φ/ξ/κ/N. Still collapses
-> → scoped negative (go freer/off-round); isolated modes → the FIRST real discreteness signal. One open constant = Z_φ
-> (held fixed; free vs =8-with-forced-mixing fork → consilience later).**
-> --- HISTORICAL (2026-06-29→30, SUPERSEDED by Phase 1): D1 determinacy fix → galerkin conditioning → basin audit →
-> X-kluge. That arc was the trail that led to Phase 1's discovery that the live FRAME itself was un-derived; it lives
-> in LIVE.md's HISTORICAL blocks. Pre-2026-06-30 HANDOFF detail in `HANDOFF_ARCHIVE.md`.
+> METHOD THAT WORKED (keep): mini-MAP counting-first → claude.ai gate ruling → CAS+blind the derivations → bounded run
+> → blind-verify the run (attack the load-bearing claim hardest) → commit PROVISIONAL/scoped, NEVER a frame verdict.
+> --- HISTORICAL: the 2026-07-01 native-frame FOUNDATION + round-static next-action (still-valid foundation; canonical
+> record = the five native-frame result docs) → `archive/LIVE_native_frame_round_static_2026-07-01.md`. The 2026-06-29→30
+> basin/D1/galerkin/X-kluge arc → `archive/LIVE_basin_D1_galerkin_arc_2026-06-30.md`. Pre-2026-06-30 → `HANDOFF_ARCHIVE.md`.
 
 ## *** STANDING BINDING DISCIPLINE — read every resume (Charles 2026-06-19) ***
 **MISMATCH -> SOLVER, NOT MECHANISM.** If a result is far from observation, the FIRST hunt is the
