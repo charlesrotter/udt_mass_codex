@@ -92,9 +92,18 @@ INVERTED (N=8-11 consecutive found); accumulation law = "UNCLASSIFIED" (frozen-f
 frozen forms first). Driver transcription error in the bv6 prompt caught BY the blind protocol (verifier
 refuted the prompt, matched the survey) — logged as protocol working. Hazards instanced: bracket ambiguity
 live (N=20 bracket held N=21); N_ρ' loose-floor undercount; failed-chunk-contains-seal shooter pattern (2nd
-instance) — banked. **NEXT = INTERPRETATION PONDER WITH CHARLES (now unlocked): the eigenmode-corpus
-CONDITIONS-CHANGED question is ripe (mini-MAP gate: with Charles only); then Stage C (cross-family/cross-Z
-ratios in N; q(N) forms frozen pre-analysis; aliased window + tail follow-up).
+instance) — banked. **CHARLES RULED: eigenmode corpus → CONDITIONS-CHANGED (registry entry, re-grade owed); Stage C GO. STAGE C
+RAN + BLIND-VERIFIED (survey a6a6626c076f7e5ec 719 shots; verifier a0c69721b377e264a 143 shots, census
+integer-for-integer, seal radii to 9 digits, spreads identical; `cascade_stageC_results.md`): the integer
+ladder is FAMILY-UNIVERSAL (6 families, both Z, census complete everywhere, parity zero-exceptions incl. Z=1).
+PRIMARY FINDING: **the ρ_s spread COLLAPSES with N (10.2% at N=0 → 0.44% at N=8; four families agree to 4
+digits) while q/χ/L saturate ~33-35% — the high rungs' seal radii are PURE GEOMETRY, shedding the matter rung
+by rung.** Z-fork: q-ratio settles at 0.1274 vs Z₁/Z₈=0.125 with geometric columns converging → q∝Z = THEOREM
+CANDIDATE (derive, don't fit); no adjudication, fork rides. Frozen fits: ALL unclassified AND the residual
+sign strings are IDENTICAL across all six ladders — the unexplained law is ONE thing, family- and Z-universal.
+**THE OBSERVE-MODE PROGRAM (Stages A→C) IS COMPLETE. NEXT = INTERPRETATION with Charles: (1) DERIVE the
+ρ_s(N) universal law from the metric; (2) DERIVE q∝Z; (3) the twin-ladder/parity reading; (4) eigenmode-corpus
+re-grade (flag standing); (5) Stage-D-if-ruled (aliased window, deep tail, above-side, accumulation law).
 OWED: Z=8/Route-B mixing term; canon Δφ wording; claude.ai relay.**
 The block below is the morning frontier this update executes/supersedes in part (its step-1 "solve the universe
 cell" is now half-answered: vacuum branch closed analytically; the matter-bearing build waits on the fork ruling).
