@@ -109,10 +109,20 @@ matter freedom squeezed out rung by rung; F1 pass 35/35 rungs at 1e-9); STRUCTUR
 sign(ρ_s−1)=sign(δ̃)(−1)^N forced under measured conditions; twin = δ̃→−δ̃ leading-order; oscillations pile up
 near the seal, wavelength ∝ e^{−φ}); **C4 AMPLIFIER REFUTED-AND-CORRECTED: e^{Δφ}=1101 → e^{Δφ/2}=√1101≈33.2
 (F2 empirically settled, 17 extrema pairs, few-% agreement)** — the anchor amplifies as its SQUARE ROOT.
-**NEXT: (1) LEMMA D dispatch (A_seal≈0.092 universal — two-scale double-closure with corrected e^{φ/2}
-envelope; closes ρ_s(N) universality); (2) remaining interpretation ponder (twin/parity ↔ Class A/B;
-eigenmode re-grade); (3) Stage-D-if-ruled. OWED: Z=8/Route-B mixing term; canon Δφ wording; claude.ai relay
-(incl. C4 correction — its own D-route formula already implied e^{φ/2}).**
+**LEMMA D RAN + BLIND-VERIFIED (deriver af837d03b6e3c7c7e, verifier a131282b03455b001 — no factor/sign/Z
+errors; U″-consistency closes EXACTLY; `ladder_lemmaD_sealing_amplitude_results.md`): THE SEALING AMPLITUDE
+IS DERIVED at leading order — a_seal ≈ √Z/[(N+1)π+θ₀], family data CANCELS exactly (survives only ≤0.2%);
+q = 2Z√|s̃₁|(1−x_c)/Θ ⇒ **q ∝ √|s̃₁| = the mechanism of BOTH Stage-C findings** (ρ_s sheds matter, q keeps
+it — verifier's own table: q/√|s̃₁| spread 0.45% at N=11 vs 35% raw); Δφ cancels out of a_seal (the √1101
+amplifier is eaten by the flux budget — the anchor sets q and the phase); exact interior beyond WKB
+(e^{−φ/2}=√1101·cos(κ√x_c r); universal one-param ODE, s = Θ√x_c/√(1−x_c) verifier-corrected); Z-TEST PASSES
+no-family-input (Z=1: −0.2%; Z-ratio +5.1%). ONE OPEN CHANNEL: θ₀ ≈ 0.32π measured vs 0.067π derived =
+second-order averaging (O(a²Θ) secular phase; decays ∝1/N; bounded next step).
+**NEXT: (1) second-order θ₀ (bounded, closes the ±5% residual); (2) interpretation ponder w/ Charles
+(twin/parity ↔ Class A/B; eigenmode re-grade under the new frame); (3) Stage-D-if-ruled (aliased window,
+deep tail, above-side, accumulation law — note d(N) law now derivable from Θ(N) + the q-law). OWED:
+Z=8/Route-B mixing term; canon Δφ wording; claude.ai relay (C4→√1101 correction; z_c coefficient; its
+D-route formula already implied e^{φ/2}).**
 The block below is the morning frontier this update executes/supersedes in part (its step-1 "solve the universe
 cell" is now half-answered: vacuum branch closed analytically; the matter-bearing build waits on the fork ruling).
 **⇒ WHERE WE ARE NOW: the ROUND-STATIC (winding-cell) frame is EXHAUSTED against a MODEL ambient (3 blind-verified layers, no cell)
