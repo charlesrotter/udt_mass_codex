@@ -101,10 +101,18 @@ digits) while q/χ/L saturate ~33-35% — the high rungs' seal radii are PURE GE
 by rung.** Z-fork: q-ratio settles at 0.1274 vs Z₁/Z₈=0.125 with geometric columns converging → q∝Z = THEOREM
 CANDIDATE (derive, don't fit); no adjudication, fork rides. Frozen fits: ALL unclassified AND the residual
 sign strings are IDENTICAL across all six ladders — the unexplained law is ONE thing, family- and Z-universal.
-**THE OBSERVE-MODE PROGRAM (Stages A→C) IS COMPLETE. NEXT = INTERPRETATION with Charles: (1) DERIVE the
-ρ_s(N) universal law from the metric; (2) DERIVE q∝Z; (3) the twin-ladder/parity reading; (4) eigenmode-corpus
-re-grade (flag standing); (5) Stage-D-if-ruled (aliased window, deep tail, above-side, accumulation law).
-OWED: Z=8/Route-B mixing term; canon Δφ wording; claude.ai relay.**
+**THE OBSERVE-MODE PROGRAM (Stages A→C) IS COMPLETE. INTERPRETATION BEGUN — claude.ai derivations 1&2
+BLIND-VERIFIED (agent a20e50756e94e9c98; `ladder_theorems_AB_C_results.md`): THEOREM A exact
+(q=Z·Δφ/∫Φ̂/ρ²dr; q∝Z is EMERGENT — B-ratio 1.718 at N=1 → 1.013 at N=11, the deviation from 0.125 MEASURES
+shape Z-dependence); THEOREM B exact (U(seal)=2−q²/(2Zρ_s²) — the derived MECHANISM of ρ_s-universality:
+matter freedom squeezed out rung by rung; F1 pass 35/35 rungs at 1e-9); STRUCTURE C derived-at-O(ε) (parity
+sign(ρ_s−1)=sign(δ̃)(−1)^N forced under measured conditions; twin = δ̃→−δ̃ leading-order; oscillations pile up
+near the seal, wavelength ∝ e^{−φ}); **C4 AMPLIFIER REFUTED-AND-CORRECTED: e^{Δφ}=1101 → e^{Δφ/2}=√1101≈33.2
+(F2 empirically settled, 17 extrema pairs, few-% agreement)** — the anchor amplifies as its SQUARE ROOT.
+**NEXT: (1) LEMMA D dispatch (A_seal≈0.092 universal — two-scale double-closure with corrected e^{φ/2}
+envelope; closes ρ_s(N) universality); (2) remaining interpretation ponder (twin/parity ↔ Class A/B;
+eigenmode re-grade); (3) Stage-D-if-ruled. OWED: Z=8/Route-B mixing term; canon Δφ wording; claude.ai relay
+(incl. C4 correction — its own D-route formula already implied e^{φ/2}).**
 The block below is the morning frontier this update executes/supersedes in part (its step-1 "solve the universe
 cell" is now half-answered: vacuum branch closed analytically; the matter-bearing build waits on the fork ruling).
 **⇒ WHERE WE ARE NOW: the ROUND-STATIC (winding-cell) frame is EXHAUSTED against a MODEL ambient (3 blind-verified layers, no cell)
