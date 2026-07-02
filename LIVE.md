@@ -59,10 +59,21 @@ q-window Z·Δφ/∫dr/ρ² ≤ q ≤ 2ρ_s√(Z(1+ρ'_s²)) — upper side ride
 window non-emptiness is SCALE-INVARIANT (constrains SHAPE not size) and **large Z closes the window** (ceiling
 √Z ≤ 2ρ_s√(1+ρ'_s²)·∫dr/ρ²/Δφ — ties the Z∈{1,8} fork to an anchor-anchored test). Non-monotone ρ is
 admissible (verifier counterexample) — whole-interval ρ_min only.
-**NEXT = T3: the σ-slice shoot** (from inner pins φ_c=−ln(1101), φ'_c=ρ'_c=0, ρ_c shooting param; land
-φ(r_s)=0 ∧ ρ'(r_s)=0 = one net closure ⇒ isolated ρ_c per fixed σ-slice; H_m(core)=2 constrains σ at core;
-acceptance = T2-A/B/C identities; frame test = the q-window; labeled slices per T3 pre-reg, ratios-first,
-Z∈{1,8} both). Bounded 1-D shooting, cheap. Then the σ cross-check audit (the ONLY test-power matter audit).
+**T3 RAN (same day) + BLIND-VERIFIED (agent ad3564a74b9d51d7f, 3 independent integrators, driver numbers
+withheld; `universe_cell_T3_closure_results.md` + `cell_solver_universe_T3.py`): THE FLUX-SEALED UNIVERSE
+CELL CLOSES.** Monotone σ-slices never close (the T2-C identity forbids it exactly — U must DROP core→seal);
+the rise-fall slice (axis pointed to BY the identity) closes at isolated a*: Z=1 q=1.265 (46% of the charge
+ceiling, ε>0 throughout); Z=8 q=13.013 (**97% = near-saturated**, interior negative-ε regions in the
+Category-A read-off). Both edges exactly marginal (2m/ρ=1). a* is a SHAPE invariant (homothety 11 digits;
+scale free as derived). **TRIPWIRE DOES NOT FIRE** (a smooth U≥0 φ-blind σ carries the anchor — round-static
+is NOT the wall for the universe cell). **VERIFIER DISCOVERY: a ROOT CASCADE — ≥5/≥6 closures per Z
+accumulating at the stuck point from both sides (later roots = near-cylinder oscillation modes, small q): a
+DISCRETE MULTIPLICITY of closed universe cells within ONE matter family** (grid-limited count). Transit
+structure: two branches clustering at ρ_s≈ρ_c·e^{±√Z/2} (0.1–1.2%, NOT exact — driver's "null-ray" read
+corrected). **NEXT = PONDER with Charles (no build until ruled): (1) the CASCADE (characterize the discrete
+spectrum — highest-value emergent structure); (2) the Z-fork lean (window margin + ε channel agree, one
+family only — widen before adjudicating); (3) long-thin cell ↔ χ/G-P-switch thread. OWED: Z=8/Route-B
+mixing term; canon Δφ wording; claude.ai relay.**
 The block below is the morning frontier this update executes/supersedes in part (its step-1 "solve the universe
 cell" is now half-answered: vacuum branch closed analytically; the matter-bearing build waits on the fork ruling).
 **⇒ WHERE WE ARE NOW: the ROUND-STATIC (winding-cell) frame is EXHAUSTED against a MODEL ambient (3 blind-verified layers, no cell)
