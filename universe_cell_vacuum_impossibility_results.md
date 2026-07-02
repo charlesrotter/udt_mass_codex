@@ -19,8 +19,11 @@ CAS checks. Scripts committed with this doc: `verify_universe_vacuum_q1q4.py`,
   stronger independent argument; route c's stated method unconfirmed — see below).
 - **R2 (center-free even with matter): VERIFIED.**
 - **R3 (two-seal H-matching = the falsifiable BVP): identity VERIFIED, framing SUPERSEDED by T1.**
-- **T1 (two-mirror rigidity): PROVISIONAL — found + CAS-verified by the blind verifier, but a
-  single-agent finding; its own dedicated adversarial pass is OWED before it is banked/blocking.**
+- **T1 (two-mirror rigidity): VERIFIED-WITH-CONDITIONS — dedicated blind adversarial pass, agent
+  `ae809e82d61ee86a2`, 2026-07-02 (independence enforced: this doc + the R1/R2 scripts + the
+  registry/LIVE entries were on an explicit avoid-list). NO refutation; conditions made SHARP —
+  see the T1 section. Scripts: `verify_universe_rigidity_cas_attack.py`,
+  `verify_universe_rigidity_numeric_probe.py`.**
 
 ---
 
@@ -93,7 +96,7 @@ areal radii ρ_in, ρ_out and the angular profile functionals appear (φ drops o
 constant, and those satisfy the matching trivially. R3's "falsifiable BVP with the CMB anchor
 carried between two mirrors" is analytically EMPTY as framed.
 
-## T1 — TWO-MIRROR RIGIDITY (PROVISIONAL — dedicated adversarial pass OWED)
+## T1 — TWO-MIRROR RIGIDITY (VERIFIED-WITH-CONDITIONS, adversarial pass ae809e82d61ee86a2)
 
 **Statement.** For the round-static Branch-P reduction with ANY φ-blind matter (arbitrary
 ρ''-source), the flux Φ = Zρ²φ' obeys Φ' = 4e^{−2φ}ρ'² ≥ 0 (CAS: identity holds for arbitrary
@@ -109,7 +112,41 @@ argument touches only φ'=0 at the ends) and to the overall EL-sign convention (
 "Option 2" plan (solve the center-free container with the anchor between two mirrors) has an
 analytic answer already: only the flat-lined cylinder; nothing to solve.
 
-**The forced fork (within this reduction, exactly one must give):**
+**ADVERSARIAL PASS RESULT (agent ae809e82d61ee86a2 — no refutation; conditions sharp):**
+- **(i) CONFIRMED identically** (Φ' is the φ-EL equation in flux form; no ρ'' enters, so ANY
+  ρ''-source — even φ- or f-dependent — cannot touch it; C¹/a.e. suffices, weak solutions can't
+  rescue; Z cancels in Φ', so it holds for Z<0 too; flipped sign convention gives one-signed
+  decrease — same conclusion).
+- **(ii)/(iii) CONFIRMED-WITH-CONDITIONS**, all four now explicit: (a) ρ>0 on the closed interval;
+  (b) φ'=0 at BOTH ends; (c) ALL matter/interface/seal sources φ-blind; (d) Route-A φ-equation.
+- **Loopholes found and scoped:**
+  - **L1 (condition (b) is SHARP):** a ρ'=0-ONLY seal (φ' free) does NOT give rigidity — explicit
+    numeric counterexample with Δφ=+0.26 nonconstant. The repo's pre-registered mirror IS
+    φ'=ρ'=0, so mirror cells are covered; a Class-B (charged, φ'≠0) seal is legitimately OUTSIDE.
+  - **L2 (Route-B fork — REAL, and it exposes a standing repo tension):** under Route B (Z_φ=8
+    with its forced `2√h e^φKφ'` mixing term) the quoted φ-equation is incomplete; the conserved
+    flux becomes Φ̃ = Zρ²φ' + 4ρρ' (CAS, same nonnegative RHS) and the φ'-only version of (ii)
+    FAILS (explicit counterexamples). **BUT the full mirror seal φ'=ρ'=0 at both ends gives Φ̃=0
+    at both ends → rigidity is FORK-ROBUST for the repo's seal.** FLAG: the live solvers use
+    Z=8 (the Route-B value) WITHOUT Route B's mixing term — a pre-existing inconsistency, now
+    load-bearing-adjacent; owed a look.
+  - **L3 (corners/shells — no evasion):** Weierstrass–Erdmann continuity of ∂L/∂φ' IS JC1
+    [Zρ²φ']=0; a φ-blind shell cannot jump Φ downward. Only a φ-COUPLED seal source could —
+    outside the premise.
+  - **L4 (interior ρ→0):** a metric degeneration terminating the geometry; rigidity correctly
+    scoped to ρ>0 cells (the repo's cell definition). **L6:** extends to composite P|G|P cells
+    (Φ constant on G, JC1 across seals — still monotone).
+- **SHARPENING (stronger than claimed):** a regular center + ONE outer mirror is even MORE rigid —
+  NO solution at all (Φ(center)=0, Φ'>0 near it, can never return to 0). Combined with R1/R2,
+  every closed configuration with φ'=0 outer seal is dead: center+mirror (no solution),
+  two-mirror (constant only).
+- **Numeric probe:** 48-case scan, Φ monotone nondecreasing in every case; φ' never returns to 0
+  after activation. Probe, not proof — consistent.
+
+**The forced fork (within this reduction, exactly one must give) — UPGRADED by the adversarial
+pass: within round-static + φ-blind, EVERY φ'=0-outer-seal configuration is now excluded
+(center+mirror: no solution; two-mirror: constant only), so fork 1 is the UNIQUE in-reduction
+survivor; forks 2 and 3 are premise-level escapes:**
 1. **The CMB boundary is NOT a φ'=0 (even/Neumann/Class-A) mirror.** Note the finite-cell canon
    (C-2026-06-10-2) states the mirror as **φ → −φ** — an ODD fold, which pins φ=0 and leaves φ'
    free: the Class-B/flux-type seal, not the Neumann mirror. And the flux law then has the right
@@ -139,10 +176,13 @@ analytic answer already: only the flat-lined cylinder; nothing to solve.
 
 ## NEXT
 
-1. **T1 → its own blind adversarial pass** (in flight at commit time): attack the theorem —
-   loopholes (corner/weak solutions vs JC1 flux continuity, ρ→0 interior degeneration, φ→±∞,
-   sign forks, seal-definition forks), before T1 gains blocking authority.
-2. **PONDER the fork with Charles** (lay layer): odd-fold/flux-seal reading of the canon (fork 1)
-   vs φ-coupled bulk matter (fork 2) vs ω≠0 (fork 3) — BEFORE any build.
-3. One line owed back to claude.ai: R1c's "e^{−2φ} harmonic" route did not reproduce in
+1. ~~T1 → its own blind adversarial pass~~ **DONE** (agent ae809e82d61ee86a2, no refutation,
+   conditions sharp — recorded above). T1 now has banking-grade verification.
+2. **PONDER the fork with Charles** (lay layer): fork 1 (Class-B/flux seal at the CMB — now the
+   UNIQUE in-reduction survivor) vs fork 2 (φ-coupled bulk matter) vs fork 3 (ω≠0) — BEFORE any
+   build.
+3. **OWED — the Z=8/Route-B tension** (L2): the live solvers use the Route-B Z_φ value without
+   Route B's forced mixing term. Either justify Z=8 under Route A (where Z_φ is FREE) or carry
+   the mixing term. Pre-existing, surfaced by the adversarial pass.
+4. One line owed back to claude.ai: R1c's "e^{−2φ} harmonic" route did not reproduce in
    r-parametrization (conclusion independently proven; method question only).

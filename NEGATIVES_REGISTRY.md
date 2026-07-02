@@ -28,9 +28,16 @@ ARBITRARY φ-blind source) — the universe cell is CENTER-FREE (thick shell, ρ
 **PREMISE SET:** round-static Branch-P reduction (static, round h=ρ²Ω, diagonal, W=1); φ-blind
 matter (DERIVED for winding; PREMISE for the N=0 bulk — if bulk matter turns out φ-coupled, R2 is
 CONDITIONS-CHANGED, R1 stands); mirror seal φ'=ρ'=0; Z>0 (values Z-independent / 1/Z-scaled).
-**UNVERIFIED (T1 — single-agent CAS finding, dedicated adversarial pass in flight):** two-mirror
-RIGIDITY — φ'=0 at BOTH ends + any φ-blind matter forces φ'≡ρ'≡0 (constant cylinder); a two-mirror
-universe cell CANNOT carry the CMB anchor Δφ=ln(1101). NO blocking authority until its own pass.
+**STANDING (T1 — adversarially verified, agent ae809e82d61ee86a2, NO refutation, conditions
+sharp):** two-mirror RIGIDITY — φ'=0 at BOTH ends + φ-blind sources + ρ>0 forces φ'≡ρ'≡0
+(constant cylinder); a two-mirror universe cell CANNOT carry the CMB anchor Δφ=ln(1101).
+SHARPENED: center + one mirror = NO solution at all; so within round-static+φ-blind, EVERY
+φ'=0-outer-seal configuration is dead — the unique in-reduction survivor is a Class-B (φ'≠0,
+charged/flux) seal. **CONDITIONS (all load-bearing):** φ'=0 at both ends is SHARP (ρ'=0-only
+seals escape — explicit counterexample); φ-blind seal/interface sources (a φ-coupled seal source
+escapes); Route-A φ-equation (under Route B the φ'-only version FAILS, but the full mirror
+φ'=ρ'=0 restores rigidity via Φ̃=Zρ²φ'+4ρρ' — fork-robust for the repo's seal). FLAGGED repo
+tension (owed): live solvers use Z=8 (Route-B value) without Route B's forced mixing term.
 Doc: `universe_cell_vacuum_impossibility_results.md`.
 
 ## *** 2026-06-21 OBJECT-IDENTITY SCOPING (verified; large — re-scopes the derived-operator soliton corpus) ***

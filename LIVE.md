@@ -30,13 +30,18 @@ fork through claude.ai → analytic R1–R3; BLIND-verified (agent a717881d0ebb7
 **R1 VACUUM universe cell IMPOSSIBLE** (exact center obstruction −4e^{−2φ₀}/(Zr²); E-gap center −2 vs seal 0;
 center-regular vacuum class EMPTY) → **matter REQUIRED = Machian reading DERIVED at this reduction level**.
 **R2 CENTER-FREE even with matter** (φ-blind matter provably can't cure — arbitrary source) → thick shell, same
-finite-core cure as particle cells. **R3's H-matching BVP = SUPERSEDED by T1 (PROVISIONAL, adversarial pass IN
-FLIGHT):** two-mirror RIGIDITY — Φ=Zρ²φ' is non-decreasing under ANY φ-blind matter, so φ'=0 at both ends ⇒
-φ'≡ρ'≡0 ⇒ **a two-mirror universe cell CANNOT carry Δφ=ln(1101)** — the planned "solve the shell with both
-mirrors + anchor" is analytically EMPTY. **FORCED FORK (ponder with Charles, no build until ruled):** (1) CMB
-boundary ≠ Neumann mirror — canon's φ→−φ ODD fold = flux-type seal, Φ grows to a seal flux q at the CMB = JC1
-structure at universe scale (PONDER-tagged); (2) N=0 bulk matter not φ-blind (PREMISE now load-bearing);
-(3) round-static walls again → ω≠0. Doc: `universe_cell_vacuum_impossibility_results.md` + registry entry.
+finite-core cure as particle cells. **R3's H-matching BVP = SUPERSEDED by T1 (now ADVERSARIALLY
+VERIFIED, agent ae809e82d61ee86a2, no refutation, conditions sharp):** two-mirror RIGIDITY — Φ=Zρ²φ' is
+non-decreasing under ANY φ-blind matter, so φ'=0 at both ends ⇒ φ'≡ρ'≡0 ⇒ **a two-mirror universe cell CANNOT
+carry Δφ=ln(1101)**; SHARPENED: center+one-mirror = NO solution at all ⇒ within round-static+φ-blind EVERY
+φ'=0-outer-seal configuration is dead. **FORCED FORK (ponder with Charles, no build until ruled) — fork 1 is
+now the UNIQUE in-reduction survivor:** (1) CMB boundary = Class-B/flux seal (φ'≠0) — canon's φ→−φ ODD fold;
+Φ grows to a seal flux q at the CMB = JC1 structure at universe scale (PONDER-tagged); (2) N=0 bulk matter not
+φ-blind (PREMISE-level escape); (3) round-static walls again → ω≠0 (premise-level escape). T1 conditions are
+SHARP: φ'=0-both-ends essential (ρ'=0-only seals escape); Route-B fork robust for the full mirror seal via
+Φ̃=Zρ²φ'+4ρρ'. **OWED (surfaced by the pass): live solvers use Z=8 (the Route-B value) WITHOUT Route B's forced
+`2√h e^φKφ'` mixing term — justify Z under Route A or carry the term.**
+Doc: `universe_cell_vacuum_impossibility_results.md` + registry entry (R1/R2/T1 all STANDING, premise-scoped).
 The block below is the morning frontier this update executes/supersedes in part (its step-1 "solve the universe
 cell" is now half-answered: vacuum branch closed analytically; the matter-bearing build waits on the fork ruling).
 **⇒ WHERE WE ARE NOW: the ROUND-STATIC (winding-cell) frame is EXHAUSTED against a MODEL ambient (3 blind-verified layers, no cell)
