@@ -39,14 +39,24 @@ genuine CONVERGED negative — λ* = −6.55e-7/−3.84e-7/−4.39e-8 after exac
 soft values were 52% translation-MIXTURE readings — stage-2 correction OWED post-verification; nonlinear ray
 confirms; C2–C5 killed). **IN FLIGHT: blind pass bv15 (agent a3701aedc18ecbb5d; targets X1/X2/X3 in the
 PROVISIONAL doc — if lost, re-run per those targets).**
-**NEXT (order): (1) bv15 lands → bank stage 3 + correct the stage-2 soft numbers; (2) THE ORIENTATION
-DERIVATION (E vs S for static configs in the native frame) — small, bounded, decisive for the whole table;
-BINDING AIM-BLIND RULE: the deriver must NOT be told what either sign does to the table (if E=−S the
-fundamentals become true weak energy-minima w/ excited rungs at N+1 downhill — seductive ⇒ derive, don't
-choose); (3) THE STABILITY PONDER w/ Charles (grant/withhold "stable"; universe selection; the fold-pair
-mode's meaning — note its resonance with the F5 "criticality pins the flat dilatation modulus" ledger line,
-kept OUT of all agent prompts deliberately); (4) then Stage-D prediction test (aliased window) → microphysics
-re-entry (particle cells in a derived-rung ambient). Standing open: soft-mode magnitude convention (α,β mass
+**DONE since: bv15 banked (soft mode = FOLD-PAIR, blind-verified; B00 λ*=−6.33e-7; SZ1 sign-solid magnitude
+unconverged; `ladder_softmode_results.md`; stage-2 correction in place). ORIENTATION chain COMPLETE under the
+AIM-BLIND rule (`ladder_energy_orientation_results.md`, deriver ae6e21433233df796 + blind verifier
+a15704db803b00023): identities banked (lapse cancels EXACTLY — banked L = honest time-integrated reduction;
+E_can = −∫L; on-shell ∫L = 2∫(2−E_m) = departure-from-critical-closure; E_can ≠ any σ·Δm_MS; TRAP: H≡0 is the
+r-flow Hamiltonian NOT the t-energy). **THE SIGN IS AN ADJUDICATED CALL, Charles's to rule:** MS/ε-anchor
+(E=+∫L) REFUTED-as-forcing (closed cell, indefinite kinetic, binding-energy structure — ~1‰ cancellation
++1149 matter vs −1161 geometry); FLAT-LIMIT anchor (E=−∫L, the banked orientation) is the weightier argument
+(decoupled limit gives +∫U ≥ 0; the flip would give flat-space matter NEGATIVE energy). TABLE READING PER
+ORIENTATION (prepared for the ponder, never fed to agents): under E=−∫L (flat-limit) the counts SWAP —
+fundamentals = zero energy-downhill + the fold-pair soft mode turns energy-UPHILL ⇒ minimum-class; excited
+rungs = N+1 energy-downhill; twin fundamental = 1 solid downhill. Under E=+∫L (MS) the counts read as-is —
+fundamentals = near-minima with ONE genuine ultra-shallow downhill; excited = index-2.
+NEXT: (1) THE STABILITY PONDER with Charles — rule the orientation (the flat-limit anchor is the stronger
+argument on the record); grant/withhold "stable"; the universe selection; the fold-pair mode's meaning (driver
+pocket note: F5 "criticality pins the flat dilatation modulus" resonance, kept out of all agent prompts);
+(2) then Stage-D prediction test (aliased window) → microphysics re-entry (particle cells in a derived-rung
+ambient). Standing open: soft-mode magnitude convention (α,β mass
 CHOSE); parity boundary term; handover; above-copy N=4–7; O(A²) q-coeff; angular+dynamical stability
 (scoped follow-ons); Bin-2 survivor re-grades at point of use.**
 
