@@ -35,15 +35,15 @@ n_pos(V̂)=N+1; fundamentals = the ONLY n_pos(V̂)=0 rungs + one universal ultra
 (2,1) distinct w/ a SOLID −5e-4 negative; "Z=1 differs" WITHDRAWN on verification) → **CHARLES RULED: hold
 "stable" provisional; identify the soft mode first** → STAGE 3 DONE (`ladder_softmode_results.md`,
 PROVISIONAL): **the soft mode = a FOLD-PAIR mode** (73–75% inner-fold α, opposite-sign β, seal-localized;
-genuine CONVERGED negative — λ* = −6.55e-7/−3.84e-7/−4.39e-8 after exact deflation; the banked stage-2
-soft values were 52% translation-MIXTURE readings — stage-2 correction OWED post-verification; nonlinear ray
-confirms; C2–C5 killed). **IN FLIGHT: blind pass bv15 (agent a3701aedc18ecbb5d; targets X1/X2/X3 in the
-PROVISIONAL doc — if lost, re-run per those targets).**
+genuine CONVERGED negative — B00 λ* = −6.33e-7 (bv15-corrected; ray-corroborated), SZ1 sign-solid
+magnitude-unconverged ≈ −(2–4)e-8; the banked stage-2 soft values were translation-MIXTURE readings (~26%
+invariant M-metric content; the "52%" was a convention artifact) — stage-2 correction IN PLACE; nonlinear ray
+confirms; C2–C5 killed).
 **DONE since: bv15 banked (soft mode = FOLD-PAIR, blind-verified; B00 λ*=−6.33e-7; SZ1 sign-solid magnitude
 unconverged; `ladder_softmode_results.md`; stage-2 correction in place). ORIENTATION chain COMPLETE under the
 AIM-BLIND rule (`ladder_energy_orientation_results.md`, deriver ae6e21433233df796 + blind verifier
 a15704db803b00023): identities banked (lapse cancels EXACTLY — banked L = honest time-integrated reduction;
-E_can = −∫L; on-shell ∫L = 2∫(2−E_m) = departure-from-critical-closure; E_can ≠ any σ·Δm_MS; TRAP: H≡0 is the
+E_can = −∫L; on-shell ∫L = 2∫(2−E_m) = departure-from-critical-closure; E_can ≠ σ·Δm_MS (constant-σ refuted numerically; affine excluded structurally); TRAP: H≡0 is the
 r-flow Hamiltonian NOT the t-energy). **THE SIGN IS AN ADJUDICATED CALL, Charles's to rule:** MS/ε-anchor
 (E=+∫L) REFUTED-as-forcing (closed cell, indefinite kinetic, binding-energy structure — ~1‰ cancellation
 +1149 matter vs −1161 geometry); FLAT-LIMIT anchor (E=−∫L, the banked orientation) is the weightier argument
@@ -55,7 +55,7 @@ fundamentals = near-minima with ONE genuine ultra-shallow downhill; excited = in
 **THE PONDER WAS PRESENTED TO CHARLES 2026-07-03 EOD — AWAITING HIS FOUR RULINGS (a fresh session should
 RE-PRESENT them from this list + `ladder_energy_orientation_results.md` + `stability_stage2_results.md` +
 `ladder_softmode_results.md`):**
-**R1 — ORIENTATION:** flat-limit anchor (E=−∫L, banked orientation; RECOMMENDED — Category-A reference limit:
+**R1 — ORIENTATION:** flat-limit anchor (E=−∫L, banked orientation; THE WEIGHTIER ARGUMENT ON THE RECORD, neither a theorem — Category-A reference limit:
 decoupled matter must have +energy; negative cell totals = binding on a closed cell) vs MS anchor (E=+∫L;
 refuted-as-forcing) vs hold-for-derivation (the un-derived time sector is the named residual).
 **R2 — GRANT "STABLE":** under R1=flat-limit, the fundamentals are minimum-class WITHIN the round-static
