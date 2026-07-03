@@ -1,4 +1,4 @@
-# INDEX — Repo Map (frontier refreshed 2026-07-02 — round-static EXHAUSTED → RISK 1 → stationary ω≠0; see LIVE.md, authoritative)
+# INDEX — Repo Map (frontier refreshed 2026-07-03 — universe cell SOLVED; integer-ladder spectrum + derived laws; stability filter live; see LIVE.md TOPMOST, authoritative)
 
 Navigable map of `udt_mass_codex`. **Structure (post-2026-07-01 consolidation):**
 - **root — LEAN:** the 17-module test-import solver closure (the OLD wrong-frame static solver — kept only because

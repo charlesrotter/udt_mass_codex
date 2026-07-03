@@ -307,13 +307,14 @@ redirect (nonstationary weld sector / transfer ladder / ensembles).
   anything else disagrees with it, LIVE.md wins. Read order: **LIVE.md → CLAUDE.md "How we work" +
   "DRIVER TRIGGERS" + the `.claude/skills/` discipline skills → HANDOFF.md TOP (detailed record) →
   INDEX.md (repo map).**
-- **Current state (2026-06-30 EOD — LIVE.md "CURRENT STATE" block is authoritative; this is a pointer):** the
-  static solver is CODE-COMPLETE + the D1 determinacy / core-BC / conditioning saga is RESOLVED (none indicted the
-  metric). THE BIG DISCOVERY: **X=−2e5 is a Cassini-FORCED FIT mis-tagged `# FREE`** — the LONE observation-fit
-  kluge on the live path (2 audits incl. blind) → PIVOTED to EXPLORE X. The galerkin BC-basis + seal-BC
-  reconciliation fixed the conditioning (determined solve descends 6 orders); it exposed TWO under-converged basins.
-  **NEXT = a NEUTRAL BASIN AUDIT (classify, don't select — NOT "find the physical branch"); see LIVE.md.** pytest
-  32/1xfail. Records: `LIVE.md`, `PROVENANCE_AUDIT_2026-06-30.md`, `EXTERNAL_AUDIT_2026-06-30.md`, `D1_FIX_DESIGN.md`.
+- **Current state (2026-07-03 — LIVE.md TOPMOST block is authoritative; this is a pointer):** the
+  universe cell is SOLVED (flux-sealed, blind-verified): closures form a COMPLETE integer ladder N=0..22,
+  family-universal, twin-sided; the spectrum LAWS are DERIVED (Theorems A/B, Lemma D a_seal≈√Z/[(N+1)π+θ₀],
+  θ₀ 2nd order, accumulation = quantization closure); F5 critical closure = a THEOREM (E_m(core)=2); canon
+  C-2026-07-02-1 (anchor = Δφ). Eigenmode corpus = CONDITIONS-CHANGED ("towers refused, closures allowed").
+  LIVE frontier = the STABILITY arc (operator + table banked; soft mode = fold-pair, PROVISIONAL; next =
+  orientation derivation AIM-BLIND, then the stability ponder). pytest 32/1xfail. Records: `LIVE.md`,
+  `HANDOFF.md` session record, the `universe_cell_*`/`ladder_*`/`cascade_*`/`stability_*` results docs.
 - **SUBSUMED / HISTORICAL trackers (do NOT treat as the live frontier — moved to `archive/` or tagged):**
   COMPLETION_PROGRAM.md, SOLVER_COMPLETENESS_MAP.md, POST_POSTULATE_PROGRAM.md, MIGRATION.md, REORG_PLAN.md,
   and the FOUNDATIONAL_ASSUMPTIONS_LEDGER.md F0-F8 scoreboard — all superseded by the static-solver

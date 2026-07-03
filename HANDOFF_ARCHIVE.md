@@ -632,3 +632,35 @@ acceptance tests" framing (M1 derived-op+φ / M2 X-kinetic→−2e5 / M3 Branch-
 SUPERSEDED: the static solver became code-complete, the kap8 question was characterized, pytest is now 32 passed /
 1 xfailed (the 1 = the G/P-fork + charge-1-core HABIT-pin gate). The migration (archive/MIGRATION.md) is closed.
 (Note: M2's X-kinetic→−2e5 is exactly the value later caught as the Cassini KLUGE — see PROVENANCE_AUDIT_2026-06-30.md.)
+
+
+# ===== ARCHIVED 2026-07-03 from HANDOFF.md: the 2026-07-02-morning PRIOR STATE block =====
+
+> **PRIOR STATE (2026-07-02 morning — superseded by the above; kept as the entry to the earlier arc).**
+> The round-static f(r,θ) build (which the 2026-07-01 handoff pointed to) RAN across a three-layer arc and **EXHAUSTED
+> the round-STATIC frame** (against a MODEL ambient) → RULING: this is **RISK 1**, NOT a fourth object. **NEXT — REORDERED
+> (Charles + claude.ai, 2026-07-02): SOLVE THE UNIVERSE CELL FIRST** (the arc matched a stand-in ambient, so "round-static
+> exhausted" isn't yet a clean metric verdict; the universe cell = highest info-per-run = the theory's ONE falsifiable
+> POSITIVE commitment [F5/Machian: MUST self-close → runs away = frame-negative-with-teeth; closes = validates
+> solver+real-ambient+Machian]; GUARD: its matter sector is UNPINNED = knob → tag CHOSE or derive from F5 critical closure)
+> → re-ask static matching vs the REAL ambient → then **ω≠0** (Nψ→Nψ+ωt; g^tt=−e^{2φ} weights ω² = Charles's φ-angular
+> hunch; mass~ω) on the validated background. TAGGED reading: "NO isolated particles — only STRUCTURE IN the universe."
+> Static-continuum stays open → dynamical (open) / quantized (reluctant, if dynamical fails). FRESH session, counting-first.
+>
+> THE ARC (all CAS + BLIND-verified; committed + pushed): **(1) CLOSED cell H=0, N=1,2,3 → NO cell** (geometry runs
+> away; `cell_solver_f2d_first_build_results.md`, `cell_solver_f2d_N2_results.md`; two-tier stability filter built +
+> corrected = energy Hessian not action; `verify_f2d_reduction.py` 11/11). **(2) EMBEDDED closure H_cell=H_amb DERIVED
+> + blind-verified** (`embedded_cell_closure_H_amb_results.md`; Weierstrass–Erdmann corner condition; ambient
+> Misner–Sharp density = the scale pin) → embedding RESCUES FINITENESS but a Class-A mirror core is gradient-free/q≈0
+> → can't momentum-match a gradient-carrying ambient (`cell_solver_f2d_embedded_run_results.md`). **(3) CLASS-B charged
+> core** (claude.ai gate rulings `embedded_run_gate_rulings.md` + `embedded_classB_mini_MAP.md` + `verify_classB_derivations.py`,
+> all blind-verified): **q CLOSES the flux match** (q≈Zq_A = canon charge=seal-flux) **but NO band** — a TWO-BRANCH
+> MATTER wall: ρ'_amb>0 needs I_r>0 (airtight `π_ρ'=Zρφ'²−ξρI_r+κN²I_4θ/ρ³`) which does NOT emerge (V7: radial structure
+> never free); ρ'_amb≤0 → R4 opens but R5 (skin E_ang match) blocks (`cell_solver_f2d_classB_run_results.md`).
+>
+> METHOD THAT WORKED (keep): mini-MAP counting-first → claude.ai gate ruling → CAS+blind the derivations → bounded run
+> → blind-verify the run (attack the load-bearing claim hardest) → commit PROVISIONAL/scoped, NEVER a frame verdict.
+> --- HISTORICAL: the 2026-07-01 native-frame FOUNDATION + round-static next-action (still-valid foundation; canonical
+> record = the five native-frame result docs) → `archive/LIVE_native_frame_round_static_2026-07-01.md`. The 2026-06-29→30
+> basin/D1/galerkin/X-kluge arc → `archive/LIVE_basin_D1_galerkin_arc_2026-06-30.md`. Pre-2026-06-30 → `HANDOFF_ARCHIVE.md`.
+
