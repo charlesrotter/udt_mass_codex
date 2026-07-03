@@ -118,11 +118,23 @@ amplifier is eaten by the flux budget — the anchor sets q and the phase); exac
 (e^{−φ/2}=√1101·cos(κ√x_c r); universal one-param ODE, s = Θ√x_c/√(1−x_c) verifier-corrected); Z-TEST PASSES
 no-family-input (Z=1: −0.2%; Z-ratio +5.1%). ONE OPEN CHANNEL: θ₀ ≈ 0.32π measured vs 0.067π derived =
 second-order averaging (O(a²Θ) secular phase; decays ∝1/N; bounded next step).
-**NEXT: (1) second-order θ₀ (bounded, closes the ±5% residual); (2) interpretation ponder w/ Charles
-(twin/parity ↔ Class A/B; eigenmode re-grade under the new frame); (3) Stage-D-if-ruled (aliased window,
-deep tail, above-side, accumulation law — note d(N) law now derivable from Θ(N) + the q-law). OWED:
-Z=8/Route-B mixing term; canon Δφ wording; claude.ai relay (C4→√1101 correction; z_c coefficient; its
-D-route formula already implied e^{φ/2}).**
+**θ₀ DERIVED AT SECOND ORDER + BLIND-VERIFIED (deriver a6b59e7212c33361e, verifier a954b5c15ec7ee2ca —
+E1–E5 all confirmed, double-count EXCLUDED ×40, γ-provenance clean; `ladder_theta0_accumulation_results.md`):
+banked hypothesis PART-REFUTED (secular/anharmonic real but ~25–35%; dominant ~65–75% = the BOTTOM — the
+self-consistent ramp launch: γ-system, γ = 4δ̃²/(Zs̃₁²x_c²), quasi-universal ≈2.33–2.36 across families AND Z
+= the derived reason θ₀ is family/Z-stable); W-orbit reformulation EXACT ("the seal is a W=0 turning point");
+per-node-interval quadrature verified coefficient-by-coefficient (U'''' enters at U'''² order); 11+5-rung
+test |Δ|≤0.012π, zero fits; family spacing = the ĉ₄ term. **AND THE ACCUMULATION LAW IS DERIVED (step 2
+collapsed into step 1's by-product): d*(N) = the quantization closure z_c_eff(γ(d)) = Θ(N)√x_c/√(1−x_c) —
+verified −0.4%…+0.1% at N≥8 by the verifier's own chain. IMPLICIT law ⇒ explains WHY all five frozen forms
+failed with identical residuals: "unclassified" was the honest reading of a law with no closed form in N.
+The fit guard's payoff realized — no fit ever touched the record.** Open slivers (named, quantified):
+handover +2%→+0.9% of θ₀; within-cycle parity boundary term. Scoped N≳8.
+**NEXT: the two ponders with Charles (twin/parity ↔ Class A/B; eigenmode-corpus re-grade — both on fully
+derived footing); Stage-D-if-ruled; the two slivers as bounded dispatches if wanted. HOUSEKEEPING DONE:
+canon C-2026-07-02-1 (anchor = Δφ, fold-pinned zero); Z tension discharged (FREE-and-explored; Route fork →
+consilience via derived Z-handles: window ceiling ∝√Z, a_seal ∝ √Z, q ∝ Z); relay assembled
+`relay_claudeai_2026-07-02.md` (+ add the θ₀/accumulation closure).**
 The block below is the morning frontier this update executes/supersedes in part (its step-1 "solve the universe
 cell" is now half-answered: vacuum branch closed analytically; the matter-bearing build waits on the fork ruling).
 **⇒ WHERE WE ARE NOW: the ROUND-STATIC (winding-cell) frame is EXHAUSTED against a MODEL ambient (3 blind-verified layers, no cell)
