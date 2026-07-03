@@ -30,25 +30,22 @@ discipline skills → `HANDOFF.md` TOP (current activity) → `CANON.md` / `NEGA
 → this INDEX → the specific records. The file-immutability rule is **REPEALED** (Charles 2026-06-24): use git
 as git — edit in place, roll back via history.
 
-**CURRENT FRONTIER (2026-07-02 — LIVE.md is authoritative, read it first):** the round-STATIC cell frame is
-**EXHAUSTED** across a three-layer, each-blind-verified arc — **(1)** CLOSED cell (H=0) N=1,2,3 → NO cell (geometry
-runs away); **(2)** EMBEDDED closure `H_cell=H_amb` DERIVED (ambient Misner–Sharp density = the scale pin) → embedding
-RESCUES FINITENESS but a Class-A mirror core is gradient-free/q≈0 → can't momentum-match a gradient-carrying ambient;
-**(3)** CLASS-B charged core → q CLOSES the flux match (canon charge=seal-flux) but NO band — a TWO-BRANCH MATTER wall
-(ρ'_amb>0 needs I_r>0 which V7 forbids from emerging; ρ'_amb≤0 opens R4 but R5/skin-E_ang blocks). **RULING (Charles/
-claude.ai): 3rd object failed → REFRAME not 4th object; the wall = "nothing in the round-STATIC frame forces radial
-matter structure" = RISK 1** (V7 is a static theorem) — but note that verdict rode on a MODEL ambient. **NEXT —
-REORDERED (Charles + claude.ai, 2026-07-02): SOLVE THE UNIVERSE CELL FIRST** (real ambient + rock-solidity test + the
-theory's ONE falsifiable POSITIVE commitment — F5/Machian: MUST self-close; GUARD: unpinned matter sector = knob → tag
-CHOSE or derive from F5 critical closure) → re-ask static matching vs the real ambient → then **ω≠0** (Nψ→Nψ+ωt,
-g^tt=−e^{2φ} weights ω² = φ-angular hunch; mass~ω) on the validated background. Static-continuum stays open (→ dynamical/
-quantized). Tagged reading: "no isolated particles — only structure IN the universe." Fresh session, counting-first. Docs: `cell_solver_f2d_*_results.md`, `embedded_cell_closure_H_amb_results.md`,
-`embedded_run_*`/`embedded_classB_mini_MAP.md`, `cell_solver_f2d_classB_run_results.md`, `verify_{f2d_reduction,embedded_closure,embedded_rulings,classB_derivations}.py`.
-**SUPERSEDED:** the 2026-07-01 native-frame FOUNDATION + round-static next-action (still-valid foundation; canonical
-record = the 5 native-frame result docs) → `archive/LIVE_native_frame_round_static_2026-07-01.md`; the 06-29→30
-kap8/D1/conditioning/basin arc → `archive/LIVE_basin_D1_galerkin_arc_2026-06-30.md`; the older p1-MIGRATION/F0-F8
-frame (trackers in `archive/`). The old p1 solver modules stay at root ONLY because pytest imports them — do NOT tune
-them (wrong frame). **Risk 1 is now CONFIRMED as the wall; Risk 2 (Z_φ fork / `e^φKφ'` mixing) still open, gates ratios.**
+**CURRENT FRONTIER (2026-07-03 — LIVE.md TOPMOST is authoritative, read it first):** the universe cell was
+SOLVED (flux-sealed; vacuum impossible; fold JCs; E_m(core)=2 = F5 as a THEOREM; canon C-2026-07-02-1 anchor=Δφ)
+and its closures form a **COMPLETE integer ladder N=0..22, family-universal (6 families, both Z), twin-sided** —
+with the spectrum LAWS DERIVED, never fitted (Theorems A/B; Lemma D a_seal≈√Z/[(N+1)π+θ₀]; θ₀ 2nd order;
+accumulation = the quantization closure). Eigenmode corpus = CONDITIONS-CHANGED ("towers refused, closures
+allowed"; re-grade at point of use). **LIVE frontier = the STABILITY arc**: operator + full table banked
+(fundamentals uniquely n_pos(V̂)=0; excited saturate (2,N+1); twin fundamental distinct); soft mode = FOLD-PAIR
+mode (PROVISIONAL, blind pass pending); NEXT = orientation derivation (AIM-BLIND rule binding) → stability
+ponder with Charles → Stage-D → microphysics re-entry. Docs: `universe_cell_*`, `ladder_*`, `cascade_*`,
+`stability_*`, `twin_ladder_involution_results.md`, `negatives_premise_sweep_2026-07-03.md`.
+**Prior arcs → archive/**: `LIVE_universe_cell_ladder_arc_2026-07-02.md` (the universe-cell/ladder updates);
+`LIVE_native_frame_round_static_2026-07-01.md` (native-frame foundation — still valid, canonical record = the 5
+native-frame docs); `LIVE_basin_D1_galerkin_arc_2026-06-30.md`; older trackers in `archive/`. Old p1 solver
+modules stay at root ONLY because pytest imports them — do NOT tune them (wrong frame). **Risk 1
+(round-static walls) RESOLVED-IN-CONTEXT by the ladder arc (static discreteness exists via CLOSURES, not
+towers); Risk 2 (Z_φ fork / `e^φKφ'` mixing) still open — now with derived observational Z-handles.**
 
 ---
 

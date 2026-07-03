@@ -75,11 +75,11 @@ imports these modules, so they STAY until the new solver + test rewrite land (th
 **Durable native-matter facts (SURVIVE, and the new solver uses them):** UDT's native matter = the **S²/π₂ winding**
 (`n=x/r`), a scale-free defect; its charge is the **integer TOPOLOGICAL degree N** (native quantization — the "lump"
 search was frame-creep, Charles's 2026-06-25 catch). In the new round solver: rigid `f=θ` collapses (I_r=0); the
-minimally-free `f(r,θ)` is the next test (see LIVE.md). The φ-angular hunch now appears NATIVELY (Branch-P `𝒦`-source;
+minimally-free `f(r,θ)` test RAN (arc archived; the universe-cell/ladder line superseded it — see LIVE.md). The φ-angular hunch now appears NATIVELY (Branch-P `𝒦`-source;
 the route-B kinetic-completion mixing term; the seal source that charges a matter cell).
 
 **Read order for a new instance:** (0) **LIVE.md FRONTIER block** (THE only-guaranteed-current file). (1) CLAUDE.md
-"How we work" + ANTI-HANG + the `.claude/skills/` discipline skills; frontier memory **[[native-field-equations-frontier]]**
+"How we work" + ANTI-HANG + the `.claude/skills/` discipline skills; frontier memory **[[universe-cell-rigidity-frontier]]** (foundation one back: [[native-field-equations-frontier]])
 + the principle memories ([[apply-purist-logic-proactively]], [[solution-space-not-imposition]],
 [[charles-workflow-preferences]], native-matter-defect-import-discovery, solver-first-not-mechanism). (2) THIS FILE +
 the five native-frame result docs + `discreteness_preregistration.md` + `round_matter_reduction_results.md` +
