@@ -139,11 +139,23 @@ refused (standing — gates any ω-tower hunt on a rung; the ladder is STATIC-PR
 closure" = verbatim anticipation of the quantization closure; #33's dead-frame refutation superseded)** —
 "towers refused, closures allowed"; conflict grades: #61 STANDING; #62–64 → Category-A GR-reference; stale
 T1 title fixed (sweep caught the driver's own edit).
-**NEXT (standing order): ponder-1 conversation w/ Charles (twin/parity ↔ Class A/B; then the involution
-dispatch) → STABILITY FILTER on the ladder rungs (the pre-registered decisive step; selects which N —
-non-merit route to "which rung is the universe") → Stage-D prediction test (aliased window = the closure
-law predicts the missing rungs' positions) → microphysics re-entry (embed particle cells in a derived-rung
-ambient). Slivers (handover; parity boundary term) as bounded dispatches if wanted. HOUSEKEEPING DONE:
+**PONDER 1 CLOSED (2026-07-03; conversation → dispatch ab290d29dd3daf80f → blind verifier aaa840a9fe6f9495f;
+`twin_ladder_involution_results.md`): the twin = a NEW twoness (NOT Class A/B — both ladders Class-B; NOT the
+canon mirror — both are universe cells); organizing frame = BROKEN INVERSION u→−u with dr̃=e^{−4u}dr (kinetic
++ flux EXACTLY invariant given natural pins; ALL breaking in the potential sector, Δ = 24δ̃u² + …; the
+−32m/3 term = born-broken even at the stuck point). **U(ρ_c)=2 (Charles's breathing-edges ruling) is the
+algebraic reason the twin exists at O(ε) at all** (kills the O(u⁰),O(u¹) mismatch). **THE TWIN FUNDAMENTAL
+EXISTS** (driver's unique-ground-state lean REFUTED): above-side N=0 at a*=1.5099953390 (verifier-corrected),
+nodeless, displaced −46% from the naive twin location — mechanism = **THE INNER-SEAL CHARGE CAP (exact bound,
+verifier-sharpened): q² = T(ρ_s) exactly, T(0)=T(1)=0 ⇒ any inner seal has q ≤ 2.251; both ladders' deepest
+inner-sealers pinned at 97–98% of the SAME cap; below-side N=1→N=0 q-jump (2.19→12.6) = outward escape.**
+Above ladder = compressed integer copy in d'∈(0, 0.00666]; desert above confirmed. Splitting laws banked:
+q parity-protection to O(x_c); ρ_s product = −3A² (~91%); θ₀-odd flip 98% at odd N; even-N compensation =
+direct MEASUREMENT of the open boundary-term sliver. Gaps: above-copy completeness N=4..7; O(A²) q-coeff;
+the parity boundary term (measured, underived).
+**NEXT (standing order): STABILITY FILTER on the ladder rungs (pre-registered decisive step; non-merit route
+to "which rung is the universe"; now doubly motivated — do the near-cap inner-sealers behave differently?) →
+Stage-D prediction test (aliased window) → microphysics re-entry. Slivers as bounded dispatches. HOUSEKEEPING DONE:
 canon C-2026-07-02-1 (anchor = Δφ, fold-pinned zero); Z tension discharged (FREE-and-explored; Route fork →
 consilience via derived Z-handles: window ceiling ∝√Z, a_seal ∝ √Z, q ∝ Z); relay assembled
 `relay_claudeai_2026-07-02.md` (+ add the θ₀/accumulation closure).**
