@@ -34,10 +34,35 @@ cell) exhibits a BLIND-VERIFIED COMPLETE consecutive-integer mode spectrum (N=0.
 missing; twin ladder, parity inversion; `cascade_stageB_results.md`, verifiers ad3564a74b9d51d7f
 / a801cd73f512b52b4 / a826e7c47368930ab). Re-grading is NOT resurrection (Charles): each old
 negative must be re-graded UNDER THE NEW FRAME before any standing is restored or refuted;
-until then the line has no blocking authority AND no positive authority. Re-grade owed at the
-interpretation stage.
+until then the line has no blocking authority AND no positive authority.
 
-## *** 2026-07-02 UNIVERSE CELL: VACUUM IMPOSSIBLE + CENTER-FREE (verified) + TWO-MIRROR RIGIDITY (UNVERIFIED) ***
+**AMENDMENT 2026-07-03 (Charles-graded; sweep = `negatives_premise_sweep_2026-07-03.md`,
+agent a30e4ea7bd54193f7 — mechanical premise-set classification, all 74 items):**
+- **Bin 1 (30 entries, dead-frame premises):** stay powerless under this flag. **Bin 2 (30
+  candidate survivors, premise sets free of dead-frame markers — list in the sweep doc):**
+  flagged "INDIVIDUAL RE-GRADE BEFORE CROSSING." **Bin 3 (#8, #9, #16, CS1, CS2, CS3 —
+  premise sets missing/unclear/self-flagged):** NON-CITABLE until premise-reconstructed.
+- **STANDING RULE (Charles, 2026-07-03): RE-GRADE AT POINT OF USE.** No wholesale re-grade,
+  ever; any push that collides with a flagged entry triggers that entry's individual re-grade
+  at that moment, with Charles.
+- **THE CORPUS'S EXTRACTED YIELD (the principles note, Charles-graded):**
+  **P-A — TOWERS REFUSED (STANDING, rescoped):** fixed-background vibration spectra are
+  boundary-controlled ("the mirror BC labels, the outer Dirichlet quantizes"; #1→W7→#28→#41→
+  CS4→#65). Binding caution for the ladder era: the N-ladder is STATIC-PROFILE discreteness;
+  P-A gates any ω-tower hunt on a rung.
+  **P-B — CLOSURES ALLOW (PROMOTED hypothesis→theorem):** "discrete set while absolute size
+  stays free; NOT mode-spectrum/box-control — the over-determined nonlinear WHOLE-profile
+  closure" (#32, 2026-06-13) is a verbatim anticipation of the blind-verified 2026-07-02
+  quantization closure; #33's refutation of #32's mechanism rode the dead frame and is
+  superseded on the rebuilt frame. The year of negatives compresses to: TOWERS REFUSED,
+  CLOSURES ALLOWED — the exception clause became the theorem.
+- **Conflict grades (Charles, 2026-07-03):** #61 = STANDING (import-provenance audit; the
+  06-19 banner over-swept it — its listing there is void). #62/#63/#64 = retagged
+  **Category-A GR-REFERENCE facts** (true about the reference theory, SILENT about UDT; no
+  residual UDT authority; the "GR-structural" banner exemption is superseded by this retag).
+
+## *** 2026-07-02 UNIVERSE CELL: VACUUM IMPOSSIBLE + CENTER-FREE + TWO-MIRROR RIGIDITY (ALL verified) ***
+(title corrected 2026-07-03 — the "(UNVERIFIED)" tag was stale after T1's adversarial pass; caught by the premise sweep)
 
 **STANDING (R1, R2 — blind-verified, agent a717881d0ebb76695):** in the round-static Branch-P
 reduction, (R1) the VACUUM universe cell is IMPOSSIBLE (exact center obstruction −4e^{−2φ₀}/(Zr²);

@@ -130,8 +130,20 @@ verified −0.4%…+0.1% at N≥8 by the verifier's own chain. IMPLICIT law ⇒ 
 failed with identical residuals: "unclassified" was the honest reading of a law with no closed form in N.
 The fit guard's payoff realized — no fit ever touched the record.** Open slivers (named, quantified):
 handover +2%→+0.9% of θ₀; within-cycle parity boundary term. Scoped N≳8.
-**NEXT: the two ponders with Charles (twin/parity ↔ Class A/B; eigenmode-corpus re-grade — both on fully
-derived footing); Stage-D-if-ruled; the two slivers as bounded dispatches if wanted. HOUSEKEEPING DONE:
+**PONDER 2 DONE (2026-07-03, Charles-graded; `negatives_premise_sweep_2026-07-03.md` + registry amendment):
+revised form per Charles (mine principles, don't re-grade wholesale) — mechanical premise sweep of all 74
+entries (30 dead-frame powerless / 30 Bin-2 survivors flagged "individual re-grade before crossing" / 6
+non-citable / 7 disposed); STANDING RULE = re-grade at point of use; PRINCIPLES EXTRACTED: **P-A towers
+refused (standing — gates any ω-tower hunt on a rung; the ladder is STATIC-PROFILE discreteness)** +
+**P-B closures allow (promoted: #32's 2026-06-13 "discrete set while absolute size stays free… whole-profile
+closure" = verbatim anticipation of the quantization closure; #33's dead-frame refutation superseded)** —
+"towers refused, closures allowed"; conflict grades: #61 STANDING; #62–64 → Category-A GR-reference; stale
+T1 title fixed (sweep caught the driver's own edit).
+**NEXT (standing order): ponder-1 conversation w/ Charles (twin/parity ↔ Class A/B; then the involution
+dispatch) → STABILITY FILTER on the ladder rungs (the pre-registered decisive step; selects which N —
+non-merit route to "which rung is the universe") → Stage-D prediction test (aliased window = the closure
+law predicts the missing rungs' positions) → microphysics re-entry (embed particle cells in a derived-rung
+ambient). Slivers (handover; parity boundary term) as bounded dispatches if wanted. HOUSEKEEPING DONE:
 canon C-2026-07-02-1 (anchor = Δφ, fold-pinned zero); Z tension discharged (FREE-and-explored; Route fork →
 consilience via derived Z-handles: window ceiling ∝√Z, a_seal ∝ √Z, q ∝ Z); relay assembled
 `relay_claudeai_2026-07-02.md` (+ add the θ₀/accumulation closure).**
