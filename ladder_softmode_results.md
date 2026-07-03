@@ -1,5 +1,23 @@
-# Stage 3: the universal soft mode IDENTIFIED — a FOLD-PAIR mode, genuine converged negative
-# *** PROVISIONAL — blind pass IN FLIGHT (agent a3701aedc18ecbb5d, targets X1/X2/X3 below) — do NOT bank as verified ***
+# Stage 3: the universal soft mode IDENTIFIED — a FOLD-PAIR mode, genuine converged negative — BLIND-VERIFIED
+# (was ladder_softmode_stage3_PROVISIONAL.md; renamed on verification 2026-07-03)
+
+**BLIND PASS COMPLETE (agent a3701aedc18ecbb5d, own DOP853 + midpoint-quadrature P1-FEM + Woodbury
+shift-invert deflation, 2/6 shots; scripts `cascade_bv15_*.py`): X2 CONFIRMED (the identification
+core — fold-pair anatomy robust under independent mass conventions; FIXED-absence confirmed);
+X3 CONFIRMED (both-signs nonlinear negativity; the constraint leak reproduced in sign and size);
+X1 CONFIRMED-WITH-CONDITIONS with THREE corrections now BANKED:**
+1. **B00 λ* = −6.33e-7 (±1%)** — bv15's deeper ladder (to M=102400) + its independent ray c2 =
+   −6.381e-7 corroborate each other; the stage-3 −6.55e-7 is superseded (3.4% off).
+2. **SZ1 λ*: SIGN robust (only negative in the cluster, both agents), MAGNITUDE UNCONVERGED —
+   honest range −2.25e-8 (bv15, M→409600, h²-term still 2.6×|λ*|) to −4.39e-8 (stage 3);
+   quote as "≈ −(2–4)e-8, sign-solid."** Richardson on this rung overshoots at feasible grids.
+3. **The translation-mixture content of the undeflated reading is convention-dependent:** ~26-27%
+   in the M-metric (invariant) vs ~49-52% Euclidean-coarse; the mixture characterization stands,
+   the percentage was a convention artifact. Also: "exactly one negative branch" is a statement
+   about the BRANCH/limit (at coarse grids the deflated cluster has no negative yet — it descends
+   through the static levels via avoided crossings).
+Deflation-metric note (banked): M-ORTHOGONAL projection is the canonical deflation (Euclidean
+projection reproduces the undeflated plateau — a trap for future re-runs).
 
 **Date:** 2026-07-03. **Stage-3 agent:** `a0950d4187fd40715` (predictions pre-registered in
 `cascade_s3_predictions.md` BEFORE any measurement; scripts `cascade_s3_*.py`; 0 background

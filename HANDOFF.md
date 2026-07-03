@@ -26,7 +26,7 @@ caught — one driver, one claude.ai, one leading-order launch, one ±1 conventi
 5. **Stability filter (LIVE frontier):** operator derived+verified (raw index INFINITE; theorem-pinned
    counting; `stability_operator_results.md`), full table (fundamentals uniquely n_pos(V̂)=0; excited saturate
    (2,N+1); twin fundamental (2,1) distinct; `stability_stage2_results.md`), stage-3 soft-mode identification
-   (**FOLD-PAIR mode, converged negative** — `ladder_softmode_stage3_PROVISIONAL.md`, blind pass in flight).
+   (**FOLD-PAIR mode, converged negative** — `ladder_softmode_results.md`, blind pass in flight).
    NEXT = orientation derivation (**AIM-BLIND rule binding** — see LIVE) → the stability PONDER with Charles.
 **Method notes that must survive:** verifier-before-record caught something material at EVERY stage; the
 freeze-before-data pattern (fit forms, diagnostics, predictions) paid out three times; agent process rules —

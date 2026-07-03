@@ -33,7 +33,7 @@ endpoint-cancellation coeff = −H(fold) ⇒ U(ρ_c)=2 load-bearing in a 3rd rol
 (`stability_stage2_results.md`: excited rungs SATURATE (2, N+1) — naive index=N REFUTED, N lives in
 n_pos(V̂)=N+1; fundamentals = the ONLY n_pos(V̂)=0 rungs + one universal ultra-soft mode; TWIN FUNDAMENTAL
 (2,1) distinct w/ a SOLID −5e-4 negative; "Z=1 differs" WITHDRAWN on verification) → **CHARLES RULED: hold
-"stable" provisional; identify the soft mode first** → STAGE 3 DONE (`ladder_softmode_stage3_PROVISIONAL.md`,
+"stable" provisional; identify the soft mode first** → STAGE 3 DONE (`ladder_softmode_results.md`,
 PROVISIONAL): **the soft mode = a FOLD-PAIR mode** (73–75% inner-fold α, opposite-sign β, seal-localized;
 genuine CONVERGED negative — λ* = −6.55e-7/−3.84e-7/−4.39e-8 after exact deflation; the banked stage-2
 soft values were 52% translation-MIXTURE readings — stage-2 correction OWED post-verification; nonlinear ray

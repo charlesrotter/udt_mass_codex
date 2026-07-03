@@ -24,6 +24,13 @@ alone carries a SOLID S_u negative (−5.0e-4, scaled) beside the soft one, and 
 The twins at N = 8..11 are pairwise IDENTICAL to their below-partners ((2, N+1) both) — the
 twin asymmetry lives only at the bottom, consistent with the banked breaking/cap structure.
 
+## CORRECTION (2026-07-03, post stage-3 + bv15 — see `ladder_softmode_results.md`)
+The soft-eigenvalue MAGNITUDES quoted below (−3.84e-7 / −2.80e-7 / −3.32e-8) are UNDEFLATED
+TRANSLATION-MIXTURE readings (metric-invariant translation content ~26%; values drift at large
+grids). The verified deflated values: B00 λ* = −6.33e-7; SZ1 sign-solid, magnitude ≈ −(2–4)e-8
+(unconverged). The COUNTS and the tolerance analysis below are unaffected; the mode's identity =
+a FOLD-PAIR mode (blind-verified).
+
 ## The tolerance resolution (the spot-pass catch, resolved honestly)
 
 Stage 2 reported the fundamentals as (0,0)/(0,0)/(1,0); bv14's strict-tolerance recount gives
