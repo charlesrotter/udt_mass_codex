@@ -2,8 +2,38 @@
 
 > **READ `LIVE.md` FIRST** — it is the short, only-guaranteed-current file (frontier + next action).
 > This HANDOFF is the detailed record; if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
->
-> **CURRENT STATE (2026-07-02 EOD — LIVE.md "CURRENT STATE" block is authoritative; this is the pointer).**
+
+## SESSION RECORD 2026-07-02 → 07-03 (universe cell → ladder → derived laws → stability; LIVE.md TOPMOST block = the frontier)
+
+The reordered plan ("solve the universe cell first") executed and OVERSHOT: the cell was derived, closed, and
+handed back a derived spectrum. Full chain, every step blind-verified (14+ verifier agents; 4 refutations
+caught — one driver, one claude.ai, one leading-order launch, one ±1 convention — all corrections banked):
+1. **Universe cell:** vacuum IMPOSSIBLE + center-free + two-mirror RIGIDITY (`universe_cell_vacuum_impossibility_results.md`);
+   fork ruled → FLUX-SEALED cell; fold JCs + σ-admissibility + **E_m(core)=2 critical closure (F5 as a
+   theorem)** (`universe_cell_fold_jc_sigma_results.md`); T2 knob-free identities + q-window
+   (`universe_cell_T2_identities_results.md`); canon **C-2026-07-02-1** (anchor = Δφ, fold-pinned zero).
+2. **T3 solve:** THE CELL CLOSES; closures = a COMPLETE consecutive-integer ladder N=0..22, FAMILY-UNIVERSAL
+   (6 families, both Z), parity grain, TWIN ladder w/ inverted parity (`universe_cell_T3_closure_results.md`,
+   `cascade_stageA/B/C_results.md`); ρ_s sheds the matter with N (0.44% spread at N=8).
+3. **The laws DERIVED (never fitted):** Theorems A/B exact; O(ε) structure (amplifier CORRECTED to
+   e^{Δφ/2}=√1101); **Lemma D: a_seal ≈ √Z/[(N+1)π+θ₀] — family data cancels EXACTLY; q ∝ √|s̃₁| = the one
+   mechanism behind both Stage-C findings** (`ladder_lemmaD_sealing_amplitude_results.md`); θ₀ at 2nd order
+   (bottom-launch dominant) AND **the accumulation law = the quantization closure** — the fit guard's
+   "unclassified" resolved as an IMPLICIT law (`ladder_theta0_accumulation_results.md`).
+4. **Ponders (closed 07-03):** corpus → "TOWERS REFUSED, CLOSURES ALLOWED" + re-grade-at-point-of-use
+   (`negatives_premise_sweep_2026-07-03.md` + registry amendment); twin = BROKEN INVERSION u→−u; TWIN
+   FUNDAMENTAL EXISTS (cap-displaced); **INNER-SEAL CHARGE CAP = exact bound** (`twin_ladder_involution_results.md`).
+5. **Stability filter (LIVE frontier):** operator derived+verified (raw index INFINITE; theorem-pinned
+   counting; `stability_operator_results.md`), full table (fundamentals uniquely n_pos(V̂)=0; excited saturate
+   (2,N+1); twin fundamental (2,1) distinct; `stability_stage2_results.md`), stage-3 soft-mode identification
+   (**FOLD-PAIR mode, converged negative** — `ladder_softmode_stage3_PROVISIONAL.md`, blind pass in flight).
+   NEXT = orientation derivation (**AIM-BLIND rule binding** — see LIVE) → the stability PONDER with Charles.
+**Method notes that must survive:** verifier-before-record caught something material at EVERY stage; the
+freeze-before-data pattern (fit forms, diagnostics, predictions) paid out three times; agent process rules —
+chunk CAS (one timeout), pre-declare shot budgets (one overage), graduated-floor zero counts, exact-projection
+deflation before reading soft modes; blind passes get avoid-lists AND withheld values where possible.
+
+> **PRIOR STATE (2026-07-02 morning — superseded by the above; kept as the entry to the earlier arc).**
 > The round-static f(r,θ) build (which the 2026-07-01 handoff pointed to) RAN across a three-layer arc and **EXHAUSTED
 > the round-STATIC frame** (against a MODEL ambient) → RULING: this is **RISK 1**, NOT a fourth object. **NEXT — REORDERED
 > (Charles + claude.ai, 2026-07-02): SOLVE THE UNIVERSE CELL FIRST** (the arc matched a stand-in ambient, so "round-static

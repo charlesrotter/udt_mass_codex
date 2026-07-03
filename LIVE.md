@@ -23,7 +23,33 @@ CURRENT STATE block wins.**
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-02 EOD) — READ THIS FIRST ============
+## ============ CURRENT STATE (2026-07-03 EOD) — READ THIS FIRST ============
+**⇑⇑⇑ TOPMOST (2026-07-03 EOD — supersedes everything below): THE STABILITY ARC.** The stability filter ran
+end-to-end: mini-MAP w/ Charles's 3 pins (`stability_filter_miniMAP.md`) → operator DERIVED+BLIND-VERIFIED
+(`stability_operator_results.md`: raw Morse index INFINITE — indefinite kinetic, no gauge; counting = exact
+hyperbolic-pair + Haynsworth identities; v₀=0 convention PINNED BY THEOREM after bv13 caught a ±1 mix;
+endpoint-cancellation coeff = −H(fold) ⇒ U(ρ_c)=2 load-bearing in a 3rd role) → STAGE-2 TABLE + blind spot-pass
+(`stability_stage2_results.md`: excited rungs SATURATE (2, N+1) — naive index=N REFUTED, N lives in
+n_pos(V̂)=N+1; fundamentals = the ONLY n_pos(V̂)=0 rungs + one universal ultra-soft mode; TWIN FUNDAMENTAL
+(2,1) distinct w/ a SOLID −5e-4 negative; "Z=1 differs" WITHDRAWN on verification) → **CHARLES RULED: hold
+"stable" provisional; identify the soft mode first** → STAGE 3 DONE (`ladder_softmode_stage3_PROVISIONAL.md`,
+PROVISIONAL): **the soft mode = a FOLD-PAIR mode** (73–75% inner-fold α, opposite-sign β, seal-localized;
+genuine CONVERGED negative — λ* = −6.55e-7/−3.84e-7/−4.39e-8 after exact deflation; the banked stage-2
+soft values were 52% translation-MIXTURE readings — stage-2 correction OWED post-verification; nonlinear ray
+confirms; C2–C5 killed). **IN FLIGHT: blind pass bv15 (agent a3701aedc18ecbb5d; targets X1/X2/X3 in the
+PROVISIONAL doc — if lost, re-run per those targets).**
+**NEXT (order): (1) bv15 lands → bank stage 3 + correct the stage-2 soft numbers; (2) THE ORIENTATION
+DERIVATION (E vs S for static configs in the native frame) — small, bounded, decisive for the whole table;
+BINDING AIM-BLIND RULE: the deriver must NOT be told what either sign does to the table (if E=−S the
+fundamentals become true weak energy-minima w/ excited rungs at N+1 downhill — seductive ⇒ derive, don't
+choose); (3) THE STABILITY PONDER w/ Charles (grant/withhold "stable"; universe selection; the fold-pair
+mode's meaning — note its resonance with the F5 "criticality pins the flat dilatation modulus" ledger line,
+kept OUT of all agent prompts deliberately); (4) then Stage-D prediction test (aliased window) → microphysics
+re-entry (particle cells in a derived-rung ambient). Standing open: soft-mode magnitude convention (α,β mass
+CHOSE); parity boundary term; handover; above-copy N=4–7; O(A²) q-coeff; angular+dynamical stability
+(scoped follow-ons); Bin-2 survivor re-grades at point of use.**
+
+## ============ PRIOR STATE (2026-07-02 EOD) ============
 **⇑ UPDATE (2026-07-02, later session — universe-cell step 1 partially ANSWERED ANALYTICALLY, no solve needed):**
 recon confirmed **F5 matter = CHOSE / algebraic c²=2GM/R closure = circular (no teeth)**. Charles ran the vacuum
 fork through claude.ai → analytic R1–R3; BLIND-verified (agent a717881d0ebb76695, questions-only protocol):
