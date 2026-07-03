@@ -52,11 +52,24 @@ ORIENTATION (prepared for the ponder, never fed to agents): under E=−∫L (fla
 fundamentals = zero energy-downhill + the fold-pair soft mode turns energy-UPHILL ⇒ minimum-class; excited
 rungs = N+1 energy-downhill; twin fundamental = 1 solid downhill. Under E=+∫L (MS) the counts read as-is —
 fundamentals = near-minima with ONE genuine ultra-shallow downhill; excited = index-2.
-NEXT: (1) THE STABILITY PONDER with Charles — rule the orientation (the flat-limit anchor is the stronger
-argument on the record); grant/withhold "stable"; the universe selection; the fold-pair mode's meaning (driver
-pocket note: F5 "criticality pins the flat dilatation modulus" resonance, kept out of all agent prompts);
-(2) then Stage-D prediction test (aliased window) → microphysics re-entry (particle cells in a derived-rung
-ambient). Standing open: soft-mode magnitude convention (α,β mass
+**THE PONDER WAS PRESENTED TO CHARLES 2026-07-03 EOD — AWAITING HIS FOUR RULINGS (a fresh session should
+RE-PRESENT them from this list + `ladder_energy_orientation_results.md` + `stability_stage2_results.md` +
+`ladder_softmode_results.md`):**
+**R1 — ORIENTATION:** flat-limit anchor (E=−∫L, banked orientation; RECOMMENDED — Category-A reference limit:
+decoupled matter must have +energy; negative cell totals = binding on a closed cell) vs MS anchor (E=+∫L;
+refuted-as-forcing) vs hold-for-derivation (the un-derived time sector is the named residual).
+**R2 — GRANT "STABLE":** under R1=flat-limit, the fundamentals are minimum-class WITHIN the round-static
+constraint-respecting counting (finite energy-downhill = 0; the fold-pair soft mode turns energy-UPHILL;
+excited rung N = N+1 downhill; twin fundamental = 1 solid downhill). Angular + dynamical stability = scoped,
+named follow-ons — the word "stable" carries the class tag.
+**R3 — THE SELECTION:** if R2 granted: the landscape selects the fundamentals uniquely — "the universe = the
+N=0 ground state of its own ladder" = the non-merit answer the filter was built for.
+**R4 — THE F5 READING:** the verified fold-pair soft mode ≈ "the otherwise-flat dilatation modulus, weakly
+pinned at criticality" (the F5 ledger line, written pre-arc; resonance kept out of ALL agent prompts and
+arrived uninvited) — canon-adjacent note, or tagged observation only.
+**AFTER THE RULINGS: Stage-D prediction test (the quantization closure PREDICTS the aliased window's ~11
+missing rungs — go look; strongest test type) → microphysics re-entry (particle cells embedded in the
+selected fundamental instead of a model ambient — the σ cross-check is the only audit with test power).** Standing open: soft-mode magnitude convention (α,β mass
 CHOSE); parity boundary term; handover; above-copy N=4–7; O(A²) q-coeff; angular+dynamical stability
 (scoped follow-ons); Bin-2 survivor re-grades at point of use.**
 

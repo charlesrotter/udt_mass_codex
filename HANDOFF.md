@@ -23,11 +23,15 @@ caught — one driver, one claude.ai, one leading-order launch, one ±1 conventi
 4. **Ponders (closed 07-03):** corpus → "TOWERS REFUSED, CLOSURES ALLOWED" + re-grade-at-point-of-use
    (`negatives_premise_sweep_2026-07-03.md` + registry amendment); twin = BROKEN INVERSION u→−u; TWIN
    FUNDAMENTAL EXISTS (cap-displaced); **INNER-SEAL CHARGE CAP = exact bound** (`twin_ladder_involution_results.md`).
-5. **Stability filter (LIVE frontier):** operator derived+verified (raw index INFINITE; theorem-pinned
-   counting; `stability_operator_results.md`), full table (fundamentals uniquely n_pos(V̂)=0; excited saturate
-   (2,N+1); twin fundamental (2,1) distinct; `stability_stage2_results.md`), stage-3 soft-mode identification
-   (**FOLD-PAIR mode, converged negative** — `ladder_softmode_results.md`, blind pass in flight).
-   NEXT = orientation derivation (**AIM-BLIND rule binding** — see LIVE) → the stability PONDER with Charles.
+5. **Stability filter (COMPLETE through the ponder-presentation):** operator derived+verified (raw index
+   INFINITE; theorem-pinned v₀=0 counting; `stability_operator_results.md`); full table + blind spot-pass
+   (fundamentals uniquely n_pos(V̂)=0; excited saturate (2,N+1); twin fundamental (2,1);
+   `stability_stage2_results.md` w/ correction note); soft mode IDENTIFIED + BLIND-VERIFIED = a FOLD-PAIR
+   breathing mode, genuine converged negative (`ladder_softmode_results.md`; B00 λ*=−6.33e-7; SZ1 sign-solid
+   mag-unconverged); ORIENTATION chain complete AIM-BLIND (`ladder_energy_orientation_results.md`): identities
+   banked (lapse cancels exactly; E_can=−∫L; ∫L=2∫(2−E_m); H≡0 = r-flow NOT t-energy trap), the SIGN = an
+   adjudicated CALL (MS anchor refuted-as-forcing; flat-limit anchor favors the banked E=−∫L). **THE PONDER
+   WAS PRESENTED 2026-07-03 EOD; FOUR RULINGS PENDING (enumerated in LIVE.md TOPMOST — re-present on resume).**
 **Method notes that must survive:** verifier-before-record caught something material at EVERY stage; the
 freeze-before-data pattern (fit forms, diagnostics, predictions) paid out three times; agent process rules —
 chunk CAS (one timeout), pre-declare shot budgets (one overage), graduated-floor zero counts, exact-projection
