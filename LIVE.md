@@ -52,26 +52,25 @@ ORIENTATION (prepared for the ponder, never fed to agents): under E=−∫L (fla
 fundamentals = zero energy-downhill + the fold-pair soft mode turns energy-UPHILL ⇒ minimum-class; excited
 rungs = N+1 energy-downhill; twin fundamental = 1 solid downhill. Under E=+∫L (MS) the counts read as-is —
 fundamentals = near-minima with ONE genuine ultra-shallow downhill; excited = index-2.
-**THE PONDER WAS PRESENTED TO CHARLES 2026-07-03 EOD — AWAITING HIS FOUR RULINGS (a fresh session should
-RE-PRESENT them from this list + `ladder_energy_orientation_results.md` + `stability_stage2_results.md` +
-`ladder_softmode_results.md`):**
-**R1 — ORIENTATION:** flat-limit anchor (E=−∫L, banked orientation; THE WEIGHTIER ARGUMENT ON THE RECORD, neither a theorem — Category-A reference limit:
-decoupled matter must have +energy; negative cell totals = binding on a closed cell) vs MS anchor (E=+∫L;
-refuted-as-forcing) vs hold-for-derivation (the un-derived time sector is the named residual).
-**R2 — GRANT "STABLE":** under R1=flat-limit, the fundamentals are minimum-class WITHIN the round-static
-constraint-respecting counting (finite energy-downhill = 0; the fold-pair soft mode turns energy-UPHILL;
-excited rung N = N+1 downhill; twin fundamental = 1 solid downhill). Angular + dynamical stability = scoped,
-named follow-ons — the word "stable" carries the class tag.
-**R3 — THE SELECTION:** if R2 granted: the landscape selects the fundamentals uniquely — "the universe = the
-N=0 ground state of its own ladder" = the non-merit answer the filter was built for.
-**R4 — THE F5 READING:** the verified fold-pair soft mode ≈ "the otherwise-flat dilatation modulus, weakly
-pinned at criticality" (the F5 ledger line, written pre-arc; resonance kept out of ALL agent prompts and
-arrived uninvited) — canon-adjacent note, or tagged observation only.
-**AFTER THE RULINGS: Stage-D prediction test (the quantization closure PREDICTS the aliased window's ~11
-missing rungs — go look; strongest test type) → microphysics re-entry (particle cells embedded in the
-selected fundamental instead of a model ambient — the σ cross-check is the only audit with test power).** Standing open: soft-mode magnitude convention (α,β mass
-CHOSE); parity boundary term; handover; above-copy N=4–7; O(A²) q-coeff; angular+dynamical stability
-(scoped follow-ons); Bin-2 survivor re-grades at point of use.**
+**ALL FOUR RULINGS MADE (Charles, 2026-07-03, after an external cross-check vetted the presentation and
+concurred) — BANKED as canon C-2026-07-03-1 + C-2026-07-03-2 (CANON.md; orientation doc stamped):**
+**R1 = FLAT-LIMIT (E_phys = −∫L), scope-tagged** — the un-derived TIME SECTOR is the named residual; every
+use of the orientation carries the tag (canon C-2026-07-03-1). MS anchor refuted-as-forcing stands recorded.
+**R2 = "STABLE" GRANTED with class tag** — fundamentals are MINIMUM-CLASS within round-static
+constraint-respecting counting (zero downhill; fold-pair soft mode energy-UPHILL; excited rung N = N+1
+downhill; twin fundamental = 1 solid downhill). Angular + dynamical stability = named scoped follow-ons.
+**R3 = THE SELECTION CANONIZED, scope-tagged** — the landscape selects the fundamentals uniquely: **the
+universe = the N=0 ground state of its own ladder** (canon C-2026-07-03-2, inherits the R1 scope tag).
+**R4 = CANON-ADJACENT NOTE** (not canon): fold-pair soft mode ≈ the pre-arc F5 "dilatation modulus weakly
+pinned at criticality" line — a consilience identification, not a derivation (note attached to C-2026-07-03-2).
+**LIVE NEXT = STAGE-D PREDICTION TEST (pre-register FIRST, per repo discipline): the quantization closure
+PREDICTS the aliased window's ~11 missing rungs — go look (strongest test type). MAP the pre-registration
+contract (frozen prediction, candidate window, tolerances, look-elsewhere) with Charles BEFORE any solve.
+THEN: microphysics re-entry (particle cells embedded in the selected fundamental instead of a model
+ambient — the σ cross-check is the only audit with test power).** Standing open: soft-mode magnitude
+convention (α,β mass CHOSE); parity boundary term; handover; above-copy N=4–7; O(A²) q-coeff;
+angular+dynamical stability (scoped follow-ons); Bin-2 survivor re-grades at point of use; the Z=8/Route-B
+mixing-term tension; relay owed to claude.ai.**
 
 
 ### ↓↓↓ HISTORICAL — the 2026-07-02 universe-cell/ladder arc layered updates ARCHIVED 2026-07-03 →

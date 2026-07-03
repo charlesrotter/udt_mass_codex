@@ -42,10 +42,13 @@ OPPOSITE way. Scope: round-static Branch-P reduction, banked pins, Route-A actio
   energy of a static matter lump. The flip would assign NEGATIVE energy to flat-space matter,
   breaking the one Category-A reference limit that genuinely pins an orientation. Under this
   reading the cells' negative totals are angular-curvature/binding deficit on a closed cell.
-- **Status: a CALL for Charles** — the flat-limit anchor is the weightier argument on the
-  record (Category-A reference limit vs a demonstrated-incoherent positivity appeal), but
-  neither is a theorem. The stability-table reading under each orientation is prepared for the
-  ponder (kept out of this doc's derivation chain by the aim-blind rule; see LIVE).
+- **Status: RULED. Charles ruled FLAT-LIMIT (E_phys = −∫L), scope-tagged with the un-derived
+  time sector, 2026-07-03 — canon C-2026-07-03-1.** (Historical: the call was presented with
+  both anchors; the flat-limit anchor was the weightier argument on the record — Category-A
+  reference limit vs a demonstrated-incoherent positivity appeal — but neither is a theorem.
+  The stability-table reading under each orientation was prepared for the ponder, kept out of
+  this doc's derivation chain by the aim-blind rule. An external cross-check vetted the
+  presentation and concurred before the ruling.)
 
 ## Ledger
 Time-kinetic extension assumed ≥ quadratic (CHOSE, standard); overall normalization k>0 unpinned

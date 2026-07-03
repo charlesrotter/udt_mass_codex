@@ -250,3 +250,73 @@ is to be read as the same Δφ with the zero relocated to the fold.
 a18115fe9d95cfb84); gauge flag raised in universe_cell_fold_jc_sigma_results.md; operated as
 Δφ by Charles from the T2 ruling (breathing edges) onward.
 **Charles-authorized 2026-07-02 (session ruling: "the canon Δφ amendment... all owed").**
+
+---
+
+## C-2026-07-03-1 — Canonical-energy orientation: E_phys = −∫L (flat-limit anchored; SCOPE-TAGGED)
+
+**Statement:** For the round-static Branch-P reduction on the banked pins (Route-A action,
+per-4π units, seal-proper clock t via φ(r_s)=0), the physical energy orientation is
+**E_phys = E_can = −∫L_banked dr**, anchored by the flat-space decoupled limit (a Category-A
+reference limit): at φ=0, ρ=r the banked L reduces to −U, so E_can = +∫U ≥ 0 — the standard
+positive potential energy of a static matter lump; the opposite sign would assign flat-space
+matter NEGATIVE energy. The competing MS/ε-positivity anchor (E_phys = +∫L) is REFUTED AS
+FORCING (no positivity theorem on a closed cell with an indefinite kinetic sector; the
+negative cell totals are binding-energy structure — a ~1‰ cancellation, +1149 matter vs
+−1161 geometry; the anchor is not sign-coherent across rungs). Neither anchor is a theorem;
+this entry records Charles's adjudication of the call.
+
+**SCOPE TAG (binding — travels with every use of this orientation):** E_can is the Noether
+energy of the ansatz-fixed STATIC REDUCTION; the TIME SECTOR of the native action is
+UN-DERIVED. The full theory's t-Hamiltonian (constraints + boundary terms) is named future
+work, and its derivation re-opens this entry (CONDITIONS-CHANGED discipline applies).
+Banked trap: H ≡ 0 is the r-flow Hamiltonian, NOT the t-energy.
+
+**Forces:** the stability-table reading. Under E = −∫L: fundamentals have ZERO finite
+energy-downhill directions (the universal ultra-soft fold-pair mode is energy-UPHILL, weakly
+restoring); excited rung N has exactly N+1 energy-downhill directions; the twin fundamental
+(2,1) has one solid downhill.
+
+**Provenance:** ladder_energy_orientation_results.md — aim-blind chain (deriver
+ae6e21433233df796, CAS 16/16; blind adversarial verifier a15704db803b00023, own
+Christoffel/Ricci from scratch; the deriver's own preferred anchor was refuted by its
+verifier — the aim-blind protocol working as designed). External cross-check vetted the
+presentation and concurred (2026-07-03).
+**Canonized by Charles 2026-07-03 (ruling R1 of the stability ponder).**
+
+---
+
+## C-2026-07-03-2 — The fundamentals are STABLE (minimum-class, round-static scope); the ladder SELECTS them: the universe = the N=0 ground state of its own ladder
+
+**Statement:** Under C-2026-07-03-1, within round-static constraint-respecting counting
+(exact hyperbolic-pair + Haynsworth counting on the derived stability operator; v₀=0
+convention pinned by theorem):
+- the FUNDAMENTAL rungs are **MINIMUM-CLASS**: zero finite energy-downhill directions; their
+  single universal ultra-soft fold-pair mode (blind-verified, `ladder_softmode_results.md`)
+  is energy-uphill;
+- EXCITED rung N has exactly N+1 energy-downhill directions — a clean Morse ladder vanishing
+  at the ground;
+- the TWIN FUNDAMENTAL (2,1) is the unique fundamental-class rung with a solid downhill
+  (−5e-4), qualitatively distinct;
+- therefore the landscape SELECTS the fundamentals uniquely: **the universe = the N=0 ground
+  state of its own ladder.** This emerged from counting under the stability filter's
+  pre-registered mini-MAP — not from a merit gate.
+
+**CLASS TAG (binding — the word "stable" always carries it):** stability is granted WITHIN
+the round-static constraint-respecting counting only. ANGULAR stability and DYNAMICAL
+(time-evolution) stability are named, scoped follow-ons — not yet run. The soft mode's
+MAGNITUDE rides a CHOSE (α,β) mass convention; its sign/uphill-vs-downhill character is the
+solid content. Inherits the C-2026-07-03-1 scope tag (un-derived time sector).
+
+**Canon-adjacent NOTE (Charles ruling R4 — a note, NOT canon):** the verified fold-pair soft
+mode matches the pre-arc F5 ledger line — "the otherwise-flat dilatation modulus, weakly
+pinned at criticality" — written before the stability arc; resonance language was kept out of
+ALL agent prompts and the identification arrived uninvited. Recorded as a consilience
+observation: an identification, not a derivation.
+
+**Provenance:** `stability_filter_miniMAP.md` (Charles's 3 pins) → `stability_operator_results.md`
+(derived operator, blind-verified; bv13 caught a ±1 mix) → `stability_stage2_results.md`
+(30-rung table, blind spot-pass) → `ladder_softmode_results.md` (fold-pair identification,
+blind pass bv15) → `ladder_energy_orientation_results.md` (orientation). External cross-check
+concurred (2026-07-03).
+**Canonized by Charles 2026-07-03 (rulings R2 + R3 of the stability ponder).**
