@@ -23,8 +23,13 @@ the σ cross-check?
 Solve for: cell fields (φ, ρ, f(r,θ)) on [0, r_p] + ambient (φ, ρ) on [r_p, r_sU] + the two
 free boundaries r_p, r_sU. Conditions: core naturals (φ'=ρ'=f_r=0 at 0), seal set C1a/C1b/C1c +
 C2 (⇔ E_ang(r_p)=U(ρ_p)), outer fold set (φ=0, ρ'=0, H_amb=0; q an output), poles f(r,0)=0,
-f(r,π)=π, and the Δφ anchor at bracket level (a* floats at O(back-reaction) — reported, not
-imposed exactly; E1 ledger #5).
+f(r,π)=π, and the Δφ anchor at bracket level (per the cited E1 ledger #5: a* HELD at the
+banked bracket value; Δφ floats at O(back-reaction) and is REPORTED, never imposed exactly on
+the composite). [WORDING FIX post-approval, flagged to Charles: the original parenthetical
+said "a* floats" — a paraphrase slip contradicting its own E1 citation; the E2a builder
+implemented the cited E1 reading, which this fix restores. No physics change, same square
+count; the alternate branch (a* freed + exact-Δφ row) is unwired and would need Charles's
+ruling before use.]
 
 ## Knobs and coverage (all pre-committed)
 
