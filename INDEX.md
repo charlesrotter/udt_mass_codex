@@ -172,3 +172,18 @@ operator + the migration — but they remain the canon-provenance for q=1/3/η/N
 - **ANTI-HANG:** coupled solves are SLOW (minutes-to-hours) — bound the grid, ONE clean process, run solves
   yourself via background-notify (NO `nohup` — it detaches from the harness tracker), never background-poll.
 - Commit per result; push to github.com/charlesrotter/udt_mass_codex.
+
+## 2026-07-03/04 arc (stability rulings → Stage-D → microphysics re-entry → D1/D2 → the route fork)
+- **PURSUIT_CHARTER_2026-07-04.md** — THE successor-driver orientation (fork-3 program; traps).
+- Stage-D: `cascade_stageD_prereg.md` (hash-frozen contract), `cascade_stageD_results.md`,
+  `stageD_*` (forecast/sweep/comparison + bv scripts).
+- Microphysics re-entry: `microphysics_reentry_miniMAP.md` (guardrails), `microphysics_E0_ambient_tables.*`,
+  `microphysics_E1_composite_closure_results.md`, `microphysics_E2_battle_plan.md`,
+  `microphysics_E2b_{A1Z8,A1Z1,A3Z8,A3Z1}_results.*`, `microphysics_E2_coupled_solve_results.md`
+  (existence UNDECIDED; the MMS solver-completeness finding), `cell_solver_composite.py` + harness.
+- Directions + audits: `ponder_emergence_directions_2026-07-04.md` (D1–D5),
+  `d1_angular_constants_native_rederivation.md` (N=3 native; q/η imports),
+  `microphysics_D2_two_regime_MAP.md` + `d2a_switch_criterion_interior.md` (interior all-P) +
+  `d2b_no_structure_in_G.md` (T-G1/T-G2) + `d2c_gp_composite_conditions.md` (Route-B EOMs;
+  the G|P sign obstruction; the route fork).
+- Archived LIVE layers: `archive/LIVE_stability_stageD_microphysics_arc_2026-07-03_04.md`.
