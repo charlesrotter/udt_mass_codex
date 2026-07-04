@@ -353,3 +353,13 @@ confirm this picture.
 CAS 24/24; blind adversarial verifier a50cf068b5ecf05e2, 8/8 HOLD, exclusion extended three
 classes by the verifier's own probes).
 **Canonized by Charles 2026-07-03 (ruling R-A of the E1 ponder, this session).**
+
+**Canon-adjacent NOTE (NOT canon — Charles ruling R-C, E1 ponder 2026-07-03): THE CRITICALITY
+MIGRATION.** Derived + blind-verified (same E1 provenance as above): carving a particle cell out
+of the real universe cell moves the universe's critical closure inward — the ambient loses its
+inner fold's U(ρ_c)=2 condition and the particle core inherits it as **E_ang(core) = 2**; the
+chain is C2 (H-balance at the shared seal) + H_amb ≡ 0 forced at the real outer fold + H
+conservation. The cosmos's "matter at one critical amount" rule reappearing at the particle
+core. Graded a margin note, not canon: derived (stronger than the F5 identification note) but
+one reduction deep (round-static, diagonal, concentric, Branch-P) — elevation waits on E2
+showing cells actually close on it.
