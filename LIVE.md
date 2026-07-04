@@ -73,13 +73,30 @@ integrator 7-digit re-shoots; own forecast re-evaluation 3e-7; freeze/blinding/c
 Recorded non-fails: one-signed ~0.1% systematic of the 2nd-order law (bounds the open slivers
 empirically; 3rd-order target); count/edge-rule wording ambiguity for future contracts. Scope: family
 A1 m=3 Z=8 (Z-fork NOT adjudicated, stated), round-static Branch-P.
-**LIVE NEXT = (1) short PONDER w/ Charles on what the pass means (the ladder + its law are now
-prediction-grade); (2) MICROPHYSICS RE-ENTRY — particle cells embedded in the selected N=0 fundamental
-(canon C-2026-07-03-2) instead of a model ambient; the σ cross-check is the only audit with test power.
-MAP first (no compute).** Standing open: soft-mode magnitude convention (α,β mass CHOSE); parity boundary
-term; handover; above-copy N=4–7; O(A²) q-coeff; angular+dynamical stability (scoped follow-ons); Bin-2
-survivor re-grades at point of use; the Z=8/Route-B mixing-term tension; relay owed to claude.ai
-(+ Stage-D outcome).**
+**MICROPHYSICS RE-ENTRY LAUNCHED AND E0+E1 BANKED (2026-07-03 latest):** mini-MAP pre-registered w/
+Charles's 2 guardrails (`microphysics_reentry_miniMAP.md`: family/Z bracketing = OUTPUT; turning-point =
+labeled slice + gradient-carrying controls; σ cross-check = the armed audit). **E0 BANKED blind-verified**
+(`microphysics_E0_ambient_tables.md`, 4 brackets incl. fresh A3 Z=1; **H≡0 along the real interior =
+REAL-AND-FORCED, non-vacuous** — sympy: fold value U(ρ_c)−2=0 by transversality; fundamentals
+everywhere-marginal 2m/ρ≡1; plateau at φ=−ln1101, gradients seal-concentrated ~0.994–0.999 r_s).
+**E1 BANKED blind-verified 8/8** (`microphysics_E1_composite_closure_results.md`): composite closure
+derived natively — **C2 ⇒ H_cell≡0 ⇒ E_ang(core)=2: the criticality MIGRATES to the particle core**;
+counting SQUARE M+4 vs M+4 (the old over-determination WAS the model ambient — load-bearing difference =
+dynamical ambient w/ real free fold); C2 ⇔ E_ang(r_p)=U(ρ_p) local; NEW C1c f_r(seal)=0; core = even
+mirror fold, canon C-2026-06-10-2 φ→−∞ wording EXCLUDED within probed+verifier-extended classes (**canon
+wording flag = CHARLES'S CALL**); rigid-N=1 closes NOWHERE (registry #75, scoped); bulge theorem (any
+closure = interior angular-energy bulge, Derrick tax τ(r) derived); position-selective (ξ,κ,N) windows
+TWO-SIDED (N=1 plateau-only vs N=2 κ≈1 wall-only, 3 of 4 brackets); one U=2 balance station r*/r_s≈0.95
+family-robust; off-center NOT controlled (foliation+stiffness ‖Ψ‖~1e6-2e8) → concentric family expresses
+plateau-vs-wall exactly. "Closes nowhere" NOT established — the binding question = the E2 coupled
+two-domain BVP (stiffness says solve both domains coupled).
+**LIVE NEXT = THE E1 PONDER w/ CHARLES: (1) canon C-2026-06-10-2 core-wording call (even fold at finite
+depth vs φ→−∞ — airtight within classes, not absolute); (2) E2 go/no-go (coupled composite BVP + two-tier
+stability filter + the σ cross-check pass/fail); (3) the criticality-migration reading (F5 "one critical
+amount" now at the particle core — consilience w/ the critical-universe frame, tagged observation).**
+Standing open: soft-mode magnitude convention; parity boundary term; handover; above-copy N=4–7; O(A²)
+q-coeff; angular+dynamical stability; Bin-2 re-grades at point of use; Z=8/Route-B mixing-term tension;
+relay owed to claude.ai (+ Stage-D + E0/E1).**
 
 
 ### ↓↓↓ HISTORICAL — the 2026-07-02 universe-cell/ladder arc layered updates ARCHIVED 2026-07-03 →
