@@ -1,7 +1,7 @@
 # D2 — THE TWO-REGIME MAP (particle cells across the G|P interface)
 
-**Date:** 2026-07-04. **Status: DRAFT FOR CHARLES'S PONDER — no compute, no derivation agents
-until he rules.** D2 of `ponder_emergence_directions_2026-07-04.md`; grounded in the recon of
+**Date:** 2026-07-04. **Status: APPROVED AS WRITTEN — Charles, 2026-07-04. This is the
+contract; D2a/D2b/D2c run as specified; deviations require his ruling.** D2 of `ponder_emergence_directions_2026-07-04.md`; grounded in the recon of
 the banked G/P record (agent ab2ef2c4bd67a9240, citations therein). Frame question: Charles's
 two-asymmetric-regimes picture (one regime has mass emergence, the other doesn't; link = the
 invariant angular sector), restated in the record's own derived objects.
