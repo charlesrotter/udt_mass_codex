@@ -51,12 +51,18 @@ gauge-invariant vacuum observable; J(s) light-deflection = the frame-ROBUST conf
 (J(0)=π, J(½)=4, O(s) impact-parameter-independent; a bound s_max<½ kills Route B but not small-μ =
 NOT binary); ∝s structural levers (realizability caveats). The rotation-law v²=s = PREMISE-CONDITIONAL
 (lives under g, killed only by the observationally-DEAD ĝ branch — NOT an artifact, NOT banked).
-⇒ NEW STOP-QUESTION FOR CHARLES (gates the data step + every orbit/clock row): WHICH METRIC DOES
-MATTER COUPLE TO — g, ĝ=e^{2φ}g, or is matter-in-motion a FIELD/S²-defect not a worldline? ĝ-as-physical
-is REFUTED (reductio: zero redshift vs GPS + zero orbits vs solar system); live = g-coupling (but tension
-w/ the derived e^{+φ} static weight, S13c) vs matter-is-a-field (then test-particle orbit/clock rows are
-ill-posed; only J(s) confrontable). Per solver-first the reductio indicts the moving-law CHOSE, not the
-metric. NEXT after the ruling: pre-registered data confrontation of J(s) to bound s.**
+⇒ THE FRAME FORK (which metric matter couples to; is matter-in-motion a worldline). ĝ-as-physical REFUTED
+(reductio: zero redshift vs GPS + zero orbits). **RESOLVED-AS-FAR-AS-DERIVATION-ALLOWS (2026-07-04, after
+Charles caught a stale-rung lean): the S²-defect discovery was RE-GRADED under the native foundation
+(`regrade_S2_defect_2026-07-04.md`, verifier aa3af5a01f70aa096; registry updated). Outcome: the
+point-particle-WORLDLINE branch is UNDERCUT clean-current (S13c: no R1-invariant worldline law) ⇒ leans
+matter-in-MOTION toward a field/defect-SOLUTION description — but NO positive verdict, and it does NOT
+select g vs ĝ. The decisive positive content (does the native S² winding form a stable object; how it MOVES
+as a field) is STILL-OPEN, and lives INSIDE THE EMERGENCE PROGRAM (E2c existence → D4 native moving-field
+solve) — NOT a macro frame-pick.** So the frame fork is NOT a standalone Charles-ruling; it folds back into
+the emergence program. What stands frame-independent: s=2μ/Z + J(s) light-deflection as the measurable
+lever. NEXT: the emergence program is the main line again (E2c optimizer gauntlet → existence → D4);
+J(s)-vs-data (bound s) can proceed anytime as the one frame-robust confrontation.**
 Charles's two R1 flags: single-curvature-origin premise? (his lean: decline); R2 reframe = BLESSED. (2) The other
 five forks pending (charter §4). (3) Standing owed: photon/EM re-grade; E2c optimizer gauntlet before
 ANY sweep; D4 ω≠0 after the route fork; R3 = Route-B universe cell (well-posed across the sheet).
