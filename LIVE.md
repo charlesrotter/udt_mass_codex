@@ -45,6 +45,11 @@ banked fold values + E_ang(core)=2 route-robust VERIFIED; flat FAILS Route-B G =
 observable = s = 2μ/Z, the vacuum-deformation exponent — observability EXACT; the mixing term = a
 kinetic-level φ-angular coupling). **NEXT = R2 (reframed): BOUND s against the macro constraints —
 pre-register the s-dependence of each observable FIRST (data-blind), then confront** (charter §3).
+**R2 derivation half = a committed LEAD ONLY (`r2_prereg_s_dependence_LEAD.md`, fbb331a; Fable→Opus
+handover mid-run): CAS 34/34 data-blind PASS, but OWED = results doc + frozen table + BLIND VERIFIER
++ Charles's reframe blessing → NOT banked. LOAD-BEARING CAVEAT (S10a): the orbit rows (incl. the
+seductive v²=s "flat rotation law") ride on the UNSETTLED metric-geodesic-vs-native-weighted-motion
+premise — attack hardest, do not bank; the light + clock rows are motion-law-robust = the solid part.**
 Charles's two R1 flags pending: single-curvature-origin premise?; bless the R2 reframe. (2) The other
 five forks pending (charter §4). (3) Standing owed: photon/EM re-grade; E2c optimizer gauntlet before
 ANY sweep; D4 ω≠0 after the route fork; R3 = Route-B universe cell (well-posed across the sheet).
