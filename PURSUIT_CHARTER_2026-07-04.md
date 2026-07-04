@@ -6,6 +6,19 @@ explicit — assume nothing is obvious. Read order: LIVE.md TOPMOST → this cha
 instruction at handover: organize first, then the forks, **with emphasis on FORK 3 (the route
 fork)**.
 
+> ## ★ CURRENT PENDING DECISION (top of the stack — read FIRST, do NOT proceed without Charles's call)
+> The 2026-07-04 Opus session discharged **R1 + R2** of the route fork (below, §3 — both DONE, banked,
+> blind-verified) and ran the **E2c/d/e optimizer arc** (§5) down to a single diagnosed wall: three
+> verified solver rounds each localized the SAME **EXTREME DEPTH-STIFFNESS**, so embedded-cell existence
+> is **UNDECIDED (tool-limited, not refuted)**. Charles's **OPTION 3** is on the table, awaiting his ruling:
+> - **3a** = one more mechanism-matched solver idea — a **DEPTH-STIFFNESS HOMOTOPY** ramping core depth
+>   shallow→physical (untried; directly targets the diagnosed wall; cheap).
+> - **3b** = pivot to the **ω≠0 REFRAME** (Charles's founding φ-angular hunch; static concentric A0 may be
+>   the wrong frame; the pre-named escape — see D4, §5).
+> - **checkpoint** = bank the day, pick fresh.
+> Driver lean: 3a once, 3b strongly queued if it fails — **but the frame call is HIS** (trap #10). The
+> **J(s)-vs-data** confrontation (§3 R2) is frame-robust and proceeds ANYTIME, independent of this fork.
+
 ## 1. Where the project stands (one paragraph, lay)
 
 The universe cell is SOLVED: a finite sealed domain that closes only on an integer ladder
@@ -35,6 +48,12 @@ structurally and observably. That fork is the current pivot.
 | D2a: universe interior ALL-P; thin strong-P shell holds 99% of q (last ~0.04–0.14% of radius) | d2a_switch_criterion_interior.md |
 | D2b: T-G1 (no G-vacuum self-closure, route-robust) + T-G2 (emergence mechanism P-ONLY) | d2b_no_structure_in_G.md |
 | D2c: corrected Route-B EOMs; banked fold values + E_ang(core)=2 route-robust; Route-A G|P closes nowhere (Z>0); flat FAILS Route-B G | d2c_gp_composite_conditions.md |
+| **R1: route fork = FREE-ON-A-SHEET (Z_φ,μ); the ONE observable = s = 2μ/Z (vacuum-deformation exponent); mixing term = kinetic-level φ-angular coupling** (40294ef; verifier a31db58f300da6011 8/8) | r1_route_fork_native_derivation.md |
+| **R2: s=2μ/Z the ONE gauge-invariant vacuum observable; J(s) light-deflection = the frame-ROBUST confrontation lever (J(0)=π, J(½)=4, O(s)); rotation-law v²=s premise-conditional; ĝ-as-physical = reductio** (3515f62; verifier a82dd36ef191768dd) | r2_prereg_s_dependence.md |
+| S²-defect CONDITIONS-CHANGED re-grade: native S²/π₂ carrier + no-worldline-law = clean-current; scale-free superseded (L4 size); stability + matter-as-field STILL-OPEN; frame fork stays open (e3ec6b0; verifier aa3af5a01f70aa096) | regrade_S2_defect_2026-07-04.md |
+| E2c: optimizer hardened — 0/256 cause = translation-gauge; Ruiz equilibration + Powell dogleg; `lm_hardened` certified from boundary offsets ≥30 (NO physics moved) (c68d65d; verifier ab6305ce222eee961) | microphysics_E2c_optimizer_hardening_results.md |
+| E2d: continuation+multistart driver certifies boundary ≥30 + u-axis; combined-cell field axis uncertified (component separation, verifier-scoped; grid homotopy bridges some ⇒ path exists) (92af4e2; verifier a5e1960b6f90b4686) | microphysics_E2d_resweep_A1Z8_results.md |
+| E2e: physics-informed seed controls the boundary runaway but the wall = EXTREME DEPTH-STIFFNESS (not seed distance); scoped A1Z8 sweep NULL ⇒ embedded-cell existence UNDECIDED, tool-limited (ba31693; verifier a0205204484a1d48c) | microphysics_E2e_physinformed_seed_results.md |
 
 ## 3. FORK 3 — THE ROUTE FORK (the emphasized pursuit)
 
@@ -111,10 +130,21 @@ native field equations — absent from the CARRY table; cheap; a good warm-up ta
   driver = `lm_hardened` in `cell_solver_composite.py` (lm_qr + pure-universe left byte-identical).
   Residual FIELD-AXIS wall = intrinsic local-NLLS minima ⇒ the re-sweep needs MULTI-START +
   CONTINUATION; non-convergence reads "not found from these seeds," NEVER "does not exist" (trap #1).
-- **E2d = THE GATED RE-SWEEP (the owed next step):** build a continuation/homotopy driver (coarse→fine
-  grid or stiffness homotopy) on `lm_hardened`, multi-start; re-run the E2 embedded-particle sweep. THIS
-  is what makes existence decidable. Still concentric round-static Branch-P (A0), or the surviving frame.
-- **D4 ω≠0 stationary internal rotation** (Nψ→Nψ+ωt): Charles's founding φ-angular hunch; the
+- **E2d — DONE, BANKED, blind-verified (2026-07-04, commit 92af4e2; verifier a5e1960b6f90b4686; physics
+  untouched-to-exact-zero).** The continuation+multistart driver `e2d_continuation_driver.py` (wraps
+  byte-identical `lm_hardened`) certifies boundary offsets ≥30 + the deviation-field (u) axis ~0.3, but the
+  COMBINED-CELL field axis is UNCERTIFIED along Newton/fp homotopy = COMPONENT SEPARATION (verifier-SCOPED
+  to those homotopy families, NOT absolute — grid homotopy bridges some ⇒ a connecting path EXISTS). The
+  real sweep was GATED OUT (honest STOP). `microphysics_E2d_resweep_A1Z8_results.md`.
+- **E2e — DONE, BANKED, blind-verified (2026-07-04, commit ba31693; verifier a0205204484a1d48c; physics
+  byte-identical to HEAD).** The DERIVED-core physics-informed seed (even fold + E_ang(core)=2, canon
+  C-2026-07-03-3) CONTROLS the boundary runaway (r_p O(100–2000) vs flat O(1e7)) but does NOT crack the
+  combined-cell wall; scoped A1Z8 sweep = NULL (8/8, both seed families). **KEY: the wall = EXTREME
+  DEPTH-STIFFNESS** (residual 16.9 at field-distance 0.1, folds at s~9e-4), NOT seed distance ⇒
+  embedded-cell existence UNDECIDED (tool-limited; trap-#1 scoped). Three verified rounds (E2c/E2d/E2e)
+  localize the SAME wall. `microphysics_E2e_physinformed_seed_results.md`. **⇒ this is what put Charles's
+  OPTION-3 decision (top banner: 3a depth-homotopy / 3b ω≠0 / checkpoint) on the table.**
+- **D4 ω≠0 stationary internal rotation** (Nψ→Nψ+ωt): Charles's founding φ-angular hunch (option 3b above); the
   e^{2φ}-weighted frequency is the derived one-sided coupling; enter via a MAP, after the route
   fork is settled enough to know which action to rotate in.
 

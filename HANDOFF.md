@@ -3,7 +3,64 @@
 > **READ `LIVE.md` FIRST** — it is the short, only-guaranteed-current file (frontier + next action).
 > This HANDOFF is the detailed record; if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
 > **MODEL HANDOVER 2026-07-04: the successor driver's orientation = `PURSUIT_CHARTER_2026-07-04.md`
-> (read after LIVE TOPMOST — treasure list, FORK 3 route-fork program R1–R4, the ten known traps).**
+> (read after LIVE TOPMOST — treasure list, FORK 3 route-fork program R1–R4, the eleven known traps).**
+
+## SESSION RECORD 2026-07-04 (Opus — route fork R1/R2 → S²-regrade → E2c/E2d/E2e optimizer arc; PENDING = Charles's option-3 decision)
+
+First session after Fable's model handover (the charter was written at that handover). Charles directed
+step-by-step; every result was committed + blind-verified before the next began. Arc, in order:
+1. **R1 — route-fork native derivation** (commit **40294ef**; verifier **a31db58f300da6011** 8/8 + 3
+   sharpenings). **VERDICT = FREE-ON-A-SHEET:** the forcing rule pins WEIGHTS, never coefficients; the
+   fork is the TWO-PARAMETER SHEET (Z_φ, μ) — Route A = the μ=0 edge (Z free), Route B = the single point
+   (8,2) conditional on 2 unforced CHOSEs (single-curvature-origin + c_L=1). **The ONE observable = s = 2μ/Z**
+   (vacuum-deformation exponent; A:0, B:½; clocks in μ≠0 vacuum slaved to areal radius, e^{−2φ} ∝ ρ^{2s};
+   observability EXACT). The mixing term IS a kinetic-level φ-angular coupling (areal growth drags depth —
+   the founding hunch, in the action). `r1_route_fork_native_derivation.md`.
+2. **R2 — s-dependence pre-registration + the FRAME FORK** (commit **3515f62**; verifier **a82dd36ef191768dd**,
+   26/26, corrected 2 over-reaches; reframe BLESSED by Charles). BANKED: s=2μ/Z = the ONE gauge-invariant
+   vacuum observable; **J(s) light-deflection = the frame-ROBUST confrontation lever** (J(0)=π, J(½)=4, O(s)
+   impact-parameter-independent; a bound s_max<½ kills Route B but not small-μ = NOT binary). The rotation-law
+   v²=s = PREMISE-CONDITIONAL (lives under g, killed only by the observationally-DEAD ĝ branch — NOT an
+   artifact). **ĝ-as-physical = REDUCTIO** (zero gravitational redshift vs GPS + zero orbits). ⇒ THE FRAME
+   FORK (which metric matter couples to; is matter-in-motion a worldline). `r2_prereg_s_dependence.md`.
+3. **S²-defect CONDITIONS-CHANGED re-grade** (commit **e3ec6b0**; verifier **aa3af5a01f70aa096**) —
+   triggered after Charles caught the driver leaning on the pre-field-equations S²-defect discovery
+   (2026-06-22, predates the native field equations 2026-07-01) without re-grading. Verdicts: A(S³=imported
+   provenance) + B(native S²/π₂ carrier) + D-negative(S13c: no R1-invariant worldline law) = CLEAN-CURRENT;
+   C-"scale-free" SUPERSEDED (L4 size √(κ/ξ)); C-stability + D-positive(matter-in-motion IS a field w/
+   dynamics) = STILL-OPEN, awaits the emergence program. The R2 frame fork stays OPEN; the point-particle-
+   worldline branch is UNDERCUT (leans matter-in-MOTION toward a field/defect-SOLUTION) but NO positive
+   verdict + does NOT select g vs ĝ. `regrade_S2_defect_2026-07-04.md` + NEGATIVES_REGISTRY entry. Discipline
+   reinforced: charter trap #11 + memory [[dont-lean-on-conditions-changed-until-regraded]].
+4. **E2c — optimizer hardening** (commit **c68d65d**; builder a366c26d, verifier **ab6305ce222eee961**;
+   **NO PHYSICS MOVED** — git diff insertions-only, residual byte-identical). The E2 0/256-undecided cause
+   was a near-EXACT TRANSLATION GAUGE of the boundary pair (ambient r-autonomy, cos=−1.000000); FIXED via
+   Ruiz two-sided equilibration (cond 5.7e11→1.9e7) + Powell dogleg trust region; certified converging from
+   boundary offsets ≥30 to ~5e-9 on 2 MMS (incl. a bulged one). Hardened driver = `lm_hardened` in
+   `cell_solver_composite.py`. `microphysics_E2c_optimizer_hardening_results.md`.
+5. **E2d — continuation+multistart driver** (commit **92af4e2**; builder adfcf1eea, verifier
+   **a5e1960b6f90b4686**; physics untouched to EXACT zero). `e2d_continuation_driver.py` certifies boundary
+   ≥30 + the deviation-field (u) axis ~0.3; combined-cell field axis UNCERTIFIED along Newton/fp homotopy =
+   COMPONENT SEPARATION (verifier-SCOPED to those homotopy families, NOT absolute — grid homotopy bridges
+   some ⇒ a connecting path EXISTS). Real sweep GATED OUT (honest STOP). `microphysics_E2d_resweep_A1Z8_results.md`.
+6. **E2e — physics-informed seed** (commit **ba31693**; verifier **a0205204484a1d48c**; physics
+   byte-identical to HEAD). The DERIVED-core seed (even fold + E_ang(core)=2, canon C-2026-07-03-3) CONTROLS
+   the boundary runaway (phys r_p bounded O(100–2000) vs flat O(1e7)) but does NOT crack the combined-cell
+   wall. Certification FAILED + scoped A1Z8 sweep = NULL (candidates:[], 8/8 coverage, both seed families).
+   **KEY FINDING: the combined-cell wall = EXTREME DEPTH-STIFFNESS** (residual 16.9 at field-distance 0.1,
+   homotopy folds at s~9e-4) — NOT seed distance. ⇒ EXISTENCE of static concentric A0 embedded cells UNDECIDED
+   (tool-limited; trap-#1 scoped: "not found from these seeds," NEVER "does not exist"). Three verified solver
+   rounds (E2c/E2d/E2e) localize the SAME depth-stiffness wall. `microphysics_E2e_physinformed_seed_results.md`.
+
+**PENDING = Charles's option-3 decision (presented 2026-07-04, AWAITING his call — THE next action):**
+**3a** = one more mechanism-matched solver idea (a DEPTH-STIFFNESS HOMOTOPY ramping core depth
+shallow→physical, untried, directly targets the diagnosed wall; cheap) · **3b** = pivot to the **ω≠0
+REFRAME** (Charles's founding φ-angular hunch; static concentric A0 may be the wrong frame; the pre-named
+escape) · **checkpoint** = bank the day, pick fresh. Driver lean: 3a once, 3b strongly queued if it fails —
+but the frame call is HIS. **Standing owed (unchanged):** J(s)-vs-data (frame-robust, proceeds ANYTIME);
+Charles's R1 flag (adopt single-curvature-origin premise? driver lean = decline); photon/EM-native re-grade
+(#47-pos/#50); R3 = Route-B universe cell; D4 = ω≠0; the other 5 D2 forks (charter §4); Bin-2 registry
+re-grades at point of use. **Durable win:** s=2μ/Z + J(s) light-deflection stand frame-independent.
 
 ## SESSION RECORD 2026-07-03 → 07-04 (rulings → Stage-D → microphysics re-entry → D1/D2; Fable's closing session)
 

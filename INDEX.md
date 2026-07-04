@@ -1,4 +1,4 @@
-# INDEX — Repo Map (frontier refreshed 2026-07-03 — universe cell SOLVED; integer-ladder spectrum + derived laws; stability filter live; see LIVE.md TOPMOST, authoritative)
+# INDEX — Repo Map (frontier refreshed 2026-07-04 — universe cell SOLVED; route fork R1/R2 discharged + E2c/d/e optimizer arc; PENDING = Charles's option-3 call; see LIVE.md TOPMOST, authoritative)
 
 Navigable map of `udt_mass_codex`. **Structure (post-2026-07-01 consolidation):**
 - **root — LEAN:** the 17-module test-import solver closure (the OLD wrong-frame static solver — kept only because
@@ -30,17 +30,24 @@ discipline skills → `HANDOFF.md` TOP (current activity) → `CANON.md` / `NEGA
 → this INDEX → the specific records. The file-immutability rule is **REPEALED** (Charles 2026-06-24): use git
 as git — edit in place, roll back via history.
 
-**CURRENT FRONTIER (2026-07-04, model handover — LIVE.md TOPMOST + PURSUIT_CHARTER_2026-07-04.md are
-authoritative, read them first):** universe cell SOLVED (flux-sealed; integer ladder N=0..22 family-universal;
-spectrum LAWS derived; **Stage-D blind-predicted 13/13 unseen rungs — PREDICTION-GRADE**); fundamentals STABLE,
-universe = the N=0 ground state (canon C-2026-07-03-1/-2; core = even fold at finite depth, C-2026-07-03-3).
-Microphysics re-entry: particles = embedded cells in the REAL universe; E2 swept 0/256 but the MMS gauntlet
-proved the optimizer too weak ⇒ **existence UNDECIDED** (E2c gates all sweeps). D1: N=3 + algebra +
-structural-i = native cargo; q=1/3/η=1/18 = imports → targets. D2 theorems: emergence mechanism P-ONLY;
-no G-vacuum self-closure; interior all-P; Route-A G|P closes nowhere — **THE ROUTE FORK (A vs B) = the pivot**
-(Charles's emphasized fork 3; program R1–R4 in the charter). Docs: `universe_cell_*`, `ladder_*`, `cascade_*`,
-`stability_*`, `microphysics_*`, `d1_*`, `d2*`, `twin_ladder_involution_results.md`,
-`negatives_premise_sweep_2026-07-03.md`.
+**CURRENT FRONTIER (2026-07-04 EOD — LIVE.md TOPMOST + PURSUIT_CHARTER_2026-07-04.md are authoritative,
+read them first; the ★ PENDING = Charles's OPTION-3 call — do NOT proceed without it):** universe cell
+SOLVED (flux-sealed; integer ladder N=0..22 family-universal; spectrum LAWS derived; **Stage-D blind-predicted
+13/13 unseen rungs — PREDICTION-GRADE**); fundamentals STABLE, universe = the N=0 ground state (canon
+C-2026-07-03-1/-2; core = even fold at finite depth, C-2026-07-03-3). D1: N=3 + algebra + structural-i =
+native cargo; q=1/3/η=1/18 = imports → targets. D2 theorems: emergence mechanism P-ONLY; no G-vacuum
+self-closure; interior all-P; Route-A G|P closes nowhere — **THE ROUTE FORK (A vs B) = the pivot** (Charles's
+emphasized fork 3). **The 2026-07-04 Opus session discharged R1 (route fork = FREE-ON-A-SHEET; the ONE
+observable = s=2μ/Z) + R2 (J(s) light-deflection = the frame-ROBUST lever; ĝ = reductio), re-graded the
+S²-defect (native S²/π₂ clean-current; worldline branch undercut), and ran the E2c/E2d/E2e optimizer arc down
+to a single diagnosed wall = EXTREME DEPTH-STIFFNESS ⇒ embedded-cell existence UNDECIDED (tool-limited).**
+Docs: `universe_cell_*`, `ladder_*`, `cascade_*`, `stability_*`, `microphysics_*` (incl.
+`microphysics_E2c_optimizer_hardening_results.md`, `microphysics_E2d_resweep_A1Z8_results.md`,
+`microphysics_E2e_physinformed_seed_results.md`), `r1_route_fork_native_derivation.md`,
+`r2_prereg_s_dependence.md`, `regrade_S2_defect_2026-07-04.md`, `d1_*`, `d2*`,
+`twin_ladder_involution_results.md`, `negatives_premise_sweep_2026-07-03.md`. Scripts (root): the hardened
+solver `cell_solver_composite.py` (`lm_hardened`) + `e2d_continuation_driver.py`; the CAS/BV/MMS runners
+`r1_bv_*`/`r1_route_fork_cas.py`, `r2_*_cas.py`/`r2_bv_verify.py`, `e2c_*`, `e2d_*`, `e2e_*`.
 **Prior arcs → archive/**: `LIVE_universe_cell_ladder_arc_2026-07-02.md` (the universe-cell/ladder updates);
 `LIVE_native_frame_round_static_2026-07-01.md` (native-frame foundation — still valid, canonical record = the 5
 native-frame docs); `LIVE_basin_D1_galerkin_arc_2026-06-30.md`; older trackers in `archive/`. Old p1 solver

@@ -24,82 +24,76 @@ CURRENT STATE block wins.**
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-04 — model handover; READ THIS + THE CHARTER) ============
+## ============ CURRENT STATE (2026-07-04 — route fork R1/R2 + E2c/d/e optimizer arc DONE; PENDING = Charles's option-3 call) ============
+
+**➤ THE NEXT ACTION IS CHARLES'S OPTION-3 DECISION — DO NOT PROCEED WITHOUT HIS CALL.**
+Presented 2026-07-04 after three verified solver rounds each localized the SAME depth-stiffness wall
+(embedded-cell existence UNDECIDED, tool-limited). His fork:
+- **3a** = one more mechanism-matched solver idea — a DEPTH-STIFFNESS HOMOTOPY ramping core depth
+  shallow→physical (untried; directly targets the diagnosed wall; cheap).
+- **3b** = pivot to the **ω≠0 REFRAME** (Charles's founding φ-angular hunch; static concentric A0
+  may be the wrong frame; the pre-named escape).
+- **checkpoint** = bank the day, pick fresh.
+Driver lean: 3a once (cheap, mechanism-matched), 3b strongly queued if it fails — **but the FRAME
+CALL IS HIS** (charter trap #10; [[decide-with-charles-not-forge-ahead]]).
+**J(s)-vs-data proceeds ANYTIME** (frame-robust, independent of the option-3 call — see below).
+
 **THE ORIENTATION FOR THE NEXT DRIVER = `PURSUIT_CHARTER_2026-07-04.md`** (read it SECOND, right
 after this block): the treasure list, FORK 3 (the route fork) with its R1–R4 decision program,
-Charles's pending forks, the other paths (E2c optimizer gauntlet, D4 ω≠0), and the ten known traps.
+Charles's pending forks, the other paths, and the eleven known traps.
 
 **State in one paragraph:** universe cell SOLVED (integer ladder N=0..22; laws derived; Stage-D
 blind-predicted 13/13 unseen rungs; fundamentals stable; universe = N=0 ground state — canon
-C-2026-07-03-1/-2/-3). Microphysics re-entry: particles = embedded cells in the REAL universe;
-E2 swept 0/256 but the verifier proved the optimizer too weak (radius ~1e-3) ⇒ **existence
-UNDECIDED** — any future sweep needs the MMS-certified optimizer (E2c). D1: N=3 + the 1+3+5
-algebra + structural-i = true native cargo; q=1/3, η=1/18 = imports → targets. D2 (theorems):
-the mass-emergence MECHANISM is P-ONLY (T-G2); no G-vacuum self-closure (T-G1, route-robust);
-universe interior is ALL-P (thin shell holds 99% of q); Route-A G|P architecture closes nowhere
-— **the ROUTE FORK (A vs B) is now PHYSICS and the pivot** (corrected Route-B EOMs banked;
-banked fold values + E_ang(core)=2 route-robust VERIFIED; flat FAILS Route-B G = macro lever).
+C-2026-07-03-1/-2/-3). Microphysics re-entry: particles = embedded cells in the REAL universe.
+D1: N=3 + the 1+3+5 algebra + structural-i = true native cargo; q=1/3, η=1/18 = imports → targets.
+D2 (theorems): the mass-emergence MECHANISM is P-ONLY (T-G2); no G-vacuum self-closure (T-G1,
+route-robust); universe interior is ALL-P (thin shell holds 99% of q); Route-A G|P architecture
+closes nowhere — **the ROUTE FORK (A vs B) is now PHYSICS and the pivot**. The 2026-07-04 Opus
+session discharged R1+R2 of the route fork and ran the E2c/d/e optimizer arc down to the wall.
 
-**LIVE NEXT: (1) FORK 3 UPDATE — R1 DONE, BANKED blind-verified (40294ef): verdict = FREE-ON-A-SHEET
-(the fork = the (Z_φ,μ) sheet; Route A = μ=0 edge, Route B = the point (8,2) on 2 CHOSEs; the ONE
-observable = s = 2μ/Z, the vacuum-deformation exponent — observability EXACT; the mixing term = a
-kinetic-level φ-angular coupling). **NEXT = R2 (reframed): BOUND s against the macro constraints —
-pre-register the s-dependence of each observable FIRST (data-blind), then confront** (charter §3).
-**R2 DONE + BANKED, blind-verified (`r2_prereg_s_dependence.md`, commit 3515f62; reframe BLESSED by
-Charles; verifier a82dd36ef191768dd 26/26, corrected 2 over-reaches). BANKED: s=2μ/Z = the ONE
-gauge-invariant vacuum observable; J(s) light-deflection = the frame-ROBUST confrontation lever
-(J(0)=π, J(½)=4, O(s) impact-parameter-independent; a bound s_max<½ kills Route B but not small-μ =
-NOT binary); ∝s structural levers (realizability caveats). The rotation-law v²=s = PREMISE-CONDITIONAL
-(lives under g, killed only by the observationally-DEAD ĝ branch — NOT an artifact, NOT banked).
-⇒ THE FRAME FORK (which metric matter couples to; is matter-in-motion a worldline). ĝ-as-physical REFUTED
-(reductio: zero redshift vs GPS + zero orbits). **RESOLVED-AS-FAR-AS-DERIVATION-ALLOWS (2026-07-04, after
-Charles caught a stale-rung lean): the S²-defect discovery was RE-GRADED under the native foundation
-(`regrade_S2_defect_2026-07-04.md`, verifier aa3af5a01f70aa096; registry updated). Outcome: the
-point-particle-WORLDLINE branch is UNDERCUT clean-current (S13c: no R1-invariant worldline law) ⇒ leans
-matter-in-MOTION toward a field/defect-SOLUTION description — but NO positive verdict, and it does NOT
-select g vs ĝ. The decisive positive content (does the native S² winding form a stable object; how it MOVES
-as a field) is STILL-OPEN, and lives INSIDE THE EMERGENCE PROGRAM (E2c existence → D4 native moving-field
-solve) — NOT a macro frame-pick.** So the frame fork is NOT a standalone Charles-ruling; it folds back into
-the emergence program. What stands frame-independent: s=2μ/Z + J(s) light-deflection as the measurable
-lever.
-**E2c OPTIMIZER HARDENING DONE + BANKED, blind-verified (2026-07-04, commit c68d65d;
-`microphysics_E2c_optimizer_hardening_results.md`; builder a366c26d, verifier ab6305ce222eee961 —
-NO PHYSICS MOVED: git diff insertions-only, residual byte-identical, root-preservation re-derived).
-The 0/256-undecided cause was a near-EXACT TRANSLATION GAUGE of the boundary pair (ambient r-autonomy;
-cos=−1.000000) — FIXED via Ruiz two-sided equilibration (cond 5.7e11→1.9e7) + Powell dogleg trust region;
-CERTIFIED converging from boundary offsets ≥30 (3× spec) to ~5e-9 on 2 MMS (incl. a bulged one). Residual
-FIELD-AXIS wall = intrinsic local-NLLS minima (multiple globalizations all stall short) ⇒ the re-sweep
-needs MULTI-START + CONTINUATION, and non-convergence reads "not found from these seeds," NEVER
-"does not exist" (charter trap #1). Solver is READY for the gated re-sweep.**
-**E2d DONE + BANKED, blind-verified (2026-07-04, commit 92af4e2; `microphysics_E2d_resweep_A1Z8_results.md`;
-builder adfcf1eea, verifier a5e1960b6f90b4686 — physics untouched to EXACT zero). The continuation+multistart
-driver (`e2d_continuation_driver.py`, wraps byte-identical lm_hardened) certifies boundary offsets ≥30 +
-the deviation-field (u) axis to ~0.3 (NEW), but the COMBINED-CELL field axis (the flat core φ_c/ρ_c of a real
-seed) is UNCERTIFIED along Newton/fp homotopy = COMPONENT SEPARATION — verifier-SCOPED to those homotopy
-families, NOT absolute: GRID HOMOTOPY bridges some of the same distances ⇒ a CONNECTING PATH EXISTS. The real
-sweep was GATED OUT (honest STOP — don't sweep an uncertified tool; defensible but the verifier judged it
-mildly over-cautious: a scoped sweep reading nulls as "not found from these seeds" would also be legitimate).
-**E2e DONE + BANKED, blind-verified (2026-07-04, commit ba31693; `microphysics_E2e_physinformed_seed_results.md`;
-verifier a0205204484a1d48c — physics byte-identical to HEAD). The PHYSICS-INFORMED SEED (derived even-fold core
-+ E_ang(core)=2, canon C-2026-07-03-3) CONTROLS the boundary runaway (phys r_p bounded O(100–2000) vs flat's
-runaway O(1e7)) but does NOT crack the combined-cell wall. Certification FAILED + scoped A1Z8 sweep = NULL
-(candidates:[], 8/8 coverage, both seed families). KEY: the wall is EXTREME DEPTH-STIFFNESS — residual 16.9 at
-field-distance 0.1, homotopy folds at s~9e-4 — NOT seed distance; starting closer doesn't help. ⇒ EXISTENCE
-of static concentric A0 embedded cells UNDECIDED (tool-limited, trap-#1 scoped: "not found from these seeds,"
-NEVER "does not exist"). Three verified solver rounds (E2c gauge-fix / E2d continuation / E2e phys-seed) each
-localize the SAME depth-stiffness wall.**
-**⇒ THE OPTION-3 DECISION IS CHARLES'S (presented 2026-07-04, awaiting his call): 3a = one more mechanism-
-matched solver idea (a DEPTH-STIFFNESS HOMOTOPY ramping core depth shallow→physical, untried, directly targets
-the diagnosed wall) vs 3b = pivot to the ω≠0 REFRAME (his founding φ-angular hunch, the pre-named escape —
-static concentric A0 may be the wrong frame) vs checkpoint/pause. Driver lean: 3a once (cheap, mechanism-
-matched), 3b strongly queued if it fails — but the frame call is his.**
-J(s)-vs-data proceeds anytime (frame-robust, independent of this).
-Charles's two R1 flags: single-curvature-origin premise? (his lean: decline); R2 reframe = BLESSED. Other
-five forks pending (charter §4). Standing owed: photon/EM re-grade; D4 ω≠0 after existence; R3 = Route-B
-universe cell (well-posed across the sheet).
-Charles ruled: destruction/black-holes PARKED post-emergence.**
+**The 2026-07-04 Opus arc (all banked, all blind-verified — one line each; full layered detail =
+`archive/LIVE_route_fork_E2_arc_2026-07-04.md`):**
+- **R1** (40294ef; verifier a31db58f300da6011 8/8): route fork = **FREE-ON-A-SHEET** — the (Z_φ,μ)
+  sheet (Route A = μ=0 edge, Route B = the point (8,2) on 2 unforced CHOSEs); the ONE observable =
+  **s = 2μ/Z** (vacuum-deformation exponent; observability EXACT); the mixing term = a kinetic-level
+  φ-angular coupling (areal growth drags depth — the founding hunch in the action). `r1_route_fork_native_derivation.md`.
+- **R2** (3515f62; verifier a82dd36ef191768dd): **J(s) light-deflection = the frame-ROBUST
+  confrontation lever** (J(0)=π, J(½)=4, O(s) impact-parameter-independent; s_max<½ kills Route B
+  but not small-μ = NOT binary); rotation-law v²=s = PREMISE-CONDITIONAL (under g; ĝ-as-physical =
+  REDUCTIO — zero redshift vs GPS + zero orbits) ⇒ THE FRAME FORK. `r2_prereg_s_dependence.md`.
+- **S²-defect re-grade** (e3ec6b0; verifier aa3af5a01f70aa096): A(S³ import) + B(native S²/π₂
+  carrier) + D-neg(no R1-invariant worldline law) = CLEAN-CURRENT; C-"scale-free" SUPERSEDED (L4
+  size √(κ/ξ)); C-stability + D-pos = STILL-OPEN inside the emergence program. Frame fork stays
+  OPEN; worldline branch UNDERCUT (leans matter-in-MOTION toward a field/defect-SOLUTION) but NO
+  positive verdict + does NOT select g vs ĝ. (Trigger: trap #11 — don't lean on pre-native-field-eq
+  work until re-graded.) `regrade_S2_defect_2026-07-04.md`.
+- **E2c** optimizer hardening (c68d65d; verifier ab6305ce222eee961; **NO PHYSICS MOVED** —
+  insertions-only, residual byte-identical): 0/256-undecided cause = near-EXACT TRANSLATION GAUGE
+  (cos=−1.000000); FIXED via Ruiz two-sided equilibration (cond 5.7e11→1.9e7) + Powell dogleg;
+  hardened driver = `lm_hardened` in `cell_solver_composite.py`; certified from boundary offsets ≥30.
+  `microphysics_E2c_optimizer_hardening_results.md`.
+- **E2d** continuation+multistart (92af4e2; verifier a5e1960b6f90b4686; physics untouched-to-exact-
+  zero): driver `e2d_continuation_driver.py` certifies boundary ≥30 + u-axis ~0.3; combined-cell
+  field axis UNCERTIFIED along Newton/fp homotopy = COMPONENT SEPARATION (verifier-SCOPED, NOT
+  absolute — grid homotopy bridges some ⇒ a connecting path EXISTS); real sweep GATED OUT (honest
+  STOP). `microphysics_E2d_resweep_A1Z8_results.md`.
+- **E2e** physics-informed seed (ba31693; verifier a0205204484a1d48c; physics byte-identical to
+  HEAD): the DERIVED-core seed (even fold + E_ang(core)=2, canon C-2026-07-03-3) CONTROLS the
+  boundary runaway (r_p O(100–2000) vs flat O(1e7)) but does NOT crack the combined-cell wall;
+  scoped A1Z8 sweep = NULL (8/8, both seed families). **KEY: the wall = EXTREME DEPTH-STIFFNESS**
+  (residual 16.9 at field-distance 0.1, folds at s~9e-4), NOT seed distance ⇒ EXISTENCE of static
+  concentric A0 embedded cells UNDECIDED (tool-limited; trap-#1 scoped: "not found from these seeds,"
+  NEVER "does not exist"). `microphysics_E2e_physinformed_seed_results.md`.
 
-Session record: HANDOFF.md TOP. Arc detail: `archive/LIVE_stability_stageD_microphysics_arc_2026-07-03_04.md`.
+**What stands frame-independent (the durable R1/R2 win):** s = 2μ/Z + J(s) light-deflection as the
+measurable vacuum lever. **Standing owed:** J(s)-vs-data (frame-robust, anytime); Charles's R1 flag
+(adopt single-curvature-origin premise? driver lean = decline); photon/EM-native re-grade (#47-pos/
+#50); R3 = Route-B universe cell (does the ladder survive Route B? well-posed across the sheet); D4 =
+ω≠0; the other 5 D2 forks (charter §4); Bin-2 registry re-grades at point of use.
+Charles ruled: destruction/black-holes PARKED post-emergence.
+
+Session record: HANDOFF.md TOP. Arc detail: `archive/LIVE_route_fork_E2_arc_2026-07-04.md` (this arc) +
+`archive/LIVE_stability_stageD_microphysics_arc_2026-07-03_04.md` (the prior arc).
 
 ### ↓↓↓ HISTORICAL — the 2026-07-02 universe-cell/ladder arc layered updates ARCHIVED 2026-07-03 →
 ### `archive/LIVE_universe_cell_ladder_arc_2026-07-02.md` (canonical records = the results docs; this file's
