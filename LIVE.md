@@ -61,11 +61,22 @@ select g vs ĝ. The decisive positive content (does the native S² winding form 
 as a field) is STILL-OPEN, and lives INSIDE THE EMERGENCE PROGRAM (E2c existence → D4 native moving-field
 solve) — NOT a macro frame-pick.** So the frame fork is NOT a standalone Charles-ruling; it folds back into
 the emergence program. What stands frame-independent: s=2μ/Z + J(s) light-deflection as the measurable
-lever. NEXT: the emergence program is the main line again (E2c optimizer gauntlet → existence → D4);
-J(s)-vs-data (bound s) can proceed anytime as the one frame-robust confrontation.**
-Charles's two R1 flags: single-curvature-origin premise? (his lean: decline); R2 reframe = BLESSED. (2) The other
-five forks pending (charter §4). (3) Standing owed: photon/EM re-grade; E2c optimizer gauntlet before
-ANY sweep; D4 ω≠0 after the route fork; R3 = Route-B universe cell (well-posed across the sheet).
+lever.
+**E2c OPTIMIZER HARDENING DONE + BANKED, blind-verified (2026-07-04, commit c68d65d;
+`microphysics_E2c_optimizer_hardening_results.md`; builder a366c26d, verifier ab6305ce222eee961 —
+NO PHYSICS MOVED: git diff insertions-only, residual byte-identical, root-preservation re-derived).
+The 0/256-undecided cause was a near-EXACT TRANSLATION GAUGE of the boundary pair (ambient r-autonomy;
+cos=−1.000000) — FIXED via Ruiz two-sided equilibration (cond 5.7e11→1.9e7) + Powell dogleg trust region;
+CERTIFIED converging from boundary offsets ≥30 (3× spec) to ~5e-9 on 2 MMS (incl. a bulged one). Residual
+FIELD-AXIS wall = intrinsic local-NLLS minima (multiple globalizations all stall short) ⇒ the re-sweep
+needs MULTI-START + CONTINUATION, and non-convergence reads "not found from these seeds," NEVER
+"does not exist" (charter trap #1). Solver is READY for the gated re-sweep.**
+NEXT: **E2d = the gated multi-start + continuation RE-SWEEP** (build the continuation driver on lm_hardened;
+coarse→fine grid / stiffness homotopy) → the embedded-particle EXISTENCE question becomes decidable → then
+D4. J(s)-vs-data (bound s) proceeds anytime as the one frame-robust confrontation.
+Charles's two R1 flags: single-curvature-origin premise? (his lean: decline); R2 reframe = BLESSED. Other
+five forks pending (charter §4). Standing owed: photon/EM re-grade; D4 ω≠0 after existence; R3 = Route-B
+universe cell (well-posed across the sheet).
 Charles ruled: destruction/black-holes PARKED post-emergence.**
 
 Session record: HANDOFF.md TOP. Arc detail: `archive/LIVE_stability_stageD_microphysics_arc_2026-07-03_04.md`.

@@ -103,11 +103,17 @@ native field equations — absent from the CARRY table; cheap; a good warm-up ta
 
 ## 5. The other paths (valid regardless of fork 3)
 
-- **E2c OPTIMIZER HARDENING (gates ALL sweeps of ANY frame):** globalization/deflation/
-  extended-precision/explicit soft-direction (dilation-slide) handling. CERTIFICATION = the
-  manufactured-solution (MMS) gauntlet from seed-class distances (O(0.3–1.5) in field norm) to
-  max|F|≤1e-8 at production grids — the harness pattern is in microphysics_E2_bv_mms.py. No
-  sweep result means anything until an optimizer passes this.
+- **E2c OPTIMIZER HARDENING — DONE, BANKED, blind-verified (2026-07-04, commit c68d65d;
+  `microphysics_E2c_optimizer_hardening_results.md`; no physics moved — git diff insertions-only).**
+  The 0/256-undecided cause = a near-exact TRANSLATION GAUGE of the boundary pair (ambient r-autonomy,
+  cos=−1.000000); FIXED via Ruiz two-sided equilibration (cond 5.7e11→1.9e7) + Powell dogleg trust
+  region; certified converging from boundary offsets ≥30 to ~5e-9 on 2 MMS (incl. bulged). Hardened
+  driver = `lm_hardened` in `cell_solver_composite.py` (lm_qr + pure-universe left byte-identical).
+  Residual FIELD-AXIS wall = intrinsic local-NLLS minima ⇒ the re-sweep needs MULTI-START +
+  CONTINUATION; non-convergence reads "not found from these seeds," NEVER "does not exist" (trap #1).
+- **E2d = THE GATED RE-SWEEP (the owed next step):** build a continuation/homotopy driver (coarse→fine
+  grid or stiffness homotopy) on `lm_hardened`, multi-start; re-run the E2 embedded-particle sweep. THIS
+  is what makes existence decidable. Still concentric round-static Branch-P (A0), or the surviving frame.
 - **D4 ω≠0 stationary internal rotation** (Nψ→Nψ+ωt): Charles's founding φ-angular hunch; the
   e^{2φ}-weighted frequency is the derived one-sided coupling; enter via a MAP, after the route
   fork is settled enough to know which action to rotate in.
