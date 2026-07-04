@@ -3,8 +3,9 @@
 **Date:** 2026-07-03. **Stage:** E1 of `microphysics_reentry_miniMAP.md` (pre-registered; cheap
 analytic/probe pass ONLY — no BVP solves run). **Scripts:** `microphysics_E1_composite_conditions.py`
 (sympy, 24/24 PASS) + `microphysics_E1_probe_pass.py` (numeric probes on the blind-verified E0
-tables; output `microphysics_E1_probe_results.json`). **Status: DERIVED + PROBED, PRE-VERIFIER —
-provisional until the blind adversarial pass.** Not committed. Data-blind (no particle masses/data
+tables; output `microphysics_E1_probe_results.json`). **Status: BANKED, BLIND-VERIFIED — agent
+a50cf068b5ecf05e2, 8/8 attacks HOLD, two corrections applied in place (see VERIFIER RECORD at
+end).** Data-blind (no particle masses/data
 touched). Everything below is scoped to **round-static, diagonal, areal, CONCENTRIC** (four
 independent CHOSE, canon C-2026-06-18-1, plus concentricity) — no claim is a frame verdict.
 

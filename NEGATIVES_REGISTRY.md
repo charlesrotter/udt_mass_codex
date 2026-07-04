@@ -2065,3 +2065,19 @@ CS5. THE SEAL IS NOT THE BELL-NONLOCALITY CHANNEL (no-signaling + self/terminus 
    Branch P) STANDS and is STRENGTHENED (resolution trend + clean seal scan), via the CORRECTED mechanism
    "box-controlled structure" (not featureless-defect). Nr=24 judged redundant (seal scan decisive). The
    Nr=16/24-resolves-into-an-interior-core reopener is now CLOSED (it resolved into BOX-controlled structure).
+
+## Embedded rigid-N=1 carrier in the REAL ambient (E1, 2026-07-03, blind-verified)
+
+**#75 — The rigid-N=1 L2+L4 cell closes NOWHERE in the real N=0 fundamental** (every bracket,
+every seal position, every κ>0). MECHANISM (derived, two-sided): the embedded-Derrick identity
+(on-shell H≡0) forces ξ ≥ 2 pointwise for the rigid carrier, while the particle-core critical
+closure E_ang(core)=2 (the migrated criticality) forces ξ + κ/(2ρ_c²) = 2, i.e. ξ < 2 for κ>0 —
+contradiction. PREMISE SET: round-static, diagonal, areal chart, CONCENTRIC composite, Branch-P
+both media, source-free Class-A seal (continuity posture), free outer odd fold (same posture as
+canon E_m(core)=2 — linked CONDITIONS-CHANGED), φ-blind ambient slice family (4 E0 brackets),
+κ>0, seal strictly interior (ρ'_p>0), L2+L4 carrier only. Verifier a50cf068b5ecf05e2 re-derived
+the identity independently (brute-force sign search) and stress-tested the C-S machinery on 500
+non-monotone profiles. FORWARD: any closure must carry genuine θ-deformation (the bulge theorem:
+interior angular-energy bulge ≥ 4/ξ against both endpoints); the necessary-condition maps leave
+position-selective (ξ,κ,N) windows OPEN in 3–30 cells/bracket — the E2 coupled BVP is the live
+question, NOT walled by this negative. Doc: microphysics_E1_composite_closure_results.md.
