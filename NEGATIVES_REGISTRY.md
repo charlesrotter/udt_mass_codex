@@ -101,6 +101,31 @@ NOT blocking, pending the native-S² solve (the decisive next step). NB the must
 inherits this scope: it was demonstrated on Object A; the native-S² gate is open. (Mechanism note: the body is
 BC-held, NOT — as first claimed — L4-import-held; the kinetic body is in L2, native L4 is not blind.)
 
+### RE-GRADE (2026-07-04, point-of-use = the R2 frame fork; agent a4c9f2e1b7d3a08e6; DATA-BLIND, no solves) → `regrade_S2_defect_2026-07-04.md`
+The S²-defect discovery (matter_object_identity, 2026-06-22) predates the native field equations and rode
+the CONDITIONS-CHANGED pre-native frame (assumed-Einstein form; e^{2φ}T non-native weight; scalar-tensor
+φ-outside-g; imported Θ(core)=π BC). Re-graded per-sub-claim under the current foundation:
+- **A — "round-gate soliton = imported S³/π₃ baryon, not native": SURVIVES (provenance-stable, clean-current)**
+  — `archive/s2_s3_identity_results.md` §2 ("S³ is ALWAYS imported"); native_field_equations §8 (the old
+  e^{2φ}T matter coupling was itself non-native). The identification stands; its box-control TARGETS remain
+  CONDITIONS-CHANGED / no authority.
+- **B — "native carrier = S²/π₂ winding (L2+L4)": SURVIVES, CLEAN-CURRENT** — CANON C-2026-06-14-1 (DURABLE,
+  "SURVIVE"); native_field_equations §4; D1 native re-derivation (N=3 native cargo; π₂(S^{N−1})≠0 iff N=3);
+  microphysics_E1:14. Strongest survivor.
+- **C — "scale-free defect, size from geometry, forms in every static config": MIXED** — T^t_t=T^r_r stress
+  SURVIVES (C-2026-06-14-1); "scale-free" SUPERSEDED/REFINED (derived L4 fixes size √(κ/ξ), CANON.md:167–184);
+  "forms a stable localized object" STILL-OPEN (E1 rigid-N=1 closes nowhere / #75 but windows open; E2 existence
+  UNDECIDED — optimizer reach, needs E2c). DO NOT BANK.
+- **D — "matter-in-motion not a worldline; dynamics relocated (OPEN)": SPLIT** — negative half CLEAN-CURRENT
+  on the native foundation (S13c, r2_prereg_s_dependence.md:69–75,255–283: NO R1-invariant worldline law
+  exists); positive half ("IS a field with computed dynamics") STILL-OPEN (awaits E2c/D4; old coupled_timelive
+  rode the dead frame).
+**R2-fork implication (honest):** the clean-current legs (B + D-negative) LEAN the fork toward the
+"matter-is-a-field/defect" branch and undercut the naive test-particle-worldline branch (ĝ stays refuted
+independently) — but they do NOT close the fork: the decisive positive content (C-stability + D-positive) is
+STILL-OPEN pending the emergence program. **The R2 frame fork stays OPEN; its point-particle-worldline branch is UNDERCUT (S13c, clean-current, verified) — leans matter-in-MOTION toward a field/defect-solution description, NOT a fundamental worldline; but NO positive verdict, does NOT select g vs ĝ, pending E2c+D4. (Load-bearing leg = D-negative/S13c; B corroborates static field-identity only.)** [verifier aa3af5a01f70aa096 HOLDS-with-corrections; re-grade agent a500dae5dab25dc0c]
+This re-grade supplies leaning, not a verdict. A blind verifier attacks it next.
+
 ## *** 2026-06-21 BANKED-RESULT CORRECTION (not a negative; logged here per Charles's instruction) ***
 
 **`static_soliton_rerun_derived_operator_results.md` — "tiny 1/r scalar hair q.|X|~0.5" is CONDITIONS-
