@@ -186,7 +186,7 @@ exterior gains a continuous charge, not a discrete structure (consistent with ev
 |---|---|
 | **L2 native-ness (the FORM)** | unique 2-derivative diffeo+target-isometry scalar; covariance argument, independent of the gravity operator. |
 | **L4 native-ness** | = metric-norm of UDT's OWN H1 area-form current (Skyrme = native object); blind-verified, operator-independent. |
-| **omega_H1 charge, N=3, q=1/3, eta=1/18, deg-1 winding integral=1** | topological / dial-free; read off the area form; CARRY. |
+| **omega_H1 charge, N=3, q=1/3, eta=1/18, deg-1 winding integral=1** | topological / dial-free; read off the area form; CARRY. **[CORRECTION 2026-07-04, D1 provenance audit + blind verifier a8e6f8faa37a495d0: OVER-CLAIMED for q and eta — the cited h1_types_derive.py HARD-CODES q=1/3 (line 79) and derives neither q nor eta; only N=3 (+ the omega_H1 object/algebra/structural-i) is NATIVE-REDERIVED; q=1/3 rides the legacy s=1/9 backsolve, eta=1/18 the postulated 1/2 — both IMPORT-DEPENDENT; see d1_angular_constants_native_rederivation.md.]** |
 | **S^2 carrier settlement** | action-target argument (n_4=0 the only interior critical point); the action terms are unchanged. CARRY. |
 | **T^t_t = T^r_r inside matter (the B=1/A SOURCE)** | a property of the purely-angular winding stress, not of the operator; CARRY. *** But note: the EXTERIOR consequence (B=1/A preserved outside) does NOT carry — see re-scope. *** |
 | **The winding-BC import verdict (#61)** | a provenance fact about the catalog's sector index; operator-independent. CARRY. |

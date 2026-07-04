@@ -56,7 +56,7 @@ textbook) / **CHOSEN** (a modeling pick, defensible but not forced) / **CLAIMED-
 
 | Piece | Provenance |
 |---|---|
-| **omega_H1 = eps_abc n_a dn_b ^ dn_c** (the winding 2-form; INT = 4pi; deg-1) | **NATIVE-DERIVED** (CANON C-2026-06-14-1; h1_types). Carries N=3, q=1/3. It is the i=area-form thread, the topological charge, the symplectic form — one object, multiply load-bearing. |
+| **omega_H1 = eps_abc n_a dn_b ^ dn_c** (the winding 2-form; INT = 4pi; deg-1) | **NATIVE-DERIVED** (CANON C-2026-06-14-1; h1_types). Carries N=3, q=1/3. It is the i=area-form thread, the topological charge, the symplectic form — one object, multiply load-bearing. **[CORRECTION 2026-07-04: 'Carries q=1/3' over-claims — see the D1 flag below.]** |
 
 ### D. The dimensionful couplings — THE SCALE-BREAKERS (the crux; see Sec 2)
 
@@ -84,7 +84,7 @@ textbook) / **CHOSEN** (a modeling pick, defensible but not forced) / **CLAIMED-
 
 | Piece | Provenance |
 |---|---|
-| **N=3** (carrier rank; eps_abc singlet unique iff N=3), **q=1/3** (collar slope), **eta=1/18** (seal/boundary object) | **NATIVE-DERIVED** off the SAME area form (h1_types; CANON C-2026-06-14-1). Read dial-free off omega_H1. (eta is a seal/boundary object, not a bulk potential — flagged in the canon refinement.) |
+| **N=3** (carrier rank; eps_abc singlet unique iff N=3), **q=1/3** (collar slope), **eta=1/18** (seal/boundary object) | **NATIVE-DERIVED** off the SAME area form (h1_types; CANON C-2026-06-14-1). Read dial-free off omega_H1. (eta is a seal/boundary object, not a bulk potential — flagged in the canon refinement.) **[CORRECTION 2026-07-04, D1 provenance audit + blind verifier a8e6f8faa37a495d0: this label was a PROMOTION ERROR at bank time — h1_types_derive.py:79 hard-codes q=1/3 as an INPUT and derives neither q nor eta. Verdicts: N=3 NATIVE-REDERIVED (strengthened: no SO(N)-invariant 2-form exists at any other rank; any closed orientable 2-surface suffices); q=1/3 IMPORT-DEPENDENT (legacy s=1/9 backsolve; steel-man of four native routes failed); eta=1/18 IMPORT-DEPENDENT + natively HOMELESS (the derived seal set has no coupling slot). See d1_angular_constants_native_rederivation.md.]** |
 
 ---
 
