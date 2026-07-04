@@ -71,9 +71,18 @@ CERTIFIED converging from boundary offsets ≥30 (3× spec) to ~5e-9 on 2 MMS (i
 FIELD-AXIS wall = intrinsic local-NLLS minima (multiple globalizations all stall short) ⇒ the re-sweep
 needs MULTI-START + CONTINUATION, and non-convergence reads "not found from these seeds," NEVER
 "does not exist" (charter trap #1). Solver is READY for the gated re-sweep.**
-NEXT: **E2d = the gated multi-start + continuation RE-SWEEP** (build the continuation driver on lm_hardened;
-coarse→fine grid / stiffness homotopy) → the embedded-particle EXISTENCE question becomes decidable → then
-D4. J(s)-vs-data (bound s) proceeds anytime as the one frame-robust confrontation.
+**E2d DONE + BANKED, blind-verified (2026-07-04, commit 92af4e2; `microphysics_E2d_resweep_A1Z8_results.md`;
+builder adfcf1eea, verifier a5e1960b6f90b4686 — physics untouched to EXACT zero). The continuation+multistart
+driver (`e2d_continuation_driver.py`, wraps byte-identical lm_hardened) certifies boundary offsets ≥30 +
+the deviation-field (u) axis to ~0.3 (NEW), but the COMBINED-CELL field axis (the flat core φ_c/ρ_c of a real
+seed) is UNCERTIFIED along Newton/fp homotopy = COMPONENT SEPARATION — verifier-SCOPED to those homotopy
+families, NOT absolute: GRID HOMOTOPY bridges some of the same distances ⇒ a CONNECTING PATH EXISTS. The real
+sweep was GATED OUT (honest STOP — don't sweep an uncertified tool; defensible but the verifier judged it
+mildly over-cautious: a scoped sweep reading nulls as "not found from these seeds" would also be legitimate).
+NEXT = E2e: the fix-the-flaw move — a PHYSICS-INFORMED SEED (multi-start over the DERIVED core φ/ρ profile —
+even fold at finite depth, canon C-2026-07-03-3 — instead of flat continuity-flats, to pull the combined-cell
+seed distance INSIDE the certified u+boundary reach), with a scoped-caveated sweep as the OBSERVE fallback.
+Then the sweep becomes runnable → existence decidable → D4. J(s)-vs-data proceeds anytime (frame-robust).
 Charles's two R1 flags: single-curvature-origin premise? (his lean: decline); R2 reframe = BLESSED. Other
 five forks pending (charter §4). Standing owed: photon/EM re-grade; D4 ω≠0 after existence; R3 = Route-B
 universe cell (well-posed across the sheet).
