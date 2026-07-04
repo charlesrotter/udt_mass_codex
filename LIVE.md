@@ -4,7 +4,7 @@
 everything under the "↓↓↓ HISTORICAL ARC" / "SUPERSEDED" fences is labeled-stale detail (mine for history, not the
 plan). `HANDOFF.md` / `STATE.md` are detailed history; **if they disagree with this file's CURRENT STATE block, the
 CURRENT STATE block wins.**
-**Read order:** LIVE.md FRONTIER → CLAUDE.md "How we work" + the discipline skills → (for detail) HANDOFF.md TOP
+**Read order:** LIVE.md FRONTIER → **PURSUIT_CHARTER_2026-07-04.md** → CLAUDE.md "How we work" + the discipline skills → (for detail) HANDOFF.md TOP
 + the five native-frame result docs + `discreteness_preregistration.md` → INDEX.md (repo map).
 
 ## Binding method (never skip)

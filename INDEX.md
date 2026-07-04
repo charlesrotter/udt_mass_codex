@@ -30,16 +30,17 @@ discipline skills → `HANDOFF.md` TOP (current activity) → `CANON.md` / `NEGA
 → this INDEX → the specific records. The file-immutability rule is **REPEALED** (Charles 2026-06-24): use git
 as git — edit in place, roll back via history.
 
-**CURRENT FRONTIER (2026-07-03 — LIVE.md TOPMOST is authoritative, read it first):** the universe cell was
-SOLVED (flux-sealed; vacuum impossible; fold JCs; E_m(core)=2 = F5 as a THEOREM; canon C-2026-07-02-1 anchor=Δφ)
-and its closures form a **COMPLETE integer ladder N=0..22, family-universal (6 families, both Z), twin-sided** —
-with the spectrum LAWS DERIVED, never fitted (Theorems A/B; Lemma D a_seal≈√Z/[(N+1)π+θ₀]; θ₀ 2nd order;
-accumulation = the quantization closure). Eigenmode corpus = CONDITIONS-CHANGED ("towers refused, closures
-allowed"; re-grade at point of use). **LIVE frontier = the STABILITY arc**: operator + full table banked
-(fundamentals uniquely n_pos(V̂)=0; excited saturate (2,N+1); twin fundamental distinct); soft mode = FOLD-PAIR
-mode (PROVISIONAL, blind pass pending); NEXT = orientation derivation (AIM-BLIND rule binding) → stability
-ponder with Charles → Stage-D → microphysics re-entry. Docs: `universe_cell_*`, `ladder_*`, `cascade_*`,
-`stability_*`, `twin_ladder_involution_results.md`, `negatives_premise_sweep_2026-07-03.md`.
+**CURRENT FRONTIER (2026-07-04, model handover — LIVE.md TOPMOST + PURSUIT_CHARTER_2026-07-04.md are
+authoritative, read them first):** universe cell SOLVED (flux-sealed; integer ladder N=0..22 family-universal;
+spectrum LAWS derived; **Stage-D blind-predicted 13/13 unseen rungs — PREDICTION-GRADE**); fundamentals STABLE,
+universe = the N=0 ground state (canon C-2026-07-03-1/-2; core = even fold at finite depth, C-2026-07-03-3).
+Microphysics re-entry: particles = embedded cells in the REAL universe; E2 swept 0/256 but the MMS gauntlet
+proved the optimizer too weak ⇒ **existence UNDECIDED** (E2c gates all sweeps). D1: N=3 + algebra +
+structural-i = native cargo; q=1/3/η=1/18 = imports → targets. D2 theorems: emergence mechanism P-ONLY;
+no G-vacuum self-closure; interior all-P; Route-A G|P closes nowhere — **THE ROUTE FORK (A vs B) = the pivot**
+(Charles's emphasized fork 3; program R1–R4 in the charter). Docs: `universe_cell_*`, `ladder_*`, `cascade_*`,
+`stability_*`, `microphysics_*`, `d1_*`, `d2*`, `twin_ladder_involution_results.md`,
+`negatives_premise_sweep_2026-07-03.md`.
 **Prior arcs → archive/**: `LIVE_universe_cell_ladder_arc_2026-07-02.md` (the universe-cell/ladder updates);
 `LIVE_native_frame_round_static_2026-07-01.md` (native-frame foundation — still valid, canonical record = the 5
 native-frame docs); `LIVE_basin_D1_galerkin_arc_2026-06-30.md`; older trackers in `archive/`. Old p1 solver

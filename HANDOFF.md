@@ -39,7 +39,7 @@ strengthened two others (N=3, T-G1) — the discipline's best session. Chain, wi
    route-robust) + **T-G2 (the mass-emergence MECHANISM is P-ONLY — Charles's one-sidedness at theorem
    level)**; Route-B mixing term DISCHARGED (corrected Route-B EOMs banked; fold values +
    E_ang(core)=2 ROUTE-B-ROBUST verified; **flat FAILS Route-B G**); **Route-A G|P architecture closes
-   NOWHERE (Z>0) — escapes = Route B / Class-B seals / twisted folds = Charles's forks. THE ROUTE FORK
+   NOWHERE (Z>0) — escapes = Route B / Class-B seals / twisted folds = three of Charles's SIX pending forks (full list: charter section 4). THE ROUTE FORK
    IS NOW PHYSICS and the pivot.**
 8. **Organizing pass for the model handover** (this entry): PURSUIT_CHARTER_2026-07-04.md written;
    LIVE restructured (old layers → `archive/LIVE_stability_stageD_microphysics_arc_2026-07-03_04.md`);
@@ -73,7 +73,7 @@ caught — one driver, one claude.ai, one leading-order launch, one ±1 conventi
    mag-unconverged); ORIENTATION chain complete AIM-BLIND (`ladder_energy_orientation_results.md`): identities
    banked (lapse cancels exactly; E_can=−∫L; ∫L=2∫(2−E_m); H≡0 = r-flow NOT t-energy trap), the SIGN = an
    adjudicated CALL (MS anchor refuted-as-forcing; flat-limit anchor favors the banked E=−∫L). **THE PONDER
-   WAS PRESENTED 2026-07-03 EOD; FOUR RULINGS PENDING (enumerated in LIVE.md TOPMOST — re-present on resume).**
+   WAS PRESENTED 2026-07-03 EOD; FOUR RULINGS PENDING (enumerated in archive/LIVE_stability_stageD_microphysics_arc_2026-07-03_04.md (formerly LIVE TOPMOST) — re-present on resume).**
 **Method notes that must survive:** verifier-before-record caught something material at EVERY stage; the
 freeze-before-data pattern (fit forms, diagnostics, predictions) paid out three times; agent process rules —
 chunk CAS (one timeout), pre-declare shot budgets (one overage), graduated-floor zero counts, exact-projection
@@ -199,7 +199,7 @@ would drag the wrong frame back in.
 - CANON C-2026-06-14-1 (B=1/A sourced by the angular sector; EOS-softened interior) — SURVIVES.
   CANON C-2026-06-18-1 (metric form derived from relativity) — the new foundation.
 - Durable GEOMETRY: the seal = same-minus MIRROR FOLD = TIME REVERSAL (t→−t); Misner-Sharp mass =
-  the cell's public charge (Q=2 p_F); q=1/3, N=3, eta=1/18 from the H1 AREA FORM; 7.004 = ln(1+z_CMB)
+  the cell's public charge (Q=2 p_F); N=3 from the area form (D1-corrected 2026-07-04: N=3 + the 1+3+5 algebra + structural-i = NATIVE cargo; q=1/3 and eta=1/18 = IMPORT-DEPENDENT -> targets; d1_angular_constants_native_rederivation.md); 7.004 = ln(1+z_CMB)
   via 1+z=e^phi.
 - Provenance: commit scripts WITH results docs; AUDIT.md / step0_bridge*.py / dpf_verify_indep.py are
   Charles's untracked working files — leave them.

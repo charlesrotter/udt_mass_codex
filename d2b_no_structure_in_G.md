@@ -3,7 +3,7 @@
 **Date:** 2026-07-04. **Contract:** `microphysics_D2_two_regime_MAP.md` Q3 (approved as written).
 **Mode:** CAS-only, no solves, data-blind. **Scripts (all PASS):** `d2b_reduction_flux_cas.py` (13),
 `d2b_closure_endcases_cas.py` (9), `d2b_matter_escape_cas.py` (12), `d2b_routeB_mixing_cas.py` (6).
-**Status: PROVISIONAL — NOT blind-verified, NOT committed, no verifier pass yet.** Hypothesis
+**Status: BANKED, BLIND-VERIFIED (agent a9cfb0141acd701ee, all attacks HOLD + the Route-B T-G1 extension — see VERIFIER RECORD at end; commit 9f94d8b).
 discipline applied: the candidate theorem would CONFIRM the standing picture, so escapes were
 hunted with priority; one escape REFUTES the strong wording (§4-E1).
 
