@@ -79,10 +79,21 @@ seed) is UNCERTIFIED along Newton/fp homotopy = COMPONENT SEPARATION — verifie
 families, NOT absolute: GRID HOMOTOPY bridges some of the same distances ⇒ a CONNECTING PATH EXISTS. The real
 sweep was GATED OUT (honest STOP — don't sweep an uncertified tool; defensible but the verifier judged it
 mildly over-cautious: a scoped sweep reading nulls as "not found from these seeds" would also be legitimate).
-NEXT = E2e: the fix-the-flaw move — a PHYSICS-INFORMED SEED (multi-start over the DERIVED core φ/ρ profile —
-even fold at finite depth, canon C-2026-07-03-3 — instead of flat continuity-flats, to pull the combined-cell
-seed distance INSIDE the certified u+boundary reach), with a scoped-caveated sweep as the OBSERVE fallback.
-Then the sweep becomes runnable → existence decidable → D4. J(s)-vs-data proceeds anytime (frame-robust).
+**E2e DONE + BANKED, blind-verified (2026-07-04, commit ba31693; `microphysics_E2e_physinformed_seed_results.md`;
+verifier a0205204484a1d48c — physics byte-identical to HEAD). The PHYSICS-INFORMED SEED (derived even-fold core
++ E_ang(core)=2, canon C-2026-07-03-3) CONTROLS the boundary runaway (phys r_p bounded O(100–2000) vs flat's
+runaway O(1e7)) but does NOT crack the combined-cell wall. Certification FAILED + scoped A1Z8 sweep = NULL
+(candidates:[], 8/8 coverage, both seed families). KEY: the wall is EXTREME DEPTH-STIFFNESS — residual 16.9 at
+field-distance 0.1, homotopy folds at s~9e-4 — NOT seed distance; starting closer doesn't help. ⇒ EXISTENCE
+of static concentric A0 embedded cells UNDECIDED (tool-limited, trap-#1 scoped: "not found from these seeds,"
+NEVER "does not exist"). Three verified solver rounds (E2c gauge-fix / E2d continuation / E2e phys-seed) each
+localize the SAME depth-stiffness wall.**
+**⇒ THE OPTION-3 DECISION IS CHARLES'S (presented 2026-07-04, awaiting his call): 3a = one more mechanism-
+matched solver idea (a DEPTH-STIFFNESS HOMOTOPY ramping core depth shallow→physical, untried, directly targets
+the diagnosed wall) vs 3b = pivot to the ω≠0 REFRAME (his founding φ-angular hunch, the pre-named escape —
+static concentric A0 may be the wrong frame) vs checkpoint/pause. Driver lean: 3a once (cheap, mechanism-
+matched), 3b strongly queued if it fails — but the frame call is his.**
+J(s)-vs-data proceeds anytime (frame-robust, independent of this).
 Charles's two R1 flags: single-curvature-origin premise? (his lean: decline); R2 reframe = BLESSED. Other
 five forks pending (charter §4). Standing owed: photon/EM re-grade; D4 ω≠0 after existence; R3 = Route-B
 universe cell (well-posed across the sheet).
