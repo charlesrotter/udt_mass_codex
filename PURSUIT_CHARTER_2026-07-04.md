@@ -60,19 +60,28 @@ integers/laws were derived at Route-A structure, Z as stated), the E2 landscape,
 sign obstruction.
 
 **THE RECOMMENDED DECISION PROGRAM (in order; MAP first at each step; lay-present to Charles):**
-- **R1 (armchair, FIRST): attempt the native derivation.** Does the positional-dilation
-  principle force one route? The fork originated in the native-action derivation (the Z_φ fork;
-  see native_dilation_weight_derivation_results + F1F3_closure_results + the
-  constrained-two-player doc). Interrogate: is the mixing term FORCED by the same R1-preservation
-  logic that forced everything else, or forbidden by it, or genuinely free? Watch: "it folds
-  away" claims = the prime smuggle suspect (CLAUDE.md trigger #6). Outcome: FORCED-A / FORCED-B /
-  FREE (then observation decides).
-- **R2 (cheap, potentially decisive): the vacuum-deformation confrontation.** Route-B G has no
-  flat solution — derive what its deformed vacuum (ρ=ar+b, φ=φ₀−½ln ρ) implies for the banked
-  macro constraints (Cassini-class solar-system bounds — see the X=−2e5 Cassini history in
-  memory/NEGATIVES; terrestrial clock constraints; the a(φ) both-extremes rule
-  [[myopic-errors-dilation-exponent]]). If Route-B's vacuum violates a solid bound → Route B
-  dies and fork 3 closes cheaply. If compatible → it becomes a PREDICTION (consilience roadmap).
+- **R1 — DONE, BANKED, BLIND-VERIFIED (2026-07-04, commit 40294ef;
+  `r1_route_fork_native_derivation.md`, verifier a31db58f300da6011 8/8): VERDICT = FREE-ON-A-SHEET.**
+  The forcing rule pins WEIGHTS, never coefficients; the mixing term is weight-0 (admitted) with
+  no orphan weight to compensate (not required). The fork is really the TWO-PARAMETER SHEET
+  (Z_φ, μ): Route A = the μ=0 edge (Z free), Route B = the single point (8,2), conditional on
+  two unforced CHOSEs (single-curvature-origin + c_L=1). **The ONE observable = s = 2μ/Z, the
+  vacuum-deformation exponent** (A: s=0; B: s=1/2; clocks in μ≠0 vacuum are slaved to areal
+  radius, e^{−2φ} ∝ ρ^{2s}; observability EXACT — no redefinition hides it). The mixing term IS
+  a kinetic-level φ-angular coupling (areal growth drags depth — the founding hunch at the
+  action level). Fold pins are family-robust across the whole sheet (R3 well-posed everywhere).
+  CHARLES'S TWO STANDING FLAGS from R1: (i) adopt "kinetic must descend from one curvature
+  object"? (would force B modulo c_L); (ii) bless the R2 reframe below.
+- **R2 (cheap, potentially decisive — REFRAMED by R1's verdict): BOUND s = 2μ/Z, not a binary
+  A/B test.** The general-(Z,μ) deformed vacuum is ρ=ar+b, φ=φ₀−s·lnρ (clock rate ∝ ρ^{2s}).
+  Derive what the banked macro constraints (Cassini-class solar-system bounds — see the X=−2e5
+  Cassini history; terrestrial clock constraints; the a(φ) both-extremes rule
+  [[myopic-errors-dilation-exponent]]) imply as a BOUND on s. s bounded ≈0 ⇒ Route A wins and
+  fork 3 closes; s bounded away from 0 impossible but a finite window ⇒ the sheet survives as
+  a measured parameter (a PREDICTION lever for the consilience roadmap). Extra R1-derived
+  levers: the φ'-jump at G|P seals; flux-without-twist Φ=2μln(ρ₂/ρ₁)/I in odd+odd G-domains.
+  DATA-BLIND discipline: derive the s-dependence of each observable FIRST, frozen, before any
+  observational number is loaded (pre-register the confrontation).
 - **R3 (bounded solve, only after R1/R2): the Route-B universe cell.** Re-run the T3 closure
   under the corrected Route-B EOMs (the solver change is small — the φ-EOM gains (4ρρ'φ')'
   terms... use the banked corrected forms, do NOT re-derive ad hoc). Questions: does the cell

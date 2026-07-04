@@ -40,11 +40,15 @@ universe interior is ALL-P (thin shell holds 99% of q); Route-A G|P architecture
 — **the ROUTE FORK (A vs B) is now PHYSICS and the pivot** (corrected Route-B EOMs banked;
 banked fold values + E_ang(core)=2 route-robust VERIFIED; flat FAILS Route-B G = macro lever).
 
-**LIVE NEXT: (1) Charles's six D2-synthesis forks — EMPHASIS FORK 3 (the route fork; charter §3:
-R1 native-derivation attempt → R2 vacuum-deformation vs macro bounds → R3 Route-B universe cell
-→ R4 gated). (2) Standing owed: photon/EM-native re-grade (cheap warm-up); E2c optimizer
-gauntlet before ANY sweep; D4 ω≠0 after the route fork. Charles ruled: destruction/black-holes
-PARKED post-emergence.**
+**LIVE NEXT: (1) FORK 3 UPDATE — R1 DONE, BANKED blind-verified (40294ef): verdict = FREE-ON-A-SHEET
+(the fork = the (Z_φ,μ) sheet; Route A = μ=0 edge, Route B = the point (8,2) on 2 CHOSEs; the ONE
+observable = s = 2μ/Z, the vacuum-deformation exponent — observability EXACT; the mixing term = a
+kinetic-level φ-angular coupling). **NEXT = R2 (reframed): BOUND s against the macro constraints —
+pre-register the s-dependence of each observable FIRST (data-blind), then confront** (charter §3).
+Charles's two R1 flags pending: single-curvature-origin premise?; bless the R2 reframe. (2) The other
+five forks pending (charter §4). (3) Standing owed: photon/EM re-grade; E2c optimizer gauntlet before
+ANY sweep; D4 ω≠0 after the route fork; R3 = Route-B universe cell (well-posed across the sheet).
+Charles ruled: destruction/black-holes PARKED post-emergence.**
 
 Session record: HANDOFF.md TOP. Arc detail: `archive/LIVE_stability_stageD_microphysics_arc_2026-07-03_04.md`.
 
