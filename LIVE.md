@@ -63,14 +63,23 @@ downhill; twin fundamental = 1 solid downhill). Angular + dynamical stability = 
 universe = the N=0 ground state of its own ladder** (canon C-2026-07-03-2, inherits the R1 scope tag).
 **R4 = CANON-ADJACENT NOTE** (not canon): fold-pair soft mode ≈ the pre-arc F5 "dilatation modulus weakly
 pinned at criticality" line — a consilience identification, not a derivation (note attached to C-2026-07-03-2).
-**LIVE NEXT = STAGE-D PREDICTION TEST (pre-register FIRST, per repo discipline): the quantization closure
-PREDICTS the aliased window's ~11 missing rungs — go look (strongest test type). MAP the pre-registration
-contract (frozen prediction, candidate window, tolerances, look-elsewhere) with Charles BEFORE any solve.
-THEN: microphysics re-entry (particle cells embedded in the selected fundamental instead of a model
-ambient — the σ cross-check is the only audit with test power).** Standing open: soft-mode magnitude
-convention (α,β mass CHOSE); parity boundary term; handover; above-copy N=4–7; O(A²) q-coeff;
-angular+dynamical stability (scoped follow-ons); Bin-2 survivor re-grades at point of use; the Z=8/Route-B
-mixing-term tension; relay owed to claude.ai.**
+**STAGE-D PREDICTION TEST: PASSED, BLIND-VERIFIED (2026-07-03 late; `cascade_stageD_results.md`).**
+Contract frozen w/ Charles's pins (±1.0% / exact integers / blind sweep; forecast hash-held out of repo,
+34d1b6b) → blind sweep (agent a0e8a4002c4c669cd) → **the quantization closure called the never-refined
+aliased window: 13/13 rungs (N=23–35), integer labels rung-for-rung, 20/20 locations within band, worst
+dev −0.139% (7× inside), parity 20/20 — including a γ<0.4 regime the law was never built on (domain
+EXTENSION).** Blind adversarial verifier ac8b3fe72dbae49b9: all 7 attacks HOLD, zero false passes (own
+integrator 7-digit re-shoots; own forecast re-evaluation 3e-7; freeze/blinding/compliance intact).
+Recorded non-fails: one-signed ~0.1% systematic of the 2nd-order law (bounds the open slivers
+empirically; 3rd-order target); count/edge-rule wording ambiguity for future contracts. Scope: family
+A1 m=3 Z=8 (Z-fork NOT adjudicated, stated), round-static Branch-P.
+**LIVE NEXT = (1) short PONDER w/ Charles on what the pass means (the ladder + its law are now
+prediction-grade); (2) MICROPHYSICS RE-ENTRY — particle cells embedded in the selected N=0 fundamental
+(canon C-2026-07-03-2) instead of a model ambient; the σ cross-check is the only audit with test power.
+MAP first (no compute).** Standing open: soft-mode magnitude convention (α,β mass CHOSE); parity boundary
+term; handover; above-copy N=4–7; O(A²) q-coeff; angular+dynamical stability (scoped follow-ons); Bin-2
+survivor re-grades at point of use; the Z=8/Route-B mixing-term tension; relay owed to claude.ai
+(+ Stage-D outcome).**
 
 
 ### ↓↓↓ HISTORICAL — the 2026-07-02 universe-cell/ladder arc layered updates ARCHIVED 2026-07-03 →
