@@ -1,7 +1,11 @@
 # E2 BATTLE PLAN — the coupled particle-in-universe solve (pre-registration draft)
 
-**Date:** 2026-07-03 (late). **Status: AWAITING CHARLES'S GO — no solve runs until this plan is
-approved (with any edits) and the approved version is the committed contract.** Stage E2 of
+**Date:** 2026-07-03 (late). **Status: APPROVED AS WRITTEN — Charles, 2026-07-03: "Go, run it
+exactly as written." This committed version is the contract; deviations require his ruling.**
+Operational staging (not a plan change): E2a = BUILD + verify the coupled solver (reduction
+checks, pure-universe limit recovery, instruments wired) with a bounded single-seed smoke test;
+E2b = the pre-registered sweep, one bracket at a time, single process; then the blind verifier.
+Stage E2 of
 `microphysics_reentry_miniMAP.md`; consumes the blind-verified E0 tables and E1 condition set
 (`microphysics_E1_composite_closure_results.md`). Charles's rulings carried: R-B = go with plan
 first; R-C = migration is a margin note; guardrail 1 (family/Z = output) and guardrail 2
