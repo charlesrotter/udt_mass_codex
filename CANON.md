@@ -320,3 +320,36 @@ observation: an identification, not a derivation.
 blind pass bv15) → `ladder_energy_orientation_results.md` (orientation). External cross-check
 concurred (2026-07-03).
 **Canonized by Charles 2026-07-03 (rulings R2 + R3 of the stability ponder).**
+
+---
+
+## C-2026-07-03-3 — Matter-cell core wording CLARIFIED: even fold at FINITE depth (the φ→−∞ core retired)
+
+**Statement:** C-2026-06-10-2's wording "matter cells are finite inside-out cells (phi: 0 at the
+interface → −infinity at the core endpoint)" is CLARIFIED (finite-cell content NOT retracted):
+the φ→−∞ core was an early exploratory description from the first attempts to probe emergent
+behavior, and Charles had let it go long before this derivation (Charles, 2026-07-03: "I let go
+of negative phi to infinity a long time ago"). The DERIVED replacement (E1, blind-verified):
+within round-static Branch-P, the embedded matter-cell core is an **EVEN MIRROR FOLD at FINITE
+depth** — φ'(0) = ρ'(0) = f_r(0,θ) = 0 as natural boundary conditions from stationarity alone;
+φ monotone up through the cell (the exact, matter-independent flux law (ρ²φ')' ≥ 0 excludes any
+φ→−∞ dive with ρ bounded); the core values are FREE individually but pinned in combination by
+the migrated critical closure **E_ang(core) = 2** (C2 chain, E1). The finite-cell content of
+C-2026-06-10-2 — finite mirrored domains, no spatial infinity — STANDS unchanged.
+
+**Scope:** exclusion of the φ→−∞ core is airtight within the probed asymptotic classes
+(regular; power-law; plus the verifier's extensions: essential-singular φ with power ρ, ρ→∞
+power-law, log-corrected dives). Combined essential/oscillatory asymptotics = the one named
+residual gap. Round-static, diagonal, areal, concentric composite, Branch-P.
+
+**Direction note (tagged HUNCH, not canon evidence — hypothesis discipline):** Charles's
+standing picture (2026-07-03): the finite core depth/size is the native analog of a minimal
+(Planck-like) length. Tagged consilience already in the derived record: E1's necessary maps
+contain a DERIVED core-size floor ρ_c ≥ N√(κ/(2(2−ξN))) ∝ √κ — the canon carrier scale
+√(κ/ξ) appearing as a minimal core size. Verifiers should aim hardest at results that would
+confirm this picture.
+
+**Provenance:** `microphysics_E1_composite_closure_results.md` (deriver ae9d381bdc0692d51,
+CAS 24/24; blind adversarial verifier a50cf068b5ecf05e2, 8/8 HOLD, exclusion extended three
+classes by the verifier's own probes).
+**Canonized by Charles 2026-07-03 (ruling R-A of the E1 ponder, this session).**
