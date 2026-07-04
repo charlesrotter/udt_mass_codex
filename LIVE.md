@@ -117,13 +117,33 @@ verifier a8e6f8faa37a495d0 8/8; `d1_angular_constants_native_rederivation.md`): 
 framework must produce or decline); **QCD/QED precision layer = pre-classifier scaffolding CONFIRMED**;
 **photon/EM-native re-grade OWED on the native field equations (#47-pos/#50)**; promotion error corrected
 in 3 banked locations (h1_types hard-codes q=1/3).
-LIVE NEXT (ponder order): (1) D2 = THE TWO-REGIME MAP w/ Charles (no compute): where-is-the-zero
-(local-relative crossing? the G|P branch boundary — banked PONDER: beyond-CMB natively G?
-convention-hides-it?) + the invariant angular bridge (now anchored by the D1 survivors); emergence-on-
-one-side = tagged hunch; the untested G|P weight-jump seal = the derivable alternative to the indicted
-P|P CHOSE. (2) D3 = E2c OPTIMIZER HARDENING (solver-first; MMS-gauntlet-certified from seed-class
-distances BEFORE any re-sweep — gates all sweeps of ANY frame). (3) D4 = ω≠0 on the surviving frame.
-Also owed: the photon re-grade (cheap, could ride D2).**
+**D2 RAN AND BANKED blind-verified (2026-07-04, commit 9f94d8b, verifier a9cfb0141acd701ee — own
+64/64 algebra chain; MAP contract ba1a6d4):**
+**D2a:** the solved universe interior is ALL-P under both defensible readings (the plateau is G-shaped
+but P-SOURCED — a regular-cored G region forces φ'≡0 exactly; 99% of q sourced in the last ~0.04–0.14%
+of radius = a thin strong-P shell walls a weak-P plateau — pocket POSITION is a real A0 variable).
+**A1/A2 KILLED in the interior.**
+**D2b THEOREMS: T-G1** no finite self-closing G VACUUM (verifier-extended ROUTE-ROBUST); **T-G2 the
+mass-emergence MECHANISM is P-ONLY** (G's φ-equation source-free for ANY φ-blind matter ⇒ no anchor/
+seal charge/flux ladder/quantization closure) — **Charles's one-sidedness = a theorem at mechanism
+level**; strong wording refuted by an exact φ-flat massed G-cell (σ-free-function channel, zero
+evidential weight — "G is where matter may sit φ-inertly").
+**D2c:** Route-B mixing term DISCHARGED (does NOT vanish in bulk — corrected Route-B EOMs banked;
+CANCELS at folds ⇒ **all banked fold pins + E_ang(core)=2 ROUTE-B-ROBUST, verified**; Route B = Route-A
+Z=8 kinetics in φ̃=φ+½lnρ minus ρ'²; **flat FAILS Route-B G** — vacuum deformed = a macro-consilience
+lever on the fork). **THE HEADLINE: the Route-A G|P composite closes NOWHERE** (scoped: Z>0, φ(fold)=0,
+source-free seals; C2 at a G|P seal = 2x(1−x)ρ'² needing φ_p>0, flux law forbids) — **the three escapes
+= CHARLES'S FORKS: Route B (φ̃-monotonicity opens it — a STRUCTURAL DISCRIMINATOR between routes),
+Class-B seals, twisted folds (φ→2a−φ, exact G-symmetry ∀a — rescues A1 only)**. Survivors: criticality
+migration BRANCH-BLIND; G-layer = 2-scalar conduit (q,H) — "the algebra crosses, the carrier does not"
+(Q2 answered); fold saturation q=2√Z·ρ_sU = the banked T2 ceiling verbatim (consilience); countings
+square (square ≠ nonempty).
+**LIVE NEXT = THE D2 SYNTHESIS PONDER w/ CHARLES — his six forks: (F1) twisted folds admissible?
+(F2) does the φ-flat massed G-cell "count" as structure (T-G1 wording)? (F3) THE ROUTE FORK — now
+physics (discriminator + vacuum deformation + twisted-fold interplay; explore Route B?); (F4)
+compactly-supported carrier; (F5) Class A/B for the particle seal (standing gate); (F6) the G-core
+(G-inside) architecture (flagged, underived). THEN the path fork: E2c optimizer (A0 undecided) vs
+Route-B exploration vs D4 ω≠0. Also owed: photon re-grade (#47-pos/#50 on native field equations).**
 Standing open: soft-mode magnitude convention; parity boundary term; handover; above-copy N=4–7; O(A²)
 q-coeff; angular+dynamical stability; Bin-2 re-grades at point of use; Z=8/Route-B mixing-term tension;
 relay owed to claude.ai (+ Stage-D + E0/E1).**
