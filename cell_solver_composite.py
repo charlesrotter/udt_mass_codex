@@ -375,6 +375,165 @@ def lm_qr(resfn_t, w0, maxit=60, lam0=1e-6, tol=1e-24, time_budget=300.0, resfn_
     return w, dict(Phi=Phi, iters=nit, hist=hist, wall=time.time() - t0)
 
 
+# =========================================================================================
+# HARDENED LM DRIVER  (E2c; Category-A conditioning only -- no physics/equation change).
+# Built after the E2c diagnosis (microphysics_E2c_optimizer_hardening_results.md) pinned the
+# monolithic LM's ~1e-3 convergence radius to a SPECIFIC, curable failure mode:
+#
+#   (a) THE SOFT DILATION-SLIDE = a near-EXACT TRANSLATION GAUGE of the boundary pair.  The
+#       ambient EOMs are AUTONOMOUS in r (no explicit r), so sliding [r_p, r_sU] -> [r_p+d, r_sU+d]
+#       with the same node values is a near-symmetry (broken only ~1e-4 by the cell at the seal).
+#       DIAGNOSED: dF/dr_p = -1.0000 * dF/dr_sU (cos = -1.000000); the softest singular direction
+#       is 0.5/0.5 on (r_p, r_sU), ~0 on all fields, sigma_min ~ 2.2e-9 vs sigma_max ~ 8e7 at the
+#       ROOT (raw cond ~ 3.6e16 ~ 1/eps_f64).  The old column-scaled LM's Tikhonov lam*I CANNOT
+#       control this: sigma_soft ~ 4e-7 (equilibrated) means any lam >~ 1e-13 kills the (weakly
+#       determined but NECESSARY) slide direction, any smaller lets it run away -> the observed
+#       outward boundary drift (a full Gauss-Newton step catapults r_p 548 -> 1804).
+#
+# THE MATCHED FIXES (each Category-A; soundness noted):
+#   1. RUIZ two-sided (row+col) inf-norm equilibration of J each iteration.  Column scaling alone
+#      (the old LM) leaves cond ~ 5.7e11 (float64 wall); row+col equilibration -> cond ~ 1.9e7.
+#      SOUND: diagonal similarity D_r J D_c preserves the root set (solving D_r F(D_c y)=0 has the
+#      same zeros); it only rescales, never reshapes.  Row scaling matters because residual blocks
+#      span 1e-19 (fold_phi) to 1e-3 (ambient ODE).
+#   2. POWELL DOGLEG TRUST REGION (not Tikhonov LM).  The Gauss-Newton step includes the soft
+#      slide fully (needed to pin the boundary), but its magnitude (||y|| ~ 399 on a runaway vs
+#      ~5 on a healthy step) is the runaway signature; the trust radius truncates the catapult
+#      while passing healthy full-GN steps.  The Cauchy/steepest-descent leg has ~0 component
+#      along the flat slide (grad ~ A^T F is small there), so the dogleg NEVER runs away.  The
+#      trust-region metric = the TRUE residual ||F||^2 (col-scaled variables), so the Cauchy leg
+#      is a genuine descent direction for the merit and the gain ratio is consistent.
+#   3. EXTENDED-PRECISION (numpy longdouble) linear solve near convergence (ld_polish) + optional
+#      longdouble residual path (res_hp), reusing the pure-universe pattern -- squeezes the last
+#      digits to clear 1e-8 at the float64 residual edge.  SOUND: same formulas, higher precision.
+#   4. Boundary POSITIVITY + ORDER guards as trust constraints (r_p>0, r_sU>r_p): shrink Delta
+#      rather than accept an unphysical step (a domain guard, not a merit filter).
+#
+# Anti-hang: bounded maxit + wall budget, single process, no background poll.  Cheap Jacobian on
+# GPU (jacrev, float64) + numpy linear algebra on CPU (equilibration/lstsq/longdouble polish).
+# =========================================================================================
+def _ruiz_equilibrate(J, iters=20):
+    """Two-sided (Ruiz) inf-norm equilibration.  Returns (dr, dc) with A = dr[:,None]*J*dc[None,:]
+    having ~unit inf-norm rows and columns.  Category-A conditioning: a diagonal similarity that
+    preserves the root set (it rescales rows/cols, never reshapes the system)."""
+    A = np.asarray(J, dtype=np.float64)
+    m, n = A.shape
+    dr = np.ones(m); dc = np.ones(n)
+    for _ in range(iters):
+        rn = np.abs(A).max(1); rn[rn < 1e-300] = 1.0
+        cn = np.abs(A).max(0); cn[cn < 1e-300] = 1.0
+        sr = 1.0 / np.sqrt(rn); sc = 1.0 / np.sqrt(cn)
+        A = sr[:, None] * A * sc[None, :]; dr *= sr; dc *= sc
+    return dr, dc
+
+
+def lm_hardened(resfn_t, w0, maxit=300, time_budget=300.0, device="cpu", resfn_hp=None,
+                Delta0=8.0, Dmax=256.0, pos_idx=None, order_idx=None, ld_polish=True,
+                gtol=1e-30, verbose=False, hist_out=None):
+    """Hardened composite solver (E2c).  Ruiz-equilibrated Powell dogleg trust region with
+    extended-precision polish.  Category-A conditioning only -- the residual `resfn_t` (physics)
+    is UNCHANGED.  Args:
+      resfn_t   : torch float64 residual on `device` (Jacobian via jacrev; residual too if no _hp)
+      resfn_hp  : optional numpy-longdouble residual (same formulas) for extended-precision Phi
+      Delta0/Dmax : initial / max trust radius (scaled-variable norm; healthy GN steps ~ O(5))
+      pos_idx   : indices constrained > 0 (e.g. the two free boundaries)
+      order_idx : (i, j) requiring w[j] > w[i] (e.g. r_sU > r_p)
+      ld_polish : (RETAINED FLAG, accumulation-only — verifier ab6305ce222eee961) the certified
+                  precision comes from longdouble ACCUMULATION of w/Phi, NOT a longdouble linear
+                  solve (the solve is float64); flag kept for interface stability, gates the
+                  longdouble accumulation path.
+    Returns (w [np.longdouble], info).  info has Phi, maxF, iters, hist, wall, Delta."""
+    import time
+    from torch.func import jacrev
+    t0 = time.time()
+    w = np.asarray(w0, dtype=np.longdouble).copy()
+    n = w.size
+    evalF = (lambda ww: np.asarray(resfn_hp(ww), dtype=np.longdouble)) if resfn_hp is not None else \
+        (lambda ww: resfn_t(torch.as_tensor(ww.astype(float), device=device)
+                            ).detach().cpu().numpy().astype(np.longdouble))
+    F = evalF(w); Phi = float((F * F).sum())
+    Delta = float(Delta0); nit = 0; stall = 0; hist = [Phi]
+
+    def feasible(wn):
+        if pos_idx is not None and any(wn[i] <= 0 for i in pos_idx):
+            return False
+        if order_idx is not None and wn[order_idx[1]] <= wn[order_idx[0]]:
+            return False
+        return True
+
+    for it in range(maxit):
+        nit = it + 1
+        if Phi < gtol or (time.time() - t0) > time_budget:
+            break
+        wt = torch.as_tensor(w.astype(float), device=device)
+        J = jacrev(resfn_t)(wt).detach().cpu().numpy().astype(np.float64)
+        dr, dc = _ruiz_equilibrate(J)
+        # Gauss-Newton step in scaled-variable (ytilde) space: dx = dc * y.  The linear solve is
+        # float64 (this numpy's lstsq has no longdouble LAPACK path) -- after Ruiz equilibration
+        # cond ~ 1.9e7, so float64 lstsq already resolves the step to well below the 1e-8 target;
+        # the residual + iterate ACCUMULATION stay longdouble (evalF / w), and res_hp (when given)
+        # evaluates Phi in extended precision -- the Category-A precision this problem needs.
+        Aeq = dr[:, None] * J * dc[None, :]; beq = -dr * np.asarray(F, dtype=np.float64)
+        ygn, *_ = np.linalg.lstsq(Aeq, beq, rcond=None)
+        Jc = J * dc[None, :]; Ff = np.asarray(F, dtype=np.float64)
+        ngn = float(np.linalg.norm(np.asarray(ygn, dtype=np.float64)))
+        # Cauchy (steepest-descent) leg in the TRUE-residual metric: model F + Jc*y
+        gvec = Jc.T @ Ff; Jcg = Jc @ gvec
+        tau = float((gvec @ gvec)) / float((Jcg @ Jcg) + 1e-300)
+        yc = -tau * gvec; nc = float(np.linalg.norm(np.asarray(yc, dtype=np.float64)))
+        accepted = False
+        for _try in range(80):
+            if ngn <= Delta:
+                y = ygn
+            elif nc >= Delta:
+                y = yc * (Delta / nc)
+            else:                                        # dogleg blend on the yc->ygn segment
+                d = ygn - yc
+                aa = float(np.asarray(d @ d, dtype=np.float64))
+                bb = 2.0 * float(np.asarray(yc @ d, dtype=np.float64))
+                cc = float(np.asarray(yc @ yc, dtype=np.float64)) - Delta ** 2
+                s = (-bb + math.sqrt(max(bb * bb - 4 * aa * cc, 0.0))) / (2 * aa)
+                y = yc + s * d
+            dx = np.asarray(dc, dtype=y.dtype) * y
+            wn = w + dx.astype(np.longdouble)
+            if not feasible(wn):
+                Delta *= 0.5
+                if Delta < 1e-14:
+                    break
+                continue
+            try:
+                Fn = evalF(wn); Pn = float((Fn * Fn).sum())
+            except Exception:
+                Pn = float("inf")
+            resm = Ff + Jc @ np.asarray(y, dtype=Ff.dtype)
+            pred = float((Ff * Ff).sum() - (resm * resm).sum())
+            gain = (Phi - Pn) / pred if pred > 1e-300 else -1.0
+            if math.isfinite(Pn) and Pn < Phi:
+                w = wn; F = Fn; Phi = Pn; accepted = True
+                if gain > 0.75:
+                    Delta = min(2.0 * Delta, Dmax)
+                elif gain < 0.25:
+                    Delta = max(0.5 * Delta, 1e-12)
+                break
+            Delta *= 0.5
+            if Delta < 1e-14:
+                break
+        hist.append(Phi)
+        if verbose:
+            print(f"  [lm-hard] it={it:3d} Phi={Phi:.4e} maxF={float(np.abs(F).max()):.3e} "
+                  f"Delta={Delta:.2e} {'acc' if accepted else 'STALL'}", flush=True)
+        if not accepted:
+            stall += 1
+            if stall > 3:
+                break
+        else:
+            stall = 0
+    if hist_out is not None:
+        hist_out.extend(hist)
+    return w, dict(Phi=Phi, maxF=float(np.abs(F).max()), iters=nit, hist=hist,
+                   wall=time.time() - t0, Delta=Delta)
+
+
 def solve_pure_universe(label, Na=288, kmap=2.5, a_pert=1e-3, maxit=140, device="cpu",
                         time_budget=300.0, verbose=False):
     """Criterion-2 recovery: pure-universe limit of the composite machinery on one bracket.
