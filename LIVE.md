@@ -108,13 +108,22 @@ ASYMMETRIC REGIMES (one has mass emergence, potentially spinors; the universe-ba
 link = the INVARIANT ANGULAR SECTOR); the E2 pocket = "a smaller universe cell" (the P|P continuity seal
 CHOSE, E1 ledger #9, is the indicted row). Destruction/black-holes-at-φ=0 piece DEFERRED by Charles until
 an emergence model exists (marginality-at-the-fold consilience banked as the pointer).**
-**LIVE NEXT = (1) E2c OPTIMIZER HARDENING (the pre-committed ladder's owed step, solver-first:
-globalization/deflation/extended-precision/soft-direction handling, certified by the SAME MMS gauntlet
-from seed-class distances BEFORE any re-sweep); (2) THE TWO-REGIME MAP w/ Charles (no compute): core
-questions = where-is-the-zero (local-relative crossing? the G|P branch boundary — banked PONDER: beyond-CMB
-natively G? convention-hides-it?) + the invariant angular bridge; emergence-on-one-side = tagged hunch;
-the untested G|P weight-jump seal is the derivable alternative to the P|P CHOSE. Order: E2c and the MAP
-are independent — MAP can go first (cheap) if Charles wants the frame question before more numerics.**
+**PONDER + D1 DONE (2026-07-04): the emergence-directions ponder is banked
+(`ponder_emergence_directions_2026-07-04.md`, D1–D5 ordered). D1 RAN AND BANKED blind-verified (800aa5c,
+verifier a8e6f8faa37a495d0 8/8; `d1_angular_constants_native_rederivation.md`): **N=3 = TRUE CARGO**
+(native-rederived, STRENGTHENED — no SO(N)-invariant 2-form at any other rank; any closed 2-surface;
++ the 9=1+8=1+3+5 algebra, real carrier, structural-i survive); **q=1/3 and η=1/18 = IMPORT-DEPENDENT**
+(s=1/9 backsolve / postulated ½; steel-man failed 4 native routes; η natively homeless — now TARGETS the
+framework must produce or decline); **QCD/QED precision layer = pre-classifier scaffolding CONFIRMED**;
+**photon/EM-native re-grade OWED on the native field equations (#47-pos/#50)**; promotion error corrected
+in 3 banked locations (h1_types hard-codes q=1/3).
+LIVE NEXT (ponder order): (1) D2 = THE TWO-REGIME MAP w/ Charles (no compute): where-is-the-zero
+(local-relative crossing? the G|P branch boundary — banked PONDER: beyond-CMB natively G?
+convention-hides-it?) + the invariant angular bridge (now anchored by the D1 survivors); emergence-on-
+one-side = tagged hunch; the untested G|P weight-jump seal = the derivable alternative to the indicted
+P|P CHOSE. (2) D3 = E2c OPTIMIZER HARDENING (solver-first; MMS-gauntlet-certified from seed-class
+distances BEFORE any re-sweep — gates all sweeps of ANY frame). (3) D4 = ω≠0 on the surviving frame.
+Also owed: the photon re-grade (cheap, could ride D2).**
 Standing open: soft-mode magnitude convention; parity boundary term; handover; above-copy N=4–7; O(A²)
 q-coeff; angular+dynamical stability; Bin-2 re-grades at point of use; Z=8/Route-B mixing-term tension;
 relay owed to claude.ai (+ Stage-D + E0/E1).**
