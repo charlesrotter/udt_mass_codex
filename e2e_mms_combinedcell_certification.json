@@ -1,0 +1,258 @@
+{
+ "M_W1_plateau": {
+  "cfg": {
+   "lab": "A1 m=3 Z=8",
+   "N": 1,
+   "XI": 0.5,
+   "KAP": 0.1,
+   "frac": 0.5
+  },
+  "rho_c_derived": 0.18257418583505536,
+  "deltas": [
+   {
+    "delta": 0.1,
+    "rootF": 0.0,
+    "phys": {
+     "seed": "PHYS",
+     "seedF": 16.91297038461851,
+     "seed_dist": 0.09999999999999964,
+     "methods": {
+      "direct": {
+       "method": "direct",
+       "maxF": 1.2301558687324317,
+       "maxF_cpu": 1.230155868732492,
+       "dist": 18.428181534429086,
+       "rp_ratio": 0.9361797560412068,
+       "reached": false,
+       "wall": 10.1
+      },
+      "arclen": {
+       "method": "arclen",
+       "maxF": 1.8613022457077153,
+       "maxF_cpu": 1.861302245707716,
+       "dist": 24.004660889566694,
+       "rp_ratio": 0.9168673636485474,
+       "reached": false,
+       "wall": 50.0,
+       "s_max": 0.0008558145755127518,
+       "folded": true
+      }
+     }
+    },
+    "flat": {
+     "seed": "FLAT",
+     "seedF": 62.628199956816886,
+     "seed_dist": 0.8180928492020976,
+     "methods": {
+      "direct": {
+       "method": "direct",
+       "maxF": 5.389201718500317,
+       "maxF_cpu": 5.389201718498471,
+       "dist": 244.3522269506474,
+       "rp_ratio": 0.15376247478735047,
+       "reached": false,
+       "wall": 7.5
+      },
+      "arclen": {
+       "method": "arclen",
+       "maxF": 0.8644015270822156,
+       "maxF_cpu": 0.8644015270823786,
+       "dist": 282.51044847831685,
+       "rp_ratio": 0.021613407209534127,
+       "reached": false,
+       "wall": 50.2,
+       "s_max": 3.487946669154923e-11,
+       "folded": true
+      }
+     }
+    }
+   },
+   {
+    "delta": 0.3,
+    "rootF": 0.0,
+    "phys": {
+     "seed": "PHYS",
+     "seedF": 97.49338682660675,
+     "seed_dist": 0.2999999999999998,
+     "methods": {
+      "direct": {
+       "method": "direct",
+       "maxF": 17.60284271554417,
+       "maxF_cpu": 17.60284271554451,
+       "dist": 94.1334938549598,
+       "rp_ratio": 1.3260019189247265,
+       "reached": false,
+       "wall": 7.2
+      },
+      "arclen": {
+       "method": "arclen",
+       "maxF": 0.15280436506840545,
+       "maxF_cpu": 0.1528043650686186,
+       "dist": 69.44986361208156,
+       "rp_ratio": 0.7695023096204058,
+       "reached": false,
+       "wall": 50.2,
+       "s_max": 6.610295204827763e-05,
+       "folded": true
+      }
+     }
+    },
+    "flat": {
+     "seed": "FLAT",
+     "seedF": 97.51059946542624,
+     "seed_dist": 0.8180928492020976,
+     "methods": {
+      "direct": {
+       "method": "direct",
+       "maxF": 0.2767051366997424,
+       "maxF_cpu": 0.2767051366999205,
+       "dist": 185.78071064492198,
+       "rp_ratio": 0.38217144902301287,
+       "reached": false,
+       "wall": 7.4
+      },
+      "arclen": {
+       "method": "arclen",
+       "maxF": 5.177397583273418,
+       "maxF_cpu": 5.177397583270363,
+       "dist": 256.29450375717755,
+       "rp_ratio": 0.11240413360798547,
+       "reached": false,
+       "wall": 50.0,
+       "s_max": 3.9787536961724245e-11,
+       "folded": true
+      }
+     }
+    }
+   }
+  ]
+ },
+ "M_W6_wall": {
+  "cfg": {
+   "lab": "A1 m=3 Z=8",
+   "N": 2,
+   "XI": 0.05,
+   "KAP": 1.0,
+   "frac": 0.95
+  },
+  "rho_c_derived": 1.0327955589886444,
+  "deltas": [
+   {
+    "delta": 0.1,
+    "rootF": 0.0,
+    "phys": {
+     "seed": "PHYS",
+     "seedF": 2.091580370232652,
+     "seed_dist": 0.09999999999999964,
+     "methods": {
+      "direct": {
+       "method": "direct",
+       "maxF": 2.093799582147854,
+       "maxF_cpu": 2.0937995821478506,
+       "dist": 583.883512381745,
+       "rp_ratio": 2.06386782630986,
+       "reached": false,
+       "wall": 7.2
+      },
+      "arclen": {
+       "method": "arclen",
+       "maxF": 0.05066965965596548,
+       "maxF_cpu": 0.050669659655965926,
+       "dist": 276.16697557495337,
+       "rp_ratio": 0.4966221273186222,
+       "reached": false,
+       "wall": 50.1,
+       "s_max": 0.00023187991653783125,
+       "folded": true
+      }
+     }
+    },
+    "flat": {
+     "seed": "FLAT",
+     "seedF": 2.2800041855301405,
+     "seed_dist": 0.09999999999999964,
+     "methods": {
+      "direct": {
+       "method": "direct",
+       "maxF": 1.3639243068297446e-09,
+       "maxF_cpu": 1.4041278806331547e-08,
+       "dist": 359.9925000808649,
+       "rp_ratio": 0.3438308165026257,
+       "reached": false,
+       "wall": 1.5
+      },
+      "arclen": {
+       "method": "arclen",
+       "maxF": 0.006361501410026893,
+       "maxF_cpu": 0.006361501410026005,
+       "dist": 150.37488935081404,
+       "rp_ratio": 0.7265307172398774,
+       "reached": false,
+       "wall": 50.3,
+       "s_max": 3.522182129913864e-06,
+       "folded": true
+      }
+     }
+    }
+   },
+   {
+    "delta": 0.3,
+    "rootF": 0.0,
+    "phys": {
+     "seed": "PHYS",
+     "seedF": 5.273023307036565,
+     "seed_dist": 0.2999999999999998,
+     "methods": {
+      "direct": {
+       "method": "direct",
+       "maxF": 0.0892765165416578,
+       "maxF_cpu": 0.08927651654166002,
+       "dist": 279.15681656379155,
+       "rp_ratio": 0.49117245400600534,
+       "reached": false,
+       "wall": 7.4
+      },
+      "arclen": {
+       "method": "arclen",
+       "maxF": 0.050947023444652594,
+       "maxF_cpu": 0.05094702344464829,
+       "dist": 293.0993522339433,
+       "rp_ratio": 0.46575897387930426,
+       "reached": false,
+       "wall": 50.2,
+       "s_max": 1.7410093022009757e-05,
+       "folded": true
+      }
+     }
+    },
+    "flat": {
+     "seed": "FLAT",
+     "seedF": 5.425564849358691,
+     "seed_dist": 0.2999999999999998,
+     "methods": {
+      "direct": {
+       "method": "direct",
+       "maxF": 0.5306574430177684,
+       "maxF_cpu": 0.530657443017768,
+       "dist": 176.3395535968912,
+       "rp_ratio": 0.6809321269761688,
+       "reached": false,
+       "wall": 7.2
+      },
+      "arclen": {
+       "method": "arclen",
+       "maxF": 5.425967347165633,
+       "maxF_cpu": 5.425967347165631,
+       "dist": 62.267464193480755,
+       "rp_ratio": 0.8865032156805757,
+       "reached": false,
+       "wall": 50.4,
+       "s_max": 4.141047104927122e-07,
+       "folded": true
+      }
+     }
+    }
+   }
+  ]
+ }
+}
