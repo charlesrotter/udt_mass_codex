@@ -45,12 +45,19 @@ banked fold values + E_ang(core)=2 route-robust VERIFIED; flat FAILS Route-B G =
 observable = s = 2μ/Z, the vacuum-deformation exponent — observability EXACT; the mixing term = a
 kinetic-level φ-angular coupling). **NEXT = R2 (reframed): BOUND s against the macro constraints —
 pre-register the s-dependence of each observable FIRST (data-blind), then confront** (charter §3).
-**R2 derivation half = a committed LEAD ONLY (`r2_prereg_s_dependence_LEAD.md`, fbb331a; Fable→Opus
-handover mid-run): CAS 34/34 data-blind PASS, but OWED = results doc + frozen table + BLIND VERIFIER
-+ Charles's reframe blessing → NOT banked. LOAD-BEARING CAVEAT (S10a): the orbit rows (incl. the
-seductive v²=s "flat rotation law") ride on the UNSETTLED metric-geodesic-vs-native-weighted-motion
-premise — attack hardest, do not bank; the light + clock rows are motion-law-robust = the solid part.**
-Charles's two R1 flags pending: single-curvature-origin premise?; bless the R2 reframe. (2) The other
+**R2 DONE + BANKED, blind-verified (`r2_prereg_s_dependence.md`, commit 3515f62; reframe BLESSED by
+Charles; verifier a82dd36ef191768dd 26/26, corrected 2 over-reaches). BANKED: s=2μ/Z = the ONE
+gauge-invariant vacuum observable; J(s) light-deflection = the frame-ROBUST confrontation lever
+(J(0)=π, J(½)=4, O(s) impact-parameter-independent; a bound s_max<½ kills Route B but not small-μ =
+NOT binary); ∝s structural levers (realizability caveats). The rotation-law v²=s = PREMISE-CONDITIONAL
+(lives under g, killed only by the observationally-DEAD ĝ branch — NOT an artifact, NOT banked).
+⇒ NEW STOP-QUESTION FOR CHARLES (gates the data step + every orbit/clock row): WHICH METRIC DOES
+MATTER COUPLE TO — g, ĝ=e^{2φ}g, or is matter-in-motion a FIELD/S²-defect not a worldline? ĝ-as-physical
+is REFUTED (reductio: zero redshift vs GPS + zero orbits vs solar system); live = g-coupling (but tension
+w/ the derived e^{+φ} static weight, S13c) vs matter-is-a-field (then test-particle orbit/clock rows are
+ill-posed; only J(s) confrontable). Per solver-first the reductio indicts the moving-law CHOSE, not the
+metric. NEXT after the ruling: pre-registered data confrontation of J(s) to bound s.**
+Charles's two R1 flags: single-curvature-origin premise? (his lean: decline); R2 reframe = BLESSED. (2) The other
 five forks pending (charter §4). (3) Standing owed: photon/EM re-grade; E2c optimizer gauntlet before
 ANY sweep; D4 ω≠0 after the route fork; R3 = Route-B universe cell (well-posed across the sheet).
 Charles ruled: destruction/black-holes PARKED post-emergence.**
