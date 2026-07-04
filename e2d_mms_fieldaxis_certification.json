@@ -1,0 +1,676 @@
+{
+ "MMS1_A1Z8_wall": {
+  "bracket": "A1 m=3 Z=8",
+  "n": 506,
+  "cases": [
+   {
+    "axis": "boundary",
+    "sc": 10.0,
+    "seedF": 0.141376293214718,
+    "seed_dist": 11.0,
+    "direct": {
+     "method": "direct",
+     "maxF": 7.110831923284877e-10,
+     "maxF_cpu": 1.0632722424741559e-08,
+     "dist": 1.8043331210082503e-05,
+     "rp_ratio": 0.9999999671118762,
+     "reached": true,
+     "wall": 1.0
+    }
+   },
+   {
+    "axis": "boundary",
+    "sc": 20.0,
+    "seedF": 0.2692393999314642,
+    "seed_dist": 22.0,
+    "direct": {
+     "method": "direct",
+     "maxF": 9.593312255695707e-10,
+     "maxF_cpu": 2.738886645259342e-08,
+     "dist": 4.81613265934655e-09,
+     "rp_ratio": 0.9999999999912305,
+     "reached": true,
+     "wall": 0.8
+    }
+   },
+   {
+    "axis": "boundary",
+    "sc": 30.0,
+    "seedF": 0.38525818836788783,
+    "seed_dist": 33.0,
+    "direct": {
+     "method": "direct",
+     "maxF": 2.408291066569035e-09,
+     "maxF_cpu": 9.432035430467778e-09,
+     "dist": 2.3900540990773322e-09,
+     "rp_ratio": 0.9999999999956446,
+     "reached": true,
+     "wall": 0.7
+    }
+   },
+   {
+    "axis": "u",
+    "sc": 0.05,
+    "seedF": 0.046667005030751496,
+    "seed_dist": 0.04711530554438548,
+    "direct": {
+     "method": "direct",
+     "maxF": 1.5680504672488382e-09,
+     "maxF_cpu": 9.754529073369156e-09,
+     "dist": 5.807145986302942e-09,
+     "rp_ratio": 0.9999999999894189,
+     "reached": true,
+     "wall": 0.8
+    },
+    "arclen": {
+     "method": "arclen",
+     "maxF": 7.180160688236015e-09,
+     "maxF_cpu": 2.6575879386037116e-08,
+     "dist": 2.940996639833049e-06,
+     "rp_ratio": 0.9999999946399268,
+     "reached": true,
+     "wall": 5.6,
+     "s_max": 1.3335277787567656,
+     "s_reached": 1.3335277787567656,
+     "folded": false
+    }
+   },
+   {
+    "axis": "u",
+    "sc": 0.1,
+    "seedF": 0.09479284812060929,
+    "seed_dist": 0.09423061108877084,
+    "direct": {
+     "method": "direct",
+     "maxF": 9.39343158812278e-10,
+     "maxF_cpu": 1.629732881980317e-08,
+     "dist": 1.3231530260338076e-08,
+     "rp_ratio": 0.9999999999759037,
+     "reached": true,
+     "wall": 0.5
+    },
+    "arclen": {
+     "method": "arclen",
+     "maxF": 1.256845405528395e-09,
+     "maxF_cpu": 1.6929299073709103e-08,
+     "dist": 2.730140447049223e-09,
+     "rp_ratio": 0.9999999999950451,
+     "reached": true,
+     "wall": 5.2,
+     "s_max": 1.270650448315909,
+     "s_reached": 1.270650448315909,
+     "folded": false
+    }
+   },
+   {
+    "axis": "u",
+    "sc": 0.15,
+    "seedF": 0.14442271098809878,
+    "seed_dist": 0.14134591663315632,
+    "direct": {
+     "method": "direct",
+     "maxF": 6.81080414288715e-10,
+     "maxF_cpu": 7.3988741244868095e-09,
+     "dist": 2.5033456418910305e-09,
+     "rp_ratio": 0.9999999999954415,
+     "reached": true,
+     "wall": 0.9
+    },
+    "arclen": {
+     "method": "arclen",
+     "maxF": 1.0283163764945868e-09,
+     "maxF_cpu": 1.8633984077975896e-08,
+     "dist": 1.5611316128705255e-09,
+     "rp_ratio": 0.9999999999971577,
+     "reached": true,
+     "wall": 5.3,
+     "s_max": 1.1341561775338256,
+     "s_reached": 1.1341561775338256,
+     "folded": false
+    }
+   },
+   {
+    "axis": "u",
+    "sc": 0.2,
+    "seedF": 0.19559278362566712,
+    "seed_dist": 0.1884612221775418,
+    "direct": {
+     "method": "direct",
+     "maxF": 5.005838521476846e-10,
+     "maxF_cpu": 6.725652534900206e-09,
+     "dist": 7.294793658019216e-10,
+     "rp_ratio": 0.9999999999986704,
+     "reached": true,
+     "wall": 1.0
+    },
+    "arclen": {
+     "method": "arclen",
+     "maxF": 6.22639051428564e-10,
+     "maxF_cpu": 1.639802155173342e-08,
+     "dist": 1.058030996148318e-09,
+     "rp_ratio": 0.9999999999980871,
+     "reached": true,
+     "wall": 6.5,
+     "s_max": 1.1661830308697967,
+     "s_reached": 1.1661830308697967,
+     "folded": false
+    }
+   },
+   {
+    "axis": "u",
+    "sc": 0.3,
+    "seedF": 0.30264887527117457,
+    "seed_dist": 0.28269183326631275,
+    "direct": {
+     "method": "direct",
+     "maxF": 8.211273883063086e-10,
+     "maxF_cpu": 3.3930599996345734e-09,
+     "dist": 3.317766061883276e-09,
+     "rp_ratio": 0.9999999999939588,
+     "reached": true,
+     "wall": 0.7
+    },
+    "arclen": {
+     "method": "arclen",
+     "maxF": 1.1062760374436209e-08,
+     "maxF_cpu": 8.267773965453529e-09,
+     "dist": 3.538277226766695e-09,
+     "rp_ratio": 1.0000000000064493,
+     "reached": false,
+     "wall": 10.4,
+     "s_max": 1.0051315590024228,
+     "s_reached": 1.0051315590024228,
+     "folded": false
+    }
+   },
+   {
+    "axis": "cell",
+    "sc": 0.05,
+    "seedF": 0.041020307592618654,
+    "seed_dist": 0.048755855644988744,
+    "direct": {
+     "method": "direct",
+     "maxF": 0.0002775010446383064,
+     "maxF_cpu": 0.0002775010446383064,
+     "dist": 1062.2504910261937,
+     "rp_ratio": 2.936009324379199,
+     "reached": false,
+     "wall": 11.7
+    },
+    "arclen": {
+     "method": "arclen",
+     "maxF": 0.00016061267782507826,
+     "maxF_cpu": 0.00016061267782507826,
+     "dist": 851.195825850398,
+     "rp_ratio": 2.551247637318648,
+     "reached": false,
+     "wall": 60.2,
+     "s_max": 0.15495276204894898,
+     "s_reached": 0.15495276204894898,
+     "folded": true
+    }
+   },
+   {
+    "axis": "cell",
+    "sc": 0.1,
+    "seedF": 0.08513961473745457,
+    "seed_dist": 0.09751171128997749,
+    "direct": {
+     "method": "direct",
+     "maxF": 0.0007721716100299383,
+     "maxF_cpu": 0.000772171610045419,
+     "dist": 1116.6553684650185,
+     "rp_ratio": 3.0350601384924487,
+     "reached": false,
+     "wall": 9.0
+    },
+    "arclen": {
+     "method": "arclen",
+     "maxF": 0.00022096707399699156,
+     "maxF_cpu": 0.00022096707399699156,
+     "dist": 966.4478908043186,
+     "rp_ratio": 2.7613316280148386,
+     "reached": false,
+     "wall": 60.2,
+     "s_max": 0.19010975260145271,
+     "s_reached": 0.19010975260145271,
+     "folded": true
+    }
+   },
+   {
+    "axis": "cell",
+    "sc": 0.15,
+    "seedF": 0.13222933373654866,
+    "seed_dist": 0.146267566934966,
+    "direct": {
+     "method": "direct",
+     "maxF": 0.0016817729707842676,
+     "maxF_cpu": 0.00168177297078423,
+     "dist": 1571.5627224599282,
+     "rp_ratio": 3.8626374228062317,
+     "reached": false,
+     "wall": 11.9
+    },
+    "arclen": {
+     "method": "arclen",
+     "maxF": 1.0483431345242877e-09,
+     "maxF_cpu": 1.717750353069647e-08,
+     "dist": 4.600745188154676e-06,
+     "rp_ratio": 0.999999991614083,
+     "reached": true,
+     "wall": 60.2,
+     "s_max": 0.09774069929074797,
+     "s_reached": 0.09774069929074797,
+     "folded": true
+    }
+   },
+   {
+    "axis": "cell",
+    "sc": 0.2,
+    "seedF": 0.18214049236794738,
+    "seed_dist": 0.19502342257995475,
+    "direct": {
+     "method": "direct",
+     "maxF": 0.004009336995068669,
+     "maxF_cpu": 0.00400933699506778,
+     "dist": 849.2849185619607,
+     "rp_ratio": 2.546006926638494,
+     "reached": false,
+     "wall": 9.0
+    },
+    "arclen": {
+     "method": "arclen",
+     "maxF": 0.007233706349462521,
+     "maxF_cpu": 0.007233706349462521,
+     "dist": 4005.922624228065,
+     "rp_ratio": 8.301488717550347,
+     "reached": false,
+     "wall": 60.5,
+     "s_max": 0.11066329039298267,
+     "s_reached": 0.11066329039298267,
+     "folded": true
+    }
+   },
+   {
+    "axis": "cell",
+    "sc": 0.3,
+    "seedF": 0.2897405390869182,
+    "seed_dist": 0.292535133869932,
+    "direct": {
+     "method": "direct",
+     "maxF": 0.0028910181606512453,
+     "maxF_cpu": 0.002891018160651231,
+     "dist": 1618.6458472721147,
+     "rp_ratio": 3.9501143047485328,
+     "reached": false,
+     "wall": 9.0
+    },
+    "arclen": {
+     "method": "arclen",
+     "maxF": 0.0015028935841813126,
+     "maxF_cpu": 0.0015028935835284668,
+     "dist": 481.93025464588646,
+     "rp_ratio": 1.8773261377707713,
+     "reached": false,
+     "wall": 60.4,
+     "s_max": 0.14229308311033495,
+     "s_reached": 0.1361218038553812,
+     "folded": true
+    }
+   },
+   {
+    "axis": "cell",
+    "sc": 0.3,
+    "seedF": 0.2897405390869182,
+    "seed_dist": 0.292535133869932,
+    "fp": {
+     "method": "fp",
+     "maxF": 0.0028890090553717346,
+     "maxF_cpu": 0.002889009055371746,
+     "dist": 1621.2947168214018,
+     "rp_ratio": 3.9549429259136883,
+     "reached": false,
+     "wall": 38.5,
+     "s_reached": 0.0
+    }
+   }
+  ]
+ },
+ "MMS2_A3Z1_plateau_bulge": {
+  "bracket": "A3 Z=1",
+  "n": 506,
+  "cases": [
+   {
+    "axis": "boundary",
+    "sc": 10.0,
+    "seedF": 0.8183383896500303,
+    "seed_dist": 11.0,
+    "direct": {
+     "method": "direct",
+     "maxF": 1.2298495555285172e-12,
+     "maxF_cpu": 1.3165413204063725e-11,
+     "dist": 3.998689712680914e-10,
+     "rp_ratio": 1.0000000000018452,
+     "reached": true,
+     "wall": 0.5
+    }
+   },
+   {
+    "axis": "boundary",
+    "sc": 20.0,
+    "seedF": 1.4407518473864926,
+    "seed_dist": 22.0,
+    "direct": {
+     "method": "direct",
+     "maxF": 4.970468481246826e-13,
+     "maxF_cpu": 3.5010327970042e-12,
+     "dist": 2.432228862758734e-09,
+     "rp_ratio": 1.0000000000235039,
+     "reached": true,
+     "wall": 1.2
+    }
+   },
+   {
+    "axis": "boundary",
+    "sc": 30.0,
+    "seedF": 1.9251358735384865,
+    "seed_dist": 33.0,
+    "direct": {
+     "method": "direct",
+     "maxF": 4.3867132148989185e-12,
+     "maxF_cpu": 5.4296567242317906e-12,
+     "dist": 1.7062489615637944e-10,
+     "rp_ratio": 1.0000000000017062,
+     "reached": true,
+     "wall": 1.1
+    }
+   },
+   {
+    "axis": "u",
+    "sc": 0.05,
+    "seedF": 0.05894629283721442,
+    "seed_dist": 0.047115305544385366,
+    "direct": {
+     "method": "direct",
+     "maxF": 6.24389429049188e-13,
+     "maxF_cpu": 1.3509193763638905e-11,
+     "dist": 4.4981485203265947e-10,
+     "rp_ratio": 0.9999999999988056,
+     "reached": true,
+     "wall": 0.6
+    },
+    "arclen": {
+     "method": "arclen",
+     "maxF": 2.555899936140804e-12,
+     "maxF_cpu": 2.6055713142625336e-11,
+     "dist": 4.5726444852789427e-10,
+     "rp_ratio": 1.0000000000045726,
+     "reached": true,
+     "wall": 4.8,
+     "s_max": 1.3336169528938466,
+     "s_reached": 1.3336169528938466,
+     "folded": false
+    }
+   },
+   {
+    "axis": "u",
+    "sc": 0.1,
+    "seedF": 0.1194380186075783,
+    "seed_dist": 0.09423061108877095,
+    "direct": {
+     "method": "direct",
+     "maxF": 1.1547429679126253e-12,
+     "maxF_cpu": 7.733480522631453e-12,
+     "dist": 7.990111350331119e-10,
+     "rp_ratio": 0.9999999999920098,
+     "reached": true,
+     "wall": 0.7
+    },
+    "arclen": {
+     "method": "arclen",
+     "maxF": 9.672262990534364e-13,
+     "maxF_cpu": 5.709599459891024e-12,
+     "dist": 2.1276312933693475e-09,
+     "rp_ratio": 1.0000000000209903,
+     "reached": true,
+     "wall": 4.5,
+     "s_max": 1.2765366050649343,
+     "s_reached": 1.2765366050649343,
+     "folded": false
+    }
+   },
+   {
+    "axis": "u",
+    "sc": 0.15,
+    "seedF": 0.18143470473855827,
+    "seed_dist": 0.14134591663315632,
+    "direct": {
+     "method": "direct",
+     "maxF": 9.171552406428418e-13,
+     "maxF_cpu": 7.007505686829063e-12,
+     "dist": 8.770977277805514e-10,
+     "rp_ratio": 1.000000000008771,
+     "reached": true,
+     "wall": 0.6
+    },
+    "arclen": {
+     "method": "arclen",
+     "maxF": 1.3970491430370657e-12,
+     "maxF_cpu": 3.164085660145588e-11,
+     "dist": 1.90728655091732e-09,
+     "rp_ratio": 1.0000000000163425,
+     "reached": true,
+     "wall": 3.8,
+     "s_max": 1.1957723064869563,
+     "s_reached": 1.1957723064869563,
+     "folded": false
+    }
+   },
+   {
+    "axis": "u",
+    "sc": 0.2,
+    "seedF": 0.2448828446869269,
+    "seed_dist": 0.1884612221775419,
+    "direct": {
+     "method": "direct",
+     "maxF": 1.461497589616556e-12,
+     "maxF_cpu": 2.236910656705504e-11,
+     "dist": 7.696381865152091e-10,
+     "rp_ratio": 1.0000000000031637,
+     "reached": true,
+     "wall": 0.6
+    },
+    "arclen": {
+     "method": "arclen",
+     "maxF": 4.938272013532696e-13,
+     "maxF_cpu": 9.168665826564393e-12,
+     "dist": 1.0216193169210186e-10,
+     "rp_ratio": 1.0000000000010216,
+     "reached": true,
+     "wall": 5.1,
+     "s_max": 1.1061078097275046,
+     "s_reached": 1.1061078097275046,
+     "folded": false
+    }
+   },
+   {
+    "axis": "u",
+    "sc": 0.3,
+    "seedF": 0.3758539010197992,
+    "seed_dist": 0.28269183326631264,
+    "direct": {
+     "method": "direct",
+     "maxF": 1.4084844401907048e-12,
+     "maxF_cpu": 1.881850231200133e-11,
+     "dist": 2.5139513804006697e-09,
+     "rp_ratio": 1.0000000000156186,
+     "reached": true,
+     "wall": 0.5
+    },
+    "arclen": {
+     "method": "arclen",
+     "maxF": 1.31250565971186e-12,
+     "maxF_cpu": 4.27380353329454e-12,
+     "dist": 3.754606292538654e-09,
+     "rp_ratio": 1.0000000000308271,
+     "reached": true,
+     "wall": 4.8,
+     "s_max": 1.1931932264341472,
+     "s_reached": 1.1931932264341472,
+     "folded": false
+    }
+   },
+   {
+    "axis": "cell",
+    "sc": 0.05,
+    "seedF": 29.030000983059132,
+    "seed_dist": 0.048755855644988744,
+    "direct": {
+     "method": "direct",
+     "maxF": 8.671396933834785e-13,
+     "maxF_cpu": 1.9842127940705723e-11,
+     "dist": 5.5514752517193955e-11,
+     "rp_ratio": 0.9999999999994449,
+     "reached": true,
+     "wall": 7.3
+    },
+    "arclen": {
+     "method": "arclen",
+     "maxF": 5.551115123125783e-13,
+     "maxF_cpu": 6.745326519563832e-12,
+     "dist": 2.1635954694509962e-09,
+     "rp_ratio": 1.000000000021143,
+     "reached": true,
+     "wall": 37.8,
+     "s_max": 1.0012338714014057,
+     "s_reached": 1.0012338714014057,
+     "folded": false
+    }
+   },
+   {
+    "axis": "cell",
+    "sc": 0.1,
+    "seedF": 84.96343958128567,
+    "seed_dist": 0.09751171128997727,
+    "direct": {
+     "method": "direct",
+     "maxF": 0.008074872820091245,
+     "maxF_cpu": 0.008074872820072316,
+     "dist": 311.4690889395166,
+     "rp_ratio": 0.34855066722522887,
+     "reached": false,
+     "wall": 9.0
+    },
+    "arclen": {
+     "method": "arclen",
+     "maxF": 8.074652058098764e-13,
+     "maxF_cpu": 1.3113010677301418e-11,
+     "dist": 3.976027840302265e-09,
+     "rp_ratio": 1.0000000000280278,
+     "reached": true,
+     "wall": 55.9,
+     "s_max": 0.8471806671473401,
+     "s_reached": 0.8471806671473401,
+     "folded": true
+    }
+   },
+   {
+    "axis": "cell",
+    "sc": 0.15,
+    "seedF": 168.31627562544995,
+    "seed_dist": 0.146267566934966,
+    "direct": {
+     "method": "direct",
+     "maxF": 0.14567096319575107,
+     "maxF_cpu": 0.14567096319586506,
+     "dist": 933.1695370937401,
+     "rp_ratio": 1.4089244203334963,
+     "reached": false,
+     "wall": 8.9
+    },
+    "arclen": {
+     "method": "arclen",
+     "maxF": 1.8003523629456128,
+     "maxF_cpu": 1.8003523629455822,
+     "dist": 25.793469094714045,
+     "rp_ratio": 1.2579346909471405,
+     "reached": false,
+     "wall": 60.2,
+     "s_max": 0.6995709812100193,
+     "s_reached": 0.6995709812100193,
+     "folded": true
+    }
+   },
+   {
+    "axis": "cell",
+    "sc": 0.2,
+    "seedF": 279.61426776595704,
+    "seed_dist": 0.19502342257995475,
+    "direct": {
+     "method": "direct",
+     "maxF": 4.153228713832561,
+     "maxF_cpu": 4.153228713832569,
+     "dist": 8.389366644119875,
+     "rp_ratio": 1.0254719427238796,
+     "reached": false,
+     "wall": 9.1
+    },
+    "arclen": {
+     "method": "arclen",
+     "maxF": 0.2780394057208371,
+     "maxF_cpu": 0.27803940572086505,
+     "dist": 250.63714575251356,
+     "rp_ratio": 1.5936941472272192,
+     "reached": false,
+     "wall": 60.5,
+     "s_max": 0.35839446835987593,
+     "s_reached": 0.3265613009896524,
+     "folded": true
+    }
+   },
+   {
+    "axis": "cell",
+    "sc": 0.3,
+    "seedF": 603.9559553785573,
+    "seed_dist": 0.29253513386993224,
+    "direct": {
+     "method": "direct",
+     "maxF": 0.39819270243568816,
+     "maxF_cpu": 0.39819270243568816,
+     "dist": 84.11023295992932,
+     "rp_ratio": 1.8411023295992932,
+     "reached": false,
+     "wall": 9.0
+    },
+    "arclen": {
+     "method": "arclen",
+     "maxF": 0.002991453099624824,
+     "maxF_cpu": 0.00299145309967384,
+     "dist": 627.7753519000254,
+     "rp_ratio": 1.3846396010488529,
+     "reached": false,
+     "wall": 54.9,
+     "s_max": 0.21454892095323022,
+     "s_reached": 0.18258168309073597,
+     "folded": true
+    }
+   },
+   {
+    "axis": "cell",
+    "sc": 0.3,
+    "seedF": 603.9559553785573,
+    "seed_dist": 0.29253513386993224,
+    "fp": {
+     "method": "fp",
+     "maxF": 4.877402137230732,
+     "maxF_cpu": 4.877402137230735,
+     "dist": 1363.6291114065866,
+     "rp_ratio": 0.7122259859662249,
+     "reached": false,
+     "wall": 40.3,
+     "s_reached": 0.001953125
+    }
+   }
+  ]
+ }
+}
