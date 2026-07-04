@@ -90,10 +90,31 @@ TWO-SIDED (N=1 plateau-only vs N=2 κ≈1 wall-only, 3 of 4 brackets); one U=2 b
 family-robust; off-center NOT controlled (foliation+stiffness ‖Ψ‖~1e6-2e8) → concentric family expresses
 plateau-vs-wall exactly. "Closes nowhere" NOT established — the binding question = the E2 coupled
 two-domain BVP (stiffness says solve both domains coupled).
-**LIVE NEXT = THE E1 PONDER w/ CHARLES: (1) canon C-2026-06-10-2 core-wording call (even fold at finite
-depth vs φ→−∞ — airtight within classes, not absolute); (2) E2 go/no-go (coupled composite BVP + two-tier
-stability filter + the σ cross-check pass/fail); (3) the criticality-migration reading (F5 "one critical
-amount" now at the particle core — consilience w/ the critical-universe frame, tagged observation).**
+**E1 PONDER RULED (Charles): canon C-2026-07-03-3 (core = even fold at FINITE depth, φ→−∞ retired;
+Planck-analog minimal-length = tagged HUNCH w/ derived core-size-floor consilience); criticality migration
+= canon-adjacent NOTE; E2 = GO w/ battle plan (approved verbatim, 22a78e9).**
+**E2 RAN AND BANKED 2026-07-04 (01b663f, blind-verified a98ce79ecc245b189): the sweep = 0/256 all four
+brackets, BUT the verifier BROKE the frame-level negative — the MANUFACTURED-SOLUTION GAUNTLET shows the
+production LM's convergence radius is ~1e-3 vs seed-class distances O(0.3–1.5): the sweeps' floors/drift
+are what the LM produces EVEN WHEN AN EXACT SOLUTION EXISTS ⇒ EXISTENCE UNDECIDED (solver-completeness
+finding = the first-class result; `microphysics_E2_coupled_solve_results.md`). Verified survivors: the
+landscape characterization (exponents; H_cell false-floor logic; seed-height preservation SETTLED over
+station-tuning — bracket-2 regraded; parking family = exactly the E1 wall-admissible N=2 κ≈1 cells); C1c
+sawtooth = C2-vs-f-sector LM stagnation residue, NOT a functional obstruction (corrected). Driver's
+"runaway corroborates the smaller-universe-cell picture" reading WITHDRAWN as evidence (MMS shows the
+same drift with a root present).**
+**CHARLES FRAME-CATCH LIVE (unaffected either way — the same-regime null was never decided): TWO
+ASYMMETRIC REGIMES (one has mass emergence, potentially spinors; the universe-background side doesn't;
+link = the INVARIANT ANGULAR SECTOR); the E2 pocket = "a smaller universe cell" (the P|P continuity seal
+CHOSE, E1 ledger #9, is the indicted row). Destruction/black-holes-at-φ=0 piece DEFERRED by Charles until
+an emergence model exists (marginality-at-the-fold consilience banked as the pointer).**
+**LIVE NEXT = (1) E2c OPTIMIZER HARDENING (the pre-committed ladder's owed step, solver-first:
+globalization/deflation/extended-precision/soft-direction handling, certified by the SAME MMS gauntlet
+from seed-class distances BEFORE any re-sweep); (2) THE TWO-REGIME MAP w/ Charles (no compute): core
+questions = where-is-the-zero (local-relative crossing? the G|P branch boundary — banked PONDER: beyond-CMB
+natively G? convention-hides-it?) + the invariant angular bridge; emergence-on-one-side = tagged hunch;
+the untested G|P weight-jump seal is the derivable alternative to the P|P CHOSE. Order: E2c and the MAP
+are independent — MAP can go first (cheap) if Charles wants the frame question before more numerics.**
 Standing open: soft-mode magnitude convention; parity boundary term; handover; above-copy N=4–7; O(A²)
 q-coeff; angular+dynamical stability; Bin-2 re-grades at point of use; Z=8/Route-B mixing-term tension;
 relay owed to claude.ai (+ Stage-D + E0/E1).**
