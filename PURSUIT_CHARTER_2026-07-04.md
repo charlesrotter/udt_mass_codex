@@ -133,3 +133,10 @@ native field equations — absent from the CARRY table; cheap; a good warm-up ta
    material in essentially every arc — including breaking our own headline negatives (E2) and
    strengthening our own positives (D2b). Budget for it; it is not optional overhead.
 10. **Decide with Charles:** forks are HIS. Present, recommend, stop. Canon is his signature.
+
+11. **Don't lean on CONDITIONS-CHANGED / pre-native-field-equations work until it is re-graded.**
+    (Charles 2026-07-04, after the driver cited the 2026-06-22 S²-defect discovery to help resolve
+    the R2 frame fork.) The native field equations (2026-07-01) are THE foundation; any banked result
+    older than that, or flagged CONDITIONS-CHANGED in NEGATIVES_REGISTRY, has NO supporting or blocking
+    authority until re-graded at point of use. Check date + registry status BEFORE citing a result as
+    support; clean-current support must stand on its own. Re-grade owed ⇒ run it before leaning.
