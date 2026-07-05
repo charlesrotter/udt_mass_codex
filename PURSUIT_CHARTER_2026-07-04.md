@@ -17,7 +17,9 @@ fork)**.
 >   the wrong frame; the pre-named escape — see D4, §5).
 > - **checkpoint** = bank the day, pick fresh.
 > Driver lean: 3a once, 3b strongly queued if it fails — **but the frame call is HIS** (trap #10). The
-> **J(s)-vs-data** confrontation (§3 R2) is frame-robust and proceeds ANYTIME, independent of this fork.
+> **J(s)-vs-data** confrontation (§3 R2) is frame-robust and NOT gated by this fork — but it is still a
+> NEW push: MAP + confirm scope with Charles before launching (loads solar-system bounds; pre-register
+> first). "Anytime" = not blocked by the fork, NOT self-authorized to start solo.
 
 ## 1. Where the project stands (one paragraph, lay)
 

@@ -36,7 +36,9 @@ Presented 2026-07-04 after three verified solver rounds each localized the SAME 
 - **checkpoint** = bank the day, pick fresh.
 Driver lean: 3a once (cheap, mechanism-matched), 3b strongly queued if it fails — **but the FRAME
 CALL IS HIS** (charter trap #10; [[decide-with-charles-not-forge-ahead]]).
-**J(s)-vs-data proceeds ANYTIME** (frame-robust, independent of the option-3 call — see below).
+**J(s)-vs-data is frame-robust and NOT gated by the option-3 call** — but it is still a NEW push: MAP the
+scope and confirm with Charles before launching (it loads solar-system/Cassini bounds; pre-register the
+s-dependence first, data never-retune). "Anytime" = not blocked by the fork, NOT self-authorized.
 
 **THE ORIENTATION FOR THE NEXT DRIVER = `PURSUIT_CHARTER_2026-07-04.md`** (read it SECOND, right
 after this block): the treasure list, FORK 3 (the route fork) with its R1–R4 decision program,
