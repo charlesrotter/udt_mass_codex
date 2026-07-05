@@ -4,8 +4,11 @@
 everything under the "↓↓↓ HISTORICAL ARC" / "SUPERSEDED" fences is labeled-stale detail (mine for history, not the
 plan). `HANDOFF.md` / `STATE.md` are detailed history; **if they disagree with this file's CURRENT STATE block, the
 CURRENT STATE block wins.**
-**Read order:** LIVE.md FRONTIER → **PURSUIT_CHARTER_2026-07-04.md** → CLAUDE.md "How we work" + the discipline skills → (for detail) HANDOFF.md TOP
-+ the five native-frame result docs + `discreteness_preregistration.md` → INDEX.md (repo map).
+**Read order (2026-07-05):** LIVE.md FRONTIER (this block — jump to its END for the live action) → **HANDOFF.md TOP
+(2026-07-05 session record — the hopfion arc + RESUME HERE)** → the hopfion-route docs `native_hopfion_route_MAP.md`,
+`node_R0/_H1/_H2/_H3_*.md`, `H3_hopfion_solve_preregistration.md` → CLAUDE.md "How we work" + the discipline
+skills → INDEX.md (repo map). (`PURSUIT_CHARTER_2026-07-04.md` = the prior model-handover orientation, now
+SUPERSEDED by the hopfion arc — mine for the traps list only.)
 
 ## Binding method (never skip)
 - CLAUDE.md "How we work": MAP / OBSERVE / PONDER are primary, DERIVE is gated. Let structure
@@ -24,7 +27,20 @@ CURRENT STATE block wins.**
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-04 EOD — MAP APPROVED; Flavor-II primary; NODE 0.5 seal-parity re-grade IS THE NEXT ACTION, armchair/CAS, NO compute) ============
+## ============ CURRENT STATE (2026-07-05 EOD — HOPFION ROUTE R0→Q1→H1→H2→H3 done; H3 = PROVISIONAL-A; NEXT = H3 precision closure → H4) ============
+
+**➤➤ THE CURRENT FRONTIER IS AT THE BOTTOM OF THIS BLOCK — jump to the "H3 SOLVE DONE → PROVISIONAL-A" and
+"TOP NEXT-SESSION ACTIONS" bullets (near line ~199). Everything between here and there is THIS SESSION'S
+CHRONOLOGICAL ARC (2026-07-04→05: concentric ω≠0 reframe CLOSED → the hopfion route), kept for the record but
+HISTORICAL. Detailed session record: HANDOFF.md TOP (2026-07-05). Canonical results = the `node_*.md` docs.**
+**One-paragraph current state:** the concentric ω≠0 embedded-cell frame was closed (P16 canon C-2026-07-05-1:
+spin→φ not natively available); the reframe converged on the **HOPFION** — native L2+L4 IS the Faddeev–Skyrme
+model, a UDT particle = a π₃ hopfion, charge = Hopf linking Q_H∈ℤ (D1 reinforced). Full armchair chain
+(R0/Q1/H1/H2) blind-verified; the H3 solve is **PROVISIONAL-A** (exists + robust scaling ℓ_hopf/ρ_c∝1/√ξ;
+precision closure owed). **NEXT = H3 precision closure (finer grid + blind verifier), then H4 (backreaction/
+mass/pinning + ξ-anchor).**
+
+### ↓↓↓ HISTORICAL — this session's chronological arc (2026-07-04→05); current frontier is at the block's END ↓↓↓
 
 **➤ MAP APPROVED (Charles, 2026-07-04) — `microphysics_reentry_omega_reframe_MAP.md`. Eight rulings (binding):**
 1. **Flavor II CONFIRMED PRIMARY** — internal matter-phase rotation (Nψ→Nψ+ωt) with **φ static**; uses the

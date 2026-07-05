@@ -2,8 +2,9 @@
 
 > **READ `LIVE.md` FIRST** — it is the short, only-guaranteed-current file (frontier + next action).
 > This HANDOFF is the detailed record; if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
-> **MODEL HANDOVER 2026-07-04: the successor driver's orientation = `PURSUIT_CHARTER_2026-07-04.md`
-> (read after LIVE TOPMOST — treasure list, FORK 3 route-fork program R1–R4, the eleven known traps).**
+> **CURRENT (2026-07-05): after LIVE.md, read the `## SESSION RECORD 2026-07-05` block just below (the
+> concentric ω≠0 arc CLOSED → the HOPFION route R0→Q1→H1→H2→H3; H3 = PROVISIONAL-A; RESUME HERE).**
+> (`PURSUIT_CHARTER_2026-07-04.md` = the prior model-handover orientation, now SUPERSEDED by the hopfion arc.)
 
 ## SESSION RECORD 2026-07-05 (Opus — concentric ω≠0 arc CLOSED → HOPFION route R0→Q1→H1→H2→H3; H3 = PROVISIONAL-A)
 
