@@ -101,19 +101,30 @@ hard verifier afdcd31f357869084). The as-DERIVED matter coupling is the channel-
 is contradicted by the banked gp_switch "only 𝒦 breaks the shift." **The DIRECT founding-hunch route (spin
 sourcing φ) is NOT natively available — it needs a forbidden import.** [Charles canonization of the refutation pending.]
 
-**➤ THE FORK IS NOW CHARLES'S (frame-level; DO NOT proceed without his call).** P16→C-lean-A means the
-active depth×spin channel is closed to native derivation. Options:
-- **(i) A-branch fixed-Q coupled solve** — the FIRST properly-posed existence test (F4 verifier's decisive
-  instrument): coupled (φ,ρ,Θ,j,ω) at FIXED Noether charge Q, φ-blind branch (spin reshapes geometry→φ only
-  INDIRECTLY via 𝒦). Untried; a genuine new instrument, not "one more seed." But a nonlinear coupled solve
-  (the thing that hit the wall statically) in a branch where spin only indirectly touches the core.
-- **(ii) Reframe / zoom-out** — the concentric embedded-cell frame has accumulated many walls (static E2;
-  seal ω-blind; ω-binding depth-suppressed; F4 ill-posed; B not native). Consider the radial-twist ansatz
-  (NODE-1 unmapped), non-concentric/twisted geometry (P10 broken), or a different frame.
-- **(iii) Charles rules on the matter-coupling frame** — B is not native, but is a frame CHOICE his to make
-  (against the derived ḡ grain; = minimal coupling, contract-forbidden by default). Unlikely, but his call.
-Driver lean: the run of walls in this frame (principle 6 + refusal-run tripwire) points to (ii) zoom-out/
-ponder — but (i) is a legitimate untried properly-posed instrument. FRAME CALL IS CHARLES'S. J(s)-vs-data still owed, frame-robust.
+**➤ P16 CANONIZED (C-2026-07-05-1): spin→φ NOT natively available (B = forbidden minimal-coupling import);
+A-lean φ-blind (conservative, not a universal theorem). Charles chose ZOOM-OUT (NOT the A-branch fixed-Q
+grind — low-leverage weak-channel, same frame).**
+
+**➤ NEW FRAME MAP DELIVERED (2026-07-05) — `microphysics_after_concentric_failure_MAP.md`.** Through-line:
+the concentric SEALED-CELL frame (a particle = a smaller sealed universe-cell copy with a private deep
+φ-well) was an IMPOSITION; the depth-stiffness wall is plausibly its ARTIFACT. Native object = an **S²/π₂
+DEFECT** (C-2026-06-14-1), which needs NO private seal/well — it sits as a localized twist in the S² field
+ON the shallow N=0 ambient. Answers: (Q1) concentric-sealed likely WRONG, wall = its artifact; (Q2) carrier
+admits non-concentric/twisted configs (winding topological, deformation-robust; L4 sets size √(κ/ξ) seal-free);
+(Q3) discreteness candidate = **interior HOLONOMY of a radial twist ∂_rχ≠0** (seal is ω-blind/vacuous ⇒
+quantization must be interior) — the owed derivation; (Q4) particle = **DEFECT-ON-N=0-BACKGROUND**, ambient
+= the medium/boundary (not a sealed copy); (Q5) survives: seal ω-blindness (⇒ interior not boundary), P16
+A-lean, P-only emergence; depth-stiffness = SCOPED no-go for passive concentric cells ONLY (does NOT bind
+the defect frame).
+
+**➤ NEXT ACTION = armchair/CAS, NO solve (awaiting Charles's confirm of the reframe + go):**
+- **R0 — defect COHERENCE:** does the native action admit a localized finite-energy S² defect on the N=0
+  background WITHOUT a private seal (L2+L4 energy finite; L4 sets size)?
+- **R1 — the HOLONOMY derivation (the reframe's owed first derivation):** does a radial twist ∂_rχ≠0 +
+  core-regularity impose an interior holonomy/BVP quantization (∮dχ=2πk / conserved interior flux), a
+  discreteness source distinct from seal & node-count?
+Then R2 (seal-or-not) → R3 (gated bounded solve, fixed-Q if spinning, only after R0–R2 + Charles). NO
+A-branch grind. J(s)-vs-data still owed, frame-robust, un-gated.
 **J(s)-vs-data is frame-robust and NOT gated by the reframe** — still a NEW push (MAP scope + confirm
 with Charles; loads Cassini bounds; pre-register s-dependence, data never-retune). "Anytime" ≠ self-authorized.
 

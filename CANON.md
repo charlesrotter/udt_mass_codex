@@ -396,3 +396,23 @@ permits ω is the OPEN NODE-1 question, not settled here.
 (ad14fbc6898ee1930: C1/C2/C3 SUPPORTED, C2 as re-localization, C3 strengthened, C4 "seal ignores
 ω" INCOMPLETE→held open; no GR-smuggle). Doc: `node05_seal_parity_regrade_results.md`.
 **Canonized (as a CLARIFICATION) by Charles 2026-07-04.**
+
+## C-2026-07-05-1 — P16: spinning matter stays φ-blind (Branch B refuted as native; conservative)
+
+**Statement (Charles, verbatim):** P16-C stands. Branch B is refuted as a native-derived branch because
+the spin→φ source requires importing physical-metric minimal coupling. That is outside the current
+UDT-native action and violates the no-import rule. Branch A is the current lean: spinning matter remains
+φ-blind under the derived channel-corrected coupling. **Do NOT overstate this as a universal theorem about
+all possible future matter frames.**
+
+**Scope / what it means:** the DIRECT founding depth×spin route (an ω≠0 internal rotation sourcing φ and
+reshaping the core depth) is NOT natively available — reaching it requires the forbidden GR minimal-coupling
+import. This is a statement about the CURRENT native action + no-import rule, NOT a theorem foreclosing a
+future native matter frame Charles may adopt. The as-derived matter coupling is the channel-corrected ḡ
+(φ-blind); B ("matter gradients contract with the physical metric") = GR minimal coupling.
+
+**Provenance:** first P16 note (a648-era, C/lean-A) → deeper contract-driven derivation (a8a9046a1d2e2c2c2,
+argued B) → HARD blind adversarial verifier (afdcd31f357869084, REFUTED B on three textual hinges; reversal
+engine contradicted by the banked gp_switch "only 𝒦 breaks the shift"). Docs:
+`p16_phi_sourcing_decision_note.md` (top banner), `p16_native_derivation_contract.md` (frozen contract).
+**Canonized (conservatively) by Charles 2026-07-05.**
