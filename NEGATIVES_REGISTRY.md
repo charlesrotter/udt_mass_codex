@@ -2141,3 +2141,11 @@ non-monotone profiles. FORWARD: any closure must carry genuine θ-deformation (t
 interior angular-energy bulge ≥ 4/ξ against both endpoints); the necessary-condition maps leave
 position-selective (ξ,κ,N) windows OPEN in 3–30 cells/bracket — the E2 coupled BVP is the live
 question, NOT walled by this negative. Doc: microphysics_E1_composite_closure_results.md.
+   *** CONDITIONS-CHANGED 2026-07-05 (N5a, blind-verified ad85bcc2907db3df4; doc
+   H4_N5a_whole_cell_criticality_rederivation_results.md §4). The contradiction does NOT transport to the
+   no-wall hopfion frame C(a): it dissolves via CARRIER SWAP — both halves belong to the ROUND RIGID-N=1
+   carrier (the ξ<2 half is the carve-migrated E_ang(core)=2, evaporates with the carve; the ξ≥2 virial half's
+   "4−2ξ" rides on the round radial boundary term "4 r_p", carrier-specific). The toroidal π₃ hopfion's own
+   virial identity is E₂=E₄, which carries NO ξ-bound. #75 LOSES blocking authority for the C(a) hopfion until
+   re-graded; it remains fully in force WITHIN its own premise set (round-static, concentric, rigid-N=1 carrier,
+   source-free Class-A seal). ***

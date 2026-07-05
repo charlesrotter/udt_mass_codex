@@ -30,20 +30,25 @@ discipline skills → INDEX.md (repo map).
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-05 EOD — H3=A + full H4 armchair+solve arc DONE; H4 compute STOPPED at revised-N4=D; NEXT SESSION = N5-reframed whole-cell-criticality/ξ-anchor MAP) ============
+## ============ CURRENT STATE (2026-07-05 EOD — H3=A + full H4 arc DONE + N5 MAP & N5a DONE (both blind-verified); ξ UN-ANCHORED by criticality at armchair; H4 compute STILL STOPPED; NEXT = Charles §1 ponder + N5b-vs-gated-solve fork) ============
 
-**➤➤ RESUME HERE / NEXT-SESSION FIRST ACTION (Charles, 2026-07-05): N5 REFRAMED = a WHOLE-CELL CRITICALITY /
-ξ-ANCHOR MAP (armchair/MAP only — DO NOT run the fully-coupled non-perturbative solve until this MAP is banked AND
-blind-verified).** Driven by the revised-N4 finding that the hopfion's gravitational mass is a **WHOLE-CELL
-response, not a localized halo** (the transverse operator has no decaying mode ⇒ cell-filling shear; the
-backreaction is non-perturbative ε≫1). **Question:** if the hopfion's gravitational mass is a whole-cell response
-rather than a localized halo, what native WHOLE-CELL criticality condition anchors ξ, the hopfion scale, and the
-emergence machinery? **Focus:** (1) cell-scale criticality, NOT particle siting depth; (2) E_ang(core)=2 /
-criticality closure — is it still native?; (3) how the resolved hopfion acts as the SCALE-BREAKER; (4) whether the
-whole-cell response SUPPLIES the mass anchor; (5) what a later non-perturbative solve must compute. Deliver as a
-MAP (premise ledger + clean failures + verifier targets), then blind-verify before any coupled solve.
-**H4 COMPUTE IS STOPPED** — the H3→H4 arc (below) is banked+pushed; the non-perturbative fully-coupled
-(φ+h_AB, running ambient) solve is the eventual magnitude-certifier but is GATED behind the N5 MAP.
+**➤➤ RESUME HERE / NEXT ACTION (2026-07-05): a Charles PONDER on the N5-MAP §1 frame tension + a fork decision —
+then N5b (flux-closure budget, armchair) OR accept that ξ can only be anchored by the gated N5d solve.** The N5
+MAP is BANKED + blind-verified (`H4_N5_whole_cell_criticality_MAP.md`, verifier aabaa3929f5f0864f: the named
+ξ-anchor candidate `E_ang(core)=2` rides the RETIRED concentric/private-cell migration — it CANNOT transport to the
+no-wall hopfion frame C(a); reframe = keep criticality on the WHOLE cell with the hopfion as content). **N5a is
+BANKED + blind-verified** (`H4_N5a_whole_cell_criticality_rederivation_results.md`, deriver a03514930fb5c5241,
+verifier ad85bcc2907db3df4: OVERALL HOLDS): **whole-cell criticality re-derived off the carve does NOT pin ξ at
+armchair (CF-N5a)** — it is ONE relation (M/R=c²/2G) with R the unpinned data-blind dilatation modulus (F7 §B.2
+irreducible gap corroborates). The E1 migration's apparent ξ-pin was ENTIRELY the carve (it pins ρ_c(ξ,κ), not ξ).
+**CF-N5c:** negative #75's ξ<2-vs-ξ≥2 contradiction does NOT transport — dissolves via CARRIER SWAP (round rigid-N=1
+"4−2ξ" is carrier-specific; the toroidal π₃ hopfion's virial identity is E₂=E₄, ξ-unconstrained), NOT the
+"no-seal⇒dissolves" fallacy; **#75 is CONDITIONS-CHANGED (re-grade owed in NEGATIVES_REGISTRY).** Off-round object
+DERIVED = FS (E₂,E₄) with **Q_H a topological (Vakulenko–Kapitansky) CONSTRAINT, not an N² coefficient.**
+**Candidate A refuted as a bare-ξ armchair anchor → REDUCED to the gated N5d solve; candidate B (flux, N5b) still
+live; C (onset) + E (z_CMB) pre-registered failures.** **H4 COMPUTE STILL STOPPED** — the non-perturbative
+fully-coupled (φ+h_AB, running ambient) N5d solve is the only surviving ξ-anchoring channel (candidate D) but stays
+GATED behind Charles's go. **Owed:** re-grade #75 in the registry; q/η, i-flow/ℏ, J(s) still owed.
 
 
 **One-paragraph current state:** the concentric ω≠0 embedded-cell frame was closed (P16 canon C-2026-07-05-1:
