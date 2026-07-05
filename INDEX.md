@@ -1,4 +1,4 @@
-# INDEX — Repo Map (frontier refreshed 2026-07-04 — universe cell SOLVED; route fork R1/R2 discharged + E2c/d/e optimizer arc; PENDING = Charles's option-3 call; see LIVE.md TOPMOST, authoritative)
+# INDEX — Repo Map (frontier 2026-07-05 — concentric ω≠0 reframe CLOSED → the HOPFION route R0→Q1→H1→H2→H3; H3 = PROVISIONAL-A; see LIVE.md TOPMOST, authoritative)
 
 Navigable map of `udt_mass_codex`. **Structure (post-2026-07-01 consolidation):**
 - **root — LEAN:** the 17-module test-import solver closure (the OLD wrong-frame static solver — kept only because
@@ -181,8 +181,23 @@ operator + the migration — but they remain the canon-provenance for q=1/3/η/N
   yourself via background-notify (NO `nohup` — it detaches from the harness tracker), never background-poll.
 - Commit per result; push to github.com/charlesrotter/udt_mass_codex.
 
-## 2026-07-03/04 arc (stability rulings → Stage-D → microphysics re-entry → D1/D2 → the route fork)
-- **PURSUIT_CHARTER_2026-07-04.md** — THE successor-driver orientation (fork-3 program; traps).
+## 2026-07-05 arc — concentric ω≠0 reframe CLOSED → the HOPFION route (CURRENT frontier; see LIVE.md)
+Concentric ω≠0 embedded-cell frame closed; a UDT particle reframed as a native **Faddeev–Skyrme HOPFION**
+(charge = Hopf linking Q_H∈π₃(S²)=ℤ). Docs, in arc order:
+- **NODE 0.5** `node05_seal_parity_regrade_results.md` (canon C-2026-07-04-1, seal sector-split) · **NODE 1**
+  `node1_seal_spin_verdict_results.md` (seal ω-blind) · `node23_precompute_map.md` + `node3_f4_test_results.md`
+  (F4 ill-posed) · **P16** `p16_native_derivation_contract.md` + `p16_phi_sourcing_decision_note.md` (canon
+  C-2026-07-05-1: spin→φ not native).
+- Reframe MAPs: `microphysics_after_concentric_failure_MAP.md`, **`native_hopfion_route_MAP.md`**.
+- Hopfion chain: **`node_R0_defect_coherence_results.md`** (π₂ monopole fails → hopfion redirect) ·
+  **`node_H1_hopfion_compactification_results.md`** (topology native) ·
+  **`node_H2_charge_ledger_results.md`** (charge = Q_H; D1 reinforced) ·
+  `H3_hopfion_solve_preregistration.md` + **`node_H3_hopfion_solve_results.md`** (PROVISIONAL-A: hopfion
+  EXISTS; ℓ_hopf≈1.1√(κ/ξ); ℓ_hopf/ρ_c∝1/√ξ; precision closure + blind verifier OWED).
+- NEXT: H3 precision closure → **H4** (backreaction/mass/pinning + ξ-anchor); q/η + i-flow/ℏ + J(s) still owed.
+
+## 2026-07-03/04 arc (stability rulings → Stage-D → microphysics re-entry → D1/D2 → the route fork) [SUPERSEDED as frontier by the 07-05 hopfion arc]
+- **PURSUIT_CHARTER_2026-07-04.md** — the prior model-handover orientation (fork-3 program; traps) — SUPERSEDED as frontier.
 - Stage-D: `cascade_stageD_prereg.md` (hash-frozen contract), `cascade_stageD_results.md`,
   `stageD_*` (forecast/sweep/comparison + bv scripts).
 - Microphysics re-entry: `microphysics_reentry_miniMAP.md` (guardrails), `microphysics_E0_ambient_tables.*`,

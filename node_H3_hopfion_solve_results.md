@@ -4,8 +4,10 @@
 (N≳256 / production minimizer) confirmation to close the precision gap. Existence + scaling well-supported;
 few-% energy benchmark + integer-Q-on-relaxed-field NOT met at this bounded budget = resolution-limited.**
 Solver agent a09b70a1539145abb (GPU V100, torch float64, single process, anti-hang honored). Under the frozen
-verified contract `H3_hopfion_solve_preregistration.md`. Scripts/fields in scratchpad (`fs_hopfion.py`,
-`drive_ckpt.py`, `analyze_final.py`, `ckpt_N160.npz`, `ckpt_SCALE11.npz`).
+verified contract `H3_hopfion_solve_preregistration.md`. **Scripts COMMITTED (rerun the precision closure from
+here): `hopfion_arc_scripts_2026-07-05/` (`fs_hopfion.py` = FS energy + Whitehead Q_H; `drive_ckpt.py`,
+`drive_stereo.py`, `drive_val.py`; `analyze_final.py`; see its README).** Field checkpoints (*.npz, 50–98 MB)
+were NOT committed — regenerate them.
 
 ## What H3 is (contract-verified)
 Native L2+L4 on N=0, φ-blind + ρ=r theorem ⇒ EXACTLY the flat-R³ Faddeev–Skyrme energy
