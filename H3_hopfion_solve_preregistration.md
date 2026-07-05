@@ -99,16 +99,13 @@ a value/anchor for ξ. **H3's honest deliverable = EXISTENCE + the ξ-parametriz
 - **A — EXISTS + ξ-RATIO:** a finite localized Q_H=1 minimizer exists; report ℓ_hopf/ρ_c ∝ 1/√ξ (the FS number
   × gauge factor). ⇒ hopfion route survives to H4 (backreaction/gravitation, mass, the dynamical pinning FORCE,
   and the ξ-anchor that turns the ratio into a definite bulk-vs-core verdict).
-- **B — CORE-SCALE at ξ~O(1):** the minimizer exists but ℓ_hopf ≳ ρ_c at O(1) coupling (ℓ_hopf/ρ_c ∝ 1/√ξ is
-  NOT ≪1 for admissible ξ) — a cell/core-scale object, not a cleanly-separated particle, for natural ξ. ⇒ H1's
-  localization premise is conditional on large ξ; flag for H4/ξ-anchor, consider reframe. (A SIZE fact vs ρ_c;
-  the dynamical-pinning FORCE is H4.)
 - **C — NO SOLUTION:** no stationary Q_H=1 localized minimizer under native L2+L4 on flat R³ (via ρ=r) at all.
   ⇒ hopfion route fails cleanly. (Would contradict the known flat-space Faddeev–Skyrme result ⇒ suspect D first.)
 - **D — SOLVER INCONCLUSIVE:** classify as tool-limited ONLY if the mandatory known-hopfion benchmark (item 8)
   fails / the method demonstrably cannot resolve the object. Not a physics verdict.
-**Note:** A vs B is now the ξ-ratio itself (continuous), reported as a number, NOT a bare binary — the binary
-verdict is deferred to H4+ξ-anchor. C and D remain clean binaries at H3.
+**OUTCOME-B IS NO LONGER A STANDALONE H3 VERDICT (Charles, 2026-07-05):** true core-pinning vs bulk
+localization requires H4's backreaction FORCE + a ξ-anchor. H3 outputs ONLY A / C / D, and under A reports the
+continuous ratio ℓ_hopf/ρ_c(ξ) ∝ 1/√ξ. The bulk-vs-core call is H4's.
 
 ## Discipline
 No masses, no labels, no observational data, no fitting. No nonlinear solve until THIS MAP is banked AND
