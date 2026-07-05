@@ -24,19 +24,21 @@ CURRENT STATE block wins.**
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-04 — route fork R1/R2 + E2c/d/e optimizer arc DONE; PENDING = Charles's option-3 call) ============
+## ============ CURRENT STATE (2026-07-04 EOD — CHARLES RULED: static-A0 arc CHECKPOINTED; MAIN PATH = 3b ω≠0 angular reframe; MAP in progress) ============
 
-**➤ THE NEXT ACTION IS CHARLES'S OPTION-3 DECISION — DO NOT PROCEED WITHOUT HIS CALL.**
-Presented 2026-07-04 after three verified solver rounds each localized the SAME depth-stiffness wall
-(embedded-cell existence UNDECIDED, tool-limited). His fork:
-- **3a** = one more mechanism-matched solver idea — a DEPTH-STIFFNESS HOMOTOPY ramping core depth
-  shallow→physical (untried; directly targets the diagnosed wall; cheap).
-- **3b** = pivot to the **ω≠0 REFRAME** (Charles's founding φ-angular hunch; static concentric A0
-  may be the wrong frame; the pre-named escape).
-- **checkpoint** = bank the day, pick fresh.
-Driver lean: 3a once (cheap, mechanism-matched), 3b strongly queued if it fails — **but the FRAME
-CALL IS HIS** (charter trap #10; [[decide-with-charles-not-forge-ahead]]).
-**J(s)-vs-data is frame-robust and NOT gated by the option-3 call** — but it is still a NEW push: MAP the
+**➤ CHARLES'S OPTION-3 DECISION IS MADE (2026-07-04):**
+- **STATIC CONCENTRIC A0 EMBEDDED-CELL ARC = CHECKPOINTED.** The correct read (Charles, binding):
+  **existence UNDECIDED, tool-limited**, with the repeated wall localized to **EXTREME DEPTH-STIFFNESS**.
+  **DO NOT record nonexistence.** (Three verified solver rounds E2c/d/e each re-localized the SAME wall;
+  trap-#1 scoped: "not found from these seeds/tools," NEVER "does not exist.")
+- **MAIN PATH = 3b — the ω≠0 ANGULAR-SECTOR REFRAME** (Charles's founding φ-angular hunch; static
+  concentric A0 may be the wrong frame). This is now the pursuit.
+- **3a (depth-stiffness homotopy) = DEMOTED to an OPTIONAL LAST-INSTRUMENT DIAGNOSTIC** — not the main
+  pursuit; run only if a later step specifically needs to probe the static wall again.
+- **IN PROGRESS: the 3b MAP** (armchair-first, NO compute) — microphysics re-entry around
+  angular/defect-mediated DISCRETE structures inside the selected N=0 universe cell. Deliverable =
+  premise ledger + decision tree (see the five MAP questions). NOT a derivation; DERIVE stays gated.
+**J(s)-vs-data is frame-robust and NOT gated by the reframe** — but it is still a NEW push: MAP the
 scope and confirm with Charles before launching (it loads solar-system/Cassini bounds; pre-register the
 s-dependence first, data never-retune). "Anytime" = not blocked by the fork, NOT self-authorized.
 

@@ -17,6 +17,20 @@ demonstration of why this registry exists.
 
 ---
 
+## *** 2026-07-04 CHECKPOINT (NOT A NEGATIVE — logged per Charles's ruling; carries NO blocking authority) ***
+
+**The static concentric A0 embedded-cell arc (E2/E2c/E2d/E2e, 2026-07-04) is CHECKPOINTED, not banked
+as a no-go.** Charles's binding read: **existence is UNDECIDED and TOOL-LIMITED** — three verified
+solver rounds (E2c c68d65d, E2d 92af4e2, E2e ba31693; verifiers ab6305ce222eee961 / a5e1960b6f90b4686 /
+a0205204484a1d48c) each re-localized the SAME obstruction = **EXTREME DEPTH-STIFFNESS** (residual 16.9 at
+field-distance 0.1; folds at s~9e-4), NOT seed distance and NOT a proof of absence. **DO NOT record or
+cite this as nonexistence** (trap-#1: "not found from these seeds/tools," never "does not exist"). PREMISE
+SET: static, concentric, A0 (ω=0, no g_{tφ}); Route-A-family reduction; the current LM/continuation
+optimizer reach. **CONDITIONS-CHANGED trigger:** the ω≠0 angular-sector reframe (main path, 2026-07-04)
+changes the ansatz class — if a rotating/time-periodic cell closes, this checkpoint is moot; the
+depth-stiffness wall is a fact about the STATIC-A0 class only. Docs: `microphysics_E2{c,d,e}_*_results.md`;
+arc detail `archive/LIVE_route_fork_E2_arc_2026-07-04.md`.
+
 ## *** 2026-07-02 CHARLES RULING: THE EIGENMODE / BOX-CONTROL / MODE-SPECTRUM CORPUS IS CONDITIONS-CHANGED ***
 
 **Charles-authorized (2026-07-02): the entire eigenmode-spectrum / box-control negative line is
