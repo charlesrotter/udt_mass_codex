@@ -8,9 +8,12 @@ symbolic/free. Grounded by two read-only recon passes (agents a823cbe1e22f9df77 
 ad11e03c355ab6e4a = ξ/scale provenance) over the E1 closure, criticality-migration, hopfion-route, and H4 corpus;
 every native fact below is sourced.
 
-**Status: DRAFT MAP — owes a blind adversarial verifier before it is banked, and a Charles PONDER on the central
-frame tension (§1) before any node below is built. The gated non-perturbative fully-coupled (φ + h_AB, running
-ambient) solve stays GATED behind this MAP + its verification (RESUME-HERE, LIVE.md).**
+**Status: BANKED MAP — BLIND-VERIFIED (verifier aabaa3929f5f0864f, 2026-07-05: OVERALL HOLDS; central §1 claim
+survived the hardest salvage attempt; two required-before-N5a corrections folded in — negative-#75 relabel +
+2 citation fixes). Still owes a Charles PONDER on the §1 frame tension before N5a is executed. The gated
+non-perturbative fully-coupled (φ + h_AB, running ambient) solve stays GATED behind this MAP (RESUME-HERE,
+LIVE.md). N5a (re-derive whole-cell criticality off the carve) is the authorized next node if Charles concurs
+with §1.**
 
 **Discipline (binding for N5):** no particle labels; no lepton masses; no observational data as an anchor; no GR
 minimal-coupling import; the mass magnitude is NON-PERTURBATIVE (ε≫1, revised-N4 S6) so NO perturbative reasoning
@@ -43,7 +46,9 @@ P|P seal, free outer odd fold.
 - **Revised-N4 (S2):** the hopfion's **gravitational mass is a WHOLE-CELL response**, not a localizable halo — the
   transverse operator L_bare (roots 1,2) has no decaying shear mode ⇒ cell-filling shear
   (`H4_N4rev_conditional_mass_response_results.md:16-22`).
-- **P16 / C-2026-07-05-1:** the **concentric ω≠0 embedded-cell frame was CLOSED** this session.
+- **The concentric ω≠0 embedded-cell frame was CLOSED** this session (P16; C-2026-07-05-1 = "spinning matter
+  stays φ-blind / Branch B refuted," whose scope note `CANON.md` closes the ω≠0-internal-rotation-sources-φ route
+  — paraphrased here as the embedded-cell closure it entails, not the verbatim ruling).
 
 **⇒ The named ξ-anchor candidate (`E_ang(core)=2` via migration) rides EXACTLY the concentric/private-cell
 construction that the hopfion frame retired.** The migration's three structural requirements (private core, shared
@@ -51,6 +56,12 @@ seal, private inner fold) are the frame-C(b) objects N3 forbade. This is a chose
 flag surfaced at the cheap MAP stage: **the candidate anchor cannot be transported to the hopfion (frame C(a))
 AS-DERIVED.** (Registry corroboration: the free-outer-fold posture the migration rides is flagged "linked
 CONDITIONS-CHANGED"; the migration appears inside scoped negative #75, `NEGATIVES_REGISTRY.md:2129-2143`.)
+
+*(Blind adversarial verifier aabaa3929f5f0864f, 2026-07-05: this §1 central claim HOLDS — the verifier tried
+hardest to salvage `E_ang(core)=2` in C(a) and could NOT without re-importing the three retired objects; the only
+surviving even fold with H=0 is the universe cell's OWN inner fold = candidate A's whole-cell locus, not a
+private-core anchor. Overall verdict HOLDS; two required-before-N5a corrections folded in below — the negative-#75
+relabel (its `ξ≥2` half is the embedded-Derrick/virial identity, NOT a seal BC — §3-A/§5/§7) and two citation fixes.)*
 
 **But the reframe also names the way forward.** The migration was TRYING to LOCALIZE the universe's criticality to
 a private particle core — to match the then-assumed **localized-halo** mass. Revised-N4 says the mass is
@@ -94,8 +105,12 @@ The MAP characterizes each; it does not pick a winner (that is N5c PONDER + the 
   resolved hopfion supplying the cell's angular/matter energy ⇒ a condition on E_ang(hopfion) ⇒ a relation among
   ξ, κ, N. **No private seal** ⇒ C(a)-consistent; **whole-cell** ⇒ matches the whole-cell mass. This is the
   migration REFRAMED into the frame N3 ruled — re-derived, NOT transported. Known risk to test: the rigid-N=1
-  concentric composite already hit a **ξ<2 (core) vs ξ≥2 (seal) CONTRADICTION** (negative #75) — does that
-  contradiction transport to, or dissolve in, the whole-cell frame (no seal)? (CF-N5c.)
+  concentric composite already hit a **CONTRADICTION** (negative #75, `NEGATIVES_REGISTRY.md:2132-2134`) between
+  its **ξ<2** half (the core critical closure `E_ang(core)=2` ⇒ `ξ+κ/(2ρ_c²)=2`) and its **ξ≥2** half (the
+  **embedded-Derrick / on-shell-H≡0 VIRIAL pointwise identity — NOT a seal boundary condition**). Because the ξ≥2
+  half is a virial identity, removing the seal does NOT automatically dissolve it: N5a must test whether that
+  virial half carries a **frame-intrinsic residue** surviving the move to the no-wall whole-cell frame, rather than
+  assuming "no seal ⇒ it dissolves." (CF-N5c.)
 
 - **B — FLUX CLOSURE / dilation-flux budget (D2b flux ladder). [LIVE — whole-cell-consistent]**
   Revised-N4 S4: the isolated hopfion is interior **ACTIVE-P everywhere** (sources φ). The cell has a globally
@@ -128,7 +143,7 @@ The MAP characterizes each; it does not pick a winner (that is N5c PONDER + the 
 
 - **F — "another native invariant": the toroidal shape ratio χ_core. [NON-CANDIDATE for ξ — note it]**
   χ_core (ring-radius / core-tube width) is a pure Faddeev-Skyrme number, **ξ/κ-independent and φ-blind**
-  (`H4_GP_switch_hopfion_MAP.md:29,34`). It is exactly what CANNOT anchor ξ (it is ξ-blind by construction). It
+  (`H4_GP_switch_hopfion_MAP.md:28,34`). It is exactly what CANNOT anchor ξ (it is ξ-blind by construction). It
   may pin the active-P SWITCH (G/P-switch MAP), but not the SCALE. Recorded so it is not mistaken for a ξ-anchor.
 
 **Provisional read (characterization, not a verdict):** the two live whole-cell-consistent candidates are **A**
@@ -167,11 +182,13 @@ only in **COMBINATION** (ξ,κ,N or ξ,Z_φ), not as a bare number.
   is a legitimate first-class verdict, not a prompt to invent a pinning mechanism.
 - **CF-N5b — active-P onset is NOT an anchor.** Candidate C fails (no reachable dead-G ⇒ no onset; φ-blind scale).
   Pre-registered as expected-true; if a solve later shows an onset boundary the hopfion sits AT, re-open.
-- **CF-N5c — whole-cell criticality is OVER-DETERMINED / contradictory.** The ξ<2 (core) vs ξ≥2 (seal)
-  contradiction of the rigid-N=1 concentric composite (negative #75) TRANSPORTS to the whole-cell frame ⇒ no
-  consistent ξ. Redirect: this indicts a PREMISE (the round-carrier E_ang form? the seal-side closure that no
-  longer exists under C(a)?) or the frame — NOT "add a mechanism." (Test whether negative #75 is itself
-  CONDITIONS-CHANGED by the hopfion reframe — it is rigid-N=1 concentric.)
+- **CF-N5c — whole-cell criticality is OVER-DETERMINED / contradictory.** The negative-#75 contradiction — its
+  **ξ<2** (core critical closure) half vs its **ξ≥2** (embedded-Derrick / VIRIAL pointwise identity, NOT a seal BC)
+  half — TRANSPORTS to the whole-cell frame ⇒ no consistent ξ. Redirect: this indicts a PREMISE (the round-carrier
+  E_ang form? a **frame-intrinsic residue of the virial identity** that survives seal removal? — do NOT assume the
+  ξ≥2 half was seal-carried and dissolves under C(a)) or the frame — NOT "add a mechanism." (Test whether negative
+  #75 is itself CONDITIONS-CHANGED by the hopfion reframe — it is rigid-N=1 concentric, and its ξ≥2 half is a
+  virial identity that N5a must re-test on its own merits.)
 - **CF-N5d — FRAME SMUGGLE (discipline tripwire).** Any node step that reintroduces a shared seal, a private inner
   fold, or a carved particle cell for the hopfion re-trips frame C(b) (retired) ⇒ STOP. The whole-cell condition
   must live on the ONE cosmic cell, not a private mini-cell.
@@ -212,10 +229,11 @@ only in **COMBINATION** (ξ,κ,N or ξ,Z_φ), not as a bare number.
 
 1. **N5a (armchair/CAS, NO solve) — RE-DERIVE the criticality closure OFF the carve.** Does the universe cell's own
    `U(ρ_c)=2` / `E_m(core)=2`, applied to the WHOLE cell with the resolved hopfion as content and NO private seal,
-   yield a native condition on E_ang (hence a ξ,κ,N relation)? Settle CF-N5c (does the ξ<2/ξ≥2 contradiction
-   transport) and CF-N5g (re-derivation vs re-import). Also re-derive/​confirm the E_ang FORM off-round (verifier
-   target 4, coupling to H4-N1). This is the cheap DECISIVE step — it either revives candidate A on the whole cell
-   or refutes it.
+   yield a native condition on E_ang (hence a ξ,κ,N relation)? Settle CF-N5c — and note the VIRIAL half of
+   negative #75 (the ξ≥2 embedded-Derrick / on-shell-H≡0 identity) is NOT a seal BC, so N5a must test whether it
+   carries a **frame-intrinsic residue surviving seal removal**, NOT assume "no seal ⇒ it dissolves" — and CF-N5g
+   (re-derivation vs re-import). Also re-derive/​confirm the E_ang FORM off-round (verifier target 4, coupling to
+   H4-N1). This is the cheap DECISIVE step — it either revives candidate A on the whole cell or refutes it.
 2. **N5b (armchair/CAS) — the FLUX-CLOSURE budget (candidate B).** Does whole-cell dilation-flux conservation with
    the active-P hopfion as the interior source pin a (ξ,Z_φ) combination? Cross-check against N5a (are A and B the
    same condition?). Keep the Z_φ fork explicit.
