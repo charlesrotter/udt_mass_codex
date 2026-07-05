@@ -30,14 +30,19 @@ discipline skills → INDEX.md (repo map).
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-05 EOD — H3=A + full H4 arc DONE + N5 MAP & N5a & N5b ALL DONE (all blind-verified); ξ UN-ANCHORABLE AT ARMCHAIR (both channels closed); H4 compute STILL STOPPED; NEXT = Charles decision on opening the gated N5d solve) ============
+## ============ CURRENT STATE (2026-07-05 EOD — N5 ARC CLOSED + BANKED (Charles): ξ PARKED as a free family; H4 compute STILL STOPPED (N5d NOT opened); NEXT = J(s) light-deflection MAP (MAP only, no data run)) ============
 
-**➤➤ RESUME HERE / NEXT ACTION (2026-07-05): a Charles DECISION — both armchair ξ-anchoring channels (criticality
-N5a + flux N5b) are now CLOSED, so the honest state is: ξ can be settled, IF AT ALL, only by the gated
-non-perturbative whole-cell N5d solve (candidate D). Charles's call: OPEN N5d (bounded, anti-hang, ONE process), or
-park ξ as a free family and pursue the other owed threads (q/η native re-derivation; i-flow/ℏ; J(s) light-deflection).**
-Also owed regardless: the N5-MAP §1 frame-tension ponder (the migration-anchor retirement) — verifier-confirmed but a
-frame call. **N5 MAP** BANKED+blind-verified (`H4_N5_whole_cell_criticality_MAP.md`, verifier aabaa3929f5f0864f: the
+**➤➤ RESUME HERE / NEXT ACTION (Charles, 2026-07-05): the J(s) LIGHT-DEFLECTION MAP — pre-register the frame-robust
+J(s) prediction (native derivation path, allowed parameters, Cassini/solar-system comparison PLAN, clean failures,
+no-retuning rule), MAP ONLY / NO data run yet, preserve the s=2μ/Z fork explicitly, GR only as a comparison
+reference (no ΛCDM/GR derivation import, no fitting), define what observation falsifies/constrains EACH branch,
+blind-verify before any data comparison.** ★ **N5 ARC CLOSED + BANKED (Charles decision 2026-07-05): ξ is PARKED as
+an honest free-family parameter** — (1) the migration-based private-core anchor is RETIRED (N5 MAP); (2) whole-cell
+criticality does NOT pin ξ (N5a); (3) the flux budget is the SAME condition in charge language, NOT an independent
+lever (N5b); (4) only the non-perturbative whole-cell N5d solve could still pin ξ, but it is NOT currently necessary
+(we predict RATIOS; absolute scale is the known-hard, possibly-data-bound part — F7). **N5d NOT opened.** The §1
+frame-tension read (migration-anchor retirement) is accepted (verifier-confirmed). The three N5 nodes are banked +
+blind-verified (below). **N5 MAP** BANKED+blind-verified (`H4_N5_whole_cell_criticality_MAP.md`, verifier aabaa3929f5f0864f: the
 named ξ-anchor `E_ang(core)=2` rides the RETIRED concentric/private-cell migration — CANNOT transport to the no-wall
 hopfion frame C(a); reframe = criticality on the WHOLE cell, hopfion as content). **N5a** BANKED+blind-verified
 (`H4_N5a_...`, verifier ad85bcc2907db3df4): whole-cell criticality re-derived off the carve does NOT pin ξ — ONE
