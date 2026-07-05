@@ -702,3 +702,48 @@ caught — one driver, one claude.ai, one leading-order launch, one ±1 conventi
 freeze-before-data pattern (fit forms, diagnostics, predictions) paid out three times; agent process rules —
 chunk CAS (one timeout), pre-declare shot budgets (one overage), graduated-floor zero counts, exact-projection
 deflation before reading soft modes; blind passes get avoid-lists AND withheld values where possible.
+
+
+---
+# ARCHIVED FROM HANDOFF.md 2026-07-05 (kept lean for the hopfion-arc handoff)
+
+## SESSION RECORD 2026-07-03 → 07-04 (rulings → Stage-D → microphysics re-entry → D1/D2; Fable's closing session)
+
+Every result blind-verified before banking; the verifier broke one of our own headlines (E2) and
+strengthened two others (N=3, T-G1) — the discipline's best session. Chain, with commits:
+1. **Charles's four stability rulings** → canon C-2026-07-03-1 (E=−∫L flat-limit, scope-tagged) +
+   C-2026-07-03-2 (fundamentals stable minimum-class; the universe = the N=0 ground state of its own
+   ladder; F5 note) (5f99eec).
+2. **Stage-D prediction test PASSED:** contract hash-frozen (34d1b6b) → blind sweep → the quantization
+   closure called the never-refined aliased window **13/13 rungs N=23–35, labels rung-for-rung, worst
+   dev −0.139%, incl. an untested γ<0.4 regime**; verifier 7/7, zero false passes (de090cd;
+   `cascade_stageD_results.md`). The ladder is PREDICTION-GRADE.
+3. **Microphysics re-entry** (mini-MAP w/ Charles's 2 guardrails, eeca93c): E0 real-ambient tables
+   (H≡0 along the interior REAL-AND-FORCED, 8dfe483) → E1 composite closure derived natively
+   (**criticality MIGRATES: E_ang(core)=2 at the particle core; counting SQUARE — the old
+   over-determination WAS the model ambient**; canon C-2026-07-03-3: core = even fold at FINITE depth,
+   φ→−∞ retired; 2df6087) → E2 battle plan approved verbatim → E2a solver (17678d6) → **E2b 4-bracket
+   sweep 0/256 → THE VERIFIER BROKE THE NEGATIVE:** MMS gauntlet shows the LM's convergence radius
+   ~1e-3 vs seed distances O(0.3–1.5) ⇒ **existence UNDECIDED; first-class solver-completeness
+   finding** (01b663f; `microphysics_E2_coupled_solve_results.md`). Registry #75 = rigid-N=1
+   closes-nowhere (the one clean kill).
+4. **Charles's frame-catches mid-arc** (banked in memory + the ponder): two ASYMMETRIC regimes
+   (emergence one-sided; angular sector the invariant link); "we're modeling a smaller universe cell";
+   black-holes-at-φ=0 → self-revised to DEFERRED post-emergence after the marginality/formed-horizon
+   push-back. His walk-back commissioned D1.
+5. **The armchair ponder** (`ponder_emergence_directions_2026-07-04.md`, 4a5f657): directions D1–D5.
+6. **D1 provenance audit** (800aa5c, verifier 8/8): **N=3 + the 1+3+5 algebra + structural-i = TRUE
+   NATIVE CARGO (strengthened)**; q=1/3 + η=1/18 = IMPORT-DEPENDENT → targets; QCD/QED precision layer
+   = pre-classifier scaffolding CONFIRMED; photon/EM re-grade OWED; a candidate→"derived" PROMOTION
+   ERROR found and corrected in 3 banked locations.
+7. **D2 two-regime MAP approved → D2a/b/c banked** (9f94d8b, verifier 64/64 own algebra): interior
+   ALL-P (A1/A2 dead there; thin strong-P shell = 99% of q); **T-G1** (no G-vacuum self-closure,
+   route-robust) + **T-G2 (the mass-emergence MECHANISM is P-ONLY — Charles's one-sidedness at theorem
+   level)**; Route-B mixing term DISCHARGED (corrected Route-B EOMs banked; fold values +
+   E_ang(core)=2 ROUTE-B-ROBUST verified; **flat FAILS Route-B G**); **Route-A G|P architecture closes
+   NOWHERE (Z>0) — escapes = Route B / Class-B seals / twisted folds = three of Charles's SIX pending forks (full list: charter section 4). THE ROUTE FORK
+   IS NOW PHYSICS and the pivot.**
+8. **Organizing pass for the model handover** (this entry): PURSUIT_CHARTER_2026-07-04.md written;
+   LIVE restructured (old layers → `archive/LIVE_stability_stageD_microphysics_arc_2026-07-03_04.md`);
+   memory frontier cleaned. **Charles's directive: forks next, EMPHASIS FORK 3 (the route fork).**
+
