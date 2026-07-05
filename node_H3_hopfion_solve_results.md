@@ -1,18 +1,39 @@
-# H3 — Native Q_H=1 hopfion solve: SOLVE = D-grade (tool-limited); route survives on FS theory + analytic scaling
+# H3 — Native Q_H=1 hopfion solve: OUTCOME A (blind-verified) — a stable, localized, virial-balanced Q_H=1 hopfion is numerically resolved
 
-**Status (verifier-CORRECTED 2026-07-05, agent a2199a0aa1218ddc0): the SOLVE component is D-grade / tool-limited,
-NOT A. At accessible resolution (N≤96) the relaxation COLLAPSES to vacuum (Q→0, E→0); the reported "E=314, Q≈0.79"
-is a best-field checkpoint of a decaying transient, and "virial-balanced E2=E4" is a THEOREM, not a numeric
-finding (the runs show E2/E4→∞ during collapse). Per the pre-registration's own item-8 ("reproduce the known
-minimizer as proof the method RESOLVES the object"), that benchmark is NOT met ⇒ outcome D. THE ROUTE STILL
-SURVIVES, but on EXTERNAL grounds: (i) the flat-R³ Faddeev–Skyrme reduction is exact + clean (verified); (ii) the
-Q_H Whitehead measurement is correct + validated (verified); (iii) FS hopfion existence + stability is ESTABLISHED
-mathematics (Faddeev's quartic term evades Derrick collapse — the object is stable in the continuum, so the
-lattice collapse = a resolution pathology, the MISMATCH→SOLVER reading, NOT a route-kill); (iv) the scaling
-ℓ_hopf∝√(κ/ξ) is ANALYTICALLY FORCED by dimensional analysis, robust to the numeric shortfall. So the OWED
-N≳256 rerun is genuinely LOAD-BEARING (it decides A-vs-D), not a cosmetic precision polish. The former headline
-"PROVISIONAL-A (exists + scaling)" is REPLACED by: EXISTENCE rests on FS theory; SCALING rests on dimensional
-analysis; the SOLVE numerically demonstrated neither at N≤96.**
+**Status (2026-07-06, blind-verified A — verifier agent af9b56bc845e0eb97): the production rerun RESOLVES the
+object. A topology-preserving arrested-Newton minimizer + a Derrick scale-mode accelerator, on a resolution
+ladder, produces a STABLE, LOCALIZED, VIRIAL-BALANCED Q_H=1 hopfion on the flat-R³ Faddeev–Skyrme reduction of
+native L2+L4. All four pre-registered success criteria are met: |Q|≈1 held, finite nonzero energy, localized
+toroidal structure, stable virial. This OVERTURNS the earlier D-grade verdict (which was correct FOR THE
+ADAM-SOLVE — that unwound; see history below). MISMATCH→SOLVER vindicated: the coarse-lattice collapse was a
+resolution pathology, not a route-kill, exactly as the Vakulenko–Kapitansky bound (continuum Q=1 ⟹ E≥c>0)
+predicts. Solver/driver: `hopfion_arc_scripts_2026-07-05/drive_production.py` (arrested-Newton + Derrick rescale
++ coarse-to-fine restart).**
+
+**Evidence ladder (bounded GPU, single foreground process, anti-hang honored):**
+| N | L | h | \|Q\| | E2/E4 | Ehat=E/√(ξκ) | verdict |
+|---|---|---|------|-------|------|---------|
+| 96 | 5 | 0.105 | 0.98 → **0** | → ∞ | 309 → **0** | UNWINDS (lattice pathology; D at this resolution) |
+| 160 | 5 | 0.063 | 0.985 | 1.000* | 285.9 | HOLDS + CONVERGED |
+| 224 | 7 | 0.063 | 0.984 | 1.000* | 285.4 | box-independent (L 5→7: ΔEhat 0.16%) |
+| 256 | 6 | 0.047 | **0.992** | 0.999* | 286.5 | grid-converged; \|Q\|→1 with h |
+
+**Load-bearing control (verifier): with the Derrick rescaler OFF, pure arrested-Newton from the N=256 field
+KEEPS E2/E4≈0.99, |Q|=0.99, Ehat≈285 for hundreds of steps while still DESCENDING in energy — NOT the
+E2/E4→∞ collapse the coarse grids show. So the rescaler does NOT manufacture the virial balance; the object is
+a genuine stationary point.** (ξ=κ=1 is a FREE/data-blind gauge choice; the physics is the dimensionless FS
+hopfion + the scaling ℓ_hopf/ρ_c ∝ 1/√ξ, unchanged.)
+
+**★ THREE HONEST CAVEATS (verifier-required; all resolution-level, none touching existence):**
+1. **|Q|≈0.99, NOT certified integer-to-3-digits.** It trends monotonically to 1 with resolution
+   (0.985@N160 → 0.992@N256); the continuum VK theorem forbids non-integer, so this is a lattice-precision gap,
+   not topology doubt. Do NOT write "Q_H=1 exactly" — write "|Q|≈0.99, integer-consistent + trending to 1."
+2. **The exact "E2/E4=1.000" is a rescaler last-snapshot value** (the * in the table); the genuine
+   arrested-Newton equilibrium sits at E2/E4 ≈ **0.99** (≈1% imbalance = O(h²) lattice breaking of the exact
+   continuum scaling symmetry). State "virial-balanced to ~1%," not "E2=E4 exactly."
+3. **Ehat ≈ 285–286 is the internally-converged value; the absolute-vs-published-FS-minimizer comparison is
+   NOT established here** (the "~275" was never verified against literature; box+grid convergence is solid, the
+   published-normalization match is not). Do not quote a "% high" without confirming the literature normalization.
 
 Solver agent a09b70a1539145abb (GPU V100, torch float64, single process, anti-hang honored). Under the frozen
 verified contract `H3_hopfion_solve_preregistration.md`. **Scripts COMMITTED (rerun the precision closure from
@@ -32,34 +53,35 @@ E=∫[(ξ/2)|∂n|² + (κ/4)F_ij²], F_ij=n·(∂_i n×∂_j n). So H3 = resolv
   0.877/0.941/0.965 reproduced). Null test: constant field → Q=0.00000 exactly. |divA|≈1e-16 (Coulomb gauge
   honored). Not faked by a pin. Sign ±1 = the H2 hopfion/anti-hopfion mirror. **This is the one solve output that
   cleanly stands.**
-- **EXISTENCE — from FS THEORY, NOT from this solve (verifier-CORRECTED — the old "outcome A / the solve resolves
-  it" was a FALSE PASS).** The Q_H=1 FS hopfion is an established stable soliton (Faddeev 1975; Battye–Sutcliffe,
-  Hietarinta–Salo minimizers) — the quartic L4 term evades Derrick collapse in the continuum. BUT this solve does
-  NOT exhibit it: at N≤96 the Hopf seed UNWINDS within ~150–300 relaxation steps (Q: 0.94→0.30→0.00, E→0,
-  E2/E4→∞). The reported "finite localized virial-balanced ring" is a best-field checkpoint of that collapse, not
-  a resolved stationary object. **"virial-balanced E2=E4" is a THEOREM (Derrick: x→λx ⇒ E2∝λ, E4∝λ⁻¹ ⇒
-  stationarity forces E2=E4), CONTRADICTED by the accessible-resolution numerics (E2/E4≈6→∞) — it was mis-stated
-  as a numeric finding.** The lattice collapse = the known shrink-through-the-lattice pathology (core below grid
-  spacing) = MISMATCH→SOLVER (tool-limited), NOT a statement the object is absent.
-- **SCALING — ANALYTICALLY FORCED (the load-bearing deliverable, robust).** E∝√(ξκ), ℓ_hopf∝√(κ/ξ) follow from
-  dimensional analysis of E=∫[(ξ/2)|∂n|²+(κ/4)F²] (E*=2√(ξκ·I2·I4), λ*∝√(κ/ξ)) — resolution-independent, holds
-  whether or not a hopfion is numerically resolved. The two-coupling runs (ratio 2.05≈√4, ring 2.0=√4) are
-  CONSISTENT but near-circular (the functional scales this way regardless; both runs are collapsing-transient
-  checkpoints), so they confirm the ALGEBRA, not a resolved object. ⇒ **ℓ_hopf ≈ 1.1√(κ/ξ); ℓ_hopf/ρ_c ∝ 1/√ξ**
-  (ρ_c∝√κ). ξ FREE/data-blind ⇒ f(ξ), not a number. This deliverable survives the D-grade solve.
-- **PRECISION / RESOLUTION SHORTFALL (now DECISIVE, not cosmetic):** at N≤96 the relaxation collapses; the
-  best-field checkpoints sit at Ehat=E/√(ξκ)=314–322 with Q_H≈0.79. (The "vs published FS 275" comparison is
-  UNVERIFIED within the verifier's scope — the 275 minimizer-energy normalization was not confirmed against
-  literature, so the "16% high" number is provisional too.) A stable resolved minimizer was NOT produced ⇒
-  outcome D. The N≳256 rerun must decide A-vs-D.
+- **EXISTENCE — NUMERICALLY RESOLVED (outcome A, blind-verified) via the production rerun.** With a
+  topology-preserving arrested-Newton minimizer (Battye–Sutcliffe standard, NOT the unconstrained Adam of the
+  first solve) + a Derrick scale-mode accelerator + a coarse-to-fine resolution ladder, a stationary Q_H=1
+  hopfion HOLDS and CONVERGES for N≥160 (see the ladder table above): |Q| held ≈0.985–0.992 (trending to 1 with
+  h), E2/E4→~0.99–1.00, energy converged Ehat≈285–286, a genuine localized off-axis torus (⟨ρ⟩=1.28, core ring
+  where n hits the antipode of n_∞ at ρ≈1.17, on-axis vacuum hole). Box-independent (L 5→7: ΔEhat 0.16%) and
+  grid-converged. The N=96 UNWINDING (Q→0, E→0) is confirmed to be the shrink-through-the-lattice pathology
+  (core below grid spacing), suppressed once the grid protects the topology — exactly the Vakulenko–Kapitansky
+  prediction (continuum Q=1 ⟹ E≥c>0, so E→0 requires the LATTICE to violate topology). MISMATCH→SOLVER
+  vindicated: the first solve's D was a tool artifact, not the object's absence. **[HISTORY: the FIRST solve
+  (Adam, agent a09b70a1539145abb) UNWOUND and its "E=314/Q≈0.79/virial-balanced" was a best-field checkpoint of
+  a decaying transient — correctly caught as a FALSE PASS by verifier a2199a0aa1218ddc0 → D. The production
+  rerun overturns that D by RESOLVING the object with the right minimizer.]** The Derrick "E2=E4" is the exact
+  minimizer theorem (x→λx ⇒ E2∝λ, E4∝λ⁻¹ ⇒ stationary at E2=E4) and it is now a genuine numeric FINDING
+  (rescaler-OFF control holds E2/E4≈0.99), not just a theorem — subject to caveat ★2 (~1% lattice offset).
+- **SCALING — ANALYTICALLY FORCED + numerically consistent.** E∝√(ξκ), ℓ_hopf∝√(κ/ξ) follow from dimensional
+  analysis of E=∫[(ξ/2)|∂n|²+(κ/4)F²] (E*=2√(ξκ·I2·I4), λ*∝√(κ/ξ)) — resolution-independent. ⇒ **ℓ_hopf ≈
+  1.1√(κ/ξ); ℓ_hopf/ρ_c ∝ 1/√ξ** (ρ_c∝√κ). ξ FREE/data-blind ⇒ f(ξ), not a number. (Earlier two-coupling
+  "confirmations" were near-circular collapsing checkpoints; the deliverable never depended on them — it is
+  forced by the functional and now sits atop a genuinely-resolved object.)
 
-## Frozen outcome: D (tool-limited) for the SOLVE; route survives on FS theory + analytic scaling (verifier-CORRECTED)
-The SOLVE did NOT numerically resolve a stationary Q_H=1 hopfion at N≤96 (collapse to vacuum; Q≈0.79 checkpoint;
-E2≠E4) ⇒ per the pre-reg's own item-8/outcome-D definition this is **D, tool-limited** — NOT the A it was first
-banked as. Route → H4 is preserved ONLY because: existence = established FS mathematics (external to this solve),
-and the H4-input ℓ_hopf/ρ_c ∝ 1/√ξ = analytically forced (external to this solve). NOT C (FS hopfion known +
-native reduction exact ⇒ suspect tool, not nonexistence). **No affirmative NUMERIC existence claim is banked;
-the N≳256 rerun is load-bearing for that.**
+## Frozen outcome: A — a stable virial-balanced Q_H=1 hopfion is numerically resolved (blind-verified af9b56bc845e0eb97)
+The production rerun RESOLVES the object: all four pre-registered A-criteria met (|Q|≈1 held, finite nonzero
+energy, localized toroidal, virial-balanced-to-~1%), box-independent + grid-converged, with the load-bearing
+rescaler-OFF control confirming the balance is a genuine stationary point (not manufactured). ⇒ **outcome A**,
+overturning the first solve's D. The three ★ caveats (|Q| integer-consistent+trending not certified-to-3-digits;
+E2/E4=1.000 is a rescaler snapshot vs ~0.99 true equilibrium; absolute-vs-published normalization not
+established) are resolution-level and do NOT touch existence. Route → H4 now stands on a NUMERICALLY-RESOLVED
+native hopfion (no longer only on FS theory + dimensional analysis, though those remain the independent backstop).
 
 ## VERIFIER RECORD (verifier-before-record)
 - **Blind adversarial verifier — agent a2199a0aa1218ddc0, 2026-07-05** (zero-context, re-ran the solver, hunted
@@ -68,21 +90,30 @@ the N≳256 rerun is load-bearing for that.**
   E2/E4≈6→∞, never 1); Scaling PASS (analytically forced) but weak as numeric evidence (near-circular);
   Honesty PASS-WITH-CAVEAT (headline honest but UNDER-DISCLOSED the collapse-to-vacuum + best-field-checkpoint
   methodology); Provenance PASS (no GR/metric smuggled; FFT-Poisson + Adam/arrested-Newton + boundary pin =
-  allowed category-A technique). **VERDICT: downgrade the SOLVE component to D (tool-limited); route survives on
-  FS theory + analytic scaling only.** Corrections above applied per this verdict.
+  allowed category-A technique). **VERDICT (on the FIRST solve): downgrade the SOLVE component to D (tool-limited).**
+  This verdict was CORRECT for the Adam solve it examined; it is now SUPERSEDED as the H3 verdict by the
+  production rerun below (which uses a different, topology-preserving minimizer).
+- **Blind adversarial verifier — agent af9b56bc845e0eb97, 2026-07-06** (zero-context, independently recomputed
+  E/E2/E4/Q on the saved converged fields, ran the honest localization + null tests, and ran the load-bearing
+  rescaler-OFF control). Grades: **A** Derrick-rescaler-does-NOT-manufacture-balance PASS (rescaler-OFF pure
+  arrested-Newton holds E2/E4≈0.99, |Q|=0.99, Ehat≈285 while descending — the decisive refutation of the
+  "manufactured balance" suspicion); **B** Q_H recompute PASS (0.985/0.984/0.992, null test 0, trending to 1);
+  **C** resolution story PASS (N=96 unwinds, N≥160 holds; VK bound correctly invoked); **D** box+grid
+  convergence PASS (Ehat 285–286 across L=5/6/7, N=160/224/256; grid_sample restart sound, identity resample
+  reproduces E exactly); **E** localized torus PASS (⟨ρ⟩=1.28, core ring ρ≈1.17 — the driver's `Rring` per-point
+  metric IS buggy, flagged, use ⟨ρ⟩); **F** provenance PASS (flat h³ = honest ρ=r reduction, no GR smuggled; all
+  technique category-A + sound). **VERDICT: A is HONEST and SUPPORTED — a solid A with ~1% resolution-level
+  offsets, correctly overturning the prior D, provided the three ★ caveats are disclosed (they are, above).**
 
-## OWED before clean bank (top next-session actions)
-1. ~~Blind adversarial verifier~~ — DONE (agent a2199a0aa1218ddc0, 2026-07-05; see VERIFIER RECORD). It downgraded
-   the solve to D and corrected the false pass; corrections applied above.
-2. **Finer-grid (N≳256) / specialized minimizer — NOW LOAD-BEARING (decides A-vs-D, not cosmetic):** the N≤96
-   relaxation COLLAPSES; the rerun must produce a STABLE stationary Q_H=1 minimizer (E2=E4 realized, Q integer on
-   the RELAXED field, ring stable, R_box-independent) to earn outcome A. Design notes: (a) resolve the core
-   (grid spacing ≪ ℓ_hopf ≈ 1.1√(κ/ξ), so h and box must scale together with a fine core); (b) use a genuine
-   arrested-Newton / full minimizer that holds the Q-barrier (not a checkpoint of a decaying Adam run); (c)
-   independently confirm the literature FS minimizer energy normalization before quoting any "% high"; (d) surface
-   the best-field-checkpoint methodology explicitly. This is a category-A numerical-technique push (how we solve),
-   ANTI-HANG binding (bound grid, ONE process, foreground, never background-poll).
-Existence + ℓ_hopf/ρ_c ∝ 1/√ξ currently rest on FS THEORY + DIMENSIONAL ANALYSIS (external to the solve); the
-N≳256 rerun is what converts the NUMERIC existence claim from D to A. H4 (backreaction/gravitation/mass; the
-dynamical bulk-vs-core-pinning verdict) + a ξ-anchor are the next physics AFTER A is earned; the physical charges
-q/η + the i-flow/ℏ clock remain owed (H2).
+## OWED / next (H3 is now outcome A; these strengthen or follow it)
+1. ~~Blind verifier on the first solve~~ DONE (a2199a0aa1218ddc0 → D on the Adam solve). ~~Load-bearing N≳256 A-vs-D
+   rerun~~ DONE (production rerun → **A**, blind-verified af9b56bc845e0eb97). Both recorded above.
+2. **Optional precision closure (NOT gating A):** push N≥320 / a spectral or higher-order Q_H to certify integer
+   |Q| to 3 digits and pin the arrested-Newton equilibrium E2/E4 without the rescaler snapshot; independently
+   confirm the literature FS minimizer-energy normalization if an absolute-energy comparison is ever wanted. The
+   `drive_production.py` `Rring` diagnostic is buggy (per-point argmax) — replaced by the ⟨ρ⟩ volume metric.
+3. **H4 (the next physics, now on a resolved hopfion):** φ-backreaction (localized 𝒦→φ well; gravitation; MASS;
+   the dynamical bulk-vs-core-PINNING verdict) + a ξ-anchor (turns ℓ_hopf/ρ_c ∝ 1/√ξ into a definite
+   particle-vs-cell verdict). Still OWED from H2: physical charges **q=1/3, η=1/18** (import-dependent, separate
+   native re-derivation, NOT from Q_H) + the **i-flow/ℏ clock**. J(s) light-deflection lever remains frame-robust,
+   un-gated.
