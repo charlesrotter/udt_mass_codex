@@ -123,12 +123,27 @@ is banked as a CONSTRAINT GENERATOR (MAP §9): seal ω-blind; P16-C/A-lean (B re
 binding too weak on fixed geometry; depth-stiffness = scoped no-go for passive CONCENTRIC cells only;
 discreteness must be interior/topological/BVP (not seal, not ω_n tower).
 
-**➤ NEXT ACTION = R0 RUNNING (agent a6f0c2f868005223f; armchair/CAS, NO solve).** Does native L2+L4 admit a
-finite-energy localized defect on N=0 WITHOUT a private seal/deep-well? φ-blind ḡ coupling. 5 clean-failures
-frozen (needs-seal/deep-well; unwinds; ad-hoc box; arbitrary size; non-native import). If R0 SURVIVES → **R1
-twist-holonomy** (guard: derive the quantization, do NOT impose ∮dχ=2πk as a slogan) → R2 (seal-or-not) → R3
-(gated solve). Treat √(κ/ξ) as a native carrier scale, do NOT fit to a particle size. NO A-branch grind.
-J(s)-vs-data still owed, frame-robust, un-gated.
+**➤ R0 BANKED (blind-verified, FAIL-WITH-REVISIONS) — `node_R0_defect_coherence_results.md`.** The bare
+degree-1 π₂ S² defect does NOT cohere as a localized particle on N=0: it is a **GLOBAL MONOPOLE** —
+per-shell energy floor 4πξ (a 2D CONFORMAL INVARIANT, Bogomolny; survives FULL transverse back-reaction —
+the verifier closed R0's one loophole) ⇒ **protected ⇔ DELOCALIZED** (universe-smeared, not a lump). To
+localize you must UNWIND at a seal, throwing away protection. Ambient invisible to the static φ-blind defect
+(√h φ-free, weight-1, ρ=r, δS_m/δφ=0). Revisions: disqualifier = DELOCALIZATION not non-finiteness (E finite
+on the cell); Θ(core)=π = native regularity NOT an import. **CORPUS CORRECTION:** the committed native_stabilizer
+√(κ/ξ) "sized soliton" is a NON-UNIT-NORM S³-Skyrme profile mis-fit (|n|²≠1) — never a clean π₂ object;
+flag CONDITIONS-CHANGED.
+
+**➤ THE REDIRECT (native lead) — L2+L4 IS the FADDEEV–SKYRME model; its native soliton is the π₃ HOPFION.**
+Q_H∈π₃(S²)=ℤ (a knot/linking number): finite, LOCALIZED, SEAL-FREE, size √(κ/ξ), NO depth-well ⇒ escapes the
+scissors AND the depth-stiffness wall. **Does NOT clash with N=3** (target still S², N=3; π₃ rides on π₂ via
+the Hopf fibration; only the CHARGE READING changes: cell-surface degree → bulk linking number). **Q_H∈ℤ IS
+the interior/topological discreteness the constraint generator demanded** (R1's holonomy hope, concretely).
+NATIVE-CANDIDATE, a LEAD not banked — owes a derivation that native L2+L4 admits a Q_H=1 hopfion on N=0
+(gated R3-class solve) + the charge re-expression. Orchestra caveat stands (solo defect tested).
+
+**➤ NEXT = CHARLES'S FORK (frame-level):** MAP the π₃/HOPFION route (does native L2+L4 admit a Q_H=1 hopfion
+on N=0; re-read "charge" as Hopf linking vs D1's π₂ degree), or zoom out (orchestra / other). R1 (twist
+holonomy) is SUBSUMED — the Hopf charge IS the interior topological invariant. J(s)-vs-data still owed, frame-robust.
 **J(s)-vs-data is frame-robust and NOT gated by the reframe** — still a NEW push (MAP scope + confirm
 with Charles; loads Cassini bounds; pre-register s-dependence, data never-retune). "Anytime" ≠ self-authorized.
 
