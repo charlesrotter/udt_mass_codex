@@ -117,14 +117,18 @@ quantization must be interior) — the owed derivation; (Q4) particle = **DEFECT
 A-lean, P-only emergence; depth-stiffness = SCOPED no-go for passive concentric cells ONLY (does NOT bind
 the defect frame).
 
-**➤ NEXT ACTION = armchair/CAS, NO solve (awaiting Charles's confirm of the reframe + go):**
-- **R0 — defect COHERENCE:** does the native action admit a localized finite-energy S² defect on the N=0
-  background WITHOUT a private seal (L2+L4 energy finite; L4 sets size)?
-- **R1 — the HOLONOMY derivation (the reframe's owed first derivation):** does a radial twist ∂_rχ≠0 +
-  core-regularity impose an interior holonomy/BVP quantization (∮dχ=2πk / conserved interior flux), a
-  discreteness source distinct from seal & node-count?
-Then R2 (seal-or-not) → R3 (gated bounded solve, fixed-Q if spinning, only after R0–R2 + Charles). NO
-A-branch grind. J(s)-vs-data still owed, frame-robust, un-gated.
+**➤ FRAME CONFIRMED (Charles 2026-07-05) as the new WORKING HYPOTHESIS (not canon): particle = localized
+native S²/π₂ DEFECT on the N=0 background; NO private seal/deep-φ-well unless derived.** The concentric arc
+is banked as a CONSTRAINT GENERATOR (MAP §9): seal ω-blind; P16-C/A-lean (B refuted as native); passive spin
+binding too weak on fixed geometry; depth-stiffness = scoped no-go for passive CONCENTRIC cells only;
+discreteness must be interior/topological/BVP (not seal, not ω_n tower).
+
+**➤ NEXT ACTION = R0 RUNNING (agent a6f0c2f868005223f; armchair/CAS, NO solve).** Does native L2+L4 admit a
+finite-energy localized defect on N=0 WITHOUT a private seal/deep-well? φ-blind ḡ coupling. 5 clean-failures
+frozen (needs-seal/deep-well; unwinds; ad-hoc box; arbitrary size; non-native import). If R0 SURVIVES → **R1
+twist-holonomy** (guard: derive the quantization, do NOT impose ∮dχ=2πk as a slogan) → R2 (seal-or-not) → R3
+(gated solve). Treat √(κ/ξ) as a native carrier scale, do NOT fit to a particle size. NO A-branch grind.
+J(s)-vs-data still owed, frame-robust, un-gated.
 **J(s)-vs-data is frame-robust and NOT gated by the reframe** — still a NEW push (MAP scope + confirm
 with Charles; loads Cassini bounds; pre-register s-dependence, data never-retune). "Anytime" ≠ self-authorized.
 

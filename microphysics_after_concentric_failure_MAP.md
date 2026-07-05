@@ -125,3 +125,27 @@ R3 — (GATED, later) bounded solve of the localized defect on the N=0 ambient �
 **Standing for Charles's ponder:** confirm the defect-on-N=0-background reframe as the new frame; authorize
 R0 (defect coherence) + R1 (twist holonomy) as the first armchair/CAS derivations; the durable s=2μ/Z + J(s)
 lever still stands, frame-robust, un-gated by any of this.
+
+---
+
+## 9. FRAME CONFIRMED + CONCENTRIC ARC BANKED AS A CONSTRAINT GENERATOR (Charles, 2026-07-05)
+
+**Frame status: CONFIRMED as the new WORKING HYPOTHESIS (not canon yet).** The object is NO LONGER a smaller
+sealed universe-cell copy; it is a localized native S²/π₂ DEFECT living on the selected N=0 universe
+background. The N=0 universe is the medium; the defect gets NO private seal and NO private deep φ-well unless
+that is later DERIVED.
+
+**The closed concentric arc is banked as a CONSTRAINT GENERATOR (these five constrain the new frame):**
+1. the **seal is ω-blind** (NODE 1, blind-verified);
+2. **P16-C stands** — A-lean (matter φ-blind under the derived channel-corrected coupling), B refuted as a
+   native coupling (spin→φ = forbidden minimal-coupling import) — canon C-2026-07-05-1;
+3. **passive spin binding is too weak on fixed geometry** (NODE 2/3 + F4: correctly-signed but
+   depth-suppressed/outer-shell; the fixed-background test was itself ill-posed, existence undecided);
+4. **depth-stiffness is a SCOPED no-go for passive/private sealed CONCENTRIC cells, NOT for all native
+   defects** (the reframe's whole purpose is to escape it);
+5. **discreteness must be INTERIOR / TOPOLOGICAL / BVP** — NOT seal quantization, NOT an ω_n frequency tower.
+
+**Authorized: R0 FIRST** (defect coherence; question + rules + 5 clean-failure conditions in the R0 agent
+prompt / §7 tree). If R0 SURVIVES → R1 (twist holonomy), with the guard: do NOT impose ∮dχ=2πk as a slogan —
+derive whether the native defect geometry actually FORCES a holonomy / conserved-flux / radial-phase-integral;
+a hand-chosen integer is not a result. R0 running (agent a6f0c2f868005223f). NO solve, NO A-branch grind.
