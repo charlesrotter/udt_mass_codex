@@ -5,7 +5,7 @@ everything under the "↓↓↓ HISTORICAL ARC" / "SUPERSEDED" fences is labeled
 plan). `HANDOFF.md` / `STATE.md` are detailed history; **if they disagree with this file's CURRENT STATE block, the
 CURRENT STATE block wins.**
 **Read order (2026-07-05):** LIVE.md FRONTIER (this block — the RESUME-HERE directive at its TOP is the next
-action) → **HANDOFF.md TOP (2026-07-05 session record — H3=A + the full H4 arc + RESUME HERE)** → the H4 arc docs
+action) → **HANDOFF.md TOP (2026-07-05 (PM) session record — H3=A + the full H4 arc + RESUME HERE)** → the H4 arc docs
 `H4_backreaction_mass_MAP.md`, `H4_N1_...`, `H4_N2_...`, `H4_N4_..._preregistration.md`,
 `H4_N4_backreaction_solve_results.md`, `H4_N4a_source_background_audit_results.md`, `H4_screening_taxonomy_MAP.md`,
 `H4_GP_switch_hopfion_MAP.md`, `H4_N4rev_conditional_mass_response_results.md` (+ the H3 docs `node_H3_...`,
@@ -59,7 +59,8 @@ resolution artifact — MISMATCH→SOLVER vindicated. **Three resolution-level c
 integer-consistent+trending, not certified-to-3-digits; E2/E4=1.000 is a rescaler snapshot vs ~0.99 true equil;
 absolute-vs-published energy normalization not established).
 
-**H4 IN PROGRESS (armchair chain, all blind-verified).** MAP banked + verifier-hardened (the "seal" disambiguated
+**H4 ARC — DONE (armchair+solve chain, all blind-verified; compute STOPPED — see the RESUME-HERE block above).**
+MAP banked + verifier-hardened (the "seal" disambiguated
 to the reframe-consistent read-surface, NOT a private cell). **N1 ✓** (`H4_N1_...`) general off-round transverse
 equation E^{AB}=−T^{AB}; the −2𝒦 φ-source survives off-round (CF5 doesn't trip); R^(2) exerts zero local stress.
 **N2 ✓** (`H4_N2_...`) native far-field reduction: mass = a pure MONOPOLE in φ (δφ=−δq/r, 1/r native from ρ=r
