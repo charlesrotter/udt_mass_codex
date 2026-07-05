@@ -38,6 +38,20 @@ gives **Dirichlet φ(r_s)=0** = the already-derived flux seal (Neumann would hav
 it). Sector split canonized C-2026-07-04-1 (σ_φ static / t→−t time-on). The old φ-Neumann wording is
 retired. Blind-verified (ad14fbc6898ee1930). Doc: `node05_seal_parity_regrade_results.md`.
 
+## *** 2026-07-05 CORPUS CORRECTION (Charles-banked): the √(κ/ξ) "sized soliton" is CONDITIONS-CHANGED (non-unit-norm S³ mis-fit) ***
+
+**The committed native_stabilizer √(κ/ξ) "sized soliton" is flagged CONDITIONS-CHANGED — do NOT use it as
+evidence for a native localized particle.** Blind-verified (R0 verifier aa69f2e6532adffd8;
+`node_R0_defect_coherence_results.md`): the committed BVP ansatz (`native_profile_bvp.py:10`) is
+**NON-UNIT-NORM**, |n|² = 1 − cos²θ·sin²Θ ≠ 1 — an S³-Skyrme *profile* form mis-fitted onto the unit-S²
+3-vector target; its "charge 1" via Θ:π→0 is NOT the π₂ degree of a unit field, and its finiteness rode
+the unwinding SEAL (Θ(seal)=0). It was never a clean protected unit-S² π₂ object. **PREMISE CHANGED:** the
+current native frame rejects the "localized π₂ point defect" reading entirely — the bare unit-S² π₂ defect
+is a delocalized GLOBAL MONOPOLE (protected ⇔ delocalized; per-shell 4πξ floor conformally protected,
+survives full geometry back-reaction; R0). The native localized soliton is the π₃ HOPFION (a different,
+seal-free object; LEAD, not banked). Any result that used the √(κ/ξ) soliton as a native localized particle
+is CONDITIONS-CHANGED and loses that authority until re-graded under the hopfion frame.
+
 ## *** 2026-07-02 CHARLES RULING: THE EIGENMODE / BOX-CONTROL / MODE-SPECTRUM CORPUS IS CONDITIONS-CHANGED ***
 
 **Charles-authorized (2026-07-02): the entire eigenmode-spectrum / box-control negative line is
