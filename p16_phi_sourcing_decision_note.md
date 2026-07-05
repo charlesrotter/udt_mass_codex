@@ -1,5 +1,26 @@
 # P16 DECISION NOTE — does spinning matter (ω≠0) source the depth field φ? (Fork-3b)
 
+> **DEEPER-RESOLUTION OUTCOME (2026-07-05, banked): C STANDS — the attempted reversal to B is REFUTED.**
+> The contract-driven deeper derivation (agent a8a9046a1d2e2c2c2) argued **B** (spin sources φ), reaching
+> Charles's founding depth×spin hunch. Per hypothesis discipline it got the HARDEST blind verifier
+> (afdcd31f357869084), which **refuted B and restored C (lean A)** on three textually-grounded hinges:
+> (1) the AS-DERIVED matter coupling is the channel-corrected **ḡ** (φ-blind), NOT physical-g — the
+> `g^{mn}` line at native_field_equations:71 is the pre-derivation TEMPLATE; the derived output is ḡ
+> (same procedure as the φ-kinetic term); the premise ledger (:151) has NO derived physical-g statement.
+> (2) **B IS GR minimal coupling smuggled in** ("matter gradients contract with the physical metric" = the
+> definition of minimal coupling = trigger-#6 forbidden); ḡ is NOT a "second background metric" (it is
+> φ-constructed from g by stripping depth-weights = the intrinsic-ruler reading), so **A is import-free, B
+> is the import.** (3) the anisotropy obstruction targets the UNIFORM φ-kinetic (Flavor III), NOT the
+> per-channel matter coupling, and its own current re-grade says UNDERDETERMINED — it does not close A.
+> **The reversal's engine ("Branch P breaks the shift for MATTER ⇒ B") is contradicted by the banked
+> gp_switch result "ONLY 𝒦 breaks the shift" (matter has no derived P-license to abandon channel-correction).**
+> Net: no native principle forces B; the derived matter coupling is ḡ/φ-blind; **B would require a CHOSE
+> frame (physical-g minimal coupling) the contract forbids.** VERDICT = **C, strengthened lean-A.**
+> Consequence: the DIRECT founding-hunch route (spin sourcing φ) is **not natively available**. The active
+> depth×spin channel is closed to native derivation; only the INDIRECT (A-branch, spin→geometry→φ via 𝒦)
+> channel remains, plus reframe/zoom-out. See LIVE.md for the fork. [Charles canonization pending.]
+
+
 **Mode: armchair/CAS-symbolic decision note, data-blind, NO solve. A FRAMING note, not a result.**
 Deriver agent aba0399ef8316c9ce (CAS-checked); driver sign-correction folded in (see §4).
 Answers the P16 fork raised in `node23_precompute_map.md` Q2b, per Charles's order (P16 before the F4 test).

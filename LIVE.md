@@ -94,12 +94,26 @@ min). SURVIVES: ω genuinely restoring on real φ; sign-catch φ_core<0 confirme
 (but rides non-stationary trial). **Net: ω-reframe NOT refuted, NOT shown to escape; passive instrument was
 wrong. Decisive test = fixed-Q coupled (φ,ρ,Θ,j,ω) solve, esp. raw P16-B — GATED behind P16.**
 
-**➤ NEXT ACTION = P16 NATIVE DERIVATION RUNNING (agent, per FROZEN contract `p16_native_derivation_contract.md`).**
-Deeper resolution of "does spin source φ?" (first note = C undecided/lean-A). A/B/C output + premise ledger;
-5 frozen candidate principles; NO GR import, report C rather than import. Gate: **P16→A** ⇒ active depth×spin
-route closed ⇒ reframe/zoom-out; **P16→B** ⇒ the fixed-Q coupled raw-branch solve = the decisive existence
-test, earns its own MAP before compute; **P16→C** ⇒ bracket both or zoom out, do NOT adopt B by convenience.
-DO NOT jump to the coupled solve before P16 resolves. Blind verifier before banking the P16 verdict.
+**➤ P16 RESOLVED (2026-07-05): deeper derivation attempted B → HARD VERIFIER REFUTED it → C STANDS,
+STRENGTHENED LEAN-A** (`p16_phi_sourcing_decision_note.md` top banner; deeper agent a8a9046a1d2e2c2c2,
+hard verifier afdcd31f357869084). The as-DERIVED matter coupling is the channel-corrected ḡ (φ-blind); B
+("matter contracts with physical g") = GR minimal coupling smuggled in (trigger-#6); the reversal's engine
+is contradicted by the banked gp_switch "only 𝒦 breaks the shift." **The DIRECT founding-hunch route (spin
+sourcing φ) is NOT natively available — it needs a forbidden import.** [Charles canonization of the refutation pending.]
+
+**➤ THE FORK IS NOW CHARLES'S (frame-level; DO NOT proceed without his call).** P16→C-lean-A means the
+active depth×spin channel is closed to native derivation. Options:
+- **(i) A-branch fixed-Q coupled solve** — the FIRST properly-posed existence test (F4 verifier's decisive
+  instrument): coupled (φ,ρ,Θ,j,ω) at FIXED Noether charge Q, φ-blind branch (spin reshapes geometry→φ only
+  INDIRECTLY via 𝒦). Untried; a genuine new instrument, not "one more seed." But a nonlinear coupled solve
+  (the thing that hit the wall statically) in a branch where spin only indirectly touches the core.
+- **(ii) Reframe / zoom-out** — the concentric embedded-cell frame has accumulated many walls (static E2;
+  seal ω-blind; ω-binding depth-suppressed; F4 ill-posed; B not native). Consider the radial-twist ansatz
+  (NODE-1 unmapped), non-concentric/twisted geometry (P10 broken), or a different frame.
+- **(iii) Charles rules on the matter-coupling frame** — B is not native, but is a frame CHOICE his to make
+  (against the derived ḡ grain; = minimal coupling, contract-forbidden by default). Unlikely, but his call.
+Driver lean: the run of walls in this frame (principle 6 + refusal-run tripwire) points to (ii) zoom-out/
+ponder — but (i) is a legitimate untried properly-posed instrument. FRAME CALL IS CHARLES'S. J(s)-vs-data still owed, frame-robust.
 **J(s)-vs-data is frame-robust and NOT gated by the reframe** — still a NEW push (MAP scope + confirm
 with Charles; loads Cassini bounds; pre-register s-dependence, data never-retune). "Anytime" ≠ self-authorized.
 
