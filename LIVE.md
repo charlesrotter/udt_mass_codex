@@ -30,20 +30,28 @@ discipline skills → INDEX.md (repo map).
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-05 EOD — N5 ARC CLOSED (ξ PARKED) + J(s) MAP + ONE-BODY NULL DEFLECTION all DONE (blind-verified); NEXT = Charles's call: null-sector Shapiro delay (armchair) then load Cassini data, OR go straight to the data confrontation) ============
+## ============ CURRENT STATE (2026-07-05 EOD — N5 ARC CLOSED (ξ PARKED) + the SOLAR LIGHT-SECTOR PREDICTION SET COMPLETE (J(s) MAP + one-body DEFLECTION + one-body SHAPIRO, all blind-verified); NEXT = Charles's GO to load Cassini/VLBI data (gated data confrontation), or hold) ============
 
-**➤➤ RESUME HERE / NEXT ACTION (2026-07-05): the one-body null deflection is DERIVED + blind-verified
-(`one_body_null_deflection_results.md`, verifier a2a421e68678e4687) — UDT's first concrete macro light-bending
-prediction. Charles's call on the next step: (a) derive the null-sector SHAPIRO DELAY on the same metric (same
-quadrature family, armchair/CAS, still data-blind) to complete the solar-system light-sector prediction set, THEN —
-with Charles's go — load Cassini/VLBI bounds and run the frozen ACCEPT/REJECT/BOUND (no retuning); or (b) go
-straight to the data confrontation on the deflection alone. Either way the data load is a SEPARATE gated step.**
-★ **RESULT (s=0 / Route A, clean): `Δα_mass(b) = 4(m̂/b) + (9π/4)(m̂/b)²`** — LEADING MATCHES GR (γ_UDT=1, forced by
-form reciprocity B=1/(a²A) ⇒ UDT passes the leading solar light-bending test automatically); SECOND ORDER DEPARTS:
-native **9π/4 vs Schwarzschild 15π/4** (ratio 3/5), the exponential/"Yilmaz"-lapse O(1/b²) signature — the term
-Cassini/VLBI precision would bound. Exact quadrature α+π=D(ρ₀)K(ε); β=0 → ambient J(s). Leading mass coeff K₁(s) is
-s-DEPENDENT (4→20/3) ⇒ refutes the MAP's no-s×q-mixing conjecture for null, but for s≠0 rides the conical anomaly
-(CF-ABS) so only s=0 is a clean observable; a=conical prefactor (clean at s=0,Δ=1); Z absent to O(m̂²); frame-robust.
+**➤➤ RESUME HERE / NEXT ACTION (2026-07-05): the solar-system LIGHT-SECTOR prediction set is COMPLETE + all
+blind-verified, DATA-BLIND. Next = CHARLES'S GO on the gated DATA CONFRONTATION — load Cassini/VLBI bounds and run
+the frozen ACCEPT/REJECT/BOUND against the predictions below (NO retuning), OR hold and pick up another owed thread
+(q/η; i-flow/ℏ). The data load is the separate gated step the whole no-retuning contract was built for.**
+★ **THE PREDICTION SET (native, s=0 / Route A clean; GR as reference only):**
+- **DEFLECTION** (`one_body_null_deflection_results.md`, verifier a2a421e68678e4687): `Δα = 4(m̂/b) + (9π/4)(m̂/b)²` —
+  γ_UDT=1 leading (MATCHES GR, passes the leading test automatically), second order **9π/4 vs Schwarzschild 15π/4**
+  (the exponential/"Yilmaz"-lapse O(1/b²) signature). FULLY frame-robust (pure null angle).
+- **SHAPIRO DELAY** (`one_body_shapiro_delay_results.md`, verifier a758095ce3b865414): `c·Δt_oneway =
+  2m̂·ln(4ρ₁ρ₂/ρ₀²) + 2m̂` — γ_UDT=1 leading log (MATCHES GR), second order per leg **9π/4−2 vs 15π/4−2**
+  (convention-free departure **−3π/2**, same 9π/4 signature). Only PARTIALLY frame-robust: the measured proper-time
+  delay carries a clock factor √A(ρ_obs) that rides the g-vs-ĝ fork (unity in ĝ) ⇒ leading log frame-clean, but
+  normalization + second-order + ambient tilt are frame-conditional (radar class, not the deflection's pure class).
+**Both: γ=1 leading (UDT survives the leading solar tests by construction) + the identical distinctive 9π/4
+second-order departure** — the frame-robust macro lever, now concrete numbers. s=0 clean; s≠0 rides the conical
+CF-ABS ambiguity (only s=0 unambiguous). Z absent to O(m̂²). **NOTE: Cassini's TIGHTEST γ bound is a Shapiro-delay
+measurement — the second-order 9π/4 is what precision data would bound; the leading γ=1 is automatic.**
+The J(s) confrontation MAP is BANKED + blind-verified (`J_of_s_light_deflection_confrontation_MAP.md`,
+verifier a66e2da69bfc3c7d9): TWO frame-robust light observables — the ambient J(s) sector (only the pure NUMBER is
+b-independent; measured azimuth D(ρ₀)·J(s) is conical/gauge, observability OPEN, CF-ABS) and this one-body sector ⇒
 The J(s) light-deflection confrontation MAP is BANKED + blind-verified (`J_of_s_light_deflection_confrontation_MAP.md`,
 verifier a66e2da69bfc3c7d9): TWO frame-robust light observables — the ambient J(s) sector (only the pure NUMBER is
 b-independent; measured azimuth D(ρ₀)·J(s) is conical/gauge, observability OPEN, CF-ABS) and this one-body sector ⇒
