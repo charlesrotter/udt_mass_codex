@@ -30,17 +30,18 @@ discipline skills → `HANDOFF.md` TOP (current activity) → `CANON.md` / `NEGA
 → this INDEX → the specific records. The file-immutability rule is **REPEALED** (Charles 2026-06-24): use git
 as git — edit in place, roll back via history.
 
-**CURRENT FRONTIER (2026-07-04 EOD — LIVE.md TOPMOST + PURSUIT_CHARTER_2026-07-04.md are authoritative,
-read them first; the ★ PENDING = Charles's OPTION-3 call — do NOT proceed without it):** universe cell
-SOLVED (flux-sealed; integer ladder N=0..22 family-universal; spectrum LAWS derived; **Stage-D blind-predicted
-13/13 unseen rungs — PREDICTION-GRADE**); fundamentals STABLE, universe = the N=0 ground state (canon
-C-2026-07-03-1/-2; core = even fold at finite depth, C-2026-07-03-3). D1: N=3 + algebra + structural-i =
-native cargo; q=1/3/η=1/18 = imports → targets. D2 theorems: emergence mechanism P-ONLY; no G-vacuum
-self-closure; interior all-P; Route-A G|P closes nowhere — **THE ROUTE FORK (A vs B) = the pivot** (Charles's
-emphasized fork 3). **The 2026-07-04 Opus session discharged R1 (route fork = FREE-ON-A-SHEET; the ONE
-observable = s=2μ/Z) + R2 (J(s) light-deflection = the frame-ROBUST lever; ĝ = reductio), re-graded the
-S²-defect (native S²/π₂ clean-current; worldline branch undercut), and ran the E2c/E2d/E2e optimizer arc down
-to a single diagnosed wall = EXTREME DEPTH-STIFFNESS ⇒ embedded-cell existence UNDECIDED (tool-limited).**
+**CURRENT FRONTIER (2026-07-05 — LIVE.md TOPMOST is authoritative; read it first):** the concentric ω≠0
+embedded-cell frame was CLOSED (P16 canon C-2026-07-05-1: spin→φ NOT natively available). A UDT particle is
+reframed as a native **Faddeev–Skyrme HOPFION** — native L2+L4 IS the Faddeev–Skyrme model; charge = Hopf
+linking **Q_H∈π₃(S²)=ℤ** (D1 REINFORCED). Armchair chain R0→Q1→H1→H2 blind-verified; the H3 solve is
+**PROVISIONAL-A** (hopfion EXISTS; ℓ_hopf≈1.1√(κ/ξ), ℓ_hopf/ρ_c∝1/√ξ; precision closure + blind verifier
+OWED). **NEXT = H3 precision closure → H4 (backreaction/mass/pinning + ξ-anchor). See the "2026-07-05 arc"
+section below + LIVE.md.**
+**FOUNDATION it builds on (prior arcs — DURABLE, no longer frontier):** universe cell SOLVED (flux-sealed;
+integer ladder N=0..22; Stage-D blind-predicted 13/13; universe = N=0 ground state, canon C-2026-07-03-1/-2/-3;
+core = even fold at finite depth, C-2026-07-03-3). D1: N=3 + algebra + structural-i native; q=1/3/η=1/18 =
+import targets. D2: emergence P-ONLY; interior all-P; the **route fork (A vs B)** + the R1/R2 s=2μ/Z + J(s)
+lever = now PARKED pre-hopfion threads (see LIVE.md "PARKED" note + `archive/LIVE_route_fork_E2_arc_2026-07-04.md`).
 Docs: `universe_cell_*`, `ladder_*`, `cascade_*`, `stability_*`, `microphysics_*` (incl.
 `microphysics_E2c_optimizer_hardening_results.md`, `microphysics_E2d_resweep_A1Z8_results.md`,
 `microphysics_E2e_physinformed_seed_results.md`), `r1_route_fork_native_derivation.md`,

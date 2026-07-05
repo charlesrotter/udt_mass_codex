@@ -19,7 +19,10 @@ Charles directed step-by-step; every node committed + blind-verified before the 
 
 **RESUME HERE (top next-session actions):** (1) blind verifier on H3 + finer-grid (N≳256) to close the ~16% energy gap & certify integer Q_H on the relaxed field → clean-bank H3; (2) **H4**: φ-backreaction (localized 𝒦→φ well; gravitation; **MASS**; the dynamical bulk-vs-core PINNING verdict) + a **ξ-anchor** (turns ℓ_hopf/ρ_c∝1/√ξ into a definite particle-vs-cell verdict); (3) still OWED: physical charges **q=1/3, η=1/18** (import-dependent, separate native re-derivation, NOT from Q_H) + the **i-flow/ℏ clock**; (4) **J(s)** light-deflection lever — durable, frame-robust, un-gated. Method note: every node this session got a blind adversarial verifier; verifiers caught TWO smuggled-GR imports (F4 ergoregion; P16 minimal coupling) + a rigged pre-registration outcome — the corral working.
 
-## SESSION RECORD 2026-07-04 (Opus — route fork R1/R2 → S²-regrade → E2c/E2d/E2e optimizer arc; PENDING = Charles's option-3 decision)
+## SESSION RECORD 2026-07-04 (Opus — route fork R1/R2 → S²-regrade → E2c/E2d/E2e optimizer arc) — HISTORICAL
+> [→ RESOLVED in the 2026-07-05 record above: Charles ruled option-3 = **3b** (ω≠0 reframe); that arc CLOSED
+> the concentric frame and led to the hopfion route. Any "PENDING option-3 / THE next action" below is this
+> record's captured 07-04 moment, NOT live.]
 
 First session after Fable's model handover (the charter was written at that handover). Charles directed
 step-by-step; every result was committed + blind-verified before the next began. Arc, in order:
