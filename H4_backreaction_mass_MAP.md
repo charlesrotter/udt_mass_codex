@@ -196,7 +196,14 @@ first-class deliverable and cannot be retro-explained.
 
 ---
 
-## Node order (armchair-first; DERIVE gated; solve LAST)
+## Node order (armchair-first; DERIVE gated; solve LAST) — PROGRESS (2026-07-06)
+**N1 ✓ BANKED** (`H4_N1_...`, blind-verified): general off-round transverse equation; −2𝒦 φ-source survives
+off-round (CF5 does not trip). **N2 ✓ BANKED** (`H4_N2_...`, blind-verified): native far-field reduction; mass =
+monopole in φ, multipoles in h_AB shear; CF1 OPEN (finite-amplitude). **N3 ✓ RULED (Charles, 2026-07-06):**
+frame **C(a) confirmed** (read-surface in bulk, no private seal / no particle boundary / no G|P mini-cell unless
+forced); report BOTH masses (geometric = flux/charge up to Z_φ), Z_φ kept open, CF1 kept open. **N4 → PRE-
+REGISTERED** (`H4_N4_backreaction_solve_preregistration.md`, owes a blind verifier before the solve). N5 pending.
+
 
 1. **N1 (armchair/CAS, no solve):** derive the **general off-round δS/δh_AB transverse equation** (gap #1) — does
    the matter→h_AB→𝒦 chain, and the P-source −2𝒦, survive for a non-round localized source? Settle CF5 here.

@@ -42,8 +42,20 @@ The load-bearing rescaler-OFF control confirms the virial balance is a genuine s
 Exactly the Vakulenko–Kapitansky prediction: continuum Q=1 ⟹ E≥c>0, so the coarse-grid collapse is a pure
 resolution artifact — MISMATCH→SOLVER vindicated. **Three resolution-level caveats disclosed** (|Q|≈0.99
 integer-consistent+trending, not certified-to-3-digits; E2/E4=1.000 is a rescaler snapshot vs ~0.99 true equil;
-absolute-vs-published energy normalization not established). **NEXT = H4 (φ-backreaction/gravitation/MASS + the
-dynamical bulk-vs-core PINNING verdict + a ξ-anchor).** Frontier + next actions in the two bullets below.
+absolute-vs-published energy normalization not established).
+
+**H4 IN PROGRESS (armchair chain, all blind-verified).** MAP banked + verifier-hardened (the "seal" disambiguated
+to the reframe-consistent read-surface, NOT a private cell). **N1 ✓** (`H4_N1_...`) general off-round transverse
+equation E^{AB}=−T^{AB}; the −2𝒦 φ-source survives off-round (CF5 doesn't trip); R^(2) exerts zero local stress.
+**N2 ✓** (`H4_N2_...`) native far-field reduction: mass = a pure MONOPOLE in φ (δφ=−δq/r, 1/r native from ρ=r
+area growth), multipoles in the h_AB SHEAR (no ℓ(ℓ+1) tower = a native GR-departure); geometric mass = Coulomb
+charge up to Z_φ; **CF1 (does it have a mass) stays OPEN — provably FINITE-AMPLITUDE ⇒ an N4 solve output.**
+**N3 ✓ RULED (Charles 2026-07-06):** frame **C(a) confirmed** (read-surface in bulk, NO private seal / boundary /
+mini-cell unless forced); report both masses, Z_φ open, CF1 open. **N4 → PRE-REGISTERED**
+(`H4_N4_backreaction_solve_preregistration.md`; the gated bounded solve computes CF1 sign+magnitude, CF2
+mass-sign, CF3 bulk-vs-core pinning; second-order/finite-amplitude mandatory; anti-hang binding).
+**NEXT = blind-verify the N4 pre-reg → then the N4 solve.** N5 ξ-anchor + q/η + i-flow/ℏ + J(s) still owed.
+Frontier detail in the two bullets below.
 
 ### ↓ (This session's 2026-07-04→05 chronological arc — concentric ω≠0 reframe CLOSED → the hopfion route —
 ### was ARCHIVED out of LIVE 2026-07-05 to keep it lean. Full record: HANDOFF.md §2026-07-05 (RESUME HERE) +
