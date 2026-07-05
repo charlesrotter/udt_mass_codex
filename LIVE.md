@@ -30,19 +30,24 @@ discipline skills → INDEX.md (repo map).
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-05 EOD — N5 ARC CLOSED (ξ PARKED) + J(s) CONFRONTATION MAP DONE (blind-verified); NEXT = derive the OWED one-body NULL deflection (gated), THEN Charles's go to load Cassini data) ============
+## ============ CURRENT STATE (2026-07-05 EOD — N5 ARC CLOSED (ξ PARKED) + J(s) MAP + ONE-BODY NULL DEFLECTION all DONE (blind-verified); NEXT = Charles's call: null-sector Shapiro delay (armchair) then load Cassini data, OR go straight to the data confrontation) ============
 
-**➤➤ RESUME HERE / NEXT ACTION (2026-07-05): the J(s) light-deflection confrontation MAP is BANKED + blind-verified
-(`J_of_s_light_deflection_confrontation_MAP.md`, verifier a66e2da69bfc3c7d9). The next action is the ONE OWED
-DERIVATION it identified — the ONE-BODY NULL-geodesic deflection `δ_body(b;q,s,Z)` on the M=−q exterior metric (a
-bounded CAS quadrature; R2 did the one-body FIELDS + TIMELIKE orbits but never the null deflection). THIS is the
-quantity that actually confronts Cassini/VLBI (PPN-γ). Do it armchair/CAS, GR (4GM/c²b, γ=1) as REFERENCE ONLY, no
-data; blind-verify; THEN — with Charles's go — load the solar-system bounds and run the frozen ACCEPT/REJECT/BOUND
-(no retuning).** Key MAP finding: there are TWO frame-robust light observables — (i) the ambient J(s) sector (only
-the pure NUMBER J(s) is impact-parameter-independent; the measured azimuth is D(ρ₀)·J(s), b-dependent+gauge-carrying,
-s=0 conical ⇒ whether it bounds s at all is OPEN, CF-ABS) and (ii) the one-body/solar deflection (OWED) ⇒ **at
-leading analysis Cassini bounds the ONE-BODY sector, NOT s** ("Cassini bounds s" = category-error CF-CAT). The
-verifier corrected an inherited R2 overstatement (row R2-1) that the ambient deflection is b-independent. ★ **N5 ARC
+**➤➤ RESUME HERE / NEXT ACTION (2026-07-05): the one-body null deflection is DERIVED + blind-verified
+(`one_body_null_deflection_results.md`, verifier a2a421e68678e4687) — UDT's first concrete macro light-bending
+prediction. Charles's call on the next step: (a) derive the null-sector SHAPIRO DELAY on the same metric (same
+quadrature family, armchair/CAS, still data-blind) to complete the solar-system light-sector prediction set, THEN —
+with Charles's go — load Cassini/VLBI bounds and run the frozen ACCEPT/REJECT/BOUND (no retuning); or (b) go
+straight to the data confrontation on the deflection alone. Either way the data load is a SEPARATE gated step.**
+★ **RESULT (s=0 / Route A, clean): `Δα_mass(b) = 4(m̂/b) + (9π/4)(m̂/b)²`** — LEADING MATCHES GR (γ_UDT=1, forced by
+form reciprocity B=1/(a²A) ⇒ UDT passes the leading solar light-bending test automatically); SECOND ORDER DEPARTS:
+native **9π/4 vs Schwarzschild 15π/4** (ratio 3/5), the exponential/"Yilmaz"-lapse O(1/b²) signature — the term
+Cassini/VLBI precision would bound. Exact quadrature α+π=D(ρ₀)K(ε); β=0 → ambient J(s). Leading mass coeff K₁(s) is
+s-DEPENDENT (4→20/3) ⇒ refutes the MAP's no-s×q-mixing conjecture for null, but for s≠0 rides the conical anomaly
+(CF-ABS) so only s=0 is a clean observable; a=conical prefactor (clean at s=0,Δ=1); Z absent to O(m̂²); frame-robust.
+The J(s) light-deflection confrontation MAP is BANKED + blind-verified (`J_of_s_light_deflection_confrontation_MAP.md`,
+verifier a66e2da69bfc3c7d9): TWO frame-robust light observables — the ambient J(s) sector (only the pure NUMBER is
+b-independent; measured azimuth D(ρ₀)·J(s) is conical/gauge, observability OPEN, CF-ABS) and this one-body sector ⇒
+**Cassini bounds the ONE-BODY sector, NOT s** (CF-CAT); an inherited R2 row-R2-1 overstatement was corrected. ★ **N5 ARC
 CLOSED + BANKED (Charles decision 2026-07-05): ξ is PARKED as
 an honest free-family parameter** — (1) the migration-based private-core anchor is RETIRED (N5 MAP); (2) whole-cell
 criticality does NOT pin ξ (N5a); (3) the flux budget is the SAME condition in charge language, NOT an independent
