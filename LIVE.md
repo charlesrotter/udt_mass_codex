@@ -4,11 +4,12 @@
 everything under the "↓↓↓ HISTORICAL ARC" / "SUPERSEDED" fences is labeled-stale detail (mine for history, not the
 plan). `HANDOFF.md` / `STATE.md` are detailed history; **if they disagree with this file's CURRENT STATE block, the
 CURRENT STATE block wins.**
-**Read order (2026-07-05):** LIVE.md FRONTIER (this block — jump to its END for the live action) → **HANDOFF.md TOP
-(2026-07-05 session record — the hopfion arc + RESUME HERE)** → the hopfion-route docs `native_hopfion_route_MAP.md`,
-`node_R0/_H1/_H2/_H3_*.md`, `H3_hopfion_solve_preregistration.md` → CLAUDE.md "How we work" + the discipline
-skills → INDEX.md (repo map). (`PURSUIT_CHARTER_2026-07-04.md` = the prior model-handover orientation, now
-SUPERSEDED by the hopfion arc — mine for the traps list only.)
+**Read order (2026-07-06):** LIVE.md FRONTIER (this block — the RESUME-HERE directive at its TOP is the next
+action) → **HANDOFF.md TOP (2026-07-06 session record — H3=A + the full H4 arc + RESUME HERE)** → the H4 arc docs
+`H4_backreaction_mass_MAP.md`, `H4_N1_...`, `H4_N2_...`, `H4_N4_..._preregistration.md`,
+`H4_N4_backreaction_solve_results.md`, `H4_N4a_source_background_audit_results.md`, `H4_screening_taxonomy_MAP.md`,
+`H4_GP_switch_hopfion_MAP.md`, `H4_N4rev_conditional_mass_response_results.md` (+ the H3 docs `node_H3_...`,
+`H3_..._preregistration.md`) → CLAUDE.md "How we work" + the discipline skills → INDEX.md (repo map).
 
 ## Binding method (never skip)
 - CLAUDE.md "How we work": MAP / OBSERVE / PONDER are primary, DERIVE is gated. Let structure
@@ -27,7 +28,21 @@ SUPERSEDED by the hopfion arc — mine for the traps list only.)
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-06 — HOPFION ROUTE R0→Q1→H1→H2→H3 done; H3 = OUTCOME A (blind-verified): a stable Q_H=1 hopfion is numerically resolved; NEXT = H4) ============
+## ============ CURRENT STATE (2026-07-06 EOD — H3=A + full H4 armchair+solve arc DONE; H4 compute STOPPED at revised-N4=D; NEXT SESSION = N5-reframed whole-cell-criticality/ξ-anchor MAP) ============
+
+**➤➤ RESUME HERE / NEXT-SESSION FIRST ACTION (Charles, 2026-07-06): N5 REFRAMED = a WHOLE-CELL CRITICALITY /
+ξ-ANCHOR MAP (armchair/MAP only — DO NOT run the fully-coupled non-perturbative solve until this MAP is banked AND
+blind-verified).** Driven by the revised-N4 finding that the hopfion's gravitational mass is a **WHOLE-CELL
+response, not a localized halo** (the transverse operator has no decaying mode ⇒ cell-filling shear; the
+backreaction is non-perturbative ε≫1). **Question:** if the hopfion's gravitational mass is a whole-cell response
+rather than a localized halo, what native WHOLE-CELL criticality condition anchors ξ, the hopfion scale, and the
+emergence machinery? **Focus:** (1) cell-scale criticality, NOT particle siting depth; (2) E_ang(core)=2 /
+criticality closure — is it still native?; (3) how the resolved hopfion acts as the SCALE-BREAKER; (4) whether the
+whole-cell response SUPPLIES the mass anchor; (5) what a later non-perturbative solve must compute. Deliver as a
+MAP (premise ledger + clean failures + verifier targets), then blind-verify before any coupled solve.
+**H4 COMPUTE IS STOPPED** — the H3→H4 arc (below) is banked+pushed; the non-perturbative fully-coupled
+(φ+h_AB, running ambient) solve is the eventual magnitude-certifier but is GATED behind the N5 MAP.
+
 
 **One-paragraph current state:** the concentric ω≠0 embedded-cell frame was closed (P16 canon C-2026-07-05-1:
 spin→φ not natively available); the reframe converged on the **HOPFION** — native L2+L4 IS the Faddeev–Skyrme

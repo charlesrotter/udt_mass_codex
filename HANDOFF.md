@@ -2,9 +2,73 @@
 
 > **READ `LIVE.md` FIRST** — it is the short, only-guaranteed-current file (frontier + next action).
 > This HANDOFF is the detailed record; if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
-> **CURRENT (2026-07-05): after LIVE.md, read the `## SESSION RECORD 2026-07-05` block just below (the
-> concentric ω≠0 arc CLOSED → the HOPFION route R0→Q1→H1→H2→H3; H3 = PROVISIONAL-A; RESUME HERE).**
-> (`PURSUIT_CHARTER_2026-07-04.md` = the prior model-handover orientation, now SUPERSEDED by the hopfion arc.)
+> **CURRENT (2026-07-06): after LIVE.md (its RESUME-HERE directive is the next action), read the
+> `## SESSION RECORD 2026-07-06` block just below — H3=A + the full H4 arc; H4 compute STOPPED at revised-N4=D;
+> NEXT = the N5-reframed whole-cell-criticality/ξ-anchor MAP.**
+
+## SESSION RECORD 2026-07-06 (Opus — H3 → OUTCOME A; then the full H4 backreaction/mass arc → revised-N4 = D, whole-cell mass; H4 compute STOPPED; NEXT = N5-reframed MAP)
+
+Charles directed step-by-step; every node committed + blind-verified before the next (all on `main`, pushed).
+
+**H3 (hopfion existence) → OUTCOME A, blind-verified.** Resumed with H3 = PROVISIONAL-A; a blind verifier caught a
+FALSE PASS (the Adam solve UNWINDS; "E=314/Q≈0.79/virial" was a best-field checkpoint of a decaying transient) →
+**D**. A **production rerun** (topology-preserving arrested-Newton + Derrick scale accelerator + coarse-to-fine
+ladder, `hopfion_arc_scripts_2026-07-05/drive_production.py`) then RESOLVED a stable, localized, virial-balanced
+Q_H=1 hopfion: N=96 unwinds (lattice pathology) → N≥160 holds+converges (|Q|=0.985→0.992, E2/E4→1.00, Ehat≈285–286,
+box-independent L=5/6/7, grid-converged N=160/224/256); rescaler-OFF control confirms the balance is genuine ⇒
+**A, blind-verified** (verifier af9b56bc; commits 88f48f7 D-correction, eee6b57 A). VK bound ⇒ coarse collapse =
+pure resolution artifact (MISMATCH→SOLVER). `node_H3_hopfion_solve_results.md`.
+
+**H4 (backreaction / mass / pinning / ξ-anchor) — the full armchair+solve arc, all blind-verified:**
+1. **MAP** (`H4_backreaction_mass_MAP.md`) + verifier hardening: the backreaction is INDIRECT + Branch-P-only
+   (n→h_AB→𝒦→φ; δS_m/δφ=0); TWO masses (MS geometric vs flux/charge); "seal" DISAMBIGUATED to a bulk read-surface
+   C(a), NOT a private cell (the verifier caught the sealed-cell revival risk).
+2. **N1** (`H4_N1_...`): the general off-round transverse equation E^{AB}=−T^{AB}; the −2𝒦 φ-source SURVIVES
+   off-round (CF5 doesn't trip); R^(2) exerts zero local stress; e^{2φ}/4 weight confirmed native.
+3. **N2** (`H4_N2_...`): native far-field reduction — mass = MONOPOLE in φ (δφ=−δq/r, 1/r native), multipoles in
+   the h_AB SHEAR; no ℓ(ℓ+1) tower (native GR-departure); geometric = Coulomb up to Z_φ; **CF1 (does it have a
+   mass) OPEN — provably finite-amplitude.** [Later CONDITIONS-CHANGED by N4a — see below.]
+4. **N3 RULED (Charles):** frame **C(a)** (read-surface in bulk, no private seal); report both masses; Z_φ open;
+   CF1 open. Then **N4 PRE-REG** (`H4_N4_..._preregistration.md`, blind-verified + 4 method fixes).
+5. **N4 solve** (`H4_N4_backreaction_solve_results.md`): SOLID Phase-A reduction — the O(amp²) flux collapses to a
+   LINEAR response (only δh^(1) needed) ⇒ **δm=−δq=½⟨T,L⁻¹T⟩**, L Euler-type (roots 1,2), sign-indefinite; a
+   native "no stress-only shortcut" departure. Source characterized (sectors trace −90/shear +139 = the
+   negative-mass prime-risk competition). Outcome **D**; CF1 leans δq≠0, CF2 open, CF3 D.
+6. **N4a source/background AUDIT** (`H4_N4a_...`) = **FAIL → reclassify N4 D-budget → D-SOURCE-FRAME.** The N4
+   operator DROPPED the ambient self-screening term +8e^{−2φ_amb}δφ (the Branch-P source 4e^{−2φ} is
+   φ-dependent). Whether a clean far-field mass exists reduces to the OPEN G/P switch (≡ depth). CONDITIONS-CHANGED
+   banked N2 (its monopole was an unconditional Branch-P claim; now conditional).
+7. **Screening TAXONOMY MAP** (`H4_screening_taxonomy_MAP.md`): the log-periodic far field is a FROZEN-W ARTIFACT
+   (the true ambient runs, W→0 ⇒ clean monopole recovered) ⇒ **"log-periodicity = discreteness" is DEAD as a lead**
+   (if native, discreteness is in the P-interior flux-ladder/closure machinery). Taxonomy collapses to a 2-way
+   INTERIOR distinction: active-P vs dead-G. (Label fix: SHALLOW=screened, DEEP=clean.)
+8. **G/P-SWITCH MAP** (`H4_GP_switch_hopfion_MAP.md`): the dead-G/active-P switch = **CF1** (ONE-WAY: δq≠0 ⟹
+   active-P exact; δq=0 needs an interior φ'-check). NOT topology-forced. ⇒ mass/pinning/emergence-switch are the
+   SAME question, all reduce to the revised-N4 solve.
+9. **Revised-N4 solve** (`H4_N4rev_conditional_mass_response_results.md`, corrected screened operator, φ_amb sweep)
+   = **OUTCOME D (box-control), with a DERIVED structural cause + 2 robust physics findings:** L_bare (roots 1,2)
+   has **NO decaying shear mode** ⇒ the hopfion's geometric response is **CELL-FILLING, not a localized halo** ⇒
+   **its mass is a WHOLE-CELL property, not a separable localized quantity** (no clean δq(φ_amb) curve at finite
+   frozen depth). ROBUST: (1) interior **ACTIVE-P everywhere; dead-G NOT reachable** by the isolated hopfion;
+   (2) **coupling-independent POSITIVE-mass SIGN lean (δm>0) ⇒ negative-mass prime risk DISFAVORED** (leading-order
+   lean, not certified); (3) **NON-PERTURBATIVE (ε≫1)** ⇒ perturbative machinery invalid for the MAGNITUDE.
+   Caveats: a Green's-fn numerics bug (magnitude ~8× off, SIGN robust, magnitude non-banked); the shallow/deep
+   label fix.
+
+**RESUME HERE (Charles, 2026-07-06): H4 compute STOPPED. NEXT SESSION = N5 REFRAMED = a WHOLE-CELL CRITICALITY /
+ξ-ANCHOR MAP (armchair/MAP only — DO NOT run the fully-coupled non-perturbative solve until this MAP is banked AND
+blind-verified).** Question: if the hopfion's gravitational mass is a whole-cell response (not a localized halo),
+what native WHOLE-CELL criticality condition anchors ξ, the hopfion scale, and the emergence machinery? Focus:
+(1) cell-scale criticality, NOT particle siting depth; (2) E_ang(core)=2 / criticality closure — still native?;
+(3) how the resolved hopfion acts as the SCALE-BREAKER; (4) whether the whole-cell response SUPPLIES the mass
+anchor; (5) what a later non-perturbative solve must compute. The eventual magnitude-certifier is a NON-PERTURBATIVE
+fully-coupled (φ+h_AB) solve on the running ambient φ_amb(r)≈½ln((8/Z_φ)ln r) — GATED behind this MAP. Still owed
+(separate): q=1/3, η=1/18 (native re-derivation, NOT from Q_H); i-flow/ℏ clock; J(s) light-deflection (frame-robust,
+un-gated). Method note: every H4 node got a blind verifier; verifiers caught a false pass (H3), a sealed-cell
+revival risk (MAP), a smuggled-GR/dropped-screening term (N4a, reaching into doubly-verified N2), a dead discreteness
+lead (taxonomy), and a Green's-fn bug (revised-N4) — the corral working.
+
+> **(2026-07-05 record — the hopfion route R0→Q1→H1→H2→H3 — below; superseded as frontier by the H4 arc above.)**
 
 ## SESSION RECORD 2026-07-05 (Opus — concentric ω≠0 arc CLOSED → HOPFION route R0→Q1→H1→H2→H3; H3 = PROVISIONAL-A)
 
