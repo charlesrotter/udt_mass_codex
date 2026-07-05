@@ -61,12 +61,25 @@ output (not gauge; leans F2-favorable, pending NODE 2); Flavor II merges with Fl
 sources frame-drag g_tψ) but that is interior back-reaction, not a seal obstruction; no labels/masses/data.
 Deriver a8d2e3c6fbac4dd7a, verifier a9242935198f7945a (V1–V6 SUPPORTED, GR-clean).
 
-**➤ NEXT ACTION = NODE 2/3 PRE-COMPUTE MAP (in progress): armchair/CAS/linearized-structure ONLY, NO full
-solve.** The route-2a stabilizer question. Answer: (1) native rotating junction/Noether-charge condition
-now the seal is vacuous; (2) minimal interior system for Θ(r), χ=Nψ+ωt, + the frame-drag back-reaction;
-(3) linearized: does ω enter as a genuine RESTORING/SELECTING term or a harmless shift (the F4 crux); (4)
-does discreteness come from spatial node-count/winding closure rather than an ω_n frequency tower; (5) the
-clean F4/F3 failure criterion BEFORE any nonlinear solve. Do NOT jump to a nonlinear solve.
+**➤ NODE 2/3 PRE-COMPUTE MAP BANKED (2026-07-04, framing doc NOT a result) — `node23_precompute_map.md`.**
+Key findings (Charles-accepted): (Q1) rotating cell adds ONE metric response, the l=1 frame-drag j(r),
+j(0)=j(r_s)=0, j′(r_s)=angular-momentum flux output = rotational analog of the depth-flux seal; no junction
+constrains ω. (Q2) minimal interior system = bracket B(r)=N²g^{ψψ}+ω²g^{tt}+2ωN g^{tψ} + native l=1
+frame-drag eq (from native Ricci, not GR's LT). (Q3 CRUX) ω is NOT a harmless shift — B has opposite-sign
+structure (winding N repulsive/spacelike, spin ω attractive/binding/timelike g^{tt}<0) = boson-star
+structure emerging NATIVELY; ω-tunable sign-flip radius r*(ω) = a genuine scale-selector; BUT the binding
+rides e^{2φ}, exponentially SUPPRESSED in the deep core where the E2 wall lives (help is outer-shell).
+(Q4) discreteness = topological winding N (+ radial node count), NOT an ω_n tower (ruled out; ω continuous).
+(Q5) F3 pre-discharged; the make-or-break is F4 (does ω stabilize/select the spatial closure).
+
+**➤ NEXT ACTION (order fixed by Charles): (1) P16 DECISION NOTE (running) → (2) bounded NODE-3 F4 test.**
+- **P16 (running, armchair/CAS, no solve):** does the native L2+L4 spinning carrier stay φ-BLIND when ω≠0
+  (channel-corrected, outer-shell) or does the time channel NECESSARILY source φ (raw = founding depth×spin
+  hunch, spin reaches the core)? NO GR time-kinetic import; report UNDECIDED rather than import. Agent aba0399ef8316c9ce.
+- **THEN bounded NODE-3 F4 test (both branches if P16 undecided):** 1-D only; saved REAL φ(r) (not flat
+  toy); Nr≤16–24; Jacobi/Derrick ONLY; output = F4 classification {stabilizer works / too weak-depth-
+  suppressed / no restoring term}; NO nonlinear solve; no labels/masses/data. Gated — this crosses the
+  compute boundary; run only after P16.
 **J(s)-vs-data is frame-robust and NOT gated by the reframe** — still a NEW push (MAP scope + confirm
 with Charles; loads Cassini bounds; pre-register s-dependence, data never-retune). "Anytime" ≠ self-authorized.
 
