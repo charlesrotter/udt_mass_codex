@@ -72,14 +72,22 @@ rides e^{2φ}, exponentially SUPPRESSED in the deep core where the E2 wall lives
 (Q4) discreteness = topological winding N (+ radial node count), NOT an ω_n tower (ruled out; ω continuous).
 (Q5) F3 pre-discharged; the make-or-break is F4 (does ω stabilize/select the spatial closure).
 
-**➤ NEXT ACTION (order fixed by Charles): (1) P16 DECISION NOTE (running) → (2) bounded NODE-3 F4 test.**
-- **P16 (running, armchair/CAS, no solve):** does the native L2+L4 spinning carrier stay φ-BLIND when ω≠0
-  (channel-corrected, outer-shell) or does the time channel NECESSARILY source φ (raw = founding depth×spin
-  hunch, spin reaches the core)? NO GR time-kinetic import; report UNDECIDED rather than import. Agent aba0399ef8316c9ce.
-- **THEN bounded NODE-3 F4 test (both branches if P16 undecided):** 1-D only; saved REAL φ(r) (not flat
-  toy); Nr≤16–24; Jacobi/Derrick ONLY; output = F4 classification {stabilizer works / too weak-depth-
-  suppressed / no restoring term}; NO nonlinear solve; no labels/masses/data. Gated — this crosses the
-  compute boundary; run only after P16.
+**➤ P16 DECISION NOTE BANKED (2026-07-04, framing note NOT a result) — `p16_phi_sourcing_decision_note.md`.**
+VERDICT **C — NATIVELY UNDECIDED** (lean A, do NOT bank as A/B). φ-blindness = matter couples to the BARE
+ḡ^{mn} (channel-correction), justified by exact depth-shift symmetry = a Branch-G property; the particle is
+Branch P where that symmetry is BROKEN. With ω≠0 the time channel adds −ω²e^{+2φ}sin²Θ/c²; whether
+channel-correction extends to it (⇒A, φ-blind survives, outer-shell binding) or matter couples to physical
+g^{tt} (⇒B, φ-source = founding depth×spin hunch) is NOT fixed by the action (R1 leaves the weight FREE).
+B via raw g^{tt} = GR minimal-coupling import (trigger-#6 forbidden unless derived); A = unforced transplant.
+**DRIVER SIGN-CATCH (folded into the note): φ_core<0 (flux law) ⇒ e^{+2φ} SUPPRESSED at the core ⇒ the
+B-branch φ-source is ALSO outer-shell-weighted, NOT "depth-enhanced/reaching the core" as the P16 agent
+narrated. BOTH branches' ω-help is outer-shell.** Deriver aba0399ef8316c9ce + driver §4.
+
+**➤ NEXT ACTION = bounded NODE-3 F4 test (Charles pre-authorized for P16-undecided; awaiting his ack of the
+sign-catch before first compute).** Both branches; 1-D; saved REAL φ(r) (E2b_*.pt exist); Nr≤16–24;
+Jacobi/Derrick ONLY; output = F4 classification {stabilizer works / too weak-depth-suppressed / no restoring
+term}; nail sign(φ_core) empirically at setup; NO nonlinear solve; no labels/masses/data; single process,
+no background-poll (ANTI-HANG).
 **J(s)-vs-data is frame-robust and NOT gated by the reframe** — still a NEW push (MAP scope + confirm
 with Charles; loads Cassini bounds; pre-register s-dependence, data never-retune). "Anytime" ≠ self-authorized.
 
