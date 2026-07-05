@@ -73,7 +73,22 @@ statement). **NEXT (revise N4 before any compute; Charles-gated): rebuild the mo
 φ_amb(r) WITH screening; determine the far-field character vs depth / the G/P assignment; report the mass
 CONDITIONALLY. The bare-Euler BVP must NOT be run as-was (spurious clean monopole).** N5 ξ-anchor + q/η + i-flow/ℏ
 + J(s) still owed. Method win: a source/background AUDIT caught a frame error BEFORE compute, in a doubly-verified
-banked result. Frontier detail in the two bullets below.
+banked result.
+
+**★ SCREENING TAXONOMY MAP (2026-07-06, blind-verified `H4_screening_taxonomy_MAP.md`) — refines N4a + KILLS a
+discreteness lead.** The N4a log-periodic far field is a FROZEN-W ARTIFACT: the true ambient runs
+(φ_amb≈½ln((8/Z_φ)ln r)) ⇒ W=e^{−2φ_amb}→0 ⇒ the clean 1/r monopole is RECOVERED over all physical radii (exactly
+in Branch-G/shallow); the oscillation never completes a cycle (bounded near-core skirt). ⇒ **"log-periodicity =
+discreteness" is DEAD** (if native discreteness exists it's in the P-interior flux-ladder/closure machinery, D2b,
+NOT a far-field DSI). N4a screening REFINED (log-periodic → at most marginal-logarithmic, physically-moot tail),
+not overturned. **The taxonomy COLLAPSES from a 3-way far-field split to a 2-way INTERIOR distinction: active-P
+interior (𝒦≠0 sources φ, emergence machinery ON) vs dead-G interior (source-free, holds geometric mass, conducts
+flux, no emergence).** Far-field mass is NEARLY branch-blind ⇒ **the G/P switch governs the INTERIOR, not the mass
+existence.** Pure-G flux-conduit native but "force" NOT established (no two-body interaction derived). Critical
+depth φ_amb^crit=½ln(32/Z_φ) (≈1.73 at Z_φ=1). **NEXT (Charles): return to option 1 = the G/P switch criterion for
+the hopfion — RE-AIMED at the interior question (does the hopfion core sit in active-P or dead-G; its S²-winding /
+toroidal angular geometry = candidate-switch (2)/(3) of the native-field-eq §10).** No mass compute meanwhile.
+Frontier detail in the two bullets below.
 
 ### ↓ (This session's 2026-07-04→05 chronological arc — concentric ω≠0 reframe CLOSED → the hopfion route —
 ### was ARCHIVED out of LIVE 2026-07-05 to keep it lean. Full record: HANDOFF.md §2026-07-05 (RESUME HERE) +

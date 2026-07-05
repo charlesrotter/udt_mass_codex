@@ -1,5 +1,14 @@
 # H4 · N4a — Source/background audit: FAIL → the far-field monopole is AMBIENT-SCREENED (a frame question, not a budget limit)
 
+> **★ REFINED (2026-07-06, `H4_screening_taxonomy_MAP.md`, blind-verified):** the screening TERM + frozen indicial
+> roots below STAND, but the extrapolation to a *persistent log-periodic* far field was frozen-W-conditional and
+> does NOT survive the running ambient. The true φ_amb(r) runs (φ_amb≈½ln((8/Z_φ)ln r)) ⇒ W=e^{−2φ_amb}→0 ⇒ the
+> clean 1/r monopole is RECOVERED over all physical radii (exactly in Branch-G/shallow); the oscillation is a
+> bounded near-core skirt that never completes a cycle. So **"log-periodicity = discreteness" is DEAD**, and N4a's
+> screening is REFINED to *at most a MARGINAL LOGARITHMIC* (non-oscillatory, non-conserved-flux, physically-moot
+> for a finite cell) tail at strict r→∞ — NOT overturned. Net: the far field is *nearly* (not strictly)
+> branch-blind; the real branch fork is INTERIOR (active-P vs dead-G). See the taxonomy MAP for the full verdict.
+
 **Status: BANKED, blind-verified (2026-07-06). Outcome = FAIL (revise N4 before any response solve) + reclassify
 the banked N4 from D-budget to D-SOURCE-FRAME.** Audit agent a37ebac2cb6d74620; blind adversarial verifier
 aac5cfdbb07e82dc9 (verified the catch two independent ways; adjudicated the N2 rescue; confirmed the
