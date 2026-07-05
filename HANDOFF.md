@@ -5,6 +5,19 @@
 > **MODEL HANDOVER 2026-07-04: the successor driver's orientation = `PURSUIT_CHARTER_2026-07-04.md`
 > (read after LIVE TOPMOST — treasure list, FORK 3 route-fork program R1–R4, the eleven known traps).**
 
+## SESSION RECORD 2026-07-05 (Opus — concentric ω≠0 arc CLOSED → HOPFION route R0→Q1→H1→H2→H3; H3 = PROVISIONAL-A)
+
+Charles directed step-by-step; every node committed + blind-verified before the next. Arc, in order (all on `main`):
+1. **Option-3 ruling:** static concentric A0 arc CHECKPOINTED (existence undecided/tool-limited, NOT nonexistence); main path = **3b ω≠0 angular reframe** (3a demoted). Constraint generator banked.
+2. **NODE 0.5** (`node05_...`, canon **C-2026-07-04-1**): seal parity re-grade → SECTOR SPLIT (spatial depth-mirror φ→−φ governs STATIC seal BCs; t→−t governs time-on). φ seal BC CORRECTED Neumann→**Dirichlet φ(r_s)=0**.
+3. **NODE 1** (`node1_...`): the seal is **ω-BLIND** (F1 doesn't fire) → discreteness relocated INTERIOR.
+4. **NODE 2/3 MAP** + **F4 test**: ω is a correctly-signed but depth-suppressed binding term; F4 fixed-background test was ILL-POSED (verifier caught a GR "ergoregion ceiling" import + unbounded-below-without-fixed-Q) → existence UNDECIDED, not CLASS(2).
+5. **P16** (canon **C-2026-07-05-1**): deeper derivation argued B (spin sources φ = founding hunch) → HARD verifier REFUTED B as smuggled GR minimal coupling → **C-lean-A: spin→φ NOT natively available** (conservative). Charles chose ZOOM-OUT.
+6. **REFRAME → the DEFECT frame → the HOPFION** (`microphysics_after_concentric_failure_MAP`, `native_hopfion_route_MAP`): **R0** (`node_R0_...`): bare π₂ defect = GLOBAL MONOPOLE, protected⇔delocalized, FAILS → redirect: native L2+L4 **IS the Faddeev–Skyrme model**, its soliton is the **π₃ HOPFION**. **Q1** native=FS exact. **H1** (`node_H1_...`) topology native on N=0 (SURVIVES-CONDITIONAL on √(κ/ξ)≪ρ; the cell isn't S³ but a localized hopfion makes its own S³ from the local ball — zero-net-flux, the same fact that evaded R0). **H2** (`node_H2_...`) charge ledger native: identity = **Q_H∈π₃(S²)=ℤ** (Hopf linking); D1 REINFORCED (N=3, structural-i=ω_H1=F=dA the field strength whose helicity is Q_H — Whitehead integral, NO gauge import); q/η stay OWED separately.
+7. **H3 PRE-REG** (`H3_..._preregistration`, blind-verified → revised: outcome-B was unreachable, fixed to compare ℓ_hopf vs core ρ_c). **H3 SOLVE** (`node_H3_...`, **PROVISIONAL-A**): virial-balanced (E2=E4 exact) Q_H=1 hopfion EXISTS; **ℓ_hopf≈1.1√(κ/ξ), ℓ_hopf/ρ_c ∝ 1/√ξ** (2-coupling confirmed). CAVEAT owed: energy ~16% high + relaxed-field Q_H≈0.79 not integer-certified = resolution-limited (NOT D/C). Charles ruled bank-provisional + handoff.
+
+**RESUME HERE (top next-session actions):** (1) blind verifier on H3 + finer-grid (N≳256) to close the ~16% energy gap & certify integer Q_H on the relaxed field → clean-bank H3; (2) **H4**: φ-backreaction (localized 𝒦→φ well; gravitation; **MASS**; the dynamical bulk-vs-core PINNING verdict) + a **ξ-anchor** (turns ℓ_hopf/ρ_c∝1/√ξ into a definite particle-vs-cell verdict); (3) still OWED: physical charges **q=1/3, η=1/18** (import-dependent, separate native re-derivation, NOT from Q_H) + the **i-flow/ℏ clock**; (4) **J(s)** light-deflection lever — durable, frame-robust, un-gated. Method note: every node this session got a blind adversarial verifier; verifiers caught TWO smuggled-GR imports (F4 ergoregion; P16 minimal coupling) + a rigged pre-registration outcome — the corral working.
+
 ## SESSION RECORD 2026-07-04 (Opus — route fork R1/R2 → S²-regrade → E2c/E2d/E2e optimizer arc; PENDING = Charles's option-3 decision)
 
 First session after Fable's model handover (the charter was written at that handover). Charles directed
