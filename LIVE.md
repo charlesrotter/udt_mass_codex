@@ -196,8 +196,18 @@ matter energy); (6) φ-backreaction → H4; (7) 2D bounded Nρ,Nz≤64, ONE proc
 known-hopfion validation mandatory + Q_H=1 + grid+box convergence + blind verifier. **Outcomes: A exists-in-
 bulk (√(κ/ξ)≪ρ) → H4 / B core-pinned (size~cell) → reframe / C no-solution → route fails / D tool-limited.**
 
-**➤ NEXT: blind verifier on the H3 pre-registration (esp. the ★ ambient-invisibility framing + that the
-Faddeev–Skyrme reduction + Q_H measurement are correct/native), THEN Charles's go on the bounded solve.**
+**➤ H3 PRE-REG BLIND-VERIFIED → NEEDS-REVISION → REVISIONS APPLIED (verifier a58e9a878c48aff42).** Core plan
+SOUND (native Faddeev–Skyrme, native Whitehead Q_H, no import, axisymmetric OK). TWO load-bearing fixes folded
+in: **(1) outcome-B was UNREACHABLE as frozen** (comparing ℓ_hopf to "ρ everywhere in the Gpc cell" ⇒ any
+micro hopfion trivially bulk ⇒ trivially A); FIXED — compare to the CORE scale ρ_c: **ℓ_hopf/ρ_c ∝ 1/√ξ**
+(ξ free/data-blind). **H3's honest deliverable is now EXISTENCE + the ξ-ratio, NOT a bare A/B binary** — the
+definite bulk-vs-pinned verdict needs H4's FORCE + a ξ-anchor. **(2) the flat reduction rests on ρ=r (EXACTLY
+flat R³) + bulk-locality, NOT φ-blindness alone** — the energetics see ḡ (carries ρ); only the CHARGE is
+metric-free. Minor: benchmark vs the ACTUAL published Q=1 hopfion energy (NOT the VK lower bound) + name the
+lattice-Hopf discretization pitfall; axisymmetry justified for Q_H=1(,2) only.
+
+**➤ NEXT = Charles's confirm of the REVISED outcomes (B redefined vs ρ_c; deliverable = existence + ξ-ratio
+ℓ_hopf/ρ_c ∝ 1/√ξ; A/B-binary → H4+ξ-anchor), THEN his go on the bounded solve.** J(s) parked.
 **J(s)-vs-data is frame-robust and NOT gated by the reframe** — still a NEW push (MAP scope + confirm
 with Charles; loads Cassini bounds; pre-register s-dependence, data never-retune). "Anytime" ≠ self-authorized.
 

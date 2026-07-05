@@ -8,17 +8,23 @@ nonlinear solve until this MAP is banked and verified"). DATA-BLIND: no masses/l
 Does the native L2+L4 S² carrier admit a stationary **Q_H=1** hopfion on the selected N=0 background, and does
 it localize in the BULK so that **√(κ/ξ) ≪ ρ(r_hopf)** rather than becoming core-pinned?
 
-## ★ LOAD-BEARING CLARIFICATION (surfaced while specifying — sharpens the H3/H4 split, answers item 6)
-In the **static φ-blind sector** the hopfion is **AMBIENT-INVISIBLE** (R0/H1): the measure √h=r²sinθ is φ-free
-(B=1/A), the angular coupling is shift-weight-1 / φ-blind, and δS_m/δφ=0. **⇒ On a FIXED N=0 background there
-is NO dynamical force pinning the hopfion to any location** — a static hopfion is free to sit anywhere, at its
-own size √(κ/ξ). Therefore **H3 cleanly tests two things only: (a) EXISTENCE of a stationary Q_H=1 minimizer,
-and (b) its SIZE √(κ/ξ) in the cell's ρ-units.** The genuine dynamical position-pinning (a *force* toward the
-core) is a **BACKREACTION effect** (the hopfion's localized stress → indirect φ well, Q6) ⇒ **DEFERRED to H4.**
-Consequence for the frozen outcomes: at H3, "core-pinned" (B) means the size √(κ/ξ) is comparable to ρ
-*everywhere admissible* (no bulk region with ρ≫√(κ/ξ)) — a SIZE-vs-cell-scale fact, NOT a force; the dynamical
-pinning verdict is H4's. This makes H3 essentially the flat-space Faddeev–Skyrme hopfion solve (ρ=r theorem
-⇒ locally flat) PLUS a size comparison to the cell.
+## ★ LOAD-BEARING CLARIFICATION (verifier-corrected a58e9a878c48aff42 — sharpens the H3/H4 split, answers item 6)
+In the **static φ-blind sector** there is NO φ-mediated force: the measure √h=r²sinθ is φ-free (B=1/A), the
+angular coupling is shift-weight-1 / φ-blind (couples to bare ḡ), and δS_m/δφ=0 ⇒ **no dynamical force pins
+the hopfion to any location** (it is free to sit anywhere). **BUT — verifier correction — the hopfion is NOT
+metric-free / "invisible to everything":** its ENERGETICS contract with the bare spatial metric
+ḡ^{ab}=diag(1,1/ρ²,1/(ρ²sin²θ)) in BOTH L2 and L4, so **the energy sees the areal radius ρ**. The reduction to
+flat-space Faddeev–Skyrme holds because **ρ=r is a theorem** (C-2026-06-10-1) ⇒ ḡ_spatial = dr²+r²dΩ² = EXACTLY
+Euclidean R³ — not because "the hopfion sees nothing," and not merely "locally flat." Correct decomposition:
+- φ-invisibility (measure/coupling/no-source) removes the DILATION e^{2φ} — necessary, not sufficient;
+- **ρ=r** makes the residual bare geometry EXACTLY flat → this is what reduces the ENERGETICS to flat
+  Faddeev–Skyrme (if ρ(r)≠r, H3 would be a curved-space solve);
+- metric-freeness applies ONLY to the CHARGE Q_H (a 3-form, orientation-only) — which is why existence/topology
+  is ρ-independent (H1/H2) but the size/energetics are not.
+No hidden fold/boundary/curvature re-coupling for a BULK hopfion (support interior, n→n_∞ on a clean slice; the
+seal/fold BCs never enter) — re-coupling appears only if the object is pushed to the core/fold = the H4 pinning
+question. So **H3 tests: (a) EXISTENCE of a stationary Q_H=1 minimizer, and (b) its SIZE ratio ℓ_hopf/ρ_c** (see
+the corrected outcomes). The dynamical position-pinning FORCE is a BACKREACTION effect (Q6) ⇒ DEFERRED to H4.
 
 ## The 8 frozen specifications (Charles)
 
@@ -40,7 +46,11 @@ integers m,l; Q_H=1 = (m,l)=(1,1)) — the simplest hopfion IS axisymmetric, so 
 toroidal (η,ξ) coords** should hold Q_H=1 honestly. **Honesty gate:** MEASURE Q_H of the ansatz (item 2) and
 require =1; if the axisymmetric ansatz cannot carry Q_H=1 honestly, ESCALATE to bounded 3D. Do NOT impose a
 profile BC that fakes the winding (the R0/S³-Skyrme trap — the winding must be carried by the honest map, not
-a hand-pinned Θ(core)=π-type BC; here regularity is n→const at core, see item 4).
+a hand-pinned Θ(core)=π-type BC; here regularity is n→const at core, see item 4). **Scope (verifier):
+axisymmetry is justified SPECIFICALLY for Q_H=1 (and 2) — the (1,1) toroidal unknot is the established
+axisymmetric minimizer (Faddeev–Niemi / Battye–Sutcliffe / Hietarinta–Salo); Q_H≥7 minimizers are
+knotted/non-axisymmetric, so the 2D reduction must NOT be reused at higher charge (the 3D-escalation clause
+covers that failure mode).**
 
 **4. Boundary conditions.** **Constant exterior** n→n_∞ (= the N=0 ambient value, e.g. n_∞=ẑ) at the outer
 edge of a LOCAL bulk computational ball (NOT the cell seal); **regular core** (n smooth, single-valued at the
@@ -66,24 +76,39 @@ gate demands, and only within anti-hang limits.
 
 **8. Verifier requirements before banking ANY positive.**
 - **MMS / known-hopfion validation (mandatory):** reproduce the KNOWN flat-space Q_H=1 Faddeev–Skyrme hopfion
-  (its published dimensionless energy E₁/(√(ξ³κ)) ≈ the Vakulenko–Kapitansky/known-numerical value, and its
-  known toroidal shape) as proof the method RESOLVES the object. If it can't reproduce the known hopfion →
-  outcome D (tool-limited), NOT a physics verdict.
+  — its **actual published NUMERICAL minimizer energy in an explicitly stated (ξ,κ) normalization** (NOT the
+  Vakulenko–Kapitansky value: VK is a LOWER BOUND E ≳ c|Q_H|^{3/4}, not the minimizer energy — verifier
+  correction) PLUS its toroidal shape (energy-density ring radius, size) — as proof the method RESOLVES the
+  object. If it can't reproduce the known hopfion → outcome D (tool-limited), NOT a physics verdict.
+- **Lattice-Hopf pitfall (verifier, name it):** naive finite-difference Q_H drifts OFF integer on coarse grids;
+  the "Q_H=1 to integer tol on the known hopfion" guard is correct but REQUIRES a grid fine enough (or a
+  geometric/solid-angle lattice-Hopf construction) to resolve the integer — else a real hopfion is mis-flagged.
 - Q_H measured = 1 (integer within tol); grid-convergence (E, size stable under refinement); R_box-
   independence (not box-controlled).
 - Size √(κ/ξ) computed in ρ-units; compared to the cell's ρ-range (the localization check).
 - **Blind adversarial verifier** on any positive before banking (verifier-before-record).
 
-## FROZEN OUTCOMES (Charles)
-- **A — EXISTS-IN-BULK:** a finite localized Q_H=1 energy minimizer exists AND √(κ/ξ) ≪ ρ over a bulk region
-  of the cell. ⇒ hopfion route survives to H4 (backreaction/gravitation, mass, the dynamical pinning verdict).
-- **B — CORE-PINNED:** the minimizer's size √(κ/ξ) is comparable to ρ everywhere admissible (no bulk region
-  with ρ≫√(κ/ξ)) — a cell/core-scale object, not a localized particle. ⇒ H1 becomes conditional/unresolved;
-  zoom out or reframe. (Reminder: at H3 this is a SIZE fact; the dynamical-pinning force is H4.)
-- **C — NO SOLUTION:** no stationary Q_H=1 localized minimizer under native L2+L4 on the N=0 background (e.g.
-  warping obstructs it, or energetics forbid). ⇒ hopfion route fails cleanly.
-- **D — SOLVER INCONCLUSIVE:** classify as tool-limited ONLY if MMS/known-hopfion validation shows the method
-  cannot resolve the object. Not a physics verdict.
+## FROZEN OUTCOMES (verifier-corrected — B was UNREACHABLE as first frozen; now compared to the CORE scale ρ_c)
+**Verifier catch (load-bearing):** comparing ℓ_hopf=√(κ/ξ) to "ρ everywhere in the cell" is rigged — the N=0
+cell's ρ runs to r_CMB (~Gpc), so any microscopic hopfion ALWAYS has a bulk region with ρ≫ℓ_hopf ⇒ B trivially
+false, A trivially true. The honest comparison is to the **CORE/MINIMUM scale ρ_c** (∝√κ, C-2026-07-03-3):
+**ℓ_hopf/ρ_c ∝ 1/√ξ** (ρ_c/ℓ_hopf ∝ √ξ; constraint ξN<2 for ρ_c real). ξ is a FREE coupling (CHOSE),
+data-blind, so H3 cannot return a DEFINITE bulk-vs-pinned verdict — that needs (i) H4's pinning FORCE and (ii)
+a value/anchor for ξ. **H3's honest deliverable = EXISTENCE + the ξ-parametrized ratio ℓ_hopf/ρ_c ∝ 1/√ξ**
+(the universal dimensionless Faddeev–Skyrme number × the √κ gauge factor).
+- **A — EXISTS + ξ-RATIO:** a finite localized Q_H=1 minimizer exists; report ℓ_hopf/ρ_c ∝ 1/√ξ (the FS number
+  × gauge factor). ⇒ hopfion route survives to H4 (backreaction/gravitation, mass, the dynamical pinning FORCE,
+  and the ξ-anchor that turns the ratio into a definite bulk-vs-core verdict).
+- **B — CORE-SCALE at ξ~O(1):** the minimizer exists but ℓ_hopf ≳ ρ_c at O(1) coupling (ℓ_hopf/ρ_c ∝ 1/√ξ is
+  NOT ≪1 for admissible ξ) — a cell/core-scale object, not a cleanly-separated particle, for natural ξ. ⇒ H1's
+  localization premise is conditional on large ξ; flag for H4/ξ-anchor, consider reframe. (A SIZE fact vs ρ_c;
+  the dynamical-pinning FORCE is H4.)
+- **C — NO SOLUTION:** no stationary Q_H=1 localized minimizer under native L2+L4 on flat R³ (via ρ=r) at all.
+  ⇒ hopfion route fails cleanly. (Would contradict the known flat-space Faddeev–Skyrme result ⇒ suspect D first.)
+- **D — SOLVER INCONCLUSIVE:** classify as tool-limited ONLY if the mandatory known-hopfion benchmark (item 8)
+  fails / the method demonstrably cannot resolve the object. Not a physics verdict.
+**Note:** A vs B is now the ξ-ratio itself (continuous), reported as a number, NOT a bare binary — the binary
+verdict is deferred to H4+ξ-anchor. C and D remain clean binaries at H3.
 
 ## Discipline
 No masses, no labels, no observational data, no fitting. No nonlinear solve until THIS MAP is banked AND
