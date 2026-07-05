@@ -1,5 +1,17 @@
 # H4 · N2 — Native far-field / multipole reduction of the localized toroidal hopfion source
 
+> **★ CONDITIONS-CHANGED (2026-07-06, N4a `H4_N4a_source_background_audit_results.md`, blind-verified):** the clean
+> monopole **δφ = −δq/r** and the radius-independence / box-control diagnostic below are valid ONLY on a
+> **source-free exterior** — a **Branch-G / continuum** far field, or a **shallow ambient** e^{−2φ_amb} < Z_φ/32.
+> On a **deep Branch-P ambient** the exterior φ-operator is SCREENED — Z_φ(r²δφ')' + 8e^{−2φ_amb}δφ = 0, roots
+> −½±√(Z_φ−32e^{−2φ_amb})/(2√Z_φ) — and above critical depth (φ_amb ≲ 1.73 at Z_φ=1) the far field is log-periodic
+> **r^{−1/2}cos(ω ln r) with NO clean monopole mass.** N2 dropped the φ-dependence of the Branch-P source (it
+> conflated matter-source-free T=0 with source-free; the geometric 𝒦 source persists in the ambient) — the same
+> "round+φ≡0 is not a vacuum" fact N2 applied to the SHEAR but not to its own MONOPOLE. So **whether the hopfion
+> has a clean far-field mass reduces to the OPEN G/P switch criterion for its far field** (equivalently its unpinned
+> depth). The ℓ=0/ℓ=2 split, the source, frame C(a), and the Phase-structure below all STAND; only the monopole's
+> unconditional-Branch-P reading is corrected to conditional.
+
 **Status: BANKED, blind-verified (2026-07-06). Armchair/CAS (sympy symbolic only; NO numerical solve, NO data,
 no open decision taken — branch/Z_φ symbolic, no seal class/seal-meaning chosen, frame C(a) read-surface-in-bulk
 throughout).** Node N2 of `H4_backreaction_mass_MAP.md`, building on the blind-verified N1

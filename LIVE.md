@@ -58,12 +58,22 @@ Euler-type operator (roots 1,2), sign-INDEFINITE; a genuine **native no-stress-o
 ⇒ mass is irreducibly the geometric response, can't read it off a GR-style stress constraint). SOLID source:
 T^{AB} from the resolved field, compact-support (read-surface-independent), sectors **trace −90 / shear +139**
 (opposite signs = the phase1_geon negative-mass prime-risk structure); geometric mass +286.5 is a DIFFERENT object,
-does NOT settle the flux-mass. **CF1 LEANS δq≠0** (B/massless disfavored), **CF2 OPEN** (A +mass vs C −mass both
-live; sign NOT steered), **CF3 = D** (below the ~1% floor). The CF1/CF2 gap is response-solve BUDGET, not
-signal-below-noise. **NEXT (clean, bounded, completes N4 — NOT H5): the ℓ=0/ℓ=2 Euler Green's-function response
-solve δh⁽¹⁾=−L⁻¹T + contract ⟨T,L⁻¹T⟩ to CERTIFY CF1 / RESOLVE CF2 — MUST include the true-φ_amb correction
-(N2-owed shear exponent) + a box-control check (growing δh⁽¹⁾ ⇒ D).** N5 ξ-anchor + q/η + i-flow/ℏ + J(s) still
-owed. Frontier detail in the two bullets below.
+does NOT settle the flux-mass. **CF1 LEANS δq≠0** (B/massless disfavored), **CF2 OPEN**, **CF3 = D**.
+**★ N4a SOURCE/BACKGROUND AUDIT (2026-07-06, blind-verified `H4_N4a_...`) = FAIL → N4 RECLASSIFIED D-BUDGET →
+D-SOURCE-FRAME.** The N4 response operator was the locally-flat approximation and DROPPED the ambient
+self-screening term +8e^{−2φ_amb}δφ (the Branch-P source 4e^{−2φ} is φ-dependent). True exterior perturbation eq:
+Z_φ(r²δφ')' + 8e^{−2φ_amb}δφ = 0, roots −½±√(Z_φ−32e^{−2φ_amb})/(2√Z_φ). ⇒ a clean 1/r monopole mass survives
+ONLY on a **Branch-G / continuum** or **shallow** (e^{−2φ_amb}<Z_φ/32) far field; on a **deep Branch-P** ambient
+(φ_amb ≲ 1.73) it is SCREENED / log-periodic r^{−1/2}cos(ω ln r) — **NO clean far-field mass.** **So whether the
+hopfion has a clean mass reduces to the OPEN G/P switch criterion for its far field (≡ its unpinned depth) — a
+FRAME question, not a compute-budget one.** This CONDITIONS-CHANGED banked N2 (its monopole was an unconditional
+Branch-P claim; now conditional — N2 already half-saw this via "round+φ≡0 isn't a vacuum" but applied it only to
+the shear). INTACT: the H3 source, ℓ=0/ℓ=2, frame C(a)/no-seal, and the Phase-A algebra (as a Branch-G/shallow
+statement). **NEXT (revise N4 before any compute; Charles-gated): rebuild the monopole+shear operator on the true
+φ_amb(r) WITH screening; determine the far-field character vs depth / the G/P assignment; report the mass
+CONDITIONALLY. The bare-Euler BVP must NOT be run as-was (spurious clean monopole).** N5 ξ-anchor + q/η + i-flow/ℏ
++ J(s) still owed. Method win: a source/background AUDIT caught a frame error BEFORE compute, in a doubly-verified
+banked result. Frontier detail in the two bullets below.
 
 ### ↓ (This session's 2026-07-04→05 chronological arc — concentric ω≠0 reframe CLOSED → the hopfion route —
 ### was ARCHIVED out of LIVE 2026-07-05 to keep it lean. Full record: HANDOFF.md §2026-07-05 (RESUME HERE) +

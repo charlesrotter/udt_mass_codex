@@ -1,5 +1,17 @@
 # H4 · N4 — Backreaction / mass solve: OUTCOME D (tool-limited), with a solid Phase-A reduction + source
 
+> **★ RECLASSIFIED D-BUDGET → D-SOURCE-FRAME (2026-07-06, N4a `H4_N4a_source_background_audit_results.md`,
+> blind-verified).** The source-background audit found the response operator here is the locally-flat / source-free
+> approximation and DROPS the ambient self-screening term +8e^{−2φ_amb}δφ (the Branch-P source 4e^{−2φ} is
+> φ-dependent). The bare-Euler BVP "clean next step" below would return a SPURIOUS clean monopole and MUST NOT be
+> run as-was. The CF1/CF2 gap is therefore NOT merely response-solve budget — it includes a genuine FRAME
+> uncertainty: whether a clean far-field monopole mass exists at all is set by the OPEN G/P switch criterion for
+> the hopfion far field (clean δm=−δq in a Branch-G/shallow exterior; screened / log-periodic / no-clean-monopole
+> in a deep Branch-P ambient). SOLID + INTACT: Phase-A ALGEBRA (only δh^(1) needed; flux=½⟨T,L⁻¹T⟩ — correct under
+> its source-free premise, i.e. a Branch-G/shallow statement); the Phase-B source; the no-stress-only-shortcut
+> departure; frame C(a) (no seal). The revised N4 must rebuild the operator on the true φ_amb(r) with screening and
+> report the mass CONDITIONALLY. CF1 "leans δq≠0" and CF2 "open" stand as Branch-G/shallow statements.
+
 **Status: BANKED, blind-verified (2026-07-06). Outcome D (tool-limited) — HONEST, not a dodge.** The symbolic
 Phase-A reduction and the source characterization are SOLID and bankable; the load-bearing linear tensor
 response-solve (which certifies the CF1/CF2 sign+magnitude) was not closed within bounded budget. **CF1 (does the
