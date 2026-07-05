@@ -27,14 +27,20 @@ SUPERSEDED by the hopfion arc — mine for the traps list only.)
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-05 EOD — HOPFION ROUTE R0→Q1→H1→H2→H3 done; H3 = PROVISIONAL-A; NEXT = H3 precision closure → H4) ============
+## ============ CURRENT STATE (2026-07-06 — HOPFION ROUTE R0→Q1→H1→H2→H3 done; H3 verifier DOWNGRADED solve to D-grade; NEXT = N≳256 rerun to decide A-vs-D → H4) ============
 
 **One-paragraph current state:** the concentric ω≠0 embedded-cell frame was closed (P16 canon C-2026-07-05-1:
 spin→φ not natively available); the reframe converged on the **HOPFION** — native L2+L4 IS the Faddeev–Skyrme
 model, a UDT particle = a π₃ hopfion, charge = Hopf linking Q_H∈ℤ (D1 reinforced). Full armchair chain
-(R0/Q1/H1/H2) blind-verified; the H3 solve is **PROVISIONAL-A** (exists + robust scaling ℓ_hopf/ρ_c∝1/√ξ;
-precision closure owed). **NEXT = H3 precision closure (finer grid + blind verifier), then H4 (backreaction/
-mass/pinning + ξ-anchor).** The live frontier + next actions are the two bullets immediately below.
+(R0/Q1/H1/H2) blind-verified. **H3 UPDATE (2026-07-05 blind verifier, agent a2199a0aa1218ddc0): the H3 SOLVE was
+DOWNGRADED from PROVISIONAL-A to D-grade / tool-limited** — at N≤96 the relaxation COLLAPSES to vacuum (a lattice
+shrink-through pathology; the reported E=314/Q≈0.79 was a best-field checkpoint of a decaying transient, and
+"virial E2=E4" is a theorem, not a numeric finding). **The route SURVIVES on external grounds:** the flat-FS
+reduction is exact + clean (verified), the Q_H measurement is correct + validated (verified), FS hopfion
+existence+stability is established mathematics, and the H4-input scaling ℓ_hopf/ρ_c∝1/√ξ is analytically forced.
+**NEXT = the N≳256 rerun — now LOAD-BEARING (it decides A-vs-D, no longer a cosmetic precision polish): produce a
+STABLE stationary Q_H=1 minimizer (E2=E4 realized, integer Q on the relaxed field, R_box-independent). THEN H4
+(backreaction/mass/pinning + ξ-anchor).** The live frontier + next actions are the two bullets immediately below.
 
 ### ↓ (This session's 2026-07-04→05 chronological arc — concentric ω≠0 reframe CLOSED → the hopfion route —
 ### was ARCHIVED out of LIVE 2026-07-05 to keep it lean. Full record: HANDOFF.md §2026-07-05 (RESUME HERE) +
@@ -42,21 +48,23 @@ mass/pinning + ξ-anchor).** The live frontier + next actions are the two bullet
 ### result docs; the removed LIVE layered bullets are in git history. Canonical = those `node_*.md` docs.) ↓
 
 
-**➤ H3 SOLVE DONE → PROVISIONAL-A (banked provisional, `node_H3_hopfion_solve_results.md`).** Native L2+L4 =
-flat-R³ Faddeev–Skyrme (φ-blind + ρ=r) ⇒ a finite, localized, **virial-balanced (E2=E4 exact)** Q_H=1 hopfion
-EXISTS (toroidal ring, Q_H→1 on clean seeds, backed by established FS math + the exact native reduction).
-**SCALING robust (the deliverable):** E∝√(ξκ), ℓ_hopf∝√(κ/ξ) confirmed by 2-coupling runs ⇒ **ℓ_hopf≈1.1√(κ/ξ),
-ℓ_hopf/ρ_c ∝ 1/√ξ** (ξ FREE/data-blind ⇒ f(ξ), not a number). **PRECISION CAVEAT (owed):** relaxed energy ~16%
-high (trending to the published 275 as h→0), relaxed-field Q_H≈0.79 not integer-certified = resolution-limited
-(NOT D — benchmark qualitatively reproduced; NOT C — FS hopfion known). A rests on existence + scaling, NOT a
-few-% number. Solver a09b70a1539145abb.
+**➤ H3 SOLVE = D-grade / tool-limited (verifier-CORRECTED; `node_H3_hopfion_solve_results.md`).** Native L2+L4 =
+flat-R³ Faddeev–Skyrme (φ-blind + ρ=r) — the reduction is EXACT + clean (verified), and the Q_H Whitehead
+measurement is correct + validated (verified: null test 0, seed→1 O(h²)). BUT the SOLVE did NOT resolve a
+stationary hopfion: at N≤96 the relaxation COLLAPSES to vacuum (Q→0, E→0, E2/E4→∞); the earlier "E=314/Q≈0.79/
+virial-balanced ring" was a best-field checkpoint of a decaying transient ("E2=E4" is a THEOREM, not a finding).
+Per the pre-reg's item-8 ⇒ outcome **D (tool-limited)** = the known lattice shrink-through pathology, NOT
+route-death (FS hopfion is a stable established soliton — MISMATCH→SOLVER). **SCALING survives (analytically
+forced, external to the solve):** E∝√(ξκ), ℓ_hopf∝√(κ/ξ) ⇒ **ℓ_hopf≈1.1√(κ/ξ), ℓ_hopf/ρ_c ∝ 1/√ξ** (ξ
+FREE/data-blind ⇒ f(ξ)). Solver a09b70a1539145abb; verifier a2199a0aa1218ddc0.
 
-**➤ TOP NEXT-SESSION ACTIONS (H3 not yet a CLEAN bank):**
-1. **Blind adversarial verifier** on H3 (energy functional, Q_H Whitehead method, virial, scaling) — owed per
-   verifier-before-record.
-2. **Finer-grid (N≳256) / production minimizer:** close the 16% energy gap to few-%, certify integer Q_H on
-   the relaxed field. (Physics content — existence + ℓ_hopf/ρ_c∝1/√ξ — does NOT depend on the few-%; it's a
-   method-precision closure.)
+**➤ TOP NEXT-SESSION ACTIONS (H3 numeric existence NOT banked — D-leaning until the rerun):**
+1. ~~Blind adversarial verifier~~ DONE (a2199a0aa1218ddc0) → downgraded solve to D + corrected a false pass.
+2. **Finer-grid (N≳256) / production minimizer — NOW LOAD-BEARING (decides A-vs-D):** produce a STABLE
+   stationary Q_H=1 minimizer (E2=E4 realized, integer Q on the RELAXED field, ring stable, R_box-independent) —
+   the N≤96 run collapses. Design: resolve the core (h≪ℓ_hopf), a real arrested-Newton/full minimizer that holds
+   the Q-barrier (not a checkpoint of a decaying Adam run), independently confirm the FS minimizer-energy
+   literature normalization before quoting any "% high". Category-A technique; ANTI-HANG binding.
 3. **H4:** φ-BACKREACTION (the hopfion's localized stress → indirect 𝒦→φ well; gravitation; MASS; the dynamical
    bulk-vs-core-PINNING verdict) + a ξ-ANCHOR — turns ℓ_hopf/ρ_c∝1/√ξ into a definite particle-vs-cell verdict.
 4. Still OWED (H2): physical charges **q=1/3, η=1/18** (import-dependent, separate native re-derivation — NOT
