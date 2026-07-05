@@ -289,10 +289,13 @@ NODE 0.5 — RE-GRADE THE SEAL PARITY MECHANISM on the native field equations.  
   (φ Dirichlet φ(r_s)=0, the flux seal; old Neumann was an error), t→−t governs time-on/off-diagonal.
   The "seal ignores ω" lead was REJECTED as unsafe (a spinning phase is time-on ⇒ t→−t acts on it).
 
-NODE 1 — THE COUNTER-ROTATING-MIRROR CRUX.  (armchair, running 2026-07-04)  ← decisive
-  Seal time-on gluing acts as t→−t: spinning phase Nψ+ωt → Nψ−ωt. Derive natively whether matching the
-  defect to its counter-rotating mirror image (via the phase's Weierstrass–Erdmann radial-flux junction,
-  NOT bare-phase equality — that would false-kill):
+NODE 1 — THE COUNTER-ROTATING-MIRROR CRUX.  ✔ DONE / BANKED 2026-07-04
+  (`node1_seal_spin_verdict_results.md`, blind-verified a9242935198f7945a). VERDICT = outcome (3): the
+  seal is ω-BLIND (F1 does NOT fire; reframe survives). J^r≡0 ⇒ seal junction auto-satisfied ∀ω; stays
+  seal-vacuous even for a radial twist (pole degeneracy sin²Θ(seal)=0). Spin discreteness relocates to the
+  INTERIOR spatial BVP (route 2a). Q_int∝ω genuine (F2-favorable); Flavor II merges into Flavor I in bulk
+  (frame-drag, interior back-reaction). NODE 2/3 PRE-COMPUTE MAP now in progress (route-2a stabilizer).
+  [Original NODE-1 framing below — the seal maps Nψ+ωt → Nψ−ωt via t→−t; resolved to ω-free above:]
   ├─ Seal forces ω=0 (spin killed) ...... CLEAN FAIL F1 → reframe falsified; zoom out with Charles.
   ├─ Seal PINS ω to a discrete set ...... the rotating seal QUANTIZES → strongest possible outcome;
   │                                        go to NODE 2 to make it well-posed.

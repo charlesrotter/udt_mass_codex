@@ -51,11 +51,22 @@ but the involution is **SECTOR-SPLIT (canon C-2026-07-04-1):** spatial depth mir
 seal BCs; t→−t governs TIME-ON/off-diagonal. φ's seal BC CORRECTED Neumann→**Dirichlet φ(r_s)=0** (= the
 flux seal; the old Neumann would have zeroed q). Deriver a648221a6b7df3aba, verifier ad14fbc6898ee1930.
 
-**➤ NEXT ACTION = NODE 1 (running): armchair/CAS, NO compute.** The seal's time-on gluing acts as t→−t,
-so the spinning phase Nψ+ωt → Nψ−ωt (counter-rotating mirror). Derive natively whether matching the
-defect to its counter-rotating image (1) FORCES ω=0 (clean-fail F1), (2) PINS ω to a discrete condition
-(seal quantizes), or (3) PERMITS gluing with ω FREE (→ NODE 2). Observe, not target; no GR import; no
-solve. Verifier-before-record before banking. ("Seal ignores ω" was NOT banked — C4 held open = this node.)
+**➤ NODE 1 BANKED (2026-07-04, blind-verified) — `node1_seal_spin_verdict_results.md`.** Verdict
+**outcome (3): the seal is ω-BLIND. F1 does NOT fire — the reframe survives.** The native seal does not
+kill or quantize a spinning internal phase: for the uniform-spin ansatz χ=Nψ+ωt the radial internal-charge
+flux vanishes, and (verifier) this stays seal-vacuous EVEN for a radial twist because the seal sits at the
+target pole where the winding unwinds (sin²Θ(seal)=0). **Spin discreteness, if any, is an INTERIOR
+spatial/topological property (route 2a), NOT a seal property.** Also banked: Q_int∝ω = genuine conserved
+output (not gauge; leans F2-favorable, pending NODE 2); Flavor II merges with Flavor I in the bulk (spin
+sources frame-drag g_tψ) but that is interior back-reaction, not a seal obstruction; no labels/masses/data.
+Deriver a8d2e3c6fbac4dd7a, verifier a9242935198f7945a (V1–V6 SUPPORTED, GR-clean).
+
+**➤ NEXT ACTION = NODE 2/3 PRE-COMPUTE MAP (in progress): armchair/CAS/linearized-structure ONLY, NO full
+solve.** The route-2a stabilizer question. Answer: (1) native rotating junction/Noether-charge condition
+now the seal is vacuous; (2) minimal interior system for Θ(r), χ=Nψ+ωt, + the frame-drag back-reaction;
+(3) linearized: does ω enter as a genuine RESTORING/SELECTING term or a harmless shift (the F4 crux); (4)
+does discreteness come from spatial node-count/winding closure rather than an ω_n frequency tower; (5) the
+clean F4/F3 failure criterion BEFORE any nonlinear solve. Do NOT jump to a nonlinear solve.
 **J(s)-vs-data is frame-robust and NOT gated by the reframe** — still a NEW push (MAP scope + confirm
 with Charles; loads Cassini bounds; pre-register s-dependence, data never-retune). "Anytime" ≠ self-authorized.
 
