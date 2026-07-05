@@ -1,3 +1,4 @@
+> **⚠ STALE FRONTIER — this is a historical lab-log; the live frontier is `LIVE.md` + `PURSUIT_CHARTER_2026-07-04.md`.**
 > **[FRONTIER STALE (confirmed 2026-07-01) — the whole top-of-file frontier here is superseded (it pre-dates the native-frame
 > derivation + return-to-solver phase); LIVE.md is the current frontier. This file is a running LAB-LOG kept as history only.]**
 

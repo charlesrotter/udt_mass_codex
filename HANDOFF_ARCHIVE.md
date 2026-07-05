@@ -664,3 +664,41 @@ SUPERSEDED: the static solver became code-complete, the kap8 question was charac
 > record = the five native-frame result docs) → `archive/LIVE_native_frame_round_static_2026-07-01.md`. The 2026-06-29→30
 > basin/D1/galerkin/X-kluge arc → `archive/LIVE_basin_D1_galerkin_arc_2026-06-30.md`. Pre-2026-06-30 → `HANDOFF_ARCHIVE.md`.
 
+
+---
+
+## [ARCHIVED 2026-07-04] SESSION RECORD 2026-07-02 → 07-03 (moved verbatim out of HANDOFF.md to keep the live HANDOFF lean for a fresh session)
+
+## SESSION RECORD 2026-07-02 → 07-03 (universe cell → ladder → derived laws → stability; LIVE.md TOPMOST block = the frontier)
+
+The reordered plan ("solve the universe cell first") executed and OVERSHOT: the cell was derived, closed, and
+handed back a derived spectrum. Full chain, every step blind-verified (14+ verifier agents; 4 refutations
+caught — one driver, one claude.ai, one leading-order launch, one ±1 convention — all corrections banked):
+1. **Universe cell:** vacuum IMPOSSIBLE + center-free + two-mirror RIGIDITY (`universe_cell_vacuum_impossibility_results.md`);
+   fork ruled → FLUX-SEALED cell; fold JCs + σ-admissibility + **E_m(core)=2 critical closure (F5 as a
+   theorem)** (`universe_cell_fold_jc_sigma_results.md`); T2 knob-free identities + q-window
+   (`universe_cell_T2_identities_results.md`); canon **C-2026-07-02-1** (anchor = Δφ, fold-pinned zero).
+2. **T3 solve:** THE CELL CLOSES; closures = a COMPLETE consecutive-integer ladder N=0..22, FAMILY-UNIVERSAL
+   (6 families, both Z), parity grain, TWIN ladder w/ inverted parity (`universe_cell_T3_closure_results.md`,
+   `cascade_stageA/B/C_results.md`); ρ_s sheds the matter with N (0.44% spread at N=8).
+3. **The laws DERIVED (never fitted):** Theorems A/B exact; O(ε) structure (amplifier CORRECTED to
+   e^{Δφ/2}=√1101); **Lemma D: a_seal ≈ √Z/[(N+1)π+θ₀] — family data cancels EXACTLY; q ∝ √|s̃₁| = the one
+   mechanism behind both Stage-C findings** (`ladder_lemmaD_sealing_amplitude_results.md`); θ₀ at 2nd order
+   (bottom-launch dominant) AND **the accumulation law = the quantization closure** — the fit guard's
+   "unclassified" resolved as an IMPLICIT law (`ladder_theta0_accumulation_results.md`).
+4. **Ponders (closed 07-03):** corpus → "TOWERS REFUSED, CLOSURES ALLOWED" + re-grade-at-point-of-use
+   (`negatives_premise_sweep_2026-07-03.md` + registry amendment); twin = BROKEN INVERSION u→−u; TWIN
+   FUNDAMENTAL EXISTS (cap-displaced); **INNER-SEAL CHARGE CAP = exact bound** (`twin_ladder_involution_results.md`).
+5. **Stability filter (COMPLETE through the ponder-presentation):** operator derived+verified (raw index
+   INFINITE; theorem-pinned v₀=0 counting; `stability_operator_results.md`); full table + blind spot-pass
+   (fundamentals uniquely n_pos(V̂)=0; excited saturate (2,N+1); twin fundamental (2,1);
+   `stability_stage2_results.md` w/ correction note); soft mode IDENTIFIED + BLIND-VERIFIED = a FOLD-PAIR
+   breathing mode, genuine converged negative (`ladder_softmode_results.md`; B00 λ*=−6.33e-7; SZ1 sign-solid
+   mag-unconverged); ORIENTATION chain complete AIM-BLIND (`ladder_energy_orientation_results.md`): identities
+   banked (lapse cancels exactly; E_can=−∫L; ∫L=2∫(2−E_m); H≡0 = r-flow NOT t-energy trap), the SIGN = an
+   adjudicated CALL (MS anchor refuted-as-forcing; flat-limit anchor favors the banked E=−∫L). **THE PONDER
+   WAS PRESENTED 2026-07-03 EOD; FOUR RULINGS PENDING (enumerated in archive/LIVE_stability_stageD_microphysics_arc_2026-07-03_04.md (formerly LIVE TOPMOST) — re-present on resume).**
+**Method notes that must survive:** verifier-before-record caught something material at EVERY stage; the
+freeze-before-data pattern (fit forms, diagnostics, predictions) paid out three times; agent process rules —
+chunk CAS (one timeout), pre-declare shot budgets (one overage), graduated-floor zero counts, exact-projection
+deflation before reading soft modes; blind passes get avoid-lists AND withheld values where possible.
