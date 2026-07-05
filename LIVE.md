@@ -84,5 +84,11 @@ use; destruction/black-holes PARKED post-emergence. (D4=ω≠0 was ADDRESSED thi
   area-form trio, only N=3 (+ the 1+3+5 algebra + structural-i) is NATIVE cargo; q=1/3 and
   η=1/18 are IMPORT-DEPENDENT → targets (d1_angular_constants_native_rederivation.md); the
   matter-cell core = even fold at FINITE depth (canon C-2026-07-03-3, φ→−∞ retired).**
+- **This session's canon (2026-07-04/05):** **C-2026-07-04-1** = seal-involution SECTOR SPLIT — the spatial
+  depth mirror φ→−φ governs STATIC seal BCs (φ odd ⇒ **Dirichlet φ(r_s)=0**, the flux seal), t→−t governs the
+  TIME-ON sector; this CLARIFIES (does NOT overturn) the "seal = t→−t" line above. **C-2026-07-05-1** = P16:
+  spinning matter stays **φ-blind** (spin→φ NOT natively available; the physical-metric minimal coupling that
+  would give it = a forbidden import) — conservative, not a universal theorem. [Working-hypothesis, not canon:
+  a UDT particle = a native Faddeev–Skyrme **HOPFION**, charge = Hopf linking Q_H∈π₃(S²)=ℤ — see the frontier block.]
 - Provenance: commit scripts WITH results docs; AUDIT.md / step0_bridge*.py / dpf_verify_indep.py are
   Charles's untracked working files — leave them.
