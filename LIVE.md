@@ -167,10 +167,25 @@ and core floor ρ_c∝√κ SHARE the √κ scale (ratio √κ-independent). Hol
 cosmological-cell BULK (ρ→r_CMB Gpc ≫ √κ); RE-OPENS if the hopfion is core-pinned (ρ~√κ~ℓ) — a real physics
 question DECIDED at the gated H3 solve.
 
-**➤ NEXT: H2 (armchair, no solve) — fix "the particle's charge = Q_H (Hopf linking)"; reconcile π₂/area-form
-as its local structure; scope the q/η re-derivation (separate, non-gating). THEN H3 (GATED SOLVE, Charles's
-compute gate): does native L2+L4 admit a stationary Q_H=1 hopfion on N=0 at √(κ/ξ), in the bulk (premise
-holds) or core-pinned (premise fails)? Awaiting Charles's go on H2.** J(s)-vs-data still owed, frame-robust.
+**➤ H2 BANKED (blind-verified, `node_H2_charge_ledger_results.md`) — the native CHARGE LEDGER, all 5
+clean-failures CLEAR.** Particle topological IDENTITY = **Q_H∈π₃(S²)=ℤ** (Hopf self-linking, ∫A∧dA, forced
+homotopy invariant). NESTS (reinforced, not discarded): π₂/area-form as LOCAL field strength F=ω_H1;
+**N=3 REINFORCED** (target rank, needed by BOTH the Faddeev term & the Hopf invariant — reading-independent,
+survives the π₂→π₃ switch); **structural-i = ω_H1 = F = dA** gains a NEW native role (A = native potential via
+Whitehead integral = a topology THEOREM, NOT a gauge import — L2+L4 has no A/no −¼F²/no coupling; metric-free
+3-form; no Dirac string because localized/deg=0); 1+3+5=End(R³) = carrier algebra (separate). STILL OWED
+separately (NOT from Q_H): q=1/3, η=1/18 (import-dependent), the i-flow/ℏ clock (open). Parity = degenerate
+hopfion/anti-hopfion pairs. Deriver a64d70f02e45a805c, verifier a5579260fc6844471.
+
+**➤ THE ENTIRE ARMCHAIR CHAIN FOR THE HOPFION ROUTE IS NOW COMPLETE + BLIND-VERIFIED:** R0 (π₂ monopole
+fails) → hopfion redirect → Q1 (native = Faddeev-Skyrme) → H1 (topology native, SURVIVES-CONDITIONAL) → H2
+(charge ledger native, all clear). Two things remain, BOTH decided at the gated solve: (i) H1's localization
+premise √(κ/ξ)≪ρ(r_hopf); (ii) EXISTENCE of a stationary Q_H=1 hopfion on N=0.
+
+**➤ NEXT = H3 (GATED SOLVE — Charles's COMPUTE gate; the first compute of this route).** Does native L2+L4
+admit a stationary Q_H=1 hopfion on the warped N=0 background at size √(κ/ξ), sitting in the BULK (premise
+holds ⇒ route works) or CORE-PINNED (premise fails ⇒ CONDITIONAL/global re-opens)? ANTI-HANG: bound it, ONE
+process, fixed-Q_H, no background-poll. Awaiting Charles's go. J(s)-vs-data still owed, frame-robust, un-gated.
 **J(s)-vs-data is frame-robust and NOT gated by the reframe** — still a NEW push (MAP scope + confirm
 with Charles; loads Cassini bounds; pre-register s-dependence, data never-retune). "Anytime" ≠ self-authorized.
 
