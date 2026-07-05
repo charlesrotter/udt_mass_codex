@@ -1,8 +1,21 @@
 # H4 · N4 — Backreaction / mass / pinning solve: PRE-REGISTRATION (frozen BEFORE compute, under frame C(a))
 
 **Mode:** pre-registration / frozen falsification contract. NO compute yet (armchair). Charles-authorized
-2026-07-06 (N3 ruling below). **Owes a blind adversarial verifier before the N4 solve is run** (pre-register-
-before-testing; the MAP gated the N4 solve behind "N1–N3 clean + Charles's go + a verifier"). Builds on the
+2026-07-06 (N3 ruling below).
+
+**VERIFIER RECORD — blind adversarial verifier ac1c5b1af227688b5 (2026-07-06): SOUND in frame, NO FAIL on any of
+8 targets.** Confirmed (incl. an independent sympy re-check of √h𝒦 = −½e^{−2φ}(a'b'−s'²)/√h, bilinear-in-velocities
+⇒ finite-amplitude): second-order necessity correctly enforced (outcome B gated to O(amp²)-and-beyond; linear
+artifact forbidden); the frozen-H3-source approximation is valid at leading order (field response enters δq only
+at O(ε³), one order below); all four outcomes genuinely open (C negative-mass has real teeth via phase1_geon,
+"positive energy ⇒ positive mass" explicitly refuted — NOT pre-decided); frame C(a) honored (no sealed-cell); no
+GR import; box-control → D. **Four method-completeness revisions APPLIED** (none touch a decision or open fork):
+(T1) explicit O(amp²) bookkeeping in Step 2 [keep both (δh^(1))² and δh^(2)]; (T2) the O(ε³) fixed-source
+justification + non-small-ε fallback must re-solve δn, in Step 1; (T4) a resolution floor on dE/dr_hopf to
+separate a genuine "float" from a below-resolution force (D), in Step 4; (T7) quantify interior-ℓ≥2 smallness
+relative to the O(amp²) δq + the ℓ≥2→ℓ=0 back-projection check, in Step 5. Verifier-flagged CF3 as the
+throughput-limited-risk deliverable (subleading pinning force; H3's ~1% precision could swamp it) — recorded.
+**The pre-registration is now blind-verified; the N4 SOLVE remains gated behind Charles's explicit go for compute.** Builds on the
 blind-verified N1 (`H4_N1_offround_transverse_equation_results.md`) and N2 (`H4_N2_farfield_reduction_results.md`)
 and the frame `H4_backreaction_mass_MAP.md`. DATA-BLIND: no particle labels, no masses, no observational data,
 no GR minimal-coupling (G=8πT FORBIDDEN as a source law; GR only as far-field reference, lane #2).
@@ -46,23 +59,42 @@ hopfion (anti-hang: reuse the saved H3 field).
 
 **Step 1 — transverse response.** Solve E^{AB} = −T^{AB} (N1) for the geometry deformation δh_AB sourced by the
 fixed hopfion stress, as a bounded perturbation on the N=0 round ambient (h_amb = r²Ω, φ_amb from the Branch-P
-cell). Carried to **second order in amplitude** (per the N2 finite-amplitude finding). Check the perturbative
-smallness parameter (hopfion stress / ambient curvature scale); if not small, report and fall back to a bounded
-coupled relaxation (anti-hang limits).
-**Step 2 — φ-source and flux.** Form δ𝒦 = −2 δ(det K^A_B)[δh_AB]; integrate the net flux
-δq = −(1/2πZ_φ)∫ δ(√h 𝒦) d³x (equivalently solve the monopole ODE d/dr[Z_φ δφ' A]=−2∫√h δ𝒦 d²x and read the 1/r
-coefficient). This is the CF1 quantity.
+cell). Solve for the linear response δh^(1) (~O(ε)) AND the second-order δh^(2) (~O(ε²)). Check the perturbative
+smallness parameter ε ≡ (hopfion stress / ambient curvature scale). **Fixed-source justification (verifier T2,
+record it):** matter is φ-blind, so the hopfion field n responds only to δh (not δφ); the field response is
+δn ~ O(ε), and its back-effect on T feeds δh at O(ε²), entering the *bilinear* δq (below) only at **O(ε³)** — one
+order below the leading O(ε²) δq. So the frozen H3 field is a valid fixed source for the leading CF1 sign+magnitude
+**provided ε is small** (the Step-1 check). **If ε is NOT small,** the fixed-source approximation is invalid: fall
+back to a bounded coupled relaxation that **re-solves (or bounds) the field response δn** as well (anti-hang
+limits), or report outcome D.
+**Step 2 — φ-source and flux (O(amp²) bookkeeping, verifier T1).** Form δ𝒦 = −2 δ(det K^A_B)[δh_AB] and **expand
+√h 𝒦 to O(amp²), retaining BOTH the bilinear (δh^(1))² term (the dominant shear contribution — N2: the linear
+shape-piece is a total r-derivative that integrates to zero, so the leading net flux is this bilinear) AND the
+genuine second-order δh^(2) contribution.** A computation that keeps only linear δh returns δq=0 spuriously and is
+FORBIDDEN (the LINEAR-ORDER ARTIFACT clean failure). Integrate the net flux δq = −(1/2πZ_φ)∫ δ(√h 𝒦) d³x
+(equivalently solve the monopole ODE d/dr[Z_φ δφ' A]=−2∫√h δ𝒦 d²x and read the 1/r coefficient). This is the CF1
+quantity.
 **Step 3 — read the masses.** δm = −δq (geometric = Coulomb, N2); flux δQ_φ = 4πZ_φ δq. Report BOTH; keep Z_φ
 symbolic. Confirm read-surface-radius independence (else box-control). Sign of δm = CF2.
-**Step 4 — pinning force (CF3).** Compute the total energy E_tot(r_hopf) = hopfion energy + backreaction
-(self-φ-well) energy as a function of the hopfion's radial position r_hopf in the cell (the hopfion energetics are
-φ-blind, but the sourced δφ-well and its energy can depend on the local ambient φ_amb(r_hopf)). The force is
+**Step 4 — pinning force (CF3; SUBLEADING — the throughput-limited-risk deliverable).** Compute the total energy
+E_tot(r_hopf) = hopfion energy + backreaction (self-φ-well) energy as a function of the hopfion's radial position
+r_hopf in the cell. The hopfion couples to the ambient transverse geometry h_amb (it is NOT blind to h_amb — only
+to φ), and the sourced δφ-well sits in the φ_amb(r_hopf) gradient — so the force is NOT identically zero by
+φ-blindness. **BUT (verifier T4, load-bearing): in the clean-bulk C(a) limit ℓ_hopf ≪ r_hopf the hopfion sits in a
+locally-flat patch, so its LEADING energy is position-INDEPENDENT; the entire pinning force is SUBLEADING**
+(O((ℓ_hopf/r)²) ambient curvature + the φ_amb gradient acting on an O(ε²) well). The force is
 −dE_tot/dr_hopf: FLAT ⇒ floats (bulk); a MINIMUM ⇒ self-traps (pinned at that r); monotone-inward ⇒ runs to
 core/fold (re-opens H1). Use unbiased evaluation at ≥3 positions (never a biased blend toward a chosen endpoint —
-the ANTI-HANG stability rule).
-**Step 5 — FORM-break check (N1/N2 scope).** Verify the interior φ-angular ℓ≥2 excitation is small (or allow
-φ=φ(r,x)); check whether the toroidal source forces a radial shift g_{rA}≠0. If the ledgered form breaks, N4 is
-SCOPED to the perturbative regime and the form-extension is flagged for a later node — do NOT silently inherit.
+the ANTI-HANG stability rule). **Require a RESOLUTION FLOOR: quantify the numerical noise on dE_tot/dr_hopf (from
+the H3 field's ~1% precision and the grid) and declare "float"/CF3-bulk ONLY if |dE/dr_hopf| is resolved to be
+below a genuine-force threshold; a below-resolution force is outcome D (tool-limited), NOT a physics "float".**
+**Step 5 — FORM-break check (N1/N2 scope; verifier T7).** Verify the interior φ-angular ℓ≥2 excitation is small
+(or allow φ=φ(r,x)); check whether the toroidal source forces a radial shift g_{rA}≠0. **Quantify "small"
+RELATIVE TO the O(amp²) δq it could contaminate** (not merely far-field decay), AND **check the second-order
+ℓ≥2 × ℓ≥2 → ℓ=0 back-projection** of any dropped interior angular-φ onto the monopole δq being measured (a dropped
+ℓ≥2 φ can feed the ℓ=0 flux at O(amp²)). If the ledgered form breaks or the back-projection is non-negligible, N4
+is SCOPED to the perturbative regime and the form-extension is flagged for a later node — do NOT silently inherit
+form-generality.
 
 **ANTI-HANG (binding):** reuse the saved H3 field (no hopfion re-solve); bound the grid (Nr ≤ 16–24 for any
 coupled step) and iterations; ONE clean foreground process at a time; NEVER background-poll a solve; the
