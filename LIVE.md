@@ -141,9 +141,23 @@ the interior/topological discreteness the constraint generator demanded** (R1's 
 NATIVE-CANDIDATE, a LEAD not banked — owes a derivation that native L2+L4 admits a Q_H=1 hopfion on N=0
 (gated R3-class solve) + the charge re-expression. Orchestra caveat stands (solo defect tested).
 
-**➤ NEXT = CHARLES'S FORK (frame-level):** MAP the π₃/HOPFION route (does native L2+L4 admit a Q_H=1 hopfion
-on N=0; re-read "charge" as Hopf linking vs D1's π₂ degree), or zoom out (orchestra / other). R1 (twist
-holonomy) is SUBSUMED — the Hopf charge IS the interior topological invariant. J(s)-vs-data still owed, frame-robust.
+**➤ HOPFION confirmed as working object (lead, not canon). MAP DELIVERED — `native_hopfion_route_MAP.md`.**
+Grounded (agent a46e4c54c43bacad4): **Q1 CONFIRMED** (native L2+L4 = Faddeev–Skyrme exactly, S² target, no
+S³ import); **Q3** Q_H interior-topological (not label/seal/tower); **Q4** L4 sets √(κ/ξ) natively (Derrick
+balance works because the hopfion is finite, unlike the π₂ monopole); **Q5** largely REINFORCES D1 (N=3 +
+structural-i=Hopf field-strength ∫A∧dA + 1+3+5 all reinforce/compatible; q/η DON'T transfer but were already
+import-dependent — owe re-derivation in any reading; Q_H is a NEW native integer, not q/η); **Q6** φ-blind +
+LOCALIZED indirect 𝒦 back-reaction (hopfion CAN gravitate, unlike the delocalized monopole; no minimal coupling).
+
+**➤ THE ONE CRUX = Q2/H1 (NOT settled; armchair-derivable, the next step):** the N=0 cell's spatial slice is
+DERIVED to be **S²×I / S¹×S², NOT S³** (finite even fold at ρ_c>0 forbids the double cap). A finite-energy
+hopfion needs an S³ compactification. **Local-vs-global question:** does a LOCALIZED hopfion (lump ≪ cell,
+n→n_∞ outside a ball) get π₃(S²)=ℤ from the LOCAL ball B³/∂B³≅S³ (⇒ native, global topology irrelevant) — OR
+does the global S²×I topology (S²-factor's H²=ℤ flux) obstruct the helicity (⇒ clean-failure #1, needs
+imported R³→S³)? Grounding leaned GLOBAL⇒import; driver flagged LOCAL-ball⇒native; **H1 decides which,
+natively, before any solve.** + parity-firewall flag (#47c: even L2+L4 vs odd Q_H — hopfions come in mirror
+pairs, check). Then H2 (charge reading) → H3 (gated Q_H=1 solve). **NEXT = authorize H1 (armchair, no solve).**
+J(s)-vs-data still owed, frame-robust, un-gated.
 **J(s)-vs-data is frame-robust and NOT gated by the reframe** — still a NEW push (MAP scope + confirm
 with Charles; loads Cassini bounds; pre-register s-dependence, data never-retune). "Anytime" ≠ self-authorized.
 
