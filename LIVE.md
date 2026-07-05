@@ -30,13 +30,20 @@ discipline skills → INDEX.md (repo map).
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-05 EOD — N5 ARC CLOSED + BANKED (Charles): ξ PARKED as a free family; H4 compute STILL STOPPED (N5d NOT opened); NEXT = J(s) light-deflection MAP (MAP only, no data run)) ============
+## ============ CURRENT STATE (2026-07-05 EOD — N5 ARC CLOSED (ξ PARKED) + J(s) CONFRONTATION MAP DONE (blind-verified); NEXT = derive the OWED one-body NULL deflection (gated), THEN Charles's go to load Cassini data) ============
 
-**➤➤ RESUME HERE / NEXT ACTION (Charles, 2026-07-05): the J(s) LIGHT-DEFLECTION MAP — pre-register the frame-robust
-J(s) prediction (native derivation path, allowed parameters, Cassini/solar-system comparison PLAN, clean failures,
-no-retuning rule), MAP ONLY / NO data run yet, preserve the s=2μ/Z fork explicitly, GR only as a comparison
-reference (no ΛCDM/GR derivation import, no fitting), define what observation falsifies/constrains EACH branch,
-blind-verify before any data comparison.** ★ **N5 ARC CLOSED + BANKED (Charles decision 2026-07-05): ξ is PARKED as
+**➤➤ RESUME HERE / NEXT ACTION (2026-07-05): the J(s) light-deflection confrontation MAP is BANKED + blind-verified
+(`J_of_s_light_deflection_confrontation_MAP.md`, verifier a66e2da69bfc3c7d9). The next action is the ONE OWED
+DERIVATION it identified — the ONE-BODY NULL-geodesic deflection `δ_body(b;q,s,Z)` on the M=−q exterior metric (a
+bounded CAS quadrature; R2 did the one-body FIELDS + TIMELIKE orbits but never the null deflection). THIS is the
+quantity that actually confronts Cassini/VLBI (PPN-γ). Do it armchair/CAS, GR (4GM/c²b, γ=1) as REFERENCE ONLY, no
+data; blind-verify; THEN — with Charles's go — load the solar-system bounds and run the frozen ACCEPT/REJECT/BOUND
+(no retuning).** Key MAP finding: there are TWO frame-robust light observables — (i) the ambient J(s) sector (only
+the pure NUMBER J(s) is impact-parameter-independent; the measured azimuth is D(ρ₀)·J(s), b-dependent+gauge-carrying,
+s=0 conical ⇒ whether it bounds s at all is OPEN, CF-ABS) and (ii) the one-body/solar deflection (OWED) ⇒ **at
+leading analysis Cassini bounds the ONE-BODY sector, NOT s** ("Cassini bounds s" = category-error CF-CAT). The
+verifier corrected an inherited R2 overstatement (row R2-1) that the ambient deflection is b-independent. ★ **N5 ARC
+CLOSED + BANKED (Charles decision 2026-07-05): ξ is PARKED as
 an honest free-family parameter** — (1) the migration-based private-core anchor is RETIRED (N5 MAP); (2) whole-cell
 criticality does NOT pin ξ (N5a); (3) the flux budget is the SAME condition in charge language, NOT an independent
 lever (N5b); (4) only the non-perturbative whole-cell N5d solve could still pin ξ, but it is NOT currently necessary
