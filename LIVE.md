@@ -149,15 +149,28 @@ structural-i=Hopf field-strength ∫A∧dA + 1+3+5 all reinforce/compatible; q/�
 import-dependent — owe re-derivation in any reading; Q_H is a NEW native integer, not q/η); **Q6** φ-blind +
 LOCALIZED indirect 𝒦 back-reaction (hopfion CAN gravitate, unlike the delocalized monopole; no minimal coupling).
 
-**➤ THE ONE CRUX = Q2/H1 (NOT settled; armchair-derivable, the next step):** the N=0 cell's spatial slice is
-DERIVED to be **S²×I / S¹×S², NOT S³** (finite even fold at ρ_c>0 forbids the double cap). A finite-energy
-hopfion needs an S³ compactification. **Local-vs-global question:** does a LOCALIZED hopfion (lump ≪ cell,
-n→n_∞ outside a ball) get π₃(S²)=ℤ from the LOCAL ball B³/∂B³≅S³ (⇒ native, global topology irrelevant) — OR
-does the global S²×I topology (S²-factor's H²=ℤ flux) obstruct the helicity (⇒ clean-failure #1, needs
-imported R³→S³)? Grounding leaned GLOBAL⇒import; driver flagged LOCAL-ball⇒native; **H1 decides which,
-natively, before any solve.** + parity-firewall flag (#47c: even L2+L4 vs odd Q_H — hopfions come in mirror
-pairs, check). Then H2 (charge reading) → H3 (gated Q_H=1 solve). **NEXT = authorize H1 (armchair, no solve).**
-J(s)-vs-data still owed, frame-robust, un-gated.
+**➤ H1 BANKED (blind-verified, `node_H1_hopfion_compactification_results.md`) → SURVIVES-CONDITIONAL
+(Charles outcome-3).** The hopfion's TOPOLOGY is NATIVE — the "needs a global-S³ import" refutation FAILS on
+every link (the classifying S³ is the LOCAL ball's B³/∂D, metric-free; the global non-S³ cell topology is
+irrelevant to the CLASS; geometry enters ONLY via SIZE). Load-bearing fact = a hopfion has ZERO net π₂ flux
+(period argument: all S²_r homologous, ∫F=0 outside support) ⇒ n≡n_∞ on a clean slice, F globally exact, Q_H
+a single ℤ — R0's scissors read FORWARD (monopole=deg≠0 everywhere/delocalized; hopfion=deg=0/localized).
+Obstructions cleared: curvature (metric-free); H²=ℤ non-entanglement (zero flux ⇒ [F]=0; use the QUOTIENT
+shell-with-boundary, NOT the S¹×S² double = the cleaner case); cell QUOTIENT frees a single bulk hopfion
+(mirror lies across the fold, outside the fundamental domain ⇒ no forced Q_H=0; the quotient caution FORBIDS
+the doubling that would kill Q_H); parity #47c = degenerate hopfion/anti-hopfion MIRROR pairs, not an
+obstruction. Deriver a6f9526abafdc4b06, hard verifier a284b0696da63fd19.
+
+**➤ THE ONE NAMED PREMISE (recorded, load-bearing, OPEN):** LOCALIZATION/SCALE-SEPARATION — **√(κ/ξ) ≪
+ρ(r_hopf) AND ≪ fold distance** (underlies all links JOINTLY, not three flags). NOT automatic: ℓ_hopf=√(κ/ξ)
+and core floor ρ_c∝√κ SHARE the √κ scale (ratio √κ-independent). Holds COMFORTABLY for a particle in the
+cosmological-cell BULK (ρ→r_CMB Gpc ≫ √κ); RE-OPENS if the hopfion is core-pinned (ρ~√κ~ℓ) — a real physics
+question DECIDED at the gated H3 solve.
+
+**➤ NEXT: H2 (armchair, no solve) — fix "the particle's charge = Q_H (Hopf linking)"; reconcile π₂/area-form
+as its local structure; scope the q/η re-derivation (separate, non-gating). THEN H3 (GATED SOLVE, Charles's
+compute gate): does native L2+L4 admit a stationary Q_H=1 hopfion on N=0 at √(κ/ξ), in the bulk (premise
+holds) or core-pinned (premise fails)? Awaiting Charles's go on H2.** J(s)-vs-data still owed, frame-robust.
 **J(s)-vs-data is frame-robust and NOT gated by the reframe** — still a NEW push (MAP scope + confirm
 with Charles; loads Cassini bounds; pre-register s-dependence, data never-retune). "Anytime" ≠ self-authorized.
 
