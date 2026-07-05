@@ -1,6 +1,6 @@
 # H4 · N4 — Backreaction / mass solve: OUTCOME D (tool-limited), with a solid Phase-A reduction + source
 
-> **★ RECLASSIFIED D-BUDGET → D-SOURCE-FRAME (2026-07-06, N4a `H4_N4a_source_background_audit_results.md`,
+> **★ RECLASSIFIED D-BUDGET → D-SOURCE-FRAME (2026-07-05, N4a `H4_N4a_source_background_audit_results.md`,
 > blind-verified).** The source-background audit found the response operator here is the locally-flat / source-free
 > approximation and DROPS the ambient self-screening term +8e^{−2φ_amb}δφ (the Branch-P source 4e^{−2φ} is
 > φ-dependent). The bare-Euler BVP "clean next step" below would return a SPURIOUS clean monopole and MUST NOT be
@@ -12,7 +12,7 @@
 > departure; frame C(a) (no seal). The revised N4 must rebuild the operator on the true φ_amb(r) with screening and
 > report the mass CONDITIONALLY. CF1 "leans δq≠0" and CF2 "open" stand as Branch-G/shallow statements.
 
-**Status: BANKED, blind-verified (2026-07-06). Outcome D (tool-limited) — HONEST, not a dodge.** The symbolic
+**Status: BANKED, blind-verified (2026-07-05). Outcome D (tool-limited) — HONEST, not a dodge.** The symbolic
 Phase-A reduction and the source characterization are SOLID and bankable; the load-bearing linear tensor
 response-solve (which certifies the CF1/CF2 sign+magnitude) was not closed within bounded budget. **CF1 (does the
 hopfion have a flux-mass, δq≠0?) LEANS YES (supported, not certified). CF2 (sign of δm) OPEN — both A (+mass) and

@@ -6,7 +6,7 @@ the CHEAP stage before anything is built. Grounded by three read-only recon pass
 a5166867cc92ae618, aab875b3ba5b63546) over the native field-equation / mass-charge / geon corpus; every native
 fact below is sourced.
 
-**VERIFIER RECORD — blind adversarial verifier a5a099f3205d85927 (2026-07-06): MAP HOLDS as a sound, non-smuggled
+**VERIFIER RECORD — blind adversarial verifier a5a099f3205d85927 (2026-07-05): MAP HOLDS as a sound, non-smuggled
 pre-registration (targets 1,2,4,6,7 PASS; 3 & 5 PASS-WITH-CAVEAT).** Confirmed: the indirect δS_m/δφ=0 channel
 (derived, R1+P5-conditional); the exact G-cancellation / P-only −2𝒦 source; correct (non-overclaiming) D2 usage;
 the two-masses distinction incl. the real E1 "mass with φ≡const"; N1/N2 genuinely required (no off-round P-source,
@@ -196,10 +196,10 @@ first-class deliverable and cannot be retro-explained.
 
 ---
 
-## Node order (armchair-first; DERIVE gated; solve LAST) — PROGRESS (2026-07-06)
+## Node order (armchair-first; DERIVE gated; solve LAST) — PROGRESS (2026-07-05)
 **N1 ✓ BANKED** (`H4_N1_...`, blind-verified): general off-round transverse equation; −2𝒦 φ-source survives
 off-round (CF5 does not trip). **N2 ✓ BANKED** (`H4_N2_...`, blind-verified): native far-field reduction; mass =
-monopole in φ, multipoles in h_AB shear; CF1 OPEN (finite-amplitude). **N3 ✓ RULED (Charles, 2026-07-06):**
+monopole in φ, multipoles in h_AB shear; CF1 OPEN (finite-amplitude). **N3 ✓ RULED (Charles, 2026-07-05):**
 frame **C(a) confirmed** (read-surface in bulk, no private seal / no particle boundary / no G|P mini-cell unless
 forced); report BOTH masses (geometric = flux/charge up to Z_φ), Z_φ kept open, CF1 kept open. **N4 → PRE-
 REGISTERED** (`H4_N4_backreaction_solve_preregistration.md`, owes a blind verifier before the solve). N5 pending.

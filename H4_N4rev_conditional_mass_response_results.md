@@ -1,6 +1,6 @@
 # H4 · N4-revised — conditional mass-response solve: OUTCOME D (box-control, DERIVED cause); interior active-P; positive-mass SIGN lean; NON-PERTURBATIVE
 
-**Status: BANKED, blind-verified (2026-07-06). Outcome D (tool-limited = the pre-registered BOX-CONTROL sub-outcome)
+**Status: BANKED, blind-verified (2026-07-05). Outcome D (tool-limited = the pre-registered BOX-CONTROL sub-outcome)
 — HONEST, with a DERIVED structural cause, not a budget dodge.** The Charles-authorized revised N4 (corrected
 N4a-screened operator + G/P-switch interior check, run as a φ_amb siting-depth sweep, frame C(a)). Solver agent
 ab253bf77f0e47b76; blind adversarial verifier af9da9e9dc08b8016 (all 7 targets PASS as scoped; caught 2 mandatory

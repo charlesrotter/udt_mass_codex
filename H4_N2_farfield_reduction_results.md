@@ -1,6 +1,6 @@
 # H4 · N2 — Native far-field / multipole reduction of the localized toroidal hopfion source
 
-> **★ CONDITIONS-CHANGED (2026-07-06, N4a `H4_N4a_source_background_audit_results.md`, blind-verified):** the clean
+> **★ CONDITIONS-CHANGED (2026-07-05, N4a `H4_N4a_source_background_audit_results.md`, blind-verified):** the clean
 > monopole **δφ = −δq/r** and the radius-independence / box-control diagnostic below are valid ONLY on a
 > **source-free exterior** — a **Branch-G / continuum** far field, or a **shallow ambient** e^{−2φ_amb} < Z_φ/32.
 > On a **deep Branch-P ambient** the exterior φ-operator is SCREENED — Z_φ(r²δφ')' + 8e^{−2φ_amb}δφ = 0, roots
@@ -12,7 +12,7 @@
 > depth). The ℓ=0/ℓ=2 split, the source, frame C(a), and the Phase-structure below all STAND; only the monopole's
 > unconditional-Branch-P reading is corrected to conditional.
 
-**Status: BANKED, blind-verified (2026-07-06). Armchair/CAS (sympy symbolic only; NO numerical solve, NO data,
+**Status: BANKED, blind-verified (2026-07-05). Armchair/CAS (sympy symbolic only; NO numerical solve, NO data,
 no open decision taken — branch/Z_φ symbolic, no seal class/seal-meaning chosen, frame C(a) read-surface-in-bulk
 throughout).** Node N2 of `H4_backreaction_mass_MAP.md`, building on the blind-verified N1
 (`H4_N1_offround_transverse_equation_results.md`). Deriver agent af7e8b933941e0572; blind adversarial verifier

@@ -2,11 +2,13 @@
 
 > **READ `LIVE.md` FIRST** — it is the short, only-guaranteed-current file (frontier + next action).
 > This HANDOFF is the detailed record; if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
-> **CURRENT (2026-07-06): after LIVE.md (its RESUME-HERE directive is the next action), read the
-> `## SESSION RECORD 2026-07-06` block just below — H3=A + the full H4 arc; H4 compute STOPPED at revised-N4=D;
-> NEXT = the N5-reframed whole-cell-criticality/ξ-anchor MAP.**
+> **CURRENT (2026-07-05): after LIVE.md (its RESUME-HERE directive is the next action), read the
+> `## SESSION RECORD 2026-07-05 (PM …)` block just below — H3=A + the full H4 arc; H4 compute STOPPED at
+> revised-N4=D; NEXT = the N5-reframed whole-cell-criticality/ξ-anchor MAP.** (The earlier
+> `## SESSION RECORD 2026-07-05 (AM …)` block further down is the same-day morning hopfion-route session that
+> ended at H3=PROVISIONAL-A — superseded by the PM block.)
 
-## SESSION RECORD 2026-07-06 (Opus — H3 → OUTCOME A; then the full H4 backreaction/mass arc → revised-N4 = D, whole-cell mass; H4 compute STOPPED; NEXT = N5-reframed MAP)
+## SESSION RECORD 2026-07-05 (PM) (Opus — H3 → OUTCOME A; then the full H4 backreaction/mass arc → revised-N4 = D, whole-cell mass; H4 compute STOPPED; NEXT = N5-reframed MAP)
 
 Charles directed step-by-step; every node committed + blind-verified before the next (all on `main`, pushed).
 
@@ -55,7 +57,7 @@ pure resolution artifact (MISMATCH→SOLVER). `node_H3_hopfion_solve_results.md`
    Caveats: a Green's-fn numerics bug (magnitude ~8× off, SIGN robust, magnitude non-banked); the shallow/deep
    label fix.
 
-**RESUME HERE (Charles, 2026-07-06): H4 compute STOPPED. NEXT SESSION = N5 REFRAMED = a WHOLE-CELL CRITICALITY /
+**RESUME HERE (Charles, 2026-07-05): H4 compute STOPPED. NEXT SESSION = N5 REFRAMED = a WHOLE-CELL CRITICALITY /
 ξ-ANCHOR MAP (armchair/MAP only — DO NOT run the fully-coupled non-perturbative solve until this MAP is banked AND
 blind-verified).** Question: if the hopfion's gravitational mass is a whole-cell response (not a localized halo),
 what native WHOLE-CELL criticality condition anchors ξ, the hopfion scale, and the emergence machinery? Focus:
@@ -70,7 +72,7 @@ lead (taxonomy), and a Green's-fn bug (revised-N4) — the corral working.
 
 > **(2026-07-05 record — the hopfion route R0→Q1→H1→H2→H3 — below; superseded as frontier by the H4 arc above.)**
 
-## SESSION RECORD 2026-07-05 (Opus — concentric ω≠0 arc CLOSED → HOPFION route R0→Q1→H1→H2→H3; H3 = PROVISIONAL-A)
+## SESSION RECORD 2026-07-05 (AM) (Opus — concentric ω≠0 arc CLOSED → HOPFION route R0→Q1→H1→H2→H3; H3 = PROVISIONAL-A) — superseded by the PM block above
 
 Charles directed step-by-step; every node committed + blind-verified before the next. Arc, in order (all on `main`):
 1. **Option-3 ruling:** static concentric A0 arc CHECKPOINTED (existence undecided/tool-limited, NOT nonexistence); main path = **3b ω≠0 angular reframe** (3a demoted). Constraint generator banked.

@@ -1,4 +1,4 @@
-# INDEX — Repo Map (frontier 2026-07-05 — concentric ω≠0 reframe CLOSED → the HOPFION route R0→Q1→H1→H2→H3; H3 = PROVISIONAL-A; see LIVE.md TOPMOST, authoritative)
+# INDEX — Repo Map (frontier 2026-07-05 EOD — H3=A + the full H4 backreaction/mass arc DONE; H4 compute STOPPED at revised-N4=D (mass = a WHOLE-CELL response); NEXT = the N5-reframed whole-cell-criticality/ξ-anchor MAP; see LIVE.md TOPMOST, authoritative. H4 docs: H4_backreaction_mass_MAP.md, H4_N1/N2_*, H4_N4_*, H4_N4a_source_background_audit_results.md, H4_screening_taxonomy_MAP.md, H4_GP_switch_hopfion_MAP.md, H4_N4rev_conditional_mass_response_results.md; scripts in h4_scripts/.)
 
 Navigable map of `udt_mass_codex`. **Structure (post-2026-07-01 consolidation):**
 - **root — LEAN:** the 17-module test-import solver closure (the OLD wrong-frame static solver — kept only because

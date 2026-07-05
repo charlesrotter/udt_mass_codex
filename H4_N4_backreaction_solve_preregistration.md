@@ -1,9 +1,9 @@
 # H4 · N4 — Backreaction / mass / pinning solve: PRE-REGISTRATION (frozen BEFORE compute, under frame C(a))
 
 **Mode:** pre-registration / frozen falsification contract. NO compute yet (armchair). Charles-authorized
-2026-07-06 (N3 ruling below).
+2026-07-05 (N3 ruling below).
 
-**VERIFIER RECORD — blind adversarial verifier ac1c5b1af227688b5 (2026-07-06): SOUND in frame, NO FAIL on any of
+**VERIFIER RECORD — blind adversarial verifier ac1c5b1af227688b5 (2026-07-05): SOUND in frame, NO FAIL on any of
 8 targets.** Confirmed (incl. an independent sympy re-check of √h𝒦 = −½e^{−2φ}(a'b'−s'²)/√h, bilinear-in-velocities
 ⇒ finite-amplitude): second-order necessity correctly enforced (outcome B gated to O(amp²)-and-beyond; linear
 artifact forbidden); the frozen-H3-source approximation is valid at leading order (field response enters δq only
@@ -20,7 +20,7 @@ blind-verified N1 (`H4_N1_offround_transverse_equation_results.md`) and N2 (`H4_
 and the frame `H4_backreaction_mass_MAP.md`. DATA-BLIND: no particle labels, no masses, no observational data,
 no GR minimal-coupling (G=8πT FORBIDDEN as a source law; GR only as far-field reference, lane #2).
 
-## N3 RULING (Charles, 2026-07-06) — the frame N4 is frozen under
+## N3 RULING (Charles, 2026-07-05) — the frame N4 is frozen under
 - **Frame C(a) CONFIRMED.** The hopfion is a localized perturbation on the selected N=0 bulk. Mass is read on a
   Gaussian/read-surface satisfying **ℓ_hopf ≪ r ≪ r_fold**. **NO private seal, NO particle-owned boundary, NO G|P
   mini-cell** unless later FORCED by derivation.

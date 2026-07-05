@@ -1,6 +1,6 @@
 # H4 — G/P-switch MAP for the hopfion: the dead-G/active-P switch REDUCES to the revised-N4 solve (switch ⇒ CF1, one-way)
 
-**Status: BANKED (2026-07-06), blind-verified MAP (SPECULATIVE where tagged; the two decisive claims verifier-
+**Status: BANKED (2026-07-05), blind-verified MAP (SPECULATIVE where tagged; the two decisive claims verifier-
 corrected to conditional/one-way).** Armchair/MAP, no compute. DATA-BLIND; Z_φ,ξ,κ,φ_amb symbolic/free (no
 value-fitting); no SM labels; "flux conductor" ≠ "force" (no interaction law derived). MAP agent a08109685123fd3a4;
 blind adversarial verifier aa7545029a0fc6033 (SOUND + bankable; 2 PASS-WITH-CAVEAT corrections folded in below).

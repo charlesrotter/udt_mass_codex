@@ -1,6 +1,6 @@
 # H3 — Native Q_H=1 hopfion solve: OUTCOME A (blind-verified) — a stable, localized, virial-balanced Q_H=1 hopfion is numerically resolved
 
-**Status (2026-07-06, blind-verified A — verifier agent af9b56bc845e0eb97): the production rerun RESOLVES the
+**Status (2026-07-05, blind-verified A — verifier agent af9b56bc845e0eb97): the production rerun RESOLVES the
 object. A topology-preserving arrested-Newton minimizer + a Derrick scale-mode accelerator, on a resolution
 ladder, produces a STABLE, LOCALIZED, VIRIAL-BALANCED Q_H=1 hopfion on the flat-R³ Faddeev–Skyrme reduction of
 native L2+L4. All four pre-registered success criteria are met: |Q|≈1 held, finite nonzero energy, localized
@@ -93,7 +93,7 @@ native hopfion (no longer only on FS theory + dimensional analysis, though those
   allowed category-A technique). **VERDICT (on the FIRST solve): downgrade the SOLVE component to D (tool-limited).**
   This verdict was CORRECT for the Adam solve it examined; it is now SUPERSEDED as the H3 verdict by the
   production rerun below (which uses a different, topology-preserving minimizer).
-- **Blind adversarial verifier — agent af9b56bc845e0eb97, 2026-07-06** (zero-context, independently recomputed
+- **Blind adversarial verifier — agent af9b56bc845e0eb97, 2026-07-05** (zero-context, independently recomputed
   E/E2/E4/Q on the saved converged fields, ran the honest localization + null tests, and ran the load-bearing
   rescaler-OFF control). Grades: **A** Derrick-rescaler-does-NOT-manufacture-balance PASS (rescaler-OFF pure
   arrested-Newton holds E2/E4≈0.99, |Q|=0.99, Ehat≈285 while descending — the decisive refutation of the

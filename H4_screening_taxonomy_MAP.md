@@ -1,13 +1,13 @@
 # H4 — Screening branch-taxonomy MAP: log-periodic DSI is a FROZEN-W ARTIFACT (not discreteness); N4a screening REFINED
 
-**Status: BANKED (2026-07-06), blind-verified — a SPECULATIVE TAXONOMY MAP whose load-bearing DERIVED core is
+**Status: BANKED (2026-07-05), blind-verified — a SPECULATIVE TAXONOMY MAP whose load-bearing DERIVED core is
 verified; taxonomy legs tagged [SPEC]/[DERIVED].** Armchair/CAS + bounded ODE-numeric (no mass solve, no L⁻¹
 response solve, no hopfion re-solve). DATA-BLIND; Z_φ symbolic; no SM labels; "force" used only where native
 flux-coupling math is checked. MAP agent a7623543a23c863bc; blind adversarial verifier accd578cc50d245e0 (core
 PASS; caught + corrected one headline over-reach — softened statement adopted below). Scripts:
 `h4_scripts/dsi_analysis.py`, `dsi_numeric.py`, `dsi_verify_running_ambient.py`.
 
-> **LABEL FIX (2026-07-06, revised-N4):** where this doc says "DEEP-P ambient ⇒ screened/oscillatory," the label is
+> **LABEL FIX (2026-07-05, revised-N4):** where this doc says "DEEP-P ambient ⇒ screened/oscillatory," the label is
 > BACKWARDS — oscillatory roots need φ_amb < ½ln(32/Z_φ) = **SHALLOW**; **DEEP = clean.** Physics (running ambient
 > W→0 ⇒ clean monopole recovered; artifact verdict) is UNCHANGED; only shallow/deep labels are corrected.
 

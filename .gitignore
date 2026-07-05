@@ -13,3 +13,7 @@ Thumbs.db
 memory_export.md
 solved_fields_*.pt
 local_llm_export.md
+
+# large regenerable hopfion field checkpoints (never commit; GitHub 100MB limit)
+hopfion_arc_scripts_2026-07-05/*.npz
+*.npz

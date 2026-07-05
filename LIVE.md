@@ -4,8 +4,8 @@
 everything under the "↓↓↓ HISTORICAL ARC" / "SUPERSEDED" fences is labeled-stale detail (mine for history, not the
 plan). `HANDOFF.md` / `STATE.md` are detailed history; **if they disagree with this file's CURRENT STATE block, the
 CURRENT STATE block wins.**
-**Read order (2026-07-06):** LIVE.md FRONTIER (this block — the RESUME-HERE directive at its TOP is the next
-action) → **HANDOFF.md TOP (2026-07-06 session record — H3=A + the full H4 arc + RESUME HERE)** → the H4 arc docs
+**Read order (2026-07-05):** LIVE.md FRONTIER (this block — the RESUME-HERE directive at its TOP is the next
+action) → **HANDOFF.md TOP (2026-07-05 session record — H3=A + the full H4 arc + RESUME HERE)** → the H4 arc docs
 `H4_backreaction_mass_MAP.md`, `H4_N1_...`, `H4_N2_...`, `H4_N4_..._preregistration.md`,
 `H4_N4_backreaction_solve_results.md`, `H4_N4a_source_background_audit_results.md`, `H4_screening_taxonomy_MAP.md`,
 `H4_GP_switch_hopfion_MAP.md`, `H4_N4rev_conditional_mass_response_results.md` (+ the H3 docs `node_H3_...`,
@@ -28,9 +28,9 @@ action) → **HANDOFF.md TOP (2026-07-06 session record — H3=A + the full H4 a
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-06 EOD — H3=A + full H4 armchair+solve arc DONE; H4 compute STOPPED at revised-N4=D; NEXT SESSION = N5-reframed whole-cell-criticality/ξ-anchor MAP) ============
+## ============ CURRENT STATE (2026-07-05 EOD — H3=A + full H4 armchair+solve arc DONE; H4 compute STOPPED at revised-N4=D; NEXT SESSION = N5-reframed whole-cell-criticality/ξ-anchor MAP) ============
 
-**➤➤ RESUME HERE / NEXT-SESSION FIRST ACTION (Charles, 2026-07-06): N5 REFRAMED = a WHOLE-CELL CRITICALITY /
+**➤➤ RESUME HERE / NEXT-SESSION FIRST ACTION (Charles, 2026-07-05): N5 REFRAMED = a WHOLE-CELL CRITICALITY /
 ξ-ANCHOR MAP (armchair/MAP only — DO NOT run the fully-coupled non-perturbative solve until this MAP is banked AND
 blind-verified).** Driven by the revised-N4 finding that the hopfion's gravitational mass is a **WHOLE-CELL
 response, not a localized halo** (the transverse operator has no decaying mode ⇒ cell-filling shear; the
@@ -47,7 +47,7 @@ MAP (premise ledger + clean failures + verifier targets), then blind-verify befo
 **One-paragraph current state:** the concentric ω≠0 embedded-cell frame was closed (P16 canon C-2026-07-05-1:
 spin→φ not natively available); the reframe converged on the **HOPFION** — native L2+L4 IS the Faddeev–Skyrme
 model, a UDT particle = a π₃ hopfion, charge = Hopf linking Q_H∈ℤ (D1 reinforced). Full armchair chain
-(R0/Q1/H1/H2) blind-verified. **H3 RESOLVED (2026-07-06) = OUTCOME A, blind-verified (agent af9b56bc845e0eb97):**
+(R0/Q1/H1/H2) blind-verified. **H3 RESOLVED (2026-07-05) = OUTCOME A, blind-verified (agent af9b56bc845e0eb97):**
 the FIRST solve (Adam) unwound and was correctly caught as a false pass → D (verifier a2199a0aa1218ddc0); the
 **production rerun** (topology-preserving arrested-Newton + Derrick scale accelerator + a coarse-to-fine
 resolution ladder) **RESOLVES a stable, localized, virial-balanced Q_H=1 hopfion** — N=96 unwinds (lattice
@@ -65,7 +65,7 @@ equation E^{AB}=−T^{AB}; the −2𝒦 φ-source survives off-round (CF5 doesn'
 **N2 ✓** (`H4_N2_...`) native far-field reduction: mass = a pure MONOPOLE in φ (δφ=−δq/r, 1/r native from ρ=r
 area growth), multipoles in the h_AB SHEAR (no ℓ(ℓ+1) tower = a native GR-departure); geometric mass = Coulomb
 charge up to Z_φ; **CF1 (does it have a mass) stays OPEN — provably FINITE-AMPLITUDE ⇒ an N4 solve output.**
-**N3 ✓ RULED (Charles 2026-07-06):** frame **C(a) confirmed** (read-surface in bulk, NO private seal / boundary /
+**N3 ✓ RULED (Charles 2026-07-05):** frame **C(a) confirmed** (read-surface in bulk, NO private seal / boundary /
 mini-cell unless forced); report both masses, Z_φ open, CF1 open. **N4 ✓ DONE = OUTCOME D (tool-limited)**, blind-verified (`H4_N4_backreaction_solve_results.md`; solver
 a9073db162d6d6456, verifier af34ae7d0781fb7bd). SOLID: Phase-A reduction — the O(amp²) flux collapses to a LINEAR
 response (only δh⁽¹⁾ needed; δh⁽²⁾ drops as a total derivative) ⇒ **δm = −δq = (e^{−2φ₀}/4πZ_φ)⟨T, L⁻¹T⟩**, L an
@@ -74,7 +74,7 @@ Euler-type operator (roots 1,2), sign-INDEFINITE; a genuine **native no-stress-o
 T^{AB} from the resolved field, compact-support (read-surface-independent), sectors **trace −90 / shear +139**
 (opposite signs = the phase1_geon negative-mass prime-risk structure); geometric mass +286.5 is a DIFFERENT object,
 does NOT settle the flux-mass. **CF1 LEANS δq≠0** (B/massless disfavored), **CF2 OPEN**, **CF3 = D**.
-**★ N4a SOURCE/BACKGROUND AUDIT (2026-07-06, blind-verified `H4_N4a_...`) = FAIL → N4 RECLASSIFIED D-BUDGET →
+**★ N4a SOURCE/BACKGROUND AUDIT (2026-07-05, blind-verified `H4_N4a_...`) = FAIL → N4 RECLASSIFIED D-BUDGET →
 D-SOURCE-FRAME.** The N4 response operator was the locally-flat approximation and DROPPED the ambient
 self-screening term +8e^{−2φ_amb}δφ (the Branch-P source 4e^{−2φ} is φ-dependent). True exterior perturbation eq:
 Z_φ(r²δφ')' + 8e^{−2φ_amb}δφ = 0, roots −½±√(Z_φ−32e^{−2φ_amb})/(2√Z_φ). ⇒ a clean 1/r monopole mass survives
@@ -90,7 +90,7 @@ CONDITIONALLY. The bare-Euler BVP must NOT be run as-was (spurious clean monopol
 + J(s) still owed. Method win: a source/background AUDIT caught a frame error BEFORE compute, in a doubly-verified
 banked result.
 
-**★ SCREENING TAXONOMY MAP (2026-07-06, blind-verified `H4_screening_taxonomy_MAP.md`) — refines N4a + KILLS a
+**★ SCREENING TAXONOMY MAP (2026-07-05, blind-verified `H4_screening_taxonomy_MAP.md`) — refines N4a + KILLS a
 discreteness lead.** The N4a log-periodic far field is a FROZEN-W ARTIFACT: the true ambient runs
 (φ_amb≈½ln((8/Z_φ)ln r)) ⇒ W=e^{−2φ_amb}→0 ⇒ the clean 1/r monopole is RECOVERED over all physical radii (exactly
 in Branch-G/shallow); the oscillation never completes a cycle (bounded near-core skirt). ⇒ **"log-periodicity =
@@ -100,7 +100,7 @@ not overturned. **The taxonomy COLLAPSES from a 3-way far-field split to a 2-way
 interior (𝒦≠0 sources φ, emergence machinery ON) vs dead-G interior (source-free, holds geometric mass, conducts
 flux, no emergence).** Far-field mass is NEARLY branch-blind ⇒ **the G/P switch governs the INTERIOR, not the mass
 existence.** Pure-G flux-conduit native but "force" NOT established (no two-body interaction derived). Critical
-depth φ_amb^crit=½ln(32/Z_φ) (≈1.73 at Z_φ=1). **G/P-SWITCH MAP for the hopfion (option 1) DONE (2026-07-06, blind-verified `H4_GP_switch_hopfion_MAP.md`).**
+depth φ_amb^crit=½ln(32/Z_φ) (≈1.73 at Z_φ=1). **G/P-SWITCH MAP for the hopfion (option 1) DONE (2026-07-05, blind-verified `H4_GP_switch_hopfion_MAP.md`).**
 The H4 program CONVERGES: **mass (CF1), pinning (CF3), and the dead-G/active-P emergence switch are the SAME
 question.** LOCALLY the hopfion core is active-P (derived: local 𝒦≠0 → −2𝒦 φ-source); GLOBALLY undecidable at
 armchair, reduces to the revised-N4 solve. **switch ⇒ CF1 is ONE-WAY** (δq≠0 ⟹ active-P EXACT; isolated dead-G ⟹
@@ -110,7 +110,7 @@ active-P lean via the toroidal turning-surface anchors is a FAIR LEAN, not a der
 O(amp²) cancellation keep it open). Both outcomes first-class (active-P emergence particle vs dead-G massive
 flux-conductor; "conductor" ≠ "force").
 
-**REVISED-N4 SOLVE DONE (2026-07-06, blind-verified `H4_N4rev_conditional_mass_response_results.md`) = OUTCOME D
+**REVISED-N4 SOLVE DONE (2026-07-05, blind-verified `H4_N4rev_conditional_mass_response_results.md`) = OUTCOME D
 (box-control) with a DERIVED cause + 2 robust physics findings.** L_bare (roots 1,2) has **NO decaying shear
 mode** ⇒ the hopfion's geometric response is **CELL-FILLING, not a localized halo** ⇒ **its mass is a WHOLE-CELL
 property, not a separable localized quantity** (no read-surface-independent δq(φ_amb) curve at finite frozen depth

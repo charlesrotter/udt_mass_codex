@@ -1,6 +1,6 @@
 # H4 · N1 — General off-round transverse field equation + the −2𝒦 φ-source off-round (CF5 does NOT trip)
 
-**Status: BANKED, blind-verified (2026-07-06). Armchair/CAS (sympy symbolic only; NO numerical solve, NO data,
+**Status: BANKED, blind-verified (2026-07-05). Armchair/CAS (sympy symbolic only; NO numerical solve, NO data,
 no open decision taken).** Node N1 of `H4_backreaction_mass_MAP.md` (the first of the two derivation gaps the MAP
 named). Deriver agent af67b40ca9908bac9; blind adversarial verifier a0287030e58746e8f (all 8 targets PASS —
 independently re-derived on fully non-diagonal and surface-dependent h_AB the driver scripts never tested; no
