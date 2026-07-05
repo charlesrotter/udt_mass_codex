@@ -30,9 +30,20 @@ discipline skills → INDEX.md (repo map).
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-05 EOD — N5 ARC CLOSED (ξ PARKED) + the SOLAR LIGHT-SECTOR ARC COMPLETE (predictions + DATA CONFRONTATION, all blind-verified): UDT PASSES the leading solar tests (γ=1); NEXT = Charles's call on the next thread) ============
+## ============ CURRENT STATE (2026-07-05 EOD — N5 (ξ PARKED) + SOLAR LIGHT-SECTOR ARC (UDT passes γ=1) + D1 CHARGE-CHANNEL MAP all done/blind-verified; NEXT = Charles's call (η's Zρ_s² anchor? the channel-selector? i-flow/ℏ clock?) ) ============
 
-**➤➤ RESUME HERE / NEXT ACTION (2026-07-05): the solar light-sector arc is COMPLETE — predictions derived +
+**➤➤ RESUME HERE / NEXT ACTION (2026-07-05): D1 CHARGE-CHANNEL MAP done + blind-verified
+(`d1_charge_channel_projection_MAP.md`, verifier a5cf5a27f637302df) — testing Charles's hypothesis that q=1/3 is
+the single-channel projection of Q_H=1 through the N=3 carrier (η=½q²). RESULT = partially confirmed STRUCTURE,
+refuted READOUT: a native equal-thirds partition of the unit charge EXISTS and is STRONGER than proposed (a
+TOPOLOGICAL INVARIANT of the whole degree-1 class — ⟨n_a n_b⟩=δ/3 = the per-axis winding ∫n_a²dΩ, value
+frame-invariant, NOT the End(H1) triplet), BUT the native charge readouts (degree, Hopf Q_H) are scalars = the
+FULL sum = 1; reaching 1/3 needs a public COUPLING to one axis (anisotropic V_ab, NOT native) ⇒ no native
+projector. η: the ½ is native (ξ/2, seal U_seal=2−q²/(2Zρ_s²)) but η=½q² rides Zρ_s²=1 (UNANCHORED). Q_H=1 stands;
+q=1/3 & η=1/18 remain not-natively-forced — a CLEANER failure than D1's collar route (arithmetic native, selection/
+normalization not). **NEXT = Charles's call: (a) hunt a native channel-SELECTOR / anchor for Zρ_s² (the two missing
+links — if either is found, the hypothesis closes); (b) the i-flow/ℏ clock; (c) something else.** The solar
+light-sector arc is COMPLETE — predictions derived +
 blind-verified AND the frozen DATA CONFRONTATION done + blind-verified (`solar_light_sector_confrontation_results.md`,
 verifier adb471c72a1f5b552). Next = Charles's call on the next thread (a structural one that can still DISCRIMINATE:
 the native charges q=1/3, η=1/18; or the i-flow/ℏ clock), or take stock.** ★ **CONFRONTATION RESULT: UDT PASSES the
