@@ -30,25 +30,30 @@ discipline skills → INDEX.md (repo map).
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-05 EOD — H3=A + full H4 arc DONE + N5 MAP & N5a DONE (both blind-verified); ξ UN-ANCHORED by criticality at armchair; H4 compute STILL STOPPED; NEXT = Charles §1 ponder + N5b-vs-gated-solve fork) ============
+## ============ CURRENT STATE (2026-07-05 EOD — H3=A + full H4 arc DONE + N5 MAP & N5a & N5b ALL DONE (all blind-verified); ξ UN-ANCHORABLE AT ARMCHAIR (both channels closed); H4 compute STILL STOPPED; NEXT = Charles decision on opening the gated N5d solve) ============
 
-**➤➤ RESUME HERE / NEXT ACTION (2026-07-05): a Charles PONDER on the N5-MAP §1 frame tension + a fork decision —
-then N5b (flux-closure budget, armchair) OR accept that ξ can only be anchored by the gated N5d solve.** The N5
-MAP is BANKED + blind-verified (`H4_N5_whole_cell_criticality_MAP.md`, verifier aabaa3929f5f0864f: the named
-ξ-anchor candidate `E_ang(core)=2` rides the RETIRED concentric/private-cell migration — it CANNOT transport to the
-no-wall hopfion frame C(a); reframe = keep criticality on the WHOLE cell with the hopfion as content). **N5a is
-BANKED + blind-verified** (`H4_N5a_whole_cell_criticality_rederivation_results.md`, deriver a03514930fb5c5241,
-verifier ad85bcc2907db3df4: OVERALL HOLDS): **whole-cell criticality re-derived off the carve does NOT pin ξ at
-armchair (CF-N5a)** — it is ONE relation (M/R=c²/2G) with R the unpinned data-blind dilatation modulus (F7 §B.2
-irreducible gap corroborates). The E1 migration's apparent ξ-pin was ENTIRELY the carve (it pins ρ_c(ξ,κ), not ξ).
-**CF-N5c:** negative #75's ξ<2-vs-ξ≥2 contradiction does NOT transport — dissolves via CARRIER SWAP (round rigid-N=1
-"4−2ξ" is carrier-specific; the toroidal π₃ hopfion's virial identity is E₂=E₄, ξ-unconstrained), NOT the
-"no-seal⇒dissolves" fallacy; **#75 is CONDITIONS-CHANGED (re-grade owed in NEGATIVES_REGISTRY).** Off-round object
-DERIVED = FS (E₂,E₄) with **Q_H a topological (Vakulenko–Kapitansky) CONSTRAINT, not an N² coefficient.**
-**Candidate A refuted as a bare-ξ armchair anchor → REDUCED to the gated N5d solve; candidate B (flux, N5b) still
-live; C (onset) + E (z_CMB) pre-registered failures.** **H4 COMPUTE STILL STOPPED** — the non-perturbative
-fully-coupled (φ+h_AB, running ambient) N5d solve is the only surviving ξ-anchoring channel (candidate D) but stays
-GATED behind Charles's go. **Owed:** re-grade #75 in the registry; q/η, i-flow/ℏ, J(s) still owed.
+**➤➤ RESUME HERE / NEXT ACTION (2026-07-05): a Charles DECISION — both armchair ξ-anchoring channels (criticality
+N5a + flux N5b) are now CLOSED, so the honest state is: ξ can be settled, IF AT ALL, only by the gated
+non-perturbative whole-cell N5d solve (candidate D). Charles's call: OPEN N5d (bounded, anti-hang, ONE process), or
+park ξ as a free family and pursue the other owed threads (q/η native re-derivation; i-flow/ℏ; J(s) light-deflection).**
+Also owed regardless: the N5-MAP §1 frame-tension ponder (the migration-anchor retirement) — verifier-confirmed but a
+frame call. **N5 MAP** BANKED+blind-verified (`H4_N5_whole_cell_criticality_MAP.md`, verifier aabaa3929f5f0864f: the
+named ξ-anchor `E_ang(core)=2` rides the RETIRED concentric/private-cell migration — CANNOT transport to the no-wall
+hopfion frame C(a); reframe = criticality on the WHOLE cell, hopfion as content). **N5a** BANKED+blind-verified
+(`H4_N5a_...`, verifier ad85bcc2907db3df4): whole-cell criticality re-derived off the carve does NOT pin ξ — ONE
+relation (M/R=c²/2G) with R the unpinned data-blind dilatation modulus (F7 §B.2 gap); the E1 migration's apparent
+ξ-pin was ENTIRELY the carve (pins ρ_c(ξ,κ), not ξ). CF-N5c: #75's ξ<2-vs-ξ≥2 contradiction does NOT transport —
+dissolves via CARRIER SWAP (toroidal π₃ virial = E₂=E₄, ξ-unconstrained), #75 flagged CONDITIONS-CHANGED in the
+registry. Off-round object = FS (E₂,E₄), Q_H a topological (VK) CONSTRAINT not an N² coefficient. **N5b**
+BANKED+blind-verified (`H4_N5b_flux_budget_closure_results.md`, verifier a40dce45cfcede943: OVERALL HOLDS, no flip):
+the whole-cell dilation-flux budget is Gauss's law + a co-varying cosmic-seal charge (Q=MS mass, p_F=γ/2 continuous
+z_CMB-sourced) ⇒ NOT independent of N5a — it is criticality in Z_φ-charge language, Z_φ cancels, pins neither ξ nor
+Z_φ nor (ξ,Z_φ). The one native quantization (D2b flux LADDER) is real but quantizes DEPTH/PROFILE not size/ξ
+(registry P-B; absolute anchor = z_CMB); its hopfion-coupled form = candidate D. **⇒ Candidates A + B + C(onset) +
+E(z_CMB) all closed at armchair; candidate D (the gated N5d non-perturbative φ+h_AB solve on the running ambient) is
+the ONLY surviving ξ-anchoring channel.** **H4 COMPUTE STILL STOPPED** — N5d stays
+GATED behind Charles's go. **Owed:** q/η native re-derivation, i-flow/ℏ clock, J(s) light-deflection still owed.
+(#75 already flagged CONDITIONS-CHANGED in NEGATIVES_REGISTRY per N5a.)
 
 
 **One-paragraph current state:** the concentric ω≠0 embedded-cell frame was closed (P16 canon C-2026-07-05-1:
