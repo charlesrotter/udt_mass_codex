@@ -4,7 +4,18 @@
 ledger + a pre-registered clean-failure contract, so Charles can catch a smuggled frame or a bad fixed value at
 the CHEAP stage before anything is built. Grounded by three read-only recon passes (agents aba36aa7b680ab212,
 a5166867cc92ae618, aab875b3ba5b63546) over the native field-equation / mass-charge / geon corpus; every native
-fact below is sourced. **Owes a blind verifier before any H4 solve is authorized** (verifier-before-record).
+fact below is sourced.
+
+**VERIFIER RECORD — blind adversarial verifier a5a099f3205d85927 (2026-07-06): MAP HOLDS as a sound, non-smuggled
+pre-registration (targets 1,2,4,6,7 PASS; 3 & 5 PASS-WITH-CAVEAT).** Confirmed: the indirect δS_m/δφ=0 channel
+(derived, R1+P5-conditional); the exact G-cancellation / P-only −2𝒦 source; correct (non-overclaiming) D2 usage;
+the two-masses distinction incl. the real E1 "mass with φ≡const"; N1/N2 genuinely required (no off-round P-source,
+no far-field reduction in the corpus); the clean failures genuine (incl. the verified m/A²≈−0.905 negative-mass
+precedent). **It does NOT revive the deep-well/depth-stiffness sealed cell.** Two REQUIRED-BEFORE-N1 revisions,
+now APPLIED: (5) disambiguate "seal" — the old §C spine silently assumed a private G|P boundary; now recast to the
+reframe-consistent read-surface-in-bulk default C(a) with the private-boundary option C(b) flagged as
+imposition-reopening; (3) separate the flux Π_φ=Z_φρ²φ' from the Coulomb charge q=ρ²φ'=−M (differ by Z_φ). No
+seal class chosen; no compute run.
 
 **Discipline (Charles, binding for H4):** no particle labels; no lepton masses; no observational data; no GR
 minimal-coupling import (G=8πT is FORBIDDEN — the backreaction must come from the native 𝒦→φ geometry; GR is
@@ -49,18 +60,45 @@ dilation — `K_AB = ½e^{−φ}∂_r h_AB` ⇒ `𝒦 ∝ e^{−2φ}`, `∂𝒦/
    (`macro_sector_fork_resolution.md:33`, `universe_cell_T2_identities_results.md:21`). Branch-agnostic. **Can be
    nonzero even with φ ≡ const** (D2 counterexample E1, `d2b_no_structure_in_G.md:99-114`) — i.e. a body can have
    geometric mass with ZERO dilation content. This is NOT the emergence object.
-2. **Public charge / dilation flux:** `q = (Z_φ ρ² φ')|_seal` (DERIVED, `seal_matching_junction_results.md:14-27`).
-   Read as the far-field monopole `M = −q` at O(1/r) (`native_field_equations_...:62-65`). By D2's T-G2 this
-   emergence-machinery mass is **P-ONLY** (`d2b_...:89-94`). This IS the object H4 wants — "external mass/charge
-   is seal flux, not bulk matter" (`seal_matching_...:66-73`).
+2. **Public charge / dilation flux — TWO objects that differ by Z_φ (verifier-corrected; do NOT conflate).**
+   (i) the conserved **dilation flux** `Π_φ = √h Z_φ φ'` (per solid angle `Z_φ ρ² φ'`), and (ii) the far-field
+   **Coulomb coefficient** `q = (ρ² φ')|_{far}` — the coefficient in `φ = φ_∞ − q/r`, identified with the mass
+   `M = −q` at O(1/r) (`native_field_equations_...:55,62-65`; `seal_matching_...:14-27`). These COINCIDE only if
+   `Z_φ = 1`; with the **Z_φ fork OPEN** (Route A free / Route B=8) they differ by a factor Z_φ, so the mass read
+   from the far-field tail is `M = −q = −Π_φ/Z_φ` (up to the sign/`p_F` conventions still to pin). By D2's T-G2
+   this flux/charge mass is **P-ONLY** (`d2b_...:89-94`). This IS the object H4 wants — "external mass/charge is
+   seal flux, not bulk matter" (`seal_matching_...:66-73`) — read, per C(a), as the local far-field monopole of
+   the hopfion's δφ, NOT across a private wall.
 
-**C. The central tension, and its resolution: P-OBJECT, G-READING, SEAL-MATCHED.**
-Branch P has NO asymptotically-flat vacuum (the source `4e^{−2φ}` does not vanish as r→∞), so a P-object has no
-clean Coulomb tail to read M from *within P*. But the flux is carried OUT: JC1 (dilation-flux continuity
-`[√h Z_φ φ']=0`) hands the P-side q into a G exterior unchanged — "G can CARRY flux between P-structures but
-cannot terminate or close it" (`d2b_...:135-136`). So the native architecture is: **the hopfion is a Branch-P
-object that sources φ internally; its charge q crosses a G|P seal into a Branch-G exterior where φ = φ_∞ − q/r
-and the mass M = −q is read.** Reconciling these two sides at the seal is THE H4 design spine.
+**C. How the mass is read — and what "seal" means here (DISAMBIGUATED per verifier a5a099f3205d85927).**
+The hopfion is a Branch-P object (it sources φ via 𝒦), and Branch P has NO asymptotically-flat vacuum (the source
+does not vanish at r→∞), so there is no *global* Coulomb tail to read M from. The reading must therefore be a
+*local far-field* one. There are TWO candidate readings, and the MAP does NOT pick between them (that is a
+Charles call at N3) — but it MUST name them, because one is reframe-consistent and the other would revive a
+retired imposition:
+
+- **(a) READ-SURFACE-IN-BULK (reframe-consistent DEFAULT).** The hopfion is a **localized δφ perturbation ON the
+  N=0 ambient** (the universe cell's own P-bulk), with **NO private seal, NO private cell, NO deep private
+  φ-well** — the well is an *output* of the N4 solve, at ambient depth. Its mass is the **net far-field monopole**
+  of that perturbation, `δφ ≈ −δq/r` superimposed on the slowly-varying ambient φ(r), evaluated on a
+  *mathematical Gaussian read-surface* at `ℓ_hopf ≪ r ≪ (fold / cosmic-seal distance)`. This is exactly the
+  H1/H3 "bulk clean-exterior defect, the seal never enters" picture (`H3_hopfion_solve_preregistration.md:24`;
+  H1 premise `√(κ/ξ) ≪ ρ(r_hopf)`), and the reframe's "particle = defect ON the background, no private seal"
+  (`microphysics_after_concentric_failure_MAP.md:62-75`). The ONLY physical seal anywhere in the problem is the
+  **universe cell's own cosmic seal** (C-2026-07-04-1), which is far away and is NOT possessed by the particle.
+- **(b) PRIVATE G|P BOUNDARY around the hopfion.** A physical seal/matching-fold drawn around the hopfion,
+  carving it into its own P-cell whose flux crosses into a G exterior. **This WOULD re-open the retired
+  sealed-cell imposition** (private cell) and is NOT adopted by default — it may be entertained at N3 ONLY with an
+  explicit native justification that it is not the deep-well/depth-stiffness frame the hopfion route was chosen
+  to escape.
+
+**Default working frame = (a).** The earlier "P-object → charge crosses a G|P seal → G exterior" spine is
+RETRACTED as the default (it silently assumed (b)); under (a) there is no private seal — the flux JC1
+(`[√h Z_φ φ']=0`, `d2b_...:135-136`) is used only as the local matching that lets the interior source connect to
+the local far-field δφ, not as a wall. **The live physics fork is therefore NOT "which seal class" but CF1: does
+the hopfion's localized backreaction produce a NET far-field monopole δq (a mass) or zero net flux?** — an
+*output* of N4, not a chosen boundary. (The old "seal class A/B" only arises under (b); it is held OPEN, not
+chosen, and is moot under the default (a).)
 
 **D. The hopfion's exterior is topologically CLEAN (the precondition that PERMITS a localized mass).**
 H1 proved the hopfion carries ZERO net π₂ flux — `deg(n|_{S²_r}) = 0` on every enclosing sphere, n ≡ n_∞ and F=0
@@ -111,8 +149,10 @@ The native results above are all derived for a ROUND source (h_AB = r²Ω). **Th
 | Matter φ-blind, δS_m/δφ=0 | **DERIVED** (conditional on R1+P5 CHOSE) | the whole "indirect only" architecture rides on it |
 | 𝒦→φ source = −2𝒦, **P-only** (G cancels) | **DERIVED** (CAS + 2 verifiers) | backreaction is a Branch-P statement |
 | **G vs P assignment for the hopfion cell** | **CHOSE / OPEN** | H4 must place the hopfion in P (to source φ); the exterior it emits into is G |
-| **Seal Class A (closed, q=0) vs B (charged, q≠0)** | **CHOSE / OPEN — Charles's call** | ★ DECIDES WHETHER THE HOPFION HAS A PUBLIC-CHARGE MASS AT ALL. Class A ⇒ q=0 ⇒ only MS geometric mass; Class B ⇒ q≠0 far-field Coulomb mass, needs a seal source/constraint (`seal_matching_...:49-64`) |
-| Which mass H4 reads (MS geometric vs public-charge q) | **CHOSE — pre-register** | they are DIFFERENT objects (B above); H4 targets the public-charge/flux mass (the emergence object) but must report both |
+| **What "seal" means: (a) read-surface-in-bulk vs (b) private G|P boundary** | **CHOSE / OPEN — Charles's call (N3); DEFAULT = (a)** | ★ (a) = reframe-consistent, NO private cell (§C); (b) would re-open the retired sealed-cell imposition, needs justification. Under the default (a) there is NO "seal class A/B" — whether the hopfion has a flux-mass is CF1 (a solve OUTPUT), not a chosen boundary |
+| Net far-field flux δq = 0 vs ≠ 0 (does the hopfion have a flux-mass) | **OUTPUT of N4 (CF1), NOT chosen** | replaces the old "seal class decides the mass" framing |
+| Which mass H4 reads (MS geometric vs flux/charge) | **CHOSE — pre-register** | they are DIFFERENT objects (B above); H4 targets the flux/charge mass (the emergence object) but must report both |
+| flux Π_φ = Z_φρ²φ' vs Coulomb charge q = ρ²φ' = −M (differ by Z_φ) | **CONVENTION — pin under the Z_φ fork** | verifier-flagged; `seal_matching_...:14-27`, `native_field_equations_...:55` |
 | φ-sign convention giving **M = −q** | **CHOSE — must pin before quoting a mass** | `native_field_equations_...:62-65` |
 | p_F factor-of-2 (`Q=2p_F` vs `p_F=MS`) | **CONVENTION-AMBIGUOUS across eras — pin** | `seal_matching_...:27` vs `w8_results.md:20` |
 | **Z_φ fork:** Route A (free) vs Route B (=8 + forced 2e^φKφ' mixing) | **CHOSE / OPEN** | live solvers carry Z=8 WITHOUT the mixing term (d2c "not Route B and never can be") |
@@ -146,8 +186,10 @@ first-class deliverable and cannot be retro-explained.
 - **CF5 — the off-round derivation breaks the round results.** The general δS/δh_AB transverse equation (gap #1)
   does NOT reduce to the round P-source for a localized non-round object ⇒ the 𝒦→φ channel's form changes ⇒
   re-derive before any mass claim.
-- **CF6 — seal-matching inconsistency.** The P-side q cannot be carried cleanly through the G|P seal into a
-  well-defined G exterior (JC1/JC2 not simultaneously satisfiable for the hopfion) ⇒ no well-defined far-field mass.
+- **CF6 — read-surface / matching inconsistency.** Under the default frame C(a), the interior P-source cannot be
+  matched cleanly to a single-valued local far-field δφ on the bulk read-surface (JC1 flux-continuity not
+  satisfiable, or the monopole is read-surface-radius-dependent) ⇒ no well-defined far-field mass. (Under the
+  non-default frame C(b), the analogous failure is q not carryable through a private G|P boundary.)
 - **CF7 — GR-import tripwire (self-audit, not an outcome).** If at any step the mass is being read from G=8πT or
   from Schwarzschild ADOPTED as the source law (vs USED as a far-field reference), STOP — that is the smuggle
   (trigger #6). The mass must be defined by the native flux q / native MS functional.
@@ -159,11 +201,13 @@ first-class deliverable and cannot be retro-explained.
 1. **N1 (armchair/CAS, no solve):** derive the **general off-round δS/δh_AB transverse equation** (gap #1) — does
    the matter→h_AB→𝒦 chain, and the P-source −2𝒦, survive for a non-round localized source? Settle CF5 here.
 2. **N2 (armchair/CAS):** the **far-field reduction** (gap #2) — does a localized clean-exterior hopfion source an
-   effective monopole φ-well? Establish (or refute) the P-object/G-reading seal-match (CF6) and the sign/convention
-   pins (M=−q, p_F). Settle whether q=0 or q≠0 in principle (CF1) — is the integrated flux forced to vanish for a
-   zero-net-π₂-flux object?
-3. **N3 (PONDER with Charles):** the **seal-class decision** (A closed / B charged) and the **which-mass** decision
-   — these are Charles's calls and gate everything downstream. Do NOT pick them silently.
+   effective monopole δφ-well read on a bulk read-surface (frame C(a))? Establish (or refute) the read-surface
+   matching (CF6), the flux-vs-Coulomb-charge separation (Π_φ vs q, differ by Z_φ), and the sign/`p_F` pins.
+   Settle whether the net far-field δq is forced to 0 or can be ≠ 0 in principle (CF1) for a zero-net-π₂-flux object.
+3. **N3 (PONDER with Charles):** the **seal-meaning decision** — confirm the default frame C(a) (read-surface in
+   bulk, no private cell) or, only with explicit native justification, entertain C(b) (private G|P boundary) — and
+   the **which-mass** decision (MS geometric vs flux/charge). These are Charles's calls and gate everything
+   downstream. Do NOT pick them silently. (The old "seal class A/B" is moot under the default (a).)
 4. **N4 (gated SOLVE, only after N1–N3 clean + Charles's go):** the **backreaction pinning solve** (gap #3) — turn
    on the hopfion's self-sourced φ (bounded, ONE foreground process, ANTI-HANG) and read: the φ-well shape, the
    mass (MS + q), the sign (CF2), and the bulk-vs-core force (CF3). Reuse the `phase1_geon` O(A²) machinery as the
