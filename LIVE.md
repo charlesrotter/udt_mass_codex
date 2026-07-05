@@ -182,10 +182,22 @@ fails) → hopfion redirect → Q1 (native = Faddeev-Skyrme) → H1 (topology na
 (charge ledger native, all clear). Two things remain, BOTH decided at the gated solve: (i) H1's localization
 premise √(κ/ξ)≪ρ(r_hopf); (ii) EXISTENCE of a stationary Q_H=1 hopfion on N=0.
 
-**➤ NEXT = H3 (GATED SOLVE — Charles's COMPUTE gate; the first compute of this route).** Does native L2+L4
-admit a stationary Q_H=1 hopfion on the warped N=0 background at size √(κ/ξ), sitting in the BULK (premise
-holds ⇒ route works) or CORE-PINNED (premise fails ⇒ CONDITIONAL/global re-opens)? ANTI-HANG: bound it, ONE
-process, fixed-Q_H, no background-poll. Awaiting Charles's go. J(s)-vs-data still owed, frame-robust, un-gated.
+**➤ H3 PRE-REGISTRATION FROZEN (`H3_hopfion_solve_preregistration.md`) — owes a blind verifier BEFORE the
+solve (Charles: "no nonlinear solve until this MAP is banked AND verified"). J(s) PARKED (durable, frame-robust).**
+★ LOAD-BEARING CLARIFICATION surfaced: in the static φ-blind sector the hopfion is AMBIENT-INVISIBLE (φ-free
+measure + φ-blind coupling + δS_m/δφ=0) ⇒ on a FIXED background there is NO force pinning it anywhere. So **H3
+tests only EXISTENCE + SIZE √(κ/ξ) (≈ the flat-space Faddeev–Skyrme hopfion solve, ρ=r); the dynamical
+core-pinning FORCE is a BACKREACTION effect ⇒ H4** (answers spec-6). "Core-pinned" at H3 = size comparable to
+cell-scale (a SIZE fact), not a force. Spec (frozen): (1) E=∫√h[(ξ/2)|∇n|²+(κ/4)|F|²], fixed Q_H=1; (2) Q_H =
+Whitehead integral (1/16π²)∫εA·F, protected under flow, measured post-hoc; (3) axisymmetric toroidal (m,l)=
+(1,1), honesty-gated (measure Q_H=1, no faked winding BC = the S³-Skyrme trap); (4) constant exterior n→n_∞ on
+a LOCAL bulk ball, regular core, NO seal/φ-well; (5) only ρ=r + cell ρ-range from N=0 (φ doesn't enter static
+matter energy); (6) φ-backreaction → H4; (7) 2D bounded Nρ,Nz≤64, ONE process, no background-poll; (8) MMS/
+known-hopfion validation mandatory + Q_H=1 + grid+box convergence + blind verifier. **Outcomes: A exists-in-
+bulk (√(κ/ξ)≪ρ) → H4 / B core-pinned (size~cell) → reframe / C no-solution → route fails / D tool-limited.**
+
+**➤ NEXT: blind verifier on the H3 pre-registration (esp. the ★ ambient-invisibility framing + that the
+Faddeev–Skyrme reduction + Q_H measurement are correct/native), THEN Charles's go on the bounded solve.**
 **J(s)-vs-data is frame-robust and NOT gated by the reframe** — still a NEW push (MAP scope + confirm
 with Charles; loads Cassini bounds; pre-register s-dependence, data never-retune). "Anytime" ≠ self-authorized.
 
