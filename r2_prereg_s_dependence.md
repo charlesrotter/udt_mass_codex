@@ -103,6 +103,14 @@ ruler-area factor); `ν = 2√(Z+μ²)/Z`; `m̂ = νβ` (one-body mass parameter
 `J(s) = 2∫₀¹ dw/√(1−w^{2−2s}) = √π·Γ(1/(2−2s)) / [(1−s)·Γ(1/(2−2s)+½)]`; `J(0)=π`;
 small-s `J = π[1 + (1−ln2)s + O(s²)]`. **An O(s), impact-parameter-INDEPENDENT deflection of
 every ray, however far from any body.** Route-B point: `J(½) = 4` (numerically verified).
+> **CORRECTION (2026-07-05, verifier a66e2da69bfc3c7d9 via `J_of_s_light_deflection_confrontation_MAP.md`):**
+> "impact-parameter-INDEPENDENT deflection" OVERSTATES — only the pure NUMBER `J(s)` is b-independent.
+> The measured swept azimuth is `D(ρ₀)·J(s)` with `D(ρ₀)=Δρ₀^{−s}` b-DEPENDENT + gauge-carrying
+> (`d ln D/d ln b = s/(s−1)`; `Δ=e^{φ₀}/a` = integration data), and s=0 is a CONICAL vacuum (azimuth
+> Δ·π). So the measured ambient DEFLECTION is NOT `J(s)−π` and NOT shown b-independent — it is OPEN
+> (its observability folded into CF-ABS/CF-ORIGIN of the J(s) MAP). The banked J(s) NUMBER + its values
+> (J(0)=π, J(½)=4) and the frame-robustness of null geodesics are UNAFFECTED; only the observable-status
+> gloss on row R2-1 is corrected.
 *Premises:* Branch-G ambient family; null geodesics. *Robustness:* **conformally invariant ⇒
 motion-law- AND frame-robust.** The cleanest confrontable row.
 
