@@ -283,11 +283,16 @@ NODE 0 — WHICH ω≠0?  (armchair, now)
   │                                        re-derivation before Flavor I is called empty. §2.1(2).
   └─ Flavor II (internal rotation Nψ→Nψ+ωt, φ static) .. PRIMARY. Proceed to NODE 1.
 
-NODE 0.5 — RE-GRADE THE SEAL PARITY MECHANISM on the native field equations (prerequisite for NODE 1).
-  §2.1(1): the seal=t→−t identification is canon; the even→Neumann/odd→Dirichlet BC mechanism is
-  pre-foundation. Confirm (or correct) it natively BEFORE leaning on the parity crux. Cheap, armchair.
+NODE 0.5 — RE-GRADE THE SEAL PARITY MECHANISM on the native field equations.  ✔ DONE / BANKED 2026-07-04
+  (`node05_seal_parity_regrade_results.md`, blind-verified ad14fbc6898ee1930). Verdict CORRECTED:
+  reflection mechanism native; SECTOR SPLIT (canon C-2026-07-04-1) — φ→−φ governs static seal BCs
+  (φ Dirichlet φ(r_s)=0, the flux seal; old Neumann was an error), t→−t governs time-on/off-diagonal.
+  The "seal ignores ω" lead was REJECTED as unsafe (a spinning phase is time-on ⇒ t→−t acts on it).
 
-NODE 1 — THE PARITY CRUX (F1).  (armchair, from the RE-GRADED t→−t seal structure)  ← decisive, do FIRST after NODE 0.5
+NODE 1 — THE COUNTER-ROTATING-MIRROR CRUX.  (armchair, running 2026-07-04)  ← decisive
+  Seal time-on gluing acts as t→−t: spinning phase Nψ+ωt → Nψ−ωt. Derive natively whether matching the
+  defect to its counter-rotating mirror image (via the phase's Weierstrass–Erdmann radial-flux junction,
+  NOT bare-phase equality — that would false-kill):
   ├─ Seal forces ω=0 (spin killed) ...... CLEAN FAIL F1 → reframe falsified; zoom out with Charles.
   ├─ Seal PINS ω to a discrete set ...... the rotating seal QUANTIZES → strongest possible outcome;
   │                                        go to NODE 2 to make it well-posed.
@@ -329,9 +334,20 @@ It is an INSTRUMENT, not the pursuit.
   first-class result, and it names the ONE decisive armchair question (the t→−t seal vs. a spinning
   phase, NODE 1 / Q4) that can be settled before any compute.
 
-**Standing for Charles's ponder (the forks that are his to call):**
-- confirm Flavor II as the primary reading (park III behind a native time-sector derivation; merge I);
-- authorize the small native derivation of the rotating junction condition (NODE 2) — it is derivation,
-  hence gated;
-- confirm the F1–F5 clean-failure contract before any of it runs;
-- resolve the P10 concentricity habit (need a spinning defect be concentric?).
+**RESOLVED — Charles's rulings (2026-07-04, MAP approved):**
+1. Flavor II = PRIMARY (φ static, rotate the matter angular phase). ✔
+2. **NODE 0.5 mandatory + FIRST** — re-grade the seal parity mechanism on the native field equations
+   before the parity crux. Durable canon = ONLY seal=(t→−t) mirror fold; even/odd→Neumann/Dirichlet must
+   be re-derived or corrected. ✔ (running)
+3. NODE 1 (after 0.5) = decisive: seal kills ω (F1) / pins ω (seal quantizes) / ignores ω (spatial BVP). ✔
+4. NODE 2 authorized ONLY after 0.5/1; derive the rotating junction condition NATIVELY from Noether/
+   internal-charge flux continuity + the seal action — do NOT posit an angular-momentum condition. ✔
+5. Flavor I NOT dead — "frame-drag empty/J=0" WITHDRAWN as current authority until natively re-derived;
+   may run as a PARALLEL re-grade, does not block II. ✔
+6. Flavor III secondary + underived — do NOT import a GR-like ∂_tφ time-kinetic term. ✔
+7. F1–F5 clean-failure contract CONFIRMED — a clean fail is a GOOD result. ✔
+8. P10 concentricity HABIT BROKEN — concentric = convenience slice only; a spinning defect may need
+   non-concentric or twisted geometry. ✔
+
+**Execution order now fixed:** NODE 0.5 (running) → NODE 1 → NODE 2 (gated on 0.5/1). Flavor-I native
+re-grade = parallel, non-blocking. No numeric compute until NODE 0.5/1 clear and Charles re-confirms.

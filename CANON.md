@@ -363,3 +363,36 @@ conservation. The cosmos's "matter at one critical amount" rule reappearing at t
 core. Graded a margin note, not canon: derived (stronger than the F5 identification note) but
 one reduction deep (round-static, diagonal, concentric, Branch-P) — elevation waits on E2
 showing cells actually close on it.
+
+## C-2026-07-04-1 — Seal-involution SECTOR SPLIT (clarification of the mirror-fold canon, NOT an overturn)
+
+**Statement:** the durable mirror-fold canon (seal = same-minus MIRROR FOLD; C-2026-06-10-2
+"mirrored across φ→−φ") is CLARIFIED by localizing WHICH involution acts on WHICH sector:
+- **STATIC fields' seal boundary conditions are governed by the SPATIAL depth mirror
+  σ_φ : (φ→−φ, r→radial reflection).** Its fixed surface is φ=0 = r_s, a spatial crease, so it
+  CAN impose a radial BC. φ is odd under σ_φ ⇒ **Dirichlet φ(r_s)=0** with φ' free ⇒ the flux
+  seal q = Zρ_s²φ' (matches the already-derived fold JC, universe_cell_fold_jc_sigma_results.md:26-30).
+- **TIME-ON / rotating / off-diagonal fields are governed by the temporal mirror t→−t** (the W6
+  same-minus involution). A static field is t-independent, so t→−t imposes no BC on it (only a
+  node-in-time, ω-blind); the temporal mirror's authority is exactly the sector the spatial mirror
+  cannot reach.
+
+This keeps the theorem-grade FOLD (seal ≠ edge; Z₂ quotient) and the durable canon intact, and
+RE-ALIGNS with canon's own primary wording ("mirrored across φ→−φ"); the "= time reversal t→−t"
+layer was always the row-conditional W6 gloss and is retained for its proper (time-on) sector. It
+is NOT a new mechanism and NOT an overturn — it makes explicit which involution the banked fold-JC
+derivation already used for the static fields.
+
+**Correction folded in:** the pre-foundation `seal_junction_condition_results.md` (2026-06-21)
+assigned φ EVEN→Neumann via t→−t; that is WRONG (t→−t cannot act on static φ; Neumann φ'(r_s)=0
+would zero the flux q, destroying the flux seal). The corrected native assignment is Dirichlet
+φ(r_s)=0. **Do not retain the old φ-Neumann wording.**
+
+**Scope / open:** the "seal ignores ω" reading for a spinning phase is NOT part of this canon —
+a time-on winding phase Nψ+ωt is governed by t→−t (→ Nψ−ωt), and whether the seal kills / pins /
+permits ω is the OPEN NODE-1 question, not settled here.
+
+**Provenance:** NODE 0.5 re-grade (deriver a648221a6b7df3aba) + blind adversarial verifier
+(ad14fbc6898ee1930: C1/C2/C3 SUPPORTED, C2 as re-localization, C3 strengthened, C4 "seal ignores
+ω" INCOMPLETE→held open; no GR-smuggle). Doc: `node05_seal_parity_regrade_results.md`.
+**Canonized (as a CLARIFICATION) by Charles 2026-07-04.**

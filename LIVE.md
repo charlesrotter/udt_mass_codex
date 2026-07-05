@@ -24,23 +24,40 @@ CURRENT STATE block wins.**
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-04 EOD — CHARLES RULED: static-A0 arc CHECKPOINTED; MAIN PATH = 3b ω≠0 angular reframe; MAP in progress) ============
+## ============ CURRENT STATE (2026-07-04 EOD — MAP APPROVED; Flavor-II primary; NODE 0.5 seal-parity re-grade IS THE NEXT ACTION, armchair/CAS, NO compute) ============
 
-**➤ CHARLES'S OPTION-3 DECISION IS MADE (2026-07-04):**
-- **STATIC CONCENTRIC A0 EMBEDDED-CELL ARC = CHECKPOINTED.** The correct read (Charles, binding):
-  **existence UNDECIDED, tool-limited**, with the repeated wall localized to **EXTREME DEPTH-STIFFNESS**.
-  **DO NOT record nonexistence.** (Three verified solver rounds E2c/d/e each re-localized the SAME wall;
-  trap-#1 scoped: "not found from these seeds/tools," NEVER "does not exist.")
-- **MAIN PATH = 3b — the ω≠0 ANGULAR-SECTOR REFRAME** (Charles's founding φ-angular hunch; static
-  concentric A0 may be the wrong frame). This is now the pursuit.
-- **3a (depth-stiffness homotopy) = DEMOTED to an OPTIONAL LAST-INSTRUMENT DIAGNOSTIC** — not the main
-  pursuit; run only if a later step specifically needs to probe the static wall again.
-- **IN PROGRESS: the 3b MAP** (armchair-first, NO compute) — microphysics re-entry around
-  angular/defect-mediated DISCRETE structures inside the selected N=0 universe cell. Deliverable =
-  premise ledger + decision tree (see the five MAP questions). NOT a derivation; DERIVE stays gated.
-**J(s)-vs-data is frame-robust and NOT gated by the reframe** — but it is still a NEW push: MAP the
-scope and confirm with Charles before launching (it loads solar-system/Cassini bounds; pre-register the
-s-dependence first, data never-retune). "Anytime" = not blocked by the fork, NOT self-authorized.
+**➤ MAP APPROVED (Charles, 2026-07-04) — `microphysics_reentry_omega_reframe_MAP.md`. Eight rulings (binding):**
+1. **Flavor II CONFIRMED PRIMARY** — internal matter-phase rotation (Nψ→Nψ+ωt) with **φ static**; uses the
+   native S² carrier, probes the φ-angular interaction without first owing a native ∂_tφ sector.
+2. **NODE 0.5 IS MANDATORY AND FIRST** — re-grade the seal parity mechanism on the 2026-07-01 native
+   field-equation foundation BEFORE using the parity crux. **Durable canon = ONLY seal = (t→−t) mirror
+   fold.** The even/odd → Neumann/Dirichlet rule MUST be re-derived or corrected (not assumed).
+3. **NODE 1 (after 0.5) = the decisive armchair question:** does the native (t→−t) seal **kill / pin /
+   ignore** a spinning internal phase? kills ω = clean-fail F1 (stop, zoom out); pins ω = strongest
+   (seal quantizes); ignores ω = continue, discreteness must come from the spatial/topological BVP.
+4. **NODE 2 authorized ONLY after 0.5/1** — derive the rotating junction condition NATIVELY from
+   Noether/internal-charge flux continuity + the seal action. **Do NOT posit an angular-momentum condition.**
+5. **Flavor I NOT dead** — WITHDRAW "frame-drag empty/J=0" as current-frame authority until natively
+   re-derived (phase2a rode GR's Einstein tensor, 06-18 = trigger-#6). May run as a PARALLEL re-grade;
+   does NOT block Flavor II.
+6. **Flavor III = secondary + underived** — do NOT import a GR-like time-kinetic term for ∂_tφ.
+7. **F1–F5 clean-failure contract CONFIRMED** — a clean fail is a GOOD result.
+8. **P10 concentricity HABIT BROKEN** — concentric = a convenience slice only; a spinning defect may
+   require non-concentric or twisted geometry.
+
+**➤ NODE 0.5 BANKED (2026-07-04, blind-verified) — `node05_seal_parity_regrade_results.md`.** Verdict
+CORRECTED: the even/odd→Neumann/Dirichlet reflection MECHANISM is native (Weierstrass–Erdmann of δS),
+but the involution is **SECTOR-SPLIT (canon C-2026-07-04-1):** spatial depth mirror φ→−φ governs STATIC
+seal BCs; t→−t governs TIME-ON/off-diagonal. φ's seal BC CORRECTED Neumann→**Dirichlet φ(r_s)=0** (= the
+flux seal; the old Neumann would have zeroed q). Deriver a648221a6b7df3aba, verifier ad14fbc6898ee1930.
+
+**➤ NEXT ACTION = NODE 1 (running): armchair/CAS, NO compute.** The seal's time-on gluing acts as t→−t,
+so the spinning phase Nψ+ωt → Nψ−ωt (counter-rotating mirror). Derive natively whether matching the
+defect to its counter-rotating image (1) FORCES ω=0 (clean-fail F1), (2) PINS ω to a discrete condition
+(seal quantizes), or (3) PERMITS gluing with ω FREE (→ NODE 2). Observe, not target; no GR import; no
+solve. Verifier-before-record before banking. ("Seal ignores ω" was NOT banked — C4 held open = this node.)
+**J(s)-vs-data is frame-robust and NOT gated by the reframe** — still a NEW push (MAP scope + confirm
+with Charles; loads Cassini bounds; pre-register s-dependence, data never-retune). "Anytime" ≠ self-authorized.
 
 **THE ORIENTATION FOR THE NEXT DRIVER = `PURSUIT_CHARTER_2026-07-04.md`** (read it SECOND, right
 after this block): the treasure list, FORK 3 (the route fork) with its R1–R4 decision program,

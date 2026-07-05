@@ -31,6 +31,13 @@ changes the ansatz class — if a rotating/time-periodic cell closes, this check
 depth-stiffness wall is a fact about the STATIC-A0 class only. Docs: `microphysics_E2{c,d,e}_*_results.md`;
 arc detail `archive/LIVE_route_fork_E2_arc_2026-07-04.md`.
 
+**CORRECTION folded in (2026-07-04, NODE 0.5 re-grade — not a negative):** `seal_junction_condition_results.md`
+(2026-06-21, pre-foundation) assigned the depth field φ a NEUMANN seal BC (d_nφ=0) via a t→−t
+involution. **CORRECTED:** t→−t cannot act on a static φ; the native (spatial depth-mirror φ→−φ) seal
+gives **Dirichlet φ(r_s)=0** = the already-derived flux seal (Neumann would have zeroed q, destroying
+it). Sector split canonized C-2026-07-04-1 (σ_φ static / t→−t time-on). The old φ-Neumann wording is
+retired. Blind-verified (ad14fbc6898ee1930). Doc: `node05_seal_parity_regrade_results.md`.
+
 ## *** 2026-07-02 CHARLES RULING: THE EIGENMODE / BOX-CONTROL / MODE-SPECTRUM CORPUS IS CONDITIONS-CHANGED ***
 
 **Charles-authorized (2026-07-02): the entire eigenmode-spectrum / box-control negative line is
