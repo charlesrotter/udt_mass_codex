@@ -51,11 +51,19 @@ equation E^{AB}=−T^{AB}; the −2𝒦 φ-source survives off-round (CF5 doesn'
 area growth), multipoles in the h_AB SHEAR (no ℓ(ℓ+1) tower = a native GR-departure); geometric mass = Coulomb
 charge up to Z_φ; **CF1 (does it have a mass) stays OPEN — provably FINITE-AMPLITUDE ⇒ an N4 solve output.**
 **N3 ✓ RULED (Charles 2026-07-06):** frame **C(a) confirmed** (read-surface in bulk, NO private seal / boundary /
-mini-cell unless forced); report both masses, Z_φ open, CF1 open. **N4 → PRE-REGISTERED**
-(`H4_N4_backreaction_solve_preregistration.md`; the gated bounded solve computes CF1 sign+magnitude, CF2
-mass-sign, CF3 bulk-vs-core pinning; second-order/finite-amplitude mandatory; anti-hang binding).
-**NEXT = blind-verify the N4 pre-reg → then the N4 solve.** N5 ξ-anchor + q/η + i-flow/ℏ + J(s) still owed.
-Frontier detail in the two bullets below.
+mini-cell unless forced); report both masses, Z_φ open, CF1 open. **N4 ✓ DONE = OUTCOME D (tool-limited)**, blind-verified (`H4_N4_backreaction_solve_results.md`; solver
+a9073db162d6d6456, verifier af34ae7d0781fb7bd). SOLID: Phase-A reduction — the O(amp²) flux collapses to a LINEAR
+response (only δh⁽¹⁾ needed; δh⁽²⁾ drops as a total derivative) ⇒ **δm = −δq = (e^{−2φ₀}/4πZ_φ)⟨T, L⁻¹T⟩**, L an
+Euler-type operator (roots 1,2), sign-INDEFINITE; a genuine **native no-stress-only-shortcut** departure (φ-blind
+⇒ mass is irreducibly the geometric response, can't read it off a GR-style stress constraint). SOLID source:
+T^{AB} from the resolved field, compact-support (read-surface-independent), sectors **trace −90 / shear +139**
+(opposite signs = the phase1_geon negative-mass prime-risk structure); geometric mass +286.5 is a DIFFERENT object,
+does NOT settle the flux-mass. **CF1 LEANS δq≠0** (B/massless disfavored), **CF2 OPEN** (A +mass vs C −mass both
+live; sign NOT steered), **CF3 = D** (below the ~1% floor). The CF1/CF2 gap is response-solve BUDGET, not
+signal-below-noise. **NEXT (clean, bounded, completes N4 — NOT H5): the ℓ=0/ℓ=2 Euler Green's-function response
+solve δh⁽¹⁾=−L⁻¹T + contract ⟨T,L⁻¹T⟩ to CERTIFY CF1 / RESOLVE CF2 — MUST include the true-φ_amb correction
+(N2-owed shear exponent) + a box-control check (growing δh⁽¹⁾ ⇒ D).** N5 ξ-anchor + q/η + i-flow/ℏ + J(s) still
+owed. Frontier detail in the two bullets below.
 
 ### ↓ (This session's 2026-07-04→05 chronological arc — concentric ω≠0 reframe CLOSED → the hopfion route —
 ### was ARCHIVED out of LIVE 2026-07-05 to keep it lean. Full record: HANDOFF.md §2026-07-05 (RESUME HERE) +
