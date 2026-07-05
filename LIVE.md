@@ -83,11 +83,23 @@ B via raw g^{tt} = GR minimal-coupling import (trigger-#6 forbidden unless deriv
 B-branch φ-source is ALSO outer-shell-weighted, NOT "depth-enhanced/reaching the core" as the P16 agent
 narrated. BOTH branches' ω-help is outer-shell.** Deriver aba0399ef8316c9ce + driver §4.
 
-**➤ NEXT ACTION = bounded NODE-3 F4 test (Charles pre-authorized for P16-undecided; awaiting his ack of the
-sign-catch before first compute).** Both branches; 1-D; saved REAL φ(r) (E2b_*.pt exist); Nr≤16–24;
-Jacobi/Derrick ONLY; output = F4 classification {stabilizer works / too weak-depth-suppressed / no restoring
-term}; nail sign(φ_core) empirically at setup; NO nonlinear solve; no labels/masses/data; single process,
-no background-poll (ANTI-HANG).
+**➤ F4 TEST RAN (agent af93b818f5e61ddd4) → PROVISIONAL CLASS (2) "correctly-signed but too depth-suppressed,"
+UNIFORM 12/12 (3 cells × both P16 branches × 2 trial shapes). λ_min −72…−196, lifted only +0.15…+72 over
+[0,Ω²_ceil]; ω is genuinely restoring (λ_min rises) but ~10²× too weak vs the geometric depth-stiffness wall.
+Sign-catch CONFIRMED empirically (all φ_core<0). Branch A (depth-uniform) beats B (e^{2φ} core-suppressed)
+4–10× but still short. SCOPE: fixed-φ, trial-Θ — CANNOT see the raw-branch back-reaction (spin sourcing φ).**
+
+**➤ NEXT ACTIONS (order FIXED by Charles):**
+1. **F4 VERIFIER RUNNING (agent af716dcb8d5e75f6f):** attack the ansatz-break ceiling — is B=0/ergoregion
+   onset the genuine admissible ω-bound, or can ω go higher? + ceiling-independent: does λ_min(ω) EVER cross
+   0 for any ω? If ceiling holds ⇒ BANK F4 as: "passive fixed-background spin binding fails; ω correctly
+   signed + genuinely restorative but too depth-suppressed to overcome the core wall on saved real φ(r);
+   scoped to fixed-φ, 1-D Jacobi/Derrick, both P16 branches, no nonlinear solve." If ω can go higher ⇒ NOT bankable.
+2. **DO NOT jump to the coupled solve.** P16-RESOLUTION-FIRST is the gate. Contract FROZEN =
+   `p16_native_derivation_contract.md` (question + rules + A/B/C outcome defs + 5 frozen candidate resolution
+   principles). P16→A ⇒ active route closed, F4 CLASS(2) near-final, reframe. P16→B ⇒ coupled raw-branch MAP
+   (its own MAP before compute). P16→C ⇒ bracket both or zoom out, do NOT adopt B by convenience.
+3. Only AFTER P16 resolved: consider the coupled (φ,ρ,Θ,j,ω) raw-branch MAP.
 **J(s)-vs-data is frame-robust and NOT gated by the reframe** — still a NEW push (MAP scope + confirm
 with Charles; loads Cassini bounds; pre-register s-dependence, data never-retune). "Anytime" ≠ self-authorized.
 
