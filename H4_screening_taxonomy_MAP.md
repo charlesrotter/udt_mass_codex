@@ -7,6 +7,10 @@ flux-coupling math is checked. MAP agent a7623543a23c863bc; blind adversarial ve
 PASS; caught + corrected one headline over-reach — softened statement adopted below). Scripts:
 `h4_scripts/dsi_analysis.py`, `dsi_numeric.py`, `dsi_verify_running_ambient.py`.
 
+> **LABEL FIX (2026-07-06, revised-N4):** where this doc says "DEEP-P ambient ⇒ screened/oscillatory," the label is
+> BACKWARDS — oscillatory roots need φ_amb < ½ln(32/Z_φ) = **SHALLOW**; **DEEP = clean.** Physics (running ambient
+> W→0 ⇒ clean monopole recovered; artifact verdict) is UNCHANGED; only shallow/deep labels are corrected.
+
 ## ★ Headline (verified, verifier-softened)
 **The log-periodic / discrete-scale-invariant (DSI) far field is a FROZEN-COEFFICIENT ARTIFACT — NOT a native
 discreteness engine.** N4a's indicial analysis froze W₀=e^{−2φ_amb} as a constant (a legitimate *local* snapshot);

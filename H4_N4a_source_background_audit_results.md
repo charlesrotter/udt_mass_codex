@@ -8,6 +8,11 @@
 > screening is REFINED to *at most a MARGINAL LOGARITHMIC* (non-oscillatory, non-conserved-flux, physically-moot
 > for a finite cell) tail at strict r→∞ — NOT overturned. Net: the far field is *nearly* (not strictly)
 > branch-blind; the real branch fork is INTERIOR (active-P vs dead-G). See the taxonomy MAP for the full verdict.
+>
+> **LABEL FIX (2026-07-06, revised-N4 `H4_N4rev_...`):** below/elsewhere this doc says "DEEP ⇒ screened/oscillatory"
+> — that is BACKWARDS. Complex (oscillatory) roots need W₀=e^{−2φ_amb}>Z_φ/32 ⇔ **φ_amb < ½ln(32/Z_φ) = SHALLOW.**
+> So **SHALLOW = strong-screening/oscillatory; DEEP = clean.** The running ambient DEEPENS outward ⇒ clean recovered
+> at large r. Physics unchanged; only the shallow/deep labels are corrected.
 
 **Status: BANKED, blind-verified (2026-07-06). Outcome = FAIL (revise N4 before any response solve) + reclassify
 the banked N4 from D-budget to D-SOURCE-FRAME.** Audit agent a37ebac2cb6d74620; blind adversarial verifier

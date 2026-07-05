@@ -93,11 +93,22 @@ armchair, reduces to the revised-N4 solve. **switch ⇒ CF1 is ONE-WAY** (δq≠
 check). Character = **threshold × non-cancellation** conjunction, **NOT topology-forced** (Q_H spectator; the
 active-P lean via the toroidal turning-surface anchors is a FAIR LEAN, not a derivation — d2a dis-analogy +
 O(amp²) cancellation keep it open). Both outcomes first-class (active-P emergence particle vs dead-G massive
-flux-conductor; "conductor" ≠ "force"). **NEXT (Charles-gated compute): the REVISED-N4 solve** — rebuild the
-operator on the true φ_amb(r) WITH the +8e^{−2φ_amb}δφ screening term (never bare-Euler = spurious clean
-monopole), contract ½⟨T,L⁻¹T⟩ per ℓ=0/ℓ=2 sector for δq(sign+mag), + the δq=0-branch interior φ'-check; honor
-frame C(a)/isolation (no G|P wall at ℓ_hopf = retired cell). Settles CF1+CF2+CF3+the switch at once. N5 ξ-anchor
-(criticality E_ang=2) + q/η + i-flow/ℏ + J(s) still owed. Frontier detail in the two bullets below.
+flux-conductor; "conductor" ≠ "force").
+
+**REVISED-N4 SOLVE DONE (2026-07-06, blind-verified `H4_N4rev_conditional_mass_response_results.md`) = OUTCOME D
+(box-control) with a DERIVED cause + 2 robust physics findings.** L_bare (roots 1,2) has **NO decaying shear
+mode** ⇒ the hopfion's geometric response is **CELL-FILLING, not a localized halo** ⇒ **its mass is a WHOLE-CELL
+property, not a separable localized quantity** (no read-surface-independent δq(φ_amb) curve at finite frozen depth
+⇒ the frozen-const sweep is D). ROBUST: **(1) interior ACTIVE-P everywhere — a genuine dead-G is NOT reachable**
+(any apparent δq=0 is flux-neutral active-P; discharges the interior-φ' check); **(2) coupling-independent
+POSITIVE-mass SIGN lean (δm>0) ⇒ NEGATIVE-mass prime risk DISFAVORED** (leading-order lean, not certified);
+**(3) NON-PERTURBATIVE (ε≫1)** ⇒ perturbative machinery invalid for the MAGNITUDE. Caveats: Green's-fn numerics
+bug (magnitude ~8× off, SIGN robust, magnitude non-banked); shallow/deep LABEL FIX (SHALLOW=screened/oscillatory,
+DEEP=clean — N4a/taxonomy had it backwards; physics unchanged). **NEXT TOOL = a NON-PERTURBATIVE fully-coupled
+(φ+h_AB) solve on the running ambient φ_amb(r)≈½ln((8/Z_φ)ln r)** (not a flat box / wall / perturbative L⁻¹).
+**N5 IMPLICATION: "anchor φ_amb from the response curve" is UNDERCUT (no clean perturbative curve); N5 must drive
+the non-perturbative solve OR reframe the anchor around whole-cell criticality E_ang(core)=2 (mass = a whole-cell
+property).** q/η + i-flow/ℏ + J(s) still owed. Frontier detail in the two bullets below.
 
 ### ↓ (This session's 2026-07-04→05 chronological arc — concentric ω≠0 reframe CLOSED → the hopfion route —
 ### was ARCHIVED out of LIVE 2026-07-05 to keep it lean. Full record: HANDOFF.md §2026-07-05 (RESUME HERE) +

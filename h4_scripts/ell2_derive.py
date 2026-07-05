@@ -1,0 +1,23 @@
+import sympy as sp
+# O(amp^2) part of ell = -1/2 sin(th) a' bt' / sqrt(a bt), a=r^2+alpha, bt=r^2+beta.
+r,th=sp.symbols('r theta',positive=True); S=sp.sin(th); eps=sp.symbols('epsilon')
+al=sp.Function('alpha'); be=sp.Function('beta')
+a=r**2+eps*al(r); bt=r**2+eps*be(r)
+ell=-sp.Rational(1,2)*S*sp.diff(a,r)*sp.diff(bt,r)/sp.sqrt(a*bt)
+ser=sp.series(ell,eps,0,3).removeO()
+ell0=ser.subs(eps,0)
+ell1=sp.diff(ser,eps).subs(eps,0)
+ell2=sp.simplify(sp.diff(ser,eps,2).subs(eps,0)/2)
+print("ell0 =",sp.simplify(ell0))
+print("ell1 =",sp.simplify(ell1))
+print("ell2 =",sp.simplify(sp.expand(ell2)))
+# also the pure velocity-bilinear kernel B = -1/2 sin(th) alpha' beta'/ (r^2)  (a0 bt0 = r^4, sqrt=r^2)
+A1=sp.diff(al(r),r); B1=sp.diff(be(r),r)
+Bk=-sp.Rational(1,2)*S*A1*B1/(r**2)
+print("\nB kernel =",Bk)
+print("ell2 - B (should be total r-deriv):", sp.simplify(ell2-Bk))
+# check total-derivative: EL of (ell2-B) wrt alpha,beta should vanish
+def EL(L,f): return sp.diff(L,f)-sp.diff(sp.diff(L,sp.diff(f,r)),r)
+d=sp.simplify(ell2-Bk)
+print("EL_alpha[ell2-B]=",sp.simplify(EL(d,al(r))))
+print("EL_beta[ell2-B]=",sp.simplify(EL(d,be(r))))
