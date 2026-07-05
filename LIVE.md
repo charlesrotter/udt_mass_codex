@@ -30,12 +30,18 @@ discipline skills → INDEX.md (repo map).
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-05 EOD — N5 ARC CLOSED (ξ PARKED) + the SOLAR LIGHT-SECTOR PREDICTION SET COMPLETE (J(s) MAP + one-body DEFLECTION + one-body SHAPIRO, all blind-verified); NEXT = Charles's GO to load Cassini/VLBI data (gated data confrontation), or hold) ============
+## ============ CURRENT STATE (2026-07-05 EOD — N5 ARC CLOSED (ξ PARKED) + the SOLAR LIGHT-SECTOR ARC COMPLETE (predictions + DATA CONFRONTATION, all blind-verified): UDT PASSES the leading solar tests (γ=1); NEXT = Charles's call on the next thread) ============
 
-**➤➤ RESUME HERE / NEXT ACTION (2026-07-05): the solar-system LIGHT-SECTOR prediction set is COMPLETE + all
-blind-verified, DATA-BLIND. Next = CHARLES'S GO on the gated DATA CONFRONTATION — load Cassini/VLBI bounds and run
-the frozen ACCEPT/REJECT/BOUND against the predictions below (NO retuning), OR hold and pick up another owed thread
-(q/η; i-flow/ℏ). The data load is the separate gated step the whole no-retuning contract was built for.**
+**➤➤ RESUME HERE / NEXT ACTION (2026-07-05): the solar light-sector arc is COMPLETE — predictions derived +
+blind-verified AND the frozen DATA CONFRONTATION done + blind-verified (`solar_light_sector_confrontation_results.md`,
+verifier adb471c72a1f5b552). Next = Charles's call on the next thread (a structural one that can still DISCRIMINATE:
+the native charges q=1/3, η=1/18; or the i-flow/ℏ clock), or take stock.** ★ **CONFRONTATION RESULT: UDT PASSES the
+leading solar light tests — γ_UDT=1 (forced by form reciprocity, not fitted) sits 0.91σ from Cassini
+(γ−1=(2.1±2.3)e−5, Shapiro) and 0.67σ from VLBI (γ−1≈(−0.8±1.2)e−4). HONEST: this is a CONSISTENCY confirmation,
+NOT a discriminating test — γ=1 matches GR by construction, so UDT passes automatically (a theory with γ≠1 would be
+ruled out; UDT is not). The distinctive 9π/4-vs-15π/4 second-order departure is ~4.38 μas (deflection) / ~49 ps/leg
+(Shapiro), FAR below current reach ⇒ CANNOT be resolved now; a FUTURE ≲1-μas / tens-of-ps target. Solar tests bound
+the ONE-BODY γ sector, NOT the vacuum dial s (CF-CAT); only s=0 confronted.**
 ★ **THE PREDICTION SET (native, s=0 / Route A clean; GR as reference only):**
 - **DEFLECTION** (`one_body_null_deflection_results.md`, verifier a2a421e68678e4687): `Δα = 4(m̂/b) + (9π/4)(m̂/b)²` —
   γ_UDT=1 leading (MATCHES GR, passes the leading test automatically), second order **9π/4 vs Schwarzschild 15π/4**
