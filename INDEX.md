@@ -134,9 +134,10 @@ The CODE-COMPLETE static solver + its audited building blocks (all root; MUST st
   an EXPLORATION gate, not a code flaw).
 
 **Guardrail hooks / cross-check tooling:** `.claude/hooks/corral_trigger.py` + `.claude/settings.json` (the
-driver-trigger corral fires on Task/Bash/git-commit — pause+honesty, never merit) ·
-`legacy/root_oneoffs_2026-07-01/export_for_local_llm.py` (local-LLM cross-check export; refuses untagged DATED
-memory — archived 2026-07-01 with the other one-offs; restore to root if the cross-check is re-run). Record =
+driver-trigger corral fires on Task/Bash/git-commit — pause+honesty, never merit) · `export_for_local_llm.py`
+(local-LLM cross-check export; refuses untagged DATED memory — RESTORED to root 2026-07-05 so its
+`REPO=dirname(__file__)` resolves the live CLAUDE.md/LIVE.md/memory corral; it was inadvertently swept into
+`legacy/` in the 2026-07-01 consolidation, which broke that path resolution). Record =
 `cognitive_corral_triggers_results.md`.
 
 **Legacy tooling scripts — ARCHIVED 2026-07-01.** The ~510 `native_*.py` (+ `w*`, `phase*`, `d1_*`, `p1..p5*`,

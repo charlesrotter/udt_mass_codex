@@ -304,14 +304,16 @@ redirect (nonstationary weld sector / transfer ladder / ensembles).
 ## Orientation
 
 - **`LIVE.md` IS THE FIRST READ — the only guaranteed-current file** (frontier + next action). If
-  anything else disagrees with it, LIVE.md wins. Read order: **LIVE.md → the latest `PURSUIT_CHARTER_*.md` (successor-orientation doc, if present) →
-  CLAUDE.md "How we work" + "DRIVER TRIGGERS" + the `.claude/skills/` discipline skills → HANDOFF.md TOP
-  (detailed record) → INDEX.md (repo map).**
+  anything else disagrees with it, LIVE.md wins. Read order: **LIVE.md → a `PURSUIT_CHARTER_*.md` ONLY if a current
+  one exists for LIVE's arc (the latest, `PURSUIT_CHARTER_2026-07-04.md`, is SUPERSEDED by the hopfion/H4 arc —
+  skip it / mine for the traps list only) → CLAUDE.md "How we work" + "DRIVER TRIGGERS" + the `.claude/skills/`
+  discipline skills → HANDOFF.md TOP (detailed record; currently the post-LIVE orientation) → INDEX.md (repo map).**
 - **Current state / frontier / pending decision: DO NOT TRACK IT HERE — this file goes stale (a 2026-07-04
   dress rehearsal caught exactly this bullet describing an already-superseded "stability arc" frontier).**
-  The ONLY current sources are `LIVE.md` TOPMOST + the latest `PURSUIT_CHARTER_*.md`. CLAUDE.md is the
-  BINDING METHOD (principles 1-7, how-we-work, DRIVER TRIGGERS, repo discipline) — NOT the frontier. If you
-  want to know what's done / what's next, read LIVE + the charter, never this bullet. pytest 32/1xfail.
+  The ONLY current sources are `LIVE.md` TOPMOST + `HANDOFF.md` TOP (+ a `PURSUIT_CHARTER_*.md` ONLY if a current
+  one exists — the latest, 07-04, is SUPERSEDED). CLAUDE.md is the BINDING METHOD (principles 1-7, how-we-work,
+  DRIVER TRIGGERS, repo discipline) — NOT the frontier. If you want to know what's done / what's next, read LIVE +
+  HANDOFF TOP (the charter only if a current one exists), never this bullet. pytest 32/1xfail.
 - **SUBSUMED / HISTORICAL trackers (do NOT treat as the live frontier — moved to `archive/` or tagged):**
   COMPLETION_PROGRAM.md, SOLVER_COMPLETENESS_MAP.md, POST_POSTULATE_PROGRAM.md, MIGRATION.md, REORG_PLAN.md,
   and the FOUNDATIONAL_ASSUMPTIONS_LEDGER.md F0-F8 scoreboard — all superseded by the static-solver

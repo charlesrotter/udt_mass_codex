@@ -5,11 +5,13 @@ everything under the "↓↓↓ HISTORICAL ARC" / "SUPERSEDED" fences is labeled
 plan). `HANDOFF.md` / `STATE.md` are detailed history; **if they disagree with this file's CURRENT STATE block, the
 CURRENT STATE block wins.**
 **Read order (2026-07-05):** LIVE.md FRONTIER (this block — the RESUME-HERE directive at its TOP is the next
-action) → **HANDOFF.md TOP (2026-07-05 (PM) session record — H3=A + the full H4 arc + RESUME HERE)** → the H4 arc docs
-`H4_backreaction_mass_MAP.md`, `H4_N1_...`, `H4_N2_...`, `H4_N4_..._preregistration.md`,
+action) → **HANDOFF.md TOP (2026-07-05 (PM) session record — H3=A + the full H4 arc + RESUME HERE)** → the H4 arc
+docs `H4_backreaction_mass_MAP.md`, `H4_N1_offround_transverse_equation_results.md`,
+`H4_N2_farfield_reduction_results.md`, `H4_N4_backreaction_solve_preregistration.md`,
 `H4_N4_backreaction_solve_results.md`, `H4_N4a_source_background_audit_results.md`, `H4_screening_taxonomy_MAP.md`,
-`H4_GP_switch_hopfion_MAP.md`, `H4_N4rev_conditional_mass_response_results.md` (+ the H3 docs `node_H3_...`,
-`H3_..._preregistration.md`) → CLAUDE.md "How we work" + the discipline skills → INDEX.md (repo map).
+`H4_GP_switch_hopfion_MAP.md`, `H4_N4rev_conditional_mass_response_results.md` (+ the H3 docs
+`node_H3_hopfion_solve_results.md`, `H3_hopfion_solve_preregistration.md`) → CLAUDE.md "How we work" + the
+discipline skills → INDEX.md (repo map).
 
 ## Binding method (never skip)
 - CLAUDE.md "How we work": MAP / OBSERVE / PONDER are primary, DERIVE is gated. Let structure
