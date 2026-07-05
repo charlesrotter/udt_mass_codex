@@ -85,10 +85,19 @@ not overturned. **The taxonomy COLLAPSES from a 3-way far-field split to a 2-way
 interior (𝒦≠0 sources φ, emergence machinery ON) vs dead-G interior (source-free, holds geometric mass, conducts
 flux, no emergence).** Far-field mass is NEARLY branch-blind ⇒ **the G/P switch governs the INTERIOR, not the mass
 existence.** Pure-G flux-conduit native but "force" NOT established (no two-body interaction derived). Critical
-depth φ_amb^crit=½ln(32/Z_φ) (≈1.73 at Z_φ=1). **NEXT (Charles): return to option 1 = the G/P switch criterion for
-the hopfion — RE-AIMED at the interior question (does the hopfion core sit in active-P or dead-G; its S²-winding /
-toroidal angular geometry = candidate-switch (2)/(3) of the native-field-eq §10).** No mass compute meanwhile.
-Frontier detail in the two bullets below.
+depth φ_amb^crit=½ln(32/Z_φ) (≈1.73 at Z_φ=1). **G/P-SWITCH MAP for the hopfion (option 1) DONE (2026-07-06, blind-verified `H4_GP_switch_hopfion_MAP.md`).**
+The H4 program CONVERGES: **mass (CF1), pinning (CF3), and the dead-G/active-P emergence switch are the SAME
+question.** LOCALLY the hopfion core is active-P (derived: local 𝒦≠0 → −2𝒦 φ-source); GLOBALLY undecidable at
+armchair, reduces to the revised-N4 solve. **switch ⇒ CF1 is ONE-WAY** (δq≠0 ⟹ active-P EXACT; isolated dead-G ⟹
+δq=0; but a FLUX-NEUTRAL active-P is a live δq=0 outcome ⇒ the δq=0 branch needs an added INTERIOR φ'-flatness
+check). Character = **threshold × non-cancellation** conjunction, **NOT topology-forced** (Q_H spectator; the
+active-P lean via the toroidal turning-surface anchors is a FAIR LEAN, not a derivation — d2a dis-analogy +
+O(amp²) cancellation keep it open). Both outcomes first-class (active-P emergence particle vs dead-G massive
+flux-conductor; "conductor" ≠ "force"). **NEXT (Charles-gated compute): the REVISED-N4 solve** — rebuild the
+operator on the true φ_amb(r) WITH the +8e^{−2φ_amb}δφ screening term (never bare-Euler = spurious clean
+monopole), contract ½⟨T,L⁻¹T⟩ per ℓ=0/ℓ=2 sector for δq(sign+mag), + the δq=0-branch interior φ'-check; honor
+frame C(a)/isolation (no G|P wall at ℓ_hopf = retired cell). Settles CF1+CF2+CF3+the switch at once. N5 ξ-anchor
+(criticality E_ang=2) + q/η + i-flow/ℏ + J(s) still owed. Frontier detail in the two bullets below.
 
 ### ↓ (This session's 2026-07-04→05 chronological arc — concentric ω≠0 reframe CLOSED → the hopfion route —
 ### was ARCHIVED out of LIVE 2026-07-05 to keep it lean. Full record: HANDOFF.md §2026-07-05 (RESUME HERE) +
