@@ -70,6 +70,18 @@ un-gated). Method note: every H4 node got a blind verifier; verifiers caught a f
 revival risk (MAP), a smuggled-GR/dropped-screening term (N4a, reaching into doubly-verified N2), a dead discreteness
 lead (taxonomy), and a Green's-fn bug (revised-N4) — the corral working.
 
+**SESSION HOUSEKEEPING (2026-07-05 EOD; the memory changes are NOT git-tracked — this note is their durable
+record).** (a) Date fix: this session's H3-A + H4 arc were mis-stamped 2026-07-06 → corrected to 2026-07-05 across
+all docs. (b) Startup-doc tidy: archived the superseded H3-arc LIVE bullets + the AM/07-04 HANDOFF records to
+`archive/`/`HANDOFF_ARCHIVE.md`; INDEX frontier refreshed; MEMORY.md trimmed 25.6→23.9 KB (top entry 2820→1013
+chars) so the full index loads. (c) `export_for_local_llm.py` (local-LLM cross-check export gate) RESTORED from
+`legacy/` to root (its `REPO=dirname(__file__)` needs to be at root; committed). (d) **Memory freshness-tags added
+so the export gate is GREEN** (45 incl / 11 excl / allowed-lane present) — the gate needs a `**[CURRENT|DURABLE|
+SUPERSEDED|HISTORICAL]**` marker in each dated `type:project` memory body. Tags assigned (persisted on disk, NOT
+in git — restore them if the memory dir is ever rebuilt): `omega-reframe-map-frontier`=**CURRENT**;
+`native-field-equations-frontier`=**DURABLE**; `universe-cell-rigidity-frontier`, `embedded-cell-H-amb-frontier`,
+`d1-fix-and-matter-fork-resolved`=**SUPERSEDED**. (Other memory topic-files already carried tags.)
+
 > **(2026-07-05 record — the hopfion route R0→Q1→H1→H2→H3 — below; superseded as frontier by the H4 arc above.)**
 
 ## SESSION RECORD 2026-07-05 (AM) — ARCHIVED 2026-07-05 (EOD) → HANDOFF_ARCHIVE.md
