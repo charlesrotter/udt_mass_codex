@@ -83,23 +83,23 @@ B via raw g^{tt} = GR minimal-coupling import (trigger-#6 forbidden unless deriv
 B-branch φ-source is ALSO outer-shell-weighted, NOT "depth-enhanced/reaching the core" as the P16 agent
 narrated. BOTH branches' ω-help is outer-shell.** Deriver aba0399ef8316c9ce + driver §4.
 
-**➤ F4 TEST RAN (agent af93b818f5e61ddd4) → PROVISIONAL CLASS (2) "correctly-signed but too depth-suppressed,"
-UNIFORM 12/12 (3 cells × both P16 branches × 2 trial shapes). λ_min −72…−196, lifted only +0.15…+72 over
-[0,Ω²_ceil]; ω is genuinely restoring (λ_min rises) but ~10²× too weak vs the geometric depth-stiffness wall.
-Sign-catch CONFIRMED empirically (all φ_core<0). Branch A (depth-uniform) beats B (e^{2φ} core-suppressed)
-4–10× but still short. SCOPE: fixed-φ, trial-Θ — CANNOT see the raw-branch back-reaction (spin sourcing φ).**
+**➤ F4 TEST DONE + VERIFIED → NOT a CLASS(2) bank. UNDER-POWERED / ILL-POSED; existence UNDECIDED (standing
+frontier).** `node3_f4_test_results.md`. Verifier af716dcb8d5e75f6f (SUPPORTED-WITH-REVISIONS) hit Charles's
+target: (1) the "B=0 = ergoregion ceiling" is a GR MISCONCEPTION — g_tt=−c²e^{−2φ} is ω-INDEPENDENT, no
+ω-ergoregion; B=0 is the DESIRED Q-ball binding regime, not an ansatz break (a trigger-#6 import the test
+agent smuggled, verifier caught). (2) the fixed-trial Jacobi λ_min is off-stationary (grid/trial-dependent
+−63…−4e4) — not a valid stability statement. (3) REAL reason no window: the fixed-background reduced Θ-energy
+is UNBOUNDED BELOW in ω without a fixed Noether-charge Q constraint (Q-ball = extremum at FIXED Q, not a free
+min). SURVIVES: ω genuinely restoring on real φ; sign-catch φ_core<0 confirmed; λ_min never crosses 0 to 10⁶×
+(but rides non-stationary trial). **Net: ω-reframe NOT refuted, NOT shown to escape; passive instrument was
+wrong. Decisive test = fixed-Q coupled (φ,ρ,Θ,j,ω) solve, esp. raw P16-B — GATED behind P16.**
 
-**➤ NEXT ACTIONS (order FIXED by Charles):**
-1. **F4 VERIFIER RUNNING (agent af716dcb8d5e75f6f):** attack the ansatz-break ceiling — is B=0/ergoregion
-   onset the genuine admissible ω-bound, or can ω go higher? + ceiling-independent: does λ_min(ω) EVER cross
-   0 for any ω? If ceiling holds ⇒ BANK F4 as: "passive fixed-background spin binding fails; ω correctly
-   signed + genuinely restorative but too depth-suppressed to overcome the core wall on saved real φ(r);
-   scoped to fixed-φ, 1-D Jacobi/Derrick, both P16 branches, no nonlinear solve." If ω can go higher ⇒ NOT bankable.
-2. **DO NOT jump to the coupled solve.** P16-RESOLUTION-FIRST is the gate. Contract FROZEN =
-   `p16_native_derivation_contract.md` (question + rules + A/B/C outcome defs + 5 frozen candidate resolution
-   principles). P16→A ⇒ active route closed, F4 CLASS(2) near-final, reframe. P16→B ⇒ coupled raw-branch MAP
-   (its own MAP before compute). P16→C ⇒ bracket both or zoom out, do NOT adopt B by convenience.
-3. Only AFTER P16 resolved: consider the coupled (φ,ρ,Θ,j,ω) raw-branch MAP.
+**➤ NEXT ACTION = P16 NATIVE DERIVATION RUNNING (agent, per FROZEN contract `p16_native_derivation_contract.md`).**
+Deeper resolution of "does spin source φ?" (first note = C undecided/lean-A). A/B/C output + premise ledger;
+5 frozen candidate principles; NO GR import, report C rather than import. Gate: **P16→A** ⇒ active depth×spin
+route closed ⇒ reframe/zoom-out; **P16→B** ⇒ the fixed-Q coupled raw-branch solve = the decisive existence
+test, earns its own MAP before compute; **P16→C** ⇒ bracket both or zoom out, do NOT adopt B by convenience.
+DO NOT jump to the coupled solve before P16 resolves. Blind verifier before banking the P16 verdict.
 **J(s)-vs-data is frame-robust and NOT gated by the reframe** — still a NEW push (MAP scope + confirm
 with Charles; loads Cassini bounds; pre-register s-dependence, data never-retune). "Anytime" ≠ self-authorized.
 
