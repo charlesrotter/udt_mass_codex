@@ -747,3 +747,81 @@ strengthened two others (N=3, T-G1) — the discipline's best session. Chain, wi
    LIVE restructured (old layers → `archive/LIVE_stability_stageD_microphysics_arc_2026-07-03_04.md`);
    memory frontier cleaned. **Charles's directive: forks next, EMPHASIS FORK 3 (the route fork).**
 
+
+
+---
+
+# ARCHIVED from HANDOFF.md TOP on 2026-07-05 (EOD): the 2026-07-05(AM) hopfion-route + 2026-07-04 route-fork session records (superseded as frontier by the H4 arc)
+
+## SESSION RECORD 2026-07-05 (AM) (Opus — concentric ω≠0 arc CLOSED → HOPFION route R0→Q1→H1→H2→H3; H3 = PROVISIONAL-A) — superseded by the PM block above
+
+Charles directed step-by-step; every node committed + blind-verified before the next. Arc, in order (all on `main`):
+1. **Option-3 ruling:** static concentric A0 arc CHECKPOINTED (existence undecided/tool-limited, NOT nonexistence); main path = **3b ω≠0 angular reframe** (3a demoted). Constraint generator banked.
+2. **NODE 0.5** (`node05_...`, canon **C-2026-07-04-1**): seal parity re-grade → SECTOR SPLIT (spatial depth-mirror φ→−φ governs STATIC seal BCs; t→−t governs time-on). φ seal BC CORRECTED Neumann→**Dirichlet φ(r_s)=0**.
+3. **NODE 1** (`node1_...`): the seal is **ω-BLIND** (F1 doesn't fire) → discreteness relocated INTERIOR.
+4. **NODE 2/3 MAP** + **F4 test**: ω is a correctly-signed but depth-suppressed binding term; F4 fixed-background test was ILL-POSED (verifier caught a GR "ergoregion ceiling" import + unbounded-below-without-fixed-Q) → existence UNDECIDED, not CLASS(2).
+5. **P16** (canon **C-2026-07-05-1**): deeper derivation argued B (spin sources φ = founding hunch) → HARD verifier REFUTED B as smuggled GR minimal coupling → **C-lean-A: spin→φ NOT natively available** (conservative). Charles chose ZOOM-OUT.
+6. **REFRAME → the DEFECT frame → the HOPFION** (`microphysics_after_concentric_failure_MAP`, `native_hopfion_route_MAP`): **R0** (`node_R0_...`): bare π₂ defect = GLOBAL MONOPOLE, protected⇔delocalized, FAILS → redirect: native L2+L4 **IS the Faddeev–Skyrme model**, its soliton is the **π₃ HOPFION**. **Q1** native=FS exact. **H1** (`node_H1_...`) topology native on N=0 (SURVIVES-CONDITIONAL on √(κ/ξ)≪ρ; the cell isn't S³ but a localized hopfion makes its own S³ from the local ball — zero-net-flux, the same fact that evaded R0). **H2** (`node_H2_...`) charge ledger native: identity = **Q_H∈π₃(S²)=ℤ** (Hopf linking); D1 REINFORCED (N=3, structural-i=ω_H1=F=dA the field strength whose helicity is Q_H — Whitehead integral, NO gauge import); q/η stay OWED separately.
+7. **H3 PRE-REG** (`H3_..._preregistration`, blind-verified → revised: outcome-B was unreachable, fixed to compare ℓ_hopf vs core ρ_c). **H3 SOLVE** (`node_H3_...`, **PROVISIONAL-A**): virial-balanced (E2=E4 exact) Q_H=1 hopfion EXISTS; **ℓ_hopf≈1.1√(κ/ξ), ℓ_hopf/ρ_c ∝ 1/√ξ** (2-coupling confirmed). CAVEAT owed: energy ~16% high + relaxed-field Q_H≈0.79 not integer-certified = resolution-limited (NOT D/C). Charles ruled bank-provisional + handoff.
+
+**RESUME HERE (top next-session actions):** (1) blind verifier on H3 + finer-grid (N≳256) to close the ~16% energy gap & certify integer Q_H on the relaxed field → clean-bank H3; (2) **H4**: φ-backreaction (localized 𝒦→φ well; gravitation; **MASS**; the dynamical bulk-vs-core PINNING verdict) + a **ξ-anchor** (turns ℓ_hopf/ρ_c∝1/√ξ into a definite particle-vs-cell verdict); (3) still OWED: physical charges **q=1/3, η=1/18** (import-dependent, separate native re-derivation, NOT from Q_H) + the **i-flow/ℏ clock**; (4) **J(s)** light-deflection lever — durable, frame-robust, un-gated. Method note: every node this session got a blind adversarial verifier; verifiers caught TWO smuggled-GR imports (F4 ergoregion; P16 minimal coupling) + a rigged pre-registration outcome — the corral working.
+
+## SESSION RECORD 2026-07-04 (Opus — route fork R1/R2 → S²-regrade → E2c/E2d/E2e optimizer arc) — HISTORICAL
+> [→ RESOLVED in the 2026-07-05 record above: Charles ruled option-3 = **3b** (ω≠0 reframe); that arc CLOSED
+> the concentric frame and led to the hopfion route. Any "PENDING option-3 / THE next action" below is this
+> record's captured 07-04 moment, NOT live.]
+
+First session after Fable's model handover (the charter was written at that handover). Charles directed
+step-by-step; every result was committed + blind-verified before the next began. Arc, in order:
+1. **R1 — route-fork native derivation** (commit **40294ef**; verifier **a31db58f300da6011** 8/8 + 3
+   sharpenings). **VERDICT = FREE-ON-A-SHEET:** the forcing rule pins WEIGHTS, never coefficients; the
+   fork is the TWO-PARAMETER SHEET (Z_φ, μ) — Route A = the μ=0 edge (Z free), Route B = the single point
+   (8,2) conditional on 2 unforced CHOSEs (single-curvature-origin + c_L=1). **The ONE observable = s = 2μ/Z**
+   (vacuum-deformation exponent; A:0, B:½; clocks in μ≠0 vacuum slaved to areal radius, e^{−2φ} ∝ ρ^{2s};
+   observability EXACT). The mixing term IS a kinetic-level φ-angular coupling (areal growth drags depth —
+   the founding hunch, in the action). `r1_route_fork_native_derivation.md`.
+2. **R2 — s-dependence pre-registration + the FRAME FORK** (commit **3515f62**; verifier **a82dd36ef191768dd**,
+   26/26, corrected 2 over-reaches; reframe BLESSED by Charles). BANKED: s=2μ/Z = the ONE gauge-invariant
+   vacuum observable; **J(s) light-deflection = the frame-ROBUST confrontation lever** (J(0)=π, J(½)=4, O(s)
+   impact-parameter-independent; a bound s_max<½ kills Route B but not small-μ = NOT binary). The rotation-law
+   v²=s = PREMISE-CONDITIONAL (lives under g, killed only by the observationally-DEAD ĝ branch — NOT an
+   artifact). **ĝ-as-physical = REDUCTIO** (zero gravitational redshift vs GPS + zero orbits). ⇒ THE FRAME
+   FORK (which metric matter couples to; is matter-in-motion a worldline). `r2_prereg_s_dependence.md`.
+3. **S²-defect CONDITIONS-CHANGED re-grade** (commit **e3ec6b0**; verifier **aa3af5a01f70aa096**) —
+   triggered after Charles caught the driver leaning on the pre-field-equations S²-defect discovery
+   (2026-06-22, predates the native field equations 2026-07-01) without re-grading. Verdicts: A(S³=imported
+   provenance) + B(native S²/π₂ carrier) + D-negative(S13c: no R1-invariant worldline law) = CLEAN-CURRENT;
+   C-"scale-free" SUPERSEDED (L4 size √(κ/ξ)); C-stability + D-positive(matter-in-motion IS a field w/
+   dynamics) = STILL-OPEN, awaits the emergence program. The R2 frame fork stays OPEN; the point-particle-
+   worldline branch is UNDERCUT (leans matter-in-MOTION toward a field/defect-SOLUTION) but NO positive
+   verdict + does NOT select g vs ĝ. `regrade_S2_defect_2026-07-04.md` + NEGATIVES_REGISTRY entry. Discipline
+   reinforced: charter trap #11 + memory [[dont-lean-on-conditions-changed-until-regraded]].
+4. **E2c — optimizer hardening** (commit **c68d65d**; builder a366c26d, verifier **ab6305ce222eee961**;
+   **NO PHYSICS MOVED** — git diff insertions-only, residual byte-identical). The E2 0/256-undecided cause
+   was a near-EXACT TRANSLATION GAUGE of the boundary pair (ambient r-autonomy, cos=−1.000000); FIXED via
+   Ruiz two-sided equilibration (cond 5.7e11→1.9e7) + Powell dogleg trust region; certified converging from
+   boundary offsets ≥30 to ~5e-9 on 2 MMS (incl. a bulged one). Hardened driver = `lm_hardened` in
+   `cell_solver_composite.py`. `microphysics_E2c_optimizer_hardening_results.md`.
+5. **E2d — continuation+multistart driver** (commit **92af4e2**; builder adfcf1eea, verifier
+   **a5e1960b6f90b4686**; physics untouched to EXACT zero). `e2d_continuation_driver.py` certifies boundary
+   ≥30 + the deviation-field (u) axis ~0.3; combined-cell field axis UNCERTIFIED along Newton/fp homotopy =
+   COMPONENT SEPARATION (verifier-SCOPED to those homotopy families, NOT absolute — grid homotopy bridges
+   some ⇒ a connecting path EXISTS). Real sweep GATED OUT (honest STOP). `microphysics_E2d_resweep_A1Z8_results.md`.
+6. **E2e — physics-informed seed** (commit **ba31693**; verifier **a0205204484a1d48c**; physics
+   byte-identical to HEAD). The DERIVED-core seed (even fold + E_ang(core)=2, canon C-2026-07-03-3) CONTROLS
+   the boundary runaway (phys r_p bounded O(100–2000) vs flat O(1e7)) but does NOT crack the combined-cell
+   wall. Certification FAILED + scoped A1Z8 sweep = NULL (candidates:[], 8/8 coverage, both seed families).
+   **KEY FINDING: the combined-cell wall = EXTREME DEPTH-STIFFNESS** (residual 16.9 at field-distance 0.1,
+   homotopy folds at s~9e-4) — NOT seed distance. ⇒ EXISTENCE of static concentric A0 embedded cells UNDECIDED
+   (tool-limited; trap-#1 scoped: "not found from these seeds," NEVER "does not exist"). Three verified solver
+   rounds (E2c/E2d/E2e) localize the SAME depth-stiffness wall. `microphysics_E2e_physinformed_seed_results.md`.
+
+**PENDING = Charles's option-3 decision (presented 2026-07-04, AWAITING his call — THE next action):**
+**3a** = one more mechanism-matched solver idea (a DEPTH-STIFFNESS HOMOTOPY ramping core depth
+shallow→physical, untried, directly targets the diagnosed wall; cheap) · **3b** = pivot to the **ω≠0
+REFRAME** (Charles's founding φ-angular hunch; static concentric A0 may be the wrong frame; the pre-named
+escape) · **checkpoint** = bank the day, pick fresh. Driver lean: 3a once, 3b strongly queued if it fails —
+but the frame call is HIS. **Standing owed (unchanged):** J(s)-vs-data (frame-robust, proceeds ANYTIME);
+Charles's R1 flag (adopt single-curvature-origin premise? driver lean = decline); photon/EM-native re-grade
+(#47-pos/#50); R3 = Route-B universe cell; D4 = ω≠0; the other 5 D2 forks (charter §4); Bin-2 registry
+re-grades at point of use. **Durable win:** s=2μ/Z + J(s) light-deflection stand frame-independent.

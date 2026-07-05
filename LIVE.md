@@ -125,41 +125,18 @@ DEEP=clean — N4a/taxonomy had it backwards; physics unchanged). **NEXT TOOL = 
 the non-perturbative solve OR reframe the anchor around whole-cell criticality E_ang(core)=2 (mass = a whole-cell
 property).** q/η + i-flow/ℏ + J(s) still owed. Frontier detail in the two bullets below.
 
-### ↓ (This session's 2026-07-04→05 chronological arc — concentric ω≠0 reframe CLOSED → the hopfion route —
-### was ARCHIVED out of LIVE 2026-07-05 to keep it lean. Full record: HANDOFF.md §2026-07-05 (RESUME HERE) +
-### the `node_R0/_H1/_H2/_H3_*.md` + `native_hopfion_route_MAP.md` + `H3_hopfion_solve_preregistration.md`
-### result docs; the removed LIVE layered bullets are in git history. Canonical = those `node_*.md` docs.) ↓
+### ↓ (Both this session's chronological arcs are ARCHIVED out of LIVE to keep it lean — the CURRENT STATE block
+### above is the only frontier. (a) The 2026-07-04→05 concentric-ω≠0-reframe → hopfion-route arc: HANDOFF.md
+### §2026-07-05(AM) + `node_R0/_H1/_H2/_H3_*.md` + `native_hopfion_route_MAP.md`. (b) The H3=OUTCOME-A frontier
+### bullets (superseded by the H4 arc): `archive/LIVE_hopfion_H3_arc_2026-07-05.md`. Canonical = the `node_*.md`
+### / `H4_*.md` result docs. ↓
 
-
-**➤ H3 = OUTCOME A, blind-verified (`node_H3_hopfion_solve_results.md`; driver `drive_production.py`; verifier
-af9b56bc845e0eb97).** Native L2+L4 = flat-R³ Faddeev–Skyrme (φ-blind + ρ=r); a topology-preserving arrested-Newton
-minimizer + Derrick scale accelerator + coarse-to-fine ladder RESOLVES a **stable, localized, virial-balanced
-Q_H=1 hopfion**. Ladder: N=96 UNWINDS (Q→0, lattice pathology) → N=160 holds+converges (|Q|=0.985, E2/E4→1.00,
-Ehat=285.9) → N=224/L=7 box-independent (285.4) → N=256 grid-converged (|Q|=0.992, 286.5). Rescaler-OFF control:
-pure arrested-Newton KEEPS E2/E4≈0.99, |Q|=0.99 while descending ⇒ the balance is a genuine stationary point,
-NOT manufactured. Off-axis torus (⟨ρ⟩=1.28, core ring ρ≈1.17). ★ caveats: |Q|≈0.99 trending-to-1 not
-certified-to-3-digits; E2/E4=1.000 = rescaler snapshot vs ~0.99 true equil; absolute-vs-published-275 norm not
-established (all resolution-level, none touch existence). SCALING (analytic, unchanged): **ℓ_hopf≈1.1√(κ/ξ),
-ℓ_hopf/ρ_c ∝ 1/√ξ** (ξ FREE/data-blind ⇒ f(ξ)). [First solve a09b70a1539145abb → D (verifier a2199a0aa1218ddc0),
-correctly, on the Adam run it examined; production rerun overturns it.]
-
-**➤ TOP NEXT-SESSION ACTIONS (H3 = A banked; now → H4):**
-1. ~~Blind verifier + N≳256 A-vs-D rerun~~ BOTH DONE → **A** (see above). Optional precision closure (N≥320 /
-   spectral Q_H to certify integer |Q| to 3 digits; pin the rescaler-free equilibrium; confirm the literature
-   FS energy normalization) — NOT gating A.
-2. **H4 — the next physics, now on a NUMERICALLY-RESOLVED hopfion:** φ-BACKREACTION (the hopfion's localized
-   stress → indirect 𝒦→φ well; gravitation; **MASS**; the dynamical bulk-vs-core-PINNING verdict) + a ξ-ANCHOR
-   (turns ℓ_hopf/ρ_c∝1/√ξ into a definite particle-vs-cell verdict). ANTI-HANG binding.
-3. **H4:** φ-BACKREACTION (the hopfion's localized stress → indirect 𝒦→φ well; gravitation; MASS; the dynamical
-   bulk-vs-core-PINNING verdict) + a ξ-ANCHOR — turns ℓ_hopf/ρ_c∝1/√ξ into a definite particle-vs-cell verdict.
-4. Still OWED (H2): physical charges **q=1/3, η=1/18** (import-dependent, separate native re-derivation — NOT
-   from Q_H); the **i-flow/ℏ clock**. **J(s) light-deflection** still owed, frame-robust, un-gated.
-**J(s)-vs-data is frame-robust and NOT gated by the reframe** — still a NEW push (MAP scope + confirm
-with Charles; loads Cassini bounds; pre-register s-dependence, data never-retune). "Anytime" ≠ self-authorized.
-
-**PARKED pre-hopfion threads** (superseded AS FRONTIER by the hopfion arc but NOT resolved — detail:
-`archive/LIVE_route_fork_E2_arc_2026-07-04.md` + HANDOFF §2026-07-04; `PURSUIT_CHARTER_2026-07-04.md` = the
-traps list only): the durable **s=2μ/Z + J(s)** macro lever; **R3** = does the ladder survive a Route-B
+**STILL-OWED / PARKED THREADS (not the frontier, but not resolved — carry forward):** q=1/3, η=1/18 (native
+re-derivation, NOT from Q_H); the i-flow/ℏ clock; **J(s) light-deflection** (frame-robust, un-gated NEW push — MAP
+scope + confirm with Charles, loads Cassini bounds, pre-register s-dependence, data never-retune; "Anytime" ≠
+self-authorized). **Pre-hopfion parked threads** (superseded AS FRONTIER by the hopfion arc but NOT resolved —
+detail: `archive/LIVE_route_fork_E2_arc_2026-07-04.md` + HANDOFF_ARCHIVE §2026-07-04; `PURSUIT_CHARTER_2026-07-04.md` =
+the traps list only): the durable **s=2μ/Z + J(s)** macro lever; **R3** = does the ladder survive a Route-B
 universe cell; the other **5 D2 forks** (charter §4); **photon/EM-native re-grade** (#47-pos/#50); Charles's
 **R1 flag** (adopt single-curvature-origin premise? lean=decline); **Bin-2 registry re-grades** at point of
 use; destruction/black-holes PARKED post-emergence. (D4=ω≠0 was ADDRESSED this session → the ω≠0 reframe, closed.)
