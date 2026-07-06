@@ -37,13 +37,22 @@ are HISTORY the evening built on — see the HANDOFF (PM) block if needed.)
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-06 EOD-2 — N5d Stage-1 diagnosed + fixed (FIX-1/RegB/ρ²/2) + Stage-1 RETIRED for verdicts (frozen-source invalid) → Stage-2 co-relaxed matter DESIGNED + CAS COMPLETE + Gate-0 CLEARED; NEXT = Stage-2b IMPLEMENTATION) ============
+## ============ CURRENT STATE (2026-07-06 EOD-3 — N5d Stage-2b IMPLEMENTED + 8-test gate GREEN + blind-verified; NEXT = Stage-2 PILOT (separate Charles gate)) ============
 
-**➤➤ RESUME HERE / NEXT ACTION (2026-07-06 EOD-2): IMPLEMENT N5d Stage-2b (Charles-gated) — the co-relaxed π₂
-axisymmetric matter solver. Gate-0 is FULLY CLEARED + blind-verified; all formulas are pinned. This is a bounded
-CODE EDIT to `cell_solver_f2d.py` + 7 tests, NO pilot, NO verdict.** Read `n5d_stage2_corelaxed_matter_DESIGN.md`
-(the plan) + `n5d_stage2a_cas_results.md` (the derived equations, §1-8) + `n5d_stage2b_gate05_report.md` (the
-λ=−½ coupling resolution). **THE PINNED FORMULAS (all CAS + blind-verified):**
+**➤➤ RESUME HERE / NEXT ACTION (2026-07-06 EOD-3): the co-relaxed π₂ Stage-2b solver is now IMPLEMENTED in
+`cell_solver_f2d.py` (commit `6a0ac15`), the 8-test gate is GREEN (`tests/test_n5d_stage2.py`; pytest 67/1xfail),
+and the code is BLIND-VERIFIED against the pinned formulas at machine precision (independent numpy reference,
+random off-round state — incl. the off-round f-PDE chain-rule terms + the λ=−½ sign/factor). NEXT is the Stage-2
+PILOT, a SEPARATE Charles gate (do NOT run it unprompted): a bounded coupled S-Dir solve to READ pin-or-continuum
+for the ℓ=2 axisymmetric π₂ tile. Per DESIGN §8 the pilot is allowed only with: FIX-1-equilibrated conditioning
+manageable at a STRUCTURED (not collapsed-degenerate) state + a clean premise ledger + Charles's explicit go.
+ANTI-HANG binding (Nr≤16/24, ONE foreground process, NEVER background-poll). TOPOLOGY: π₂ tile ONLY — a CONVERGED
+pilot is at most an S-Dir TILE LEAD (SCOPED, with premise set), NEVER Outcome A/B for the π₃ hopfion (open premise
+for Charles). Status throughout: DESIGN / PROVISIONAL / Outcome D.**
+
+**What Stage-2b implemented (all pinned, CAS + blind-verified — the historical build reference below is retained):**
+Read `n5d_stage2_corelaxed_matter_DESIGN.md` + `n5d_stage2a_cas_results.md` (§1-8) + `n5d_stage2b_gate05_report.md`
+(λ=−½). **THE PINNED FORMULAS (all CAS + blind-verified; now LIVE in `cell_solver_f2d.py` `fields()`/`H_of_r()`):**
 - **Off-round f-PDE** (Stage-2a §1, λ-free, matches base at s=0): `A/f_r = ξρ²sinθ + κN²sin²f·e^{s}/sinθ`;
   `B/f_θ = ξ·e^{−s}·sinθ + κN²sin²f/(ρ²sinθ)`; `pot = (N²sinf cosf/sinθ)[e^{s}(ξ+κf_r²) + κf_θ²/ρ²]`; `s = a2(r)P2(μ)`.
 - **Live shear source** (REPLACES the frozen `Tshear`/`src`): `Tshear_live = −(ρ²/4)·T_s` with
@@ -56,12 +65,15 @@ CODE EDIT to `cell_solver_f2d.py` + 7 tests, NO pilot, NO verdict.** Read `n5d_s
   INSIDE the θ-integral: I_θ×e^{−s}, I_s×e^{s}, I_4r×e^{s}; I_r, I_4θ unchanged) − 2. → base H at s=0.
 - **Frozen `stress_profiles.npz`: RETIRED from the residual** (embedding audit §4d/§4g invalidated it for verdicts);
   keep only as an OPTIONAL initial-guess seed. **S-Dir = first well-posed tile; S-JC2 constant-a2 null UNCHANGED (no FIX-2).**
-**TESTS before any pilot** (`n5d_stage2_corelaxed_matter_DESIGN.md §7`): round-limit (s=0→base byte-identical) ·
-φ-blindness · self-stress (source = −(ρ²/4)T_s) · rigid hedgehog (T_s(L2)=0 @ s=0,f=θ,N=1) · no-flat-source ·
-Hseal round-limit · preflight (square, finite Jac, both BCs, FIX-1 on, bounded, one foreground process). **ANTI-HANG
-binding. NO finite-L target/penalty/barrier/anti-collapse/fitted-scale/mass-anchor. TOPOLOGY: π₂ tile ONLY — CANNOT
-bank Outcome A/B for the π₃ hopfion question (open premise for Charles).** After 2b tests green: Stage-2 PILOT is a
-SEPARATE gate (Charles). Status: DESIGN/PROVISIONAL/Outcome D throughout.
+**TESTS (DONE — GREEN, `tests/test_n5d_stage2.py`, 8 required gates as 12 functions):** round-limit (s=0→base
+byte-identical) · φ-blindness · self-stress (source = −(ρ²/4)T_s, NOT +(ρ²/2)) · rigid hedgehog (T_s(L2)=0 @
+s=0,f=θ,N=1) · no-flat-source (residual byte-unchanged with npz/source_interp disabled) · Hseal round-limit ·
+K=1/5 pin (H shear kinetic ↔ φ-correction) · preflight (square, finite Jac, both BCs, FIX-1 on, bounded, one
+foreground process). Also updated: `test_n5d_roundlimit` (rigid null), `test_n5d_offround` (live-source φ-blind),
+`test_n5d_pullback` (frozen src/Tshear now a SEED helper, guarded OUT of the residual). **ANTI-HANG binding. NO
+finite-L target/penalty/barrier/anti-collapse/fitted-scale/mass-anchor. TOPOLOGY: π₂ tile ONLY — CANNOT bank
+Outcome A/B for the π₃ hopfion question (open premise for Charles).** Stage-2 PILOT = SEPARATE Charles gate (above).
+Status: DESIGN/PROVISIONAL/Outcome D throughout.
 **Do NOT run `branchGP` (fenced wrong frame).**
 **COMMIT + PUSH discipline (binding, standing): commit per logical milestone (the residual edit, then each test as
 it passes) AND `git push origin main` in the SAME step as every commit** (Charles 2026-07-06 — never leave commits
