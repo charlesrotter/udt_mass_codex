@@ -213,9 +213,10 @@ Concentric ω≠0 embedded-cell frame closed; a UDT particle reframed as a nativ
 - Hopfion chain: **`node_R0_defect_coherence_results.md`** (π₂ monopole fails → hopfion redirect) ·
   **`node_H1_hopfion_compactification_results.md`** (topology native) ·
   **`node_H2_charge_ledger_results.md`** (charge = Q_H; D1 reinforced) ·
-  `H3_hopfion_solve_preregistration.md` + **`node_H3_hopfion_solve_results.md`** (PROVISIONAL-A: hopfion
-  EXISTS; ℓ_hopf≈1.1√(κ/ξ); ℓ_hopf/ρ_c∝1/√ξ; precision closure + blind verifier OWED).
-- NEXT: H3 precision closure → **H4** (backreaction/mass/pinning + ξ-anchor); q/η + i-flow/ℏ + J(s) still owed.
+  `H3_hopfion_solve_preregistration.md` + **`node_H3_hopfion_solve_results.md`** (→ OUTCOME A, blind-verified:
+  a stable localized virial-balanced Q_H=1 hopfion; ℓ_hopf≈1.1√(κ/ξ); ℓ_hopf/ρ_c∝1/√ξ).
+- LED TO (all now DONE — HISTORY): H4 backreaction/mass arc (revised-N4=D, whole-cell mass) → N5/ξ (parked) →
+  solar light sector (γ=1) → q=1/3 no-selector → i-flow/ℏ. (q=1/3 & η=1/18 native re-derivation still owed.)
 
 ## 2026-07-03/04 arc (stability rulings → Stage-D → microphysics re-entry → D1/D2 → the route fork) [SUPERSEDED as frontier by the 07-05 hopfion arc]
 - **PURSUIT_CHARTER_2026-07-04.md** — the prior model-handover orientation (fork-3 program; traps) — SUPERSEDED as frontier.
