@@ -396,8 +396,30 @@ def seed_n5d(ctx, a2_amp=0.0, **kw):
 # LEVENBERG-MARQUARDT SOLVE (Nielsen gain-ratio damping = trust-region line search);
 # Jacobian by torch.func.jacrev. Method mined from newton_solve_p1 (glm path).
 # =========================================================================================
+def _col_scale(J, eps=1e-300):
+    """CATEGORY-A column scale VECTOR dc so that J @ diag(dc) has ~unit column 2-norms.
+    COLUMN scaling only, because for a SQUARE root-finding (Newton/LM) system column scaling is an
+    exact change of variables u = diag(dc) y -- the objective Phi=||F||^2 and the fixed point F=0 are
+    INVARIANT -- whereas ROW-scaling the least-squares objective reweights the equations and produces
+    steps that reduce a *row-weighted* residual instead of the true Phi (empirically it stalled the
+    coupled solve).  This scaling in particular lifts the under-scaled L column (col-norm ~1e3 vs the
+    field columns ~1e7) found in the N5d conditioning diagnosis.  The huge 2nd-derivative ODE rows are
+    handled NOT by row-scaling but by solving the damped step with lstsq (QR/SVD) instead of the normal
+    equations J^T J (which would square the condition number)."""
+    cn = torch.linalg.norm(J, dim=0).clamp_min(eps)
+    return 1.0 / cn
+
+
 def newton_lm_solve(u0, ctx, prm, wbc=1.0, maxit=30, lam0=1e-3, tol=1e-13,
-                    verbose=True, time_budget=110.0, n5d=None):
+                    verbose=True, time_budget=110.0, n5d=None, equilibrate=True):
+    """LM solve.  equilibrate=True (default, FIX-1): the damped LM step is computed with COLUMN scaling
+    (objective-preserving; lifts the under-scaled L column) via a stacked damped least-squares solved by
+    lstsq -- this AVOIDS forming the normal equations J^T J (whose condition number is cond(J)^2 ~ 1e30
+    and is what made the linear solves rank-deficient), so the huge 2nd-derivative ODE rows no longer
+    corrupt the step.  equilibrate=False reproduces the ORIGINAL normal-equations path byte-for-byte.
+    In BOTH cases the residual/BCs/source/readouts are UNCHANGED and acceptance/convergence are judged
+    on the TRUE unscaled residual Phi=||F||^2 (the linear-model predicted reduction is likewise the
+    true-objective one), so FIX-1 changes the numerics of the STEP only, never the physics or the root."""
     import time
     from torch.func import jacrev
     t0 = time.time()
@@ -411,11 +433,25 @@ def newton_lm_solve(u0, ctx, prm, wbc=1.0, maxit=30, lam0=1e-3, tol=1e-13,
         J = jacrev(resfn)(u).detach()
         F = resfn(u).detach()
         JT = J.transpose(0, 1)
-        Hm = JT @ J; g = JT @ (-F); dH = torch.diag(Hm)
+        if equilibrate:
+            dc = _col_scale(J)                             # column scale (objective-preserving)
+            Jc = J * dc[None, :]                           # unit-ish columns; ROWS keep their true weight
+            dHc = (Jc * Jc).sum(0).clamp_min(1e-300)       # diag(Jc^T Jc) ~ 1 (Marquardt col damping)
+            zpad = torch.zeros(J.shape[1], dtype=J.dtype, device=J.device)
+        else:
+            Hm = JT @ J; g = JT @ (-F); dH = torch.diag(Hm)
         accepted = False
         for _try in range(30):
             try:
-                dx = torch.linalg.solve(Hm + lam * torch.diag(dH), g)
+                if equilibrate:
+                    # damped LM step via stacked least-squares (no normal equations => no cond squaring):
+                    #   min_dy || [Jc; sqrt(lam) diag(sqrt(dHc))] dy - [-F; 0] ||   (rows UNweighted)
+                    aug = torch.cat([Jc, (lam ** 0.5) * torch.diag(dHc.sqrt())], dim=0)
+                    rhs = torch.cat([-F, zpad], dim=0)
+                    dy = torch.linalg.lstsq(aug, rhs).solution
+                    dx = dc * dy                            # unscale the step (exact change of variables)
+                else:
+                    dx = torch.linalg.solve(Hm + lam * torch.diag(dH), g)
             except Exception:
                 lam = min(lam * nu, 1e12); nu *= 2.0; continue
             un = u + dx
@@ -423,7 +459,11 @@ def newton_lm_solve(u0, ctx, prm, wbc=1.0, maxit=30, lam0=1e-3, tol=1e-13,
                 Fn = resfn(un); Pn = float((Fn * Fn).sum())
             except Exception:
                 Pn = float("inf")
-            pred = float((dx * (lam * dH * dx + g)).sum())
+            if equilibrate:
+                # predicted reduction of the TRUE objective by the linear model at this dx (scale-free)
+                pred = Phi - float(((F + J @ dx) ** 2).sum())
+            else:
+                pred = float((dx * (lam * dH * dx + g)).sum())
             rho_gain = (Phi - Pn) / pred if (pred > 0.0 and math.isfinite(Pn)) else -1.0
             if rho_gain > 0.0:
                 u = un; F = Fn.detach(); Phi = Pn
@@ -433,7 +473,7 @@ def newton_lm_solve(u0, ctx, prm, wbc=1.0, maxit=30, lam0=1e-3, tol=1e-13,
         hist.append(Phi)
         if verbose:
             print(f"  [f2d-lm] it={it:3d} Phi={Phi:.6e} lam={lam:.2e} "
-                  f"{'acc' if accepted else 'STALL'}", flush=True)
+                  f"{'acc' if accepted else 'STALL'}{' [eq]' if equilibrate else ''}", flush=True)
         if not accepted:
             break
     return u.detach(), hist
