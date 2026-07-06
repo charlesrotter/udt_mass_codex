@@ -1,3 +1,9 @@
+> **CONDITIONS-CHANGED (2026-07-06 pre-native-era census) — NOT current native-micro canon; premise-scoped.**
+> Rode the PRE-NATIVE Branch-P SCALAR-TENSOR operator (f=e^{2φ}, X=−2e5); superseded 2026-07-01 by the native
+> constrained-two-player operator (EH-empty, φ-blind matter, geometric 𝒦). NEGATIVES_REGISTRY #66. Its CONCLUSION
+> (no interior localization) is FRAME-ROBUST — the native-operator depth/size node #76 finds the round Branch-P
+> vacuum a continuum too; cite #76 for the native statement. See pre_native_era_census.md.
+
 # Branch-P solver floor + X-continuation — solver INTEGRITY arc + the X premise + no static localization
 
 **Driver:** Claude (Opus 4.8, 1M). **Dates:** 2026-06-23/24. **Mode:** OBSERVE, DATA-BLIND.
