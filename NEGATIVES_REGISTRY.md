@@ -2149,3 +2149,31 @@ question, NOT walled by this negative. Doc: microphysics_E1_composite_closure_re
    virial identity is E₂=E₄, which carries NO ξ-bound. #75 LOSES blocking authority for the C(a) hopfion until
    re-graded; it remains fully in force WITHIN its own premise set (round-static, concentric, rigid-N=1 carrier,
    source-free Class-A seal). ***
+
+## Native readout-map — DEPTH/SIZE node (Branch P, 2026-07-06, blind-verified)
+
+**#76 — The native Branch-P φ-angular sector, as posed (ROUND metric + perturbatively-coupled
+hopfion), leaves particle SIZE and DEPTH CONTINUOUS — it does NOT pin ξ/size.** In autonomous
+form (t=ln r) the EXACT operator `Z_φ(r²φ')'=4e^{−2φ}` is `φ_tt+φ_t=(4/Z_φ)e^{−2φ}` = a unit-
+friction particle in a MONOTONE runaway potential (force sign-definite >0, e^{−2φ} kept exact) ⇒
+φ rises monotonically from the even-core rest point to the odd flux seal for a CONTINUOUS range of
+φ_c<0; radial-node count ≡0, no turning point, no closure remains to pin φ_c or the size. The
+bulk equation is exactly SCALE-INVARIANT (absolute size a free modulus). The hopfion RIDES
+(λ*~√(κ/ξ) rides free ξ,κ; solve(E₂=E₄,ξ)→∅); mass = flux = M = q = Z_φρ_s²φ'(r_s) is a
+CONTINUOUS whole-cell response (L_bare=r²f''−2rf'+2f roots {1,2}, no decaying mode ⇒ cell-filling
+shear not a localized halo). PREMISE SET: exact native geometric-𝒦 operator (source e^{−2φ}, NOT
+the archived scalar-tensor e^{+2φ}); ONE cosmic cell, hopfion as CONTENT, NO private particle
+cell/seal (frame C(a)); whole-cell BCs (even core φ'=ρ'=0 values-free; odd flux seal φ(r_s)=0,
+φ'(r_s) FREE ⇒ q an OUTPUT); ξ,κ,Z_φ,φ_c FREE (z_CMB anchor NOT imported, data-blind); ROUND
+reduction (h_AB=r²Ω FROZEN); hopfion coupled PERTURBATIVELY. Verifier ae3142d4ba6d9e825 re-derived
+the autonomous form + re-ran a 2000-sample shooting hunt (no non-monotone/node/turning case) +
+CAS-checked the K-signs and L_bare roots. SCOPE / BLOCKING AUTHORITY: this SHARPENS (does NOT
+re-confirm) the prior continuum negatives #34/#39/#52/#54/#66 — they rode a DIFFERENT operator
+(EH "vacuum=GR" / scalar-tensor e^{+2φ}), imported S³ matter, a pinned X=−2e5, or a PRIVATE cell;
+this is the first characterization on the correct native operator + whole cosmic-cell BCs. The
+negative is a FROZEN-DOF (solver-completeness) verdict, NOT a metric verdict and NOT a mechanism:
+it does NOT extend to the OFF-ROUND regime (the transverse shear h_AB is frozen here). Native
+discreteness that DOES exist (topological Q_H∈ℤ; the D2b depth-N ladder) is a LABEL/depth
+structure ORTHOGONAL to the continuous mass-scale. The exclusive route to size/mass discreteness =
+the off-round shear DOF (candidate mechanisms: sign-changing 𝒦 well; TT h_AB tensor eigenproblem),
+settled only by the gated non-perturbative N5d solve. Doc: native_readout_map_depth_size_results.md.

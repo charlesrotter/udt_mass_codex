@@ -35,8 +35,15 @@ are HISTORY the evening built on — see the HANDOFF (PM) block if needed.)
 
 ## ============ CURRENT STATE (2026-07-05 EOD — N5 (ξ PARKED) + SOLAR LIGHT-SECTOR (γ=1) + D1 CHARGE-CHANNEL MAP + NO-SELECTOR THEOREM + i-FLOW/ℏ-CLOCK MAP all done/blind-verified; NEXT = Charles's call / take stock) ============
 
-**➤➤ RESUME HERE / NEXT ACTION (2026-07-06 — take stock; open-lead (a) now CLOSED, see the ★ readout-map entry
-directly below): Charles's call.** All FIVE 2026-07-05 evening arcs (N5/ξ · solar light sector · D1 charge-channel ·
+**➤➤ RESUME HERE / NEXT ACTION (2026-07-06 — two readout-map nodes banked today; the ONE live physics door is now
+the gated N5d off-round coupled solve): Charles's call.** Today's second node (depth/size, ★ below) converts the
+long-standing "continuum" into a SHARP claim: the round Branch-P vacuum is PROVABLY a continuum (size + depth free);
+the hopfion RIDES it (mass = continuous whole-cell flux); native discreteness exists only as ORTHOGONAL LABELS
+(topological Q_H, D2b depth-N). The ONLY surviving route to particle size/mass discreteness is the FROZEN off-round
+shear DOF (h_AB) — reachable only by the gated non-perturbative **N5d** solve (φ+h_AB coupled, finite-amplitude 𝒦,
+running ambient; ANTI-HANG binding, Nr≤16–24, one process; Charles-gated; H4 compute STOPPED). Deciding whether to
+OPEN N5d is the live fork. **Prior state:** open-lead (a) [q=1/3 channel selector] CLOSED earlier today (★ selector
+entry below).** All FIVE 2026-07-05 evening arcs (N5/ξ · solar light sector · D1 charge-channel ·
 no-selector theorem · i-flow/ℏ) PLUS the 2026-07-06 readout-map selector audit are BANKED + blind-verified + pushed;
 **H4 compute STILL STOPPED** (the gated non-perturbative N5d solve was NOT opened). **OPEN LEADS:** (a) **CLOSED
 2026-07-06** — no target-selector for q=1/3 is derivable from ANY of the four named native sources (seal · spin ·
@@ -48,6 +55,24 @@ general readout-map's LIVE axis is now DEPTH/SIZE discreteness (Branch P `Z_φ(r
 survives for magnitude-not-channel) — a distinct node Charles may open. q=1/3 & η=1/18 remain OWED targets. Do NOT
 re-open a closed arc without a new premise. *(This directive is the ONLY current next-action; the per-result ★ blocks
 below are the banked summaries — they do NOT carry their own live "NEXT".)*
+
+**★ NATIVE READOUT-MAP — DEPTH/SIZE NODE (Branch P) (2026-07-06, BANKED + blind-verified,
+`native_readout_map_depth_size_results.md`, verifier ae3142d4ba6d9e825) — PRIMARY OUTCOME C, banked B-separation,
+sharp D-pointer.** Second axis of the readout-map (⊥ the closed channel axis). FIRST characterization on the CORRECT
+native operator (`Z_φ(r²φ')'=4e^{−2φ}`, source = geometric 𝒦, e^{−2φ} EXACT — the archived `e^{+2φ}` scalar-tensor
+form is a superseded different equation; prior continuum negatives #34/#39/#52/#54/#66 rode wrong operators / imported
+S³ / pinned-X / private cells ⇒ this is FRESH, not a re-tread). **The bulk equation is exactly SCALE-INVARIANT ⇒ any
+discreteness must be a whole-cell closure, not a bulk spectrum.** Node A (rigorous, verifier re-ran 2000-sample
+shooting): in autonomous form `φ_tt+φ_t=(4/Z_φ)e^{−2φ}` = a MONOTONE runaway (force sign-definite) ⇒ φ monotone,
+node-count ≡0, no turning point ⇒ the round vacuum is a CONTINUUM (size R + depth φ_c both FREE; r_s/r_c, q continuous
+outputs). Node B: the hopfion RIDES (λ*~√(κ/ξ) rides free couplings, `solve(E₂=E₄,ξ)→∅`); mass = flux = M = q =
+Z_φρ_s²φ'(r_s), a CONTINUOUS whole-cell response (L_bare roots {1,2}, no decaying mode ⇒ cell-filling shear not a
+localized halo). **⇒ C: Branch P does NOT pin particle size/ξ as posed.** Banked B-SEPARATION: the discreteness that
+DOES exist (Q_H∈ℤ, D2b depth-N) is a LABEL/depth structure ORTHOGONAL to the continuous mass-scale. D-POINTER: the one
+FROZEN DOF (off-round transverse shear h_AB) is the exclusive route to size/mass discreteness — two candidate
+mechanisms (sign-changing 𝒦 well; TT h_AB tensor eigenproblem), settled only by the gated **N5d** solve. Solver-first
+(frozen DOF, NOT a metric verdict, NOT a mechanism); SCOPED to the round+perturbative corner, off-round UNENTERED.
+Registry: SHARPENS (does not re-confirm) the prior continuum negatives; ξ stays a FREE family (consistent, N5 arc).
 
 **★ NATIVE READOUT-MAP — TARGET-SELECTOR AUDIT (2026-07-06, BANKED + blind-verified,
 `native_readout_map_selector_audit_results.md`, verifier aa75efc94282e7099) — OUTCOME B (solve-independent), C-form
