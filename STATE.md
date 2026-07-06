@@ -1,4 +1,5 @@
-> **⚠ STALE FRONTIER — this is a historical lab-log; the live frontier is `LIVE.md` + `PURSUIT_CHARTER_2026-07-04.md`.**
+> **⚠ STALE FRONTIER — this is a historical LAB-LOG; the live frontier is `LIVE.md` ONLY** (then `HANDOFF.md`
+> TOP). *(`PURSUIT_CHARTER_2026-07-04.md` is itself SUPERSEDED by the hopfion/H4 arc — do not treat it as frontier.)*
 > **[FRONTIER STALE (confirmed 2026-07-01) — the whole top-of-file frontier here is superseded (it pre-dates the native-frame
 > derivation + return-to-solver phase); LIVE.md is the current frontier. This file is a running LAB-LOG kept as history only.]**
 
