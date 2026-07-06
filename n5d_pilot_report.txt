@@ -1,0 +1,38 @@
+N5d Stage-1 PILOT REPORT  (frozen hopfion source + live ell=2 shear + exact phi)
+==============================================================================
+
+SEAL BC: S-Dir   (Nr=16 Nth=8 lmax=2 maxit=30 budget=100.0s)
+  wall=1.25s  throughput_limited=False  reached_target=True (amp=1.0)
+  final_Phi=8.1001e-05  converged=False  CLOSED_CELL_EXISTS=False
+  q_raw=2.5448e-08  Pi_phi=2.0359e-07  sign_convention=-1  M_readout=-2.5448e-08
+  H_seal=-5.5783e-03  H_drift=1.191e-07  Derrick_residual=+1.792e-02
+  jac_cond=4.175e+15  jac_shape=[177, 177]
+  phi_node_count=0  reduced_source_turning_points=1  (sign_changes=1)
+  shear_core_bc_res=-3.974e-04  shear_seal_bc_res=+4.968e-03  a2_seal=+4.9677e-03  a2_peak|.|=5.1401e-03
+  continuation:
+    amp=0.10  Phi 1.096e+01->3.370e-03  iters=30  wall=0.55s
+    amp=0.25  Phi 2.074e-01->5.808e-04  iters=30  wall=0.72s
+    amp=0.50  Phi 5.681e-01->2.362e-04  iters=30  wall=0.9s
+    amp=0.75  Phi 5.680e-01->1.132e-04  iters=30  wall=1.07s
+    amp=1.00  Phi 5.681e-01->8.100e-05  iters=30  wall=1.25s
+
+SEAL BC: S-JC2   (Nr=16 Nth=8 lmax=2 maxit=30 budget=100.0s)
+  wall=0.88s  throughput_limited=False  reached_target=True (amp=1.0)
+  final_Phi=4.1029e-04  converged=False  CLOSED_CELL_EXISTS=False
+  q_raw=-4.0513e-08  Pi_phi=-3.2411e-07  sign_convention=-1  M_readout=4.0513e-08
+  H_seal=-6.3763e-03  H_drift=1.117e-07  Derrick_residual=+9.133e-03
+  jac_cond=9.203e+16  jac_shape=[177, 177]
+  phi_node_count=0  reduced_source_turning_points=3  (sign_changes=4)
+  shear_core_bc_res=+9.328e-03  shear_seal_bc_res=-9.337e-03  a2_seal=+5.2337e-06  a2_peak|.|=1.9107e-05
+  continuation:
+    amp=0.10  Phi 1.096e+01->8.532e-03  iters=30  wall=0.18s
+    amp=0.25  Phi 2.156e-01->1.226e-03  iters=30  wall=0.35s
+    amp=0.50  Phi 5.709e-01->8.224e-04  iters=30  wall=0.53s
+    amp=0.75  Phi 5.708e-01->5.570e-04  iters=30  wall=0.7s
+    amp=1.00  Phi 5.706e-01->4.103e-04  iters=30  wall=0.87s
+
+BC-FORK (sec.4 banking rule):
+  S-Dir closed_cell=False   S-JC2 closed_cell=False
+  -> if the two DISAGREE the result is CONDITIONAL, not a pin (do NOT bank Outcome A unless the branch survives the shear-BC fork or the fork is resolved canonically first).
+
+static, Branch P, block-diagonal, ell=2 axisymmetric shear, FROZEN source, whole cosmic cell -- a continuum here is B for THIS TILE only; a pin is an A-CANDIDATE (needs higher-ell + co-relaxed source + shear-BC-fork survival).

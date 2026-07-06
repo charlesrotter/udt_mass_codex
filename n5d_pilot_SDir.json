@@ -1,0 +1,136 @@
+{
+  "sealbc": "S-Dir",
+  "Nr": 16,
+  "Nth": 8,
+  "lmax": 2,
+  "maxit": 30,
+  "budget_s": 100.0,
+  "a2_seed": 0.001,
+  "a2_mirror": 0.0,
+  "continuation_amps": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "seed_L0": 1.0,
+  "wall_s": 1.25,
+  "throughput_limited": false,
+  "continuation_steps": [
+    {
+      "amp": 0.1,
+      "Phi_start": 10.955421706749792,
+      "Phi_final": 0.003370374050835715,
+      "iters": 30,
+      "decreased": true,
+      "wall_s": 0.55
+    },
+    {
+      "amp": 0.25,
+      "Phi_start": 0.20739230410519713,
+      "Phi_final": 0.0005808180619243056,
+      "iters": 30,
+      "decreased": true,
+      "wall_s": 0.72
+    },
+    {
+      "amp": 0.5,
+      "Phi_start": 0.5681239575446728,
+      "Phi_final": 0.0002361636731082475,
+      "iters": 30,
+      "decreased": true,
+      "wall_s": 0.9
+    },
+    {
+      "amp": 0.75,
+      "Phi_start": 0.5680209831666673,
+      "Phi_final": 0.0001131587479831873,
+      "iters": 30,
+      "decreased": true,
+      "wall_s": 1.07
+    },
+    {
+      "amp": 1.0,
+      "Phi_start": 0.568061016747805,
+      "Phi_final": 8.100064579632678e-05,
+      "iters": 30,
+      "decreased": true,
+      "wall_s": 1.25
+    }
+  ],
+  "final_amplitude_reached": 1.0,
+  "reached_target": true,
+  "final_Phi": 8.100064579632678e-05,
+  "converged": false,
+  "closed_cell_exists": false,
+  "diagnostics": {
+    "q_raw": 2.5448147181680078e-08,
+    "Pi_phi": 2.0358517745344063e-07,
+    "sign_convention": -1.0,
+    "M_readout": -2.5448147181680078e-08,
+    "H_seal": -0.005578287194985876,
+    "H_drift_maxmin": 1.1905634433873047e-07,
+    "derrick_Sa": 0.008986565434953124,
+    "derrick_Sb": -0.008936557745620872,
+    "derrick_residual": 0.017923123180573996,
+    "jac_cond": 4174959115760691.5,
+    "jac_smin": 5.1888987914407365e-08,
+    "jac_shape": [
+      177,
+      177
+    ],
+    "phi_node_count": 0,
+    "reduced_source_turning_points": 1,
+    "reduced_source_sign_changes": 1,
+    "shear_core_bc_residual": -0.00039741462818381883,
+    "shear_seal_bc_residual": 0.004967660687608356,
+    "a2_seal": 0.004967660687608356,
+    "a2_peak_abs": 0.005140056391821512
+  },
+  "premise_ledger": {
+    "xi": "FREE (probed family)",
+    "kappa": "FREE-units",
+    "Z_phi": "CHOSE=8 (Route-A carrying Route-B number)",
+    "source": "FROZEN H3-hopfion ell=2 sh2(r) (ledgered)",
+    "source_registration": "CHOSE: sampled at seed length L0, clamped outside support",
+    "shear_seal_BC": "CHOSE-provisional (S-Dir); BOTH run, dependence reported",
+    "ell": "SCOPED: ell=2-only pilot (higher-ell = flagged blind-spot)",
+    "a2_mirror": "CHOSE=0 (round mirror value for S-Dir)"
+  },
+  "scope_stamp": "static, Branch P, block-diagonal, ell=2 axisymmetric shear, FROZEN source, whole cosmic cell -- a continuum here is B for THIS TILE only; a pin is an A-CANDIDATE (needs higher-ell + co-relaxed source + shear-BC-fork survival).",
+  "source_status": {
+    "frozen_npz": "/home/udt-admin/udt_mass_codex/h4_scripts/stress_profiles.npz",
+    "hopfion_npz": "/home/udt-admin/udt_mass_codex/hopfion_arc_scripts_2026-07-05/prod_an256.npz",
+    "found": true,
+    "keys": [
+      "rc",
+      "tau0",
+      "sh0",
+      "Trr0",
+      "tau2",
+      "sh2"
+    ],
+    "hopfion": {
+      "exists": true,
+      "Q": 0.9916887894742381,
+      "E": 286.51626685146164,
+      "E2": 143.21939576768284,
+      "E4": 143.2968710837788,
+      "Ngrid": 256,
+      "xi": 1.0,
+      "kappa": 1.0,
+      "is_h3_hopfion": true
+    },
+    "source_rc_range": [
+      0.046875,
+      5.953125
+    ],
+    "sh2_range": [
+      -3.318965323480435,
+      12.45524491550169
+    ],
+    "n_source_pts": 64
+  },
+  "Nr_fallback_if_throughput_limited": 12
+}
