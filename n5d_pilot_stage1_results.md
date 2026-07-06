@@ -1,5 +1,10 @@
 # N5d Stage-1 Pilot — Results (TOOL-LIMITED / Outcome D; NO A/B banked)
 
+> **⚠ SUPERSEDED as a plan (2026-07-06 EOD-2):** the "DIAGNOSE + fix the conditioning" next-step below was DONE
+> (near-null = numerical/L-collapse artifact, not a soft mode → FIX-1/RegB/ρ²/2) and Stage-1's frozen flat source
+> was then RETIRED for verdicts (frame-invalid, embedding audit). The live frontier is **Stage-2 co-relaxed
+> matter** — see `LIVE.md` TOP + `n5d_stage2_corelaxed_matter_DESIGN.md`. This doc is the historical Stage-1 record.
+
 **Date:** 2026-07-06 · **Driver:** Claude Opus 4.8 (1M) · run foreground, bounded, from build `84287b6`.
 **Scope (ONE tile):** static, Branch P, block-diagonal, **frozen H3-hopfion source + live ℓ=2 shear + exact φ**,
 whole cosmic cell, BOTH seal BCs (S-Dir, S-JC2). Command:

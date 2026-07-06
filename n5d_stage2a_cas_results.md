@@ -25,8 +25,9 @@ axisymmetric (∂_ψf=0). `L2 = (ξ/2)[f_r² + f_θ²/h_θθ + N²sin²f/h_ψψ]
 - **Live shear source** (the residual addend beside `E_s_geom`), `T_s = T^θ_θ − T^ψ_ψ` (Hilbert
   `T^{AB}=(2/√h)δS_m/δh_AB`, repo convention):
   `T_s = (ξ/ρ²)[N²e^{s}sin²f/sin²θ − f_θ²e^{−s}] + (κN²/ρ²) f_r² e^{s} sin²f/sin²θ`,
-  `Tshear_live = δS_m/δs / sinθ = (ρ²/2)·T_s
-   = (1/(2sin²θ)) e^{−s}[ κN²e^{2s}sin²f f_r² + ξ(N²e^{2s}sin²f − f_θ²sin²θ) ]`.
+  `Tshear_live = δS_m/δs / sinθ = (ρ²/2)·T_s`  **[⚠ NAIVE-HILBERT value — SUPERSEDED: the IMPLEMENTABLE source
+   is `−(ρ²/4)·T_s` (×λ, λ=−½, Gate-0.5). T_s itself and its sign are correct.]**
+   `= (1/(2sin²θ)) e^{−s}[ κN²e^{2s}sin²f f_r² + ξ(N²e^{2s}sin²f − f_θ²sin²θ) ]` (this is the ×(ρ²/2) form; multiply by λ=−½ for the residual).
 - **ρ-EOM matter force** (pointwise): `δS_m/δρ = ξρ f_r² sinθ − κN²sin²f f_θ²/(ρ³sinθ)` — **s-independent**
   (the e^{±s} cancel in ∂/∂ρ); its θ-integral is exactly the base moment combination `ξρI_r − κN²I_4θ/ρ³`.
   (The base ρ-EOM's `e^{2φ}/4` prefactor is the GEOMETRIC normalization, not a matter φ-coupling — carries over.)
@@ -59,7 +60,9 @@ axisymmetric (∂_ψf=0). `L2 = (ξ/2)[f_r² + f_θ²/h_θθ + N²sin²f/h_ψψ]
   e^{−s} on the ξ-B term).
 - **T_s formulas: SIGN-FLIPPED.** CAS: `cand_T_s(L2) + derived_T_s(L2) = 0` ⇒ the design candidates were the
   NEGATIVE of the correct T_s under the repo's Hilbert `T^{AB}=(2/√h)δS_m/δh_AB` convention. **The correct
-  residual addend is `+(ρ²/2)T_s` with T_s as in §1 (= `Tshear_live`).** The magnitude/ρ²-power were right; the
+  residual addend is `+(ρ²/2)T_s` with T_s as in §1 (= `Tshear_live`)** [⚠ SUPERSEDED by Gate-0.5 → the
+  IMPLEMENTABLE addend is `−(ρ²/4)T_s`; the Hilbert-convention value here still carries the wrong matter→geo
+  coupling factor λ]. The magnitude/ρ²-power were right; the
   overall sign was wrong. (This is exactly the kind of error the CAS gate exists to catch.)
 
 ## 5. Safe to gate implementation next?
@@ -78,7 +81,8 @@ off-round action using its own sympy. Result (identical to §1): `T_s = [N²(κf
 e^{−s}/(ρ²sin²θ)`; **sign relation = PLUS**, `δS_m/δs − (ρ²sinθ/2)T_s = 0` exactly (the MINUS relation leaves a
 nonzero remainder); rigid check `T_s(L2)|_{s=0,f=θ,N=1} = 0`. Script `h4_scripts/n5d_stage2a_blind_ts_sign.py`.
 ⇒ **the §1/§4 corrected T_s and its sign are BLIND-VERIFIED; the design-doc candidate (flipped) is REJECTED.**
-The residual addend is `+(ρ²/2)T_s` with T_s as derived. (Load-bearing sign now independently confirmed.)
+The residual addend is `+(ρ²/2)T_s` with T_s as derived **[⚠ this ρ²/2 is the NAIVE-HILBERT value; the
+IMPLEMENTABLE source is `−(ρ²/4)T_s` — ×λ, λ=−½, Gate-0.5. The SIGN of T_s (the blind-verified part) is correct.]**.
 
 ## 8. FOLLOW-UP Part B — off-round H / transversality audit (2026-07-06)
 
