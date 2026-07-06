@@ -30,13 +30,11 @@ discipline skills → `HANDOFF.md` TOP (current activity) → `CANON.md` / `NEGA
 → this INDEX → the specific records. The file-immutability rule is **REPEALED** (Charles 2026-06-24): use git
 as git — edit in place, roll back via history.
 
-**CURRENT FRONTIER (2026-07-05 — LIVE.md TOPMOST is authoritative; read it first):** the concentric ω≠0
-embedded-cell frame was CLOSED (P16 canon C-2026-07-05-1: spin→φ NOT natively available). A UDT particle is
-reframed as a native **Faddeev–Skyrme HOPFION** — native L2+L4 IS the Faddeev–Skyrme model; charge = Hopf
-linking **Q_H∈π₃(S²)=ℤ** (D1 REINFORCED). Armchair chain R0→Q1→H1→H2 blind-verified; the H3 solve is
-**PROVISIONAL-A** (hopfion EXISTS; ℓ_hopf≈1.1√(κ/ξ), ℓ_hopf/ρ_c∝1/√ξ; precision closure + blind verifier
-OWED). **NEXT = H3 precision closure → H4 (backreaction/mass/pinning + ξ-anchor). See the "2026-07-05 arc"
-section below + LIVE.md.**
+**CURRENT FRONTIER: see `LIVE.md` TOPMOST (authoritative) + this file's line-1 header + the "2026-07-05 EVENING
+arc" section below.** (No frontier narrative is kept HERE — a second frontier block goes stale, per CLAUDE.md's
+orientation rule. As of 2026-07-05 EVENING: N5/ξ CLOSED (ξ parked) + solar light sector (UDT passes γ=1) +
+no-selector theorem (q=1/3 unforced) + i-flow/ℏ (structural i native, ℏ not derived), all blind-verified; the
+hopfion reframe + H3=A + full H4 arc it builds on are DONE — HISTORY, in the arc sections below.)
 **FOUNDATION it builds on (prior arcs — DURABLE, no longer frontier):** universe cell SOLVED (flux-sealed;
 integer ladder N=0..22; Stage-D blind-predicted 13/13; universe = N=0 ground state, canon C-2026-07-03-1/-2/-3;
 core = even fold at finite depth, C-2026-07-03-3). D1: N=3 + algebra + structural-i native; q=1/3/η=1/18 =
