@@ -1,3 +1,8 @@
+> **CONDITIONS-CHANGED (2026-07-06 second-pass sweep, LOW RISK) — NOT a native-micro UDT result.**
+> Full-stack time-live WIRING on the PRE-NATIVE frame B (a(φ)=−1 GR baseline); its ω=0 limit reproduces the P3
+> frame-B soliton (itself CONDITIONS-CHANGED). Infrastructure value survives; the frame-B soliton anchor does not
+> transport to the native operator (EH-empty, φ-blind matter). See branch_operator_contamination_ledger.md.
+
 # P4 — Time Live: Turn On the Live Time Row in the Everything-On Solver
 
 **Mode:** BUILD + OBSERVE (the everything-on solver, EVERYTHING_ON_SOLVER_BUILD_MAP.md §III, P4).

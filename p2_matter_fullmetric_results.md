@@ -1,3 +1,10 @@
+> **CONDITIONS-CHANGED (2026-07-06 second-pass sweep, LOW RISK) — corrects a prior CLEAN mis-certification.**
+> Runs on the PRE-NATIVE frame B (resE = G^μν − kap8·T^μν, a(φ)=−1 frozen) — the everything-on P-series
+> (self-contained solver, no branch_operator import → slipped the first sweep's frame-A grep). It banks only
+> off-diagonal-wiring machinery (category-A) + a LINEAR-level off-diagonal-sourcing observation; the round-S²
+> soliton anchor is EXPLICITLY deferred to P5 (NOT delivered here), so no native-micro soliton/mass positive is
+> banked. Low risk, but the frame is superseded (2026-07-01 native operator). See branch_operator_contamination_ledger.md.
+
 # P2 -- the native matter equation, 3-D and off-diagonal-aware: results
 
 **Phase:** P2 of the everything-on solver (EVERYTHING_ON_SOLVER_P2_MAP.md).

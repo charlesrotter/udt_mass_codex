@@ -1,3 +1,8 @@
+> **CONDITIONS-CHANGED (2026-07-06 second-pass sweep) — NOT a native-micro UDT result; mine for history.**
+> Fixes the running-a(φ) source-weight coefficient in P3 — but the a(φ)=e^{+φ} matter weight itself is RETIRED by the
+> 2026-07-01 native operator (matter is φ-BLIND; a(φ)/e^{2φ}-weighted matter is non-native). Same everything-on
+> frame-B arc as p3_aphi_coupling. Mine for history. See branch_operator_contamination_ledger.md.
+
 
 ---
 

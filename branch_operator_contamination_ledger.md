@@ -54,7 +54,7 @@ building blocks reused by the assembly) + `check_winding_survival.py` (kap8 save
 
 ---
 
-## 2. FULL re-grade table (all 16 pre-native native-micro docs)
+## 2. Re-grade table — first pass, docs 1–16 (EXTENDED to 20 by the second pass; see §2b)
 
 | # | Doc | Pre-native frame | Native-micro claim | Already registry-handled? | Action (2026-07-06) |
 |---|---|---|---|---|---|
@@ -76,10 +76,35 @@ building blocks reused by the assembly) + `check_winding_survival.py` (kap8 save
 | 16 | `matter_object_identity_native_vs_import_results.md` | re-derivation/armchair (refs e^{2φ} weight) | covariance/topology (operator-independent, SURVIVE) | YES — object-identity + 07-04 per-sub-claim | in-file SUPERSEDED stamp (pointer only) |
 
 **CLEAN (did NOT route through a pre-native operator; NO stamp needed):** `native_dilation_weight_derivation`,
-`F0_SYSTEMATIC_AUDIT`, `p2_matter_fullmetric`, `p5_solver_survey`, `native_readout_map_depth_size_results.md`
-(#76 — runs on the CORRECT native operator `Z_φ(r²φ')'=4e^{−2φ}`), and the entire recent armchair/CAS arc
-(J(s) deflection/Shapiro, N5a/N5b, D1 charge-channel, no-selector, i-flow/ℏ). grep for `branch_operator` /
-`p1_residual` / `branchGP` returns 0 in each.
+`F0_SYSTEMATIC_AUDIT`, `p5_solver_survey`, `native_readout_map_depth_size_results.md`
+(#76 — runs on the CORRECT native operator `Z_φ(r²φ')'=4e^{−2φ}`), the DERIVATION docs
+(`udt_field_equations_derivation`, `udt_gravity_sector_rederivation`, `F2_closure`, `angular_lagrangian` — DERIVE/
+OBSERVE-CAS, no solve), and the entire recent armchair/CAS arc (J(s) deflection/Shapiro, N5a/N5b, D1 charge-channel,
+no-selector, i-flow/ℏ). **NOTE: `p2_matter_fullmetric` was struck from CLEAN by the second-pass sweep — see rows 17–20.**
+
+## 2b. SECOND-PASS CORRECTION (2026-07-06) — the everything-on P-series (frame B), a SECOND undercount
+
+The first pass (§2) undercounted AGAIN, by the same pattern that missed kap8: it keyed CLEAN-certification on the
+**frame-A (scalar-tensor) import chain** (`grep branch_operator / p1_residual / branchGP → 0`). But the everything-on
+**P-series (P2/P3/P4)** uses SELF-CONTAINED **frame-B (EH-era)** solvers (`p2_round_s2_solver.py`, `p3_*`,
+`p4_time_live.py`; `a(φ)=−1`, `G=kap8·T`, `vacuum=GR`) that DON'T import `branch_operator` — so a frame-A grep sails
+past them. P1 was flagged (row 15) but its P2/P3/P4 siblings were missed; p2 was affirmatively MIS-certified CLEAN.
+Caught by the mandated second adversarial pass. Root-cause fix: completeness must enumerate **BOTH** frames
+(frame-A scalar-tensor AND frame-B EH-era self-contained solvers), keyed on "ran a coupled solve + banked a
+native-micro claim", not on an import fingerprint.
+
+| # | Doc | Pre-native frame | Native-micro claim | Prior status | Action (2026-07-06 second pass) |
+|---|---|---|---|---|---|
+| 17 | `p3_aphi_coupling_results.md` | **frame B** (EH-era, vacuum=GR, a(φ) weight) | **YES — coupled round soliton exists + M_MS mass table** (studies the now-non-native a(φ)=e^{+φ} weight) | UNFLAGGED, absent from §2 | **CONDITIONS-CHANGED** in-file stamp (substantive) |
+| 18 | `p3_aphi_FIX_results.md` | frame B (a(φ) running-weight fix) | running-a(φ) coefficient fix (a(φ) weight now non-native) | UNFLAGGED, absent | CONDITIONS-CHANGED stamp (sibling) |
+| 19 | `p4_time_live_results.md` | frame B (a(φ)=−1 GR baseline) | time-live WIRING; ω=0 == the P3 frame-B soliton | UNFLAGGED, absent | CONDITIONS-CHANGED stamp (LOW RISK; soliton = P3's) |
+| 20 | `p2_matter_fullmetric_results.md` | frame B (`resE=G−kap8·T`, a=−1 frozen) | off-diag wiring (cat-A) + linear off-diag-sourcing OBSERVE; **soliton anchor explicitly DEFERRED to P5 (not delivered)** | **MIS-CERTIFIED CLEAN by §2** | CONDITIONS-CHANGED stamp (LOW RISK); struck from CLEAN |
+
+**RESIDUAL ZONE (owed, not yet swept — flagged for Charles):** the very-early **W-series** (w5/w8, 2026-06-11/12)
+predates even frame A/B and ran its own early coupled/catalog solvers; `w8` self-labels "CONTINUUM; the lead
+withdrawn". Also any **script-only** frame-A/B solve whose output lives only in `.py`/`.json` (no `_results.md`).
+Neither is confirmed contaminated OR confirmed clean — a date-based enumeration (every coupled-solve result doc
+2026-06-11→07-01) would close it. Not swept this pass; awaiting a scope decision.
 
 ---
 
@@ -89,6 +114,10 @@ building blocks reused by the assembly) + `check_winding_survival.py` (kap8 save
   native-micro identification that rode the scalar-tensor operator at X=−2e5. This is the miss the first
   pass overlooked. Now QUARANTINED (NEGATIVES_REGISTRY #77, banner on the doc). NO blocking authority as a
   native-micro result until re-run on the native operator.
+- **SECOND-PASS ADDITIONS (§2b):** the everything-on **P2/P3/P4** arc (frame B, self-contained EH-era solvers)
+  was missed by the first pass's frame-A grep — p3 banks a frame-B soliton+mass (substantive), p2/p4 low-risk,
+  all now CONDITIONS-CHANGED-stamped; p2 struck from CLEAN. No new QUARANTINE (kap8 remains the only one). The
+  undercount happened TWICE via the same fingerprint gap — root-cause fix recorded in §2b; residual W-era zone owed.
 - **The rest were already registry-tagged** (object-identity 2026-06-21 / #65 / #66 / 2026-07-04 re-grade /
   this sweep) but lacked in-file stamps — 9 in-file SUPERSEDED stamps + the #66 CONDITIONS-CHANGED note added
   so none is mis-cited as native-micro.

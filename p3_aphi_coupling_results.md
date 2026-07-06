@@ -1,3 +1,10 @@
+> **CONDITIONS-CHANGED (2026-07-06 second-pass supersession sweep) — NOT a native-micro UDT result; mine for history.**
+> Ran a fully-coupled round solve on the PRE-NATIVE EH-era frame B (G^μν=8πe^{(a+1)φ}T^μν, curvature UNCHANGED,
+> vacuum=GR) — the everything-on P-series (self-contained solver, no branch_operator import, so it slipped the first
+> sweep's frame-A grep). It banks a frame-B soliton (exists + converges) with an M_MS mass table AND studies the
+> a(φ)=e^{+φ} MATTER WEIGHT — both retired by the 2026-07-01 native operator (EH-empty; matter is φ-BLIND, so the
+> a(φ) weight is non-native). Re-run on the native operator before use. See branch_operator_contamination_ledger.md.
+
 # P3 -- the a(phi) matter-coupling CAPABILITY: results
 
 **Phase:** P3 of the everything-on solver (EVERYTHING_ON_SOLVER_BUILD_MAP.md, premise
