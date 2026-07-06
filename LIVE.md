@@ -30,7 +30,19 @@ discipline skills → INDEX.md (repo map).
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-05 EOD — N5 (ξ PARKED) + SOLAR LIGHT-SECTOR (UDT passes γ=1) + D1 CHARGE-CHANNEL MAP + NO-SELECTOR THEOREM all done/blind-verified; NEXT = Charles's call (i-flow/ℏ clock? does a native selector come from NEW physics only? Zρ_s² anchor?) ) ============
+## ============ CURRENT STATE (2026-07-05 EOD — N5 (ξ PARKED) + SOLAR LIGHT-SECTOR (γ=1) + D1 CHARGE-CHANNEL MAP + NO-SELECTOR THEOREM + i-FLOW/ℏ-CLOCK MAP all done/blind-verified; NEXT = Charles's call / take stock) ============
+
+**★ i-FLOW / ℏ-CLOCK MAP (2026-07-05, BANKED + blind-verified, `i_flow_hbar_clock_MAP.md`, verifier
+a847ba3e0429d6c4a) — OUTCOME 7: structural i is NATIVE, ℏ is NOT derived.** Structural i = J_n(v)=n×v
+(J²=−1 on T_nS²), ω Kähler-compatible — CAS-exact, a property of the target. The i-flow = the free orientation
+zero-mode / target-U(1) collective coordinate (from the no-selector audit). Its native time-live action is a
+SECOND-ORDER rigid rotor ½Iθ̇² (I=∫(ξe^{2φ}/c²)|∂_θn|²√g, positive, FREE ∝ξ) with **NO native first-order
+Berry/Wess-Zumino/symplectic term** — three convergent lines: absent from L2+L4 (#49), rotor Berry connection=0
+(#53), phase is t→−t-odd (seal-projection NODE-1 open) + the only continuous θ-term ∫F∧F≡0 (ω∧ω=0 on S²) ⇒ no ℤ
+theta-angle. **The "area form ⟹ ℏ" shortcut is REFUTED** (a symplectic FORM ≠ a symplectic SCALE; Q_H∈ℤ is a
+count, not an action). Verifier hunted the flip point (G^t_r momentum constraint, linear in ω) hard → a first-class
+constraint giving O(ω²) renormalization of I, NOT a symplectic term (no Outcome 6). Quantizing the rotor still
+needs an EXTERNAL ℏ (postulate A). DERIVES (not merely parks) the F6 gap. CF-3/4/5/6 fire; CF-1/2 do not.
 
 **★ NO-SELECTOR THEOREM (2026-07-05, BANKED + blind-verified, `no_selector_audit_results.md`, verifier
 ac28a9c57dcfd18be) — OUTCOME B:** under the native FS L2+L4 action (manifestly target-SO(3)-invariant) + frame
