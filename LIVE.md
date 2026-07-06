@@ -30,7 +30,22 @@ discipline skills → INDEX.md (repo map).
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-05 EOD — N5 (ξ PARKED) + SOLAR LIGHT-SECTOR ARC (UDT passes γ=1) + D1 CHARGE-CHANNEL MAP all done/blind-verified; NEXT = Charles's call (η's Zρ_s² anchor? the channel-selector? i-flow/ℏ clock?) ) ============
+## ============ CURRENT STATE (2026-07-05 EOD — N5 (ξ PARKED) + SOLAR LIGHT-SECTOR (UDT passes γ=1) + D1 CHARGE-CHANNEL MAP + NO-SELECTOR THEOREM all done/blind-verified; NEXT = Charles's call (i-flow/ℏ clock? does a native selector come from NEW physics only? Zρ_s² anchor?) ) ============
+
+**★ NO-SELECTOR THEOREM (2026-07-05, BANKED + blind-verified, `no_selector_audit_results.md`, verifier
+ac28a9c57dcfd18be) — OUTCOME B:** under the native FS L2+L4 action (manifestly target-SO(3)-invariant) + frame
+C(a) (isotropic round cell, no private seal), NO native object breaks the three equivalent target-S² channels to
+select one public channel ⇒ the public charge readout is the summed **Q=1**; **q=1/3 is UNFORCED** (equal-thirds
+real+internal, no native projector). Premises: P1 target-SO(3)-invariant action; P2 isotropic frame-C(a) couples
+only via the target-SCALAR stress (L2 AND L4 Skyrme stress both CAS-verified target-invariant); P3 charge
+observables are target-SO(3) scalars (moment-observable proof: vector moment=0, 2-tensor=(4π/3)δ_ab ⇒ only the
+scalar survives). Nearest miss = the hopfion's self-induced shear (equivariance-locked to n_∞) — fails
+(target-scalar source, free zero-mode, never enters the scalar observable = spontaneous orientation, not selection).
+**Overturnable ONLY by a natively-DERIVED target-indexed anisotropic coupling** (V_ab / target-charged background /
+single-axis projector) = outcome A if derived, outcome C (NEW PHYSICS) if merely added — none exist under the
+current action+frame. ⇒ closing q=1/3 now REQUIRES either new physics (a derived target anisotropy) or accepting
+q=1 as the native public charge. **NEXT = Charles's call: (a) the i-flow/ℏ clock (structural, discriminating);
+(b) whether a target-selector can be natively DERIVED (vs added); (c) the η Zρ_s² anchor; (d) take stock.**
 
 **➤➤ RESUME HERE / NEXT ACTION (2026-07-05): D1 CHARGE-CHANNEL MAP done + blind-verified
 (`d1_charge_channel_projection_MAP.md`, verifier a5cf5a27f637302df) — testing Charles's hypothesis that q=1/3 is
