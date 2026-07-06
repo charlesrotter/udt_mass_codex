@@ -84,14 +84,14 @@ top-of-file FRONTIER STALE, body kept as record) · the live MAPs (`QUANTIZATION
 SUBSUMED by the static-solver completion):** `archive/COMPLETION_PROGRAM.md` · `archive/SOLVER_COMPLETENESS_MAP.md`
 · `archive/POST_POSTULATE_PROGRAM.md`.
 
-**Verifier requirements:** `CROSS_MODEL_VERIFY.md` (cross-tier blind verify) · `PROVENANCE.md` · `AUDIT.md`.
+**Verifier requirements:** `CROSS_MODEL_VERIFY.md` (cross-tier blind verify) · `PROVENANCE.md` · `AUDIT.md` [CC 2026-07-06 — stale header, see doc banner].
 
-**The DERIVED-operator foundation arc (current physics foundation, 2026-06-21):** `native_dilation_weight_derivation`,
-`scale_symmetry_bootstrap_analysis`, `matter_regrade_derived_operator` [SUPERSEDED/COND-CHANGED 2026-07-01 native operator — see doc header],
+**The DERIVED-operator foundation arc (current physics foundation, 2026-06-21):** `native_dilation_weight_derivation` [SPLIT 2026-07-06 — §5-7 SUPERSEDED (birthplace of the X=−2e5 kluge), see doc banner],
+`scale_symmetry_bootstrap_analysis` [SUPERSEDED 2026-07-06 — see doc banner], `matter_regrade_derived_operator` [SUPERSEDED/COND-CHANGED 2026-07-01 native operator — see doc header],
 `F2_matter_action_forcedness`, `seal_junction_condition`, `F1F3_closure` [SUPERSEDED/COND-CHANGED 2026-07-01 — see doc header],
 `F2_closure`, `F8_metric_choices`, `P1P5_reaudit_vs_derived_operator` [SUPERSEDED/COND-CHANGED 2026-07-01 — see doc header],
 `F0_SYSTEMATIC_AUDIT`, `udt_field_equations_derivation`, `udt_gravity_sector_rederivation`,
-`F5/F6/F7_*` closures (all `_results.md`). NOTE: the three bracketed docs rode the PRE-NATIVE
+`F5/F6/F7_*` closures (all `_results.md`; NB `F5_critical_universe_closure` CC 2026-07-06 — see doc banner). NOTE: the bracketed docs rode the PRE-NATIVE
 scalar-tensor frame and are NO LONGER "current foundation" — the native constrained-two-player
 operator (2026-07-01) supersedes them; the rest of this arc is the standing native foundation.
 

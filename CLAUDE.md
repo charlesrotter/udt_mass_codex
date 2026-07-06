@@ -320,7 +320,10 @@ redirect (nonstationary weld sector / transfer ladder / ensembles).
   completion above. STATE.md = a long running LAB-LOG (mine for history; its TOP frontier may be stale —
   LIVE.md is the frontier). The DERIVED-operator arc docs (native_dilation_weight_derivation,
   matter_regrade_derived_operator, F2_matter_action_forcedness, seal_junction_condition, the F-closure
-  docs) remain the FOUNDATION record.
+  docs) remain the FOUNDATION record — BUT mine only the SURVIVING sections: per the 2026-07-06 macro-spine
+  pass, `native_dilation_weight_derivation` §5-7 is SPLIT/SUPERSEDED (the X=−2e5 scalar-tensor birthplace),
+  and `matter_regrade_derived_operator` + F1F3_closure + F5_critical_universe_closure are SUPERSEDED/CC (see
+  their in-file banners + `macro_spine_provenance_2026-07-06.md` / `pre_native_era_census.md`).
 - **Durable records (current):** CANON.md (Charles-canonized, append-only); NEGATIVES_REGISTRY.md
   (scoped negatives w/ premise sets — check every push). Main research record: negative_phi_native_geometry.md
   (pre-spectrum) + particle_spectrum_native_geometry.md (spectrum stage). Audit/prosecution record:
