@@ -37,18 +37,23 @@ are HISTORY the evening built on — see the HANDOFF (PM) block if needed.)
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-06 EOD-3 — N5d Stage-2b IMPLEMENTED + 8-test gate GREEN + blind-verified; NEXT = Stage-2 PILOT (separate Charles gate)) ============
+## ============ CURRENT STATE (2026-07-06 EOD-3 — N5d Stage-2b IMPLEMENTED + gate GREEN + blind-verified → preflight READY → S-Dir PILOT RAN = L-COLLAPSE (Outcome D, blind-verified); NEXT = Charles picks the solver-completeness fork) ============
 
-**➤➤ RESUME HERE / NEXT ACTION (2026-07-06 EOD-3): the co-relaxed π₂ Stage-2b solver is now IMPLEMENTED in
-`cell_solver_f2d.py` (commit `6a0ac15`), the 8-test gate is GREEN (`tests/test_n5d_stage2.py`; pytest 67/1xfail),
-and the code is BLIND-VERIFIED against the pinned formulas at machine precision (independent numpy reference,
-random off-round state — incl. the off-round f-PDE chain-rule terms + the λ=−½ sign/factor). NEXT is the Stage-2
-PILOT, a SEPARATE Charles gate (do NOT run it unprompted): a bounded coupled S-Dir solve to READ pin-or-continuum
-for the ℓ=2 axisymmetric π₂ tile. Per DESIGN §8 the pilot is allowed only with: FIX-1-equilibrated conditioning
-manageable at a STRUCTURED (not collapsed-degenerate) state + a clean premise ledger + Charles's explicit go.
-ANTI-HANG binding (Nr≤16/24, ONE foreground process, NEVER background-poll). TOPOLOGY: π₂ tile ONLY — a CONVERGED
-pilot is at most an S-Dir TILE LEAD (SCOPED, with premise set), NEVER Outcome A/B for the π₃ hopfion (open premise
-for Charles). Status throughout: DESIGN / PROVISIONAL / Outcome D.**
+**➤➤ RESUME HERE / NEXT ACTION (2026-07-06 EOD-3): the bounded static S-Dir co-relaxed π₂ pilot has RUN and its
+result is L-COLLAPSE — TOOL-LIMITED / Outcome D, blind-verified.** The solve drives the cell length L→0 (from L0=1;
+0.14→0.037→0.017→0.0076 over 150 iters), the seal-closure `Hseal` floors at ≈−6e-3 and NEVER reaches 0, and
+`cond_equil`→float64 floor. Independent adversarial verifier (agent `ae5e8adcc16071d11`) hunted for a finite-L
+closed cell across seed-L∈{0.05…2.0} and found NONE — the L→0 is a spurious/degenerate root, NOT a solver artifact
+(equilibrate on/off + Nr=12/16 all agree), and the collapse is in the BASE geometry+matter closure, NOT the new
+shear sector (shear rows ~40× smaller). Record: `n5d_stage2_sdir_pilot_results.md` (+ `n5d_stage2_sdir_pilot.py`/
+`.json`). **NO converged tile lead, NO pin/continuum, NO Outcome A/B, NO π₃ claim.** MISMATCH→SOLVER: the collapse
+indicts the STATIC + S-Dir + block-diagonal + ℓ=2-only CLOSURE of this corner, never the metric/mechanism — so the
+**NEXT ACTION is a CHARLES DECISION on the solver-completeness fork** (what this tile LEAVES OUT, none to be added
+unprompted): (a) higher-ℓ shear; (b) the **S-JC2 seal fork** (constant-a2 null, unresolved, no FIX-2); (c) the
+**non-static / time-live sector** (this was a STATIC solve; the seal=t→−t canon + Charles's hunch put dynamics in a
+separate sector — prime suspect); (d) unfrozen off-diagonal / Branch fork. π₂ tile ONLY; DESIGN/PROVISIONAL/Outcome
+D throughout. (The prior EOD-3 build/preflight narrative — Stage-2b impl `6a0ac15`, gate GREEN, preflight READY —
+is retained below/in the pinned-formula block; it stands.)**
 
 **What Stage-2b implemented (all pinned, CAS + blind-verified — the historical build reference below is retained):**
 Read `n5d_stage2_corelaxed_matter_DESIGN.md` + `n5d_stage2a_cas_results.md` (§1-8) + `n5d_stage2b_gate05_report.md`
