@@ -313,7 +313,7 @@ redirect (nonstationary weld sector / transfer ladder / ensembles).
   The ONLY current sources are `LIVE.md` TOPMOST + `HANDOFF.md` TOP (+ a `PURSUIT_CHARTER_*.md` ONLY if a current
   one exists — the latest, 07-04, is SUPERSEDED). CLAUDE.md is the BINDING METHOD (principles 1-7, how-we-work,
   DRIVER TRIGGERS, repo discipline) — NOT the frontier. If you want to know what's done / what's next, read LIVE +
-  HANDOFF TOP (the charter only if a current one exists), never this bullet. pytest 32/1xfail.
+  HANDOFF TOP (the charter only if a current one exists), never this bullet. pytest 48/1xfail.
 - **SUBSUMED / HISTORICAL trackers (do NOT treat as the live frontier — moved to `archive/` or tagged):**
   COMPLETION_PROGRAM.md, SOLVER_COMPLETENESS_MAP.md, POST_POSTULATE_PROGRAM.md, MIGRATION.md, REORG_PLAN.md,
   and the FOUNDATIONAL_ASSUMPTIONS_LEDGER.md F0-F8 scoreboard — all superseded by the static-solver

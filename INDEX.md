@@ -1,4 +1,4 @@
-# INDEX — Repo Map (frontier 2026-07-05 EVENING — N5/ξ arc CLOSED (ξ PARKED as a free family) + SOLAR LIGHT-SECTOR arc DONE (UDT passes the leading solar tests, γ_UDT=1; deflection 4(m/b)+(9π/4)(m/b)², Shapiro; 9π/4 a future μas target) + q=1/3 NO-SELECTOR THEOREM (unforced; needs new physics or Q=1) + i-flow/ℏ MAP (structural i native, ℏ not derived) — all blind-verified + pushed; H4 compute STILL STOPPED (N5d gated solve NOT opened). See LIVE.md TOPMOST (authoritative) + HANDOFF (EVENING) block. The prior H3=A/H4-arc frontier is now HISTORY. Evening docs: see the "2026-07-05 EVENING arc" section below.)
+# INDEX — Repo Map (frontier 2026-07-06 EOD — readout-map CHANNEL=B (no native q=1/3 selector) + DEPTH/SIZE=C (round Branch-P vacuum PROVABLY a continuum; the frozen off-round shear h_AB is the one door; #76); PROVENANCE FLOOR CLOSED both micro+macro sides (kap8=SOLE QUARANTINE #77; date census + macro-spine); N5d shear solver BUILT (`cell_solver_f2d.py`+`n5d_shear.py`, 84287b6) + Stage-1 pilot RAN = TOOL-LIMITED (Outcome D, near-singular Jacobian, non-converged; NO A/B banked; bf54957). NEXT = DIAGNOSE the N5d conditioning (SVD near-zero mode: gauge/scaling/physical-soft-mode) before pin-vs-continuum. See LIVE.md TOPMOST (authoritative) + HANDOFF.md TOP (2026-07-06). The 2026-07-05 EVENING arc is now HISTORY — its docs are in the "2026-07-05 EVENING arc" section below.)
 
 **PROVENANCE FLOOR:** `pre_native_era_census.md` is the authority on the pre-native (2026-06-11 → 07-01)
 coupled-solver era — kap8 = #77 QUARANTINE, the rest SUPERSEDED/CONDITIONS-CHANGED; SUPERSEDED coupled-solve
@@ -75,7 +75,7 @@ the STANDING negatives' provenance is kept at root).
 **Purity gates / integrity arc (the discipline infrastructure — NEVER archive):** `SOLVER_INTEGRITY_UPGRADES_SPEC.md`,
 `P1_PURITY_HARNESS_MAP.md`, and the integrity-arc records `p1_*`/`p2_*`/`p3_*`/`p4_*`/`p5_*_results.md` +
 `p{1..4}_VERIFIER.md` (the `p1_*`..`p5_*` records + VERIFIERs now archived to `legacy/root_oneoffs_2026-07-01/`).
-The machine harness is `tests/` (run `python3 -m pytest tests/`: **32 passed / 1 xfailed**) + the discipline skills
+The machine harness is `tests/` (run `python3 -m pytest tests/`: **48 passed / 1 xfailed**) + the discipline skills
 in `.claude/skills/` (solver-first, no-shortcuts, verifier-before-record, completeness-map, solution-space-not-imposition).
 
 **Assumptions audits / programs:** `FOUNDATIONAL_ASSUMPTIONS_LEDGER.md` (the F0-F8 scoreboard, status-of-record —
@@ -137,7 +137,7 @@ The CODE-COMPLETE static solver + its audited building blocks (all root; MUST st
   `spectral_radial_soliton.py`. (`full3d_solver.py` is now in `legacy/root_oneoffs_2026-07-01/` — NOT in the closure.)
 - Harness: `tests/test_solver_integrity.py`, `tests/test_operator_from_action.py`,
   `tests/test_solution_space_gate.py` (the 2 physics-blind anti-imposition lints) (+ conftest).
-  `pytest tests/` = **32 passed / 1 xfailed** (the 1 xfail = `test_no_habit_pins`, the Branch G/P fork —
+  `pytest tests/` = **48 passed / 1 xfailed** (the 1 xfail = `test_no_habit_pins`, the Branch G/P fork —
   an EXPLORATION gate, not a code flaw).
 
 **Guardrail hooks / cross-check tooling:** `.claude/hooks/corral_trigger.py` + `.claude/settings.json` (the
@@ -150,7 +150,7 @@ driver-trigger corral fires on Task/Bash/git-commit — pause+honesty, never mer
 **Legacy tooling scripts — ARCHIVED 2026-07-01.** The ~510 `native_*.py` (+ `w*`, `phase*`, `d1_*`, `p1..p5*`,
 topical-scan, historical `verify_*` one-offs — 1086 files) that backed the kept microphysics-era research records
 were moved to **`legacy/root_oneoffs_2026-07-01/`** in the return-to-solver consolidation (root went 1113→29 .py;
-pytest 32/1xfail preserved). One doc section = one script ("Implemented in `native_x.py`") still holds — resolve
+pytest 48/1xfail preserved). One doc section = one script ("Implemented in `native_x.py`") still holds — resolve
 `native_x.py` under `legacy/root_oneoffs_2026-07-01/`. Mine for structure, not verdicts.
 
 ---
@@ -192,8 +192,8 @@ operator + the migration — but they remain the canon-provenance for q=1/3/η/N
   yourself via background-notify (NO `nohup` — it detaches from the harness tracker), never background-poll.
 - Commit per result; push to github.com/charlesrotter/udt_mass_codex.
 
-## 2026-07-05 EVENING arc — N5/ξ CLOSED (ξ parked) → SOLAR LIGHT SECTOR (UDT passes γ=1) → q=1/3 no-selector → i-flow/ℏ (CURRENT; see LIVE.md TOP)
-All armchair/CAS + blind-verified + pushed; H4 compute STILL STOPPED (N5d gated solve NOT opened). Docs, by arc:
+## 2026-07-05 EVENING arc — N5/ξ CLOSED (ξ parked) → SOLAR LIGHT SECTOR (UDT passes γ=1) → q=1/3 no-selector → i-flow/ℏ (SUPERSEDED as frontier 2026-07-06 — docs still valid; see LIVE.md TOP)
+All armchair/CAS + blind-verified + pushed; H4 compute was STOPPED at the time — **SUPERSEDED 2026-07-06: the N5d solver was BUILT + the Stage-1 pilot RAN (tool-limited, Outcome D); see LIVE.md.** Docs, by arc:
 - **N5 / ξ-anchor (ξ PARKED as a free family):** `H4_N5_whole_cell_criticality_MAP.md` (migration anchor retired) ·
   `H4_N5a_whole_cell_criticality_rederivation_results.md` (whole-cell criticality does NOT pin ξ; #75
   CONDITIONS-CHANGED via carrier swap) · `H4_N5b_flux_budget_closure_results.md` (flux budget = criticality in
@@ -208,8 +208,9 @@ All armchair/CAS + blind-verified + pushed; H4 compute STILL STOPPED (N5d gated 
   symmetric action + frame C(a); needs a natively-derived target anisotropy (else Q=1).
 - **structural i / ℏ:** `i_flow_hbar_clock_MAP.md` — OUTCOME 7: structural i NATIVE (Kähler J²=−1), ℏ NOT derived
   (native time-live phase action is a 2nd-order rotor, no first-order WZ term; "area form ⟹ ℏ" refuted).
-- NEXT (Charles's call): native-vs-added target-selector for q=1/3; the gated N5d solve for ξ; η Zρ_s² anchor. See
-  the HANDOFF (EVENING) OPEN LEADS list.
+- NEXT (this arc's open leads, SUPERSEDED as the frontier 2026-07-06): native-vs-added target-selector for q=1/3;
+  the (then-gated) N5d solve for ξ — NOW BUILT + pilot ran (tool-limited); η Zρ_s² anchor. The CURRENT next action is
+  in LIVE.md (diagnose the N5d conditioning); these remain open leads carried forward.
 
 ## 2026-07-05 arc — concentric ω≠0 reframe CLOSED → the HOPFION route (superseded as frontier by the EVENING arc; see LIVE.md)
 Concentric ω≠0 embedded-cell frame closed; a UDT particle reframed as a native **Faddeev–Skyrme HOPFION**
