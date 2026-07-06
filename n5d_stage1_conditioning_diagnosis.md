@@ -92,6 +92,45 @@ not it — they are scaling + an unpinned constant offset + a stalled-state φ a
 
 Only a **converged** solve (Φ→tol, cond ≲ 1e8–1e10) can then read Outcome A/B for the ℓ=2 tile.
 
+## 4b. FIX-3 attempt — structured seed / continuation repair (PROVISIONAL, no verdict)
+
+**Date:** 2026-07-06 · script `n5d_pilot_fix3.py` · FIX-1 active · no S-JC2 gauge pin · equations/BCs/
+source/readouts/residual/seal UNCHANGED (only the SEED is new). Bounded: Nr=16, Nth=8, maxit=30,
+budget ≤100 s/BC, one foreground process. **NOT a verdict run** — no pin-vs-continuum read, no A/B.
+
+Two variants of a mirror-BC-respecting structured Branch-P seed (nontrivial interior φ′/ρ′ via a
+cos(π(ζ+1)/2) bump; max|φ′|=0.46, max|ρ′|=0.25): (A) relax through the base system first, then add
+shear; (B) seed the coupled shear continuation directly at matched L0=1.0.
+
+**Result: structured seeding does NOT rescue convergence — the solve FLATTENS the structure back to
+the near-homogeneous state in both variants.**
+
+| variant | BC | finalPhi | converged | raw cond | eff cond | H_seal | max\|ρ'\| (seed→final) |
+|---|---|---|---|---|---|---|---|
+| A (pre-relax) | S-Dir | 6.4e-3 | False | 1.3e16 | 5.5e15 | −7.9e-2 | 0.25 → 2.9e-3 |
+| A (pre-relax) | S-JC2 | 6.6e-3 | False | 1.1e17 | 6.2e16 | −8.0e-2 | 0.25 → 1.9e-3 |
+| B (direct, L0=1) | S-Dir | 6.7e-3 | False | 2.7e15 | 2.0e15 | −7.8e-2 | 0.25 → 2.7e-3 |
+| B (direct, L0=1) | S-JC2 | 7.9e-3 | False | 6.1e17 | 2.0e17 | −8.7e-2 | 0.25 → 1.4e-3 |
+
+Stage-A on its own: the structured base relaxed max\|ρ'\| 0.25→0.08 (still falling), L collapsed
+1.0→0.21, H_seal=−0.085 — i.e. it heads toward near-homogeneous, not a structured closed cell.
+
+**Interpretation (classification of the remaining S-Dir failure, per the FIX-3 gate):** the remaining
+failure is **φ/ρ DEGENERACY, not scaling** (FIX-1 is active and eff_cond ≈ raw_cond here — column scaling
+barely moves it) **and not a mere seed artifact** (a genuinely structured seed is flattened by the solve).
+The φ/ρ degeneracy has a physical root that **rides on the already-banked round-continuum picture**
+(depth/size Outcome C, `native_readout_map_depth_size_results.md`): the round Branch-P bulk is
+scale-invariant with monotone φ, so the mirror BCs (φ′=0 at BOTH ends) admit only near-constant φ — there
+is **no non-trivial structured ROUND base for the solver to converge to**. This SHARPENS contributor 3:
+it is not a curable stall — the round base is genuinely near-flat, so any size/mass structure must come
+from the SHEAR sector (h_AB), whose induced response here stays tiny (a2_peak ≤ 2.5e-2, non-converged).
+**NO physics verdict, NO Outcome A/B, NO S-Dir tile lead (S-Dir did not converge).**
+
+**Consequence for the fix ladder:** FIX-3 is INEFFECTIVE for the round base by itself. FIX-1 (scaling) and
+FIX-3 (seed) both leave the Stage-1 pilot non-converged. The binding constraints are the S-JC2 exact
+constant-a2 null (→ FIX-2, gated) and the round-flatness φ/ρ degeneracy (a genuine feature, not a bug to
+seed around) — the pin-vs-continuum question for the ℓ=2 shear tile remains UNANSWERED (Outcome D stands).
+
 ## 5. Scope / discipline
 - ONE tile: static, Branch P, block-diagonal, ℓ=2 axisymmetric shear, frozen H3-hopfion source, whole cosmic cell.
 - Premise ledger unchanged from the pilot: ξ FREE, κ FREE-units, Z_φ=8 (CHOSE — Route-A carrying the Route-B
