@@ -1,3 +1,9 @@
+> **CONDITIONS-CHANGED (2026-07-06 pre-native-era census) — NOT current native-micro canon; premise-scoped.**
+> The 'elliptic-in-T / cells do not evolve' headline is CONDITIONS-CHANGED (NEGATIVES_REGISTRY #22: refuted in the
+> diagonal class by ns_scan → strictly hyperbolic). The orthogonal 'motion never sources shape' leg stands.
+> Superseded frame; the 2026-07-01 native constrained-two-player operator (EH-empty, φ-blind matter, geometric 𝒦) is
+> the current frame. See pre_native_era_census.md + NEGATIVES_REGISTRY.
+
 # The Nonstationary Opener (N1 + N2) — Results: THE FORK ADJUDICATED
 
 Status: working audit, not canonical. Created: 2026-06-11

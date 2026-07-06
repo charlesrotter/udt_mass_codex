@@ -2198,3 +2198,5 @@ Its degree-1-winding-survived + not-horizon readings are UNTESTED on the native 
 continuum does not cover a strong-coupling X=−2e5 object). BLOCKING AUTHORITY: NONE as a native-micro result
 until re-run on the native operator. Doc: kap8_characterization_complete_solver_results.md (+ 4 saved-field
 siblings: check_winding_survival, caveat3_offdiag_off_control, ponder_horizon_signatures, native_object_characterization).
+See `pre_native_era_census.md` for the full date-based pre-native-era provenance census (kap8 = sole QUARANTINE;
+W-series retired 2026-06-19; everything else CLEAN/SUPERSEDED/CONDITIONS-CHANGED).

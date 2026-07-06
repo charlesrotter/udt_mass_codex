@@ -1,3 +1,10 @@
+> **CONDITIONS-CHANGED (2026-07-06 pre-native-era census) — NOT current native-micro canon; premise-scoped.**
+> The object-identity/profile is CONDITIONS-CHANGED (NEGATIVES_REGISTRY #43: non-unit-norm S³-Skyrme mis-fit on the
+> unit S² target). NOTE: the √(κ/ξ) SIZE scale is NATIVELY RE-CONFIRMED (canon C-2026-06-14-1; hopfion arc
+> ℓ_hopf≈1.1√(κ/ξ)) — so this is not a quarantine, only the profile/object-ID is scoped. Superseded frame; the
+> 2026-07-01 native constrained-two-player operator (EH-empty, φ-blind matter, geometric 𝒦) is the current frame.
+> See pre_native_era_census.md + NEGATIVES_REGISTRY.
+
 # Native Stabilizer — BLIND ADVERSARIAL VERIFIER results
 
 Date: 2026-06-14. Agent: Claude (Opus 4.8, 1M context), BLIND ADVERSARIAL

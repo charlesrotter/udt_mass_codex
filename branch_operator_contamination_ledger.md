@@ -1,5 +1,8 @@
 # branch_operator.py — SCOPED CONTAMINATION LEDGER (ERA-WIDE re-grade)
 
+> SUPERSEDED by / subsumed into the full `pre_native_era_census.md` (2026-07-06 date-based census); this ledger =
+> the branch_operator-specific slice.
+
 **Driver:** Claude (Opus 4.8, 1M). **Date:** 2026-07-06 (supersession sweep; rewritten from the
 2026-07-06 first pass). **Mode:** armchair / code-and-provenance audit. **DATA-BLIND. NO solves.**
 Classify-only (nothing deleted; in-file stamps + registry entries added).

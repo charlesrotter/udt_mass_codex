@@ -1,6 +1,12 @@
 
 ---
 
+> **CONDITIONS-CHANGED (2026-07-06 pre-native-era census) — NOT current native-micro canon; premise-scoped.**
+> Companion verifier to the everything-on P2/P3/P4 arc (frame B, a(φ)=−1 / G=kap8·T), which is CONDITIONS-CHANGED
+> (2026-07-06). Verifies DATA-BLIND machinery, banked no native-micro physics. Superseded frame; the 2026-07-01 native
+> constrained-two-player operator (EH-empty, φ-blind matter, geometric 𝒦) is the current frame. See
+> pre_native_era_census.md + NEGATIVES_REGISTRY.
+
 # P3 VERIFIER PASS -- blind adversarial
 
 **Verifier:** Claude (Opus 4.8, 1M), independent blind adversarial verifier.

@@ -1,5 +1,9 @@
 # INDEX — Repo Map (frontier 2026-07-05 EVENING — N5/ξ arc CLOSED (ξ PARKED as a free family) + SOLAR LIGHT-SECTOR arc DONE (UDT passes the leading solar tests, γ_UDT=1; deflection 4(m/b)+(9π/4)(m/b)², Shapiro; 9π/4 a future μas target) + q=1/3 NO-SELECTOR THEOREM (unforced; needs new physics or Q=1) + i-flow/ℏ MAP (structural i native, ℏ not derived) — all blind-verified + pushed; H4 compute STILL STOPPED (N5d gated solve NOT opened). See LIVE.md TOPMOST (authoritative) + HANDOFF (EVENING) block. The prior H3=A/H4-arc frontier is now HISTORY. Evening docs: see the "2026-07-05 EVENING arc" section below.)
 
+**PROVENANCE FLOOR:** `pre_native_era_census.md` is the authority on the pre-native (2026-06-11 → 07-01)
+coupled-solver era — kap8 = #77 QUARANTINE, the rest SUPERSEDED/CONDITIONS-CHANGED; SUPERSEDED coupled-solve
+docs relocated to `archive/pre_native_coupled/`.
+
 Navigable map of `udt_mass_codex`. **Structure (post-2026-07-01 consolidation):**
 - **root — LEAN:** the 17-module test-import solver closure (the OLD wrong-frame static solver — kept only because
   pytest still imports it; retires when the new solver + test rewrite land), 4 live tools, `matter_el_3d_gen.py`
@@ -96,7 +100,8 @@ both-branch kap8 floor + the OPEN strong-field-horizon question, PARTIAL/CAVEATE
 native identification rode the PRE-NATIVE scalar-tensor operator; NOT a native-micro result, see NEGATIVES_REGISTRY #77 + doc header]** · `cognitive_corral_triggers_results.md`
 (the driver-trigger / corral-hook guardrail record) · `branchP_solver_floor_xcontinuation_results.md` (#66; the
 continuation + winding-native ruler + the kap8 localization arc) + the standing time-live records
-(`coupled_timelive_solve`, `timelive_nonround_native_solve` + their CONTRACT/VERIFIER).
+(`coupled_timelive_solve`, `timelive_nonround_native_solve` + their CONTRACT/VERIFIER — all MOVED 2026-07-06 to
+`archive/pre_native_coupled/`, redirect stubs left at the old paths).
 
 **Main research records (kept — hold the load-bearing derivations):** `negative_phi_native_geometry.md` (31k
 lines; the q=1/3, η=1/18, N=3 derivations — read via `grep '^## '`) · `particle_spectrum_native_geometry.md`
