@@ -45,10 +45,15 @@ SWEEP followed (blind-verified; commit `7441992`): the 2026-07-01 native operato
 coupled-solver era, and the sweep was INCOMPLETE. **ONE genuine QUARANTINE found: `kap8_characterization` (+4
 siblings) — a live unflagged native-micro identification banked on the scalar-tensor operator at X=−2e5 → registry
 #77, banner, INDEX flag.** The rest of the era was already registry-tagged (given in-file stamps now); recent frontier
-verified CLEAN. **NEXT (Charles-gated): BUILD the native N5d solver** — the certified operator `∂_r(√h Z_φ φ')=−2√h
-e^{−2φ}𝒦̂[h]` + the E^{AB} shear sector (via the fixed L_bare⁻¹) + φ-blind native-S² matter source + whole-cell BCs;
-then re-run the preflight gate, then the coarse pilot (Nr≤16–24, one process, foreground, ANTI-HANG). **Do NOT run
-`branchGP` for N5d** (wrong frame, fenced). **Prior state today:** q=1/3 channel-selector CLOSED (★ selector entry
+verified CLEAN. **PROVENANCE FLOOR NOW CLOSED (2026-07-06):** a date-based pre-native-era census (`pre_native_era_census.md`,
+2026-06-11→07-01, 4 classifiers + 2 adversarial passes) confirms **kap8 (#77) is the SOLE QUARANTINE**; everything
+else is CLEAN / SUPERSEDED / CONDITIONS-CHANGED. 10 SUPERSEDED coupled-solve docs relocated → `archive/pre_native_
+coupled/` (redirect stubs left); CC docs stay live with banners. **RESIDUAL OWED (not done): a MACRO-scope
+provenance pass** (AUDIT.md / light-sector / CMB ride native radial functions, un-audited for pre-native-operator
+dependence) + W-series phase-2 physical relocation. **NEXT (Charles-gated): BUILD the native N5d solver** — the
+certified operator `∂_r(√h Z_φ φ')=−2√h e^{−2φ}𝒦̂[h]` + the E^{AB} shear sector (via the fixed L_bare⁻¹) + φ-blind
+native-S² matter source + whole-cell BCs; then re-run the preflight gate, then the coarse pilot (Nr≤16–24, one
+process, foreground, ANTI-HANG). **Do NOT run `branchGP` for N5d** (wrong frame, fenced). **Prior state today:** q=1/3 channel-selector CLOSED (★ selector entry
 below); depth/size node = OUTCOME C (★ entry below).** All FIVE 2026-07-05 evening arcs (N5/ξ · solar light sector · D1 charge-channel ·
 no-selector theorem · i-flow/ℏ) PLUS the 2026-07-06 readout-map selector audit are BANKED + blind-verified + pushed;
 **H4 compute STILL STOPPED** (the gated non-perturbative N5d solve was NOT opened). **OPEN LEADS:** (a) **CLOSED
