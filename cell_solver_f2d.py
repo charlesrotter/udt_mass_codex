@@ -267,17 +267,22 @@ def fields(v, ctx, prm, n5d=None):
         #     (current L, differentiable), NOT frozen at the seed L0.  No amplitude Jacobian (interp only).
         #   n5d["Tshear"]=array: legacy precomputed (Nr,Nth) source (used by tests / diagnostics that pass
         #     a fixed array); NOT L-tracking.  If both absent -> vacuum shear.
-        # FRAME-FACTOR LEDGER (open, un-applied): the stored sh2 = <T_thth - T_phph>(l2) is an ORTHONORMAL-
-        # frame stress component from the hopfion's flat lab frame.  Whether it equals the cell-frame T_s
-        # in E_s + T_s = 0 as-is, or needs a rho^2 / e-based frame conversion, is UNRESOLVED and NOT
-        # applied here (amplitude left unchanged; see n5d_source_normalization_audit ledger).
+        # FRAME FACTOR (rho^2/2, DERIVED 2026-07-06, CAS n5d_frame_factor_cas.py): the stored sh2 =
+        # <T_thth - T_phph>(l2) is an ORTHONORMAL/mixed-frame stress component (= T^th_th - T^ps_ps).
+        # The coded E_s (EAB_shear_row) is the ACTION-DENSITY form (delta L_geo/delta s)/sin th = (rho^2/2)
+        # (E^th_th - E^ps_ps) -- CAS ratio = 1 -- so it carries the sqrt(h)=rho^2 measure weight.  With the
+        # repo convention E^AB = T^AB = (2/sqrt(h)) delta S/delta h_AB (H4_N1:19-24), matching E_s + T_s = 0
+        # requires the SAME weight on the matter side: T_s = (rho^2/2) * sh2.  rho = areal radius (h_AB-side,
+        # phi-BLIND -> no direct phi-source).  [Still-open, SEPARATE: the flat-hopfion -> cell-frame embedding
+        # of the orthonormal COMPONENT itself = the frozen-source approximation, ledgered in section 4d.]
         Tshear = n5d.get("Tshear", None)
         src = n5d.get("src", None)
         if src is not None:
             src_rc, src_sh2, src_amp = src
             r_phys = ctx["rc"] + 0.5 * L * (ctx["zeta"] + 1.0)   # CURRENT L (registration B; differentiable)
             src2 = n5d_shear.source_interp(src_rc, src_sh2, r_phys)   # (Nr,) interp at current physical r
-            Tshear = src_amp * src2[:, None] * P2[None, :]           # amp * sh2(r_cur) * P2(mu)
+            frame = 0.5 * rho[:, None] ** 2                          # rho^2/2 measure/frame factor (DERIVED)
+            Tshear = src_amp * frame * src2[:, None] * P2[None, :]   # amp * (rho^2/2) * sh2(r_cur) * P2(mu)
         if Tshear is not None:
             Es = Es + Tshear                              # E^{AB} = -T^{AB}  =>  E_s + T_s = 0
         # ell=2 Galerkin projection: R2(r) = sum_j w_j P2_j (Es[.,j])   (w_j = int dmu incl. sin th)

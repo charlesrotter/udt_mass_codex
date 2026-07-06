@@ -38,20 +38,70 @@ def test_pullback_L_equals_L0_reproduces_old():
     assert torch.allclose(new, old, atol=1e-12, rtol=0.0), float((new - old).abs().max())
 
 
-def test_pullback_live_matches_standalone_at_L0():
-    """The LIVE solver path (n5d['src'], fields interpolates at current L) equals the standalone
-    build_Tshear array when the vector's L equals that L (here L0)."""
+def test_pullback_interp_matches_standalone_at_L0():
+    """The registration-B INTERPOLATION (sh2 at current-L physical r) matches the standalone
+    build_Tshear raw array (both WITHOUT the rho^2/2 frame factor, which is applied separately in
+    fields with access to the rho field -- see the frame-factor tests)."""
     ctx = C.make_ctx(Nr, Nth, rc=0.5)
     u = C.seed_n5d(ctx, a2_amp=1e-3)                             # vector carries L = L0 (seed L0=1.0)
     L_vec = float(C.unpack(u, ctx, n5d=True)[-1])
-    n5d = dict(sealbc="S-Dir", src=(SRC_RC, SRC_SH2, 1.0), a2_mirror=0.0)
-    Q = C.fields(u, ctx, PRM, n5d=n5d)
-    # reconstruct the live Tshear the same way fields does, compare to standalone build at L_vec
     live_r = ctx["rc"] + 0.5 * L_vec * (ctx["zeta"] + 1.0)
     live_src2 = C.n5d_shear.source_interp(SRC_RC, SRC_SH2, live_r)
-    live_T = 1.0 * live_src2[:, None] * ctx["P2"][None, :]
+    live_T = 1.0 * live_src2[:, None] * ctx["P2"][None, :]       # raw interp * P2 (no frame factor)
     standalone = P.build_Tshear(ctx, L_vec, 1.0, SRC_RC, SRC_SH2)
     assert torch.allclose(live_T, standalone, atol=1e-12, rtol=0.0)
+
+
+def _source_projection(u, ctx, n5d_src, n5d_none):
+    """The ell=2 projected source contribution = shear_res(with src) - shear_res(no src)."""
+    Q1 = C.fields(u, ctx, PRM, n5d=n5d_src)
+    Q0 = C.fields(u, ctx, PRM, n5d=n5d_none)
+    return (Q1["shear_res"] - Q0["shear_res"])
+
+
+def test_frame_factor_rho2_over_2_applied():
+    """fields() applies the DERIVED rho^2/2 frame factor: the projected source contribution equals
+    amp * (rho^2/2) * sh2(r) * sum_j w_j P2_j^2  (= (rho^2/2)*sh2*(2/5)), node by node."""
+    ctx = C.make_ctx(Nr, Nth, rc=0.5)
+    u = C.seed_n5d(ctx, a2_amp=1e-3)
+    phi, rho, uf, a2, L = C.unpack(u, ctx, n5d=True)
+    n5d_src = dict(sealbc="S-Dir", src=(SRC_RC, SRC_SH2, 1.0), a2_mirror=0.0)
+    n5d_none = dict(sealbc="S-Dir", a2_mirror=0.0)
+    got = _source_projection(u, ctx, n5d_src, n5d_none)
+    r_phys = ctx["rc"] + 0.5 * float(L) * (ctx["zeta"] + 1.0)
+    sh2 = C.n5d_shear.source_interp(SRC_RC, SRC_SH2, r_phys)
+    wP2sq = float((ctx["w"] * ctx["P2"] ** 2).sum())            # = 2/5
+    expect = (0.5 * rho ** 2) * sh2 * wP2sq                     # (rho^2/2)*sh2*(2/5)
+    assert torch.allclose(got, expect, atol=1e-12, rtol=1e-10), float((got - expect).abs().max())
+
+
+def test_frame_factor_scales_as_rho_squared():
+    """Scaling rho -> 2*rho multiplies the projected source contribution by exactly 4 (rho^2)."""
+    ctx = C.make_ctx(Nr, Nth, rc=0.5)
+    u = C.seed_n5d(ctx, a2_amp=1e-3)
+    phi, rho, uf, a2, L = C.unpack(u, ctx, n5d=True)
+    n5d_none = dict(sealbc="S-Dir", a2_mirror=0.0)
+    n5d_src = dict(sealbc="S-Dir", src=(SRC_RC, SRC_SH2, 1.0), a2_mirror=0.0)
+    s1 = _source_projection(u, ctx, n5d_src, n5d_none)
+    u2 = C.pack(phi, 2.0 * rho, uf, float(L), a2=a2)            # double rho
+    # subtract the no-source shear_res at the SAME rho-scaled state (E_s_geom also changes with rho)
+    n5d_none2 = dict(sealbc="S-Dir", a2_mirror=0.0)
+    s2 = _source_projection(u2, ctx, n5d_src, n5d_none2)
+    ratio = (s2 / s1)[s1.abs() > 1e-12]
+    assert torch.allclose(ratio, 4.0 * torch.ones_like(ratio), atol=1e-8), float(ratio.mean())
+
+
+def test_frame_factor_is_phi_blind():
+    """The rho^2/2 factor is phi-BLIND: changing phi (not rho) leaves the projected source unchanged."""
+    ctx = C.make_ctx(Nr, Nth, rc=0.5)
+    u = C.seed_n5d(ctx, a2_amp=1e-3)
+    phi, rho, uf, a2, L = C.unpack(u, ctx, n5d=True)
+    n5d_none = dict(sealbc="S-Dir", a2_mirror=0.0)
+    n5d_src = dict(sealbc="S-Dir", src=(SRC_RC, SRC_SH2, 1.0), a2_mirror=0.0)
+    s1 = _source_projection(u, ctx, n5d_src, n5d_none)
+    u2 = C.pack(phi + 0.37, rho, uf, float(L), a2=a2)          # shift phi, keep rho
+    s2 = _source_projection(u2, ctx, n5d_src, n5d_none)
+    assert torch.allclose(s1, s2, atol=1e-12), "source depends on phi -> NOT phi-blind!"
 
 
 @pytest.mark.parametrize("L1", [0.3, 0.1, 3.0])

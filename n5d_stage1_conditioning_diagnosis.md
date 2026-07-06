@@ -244,12 +244,41 @@ fixed state** (they read φ,ρ,a2, not the source). The patch is a genuine corre
 the L-collapse (gated round-continuum closure; confirmed in §4d) — it makes the source physically consistent
 as L varies.
 
-**OPEN LEDGER — source-normalization / frame factor (un-applied):** the stored `sh2 = ⟨T_θθ − T_φφ⟩(ℓ2)` is
-an ORTHONORMAL-frame stress component from the hopfion's flat lab frame. Whether it equals the cell-frame T_s
-used in E_s + T_s = 0 **as-is**, or needs a ρ²/e-based orthonormal-vs-coordinate conversion, is **UNRESOLVED
-and NOT applied** (amplitude left unchanged per the patch scope). Ledgered as an open source-normalization
-audit for a later CAS check; it does not affect the current-L placement finding. Status remains PROVISIONAL /
-Outcome D / no A/B / no continuum lead.
+**LEDGER — source-normalization / frame factor: RESOLVED → ×ρ²/2 (see §4f).** (Superseded the earlier "open"
+note here.) The separate flat-hopfion→cell-frame embedding of the orthonormal COMPONENT remains the frozen-source
+approximation (§4d), still ledgered.
+
+## 4f. Source frame-factor audit — RESOLVED to ×ρ²/2 (implemented 2026-07-06)
+
+**Question:** does the stored `sh2 = ⟨T_θ̂θ̂ − T_φ̂φ̂⟩(ℓ2)` (orthonormal/mixed component from the hopfion's flat
+lab frame) equal the cell-frame `T_s` in `E_s + T_s = 0` as-is, or need a ρ²/frame factor? **Answer: it needs
+×ρ²/2 — cleanly derived (CAS), implemented.** Script `n5d_frame_factor_cas.py`.
+
+1–2. **What sh2 stores** (`h4_scripts/h4_n4_phaseB_stress.py`): the flat-space Faddeev–Skyrme Hilbert stress
+   `σ_ij` (Cartesian), projected onto flat spherical ORTHONORMAL vectors → `shear = T_θ̂θ̂ − T_φ̂φ̂`, then the
+   count-normalized shell moment `⟨shear·P2⟩`. So `sh2` is an **orthonormal/mixed stress component** (`= T^θ_θ −
+   T^ψ_ψ`), not a coordinate/density-weighted/scalar-coefficient object.
+3. **Native relation (CAS-decisive).** The geometric shear action density is `L_geo = e^{−2φ}·ell`,
+   `ell = −½ sinθ·a'bt'/√(ab)` (`op_derive2.py`). CAS (`n5d_frame_factor_cas.py`): the round (trace) part of
+   `δL_geo/δs` = 0, and **`(δL_geo/δs)/(sinθ·E_s_coded) = ρ²/√(ρ⁴) = 1`** — i.e. the coded `E_s`
+   (`EAB_shear_row`) **is the action-density form** `(δL_geo/δs)/sinθ = (ρ²/2)(E^θ_θ − E^ψ_ψ)`, carrying the
+   √h=ρ² measure weight. With the repo convention **`E^{AB} = (2/√h)δS_geo/δh_AB`, `T^{AB} = (2/√h)δS_m/δh_AB`,
+   `E^{AB}=−T^{AB}`** (H4_N1:19–24), matching `E_s + T_s = 0` forces the SAME weight on the matter side:
+   **`T_s = (ρ²/2)·sh2`.** ρ = areal radius (h_AB-side, **φ-blind** → no direct φ-source).
+4. **Decision: ×ρ²/2** (a ρ² factor — r-dependent, reshapes the source — times the constant ½ from the shared
+   (2/√h) convention). Not unchanged; not ÷ρ²; not another basis factor.
+5. **CAS check:** `n5d_frame_factor_cas.py` (sympy) — ratio = 1 exactly, multiplier = √(ρ⁴)/2 = ρ²/2 exactly.
+6. **Diagnostic (unchanged vs corrected; no verdict solve):** ρ²/2≈0.25 on the cell → projected ℓ=2 ‖rhs‖
+   3.008→0.752, linear S-Dir a2_peak 2.115→0.529 (×0.25 at the seed where ρ≈const; reshaped by ρ(r)² on a real
+   solution). φ/ρ/f rows stay **exactly source-blind** (Δphi_ode=Δrho_ode=Δres_f=0); only shear_res moves.
+7. **Implemented** in `cell_solver_f2d.fields` live-src path: `Tshear = amp·(ρ²/2)·sh2(r_cur)·P2`. Tests
+   `tests/test_n5d_pullback.py` (+3 frame-factor: exact `(ρ²/2)·sh2·(2/5)` match, ρ²-scaling, φ-blindness);
+   full suite **59 passed / 1 xfailed**; L_bare 7 PASS; N5d preflight both BCs base-row match 0.0.
+
+**Still-separate open item (frozen-source approximation, §4d):** the flat-hopfion stress is used as the
+cell-frame orthonormal COMPONENT directly (flat vs curved-cell embedding); that is a distinct approximation,
+untouched by this frame-factor resolution. **No physics verdict, no Outcome A/B, no continuum lead. Outcome D
+stands.**
 
 ## 5. Scope / discipline
 - ONE tile: static, Branch P, block-diagonal, ℓ=2 axisymmetric shear, frozen H3-hopfion source, whole cosmic cell.
