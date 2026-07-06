@@ -1,8 +1,13 @@
 # N5d Solver — Build Plan (DESIGN ONLY; no solve, no pilot run)
 
-**Status:** DRAFT build plan for driver → Charles review. **Design only** — this doc specifies the
-solver; it runs NO coupled/N5d solve. The two cheap read-only self-tests it relies on were re-run and
-PASS (see §7). **Author:** solver-architect agent, 2026-07-06.
+**Status:** **APPROVED-WITH-EDITS (Charles, 2026-07-06) — this is the WORKING N5d build plan.** Still
+**design only** — runs NO coupled/N5d solve; NO build yet (build/run gated behind Charles's explicit go).
+Charles's 6 edits are incorporated: (1) frozen-source Stage-1/Stage-2 staging (§3); (2) both shear seal
+BCs + (3) the BC-fork banking rule "disagree ⇒ conditional, not a pin" (§4); (4) neutral q_raw/M_readout
+sign convention (§5) — REQUIRED before build; (5) Gate-8 sign-convention gate (§7); (6) the pilot-verdict
+scope rule (continuum≠Outcome-B, pin=A-candidate-only) (regime section). The two cheap read-only
+self-tests were re-run and PASS (§7). **Author:** solver-architect agent, 2026-07-06; edits by driver per
+Charles.
 
 ## The question this solver must answer (structural yes/no, NOT a mass fit)
 When the off-round transverse shear `h_AB` is UNFROZEN, does the coupled whole-cell (φ + shear) system,
@@ -119,6 +124,12 @@ Matter sources φ **only indirectly**: n shapes T^{AB} → deforms `a,bt` (shear
   geometry-shear closure — legitimate for the STRUCTURAL yes/no, NOT the final verdict; the full N5d
   co-relaxes `n`. Tagged as a scoped pilot simplification (no-shortcuts: a frozen DOF is a flag, here
   ledgered + justified because the frozen field is independently solved).
+  **STAGING RULE (Charles-approved 2026-07-06):**
+  - **Stage 1: frozen hopfion source + live shear + exact φ.** (this pilot)
+  - **Stage 2: co-relaxed hopfion — ONLY if Stage 1 produces a nontrivial branch / pin candidate OR a
+    suspicious continuum.** If Stage 1's frozen-source + live-shear cannot even create a well /
+    turning-point structure / a discrete-closure candidate, co-relaxing the hopfion is likely wasted
+    complexity; if it DOES produce a pin candidate, Stage 2 (co-relaxed source) is MANDATORY before banking.
 - **Solver method:** monolithic residual `[φ-ODE; ρ-ODE; shear-EL; f-PDE(frozen); all BCs; H=0]`, dense
   Levenberg–Marquardt with jacrev Jacobian (`cell_solver_f2d:299-339`) — Category-A (conditioning), NOT
   operator-split (the φ↔ρ↔s coupling through e^{±2φ} and 𝒦 is stiff).
@@ -156,12 +167,31 @@ and report the dependence (whole-before-slice; no single-corner verdict):
 This BC is the exact analogue of the seal Class-A/Class-B fork (`seal_matching:49-64`) for the shear
 sector; it is a physics/canon call (Charles holds), NOT adjudicated here.
 
+**BC-FORK BANKING RULE (Charles-approved 2026-07-06):** if S-Dir and S-JC2 DISAGREE, the result is
+**CONDITIONAL, not a pin**. Do NOT bank Outcome A (a native size/ξ pin) unless the branch SURVIVES the
+shear-BC fork (both BCs give it) OR the fork is resolved canonically first (a Charles/canon call). A
+disagreement is itself the deliverable: it says the pin-vs-continuum answer is conditional on the shear
+seal, which then must be pinned before any verdict.
+
 ---
 
 ## 5. Conserved / readout quantities
 
-- **Public charge / MS mass:** `q = Z_φ ρ_s² φ'(r_s) = M` (Misner–Sharp mass = cell public charge;
-  `universe_cell_fold:29`, seal JC1 `seal_matching:14-27`). **NOT `q ∝ Q_H`** (an import — forbidden).
+- **Public charge / MS mass — NEUTRAL SIGN CONVENTION (Charles-approved 2026-07-06; REQUIRED before build).**
+  There is a live sign tension in the corpus: the depth/size node phrases `M = +q`, while the N5b/N2 chain
+  phrases `Π_φ = Z_φ q = −Z_φ M` ⇒ `M = −q` (to O(1/r); departing at O(1/r²) = the genuine nonlinear +2q²).
+  The doc/code must NOT hard-code either. Implement neutrally:
+
+      q_raw       = Z_phi * rho_s**2 * phi_prime_s        # the raw seal flux integral (unambiguous)
+      Pi_phi      = Z_phi * q_raw                          # or the Gauss-budget form, per §5 budget
+      sign_convention = ±1   # pinned ONCE from the current whole-cell canon (Gate-8), NOT chosen to taste
+      M_readout   = sign_convention * q_raw
+
+  Report BOTH `q_raw` and `M_readout` (and `Pi_phi`) so no hidden sign flip can manufacture a false positive.
+  `sign_convention` is pinned deliberately from canon BEFORE build and checked by Gate-8 (§7). NOTE for the
+  physics: a *discrete-closure set* (Outcome-A candidate) does NOT depend on the sign of M; only the
+  *positive-mass lean* (the N4rev sign result) does — so the sign fork cannot fake a pin, but it must be
+  correct before any mass-sign statement. **NOT `q ∝ Q_H`** (an import — forbidden).
 - **δq the hopfion induces:** the change in `q` between the vacuum (shear off, `s≡0`) and the
   shear-on hopfion-sourced solve — the CF1 far-field monopole (H4_N1:63-68). δq≠0 ⇒ the off-round
   source produces a net mass; δq=0 ⇒ it cancels.
@@ -202,7 +232,7 @@ condition number (`cell_solver_f2d:342-347`); H(r) drift; Derrick residual; ℓ-
 
 ## 7. Preflight tests BEFORE any pilot (must all pass; recorded before the run)
 
-**The 7-gate preflight** (re-run each; a RED gate BLOCKS the pilot):
+**The 8-gate preflight** (re-run each; a RED gate BLOCKS the pilot):
 1. **Exact operator** — φ-source `−2√h 𝒦` and E^{AB} match H4_N1:19-46 verbatim (no GR G=8πT).
 2. **Correct sign / source** — 𝒦=−2det(K^A_B); round source `+4e^{−2φ}` sign (native_field:119).
 3. **No archived wrong-operator** — no import of `branch_operator.py` / `p1_residual` / `branchGP` /
@@ -212,6 +242,9 @@ condition number (`cell_solver_f2d:342-347`); H(r) drift; Derrick residual; ℓ-
 6. **L_bare⁻¹ verified** — `python3 h4_scripts/lbare_inverse.py` all PASS. **RE-RUN 2026-07-06: PASS**
    (indicial {1,2}; L@L⁻¹−I=1.2e−13; 2nd-order convergence; GREENBUG residual 1.06e3 confirmed wrong).
 7. **Variables / BCs locked** — the §3/§4 tables committed before the run (pre-registration).
+8. **Sign-convention gate (Charles-approved 2026-07-06)** — on the ROUND test case, `q_raw`, `Pi_phi`,
+   and `M_readout` must all AGREE with the chosen whole-cell convention (`sign_convention` pinned once from
+   canon, §5). A mismatch here BLOCKS the pilot (a hidden sign flip could otherwise fake a false positive).
 
 **Unit tests of each assembled piece:**
 - **Round-limit recovery** — with `s≡0` (shear frozen off) the N5d residual == `cell_solver_f2d`
@@ -290,6 +323,12 @@ STRUCTURAL yes/no for the ℓ=2 frozen-source corner ONLY; a continuum there is 
 (solver-first: a frozen higher-ℓ DOF is "one more thing", not a metric verdict), and a pin there is a
 LEAD to verify at higher ℓ + unfrozen source before banking. Every result is PROVISIONAL until the
 verifier-before-record pass.
+
+**PILOT-VERDICT SCOPE RULE (Charles-approved 2026-07-06 — binding):**
+- A **continuum** result in this pilot is **NOT Outcome B for full N5d**; it is B **only** for the
+  frozen-source, ℓ=2, block-diagonal, static tile.
+- A **pin** result is **NOT Outcome A**; it is an **A-CANDIDATE** requiring higher-ℓ + co-relaxed-source
+  confirmation (Stage 2, §3) — and, per §4, surviving the shear-BC fork — before it can be banked.
 
 ## Premise ledger (chose-or-derived — every FREE physics constant this solver rides)
 | item | tag |
