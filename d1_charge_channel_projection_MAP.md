@@ -162,7 +162,7 @@ legacy 1/(2N²) route in isolation; genuine native ½'s exist.
 
 **But does the exact object equal ½q²?** Two routes:
 
-*(a) Interface chain* (`negative_phi:124`): η = B·(isotropy) = (p/2)·(1/3). With p=q this is q/6, and
+*(a) Interface chain* (`negative_phi_native_geometry.md` §124): η = B·(isotropy) = (p/2)·(1/3). With p=q this is q/6, and
 it equals **q²/2 only if the isotropy factor 1/3 is identified with q** (true at q=1/3, giving 1/18).
 That identification IS the Task-2 channel question — so this route's ½ is real but its "=½q²" rides
 q=1/3 being a channel share, which §3 showed is unforced.
