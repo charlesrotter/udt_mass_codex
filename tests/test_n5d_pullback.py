@@ -1,7 +1,14 @@
-"""Pullback correctness (registration B) regression tests.
-The frozen ell=2 source must be pulled back at the CURRENT physical cell coordinate r(zeta)=rc+(L/2)(zeta+1),
-not frozen at the seed L0.  These pin: L=L0 reproduces the old registration; L!=L0 differs in the expected
-way; P2 normalization stays 2/5; the source enters ONLY the shear row (no direct phi-source)."""
+"""Pullback / registration-B tests for the FROZEN ell=2 source HELPER (n5d_pilot.build_Tshear +
+n5d_shear.source_interp).
+
+STAGE-2 SCOPE (2026-07-06): the frozen sh2(r) profile / stress_profiles.npz is RETIRED from the residual
+path -- the Stage-2 residual sources the shear from the LIVE co-relaxed matter's own traceless stress
+(-(rho^2/4) T_s, see test_n5d_stage2.py), NOT from an imported flat-hopfion profile.  The build_Tshear /
+source_interp helpers REMAIN importable as an OPTIONAL initial-guess SEED / diagnostic (Charles 2026-07-06),
+so these tests pin the helper's registration-B correctness as a STANDALONE array builder -- they no longer
+couple it to the residual (the src-in-residual + rho^2/2-frame-factor tests were removed with the Stage-1
+frozen-source residual path).
+"""
 import os
 os.environ.setdefault("PYTORCH_NVML_BASED_CUDA_CHECK", "0")
 import numpy as np
@@ -40,8 +47,7 @@ def test_pullback_L_equals_L0_reproduces_old():
 
 def test_pullback_interp_matches_standalone_at_L0():
     """The registration-B INTERPOLATION (sh2 at current-L physical r) matches the standalone
-    build_Tshear raw array (both WITHOUT the rho^2/2 frame factor, which is applied separately in
-    fields with access to the rho field -- see the frame-factor tests)."""
+    build_Tshear raw array (raw interp * P2, no frame factor -- the helper is a pure array builder)."""
     ctx = C.make_ctx(Nr, Nth, rc=0.5)
     u = C.seed_n5d(ctx, a2_amp=1e-3)                             # vector carries L = L0 (seed L0=1.0)
     L_vec = float(C.unpack(u, ctx, n5d=True)[-1])
@@ -50,58 +56,6 @@ def test_pullback_interp_matches_standalone_at_L0():
     live_T = 1.0 * live_src2[:, None] * ctx["P2"][None, :]       # raw interp * P2 (no frame factor)
     standalone = P.build_Tshear(ctx, L_vec, 1.0, SRC_RC, SRC_SH2)
     assert torch.allclose(live_T, standalone, atol=1e-12, rtol=0.0)
-
-
-def _source_projection(u, ctx, n5d_src, n5d_none):
-    """The ell=2 projected source contribution = shear_res(with src) - shear_res(no src)."""
-    Q1 = C.fields(u, ctx, PRM, n5d=n5d_src)
-    Q0 = C.fields(u, ctx, PRM, n5d=n5d_none)
-    return (Q1["shear_res"] - Q0["shear_res"])
-
-
-def test_frame_factor_rho2_over_2_applied():
-    """fields() applies the DERIVED rho^2/2 frame factor: the projected source contribution equals
-    amp * (rho^2/2) * sh2(r) * sum_j w_j P2_j^2  (= (rho^2/2)*sh2*(2/5)), node by node."""
-    ctx = C.make_ctx(Nr, Nth, rc=0.5)
-    u = C.seed_n5d(ctx, a2_amp=1e-3)
-    phi, rho, uf, a2, L = C.unpack(u, ctx, n5d=True)
-    n5d_src = dict(sealbc="S-Dir", src=(SRC_RC, SRC_SH2, 1.0), a2_mirror=0.0)
-    n5d_none = dict(sealbc="S-Dir", a2_mirror=0.0)
-    got = _source_projection(u, ctx, n5d_src, n5d_none)
-    r_phys = ctx["rc"] + 0.5 * float(L) * (ctx["zeta"] + 1.0)
-    sh2 = C.n5d_shear.source_interp(SRC_RC, SRC_SH2, r_phys)
-    wP2sq = float((ctx["w"] * ctx["P2"] ** 2).sum())            # = 2/5
-    expect = (0.5 * rho ** 2) * sh2 * wP2sq                     # (rho^2/2)*sh2*(2/5)
-    assert torch.allclose(got, expect, atol=1e-12, rtol=1e-10), float((got - expect).abs().max())
-
-
-def test_frame_factor_scales_as_rho_squared():
-    """Scaling rho -> 2*rho multiplies the projected source contribution by exactly 4 (rho^2)."""
-    ctx = C.make_ctx(Nr, Nth, rc=0.5)
-    u = C.seed_n5d(ctx, a2_amp=1e-3)
-    phi, rho, uf, a2, L = C.unpack(u, ctx, n5d=True)
-    n5d_none = dict(sealbc="S-Dir", a2_mirror=0.0)
-    n5d_src = dict(sealbc="S-Dir", src=(SRC_RC, SRC_SH2, 1.0), a2_mirror=0.0)
-    s1 = _source_projection(u, ctx, n5d_src, n5d_none)
-    u2 = C.pack(phi, 2.0 * rho, uf, float(L), a2=a2)            # double rho
-    # subtract the no-source shear_res at the SAME rho-scaled state (E_s_geom also changes with rho)
-    n5d_none2 = dict(sealbc="S-Dir", a2_mirror=0.0)
-    s2 = _source_projection(u2, ctx, n5d_src, n5d_none2)
-    ratio = (s2 / s1)[s1.abs() > 1e-12]
-    assert torch.allclose(ratio, 4.0 * torch.ones_like(ratio), atol=1e-8), float(ratio.mean())
-
-
-def test_frame_factor_is_phi_blind():
-    """The rho^2/2 factor is phi-BLIND: changing phi (not rho) leaves the projected source unchanged."""
-    ctx = C.make_ctx(Nr, Nth, rc=0.5)
-    u = C.seed_n5d(ctx, a2_amp=1e-3)
-    phi, rho, uf, a2, L = C.unpack(u, ctx, n5d=True)
-    n5d_none = dict(sealbc="S-Dir", a2_mirror=0.0)
-    n5d_src = dict(sealbc="S-Dir", src=(SRC_RC, SRC_SH2, 1.0), a2_mirror=0.0)
-    s1 = _source_projection(u, ctx, n5d_src, n5d_none)
-    u2 = C.pack(phi + 0.37, rho, uf, float(L), a2=a2)          # shift phi, keep rho
-    s2 = _source_projection(u2, ctx, n5d_src, n5d_none)
-    assert torch.allclose(s1, s2, atol=1e-12), "source depends on phi -> NOT phi-blind!"
 
 
 @pytest.mark.parametrize("L1", [0.3, 0.1, 3.0])
@@ -124,31 +78,15 @@ def test_P2_quadrature_norm_still_two_fifths():
     assert abs(float((ctx["w"] * ctx["P2"]).sum())) < 1e-12          # orthogonal to P0
 
 
-def test_source_is_phi_blind_no_direct_phi_source():
-    """The source enters ONLY the shear (h_AB) row: adding it must NOT change phi_ode / rho_ode / res_f;
-    only shear_res changes.  (a2 is held fixed, so the phi off-round a2'^2 correction is unchanged too.)"""
+def test_frozen_source_is_NOT_in_the_residual():
+    """STAGE-2 provenance guard: passing a frozen Tshear/src in the n5d dict must NOT change the residual
+    (the frozen-source residual path is retired; the live T_s source is the ONLY matter source)."""
     ctx = C.make_ctx(Nr, Nth, rc=0.5)
     u = C.seed_n5d(ctx, a2_amp=1e-3)
-    n5d_no = dict(sealbc="S-Dir", a2_mirror=0.0)                              # vacuum shear (no source)
-    n5d_src = dict(sealbc="S-Dir", src=(SRC_RC, SRC_SH2, 1.0), a2_mirror=0.0)  # with source
-    Q0 = C.fields(u, ctx, PRM, n5d=n5d_no)
-    Q1 = C.fields(u, ctx, PRM, n5d=n5d_src)
-    assert torch.allclose(Q0["phi_ode"], Q1["phi_ode"], atol=1e-14), "source leaked into phi-ODE!"
-    assert torch.allclose(Q0["rho_ode"], Q1["rho_ode"], atol=1e-14), "source leaked into rho-ODE!"
-    assert torch.allclose(Q0["res_f"], Q1["res_f"], atol=1e-14), "source leaked into matter f-PDE!"
-    assert not torch.allclose(Q0["shear_res"], Q1["shear_res"], atol=1e-8), "source did NOT reach shear row!"
-
-
-def test_live_source_jacobian_finite_and_L_dependent():
-    """The live source must be differentiable (jacrev works) and the residual's dependence on L must
-    include the source (registration B: source moves with L)."""
-    from torch.func import jacrev
-    ctx = C.make_ctx(Nr, Nth, rc=0.5)
-    u = C.seed_n5d(ctx, a2_amp=1e-3)
-    n5d = dict(sealbc="S-Dir", src=(SRC_RC, SRC_SH2, 1.0), a2_mirror=0.0)
-    J = jacrev(lambda uu: C.residual(uu, ctx, PRM, n5d=n5d))(u).detach()
-    assert bool(torch.isfinite(J).all())
-    # the shear rows must have a NONZERO derivative wrt L (last column) -> source tracks L
-    shear_rows = slice(J.shape[0] - Nr, J.shape[0])
-    dL_col = J[shear_rows, -1]
-    assert float(dL_col.abs().max()) > 0.0, "shear rows do not depend on L -> source not tracking L (not B)"
+    Nr_, Nth_ = ctx["Nr"], ctx["Nth"]
+    bogus = 0.05 * ctx["P2"][None, :].repeat(Nr_, 1)            # a nonzero (Nr,Nth) P2 array
+    F_plain = C.residual(u, ctx, PRM, n5d=dict(sealbc="S-Dir", a2_mirror=0.0))
+    F_Tshear = C.residual(u, ctx, PRM, n5d=dict(sealbc="S-Dir", a2_mirror=0.0, Tshear=bogus))
+    F_src = C.residual(u, ctx, PRM, n5d=dict(sealbc="S-Dir", a2_mirror=0.0, src=(SRC_RC, SRC_SH2, 1.0)))
+    assert torch.allclose(F_plain, F_Tshear, atol=1e-14), "frozen Tshear leaked into the residual (Stage-2 retired it)"
+    assert torch.allclose(F_plain, F_src, atol=1e-14), "frozen src leaked into the residual (Stage-2 retired it)"

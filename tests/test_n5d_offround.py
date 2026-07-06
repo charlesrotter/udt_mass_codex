@@ -80,21 +80,20 @@ def test_phi_source_correction_vanishes_at_zero():
     assert torch.allclose(got, (1.0 / (5.0 * Z)) * e2m * a2p ** 2, atol=1e-15)
 
 
-def test_matter_is_phi_blind_source_only_on_h_side():
-    """A nonzero traceless matter source T^{AB} changes ONLY the appended shear rows -- the phi-ODE,
-    rho-ODE and f-PDE rows are byte-identical (matter enters ONLY via T^{AB} on the h-side; there is
-    NO e^{2phi}.T term on the phi row).  This is the operational delta S_m/delta phi = 0."""
+def test_matter_source_is_phi_blind_stage2():
+    """STAGE-2: the LIVE matter shear source T_s (and the matter f-PDE + matter moments) is phi-BLIND --
+    L_m has NO phi (only rho, s, f), so shifting phi at fixed rho,f,a2 leaves T_s, the off-round matter
+    moments, and res_f unchanged; only the GEOMETRIC pieces (phi_ode, the e^{-2phi} in Es_geom) move.
+    This is the operational delta S_m/delta phi = 0."""
     ctx = C.make_ctx(6, 6, rc=0.5)
-    Nr, Nth = ctx["Nr"], ctx["Nth"]
     u = C.seed_n5d(ctx, a2_amp=1e-3)
-    # nonzero traceless source with a genuine ell=2 (P2) content so it survives the P2 projection
-    Tshear = 0.05 * ctx["P2"][None, :].repeat(Nr, 1)
-    F_vac = C.residual(u, ctx, PRM, n5d=dict(sealbc="S-JC2"))
-    F_src = C.residual(u, ctx, PRM, n5d=dict(sealbc="S-JC2", Tshear=Tshear))
-    base_len = C.residual(C.seed(ctx), ctx, PRM).numel()
-    # base rows (phi, rho, f, H) must be untouched by the matter source
-    assert float((F_vac[:base_len] - F_src[:base_len]).abs().max()) < 1e-14, \
-        "matter source leaked onto the phi/rho/f rows (phi-blindness violated)"
-    # the shear rows DO respond (the source acts on the h-side)
-    assert float((F_vac[base_len:] - F_src[base_len:]).abs().max()) > 1e-6, \
-        "matter source did not reach the shear (h-side) rows"
+    phi, rho, uf, a2, L = C.unpack(u, ctx, n5d=True)
+    n5d = dict(sealbc="S-Dir", a2_mirror=0.0)
+    Q0 = C.fields(u, ctx, PRM, n5d=n5d)
+    u2 = C.pack(phi + 0.41, rho, uf, float(L), a2=a2)              # shift phi, hold rho,f,a2
+    Q1 = C.fields(u2, ctx, PRM, n5d=n5d)
+    for key in ("Ts", "Tshear_live", "res_f", "Ith_es", "Is_es", "I4r_es"):
+        assert torch.allclose(Q0[key], Q1[key], atol=1e-14), f"matter piece {key} depends on phi -> NOT phi-blind"
+    # sanity: the source is genuinely nonzero (else the blindness check is vacuous), and Es_geom DOES move
+    assert float(Q0["Ts"].abs().max()) > 1e-6, "live T_s is ~0 -> phi-blindness check would be vacuous"
+    assert float((Q0["Es_geom"] - Q1["Es_geom"]).abs().max()) > 1e-9, "geometric E-row must move with phi (e^{-2phi})"

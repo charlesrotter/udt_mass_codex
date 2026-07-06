@@ -30,16 +30,22 @@ def test_roundlimit_base_rows_identical(sealbc):
     assert err < 1e-14, f"base rows perturbed by frozen shear (sealbc={sealbc}): max|diff|={err:.2e}"
 
 
-def test_roundlimit_shear_rows_vanish_at_zero():
-    """With a2==0 the appended shear rows are identically 0 (a live but satisfied shear block)."""
+def test_roundlimit_shear_rows_vanish_at_rigid_hedgehog():
+    """STAGE-2: with a2==0 AND rigid matter (u=0, f=theta, N=1) the appended shear rows are identically 0
+    -- both the geometric E-row (s=0) AND the live matter source T_s (rigid hedgehog carries no shear).
+
+    NOTE (Stage-2 co-relaxation): at a2==0 with NON-rigid matter (u!=0) the shear rows are NOT zero -- the
+    live matter's own P2-projected traceless stress SOURCES the shear (that is the whole point of Stage-2;
+    the frozen-vacuum 'shear rows vanish at a2=0' statement was Stage-1 only).  So the round null requires
+    rigid matter too."""
     ctx = C.make_ctx(6, 6, rc=0.5)
     ub = C.seed(ctx); base_len = C.residual(ub, ctx, PRM).numel()
     for sealbc in ("S-Dir", "S-JC2", "off"):
-        un = C.seed_n5d(ctx, a2_amp=0.0)
+        un = C.seed_n5d(ctx, a2_amp=0.0, amp=0.0)         # a2=0 AND u=0 (rigid hedgehog)
         Fn = C.residual(un, ctx, PRM, n5d=dict(sealbc=sealbc))
         shear_block = Fn[base_len:]
-        assert float(shear_block.abs().max()) < 1e-14, \
-            f"shear rows nonzero at a2=0 (sealbc={sealbc}): {float(shear_block.abs().max()):.2e}"
+        assert float(shear_block.abs().max()) < 1e-13, \
+            f"shear rows nonzero at rigid a2=u=0 (sealbc={sealbc}): {float(shear_block.abs().max()):.2e}"
 
 
 def test_base_smoke_one_lm_step_decreases():

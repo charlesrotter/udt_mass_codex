@@ -249,60 +249,92 @@ def fields(v, ctx, prm, n5d=None):
                e2m=e2m, e2p=e2p, Ir=Ir, Ith=Ith, Is=Is, I4th=I4th, I4r=I4r,
                phi_ode=phi_ode, rho_ode=rho_ode, res_f=res_f)
 
-    # ---------- N5d OFF-ROUND SHEAR (additive; a2==0 leaves every base row unchanged) ----------
+    # ---------- N5d STAGE-2 OFF-ROUND SHEAR + CO-RELAXED MATTER (a2==0 -> every base row unchanged) ----------
+    # STAGE-2 (2026-07-06, n5d_stage2a_cas_results.md / n5d_stage2b_gate05_report.md): the matter is
+    # CO-RELAXED inside the live off-round cell; NO frozen flat-hopfion import enters the residual.  Three
+    # coupled edits, all from ONE native phi-blind, h_AB-side action:
+    #   (i)   the matter f-PDE feels the shear (off-round e^{+-s} coefficients);
+    #   (ii)  the shear row is sourced by the LIVE matter's OWN traceless stress T_s = T^th_th - T^ps_ps,
+    #         with the matter->geometry coupling lambda = -1/2 (Gate-0.5, blind-verified): -(rho^2/4) T_s;
+    #   (iii) the off-round Hseal (H_of_r) folds e^{+-s} into the matter moments + adds the shear kinetic.
+    # At s=0 (a2=0) every e^{+-s}->1, sh_r=sh_th=0 -> each row reduces byte-for-byte to the base (round) row.
+    # (The frozen sh2(r) profile / stress_profiles.npz is RETIRED from the residual -- kept in n5d_shear /
+    #  n5d_pilot only as an OPTIONAL seed/diagnostic helper, never read here.)
     if n5d is not None:
         P2 = ctx["P2"]                                   # (Nth,)  Legendre P2(mu) : the ell=2 mode
         a2p = sc * (Dz @ a2); a2pp = sc * sc * (Dz2 @ a2)   # a2'(r), a2''(r)
-        # reconstruct s(r,theta) = a2(r) P2(mu) and its radial derivatives on the grid
-        s_field = a2[:, None] * P2[None, :]
-        s_r = a2p[:, None] * P2[None, :]
-        s_rr = a2pp[:, None] * P2[None, :]
-        # traceless geometric E-row (pointwise; sin th supplied by the ell=2 quadrature), n5d_shear
-        Es = n5d_shear.EAB_shear_row(rho[:, None], rhop[:, None], phip[:, None],
-                                     s_field, s_r, s_rr, e2m=e2m[:, None])   # (Nr,Nth)
-        # matter TRACELESS source T^{AB} (FROZEN profile; enters ONLY this h_AB shear row -- phi-BLIND,
-        # no direct phi-source).  Two ways to supply it:
-        #   n5d["src"]=(source_rc, source_sh2, amp): REGISTRATION B (native pullback) -- the frozen sh2(r)
-        #     profile is interpolated LIVE at the CURRENT physical cell coordinate r(zeta)=rc+(L/2)(zeta+1)
-        #     (current L, differentiable), NOT frozen at the seed L0.  No amplitude Jacobian (interp only).
-        #   n5d["Tshear"]=array: legacy precomputed (Nr,Nth) source (used by tests / diagnostics that pass
-        #     a fixed array); NOT L-tracking.  If both absent -> vacuum shear.
-        # FRAME FACTOR (rho^2/2, DERIVED 2026-07-06, CAS n5d_frame_factor_cas.py): the stored sh2 =
-        # <T_thth - T_phph>(l2) is an ORTHONORMAL/mixed-frame stress component (= T^th_th - T^ps_ps).
-        # The coded E_s (EAB_shear_row) is the ACTION-DENSITY form (delta L_geo/delta s)/sin th = (rho^2/2)
-        # (E^th_th - E^ps_ps) -- CAS ratio = 1 -- so it carries the sqrt(h)=rho^2 measure weight.  With the
-        # repo convention E^AB = T^AB = (2/sqrt(h)) delta S/delta h_AB (H4_N1:19-24), matching E_s + T_s = 0
-        # requires the SAME weight on the matter side: T_s = (rho^2/2) * sh2.  rho = areal radius (h_AB-side,
-        # phi-BLIND -> no direct phi-source).  [Still-open, SEPARATE: the flat-hopfion -> cell-frame embedding
-        # of the orthonormal COMPONENT itself = the frozen-source approximation, ledgered in section 4d.]
-        Tshear = n5d.get("Tshear", None)
-        src = n5d.get("src", None)
-        if src is not None:
-            src_rc, src_sh2, src_amp = src
-            r_phys = ctx["rc"] + 0.5 * L * (ctx["zeta"] + 1.0)   # CURRENT L (registration B; differentiable)
-            src2 = n5d_shear.source_interp(src_rc, src_sh2, r_phys)   # (Nr,) interp at current physical r
-            frame = 0.5 * rho[:, None] ** 2                          # rho^2/2 measure/frame factor (DERIVED)
-            Tshear = src_amp * frame * src2[:, None] * P2[None, :]   # amp * (rho^2/2) * sh2(r_cur) * P2(mu)
-        if Tshear is not None:
-            Es = Es + Tshear                              # E^{AB} = -T^{AB}  =>  E_s + T_s = 0
-        # ell=2 Galerkin projection: R2(r) = sum_j w_j P2_j (Es[.,j])   (w_j = int dmu incl. sin th)
-        shear_res = (ctx["w"][None, :] * P2[None, :] * Es).sum(1)          # (Nr,)
-        # EXACT off-round correction to the phi-ODE residual: +(1/(5Z)) e^{-2phi} a2'^2 (vanishes at a2=0)
+        # reconstruct the traceless shear s(r,theta) = a2(r) P2(mu) + its derivatives (SH-exact d/dtheta)
+        sh = a2[:, None] * P2[None, :]                   # s(r,theta)  (Nr,Nth)
+        sh_r = a2p[:, None] * P2[None, :]                # d s / d r
+        sh_rr = a2pp[:, None] * P2[None, :]              # d2 s / d r2
+        sh_th = sh @ DthT                                # d s / d theta = a2(r) dP2/dtheta (band-limited, exact)
+        e_sp = torch.exp(sh); e_sm = torch.exp(-sh)      # e^{+s}, e^{-s} (EXACT, no Taylor; -> 1 at s=0)
+
+        # (i) OFF-ROUND matter f-PDE (Stage-2a sec1): base A,B,pot gain e^{+-s}; expanded-divergence form.
+        #   A/f_r = xi rho^2 sin th + kap N^2 sin^2 f e^{s}/sin th ;  B/f_th = xi e^{-s} sin th + kap N^2 sin^2 f/(rho^2 sin th)
+        #   pot   = (N^2 sin f cos f/sin th)[ e^{s}(xi + kap f_r^2) + kap f_th^2/rho^2 ]
+        A_off = XI * rho_c ** 2 * s_r + KAP * N ** 2 * sf2 * e_sp / s_r
+        B_off = XI * s_r * e_sm + KAP * N ** 2 * sf2 / (rho_c ** 2 * s_r)
+        # analytic coefficient derivatives (only u_r,u_rr,u_th,u_thth come from the operators):
+        Ar_off = (2.0 * XI * rho_c * rhop_c * s_r
+                  + (KAP * N ** 2 * e_sp / s_r) * (2.0 * sf * cf * fr + sf2 * sh_r))
+        Bth_off = (XI * e_sm * (c_r - s_r * sh_th)
+                   - KAP * N ** 2 * sf2 * c_r / (rho_c ** 2 * s2_r)
+                   + (2.0 * KAP * N ** 2 * sf * cf / (rho_c ** 2 * s_r)) * fth)
+        pot_off = (N ** 2 * sf * cf / s_r) * (e_sp * (XI + KAP * fr ** 2) + KAP * fth ** 2 / rho_c ** 2)
+        res_f = (Ar_off * fr + A_off * frr) + (Bth_off * fth + B_off * fthth) - pot_off
+        out["res_f"] = res_f                             # override the round f-PDE with the off-round one
+
+        # (ii) geometric traceless E-row (pointwise; sin th supplied by the ell=2 quadrature)
+        Es_geom = n5d_shear.EAB_shear_row(rho_c, rhop_c, phip[:, None],
+                                          sh, sh_r, sh_rr, e2m=e2m[:, None])   # (Nr,Nth)
+        # LIVE matter traceless transverse stress  T_s = T^th_th - T^ps_ps  (Stage-2a sec7, blind-verified sign):
+        Ts = ((XI / rho_c ** 2) * (N ** 2 * e_sp * sf2 / s2_r - fth ** 2 * e_sm)
+              + (KAP * N ** 2 / rho_c ** 2) * fr ** 2 * e_sp * sf2 / s2_r)     # (Nr,Nth)
+        # matter->geometry coupling lambda=-1/2 (Gate-0.5, blind-verified): residual source = -(rho^2/4) T_s
+        # (NOT the naive Hilbert +(rho^2/2) T_s: that is 2x too large AND sign-flipped vs the base rho-EOM/H).
+        Tshear_live = -0.25 * rho_c ** 2 * Ts                                  # (Nr,Nth)
+        Es = Es_geom + Tshear_live                       # E^{AB} = -T^{AB}  ->  ell=2 Galerkin projection:
+        shear_res = (ctx["w"][None, :] * P2[None, :] * Es).sum(1)             # (Nr,)  R2(r)=sum_j w_j P2_j Es_j
+
+        # (iii) EXACT off-round phi-ODE correction +(1/(5Z)) e^{-2phi} a2'^2 (K=1/5 pin; vanishes at a2=0)
         phi_ode = phi_ode + n5d_shear.phi_source_offround_correction(rho, a2p, e2m, Z)
         out["phi_ode"] = phi_ode
-        out.update(dict(a2=a2, a2p=a2p, a2pp=a2pp, s_field=s_field, s_r=s_r, s_rr=s_rr,
-                        Es=Es, shear_res=shear_res))
+        # off-round matter moments for the Hseal row: fold e^{+-s} INSIDE the theta-integral (Gate-0.5 sec4)
+        Ith_es = 0.5 * (ctx["w"][None, :] * fth ** 2 * e_sm).sum(1)           # int sin th f_th^2 e^{-s}
+        Is_es = 0.5 * (ctx["w"][None, :] * sf2 * e_sp / s2_r).sum(1)          # int (sin^2 f/sin th) e^{+s}
+        I4r_es = 0.5 * (ctx["w"][None, :] * sf2 * fr ** 2 * e_sp / s2_r).sum(1)  # int (sin^2 f f_r^2/sin th) e^{+s}
+        out.update(dict(a2=a2, a2p=a2p, a2pp=a2pp, s_field=sh, sh_r=sh_r, sh_rr=sh_rr,
+                        e_sp=e_sp, e_sm=e_sm, Es=Es, Es_geom=Es_geom, Ts=Ts, Tshear_live=Tshear_live,
+                        shear_res=shear_res, Ith_es=Ith_es, Is_es=Is_es, I4r_es=I4r_es))
     return out
 
 
-def H_of_r(v, ctx, prm):
+# N5d Stage-2 off-round Hseal shear-kinetic coefficient (Gate-0.1/0.5): H gains +(1/10)e^{-2phi}rho^2 a2'^2.
+# PIN (K=1/5): 2*SHEAR_KIN_COEFF == K == Z*(phi-correction coeff 1/(5Z)) -- the shear kinetic and the certified
+# phi-ODE correction +(1/(5Z))e^{-2phi}a2'^2 (n5d_shear.phi_source_offround_correction) share one K.
+SHEAR_KIN_COEFF = 1.0 / 10.0
+
+
+def H_of_r(v, ctx, prm, n5d=None):
     """Conserved radial Hamiltonian H(r) at every radial node (should be ~constant on-shell; = 0
-    for a closed Class-A cell). Diagnostic + the closure row (at the seal)."""
+    for a closed Class-A cell). Diagnostic + the closure row (at the seal).
+
+    n5d=None -> the base round-trace H (unchanged).  n5d=dict -> the STAGE-2 off-round H: the matter
+    moments fold e^{+-s} INSIDE the theta-integral (Ith->Ith_es, Is->Is_es, I4r->I4r_es) and H gains the
+    shear kinetic +(1/10)e^{-2phi}rho^2 a2'^2 (Gate-0.5 sec4).  At a2=0 (e^{+-s}->1, a2'=0) it reduces to
+    the base H exactly."""
     Z, XI, KAP, N = prm
-    Q = fields(v, ctx, prm)
+    Q = fields(v, ctx, prm, n5d=n5d)
     rho, phip, rhop, e2m = Q["rho"], Q["phip"], Q["rhop"], Q["e2m"]
-    Ir, Ith, Is, I4th, I4r = Q["Ir"], Q["Ith"], Q["Is"], Q["I4th"], Q["I4r"]
-    return ((Z / 2.0) * rho ** 2 * phip ** 2 - 2.0 * e2m * rhop ** 2 - 2.0
+    Ir, I4th = Q["Ir"], Q["I4th"]                         # s-independent moments (no e^{+-s})
+    if n5d is None:
+        Ith, Is, I4r = Q["Ith"], Q["Is"], Q["I4r"]        # round moments
+        shear_kin = torch.zeros_like(rho)
+    else:
+        Ith, Is, I4r = Q["Ith_es"], Q["Is_es"], Q["I4r_es"]   # off-round e^{+-s}-folded moments
+        shear_kin = SHEAR_KIN_COEFF * e2m * rho ** 2 * Q["a2p"] ** 2   # +(1/10)e^{-2phi}rho^2 a2'^2
+    return ((Z / 2.0) * rho ** 2 * phip ** 2 - 2.0 * e2m * rhop ** 2 - 2.0 + shear_kin
             - (XI / 2.0) * rho ** 2 * Ir + (XI / 2.0) * (Ith + N ** 2 * Is)
             - (KAP * N ** 2 / 2.0) * I4r + (KAP * N ** 2 / 2.0) * I4th / rho ** 2)
 
@@ -365,7 +397,7 @@ def residual(v, ctx, prm, wbc=1.0, n5d=None):
         Q["res_f"][1:-1].reshape(-1),                            # f-PDE (interior r, all theta)
         wbc * fr[0, :], wbc * fr[-1, :],                         # f_r = 0 mirror (both ends, all theta)
     ]
-    Hseal = H_of_r(v, ctx, prm)[-1]                               # H = 0 closure (at the seal)
+    Hseal = H_of_r(v, ctx, prm, n5d=n5d)[-1]                      # H = 0 closure (off-round when n5d active)
     rows.append((wbc * Hseal).reshape(1))
 
     if n5d is not None:                                          # ---- N5d shear block (appended) ----
