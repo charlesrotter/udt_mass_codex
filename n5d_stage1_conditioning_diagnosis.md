@@ -131,6 +131,52 @@ FIX-3 (seed) both leave the Stage-1 pilot non-converged. The binding constraints
 constant-a2 null (→ FIX-2, gated) and the round-flatness φ/ρ degeneracy (a genuine feature, not a bug to
 seed around) — the pin-vs-continuum question for the ℓ=2 shear tile remains UNANSWERED (Outcome D stands).
 
+## 4c. Shear-forcing / residual-balance audit (PROVISIONAL, no verdict)
+
+**Date:** 2026-07-06 · scripts `n5d_shear_forcing_audit.py`, `n5d_shear_forcing_audit2.py` · HEAD after
+`fc1e4fa` · equations/BCs/source/readouts/residual/seal UNCHANGED · no FIX-2 · no verdict pilot.
+**Question:** is the ℓ=2 shear sector actually forced strongly+correctly by the frozen H3 source, or is
+the pilot seeing a near-zero/cancelled/misnormalized shear projection?
+
+**Finding: the shear sector IS strongly and correctly forced. The pilot's tiny a2 is a SOLVER artifact
+(L-collapse stall), NOT a forcing defect.**
+
+1. **Raw source (real & strong):** file `h4_scripts/stress_profiles.npz`; Q_H=0.9917; virial E2/E4=0.99946.
+   Full-field (256³, GPU): ‖T^AB‖=82.8, ‖shear‖(T_θθ−T_φφ)=47.7. Angular power of the traceless shear:
+   **ℓ=0 = 81.3%, ℓ=2 = 17.6%, ℓ=4 = 0.03%.** On the cell (r∈[0.5,1.5]) sh2∈[−3.27,0.90], rms 1.90;
+   projected source ‖rhs‖=3.01 — **not near-zero, not cancelled.**
+2. **Normalization/sign CORRECT:** ΣⱼwⱼP2ⱼ² = 0.400000 (=2/5 exact), ΣⱼwⱼP2ⱼ = −9e−16 (⊥P0). The 2/5
+   weight is applied identically to the geometric E_s row (s=a2·P2) and the source (amp·sh2·P2) → it
+   cancels in the a2-ODE. Sign: rows set ΣwP2(E_s_geom+Tshear)=0 ⇒ E_s_geom=−Tshear, consistent with
+   E^AB=−T^AB (Tshear = +T_s = T_θθ−T_φφ). No normalization or sign error.
+3. **Residual blocks (which block blocks convergence):** at the final stalled state the shear-ODE residual
+   is SMALL (S-Dir 4.1e−4) — the shear is NOT the blocker; the largest blocks are **Hseal (5.6e−3)** +
+   the boundary/closure rows (shear_seal_BC 5.0e−3, rho_BC 4.5e−3, f_BC 2.3e−3). For S-JC2 the shear BC
+   rows are large (9.3e−3) — the unpinned constant-a2 null. The blocker is the H=0 closure / mirror BCs,
+   not the shear forcing.
+4. **Linearized shear response (category-A):** freezing φ,ρ at the seed background (L=1.0) and solving the
+   LINEAR shear rows on the frozen source gives **expected a2_peak ≈ 2.1** (S-Dir; shear-op cond=1.19e4,
+   full rank, source solvable) — on BOTH round-flat and structured backgrounds. The nonlinear pilot got
+   a2_peak ≈ 5.1e−3 (S-Dir) / 1.9e−5 (S-JC2). **The ~400× shortfall is the L-COLLAPSE:** the coupled solve
+   collapses L 1.0→9.1e−3 (S-Dir, 110×) / 4.6e−3 (S-JC2, 218×); the source is registered at the fixed seed
+   L0=1.0 while the geometric coeff ∝(2/L)² stiffens ~10⁴× ⇒ predicted a2 ~ source/coeff ~ 1.2e−4 / 3.1e−5,
+   matching the observed a2_peak to order. At a physical finite-L cell the shear response is O(1).
+5. **Compatibility/solvability:** **S-Dir** shear op is full rank (cond 1.19e4) ⇒ source COMPATIBLE/solvable.
+   **S-JC2** has the exact constant-a2 null (right-null overlap-with-constant=1.000); the source EXCITES the
+   left-null by ⟨u_null,rhs⟩/‖rhs‖ = **0.68** ⇒ the ℓ=2 source is INCOMPATIBLE with S-JC2 until the null is
+   pinned (the linear solve blows up to ~1e13). Per the gate, NOT pinned/interpreted here (FIX-2).
+
+**Classification of the tiny shear response:** primarily **(d) solver residual imbalance / non-convergence**
+— the L-collapse stall stiffens the operator so the fixed-L0 source under-drives the shrunken cell; the
+forcing itself is strong (‖rhs‖=3.0), correctly normalized, and well-conditioned/compatible for S-Dir
+(linear a2≈2.1). Secondarily **(b) projection/truncation** — the ℓ=2-only tile couples to just **17.6%** of
+the traceless shear power (ℓ=0 dominates at 81.3%; flagged for higher-ℓ). **NOT (a)** cancellation, **NOT
+(c)** normalization/sign, **NOT (e)** weak coupling. For S-JC2, an additional compatibility failure vs the
+unpinned constant-a2 null (→ FIX-2). The L-collapse ties to the round-continuum/closure degeneracy already
+seen in FIX-3 (the round base does not close to a finite-L cell). **No physics verdict, no Outcome A/B, no
+continuum lead.** FLAG (category-A, not changed here): the source registration pins to the seed L0 while the
+solve collapses L — the source detaches from the cell scale as L→0.
+
 ## 5. Scope / discipline
 - ONE tile: static, Branch P, block-diagonal, ℓ=2 axisymmetric shear, frozen H3-hopfion source, whole cosmic cell.
 - Premise ledger unchanged from the pilot: ξ FREE, κ FREE-units, Z_φ=8 (CHOSE — Route-A carrying the Route-B
