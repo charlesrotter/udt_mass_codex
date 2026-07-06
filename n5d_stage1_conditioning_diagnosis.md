@@ -275,6 +275,17 @@ lab frame) equal the cell-frame `T_s` in `E_s + T_s = 0` as-is, or need a ρ²/f
    `tests/test_n5d_pullback.py` (+3 frame-factor: exact `(ρ²/2)·sh2·(2/5)` match, ρ²-scaling, φ-blindness);
    full suite **59 passed / 1 xfailed**; L_bare 7 PASS; N5d preflight both BCs base-row match 0.0.
 
+**BLIND-VERIFIED (2026-07-06, independent CAS, agent a83a6c5d4a51b8fd9):** a fresh zero-context agent, forbidden
+from reading `n5d_frame_factor_cas.py` and this doc, re-derived from the primitive action density (`op_derive2`
+`ell`) + the coded `EAB_shear_row` + the H4_N1 convention using its own sympy. It obtained INDEPENDENTLY:
+round/trace part = 0; **ratio (δL_geo/δs)/(sinθ·E_s_coded) = 1** ⇒ coded `E_s` is the action-density/measure-
+weighted form `(ρ²/2)(E^θ_θ−E^ψ_ψ)`; matter density `δS_m/δs = (ρ²sinθ/2)·sh2`; **required multiplier = ρ²/2,
+sign POSITIVE** (`T_s = +(ρ²/2)·sh2`, added). This MATCHES the implemented patch exactly. Integrity caveat: the
+agent was permitted to read `cell_solver_f2d.py fields/residual`, whose inline comment now asserts ρ²/2 — but
+the load-bearing `ratio=1` and the matter density were computed by its own CAS (a comment cannot fake a symbolic
+identity), so the derivation is independent on the load-bearing algebra. ⇒ **frame-factor patch = BLIND-VERIFIED
+(still no physics verdict).**
+
 **Still-separate open item (frozen-source approximation, §4d):** the flat-hopfion stress is used as the
 cell-frame orthonormal COMPONENT directly (flat vs curved-cell embedding); that is a distinct approximation,
 untouched by this frame-factor resolution. **No physics verdict, no Outcome A/B, no continuum lead. Outcome D
