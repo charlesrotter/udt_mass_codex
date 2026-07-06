@@ -76,6 +76,11 @@ from scipy.special import roots_legendre
 import torch
 torch.set_default_dtype(torch.float64)
 
+# N5d off-round transverse (shear) extension -- ADDITIVE; inactive unless n5d config is passed.
+# The shear pieces (exact Kcal, sqrt_h, traceless E-row, off-round phi-source correction) live in
+# the isolated, unit-tested n5d_shear.py (NO archived operator, e^{-2phi} EXACT).
+import n5d_shear
+
 
 # =========================================================================================
 # GRID / OPERATOR CONSTRUCTION (reproduced methods, no imports of the parts-bin modules)
@@ -153,33 +158,51 @@ def make_ctx(Nr, Nth, rc=0.5, device="cpu"):
         th=tt(th), mu=tt(mu), w=tt(w),
         DthT=tt(Dth.T), Dth2T=tt(Dth2.T),
         s=tt(np.sin(th)), c=tt(np.cos(th)), s2=tt(1.0 - mu ** 2),   # s2 = sin^2 th = 1-mu^2
+        P2=tt(0.5 * (3.0 * mu ** 2 - 1.0)),                        # Legendre P2(mu): the ell=2 shear mode
     )
 
 
 # =========================================================================================
-# PACK / UNPACK  --  u_vec = [ phi(Nr), rho(Nr), u_field(Nr*Nth), L ]
+# PACK / UNPACK  --  base:  u_vec = [ phi(Nr), rho(Nr), u_field(Nr*Nth), L ]
+#                   n5d :   u_vec = [ phi(Nr), rho(Nr), u_field(Nr*Nth), a2(Nr), L ]
+# The a2(r) (ell=2 shear amplitude) block is INSERTED before L, so the base slices (phi, rho, uf, L)
+# are byte-identical -- the extension is ADDITIVE (a2=None recovers the exact base layout).
 # =========================================================================================
-def pack(phi, rho, ufield, L):
-    return torch.cat([phi.reshape(-1), rho.reshape(-1), ufield.reshape(-1),
-                      torch.as_tensor([L], dtype=torch.float64, device=phi.device)])
+def pack(phi, rho, ufield, L, a2=None):
+    parts = [phi.reshape(-1), rho.reshape(-1), ufield.reshape(-1)]
+    if a2 is not None:
+        parts.append(a2.reshape(-1))
+    parts.append(torch.as_tensor([L], dtype=torch.float64, device=phi.device))
+    return torch.cat(parts)
 
 
-def unpack(v, ctx):
+def unpack(v, ctx, n5d=None):
     Nr, Nth = ctx["Nr"], ctx["Nth"]
     phi = v[:Nr]; rho = v[Nr:2 * Nr]
     uf = v[2 * Nr:2 * Nr + Nr * Nth].reshape(Nr, Nth)
     L = v[-1]
-    return phi, rho, uf, L
+    if n5d is None:
+        return phi, rho, uf, L
+    a2 = v[2 * Nr + Nr * Nth:2 * Nr + Nr * Nth + Nr]        # the ell=2 shear amplitude a2(r)
+    return phi, rho, uf, a2, L
 
 
 # =========================================================================================
 # FIELDS + DERIVATIVES + MOMENTS  (the single shared evaluator; torch, jacrev-safe)
 # =========================================================================================
-def fields(v, ctx, prm):
-    """Return a dict of all node-level quantities used by the residual + diagnostics."""
+def fields(v, ctx, prm, n5d=None):
+    """Return a dict of all node-level quantities used by the residual + diagnostics.
+
+    n5d (dict or None): OFF-ROUND shear extension.  When None the base (round-trace) system is
+    computed byte-for-byte unchanged.  When a dict, the ell=2 traceless shear a2(r) is live: the
+    phi-ODE gains the exact off-round source correction +(1/(5Z))e^{-2phi}a2'^2 (n5d_shear), and
+    the shear EL row + its BCs are added by residual().  With a2==0 every base row is identical."""
     Z, XI, KAP, N = prm
     Nr, Nth = ctx["Nr"], ctx["Nth"]
-    phi, rho, uf, L = unpack(v, ctx)
+    if n5d is None:
+        phi, rho, uf, L = unpack(v, ctx)
+    else:
+        phi, rho, uf, a2, L = unpack(v, ctx, n5d=n5d)
     Dz, Dz2 = ctx["Dz"], ctx["Dz2"]
     DthT, Dth2T = ctx["DthT"], ctx["Dth2T"]
     s, c, s2, th = ctx["s"], ctx["c"], ctx["s2"], ctx["th"]
@@ -222,9 +245,33 @@ def fields(v, ctx, prm):
     rho_ode = rhopp - (2.0 * phip * rhop - (Z / 4.0) * rho * e2p * phip ** 2
                        + (e2p / 4.0) * (XI * rho * Ir - KAP * N ** 2 * I4th / rho ** 3))
 
-    return dict(phi=phi, rho=rho, L=L, phip=phip, rhop=rhop, fr=fr,
-                e2m=e2m, e2p=e2p, Ir=Ir, Ith=Ith, Is=Is, I4th=I4th, I4r=I4r,
-                phi_ode=phi_ode, rho_ode=rho_ode, res_f=res_f)
+    out = dict(phi=phi, rho=rho, L=L, phip=phip, rhop=rhop, fr=fr,
+               e2m=e2m, e2p=e2p, Ir=Ir, Ith=Ith, Is=Is, I4th=I4th, I4r=I4r,
+               phi_ode=phi_ode, rho_ode=rho_ode, res_f=res_f)
+
+    # ---------- N5d OFF-ROUND SHEAR (additive; a2==0 leaves every base row unchanged) ----------
+    if n5d is not None:
+        P2 = ctx["P2"]                                   # (Nth,)  Legendre P2(mu) : the ell=2 mode
+        a2p = sc * (Dz @ a2); a2pp = sc * sc * (Dz2 @ a2)   # a2'(r), a2''(r)
+        # reconstruct s(r,theta) = a2(r) P2(mu) and its radial derivatives on the grid
+        s_field = a2[:, None] * P2[None, :]
+        s_r = a2p[:, None] * P2[None, :]
+        s_rr = a2pp[:, None] * P2[None, :]
+        # traceless geometric E-row (pointwise; sin th supplied by the ell=2 quadrature), n5d_shear
+        Es = n5d_shear.EAB_shear_row(rho[:, None], rhop[:, None], phip[:, None],
+                                     s_field, s_r, s_rr, e2m=e2m[:, None])   # (Nr,Nth)
+        # matter TRACELESS source T^{AB} (FROZEN profile in the pilot; None -> vacuum shear)
+        Tshear = n5d.get("Tshear", None)
+        if Tshear is not None:
+            Es = Es + Tshear                              # E^{AB} = -T^{AB}  =>  E_s + T_s = 0
+        # ell=2 Galerkin projection: R2(r) = sum_j w_j P2_j (Es[.,j])   (w_j = int dmu incl. sin th)
+        shear_res = (ctx["w"][None, :] * P2[None, :] * Es).sum(1)          # (Nr,)
+        # EXACT off-round correction to the phi-ODE residual: +(1/(5Z)) e^{-2phi} a2'^2 (vanishes at a2=0)
+        phi_ode = phi_ode + n5d_shear.phi_source_offround_correction(rho, a2p, e2m, Z)
+        out["phi_ode"] = phi_ode
+        out.update(dict(a2=a2, a2p=a2p, a2pp=a2pp, s_field=s_field, s_r=s_r, s_rr=s_rr,
+                        Es=Es, shear_res=shear_res))
+    return out
 
 
 def H_of_r(v, ctx, prm):
@@ -256,11 +303,38 @@ def derrick(v, ctx, prm):
 
 
 # =========================================================================================
+# READOUTS  --  public charge / MS-mass (NEUTRAL SIGN CONVENTION; §5, Charles-edited 2026-07-06)
+# =========================================================================================
+# sign_convention: pinned ONCE from the current whole-cell canon (N5b/N2 flux budget
+# Pi_phi = Z_phi q = -Z_phi M  =>  M = -q).  NOTE (flagged canon tension): the depth/size node
+# phrases M = +q; Gate-8 checks INTERNAL consistency (q_raw, Pi_phi, M_readout all agree with this
+# convention), NOT sign-correctness -- the sign fork is a Charles/canon call, not adjudicated here.
+SIGN_CONVENTION = -1.0
+
+
+def readouts(v, ctx, prm, n5d=None):
+    """The seal-flux readouts (q_raw, Pi_phi, sign_convention, M_readout).  q_raw is the unambiguous
+    raw seal flux integral q = Z_phi rho_s^2 phi'(r_s); NOT q ~ Q_H (an import, forbidden)."""
+    Z = prm[0]
+    Q = fields(v, ctx, prm, n5d=n5d)
+    rho_s = Q["rho"][-1]                                 # rho at the seal
+    phi_prime_s = Q["phip"][-1]                          # phi'(r_s) -- FREE seal slope -> OUTPUT q
+    q_raw = Z * rho_s ** 2 * phi_prime_s                 # raw seal flux integral (unambiguous)
+    Pi_phi = Z * q_raw                                   # Gauss-budget form (§5)
+    M_readout = SIGN_CONVENTION * q_raw                  # M = sign_convention * q_raw
+    return dict(q_raw=float(q_raw), Pi_phi=float(Pi_phi),
+                sign_convention=float(SIGN_CONVENTION), M_readout=float(M_readout))
+
+
+# =========================================================================================
 # THE MONOLITHIC RESIDUAL  ([phi-ODE; rho-ODE; f-PDE; all BCs; H=0]); jacrev-safe (pure torch)
 # =========================================================================================
-def residual(v, ctx, prm, wbc=1.0):
+def residual(v, ctx, prm, wbc=1.0, n5d=None):
+    """Monolithic residual.  n5d=None -> the base round-trace system (unchanged).  n5d=dict -> the
+    off-round shear rows are APPENDED after the base block (base rows keep identical positions, so
+    residual(v_base) == residual(v_n5d)[:base_len] whenever the shear amplitude a2==0)."""
     Z, XI, KAP, N = prm
-    Q = fields(v, ctx, prm)
+    Q = fields(v, ctx, prm, n5d=n5d)
     phip, rhop, fr = Q["phip"], Q["rhop"], Q["fr"]
     rows = [
         Q["phi_ode"][1:-1],                                       # phi-ODE (interior)
@@ -272,6 +346,21 @@ def residual(v, ctx, prm, wbc=1.0):
     ]
     Hseal = H_of_r(v, ctx, prm)[-1]                               # H = 0 closure (at the seal)
     rows.append((wbc * Hseal).reshape(1))
+
+    if n5d is not None:                                          # ---- N5d shear block (appended) ----
+        a2, a2p, shear_res = Q["a2"], Q["a2p"], Q["shear_res"]
+        sealbc = n5d.get("sealbc", "off")
+        if sealbc == "off":
+            rows.append(a2.reshape(-1))                           # frozen: a2 == 0 (Nr rows) -> round
+        else:
+            core_bc = a2p[[0]]                                    # even core fold: a2'(r_c)=0
+            if sealbc == "S-Dir":                                # Dirichlet to the mirror value
+                seal_bc = a2[[-1]] - float(n5d.get("a2_mirror", 0.0))
+            elif sealbc == "S-JC2":                              # [pi^{AB}]=0 (source-free JC2): a2'(r_s)=0
+                seal_bc = a2p[[-1]]
+            else:
+                raise ValueError(f"unknown sealbc {sealbc!r} (off | S-Dir | S-JC2)")
+            rows += [shear_res[1:-1], wbc * core_bc, wbc * seal_bc]  # (Nr-2)+1+1 = Nr shear rows
     return torch.cat([r.reshape(-1) for r in rows])
 
 
@@ -292,16 +381,27 @@ def seed(ctx, phi0=0.0, rho0=0.70710678, L0=1.0, amp=0.02):
     return pack(phi, rho, uf, float(L0))
 
 
+def seed_n5d(ctx, a2_amp=0.0, **kw):
+    """Base seed with the ell=2 shear amplitude a2(r) appended (a2_amp=0 -> round seed, s=0).
+    The shear is seeded SMALL and band-limited; Newton relaxes it (all CHOSE seed values)."""
+    Nr = ctx["Nr"]; zeta = ctx["zeta"]
+    base = seed(ctx, **kw)
+    phi, rho, uf, L = unpack(base, ctx)
+    gr = torch.cos(np.pi * (zeta + 1.0) / 2.0)                    # zero-slope at both ends (mirror-safe)
+    a2 = a2_amp * gr
+    return pack(phi, rho, uf, float(L), a2=a2)
+
+
 # =========================================================================================
 # LEVENBERG-MARQUARDT SOLVE (Nielsen gain-ratio damping = trust-region line search);
 # Jacobian by torch.func.jacrev. Method mined from newton_solve_p1 (glm path).
 # =========================================================================================
 def newton_lm_solve(u0, ctx, prm, wbc=1.0, maxit=30, lam0=1e-3, tol=1e-13,
-                    verbose=True, time_budget=110.0):
+                    verbose=True, time_budget=110.0, n5d=None):
     import time
     from torch.func import jacrev
     t0 = time.time()
-    resfn = lambda uu: residual(uu, ctx, prm, wbc=wbc)
+    resfn = lambda uu: residual(uu, ctx, prm, wbc=wbc, n5d=n5d)
     u = u0.detach().clone()
     F = resfn(u); Phi = float((F * F).sum()); hist = [Phi]
     lam = lam0; nu = 2.0
@@ -339,10 +439,10 @@ def newton_lm_solve(u0, ctx, prm, wbc=1.0, maxit=30, lam0=1e-3, tol=1e-13,
     return u.detach(), hist
 
 
-def jac_condition(u, ctx, prm, wbc=1.0):
+def jac_condition(u, ctx, prm, wbc=1.0, n5d=None):
     """Report (cond, s_min, s_max, nrows, ncols) of the Jacobian at u (SVD)."""
     from torch.func import jacrev
-    J = jacrev(lambda uu: residual(uu, ctx, prm, wbc=wbc))(u).detach()
+    J = jacrev(lambda uu: residual(uu, ctx, prm, wbc=wbc, n5d=n5d))(u).detach()
     sv = torch.linalg.svdvals(J)
     return (float(sv[0] / sv[-1]), float(sv[-1]), float(sv[0]), J.shape[0], J.shape[1])
 
@@ -350,15 +450,54 @@ def jac_condition(u, ctx, prm, wbc=1.0):
 # =========================================================================================
 # BOUNDED SMOKE TEST  (the ONLY solve in this module; hard limits per the anti-hang rule)
 # =========================================================================================
+def _n5d_assembly_preflight(Nr, Nth, prm, sealbc, wbc=1.0):
+    """N5d ASSEMBLY-ONLY preflight (NO pilot solve; anti-hang: forward evals only, bounded grid).
+    Proves: the coupled residual + shear BCs ASSEMBLE, the system is SQUARE, the Jacobian is finite,
+    and the round-limit (a2=0) leaves the base rows unchanged.  The coarse coupled PILOT is GATED
+    (do NOT run here) -- see N5d_solver_build_plan.md §8."""
+    ctx = make_ctx(Nr, Nth, rc=0.5)
+    n5d = dict(sealbc=sealbc)
+    u = seed_n5d(ctx, a2_amp=0.0)                                 # round seed (s=0)
+    F = residual(u, ctx, prm, wbc=wbc, n5d=n5d)
+    ub = seed(ctx); Fb = residual(ub, ctx, prm, wbc=wbc)         # base (no shear) for comparison
+    base_len = Fb.numel()
+    print(f"[n5d] sealbc={sealbc}: len(u)={u.numel()} len(F)={F.numel()} "
+          f"square={u.numel()==F.numel()} all-finite={bool(torch.isfinite(F).all())}")
+    print(f"[n5d] base-row match (a2=0): max|F_n5d[:{base_len}] - F_base| = "
+          f"{float((F[:base_len]-Fb).abs().max()):.3e}  (expect 0)")
+    cond, smin, smax, nr_, nc_ = jac_condition(u, ctx, prm, wbc=wbc, n5d=n5d)
+    print(f"[n5d] Jacobian shape=({nr_},{nc_}) cond={cond:.3e} s_min={smin:.3e}")
+    ro = readouts(u, ctx, prm, n5d=n5d)
+    print(f"[n5d] readouts: q_raw={ro['q_raw']:.4e} Pi_phi={ro['Pi_phi']:.4e} "
+          f"sign={ro['sign_convention']:+.0f} M_readout={ro['M_readout']:.4e}")
+    print("[n5d] ASSEMBLY-ONLY preflight complete -- the coarse coupled pilot is GATED (not run).")
+
+
 if __name__ == "__main__":
-    import time
+    import time, argparse
     torch.manual_seed(0)
+    ap = argparse.ArgumentParser(description="cell_solver_f2d smoke / N5d assembly preflight")
+    ap.add_argument("--n5d", action="store_true", help="N5d shear extension (ASSEMBLY-ONLY here; pilot GATED)")
+    ap.add_argument("--Nr", type=int, default=8); ap.add_argument("--Nth", type=int, default=8)
+    ap.add_argument("--lmax", type=int, default=2, help="shear angular truncation (pilot: ell=2 only)")
+    ap.add_argument("--source", default="none", help="frozen_hopfion | none (pilot source; not run here)")
+    ap.add_argument("--sealbc", default="off", choices=["off", "S-Dir", "S-JC2"])
+    ap.add_argument("--maxit", type=int, default=30); ap.add_argument("--budget", type=float, default=100.0)
+    args = ap.parse_args()
+
     # ---- fixed parameters (ALL tagged) ----
     Z = 8.0            # CHOSE-fixed (OBS-2: Route-A structure carrying Route-B's number; held fixed)
     XI = 1.0           # CHOSE-units (repo unit convention)
     KAP = 1.0          # CHOSE-units (kap/xi sets the absolute cell scale; ratios are the observables)
     N = 1              # DERIVED-topological (winding degree; integer, fixed per run)
     prm = (Z, XI, KAP, N)
+
+    if args.n5d:
+        assert args.Nr <= 24, "anti-hang: Nr capped at 24"
+        print("=== cell_solver_f2d N5d ASSEMBLY PREFLIGHT (no pilot solve) ===")
+        _n5d_assembly_preflight(args.Nr, args.Nth, prm, args.sealbc)
+        raise SystemExit(0)
+
     Nr, Nth = 8, 8     # BOUNDED smoke-test resolution (HARD anti-hang cap; NOT a converged run)
     wbc = 1.0
     print("=== cell_solver_f2d BOUNDED SMOKE TEST (Nr=8, Nth=8, N=1, Z=8, xi=kap=1) ===")
