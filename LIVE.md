@@ -35,6 +35,16 @@ are HISTORY the evening built on — see the HANDOFF (PM) block if needed.)
 
 ## ============ CURRENT STATE (2026-07-05 EOD — N5 (ξ PARKED) + SOLAR LIGHT-SECTOR (γ=1) + D1 CHARGE-CHANNEL MAP + NO-SELECTOR THEOREM + i-FLOW/ℏ-CLOCK MAP all done/blind-verified; NEXT = Charles's call / take stock) ============
 
+**➤➤ RESUME HERE / NEXT ACTION (2026-07-05 EVENING — session complete): Charles's call / take stock.** All FIVE
+evening arcs below (N5/ξ · solar light sector · D1 charge-channel · no-selector theorem · i-flow/ℏ) are BANKED +
+blind-verified + pushed; **H4 compute STILL STOPPED** (the gated non-perturbative N5d solve was NOT opened).
+**OPEN LEADS (none started — full list in the HANDOFF (EVENING) block):** (a) whether a target-selector for q=1/3
+can be natively DERIVED (vs merely added) — the no-selector theorem names the three forms it must take; (b) the
+gated N5d φ+h_AB solve (the ONLY route to pin ξ; ANTI-HANG binding, Charles-gated); (c) the η Zρ_s² anchor.
+q=1/3 & η=1/18 remain OWED targets; J(s)/light-sector could be extended (9π/4 = future μas target). Do NOT re-open a
+closed arc without a new premise. *(This directive is the ONLY current next-action; the per-result ★ blocks below
+are the banked summaries — they do NOT carry their own live "NEXT".)*
+
 **★ i-FLOW / ℏ-CLOCK MAP (2026-07-05, BANKED + blind-verified, `i_flow_hbar_clock_MAP.md`, verifier
 a847ba3e0429d6c4a) — OUTCOME 7: structural i is NATIVE, ℏ is NOT derived.** Structural i = J_n(v)=n×v
 (J²=−1 on T_nS²), ω Kähler-compatible — CAS-exact, a property of the target. The i-flow = the free orientation
@@ -59,25 +69,22 @@ scalar survives). Nearest miss = the hopfion's self-induced shear (equivariance-
 **Overturnable ONLY by a natively-DERIVED target-indexed anisotropic coupling** (V_ab / target-charged background /
 single-axis projector) = outcome A if derived, outcome C (NEW PHYSICS) if merely added — none exist under the
 current action+frame. ⇒ closing q=1/3 now REQUIRES either new physics (a derived target anisotropy) or accepting
-q=1 as the native public charge. **NEXT = Charles's call: (a) the i-flow/ℏ clock (structural, discriminating);
-(b) whether a target-selector can be natively DERIVED (vs added); (c) the η Zρ_s² anchor; (d) take stock.**
+q=1 as the native public charge. (Next action = the top RESUME-HERE directive.)
 
-**➤➤ RESUME HERE / NEXT ACTION (2026-07-05): D1 CHARGE-CHANNEL MAP done + blind-verified
-(`d1_charge_channel_projection_MAP.md`, verifier a5cf5a27f637302df) — testing Charles's hypothesis that q=1/3 is
+**★ D1 CHARGE-CHANNEL MAP (2026-07-05, BANKED + blind-verified,
+`d1_charge_channel_projection_MAP.md`, verifier a5cf5a27f637302df) — testing Charles's hypothesis that q=1/3 is
 the single-channel projection of Q_H=1 through the N=3 carrier (η=½q²). RESULT = partially confirmed STRUCTURE,
-refuted READOUT: a native equal-thirds partition of the unit charge EXISTS and is STRONGER than proposed (a
+refuted READOUT:** a native equal-thirds partition of the unit charge EXISTS and is STRONGER than proposed (a
 TOPOLOGICAL INVARIANT of the whole degree-1 class — ⟨n_a n_b⟩=δ/3 = the per-axis winding ∫n_a²dΩ, value
 frame-invariant, NOT the End(H1) triplet), BUT the native charge readouts (degree, Hopf Q_H) are scalars = the
 FULL sum = 1; reaching 1/3 needs a public COUPLING to one axis (anisotropic V_ab, NOT native) ⇒ no native
 projector. η: the ½ is native (ξ/2, seal U_seal=2−q²/(2Zρ_s²)) but η=½q² rides Zρ_s²=1 (UNANCHORED). Q_H=1 stands;
 q=1/3 & η=1/18 remain not-natively-forced — a CLEANER failure than D1's collar route (arithmetic native, selection/
-normalization not). **NEXT = Charles's call: (a) hunt a native channel-SELECTOR / anchor for Zρ_s² (the two missing
-links — if either is found, the hypothesis closes); (b) the i-flow/ℏ clock; (c) something else.** The solar
-light-sector arc is COMPLETE — predictions derived +
-blind-verified AND the frozen DATA CONFRONTATION done + blind-verified (`solar_light_sector_confrontation_results.md`,
-verifier adb471c72a1f5b552). Next = Charles's call on the next thread (a structural one that can still DISCRIMINATE:
-the native charges q=1/3, η=1/18; or the i-flow/ℏ clock), or take stock.** ★ **CONFRONTATION RESULT: UDT PASSES the
-leading solar light tests — γ_UDT=1 (forced by form reciprocity, not fitted) sits 0.91σ from Cassini
+normalization not).
+
+**★ SOLAR LIGHT-SECTOR arc — COMPLETE (predictions + DATA CONFRONTATION, all blind-verified); UDT PASSES the
+leading solar tests.** CONFRONTATION (`solar_light_sector_confrontation_results.md`, verifier adb471c72a1f5b552,
+the one authorized DATA step): UDT PASSES — γ_UDT=1 (forced by form reciprocity, not fitted) sits 0.91σ from Cassini
 (γ−1=(2.1±2.3)e−5, Shapiro) and 0.67σ from VLBI (γ−1≈(−0.8±1.2)e−4). HONEST: this is a CONSISTENCY confirmation,
 NOT a discriminating test — γ=1 matches GR by construction, so UDT passes automatically (a theory with γ≠1 would be
 ruled out; UDT is not). The distinctive 9π/4-vs-15π/4 second-order departure is ~4.38 μas (deflection) / ~49 ps/leg
@@ -99,10 +106,9 @@ measurement — the second-order 9π/4 is what precision data would bound; the l
 The J(s) confrontation MAP is BANKED + blind-verified (`J_of_s_light_deflection_confrontation_MAP.md`,
 verifier a66e2da69bfc3c7d9): TWO frame-robust light observables — the ambient J(s) sector (only the pure NUMBER is
 b-independent; measured azimuth D(ρ₀)·J(s) is conical/gauge, observability OPEN, CF-ABS) and this one-body sector ⇒
-The J(s) light-deflection confrontation MAP is BANKED + blind-verified (`J_of_s_light_deflection_confrontation_MAP.md`,
-verifier a66e2da69bfc3c7d9): TWO frame-robust light observables — the ambient J(s) sector (only the pure NUMBER is
-b-independent; measured azimuth D(ρ₀)·J(s) is conical/gauge, observability OPEN, CF-ABS) and this one-body sector ⇒
-**Cassini bounds the ONE-BODY sector, NOT s** (CF-CAT); an inherited R2 row-R2-1 overstatement was corrected. ★ **N5 ARC
+**Cassini bounds the ONE-BODY sector, NOT s** (CF-CAT); an inherited R2 row-R2-1 overstatement was corrected.
+
+**★ N5 ARC
 CLOSED + BANKED (Charles decision 2026-07-05): ξ is PARKED as
 an honest free-family parameter** — (1) the migration-based private-core anchor is RETIRED (N5 MAP); (2) whole-cell
 criticality does NOT pin ξ (N5a); (3) the flux budget is the SAME condition in charge language, NOT an independent
@@ -124,11 +130,14 @@ Z_φ nor (ξ,Z_φ). The one native quantization (D2b flux LADDER) is real but qu
 (registry P-B; absolute anchor = z_CMB); its hopfion-coupled form = candidate D. **⇒ Candidates A + B + C(onset) +
 E(z_CMB) all closed at armchair; candidate D (the gated N5d non-perturbative φ+h_AB solve on the running ambient) is
 the ONLY surviving ξ-anchoring channel.** **H4 COMPUTE STILL STOPPED** — N5d stays
-GATED behind Charles's go. **Owed:** q/η native re-derivation, i-flow/ℏ clock, J(s) light-deflection still owed.
-(#75 already flagged CONDITIONS-CHANGED in NEGATIVES_REGISTRY per N5a.)
+GATED behind Charles's go. **Owed (still open after the evening):** q/η native re-derivation, J(s) extension.
+(#75 flagged CONDITIONS-CHANGED per N5a; the i-flow/ℏ clock is now DONE = Outcome 7, above.)
 
+### ↓↓↓ HISTORICAL — the PM H3=A + H4-arc "current state" narrative the EVENING built on (SUPERSEDED as frontier;
+### the FIVE evening ★ blocks + the RESUME-HERE directive above are the only current frontier). Detail retained
+### for continuity; canonical records = the `node_H3_*` / `H4_*` result docs. ↓↓↓
 
-**One-paragraph current state:** the concentric ω≠0 embedded-cell frame was closed (P16 canon C-2026-07-05-1:
+**One-paragraph current state (PM, HISTORICAL):** the concentric ω≠0 embedded-cell frame was closed (P16 canon C-2026-07-05-1:
 spin→φ not natively available); the reframe converged on the **HOPFION** — native L2+L4 IS the Faddeev–Skyrme
 model, a UDT particle = a π₃ hopfion, charge = Hopf linking Q_H∈ℤ (D1 reinforced). Full armchair chain
 (R0/Q1/H1/H2) blind-verified. **H3 RESOLVED (2026-07-05) = OUTCOME A, blind-verified (agent af9b56bc845e0eb97):**
