@@ -35,15 +35,35 @@ are HISTORY the evening built on — see the HANDOFF (PM) block if needed.)
 
 ## ============ CURRENT STATE (2026-07-05 EOD — N5 (ξ PARKED) + SOLAR LIGHT-SECTOR (γ=1) + D1 CHARGE-CHANNEL MAP + NO-SELECTOR THEOREM + i-FLOW/ℏ-CLOCK MAP all done/blind-verified; NEXT = Charles's call / take stock) ============
 
-**➤➤ RESUME HERE / NEXT ACTION (2026-07-05 EVENING — session complete): Charles's call / take stock.** All FIVE
-evening arcs below (N5/ξ · solar light sector · D1 charge-channel · no-selector theorem · i-flow/ℏ) are BANKED +
-blind-verified + pushed; **H4 compute STILL STOPPED** (the gated non-perturbative N5d solve was NOT opened).
-**OPEN LEADS (none started — full list in the HANDOFF (EVENING) block):** (a) whether a target-selector for q=1/3
-can be natively DERIVED (vs merely added) — the no-selector theorem names the three forms it must take; (b) the
-gated N5d φ+h_AB solve (the ONLY route to pin ξ; ANTI-HANG binding, Charles-gated); (c) the η Zρ_s² anchor.
-q=1/3 & η=1/18 remain OWED targets; J(s)/light-sector could be extended (9π/4 = future μas target). Do NOT re-open a
-closed arc without a new premise. *(This directive is the ONLY current next-action; the per-result ★ blocks below
-are the banked summaries — they do NOT carry their own live "NEXT".)*
+**➤➤ RESUME HERE / NEXT ACTION (2026-07-06 — take stock; open-lead (a) now CLOSED, see the ★ readout-map entry
+directly below): Charles's call.** All FIVE 2026-07-05 evening arcs (N5/ξ · solar light sector · D1 charge-channel ·
+no-selector theorem · i-flow/ℏ) PLUS the 2026-07-06 readout-map selector audit are BANKED + blind-verified + pushed;
+**H4 compute STILL STOPPED** (the gated non-perturbative N5d solve was NOT opened). **OPEN LEADS:** (a) **CLOSED
+2026-07-06** — no target-selector for q=1/3 is derivable from ANY of the four named native sources (seal · spin ·
+φ-angular · flux); the negative is SOLVE-INDEPENDENT (target-SO(3) is an exact symmetry of the full backreacted
+functional). Closing q=1/3 now genuinely REQUIRES new physics (a natively-derived target-SO(3)-breaking coupling) or
+accepting Q=1. (b) the gated N5d φ+h_AB solve (the ONLY route to pin ξ; ANTI-HANG binding, Charles-gated — NB this
+audit proved N5d canNOT pin the target axis, only settle minimizer shape); (c) the η Zρ_s² anchor; (d) **NEW** — the
+general readout-map's LIVE axis is now DEPTH/SIZE discreteness (Branch P `Z_φ(r²φ')'=4e^{-2φ}`, the φ-angular hunch
+survives for magnitude-not-channel) — a distinct node Charles may open. q=1/3 & η=1/18 remain OWED targets. Do NOT
+re-open a closed arc without a new premise. *(This directive is the ONLY current next-action; the per-result ★ blocks
+below are the banked summaries — they do NOT carry their own live "NEXT".)*
+
+**★ NATIVE READOUT-MAP — TARGET-SELECTOR AUDIT (2026-07-06, BANKED + blind-verified,
+`native_readout_map_selector_audit_results.md`, verifier aa75efc94282e7099) — OUTCOME B (solve-independent), C-form
+identified, D-pointer.** Framed as the first test of the general native readout-map problem. Five armchair/CAS audits
+(one per named source + a cross-cutting spatial→target-locking crux) all return B: NO target-indexed selector is
+derivable from seal/involution (target-scalar), time-live/spinning (rotor axis = FREE zero-mode; discretization rides
+imported ℏ, still no axis pin), φ-angular (Branch P coupling is SPATIAL-angular via n→h_AB→𝒦→φ, target-blind; a
+metric function structurally cannot carry a target index — Charles's prime suspect, closed for CHANNEL-selection), or
+whole-cell flux/read-surface (all native read observables are target-scalars; a 1/3-projector must hand-pick ê_a).
+**Load-bearing + verifier-reproduced: the equivariance lock is RELATIVE (diagonal SO(2)); global target-SO(3) stays
+an EXACT symmetry of the backreacted (n+h_AB+φ) functional because T_μν[n] is target-scalar (L2 AND L4 generic-R CAS
+`diff=0`) ⇒ a spatial-axis pin NEVER transmits to a target pin ⇒ Outcome B is NOT gated on N5d** (the solve settles
+minimizer SHAPE only). q=1/3 UNFORCED; native public charge = summed Q=1. C-form = a natively-derived target-SO(3)-
+breaking coupling (V_ab / target-charged background / single-axis projector) — none native, adding one = new physics.
+D-split: readout-map = (i) target-channel selection [CLOSED here] ⊥ (ii) depth/size discreteness [ALIVE, Branch P].
+SHARPENS the no-selector theorem (adds solve-independence + four-source coverage); overturns no banked negative.
 
 **★ i-FLOW / ℏ-CLOCK MAP (2026-07-05, BANKED + blind-verified, `i_flow_hbar_clock_MAP.md`, verifier
 a847ba3e0429d6c4a) — OUTCOME 7: structural i is NATIVE, ℏ is NOT derived.** Structural i = J_n(v)=n×v
