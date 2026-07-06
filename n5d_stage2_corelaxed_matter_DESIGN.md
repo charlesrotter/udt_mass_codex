@@ -1,5 +1,11 @@
 # N5d Stage-2 — Co-Relaxed Matter Solver DESIGN (design only; no code, no pilot)
 
+> **⚠ POST-Gate-0.5 CORRECTION (2026-07-06 EOD-2):** this design predates Gate-0.5. The IMPLEMENTABLE residual
+> shear source is **`Tshear_live = −(ρ²/4)·T_s`** (matter→geometry coupling **λ=−1/2**, blind-verified —
+> `n5d_stage2b_gate05_report.md`), **NOT `+(ρ²/2)T_s`**. The `ρ²/2` written below is the correct MEASURE identity
+> (`δS_m/δs = (ρ²/2)(T^θ_θ−T^ψ_ψ)`); the residual source is that × λ. **The §7 self-stress test must check the
+> source against `−(ρ²/4)T_s`, not `(ρ²/2)T_s`** (else it would validate a 2×/sign-flipped implementation).
+
 **Date:** 2026-07-06 · **Author:** Claude Opus 4.8 (1M) · **Status:** DESIGN / PROVISIONAL · no physics verdict,
 no Outcome A/B, no continuum lead. Preserves FIX-1 (equilibration), Registration-B (current-L pullback), and the
 blind-verified **ρ²/2** source measure factor as infrastructure. Retires Stage-1's **frozen flat hopfion source**
@@ -127,7 +133,8 @@ reduce to the current base row at `s=0`.
    `test_roundlimit_base_rows_identical`); `a2=0` shear rows vanish.
 2. **φ-blindness** — shifting φ at fixed ρ,f,a2 leaves the matter f-PDE, the ρ moments' matter part, and the
    shear `T_s` unchanged (only the geometric φ/`e^{−2φ}` pieces move).
-3. **Self-stress consistency** — the coded shear-row source equals `(ρ²/2)·(T^θ_θ−T^ψ_ψ)` computed independently
+3. **Self-stress consistency** — the coded shear-row source equals **`−(ρ²/4)·(T^θ_θ−T^ψ_ψ)`** (λ=−½; the
+   naive `(ρ²/2)` is the measure factor only — the residual source carries the ×λ, per Gate-0.5) computed independently
    from the live f (CAS identity + a numeric node check).
 4. **No flat-source dependence** — a test/grep that the residual imports NO `stress_profiles.npz` value (only an
    optional initial-guess seed for u); removing the npz must not change the residual.
