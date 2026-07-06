@@ -177,6 +177,54 @@ seen in FIX-3 (the round base does not close to a finite-L cell). **No physics v
 continuum lead.** FLAG (category-A, not changed here): the source registration pins to the seed L0 while the
 solve collapses L — the source detaches from the cell scale as L→0.
 
+## 4d. Source–cell pullback / L-scaling audit (PROVISIONAL, no verdict)
+
+**Date:** 2026-07-06 · script `n5d_pullback_audit.py` · HEAD after `bd944c8` · equations/BCs/readouts/seal/
+verdict-logic UNCHANGED · no FIX-2 · no finite-L barrier/penalty/target · no verdict pilot. **Question:** is
+the frozen H3 stress pulled back into the live cell consistently as L changes, or frozen at seed L0 while the
+geometric operator uses current L?
+
+**Finding: (i) YES there is a pullback inconsistency — the source is frozen at seed L0 while the operator uses
+current L; native-correct is current-L interpolation. (ii) But that inconsistency does NOT cause the
+L-collapse — the collapse is the ABSENT finite-L closure; fixing the pullback would not stop it.**
+
+1–2. **Coordinate maps / source convention.** Solver `fields`: nodal φ,ρ,a2 at Chebyshev ζ∈[−1,1], d/dr=(2/L)
+   d/dζ with **current L**; physical r(ζ)=rc+(L/2)(ζ+1). Source `build_Tshear`: T_shear=amp·sh2(r_phys)·P2,
+   r_phys=rc+(**L0**/2)(ζ+1), **L0=seed=1.0 fixed**. `stress_profiles.npz 'rc'` = physical hopfion radius
+   [0.047,5.95]; `sh2` = ⟨shear·P2⟩_shell, shear=T_θθ−T_φφ in the **orthonormal frame** (stress component, not
+   density-weighted, already ℓ=2-projected). **Confirmed inconsistency: operator uses current L, source uses
+   seed L0.**
+3. **Native pullback rule (derived).** The shear row is the POINTWISE E^AB=−T^AB at each node (collocation, no
+   dr-integral). T_s is a physical stress component in the same orthonormal frame ⇒ evaluate it at the SAME
+   physical point as E_s_geom: r(ζ)=rc+(L/2)(ζ+1) with **current L** — **interpolation-only at current-L
+   physical r, no amplitude L-Jacobian** (φ-blind S²/H3 matter enters only the h_AB row, no φ-source). =
+   registration **B**. Registration A (seed L0) mis-locates T_s once L≠L0. Registration C (fixed ζ-profile)
+   is what A ALREADY is (L0 fixed ⇒ sh2(r(ζ)) is a fixed ζ-function) — **C not distinct from A here.**
+   *(Residual question for a later CAS check, not affecting the placement finding: an orthonormal-vs-coordinate
+   ρ² frame factor between the flat-space stored stress and the cell-frame component.)*
+4. **Three registrations vs L** (round-flat bg, S-Dir, amp=1): at **L=L0=1.0 A≡B** (‖rhs‖=3.01, a2peak=2.12).
+   As L shrinks: **A** holds ‖rhs‖=3.01 (fixed ζ-values) and gives **a2∝L² exactly** (a2/L²=2.115 across all
+   L); **B** samples a shrinking physical window (‖rhs‖ tracks local sh2), a2/L² varies. **Both give a2→0 as
+   L→0** — the (2/L)² geometric stiffening, not the registration, sets the L-power. Registration sets the
+   source VALUES/placement, not the collapse.
+5. **Fixed-L=L0 diagnostic** (pin L=L0, drop the Hseal closure row — diagnostic only, NOT physics closure):
+   a2_peak = **8.6e−2** (vs free-L pilot 5e−3, **~17× larger**), with **Hseal=−0.83** (the cell is far from
+   closed at L=L0). ⇒ the free-L solve collapses L *trying and failing* to satisfy H=0; **the L-collapse is
+   driven by the absent finite-L closure, not by source detachment** (fixing L recovers a2 without touching
+   the source).
+6. **S-Dir block balance (A vs B):** at the seed (L=L0) A and B give **identical** blocks (they coincide at
+   L=L0); the pullback diverges only once L≠L0. So the pullback does not change the seed-state blocker
+   (Hseal + shear_ODE + boundary rows).
+
+**Classification:** a COMBINATION — **(a) source pullback bug: present** (seed-L0 vs current-L; native fix =
+registration B, current-L interpolation, no amplitude Jacobian); **(b) source scaling correct but finite-L
+closure absent: the DOMINANT driver** (a2∝L² is native; the collapse is the missing finite-L closure — fixing
+L recovers a2 ~17×); **(c) frozen-source approximation inconsistent under free L: yes** (a fixed physical object
+cannot register consistently into a collapsing cell). NOT (d) unresolved — the mechanism is now resolved. The
+pullback fix (A→B) is a genuine correctness improvement but would NOT stop the L-collapse (that needs the
+finite-L closure = the round-continuum degeneracy, gated; and no anti-collapse fudge is permitted here).
+**No physics verdict, no Outcome A/B, no continuum lead. Outcome D / tool-limited stands.**
+
 ## 5. Scope / discipline
 - ONE tile: static, Branch P, block-diagonal, ℓ=2 axisymmetric shear, frozen H3-hopfion source, whole cosmic cell.
 - Premise ledger unchanged from the pilot: ξ FREE, κ FREE-units, Z_φ=8 (CHOSE — Route-A carrying the Route-B
