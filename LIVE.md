@@ -63,6 +63,10 @@ binding. NO finite-L target/penalty/barrier/anti-collapse/fitted-scale/mass-anch
 bank Outcome A/B for the π₃ hopfion question (open premise for Charles).** After 2b tests green: Stage-2 PILOT is a
 SEPARATE gate (Charles). Status: DESIGN/PROVISIONAL/Outcome D throughout.
 **Do NOT run `branchGP` (fenced wrong frame).**
+**COMMIT + PUSH discipline (binding, standing): commit per logical milestone (the residual edit, then each test as
+it passes) AND `git push origin main` in the SAME step as every commit** (Charles 2026-07-06 — never leave commits
+local; see CLAUDE.md "Repo discipline" + memory `always-push-on-commit`). End every commit body with the
+`Co-Authored-By` trailer.
 
 ### ↓↓↓ SUPERSEDED (2026-07-06 EOD → EOD-2): the "diagnose N5d conditioning" frontier below is DONE. Chain of this
 ### session (all committed/pushed, PROVISIONAL/Outcome D): conditioning diagnosis (Outcome-D artifact, not a soft mode;
