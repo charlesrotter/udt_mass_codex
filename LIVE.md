@@ -35,15 +35,21 @@ are HISTORY the evening built on — see the HANDOFF (PM) block if needed.)
 
 ## ============ CURRENT STATE (2026-07-05 EOD — N5 (ξ PARKED) + SOLAR LIGHT-SECTOR (γ=1) + D1 CHARGE-CHANNEL MAP + NO-SELECTOR THEOREM + i-FLOW/ℏ-CLOCK MAP all done/blind-verified; NEXT = Charles's call / take stock) ============
 
-**➤➤ RESUME HERE / NEXT ACTION (2026-07-06 — two readout-map nodes banked today; the ONE live physics door is now
-the gated N5d off-round coupled solve): Charles's call.** Today's second node (depth/size, ★ below) converts the
-long-standing "continuum" into a SHARP claim: the round Branch-P vacuum is PROVABLY a continuum (size + depth free);
-the hopfion RIDES it (mass = continuous whole-cell flux); native discreteness exists only as ORTHOGONAL LABELS
-(topological Q_H, D2b depth-N). The ONLY surviving route to particle size/mass discreteness is the FROZEN off-round
-shear DOF (h_AB) — reachable only by the gated non-perturbative **N5d** solve (φ+h_AB coupled, finite-amplitude 𝒦,
-running ambient; ANTI-HANG binding, Nr≤16–24, one process; Charles-gated; H4 compute STOPPED). Deciding whether to
-OPEN N5d is the live fork. **Prior state:** open-lead (a) [q=1/3 channel selector] CLOSED earlier today (★ selector
-entry below).** All FIVE 2026-07-05 evening arcs (N5/ξ · solar light sector · D1 charge-channel ·
+**➤➤ RESUME HERE / NEXT ACTION (2026-07-06 EOD — N5d preflight FAILED + contamination sweep DONE; N5d now needs a
+native solver BUILT first): Charles's call.** Charles approved N5d (the off-round φ+shear coupled solve = the one live
+door to particle size/mass discreteness). **The strict preflight gate STOPPED it:** the operator math is CAS-locked
+and the L_bare⁻¹ bug is FIXED + committed (`h4_scripts/lbare_inverse.py`, `fe85a14`), BUT **no solver implements the
+native constrained-two-player operator** — the only coupled φ+shear solver (`branchGP`/`branch_operator.py`) runs the
+SUPERSEDED scalar-tensor frame (f=e^{2φ}, X=−2e5, e^{2φ}-matter). A scoped CONTAMINATION AUDIT + a full SUPERSESSION
+SWEEP followed (blind-verified; commit `7441992`): the 2026-07-01 native operator superseded the pre-native
+coupled-solver era, and the sweep was INCOMPLETE. **ONE genuine QUARANTINE found: `kap8_characterization` (+4
+siblings) — a live unflagged native-micro identification banked on the scalar-tensor operator at X=−2e5 → registry
+#77, banner, INDEX flag.** The rest of the era was already registry-tagged (given in-file stamps now); recent frontier
+verified CLEAN. **NEXT (Charles-gated): BUILD the native N5d solver** — the certified operator `∂_r(√h Z_φ φ')=−2√h
+e^{−2φ}𝒦̂[h]` + the E^{AB} shear sector (via the fixed L_bare⁻¹) + φ-blind native-S² matter source + whole-cell BCs;
+then re-run the preflight gate, then the coarse pilot (Nr≤16–24, one process, foreground, ANTI-HANG). **Do NOT run
+`branchGP` for N5d** (wrong frame, fenced). **Prior state today:** q=1/3 channel-selector CLOSED (★ selector entry
+below); depth/size node = OUTCOME C (★ entry below).** All FIVE 2026-07-05 evening arcs (N5/ξ · solar light sector · D1 charge-channel ·
 no-selector theorem · i-flow/ℏ) PLUS the 2026-07-06 readout-map selector audit are BANKED + blind-verified + pushed;
 **H4 compute STILL STOPPED** (the gated non-perturbative N5d solve was NOT opened). **OPEN LEADS:** (a) **CLOSED
 2026-07-06** — no target-selector for q=1/3 is derivable from ANY of the four named native sources (seal · spin ·
