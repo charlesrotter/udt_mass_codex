@@ -1,3 +1,8 @@
+> **SUPERSEDED / CONDITIONS-CHANGED (2026-07-06 supersession sweep) — NOT a native-micro UDT result; mine for history.**
+> Rode the PRE-NATIVE EH-era (a=−1, G=8πT) operator, superseded 2026-07-01 by the native constrained-two-player operator
+> (EH-empty, φ-blind matter, geometric 𝒦). Already premise-tagged in NEGATIVES_REGISTRY #65 (2026-06-19 wholesale retirement, NO
+> BLOCKING AUTHORITY) + 2026-07-04 re-grade ("rode the dead frame"). A genuine blind-verified negative stripped of authority; mine as history.
+
 # Coupled Time-Live Non-Round Native Catalog Solve — RESULTS
 
 **Mode:** BUILD + RUN + OBSERVE under the FROZEN PRE-REGISTRATION CONTRACT

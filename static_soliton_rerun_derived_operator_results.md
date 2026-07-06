@@ -1,3 +1,10 @@
+> **SUPERSEDED / CONDITIONS-CHANGED (2026-07-06 supersession sweep) — NOT a native-micro UDT result; mine for history.**
+> Rode the PRE-NATIVE scalar-tensor (f=e^{2φ}, X=−2e5) operator, superseded 2026-07-01 by the native constrained-two-player operator
+> (EH-empty, φ-blind matter, geometric 𝒦). Already premise-tagged in NEGATIVES_REGISTRY object-identity (2026-06-21) + banked-result
+> correction (the 1/r hair = grid-fit ARTIFACT, corrected-to-null) + 2026-07-04 re-grade. Gates G1/G2 + L=1 localization + matter-kinetic
+> B=1/A break stand as scalar-tensor results; the object is an imported-S³ carrier (native S² unsolved); the 1/r hair was CORRECTED to a
+> null artifact.
+
 # Static Charge-1 Soliton, Re-Solved on the Newly-Derived Gravitational Operator — BOUNDED OBSERVE
 
 **Mode:** OBSERVE, METRIC-LED, DATA-BLIND. No mass/ratio/spectrum/catalog loaded or targeted.

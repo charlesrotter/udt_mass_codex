@@ -1,5 +1,39 @@
 #!/usr/bin/env python3
 """
+================================= FRAME FENCE (2026-07-06) =================================
+DEPRECATION / DOMAIN FENCE -- read before importing this module.
+
+This module implements the SCALAR-TENSOR frame: phi rides OUTSIDE the metric as an
+independent 6th player, weight f=e^{+2phi}, Branch-P potential U=e^{2phi}-1, an
+e^{2phi}-WEIGHTED matter coupling (- kap8 f T^mu_nu), and the Cassini-forced kluge
+X_PROD = -2e5.  This is the frame that PRE-DATES the native field-equation derivation
+(2026-07-01).
+
+  VALID FOR (its intended, legitimate domain):
+    - MACRO / Branch-G / EXTERIOR work (the shift-invariant remnant S_G, PPN/Cassini
+      light-sector, s=2mu/Z macro lever) where phi-outside-g + e^{2phi} weight is the
+      posed frame and is HONESTLY premise-tagged.
+    - Any result that explicitly ledgers "scalar-tensor frame, X FREE" as a premise.
+
+  *** NOT CANONICAL for NATIVE MICROPHYSICS / N5d. ***
+  The CERTIFIED native operator (constrained-two-player, derived 2026-07-01;
+  native_field_equations_*, native_readout_map_depth_size_results.md #76) is the
+  GEOMETRIC-SOURCE, phi-BLIND-matter operator:
+        d_r( sqrt(h) Z_phi phi' ) = -2 sqrt(h) e^{-2phi} Khat[h]
+        (round shorthand:  Z_phi (r^2 phi')' = 4 e^{-2phi} )
+  Note the source is e^{-2phi} (OPPOSITE sign/exponent to this module's U=e^{+2phi}-1),
+  matter is phi-BLIND (NO e^{2phi} weight -- that weight is the "basin-A runaway" the
+  native derivation REJECTED), and there is NO X kluge.  A native-microphysics solve
+  (N5d, off-round shear) MUST use a native solver, NOT this module.
+
+  CONTAMINATION SCOPE (2026-07-06 sweep): era-wide -- every pre-2026-07-01 coupled-solve
+  native-micro result rode a pre-native frame.  One live unflagged positive was QUARANTINED
+  (kap8, NEGATIVES_REGISTRY #77); the rest are registry-tagged.  See
+  branch_operator_contamination_ledger.md.  This module = scalar-tensor / Branch-G / legacy
+  premise ONLY; NOT canonical for native microphysics; NOT valid for N5d unless explicitly
+  re-derived.  Do NOT feed this module's operator into a NEW native-microphysics claim.
+===========================================================================================
+
 branch_operator.py -- UDT's DERIVED scalar-tensor gravity operator with an EXPLICIT,
 TAGGED branch switch (Branch G / Branch P).  Load-bearing infrastructure.
 

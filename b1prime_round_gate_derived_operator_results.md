@@ -1,3 +1,8 @@
+> **SUPERSEDED / CONDITIONS-CHANGED (2026-07-06 supersession sweep) — NOT a native-micro UDT result; mine for history.**
+> Rode the PRE-NATIVE scalar-tensor (f=e^{2φ}, X=−2e5) operator, superseded 2026-07-01 by the native constrained-two-player operator
+> (EH-empty, φ-blind matter, geometric 𝒦). Already premise-tagged in NEGATIVES_REGISTRY object-identity (2026-06-21) + 2026-07-04 re-grade.
+> Gate-A native-carrier survivor legs re-graded clean; box-control targets CONDITIONS-CHANGED; object imported-S³.
+
 # B1' — Round-Limit Gate on the Derived Operator (RADIAL reconstruction + blind verification)
 
 **Mode:** OBSERVE / INFRASTRUCTURE, METRIC-LED, DATA-BLIND. No mass/ratio/spectrum/catalog

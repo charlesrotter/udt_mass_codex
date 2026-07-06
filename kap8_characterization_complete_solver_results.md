@@ -1,3 +1,14 @@
+> **⚠ QUARANTINE / CONDITIONS-CHANGED (2026-07-06 supersession sweep) — DO NOT CITE AS A NATIVE-MICRO RESULT.**
+> This doc's banked "native identification" (a core-concentrated degree-1 S² winding defect in a gentle dilation
+> well; not a horizon, not a localized particle, not a clean monopole) was computed by RUNNING the PRE-NATIVE
+> SCALAR-TENSOR operator (φ-outside-g, f=e^{2φ}, e^{2φ}-weighted matter, X=−2e5) via
+> migration_convergence_guard.py → p1_residual → branch_operator.py. That frame was SUPERSEDED 2026-07-01 by the
+> native constrained-two-player operator (∂_r(√h Z_φ φ')=−2√h·e^{−2φ}·𝒦̂; EH-empty, φ-BLIND matter, geometric 𝒦
+> source). The object identification does NOT transport to the native operator and must be RE-RUN there before use.
+> The convergence/horizon caveats and blind-verifier passes validated the run UNDER THE WRONG OPERATOR. Registry:
+> NEGATIVES_REGISTRY #77. Saved-field follow-ups (check_winding_survival, caveat3_offdiag_off_control,
+> ponder_horizon_signatures, native_object_characterization) INHERIT this quarantine.
+
 # kap8=1 characterization on the COMPLETE static solver — results
 
 **Driver:** Claude (Opus 4.8, 1M). **Date:** 2026-06-27. **Mode:** OBSERVE / characterize. DATA-BLIND.

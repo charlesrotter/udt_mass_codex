@@ -1,3 +1,9 @@
+> **SUPERSEDED / CONDITIONS-CHANGED (2026-07-06 supersession sweep) — NOT a native-micro UDT result; mine for history.**
+> Rode the PRE-NATIVE (re-derivation/armchair; references derived weight e^{2φ}) frame, superseded 2026-07-01 by the native
+> constrained-two-player operator (EH-empty, φ-blind matter, geometric 𝒦). Already premise-tagged in NEGATIVES_REGISTRY object-identity +
+> 2026-07-04 per-sub-claim re-grade. Core covariance/topology claims are operator-independent and SURVIVE; already per-sub-claim re-graded
+> in the registry — this stamp is a pointer only.
+
 # Matter Object Identity — the Round-Gate Soliton is an IMPORTED S³ Baryon; UDT's Native Matter is S² (and Unsolved on the Derived Operator)
 
 **Mode:** DATA-BLIND, EMERGENCE-LED (Principle 1), re-derivation Charles-requested (2026-06-21:

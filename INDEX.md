@@ -83,13 +83,17 @@ SUBSUMED by the static-solver completion):** `archive/COMPLETION_PROGRAM.md` · 
 **Verifier requirements:** `CROSS_MODEL_VERIFY.md` (cross-tier blind verify) · `PROVENANCE.md` · `AUDIT.md`.
 
 **The DERIVED-operator foundation arc (current physics foundation, 2026-06-21):** `native_dilation_weight_derivation`,
-`scale_symmetry_bootstrap_analysis`, `matter_regrade_derived_operator`, `F2_matter_action_forcedness`,
-`seal_junction_condition`, `F1F3_closure`, `F2_closure`, `F8_metric_choices`, `P1P5_reaudit_vs_derived_operator`,
+`scale_symmetry_bootstrap_analysis`, `matter_regrade_derived_operator` [SUPERSEDED/COND-CHANGED 2026-07-01 native operator — see doc header],
+`F2_matter_action_forcedness`, `seal_junction_condition`, `F1F3_closure` [SUPERSEDED/COND-CHANGED 2026-07-01 — see doc header],
+`F2_closure`, `F8_metric_choices`, `P1P5_reaudit_vs_derived_operator` [SUPERSEDED/COND-CHANGED 2026-07-01 — see doc header],
 `F0_SYSTEMATIC_AUDIT`, `udt_field_equations_derivation`, `udt_gravity_sector_rederivation`,
-`F5/F6/F7_*` closures (all `_results.md`).
+`F5/F6/F7_*` closures (all `_results.md`). NOTE: the three bracketed docs rode the PRE-NATIVE
+scalar-tensor frame and are NO LONGER "current foundation" — the native constrained-two-player
+operator (2026-07-01) supersedes them; the rest of this arc is the standing native foundation.
 
 **The static-solver-completion / Branch-P record:** `kap8_characterization_complete_solver_results.md` (2026-06-27;
-both-branch kap8 floor + the OPEN strong-field-horizon question, PARTIAL/CAVEATED) · `cognitive_corral_triggers_results.md`
+both-branch kap8 floor + the OPEN strong-field-horizon question, PARTIAL/CAVEATED) **[⚠ QUARANTINED 2026-07-06 — its
+native identification rode the PRE-NATIVE scalar-tensor operator; NOT a native-micro result, see NEGATIVES_REGISTRY #77 + doc header]** · `cognitive_corral_triggers_results.md`
 (the driver-trigger / corral-hook guardrail record) · `branchP_solver_floor_xcontinuation_results.md` (#66; the
 continuation + winding-native ruler + the kap8 localization arc) + the standing time-live records
 (`coupled_timelive_solve`, `timelive_nonround_native_solve` + their CONTRACT/VERIFIER).

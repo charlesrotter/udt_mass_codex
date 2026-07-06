@@ -1,3 +1,9 @@
+> **SUPERSEDED / CONDITIONS-CHANGED (2026-07-06 supersession sweep) — NOT a native-micro UDT result; mine for history.**
+> Rode the PRE-NATIVE scalar-tensor 'derived operator' (e^{2φ}R + X e^{2φ}(dφ)², a=e^{+φ}), superseded 2026-07-01 by the native
+> constrained-two-player operator (EH-empty, φ-blind matter, geometric 𝒦). Already premise-tagged in this sweep. UNVERIFIED auditor
+> triage (self-labeled NOT canon); its whole reference operator is superseded; forwarded box-control/must-quantize inherit the S³-object
+> CONDITIONS-CHANGED scope; re-run against the native operator before use.
+
 # P1–P5 RE-AUDIT vs the Newly-Derived Operator — did the recent work affect any P-result?
 
 **Mode:** READ-ONLY infrastructure audit (no solves, no edits). **Driver:** Claude Opus 4.8 (1M),

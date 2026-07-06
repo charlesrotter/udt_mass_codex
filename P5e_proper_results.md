@@ -1,3 +1,8 @@
+> **SUPERSEDED / CONDITIONS-CHANGED (2026-07-06 supersession sweep) — NOT a native-micro UDT result; mine for history.**
+> Rode the PRE-NATIVE scalar-tensor (f=e^{2φ}, X=−2e5) operator, superseded 2026-07-01 by the native constrained-two-player operator
+> (EH-empty, φ-blind matter, geometric 𝒦). Already premise-tagged in NEGATIVES_REGISTRY object-identity (2026-06-21) + 2026-07-04 re-grade.
+> genuinely-coupled 'no intrinsic discreteness' was on the SUPERSEDED operator; no native-micro authority.
+
 # P5e PROPER — the genuinely fully-coupled, multi-harmonic, free-omega, finite-amplitude, FULL off-diagonal time-row time-live solve on UDT's DERIVED operator — BOUNDED OBSERVE
 
 **Mode:** OBSERVE, METRIC-LED, DATA-BLIND. No mass/ratio/spectrum/catalog value loaded or targeted.

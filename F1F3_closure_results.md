@@ -1,3 +1,9 @@
+> **SUPERSEDED / CONDITIONS-CHANGED (2026-07-06 supersession sweep) — NOT a native-micro UDT result; mine for history.**
+> Rode the PRE-NATIVE scalar-tensor ("vacuum≠GR from box-f", a(φ)=e^{+φ}, free-X) operator, superseded 2026-07-01 by the native
+> constrained-two-player operator (EH-empty, φ-blind matter, geometric 𝒦). Already premise-tagged in this sweep (armchair closure record).
+> Its 'scalar-tensor resolution' headline is stale — native frame has EH=boundary term + φ-blind matter; the EH-not-native dispositions
+> align with the native result.
+
 # F1 + F3 CLOSURE RECORD — tying off the gravity-action + a(phi)-coupling foundation
 
 **Mode:** OBSERVE, DATA-BLIND, READ-ONLY on committed docs (this is the ONLY new file).

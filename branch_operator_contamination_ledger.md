@@ -1,0 +1,111 @@
+# branch_operator.py — SCOPED CONTAMINATION LEDGER (ERA-WIDE re-grade)
+
+**Driver:** Claude (Opus 4.8, 1M). **Date:** 2026-07-06 (supersession sweep; rewritten from the
+2026-07-06 first pass). **Mode:** armchair / code-and-provenance audit. **DATA-BLIND. NO solves.**
+Classify-only (nothing deleted; in-file stamps + registry entries added).
+
+> **ERA-LEVEL NOTE:** Pre-2026-07-01 coupled-solver native-micro results predate the native
+> constrained-two-player operator and require premise scoping before use.
+
+**CORRECTION to the first pass:** the earlier version of this ledger claimed the contamination was
+"exactly ONE" banked native-microphysics result (#66) and that the code footprint was "~6 files." Both
+are WRONG. The blast radius is ERA-WIDE — EVERY pre-2026-07-01 coupled-solve native-micro result rode a
+pre-native frame (scalar-tensor `f=e^{2φ}`, X=−2e5; or EH-era `a=−1`, `G=8πT`). The one genuinely
+DANGEROUS miss the first pass overlooked was **kap8** (a LIVE, unflagged, positive native-micro
+identification) — now QUARANTINED (NEGATIVES_REGISTRY #77). The rest were already registry-tagged but
+lacked in-file stamps (now added).
+
+## The finding that triggered this audit
+`branch_operator.py` implements the SUPERSEDED **scalar-tensor** frame — φ riding OUTSIDE the metric
+as an independent player, weight `f = e^{+2φ}`, Branch-P potential `U = e^{2φ}−1`, the `e^{2φ}`-weighted
+matter coupling `− kap8 f T^μ_ν` (the "basin-A runaway" the native derivation REJECTED), and the
+Cassini kluge `X_PROD = −2e5` (branch_operator.py:90, tagged FREE). The CERTIFIED native operator
+(constrained-two-player, derived 2026-07-01) is instead the **geometric-source, φ-BLIND-matter**
+operator `∂_r(√h Z_φ φ') = −2√h·e^{−2φ}·𝒦̂[h]` (round shorthand `Z_φ(r²φ')' = 4e^{−2φ}`) — source
+`e^{−2φ}` (OPPOSITE sign/exponent), no X kluge.
+
+**Contamination test (fair):** a script/result is CONTAMINATED only if it used a PRE-NATIVE operator
+(scalar-tensor OR EH-era) to MAKE or FEED a **native-microphysics** claim. MACRO / Branch-G / exterior
+use, or honestly-premise-tagged pre-native use, is **premise-scoped, NOT silent contamination** — but
+after 2026-07-01 it still needs an in-file SUPERSEDED stamp so it is not mis-cited as native-micro.
+
+---
+
+## 1. Code footprint (era-wide, NOT "~6 files")
+
+The operator FAMILY that produced pre-native native-micro results spans the whole coupled-solver era:
+`branch_operator.py` (scalar-tensor assembly) + its live importer `p1_residual_general_einstein.py` +
+`migration_convergence_guard.py` (the kap8 driver) + `b1prime_3d_offround_residual.py` (the covariant
+building blocks reused by the assembly) + `check_winding_survival.py` (kap8 saved-field sibling) + the
+`prototype/branchGP_native_s2_coupled_OBSERVE.py` re-implementation of the same scalar-tensor frame (fed
+#66) + the archived legacy prototype/one-off family (`legacy/root_oneoffs_2026-07-01/d1_radial_localize.py`,
+`x_solution_space_explore.py`). Code-level importer detail (unchanged, accurate):
+
+| # | File | Kind | Class |
+|---|---|---|---|
+| 1 | `p1_residual_general_einstein.py` | LIVE importer (`import branch_operator as BR`) | MICROPHYSICS solver (feeds kap8 + p1_offdiag) |
+| 2 | `migration_convergence_guard.py` | kap8 CHARACTERIZER driver (→ p1_residual → branch_operator) | fed the QUARANTINED kap8 identification (#77) |
+| 3 | `prototype/branchGP_native_s2_coupled_OBSERVE.py` | re-implements the SAME scalar-tensor frame (own `E_mixed_s2`) | fed banked negative #66 |
+| 4 | `check_winding_survival.py` + kap8 saved-field siblings | recompute on saved kap8 fields | INHERIT the #77 quarantine |
+| 5 | `legacy/root_oneoffs_2026-07-01/d1_radial_localize.py` | LEGACY/archived importer | prototype only — feeds no results doc |
+| 6 | `legacy/root_oneoffs_2026-07-01/x_solution_space_explore.py` | LEGACY/archived indirect importer | prototype only — provenance trail only |
+| 7 | `tests/test_branch_operator.py`, `test_solver_integrity.py`, `test_solution_space_gate.py` | infra guards | no physics claim (provenance/tagging guards) |
+| — | `cell_solver_f2d.py` | docstring-only mention; does NOT import | native-frame REPLACEMENT (not a vector) |
+
+---
+
+## 2. FULL re-grade table (all 16 pre-native native-micro docs)
+
+| # | Doc | Pre-native frame | Native-micro claim | Already registry-handled? | Action (2026-07-06) |
+|---|---|---|---|---|---|
+| 1 | `kap8_characterization_complete_solver_results.md` | scalar-tensor (X=−2e5) | YES — core-concentrated degree-1 S² winding defect; not-horizon | **NO — genuine miss (LIVE unflagged positive)** | **QUARANTINE banner + NEGATIVES_REGISTRY #77** |
+| 2 | `check_winding_survival.py` (kap8 saved-field) | scalar-tensor | winding-survived readout | NO — inherits #1 | inherits #77 quarantine |
+| 3 | `caveat3_offdiag_off_control` (kap8 saved-field) | scalar-tensor | off-diag control | NO — inherits #1 | inherits #77 quarantine |
+| 4 | `ponder_horizon_signatures` (kap8 saved-field) | scalar-tensor | horizon signatures | NO — inherits #1 | inherits #77 quarantine |
+| 5 | `native_object_characterization` (kap8 saved-field) | scalar-tensor | object characterization | NO — inherits #1 | inherits #77 quarantine |
+| 6 | `branchP_solver_floor_xcontinuation_results.md` (#66) | scalar-tensor (X=−2e5) | NO interior localization (negative) | YES — #66 (frame-robust, sharpened by #76) | registry #66 CONDITIONS-CHANGED note → #76 |
+| 7 | `static_soliton_rerun_derived_operator_results.md` | scalar-tensor (X=−2e5) | L=1 localization; B=1/A break; 1/r hair (→null) | YES — object-identity + banked-correction + 07-04 | in-file SUPERSEDED stamp |
+| 8 | `STEP2_timelive_matter_results.md` | scalar-tensor (X=−2e5) | box-control / must-quantize | YES — object-identity + 07-04 | in-file SUPERSEDED stamp |
+| 9 | `P5e_proper_results.md` | scalar-tensor (X=−2e5) | no intrinsic discreteness (coupled) | YES — object-identity + 07-04 | in-file SUPERSEDED stamp |
+| 10 | `coupled_timelive_solve_results.md` | EH-era (a=−1, G=8πT) | catalog negative | YES — #65 (no blocking authority) + 07-04 | in-file SUPERSEDED stamp |
+| 11 | `b1prime_round_gate_derived_operator_results.md` | scalar-tensor (X=−2e5) | Gate-A survivor legs; box-control | YES — object-identity + 07-04 | in-file SUPERSEDED stamp |
+| 12 | `matter_regrade_derived_operator_results.md` | scalar-tensor (a(φ)=e^{+φ} weight) | matter-sector re-grade (armchair CAS) | YES — this sweep (armchair, no solver) | in-file SUPERSEDED stamp |
+| 13 | `F1F3_closure_results.md` | scalar-tensor ("vacuum≠GR", free-X) | closure record (armchair) | YES — this sweep | in-file SUPERSEDED stamp |
+| 14 | `P1P5_reaudit_vs_derived_operator_results.md` | scalar-tensor 'derived operator' (a=e^{+φ}) | auditor triage (UNVERIFIED, self-labeled NOT canon) | YES — this sweep | in-file SUPERSEDED stamp |
+| 15 | `p1_offdiag_wiring_results.md` | EH-era (a=−1, G=kap8·T) + imported S³ | off-diag wiring (cat-A) + scoped shear-selectivity neg | YES — object-identity + subsumed everything-on arc | in-file SUPERSEDED stamp (LOW RISK) |
+| 16 | `matter_object_identity_native_vs_import_results.md` | re-derivation/armchair (refs e^{2φ} weight) | covariance/topology (operator-independent, SURVIVE) | YES — object-identity + 07-04 per-sub-claim | in-file SUPERSEDED stamp (pointer only) |
+
+**CLEAN (did NOT route through a pre-native operator; NO stamp needed):** `native_dilation_weight_derivation`,
+`F0_SYSTEMATIC_AUDIT`, `p2_matter_fullmetric`, `p5_solver_survey`, `native_readout_map_depth_size_results.md`
+(#76 — runs on the CORRECT native operator `Z_φ(r²φ')'=4e^{−2φ}`), and the entire recent armchair/CAS arc
+(J(s) deflection/Shapiro, N5a/N5b, D1 charge-channel, no-selector, i-flow/ℏ). grep for `branch_operator` /
+`p1_residual` / `branchGP` returns 0 in each.
+
+---
+
+## 3. Corrected blast-radius summary
+
+- **ONE genuine QUARANTINE:** kap8 (+ 4 saved-field siblings) — a LIVE, positive, previously-UNFLAGGED
+  native-micro identification that rode the scalar-tensor operator at X=−2e5. This is the miss the first
+  pass overlooked. Now QUARANTINED (NEGATIVES_REGISTRY #77, banner on the doc). NO blocking authority as a
+  native-micro result until re-run on the native operator.
+- **The rest were already registry-tagged** (object-identity 2026-06-21 / #65 / #66 / 2026-07-04 re-grade /
+  this sweep) but lacked in-file stamps — 9 in-file SUPERSEDED stamps + the #66 CONDITIONS-CHANGED note added
+  so none is mis-cited as native-micro.
+- **The code footprint is ERA-WIDE, NOT "~6 files":** `branch_operator.py` + `migration_convergence_guard.py`
+  + `p1_residual_general_einstein.py` + `check_winding_survival.py` + `b1prime_3d_offround_residual.py` + the
+  `prototype/branchGP` re-implementation + the archived legacy prototype/one-off family. Every pre-2026-07-01
+  coupled-solve native-micro result rode a pre-native frame.
+- **The live forward risk** is feeding any of these pre-native operators into a NEW native-micro solve (e.g.
+  N5d). The FRAME FENCE on `branch_operator.py` (corrected 2026-07-06) states this era-wide scope.
+
+---
+
+## 4. Actions taken / owed
+- **DONE (2026-07-06 sweep):** kap8 QUARANTINE banner + NEGATIVES_REGISTRY #77; #66 CONDITIONS-CHANGED note
+  (→ #76); 9 in-file SUPERSEDED stamps (docs 7–16 above); INDEX.md stale "current foundation" labels fixed
+  (matter_regrade, F1F3_closure, P1P5_reaudit) + kap8 line flagged QUARANTINED; `branch_operator.py` FRAME
+  FENCE contamination-scope line corrected (era-wide, not "exactly ONE"); this ledger rewritten. No code
+  deleted; all provenance tags preserved.
+- **OWED (gated, to the frontier driver):** re-run the kap8 object identification on the NATIVE operator
+  before any native-micro use; the gated N5d off-round shear solve must use a native solver, NOT this module.

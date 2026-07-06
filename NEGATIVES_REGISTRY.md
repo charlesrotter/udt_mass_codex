@@ -2125,6 +2125,11 @@ CS5. THE SEAL IS NOT THE BELL-NONLOCALITY CHANNEL (no-signaling + self/terminus 
    Branch P) STANDS and is STRENGTHENED (resolution trend + clean seal scan), via the CORRECTED mechanism
    "box-controlled structure" (not featureless-defect). Nr=24 judged redundant (seal scan decisive). The
    Nr=16/24-resolves-into-an-interior-core reopener is now CLOSED (it resolved into BOX-controlled structure).
+   *** CONDITIONS-CHANGED 2026-07-06 (supersession sweep): #66 rode the PRE-NATIVE Branch-P SCALAR-TENSOR operator
+   (f=e^{2φ}, X=−2e5), superseded 2026-07-01. Its CONCLUSION is FRAME-ROBUST — the native-operator depth/size node
+   (#76, native_readout_map_depth_size_results.md) independently finds the round Branch-P vacuum is PROVABLY a
+   continuum (no interior localization), same direction. So #66 survives as a negative but its OPERATOR PREMISE is
+   superseded; cite #76 for the native-operator statement. ***
 
 ## Embedded rigid-N=1 carrier in the REAL ambient (E1, 2026-07-03, blind-verified)
 
@@ -2177,3 +2182,19 @@ discreteness that DOES exist (topological Q_H∈ℤ; the D2b depth-N ladder) is 
 structure ORTHOGONAL to the continuous mass-scale. The exclusive route to size/mass discreteness =
 the off-round shear DOF (candidate mechanisms: sign-changing 𝒦 well; TT h_AB tensor eigenproblem),
 settled only by the gated non-perturbative N5d solve. Doc: native_readout_map_depth_size_results.md.
+
+## kap8 characterization — QUARANTINE (superseded operator; 2026-07-06 supersession sweep)
+
+**#77 — The "kap8 object" native identification (core-concentrated degree-1 S² winding defect in a gentle
+dilation well; not a horizon / not a localized particle / not a clean monopole) is QUARANTINED — it rode the
+PRE-NATIVE SCALAR-TENSOR operator at X=−2e5 and does NOT transport to the native constrained-two-player
+operator.** PREMISE SET: scalar-tensor frame (φ-outside-g, f=e^{2φ}, e^{2φ}-weighted matter, X=−2e5, EH-era
+assembly); coupled off-diagonal solve via migration_convergence_guard.py → p1_residual → branch_operator.py
+(~41 h wall); round/imported content; convergence + horizon heavily caveated + blind-verified UNDER THE WRONG
+OPERATOR. The frame was superseded 2026-07-01 (native_field_equations_constrained_two_player: EH boundary term,
+φ-blind matter, geometric 𝒦). Found by the 2026-07-06 supersession sweep (blind-verified) — NOT covered by the
+2026-06-19 microphysics retirement / 2026-06-21 object-identity / 2026-07-04 re-grade blocks (a genuine miss).
+Its degree-1-winding-survived + not-horizon readings are UNTESTED on the native operator (the #76 depth/size
+continuum does not cover a strong-coupling X=−2e5 object). BLOCKING AUTHORITY: NONE as a native-micro result
+until re-run on the native operator. Doc: kap8_characterization_complete_solver_results.md (+ 4 saved-field
+siblings: check_winding_survival, caveat3_offdiag_off_control, ponder_horizon_signatures, native_object_characterization).

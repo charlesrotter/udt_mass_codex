@@ -1,3 +1,9 @@
+> **SUPERSEDED / CONDITIONS-CHANGED (2026-07-06 supersession sweep) — NOT a native-micro UDT result; mine for history.**
+> Rode the PRE-NATIVE EH-era (a=−1, G=kap8·T) operator + imported S³ matter, superseded 2026-07-01 by the native constrained-two-player
+> operator (EH-empty, φ-blind matter, geometric 𝒦). Already premise-tagged in NEGATIVES_REGISTRY object-identity (imported S³) + subsumed
+> everything-on arc. LOW RISK — banks only off-diagonal-wiring machinery (category-A) + a scoped shear-selectivity negative; no live
+> positive native-micro headline; the M_MS object is imported-S³.
+
 # P1 -- Off-diagonal wiring to the general Einstein: results
 
 **Phase:** P1 of the everything-on solver (EVERYTHING_ON_SOLVER_BUILD_MAP.md S III).

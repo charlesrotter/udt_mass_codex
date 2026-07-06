@@ -1,3 +1,9 @@
+> **SUPERSEDED / CONDITIONS-CHANGED (2026-07-06 supersession sweep) — NOT a native-micro UDT result; mine for history.**
+> Rode the PRE-NATIVE scalar-tensor (f=e^{2φ}, a(φ)=e^{+φ} matter weight) operator, superseded 2026-07-01 by the native
+> constrained-two-player operator (EH-empty, φ-blind matter, geometric 𝒦). Already premise-tagged in this sweep (armchair CAS, no solver).
+> Data-blind CAS; the conceptual survivor (EH-Bianchi cannot absorb once operator≠EH) is preserved, but the specific scalar-tensor
+> operator + e^{2φ} matter weight are RETIRED (native matter is φ-blind; e^{2φ}·L_m is non-native).
+
 # Re-grading UDT's Matter Sector on the Newly-Derived Gravitational Operator — Analytic OBSERVE
 
 **Mode:** OBSERVE, METRIC-LED, DATA-BLIND (no mass/ratio/spectrum/catalog loaded or aimed at).
