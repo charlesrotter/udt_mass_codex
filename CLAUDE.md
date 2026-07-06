@@ -305,8 +305,8 @@ redirect (nonstationary weld sector / transfer ladder / ensembles).
 
 - **`LIVE.md` IS THE FIRST READ — the only guaranteed-current file** (frontier + next action). If
   anything else disagrees with it, LIVE.md wins. Read order: **LIVE.md → a `PURSUIT_CHARTER_*.md` ONLY if a current
-  one exists for LIVE's arc (the latest, `PURSUIT_CHARTER_2026-07-04.md`, is SUPERSEDED by the hopfion/H4 arc —
-  skip it / mine for the traps list only) → CLAUDE.md "How we work" + "DRIVER TRIGGERS" + the `.claude/skills/`
+  one exists for LIVE's arc (the latest, `PURSUIT_CHARTER_2026-07-04.md`, is SUPERSEDED — LIVE.md names the
+  current arc; skip the charter / mine it for the traps list only) → CLAUDE.md "How we work" + "DRIVER TRIGGERS" + the `.claude/skills/`
   discipline skills → HANDOFF.md TOP (detailed record; currently the post-LIVE orientation) → INDEX.md (repo map).**
 - **Current state / frontier / pending decision: DO NOT TRACK IT HERE — this file goes stale (a 2026-07-04
   dress rehearsal caught exactly this bullet describing an already-superseded "stability arc" frontier).**
