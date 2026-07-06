@@ -74,6 +74,24 @@ def EAB_shear_row(rho, rhop, phip, s, s_r, s_rr, e2m=None, phi=None):
     return -e2m * (rho2 * s_rr + (2.0 * rho * rhop - 2.0 * phip * rho2) * s_r)
 
 
+def source_interp(source_rc, source_sh2, r_phys):
+    """Differentiable linear interpolation of the frozen sh2(r) profile at physical radii r_phys.
+    torch-differentiable in r_phys (hence in the cell length L) -- this is what makes registration B
+    (current-L pullback) live inside the residual: the source is sampled at the CURRENT physical cell
+    coordinate r(zeta)=r_c+(L/2)(zeta+1), not frozen at the seed L0.  Clamps to 0 outside the source
+    support (the hopfion is compact), matching np.interp(left=0.0, right=0.0).  NO amplitude Jacobian
+    (interpolation only); the amplitude/continuation factor is applied by the caller.  source_rc must be
+    ascending."""
+    rc = torch.as_tensor(source_rc, dtype=torch.float64)
+    sh = torch.as_tensor(source_sh2, dtype=torch.float64)
+    idx = torch.searchsorted(rc, r_phys).clamp(1, rc.numel() - 1)
+    x0 = rc[idx - 1]; x1 = rc[idx]; f0 = sh[idx - 1]; f1 = sh[idx]
+    t = (r_phys - x0) / (x1 - x0)                       # differentiable in r_phys (hence L)
+    val = f0 + t * (f1 - f0)
+    outside = (r_phys < rc[0]) | (r_phys > rc[-1])
+    return torch.where(outside, torch.zeros_like(val), val)
+
+
 def phi_source_offround_correction(rho, a2p, e2m, Z):
     """The ADDITIVE off-round correction to the Branch-P phi-source, from the surface-averaged Kcal
     with s = a2(r) P2(mu):  the phi-ODE residual gains  +(1/(5 Z)) e^{-2phi} a2'^2   (vanishes at a2=0).

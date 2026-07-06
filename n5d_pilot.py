@@ -86,19 +86,20 @@ def load_frozen_source():
     return st, rc, sh2
 
 
-def build_Tshear(ctx, L0, amp, source_rc, source_sh2):
-    """FROZEN ell=2 source on the (Nr,Nth) grid:  Tshear(r,theta) = amp * sh2(r_phys) * P2(mu).
-    Registration (chose-or-derived: FROZEN/CHOSE, ledgered): the source radial profile is sampled at
-    the physical cell nodes r_phys = rc + (L0/2)(zeta+1) at the SEED length L0 (frozen in the lab
-    frame -- kept CONSTANT across the continuation; only 'amp' scales it).  Source beyond its support
-    is clamped to 0 (the hopfion is compact).  Projecting Es=Es_geom+Tshear onto P2 gives the ell=2
-    Galerkin shear equation (the geometric row already carries the same P2, so E^{AB}=-T^{AB})."""
-    zeta = ctx["zeta"].cpu().numpy()
-    r_phys = ctx["rc"] + 0.5 * L0 * (zeta + 1.0)
-    src2 = np.interp(r_phys, source_rc, source_sh2, left=0.0, right=0.0)  # (Nr,) clamp outside support
-    src2_t = torch.as_tensor(src2, dtype=torch.float64, device=ctx["Dz"].device)
-    P2 = ctx["P2"]                                                       # (Nth,) Legendre P2(mu)
-    return amp * src2_t[:, None] * P2[None, :]                            # (Nr,Nth)
+def build_Tshear(ctx, L, amp, source_rc, source_sh2):
+    """ell=2 source array on the (Nr,Nth) grid:  Tshear(r,theta) = amp * sh2(r_phys) * P2(mu).
+    REGISTRATION B (native pullback, 2026-07-06): the frozen source radial profile is sampled at the
+    physical cell nodes r_phys = rc + (L/2)(zeta+1) using the SUPPLIED cell length L (pass the CURRENT
+    L, not the seed L0) -- so at L=L0 this reproduces the old registration exactly, and for L!=L0 it
+    interpolates at the current physical r (not a fixed zeta-profile).  Source beyond its support is
+    clamped to 0 (the hopfion is compact).  NO amplitude Jacobian (interpolation only; 'amp' is the
+    continuation factor).  This standalone builds a FIXED array for a given L (diagnostics/tests); the
+    SOLVER tracks L live via n5d["src"] (fields() interpolates each residual eval).  Projecting
+    Es=Es_geom+Tshear onto P2 gives the ell=2 Galerkin shear equation (E^{AB}=-T^{AB})."""
+    r_phys = ctx["rc"] + 0.5 * L * (ctx["zeta"] + 1.0)                    # current-L physical nodes (torch)
+    src2 = cs.n5d_shear.source_interp(source_rc, source_sh2, r_phys)      # (Nr,) diff. interp, clamp->0
+    P2 = ctx["P2"]                                                        # (Nth,) Legendre P2(mu)
+    return amp * src2[:, None] * P2[None, :]                              # (Nr,Nth)
 
 
 # =========================================================================================
@@ -171,7 +172,7 @@ def run_one_bc(sealbc, Nr, Nth, source_rc, source_sh2, maxit, budget,
     ctx = cs.make_ctx(Nr, Nth, rc=0.5)
     u = cs.seed_n5d(ctx, a2_amp=A2_SEED)                     # nonzero shear seed (never a2=0)
     _, _, _, _, L0 = cs.unpack(u, ctx, n5d=True)
-    L0 = float(L0)                                          # seed length -> FROZEN source registration
+    L0 = float(L0)                                          # seed length (recorded; NO longer the source anchor)
     steps = []
     throughput_limited = False
     for amp in amps:
@@ -180,8 +181,9 @@ def run_one_bc(sealbc, Nr, Nth, source_rc, source_sh2, maxit, budget,
         if remaining <= 1.0:
             throughput_limited = True
             break
-        Tshear = build_Tshear(ctx, L0, amp, source_rc, source_sh2)     # FROZEN at seed L0
-        n5d = dict(sealbc=sealbc, Tshear=Tshear, a2_mirror=a2_mirror)
+        # REGISTRATION B: pass the source PROFILE (not a frozen array) so fields() interpolates it at
+        # the CURRENT cell L each residual eval -> the source tracks r(zeta)=rc+(L/2)(zeta+1) live.
+        n5d = dict(sealbc=sealbc, src=(source_rc, source_sh2, amp), a2_mirror=a2_mirror)
         u, hist = cs.newton_lm_solve(u, ctx, PRM, maxit=maxit, tol=PHI_TOL,
                                      verbose=verbose, time_budget=remaining, n5d=n5d)
         steps.append({"amp": amp, "Phi_start": float(hist[0]), "Phi_final": float(hist[-1]),
@@ -190,10 +192,9 @@ def run_one_bc(sealbc, Nr, Nth, source_rc, source_sh2, maxit, budget,
         if (time.time() - t0) > budget:
             throughput_limited = True
             break
-    # final diagnostics at the last amplitude actually reached
-    last_amp = steps[-1]["amp"] if steps else None
-    n5d = dict(sealbc=sealbc, Tshear=build_Tshear(ctx, L0, last_amp if last_amp else 0.0,
-                                                  source_rc, source_sh2), a2_mirror=a2_mirror)
+    # final diagnostics at the last amplitude actually reached (source registered LIVE at the final L)
+    last_amp = steps[-1]["amp"] if steps else 0.0
+    n5d = dict(sealbc=sealbc, src=(source_rc, source_sh2, last_amp), a2_mirror=a2_mirror)
     diag = final_diagnostics(u, ctx, n5d)
     final_Phi = steps[-1]["Phi_final"] if steps else float("nan")
     converged = bool(final_Phi < 1e-8) if steps else False
@@ -214,7 +215,9 @@ def run_one_bc(sealbc, Nr, Nth, source_rc, source_sh2, maxit, budget,
             "xi": "FREE (probed family)", "kappa": "FREE-units",
             "Z_phi": "CHOSE=8 (Route-A carrying Route-B number)",
             "source": "FROZEN H3-hopfion ell=2 sh2(r) (ledgered)",
-            "source_registration": "CHOSE: sampled at seed length L0, clamped outside support",
+            "source_registration": "REGISTRATION B (native pullback): interpolated LIVE at current-L "
+                                   "physical r=rc+(L/2)(zeta+1), clamped outside support; no amplitude "
+                                   "Jacobian; frame-factor (rho^2/orthonormal-vs-coordinate) OPEN/un-applied",
             "shear_seal_BC": f"CHOSE-provisional ({sealbc}); BOTH run, dependence reported",
             "ell": "SCOPED: ell=2-only pilot (higher-ell = flagged blind-spot)",
             "a2_mirror": "CHOSE=0 (round mirror value for S-Dir)",

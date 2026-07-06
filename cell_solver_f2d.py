@@ -260,8 +260,24 @@ def fields(v, ctx, prm, n5d=None):
         # traceless geometric E-row (pointwise; sin th supplied by the ell=2 quadrature), n5d_shear
         Es = n5d_shear.EAB_shear_row(rho[:, None], rhop[:, None], phip[:, None],
                                      s_field, s_r, s_rr, e2m=e2m[:, None])   # (Nr,Nth)
-        # matter TRACELESS source T^{AB} (FROZEN profile in the pilot; None -> vacuum shear)
+        # matter TRACELESS source T^{AB} (FROZEN profile; enters ONLY this h_AB shear row -- phi-BLIND,
+        # no direct phi-source).  Two ways to supply it:
+        #   n5d["src"]=(source_rc, source_sh2, amp): REGISTRATION B (native pullback) -- the frozen sh2(r)
+        #     profile is interpolated LIVE at the CURRENT physical cell coordinate r(zeta)=rc+(L/2)(zeta+1)
+        #     (current L, differentiable), NOT frozen at the seed L0.  No amplitude Jacobian (interp only).
+        #   n5d["Tshear"]=array: legacy precomputed (Nr,Nth) source (used by tests / diagnostics that pass
+        #     a fixed array); NOT L-tracking.  If both absent -> vacuum shear.
+        # FRAME-FACTOR LEDGER (open, un-applied): the stored sh2 = <T_thth - T_phph>(l2) is an ORTHONORMAL-
+        # frame stress component from the hopfion's flat lab frame.  Whether it equals the cell-frame T_s
+        # in E_s + T_s = 0 as-is, or needs a rho^2 / e-based frame conversion, is UNRESOLVED and NOT
+        # applied here (amplitude left unchanged; see n5d_source_normalization_audit ledger).
         Tshear = n5d.get("Tshear", None)
+        src = n5d.get("src", None)
+        if src is not None:
+            src_rc, src_sh2, src_amp = src
+            r_phys = ctx["rc"] + 0.5 * L * (ctx["zeta"] + 1.0)   # CURRENT L (registration B; differentiable)
+            src2 = n5d_shear.source_interp(src_rc, src_sh2, r_phys)   # (Nr,) interp at current physical r
+            Tshear = src_amp * src2[:, None] * P2[None, :]           # amp * sh2(r_cur) * P2(mu)
         if Tshear is not None:
             Es = Es + Tshear                              # E^{AB} = -T^{AB}  =>  E_s + T_s = 0
         # ell=2 Galerkin projection: R2(r) = sum_j w_j P2_j (Es[.,j])   (w_j = int dmu incl. sin th)

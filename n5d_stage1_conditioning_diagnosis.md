@@ -225,6 +225,32 @@ pullback fix (A→B) is a genuine correctness improvement but would NOT stop the
 finite-L closure = the round-continuum degeneracy, gated; and no anti-collapse fudge is permitted here).
 **No physics verdict, no Outcome A/B, no continuum lead. Outcome D / tool-limited stands.**
 
+## 4e. Registration-B pullback correctness patch (implemented 2026-07-06)
+
+**Patch (correctness only — NOT an anti-collapse change):** the frozen ℓ=2 source is now pulled back at
+the CURRENT physical cell coordinate r(ζ)=rc+(L/2)(ζ+1), live inside the residual, instead of frozen at the
+seed L0. Files: `n5d_shear.source_interp` (new, torch-differentiable linear interp of sh2(r), clamp→0
+outside support, no amplitude Jacobian); `cell_solver_f2d.fields` (new `n5d["src"]=(rc,sh2,amp)` path —
+interpolates at current L each residual eval; legacy `n5d["Tshear"]` precomputed-array path kept for
+tests/diagnostics); `n5d_pilot.build_Tshear` (now takes current L; routes through `source_interp`) and
+`run_one_bc` (uses the live `src` path). Equations/BCs/readouts/seal/H-closure/verdict-logic/solver-limits
+UNCHANGED; no FIX-2; no finite-L barrier/penalty/target/anti-collapse term. Tests: `tests/test_n5d_pullback.py`
+(8 tests) + full suite **56 passed / 1 xfailed**; L_bare 7 PASS; N5d preflight both BCs square, base-row match 0.0.
+
+Before/after (fixed-state comparison; no verdict pilot): at **L=L0 new≡old** to 2.2e−16 (identical source,
+identical shear_res); for **L≠L0** the source is sampled at current-L physical r (e.g. L=0.1: |ΔTshear|max
+2.99, ‖shear_res‖ 3.076→1.637). **Readouts q_raw/Pi_phi/M_readout/Hseal are identical old-vs-new at every
+fixed state** (they read φ,ρ,a2, not the source). The patch is a genuine correctness fix but does **not** stop
+the L-collapse (gated round-continuum closure; confirmed in §4d) — it makes the source physically consistent
+as L varies.
+
+**OPEN LEDGER — source-normalization / frame factor (un-applied):** the stored `sh2 = ⟨T_θθ − T_φφ⟩(ℓ2)` is
+an ORTHONORMAL-frame stress component from the hopfion's flat lab frame. Whether it equals the cell-frame T_s
+used in E_s + T_s = 0 **as-is**, or needs a ρ²/e-based orthonormal-vs-coordinate conversion, is **UNRESOLVED
+and NOT applied** (amplitude left unchanged per the patch scope). Ledgered as an open source-normalization
+audit for a later CAS check; it does not affect the current-L placement finding. Status remains PROVISIONAL /
+Outcome D / no A/B / no continuum lead.
+
 ## 5. Scope / discipline
 - ONE tile: static, Branch P, block-diagonal, ℓ=2 axisymmetric shear, frozen H3-hopfion source, whole cosmic cell.
 - Premise ledger unchanged from the pilot: ξ FREE, κ FREE-units, Z_φ=8 (CHOSE — Route-A carrying the Route-B
