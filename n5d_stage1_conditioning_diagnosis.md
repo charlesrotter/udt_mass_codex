@@ -291,6 +291,48 @@ cell-frame orthonormal COMPONENT directly (flat vs curved-cell embedding); that 
 untouched by this frame-factor resolution. **No physics verdict, no Outcome A/B, no continuum lead. Outcome D
 stands.**
 
+## 4g. Flat-hopfion → cell-frame embedding audit (PROVISIONAL, no verdict)
+
+**Date:** 2026-07-06 · script `n5d_embedding_audit.py` · FIX-1 + Registration-B + ρ²/2 all active · nothing
+changed. **Question:** can the flat-space H3 hopfion stress be used as the cell-frame orthonormal transverse
+source, or must it be regenerated/co-relaxed in the live cell geometry?
+
+**Finding: (c) a true frozen-source inconsistency — the flat→cell COMPONENT embedding (beyond the already-
+correct ρ²/2 measure factor) carries an O(1)–O(few) (r/ρ)^{2..4} regrade that is not cleanly derivable from
+the stored scalar and is itself a symptom that the matter should be co-relaxed in the cell metric.**
+
+1. **Source background** (`h4_n4_phaseB_stress.py`): FLAT Euclidean 3-space, Cartesian grid, flat orthonormal
+   er/eth/eph ⇒ areal ρ = r, φ = 0, s = 0, round. Hopfion compact (Rring=0.099, core_w≈0.69; stress mass at
+   r~0.05–1.5; box half-width 6).
+2. **Cell geometry at the nodes** — NOT flat: seed L=1 → r∈[0.5,1.5], **ρ=0.707 const ⇒ ρ/r∈[0.47,1.41]**;
+   stalled L=9e-3 → r∈[0.5,0.509], ρ=0.709 ⇒ ρ/r≈1.40. φ,s negligible (e^{−2φ}≈1.005, |s|≤1e-3). The
+   dominant non-flatness is **ρ ≠ r** (areal ≠ coordinate radius), and ρ≈const does NOT track the hopfion's
+   areal structure (a physical embedding needs ρ(r)=r_flat).
+3. **Basis mismatch:** stored sh2 = T_θ̂θ̂−T_φ̂φ̂ is the flat orthonormal shear (proper angular length r·dθ);
+   the cell orthonormal proper length is √h_θθ·dθ = ρe^{s/2}dθ ≈ ρ·dθ. For the frozen field (fixed angular
+   map per shell) the orthonormal stress rescales with the proper angular gradient 1/√h_θθ: **×(r/ρ)² on the
+   ξ-kinetic piece, ×(r/ρ)⁴ on the κ-quartic piece** (virial E2≈E4 ⇒ both matter) — a mixed power, not a
+   clean single factor extractable from the stored scalar.
+4. **Classification = (c)** (with parts of (b)). NOT (a) [ρ²/2 alone is insufficient — a (r/ρ)^{2..4} regrade
+   remains]; a clean (b) single factor is not derivable (kinetic+quartic mix); NOT (d) negligible; the
+   direction is resolved so not (e).
+5. **Sensitivity (linear S-Dir, seed; NO verdict solve):** A shipped `(ρ²/2)·sh2` → a2_peak 0.529, ‖rhs‖ 0.752;
+   B/C cell-basis kinetic `(r²/2)·sh2` → 0.871 / 1.587; D quartic-limit `(r⁴/2ρ²)·sh2` → 1.690 / 4.602. The
+   A→D spread is **~3× in a2_peak, ~6× in ‖rhs‖** — the frozen-COMPONENT frame ambiguity is O(1)–O(few) at the
+   seed and reshapes the source radially (the (r/ρ) factors are r-dependent), growing as ρ/r drifts.
+
+6. No physical conclusion drawn.
+7. **Recommendation (Charles-gated):** the frozen-source approximation is **NOT valid for a pin/continuum
+   verdict** in this regime (frame ambiguity O(few); ρ≠r; ρ≈const incompatible with the compact hopfion; the
+   free-L collapse makes the cell sample a tiny r-slice at ρ≈0.71). **Retire Stage-1 (frozen flat source) as a
+   verdict tool; Stage-2 (matter co-relaxed in the cell metric) should PRECEDE FIX-2 and any pin/continuum
+   inference.** The ρ²/2 measure factor, Registration-B, and FIX-1 are valid infrastructure that carry forward
+   into Stage-2; co-relaxation also lets the matter set its own areal scale (bearing on the L-collapse). This is
+   a recommendation, not an action.
+8. (Superseded by 7 — the approximation is not "valid enough" for a bounded verdict pilot.)
+
+**No physics verdict, no Outcome A/B, no continuum lead. Outcome D / tool-limited stands.**
+
 ## 5. Scope / discipline
 - ONE tile: static, Branch P, block-diagonal, ℓ=2 axisymmetric shear, frozen H3-hopfion source, whole cosmic cell.
 - Premise ledger unchanged from the pilot: ξ FREE, κ FREE-units, Z_φ=8 (CHOSE — Route-A carrying the Route-B
