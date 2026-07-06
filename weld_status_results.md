@@ -1,3 +1,7 @@
+> **SUPERSEDED (2026-07-06 macro-spine pass) — pre-2026-07-01 C1 weld + legacy macro projection; "working audit, not canonical".**
+> The C1 second-order-action weld predates the native field equations; the macro projection rides the legacy
+> pipeline. Mine the weld structure for history; not current native canon.
+
 # Weld Status Results
 
 Status: working audit, not canonical.

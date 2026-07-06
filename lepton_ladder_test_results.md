@@ -1,3 +1,8 @@
+> **SUPERSEDED (2026-07-06 macro-spine pass) — the RETIRED 2026-06-10 typed-transfer / q=1/3-import ladder.**
+> Rides an imported typed-transfer ladder (q=1/3, η=1/18, Bessel-B, fixed depths) from the "algebraic objects can be
+> imports" era — NOT the native D2b depth ladder (cascade_stage*/ladder_*). Self-labeled "not canonical"; its verdict
+> is falsification pressure (126/126 miss). No live claim. See pre_native_era_census.md.
+
 # Lepton Ladder Test Results
 
 Status: working audit, not canonical.

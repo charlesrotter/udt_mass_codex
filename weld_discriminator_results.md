@@ -1,3 +1,7 @@
+> **SUPERSEDED (2026-07-06 macro-spine pass) — 2026-06-10 legacy S116 macro CMB pipeline; "working audit, not canonical".**
+> The macro numbers (mu_g, r_CMB, cubic profile, blackbody 1/4) ride the pre-native legacy pipeline. The native-weld
+> STRUCTURE is minable, but the macro projection is pre-2026-07-01. Not current native canon.
+
 # Weld Discriminator Results
 
 Status: working audit, not canonical.

@@ -48,9 +48,13 @@ siblings) — a live unflagged native-micro identification banked on the scalar-
 verified CLEAN. **PROVENANCE FLOOR NOW CLOSED (2026-07-06):** a date-based pre-native-era census (`pre_native_era_census.md`,
 2026-06-11→07-01, 4 classifiers + 2 adversarial passes) confirms **kap8 (#77) is the SOLE QUARANTINE**; everything
 else is CLEAN / SUPERSEDED / CONDITIONS-CHANGED. 10 SUPERSEDED coupled-solve docs relocated → `archive/pre_native_
-coupled/` (redirect stubs left); CC docs stay live with banners. **RESIDUAL OWED (not done): a MACRO-scope
-provenance pass** (AUDIT.md / light-sector / CMB ride native radial functions, un-audited for pre-native-operator
-dependence) + W-series phase-2 physical relocation. **NEXT (Charles-gated): BUILD the native N5d solver** — the
+coupled/` (redirect stubs left); CC docs stay live with banners. **MACRO-scope provenance pass NOW DONE
+(2026-07-06, `macro_spine_provenance_2026-07-06.md`, 3 classifiers + adversarial pass): NO hard quarantine; N5d
+triple-confirmed unaffected.** Live macro (solar R2 / universe-cell / ladder / cascade / H4_N5 / F7 / AUDIT-surviving)
+is CLEAN native; the pre-native macro residue is bannered (native_dilation_weight §5–§7 SPLIT = birthplace of the
+X=−2e5 kluge; F5 CC; scale_symmetry_bootstrap / macro_sector_fork / weld×2 / lepton_ladder_test SUPERSEDED; AUDIT.md
+CC = stale header). **Provenance floor now closed on BOTH micro and macro sides.** Only residual left = W-series
+phase-2 physical relocation (cosmetic; registry-retired + census-pointed). **NEXT (Charles-gated): BUILD the native N5d solver** — the
 certified operator `∂_r(√h Z_φ φ')=−2√h e^{−2φ}𝒦̂[h]` + the E^{AB} shear sector (via the fixed L_bare⁻¹) + φ-blind
 native-S² matter source + whole-cell BCs; then re-run the preflight gate, then the coarse pilot (Nr≤16–24, one
 process, foreground, ANTI-HANG). **Do NOT run `branchGP` for N5d** (wrong frame, fenced). **Prior state today:** q=1/3 channel-selector CLOSED (★ selector entry

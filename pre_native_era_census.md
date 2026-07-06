@@ -48,7 +48,9 @@ banner OWED) · p1_VERIFIER 06-19 EH/frameB SUPERSEDED (companion to p1_offdiag)
 p5_solver_survey 06-20 survey N N **CLEAN** · QUANTIZATION_MAP 06-20 MAP N N CLEAN · p2/p3/p4_VERIFIER 06-20 EH/frameB
 (companions of P2/P3/P4) **CONDITIONS-CHANGED (companion)** · F0_SYSTEMATIC_AUDIT/F2_closure/F2_matter_action_
 forcedness/F4_seal_MAP/F5/F6/F7/F8 06-21 derivation N N **CLEAN** · native_dilation_weight_derivation 06-21 native-
-DERIVE N N CLEAN · scale_symmetry_bootstrap 06-21 native-analytic N N CLEAN · seal_junction_condition 06-21 DERIVE N N
+DERIVE N N **SPLIT** (core a(φ)=e^φ CLEAN/live; §5–§7 scalar-tensor+γ(X)/Cassini-X=−2e5 SUPERSEDED — corrected by the
+2026-07-06 macro-spine pass, `macro_spine_provenance_2026-07-06.md`) · scale_symmetry_bootstrap 06-21 native-analytic
+N N **SUPERSEDED** (fR+Xf(dφ)² action — macro-spine pass; earlier "CLEAN" corrected) · seal_junction_condition 06-21 DERIVE N N
 CLEAN · STEP2_MAP/MATTER_SECTOR_MAP 06-21 native-MAP N N CLEAN · **branchP_solver_floor_xcontinuation 06-23 scalar-
 tensor(X=−2e5) Y YES CONDITIONS-CHANGED (reg#66, already flagged +#76 xref)** · p1_purity_harness/p2_operator_from_
 action/p3_discipline_skills/p4_cross_model_verify/p5_live_state_shrink 06-23 infra N N CLEAN.

@@ -1,3 +1,9 @@
+> **SUPERSEDED (2026-07-06 macro-spine pass) — NOT current native canon; mine for history.**
+> Rides the 2026-06-21 two-player SCALAR-TENSOR action S_G=∫√−g[fR+Xf(dφ)²], f=e^{2φ} — retired 2026-07-01 by the
+> native constrained-two-player operator (EH-empty, φ-blind matter, geometric 𝒦). Contains a retracted-but-flagged
+> Hubble import; the Noether-charge identity self-downgraded to CONJECTURE. The qualitative box-control/dilatation
+> "why" re-derives in the current operator (native_field_equations §6) — cite THAT, not this action.
+
 # Scale (Dilatation) Symmetry & the Global-Bootstrap Hypothesis — Analytic OBSERVE
 
 **Mode:** OBSERVE (report WHAT IS THERE; the bootstrap is Charles's DIRECTION to

@@ -1,3 +1,11 @@
+> **CONDITIONS-CHANGED (2026-07-06 macro-spine pass) — NOT a live frontier; header verdict is STALE.**
+> This S116 CMB/EE dispatch was DROPPED by Charles. Its top "Current verdict" token (centrifugal-cutoff → EE peak
+> ~1004) is SUPERSEDED WITHIN THIS DOC: the ★★★ TT firewall REFUTES the cutoff fix; the surviving live claim is the
+> derived intrinsic-density ¼δρ/ρ term (MECHANISM DERIVED, Planck fit PENDING). CLEAN on the operator (rides the
+> current native exponential-lapse metric + native radial function; no flat-j_ℓ / X=−2e5 in any surviving claim),
+> but "Canonical inputs = CG §12.15.x" are from LEGACY udt_canonical_geometry (the load-bearing weld was re-derived
+> natively). Read the final-state sections, not the header token.
+
 # D-CMB-EE-PROJECTION-SPIN-1 — is the pure-metric E-mode power ℓ⁴ or gentler? (S116)
 
 **Verdict (SUPERSEDED within this dispatch — see ★★ REOPENING below):** ~~`EE_AMPLITUDE_FRONTIER_RESOLVED__OVERSHOOT_STANDS_AS_FALSIFIABLE`~~

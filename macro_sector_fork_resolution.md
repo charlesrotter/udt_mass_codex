@@ -1,3 +1,8 @@
+> **SUPERSEDED (2026-07-06 macro-spine pass) — 2026-06-10 legacy macro synthesis; mine for history.**
+> The SNe/BAO fit machinery (cubic a(φ)=(3/2)x−…, χ²/dof, d_L=r(1+z)) PREDATES the native field equations + the
+> R1/R2 derivations. Its durable outputs (R-areal, finite-cell, 1+z=e^φ) are canonized separately in CANON.md; the
+> cubic-a(φ) fit is pre-native. Not current native canon.
+
 # Macro Sector Fork Resolution
 
 Status: SYNTHESIS + CANONIZATION RECOMMENDATION — not canonical until

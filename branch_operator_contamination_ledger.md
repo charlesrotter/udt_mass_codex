@@ -78,7 +78,8 @@ building blocks reused by the assembly) + `check_winding_survival.py` (kap8 save
 | 15 | `p1_offdiag_wiring_results.md` | EH-era (a=−1, G=kap8·T) + imported S³ | off-diag wiring (cat-A) + scoped shear-selectivity neg | YES — object-identity + subsumed everything-on arc | in-file SUPERSEDED stamp (LOW RISK) |
 | 16 | `matter_object_identity_native_vs_import_results.md` | re-derivation/armchair (refs e^{2φ} weight) | covariance/topology (operator-independent, SURVIVE) | YES — object-identity + 07-04 per-sub-claim | in-file SUPERSEDED stamp (pointer only) |
 
-**CLEAN (did NOT route through a pre-native operator; NO stamp needed):** `native_dilation_weight_derivation`,
+**CLEAN (did NOT route through a pre-native operator; NO stamp needed):** `native_dilation_weight_derivation`
+[CORRECTED 2026-07-06 macro-spine pass → SPLIT: core CLEAN, §5–§7 scalar-tensor/Cassini-X=−2e5 SUPERSEDED; see `macro_spine_provenance_2026-07-06.md`],
 `F0_SYSTEMATIC_AUDIT`, `p5_solver_survey`, `native_readout_map_depth_size_results.md`
 (#76 — runs on the CORRECT native operator `Z_φ(r²φ')'=4e^{−2φ}`), the DERIVATION docs
 (`udt_field_equations_derivation`, `udt_gravity_sector_rederivation`, `F2_closure`, `angular_lagrangian` — DERIVE/

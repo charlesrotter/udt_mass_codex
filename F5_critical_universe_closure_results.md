@@ -1,3 +1,9 @@
+> **CONDITIONS-CHANGED (2026-07-06 macro-spine pass) — premise-scoped citation.**
+> The primary closure c²=2GM/R is action-INDEPENDENT and CLEAN. But the "DERIVED structural why" (criticality
+> breaks the dilatation flat direction) is CITED to scale_symmetry_bootstrap, which runs on the SUPERSEDED
+> fR+Xf(dφ)² scale-symmetry action. The physics re-derives in the current native operator
+> (native_field_equations_constrained_two_player §6) — re-cite the "why" there; do not cite the deprecated action.
+
 # F5 CLOSURE RECORD — The Critical-Universe Frame: DERIVED vs ADMITTED-FRAME
 
 **Mode:** OBSERVE / disposition (finish F5 to a clean state per Charles's "finish

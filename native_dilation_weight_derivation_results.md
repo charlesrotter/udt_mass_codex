@@ -1,3 +1,11 @@
+> **SPLIT PROVENANCE (2026-07-06 macro-spine pass) — read before citing.**
+> CORE = LIVE/NATIVE: a(φ)=e^{φ}, the e^{2φ} KINETIC weight, the angular obstruction, the Branch G/P fork — reused
+> by the current native frame (cited forward by the J(s)/solar work). But §5–§7 (the "two-player SCALAR-TENSOR
+> theory", γ=(X−4)/(X−8), and the Cassini/PPN γ→1 at X=−2e5) are SUPERSEDED — that scalar-tensor frame + the
+> X=−2e5 kluge were retired 2026-07-01 by the native constrained-two-player operator (EH-empty, φ-blind matter,
+> geometric 𝒦; native_field_equations_constrained_two_player_results.md:9). The §6 γ(X)/Cassini-X content is
+> ORPHANED (no live result cites it). Do NOT cite §5–§7 as current. See pre_native_era_census.md.
+
 # Native Derivation of UDT's Universal Dilation-Weight on the Action
 
 **Mode:** METRIC-LED, OBSERVING NOT TARGETING (declared up front). Gated DERIVE,
