@@ -100,11 +100,11 @@ q ~±2.5e-8 at solver NOISE; `closed_cell_exists=False` = NON-CONVERGENCE not a 
 MISMATCH→SOLVER: a near-singular Jacobian is ambiguous between a numerical/gauge artifact and a genuine soft/flat
 shear mode (which would itself be CONTINUUM evidence) — cond~1e16 can't distinguish. ⇒ tool-limited.
 
-**NEXT-SESSION PICKUP (Charles-gated):** DIAGNOSE the N5d conditioning (solver-first, NOT a mechanism hunt) — SVD the
-Jacobian's near-zero mode: (a) GAUGE freedom → fix it; (b) block-SCALING → rescale shear-vs-φ/ρ blocks / apply the
-already-wired `lbare_precondition`; (c) genuine PHYSICAL soft mode → CONTINUUM evidence, confirm at higher precision.
-Only once it CONVERGES read Outcome A/B for the ℓ=2 tile; then re-run the pilot; then (if a pin candidate) Stage-2
-co-relaxed source + higher-ℓ + BC-fork survival before banking. Do NOT run branchGP (fenced). ANTI-HANG binding.
+**NEXT-SESSION PICKUP (EOD-1 record — SUPERSEDED/DONE by the EOD-2 session above; the live pickup is now
+"IMPLEMENT Stage-2b" per LIVE.md + the EOD-2 record at TOP):** DIAGNOSE the N5d conditioning (solver-first, NOT a
+mechanism hunt) — SVD the Jacobian's near-zero mode: (a) GAUGE; (b) block-SCALING; (c) genuine PHYSICAL soft mode.
+[DONE in EOD-2: the near-null = a numerical/L-collapse artifact, NOT a soft mode → FIX-1/RegB/ρ²/2 → Stage-1
+retired → Stage-2 co-relaxed matter designed + CAS + Gate-0 cleared.] Do NOT run branchGP (fenced). ANTI-HANG binding.
 
 ---
 
