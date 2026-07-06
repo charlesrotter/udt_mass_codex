@@ -2,13 +2,65 @@
 
 > **READ `LIVE.md` FIRST** — it is the short, only-guaranteed-current file (frontier + next action).
 > This HANDOFF is the detailed record; if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
-> **CURRENT (2026-07-05 EVENING): after LIVE.md (its RESUME-HERE directive is the next action), read the
-> `## SESSION RECORD 2026-07-05 (EVENING …)` block immediately below — N5/ξ arc CLOSED (ξ parked) + the SOLAR
-> LIGHT-SECTOR arc (UDT passes γ=1) + the D1 CHARGE-CHANNEL MAP + the NO-SELECTOR THEOREM + the i-FLOW/ℏ-CLOCK MAP,
-> all blind-verified + pushed. NEXT = Charles's call / take stock (open leads listed at the end of that block).**
-> (The predecessor session records — `(PM)` = H3=A + full-H4 arc the evening built on; `(AM)` = the morning
-> hopfion-route session — are now ARCHIVED → `HANDOFF_ARCHIVE.md` (one-line pointers remain below); open it only if
-> you need the pre-evening detail. Canonical detail always = the result docs.)
+> **CURRENT (2026-07-06 EOD): after LIVE.md (its RESUME-HERE = DIAGNOSE the N5d conditioning), read the
+> `## SESSION RECORD 2026-07-06` block immediately below — readout-map (channel B + depth/size C) → N5d preflight
+> fail → the full PROVENANCE-FLOOR excavation (kap8 #77 quarantine + date census + macro-spine, floor CLOSED both
+> sides) → N5d solver BUILT → Stage-1 pilot = TOOL-LIMITED (Outcome D, non-converged/near-singular). NEXT = diagnose
+> the N5d Jacobian conditioning (gauge vs scaling vs physical soft mode) before any pin-vs-continuum reading.** The
+> 2026-07-05 EVENING record follows it (prior session).
+
+## SESSION RECORD 2026-07-06 (Opus — readout-map B+C → provenance floor CLOSED both sides → N5d BUILT → Stage-1 pilot TOOL-LIMITED)
+
+Charles directed step-by-step; every node armchair/CAS + code, committed + pushed on `main`. The one coupled solve
+(the N5d Stage-1 pilot) ran bounded/foreground (~1s/BC). pytest 48/1xfail at close.
+
+**1. READOUT-MAP — two axes closed.** (a) CHANNEL-selector audit (`native_readout_map_selector_audit_results.md`,
+verifier aa75efc94282e7099) → **Outcome B**: NO native target-selector from any of the 4 sources (seal/spin/φ-angular/
+flux); q=1/3 UNFORCED; **solve-independent** (target-SO(3) is an exact symmetry of the backreacted functional — a
+spatial pin never transmits to a target pin; L2+L4 generic-R CAS diff=0). (b) DEPTH/SIZE node (Branch P,
+`native_readout_map_depth_size_results.md`, verifier ae3142d4ba6d9e825, registry **#76**) → **Outcome C**: the round
+Branch-P vacuum is PROVABLY a continuum (autonomous form φ_tt+φ_t=(4/Z)e^{−2φ} = monotone runaway, node-count≡0); the
+hopfion RIDES (mass=continuous whole-cell flux); native discreteness exists only as ORTHOGONAL LABELS (Q_H, D2b
+depth-N). **The ONE frozen DOF that could pin size = the off-round shear h_AB (via sign-changing 𝒦 or the TT
+eigenproblem) — this is exactly what N5d tests.**
+
+**2. N5d PREFLIGHT FAILED → the provenance excavation.** Charles approved N5d with strict gates. The preflight gate
+STOPPED it: **no solver implemented the native operator** — the only coupled φ+shear solver (`branchGP`/
+`branch_operator.py`) ran the SUPERSEDED scalar-tensor frame (f=e^{2φ}, X=−2e5). The L_bare⁻¹ bug was FIXED
+(`h4_scripts/lbare_inverse.py`, `fe85a14`; the old `green_response` inverted a different operator). This triggered:
+- **kap8 = SOLE QUARANTINE** (`kap8_characterization`, registry **#77**) — a live unflagged native-micro
+  identification banked on the scalar-tensor operator at X=−2e5.
+- **Date-based pre-native-era census** (`pre_native_era_census.md`, 2026-06-11→07-01, 4 classifiers + 2 adversarial
+  passes) — kap8 sole quarantine; the everything-on **P2/P3/P4** arc (frame B) was a SECOND undercount caught by the
+  adversarial pass; W-series all retired/self-withdrawn. Organization: 10 SUPERSEDED docs → `archive/pre_native_
+  coupled/` (redirect stubs), banners on CC docs, INDEX/ledger/registry pointers.
+- **Macro-spine provenance pass** (`macro_spine_provenance_2026-07-06.md`, 3 classifiers + adversarial) — NO hard
+  quarantine; N5d triple-confirmed unaffected. `native_dilation_weight §5-7` = SPLIT (the X=−2e5 BIRTHPLACE),
+  F5 CC, AUDIT.md CC, scale_symmetry/macro_fork/weld×2/lepton_ladder SUPERSEDED. **PROVENANCE FLOOR CLOSED BOTH SIDES.**
+  RESIDUAL OWED (cosmetic): W-series phase-2 physical relocation.
+
+**3. N5d BUILT.** Build plan (`N5d_solver_build_plan.md`, approved-with-edits — frozen-source staging, both seal BCs,
+BC-fork banking rule, neutral q_raw/M_readout sign convention + Gate-8, pilot-verdict scope rule). Built as an
+ADDITIVE extension: `n5d_shear.py` (exact 𝒦=−½e^{−2φ}(a'bt')/(a·bt), sqrt_h, EAB_shear_row, lbare wrappers) +
+`cell_solver_f2d.py` (+ℓ=2 shear DOF a₂(r), shear-EL row, S-Dir/S-JC2 BCs, q_raw/Pi_phi/M_readout with
+SIGN_CONVENTION=−1) + 3 test files. commit `84287b6`; pytest 48/1xfail (existing 32 preserved — shear-off = exact
+round recovery); 8 preflight gates GREEN; contamination-clean.
+
+**4. N5d STAGE-1 PILOT = TOOL-LIMITED (Outcome D; NO A/B banked)** (`n5d_pilot.py` + `n5d_pilot_stage1_results.md`,
+commit `bf54957`). Frozen REAL H3-hopfion source (Q=0.9917, virial-balanced) + live ℓ=2 shear + exact φ, both seal
+BCs, Nr=16/Nth=8, foreground ~1s/BC. RESULT: both BCs **converged=False**; **jac_cond ~4e15 (S-Dir) / 9e16 (S-JC2)**
+(float64 floor); maxit=30 hit every continuation step (Φ floored ~1e-4); shear response a2_peak ~5e-3/2e-5 and induced
+q ~±2.5e-8 at solver NOISE; `closed_cell_exists=False` = NON-CONVERGENCE not a physics "no"; BC-fork UNDETERMINED. Per
+MISMATCH→SOLVER: a near-singular Jacobian is ambiguous between a numerical/gauge artifact and a genuine soft/flat
+shear mode (which would itself be CONTINUUM evidence) — cond~1e16 can't distinguish. ⇒ tool-limited.
+
+**NEXT-SESSION PICKUP (Charles-gated):** DIAGNOSE the N5d conditioning (solver-first, NOT a mechanism hunt) — SVD the
+Jacobian's near-zero mode: (a) GAUGE freedom → fix it; (b) block-SCALING → rescale shear-vs-φ/ρ blocks / apply the
+already-wired `lbare_precondition`; (c) genuine PHYSICAL soft mode → CONTINUUM evidence, confirm at higher precision.
+Only once it CONVERGES read Outcome A/B for the ℓ=2 tile; then re-run the pilot; then (if a pin candidate) Stage-2
+co-relaxed source + higher-ℓ + BC-fork survival before banking. Do NOT run branchGP (fenced). ANTI-HANG binding.
+
+---
 
 ## SESSION RECORD 2026-07-05 (EVENING) (Opus — N5/ξ arc CLOSED (ξ parked) → SOLAR LIGHT-SECTOR arc (UDT passes γ=1) → D1 CHARGE-CHANNEL MAP → NO-SELECTOR THEOREM → i-FLOW/ℏ-CLOCK MAP; all blind-verified + pushed)
 
