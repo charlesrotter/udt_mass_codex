@@ -1,4 +1,4 @@
-# INDEX — Repo Map (frontier 2026-07-05 EOD — H3=A + the full H4 backreaction/mass arc DONE; H4 compute STOPPED at revised-N4=D (mass = a WHOLE-CELL response); NEXT = the N5-reframed whole-cell-criticality/ξ-anchor MAP; see LIVE.md TOPMOST, authoritative. H4 docs: H4_backreaction_mass_MAP.md, H4_N1/N2_*, H4_N4_*, H4_N4a_source_background_audit_results.md, H4_screening_taxonomy_MAP.md, H4_GP_switch_hopfion_MAP.md, H4_N4rev_conditional_mass_response_results.md; scripts in h4_scripts/.)
+# INDEX — Repo Map (frontier 2026-07-05 EVENING — N5/ξ arc CLOSED (ξ PARKED as a free family) + SOLAR LIGHT-SECTOR arc DONE (UDT passes the leading solar tests, γ_UDT=1; deflection 4(m/b)+(9π/4)(m/b)², Shapiro; 9π/4 a future μas target) + q=1/3 NO-SELECTOR THEOREM (unforced; needs new physics or Q=1) + i-flow/ℏ MAP (structural i native, ℏ not derived) — all blind-verified + pushed; H4 compute STILL STOPPED (N5d gated solve NOT opened). See LIVE.md TOPMOST (authoritative) + HANDOFF (EVENING) block. The prior H3=A/H4-arc frontier is now HISTORY. Evening docs: see the "2026-07-05 EVENING arc" section below.)
 
 Navigable map of `udt_mass_codex`. **Structure (post-2026-07-01 consolidation):**
 - **root — LEAN:** the 17-module test-import solver closure (the OLD wrong-frame static solver — kept only because
@@ -185,7 +185,26 @@ operator + the migration — but they remain the canon-provenance for q=1/3/η/N
   yourself via background-notify (NO `nohup` — it detaches from the harness tracker), never background-poll.
 - Commit per result; push to github.com/charlesrotter/udt_mass_codex.
 
-## 2026-07-05 arc — concentric ω≠0 reframe CLOSED → the HOPFION route (CURRENT frontier; see LIVE.md)
+## 2026-07-05 EVENING arc — N5/ξ CLOSED (ξ parked) → SOLAR LIGHT SECTOR (UDT passes γ=1) → q=1/3 no-selector → i-flow/ℏ (CURRENT; see LIVE.md TOP)
+All armchair/CAS + blind-verified + pushed; H4 compute STILL STOPPED (N5d gated solve NOT opened). Docs, by arc:
+- **N5 / ξ-anchor (ξ PARKED as a free family):** `H4_N5_whole_cell_criticality_MAP.md` (migration anchor retired) ·
+  `H4_N5a_whole_cell_criticality_rederivation_results.md` (whole-cell criticality does NOT pin ξ; #75
+  CONDITIONS-CHANGED via carrier swap) · `H4_N5b_flux_budget_closure_results.md` (flux budget = criticality in
+  charge language, NOT independent). Candidates A/B/C/E closed; only the gated N5d solve could pin ξ, not necessary.
+- **Solar LIGHT SECTOR (UDT passes the leading solar tests, γ=1):** `J_of_s_light_deflection_confrontation_MAP.md`
+  (pre-reg; ambient-vs-one-body split; CF-CAT) · `one_body_null_deflection_results.md` (+`_cas.py`) — **Δα=4(m̂/b)
+  +(9π/4)(m̂/b)²**, γ=1 leading, 9π/4-vs-15π/4 signature · `one_body_shapiro_delay_results.md`
+  (+`shapiro_delay_cas.py`) — 2m̂·ln(4r₁r₂/b²), 9π/4−2 2nd-order, partially frame-robust ·
+  `solar_light_sector_confrontation_results.md` (DATA: Cassini 0.91σ / VLBI 0.67σ PASS; 9π/4 = future μas target).
+- **q=1/3 / charge:** `d1_charge_channel_projection_MAP.md` (+`_cas.py`) — equal-thirds native+topological, readout=1
+  · **`no_selector_audit_results.md`** (+`_cas.py`) — NO-SELECTOR THEOREM (outcome B): q=1/3 unforced under the
+  symmetric action + frame C(a); needs a natively-derived target anisotropy (else Q=1).
+- **structural i / ℏ:** `i_flow_hbar_clock_MAP.md` — OUTCOME 7: structural i NATIVE (Kähler J²=−1), ℏ NOT derived
+  (native time-live phase action is a 2nd-order rotor, no first-order WZ term; "area form ⟹ ℏ" refuted).
+- NEXT (Charles's call): native-vs-added target-selector for q=1/3; the gated N5d solve for ξ; η Zρ_s² anchor. See
+  the HANDOFF (EVENING) OPEN LEADS list.
+
+## 2026-07-05 arc — concentric ω≠0 reframe CLOSED → the HOPFION route (superseded as frontier by the EVENING arc; see LIVE.md)
 Concentric ω≠0 embedded-cell frame closed; a UDT particle reframed as a native **Faddeev–Skyrme HOPFION**
 (charge = Hopf linking Q_H∈π₃(S²)=ℤ). Docs, in arc order:
 - **NODE 0.5** `node05_seal_parity_regrade_results.md` (canon C-2026-07-04-1, seal sector-split) · **NODE 1**
