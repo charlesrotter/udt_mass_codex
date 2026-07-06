@@ -4,8 +4,10 @@
 everything under the "↓↓↓ HISTORICAL ARC" / "SUPERSEDED" fences is labeled-stale detail (mine for history, not the
 plan). `HANDOFF.md` / `STATE.md` are detailed history; **if they disagree with this file's CURRENT STATE block, the
 CURRENT STATE block wins.**
-**Read order (2026-07-06 EOD):** LIVE.md FRONTIER (this block — the RESUME-HERE directive at its TOP is the next
-action = DIAGNOSE the N5d conditioning) → **HANDOFF.md TOP (2026-07-06 session record)** → the N5d chain
+**Read order (2026-07-06 EOD-2):** LIVE.md FRONTIER (this block — the RESUME-HERE directive at its TOP is the next
+action = IMPLEMENT N5d Stage-2b; Gate-0 CLEARED, formulas pinned) → the Stage-2 docs (`n5d_stage2_corelaxed_matter_DESIGN.md`
+→ `n5d_stage2a_cas_results.md` → `n5d_stage2b_gate05_report.md`) → HANDOFF.md §SESSION RECORD 2026-07-06 (EOD-2). (The
+prior EOD-1 read-order below is historical:) → **HANDOFF.md TOP (2026-07-06 session record)** → the N5d chain
 (`N5d_solver_build_plan.md` → `n5d_pilot_stage1_results.md` → `n5d_pilot.py` / `n5d_shear.py` / `cell_solver_f2d.py`)
 + the readout-map docs (`native_readout_map_selector_audit_results.md`, `native_readout_map_depth_size_results.md`)
 + the provenance floor (`pre_native_era_census.md`, `macro_spine_provenance_2026-07-06.md`,
@@ -35,22 +37,43 @@ are HISTORY the evening built on — see the HANDOFF (PM) block if needed.)
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-06 EOD — readout-map (channel B + depth/size C) + provenance floor CLOSED both sides + N5d solver BUILT + Stage-1 pilot = TOOL-LIMITED (Outcome D); NEXT = diagnose the N5d conditioning) ============
+## ============ CURRENT STATE (2026-07-06 EOD-2 — N5d Stage-1 diagnosed + fixed (FIX-1/RegB/ρ²/2) + Stage-1 RETIRED for verdicts (frozen-source invalid) → Stage-2 co-relaxed matter DESIGNED + CAS COMPLETE + Gate-0 CLEARED; NEXT = Stage-2b IMPLEMENTATION) ============
 
-**➤➤ RESUME HERE / NEXT ACTION (2026-07-06 EOD): DIAGNOSE the N5d Stage-1 pilot CONDITIONING (Charles-gated) —
-the coupled ℓ=2 shear solve is NON-CONVERGED / near-singular, so the pin-vs-continuum question is UNANSWERED (tool-
-limited, NOT a verdict).** The N5d solver is BUILT (`cell_solver_f2d.py` + `n5d_shear.py`, commit `84287b6`; pytest
-48/1xfail, 8 gates green, contamination-clean) and the Stage-1 pilot RAN (`n5d_pilot.py`, commit `bf54957`; frozen
-REAL H3-hopfion source Q=0.9917 + live ℓ=2 shear + exact φ, both seal BCs, fast ~1s/BC). RESULT = **Outcome D
-(tool-limited), NO A/B banked** (`n5d_pilot_stage1_results.md`): both BCs `converged=False`, `jac_cond ~4e15 (S-Dir)
-/ 9e16 (S-JC2)` (float64 floor), maxit=30 hit every continuation step, shear response a2_peak ~5e-3/2e-5 and induced
-q ~±2.5e-8 at solver NOISE; `closed_cell_exists=False` reflects NON-CONVERGENCE, not a physics "no"; BC-fork
-UNDETERMINED (both non-converged). **NEXT (gated, solver-first — NOT a mechanism hunt): SVD the Jacobian's near-zero
-mode — is it (a) a GAUGE freedom (fix it), (b) a block-SCALING issue (rescale shear-vs-φ/ρ blocks / apply the
-already-wired `lbare_precondition`), or (c) a genuine PHYSICAL soft mode (which would itself be CONTINUUM evidence,
-confirm at higher precision)? Only once it CONVERGES can Outcome A/B be read for the ℓ=2 tile.** Then re-run the
-pilot; then (if a pin candidate) Stage-2 co-relaxed source + higher-ℓ + BC-fork survival before banking.
-**Do NOT run `branchGP` (fenced wrong frame). ANTI-HANG binding (bounded, foreground, no background-poll).**
+**➤➤ RESUME HERE / NEXT ACTION (2026-07-06 EOD-2): IMPLEMENT N5d Stage-2b (Charles-gated) — the co-relaxed π₂
+axisymmetric matter solver. Gate-0 is FULLY CLEARED + blind-verified; all formulas are pinned. This is a bounded
+CODE EDIT to `cell_solver_f2d.py` + 7 tests, NO pilot, NO verdict.** Read `n5d_stage2_corelaxed_matter_DESIGN.md`
+(the plan) + `n5d_stage2a_cas_results.md` (the derived equations, §1-8) + `n5d_stage2b_gate05_report.md` (the
+λ=−½ coupling resolution). **THE PINNED FORMULAS (all CAS + blind-verified):**
+- **Off-round f-PDE** (Stage-2a §1, λ-free, matches base at s=0): `A/f_r = ξρ²sinθ + κN²sin²f·e^{s}/sinθ`;
+  `B/f_θ = ξ·e^{−s}·sinθ + κN²sin²f/(ρ²sinθ)`; `pot = (N²sinf cosf/sinθ)[e^{s}(ξ+κf_r²) + κf_θ²/ρ²]`; `s = a2(r)P2(μ)`.
+- **Live shear source** (REPLACES the frozen `Tshear`/`src`): `Tshear_live = −(ρ²/4)·T_s` with
+  `T_s = (ξ/ρ²)[N²e^{s}sin²f/sin²θ − f_θ²e^{−s}] + (κN²/ρ²)f_r²e^{s}sin²f/sin²θ` — the **λ=−1/2** coupling
+  (Gate-0.5, blind-verified: NOT the naive +(ρ²/2)T_s, which was 2× + sign-flipped). φ-blind, h_AB-side.
+- **ρ-EOM matter term: UNCHANGED** (Stage-2a §6: `δS_m/δρ` is s-independent → already the base's `ξρI_r − κN²I_4θ/ρ³`).
+- **φ off-round correction: UNCHANGED** (certified `n5d_shear.phi_source_offround_correction = +(1/5Z)e^{−2φ}a2'²`).
+- **Off-round Hseal** (Gate-0.1 + Gate-0.5): base H **+ shear kinetic `+(1/10)e^{−2φ}ρ²a2'²`** + off-round matter
+  moments `−(ξ/2)ρ²I_r + (ξ/2)(I_θ^{e^{−s}} + N²I_s^{e^{s}}) − (κN²/2)I_4r^{e^{s}} + (κN²/2)I_4θ/ρ²` (fold `e^{±s}`
+  INSIDE the θ-integral: I_θ×e^{−s}, I_s×e^{s}, I_4r×e^{s}; I_r, I_4θ unchanged) − 2. → base H at s=0.
+- **Frozen `stress_profiles.npz`: RETIRED from the residual** (embedding audit §4d/§4g invalidated it for verdicts);
+  keep only as an OPTIONAL initial-guess seed. **S-Dir = first well-posed tile; S-JC2 constant-a2 null UNCHANGED (no FIX-2).**
+**TESTS before any pilot** (`n5d_stage2_corelaxed_matter_DESIGN.md §7`): round-limit (s=0→base byte-identical) ·
+φ-blindness · self-stress (source = −(ρ²/4)T_s) · rigid hedgehog (T_s(L2)=0 @ s=0,f=θ,N=1) · no-flat-source ·
+Hseal round-limit · preflight (square, finite Jac, both BCs, FIX-1 on, bounded, one foreground process). **ANTI-HANG
+binding. NO finite-L target/penalty/barrier/anti-collapse/fitted-scale/mass-anchor. TOPOLOGY: π₂ tile ONLY — CANNOT
+bank Outcome A/B for the π₃ hopfion question (open premise for Charles).** After 2b tests green: Stage-2 PILOT is a
+SEPARATE gate (Charles). Status: DESIGN/PROVISIONAL/Outcome D throughout.
+**Do NOT run `branchGP` (fenced wrong frame).**
+
+### ↓↓↓ SUPERSEDED (2026-07-06 EOD → EOD-2): the "diagnose N5d conditioning" frontier below is DONE. Chain of this
+### session (all committed/pushed, PROVISIONAL/Outcome D): conditioning diagnosis (Outcome-D artifact, not a soft mode;
+### 3 near-null modes) → **FIX-1** (equilibration: column-scale + damped lstsq in `newton_lm_solve`) → FIX-3 (structured
+### seed INEFFECTIVE — round base flattens) → shear-forcing audit (forcing strong+correct; tiny a2 = L-collapse) →
+### **pullback audit** (Registration-B: source at current-L physical r) → **ρ²/2 frame factor** (blind-verified) →
+### embedding audit (frozen flat hopfion INVALID for verdicts → retire Stage-1, go Stage-2 co-relaxed) → Stage-2 DESIGN
+### → Stage-2a CAS (f-PDE, T_s sign +, ρ²/2 emergence; blind-verified) → Stage-2a H audit (dH/dr=0 geo+shear) →
+### Stage-2b Gate-0 (BLOCKER: matter→geo coupling −2×) → **Gate-0.5 (RESOLVED λ=−½, blind-verified)**. Docs:
+### `n5d_stage1_conditioning_diagnosis.md`, `n5d_stage2_corelaxed_matter_DESIGN.md`, `n5d_stage2a_cas_results.md`,
+### `n5d_stage2b_gate0_report.md`, `n5d_stage2b_gate05_report.md`; scripts in `h4_scripts/n5d_stage2*`. ↓↓↓
 
 ### ↓ 2026-07-06 provenance-floor + earlier-frontier detail (historical this session) ↓
 **Earlier 2026-07-06 (the arc that got here):** (1) readout-map CHANNEL-selector audit → **Outcome B** (no native

@@ -2,14 +2,60 @@
 
 > **READ `LIVE.md` FIRST** — it is the short, only-guaranteed-current file (frontier + next action).
 > This HANDOFF is the detailed record; if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
-> **CURRENT (2026-07-06 EOD): after LIVE.md (its RESUME-HERE = DIAGNOSE the N5d conditioning), read the
-> `## SESSION RECORD 2026-07-06` block immediately below — readout-map (channel B + depth/size C) → N5d preflight
-> fail → the full PROVENANCE-FLOOR excavation (kap8 #77 quarantine + date census + macro-spine, floor CLOSED both
-> sides) → N5d solver BUILT → Stage-1 pilot = TOOL-LIMITED (Outcome D, non-converged/near-singular). NEXT = diagnose
-> the N5d Jacobian conditioning (gauge vs scaling vs physical soft mode) before any pin-vs-continuum reading.** The
-> 2026-07-05 EVENING record follows it (prior session).
+> **CURRENT (2026-07-06 EOD-2): after LIVE.md (its RESUME-HERE = IMPLEMENT N5d Stage-2b), read the
+> `## SESSION RECORD 2026-07-06 (EOD-2)` block immediately below — the N5d Stage-1 diagnosis→fix→retire→Stage-2
+> design+CAS chain. Gate-0 is FULLY CLEARED + blind-verified; the next session IMPLEMENTS Stage-2b (a bounded code
+> edit + 7 tests, NO pilot). The EOD-1 record (readout-map B+C → provenance floor → N5d built → Stage-1 pilot
+> TOOL-LIMITED) follows it, then the 2026-07-05 EVENING record (prior session).**
 
-## SESSION RECORD 2026-07-06 (Opus — readout-map B+C → provenance floor CLOSED both sides → N5d BUILT → Stage-1 pilot TOOL-LIMITED)
+## SESSION RECORD 2026-07-06 (EOD-2) (Opus 1M — N5d Stage-1 diagnosed+fixed → retired → Stage-2 co-relaxed matter DESIGNED + CAS COMPLETE + Gate-0 CLEARED)
+
+Charles directed step-by-step; every node CAS/audit + committed & pushed on `main` (standing instruction: push on
+every commit). NO pilot/verdict run this session — all DESIGN/PROVISIONAL/Outcome D. pytest 59/1xfail at close
+(+11 pullback/frame tests). The one code change to physics is FIX-1 (equilibration) + Registration-B + the ρ²/2
+source factor in `cell_solver_f2d.py`; Stage-2b implementation is NOT yet done (Gate-0 just cleared).
+
+**THE ARC (each committed; docs named):**
+1. **Conditioning diagnosis** (`n5d_stage1_conditioning_diagnosis.md`): the Stage-1 near-singular Jacobian = a
+   COMPOUND numerical artifact (NOT a physical soft mode) — 3 stacked, all-UNOBSERVABLE near-null modes: (1) row/col
+   scaling imbalance (D2 rows ~1e8, L column under-scaled; inherited from the BASE), (2) S-JC2 constant-a2 EXACT
+   Neumann null, (3) stalled-state constant-φ null. All leave q/Pi/M/Hseal/nodes unchanged ≤1e-11.
+2. **FIX-1** (`cell_solver_f2d.newton_lm_solve`): category-A equilibration = COLUMN scaling + damped **lstsq** (avoids
+   the J^TJ cond-squaring; ROW-scaling the objective was tried+REJECTED — it stalls the solve). `equilibrate=True`
+   default; `=False` = original byte-for-byte. No regression; removes contributor 1.
+3. **FIX-3** structured seed = INEFFECTIVE (the round Branch-P mirror cell flattens any structured seed back to
+   near-homogeneous; the L-collapse is the round-continuum closure degeneracy, not a seed artifact).
+4. **Shear-forcing audit**: the ℓ=2 source is STRONG (‖rhs‖≈3) + correctly normalized; the tiny nonlinear a2 =
+   the L-COLLAPSE (L 1.0→9e-3, source fixed at seed L0 while geom coeff ∝(2/L)² stiffens ~1e4×). ℓ=2 captures only
+   ~17.6% of the traceless shear power (ℓ=0 dominates 81%).
+5. **Pullback / Registration-B** (`cell_solver_f2d.fields` + `n5d_shear.source_interp`): the source now interpolates
+   at the CURRENT-L physical r=rc+(L/2)(ζ+1) (was frozen at seed L0). +8 regression tests.
+6. **ρ²/2 frame factor** (`fields` live-src path): stored `sh2` (orthonormal component) needs ×ρ²/2 to be the
+   cell-frame `T_s`; CAS-derived (`n5d_frame_factor_cas.py`) + BLIND-VERIFIED (agent a83a6c…). +3 tests.
+7. **Embedding audit** (`§4d/§4g`): the frozen FLAT hopfion stress is INVALID as a cell-frame source for verdicts
+   (ρ≠r by up to 2×; an uncomputed (r/ρ)^{2..4} regrade; scale-incoherent). ⇒ **RETIRE Stage-1 frozen source;
+   go Stage-2 co-relaxed matter.**
+8. **Stage-2 DESIGN** (`n5d_stage2_corelaxed_matter_DESIGN.md`): the base `cell_solver_f2d` ALREADY co-relaxes the
+   native S² winding matter f(r,θ); Stage-2 = make f feel the shear (off-round f-PDE) + source the shear from the
+   LIVE matter's own T_s. π₂ tile (flagged: NOT the π₃ hopfion).
+9. **Stage-2a CAS** (`n5d_stage2a_cas_results.md`, script `h4_scripts/n5d_stage2a_cas.py`): off-round f-PDE (A,B,pot
+   with e^{±s}, matches base at s=0 EXACT); T_s derived; ρ²/2 emergence exact; ρ-force s-independent; φ-blind; rigid
+   hedgehog 0. **The design's T_s candidate was SIGN-FLIPPED — CAS caught it.** T_s sign + then BLIND-VERIFIED
+   (agent a44bfe…, §7). H audit: off-round H = base + shear-kinetic; **dH/dr=0 on-shell EXACT** (geo+shear).
+10. **Stage-2b Gate-0** (`n5d_stage2b_gate0_report.md`): ran BEFORE any residual edit and CAUGHT A BLOCKER — the
+    standard FS L_m gives a matter→geometry coupling **−2×** the base's (ρ-EOM matter force + H matter both −2×),
+    while the f-PDE (homogeneous δS_m/δf) is unaffected. Pinned shear-kinetic **C=1/10** (matches the certified
+    φ-correction + E_s_geom). HALTED implementation per Gate-0.5 rule.
+11. **Gate-0.5 RESOLVED** (`n5d_stage2b_gate05_report.md`, script `n5d_stage2b_gate05.py`): the base coupling is
+    **λ=−1/2**, CONSISTENT across the ρ-EOM AND H (both give −½ exactly) ⇒ a deliberate base convention (the
+    𝒦-mediated/e^{2φ}/4 weight, per H4_N1), NOT an inconsistency. **Corrected live source = −(ρ²/4)T_s** (the naive
+    +(ρ²/2)T_s was 2× + sign-flipped). **BLIND-VERIFIED** (agent a99914…: λ_ρ=−½, λ_H=−½, source −(1/4)ρ²T_s).
+
+**⇒ NEXT SESSION: Stage-2b IMPLEMENTATION** — see LIVE.md RESUME-HERE for the exact pinned formulas + the 7 required
+tests. Bounded code edit to `cell_solver_f2d.py` (+ `H_of_r`), delete frozen source from the residual, NO pilot, NO
+verdict, NO FIX-2, π₂-only. All Gate-0 formulas are CAS + blind-verified; nothing more to derive.
+
+## SESSION RECORD 2026-07-06 (EOD-1) (Opus — readout-map B+C → provenance floor CLOSED both sides → N5d BUILT → Stage-1 pilot TOOL-LIMITED)
 
 Charles directed step-by-step; every node armchair/CAS + code, committed + pushed on `main`. The one coupled solve
 (the N5d Stage-1 pilot) ran bounded/foreground (~1s/BC). pytest 48/1xfail at close.
