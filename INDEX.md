@@ -75,7 +75,7 @@ the STANDING negatives' provenance is kept at root).
 **Purity gates / integrity arc (the discipline infrastructure — NEVER archive):** `SOLVER_INTEGRITY_UPGRADES_SPEC.md`,
 `P1_PURITY_HARNESS_MAP.md`, and the integrity-arc records `p1_*`/`p2_*`/`p3_*`/`p4_*`/`p5_*_results.md` +
 `p{1..4}_VERIFIER.md` (the `p1_*`..`p5_*` records + VERIFIERs now archived to `legacy/root_oneoffs_2026-07-01/`).
-The machine harness is `tests/` (run `python3 -m pytest tests/`: **48 passed / 1 xfailed**) + the discipline skills
+The machine harness is `tests/` (run `python3 -m pytest tests/`: **59 passed / 1 xfailed**) + the discipline skills
 in `.claude/skills/` (solver-first, no-shortcuts, verifier-before-record, completeness-map, solution-space-not-imposition).
 
 **Assumptions audits / programs:** `FOUNDATIONAL_ASSUMPTIONS_LEDGER.md` (the F0-F8 scoreboard, status-of-record —
@@ -137,7 +137,7 @@ The CODE-COMPLETE static solver + its audited building blocks (all root; MUST st
   `spectral_radial_soliton.py`. (`full3d_solver.py` is now in `legacy/root_oneoffs_2026-07-01/` — NOT in the closure.)
 - Harness: `tests/test_solver_integrity.py`, `tests/test_operator_from_action.py`,
   `tests/test_solution_space_gate.py` (the 2 physics-blind anti-imposition lints) (+ conftest).
-  `pytest tests/` = **48 passed / 1 xfailed** (the 1 xfail = `test_no_habit_pins`, the Branch G/P fork —
+  `pytest tests/` = **59 passed / 1 xfailed** (the 1 xfail = `test_no_habit_pins`, the Branch G/P fork —
   an EXPLORATION gate, not a code flaw).
 
 **Guardrail hooks / cross-check tooling:** `.claude/hooks/corral_trigger.py` + `.claude/settings.json` (the
@@ -150,7 +150,7 @@ driver-trigger corral fires on Task/Bash/git-commit — pause+honesty, never mer
 **Legacy tooling scripts — ARCHIVED 2026-07-01.** The ~510 `native_*.py` (+ `w*`, `phase*`, `d1_*`, `p1..p5*`,
 topical-scan, historical `verify_*` one-offs — 1086 files) that backed the kept microphysics-era research records
 were moved to **`legacy/root_oneoffs_2026-07-01/`** in the return-to-solver consolidation (root went 1113→29 .py;
-pytest 48/1xfail preserved). One doc section = one script ("Implemented in `native_x.py`") still holds — resolve
+pytest 59/1xfail preserved). One doc section = one script ("Implemented in `native_x.py`") still holds — resolve
 `native_x.py` under `legacy/root_oneoffs_2026-07-01/`. Mine for structure, not verdicts.
 
 ---

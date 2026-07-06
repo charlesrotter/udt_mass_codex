@@ -1,5 +1,11 @@
 # N5d Stage-2a CAS Derivation — Results (π₂ axisymmetric tile; DESIGN / PROVISIONAL)
 
+> **⚠ SOURCE-COEFFICIENT SUPERSEDED (2026-07-06 EOD-2, by Gate-0.5):** the `Tshear_live = +(ρ²/2)T_s` written
+> below (§4/§5/§7) is the **naive Hilbert** value — correct up to the matter→geometry coupling constant only.
+> **The IMPLEMENTABLE residual source is `−(ρ²/4)T_s`** (coupling **λ=−1/2**, blind-verified — see
+> `n5d_stage2b_gate05_report.md`). Do NOT implement `+(ρ²/2)T_s`: it is 2× too large AND sign-flipped vs the base.
+> Everything else here (off-round f-PDE, T_s SIGN=+, ρ²/2-emergence, ρ-force, φ-blindness, H audit) stands.
+
 **Date:** 2026-07-06 · CAS = sympy · script `h4_scripts/n5d_stage2a_cas.py` · **π₂ AXISYMMETRIC S² tile ONLY —
 NOT the π₃ hopfion sector.** No implementation, no pilot, no physics verdict, no Outcome A/B, no continuum lead.
 Derives the off-round co-relaxed matter equations from one native φ-blind, h_AB-side action for the live

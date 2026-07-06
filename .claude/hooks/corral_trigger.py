@@ -47,7 +47,8 @@ def main():
             "✓ CORRAL GUARDRAILS ACTIVE (DRIVER-TRIGGER hooks loaded). STARTUP SELF-CHECK: "
             "(1) read LIVE.md FIRST; (2) confirm the `## DRIVER TRIGGERS` section AUTO-LOADED -- recite "
             "the 6 triggers / the allowed-lane clause from context (Part-A check); (3) run "
-            "`python3 -m pytest tests/` (expect 48 passed / 1 xfailed). If this banner is the ONLY "
+            "`python3 -m pytest tests/` (expect 59 passed / 1 xfailed as of 2026-07-06 EOD-2; the count "
+            "grows as tests are added -- a HIGHER pass count with 0 failures is fine). If this banner is the ONLY "
             "corral signal you see (triggers not in context), rely on the hooks + note Part-A as failing.",
             event="SessionStart")
 
