@@ -37,32 +37,32 @@ are HISTORY the evening built on — see the HANDOFF (PM) block if needed.)
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-06 EOD-3 — N5d Stage-2b IMPLEMENTED+gate GREEN → preflight READY → S-Dir PILOT = L-COLLAPSE → mechanism = FREE-BOUNDARY / φ-ρ GAUGE-LIKE DEGENERACY (numerical-path, BLIND-CONFIRMED; "factor-2 structural" RETRACTED); exact/unique finite-L closure OPEN/conditioning-limited; NEXT = Charles) ============
+## ============ CURRENT STATE (2026-07-06 EOD-3 — N5d Stage-2b IMPLEMENTED+gate GREEN → preflight READY → S-Dir PILOT = L-COLLAPSE → soft mode = REMOVABLE ρ/φ GAUGE + UNDETERMINED L FLAT DIRECTION (blind-confirmed; gauge quotiented, L-selection = the physics boundary); q_raw≡0 for mirror cells; NEXT = Charles picks the L-selection fork) ============
 
-**➤➤ RESUME HERE / NEXT ACTION (2026-07-06 EOD-3): the static S-Dir π₂ collapse mechanism is RESOLVED and
-BLIND-CONFIRMED — a FREE-BOUNDARY / φ-ρ GAUGE-LIKE DEGENERACY (numerical-path / ill-conditioning), NOT a structural
-matter deficit. (My earlier "factor-2 STRUCTURAL deficit", f02f3f9, was RETRACTED and the retraction is now
-independently blind-verified.)** Two fixed-L probes (`n5d_stage2_collapse_reconcile.py`): keeping Hseal IN the
-objective reaches **Hseal=0 at EVERY finite L** with the field eqs satisfied; the fixed-L Jacobian has a genuine,
-well-separated, **resolution-stable** near-null mode (equil s_min~2e-13; s_min does NOT shrink Nr 8→12 ⇒ not a
-discretization artifact; composition ~84%ρ/16%φ, 0% matter/shear; moving along it leaves the physical readout q_raw
-UNCHANGED) along which **Hseal slides ~freely through 0** while ‖F_field‖ stays at the conditioning floor. So −0.96
-was a drop-Hseal VALLEY POINT, not a floor; the free-L L→0 collapse = the solver sliding this degenerate φ/ρ valley.
-**BLIND VERIFIER (agent `a50cf051979d745f6`, framed NEUTRALLY as X-vs-Y, forbidden the reconcile/audit/interpretation):
-Claim X (structural factor-2) REFUTED, Claim Y (soft-mode degeneracy) SUPPORTED; classification = (b) free-boundary/
-φ-ρ gauge-like degeneracy.** Records: `n5d_stage2_collapse_audit_results.md` (top banner + CORRECTION + BLIND-
-VERIFICATION sections) + `n5d_stage2_collapse_reconcile.py`. **Whether an EXACT/UNIQUE finite-L closed cell exists is
-OPEN / conditioning-limited** (float64 cond 1e14–1e18; joint {Hseal=0 ∧ ρ'(r_s)=0} residual tracks the cond floor,
-best at moderate-LARGE L, worst at small L — the OPPOSITE of a small-L attractor); NOT refuted, NOT cleanly found.
-**NEXT = a CHARLES decision** — the fork question reopens with the corrected understanding (the earlier "rules out
-higher-ℓ/S-JC2" claim is WITHDRAWN — it rode on the retracted deficit). Candidate directions (Charles picks; none to
-be run unprompted): resolve the exact/unique finite-L-closure question (a better-conditioned formulation / gauge-fix
-of the φ-ρ soft mode — CATEGORY-A conditioning work, allowed) BEFORE any physics fork; then S-JC2 seal, non-static/
-time-live, embedded/critical-universe, higher-ℓ, off-diagonal. **NO Outcome A/B, NO pin/continuum, NO π₃; π₂ tile
-ONLY; DESIGN/PROVISIONAL/Outcome D.** (Session chain, all committed+pushed+blind-verified: Stage-2b impl `6a0ac15` →
-preflight READY → S-Dir pilot=L-COLLAPSE `652b484` → mechanism mis-diagnosed `f02f3f9` → RETRACTED `d729dd4` →
-soft-mode blind-CONFIRMED here. LESSON kept: I banked a clean canon-aligned confirming story too fast and framed the
-first verifier around my own blind spot; the neutral X-vs-Y re-frame caught it. Pinned-formula block below stands.)**
+**➤➤ RESUME HERE / NEXT ACTION (2026-07-06 EOD-3): the static S-Dir π₂ collapse is now fully DIAGNOSED and
+BLIND-CONFIRMED (gauge audit, `n5d_stage2_gauge_audit_results.md`). The soft mode is a MIX:** (1) a **removable
+global ρ-rescale + φ-offset GAUGE** (cos(v_ρ,ρ)=+1.000, cos(v_φ,1)=+1.000; Hseal moves along it while ρ-shape/matter-
+moments/q_raw stay fixed ⇒ Hseal is gauge-dependent) — a **2-pin category-A fix [fix ρ(r_c) + fix φ(r_c)]** removes it
+(cond 3.4e8→7.6e7, workable-not-pristine; q_raw invariant to 1e-13) and gives a well-conditioned Hseal=0 closed cell
+at a CHOSEN L; PLUS (2) an **undetermined L flat direction** — even after the gauge-fix, H(r_s)=0 does NOT pin L (a
+free-L solve runs L away to ~1e3/1e6/negative at Hseal~0). **Unique closure OPEN.** ⚠ **SELF-CORRECTION (2nd this
+session, blind-caught): my "q_raw varies with L ⇒ L is a physical modulus" was WRONG — q_raw=Zρ_s²φ'(r_s)≡0 on-shell
+for EVERY Class-A mirror cell (φ'(r_s)=0 is a mirror BC), so q_raw can't distinguish L-cells; the q_raw-vs-L trend I
+saw was a convergence residual.** So whether L is a physical modulus vs a scaling redundancy is ITSELF OPEN (q_raw≡0
+can't tell — and the seal flux + M_readout are structurally ZERO for these mirror cells). **BLIND VERIFIER (agent
+`a2969cef559b1ac72`, neutral gauge-vs-modulus framing, forbidden the audit scripts): gauge CONFIRMED, 2-pin fix
+CONFIRMED (cond~8e7 caveat), L-modulus PARTIAL (conclusion "no unique L / OPEN" confirmed; the q_raw evidence
+refuted).** Records: `n5d_stage2_gauge_audit_results.md` + `n5d_stage2_gauge_audit.py`. **The category-A work is DONE:
+the φ/ρ gauge ambiguity is removed; what remains is L-SELECTION — a genuine PHYSICS question (the category-A/physics
+boundary). NEXT = a CHARLES fork decision on what selects the cell size L** (none to be run unprompted): the
+embedded/critical-universe coupling (matter at ONE critical amount — the finite-cell canon's natural L-selector),
+non-static/time-live, S-JC2 seal, higher-ℓ, off-diagonal — AND note the q_raw≡0/chargeless-mirror-cell structural
+point (a non-mirror seal or a different charge readout may be needed). **NO Outcome A/B, NO pin/continuum, NO π₃; π₂
+tile ONLY; DESIGN/PROVISIONAL/Outcome D.** (Session chain, all committed+pushed+blind-verified: Stage-2b impl
+`6a0ac15` → preflight READY → S-Dir pilot=L-COLLAPSE `652b484` → mechanism mis-diagnosed `f02f3f9` → RETRACTED
+`d729dd4` → soft-mode blind-CONFIRMED `5c6f6ac` → gauge audit = ρ/φ-gauge + L-flat, q_raw≡0 (here). LESSON, now TWICE:
+I over-read a residual/valley artifact as physics twice this session; NEUTRALLY-framed blind verifiers caught both —
+frame every verifier to adjudicate, never to confirm my read. Pinned-formula block below stands.)**
 
 **What Stage-2b implemented (all pinned, CAS + blind-verified — the historical build reference below is retained):**
 Read `n5d_stage2_corelaxed_matter_DESIGN.md` + `n5d_stage2a_cas_results.md` (§1-8) + `n5d_stage2b_gate05_report.md`
