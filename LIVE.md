@@ -37,9 +37,38 @@ are HISTORY the evening built on — see the HANDOFF (PM) block if needed.)
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-06 EOD-3 — N5d Stage-2b IMPLEMENTED+gate GREEN → preflight READY → S-Dir PILOT = L-COLLAPSE → soft mode = REMOVABLE ρ/φ GAUGE + UNDETERMINED L FLAT DIRECTION (blind-confirmed; gauge quotiented, L-selection = the physics boundary); q_raw≡0 for mirror cells; NEXT = Charles picks the L-selection fork) ============
+## ============ CURRENT STATE (2026-07-07 — the full Stage-2 static arc is CLOSED (impl→pilot→collapse→gauge→L-selection→MS→Class-B→rung gate-checks, all committed/pushed/blind-verified); NEXT = a NO-BUILD per-rung RESONANCE TEST (Charles's Der 1-7) that GATES whether a Class-B embedded-rung build is worth it) ============
 
-**➤➤ RESUME HERE / NEXT ACTION (2026-07-06 EOD-3): the static S-Dir π₂ collapse is now fully DIAGNOSED and
+**➤➤ RESUME HERE / NEXT ACTION (2026-07-07): run the NO-BUILD per-rung RESONANCE TEST (spec =
+`classB_rung_resonance_prebuild_test_DESIGN.md`, Charles's Derivations 1-7).** The Stage-2 static arc has CONVERGED on
+this: the isolated Class-B charged cell can't close (needs a receiver); the universe-ladder RUNG is the discrete
+receiver; the gate-checks showed (a) the z_CMB anchor cancels in ratios to leading order (`q_i/q_j→(N_j+1)/(N_i+1)`),
+(b) `H_amb(N)=0` is a DEAD KNOB, so the real junction is a FLUX/DEPTH match (`q_cell=q_N`, `Δφ_cell=Δφ_N`, NOT H, NOT
+raw `φ_s=φ_N` — Class B fixes `φ_s=0` so depth matches a DIFFERENCE `Δφ_cell=φ_c`). **The old no-band wall was NOT a
+flux wall (`q≈3.8-4.0` already closed `π_φ`) — it was a MATTER-STRUCTURE wall (R4/R5): Branch A needs `I_r>0` but
+minimal matter drains to `I_r≈0`; Branch B blocks on angular-skin energy R5.** So discreteness helps ONLY if a rung
+hits a RESONANT boundary target. **THE NEXT PASS (no build): for each rung N compute `(q_N, Δφ_N, I_{r,req}(N), A_N)`
+[I_{r,req}(N)=(q_N²/(Zρ_s³)+κN_w²I_{4θ}/ρ_s³−π'_{ρ,amb}(N))/(ξρ_s); A_N=E_{ang,natural}−m_amb(N)] and classify: dead /
+positive-branch (I_{r,req}≈0) / turning-branch (A_N≈0) / TRUE candidate (both). BUILD GATE: only a TRUE candidate
+justifies a bounded single-rung Class-B build; if none, DO NOT build (matter-structure wall survives).** Matter is
+φ-blind so a depth match ⇏ I_r>0 directly — escape is either resonance (cheap, no-build) or geometry-coupled (needs
+build). Class-B seal is already coded (`cell_solver_f2d.py` `seal_phi="B"`). Reconstruct `π'_{ρ,amb}(N)`, `m_amb(N)`,
+`E_{ang,natural}` from the rung + minimal-matter solution (ladder does NOT tabulate them — flag reconstructed-vs-derived).
+**Template tripwire: run as OBSERVE (which rungs hit resonance), never TARGET the lepton ladder.** Records:
+`classB_rung_resonance_prebuild_test_DESIGN.md`, `classB_embedded_rung_gatecheck_results.md`. NO Outcome A/B, NO
+pin/continuum, NO π₃; π₂ static S-Dir tile; DESIGN/PROVISIONAL/Outcome D.
+
+### ↓↓↓ SUPERSEDED-as-frontier (2026-07-06 EOD-3): the static-collapse diagnosis arc below is DONE (all committed/
+### pushed/blind-verified). Chain: Stage-2b impl `6a0ac15` → preflight READY `d3a50a0` → S-Dir pilot=L-COLLAPSE
+### `652b484` → mechanism mis-diagnosed `f02f3f9` → RETRACTED `d729dd4` → soft-mode blind-CONFIRMED `5c6f6ac`
+### (free-boundary/φ-ρ gauge degeneracy) → gauge audit `da6bcfa` (ρ/φ gauge removable by 2-pin; L undetermined;
+### q_raw can't distinguish L) → MS/embedded-boundary audit `753ff00` (M=−q derived; embedded gives mass-size
+### RELATION+ratios not absolute L; deliverable=ratios) → Class-B seal diagnostic `164ea11` (Dirichlet φ(r_s)=0
+### removes the φ-offset gauge + makes Hseal a REAL closure, but isolated Class-B doesn't close → needs a receiver)
+### → rung gate-checks `3e0eca7` (anchor cancels in ratios; H_amb(N)=0 dead knob → flux/depth match = the no-band
+### wall). Detail below + in the named result docs. ↓↓↓
+
+**➤➤ (HISTORICAL RESUME-HERE, superseded) the static S-Dir π₂ collapse is now fully DIAGNOSED and
 BLIND-CONFIRMED (gauge audit, `n5d_stage2_gauge_audit_results.md`). The soft mode is a MIX:** (1) a **removable
 global ρ-rescale + φ-offset GAUGE** (cos(v_ρ,ρ)=+1.000, cos(v_φ,1)=+1.000; Hseal moves along it while ρ-shape/matter-
 moments/q_raw stay fixed ⇒ Hseal is gauge-dependent) — a **2-pin category-A fix [fix ρ(r_c) + fix φ(r_c)]** removes it

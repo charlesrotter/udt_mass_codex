@@ -2,11 +2,50 @@
 
 > **READ `LIVE.md` FIRST** — it is the short, only-guaranteed-current file (frontier + next action).
 > This HANDOFF is the detailed record; if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
-> **CURRENT (2026-07-06 EOD-2): after LIVE.md (its RESUME-HERE = IMPLEMENT N5d Stage-2b), read the
-> `## SESSION RECORD 2026-07-06 (EOD-2)` block immediately below — the N5d Stage-1 diagnosis→fix→retire→Stage-2
-> design+CAS chain. Gate-0 is FULLY CLEARED + blind-verified; the next session IMPLEMENTS Stage-2b (a bounded code
-> edit + 7 tests, NO pilot). The EOD-1 record (readout-map B+C → provenance floor → N5d built → Stage-1 pilot
-> TOOL-LIMITED) follows it, then the 2026-07-05 EVENING record (prior session).**
+> **CURRENT (2026-07-07): after LIVE.md (its RESUME-HERE = the NO-BUILD per-rung RESONANCE TEST), read the
+> `## SESSION RECORD 2026-07-06→07 (EOD-3 + rung derivations)` block immediately below. The full N5d Stage-2 static
+> arc is CLOSED; the next session runs a NO-BUILD per-rung classification (Charles's Der 1-7,
+> `classB_rung_resonance_prebuild_test_DESIGN.md`) that GATES whether a Class-B embedded-rung build is worth it.**
+
+## SESSION RECORD 2026-07-06→07 (EOD-3, Opus 1M — N5d Stage-2 static arc CLOSED: impl→pilot→collapse→gauge→L-selection→MS→Class-B→rung gate-checks + Charles's rung-resonance derivations)
+
+Charles directed step-by-step; every node committed & pushed on `main` (standing: push on every commit). All
+DESIGN/PROVISIONAL/Outcome D; NO physics verdict, NO Outcome A/B banked. pytest 67/1xfail (Class A default
+byte-identical; Class-B option added). **Two self-corrections this session, both caught by NEUTRALLY-framed blind
+verifiers** (lesson banked in memory `verifier-framing-and-residual-artifacts`): I twice over-read a residual/valley
+artifact as physics (the −0.96 "factor-2 structural deficit"; the "q_raw∝L ⇒ physical modulus") — always frame
+verifiers to ADJUDICATE (X-vs-Y), never to confirm my read.
+
+**THE ARC (each committed; docs named):**
+- **Stage-2b IMPLEMENTED** (`6a0ac15`): off-round f-PDE (e^{±s}) + live source `−(ρ²/4)T_s` (λ=−½) + off-round Hseal;
+  8-test gate GREEN (`tests/test_n5d_stage2.py`); code blind-verified vs pinned formulas (agent a3fd5f4f).
+- **Preflight READY** (`d3a50a0`, `n5d_stage2_pilot_preflight_results.md`): FIX-1-equilibrated cond ~1e6-1e8 (Nr≤16).
+- **S-Dir PILOT = L-COLLAPSE** (`652b484`, `n5d_stage2_sdir_pilot_results.md`): free-L drives L→0, Hseal never closes;
+  blind-verified (agent ae5e8adc) no finite-L cell in the naive read.
+- **Collapse mechanism**: mis-diagnosed "factor-2 STRUCTURAL deficit" (`f02f3f9`) → **RETRACTED** (`d729dd4`) →
+  soft-mode **blind-CONFIRMED** (`5c6f6ac`, agent a50cf051): it's a FREE-BOUNDARY/φ-ρ GAUGE-LIKE DEGENERACY (Hseal
+  slides ~free to 0 along a resolution-stable near-null; −0.96 was a valley point). `n5d_stage2_collapse_audit_results.md`.
+- **Gauge audit** (`da6bcfa`, `n5d_stage2_gauge_audit_results.md`, blind agent a2969cef): the soft mode = removable
+  global ρ-rescale+φ-offset GAUGE (2-pin [ρ(r_c),φ(r_c)] fix, cond 4.3e8→7.6e7, q_raw invariant) + an undetermined L
+  flat direction; q_raw≡0 for mirror cells can't distinguish the L-family; L-selection is EXTERNAL.
+- **MS/embedded-boundary audit** (`753ff00`, `n5d_stage2_MS_boundary_selector_audit_results.md`): `M=−q` DERIVED
+  (`m=−q−q²/r`); the embedded package (JC1/JC2, `H_cell=H_amb`, MS balance) gives a mass-size RELATION + ratios, NOT
+  absolute L (needs the cosmic ambient MS mass; z_CMB data-forbidden). Deliverable = RATIOS. φ-depth-sign vs
+  positive-mass tension + p_F factor UNPINNED (Charles's canon call).
+- **Class-B seal diagnostic** (`164ea11`, `n5d_stage2_classB_diagnostic_results.md`): added `cell_solver_f2d.py`
+  `seal_phi="A"|"B"` (Class A default byte-identical). Class B (Dirichlet φ(r_s)=0, φ' free) REMOVES the φ-offset
+  gauge (cond 4.76e9→1.47e4) + turns Hseal=0 into a REAL closure — but the ISOLATED Class-B tile does NOT close
+  (fixed-L over-determined; free-L stalls); q not genuine; points to needing an exterior/receiver.
+- **Class-B embedded-rung gate-checks** (`3e0eca7`, `classB_embedded_rung_gatecheck_results.md`): (a) the z_CMB
+  anchor `x_c=1/1101` CANCELS in ratios to leading order (`q_i/q_j→(N_j+1)/(N_i+1)`); (b) `H_amb(N)=0` for every rung
+  = a DEAD KNOB → the real junction is a FLUX/DEPTH match (`q_cell=q_N`, `Δφ_cell=Δφ_N`), which is the OLD no-band wall.
+- **Charles's rung-resonance derivations (Der 1-7)** → `classB_rung_resonance_prebuild_test_DESIGN.md`: the old no-band
+  wall was a MATTER-STRUCTURE wall (R4/R5), NOT a flux wall (q≈3.8-4.0 already closed π_φ). Discreteness helps only if
+  a rung hits a RESONANT boundary target. **NEXT = a NO-BUILD per-rung test: compute `(q_N, Δφ_N, I_{r,req}(N), A_N)`,
+  classify dead/positive-branch/turning-branch/TRUE candidate; only a TRUE candidate (I_{r,req}≈0 AND A_N≈0) justifies
+  a bounded single-rung Class-B build. Formulas in the DESIGN doc.** Matter is φ-blind ⇒ depth-match ⇏ I_r>0 directly.
+
+---
 
 ## SESSION RECORD 2026-07-06 (EOD-2) (Opus 1M — N5d Stage-1 diagnosed+fixed → retired → Stage-2 co-relaxed matter DESIGNED + CAS COMPLETE + Gate-0 CLEARED)
 
