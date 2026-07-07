@@ -32,8 +32,23 @@ static-arc detail is archived → `archive/LIVE_stage2_static_arc_2026-07-06.md`
 
 ## ============ CURRENT STATE (2026-07-07 — the full Stage-2 static arc is CLOSED (impl→pilot→collapse→gauge→L-selection→MS→Class-B→rung gate-checks, all committed/pushed/blind-verified); NEXT = a NO-BUILD per-rung RESONANCE TEST (Charles's Der 1-7) that GATES whether a Class-B embedded-rung build is worth it) ============
 
-**➤➤ RESUME HERE / NEXT ACTION (2026-07-07): run the NO-BUILD per-rung RESONANCE TEST (spec =
-`classB_rung_resonance_prebuild_test_DESIGN.md`, Charles's Derivations 1-7).** The Stage-2 static arc has CONVERGED on
+**➤➤ OWED-FIRST DONE (2026-07-07): the load-bearing identities are BLIND-CONFIRMED + the old numbers re-confirmed —
+but the classification now hinges on TWO reconstruction premises, one of which (`m_amb(N)`) needs Charles.** Record:
+`classB_rung_resonance_owed_first_adjudication.md` (agents `aa57c76d…` blind-derivation + `a68053f6…` numbers).
+Two independent blind agents: (A) re-derived `π_ρ'=Zρφ'²−ξρI_r+κN_w²I_{4θ}/ρ³` → `I_{r,req}(N)` and `E_ang`→`A_N`
+from the NATIVE ACTION (walled off from the DESIGN/classB docs) = EXACT match (CAS; 2φ'ρ' cancels; π_ρ convention
+confirmed in-source); (B) re-ran the CAS + own bounded solves = `q=+3.95/+3.82`→π_φ,amb=4.0, seeded `I_r` DRAINS to
+~1e-17/1.1e-5, two-branch floor 0.786/2.679 — all re-confirmed. **TWO REFINEMENTS surfaced (both = DESIGN-doc
+"reconstruct/flag" items, NOT refutations): (1) the I_r branch is controlled by `π'_{ρ,amb}(N)` (ambient momentum-
+DERIVATIVE, set by the ambient's OWN R4), NOT `sign(ρ'_amb)`; (2) `m_amb(N)` in A_N is UNDETERMINED — Agent A's seal
+condition `E_ang(r_s)=2+H_amb` + gate-check-b's `H_amb(N)=0` ⇒ possibly `m_amb≡2` (constant), making A_N vary with
+the rung ONLY through ρ_s(N) and N_w. Whether m_amb = the geometric "2" / H_amb(=0) / a separate ambient MS mass is
+a PHYSICS identification = Charles's fork before any A_N column is banked as a build gate.** ⇒ NEXT = get Charles's
+read on the `m_amb` reconstruction, THEN run the per-rung classification with both ambient inputs (`π'_{ρ,amb}(N)`,
+`m_amb(N)`) explicitly tagged reconstructed-vs-derived.
+
+**➤➤ NEXT ACTION (2026-07-07, after Charles's m_amb read): run the NO-BUILD per-rung RESONANCE TEST (spec =
+`classB_rung_resonance_prebuild_test_DESIGN.md`, Charles's Derivations 1-7). OWED-FIRST identity gate = PASSED.** The Stage-2 static arc has CONVERGED on
 this: the isolated Class-B charged cell can't close (needs a receiver); the universe-ladder RUNG is the discrete
 receiver; the gate-checks showed (a) the z_CMB anchor cancels in ratios to leading order (`q_i/q_j→(N_j+1)/(N_i+1)`),
 (b) `H_amb(N)=0` is a DEAD KNOB, so the real junction is a FLUX/DEPTH match (`q_cell=q_N`, `Δφ_cell=Δφ_N`, NOT H, NOT
