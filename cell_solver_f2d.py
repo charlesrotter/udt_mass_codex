@@ -389,9 +389,20 @@ def residual(v, ctx, prm, wbc=1.0, n5d=None):
     Z, XI, KAP, N = prm
     Q = fields(v, ctx, prm, n5d=n5d)
     phip, rhop, fr = Q["phip"], Q["rhop"], Q["fr"]
+    # phi seal boundary row:  Class A (default) = smooth mirror fold phi'(r_s)=0 (=> q_raw=0, chargeless);
+    # Class B (bounded DIAGNOSTIC, seal_phi="B") = canon C-2026-07-04-1 odd fold: DIRICHLET phi(r_s)=0 with
+    # phi'(r_s) FREE => q_raw = Z rho_s^2 phi'(r_s) becomes a live OUTPUT.  Only the OUTER (seal) row changes;
+    # the core (r_c, even fold) stays phi'(r_c)=0.  Class A is byte-identical when seal_phi is absent/"A".
+    seal_phi = "A" if n5d is None else n5d.get("seal_phi", "A")
+    if seal_phi == "B":
+        phi_bc = torch.stack([phip[0], Q["phi"][-1]])            # phi'(r_c)=0 ; phi(r_s)=0 (Dirichlet, phi' free)
+    elif seal_phi == "A":
+        phi_bc = phip[[0, -1]]                                    # phi' = 0 mirror (both ends)
+    else:
+        raise ValueError(f"unknown seal_phi {seal_phi!r} (A | B)")
     rows = [
         Q["phi_ode"][1:-1],                                       # phi-ODE (interior)
-        wbc * phip[[0, -1]],                                      # phi' = 0 mirror (both ends)
+        wbc * phi_bc,                                             # phi seal BC (Class A mirror / Class B Dirichlet)
         Q["rho_ode"][1:-1],                                       # rho-ODE (interior)
         wbc * rhop[[0, -1]],                                      # rho' = 0 mirror (both ends)
         Q["res_f"][1:-1].reshape(-1),                            # f-PDE (interior r, all theta)

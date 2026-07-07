@@ -82,7 +82,15 @@ tension = φ-depth-sign (φ<0 deep) ↔ positive-mass-far-field (φ>0) reconcili
 separate+unpinned. Data-blind deliverables = RATIOS (compactness `2M/R=1`, shape profiles; with Class B, mass ratios
 `M_i/M_j=q_i/q_j`); Class-A NOW gives q=M=0 (shape ratios only). Class-B impl = bounded seal-BC swap (φ'(r_s)=0→
 φ(r_s)=0), safe as a DIAGNOSTIC (flag isolated-charge consistency + DOF recount), gated. **Honest static-tile
-deliverable = RATIOS, not absolute mass/size.** **NO Outcome A/B, NO pin/continuum, NO π₃; π₂
+deliverable = RATIOS, not absolute mass/size.**
+**CLASS-B SEAL DIAGNOSTIC DONE (`cell_solver_f2d.py` `seal_phi="A"|"B"` + `n5d_stage2_classB_diagnostic.py`/`_results.md`;
+Class A default byte-identical, pytest 67/1xfail):** Class B = outer φ row φ'(r_s)=0 → DIRICHLET φ(r_s)=0 (φ' free ⇒
+q live). RESULT: **Class B REMOVES the φ-offset gauge (drop-Hseal cond 4.76e9→1.47e4; hard null gone) and turns
+Hseal=0 from gauge-slideable into a REAL closure (correct charged-cell behavior). BUT the ISOLATED static Class-B tile
+does NOT cleanly close: fixed-L OVER-determined (Phi=0.12 at good cond 1.2e4, Hseal≠0), free-L (133×133) STALLS (L
+stuck at seed). q_raw at residual floor → NOT genuine; NO absolute L selected.** Points (as the MS/L-selection audits
+predicted) to needing an EXTERIOR/receiver for the seal flux (embedding); mass ratios gated behind a Class-B solver
+advance OR the embedding fork. **NO Outcome A/B, NO pin/continuum, NO π₃; π₂
 tile ONLY; DESIGN/PROVISIONAL/Outcome D.** (Session chain, all committed+pushed+blind-verified: Stage-2b impl
 `6a0ac15` → preflight READY → S-Dir pilot=L-COLLAPSE `652b484` → mechanism mis-diagnosed `f02f3f9` → RETRACTED
 `d729dd4` → soft-mode blind-CONFIRMED `5c6f6ac` → gauge audit = ρ/φ-gauge + L-flat, q_raw≡0 (here). LESSON, now TWICE:
