@@ -17,6 +17,19 @@ demonstration of why this registry exists.
 
 ---
 
+## *** 2026-07-07 — NO HOMOGENEOUS REDSHIFTING UDT UNIVERSE (STANDING; blind-verified) ***
+
+**Claim:** the native UDT field equations admit NO homogeneous, isotropic, static solution carrying positional
+redshift — positional dilation FORCES a preferred center (only the redshift-free `R^{1,1}×S²` product is homogeneous).
+de Sitter forbidden (both branches); Einstein-static excluded; the ρ-ladder is a centered-cell artifact. Record:
+`udt_no_homogeneous_universe_results.md`. Solve `acb3d217…`; **blind verifier `a1714073…` PASS** (re-derived Eq-A′,
+closed the Einstein-static gap). **PREMISE SET (loses authority if any revised):** (1) **matter φ-blind** — the
+LOAD-BEARING premise, DERIVED but CONDITIONAL on R1+P5 (CHOSE); relaxing it (matter sources φ) could restore
+homogeneity; (2) round/isotropic Branch-P (correct sector, not a frozen DOF); (3) **STATIC** — time-dependent/FRW
+homogeneity is untested, outside this frame; (4) Z>0. Mechanism: `(ρ²φ′)′=(4/Z)e^{−2φ}ρ′²≥0`, source-free ⇒ ρ²φ′
+monotone ⇒ no homogeneous redshift. **Bearing:** refutes the homogeneous/no-preferred-frame reading of the x_max
+frame; the centered universe is what the equations support (fork = Charles's call).
+
 ## *** 2026-07-04 CHECKPOINT (NOT A NEGATIVE — logged per Charles's ruling; carries NO blocking authority) ***
 
 **The static concentric A0 embedded-cell arc (E2/E2c/E2d/E2e, 2026-07-04) is CHECKPOINTED, not banked

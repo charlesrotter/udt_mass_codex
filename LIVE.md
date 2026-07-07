@@ -32,7 +32,23 @@ static-arc detail is archived → `archive/LIVE_stage2_static_arc_2026-07-06.md`
 
 ## ============ CURRENT STATE (2026-07-07 — the full Stage-2 static arc is CLOSED (impl→pilot→collapse→gauge→L-selection→MS→Class-B→rung gate-checks, all committed/pushed/blind-verified); NEXT = a NO-BUILD per-rung RESONANCE TEST (Charles's Der 1-7) that GATES whether a Class-B embedded-rung build is worth it) ============
 
-**➤➤➤ STRATEGIC REFRAME (2026-07-07 PM — pondered with Charles, PROVISIONAL/pondered-frame, NOT banked): UDT's
+**➤➤➤ NEW RESULT (2026-07-07 PM — BANKED, blind-verified): the native UDT equations FORBID a homogeneous redshifting
+universe → positional dilation FORCES a preferred CENTER.** Record: `udt_no_homogeneous_universe_results.md` (solve
+`acb3d217…`, blind verifier `a1714073…` PASS; NEGATIVES_REGISTRY STANDING). Mechanism: the native φ-equation
+`(ρ²φ′)′=(4/Z)e^{−2φ}ρ′²≥0` is SOURCE-FREE (matter φ-blind) ⇒ ρ²φ′ monotone ⇒ redshift & homogeneity mutually
+exclusive; only the redshift-free `R^{1,1}×S²` product is homogeneous. de Sitter FORBIDDEN (both branches);
+Einstein-static excluded; the ρ-ladder is a centered-cell artifact (does NOT survive homogeneity — answered Charles's
+question). **This REFUTES the homogeneous/no-preferred-frame reading of the x_max frame below.** The asymptotic edge
+survives only in the CENTERED solution (φ→∞ at INFINITE proper distance = conformal edge, NOT a finite de Sitter
+horizon). **FORK (foundational — Charles's call, PENDING):** (1) accept a CENTERED universe [driver rec] — equations
+support it, no-preferred-frame is LOCAL-only (SR), predicts a cosmic center → large-scale anisotropy (ties to CMB
+anomalies); (2) relax φ-blindness (reopens a non-native import); (3) go time-dependent/FRW (drifts to expansion
+cosmology). LOAD-BEARING premise = matter φ-blind (R1+P5 CHOSE). Data-blind (no 1101). Also this session: the
+`x_max` boost derivation is a re-coordinatization of `1+z=e^φ` (its "maximum distance" reading is a tautology, walked
+back); the dimensional "c,G can't make a length" seam is a smuggled import (does NOT bind UDT). Below = the frame as
+originally pondered (mine for the analogy; the homogeneous part is now refuted).
+
+### ↓ ORIGINALLY-PONDERED FRAME (2026-07-07 PM — PROVISIONAL; homogeneous reading REFUTED above): UDT's
 founding postulate may be an INVARIANT MAXIMUM DISTANCE `x_max`.** Every observer, everywhere, measures the same
 distance to the edge — the positional mirror of SR's invariant `c` (no preferred position-frame). The dilation
 SATURATES approaching it (time stops, mass→∞ — one saturation, two faces); it is ASYMPTOTIC (reconciles the finite-cell

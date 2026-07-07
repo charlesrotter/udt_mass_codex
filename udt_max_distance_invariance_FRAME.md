@@ -1,5 +1,15 @@
 # FRAME — the invariant maximum distance `x_max` (UDT's positional light-postulate)
 
+> **⚠ UPDATE 2026-07-07 (PM) — the HOMOGENEOUS / no-preferred-frame reading of this frame is REFUTED natively**
+> (`udt_no_homogeneous_universe_results.md`, blind-verified): the native φ-equation `(ρ²φ′)′=(4/Z)e^{−2φ}ρ′²≥0` is
+> source-free, so positional redshift is structurally INCOMPATIBLE with homogeneity — the universe is FORCED to have a
+> preferred CENTER (given φ-blind matter). de Sitter (the finite-`x_max` horizon) is forbidden. What SURVIVES: an
+> asymptotic edge (`φ→∞`) but only in the CENTERED solution, at INFINITE proper distance (a conformal edge, not a
+> finite invariant length). The boost derivation (`udt_xmax_boost_derivation_results.md`) is a re-coordinatization of
+> `1+z=e^φ` (its "x_max as a distance" is a tautology). NET: the invariant-finite-`x_max` / no-preferred-frame picture
+> is NOT realized natively; UDT's universe is centered (fork open — Charles). Read this frame as HISTORICAL/superseded
+> below except where the update above amends it.
+
 **Date:** 2026-07-07 (PM) · **Origin:** Charles (pondered with Claude Opus 4.8, lay-language MAP session). **Status:
 PROVISIONAL / PONDERED-FRAME — a framing hypothesis, NOT a result. No derivation run, no compute, no solve.** This is a
 big-picture reframe captured so it cannot go stale; the derivation it proposes is GATED (Charles's go). Read as MAP.
