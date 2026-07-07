@@ -95,16 +95,18 @@ pin/continuum, NO π₃; π₂ static S-Dir tile; DESIGN/PROVISIONAL/Outcome D.
 ### bullets (superseded by the H4 arc): `archive/LIVE_hopfion_H3_arc_2026-07-05.md`. Canonical = the `node_*.md`
 ### / `H4_*.md` result docs. ↓
 
-**STILL-OWED / PARKED THREADS (not the frontier, but not resolved — carry forward):** q=1/3 (now a proven-hard
-NEW-PHYSICS gap — the no-selector theorem ⇒ needs a natively-DERIVED target anisotropy, else Q=1) + η=1/18 (needs
-a Zρ_s² anchor) — both native re-derivations still OWED, NOT from Q_H. **[DONE this evening, no longer owed: the
-i-flow/ℏ clock → Outcome 7 (structural i native, ℏ not derived); J(s) light-deflection → the full solar
-light-sector predictions + data confrontation, UDT passes γ=1.]** **Pre-hopfion parked threads** (superseded AS FRONTIER by the hopfion arc but NOT resolved —
-detail: `archive/LIVE_route_fork_E2_arc_2026-07-04.md` + HANDOFF_ARCHIVE §2026-07-04; `PURSUIT_CHARTER_2026-07-04.md` =
-the traps list only): the durable **s=2μ/Z + J(s)** macro lever; **R3** = does the ladder survive a Route-B
-universe cell; the other **5 D2 forks** (charter §4); **photon/EM-native re-grade** (#47-pos/#50); Charles's
-**R1 flag** (adopt single-curvature-origin premise? lean=decline); **Bin-2 registry re-grades** at point of
-use; destruction/black-holes PARKED post-emergence. (D4=ω≠0 was ADDRESSED this session → the ω≠0 reframe, closed.)
+**STILL-OWED / PARKED THREADS — PRE-STAGE-2 carry-forwards (from ≤2026-07-05; NOT the current frontier — the
+frontier is the rung-resonance test at the TOP. These are older open items to revisit later, not the next action):**
+q=1/3 (a proven-hard NEW-PHYSICS gap — the no-selector theorem ⇒ needs a natively-DERIVED target anisotropy, else
+Q=1) + η=1/18 (needs a Zρ_s² anchor) — both native re-derivations still OWED, NOT from Q_H. (Resolved earlier, no
+longer owed, kept for context: the i-flow/ℏ clock → Outcome 7 (structural i native, ℏ not derived); J(s)
+light-deflection → the full solar light-sector predictions, UDT passes γ=1 — both 2026-07-05.) **Pre-hopfion parked
+threads** (detail: `archive/LIVE_route_fork_E2_arc_2026-07-04.md` + HANDOFF_ARCHIVE §2026-07-04;
+`PURSUIT_CHARTER_2026-07-04.md` = the traps list only): the durable **s=2μ/Z + J(s)** macro lever; **R3** = does the
+ladder survive a Route-B universe cell; the other **5 D2 forks** (charter §4); **photon/EM-native re-grade**
+(#47-pos/#50); Charles's **R1 flag** (adopt single-curvature-origin premise? lean=decline); **Bin-2 registry
+re-grades** at point of use; destruction/black-holes PARKED post-emergence. (D4=ω≠0 was addressed 2026-07-04/05 → the
+ω≠0 reframe, closed.)
 
 ### ↓↓↓ HISTORICAL — the 2026-07-02 universe-cell/ladder arc layered updates ARCHIVED 2026-07-03 →
 ### `archive/LIVE_universe_cell_ladder_arc_2026-07-02.md` (canonical records = the results docs; this file's
