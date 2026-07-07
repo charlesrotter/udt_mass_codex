@@ -32,8 +32,26 @@ static-arc detail is archived → `archive/LIVE_stage2_static_arc_2026-07-06.md`
 
 ## ============ CURRENT STATE (2026-07-07 — the full Stage-2 static arc is CLOSED (impl→pilot→collapse→gauge→L-selection→MS→Class-B→rung gate-checks, all committed/pushed/blind-verified); NEXT = a NO-BUILD per-rung RESONANCE TEST (Charles's Der 1-7) that GATES whether a Class-B embedded-rung build is worth it) ============
 
-**➤➤ OWED-FIRST DONE (2026-07-07): the load-bearing identities are BLIND-CONFIRMED + the old numbers re-confirmed —
-but the classification now hinges on TWO reconstruction premises, one of which (`m_amb(N)`) needs Charles.** Record:
+**➤➤ RESONANCE TEST COMPLETE (2026-07-07): NO rung is a TRUE candidate → BUILD GATE NOT MET → DO NOT build. The
+matter-structure wall SURVIVES the discrete ladder.** Record: `classB_rung_resonance_classification_results.md`
+(blind-verified, agent `a599367…` PASS). Charles adjudicated the m_amb fork → geometric angular seal target
+`T_ang,seal=2` (from `2+H_amb`, `H_amb(N)=0`); M_N=−q_N kept SEPARATE. OBSERVE-only classification of ladder rungs
+N=20…39 × windings N_w∈{1,2}: the angular screen `A_N=E_ang,natural−2` is SINGLE-SIGNED away from zero for EVERY rung
+(≈−0.5 for N_w=1, ≈+2.5 for N_w=2) because the ladder's `ρ_s=1±a_seal` stays pinned near 1 (a_seal≤0.043) and can
+never reach the N_w=1 crossing (`ρ_s=0.707`, which sits at N≈2, far below scope). Radial screen `I_{r,req}` splits by
+parity: odd N (ρ_s<1, π'_{ρ,amb}<0) → radial-structure-required, never resonance; even N (ρ_s>1) → resonance only if
+the UNRECONSTRUCTED `π'_{ρ,amb}` magnitude≈`pia_needed` (undecided). Verdict is ROBUST to that unreconstructed input —
+the angular screen alone blocks every rung. Verifier catch (folded in): N_w=1 A_N flips at `I_{4θ}≈2` (`T≈1.5`),
+mitigated by the two-screen AND (no *demonstrable* TRUE candidate regardless); N_w=2 robust (ξ-floor). ⇒ discreteness
+gave a discrete flux WITHOUT a resonant boundary target, as the DESIGN-doc provisional read anticipated.
+**NEXT = CHARLES FORK:** the only remaining reason to build is the STRUCTURAL-ESCAPE route (DESIGN Der 3.2 — a rung
+changes the f-sector boundary problem so radial structure stops draining), which this NO-BUILD screen cannot test and
+is NOT cheap (a real bounded Class-B build); OR pivot (the parked threads: q=1/3, η=1/18 native re-derivations; R3
+ladder-survives-Route-B; the 5 D2 forks). Not the driver's call — explain + recommend, then Charles decides.
+(A reconstructed `I_{4θ}(N)` for the actual sealed profile — vs the rigid 1 — is the one cheap thing that could reopen
+the N_w=1 angular screen; worth noting to Charles as a sub-option.) NOT a physics verdict, NOT a mass prediction.
+
+### OWED-FIRST DONE (2026-07-07): identities BLIND-CONFIRMED + old numbers re-confirmed (the gate that this stands on). Record:
 `classB_rung_resonance_owed_first_adjudication.md` (agents `aa57c76d…` blind-derivation + `a68053f6…` numbers).
 Two independent blind agents: (A) re-derived `π_ρ'=Zρφ'²−ξρI_r+κN_w²I_{4θ}/ρ³` → `I_{r,req}(N)` and `E_ang`→`A_N`
 from the NATIVE ACTION (walled off from the DESIGN/classB docs) = EXACT match (CAS; 2φ'ρ' cancels; π_ρ convention
