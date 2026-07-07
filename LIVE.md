@@ -37,32 +37,32 @@ are HISTORY the evening built on — see the HANDOFF (PM) block if needed.)
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-06 EOD-3 — N5d Stage-2b IMPLEMENTED+gate GREEN → preflight READY → S-Dir PILOT = L-COLLAPSE → mechanism first mis-diagnosed as "factor-2 STRUCTURAL" then RETRACTED: it is a SOFT-MODE DEGENERACY (Hseal slides ~free to 0); leans NUMERICAL-PATH; fresh blind pass owed) ============
+## ============ CURRENT STATE (2026-07-06 EOD-3 — N5d Stage-2b IMPLEMENTED+gate GREEN → preflight READY → S-Dir PILOT = L-COLLAPSE → mechanism = FREE-BOUNDARY / φ-ρ GAUGE-LIKE DEGENERACY (numerical-path, BLIND-CONFIRMED; "factor-2 structural" RETRACTED); exact/unique finite-L closure OPEN/conditioning-limited; NEXT = Charles) ============
 
-**➤➤ RESUME HERE / NEXT ACTION (2026-07-06 EOD-3): ⚠ SELF-CORRECTION — the earlier "factor-2 STRUCTURAL deficit"
-diagnosis of the static S-Dir π₂ collapse (committed f02f3f9) is RETRACTED. It was an OVER-READ of a soft-mode
-artifact.** Deeper probe (`n5d_stage2_collapse_reconcile.py`): keeping Hseal IN the objective at FIXED L reaches
-**Hseal=0 with the field equations satisfied** (Phi~1e-9); the fixed-L Jacobian has a **genuine well-separated
-near-null mode** (s_min=6.7e-14 vs s_2nd=6.2e-9) along which **Hseal slides ~FREELY through 0** (dHseal/ds=1.5e-2 vs
-d‖F_field‖/ds=4e-10; Config-A drop-Hseal −0.92 and Config-B keep-Hseal 0 are 97% connected along it). So **−0.96 was
-just where the drop-Hseal solve lands on a FLAT VALLEY — NOT a hard floor**; the +1.000-vs-−2 decomposition is one
-valley point, not an obstruction. **Both the earlier audit AND its blind verifier only probed the drop-Hseal valley
-(the verifier prompt inherited my blind spot), so both "confirmed" −0.96 without testing the slide — a real
-process miss.** CORRECTED read (PROVISIONAL): the collapse is a **FREE-BOUNDARY / SOFT-MODE DEGENERACY (class d) +
-severe ill-conditioning (s_min~1e-14)** — the closure is nearly degenerate with the field manifold, L is not cleanly
-determined, and the free-L LM slides a degenerate drain (Hseal→~0 AND L→0 both ~cost-free; matches the pilot Hseal
-floor ≈−6e-3 ≈ 0, NOT −0.96). Per the pre-registered taxonomy this **leans NUMERICAL-PATH / degeneracy (item 8), NOT
-structural (item 9)**; whether an EXACT finite-L (or large-L) closed cell exists is **REOPENED** (joint {Hseal=0 ∧
-ρ'(r_s)=0} residual ~3e-5/L, smallest at LARGE L). Records: `n5d_stage2_collapse_audit_results.md` (top banner +
-appended CORRECTION) + `n5d_stage2_collapse_reconcile.py`. **NEXT = a FRESH blind pass framed around the soft mode**
-(before re-banking any mechanism or picking a fork): confirm/deny the free Hseal-slide; settle whether the soft mode
-is a physical zero-mode/gauge vs a discretization artifact; determine whether an exact finite-L/large-L closed cell
-exists. Only after that does the fork question (non-static/time-live vs embedded/critical-universe vs S-JC2 vs
-higher-ℓ) reopen — the earlier "rules out higher-ℓ/S-JC2" claim is also suspended (it rode on the retracted deficit).
-**NO Outcome A/B, NO pin/continuum, NO π₃; π₂ tile ONLY; DESIGN/PROVISIONAL/Outcome D.** (Session chain, all
-committed+pushed: Stage-2b impl `6a0ac15` → preflight READY → S-Dir pilot=L-COLLAPSE `652b484` → mechanism
-mis-diagnosed `f02f3f9` → RETRACTED/corrected here. LESSON: I banked a clean confirming story (factor-2, canon-
-aligned) too fast, and framed the blind verifier around my own blind spot. Pinned-formula block below stands.)**
+**➤➤ RESUME HERE / NEXT ACTION (2026-07-06 EOD-3): the static S-Dir π₂ collapse mechanism is RESOLVED and
+BLIND-CONFIRMED — a FREE-BOUNDARY / φ-ρ GAUGE-LIKE DEGENERACY (numerical-path / ill-conditioning), NOT a structural
+matter deficit. (My earlier "factor-2 STRUCTURAL deficit", f02f3f9, was RETRACTED and the retraction is now
+independently blind-verified.)** Two fixed-L probes (`n5d_stage2_collapse_reconcile.py`): keeping Hseal IN the
+objective reaches **Hseal=0 at EVERY finite L** with the field eqs satisfied; the fixed-L Jacobian has a genuine,
+well-separated, **resolution-stable** near-null mode (equil s_min~2e-13; s_min does NOT shrink Nr 8→12 ⇒ not a
+discretization artifact; composition ~84%ρ/16%φ, 0% matter/shear; moving along it leaves the physical readout q_raw
+UNCHANGED) along which **Hseal slides ~freely through 0** while ‖F_field‖ stays at the conditioning floor. So −0.96
+was a drop-Hseal VALLEY POINT, not a floor; the free-L L→0 collapse = the solver sliding this degenerate φ/ρ valley.
+**BLIND VERIFIER (agent `a50cf051979d745f6`, framed NEUTRALLY as X-vs-Y, forbidden the reconcile/audit/interpretation):
+Claim X (structural factor-2) REFUTED, Claim Y (soft-mode degeneracy) SUPPORTED; classification = (b) free-boundary/
+φ-ρ gauge-like degeneracy.** Records: `n5d_stage2_collapse_audit_results.md` (top banner + CORRECTION + BLIND-
+VERIFICATION sections) + `n5d_stage2_collapse_reconcile.py`. **Whether an EXACT/UNIQUE finite-L closed cell exists is
+OPEN / conditioning-limited** (float64 cond 1e14–1e18; joint {Hseal=0 ∧ ρ'(r_s)=0} residual tracks the cond floor,
+best at moderate-LARGE L, worst at small L — the OPPOSITE of a small-L attractor); NOT refuted, NOT cleanly found.
+**NEXT = a CHARLES decision** — the fork question reopens with the corrected understanding (the earlier "rules out
+higher-ℓ/S-JC2" claim is WITHDRAWN — it rode on the retracted deficit). Candidate directions (Charles picks; none to
+be run unprompted): resolve the exact/unique finite-L-closure question (a better-conditioned formulation / gauge-fix
+of the φ-ρ soft mode — CATEGORY-A conditioning work, allowed) BEFORE any physics fork; then S-JC2 seal, non-static/
+time-live, embedded/critical-universe, higher-ℓ, off-diagonal. **NO Outcome A/B, NO pin/continuum, NO π₃; π₂ tile
+ONLY; DESIGN/PROVISIONAL/Outcome D.** (Session chain, all committed+pushed+blind-verified: Stage-2b impl `6a0ac15` →
+preflight READY → S-Dir pilot=L-COLLAPSE `652b484` → mechanism mis-diagnosed `f02f3f9` → RETRACTED `d729dd4` →
+soft-mode blind-CONFIRMED here. LESSON kept: I banked a clean canon-aligned confirming story too fast and framed the
+first verifier around my own blind spot; the neutral X-vs-Y re-frame caught it. Pinned-formula block below stands.)**
 
 **What Stage-2b implemented (all pinned, CAS + blind-verified — the historical build reference below is retained):**
 Read `n5d_stage2_corelaxed_matter_DESIGN.md` + `n5d_stage2a_cas_results.md` (§1-8) + `n5d_stage2b_gate05_report.md`

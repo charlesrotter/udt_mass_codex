@@ -9,12 +9,17 @@
 > through zero** (dHseal/ds=1.5e-2 vs d‖F_field‖/ds=6e-10). The **−0.96 was merely where the *drop-Hseal* solve lands
 > on a flat valley — NOT a hard floor.** Both this audit AND its blind verifier only ever probed the drop-Hseal valley
 > point (the verifier prompt inherited the author's blind spot), so both "confirmed" −0.96 without testing the slide.
-> **Corrected read (PROVISIONAL, pending a fresh blind pass): the collapse is a FREE-BOUNDARY / SOFT-MODE DEGENERACY
-> (classification d) + severe ill-conditioning (s_min~1e-14) — the closure is nearly degenerate with the field
-> solution manifold, so L is not cleanly determined and the free-L LM slides down a degenerate drain (Hseal→~0 AND
-> L→0 both nearly cost-free). Per the pre-registered rule this leans NUMERICAL-PATH / degeneracy (item 8), NOT a hard
-> structural matter deficit (item 9).** Whether an EXACT finite-L closed cell exists is REOPENED (the joint
-> Hseal=0 ∧ ρ'(r_s)=0 residual is ~3e-5/L — smallest at LARGE L; possibly a large-cell limit, not a hard no). The
+> **Corrected read — now BLIND-CONFIRMED (2026-07-06, agent `a50cf051979d745f6`, framed neutrally as an X-vs-Y
+> adjudication, forbidden the reconcile script + this correction + the author's interpretation): Claim X (factor-2
+> structural pin) REFUTED, Claim Y (soft-mode degeneracy) SUPPORTED.** The collapse is a **FREE-BOUNDARY / φ-ρ
+> GAUGE-LIKE DEGENERACY** — the closure is nearly redundant with the field solution manifold along a genuine,
+> well-separated, **resolution-stable** near-null mode (equil s_min~2e-13, ratio s_2nd/s_min~3e4; s_min does NOT
+> shrink Nr 8→12 ⇒ not a discretization artifact; mode ~84%ρ/16%φ, 0% matter/shear; moving along it leaves the
+> physical readout q_raw UNCHANGED). Keep-Hseal reaches **Hseal=0 at EVERY finite L (8.0→0.1)** at the field-residual
+> conditioning floor. Per the pre-registered taxonomy this is **NUMERICAL-PATH / degeneracy (item 8), NOT a hard
+> structural matter deficit (item 9).** Whether an EXACT/UNIQUE finite-L closed cell exists is **OPEN / conditioning-
+> limited** (float64 cond ~1e14–1e18; joint {Hseal=0 ∧ ρ'(r_s)=0} residual tracks the conditioning floor, smallest at
+> moderate-LARGE L, worst at small L — the OPPOSITE of a small-L attractor) — not refuted, not cleanly found. The
 > small-L SCALING (§1), the fixed-L machine-precision solvability (§2), and the H(r_s) term VALUES (§3) stand as
 > measurements; only their INTERPRETATION as a hard structural deficit is retracted. See the CORRECTION note appended
 > at the end for the full record.
@@ -157,3 +162,33 @@ joint {Hseal=0 ∧ ρ'(r_s)=0} residual is ~3e-5/L (smallest at LARGE L) — pos
 hard no. **Owed before re-banking any mechanism: a fresh blind pass explicitly tasked to (a) confirm/deny the soft
 mode + free Hseal-slide, (b) settle whether the soft mode is a physical zero-mode/gauge vs a discretization artifact,
 (c) determine whether an exact finite-L (or large-L) closed cell exists.** π₂ tile only; DESIGN/PROVISIONAL/Outcome D.
+
+## BLIND VERIFICATION of the correction — CONFIRMED (2026-07-06, agent `a50cf051979d745f6`)
+
+Independent verifier, framed NEUTRALLY as an X-vs-Y adjudication, FORBIDDEN: `n5d_stage2_collapse_reconcile.py`,
+`n5d_stage2_collapse_audit.py`, this doc, the preflight docs, `tests/`. USED: `cell_solver_f2d.py`, `n5d_shear.py`,
+the Stage-2 equation docs, `n5d_stage2_sdir_pilot_results.md`. Own column-equilibrated damped-LM harness.
+
+**Verdict: Claim X (structural factor-2 pin) REFUTED; Claim Y (soft-mode degeneracy) SUPPORTED. The prior
+structural-deficit conclusion stays RETRACTED.** Independent numbers:
+- **Hseal drop-vs-keep:** drop-Hseal reads Hseal≈−0.61…−0.97 (valley, L-dependent); **keep-Hseal drives Hseal=0 at
+  EVERY finite L from 8.0 down to 0.1** at the same field-residual floor (e.g. L=2: drop ‖F_field‖=3.8e-6 →
+  keep ‖F_field‖=4.2e-6 with Hseal=0). The keep-solve's residual sits in the base geometry rows (ρ-mirror/ρ-ODE/
+  φ-mirror); the Hseal row itself is satisfied (2e-12). ⇒ −0.96 is a drop-solve VALLEY POINT, not a floor.
+- **Jacobian (drop-Hseal, equilibrated):** s_max=2.27, s_2nd=6.7e-9, s_min=2.1e-13, ratio~3e4 → ONE well-separated
+  near-null mode. **Resolution test:** equil s_min 1.08e-13 (Nr=8) → 2.14e-13 (Nr=12) — does NOT shrink toward the
+  float64 floor ⇒ GENUINE mode, not a discretization artifact.
+- **Near-null composition:** ~84% ρ, ~16% φ, 0% uf, 0% a2 — a smooth low-frequency φ/ρ free-boundary mode.
+- **Slide:** along it Hseal moves ~+0.96 while ‖F_field‖ stays at the conditioning floor (exchange rate ~3e6 at L=2);
+  Hseal crosses 0 and continues positive; the crossed state stays on the field manifold; **q_raw UNCHANGED** along the
+  mode (moves the closure functional without moving physics).
+- **Classification: (b) free-boundary / φ-ρ gauge-like degeneracy** (resolution-stable ⇒ not (c); smooth φ/ρ, no
+  matter/shear; leaves q_raw invariant). Not a clean exact zero-mode (s_min tiny but nonzero), not artifact.
+- **Exact finite-L closure:** REOPENED / OPEN — Hseal=0 achievable at every finite L; NO isolated root; joint
+  {Hseal=0 ∧ ρ'(r_s)=0} residual tracks the raw conditioning floor (cond 1e14–1e18), best near L≈3–4, worse at both
+  small L (1/L stiffening) and very large L (cond blowup). A UNIQUE finite-L closed cell is undecided (conditioning-
+  limited); not refuted, not found. The free-L L→0 collapse = the solver sliding this degenerate φ/ρ valley.
+
+**Net:** the corrected read is independently confirmed. The static S-Dir π₂ collapse is a free-boundary/φ-ρ
+gauge-like DEGENERACY (numerical-path / ill-conditioning), NOT a structural matter deficit; exact/unique finite-L
+closure is OPEN and conditioning-limited. π₂ static S-Dir tile only; no Outcome A/B, no pin, no continuum, no π₃.
