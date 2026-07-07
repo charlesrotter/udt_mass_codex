@@ -26,8 +26,10 @@ what it forces. OBSERVE, not impose.
    `1+z = √[(x_max+x)/(x_max−x)]` — **the relativistic-Doppler form with `β = x/x_max`.** [CAS: derivative test True;
    numeric 4.4e-16] Consequences:
    - `x→x_max`: `1+z→∞` — infinite redshift, time stops, mass diverges (the one saturation, two faces).
-   - small `x`: `1+z ≈ 1 + x/x_max` — a **Hubble-like linear law**, slope `1/x_max` ⇒ **`x_max = c/H₀` (the Hubble
-     length / de Sitter radius)**. This is the concrete physical identity of `x_max`.
+   - small `x`: `1+z ≈ 1 + x/x_max` — a **linear redshift–distance law with slope `1/x_max`**. (The slope's inverse is
+     the length scale `x_max` itself; earlier drafts named it `c/H₀`/"Hubble length" — STRUCK as a ΛCDM import
+     (Charles 2026-07-07). The derivation delivers only the slope `1/x_max`; `x_max` is a free invariant, not a
+     cosmological observable.)
 5. **Metric consequence (the CHECK target).** With the canon skeleton `ds² = −A c²dt² + A⁻¹dx² + …` (B=1/A, canon
    C-2026-06-14-1) and gravitational redshift `1+z = 1/√A`: `A(x) = 1/(1+z)² = (x_max−x)/(x_max+x)`, so **`A→0` at
    `x=x_max`** — an asymptotic horizon (`g_tt→0` = time stops), the de Sitter-like edge derived rather than installed.
@@ -42,11 +44,15 @@ what it forces. OBSERVE, not impose.
 - **DERIVED:** the composition law, `φ(x)=arctanh(x/x_max)`, the saturation, the redshift–distance law, `A(x)`, the
   horizon at `x_max`. All CAS-verified.
 - **OPEN / NOT delivered:**
-  1. **The VALUE of `x_max` is NOT fixed by the form** — exactly as SR's derivation does not fix `c`. `x_max` is the
-     invariant (dimensionless-at-core = a max dilation); its metres-value is `c/H₀` (needs the Hubble rate `H₀`, or
-     equivalently `G`+criticality). So the "simple derivation" gives the FORM free, NOT a `c,G`-only number. Honest
-     correction to the frame's hope that `c,G` alone pin it: they pin the FORM and the `c/H` relation; the remaining
-     scale is `H₀` (a rate), which criticality+`G` would have to supply. [The max-force `c⁴/G` doorway is untouched here.]
+  1. **The VALUE of `x_max` is NOT fixed by the form — and CANNOT be a function of `c,G` (or `c`) alone** (Charles
+     2026-07-07). Two reasons, both import-free: (i) UNITS — `c` is distance/time and `G` still carries a mass, so no
+     combination yields a pure length (`c` alone needs a time; `c,G` need a mass); this is dimensional homogeneity, NOT
+     the smuggled Planck/`ℏ` objection. (ii) SCALE-FREEDOM — UDT's vacuum is scale-free (canon: matter is the
+     scale-breaker), so its own closure fixes the SHAPE not the RULER: the marginal edge `x_max=2GM/c²` with the
+     metric's own curvature energy `M~(c²/G)x_max` makes `x_max` CANCEL (scale-invariant). ⇒ **`x_max` is a FUNDAMENTAL
+     INVARIANT in its own right — a max LENGTH as primitive as `c` is a max SPEED — set/measured, not derived** (you
+     don't derive `c` from `G` either). This is the same fact as "UDT predicts RATIOS, not absolute scales": `x_max` IS
+     the ruler. [A natural TIME or MASS from the theory could convert it; the vacuum supplies neither.]
   2. **The load-bearing claim "invariance FORCES the metric" is SUPPORTED, not CLOSED.** Step 5 derives `A(x)` FROM the
      invariance GIVEN the canon `B=1/A` skeleton — it does not yet DERIVE that skeleton from the invariance. Closing it
      = showing invariance forces `B=1/A` + the rest, not just `A(x)`.
@@ -56,8 +62,10 @@ what it forces. OBSERVE, not impose.
 ## The checkable next step (OBSERVE, no fit)
 Does our ACTUAL native metric `A(x)` (from the field equations) match `(x_max−x)/(x_max+x)` — i.e., does it have a
 horizon (`A→0`) at a finite `x_max`? If yes, the invariance is already living in the metric we derived (the frame
-confirmed, `c` sitting in the signature). If the native `A(x)` has a DIFFERENT edge structure, that adjudicates the
-postulate. Also open: whether criticality+`G` fixes `H₀` (hence the metres-value of `x_max`), and the full metric-forcing.
+confirmed, `x_max` sitting in the signature beside `c`). If the native `A(x)` has a DIFFERENT edge structure, that
+adjudicates the postulate. The check is on the STRUCTURE (is there a finite edge at all), independent of `x_max`'s
+value — which is the free ruler, not a `c,G` output. Also open: the full metric-forcing (Step 5 closes `A(x)` given the
+`B=1/A` skeleton, not the skeleton itself).
 
 ## VERIFIER
 **Blind adversarial pass — 2026-07-07, agent `a1473cf2856c41237`. PASS (sound-but-modest, as the doc states); one
