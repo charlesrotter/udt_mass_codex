@@ -1019,3 +1019,108 @@ normalization** — needs a Zρ_s² anchor.
 - The J(s)/light-sector data confrontation could be EXTENDED (the 9π/4 future-precision target; more γ tests) — but
   it's consistency-only at current precision.
 
+
+
+---
+
+# ARCHIVED from HANDOFF.md (2026-07-07): SESSION RECORDS 2026-07-06 EOD-2 + EOD-1
+
+## SESSION RECORD 2026-07-06 (EOD-2) (Opus 1M — N5d Stage-1 diagnosed+fixed → retired → Stage-2 co-relaxed matter DESIGNED + CAS COMPLETE + Gate-0 CLEARED)
+
+Charles directed step-by-step; every node CAS/audit + committed & pushed on `main` (standing instruction: push on
+every commit). NO pilot/verdict run this session — all DESIGN/PROVISIONAL/Outcome D. pytest 59/1xfail at close
+(+11 pullback/frame tests). The one code change to physics is FIX-1 (equilibration) + Registration-B + the ρ²/2
+source factor in `cell_solver_f2d.py`; Stage-2b implementation is NOT yet done (Gate-0 just cleared).
+
+**THE ARC (each committed; docs named):**
+1. **Conditioning diagnosis** (`n5d_stage1_conditioning_diagnosis.md`): the Stage-1 near-singular Jacobian = a
+   COMPOUND numerical artifact (NOT a physical soft mode) — 3 stacked, all-UNOBSERVABLE near-null modes: (1) row/col
+   scaling imbalance (D2 rows ~1e8, L column under-scaled; inherited from the BASE), (2) S-JC2 constant-a2 EXACT
+   Neumann null, (3) stalled-state constant-φ null. All leave q/Pi/M/Hseal/nodes unchanged ≤1e-11.
+2. **FIX-1** (`cell_solver_f2d.newton_lm_solve`): category-A equilibration = COLUMN scaling + damped **lstsq** (avoids
+   the J^TJ cond-squaring; ROW-scaling the objective was tried+REJECTED — it stalls the solve). `equilibrate=True`
+   default; `=False` = original byte-for-byte. No regression; removes contributor 1.
+3. **FIX-3** structured seed = INEFFECTIVE (the round Branch-P mirror cell flattens any structured seed back to
+   near-homogeneous; the L-collapse is the round-continuum closure degeneracy, not a seed artifact).
+4. **Shear-forcing audit**: the ℓ=2 source is STRONG (‖rhs‖≈3) + correctly normalized; the tiny nonlinear a2 =
+   the L-COLLAPSE (L 1.0→9e-3, source fixed at seed L0 while geom coeff ∝(2/L)² stiffens ~1e4×). ℓ=2 captures only
+   ~17.6% of the traceless shear power (ℓ=0 dominates 81%).
+5. **Pullback / Registration-B** (`cell_solver_f2d.fields` + `n5d_shear.source_interp`): the source now interpolates
+   at the CURRENT-L physical r=rc+(L/2)(ζ+1) (was frozen at seed L0). +8 regression tests.
+6. **ρ²/2 frame factor** (`fields` live-src path): stored `sh2` (orthonormal component) needs ×ρ²/2 to be the
+   cell-frame `T_s`; CAS-derived (`n5d_frame_factor_cas.py`) + BLIND-VERIFIED (agent a83a6c…). +3 tests.
+7. **Embedding audit** (`§4d/§4g`): the frozen FLAT hopfion stress is INVALID as a cell-frame source for verdicts
+   (ρ≠r by up to 2×; an uncomputed (r/ρ)^{2..4} regrade; scale-incoherent). ⇒ **RETIRE Stage-1 frozen source;
+   go Stage-2 co-relaxed matter.**
+8. **Stage-2 DESIGN** (`n5d_stage2_corelaxed_matter_DESIGN.md`): the base `cell_solver_f2d` ALREADY co-relaxes the
+   native S² winding matter f(r,θ); Stage-2 = make f feel the shear (off-round f-PDE) + source the shear from the
+   LIVE matter's own T_s. π₂ tile (flagged: NOT the π₃ hopfion).
+9. **Stage-2a CAS** (`n5d_stage2a_cas_results.md`, script `h4_scripts/n5d_stage2a_cas.py`): off-round f-PDE (A,B,pot
+   with e^{±s}, matches base at s=0 EXACT); T_s derived; ρ²/2 emergence exact; ρ-force s-independent; φ-blind; rigid
+   hedgehog 0. **The design's T_s candidate was SIGN-FLIPPED — CAS caught it.** T_s sign + then BLIND-VERIFIED
+   (agent a44bfe…, §7). H audit: off-round H = base + shear-kinetic; **dH/dr=0 on-shell EXACT** (geo+shear).
+10. **Stage-2b Gate-0** (`n5d_stage2b_gate0_report.md`): ran BEFORE any residual edit and CAUGHT A BLOCKER — the
+    standard FS L_m gives a matter→geometry coupling **−2×** the base's (ρ-EOM matter force + H matter both −2×),
+    while the f-PDE (homogeneous δS_m/δf) is unaffected. Pinned shear-kinetic **C=1/10** (matches the certified
+    φ-correction + E_s_geom). HALTED implementation per Gate-0.5 rule.
+11. **Gate-0.5 RESOLVED** (`n5d_stage2b_gate05_report.md`, script `n5d_stage2b_gate05.py`): the base coupling is
+    **λ=−1/2**, CONSISTENT across the ρ-EOM AND H (both give −½ exactly) ⇒ a deliberate base convention (the
+    𝒦-mediated/e^{2φ}/4 weight, per H4_N1), NOT an inconsistency. **Corrected live source = −(ρ²/4)T_s** (the naive
+    +(ρ²/2)T_s was 2× + sign-flipped). **BLIND-VERIFIED** (agent a99914…: λ_ρ=−½, λ_H=−½, source −(1/4)ρ²T_s).
+
+**⇒ NEXT SESSION: Stage-2b IMPLEMENTATION** — see LIVE.md RESUME-HERE for the exact pinned formulas + the 7 required
+tests. Bounded code edit to `cell_solver_f2d.py` (+ `H_of_r`), delete frozen source from the residual, NO pilot, NO
+verdict, NO FIX-2, π₂-only. All Gate-0 formulas are CAS + blind-verified; nothing more to derive.
+
+## SESSION RECORD 2026-07-06 (EOD-1) (Opus — readout-map B+C → provenance floor CLOSED both sides → N5d BUILT → Stage-1 pilot TOOL-LIMITED)
+
+Charles directed step-by-step; every node armchair/CAS + code, committed + pushed on `main`. The one coupled solve
+(the N5d Stage-1 pilot) ran bounded/foreground (~1s/BC). pytest 48/1xfail at close.
+
+**1. READOUT-MAP — two axes closed.** (a) CHANNEL-selector audit (`native_readout_map_selector_audit_results.md`,
+verifier aa75efc94282e7099) → **Outcome B**: NO native target-selector from any of the 4 sources (seal/spin/φ-angular/
+flux); q=1/3 UNFORCED; **solve-independent** (target-SO(3) is an exact symmetry of the backreacted functional — a
+spatial pin never transmits to a target pin; L2+L4 generic-R CAS diff=0). (b) DEPTH/SIZE node (Branch P,
+`native_readout_map_depth_size_results.md`, verifier ae3142d4ba6d9e825, registry **#76**) → **Outcome C**: the round
+Branch-P vacuum is PROVABLY a continuum (autonomous form φ_tt+φ_t=(4/Z)e^{−2φ} = monotone runaway, node-count≡0); the
+hopfion RIDES (mass=continuous whole-cell flux); native discreteness exists only as ORTHOGONAL LABELS (Q_H, D2b
+depth-N). **The ONE frozen DOF that could pin size = the off-round shear h_AB (via sign-changing 𝒦 or the TT
+eigenproblem) — this is exactly what N5d tests.**
+
+**2. N5d PREFLIGHT FAILED → the provenance excavation.** Charles approved N5d with strict gates. The preflight gate
+STOPPED it: **no solver implemented the native operator** — the only coupled φ+shear solver (`branchGP`/
+`branch_operator.py`) ran the SUPERSEDED scalar-tensor frame (f=e^{2φ}, X=−2e5). The L_bare⁻¹ bug was FIXED
+(`h4_scripts/lbare_inverse.py`, `fe85a14`; the old `green_response` inverted a different operator). This triggered:
+- **kap8 = SOLE QUARANTINE** (`kap8_characterization`, registry **#77**) — a live unflagged native-micro
+  identification banked on the scalar-tensor operator at X=−2e5.
+- **Date-based pre-native-era census** (`pre_native_era_census.md`, 2026-06-11→07-01, 4 classifiers + 2 adversarial
+  passes) — kap8 sole quarantine; the everything-on **P2/P3/P4** arc (frame B) was a SECOND undercount caught by the
+  adversarial pass; W-series all retired/self-withdrawn. Organization: 10 SUPERSEDED docs → `archive/pre_native_
+  coupled/` (redirect stubs), banners on CC docs, INDEX/ledger/registry pointers.
+- **Macro-spine provenance pass** (`macro_spine_provenance_2026-07-06.md`, 3 classifiers + adversarial) — NO hard
+  quarantine; N5d triple-confirmed unaffected. `native_dilation_weight §5-7` = SPLIT (the X=−2e5 BIRTHPLACE),
+  F5 CC, AUDIT.md CC, scale_symmetry/macro_fork/weld×2/lepton_ladder SUPERSEDED. **PROVENANCE FLOOR CLOSED BOTH SIDES.**
+  RESIDUAL OWED (cosmetic): W-series phase-2 physical relocation.
+
+**3. N5d BUILT.** Build plan (`N5d_solver_build_plan.md`, approved-with-edits — frozen-source staging, both seal BCs,
+BC-fork banking rule, neutral q_raw/M_readout sign convention + Gate-8, pilot-verdict scope rule). Built as an
+ADDITIVE extension: `n5d_shear.py` (exact 𝒦=−½e^{−2φ}(a'bt')/(a·bt), sqrt_h, EAB_shear_row, lbare wrappers) +
+`cell_solver_f2d.py` (+ℓ=2 shear DOF a₂(r), shear-EL row, S-Dir/S-JC2 BCs, q_raw/Pi_phi/M_readout with
+SIGN_CONVENTION=−1) + 3 test files. commit `84287b6`; pytest 48/1xfail (existing 32 preserved — shear-off = exact
+round recovery); 8 preflight gates GREEN; contamination-clean.
+
+**4. N5d STAGE-1 PILOT = TOOL-LIMITED (Outcome D; NO A/B banked)** (`n5d_pilot.py` + `n5d_pilot_stage1_results.md`,
+commit `bf54957`). Frozen REAL H3-hopfion source (Q=0.9917, virial-balanced) + live ℓ=2 shear + exact φ, both seal
+BCs, Nr=16/Nth=8, foreground ~1s/BC. RESULT: both BCs **converged=False**; **jac_cond ~4e15 (S-Dir) / 9e16 (S-JC2)**
+(float64 floor); maxit=30 hit every continuation step (Φ floored ~1e-4); shear response a2_peak ~5e-3/2e-5 and induced
+q ~±2.5e-8 at solver NOISE; `closed_cell_exists=False` = NON-CONVERGENCE not a physics "no"; BC-fork UNDETERMINED. Per
+MISMATCH→SOLVER: a near-singular Jacobian is ambiguous between a numerical/gauge artifact and a genuine soft/flat
+shear mode (which would itself be CONTINUUM evidence) — cond~1e16 can't distinguish. ⇒ tool-limited.
+
+**NEXT-SESSION PICKUP (EOD-1 record — SUPERSEDED/DONE by the EOD-2 session above; the live pickup is now
+"IMPLEMENT Stage-2b" per LIVE.md + the EOD-2 record at TOP):** DIAGNOSE the N5d conditioning (solver-first, NOT a
+mechanism hunt) — SVD the Jacobian's near-zero mode: (a) GAUGE; (b) block-SCALING; (c) genuine PHYSICAL soft mode.
+[DONE in EOD-2: the near-null = a numerical/L-collapse artifact, NOT a soft mode → FIX-1/RegB/ρ²/2 → Stage-1
+retired → Stage-2 co-relaxed matter designed + CAS + Gate-0 cleared.] Do NOT run branchGP (fenced). ANTI-HANG binding.
+
+---
