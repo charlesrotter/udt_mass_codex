@@ -37,23 +37,26 @@ are HISTORY the evening built on — see the HANDOFF (PM) block if needed.)
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-06 EOD-3 — N5d Stage-2b IMPLEMENTED + gate GREEN + blind-verified → preflight READY → S-Dir PILOT RAN = L-COLLAPSE (Outcome D, blind-verified); NEXT = Charles picks the solver-completeness fork) ============
+## ============ CURRENT STATE (2026-07-06 EOD-3 — N5d Stage-2b IMPLEMENTED+gate GREEN+blind-verified → preflight READY → S-Dir PILOT = L-COLLAPSE → COLLAPSE MECHANISM DIAGNOSED (factor-2 static deficit, STRUCTURAL, blind-verified); NEXT = Charles picks the fork (non-static/time-live indicated)) ============
 
-**➤➤ RESUME HERE / NEXT ACTION (2026-07-06 EOD-3): the bounded static S-Dir co-relaxed π₂ pilot has RUN and its
-result is L-COLLAPSE — TOOL-LIMITED / Outcome D, blind-verified.** The solve drives the cell length L→0 (from L0=1;
-0.14→0.037→0.017→0.0076 over 150 iters), the seal-closure `Hseal` floors at ≈−6e-3 and NEVER reaches 0, and
-`cond_equil`→float64 floor. Independent adversarial verifier (agent `ae5e8adcc16071d11`) hunted for a finite-L
-closed cell across seed-L∈{0.05…2.0} and found NONE — the L→0 is a spurious/degenerate root, NOT a solver artifact
-(equilibrate on/off + Nr=12/16 all agree), and the collapse is in the BASE geometry+matter closure, NOT the new
-shear sector (shear rows ~40× smaller). Record: `n5d_stage2_sdir_pilot_results.md` (+ `n5d_stage2_sdir_pilot.py`/
-`.json`). **NO converged tile lead, NO pin/continuum, NO Outcome A/B, NO π₃ claim.** MISMATCH→SOLVER: the collapse
-indicts the STATIC + S-Dir + block-diagonal + ℓ=2-only CLOSURE of this corner, never the metric/mechanism — so the
-**NEXT ACTION is a CHARLES DECISION on the solver-completeness fork** (what this tile LEAVES OUT, none to be added
-unprompted): (a) higher-ℓ shear; (b) the **S-JC2 seal fork** (constant-a2 null, unresolved, no FIX-2); (c) the
-**non-static / time-live sector** (this was a STATIC solve; the seal=t→−t canon + Charles's hunch put dynamics in a
-separate sector — prime suspect); (d) unfrozen off-diagonal / Branch fork. π₂ tile ONLY; DESIGN/PROVISIONAL/Outcome
-D throughout. (The prior EOD-3 build/preflight narrative — Stage-2b impl `6a0ac15`, gate GREEN, preflight READY —
-is retained below/in the pinned-formula block; it stands.)**
+**➤➤ RESUME HERE / NEXT ACTION (2026-07-06 EOD-3): the static S-Dir π₂ collapse is now MECHANISM-DIAGNOSED and
+blind-verified STRUCTURAL — a factor-of-2 static seal-closure deficit.** With L FIXED, the reduced system (fields +
+mirror BCs + shear rows, Hseal row dropped) solves to machine precision at EVERY L, but the seal Hamiltonian is
+**Hseal(L) = −0.9597, constant/L-independent, never crossing 0.** Decomposition: at the relaxed mirror seal all
+KINETIC terms vanish, leaving **H(r_s) = −2 (boundary const) + (ξ/2)(Ith+N²Is)=+1.000 exactly + (κN²/2)I4th/ρ²=+0.040
+= −0.96** — the π₂ angular matter potential (+1.04) is a **factor ~2 too weak to cancel the −2 boundary**, and the
+deficit is L- AND amplitude-independent (no amp lifts it toward +2). Blind verifier (agent `aed5f1d571dbc7e7b`)
+CONFIRMED; no static S-Dir config closes. Record: `n5d_stage2_collapse_audit_results.md` (+ `n5d_stage2_collapse_audit.py`).
+**Classification: STRUCTURAL closure failure — (e) π₂ matter too weak + (d) free-boundary degeneracy (Hseal L-indep);
+NOT numerical/overconstraint/S-Dir-artifact.** DIAGNOSTICS RULE OUT the static-sector fixes: higher-ℓ shear and the
+S-JC2 fork do NOT change the −2-vs-+1 balance (shear/seal-BC terms ~0 at the seal). **NEXT = a CHARLES fork decision;
+the mathematically- + canonically-indicated one is the NON-STATIC / TIME-LIVE sector** (canon C-2026-07-04-1 SECTOR
+SPLIT: the spatial φ→−φ mirror governs the static seal and supplies exactly +1 of the needed +2; t→−t governs the
+TIME-ON sector — natural home for the missing +1). Secondary: the embedded/critical-universe coupling (the −2 is a
+lone-cell boundary constant; an embedded cell's effective term may differ). **NO Outcome A/B, NO pin/continuum, NO π₃
+claim; π₂ tile ONLY; DESIGN/PROVISIONAL/Outcome D.** (Chain this session, all committed+pushed+blind-verified:
+Stage-2b impl `6a0ac15` → preflight READY → S-Dir pilot=L-COLLAPSE `652b484` → mechanism=factor-2 STRUCTURAL. The
+pinned-formula block below stands.)**
 
 **What Stage-2b implemented (all pinned, CAS + blind-verified — the historical build reference below is retained):**
 Read `n5d_stage2_corelaxed_matter_DESIGN.md` + `n5d_stage2a_cas_results.md` (§1-8) + `n5d_stage2b_gate05_report.md`
