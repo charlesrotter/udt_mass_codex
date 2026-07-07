@@ -54,8 +54,14 @@ justifies a bounded single-rung Class-B build; if none, DO NOT build (matter-str
 φ-blind so a depth match ⇏ I_r>0 directly — escape is either resonance (cheap, no-build) or geometry-coupled (needs
 build). Class-B seal is already coded (`cell_solver_f2d.py` `seal_phi="B"`). Reconstruct `π'_{ρ,amb}(N)`, `m_amb(N)`,
 `E_{ang,natural}` from the rung + minimal-matter solution (ladder does NOT tabulate them — flag reconstructed-vs-derived).
-**Template tripwire: run as OBSERVE (which rungs hit resonance), never TARGET the lepton ladder.** Records:
-`classB_rung_resonance_prebuild_test_DESIGN.md`, `classB_embedded_rung_gatecheck_results.md`. NO Outcome A/B, NO
+**Template tripwire: run as OBSERVE (which rungs hit resonance), never TARGET the lepton ladder.** ⚠ **OWED FIRST
+(Charles 2026-07-07): a BLIND re-derivation of the load-bearing identities before the classification is trusted —
+independently re-derive `I_{r,req}(N)` (from R4: `π'_ρ=Zρφ'²−ξρI_r+κN_w²I_{4θ}/ρ³`) and `A_N` (from R5), from the
+native action NOT from the DESIGN doc (which only TRANSCRIBES Charles's Der 1-7), and confirm the old no-band
+two-branch numbers (`q≈3.8-4.0` closed π_φ; minimal matter `I_r→0`). Frame NEUTRALLY (adjudicate, not confirm — this
+session's residual-artifact lesson). Only then trust the (q_N,Δφ_N,I_{r,req},A_N) classification as a build gate.**
+Records: `classB_rung_resonance_prebuild_test_DESIGN.md` (§OWED FIRST), `classB_embedded_rung_gatecheck_results.md`.
+NO Outcome A/B, NO
 pin/continuum, NO π₃; π₂ static S-Dir tile; DESIGN/PROVISIONAL/Outcome D.
 
 ### ↓↓↓ SUPERSEDED-as-frontier (2026-07-06 EOD-3): the static-collapse diagnosis arc below is DONE (all committed/

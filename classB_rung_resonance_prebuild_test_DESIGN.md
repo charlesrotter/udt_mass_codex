@@ -75,6 +75,18 @@ was a matter-structure wall, so the rung must either **avoid** the need for `I_r
 through geometry (structural). The first is the cheap next test above; the second is the only reason a build would be
 worth it.
 
+## OWED FIRST — blind re-derivation of the load-bearing identities (before the classification pass builds on them)
+This DESIGN doc is a faithful TRANSCRIPTION of Charles's Der 1-7; the R4/R5 identities and the old no-band numbers were
+NOT independently re-derived here — they are cited to `cell_solver_f2d_classB_run_results.md`. **The entire rung
+classification rests on `I_{r,req}(N)` and `A_N` being exactly right, so run a BLIND pass FIRST (or in parallel):**
+(i) independently re-derive `π'_ρ = Zρφ'² − ξρI_r + κN_w²I_{4θ}/ρ³` and hence `I_{r,req}(N)` from the ρ-momentum
+condition (R4), and `A_N = E_{ang,natural} − m_amb(N)` from the angular-energy condition (R5), from the native
+action/junction — NOT from this doc; (ii) confirm the old no-band run's two-branch numbers (`q≈3.8-4.0` closed π_φ;
+minimal matter `I_r→0`; Branch A needs I_r>0, Branch B blocks on R5). Frame it NEUTRALLY (adjudicate, don't confirm —
+see [[verifier-framing-and-residual-artifacts]] / `n5d_stage2_collapse_audit_results.md` for why this session that
+mattered twice). Only after the identities are blind-verified should the per-rung `(q_N, Δφ_N, I_{r,req}(N), A_N)`
+classification be trusted as a build gate.
+
 ## Premise ledger (for the next pass)
 - `q_N`, `Δφ_N`, `Θ(N)`, `x_c=1/1101` — DERIVED (Stage-D ladder, blind-verified, canon); the anchor cancels in ratios
   to leading order (gate-check a). CHOSE/reconstruct: `π'_{ρ,amb}(N)`, `m_amb(N)`, `E_{ang,natural}`, `ρ_s`, `I_{4θ}`
