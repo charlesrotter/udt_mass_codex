@@ -209,9 +209,9 @@ All armchair/CAS + blind-verified + pushed; H4 compute was STOPPED at the time �
 - **structural i / ℏ:** `i_flow_hbar_clock_MAP.md` — OUTCOME 7: structural i NATIVE (Kähler J²=−1), ℏ NOT derived
   (native time-live phase action is a 2nd-order rotor, no first-order WZ term; "area form ⟹ ℏ" refuted).
 - NEXT (this arc's open leads, SUPERSEDED as the frontier 2026-07-06): native-vs-added target-selector for q=1/3;
-  the N5d solve for ξ — BUILT, Stage-1 pilot tool-limited, then diagnosed/fixed/retired → Stage-2 co-relaxed matter
-  (see the EOD-2 arc below / LIVE.md); η Zρ_s² anchor. **The CURRENT next action is in LIVE.md (IMPLEMENT Stage-2b);
-  these remain open leads carried forward.**
+  the N5d solve for ξ — BUILT, then the whole Stage-2 arc ran to completion (impl→pilot→collapse→gauge→L-selection→
+  MS→Class-B→rung gate-checks, CLOSED 2026-07-07); η Zρ_s² anchor. **The CURRENT next action is always in LIVE.md
+  TOPMOST (as of 2026-07-07 = the NO-BUILD per-rung resonance test); these remain open leads carried forward.**
 
 ## 2026-07-06 EOD-2 arc — N5d Stage-1 diagnosed+fixed+RETIRED → Stage-2 co-relaxed matter DESIGNED + CAS COMPLETE + Gate-0 CLEARED (see LIVE.md TOP — the live frontier)
 `n5d_stage1_conditioning_diagnosis.md` (the Stage-1 near-singular Jacobian = 3 unobservable near-null modes = a
