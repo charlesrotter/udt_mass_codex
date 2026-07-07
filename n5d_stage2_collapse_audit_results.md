@@ -1,4 +1,23 @@
-# N5d Stage-2 STATIC S-Dir COLLAPSE MECHANISM AUDIT — results (π₂ tile; DESIGN/PROVISIONAL/Outcome D; blind-verified)
+# N5d Stage-2 STATIC S-Dir COLLAPSE MECHANISM AUDIT — results (π₂ tile; DESIGN/PROVISIONAL/Outcome D)
+
+> **⚠⚠ CORRECTION / RETRACTION (2026-07-06 EOD-3, later same day — supersedes the "factor-2 structural deficit"
+> conclusion below). The §5/§7 conclusion ("STRUCTURAL closure failure; π₂ matter factor-2 too weak; Hseal=−0.96
+> L-independent; no finite-L cell") is WITHDRAWN — it was an OVER-READ of a soft-mode artifact.** A follow-up probe
+> (`n5d_stage2_collapse_reconcile` inline, `scratchpad`) keeping Hseal IN the objective at FIXED L reaches **Hseal=0
+> with the field equations satisfied** (Phi~1e-9), and a soft-mode characterization shows the fixed-L Jacobian has a
+> **genuine near-null direction** (s_min=6.8e-14, well-separated; s_2nd=6.2e-9) along which **Hseal slides ~FREELY
+> through zero** (dHseal/ds=1.5e-2 vs d‖F_field‖/ds=6e-10). The **−0.96 was merely where the *drop-Hseal* solve lands
+> on a flat valley — NOT a hard floor.** Both this audit AND its blind verifier only ever probed the drop-Hseal valley
+> point (the verifier prompt inherited the author's blind spot), so both "confirmed" −0.96 without testing the slide.
+> **Corrected read (PROVISIONAL, pending a fresh blind pass): the collapse is a FREE-BOUNDARY / SOFT-MODE DEGENERACY
+> (classification d) + severe ill-conditioning (s_min~1e-14) — the closure is nearly degenerate with the field
+> solution manifold, so L is not cleanly determined and the free-L LM slides down a degenerate drain (Hseal→~0 AND
+> L→0 both nearly cost-free). Per the pre-registered rule this leans NUMERICAL-PATH / degeneracy (item 8), NOT a hard
+> structural matter deficit (item 9).** Whether an EXACT finite-L closed cell exists is REOPENED (the joint
+> Hseal=0 ∧ ρ'(r_s)=0 residual is ~3e-5/L — smallest at LARGE L; possibly a large-cell limit, not a hard no). The
+> small-L SCALING (§1), the fixed-L machine-precision solvability (§2), and the H(r_s) term VALUES (§3) stand as
+> measurements; only their INTERPRETATION as a hard structural deficit is retracted. See the CORRECTION note appended
+> at the end for the full record.
 
 **Date:** 2026-07-06 (EOD-3) · **Author:** Claude Opus 4.8 (1M) · script `n5d_stage2_collapse_audit.py`.
 **Diagnostic only** (empirical scaling + bounded FIXED-L relaxations + H(r_s) decomposition; NO free-L solve, NO
@@ -94,3 +113,47 @@ kinetic/potential is ~0 at the seal) and the **S-JC2 seal fork** (a2'(r_s)≈0 a
 π₂ axisymmetric S² tile only — this collapse-mechanism finding **cannot bank Outcome A/B** for the π₃ hopfion (open
 premise for Charles). Scoped to static · S-Dir · block-diagonal · Branch-P · ℓ=2-only · π₂ · λ=−½ · Z=8/ξ=κ=1/N=1.
 Status: DESIGN / PROVISIONAL / Outcome D. No pin, no continuum, no physics verdict.
+
+---
+
+## CORRECTION / RETRACTION (2026-07-06 EOD-3, later same day) — the "structural factor-2 deficit" was a soft-mode over-read
+
+Script `n5d_stage2_collapse_reconcile.py`. Two fixed-L probes (bounded, CPU, single process):
+
+**(1) TRADEOFF — keeping Hseal in the objective reaches Hseal=0 at finite L:** at fixed L, the DROP-Hseal solve
+(field eqs + BCs exact, Hseal not minimized) gives Hseal≈−0.9 — but the KEEP-Hseal solve (Hseal in the objective,
+overdetermined by 1) reaches **Hseal=0.0000 with the field equations still satisfied** (Phi~1e-9), leaving only a
+small ρ-mirror residual ~3e-5/L:
+
+| L | drop-Hseal: Hseal | keep-Hseal: minPhi | Hseal | rho_mir |
+|---|---|---|---|---|
+| 0.6 | −0.937 | 1.9e-9 | 0.0000 | 4.3e-5 |
+| 0.4 | −0.924 | 9.6e-9 | 0.0000 | 9.7e-5 |
+| 0.2 | −0.877 | 2.1e-7 | 0.0000 | 4.6e-4 |
+| 0.1 | −0.788 | 3.1e-6 | 0.0000 | 1.8e-3 |
+
+**(2) SOFT-MODE — Hseal slides ~freely along a genuine near-null direction:** the fixed-L (drop-Hseal) Jacobian has
+a **well-separated near-null mode** (s_min=6.7e-14 vs s_2nd=6.2e-9). Moving along it: **dHseal/ds = +1.5e-2** while
+**d‖F_field‖/ds = +4e-10** — Hseal sweeps through 0 at ~2.6e7× the rate the field residual changes. Config A
+(drop, Hseal=−0.92) and Config B (keep, Hseal=0) are **97% connected along this soft mode**. So **−0.96 was merely
+where the drop-Hseal solve lands on a flat valley — NOT a hard floor.**
+
+**What is RETRACTED:** §5 classification "(e) π₂ matter factor-2 too weak" and §6 "no static S-Dir finite-L cell
+plausible" and the §7 headline that higher-ℓ/S-JC2 are ruled out *because of a hard deficit*. The "+1.000000 vs −2"
+decomposition (§3) is a correct measurement of ONE valley point, but it is NOT a hard obstruction — Hseal is not
+pinned there.
+
+**What STANDS (measurements):** §1 small-L scaling; §2 fixed-L machine-precision solvability of the field system;
+§3 term VALUES at the drop-Hseal point.
+
+**Corrected mechanism (PROVISIONAL, pending a FRESH blind pass framed around the soft mode — the earlier blind
+verifier inherited the author's drop-Hseal blind spot and so could not catch this):** the collapse is a
+**FREE-BOUNDARY / SOFT-MODE DEGENERACY (classification d)** with severe ill-conditioning (s_min~1e-14) — the seal
+closure is nearly degenerate with the field solution manifold, so L is not cleanly determined and the free-L LM
+slides down a degenerate drain (Hseal→~0 AND L→0 both nearly cost-free; this matches the pilot's Hseal floor ≈−6e-3,
+i.e. NEAR 0, not near −0.96). Per the pre-registered taxonomy this leans **NUMERICAL-PATH / degeneracy (item 8)**,
+NOT a hard structural matter deficit (item 9). **Whether an EXACT finite-L closed cell exists is REOPENED:** the
+joint {Hseal=0 ∧ ρ'(r_s)=0} residual is ~3e-5/L (smallest at LARGE L) — possibly a large-cell limit rather than a
+hard no. **Owed before re-banking any mechanism: a fresh blind pass explicitly tasked to (a) confirm/deny the soft
+mode + free Hseal-slide, (b) settle whether the soft mode is a physical zero-mode/gauge vs a discretization artifact,
+(c) determine whether an exact finite-L (or large-L) closed cell exists.** π₂ tile only; DESIGN/PROVISIONAL/Outcome D.
