@@ -32,8 +32,23 @@ static-arc detail is archived → `archive/LIVE_stage2_static_arc_2026-07-06.md`
 
 ## ============ CURRENT STATE (2026-07-07 — the full Stage-2 static arc is CLOSED (impl→pilot→collapse→gauge→L-selection→MS→Class-B→rung gate-checks, all committed/pushed/blind-verified); NEXT = a NO-BUILD per-rung RESONANCE TEST (Charles's Der 1-7) that GATES whether a Class-B embedded-rung build is worth it) ============
 
-**➤➤➤ NEW RESULT (2026-07-07 PM — BANKED, blind-verified): the native UDT equations FORBID a homogeneous redshifting
-universe → positional dilation FORCES a preferred CENTER.** Record: `udt_no_homogeneous_universe_results.md` (solve
+**➤➤➤ LATEST (2026-07-07 PM-2 — BANKED, blind-verified): relaxing matter φ-blindness does NOT rescue a homogeneous
+universe (STATIC), but OPENS the particle-emergence door.** Record: `udt_phi_blindness_relaxation_results.md`
+(verifiers a3f070ab, a6ebdbee, a6f399d1 PASS). Charles decided to relax φ-blindness (rejected the centered-universe
+fork on Copernican grounds; rejected time-dependent on SNe-static grounds). Findings: **(1) φ-blindness is a CHOSE
+lever (Branch-P), NOT forced** — the native action gives the direct matter source `α·ξ·e^{αφ}ρ²I_r` in the φ-equation;
+α=0=φ-blind default, α=−2=import, other α FREE (verdict C, α unfixed). **(2) At α<0 the monotonicity obstruction
+BREAKS, but NO static homogeneous redshifting universe exists at any α<0** (de Sitter needs I_r<0; AdS ~4000×
+inhomogeneous; Mink/Einstein-static φ=const). Sharper α-independent fact: **a STATIC universe can't be both homogeneous
+AND redshifting.** ⚠ my earlier "structurally dead" RETRACTED (overreach, Charles caught it) → accurate: **STATIC only;
+TIME-DEPENDENT/FRW = the one untested homogeneity door.** **(3) Relaxing φ-blindness OPENS: a matter-structure
+RESTORING channel (the particle-emergence door — I_r sources φ → supports I_r instead of draining; the wall that killed
+the resonance test) + a matter L-selector.** ⚠ LEAD not result — needs the coupled (f,φ,ρ) solve. **FORK (Charles):
+centered/static [SNe core + Copernican cost + predicts CMB-anomaly-like anisotropy] vs time-dependent/FRW homogeneity;
+particle door open EITHER WAY.** Owed: derive the specific α (p16 verdict C). Data-blind. Below: the prior α=0 negative.
+
+### ↓ PRIOR (2026-07-07 PM — BANKED, blind-verified): the native UDT equations forbid a homogeneous redshifting
+### universe at α=0 → positional dilation forces a preferred CENTER (the α<0 follow-up above extends this). Record: `udt_no_homogeneous_universe_results.md` (solve
 `acb3d217…`, blind verifier `a1714073…` PASS; NEGATIVES_REGISTRY STANDING). Mechanism: the native φ-equation
 `(ρ²φ′)′=(4/Z)e^{−2φ}ρ′²≥0` is SOURCE-FREE (matter φ-blind) ⇒ ρ²φ′ monotone ⇒ redshift & homogeneity mutually
 exclusive; only the redshift-free `R^{1,1}×S²` product is homogeneous. de Sitter FORBIDDEN (both branches);

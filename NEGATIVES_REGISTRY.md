@@ -29,6 +29,14 @@ homogeneity; (2) round/isotropic Branch-P (correct sector, not a frozen DOF); (3
 homogeneity is untested, outside this frame; (4) Z>0. Mechanism: `(ρ²φ′)′=(4/Z)e^{−2φ}ρ′²≥0`, source-free ⇒ ρ²φ′
 monotone ⇒ no homogeneous redshift. **Bearing:** refutes the homogeneous/no-preferred-frame reading of the x_max
 frame; the centered universe is what the equations support (fork = Charles's call).
+**UPDATE 2026-07-07 PM-2 — FORK-2 (relax φ-blindness) now CLOSED-NEGATIVE for STATIC (blind-verified a6f399d1):**
+relaxing φ-blindness (matter source `α·ξ·e^{αφ}ρ²I_r`, α<0) BREAKS the monotonicity lever, BUT no static homogeneous
+redshifting universe exists at any α<0 either — de Sitter needs I_r<0, AdS needs ~4000× inhomogeneous matter,
+Mink/Einstein-static have φ=const. Sharper α-independent obstruction: a STATIC universe can't be both homogeneous and
+redshifting. Record: `udt_phi_blindness_relaxation_results.md`. ⚠ the earlier "structurally dead" is RETRACTED —
+accurate scope: STATIC only; TIME-DEPENDENT/FRW is the one untested homogeneity door. φ-blindness itself is a CHOSE
+(Branch-P) not forced; relaxing it OPENS the particle-emergence door (matter-structure restoring channel) + a matter
+L-selector — independent of the cosmology fork.
 
 ## *** 2026-07-04 CHECKPOINT (NOT A NEGATIVE — logged per Charles's ruling; carries NO blocking authority) ***
 
