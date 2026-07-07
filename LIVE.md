@@ -32,6 +32,23 @@ static-arc detail is archived → `archive/LIVE_stage2_static_arc_2026-07-06.md`
 
 ## ============ CURRENT STATE (2026-07-07 — the full Stage-2 static arc is CLOSED (impl→pilot→collapse→gauge→L-selection→MS→Class-B→rung gate-checks, all committed/pushed/blind-verified); NEXT = a NO-BUILD per-rung RESONANCE TEST (Charles's Der 1-7) that GATES whether a Class-B embedded-rung build is worth it) ============
 
+**➤➤➤ STRATEGIC REFRAME (2026-07-07 PM — pondered with Charles, PROVISIONAL/pondered-frame, NOT banked): UDT's
+founding postulate may be an INVARIANT MAXIMUM DISTANCE `x_max`.** Every observer, everywhere, measures the same
+distance to the edge — the positional mirror of SR's invariant `c` (no preferred position-frame). The dilation
+SATURATES approaching it (time stops, mass→∞ — one saturation, two faces); it is ASYMPTOTIC (reconciles the finite-cell
+canon: finite in distance, unbounded in depth `φ`; `1+z=e^φ` already has the relativistic form). **LOAD-BEARING CLAIM
+(unproven): "invariant `x_max` FORCES the UDT metric, the way invariant `c` forces Minkowski."** Ties the loose pieces
+together: light-bending=GR becomes a CONSEQUENCE of shared symmetry (not a fit); the CMB `1101`/x_c becomes a PREDICTION
+target (not an input); the coupling/discreteness wall (where matter emergence keeps stalling — incl. the resonance test
+just below) may be ONE fact (rungs = integer depths on the road to `x_max`; a hopfion's DERIVED background = its depth).
+**NEXT (GATED — awaiting Charles's go): the simple UDT-Lorentz-variant derivation** (linear+isotropic position-frame
+map + demand invariance of `x_max` → the "dilation boost" + saturation; Charles: "one of the simplest we've done").
+Full frame + premise ledger + tripwires: **`udt_max_distance_invariance_FRAME.md`**. The one seam to watch: a pure
+LENGTH can't come from `c,G` alone (`G` carries a mass) → `x_max` must be DIMENSIONLESS (max dilation) or lean on the
+critical universe's own mass-energy; the pure-`c,G` scale is max force `c⁴/G`. TRIPWIRE: FIND the invariance in the
+metric, don't IMPOSE it; data-blind on 1101.
+
+### ↓ The resonance test that closed the coupling-wall arc (this frame re-approaches it from the BACKGROUND side): ↓
 **➤➤ RESONANCE TEST COMPLETE (2026-07-07): NO rung is a TRUE candidate → BUILD GATE NOT MET → DO NOT build. The
 matter-structure wall SURVIVES the discrete ladder.** Record: `classB_rung_resonance_classification_results.md`
 (blind-verified, agent `a599367…` PASS). Charles adjudicated the m_amb fork → geometric angular seal target
