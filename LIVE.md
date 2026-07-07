@@ -72,7 +72,17 @@ CONVERGE — recommend (a) **reframe to SCALE-FREE RATIOS** (absolute L is cosmi
 matches the data-blind "predict RATIOS" posture — lower-risk, purity-clean) OR (b) the **embedded + ω≠0
 (rotating/time-live) sector** (where the depth-stiffness wall lifts and the charged Class-B seal is natural). A
 prerequisite for any charged/embedded work = the Class-A→Class-B seal-BC change (Dirichlet φ(r_s)=0), which is
-implementation (Charles-gated). Open convention flag: M=−q vs M=+q sign + p_F factor-of-2 (matter once charge is live). **NO Outcome A/B, NO pin/continuum, NO π₃; π₂
+implementation (Charles-gated). Open convention flag: M=−q vs M=+q sign + p_F factor-of-2 (matter once charge is live).
+**MS/EMBEDDED-BOUNDARY SELECTOR AUDIT DONE (`n5d_stage2_MS_boundary_selector_audit_results.md`):** the embedded/MS
+package (B1 `[h_AB]=0`, B3 `π_cell=π_amb`, B4 `H_cell=H_amb`=size-selector, B5 `m=−q−q²/r`) is a CLOSED native
+data-blind framework for a mass–size RELATION + ratios but does NOT select absolute L (B4 needs the ambient/universe
+MS mass; only pin = z_CMB via φ_seal=7.004 = DATA-forbidden). SIGN: **`M=−q` DERIVED** (metric identity `m=−q−q²/r`,
+code-consistent `M_readout=−q_raw`, gives POSITIVE mass with φ'(r_s)<0); `M=+q`=reporting deviation; genuinely-open
+tension = φ-depth-sign (φ<0 deep) ↔ positive-mass-far-field (φ>0) reconciliation (Charles's canon call); p_F factor
+separate+unpinned. Data-blind deliverables = RATIOS (compactness `2M/R=1`, shape profiles; with Class B, mass ratios
+`M_i/M_j=q_i/q_j`); Class-A NOW gives q=M=0 (shape ratios only). Class-B impl = bounded seal-BC swap (φ'(r_s)=0→
+φ(r_s)=0), safe as a DIAGNOSTIC (flag isolated-charge consistency + DOF recount), gated. **Honest static-tile
+deliverable = RATIOS, not absolute mass/size.** **NO Outcome A/B, NO pin/continuum, NO π₃; π₂
 tile ONLY; DESIGN/PROVISIONAL/Outcome D.** (Session chain, all committed+pushed+blind-verified: Stage-2b impl
 `6a0ac15` → preflight READY → S-Dir pilot=L-COLLAPSE `652b484` → mechanism mis-diagnosed `f02f3f9` → RETRACTED
 `d729dd4` → soft-mode blind-CONFIRMED `5c6f6ac` → gauge audit = ρ/φ-gauge + L-flat, q_raw≡0 (here). LESSON, now TWICE:
