@@ -53,11 +53,26 @@ can't tell — and the seal flux + M_readout are structurally ZERO for these mir
 `a2969cef559b1ac72`, neutral gauge-vs-modulus framing, forbidden the audit scripts): gauge CONFIRMED, 2-pin fix
 CONFIRMED (cond~8e7 caveat), L-modulus PARTIAL (conclusion "no unique L / OPEN" confirmed; the q_raw evidence
 refuted).** Records: `n5d_stage2_gauge_audit_results.md` + `n5d_stage2_gauge_audit.py`. **The category-A work is DONE:
-the φ/ρ gauge ambiguity is removed; what remains is L-SELECTION — a genuine PHYSICS question (the category-A/physics
-boundary). NEXT = a CHARLES fork decision on what selects the cell size L** (none to be run unprompted): the
-embedded/critical-universe coupling (matter at ONE critical amount — the finite-cell canon's natural L-selector),
-non-static/time-live, S-JC2 seal, higher-ℓ, off-diagonal — AND note the q_raw≡0/chargeless-mirror-cell structural
-point (a non-mirror seal or a different charge readout may be needed). **NO Outcome A/B, NO pin/continuum, NO π₃; π₂
+the φ/ρ gauge ambiguity is removed; what remains is L-SELECTION.**
+
+**L-SELECTION AUDIT DONE (2026-07-06, `n5d_stage2_Lselection_audit_results.md`; native-geometry synthesis of
+blind-verified repo results + 2 self-correcting forward-eval tests):** after gauge quotient exactly ONE unselected
+scalar remains = L, and the **isolated static Class-A tile PROVABLY cannot select it** (free-L runs away incl.
+negative L; the flat direction is NOT a simple geometric rescaling — tested; q≡0 gives no distinguisher). ⇒
+**L-selection is inherently EXTERNAL/embedding.** The native, derived, independent L-selector is the **embedded
+Hamiltonian match `H_cell(r_s)=H_amb(r_s)` (+ `π_cell=π_amb`)** (`embedded_cell_closure_H_amb_results.md`). Key
+structural results: (i) **q≠0 and L-selection are unlocked by the SAME move** — Class-A mirror (φ'(r_s)=0, q≡0) →
+Class-B (Dirichlet φ(r_s)=0, φ' free, q≠0) + exterior match; the current tile is the legitimate ISOLATED Class-A
+completion (NOT a superseded BC — checked CANON.md directly; class choice = Charles's call). (ii) embedding SUBSUMES
+the 2 gauge pins (Class-B Dirichlet removes φ-offset; ambient-match removes ρ-scale). (iii) **the static embedded
+route is TOOL-LIMITED (depth-stiffness wall, `NEGATIVES_REGISTRY.md:20-32`, CONDITIONS-CHANGED under ω≠0)** and the
+ABSOLUTE scale is unpinned without a cosmic anchor (universe MS / z_CMB=data-forbidden). (iv) static seal ⇒ NO
+time-live needed (sector split). **NEXT = a CHARLES fork decision** (none unprompted): the audit shows the forks
+CONVERGE — recommend (a) **reframe to SCALE-FREE RATIOS** (absolute L is cosmic; take the tile's shape/ratios,
+matches the data-blind "predict RATIOS" posture — lower-risk, purity-clean) OR (b) the **embedded + ω≠0
+(rotating/time-live) sector** (where the depth-stiffness wall lifts and the charged Class-B seal is natural). A
+prerequisite for any charged/embedded work = the Class-A→Class-B seal-BC change (Dirichlet φ(r_s)=0), which is
+implementation (Charles-gated). Open convention flag: M=−q vs M=+q sign + p_F factor-of-2 (matter once charge is live). **NO Outcome A/B, NO pin/continuum, NO π₃; π₂
 tile ONLY; DESIGN/PROVISIONAL/Outcome D.** (Session chain, all committed+pushed+blind-verified: Stage-2b impl
 `6a0ac15` → preflight READY → S-Dir pilot=L-COLLAPSE `652b484` → mechanism mis-diagnosed `f02f3f9` → RETRACTED
 `d729dd4` → soft-mode blind-CONFIRMED `5c6f6ac` → gauge audit = ρ/φ-gauge + L-flat, q_raw≡0 (here). LESSON, now TWICE:
