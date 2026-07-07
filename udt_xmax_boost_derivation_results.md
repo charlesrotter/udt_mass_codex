@@ -5,6 +5,14 @@
 "invariance forces the whole metric" claim is SUPPORTED-given-the-canon-skeleton, not fully closed.** Frame:
 `udt_max_distance_invariance_FRAME.md`. Generator/CAS: `derive_xmax_boost.py`. No SM import, no `ℏ`; mass never appears.
 
+> **⚠ FRAME NOTE (2026-07-07 PM-3, added after the SNe review).** This derivation is honestly a **re-coordinatization
+> of `1+z = e^φ`** — the "x_max as a maximum *distance*" reading is a tautology (see §6b: the boost law is an algebraic
+> identity of `1+z=e^φ`; `x` is a squashed lapse-readout, not a metric distance). The operative reading (canonical SNe
+> work, `udt_canonical_geometry.md` §1.4) is that UDT's redshift is a **FRAME-RELATION** `1+z=e^{φ(r)}`, observer-centered
+> (no preferred frame, no finite invariant distance). So the LASTING content of this doc is the frame-relation form +
+> the asymptotic edge (`φ→∞`); the "invariant maximum distance" postulate is DEMOTED (see the FRAME-doc banner). Kept as
+> the record of the ponder, not as a standalone result.
+
 ## What was attempted
 The native analog of the von-Ignatowsky derivation of the Lorentz transformation (which forces SR from: relativity
 principle + homogeneity + isotropy + group closure, producing an invariant SPEED `c`). Here: **positional relativity

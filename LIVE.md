@@ -32,7 +32,25 @@ static-arc detail is archived → `archive/LIVE_stage2_static_arc_2026-07-06.md`
 
 ## ============ CURRENT STATE (2026-07-07 — the full Stage-2 static arc is CLOSED (impl→pilot→collapse→gauge→L-selection→MS→Class-B→rung gate-checks, all committed/pushed/blind-verified); NEXT = a NO-BUILD per-rung RESONANCE TEST (Charles's Der 1-7) that GATES whether a Class-B embedded-rung build is worth it) ============
 
-**➤➤➤ LATEST (2026-07-07 PM-2 — BANKED, blind-verified): relaxing matter φ-blindness does NOT rescue a homogeneous
+**➤➤➤ LATEST (2026-07-07 PM-3 — REFRAME + wind-down): the whole "no-preferred-frame / homogeneous universe" tangle was
+a CATEGORY ERROR (mine), corrected via the canonical SNe work.** UDT's redshift is a **FRAME-RELATION** (`1+z=e^{φ(r)}`,
+observer-centered, `udt_canonical_geometry.md` §1.4 + shell-theorem cancellation): every observer at their own `φ=0`,
+identical isotropic law, **no preferred frame, NO cosmic center, NO Copernican problem.** So no-preferred-frame SURVIVES
+(as the frame-relation); only the finite-invariant-*distance* `x_max` postulate is DROPPED. The banked "no homogeneous
+universe" results (`udt_no_homogeneous_universe_results.md`, `udt_phi_blindness_relaxation_results.md`) are the
+PHYSICAL-FIELD layer — a different question, NOT the operative cosmology; frame-notes added to all three docs +
+`udt_max_distance_invariance_FRAME.md` banner reframed + boost-deriv demoted (re-coordinatization of `1+z=e^φ`). **The
+canonical SNe fit is SIMPLE + WORKS:** `1+z=e^{φ(r)}`, `φ(r)`=derived cubic, `d_L=r(1+z)` (static reciprocity, no FLRW
+`(1+z)²`), Pantheon+ 1701 SNe = 0.166 mag RMS (1.08× ΛCDM), ZERO free cosmological params. **BAO/CMB old work is
+POORLY SCAFFOLDED (polynomial ansatz D-POLY-1 + the 1101 anchor) — do NOT lean on it.** LESSON: don't over-literalize
+the observational frame-relation as a physical field, and don't overmodel (I built ISW/recycling mechanisms + homogeneity
+field-solves on a category error; Charles corrected via the SNe work). **LIVE FORWARD THREAD (needs a fresh session —
+context ~60%): the PARTICLE-EMERGENCE door** — relaxing φ-blindness (α<0) gave matter a RESTORING channel (I_r sources
+φ → supports I_r vs draining) for the matter-structure wall that killed the resonance test; the coupled `(f,φ,ρ)` solve
+testing whether it closes a cell with `I_r>0` is the next push (owed alongside: derive the specific α; the standing
+`1101`/`7.004` native-derivation goal, data-blind). Below = the PM-2 φ-blindness detail.
+
+**➤➤ (PM-2 — BANKED, blind-verified): relaxing matter φ-blindness does NOT rescue a homogeneous
 universe (STATIC), but OPENS the particle-emergence door.** Record: `udt_phi_blindness_relaxation_results.md`
 (verifiers a3f070ab, a6ebdbee, a6f399d1 PASS). Charles decided to relax φ-blindness (rejected the centered-universe
 fork on Copernican grounds; rejected time-dependent on SNe-static grounds). Findings: **(1) φ-blindness is a CHOSE

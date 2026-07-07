@@ -4,6 +4,13 @@
 **Status: BANKED (blind-verified).** Data-blind (no 1101/7.004). Extends `udt_no_homogeneous_universe_results.md`
 (the α=0 negative). Charles's decision: relax φ-blindness; derive the coupling natively.
 
+> **⚠ FRAME NOTE (2026-07-07 PM-3).** §2 below (no static homogeneous universe even at α<0) is a **PHYSICAL-FIELD-layer**
+> statement; it does NOT refute UDT's operative redshift, which is a **FRAME-RELATION** (`1+z=e^{φ(r)}`, observer-centered,
+> no preferred frame, no cosmic center — `udt_canonical_geometry.md` §1.4). The "Copernican/centered" framing is retracted
+> at the frame level (category error). **§1 (φ-blindness is a CHOSE lever) and §3 (relaxing it OPENS the particle-emergence
+> door — the matter-structure restoring channel + matter L-selector) are the LIVE, forward-carrying results** and are
+> unaffected by the frame reconciliation.
+
 ## 1. φ-blindness is a CHOSE lever, not forced (derived; agent `a3f070ab…`)
 The native two-player action, varied w.r.t. φ, gives the DIRECT matter source in the dilation equation:
 ```

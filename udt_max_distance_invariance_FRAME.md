@@ -1,14 +1,23 @@
 # FRAME — the invariant maximum distance `x_max` (UDT's positional light-postulate)
 
-> **⚠ UPDATE 2026-07-07 (PM) — the HOMOGENEOUS / no-preferred-frame reading of this frame is REFUTED natively**
-> (`udt_no_homogeneous_universe_results.md`, blind-verified): the native φ-equation `(ρ²φ′)′=(4/Z)e^{−2φ}ρ′²≥0` is
-> source-free, so positional redshift is structurally INCOMPATIBLE with homogeneity — the universe is FORCED to have a
-> preferred CENTER (given φ-blind matter). de Sitter (the finite-`x_max` horizon) is forbidden. What SURVIVES: an
-> asymptotic edge (`φ→∞`) but only in the CENTERED solution, at INFINITE proper distance (a conformal edge, not a
-> finite invariant length). The boost derivation (`udt_xmax_boost_derivation_results.md`) is a re-coordinatization of
-> `1+z=e^φ` (its "x_max as a distance" is a tautology). NET: the invariant-finite-`x_max` / no-preferred-frame picture
-> is NOT realized natively; UDT's universe is centered (fork open — Charles). Read this frame as HISTORICAL/superseded
-> below except where the update above amends it.
+> **⚠ REFRAME 2026-07-07 (PM-3) — RESOLVED via the SNe frame-relation reading. Read THIS banner; the postulate below
+> is HISTORICAL.** The "invariant maximum *distance* `x_max`" postulate was the wrong literalization. The operative,
+> empirically-successful reading (the canonical SNe work, `udt_canonical_geometry.md` §1.4 + the shell-theorem note):
+> **UDT's redshift is a FRAME-RELATION — `1+z = e^{φ(r)}`, observer-centered, exactly like relativistic frame
+> dependence** (every observer at their own `φ=0`; the boundary-mass growth arrives isotropically and CANCELS = the
+> Newtonian shell theorem). So "no preferred frame" is realized **observationally** — every observer sees the identical
+> isotropic `1+z=e^{φ}` law, each at their own center — NOT as a finite invariant distance and NOT requiring a
+> homogeneous physical field. The **`x_max` boundary is the `φ→∞` asymptotic edge (infinite redshift), observer-relative**,
+> not a physical finite length. What is DEMOTED: the invariant-finite-distance postulate (the boost derivation
+> `udt_xmax_boost_derivation_results.md` is a re-coordinatization of `1+z=e^φ` — its "x_max as a distance" is a
+> tautology). What the "no homogeneous universe" results (`udt_no_homogeneous_universe_results.md`,
+> `udt_phi_blindness_relaxation_results.md`) actually settled is the PHYSICAL-FIELD layer (no homogeneous φ-FIELD sourced
+> on space, static) — a *different question* than the frame-relation, and it does **NOT** impose a Copernican center on
+> the operative cosmology. The earlier "universe FORCED to have a preferred center / Copernican problem" reading was a
+> category error (over-literalizing the frame-relation as a physical field) and is RETRACTED at the frame level.
+> **NET: no-preferred-frame SURVIVES as the frame-relation; only the finite-invariant-*distance* postulate is dropped.**
+> (Standing goal unchanged: derive the depth anchor natively — `1101`/`7.004` stay OUT.) Read the postulate below as the
+> original ponder that this banner corrects.
 
 **Date:** 2026-07-07 (PM) · **Origin:** Charles (pondered with Claude Opus 4.8, lay-language MAP session). **Status:
 PROVISIONAL / PONDERED-FRAME — a framing hypothesis, NOT a result. No derivation run, no compute, no solve.** This is a
