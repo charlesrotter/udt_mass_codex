@@ -62,12 +62,18 @@ invariance of `x_max`, read off the "dilation boost" and the saturation. Expecte
 1. **The invariance postulate itself** — NEW premise (Charles's frame). Tag: a POSTULATE, adopted like SR's light
    postulate; its justification is the resulting structure, not a prior derivation. Legitimate as a postulate; flag it
    AS one.
-2. **`x_max` numerical value vs `c,G` (the one dimensional seam):** the FORM comes free, but a pure LENGTH cannot be
-   built from `c` and `G` alone (`G` still carries a mass; same algebra that makes the Planck length need `ℏ`). So a
-   value-from-`c,G`-alone must either (a) be DIMENSIONLESS (max dilation / ceiling on `e^φ` — the content that actually
-   matters), or (b) lean on a scale UDT already owns (the critical universe's mass-energy = "no NEW input"). The one
-   pure-`c,G` scale with no mass is the **maximum force `c⁴/G`** — a force balance at the saturating edge is the natural
-   doorway if `x_max` is `c,G`-only. **OPEN: watch this seam hardest in any derivation that produces a number.**
+2. **The "dimensional seam" was SMUGGLED — it does NOT bind UDT (corrected 2026-07-07, Charles).** The objection "a
+   pure length can't come from `c,G` alone" has NO authority here, on two counts: (i) the Planck-length version needs
+   `ℏ` — a pure QUANTUM import UDT has never derived and declines to presume; strip `ℏ` and no Planck length. (ii) The
+   bare `c,G` version is classical dimensional analysis, but its blocking force rests on treating **mass as an
+   INDEPENDENT base dimension** — a Newtonian primitive that UDT is built to DISSOLVE (mass is geometric). Take
+   mass-is-geometric seriously (pure GR, category-A): `c` converts time↔length, `G/c²` converts mass↔length, so mass
+   and time collapse into length — three "dimensions" → ONE, and the obstruction evaporates (no independent mass left
+   to fail to cancel). `c` and `G` are CONVERTERS, not scales. ⇒ **`x_max` is natively a DIMENSIONLESS maximum dilation
+   (a ceiling on `e^φ`), producible from structure with NO third input; only its metres-VALUE needs a ruler — a unit
+   convention, not a physics input, and UDT delivers RATIOS anyway.** The seam and the mass-emergence goal are the SAME
+   COIN: geometrize mass ⟺ `c,G` are converters ⟺ scales are dimensionless structure. (Kept for the record: the one
+   pure-`c,G` scale that needs no mass is the maximum force `c⁴/G` — a possible doorway IF a metres-value is ever wanted.)
 3. **TRIPWIRE (imposition):** the clean move is to find the invariance ALREADY in the derived metric / falling out of
    the linear-isotropic-invariance derivation — NOT to install `x_max` and admire it. OBSERVE, don't impose. Do NOT
    sculpt the metric to have `x_max`, and do NOT data-target `1101` (data-blind; if the dimensionless ceiling comes out
