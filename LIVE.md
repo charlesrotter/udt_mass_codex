@@ -55,7 +55,15 @@ NON-DISCRIMINATING anyway (many curved laws fit ~0.16) — a demonstration, not 
 0.166-mag scorecard + D-POLY-1 SNe validation = CONDITIONS-CHANGED (re-grade under n=2).
 **➤➤ NEXT-SESSION PLAN:** matter-sourced native macro background on the CLEAN core under n=2 → does it reproduce the
 required rise-then-turnover `D_A^req(z)` (peaks z≈1.6)? GATED first step = Q1 ponder (what sources the macro φ;
-`macro_universe_native_MAP.md`). **Matter GUARDRAIL (Charles):** BRACKET the matter budget until it
+`macro_universe_native_MAP.md`).
+**BRANCH NOTE (Charles 2026-07-08, corrects earlier framing):** don't "pick Branch G." The G/P "branches" = ONE switch
+in the base action (how `𝒦` is weighted: compensated=G/shift-exact/SOURCELESS vs uncompensated=P/shift-broken/sourced).
+Matter reaches φ ONLY via the uncompensated (P-type) route, so a matter-sourced macro is P-TYPE — BUT P-type≠contaminated:
+the cell package (winding matter, finite core, mirror seal, AND frozen `h_AB=r²Ω`) is the contamination; P's
+"finite-domain only" is an ARTIFACT of the frozen `h_AB`. So the macro = uncompensated-`𝒦` (P-type) + `h_AB` UNFROZEN +
+clean matter = legitimately macro. Don't pre-select a branch; the symmetry-regime is an OUTPUT of the matter-coupled solve.
+The `𝒦`-switch criterion (what breaks the shift symmetry — for the macro, plausibly the matter itself) is OPEN. Detail:
+`external.md` §4 (corrected) + `luminosity_distance_n2_optics_results.md`. **Matter GUARDRAIL (Charles):** BRACKET the matter budget until it
 achieves CLOSURE (the critical-universe amount at which a valid cell closes; "matter at one critical amount"), NOT until it
 fits the SNe. Closure sets the amount = the PREDICTION; then check DOWNSTREAM against SNe + stellar surveys + the
 visible/dim-baryon split (UDT predicts ~90% non-visible dim baryons, no dark matter) — CONSEQUENCES to verify, NEVER a knob
@@ -82,7 +90,7 @@ equations for a MACRO question = the session's rabbit hole. (4) Charles's zoom-o
 **the two-player equation is the Branch-P finite-cell/microphysics specialization** (founding doc §6, commit f766478);
 **the macro universe has NEVER been solved natively** (F5 M-scan "a PLAN, never run"; macro φ always fit/reduced/circular).
 **PIVOT (Charles): model the macro universe WHOLE from the native ACTION `S=∫c√h[(Z_φ/2)φ'²+R^{(2)}[h]+𝒦+L_m]`** —
-dropping the cell package (X=Branch-P-only, Y=frozen h_AB=r²Ω [the finite-domain ARTIFACT], Z=winding-defect+cell-BCs).
+dropping the cell PACKAGE (Y=frozen h_AB=r²Ω [the finite-domain ARTIFACT], Z=winding-defect+finite-core+seal-BCs). [CORRECTED 2026-07-08: NOT "drop Branch-P" — matter-sourcing REQUIRES the P-type uncompensated-𝒦 route; P-type≠cell once h_AB unfrozen. See the BRANCH NOTE in the n=2 block above.]
 **MAP = `macro_universe_native_MAP.md` (both G/P branches OPEN per Charles).** ⚠ **NEXT STEP IS NOT A SOLVE — it is the
 PONDER of the CRUX Q1: what SOURCES the macro φ?** Native eqs say matter does NOT directly source φ (δS_m/δφ=0; indirect,
 Branch-P only); the macro source has always been an ASSUMED premise, never derived — the silent assumption under the whole

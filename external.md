@@ -120,31 +120,50 @@ S = ∫ c √h [ (Z_φ/2) φ'²  +  R^{(2)}[h]  +  𝒦_branch  +  L_m^UDT ],
 where `h` is the transverse 2-metric, `R^{(2)}[h]` its Ricci scalar, `𝒦_branch` an extrinsic-curvature term, `Z_φ` a
 normalization constant, and `L_m^UDT` the matter Lagrangian.
 
-**(c) Two regimes ("branches").** Varying the action gives two regimes depending on how `𝒦` is treated:
-- **Branch G** (continuum / asymptotic): the depth-shift `φ→φ+const` is an exact symmetry ⟹ `(r²φ')'=0` ⟹
-  `φ = φ_∞ − q/r` (a Coulomb-like, scale-free profile; `q` = a conserved "dilation charge").
-- **Branch P** (finite-cell / microphysics): the shift symmetry is *broken* by finite-domain pinning ⟹
-  `Z_φ (r²φ')' = 4 e^{−2φ}` — a self-sourcing equation with no asymptotic vacuum ("intrinsically finite-domain").
+**(c) The one internal switch (the "branches" are not two theories).** There is a single base action; the only fork
+in it is how the transverse/boundary term `𝒦` is treated. `𝒦` carries depth-shift weight −2, so it is either
+**compensated** by an `e^{2φ}` factor (preserving R1's shift symmetry) or left **uncompensated** (breaking it). That
+one switch *is* the whole G/P distinction:
+- **"Branch G"** (`𝒦` compensated, shift exact): φ **decouples** from the transverse geometry ⟹ `(r²φ')'=0` ⟹
+  `φ = φ_∞ − q/r` (Coulomb-like, scale-free — clean but **sourceless**).
+- **"Branch P"** (`𝒦` uncompensated, shift broken): φ **is sourced** by the transverse curvature ⟹
+  `Z_φ (r²φ')' = 4 e^{−2φ}`.
+**Reviewer flag:** the "Branch P has no asymptotic vacuum / is *intrinsically finite-domain*" claim is **scoped** — the
+source derivation's own verifier notes it assumes the transverse metric *frozen* to `h_AB = r²Ω`; for **general /
+co-varying** `h_AB` "the contradiction need not hold." So P's finite-domain confinement is an **artifact of the frozen
+transverse geometry**, not intrinsic. Which treatment actually applies (the "switch criterion") is **open/underived**.
 
-**(d) Provenance finding (the contamination, and what survives).** An audit established that the **Branch-P** equation,
-its junction/"seal" conditions, and the specific `L_m^UDT` (an `S²→S²` winding-defect / hedgehog field of degree N) were
-all constructed for the *particle* problem and are **not** appropriate macro tools. The **clean, foundational core** —
-safe to build the macro background on — is: the EH-empty pivot (a), the shift-invariant kinetic and **Branch-G**
-equation (c), and the metric form (§3). **What we did NOT inherit / what remains open (reviewer flags):**
-- `Z_φ` (the kinetic normalization) is an unfixed constant (a genuine free lever; we set `Z_φ=1` by convention, and it
-  is degenerate with an overall scale in what follows).
-- Treating the transverse `h_AB` as an *independent* dynamical field (the "two-player" ADM split) vs. slaving it is a
-  *choice*, not forced by R1–R3.
-- What sources the macro φ is **not** fixed by the equations (see §4e). These are the honest gaps; we flag them rather
-  than paper over them.
+**(d) Provenance finding — what is contaminated vs. what survives.** An audit established that the CELL-specific
+*package* — the winding-defect matter (`S²→S²` degree-N hedgehog), the junction/"seal" conditions, the finite-core and
+mirror-seal boundary conditions, **and the frozen-round transverse metric `h_AB=r²Ω`** — was built for the *particle*
+problem and is not appropriate for the macro. **What survives as the clean core:** the metric form (§3), the EH-empty
+pivot (a), and the shift-invariant kinetic + base action skeleton (b) — *including BOTH `𝒦`-treatments*; the `𝒦`-switch
+(G/P) is part of the clean base, not contamination.
+
+**Correction (this session, prompted by Charles — supersedes an earlier imprecise claim of ours):** it is *wrong* to say
+"the macro uses Branch G." Branch G is the **sourceless** case; matter reaches φ *only* via the *uncompensated*-`𝒦`
+(Branch-P) route (§4e). So a **matter-sourced** macro is necessarily on the **symmetry-broken (P-type)** side — but
+**P-type ≠ contaminated**: the symmetry-breaking is separable from the cell's winding/finite-core/seal package, and (per
+the flag in c) P's finite-domain confinement dissolves once `h_AB` is *un-frozen*. So the matter-sourced macro =
+uncompensated-`𝒦` (P-type) + **unfrozen `h_AB`** + clean matter — legitimately macro, not the cell.
+
+**Genuinely open / not inherited (reviewer flags):**
+- `Z_φ` (kinetic normalization) — an unfixed constant (we set `Z_φ=1` by convention; degenerate with an overall scale).
+- Whether `h_AB` is an *independent* dynamical field (the ADM/"two-player" split) vs. slaved — a *choice*, not forced.
+- The `𝒦`-**switch criterion**: *what* breaks the depth-shift symmetry. For the finite cell it was the finite angular
+  boundary; **for the macro it is plausibly the matter content itself** (matter sourcing requires the uncompensated
+  route) — but this is unproven. This is the crux open item.
 
 **(e) A structural fact we lean on heavily (please check):** in the native action, **matter does not source φ
 directly** — `δS_m/δφ = 0` to leading order — because R1 shift-invariance forces matter onto the *undilated* channels.
 Matter influences φ only *indirectly*, through the geometry (`matter → h_AB → 𝒦 → φ`). In Branch G the equation is
 literally sourceless. This is why "what sources the macro φ" is a real, unresolved question, not a triviality.
 
-**What we are using going forward:** the clean core — metric form (§3) + EH-empty pivot + shift-invariant kinetic +
-the full field equations for `φ(r)` **and** `D_A(r)` with the transverse geometry *unfrozen* (not set to `D_A=r`).
+**What we are using going forward:** the clean base action — metric form (§3) + EH-empty pivot + shift-invariant
+kinetic + the full field equations for `φ(r)` **and** `D_A(r)` with the transverse geometry *unfrozen* (not set to
+`D_A=r`) — solved *with clean matter*. The matter breaks the depth-shift symmetry (the uncompensated-`𝒦` / P-type
+route — the only way matter reaches φ), and with `h_AB` unfrozen this is a macro regime, not a finite cell. We do NOT
+pre-select a "branch"; the symmetry-regime is an *output* of the matter-coupled solve.
 
 ---
 
@@ -208,7 +227,9 @@ Next step (not yet done; it is gated on a framing decision about what sources th
 
 **(A) Matter-sourced background on the clean core, under n=2 optics.** Introduce matter with a *regular* finite core
 (density `ρ_c > 0` at the center, curing the vacuum's central singularity) and solve the coupled `(φ, D_A, ρ)` system.
-Question: does a matter-sourced native background reproduce the required rise-then-turnover `D_A^req(z)`?
+This is the uncompensated-`𝒦` / P-type regime (the only route matter sources φ) with `h_AB` **unfrozen** — a macro
+regime, not a finite cell (§4c–d). Question: does a matter-sourced native background reproduce the required
+rise-then-turnover `D_A^req(z)`?
 
 **(B) The closure discipline (this is the key methodological point).** The matter amount is **not** a free knob to be
 tuned until the SNe fit. Instead, **the matter budget is bracketed until the universe cell CLOSES** — i.e. until a
