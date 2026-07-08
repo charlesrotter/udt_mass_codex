@@ -22,6 +22,12 @@ time to redo it later; do NOT get pulled into it.** The goal is the derived back
 
 ## THREAD A — redo `x_max` PROPERLY (the derived background)
 
+> **METHOD NOTE — start MAP/OBSERVE-first (the DERIVE is gated).** Per CLAUDE.md "How we work", DERIVE is the last,
+> gated mode. Begin Thread A by MAPPING: state the frame-relation background whole + a PREMISE LEDGER (every value / BC /
+> operator, tagged derived / chosen / assumed), and PONDER it with Charles. This two-thread plan is Charles's standing
+> go for the *work*, but the specific gated DERIVE steps (esp. deriving the `φ(r)` FORM, §A.3.1) come AFTER the structure
+> is understood and the premises are clean — do NOT jump straight to a solve. Data-blind throughout.
+
 ### A.1 The error to NOT repeat (this session's category error)
 The earlier `x_max` work literalized *"an invariant maximum DISTANCE"* (a physical finite length) → this was a **tautology**
 (the boost derivation is just `1+z=e^φ` re-coordinatized; `archive/udt_xmax_boost_derivation_results.md`) and it spawned a
