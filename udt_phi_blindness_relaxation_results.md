@@ -63,8 +63,8 @@ homogeneous universe. Keep one:
   real CMB anomalies → testable, not just fine-tuning).
 - **Homogeneous → TIME-DEPENDENT** (FRW-like) — the only untested homogeneity route; but against the SNe-static success.
 
-**The particle-emergence door (§3) is open EITHER WAY** — the productive next work (does the α<0 restoring channel close
-a cell?) does not wait on the cosmology decision.
+**The particle-emergence door (§3) is open EITHER WAY** — the productive next work (does the `α≠0` restoring channel close
+a cell? — characterize across α, the cell-restoring sign is OPEN) does not wait on the cosmology decision.
 
 ## Premises / provenance
 Static; round/isotropic Branch-P; I_r≥0 (theorem); Z>0 (Z∈{1,8}, Z-independent); α<0 tested (−2 import, −1/−0.5 free;

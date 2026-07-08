@@ -102,13 +102,18 @@ Z(ρ²φ′)′ = 4e^{−2φ}ρ′²  +  α·ξ·e^{αφ}·ρ²·I_r        (I_r
   `α=−2` may be the honest covariant coupling, not an import — `p16_phi_sourcing_decision_note.md`). Other `α` = FREE;
   no native principle fixes it yet (p16 verdict **C**).
 - **TASK:** DERIVE a native principle that fixes `α` in the broken-shift Branch-P regime (an open derivation, not
-  forbidden), OR characterize the physics **across `α<0`** (all α<0 open the restoring channel). Never pick `α` because
+  forbidden), OR characterize the physics **across `α` (both signs)** — the back-reaction channel is open for `α≠0`, and which sign (if any) supports the cell's `I_r` is the open question. Never pick `α` because
   it gives the desired answer (imposition trap).
-- Sign fact (derived): only **α<0** makes the matter source oppose the geometric one (the restoring / non-monotone regime).
+- Sign fact (derived): only **α<0** makes the matter source *oppose* the geometric term — but note this was established
+  for the **ρ²φ′-monotonicity / homogeneity** question (§2 of the source doc) and the L-selector, NOT proven to be the
+  sign that supports the *cell's* `I_r`. The verified cell finding is only "the back-reaction channel is open for **α≠0**."
 
 ### B.3 The test — does the restoring channel defeat the drain?
-The coupled **`(f, φ, ρ)` solve**: with the direct source ON (α<0), does a cell CLOSE with `I_r>0` **supported** (not
-drained to 0)? This is the matter-structure wall's escape and the core particle-emergence test.
+The coupled **`(f, φ, ρ)` solve**: with the direct source ON, does a cell CLOSE with `I_r>0` **supported** (not drained
+to 0)? **CHARACTERIZE ACROSS `α` (both signs) — the channel is open for `α≠0`, and which sign (if any) supports the
+cell's `I_r` is exactly what this solve determines; do NOT pre-fix `α<0` for the cell (that was the homogeneity/
+L-selector result, a different question).** This is the matter-structure wall's escape and the core particle-emergence
+test. Pairs with the owed `α`-derivation (§B.2).
 - **ANTI-HANG (binding):** bound the grid (Nr≤16/24), cap iters, ONE clean process, NEVER background-poll a solve.
 - Observe-not-target: the particle is the goal but let it EMERGE; don't sculpt a lump. Data-blind. Verifier-before-record.
 

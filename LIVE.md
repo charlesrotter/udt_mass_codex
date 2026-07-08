@@ -46,8 +46,8 @@ canonical SNe fit is SIMPLE + WORKS:** `1+z=e^{φ(r)}`, `φ(r)`=derived cubic, `
 POORLY SCAFFOLDED (polynomial ansatz D-POLY-1 + the 1101 anchor) — do NOT lean on it.** LESSON: don't over-literalize
 the observational frame-relation as a physical field, and don't overmodel (I built ISW/recycling mechanisms + homogeneity
 field-solves on a category error; Charles corrected via the SNe work). **LIVE FORWARD THREAD (needs a fresh session —
-context ~60%): the PARTICLE-EMERGENCE door** — relaxing φ-blindness (α<0) gave matter a RESTORING channel (I_r sources
-φ → supports I_r vs draining) for the matter-structure wall that killed the resonance test; the coupled `(f,φ,ρ)` solve
+context ~60%): the PARTICLE-EMERGENCE door** — relaxing φ-blindness (α≠0) gave matter a RESTORING channel (I_r sources
+φ → supports I_r vs draining; which sign supports the cell is OPEN) for the matter-structure wall that killed the resonance test; the coupled `(f,φ,ρ)` solve
 testing whether it closes a cell with `I_r>0` is the core test.
 **➤➤ NEXT-SESSION PLAN (Charles) — spec = `derived_background_and_phi_coupling_DESIGN.md`. SEQUENCE: THREAD A FIRST
 (flesh out the universe BACKGROUND), THEN pivot to THREAD B (MASS + PARTICLE EMERGENCE). Cosmology VALIDATION (SNe/BAO/CMB)
@@ -57,10 +57,11 @@ is OUT OF SCOPE — self-evident later; do not get pulled into it.**
   φ(r) FORM (= the D-POLY-1 gap), the φ→∞ asymptotic edge, the depth anchor natively (1101/7.004 OUT). Use the CURRENT
   native two-player operators, NOT the legacy Einstein+KG/μ² machinery. GRAB from old work: frame-relation §1.4,
   `d_L=r(1+z)`, Misner–Sharp marginal; do NOT grab polynomial-as-derived / 1101 anchor / BAO-CMB scaffolding.
-- **THREAD B (then pivot) = the native direct source `α·ξ·e^{αφ}ρ²I_r`** → the matter-structure RESTORING channel +
-  matter L-selector; derive/characterize `α` (verdict C; α<0 opens it; re-adjudicate the α=−2 import-tag); the coupled
-  `(f,φ,ρ)` solve = does a cell close with `I_r>0` SUPPORTED. A furnishes the background B embeds a matter-coupled cell
-  into = the particle-emergence setup we never had. Below the fences = CLOSED-ARC history (archived x_max detour, rung-resonance, Stage-2) — mine for history, NOT the plan.
+- **THREAD B (then pivot) = the native direct source `α·ξ·e^{αφ}ρ²I_r`** → the matter-structure RESTORING channel
+  (open for **`α≠0`**) + matter L-selector; derive/characterize `α` (verdict C; re-adjudicate the α=−2 import-tag); the
+  coupled `(f,φ,ρ)` solve = does a cell close with `I_r>0` SUPPORTED — **characterize ACROSS `α` (both signs); which sign
+  supports the cell is OPEN (α<0 was the homogeneity/L-selector result, a DIFFERENT question — don't pre-fix it).** A
+  furnishes the background B embeds a matter-coupled cell into = the particle-emergence setup we never had. Below the fences = CLOSED-ARC history (archived x_max detour, rung-resonance, Stage-2) — mine for history, NOT the plan.
 
 ### ↓↓↓ THIS SESSION'S DETOUR — ARCHIVED (2026-07-07 PM-3). Most of the session chased an INCORRECT vision (the
 ### `x_max` "invariant maximum distance" postulate + a homogeneity/Copernican field-solve) that was a CATEGORY ERROR —
@@ -69,8 +70,8 @@ is OUT OF SCOPE — self-evident later; do not get pulled into it.**
 ### **`archive/LIVE_xmax_homogeneity_detour_2026-07-07.md`** (incl. the archived x_max FRAME + boost docs). DURABLE
 ### residue kept live (two lines):
 ### - **φ-MATTER COUPLING (Thread-B foundation, blind-verified — `udt_phi_blindness_relaxation_results.md`):** φ-blindness
-###   (α=0) is a CHOSE lever NOT forced; native direct source `α·ξ·e^{αφ}ρ²I_r`; relaxing it (α<0) opens the
-###   matter-structure RESTORING channel (the particle door) + a matter L-selector. Owed: derive α (p16 verdict C).
+###   (α=0) is a CHOSE lever NOT forced; native direct source `α·ξ·e^{αφ}ρ²I_r`; relaxing it (α≠0) opens the
+###   matter-structure RESTORING channel (the particle door; cell-restoring sign OPEN) + a matter L-selector. Owed: derive α (p16 verdict C).
 ### - **RUNG-RESONANCE TEST CLOSED (blind-verified — `classB_rung_resonance_classification_results.md`):** no rung is a
 ###   TRUE candidate → do-not-build; the matter-structure wall SURVIVES the discrete ladder = WHY particle emergence
 ###   needs the φ-coupling unlock (Thread B). ↑↑↑
