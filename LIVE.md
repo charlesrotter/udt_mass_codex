@@ -47,8 +47,16 @@ the observational frame-relation as a physical field, and don't overmodel (I bui
 field-solves on a category error; Charles corrected via the SNe work). **LIVE FORWARD THREAD (needs a fresh session —
 context ~60%): the PARTICLE-EMERGENCE door** — relaxing φ-blindness (α<0) gave matter a RESTORING channel (I_r sources
 φ → supports I_r vs draining) for the matter-structure wall that killed the resonance test; the coupled `(f,φ,ρ)` solve
-testing whether it closes a cell with `I_r>0` is the next push (owed alongside: derive the specific α; the standing
-`1101`/`7.004` native-derivation goal, data-blind). Below = the PM-2 φ-blindness detail.
+testing whether it closes a cell with `I_r>0` is the core test.
+**➤➤ NEXT-SESSION PLAN (Charles, wind-down): do BOTH threads together — spec = `derived_background_and_phi_coupling_DESIGN.md`.
+THREAD A = redo `x_max` PROPERLY from the OBSERVER FRAME-RELATION (`1+z=e^{φ(r)}`, §1.4 canonical geometry; NOT the
+"invariant distance" error) → a DERIVED data-blind BACKGROUND for the particle sector (derive the φ(r) FORM = the
+D-POLY-1 gap; the φ→∞ asymptotic edge; the depth anchor natively, 1101/7.004 OUT). THREAD B = the native direct source
+`α·ξ·e^{αφ}ρ²I_r` → the restoring channel + matter L-selector; derive/characterize `α` (verdict C; α<0 opens it; re-adjudicate
+α=−2 import-tag); the coupled `(f,φ,ρ)` solve = does a cell close with `I_r>0` SUPPORTED. A furnishes the background B
+embeds a matter-coupled cell into = the particle-emergence setup we never had. GRAB from old work: frame-relation §1.4,
+`d_L=r(1+z)`, Misner–Sharp marginal; do NOT grab the polynomial-as-derived / 1101 anchor / BAO-CMB scaffolding (poorly
+scaffolded). Below = the PM-2 φ-blindness detail.**
 
 **➤➤ (PM-2 — BANKED, blind-verified): relaxing matter φ-blindness does NOT rescue a homogeneous
 universe (STATIC), but OPENS the particle-emergence door.** Record: `udt_phi_blindness_relaxation_results.md`

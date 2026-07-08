@@ -2,10 +2,46 @@
 
 > **READ `LIVE.md` FIRST** — it is the short, only-guaranteed-current file (frontier + next action).
 > This HANDOFF is the detailed record; if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
-> **CURRENT (2026-07-07): after LIVE.md (its RESUME-HERE = the NO-BUILD per-rung RESONANCE TEST), read the
-> `## SESSION RECORD 2026-07-06→07 (EOD-3 + rung derivations)` block immediately below. The full N5d Stage-2 static
-> arc is CLOSED; the next session runs a NO-BUILD per-rung classification (Charles's Der 1-7,
-> `classB_rung_resonance_prebuild_test_DESIGN.md`) that GATES whether a Class-B embedded-rung build is worth it.**
+> **CURRENT (2026-07-07 PM-3): after LIVE.md (its NEXT-SESSION PLAN = the two threads in
+> `derived_background_and_phi_coupling_DESIGN.md`), read `## SESSION RECORD 2026-07-07 (PM — rung-resonance→x_max→φ-coupling)`
+> immediately below. NEXT SESSION = do BOTH threads together: (A) redo `x_max` PROPERLY from the observer FRAME-RELATION
+> → a derived data-blind BACKGROUND; (B) the native direct φ-matter source → the particle-emergence restoring channel.
+> The rung-resonance test CLOSED (do-not-build); the x_max cosmology detour was largely a wash (my category error, corrected
+> via the SNe work); the durable step is unfreezing φ-matter coupling.**
+
+## SESSION RECORD 2026-07-07 (PM, Opus 1M — rung-resonance CLOSED → x_max ponder (largely a wash) → φ-matter coupling UNFROZEN (the durable step))
+
+Charles directed; every node committed & pushed on `main`. pytest 67/1xfail. Data-blind throughout (no 1101/7.004).
+Multiple blind-verifier passes; NEXT-SESSION SPEC = `derived_background_and_phi_coupling_DESIGN.md`.
+
+**THE ARC:**
+1. **OWED-FIRST + RUNG-RESONANCE TEST — DONE, blind-verified.** Charles adjudicated m_amb→geometric seal target
+   `T_ang,seal=2`. Identities blind-confirmed (`classB_rung_resonance_owed_first_adjudication.md`); classification
+   (`classB_rung_resonance_classification_results.md`): **NO rung is a TRUE candidate → BUILD GATE NOT MET → do not build;
+   the matter-structure wall SURVIVES the discrete ladder** (angular screen A_N single-signed all rungs; ρ_s pinned near 1).
+2. **x_max INVARIANCE PONDER (lay-language MAP with Charles) → largely a WASH.** Pondered "UDT's founding postulate = an
+   invariant maximum DISTANCE x_max (positional mirror of SR's c)". Derived a "dilation boost" (CAS-verified) — but it is a
+   **re-coordinatization of `1+z=e^φ`** (the "max distance" is a tautology). Then a homogeneity investigation:
+   `udt_no_homogeneous_universe_results.md` (α=0) + `udt_phi_blindness_relaxation_results.md` (α<0) — **no static homogeneous
+   redshifting universe**. ⚠ **I OVER-LITERALIZED the redshift as a physical FIELD and manufactured a homogeneity/Copernican
+   "problem" that does not exist** (also overmodeled ISW/recycling mechanisms). **Charles corrected me via the canonical SNe
+   work** (`udt_canonical_geometry.md` §1.4): UDT's redshift is an OBSERVER-CENTERED **FRAME-RELATION** (`1+z=e^{φ(r)}`, shell-
+   theorem cancellation) → no preferred frame, NO center, NO Copernican problem. **Reframed** all x_max docs to this reading
+   (FRAME-doc banner + frame-notes on the two negatives + boost demoted). NET from x_max: ~zero new physics; the clarification
+   (correct frame = frame-relation, already in the old SNe work) is the takeaway. **LESSON: don't over-literalize the
+   observational frame-relation as a physical field; don't overmodel.**
+3. **φ-MATTER COUPLING UNFROZEN — the durable step (blind-verified, `udt_phi_blindness_relaxation_results.md`).** Charles
+   decided to relax φ-blindness. Derived: matter's direct source in the φ-eq is `α·ξ·e^{αφ}ρ²I_r`; **φ-blindness (α=0) is a
+   CHOSE lever, NOT forced** (its shift-symmetry license is broken in Branch P where matter lives). Relaxing it OPENS a
+   **matter-structure RESTORING channel** (`I_r` sources φ → supports `I_r` vs draining — the wall that killed the resonance
+   test) + a **matter L-selector**. `α` unfixed (verdict C; α=−2 import-tag to re-adjudicate; α<0 opens the channel). **LEAD,
+   not result** — needs the coupled `(f,φ,ρ)` solve.
+4. **WIND-DOWN (Charles): NEXT SESSION does BOTH threads together** — redo x_max PROPERLY (frame-relation) for the derived
+   BACKGROUND + the direct source for particle emergence. Spec = `derived_background_and_phi_coupling_DESIGN.md`. BAO/CMB old
+   work is poorly scaffolded (polynomial ansatz D-POLY-1 + 1101 anchor) — do not lean on it. Standing goal: derive 1101/7.004
+   natively, data-blind.
+
+---
 
 ## SESSION RECORD 2026-07-06→07 (EOD-3, Opus 1M — N5d Stage-2 static arc CLOSED: impl→pilot→collapse→gauge→L-selection→MS→Class-B→rung gate-checks + Charles's rung-resonance derivations)
 
