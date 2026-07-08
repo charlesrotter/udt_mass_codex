@@ -49,6 +49,15 @@ Branch-G exterior, time-on. The field-equation form (`native_field_equations_con
 **DERIVED-but-NOT-yet-canon** (its line 6) — a carried caveat. "No finite edge" is scoped to vacuum Branch-P round
 static; matter and other sectors are the open forward question, not foreclosed here.
 
+**⚠ SCOPE NOTE (added 2026-07-08, provenance trace a9865905): Branch P is the CELL / MICROPHYSICS regime, NOT the
+macro regime — so this result does NOT bear on whether the MACRO universe has a redshift edge.** The founding doc
+(`native_field_equations_constrained_two_player_results.md` §6, commit f766478) explicitly maps Branch P to "finite
+cell / microphysics" and proves it "intrinsically FINITE-DOMAIN" with no asymptotic vacuum; the macro/continuum regime
+is a DIFFERENT native equation (Branch G, `(r²φ')'=0`). The two-player scalar equation is thus a PARTICLE-CELL tool;
+the "no φ→∞ edge in its vacuum" was close to baked-in (Branch P is finite-domain by construction) and says nothing
+about the macro. The macro universe has NEVER been solved directly from the native field equations — see
+`macro_universe_native_MAP.md`. This result stands as a correct CELL-regime statement (cosine ≠ Branch-P native), no more.
+
 ## Verifier record (verifier-before-record)
 Blind adversarial verifier, fresh zero-context, 2026-07-08 (agent af138cbaad30111c5). Independently re-derived C1–C4
 with its own sympy + independent integration (`verify_cosine_reconciliation.py`); adversarially hunted for an edge

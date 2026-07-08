@@ -4,8 +4,13 @@
 everything under the "↓↓↓ HISTORICAL ARC" / "SUPERSEDED" fences is labeled-stale detail (mine for history, not the
 plan). `HANDOFF.md` / `STATE.md` are detailed history; **if they disagree with this file's CURRENT STATE block, the
 CURRENT STATE block wins.**
-**Read order (2026-07-07 PM-3):** LIVE.md FRONTIER (this block — the NEXT-SESSION PLAN is in the CURRENT STATE block
-below) → **`derived_background_and_phi_coupling_DESIGN.md`** (the seamless-pickup spec: THREAD A = redo `x_max`
+**Read order (2026-07-08 PIVOT):** LIVE.md FRONTIER (this block + the CURRENT STATE block below) → **`macro_universe_native_MAP.md`**
+(THE LIVE FRAME: model the universe WHOLE from the native action; both G/P branches open; CRUX = Q1 what sources the macro φ;
+NEXT = ponder Q1 with Charles, not a solve) → `cosine_native_reconciliation_results.md` (verified: cosine = cell reduction,
+Branch-P vacuum has no edge) → CLAUDE.md "How we work" + "DRIVER TRIGGERS" + `.claude/skills/` → HANDOFF.md TOP → INDEX.md.
+Prior-plan specs (mine for the Thread-B cell forward-thread, NOT the macro frame): `derived_background_and_phi_coupling_DESIGN.md`,
+`matter_filled_background_closure_DESIGN.md`. — OLD read order (2026-07-07 PM-3, SUPERSEDED): LIVE.md FRONTIER
+→ **`derived_background_and_phi_coupling_DESIGN.md`** (the seamless-pickup spec: THREAD A = redo `x_max`
 PROPERLY from the observer FRAME-RELATION → the derived data-blind BACKGROUND, do FIRST; THREAD B = the native
 φ-matter source → MASS / PARTICLE EMERGENCE; cosmology validation is OUT OF SCOPE) → `udt_phi_blindness_relaxation_results.md`
 (Thread B: the source `α·ξ·e^{αφ}ρ²I_r` + the restoring channel, blind-verified) → `udt_canonical_geometry.md`
@@ -31,7 +36,32 @@ only for history.
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-07 PM-3 — rung-resonance test CLOSED (do-not-build; matter-structure wall survives the discrete ladder); the x_max cosmology ponder was a WASH (my category error, corrected via the SNe frame-relation reading); DURABLE STEP = φ-matter coupling UNFROZEN → the particle-emergence door. NEXT SESSION (spec: `derived_background_and_phi_coupling_DESIGN.md`): Thread A = redo x_max PROPERLY for the derived BACKGROUND (do FIRST), then Thread B = pivot to MASS + PARTICLE EMERGENCE. Cosmology validation OUT OF SCOPE.) ============
+## ============ CURRENT STATE (2026-07-08 — PIVOT: the two-player scalar equation is the Branch-P / CELL / MICROPHYSICS specialization, NOT a macro tool; the MACRO universe has NEVER been solved directly from the native field equations (always data-fit cubic / ladder cosine / circular c²=2GM/R). Charles's zoom-out: model the universe WHOLE from the native action. MAP written (`macro_universe_native_MAP.md`, both branches OPEN); next step = PONDER the CRUX Q1 (what SOURCES the macro φ) with Charles, NOT a solve.) ============
+
+**➤➤➤ LATEST (2026-07-08 — PIVOT to native-macro; Thread-A "derive the background" reframed).** This session ran the
+2026-07-07 PM-3 plan (Thread A = derive the background) and, in doing so, discovered the plan's tool was wrong: (1) the
+"round-cell cosine" macro background is a leading-order, cycle-averaged, ρ-frozen, MATTER-SOURCED reduction — NOT a
+solution of the native two-player equation in any gauge; the native VACUUM two-player has no φ→∞ edge (blind-verified,
+932 ICs, `cosine_native_reconciliation_results.md`, commit 0742063). (2) Matter is REQUIRED for scale AND edge (vacuum =
+scale-free/featureless; dimensional: x_max-as-a-length can't come from c,G alone). (3) A Stage-1 matter scan
+(`stage1_edge_scan.py`) found NO v→0 edge for any (α, matter-amount, shape, Z) — but it used the CELL (Branch-P)
+equations for a MACRO question = the session's rabbit hole. (4) Charles's zoom-out + provenance trace (a9865905):
+**the two-player equation is the Branch-P finite-cell/microphysics specialization** (founding doc §6, commit f766478);
+**the macro universe has NEVER been solved natively** (F5 M-scan "a PLAN, never run"; macro φ always fit/reduced/circular).
+**PIVOT (Charles): model the macro universe WHOLE from the native ACTION `S=∫c√h[(Z_φ/2)φ'²+R^{(2)}[h]+𝒦+L_m]`** —
+dropping the cell package (X=Branch-P-only, Y=frozen h_AB=r²Ω [the finite-domain ARTIFACT], Z=winding-defect+cell-BCs).
+**MAP = `macro_universe_native_MAP.md` (both G/P branches OPEN per Charles).** ⚠ **NEXT STEP IS NOT A SOLVE — it is the
+PONDER of the CRUX Q1: what SOURCES the macro φ?** Native eqs say matter does NOT directly source φ (δS_m/δφ=0; indirect,
+Branch-P only); the macro source has always been an ASSUMED premise, never derived — the silent assumption under the whole
+project. WATCH-ITEM (Charles): does a proper native macro solve reproduce the cosine `e^{−φ/2}=A cos(kr)` NATURALLY
+(→ vindicated as the real macro object) or something else (→ cosine stays a cell-artifact)? Data-blind; depth is a
+DERIVED goal (1101 OUT); don't use circular c²=2GM/R.
+
+### ↓↓↓ SUPERSEDED-as-frontier (2026-07-07 PM-3 — the "derive the background (Thread A) then pivot to particle emergence
+### (Thread B)" plan). The Thread-A start ran THIS session and pivoted to native-macro (above); Thread B (the α·ξ·e^{αφ}ρ²I_r
+### restoring channel) remains a LIVE forward thread FOR THE CELL/particle sector, to resume AFTER the macro background is
+### derived. `derived_background_and_phi_coupling_DESIGN.md` + `matter_filled_background_closure_DESIGN.md` are the specs;
+### the latter's Stage-1 (no v→0 edge in Branch-P) is a CELL-regime result, not a macro verdict. ↓↓↓
 
 **➤➤➤ LATEST (2026-07-07 PM-3 — REFRAME + wind-down): the whole "no-preferred-frame / homogeneous universe" tangle was
 a CATEGORY ERROR (mine), corrected via the canonical SNe work.** UDT's redshift is a **FRAME-RELATION** (`1+z=e^{φ(r)}`,
