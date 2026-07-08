@@ -1931,6 +1931,16 @@ With this derivation, UDT has **zero free cosmological parameters within the N=2
 
 **Luminosity distance (static metric reciprocity):**
 
+> **⚠ ERROR — CORRECTED 2026-07-08 (blind-verified, `luminosity_distance_n2_optics_results.md`).** The formula below
+> is WRONG: it uses $e^{\phi}=\sqrt{g_{rr}}$ where the metric forces $g_{rr}=e^{2\phi}$ — one dropped factor of $(1+z)$
+> (the photon arrival-rate / time-dilation factor, which is the SAME relation as the frequency redshift and cannot be
+> dropped). The correct optics, DERIVED natively from the UDT metric (static-observer redshift + null-geodesic Maxwell
+> photons §11.0 + photon conservation → Etherington), are **$d_L = r\,e^{2\phi} = D_A(1+z)^2$ (n=2)** — the SAME law
+> UDT's own CMB (Tolman $(1+z)^4$, §1.6.2/§11.7) and dipole/number-count (`:4527`) sectors already use. The
+> ~0.166-mag Pantheon+ "success" (scorecard $\S$ above) rode this n=1 error and is re-graded as an artifact; under n=2
+> the cubic background gives ~0.47 mag. This does NOT falsify UDT (the vacuum was never the right object — the macro
+> needs a matter source); see the results doc. Retained below verbatim as the record of the corrected claim.
+
 $$d_L = r \times e^{\phi(r)}$$
 
 Note: $e^{\phi(r)} = 1+z$ by definition, so $d_L = r(1+z)$. There is no second $(1+z)$ factor as in FLRW (which has $d_L = D_A(1+z)^2$). The UDT static metric uses the reciprocity relation $d_L = D_A \times (1+z)$ with $D_A = r$.

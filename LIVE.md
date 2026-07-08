@@ -36,7 +36,34 @@ only for history.
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-08 — PIVOT: the two-player scalar equation is the Branch-P / CELL / MICROPHYSICS specialization, NOT a macro tool; the MACRO universe has NEVER been solved directly from the native field equations (always data-fit cubic / ladder cosine / circular c²=2GM/R). Charles's zoom-out: model the universe WHOLE from the native action. MAP written (`macro_universe_native_MAP.md`, both branches OPEN); next step = PONDER the CRUX Q1 (what SOURCES the macro φ) with Charles, NOT a solve.) ============
+## ============ CURRENT STATE (2026-07-08 EOD — n=2 OPTICS CORRECTION + macro-needs-a-source. The SNe luminosity distance is DERIVED n=2 (`d_L=(1+z)²D_A`, blind-verified ×2; UDT's own CMB/dipole already use it); the corpus §12.8 n=1 form was a √g_rr error that PROPPED UP the celebrated 0.166-mag Pantheon+ fit → RE-GRADED as an artifact. Under n=2 the existing backgrounds fail, but the native VACUUM fails under n=1 too → the defect is the SOURCELESS VACUUM, not n=2 → the macro φ needs a MATTER SOURCE (= MAP Q1). NOT a falsification. NEXT: matter-sourced native background under n=2 on the CLEAN core; gated first step = the Q1 ponder with Charles. Charles low on allowance ~26h — documenting/preparing.) ============
+
+**➤➤➤ LATEST (2026-07-08 EOD — n=2 optics; the SNe headline was an error; macro needs a matter source). Full record:
+`luminosity_distance_n2_optics_results.md` (VERIFIED).** Session arc: fleshing out the macro sector → found the two-player
+eqn was CELL-contaminated (Branch-P) → separated the CLEAN foundational core (provenance audit; no smuggled GR, no
+mass-emergence, but underdetermined by free levers Z_φ/ADM-split) → Charles: the metric IS derived from the two
+postulates (dilation-with-distance + observer-equivalence, both inherent in the metric) → derived a redshift profile
+from the postulates + freed transverse geometry (promising ~0.16-mag SNe) → **BUT blind-verify found it rode the n=1
+optics ERROR** (Charles's "root/power problem upstream" — `√g_rr` vs `g_rr`, a dropped arrival-rate factor). **n=2 is
+FORCED** (Etherington; UDT's null-geodesic Maxwell photons + conservation, §11.0; and UDT's own CMB Tolman-(1+z)⁴ ALREADY
+uses n=2 — the SNe line was self-inconsistent). Under n=2 the cubic→0.47, homogeneous→0.37; and the native VACUUM fails
+~2 mag under BOTH n=1 and n=2 → **defect = sourceless vacuum** (redshift needs charge q≠0 → central singularity → observer
+off-center → wrong low-z Hubble). Trichotomy (Charles): "linear real"=DEAD; "root error upstream"=CONFIRMED (+ it flattered
+the theory); "falsified"=NOT reached (matter-sourced background under n=2 = untested door = frontier). SNe are
+NON-DISCRIMINATING anyway (many curved laws fit ~0.16) — a demonstration, not a yardstick. §12.8 error banner added;
+0.166-mag scorecard + D-POLY-1 SNe validation = CONDITIONS-CHANGED (re-grade under n=2).
+**➤➤ NEXT-SESSION PLAN:** matter-sourced native macro background on the CLEAN core under n=2 → does it reproduce the
+required rise-then-turnover `D_A^req(z)` (peaks z≈1.6)? GATED first step = Q1 ponder (what sources the macro φ;
+`macro_universe_native_MAP.md`). **Matter GUARDRAIL (Charles):** BRACKET the matter budget until it
+achieves CLOSURE (the critical-universe amount at which a valid cell closes; "matter at one critical amount"), NOT until it
+fits the SNe. Closure sets the amount = the PREDICTION; then check DOWNSTREAM against SNe + stellar surveys + the
+visible/dim-baryon split (UDT predicts ~90% non-visible dim baryons, no dark matter) — CONSEQUENCES to verify, NEVER a knob
+tuned to rescue the SNe fit.
+
+### ↓↓↓ SUPERSEDED-as-frontier (2026-07-08 midday — the "PIVOT to native-macro / MAP Q1" block; still the live PROGRAM, but
+### the n=2 optics result above is the latest state). The two-player = cell-specialized; macro never solved natively; MAP =
+### `macro_universe_native_MAP.md` (both G/P branches open); CRUX Q1 = what sources the macro φ. All still current — the n=2
+### block above SHARPENS it (the source question is now confirmed as THE crux, under n=2 optics). ↓↓↓
 
 **➤➤➤ LATEST (2026-07-08 — PIVOT to native-macro; Thread-A "derive the background" reframed).** This session ran the
 2026-07-07 PM-3 plan (Thread A = derive the background) and, in doing so, discovered the plan's tool was wrong: (1) the
