@@ -45,8 +45,9 @@ mass-emergence, but underdetermined by free levers Z_φ/ADM-split) → Charles: 
 postulates (dilation-with-distance + observer-equivalence, both inherent in the metric) → derived a redshift profile
 from the postulates + freed transverse geometry (promising ~0.16-mag SNe) → **BUT blind-verify found it rode the n=1
 optics ERROR** (Charles's "root/power problem upstream" — `√g_rr` vs `g_rr`, a dropped arrival-rate factor). **n=2 is
-FORCED** (Etherington; UDT's null-geodesic Maxwell photons + conservation, §11.0; and UDT's own CMB Tolman-(1+z)⁴ ALREADY
-uses n=2 — the SNe line was self-inconsistent). Under n=2 the cubic→0.47, homogeneous→0.37; and the native VACUUM fails
+FORCED by the DIRECT native derivation ALONE** (Etherington; UDT's null-geodesic Maxwell photons + conservation, §11.0).
+[Weak corroboration only, NOT load-bearing (Charles): the CMB/BAO sectors also use n=2 but ride shaky ansatz ground — do
+not lean on the "intra-theory contradiction".] Under n=2 the cubic→0.47, homogeneous→0.37; and the native VACUUM fails
 ~2 mag under BOTH n=1 and n=2 → **defect = sourceless vacuum** (redshift needs charge q≠0 → central singularity → observer
 off-center → wrong low-z Hubble). Trichotomy (Charles): "linear real"=DEAD; "root error upstream"=CONFIRMED (+ it flattered
 the theory); "falsified"=NOT reached (matter-sourced background under n=2 = untested door = frontier). SNe are
@@ -59,6 +60,11 @@ achieves CLOSURE (the critical-universe amount at which a valid cell closes; "ma
 fits the SNe. Closure sets the amount = the PREDICTION; then check DOWNSTREAM against SNe + stellar surveys + the
 visible/dim-baryon split (UDT predicts ~90% non-visible dim baryons, no dark matter) — CONSEQUENCES to verify, NEVER a knob
 tuned to rescue the SNe fit.
+**LEAD (Charles, intuitive — "vacuum as the limit"):** the vacuum came out `√`-shaped (`D_A∝√(1+z)`); hypothesis = the
+vacuum is a LIMIT (like c in SR, where all is a `√`-function of proximity via `γ`), and the matter-CLOSING solution is a
+function of it. Best reading: vacuum = the EDGE limit near x_max, matter REGULARIZES the center (cures the exact vacuum
+failure), interior matched onto the vacuum limit AT CLOSURE. Slots into the closure guardrail. OWED CHECK: does the vacuum
+`√` connect onto the data-required high-z shape? (verify, don't assume). Detail in `luminosity_distance_n2_optics_results.md` §Forward.
 
 ### ↓↓↓ SUPERSEDED-as-frontier (2026-07-08 midday — the "PIVOT to native-macro / MAP Q1" block; still the live PROGRAM, but
 ### the n=2 optics result above is the latest state). The two-player = cell-specialized; macro never solved natively; MAP =

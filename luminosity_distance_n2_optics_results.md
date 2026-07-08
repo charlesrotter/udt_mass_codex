@@ -25,12 +25,15 @@ For `ds² = -e^{-2φ}c²dt² + e^{2φ}dr² + D_A²dΩ²` with static-observer re
   `udt_canonical_geometry.md:1499-1512`; propagation at `dr/dt=c·e^{-2φ}`, `:683`) and photon-number conservation
   (minimal `f=const` selected, no `f(φ)F²` term). **No UDT-derived escape to n=1 exists.**
 
-## Finding 2 — the n=1 SNe form is an error, self-inconsistent with UDT's own sectors
+## Finding 2 — the n=1 SNe form is an error (the n=2 conclusion rests on Finding 1, NOT on the CMB/BAO sectors)
+- **⚠ Weight note (Charles 2026-07-08): n=2 is established by the DIRECT native derivation (Finding 1) ALONE.** The
+  CMB/BAO cross-check below is WEAK corroboration only — those sectors ride the shaky polynomial-ansatz / anchor scaffolding
+  (D-POLY-1, poorly scaffolded) and are NOT load-bearing. Do NOT lean on the "intra-theory contradiction" as significant;
+  the pillar is Etherington-from-the-metric.
 - n=1: `d_L=r·e^{φ}` only at `udt_canonical_geometry.md:1934` (§12.8) + the SNe scorecard `:1914`.
-- n=2 ("canonical Etherington `d_L=r·e^{2φ}`") is used by the dipole/number-count sector (`:4527`) AND **UDT's own CMB
-  blackbody derivation** (Tolman `T∝e^{-φ}` + `(1+z)⁴` surface-brightness, `:1665`, §1.6.2). UDT's CMB result *requires*
-  n=2. So the SNe line contradicts the theory's other predictions; the resolution (Principle 1) is to correct the error,
-  not to import a mechanism protecting SNe.
+- n=2 ("canonical Etherington `d_L=r·e^{2φ}`") is ALSO used by the dipole/number-count (`:4527`) and CMB (Tolman `(1+z)⁴`,
+  `:1665`) sectors — a consistency note, but on shaky ansatz ground, so weak. The n=1 SNe line is an error regardless,
+  by Finding 1.
 
 ## Finding 3 — re-grade of the SNe fit under correct optics (non-discriminating anyway)
 | background | n=1 (error) | n=2 (correct) |
@@ -83,3 +86,14 @@ matter amount is set by the theory's own closure condition (the critical-univers
 the PREDICTION. Only THEN check it downstream against SNe, stellar surveys, and the visible/dim-baryon split (UDT predicts
 ~90% non-visible dim baryons, no dark matter) — as CONSEQUENCES to verify, **never as a knob tuned to rescue the SNe fit.**
 SNe stay a demonstration, not a yardstick. First step is gated: the Q1 ponder (what sources the macro φ) with Charles.
+
+**LEAD — "vacuum as the limit" (Charles 2026-07-08, intuitive):** the vacuum solution came out with a `√` shape
+(E=0 branch `D_A ∝ √(1+z)`). Hypothesis: the vacuum is a LIMIT (like c in SR), and the correct matter-CLOSING solution is
+a FUNCTION of that limit — structurally the SR move where everything is a `√`-function of proximity to the limit (Lorentz
+`γ=1/√(1−v²/c²)`); here x_max is the distance-limit. Candidate concrete readings to test: (a) vacuum = the EDGE/exterior
+limit near x_max, matter REGULARIZES the center (cures the vacuum's exact failure — a regular redshifting center the vacuum
+can't have), interior matter MATCHED onto the vacuum limit at closure (star interior↔Schwarzschild exterior style); (b) a
+literal γ-analog, observables as a `√`-function of `(1−r/x_max)`; (c) perturbative, full = vacuum × (1+matter correction).
+Reading (a) is the most promising (it cures the specific vacuum failure and slots into the closure guardrail — closure IS
+where interior meets the vacuum limit). OWED CHECK before leaning on it: does the vacuum `√`-shape actually connect onto the
+data-required high-z shape? (do NOT assume — verify).
