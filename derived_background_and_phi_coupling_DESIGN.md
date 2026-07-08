@@ -37,17 +37,26 @@ operative reading). DO NOT restart there.
 
 ### A.2 The CORRECT frame to start from — the observer FRAME-RELATION
 UDT's redshift is a **FRAME-RELATION**, exactly like relativistic frame dependence (canonical SNe work,
-`udt_canonical_geometry.md` §1.4 + the shell-theorem note at §1, line 148):
-- `1 + z = e^{φ(r)}`, `d_L = r·e^{φ(r)} = r(1+z)` (static reciprocity, ONE `(1+z)`, not FLRW's `(1+z)²`), `D_A = r`.
+`udt_canonical_geometry.md` §1.4 "Observational Frame Principle" + the "Cosmological Mass Symmetry" / shell-theorem note
+just below it — search that heading, don't trust a line number):
+- **`1 + z = e^{φ}`** — the operative, gauge-independent statement (φ = dilation depth). This is what Thread A carries.
 - Every observer sits at their **own** `φ=0` (locally Minkowski); the boundary-mass growth arrives isotropically and
   **cancels** (Newtonian shell theorem) → **no preferred frame, NO cosmic center, NO Copernican problem.**
 - The "boundary" is the `φ→∞` **asymptotic edge** (infinite redshift), observer-relative — NOT a finite invariant length.
+- ⚠ **`r`-vs-`ρ` PARAMETRIZATION (read before grabbing distance relations).** The legacy frame-relation is written in
+  the **single-field AREAL GAUGE** — coordinate = areal radius = `r`, so `D_A=r`, `d_L=r(1+z)` (one `(1+z)`, not FLRW's
+  `(1+z)²`), `udt_canonical_geometry.md` §1.4/§12.8. But the CURRENT **native two-player** keeps `ρ` as a SEPARATE areal
+  field, so there `D_A=ρ`, `d_L=ρ(1+z)`. For the round background these coincide *iff you gauge-fix `ρ=r`* (always
+  possible in spherical symmetry). So: work in areal gauge `ρ=r` (natural for the round background) OR translate every
+  legacy `r`→`ρ`. The redshift `1+z=e^{φ}` is gauge-independent either way. NB the distance relations are mostly a
+  DEFERRED-validation tool (cosmology out of scope, §0); Thread A's core deliverable is the `φ` field + the edge.
 (This reading is the empirically-grounded one; the cosmology-fit details are deferred — see the scope note in §0.)
 
 ### A.3 What to DERIVE (data-blind, no 1101/7.004)
 1. **The native `φ(r)` profile FORM — the D-POLY-1 gap.** The old work derived the cubic's COEFFICIENTS
    `(3/2, cos(π/5), 2/3)` from the angular Diophantine triple `(j,ℓ,|κ|)=(1/2,1,3)` + `μ_g=πμ/13`, but the cubic
-   **FORM itself is an ansatz, not derived** (D-POLY-1, `udt_canonical_geometry.md` §12.7). DERIVE the form from the
+   **FORM itself is an ansatz, not derived** (D-POLY-1, `udt_canonical_geometry.md` §12.7 discussion; canonical entry
+   §22.5 item 12). DERIVE the form from the
    metric's constraint structure (Branch-C imposes no scalar equation on φ; is there a native selector?).
 2. **The asymptotic-edge structure** at `φ→∞` (observer-relative; the earlier quartic-lapse/infinite-proper-distance
    characterization was profile-specific to the cell cosine and is SUBSUMED — redo it on the operative profile).
@@ -58,9 +67,10 @@ UDT's redshift is a **FRAME-RELATION**, exactly like relativistic frame dependen
    native `x_max=2GM/c²` marginal edge, `udt_canonical_geometry.md` §10.4).
 
 ### A.4 Grab / don't-grab from the old corpus
-- **GRAB (helps the frame, no anchor smuggled):** the frame-relation reading (§1.4); `d_L=r(1+z)` reciprocity; the
-  Misner–Sharp marginal relation; the angular-sector derivations (`μ`, the Diophantine triple, the pentagonal algebra)
-  that are genuinely native.
+- **GRAB (helps the frame, no anchor smuggled):** the frame-relation reading (§1.4); the `d_L=D_A(1+z)` reciprocity and
+  the Misner–Sharp marginal relation **— but in the native `ρ`-parametrization, not the legacy `r` (see the `r`-vs-`ρ`
+  note in §A.2)**; the angular-sector derivations (`μ`, the Diophantine triple, the pentagonal algebra) that are
+  genuinely native.
 - **DO NOT GRAB:** the polynomial ansatz treated as-if-derived (D-POLY-1 open); the **1101/7.004 anchor**; the **BAO/CMB
   scaffolding** (poorly scaffolded — rides the polynomial ansatz + the 1101 anchor; Charles's flag).
 - **CMB origin is DEFERRED** (Charles: set it aside for now).
@@ -78,6 +88,7 @@ The native two-player action, varied w.r.t. φ, gives the DIRECT matter source i
 ```
 Z(ρ²φ′)′ = 4e^{−2φ}ρ′²  +  α·ξ·e^{αφ}·ρ²·I_r        (I_r = ½∫sinθ f_r²dθ ≥ 0 ; ξ=1)
 ```
+(÷Z gives the equivalent form `(ρ²φ′)′ = (4/Z)e^{−2φ}ρ′² + …` used in `udt_no_homogeneous_universe_results.md` — same equation.)
 - **φ-blindness ≡ α=0** and is a **CHOSE lever, NOT forced** — its only justification is the depth-shift symmetry, which is
   **BROKEN in Branch P** (where the particle cell lives; `gp_switch_criterion_results.md`). So relaxing it is legitimate-native.
 - **The RESTORING channel:** with α≠0, `I_r` sources φ → feeds `e^{2φ}` in the ρ-source → can **SUPPORT `I_r` instead of
