@@ -54,7 +54,13 @@ non-decreasing and cannot be flattened by any matter content. Consequences (all 
 3. **STATIC** — genuine FRW homogeneity is TIME-DEPENDENT and lives OUTSIDE this static frame (untested door).
 4. `Z>0` (Z∈{1,8} tested; result Z-independent).
 
-## THE FORK (foundational — Charles's call)
+## THE FORK — ⚠ SUPERSEDED (2026-07-07 PM-3, see the FRAME NOTE at top)
+> **This cosmology fork is MOOT.** It rests on the physical-field reading of this doc; once UDT's redshift is read as
+> the operative **FRAME-RELATION** (`1+z=e^{φ(r)}`, observer-centered — `udt_canonical_geometry.md` §1.4), there is no
+> preferred frame, no cosmic center, and no Copernican problem → no centered-vs-homogeneous fork to make. Kept only as
+> the record of the (now-dissolved) fork. The live forward thread is the φ-coupling / particle-emergence door
+> (`udt_phi_blindness_relaxation_results.md` §3).
+
 1. **Accept a CENTERED universe** — the equations support it; no-preferred-frame holds LOCALLY (SR boosts) not
    cosmically; PREDICTS a cosmic center → large-scale anisotropy (preferred axis / hemispherical asymmetry — ties to
    the CMB-anomaly question). Least premise-violence; keeps positional-redshift core. **[Driver's recommendation.]**
