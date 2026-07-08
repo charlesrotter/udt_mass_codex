@@ -37,6 +37,12 @@ redshifting. Record: `udt_phi_blindness_relaxation_results.md`. ⚠ the earlier 
 accurate scope: STATIC only; TIME-DEPENDENT/FRW is the one untested homogeneity door. φ-blindness itself is a CHOSE
 (Branch-P) not forced; relaxing it OPENS the particle-emergence door (matter-structure restoring channel) + a matter
 L-selector — independent of the cosmology fork.
+**⚠ FRAME NOTE 2026-07-07 PM-3 (read before treating this as a blocker):** this negative is the **PHYSICAL-FIELD layer**
+(no homogeneous φ-FIELD sourced on space). It does NOT refute the OPERATIVE cosmology — UDT's redshift is a
+**FRAME-RELATION** (`1+z=e^{φ(r)}`, observer-centered; `udt_canonical_geometry.md` §1.4), so **no preferred frame, no
+cosmic center, no Copernican problem.** The "Bearing"/"centered universe"/"fork" language above is RETRACTED at the
+frame level (category error). Entry stays STANDING as a scoped physical-field statement; it is NOT a blocker on Thread A
+(the frame-relation background) or Thread B (particle emergence).
 
 ## *** 2026-07-04 CHECKPOINT (NOT A NEGATIVE — logged per Charles's ruling; carries NO blocking authority) ***
 
