@@ -41,7 +41,7 @@ Multiple blind-verifier passes; NEXT-SESSION SPEC = `derived_background_and_phi_
 4. **WIND-DOWN (Charles): NEXT SESSION, IN SEQUENCE** — Thread A FIRST (redo x_max PROPERLY, frame-relation → the derived
    BACKGROUND), THEN pivot to Thread B (the direct source → mass + particle emergence). Cosmology validation OUT OF SCOPE
    (self-evident later). Spec = `derived_background_and_phi_coupling_DESIGN.md`. BAO/CMB old
-   work is poorly scaffolded (polynomial ansatz D-POLY-1 + 1101 anchor) — do not lean on it. Standing goal: derive 1101/7.004
+   work is poorly scaffolded (unforced polynomial ansatz + 1101 anchor) — do not lean on it. Standing goal: derive 1101/7.004
    natively, data-blind.
 
 ---

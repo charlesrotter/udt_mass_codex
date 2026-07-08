@@ -9,7 +9,7 @@ below) → **`derived_background_and_phi_coupling_DESIGN.md`** (the seamless-pic
 PROPERLY from the observer FRAME-RELATION → the derived data-blind BACKGROUND, do FIRST; THREAD B = the native
 φ-matter source → MASS / PARTICLE EMERGENCE; cosmology validation is OUT OF SCOPE) → `udt_phi_blindness_relaxation_results.md`
 (Thread B: the source `α·ξ·e^{αφ}ρ²I_r` + the restoring channel, blind-verified) → `udt_canonical_geometry.md`
-§1.4 (frame-relation) / §10.4 (Misner–Sharp) / §12.7 (the polynomial + D-POLY-1 gap) for Thread A → CLAUDE.md "How we
+§1.4 (frame-relation) / §10.4 (Misner–Sharp) / §12.7 (the legacy polynomial + its unforced-form note) for Thread A → CLAUDE.md "How we
 work" + "DRIVER TRIGGERS" + the `.claude/skills/` discipline skills → HANDOFF.md §SESSION RECORD 2026-07-07 (PM) →
 INDEX.md (repo map). Prior arcs (rung-resonance, Stage-2 static) are CLOSED/superseded — under the fences below, mine
 only for history.
@@ -43,7 +43,7 @@ PHYSICAL-FIELD layer — a different question, NOT the operative cosmology; fram
 `archive/udt_max_distance_invariance_FRAME.md` banner reframed + boost-deriv demoted (re-coordinatization of `1+z=e^φ`). **The
 canonical SNe fit is SIMPLE + WORKS:** `1+z=e^{φ(r)}`, `φ(r)`=derived cubic, `d_L=r(1+z)` (static reciprocity, no FLRW
 `(1+z)²`), Pantheon+ 1701 SNe = 0.166 mag RMS (1.08× ΛCDM), ZERO free cosmological params. **BAO/CMB old work is
-POORLY SCAFFOLDED (polynomial ansatz D-POLY-1 + the 1101 anchor) — do NOT lean on it.** LESSON: don't over-literalize
+POORLY SCAFFOLDED (unforced polynomial ansatz + the 1101 anchor) — do NOT lean on it.** LESSON: don't over-literalize
 the observational frame-relation as a physical field, and don't overmodel (I built ISW/recycling mechanisms + homogeneity
 field-solves on a category error; Charles corrected via the SNe work). **LIVE FORWARD THREAD (needs a fresh session —
 context ~60%): the PARTICLE-EMERGENCE door** — relaxing φ-blindness (α≠0) gave matter a RESTORING channel (I_r sources
@@ -54,7 +54,7 @@ testing whether it closes a cell with `I_r>0` is the core test.
 is OUT OF SCOPE — self-evident later; do not get pulled into it.**
 - **THREAD A (do first) = redo `x_max` PROPERLY from the OBSERVER FRAME-RELATION** (`1+z=e^{φ(r)}`, §1.4 canonical
   geometry; NOT the "invariant distance" error) → a DERIVED data-blind BACKGROUND for the particle sector: derive the
-  φ(r) FORM (= the D-POLY-1 gap), the φ→∞ asymptotic edge, the depth anchor natively (1101/7.004 OUT). Use the CURRENT
+  φ(r) FORM FROM the native two-player equations (which supply the scalar φ-eq the legacy framework lacked), the φ→∞ asymptotic edge, the depth anchor natively (1101/7.004 OUT). Use the CURRENT
   native two-player operators, NOT the legacy Einstein+KG/μ² machinery. GRAB from old work: frame-relation §1.4,
   `d_L=r(1+z)`, Misner–Sharp marginal; do NOT grab polynomial-as-derived / 1101 anchor / BAO-CMB scaffolding.
 - **THREAD B (then pivot) = the native direct source `α·ξ·e^{αφ}ρ²I_r`** → the matter-structure RESTORING channel

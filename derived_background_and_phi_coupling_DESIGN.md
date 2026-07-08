@@ -53,11 +53,16 @@ just below it — search that heading, don't trust a line number):
 (This reading is the empirically-grounded one; the cosmology-fit details are deferred — see the scope note in §0.)
 
 ### A.3 What to DERIVE (data-blind, no 1101/7.004)
-1. **The native `φ(r)` profile FORM — the D-POLY-1 gap.** The old work derived the cubic's COEFFICIENTS
-   `(3/2, cos(π/5), 2/3)` from the angular Diophantine triple `(j,ℓ,|κ|)=(1/2,1,3)` + `μ_g=πμ/13`, but the cubic
-   **FORM itself is an ansatz, not derived** (D-POLY-1, `udt_canonical_geometry.md` §12.7 discussion; canonical entry
-   §22.5 item 12). DERIVE the form from the
-   metric's constraint structure (Branch-C imposes no scalar equation on φ; is there a native selector?).
+1. **Derive the macro `φ(r)` FORM *from the NATIVE field equations*.** The native two-player system **imposes a scalar
+   equation on `φ`** — `(ρ²φ′)′ = (4/Z)e^{−2φ}ρ′²` coupled to `ρ` — so given BCs the FORM of `φ(r)` is DETERMINED; solve
+   for it directly. This is exactly where the native frame BEATS the legacy macro work: the legacy framework left the
+   polynomial FORM as an **unforced ansatz** (only its coefficients were derived — from the angular Diophantine triple
+   `(j,ℓ,|κ|)=(1/2,1,3)` + `μ_g=πμ/13`) *because* its Branch-C imposed **no scalar equation on `φ`**. The native
+   two-player supplies that equation, so **do NOT re-solve the legacy ansatz-selection problem — derive `φ(r)` from the
+   native equations** (this DISSOLVES the legacy unforced-form issue rather than inheriting it). Grabbable: the
+   angular-sector inputs (`μ`, the Diophantine triple) IF genuinely native; NOT the polynomial ansatz. (Caveat: whether
+   the native equations UNIQUELY fix the macro `φ(r)` — vs residual freedom in the matter content / BCs — is part of what
+   this establishes; but the ansatz-selection freedom is gone.)
 2. **The asymptotic-edge structure** at `φ→∞` (observer-relative; the earlier quartic-lapse/infinite-proper-distance
    characterization was profile-specific to the cell cosine and is SUBSUMED — redo it on the operative profile).
 3. **Reconcile** our native cell `φ(r)` (the round-cell cosine, `e^{−φ/2}=A cos(kr)`) with the SNe cubic near the edge —
@@ -82,7 +87,7 @@ just below it — search that heading, don't trust a line number):
   the Misner–Sharp marginal relation **— but in the native `ρ`-parametrization, not the legacy `r` (see the `r`-vs-`ρ`
   note in §A.2)**; the angular-sector derivations (`μ`, the Diophantine triple, the pentagonal algebra) that are
   genuinely native.
-- **DO NOT GRAB:** the polynomial ansatz treated as-if-derived (D-POLY-1 open); the **1101/7.004 anchor**; the **BAO/CMB
+- **DO NOT GRAB:** the legacy polynomial ansatz treated as-if-derived (its FORM was unforced — see A.3.1); the **1101/7.004 anchor**; the **BAO/CMB
   scaffolding** (poorly scaffolded — rides the polynomial ansatz + the 1101 anchor; Charles's flag).
 - **CMB origin is DEFERRED** (Charles: set it aside for now).
 
@@ -143,7 +148,7 @@ next session, done right.
 
 ## Records / provenance to read first (next session)
 `udt_phi_blindness_relaxation_results.md` (B: the source, forced-vs-chose, restoring channel — blind-verified),
-`udt_canonical_geometry.md` §1.4/§10.4/§12.7 (A: frame-relation, Misner–Sharp, the polynomial + D-POLY-1),
+`udt_canonical_geometry.md` §1.4/§10.4/§12.7 (A: frame-relation, Misner–Sharp, the legacy polynomial + its unforced-form note),
 `archive/udt_max_distance_invariance_FRAME.md` banner (the corrected frame; the error not to repeat), `gp_switch_criterion_results.md`
 (shift broken in Branch P), `p16_phi_sourcing_decision_note.md` (the α-weight adjudication, verdict C).
 NEGATIVES_REGISTRY: the "no homogeneous universe" entries are PHYSICAL-FIELD-layer, NOT blockers on the frame-relation.
