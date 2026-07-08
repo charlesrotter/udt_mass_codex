@@ -13,8 +13,10 @@ in — only MODEL ambients (hand-picked numbers) or a centered cell. This sessio
   the DERIVED ambient dilation field a particle cell sits in.
 - **Thread B (coupling):** the native direct φ-matter source (from relaxing φ-blindness) → the RESTORING channel that can
   defeat the drain, i.e. HOW the particle's matter couples to that background's dilation.
-**Together = a derived environment + matter that feels it = the setup particle emergence has always lacked.** Do A to
-furnish the background; do B to test whether a cell closes in it.
+**Together = a derived environment + matter that feels it = the setup particle emergence has always lacked.**
+**SEQUENCE (Charles): flesh out the universe BACKGROUND (Thread A) FIRST, THEN pivot to MASS + PARTICLE EMERGENCE
+(Thread B) inside it.** ⚠ **Cosmology VALIDATION (SNe / BAO / CMB) is OUT OF SCOPE now — it will be self-evidently the
+time to redo it later; do NOT get pulled into it.** The goal is the derived background + emergence, not re-fitting data.
 
 ---
 
@@ -34,7 +36,7 @@ UDT's redshift is a **FRAME-RELATION**, exactly like relativistic frame dependen
 - Every observer sits at their **own** `φ=0` (locally Minkowski); the boundary-mass growth arrives isotropically and
   **cancels** (Newtonian shell theorem) → **no preferred frame, NO cosmic center, NO Copernican problem.**
 - The "boundary" is the `φ→∞` **asymptotic edge** (infinite redshift), observer-relative — NOT a finite invariant length.
-This is empirically successful ALREADY: Pantheon+ 1701 SNe = **0.166 mag RMS (1.08× ΛCDM), ZERO free cosmological params**.
+(This reading is the empirically-grounded one; the cosmology-fit details are deferred — see the scope note in §0.)
 
 ### A.3 What to DERIVE (data-blind, no 1101/7.004)
 1. **The native `φ(r)` profile FORM — the D-POLY-1 gap.** The old work derived the cubic's COEFFICIENTS
