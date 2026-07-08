@@ -65,6 +65,17 @@ just below it — search that heading, don't trust a line number):
 4. **The depth anchor natively** — this is the STANDING GOAL: derive why the universe sits at its depth (the thing the
    old work fits as `φ(r*)=ln(1101)`), WITHOUT fitting. Ties to the Misner–Sharp marginal relation `c²≈2GM/r*` (= our
    native `x_max=2GM/c²` marginal edge, `udt_canonical_geometry.md` §10.4).
+5. **PHYSICAL-vs-FRAME-RELATIVE audit of the universe-cell quantities (owed — the frame-relation re-tags them).**
+   Adopting the observer frame-relation does NOT invalidate the banked universe-cell math (the `φ(r)` profile, marginal
+   edge `2m/ρ=1`, `E_m(core)=2`, `H_amb=0`, the ladder, `M=−q`) — those are field-equation facts. But it re-tags what
+   they MEAN: §1.4 says the mass factor `m_obs=m₀e^{φ}` is **frame-transformed, not proper mass** (it diverges at the
+   edge but cancels isotropically — shell theorem). So some quantities we've treated as physical (**the Misner–Sharp
+   mass, the marginal-edge mass-energy, `E_m=2`, `M=−q`**) may be **observational/frame quantities, not absolute** —
+   which can change how they feed the particle sector (Thread B). AUDIT each: physical (proper) or frame-relative
+   (observational)? Also confirm the cell's **center is observer-relative** (each observer at their own center, no
+   physical preferred point — dissolves the Copernican worry, consistent with the finite-cell canon). This session's
+   homogeneity negatives (`udt_no_homogeneous_universe_results.md`) are the PHYSICAL-FIELD layer — DEMOTED here, not
+   blockers. (Charles 2026-07-08.)
 
 ### A.4 Grab / don't-grab from the old corpus
 - **GRAB (helps the frame, no anchor smuggled):** the frame-relation reading (§1.4); the `d_L=D_A(1+z)` reciprocity and
