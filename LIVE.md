@@ -60,7 +60,7 @@ is OUT OF SCOPE — self-evident later; do not get pulled into it.**
 - **THREAD B (then pivot) = the native direct source `α·ξ·e^{αφ}ρ²I_r`** → the matter-structure RESTORING channel +
   matter L-selector; derive/characterize `α` (verdict C; α<0 opens it; re-adjudicate the α=−2 import-tag); the coupled
   `(f,φ,ρ)` solve = does a cell close with `I_r>0` SUPPORTED. A furnishes the background B embeds a matter-coupled cell
-  into = the particle-emergence setup we never had. Below = the PM-2 φ-blindness detail.
+  into = the particle-emergence setup we never had. Below the fences = CLOSED-ARC history (archived x_max detour, rung-resonance, Stage-2) — mine for history, NOT the plan.
 
 ### ↓↓↓ THIS SESSION'S DETOUR — ARCHIVED (2026-07-07 PM-3). Most of the session chased an INCORRECT vision (the
 ### `x_max` "invariant maximum distance" postulate + a homogeneity/Copernican field-solve) that was a CATEGORY ERROR —
@@ -75,44 +75,12 @@ is OUT OF SCOPE — self-evident later; do not get pulled into it.**
 ###   TRUE candidate → do-not-build; the matter-structure wall SURVIVES the discrete ladder = WHY particle emergence
 ###   needs the φ-coupling unlock (Thread B). ↑↑↑
 
-### OWED-FIRST DONE (2026-07-07): identities BLIND-CONFIRMED + old numbers re-confirmed (the gate that this stands on). Record:
-`classB_rung_resonance_owed_first_adjudication.md` (agents `aa57c76d…` blind-derivation + `a68053f6…` numbers).
-Two independent blind agents: (A) re-derived `π_ρ'=Zρφ'²−ξρI_r+κN_w²I_{4θ}/ρ³` → `I_{r,req}(N)` and `E_ang`→`A_N`
-from the NATIVE ACTION (walled off from the DESIGN/classB docs) = EXACT match (CAS; 2φ'ρ' cancels; π_ρ convention
-confirmed in-source); (B) re-ran the CAS + own bounded solves = `q=+3.95/+3.82`→π_φ,amb=4.0, seeded `I_r` DRAINS to
-~1e-17/1.1e-5, two-branch floor 0.786/2.679 — all re-confirmed. **TWO REFINEMENTS surfaced (both = DESIGN-doc
-"reconstruct/flag" items, NOT refutations): (1) the I_r branch is controlled by `π'_{ρ,amb}(N)` (ambient momentum-
-DERIVATIVE, set by the ambient's OWN R4), NOT `sign(ρ'_amb)`; (2) `m_amb(N)` in A_N is UNDETERMINED — Agent A's seal
-condition `E_ang(r_s)=2+H_amb` + gate-check-b's `H_amb(N)=0` ⇒ possibly `m_amb≡2` (constant), making A_N vary with
-the rung ONLY through ρ_s(N) and N_w. Whether m_amb = the geometric "2" / H_amb(=0) / a separate ambient MS mass is
-a PHYSICS identification = Charles's fork before any A_N column is banked as a build gate.** ⇒ NEXT = get Charles's
-read on the `m_amb` reconstruction, THEN run the per-rung classification with both ambient inputs (`π'_{ρ,amb}(N)`,
-`m_amb(N)`) explicitly tagged reconstructed-vs-derived.
-
-**➤➤ NEXT ACTION (2026-07-07, after Charles's m_amb read): run the NO-BUILD per-rung RESONANCE TEST (spec =
-`classB_rung_resonance_prebuild_test_DESIGN.md`, Charles's Derivations 1-7). OWED-FIRST identity gate = PASSED.** The Stage-2 static arc has CONVERGED on
-this: the isolated Class-B charged cell can't close (needs a receiver); the universe-ladder RUNG is the discrete
-receiver; the gate-checks showed (a) the z_CMB anchor cancels in ratios to leading order (`q_i/q_j→(N_j+1)/(N_i+1)`),
-(b) `H_amb(N)=0` is a DEAD KNOB, so the real junction is a FLUX/DEPTH match (`q_cell=q_N`, `Δφ_cell=Δφ_N`, NOT H, NOT
-raw `φ_s=φ_N` — Class B fixes `φ_s=0` so depth matches a DIFFERENCE `Δφ_cell=φ_c`). **The old no-band wall was NOT a
-flux wall (`q≈3.8-4.0` already closed `π_φ`) — it was a MATTER-STRUCTURE wall (R4/R5): Branch A needs `I_r>0` but
-minimal matter drains to `I_r≈0`; Branch B blocks on angular-skin energy R5.** So discreteness helps ONLY if a rung
-hits a RESONANT boundary target. **THE NEXT PASS (no build): for each rung N compute `(q_N, Δφ_N, I_{r,req}(N), A_N)`
-[I_{r,req}(N)=(q_N²/(Zρ_s³)+κN_w²I_{4θ}/ρ_s³−π'_{ρ,amb}(N))/(ξρ_s); A_N=E_{ang,natural}−m_amb(N)] and classify: dead /
-positive-branch (I_{r,req}≈0) / turning-branch (A_N≈0) / TRUE candidate (both). BUILD GATE: only a TRUE candidate
-justifies a bounded single-rung Class-B build; if none, DO NOT build (matter-structure wall survives).** Matter is
-φ-blind so a depth match ⇏ I_r>0 directly — escape is either resonance (cheap, no-build) or geometry-coupled (needs
-build). Class-B seal is already coded (`cell_solver_f2d.py` `seal_phi="B"`). Reconstruct `π'_{ρ,amb}(N)`, `m_amb(N)`,
-`E_{ang,natural}` from the rung + minimal-matter solution (ladder does NOT tabulate them — flag reconstructed-vs-derived).
-**Template tripwire: run as OBSERVE (which rungs hit resonance), never TARGET the lepton ladder.** ⚠ **OWED FIRST
-(Charles 2026-07-07): a BLIND re-derivation of the load-bearing identities before the classification is trusted —
-independently re-derive `I_{r,req}(N)` (from R4: `π'_ρ=Zρφ'²−ξρI_r+κN_w²I_{4θ}/ρ³`) and `A_N` (from R5), from the
-native action NOT from the DESIGN doc (which only TRANSCRIBES Charles's Der 1-7), and confirm the old no-band
-two-branch numbers (`q≈3.8-4.0` closed π_φ; minimal matter `I_r→0`). Frame NEUTRALLY (adjudicate, not confirm — this
-session's residual-artifact lesson). Only then trust the (q_N,Δφ_N,I_{r,req},A_N) classification as a build gate.**
-Records: `classB_rung_resonance_prebuild_test_DESIGN.md` (§OWED FIRST), `classB_embedded_rung_gatecheck_results.md`.
-NO Outcome A/B, NO
-pin/continuum, NO π₃; π₂ static S-Dir tile; DESIGN/PROVISIONAL/Outcome D.
+### ↓↓↓ SUPERSEDED-as-frontier (2026-07-07 AM — the RUNG-RESONANCE arc, now CLOSED). The OWED-FIRST identity gate
+### PASSED (`classB_rung_resonance_owed_first_adjudication.md`) and the NO-BUILD per-rung RESONANCE TEST RAN →
+### do-not-build; the matter-structure wall SURVIVES the discrete ladder (`classB_rung_resonance_classification_results.md`,
+### blind-verified). See the two-line summary in the ARCHIVED-DETOUR block above. Spec/gate-checks:
+### `classB_rung_resonance_prebuild_test_DESIGN.md`, `classB_embedded_rung_gatecheck_results.md`. (This block was the
+### live frontier earlier in the session; its stale "NEXT ACTION = run the resonance test" is DONE.) ↓↓↓
 
 ### ↓↓↓ SUPERSEDED-as-frontier (2026-07-06 EOD-3): the static-collapse diagnosis arc below is DONE (all committed/
 ### pushed/blind-verified). Chain: Stage-2b impl `6a0ac15` → preflight READY `d3a50a0` → S-Dir pilot=L-COLLAPSE
