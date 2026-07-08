@@ -4,14 +4,15 @@
 everything under the "↓↓↓ HISTORICAL ARC" / "SUPERSEDED" fences is labeled-stale detail (mine for history, not the
 plan). `HANDOFF.md` / `STATE.md` are detailed history; **if they disagree with this file's CURRENT STATE block, the
 CURRENT STATE block wins.**
-**Read order (2026-07-07):** LIVE.md FRONTIER (this block — the RESUME-HERE directive at its TOP is the next action =
-the NO-BUILD per-rung RESONANCE TEST) → **`classB_rung_resonance_prebuild_test_DESIGN.md`** (the spec: §OWED FIRST =
-the blind re-derivation to do first, then the per-rung classification) → `classB_embedded_rung_gatecheck_results.md`
-(why the junction is flux/depth, not H) → the Stage-2 arc RESULT docs only if needed (`n5d_stage2_*_results.md`,
-`n5d_stage2_MS_boundary_selector_audit_results.md`; the ladder law lives in `stageD_frozen_forecast.md` /
-`ladder_lemmaD_sealing_amplitude_results.md`) → CLAUDE.md "How we work" + "DRIVER TRIGGERS" + the `.claude/skills/`
-discipline skills → HANDOFF.md §SESSION RECORD 2026-07-06→07 (EOD-3) → INDEX.md (repo map). The closed Stage-2
-static-arc detail is archived → `archive/LIVE_stage2_static_arc_2026-07-06.md` (mine only for history).
+**Read order (2026-07-07 PM-3):** LIVE.md FRONTIER (this block — the NEXT-SESSION PLAN is in the CURRENT STATE block
+below) → **`derived_background_and_phi_coupling_DESIGN.md`** (the seamless-pickup spec: THREAD A = redo `x_max`
+PROPERLY from the observer FRAME-RELATION → the derived data-blind BACKGROUND, do FIRST; THREAD B = the native
+φ-matter source → MASS / PARTICLE EMERGENCE; cosmology validation is OUT OF SCOPE) → `udt_phi_blindness_relaxation_results.md`
+(Thread B: the source `α·ξ·e^{αφ}ρ²I_r` + the restoring channel, blind-verified) → `udt_canonical_geometry.md`
+§1.4 (frame-relation) / §10.4 (Misner–Sharp) / §12.7 (the polynomial + D-POLY-1 gap) for Thread A → CLAUDE.md "How we
+work" + "DRIVER TRIGGERS" + the `.claude/skills/` discipline skills → HANDOFF.md §SESSION RECORD 2026-07-07 (PM) →
+INDEX.md (repo map). Prior arcs (rung-resonance, Stage-2 static) are CLOSED/superseded — under the fences below, mine
+only for history.
 
 ## Binding method (never skip)
 - CLAUDE.md "How we work": MAP / OBSERVE / PONDER are primary, DERIVE is gated. Let structure
@@ -30,7 +31,7 @@ static-arc detail is archived → `archive/LIVE_stage2_static_arc_2026-07-06.md`
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-07 — the full Stage-2 static arc is CLOSED (impl→pilot→collapse→gauge→L-selection→MS→Class-B→rung gate-checks, all committed/pushed/blind-verified); NEXT = a NO-BUILD per-rung RESONANCE TEST (Charles's Der 1-7) that GATES whether a Class-B embedded-rung build is worth it) ============
+## ============ CURRENT STATE (2026-07-07 PM-3 — rung-resonance test CLOSED (do-not-build; matter-structure wall survives the discrete ladder); the x_max cosmology ponder was a WASH (my category error, corrected via the SNe frame-relation reading); DURABLE STEP = φ-matter coupling UNFROZEN → the particle-emergence door. NEXT SESSION (spec: `derived_background_and_phi_coupling_DESIGN.md`): Thread A = redo x_max PROPERLY for the derived BACKGROUND (do FIRST), then Thread B = pivot to MASS + PARTICLE EMERGENCE. Cosmology validation OUT OF SCOPE.) ============
 
 **➤➤➤ LATEST (2026-07-07 PM-3 — REFRAME + wind-down): the whole "no-preferred-frame / homogeneous universe" tangle was
 a CATEGORY ERROR (mine), corrected via the canonical SNe work.** UDT's redshift is a **FRAME-RELATION** (`1+z=e^{φ(r)}`,
@@ -48,15 +49,18 @@ field-solves on a category error; Charles corrected via the SNe work). **LIVE FO
 context ~60%): the PARTICLE-EMERGENCE door** — relaxing φ-blindness (α<0) gave matter a RESTORING channel (I_r sources
 φ → supports I_r vs draining) for the matter-structure wall that killed the resonance test; the coupled `(f,φ,ρ)` solve
 testing whether it closes a cell with `I_r>0` is the core test.
-**➤➤ NEXT-SESSION PLAN (Charles, wind-down): do BOTH threads together — spec = `derived_background_and_phi_coupling_DESIGN.md`.
-THREAD A = redo `x_max` PROPERLY from the OBSERVER FRAME-RELATION (`1+z=e^{φ(r)}`, §1.4 canonical geometry; NOT the
-"invariant distance" error) → a DERIVED data-blind BACKGROUND for the particle sector (derive the φ(r) FORM = the
-D-POLY-1 gap; the φ→∞ asymptotic edge; the depth anchor natively, 1101/7.004 OUT). THREAD B = the native direct source
-`α·ξ·e^{αφ}ρ²I_r` → the restoring channel + matter L-selector; derive/characterize `α` (verdict C; α<0 opens it; re-adjudicate
-α=−2 import-tag); the coupled `(f,φ,ρ)` solve = does a cell close with `I_r>0` SUPPORTED. A furnishes the background B
-embeds a matter-coupled cell into = the particle-emergence setup we never had. GRAB from old work: frame-relation §1.4,
-`d_L=r(1+z)`, Misner–Sharp marginal; do NOT grab the polynomial-as-derived / 1101 anchor / BAO-CMB scaffolding (poorly
-scaffolded). Below = the PM-2 φ-blindness detail.**
+**➤➤ NEXT-SESSION PLAN (Charles) — spec = `derived_background_and_phi_coupling_DESIGN.md`. SEQUENCE: THREAD A FIRST
+(flesh out the universe BACKGROUND), THEN pivot to THREAD B (MASS + PARTICLE EMERGENCE). Cosmology VALIDATION (SNe/BAO/CMB)
+is OUT OF SCOPE — self-evident later; do not get pulled into it.**
+- **THREAD A (do first) = redo `x_max` PROPERLY from the OBSERVER FRAME-RELATION** (`1+z=e^{φ(r)}`, §1.4 canonical
+  geometry; NOT the "invariant distance" error) → a DERIVED data-blind BACKGROUND for the particle sector: derive the
+  φ(r) FORM (= the D-POLY-1 gap), the φ→∞ asymptotic edge, the depth anchor natively (1101/7.004 OUT). Use the CURRENT
+  native two-player operators, NOT the legacy Einstein+KG/μ² machinery. GRAB from old work: frame-relation §1.4,
+  `d_L=r(1+z)`, Misner–Sharp marginal; do NOT grab polynomial-as-derived / 1101 anchor / BAO-CMB scaffolding.
+- **THREAD B (then pivot) = the native direct source `α·ξ·e^{αφ}ρ²I_r`** → the matter-structure RESTORING channel +
+  matter L-selector; derive/characterize `α` (verdict C; α<0 opens it; re-adjudicate the α=−2 import-tag); the coupled
+  `(f,φ,ρ)` solve = does a cell close with `I_r>0` SUPPORTED. A furnishes the background B embeds a matter-coupled cell
+  into = the particle-emergence setup we never had. Below = the PM-2 φ-blindness detail.
 
 **➤➤ (PM-2 — BANKED, blind-verified): relaxing matter φ-blindness does NOT rescue a homogeneous
 universe (STATIC), but OPENS the particle-emergence door.** Record: `udt_phi_blindness_relaxation_results.md`
@@ -69,9 +73,10 @@ inhomogeneous; Mink/Einstein-static φ=const). Sharper α-independent fact: **a 
 AND redshifting.** ⚠ my earlier "structurally dead" RETRACTED (overreach, Charles caught it) → accurate: **STATIC only;
 TIME-DEPENDENT/FRW = the one untested homogeneity door.** **(3) Relaxing φ-blindness OPENS: a matter-structure
 RESTORING channel (the particle-emergence door — I_r sources φ → supports I_r instead of draining; the wall that killed
-the resonance test) + a matter L-selector.** ⚠ LEAD not result — needs the coupled (f,φ,ρ) solve. **FORK (Charles):
-centered/static [SNe core + Copernican cost + predicts CMB-anomaly-like anisotropy] vs time-dependent/FRW homogeneity;
-particle door open EITHER WAY.** Owed: derive the specific α (p16 verdict C). Data-blind. Below: the prior α=0 negative.
+the resonance test) + a matter L-selector.** ⚠ LEAD not result — needs the coupled (f,φ,ρ) solve. ~~FORK: centered/static
+vs time-dependent/FRW~~ **[the cosmology FORK is SUPERSEDED by PM-3: the redshift is a FRAME-RELATION, no preferred
+frame / no center → no fork; the homogeneity "problem" was a category error.]** STILL LIVE from this block: the
+particle-emergence door is open; owed = derive the specific α (p16 verdict C). Data-blind. Below: the prior α=0 negative.
 
 ### ↓ PRIOR (2026-07-07 PM — BANKED, blind-verified): the native UDT equations forbid a homogeneous redshifting
 ### universe at α=0 → positional dilation forces a preferred CENTER (the α<0 follow-up above extends this). Record: `udt_no_homogeneous_universe_results.md` (solve

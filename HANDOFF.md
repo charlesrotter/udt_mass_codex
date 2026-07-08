@@ -4,8 +4,9 @@
 > This HANDOFF is the detailed record; if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
 > **CURRENT (2026-07-07 PM-3): after LIVE.md (its NEXT-SESSION PLAN = the two threads in
 > `derived_background_and_phi_coupling_DESIGN.md`), read `## SESSION RECORD 2026-07-07 (PM — rung-resonance→x_max→φ-coupling)`
-> immediately below. NEXT SESSION = do BOTH threads together: (A) redo `x_max` PROPERLY from the observer FRAME-RELATION
-> → a derived data-blind BACKGROUND; (B) the native direct φ-matter source → the particle-emergence restoring channel.
+> immediately below. NEXT SESSION (SEQUENCE, Charles): (A) FIRST redo `x_max` PROPERLY from the observer FRAME-RELATION
+> → a derived data-blind BACKGROUND; (B) THEN pivot to the native direct φ-matter source → mass + particle emergence
+> inside it. Cosmology validation (SNe/BAO/CMB) is OUT OF SCOPE.
 > The rung-resonance test CLOSED (do-not-build); the x_max cosmology detour was largely a wash (my category error, corrected
 > via the SNe work); the durable step is unfreezing φ-matter coupling.**
 
@@ -36,8 +37,9 @@ Multiple blind-verifier passes; NEXT-SESSION SPEC = `derived_background_and_phi_
    **matter-structure RESTORING channel** (`I_r` sources φ → supports `I_r` vs draining — the wall that killed the resonance
    test) + a **matter L-selector**. `α` unfixed (verdict C; α=−2 import-tag to re-adjudicate; α<0 opens the channel). **LEAD,
    not result** — needs the coupled `(f,φ,ρ)` solve.
-4. **WIND-DOWN (Charles): NEXT SESSION does BOTH threads together** — redo x_max PROPERLY (frame-relation) for the derived
-   BACKGROUND + the direct source for particle emergence. Spec = `derived_background_and_phi_coupling_DESIGN.md`. BAO/CMB old
+4. **WIND-DOWN (Charles): NEXT SESSION, IN SEQUENCE** — Thread A FIRST (redo x_max PROPERLY, frame-relation → the derived
+   BACKGROUND), THEN pivot to Thread B (the direct source → mass + particle emergence). Cosmology validation OUT OF SCOPE
+   (self-evident later). Spec = `derived_background_and_phi_coupling_DESIGN.md`. BAO/CMB old
    work is poorly scaffolded (polynomial ansatz D-POLY-1 + 1101 anchor) — do not lean on it. Standing goal: derive 1101/7.004
    natively, data-blind.
 
