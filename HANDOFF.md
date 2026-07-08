@@ -27,10 +27,11 @@ Multiple blind-verifier passes; NEXT-SESSION SPEC = `derived_background_and_phi_
    redshifting universe**. ⚠ **I OVER-LITERALIZED the redshift as a physical FIELD and manufactured a homogeneity/Copernican
    "problem" that does not exist** (also overmodeled ISW/recycling mechanisms). **Charles corrected me via the canonical SNe
    work** (`udt_canonical_geometry.md` §1.4): UDT's redshift is an OBSERVER-CENTERED **FRAME-RELATION** (`1+z=e^{φ(r)}`, shell-
-   theorem cancellation) → no preferred frame, NO center, NO Copernican problem. **Reframed** all x_max docs to this reading
-   (FRAME-doc banner + frame-notes on the two negatives + boost demoted). NET from x_max: ~zero new physics; the clarification
-   (correct frame = frame-relation, already in the old SNe work) is the takeaway. **LESSON: don't over-literalize the
-   observational frame-relation as a physical field; don't overmodel.**
+   theorem cancellation) → no preferred frame, NO center, NO Copernican problem. NET from x_max: ~zero new physics; the
+   clarification (correct frame = frame-relation, already in the old SNe work) is the takeaway. **LESSON: don't over-literalize
+   the observational frame-relation as a physical field; don't overmodel.** **The detour detail + the incorrect-vision x_max
+   FRAME/boost docs are ARCHIVED → `archive/LIVE_xmax_homogeneity_detour_2026-07-07.md` (`archive/udt_max_distance_invariance_FRAME.md`,
+   `archive/udt_xmax_boost_derivation_results.md`).**
 3. **φ-MATTER COUPLING UNFROZEN — the durable step (blind-verified, `udt_phi_blindness_relaxation_results.md`).** Charles
    decided to relax φ-blindness. Derived: matter's direct source in the φ-eq is `α·ξ·e^{αφ}ρ²I_r`; **φ-blindness (α=0) is a
    CHOSE lever, NOT forced** (its shift-symmetry license is broken in Branch P where matter lives). Relaxing it OPENS a

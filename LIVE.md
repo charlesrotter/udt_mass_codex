@@ -40,7 +40,7 @@ identical isotropic law, **no preferred frame, NO cosmic center, NO Copernican p
 (as the frame-relation); only the finite-invariant-*distance* `x_max` postulate is DROPPED. The banked "no homogeneous
 universe" results (`udt_no_homogeneous_universe_results.md`, `udt_phi_blindness_relaxation_results.md`) are the
 PHYSICAL-FIELD layer — a different question, NOT the operative cosmology; frame-notes added to all three docs +
-`udt_max_distance_invariance_FRAME.md` banner reframed + boost-deriv demoted (re-coordinatization of `1+z=e^φ`). **The
+`archive/udt_max_distance_invariance_FRAME.md` banner reframed + boost-deriv demoted (re-coordinatization of `1+z=e^φ`). **The
 canonical SNe fit is SIMPLE + WORKS:** `1+z=e^{φ(r)}`, `φ(r)`=derived cubic, `d_L=r(1+z)` (static reciprocity, no FLRW
 `(1+z)²`), Pantheon+ 1701 SNe = 0.166 mag RMS (1.08× ΛCDM), ZERO free cosmological params. **BAO/CMB old work is
 POORLY SCAFFOLDED (polynomial ansatz D-POLY-1 + the 1101 anchor) — do NOT lean on it.** LESSON: don't over-literalize
@@ -62,73 +62,18 @@ is OUT OF SCOPE — self-evident later; do not get pulled into it.**
   `(f,φ,ρ)` solve = does a cell close with `I_r>0` SUPPORTED. A furnishes the background B embeds a matter-coupled cell
   into = the particle-emergence setup we never had. Below = the PM-2 φ-blindness detail.
 
-**➤➤ (PM-2 — BANKED, blind-verified): relaxing matter φ-blindness does NOT rescue a homogeneous
-universe (STATIC), but OPENS the particle-emergence door.** Record: `udt_phi_blindness_relaxation_results.md`
-(verifiers a3f070ab, a6ebdbee, a6f399d1 PASS). Charles decided to relax φ-blindness (rejected the centered-universe
-fork on Copernican grounds; rejected time-dependent on SNe-static grounds). Findings: **(1) φ-blindness is a CHOSE
-lever (Branch-P), NOT forced** — the native action gives the direct matter source `α·ξ·e^{αφ}ρ²I_r` in the φ-equation;
-α=0=φ-blind default, α=−2=import, other α FREE (verdict C, α unfixed). **(2) At α<0 the monotonicity obstruction
-BREAKS, but NO static homogeneous redshifting universe exists at any α<0** (de Sitter needs I_r<0; AdS ~4000×
-inhomogeneous; Mink/Einstein-static φ=const). Sharper α-independent fact: **a STATIC universe can't be both homogeneous
-AND redshifting.** ⚠ my earlier "structurally dead" RETRACTED (overreach, Charles caught it) → accurate: **STATIC only;
-TIME-DEPENDENT/FRW = the one untested homogeneity door.** **(3) Relaxing φ-blindness OPENS: a matter-structure
-RESTORING channel (the particle-emergence door — I_r sources φ → supports I_r instead of draining; the wall that killed
-the resonance test) + a matter L-selector.** ⚠ LEAD not result — needs the coupled (f,φ,ρ) solve. ~~FORK: centered/static
-vs time-dependent/FRW~~ **[the cosmology FORK is SUPERSEDED by PM-3: the redshift is a FRAME-RELATION, no preferred
-frame / no center → no fork; the homogeneity "problem" was a category error.]** STILL LIVE from this block: the
-particle-emergence door is open; owed = derive the specific α (p16 verdict C). Data-blind. Below: the prior α=0 negative.
-
-### ↓ PRIOR (2026-07-07 PM — BANKED, blind-verified): the native UDT equations forbid a homogeneous redshifting
-### universe at α=0 → positional dilation forces a preferred CENTER (the α<0 follow-up above extends this). Record: `udt_no_homogeneous_universe_results.md` (solve
-`acb3d217…`, blind verifier `a1714073…` PASS; NEGATIVES_REGISTRY STANDING). Mechanism: the native φ-equation
-`(ρ²φ′)′=(4/Z)e^{−2φ}ρ′²≥0` is SOURCE-FREE (matter φ-blind) ⇒ ρ²φ′ monotone ⇒ redshift & homogeneity mutually
-exclusive; only the redshift-free `R^{1,1}×S²` product is homogeneous. de Sitter FORBIDDEN (both branches);
-Einstein-static excluded; the ρ-ladder is a centered-cell artifact (does NOT survive homogeneity — answered Charles's
-question). **This REFUTES the homogeneous/no-preferred-frame reading of the x_max frame below.** The asymptotic edge
-survives only in the CENTERED solution (φ→∞ at INFINITE proper distance = conformal edge, NOT a finite de Sitter
-horizon). **FORK (foundational — Charles's call, PENDING):** (1) accept a CENTERED universe [driver rec] — equations
-support it, no-preferred-frame is LOCAL-only (SR), predicts a cosmic center → large-scale anisotropy (ties to CMB
-anomalies); (2) relax φ-blindness (reopens a non-native import); (3) go time-dependent/FRW (drifts to expansion
-cosmology). LOAD-BEARING premise = matter φ-blind (R1+P5 CHOSE). Data-blind (no 1101). Also this session: the
-`x_max` boost derivation is a re-coordinatization of `1+z=e^φ` (its "maximum distance" reading is a tautology, walked
-back); the dimensional "c,G can't make a length" seam is a smuggled import (does NOT bind UDT). Below = the frame as
-originally pondered (mine for the analogy; the homogeneous part is now refuted).
-
-### ↓ ORIGINALLY-PONDERED FRAME (2026-07-07 PM — PROVISIONAL; homogeneous reading REFUTED above): UDT's
-founding postulate may be an INVARIANT MAXIMUM DISTANCE `x_max`.** Every observer, everywhere, measures the same
-distance to the edge — the positional mirror of SR's invariant `c` (no preferred position-frame). The dilation
-SATURATES approaching it (time stops, mass→∞ — one saturation, two faces); it is ASYMPTOTIC (reconciles the finite-cell
-canon: finite in distance, unbounded in depth `φ`; `1+z=e^φ` already has the relativistic form). **LOAD-BEARING CLAIM
-(unproven): "invariant `x_max` FORCES the UDT metric, the way invariant `c` forces Minkowski."** Ties the loose pieces
-together: light-bending=GR becomes a CONSEQUENCE of shared symmetry (not a fit); the CMB `1101`/x_c becomes a PREDICTION
-target (not an input); the coupling/discreteness wall (where matter emergence keeps stalling — incl. the resonance test
-just below) may be ONE fact (rungs = integer depths on the road to `x_max`; a hopfion's DERIVED background = its depth).
-**NEXT (GATED — awaiting Charles's go): the simple UDT-Lorentz-variant derivation** (linear+isotropic position-frame
-map + demand invariance of `x_max` → the "dilation boost" + saturation; Charles: "one of the simplest we've done").
-Full frame + premise ledger + tripwires: **`udt_max_distance_invariance_FRAME.md`**. The one seam to watch: a pure
-LENGTH can't come from `c,G` alone (`G` carries a mass) → `x_max` must be DIMENSIONLESS (max dilation) or lean on the
-critical universe's own mass-energy; the pure-`c,G` scale is max force `c⁴/G`. TRIPWIRE: FIND the invariance in the
-metric, don't IMPOSE it; data-blind on 1101.
-
-### ↓ The resonance test that closed the coupling-wall arc (this frame re-approaches it from the BACKGROUND side): ↓
-**➤➤ RESONANCE TEST COMPLETE (2026-07-07): NO rung is a TRUE candidate → BUILD GATE NOT MET → DO NOT build. The
-matter-structure wall SURVIVES the discrete ladder.** Record: `classB_rung_resonance_classification_results.md`
-(blind-verified, agent `a599367…` PASS). Charles adjudicated the m_amb fork → geometric angular seal target
-`T_ang,seal=2` (from `2+H_amb`, `H_amb(N)=0`); M_N=−q_N kept SEPARATE. OBSERVE-only classification of ladder rungs
-N=20…39 × windings N_w∈{1,2}: the angular screen `A_N=E_ang,natural−2` is SINGLE-SIGNED away from zero for EVERY rung
-(≈−0.5 for N_w=1, ≈+2.5 for N_w=2) because the ladder's `ρ_s=1±a_seal` stays pinned near 1 (a_seal≤0.043) and can
-never reach the N_w=1 crossing (`ρ_s=0.707`, which sits at N≈2, far below scope). Radial screen `I_{r,req}` splits by
-parity: odd N (ρ_s<1, π'_{ρ,amb}<0) → radial-structure-required, never resonance; even N (ρ_s>1) → resonance only if
-the UNRECONSTRUCTED `π'_{ρ,amb}` magnitude≈`pia_needed` (undecided). Verdict is ROBUST to that unreconstructed input —
-the angular screen alone blocks every rung. Verifier catch (folded in): N_w=1 A_N flips at `I_{4θ}≈2` (`T≈1.5`),
-mitigated by the two-screen AND (no *demonstrable* TRUE candidate regardless); N_w=2 robust (ξ-floor). ⇒ discreteness
-gave a discrete flux WITHOUT a resonant boundary target, as the DESIGN-doc provisional read anticipated.
-**NEXT = CHARLES FORK:** the only remaining reason to build is the STRUCTURAL-ESCAPE route (DESIGN Der 3.2 — a rung
-changes the f-sector boundary problem so radial structure stops draining), which this NO-BUILD screen cannot test and
-is NOT cheap (a real bounded Class-B build); OR pivot (the parked threads: q=1/3, η=1/18 native re-derivations; R3
-ladder-survives-Route-B; the 5 D2 forks). Not the driver's call — explain + recommend, then Charles decides.
-(A reconstructed `I_{4θ}(N)` for the actual sealed profile — vs the rigid 1 — is the one cheap thing that could reopen
-the N_w=1 angular screen; worth noting to Charles as a sub-option.) NOT a physics verdict, NOT a mass prediction.
+### ↓↓↓ THIS SESSION'S DETOUR — ARCHIVED (2026-07-07 PM-3). Most of the session chased an INCORRECT vision (the
+### `x_max` "invariant maximum distance" postulate + a homogeneity/Copernican field-solve) that was a CATEGORY ERROR —
+### over-literalizing the redshift FRAME-RELATION as a physical field. Corrected by the PM-3 block ABOVE (redshift =
+### observer frame-relation, no preferred frame, no center). Full detour + the lesson →
+### **`archive/LIVE_xmax_homogeneity_detour_2026-07-07.md`** (incl. the archived x_max FRAME + boost docs). DURABLE
+### residue kept live (two lines):
+### - **φ-MATTER COUPLING (Thread-B foundation, blind-verified — `udt_phi_blindness_relaxation_results.md`):** φ-blindness
+###   (α=0) is a CHOSE lever NOT forced; native direct source `α·ξ·e^{αφ}ρ²I_r`; relaxing it (α<0) opens the
+###   matter-structure RESTORING channel (the particle door) + a matter L-selector. Owed: derive α (p16 verdict C).
+### - **RUNG-RESONANCE TEST CLOSED (blind-verified — `classB_rung_resonance_classification_results.md`):** no rung is a
+###   TRUE candidate → do-not-build; the matter-structure wall SURVIVES the discrete ladder = WHY particle emergence
+###   needs the φ-coupling unlock (Thread B). ↑↑↑
 
 ### OWED-FIRST DONE (2026-07-07): identities BLIND-CONFIRMED + old numbers re-confirmed (the gate that this stands on). Record:
 `classB_rung_resonance_owed_first_adjudication.md` (agents `aa57c76d…` blind-derivation + `a68053f6…` numbers).

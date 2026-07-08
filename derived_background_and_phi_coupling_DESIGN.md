@@ -24,7 +24,7 @@ time to redo it later; do NOT get pulled into it.** The goal is the derived back
 
 ### A.1 The error to NOT repeat (this session's category error)
 The earlier `x_max` work literalized *"an invariant maximum DISTANCE"* (a physical finite length) → this was a **tautology**
-(the boost derivation is just `1+z=e^φ` re-coordinatized; `udt_xmax_boost_derivation_results.md`) and it spawned a
+(the boost derivation is just `1+z=e^φ` re-coordinatized; `archive/udt_xmax_boost_derivation_results.md`) and it spawned a
 **homogeneity/Copernican rabbit hole** (over-literalizing the redshift as a physical field to be sourced;
 `udt_no_homogeneous_universe_results.md` + `udt_phi_blindness_relaxation_results.md` are the PHYSICAL-FIELD layer, NOT the
 operative reading). DO NOT restart there.
@@ -111,6 +111,6 @@ next session, done right.
 ## Records / provenance to read first (next session)
 `udt_phi_blindness_relaxation_results.md` (B: the source, forced-vs-chose, restoring channel — blind-verified),
 `udt_canonical_geometry.md` §1.4/§10.4/§12.7 (A: frame-relation, Misner–Sharp, the polynomial + D-POLY-1),
-`udt_max_distance_invariance_FRAME.md` banner (the corrected frame; the error not to repeat), `gp_switch_criterion_results.md`
+`archive/udt_max_distance_invariance_FRAME.md` banner (the corrected frame; the error not to repeat), `gp_switch_criterion_results.md`
 (shift broken in Branch P), `p16_phi_sourcing_decision_note.md` (the α-weight adjudication, verdict C).
 NEGATIVES_REGISTRY: the "no homogeneous universe" entries are PHYSICAL-FIELD-layer, NOT blockers on the frame-relation.

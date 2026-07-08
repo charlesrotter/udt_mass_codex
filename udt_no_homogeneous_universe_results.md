@@ -2,7 +2,7 @@
 
 **Date:** 2026-07-07 (PM) · **Mode:** OBSERVE/derive → blind-verified · **Author:** Claude Opus 4.8 (1M).
 **Status: BANKED NEGATIVE (blind-verified), scoped by its premise set.** Data-blind (no 1101/7.004/x_c). Arose from
-testing Charles's "no-preferred-frame → homogeneous universe" reframe (`udt_max_distance_invariance_FRAME.md`).
+testing Charles's "no-preferred-frame → homogeneous universe" reframe (`archive/udt_max_distance_invariance_FRAME.md`).
 
 > **⚠ FRAME NOTE (2026-07-07 PM-3, added after the SNe review).** This result is about the **PHYSICAL-FIELD layer** —
 > whether the native equations admit a homogeneous φ-FIELD sourced on space (static). It does **NOT** refute the
@@ -11,7 +11,7 @@ testing Charles's "no-preferred-frame → homogeneous universe" reframe (`udt_ma
 > their own `φ=0` — no preferred frame, no cosmic center. The "positional dilation FORCES a preferred CENTER /
 > Copernican" reading that motivated this doc was a **category error** (over-literalizing the frame-relation as a
 > physical field) and is **RETRACTED at the frame level**. The physical-field statements below stand on their own terms
-> but are NOT the operative cosmology. See `udt_max_distance_invariance_FRAME.md` banner.
+> but are NOT the operative cosmology. See `archive/udt_max_distance_invariance_FRAME.md` banner.
 
 ## The result
 **Within UDT's native (φ-blind-matter) frame, there is NO homogeneous, isotropic, static solution carrying positional
@@ -63,6 +63,6 @@ non-decreasing and cannot be flattened by any matter content. Consequences (all 
    positional-redshift founding idea.
 
 ## Bearing on the x_max frame
-The **homogeneous / no-preferred-frame reading** of `udt_max_distance_invariance_FRAME.md` is **REFUTED natively** (given
+The **homogeneous / no-preferred-frame reading** of `archive/udt_max_distance_invariance_FRAME.md` is **REFUTED natively** (given
 φ-blindness). The **asymptotic-edge** piece survives but only in the CENTERED solution (φ→∞ at infinite proper
 distance; NOT a finite de Sitter horizon). The invariant-finite-`x_max` picture is not realized. Frame → centered.
