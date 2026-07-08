@@ -72,10 +72,20 @@ it in mind.
 Define the clock-rate function `f(φ) = √(−g_tt(φ)/c²)`. The dilation one observer at `φ_A` assigns to a clock at `φ_B`
 is `D = f(φ_B)/f(φ_A)`.
 
-- **R1** ("depends only on differences") ⟹ `D(φ_A,φ_B) = g(φ_B − φ_A)` for a single-variable `g`.
-- **R2** (composition) ⟹ `g` satisfies `g(a+b) = g(a)g(b)`, whose continuous solution is **exponential**: `g(x)=e^{λx}`.
-  Fixing the normalization of φ gives `f(φ) ∝ e^{−φ}`, i.e. **`g_tt = −e^{−2φ}c²`**.
-- **R3** (reciprocity) ⟹ the structural identity **`g_rr = 1/(g_tt/(−c²)) = e^{+2φ}`** (the "B=1/A" reciprocal form).
+- **R1** ("depends only on differences") ⟹ `D(φ_A,φ_B) = g(φ_B − φ_A)` for a single-variable `g`. (This *is* the
+  additive gauge freedom `φ→φ+const`; the whole construction enters only through differences.)
+- **R2** (composition through any intermediate `φ_C`) ⟹ `g(x)g(y) = g(x+y)` — the multiplicative Cauchy equation.
+- **+ a NAMED regularity premise** (`g` continuous and positive — equivalently monotone/measurable; the requirement
+  that dilation vary smoothly with potential, *not* a physics choice of value) ⟹ the unique solution is **exponential**,
+  `g(x)=e^{kx}`, hence `g_tt = −e^{2kφ}c²`. Defining φ by `φ := −½·ln(−g_tt/c²)` fixes the convention constant
+  `k = −1` (pure sign/normalization, no physical content), giving **`g_tt = −e^{−2φ}c²`**.
+- **R3** (reciprocity) — via a **NAMED analog premise** that the positional analog of SR boost-reciprocity pairs the
+  clock factor `√(−g_tt/c²)` with the length factor `√g_rr` as mutual inverses ⟹ `√(−g_tt/c²)·√g_rr = 1` ⟹ the
+  structural identity **`g_tt g_rr = −c²`**, i.e. **`g_rr = e^{+2φ}`** (the "B=1/A" reciprocal form).
+
+(So the derivation rests on R1+R2+R3 **plus** two explicitly-named side premises — a regularity condition and the
+R3-reciprocity analog choice. Reviewer: both are stated in the source derivation as assumptions, not results; we surface
+them here so they are not hidden.)
 
 Result (canonical, Charles-signed): the static, spherically-symmetric line element
 ```
