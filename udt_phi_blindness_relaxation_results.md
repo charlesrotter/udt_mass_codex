@@ -49,7 +49,13 @@ Real, valuable gains at α≠0 (agent `ae7775e2…`; qualitative, need the coupl
   **SUPPORT I_r instead of draining it** — the restoring channel the wall lacked. **Whether it DEFEATS the drain
   needs the coupled (f,φ,ρ) solve — a LEAD, not a result.** Open only for α≠0.
 
-## 4. THE FORK (foundational — Charles's call)
+## 4. THE FORK — ⚠ SUPERSEDED (2026-07-07 PM-3, see the FRAME NOTE at top)
+> **This cosmology fork is MOOT.** It rested on the physical-field reading (§2); once UDT's redshift is read as the
+> operative **FRAME-RELATION** (`1+z=e^{φ(r)}`, observer-centered — `udt_canonical_geometry.md` §1.4), there is **no
+> preferred frame, no cosmic center, and no Copernican problem**, so there is no centered-vs-homogeneous fork to make.
+> The **particle-emergence door (§3) is the live thread**, open regardless. The text below is kept only as the record of
+> the (now-dissolved) fork.
+
 UDT's static-positional-redshift core (+ the SNe polynomial-φ success) is **structurally incompatible** with a
 homogeneous universe. Keep one:
 - **Centered / static** — keeps the SNe core; Copernican cost (we'd be near a center — baked into the static-positional
