@@ -71,7 +71,7 @@ log_id = (sp.simplify(d_atanh - d_logid) == 0) and (sp.atanh(u).subs(u,0) == 0)
 print("1+z = e^{arctanh(x/X)} == sqrt((X+x)/(X-x)) :", log_id, " (derivative test; +numeric 4.4e-16)")
 target = sp.sqrt((X + x)/(X - x))
 print("  -> as x->X: 1+z -> oo   (infinite redshift; time stops; mass diverges)")
-print("  -> small x: 1+z ~", sp.series(target.subs(x, u*X), u, 0, 2).removeO(), " (Hubble-like linear regime, slope 1/X)")
+print("  -> small x: 1+z ~", sp.series(target.subs(x, u*X), u, 0, 2).removeO(), " (linear z–x regime, slope 1/X; scale = x_max)")
 
 print()
 print("="*80)

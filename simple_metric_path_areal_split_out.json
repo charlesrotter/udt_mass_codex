@@ -1,0 +1,27 @@
+{
+  "joins": {
+    "J1": "D_A = x (PATH=AREAL)",
+    "P_ell": "x=proper radial; D_A=r=int e^{-phi} dx"
+  },
+  "r_over_X_at_xi": {
+    "0.10": 0.09515485826817977,
+    "0.50": 0.3896241793827376,
+    "0.90": 0.5556594093526919,
+    "0.99": 0.5703242132671176
+  },
+  "scores": {
+    "J1": {
+      "chi2_dof": 2.166501637078457,
+      "rms": 0.30740259169961603
+    },
+    "Pell": {
+      "chi2_dof": 1.0206228685210947,
+      "rms": 0.17947381539508944
+    },
+    "LCDM": {
+      "chi2_dof": 0.8804650617388546,
+      "rms": 0.15410573565217986
+    }
+  },
+  "note": "P_ell is a named dimensional join, not free D_A fit; full light held"
+}

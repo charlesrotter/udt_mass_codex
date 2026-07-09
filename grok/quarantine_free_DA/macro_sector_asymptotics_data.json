@@ -1,0 +1,57 @@
+{
+  "P2_compensated_D_eq_r_Coulomb": {
+    "phi": "phi_inf - q/r",
+    "phi_infty": "phi_inf (finite)",
+    "z_infty": "e^{phi_inf - phi_obs} finite if phi_inf finite",
+    "proper_to_infty": "DIVERGES (e^phi -> e^{phi_inf} > 0)",
+    "null_to_infty": "DIVERGES",
+    "barrier": "FAIL \u2014 open infinite reach, finite asymptotic redshift offset only",
+    "center_issue": "q!=0 singular at r=0 if chart includes origin \u2014 relational ok if observer off singular point"
+  },
+  "P0_compensated_free_D": {
+    "first_integral": "D'^2 = E + (Z/4) G^2 / D^2  (E const)",
+    "G": "D^2 phi' = const",
+    "case_E_gt_0": "D ~ sqrt(E) r at large r => phi'~G/(E r^2) => phi->const; proper DIVERGES; barrier FAIL",
+    "case_E_eq_0": "D' = \u00b1 (sqrt(Z)/2) |G|/D => D^2 ~ \u00b1 sqrt(Z)|G| r + const; still D->oo; phi'~1/r; need check",
+    "case_E_eq_0_phi": "phi' = G/D^2 ~ 1/r => phi ~ ln r -> \u00b1oo slowly; proper int e^phi ~ int r^{\u00b11}",
+    "case_E_lt_0": "D bounded max; TURN then FALL \u2014 finite chart life, not large-r open exterior",
+    "barrier_open_exterior": "FAIL for E>0 (generic open); E=0 log borderline \u2014 score separately",
+    "E_eq_0_detail": "If G>0, D^2 = D0^2 + sqrt(Z) G r (taking +), phi' = G/D^2 > 0, phi increases as (1/2)ln(r) asympt; e^phi ~ r^{1/2}; int e^phi dr DIVERGES; int e^{2phi} dr DIVERGES; z->oo but infinite proper reach \u2014 WEAK/OPEN not hard barrier"
+  },
+  "P3_uncompensated_D_eq_r": {
+    "EL": "Z (r^2 phi')' = 4 e^{-2 phi}",
+    "no_finite_const_asymp": "phi->const implies (r^2 phi')'-> 4 e^{-2c}/Z >0 => phi'~ (const)/r after integrate once? actually integrate: r^2 phi' = (4/Z) int e^{-2phi} r^2? no int of RHS is int 4e^{-2phi} dr not r^2",
+    "note": "Integrate: Z r^2 phi' = 4 int_0^r e^{-2phi(s)} ds + A. For regular origin A=0 often.",
+    "if_phi_monotone_down": "phi-> -oo possible; then e^{-2phi}->+oo sources more phi growth of |phi'| \u2014 runaway candidate",
+    "barrier": "OPEN \u2014 needs explicit solution class; historical Branch-P frozen-D often finite-domain / no asymptotic vacuum (scoped)",
+    "relational": "frozen D=r prefers polar origin structure \u2014 macro use must stay observer-chart only"
+  },
+  "P1_uncompensated_free_D_known_classes": {
+    "explore_soft_phi_decreasing": "phi ~ -|b| r, D->Dinf: PROPER reach FINITE (int e^phi converges) but OUTWARD is DECREASING phi => blueshift outward, not cosmological redshift. Macro FAIL for 'look out, redder'",
+    "explore_hard_phi_increasing": "phi rises, D pinches finite r: redshift outward but end is geometric pinch not large-r asymptote; preferred-bulge smell for cosmos",
+    "barrier_proper": "soft class has finite proper distance to chart infinity \u2014 geometric 'end' but wrong redshift direction for macro look-out",
+    "macro_score": "FAIL as observer looking out to redder edge (sign); hard FAIL as preferred pinch-center story"
+  },
+  "sign_convention": {
+    "g_tt": "-e^{-2 phi} c^2",
+    "clock_rate_factor": "e^{-phi}  (larger phi => slower local clocks)",
+    "redshift_static": "1+z = e^{phi_src - phi_obs}  (source deeper in phi => redshifted)",
+    "macro_look_out": "need phi increasing with reach for cosmological-type redshift"
+  },
+  "relational": {
+    "requirement": "macro law must allow any event as observer origin with same structural form",
+    "P2_coulomb": "scale-free 1/r about a charge center \u2014 singular center; shell theorem / frame-relation needed for multi-observer (banked elsewhere); not a dilation barrier at large r",
+    "P1_throat": "special bulge \u2014 fails no-preferred-center as ontology",
+    "needed": "translationally / relationally democratic asymptotics (harder) \u2014 first filter is single-chart large-r barrier + correct redshift direction"
+  },
+  "SCOREBOARD": {
+    "P0_free_D_compensated_E_gt_0": "FAIL barrier (phi->const, infinite reach)",
+    "P0_E_eq_0": "WEAK \u2014 z may ->oo as log but infinite proper/null reach",
+    "P0_E_lt_0": "not open large-r exterior (turn/fall)",
+    "P2_Coulomb_D_r": "FAIL barrier (phi->const)",
+    "P3_frozen_D_W1": "OPEN (no closed large-r vacuum; finite-domain scoped history)",
+    "P1_soft_explore": "proper barrier YES but blueshift outward FAIL macro look-out",
+    "P1_hard_explore": "redshift+pinch; not large-r; preferred structure FAIL cosmos",
+    "headline": "No vacuum packaging on the native skeleton yet PASSES full elegant macro test (redshift-out + dilation barrier + open large-r + no preferred center). Live gaps: P3 asymptotics; whether free-D + matter (derived only) can give phi increasing + convergent reach without inventing terms."
+  }
+}

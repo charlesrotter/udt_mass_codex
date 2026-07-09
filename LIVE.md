@@ -4,10 +4,9 @@
 everything under the "↓↓↓ HISTORICAL ARC" / "SUPERSEDED" fences is labeled-stale detail (mine for history, not the
 plan). `HANDOFF.md` / `STATE.md` are detailed history; **if they disagree with this file's CURRENT STATE block, the
 CURRENT STATE block wins.**
-**Read order (2026-07-08 PIVOT):** LIVE.md FRONTIER (this block + the CURRENT STATE block below) → **`macro_universe_native_MAP.md`**
-(THE LIVE FRAME: model the universe WHOLE from the native action; both G/P branches open; CRUX = Q1 what sources the macro φ;
-NEXT = ponder Q1 with Charles, not a solve) → `cosine_native_reconciliation_results.md` (verified: cosine = cell reduction,
-Branch-P vacuum has no edge) → CLAUDE.md "How we work" + "DRIVER TRIGGERS" + `.claude/skills/` → HANDOFF.md TOP → INDEX.md.
+**Read order (2026-07-08 simple-metric restart):** LIVE.md FRONTIER → **`UDT_ELEGANT_FRAME.md`** →
+**`SIMPLE_METRIC_MACRO.md`** → **`macro_sector_MAP.md`** → CLAUDE.md method + skills → MEMORY.md TOP → INDEX.md.
+Free-\(D_A\) / mixed scoreboards = **`grok/quarantine_free_DA/`** only (not live).
 Prior-plan specs (mine for the Thread-B cell forward-thread, NOT the macro frame): `derived_background_and_phi_coupling_DESIGN.md`,
 `matter_filled_background_closure_DESIGN.md`. — OLD read order (2026-07-07 PM-3, SUPERSEDED): LIVE.md FRONTIER
 → **`derived_background_and_phi_coupling_DESIGN.md`** (the seamless-pickup spec: THREAD A = redo `x_max`
@@ -36,43 +35,143 @@ only for history.
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-08 EOD — n=2 OPTICS CORRECTION + macro-needs-a-source. The SNe luminosity distance is DERIVED n=2 (`d_L=(1+z)²D_A`, blind-verified ×2; UDT's own CMB/dipole already use it); the corpus §12.8 n=1 form was a √g_rr error that PROPPED UP the celebrated 0.166-mag Pantheon+ fit → RE-GRADED as an artifact. Under n=2 the existing backgrounds fail, but the native VACUUM fails under n=1 too → the defect is the SOURCELESS VACUUM, not n=2 → the macro φ needs a MATTER SOURCE (= MAP Q1). NOT a falsification. NEXT: matter-sourced native background under n=2 on the CLEAN core; gated first step = the Q1 ponder with Charles. Charles low on allowance ~26h — documenting/preparing.) ============
+## ============ CURRENT STATE (2026-07-08 — SIMPLE METRIC ONLY; free \(D_A\) quarantined). ============
 
-**➤➤➤ LATEST (2026-07-08 EOD — n=2 optics; the SNe headline was an error; macro needs a matter source). Full record:
-`luminosity_distance_n2_optics_results.md` (VERIFIED).** Session arc: fleshing out the macro sector → found the two-player
-eqn was CELL-contaminated (Branch-P) → separated the CLEAN foundational core (provenance audit; no smuggled GR, no
-mass-emergence, but underdetermined by free levers Z_φ/ADM-split) → Charles: the metric IS derived from the two
-postulates (dilation-with-distance + observer-equivalence, both inherent in the metric) → derived a redshift profile
-from the postulates + freed transverse geometry (promising ~0.16-mag SNe) → **BUT blind-verify found it rode the n=1
-optics ERROR** (Charles's "root/power problem upstream" — `√g_rr` vs `g_rr`, a dropped arrival-rate factor). **n=2 is
-FORCED by the DIRECT native derivation ALONE** (Etherington; UDT's null-geodesic Maxwell photons + conservation, §11.0).
-[Weak corroboration only, NOT load-bearing (Charles): the CMB/BAO sectors also use n=2 but ride shaky ansatz ground — do
-not lean on the "intra-theory contradiction".] Under n=2 the cubic→0.47, homogeneous→0.37; and the native VACUUM fails
-~2 mag under BOTH n=1 and n=2 → **defect = sourceless vacuum** (redshift needs charge q≠0 → central singularity → observer
-off-center → wrong low-z Hubble). Trichotomy (Charles): "linear real"=DEAD; "root error upstream"=CONFIRMED (+ it flattered
-the theory); "falsified"=NOT reached (matter-sourced background under n=2 = untested door = frontier). SNe are
-NON-DISCRIMINATING anyway (many curved laws fit ~0.16) — a demonstration, not a yardstick. §12.8 error banner added;
-0.166-mag scorecard + D-POLY-1 SNe validation = CONDITIONS-CHANGED (re-grade under n=2).
-**➤➤ NEXT-SESSION PLAN:** matter-sourced native macro background on the CLEAN core under n=2 → does it reproduce the
-required rise-then-turnover `D_A^req(z)` (peaks z≈1.6)? GATED first step = Q1 ponder (what sources the macro φ;
-`macro_universe_native_MAP.md`).
-**BRANCH NOTE (Charles 2026-07-08, corrects earlier framing):** don't "pick Branch G." The G/P "branches" = ONE switch
-in the base action (how `𝒦` is weighted: compensated=G/shift-exact/SOURCELESS vs uncompensated=P/shift-broken/sourced).
-Matter reaches φ ONLY via the uncompensated (P-type) route, so a matter-sourced macro is P-TYPE — BUT P-type≠contaminated:
-the cell package (winding matter, finite core, mirror seal, AND frozen `h_AB=r²Ω`) is the contamination; P's
-"finite-domain only" is an ARTIFACT of the frozen `h_AB`. So the macro = uncompensated-`𝒦` (P-type) + `h_AB` UNFROZEN +
-clean matter = legitimately macro. Don't pre-select a branch; the symmetry-regime is an OUTPUT of the matter-coupled solve.
-The `𝒦`-switch criterion (what breaks the shift symmetry — for the macro, plausibly the matter itself) is OPEN. Detail:
-`external.md` §4 (corrected) + `luminosity_distance_n2_optics_results.md`. **Matter GUARDRAIL (Charles):** BRACKET the matter budget until it
-achieves CLOSURE (the critical-universe amount at which a valid cell closes; "matter at one critical amount"), NOT until it
-fits the SNe. Closure sets the amount = the PREDICTION; then check DOWNSTREAM against SNe + stellar surveys + the
-visible/dim-baryon split (UDT predicts ~90% non-visible dim baryons, no dark matter) — CONSEQUENCES to verify, NEVER a knob
-tuned to rescue the SNe fit.
-**LEAD (Charles, intuitive — "vacuum as the limit"):** the vacuum came out `√`-shaped (`D_A∝√(1+z)`); hypothesis = the
-vacuum is a LIMIT (like c in SR, where all is a `√`-function of proximity via `γ`), and the matter-CLOSING solution is a
-function of it. Best reading: vacuum = the EDGE limit near x_max, matter REGULARIZES the center (cures the exact vacuum
-failure), interior matched onto the vacuum limit AT CLOSURE. Slots into the closure guardrail. OWED CHECK: does the vacuum
-`√` connect onto the data-required high-z shape? (verify, don't assume). Detail in `luminosity_distance_n2_optics_results.md` §Forward.
+**➤➤➤ LATEST (Charles: stick to simple metric; derive everything from it; quarantine free \(D_A\)).**
+
+**Binding frame:** `UDT_ELEGANT_FRAME.md`.  
+**LIVE foundation:** **`SIMPLE_METRIC_MACRO.md`** + CAS `simple_metric_FE_rederive.py`.  
+**MAP:** `macro_sector_MAP.md`.
+
+**Metric (only):**
+\[
+ds^2=-e^{-2\phi(r)}c^2 dt^2+e^{2\phi(r)}dr^2+r^2 d\Omega^2
+\]
+Field = **\(\phi(r)\)** only. Free \(D_A\) work → **`grok/quarantine_free_DA/`** (includes old explore tiles + mixed P0–P3 scoreboards). Those are **not** theory verdicts against the simple metric.
+
+**φ-only FE (vacuum), derived on this metric:**
+- \(W=e^{2\phi}\): \((r^2\phi')'=0\) → Coulomb \(\phi=\phi_\infty-q/r\)
+- \(W=1\): \(Z(r^2\phi')'=4e^{-2\phi}\)
+- \(Z\) free until observation; \(W\) still a fork
+
+**Scar corrected:** general free-\(D_A\) FE then freeze-to-\(r\) is **invalid provenance** for convicting the simple theory.
+
+**\(c\)-analogy MAP:** `simple_metric_c_analogy_MAP.md` + operator inventory `simple_metric_operator_inventory.md`.  
+Charles: edge should be **like approach to \(c\)** (asymptotic, effect diverges, unattainable). Present geometric EL on simple metric give **finite \(\phi_\infty\) + open \(r\)** — **fail that test**. Root cause: bulk sources \(\propto e^{-2\phi}\) are **self-quenching** as dilation deepens (opposite of \(\gamma\to\infty\) as \(v\to c\)).
+
+**Asymptotics (scoped, still valid as “what those EL do”):** vacuum + dilated dust → Coulomb/plateau, not \(c\)-edge.  
+**Implication:** operators/FE cut suspect under \(c\)-test; simple **metric** still live; free \(D_A\) still quarantined; **no hand \(x_{\max}\)**.
+
+**Both forks tried** (Charles: try both) — `simple_metric_F1_F2_dual_explore.md`:  
+- **F1** (R1 on bulk): `simple_metric_F1_complete.md` — unique vacuum Coulomb; \(c\)-like **law** \(\gamma_{\mathrm{pos}}=e^{\Delta\phi}\); **no** bulk \(c\)-wall.  
+- **F2** (R1 on metric only): `simple_metric_F2_completeness.md` — known geometric bulk is Coulomb or **self-quenching**; **no** derived non-SQ density in the stated class; bulk \(c\)-edge **not found**.  
+**Agreement:** simple metric OK; present operators not a bulk \(c\)-edge; no hand \(x_{\max}\); no free \(D_A\).
+
+**Repo inspiration search:** `simple_metric_operator_inspiration_SEARCH.md` — near-misses for \(c\)-like edge:  
+(1) **xmax boost** \(\phi=\mathrm{arctanh}(x/X)\), \(A=(X-x)/(X+x)\to0\) (best *form*; \(X\) often postulated);  
+(2) **unweighted vacuum** \(e^{-\phi}=C_0+C_1/r\) (finite-\(r\) lapse zero; R1-flawed);  
+(3) **Branch-P** \(U=e^{2\phi}-1\) (**non-SQ** +2 weight; ST/packaging scar);  
+(4) MS \(f\to0\) / HE1 questions. SQ \(\mathcal{K}\)/dilated dust = far misses.
+
+**Near-miss explore (repo+git):** `simple_metric_near_miss_explore_results.md`.  
+- **Unweighted vacuum** \(\Box\phi+e^{-2\phi}(\phi')^2=0\Rightarrow e^{-\phi}=C_0+C_1/r\): **passes** \(c\)-like tests (φ→∞ at finite \(r_*\), \(\ell\) diverges, \(A\to0\)); flawed vs R1 kinetic weight (`f766478`).  
+- **xmax boost** (`867ead9`): best kinematic \(c\)-form; **different** profile than unweighted; \(A=(X-x)/(X+x)\).  
+- R1-weighted + SQ geometric: fail \(c\)-edge (history moved toward these).  
+
+**Kinetic ledger:** `simple_metric_kinetic_ledger.md` — **K-R1** \((r^2\phi')'=0\) (shift-clean, no \(c\)-wall) vs **K-UW** \(\Box\phi+e^{-2\phi}(\phi')^2=0\Rightarrow e^{-\phi}=C_0+C_1/r\) (horizon at \(r_*=-C_1/C_0\), \(\phi\to\infty\), \(\ell\) diverges — **\(c\)-like**). Not the same as xmax \(A=(X-x)/(X+x)\). Fork = bulk shift purity vs horizon vacuum.
+
+**Third path derived:** `simple_metric_third_path_derive.md`.  
+Harmonic triangle on simple metric: \(\Delta\phi=0\) (K-R1), \(\Delta e^{-\phi}=0\) (K-UW), \(\Delta e^{-2\phi}=0\) (K-A \(\Leftrightarrow G_{\theta\theta}=0\), CAS exact).  
+K-A ⇒ \(e^{-2\phi}=C_0+C_1/r\) (Schwarzschild-like branch) — **\(c\)-horizon** at finite \(r_s\).  
+**Working lean:** K-A for \(c\)-like vacuum; K-R1 shift-pure; K-UW clock-harmonic. Not free \(D_A\); \(G_{\theta\theta}=0\) tagged geometric condition (not EH bulk scar).
+
+**K-A developed:** `simple_metric_KA_develop.md`.  
+Schw branch \(A=1-r_s/r\) = standard Schwarzschild areal metric; \(\phi\to\infty\) at finite \(r_s\); static \(z\to\infty\); proper distance to horizon **finite** (unlike K-UW); outer infinity flat. \(c\)-like **horizon**, not outer cosmic wall. Exotic \(C_0<0\) outer zero of \(A\) flagged OPEN.
+
+**K-A outer + matter:** `simple_metric_KA_outer_and_matter.md`.  
+- Exotic \(C_0<0\) outer \(A=0\): **not vacuum** (\(G^t_t\neq 0\)); drop as empty-space edge.  
+- Full vacuum from \(G^t_t=0\): only \(A=1-r_s/r\) (Schw).  
+- MS: \(m=c^2 r(1-A)/(2G)\); matter ⇒ \(m'=4\pi r^2\rho\); **outer** \(c\)-edge ⇔ compactness \(2Gm/c^2r\to 1\) at finite \(r\) (critical-universe style).  
+- Old SQ dilated-dust kinetic path ≠ this Einstein/MS continuum.
+
+**\(x_{\max}\) POSTULATE ACCEPTED (Charles, working):** `simple_metric_xmax_POSTULATE.md`.  
+Form cascade held: `simple_metric_hyperbolic_derive.md` — \(x=x_{\max}\tanh\phi\), \(1+z=\sqrt{(X+x)/(X-x)}\), \(A=(X-x)/(X+x)\).  
+Consilience checklist C0–C8 in the postulate doc; **continue cascade** (relational, \(X\sim k GM/c^2\), closure, n=2 optics check). If consilience stalls, revisit — no mechanism patches.
+
+**Mass–\(x_{\max}\) cascade (C3–C4):** `simple_metric_mass_xmax_cascade.md`.  
+Under join **J1** (\(r\equiv x\)): hyperbolic \(A\) ⇒ \(m=c^2 x^2/(G(X+x))\) ⇒ \(M_{\mathrm{tot}}=c^2 X/(2G)\) ⇒ **\(x_{\max}=2GM_{\mathrm{tot}}/c^2\)** (\(k=2\)). Closure \(A\to0\) and compactness→1 at the bound are **identities** of the profile (filled cosmos, not empty Schw). Absolute scale still needs one ruler; relation is theory. J1 tagged CHOSE.
+
+**J1 + C2 + C5:** `simple_metric_cascade_C2_C5_J1.md`.  
+- **J1** (\(r\equiv x\)): default under simple metric (else free areal vs distance).  
+- **C2** relational: structural pass (bound = distance ahead of each observer).  
+- **C5** n=2 form: \(d_L=X(1+z)^2\frac{(1+z)^2-1}{(1+z)^2+1}\); low-\(z\): \(d_L/X=z+\frac32 z^2+\cdots\).
+
+**Pantheon one-fit (2026-07-08):** `simple_metric_pantheon_xmax_fit_results.md`  
+Data: `Data/Pantheon+SH0ES.dat` + `Data/Pantheon+SH0ES_STAT+SYS.cov` (full cov script).  
+Pre-registered: free = scale offset only (absolute \(X\) needs conventional \(M_B\)); no shape knobs.  
+- **Shape: FAIL** (full cov): hyp χ²/dof ≈ **2.17** vs LCDM-ref ≈ **0.88**; Δχ²≈+2031; RMS 0.31 vs 0.15; high-\(z\) systematic over-distance.  
+- **Scale pin only:** \(X\approx 3600\,\mathrm{Mpc}\) at \(M_B=-19.25\) (convention) — **Pantheon-calibrated**, not pure prediction.  
+- **Mass lock** \(M=c^2X/(2G)\sim 4\times10^{22}M_\odot\) = rename of that scale under J1, **not** independent consilience.  
+No mechanism patches. Cascade **stalls on C5 numeric**.
+
+**SNe validator reconstruct (2026-07-09):** `simple_metric_sne_validator_reconstruct_MAP.md`  
+Old stack: cubic + n=1 still **χ²/dof≈0.94** full cov; naive n=2 same \(r\) → 4.56. Partial components only — not a complete model.
+
+**Native \(D_A\) (2026-07-09):** `simple_metric_DA_native_derive.md`  
+Chart-origin observer on simple metric: **geometric \(D_A=r\) forced** ⇒ \(d_L=r(1+z)^2\).  
+Old \(r(1+z)\) = correct **\(D_M\)**, mislabeled as \(d_L\) (missing one \(\sqrt{g_{rr}}\)).  
+Counterfactual \(D_A=r/(1+z)\) is **not** native geometry. Cubic under true \(d_L\) still fails — profile/join still open.
+
+**Upstream ranking:** `simple_metric_root_upstream_MAP.md`  
+Root A (old \(D_M\) as \(d_L\)) **diagnosed**. Root B most likely **#1 profile/source**, then **#2 J1**.
+
+**Sourced profile observe (2026-07-09):** `simple_metric_sourced_profile_observe_results.md`  
+Compensated + dilated dust on simple metric, true n=2: can reach high \(z\), but **best SNe demo χ²/dof~10**.  
+**Structural:** regular origin ⇒ \(\phi\sim ar^2\) ⇒ \(d_L\sim\sqrt{z}\) at low \(z\) — **wrong linear Hubble**; ρ scans cannot fix.  
+Old cubic’s \(\phi\sim kr\) bought linear \(z\) via irregular origin. Hyp low-\(z\) OK; high-\(z\) still fails.
+
+**Cross-sector root check (2026-07-09):** `simple_metric_cross_sector_root_check.md`  
+Wrong \(d_L=r(1+z)\) was **SNe-load-bearing only**; BAO used \(D_M=r\) (partner labeling, not same bug symbol); CMB mostly not \(d_L\) (scaffolding weak). Clue real; BAO not “clean theory.”
+
+**Free \(D_A\) unquarantined for hunt (Charles 2026-07-09):** `simple_metric_freeDA_unquarantine_HUNT.md`  
+Low-\(z\) observe: `simple_metric_freeDA_lowz_observe_results.md`  
+- Free \(D_A\) **does not** fix low-\(z\): when redshift runs, \(d_L\propto z^{p}\) with **\(p\sim 1/2\)** (same √).  
+- Dilated Path B + quiet center: \(\phi\equiv 0\) invariant (no redshift bootstrap).  
+Free \(D_A\) still allowed **in this hunt** for other questions; it is **not** the low-\(z\) fix.
+
+**Lorentz light clue (2026-07-09):** `lorentz_light_clue_results.md` + `verify_lorentz_light_clue.py` (PASS)  
+Root = **half** energy×rate; full rule \(d_L=(1+z)^2 D_A\). Not a SNe trophy.
+
+**Distance profile dimensional MAP (2026-07-09):** `simple_metric_distance_profile_dimensional_MAP.md`  
+Layer A light count closed; **Layer B profile** = hunt.
+
+**PATH–AREAL split observe (2026-07-09):** `simple_metric_path_areal_split_results.md`  
+P_ell full-cov χ²/dof **2.17→1.02** (LCDM ref 0.88). J1 over-join suspect.
+
+**P_ell mass lock (2026-07-09):** `simple_metric_Pell_mass_lock_derive.md`  
+Motivation: static rods measure \(d\ell=e^{\phi}dr\) ⇒ composition chart on **proper** path (motivated, not unique theorem).  
+Exact: \(r_{\max}/X=\pi/2-1\); **\(r_{\max}=2GM/c^2\)**; \(X=r_{\max}/(\pi/2-1)\). Mass locks to areal saturation, not to \(X=r\).  
+Compactness \(2Gm/(c^2r)=2x/(X+x)\) unchanged in \(x\).
+
+**Success criterion (Charles 2026-07-09):** Do **not** require beating ΛCDM on every observable/χ². Goal = **one theory resolving multiple ΛCDM tensions** (goal, not yet demonstrated). Continue **refining hyperbolic**, not trophy-chasing.
+
+**Structure hygiene (process, not physics):** `STRUCTURE_HYGIENE.md` — layered L1 machine / L2 artifact headers / L3 periodic audit / L4 Charles+blind; build-on grades DEMO|LEAD|CONDITIONAL|BANKED-FOR-STRUCTURE.
+
+**Self-audit (2026-07-09):** `simple_metric_session_self_audit_2026-07-09.md`  
+P_ell = **explore join (CHOSE)**, not canon — χ² improvement must not freeze it. LCDM = residual **reference only**. MS mass = GR-form conditional. Full light = derived on static simple metric (scoped).
+
+**Hyperbolic stack (refine target — premise-tagged):**
+- PATH: \(x=X\tanh\phi\), \(1+z=e^{\phi}\), bound \(X\) — **POSTULATE** + derived form
+- Full light: \(d_L=(1+z)^2 D_A\) — **DERIVED** (static SSS scope)
+- **P_ell** \(x=\ell\): **CHOSE explore** (motivated rods; uniqueness OPEN) — demo χ²/dof~1.02 vs J1~2.17 vs LCDM-ref~0.88
+- Mass under P_ell: **conditional** on P_ell + MS form; \(r_{\max}=2GM/c^2\), \(X=r_{\max}/(\pi/2-1)\)
+- J1 demoted as **scoped residual**, not “metric forbids J1”
+
+**➤➤ NEXT:** R1 uniqueness of path=proper (pre-register characterize; no χ²-driven join pick); then residual/multi-probe. No half light; no free \(D_A\) fit; no LCDM-targeting.
+
+### ↓↓↓ SUPERSEDED-as-frontier (2026-07-08 EOD — n=2 optics + macro-needs-a-source). Still true as results, not the live framing priority. Full record: `luminosity_distance_n2_optics_results.md`. n=2 forced; n=1 Pantheon flattery = artifact; sourceless vacuum fails SNe under n=1 and n=2. Matter budget / closure guardrails remain available when matter is on-stage — subordinate to elegant frame. ↓↓↓
+
+**➤➤➤ (archived summary)** n=2 `d_L=(1+z)²D_A` verified; §12.8 n=1 form was √g_rr error. Vacuum sourceless fails; Q1/matter-source path was the prior NEXT. Branch G/P = one 𝒦-weight switch; cell package ≠ P-type. Matter GUARDRAIL: bracket to closure not SNe fit. Vacuum-as-limit lead (√-shaped) = historical lead only under new frame.
 
 ### ↓↓↓ SUPERSEDED-as-frontier (2026-07-08 midday — the "PIVOT to native-macro / MAP Q1" block; still the live PROGRAM, but
 ### the n=2 optics result above is the latest state). The two-player = cell-specialized; macro never solved natively; MAP =

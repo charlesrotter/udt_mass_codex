@@ -1,0 +1,238 @@
+{
+  "W_compensated": {
+    "solution": "phi = phi_inf - q/r",
+    "observer_phi_r0_0": "phi_inf = q/r0 for q>0 => phi increases to phi_inf as r increases",
+    "z_max": "e^{q/r0} - 1  FINITE",
+    "ell_to_infty": "DIVERGES (e^phi -> e^{phi_inf} > 0)",
+    "null_to_infty": "DIVERGES",
+    "hard_barrier": "FAIL",
+    "redshift_out": "YES (for q>0, looking outward from r0)",
+    "center": "singular at r=0 if q!=0 (chart origin)"
+  },
+  "Q_mono": {
+    "Q_start": -0.5,
+    "Q_end": 6.6415616635588215,
+    "min_dQ": 0.005807930833982233,
+    "strictly_increasing": true
+  },
+  "W1_shots": [
+    {
+      "tag": "W1_out_r1_u-1",
+      "W": "1",
+      "r0": 1.0,
+      "phi0": 0.0,
+      "u0": -1.0,
+      "r_end": 200.0,
+      "phi_end": 2.550620876985885,
+      "u_end": 0.0002713853859624506,
+      "status": "ok",
+      "ell": 2293.900698430456,
+      "null_int": 27187.462411871784,
+      "phi_min": -0.09816958920650115,
+      "phi_max": 2.550620876985885,
+      "notes": "phi_up; reached_rmax"
+    },
+    {
+      "tag": "W1_out_r1_u-0.5",
+      "W": "1",
+      "r0": 1.0,
+      "phi0": 0.0,
+      "u0": -0.5,
+      "r_end": 200.0,
+      "phi_end": 2.4832392189554575,
+      "u_end": 0.00027911354147206575,
+      "status": "ok",
+      "ell": 2149.7337720421037,
+      "null_int": 23826.50524701292,
+      "phi_min": -0.028110012381060957,
+      "phi_max": 2.4832392189554575,
+      "notes": "phi_up; reached_rmax"
+    },
+    {
+      "tag": "W1_out_r1_u0",
+      "W": "1",
+      "r0": 1.0,
+      "phi0": 0.0,
+      "u0": 0.0,
+      "r_end": 200.0,
+      "phi_end": 2.4631615259107664,
+      "u_end": 0.0002720913125065367,
+      "status": "ok",
+      "ell": 2118.0711525923753,
+      "null_int": 23071.03205842211,
+      "phi_min": 0.0,
+      "phi_max": 2.4631615259107664,
+      "notes": "phi_up; reached_rmax"
+    },
+    {
+      "tag": "W1_out_r1_u0.1",
+      "W": "1",
+      "r0": 1.0,
+      "phi0": 0.0,
+      "u0": 0.1,
+      "r_end": 200.0,
+      "phi_end": 2.4656849595235135,
+      "u_end": 0.00026854986332961893,
+      "status": "ok",
+      "ell": 2126.4031190563946,
+      "null_int": 23240.437593397026,
+      "phi_min": 0.0,
+      "phi_max": 2.4656849595235135,
+      "notes": "phi_up; reached_rmax"
+    },
+    {
+      "tag": "W1_out_r1_u0.5",
+      "W": "1",
+      "r0": 1.0,
+      "phi0": 0.0,
+      "u0": 0.5,
+      "r_end": 200.0,
+      "phi_end": 2.500539295906537,
+      "u_end": 0.00024740815246221886,
+      "status": "ok",
+      "ell": 2216.3694453521375,
+      "null_int": 25195.379838325818,
+      "phi_min": 0.0,
+      "phi_max": 2.500539295906537,
+      "notes": "phi_up; reached_rmax"
+    },
+    {
+      "tag": "W1_out_r1_u1",
+      "W": "1",
+      "r0": 1.0,
+      "phi0": 0.0,
+      "u0": 1.0,
+      "r_end": 200.0,
+      "phi_end": 2.605839945809694,
+      "u_end": 0.0002093571601673986,
+      "status": "ok",
+      "ell": 2485.4566502063176,
+      "null_int": 31614.273872804108,
+      "phi_min": 0.0,
+      "phi_max": 2.605839945809694,
+      "notes": "phi_up; reached_rmax"
+    },
+    {
+      "tag": "W1_out_r1_u2",
+      "W": "1",
+      "r0": 1.0,
+      "phi0": 0.0,
+      "u0": 2.0,
+      "r_end": 200.0,
+      "phi_end": 3.035733939756238,
+      "u_end": 0.0001368301020937927,
+      "status": "ok",
+      "ell": 3871.7241004709217,
+      "null_int": 76586.36954783468,
+      "phi_min": 0.0,
+      "phi_max": 3.035733939756238,
+      "notes": "phi_up; reached_rmax"
+    },
+    {
+      "tag": "W1_in_r1_u0",
+      "W": "1",
+      "r0": 1.0,
+      "phi0": 0.0,
+      "u0": 0.0,
+      "r_end": 0.042643244189124595,
+      "phi_end": 30.0,
+      "u_end": -744.7495119785003,
+      "status": "phi_cap",
+      "ell": 26541671908.159508,
+      "null_int": 2.5211603337283047e+23,
+      "phi_min": 0.0,
+      "phi_max": 30.0,
+      "notes": "phi_down"
+    },
+    {
+      "tag": "W1_in_r1_u0.5",
+      "W": "1",
+      "r0": 1.0,
+      "phi0": 0.0,
+      "u0": 0.5,
+      "r_end": 0.03907399393610068,
+      "phi_end": 29.999999999999996,
+      "u_end": -815.2972216130198,
+      "status": "phi_cap",
+      "ell": 21028819952.15964,
+      "null_int": 1.7641269245508307e+23,
+      "phi_min": -0.03293426857241016,
+      "phi_max": 29.999999999999996,
+      "notes": "phi_down"
+    },
+    {
+      "tag": "W1_in_r1_u-0.5",
+      "W": "1",
+      "r0": 1.0,
+      "phi0": 0.0,
+      "u0": -0.5,
+      "r_end": 0.04943860531315884,
+      "phi_end": 30.0,
+      "u_end": -644.0791059456311,
+      "status": "phi_cap",
+      "ell": 29794511506.409534,
+      "null_int": 2.7809432530030374e+23,
+      "phi_min": 0.0,
+      "phi_max": 30.0,
+      "notes": "phi_down"
+    }
+  ],
+  "ell_growth": [
+    [
+      10,
+      46.8080659888402,
+      2.043373436151606,
+      0.03938152732917769
+    ],
+    [
+      20,
+      134.4443121888866,
+      2.2513244788922195,
+      0.011160925993193994
+    ],
+    [
+      50,
+      447.3045148679117,
+      2.3976943875583765,
+      0.002229268788964657
+    ],
+    [
+      100,
+      1017.8555768325459,
+      2.4595154563677077,
+      0.0007110534487966833
+    ],
+    [
+      200,
+      2216.3694453521375,
+      2.500539295906537,
+      0.00024740815246221886
+    ],
+    [
+      500,
+      5957.956936468708,
+      2.5384986890255132,
+      7.045399006377677e-05
+    ]
+  ],
+  "late_fit": {
+    "Q_mean": 11.835601595800044,
+    "phi_inf_est": 2.55833544479235,
+    "max_resid": 0.03214154867526586
+  },
+  "scoreboard": {
+    "W_e2phi_vacuum": {
+      "redshift_out": "YES (q>0)",
+      "hard_barrier": "FAIL",
+      "z_max": "FINITE",
+      "note": "exact Coulomb; open infinity"
+    },
+    "W_1_vacuum": {
+      "redshift_out": "YES (from sample r0=1 after any u0 eventually phi rises)",
+      "hard_barrier": "FAIL (ell grows with R; phi approaches finite plateau-ish)",
+      "Q_strictly_increasing": true,
+      "center": "phi blows as r->0 in samples"
+    },
+    "provenance": "phi-only on simple metric; not free-D freeze"
+  }
+}
