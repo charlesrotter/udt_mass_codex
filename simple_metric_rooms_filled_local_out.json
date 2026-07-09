@@ -1,0 +1,125 @@
+{
+  "steps": {
+    "1_rooms": {
+      "filled_cosmos": {
+        "definition": "A\u21920 at finite r_*=X (or r_wall); domain r\u2208(0,X); M=r_wall/2",
+        "A_sign_trend": "typically A decreases or hits zero (global wall)",
+        "exterior_Schw": "no \u2014 junction mine: cannot C1-match ceiling family",
+        "composition_reach": "natural home for global x=X tanh\u03c6 (with join)"
+      },
+      "local_mass": {
+        "definition": "vacuum exterior A=1-rs/r for r>R_surface; m(R)=rs/2; A\u21921 at infinity",
+        "A_sign_trend": "A increases outward in exterior (A'=rs/r^2>0)",
+        "horizon": "local c-edge at r=rs if present (usually inside or mathematical)",
+        "composition_reach": "global xmax not required for local room"
+      },
+      "shared": {
+        "metric": "simple reciprocal A=e^{-2\u03c6}",
+        "p_r": "=-\u03c1 always (Einstein continuum)",
+        "MS": "m=r(1-A)/2"
+      }
+    },
+    "2_filled_hyp_J1": {
+      "profile": "A=(X-x)/(X+x) under J1 r=x",
+      "M_crit": "X/2",
+      "rho": "(2*X + x)/(4*pi*x*(X**2 + 2*X*x + x**2))",
+      "p_r": "-rho",
+      "p_t_over_rho": "-X**2/(2*X**2 + 3*X*x + x**2)",
+      "dL_over_X": "(u**4 - u**2)/(u**2 + 1)",
+      "DM_over_X": "(u**3 - u)/(u**2 + 1)",
+      "DA_over_X": "(u**2 - 1)/(u**2 + 1)",
+      "dL_lowz": "3*z**2/2 + z",
+      "ell_wall_over_X": 2.5707963267948966,
+      "unattainable": "compositional",
+      "tags": {
+        "J1": "CHOSE working",
+        "hyperbolic": "POSTULATE+derived",
+        "E_continuum": "working lean"
+      }
+    },
+    "2_table": [
+      {
+        "z": 0.1,
+        "x/X": 0.09502262443438923,
+        "DA/X": 0.09502262443438923,
+        "DM/X": 0.10452488687782817,
+        "dL/X": 0.114977375565611
+      },
+      {
+        "z": 0.5,
+        "x/X": 0.38461538461538464,
+        "DA/X": 0.38461538461538464,
+        "DM/X": 0.576923076923077,
+        "dL/X": 0.8653846153846154
+      },
+      {
+        "z": 1.0,
+        "x/X": 0.6,
+        "DA/X": 0.6,
+        "DM/X": 1.2,
+        "dL/X": 2.4
+      },
+      {
+        "z": 2.0,
+        "x/X": 0.8,
+        "DA/X": 0.8,
+        "DM/X": 2.4000000000000004,
+        "dL/X": 7.2
+      }
+    ],
+    "3_local": {
+      "C1_iff_rho_surface_0": true,
+      "const_rho_MS_reciprocal": "C0 only; A' jump (shell if Israel)",
+      "quartics_with_rho_R_0": "C1 match automatic; family \u03b1, R",
+      "samples": [
+        {
+          "A_R": 0.8,
+          "rs": 0.19999999999999996,
+          "A_min_interior": 0.7916695978857938,
+          "rho0": 0.05968310365946075,
+          "ok_A_positive": true,
+          "alpha": 0.5
+        },
+        {
+          "A_R": 0.6,
+          "rs": 0.4,
+          "A_min_interior": 0.5833391957715877,
+          "rho0": 0.1193662073189215,
+          "ok_A_positive": true,
+          "alpha": 1.0
+        },
+        {
+          "A_R": 0.4,
+          "rs": 0.6,
+          "A_min_interior": 0.3750087936573816,
+          "rho0": 0.17904931097838225,
+          "ok_A_positive": true,
+          "alpha": 1.5
+        },
+        {
+          "A_R": 0.19999999999999996,
+          "rs": 0.8,
+          "A_min_interior": 0.16667839154317543,
+          "rho0": 0.238732414637843,
+          "ok_A_positive": true,
+          "alpha": 2.0
+        }
+      ],
+      "fallout": "Local room lives: regular reciprocal interiors with \u03c1\u21920 at surface match Schw C1; filled ceiling family is different room"
+    },
+    "4_synthesis": {
+      "metric_led": [
+        "Two rooms share reciprocal metric + p_r=-\u03c1 + MS",
+        "Filled: global A=0 wall, critical M=r_wall/2; hyp J1 is working character",
+        "Local: asymptotic flat exterior Schw; C1 \u21d4 \u03c1(surface)=0; explicit quartic family exists",
+        "Cannot treat ceiling continuum as star exterior-match without shell",
+        "J1 remains CHOSE for filled macro scale lock"
+      ],
+      "not_done": [
+        "native action",
+        "data consilience",
+        "which room is cosmology"
+      ]
+    }
+  }
+}

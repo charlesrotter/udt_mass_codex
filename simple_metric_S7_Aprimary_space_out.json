@@ -1,0 +1,189 @@
+{
+  "mode": "OBSERVE",
+  "free_phi_tiles": [
+    {
+      "name": "const",
+      "phi": "a",
+      "A": "exp(-2*a)",
+      "rho_EL": "0",
+      "rho_E": "(exp(2*a) - 1)*exp(-2*a)/(8*pi*r**2)",
+      "rho_E_over_rho_EL": "rEL=0",
+      "joint": 0,
+      "A_zeros": []
+    },
+    {
+      "name": "coulomb",
+      "phi": "a - q/r",
+      "A": "exp(2*(-a*r + q)/r)",
+      "rho_EL": "0",
+      "rho_E": "(2*q*exp(2*(-a*r + q)/r) + r*(1 - exp(2*(-a*r + q)/r)))/(8*pi*r**3)",
+      "rho_E_over_rho_EL": "rEL=0",
+      "joint": 0,
+      "A_zeros": []
+    },
+    {
+      "name": "linear_phi",
+      "phi": "a + b*r",
+      "A": "exp(-2*a - 2*b*r)",
+      "rho_EL": "b*exp(2*a + 2*b*r)/r",
+      "rho_E": "(2*b*r + exp(2*a + 2*b*r) - 1)*exp(-2*a - 2*b*r)/(8*pi*r**2)",
+      "rho_E_over_rho_EL": "(2*b*r + exp(2*a + 2*b*r) - 1)*exp(-4*a - 4*b*r)/(8*pi*b*r)",
+      "joint": 0,
+      "A_zeros": []
+    },
+    {
+      "name": "quad_phi",
+      "phi": "a + b*r**2",
+      "A": "exp(-2*a - 2*b*r**2)",
+      "rho_EL": "3*b*exp(2*a + 2*b*r**2)",
+      "rho_E": "(4*b*r**2 + exp(2*a + 2*b*r**2) - 1)*exp(-2*a - 2*b*r**2)/(8*pi*r**2)",
+      "rho_E_over_rho_EL": "(4*b*r**2 + exp(2*a + 2*b*r**2) - 1)*exp(-4*a - 4*b*r**2)/(24*pi*b*r**2)",
+      "joint": 0,
+      "A_zeros": []
+    },
+    {
+      "name": "log_phi",
+      "phi": "a + b*log(r)",
+      "A": "exp(-2*a - 2*b*log(r))",
+      "rho_EL": "b*r**(2*b - 2)*exp(2*a)/2",
+      "rho_E": "r**(-2*b - 2)*(2*b + r**(2*b)*exp(2*a) - 1)*exp(-2*a)/(8*pi)",
+      "rho_E_over_rho_EL": "(2*b + r**(2*b)*exp(2*a) - 1)*exp(-4*a)/(4*pi*b*r**(4*b))",
+      "joint": 0,
+      "A_zeros": []
+    },
+    {
+      "name": "E_ceiling_phi",
+      "phi": "-log(1 - r/X)/2",
+      "A": "(X - r)/X",
+      "rho_EL": "X*(2*X - r)/(4*r*(X - r)**3)",
+      "rho_E": "1/(4*pi*X*r)",
+      "rho_E_over_rho_EL": "(X - r)**3/(pi*X**2*(2*X - r))",
+      "joint": 0,
+      "A_zeros": [
+        "X"
+      ]
+    },
+    {
+      "name": "schw_phi",
+      "phi": "-log(-k/r + 1)/2",
+      "A": "(-k + r)/r",
+      "rho_EL": "-k**2/(4*r*(k - r)**3)",
+      "rho_E": "0",
+      "rho_E_over_rho_EL": "0",
+      "joint": 0,
+      "A_zeros": [
+        "k"
+      ]
+    }
+  ],
+  "numeric_EL": [
+    {
+      "name": "const_0.05",
+      "ok": 1,
+      "A_min": 0.7590102963325399,
+      "A_end": 0.7590102963325399,
+      "phi_end": 0.13786996801149976,
+      "edge": null,
+      "phi_max": 0.13786996801149976,
+      "rho_prescribed_mid": 0.05,
+      "rho_E_mid": 0.003815952245228465,
+      "ratio_E_over_prescribed_mid": 0.0763190449045693
+    },
+    {
+      "name": "const_0.2",
+      "ok": 1,
+      "A_min": 0.4065910445155423,
+      "A_end": 0.4065910445155423,
+      "phi_end": 0.4499737016621239,
+      "edge": null,
+      "phi_max": 0.4499737016621239,
+      "rho_prescribed_mid": 0.2,
+      "rho_E_mid": 0.013562239738943424,
+      "ratio_E_over_prescribed_mid": 0.06781119869471712
+    },
+    {
+      "name": "rho_1_r",
+      "ok": 1,
+      "A_min": 0.7609801673411714,
+      "A_end": 0.7609801673411714,
+      "phi_end": 0.13657399138628717,
+      "edge": null,
+      "phi_max": 0.13657399138628717,
+      "rho_prescribed_mid": 0.054446339487884014,
+      "rho_E_mid": 0.00775029772942886,
+      "ratio_E_over_prescribed_mid": 0.14234745259878379
+    },
+    {
+      "name": "rho_r",
+      "ok": 1,
+      "A_min": 0.6701739423923044,
+      "A_end": 0.6701739423923044,
+      "phi_end": 0.20010899239024915,
+      "edge": null,
+      "phi_max": 0.20010899239024915,
+      "rho_prescribed_mid": 0.04951695602692652,
+      "rho_E_mid": 0.0025694412269583735,
+      "ratio_E_over_prescribed_mid": 0.05189012881892726
+    },
+    {
+      "name": "gauss",
+      "ok": 1,
+      "A_min": 0.8163017856689894,
+      "A_end": 0.8163017856689894,
+      "phi_end": 0.10148557850580657,
+      "edge": null,
+      "phi_max": 0.10148557850580657,
+      "rho_prescribed_mid": 0.012489909069033333,
+      "rho_E_mid": 0.009117934155535261,
+      "ratio_E_over_prescribed_mid": 0.7300240622361033
+    }
+  ],
+  "notes": [
+    "A-primary compensated: vacuum \u21d2 Coulomb \u03c6; \u03c1_EL=0. Einstein vacuum Schw is different \u03c6.",
+    "Free \u03c6 defines \u03c1_EL; that \u03c1_EL almost never equals Einstein \u03c1_E (joint thin).",
+    "E-ceiling \u03c6 requires \u03c1_EL \u2260 \u03c1_E (known residual) \u2014 not an A-primary solution for Einstein density.",
+    "Numeric EL with free \u03c1 + regular BC \u03c6=\u03c6'=0: \u03c6 grows, A=e^{-2\u03c6} drops but may not hit geometric MS wall the same way \u2014 characterize A_min, not force A=0.",
+    "Uncompensated vacuum sources e^{-2\u03c6} self-coupling \u2014 different branch from compensated.",
+    "No unique continuum selected; A-primary and E-primary remain two maps of 'matter + simple metric'."
+  ],
+  "uncomp_coulomb_is_sol": 0,
+  "uncomp_vacuum_numeric": [
+    {
+      "s": 0.0,
+      "ok": 1,
+      "A_min": 0.006098647410983648,
+      "A_end": 0.006098647410983648,
+      "phi_end": 2.549844134147116,
+      "r_end": 2.0,
+      "A_min_r": 2.0
+    },
+    {
+      "s": 0.01,
+      "ok": 1,
+      "A_min": 0.006098743667207125,
+      "A_end": 0.006098743667207125,
+      "phi_end": 2.5498362426051573,
+      "r_end": 2.0,
+      "A_min_r": 2.0
+    },
+    {
+      "s": 0.05,
+      "ok": 1,
+      "A_min": 0.006099127722479406,
+      "A_end": 0.006099127722479406,
+      "phi_end": 2.5498047571713354,
+      "r_end": 2.0,
+      "A_min_r": 2.0
+    },
+    {
+      "s": 0.1,
+      "ok": 1,
+      "A_min": 0.006099607252360717,
+      "A_end": 0.006099607252360717,
+      "phi_end": 2.549765447367282,
+      "r_end": 2.0,
+      "A_min_r": 2.0
+    }
+  ],
+  "verdict": "A-primary space: vacuum Coulomb; free \u03c6 \u21d2 \u03c1_EL catalog; prescribed-\u03c1 EL numerics yield \u03c6 with A=e^{-2\u03c6} declining; \u03c1_E \u2260 \u03c1_prescribed in general \u2014 routes stay split. No winner, no glue."
+}

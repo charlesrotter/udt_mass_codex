@@ -1,0 +1,6 @@
+{
+  "theorem": "H_loc * proper_to_wall = 1 for all seats IFF A linear in r (L family)",
+  "H_correct": "H = -A'/(2 sqrt(A))",
+  "composition": "1+z multiplies along seat chains",
+  "large_angle": "finite stick DA close to small-angle until ell ~ 0.1 X"
+}

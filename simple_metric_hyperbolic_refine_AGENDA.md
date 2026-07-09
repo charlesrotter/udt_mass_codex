@@ -48,15 +48,15 @@ SNe under P_ell (~1.02 vs LCDM ~0.88 on 1580 full cov) = **competitive enough to
 
 ---
 
-## Live hyperbolic package (refine *this*, don’t replace wholesale)
+## Live hyperbolic package (Charles J1 posture 2026-07-09)
 
-1. **Postulate:** finite max path distance \(X\)  
-2. **PATH:** \(x=X\tanh\phi\), \(1+z=e^{\phi}\), \(A=(X-x)/(X+x)\)  
-3. **Light:** \(d_L=(1+z)^2 D_A\) (Layer A fixed)  
-4. **Working join P_ell:** path \(x=\) proper radial length → \(D_A=r(x)=\int e^{-\phi}dx\)  
-5. **Mass:** \(r_{\max}=X(\pi/2-1)=2GM/c^2\) (no J1)
+1. **Postulate:** finite max distance \(X=x_{\max}\) — **defines sphere size** (Charles intuition)  
+2. **J1:** \(D_A=r=x=X\tanh\phi\), \(1+z=e^{\phi}\), \(A=(X-x)/(X+x)\) — **CHOSE by Charles**, not χ²  
+3. **Light:** \(d_L=(1+z)^2 D_A=(1+z)^2 x\) (Layer A fixed)  
+4. **Mass under J1:** \(X=2GM_{\mathrm{tot}}/c^2\) (conditional on J1 + MS form)  
+5. **P_ell:** explore contrast only (better SNe residual; **does not** override J1 posture)
 
-**Demoted:** J1 \(D_A=x\) (stiff; χ²/dof~2.17).
+**R1 closed as uniqueness:** metric does not force J1 vs P_ell; Charles picks **J1**.
 
 ---
 
@@ -64,14 +64,14 @@ SNe under P_ell (~1.02 vs LCDM ~0.88 on 1580 full cov) = **competitive enough to
 
 | # | Item | Why |
 |---|------|-----|
-| R1 | **Is \(x=\ell\) forced?** Static-rod composition uniqueness vs radar/affine | P_ell still motivated-not-proven |
-| R2 | **High-\(z\) residual** under P_ell (characterize shape, not retune) | Still softer than LCDM at far end |
-| R3 | **BAO / transverse** with \(D_A=r(x)\), \(D_M=(1+z)D_A\) under full ladder | Multi-probe same theory |
-| R4 | **Local / weak field** consistency of linear \(\phi\sim x/X\) | Hubble + Newtonian limits |
-| R5 | **Tension list** (H0-language-free): which multi-probe stories this stack can address | Match Charles success bar |
+| R1 | Path ops uniqueness | **DONE** — not forced; Charles → J1 |
+| R2 | **High-\(z\) residual under J1 + full light** (characterize, not retune) | Known stiff vs data; multi-tension bar ≠ must beat LCDM |
+| R3 | **BAO / transverse** same ladder \(D_A=x\), full Etherington names | Multi-probe |
+| R4 | **Local / weak field** \(\phi\sim x/X\) | Sanity |
+| R5 | **Tension list** this stack can address | Success bar |
 
 ---
 
 ## One-line
 
-**Refine hyperbolic + P_ell + full light as the live model; win by multi-tension unity, not by zeroing every ΛCDM χ² gap.**
+**Refine hyperbolic + J1 + full light; \(x_{\max}\) = max sphere size by Charles posture; win by multi-tension unity, not by switching joins for χ².**

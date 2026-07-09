@@ -1,0 +1,8 @@
+{
+  "general_A_pt_half": "Eq(A(r), C1/r + C2*r + 1)",
+  "unique_with_reg_wall": "A=1-r/X",
+  "L_composition": "r1+r2-r1*r2/X",
+  "L_chart": "r/X=1-exp(-2*phi)=1-A",
+  "H_chart": "x/X=tanh(phi)",
+  "verdict": "L unique under pt=-rho/2 + reg + wall; L also kinematic via chart 1-e^{-2phi} and associative \u2295"
+}

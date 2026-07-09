@@ -1,0 +1,16 @@
+{
+  "fallout": [
+    "reciprocal \u21d2 G^t_t=G^r_r \u21d2 p_r=-\u03c1",
+    "vacuum A=1+C/r (Schw family), not Coulomb",
+    "hydrostatic \u2192 \u03c1'+2(\u03c1+p_t)/r=0"
+  ],
+  "G_tt_general": "(-2*r*Derivative(lam(r), r) - exp(2*lam(r)) + 1)*exp(-2*lam(r))/r**2",
+  "G_rr_general": "(2*r*Derivative(nu(r), r) - exp(2*lam(r)) + 1)*exp(-2*lam(r))/r**2",
+  "pr_plus_rho": "0",
+  "identity_pr_eq_minus_rho": true,
+  "vacuum_A": "Eq(A(r), (C1 + r)/r)",
+  "coulomb_rho_E": "(2*q*exp(2*(-a*r + q)/r) + r*(1 - exp(2*(-a*r + q)/r)))/(8*pi*r**3)",
+  "hydro_reduced": "rho' + 2(rho+p_t)/r = 0",
+  "ceiling_hydro_residual": "0",
+  "verdict": "Einstein+reciprocal \u21d2 p_r=-\u03c1; vacuum Schw-type \u2260 R1 Coulomb; package split is structural mine fallout."
+}

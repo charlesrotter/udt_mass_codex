@@ -1,0 +1,29 @@
+{
+  "pr_plus_rho": "0",
+  "identity_pr_eq_minus_rho": true,
+  "schw_vacuum_G": [
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "pr0_solution": "Eq(A(r), (C1 + r)/r)",
+  "ceiling": {
+    "rho": "1/(4*pi*X*r)",
+    "p_r": "-1/(4*pi*X*r)",
+    "p_perp": "-1/(8*pi*X*r)",
+    "M_crit": "X/2"
+  },
+  "residual_ratio": "pi*X**2*(2*X - r)/(X - r)**3",
+  "critical_mass_closes_geometry": true,
+  "critical_mass_closes_EL_mismatch": false,
+  "ratio_samples": {
+    "0.1": "1900*pi/729",
+    "0.25": "112*pi/27",
+    "0.5": "12*pi",
+    "0.75": "80*pi",
+    "0.9": "1100*pi"
+  },
+  "rho_mean": "3/(8*pi*X**2)",
+  "verdict": "Critical M=X/2 closes geometric sphere. Does not glue R1 EL to Einstein. S3 p_r=0 selection withdrawn: simple metric has p_r=-\u03c1 always; ceiling has p_r=-\u03c1, p_perp=-\u03c1/2."
+}

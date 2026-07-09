@@ -23,7 +23,15 @@
 **Low-\(z\) theorems:** linear Hubble ⇔ \(\phi'(0)\neq 0\) under n=2+\(D_A=r\).  
 **PATH–AREAL:** P_ell χ²/dof 2.17→1.02; mass lock \(r_{\max}=2GM/c^2\), \(X=r_{\max}/(\pi/2-1)\).  
 **Success bar:** multi-tension one theory — not beat ΛCDM everywhere.  
-**NEXT:** refine hyperbolic (P_ell + full light); path=proper uniqueness; high-\(z\) residual.
+**Charles:** \(X\)=sphere-size ceiling; full light.  
+**S3 dust selection WITHDRAWN** (wrong \(G^r_r\)); identity \(p_r=-\rho\).  
+**Critical matter:** \(M=X/2\) **closes** sphere; does **not** glue R1–Einstein.  
+**S5–S9:** E vs A maps; EH vary-φ empty; native package OPEN.  
+**FOCUS: kaleidoscope** (inter-frame appearance). Static L **largely mined**.  
+**MINE:** `simple_metric_kaleidoscope_MINE_results.md` + K1–K4.  
+**★** Universal ladder; \(H\times L_{\mathrm{rem}}=1\) characterizes L; critical depth \(z=\sqrt{3}-1\) unifies photon impact / counts / \(d_L=L_{\mathrm{room}}\).  
+**BAO angular:** not from pure L — cell/micro **shelved** (Charles).  
+**NEXT:** ponder; or **time-live** kaleidoscope sector.
 
 ---
 

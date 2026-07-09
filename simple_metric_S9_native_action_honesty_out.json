@@ -1,0 +1,25 @@
+{
+  "identities": {
+    "flat_R2_plus_K": "0",
+    "compensated_cancel": "0",
+    "EH_EL_identically_zero": true,
+    "R1_EL_is_coulomb": " (r^2 phi')' = 0 "
+  },
+  "EL": {
+    "R1": "r*(-r*Derivative(phi(r), (r, 2)) - 2*Derivative(phi(r), r))",
+    "R1_uncomp": "-r**2*Derivative(phi(r), (r, 2)) - 2*r*Derivative(phi(r), r) + 4*exp(-2*phi(r))",
+    "EH_reduced": "0"
+  },
+  "ledger": {
+    "metric": "THEORY",
+    "R1_kinetic": "shift-clean candidate",
+    "W_on_K": "FORK",
+    "Z": "FREE",
+    "L_m": "CHOSE probe",
+    "EH_on_ansatz_vary_phi": "EL\u22610 \u2014 not a \u03c6 dynamics package",
+    "E_primary": "G=8\u03c0T on ansatz (different problem type)",
+    "A_primary": "R1 \u03c6-variational",
+    "native_package": "OPEN"
+  },
+  "verdict": "EH reduced vary-\u03c6 is empty; R1 is true \u03c6-variational; E-primary is Einstein-on-ansatz; native package OPEN."
+}

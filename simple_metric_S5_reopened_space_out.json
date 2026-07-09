@@ -1,0 +1,241 @@
+{
+  "tiles": [
+    {
+      "name": "T1_schw_vacuum",
+      "meta": {
+        "type": "vacuum",
+        "params": [
+          "rs"
+        ]
+      },
+      "rho": "0",
+      "p_r": "0",
+      "p_perp": "0",
+      "m": "rs/2",
+      "A_0": "-oo",
+      "Ap_0": "oo",
+      "A_zeros": [
+        "rs"
+      ],
+      "vacuum": true,
+      "r1_vacuum_LHS": "rs**2/(2*(r - rs)**2)",
+      "r1_holds": false
+    },
+    {
+      "name": "T2_flat",
+      "meta": {
+        "type": "vacuum",
+        "params": []
+      },
+      "rho": "0",
+      "p_r": "0",
+      "p_perp": "0",
+      "m": "0",
+      "A_0": "1",
+      "Ap_0": "0",
+      "A_zeros": [],
+      "vacuum": true,
+      "r1_vacuum_LHS": "0",
+      "r1_holds": true
+    },
+    {
+      "name": "T3_linear_ceiling",
+      "meta": {
+        "type": "ceiling",
+        "params": [
+          "X"
+        ]
+      },
+      "rho": "1/(4*pi*X*r)",
+      "p_r": "-1/(4*pi*X*r)",
+      "p_perp": "-1/(8*pi*X*r)",
+      "m": "r**2/(2*X)",
+      "A_0": "1",
+      "Ap_0": "-1/X",
+      "A_zeros": [
+        "X"
+      ],
+      "vacuum": false,
+      "r1_ratio": "pi*X**2*(2*X - r)/(X - r)**3",
+      "r1_ratio_r_dependent": true,
+      "r1_holds": false
+    },
+    {
+      "name": "T4_quadratic",
+      "meta": {
+        "type": "regular_center",
+        "params": [
+          "a2"
+        ]
+      },
+      "rho": "3*a2/(8*pi)",
+      "p_r": "-3*a2/(8*pi)",
+      "p_perp": "-3*a2/(8*pi)",
+      "m": "a2*r**3/2",
+      "A_0": "1",
+      "Ap_0": "0",
+      "A_zeros": [
+        "1/sqrt(a2)"
+      ],
+      "vacuum": false,
+      "r1_ratio": "4*pi*(a2*r**2 - 3)/(3*(a2*r**2 - 1)**3)",
+      "r1_ratio_r_dependent": true,
+      "r1_holds": false
+    },
+    {
+      "name": "T5_quad_plus_r4",
+      "meta": {
+        "type": "regular_center",
+        "params": [
+          "a2",
+          "a4"
+        ]
+      },
+      "rho": "(3*a2 + 5*a4*r**2)/(8*pi)",
+      "p_r": "(-3*a2 - 5*a4*r**2)/(8*pi)",
+      "p_perp": "(-3*a2 - 10*a4*r**2)/(8*pi)",
+      "m": "r**3*(a2 + a4*r**2)/2",
+      "A_0": "1",
+      "Ap_0": "0",
+      "A_zeros": [
+        "sqrt(2)*sqrt(-a2 + sqrt(a2**2 + 4*a4))/(2*sqrt(a4))"
+      ],
+      "vacuum": false,
+      "r1_ratio": "4*pi*(-2*r**2*(a2 + 2*a4*r**2)**2 + 2*(a2 + 2*a4*r**2)*(a2*r**2 + a4*r**4 - 1) + (a2 + 6*a4*r**2)*(a2*r**2 + a4*r**4 - 1))/((3*a2 + 5*a4*r**2)*(a2*r**2 + a4*r**4 - 1)**3)",
+      "r1_ratio_r_dependent": true,
+      "r1_holds": false
+    },
+    {
+      "name": "T6_exp_coulomb_A",
+      "meta": {
+        "type": "other",
+        "params": [
+          "q"
+        ]
+      },
+      "rho": "(-2*q + r*exp(2*q/r) - r)*exp(-2*q/r)/(8*pi*r**3)",
+      "p_r": "(2*q - r*exp(2*q/r) + r)*exp(-2*q/r)/(8*pi*r**3)",
+      "p_perp": "q**2*exp(-2*q/r)/(4*pi*r**4)",
+      "m": "r/2 - r*exp(-2*q/r)/2",
+      "A_0": "0",
+      "Ap_0": "0",
+      "A_zeros": [],
+      "vacuum": false,
+      "r1_ratio": "0",
+      "r1_ratio_r_dependent": false,
+      "r1_const_Z": "0",
+      "r1_holds": true
+    },
+    {
+      "name": "T7_power_r3",
+      "meta": {
+        "type": "power",
+        "params": [
+          "k"
+        ],
+        "n": 3
+      },
+      "rho": "k*r/(2*pi)",
+      "p_r": "-k*r/(2*pi)",
+      "p_perp": "-3*k*r/(4*pi)",
+      "m": "k*r**4/2",
+      "A_0": "1",
+      "Ap_0": "0",
+      "A_zeros": [
+        "k**(-1/3)"
+      ],
+      "vacuum": false,
+      "r1_ratio": "3*pi*(k*r**3 - 4)/(2*(k*r**3 - 1)**3)",
+      "r1_ratio_r_dependent": true,
+      "r1_holds": false
+    }
+  ],
+  "identities": {
+    "p_r_eq_minus_rho": true,
+    "m": "r(1-A)/2",
+    "critical_close": "A(X)=0 \u21d2 m(X)=X/2"
+  },
+  "census": {
+    "hits_outer_A0_possible": [
+      "T1_schw_vacuum",
+      "T3_linear_ceiling",
+      "T4_quadratic",
+      "T5_quad_plus_r4",
+      "T7_power_r3"
+    ],
+    "regular_center_A1_Aprime0": [
+      "T2_flat",
+      "T4_quadratic",
+      "T5_quad_plus_r4",
+      "T7_power_r3"
+    ],
+    "singular_center": [
+      "T1_schw_vacuum",
+      "T3_linear_ceiling"
+    ],
+    "r1_el_holds_any_const_Z": [
+      "T2_flat",
+      "T6_exp_coulomb_A"
+    ],
+    "vacuum_rho0": [
+      "T1_schw_vacuum",
+      "T2_flat"
+    ]
+  },
+  "numeric_rho_probes": {
+    "const_rho_soft": {
+      "r_edge": null,
+      "m_at_edge": 0.3351042686782488,
+      "A_min": 0.6648957313217512,
+      "A_end": 0.6648957313217512,
+      "m_end": 0.3351042686782488,
+      "compactness_end": 0.3351042686782488
+    },
+    "const_rho_criticalish": {
+      "r_edge": 1.2230964912280702,
+      "m_at_edge": 0.6131467118161978,
+      "A_min": -1.6808341494259902,
+      "A_end": -1.6808341494259902,
+      "m_end": 2.68083414942599,
+      "compactness_end": 2.68083414942599
+    },
+    "rho_1_over_r": {
+      "r_edge": 1.594005263157895,
+      "m_at_edge": 0.7982324392855351,
+      "A_min": -0.25663705829306815,
+      "A_end": -0.25663705829306815,
+      "m_end": 1.2566370582930682,
+      "compactness_end": 1.2566370582930682
+    },
+    "rho_1_over_r2": {
+      "r_edge": null,
+      "m_at_edge": 0.5023139610157432,
+      "A_min": 0.4976860389842568,
+      "A_end": 0.4976860389842568,
+      "m_end": 0.5023139610157432,
+      "compactness_end": 0.5023139610157432
+    },
+    "gauss": {
+      "r_edge": null,
+      "m_at_edge": 0.07517242532411732,
+      "A_min": 0.7368223141800327,
+      "A_end": 0.9248275746758827,
+      "m_end": 0.07517242532411732,
+      "compactness_end": 0.07517242532411732
+    },
+    "gauss_dense": {
+      "r_edge": null,
+      "m_at_edge": 0.08909323741613266,
+      "A_min": 0.532143345250837,
+      "A_end": 0.9109067625838674,
+      "m_end": 0.08909323741613266,
+      "compactness_end": 0.08909323741613266
+    }
+  },
+  "quad_lowz_power": 0.5034612615464468,
+  "linear_lowz_power": 1.004952262094086,
+  "bao_identity": "D_M = r/\u221aA when D_A=r; profile-dependent r(z)",
+  "observing_not_targeting": true,
+  "no_chi2_selector": true,
+  "verdict": "Correct continuum space: p_r=-\u03c1 always; outer wall \u21d4 critical m=X/2; tiles include vacuum, linear ceiling, regular fills, etc.; R1 EL does not hold on generic Einstein tiles; no unique selection claimed; no A(r) shopping."
+}

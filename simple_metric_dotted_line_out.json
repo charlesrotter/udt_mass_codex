@@ -1,0 +1,9 @@
+{
+  "primitive": "A = e^{-2\u03c6}",
+  "composition": "A12 = A1*A2",
+  "compactness": "C = 1-A = 2m/r",
+  "L": "r/X = C = 1-A",
+  "H": "r/X = C/(2-C) = tanh \u03c6",
+  "wall": "A\u21920, C\u21921, m\u2192r/2",
+  "verdict": "One residual A connects metric, mass, composition, embeddings"
+}

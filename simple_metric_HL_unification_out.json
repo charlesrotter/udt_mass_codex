@@ -1,0 +1,14 @@
+{
+  "spine": [
+    "A=e^{-2\u03c6}",
+    "\u03c6 additive",
+    "A multiplies under composition",
+    "wall A\u21920"
+  ],
+  "H_embedding": "r/X=tanh \u03c6=(1-A)/(1+A)",
+  "L_embedding": "r/X=1-A",
+  "L_composition": "r1+r2-r1*r2/X",
+  "H_composition": "(r1+r2)/(1+r1*r2/X**2)",
+  "pt_half": "equivalent to L embedding + Einstein",
+  "verdict": "Same spine; fork is f(A) embedding into areal radius"
+}

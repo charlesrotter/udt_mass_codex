@@ -1,0 +1,21 @@
+{
+  "rho": "(2*X + x)/(4*pi*x*(X**2 + 2*X*x + x**2))",
+  "pt": "(2*X*x + (-X + x)*(X + x) - (X + x)**2)/(8*pi*x*(X + x)**3)",
+  "pt_over_rho": "-X**2/(2*X**2 + 3*X*x + x**2)",
+  "M": "X/2",
+  "dL_over_X": "(u**4 - u**2)/(u**2 + 1)",
+  "dL_series": "3*z**2/2 + z",
+  "free": [
+    "X",
+    "observer_zero"
+  ],
+  "fixed_by_kinematics": [
+    "A(x)",
+    "rho",
+    "p_r",
+    "p_t",
+    "d_L(z)",
+    "relational"
+  ],
+  "verdict": "Kinematics fix A; Einstein reads continuum; light fixed; one scale X; no EOS menu."
+}

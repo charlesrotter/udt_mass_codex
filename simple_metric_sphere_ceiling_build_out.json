@@ -1,0 +1,32 @@
+{
+  "linear_ceiling": {
+    "label": "A=1-r/X full light",
+    "chi2_dof": 0.9098574003059196,
+    "rms": 0.1581642243395007,
+    "mean_res_hi": -0.01909917424158073,
+    "offset_O": 22.356530447388064
+  },
+  "hyp_tanh": {
+    "label": "hyp tanh J1 full light",
+    "chi2_dof": 2.166501637078457,
+    "rms": 0.30740259169961603,
+    "mean_res_hi": -0.5994215538276827,
+    "offset_O": 23.529203067839585
+  },
+  "lcdm_ref": {
+    "label": "LCDM Om=0.3 REF only",
+    "chi2_dof": 0.8804650617388546,
+    "rms": 0.15410573565217986,
+    "mean_res_hi": -0.03601644698828036,
+    "offset_O": 23.79692528192168
+  },
+  "X_Mpc_MB_m19p25": 2095.588900406195,
+  "M_tot_Msun": 2.189491573257703e+22,
+  "provenance": {
+    "A": "1-r/X",
+    "vacuum": false,
+    "rho": "c^2/(4 pi G X r)",
+    "M_tot": "c^2 X/(2G)",
+    "not": "tanh composition; half light; free D_A fit"
+  }
+}

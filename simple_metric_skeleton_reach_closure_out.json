@@ -1,0 +1,18 @@
+{
+  "m": "x**2/(X + x)",
+  "M_crit": "X/2",
+  "rho": "(2*X + x)/(4*pi*x*(X**2 + 2*X*x + x**2))",
+  "pt_over_rho": "-X**2/(2*X**2 + 3*X*x + x**2)",
+  "dL_over_X": "(u**4 - u**2)/(u**2 + 1)",
+  "ell_samples_X1": {
+    "0.5": 0.6575733718138602,
+    "0.9": 1.6838796206445674,
+    "0.99": 2.2881894936738227,
+    "0.999": 2.481361061813948,
+    "0.9999": 2.5425122912514677
+  },
+  "ell_wall": "X(1+pi/2) finite",
+  "unattainable": "compositional (x never = X), not infinite proper distance",
+  "linear_M": "X/2",
+  "verdict": "J1 hyperbolic reach = critical fill M=X/2; proper distance to wall finite; compositional unattainability."
+}

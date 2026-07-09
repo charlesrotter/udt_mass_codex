@@ -1,0 +1,9 @@
+{
+  "selection": "p_r=0 + simple metric MS \u21d2 A=1+Kr \u21d2 A=1-r/X with outer zero",
+  "rho": "1/(4 pi X r)",
+  "p_r": 0,
+  "p_perp": "nonzero (anisotropic) \u2014 honest",
+  "M_tot": "X/2 (c=G=1)",
+  "dL_over_X": "z(z+2)",
+  "grade": "CONDITIONAL \u2014 dust p_r=0 is named continuum condition, not full action matter"
+}

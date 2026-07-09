@@ -1,0 +1,27 @@
+{
+  "forced": [
+    "A=e^{-2\u03c6}, D_A=r, d\u2113=e^\u03c6 dr",
+    "1+z=e^\u0394\u03c6; d_L=(1+z)^2 r",
+    "composition x=X tanh \u03c6 if finite bound postulate",
+    "MS: A=0 \u21d2 m=r_wall/2",
+    "p_r=-\u03c1 on reciprocal Einstein continuum"
+  ],
+  "joins": {
+    "P_ell": {
+      "r_max_over_X": 0.5707963267948966,
+      "M_over_X": 0.2853981633974483,
+      "tag": "CHOSE explore"
+    },
+    "J1": {
+      "r_max_over_X": 1.0,
+      "M_over_X": 0.5,
+      "tag": "CHOSE working (Charles sphere-size)",
+      "dL_form": "(1+z)^2 * ((1+z)^2-1)/((1+z)^2+1) * X"
+    },
+    "free_r_of_x": {
+      "M_wall": "r(X)/2",
+      "tag": "free-and-explored class"
+    }
+  },
+  "verdict": "J1 not forced; working lean default; join-free skeleton keeps reach + M=r_wall/2 + areal light."
+}

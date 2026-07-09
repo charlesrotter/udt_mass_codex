@@ -1,0 +1,7 @@
+{
+  "principle": "dr/A = kappa d\u03c6",
+  "result": "r/X = 1-A with X=kappa/2",
+  "H_compatible": false,
+  "L_compatible": true,
+  "verdict": "P-opt forces L uniquely on reciprocal metric"
+}

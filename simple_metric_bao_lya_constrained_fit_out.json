@@ -1,0 +1,20 @@
+{
+  "method": "empirical monopole bump template + poly BB + full cov chi2; alphas clipped 0.7-1.3",
+  "z_eff": 2.367472223647019,
+  "Dmat_is_identity": true,
+  "Dmat_offdiag_max": 0.0,
+  "best": {
+    "chi2": 199075.19728569148,
+    "apar": 1.099349477695601,
+    "aperp": 1.1857383254611702,
+    "F": 5.0227566251530815,
+    "F_fid": 4.6568157188531245,
+    "R_L": 5.1699345885170995,
+    "F_official": 4.6589229144667375
+  },
+  "chi2_forced_RL_ratio": 203101.75888329258,
+  "chi2_fiducial_alphas": 200670.54653739984,
+  "Delta_chi2_RL_vs_best": 4026.561597601103,
+  "note": "Crude template; not DESI picca pipeline. Dmat identity in extract. Prefer official F for LyA.",
+  "elapsed_s": 480.17589807510376
+}

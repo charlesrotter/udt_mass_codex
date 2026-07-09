@@ -1,0 +1,18 @@
+{
+  "fallout": [
+    "A continuous \u21d4 MS mass continuous",
+    "A cont + A' jump \u21d2 \u03c3=0, anisotropic S^\u03b8_\u03b8",
+    "power-lapse ceiling family A' < 0 cannot C1-match Schw A' > 0"
+  ],
+  "rs_from_A_cont_ceiling": "R**2/X",
+  "S_theta_ceiling_shell": "1/(8*pi*sqrt(X)*sqrt(-R + X))",
+  "C1_power_to_Schw": "impossible for p>0 (A' sign)",
+  "S_theta_general": "(-dAm + dAp)/(16*pi*sqrt(A0))",
+  "rooms": {
+    "star_like": "A increases to surface; can match Schw exterior",
+    "filled_cosmos_ceiling": "A\u21920 at finite X; global wall; not C1 star",
+    "thin_shell": "legal; not adopted as UDT edge ontology"
+  },
+  "shell_at_wall": "diverges as A\u21920",
+  "verdict": "Junction mine: ceiling tiles \u2260 star interiors for Schw exterior; thin shell possible but anisotropic; filled cosmos is separate room."
+}

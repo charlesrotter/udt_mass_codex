@@ -1,0 +1,16 @@
+{
+  "EL_nu": "2*(2*r*Derivative(lam(r), r) + exp(2*lam(r)) - 1)*exp(-lam(r) + nu(r))",
+  "EL_lam": "2*(-2*r*Derivative(nu(r), r) + exp(2*lam(r)) - 1)*exp(-lam(r) + nu(r))",
+  "EL_phi_after_substitute": "0",
+  "substitute_empty": true,
+  "EL_equal_on_constraint": true,
+  "vacuum_A": "Eq(A(r), (C1 + r)/r)",
+  "fallout": [
+    "free EH: nontrivial EL_\u03bd, EL_\u03bb",
+    "substitute reciprocity into L then vary \u03c6: empty EL",
+    "restrict ELs to \u03bd+\u03bb=0: EL_\u03bd=EL_\u03bb, set 0 \u21d2 A=1+C/r",
+    "E-primary = constrained Einstein eqs, not substituted-\u03c6 EH",
+    "not equal to R1 Coulomb vacuum"
+  ],
+  "verdict": "Order of operations: constrain equations \u2260 substitute into action; only the former yields Schw vacuum on reciprocal family."
+}

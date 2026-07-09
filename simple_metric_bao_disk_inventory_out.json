@@ -1,0 +1,72 @@
+{
+  "eboss_disk_pure_AP": [
+    {
+      "src": "eBOSS_disk",
+      "z": 0.38,
+      "tracer": "LRG",
+      "F": 0.45202464788732394,
+      "sF": 0.024059348055457716,
+      "RL": 0.4522,
+      "ratio": 0.9996122244301724,
+      "pull": -0.0072883152225014305
+    },
+    {
+      "src": "eBOSS_disk",
+      "z": 0.51,
+      "tracer": "LRG",
+      "F": 0.6306005719733079,
+      "sF": 0.03199511790580799,
+      "RL": 0.64005,
+      "ratio": 0.985236422112816,
+      "pull": -0.2953396844640726
+    },
+    {
+      "src": "eBOSS_disk",
+      "z": 0.698,
+      "tracer": "ELG",
+      "F": 0.8578654527061205,
+      "sF": 0.06585274188001289,
+      "RL": 0.9416019999999999,
+      "ratio": 0.9110701259195717,
+      "pull": -1.271572677208366
+    },
+    {
+      "src": "eBOSS_disk",
+      "z": 0.845,
+      "tracer": "QSO",
+      "F": 0.9128486055776892,
+      "sF": 0.09913616603981656,
+      "RL": 1.2020125,
+      "ratio": 0.7594335379854114,
+      "pull": -2.9168355603561706
+    },
+    {
+      "src": "eBOSS_disk",
+      "z": 1.48,
+      "tracer": "QSO",
+      "F": 2.2834467120181405,
+      "sF": 0.1650416118728402,
+      "RL": 2.5751999999999997,
+      "ratio": 0.8867065517311824,
+      "pull": -1.7677559293752334
+    },
+    {
+      "src": "eBOSS_disk",
+      "z": 2.334,
+      "tracer": "Lya",
+      "F": 4.184563758389261,
+      "sF": 0.2321429785158662,
+      "RL": 5.057778000000001,
+      "ratio": 0.827352200588729,
+      "pull": -3.7615363048814245
+    }
+  ],
+  "chi2_eboss_disk": 27.486221807121566,
+  "desi_local_files_quality": "PARTIAL/SUSPECT \u2014 D_H and binning disagree with arXiv:2404.03002 Table 1; do not use local DESI CSVs as anisotropic BAO authority",
+  "rawer_available": {
+    "lya_cf_RP_RT": "BAO extraction/extracted_cf_*_exp_cor.csv \u2014 fiducial Om=0.315 comoving Mpc/h; BAO excess weak; not clean pure (theta,Dz) without template",
+    "vizier": "redshift catalog sample only, not BAO peaks",
+    "multitracer_xi": "file appears truncated/minimal"
+  },
+  "best_use_now": "eBOSS consensus on disk for pure AP; official DESI paper for DESI anisotropic; LyA CF for future peak work with care"
+}

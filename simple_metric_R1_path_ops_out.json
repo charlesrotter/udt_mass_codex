@@ -1,0 +1,88 @@
+{
+  "pre_registered": "no Pantheon; no join ranking by residual",
+  "P_ell_rmax_over_X": 0.5707963267948964,
+  "pi_over_2_minus_1": 0.5707963267948966,
+  "rows_pell": [
+    {
+      "xi_over_X": 0.05,
+      "r_over_X": 0.04877007457767896,
+      "R_over_X": 0.051271639033861074
+    },
+    {
+      "xi_over_X": 0.1,
+      "r_over_X": 0.09515485826817977,
+      "R_over_X": 0.10517998405493985
+    },
+    {
+      "xi_over_X": 0.3,
+      "r_over_X": 0.2586318554323432,
+      "R_over_X": 0.3507534525984518
+    },
+    {
+      "xi_over_X": 0.5,
+      "r_over_X": 0.3896241793827376,
+      "R_over_X": 0.6575733718138602
+    },
+    {
+      "xi_over_X": 0.8,
+      "r_over_X": 0.5272952180016122,
+      "R_over_X": 1.3272952180016127
+    },
+    {
+      "xi_over_X": 0.95,
+      "r_over_X": 0.5654857974232887,
+      "R_over_X": 1.940985997583456
+    },
+    {
+      "xi_over_X": 0.99,
+      "r_over_X": 0.5703242132671175,
+      "R_over_X": 2.2881894936738223
+    }
+  ],
+  "rows_j1": [
+    {
+      "r_over_X": 0.05,
+      "ell_over_X": 0.051271639033861074,
+      "R_over_X": 0.05258658877510106
+    },
+    {
+      "r_over_X": 0.1,
+      "ell_over_X": 0.10517998405493985,
+      "R_over_X": 0.11072103131565258
+    },
+    {
+      "r_over_X": 0.3,
+      "ell_over_X": 0.3507534525984518,
+      "R_over_X": 0.4133498878774647
+    },
+    {
+      "r_over_X": 0.5,
+      "ell_over_X": 0.6575733718138602,
+      "R_over_X": 0.8862943611198906
+    },
+    {
+      "r_over_X": 0.8,
+      "ell_over_X": 1.3272952180016127,
+      "R_over_X": 2.4188758248682034
+    },
+    {
+      "r_over_X": 0.95,
+      "ell_over_X": 1.940985997583456,
+      "R_over_X": 5.04146454710801
+    }
+  ],
+  "verdict": {
+    "forced": [
+      "d_ell = e^phi dr",
+      "radar_one_way = int e^{2 phi} dr",
+      "D_A = r areal at chart origin"
+    ],
+    "not_forced": [
+      "composition x equals ell",
+      "composition x equals r",
+      "composition x equals radar"
+    ],
+    "P_ell": "CHOSE/motivated \u2014 unique only if composition is defined as integrated static-rod length",
+    "J1": "CHOSE \u2014 conflicts with finite proper distance to phi=inf wall"
+  }
+}

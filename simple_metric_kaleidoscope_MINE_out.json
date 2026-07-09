@@ -1,0 +1,16 @@
+{
+  "special_depth": {
+    "r_over_X": 0.6666666666666666,
+    "z": 0.7320508075688772,
+    "roles": [
+      "max r/sqrt(A) photon impact",
+      "dN/dz peak proper-homogeneous",
+      "MS m/M=4/9"
+    ]
+  },
+  "four_distances": "proper, radar, angular, luminosity \u2014 split",
+  "wall_sky": "finite d_A max, infinite z and optical",
+  "multiple_imaging": "max direct Delta phi; critical b; full lens map open",
+  "tolman": "SB (1+z)^{-4} same as expansion",
+  "time_live": "not exhausted \u2014 flagged sector"
+}
