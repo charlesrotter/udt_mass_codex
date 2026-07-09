@@ -4,7 +4,7 @@
 
 ---
 
-## TOP — FRONTIER (2026-07-08 simple metric)
+## TOP — FRONTIER (2026-07-09 simple metric + WR-L canon)
 
 **Frame:** `UDT_ELEGANT_FRAME.md`  
 **Foundation:** `SIMPLE_METRIC_MACRO.md` — metric \(D_A=r\) only; φ-only operators.  

@@ -35,7 +35,7 @@ only for history.
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-08 — SIMPLE METRIC ONLY; free \(D_A\) quarantined). ============
+## ============ CURRENT STATE (2026-07-09 — SIMPLE METRIC + WR-L canon; free \(D_A\) quarantined). ============
 
 **➤➤➤ LATEST (Charles: stick to simple metric; derive everything from it; quarantine free \(D_A\)).**
 
@@ -212,7 +212,7 @@ P_ell = archived **explore contrast** only (LEAD), not live foundation.
 **Elegance uncover:** `UDT_ELEGANCE_UNCOVER.md` — kinematic chain, one scale \(X\), no EOS menu.  
 **SNe clues:** L linear \(p=1\) near (0.91); P P_ell-hyp near (1.02); H hyp+J1 fail (2.17).  
 **Candidates zoom:** `simple_metric_promising_candidates_ZOOM.md`  
-**L selection:** \(p_t=-\rho/2\Rightarrow A=1-r/X\) unique; L own ⊕.  
+**L selection:** **WR-L / C-2026-07-09-1** ⇒ \(A=1-r/X\); half-stress / P-opt = duals; L own ⊕.  
 **H/L unification:** `simple_metric_HL_unification_results.md`  
 - **Spine (forced):** \(A=e^{-2\phi}\), φ additive ⇒ **\(A\) multiplies**, wall \(A\to0\).  
 - **Fork only:** areal embedding \(r/X=f(A)\):  

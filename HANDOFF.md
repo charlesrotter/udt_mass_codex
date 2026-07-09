@@ -2,13 +2,7 @@
 
 > **READ `LIVE.md` FIRST** — it is the short, only-guaranteed-current file (frontier + next action).
 > This HANDOFF is the detailed record; if it disagrees with LIVE.md, LIVE.md wins. (P5, 2026-06-23.)
-> **CURRENT (2026-07-07 PM-3): after LIVE.md (its NEXT-SESSION PLAN = the two threads in
-> `derived_background_and_phi_coupling_DESIGN.md`), read `## SESSION RECORD 2026-07-07 (PM — rung-resonance→x_max→φ-coupling)`
-> immediately below. NEXT SESSION (SEQUENCE, Charles): (A) FIRST redo `x_max` PROPERLY from the observer FRAME-RELATION
-> → a derived data-blind BACKGROUND; (B) THEN pivot to the native direct φ-matter source → mass + particle emergence
-> inside it. Cosmology validation (SNe/BAO/CMB) is OUT OF SCOPE.
-> The rung-resonance test CLOSED (do-not-build); the x_max cosmology detour was largely a wash (my category error, corrected
-> via the SNe work); the durable step is unfreezing φ-matter coupling.**
+> **CURRENT (2026-07-09): SIMPLE METRIC + WR-L.** After LIVE.md FRONTIER, read MEMORY.md TOP, then `simple_metric_L_wall_regularity_closure_results.md` / **CANON C-2026-07-09-1** for L form. L = \(A=1-r/X\) DERIVED under residual re-centering + accepted wall regularity (not bare R1–R3 alone). NEXT = time-live residual / kaleidoscope appearance; micro when ready. Free \(D_A\) quarantined. The 2026-07-07 PM-3 Thread A/B plan below is **SUPERSEDED as frontier** (history only — LIVE wins).
 
 ## SESSION RECORD 2026-07-07 (PM, Opus 1M — rung-resonance CLOSED → x_max ponder (largely a wash) → φ-matter coupling UNFROZEN (the durable step))
 
