@@ -26,7 +26,11 @@ Residual re-centering + wall regularity. External triple-blind audit: **PASS**
 - MS mass-lock \(2GM/c^2\): **Principle-7** — do not present as native prediction.  
 - n=2 optics: sound, **generic Etherington** (not UDT-unique).
 
-**NEXT:** time-live residual / kaleidoscope appearance; micro when ready.
+**Center (2026-07-09):** `simple_metric_WR_L_center_nogo_atlas_results.md` —  
+WR-L wall-regular, **center-irregular** if \(r=0\) included; re-centering ≠ global-manifold chart change.  
+WORKING lean: residual pair-chart \(0<r<X\); \(\rho\sim 1/r\) not a particle core.  
+
+**NEXT:** Charles seat ontology? else time-live residual / kaleidoscope appearance.
 
 **Red:** bare-metric L claim; revive P_ell; lean on MS mass as native; χ²-shop \(A(r)\); free \(D_A\) as theory; \(x_{\max}\) as hard spatial wall.
 

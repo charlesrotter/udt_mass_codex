@@ -143,7 +143,7 @@ The old equivalence triangle is **anchored** by WR-L; \(S_r=S_A\) is a **theorem
 ### What remains open (not L form)
 
 - Absolute scale \(X\) / one ruler.  
-- Center regularity (\(\rho\sim1/r\) continuum face) — separate from **wall** regularity.  
+- Center regularity: **banked** — `simple_metric_WR_L_center_nogo_atlas_results.md` (no-go if \(r=0\) included; residual-chart lean).  
 - Time-live residual dynamics; high-\(z\) BAO character.  
 - **Canonized:** `CANON.md` entry **C-2026-07-09-1** (Charles 2026-07-09).
 
