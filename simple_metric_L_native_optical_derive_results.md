@@ -8,6 +8,7 @@
 | **Slice** | force L embedding from optical-depth principle on reciprocal metric |
 | **Observing or targeting?** | DERIVE uniqueness of \(r/X=1-A\) under a **named** principle — not χ² |
 | **Build-on grade** | **LEAD / CONDITIONAL** on principle P-opt below |
+| **Principle status** | **Equivalence-closed, not principle-closed** — see `simple_metric_L_equivalence_principle_GAP.md` |
 | **Re-run** | `python3 simple_metric_L_native_optical_derive.py` |
 
 ### Premise ledger
@@ -158,4 +159,4 @@ So far **exact L** is the only named law that clears that bar cleanly. Neighbors
 
 ## One-line
 
-**Charles’s path is right: L wins on mass lock + SNe; nativeness via “optical path meters dilation depth” forces \(r/X=1-A\) uniquely on the reciprocal metric — working native L, principle P-opt still the hinge to harden.**
+**Charles’s path is right: L wins on mass lock + SNe as a working package; under P-opt, “optical path meters dilation depth” forces \(r/X=1-A\) uniquely on the reciprocal metric — working native L. P-opt is still the hinge (WORKING PRINCIPLE, not R1–R3-closed). Audit: `simple_metric_L_equivalence_principle_GAP.md`.**

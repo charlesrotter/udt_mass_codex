@@ -27,11 +27,11 @@
 **S3 dust selection WITHDRAWN** (wrong \(G^r_r\)); identity \(p_r=-\rho\).  
 **Critical matter:** \(M=X/2\) **closes** sphere; does **not** glue R1–Einstein.  
 **S5–S9:** E vs A maps; EH vary-φ empty; native package OPEN.  
-**FOCUS: kaleidoscope** (inter-frame appearance). Static L **largely mined**.  
-**MINE:** `simple_metric_kaleidoscope_MINE_results.md` + K1–K4.  
-**★** Universal ladder; \(H\times L_{\mathrm{rem}}=1\) characterizes L; critical depth \(z=\sqrt{3}-1\) unifies photon impact / counts / \(d_L=L_{\mathrm{room}}\).  
-**BAO angular:** not from pure L — cell/micro **shelved** (Charles).  
-**NEXT:** ponder; or **time-live** kaleidoscope sector.
+**FOCUS:** simple residual L package + kaleidoscope appearance.  
+**★ L = equivalence-closed, NOT principle-closed** (`simple_metric_L_equivalence_principle_GAP.md`).  
+  P-opt \(\Leftrightarrow\) \(p_t=-\rho/2\) \(\Leftrightarrow\) \(A=1-r/X\); hinge not from R1–R3 alone.  
+**Kaleidoscope** mined on L (K1–K4, MINE); pure BAO AP: low-\(z\) LRG on \(R_L\), high-\(z\) low.  
+**NEXT:** residual-survival / no-preferred-center ⇒ force chart? Or time-live derived residual.
 
 ---
 

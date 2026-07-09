@@ -223,14 +223,19 @@ P_ell = archived **explore contrast** only (LEAD), not live foundation.
 - P_ell = third branch (composition chart ≠ areal).  
 
 **Dotted line:** residual \(A\); fork embeddings.  
-**Winner path:** **L** (\(r/X=1-A\)) — mass lock + SNe joint best.  
-**Native L (working):** `simple_metric_L_native_optical_derive_results.md`  
-- **P-opt:** \(\mathrm{d}r/A=\kappa\mathrm{d}\phi\) (optical path meters place-depth).  
-- On reciprocal metric ⇒ **unique** \(r/X=1-A\), \(X=\kappa/2\).  
-- H incompatible; continuum \(p_t=-\rho/2\) and \(M=X/2\) follow.  
-- P-opt still a **named principle** to harden — not χ².  
+**Winner path (working paint):** **L** (\(r/X=1-A\)) — mass lock + SNe joint best **as package**.  
+**★ L STATUS (audit 2026-07-09):** **equivalence-closed, not principle-closed.**  
+  Record: `simple_metric_L_equivalence_principle_GAP.md`  
+- Triangle exact: **P-opt** \(\Leftrightarrow\) \(p_t=-\rho/2\) \(\Leftrightarrow\) chart \(A=1-r/X\) (+ L composition).  
+- **None** of the three yet forced by R1–R3 / positional dilation alone.  
+- P-opt = **WORKING PRINCIPLE** (not canon); “why \(p_t=-\rho/2\)?” **OPEN**.  
+- **Do not** write “L forced by metric alone.”  
 
-**L working + P-opt native door** held.  
+**Native L (conditional on P-opt):** `simple_metric_L_native_optical_derive_results.md`  
+- Under P-opt \(\mathrm{d}r/A=\kappa\mathrm{d}\phi\) ⇒ unique \(r/X=1-A\), \(X=\kappa/2\).  
+- H incompatible; continuum half-ratio and \(M=X/2\) follow **under that hinge**.  
+
+**L working package held; principle hinge still to harden.**  
 **Angular-on MAP:** `simple_metric_angular_on_solution_space_MAP.md`  
 **Angular/time on L:** static multipoles wall-loud; time-live densifies (infinite optical wall).  
 **Hard explores:** `simple_metric_hard_explore_results.md` + **`simple_metric_local_cavity_HG_results.md`**  
@@ -256,7 +261,11 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - **Needle:** wall-loud + **non-adiabatic** \(k_t\) ⇒ **phase scatter grows with \(z\)** (~1%→7% by \(z\sim 2.3\)).  
 - Mean high‑\(z\) BAO gap **not** closed by FREE 5% oscillation. Full Einstein+AP still open, not yet crash-priority for mean alone.  
 
-**➤➤ NEXT:** ponder static mine + pure-AP BAO; or time-live kaleidoscope; or micro when ready. **Red:** fluid BAO mechanism; χ²-shop \(A(r)\).
+**➤➤ NEXT (principle-closure, narrow):** Does **no preferred center + residual survival** force \(A=1-r/X\)?  
+  (Multiplicative survival \(\stackrel{?}{=}A\); then force areal chart \(1-r/X\) — not merely choose it.)  
+  Spec sketch: `simple_metric_L_equivalence_principle_GAP.md`.  
+**Also open:** time-live residual Einstein+AP (mean high-\(z\) BAO); micro when ready.  
+**Red:** treat L as principle-closed; fluid BAO; χ²-shop free \(A(r)\); revive screening BAO kludge.
 
 ### ↓↓↓ SUPERSEDED-as-frontier (2026-07-08 EOD — n=2 optics + macro-needs-a-source). Still true as results, not the live framing priority. Full record: `luminosity_distance_n2_optics_results.md`. n=2 forced; n=1 Pantheon flattery = artifact; sourceless vacuum fails SNe under n=1 and n=2. Matter budget / closure guardrails remain available when matter is on-stage — subordinate to elegant frame. ↓↓↓
 

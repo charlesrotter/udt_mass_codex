@@ -8,6 +8,7 @@
 | **Slice** | selection principles for \(A=1-r/X\); \(F(\phi)\) chart family; composition laws |
 | **Observing or targeting?** | DERIVE what selects L; OBSERVE chart family — not χ²-fit free \(F\) |
 | **Build-on grade** | **LEAD** (selection for L partial; P_ell still CHOSE) |
+| **Principle status** | Equivalence triangle closed; principle-closure OPEN — `simple_metric_L_equivalence_principle_GAP.md` |
 | **Re-run** | CAS in session; SNe scores with correct full cov |
 
 ### Premise ledger
@@ -62,7 +63,7 @@ A(r)=1+\frac{C_1}{r}+C_2 r.
 | Piece | Tag |
 |-------|-----|
 | Uniqueness under those conditions | **DERIVED** |
-| Why \(p_t=-\rho/2\)? | **OPEN** — geometric simplicity / “half” ratio; not yet forced by reach |
+| Why \(p_t=-\rho/2\)? | **OPEN** — geometric simplicity / “half” ratio; not yet forced by reach or R1–R3 |
 | Why not \(C_1\neq 0\)? | regularity / finite \(A(0)\) |
 | Matches SNe-near **L** | yes (same law) |
 
