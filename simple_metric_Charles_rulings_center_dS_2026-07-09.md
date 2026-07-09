@@ -55,13 +55,13 @@ L (\(w=-1/2\)) is the **singular linear boundary member** of that EOS scan, not 
 
 **Charles:** does not fully own the intuition yet; **accepts going with the external suggestion** as the working lean for Choice 2.
 
-**Status:**
+**Status (softened after verify):**
 
 \[
 \boxed{
-\text{WORKING LEAN: regular continuum fill / causal edge face = dS window }(w=-1),\ 
-\Lambda\sim 3/X^2;\ 
-\text{L remains residual/singular relative, not the regular continuum ball.}
+\text{GR-form heuristic only: EOS }w=-1\text{ readout-dS.}
+\text{ Native-forbidden under }\phi\text{-blind. L residual stands.}
+\text{ Native path = Thread B if ever.}
 }
 \]
 
