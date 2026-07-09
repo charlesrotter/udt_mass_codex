@@ -33,6 +33,19 @@
 
 ---
 
+## ⚠ NATIVE-FORBIDDEN cross-ref (2026-07-09 verify pass)
+
+**\(A=1-r^2/X^2\) (static dS / const-ρ critical face) is FORBIDDEN as a native φ-blind UDT solution** of the simple-metric φ dynamics without a source the native equation cannot supply.  
+The EOS-window dS is a **distinct GR-form continuum-readout object** (Einstein \(G=8\pi T\) + CHOSE \(p_t=w\rho\) + DEC).  
+
+**Do not misread as adopted-native macro.**  
+Native realization would require **relaxed φ-blindness** (matter sources φ — Thread B: `udt_phi_blindness_relaxation_results.md`, `macro_phi_blindness_reaudit.md`).  
+
+Verify record: `simple_metric_center_dS_external_verify_pass_results.md`.  
+Prior sibling character: `simple_metric_sphere_ceiling_select_results.md` (const-ρ critical as rejected sibling for low-\(z\)).
+
+---
+
 ## Choice 2 — regular continuum window (Charles: **OK with external suggestion**)
 
 **External suggestion:**  
@@ -96,3 +109,12 @@ Glue between residual L and continuum dS remains **to be derived** — not smugg
 ## One-line
 
 **Charles: (A) residual re-centering exact; \(\phi=0\) seat singularity OK as regime boundary. Working lean: regular continuum window = dS (\(w=-1\)); L stays residual/singular chart, not smooth continuum ball — without adopting (B).**
+
+---
+
+## Disposition after V-CENTER / V-EOS verify (2026-07-09)
+
+- **(A)** residual / seat: **unchanged, confirmed**.  
+- **dS lean:** demoted to **GR-form heuristic** with explicit **native-forbidden** under φ-blind.  
+- Not “macro = dS natively.” Glue path = matter–φ coupling (Thread B), open.  
+- `simple_metric_center_dS_external_verify_pass_results.md`.

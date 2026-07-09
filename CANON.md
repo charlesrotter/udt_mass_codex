@@ -486,16 +486,16 @@ core derivation CONFIRMED sound and honestly scoped.
 **Provenance:** `simple_metric_WR_L_center_recenter_exclusion_results.md` (external third pass + local CAS). Revises the “CHOSE extrapolation only” emphasis of C-2026-07-09-1b when re-centering is taken as global.
 **Banked as derived exclusion + open fork (2026-07-09).** Charles picks (A) or (B).
 
-## C-2026-07-09-2 — Seat singularity under residual re-centering (Charles ruling A) + dS continuum lean
+## C-2026-07-09-2 — Seat singularity (ruling A) + dS as GR-form heuristic only
 
-**Statement (Charles, 2026-07-09):**
+**Statement (Charles, 2026-07-09; dS softened after external verify):**
 
-1. **Residual re-centering is exact** for the residual L chart (Choice 1 = fork **A**). The seat \(r=0\) is the chart’s \(\phi=0\) point. Charles accepts a curvature singularity / continuum breakdown there as consistent with \(\phi=0\) as a **regime boundary** between macro residual description and micro/particle sector — not as a demand for a smooth vacuum core on the same L line. Fork **B** (smooth L core / wall-only re-centering) is **not** adopted.
+1. **Residual re-centering is exact** (fork **A**). Seat \(r=0=\phi=0\) may be singular as **macro↔micro regime boundary**. Fork **B** not adopted. **V-CENTER CONFIRMED** (Principle-7 clean).
 
-2. **Regular continuum window (working lean):** Charles accepts the external EOS-window suggestion as working guidance: under reciprocal Einstein + CHOSE \(p_t=w\rho\) + DEC, the only wall+center-regular point is \(w=-1\) (static de Sitter face \(A=1-r^2/X^2\), \(\rho=3/(8\pi X^2)\), \(\Lambda=3/X^2\) if so identified). L remains the residual/singular relative chart, **not** demoted as residual law and **not** identified with dS.
+2. **dS / \(A=1-r^2/X^2\):** EOS-window uniqueness \(w=-1\) holds only inside **GR-form** Einstein continuum readout + CHOSE constant-\(w\) + DEC. **FORBIDDEN as a native φ-blind UDT solution.** Working heuristic only — not adopted-native macro. Native realization (if any) requires **relaxed φ-blindness** (Thread B). L residual **stands**.
 
-**Forces:** do not “fix” L’s seat with a quadratic vacuum patch on the L line; do not claim dS is forced by residual re-centering alone; keep residual L and continuum dS as dual layers until a native glue is derived.
+**Forces:** no smooth L core on the L line; never present readout-dS as native φ-blind UDT; tag GR-form vs native.
 
-**Scope:** Working charter / lean — \(\Lambda\) is **not** full UDT theorem from first principles; EOS+DEC remain CHOSE for the window scan. Provenance: `simple_metric_Charles_rulings_center_dS_2026-07-09.md`, center exclusion + EOS window results.
-**Ruled by Charles 2026-07-09.**
+**Provenance:** `simple_metric_Charles_rulings_center_dS_2026-07-09.md`, `simple_metric_EOS_power_window_dS_results.md`, `simple_metric_center_dS_external_verify_pass_results.md`, `udt_phi_blindness_relaxation_results.md`.
+**Ruled by Charles 2026-07-09; verify-softened same day.**
 

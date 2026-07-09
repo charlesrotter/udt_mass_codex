@@ -6,7 +6,7 @@
 | **Mode** | MAP / DERIVE (Einstein + barotropic tangential EOS scan) |
 | **Source** | External closed-form pass (Charles-relayed); unifies c-edge + center “window” |
 | **Local check** | SymPy full nonlinear on \(A=1-(r/X)^\beta\) — Einstein faces, \(R\), \(p_t/\rho\) |
-| **Build-on grade** | **DERIVED within CHOSE EOS closure** · **NOT** WR-L re-centering family · **NOT** Charles-canon macro |
+| **Build-on grade** | **DERIVED within CHOSE GR-form EOS** · **native-forbidden** as φ-blind solution · **NOT** dual-layer native macro |
 | **Observing or targeting?** | OBSERVE solution space of reciprocal + Einstein + \(p_t=w\rho\); flag window point |
 
 ### Premise ledger
@@ -38,6 +38,19 @@ They **disagree at de Sitter**:
 \(A=1-(r/X)^2\) \(\neq\) \((1-r/X)^2\).
 
 This tile **does not** derive de Sitter from WR-L re-centering. It derives a **window point inside the EOS power family**.
+
+---
+
+## ⚠ NATIVE-FORBIDDEN cross-ref (2026-07-09 verify pass)
+
+**\(A=1-r^2/X^2\) (static dS / const-ρ critical face) is FORBIDDEN as a native φ-blind UDT solution** of the simple-metric φ dynamics without a source the native equation cannot supply.  
+The EOS-window dS is a **distinct GR-form continuum-readout object** (Einstein \(G=8\pi T\) + CHOSE \(p_t=w\rho\) + DEC).  
+
+**Do not misread as adopted-native macro.**  
+Native realization would require **relaxed φ-blindness** (matter sources φ — Thread B: `udt_phi_blindness_relaxation_results.md`, `macro_phi_blindness_reaudit.md`).  
+
+Verify record: `simple_metric_center_dS_external_verify_pass_results.md`.  
+Prior sibling character: `simple_metric_sphere_ceiling_select_results.md` (const-ρ critical as rejected sibling for low-\(z\)).
 
 ---
 
@@ -157,7 +170,7 @@ Shared character (LEAD, not theorem): pure L vacuum exterior does not self-suppl
 | Center-regular \(\Leftrightarrow\beta\ge 2\) in this family | **DERIVED** |
 | Window \(\cap\) DEC = \(\{w=-1\}\) | **DERIVED** (within CHOSE EOS+DEC) |
 | L is singular / below window | **DERIVED** (consistent with prior center docs) |
-| Macro = dS / \(\Lambda=3/X^2\) | **OPEN — Charles** |
+| Macro = dS / \(\Lambda=3/X^2\) | **GR-form heuristic only** — **native-forbidden** under φ-blind; Charles lean softened |
 | L demoted to “boundary member only” | **OPEN — Charles** |
 | Unifies c-edge fail story | **LEAD character** |
 
@@ -166,3 +179,11 @@ Shared character (LEAD, not theorem): pure L vacuum exterior does not self-suppl
 ## One-line
 
 **Under CHOSE \(p_t=w\rho\) + DEC on reciprocal Einstein, the wall+regular-center window is the single point \(w=-1\) (static de Sitter); L is the singular \(\beta=1\) member — not a re-centering derivation of \(\Lambda\), and not canon until Charles rules.**
+
+---
+
+## External V-EOS re-confirm (2026-07-09)
+
+Uniqueness **PASS** inside box. Caveats elevated: GR-form + native-forbidden.  
+`simple_metric_center_dS_external_verify_pass_results.md`.
+
