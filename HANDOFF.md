@@ -26,9 +26,9 @@ Residual re-centering + wall regularity. External triple-blind audit: **PASS**
 - MS mass-lock \(2GM/c^2\): **Principle-7** — do not present as native prediction.  
 - n=2 optics: sound, **generic Etherington** (not UDT-unique).
 
-**Center (2026-07-09):** `simple_metric_WR_L_center_nogo_atlas_results.md` —  
-WR-L wall-regular, **center-irregular** if \(r=0\) included; re-centering ≠ global-manifold chart change.  
-WORKING lean: residual pair-chart \(0<r<X\); \(\rho\sim 1/r\) not a particle core.  
+**Center (2026-07-09):** two passes — atlas + invariants.  
+WR-L **wall selector, silent at center**; \(A=1-r/X\) to \(r=0\) is **CHOSE**; true singularity as-written (\(R,K\to\infty\)); no \(\alpha\) fixes it. Pair-chart lean if seat excluded.  
+`simple_metric_WR_L_center_nogo_atlas_results.md` · `simple_metric_WR_L_center_invariants_second_pass_results.md`.  
 
 **NEXT:** Charles seat ontology? else time-live residual / kaleidoscope appearance.
 

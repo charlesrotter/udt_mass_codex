@@ -255,12 +255,14 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 **Principle-closure:** bare NPC **FAIL**; **WR-L accepted** ⇒ L form **DERIVED**  
   (`simple_metric_L_wall_regularity_closure_results.md`).  
 
-**★ Center of static WR-L (2026-07-09):** `simple_metric_WR_L_center_nogo_atlas_results.md`  
-- Single chart: \(A'= -1/X\) ⇒ **invariant** weak curvature singularity at \(r=0\) if included (\(R\sim 1/r\)); **not** coord artifact.  
-- Smooth seat requires \(A=1+O(r^2)\); WR-L **cannot** be smooth on closed \([0,X]\).  
-- **Atlas:** L re-centering is **not** ordinary coord transform (curvature mismatch across seats) — CAS checked.  
-- Fork: (A) global SSS incl. center = no-go under smooth seat · (B) **WORKING lean:** residual pair-chart, domain \(0<r<X\), seat = self-diagonal pole.  
-- \(\rho\sim 1/r\) = readout shadow of chart-seat cusp — **not** derived particle core. Ontology OPEN for Charles.  
+**★ Center of static WR-L (2026-07-09):** two external passes agree.  
+  Records: `simple_metric_WR_L_center_nogo_atlas_results.md` · **`simple_metric_WR_L_center_invariants_second_pass_results.md`**  
+- **(1)+(3), not (2):** if \(A=1-r/X\) to \(r=0\), true curvature singularity (\(R=6/(Xr)\), \(K=8/(X^2r^2)\)); **not** coord artifact.  
+- WR-L is a **wall selector, silent at center** — inward extrapolation **CHOSE**, not forced by WR-L axioms.  
+- Whole residual family \((1-r/X)^\alpha\): **no** \(\alpha\) regularizes the center.  
+- Reachable/naked (finite proper to seat, \(A(0)=1\)); wall horizon is separate.  
+- Atlas pass: L re-centering ≠ manifold coord change; WORKING lean residual pair-chart \(0<r<X\).  
+- \(\rho\sim 1/r\) not a derived particle core. Ontology / exact interior OPEN.  
 
 **➤➤ NEXT:** Charles: seat ontology (manifold point vs residual self-diagonal)? else time-live residual / appearance. Optional: native mass (not MS).  
 **Red:** treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).

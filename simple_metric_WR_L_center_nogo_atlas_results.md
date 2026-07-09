@@ -236,3 +236,16 @@ Related open (not solved here): multi-chart atlas without ever requiring a physi
 ## One-line
 
 **Static WR-L is wall-regular but center-irregular on \([0,X]\); \(\rho\sim1/r\) is a real single-chart curvature cusp, not a coordinate fake and not a derived particle core; re-centering is not a global-manifold chart change — so L is best read as an off-diagonal residual appearance chart until Charles decides the seat ontology.**
+
+---
+
+## Second independent pass (same day)
+
+**`simple_metric_WR_L_center_invariants_second_pass_results.md`**
+
+Adds: full nonlinear \(K=8/(X^2 r^2)\); singularity **generic in \(\alpha\)** (no family member regularizes center);
+WR-L **silent at center** — \(A=1-r/X\) to \(r=0\) is **CHOSE extrapolation**; division of labor wall vs center;
+reachable/naked (finite proper distance, \(A(0)=1\)).
+
+Joint: (1)+(3), not (2). Atlas / pair-chart lean unchanged as interpretation, not ontology canon.
+

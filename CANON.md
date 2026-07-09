@@ -468,3 +468,10 @@ core derivation CONFIRMED sound and honestly scoped.
 **Provenance:** Charles-relayed V1/V2/V3 consolidated verdict; in-repo CAS prior. Local blind agent IDs not supplied — do not invent.
 **Accepted into ledger by Charles 2026-07-09 (audit bank).**
 
+## C-2026-07-09-1b — WR-L scope: wall selector, silent at center (append; not overturn)
+
+**Statement (scope precision, 2026-07-09):** Package WR-L / C-2026-07-09-1 selects the residual **wall** form \(A=1-r/X\). Its axioms do **not** constrain the exact interior to \(r=0\). Extending \(A=1-r/X\) all the way to the seat is a **CHOSE extrapolation**. Under that extrapolation, the center is a true weak curvature singularity (\(R=6/(Xr)\), \(K=8/(X^2r^2)\); generic in the power family \((1-r/X)^\alpha\)) — not a coordinate artifact. Regularization requires metric content beyond wall-only WR-L (non-round / time-live / residual atlas). \(\rho\sim 1/r\) is not a derived particle core.
+
+**Provenance:** `simple_metric_WR_L_center_nogo_atlas_results.md`, `simple_metric_WR_L_center_invariants_second_pass_results.md` (two external passes + local CAS).
+**Banked as scope precision of C-2026-07-09-1 (2026-07-09).** Full Charles-canon confirmation optional — math/results carry the claim.
+

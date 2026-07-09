@@ -32,7 +32,8 @@
   Own α=1 vs α=2 (finite proper selects); wall = **causal horizon**, not spatial edge.  
   Audit: `simple_metric_WR_L_external_triple_blind_audit_results.md`. P-opt/half-stress duals.  
 **Kaleidoscope** on L mined; pure BAO AP: low-\(z\) LRG on \(R_L\), high-\(z\) low.  
-**★ Center:** no-go for center-included global WR-L; atlas ⇒ residual chart lean — `simple_metric_WR_L_center_nogo_atlas_results.md`.  
+**★ Center:** (1)+(3) not (2); WR-L **wall-only / silent at center**; inward L **CHOSE**; \(K=8/(X^2r^2)\); no \(\alpha\) cures center.  
+  `simple_metric_WR_L_center_nogo_atlas_results.md` · `simple_metric_WR_L_center_invariants_second_pass_results.md`.  
 **NEXT:** seat ontology (Charles)? or time-live residual / appearance. Canon: **C-2026-07-09-1** (WR-L).
 **Startup (2026-07-09):** LIVE/HANDOFF/INDEX **leaned**; stale layers → `archive/LIVE_historical_frontier_through_2026-07-08.md`, `archive/INDEX_pre_simple_metric_WR_L_2026-07-09.md`, `HANDOFF_ARCHIVE.md`.
 
