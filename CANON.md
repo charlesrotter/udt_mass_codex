@@ -486,3 +486,16 @@ core derivation CONFIRMED sound and honestly scoped.
 **Provenance:** `simple_metric_WR_L_center_recenter_exclusion_results.md` (external third pass + local CAS). Revises the “CHOSE extrapolation only” emphasis of C-2026-07-09-1b when re-centering is taken as global.
 **Banked as derived exclusion + open fork (2026-07-09).** Charles picks (A) or (B).
 
+## C-2026-07-09-2 — Seat singularity under residual re-centering (Charles ruling A) + dS continuum lean
+
+**Statement (Charles, 2026-07-09):**
+
+1. **Residual re-centering is exact** for the residual L chart (Choice 1 = fork **A**). The seat \(r=0\) is the chart’s \(\phi=0\) point. Charles accepts a curvature singularity / continuum breakdown there as consistent with \(\phi=0\) as a **regime boundary** between macro residual description and micro/particle sector — not as a demand for a smooth vacuum core on the same L line. Fork **B** (smooth L core / wall-only re-centering) is **not** adopted.
+
+2. **Regular continuum window (working lean):** Charles accepts the external EOS-window suggestion as working guidance: under reciprocal Einstein + CHOSE \(p_t=w\rho\) + DEC, the only wall+center-regular point is \(w=-1\) (static de Sitter face \(A=1-r^2/X^2\), \(\rho=3/(8\pi X^2)\), \(\Lambda=3/X^2\) if so identified). L remains the residual/singular relative chart, **not** demoted as residual law and **not** identified with dS.
+
+**Forces:** do not “fix” L’s seat with a quadratic vacuum patch on the L line; do not claim dS is forced by residual re-centering alone; keep residual L and continuum dS as dual layers until a native glue is derived.
+
+**Scope:** Working charter / lean — \(\Lambda\) is **not** full UDT theorem from first principles; EOS+DEC remain CHOSE for the window scan. Provenance: `simple_metric_Charles_rulings_center_dS_2026-07-09.md`, center exclusion + EOS window results.
+**Ruled by Charles 2026-07-09.**
+

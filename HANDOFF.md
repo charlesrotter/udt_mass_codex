@@ -33,9 +33,20 @@ Fork (A) global re-center → singularity forced · (B) wall-asymptotic → regu
 **EOS window (2026-07-09):** CHOSE \(p_t=w\rho\) scan → unique regular point \(w=-1\) (static dS, \(\Lambda=3/X^2\)). L is singular \(\beta=1\) member. Different family from WR-L.  
 `simple_metric_EOS_power_window_dS_results.md`.  
 
-**NEXT:** Charles: re-centering (A)/(B) and/or adopt dS macro edge? Else time-live / appearance. **Do not** auto-demote WR-L or canonize Λ without ruling.
+**NEXT:** residual↔dS glue (careful); time-live / appearance. Rulings banked.
 
 **Red:** bare-metric L claim; revive P_ell; lean on MS mass as native; χ²-shop \(A(r)\); free \(D_A\) as theory; \(x_{\max}\) as hard spatial wall.
+
+
+## Charles rulings (2026-07-09)
+
+**Choice 1 = (A):** residual re-centering exact; \(r=0\) = \(\phi=0\) seat; singularity OK as macro/micro regime boundary. Not (B).
+
+**Choice 2:** working lean = external dS window (\(w=-1\), \(\Lambda\sim 3/X^2\)) for regular continuum; L remains residual/singular chart, not regular continuum ball. CHOSE EOS premises remain.
+
+**Record:** `simple_metric_Charles_rulings_center_dS_2026-07-09.md`
+
+**NEXT:** native residual↔dS relation if any; time-live / appearance. Do not demote WR-L; do not claim dS from re-centering alone.
 
 ## Read order (every session)
 

@@ -32,10 +32,10 @@
   Own α=1 vs α=2 (finite proper selects); wall = **causal horizon**, not spatial edge.  
   Audit: `simple_metric_WR_L_external_triple_blind_audit_results.md`. P-opt/half-stress duals.  
 **Kaleidoscope** on L mined; pure BAO AP: low-\(z\) LRG on \(R_L\), high-\(z\) low.  
-**★ Center:** re-centering **⊥** center regularity (global). Fork (A)/(B) for Charles.  
-  `simple_metric_WR_L_center_recenter_exclusion_results.md` (+ atlas + invariants passes).  
-**★ EOS window:** under CHOSE \(p_t=w\rho\), only \(w=-1\) (dS) is wall+regular-center+DEC — `simple_metric_EOS_power_window_dS_results.md`. Not WR-L family. Charles ruling OPEN.  
-**NEXT:** Charles (A)/(B) and/or dS-vs-WR-L; else time-live / appearance.
+**★ Center:** Charles **(A)** — re-centering exact; \(\phi=0\) seat singularity OK (regime boundary).  
+**★ Continuum window lean:** dS \(w=-1\) (external; CHOSE EOS). L residual stays; not smooth continuum ball.  
+  `simple_metric_Charles_rulings_center_dS_2026-07-09.md`.  
+**NEXT:** residual↔dS glue (native); time-live / appearance.
 **Startup (2026-07-09):** LIVE/HANDOFF/INDEX **leaned**; stale layers → `archive/LIVE_historical_frontier_through_2026-07-08.md`, `archive/INDEX_pre_simple_metric_WR_L_2026-07-09.md`, `HANDOFF_ARCHIVE.md`.
 
 ---

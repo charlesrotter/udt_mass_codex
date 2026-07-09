@@ -260,7 +260,7 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - Center-regular \(\Leftrightarrow A'(0)=0\). Residual family: \(A'(0)=-\alpha/X\neq 0\) — **no** \(\alpha\) is center-regular.  
 - **\(\boxed{\text{residual re-centering }\bot\text{ center regularity}}\)** if re-centering is exact globally — singularity is structural, not optional paint.  
 - Wall package still silent as *wall* selector; global re-centering is what forces the cusp.  
-- **Fork (Charles):** (A) re-centering exact → reachable center singularity / no literal vacuum seat · (B) re-centering wall-asymptotic only → regular quadratic core possible; L = exterior.  
+- **Charles ruling (A):** re-centering **exact** as residual law; \(r=0\) is \(\phi=0\) seat — singularity OK as **regime boundary** (macro residual vs micro/particle handoff character). **Not (B).**  
 - Atlas: re-centering ≠ manifold coord change. Character lead: clean exterior, not global vacuum on \([0,X]\).  
 - \(\rho\sim 1/r\) not a derived particle core.  
 
@@ -269,10 +269,11 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - L = \(\beta=1\) (\(w=-1/2\)); dS = \(\beta=2\) (\(w=-1\), \(A=1-r^2/X^2\), \(\rho=3/(8\pi X^2)\)).  
 - Center-regular \(\Leftrightarrow\beta\ge 2\); + DEC \(\Rightarrow\) window collapses to **\(w=-1\) only**.  
 - Unifies center singularity of L with “narrow window” → a point (Λ). **NOT** derived from WR-L re-centering.  
-- **Charles ruling OPEN:** adopt macro = dS causal edge \(\Lambda=3/X^2\) and reread L as singular boundary member (pairs with center fork B)? Or keep WR-L residual + (A)/(B) re-centering fork.  
+- **Charles lean (Choice 2):** OK with external — regular continuum window = **dS** \(w=-1\), \(\Lambda\sim 3/X^2\); L = residual/singular relative, **not** regular continuum ball. Premises still CHOSE EOS+DEC.  
+- **Do not glue (A) to (B):** dS lean ≠ smooth L core. Record: `simple_metric_Charles_rulings_center_dS_2026-07-09.md`.  
 
-**➤➤ NEXT:** Charles: (1) re-centering fork (A)/(B); (2) optional **dS window** ruling (macro Λ vs WR-L residual as primary). Else time-live / appearance. Do **not** auto-demote WR-L.  
-**Red:** treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
+**➤➤ NEXT:** residual L under ruling (A) + dS continuum lean — map/glue without mechanisms; time-live / appearance. Do **not** demote WR-L residual; do **not** treat dS as re-centering theorem.  
+**Red:** undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---
 
