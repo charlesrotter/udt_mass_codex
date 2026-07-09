@@ -457,9 +457,9 @@ core derivation CONFIRMED sound and honestly scoped.
 
 **Precision upgrades (binding wording):**
 
-1. **α=1 vs α=2 fork (own consciously).** Curvature finiteness alone admits \(lpha=2\) as well as \(lpha=1\). Only the accepted **finite proper room** axiom kills \(lpha=2\) (log-divergent proper distance). \(lpha=1\) = finite proper + infinite optical = **causal ceiling**. \(lpha=2\) = infinite proper = unreachable spatial infinity.
+1. **α=1 vs α=2 fork (own consciously).** Curvature finiteness alone admits \(\alpha=2\) as well as \(\alpha=1\). Only the accepted **finite proper room** axiom kills \(\alpha=2\) (log-divergent proper distance). \(\alpha=1\) = finite proper + infinite optical = **causal ceiling**. \(\alpha=2\) = infinite proper = unreachable spatial infinity.
 
-2. **Horizon, not hard edge of space.** The \(lpha=1\) wall is a causal / Schwarzschild-type horizon at finite proper distance: infinite optical reach, \(z	o\infty\), with a **trapped interior beyond** \(r=X\) (signature flip). Wording: “ends at \(x_{\max}\)” means **causal horizon at finite proper distance with interior beyond**, not a wall of space.
+2. **Horizon, not hard edge of space.** The \(\alpha=1\) wall is a causal / Schwarzschild-type horizon at finite proper distance: infinite optical reach, \(z	o\infty\), with a **trapped interior beyond** \(r=X\) (signature flip). Wording: “ends at \(x_{\max}\)” means **causal horizon at finite proper distance with interior beyond**, not a wall of space.
 
 3. **Mass lock not part of this canon entry.** \(r_{\max}=2GM/c^2\) / MS cascade remains **Principle-7 flagged** (GR-form / definitional under MS packaging) — see audit record; not elevated by WR-L.
 
