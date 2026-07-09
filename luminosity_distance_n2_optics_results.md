@@ -1,3 +1,12 @@
+# Note (2026-07-09 external audit) — n=2 sound but generic
+
+**V3:** The two \((1+z)\) factors and Etherington closing are natively correct on the simple metric,  
+but the reciprocity structure is **generic** to null-geodesic, photon-conserving metrics — **not a UDT-specific discriminator**.  
+Rely on n=2; do not oversell as unique UDT evidence. Old n=1 “half light” remains an arithmetic error.  
+Audit: `simple_metric_WR_L_external_triple_blind_audit_results.md`.
+
+---
+
 # RESULT — UDT luminosity-distance optics: n=2 is forced; the n=1 SNe fit was an error; vacuum cosmology needs a matter source
 
 **Date:** 2026-07-08 · **Author:** Claude Opus 4.8 (1M) with Charles. **Status: VERIFIED** (two independent blind

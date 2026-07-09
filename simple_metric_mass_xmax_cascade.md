@@ -1,3 +1,16 @@
+# ⚠ PRINCIPLE-7 FLAG (2026-07-09) — do not lean
+
+**External audit V3:** Misner–Sharp mass on this path is **inherited GR-form**;  
+\(x_{\max}=2GM/c^2\) (or \(r_{\max}=2GM/c^2\)) is substantially a **Schwarzschild-radius tautology** under MS packaging  
+(definitional compactness, not a native UDT mass prediction). The “\(k=2\)” is the Schwarzschild 2.  
+Join-dependent which scale equals \(2GM/c^2\).  
+
+**Binding:** do **not** present this cascade as a native UDT prediction. A genuine mass relation needs **native re-derivation**.  
+Audit: `simple_metric_WR_L_external_triple_blind_audit_results.md`.  
+Status of math below: **CONDITIONAL / GR-mine**, useful as GR-corpus reference only.
+
+---
+
 # Consilience cascade C3–C4 — mass–distance lock under hyperbolic reach
 
 **Date:** 2026-07-08 · **Mode: DERIVE / MAP**  

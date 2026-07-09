@@ -1,3 +1,13 @@
+# ⚠ RETIRED (2026-07-09) — P_ell join
+
+**Status: RETIRED.** External audit V2: imposition (SNe-shopped; rod story after χ²; no non-SNe derivation).  
+Inferior to canon L (χ²/dof ~1.02 vs ~0.910). Never canonized.  
+Also **Principle-7**: MS / \(r_{\max}=2GM/c^2\) is GR-form / definitional under MS packaging — not a native UDT prediction.  
+Audit: `simple_metric_WR_L_external_triple_blind_audit_results.md`.  
+**Do not build on this file as live foundation.**
+
+---
+
 # P_ell join — motivation + mass lock without J1
 
 ## HYGIENE HEADER

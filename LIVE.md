@@ -90,7 +90,7 @@ Form cascade held: `simple_metric_hyperbolic_derive.md` — \(x=x_{\max}\tanh\ph
 Consilience checklist C0–C8 in the postulate doc; **continue cascade** (relational, \(X\sim k GM/c^2\), closure, n=2 optics check). If consilience stalls, revisit — no mechanism patches.
 
 **Mass–\(x_{\max}\) cascade (C3–C4):** `simple_metric_mass_xmax_cascade.md`.  
-Under join **J1** (\(r\equiv x\)): hyperbolic \(A\) ⇒ \(m=c^2 x^2/(G(X+x))\) ⇒ \(M_{\mathrm{tot}}=c^2 X/(2G)\) ⇒ **\(x_{\max}=2GM_{\mathrm{tot}}/c^2\)** (\(k=2\)). Closure \(A\to0\) and compactness→1 at the bound are **identities** of the profile (filled cosmos, not empty Schw). Absolute scale still needs one ruler; relation is theory. J1 tagged CHOSE.
+Under join **J1**: MS packaging yields \(M\leftrightarrow X\) with \(k=2\). **⚠ PRINCIPLE-7 (audit 2026-07-09):** do **not** present \(2GM/c^2\) as native UDT prediction (`simple_metric_mass_xmax_cascade.md`). J1 CHOSE.
 
 **J1 + C2 + C5:** `simple_metric_cascade_C2_C5_J1.md`.  
 - **J1** (\(r\equiv x\)): default under simple metric (else free areal vs distance).  
@@ -136,10 +136,10 @@ Root = **half** energy×rate; full rule \(d_L=(1+z)^2 D_A\). Not a SNe trophy.
 **Distance profile dimensional MAP (2026-07-09):** `simple_metric_distance_profile_dimensional_MAP.md`  
 Layer A light count closed; **Layer B profile** = hunt.
 
-**PATH–AREAL split observe (2026-07-09):** `simple_metric_path_areal_split_results.md`  
-P_ell full-cov χ²/dof **2.17→1.02** (LCDM ref 0.88). J1 over-join suspect.
+**PATH–AREAL / P_ell:** **RETIRED** (external audit V2 — imposition). Do not re-read 2.17→1.02 as a win.  
+Record (banner only): `simple_metric_path_areal_split_results.md`.
 
-**P_ell mass lock (2026-07-09):** `simple_metric_Pell_mass_lock_derive.md`  
+**P_ell mass lock:** **RETIRED** — `simple_metric_Pell_mass_lock_derive.md` (banner).  
 Motivation: static rods measure \(d\ell=e^{\phi}dr\) ⇒ composition chart on **proper** path (motivated, not unique theorem).  
 Exact: \(r_{\max}/X=\pi/2-1\); **\(r_{\max}=2GM/c^2\)**; \(X=r_{\max}/(\pi/2-1)\). Mass locks to areal saturation, not to \(X=r\).  
 Compactness \(2Gm/(c^2r)=2x/(X+x)\) unchanged in \(x\).
@@ -149,22 +149,22 @@ Compactness \(2Gm/(c^2r)=2x/(X+x)\) unchanged in \(x\).
 **Structure hygiene (process, not physics):** `STRUCTURE_HYGIENE.md` — layered L1 machine / L2 artifact headers / L3 periodic audit / L4 Charles+blind; build-on grades DEMO|LEAD|CONDITIONAL|BANKED-FOR-STRUCTURE.
 
 **Self-audit (2026-07-09):** `simple_metric_session_self_audit_2026-07-09.md`  
-P_ell = **explore join (CHOSE)**, not canon — χ² improvement must not freeze it. LCDM = residual **reference only**. MS mass = GR-form conditional. Full light = derived on static simple metric (scoped).
+P_ell = **RETIRED**. LCDM residual reference only. MS mass = **Principle-7** (do not lean). Full light n=2 = sound, **generic Etherington**.
 
 **Hyperbolic stack (refine target — premise-tagged):**
 - PATH: \(x=X\tanh\phi\), \(1+z=e^{\phi}\), bound \(X\) — **POSTULATE** + derived form
 - Full light: \(d_L=(1+z)^2 D_A\) — **DERIVED** (static SSS scope)
-- **P_ell** \(x=\ell\): **CHOSE explore** (motivated rods; uniqueness OPEN) — demo χ²/dof~1.02 vs J1~2.17 vs LCDM-ref~0.88
-- Mass under P_ell: **conditional** on P_ell + MS form; \(r_{\max}=2GM/c^2\), \(X=r_{\max}/(\pi/2-1)\)
+- **P_ell** \(x=\ell\): **RETIRED** (2026-07-09 audit) — not live
+- Mass under P_ell: **RETIRED** with P_ell; any MS \(2GM/c^2\) face remains **Principle-7**
 - J1 demoted as **scoped residual**, not “metric forbids J1”
 
 **R1 path ops (2026-07-09):** `simple_metric_R1_path_proper_results.md`  
 Path=proper **not forced** by metric. Ops lengths characterized.
 
 **J1 WORKING POSTURE (Charles 2026-07-09):** \(x_{\max}\) **literally defines sphere size** — long-standing intuition (~decades).  
-Tag: **CHOSE by Charles physical picture** (not χ²-picked; P_ell SNe improvement does **not** override).  
-Stack: PATH composition \(x=X\tanh\phi\) **with** \(D_A=r=x\) (J1); full light \(d_L=(1+z)^2 r\); mass lock under J1 \(X=2GM/c^2\).  
-P_ell = archived **explore contrast** only (LEAD), not live foundation.
+Tag: simple metric + **WR-L** working stack.  
+Mass packaging \(X=2GM/c^2\): **Principle-7** — do not lean. n=2: sound, generic Etherington.  
+P_ell = **RETIRED**.
 
 **Zoom-out:** `simple_metric_macro_elegance_ZOOM.md` — uncover metric, no mechanisms.
 
@@ -201,7 +201,7 @@ P_ell = archived **explore contrast** only (LEAD), not live foundation.
 - Local compactness \(C\to1\) **bridges** to filled wall.  
 
 **Elegance uncover:** `UDT_ELEGANCE_UNCOVER.md` — kinematic chain, one scale \(X\), no EOS menu.  
-**SNe clues:** L linear \(p=1\) near (0.91); P P_ell-hyp near (1.02); H hyp+J1 fail (2.17).  
+**SNe clues:** L (WR-L) \(\chi^2/\mathrm{dof}\sim 0.91\); H hyp+J1 fail (~2.17). P_ell (~1.02) **RETIRED**.  
 **Candidates zoom:** `simple_metric_promising_candidates_ZOOM.md`  
 **L selection:** **WR-L / C-2026-07-09-1** ⇒ \(A=1-r/X\); half-stress / P-opt = duals; L own ⊕.  
 **H/L unification:** `simple_metric_HL_unification_results.md`  
@@ -211,15 +211,17 @@ P_ell = archived **explore contrast** only (LEAD), not live foundation.
   - **L:** \(f=1-A\) (residual map)  
 - Same kinematics underneath; SNe rank **embeddings**, not kinematics-vs-continuum.  
 - \(p_t=-\rho/2\) ⇔ L embedding + Einstein (two faces).  
-- P_ell = third branch (composition chart ≠ areal).  
+- P_ell third branch **RETIRED** (detour; composition chart ≠ areal).  
 
 **Dotted line:** residual \(A\); fork embeddings.  
-**Winner path (WR-L DERIVED):** **L** (\(r/X=1-A\)) — form from wall-regular residual selector; mass lock + SNe joint best as package (clues, not form selectors).  
+**Winner path (WR-L DERIVED + audit PASS):** **L** (\(r/X=1-A\)). SNe ~0.91 character clue. Mass packaging **Principle-7** (do not lean).  
 **★ L STATUS:** **DERIVED under WR-L** (Charles accepts wall package, 2026-07-09).  
   Records: `simple_metric_L_equivalence_principle_GAP.md` · **`simple_metric_L_wall_regularity_closure_results.md`**  
 - Package **WR-L**: residual re-centering ⇒ family \(A=(1-r/X)^{\alpha}\); ∞ optical + finite proper + finite wall \(G^\theta{}_\theta\) ⇒ **\(\alpha=1\)** only ⇒ **\(A=1-r/X\)**.  
-- Tag: **DERIVED** under WR-L — **canonized C-2026-07-09-1** — not SNe-selected / not bare R1–R3 alone.  
-- P-opt / \(p_t=-\rho/2\) / \(S_r=S_A\) are now **consequences / duals** of L under WR-L.  
+- Tag: **DERIVED** under WR-L — **C-2026-07-09-1** + audit **1a** — not SNe-selected / not bare R1–R3 alone.  
+- External triple-blind audit **PASS**: `simple_metric_WR_L_external_triple_blind_audit_results.md`.  
+- Own consciously: only **finite proper** kills \(\alpha=2\); \(\alpha=1\) = **causal horizon** (interior beyond \(r=X\)), not hard edge of space.  
+- P-opt / \(p_t=-\rho/2\) / \(S_r=S_A\) are **consequences / duals** of L under WR-L.  
 
 **Native L (consistent under P-opt or wall package):** `simple_metric_L_native_optical_derive_results.md`  
 - Under P-opt \(\mathrm{d}r/A=\kappa\mathrm{d}\phi\) ⇒ unique \(r/X=1-A\), \(X=\kappa/2\).  
@@ -253,8 +255,8 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 **Principle-closure:** bare NPC **FAIL**; **WR-L accepted** ⇒ L form **DERIVED**  
   (`simple_metric_L_wall_regularity_closure_results.md`).  
 
-**➤➤ NEXT:** time-live residual / appearance; micro when ready. Canon ledger: **C-2026-07-09-1** (WR-L).  
-**Red:** claim L from bare R1–R3 alone; fluid BAO; χ²-shop \(A(r)\); screening kludge; demote WR-L to SNe chart shopping.
+**➤➤ NEXT:** time-live residual / appearance; micro when ready. Optional later: native mass relation (not MS tautology).  
+**Red:** bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---
 

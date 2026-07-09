@@ -1,3 +1,13 @@
+# ⚠ RETIRED (2026-07-09) — P_ell join
+
+**Status: RETIRED.** External audit V2: imposition (SNe-shopped; rod story after χ²; no non-SNe derivation).  
+Inferior to canon L (χ²/dof ~1.02 vs ~0.910). Never canonized.  
+Explore detour only. χ² 2.17→1.02 is **not** an achievement to re-open. Canon object is L (WR-L / C-2026-07-09-1).  
+Audit: `simple_metric_WR_L_external_triple_blind_audit_results.md`.  
+**Do not build on this file as live foundation.**
+
+---
+
 # OBSERVE — PATH vs AREAL split on xmax hyperbolic (drop J1 default)
 
 

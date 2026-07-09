@@ -156,6 +156,19 @@ Bare NPC-1 + vague “survival” without areal subtraction → **FAIL** (does n
 
 ---
 
+
+
+---
+
+## External triple-blind audit (2026-07-09) — PASS on core
+
+Full record: **`simple_metric_WR_L_external_triple_blind_audit_results.md`**.
+
+- Core family + \(\alpha=1\) selection under WR-L axioms: **CONFIRMED sound**, not smuggled.
+- **Own consciously:** only finite proper room kills \(\alpha=2\) (which also has finite wall curvature).
+- **Horizon precision:** \(\alpha=1\) wall = causal horizon + interior beyond \(r=X\), not hard edge of space.
+- Soft spots banked elsewhere: **P_ell RETIRED**; mass-lock **Principle-7**; n=2 sound but generic Etherington.
+
 ## One-line
 
 **WR-L (residual re-centering + finite proper + infinite optical + regular wall curvature) selects \(A=1-r/X\); stress and P-opt become duals — DERIVED under Charles-accepted WR-L, not bare R1–R3 alone.**

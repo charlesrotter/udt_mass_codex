@@ -24,7 +24,7 @@
 |------|--------|
 | Foundation | `SIMPLE_METRIC_MACRO.md`, `simple_metric_FE_rederive.py` |
 | Frame / method | `UDT_ELEGANT_FRAME.md`, `UDT_METHOD_MUSIC.md`, `UDT_DOTTED_LINE.md`, `UDT_ELEGANCE_UNCOVER.md` |
-| L form (canon) | `CANON.md` **C-2026-07-09-1**, `simple_metric_L_wall_regularity_closure_results.md`, `simple_metric_L_equivalence_principle_GAP.md` |
+| L form (canon+audit) | `CANON.md` **C-2026-07-09-1/1a**, WR-L results, `simple_metric_WR_L_external_triple_blind_audit_results.md` |
 | H/L / optics | `simple_metric_HL_unification_results.md`, `simple_metric_L_native_optical_derive_results.md` |
 | Kaleidoscope | `simple_metric_kaleidoscope_MAP.md`, `simple_metric_kaleidoscope_MINE_results.md` |
 | BAO / time-live | `simple_metric_bao_*`, `simple_metric_timelive_*` |

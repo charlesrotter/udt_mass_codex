@@ -7,41 +7,44 @@
 
 **Frame:** simple reciprocal metric only; free \(D_A\) quarantined (`grok/quarantine_free_DA/`).
 
-**L form:** **canon C-2026-07-09-1 (WR-L)**  
+**L form:** **canon C-2026-07-09-1 (WR-L)** + audit precision **C-2026-07-09-1a**
 \[
 A = 1 - r/X \qquad\Leftrightarrow\qquad r/X = 1 - A
-\]  
-from residual re-centering + accepted wall regularity (∞ optical, finite proper, finite wall curvature).  
-Not SNe-selected; not bare R1–R3 alone. P-opt / \(p_t=-\rho/2\) = duals.
+\]
+Residual re-centering + wall regularity. External triple-blind audit: **PASS**  
+(`simple_metric_WR_L_external_triple_blind_audit_results.md`).
+
+**Own consciously:** only **finite proper room** kills \(\alpha=2\). \(\alpha=1\) = **causal horizon** at finite proper distance (interior beyond \(r=X\)), not a hard edge of space.
 
 **Records:**  
-- `simple_metric_L_wall_regularity_closure_results.md`  
-- `simple_metric_L_equivalence_principle_GAP.md`  
-- `CANON.md` → **C-2026-07-09-1**  
+- `simple_metric_L_wall_regularity_closure_results.md` · `CANON.md` C-2026-07-09-1 / 1a  
 - Foundation: `SIMPLE_METRIC_MACRO.md` · frame: `UDT_ELEGANT_FRAME.md`  
-- Appearance: `simple_metric_kaleidoscope_MINE_results.md` · BAO: `simple_metric_bao_*` · time-live: `simple_metric_timelive_*`
+- Kaleidoscope / BAO / time-live: `simple_metric_kaleidoscope_*`, `simple_metric_bao_*`, `simple_metric_timelive_*`
+
+**Retired / soft:**  
+- **P_ell RETIRED** (SNe imposition detour).  
+- MS mass-lock \(2GM/c^2\): **Principle-7** — do not present as native prediction.  
+- n=2 optics: sound, **generic Etherington** (not UDT-unique).
 
 **NEXT:** time-live residual / kaleidoscope appearance; micro when ready.
 
-**Red:** claim L from bare metric alone; χ²-shop \(A(r)\); fluid BAO packaging; revive free \(D_A\) as theory verdict.
+**Red:** bare-metric L claim; revive P_ell; lean on MS mass as native; χ²-shop \(A(r)\); free \(D_A\) as theory; \(x_{\max}\) as hard spatial wall.
 
 ## Read order (every session)
 
 1. `LIVE.md` FRONTIER  
 2. `MEMORY.md` TOP (from disk)  
-3. `UDT_METHOD_MUSIC.md` / `UDT_DOTTED_LINE.md` / `UDT_ELEGANCE_UNCOVER.md` as needed  
-4. `CLAUDE.md` how-we-work + DRIVER TRIGGERS + `.claude/skills/`  
-5. `CANON.md` / `NEGATIVES_REGISTRY.md` when load-bearing  
-6. This HANDOFF only for the CURRENT block above  
+3. Method docs as needed · `CLAUDE.md` + skills  
+4. `CANON.md` / `NEGATIVES_REGISTRY.md` when load-bearing  
 
 ## Archive
 
-- Session records through 2026-07-07 + older foundation/risk/machinery blocks → **`HANDOFF_ARCHIVE.md`**  
-- LIVE historical layers → `archive/LIVE_historical_frontier_through_2026-07-08.md`  
-- Pre-WR-L INDEX body → `archive/INDEX_pre_simple_metric_WR_L_2026-07-09.md`
+- Stale LIVE layers → `archive/LIVE_historical_frontier_through_2026-07-08.md`  
+- Pre-lean INDEX → `archive/INDEX_pre_simple_metric_WR_L_2026-07-09.md`  
+- Old HANDOFF sessions → `HANDOFF_ARCHIVE.md`
 
 ## Must-not-lose (short)
 
-- DATA-BLIND wall numbers (contract 26fc757) — predict ratios.  
-- Full canon list: **`CANON.md`** (includes WR-L C-2026-07-09-1).  
-- Method: MAP / OBSERVE / PONDER primary; DERIVE gated; solver-first; solution-space not imposition.
+- DATA-BLIND wall numbers (contract 26fc757).  
+- Full canon: **`CANON.md`**.  
+- Method: MAP / OBSERVE / PONDER primary; DERIVE gated.

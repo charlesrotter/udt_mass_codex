@@ -449,3 +449,22 @@ This is the residual embedding **L**.
 
 **Provenance:** Charles sharper derivation (affine re-centering + wall package, 2026-07-09); CAS/numeric verification `simple_metric_L_wall_regularity_closure_out.json`; full record `simple_metric_L_wall_regularity_closure_results.md`; status reconcile `simple_metric_L_equivalence_principle_GAP.md`. Bare NPC attack (FAIL without wall package): `simple_metric_L_principle_closure_attack_results.md`. Charles: accepts the three wall conditions (“I have no problem with those conditions”); ledger entry authorized this session.
 **Canonized by Charles 2026-07-09.**
+
+## C-2026-07-09-1a — WR-L audit precision (append to C-2026-07-09-1; not an overturn)
+
+**External triple-blind consolidated audit (2026-07-09; banked `simple_metric_WR_L_external_triple_blind_audit_results.md`):**
+core derivation CONFIRMED sound and honestly scoped.
+
+**Precision upgrades (binding wording):**
+
+1. **α=1 vs α=2 fork (own consciously).** Curvature finiteness alone admits \(lpha=2\) as well as \(lpha=1\). Only the accepted **finite proper room** axiom kills \(lpha=2\) (log-divergent proper distance). \(lpha=1\) = finite proper + infinite optical = **causal ceiling**. \(lpha=2\) = infinite proper = unreachable spatial infinity.
+
+2. **Horizon, not hard edge of space.** The \(lpha=1\) wall is a causal / Schwarzschild-type horizon at finite proper distance: infinite optical reach, \(z	o\infty\), with a **trapped interior beyond** \(r=X\) (signature flip). Wording: “ends at \(x_{\max}\)” means **causal horizon at finite proper distance with interior beyond**, not a wall of space.
+
+3. **Mass lock not part of this canon entry.** \(r_{\max}=2GM/c^2\) / MS cascade remains **Principle-7 flagged** (GR-form / definitional under MS packaging) — see audit record; not elevated by WR-L.
+
+4. **P_ell not part of this canon.** Explicitly **retired** as imposition / SNe detour (audit V2).
+
+**Provenance:** Charles-relayed V1/V2/V3 consolidated verdict; in-repo CAS prior. Local blind agent IDs not supplied — do not invent.
+**Accepted into ledger by Charles 2026-07-09 (audit bank).**
+

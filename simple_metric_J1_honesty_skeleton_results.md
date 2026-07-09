@@ -1,3 +1,11 @@
+# ⚠ PRINCIPLE-7 / join note (2026-07-09)
+
+Mass-lock faces that quote \(M\leftrightarrow X\) via Misner–Sharp \(2GM/c^2\) are **GR-form conditional** — see  
+`simple_metric_mass_xmax_cascade.md` banner + `simple_metric_WR_L_external_triple_blind_audit_results.md`.  
+Do not present as native UDT prediction. WR-L selects residual form \(A=1-r/X\), not this mass packaging.
+
+---
+
 ## HYGIENE HEADER
 
 | Field | Value |

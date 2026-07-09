@@ -128,3 +128,12 @@ Charles accepts wall conditions → status **DERIVED under WR-L**.
 | `simple_metric_L_native_optical_derive_results.md` | P-opt now dual of WR-L L |
 | `simple_metric_L_P_selection_derive_results.md` | half-ratio now dual |
 | `LIVE.md` / `MEMORY.md` | Surface WR-L DERIVED at frontier |
+
+---
+
+## External audit (2026-07-09)
+
+**`simple_metric_WR_L_external_triple_blind_audit_results.md`:** WR-L core **PASS**.  
+Own \(\alpha=1\) vs \(\alpha=2\) (finite proper is the selector). Horizon = causal ceiling, not spatial wall.  
+P_ell **RETIRED**. Mass-lock **Principle-7**. n=2 sound/generic.
+

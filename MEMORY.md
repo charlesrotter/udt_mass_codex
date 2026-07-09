@@ -21,16 +21,16 @@
 **Sourced observe:** compensated dust ⇒ \(d_L\sim\sqrt{z}\) low-\(z\).  
 **Free \(D_A\) hunt:** still \(p\sim 1/2\).  
 **Low-\(z\) theorems:** linear Hubble ⇔ \(\phi'(0)\neq 0\) under n=2+\(D_A=r\).  
-**PATH–AREAL:** P_ell χ²/dof 2.17→1.02; mass lock \(r_{\max}=2GM/c^2\), \(X=r_{\max}/(\pi/2-1)\).  
+**PATH–AREAL / P_ell:** **RETIRED**. Mass MS/\(2GM/c^2\): **Principle-7** do not lean.  
 **Success bar:** multi-tension one theory — not beat ΛCDM everywhere.  
 **Charles:** \(X\)=sphere-size ceiling; full light.  
 **S3 dust selection WITHDRAWN** (wrong \(G^r_r\)); identity \(p_r=-\rho\).  
 **Critical matter:** \(M=X/2\) **closes** sphere; does **not** glue R1–Einstein.  
 **S5–S9:** E vs A maps; EH vary-φ empty; native package OPEN.  
 **FOCUS:** simple residual L package + kaleidoscope appearance.  
-**★ L:** **DERIVED under WR-L** — **canon C-2026-07-09-1** (Charles accepts wall package, 2026-07-09).  
-  (`simple_metric_L_wall_regularity_closure_results.md`) — residual re-center ⇒ family \(A=(1-r/X)^\alpha\); ∞ optical + finite proper + finite wall \(G^\theta{}_\theta\) ⇒ \(\alpha=1\) ⇒ \(A=1-r/X\).  
-  Not SNe-selected; not bare R1–R3 alone. P-opt / half-stress are duals.  
+**★ L:** **DERIVED under WR-L** — **C-2026-07-09-1** + audit **1a** (triple-blind PASS).  
+  Own α=1 vs α=2 (finite proper selects); wall = **causal horizon**, not spatial edge.  
+  Audit: `simple_metric_WR_L_external_triple_blind_audit_results.md`. P-opt/half-stress duals.  
 **Kaleidoscope** on L mined; pure BAO AP: low-\(z\) LRG on \(R_L\), high-\(z\) low.  
 **NEXT:** time-live residual / appearance; micro when ready. Canon: **C-2026-07-09-1** (WR-L).
 **Startup (2026-07-09):** LIVE/HANDOFF/INDEX **leaned**; stale layers → `archive/LIVE_historical_frontier_through_2026-07-08.md`, `archive/INDEX_pre_simple_metric_WR_L_2026-07-09.md`, `HANDOFF_ARCHIVE.md`.
