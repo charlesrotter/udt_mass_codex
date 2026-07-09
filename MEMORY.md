@@ -34,7 +34,8 @@
 **Kaleidoscope** on L mined; pure BAO AP: low-\(z\) LRG on \(R_L\), high-\(z\) low.  
 **★ Center:** re-centering **⊥** center regularity (global). Fork (A)/(B) for Charles.  
   `simple_metric_WR_L_center_recenter_exclusion_results.md` (+ atlas + invariants passes).  
-**NEXT:** Charles fork (A)/(B) re-centering scope; else time-live / appearance. External c-edge OK next.
+**★ EOS window:** under CHOSE \(p_t=w\rho\), only \(w=-1\) (dS) is wall+regular-center+DEC — `simple_metric_EOS_power_window_dS_results.md`. Not WR-L family. Charles ruling OPEN.  
+**NEXT:** Charles (A)/(B) and/or dS-vs-WR-L; else time-live / appearance.
 **Startup (2026-07-09):** LIVE/HANDOFF/INDEX **leaned**; stale layers → `archive/LIVE_historical_frontier_through_2026-07-08.md`, `archive/INDEX_pre_simple_metric_WR_L_2026-07-09.md`, `HANDOFF_ARCHIVE.md`.
 
 ---

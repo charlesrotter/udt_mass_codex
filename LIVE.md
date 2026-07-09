@@ -264,7 +264,14 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - Atlas: re-centering ≠ manifold coord change. Character lead: clean exterior, not global vacuum on \([0,X]\).  
 - \(\rho\sim 1/r\) not a derived particle core.  
 
-**➤➤ NEXT:** Charles: fork (A) global re-centering vs (B) wall-asymptotic re-centering? (related: seat ontology). Else time-live / appearance; optional native mass. External c-edge under same discipline is a good next external run.  
+**★ EOS power window (2026-07-09, external + CAS):** `simple_metric_EOS_power_window_dS_results.md`  
+- **Different family** from residual re-centering: \(A=1-(r/X)^{\beta}\), \(\beta=-2w\), under **CHOSE** \(p_t=w\rho\) + Einstein reciprocal.  
+- L = \(\beta=1\) (\(w=-1/2\)); dS = \(\beta=2\) (\(w=-1\), \(A=1-r^2/X^2\), \(\rho=3/(8\pi X^2)\)).  
+- Center-regular \(\Leftrightarrow\beta\ge 2\); + DEC \(\Rightarrow\) window collapses to **\(w=-1\) only**.  
+- Unifies center singularity of L with “narrow window” → a point (Λ). **NOT** derived from WR-L re-centering.  
+- **Charles ruling OPEN:** adopt macro = dS causal edge \(\Lambda=3/X^2\) and reread L as singular boundary member (pairs with center fork B)? Or keep WR-L residual + (A)/(B) re-centering fork.  
+
+**➤➤ NEXT:** Charles: (1) re-centering fork (A)/(B); (2) optional **dS window** ruling (macro Λ vs WR-L residual as primary). Else time-live / appearance. Do **not** auto-demote WR-L.  
 **Red:** treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---

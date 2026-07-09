@@ -169,3 +169,10 @@ Mutual exclusion is the sharper **global SSS + exact re-centering** theorem; atl
 ## One-line
 
 **Exact residual re-centering forbids a smooth center (\(A'(0)\neq0\) for the whole family); the center singularity is structural, not optional paint — Charles must rule whether re-centering is global (A) or wall-asymptotic (B).**
+
+---
+
+## Related: EOS power window (same day)
+
+**`simple_metric_EOS_power_window_dS_results.md`** — different family \(A=1-(r/X)^\beta\). Under CHOSE \(p_t=w\rho\)+DEC, only \(w=-1\) (dS) is regular at center *and* wall. L is singular \(\beta=1\). Does **not** replace re-centering exclusion; offers optional Charles path (macro dS + L as boundary member / fork B).
+

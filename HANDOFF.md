@@ -30,7 +30,10 @@ Residual re-centering + wall regularity. External triple-blind audit: **PASS**
 Fork (A) global re-center → singularity forced · (B) wall-asymptotic → regular core possible.  
 `simple_metric_WR_L_center_recenter_exclusion_results.md`.  
 
-**NEXT:** Charles (A)/(B) re-centering scope? else time-live / appearance. External c-edge run recommended.
+**EOS window (2026-07-09):** CHOSE \(p_t=w\rho\) scan → unique regular point \(w=-1\) (static dS, \(\Lambda=3/X^2\)). L is singular \(\beta=1\) member. Different family from WR-L.  
+`simple_metric_EOS_power_window_dS_results.md`.  
+
+**NEXT:** Charles: re-centering (A)/(B) and/or adopt dS macro edge? Else time-live / appearance. **Do not** auto-demote WR-L or canonize Λ without ruling.
 
 **Red:** bare-metric L claim; revive P_ell; lean on MS mass as native; χ²-shop \(A(r)\); free \(D_A\) as theory; \(x_{\max}\) as hard spatial wall.
 
