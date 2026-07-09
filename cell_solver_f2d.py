@@ -196,8 +196,21 @@ def fields(v, ctx, prm, n5d=None):
     n5d (dict or None): OFF-ROUND shear extension.  When None the base (round-trace) system is
     computed byte-for-byte unchanged.  When a dict, the ell=2 traceless shear a2(r) is live: the
     phi-ODE gains the exact off-round source correction +(1/(5Z))e^{-2phi}a2'^2 (n5d_shear), and
-    the shear EL row + its BCs are added by residual().  With a2==0 every base row is identical."""
-    Z, XI, KAP, N = prm
+    the shear EL row + its BCs are added by residual().  With a2==0 every base row is identical.
+
+    prm may be a 4-tuple (Z,XI,KAP,N) -> phi-BLIND (alpha=0, byte-identical base), or a 6-tuple
+    (Z,XI,KAP,N,ALPHA,ASRC_C) -> the native DIRECT matter source in the phi-EOM is live (Thread B,
+    relaxed phi-blindness): the radial matter channel carries a weight e^{ALPHA*phi} so
+        Z(rho^2 phi')' = 4 e^{-2phi} rho'^2 + S ,   S = ASRC_C * ALPHA * XI * e^{ALPHA*phi} rho^2 I_r
+    hence phi'' gains S/(Z rho^2) = ASRC_C*ALPHA*XI*e^{ALPHA*phi} I_r / Z.  ASRC_C is the source
+    coefficient: BLIND-VERIFIED SELF-CONSISTENT value ASRC_C=-1/2 (settle2.py / verify_TAB_transverse_stress
+    ITEM 5: the SAME angle-integrated action that reproduces the base phi/rho EOMs AND the verified T_AB
+    gives -alpha*xi/2, ratio -1/2 vs the doc's +alpha*xi).  ASRC_C=+1 reproduces the doc/charter value
+    and is kept as a switch to characterize both (they have OPPOSITE sign for alpha<0).  ALPHA=0 or
+    ASRC_C=0 -> no source term (base byte-identical)."""
+    Z, XI, KAP, N = prm[:4]
+    ALPHA = float(prm[4]) if len(prm) > 4 else 0.0
+    ASRC_C = float(prm[5]) if len(prm) > 5 else 0.0
     Nr, Nth = ctx["Nr"], ctx["Nth"]
     if n5d is None:
         phi, rho, uf, L = unpack(v, ctx)
@@ -242,6 +255,11 @@ def fields(v, ctx, prm, n5d=None):
 
     e2m = torch.exp(-2.0 * phi); e2p = torch.exp(2.0 * phi)
     phi_ode = phipp - (4.0 * e2m * rhop ** 2 / (Z * rho ** 2) - 2.0 * phip * rhop / rho)
+    if ALPHA != 0.0 and ASRC_C != 0.0:
+        # native DIRECT matter source in the phi-EOM (Thread B; relaxed phi-blindness, radial channel
+        # weight e^{ALPHA*phi}).  phi'' RHS gains S/(Z rho^2) = ASRC_C*ALPHA*XI*e^{ALPHA*phi} I_r / Z
+        # (rho^2 cancels).  ASRC_C=-1/2 is the blind-verified self-consistent coeff (see fields() docstring).
+        phi_ode = phi_ode - (ASRC_C * ALPHA * XI * torch.exp(ALPHA * phi) * Ir / Z)
     rho_ode = rhopp - (2.0 * phip * rhop - (Z / 4.0) * rho * e2p * phip ** 2
                        + (e2p / 4.0) * (XI * rho * Ir - KAP * N ** 2 * I4th / rho ** 3))
 
@@ -324,7 +342,7 @@ def H_of_r(v, ctx, prm, n5d=None):
     moments fold e^{+-s} INSIDE the theta-integral (Ith->Ith_es, Is->Is_es, I4r->I4r_es) and H gains the
     shear kinetic +(1/10)e^{-2phi}rho^2 a2'^2 (Gate-0.5 sec4).  At a2=0 (e^{+-s}->1, a2'=0) it reduces to
     the base H exactly."""
-    Z, XI, KAP, N = prm
+    Z, XI, KAP, N = prm[:4]
     Q = fields(v, ctx, prm, n5d=n5d)
     rho, phip, rhop, e2m = Q["rho"], Q["phip"], Q["rhop"], Q["e2m"]
     Ir, I4th = Q["Ir"], Q["I4th"]                         # s-independent moments (no e^{+-s})
@@ -342,7 +360,7 @@ def H_of_r(v, ctx, prm, n5d=None):
 def derrick(v, ctx, prm):
     """Derrick integral identity diagnostic: returns (S_a, S_b, S_a - S_b). Radial integral by
     Clenshaw-Curtis (scaled by L/2). On a true solution S_a == S_b."""
-    Z, XI, KAP, N = prm
+    Z, XI, KAP, N = prm[:4]
     Q = fields(v, ctx, prm)
     rho, phip, rhop, e2m = Q["rho"], Q["phip"], Q["rhop"], Q["e2m"]
     Ir, Ith, Is, I4th, I4r = Q["Ir"], Q["Ith"], Q["Is"], Q["I4th"], Q["I4r"]
@@ -386,7 +404,7 @@ def residual(v, ctx, prm, wbc=1.0, n5d=None):
     """Monolithic residual.  n5d=None -> the base round-trace system (unchanged).  n5d=dict -> the
     off-round shear rows are APPENDED after the base block (base rows keep identical positions, so
     residual(v_base) == residual(v_n5d)[:base_len] whenever the shear amplitude a2==0)."""
-    Z, XI, KAP, N = prm
+    Z, XI, KAP, N = prm[:4]
     Q = fields(v, ctx, prm, n5d=n5d)
     phip, rhop, fr = Q["phip"], Q["rhop"], Q["fr"]
     # phi seal boundary row:  Class A (default) = smooth mirror fold phi'(r_s)=0 (=> q_raw=0, chargeless);

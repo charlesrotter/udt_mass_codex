@@ -102,7 +102,7 @@ cell embeds in.** Output ratios, not absolute scales (scale-free; the depth is t
 ### B.1 What was unfrozen (this session, blind-verified — `udt_phi_blindness_relaxation_results.md`)
 The native two-player action, varied w.r.t. φ, gives the DIRECT matter source in the dilation equation:
 ```
-Z(ρ²φ′)′ = 4e^{−2φ}ρ′²  +  α·ξ·e^{αφ}·ρ²·I_r        (I_r = ½∫sinθ f_r²dθ ≥ 0 ; ξ=1)
+Z(ρ²φ′)′ = 4e^{−2φ}ρ′²  −  (α/2)·ξ·e^{αφ}·ρ²·I_r        (I_r = ½∫sinθ f_r²dθ ≥ 0 ; ξ=1)   ⟵ COEFF CORRECTED 2026-07-09 (was +α·ξ; anchor-verified −(α/2)·ξ, `verify_alpha_coeff_ANCHORED.py`; α<0 ⇒ POSITIVE/supporting)
 ```
 (÷Z gives the equivalent form `(ρ²φ′)′ = (4/Z)e^{−2φ}ρ′² + …` used in `udt_no_homogeneous_universe_results.md` — same equation.)
 - **φ-blindness ≡ α=0** and is a **CHOSE lever, NOT forced** — its only justification is the depth-shift symmetry, which is

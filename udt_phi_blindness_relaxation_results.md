@@ -14,7 +14,12 @@
 ## 1. φ-blindness is a CHOSE lever, not forced (derived; agent `a3f070ab…`)
 The native two-player action, varied w.r.t. φ, gives the DIRECT matter source in the dilation equation:
 ```
-Z(ρ²φ′)′ = 4e^{−2φ}ρ′²  +  α·ξ·e^{αφ}·ρ²·I_r      (I_r = ½∫sinθ f_r²dθ ≥ 0, a theorem; ξ=1)
+Z(ρ²φ′)′ = 4e^{−2φ}ρ′²  −  (α/2)·ξ·e^{αφ}·ρ²·I_r      (I_r = ½∫sinθ f_r²dθ ≥ 0, a theorem; ξ=1)
+```
+> **⚠ COEFF CORRECTED 2026-07-09:** this line read `+ α·ξ·…`; the anchor test (one normalization reproducing base
+> φ-EOM + base ρ-EOM + verified T_AB) forces **`− (α/2)·ξ·…`** (`verify_alpha_coeff_ANCHORED.py`). Load-bearing: for
+> **α<0 the direct source is POSITIVE — it SUPPORTS I_r** (the old `+α` gave the opposite, draining, sign).
+```
 ```
 - `α` = radial matter weight. **φ-blindness ≡ α=0.** Its ONLY justification is the depth-shift symmetry φ→φ+λ,
   which is **BROKEN in Branch P** (by the transverse 𝒦 term, `gp_switch_criterion_results.md`) — exactly where the
