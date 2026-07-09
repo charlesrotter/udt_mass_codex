@@ -1,0 +1,10 @@
+{
+  "family": "r/X=1-A^s from NPC+affine re-centering",
+  "alpha": "A=(1-r/X)^\u03b1, \u03b1=1/s",
+  "optical_wall": "\u03b1\u22651",
+  "proper_finite": "\u03b1<2",
+  "finite_A_double_prime": "\u03b1=1 in (1,2) range via prefactor; or \u03b1\u22652",
+  "intersection": "\u03b1=1 only",
+  "L": "A=1-r/X",
+  "tag": "DERIVED-CONDITIONAL on wall regularity package"
+}

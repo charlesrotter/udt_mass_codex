@@ -3,13 +3,15 @@
 | Field | Value |
 |-------|--------|
 | **Date** | 2026-07-09 |
-| **Mode** | MAP / AUDIT RECONCILE (GitHub `grok` + local) |
+| **Mode** | MAP / AUDIT RECONCILE + WR-L upgrade |
 | **Status** | **BINDING CLEAN STATUS** for L package |
-| **Build-on grade** | LEAD structural — **not** principle-closed |
+| **Build-on grade** | **DERIVED under WR-L** (not bare R1–R3 alone) |
 
-# L package: equivalence-closed, not principle-closed
+---
 
-External audit of `grok` (verified via GitHub connector; local clone DNS failed in auditor container). This file **banks** the clean status so LIVE and L-docs do not overclaim.
+# L package: equivalence-closed and WR-L–selected
+
+External audit of `grok` + Charles wall-package acceptance (2026-07-09). This file banks clean status so LIVE and L-docs do not overclaim or underclaim.
 
 ---
 
@@ -21,41 +23,46 @@ External audit of `grok` (verified via GitHub connector; local clone DNS failed 
 
 ---
 
-## Equivalence triangle (exact — auditor re-derived)
+## Anchor (new): package WR-L
 
-Let \(A=e^{-2\phi}\).
-
-### A. P-opt \(\Rightarrow\) L
+Charles accepts the wall-regularity conditions. Named package:
 
 \[
-\frac{dr}{A}=\kappa\,d\phi,\qquad d\phi=-\frac12\frac{dA}{A}
+\boxed{
+\text{R1–R3 + residual re-centering + WR-L}
+\Rightarrow
+A=1-r/X.
+}
+\]
+
+Full write-up: **`simple_metric_L_wall_regularity_closure_results.md`**
+
+WR-L in short: residual composition + affine seat re-center → family \(A=(1-r/X)^\alpha\); then finite proper room + infinite optical reach + finite \(G^\theta{}_\theta\) at wall → \(\alpha=1\) only.
+
+**Tag:**
+\[
+\boxed{\text{DERIVED from simple metric + residual composition + accepted wall-regularity axioms.}}
+\]
+
+Not SNe-selected. Not free chart shopping. Not stress-ratio slogan as primary.
+
+---
+
+## Equivalence triangle (exact — now duals of L)
+
+Let \(A=e^{-2\phi}\). Under L, the old “hinges” become **consequences**:
+
+### A. L \(\Rightarrow\) P-opt
+
+\[
+A=1-r/X
 \quad\Rightarrow\quad
-dr=-\frac{\kappa}{2}\,dA.
+\frac{dr}{A}=2X\,d\phi.
 \]
 
-\(r=0,A=1\) ⇒ \(r=(\kappa/2)(1-A)\). Set \(X=\kappa/2\):
+### B. L \(\Rightarrow\) \(p_t=-\rho/2\)
 
-\[
-\boxed{A=1-r/X.}
-\]
-
-### B. \(p_t=-\rho/2\) \(\Rightarrow\) L
-
-Einstein readout on reciprocal metric + \(G^\theta{}_\theta=\frac12 G^t{}_t\) ⇒
-
-\[
-r^2A''+rA'-A+1=0
-\quad\Rightarrow\quad
-A=1+\frac{C_1}{r}+C_2 r.
-\]
-
-No Coulomb pole \(C_1=0\); wall \(A(X)=0\) ⇒ \(C_2=-1/X\):
-
-\[
-\boxed{A=1-r/X.}
-\]
-
-Exact, but uses **Einstein stress language** — not yet pure positional-dilation cause. “Why half?” remains **OPEN**.
+Einstein readout on reciprocal metric under \(A=1-r/X\) recovers the half-stress face.
 
 ### C. L \(\Rightarrow\) composition
 
@@ -67,59 +74,48 @@ Additive \(\phi\) ⇒ multiplicative \(A\). With \(A_i=1-r_i/X\):
 
 Associative; \(0\) identity; \(X\) absorbing.
 
----
+### Historical reverse implications (still true)
 
-## Failure point (the real gap)
-
-The triangle is mathematically tight **after one of these is admitted**:
-
-\[
-\frac{dr}{A}=\kappa\,d\phi
-\quad\text{or}\quad
-p_t=-\rho/2
-\quad\text{or}\quad
-r/X=1-A.
-\]
-
-**None of the three is yet derived from R1–R3 / positional dilation alone.**
-
-| Face | Status |
-|------|--------|
-| P-opt | **WORKING PRINCIPLE** — hinge, not canon |
-| \(p_t=-\rho/2\) | **Named continuum selector** — “why 1/2?” OPEN |
-| Chart \(r/X=1-A\) | **WORKING paint** — may be chose if not forced |
-| Equivalence among the three | **CLOSED** (exact) |
-| Principle-closure from R1–R3 | **OPEN** |
-
-\[
-\boxed{\text{L is equivalence-closed, but not principle-closed.}}
-\]
-
-**Cleanup rule:** never write “L is forced by the metric alone” or “P-opt is canon.” Always: *under P-opt / under \(p_t=-\rho/2\) / as working paint*.
+P-opt alone ⇒ L; \(p_t=-\rho/2\) + regular wall ⇒ L. Those remain valid dual confirmations; they are no longer the only anchors.
 
 ---
 
-## What remains acceptable as MAY (unchanged by audit)
+## Failure point (updated)
 
-- L as **working** residual package (mass lock \(M=X/2\), \(X\) one scale).
-- SNe: L-family **best discrete chart** in current ranking (\(\chi^2/\mathrm{dof}\sim 0.91\) class) — **clue**, not proof.
+| Claim | Status |
+|-------|--------|
+| L forced by bare R1–R3 alone | **FALSE** — still OPEN / false |
+| L forced by NPC residual only | **FALSE** (bare attack FAIL) |
+| L selected by WR-L (re-center + wall package) | **TRUE** — Charles-accepted axioms |
+| Equivalence among L / P-opt / half-stress | **CLOSED** (exact) |
+| \(S_r=S_A\) as free taste | **FALSE** — theorem under WR-L |
+
+\[
+\boxed{\text{L is WR-L–derived (accepted axioms), equivalence-closed; not bare-metric-forced.}}
+\]
+
+**Cleanup rule:** Prefer *under WR-L* or *as residual embedding selected by wall regularity*. Avoid “forced by the metric alone.” Avoid “P-opt is the primary canon hinge” — P-opt is dual.
+
+---
+
+## What remains acceptable as MAY (unchanged as *data*)
+
+- SNe: L-family **best discrete chart** in current ranking — **clue**, not proof (form already WR-L–derived).
 - Pure BAO AP \(R_L=z+z^2/2\): low-\(z\) LRG contact; high-\(z\) below L — character.
-- Kaleidoscope appearance algebra **on L** (scoped to paint).
+- Kaleidoscope appearance algebra **on L**.
 
 ---
 
-## Next narrow attack — RAN (2026-07-09)
+## Attacks RAN
 
-**Question:** Does **“no preferred center + residual survival”** force \(A=1-r/X\)?
+### 1) Bare NPC + survival — FAIL (clean)
+**Result:** does not force L without identifying \(A\) with \(1-r/X\).  
+`simple_metric_L_principle_closure_attack_results.md`
 
-**Result:** **FAIL (clean)** without an extra identification.  
-Full write-up: **`simple_metric_L_principle_closure_attack_results.md`**.
-
-**Progress:** gap **narrowed** to one hinge:
-
-> Must residual survival \(A\) coincide with areal room remaining \(1-r/X\)?
-
-NPC-1 alone only forces \(A\)-ratios. Equating \(A\) with \(1-r/X\) *is* L (unique among standard charts). That equation is still OPEN as a principle.
+### 2) Affine re-centering + wall package — **CLOSE under WR-L**
+**Result:** family then \(\alpha=1\) ⇒ L.  
+Charles accepts wall conditions → status **DERIVED under WR-L**.  
+`simple_metric_L_wall_regularity_closure_results.md`
 
 **Still not next:** χ²-shop free \(A(r)\); import DE; revive screening BAO kludge.
 
@@ -129,12 +125,6 @@ NPC-1 alone only forces \(A\)-ratios. Equating \(A\) with \(1-r/X\) *is* L (uniq
 
 | File | Keep math; soft wording if overclaim |
 |------|--------------------------------------|
-| `simple_metric_L_native_optical_derive_results.md` | Already tags P-opt WORKING — OK; add link here |
-| `simple_metric_L_P_selection_derive_results.md` | Already OPEN on half-ratio — OK; add link here |
-| `LIVE.md` / `MEMORY.md` | Must surface “not principle-closed” at frontier |
-
----
-
-## One-line
-
-**L is a closed equivalence class of (P-opt ⇔ \(p_t=-\rho/2\) ⇔ chart \(1-A\)) with composition; it is not yet forced by positional dilation alone — harden or replace the hinge, do not pretend the triangle is principle-closed.**
+| `simple_metric_L_native_optical_derive_results.md` | P-opt now dual of WR-L L |
+| `simple_metric_L_P_selection_derive_results.md` | half-ratio now dual |
+| `LIVE.md` / `MEMORY.md` | Surface WR-L DERIVED at frontier |

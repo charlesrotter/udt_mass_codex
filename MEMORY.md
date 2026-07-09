@@ -28,11 +28,11 @@
 **Critical matter:** \(M=X/2\) **closes** sphere; does **not** glue R1–Einstein.  
 **S5–S9:** E vs A maps; EH vary-φ empty; native package OPEN.  
 **FOCUS:** simple residual L package + kaleidoscope appearance.  
-**★ L = equivalence-closed, NOT principle-closed** (`simple_metric_L_equivalence_principle_GAP.md`).  
-**Attack RAN:** NPC+survival **fails** cleanly; hinge **narrowed** to \(A\stackrel{?}{=}1-r/X\)  
-  (`simple_metric_L_principle_closure_attack_results.md`).  
+**★ L:** **DERIVED under WR-L** (Charles accepts wall package, 2026-07-09).  
+  (`simple_metric_L_wall_regularity_closure_results.md`) — residual re-center ⇒ family \(A=(1-r/X)^\alpha\); ∞ optical + finite proper + finite wall \(G^\theta{}_\theta\) ⇒ \(\alpha=1\) ⇒ \(A=1-r/X\).  
+  Not SNe-selected; not bare R1–R3 alone. P-opt / half-stress are duals.  
 **Kaleidoscope** on L mined; pure BAO AP: low-\(z\) LRG on \(R_L\), high-\(z\) low.  
-**NEXT:** force/refute \(A=1-r/X\) identification; or P-opt; or time-live derived residual.
+**NEXT:** time-live residual / appearance; micro when ready; optional CANON.md line.
 
 ---
 
