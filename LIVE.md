@@ -141,7 +141,7 @@ Record (banner only): `simple_metric_path_areal_split_results.md`.
 
 **P_ell mass lock:** **RETIRED** — `simple_metric_Pell_mass_lock_derive.md` (banner).  
 Motivation: static rods measure \(d\ell=e^{\phi}dr\) ⇒ composition chart on **proper** path (motivated, not unique theorem).  
-Exact: \(r_{\max}/X=\pi/2-1\); **\(r_{\max}=2GM/c^2\)**; \(X=r_{\max}/(\pi/2-1)\). Mass locks to areal saturation, not to \(X=r\).  
+Historical P_ell-only formula (RETIRED with P_ell): \(r_{\max}=2GM/c^2\) etc. — **Principle-7**, not live.  
 Compactness \(2Gm/(c^2r)=2x/(X+x)\) unchanged in \(x\).
 
 **Success criterion (Charles 2026-07-09):** Do **not** require beating ΛCDM on every observable/χ². Goal = **one theory resolving multiple ΛCDM tensions** (goal, not yet demonstrated). Continue **refining hyperbolic**, not trophy-chasing.
