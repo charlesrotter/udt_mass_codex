@@ -31,6 +31,9 @@
 | EOS power window / dS | `simple_metric_EOS_power_window_dS_results.md` |
 | Charles rulings (A)+dS heuristic | `simple_metric_Charles_rulings_center_dS_2026-07-09.md` |
 | Center/dS verify pass | `simple_metric_center_dS_external_verify_pass_results.md` |
+| dS any-α closed | `simple_metric_dS_native_any_alpha_closed_results.md` |
+| α restoring probe | `simple_metric_alpha_restoring_probe_results.md` |
+| Thread B cell charter | `threadB_coupled_cell_flatness_Lselector_CHARTER.md` |
 | H/L / optics | `simple_metric_HL_unification_results.md`, `simple_metric_L_native_optical_derive_results.md` |
 | Kaleidoscope | `simple_metric_kaleidoscope_MAP.md`, `simple_metric_kaleidoscope_MINE_results.md` |
 | BAO / time-live | `simple_metric_bao_*`, `simple_metric_timelive_*` |

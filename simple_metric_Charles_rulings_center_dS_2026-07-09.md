@@ -118,3 +118,12 @@ Glue between residual L and continuum dS remains **to be derived** — not smugg
 - **dS lean:** demoted to **GR-form heuristic** with explicit **native-forbidden** under φ-blind.  
 - Not “macro = dS natively.” Glue path = matter–φ coupling (Thread B), open.  
 - `simple_metric_center_dS_external_verify_pass_results.md`.
+
+---
+
+## Walk-back: no native dS via Thread B
+
+dS native closed for **any** α (`simple_metric_dS_native_any_alpha_closed_results.md`).  
+Ruling **(A)** + kaleidoscope frame-relation: no continuum dS ball to fill; seat singularity needs no “cure.”  
+Choice-2 GR-form dS remains **heuristic only**.
+

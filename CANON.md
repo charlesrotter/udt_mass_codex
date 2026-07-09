@@ -499,3 +499,16 @@ core derivation CONFIRMED sound and honestly scoped.
 **Provenance:** `simple_metric_Charles_rulings_center_dS_2026-07-09.md`, `simple_metric_EOS_power_window_dS_results.md`, `simple_metric_center_dS_external_verify_pass_results.md`, `udt_phi_blindness_relaxation_results.md`.
 **Ruled by Charles 2026-07-09; verify-softened same day.**
 
+## C-2026-07-09-2b — dS native-forbidden for any α; Thread B is not a dS road
+
+**Statement:** Sourcing \(A=1-kr^2\) through the native φ-equation requires a **sign-changing** source (negative at seat, positive at wall). The native matter–φ coupling \(\alpha e^{\alpha\phi}\rho^2 I_r\) has fixed sign \(=\mathrm{sign}(\alpha)\) (\(I_r\ge 0\) theorem). Therefore de Sitter is **native-forbidden for every α**, not only φ-blind α=0.  
+
+**Withdrawn:** “relaxed φ-blindness (Thread B) is the native path to continuum dS.”  
+
+**Thread B content (leads):** bounded cell, matter L-selector, particle restoring channel — see `udt_phi_blindness_relaxation_results.md` §3 and `threadB_coupled_cell_flatness_Lselector_CHARTER.md`.  
+
+**Frame:** residual L + ruling (A) + kaleidoscope frame-relation: no cosmic dS ball to fill; seat singularity needs no continuum cure.
+
+**Provenance:** `simple_metric_dS_native_any_alpha_closed_results.md`; banked dS negative in `udt_phi_blindness_relaxation_results.md` §2.
+**Banked 2026-07-09 (walk-back of prior Thread-B→dS wording).**
+

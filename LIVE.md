@@ -270,10 +270,12 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - Center-regular \(\Leftrightarrow\beta\ge 2\); + DEC \(\Rightarrow\) window collapses to **\(w=-1\) only**.  
 - Unifies center singularity of L with “narrow window” → a point (Λ). **NOT** derived from WR-L re-centering.  
 - **Choice 2 / dS (softened verify):** EOS \(w=-1\) uniqueness **PASS** inside GR-form box; \(A=1-r^2/X^2\) **native-forbidden** under φ-blind — **GR-form heuristic only**, not dual-layer native macro.  
-- Glue path if dS ever native: **relax φ-blindness** (Thread B), not re-centering alone.  
+- **dS native CLOSED for any α** (sign-changing source vs fixed-sign coupling) — `simple_metric_dS_native_any_alpha_closed_results.md`. Thread B ≠ dS road.  
+- **Kaleidoscope / frame-relation:** no cosmic dS ball; ruling **(A)** is whole seat story.  
+- **Thread B real content:** restoring channel + L-selector + bounded cell — probe `simple_metric_alpha_restoring_probe_results.md`; charter `threadB_coupled_cell_flatness_Lselector_CHARTER.md`.  
 - V-CENTER **PASS**; V-EOS math PASS + caveats: `simple_metric_center_dS_external_verify_pass_results.md`.  
 
-**➤➤ NEXT:** residual L under (A); if pursuing continuum dS natively → Thread B (φ-matter source), not GR-form import; time-live / appearance. Do **not** present dS as native φ-blind UDT.  
+**➤➤ NEXT:** Thread B **coupled cell** charter (flatness T1 + L-selector T2 + core T3) when Charles dispatches — not dS. Else residual L kaleidoscope / time-live. Do **not** chase native continuum dS.  
 **Red:** undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---

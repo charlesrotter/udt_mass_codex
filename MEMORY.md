@@ -33,9 +33,9 @@
   Audit: `simple_metric_WR_L_external_triple_blind_audit_results.md`. P-opt/half-stress duals.  
 **Kaleidoscope** on L mined; pure BAO AP: low-\(z\) LRG on \(R_L\), high-\(z\) low.  
 **★ Center:** Charles **(A)** — re-centering exact; \(\phi=0\) seat singularity OK (regime boundary).  
-**★ dS:** GR-form heuristic only — **native-forbidden** φ-blind; Thread B for native path.  
-  Verify: `simple_metric_center_dS_external_verify_pass_results.md`.  
-**NEXT:** Thread B if native continuum; else time-live / appearance on L.
+**★ dS:** GR-form heuristic; **native-forbidden for any α** (not Thread-B-fixable).  
+**★ Thread B:** restoring channel probe real; charter full cell solve — `threadB_coupled_cell_flatness_Lselector_CHARTER.md`.  
+**NEXT:** dispatch coupled cell (Charles) or residual L appearance.
 **Startup (2026-07-09):** LIVE/HANDOFF/INDEX **leaned**; stale layers → `archive/LIVE_historical_frontier_through_2026-07-08.md`, `archive/INDEX_pre_simple_metric_WR_L_2026-07-09.md`, `HANDOFF_ARCHIVE.md`.
 
 ---

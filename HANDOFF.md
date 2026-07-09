@@ -33,7 +33,9 @@ Fork (A) global re-center → singularity forced · (B) wall-asymptotic → regu
 **EOS window (2026-07-09):** CHOSE \(p_t=w\rho\) scan → unique regular point \(w=-1\) (static dS, \(\Lambda=3/X^2\)). L is singular \(\beta=1\) member. Different family from WR-L.  
 `simple_metric_EOS_power_window_dS_results.md`.  
 
-**NEXT:** Thread B if native dS-like continuum; time-live / appearance on L. Verify: `simple_metric_center_dS_external_verify_pass_results.md`.
+**dS native closed any α.** Thread B ≠ dS.  
+**Thread B charter:** `threadB_coupled_cell_flatness_Lselector_CHARTER.md` (T1 flat cell, T2 L-selector, T3 core). Probe: `simple_metric_alpha_restoring_probe_results.md`.  
+**NEXT:** Charles dispatch of charter, or residual L / time-live. Do not launch unbounded solves.
 
 **Red:** bare-metric L claim; revive P_ell; lean on MS mass as native; χ²-shop \(A(r)\); free \(D_A\) as theory; \(x_{\max}\) as hard spatial wall.
 

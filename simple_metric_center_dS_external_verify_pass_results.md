@@ -99,3 +99,19 @@ Native realization of a dS-like continuum would require **relaxed φ-blindness**
 ## One-line
 
 **Center no-go confirmed clean under (A); EOS→dS uniqueness confirmed only inside GR-form CHOSE box, and \(A=1-r^2/X^2\) remains native-forbidden under φ-blind — hold as heuristic; native glue goes through matter–φ coupling.**
+
+---
+
+## WALK-BACK (same day, later) — Thread B is NOT the native road to dS
+
+Independent re-check + banked §2: required dS source **sign-changes** (negative seat, positive wall); native \(\alpha e^{\alpha\phi}\rho^2 I_r\) has **fixed sign(α)**.  
+
+\[
+\boxed{dS\text{ native-forbidden for }any\ \alpha.}
+\]
+
+**Withdrawn:** “relaxed φ-blindness makes dS native.”  
+**Record:** `simple_metric_dS_native_any_alpha_closed_results.md`.  
+
+Thread B real content: cell / L-selector / restoring channel — charter `threadB_coupled_cell_flatness_Lselector_CHARTER.md`.
+
