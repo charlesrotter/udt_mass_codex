@@ -227,7 +227,7 @@ P_ell = archived **explore contrast** only (LEAD), not live foundation.
 **★ L STATUS:** **DERIVED under WR-L** (Charles accepts wall package, 2026-07-09).  
   Records: `simple_metric_L_equivalence_principle_GAP.md` · **`simple_metric_L_wall_regularity_closure_results.md`**  
 - Package **WR-L**: residual re-centering ⇒ family \(A=(1-r/X)^{\alpha}\); ∞ optical + finite proper + finite wall \(G^\theta{}_\theta\) ⇒ **\(\alpha=1\)** only ⇒ **\(A=1-r/X\)**.  
-- Tag: **DERIVED** from simple metric + residual composition + accepted wall-regularity axioms — **not** SNe-selected / not bare R1–R3 alone.  
+- Tag: **DERIVED** under WR-L — **canonized C-2026-07-09-1** — not SNe-selected / not bare R1–R3 alone.  
 - P-opt / \(p_t=-\rho/2\) / \(S_r=S_A\) are now **consequences / duals** of L under WR-L.  
 
 **Native L (consistent under P-opt or wall package):** `simple_metric_L_native_optical_derive_results.md`  
@@ -262,7 +262,7 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 **Principle-closure:** bare NPC **FAIL**; **WR-L accepted** ⇒ L form **DERIVED**  
   (`simple_metric_L_wall_regularity_closure_results.md`).  
 
-**➤➤ NEXT:** time-live residual / appearance; micro when ready; optional CANON.md line if Charles wants ledger entry.  
+**➤➤ NEXT:** time-live residual / appearance; micro when ready. Canon ledger: **C-2026-07-09-1** (WR-L).  
 **Red:** claim L from bare R1–R3 alone; fluid BAO; χ²-shop \(A(r)\); screening kludge; demote WR-L to SNe chart shopping.
 
 ### ↓↓↓ SUPERSEDED-as-frontier (2026-07-08 EOD — n=2 optics + macro-needs-a-source). Still true as results, not the live framing priority. Full record: `luminosity_distance_n2_optics_results.md`. n=2 forced; n=1 Pantheon flattery = artifact; sourceless vacuum fails SNe under n=1 and n=2. Matter budget / closure guardrails remain available when matter is on-stage — subordinate to elegant frame. ↓↓↓

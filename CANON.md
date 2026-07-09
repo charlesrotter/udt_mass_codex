@@ -416,3 +416,36 @@ argued B) → HARD blind adversarial verifier (afdcd31f357869084, REFUTED B on t
 engine contradicted by the banked gp_switch "only 𝒦 breaks the shift"). Docs:
 `p16_phi_sourcing_decision_note.md` (top banner), `p16_native_derivation_contract.md` (frozen contract).
 **Canonized (conservatively) by Charles 2026-07-05.**
+
+## C-2026-07-09-1 — WR-L: residual form \(A=1-r/X\) selected by wall regularity
+
+**Statement:** On the simple reciprocal metric (\(ds^2=-e^{-2\phi}c^2dt^2+e^{2\phi}dr^2+r^2d\Omega^2\), \(A=e^{-2\phi}\)), residual composition (\(A_{12}=A_1A_2\)) together with affine seat re-centering (no residual throne: remaining areal room subtracts as \(r'=r-r_0\), \(X'=X-r_0\)) forces the one-parameter family
+\[
+A=\Bigl(1-\frac{r}{X}\Bigr)^{\alpha}.
+\]
+The wall-regular residual selector package **WR-L** — Charles-accepted axioms —
+1. residual composition / re-centering (above),
+2. finite proper room \(\ell=\int dr/\sqrt{A}<\infty\),
+3. infinite optical reach \(\ell_{\mathrm{opt}}=\int dr/A=\infty\),
+4. no curvature/shell singularity at the wall (\(G^\theta{}_\theta=\tfrac12 A''+A'/r\) finite as \(r\to X\)) —
+
+selects uniquely \(\alpha=1\). Therefore
+\[
+\boxed{A=1-\frac{r}{X}\qquad\Leftrightarrow\qquad\frac{r}{X}=1-A.}
+\]
+This is the residual embedding **L**.
+
+**Forces:**
+- L is **DERIVED** under simple metric + residual re-centering + WR-L wall axioms — not SNe-selected, not free chart shopping, not a stress-ratio slogan as primary.
+- Inside the re-centering family, \(S_r=S_A\) (areal room survival equals metric residual) is a **theorem** at \(\alpha=1\), not a taste.
+- On L, the faces \(p_t=-\rho/2\) (Einstein readout) and \(\mathrm{d}r/A=2X\,d\phi\) (P-opt with \(\kappa=2X\)) are **consequences / dual confirmations**, not independent hinges that float the form.
+- Bare R1–R3 / residual composition alone do **not** force L (the family is forced first; wall regularity picks the point). Do not write “forced by the metric alone.”
+
+**Scope / what it does not force:**
+- Absolute scale \(X\) / one ruler remains free until fixed by observation or a further relation.
+- Center regularity (\(\rho\sim 1/r\) continuum face on L) is separate from **wall** regularity — not settled by this entry.
+- Local-mass rooms, time-live residual dynamics, and microphysics are outside this macro residual-form selection.
+- Free \(D_A\) remains quarantined; this entry is simple-metric only.
+
+**Provenance:** Charles sharper derivation (affine re-centering + wall package, 2026-07-09); CAS/numeric verification `simple_metric_L_wall_regularity_closure_out.json`; full record `simple_metric_L_wall_regularity_closure_results.md`; status reconcile `simple_metric_L_equivalence_principle_GAP.md`. Bare NPC attack (FAIL without wall package): `simple_metric_L_principle_closure_attack_results.md`. Charles: accepts the three wall conditions (“I have no problem with those conditions”); ledger entry authorized this session.
+**Canonized by Charles 2026-07-09.**

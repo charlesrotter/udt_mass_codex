@@ -6,7 +6,7 @@
 | **Mode** | DERIVE (principle-closure via accepted wall package) |
 | **Source** | Charles sharper attack + **Charles accepts wall conditions** (session) |
 | **Verification** | CAS/numeric — `simple_metric_L_wall_regularity_closure_out.json` |
-| **Build-on grade** | **DERIVED** under package **WR-L** (below) — not free chart / not SNe-selected |
+| **Build-on grade** | **DERIVED** under **WR-L** — **canon C-2026-07-09-1** — not free chart / not SNe-selected |
 | **Prior** | `simple_metric_L_equivalence_principle_GAP.md` · bare NPC attack FAIL |
 
 ### Premise ledger
@@ -145,7 +145,7 @@ The old equivalence triangle is **anchored** by WR-L; \(S_r=S_A\) is a **theorem
 - Absolute scale \(X\) / one ruler.  
 - Center regularity (\(\rho\sim1/r\) continuum face) — separate from **wall** regularity.  
 - Time-live residual dynamics; high-\(z\) BAO character.  
-- Full Charles **canon line** in `CANON.md` if/when he wants that ledger entry (form is already DERIVED under WR-L).
+- **Canonized:** `CANON.md` entry **C-2026-07-09-1** (Charles 2026-07-09).
 
 ---
 

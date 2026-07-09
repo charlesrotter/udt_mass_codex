@@ -5,7 +5,7 @@
 | **Date** | 2026-07-09 |
 | **Mode** | MAP / AUDIT RECONCILE + WR-L upgrade |
 | **Status** | **BINDING CLEAN STATUS** for L package |
-| **Build-on grade** | **DERIVED under WR-L** (not bare R1–R3 alone) |
+| **Build-on grade** | **DERIVED under WR-L** — **canon C-2026-07-09-1** (not bare R1–R3 alone) |
 
 ---
 
