@@ -249,3 +249,11 @@ reachable/naked (finite proper distance, \(A(0)=1\)).
 
 Joint: (1)+(3), not (2). Atlas / pair-chart lean unchanged as interpretation, not ontology canon.
 
+---
+
+## Third pass — re-centering ⊥ center regularity
+
+**`simple_metric_WR_L_center_recenter_exclusion_results.md`**
+
+Mutual exclusion DERIVED. Fork: global re-centering (A) vs wall-asymptotic (B).
+

@@ -475,3 +475,14 @@ core derivation CONFIRMED sound and honestly scoped.
 **Provenance:** `simple_metric_WR_L_center_nogo_atlas_results.md`, `simple_metric_WR_L_center_invariants_second_pass_results.md` (two external passes + local CAS).
 **Banked as scope precision of C-2026-07-09-1 (2026-07-09).** Full Charles-canon confirmation optional — math/results carry the claim.
 
+## C-2026-07-09-1c — Residual re-centering ⊥ center regularity (append; fork open)
+
+**Statement (2026-07-09):** On the simple reciprocal metric, center regularity requires \(A'(0)=0\) (i.e. \(A=1+O(r^2)\)). The residual re-centering family \(A=(1-r/X)^\alpha\) has \(A'(0)=-\alpha/X\neq 0\) for every \(\alpha>0\). Therefore **exact global residual re-centering and center regularity are mutually exclusive.** The center curvature singularity under global L is the structural price of re-centering, not an optional inward paint.
+
+**Fork (not settled by this entry):**
+- **(A)** re-centering exact globally → center is a genuine reachable singularity (no literal vacuum seat at \(r=0\)).
+- **(B)** re-centering wall-asymptotic only → regular quadratic core allowed; WR-L is exterior/wall form only.
+
+**Provenance:** `simple_metric_WR_L_center_recenter_exclusion_results.md` (external third pass + local CAS). Revises the “CHOSE extrapolation only” emphasis of C-2026-07-09-1b when re-centering is taken as global.
+**Banked as derived exclusion + open fork (2026-07-09).** Charles picks (A) or (B).
+

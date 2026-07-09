@@ -27,6 +27,7 @@
 | L form (canon+audit) | `CANON.md` **C-2026-07-09-1/1a**, WR-L results, external audit |
 | Center no-go / atlas | `simple_metric_WR_L_center_nogo_atlas_results.md` |
 | Center invariants (2nd pass) | `simple_metric_WR_L_center_invariants_second_pass_results.md` |
+| Re-center ⊥ center (3rd) | `simple_metric_WR_L_center_recenter_exclusion_results.md` |
 | H/L / optics | `simple_metric_HL_unification_results.md`, `simple_metric_L_native_optical_derive_results.md` |
 | Kaleidoscope | `simple_metric_kaleidoscope_MAP.md`, `simple_metric_kaleidoscope_MINE_results.md` |
 | BAO / time-live | `simple_metric_bao_*`, `simple_metric_timelive_*` |

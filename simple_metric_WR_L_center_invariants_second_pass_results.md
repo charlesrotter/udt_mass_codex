@@ -6,7 +6,7 @@
 | **Mode** | DERIVE (center invariants — second independent external pass) |
 | **Source** | External (Grok-class) full-nonlinear SymPy on \(A=1-r/X\); Charles-relayed |
 | **Local check** | SymPy: \(R\), \(8\pi\rho\), Kretschmann formula for reciprocal SSS, \(\alpha\)-family limits |
-| **Build-on grade** | **DERIVED** invariants · **CHOSE** inward extrapolation · reconciles with atlas pass |
+| **Build-on grade** | **DERIVED** invariants · superseded-in-part by re-center exclusion pass |
 | **Sibling** | `simple_metric_WR_L_center_nogo_atlas_results.md` (first external + atlas fork) |
 
 ### Premise ledger
@@ -15,7 +15,7 @@
 |---------|-----|
 | Simple reciprocal metric | THEORY |
 | WR-L \(A=1-r/X\) as **wall-selected residual form** | CANON C-2026-07-09-1 |
-| Exact static φ-only \(A=1-r/X\) **all the way to \(r=0\)** | **CHOSE extrapolation** (not a WR-L axiom) |
+| Exact static φ-only \(A=1-r/X\) **all the way to \(r=0\)** | see **re-center exclusion** (forced if re-centering global) |
 | Full nonlinear curvature (no linearization) | METHOD |
 | Imported core/cutoff/particle/SNe | NOT used |
 
@@ -160,3 +160,13 @@ Both external passes agree: **not (2)**; **(1) as-written**; **(3) as scope**; a
 ## One-line
 
 **As-written static L to \(r=0\) is a real naked weak curvature singularity; WR-L never selected the center — inward extrapolation is CHOSE; no \(\alpha\) fixes it; regularization needs metric content beyond wall-only WR-L.**
+
+
+---
+
+## Superseding sharpness (same day, third pass)
+
+**`simple_metric_WR_L_center_recenter_exclusion_results.md`**
+
+If residual re-centering is **exact globally**, the center singularity is **FORCED** (\(A'(0)\neq 0\) for every family member) — not merely a CHOSE inward paint.  
+Wall-only silence remains correct for the **wall package**; the re-centering axiom is what locks the cusp when taken globally. Fork (A)/(B) for Charles.

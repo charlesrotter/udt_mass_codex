@@ -26,11 +26,11 @@ Residual re-centering + wall regularity. External triple-blind audit: **PASS**
 - MS mass-lock \(2GM/c^2\): **Principle-7** — do not present as native prediction.  
 - n=2 optics: sound, **generic Etherington** (not UDT-unique).
 
-**Center (2026-07-09):** two passes — atlas + invariants.  
-WR-L **wall selector, silent at center**; \(A=1-r/X\) to \(r=0\) is **CHOSE**; true singularity as-written (\(R,K\to\infty\)); no \(\alpha\) fixes it. Pair-chart lean if seat excluded.  
-`simple_metric_WR_L_center_nogo_atlas_results.md` · `simple_metric_WR_L_center_invariants_second_pass_results.md`.  
+**Center (2026-07-09):** **re-centering ⊥ center regularity** (if re-centering exact globally).  
+Fork (A) global re-center → singularity forced · (B) wall-asymptotic → regular core possible.  
+`simple_metric_WR_L_center_recenter_exclusion_results.md`.  
 
-**NEXT:** Charles seat ontology? else time-live residual / kaleidoscope appearance.
+**NEXT:** Charles (A)/(B) re-centering scope? else time-live / appearance. External c-edge run recommended.
 
 **Red:** bare-metric L claim; revive P_ell; lean on MS mass as native; χ²-shop \(A(r)\); free \(D_A\) as theory; \(x_{\max}\) as hard spatial wall.
 

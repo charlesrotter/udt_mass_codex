@@ -255,17 +255,17 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 **Principle-closure:** bare NPC **FAIL**; **WR-L accepted** ⇒ L form **DERIVED**  
   (`simple_metric_L_wall_regularity_closure_results.md`).  
 
-**★ Center of static WR-L (2026-07-09):** two external passes agree.  
-  Records: `simple_metric_WR_L_center_nogo_atlas_results.md` · **`simple_metric_WR_L_center_invariants_second_pass_results.md`**  
-- **(1)+(3), not (2):** if \(A=1-r/X\) to \(r=0\), true curvature singularity (\(R=6/(Xr)\), \(K=8/(X^2r^2)\)); **not** coord artifact.  
-- WR-L is a **wall selector, silent at center** — inward extrapolation **CHOSE**, not forced by WR-L axioms.  
-- Whole residual family \((1-r/X)^\alpha\): **no** \(\alpha\) regularizes the center.  
-- Reachable/naked (finite proper to seat, \(A(0)=1\)); wall horizon is separate.  
-- Atlas pass: L re-centering ≠ manifold coord change; WORKING lean residual pair-chart \(0<r<X\).  
-- \(\rho\sim 1/r\) not a derived particle core. Ontology / exact interior OPEN.  
+**★ Center of static WR-L (2026-07-09):** three external passes; local CAS.  
+  `…center_nogo_atlas…` · `…center_invariants_second_pass…` · **`simple_metric_WR_L_center_recenter_exclusion_results.md`**  
+- Center-regular \(\Leftrightarrow A'(0)=0\). Residual family: \(A'(0)=-\alpha/X\neq 0\) — **no** \(\alpha\) is center-regular.  
+- **\(\boxed{\text{residual re-centering }\bot\text{ center regularity}}\)** if re-centering is exact globally — singularity is structural, not optional paint.  
+- Wall package still silent as *wall* selector; global re-centering is what forces the cusp.  
+- **Fork (Charles):** (A) re-centering exact → reachable center singularity / no literal vacuum seat · (B) re-centering wall-asymptotic only → regular quadratic core possible; L = exterior.  
+- Atlas: re-centering ≠ manifold coord change. Character lead: clean exterior, not global vacuum on \([0,X]\).  
+- \(\rho\sim 1/r\) not a derived particle core.  
 
-**➤➤ NEXT:** Charles: seat ontology (manifold point vs residual self-diagonal)? else time-live residual / appearance. Optional: native mass (not MS).  
-**Red:** treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
+**➤➤ NEXT:** Charles: fork (A) global re-centering vs (B) wall-asymptotic re-centering? (related: seat ontology). Else time-live / appearance; optional native mass. External c-edge under same discipline is a good next external run.  
+**Red:** treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---
 
