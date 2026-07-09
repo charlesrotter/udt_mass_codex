@@ -34,10 +34,8 @@ Fork (A) global re-center → singularity forced · (B) wall-asymptotic → regu
 `simple_metric_EOS_power_window_dS_results.md`.  
 
 **dS native closed any α.** Thread B ≠ dS.  
-**Workstation one-pager:** `threadB_WORKSTATION_DISPATCH.md`  
-**Full charter:** `threadB_coupled_cell_flatness_Lselector_CHARTER.md`  
-Probe: `simple_metric_alpha_restoring_probe_results.md`.  
-**NEXT:** GPU workstation runs Thread B cell; this seat banks results. No unbounded solves here.
+**Thread B RAN** (`3c827f6`): `threadB_coupled_cell_flatness_Lselector_results.md` — coeff settled; probe flat/L-select; **f2d drains, no closed flat cell** (CONDITIONAL).  
+**NEXT:** solver-first on drain or residual L appearance. See LIVE.md.
 
 **Red:** bare-metric L claim; revive P_ell; lean on MS mass as native; χ²-shop \(A(r)\); free \(D_A\) as theory; \(x_{\max}\) as hard spatial wall.
 
@@ -46,11 +44,11 @@ Probe: `simple_metric_alpha_restoring_probe_results.md`.
 
 **Choice 1 = (A):** residual re-centering exact; \(r=0\) = \(\phi=0\) seat; singularity OK as macro/micro regime boundary. Not (B).
 
-**Choice 2 (softened):** dS = **GR-form heuristic** only (\(w=-1\) uniqueness in Einstein+EOS+DEC box). \(A=1-r^2/X^2\) **native-forbidden** under φ-blind. Native path = Thread B. L residual stands.
+**Choice 2 (softened):** dS = **GR-form heuristic** only (\(w=-1\) uniqueness in Einstein+EOS+DEC box). \(A=1-r^2/X^2\) **native-forbidden** under φ-blind. Native dS closed any α. L residual stands.
 
 **Record:** `simple_metric_Charles_rulings_center_dS_2026-07-09.md`
 
-**NEXT:** native residual↔dS relation if any; time-live / appearance. Do not demote WR-L; do not claim dS from re-centering alone.
+**NEXT:** see CURRENT block above + LIVE.md (Thread B CONDITIONAL; residual L appearance).
 
 ## Read order (every session)
 

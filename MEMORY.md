@@ -27,16 +27,17 @@
 **S3 dust selection WITHDRAWN** (wrong \(G^r_r\)); identity \(p_r=-\rho\).  
 **Critical matter:** \(M=X/2\) **closes** sphere; does **not** glue R1–Einstein.  
 **S5–S9:** E vs A maps; EH vary-φ empty; native package OPEN.  
-**FOCUS:** simple residual L package + kaleidoscope appearance.  
-**★ L:** **DERIVED under WR-L** — **C-2026-07-09-1** + audit **1a** (triple-blind PASS).  
-  Own α=1 vs α=2 (finite proper selects); wall = **causal horizon**, not spatial edge.  
-  Audit: `simple_metric_WR_L_external_triple_blind_audit_results.md`. P-opt/half-stress duals.  
-**Kaleidoscope** on L mined; pure BAO AP: low-\(z\) LRG on \(R_L\), high-\(z\) low.  
-**★ Center:** Charles **(A)** — re-centering exact; \(\phi=0\) seat singularity OK (regime boundary).  
-**★ dS:** GR-form heuristic; **native-forbidden for any α** (not Thread-B-fixable).  
-**★ Thread B:** restoring channel probe real; charter full cell solve — `threadB_coupled_cell_flatness_Lselector_CHARTER.md`.  
-**Workstation:** `threadB_WORKSTATION_DISPATCH.md`. **NEXT:** GPU cell solve or residual L appearance.
-**Startup (2026-07-09):** LIVE/HANDOFF/INDEX **leaned**; stale layers → `archive/LIVE_historical_frontier_through_2026-07-08.md`, `archive/INDEX_pre_simple_metric_WR_L_2026-07-09.md`, `HANDOFF_ARCHIVE.md`.
+**FOCUS:** residual L (WR-L) + ruling (A); Thread B cell pilot CONDITIONAL.  
+**★ L:** **DERIVED under WR-L** — **C-2026-07-09-1** / 1a / 1b / 1c. Wall causal horizon; re-centering ⊥ center regularity.  
+**★ Center:** Charles **(A)** — \(\phi=0\) seat singularity OK (macro↔micro regime boundary).  
+**★ dS:** GR-form heuristic only; **native-forbidden for any α** (not Thread-B-fixable).  
+**★ Thread B RAN** (`3c827f6`): `threadB_coupled_cell_flatness_Lselector_results.md`  
+  - Coeff \(S=-(\alpha/2)\cdots\) settled.  
+  - Probe: flat cross + L-select (mainly \(T_{AB}\)).  
+  - **f2d self-consistent: matter drains — NO closed flat cell** (CONDITIONAL; not closed-cell win).  
+**Kaleidoscope** on L mined; pure BAO AP character.  
+**NEXT:** solver-first on f2d drain (missing DOF?) **or** residual L appearance / time-live. Not dS; not force-flat mechanism.  
+**Startup:** LIVE.md FRONTIER wins; lean HANDOFF/INDEX; archives under `archive/`.
 
 ---
 

@@ -26,7 +26,7 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-09 — SIMPLE METRIC + WR-L canon; free \(D_A\) quarantined). ============
+## ============ CURRENT STATE (2026-07-09 — SIMPLE METRIC + WR-L + Thread B pilot; free \(D_A\) quarantined). ============
 
 **➤➤➤ LATEST (Charles: stick to simple metric; derive everything from it; quarantine free \(D_A\)).**
 
@@ -272,11 +272,17 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - **Choice 2 / dS (softened verify):** EOS \(w=-1\) uniqueness **PASS** inside GR-form box; \(A=1-r^2/X^2\) **native-forbidden** under φ-blind — **GR-form heuristic only**, not dual-layer native macro.  
 - **dS native CLOSED for any α** (sign-changing source vs fixed-sign coupling) — `simple_metric_dS_native_any_alpha_closed_results.md`. Thread B ≠ dS road.  
 - **Kaleidoscope / frame-relation:** no cosmic dS ball; ruling **(A)** is whole seat story.  
-- **Thread B real content:** restoring channel + L-selector + bounded cell — probe `simple_metric_alpha_restoring_probe_results.md`; charter `threadB_coupled_cell_flatness_Lselector_CHARTER.md`.  
 - V-CENTER **PASS**; V-EOS math PASS + caveats: `simple_metric_center_dS_external_verify_pass_results.md`.  
 
-**➤➤ NEXT:** GPU workstation: **`threadB_WORKSTATION_DISPATCH.md`** (charter `threadB_coupled_cell_flatness_Lselector_CHARTER.md`). Not dS. Else residual L kaleidoscope / time-live.  
-**Red:** undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
+**★ Thread B workstation RAN (2026-07-09, pull `3c827f6`):** `threadB_coupled_cell_flatness_Lselector_results.md`  
+- **Coeff settled:** \(S=-(\alpha/2)\,\xi\,e^{\alpha\phi}\rho^2 I_r\) (`verify_alpha_coeff_ANCHORED.py` PASS). For \(\alpha<0\), \(S>0\).  
+- **Probe (prescribed \(I_r\)):** T1 flat deficit can cross 0; T2 matter selects \(r_s\); T3 finite core. Flat cross is **mainly \(T_{AB}\)** (also at \(\alpha=0\)); \(\alpha\) only modulates.  
+- **Self-consistent f2d:** **NO closed flat cell** — matter **drains** (\(I_r\to0\), \(L\to0\)); robust under iters/grid/\(\alpha\); not under-iteration.  
+- **Grade: CONDITIONAL** — do **not** bank closed cell / L-pin. Open: DOF left out (non-round/shear/time-live/closure)? solver-first.  
+- Dispatch/charter (history): `threadB_WORKSTATION_DISPATCH.md` · `threadB_coupled_cell_flatness_Lselector_CHARTER.md`.  
+
+**➤➤ NEXT:** solver-first on f2d drain (what DOF left out) **or** residual L kaleidoscope / time-live. Not dS. Not “force flat with mechanism.” Not re-run probe as closed-cell win.  
+**Red:** bank Thread B as closed cell / L-pin from probe; undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---
 
