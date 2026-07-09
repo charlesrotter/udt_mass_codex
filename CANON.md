@@ -426,7 +426,7 @@ A=\Bigl(1-\frac{r}{X}\Bigr)^{\alpha}.
 The wall-regular residual selector package **WR-L** — Charles-accepted axioms —
 1. residual composition / re-centering (above),
 2. finite proper room \(\ell=\int dr/\sqrt{A}<\infty\),
-3. infinite optical reach \(\ell_{\mathrm{opt}}=\int dr/A=\infty\),
+3. infinite optical reach, \(z\to\infty\)rm{opt}}=\int dr/A=\infty\),
 4. no curvature/shell singularity at the wall (\(G^\theta{}_\theta=\tfrac12 A''+A'/r\) finite as \(r\to X\)) —
 
 selects uniquely \(\alpha=1\). Therefore
