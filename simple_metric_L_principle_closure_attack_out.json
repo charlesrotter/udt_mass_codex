@@ -1,0 +1,12 @@
+{
+  "verdict": "FAIL_clean_without_identification",
+  "forced": [
+    "A=e^{-2\u03c6} multiplies under additive \u03c6",
+    "relational A'=A/A_o",
+    "only L among standard charts has 1-r/X=A",
+    "L re-centers with X'=X A_o preserving form",
+    "H fails A=(X-r)/X"
+  ],
+  "open_hinge": "Must A equal areal remaining fraction 1-r/X?",
+  "not_forced_by": "NPC-1 alone without \u03c3=A identification"
+}

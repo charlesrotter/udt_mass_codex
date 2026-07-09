@@ -261,11 +261,12 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - **Needle:** wall-loud + **non-adiabatic** \(k_t\) ⇒ **phase scatter grows with \(z\)** (~1%→7% by \(z\sim 2.3\)).  
 - Mean high‑\(z\) BAO gap **not** closed by FREE 5% oscillation. Full Einstein+AP still open, not yet crash-priority for mean alone.  
 
-**➤➤ NEXT (principle-closure, narrow):** Does **no preferred center + residual survival** force \(A=1-r/X\)?  
-  (Multiplicative survival \(\stackrel{?}{=}A\); then force areal chart \(1-r/X\) — not merely choose it.)  
-  Spec sketch: `simple_metric_L_equivalence_principle_GAP.md`.  
-**Also open:** time-live residual Einstein+AP (mean high-\(z\) BAO); micro when ready.  
-**Red:** treat L as principle-closed; fluid BAO; χ²-shop free \(A(r)\); revive screening BAO kludge.
+**Principle-closure attack RAN:** `simple_metric_L_principle_closure_attack_results.md`  
+- NPC + survival **FAIL** to force L without identifying \(A\) with areal remaining \(1-r/X\).  
+- **Narrowed hinge:** must residual \(A\) = areal room left \(1-r/X\)? (same hinge as P-opt / \(p_t=-\rho/2\)).  
+
+**➤➤ NEXT:** attack that single identification (or P-opt / half-stress equivalent); or time-live derived residual; micro when ready.  
+**Red:** treat L as principle-closed; fluid BAO; χ²-shop free \(A(r)\); screening BAO kludge.
 
 ### ↓↓↓ SUPERSEDED-as-frontier (2026-07-08 EOD — n=2 optics + macro-needs-a-source). Still true as results, not the live framing priority. Full record: `luminosity_distance_n2_optics_results.md`. n=2 forced; n=1 Pantheon flattery = artifact; sourceless vacuum fails SNe under n=1 and n=2. Matter budget / closure guardrails remain available when matter is on-stage — subordinate to elegant frame. ↓↓↓
 

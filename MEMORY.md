@@ -29,9 +29,10 @@
 **S5–S9:** E vs A maps; EH vary-φ empty; native package OPEN.  
 **FOCUS:** simple residual L package + kaleidoscope appearance.  
 **★ L = equivalence-closed, NOT principle-closed** (`simple_metric_L_equivalence_principle_GAP.md`).  
-  P-opt \(\Leftrightarrow\) \(p_t=-\rho/2\) \(\Leftrightarrow\) \(A=1-r/X\); hinge not from R1–R3 alone.  
-**Kaleidoscope** mined on L (K1–K4, MINE); pure BAO AP: low-\(z\) LRG on \(R_L\), high-\(z\) low.  
-**NEXT:** residual-survival / no-preferred-center ⇒ force chart? Or time-live derived residual.
+**Attack RAN:** NPC+survival **fails** cleanly; hinge **narrowed** to \(A\stackrel{?}{=}1-r/X\)  
+  (`simple_metric_L_principle_closure_attack_results.md`).  
+**Kaleidoscope** on L mined; pure BAO AP: low-\(z\) LRG on \(R_L\), high-\(z\) low.  
+**NEXT:** force/refute \(A=1-r/X\) identification; or P-opt; or time-live derived residual.
 
 ---
 

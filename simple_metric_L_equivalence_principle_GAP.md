@@ -108,26 +108,20 @@ r/X=1-A.
 
 ---
 
-## Next narrow attack (auditor + Charles method)
+## Next narrow attack — RAN (2026-07-09)
 
-**Question (principle-closure candidate):**
+**Question:** Does **“no preferred center + residual survival”** force \(A=1-r/X\)?
 
-> Does **“no preferred center + residual survival”** force \(A=1-r/X\)?
+**Result:** **FAIL (clean)** without an extra identification.  
+Full write-up: **`simple_metric_L_principle_closure_attack_results.md`**.
 
-**Sketch of the target argument (to prove or fail cleanly):**
+**Progress:** gap **narrowed** to one hinge:
 
-1. No preferred center ⇒ relational residual: every seat may set local \(\phi=0\).
-2. “Remaining reachable room” / residual survival is a **multiplicative** quantity under re-centering (composition of residual factors) — if that is forced.
-3. If survival fraction is identified with \(A\) (clock residual / place residual), then multiplicative survival is \(A_{12}=A_1 A_2\).
-4. The **unresolved step:** prove areal coordinate \(r\) must satisfy  
-   \[
-   \text{survival fraction}=1-r/X
-   \]  
-   rather than some other chart \(F(\phi)\) with the same multiplicative \(A\).
+> Must residual survival \(A\) coincide with areal room remaining \(1-r/X\)?
 
-That last step is exactly principle-closure. Until it is closed (or failed), L remains **equivalence package + working paint**.
+NPC-1 alone only forces \(A\)-ratios. Equating \(A\) with \(1-r/X\) *is* L (unique among standard charts). That equation is still OPEN as a principle.
 
-**Not next:** χ²-shop free \(A(r)\); import DE; revive screening BAO kludge.
+**Still not next:** χ²-shop free \(A(r)\); import DE; revive screening BAO kludge.
 
 ---
 
