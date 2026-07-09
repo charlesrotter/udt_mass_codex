@@ -35,7 +35,7 @@
 **★ Center:** Charles **(A)** — re-centering exact; \(\phi=0\) seat singularity OK (regime boundary).  
 **★ dS:** GR-form heuristic; **native-forbidden for any α** (not Thread-B-fixable).  
 **★ Thread B:** restoring channel probe real; charter full cell solve — `threadB_coupled_cell_flatness_Lselector_CHARTER.md`.  
-**NEXT:** dispatch coupled cell (Charles) or residual L appearance.
+**Workstation:** `threadB_WORKSTATION_DISPATCH.md`. **NEXT:** GPU cell solve or residual L appearance.
 **Startup (2026-07-09):** LIVE/HANDOFF/INDEX **leaned**; stale layers → `archive/LIVE_historical_frontier_through_2026-07-08.md`, `archive/INDEX_pre_simple_metric_WR_L_2026-07-09.md`, `HANDOFF_ARCHIVE.md`.
 
 ---

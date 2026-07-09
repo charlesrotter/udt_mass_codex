@@ -275,7 +275,7 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - **Thread B real content:** restoring channel + L-selector + bounded cell — probe `simple_metric_alpha_restoring_probe_results.md`; charter `threadB_coupled_cell_flatness_Lselector_CHARTER.md`.  
 - V-CENTER **PASS**; V-EOS math PASS + caveats: `simple_metric_center_dS_external_verify_pass_results.md`.  
 
-**➤➤ NEXT:** Thread B **coupled cell** charter (flatness T1 + L-selector T2 + core T3) when Charles dispatches — not dS. Else residual L kaleidoscope / time-live. Do **not** chase native continuum dS.  
+**➤➤ NEXT:** GPU workstation: **`threadB_WORKSTATION_DISPATCH.md`** (charter `threadB_coupled_cell_flatness_Lselector_CHARTER.md`). Not dS. Else residual L kaleidoscope / time-live.  
 **Red:** undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---

@@ -34,6 +34,7 @@
 | dS any-α closed | `simple_metric_dS_native_any_alpha_closed_results.md` |
 | α restoring probe | `simple_metric_alpha_restoring_probe_results.md` |
 | Thread B cell charter | `threadB_coupled_cell_flatness_Lselector_CHARTER.md` |
+| Thread B workstation one-pager | `threadB_WORKSTATION_DISPATCH.md` |
 | H/L / optics | `simple_metric_HL_unification_results.md`, `simple_metric_L_native_optical_derive_results.md` |
 | Kaleidoscope | `simple_metric_kaleidoscope_MAP.md`, `simple_metric_kaleidoscope_MINE_results.md` |
 | BAO / time-live | `simple_metric_bao_*`, `simple_metric_timelive_*` |

@@ -34,8 +34,10 @@ Fork (A) global re-center → singularity forced · (B) wall-asymptotic → regu
 `simple_metric_EOS_power_window_dS_results.md`.  
 
 **dS native closed any α.** Thread B ≠ dS.  
-**Thread B charter:** `threadB_coupled_cell_flatness_Lselector_CHARTER.md` (T1 flat cell, T2 L-selector, T3 core). Probe: `simple_metric_alpha_restoring_probe_results.md`.  
-**NEXT:** Charles dispatch of charter, or residual L / time-live. Do not launch unbounded solves.
+**Workstation one-pager:** `threadB_WORKSTATION_DISPATCH.md`  
+**Full charter:** `threadB_coupled_cell_flatness_Lselector_CHARTER.md`  
+Probe: `simple_metric_alpha_restoring_probe_results.md`.  
+**NEXT:** GPU workstation runs Thread B cell; this seat banks results. No unbounded solves here.
 
 **Red:** bare-metric L claim; revive P_ell; lean on MS mass as native; χ²-shop \(A(r)\); free \(D_A\) as theory; \(x_{\max}\) as hard spatial wall.
 
