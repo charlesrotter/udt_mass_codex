@@ -37,6 +37,7 @@ Fork (A) global re-center → singularity forced · (B) wall-asymptotic → regu
 **Thread B:** pilot + drain MAP + **non-round audit (`452e1f7`)** — drain SURVIVES; topology pins; next **mirror vs WR-L wall**.  
 `threadB_f2d_nonround_topological_audit_results.md`.  
 **Time-live exact:** `simple_metric_timelive_AP_exact_derive_results.md`.  
+**Dispatch:** `threadB_WORKSTATION_DISPATCH_mirror_vs_wall.md`.
 **NEXT:** see LIVE.md.
 
 **Red:** bare-metric L claim; revive P_ell; lean on MS mass as native; χ²-shop \(A(r)\); free \(D_A\) as theory; \(x_{\max}\) as hard spatial wall.

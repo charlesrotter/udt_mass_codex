@@ -37,6 +37,7 @@
 | Thread B workstation one-pager | `threadB_WORKSTATION_DISPATCH.md` |
 | Thread B f2d drain MAP | `threadB_f2d_drain_solver_first_MAP.md` |
 | Thread B non-round+topo audit | `threadB_f2d_nonround_topological_audit_results.md` |
+| Thread B mirror-vs-wall dispatch | `threadB_WORKSTATION_DISPATCH_mirror_vs_wall.md` |
 | H/L / optics | `simple_metric_HL_unification_results.md`, `simple_metric_L_native_optical_derive_results.md` |
 | Kaleidoscope | `simple_metric_kaleidoscope_MAP.md`, `simple_metric_kaleidoscope_MINE_results.md` |
 | BAO / time-live | `simple_metric_bao_*`, `simple_metric_timelive_*` |

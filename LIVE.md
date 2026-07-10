@@ -294,7 +294,7 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - **Next GPU:** mirror vs **WR-L wall-style** seal closure; then time-live eigenmode if still drains.  
 - Dispatch/charter (history): `threadB_WORKSTATION_DISPATCH.md` · `threadB_coupled_cell_flatness_Lselector_CHARTER.md`.  
 
-**➤➤ NEXT:** GPU — **mirror vs WR-L wall closure** on f2d (static); and/or residual time-live sector under wall-loud. Not dS; not re-open “unwound topology” as the story.  
+**➤➤ NEXT:** GPU — **`threadB_WORKSTATION_DISPATCH_mirror_vs_wall.md`** (mirror \(H=0\) vs WR-L wall-style seal). Then time-live eigenmode if still drains. Not dS; not “topology unwind.”  
 **Red:** bank Thread B as closed cell / L-pin from probe; undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---
