@@ -14,7 +14,7 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - CLAUDE.md "How we work": MAP / OBSERVE / PONDER are primary, DERIVE is gated. Let structure
   EMERGE; pre-work discussion in LAY language; "chose or derived?" / "observing or targeting?".
 - Discipline skills (`.claude/skills/`, auto-loaded): **solver-first**, **verifier-before-record**
-  (incl. cross-model escalation), **no-shortcuts** (run `python3 -m pytest tests/`), **completeness-map**.
+  (incl. cross-model escalation), **no-shortcuts** (run `python3 -m pytest tests/` — **expect 1 FAILED** = the known hygiene-header doc backlog on some `simple_metric_*`/`threadB_*` result docs, NOT a code failure; ~69 passed / 1 xfailed otherwise), **completeness-map**.
 - **DRIVER TRIGGERS (CLAUDE.md, always-loaded) + harness HOOKS** (`.claude/hooks/corral_trigger.py`, fires on
   Task/Bash/git-commit) make the corral fire WITHOUT being challenged — pause+honesty, never merit; the allowed-lane
   clause (category-A technique always GREEN) is non-droppable. **CONFIRMED LIVE (2026-07-01 startup): the

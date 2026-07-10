@@ -311,8 +311,8 @@ redirect (nonstationary weld sector / transfer ladder / ensembles).
   `PURSUIT_CHARTER_*.md` — the latest is SUPERSEDED; skip it.)
 - **Current state / frontier / pending decision: DO NOT TRACK IT HERE — this file goes stale (a 2026-07-04
   dress rehearsal caught exactly this bullet describing an already-superseded "stability arc" frontier).**
-  The ONLY current sources are `LIVE.md` TOPMOST + `HANDOFF.md` TOP (+ a `PURSUIT_CHARTER_*.md` ONLY if a current
-  one exists — the latest, 07-04, is SUPERSEDED). CLAUDE.md is the BINDING METHOD (principles 1-7, how-we-work,
+  The ONLY current sources are `LIVE.md` TOPMOST + `HANDOFF.md` TOP (LIVE names the current arc's read-chain; there is
+  NO current `PURSUIT_CHARTER_*.md` — the latest, 07-04, is SUPERSEDED). CLAUDE.md is the BINDING METHOD (principles 1-7, how-we-work,
   DRIVER TRIGGERS, repo discipline) — NOT the frontier. If you want to know what's done / what's next, read LIVE +
   HANDOFF TOP, never this bullet. **pytest on grok: ~69 passed / 1 xfailed / 1 FAILED** — the 1 fail is a pre-existing hygiene-header doc gap (some `simple_metric_*` docs missing header fields), NOT a code failure; run `python3 -m pytest tests/` and trust the live count (a higher pass count with only that known doc-fail is fine).
 - **SUBSUMED / HISTORICAL trackers (do NOT treat as the live frontier — moved to `archive/` or tagged):**
