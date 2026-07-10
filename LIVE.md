@@ -311,7 +311,7 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - CF2/δm box-controlled in **parked** two-player frame — not absolute masslessness.  
 - Crux: **G/P exterior switch**; hedgehog drain ≠ hopfion.  
 - LEAD: fixed-\(Q\) isorotation from H3 + non-reciprocal backreaction.  
-**➤➤ NEXT:** hopfion mass lane — G/P exterior switch on H3 **or** fixed-\(Q\) from H3 (see hopfion MAP); residual L time-live appearance parallel. Not f2d hedgehog mass; not δm cherry-pick.  
+**➤➤ NEXT (project choice 2026-07-10):** **H3 hopfion G/P exterior probe** — `hopfion_GP_exterior_NEXT_CHARTER.md` (primary). Fixed-\(Q\) isorotation = second. Residual L time-live = parallel light. Not f2d hedgehog; not δm cherry-pick; not more static seals.  
 **Red:** bank Thread B as closed cell / L-pin from probe; undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---

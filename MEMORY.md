@@ -51,7 +51,8 @@
 **★ H4·N4rev:** CF2 box-controlled; hedgehog ≠ hopfion.  
 **NEXT:** fixed-Q isorotation from H3; not linear time-live rescue.  
 
-**★ Hopfion mass MAP:** `hopfion_mass_background_coupling_MAP.md` — mass/ambient-φ = H3 + G/P switch + backreaction; ≠ residual L; ≠ hedgehog drain.
+**★ Hopfion mass MAP:** `hopfion_mass_background_coupling_MAP.md`.  
+**★ PROJECT NEXT:** H3 **G/P exterior** — `hopfion_GP_exterior_NEXT_CHARTER.md`.  
 
 ## Durable lessons (not frontier)
 
