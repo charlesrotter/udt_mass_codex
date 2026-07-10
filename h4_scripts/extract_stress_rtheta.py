@@ -1,4 +1,4 @@
-import torch, numpy as np
+import torch, numpy as np, os
 torch.set_default_dtype(torch.float64)
 dev='cuda' if torch.cuda.is_available() else 'cpu'
 FP='/home/udt-admin/udt_mass_codex/hopfion_arc_scripts_2026-07-05/prod_an256.npz'
@@ -54,8 +54,10 @@ def binavg(fld):
     return (num/cnt.clamp(min=1)).reshape(nr,nth).cpu().numpy(), cnt.reshape(nr,nth).cpu().numpy()
 Tthth_rt,cnt=binavg(Tthth); Tphph_rt,_=binavg(Tphph); Trr_rt,_=binavg(Trr)
 rc=(np.arange(nr)+0.5)/nr*rmax; thc=(np.arange(nth)+0.5)/nth*np.pi
-np.savez('/tmp/claude-1000/-home-udt-admin-udt-mass-codex/329d5fd9-3bad-41b4-8ec1-3f27625f5889/scratchpad/stress_rtheta.npz',
+_OUT=os.path.join(os.path.dirname(os.path.abspath(__file__)),'stress_rtheta_h3.npz')
+np.savez(_OUT,
          rc=rc,thc=thc,Tthth=Tthth_rt,Tphph=Tphph_rt,Trr=Trr_rt,cnt=cnt,E=E,E2=E2,E4=E4,xi=xi,kap=kap)
+print('saved ->',_OUT)
 # compactness + sector integrals (4pi int r^2 <.> dr with shell-avg over theta)
 def shellavg_theta(fld_rt):  # average over theta with sin weight
     w=np.sin(thc); return (fld_rt*w).sum(1)/w.sum()
