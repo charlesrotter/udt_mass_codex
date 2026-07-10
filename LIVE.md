@@ -256,6 +256,11 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - Scatter/caustics/**loud** **not** forced by symmetric \(A(r,t)\) alone.  
 - Birkhoff = GR-form warning only; reciprocal diagonal time-live still **WORKING**.  
 - Grade: **STRONG LEAD / MAP** — not canon until time-live sector chosen.  
+**★ Exact time-live AP derive:** `simple_metric_timelive_AP_exact_derive_results.md`  
+- \(1+z=\sqrt{A_o/A_e}\exp[-\int_e^o (A_T/A)\,dT]\); \(R_{\mathrm{AP}}=-\frac{r}{2A}(A_r+A_T/A)\).  
+- Static L recovers \(R_L=z+z^2/2\). Time-live L: pure \(H_X=X_T/X\) correction.  
+- **Moving WR-L wall is horizon-loud** unless \(A_T=O(A^{1+\varepsilon})\) or \(X_T=0\) at wall (or form fails).  
+- Grade: **DERIVED** under WORKING reciprocal diagonal.  
 
 **Principle-closure:** bare NPC **FAIL**; **WR-L accepted** ⇒ L form **DERIVED**  
   (`simple_metric_L_wall_regularity_closure_results.md`).  
@@ -286,7 +291,7 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - **Grade: CONDITIONAL** — do **not** bank closed cell / L-pin. Open: DOF left out (non-round/shear/time-live/closure)? solver-first.  
 - Dispatch/charter (history): `threadB_WORKSTATION_DISPATCH.md` · `threadB_coupled_cell_flatness_Lselector_CHARTER.md`.  
 
-**➤➤ NEXT:** derive exact light-cone/AP from \(A=1-r/X(t)\) or general residual \(A(t,r)\) (MAP next step); **or** solver-first f2d drain. Not dS; not BAO-fix; not loud-from-round alone.  
+**➤➤ NEXT:** decide time-live sector (fixed wall vs \(X(T)\); \(g_{Tr}\)?) under wall-loud constraint; or f2d drain solver-first. Not dS; not BAO-fix; not claim scatter from round \(A(T,r)\) alone.  
 **Red:** bank Thread B as closed cell / L-pin from probe; undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---

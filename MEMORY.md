@@ -36,8 +36,9 @@
   - Probe: flat cross + L-select (mainly \(T_{AB}\)).  
   - **f2d self-consistent: matter drains — NO closed flat cell** (CONDITIONAL; not closed-cell win).  
 **Kaleidoscope** on L mined; pure BAO AP character.  
-**★ Time-live appearance MAP:** path-integrated \(1+z\); drift + AP residual = same root — `simple_metric_timelive_residual_appearance_MAP.md` (STRONG LEAD).  
-**NEXT:** exact light-cone/AP from \(A(t,r)\) or \(1-r/X(t)\); or f2d drain solver-first. Not dS/BAO-fix.  
+**★ Time-live:** exact \(1+z\) + \(R_{\mathrm{AP}}\) — `simple_metric_timelive_AP_exact_derive_results.md`.  
+  Moving L wall **horizon-loud** unless \(A_T\) dies at wall.  
+**NEXT:** sector choice under wall-loud; or f2d drain. Not dS/BAO-fix.  
 **Startup:** LIVE.md FRONTIER wins; lean HANDOFF/INDEX; archives under `archive/`.
 
 ---

@@ -39,6 +39,7 @@
 | Kaleidoscope | `simple_metric_kaleidoscope_MAP.md`, `simple_metric_kaleidoscope_MINE_results.md` |
 | BAO / time-live | `simple_metric_bao_*`, `simple_metric_timelive_*` |
 | Time-live appearance MAP | `simple_metric_timelive_residual_appearance_MAP.md` |
+| Time-live AP exact derive | `simple_metric_timelive_AP_exact_derive_results.md` |
 | SNe / cascade history | `simple_metric_pantheon_*`, `simple_metric_mass_xmax_cascade.md`, … |
 | Orientation | `LIVE.md`, `MEMORY.md`, `HANDOFF.md`, this INDEX |
 | Discipline | `CLAUDE.md`, `.claude/skills/`, `tests/` |

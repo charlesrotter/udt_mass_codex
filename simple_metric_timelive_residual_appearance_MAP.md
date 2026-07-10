@@ -207,3 +207,12 @@ Prior probes: `simple_metric_timelive_AP_results.md`, `simple_metric_timelive_AP
 ## One-line
 
 **Time-live residual appearance is forced to one new temporal channel — path-integrated redshift (drift + AP two-leg residual as related faces); loud scatter is not forced by \(A(r,t)\) alone; form \(B=1/A\) still WORKING.**
+
+---
+
+## Upgrade (same day) — exact AP / light-cone derive
+
+**`simple_metric_timelive_AP_exact_derive_results.md`**
+
+Exact null cone, \(E\) law, \(1+z\), \(R_{\mathrm{AP}}\); time-live L specialization; **moving wall horizon-loud** unless \(A_T\to0\) fast at wall. Grade: DERIVED under WORKING \(A(T,r)\).
+
