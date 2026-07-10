@@ -36,10 +36,9 @@ Fork (A) global re-center → singularity forced · (B) wall-asymptotic → regu
 `simple_metric_EOS_power_window_dS_results.md`.  
 
 **dS native closed any α.** Thread B ≠ dS.  
-**Thread B:** pilot + drain MAP + **non-round audit (`452e1f7`)** — drain SURVIVES; topology pins; next **mirror vs WR-L wall**.  
-`threadB_f2d_nonround_topological_audit_results.md`.  
-**Time-live exact:** `simple_metric_timelive_AP_exact_derive_results.md`.  
-**Dispatch:** `threadB_WORKSTATION_DISPATCH_mirror_vs_wall.md`.
+**Thread B static series:** pilot → non-round → **mirror-vs-wall** — drain SURVIVES all three.  
+`threadB_f2d_mirror_vs_wall_results.md` (2× blind). Next: **time-live eigenmode**.  
+**Time-live residual AP:** `simple_metric_timelive_AP_exact_derive_results.md`.  
 **NEXT:** see LIVE.md.
 
 **Red:** bare-metric L claim; revive P_ell; lean on MS mass as native; χ²-shop \(A(r)\); free \(D_A\) as theory; \(x_{\max}\) as hard spatial wall.

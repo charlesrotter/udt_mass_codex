@@ -39,8 +39,8 @@
 **★ Time-live:** exact \(1+z\) + \(R_{\mathrm{AP}}\) — `simple_metric_timelive_AP_exact_derive_results.md`.  
   Moving L wall **horizon-loud** unless \(A_T\) dies at wall.  
 **Drain MAP:** `threadB_f2d_drain_solver_first_MAP.md` (next GPU: non-round+topo static).
-**Non-round audit:** drain survives (`452e1f7`). **Dispatch:** `threadB_WORKSTATION_DISPATCH_mirror_vs_wall.md`.
-**NEXT:** mirror-vs-wall f2d or time-live.
+**Non-round audit:** drain survives (`452e1f7`). **Mirror-vs-wall:** drain SURVIVES (`threadB_f2d_mirror_vs_wall_results.md`, `5b107d0`).  
+**NEXT:** time-live eigenmode on drain; or residual L time-live appearance.
   
 **Startup:** LIVE.md FRONTIER wins; lean HANDOFF/INDEX; archives under `archive/`.
 

@@ -27,7 +27,7 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-09 — SIMPLE METRIC + WR-L + Thread B pilot; free \(D_A\) quarantined). ============
+## ============ CURRENT STATE (2026-07-09 — SIMPLE METRIC + WR-L + Thread B static-drain series; free \(D_A\) quarantined). ============
 
 **➤➤➤ LATEST (Charles: stick to simple metric; derive everything from it; quarantine free \(D_A\)).**
 
@@ -292,10 +292,13 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - **Grade: CONDITIONAL** — do **not** bank closed cell / L-pin.  
 - **Solver-first MAP:** `threadB_f2d_drain_solver_first_MAP.md`.  
 - **Non-round+topo audit RAN (`452e1f7`):** `threadB_f2d_nonround_topological_audit_results.md` — **drain SURVIVES** (scoped FAILURE). Topology does **not** unwind (\(Q=N\)); \(I_r\) drains (rigid hedgehog).  
-- **Next GPU:** mirror vs **WR-L wall-style** seal closure; then time-live eigenmode if still drains.  
-- Dispatch/charter (history): `threadB_WORKSTATION_DISPATCH.md` · `threadB_coupled_cell_flatness_Lselector_CHARTER.md`.  
+- **Mirror-vs-wall RAN (`1457994`/`5b107d0`):** `threadB_f2d_mirror_vs_wall_results.md` — **drain SURVIVES** (scoped FAILURE; 2× blind-verify).  
+  - Open matter seal still drains (`f_r=0` **not** the channel).  
+  - WR-L geometric φ-wall **obstructed** on bounded cell (wall depth only with L→∞ drained branch).  
+  - α-source LIVE but ∝\(I_r\) vanishes with drain.  
+- Dispatch (done): `threadB_WORKSTATION_DISPATCH_mirror_vs_wall.md`.  
 
-**➤➤ NEXT:** GPU — **`threadB_WORKSTATION_DISPATCH_mirror_vs_wall.md`** (mirror \(H=0\) vs WR-L wall-style seal). Then time-live eigenmode if still drains. Not dS; not “topology unwind.”  
+**➤➤ NEXT:** time-live eigenmode about drained f2d solution (MAP DOF 1); and/or residual L time-live appearance. Not dS; not more static seal shopping; not prescribed-\(I_r\) win.  
 **Red:** bank Thread B as closed cell / L-pin from probe; undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---

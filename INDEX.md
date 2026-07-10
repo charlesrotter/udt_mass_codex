@@ -3,7 +3,7 @@
 **⚠ BRANCH: `grok` (2026-07-10)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
 **Frame:** simple metric + **WR-L / C-2026-07-09-1** (\(A=1-r/X\)).  
-**NEXT:** Thread B **mirror-vs-wall** f2d closure (`threadB_WORKSTATION_DISPATCH_mirror_vs_wall.md`) — the coupled cell DRAINS on the round/mirror slice, closure is the suspect; then time-live residual/appearance eigenmode.  
+**NEXT:** Thread B **time-live eigenmode** about drained f2d (static seal series exhausted for round); residual L time-live appearance still live.  
 **Quarantine:** free \(D_A\) → `grok/quarantine_free_DA/` (not live theory verdicts).
 
 ---
@@ -39,6 +39,7 @@
 | Thread B f2d drain MAP | `threadB_f2d_drain_solver_first_MAP.md` |
 | Thread B non-round+topo audit | `threadB_f2d_nonround_topological_audit_results.md` |
 | Thread B mirror-vs-wall dispatch | `threadB_WORKSTATION_DISPATCH_mirror_vs_wall.md` |
+| Thread B mirror-vs-wall results | `threadB_f2d_mirror_vs_wall_results.md` |
 | H/L / optics | `simple_metric_HL_unification_results.md`, `simple_metric_L_native_optical_derive_results.md` |
 | Kaleidoscope | `simple_metric_kaleidoscope_MAP.md`, `simple_metric_kaleidoscope_MINE_results.md` |
 | BAO / time-live | `simple_metric_bao_*`, `simple_metric_timelive_*` |

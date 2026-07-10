@@ -114,3 +114,14 @@ Macro time-live appearance (`simple_metric_timelive_AP_exact_derive_results.md`)
 - **MAP refinement:** “unwound sector” **falsified** — winding \(Q\) pins to \(N\) exactly; what drains is radial \(I_r\) (\(f\to\) rigid hedgehog), orthogonal to topology.
 - **Next DOF (refined):** mirror vs **WR-L causal-wall** closure (mirror permits \(f_r=0\) at seal — drain channel). Then time-live eigenmode if still drains.
 
+---
+
+## Audit result (2026-07-10) — drain SURVIVES mirror-vs-wall
+
+**`threadB_f2d_mirror_vs_wall_results.md`** (commits `1457994` / `5b107d0`, two blind verifiers)
+
+- **Scoped FAILURE:** drain survives open matter seal (B2) and wall φ-seal attempts (B1/B3).
+- **Finding:** `f_r=0` was **not** the drain channel — open matter seal still drains.
+- **Obstruction:** pure WR-L **geometry** wall on φ cannot reach φ-blind matter radial channel on bounded cell; wall depth only on drained L→∞ branch.
+- **Next DOF (MAP):** time-live eigenmode about drained solution (and/or non-static / other DOFs still open). Seal/closure DOF **tested and failed** for this static round slice.
+
