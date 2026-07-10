@@ -38,7 +38,8 @@
 **Kaleidoscope** on L mined; pure BAO AP character.  
 **★ Time-live:** exact \(1+z\) + \(R_{\mathrm{AP}}\) — `simple_metric_timelive_AP_exact_derive_results.md`.  
   Moving L wall **horizon-loud** unless \(A_T\) dies at wall.  
-**NEXT:** sector choice under wall-loud; or f2d drain. Not dS/BAO-fix.  
+**Drain MAP:** `threadB_f2d_drain_solver_first_MAP.md` (next GPU: non-round+topo static).
+**NEXT:** GPU non-round f2d or time-live sector. Not dS/BAO-fix.  
 **Startup:** LIVE.md FRONTIER wins; lean HANDOFF/INDEX; archives under `archive/`.
 
 ---

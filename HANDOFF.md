@@ -34,9 +34,10 @@ Fork (A) global re-center → singularity forced · (B) wall-asymptotic → regu
 `simple_metric_EOS_power_window_dS_results.md`.  
 
 **dS native closed any α.** Thread B ≠ dS.  
-**Thread B RAN** (`3c827f6`): `threadB_coupled_cell_flatness_Lselector_results.md` — coeff settled; probe flat/L-select; **f2d drains, no closed flat cell** (CONDITIONAL).  
-**Time-live exact:** `simple_metric_timelive_AP_exact_derive_results.md` — \(R_{\mathrm{AP}}\), \(H_X\) term, wall-loud if \(X_T\neq0\).  
-**NEXT:** sector under wall-loud constraint; or f2d drain. See LIVE.md.
+**Thread B RAN** + **drain MAP:** results + `threadB_f2d_drain_solver_first_MAP.md`.  
+Next GPU: **non-round + topological BC, still static**.  
+**Time-live exact:** `simple_metric_timelive_AP_exact_derive_results.md`.  
+**NEXT:** see LIVE.md.
 
 **Red:** bare-metric L claim; revive P_ell; lean on MS mass as native; χ²-shop \(A(r)\); free \(D_A\) as theory; \(x_{\max}\) as hard spatial wall.
 

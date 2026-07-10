@@ -139,3 +139,10 @@ already crosses deficit=0; the α-source does not create the flat cell, it nudge
 - NOT: any mass, ratio, SNe, or cosmology result. No dS. No lump/particle.
 - NOT: convergence to a nonzero cell — the f2d minimizer sends L, I_r → 0 (the more converged, the
   smaller). The drain is characterized, not salvaged.
+
+---
+
+## Solver-first MAP (post-pilot)
+
+**`threadB_f2d_drain_solver_first_MAP.md`** — DOFs left out; next GPU = non-round + topological boundary, still static.
+

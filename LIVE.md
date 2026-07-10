@@ -288,10 +288,12 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - **Coeff settled:** \(S=-(\alpha/2)\,\xi\,e^{\alpha\phi}\rho^2 I_r\) (`verify_alpha_coeff_ANCHORED.py` PASS). For \(\alpha<0\), \(S>0\).  
 - **Probe (prescribed \(I_r\)):** T1 flat deficit can cross 0; T2 matter selects \(r_s\); T3 finite core. Flat cross is **mainly \(T_{AB}\)** (also at \(\alpha=0\)); \(\alpha\) only modulates.  
 - **Self-consistent f2d:** **NO closed flat cell** — matter **drains** (\(I_r\to0\), \(L\to0\)); robust under iters/grid/\(\alpha\); not under-iteration.  
-- **Grade: CONDITIONAL** — do **not** bank closed cell / L-pin. Open: DOF left out (non-round/shear/time-live/closure)? solver-first.  
+- **Grade: CONDITIONAL** — do **not** bank closed cell / L-pin.  
+- **Solver-first MAP:** `threadB_f2d_drain_solver_first_MAP.md` — left out: time-live (highest physics priority), non-round/shear, mirror vs wall BC, topology, then \(g_{tr}\).  
+- **Next GPU (recommended):** non-round + topological-boundary f2d, **still static**, before full time-live.  
 - Dispatch/charter (history): `threadB_WORKSTATION_DISPATCH.md` · `threadB_coupled_cell_flatness_Lselector_CHARTER.md`.  
 
-**➤➤ NEXT:** decide time-live sector (fixed wall vs \(X(T)\); \(g_{Tr}\)?) under wall-loud constraint; or f2d drain solver-first. Not dS; not BAO-fix; not claim scatter from round \(A(T,r)\) alone.  
+**➤➤ NEXT:** GPU — non-round + topological f2d (static) per drain MAP; and/or residual time-live sector under wall-loud. Not dS; not prescribed-\(I_r\) as closed-cell win.  
 **Red:** bank Thread B as closed cell / L-pin from probe; undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---
