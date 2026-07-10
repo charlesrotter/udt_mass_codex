@@ -303,17 +303,18 @@ redirect (nonstationary weld sector / transfer ladder / ensembles).
 
 ## Orientation
 
-- **`LIVE.md` IS THE FIRST READ — the only guaranteed-current file** (frontier + next action). If
-  anything else disagrees with it, LIVE.md wins. Read order: **LIVE.md → a `PURSUIT_CHARTER_*.md` ONLY if a current
-  one exists for LIVE's arc (the latest, `PURSUIT_CHARTER_2026-07-04.md`, is SUPERSEDED — LIVE.md names the
-  current arc; skip the charter / mine it for the traps list only) → CLAUDE.md "How we work" + "DRIVER TRIGGERS" + the `.claude/skills/`
-  discipline skills → HANDOFF.md TOP (detailed record; currently the post-LIVE orientation) → INDEX.md (repo map).**
+- **⚠ WORK IS ON THE `grok` BRANCH (as of 2026-07-10).** If the working tree isn't on grok, `git checkout grok`.
+  LIVE.md / HANDOFF.md / MEMORY.md / INDEX.md **on grok** are the current orientation; `main` is stale for this arc.
+- **`LIVE.md` (on grok) IS THE FIRST READ — the only guaranteed-current file** (frontier + next action). If
+  anything else disagrees with it, LIVE.md wins. Read order: **LIVE.md → CLAUDE.md "How we work" + "DRIVER TRIGGERS"
+  + the `.claude/skills/` discipline skills → HANDOFF.md TOP (detailed record) → INDEX.md (repo map).** (No current
+  `PURSUIT_CHARTER_*.md` — the latest is SUPERSEDED; skip it.)
 - **Current state / frontier / pending decision: DO NOT TRACK IT HERE — this file goes stale (a 2026-07-04
   dress rehearsal caught exactly this bullet describing an already-superseded "stability arc" frontier).**
   The ONLY current sources are `LIVE.md` TOPMOST + `HANDOFF.md` TOP (+ a `PURSUIT_CHARTER_*.md` ONLY if a current
   one exists — the latest, 07-04, is SUPERSEDED). CLAUDE.md is the BINDING METHOD (principles 1-7, how-we-work,
   DRIVER TRIGGERS, repo discipline) — NOT the frontier. If you want to know what's done / what's next, read LIVE +
-  HANDOFF TOP (the charter only if a current one exists), never this bullet. pytest 67/1xfail (2026-07-07; grows as tests land — a HIGHER pass count with 0 failures is fine; just run `python3 -m pytest tests/` and trust the live count).
+  HANDOFF TOP, never this bullet. **pytest on grok: ~69 passed / 1 xfailed / 1 FAILED** — the 1 fail is a pre-existing hygiene-header doc gap (some `simple_metric_*` docs missing header fields), NOT a code failure; run `python3 -m pytest tests/` and trust the live count (a higher pass count with only that known doc-fail is fine).
 - **SUBSUMED / HISTORICAL trackers (do NOT treat as the live frontier — moved to `archive/` or tagged):**
   COMPLETION_PROGRAM.md, SOLVER_COMPLETENESS_MAP.md, POST_POSTULATE_PROGRAM.md, MIGRATION.md, REORG_PLAN.md,
   and the FOUNDATIONAL_ASSUMPTIONS_LEDGER.md F0-F8 scoreboard — all superseded by the static-solver

@@ -1,8 +1,9 @@
-# INDEX — Repo Map (2026-07-09 lean)
+# INDEX — Repo Map (2026-07-10 lean)
 
+**⚠ BRANCH: `grok` (2026-07-10)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
 **Frame:** simple metric + **WR-L / C-2026-07-09-1** (\(A=1-r/X\)).  
-**NEXT:** time-live residual / appearance; micro when ready.  
+**NEXT:** Thread B **mirror-vs-wall** f2d closure (`threadB_WORKSTATION_DISPATCH_mirror_vs_wall.md`) — the coupled cell DRAINS on the round/mirror slice, closure is the suspect; then time-live residual/appearance eigenmode.  
 **Quarantine:** free \(D_A\) → `grok/quarantine_free_DA/` (not live theory verdicts).
 
 ---

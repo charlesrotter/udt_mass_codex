@@ -1,5 +1,6 @@
 # LIVE — the only guaranteed-current file (READ ME FIRST)
 
+**⚠ BRANCH: work is on `grok` (2026-07-10).** If not on it: `git checkout grok`. `main` is stale for this arc.
 **The CURRENT STATE block below is the only current frontier** — read it and stop.
 Stale historical frontier layers live under `archive/LIVE_historical_frontier_through_2026-07-08.md`
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.

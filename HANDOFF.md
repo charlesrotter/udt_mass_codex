@@ -2,6 +2,8 @@
 
 > **READ `LIVE.md` FIRST** — only guaranteed-current frontier + next action.
 > If this file disagrees with LIVE.md, **LIVE.md wins.**
+>
+> **⚠ BRANCH: work is on `grok` (2026-07-10).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
 ## CURRENT (2026-07-09)
 
