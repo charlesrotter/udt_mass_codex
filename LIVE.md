@@ -317,7 +317,10 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - Probe does **NOT** decide the branch (switch still underived); shows P⇒drift, G⇒plateau cleanly.  
 - Static reciprocal frame alone does **not** give branch-honest localized mass.  
 
-**➤➤ NEXT:** fixed-\(Q\) isorotation + metric DOFs beyond reciprocal from H3 (secondary in charter) **or** settle G/P switch natively (not more static P-probe). Residual L time-live parallel. Not claim mass from G-control; not hedgehog.  
+**★ Fixed-\(Q\) Phase 0 DEMO (`hopfion_fixedQ_*`):** reduced \(E_Q(R)\) has stable finite-\(R\) min for \(Q>0\) (H3 virial; CHOSE inertia norm) — DEMO not PDE/mass.  
+  MAP: `hopfion_fixedQ_isorotation_MAP.md` · results: `hopfion_fixedQ_collective_phase0_results.md`.  
+
+**➤➤ NEXT:** Phase 1 — stationary isorotation PDE from H3 (flat FS first; regenerate field if needed); then metric backreaction. Residual L time-live parallel. Not claim mass from Phase 0.  
 **Red:** bank Thread B as closed cell / L-pin from probe; undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---

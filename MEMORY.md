@@ -53,7 +53,8 @@
 
 **★ Hopfion mass MAP:** `hopfion_mass_background_coupling_MAP.md`.  
 **★ H3 G/P probe:** P⇒**drift** (boxy), G⇒plateau — `hopfion_GP_exterior_probe_results.md`. Branch undecided; static reciprocal ≠ clean mass.  
-**NEXT:** fixed-Q from H3 / native G/P switch.  
+**★ Fixed-Q Phase 0 DEMO:** stable \(R_Q\) — `hopfion_fixedQ_collective_phase0_results.md`.  
+**NEXT:** Phase 1 isorotation PDE from H3.  
 
 ## Durable lessons (not frontier)
 

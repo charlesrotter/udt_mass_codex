@@ -1,0 +1,50 @@
+{
+  "grade": "DEMO",
+  "E2": 0.9995,
+  "E4": 1.0,
+  "E2_over_E4": 0.9995,
+  "I2_norm": 1.0,
+  "I4_norm": 1.0,
+  "I_note": "CHOSE order-1 normalization; absolute R_Q not physical until I from H3 profile",
+  "R_star_Derrick": 1.0002500937890795,
+  "rows": [
+    {
+      "Q": 0.0,
+      "R_Q": 0.9996999249812453,
+      "E_min": 1.9995002401095547,
+      "E_pp": 2.001809151449893,
+      "stable": true
+    },
+    {
+      "Q": 0.5,
+      "R_Q": 1.0582145536384095,
+      "E_min": 2.058396806495492,
+      "E_pp": 1.950946043504072,
+      "stable": true
+    },
+    {
+      "Q": 1.0,
+      "R_Q": 1.2025506376594148,
+      "E_min": 2.203491114291622,
+      "E_pp": 1.8527601575184531,
+      "stable": true
+    },
+    {
+      "Q": 2.0,
+      "R_Q": 1.5536384096024005,
+      "E_min": 2.5736002079573623,
+      "E_pp": 1.691504105591985,
+      "stable": true
+    },
+    {
+      "Q": 5.0,
+      "R_Q": 2.4313578394598654,
+      "E_min": 3.5852907818517394,
+      "E_pp": 1.3424975728409378,
+      "stable": true
+    }
+  ],
+  "P0_T1_finite_min_Qgt0": true,
+  "P0_T2_stable": true,
+  "P0_T3_Q0_near_Derrick": true
+}

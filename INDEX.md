@@ -45,6 +45,7 @@
 | Hopfion mass / ambient-φ MAP | `hopfion_mass_background_coupling_MAP.md` |
 | Hopfion G/P exterior NEXT charter | `hopfion_GP_exterior_NEXT_CHARTER.md` |
 | Hopfion G/P exterior probe results | `hopfion_GP_exterior_probe_results.md` |
+| Fixed-Q isorotation MAP / Phase 0 | `hopfion_fixedQ_isorotation_MAP.md`, `hopfion_fixedQ_collective_phase0_results.md` |
 | H4·N4rev CF2 box-control | `H4_N4rev_sign_certification_results.md` |
 | H/L / optics | `simple_metric_HL_unification_results.md`, `simple_metric_L_native_optical_derive_results.md` |
 | Kaleidoscope | `simple_metric_kaleidoscope_MAP.md`, `simple_metric_kaleidoscope_MINE_results.md` |
