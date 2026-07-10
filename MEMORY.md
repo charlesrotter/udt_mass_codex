@@ -52,7 +52,8 @@
 **NEXT:** fixed-Q isorotation from H3; not linear time-live rescue.  
 
 **★ Hopfion mass MAP:** `hopfion_mass_background_coupling_MAP.md`.  
-**★ PROJECT NEXT:** H3 **G/P exterior** — `hopfion_GP_exterior_NEXT_CHARTER.md`.  
+**★ H3 G/P probe:** P⇒**drift** (boxy), G⇒plateau — `hopfion_GP_exterior_probe_results.md`. Branch undecided; static reciprocal ≠ clean mass.  
+**NEXT:** fixed-Q from H3 / native G/P switch.  
 
 ## Durable lessons (not frontier)
 

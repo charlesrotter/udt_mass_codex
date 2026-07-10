@@ -311,7 +311,13 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - CF2/δm box-controlled in **parked** two-player frame — not absolute masslessness.  
 - Crux: **G/P exterior switch**; hedgehog drain ≠ hopfion.  
 - LEAD: fixed-\(Q\) isorotation from H3 + non-reciprocal backreaction.  
-**➤➤ NEXT (project choice 2026-07-10):** **H3 hopfion G/P exterior probe** — `hopfion_GP_exterior_NEXT_CHARTER.md` (primary). Fixed-\(Q\) isorotation = second. Residual L time-live = parallel light. Not f2d hedgehog; not δm cherry-pick; not more static seals.  
+**★ H3 G/P exterior probe RAN (`8a09ef2`):** `hopfion_GP_exterior_probe_results.md` (MAP frozen first). Blind-verify held.  
+- **Native Branch-P (source ON):** exterior flux **DRIFTS** (boxy-P) — theorem \(dq/dr=4e^{-2\phi}\); no localized conserved flux; depth-invariant class.  
+- **Branch-G control (source OFF):** **PLATEAUS** (machine conservation).  
+- Probe does **NOT** decide the branch (switch still underived); shows P⇒drift, G⇒plateau cleanly.  
+- Static reciprocal frame alone does **not** give branch-honest localized mass.  
+
+**➤➤ NEXT:** fixed-\(Q\) isorotation + metric DOFs beyond reciprocal from H3 (secondary in charter) **or** settle G/P switch natively (not more static P-probe). Residual L time-live parallel. Not claim mass from G-control; not hedgehog.  
 **Red:** bank Thread B as closed cell / L-pin from probe; undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---
