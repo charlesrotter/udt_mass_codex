@@ -320,7 +320,10 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 **★ Fixed-\(Q\) Phase 0 DEMO (`hopfion_fixedQ_*`):** reduced \(E_Q(R)\) has stable finite-\(R\) min for \(Q>0\) (H3 virial; CHOSE inertia norm) — DEMO not PDE/mass.  
   MAP: `hopfion_fixedQ_isorotation_MAP.md` · results: `hopfion_fixedQ_collective_phase0_results.md`.  
 
-**➤➤ NEXT:** Phase 1 — stationary isorotation PDE from H3 (flat FS first; regenerate field if needed); then metric backreaction. Residual L time-live parallel. Not claim mass from Phase 0.  
+**★ Fixed-Q Phase 1 pilot:** `hopfion_fixedQ_phase1_isorotation_results.md` — \(E_Q\)/\(I\) machinery LIVE on CUDA; plain GD **does not** hold hopfion topology (N=48 slips).  
+  Need production Newton + H3 restart (Phase 1b).  
+
+**➤➤ NEXT:** Phase 1b — arrested-Newton (or production flow) on \(E_Q\) from regenerated H3 N≥160; then Phase 2 metric. Not claim isorotating hopfion from Phase 1 pilot.  
 **Red:** bank Thread B as closed cell / L-pin from probe; undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---
