@@ -422,32 +422,62 @@ def readouts(v, ctx, prm, n5d=None):
 # =========================================================================================
 # THE MONOLITHIC RESIDUAL  ([phi-ODE; rho-ODE; f-PDE; all BCs; H=0]); jacrev-safe (pure torch)
 # =========================================================================================
-def residual(v, ctx, prm, wbc=1.0, n5d=None):
+def residual(v, ctx, prm, wbc=1.0, n5d=None, seal=None):
     """Monolithic residual.  n5d=None -> the base round-trace system (unchanged).  n5d=dict -> the
     off-round shear rows are APPENDED after the base block (base rows keep identical positions, so
-    residual(v_base) == residual(v_n5d)[:base_len] whenever the shear amplitude a2==0)."""
+    residual(v_base) == residual(v_n5d)[:base_len] whenever the shear amplitude a2==0).
+
+    seal (dict or None): Thread-B MIRROR-vs-WALL seal config (works for round n5d=None too; when
+    seal is None/empty the base mirror system is byte-identical).  Two INDEPENDENT knobs at the
+    OUTER (r_s) end only -- the core (r_c) always keeps its even mirror fold (regularity):
+      seal["phi"]    = "mirror" (default, phi'(r_s)=0, chargeless) | "wall" (phi(r_s)=phi_wall with
+                       phi'(r_s) FREE -> WR-L causal-wall-style seal: geometry runs to a definite
+                       DEPTH A=e^{-2 phi_wall}->0, pinning L by the wall depth, not free collapse;
+                       q_raw becomes a live output).  phi_wall = seal["phi_wall"].
+      seal["matter"] = "mirror" (default, f_r(r_s)=0 -- the DRAIN CHANNEL the audit flagged) | "open"
+                       (natural/outflow seal: apply the f-PDE at the seal row instead of forcing
+                       f_r=0 -- removes the f_r=0 drain channel WITHOUT imposing a shape/lump).
+    Every seal row is a structure-holding BC (Category-B): CHOSE, tagged in the run harness; the
+    wall CHARACTER is THEORY-motivated (WR-L C-2026-07-09-1) but the macro A=1-r/X solution is NOT
+    imposed inside the cell -- character only.  seal=None/{} => base mirror (byte-identical)."""
     Z, XI, KAP, N = prm[:4]
     Q = fields(v, ctx, prm, n5d=n5d)
     phip, rhop, fr = Q["phip"], Q["rhop"], Q["fr"]
-    # phi seal boundary row:  Class A (default) = smooth mirror fold phi'(r_s)=0 (=> q_raw=0, chargeless);
-    # Class B (bounded DIAGNOSTIC, seal_phi="B") = canon C-2026-07-04-1 odd fold: DIRICHLET phi(r_s)=0 with
-    # phi'(r_s) FREE => q_raw = Z rho_s^2 phi'(r_s) becomes a live OUTPUT.  Only the OUTER (seal) row changes;
-    # the core (r_c, even fold) stays phi'(r_c)=0.  Class A is byte-identical when seal_phi is absent/"A".
-    seal_phi = "A" if n5d is None else n5d.get("seal_phi", "A")
-    if seal_phi == "B":
-        phi_bc = torch.stack([phip[0], Q["phi"][-1]])            # phi'(r_c)=0 ; phi(r_s)=0 (Dirichlet, phi' free)
-    elif seal_phi == "A":
+    seal = seal or {}
+    seal_phi_mode = seal.get("phi", None)                        # None -> legacy Class-A/B path below
+    matter_mode = seal.get("matter", "mirror")                   # "mirror" (f_r=0) | "open" (natural PDE seal)
+    # ---- phi seal boundary row ----
+    # Legacy: Class A (default) = smooth mirror fold phi'(r_s)=0 (=> q_raw=0, chargeless);
+    # Class B (seal_phi="B" via n5d) = canon C-2026-07-04-1 odd fold: DIRICHLET phi(r_s)=0, phi' FREE.
+    # Thread-B wall (seal["phi"]=="wall") = DIRICHLET phi(r_s)=phi_wall (WR-L wall DEPTH), phi' FREE.
+    # In every case the core (r_c, even fold) stays phi'(r_c)=0.
+    if seal_phi_mode == "wall":
+        phi_wall = float(seal.get("phi_wall", 0.0))
+        phi_bc = torch.stack([phip[0], Q["phi"][-1] - phi_wall]) # core even fold; seal at wall depth (phi' FREE)
+    elif seal_phi_mode == "mirror":
         phi_bc = phip[[0, -1]]                                    # phi' = 0 mirror (both ends)
     else:
-        raise ValueError(f"unknown seal_phi {seal_phi!r} (A | B)")
+        seal_phi = "A" if n5d is None else n5d.get("seal_phi", "A")
+        if seal_phi == "B":
+            phi_bc = torch.stack([phip[0], Q["phi"][-1]])        # phi'(r_c)=0 ; phi(r_s)=0 (Dirichlet, phi' free)
+        elif seal_phi == "A":
+            phi_bc = phip[[0, -1]]                                # phi' = 0 mirror (both ends)
+        else:
+            raise ValueError(f"unknown seal_phi {seal_phi!r} (A | B)")
+    # ---- matter (f) seal rows ----
+    if matter_mode == "open":
+        # natural/outflow seal: PDE on interior+seal rows [1:], f_r=0 even fold at the CORE only.
+        f_rows = [Q["res_f"][1:, :].reshape(-1), wbc * fr[0, :]]
+    elif matter_mode == "mirror":
+        f_rows = [Q["res_f"][1:-1].reshape(-1), wbc * fr[0, :], wbc * fr[-1, :]]  # f_r=0 mirror both ends
+    else:
+        raise ValueError(f"unknown matter seal mode {matter_mode!r} (mirror | open)")
     rows = [
         Q["phi_ode"][1:-1],                                       # phi-ODE (interior)
-        wbc * phi_bc,                                             # phi seal BC (Class A mirror / Class B Dirichlet)
+        wbc * phi_bc,                                             # phi seal BC (mirror / Class-B / WR-L wall depth)
         Q["rho_ode"][1:-1],                                       # rho-ODE (interior)
         wbc * rhop[[0, -1]],                                      # rho' = 0 mirror (both ends)
-        Q["res_f"][1:-1].reshape(-1),                            # f-PDE (interior r, all theta)
-        wbc * fr[0, :], wbc * fr[-1, :],                         # f_r = 0 mirror (both ends, all theta)
-    ]
+    ] + f_rows                                                    # f-PDE + matter seal (mirror f_r=0 / open PDE)
     Hseal = H_of_r(v, ctx, prm, n5d=n5d)[-1]                      # H = 0 closure (off-round when n5d active)
     rows.append((wbc * Hseal).reshape(1))
 
@@ -516,7 +546,7 @@ def _col_scale(J, eps=1e-300):
 
 
 def newton_lm_solve(u0, ctx, prm, wbc=1.0, maxit=30, lam0=1e-3, tol=1e-13,
-                    verbose=True, time_budget=110.0, n5d=None, equilibrate=True):
+                    verbose=True, time_budget=110.0, n5d=None, seal=None, equilibrate=True):
     """LM solve.  equilibrate=True (default, FIX-1): the damped LM step is computed with COLUMN scaling
     (objective-preserving; lifts the under-scaled L column) via a stacked damped least-squares solved by
     lstsq -- this AVOIDS forming the normal equations J^T J (whose condition number is cond(J)^2 ~ 1e30
@@ -528,7 +558,7 @@ def newton_lm_solve(u0, ctx, prm, wbc=1.0, maxit=30, lam0=1e-3, tol=1e-13,
     import time
     from torch.func import jacrev
     t0 = time.time()
-    resfn = lambda uu: residual(uu, ctx, prm, wbc=wbc, n5d=n5d)
+    resfn = lambda uu: residual(uu, ctx, prm, wbc=wbc, n5d=n5d, seal=seal)
     u = u0.detach().clone()
     F = resfn(u); Phi = float((F * F).sum()); hist = [Phi]
     lam = lam0; nu = 2.0
