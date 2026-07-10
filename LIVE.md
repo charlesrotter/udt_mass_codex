@@ -27,7 +27,7 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-09 — SIMPLE METRIC + WR-L + Thread B static-drain series; free \(D_A\) quarantined). ============
+## ============ CURRENT STATE (2026-07-09 — SIMPLE METRIC + WR-L + Thread B drain + time-live gates + hopfion/H4; free \(D_A\) quarantined). ============
 
 **➤➤➤ LATEST (Charles: stick to simple metric; derive everything from it; quarantine free \(D_A\)).**
 
@@ -298,7 +298,14 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
   - α-source LIVE but ∝\(I_r\) vanishes with drain.  
 - Dispatch (done): `threadB_WORKSTATION_DISPATCH_mirror_vs_wall.md`.  
 
-**➤➤ NEXT:** time-live eigenmode about drained f2d solution (MAP DOF 1); and/or residual L time-live appearance. Not dS; not more static seal shopping; not prescribed-\(I_r\) win.  
+**★ Carrier provenance (2026-07-10, workstation):** `matter_carrier_provenance_audit_results.md` — S² carrier is a **POSIT** (not metric-derived); L2/L4 native *given* the posit. Blind-refutation held.  
+**★ H4·N4rev:** CF2 mass-sign **box-controlled** in parked two-player frame (`H4_N4rev_sign_certification_results.md`); hedgehog drain ≠ hopfion mass (object guard).  
+**★ Time-live linear gate (2026-07-10, external derive):** `threadB_timelive_linear_nogo_and_finite_amp_MAP.md`  
+- About drained hedgehog \(f_0=\theta\): **no linear growing mode** (\(\omega^2\ge0\)) — static drain **not** rescued by linear time-live.  
+- Finite-amp: \(\langle\Sigma_\phi\rangle>0\); collective breathing + fixed-\(Q\) isorotation = **DEMO/LEAD** persistence candidates (not full PDE).  
+- Oscillating core **cannot** stay reciprocal \(B=1/A\) throughout (\(\rho+p_r>0\)).  
+- **Next full solve:** H3 + fixed-\(Q\) isorotation + metric backreaction (not more static seals).  
+**➤➤ NEXT:** fixed-\(Q\) isorotation / weakly nonlinear hierarchy from H3 (see finite-amp MAP); residual L appearance still open. Not linear-only time-live rescue; not more static f2d seals; not claim unique UDT from L2+L4 alone.  
 **Red:** bank Thread B as closed cell / L-pin from probe; undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---

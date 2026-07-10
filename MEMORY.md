@@ -46,6 +46,11 @@
 
 ---
 
+**★ Carrier:** S² = **POSIT** (`matter_carrier_provenance_audit_results.md`).  
+**★ Time-live gates:** linear **no-go** on drained hedgehog; finite-amp self-source **LEAD** — `threadB_timelive_linear_nogo_and_finite_amp_MAP.md`.  
+**★ H4·N4rev:** CF2 box-controlled; hedgehog ≠ hopfion.  
+**NEXT:** fixed-Q isorotation from H3; not linear time-live rescue.  
+
 ## Durable lessons (not frontier)
 
 - n=2 luminosity distance forced; n=1 Pantheon flattery = artifact.  
