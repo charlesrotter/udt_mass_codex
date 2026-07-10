@@ -323,7 +323,10 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 **★ Fixed-Q Phase 1 pilot:** `hopfion_fixedQ_phase1_isorotation_results.md` — \(E_Q\)/\(I\) machinery LIVE on CUDA; plain GD **does not** hold hopfion topology (N=48 slips).  
   Need production Newton + H3 restart (Phase 1b).  
 
-**➤➤ NEXT:** Phase 1b — arrested-Newton (or production flow) on \(E_Q\) from regenerated H3 N≥160; then Phase 2 metric. Not claim isorotating hopfion from Phase 1 pilot.  
+**★ Fixed-Q Phase 1b (`hopfion_fixedQ_phase1b_production_results.md`):** N=192 held hopfion; \(Q\in\{0,0.5,1,2\}\) continuation **HOLDS** \(|Q_H|\sim0.968\).  
+  Arrested-Newton on \(E_Q\); flat FS only.  
+
+**➤➤ NEXT:** Phase 2 — metric backreaction on isorotating/H3 profile (beyond pure \(B=1/A\)); re-probe exterior flux with \(\langle\Sigma_\phi\rangle>0\). Not claim mass from Phase 1b.  
 **Red:** bank Thread B as closed cell / L-pin from probe; undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---

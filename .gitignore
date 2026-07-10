@@ -17,3 +17,6 @@ local_llm_export.md
 # large regenerable hopfion field checkpoints (never commit; GitHub 100MB limit)
 hopfion_arc_scripts_2026-07-05/*.npz
 *.npz
+# Phase1b hopfion fields (large)
+hopfion_fixedQ_phase1b_field*.npz
+hopfion_arc_scripts_2026-07-05/prod_p1b*.npz
