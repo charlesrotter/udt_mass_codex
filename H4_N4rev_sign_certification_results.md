@@ -160,6 +160,20 @@ the source support (2.691→2.693 over r_tex 2.5→5.0, ~0.08%). So "box-control
 in the weak-source model (P≈G there); that specific criticism was withdrawn. The three points above stand
 independently.
 
+**★ OBJECT-IDENTITY GUARD (2026-07-10 — the recurring hedgehog/hopfion fault line, do not re-trip).**
+The CF2⟺switch⟺"does the winding sustain I_r" unification is a statement about a WINDING object — but the
+ANSWER is object-specific, and the two objects in play are topologically DIFFERENT:
+- **π₂ degree-N hedgehog** (`cell_solver_f2d.py`: n=(sin f cosNψ, sin f sinNψ, cos f), diagnostic Q=N is the
+  π₂ degree, **Q_H=0**): 2D axisymmetric, VK-UNPROTECTED, Derrick-failing. **Thread B (mirror-vs-wall,
+  blind-verified) found THIS object's I_r drains** — because it has no topological energy floor.
+- **π₃ Q_H=1 hopfion** (H3, 256³ Faddeev–Skyrme; H1: deg-0 on every sphere; VK bound E≥c·Q_H^{3/4}>0):
+  genuinely 3D, VK-PROTECTED. A 2D axisymmetric degree-N ansatz **structurally cannot carry a Hopf charge**.
+**DO NOT transfer the hedgehog's I_r drain to the hopfion.** "Static hopfion massless via drain" is NOT earned
+— it tested the wrong object. Equally, "VK ⇒ survives" is NOT earned — VK is an UNCOUPLED-functional prior;
+under φ-coupling the functional changes, so survival is the thing to TEST. The real hopfion's static,
+φ-coupled I_r is **UNTESTED**. (Also: "massless under φ-only" may import the MACRO frozen-transverse canon
+into the PARTICLE sector, which is Branch-P where the transverse is LIVE and 𝒦 sources φ — do not lean on it.)
+
 **What survives / next.** Re-scope §2–§4 to the two-player transverse frame; bank the CF2⟺switch diagnosis;
 do NOT wire δq as a banked mass (its meaning rides the unsettled branch). The leverage is the SWITCH itself
 (`gp_switch_criterion_results.md`, DERIVED-scoped/NOT-canon; the discriminating object is the aspect ratio
