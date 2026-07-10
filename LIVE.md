@@ -247,10 +247,15 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 **BAO proper pass:** `simple_metric_bao_proper_pass_results.md`  
 - Low‑\(z\) LRG on \(R_L\); high‑\(z\) \(F\sim 4.5\)–4.7 vs \(R_L\sim 5.1\).  
 
-**Time-live AP:** `simple_metric_timelive_AP_results.md` · **intermediates:** `simple_metric_timelive_AP_intermediate_results.md`  
-- Mean \(\Delta z/\theta\) still on \(R_L\) (even wall-loud).  
-- **Needle:** wall-loud + **non-adiabatic** \(k_t\) ⇒ **phase scatter grows with \(z\)** (~1%→7% by \(z\sim 2.3\)).  
-- Mean high‑\(z\) BAO gap **not** closed by FREE 5% oscillation. Full Einstein+AP still open, not yet crash-priority for mean alone.  
+**Time-live AP (prior probes):** `simple_metric_timelive_AP_results.md` · intermediates.  
+- Mean \(\Delta z/\theta\) still on \(R_L\); wall-loud non-adiabatic scatter character (prior).  
+**★ Time-live residual appearance MAP (2026-07-09):** `simple_metric_timelive_residual_appearance_MAP.md`  
+- Root: \(\partial_t A\neq 0\) ⇒ \(p_t\) not conserved ⇒ **path-integrated** redshift (static L is endpoint-only).  
+- Exact (WORKING \(A(t,r)\), \(B=1/A\)): \(1+z=\sqrt{A_o/A_e}\,\exp[-\int_e^o \partial_t\ln A\,dt]\).  
+- **Faces of same integral:** redshift drift \(dz/dt_o\) **and** AP two-leg residual (related, not identical). Static L cannot fake either.  
+- Scatter/caustics/**loud** **not** forced by symmetric \(A(r,t)\) alone.  
+- Birkhoff = GR-form warning only; reciprocal diagonal time-live still **WORKING**.  
+- Grade: **STRONG LEAD / MAP** — not canon until time-live sector chosen.  
 
 **Principle-closure:** bare NPC **FAIL**; **WR-L accepted** ⇒ L form **DERIVED**  
   (`simple_metric_L_wall_regularity_closure_results.md`).  
@@ -281,7 +286,7 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - **Grade: CONDITIONAL** — do **not** bank closed cell / L-pin. Open: DOF left out (non-round/shear/time-live/closure)? solver-first.  
 - Dispatch/charter (history): `threadB_WORKSTATION_DISPATCH.md` · `threadB_coupled_cell_flatness_Lselector_CHARTER.md`.  
 
-**➤➤ NEXT:** solver-first on f2d drain (what DOF left out) **or** residual L kaleidoscope / time-live. Not dS. Not “force flat with mechanism.” Not re-run probe as closed-cell win.  
+**➤➤ NEXT:** derive exact light-cone/AP from \(A=1-r/X(t)\) or general residual \(A(t,r)\) (MAP next step); **or** solver-first f2d drain. Not dS; not BAO-fix; not loud-from-round alone.  
 **Red:** bank Thread B as closed cell / L-pin from probe; undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---

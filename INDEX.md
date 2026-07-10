@@ -38,6 +38,7 @@
 | H/L / optics | `simple_metric_HL_unification_results.md`, `simple_metric_L_native_optical_derive_results.md` |
 | Kaleidoscope | `simple_metric_kaleidoscope_MAP.md`, `simple_metric_kaleidoscope_MINE_results.md` |
 | BAO / time-live | `simple_metric_bao_*`, `simple_metric_timelive_*` |
+| Time-live appearance MAP | `simple_metric_timelive_residual_appearance_MAP.md` |
 | SNe / cascade history | `simple_metric_pantheon_*`, `simple_metric_mass_xmax_cascade.md`, … |
 | Orientation | `LIVE.md`, `MEMORY.md`, `HANDOFF.md`, this INDEX |
 | Discipline | `CLAUDE.md`, `.claude/skills/`, `tests/` |

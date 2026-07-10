@@ -35,7 +35,8 @@ Fork (A) global re-center → singularity forced · (B) wall-asymptotic → regu
 
 **dS native closed any α.** Thread B ≠ dS.  
 **Thread B RAN** (`3c827f6`): `threadB_coupled_cell_flatness_Lselector_results.md` — coeff settled; probe flat/L-select; **f2d drains, no closed flat cell** (CONDITIONAL).  
-**NEXT:** solver-first on drain or residual L appearance. See LIVE.md.
+**Time-live MAP:** `simple_metric_timelive_residual_appearance_MAP.md` — path-integrated redshift; drift ≠ AP but same root.  
+**NEXT:** exact AP/light-cone from \(A(t,r)\); or f2d drain. See LIVE.md.
 
 **Red:** bare-metric L claim; revive P_ell; lean on MS mass as native; χ²-shop \(A(r)\); free \(D_A\) as theory; \(x_{\max}\) as hard spatial wall.
 

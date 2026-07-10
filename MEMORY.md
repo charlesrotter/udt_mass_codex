@@ -36,7 +36,8 @@
   - Probe: flat cross + L-select (mainly \(T_{AB}\)).  
   - **f2d self-consistent: matter drains — NO closed flat cell** (CONDITIONAL; not closed-cell win).  
 **Kaleidoscope** on L mined; pure BAO AP character.  
-**NEXT:** solver-first on f2d drain (missing DOF?) **or** residual L appearance / time-live. Not dS; not force-flat mechanism.  
+**★ Time-live appearance MAP:** path-integrated \(1+z\); drift + AP residual = same root — `simple_metric_timelive_residual_appearance_MAP.md` (STRONG LEAD).  
+**NEXT:** exact light-cone/AP from \(A(t,r)\) or \(1-r/X(t)\); or f2d drain solver-first. Not dS/BAO-fix.  
 **Startup:** LIVE.md FRONTIER wins; lean HANDOFF/INDEX; archives under `archive/`.
 
 ---
