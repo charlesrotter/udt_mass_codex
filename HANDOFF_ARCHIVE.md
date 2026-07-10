@@ -1,5 +1,8 @@
 # HANDOFF ARCHIVE — superseded resume blocks (history preserved out of the live HANDOFF)
 
+> **⚠ α-COEFF CORRECTED (2026-07-10):** any `+α·ξ·e^{αφ}·ρ²·I_r` below is WRONG — the anchor-verified coefficient is **`−(α/2)·ξ·e^{αφ}·ρ²·I_r`** (`verify_alpha_coeff_ANCHORED.py`; reproduces base φ-EOM + base ρ-EOM + T_AB). **SIGN-CRITICAL:** for α<0 the direct source is POSITIVE (SUPPORTS `I_r`), not draining. Any pre-grok reasoning here that relied on the old `+α` sign is **CONDITIONS-CHANGED** (see LIVE.md on grok).
+
+
 Sections moved here from HANDOFF.md when they were superseded, so the live HANDOFF stays
 current/non-contradictory. Full history is also in git. Each block carries why it was retired.
 

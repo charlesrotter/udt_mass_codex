@@ -1,5 +1,8 @@
 # DESIGN — the matter-filled background & the closure-amount scan (Thread A, done right)
 
+> **⚠ α-COEFF CORRECTED (2026-07-10):** any `+α·ξ·e^{αφ}·ρ²·I_r` below is WRONG — the anchor-verified coefficient is **`−(α/2)·ξ·e^{αφ}·ρ²·I_r`** (`verify_alpha_coeff_ANCHORED.py`; reproduces base φ-EOM + base ρ-EOM + T_AB). **SIGN-CRITICAL:** for α<0 the direct source is POSITIVE (SUPPORTS `I_r`), not draining. Any pre-grok reasoning here that relied on the old `+α` sign is **CONDITIONS-CHANGED** (see LIVE.md on grok).
+
+
 **Date:** 2026-07-08 · **Author:** Claude Opus 4.8 (1M) with Charles. **Status: DESIGN / pre-solve spec.**
 Data-blind (no 1101 / 7.004 / C / μ_g / lepton values). Supersedes the vacuum-first reading of Thread A in
 `derived_background_and_phi_coupling_DESIGN.md` §A — see §1 below for why.

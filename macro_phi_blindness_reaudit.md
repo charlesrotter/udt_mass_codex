@@ -1,5 +1,8 @@
 # RE-AUDIT — is macro matter forced to be φ-blind? (Fork 2)
 
+> **⚠ α-COEFF CORRECTED (2026-07-10):** any `+α·ξ·e^{αφ}·ρ²·I_r` below is WRONG — the anchor-verified coefficient is **`−(α/2)·ξ·e^{αφ}·ρ²·I_r`** (`verify_alpha_coeff_ANCHORED.py`; reproduces base φ-EOM + base ρ-EOM + T_AB). **SIGN-CRITICAL:** for α<0 the direct source is POSITIVE (SUPPORTS `I_r`), not draining. Any pre-grok reasoning here that relied on the old `+α` sign is **CONDITIONS-CHANGED** (see LIVE.md on grok).
+
+
 **Date:** 2026-07-08 · **Status: RE-AUDIT (planning + structural DERIVE; ties first observe to banked Thread-B).**  
 **Triggered by:** Charles — after clean-core first observe (C3 empty under φ-blind), chose fork 2; noted φ-blindness was something we **chose to let go of previously**.  
 **Parallel to:** first-observe results (not an edit). Parents: `udt_phi_blindness_relaxation_results.md` (BANKED), `p16_phi_sourcing_decision_note.md`, CANON **C-2026-07-05-1**, `macro_clean_core_first_observe_results.md`.
