@@ -8,7 +8,7 @@
 | **Mode** | OBSERVE (solver-first — test whether the drain is an artifact of the finite-mirror closure: the `f_r=0` matter channel and/or the free-boundary `L` under `H=0`) |
 | **Slice scope** | STATIC, diagonal, Branch-P (W=1) finite cell (φ,ρ,f), round. Z=8, ξ=κ=1. The ONE DOF varied vs the banked runs = the OUTER (r_s) **seal**, along two INDEPENDENT knobs: (a) φ-seal `mirror` (φ′=0) vs **WR-L wall** (φ(r_s)=φ_wall, φ′ FREE; A=e^{−2φ_wall}→0 character, macro A=1−r/X NOT imposed inside); (b) matter-seal `mirror` (f_r=0) vs **open** (natural PDE at seal, imposes no shape). Core (r_c) always even mirror fold. Grid (Nr,Nθ)∈{(16,8),(24,8)}. No prescribed I_r, no new coupling, no hard Dirichlet edge. |
 | **Observing or targeting?** | OBSERVING. I_r, L, Q, q_raw, ‖F‖², φ endpoints are CHARACTERIZERS (measured, not filters). The open matter seal is non-imposing (does NOT demand structure = not a merit filter). A_wall is swept, NOT tuned to a target I_r. No lump/mass/particle targeted. |
-| **Verifier status** | Self-checked bounded GPU (V100) pilots; base residual byte-identical to the mirror system when seal=None (`max|F_seal=None − F_base| = 0`, verified); all arms square/finite. Control arm A reproduces the prior banked drain table to 3 sig-figs (L=0.0144, I_r=4.6e-6 at Nr=16/it120). **Independent blind verifier: see §7** (run before banking). |
+| **Verifier status** | Self-checked bounded GPU (V100) pilots; base residual byte-identical to the mirror system when seal=None (`max|F_seal=None − F_base| = 0`, verified); all arms square/finite. Control arm A reproduces the prior banked drain table to 3 sig-figs (L=0.0144, I_r=4.6e-6 at Nr=16/it120). **TWO independent blind adversarial passes DONE (§7):** agent aae6f904119d7ddb7 (base integrity, open-seal drain real, wall obstruction — caught+corrected an overstatement) + agent a709b622165f8f4d2 (α-source LIVE/true-null, solution-space completeness — caught the loose-L2-gate + round-only scope). Headline SOUND for the round static sector. |
 | **Build-on grade** | **CONDITIONAL** (scoped negative). The drain SURVIVES the mirror-vs-wall seal across both knobs, α, N, and grid. Recorded as a clean failure of the seal/closure DOF; do NOT bank as a metric verdict, do NOT patch, do NOT claim a closed cell. |
 | **Re-run commands** | `PYTHONPATH=$(pwd) python3 scratchpad/run_f2d_mirror_vs_wall.py` (full matrix, ~20s). Solver seal knob: `cell_solver_f2d.residual(..., seal=dict(phi="wall"\|"mirror", phi_wall=…, matter="open"\|"mirror"))`. `python3 -m pytest tests/ -q` (69 pass, 1 xfail, 1 pre-existing unrelated hygiene-header doc-backlog fail). |
 
@@ -116,6 +116,12 @@ drives I_r further down monotonically — the nonzero I_r at it40 is an under-co
 solution. In the *wall* arms (B1, B3) the solve does not converge at all (obstruction). Neither route
 sustains I_r. **The drain survives the mirror-vs-wall seal.** Nothing here is banked as a nonzero cell.
 
+**Honest convergence gate (verifier-2 correction).** The banking gate is a **max-norm** fixed point
+(max|F| < 1e-6), NOT the L2 sum ‖F‖² < 1e-4 alone: the L2 sum is loose — an L2 of ~5e-5 can coexist with
+a max single-row residual of ~5e-3 mid-drain, so an L2-only test would FALSELY admit a mid-drain snapshot
+as a "converged sustained-I_r cell." Under the max-norm criterion, no state with I_r>1e-3 qualifies:
+every sustained-I_r candidate has max|F| ≥ 5e-4, and pushing convergence drives I_r→0 (verifier-2 §7).
+
 ---
 
 ## 4. Solver-first accounting (mismatch → solver, not mechanism)
@@ -165,6 +171,14 @@ Implemented in `cell_solver_f2d.residual(..., seal=None)` (base byte-identical w
   collapses; on the wall-reaching branch L runs away to ~4×10⁹ — L stays degenerate either way).
 - NOT: a metric verdict. This is a scoped negative on the seal/closure DOF of the static Branch-P cell;
   the **time-live / nonstatic** DOF is UNTESTED and is the pre-registered next step.
+- NOT: an off-round claim FROM THIS RUN. This run's arms are ROUND (the a2/n5d shear is not exercised
+  here); the off-round static door is closed by the SEPARATE prior audit
+  (`threadB_f2d_nonround_topological_audit_results.md`), not folded into this run's evidence. "Every
+  static door drains" is demonstrated HERE for the round sector; off-round rests on its own audit.
+- NOT: an exclusion of an isolated finite-L sustained-I_r fixed point by pure conditioning. "STANDS" is
+  at the bounded-grid/LM level (solver conditioning-limited at extreme L, s_min~3e-4); no seed across a
+  wide sweep converged to a sustained-I_r cell, and every finite-I_r state is a demonstrable
+  non-fixed-point — but this is a numerical, not analytic, non-existence.
 - NOT: any mass, ratio, particle, SNe, or cosmology result. No dS. No prescribed I_r. No mechanism.
 
 ---
@@ -188,3 +202,20 @@ Independent zero-context adversarial pass, framed to ADJUDICATE (not confirm), o
   seed, and branch (converged collapse, non-converged stall, wall-reaching runaway); I_r→0 (1e-9…1e-17)
   everywhere. All table numbers (A, B2, B1, B3) reproduced to full precision. Verifier scratch:
   `scratchpad/verify_q1.py … verify_q3e.py`.
+
+**Second independent blind adversarial pass (agent a709b622165f8f4d2, 2026-07-10)** — orthogonal targets
+(the α-null and solution-space completeness the first pass left soft):
+- **α-source LIVE (the null is a TRUE null).** At FINITE I_r (seed amp=0.2, I_r~6.9e-2) the φ-row residual
+  changes with α exactly ∝ α: max|Δ| = 1.28e-2 (α=−1), 2.56e-2 (α=−2); node-by-node match to the formula
+  −ASRC_C·α·ξ·e^{αφ}·I_r/Z to **0.0e+00** (machine-exact), e^{αφ} weight matched to 1.3e-14. So α doing
+  nothing at the drained endpoint is because I_r→0, NOT because the knob is unwired. The doc's α claim holds.
+- **Intrinsic-drain STANDS.** Wide sweep (amp∈{0.05,0.2,0.4,0.5}, radial {cos,cos²,bump}, angular
+  {s²,s⁴,s²μ}, L₀∈{1,2,3}, ρ₀∈{0.71,1.0}, random-kick seeds, mirror + open seals, maxit 120/250 + ≤9
+  continuation restarts): NO converged (max-norm) static solution holds sustained I_r. Every finite-I_r
+  state is a collapse-branch snapshot, an L→∞ runaway (drained), or a non-converged L~20 stall (max|F|~1e-2,
+  near-singular Jacobian) — a demonstrable non-fixed-point.
+- **Two honest corrections folded in (above):** (1) the banking gate is MAX-NORM (max|F|<1e-6), not the
+  loose L2 ‖F‖²<1e-4 — stated in §3; (2) this run is ROUND-only, off-round rests on the separate audit —
+  stated in §6. Conditioning caveat (numerical, not analytic, non-existence) — §6.
+- **Verdict: banked headline SOUND** for the round static sector; pivot to time-live not premature (no
+  round static DOF in scope sustains I_r). Verifier-2 scratch: `scratchpad/vf2_task1.py … vf2_task2c.py`.
