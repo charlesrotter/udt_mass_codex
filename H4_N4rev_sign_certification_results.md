@@ -9,7 +9,7 @@
 | **Slice scope** | STATIC, Branch-P (W=1), single-object perturbative transverse response δh=−L_bare⁻¹T; native 2𝒦→φ channel (NO G=8πT). Real stress from `hopfion_arc_scripts_2026-07-05/prod_an256.npz` (N=256, L=6). ξ=κ=1 (data-blind gauge). Z_φ swept {1,8}. φ_amb swept for the far-field regime. |
 | **Observing or targeting?** | OBSERVING the sign, aimed HARDEST at the standing hypothesis (prior positive-mass lean). Halt-don't-salvage: a δm<0 OR a non-certifiable sign is a FINDING — banked, not patched. NOT tuned to land positive (or negative). |
 | **Verifier status** | Self blind-checks (r-window + grid scans) + independent blind adversarial pass (agent a79ec540e0269d8fe, 2026-07-10) framed to REFUTE the box-control (rescue a robust sign): box-control CONFIRMED. See §6. |
-| **Build-on grade** | **CONDITIONAL / scoped negative** — CF2 does NOT close in the single-object frame; the sign is box-controlled. Confirms the prior Outcome D (`H4_N4rev_conditional_mass_response_results.md`); does NOT overturn it. Do NOT bank a mass sign; do NOT patch by fixing the cutoff. |
+| **Build-on grade** | **CONDITIONAL / scoped negative** — CF2 does NOT close in the single-object frame; the sign is box-controlled. Confirms the prior Outcome D (`H4_N4rev_conditional_mass_response_results.md`); does NOT overturn it. Do NOT bank a mass sign; do NOT patch by fixing the cutoff. **RE-SCOPED 2026-07-10 (§7):** the box-control is scoped to the *parked two-player transverse frame* (`op_derive2.py` linearizes about the round two-player background a₀=bt₀=r²); it is NOT an absolute statement about the hopfion's mass. CF2 ⟺ the G/P switch (the standing crux). A "Branch-G clean-q" reframing was attempted and REFUTED (target-fishing on an underived switch + a tautological test). |
 | **Re-run** | `PYTHONPATH=$(pwd) python3 h4_scripts/extract_stress_rtheta.py` (shell-projects → `h4_scripts/stress_rtheta_h3.npz`); `PYTHONPATH=$(pwd) python3 scratchpad/run_n4rev_real.py`. Pipeline: `n4rev_response_TURNKEY.py::run`, `h4_scripts/lbare_inverse.py`. |
 
 ### Premise ledger
@@ -120,3 +120,51 @@ own regenerated numbers:
 - **All rescue attempts FAIL:** far-field flux (robust to outer radius only, value set by inner cutoff),
   regular-core (δq→+∞), reweightings (all sign-flip with cutoff). No principled cutoff-robust sign.
 - **Overall: box-control CONFIRMED; the author is correct.** Verifier scratch: `scratchpad/verify.py … verify4.py`.
+
+---
+
+## 7. Re-scope + reframing audit (2026-07-10, Charles + workstation)
+
+**Provenance re-scope (CORRECT — narrows the claim).** `L_bare = r²f''−2rf'+2f` (roots {1,2}, "no decaying
+mode", the whole box-control) is derived by linearizing the transverse-shear EL about the ROUND TWO-PLAYER
+background (`op_derive2.py:2`, a₀=bt₀=r²). That two-player transverse frame was PARKED by the 2026-07-09 pivot
+to φ-only on the simple metric (`SIMPLE_METRIC_MACRO §3`, transverse fixed D=r). So the box-control is a
+property of the parked frame, NOT an absolute statement about the hopfion's mass. **§2–§4's "box-controlled"
+verdict is re-scoped to the two-player transverse reading.** (The actor still exists and is stable — H3
+untouched; H1 topology metric-free — only the CF2 MASS machinery sat on the parked frame.)
+
+**The honest diagnosis (bankable): CF2 ⟺ the G/P switch.** Box-control = a Branch-P exterior (no conserved
+localizable flux); clean-q = a Branch-G exterior. "What is the hopfion's mass" = "which branch is its exterior"
+= the standing, UNDERIVED G↔P switch (`macro_no_GP_framing.md:38` "underived"; `SIMPLE_METRIC_MACRO §3:152`
+"FORK — principle later"). `H4_GP_switch_hopfion_MAP:10` already reached this: the hopfion's branch is
+"UNDECIDABLE at armchair level and reduces to the revised-N4 solve." This result re-derives that, concretely.
+
+**A "Branch-G clean mass q" reframing was attempted and REFUTED (target-fishing).** The attempt
+(`hopfion_mass_Gmatch_TURNKEY.py`) integrated a Branch-P core, DECLARED the exterior Branch-G at the texture
+edge, and read a conserved Coulomb q. It fails three ways:
+1. **Underived switch / forbidden inference.** "H1 compact texture support ⇒ G exterior" is the topology→branch
+   move the canon has a DERIVED-FALSE result + STOP tripwire against (`gp_switch_criterion_results.md:65`
+   "topology ALONE is INSUFFICIENT … does NOT pin χ"; `H4_GP_switch_hopfion_MAP:93` "any 'Q_H forces branch' ⇒
+   STOP"). H1 constrains the texture n, not the φ-branch.
+2. **Tautological acceptance test.** `hopfion_mass_Gmatch_TURNKEY.py:56` computes `qR = R²·((q/Z)/R²)·Z ≡ q` for
+   every R — it plugs in the ASSUMED G form φ'=q/(Zr²) and "confirms" r²φ'=const. The "spread=0.00e+00 PASS
+   cutoff-free" is q≡q; it tests nothing about whether the exterior is G.
+3. **Inverted logic (the sharpest).** `H4_GP_switch_hopfion_MAP:14`: **δq≠0 ⟹ active-P**; dead-G forces δq=0
+   (massless flux-conductor). A nonzero Coulomb mass REQUIRES active-P sourcing — so "G gives a clean q" is
+   backwards. Whether that P-sourcing integrates to nonzero IS the trace-vs-shear sign competition CF2 could
+   not resolve. The G-match hid CF2 inside the boundary flux; the tautological test masked it.
+
+**Honest counter-check that MISSED (recorded for calibration).** The workstation predicted the box-control
+merely relocated to the chosen switch surface r_tex. Tested on the model source: q PLATEAUS once r_tex clears
+the source support (2.691→2.693 over r_tex 2.5→5.0, ~0.08%). So "box-control moved to r_tex" is NOT supported
+in the weak-source model (P≈G there); that specific criticism was withdrawn. The three points above stand
+independently.
+
+**What survives / next.** Re-scope §2–§4 to the two-player transverse frame; bank the CF2⟺switch diagnosis;
+do NOT wire δq as a banked mass (its meaning rides the unsettled branch). The leverage is the SWITCH itself
+(`gp_switch_criterion_results.md`, DERIVED-scoped/NOT-canon; the discriminating object is the aspect ratio
+χ=L_radial/√A, needing N2 — NOT topology, NOT fixed angular scale): promote it to canon and APPLY it to the
+hopfion exterior. Derives G → CF2 closes and δq becomes meaningful; derives P → the whole-cell reading is
+right. Either way the switch owns the answer. Machinery keep: the P-core→exterior integrator, but with the
+tautological test replaced by an HONEST probe (forward-integrate the real ODE with the P-source ON and MEASURE
+plateau[G-like] vs drift[P-like]) — a probe, not a derivation.
