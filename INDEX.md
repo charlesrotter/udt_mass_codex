@@ -42,6 +42,7 @@
 | Thread B mirror-vs-wall results | `threadB_f2d_mirror_vs_wall_results.md` |
 | Time-live linear no-go + finite-amp | `threadB_timelive_linear_nogo_and_finite_amp_MAP.md` |
 | Matter carrier provenance | `matter_carrier_provenance_audit_results.md` |
+| Hopfion mass / ambient-φ MAP | `hopfion_mass_background_coupling_MAP.md` |
 | H4·N4rev CF2 box-control | `H4_N4rev_sign_certification_results.md` |
 | H/L / optics | `simple_metric_HL_unification_results.md`, `simple_metric_L_native_optical_derive_results.md` |
 | Kaleidoscope | `simple_metric_kaleidoscope_MAP.md`, `simple_metric_kaleidoscope_MINE_results.md` |

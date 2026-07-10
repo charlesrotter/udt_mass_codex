@@ -51,6 +51,8 @@
 **★ H4·N4rev:** CF2 box-controlled; hedgehog ≠ hopfion.  
 **NEXT:** fixed-Q isorotation from H3; not linear time-live rescue.  
 
+**★ Hopfion mass MAP:** `hopfion_mass_background_coupling_MAP.md` — mass/ambient-φ = H3 + G/P switch + backreaction; ≠ residual L; ≠ hedgehog drain.
+
 ## Durable lessons (not frontier)
 
 - n=2 luminosity distance forced; n=1 Pantheon flattery = artifact.  

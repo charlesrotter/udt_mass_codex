@@ -305,7 +305,13 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - Finite-amp: \(\langle\Sigma_\phi\rangle>0\); collective breathing + fixed-\(Q\) isorotation = **DEMO/LEAD** persistence candidates (not full PDE).  
 - Oscillating core **cannot** stay reciprocal \(B=1/A\) throughout (\(\rho+p_r>0\)).  
 - **Next full solve:** H3 + fixed-\(Q\) isorotation + metric backreaction (not more static seals).  
-**➤➤ NEXT:** fixed-\(Q\) isorotation / weakly nonlinear hierarchy from H3 (see finite-amp MAP); residual L appearance still open. Not linear-only time-live rescue; not more static f2d seals; not claim unique UDT from L2+L4 alone.  
+**★ Hopfion / mass / ambient-φ MAP (2026-07-10):** `hopfion_mass_background_coupling_MAP.md`  
+- Particle mass = action on **posited** S² carrier (H3 object), **not** residual L.  
+- H3 exists; local φ-source ON in core; \(\phi_{\mathrm{amb}}\) sets far-field regime.  
+- CF2/δm box-controlled in **parked** two-player frame — not absolute masslessness.  
+- Crux: **G/P exterior switch**; hedgehog drain ≠ hopfion.  
+- LEAD: fixed-\(Q\) isorotation from H3 + non-reciprocal backreaction.  
+**➤➤ NEXT:** hopfion mass lane — G/P exterior switch on H3 **or** fixed-\(Q\) from H3 (see hopfion MAP); residual L time-live appearance parallel. Not f2d hedgehog mass; not δm cherry-pick.  
 **Red:** bank Thread B as closed cell / L-pin from probe; undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---
