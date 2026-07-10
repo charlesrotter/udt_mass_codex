@@ -34,8 +34,8 @@ Fork (A) global re-center → singularity forced · (B) wall-asymptotic → regu
 `simple_metric_EOS_power_window_dS_results.md`.  
 
 **dS native closed any α.** Thread B ≠ dS.  
-**Thread B RAN** + **drain MAP:** results + `threadB_f2d_drain_solver_first_MAP.md`.  
-Next GPU: **non-round + topological BC, still static**.  
+**Thread B:** pilot + drain MAP + **non-round audit (`452e1f7`)** — drain SURVIVES; topology pins; next **mirror vs WR-L wall**.  
+`threadB_f2d_nonround_topological_audit_results.md`.  
 **Time-live exact:** `simple_metric_timelive_AP_exact_derive_results.md`.  
 **NEXT:** see LIVE.md.
 

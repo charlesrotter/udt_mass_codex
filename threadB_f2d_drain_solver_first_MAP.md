@@ -103,3 +103,14 @@ Macro time-live appearance (`simple_metric_timelive_AP_exact_derive_results.md`)
 ## One-line
 
 **f2d drain is a real residual-minimizer of the static round mirror slice; left-out DOFs are time-live, non-round/shear, mirror vs wall closure, topology, then metric form — next GPU = non-round + topological BC still static.**
+
+---
+
+## Audit result (2026-07-09) — drain SURVIVES non-round + topology
+
+**`threadB_f2d_nonround_topological_audit_results.md`** (commit `452e1f7`)
+
+- **FAILURE (scoped):** drain survives non-round shear + topology \(N=1,2\) + \(\alpha<0\); deepens with convergence.
+- **MAP refinement:** “unwound sector” **falsified** — winding \(Q\) pins to \(N\) exactly; what drains is radial \(I_r\) (\(f\to\) rigid hedgehog), orthogonal to topology.
+- **Next DOF (refined):** mirror vs **WR-L causal-wall** closure (mirror permits \(f_r=0\) at seal — drain channel). Then time-live eigenmode if still drains.
+
