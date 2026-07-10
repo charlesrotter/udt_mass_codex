@@ -263,7 +263,7 @@ def fields(v, ctx, prm, n5d=None):
     rho_ode = rhopp - (2.0 * phip * rhop - (Z / 4.0) * rho * e2p * phip ** 2
                        + (e2p / 4.0) * (XI * rho * Ir - KAP * N ** 2 * I4th / rho ** 3))
 
-    out = dict(phi=phi, rho=rho, L=L, phip=phip, rhop=rhop, fr=fr,
+    out = dict(phi=phi, rho=rho, L=L, phip=phip, rhop=rhop, fr=fr, f=f, fth=fth,
                e2m=e2m, e2p=e2p, Ir=Ir, Ith=Ith, Is=Is, I4th=I4th, I4r=I4r,
                phi_ode=phi_ode, rho_ode=rho_ode, res_f=res_f)
 
@@ -374,6 +374,28 @@ def derrick(v, ctx, prm):
 
 
 # =========================================================================================
+# TOPOLOGICAL WINDING DIAGNOSTIC (measure, not enforce; added Thread B non-round/topological audit)
+# =========================================================================================
+def winding_of_r(v, ctx, prm, n5d=None):
+    """Topological degree of the axisymmetric hedgehog S^2->S^2 map at each radial shell:
+        Q(r) = (N/2) INT_0^pi sin(f) f_theta dtheta = N * (1/2)[1 - cos f]_{theta=0}^{theta=pi}
+    which equals N whenever the poles BC f(r,0)=0, f(r,pi)=pi hold.  This is a TOPOLOGICAL
+    INVARIANT (a boundary integral) -- it is PINNED by the poles data, independent of the interior
+    radial profile.  In the u=f-theta representation the poles/degree are carried EXACTLY by the
+    theta ramp, so a relaxation that drains the RADIAL structure I_r (f_r -> 0, f -> theta) does NOT
+    change Q: the winding sector is orthogonal to the I_r drain.  A near-N, near-r-constant Q(r)
+    therefore MEASURES that the round relaxation did NOT unwind the topological sector.
+    GL-mu quadrature: INT_0^pi H(theta) dtheta = sum_j w_j H_j / sin(theta_j),  H = sin(f) f_theta.
+    Returns Q(r) as a length-Nr tensor."""
+    N = prm[3]
+    Q = fields(v, ctx, prm, n5d=n5d)
+    f, fth = Q["f"], Q["fth"]                                 # (Nr,Nth)
+    s_r = ctx["s"][None, :]; w = ctx["w"][None, :]
+    integrand = torch.sin(f) * fth / s_r                     # H/sin(theta), H = sin(f) f_theta
+    return 0.5 * N * (w * integrand).sum(1)                  # (Nr,)  ~ N when poles BC hold
+
+
+# =========================================================================================
 # READOUTS  --  public charge / MS-mass (NEUTRAL SIGN CONVENTION; §5, Charles-edited 2026-07-06)
 # =========================================================================================
 # sign_convention: pinned ONCE from the current whole-cell canon (N5b/N2 flux budget
@@ -458,8 +480,9 @@ def seed(ctx, phi0=0.0, rho0=0.70710678, L0=1.0, amp=0.02):
     zeta = ctx["zeta"]; mu = ctx["mu"]
     gr = torch.cos(np.pi * (zeta + 1.0) / 2.0)                    # (Nr,)
     uf = amp * (1.0 - mu[None, :] ** 2) * gr[:, None]            # (Nr,Nth)
-    phi = torch.full((Nr,), float(phi0), dtype=torch.float64)
-    rho = torch.full((Nr,), float(rho0), dtype=torch.float64)
+    dev = zeta.device
+    phi = torch.full((Nr,), float(phi0), dtype=torch.float64, device=dev)
+    rho = torch.full((Nr,), float(rho0), dtype=torch.float64, device=dev)
     return pack(phi, rho, uf, float(L0))
 
 
