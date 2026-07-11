@@ -57,8 +57,8 @@
 **Phase 1 pilot:** machinery OK, topology not held under GD — `hopfion_fixedQ_phase1_isorotation_results.md`.
 **Phase 1b:** Q-continuation HOLDS — `hopfion_fixedQ_phase1b_production_results.md`.
 **Phase 2:** isorotation does NOT de-box exterior — `hopfion_phase2_metric_backreaction_results.md`.
-**Dispatch G/P:** `hopfion_WORKSTATION_DISPATCH_GP_switch.md`.
-**NEXT:** Stage A MAP then apply.  
+**G/P apply:** object silent on branch (no N1) — `hopfion_GP_switch_apply_results.md`.
+**Crux:** seal-matching / ambient. **NEXT:** pause or seal-matching MAP.  
 
 ## Durable lessons (not frontier)
 

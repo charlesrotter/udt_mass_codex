@@ -90,3 +90,13 @@ thus the mass, lives entirely in the seal-matching / ambient gate, not in the ho
 The mass lane's remaining gate is the **seal-matching / ambient** question (finite-cell wall location), a
 DERIVATION — not a hopfion measurement and not more source engineering. Alternatively accept the honest
 **G-lean-in-unbounded-scope** (clean flux ~O(0.4)) as a scoped, conditional character.
+
+---
+
+## Driver doublecheck (2026-07-10)
+
+Pulled `9b1d41c`. Compactness JSON: e/peak ~1e-6 by r≈5.4, r_tex≈2.5 — agrees with “no induced √A pin.”  
+Logic: N1∧N3 needs N1 from the object; compact hopfion leaves ambient A=4πr² free; private wall at ℓ_hopf is RED.  
+**Agree:** branch is ambient/seal, not hopfion-intrinsic. **Agree grade:** CONDITIONAL/LEAN (not a branch verdict).  
+**Agree routing:** remaining gate = seal-matching / continuum vs finite-cell wall — derivation, not source engineering.
+

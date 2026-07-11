@@ -49,6 +49,7 @@
 | Phase 2 metric backreaction dispatch | `hopfion_WORKSTATION_DISPATCH_phase2_metric.md` |
 | Phase 2 metric backreaction results | `hopfion_phase2_metric_backreaction_results.md` |
 | G/P switch hopfion dispatch | `hopfion_WORKSTATION_DISPATCH_GP_switch.md` |
+| G/P switch apply MAP/results | `hopfion_GP_switch_apply_MAP.md`, `hopfion_GP_switch_apply_results.md` |
 | H4·N4rev CF2 box-control | `H4_N4rev_sign_certification_results.md` |
 | H/L / optics | `simple_metric_HL_unification_results.md`, `simple_metric_L_native_optical_derive_results.md` |
 | Kaleidoscope | `simple_metric_kaleidoscope_MAP.md`, `simple_metric_kaleidoscope_MINE_results.md` |

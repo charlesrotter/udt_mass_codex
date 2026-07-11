@@ -20,3 +20,5 @@ hopfion_arc_scripts_2026-07-05/*.npz
 # Phase1b hopfion fields (large)
 hopfion_fixedQ_phase1b_field*.npz
 hopfion_arc_scripts_2026-07-05/prod_p1b*.npz
+# Refuted tautological mass pipeline (do not revive)
+hopfion_mass_Gmatch_TURNKEY.py

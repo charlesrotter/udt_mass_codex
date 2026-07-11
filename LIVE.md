@@ -332,7 +332,13 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - Grade **LEAD/CONDITIONAL** (partial blind; driver JSON doublecheck agrees).  
 - **Routing:** stop core source-engineering; mass de-box ⇒ **G/P switch** on hopfion exterior.  
 
-**➤➤ NEXT:** workstation — **`hopfion_WORKSTATION_DISPATCH_GP_switch.md`** (Stage A MAP first, then optional Stage B apply). Not Phase-2 source shopping; not claim mass.  
+**★ G/P switch apply RAN (`aba76a1`/`9b1d41c`):** `hopfion_GP_switch_apply_MAP.md` + `hopfion_GP_switch_apply_results.md`  
+- Hopfion supplies **no N1** (compact; ambient A=4πr² free).  
+- Branch **not decided by the object**: unbounded scope leans G (clean flux if G); finite-cell wall could supply N1⇒P (drift).  
+- Mass crux localized: **seal-matching / ambient** (continuum vs finite-cell wall location).  
+- Grade **CONDITIONAL/LEAN** — not mass, not branch canon.  
+
+**➤➤ NEXT:** **PAUSE banking point** — or MAP seal-matching/ambient gate (finite-cell wall vs continuum for a matter object; no private wall at ℓ_hopf). Not more hopfion source shopping; not claim O(0.4) mass without continuum assumption.  
 **Red:** bank Thread B as closed cell / L-pin from probe; undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---
