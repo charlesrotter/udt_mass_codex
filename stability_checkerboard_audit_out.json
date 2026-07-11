@@ -1,0 +1,29 @@
+{
+ "calibration": {
+  "smooth_R_cb": 0.9972279721464865,
+  "cb_R_cb": 0.00012202555075135783,
+  "smooth_nyq": 3.076537360536185e-12,
+  "cb_nyq": 1.0000000000000002
+ },
+ "carrier_theta_max": 0.17269102491639138,
+ "modes": {
+  "v(lam=-290.7)": {
+   "R_cb": 0.008351863796574217,
+   "nyq_frac": 0.9995103595955913,
+   "stag": 0.03953720282052028,
+   "verdict": "CHECKERBOARD-DOMINATED"
+  },
+  "v1(lam=-269.9)": {
+   "R_cb": 0.016887001705249167,
+   "nyq_frac": 0.9630383283686016,
+   "stag": 0.008833707093775102,
+   "verdict": "CHECKERBOARD-DOMINATED"
+  },
+  "v2(lam=-236.1)": {
+   "R_cb": 0.013516526942003391,
+   "nyq_frac": 0.9974555352856359,
+   "stag": 0.04830606579225242,
+   "verdict": "CHECKERBOARD-DOMINATED"
+  }
+ }
+}

@@ -108,6 +108,32 @@ the 7-point Laplacian (not centered): verified `face_flux == Σ_box lap_FD(u)·h
 - Given the negative direction is *already* strongly tied to lattice resolution (control unwinds), does
   the higher-order-derivative test at 256³ add information before 384³, or should we go straight to 384³?
 
+## 8. RESOLUTION — decision taken + STEP 1 result (2026-07-11, Charles + collaborating AI)
+
+**Decision: modified Option 3.** Do NOT spend 3 h on the present operator; do NOT jump to 384³. The
+present discrete energy AND hopf_charge use the centered first difference `D^c f=(f_{i+1}-f_{i-1})/2h`
+(`fs_hopfion.py:48`), which annihilates the checkerboard mode `(-1)^i` exactly — an operator Nyquist
+null that 384³ cannot remove. Ordered plan: (1) audit the negative modes for checkerboard content;
+(2) replace the centered energy with a no-Nyquist-null discretization (link/forward-backward or
+finite-volume), convergence-tested on smooth manufactured fields; (3) re-solve the carrier;
+(4) geodesic-S² perturbations (max-rotation amplitude, Q preserved) + quadratic-regime check of
+⟨v,Hv⟩; (5) full trajectories incl. θ_max; (6) trust-region branch test, THEN 256³ vs 384³.
+
+**STEP 1 DONE — `stability_checkerboard_audit.py` / `..._out.json`.** Calibrated (smooth ref R_cb=0.997,
+nyq=0.000; pure-checkerboard ref R_cb=0.0001, nyq=1.000). The three converged negative modes:
+
+| mode | λ_phys | R_cb = ‖D^c v‖²/‖D^+ v‖² | Nyquist power frac | verdict |
+|---|---|---|---|---|
+| v  | −290.7 | **0.0084** | 0.9995 | checkerboard-dominated |
+| v1 | −269.9 | 0.0169 | 0.963 | checkerboard-dominated |
+| v2 | −236.1 | 0.0135 | 0.998 | checkerboard-dominated |
+
+**The entire negative cluster lives in the centered operator's Nyquist null** (R_cb ≈ 0.01 vs smooth
+0.997; >96% spectral power on the Nyquist faces). ⇒ **The "unwinding negative mode" is an OPERATOR
+ARTIFACT, not a physical or continuum instability** — and NOT a mere resolution deficit (the null is
+exact at any N). The Phase-B "localized negative persists" concern is thereby explained and defused.
+Carrier n0 max nearest-neighbor angle = 0.173 rad (smooth). Next: STEP 2 (corrected operator).
+
 ## 7. Reproduce
 
 - Eigenmode: `RESUME_EIG=1 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True timeout 2400 python3 stability_eigenmode_256.py`
