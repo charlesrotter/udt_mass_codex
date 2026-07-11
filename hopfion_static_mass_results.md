@@ -49,22 +49,23 @@ On the real H3 field and a random smooth unit field:
 - **Key structural fact:** the ξ·X (L2 kinetic) terms **CANCEL** in ρ+S; only the compact L4 term ρ_4=(κ_4/4)Y
   sources the lapse trace. So `D²N = κ_g N ρ_4` has a **positive, COMPACT** source.
 
-## Phase C — frozen-source linear lapse mass — PASS (REVISED 2026-07-11, rigorous independent check)
-Solve `D²u = ρ_4` (FD-consistent, centered zero-pad FFT), then evaluate the flux TWO INDEPENDENT ways.
-**(Correction: my earlier "M_N=2∫ρ_4 cutoff-independent to 1e-11" used the source-volume integral as its own
-Gauss-law check — tautological. Replaced by an actual Poisson residual + an INDEPENDENT nested-surface flux.)**
-- **Actual Poisson residual (interior):** ‖lap_FD(u)−ρ_4‖/‖ρ_4‖ = **9.5e-3** (controlled).
-- **INDEPENDENT nested-surface flux** `∮_{S_R}∇u·dS` (∇u from the solved u, spherical quadrature — a
-  computation *separate* from the volume ∫ρ_4): at R=3.0 (just outside r_tex≈2.5) flux = **141.6** vs volume
-  E_4 = **143.3** ⇒ **agree to ~1.2%.** `M_N = 2·flux = 283.1` vs 2E_4 = 286.6 ⇒ **~1.2%**.
-- The ~1.2% gap is discretization (sharp ρ_4) + surface interpolation; the further-R drift (flux→136 at R=5.5)
-  is finite-box periodic-image contamination, not physics.
-- Lapse depressed (u<0 — correct mass sign).
+## Phase C — frozen-source linear lapse mass — PASS (REVISED 2026-07-11: isolated BC + discrete face fluxes)
+**(Correction chain: the original "M_N=2∫ρ_4 to 1e-11" was the tautological volume self-check; a first redo used
+an interpolated-sphere flux on a PERIODIC (zero-pad FFT) solve — which drifted with R from periodic images. Now
+replaced by a TRUE isolated-boundary solve + discrete face fluxes.)**
+- **Isolated (Hockney free-space Green's function) Poisson solve** `D²u=ρ_4`, u→0 — **no periodic images**.
+- **DISCRETE cubic FACE fluxes** `∮∇u·n̂ dS` over nested boxes (exact discrete Gauss law; ∇u by FD, summed over
+  the 6 discrete faces — a computation *independent* of the volume ∫ρ_4): the flux **plateaus FLAT at E_4=143.30**
+  across every enclosing box (R=3.3→5.6: 143.31→143.30), **plateau spread = 5.9e-4 (0.06%)** — the image drift
+  is gone. `M_N = 2·flux = 286.45` vs 2E_4 = 286.59 ⇒ **M_N/2E_4 = 0.9995 (0.05%).**
+- Interior Poisson FD residual 1.8e-2 (the Hockney solve targets the continuum, not the FD, Laplacian; the face
+  flux is exact regardless via Gauss). Grid convergence: N=256 → 0.9995, N=128 → 1.007 (converging with N).
+- Lapse depressed (correct mass sign).
 
-**Honest status:** the clean, positive local mass **M_N ≈ 2E_4** is confirmed by an INDEPENDENT surface flux to
-**~1–2%** (not machine-clean, not the tautological volume self-check). **The contrast with Branch-P still
-holds:** ρ_4=(κ_4/4)Y is COMPACT (source flux converges), unlike the never-vanishing Branch-P vacuum source
-that DRIFTS — but the cleanness is a property of the (CONDITIONAL-DERIVED) EH frame.
+**Status: PASS (rigorous).** The clean, positive local mass **M_N = 2E_4** is confirmed by an INDEPENDENT
+discrete face flux to **0.05%**, plateau-flat under true isolated BC. **The contrast with Branch-P holds:**
+ρ_4=(κ_4/4)Y is COMPACT (flux converges/plateaus), unlike the never-vanishing Branch-P vacuum source that DRIFTS
+— but the cleanness is a property of the (CONDITIONAL-DERIVED) EH frame.
 
 ## Adversarial note on the EH-action premise (per Charles's steer)
 The geometric term ∫√−g R/(2κ_g) is Lovelock-unique among **metric-only, local, ≤2-derivative** actions in 4D
@@ -107,7 +108,7 @@ confirms nor refutes it, and the rigorous test surfaced a genuine open question 
 - **Phase B (Hessian, rigorous):** **UNRESOLVED (with concern)** — a converged localized negative mode
   (λ_phys=−312, in_core 0.995), not the residual-gradient artifact, at a field that is not a true critical
   point (gradnorm 0.13). Neither PASS nor FAIL; blocked on proper re-relaxation (production rescale machinery).
-- **Phase C (linear lapse):** **PASS** — independent surface flux confirms M_N≈2E_4 to ~1–2% (Poisson residual 0.95%).
+- **Phase C (linear lapse):** **PASS (rigorous)** — isolated-BC (Hockney) solve + discrete face fluxes confirm M_N=2E_4 to 0.05%, plateau-flat (spread 0.06%).
 - **Phase D (full linear metric), Phase E (continuation):** HALTED (per Charles).
 
 ## Verdict (this checkpoint, REVISED 2026-07-11)

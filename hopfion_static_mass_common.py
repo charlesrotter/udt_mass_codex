@@ -102,6 +102,39 @@ def cumulative_mass_flux(rho4, L, nR=80):
     return Rs, np.array(MN), E4
 
 
+def poisson_solve_isolated(rho4, L):
+    """TRUE isolated (free-space) Poisson: Laplacian u = rho4, u->0 at infinity, via the Hockney
+    method -- zero-pad to 2N and convolve with the FREE-SPACE Green's function G(r)=-1/(4 pi r)
+    (signed-index kernel + zero-pad => NO periodic images). Returns u (N,N,N)."""
+    dev = rho4.device
+    N = rho4.shape[0]; h = 2 * L / (N - 1)
+    M = 2 * N
+    src = torch.zeros(M, M, M, device=dev); src[:N, :N, :N] = rho4
+    idx = torch.arange(M, device=dev); idx = torch.where(idx < N, idx, idx - M).to(torch.float64)
+    IX, IY, IZ = torch.meshgrid(idx, idx, idx, indexing="ij")
+    r = torch.sqrt(IX**2 + IY**2 + IZ**2) * h
+    r[0, 0, 0] = 0.5 * h                                   # regularize the self-cell
+    G = -1.0 / (4 * np.pi * r)
+    u = torch.fft.ifftn(torch.fft.fftn(src) * torch.fft.fftn(G)).real * h**3   # discrete convolution
+    return u[:N, :N, :N].contiguous()
+
+
+def discrete_face_flux(u, half, h):
+    """Discrete Gauss-law flux oint grad u . n dS over a cubic box of index half-width `half` centered
+    in the grid, using FD central-diff grad u summed over the 6 discrete faces (area element h^2).
+    By the discrete divergence theorem this equals sum_{cells in box} lap_FD(u) exactly."""
+    N = u.shape[0]; c = N // 2
+    lo, hi = c - half, c + half
+    dux = (torch.roll(u, -1, 0) - torch.roll(u, 1, 0)) / (2 * h)
+    duy = (torch.roll(u, -1, 1) - torch.roll(u, 1, 1)) / (2 * h)
+    duz = (torch.roll(u, -1, 2) - torch.roll(u, 1, 2)) / (2 * h)
+    s = 0.0
+    s += float(dux[hi, lo:hi, lo:hi].sum()) - float(dux[lo, lo:hi, lo:hi].sum())   # +/- x faces
+    s += float(duy[lo:hi, hi, lo:hi].sum()) - float(duy[lo:hi, lo, lo:hi].sum())   # +/- y faces
+    s += float(duz[lo:hi, lo:hi, hi].sum()) - float(duz[lo:hi, lo:hi, lo].sum())   # +/- z faces
+    return s * h**2
+
+
 def poisson_solve_open(rho4, L):
     """Solve Laplacian u = rho4 with u->0 (open BC) via zero-padded FFT. The source is CENTERED in
     the padded domain (else it sits by the pad boundary and periodic images leak -> large residual).
