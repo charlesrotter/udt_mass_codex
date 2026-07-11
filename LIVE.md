@@ -332,7 +332,7 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - Grade **LEAD/CONDITIONAL** (partial blind; driver JSON doublecheck agrees).  
 - **Routing:** stop core source-engineering; mass de-box ⇒ **G/P switch** on hopfion exterior.  
 
-**➤➤ NEXT:** G/P switch lane — MAP then apply `gp_switch_criterion` to hopfion exterior (Z_φ consilience + seal-matching gates). Not more Phase-2 source shopping; not claim mass.  
+**➤➤ NEXT:** workstation — **`hopfion_WORKSTATION_DISPATCH_GP_switch.md`** (Stage A MAP first, then optional Stage B apply). Not Phase-2 source shopping; not claim mass.  
 **Red:** bank Thread B as closed cell / L-pin from probe; undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---

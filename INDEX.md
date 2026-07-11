@@ -48,6 +48,7 @@
 | Fixed-Q isorotation MAP / Phase 0–1b | `hopfion_fixedQ_isorotation_MAP.md`, phase0/1/1b results |
 | Phase 2 metric backreaction dispatch | `hopfion_WORKSTATION_DISPATCH_phase2_metric.md` |
 | Phase 2 metric backreaction results | `hopfion_phase2_metric_backreaction_results.md` |
+| G/P switch hopfion dispatch | `hopfion_WORKSTATION_DISPATCH_GP_switch.md` |
 | H4·N4rev CF2 box-control | `H4_N4rev_sign_certification_results.md` |
 | H/L / optics | `simple_metric_HL_unification_results.md`, `simple_metric_L_native_optical_derive_results.md` |
 | Kaleidoscope | `simple_metric_kaleidoscope_MAP.md`, `simple_metric_kaleidoscope_MINE_results.md` |
