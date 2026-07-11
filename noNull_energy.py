@@ -15,34 +15,50 @@ Matches fs_hopfion.energy's normalization exactly per orientation; returns (E, E
 import torch
 
 
-def energy_noNull(n_raw, h, xi, kappa):
-    n = n_raw / n_raw.norm(dim=0, keepdim=True)
+_ORIENTS = [(s0, s1, s2) for s0 in (1, -1) for s1 in (1, -1) for s2 in (1, -1)]
 
-    def dop(f, ax, s):                              # one-sided first difference, no Nyquist null
-        return (torch.roll(f, -1, ax) - f) / h if s > 0 else (f - torch.roll(f, 1, ax)) / h
 
-    def cross(a, b):
-        return torch.stack([a[1] * b[2] - a[2] * b[1],
-                            a[2] * b[0] - a[0] * b[2],
-                            a[0] * b[1] - a[1] * b[0]], 0)
+def _dop(f, ax, s, h):                              # one-sided first difference, no Nyquist null
+    return (torch.roll(f, -1, ax) - f) / h if s > 0 else (f - torch.roll(f, 1, ax)) / h
+
+
+def _cross(a, b):
+    return torch.stack([a[1] * b[2] - a[2] * b[1], a[2] * b[0] - a[0] * b[2], a[0] * b[1] - a[1] * b[0]], 0)
+
+
+def _orient_E2E4(n, h, xi, kappa, s):               # single-orientation (E2, E4), n already unit
+    dn = [_dop(n, 1, s[0], h), _dop(n, 2, s[1], h), _dop(n, 3, s[2], h)]
+    e2 = 0.5 * xi * sum((dn[i] * dn[i]).sum(0) for i in range(3))
+    e4 = torch.zeros_like(e2)
+    for i in range(3):
+        for j in range(3):
+            if i == j:
+                continue
+            Fij = (n * _cross(dn[i], dn[j])).sum(0)
+            e4 = e4 + 0.25 * kappa * Fij * Fij
     dV = h**3
-    E2 = n.new_zeros(())
-    E4 = n.new_zeros(())
-    for s0 in (1, -1):
-        for s1 in (1, -1):
-            for s2 in (1, -1):
-                dn = [dop(n, 1, s0), dop(n, 2, s1), dop(n, 3, s2)]
-                e2 = 0.5 * xi * sum((dn[i] * dn[i]).sum(0) for i in range(3))
-                e4 = torch.zeros_like(e2)
-                for i in range(3):
-                    for j in range(3):
-                        if i == j:
-                            continue
-                        Fij = (n * cross(dn[i], dn[j])).sum(0)
-                        e4 = e4 + 0.25 * kappa * Fij * Fij
-                E2 = E2 + e2.sum() * dV
-                E4 = E4 + e4.sum() * dV
+    return e2.sum() * dV, e4.sum() * dV
+
+
+def energy_noNull(n_raw, h, xi, kappa):             # VALUE = 8-orientation average (fine w/o grad)
+    n = n_raw / n_raw.norm(dim=0, keepdim=True)
+    E2 = n.new_zeros(()); E4 = n.new_zeros(())
+    for s in _ORIENTS:
+        e2, e4 = _orient_E2E4(n, h, xi, kappa, s); E2 = E2 + e2; E4 = E4 + e4
     return (E2 + E4) / 8, E2 / 8, E4 / 8
+
+
+def grad_noNull(n_raw, h, xi, kappa):               # MEMORY-SAFE gradient: sum per-orientation grads
+    """grad of (1/8) sum_s E_s w.r.t. n_raw, accumulated one orientation at a time so the autograd graph
+    of only ONE orientation is ever live (the full 8-orientation graph OOMs at 256^3)."""
+    g = torch.zeros_like(n_raw)
+    for s in _ORIENTS:
+        n2 = n_raw.detach().clone().requires_grad_(True)
+        nn = n2 / n2.norm(dim=0, keepdim=True)
+        e2, e4 = _orient_E2E4(nn, h, xi, kappa, s)
+        gg, = torch.autograd.grad((e2 + e4) / 8, n2)
+        g = g + gg.detach(); del n2, nn, gg
+    return g
 
 
 def energy_centered(n_raw, h, xi, kappa):           # reference: the OLD centered-difference energy
