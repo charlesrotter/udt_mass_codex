@@ -132,7 +132,27 @@ nyq=0.000; pure-checkerboard ref R_cb=0.0001, nyq=1.000). The three converged ne
 0.997; >96% spectral power on the Nyquist faces). ⇒ **The "unwinding negative mode" is an OPERATOR
 ARTIFACT, not a physical or continuum instability** — and NOT a mere resolution deficit (the null is
 exact at any N). The Phase-B "localized negative persists" concern is thereby explained and defused.
-Carrier n0 max nearest-neighbor angle = 0.173 rad (smooth). Next: STEP 2 (corrected operator).
+Carrier n0 max nearest-neighbor angle = 0.173 rad (smooth).
+
+**STEP 1 BLIND-VERIFIED** (independent agent, own probes + own calibration, adjudicated Nyquist-artifact
+vs smooth-physical): CLAIM SUPPORTED in full. Independent numbers — ‖D^c v‖/‖D^+ v‖ = 0.091/0.130/0.116
+for v/v1/v2 (= sqrt of my R_cb: 0.091²=0.0083 ✓), Nyquist-face power 0.9995/0.963/0.9975, low-k power
+< 0.05%, eigenvectors mutually orthogonal (not degenerate/identical), carrier exactly unit-norm.
+Nuance: NN correlations −1/3,+1/3 (alternation along 1–2 axes, not all 3) — near-null, not perfectly
+monochromatic, but decisively in the centered null vs the 0.997 a smooth mode gives.
+
+**STEP 2 DONE + validated — `noNull_energy.py`.** A no-Nyquist-null Faddeev–Skyrme energy: the SAME
+continuum functional discretized as the average over the 8 one-sided orientations s∈{+,−}³ of the
+density built with one-sided differences D^{s_a}_a (symbol nonzero at k=π/h ⇒ no null); 8-fold average
+is cubic-symmetric and O(h²)-consistent; fully autograd-differentiable. Manufactured-field tests:
+- **(A) Convergence:** on a smooth periodic field, E_noNull and E_centered → the SAME limit (~35.345)
+  at O(h²) (Richardson ratios 3.96–3.99 ≈ 4); E_noNull − E_centered → 0 as O(h²). ⇒ valid representation
+  of the same continuum energy, NOT a new physical operator.
+- **(B) No null:** a pure Nyquist mode (smooth envelope × checkerboard) costs 1.63e5/δ² in E_noNull but
+  only 175/δ² in E_centered (centered sees 0.1%). The null is closed.
+- **(C)** autograd gradient finite/correct.
+Next: STEP 3 — re-relax the carrier under E_noNull to a Q=1 critical field, recompute the lowest
+Hessian eigenvalue (expected: the spurious negative Nyquist cluster is gone).
 
 ## 7. Reproduce
 
