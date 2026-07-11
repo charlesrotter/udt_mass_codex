@@ -1,0 +1,119 @@
+# H3 static-mass — 256³ branch-following stability test: DECISION POINT
+
+**Date:** 2026-07-11 · **Branch:** grok · **Status:** PROVISIONAL / decision pending (Charles + collaborating AI)
+**DATA-BLIND.** No lepton/hadron/wall/SNe/BAO/CMB/SM targets loaded. EH/metric-only action stays
+tagged CONDITIONAL-DERIVED (Lovelock-conditional, not native-dilation-derived — CLAUDE.md trigger #6).
+
+This doc exists so a collaborating AI can weigh in on a genuine methodological fork before ~3 h of
+compute is spent. All numbers below are reproducible from the committed scripts + the local (gitignored)
+`.npz` fields.
+
+---
+
+## 1. Where we are in Charles's dispatch
+
+Charles (2026-07-11) redirected: **stay at 256³ and do a proper branch-following stability test before
+any 384³ escalation.** Verbatim intent:
+
+> Save and M-normalize the lowest negative vector v. Construct both branches n± = normalize(n0 ± εv)
+> for several controlled ε, with fixed boundary. Relax each branch for hours using a stronger
+> constraint-respecting optimizer — Riemannian L-BFGS, nonlinear CG, or Newton–Krylov — with line
+> search and no Derrick rescaling in the final criticality stage. Follow the complete trajectory …
+> Determine whether each branch: returns to the original carrier; reaches a lower-energy Q_H=1
+> stationary carrier; or undergoes an explicitly resolved lattice topology slip. Replace the short
+> Rayleigh iteration with a converged block LOBPCG/Lanczos (rel < 1e-2, pref 1e-3). Do not use the
+> known stability of external Faddeev–Skyrme solutions to grade the result. Only afterward test
+> higher-order derivatives at 256³ and then 384³ if the negative direction appears tied to lattice
+> resolution. [+ Phase C flux correction — see §5.]
+
+## 2. Prerequisite — the eigenmode (DONE, meets spec)
+
+`stability_eigenmode_256.py` — block LOBPCG (bs=4, manual Gram-Schmidt, streamed HVP, FD-of-gradient
+HVP verified against exact analytic HVP to 6.5e-10, manual-autograd gradient). At the best-relaxed
+carrier (`controlled_best_field.npz`, gradnorm 0.085, Q 0.9918):
+
+- **Lowest mode: λ_phys = −290.70, rel_res = 9.48e-3 (< 1e-2 ✓), core-fraction = 1.0000, M-normalized (vᵀMv = 1).**
+- **The negative subspace is a CLUSTER of ≥3 localized modes: λ = −290.7, −269.9, −236.1** (all core-localized).
+  A single-vector iteration stalls at rel≈0.11 and *rises* — a block was required (as Charles anticipated)
+  because the lowest mode is near-degenerate with the next two.
+
+Saved: `stability_lowmode_256.npz` (v, v1, v2; gitignored, local). `stability_eigenmode_256_out.json`.
+
+## 3. The finding that triggers this decision (smoke test, 25 s/branch)
+
+`stability_branch_follow_256.py` — Riemannian L-BFGS (memory 6, transport-by-projection, backtracking
+Armijo line search, fixed asymptotic boundary, **no Derrick rescaling**), 7 branches:
+control (δ=0) + ±0.05, ±0.10, ±0.20 relative-L2 displacement along v. A 25 s/branch smoke test (to
+validate the harness before the full run) already gave a clear, assumption-breaking result:
+
+| branch | start Q | end Q | ΔE from carrier | class |
+|---|---|---|---|---|
+| **control (δ=0, UNPERTURBED)** | 0.992 | **0.078** | **−106** | topology_slip |
+| p05 / m05 (±0.05·v) | 0.581 | 0.18 / 0.14 | −85 / −89 | topology_slip |
+| p10 / m10 (±0.10·v) | 0.464 | 0.16 / 0.16 | −88 / −88 | topology_slip |
+| p20 / m20 (±0.20·v) | 0.369 | 0.15 / 0.16 | −87 / −84 | topology_slip |
+
+Carrier reference: E0 = 283.37 (E2 = 140.78, E4 = 142.59), Q0 = 0.9918, gradnorm0 = 0.085.
+
+**Two load-bearing observations:**
+
+1. **The unperturbed control unwinds on its own** (Q 0.99 → 0.08, E −106) under unconstrained strong
+   descent. So the topology slip is **NOT caused by v** — it is generic to strong descent on this
+   discrete carrier. The control *is* the calibration, and it says the instability is not v-specific.
+2. **v is exactly the unwinding direction.** A 5% L2 nudge along v drops Q from 0.99 to 0.58 *before*
+   any relaxation; the three negative modes (−291, −270, −236) are the lattice-unraveling directions.
+
+## 4. Interpretation + the methodological catch
+
+Coherent physical picture: **at 256³ the Q=1 carrier is not a stable minimum.** The topology-safe
+(arrested-Newton, small-step) descent *stalled* at gradnorm 0.085 precisely because it could not
+descend further without unwinding — i.e., the carrier is a constrained shoulder whose one extra descent
+direction leads to vacuum. That direction is the negative-mode cluster. Because the real Faddeev–Skyrme
+hopfion is known-stable (used here as **contrast only**, per Charles — not as a grade), a genuine
+unwinding mode at 256³ is the fingerprint of **256³ under-resolution** (the grid-artifact hypothesis),
+now with direct evidence: the control unravels.
+
+**Catch:** a full-step L-BFGS *bolts* to vacuum from any start — the gradient GREW 16× (0.085 → 1.4)
+while energy fell. That is falling off a cliff, not settling at a critical point. As literally
+configured the test can only ever return "slip"; it never gives the other two dispatch outcomes
+("returns to carrier" / "lower-energy Q=1 carrier") a fair chance, because the optimizer never lingers
+near the carrier to find them. A **step-size cap / trust region** (still no Derrick rescaling) would let
+each branch explore its neighborhood instead of sprinting to vacuum.
+
+## 5. Also done (Charles's Phase C flux correction, point 9)
+
+`discrete_face_flux` in `hopfion_static_mass_common.py` is the **exact one-sided telescoping flux** of
+the 7-point Laplacian (not centered): verified `face_flux == Σ_box lap_FD(u)·h³` to |diff| ≤ 2.8e-14
+(machine precision) at R = half·h for half ∈ {30,60,90}. Charles's note reflected the pre-correction code.
+
+## 6. THE FORK (for Charles + collaborating AI)
+
+- **Option 1 (Claude's lean): refine, then run the full ~3 h test.** Add a trust-region step cap so
+  branches genuinely follow their neighborhood; keep control as calibration; run all branches to full
+  budget; record complete trajectories. Faithful to the dispatch AND preserves the "does a nearby
+  stable Q=1 carrier exist?" question that Option 2 discards.
+- **Option 2: run the full 3 h test exactly as-is.** High confidence it just re-confirms "everything
+  slips, control included" at greater length — literal dispatch, lower marginal value.
+- **Option 3: pivot now to the resolution test.** The control already answers the discrimination
+  (slip is a generic lattice-unwinding artifact, not v-induced) — the trigger Charles named for
+  escalation ("384³ if the negative direction appears tied to lattice resolution"). Go to higher-order
+  derivatives at 256³, then 384³.
+
+**Open questions for the collaborating AI:**
+- Is the "control unwinds too" calibration sufficient to call the negative modes a lattice artifact, or
+  is a trust-region branch-follow needed to rule out a nearby lower-energy Q=1 carrier first?
+- Does a trust-region cap violate the spirit of "no Derrick rescaling / constraint-respecting," or is it
+  a legitimate criticality-search tool (it caps step length, not field scale, and adds no topology
+  constraint)?
+- Given the negative direction is *already* strongly tied to lattice resolution (control unwinds), does
+  the higher-order-derivative test at 256³ add information before 384³, or should we go straight to 384³?
+
+## 7. Reproduce
+
+- Eigenmode: `RESUME_EIG=1 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True timeout 2400 python3 stability_eigenmode_256.py`
+  (warm-starts from the saved v; converges rel<1e-2 in ~30 block iters). Launch via a live `timeout … python3`
+  command — NOT `nohup … &` (the latter's process group gets cleaned up early in this harness).
+- Branch-follow smoke: `BRANCH_BUDGET_S=25 python3 stability_branch_follow_256.py`. Full run: set
+  `BRANCH_BUDGET_S=1500` (25 min/branch). HVP/gradient use manual autograd (functorch leaked at 256³).
+- V100-32GB, float64. Memory is stable ~22–25 GB (verified flat by `scratchpad/memdiag*.py`); the
+  earlier "OOM deaths" were a cuSOLVER tall-QR spike (fixed by manual Gram-Schmidt) + the nohup issue.

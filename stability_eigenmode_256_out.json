@@ -1,0 +1,11 @@
+{
+ "lam_phys": -290.69728182835513,
+ "rel_res": 0.009475044770005813,
+ "core_frac": 0.9999984944149654,
+ "field": "controlled_best_field.npz",
+ "field_gradnorm": 0.08499665742203863,
+ "field_Q": 0.9918044920378897,
+ "converged_1e-3": false,
+ "converged_1e-2": true,
+ "method": "block LOBPCG bs=3, manual-GS, streamed, FD-HVP"
+}
