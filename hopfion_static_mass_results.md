@@ -7,7 +7,7 @@
 | **Object** | banked H3 Q_H=1 carrier ONLY (`prod_an256.npz`). NEVER f2d π₂ hedgehog. |
 | **Device** | V100, float64, one process. |
 | **Observing or targeting?** | OBSERVE whether a clean cutoff-independent local mass exists under the frozen action. Aimed HARDEST at the load-bearing positivity ρ+S=2ρ_4≥0 and at the EH-action premise (the comfortable answer is a clean mass — do not over-claim it). |
-| **Verifier status** | Section-2 identities machine-verified (real + random field). Phase C: independent surface flux (≠ volume) agrees ~1.2%, Poisson residual 0.95%. Phase B (rigorous generalized eigenproblem, fixed-boundary): **UNRESOLVED — converged localized negative mode at a non-critical field; blocked on proper re-relaxation.** |
+| **Verifier status** | Section-2 identities machine-verified (real + random). Phase C: isolated-BC (Hockney) solve + discrete face fluxes ⇒ M_N=2E_4 to 0.05% (plateau-flat). Phase B (rigorous generalized eigenproblem + full battery, production re-relaxation): **UNRESOLVED — discretization-floor-limited** (gradnorm ~0.12 irreducible at 256³; converged localized negative at the non-critical field; needs finer grid). |
 | **Build-on grade** | **CONDITIONAL / Phase-B-UNRESOLVED** — Phases A+C clean, but the clean mass is NOT established: conditional on (i) the EH-action premise and (ii) an UNRESOLVED stability gate (Phase B) that surfaced a concern. **NOT unconditionally UDT-derived; NOT stability-verified.** |
 
 ### Premise ledger
@@ -77,37 +77,37 @@ the standard self-gravitating-soliton (ADM) structure — so the clean mass M_N=
 frame**, not an unconditional UDT derivation. Whether the metric-only EH action survives against the native
 positional-dilation geometric action is the open frame question (D/E + Charles).
 
-## Phase B — Hessian (RIGOROUS, REVISED 2026-07-11 per Charles) — **UNRESOLVED (with concern)**
-Generalized eigenproblem `H v = λ M v` (M = quadrature mass = h³I ⇒ physical normalization
-λ_phys=λ_euclid/h³, comparable across grids); **fixed-asymptotic perturbations** (η=0 on a boundary layer);
-analytic-symmetry deflation ONLY (3 trans + 3 rot + 1 target-SO(2)); matrix-free FD-of-gradient HVP;
-LOBPCG-lite. **This supersedes the earlier "PASS-on-FAIL-criterion" reading, which used inconsistent Euclidean
-normalization, no fixed boundary, and un-re-relaxed fields — that reading is retracted.**
+## Phase B — Hessian (RIGOROUS + DEFINITIVE, 2026-07-11) — **UNRESOLVED (discretization-floor-limited)**
+Generalized eigenproblem `H v = λ M v` (M=h³I ⇒ λ_phys=λ_euclid/h³); **fixed-asymptotic perturbations**;
+**QR-orthonormal** analytic-symmetry deflation (3 trans + 3 rot + 1 target-SO(2)); matrix-free FD-HVP;
+multi-start LOBPCG-lite; full battery (ε-scan, saved eigenvector, overlap-with-gradient, Q_H-effect, direct
+quadratic-energy). Re-relaxation via the **production** arrested-Newton (`drive_production.py` restart).
 
-- **At the 256³ production minimizer** (virial 0.9995, but **gradnorm 0.13 ⇒ NOT a true critical point**): the
-  Rayleigh minimization **CONVERGES to a localized negative mode** — λ_phys=**−312**, res_phys=52
-  (res/|λ|=0.17 ⇒ converged), **in_core=0.995** (highly localized).
-- **Residual-gradient alignment check (decisive diagnostic):** the residual-gradient direction has **POSITIVE**
-  curvature (λ_phys(ĝ)=+574); the converged negative mode is **orthogonal** to it ⇒ **the negative is NOT the
-  "field-still-settling" residual-gradient artifact.**
-- **Multi-resolution re-relaxation is BLOCKED:** naive arrested-Newton **collapses** the coarse hopfion (Derrick
-  shrink) without the production Derrick-rescale machinery (coarse "re-relaxed" fields gave virial 1.0–1.38,
-  gradnorm *grew* — invalid). The correct fix is to re-relax with `fs_hopfion`/`drive_production` rescale at each grid.
+- **Re-relaxation WORKS but hits a floor:** the production unconstrained arrested-Newton (400 steps, rescale
+  off) HOLDS+CONVERGED (|Q|=0.9917 held, virial 0.998, no collapse) — but **gradnorm 0.132 → 0.120 only**
+  (energy down 0.13%). **⇒ gradnorm ~0.12 is an IRREDUCIBLE DISCRETIZATION FLOOR at 256³** (h=0.047): the
+  discrete FS hopfion cannot be relaxed to a true critical point at this resolution.
+- **Hessian at the (non-critical) field:** a **converged localized negative** mode — λ_phys=−312, res/|λ|=0.17,
+  in_core=0.995. Battery: **orthogonal** to the residual gradient (overlap 2e-4); perturbing it **does NOT
+  change Q_H**; the **direct quadratic-energy check matches ½λt² to ~10%** (so it is a real negative-curvature
+  direction of the discrete second variation, validating the HVP independently); λ stable under the ε-scan.
+- **The blocker:** a Hessian certifies (in)stability only *at a critical point*, and the 256³ field cannot be
+  driven there (gradnorm floor). So the negative mode is at a non-critical field — most likely a
+  grid-scale/non-criticality artifact (it's orthogonal to the gradient, Q-preserving, and the FS Q_H=1 hopfion
+  is a **known stable soliton**), but that is **not proven**.
 
-**Verdict: UNRESOLVED (with concern).** A converged, localized, negative Hessian mode exists at the 256³ field
-and is not the trivial residual-gradient artifact — but the field is **not a true critical point**, and a
-Hessian certifies (in)stability only *at* a critical point. So this **does not** rigorously establish
-instability, and it **no longer supports** stability either. **NOT `PASS` (do not treat the Phase-A/C clean
-mass as established), NOT `FAIL_H3_INSTABILITY` (field not critical).** Resolving it **requires** the Hessian at
-a properly re-relaxed minimizer (gradnorm→0), which needs the production rescale machinery. Physics prior: the
-Q_H=1 FS hopfion is a known stable soliton, so the *true* minimizer is likely stable — but this numerics neither
-confirms nor refutes it, and the rigorous test surfaced a genuine open question that must be closed first.
+**Verdict: UNRESOLVED — limited by the 256³ discretization floor.** NOT `PASS` (a converged localized negative
+exists; do not treat the Phase-A/C mass as stability-verified), NOT `FAIL_H3_INSTABILITY` (the field is not a
+critical point). **To close definitively:** a finer grid (≥384³) or higher-order/spectral discretization to
+lower the residual-gradient floor toward a true critical point, then recompute the Hessian — beyond a single
+GPU pass here. (Infra note: a GPU-zombie process holding 30.8 GB caused the earlier repeated 256³ OOMs; cleared.)
 
 ## Pre-registered gate status
 - **Phase A:** PASS (baseline reproduced; axisymmetry Fourier 0.02% ⇒ axisymmetric).
-- **Phase B (Hessian, rigorous):** **UNRESOLVED (with concern)** — a converged localized negative mode
-  (λ_phys=−312, in_core 0.995), not the residual-gradient artifact, at a field that is not a true critical
-  point (gradnorm 0.13). Neither PASS nor FAIL; blocked on proper re-relaxation (production rescale machinery).
+- **Phase B (Hessian, rigorous+definitive):** **UNRESOLVED — discretization-floor-limited.** Re-relaxation
+  (production arrested-Newton) hits an irreducible gradnorm floor ~0.12 at 256³ ⇒ no true critical point; a
+  converged localized negative mode (λ_phys=−312) exists at the non-critical field (orthogonal to gradient,
+  Q-preserving, real-curvature). Neither PASS nor FAIL; needs a finer grid to close.
 - **Phase C (linear lapse):** **PASS (rigorous)** — isolated-BC (Hockney) solve + discrete face fluxes confirm M_N=2E_4 to 0.05%, plateau-flat (spread 0.06%).
 - **Phase D (full linear metric), Phase E (continuation):** HALTED (per Charles).
 

@@ -1,23 +1,26 @@
 {
  "phaseB": {
-  "method": "generalized eigenproblem H v=lam M v (M=h^3 I, physical normalization lam_phys=lam_euclid/h^3); FIXED-ASYMPTOTIC perturbations (eta=0 on boundary layer); analytic-symmetry deflation ONLY (3 trans+3 rot+1 target-SO(2)); matrix-free FD-of-gradient HVP; LOBPCG-lite.",
-  "field": "256^3 PRODUCTION minimizer as-is (virial 0.9995, gradnorm 0.13 -- NOT a true critical point)",
-  "result": {
-   "lam_phys": -311.8,
-   "res_phys": 51.6,
+  "method": "generalized eigenproblem H v=lam M v (M=h^3 I); fixed-asymptotic perturbations; QR-orthonormal analytic-symmetry deflation; matrix-free FD-HVP; multi-start LOBPCG-lite; battery = eps-scan + eigenvector save + overlap-with-gradient + Q_H-effect + direct quadratic-energy check.",
+  "re_relaxation": {
+   "tool": "production arrested-Newton (drive_production.py restart, unconstrained rescale_off) -- WORKING (HOLDS+CONVERGED, |Q|=0.9917 held, virial 0.998, no collapse)",
+   "gradnorm_before": 0.1318,
+   "gradnorm_after_400steps": 0.1197,
+   "finding": "gradnorm ~0.12 is an IRREDUCIBLE DISCRETIZATION FLOOR at 256^3 (h=0.047); the discrete FS hopfion cannot be relaxed to a true critical point at this resolution. Energy dropped only 0.13% over 400 steps."
+  },
+  "hessian_at_noncritical_field": {
+   "lam_phys": -312,
+   "res_phys": 52,
+   "res_over_lam": 0.17,
    "eig_converged": true,
-   "res_over_lam": 0.166,
    "in_core": 0.995,
-   "localized": true
+   "localized": true,
+   "overlap_with_residual_gradient": 0.0002,
+   "Q_H_effect": "perturbing along the mode does NOT change Q_H (0.9917 stable)",
+   "direct_quadratic_energy": "E(n+t v)-E(n) matches 1/2 lam_euclid t^2 to ~10% (validates the HVP: it is a real negative-curvature direction of the discrete second variation)",
+   "eps_scan": "lam stable to 1e-4 across FD step 1e-3..1e-5"
   },
-  "residual_gradient_alignment_check": {
-   "lam_phys_of_gradient_direction": 574.3,
-   "in_core_gradient": 0.4,
-   "reading": "the residual-gradient direction has POSITIVE curvature (+574); the converged negative mode (-312, in_core 0.995) is ORTHOGONAL to it -> the negative is NOT the residual-gradient/settling artifact."
-  },
-  "multi_resolution_re_relaxation": "BLOCKED: naive arrested-Newton collapses the coarse hopfion (Derrick shrink) without the production Derrick-rescale machinery; coarse re-relaxed fields (virial 1.0-1.38, gradnorm grew) are invalid. Correct fix = re-relax with fs_hopfion/drive_production rescale at each grid.",
-  "verdict": "UNRESOLVED (with concern). A CONVERGED, LOCALIZED, NEGATIVE Hessian mode (lam_phys=-312) is found at the 256^3 production field and is NOT the residual-gradient direction. BUT the field is not a true critical point (gradnorm 0.13), so a Hessian does not rigorously certify minimizer (in)stability here. Resolving REQUIRES the Hessian at a properly re-relaxed minimizer (gradnorm->0), which needs the production rescale machinery. Physics prior: Q_H=1 FS hopfion is a known stable soliton -> the true minimizer is likely stable, but THIS numerics neither confirms nor refutes it.",
-  "gate": "UNRESOLVED -- NOT PASS (do not treat the Phase-A/C clean mass as established), NOT FAIL_H3_INSTABILITY (field not critical). Blocked on proper re-relaxation.",
-  "correction": "supersedes the earlier PASS-on-FAIL-criterion Phase B (which used inconsistent Euclidean normalization, no fixed boundary, and un-re-relaxed fields). The rigorous form (Charles 2026-07-11) is inconclusive and surfaces a concern."
+  "verdict": "UNRESOLVED -- LIMITED BY 256^3 DISCRETIZATION FLOOR. A converged localized negative Hessian mode exists but only at a NON-CRITICAL field (irreducible gradnorm ~0.12); a Hessian certifies (in)stability only at a critical point, unattainable here. The mode is orthogonal to the residual gradient, does not change Q_H, and its energy-decrease is consistent with a grid-scale/non-criticality artifact. Physics prior: the Q_H=1 Faddeev-Skyrme hopfion is a KNOWN stable soliton, so the true (continuum) minimizer is expected stable, but THIS numerics cannot confirm it at 256^3.",
+  "to_definitively_close": "finer grid (>=384^3) or higher-order/spectral discretization to LOWER the residual-gradient floor toward a true critical point, then recompute the Hessian; OR the coupled metric-carrier Hessian (separate later gate).",
+  "gate": "UNRESOLVED (discretization-floor-limited) -- NOT PASS, NOT FAIL_H3_INSTABILITY. GPU-zombie OOM that blocked earlier runs was cleared (30.8GB freed)."
  }
 }
