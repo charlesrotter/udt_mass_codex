@@ -1,0 +1,51 @@
+# start gradnorm=1.1968e-01 Q=0.9917
+it=40 t=29s gradnorm=1.1788e-01 Q=0.9917 E=286.1331 dt=2.0e-02
+it=80 t=58s gradnorm=1.1327e-01 Q=0.9917 E=286.1199 dt=2.0e-02
+it=120 t=88s gradnorm=1.0779e-01 Q=0.9917 E=286.0994 dt=2.0e-02
+it=160 t=117s gradnorm=1.0391e-01 Q=0.9917 E=286.0733 dt=2.0e-02
+it=200 t=146s gradnorm=1.0338e-01 Q=0.9917 E=286.0424 dt=2.0e-02
+it=240 t=175s gradnorm=1.0609e-01 Q=0.9917 E=286.0069 dt=2.0e-02
+it=280 t=204s gradnorm=1.1022e-01 Q=0.9917 E=285.9661 dt=2.0e-02
+it=320 t=233s gradnorm=1.1353e-01 Q=0.9917 E=285.9189 dt=2.0e-02
+it=360 t=263s gradnorm=1.1443e-01 Q=0.9917 E=285.8645 dt=2.0e-02
+it=400 t=292s gradnorm=1.1248e-01 Q=0.9917 E=285.8026 dt=2.0e-02
+it=440 t=321s gradnorm=1.0834e-01 Q=0.9917 E=285.7337 dt=2.0e-02
+it=480 t=350s gradnorm=1.0355e-01 Q=0.9917 E=285.6589 dt=2.0e-02
+it=520 t=379s gradnorm=9.9906e-02 Q=0.9918 E=285.5795 dt=2.0e-02
+it=560 t=408s gradnorm=9.8632e-02 Q=0.9918 E=285.4965 dt=2.0e-02
+it=600 t=438s gradnorm=9.9622e-02 Q=0.9918 E=285.4101 dt=2.0e-02
+it=640 t=467s gradnorm=1.0161e-01 Q=0.9918 E=285.3202 dt=2.0e-02
+it=680 t=496s gradnorm=1.0302e-01 Q=0.9918 E=285.2262 dt=2.0e-02
+it=720 t=525s gradnorm=1.0287e-01 Q=0.9918 E=285.1278 dt=2.0e-02
+it=760 t=554s gradnorm=1.0101e-01 Q=0.9918 E=285.0250 dt=2.0e-02
+it=800 t=583s gradnorm=9.8034e-02 Q=0.9918 E=284.9184 dt=2.0e-02
+it=840 t=613s gradnorm=9.4906e-02 Q=0.9918 E=284.8086 dt=2.0e-02
+it=880 t=642s gradnorm=9.2524e-02 Q=0.9918 E=284.6964 dt=2.0e-02
+it=920 t=671s gradnorm=9.1339e-02 Q=0.9918 E=284.5823 dt=2.0e-02
+it=960 t=700s gradnorm=9.1197e-02 Q=0.9918 E=284.4667 dt=2.0e-02
+it=1000 t=729s gradnorm=9.1508e-02 Q=0.9918 E=284.3495 dt=2.0e-02
+it=1040 t=758s gradnorm=9.1609e-02 Q=0.9918 E=284.2308 dt=2.0e-02
+it=1080 t=788s gradnorm=9.1091e-02 Q=0.9918 E=284.1104 dt=2.0e-02
+it=1120 t=817s gradnorm=8.9918e-02 Q=0.9918 E=283.9886 dt=2.0e-02
+it=1160 t=846s gradnorm=8.8373e-02 Q=0.9918 E=283.8655 dt=2.0e-02
+it=1200 t=875s gradnorm=8.6870e-02 Q=0.9918 E=283.7415 dt=2.0e-02
+it=1240 t=904s gradnorm=8.5752e-02 Q=0.9918 E=283.6170 dt=2.0e-02
+it=1280 t=933s gradnorm=8.5152e-02 Q=0.9918 E=283.4921 dt=2.0e-02
+it=1320 t=963s gradnorm=8.4997e-02 Q=0.9918 E=283.3671 dt=2.0e-02
+it=1360 t=992s gradnorm=8.5101e-02 Q=0.9918 E=283.2419 dt=2.0e-02
+it=1400 t=1021s gradnorm=8.5301e-02 Q=0.9918 E=283.1165 dt=2.0e-02
+it=1440 t=1050s gradnorm=8.5540e-02 Q=0.9918 E=282.9909 dt=2.0e-02
+it=1480 t=1079s gradnorm=8.5894e-02 Q=0.9917 E=282.8651 dt=2.0e-02
+it=1520 t=1108s gradnorm=8.6524e-02 Q=0.9917 E=282.7389 dt=2.0e-02
+it=1560 t=1138s gradnorm=8.7607e-02 Q=0.9917 E=282.6122 dt=2.0e-02
+it=1600 t=1167s gradnorm=8.9288e-02 Q=0.9916 E=282.4847 dt=2.0e-02
+it=1640 t=1196s gradnorm=9.1669e-02 Q=0.9915 E=282.3562 dt=2.0e-02
+it=1680 t=1225s gradnorm=9.4845e-02 Q=0.9914 E=282.2261 dt=2.0e-02
+it=1720 t=1254s gradnorm=9.8931e-02 Q=0.9913 E=282.0936 dt=2.0e-02
+it=1760 t=1283s gradnorm=1.0407e-01 Q=0.9911 E=281.9577 dt=2.0e-02
+it=1800 t=1313s gradnorm=1.1045e-01 Q=0.9908 E=281.8171 dt=2.0e-02
+# BEST field: gradnorm=8.4997e-02 Q=0.9918
+  [eig seed=0] lam_phys=-2.812e+02 res_phys=4.840e+01 in_core=0.995 conv=False
+  [eig seed=1] lam_phys=-2.819e+02 res_phys=5.131e+01 in_core=0.994 conv=False
+  [eig seed=2] lam_phys=-2.889e+02 res_phys=3.186e+01 in_core=0.998 conv=False
+# HESSIAN@best gradnorm=8.4997e-02 Q=0.9918 lowest_lam_phys=-2.889e+02 res=3.186e+01 in_core=0.998 => localized-negative persists

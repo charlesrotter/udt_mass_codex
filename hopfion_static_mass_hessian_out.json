@@ -1,25 +1,45 @@
 {
  "phaseB": {
-  "method": "generalized eigenproblem H v=lam M v (M=h^3 I); fixed-asymptotic perturbations; QR-orthonormal analytic-symmetry deflation; matrix-free FD-HVP; multi-start LOBPCG-lite; battery = eps-scan + eigenvector save + overlap-with-gradient + Q_H-effect + direct quadratic-energy check.",
-  "re_relaxation": {
-   "tool": "production arrested-Newton (drive_production.py restart, unconstrained) -- HOLDS+CONVERGED (|Q|=0.9917 held, virial 0.998, no collapse)",
-   "gradnorm_before": 0.1318,
-   "gradnorm_after_400steps": 0.1197,
-   "status": "gradnorm reached ~0.12 after 400 unconstrained arrested-Newton steps -- NOT PROVEN IRREDUCIBLE. A multi-hour mode-following Riemannian-CG relaxation (fixed boundary, topology monitoring, final rescale-off) is IN PROGRESS to test whether it lowers further."
+  "method": "generalized eigenproblem H v=lam M v (M=h^3 I, lam_phys=lam_euclid/h^3); fixed-asymptotic perturbations; QR-orthonormal analytic-symmetry deflation; matrix-free FD-HVP; multi-start LOBPCG-lite tight eigensolve; battery = eps-scan/overlap/Q_H-effect/direct-energy.",
+  "mode_following_256_relaxation": {
+   "tool": "topology-safe production arrested-Newton, fixed boundary, Q-guard, mode-following, rescale-off",
+   "finding_gradnorm_not_a_floor": "gradnorm 0.12 -> 0.085 (topology-preserving, |Q|=0.9918 held) -- ~0.12 was NOT an irreducible floor. Beyond 0.085 the unconstrained flow DRIFTS toward unwinding (global downhill is vacuum), so a true critical point (gradnorm->0) is NOT reachable at 256^3."
   },
-  "hessian_at_noncritical_field": {
-   "lam_phys": -312,
-   "eig_residual_over_lam": 0.17,
-   "note": "res/|lam|=0.17 is NOT a tight convergence -- the eigenpair is APPROXIMATELY the lowest mode, not firmly converged; do not call it converged.",
-   "in_core": 0.995,
-   "localized": true,
-   "overlap_with_residual_gradient": 0.0002,
-   "Q_H_effect": "perturbing along the mode does NOT change Q_H (0.9917 stable)",
-   "direct_quadratic_energy": "E(n+t v)-E(n) tracks 1/2 lam_euclid t^2 to ~10% (a real negative-curvature direction of the discrete second variation)",
-   "eps_scan": "lam stable to ~1e-4 across FD step 1e-3..1e-5"
+  "localized_negative_persists": {
+   "lam_phys_vs_gradnorm": [
+    [
+     0.132,
+     -312
+    ],
+    [
+     0.111,
+     -318
+    ],
+    [
+     0.085,
+     -289
+    ]
+   ],
+   "tight_eigensolve_at_best": {
+    "gradnorm": 0.085,
+    "Q": 0.9918,
+    "lam_phys_3seeds": [
+     -281,
+     -282,
+     -289
+    ],
+    "in_core": 0.997,
+    "res_over_lam": 0.15
+   },
+   "reading": "the localized negative mode is ROBUST across gradnorm 0.085-0.13 and 3 seeds -- it does NOT lift with relaxation. The earlier +69 at gradnorm 0.086 was an UNCONVERGED 16-iter probe (RETRACTED); the stable-lean it suggested is withdrawn."
   },
-  "verdict": "UNRESOLVED. A localized negative Hessian direction exists at the field, but the field is NOT a true critical point (gradnorm ~0.12), the eigenpair is not tightly converged (res/|lam|~0.17), and the residual floor is NOT proven irreducible. A Hessian certifies (in)stability only at a critical point. The mode is orthogonal to the residual gradient, Q-preserving, and real-curvature -- most likely a grid-scale/non-criticality artifact (the Q_H=1 FS hopfion is a KNOWN stable soliton) but NOT proven either way.",
-  "in_progress": "multi-hour 256^3 mode-following relaxation (long_relax_256.py) to drive gradnorm toward a true critical point; escalate to 384^3 only after.",
-  "gate": "UNRESOLVED -- NOT PASS, NOT FAIL_H3_INSTABILITY. (Infra: a GPU-zombie holding 30.8GB caused earlier repeated 256^3 OOMs; cleared.)"
+  "why_still_unresolved_not_fail": [
+   "field is NOT a true critical point (gradnorm 0.085, cannot go lower without unwinding at 256^3)",
+   "eigenpair not tightly converged (res/|lam|~0.15)",
+   "contradicts the KNOWN stability of the Q_H=1 Faddeev-Skyrme hopfion (literature) -> most likely a 256^3 grid-scale/discretization artifact"
+  ],
+  "verdict": "UNRESOLVED (with genuine concern). A robust localized negative Hessian direction persists to the deepest achievable 256^3 relaxation (gradnorm 0.085), not lifting -- so it is NOT a simple non-criticality artifact of an under-relaxed field. But the field is not a true critical point and the mode contradicts the known FS-hopfion stability, so it is most likely a 256^3 discretization artifact. NOT PASS, NOT FAIL_H3_INSTABILITY.",
+  "decisive_next_test": "384^3 (or higher-order/spectral): re-solve the hopfion at finer resolution and recompute the Hessian at a properly-relaxed field -- if the localized negative VANISHES it was a 256^3 grid artifact (hopfion stable, matches prior); if it PERSISTS converged at a true critical point that is a real FAIL. Charles-sequenced: escalate to 384^3 now that the 256^3 mode-following test is done.",
+  "gate": "UNRESOLVED -- 256^3 mode-following test COMPLETE (negative persists); 384^3 is the decisive escalation."
  }
 }

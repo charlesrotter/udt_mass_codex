@@ -33,9 +33,10 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 `hopfion_static_mass_results.md`. **NEW FRAME for the particle sector:** EH geometric action `∫√−g R/(2κ_g)` (Lovelock-CONDITIONAL, not
 native-dilation-derived — trigger #6) + **physical-metric** carrier coupling; **demote** ḡ (P16-C), reciprocal-interior `B=1/A`, and
 G/P for the particle. Status (see the H3-static-mass entry lower in this block): **Phase A/C PASS (rigorous)** — clean local mass
-`M_N=2E_4` to 0.05% (isolated-BC + exact discrete face flux); **Phase B (stability) UNRESOLVED** (gradnorm ~0.12 stall at 256³, a
-localized negative direction at the non-critical field; multi-hour mode-following relaxation IN PROGRESS, then ≥384³). Clean mass NOT yet
-established (EH-premise + unresolved Phase B).
+`M_N=2E_4` to 0.05% (isolated-BC + exact discrete face flux); **Phase B (stability) UNRESOLVED — with concern** (256³ mode-following
+test DONE: gradnorm→0.085, but a localized negative mode PERSISTS through relaxation, λ_phys≈−285@0.085, 3 seeds — does NOT lift; "+69"
+stable-lean was an unconverged probe, retracted. Non-critical field + contradicts known FS-hopfion stability ⇒ likely a 256³ grid artifact;
+**384³ is the decisive test**). Clean mass NOT established (EH-premise + unresolved-with-concern Phase B).
 
 **Macro lane (SEPARATE, still valid — NOT the uniquely-live frontier):** `UDT_ELEGANT_FRAME.md` / `SIMPLE_METRIC_MACRO.md` (WR-L
 `A=1−r/X`, C-2026-07-09-1). The 2026-07-09 "stick to simple metric" directive governs the MACRO sector; the particle-mass sector above
@@ -350,7 +351,7 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 
 **★ H3 STATIC MASS-BACKREACTION (new frame, `UDT_H3_STATIC_MASS_BACKREACTION_DISPATCH.md`; EH geom action + physical-metric carrier coupling; demote reciprocal/G-P/ḡ for the particle):** `hopfion_static_mass_results.md` (`b114a88`+)  
 - **Phase A/C PASS (rigorous):** identities ρ+S=2ρ_4≥0 machine-exact (L2 cancels; only compact L4 sources the lapse); local mass **M_N=2E_4=E_2+E_4** confirmed by **isolated-BC (Hockney) Poisson + INDEPENDENT discrete face fluxes to 0.05%** (plateau-flat; NOT the earlier tautological volume self-check nor the periodic-image-drifting sphere flux). Axisymmetric to 0.02% (Fourier).  
-- **Phase B (stability) UNRESOLVED — DISCRETIZATION-FLOOR-LIMITED:** re-relaxation via the production arrested-Newton WORKS (|Q| held, no collapse) but gradnorm floors at **~0.12** (irreducible at 256³, h=0.047) ⇒ no true critical point. A converged localized negative mode (λ_phys=−312, in_core 0.995) exists at the non-critical field — orthogonal to the residual gradient, Q-preserving, real-curvature (direct energy check) — most likely a grid-scale/non-criticality artifact (FS Q_H=1 hopfion is a KNOWN stable soliton) but NOT proven. A Hessian certifies stability only at a critical point → needs a finer grid (≥384³) to close.  
+- **Phase B (stability) UNRESOLVED — with concern; 256³ mode-following test DONE:** topology-safe relaxation drove gradnorm 0.12→**0.085** (Q=0.9918 held; ~0.12 NOT a floor), but beyond that the flow drifts to unwinding ⇒ no true critical point at 256³. A localized negative mode **PERSISTS** through relaxation (λ_phys −312@0.13, −318@0.11, **−285@0.085**, 3 seeds, in_core 0.997) — it does NOT lift; the earlier "+69" stable-lean was an unconverged probe (RETRACTED). Orthogonal to gradient, Q-preserving, real-curvature. NOT PASS, NOT FAIL (non-critical field; res/|λ|~0.15 not tight; **contradicts the KNOWN stability of the Q_H=1 FS hopfion** ⇒ likely a 256³ grid-scale artifact). **Decisive next = 384³** (Charles-sequenced): re-solve finer, recompute Hessian at a critical point — vanishes ⇒ grid artifact (stable); persists converged ⇒ real FAIL.  
 - **⇒ clean mass NOT established:** CONDITIONAL on (i) EH-action premise (Lovelock, not native-dilation-derived — trigger #6) AND (ii) an UNRESOLVED (floor-limited) Phase B. D/E HALTED. (Infra: a GPU-zombie holding 30.8GB caused repeated 256³ OOMs; cleared.)  
 
 **➤➤ NEXT:** close Phase B on a **finer grid** (≥384³ or higher-order/spectral) to lower the residual-gradient floor below the mode, then recompute the Hessian; only then trust the Phase-A/C mass. (Prior lane: seal-matching/ambient gate; no private wall at ℓ_hopf; not O(0.4)-mass without continuum.)  

@@ -83,33 +83,34 @@ Generalized eigenproblem `H v = λ M v` (M=h³I ⇒ λ_phys=λ_euclid/h³); **fi
 multi-start LOBPCG-lite; full battery (ε-scan, saved eigenvector, overlap-with-gradient, Q_H-effect, direct
 quadratic-energy). Re-relaxation via the **production** arrested-Newton (`drive_production.py` restart).
 
-- **Re-relaxation (production arrested-Newton, 400 steps, rescale off):** HOLDS+CONVERGED (|Q|=0.9917 held,
-  virial 0.998, no collapse) — but **gradnorm 0.132 → 0.120 only** (energy down 0.13%). So gradnorm ~0.12 is
-  where 400 arrested-Newton steps stalled; **this is NOT proven to be an irreducible floor** — a multi-hour
-  mode-following Riemannian-CG relaxation (fixed boundary, topology monitoring, final rescale-off) is
-  **IN PROGRESS** to test whether it lowers further, before any escalation to 384³.
-- **Hessian at the (still non-critical) field:** a localized negative direction — λ_phys=−312, **res/|λ|=0.17
-  (approximate, NOT a tightly converged eigenpair)**, in_core=0.995. Battery: **orthogonal** to the residual
-  gradient (overlap 2e-4); perturbing it **does NOT change Q_H**; the **direct quadratic-energy check tracks
-  ½λt² to ~10%** (a real negative-curvature direction of the discrete second variation, validating the HVP);
-  λ stable under the ε-scan.
-- **The blocker:** a Hessian certifies (in)stability only *at a critical point*, and the field is not there yet
-  (gradnorm ~0.12). So the negative direction is at a non-critical field — most likely a grid-scale/non-
-  criticality artifact (orthogonal to the gradient, Q-preserving; the FS Q_H=1 hopfion is a **known stable
-  soliton**), but that is **not proven** either way.
+- **Mode-following relaxation (256³) — DONE:** a topology-safe production arrested-Newton (fixed boundary,
+  Q-guard, mode-following, rescale-off) drove gradnorm **0.12 → 0.085** with |Q|=0.9918 held ⇒ **~0.12 was NOT
+  an irreducible floor.** Beyond 0.085 the unconstrained flow **drifts toward unwinding** (the global downhill
+  is vacuum), so a true critical point (gradnorm→0) is **not reachable at 256³**. (An aggressive Riemannian-CG
+  variant *unwound* the hopfion Q:0.99→0.13 — rejected; topology-safe small steps are required.)
+- **The localized negative PERSISTS as the field relaxes** (tight multi-start eigensolve): λ_phys = **−312 @
+  gradnorm 0.132, −318 @ 0.111, −285 @ 0.085** (3 seeds agree, in_core 0.997). It does **NOT lift**. ⚠ **The
+  earlier "+69 at gradnorm 0.086" was an UNCONVERGED 16-iter probe — RETRACTED, and the "stable lean" it
+  suggested is withdrawn.** So the negative is not a simple non-criticality artifact of an under-relaxed field.
+- Battery: orthogonal to the residual gradient (overlap 2e-4); real negative-curvature (direct energy check
+  ≈½λt²); λ stable under ε-scan. res/|λ|~0.15 (approximate, not tight).
 
-**Verdict: UNRESOLVED.** NOT `PASS` (a localized negative direction exists; do not treat the Phase-A/C mass as
-stability-verified), NOT `FAIL_H3_INSTABILITY` (the field is not a critical point, the eigenpair is not tightly
-converged, and the floor is not proven irreducible). **In progress:** the multi-hour mode-following relaxation;
-**then** escalate to a finer grid (≥384³) only if the floor persists. (Infra note: a GPU-zombie holding 30.8 GB
-caused the earlier repeated 256³ OOMs; cleared.)
+**Verdict: UNRESOLVED — with genuine concern.** NOT `PASS` (a robust localized negative direction exists),
+NOT `FAIL_H3_INSTABILITY`, because: (i) the field is **not a true critical point** (gradnorm 0.085; can't go
+lower without unwinding at 256³); (ii) the eigenpair is not tightly converged; (iii) a localized negative
+**contradicts the KNOWN stability of the Q_H=1 Faddeev–Skyrme hopfion** ⇒ most likely a **256³ grid-scale /
+discretization artifact.** **Decisive next test = 384³** (Charles-sequenced): re-solve the hopfion at finer
+resolution, recompute the Hessian at a properly-relaxed field — if the negative **vanishes** it was a 256³ grid
+artifact (hopfion stable, matches the prior); if it **persists converged at a true critical point**, that is a
+real FAIL. (Infra: a GPU-zombie holding 30.8 GB caused the earlier repeated 256³ OOMs; cleared.)
 
 ## Pre-registered gate status
 - **Phase A:** PASS (baseline reproduced; axisymmetry Fourier 0.02% ⇒ axisymmetric).
-- **Phase B (Hessian, rigorous):** **UNRESOLVED.** Re-relaxation stalled at gradnorm ~0.12 at 256³ (NOT proven
-  irreducible) ⇒ not yet a true critical point; a localized negative direction (λ_phys=−312, res/|λ|~0.17 —
-  approximate, not tightly converged) exists at the non-critical field (orthogonal to gradient, Q-preserving,
-  real-curvature). Neither PASS nor FAIL. Multi-hour mode-following relaxation IN PROGRESS; finer grid only after.
+- **Phase B (Hessian, rigorous):** **UNRESOLVED — with concern.** 256³ mode-following relaxation DONE: gradnorm
+  0.12→0.085 (Q held; not a floor), but the field drifts to unwinding beyond → no true critical point. A
+  localized negative **PERSISTS** through relaxation (λ_phys −312→−285 over gradnorm 0.13→0.085, 3 seeds; the
+  "+69" stable-lean was an unconverged probe, RETRACTED). Not PASS, not FAIL (non-critical field; not tight;
+  contradicts known FS-hopfion stability ⇒ likely a 256³ grid artifact). **Decisive test = 384³.**
 - **Phase C (linear lapse):** **PASS (rigorous)** — isolated-BC (Hockney) solve + discrete face fluxes confirm M_N=2E_4 to 0.05%, plateau-flat (spread 0.06%).
 - **Phase D (full linear metric), Phase E (continuation):** HALTED (per Charles).
 
