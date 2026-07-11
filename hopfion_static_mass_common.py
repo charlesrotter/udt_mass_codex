@@ -103,15 +103,21 @@ def cumulative_mass_flux(rho4, L, nR=80):
 
 
 def poisson_solve_open(rho4, L):
-    """Solve Laplacian u = rho4 with u->0 (open BC) via zero-padded FFT (free-space Green's fn).
-    Returns u (N,N,N). Used to confirm the lapse depression sign and 1/r tail."""
+    """Solve Laplacian u = rho4 with u->0 (open BC) via zero-padded FFT. The source is CENTERED in
+    the padded domain (else it sits by the pad boundary and periodic images leak -> large residual).
+    Uses the FD (7-point) Laplacian symbol so the solution is FD-consistent (small FD residual).
+    Returns u (N,N,N)."""
     dev = rho4.device
     N = rho4.shape[0]; h = 2 * L / (N - 1)
     M = 2 * N                                              # zero-pad to suppress periodic images
-    src = torch.zeros(M, M, M, device=dev); src[:N, :N, :N] = rho4
-    k = 2 * np.pi * torch.fft.fftfreq(M, d=h).to(dev)
-    KX, KY, KZ = torch.meshgrid(k, k, k, indexing="ij")
-    k2 = KX**2 + KY**2 + KZ**2; k2[0, 0, 0] = 1.0
-    u = torch.fft.ifftn(-torch.fft.fftn(src) / k2).real    # Laplacian u = rho4  (u = -F^-1[ rho4_hat / k^2 ]? sign)
-    u[0, 0, 0] = 0.0
-    return u[:N, :N, :N]
+    off = (M - N) // 2                                     # CENTER the source in the padded box
+    src = torch.zeros(M, M, M, device=dev)
+    src[off:off + N, off:off + N, off:off + N] = rho4
+    kk = 2 * np.pi * torch.fft.fftfreq(M, d=h).to(dev)
+    KX, KY, KZ = torch.meshgrid(kk, kk, kk, indexing="ij")
+    # FD 7-point Laplacian symbol (so ifft solution is consistent with the FD Laplacian used for residual)
+    sym = (2 * torch.cos(KX * h) + 2 * torch.cos(KY * h) + 2 * torch.cos(KZ * h) - 6) / h**2
+    sym[0, 0, 0] = 1.0
+    u = torch.fft.ifftn(torch.fft.fftn(src) / sym).real    # FD_Laplacian u = rho4
+    u = u - u.mean()
+    return u[off:off + N, off:off + N, off:off + N].contiguous()

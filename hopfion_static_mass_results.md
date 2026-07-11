@@ -36,10 +36,10 @@ V100 / float64. All numbers from `hopfion_static_mass_out.json`.
 ## Phase A — baseline reproduced
 E2=143.219, E4=143.297, **E2/E4=0.9995**, Q_H=0.9917 — the banked H3 within discretization error. Not forced.
 
-**Axisymmetry (measured before imposing):** residual ‖f−⟨f⟩_φ‖/‖f‖ = **0.077 (ρ), 0.086 (ρ_4), 0.105 (S)** —
-**~8–10%, NOT machine-small.** Consequence (per dispatch §Phase C/E): the axisymmetric metric ansatz is **NOT
-cleanly justified**; Phase C (below) is a FULL-3D Poisson solve (no averaging, unaffected), but **Phase E must
-use a full-3D static metric or re-examine axisymmetry** — do not average the stress.
+**Axisymmetry (azimuthal Fourier test — REVISED 2026-07-11, replaces the coarse bin test):** the m≥1 power
+fraction of ρ is **0.0002 (0.02%)** (m=1,2,3 ≈ 0; m=4 ≈ 1e-4). The field is axisymmetric about ẑ to ~0.02%
+power ⇒ **the axisymmetric metric ansatz IS justified.** (My earlier bin-test "~8–10%" was a binning artifact,
+now retracted — Charles's instinct to replace it was correct and it flips the conclusion.)
 
 ## §1 — Section-2 identities (the load-bearing check) — MACHINE-VERIFIED
 On the real H3 field and a random smooth unit field:
@@ -49,17 +49,22 @@ On the real H3 field and a random smooth unit field:
 - **Key structural fact:** the ξ·X (L2 kinetic) terms **CANCEL** in ρ+S; only the compact L4 term ρ_4=(κ_4/4)Y
   sources the lapse trace. So `D²N = κ_g N ρ_4` has a **positive, COMPACT** source.
 
-## Phase C — frozen-source linear lapse mass — PASS (cutoff-independent)
-`D²u = ρ_4`, u→0. Mass by Gauss law `M_N(R) = 2∮_{S_R}∇u·dS = 2∫_{r<R}ρ_4`:
-- **M_N → 286.594 = 2E_4** exactly; **far-R spread 1.1e-11** — CUTOFF-INDEPENDENT (plateaus by R≈4.6 because
-  ρ_4 is compact). Table: M_N(2.13)=274.2, M_N(2.95)=285.2, M_N(3.77)=286.56, M_N(4.59)=M_N(5.40)=286.594.
-- **M_N/(E2+E4) = 1.0003** = the weak-field prediction 2E_4/(E2+E4) exactly.
-- Lapse u(center) = −12.96 (well; N=1+κ_g u depressed — correct mass sign).
+## Phase C — frozen-source linear lapse mass — PASS (REVISED 2026-07-11, rigorous independent check)
+Solve `D²u = ρ_4` (FD-consistent, centered zero-pad FFT), then evaluate the flux TWO INDEPENDENT ways.
+**(Correction: my earlier "M_N=2∫ρ_4 cutoff-independent to 1e-11" used the source-volume integral as its own
+Gauss-law check — tautological. Replaced by an actual Poisson residual + an INDEPENDENT nested-surface flux.)**
+- **Actual Poisson residual (interior):** ‖lap_FD(u)−ρ_4‖/‖ρ_4‖ = **9.5e-3** (controlled).
+- **INDEPENDENT nested-surface flux** `∮_{S_R}∇u·dS` (∇u from the solved u, spherical quadrature — a
+  computation *separate* from the volume ∫ρ_4): at R=3.0 (just outside r_tex≈2.5) flux = **141.6** vs volume
+  E_4 = **143.3** ⇒ **agree to ~1.2%.** `M_N = 2·flux = 283.1` vs 2E_4 = 286.6 ⇒ **~1.2%**.
+- The ~1.2% gap is discretization (sharp ρ_4) + surface interpolation; the further-R drift (flux→136 at R=5.5)
+  is finite-box periodic-image contamination, not physics.
+- Lapse depressed (u<0 — correct mass sign).
 
-**The contrast that matters:** unlike the native Branch-P vacuum source `4e^{−2φ}` (never vanishes ⇒ the flux
-DRIFTS, `hopfion_GP_exterior_probe_results.md`), the EH-frame source ρ_4=(κ_4/4)Y is **COMPACT** ⇒ the mass
-flux PLATEAUS at 2E_4, cutoff-free. **The cleanness is a property of the (CONDITIONAL-DERIVED) EH frame**, not
-a native Branch-P result.
+**Honest status:** the clean, positive local mass **M_N ≈ 2E_4** is confirmed by an INDEPENDENT surface flux to
+**~1–2%** (not machine-clean, not the tautological volume self-check). **The contrast with Branch-P still
+holds:** ρ_4=(κ_4/4)Y is COMPACT (source flux converges), unlike the never-vanishing Branch-P vacuum source
+that DRIFTS — but the cleanness is a property of the (CONDITIONAL-DERIVED) EH frame.
 
 ## Adversarial note on the EH-action premise (per Charles's steer)
 The geometric term ∫√−g R/(2κ_g) is Lovelock-unique among **metric-only, local, ≤2-derivative** actions in 4D
