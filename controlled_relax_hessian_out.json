@@ -1,0 +1,8 @@
+{
+ "best_gradnorm": 0.08499665742203863,
+ "Q": 0.9918044920378897,
+ "lowest_lam_phys": -288.9435413858366,
+ "res_phys": 31.85539365439344,
+ "in_core": 0.9975825363282054,
+ "verdict": "localized-negative persists"
+}
