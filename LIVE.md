@@ -338,7 +338,12 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - Mass crux localized: **seal-matching / ambient** (continuum vs finite-cell wall location).  
 - Grade **CONDITIONAL/LEAN** — not mass, not branch canon.  
 
-**➤➤ NEXT:** **PAUSE banking point** — or MAP seal-matching/ambient gate (finite-cell wall vs continuum for a matter object; no private wall at ℓ_hopf). Not more hopfion source shopping; not claim O(0.4) mass without continuum assumption.  
+**★ H3 STATIC MASS-BACKREACTION (new frame, `UDT_H3_STATIC_MASS_BACKREACTION_DISPATCH.md`; EH geom action + physical-metric carrier coupling; demote reciprocal/G-P/ḡ for the particle):** `hopfion_static_mass_results.md` (`b114a88`+)  
+- **Phase A/C PASS (clean):** identities ρ+S=2ρ_4≥0 machine-exact (L2 cancels; only compact L4 sources the lapse); local mass **M_N≈2E_4=E_2+E_4** confirmed by an **INDEPENDENT surface flux** to ~1–2% (Poisson resid 0.95%; NOT the earlier tautological volume self-check). Axisymmetric to 0.02% (Fourier).  
+- **Phase B (stability) UNRESOLVED w/ CONCERN:** rigorous generalized eigenproblem (M=h³I, fixed-boundary) finds a **converged localized negative mode** (λ_phys=−312, in_core 0.995) that is **NOT** the residual-gradient artifact (gradient dir has +574 curvature) — BUT the 256³ field is **not a true critical point** (gradnorm 0.13), so it neither certifies instability nor supports stability. Multi-resolution re-relaxation **BLOCKED** (naive relaxation Derrick-collapses coarse fields; needs `fs_hopfion`/`drive_production` rescale).  
+- **⇒ clean mass NOT established:** CONDITIONAL on (i) EH-action premise (Lovelock, not native-dilation-derived — trigger #6) AND (ii) an UNRESOLVED Phase B. D/E HALTED.  
+
+**➤➤ NEXT:** close Phase B — Hessian at a **properly re-relaxed** minimizer (production Derrick-rescale machinery, gradnorm→0) to adjudicate the localized negative mode; only then trust the Phase-A/C mass. (Prior lane: seal-matching/ambient gate; no private wall at ℓ_hopf; not O(0.4)-mass without continuum.)  
 **Red:** bank Thread B as closed cell / L-pin from probe; undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---

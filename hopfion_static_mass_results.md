@@ -7,8 +7,8 @@
 | **Object** | banked H3 Q_H=1 carrier ONLY (`prod_an256.npz`). NEVER f2d π₂ hedgehog. |
 | **Device** | V100, float64, one process. |
 | **Observing or targeting?** | OBSERVE whether a clean cutoff-independent local mass exists under the frozen action. Aimed HARDEST at the load-bearing positivity ρ+S=2ρ_4≥0 and at the EH-action premise (the comfortable answer is a clean mass — do not over-claim it). |
-| **Verifier status** | Section-2 identities machine-verified on the real H3 field AND a random field; Phase-C cutoff-independence to spread 1.1e-11. **Independent verifier (`hopfion_static_mass_verify.py`) + Phase B Hessian not yet run** ⇒ CONDITIONAL. |
-| **Build-on grade** | **CONDITIONAL** — Phases A+C pass, but the mass is CONDITIONAL on (i) the EH-action premise (see §2) and (ii) Phase B (no localized negative mode) + D/E, none of which are run. **NOT unconditionally UDT-derived.** |
+| **Verifier status** | Section-2 identities machine-verified (real + random field). Phase C: independent surface flux (≠ volume) agrees ~1.2%, Poisson residual 0.95%. Phase B (rigorous generalized eigenproblem, fixed-boundary): **UNRESOLVED — converged localized negative mode at a non-critical field; blocked on proper re-relaxation.** |
+| **Build-on grade** | **CONDITIONAL / Phase-B-UNRESOLVED** — Phases A+C clean, but the clean mass is NOT established: conditional on (i) the EH-action premise and (ii) an UNRESOLVED stability gate (Phase B) that surfaced a concern. **NOT unconditionally UDT-derived; NOT stability-verified.** |
 
 ### Premise ledger
 
@@ -76,45 +76,49 @@ the standard self-gravitating-soliton (ADM) structure — so the clean mass M_N=
 frame**, not an unconditional UDT derivation. Whether the metric-only EH action survives against the native
 positional-dilation geometric action is the open frame question (D/E + Charles).
 
-## Phase B — Hessian classification (the adversarial gate) — no CONVERGED localized negative mode
-Constrained tangent-space Hessian (η=(I−nn^T)δn), matrix-free FD-of-gradient HVP, **analytic-symmetry
-deflation ONLY** (3 translations + 3 rotations + 1 target-SO(2); no unexplained modes deflated), LOBPCG-lite
-Rayleigh minimization. `hopfion_static_mass_hessian_out.json`.
+## Phase B — Hessian (RIGOROUS, REVISED 2026-07-11 per Charles) — **UNRESOLVED (with concern)**
+Generalized eigenproblem `H v = λ M v` (M = quadrature mass = h³I ⇒ physical normalization
+λ_phys=λ_euclid/h³, comparable across grids); **fixed-asymptotic perturbations** (η=0 on a boundary layer);
+analytic-symmetry deflation ONLY (3 trans + 3 rot + 1 target-SO(2)); matrix-free FD-of-gradient HVP;
+LOBPCG-lite. **This supersedes the earlier "PASS-on-FAIL-criterion" reading, which used inconsistent Euclidean
+normalization, no fixed boundary, and un-re-relaxed fields — that reading is retracted.**
 
-- **Coarse subsampled grids show localized negatives that SCALE AWAY (~h²), not converge:** λ(h=0.28)=−4.07,
-  λ(h=0.19)=−1.65, fit λ∝h^2.1 → **0 in the continuum**. They ride **off-equilibrium** subsampled fields
-  (virial 1.08–1.30, not ≈1) — the hopfion tube (~0.7 wide) is under-resolved at h≈0.2–0.28. These are
-  **discretization artifacts**, and the FAIL criterion ("localized negative that CONVERGES with refinement")
-  is the OPPOSITE of what is observed.
-- **At the true 256³ minimizer (virial 0.9995):** the lowest deflated mode is POSITIVE for 20 of 22 Rayleigh
-  iterations (0.065 → 0.0047, extended near-zero continuum, in_core≈0.03 ≈ uniform). The unconverged tail
-  dipped to λ=−0.002, but **|λ|=0.002 ≪ residual 0.031 ⇒ NOT a converged eigenpair** — it is at the
-  residual-gradient floor (the banked field has gradnorm 0.13, an incomplete production minimization) blended
-  with the expected gapless near-zero continuum.
-- **Scale/Derrick mode E''(1)=2E_4 > 0** confirmed.
+- **At the 256³ production minimizer** (virial 0.9995, but **gradnorm 0.13 ⇒ NOT a true critical point**): the
+  Rayleigh minimization **CONVERGES to a localized negative mode** — λ_phys=**−312**, res_phys=52
+  (res/|λ|=0.17 ⇒ converged), **in_core=0.995** (highly localized).
+- **Residual-gradient alignment check (decisive diagnostic):** the residual-gradient direction has **POSITIVE**
+  curvature (λ_phys(ĝ)=+574); the converged negative mode is **orthogonal** to it ⇒ **the negative is NOT the
+  "field-still-settling" residual-gradient artifact.**
+- **Multi-resolution re-relaxation is BLOCKED:** naive arrested-Newton **collapses** the coarse hopfion (Derrick
+  shrink) without the production Derrick-rescale machinery (coarse "re-relaxed" fields gave virial 1.0–1.38,
+  gradnorm *grew* — invalid). The correct fix is to re-relax with `fs_hopfion`/`drive_production` rescale at each grid.
 
-**Verdict (per the pre-registered criterion):** **no CONVERGED localized negative Hessian mode** ⇒ does NOT trip
-`FAIL_H3_INSTABILITY`, and satisfies the PASS condition "no converged localized negative mode." **Caveat (honest,
-not forced to a pristine PASS):** the near-zero spectrum is not machine-clean positive-definite — the gapless
-continuum + the field's residual gradnorm leave the very-lowest modes marginal/unconverged (the tail touched
-−0.002). The cleanest closure is a fully-relaxed field (arrested-Newton to small gradnorm) + a converged
-eigensolver, or the coupled metric-carrier Hessian (a **separate later gate**, per Charles).
+**Verdict: UNRESOLVED (with concern).** A converged, localized, negative Hessian mode exists at the 256³ field
+and is not the trivial residual-gradient artifact — but the field is **not a true critical point**, and a
+Hessian certifies (in)stability only *at* a critical point. So this **does not** rigorously establish
+instability, and it **no longer supports** stability either. **NOT `PASS` (do not treat the Phase-A/C clean
+mass as established), NOT `FAIL_H3_INSTABILITY` (field not critical).** Resolving it **requires** the Hessian at
+a properly re-relaxed minimizer (gradnorm→0), which needs the production rescale machinery. Physics prior: the
+Q_H=1 FS hopfion is a known stable soliton, so the *true* minimizer is likely stable — but this numerics neither
+confirms nor refutes it, and the rigorous test surfaced a genuine open question that must be closed first.
 
 ## Pre-registered gate status
-- **Phase A:** PASS (baseline reproduced; axisymmetry flagged ~10%).
-- **Phase B (Hessian):** **PASS on the FAIL-criterion** (no converged localized negative mode; coarse negatives
-  scale ~h²→0; 256³ marginal tail is residual-gradient-floor, unconverged) — **caveat-flagged** (not machine-clean
-  positive-definite; wants a relaxed-field converged eigensolve to fully close).
-- **Phase C (linear lapse):** **PASS** — source/flux identity converges, cutoff-independent, correct sign.
-- **Phase D (full linear metric), Phase E (continuation):** NOT RUN.
+- **Phase A:** PASS (baseline reproduced; axisymmetry Fourier 0.02% ⇒ axisymmetric).
+- **Phase B (Hessian, rigorous):** **UNRESOLVED (with concern)** — a converged localized negative mode
+  (λ_phys=−312, in_core 0.995), not the residual-gradient artifact, at a field that is not a true critical
+  point (gradnorm 0.13). Neither PASS nor FAIL; blocked on proper re-relaxation (production rescale machinery).
+- **Phase C (linear lapse):** **PASS** — independent surface flux confirms M_N≈2E_4 to ~1–2% (Poisson residual 0.95%).
+- **Phase D (full linear metric), Phase E (continuation):** HALTED (per Charles).
 
-## Verdict (this checkpoint)
-**`PHASE_A_B_C_PASS_CONDITIONAL`** — under the frozen EH+physical-coupling action, the H3 carrier has a clean,
-positive, cutoff-independent local mass M_N = 2E_4 = E_2+E_4 (weak field), resting on the machine-verified
-positivity ρ+S=2ρ_4≥0, with **no converged localized negative Hessian mode** (Phase B; caveat-flagged). **This is
-NOT yet `PASS_LOCAL_MASS_BRANCH`** (needs Phase D full linear metric + Phase E nonlinear continuation, and the
-Phase-B near-zero spectrum tightened on a relaxed field) and remains **CONDITIONAL on the EH-action premise**
-(CONDITIONAL-DERIVED, not native-dilation-derived).
+## Verdict (this checkpoint, REVISED 2026-07-11)
+**`PHASE_A_C_PASS ; PHASE_B_UNRESOLVED`.** Phases A and C are clean: the identities ρ+S=2ρ_4≥0 are
+machine-exact, and the local mass **M_N ≈ 2E_4** is confirmed by an INDEPENDENT surface flux to ~1–2%.
+**BUT the stability gate (Phase B) is UNRESOLVED with a concern** — the rigorous generalized eigenproblem
+finds a converged localized negative mode (not the residual-gradient artifact) at a field that is not a true
+critical point. **Therefore the clean mass is NOT established:** it is CONDITIONAL on (i) the EH-action premise
+(CONDITIONAL-DERIVED, not native-dilation-derived), AND (ii) an UNRESOLVED Phase B that must be closed by the
+Hessian at a properly re-relaxed minimizer (production Derrick-rescale machinery) before stability — and thus
+`PASS_LOCAL_MASS_BRANCH` — can be claimed. Phases D/E halted per Charles.
 
 ## NOT claimed
 - NOT: an unconditional UDT-derived mass — it is conditional on the EH/metric-only action premise.

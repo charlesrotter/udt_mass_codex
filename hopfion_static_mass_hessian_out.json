@@ -1,36 +1,23 @@
 {
  "phaseB": {
-  "method": "constrained tangent-space Hessian, matrix-free FD-of-gradient HVP, analytic-symmetry deflation ONLY (3 translations + 3 rotations + 1 target-SO(2)); LOBPCG-lite Rayleigh minimization",
-  "coarse_grid_negatives": {
-   "h": [
-    0.2824,
-    0.1882
-   ],
-   "lam": [
-    -4.0746,
-    -1.648
-   ],
-   "in_core": [
-    1.0,
-    1.0
-   ],
-   "virial": [
-    1.208,
-    1.085
-   ],
-   "p_fit": 2.1,
-   "reading": "localized negatives scale ~h^2 -> 0 in continuum (NOT converged); on off-equilibrium subsampled fields (virial 1.08-1.30). Discretization artifacts, not instability."
+  "method": "generalized eigenproblem H v=lam M v (M=h^3 I, physical normalization lam_phys=lam_euclid/h^3); FIXED-ASYMPTOTIC perturbations (eta=0 on boundary layer); analytic-symmetry deflation ONLY (3 trans+3 rot+1 target-SO(2)); matrix-free FD-of-gradient HVP; LOBPCG-lite.",
+  "field": "256^3 PRODUCTION minimizer as-is (virial 0.9995, gradnorm 0.13 -- NOT a true critical point)",
+  "result": {
+   "lam_phys": -311.8,
+   "res_phys": 51.6,
+   "eig_converged": true,
+   "res_over_lam": 0.166,
+   "in_core": 0.995,
+   "localized": true
   },
-  "true_256_equilibrium": {
-   "virial": 0.9995,
-   "gradnorm": 0.1318,
-   "rayleigh_trajectory": "20 of 22 iterations POSITIVE (0.0654 -> 0.0047, extended near-zero continuum, in_core~0.03); unconverged tail dipped to -0.00195 (|lam|<<resid 0.031, in_core rose 0.03->0.39)",
-   "converged_localized_negative": false,
-   "reading": "no CONVERGED localized negative eigenpair (all near-zero modes have resid >> |lam|). The marginal -0.002 tail is at the residual-gradient floor (field gradnorm 0.13, incomplete production minimization) + the expected gapless near-zero continuum."
+  "residual_gradient_alignment_check": {
+   "lam_phys_of_gradient_direction": 574.3,
+   "in_core_gradient": 0.4,
+   "reading": "the residual-gradient direction has POSITIVE curvature (+574); the converged negative mode (-312, in_core 0.995) is ORTHOGONAL to it -> the negative is NOT the residual-gradient/settling artifact."
   },
-  "scale_derrick_mode": "E''(1)=2 E4 > 0 (positive; confirmed)",
-  "criterion": "PASS requires no CONVERGED localized negative mode; FAIL requires a localized negative that CONVERGES with grid/domain refinement",
-  "verdict": "PASS_ON_FAIL_CRITERION (no converged localized negative mode) -- with caveat: near-zero spectrum not machine-clean positive-definite (gapless continuum + residual gradnorm 0.13). Cleanest closure = fully-relaxed field + converged eigensolver, or the coupled metric-carrier Hessian (separate later gate).",
-  "gate": "PASS(no converged localized negative) / caveat-flagged"
+  "multi_resolution_re_relaxation": "BLOCKED: naive arrested-Newton collapses the coarse hopfion (Derrick shrink) without the production Derrick-rescale machinery; coarse re-relaxed fields (virial 1.0-1.38, gradnorm grew) are invalid. Correct fix = re-relax with fs_hopfion/drive_production rescale at each grid.",
+  "verdict": "UNRESOLVED (with concern). A CONVERGED, LOCALIZED, NEGATIVE Hessian mode (lam_phys=-312) is found at the 256^3 production field and is NOT the residual-gradient direction. BUT the field is not a true critical point (gradnorm 0.13), so a Hessian does not rigorously certify minimizer (in)stability here. Resolving REQUIRES the Hessian at a properly re-relaxed minimizer (gradnorm->0), which needs the production rescale machinery. Physics prior: Q_H=1 FS hopfion is a known stable soliton -> the true minimizer is likely stable, but THIS numerics neither confirms nor refutes it.",
+  "gate": "UNRESOLVED -- NOT PASS (do not treat the Phase-A/C clean mass as established), NOT FAIL_H3_INSTABILITY (field not critical). Blocked on proper re-relaxation.",
+  "correction": "supersedes the earlier PASS-on-FAIL-criterion Phase B (which used inconsistent Euclidean normalization, no fixed boundary, and un-re-relaxed fields). The rigorous form (Charles 2026-07-11) is inconclusive and surfaces a concern."
  }
 }
