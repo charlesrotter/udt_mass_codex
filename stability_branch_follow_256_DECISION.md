@@ -151,8 +151,24 @@ is cubic-symmetric and O(h²)-consistent; fully autograd-differentiable. Manufac
 - **(B) No null:** a pure Nyquist mode (smooth envelope × checkerboard) costs 1.63e5/δ² in E_noNull but
   only 175/δ² in E_centered (centered sees 0.1%). The null is closed.
 - **(C)** autograd gradient finite/correct.
-Next: STEP 3 — re-relax the carrier under E_noNull to a Q=1 critical field, recompute the lowest
-Hessian eigenvalue (expected: the spurious negative Nyquist cluster is gone).
+**STEP 3a DONE (cheap, decisive) — `noNull_curvature_check.py`.** Quadratic form
+q(v)=[E(n0+εv)+E(n0−εv)−2E0]/ε² (→ λ_phys for M-normalized v) along the three old Nyquist eigenvectors,
+under both operators (ε ∈ {2e-3,1e-3,5e-4}, quadratic regime clean):
+
+| mode | q_centered (→ matches saved λ) | q_noNull |
+|---|---|---|
+| v  | −290.70 (saved −290.70 ✓) | **+30769** |
+| v1 | −269.86 (saved −269.86 ✓) | **+15454** |
+| v2 | −236.10 (saved −236.10 ✓) | **+28784** |
+
+Two results: (i) q_centered reproduces the block-LOBPCG eigenvalues to the digit — an independent
+validation that the FD-Hessian + M-normalization + eigensolve are correct. (ii) Under the corrected
+operator the SAME directions have LARGE POSITIVE curvature — the negative "unwinding" modes become stiff
+stable directions once the operator can see them. **Confirms the negative cluster was an operator
+artifact.** (The huge +3e4 is the correct O(1/h²) stiffness of high-frequency lattice modes.)
+
+Next: STEP 3b — re-relax the carrier under E_noNull to a Q=1 critical field and compute the TRUE lowest
+Hessian mode of E_noNull (does a genuine SMOOTH negative mode remain, or is the carrier stable?).
 
 ## 7. Reproduce
 
