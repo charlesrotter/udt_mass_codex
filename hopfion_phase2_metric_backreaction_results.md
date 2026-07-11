@@ -92,3 +92,17 @@ seal-matching — and APPLY it to the hopfion exterior), NOT more Phase-2-style 
 - NOT: that isorotation is useless for persistence (Phase 1b HOLDS Q_H) — only that it does not de-box the exterior.
 - NOT: a full non-reciprocal (Arm C) or full 3D coupled solve — frozen-n reciprocal first cut (+ compact-Arm-C note).
 - NOT: topology→branch. NOT: r_lo cherry-pick (class by large-r convergence). NOT: G-shortcut (G only as in-run control). NOT: G=8πT. No huge .npz committed.
+
+---
+
+## Driver doublecheck (2026-07-10, this seat)
+
+Pulled `30c5bd2`. JSON audit of all 24 rows: **class_P=DRIFT** and **class_G=PLATEAU** with **spread_G=0** uniformly.  
+Arm B (Q=1) q-profiles match Arm A at the ~1e-6 relative level (ω²≈2.8e-5 negligible vs vacuum 4).  
+
+**Logic check (agree):** once all matter/time sources are compact, exterior r≫r_tex is pure round-vacuum Branch-P \(Z(r^2\phi')'=4e^{-2\phi}\) ⇒ \(dq/dr=4e^{-2\phi}\neq0\) ⇒ drift is structural, not a missed isorotation knob.  
+
+**Caveats kept:** frozen-n first cut; iso→φ magnitude CHOSE-scaled (but ω=1 sensitivity still DRIFT); Arm C not full-solved (compact-core argument only); blind = PARTIAL → **LEAD/CONDITIONAL** grade appropriate.  
+
+**Routing (agree):** stop core source-engineering for de-box; next is **G/P switch** apply-to-hopfion, not Phase 2++.
+

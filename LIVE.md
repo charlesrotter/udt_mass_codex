@@ -326,7 +326,13 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 **★ Fixed-Q Phase 1b (`hopfion_fixedQ_phase1b_production_results.md`):** N=192 held hopfion; \(Q\in\{0,0.5,1,2\}\) continuation **HOLDS** \(|Q_H|\sim0.968\).  
   Arrested-Newton on \(E_Q\); flat FS only.  
 
-**➤➤ NEXT:** GPU workstation — **`hopfion_WORKSTATION_DISPATCH_phase2_metric.md`** (Phase 2 metric backreaction + exterior flux re-probe). Not claim mass from Phase 1b.  
+**★ Phase 2 metric backreaction RAN (`30c5bd2`):** `hopfion_phase2_metric_backreaction_results.md`  
+- Fixed-Q isorotation **does NOT de-box** exterior (all P arms DRIFT; G controls PLATEAU).  
+- Compact sources cannot change vacuum-P exterior — near-theorem; ω→1 still drifts.  
+- Grade **LEAD/CONDITIONAL** (partial blind; driver JSON doublecheck agrees).  
+- **Routing:** stop core source-engineering; mass de-box ⇒ **G/P switch** on hopfion exterior.  
+
+**➤➤ NEXT:** G/P switch lane — MAP then apply `gp_switch_criterion` to hopfion exterior (Z_φ consilience + seal-matching gates). Not more Phase-2 source shopping; not claim mass.  
 **Red:** bank Thread B as closed cell / L-pin from probe; undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---

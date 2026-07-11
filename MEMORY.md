@@ -56,8 +56,8 @@
 **★ Fixed-Q Phase 0 DEMO:** stable \(R_Q\) — `hopfion_fixedQ_collective_phase0_results.md`.  
 **Phase 1 pilot:** machinery OK, topology not held under GD — `hopfion_fixedQ_phase1_isorotation_results.md`.
 **Phase 1b:** Q-continuation HOLDS — `hopfion_fixedQ_phase1b_production_results.md`.
-**Dispatch Phase 2:** `hopfion_WORKSTATION_DISPATCH_phase2_metric.md`.
-**NEXT:** workstation metric backreaction.  
+**Phase 2:** isorotation does NOT de-box exterior — `hopfion_phase2_metric_backreaction_results.md`.
+**NEXT:** G/P switch on hopfion (not more core sources).  
 
 ## Durable lessons (not frontier)
 
