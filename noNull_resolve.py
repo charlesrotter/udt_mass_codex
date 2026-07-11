@@ -118,8 +118,8 @@ def mgs(cols):
 def R_cb(v):
     Dc = lambda f, ax: (torch.roll(f, -1, ax) - torch.roll(f, 1, ax)) / (2 * h)
     Dp = lambda f, ax: (torch.roll(f, -1, ax) - f) / h
-    num = sum((Dc(v[c], a + 1)**2).sum() for c in range(3) for a in range(3))
-    den = sum((Dp(v[c], a + 1)**2).sum() for c in range(3) for a in range(3))
+    num = sum((Dc(v[c], a)**2).sum() for c in range(3) for a in range(3))
+    den = sum((Dp(v[c], a)**2).sum() for c in range(3) for a in range(3))
     return float(num / (den + 1e-300))
 
 bs = 4; torch.manual_seed(0)

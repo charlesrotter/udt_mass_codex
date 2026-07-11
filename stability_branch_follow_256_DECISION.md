@@ -167,8 +167,30 @@ operator the SAME directions have LARGE POSITIVE curvature — the negative "unw
 stable directions once the operator can see them. **Confirms the negative cluster was an operator
 artifact.** (The huge +3e4 is the correct O(1/h²) stiffness of high-frequency lattice modes.)
 
-Next: STEP 3b — re-relax the carrier under E_noNull to a Q=1 critical field and compute the TRUE lowest
-Hessian mode of E_noNull (does a genuine SMOOTH negative mode remain, or is the carrier stable?).
+**STEP 3b PARTIAL (strong qualitative win + a conditioning bottleneck) — `noNull_resolve.py`.**
+- **Stage 1 (relax under E_noNull):** 475 L-BFGS iters. **Q stays 0.99 throughout (0.9918→0.9915) — the
+  carrier does NOT unwind**, vs the centered operator's unwind to Q=0.08 in ~50 iters. E→275.5 plateau,
+  gradnorm→0.061 (L-BFGS oscillating 0.06–0.4). ⇒ removing the Nyquist null removes the unwinding — the
+  carrier is topologically stable under the corrected operator.
+- **Stage 2 (lowest Hessian mode of E_noNull):** block LOBPCG lowest Ritz value descends monotonically
+  from +842 → +74 (it=30, not converged), staying POSITIVE, eigenvector smoothing (R_cb 0.62→0.92);
+  lam1,2,3 clustered at ~74–78. **NO negative mode appeared** (the −290 Nyquist artifact appeared within
+  ~20 iters before) and the lowest modes are now SMOOTH, not checkerboard.
+- **HONEST caveats:** LOBPCG bounds the lowest eigenvalue from ABOVE, so +74 is not converged — a *large*
+  negative is excluded, but the *sign of the fully-converged* lowest mode is not yet pinned. Also the
+  field is only near-critical (gradnorm 0.061), and both the relax and the eigensolve are ill-conditioned
+  by the operator's huge Nyquist stiffness (+3e4; condition number ~300) → slow/oscillatory.
+
+**Provisional read:** the −290 negative cluster was an OPERATOR ARTIFACT (confirmed, blind-verified); the
+carrier is topologically stable under the corrected operator; the precise sign of the near-zero lowest
+smooth mode at a TIGHT critical point is the remaining rigor, bottlenecked by Nyquist stiffness.
+
+**FORK (Charles + collaborating AI):**
+1. Precondition the operator (damp/deflate the +3e4 Nyquist band, or spectral preconditioner) → tight
+   critical relaxation + converged lowest Hessian eigenvalue (the rigorous stability number).
+2. Proceed BEHAVIORALLY to steps 4–6 now: geodesic-S² perturbations along SMOOTH modes + trust-region
+   branch relaxation under E_noNull — directly tests return-vs-slip (Stage 1 already shows no unwind).
+3. Both, in parallel.
 
 ## 7. Reproduce
 
