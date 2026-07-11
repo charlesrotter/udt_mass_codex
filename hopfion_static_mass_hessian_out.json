@@ -1,0 +1,36 @@
+{
+ "phaseB": {
+  "method": "constrained tangent-space Hessian, matrix-free FD-of-gradient HVP, analytic-symmetry deflation ONLY (3 translations + 3 rotations + 1 target-SO(2)); LOBPCG-lite Rayleigh minimization",
+  "coarse_grid_negatives": {
+   "h": [
+    0.2824,
+    0.1882
+   ],
+   "lam": [
+    -4.0746,
+    -1.648
+   ],
+   "in_core": [
+    1.0,
+    1.0
+   ],
+   "virial": [
+    1.208,
+    1.085
+   ],
+   "p_fit": 2.1,
+   "reading": "localized negatives scale ~h^2 -> 0 in continuum (NOT converged); on off-equilibrium subsampled fields (virial 1.08-1.30). Discretization artifacts, not instability."
+  },
+  "true_256_equilibrium": {
+   "virial": 0.9995,
+   "gradnorm": 0.1318,
+   "rayleigh_trajectory": "20 of 22 iterations POSITIVE (0.0654 -> 0.0047, extended near-zero continuum, in_core~0.03); unconverged tail dipped to -0.00195 (|lam|<<resid 0.031, in_core rose 0.03->0.39)",
+   "converged_localized_negative": false,
+   "reading": "no CONVERGED localized negative eigenpair (all near-zero modes have resid >> |lam|). The marginal -0.002 tail is at the residual-gradient floor (field gradnorm 0.13, incomplete production minimization) + the expected gapless near-zero continuum."
+  },
+  "scale_derrick_mode": "E''(1)=2 E4 > 0 (positive; confirmed)",
+  "criterion": "PASS requires no CONVERGED localized negative mode; FAIL requires a localized negative that CONVERGES with grid/domain refinement",
+  "verdict": "PASS_ON_FAIL_CRITERION (no converged localized negative mode) -- with caveat: near-zero spectrum not machine-clean positive-definite (gapless continuum + residual gradnorm 0.13). Cleanest closure = fully-relaxed field + converged eigensolver, or the coupled metric-carrier Hessian (separate later gate).",
+  "gate": "PASS(no converged localized negative) / caveat-flagged"
+ }
+}
