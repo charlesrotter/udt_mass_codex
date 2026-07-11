@@ -27,12 +27,22 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-09 — SIMPLE METRIC + WR-L + Thread B drain + time-live gates + hopfion/H4; free \(D_A\) quarantined). ============
+## ============ CURRENT STATE (2026-07-11 — H3 STATIC PARTICLE-MASS arc is the live frontier; simple-metric/WR-L macro is a SEPARATE ongoing lane, NOT uniquely live). ============
 
-**➤➤➤ LATEST (Charles: stick to simple metric; derive everything from it; quarantine free \(D_A\)).**
+**➤➤➤ LATEST (2026-07-11 — Charles-dispatched PARTICLE-MASS arc, new frame):** `UDT_H3_STATIC_MASS_BACKREACTION_DISPATCH.md` +
+`hopfion_static_mass_results.md`. **NEW FRAME for the particle sector:** EH geometric action `∫√−g R/(2κ_g)` (Lovelock-CONDITIONAL, not
+native-dilation-derived — trigger #6) + **physical-metric** carrier coupling; **demote** ḡ (P16-C), reciprocal-interior `B=1/A`, and
+G/P for the particle. Status (see the H3-static-mass entry lower in this block): **Phase A/C PASS (rigorous)** — clean local mass
+`M_N=2E_4` to 0.05% (isolated-BC + exact discrete face flux); **Phase B (stability) UNRESOLVED** (gradnorm ~0.12 stall at 256³, a
+localized negative direction at the non-critical field; multi-hour mode-following relaxation IN PROGRESS, then ≥384³). Clean mass NOT yet
+established (EH-premise + unresolved Phase B).
 
-**Binding frame:** `UDT_ELEGANT_FRAME.md`.  
-**LIVE foundation:** **`SIMPLE_METRIC_MACRO.md`** + CAS `simple_metric_FE_rederive.py`.  
+**Macro lane (SEPARATE, still valid — NOT the uniquely-live frontier):** `UDT_ELEGANT_FRAME.md` / `SIMPLE_METRIC_MACRO.md` (WR-L
+`A=1−r/X`, C-2026-07-09-1). The 2026-07-09 "stick to simple metric" directive governs the MACRO sector; the particle-mass sector above
+runs in its own (Charles-authorized) frame. Both are live; neither is uniquely so.
+
+**Binding frame (macro):** `UDT_ELEGANT_FRAME.md`.  
+**LIVE macro foundation:** **`SIMPLE_METRIC_MACRO.md`** + CAS `simple_metric_FE_rederive.py`.  
 **MAP:** `macro_sector_MAP.md`.
 
 **Metric (only):**

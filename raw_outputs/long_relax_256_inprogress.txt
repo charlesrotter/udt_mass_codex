@@ -1,0 +1,4 @@
+# start(topology-safe) gradnorm=1.1968e-01 Q=0.9917 E=286.1377 dt=0.02
+it=40 t=30s gradnorm=1.1788e-01 Q=0.9917 E=286.1331 dt=2.0e-02
+it=80 t=59s gradnorm=1.1327e-01 Q=0.9917 E=286.1199 dt=2.0e-02
+it=120 t=88s gradnorm=1.0779e-01 Q=0.9917 E=286.0994 dt=2.0e-02

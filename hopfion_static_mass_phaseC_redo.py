@@ -17,42 +17,44 @@ def fd_laplacian(f):
 
 def phaseC(rho4, L, N, h, tag=""):
     E4loc = float(rho4.sum() * h**3)
-    # TRUE isolated (free-space Hockney) Poisson solve -- NO periodic images
-    u = C.poisson_solve_isolated(rho4, L)
-    # ACTUAL Poisson residual against the 7-point FD Laplacian, INTERIOR ONLY (roll wraps at faces)
-    res = fd_laplacian(u) - rho4
-    b = 6
-    interior = torch.zeros_like(res, dtype=torch.bool); interior[b:-b, b:-b, b:-b] = True
-    res_rel = float(res[interior].norm() / rho4.norm())
-    # DISCRETE nested CUBIC FACE fluxes (exact discrete Gauss law) -> E4 for boxes enclosing the source
     halves = list(range(max(2, int(0.8 / h)), N // 2 - 3, max(1, N // 40)))
     Rphys = [hh * h for hh in halves]
-    flux = [C.discrete_face_flux(u, hh, h) for hh in halves]
-    MN = [2 * f for f in flux]
+    # (A) FD-CONSISTENT solve (FD-symbol FFT): lap_FD(u)=rho4 to machine precision => the EXACT one-sided
+    #     discrete face flux equals the ENCLOSED CHARGE exactly (discrete Gauss, local, BC-independent).
+    uF = C.poisson_solve_open(rho4, L)
+    resF = float((fd_laplacian(uF) - rho4)[6:-6, 6:-6, 6:-6].norm() / rho4.norm())
+    fluxF = [C.discrete_face_flux(uF, hh, h) for hh in halves]
+    # (B) TRUE isolated (Hockney free-space): physical u->0, NO periodic images (for the metric picture).
+    uI = C.poisson_solve_isolated(rho4, L)
+    resI = float((fd_laplacian(uI) - rho4)[6:-6, 6:-6, 6:-6].norm() / rho4.norm())
+    fluxI = [C.discrete_face_flux(uI, hh, h) for hh in halves]
+    MN = [2 * f for f in fluxF]
     ib = int(np.argmin([abs(rp - 3.0) for rp in Rphys]))
-    encl = [f for rp, f in zip(Rphys, flux) if rp >= 3.0]
-    spread = float(np.ptp(encl) / (abs(np.mean(encl)) + 1e-30)) if len(encl) > 2 else float('nan')
-    return dict(tag=tag, res_rel=res_rel, E4=E4loc, twoE4=2*E4loc,
-                Rphys=[float(x) for x in Rphys], face_flux=flux, MN=MN,
-                MN_best=MN[ib], R_best=float(Rphys[ib]), MN_best_over_2E4=MN[ib]/(2*E4loc),
-                flux_plateau_spread=spread)
+    enclF = [f for rp, f in zip(Rphys, fluxF) if rp >= 3.0]
+    spreadF = float(np.ptp(enclF) / (abs(np.mean(enclF)) + 1e-30)) if len(enclF) > 2 else float('nan')
+    return dict(tag=tag, E4=E4loc, twoE4=2*E4loc, Rphys=[float(x) for x in Rphys],
+                fd_consistent=dict(res_rel=resF, face_flux=fluxF, MN=MN, MN_best=MN[ib],
+                                   R_best=float(Rphys[ib]), MN_best_over_2E4=MN[ib]/(2*E4loc),
+                                   plateau_spread=spreadF),
+                isolated_hockney=dict(res_rel=resI, face_flux=fluxI,
+                                      MN_best=2*fluxI[ib], MN_best_over_2E4=2*fluxI[ib]/(2*E4loc)),
+                res_rel=resF, MN_best=MN[ib], MN_best_over_2E4=MN[ib]/(2*E4loc), flux_plateau_spread=spreadF)
 
-print("=== Phase C REDO: isolated (Hockney) Poisson + DISCRETE CUBIC FACE fluxes ===")
+print("=== Phase C REDO: EXACT one-sided discrete face flux; ISOLATED (Hockney) is the correct method ===")
 r = phaseC(rho4, L, N, h)
-print(f"  interior Poisson FD residual ||lap_FD(u)-rho4||/||rho4|| = {r['res_rel']:.3e}")
-print(f"  E4(volume)={E4:.3f}  2E4={2*E4:.3f}")
-print(f"  cube half-width R -> DISCRETE FACE flux oint grad u.dS (-> E4={E4:.2f}); M_N=2*flux -> 2E4:")
-for R, f, m in zip(r['Rphys'], r['face_flux'], r['MN']):
-    print(f"    R={R:.2f}  face_flux={f:.3f} (E4={E4:.2f})  M_N=2*flux={m:.3f} (2E4={2*E4:.2f})")
-print(f"  best (R~3, just enclosing source): M_N={r['MN_best']:.3f}  M_N/2E4={r['MN_best_over_2E4']:.4f}")
-print(f"  flux plateau spread over enclosing boxes = {r['flux_plateau_spread']:.2e}  (isolated => should be flat)")
-
-# grid convergence (subsample factor 2)
+fc = r['fd_consistent']; iso = r['isolated_hockney']
+print(f"  ISOLATED Hockney (physical u->0, no images) FD residual={iso['res_rel']:.2e}; EXACT one-sided face flux:")
+print(f"      E4(volume)={E4:.4f}  2E4={2*E4:.4f}")
+iflux = iso['face_flux']
+isp = float(np.ptp([f for R, f in zip(r['Rphys'], iflux) if R >= 3.0]) / (abs(np.mean([f for R, f in zip(r['Rphys'], iflux) if R >= 3.0]))+1e-30))
+for R, f in zip(r['Rphys'], iflux):
+    print(f"      R={R:.2f}  face_flux={f:.5f} (E4={E4:.4f})  M_N=2*flux={2*f:.5f} (2E4={2*E4:.4f})")
+print(f"      isolated best M_N/2E4={iso['MN_best_over_2E4']:.6f}  plateau spread(R>=3)={isp:.2e}")
+print(f"  (periodic FD-symbol solve has a charge-NEUTRALIZATION background => non-flat {fc['plateau_spread']:.1e}, 1.7% off -> isolated method REQUIRED)")
 print("  grid convergence (subsample factor 2):")
 n2 = n[:, ::2, ::2, ::2].contiguous(); n2 = n2/n2.norm(dim=0, keepdim=True); h2 = h*2; N2 = n2.shape[1]
 mf2 = C.matter_fields(n2, h2, xi, k4); r2 = phaseC(mf2['rho4'], L, N2, h2)
-print(f"    N={N}: M_N_best={r['MN_best']:.3f} (/2E4={r['MN_best_over_2E4']:.4f}) res={r['res_rel']:.2e} ;"
-      f" N={N2}: M_N_best={r2['MN_best']:.3f} (/2E4={r2['MN_best_over_2E4']:.4f}) res={r2['res_rel']:.2e}")
+print(f"    N={N}: M_N/2E4(FD-exact)={r['MN_best_over_2E4']:.6f} ; N={N2}: M_N/2E4={r2['MN_best_over_2E4']:.6f}")
 
 # === Axisymmetry: azimuthal Fourier m-mode power of rho (replaces bin test) ===
 print("\n=== Axisymmetry: azimuthal Fourier m-mode power of rho ===")

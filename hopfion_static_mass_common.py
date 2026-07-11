@@ -120,19 +120,22 @@ def poisson_solve_isolated(rho4, L):
 
 
 def discrete_face_flux(u, half, h):
-    """Discrete Gauss-law flux oint grad u . n dS over a cubic box of index half-width `half` centered
-    in the grid, using FD central-diff grad u summed over the 6 discrete faces (area element h^2).
-    By the discrete divergence theorem this equals sum_{cells in box} lap_FD(u) exactly."""
+    """EXACT discrete Gauss-law flux over the cubic box of cells [c-half, c+half]^3, using the ONE-SIDED
+    differences across the 6 box faces that the 7-point Laplacian's telescoping sum produces:
+        sum_{cells in box} lap_FD(u) * h^3  ==  h * sum_{boundary bonds} (u_outside - u_inside).
+    (Central differences do NOT give the discrete divergence theorem; one-sided bonds do.) If u solves
+    lap_FD(u)=rho4, this equals the enclosed charge sum rho4*h^3 EXACTLY, for any BC (Gauss is local)."""
     N = u.shape[0]; c = N // 2
     lo, hi = c - half, c + half
-    dux = (torch.roll(u, -1, 0) - torch.roll(u, 1, 0)) / (2 * h)
-    duy = (torch.roll(u, -1, 1) - torch.roll(u, 1, 1)) / (2 * h)
-    duz = (torch.roll(u, -1, 2) - torch.roll(u, 1, 2)) / (2 * h)
+    sl = slice(lo, hi + 1)
     s = 0.0
-    s += float(dux[hi, lo:hi, lo:hi].sum()) - float(dux[lo, lo:hi, lo:hi].sum())   # +/- x faces
-    s += float(duy[lo:hi, hi, lo:hi].sum()) - float(duy[lo:hi, lo, lo:hi].sum())   # +/- y faces
-    s += float(duz[lo:hi, lo:hi, hi].sum()) - float(duz[lo:hi, lo:hi, lo].sum())   # +/- z faces
-    return s * h**2
+    s += float((u[hi + 1, sl, sl] - u[hi, sl, sl]).sum())     # +x boundary bonds (inside hi -> outside hi+1)
+    s += float((u[lo - 1, sl, sl] - u[lo, sl, sl]).sum())     # -x
+    s += float((u[sl, hi + 1, sl] - u[sl, hi, sl]).sum())     # +y
+    s += float((u[sl, lo - 1, sl] - u[sl, lo, sl]).sum())     # -y
+    s += float((u[sl, sl, hi + 1] - u[sl, sl, hi]).sum())     # +z
+    s += float((u[sl, sl, lo - 1] - u[sl, sl, lo]).sum())     # -z
+    return s * h
 
 
 def poisson_solve_open(rho4, L):
