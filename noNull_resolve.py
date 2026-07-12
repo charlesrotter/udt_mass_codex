@@ -174,16 +174,17 @@ if STAGE == 'nk':
     def btau(x, p, rad):                                 # positive root of ||x + tau p|| = rad
         a_ = ip(p, p); b_ = 2 * ip(x, p); c_ = ip(x, x) - rad * rad
         return (-b_ + max(b_ * b_ - 4 * a_ * c_, 0.0) ** 0.5) / (2 * a_ + 1e-30)
-    def steihaug(b, mu, rad, u1, maxit=40, tol=0.05):    # Steihaug-CG for (H+muM)x=b within trust radius
-        x = torch.zeros_like(b); r = b.clone(); p = r.clone(); rr = ip(r, r); b0 = rr ** 0.5 + 1e-30
+    def steihaug(b, mu, rad, u1, maxit=60, tol=1e-2):    # PRECONDITIONED Steihaug-CG for (H+muM)x=b in trust rad
+        def pc(v): return defl_nk(precond(v), u1)        # SPD preconditioner, kept in the deflated tangent
+        x = torch.zeros_like(b); r = b.clone(); z = pc(r); p = z.clone(); rz = ip(r, z); b0 = float(r.norm()) + 1e-30
         for j in range(maxit):
             Hp = Aop(p, mu, u1); pHp = ip(p, Hp)
             if pHp <= 1e-30: return x + btau(x, p, rad) * p, 'negcurv', j
-            al = rr / pHp; xn = x + al * p
+            al = rz / pHp; xn = x + al * p
             if float(xn.norm()) >= rad: return x + btau(x, p, rad) * p, 'boundary', j
-            x = xn; r = r - al * Hp; rn = ip(r, r)
-            if rn ** 0.5 < tol * b0: return x, 'converged', j
-            p = r + (rn / rr) * p; rr = rn
+            x = xn; r = r - al * Hp
+            if float(r.norm()) < tol * b0: return x, 'converged', j
+            z = pc(r); rz_new = ip(r, z); p = z + (rz_new / rz) * p; rz = rz_new
         return x, 'maxit', maxit
     mu = float(os.environ.get('NK_MU0', '1.0')); rad = float(os.environ.get('NK_RAD', '2.0'))
     t0 = time.time(); traj = []
