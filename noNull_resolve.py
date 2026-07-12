@@ -35,10 +35,10 @@ FW = 2                                              # exactly the pin_boundary(w
 def free_mask(w):
     msk = torch.zeros(N, N, N, device=dev); msk[w:-w, w:-w, w:-w] = 1.0; return msk
 _FM = free_mask(FW)
-def freeproj(v, w=FW):                              # P_free P_T : tangent, then zero the w fixed layers
+def freeproj_at(nn, v, w=FW):                       # P_nn(v) = P_free[ v - (nn.v) nn ] -- EXPLICIT base point
     fm = _FM if w == FW else free_mask(w)
-    return tang(n, v) * fm
-def fgrad(nn): return freeproj(gE(nn))              # g_f = P_free P_T grad E
+    return (v - (v * nn).sum(0, keepdim=True) * nn) * fm
+def fgrad(nn): return freeproj_at(nn, gE(nn))       # g_f = P_free P_T grad E at nn
 def theta_max(nn):
     mx = 0.0
     for a in range(3):
@@ -86,21 +86,32 @@ if STAGE == 'relax':
         n = pin(torch.tensor(d0['n'], device=dev)); open(LOG, 'w').close()
     TARGET = float(os.environ.get('MNORM_TARGET', '5e-2'))   # ||g||_{M^-1} target
     BUDGET = float(os.environ.get('RELAX_BUDGET_S', '3000'))
-    g = fgrad(n); E = E_of(n); t0 = time.time(); a_prev = 1.0     # g = g_f = P_free P_T grad E
-    hist = deque(maxlen=12); stuck = 0                            # preconditioned L-BFGS (free-projected)
-    logline(f"# PRECOND FREE-PROJ L-BFGS (P_free={FW} layers) start ||g_f||_M-1={mnorm(g,h):.4e} "
+    OPT = os.environ.get('OPTIMIZER', 'lbfgs')
+    g = fgrad(n); E = E_of(n); t0 = time.time(); a_prev = 1.0; stuck = 0; traj = []
+    hist = deque(maxlen=8)                                        # L-BFGS (s,y) pairs, transported at use
+    s_cg = freeproj_at(n, precond(g)); d_cg = -s_cg; gs_old = ip(g, s_cg)          # CG state
+    logline(f"# CORRECTED RIEMANNIAN {OPT.upper()} (P_free={FW}, transported) start ||g_f||_M-1={mnorm(g,h):.4e} "
             f"(raw={float(g.norm()):.3e}) E={E:.4f} Q_fwd={charge_fwd(n):.4f} shift={shift:.3f} target<{TARGET:.0e}")
     for it in range(1, 20000):
-        q = g.clone(); alphas = []                               # two-loop recursion, H0 = precond
-        use = [(s, y) for (s, y) in hist if ip(y, s) > 1e-18]; rhos = [1.0 / ip(y, s) for (s, y) in use]
-        for (s, y), rho in zip(reversed(use), reversed(rhos)):
-            a = rho * ip(s, q); alphas.append(a); q = q - a * y
-        r = freeproj(precond(q))
-        for (s, y), rho, a in zip(use, rhos, reversed(alphas)):
-            b = rho * ip(y, r); r = r + (a - b) * s
-        d = -freeproj(r); slope = ip(g, d)
-        if slope >= 0: d = -freeproj(precond(g)); slope = ip(g, d); hist.clear()   # restart
-        a = min(a_prev * 2.0, 4.0) if hist else 1.0; En = None; nt = None
+        if OPT == 'lbfgs':
+            raw = list(hist); q = g.clone(); meta = []            # TRANSPORT each pair ON-DEMAND (memory-safe)
+            for (s, y) in reversed(raw):                          # first loop, newest->oldest
+                sT = freeproj_at(n, s); yT = freeproj_at(n, y); ys = ip(yT, sT)
+                if ys <= 1e-18: meta.append(None); del sT, yT; continue
+                rho = 1.0 / ys; a = rho * ip(sT, q); q = q - a * yT; meta.append((rho, a)); del sT, yT
+            r = freeproj_at(n, precond(q))                        # H0 = precond
+            for (s, y), mt in zip(raw, reversed(meta)):           # second loop, oldest->newest
+                if mt is None: continue
+                rho, a = mt; sT = freeproj_at(n, s); yT = freeproj_at(n, y)
+                b = rho * ip(yT, r); r = r + (a - b) * sT; del sT, yT
+            d = -r; slope = ip(g, d)
+            if slope >= 0: d = -freeproj_at(n, precond(g)); slope = ip(g, d); hist.clear()
+            a = min(a_prev * 2.0, 4.0) if raw else 1.0
+        else:                                                     # preconditioned Polak-Ribiere CG
+            d = d_cg; slope = ip(g, d)
+            if slope >= 0: d = -s_cg; slope = ip(g, d)
+            a = min(a_prev * 2.0, 4.0)
+        En = None; nt = None
         for _ in range(45):
             nt_try = pin(n + a * d); Et = E_of(nt_try)
             if Et <= E + 1e-4 * a * slope: En = Et; nt = nt_try; break
@@ -108,25 +119,112 @@ if STAGE == 'relax':
         if En is None:
             stuck += 1
             if stuck >= 3: logline(f"# relax line-search stuck x3 it={it}"); break
-            hist.clear(); a_prev = 1.0; continue
+            hist.clear(); s_cg = freeproj_at(n, precond(g)); d_cg = -s_cg; gs_old = ip(g, s_cg); a_prev = 1.0; continue
         stuck = 0; a_prev = a; g_new = fgrad(nt)
-        sv = freeproj((nt - n)); yv = g_new - g                  # curvature pair (free-projected)
-        if ip(sv, yv) > 1e-18: hist.append((sv.clone(), yv.clone()))
+        if OPT == 'lbfgs':
+            sv = freeproj_at(nt, nt - n)                          # step, projected at NEW point
+            g_old_T = freeproj_at(nt, g)                          # TRANSPORT old gradient to T_{nt}
+            yv = g_new - g_old_T
+            if ip(sv, yv) > 1e-18: hist.append((sv.clone(), yv.clone()))
+        else:
+            s_new = freeproj_at(nt, precond(g_new)); s_old_T = freeproj_at(nt, s_cg)
+            beta = max(0.0, ip(g_new, s_new - s_old_T) / (gs_old + 1e-30))
+            d_cg = -s_new + beta * freeproj_at(nt, d); s_cg = s_new; gs_old = ip(g_new, s_new)
         n = nt; g = g_new; E = En
         if it % 10 == 0: gc.collect(); torch.cuda.empty_cache()
         if it % 20 == 0 or it == 1:
             mg = mnorm(g, h)
+            traj.append({'it': it, 't': time.time() - t0, 'gf_mnorm': mg, 'gf_raw': float(g.norm()),
+                         'E': E, 'Q_fwd': charge_fwd(n), 'theta_max': theta_max(n), 'step': a})
             logline(f"  [relax] it={it} t={time.time()-t0:.0f}s ||g_f||_M-1={mg:.4e} (raw={float(g.norm()):.3e}) "
-                    f"E={E:.4f} Q_fwd={charge_fwd(n):.4f} thetamax={theta_max(n):.3f}")
+                    f"E={E:.4f} Q_fwd={charge_fwd(n):.4f} thetamax={theta_max(n):.3f} step={a:.2e}")
             with torch.no_grad():
                 np.savez(CRIT + '.tmp.npz', n=(n / n.norm(dim=0, keepdim=True)).cpu().numpy(), N=N, L=L, h=h, xi=xi, kappa=kap)
                 os.replace(CRIT + '.tmp.npz', CRIT)
+            json.dump(traj, open(f'noNull_relax_{OPT}_traj.json', 'w'), indent=0)
             if mg < TARGET: logline(f"# relax CONVERGED ||g_f||_M-1<{TARGET:.0e}"); break
             if time.time() - t0 > BUDGET: logline("# relax budget hit (NOT at target)"); break
     mg = mnorm(fgrad(n), h)
-    logline(f"# RELAX DONE ||g_f||_M-1={mg:.4e} (raw={float(fgrad(n).norm()):.3e}) target={TARGET:.0e} "
-            f"{'REACHED' if mg<TARGET else 'NOT-REACHED(failure-to-criticality)'} E={E_of(n):.4f} "
-            f"Q_fwd={charge_fwd(n):.5f} Q_sym={charge_sym(n):.5f} theta_max={theta_max(n):.4f}")
+    verdict = 'REACHED' if mg < TARGET else 'NOT-REACHED(failure-to-criticality)'
+    logline(f"# RELAX DONE ({OPT}) ||g_f||_M-1={mg:.4e} (raw={float(fgrad(n).norm()):.3e}) target={TARGET:.0e} "
+            f"{verdict} E={E_of(n):.4f} Q_fwd={charge_fwd(n):.5f} Q_sym={charge_sym(n):.5f} theta_max={theta_max(n):.4f}")
+    json.dump({'optimizer': OPT, 'verdict': verdict, 'final_gf_mnorm': mg, 'final_E': E_of(n),
+               'target': TARGET, 'Q_fwd': charge_fwd(n), 'Q_sym': charge_sym(n), 'theta_max': theta_max(n),
+               'trajectory': traj}, open(f'noNull_relax_{OPT}_out.json', 'w'), indent=1)
+
+# =========================== STAGE nk (Riemannian trust-region Newton-Krylov) ===========================
+if STAGE == 'nk':
+    n = pin(torch.tensor(np.load(CRIT)['n'], device=dev))
+    TARGET = float(os.environ.get('MNORM_TARGET', '5e-2'))
+    BUDGET = float(os.environ.get('NK_BUDGET_S', '6000'))
+    EPS = 1e-4; Md = h**3
+    # analytic modes for modal projections of g_f (exact U(1) is deflated; T/R are pseudomodes -> reported)
+    xg = torch.linspace(-L, L, N, device=dev); Xg, Yg, Zg = torch.meshgrid(xg, xg, xg, indexing='ij')
+    def analytic_modes(nn):
+        dc = [(torch.roll(nn, -1, a + 1) - torch.roll(nn, 1, a + 1)) / (2 * h) for a in range(3)]
+        M = {'Tx': dc[0], 'Ty': dc[1], 'Tz': dc[2], 'Rx': Yg * dc[2] - Zg * dc[1],
+             'Ry': Zg * dc[0] - Xg * dc[2], 'Rz': Xg * dc[1] - Yg * dc[0],
+             'U1': torch.stack([-nn[1], nn[0], torch.zeros_like(nn[0])], 0)}
+        return {k: (lambda vv: vv / (vv.norm() + 1e-30))(freeproj_at(nn, v)) for k, v in M.items()}
+    def defl_nk(v, u1):                                  # P_free P_T then remove exact U(1)
+        v = freeproj_at(n, v); return v - ip(v, u1) * u1
+    def hvp(v, u1):                                      # projected FD-of-gradient HVP, U(1)-deflated
+        v = defl_nk(v, u1); return defl_nk((gE(n + EPS * v) - gE(n - EPS * v)) / (2 * EPS), u1)
+    def Aop(v, mu, u1): return hvp(v, u1) + mu * Md * defl_nk(v, u1)     # (H + mu M) on the deflated tangent
+    def btau(x, p, rad):                                 # positive root of ||x + tau p|| = rad
+        a_ = ip(p, p); b_ = 2 * ip(x, p); c_ = ip(x, x) - rad * rad
+        return (-b_ + max(b_ * b_ - 4 * a_ * c_, 0.0) ** 0.5) / (2 * a_ + 1e-30)
+    def steihaug(b, mu, rad, u1, maxit=40, tol=0.05):    # Steihaug-CG for (H+muM)x=b within trust radius
+        x = torch.zeros_like(b); r = b.clone(); p = r.clone(); rr = ip(r, r); b0 = rr ** 0.5 + 1e-30
+        for j in range(maxit):
+            Hp = Aop(p, mu, u1); pHp = ip(p, Hp)
+            if pHp <= 1e-30: return x + btau(x, p, rad) * p, 'negcurv', j
+            al = rr / pHp; xn = x + al * p
+            if float(xn.norm()) >= rad: return x + btau(x, p, rad) * p, 'boundary', j
+            x = xn; r = r - al * Hp; rn = ip(r, r)
+            if rn ** 0.5 < tol * b0: return x, 'converged', j
+            p = r + (rn / rr) * p; rr = rn
+        return x, 'maxit', maxit
+    mu = float(os.environ.get('NK_MU0', '1.0')); rad = float(os.environ.get('NK_RAD', '2.0'))
+    t0 = time.time(); traj = []
+    logline(f"# NK TRUST-REGION start E={E_of(n):.4f} mu0={mu} rad0={rad} target ||g_f||_M-1<{TARGET:.0e}")
+    for step in range(1, 300):
+        am = analytic_modes(n); u1 = am['U1']
+        g = defl_nk(fgrad(n), u1); gn = mnorm(g, h)
+        proj = {k: abs(ip(g, v)) / h**1.5 for k, v in am.items()}     # modal projections of g_f (M-1 units)
+        if gn < TARGET:
+            logline(f"# NK CONVERGED step={step} ||g_f||_M-1={gn:.4e}"); break
+        delta, status, cgit = steihaug(-g, mu, rad, u1)
+        DN2 = -ip(g, delta)                                          # Newton decrement^2 = <g,(H+muM)^-1 g>
+        n_try = pin(n + delta); Eo = E_of(n); Ta = time.time() - t0
+        actual = Eo - E_of(n_try)
+        Hd = Aop(delta, mu, u1); pred = -ip(g, delta) - 0.5 * ip(delta, Hd)
+        rho = actual / (pred + 1e-30)
+        acc = rho > 0.1 and actual > 0
+        if acc: n = n_try; mu = max(mu * 0.5, 1e-7)
+        else: mu = mu * 3.0
+        if rho > 0.75 and status in ('boundary', 'negcurv'): rad = min(rad * 2, 16)
+        elif rho < 0.25: rad = max(rad * 0.5, 1e-3)
+        rec = {'step': step, 't': Ta, 'gf_mnorm': gn, 'E': Eo, 'DN2': DN2, 'mu': mu, 'rad': rad,
+               'rho': rho, 'cg_status': status, 'cg_iters': cgit, 'accepted': acc,
+               'modal_proj': proj, 'g_perp_phys': mnorm(g - sum(ip(g, v) * v for v in am.values()), h)}
+        traj.append(rec)
+        logline(f"  [nk] step={step} t={Ta:.0f}s ||g_f||_M-1={gn:.4e} DN2={DN2:.3e} E={Eo:.5f} mu={mu:.1e} "
+                f"rad={rad:.2e} rho={rho:+.2f} cg={status}({cgit}) {'ACC' if acc else 'rej'} "
+                f"g_perp={rec['g_perp_phys']:.3e}")
+        with torch.no_grad():
+            np.savez(CRIT + '.tmp.npz', n=(n / n.norm(dim=0, keepdim=True)).cpu().numpy(), N=N, L=L, h=h, xi=xi, kappa=kap)
+            os.replace(CRIT + '.tmp.npz', CRIT)
+        json.dump(traj, open('noNull_nk_traj.json', 'w'), indent=0)
+        gc.collect()
+        if dev == 'cuda': torch.cuda.empty_cache()
+        if Ta > BUDGET: logline("# NK budget hit"); break
+    gnf = mnorm(defl_nk(fgrad(n), analytic_modes(n)['U1']), h)
+    logline(f"# NK DONE ||g_f||_M-1={gnf:.4e} target={TARGET:.0e} {'REACHED' if gnf<TARGET else 'NOT-REACHED'} "
+            f"E={E_of(n):.4f} Q_fwd={charge_fwd(n):.5f} theta_max={theta_max(n):.4f}")
+    json.dump({'final_gf_mnorm': gnf, 'reached': bool(gnf < TARGET), 'final_E': E_of(n),
+               'Q_fwd': charge_fwd(n), 'Q_sym': charge_sym(n), 'theta_max': theta_max(n), 'trajectory': traj},
+              open('noNull_nk_out.json', 'w'), indent=1)
 
 # =========================== STAGE hess (preconditioned, 2 variants) ===========================
 if STAGE == 'hess':
