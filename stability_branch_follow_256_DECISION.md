@@ -185,7 +185,21 @@ artifact.** (The huge +3e4 is the correct O(1/h²) stiffness of high-frequency l
 carrier is topologically stable under the corrected operator; the precise sign of the near-zero lowest
 smooth mode at a TIGHT critical point is the remaining rigor, bottlenecked by Nyquist stiffness.
 
-**STEP 3b FINAL (preconditioned, per Charles steer) — carrier is a STABLE soliton.**
+**⚠ RETRACTED 2026-07-12 (Charles): "STABLE soliton" → STABILITY LEAN / OPEN.** The claim was not earned:
+(1) the field never met the registered 0.05 criticality target; (2) the Hessian used a WIDE core mask
+(N/20≈12 layers), not the true 2-layer free projection — masking out FREE variables; (3) convergence was
+loose eigenvalue-stabilization, not r_j<1e-3; (4) overlaps only IDENTIFY modes — only U(1) is an exact
+lattice zero mode; spatial rotations/translations are APPROXIMATE finite-grid pseudomodes, so their small
+eigenvalues are not provably zero. **Residual decomposition (`noNull_residual_decomp.py`) shows the
+5.84 splits ~50/50 core(r<2)/pinned-boundary(r≥5.5); the TRUE free gradient (w=2 mask) is
+‖g_f‖_{M⁻¹}=4.21 (raw 0.043), CORE-concentrated, ~84× above the 0.05 target — a GENUINE interior residual,
+not boundary contamination (barely changes for w=4,8,12). The field is NOT critical.** Repair in progress:
+proper free-variable projection (P_free removes exactly 2 layers) in relax AND Hessian; re-relax to 0.05
+or bank failure; block≥12; per-mode residual r_j=‖Hv−λMv‖/(‖Hv‖+|λ|‖Mv‖)<1e-3 for the first physical mode;
+mask-sweep w=2,4,8,12; then fresh-reimplementation verify. HONEST STATUS: **Nyquist instability FALSIFIED;
+corrected-carrier stability strongly SUGGESTED but OPEN.** The superseded text below is kept for the record.
+
+**[SUPERSEDED] STEP 3b (preconditioned, per Charles steer) — carrier is a STABLE soliton.**
 Preconditioning (SPD, residual-only, from the no-null link-Laplacian symbol; `noNull_precond.py`) fixed the
 conditioning: the Hessian that couldn't converge now collapses lam0_phys 89→~0 in ~15 iters. Undeflated
 preconditioned block-LOBPCG at the relaxed carrier (||g||_{M⁻¹}=5.84, near-critical; Q_fwd=−0.9919,
