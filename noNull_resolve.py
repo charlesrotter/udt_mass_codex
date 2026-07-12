@@ -31,6 +31,14 @@ def pin(nn):
     return nn / nn.norm(dim=0, keepdim=True)
 def rgrad(nn): return tang(nn, gE(nn))
 def ip(a, b): return float((a * b).sum())
+FW = 2                                              # exactly the pin_boundary(w=2) fixed layers
+def free_mask(w):
+    msk = torch.zeros(N, N, N, device=dev); msk[w:-w, w:-w, w:-w] = 1.0; return msk
+_FM = free_mask(FW)
+def freeproj(v, w=FW):                              # P_free P_T : tangent, then zero the w fixed layers
+    fm = _FM if w == FW else free_mask(w)
+    return tang(n, v) * fm
+def fgrad(nn): return freeproj(gE(nn))              # g_f = P_free P_T grad E
 def theta_max(nn):
     mx = 0.0
     for a in range(3):
@@ -78,33 +86,46 @@ if STAGE == 'relax':
         n = pin(torch.tensor(d0['n'], device=dev)); open(LOG, 'w').close()
     TARGET = float(os.environ.get('MNORM_TARGET', '5e-2'))   # ||g||_{M^-1} target
     BUDGET = float(os.environ.get('RELAX_BUDGET_S', '3000'))
-    g = rgrad(n); E = E_of(n); t0 = time.time(); a_prev = 1.0
-    logline(f"# PRECOND STEEPEST-DESCENT start ||g||_M-1={mnorm(g,h):.4e} (raw={float(g.norm()):.3e}) E={E:.4f} "
-            f"Q_fwd={charge_fwd(n):.4f} shift={shift:.3f} target ||g||_M-1<{TARGET:.0e}")
-    for it in range(1, 6000):
-        d = tang(n, -precond(g))                             # preconditioned steepest descent (SPD search dir)
-        slope = ip(g, d)                                     # < 0 since M^-1 SPD
-        # line search: try to GROW from a_prev, then backtrack (Newton-like precond step ~ O(1))
-        a = min(a_prev * 2.0, 4.0); En = None; nt = None
-        for _ in range(40):
+    g = fgrad(n); E = E_of(n); t0 = time.time(); a_prev = 1.0     # g = g_f = P_free P_T grad E
+    hist = deque(maxlen=12); stuck = 0                            # preconditioned L-BFGS (free-projected)
+    logline(f"# PRECOND FREE-PROJ L-BFGS (P_free={FW} layers) start ||g_f||_M-1={mnorm(g,h):.4e} "
+            f"(raw={float(g.norm()):.3e}) E={E:.4f} Q_fwd={charge_fwd(n):.4f} shift={shift:.3f} target<{TARGET:.0e}")
+    for it in range(1, 20000):
+        q = g.clone(); alphas = []                               # two-loop recursion, H0 = precond
+        use = [(s, y) for (s, y) in hist if ip(y, s) > 1e-18]; rhos = [1.0 / ip(y, s) for (s, y) in use]
+        for (s, y), rho in zip(reversed(use), reversed(rhos)):
+            a = rho * ip(s, q); alphas.append(a); q = q - a * y
+        r = freeproj(precond(q))
+        for (s, y), rho, a in zip(use, rhos, reversed(alphas)):
+            b = rho * ip(y, r); r = r + (a - b) * s
+        d = -freeproj(r); slope = ip(g, d)
+        if slope >= 0: d = -freeproj(precond(g)); slope = ip(g, d); hist.clear()   # restart
+        a = min(a_prev * 2.0, 4.0) if hist else 1.0; En = None; nt = None
+        for _ in range(45):
             nt_try = pin(n + a * d); Et = E_of(nt_try)
             if Et <= E + 1e-4 * a * slope: En = Et; nt = nt_try; break
             a *= 0.5
         if En is None:
-            logline(f"# relax line-search stuck it={it} (slope={slope:.2e}) -> near-critical"); break
-        a_prev = a; n = nt; g = rgrad(n); E = En
+            stuck += 1
+            if stuck >= 3: logline(f"# relax line-search stuck x3 it={it}"); break
+            hist.clear(); a_prev = 1.0; continue
+        stuck = 0; a_prev = a; g_new = fgrad(nt)
+        sv = freeproj((nt - n)); yv = g_new - g                  # curvature pair (free-projected)
+        if ip(sv, yv) > 1e-18: hist.append((sv.clone(), yv.clone()))
+        n = nt; g = g_new; E = En
         if it % 10 == 0: gc.collect(); torch.cuda.empty_cache()
         if it % 20 == 0 or it == 1:
             mg = mnorm(g, h)
-            logline(f"  [relax] it={it} t={time.time()-t0:.0f}s ||g||_M-1={mg:.4e} (raw={float(g.norm()):.3e}) "
+            logline(f"  [relax] it={it} t={time.time()-t0:.0f}s ||g_f||_M-1={mg:.4e} (raw={float(g.norm()):.3e}) "
                     f"E={E:.4f} Q_fwd={charge_fwd(n):.4f} thetamax={theta_max(n):.3f}")
             with torch.no_grad():
                 np.savez(CRIT + '.tmp.npz', n=(n / n.norm(dim=0, keepdim=True)).cpu().numpy(), N=N, L=L, h=h, xi=xi, kappa=kap)
                 os.replace(CRIT + '.tmp.npz', CRIT)
-            if mg < TARGET: logline(f"# relax converged ||g||_M-1<{TARGET:.0e}"); break
-            if time.time() - t0 > BUDGET: logline("# relax budget hit"); break
-    mg = mnorm(rgrad(n), h)
-    logline(f"# RELAX DONE ||g||_M-1={mg:.4e} (raw={float(rgrad(n).norm()):.3e}) E={E_of(n):.4f} "
+            if mg < TARGET: logline(f"# relax CONVERGED ||g_f||_M-1<{TARGET:.0e}"); break
+            if time.time() - t0 > BUDGET: logline("# relax budget hit (NOT at target)"); break
+    mg = mnorm(fgrad(n), h)
+    logline(f"# RELAX DONE ||g_f||_M-1={mg:.4e} (raw={float(fgrad(n).norm()):.3e}) target={TARGET:.0e} "
+            f"{'REACHED' if mg<TARGET else 'NOT-REACHED(failure-to-criticality)'} E={E_of(n):.4f} "
             f"Q_fwd={charge_fwd(n):.5f} Q_sym={charge_sym(n):.5f} theta_max={theta_max(n):.4f}")
 
 # =========================== STAGE hess (preconditioned, 2 variants) ===========================

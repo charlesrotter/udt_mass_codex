@@ -199,6 +199,26 @@ or bank failure; block≥12; per-mode residual r_j=‖Hv−λMv‖/(‖Hv‖+|λ
 mask-sweep w=2,4,8,12; then fresh-reimplementation verify. HONEST STATUS: **Nyquist instability FALSIFIED;
 corrected-carrier stability strongly SUGGESTED but OPEN.** The superseded text below is kept for the record.
 
+**STEP 3b REPAIR IN PROGRESS (2026-07-12) — free projection implemented; criticality NOT yet reached; a
+lower-energy carrier discovered.**
+- Free-variable projection P_free (exactly 2 pinned layers) now used in relaxation; grade ‖g_f‖_{M⁻¹}.
+- Residual is GENUINELY PHYSICAL: g_f has ~0.0000 projection onto the 7 symmetry pseudomodes (auto — the
+  gradient is orthogonal to symmetry directions), so the non-criticality is not harmless soft-mode drift.
+- The no-null relaxation drives the field to a LOWER-ENERGY Q=1 state: E 275.49 → 274.98 (still creeping),
+  Q≈0.99, θ_max≈0.14 (smooth, not unwinding). ⇒ the carrier inherited from the CENTERED-operator solve sat
+  well above the no-null minimum; "reach criticality" means finding a genuinely different, lower soliton.
+- **The registered ‖g_f‖_{M⁻¹}<0.05 target is NOT reached by three optimizers** (preconditioned steepest,
+  CG, L-BFGS): steepest/CG decelerate (‖g_f‖ 4.2→1.2 over ~700 CG iters, slowing); L-BFGS lowers E fast but
+  the gradient oscillates 3–8 while E flattens — a very SOFT, ill-conditioned basin (physical modes ~0.3).
+  This is a genuine FAILURE-TO-CRITICALITY on first/quasi-Newton methods.
+
+**FORK (Charles):** (1) Newton–Krylov / Levenberg–Marquardt (second-order; LM damping handles the near-zero
+Hessian modes) to pin the critical point — the correct tool, but expensive (inner-CG HVPs). (2) Bank the
+failure-to-criticality; stability stays OPEN (Nyquist-falsified is the solid result). (3) Reconsider whether
+0.05 is the right target for so soft a soliton — a looser criticality + per-mode a_j contamination check on
+the first physical mode may suffice. HONEST STATUS UNCHANGED: **Nyquist instability FALSIFIED; corrected-carrier
+stability OPEN** — and now known to require relaxing to a lower-E configuration on a soft, ill-conditioned landscape.
+
 **[SUPERSEDED] STEP 3b (preconditioned, per Charles steer) — carrier is a STABLE soliton.**
 Preconditioning (SPD, residual-only, from the no-null link-Laplacian symbol; `noNull_precond.py`) fixed the
 conditioning: the Hessian that couldn't converge now collapses lam0_phys 89→~0 in ~15 iters. Undeflated
