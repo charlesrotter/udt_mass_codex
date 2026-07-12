@@ -5,6 +5,32 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-10).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
+## CURRENT (2026-07-12 — H3 particle-mass, corrected-operator stability arc)
+
+**Detailed record: `stability_branch_follow_256_DECISION.md`.** Live plan + next action: **LIVE.md CURRENT STATE**.
+
+**One-paragraph state:** The Phase-B "particle unwinding instability" (a −290 negative-Hessian cluster) was
+**FALSIFIED as a checkerboard/Nyquist OPERATOR ARTIFACT** — the centered difference `D^c` (fs_hopfion.py:48,
+used by energy AND hopf_charge) annihilates `(-1)^i`; the 3 negative modes lived in that exact null (blind-
+verified; `R_cb≈0.01`). 384³ can't fix an exact null → that plan is dead. A **corrected no-null operator**
+(`noNull_energy.py`, 8-orientation, O(h²), autograd-exact) was built + validated; the old −290 modes flip to
++30000 under it. An overnight "STABLE soliton" verdict was **RETRACTED → OPEN** (Hessian was at a non-critical
+field, wide mask, loose convergence, overlaps over-read). Now **repairing criticality**: free-variable
+projection `P_free` (2 pinned layers); a moving-tangent Riemannian bug fixed (transport curvature pairs);
+corrected L-BFGS/CG STALL at ‖g_f‖≈2.5 → built Riemannian trust-region **Newton-Krylov** (`STAGE=nk`;
+Steihaug-CG + LM + U(1) deflation + projected HVP + Newton-decrement/modal reporting). **NK WORKS** (‖g_f‖
+2.5→1.0, rho≈1.0); a run is IN PROGRESS to reach the registered `‖g_f‖_{M⁻¹}<0.05`. Relaxation also finds a
+**lower-E Q=1 state** (E 275.49→274.97; the centered carrier sat above the no-null minimum). **Do NOT loosen
+the 0.05 target.** HONEST STATUS: *Nyquist FALSIFIED; lower-E Q=1 path; criticality+stability OPEN.* EH action
+stays CONDITIONAL-DERIVED.
+
+**Next (ordered):** finish NK → corrected Hessian (2-layer free mask, block≥12, per-mode `r_j<1e-3`, mask
+sweep 2/4/8/12, save Ritz + `a_j=v_jᵀg_f`) → fresh-reimpl verify → **F** geodesic/trust-region behavioral
+branches → **G** recompute Phase C E4/source/flux on the corrected carrier. Key files + launch caveats: LIVE.md.
+
+**NOTE:** this particle-mass arc runs in its own (Charles-authorized) frame, SEPARATE from the macro/WR-L
+lane below (both live; neither uniquely so).
+
 ## CURRENT (2026-07-09)
 
 **Frame:** simple reciprocal metric only; free \(D_A\) quarantined (`grok/quarantine_free_DA/`).

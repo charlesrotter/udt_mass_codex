@@ -2,6 +2,11 @@
 
 **⚠ BRANCH: `grok` (2026-07-10)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
+**➤ LIVE PARTICLE-MASS ARC (2026-07-12, separate lane):** `stability_branch_follow_256_DECISION.md` (record) +
+`noNull_energy.py` / `noNull_precond.py` / `noNull_resolve.py` (corrected no-null operator + preconditioner +
+relax/NK/hess) + `stability_checkerboard_audit.py` / `noNull_curvature_check.py` / `noNull_residual_*.py`
+(diagnostics) + `stability_eigenmode_256.py` (block LOBPCG). Phase-B "instability" = Nyquist operator artifact
+(falsified); criticality/stability OPEN. See LIVE.md CURRENT STATE.  
 **Frame:** simple metric + **WR-L / C-2026-07-09-1** (\(A=1-r/X\)).  
 **NEXT:** Thread B **time-live eigenmode** about drained f2d (static seal series exhausted for round); residual L time-live appearance still live.  
 **Quarantine:** free \(D_A\) → `grok/quarantine_free_DA/` (not live theory verdicts).

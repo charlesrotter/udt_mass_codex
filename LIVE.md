@@ -27,16 +27,52 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-11 — H3 STATIC PARTICLE-MASS arc is the live frontier; simple-metric/WR-L macro is a SEPARATE ongoing lane, NOT uniquely live). ============
+## ============ CURRENT STATE (2026-07-12 — H3 STATIC PARTICLE-MASS arc live; the Phase-B "instability" was an OPERATOR ARTIFACT; stability now being re-settled with a corrected operator). ============
 
-**➤➤➤ LATEST (2026-07-11 — Charles-dispatched PARTICLE-MASS arc, new frame):** `UDT_H3_STATIC_MASS_BACKREACTION_DISPATCH.md` +
-`hopfion_static_mass_results.md`. **NEW FRAME for the particle sector:** EH geometric action `∫√−g R/(2κ_g)` (Lovelock-CONDITIONAL, not
-native-dilation-derived — trigger #6) + **physical-metric** carrier coupling; **demote** ḡ (P16-C), reciprocal-interior `B=1/A`, and
-G/P for the particle. Status (see the H3-static-mass entry lower in this block): **Phase A/C PASS (rigorous)** — clean local mass
-`M_N=2E_4` to 0.05% (isolated-BC + exact discrete face flux); **Phase B (stability) UNRESOLVED — with concern** (256³ mode-following
-test DONE: gradnorm→0.085, but a localized negative mode PERSISTS through relaxation, λ_phys≈−285@0.085, 3 seeds — does NOT lift; "+69"
-stable-lean was an unconverged probe, retracted. Non-critical field + contradicts known FS-hopfion stability ⇒ likely a 256³ grid artifact;
-**384³ is the decisive test**). Clean mass NOT established (EH-premise + unresolved-with-concern Phase B).
+**➤➤➤ DETAILED CURRENT RECORD = `stability_branch_follow_256_DECISION.md` (READ IT — it carries the full
+arc, numbers, retractions, and the fork/next-steps). Summary below.**
+
+**➤➤➤ LATEST (2026-07-12 — Phase-B stability arc, corrected-operator repair):**
+- **The Phase-B "localized negative mode / unwinding instability" (λ≈−290 cluster) was a CHECKERBOARD /
+  NYQUIST OPERATOR ARTIFACT — FALSIFIED, blind-verified.** The energy AND hopf_charge used the centered
+  difference `D^c=(f_{i+1}−f_{i-1})/2h` (`fs_hopfion.py:48`), which annihilates `(-1)^i` exactly. All 3
+  negative modes lived in that null (`R_cb≈0.01` vs smooth 0.997; >96% Nyquist-face power). **An exact
+  operator null is NOT removed by 384³ — the earlier "384³ is decisive" plan is SUPERSEDED.** See
+  `nyquist-operator-artifact-negative-modes` memory + `stability_checkerboard_audit.py`.
+- **Corrected operator built + validated:** `noNull_energy.py` — same continuum Faddeev-Skyrme functional,
+  8-orientation one-sided (no Nyquist null), O(h²) to the same limit, autograd-exact (grad matches full
+  autograd to 1e-16). The old −290 modes flip to +30000 under it (`noNull_curvature_check.py`).
+- **"Stable soliton" (banked overnight) was RETRACTED → STABILITY LEAN / OPEN (Charles).** The Hessian
+  had been computed at a NON-critical field with a too-wide core mask, loose convergence, and overlaps
+  over-read as exact zero modes. Residual decomp: `‖g_f‖_{M⁻¹}=4.2` (true 2-layer free mask), core-
+  concentrated, genuinely physical — field is NOT critical.
+- **Repairing criticality now (Charles's ordered protocol):** free-variable projection `P_free` (exactly
+  2 pinned layers) implemented; a moving-tangent Riemannian bug was caught+fixed (transport curvature
+  pairs/history). Corrected first-order (L-BFGS/CG) STALL at `‖g_f‖≈2.5` on the soft basin → built a
+  Riemannian trust-region **Newton-Krylov** (`STAGE=nk`: Steihaug-CG, LM damping μ→0, U(1) deflation,
+  projected HVP, reports Newton decrement + modal projections). **NK WORKS** (‖g_f‖ 2.5→1.0, rho≈1.0);
+  a full NK run is IN PROGRESS to reach the registered `‖g_f‖_{M⁻¹}<0.05` target. The no-null relaxation
+  also drives the field to a **lower-energy Q=1 state** (E 275.49→274.97, Q≈0.99 — the centered-operator
+  carrier sat above the no-null minimum). Do NOT loosen the 0.05 target (post-hoc goalpost).
+- **NEXT (ordered):** finish NK → corrected Hessian (true 2-layer free mask, block≥12, per-mode
+  `r_j=‖Hv−λMv‖/(‖Hv‖+|λ|‖Mv‖)<1e-3`, mask-sweep 2/4/8/12, save all Ritz + `a_j=v_jᵀg_f`) → fresh-
+  reimplementation verify → **F** geodesic/trust-region behavioral branches (max-rotation amplitude) →
+  **G** recompute Phase C (E4/source/flux) on the corrected carrier (`M_N=2E4` identity unchanged).
+- **HONEST STATUS:** `Nyquist instability FALSIFIED; lower-energy Q=1 path observed; corrected-carrier
+  criticality and stability remain OPEN.` EH/metric-only action stays **CONDITIONAL-DERIVED** (separate
+  premise, not touched by this arc). DATA-BLIND throughout.
+
+**Key files (this arc):** `noNull_energy.py` (corrected operator), `noNull_precond.py` (SPD preconditioner),
+`noNull_resolve.py` (STAGE=relax corrected Riemannian L-BFGS/CG + STAGE=nk Newton-Krylov + STAGE=hess),
+`noNull_residual_decomp.py` / `noNull_residual_modes.py` (residual diagnostics), `stability_checkerboard_audit.py`,
+`noNull_curvature_check.py`, `stability_eigenmode_256.py` (block LOBPCG). Fields (gitignored `.npz`):
+`controlled_best_field.npz` (old centered carrier), `noNull_critical_field.npz` (being relaxed), `stability_lowmode_256.npz`.
+Reliable launch = `timeout N … python3` (NOT `nohup … &` — process-group cleanup kills it early). Grad = manual
+autograd (functorch leaked at 256³); one clean GPU process; ~5 min/NK-step (HVP-heavy).
+
+**[SUPERSEDED plan]** The 07-11 "Phase A/C PASS + Phase B unresolved-with-concern, 384³ decisive" is
+superseded by the 07-12 operator-artifact finding above. Phase A/C's clean `M_N=2E4` (0.05%) must be
+RECOMPUTED on the corrected carrier (step G) — its prior numbers used the superseded centered operator.
 
 **Macro lane (SEPARATE, still valid — NOT the uniquely-live frontier):** `UDT_ELEGANT_FRAME.md` / `SIMPLE_METRIC_MACRO.md` (WR-L
 `A=1−r/X`, C-2026-07-09-1). The 2026-07-09 "stick to simple metric" directive governs the MACRO sector; the particle-mass sector above
