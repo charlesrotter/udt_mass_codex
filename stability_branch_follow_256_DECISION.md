@@ -206,12 +206,19 @@ overlap with the analytic generators). The first genuine NON-symmetry physical m
 well above the ±0.02 floor. ⇒ **no genuine negative mode; the corrected carrier is a stable soliton, and
 Phase B's −290 "unwinding instability" was entirely the centered-difference Nyquist artifact.**
 
+**U(1)-DEFLATED CROSS-CHECK (done, both seeds) — corroborates.** Deflating ONLY the exact U(1) mode, the
+lowest modes become the REMAINING rotations (validating the deflation/overlap machinery):
+seed0: −0.010(Rx0.96) +0.011(Ry0.85) +0.068(Tz0.82) +0.144(Tx0.76) **+0.305(physical, POSITIVE)**;
+seed1: −0.009(Ry0.95) −0.005(Rx0.95) +0.230(transl) +0.252(transl) +0.325(physical). Across all
+**4 independent solves (2 variants × 2 seeds)**: every negative eigenvalue is a rotation/U(1) zero mode
+(overlap 0.95–0.96); the first genuine physical mode is consistently **+0.30 to +0.32**.
+
 **Status (Charles's frame):** DERIVED numerically — old (−290,−270,−236) cluster is a Nyquist operator
 artifact (blind-verified). OBSERVED — corrected carrier survives strong relaxation (Q stays 0.99) AND its
-Hessian has no genuine negative mode (zero modes ID'd by overlap; physical spectrum positive). CAVEATS —
-field near-critical not razor (±0.02 FD-HVP/lattice floor); U(1)-deflated cross-check cut off at the 5 h
-timeout (seed 0 converged, seed 1 partial, JSON unsaved — RE-RUNNING); blind-verify of the overlap
-adjudication is the remaining rigor; the EH/metric-only action stays CONDITIONAL-DERIVED (separate premise).
+Hessian has NO genuine negative mode across 4 independent solves (zero modes ID'd by overlap 0.95–0.96;
+first physical mode +0.30..+0.32). CAVEATS — field near-critical not razor (±0.02 FD-HVP/lattice floor);
+a fresh-reimplementation blind-verify of the Hessian+overlap is the remaining formal rigor (currently
+corroborated by 4 internal cross-checks); the EH/metric-only action stays CONDITIONAL-DERIVED (separate premise).
 
 **NEXT:** (E done: θ_max + 2 charge readouts.) F — geodesic/trust-region behavioral branches (max-rotation
 amplitude) under E_noNull. G — recompute Phase C (E4, source, flux) on the corrected carrier (M_N=2E4

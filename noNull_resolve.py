@@ -186,7 +186,9 @@ if STAGE == 'hess':
         return recs
 
     out = {'crit_mnorm': gnM, 'Q_fwd': charge_fwd(n), 'Q_sym': charge_sym(n), 'theta_max': theta_max(n), 'runs': {}}
-    for tag, dfl in (('undeflated', False), ('U1deflated', True)):
+    _sel = os.environ.get('HVARIANT', 'both')
+    _variants = [v for v in (('undeflated', False), ('U1deflated', True)) if _sel == 'both' or v[0] == _sel]
+    for tag, dfl in _variants:
         allrecs = []
         for seed in (0, 1):
             logline(f"# --- Hessian {tag} seed={seed} ---")
