@@ -230,35 +230,24 @@ if STAGE == 'nk':
 # =========================== STAGE hess (preconditioned, 2 variants) ===========================
 if STAGE == 'hess':
     n = pin(torch.tensor(np.load(CRIT)['n'], device=dev))
-    gnM = mnorm(rgrad(n), h)
-    logline(f"# HESS at critical field: ||g||_M-1={gnM:.4e} Q_fwd={charge_fwd(n):.5f} Q_sym={charge_sym(n):.5f} "
-            f"theta_max={theta_max(n):.4f}")
-    # core mask excluding the pinned-boundary transition region (~N/20 layers) -- the fixed-BC constraint,
-    # NOT a physics deflation (the soliton lives at r<4; the pinning transition/residual sits at r>5.4)
-    bw = N // 20; bmask = torch.zeros(N, N, N, device=dev); bmask[bw:-bw, bw:-bw, bw:-bw] = 1.0
-    # analytic modes for POST-HOC identification (translations, spatial rotations, U(1) target)
-    x = torch.linspace(-L, L, N, device=dev); Xg, Yg, Zg = torch.meshgrid(x, x, x, indexing='ij')
-    dnc = [(torch.roll(n, -1, a + 1) - torch.roll(n, 1, a + 1)) / (2 * h) for a in range(3)]   # for translations
-    trans = dnc
-    rot = [Yg * dnc[2] - Zg * dnc[1], Zg * dnc[0] - Xg * dnc[2], Xg * dnc[1] - Yg * dnc[0]]     # spatial rotations
-    vU1 = torch.stack([-n[1], n[0], torch.zeros_like(n[0])], 0)                                  # exact U(1): e_z x n
-    def norml(v): v = tang(n, v * bmask); return v / (v.norm() + 1e-30)
-    analytic = {'Tx': norml(trans[0]), 'Ty': norml(trans[1]), 'Tz': norml(trans[2]),
-                'Rx': norml(rot[0]), 'Ry': norml(rot[1]), 'Rz': norml(rot[2]), 'U1': norml(vU1)}
-    QU1, _ = torch.linalg.qr(torch.stack([analytic['U1'].reshape(-1)], 1))   # deflate ONLY U(1)
-
-    def mk_defl(deflate_U1):
-        def defl(v):
-            v = tang(n, v * bmask).reshape(-1)
-            if deflate_U1: v = v - QU1 @ (QU1.T @ v)
-            return v.reshape(3, N, N, N)
-        return defl
+    HBW = int(os.environ.get('HESS_BW', '2'))            # free-mask width (primary 2; sweep 2,4,8,12)
+    BS = int(os.environ.get('HESS_BS', '12'))            # block size (>=12 per spec)
+    SEEDS = [int(s) for s in os.environ.get('HESS_SEEDS', '0,1').split(',')]
+    g_f = freeproj_at(n, gE(n), HBW); gnM = mnorm(g_f, h)
+    logline(f"# HESS bw={HBW} bs={BS} at critical field ||g_f||_M-1={gnM:.4e} Q_fwd={charge_fwd(n):.5f} theta_max={theta_max(n):.4f}")
+    xg = torch.linspace(-L, L, N, device=dev); Xg, Yg, Zg = torch.meshgrid(xg, xg, xg, indexing='ij')
+    dnc = [(torch.roll(n, -1, a + 1) - torch.roll(n, 1, a + 1)) / (2 * h) for a in range(3)]
+    _am = {'Tx': dnc[0], 'Ty': dnc[1], 'Tz': dnc[2], 'Rx': Yg * dnc[2] - Zg * dnc[1],
+           'Ry': Zg * dnc[0] - Xg * dnc[2], 'Rz': Xg * dnc[1] - Yg * dnc[0],
+           'U1': torch.stack([-n[1], n[0], torch.zeros_like(n[0])], 0)}                 # only U1 exact
+    analytic = {k: (lambda w: w / (w.norm() + 1e-30))(freeproj_at(n, v, HBW)) for k, v in _am.items()}
+    u1 = analytic['U1']
+    def defl(v): v = freeproj_at(n, v, HBW); return v - ip(v, u1) * u1                  # P_free(bw) then remove exact U(1)
+    def pc(v): return defl(precond(v))
     EPS = 1e-4
-    def mk_hvp(defl):
-        def hvp(v):
-            v = defl(v); return defl((gE(n + EPS * v) - gE(n - EPS * v)) / (2 * EPS))
-        return hvp
-    def mgs(cols, defl):
+    def hvp(v):
+        v = defl(v); return defl((gE(n + EPS * v) - gE(n - EPS * v)) / (2 * EPS))
+    def mgs(cols):
         out = []
         for c in cols:
             c = defl(c)
@@ -266,57 +255,70 @@ if STAGE == 'hess':
             nc = float(c.norm())
             if nc > 1e-9: out.append(c / nc)
         return out
+    def rj_of(v):                                        # symmetric relative residual r_j = ||Hv-lam M v||/(||Hv||+|lam| ||Mv||)
+        Hv = hvp(v); lam = ip(v, Hv); res = float(defl(Hv - lam * v).norm())
+        return res / (float(Hv.norm()) + abs(lam) + 1e-30), lam
 
-    def run(tag, deflate_U1, seed, bs=6, maxit=26):
-        defl = mk_defl(deflate_U1); hvp = mk_hvp(defl)
+    def run(seed):
         torch.manual_seed(seed)
-        X = mgs([torch.randn(3, N, N, N, device=dev) for _ in range(bs)], defl)
-        P = []; t0 = time.time(); last = None; prev = None
-        for it in range(maxit):
+        X = mgs([torch.randn(3, N, N, N, device=dev) for _ in range(BS)])
+        t0 = time.time(); last = None
+        for it in range(80):
             Rr = []
-            for j in range(len(X)):
-                Hx = hvp(X[j]); th = ip(X[j], Hx); Rr.append(defl(precond(Hx - th * X[j]))); del Hx   # PRECOND residual
+            for xv in X:
+                Hx = hvp(xv); th = ip(xv, Hx); Rr.append(pc(Hx - th * xv)); del Hx     # PRECOND residual
                 if dev == 'cuda': torch.cuda.empty_cache()
-            basis = mgs(X + Rr + P, defl); k = len(basis); A = torch.zeros(k, k, device=dev)
+            cols = X + Rr; del Rr                          # basis = [X, R] (no P: preconditioning carries convergence)
+            basis = mgs(cols); del cols
+            k = len(basis); A = torch.zeros(k, k, device=dev)              # gram, del each HVP (memory-lean)
             for j in range(k):
                 Hj = hvp(basis[j])
                 for i in range(k): A[i, j] = ip(basis[i], Hj)
-                del Hj; gc.collect(); torch.cuda.empty_cache()
+                del Hj
+                if dev == 'cuda': torch.cuda.empty_cache()
             A = 0.5 * (A + A.T); w, U = torch.linalg.eigh(A)
-            newX = [defl(sum(U[i, j] * basis[i] for i in range(k))) for j in range(bs)]
-            newX = [v / v.norm() for v in newX]
-            lam0 = float(w[0]); r0 = float(defl(hvp(newX[0]) - lam0 * newX[0]).norm())
-            rel = r0 / (abs(lam0) + 1e-30); lamp = lam0 / h**3
-            # lam-stabilization (near-zero modes: rel=||R||/|lam| never hits 1e-3); track lowest-4 shift
-            spread = np.mean([abs(float(w[i]) / h**3) for i in range(min(4, bs))])
-            dl = abs(lamp - prev) / (abs(lamp) + spread + 1e-30) if prev is not None else 1.0; prev = lamp
-            logline(f"  [{tag} s{seed}] it={it} t={time.time()-t0:.0f}s lam0_phys={lamp:.4e} rel={rel:.2e} dl={dl:.2e} "
-                    f"lam_phys[0:4]={[round(float(w[i])/h**3,2) for i in range(min(4,bs))]}")
-            last = (w, newX)                                  # keep the LATEST Ritz set (not min-residual)
-            if (rel < 1e-3 or (dl < 2e-3 and it > 8)) and it > 4:
-                logline(f"  [{tag} s{seed}] CONVERGED rel={rel:.2e} dl={dl:.2e}"); break
-            P = [defl(newX[j] - X[j]) for j in range(min(bs, len(X)))]; X = newX
-            del basis, A, U, w, Rr; gc.collect(); torch.cuda.empty_cache()
-        w, newX = last
-        # overlaps of each converged Ritz vector with the analytic zero modes
-        recs = []
-        for j in range(len(newX)):
-            ov = {nm: round(abs(ip(newX[j], av)), 3) for nm, av in analytic.items()}
-            recs.append({'lam_phys': float(w[j]) / h**3, 'overlaps': ov})
+            newX = [(lambda vv: vv / vv.norm())(defl(sum(U[i, j] * basis[i] for i in range(k)))) for j in range(BS)]
+            del basis; gc.collect(); torch.cuda.empty_cache()
+            # lam from Ritz values w; a_j + symmetry overlaps for ALL modes (cheap); r_j via 1 HVP for lowest NRJ
+            NRJ = min(BS, 9)
+            recs = []
+            for j in range(BS):
+                ov = {nm: abs(ip(newX[j], av)) for nm, av in analytic.items()}
+                recs.append({'lam_phys': float(w[j]) / h**3, 'r_j': None, 'a_j': ip(newX[j], g_f) / h**1.5,
+                             'sym_overlap': max(ov.values()), 'overlaps': {k2: round(v2, 3) for k2, v2 in ov.items()}})
+            for j in range(NRJ):
+                Hv = hvp(newX[j]); lamj = ip(newX[j], Hv)
+                recs[j]['r_j'] = float(defl(Hv - lamj * newX[j]).norm()) / (float(Hv.norm()) + abs(lamj) + 1e-30)
+                del Hv
+                if dev == 'cuda': torch.cuda.empty_cache()
+            iphys = next((j for j in range(BS) if recs[j]['sym_overlap'] < 0.6), BS - 1)   # first PHYSICAL mode
+            last = (recs, newX)
+            rjp = recs[iphys]['r_j']; rjp = rjp if rjp is not None else float('nan')
+            logline(f"  [hess bw{HBW} s{seed}] it={it} t={time.time()-t0:.0f}s lam[0:4]="
+                    f"{[round(recs[j]['lam_phys'],3) for j in range(4)]} phys#{iphys}={recs[iphys]['lam_phys']:.3f} "
+                    f"r_j(phys)={rjp:.2e} a_j(phys)={recs[iphys]['a_j']:.2e}")
+            if recs[iphys]['r_j'] is not None and recs[iphys]['r_j'] < 1e-3 and it > 3:
+                logline(f"  [hess bw{HBW} s{seed}] first-physical CONVERGED r_j={recs[iphys]['r_j']:.2e}"); break
+            X = newX
+            del A, U, w; gc.collect(); torch.cuda.empty_cache()
+        recs, newX = last
+        _rj = [(r['r_j'] if r['r_j'] is not None else float('nan')) for r in recs]
+        with torch.no_grad():                            # save EVERY Ritz vector (gitignored .npz)
+            np.savez(f'noNull_hess_ritz_bw{HBW}_s{seed}.npz',
+                     V=np.stack([v.cpu().numpy() for v in newX]), lam_phys=[r['lam_phys'] for r in recs],
+                     r_j=_rj, a_j=[r['a_j'] for r in recs], N=N, L=L, h=h)
         return recs
 
-    out = {'crit_mnorm': gnM, 'Q_fwd': charge_fwd(n), 'Q_sym': charge_sym(n), 'theta_max': theta_max(n), 'runs': {}}
-    _sel = os.environ.get('HVARIANT', 'both')
-    _variants = [v for v in (('undeflated', False), ('U1deflated', True)) if _sel == 'both' or v[0] == _sel]
-    for tag, dfl in _variants:
-        allrecs = []
-        for seed in (0, 1):
-            logline(f"# --- Hessian {tag} seed={seed} ---")
-            allrecs.append(run(tag, dfl, seed))
-        out['runs'][tag] = allrecs
-        json.dump(out, open('noNull_resolve_out.json', 'w'), indent=1)
-    logline("# HESS DONE")
-    for tag in out['runs']:
-        lam0s = [r[0]['lam_phys'] for r in out['runs'][tag]]
-        logline(f"  {tag}: lowest lam_phys across seeds = {[round(x,2) for x in lam0s]}")
-    json.dump(out, open('noNull_resolve_out.json', 'w'), indent=1)
+    out = {'crit_gf_mnorm': gnM, 'bw': HBW, 'bs': BS, 'Q_fwd': charge_fwd(n), 'theta_max': theta_max(n), 'seeds': {}}
+    for seed in SEEDS:
+        logline(f"# --- Hessian bw={HBW} seed={seed} (U(1) deflated; T/R identified by overlap after) ---")
+        out['seeds'][str(seed)] = run(seed)
+        json.dump(out, open(f'noNull_hess_bw{HBW}_out.json', 'w'), indent=1)
+    logline(f"# HESS DONE bw={HBW}")
+    for seed in SEEDS:
+        recs = out['seeds'][str(seed)]
+        iphys = next((j for j in range(BS) if recs[j]['sym_overlap'] < 0.6), BS - 1)
+        rjp = recs[iphys]['r_j']; rjp = rjp if rjp is not None else float('nan')
+        logline(f"  seed{seed}: first-physical#{iphys} lam_phys={recs[iphys]['lam_phys']:.4f} r_j={rjp:.2e} "
+                f"a_j={recs[iphys]['a_j']:.2e}; lowest-6 lam={[round(recs[j]['lam_phys'],3) for j in range(6)]}")
+    json.dump(out, open(f'noNull_hess_bw{HBW}_out.json', 'w'), indent=1)
