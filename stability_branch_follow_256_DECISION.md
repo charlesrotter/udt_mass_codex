@@ -212,12 +212,20 @@ lower-energy carrier discovered.**
   the gradient oscillates 3–8 while E flattens — a very SOFT, ill-conditioned basin (physical modes ~0.3).
   This is a genuine FAILURE-TO-CRITICALITY on first/quasi-Newton methods.
 
-**FORK (Charles):** (1) Newton–Krylov / Levenberg–Marquardt (second-order; LM damping handles the near-zero
-Hessian modes) to pin the critical point — the correct tool, but expensive (inner-CG HVPs). (2) Bank the
-failure-to-criticality; stability stays OPEN (Nyquist-falsified is the solid result). (3) Reconsider whether
-0.05 is the right target for so soft a soliton — a looser criticality + per-mode a_j contamination check on
-the first physical mode may suffice. HONEST STATUS UNCHANGED: **Nyquist instability FALSIFIED; corrected-carrier
-stability OPEN** — and now known to require relaxing to a lower-E configuration on a soft, ill-conditioned landscape.
+**CRITICALITY REACHED (2026-07-12) — the 0.05 target was met (NOT loosened).** Repair sequence that worked:
+(a) fixed a moving-tangent Riemannian bug (freeproj closed over global n → transport curvature pairs/history,
+explicit `freeproj_at(nn,v)`); (b) corrected first-order L-BFGS/CG then STALL cleanly at ‖g_f‖≈2.5 (soft basin);
+(c) built Riemannian trust-region **Newton-Krylov** (`STAGE=nk`: Steihaug-CG, LM μ→0, U(1) deflation, projected
+HVP, Newton-decrement DN2 + modal reporting) — drove 2.5→0.47 (rho≈1.0, DN2 4.1e-3→4.9e-4 smooth) but inner CG
+hit maxit (truncated steps); (d) **preconditioned the inner Steihaug-CG** → inner converges (~17 it) → full
+Newton steps → superlinear: ‖g_f‖ 0.47→1.0→**0.0157** in the last step. **INDEPENDENTLY VERIFIED** (fresh
+gradient, separate code path): ‖g_f‖_{M⁻¹}=0.0157 (free & U(1)-deflated identical), E=274.958 (lower-E Q=1
+minimum), Q_centered=−0.992, θ_max=0.135 (smooth). `noNull_critical_field.npz` is now a genuine critical point.
+
+HONEST STATUS: **Nyquist instability FALSIFIED; a genuinely critical lower-E Q=1 carrier now obtained.**
+Corrected-carrier **STABILITY still OPEN** — pending the corrected Hessian AT this critical field (true 2-layer
+free mask, block≥12, per-mode r_j=‖Hv−λMv‖/(‖Hv‖+|λ|‖Mv‖)<1e-3, mask-sweep 2/4/8/12, save Ritz + a_j=v_jᵀg_f)
+→ fresh-reimplementation verify → F behavioral branches → G Phase-C recompute. EH action stays CONDITIONAL-DERIVED.
 
 **[SUPERSEDED] STEP 3b (preconditioned, per Charles steer) — carrier is a STABLE soliton.**
 Preconditioning (SPD, residual-only, from the no-null link-Laplacian symbol; `noNull_precond.py`) fixed the
