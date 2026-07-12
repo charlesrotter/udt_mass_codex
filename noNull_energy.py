@@ -57,7 +57,9 @@ def grad_noNull(n_raw, h, xi, kappa):               # MEMORY-SAFE gradient: sum 
         nn = n2 / n2.norm(dim=0, keepdim=True)
         e2, e4 = _orient_E2E4(nn, h, xi, kappa, s)
         gg, = torch.autograd.grad((e2 + e4) / 8, n2)
-        g = g + gg.detach(); del n2, nn, gg
+        g = g + gg.detach(); del n2, nn, gg, e2, e4
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
     return g
 
 

@@ -259,29 +259,38 @@ if STAGE == 'hess':
         Hv = hvp(v); lam = ip(v, Hv); res = float(defl(Hv - lam * v).norm())
         return res / (float(Hv.norm()) + abs(lam) + 1e-30), lam
 
+    def geneigh(A, B, kk):                               # lowest kk of A c = lam B c (B SPD, regularized)
+        Bs = 0.5 * (B + B.T); Bs = Bs + (1e-11 * float(torch.diagonal(Bs).abs().mean()) + 1e-30) * torch.eye(A.shape[0], device=dev)
+        Lc = torch.linalg.cholesky(Bs)
+        Qm = torch.linalg.solve_triangular(Lc, A, upper=False)
+        Msm = torch.linalg.solve_triangular(Lc, Qm.T, upper=False).T; Msm = 0.5 * (Msm + Msm.T)
+        wv, Yv = torch.linalg.eigh(Msm); Cv = torch.linalg.solve_triangular(Lc.T, Yv, upper=True)
+        return wv[:kk], Cv[:, :kk]
+
     def run(seed):
         torch.manual_seed(seed)
-        X = mgs([torch.randn(3, N, N, N, device=dev) for _ in range(BS)])
-        t0 = time.time(); last = None
-        for it in range(80):
-            Rr = []
-            for xv in X:
-                Hx = hvp(xv); th = ip(xv, Hx); Rr.append(pc(Hx - th * xv)); del Hx     # PRECOND residual
+        X = mgs([torch.randn(3, N, N, N, device=dev) for _ in range(BS)])   # orthonormal start
+        P = []; t0 = time.time(); last = None
+        for it in range(60):
+            W = []                                          # preconditioned residuals (fresh H*X, del'd -> no storage)
+            for x in X:
+                hx = hvp(x); W.append(pc(hx - ip(x, hx) * x)); del hx
                 if dev == 'cuda': torch.cuda.empty_cache()
-            cols = X + Rr; del Rr                          # basis = [X, R] (no P: preconditioning carries convergence)
-            basis = mgs(cols); del cols
-            k = len(basis); A = torch.zeros(k, k, device=dev)              # gram, del each HVP (memory-lean)
+            S = X + W + P; k = len(S)
+            A = torch.zeros(k, k, device=dev); B = torch.zeros(k, k, device=dev)   # A=S^T H S, B=S^T S
             for j in range(k):
-                Hj = hvp(basis[j])
-                for i in range(k): A[i, j] = ip(basis[i], Hj)
-                del Hj
+                HSj = hvp(S[j])                             # STREAM every H*S column (never stored) -> memory-safe
+                for i in range(k): A[i, j] = ip(S[i], HSj)
+                del HSj
                 if dev == 'cuda': torch.cuda.empty_cache()
-            A = 0.5 * (A + A.T); w, U = torch.linalg.eigh(A)
-            newX = [(lambda vv: vv / vv.norm())(defl(sum(U[i, j] * basis[i] for i in range(k)))) for j in range(BS)]
-            del basis; gc.collect(); torch.cuda.empty_cache()
-            # lam from Ritz values w; a_j + symmetry overlaps for ALL modes (cheap); r_j via 1 HVP for lowest NRJ
-            NRJ = min(BS, 9)
-            recs = []
+            for i in range(k):
+                for j in range(i, k): B[i, j] = B[j, i] = ip(S[i], S[j])
+            gc.collect(); torch.cuda.empty_cache()
+            A = 0.5 * (A + A.T); w, C = geneigh(A, B, BS)
+            newX = [(lambda vv: vv / vv.norm())(defl(sum(C[i, j] * S[i] for i in range(k)))) for j in range(BS)]
+            del S; gc.collect(); torch.cuda.empty_cache()
+            # records: lam from Ritz w; a_j + symmetry overlaps for ALL; r_j via ACTUAL HVP for lowest NRJ
+            NRJ = min(BS, 9); recs = []
             for j in range(BS):
                 ov = {nm: abs(ip(newX[j], av)) for nm, av in analytic.items()}
                 recs.append({'lam_phys': float(w[j]) / h**3, 'r_j': None, 'a_j': ip(newX[j], g_f) / h**1.5,
@@ -289,6 +298,7 @@ if STAGE == 'hess':
             for j in range(NRJ):
                 Hv = hvp(newX[j]); lamj = ip(newX[j], Hv)
                 recs[j]['r_j'] = float(defl(Hv - lamj * newX[j]).norm()) / (float(Hv.norm()) + abs(lamj) + 1e-30)
+                recs[j]['lam_phys'] = lamj / h**3           # exact Rayleigh quotient for the computed modes
                 del Hv
                 if dev == 'cuda': torch.cuda.empty_cache()
             iphys = next((j for j in range(BS) if recs[j]['sym_overlap'] < 0.6), BS - 1)   # first PHYSICAL mode
@@ -299,8 +309,9 @@ if STAGE == 'hess':
                     f"r_j(phys)={rjp:.2e} a_j(phys)={recs[iphys]['a_j']:.2e}")
             if recs[iphys]['r_j'] is not None and recs[iphys]['r_j'] < 1e-3 and it > 3:
                 logline(f"  [hess bw{HBW} s{seed}] first-physical CONVERGED r_j={recs[iphys]['r_j']:.2e}"); break
-            X = newX
-            del A, U, w; gc.collect(); torch.cuda.empty_cache()
+            Pnew = [defl(newX[j] - X[j]) for j in range(BS)]     # LOBPCG search dir P_{k+1}=X_{k+1}-X_k (after r_j loop)
+            X = newX; P = Pnew
+            del A, B, w, C, Pnew; gc.collect(); torch.cuda.empty_cache()
         recs, newX = last
         _rj = [(r['r_j'] if r['r_j'] is not None else float('nan')) for r in recs]
         with torch.no_grad():                            # save EVERY Ritz vector (gitignored .npz)
