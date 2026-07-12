@@ -185,12 +185,37 @@ artifact.** (The huge +3e4 is the correct O(1/h²) stiffness of high-frequency l
 carrier is topologically stable under the corrected operator; the precise sign of the near-zero lowest
 smooth mode at a TIGHT critical point is the remaining rigor, bottlenecked by Nyquist stiffness.
 
-**FORK (Charles + collaborating AI):**
-1. Precondition the operator (damp/deflate the +3e4 Nyquist band, or spectral preconditioner) → tight
-   critical relaxation + converged lowest Hessian eigenvalue (the rigorous stability number).
-2. Proceed BEHAVIORALLY to steps 4–6 now: geodesic-S² perturbations along SMOOTH modes + trust-region
-   branch relaxation under E_noNull — directly tests return-vs-slip (Stage 1 already shows no unwind).
-3. Both, in parallel.
+**STEP 3b FINAL (preconditioned, per Charles steer) — carrier is a STABLE soliton.**
+Preconditioning (SPD, residual-only, from the no-null link-Laplacian symbol; `noNull_precond.py`) fixed the
+conditioning: the Hessian that couldn't converge now collapses lam0_phys 89→~0 in ~15 iters. Undeflated
+preconditioned block-LOBPCG at the relaxed carrier (||g||_{M⁻¹}=5.84, near-critical; Q_fwd=−0.9919,
+Q_sym=−0.9915 by two no-null readouts; θ_max=0.140), 2 seeds, lam-stabilized. **Overlap analysis (modes
+identified AFTER, not deflated beforehand) shows every near-zero mode — including the negatives — is a
+SYMMETRY ZERO MODE:**
+
+| seed 0 (λ_phys : dominant overlap) | seed 1 |
+|---|---|
+| −0.020 : Rz 0.96, U(1) 0.96 | −0.016 : Rz 0.77, U(1) 0.77 |
+| −0.007 : Rx 0.93 | −0.007 : Ry 0.88 |
+| +0.014 : Ry 0.87 | +0.058 : Rx 0.69 |
+| +0.166 : Tx 0.57, Tz 0.62 (transl.) | +0.275 : transl. |
+| +0.254 : transl. | **+0.301 : no overlap>0.15 → first genuine physical mode, POSITIVE** |
+
+The two slightly-NEGATIVE eigenvalues are the rotation/U(1) zero modes at the numerical floor (0.77–0.96
+overlap with the analytic generators). The first genuine NON-symmetry physical mode is +0.30 (positive),
+well above the ±0.02 floor. ⇒ **no genuine negative mode; the corrected carrier is a stable soliton, and
+Phase B's −290 "unwinding instability" was entirely the centered-difference Nyquist artifact.**
+
+**Status (Charles's frame):** DERIVED numerically — old (−290,−270,−236) cluster is a Nyquist operator
+artifact (blind-verified). OBSERVED — corrected carrier survives strong relaxation (Q stays 0.99) AND its
+Hessian has no genuine negative mode (zero modes ID'd by overlap; physical spectrum positive). CAVEATS —
+field near-critical not razor (±0.02 FD-HVP/lattice floor); U(1)-deflated cross-check cut off at the 5 h
+timeout (seed 0 converged, seed 1 partial, JSON unsaved — RE-RUNNING); blind-verify of the overlap
+adjudication is the remaining rigor; the EH/metric-only action stays CONDITIONAL-DERIVED (separate premise).
+
+**NEXT:** (E done: θ_max + 2 charge readouts.) F — geodesic/trust-region behavioral branches (max-rotation
+amplitude) under E_noNull. G — recompute Phase C (E4, source, flux) on the corrected carrier (M_N=2E4
+identity unchanged; prior numerical eval used the superseded centered operator). Both await Charles's go.
 
 ## 7. Reproduce
 
