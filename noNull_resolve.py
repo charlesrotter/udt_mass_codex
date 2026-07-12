@@ -237,11 +237,10 @@ if STAGE == 'hess':
     logline(f"# HESS bw={HBW} bs={BS} at critical field ||g_f||_M-1={gnM:.4e} Q_fwd={charge_fwd(n):.5f} theta_max={theta_max(n):.4f}")
     xg = torch.linspace(-L, L, N, device=dev); Xg, Yg, Zg = torch.meshgrid(xg, xg, xg, indexing='ij')
     dnc = [(torch.roll(n, -1, a + 1) - torch.roll(n, 1, a + 1)) / (2 * h) for a in range(3)]
-    _am = {'Tx': dnc[0], 'Ty': dnc[1], 'Tz': dnc[2], 'Rx': Yg * dnc[2] - Zg * dnc[1],
-           'Ry': Zg * dnc[0] - Xg * dnc[2], 'Rz': Xg * dnc[1] - Yg * dnc[0],
-           'U1': torch.stack([-n[1], n[0], torch.zeros_like(n[0])], 0)}                 # only U1 exact
-    analytic = {k: (lambda w: w / (w.norm() + 1e-30))(freeproj_at(n, v, HBW)) for k, v in _am.items()}
-    u1 = analytic['U1']
+    _tr = [dnc[0], dnc[1], dnc[2], Yg * dnc[2] - Zg * dnc[1], Zg * dnc[0] - Xg * dnc[2],
+           Xg * dnc[1] - Yg * dnc[0]]                                                    # 6 T/R generators (transient)
+    u1 = freeproj_at(n, torch.stack([-n[1], n[0], torch.zeros_like(n[0])], 0), HBW)      # only U1 is exact
+    u1 = u1 / (u1.norm() + 1e-30)
     def defl(v): v = freeproj_at(n, v, HBW); return v - ip(v, u1) * u1                  # P_free(bw) then remove exact U(1)
     def pc(v): return defl(precond(v))
     EPS = 1e-4
@@ -258,10 +257,10 @@ if STAGE == 'hess':
     def rj_of(v):                                        # symmetric relative residual r_j = ||Hv-lam M v||/(||Hv||+|lam| ||Mv||)
         Hv = hvp(v); lam = ip(v, Hv); res = float(defl(Hv - lam * v).norm())
         return res / (float(Hv.norm()) + abs(lam) + 1e-30), lam
-    # Q_TR: orthonormal basis of the 6 translation/rotation pseudomode generators (after exact U(1) removal)
-    Q_TR = mgs([analytic[k2] for k2 in ('Tx', 'Ty', 'Tz', 'Rx', 'Ry', 'Rz')])
+    # Q_TR: orthonormal basis of the 6 T/R pseudomode generators (mgs applies defl -> U(1) removed + free-proj)
+    Q_TR = mgs(_tr); del _tr, dnc, Xg, Yg, Zg; gc.collect()      # free the transient generator fields
     logline(f"# Q_TR pseudomode subspace: {len(Q_TR)} orthonormal T/R generators (U(1) removed)")
-    def sTR(v): return float(sum(ip(q, v)**2 for q in Q_TR))    # |Q_TR^T v|^2 in [0,1]
+    def sTR(v): return float(sum(ip(q, v)**2 for q in Q_TR))    # |Q_TR^T v|^2 in [0,1]; >0.5 => pseudomode
     def geneigh(A, B, kk):                               # lowest kk of A c=lam B c; RANK-REVEALING (log rank, drop null dirs)
         Bs = 0.5 * (B + B.T); k0 = Bs.shape[0]
         wB, VB = torch.linalg.eigh(Bs)                   # B eigen-decomposition (SPD up to numerics)
@@ -299,10 +298,9 @@ if STAGE == 'hess':
             # records: lam=Ritz w; a_j; s_TR=|Q_TR^T v|^2 (pseudomode-subspace projection); r_j via ACTUAL HVP for lowest NRJ
             NRJ = min(nc, 9); recs = []
             for j in range(nc):
-                ov = {nm: abs(ip(newX[j], av)) for nm, av in analytic.items()}
+                s = sTR(newX[j])
                 recs.append({'lam_phys': float(w[j]) / h**3, 'r_j': None, 'a_j': ip(newX[j], g_f) / h**1.5,
-                             's_TR': sTR(newX[j]), 'sym_overlap': max(ov.values()),
-                             'overlaps': {k2: round(v2, 3) for k2, v2 in ov.items()}})
+                             's_TR': s, 'is_pseudomode': bool(s > 0.5)})
             for j in range(NRJ):
                 Hv = hvp(newX[j]); lamj = ip(newX[j], Hv)
                 recs[j]['r_j'] = float(defl(Hv - lamj * newX[j]).norm()) / (float(Hv.norm()) + abs(lamj) + 1e-30)

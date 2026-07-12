@@ -53,20 +53,32 @@ arc, numbers, retractions, and the fork/next-steps). Summary below.**
   `noNull_critical_field.npz` = genuine critical point: E=274.958 (lower-E Q=1 min), Q=−0.992, θ_max=0.135.
   The 0.05 target was MET, not loosened.
 - **HESSIAN: bs≥12-vs-32GB MEMORY WALL → Charles authorized a HYBRID (2026-07-12).** Streaming LOBPCG-with-P
-  (correct: [X,W,P], stream H·S, generalized eigenproblem SᵀHS c=λSᵀS c) at bs=12/256³ OOMs (~30GB; monolithic
-  checkpointing doesn't help). **Plan:** (a) **bs=10 @256³** on the critical field (after memory smoke — NO CPU
-  offload / bespoke checkpointing); (b) **bs=12 @192³ AND @128³** after independently NK-relaxing each grid to the
-  same resolution-aware criticality. `STAGE=hess` now: `HESS_BS` (default 10), converge **ALL lowest-9 Ritz pairs**
-  r_j<1e-3 (not just first-physical) across ≥2 seeds; **Q_TR pseudomode projection** s_j=|Q_TRᵀv_j|² (QR of 6 T/R
-  generators after exact U(1) removal — RECORD, don't discard); **rank-revealing geneigh** (log B rank, drop
-  machine-null dirs). True 2-layer mask PRIMARY; wider masks = boundary-sensitivity only.
+  (correct: [X,W,P], stream H·S, generalized eigenproblem SᵀHS c=λSᵀS c) at bs=12 AND bs=10 /256³ OOMs at it=1
+  (~31.5GB; monolithic checkpointing doesn't help; NO CPU offload / bespoke checkpointing allowed). **bs=8
+  CONFIRMED to FIT** (smoke: clears it=1,2, rank 24/24, ~320s/iter, λ descend 80→4→1.4). Block ≥12 was a numerical
+  safety margin (Charles), not a UDT premise; bs=8 holds the 6 T/R pseudomodes + 2 physical — enough for the first
+  physical mode's sign at 256³; the fuller spectrum comes from bs=12 @192³/128³.
+  **▶ START-HERE COMMAND (256³ Hessian, both seeds):**
+  `STAGE=hess HESS_BW=2 HESS_BS=8 HESS_SEEDS=0,1 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True timeout 36000 python3 noNull_resolve.py`
+  (reliable pattern: `timeout … python3`, NOT `nohup … &`; ONE clean GPU process — pkill+verify free first;
+  outputs `noNull_hess_bw2_out.json` + `..._ritz_bw2_s{0,1}.npz`).
+  `STAGE=hess`: `HESS_BS` (default 10 in code — PASS `HESS_BS=8`), converge **ALL lowest-9 (here lowest-8) Ritz
+  pairs** r_j<1e-3 across ≥2 seeds; **Q_TR pseudomode projection** s_j=|Q_TRᵀv_j|² (>0.5 ⇒ pseudomode; RECORDED,
+  never used to discard); **rank-revealing geneigh** (logs `rank=rk/k0`). True 2-layer mask PRIMARY; wider masks
+  (`HESS_BW=4/8/12`) = boundary-sensitivity only.
+- **⚠ KEY OPEN RISK (watch the first ~15 iters of the run):** the smoke only reached it=2, so `max_r_j` is still
+  ~0.9 (early). The `r_j`-DECREASE is NOT yet confirmed. The dropped-`P` version STALLED at r_j≈0.7 forever — so
+  `max_r_j` MUST fall toward <1e-3 as the block converges. **If it stalls ~0.7, that is a LOBPCG issue (not
+  memory)** — investigate (P transport / preconditioner / soft-locking), do not bank.
+- **THEN — 192³ & 128³ (bs=12).** No downsampler exists yet: TODO = make a coarse starting field (interpolate
+  `noNull_critical_field.npz` 256³→192³/128³, or re-seed a hopfion), run `STAGE=relax`→`STAGE=nk` at that N to the
+  same `‖g_f‖_{M⁻¹}<0.05`, then `STAGE=hess HESS_BS=12` (fits at coarse N). Scripts read N from the loaded npz.
 - **STABILITY CERTIFIED ONLY IF** (h²-fit λ(h)=λ0+c·h²): all genuine physical low modes POSITIVE; first physical
   eigenvalue agrees 192³↔256³ within discretization error; small negative T/R pseudomodes trend →0 (not a negative
   continuum limit). Do NOT pre-claim smooth modes grid-converged — the 128/192/256 comparison must establish it.
-- **NEXT (ordered):** bs=10@256³ smoke→run (2 seeds) → regenerate+NK-relax carrier @192³ & @128³ → bs=12 Hessian
-  there (same gates) → h² fit + agreement → fresh-reimplementation verify → **F** geodesic/trust-region behavioral
-  branches (max-rotation amplitude) → **G** recompute Phase C (E4/source/flux) on the corrected carrier
-  (`M_N=2E4` identity unchanged).
+- **NEXT (ordered):** bs=8@256³ run (2 seeds, watch r_j) → downsample+NK-relax carrier @192³ & @128³ → bs=12
+  Hessian there (same gates) → h² fit + agreement → fresh-reimplementation verify → **F** geodesic/trust-region
+  behavioral branches (max-rotation amplitude) → **G** recompute Phase C (E4/source/flux) on the corrected carrier.
 - **HONEST STATUS:** `Nyquist instability FALSIFIED; critical Q=1 carrier obtained at 256³; stability OPEN pending
   the hybrid spectral test.` EH/metric-only action stays **CONDITIONAL-DERIVED** (separate premise). DATA-BLIND.
 
