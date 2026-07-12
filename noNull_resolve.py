@@ -231,7 +231,7 @@ if STAGE == 'nk':
 if STAGE == 'hess':
     n = pin(torch.tensor(np.load(CRIT)['n'], device=dev))
     HBW = int(os.environ.get('HESS_BW', '2'))            # free-mask width (primary 2; sweep 2,4,8,12)
-    BS = int(os.environ.get('HESS_BS', '12'))            # block size (>=12 per spec)
+    BS = int(os.environ.get('HESS_BS', '10'))            # block size (Charles-authorized bs=10 @256^3; 12 @192/128)
     SEEDS = [int(s) for s in os.environ.get('HESS_SEEDS', '0,1').split(',')]
     g_f = freeproj_at(n, gE(n), HBW); gnM = mnorm(g_f, h)
     logline(f"# HESS bw={HBW} bs={BS} at critical field ||g_f||_M-1={gnM:.4e} Q_fwd={charge_fwd(n):.5f} theta_max={theta_max(n):.4f}")
@@ -258,14 +258,20 @@ if STAGE == 'hess':
     def rj_of(v):                                        # symmetric relative residual r_j = ||Hv-lam M v||/(||Hv||+|lam| ||Mv||)
         Hv = hvp(v); lam = ip(v, Hv); res = float(defl(Hv - lam * v).norm())
         return res / (float(Hv.norm()) + abs(lam) + 1e-30), lam
-
-    def geneigh(A, B, kk):                               # lowest kk of A c = lam B c (B SPD, regularized)
-        Bs = 0.5 * (B + B.T); Bs = Bs + (1e-11 * float(torch.diagonal(Bs).abs().mean()) + 1e-30) * torch.eye(A.shape[0], device=dev)
-        Lc = torch.linalg.cholesky(Bs)
-        Qm = torch.linalg.solve_triangular(Lc, A, upper=False)
-        Msm = torch.linalg.solve_triangular(Lc, Qm.T, upper=False).T; Msm = 0.5 * (Msm + Msm.T)
-        wv, Yv = torch.linalg.eigh(Msm); Cv = torch.linalg.solve_triangular(Lc.T, Yv, upper=True)
-        return wv[:kk], Cv[:, :kk]
+    # Q_TR: orthonormal basis of the 6 translation/rotation pseudomode generators (after exact U(1) removal)
+    Q_TR = mgs([analytic[k2] for k2 in ('Tx', 'Ty', 'Tz', 'Rx', 'Ry', 'Rz')])
+    logline(f"# Q_TR pseudomode subspace: {len(Q_TR)} orthonormal T/R generators (U(1) removed)")
+    def sTR(v): return float(sum(ip(q, v)**2 for q in Q_TR))    # |Q_TR^T v|^2 in [0,1]
+    def geneigh(A, B, kk):                               # lowest kk of A c=lam B c; RANK-REVEALING (log rank, drop null dirs)
+        Bs = 0.5 * (B + B.T); k0 = Bs.shape[0]
+        wB, VB = torch.linalg.eigh(Bs)                   # B eigen-decomposition (SPD up to numerics)
+        tol = float(wB.max()) * k0 * 2.2e-16             # machine-precision rank threshold
+        keep = wB > tol; rk = int(keep.sum())
+        Vk = VB[:, keep]; d = wB[keep]                   # B = Vk diag(d) Vk^T on the kept subspace
+        Whalf = Vk / d.sqrt()                            # B^{-1/2} on kept subspace (k0 x rk)
+        Ar = Whalf.T @ A @ Whalf; Ar = 0.5 * (Ar + Ar.T)  # reduce generalized -> standard on well-conditioned subspace
+        wv, Yv = torch.linalg.eigh(Ar); Cv = Whalf @ Yv
+        return wv[:kk], Cv[:, :min(kk, rk)], rk, k0
 
     def run(seed):
         torch.manual_seed(seed)
@@ -286,30 +292,32 @@ if STAGE == 'hess':
             for i in range(k):
                 for j in range(i, k): B[i, j] = B[j, i] = ip(S[i], S[j])
             gc.collect(); torch.cuda.empty_cache()
-            A = 0.5 * (A + A.T); w, C = geneigh(A, B, BS)
-            newX = [(lambda vv: vv / vv.norm())(defl(sum(C[i, j] * S[i] for i in range(k)))) for j in range(BS)]
+            A = 0.5 * (A + A.T); w, C, rk, k0 = geneigh(A, B, BS)   # rank-revealing (drops B-null dirs)
+            nc = min(BS, C.shape[1])
+            newX = [(lambda vv: vv / vv.norm())(defl(sum(C[i, j] * S[i] for i in range(k)))) for j in range(nc)]
             del S; gc.collect(); torch.cuda.empty_cache()
-            # records: lam from Ritz w; a_j + symmetry overlaps for ALL; r_j via ACTUAL HVP for lowest NRJ
-            NRJ = min(BS, 9); recs = []
-            for j in range(BS):
+            # records: lam=Ritz w; a_j; s_TR=|Q_TR^T v|^2 (pseudomode-subspace projection); r_j via ACTUAL HVP for lowest NRJ
+            NRJ = min(nc, 9); recs = []
+            for j in range(nc):
                 ov = {nm: abs(ip(newX[j], av)) for nm, av in analytic.items()}
                 recs.append({'lam_phys': float(w[j]) / h**3, 'r_j': None, 'a_j': ip(newX[j], g_f) / h**1.5,
-                             'sym_overlap': max(ov.values()), 'overlaps': {k2: round(v2, 3) for k2, v2 in ov.items()}})
+                             's_TR': sTR(newX[j]), 'sym_overlap': max(ov.values()),
+                             'overlaps': {k2: round(v2, 3) for k2, v2 in ov.items()}})
             for j in range(NRJ):
                 Hv = hvp(newX[j]); lamj = ip(newX[j], Hv)
                 recs[j]['r_j'] = float(defl(Hv - lamj * newX[j]).norm()) / (float(Hv.norm()) + abs(lamj) + 1e-30)
                 recs[j]['lam_phys'] = lamj / h**3           # exact Rayleigh quotient for the computed modes
                 del Hv
                 if dev == 'cuda': torch.cuda.empty_cache()
-            iphys = next((j for j in range(BS) if recs[j]['sym_overlap'] < 0.6), BS - 1)   # first PHYSICAL mode
             last = (recs, newX)
-            rjp = recs[iphys]['r_j']; rjp = rjp if rjp is not None else float('nan')
-            logline(f"  [hess bw{HBW} s{seed}] it={it} t={time.time()-t0:.0f}s lam[0:4]="
-                    f"{[round(recs[j]['lam_phys'],3) for j in range(4)]} phys#{iphys}={recs[iphys]['lam_phys']:.3f} "
-                    f"r_j(phys)={rjp:.2e} a_j(phys)={recs[iphys]['a_j']:.2e}")
-            if recs[iphys]['r_j'] is not None and recs[iphys]['r_j'] < 1e-3 and it > 3:
-                logline(f"  [hess bw{HBW} s{seed}] first-physical CONVERGED r_j={recs[iphys]['r_j']:.2e}"); break
-            Pnew = [defl(newX[j] - X[j]) for j in range(BS)]     # LOBPCG search dir P_{k+1}=X_{k+1}-X_k (after r_j loop)
+            rjs = [recs[j]['r_j'] for j in range(NRJ)]
+            allconv = all(r is not None and r < 1e-3 for r in rjs); maxrj = max((r for r in rjs if r is not None), default=float('nan'))
+            logline(f"  [hess bw{HBW} s{seed}] it={it} t={time.time()-t0:.0f}s rank={rk}/{k0} "
+                    f"lam[0:5]={[round(recs[j]['lam_phys'],3) for j in range(min(5,nc))]} "
+                    f"max_r_j(0..{NRJ-1})={maxrj:.2e} s_TR[0:5]={[round(recs[j]['s_TR'],2) for j in range(min(5,nc))]}")
+            if allconv and it > 3:
+                logline(f"  [hess bw{HBW} s{seed}] ALL lowest-{NRJ} Ritz pairs CONVERGED (max r_j={maxrj:.2e})"); break
+            Pnew = [defl(newX[j] - X[j]) for j in range(nc)]     # LOBPCG search dir P_{k+1}=X_{k+1}-X_k
             X = newX; P = Pnew
             del A, B, w, C, Pnew; gc.collect(); torch.cuda.empty_cache()
         recs, newX = last
@@ -317,7 +325,7 @@ if STAGE == 'hess':
         with torch.no_grad():                            # save EVERY Ritz vector (gitignored .npz)
             np.savez(f'noNull_hess_ritz_bw{HBW}_s{seed}.npz',
                      V=np.stack([v.cpu().numpy() for v in newX]), lam_phys=[r['lam_phys'] for r in recs],
-                     r_j=_rj, a_j=[r['a_j'] for r in recs], N=N, L=L, h=h)
+                     r_j=_rj, a_j=[r['a_j'] for r in recs], s_TR=[r['s_TR'] for r in recs], N=N, L=L, h=h)
         return recs
 
     out = {'crit_gf_mnorm': gnM, 'bw': HBW, 'bs': BS, 'Q_fwd': charge_fwd(n), 'theta_max': theta_max(n), 'seeds': {}}
@@ -328,8 +336,10 @@ if STAGE == 'hess':
     logline(f"# HESS DONE bw={HBW}")
     for seed in SEEDS:
         recs = out['seeds'][str(seed)]
-        iphys = next((j for j in range(BS) if recs[j]['sym_overlap'] < 0.6), BS - 1)
-        rjp = recs[iphys]['r_j']; rjp = rjp if rjp is not None else float('nan')
-        logline(f"  seed{seed}: first-physical#{iphys} lam_phys={recs[iphys]['lam_phys']:.4f} r_j={rjp:.2e} "
-                f"a_j={recs[iphys]['a_j']:.2e}; lowest-6 lam={[round(recs[j]['lam_phys'],3) for j in range(6)]}")
+        nlow = min(9, len(recs))
+        logline(f"  seed{seed} lowest-{nlow} (lam_phys : r_j : s_TR[pseudomode] : a_j):")
+        for j in range(nlow):
+            r = recs[j]
+            logline(f"    #{j} lam={r['lam_phys']:+.4f} r_j={(r['r_j'] if r['r_j'] is not None else float('nan')):.2e} "
+                    f"s_TR={r['s_TR']:.3f} a_j={r['a_j']:+.2e}")
     json.dump(out, open(f'noNull_hess_bw{HBW}_out.json', 'w'), indent=1)

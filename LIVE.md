@@ -46,27 +46,35 @@ arc, numbers, retractions, and the fork/next-steps). Summary below.**
   had been computed at a NON-critical field with a too-wide core mask, loose convergence, and overlaps
   over-read as exact zero modes. Residual decomp: `‖g_f‖_{M⁻¹}=4.2` (true 2-layer free mask), core-
   concentrated, genuinely physical — field is NOT critical.
-- **Repairing criticality now (Charles's ordered protocol):** free-variable projection `P_free` (exactly
-  2 pinned layers) implemented; a moving-tangent Riemannian bug was caught+fixed (transport curvature
-  pairs/history). Corrected first-order (L-BFGS/CG) STALL at `‖g_f‖≈2.5` on the soft basin → built a
-  Riemannian trust-region **Newton-Krylov** (`STAGE=nk`: Steihaug-CG, LM damping μ→0, U(1) deflation,
-  projected HVP, reports Newton decrement + modal projections). **NK WORKS** (‖g_f‖ 2.5→1.0, rho≈1.0);
-  a full NK run is IN PROGRESS to reach the registered `‖g_f‖_{M⁻¹}<0.05` target. The no-null relaxation
-  also drives the field to a **lower-energy Q=1 state** (E 275.49→274.97, Q≈0.99 — the centered-operator
-  carrier sat above the no-null minimum). Do NOT loosen the 0.05 target (post-hoc goalpost).
-- **NEXT (ordered):** finish NK → corrected Hessian (true 2-layer free mask, block≥12, per-mode
-  `r_j=‖Hv−λMv‖/(‖Hv‖+|λ|‖Mv‖)<1e-3`, mask-sweep 2/4/8/12, save all Ritz + `a_j=v_jᵀg_f`) → fresh-
-  reimplementation verify → **F** geodesic/trust-region behavioral branches (max-rotation amplitude) →
-  **G** recompute Phase C (E4/source/flux) on the corrected carrier (`M_N=2E4` identity unchanged).
-- **HONEST STATUS:** `Nyquist instability FALSIFIED; lower-energy Q=1 path observed; corrected-carrier
-  criticality and stability remain OPEN.` EH/metric-only action stays **CONDITIONAL-DERIVED** (separate
-  premise, not touched by this arc). DATA-BLIND throughout.
+- **CRITICALITY REACHED (verified).** Fixed a moving-tangent Riemannian bug (transport curvature pairs —
+  Charles caught it); corrected first-order (L-BFGS/CG) STALL at `‖g_f‖≈2.5` → Riemannian trust-region
+  **Newton-Krylov** (`STAGE=nk`: Steihaug-CG, LM μ→0, U(1) deflation, projected HVP, Newton-decrement) with a
+  **preconditioned inner CG** drove `‖g_f‖_{M⁻¹}` → **0.0157 < 0.05** (INDEPENDENTLY re-verified, fresh gradient).
+  `noNull_critical_field.npz` = genuine critical point: E=274.958 (lower-E Q=1 min), Q=−0.992, θ_max=0.135.
+  The 0.05 target was MET, not loosened.
+- **HESSIAN: bs≥12-vs-32GB MEMORY WALL → Charles authorized a HYBRID (2026-07-12).** Streaming LOBPCG-with-P
+  (correct: [X,W,P], stream H·S, generalized eigenproblem SᵀHS c=λSᵀS c) at bs=12/256³ OOMs (~30GB; monolithic
+  checkpointing doesn't help). **Plan:** (a) **bs=10 @256³** on the critical field (after memory smoke — NO CPU
+  offload / bespoke checkpointing); (b) **bs=12 @192³ AND @128³** after independently NK-relaxing each grid to the
+  same resolution-aware criticality. `STAGE=hess` now: `HESS_BS` (default 10), converge **ALL lowest-9 Ritz pairs**
+  r_j<1e-3 (not just first-physical) across ≥2 seeds; **Q_TR pseudomode projection** s_j=|Q_TRᵀv_j|² (QR of 6 T/R
+  generators after exact U(1) removal — RECORD, don't discard); **rank-revealing geneigh** (log B rank, drop
+  machine-null dirs). True 2-layer mask PRIMARY; wider masks = boundary-sensitivity only.
+- **STABILITY CERTIFIED ONLY IF** (h²-fit λ(h)=λ0+c·h²): all genuine physical low modes POSITIVE; first physical
+  eigenvalue agrees 192³↔256³ within discretization error; small negative T/R pseudomodes trend →0 (not a negative
+  continuum limit). Do NOT pre-claim smooth modes grid-converged — the 128/192/256 comparison must establish it.
+- **NEXT (ordered):** bs=10@256³ smoke→run (2 seeds) → regenerate+NK-relax carrier @192³ & @128³ → bs=12 Hessian
+  there (same gates) → h² fit + agreement → fresh-reimplementation verify → **F** geodesic/trust-region behavioral
+  branches (max-rotation amplitude) → **G** recompute Phase C (E4/source/flux) on the corrected carrier
+  (`M_N=2E4` identity unchanged).
+- **HONEST STATUS:** `Nyquist instability FALSIFIED; critical Q=1 carrier obtained at 256³; stability OPEN pending
+  the hybrid spectral test.` EH/metric-only action stays **CONDITIONAL-DERIVED** (separate premise). DATA-BLIND.
 
 **Key files (this arc):** `noNull_energy.py` (corrected operator), `noNull_precond.py` (SPD preconditioner),
 `noNull_resolve.py` (STAGE=relax corrected Riemannian L-BFGS/CG + STAGE=nk Newton-Krylov + STAGE=hess),
 `noNull_residual_decomp.py` / `noNull_residual_modes.py` (residual diagnostics), `stability_checkerboard_audit.py`,
 `noNull_curvature_check.py`, `stability_eigenmode_256.py` (block LOBPCG). Fields (gitignored `.npz`):
-`controlled_best_field.npz` (old centered carrier), `noNull_critical_field.npz` (being relaxed), `stability_lowmode_256.npz`.
+`controlled_best_field.npz` (old centered carrier), `noNull_critical_field.npz` (**the verified critical field, ‖g_f‖=0.0157**), `stability_lowmode_256.npz`. Hessian outputs: `noNull_hess_bw{W}_out.json` + `noNull_hess_ritz_bw{W}_s{seed}.npz`.
 Reliable launch = `timeout N … python3` (NOT `nohup … &` — process-group cleanup kills it early). Grad = manual
 autograd (functorch leaked at 256³); one clean GPU process; ~5 min/NK-step (HVP-heavy).
 

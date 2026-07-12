@@ -223,9 +223,23 @@ gradient, separate code path): ‖g_f‖_{M⁻¹}=0.0157 (free & U(1)-deflated i
 minimum), Q_centered=−0.992, θ_max=0.135 (smooth). `noNull_critical_field.npz` is now a genuine critical point.
 
 HONEST STATUS: **Nyquist instability FALSIFIED; a genuinely critical lower-E Q=1 carrier now obtained.**
-Corrected-carrier **STABILITY still OPEN** — pending the corrected Hessian AT this critical field (true 2-layer
-free mask, block≥12, per-mode r_j=‖Hv−λMv‖/(‖Hv‖+|λ|‖Mv‖)<1e-3, mask-sweep 2/4/8/12, save Ritz + a_j=v_jᵀg_f)
-→ fresh-reimplementation verify → F behavioral branches → G Phase-C recompute. EH action stays CONDITIONAL-DERIVED.
+Corrected-carrier **STABILITY still OPEN** — pending the corrected Hessian.
+
+**HESSIAN — bs≥12-vs-32GB memory wall → Charles authorized a HYBRID (2026-07-12).** Streaming LOBPCG-with-P
+(correct: [X,W,P], stream H·S, generalized eigenproblem SᵀHS c=λSᵀS c, P retained) at bs=12/256³ OOMs (~30GB =
+36 fields + ~16GB single-orientation HVP backward; monolithic gradient-checkpointing does NOT reduce the peak,
+verified — grad value unchanged 3.8e-16). **Plan:** (a) **bs=10 @256³** on the critical field (after a memory
+smoke test — NO CPU offload / bespoke checkpointing); (b) **bs=12 @192³ AND @128³** after independently
+NK-relaxing each grid to the same resolution-aware criticality. `STAGE=hess` (bs=10 authorized): converge **ALL
+lowest-9 Ritz pairs** r_j=‖Hv−λMv‖/(‖Hv‖+|λ|‖Mv‖)<1e-3 (not just first-physical) across **≥2 random starts**;
+**Q_TR pseudomode-subspace projection** s_j=|Q_TRᵀv_j|² (QR of the 6 T/R generators after exact U(1) removal) —
+RECORD s_j, do NOT use it to discard eigenvalues; **rank-revealing geneigh** (log B rank, drop machine-precision
+-null projected directions, verify Ritz insensitivity). True 2-layer mask PRIMARY; wider masks (4/8/12) =
+boundary-sensitivity only. **STABILITY CERTIFIED only if** (h²-fit λ(h)=λ0+c·h²): all genuine physical low modes
+POSITIVE; first physical eigenvalue agrees 192³↔256³ within discretization error; small negative T/R pseudomodes
+trend →0 (not a negative continuum limit). Do NOT pre-claim smooth modes grid-converged — the 128/192/256
+comparison must establish it. Then → fresh-reimplementation verify → **F** geodesic/trust-region behavioral
+branches → **G** Phase-C recompute on the corrected carrier. EH action stays CONDITIONAL-DERIVED.
 
 **[SUPERSEDED] STEP 3b (preconditioned, per Charles steer) — carrier is a STABLE soliton.**
 Preconditioning (SPD, residual-only, from the no-null link-Laplacian symbol; `noNull_precond.py`) fixed the
