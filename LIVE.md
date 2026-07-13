@@ -5,8 +5,10 @@
 Stale historical frontier layers live under `archive/LIVE_historical_frontier_through_2026-07-08.md`
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
-**Read order (2026-07-09):** LIVE.md FRONTIER → **`UDT_METHOD_MUSIC.md`** (how to sit) →
-**`UDT_DOTTED_LINE.md`** → **`UDT_ELEGANCE_UNCOVER.md`** → **`SIMPLE_METRIC_MACRO.md`** → MEMORY.md TOP.
+**⚠ TWO LIVE LANES (2026-07-12):** the **PARTICLE-MASS lane** (H3 corrected-operator stability) is the arc under
+active work — read `LIVE.md` CURRENT STATE (below, has the ▶ START-HERE command) → **`stability_branch_follow_256_DECISION.md`**
+(detailed record) → MEMORY.md TOP. The **MACRO lane** (simple-metric / WR-L) is a separate ongoing lane; its read
+order is: **`UDT_METHOD_MUSIC.md`** → **`UDT_DOTTED_LINE.md`** → **`UDT_ELEGANCE_UNCOVER.md`** → **`SIMPLE_METRIC_MACRO.md`**.
 Free-\(D_A\) / mixed scoreboards = **`grok/quarantine_free_DA/`** only (not live).
 Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE_historical_frontier_through_2026-07-08.md` and `archive/INDEX_pre_simple_metric_WR_L_2026-07-09.md`.
 
@@ -70,9 +72,12 @@ arc, numbers, retractions, and the fork/next-steps). Summary below.**
   ~0.9 (early). The `r_j`-DECREASE is NOT yet confirmed. The dropped-`P` version STALLED at r_j≈0.7 forever — so
   `max_r_j` MUST fall toward <1e-3 as the block converges. **If it stalls ~0.7, that is a LOBPCG issue (not
   memory)** — investigate (P transport / preconditioner / soft-locking), do not bank.
-- **THEN — 192³ & 128³ (bs=12).** No downsampler exists yet: TODO = make a coarse starting field (interpolate
-  `noNull_critical_field.npz` 256³→192³/128³, or re-seed a hopfion), run `STAGE=relax`→`STAGE=nk` at that N to the
-  same `‖g_f‖_{M⁻¹}<0.05`, then `STAGE=hess HESS_BS=12` (fits at coarse N). Scripts read N from the loaded npz.
+- **THEN — 192³ & 128³ (bs=12), turnkey.** `noNull_resolve.py` reads params (N,L,h,xi,kap) from `BASE_FIELD`
+  (default `controlled_best_field.npz`=256³) and the field from `CRIT_FIELD` — BOTH now env-configurable (was a
+  hardcoded-256³ bug, fixed 2026-07-12). Steps: (1) `TARGET_N=192 python3 noNull_downsample.py` → `noNull_critical_field_192.npz`;
+  (2) `BASE_FIELD=noNull_critical_field_192.npz CRIT_FIELD=noNull_critical_field_192.npz STAGE=nk NK_BUDGET_S=6000 … timeout 9000 python3 noNull_resolve.py`
+  (MUST re-relax: the interpolated field is NOT critical for the coarse operator — drive `‖g_f‖_{M⁻¹}<0.05`);
+  (3) same env + `STAGE=hess HESS_BS=12 HESS_SEEDS=0,1 … python3 noNull_resolve.py` (bs=12 fits at coarse N). Repeat for `TARGET_N=128`.
 - **STABILITY CERTIFIED ONLY IF** (h²-fit λ(h)=λ0+c·h²): all genuine physical low modes POSITIVE; first physical
   eigenvalue agrees 192³↔256³ within discretization error; small negative T/R pseudomodes trend →0 (not a negative
   continuum limit). Do NOT pre-claim smooth modes grid-converged — the 128/192/256 comparison must establish it.

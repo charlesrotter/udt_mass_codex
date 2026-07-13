@@ -18,7 +18,7 @@ from noNull_precond import make_precond, mnorm, Lh_symbol
 torch.set_default_dtype(torch.float64); dev = 'cuda' if torch.cuda.is_available() else 'cpu'
 STAGE = os.environ.get('STAGE', 'relax')
 
-d0 = np.load('controlled_best_field.npz')
+d0 = np.load(os.environ.get('BASE_FIELD', 'controlled_best_field.npz'))   # params source (set for 192/128^3 arm)
 N = int(d0['N']); L = float(d0['L']); h = float(d0['h']); xi = float(d0['xi']); kap = float(d0['kappa'])
 n_inf = torch.tensor([0., 0., -1.], device=dev).view(3, 1, 1, 1)
 precond, shift = make_precond(N, h, xi, dev)
@@ -75,7 +75,7 @@ def logline(s):
     with open(LOG, 'a') as f: f.write(s + '\n')
     print(s, flush=True)
 
-CRIT = 'noNull_critical_field.npz'
+CRIT = os.environ.get('CRIT_FIELD', 'noNull_critical_field.npz')   # relaxed/critical field (set per grid)
 # =========================== STAGE relax (preconditioned) ===========================
 if STAGE == 'relax':
     if os.path.exists(CRIT):
@@ -231,7 +231,8 @@ if STAGE == 'nk':
 if STAGE == 'hess':
     n = pin(torch.tensor(np.load(CRIT)['n'], device=dev))
     HBW = int(os.environ.get('HESS_BW', '2'))            # free-mask width (primary 2; sweep 2,4,8,12)
-    BS = int(os.environ.get('HESS_BS', '10'))            # block size (Charles-authorized bs=10 @256^3; 12 @192/128)
+    BS = int(os.environ.get('HESS_BS', '8'))             # block: 8 = CONFIRMED-FIT @256^3/32GB (bs=10/12 OOM); use 12 @192/128^3
+    RJTOL = float(os.environ.get('HESS_RJTOL', '1e-3'))  # per-mode r_j convergence gate (spec: 1e-3)
     SEEDS = [int(s) for s in os.environ.get('HESS_SEEDS', '0,1').split(',')]
     g_f = freeproj_at(n, gE(n), HBW); gnM = mnorm(g_f, h)
     logline(f"# HESS bw={HBW} bs={BS} at critical field ||g_f||_M-1={gnM:.4e} Q_fwd={charge_fwd(n):.5f} theta_max={theta_max(n):.4f}")
@@ -309,7 +310,7 @@ if STAGE == 'hess':
                 if dev == 'cuda': torch.cuda.empty_cache()
             last = (recs, newX)
             rjs = [recs[j]['r_j'] for j in range(NRJ)]
-            allconv = all(r is not None and r < 1e-3 for r in rjs); maxrj = max((r for r in rjs if r is not None), default=float('nan'))
+            allconv = all(r is not None and r < RJTOL for r in rjs); maxrj = max((r for r in rjs if r is not None), default=float('nan'))
             logline(f"  [hess bw{HBW} s{seed}] it={it} t={time.time()-t0:.0f}s rank={rk}/{k0} "
                     f"lam[0:5]={[round(recs[j]['lam_phys'],3) for j in range(min(5,nc))]} "
                     f"max_r_j(0..{NRJ-1})={maxrj:.2e} s_TR[0:5]={[round(recs[j]['s_TR'],2) for j in range(min(5,nc))]}")
