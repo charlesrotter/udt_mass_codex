@@ -64,7 +64,7 @@ arc, numbers, retractions, and the fork/next-steps). Summary below.**
   `STAGE=hess HESS_BW=2 HESS_BS=8 HESS_SEEDS=0,1 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True timeout 36000 python3 noNull_resolve.py`
   (reliable pattern: `timeout … python3`, NOT `nohup … &`; ONE clean GPU process — pkill+verify free first;
   outputs `noNull_hess_bw2_out.json` + `..._ritz_bw2_s{0,1}.npz`).
-  `STAGE=hess`: `HESS_BS` (default 10 in code — PASS `HESS_BS=8`), converge **ALL lowest-9 (here lowest-8) Ritz
+  `STAGE=hess`: `HESS_BS` **default is now 8** (the confirmed-fit value; bs=10/12 OOM at 256³), converge **ALL lowest-8 Ritz
   pairs** r_j<1e-3 across ≥2 seeds; **Q_TR pseudomode projection** s_j=|Q_TRᵀv_j|² (>0.5 ⇒ pseudomode; RECORDED,
   never used to discard); **rank-revealing geneigh** (logs `rank=rk/k0`). True 2-layer mask PRIMARY; wider masks
   (`HESS_BW=4/8/12`) = boundary-sensitivity only.
