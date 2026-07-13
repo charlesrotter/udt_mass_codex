@@ -1,0 +1,28 @@
+# 256^3 physical-mode refinement (Charles directive 2026-07-13): raw-backward-error certification
+# Context: bs=8 production Ritz vectors were UNCONVERGED — diag (noNull_hess_residual_diag.py):
+#   doublet eta_c=0.157, full-V3 eta_c=0.224, raw r_j 0.15-0.28, ALL eps-independent (2e-4/1e-4/5e-5)
+#   => genuine backward error; NOT near-degenerate mixing; NOT FD noise.
+# Fix: block-6 (3 phys + 3 guards) ortho-LOBPCG + soft-locking in the physical complement
+#   (U(1)+6 T/R deflated). Plain block-4 had stalled at eta_c~0.05 (search-space repollution
+#   while guards descended). RAW backward error is the gate; preconditioner accelerates only.
+
+## SEED 0 (warm=noNull_hess_ritz_bw2_s0.npz): GATE PASS at it=38
+  [refine s0] it=0 t=219s rk=12/12 lock=0 active_lam=[0.251, 0.251, 0.3227, 48.355] doublet_eta_c=4.07e-01 iso_r_j=1.97e-01
+  [refine s0] it=5 t=1561s rk=18/18 lock=0 active_lam=[0.2509, 0.2509, 0.3226, 0.8075] doublet_eta_c=1.02e-01 iso_r_j=1.35e-01
+  [refine s0] it=10 t=2903s rk=18/18 lock=0 active_lam=[0.2509, 0.2509, 0.3226, 0.5883] doublet_eta_c=5.72e-02 iso_r_j=4.86e-02
+  [refine s0] it=15 t=4245s rk=18/18 lock=0 active_lam=[0.2509, 0.2509, 0.3226, 0.5317] doublet_eta_c=2.27e-02 iso_r_j=2.12e-02
+  [refine s0] it=20 t=5586s rk=18/18 lock=0 active_lam=[0.2509, 0.2509, 0.3226, 0.5068] doublet_eta_c=1.06e-02 iso_r_j=1.02e-02
+  [refine s0] it=25 t=6928s rk=18/18 lock=0 active_lam=[0.2509, 0.2509, 0.3226, 0.4947] doublet_eta_c=4.94e-03 iso_r_j=5.17e-03
+  [refine s0] it=30 t=8270s rk=18/18 lock=0 active_lam=[0.2509, 0.2509, 0.3226, 0.4883] doublet_eta_c=2.59e-03 iso_r_j=3.08e-03
+  [refine s0] it=35 t=9612s rk=18/18 lock=0 active_lam=[0.2509, 0.2509, 0.3226, 0.4842] doublet_eta_c=1.29e-03 iso_r_j=1.61e-03
+  [refine s0] it=36 t=9880s rk=18/18 lock=0 active_lam=[0.2509, 0.2509, 0.3226, 0.4836] doublet_eta_c=1.00e-03 iso_r_j=1.28e-03
+  [refine s0] it=37 t=10149s rk=18/18 lock=0 active_lam=[0.2509, 0.2509, 0.3226, 0.483] doublet_eta_c=8.25e-04 iso_r_j=1.12e-03
+  [refine s0] it=38 t=10320s rk=10/10 lock=2 active_lam=[0.3226, 0.4827, 0.4932, 0.5386] doublet_eta_c=0.00e+00 iso_r_j=7.37e-04
+  [refine s0] LOCKED doublet (eta_c=8.25e-04, lam~[0.2509, 0.2509])
+  [refine s0] LOCKED isolated (r_j=7.37e-04, lam=+0.3226)
+  [refine s0] GATE PASS it=38: doublet+isolated both locked below 0.001
+    eps=0.0002: doublet eta_c=8.254e-04 (lam~[0.2509, 0.2509])  isolated r_j=7.373e-04 (lam=+0.3226)
+    eps=0.0001: doublet eta_c=8.254e-04 (lam~[0.2509, 0.2509])  isolated r_j=7.373e-04 (lam=+0.3226)
+    eps=5e-05: doublet eta_c=8.254e-04 (lam~[0.2509, 0.2509])  isolated r_j=7.373e-04 (lam=+0.3226)
+# GATE PASS across eps-sweep: all physical modes POSITIVE, raw backward error < 0.001.
+# saved noNull_hess_refine_s0.npz
