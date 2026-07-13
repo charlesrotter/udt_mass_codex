@@ -25,7 +25,7 @@ OPEN pending the hybrid spectral test.* EH action stays CONDITIONAL-DERIVED.
 
 **Hessian: bs≥12-vs-32GB WALL → Charles authorized a HYBRID (2026-07-12).** Streaming LOBPCG-with-P at bs=12/256³
 OOMs (~30GB; monolithic checkpointing doesn't help). Plan: **bs=10 @256³** (memory-smoke first — no CPU offload/
-bespoke checkpointing) + **bs=12 @192³ & @128³** (re-NK-relax each grid). `STAGE=hess`: `HESS_BS` (default 10);
+bespoke checkpointing) + **bs=12 @192³ & @128³** (re-NK-relax each grid; downsampler=`noNull_downsample.py`, params via `BASE_FIELD`/`CRIT_FIELD` env). `STAGE=hess`: `HESS_BS` **default 8** (bs=10/12 OOM @256³);
 converge **ALL lowest-9 Ritz pairs** r_j<1e-3 ×≥2 seeds; **Q_TR pseudomode projection** s_j (QR of 6 T/R gens
 after U(1) removal — record, don't discard); **rank-revealing geneigh**. Certify stability only via h²-fit
 λ(h)=λ0+c·h²: physical modes POSITIVE + 192↔256 agreement + neg pseudomodes→0. Don't pre-claim grid-convergence.
