@@ -1,0 +1,42 @@
+# 256^3 Hessian production run — corrected no-null operator, bs=8, seeds 0,1
+# Grid N=256 L=6.0; critical field noNull_critical_field.npz (||g_f||_M-1=0.0157, E=274.958, Q=-0.992)
+# STAGE=hess HESS_BW=2 HESS_BS=8 HESS_SEEDS=0,1 ; corrected Faddeev-Skyrme functional (noNull_energy.py)
+# Run: 2026-07-12 21:41 -> 2026-07-13 08:20 (uncapped after timeout-wrapper removed); exit 0
+# NOTE: physical modes (s_TR<0.5) all POSITIVE both seeds; raw r_j NOT < 1e-3 -> certification OPEN.
+
+## Convergence trajectory (every 5th iter, seed 0):
+
+## Convergence trajectory (every 5th iter, seed 1):
+  [hess bw2 s1] it=0 t=256s rank=16/16 lam[0:5]=[78.168, 83.642, 88.811, 90.583, 91.905] max_r_j(0..7)=8.90e-01 s_TR[0:5]=[0.03, 0.01, 0.0, 0.0, 0.0]
+  [hess bw2 s1] it=5 t=1858s rank=24/24 lam[0:5]=[0.722, 0.75, 0.798, 0.954, 1.07] max_r_j(0..7)=9.77e-01 s_TR[0:5]=[0.08, 0.01, 0.08, 0.08, 0.02]
+  [hess bw2 s1] it=10 t=3460s rank=24/24 lam[0:5]=[0.317, 0.346, 0.443, 0.503, 0.609] max_r_j(0..7)=9.67e-01 s_TR[0:5]=[0.02, 0.03, 0.27, 0.23, 0.01]
+  [hess bw2 s1] it=15 t=5062s rank=24/24 lam[0:5]=[0.23, 0.252, 0.29, 0.323, 0.508] max_r_j(0..7)=9.67e-01 s_TR[0:5]=[0.38, 0.16, 0.25, 0.32, 0.02]
+  [hess bw2 s1] it=20 t=6664s rank=24/24 lam[0:5]=[0.081, 0.143, 0.251, 0.257, 0.377] max_r_j(0..7)=9.87e-01 s_TR[0:5]=[0.91, 0.79, 0.02, 0.03, 0.08]
+  [hess bw2 s1] it=25 t=8266s rank=24/24 lam[0:5]=[0.018, 0.038, 0.232, 0.246, 0.263] max_r_j(0..7)=9.94e-01 s_TR[0:5]=[0.96, 0.95, 0.42, 0.02, 0.28]
+  [hess bw2 s1] it=30 t=9867s rank=24/24 lam[0:5]=[0.004, 0.009, 0.092, 0.239, 0.248] max_r_j(0..7)=9.97e-01 s_TR[0:5]=[0.98, 0.97, 0.88, 0.05, 0.01]
+  [hess bw2 s1] it=35 t=11468s rank=24/24 lam[0:5]=[0.001, 0.002, 0.03, 0.12, 0.24] max_r_j(0..7)=9.99e-01 s_TR[0:5]=[0.98, 0.98, 0.96, 0.86, 0.09]
+  [hess bw2 s1] it=40 t=13069s rank=24/24 lam[0:5]=[0.0, 0.001, 0.01, 0.035, 0.122] max_r_j(0..7)=9.99e-01 s_TR[0:5]=[0.98, 0.98, 0.99, 0.95, 0.83]
+  [hess bw2 s1] it=45 t=14670s rank=24/24 lam[0:5]=[0.0, 0.0, 0.004, 0.015, 0.054] max_r_j(0..7)=9.99e-01 s_TR[0:5]=[0.98, 0.98, 0.99, 0.97, 0.92]
+  [hess bw2 s1] it=50 t=16272s rank=24/24 lam[0:5]=[0.0, 0.0, 0.003, 0.008, 0.026] max_r_j(0..7)=9.99e-01 s_TR[0:5]=[0.98, 0.98, 0.99, 0.98, 0.96]
+  [hess bw2 s1] it=55 t=17875s rank=23/24 lam[0:5]=[0.0, 0.0, 0.002, 0.006, 0.012] max_r_j(0..7)=9.99e-01 s_TR[0:5]=[0.98, 0.98, 0.99, 0.98, 0.98]
+
+## Final per-seed per-mode breakdown:
+# HESS DONE bw=2
+  seed0 lowest-8 (lam_phys : r_j : s_TR[pseudomode] : a_j):
+    #0 lam=+0.0001 r_j=9.99e-01 s_TR=0.981 a_j=+1.30e-05
+    #1 lam=+0.0001 r_j=1.00e+00 s_TR=0.981 a_j=-1.35e-05
+    #2 lam=+0.0017 r_j=9.93e-01 s_TR=0.997 a_j=-2.03e-05
+    #3 lam=+0.0052 r_j=9.83e-01 s_TR=0.986 a_j=-5.12e-05
+    #4 lam=+0.0054 r_j=9.91e-01 s_TR=0.985 a_j=+1.15e-05
+    #5 lam=+0.2520 r_j=1.49e-01 s_TR=0.005 a_j=+1.60e-06
+    #6 lam=+0.2520 r_j=1.65e-01 s_TR=0.005 a_j=-8.48e-06
+    #7 lam=+0.3227 r_j=2.79e-01 s_TR=0.000 a_j=+5.11e-03
+  seed1 lowest-8 (lam_phys : r_j : s_TR[pseudomode] : a_j):
+    #0 lam=+0.0000 r_j=9.99e-01 s_TR=0.981 a_j=-1.31e-05
+    #1 lam=+0.0001 r_j=9.99e-01 s_TR=0.981 a_j=+2.22e-05
+    #2 lam=+0.0022 r_j=9.96e-01 s_TR=0.996 a_j=+2.05e-05
+    #3 lam=+0.0054 r_j=9.90e-01 s_TR=0.985 a_j=+9.37e-05
+    #4 lam=+0.0078 r_j=9.94e-01 s_TR=0.982 a_j=-9.08e-05
+    #5 lam=+0.2520 r_j=1.14e-01 s_TR=0.005 a_j=-1.23e-05
+    #6 lam=+0.2521 r_j=3.05e-01 s_TR=0.005 a_j=+3.05e-05
+    #7 lam=+0.3228 r_j=3.91e-01 s_TR=0.000 a_j=-5.13e-03
