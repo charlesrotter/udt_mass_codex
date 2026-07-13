@@ -83,6 +83,11 @@ arc, numbers, retractions, and the fork/next-steps). Summary below.**
   (2) `BASE_FIELD=noNull_critical_field_192.npz CRIT_FIELD=noNull_critical_field_192.npz STAGE=nk NK_BUDGET_S=6000 … timeout 9000 python3 noNull_resolve.py`
   (MUST re-relax: the interpolated field is NOT critical for the coarse operator — drive `‖g_f‖_{M⁻¹}<0.05`);
   (3) same env + `STAGE=hess HESS_BS=12 HESS_SEEDS=0,1 … python3 noNull_resolve.py` (bs=12 fits at coarse N). Repeat for `TARGET_N=128`.
+- **▶ CHEAP FIRST TEST of the r_j risk (do this BEFORE the 256³ run):** 128³ is ~5× faster/iter (~59s vs 320s)
+  and the r_j-stall is grid-independent (verified: bs=12 @128³ runs clean, rank 36/36, same flat r_j~0.95 while
+  λ descend). So: `TARGET_N=128 python3 noNull_downsample.py` → NK-relax → `STAGE=hess HESS_BS=12` and run ~30–40
+  iters (~40min). If r_j drops toward 1e-3 AFTER the λ stabilize → benign, proceed to 256³. If it stalls ~0.9 →
+  the raw-r_j gate is unreachable → switch to a preconditioned-residual measure / stiff-band deflation FIRST.
 - **STABILITY CERTIFIED ONLY IF** (h²-fit λ(h)=λ0+c·h²): all genuine physical low modes POSITIVE; first physical
   eigenvalue agrees 192³↔256³ within discretization error; small negative T/R pseudomodes trend →0 (not a negative
   continuum limit). Do NOT pre-claim smooth modes grid-converged — the 128/192/256 comparison must establish it.
