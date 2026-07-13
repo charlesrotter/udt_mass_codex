@@ -68,10 +68,15 @@ arc, numbers, retractions, and the fork/next-steps). Summary below.**
   pairs** r_j<1e-3 across ≥2 seeds; **Q_TR pseudomode projection** s_j=|Q_TRᵀv_j|² (>0.5 ⇒ pseudomode; RECORDED,
   never used to discard); **rank-revealing geneigh** (logs `rank=rk/k0`). True 2-layer mask PRIMARY; wider masks
   (`HESS_BW=4/8/12`) = boundary-sensitivity only.
-- **⚠ KEY OPEN RISK (watch the first ~15 iters of the run):** the smoke only reached it=2, so `max_r_j` is still
-  ~0.9 (early). The `r_j`-DECREASE is NOT yet confirmed. The dropped-`P` version STALLED at r_j≈0.7 forever — so
-  `max_r_j` MUST fall toward <1e-3 as the block converges. **If it stalls ~0.7, that is a LOBPCG issue (not
-  memory)** — investigate (P transport / preconditioner / soft-locking), do not bank.
+- **⚠ KEY OPEN RISK — the `r_j<1e-3` gate may be UNREACHABLE (dress-rehearsal finding, undetermined).** A 5-iter
+  bs=8 run shows eigenVALUES descend beautifully (80→0.845) but `max_r_j` stays FLAT ~0.95 (NOT the T/R pseudomodes
+  — s_TR~0.01–0.09 for all lowest-8). Math: `r_j=√((‖Hv‖−λ)/(‖Hv‖+λ))`; r_j≈0.96 at λ≈0.845 ⇒ ‖Hv‖≈20, i.e. the low
+  Ritz vector carries ~20% contamination from far-stiffer modes (spectrum runs ~0→+30000). **Undetermined from 5
+  iters:** either (benign) eigenvalues still moving so high residual is expected → watch if `r_j` drops after the
+  values stabilize (~it=15–25); or (fatal) the operator's huge dynamic range means a tiny stiff-mode contaminant
+  dominates the RAW residual → `r_j<1e-3` unreachable and the run spins to maxit. **If it stalls after eigenvalue
+  stabilization, the fix is a PRECONDITIONED-residual measure (‖M_pre^{1/2}(Hv−λv)‖) or stiff-band deflation — NOT
+  more iters.** Decision for Charles before/early in the real run. Do NOT bank on a raw-r_j that won't converge.
 - **THEN — 192³ & 128³ (bs=12), turnkey.** `noNull_resolve.py` reads params (N,L,h,xi,kap) from `BASE_FIELD`
   (default `controlled_best_field.npz`=256³) and the field from `CRIT_FIELD` — BOTH now env-configurable (was a
   hardcoded-256³ bug, fixed 2026-07-12). Steps: (1) `TARGET_N=192 python3 noNull_downsample.py` → `noNull_critical_field_192.npz`;
