@@ -29,12 +29,38 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-12 — H3 STATIC PARTICLE-MASS arc live; the Phase-B "instability" was an OPERATOR ARTIFACT; stability now being re-settled with a corrected operator). ============
+## ============ CURRENT STATE (2026-07-14 — H3 STATIC PARTICLE-MASS arc: Phase-B stability NUMERICALLY CERTIFIED + BLIND-VERIFIED (positive spectrum, 3 grids); awaiting Charles's verdict; NEXT = F (behavioral) / G (recompute Phase-C mass on corrected carrier)). ============
 
-**➤➤➤ DETAILED CURRENT RECORD = `stability_branch_follow_256_DECISION.md` (READ IT — it carries the full
-arc, numbers, retractions, and the fork/next-steps). Summary below.**
+**➤➤➤ LATEST (2026-07-14 — STABILITY CERTIFICATION COMPLETE; records = `noNull_hess_h2fit_log.txt` +
+`noNull_hess_refine_{256,192}_log.txt`; commits `da51ec4..1c2196c`):**
+- **All numerical gates MET at 128/192/256, both seeds** (Charles-directed raw-backward-error protocol
+  2026-07-13): refined physical spectrum POSITIVE — doublet 0.25293/0.25175/0.25088, isolated
+  0.32086/0.32254/0.32261 (h→0: doublet ~+0.2494–0.2498, isolated ~+0.3223–0.3227). Gates: doublet
+  invariant-subspace η_c<1e-3, isolated raw r_j<1e-3, HVP-ε sweep stable, cross-seed 1e-9. Tools:
+  `noNull_hess_residual_diag.py` (proved production Ritz vectors were genuinely unconverged — backward
+  error, NOT near-degenerate mixing, NOT FD noise) + `noNull_hess_refine.py` (block ortho-LOBPCG +
+  soft-locking in U(1)+T/R complement; plain block-4 stalls ~0.05 — use the guard+lock version).
+- **BLIND ADVERSARIAL VERIFIER PASS (zero-context, own code, adjudicate framing):** criticality
+  quantified; eigenvalues reproduced to 2e-9; **independent negative-mode hunt (128³) finds NOTHING
+  below our floor** (reproduces doublet+isolated at overlap 0.999–1.0; full-space floor = POSITIVE T/R
+  cluster). AMENDMENTS (scoped, quantified): doublet convergence is T/R-DEFLATION-scoped (raw backward
+  error 3.4e-2 lies wholly in the T/R quasi-symmetry span; raw-operator doublet = 0.2509±1.2e-3 —
+  positivity robust); cross-seed identity = fixed-point check, not independent evidence; h² NOT pure
+  (h⁴ significant at 128³; ~1e-3 systematic on extrapolants). NOT probed: hunts at 192/256; T/R floor
+  below +3e-3 (≥97% translation/rotation = pinned-box boundary class).
+- **SCOPE STAMPS (travel with the verdict):** static; THIS Q≈1 lower-E carrier; box L=6.0 (FREE);
+  mask HBW=2 (FREE; wider-mask boundary sweep NOT done); EH/metric-only action = CONDITIONAL-DERIVED;
+  S² carrier = posit (bedrock memory). Hess outputs now N-tagged (anti-clobber; converged vectors =
+  `noNull_hess_refine_s{0,1,192_*,128_*}.npz`).
+- **STATUS: `Nyquist instability FALSIFIED; corrected-operator static stability of the Q=1 carrier:
+  POSITIVE SPECTRUM, numerically certified + blind-verified (scoped as stamped). Charles verdict
+  pending.`** NEXT (on his go): **F** geodesic/trust-region behavioral branches (max-rotation
+  amplitude) → **G** recompute Phase C (E4/source/flux, M_N=2E4) on the corrected carrier.
 
-**➤➤➤ LATEST (2026-07-12 — Phase-B stability arc, corrected-operator repair):**
+**➤➤➤ DETAILED ARC RECORD = `stability_branch_follow_256_DECISION.md` (full arc, retractions, fork).
+The 2026-07-12 layer below is HISTORY of this arc (kept for the record):**
+
+**➤➤➤ [SUPERSEDED-by-above] (2026-07-12 — Phase-B stability arc, corrected-operator repair):**
 - **The Phase-B "localized negative mode / unwinding instability" (λ≈−290 cluster) was a CHECKERBOARD /
   NYQUIST OPERATOR ARTIFACT — FALSIFIED, blind-verified.** The energy AND hopf_charge used the centered
   difference `D^c=(f_{i+1}−f_{i-1})/2h` (`fs_hopfion.py:48`), which annihilates `(-1)^i` exactly. All 3
@@ -425,7 +451,7 @@ MAP: `simple_metric_kaleidoscope_MAP.md` · **MINE:** `simple_metric_kaleidoscop
 - **Phase B (stability) UNRESOLVED — with concern; 256³ mode-following test DONE:** topology-safe relaxation drove gradnorm 0.12→**0.085** (Q=0.9918 held; ~0.12 NOT a floor), but beyond that the flow drifts to unwinding ⇒ no true critical point at 256³. A localized negative mode **PERSISTS** through relaxation (λ_phys −312@0.13, −318@0.11, **−285@0.085**, 3 seeds, in_core 0.997) — it does NOT lift; the earlier "+69" stable-lean was an unconverged probe (RETRACTED). Orthogonal to gradient, Q-preserving, real-curvature. NOT PASS, NOT FAIL (non-critical field; res/|λ|~0.15 not tight; **contradicts the KNOWN stability of the Q_H=1 FS hopfion** ⇒ likely a 256³ grid-scale artifact). **Decisive next = 384³** (Charles-sequenced): re-solve finer, recompute Hessian at a critical point — vanishes ⇒ grid artifact (stable); persists converged ⇒ real FAIL.  
 - **⇒ clean mass NOT established:** CONDITIONAL on (i) EH-action premise (Lovelock, not native-dilation-derived — trigger #6) AND (ii) an UNRESOLVED (floor-limited) Phase B. D/E HALTED. (Infra: a GPU-zombie holding 30.8GB caused repeated 256³ OOMs; cleared.)  
 
-**➤➤ NEXT:** close Phase B on a **finer grid** (≥384³ or higher-order/spectral) to lower the residual-gradient floor below the mode, then recompute the Hessian; only then trust the Phase-A/C mass. (Prior lane: seal-matching/ambient gate; no private wall at ℓ_hopf; not O(0.4)-mass without continuum.)  
+**➤➤ NEXT [SUPERSEDED 2026-07-12→14: the "384³ decisive" plan died with the Nyquist-artifact finding; Phase B was then closed via the corrected-operator certification — see CURRENT STATE at top]:** ~~close Phase B on a **finer grid** (≥384³ or higher-order/spectral) to lower the residual-gradient floor below the mode, then recompute the Hessian; only then trust the Phase-A/C mass.~~ (Prior lane: seal-matching/ambient gate; no private wall at ℓ_hopf; not O(0.4)-mass without continuum.)  
 **Red:** bank Thread B as closed cell / L-pin from probe; undo ruling (A) with smooth L core; treat global residual re-centering as center-regular; treat WR-L as smooth global SSS on \([0,X]\); bare-metric L claim; revive **P_ell**; lean on MS \(2GM/c^2\) as native; fluid BAO; χ²-shop \(A(r)\); treat \(x_{\max}\) as hard spatial wall (it is a **causal horizon**).
 
 ---
