@@ -1,0 +1,20 @@
+# H3 hopfion static stability: 3-grid refined spectrum + h^2 extrapolation (2026-07-14)
+# All grids certification-grade: raw backward error <1e-3 (doublet eta_c, isolated r_j), both seeds, eps-sweep stable.
+#
+# N     doublet lam           isolated lam       eta_c(dbl)  r_j(iso)   [seeds agree ~1e-9]
+# 128   0.25292765            0.32086181         8.6e-04     3.4e-05
+# 192   0.25175043            0.32253707         9.3e-04     7.2e-05
+# 256   0.25088214            0.32260956         8.3e-04     7.4e-04
+#
+# h^2 analysis: NOT pure h^2 (pairwise slopes differ: doublet +0.236/+0.501, isolated -0.336/-0.042
+#   coarse/fine) => h^4 significant at 128^3. Extrapolations robust to method:
+#   doublet  lam0 = +0.24977 (Richardson fine pair) / +0.24943 (exact h^2+h^4)   [0.13% spread]
+#   isolated lam0 = +0.32270 (Richardson fine pair) / +0.32232 (exact h^2+h^4)   [0.12% spread]
+# Pseudomodes (T/R): ~0+ at all grids (0.002-0.008), NONE negative.
+#
+# LIVE.md certification criteria: physical modes POSITIVE (all grids + continuum) PASS;
+#   192<->256 agreement within discretization error PASS (0.34% shift = fitted h^2 slope);
+#   negative pseudomodes -> 0 PASS (trivially: none negative).
+# STATUS: all numerical gates met. LEAD pending BLIND VERIFICATION (final gate before banking).
+# Premise unchanged: EH/metric-only action = CONDITIONAL-DERIVED (Lovelock; trigger #6 scope).
+# 128^3 refine logs: scratchpad/refine128_s{0,1}.log; hess: scratchpad/hess_128_cert.log.
