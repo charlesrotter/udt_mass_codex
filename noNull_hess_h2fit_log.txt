@@ -18,3 +18,23 @@
 # STATUS: all numerical gates met. LEAD pending BLIND VERIFICATION (final gate before banking).
 # Premise unchanged: EH/metric-only action = CONDITIONAL-DERIVED (Lovelock; trigger #6 scope).
 # 128^3 refine logs: scratchpad/refine128_s{0,1}.log; hess: scratchpad/hess_128_cert.log.
+
+# ============ BLIND ADVERSARIAL VERIFIER VERDICT (2026-07-14, zero-context agent) ============
+# Framing: ADJUDICATE (A) converged positive spectrum vs (B) pipeline hid/manufactured it.
+# Independent code throughout (own HVP, own LOBPCG + preconditioner, own Rayleigh-Ritz).
+# VERDICT: evidence supports (A). Numbers:
+#  - Criticality PASS: free-tangent grad 1.2e-3/2.7e-4/1.6e-4 (128/192/256), ~2000x below unit-kick force.
+#  - Eigenvalues reproduced to <=2e-9 at all grids by independent HVP; hygiene <=1e-15.
+#  - NEGATIVE-MODE HUNT (128^3, 2 random starts, own algorithm): floor = our doublet+isolated
+#    (overlaps 0.999-1.000); full-space floor = POSITIVE T/R cluster +0.002..+0.005 + exact u1 +0.0021.
+#    NO negative Rayleigh quotient found anywhere. 15-dim exact RR over symmetry+hunt span: all positive.
+#  - eps-sweep: lambda stable to 6e-12.
+# AMENDMENT 1 (scoped): doublet converged as eigenpair of the T/R-DEFLATED operator; RAW backward
+#   error 3.4e-2 lies entirely in the T/R quasi-symmetry span (pinned-box effect). Perturbation bound:
+#   raw-operator doublet = 0.2509 +/- ~1.2e-3. Isolated mode raw-converged (no caveat). Positivity robust.
+# AMENDMENT 2: cross-seed identity = fixed-point consistency, not independent evidence (the hunt is).
+#   Impure-h^2 flag confirmed (~1e-3 systematic on extrapolants; positivity unaffected).
+# NOT checked in budget: hunts at 192/256; T/R cluster floor below +3e-3 (>=97% T/R = boundary class).
+# SCOPE: static; Q~1 lower-E carrier; box L=6.0 (FREE); mask HBW=2 (FREE); EH action CONDITIONAL.
+# => All four banking conditions now met (pre-registered gates; bounded scope justified; BLIND-VERIFIED
+#    on the load-bearing premise; premises audited). Physics verdict + canonization = Charles.
