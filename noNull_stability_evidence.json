@@ -1,0 +1,772 @@
+{
+ "dispatch": "H3 STABILITY EVIDENCE SEAL (Charles 2026-07-14)",
+ "gate_language": "The doublet FULL-H (raw) relative residual ~3.4e-2 does NOT satisfy the 1e-3 raw gate. The 1e-3 gate was met by the T/R-DEFLATED invariant-subspace residual (eta_c). Both recorded.",
+ "conventions": {
+  "lam_phys": "(v,Hv)/h^3, ||v||=1",
+  "HVP": "central FD of free-tangent-projected gradient",
+  "raw_operator": "tangent + free-mask projection only (no U(1)/TR deflation)",
+  "deflated_operator": "raw + project out u1 and 6-dim Q_TR span",
+  "eps_default": 0.0001
+ },
+ "torch_version": "2.5.1+cu121",
+ "cuda": "12.1",
+ "device": "Tesla V100-PCIE-32GB",
+ "grids": {
+  "128": {
+   "criticality": {
+    "E": 271.83107609443107,
+    "raw_grad_norm": 0.001194804094504617,
+    "Minv_norm": 0.04113679141380126,
+    "N": 128,
+    "L": 6.0,
+    "h": 0.09448818897637795
+   },
+   "seeds": {
+    "0": {
+     "refine_file": "noNull_hess_refine_s128_0.npz",
+     "eigenvalues_file": [
+      0.25292764328005163,
+      0.2529276501310933,
+      0.32086180814876264
+     ],
+     "eigenvalues_recomputed": [
+      0.25292764327713707,
+      0.25292765011797774,
+      0.32086180813047777
+     ],
+     "doublet_eta_c_deflated": 0.0008619266589646313,
+     "doublet_eta_c_file": 0.00086192084386945,
+     "doublet_deflated_gate_1e3_met": true,
+     "isolated_raw_r_j": 3.602058367149595e-05,
+     "isolated_r_j_file": 3.4221482090194435e-05,
+     "isolated_raw_gate_1e3_met": true,
+     "fullH_residuals": {
+      "doublet0": {
+       "raw_rel_residual": 0.033422058232530076,
+       "raw_abs_residual": 1.427833123607904e-05,
+       "frac_in_span_QTR": 0.9992947388078912,
+       "frac_along_u1": 1.896208306291007e-10,
+       "raw_gate_1e3_met": false
+      },
+      "doublet1": {
+       "raw_rel_residual": 0.0334207721174491,
+       "raw_abs_residual": 1.4277780948615263e-05,
+       "frac_in_span_QTR": 0.9993780199198168,
+       "frac_along_u1": 5.475935857220286e-11,
+       "raw_gate_1e3_met": false
+      },
+      "isolated": {
+       "raw_rel_residual": 3.602058367149595e-05,
+       "raw_abs_residual": 1.949985328562004e-08,
+       "frac_in_span_QTR": 0.09740968021511742,
+       "frac_along_u1": 1.5797314414404878e-10,
+       "raw_gate_1e3_met": true
+      }
+     },
+     "doublet_raw_gate_1e3_met": false,
+     "isolated_r_j_deflated": 3.422126674713329e-05,
+     "eps_sweep": {
+      "0.0002": {
+       "doublet_eta_c_deflated": 0.0008619251125856567,
+       "isolated_raw_r_j": 3.602015073159803e-05,
+       "isolated_lam": 0.320861808123649
+      },
+      "0.0001": {
+       "doublet_eta_c_deflated": 0.0008619266589646313,
+       "isolated_raw_r_j": 3.602058367149595e-05,
+       "isolated_lam": 0.32086180813047777
+      },
+      "5e-05": {
+       "doublet_eta_c_deflated": 0.00086192084386945,
+       "isolated_raw_r_j": 3.602077744690209e-05,
+       "isolated_lam": 0.32086180814876264
+      }
+     },
+     "enlargedRR_spectrum_V_QTR_u1": [
+      0.002085989623623418,
+      0.030927168871159188,
+      0.11986720722740142,
+      0.11986983754125581,
+      0.2549962099266541,
+      0.25499628519187395,
+      0.3208618077823106,
+      0.3314892694741804,
+      0.33148969441871623,
+      17.641684540867477
+     ],
+     "perturbation_bound": {
+      "offdiag_coupling_norm_2": 0.016919728966511432,
+      "TR_block_spectrum": [
+       0.0309270040087003,
+       0.12198842898896087,
+       0.12199111059859274,
+       0.33143662610179503,
+       0.331437042439171,
+       17.641684540772193
+      ],
+      "doublet_block_mean": 0.2529276466975574,
+      "spectral_gap": 0.07850897940423762,
+      "second_order_bound": 0.0036464265676691985,
+      "bound_formula": "|shift| <= ||C||_2^2 / gap  (symmetric block [[A,C],[C^T,B]], ||C||<<gap)",
+      "enlargedRR_doublet_neighbors": [
+       0.2549962099266541,
+       0.25499628519187395
+      ],
+      "observed_shift_vs_deflated": [
+       0.0020685666466024877,
+       0.0020686350607806436
+      ]
+     }
+    },
+    "1": {
+     "refine_file": "noNull_hess_refine_s128_1.npz",
+     "eigenvalues_file": [
+      0.2529276427225849,
+      0.2529276501830047,
+      0.3208618081605047
+     ],
+     "eigenvalues_recomputed": [
+      0.2529276427344641,
+      0.2529276501850474,
+      0.32086180814815457
+     ],
+     "doublet_eta_c_deflated": 0.0008243115426476959,
+     "doublet_eta_c_file": 0.000824316392275986,
+     "doublet_deflated_gate_1e3_met": true,
+     "isolated_raw_r_j": 4.7388815747127244e-05,
+     "isolated_r_j_file": 4.604297812150793e-05,
+     "isolated_raw_gate_1e3_met": true,
+     "fullH_residuals": {
+      "doublet0": {
+       "raw_rel_residual": 0.033420572391495956,
+       "raw_abs_residual": 1.4277695015518728e-05,
+       "frac_in_span_QTR": 0.9993771608251273,
+       "frac_along_u1": 1.815462451936098e-10,
+       "raw_gate_1e3_met": false
+      },
+      "doublet1": {
+       "raw_rel_residual": 0.03342086217275225,
+       "raw_abs_residual": 1.427781951121836e-05,
+       "frac_in_span_QTR": 0.9994088598413643,
+       "frac_along_u1": 6.222093879214691e-11,
+       "raw_gate_1e3_met": false
+      },
+      "isolated": {
+       "raw_rel_residual": 4.7388815747127244e-05,
+       "raw_abs_residual": 2.5654080561349697e-08,
+       "frac_in_span_QTR": 0.056090154787286794,
+       "frac_along_u1": 5.85603691281146e-10,
+       "raw_gate_1e3_met": true
+      }
+     },
+     "doublet_raw_gate_1e3_met": false,
+     "isolated_r_j_deflated": 4.6040614727627694e-05,
+     "eps_sweep": {
+      "0.0002": {
+       "doublet_eta_c_deflated": 0.0008243128548914587,
+       "isolated_raw_r_j": 4.738853249830612e-05,
+       "isolated_lam": 0.32086180813883136
+      },
+      "0.0001": {
+       "doublet_eta_c_deflated": 0.0008243115426476959,
+       "isolated_raw_r_j": 4.7388815747127244e-05,
+       "isolated_lam": 0.32086180814815457
+      },
+      "5e-05": {
+       "doublet_eta_c_deflated": 0.000824316392275986,
+       "isolated_raw_r_j": 4.7391106564801716e-05,
+       "isolated_lam": 0.3208618081605047
+      }
+     },
+     "enlargedRR_spectrum_V_QTR_u1": [
+      0.0020859896235984744,
+      0.030927168869033104,
+      0.11986722193349268,
+      0.11986973415160883,
+      0.2549961945059347,
+      0.254996434564414,
+      0.3208618078169169,
+      0.33148927423983526,
+      0.3314896438947058,
+      17.641684540867193
+     ],
+     "perturbation_bound": {
+      "offdiag_coupling_norm_2": 0.016920046773163017,
+      "TR_block_spectrum": [
+       0.0309270040087003,
+       0.12198842898896087,
+       0.12199111059859274,
+       0.33143662610179503,
+       0.331437042439171,
+       17.641684540772193
+      ],
+      "doublet_block_mean": 0.25292764645975574,
+      "spectral_gap": 0.07850897964203929,
+      "second_order_bound": 0.0036465635410286917,
+      "bound_formula": "|shift| <= ||C||_2^2 / gap  (symmetric block [[A,C],[C^T,B]], ||C||<<gap)",
+      "enlargedRR_doublet_neighbors": [
+       0.2549961945059347,
+       0.254996434564414
+      ],
+      "observed_shift_vs_deflated": [
+       0.0020685517833498035,
+       0.0020687843814092832
+      ]
+     }
+    }
+   },
+   "hunt": {
+    "hunt_u1_s0.npz": {
+     "k": 8,
+     "vectors": [
+      {
+       "idx": 0,
+       "rayleigh_quotient": 0.0028778321569377817,
+       "raw_rel_residual": 0.990930920442795,
+       "s_TR": 0.9969642764825756,
+       "ov_u1": 5.898059818321144e-17,
+       "ov_doublet": 0.009051378045227688,
+       "ov_isolated": 3.421960537814371e-05
+      },
+      {
+       "idx": 1,
+       "rayleigh_quotient": 0.005108790416104945,
+       "raw_rel_residual": 0.9816522810493457,
+       "s_TR": 0.981976231662342,
+       "ov_u1": 7.546047120499111e-17,
+       "ov_doublet": 0.003561000703178874,
+       "ov_isolated": 4.0197381208548406e-05
+      },
+      {
+       "idx": 2,
+       "rayleigh_quotient": 0.005161321534693536,
+       "raw_rel_residual": 0.9829340349388411,
+       "s_TR": 0.9819695708798918,
+       "ov_u1": 1.3877787807814457e-17,
+       "ov_doublet": 0.0018945497784168986,
+       "ov_isolated": 5.679106909581679e-05
+      },
+      {
+       "idx": 3,
+       "rayleigh_quotient": 0.009672510009011917,
+       "raw_rel_residual": 0.9909842573504742,
+       "s_TR": 0.9829549219460921,
+       "ov_u1": 4.718447854656915e-16,
+       "ov_doublet": 0.06985120062235654,
+       "ov_isolated": 2.966325498889727e-05
+      },
+      {
+       "idx": 4,
+       "rayleigh_quotient": 0.024360536767034455,
+       "raw_rel_residual": 0.9856672519283977,
+       "s_TR": 0.9741476571019736,
+       "ov_u1": 3.8163916471489756e-17,
+       "ov_doublet": 0.07339240910884741,
+       "ov_isolated": 0.000257839737944722
+      },
+      {
+       "idx": 5,
+       "rayleigh_quotient": 0.2541879479558549,
+       "raw_rel_residual": 0.37720503005486894,
+       "s_TR": 0.004857169966953081,
+       "ov_u1": 4.163336342344337e-17,
+       "ov_doublet": 0.997483369642671,
+       "ov_isolated": 0.00011821676496009612
+      },
+      {
+       "idx": 6,
+       "rayleigh_quotient": 0.2542640585669874,
+       "raw_rel_residual": 0.4139402262285061,
+       "s_TR": 0.005304870611446594,
+       "ov_u1": 8.673617379884035e-18,
+       "ov_doublet": 0.9972622263703714,
+       "ov_isolated": 0.00045820168104188097
+      },
+      {
+       "idx": 7,
+       "rayleigh_quotient": 0.32090607157967044,
+       "raw_rel_residual": 0.2535875401705848,
+       "s_TR": 3.5243308995209786e-08,
+       "ov_u1": 2.3622054833027928e-17,
+       "ov_doublet": 0.00046570601874894855,
+       "ov_isolated": 0.9999866712075398
+      }
+     ],
+     "deflation": "u1 only",
+     "note": "vectors saved by the blind verifier; RQ/residual/overlaps recomputed here with own raw HVP"
+    },
+    "hunt_u1tr_s1.npz": {
+     "k": 6,
+     "vectors": [
+      {
+       "idx": 0,
+       "rayleigh_quotient": 0.25294471727150086,
+       "raw_rel_residual": 0.19709491181240016,
+       "s_TR": 1.1659493366936105e-33,
+       "ov_u1": 1.0408340855860843e-17,
+       "ov_doublet": 0.9999995716344445,
+       "ov_isolated": 7.364612717494778e-05
+      },
+      {
+       "idx": 1,
+       "rayleigh_quotient": 0.2529662660051033,
+       "raw_rel_residual": 0.26260356467862617,
+       "s_TR": 4.674826422521032e-33,
+       "ov_u1": 1.3877787807814457e-17,
+       "ov_doublet": 0.9999955493428996,
+       "ov_isolated": 0.0007753876651251899
+      },
+      {
+       "idx": 2,
+       "rayleigh_quotient": 0.32107754147837314,
+       "raw_rel_residual": 0.3465998278135452,
+       "s_TR": 7.070243576003409e-33,
+       "ov_u1": 6.539094352803199e-18,
+       "ov_doublet": 0.0007506287150497841,
+       "ov_isolated": 0.9999244126142256
+      },
+      {
+       "idx": 3,
+       "rayleigh_quotient": 0.4844404037588086,
+       "raw_rel_residual": 0.22698047206881747,
+       "s_TR": 2.2810109351929488e-32,
+       "ov_u1": 2.0599841277224584e-17,
+       "ov_doublet": 2.9181817884364036e-05,
+       "ov_isolated": 0.00035906153636556387
+      },
+      {
+       "idx": 4,
+       "rayleigh_quotient": 0.4864155203129007,
+       "raw_rel_residual": 0.16834832927336324,
+       "s_TR": 5.404041404317761e-33,
+       "ov_u1": 8.153200337090993e-17,
+       "ov_doublet": 7.249005598164123e-05,
+       "ov_isolated": 0.0001942472723332903
+      },
+      {
+       "idx": 5,
+       "rayleigh_quotient": 0.545040754261907,
+       "raw_rel_residual": 0.2548085916287206,
+       "s_TR": 8.37432754974955e-33,
+       "ov_u1": 3.122502256758253e-17,
+       "ov_doublet": 4.535199983925642e-05,
+       "ov_isolated": 0.0004284963261405794
+      }
+     ],
+     "deflation": "u1 + 6 T/R",
+     "note": "vectors saved by the blind verifier; RQ/residual/overlaps recomputed here with own raw HVP"
+    }
+   }
+  },
+  "192": {
+   "criticality": {
+    "E": 274.1805968148136,
+    "raw_grad_norm": 0.0002722465924464909,
+    "Minv_norm": 0.017287836018386283,
+    "N": 192,
+    "L": 6.0,
+    "h": 0.06282722513089005
+   },
+   "seeds": {
+    "0": {
+     "refine_file": "noNull_hess_refine_s192_0.npz",
+     "eigenvalues_file": [
+      0.25175042924999147,
+      0.2517504296263872,
+      0.32253707457330494
+     ],
+     "eigenvalues_recomputed": [
+      0.2517504292589471,
+      0.2517504296315709,
+      0.32253707456051023
+     ],
+     "doublet_eta_c_deflated": 0.0009339466103316493,
+     "doublet_eta_c_file": 0.0009339556232794793,
+     "doublet_deflated_gate_1e3_met": true,
+     "isolated_raw_r_j": 7.2163927139196e-05,
+     "isolated_r_j_file": 7.219144846367195e-05,
+     "isolated_raw_gate_1e3_met": true,
+     "fullH_residuals": {
+      "doublet0": {
+       "raw_rel_residual": 0.033766922883965565,
+       "raw_abs_residual": 4.221150193132071e-06,
+       "frac_in_span_QTR": 0.999514603406337,
+       "frac_along_u1": 5.016932088843284e-13,
+       "raw_gate_1e3_met": false
+      },
+      "doublet1": {
+       "raw_rel_residual": 0.033776742962658056,
+       "raw_abs_residual": 4.222380595888103e-06,
+       "frac_in_span_QTR": 0.9989594887156924,
+       "frac_along_u1": 4.428120766145453e-12,
+       "raw_gate_1e3_met": false
+      },
+      "isolated": {
+       "raw_rel_residual": 7.2163927139196e-05,
+       "raw_abs_residual": 1.1544455026813586e-08,
+       "frac_in_span_QTR": 8.525506450087733e-05,
+       "frac_along_u1": 6.358009306605879e-10,
+       "raw_gate_1e3_met": true
+      }
+     },
+     "doublet_raw_gate_1e3_met": false,
+     "isolated_r_j_deflated": 7.216085088058704e-05,
+     "eps_sweep": {
+      "0.0002": {
+       "doublet_eta_c_deflated": 0.0009339439954833083,
+       "isolated_raw_r_j": 7.215409602891502e-05,
+       "isolated_lam": 0.32253707456527736
+      },
+      "0.0001": {
+       "doublet_eta_c_deflated": 0.0009339466103316493,
+       "isolated_raw_r_j": 7.2163927139196e-05,
+       "isolated_lam": 0.32253707456051023
+      },
+      "5e-05": {
+       "doublet_eta_c_deflated": 0.0009339556232794793,
+       "isolated_raw_r_j": 7.219452332644974e-05,
+       "isolated_lam": 0.3225370745733049
+      }
+     },
+     "enlargedRR_spectrum_V_QTR_u1": [
+      0.0009034950580607859,
+      0.045882330081816955,
+      0.17964784552970114,
+      0.1796480422189654,
+      0.25571637378805967,
+      0.25571656842636986,
+      0.3225370745604706,
+      0.4966840279774556,
+      0.4966840383290109,
+      26.33616897231741
+     ],
+     "perturbation_bound": {
+      "offdiag_coupling_norm_2": 0.017017315517905272,
+      "TR_block_spectrum": [
+       0.045882301724041556,
+       0.18362554374633577,
+       0.18362554828767808,
+       0.4966724649837838,
+       0.496672480360072,
+       26.336168972316923
+      ],
+      "doublet_block_mean": 0.251750429445259,
+      "spectral_gap": 0.06812488115758092,
+      "second_order_bound": 0.004250855524666324,
+      "bound_formula": "|shift| <= ||C||_2^2 / gap  (symmetric block [[A,C],[C^T,B]], ||C||<<gap)",
+      "enlargedRR_doublet_neighbors": [
+       0.25571637378805967,
+       0.25571656842636986
+      ],
+      "observed_shift_vs_deflated": [
+       0.0039659445380682,
+       0.003966138799982644
+      ]
+     }
+    },
+    "1": {
+     "refine_file": "noNull_hess_refine_s192_1.npz",
+     "eigenvalues_file": [
+      0.2517504292834374,
+      0.2517504294209088,
+      0.3225370745549607
+     ],
+     "eigenvalues_recomputed": [
+      0.2517504292763734,
+      0.251750429426397,
+      0.3225370745862909
+     ],
+     "doublet_eta_c_deflated": 0.0008499074853084919,
+     "doublet_eta_c_file": 0.0008499094091301018,
+     "doublet_deflated_gate_1e3_met": true,
+     "isolated_raw_r_j": 9.053052726508323e-05,
+     "isolated_r_j_file": 9.05569208109148e-05,
+     "isolated_raw_gate_1e3_met": true,
+     "fullH_residuals": {
+      "doublet0": {
+       "raw_rel_residual": 0.033768850283445666,
+       "raw_abs_residual": 4.2213916847365085e-06,
+       "frac_in_span_QTR": 0.9994362689189227,
+       "frac_along_u1": 4.77857962163671e-12,
+       "raw_gate_1e3_met": false
+      },
+      "doublet1": {
+       "raw_rel_residual": 0.03377277553735841,
+       "raw_abs_residual": 4.221883497741285e-06,
+       "frac_in_span_QTR": 0.9992998847290167,
+       "frac_along_u1": 2.4022714048605097e-13,
+       "raw_gate_1e3_met": false
+      },
+      "isolated": {
+       "raw_rel_residual": 9.053052726508323e-05,
+       "raw_abs_residual": 1.4482659760964363e-08,
+       "frac_in_span_QTR": 0.00011239511984803305,
+       "frac_along_u1": 1.1285127954504693e-10,
+       "raw_gate_1e3_met": true
+      }
+     },
+     "doublet_raw_gate_1e3_met": false,
+     "isolated_r_j_deflated": 9.052543952236396e-05,
+     "eps_sweep": {
+      "0.0002": {
+       "doublet_eta_c_deflated": 0.0008499051059929243,
+       "isolated_raw_r_j": 9.05259399977051e-05,
+       "isolated_lam": 0.3225370745644846
+      },
+      "0.0001": {
+       "doublet_eta_c_deflated": 0.0008499074853084919,
+       "isolated_raw_r_j": 9.053052726508323e-05,
+       "isolated_lam": 0.3225370745862909
+      },
+      "5e-05": {
+       "doublet_eta_c_deflated": 0.0008499094091297479,
+       "isolated_raw_r_j": 9.056200672035765e-05,
+       "isolated_lam": 0.3225370745549607
+      }
+     },
+     "enlargedRR_spectrum_V_QTR_u1": [
+      0.0009034950580545741,
+      0.045882330081807796,
+      0.17964750518503006,
+      0.17964788511855057,
+      0.2557165240958877,
+      0.2557169026571476,
+      0.3225370745862787,
+      0.4966840276721507,
+      0.49668405135285654,
+      26.33616897231758
+     ],
+     "perturbation_bound": {
+      "offdiag_coupling_norm_2": 0.017018089221543024,
+      "TR_block_spectrum": [
+       0.045882301724041556,
+       0.18362554374633577,
+       0.18362554828767808,
+       0.4966724649837838,
+       0.496672480360072,
+       26.336168972316923
+      ],
+      "doublet_block_mean": 0.25175042935138525,
+      "spectral_gap": 0.06812488106370718,
+      "second_order_bound": 0.004251242075293522,
+      "bound_formula": "|shift| <= ||C||_2^2 / gap  (symmetric block [[A,C],[C^T,B]], ||C||<<gap)",
+      "enlargedRR_doublet_neighbors": [
+       0.2557165240958877,
+       0.2557169026571476
+      ],
+      "observed_shift_vs_deflated": [
+       0.003966094812450305,
+       0.003966473236238777
+      ]
+     }
+    }
+   },
+   "hunt": "not_probed (blind-verifier hunt was N=128 only, per its bounded scope)"
+  },
+  "256": {
+   "criticality": {
+    "E": 274.9581913304203,
+    "raw_grad_norm": 0.00016007033425067047,
+    "Minv_norm": 0.015680115356001587,
+    "N": 256,
+    "L": 6.0,
+    "h": 0.0470588235294116
+   },
+   "seeds": {
+    "0": {
+     "refine_file": "noNull_hess_refine_s0.npz",
+     "eigenvalues_file": [
+      0.25088213443614193,
+      0.25088213632181805,
+      0.32260956273668945
+     ],
+     "eigenvalues_recomputed": [
+      0.25088213443996593,
+      0.25088213631694367,
+      0.3226095627617888
+     ],
+     "doublet_eta_c_deflated": 0.000825414026900525,
+     "doublet_eta_c_file": 0.0008254348096284452,
+     "doublet_deflated_gate_1e3_met": true,
+     "isolated_raw_r_j": 0.0007372917017439315,
+     "isolated_r_j_file": 0.0007373015674656668,
+     "isolated_raw_gate_1e3_met": true,
+     "fullH_residuals": {
+      "doublet0": {
+       "raw_rel_residual": 0.033642366625192724,
+       "raw_abs_residual": 1.7611700219027526e-06,
+       "frac_in_span_QTR": 0.9997128265709966,
+       "frac_along_u1": 9.259630338653266e-14,
+       "raw_gate_1e3_met": false
+      },
+      "doublet1": {
+       "raw_rel_residual": 0.03365159226449626,
+       "raw_abs_residual": 1.761654090068292e-06,
+       "frac_in_span_QTR": 0.9990864694674124,
+       "frac_along_u1": 8.935233378028837e-14,
+       "raw_gate_1e3_met": false
+      },
+      "isolated": {
+       "raw_rel_residual": 0.0007372917017439315,
+       "raw_abs_residual": 4.9575831958974845e-08,
+       "frac_in_span_QTR": 3.748054365056817e-05,
+       "frac_along_u1": 8.108383515591897e-10,
+       "raw_gate_1e3_met": true
+      }
+     },
+     "doublet_raw_gate_1e3_met": false,
+     "isolated_r_j_deflated": 0.0007372778842836602,
+     "eps_sweep": {
+      "0.0002": {
+       "doublet_eta_c_deflated": 0.0008253952009603136,
+       "isolated_raw_r_j": 0.0007372861770609027,
+       "isolated_lam": 0.3226095627573979
+      },
+      "0.0001": {
+       "doublet_eta_c_deflated": 0.000825414026900525,
+       "isolated_raw_r_j": 0.0007372917017439315,
+       "isolated_lam": 0.3226095627617888
+      },
+      "5e-05": {
+       "doublet_eta_c_deflated": 0.0008254348096284452,
+       "isolated_raw_r_j": 0.0007373153844956544,
+       "isolated_lam": 0.32260956273668945
+      }
+     },
+     "enlargedRR_spectrum_V_QTR_u1": [
+      0.0003391211375932532,
+      0.06116060997858592,
+      0.23110309018887518,
+      0.23110387356919035,
+      0.2651857344707036,
+      0.26518628530985655,
+      0.3226095627621756,
+      0.672370878400021,
+      0.6723710879170834,
+      34.89304243289715
+     ],
+     "perturbation_bound": {
+      "offdiag_coupling_norm_2": 0.016897247158449848,
+      "TR_block_spectrum": [
+       0.061159339396426066,
+       0.24541330105432846,
+       0.24541356406591142,
+       0.6723648027833563,
+       0.6723650111953515,
+       34.8930424327704
+      ],
+      "doublet_block_mean": 0.25088213537845483,
+      "spectral_gap": 0.005468571312543413,
+      "second_order_bound": 0.052210521764403675,
+      "bound_formula": "|shift| <= ||C||_2^2 / gap  (symmetric block [[A,C],[C^T,B]], ||C||<<gap)",
+      "enlargedRR_doublet_neighbors": [
+       0.2651857344707036,
+       0.26518628530985655
+      ],
+      "observed_shift_vs_deflated": [
+       0.014303600034561659,
+       0.014304148988038501
+      ]
+     }
+    },
+    "1": {
+     "refine_file": "noNull_hess_refine_s1.npz",
+     "eigenvalues_file": [
+      0.2508821346656148,
+      0.25088213616379335,
+      0.32260956163826615
+     ],
+     "eigenvalues_recomputed": [
+      0.2508821346705922,
+      0.2508821361423987,
+      0.32260956165135896
+     ],
+     "doublet_eta_c_deflated": 0.000861489553756882,
+     "doublet_eta_c_file": 0.000861520116895822,
+     "doublet_deflated_gate_1e3_met": true,
+     "isolated_raw_r_j": 0.0009484526413993455,
+     "isolated_r_j_file": 0.0009484741433316631,
+     "isolated_raw_gate_1e3_met": true,
+     "fullH_residuals": {
+      "doublet0": {
+       "raw_rel_residual": 0.033652670525616386,
+       "raw_abs_residual": 1.7617106532554344e-06,
+       "frac_in_span_QTR": 0.9991072234062109,
+       "frac_along_u1": 1.040350104848278e-12,
+       "raw_gate_1e3_met": false
+      },
+      "doublet1": {
+       "raw_rel_residual": 0.03364411224381475,
+       "raw_abs_residual": 1.7612616236868423e-06,
+       "frac_in_span_QTR": 0.9995848672657641,
+       "frac_along_u1": 1.4625290944460776e-12,
+       "raw_gate_1e3_met": false
+      },
+      "isolated": {
+       "raw_rel_residual": 0.0009484526413993455,
+       "raw_abs_residual": 6.377441280774716e-08,
+       "frac_in_span_QTR": 8.387747563116561e-06,
+       "frac_along_u1": 1.3128118141708063e-09,
+       "raw_gate_1e3_met": true
+      }
+     },
+     "doublet_raw_gate_1e3_met": false,
+     "isolated_r_j_deflated": 0.000948448663084924,
+     "eps_sweep": {
+      "0.0002": {
+       "doublet_eta_c_deflated": 0.0008614786044185012,
+       "isolated_raw_r_j": 0.0009484488219389809,
+       "isolated_lam": 0.322609561635981
+      },
+      "0.0001": {
+       "doublet_eta_c_deflated": 0.000861489553756882,
+       "isolated_raw_r_j": 0.0009484526413993455,
+       "isolated_lam": 0.32260956165135896
+      },
+      "5e-05": {
+       "doublet_eta_c_deflated": 0.0008615201168978293,
+       "isolated_raw_r_j": 0.0009484781214807555,
+       "isolated_lam": 0.32260956163826615
+      }
+     },
+     "enlargedRR_spectrum_V_QTR_u1": [
+      0.00033912113759632697,
+      0.06116060997890022,
+      0.2311029776142265,
+      0.23110352232870504,
+      0.26518609453277087,
+      0.26518638519187737,
+      0.3226095616558172,
+      0.6723708820086637,
+      0.6723710882310329,
+      34.8930424328973
+     ],
+     "perturbation_bound": {
+      "offdiag_coupling_norm_2": 0.016897359675519398,
+      "TR_block_spectrum": [
+       0.061159339396426066,
+       0.24541330105432846,
+       0.24541356406591142,
+       0.6723648027833563,
+       0.6723650111953515,
+       34.8930424327704
+      ],
+      "doublet_block_mean": 0.25088213540649545,
+      "spectral_gap": 0.005468571340584039,
+      "second_order_bound": 0.05221121682822842,
+      "bound_formula": "|shift| <= ||C||_2^2 / gap  (symmetric block [[A,C],[C^T,B]], ||C||<<gap)",
+      "enlargedRR_doublet_neighbors": [
+       0.26518609453277087,
+       0.26518638519187737
+      ],
+      "observed_shift_vs_deflated": [
+       0.014303959867156046,
+       0.014304249028084026
+      ]
+     }
+    }
+   },
+   "hunt": "not_probed (blind-verifier hunt was N=128 only, per its bounded scope)"
+  }
+ }
+}

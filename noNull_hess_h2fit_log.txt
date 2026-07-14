@@ -2,7 +2,7 @@
 # All grids certification-grade: raw backward error <1e-3 (doublet eta_c, isolated r_j), both seeds, eps-sweep stable.
 #
 # N     doublet lam           isolated lam       eta_c(dbl)  r_j(iso)   [seeds agree ~1e-9]
-# 128   0.25292765            0.32086181         8.6e-04     3.4e-05
+# 128   0.25292765            0.32086181         8.6e-04     4.6e-05
 # 192   0.25175043            0.32253707         9.3e-04     7.2e-05
 # 256   0.25088214            0.32260956         8.3e-04     7.4e-04
 #

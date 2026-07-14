@@ -1,0 +1,864 @@
+{
+ "purpose": "H3 stability certification artifact fingerprints (NPZ gitignored/large; this manifest is the auditable record)",
+ "generated": "2026-07-14T10:46:10",
+ "git_HEAD": "5a297b29102614aa4f1542551ea596f7180dbf36",
+ "torch_version": "2.5.1+cu121",
+ "cuda_version": "12.1",
+ "device": "cpu",
+ "HBW_free_mask_width": 2,
+ "artifacts": {
+  "noNull_critical_field.npz": {
+   "status": "present",
+   "bytes": 402654660,
+   "sha256": "c994ec2cfa9dccd2d351ec15a0d37972c551bddb1b548d03e8228d65e1a83fe1",
+   "mtime": "2026-07-12T10:30:17",
+   "params": {
+    "N": 256.0,
+    "L": 6.0,
+    "h": 0.0470588235294116,
+    "xi": 1.0,
+    "kappa": 1.0
+   },
+   "arrays": {
+    "n": {
+     "shape": [
+      3,
+      256,
+      256,
+      256
+     ],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "xi": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "kappa": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "STAGE=nk \u2026 python3 noNull_resolve.py (256^3 NK to ||g_f||_M-1=0.0157; 2026-07-12)"
+  },
+  "noNull_critical_field_192.npz": {
+   "status": "present",
+   "bytes": 169870788,
+   "sha256": "69e07b034bfeb7bb3c2d6a11b1cf79464381ccea86ceb04ffab6499fb0e43d77",
+   "mtime": "2026-07-13T17:16:01",
+   "params": {
+    "N": 192.0,
+    "L": 6.0,
+    "h": 0.06282722513089005,
+    "xi": 1.0,
+    "kappa": 1.0
+   },
+   "arrays": {
+    "n": {
+     "shape": [
+      3,
+      192,
+      192,
+      192
+     ],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "xi": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "kappa": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "TARGET_N=192 SRC=noNull_critical_field.npz python3 noNull_downsample.py ; then BASE_FIELD=CRIT_FIELD=noNull_critical_field_192.npz STAGE=nk NK_BUDGET_S=6000 timeout 7200 python3 noNull_resolve.py (converged 0.0173; 2026-07-13)"
+  },
+  "noNull_critical_field_128.npz": {
+   "status": "present",
+   "bytes": 50333124,
+   "sha256": "c903d7cb54b2e9474d5f161380ae2755a8ec0246605a6653a394774c8034e784",
+   "mtime": "2026-07-12T20:29:46",
+   "params": {
+    "N": 128.0,
+    "L": 6.0,
+    "h": 0.09448818897637795,
+    "xi": 1.0,
+    "kappa": 1.0
+   },
+   "arrays": {
+    "n": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "xi": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "kappa": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "TARGET_N=128 SRC=noNull_critical_field.npz python3 noNull_downsample.py ; then BASE_FIELD=CRIT_FIELD=noNull_critical_field_128.npz STAGE=nk NK_BUDGET_S=6000 timeout 7200 python3 noNull_resolve.py (converged 0.0411; 2026-07-12)"
+  },
+  "noNull_hess_ritz_bw2_s0.npz": {
+   "status": "present",
+   "bytes": 2038434074,
+   "sha256": "8cb86cfed580b760f0259f85041ea9d9c044d56cfb40bf4196cf4261575b3bae",
+   "mtime": "2026-07-13T20:30:21",
+   "params": {
+    "N": 192.0,
+    "L": 6.0,
+    "h": 0.06282722513089005
+   },
+   "arrays": {
+    "V": {
+     "shape": [
+      12,
+      3,
+      192,
+      192,
+      192
+     ],
+     "dtype": "float64"
+    },
+    "lam_phys": {
+     "shape": [
+      12
+     ],
+     "dtype": "float64"
+    },
+    "r_j": {
+     "shape": [
+      12
+     ],
+     "dtype": "float64"
+    },
+    "a_j": {
+     "shape": [
+      12
+     ],
+     "dtype": "float64"
+    },
+    "s_TR": {
+     "shape": [
+      12
+     ],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "BASE_FIELD=CRIT_FIELD=noNull_critical_field_192.npz STAGE=hess HESS_BW=2 HESS_BS=12 HESS_SEEDS=0,1 timeout 86400 python3 noNull_resolve.py \u2014 seed 0 (192^3; filename pre-dates N-tagging; 2026-07-13)"
+  },
+  "noNull_hess_ritz_bw2_s1.npz": {
+   "status": "present",
+   "bytes": 2038434074,
+   "sha256": "a4e19c0f7f2f78f9e2edc2fdb969978a8e42d211015fe3c3af897371a07c7ad1",
+   "mtime": "2026-07-13T23:44:21",
+   "params": {
+    "N": 192.0,
+    "L": 6.0,
+    "h": 0.06282722513089005
+   },
+   "arrays": {
+    "V": {
+     "shape": [
+      12,
+      3,
+      192,
+      192,
+      192
+     ],
+     "dtype": "float64"
+    },
+    "lam_phys": {
+     "shape": [
+      12
+     ],
+     "dtype": "float64"
+    },
+    "r_j": {
+     "shape": [
+      12
+     ],
+     "dtype": "float64"
+    },
+    "a_j": {
+     "shape": [
+      12
+     ],
+     "dtype": "float64"
+    },
+    "s_TR": {
+     "shape": [
+      12
+     ],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "same command \u2014 seed 1 (192^3; 2026-07-13)"
+  },
+  "noNull_hess_ritz_bw2_N128_s0.npz": {
+   "status": "present",
+   "bytes": 603982106,
+   "sha256": "9bcc68411ec0ed7645b17ed2762b744d9e123ff3f271b73d96fc275d611c9b27",
+   "mtime": "2026-07-14T04:03:46",
+   "params": {
+    "N": 128.0,
+    "L": 6.0,
+    "h": 0.09448818897637795
+   },
+   "arrays": {
+    "V": {
+     "shape": [
+      12,
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "lam_phys": {
+     "shape": [
+      12
+     ],
+     "dtype": "float64"
+    },
+    "r_j": {
+     "shape": [
+      12
+     ],
+     "dtype": "float64"
+    },
+    "a_j": {
+     "shape": [
+      12
+     ],
+     "dtype": "float64"
+    },
+    "s_TR": {
+     "shape": [
+      12
+     ],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "BASE_FIELD=CRIT_FIELD=noNull_critical_field_128.npz STAGE=hess HESS_BW=2 HESS_BS=12 HESS_SEEDS=0,1 timeout 21600 python3 noNull_resolve.py \u2014 seed 0 (2026-07-14, post-N-tagging)"
+  },
+  "noNull_hess_ritz_bw2_N128_s1.npz": {
+   "status": "present",
+   "bytes": 603982106,
+   "sha256": "b273865349e00419b39c25ceb4648443d704eedb76329bc61b85056bdaff4a84",
+   "mtime": "2026-07-14T05:02:20",
+   "params": {
+    "N": 128.0,
+    "L": 6.0,
+    "h": 0.09448818897637795
+   },
+   "arrays": {
+    "V": {
+     "shape": [
+      12,
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "lam_phys": {
+     "shape": [
+      12
+     ],
+     "dtype": "float64"
+    },
+    "r_j": {
+     "shape": [
+      12
+     ],
+     "dtype": "float64"
+    },
+    "a_j": {
+     "shape": [
+      12
+     ],
+     "dtype": "float64"
+    },
+    "s_TR": {
+     "shape": [
+      12
+     ],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "same command \u2014 seed 1 (2026-07-14)"
+  },
+  "noNull_hess_refine_s0.npz": {
+   "status": "present",
+   "bytes": 1207961598,
+   "sha256": "5760589b8fb7e9237cfc45324bffca0426de9f2529c29945142df4a6b6055f2b",
+   "mtime": "2026-07-13T13:04:36",
+   "params": {
+    "N": 256.0,
+    "L": 6.0,
+    "h": 0.0470588235294116
+   },
+   "arrays": {
+    "V": {
+     "shape": [
+      3,
+      3,
+      256,
+      256,
+      256
+     ],
+     "dtype": "float64"
+    },
+    "lam_doublet": {
+     "shape": [
+      2
+     ],
+     "dtype": "float64"
+    },
+    "lam_isolated": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "eta_c_doublet": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "r_j_isolated": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "SEED_RITZ=noNull_hess_ritz_bw2_s0.npz(256^3 data at the time) TAG=0 timeout 14400 python3 noNull_hess_refine.py (GATE PASS it=38; 2026-07-13)"
+  },
+  "noNull_hess_refine_s1.npz": {
+   "status": "present",
+   "bytes": 1207961598,
+   "sha256": "5650a491cd0bfcd7d44b163157e92c6b03bf7b3dcf3fadf662029b5a545dc9f5",
+   "mtime": "2026-07-13T16:54:18",
+   "params": {
+    "N": 256.0,
+    "L": 6.0,
+    "h": 0.0470588235294116
+   },
+   "arrays": {
+    "V": {
+     "shape": [
+      3,
+      3,
+      256,
+      256,
+      256
+     ],
+     "dtype": "float64"
+    },
+    "lam_doublet": {
+     "shape": [
+      2
+     ],
+     "dtype": "float64"
+    },
+    "lam_isolated": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "eta_c_doublet": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "r_j_isolated": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "SEED_RITZ=noNull_hess_ritz_bw2_s1.npz(256^3 data at the time) TAG=1 timeout 21600 python3 noNull_hess_refine.py (GATE PASS it=47; 2026-07-13)"
+  },
+  "noNull_hess_refine_s192_0.npz": {
+   "status": "present",
+   "bytes": 509609982,
+   "sha256": "9ed832756ba664b4508a103e82283a7a72f9fd32a2910e38b4cf22db8daa13c8",
+   "mtime": "2026-07-14T01:15:43",
+   "params": {
+    "N": 192.0,
+    "L": 6.0,
+    "h": 0.06282722513089005
+   },
+   "arrays": {
+    "V": {
+     "shape": [
+      3,
+      3,
+      192,
+      192,
+      192
+     ],
+     "dtype": "float64"
+    },
+    "lam_doublet": {
+     "shape": [
+      2
+     ],
+     "dtype": "float64"
+    },
+    "lam_isolated": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "eta_c_doublet": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "r_j_isolated": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "CRIT=noNull_critical_field_192.npz SEED_RITZ=noNull_hess_ritz_bw2_s0.npz TAG=192_0 timeout 21600 python3 noNull_hess_refine.py (GATE PASS it=23; 2026-07-14)"
+  },
+  "noNull_hess_refine_s192_1.npz": {
+   "status": "present",
+   "bytes": 509609982,
+   "sha256": "510b0a401d106826801fcf1824a2a2d94a2b63d6321137806882a71ba611f228",
+   "mtime": "2026-07-14T02:31:28",
+   "params": {
+    "N": 192.0,
+    "L": 6.0,
+    "h": 0.06282722513089005
+   },
+   "arrays": {
+    "V": {
+     "shape": [
+      3,
+      3,
+      192,
+      192,
+      192
+     ],
+     "dtype": "float64"
+    },
+    "lam_doublet": {
+     "shape": [
+      2
+     ],
+     "dtype": "float64"
+    },
+    "lam_isolated": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "eta_c_doublet": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "r_j_isolated": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "CRIT=noNull_critical_field_192.npz SEED_RITZ=noNull_hess_ritz_bw2_s1.npz TAG=192_1 timeout 21600 python3 noNull_hess_refine.py (GATE PASS it=24; 2026-07-14)"
+  },
+  "noNull_hess_refine_s128_0.npz": {
+   "status": "present",
+   "bytes": 150996990,
+   "sha256": "e249e24a07b89807c072310da017f7c5f865b49a5a710ea0f7fd110a4966fd4f",
+   "mtime": "2026-07-14T05:20:38",
+   "params": {
+    "N": 128.0,
+    "L": 6.0,
+    "h": 0.09448818897637795
+   },
+   "arrays": {
+    "V": {
+     "shape": [
+      3,
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "lam_doublet": {
+     "shape": [
+      2
+     ],
+     "dtype": "float64"
+    },
+    "lam_isolated": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "eta_c_doublet": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "r_j_isolated": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "CRIT=noNull_critical_field_128.npz SEED_RITZ=noNull_hess_ritz_bw2_N128_s0.npz TAG=128_0 timeout 14400 python3 noNull_hess_refine.py (GATE PASS it=19; 2026-07-14)"
+  },
+  "noNull_hess_refine_s128_1.npz": {
+   "status": "present",
+   "bytes": 150996990,
+   "sha256": "1b32dc5d8a5f073b5ff298d1eae369b70d3196346176329dab78045d7063cd9b",
+   "mtime": "2026-07-14T05:38:56",
+   "params": {
+    "N": 128.0,
+    "L": 6.0,
+    "h": 0.09448818897637795
+   },
+   "arrays": {
+    "V": {
+     "shape": [
+      3,
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "lam_doublet": {
+     "shape": [
+      2
+     ],
+     "dtype": "float64"
+    },
+    "lam_isolated": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "eta_c_doublet": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "r_j_isolated": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "CRIT=noNull_critical_field_128.npz SEED_RITZ=noNull_hess_ritz_bw2_N128_s1.npz TAG=128_1 timeout 14400 python3 noNull_hess_refine.py (GATE PASS it=19; 2026-07-14)"
+  },
+  "hunt_u1_s0.npz": {
+   "status": "present",
+   "bytes": 402655336,
+   "sha256": "adc578065da8646de873794ff2284a210708a365803caac4d9fb07205039ff46",
+   "mtime": "2026-07-14T10:20:27",
+   "params": {},
+   "arrays": {
+    "k": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "x0": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "x1": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "x2": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "x3": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "x4": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "x5": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "x6": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "x7": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "blind verifier verify_hunt.py \u2014 full-space hunt (u1-only deflation), own LOBPCG, random seed variant s0 (2026-07-14)"
+  },
+  "hunt_u1tr_s1.npz": {
+   "status": "present",
+   "bytes": 301991568,
+   "sha256": "0eb2f2de159d2a9ff53b4b89573b1203029af91c240521eb1a6b9d01111652a0",
+   "mtime": "2026-07-14T10:04:11",
+   "params": {},
+   "arrays": {
+    "k": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "x0": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "x1": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "x2": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "x3": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "x4": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "x5": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "blind verifier verify_hunt.py \u2014 genuine-subspace hunt (u1+6 T/R deflation), own LOBPCG, random seed variant s1 (2026-07-14)"
+  }
+ }
+}

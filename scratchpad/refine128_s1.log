@@ -1,0 +1,34 @@
+# refine(soft-lock) CRIT=noNull_critical_field_128.npz warm=noNull_hess_ritz_bw2_N128_s1.npz tag=128_1 N=128 h=0.094488 EPS=0.0001 RJTOL=0.001 NGUARD=3
+# physical complement = free tangent minus U(1) minus 6 T/R generators
+# active block = 7 physical [5, 6, 7, 8, 9, 10, 11] + 3 guards = 10
+  [refine s128_1] it=0 t=45s rk=20/20 lock=0 active_lam=[0.253, 0.253, 0.3209, 0.4835] doublet_eta_c=1.45e-01 iso_r_j=6.18e-03
+  [refine s128_1] it=1 t=101s rk=30/30 lock=0 active_lam=[0.253, 0.253, 0.3209, 0.4835] doublet_eta_c=1.07e-01 iso_r_j=8.80e-03
+  [refine s128_1] it=2 t=157s rk=30/30 lock=0 active_lam=[0.2529, 0.2529, 0.3209, 0.4835] doublet_eta_c=3.47e-02 iso_r_j=5.01e-03
+  [refine s128_1] it=3 t=212s rk=30/30 lock=0 active_lam=[0.2529, 0.2529, 0.3209, 0.4835] doublet_eta_c=3.16e-02 iso_r_j=2.18e-03
+  [refine s128_1] it=4 t=268s rk=30/30 lock=0 active_lam=[0.2529, 0.2529, 0.3209, 0.4835] doublet_eta_c=2.57e-02 iso_r_j=2.10e-03
+  [refine s128_1] it=5 t=324s rk=30/30 lock=0 active_lam=[0.2529, 0.2529, 0.3209, 0.4835] doublet_eta_c=2.38e-02 iso_r_j=1.91e-03
+  [refine s128_1] it=6 t=380s rk=30/30 lock=0 active_lam=[0.2529, 0.2529, 0.3209, 0.4835] doublet_eta_c=1.69e-02 iso_r_j=1.35e-03
+  [refine s128_1] it=7 t=435s rk=30/30 lock=0 active_lam=[0.2529, 0.2529, 0.3209, 0.4835] doublet_eta_c=1.20e-02 iso_r_j=1.03e-03
+  [refine s128_1] it=8 t=491s rk=30/30 lock=0 active_lam=[0.2529, 0.2529, 0.3209, 0.4835] doublet_eta_c=1.16e-02 iso_r_j=8.92e-04
+  [refine s128_1] it=9 t=547s rk=30/30 lock=0 active_lam=[0.2529, 0.2529, 0.3209, 0.4835] doublet_eta_c=8.83e-03 iso_r_j=6.24e-04
+  [refine s128_1] it=10 t=602s rk=30/30 lock=0 active_lam=[0.2529, 0.2529, 0.3209, 0.4835] doublet_eta_c=6.20e-03 iso_r_j=4.78e-04
+  [refine s128_1] it=11 t=658s rk=30/30 lock=0 active_lam=[0.2529, 0.2529, 0.3209, 0.4835] doublet_eta_c=4.83e-03 iso_r_j=4.61e-04
+  [refine s128_1] it=12 t=714s rk=30/30 lock=0 active_lam=[0.2529, 0.2529, 0.3209, 0.4835] doublet_eta_c=4.26e-03 iso_r_j=4.01e-04
+  [refine s128_1] it=13 t=769s rk=30/30 lock=0 active_lam=[0.2529, 0.2529, 0.3209, 0.4835] doublet_eta_c=3.26e-03 iso_r_j=3.09e-04
+  [refine s128_1] it=14 t=825s rk=30/30 lock=0 active_lam=[0.2529, 0.2529, 0.3209, 0.4835] doublet_eta_c=2.63e-03 iso_r_j=2.23e-04
+  [refine s128_1] it=15 t=881s rk=30/30 lock=0 active_lam=[0.2529, 0.2529, 0.3209, 0.4835] doublet_eta_c=1.89e-03 iso_r_j=1.93e-04
+  [refine s128_1] it=16 t=937s rk=30/30 lock=0 active_lam=[0.2529, 0.2529, 0.3209, 0.4835] doublet_eta_c=1.41e-03 iso_r_j=1.63e-04
+  [refine s128_1] it=17 t=992s rk=30/30 lock=0 active_lam=[0.2529, 0.2529, 0.3209, 0.4835] doublet_eta_c=1.03e-03 iso_r_j=1.23e-04
+  [refine s128_1] it=18 t=1048s rk=30/30 lock=0 active_lam=[0.2529, 0.2529, 0.3209, 0.4835] doublet_eta_c=8.24e-04 iso_r_j=9.61e-05
+  [refine s128_1] LOCKED doublet (eta_c=8.24e-04, lam~[0.2529, 0.2529])
+  [refine s128_1] it=19 t=1087s rk=18/18 lock=2 active_lam=[0.3209, 0.4835, 0.486, 0.542] doublet_eta_c=0.00e+00 iso_r_j=4.60e-05
+  [refine s128_1] LOCKED isolated (r_j=4.60e-05, lam=+0.3209)
+  [refine s128_1] GATE PASS it=19: doublet+isolated both locked below 0.001
+
+# FINAL raw-backward-error gate, HVP-eps sweep (locked doublet + isolated):
+    eps=0.0002: doublet eta_c=8.243e-04 (lam~[0.2529, 0.2529])  isolated r_j=4.604e-05 (lam=+0.3209)
+    eps=0.0001: doublet eta_c=8.243e-04 (lam~[0.2529, 0.2529])  isolated r_j=4.604e-05 (lam=+0.3209)
+    eps=5e-05: doublet eta_c=8.243e-04 (lam~[0.2529, 0.2529])  isolated r_j=4.604e-05 (lam=+0.3209)
+
+# GATE PASS across eps-sweep: all physical modes POSITIVE, raw backward error < 0.001.
+# saved noNull_hess_refine_s128_1.npz

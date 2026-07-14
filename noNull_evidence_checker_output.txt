@@ -1,0 +1,64 @@
+[PASS] C: cross-seed doublet N=128: max diff 5.57e-10
+[PASS] C: cross-seed isolated N=128: diff 1.17e-11
+[PASS] C: cross-seed doublet N=192: max diff 2.05e-10
+[PASS] C: cross-seed isolated N=192: diff 1.83e-11
+[PASS] C: cross-seed doublet N=256: max diff 2.29e-10
+[PASS] C: cross-seed isolated N=256: diff 1.10e-09
+[PASS] A: table rows found: 3 rows
+[PASS] A: doublet lam N=128: log 0.25292765 vs npz 0.25292765
+[PASS] A: isolated lam N=128: log 0.32086181 vs npz 0.32086181
+[PASS] A: eta_c N=128: log 8.6e-04 vs npz max 8.62e-04
+[PASS] A: r_j N=128: log 4.6e-05 vs npz max 4.60e-05
+[PASS] A: gates N=128: eta_c(defl)=8.62e-04 r_j(iso,raw)=4.60e-05 (doublet RAW residual ~3.4e-2 is NOT this gate)
+[PASS] A: doublet lam N=192: log 0.25175043 vs npz 0.25175043
+[PASS] A: isolated lam N=192: log 0.32253707 vs npz 0.32253707
+[PASS] A: eta_c N=192: log 9.3e-04 vs npz max 9.34e-04
+[PASS] A: r_j N=192: log 7.2e-05 vs npz max 9.06e-05
+[PASS] A: gates N=192: eta_c(defl)=9.34e-04 r_j(iso,raw)=9.06e-05 (doublet RAW residual ~3.4e-2 is NOT this gate)
+[PASS] A: doublet lam N=256: log 0.25088214 vs npz 0.25088214
+[PASS] A: isolated lam N=256: log 0.32260956 vs npz 0.32260956
+[PASS] A: eta_c N=256: log 8.3e-04 vs npz max 8.62e-04
+[PASS] A: r_j N=256: log 7.4e-04 vs npz max 9.48e-04
+[PASS] A: gates N=256: eta_c(defl)=8.62e-04 r_j(iso,raw)=9.48e-04 (doublet RAW residual ~3.4e-2 is NOT this gate)
+[PASS] B: dbl coarse slope: +0.2364 vs quoted +0.236
+[PASS] B: dbl fine slope: +0.5011 vs quoted +0.501
+[PASS] B: dbl Richardson: 0.24977 vs quoted 0.24977
+[PASS] B: dbl 3-point: 0.24943 vs quoted 0.24943
+[PASS] B: dbl extrapolants POSITIVE: 0.24977, 0.24943
+[PASS] B: iso coarse slope: -0.3363 vs quoted -0.336
+[PASS] B: iso fine slope: -0.0418 vs quoted -0.042
+[PASS] B: iso Richardson: 0.32270 vs quoted 0.3227
+[PASS] B: iso 3-point: 0.32232 vs quoted 0.32232
+[PASS] B: iso extrapolants POSITIVE: 0.32270, 0.32232
+[PASS] D: N=128 s0 file-vs-recomputed lam: max diff 1.83e-11
+[PASS] D: N=128 s0 doublet raw gate correctly NOT claimed: raw rel residuals 3.34e-02/3.34e-02
+[PASS] D: N=128 s0 isolated raw gate met: raw 3.60e-05
+[PASS] D: N=128 s0 doublet residual is T/R-dominated: frac 0.999
+[PASS] D: N=128 s0 enlarged-RR spectrum all POSITIVE: min=+2.09e-03; doublet neighbors ['0.2550', '0.2550']; ||C||=1.69e-02 gap=0.0785 bound=3.65e-03 obs_shift=+2.1e-03
+[PASS] D: N=128 s1 file-vs-recomputed lam: max diff 1.24e-11
+[PASS] D: N=128 s1 doublet raw gate correctly NOT claimed: raw rel residuals 3.34e-02/3.34e-02
+[PASS] D: N=128 s1 isolated raw gate met: raw 4.74e-05
+[PASS] D: N=128 s1 doublet residual is T/R-dominated: frac 0.999
+[PASS] D: N=128 s1 enlarged-RR spectrum all POSITIVE: min=+2.09e-03; doublet neighbors ['0.2550', '0.2550']; ||C||=1.69e-02 gap=0.0785 bound=3.65e-03 obs_shift=+2.1e-03
+[PASS] D: N=192 s0 file-vs-recomputed lam: max diff 1.28e-11
+[PASS] D: N=192 s0 doublet raw gate correctly NOT claimed: raw rel residuals 3.38e-02/3.38e-02
+[PASS] D: N=192 s0 isolated raw gate met: raw 7.22e-05
+[PASS] D: N=192 s0 doublet residual is T/R-dominated: frac 1.000
+[PASS] D: N=192 s0 enlarged-RR spectrum all POSITIVE: min=+9.03e-04; doublet neighbors ['0.2557', '0.2557']; ||C||=1.70e-02 gap=0.0681 bound=4.25e-03 obs_shift=+4.0e-03
+[PASS] D: N=192 s1 file-vs-recomputed lam: max diff 3.13e-11
+[PASS] D: N=192 s1 doublet raw gate correctly NOT claimed: raw rel residuals 3.38e-02/3.38e-02
+[PASS] D: N=192 s1 isolated raw gate met: raw 9.05e-05
+[PASS] D: N=192 s1 doublet residual is T/R-dominated: frac 0.999
+[PASS] D: N=192 s1 enlarged-RR spectrum all POSITIVE: min=+9.03e-04; doublet neighbors ['0.2557', '0.2557']; ||C||=1.70e-02 gap=0.0681 bound=4.25e-03 obs_shift=+4.0e-03
+[PASS] D: N=256 s0 file-vs-recomputed lam: max diff 2.51e-11
+[PASS] D: N=256 s0 doublet raw gate correctly NOT claimed: raw rel residuals 3.36e-02/3.37e-02
+[PASS] D: N=256 s0 isolated raw gate met: raw 7.37e-04
+[PASS] D: N=256 s0 doublet residual is T/R-dominated: frac 1.000
+[PASS] D: N=256 s0 enlarged-RR spectrum all POSITIVE: min=+3.39e-04; doublet neighbors ['0.2652', '0.2652']; ||C||=1.69e-02 gap=0.0055 bound=5.22e-02 obs_shift=+1.4e-02
+[PASS] D: N=256 s1 file-vs-recomputed lam: max diff 2.14e-11
+[PASS] D: N=256 s1 doublet raw gate correctly NOT claimed: raw rel residuals 3.37e-02/3.36e-02
+[PASS] D: N=256 s1 isolated raw gate met: raw 9.48e-04
+[PASS] D: N=256 s1 doublet residual is T/R-dominated: frac 0.999
+[PASS] D: N=256 s1 enlarged-RR spectrum all POSITIVE: min=+3.39e-04; doublet neighbors ['0.2652', '0.2652']; ||C||=1.69e-02 gap=0.0055 bound=5.22e-02 obs_shift=+1.4e-02
+
+== CHECKER VERDICT: ALL CONSISTENT (62/62 checks pass) ==
