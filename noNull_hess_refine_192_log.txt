@@ -1,0 +1,63 @@
+# 192^3 Hessian + refinement (h^2-fit middle grid): GATE PASS both seeds
+# Carrier: noNull_critical_field_192.npz (downsampled 256^3 + NK re-relax, ||g_f||_M-1=0.0173, E=274.18, Q=-0.986)
+# Run 1: STAGE=hess bs=12 seeds 0,1 (warm Ritz). Run 2: noNull_hess_refine.py block-10 (7 phys + 3 guards).
+
+## hess final per-mode (both seeds):
+# HESS DONE bw=2
+  seed0 lowest-9 (lam_phys : r_j : s_TR[pseudomode] : a_j):
+    #0 lam=+0.0019 r_j=8.93e-01 s_TR=0.981 a_j=+2.71e-07
+    #1 lam=+0.0019 r_j=9.16e-01 s_TR=0.981 a_j=-5.19e-07
+    #2 lam=+0.0021 r_j=9.27e-01 s_TR=0.998 a_j=+7.00e-07
+    #3 lam=+0.0052 r_j=8.19e-01 s_TR=0.986 a_j=+2.76e-07
+    #4 lam=+0.0052 r_j=8.32e-01 s_TR=0.986 a_j=-1.29e-07
+    #5 lam=+0.2529 r_j=5.58e-02 s_TR=0.005 a_j=+5.96e-07
+    #6 lam=+0.2529 r_j=4.86e-02 s_TR=0.005 a_j=-1.36e-06
+    #7 lam=+0.3225 r_j=3.86e-02 s_TR=0.000 a_j=+1.61e-02
+    #8 lam=+0.4794 r_j=3.73e-02 s_TR=0.000 a_j=+2.21e-06
+  seed1 lowest-9 (lam_phys : r_j : s_TR[pseudomode] : a_j):
+    #0 lam=+0.0019 r_j=9.16e-01 s_TR=0.981 a_j=+6.98e-07
+    #1 lam=+0.0019 r_j=9.14e-01 s_TR=0.981 a_j=-5.76e-07
+    #2 lam=+0.0021 r_j=9.14e-01 s_TR=0.998 a_j=+2.11e-07
+    #3 lam=+0.0052 r_j=8.31e-01 s_TR=0.986 a_j=+1.11e-07
+    #4 lam=+0.0052 r_j=8.62e-01 s_TR=0.986 a_j=-2.84e-08
+    #5 lam=+0.2529 r_j=4.92e-02 s_TR=0.005 a_j=+7.34e-07
+    #6 lam=+0.2529 r_j=5.28e-02 s_TR=0.005 a_j=+3.84e-07
+    #7 lam=+0.3225 r_j=3.96e-02 s_TR=0.000 a_j=-1.61e-02
+    #8 lam=+0.4794 r_j=2.70e-02 s_TR=0.000 a_j=-1.25e-06
+
+## refine s192_0 (every 5th iter + lock):
+  [refine s192_0] it=0 t=148s rk=20/20 lock=0 active_lam=[0.2518, 0.2519, 0.3225, 0.4794] doublet_eta_c=2.75e-01 iso_r_j=1.74e-02
+  [refine s192_0] it=5 t=1069s rk=30/30 lock=0 active_lam=[0.2518, 0.2518, 0.3225, 0.4794] doublet_eta_c=4.95e-02 iso_r_j=6.60e-03
+  [refine s192_0] it=10 t=1989s rk=30/30 lock=0 active_lam=[0.2518, 0.2518, 0.3225, 0.4794] doublet_eta_c=1.57e-02 iso_r_j=1.76e-03
+  [refine s192_0] it=15 t=2909s rk=30/30 lock=0 active_lam=[0.2518, 0.2518, 0.3225, 0.4794] doublet_eta_c=5.20e-03 iso_r_j=6.54e-04
+  [refine s192_0] it=20 t=3829s rk=30/30 lock=0 active_lam=[0.2518, 0.2518, 0.3225, 0.4794] doublet_eta_c=1.57e-03 iso_r_j=2.26e-04
+  [refine s192_0] LOCKED doublet (eta_c=9.34e-04, lam~[0.2518, 0.2518])
+  [refine s192_0] LOCKED isolated (r_j=7.22e-05, lam=+0.3225)
+  [refine s192_0] GATE PASS it=23: doublet+isolated both locked below 0.001
+    eps=0.0002: doublet eta_c=9.339e-04 (lam~[0.2518, 0.2518])  isolated r_j=7.215e-05 (lam=+0.3225)
+    eps=0.0001: doublet eta_c=9.339e-04 (lam~[0.2518, 0.2518])  isolated r_j=7.216e-05 (lam=+0.3225)
+    eps=5e-05: doublet eta_c=9.340e-04 (lam~[0.2518, 0.2518])  isolated r_j=7.219e-05 (lam=+0.3225)
+# GATE PASS across eps-sweep: all physical modes POSITIVE, raw backward error < 0.001.
+# saved noNull_hess_refine_s192_0.npz
+
+## refine s192_1 (every 5th iter + lock):
+  [refine s192_1] it=0 t=148s rk=20/20 lock=0 active_lam=[0.2518, 0.2518, 0.3225, 0.4794] doublet_eta_c=2.76e-01 iso_r_j=2.05e-02
+  [refine s192_1] it=5 t=1069s rk=30/30 lock=0 active_lam=[0.2518, 0.2518, 0.3225, 0.4794] doublet_eta_c=5.93e-02 iso_r_j=6.30e-03
+  [refine s192_1] it=10 t=1988s rk=30/30 lock=0 active_lam=[0.2518, 0.2518, 0.3225, 0.4794] doublet_eta_c=1.79e-02 iso_r_j=1.86e-03
+  [refine s192_1] it=15 t=2908s rk=30/30 lock=0 active_lam=[0.2518, 0.2518, 0.3225, 0.4794] doublet_eta_c=5.15e-03 iso_r_j=7.82e-04
+  [refine s192_1] it=20 t=3829s rk=30/30 lock=0 active_lam=[0.2518, 0.2518, 0.3225, 0.4794] doublet_eta_c=1.68e-03 iso_r_j=3.34e-04
+  [refine s192_1] LOCKED doublet (eta_c=8.50e-04, lam~[0.2518, 0.2518])
+  [refine s192_1] LOCKED isolated (r_j=9.05e-05, lam=+0.3225)
+  [refine s192_1] GATE PASS it=24: doublet+isolated both locked below 0.001
+    eps=0.0002: doublet eta_c=8.499e-04 (lam~[0.2518, 0.2518])  isolated r_j=9.052e-05 (lam=+0.3225)
+    eps=0.0001: doublet eta_c=8.499e-04 (lam~[0.2518, 0.2518])  isolated r_j=9.053e-05 (lam=+0.3225)
+    eps=5e-05: doublet eta_c=8.499e-04 (lam~[0.2518, 0.2518])  isolated r_j=9.056e-05 (lam=+0.3225)
+# GATE PASS across eps-sweep: all physical modes POSITIVE, raw backward error < 0.001.
+# saved noNull_hess_refine_s192_1.npz
+
+## FULL PRECISION (refine npz):
+#  192 s0: doublet [0.25175043, 0.25175043] isolated 0.32253707 (eta_c=9.34e-04, r_j=7.22e-05)
+#  192 s1: doublet [0.25175043, 0.25175043] isolated 0.32253707 (eta_c=8.50e-04, r_j=9.06e-05)
+#  cross-seed: 2e-10 / 2e-11.  vs 256^3 converged: doublet 0.25088213, isolated 0.32260956
+#  2-point h^2 extrapolation: doublet lam0~0.2498 (c~0.50); isolated lam0~0.3227 (near h-independent)
+#  BOTH POSITIVE. 128^3 point pending (tests h^2 linearity). STATUS: LEAD; certification OPEN (h^2 fit + blind verify).

@@ -322,7 +322,7 @@ if STAGE == 'hess':
         recs, newX = last
         _rj = [(r['r_j'] if r['r_j'] is not None else float('nan')) for r in recs]
         with torch.no_grad():                            # save EVERY Ritz vector (gitignored .npz)
-            np.savez(f'noNull_hess_ritz_bw{HBW}_s{seed}.npz',
+            np.savez(f'noNull_hess_ritz_bw{HBW}_N{N}_s{seed}.npz',   # N in name: no cross-grid clobber
                      V=np.stack([v.cpu().numpy() for v in newX]), lam_phys=[r['lam_phys'] for r in recs],
                      r_j=_rj, a_j=[r['a_j'] for r in recs], s_TR=[r['s_TR'] for r in recs], N=N, L=L, h=h)
         return recs
@@ -331,7 +331,7 @@ if STAGE == 'hess':
     for seed in SEEDS:
         logline(f"# --- Hessian bw={HBW} seed={seed} (U(1) deflated; T/R identified by overlap after) ---")
         out['seeds'][str(seed)] = run(seed)
-        json.dump(out, open(f'noNull_hess_bw{HBW}_out.json', 'w'), indent=1)
+        json.dump(out, open(f'noNull_hess_bw{HBW}_N{N}_out.json', 'w'), indent=1)
     logline(f"# HESS DONE bw={HBW}")
     for seed in SEEDS:
         recs = out['seeds'][str(seed)]
@@ -341,4 +341,4 @@ if STAGE == 'hess':
             r = recs[j]
             logline(f"    #{j} lam={r['lam_phys']:+.4f} r_j={(r['r_j'] if r['r_j'] is not None else float('nan')):.2e} "
                     f"s_TR={r['s_TR']:.3f} a_j={r['a_j']:+.2e}")
-    json.dump(out, open(f'noNull_hess_bw{HBW}_out.json', 'w'), indent=1)
+    json.dump(out, open(f'noNull_hess_bw{HBW}_N{N}_out.json', 'w'), indent=1)
