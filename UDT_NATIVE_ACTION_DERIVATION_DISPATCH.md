@@ -53,6 +53,26 @@ Given the foundation in §2, derive what the positional-dilation principle FORCE
 without a further principle" — each is a full-credit answer IF the derivation is honest. Matching GR
 is not success; departing from GR is not success; the fork map is the deliverable.
 
+**Named approach for Q2/Q3 — the carrier-covariance route (each arm must attempt OR refute it):**
+the STATIC weak-field readout may need LESS than the full Q1 answer. It requires only (i) the dilation
+field's own sourced equation — already derived natively (attachment A2) — and (ii) the coupling
+weight by which the carrier's energy enters as that source. Attempt to derive (ii) from the CARRIER
+side: demand the posited carrier functional (attachment A3) behave consistently under position-
+dependent dilation (covariance of its kinetic/quartic terms under the derived metric), and determine
+whether that consistency FORCES the weight. If it does, the static mass readout goes native ahead of
+the full Q1 resolution (Q1 then remains open but non-blocking for the static mass — say so
+explicitly). ⚠ Scar warning: this exact terrain produced the project's oldest smuggle — an e^{2φ}
+matter weight that was assumed-as-natural, not derived (census, §4). Any weight that appears "by
+covariance" must be shown FORCED step by step; "the natural choice" is a HABIT tag, not a derivation.
+
+**Mandatory consistency test for ANY candidate rule (Q1-full or Q2/Q3-shortcut):** the carrier's
+scaling/virial structure yields, under the EH-conditional rule, the machine-verified identity
+M_N = 2·E4 = E2 + E4 (attachment A4; confirmed to 0.05% by two independent flux methods). Each arm
+must derive what its candidate rule predicts for this identity — reproduced exactly, systematically
+modified (state the modified form), or broken (state why). A candidate that cannot be run through
+this test is incomplete. The test is DATA-BLIND (it relates internal energy pieces; no observational
+numbers enter).
+
 ## 2. FOUNDATION (what may be used; everything else must be derived or flagged)
 
 - The positional-dilation principle and the derived metric form (CANON C-2026-06-18-1: exponential
