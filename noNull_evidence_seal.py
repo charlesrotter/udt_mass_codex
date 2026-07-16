@@ -149,7 +149,7 @@ def analyze_grid(Ngrid, spec):
             refine_file=rf,
             eigenvalues_file=lam_file, eigenvalues_recomputed=lam_re,
             doublet_eta_c_deflated=eta_dbl, doublet_eta_c_file=float(dr['eta_c_doublet']),
-            doublet_deflated_gate_1e3_met=bool(eta_dbl < 2e-3),   # recomputed w/ own code; file gate was <1e-3
+            doublet_deflated_gate_1e3_met=bool(eta_dbl < 1e-3),
             isolated_raw_r_j=fullres[2]['raw_rel_residual'], isolated_r_j_file=float(dr['r_j_isolated']),
             isolated_raw_gate_1e3_met=fullres[2]['raw_gate_1e3_met'],
             fullH_residuals=dict(doublet0=fullres[0], doublet1=fullres[1], isolated=fullres[2]),

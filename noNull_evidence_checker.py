@@ -56,8 +56,8 @@ for (Ns, dq, iq, eq, rq) in rows:
     check(f'A: doublet lam N={N}', abs(float(dq) - dbl_mean) < TOL_LAM, f'log {dq} vs npz {dbl_mean:.8f}')
     check(f'A: isolated lam N={N}', abs(float(iq) - iso_mean) < TOL_LAM, f'log {iq} vs npz {iso_mean:.8f}')
     eta_max = max(z['eta0'], z['eta1']); rj_max = max(z['rj0'], z['rj1'])
-    check(f'A: eta_c N={N}', abs(float(eq) - eta_max) / eta_max < 0.25, f'log {eq} vs npz max {eta_max:.2e}')
-    check(f'A: r_j N={N}', abs(float(rq) - rj_max) / rj_max < 0.25, f'log {rq} vs npz max {rj_max:.2e}')
+    check(f'A: eta_c N={N}', abs(float(eq) - eta_max) / eta_max < TOL_EXP, f'log {eq} vs npz max {eta_max:.2e}')
+    check(f'A: r_j N={N}', abs(float(rq) - rj_max) / rj_max < TOL_EXP, f'log {rq} vs npz max {rj_max:.2e}')
     check(f'A: gates N={N}', eta_max < 1e-3 and rj_max < 1e-3,
           f'eta_c(defl)={eta_max:.2e} r_j(iso,raw)={rj_max:.2e} (doublet RAW residual ~3.4e-2 is NOT this gate)')
 

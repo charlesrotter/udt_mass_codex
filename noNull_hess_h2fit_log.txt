@@ -3,8 +3,8 @@
 #
 # N     doublet lam           isolated lam       eta_c(dbl)  r_j(iso)   [seeds agree ~1e-9]
 # 128   0.25292765            0.32086181         8.6e-04     4.6e-05
-# 192   0.25175043            0.32253707         9.3e-04     7.2e-05
-# 256   0.25088214            0.32260956         8.3e-04     7.4e-04
+# 192   0.25175043            0.32253707         9.3e-04     9.1e-05
+# 256   0.25088214            0.32260956         8.6e-04     9.5e-04
 #
 # h^2 analysis: NOT pure h^2 (pairwise slopes differ: doublet +0.236/+0.501, isolated -0.336/-0.042
 #   coarse/fine) => h^4 significant at 128^3. Extrapolations robust to method:
@@ -38,3 +38,13 @@
 # SCOPE: static; Q~1 lower-E carrier; box L=6.0 (FREE); mask HBW=2 (FREE); EH action CONDITIONAL.
 # => All four banking conditions now met (pre-registered gates; bounded scope justified; BLIND-VERIFIED
 #    on the load-bearing premise; premises audited). Physics verdict + canonization = Charles.
+
+# ============ CORRECTION BANNER (2026-07-14 dispatch — supersedes two statements above) ============
+# 1. RETRACTED: "raw-operator doublet = 0.2509 +/- ~1.2e-3" (blind-verifier amendment). The exact
+#    within-span algebra gives +/- ~2e-2 (near-resonant 0.245 element in the raw Q_TR Rayleigh block
+#    at 256^3; gap 0.0055). See verifier_evidence_2026-07-14/perturbation_bound_algebra_note.md.
+# 2. SCOPED: the N=128 full-space hunt produced positive Ritz values but did NOT raw-converge
+#    (T/R-cluster residuals ~0.99) — a variational floor probe, NOT an eigenpair certification.
+# STANDING: the T/R-DEFLATED physical spectrum is certified positive (gates + blind verify).
+# OPEN: full U(1)^perp Hessian inertia — being settled by the T/R Schur-complement inertia test
+#    (A > 0 certified; S = B - C^T A^{-1} C > 0 would prove full positivity by Sylvester inertia).
