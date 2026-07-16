@@ -1,0 +1,457 @@
+{
+ "verdict": "PASS",
+ "npass": 90,
+ "ntotal": 90,
+ "checks": [
+  {
+   "name": "N=128 own-E2 vs black-box",
+   "ok": true,
+   "detail": "128.832932952 vs 128.832932952"
+  },
+  {
+   "name": "N=128 own-E4 vs black-box",
+   "ok": true,
+   "detail": "142.998143143 vs 142.998143143"
+  },
+  {
+   "name": "N=128 own-E2 vs production JSON",
+   "ok": true,
+   "detail": "128.832932952 vs 128.832932952"
+  },
+  {
+   "name": "N=128 own-E4 vs production JSON",
+   "ok": true,
+   "detail": "142.998143143 vs 142.998143143"
+  },
+  {
+   "name": "N=128 rho+S=2rho4 (own)",
+   "ok": true,
+   "detail": "relmax 1.89e-16"
+  },
+  {
+   "name": "N=128 rho4>=0 (own)",
+   "ok": true,
+   "detail": "min 0.00e+00"
+  },
+  {
+   "name": "N=128 delta_vir vs JSON",
+   "ok": true,
+   "detail": "-5.211034e-02 vs -5.211034e-02"
+  },
+  {
+   "name": "N=128 p1 r_P (own stencil)",
+   "ok": true,
+   "detail": "1.96e-13 (prod 1.96e-13)"
+  },
+  {
+   "name": "N=128 p1 cube a=1 flux (own)",
+   "ok": true,
+   "detail": "Phi=97.702500212 (prod 97.702500212); gauss rel 1.32e-14"
+  },
+  {
+   "name": "N=128 p1 cube a=1.5 flux (own)",
+   "ok": true,
+   "detail": "Phi=129.904434851 (prod 129.904434851); gauss rel 2.73e-14"
+  },
+  {
+   "name": "N=128 p1 cube a=2 flux (own)",
+   "ok": true,
+   "detail": "Phi=140.047504646 (prod 140.047504646); gauss rel 4.30e-14"
+  },
+  {
+   "name": "N=128 p1 cube a=2.5 flux (own)",
+   "ok": true,
+   "detail": "Phi=142.413266521 (prod 142.413266521); gauss rel 6.91e-14"
+  },
+  {
+   "name": "N=128 p1 cube a=2.95 flux (own)",
+   "ok": true,
+   "detail": "Phi=142.879813036 (prod 142.879813036); gauss rel 8.79e-14"
+  },
+  {
+   "name": "N=128 p1 >=3 fluxes recomputed",
+   "ok": true,
+   "detail": "5 cubes"
+  },
+  {
+   "name": "N=128 p1.5 r_P (own stencil)",
+   "ok": true,
+   "detail": "3.71e-13 (prod 3.71e-13)"
+  },
+  {
+   "name": "N=128 p1.5 cube a=1 flux (own)",
+   "ok": true,
+   "detail": "Phi=97.702500212 (prod 97.702500212); gauss rel 4.80e-15"
+  },
+  {
+   "name": "N=128 p1.5 cube a=1.5 flux (own)",
+   "ok": true,
+   "detail": "Phi=129.904434851 (prod 129.904434851); gauss rel 3.72e-15"
+  },
+  {
+   "name": "N=128 p1.5 cube a=2 flux (own)",
+   "ok": true,
+   "detail": "Phi=140.047504646 (prod 140.047504646); gauss rel 2.03e-15"
+  },
+  {
+   "name": "N=128 p1.5 cube a=2.5 flux (own)",
+   "ok": true,
+   "detail": "Phi=142.413266521 (prod 142.413266521); gauss rel 5.19e-15"
+  },
+  {
+   "name": "N=128 p1.5 cube a=2.95 flux (own)",
+   "ok": true,
+   "detail": "Phi=142.879813036 (prod 142.879813036); gauss rel 4.58e-15"
+  },
+  {
+   "name": "N=128 p1.5 cube a=8.88189 flux (own)",
+   "ok": true,
+   "detail": "Phi=142.998143143 (prod 142.998143143); gauss rel 1.75e-13"
+  },
+  {
+   "name": "N=128 p1.5 >=3 fluxes recomputed",
+   "ok": true,
+   "detail": "6 cubes"
+  },
+  {
+   "name": "N=128 p2 r_P (own stencil)",
+   "ok": true,
+   "detail": "4.82e-13 (prod 4.82e-13)"
+  },
+  {
+   "name": "N=128 p2 cube a=1 flux (own)",
+   "ok": true,
+   "detail": "Phi=97.702500212 (prod 97.702500212); gauss rel 4.51e-15"
+  },
+  {
+   "name": "N=128 p2 cube a=1.5 flux (own)",
+   "ok": true,
+   "detail": "Phi=129.904434851 (prod 129.904434851); gauss rel 1.09e-14"
+  },
+  {
+   "name": "N=128 p2 cube a=2 flux (own)",
+   "ok": true,
+   "detail": "Phi=140.047504646 (prod 140.047504646); gauss rel 1.28e-14"
+  },
+  {
+   "name": "N=128 p2 cube a=2.5 flux (own)",
+   "ok": true,
+   "detail": "Phi=142.413266521 (prod 142.413266521); gauss rel 1.36e-14"
+  },
+  {
+   "name": "N=128 p2 cube a=2.95 flux (own)",
+   "ok": true,
+   "detail": "Phi=142.879813036 (prod 142.879813036); gauss rel 2.39e-14"
+  },
+  {
+   "name": "N=128 p2 cube a=11.9055 flux (own)",
+   "ok": true,
+   "detail": "Phi=142.998143143 (prod 142.998143143); gauss rel 4.71e-13"
+  },
+  {
+   "name": "N=128 p2 >=3 fluxes recomputed",
+   "ok": true,
+   "detail": "6 cubes"
+  },
+  {
+   "name": "N=192 own-E2 vs black-box",
+   "ok": true,
+   "detail": "132.117852773 vs 132.117852773"
+  },
+  {
+   "name": "N=192 own-E4 vs black-box",
+   "ok": true,
+   "detail": "142.062744042 vs 142.062744042"
+  },
+  {
+   "name": "N=192 own-E2 vs production JSON",
+   "ok": true,
+   "detail": "132.117852773 vs 132.117852773"
+  },
+  {
+   "name": "N=192 own-E4 vs production JSON",
+   "ok": true,
+   "detail": "142.062744042 vs 142.062744042"
+  },
+  {
+   "name": "N=192 rho+S=2rho4 (own)",
+   "ok": true,
+   "detail": "relmax 2.06e-16"
+  },
+  {
+   "name": "N=192 rho4>=0 (own)",
+   "ok": true,
+   "detail": "min 0.00e+00"
+  },
+  {
+   "name": "N=192 delta_vir vs JSON",
+   "ok": true,
+   "detail": "-3.627132e-02 vs -3.627132e-02"
+  },
+  {
+   "name": "N=192 p1 r_P (own stencil)",
+   "ok": true,
+   "detail": "6.59e-13 (prod 6.59e-13)"
+  },
+  {
+   "name": "N=192 p1 cube a=1 flux (own)",
+   "ok": true,
+   "detail": "Phi=90.487813428 (prod 90.487813428); gauss rel 1.41e-15"
+  },
+  {
+   "name": "N=192 p1 cube a=1.5 flux (own)",
+   "ok": true,
+   "detail": "Phi=127.466366993 (prod 127.466366993); gauss rel 8.58e-15"
+  },
+  {
+   "name": "N=192 p1 cube a=2 flux (own)",
+   "ok": true,
+   "detail": "Phi=138.965735448 (prod 138.965735448); gauss rel 5.32e-15"
+  },
+  {
+   "name": "N=192 p1 cube a=2.5 flux (own)",
+   "ok": true,
+   "detail": "Phi=141.497766487 (prod 141.497766487); gauss rel 1.73e-14"
+  },
+  {
+   "name": "N=192 p1 cube a=2.95 flux (own)",
+   "ok": true,
+   "detail": "Phi=141.933555151 (prod 141.933555151); gauss rel 3.74e-14"
+  },
+  {
+   "name": "N=192 p1 >=3 fluxes recomputed",
+   "ok": true,
+   "detail": "5 cubes"
+  },
+  {
+   "name": "N=192 p1.5 r_P (own stencil)",
+   "ok": true,
+   "detail": "6.13e-13 (prod 6.13e-13)"
+  },
+  {
+   "name": "N=192 p1.5 cube a=1 flux (own)",
+   "ok": true,
+   "detail": "Phi=90.487813428 (prod 90.487813428); gauss rel 7.85e-16"
+  },
+  {
+   "name": "N=192 p1.5 cube a=1.5 flux (own)",
+   "ok": true,
+   "detail": "Phi=127.466366993 (prod 127.466366993); gauss rel 6.24e-15"
+  },
+  {
+   "name": "N=192 p1.5 cube a=2 flux (own)",
+   "ok": true,
+   "detail": "Phi=138.965735447 (prod 138.965735447); gauss rel 7.98e-15"
+  },
+  {
+   "name": "N=192 p1.5 cube a=2.5 flux (own)",
+   "ok": true,
+   "detail": "Phi=141.497766487 (prod 141.497766487); gauss rel 1.63e-14"
+  },
+  {
+   "name": "N=192 p1.5 cube a=2.95 flux (own)",
+   "ok": true,
+   "detail": "Phi=141.933555151 (prod 141.933555151); gauss rel 9.21e-15"
+  },
+  {
+   "name": "N=192 p1.5 cube a=8.92147 flux (own)",
+   "ok": true,
+   "detail": "Phi=142.062744042 (prod 142.062744042); gauss rel 2.94e-13"
+  },
+  {
+   "name": "N=192 p1.5 >=3 fluxes recomputed",
+   "ok": true,
+   "detail": "6 cubes"
+  },
+  {
+   "name": "N=192 p2 r_P (own stencil)",
+   "ok": true,
+   "detail": "7.56e-13 (prod 7.56e-13)"
+  },
+  {
+   "name": "N=192 p2 cube a=1 flux (own)",
+   "ok": true,
+   "detail": "Phi=90.487813428 (prod 90.487813428); gauss rel 2.06e-14"
+  },
+  {
+   "name": "N=192 p2 cube a=1.5 flux (own)",
+   "ok": true,
+   "detail": "Phi=127.466366993 (prod 127.466366993); gauss rel 3.10e-14"
+  },
+  {
+   "name": "N=192 p2 cube a=2 flux (own)",
+   "ok": true,
+   "detail": "Phi=138.965735447 (prod 138.965735447); gauss rel 6.42e-14"
+  },
+  {
+   "name": "N=192 p2 cube a=2.5 flux (own)",
+   "ok": true,
+   "detail": "Phi=141.497766487 (prod 141.497766487); gauss rel 1.06e-13"
+  },
+  {
+   "name": "N=192 p2 cube a=2.95 flux (own)",
+   "ok": true,
+   "detail": "Phi=141.933555151 (prod 141.933555151); gauss rel 1.54e-13"
+  },
+  {
+   "name": "N=192 p2 cube a=11.9372 flux (own)",
+   "ok": true,
+   "detail": "Phi=142.062744042 (prod 142.062744042); gauss rel 9.59e-13"
+  },
+  {
+   "name": "N=192 p2 >=3 fluxes recomputed",
+   "ok": true,
+   "detail": "6 cubes"
+  },
+  {
+   "name": "N=256 own-E2 vs black-box",
+   "ok": true,
+   "detail": "133.080274366 vs 133.080274366"
+  },
+  {
+   "name": "N=256 own-E4 vs black-box",
+   "ok": true,
+   "detail": "141.877916965 vs 141.877916965"
+  },
+  {
+   "name": "N=256 own-E2 vs production JSON",
+   "ok": true,
+   "detail": "133.080274366 vs 133.080274366"
+  },
+  {
+   "name": "N=256 own-E4 vs production JSON",
+   "ok": true,
+   "detail": "141.877916965 vs 141.877916965"
+  },
+  {
+   "name": "N=256 rho+S=2rho4 (own)",
+   "ok": true,
+   "detail": "relmax 2.11e-16"
+  },
+  {
+   "name": "N=256 rho4>=0 (own)",
+   "ok": true,
+   "detail": "min 0.00e+00"
+  },
+  {
+   "name": "N=256 delta_vir vs JSON",
+   "ok": true,
+   "detail": "-3.199629e-02 vs -3.199629e-02"
+  },
+  {
+   "name": "N=256 p1 r_P (own stencil)",
+   "ok": true,
+   "detail": "1.34e-12 (prod 1.34e-12)"
+  },
+  {
+   "name": "N=256 p1 cube a=1 flux (own)",
+   "ok": true,
+   "detail": "Phi=87.595926100 (prod 87.595926100); gauss rel 1.10e-14"
+  },
+  {
+   "name": "N=256 p1 cube a=1.5 flux (own)",
+   "ok": true,
+   "detail": "Phi=126.789981093 (prod 126.789981093); gauss rel 1.97e-14"
+  },
+  {
+   "name": "N=256 p1 cube a=2 flux (own)",
+   "ok": true,
+   "detail": "Phi=138.797111387 (prod 138.797111387); gauss rel 4.96e-14"
+  },
+  {
+   "name": "N=256 p1 cube a=2.5 flux (own)",
+   "ok": true,
+   "detail": "Phi=141.248767600 (prod 141.248767600); gauss rel 8.25e-14"
+  },
+  {
+   "name": "N=256 p1 cube a=2.95 flux (own)",
+   "ok": true,
+   "detail": "Phi=141.748062432 (prod 141.748062432); gauss rel 1.20e-13"
+  },
+  {
+   "name": "N=256 p1 >=3 fluxes recomputed",
+   "ok": true,
+   "detail": "5 cubes"
+  },
+  {
+   "name": "N=256 p1.5 r_P (own stencil)",
+   "ok": true,
+   "detail": "1.17e-12 (prod 1.17e-12)"
+  },
+  {
+   "name": "N=256 p1.5 cube a=1 flux (own)",
+   "ok": true,
+   "detail": "Phi=87.595926100 (prod 87.595926100); gauss rel 3.07e-14"
+  },
+  {
+   "name": "N=256 p1.5 cube a=1.5 flux (own)",
+   "ok": true,
+   "detail": "Phi=126.789981093 (prod 126.789981093); gauss rel 6.53e-14"
+  },
+  {
+   "name": "N=256 p1.5 cube a=2 flux (own)",
+   "ok": true,
+   "detail": "Phi=138.797111387 (prod 138.797111387); gauss rel 1.18e-13"
+  },
+  {
+   "name": "N=256 p1.5 cube a=2.5 flux (own)",
+   "ok": true,
+   "detail": "Phi=141.248767600 (prod 141.248767600); gauss rel 1.82e-13"
+  },
+  {
+   "name": "N=256 p1.5 cube a=2.95 flux (own)",
+   "ok": true,
+   "detail": "Phi=141.748062432 (prod 141.748062432); gauss rel 2.71e-13"
+  },
+  {
+   "name": "N=256 p1.5 cube a=8.94118 flux (own)",
+   "ok": true,
+   "detail": "Phi=141.877916965 (prod 141.877916965); gauss rel 9.54e-13"
+  },
+  {
+   "name": "N=256 p1.5 >=3 fluxes recomputed",
+   "ok": true,
+   "detail": "6 cubes"
+  },
+  {
+   "name": "N=256 p2 r_P (own stencil)",
+   "ok": true,
+   "detail": "1.37e-12 (prod 1.37e-12)"
+  },
+  {
+   "name": "N=256 p2 cube a=1 flux (own)",
+   "ok": true,
+   "detail": "Phi=87.595926100 (prod 87.595926100); gauss rel 9.41e-15"
+  },
+  {
+   "name": "N=256 p2 cube a=1.5 flux (own)",
+   "ok": true,
+   "detail": "Phi=126.789981093 (prod 126.789981093); gauss rel 3.10e-14"
+  },
+  {
+   "name": "N=256 p2 cube a=2 flux (own)",
+   "ok": true,
+   "detail": "Phi=138.797111387 (prod 138.797111387); gauss rel 7.84e-14"
+  },
+  {
+   "name": "N=256 p2 cube a=2.5 flux (own)",
+   "ok": true,
+   "detail": "Phi=141.248767600 (prod 141.248767600); gauss rel 1.54e-13"
+  },
+  {
+   "name": "N=256 p2 cube a=2.95 flux (own)",
+   "ok": true,
+   "detail": "Phi=141.748062432 (prod 141.748062432); gauss rel 2.46e-13"
+  },
+  {
+   "name": "N=256 p2 cube a=11.9529 flux (own)",
+   "ok": true,
+   "detail": "Phi=141.877916965 (prod 141.877916965); gauss rel 4.22e-12"
+  },
+  {
+   "name": "N=256 p2 >=3 fluxes recomputed",
+   "ok": true,
+   "detail": "6 cubes"
+  }
+ ]
+}

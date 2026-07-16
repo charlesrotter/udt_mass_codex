@@ -1,0 +1,6 @@
+commands:
+  python3 noNull_phaseG_mass.py          # production (log: phaseG_production.log)
+  python3 verify_noNull_phaseG_mass.py   # verifier   (log: phaseG_verify.log)
+versions: torch 2.5.1+cu121 (cuda 12.1), scipy 1.15.3, numpy 2.2.6
+device: Tesla V100-PCIE-32GB
+elapsed: production 3s/8s/18s per grid (DST direct solves); verifier ~4 min total

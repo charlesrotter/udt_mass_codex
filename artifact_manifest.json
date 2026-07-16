@@ -1132,6 +1132,384 @@
     }
    },
    "originating_command": "SCHUR_GRIDS=256 CG_TOL_REL=1e-4 python3 noNull_schur_inertia.py (PASS, margin +4.14e-9 exact-op; 2026-07-16)"
+  },
+  "noNull_phaseG_u_N128_p1.npz": {
+   "status": "present",
+   "bytes": 16778690,
+   "sha256": "abe0e840ca9c1b8dcbd11f82a05e36534b9fba86a28aec1f0e0911394cb391ec",
+   "mtime": "2026-07-16T19:30:39",
+   "params": {
+    "Np": 128,
+    "Lp": 12.094488188976378,
+    "h": 0.09448818897637795
+   },
+   "arrays": {
+    "u": {
+     "shape": [
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "Np": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "Lp": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "off": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    }
+   },
+   "originating_command": "python3 noNull_phaseG_mass.py (G3 seven-point DST-I response field, grid 128, padding 1; 2026-07-16)"
+  },
+  "noNull_phaseG_u_N128_p1.5.npz": {
+   "status": "present",
+   "bytes": 56624578,
+   "sha256": "c5fdfcc611566704cba769673ce32376afe319a23bf9d35b3dee2d2db78df07e",
+   "mtime": "2026-07-16T19:30:39",
+   "params": {
+    "Np": 192,
+    "Lp": 18.141732283464567,
+    "h": 0.09448818897637795
+   },
+   "arrays": {
+    "u": {
+     "shape": [
+      192,
+      192,
+      192
+     ],
+     "dtype": "float64"
+    },
+    "Np": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "Lp": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "off": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    }
+   },
+   "originating_command": "python3 noNull_phaseG_mass.py (G3 seven-point DST-I response field, grid 128, padding 1.5; 2026-07-16)"
+  },
+  "noNull_phaseG_u_N128_p2.npz": {
+   "status": "present",
+   "bytes": 134219202,
+   "sha256": "cd6d44465af1a7c842b0e01bcf54d27e635160bef6009c68dfde332f53275195",
+   "mtime": "2026-07-16T19:30:40",
+   "params": {
+    "Np": 256,
+    "Lp": 24.188976377952756,
+    "h": 0.09448818897637795
+   },
+   "arrays": {
+    "u": {
+     "shape": [
+      256,
+      256,
+      256
+     ],
+     "dtype": "float64"
+    },
+    "Np": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "Lp": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "off": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    }
+   },
+   "originating_command": "python3 noNull_phaseG_mass.py (G3 seven-point DST-I response field, grid 128, padding 2; 2026-07-16)"
+  },
+  "noNull_phaseG_u_N192_p1.npz": {
+   "status": "present",
+   "bytes": 56624578,
+   "sha256": "e853d50c72e48a88e7503904c7c6aaccbb5bbd0ba919b872d3182bc4f2dd405e",
+   "mtime": "2026-07-16T19:30:44",
+   "params": {
+    "Np": 192,
+    "Lp": 12.062827225130889,
+    "h": 0.06282722513089005
+   },
+   "arrays": {
+    "u": {
+     "shape": [
+      192,
+      192,
+      192
+     ],
+     "dtype": "float64"
+    },
+    "Np": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "Lp": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "off": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    }
+   },
+   "originating_command": "python3 noNull_phaseG_mass.py (G3 seven-point DST-I response field, grid 192, padding 1; 2026-07-16)"
+  },
+  "noNull_phaseG_u_N192_p1.5.npz": {
+   "status": "present",
+   "bytes": 191104450,
+   "sha256": "f53ab0ffbdecd4bc7827577844f79edcfc52398a38fb1666b45ca221082b3dc3",
+   "mtime": "2026-07-16T19:30:45",
+   "params": {
+    "Np": 288,
+    "Lp": 18.094240837696333,
+    "h": 0.06282722513089005
+   },
+   "arrays": {
+    "u": {
+     "shape": [
+      288,
+      288,
+      288
+     ],
+     "dtype": "float64"
+    },
+    "Np": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "Lp": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "off": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    }
+   },
+   "originating_command": "python3 noNull_phaseG_mass.py (G3 seven-point DST-I response field, grid 192, padding 1.5; 2026-07-16)"
+  },
+  "noNull_phaseG_u_N192_p2.npz": {
+   "status": "present",
+   "bytes": 452986306,
+   "sha256": "2d20b2e452cefd8b54c7f6c85c11439cda42a6e915a729134a30a84bc2896972",
+   "mtime": "2026-07-16T19:30:48",
+   "params": {
+    "Np": 384,
+    "Lp": 24.125654450261777,
+    "h": 0.06282722513089005
+   },
+   "arrays": {
+    "u": {
+     "shape": [
+      384,
+      384,
+      384
+     ],
+     "dtype": "float64"
+    },
+    "Np": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "Lp": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "off": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    }
+   },
+   "originating_command": "python3 noNull_phaseG_mass.py (G3 seven-point DST-I response field, grid 192, padding 2; 2026-07-16)"
+  },
+  "noNull_phaseG_u_N256_p1.npz": {
+   "status": "present",
+   "bytes": 134219202,
+   "sha256": "9bc610bf05542a6fcefec050d360a51c28f8b6be8d79f4c995cdf9f9c5dc366f",
+   "mtime": "2026-07-16T19:30:56",
+   "params": {
+    "Np": 256,
+    "Lp": 12.047058823529369,
+    "h": 0.0470588235294116
+   },
+   "arrays": {
+    "u": {
+     "shape": [
+      256,
+      256,
+      256
+     ],
+     "dtype": "float64"
+    },
+    "Np": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "Lp": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "off": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    }
+   },
+   "originating_command": "python3 noNull_phaseG_mass.py (G3 seven-point DST-I response field, grid 256, padding 1; 2026-07-16)"
+  },
+  "noNull_phaseG_u_N256_p1.5.npz": {
+   "status": "present",
+   "bytes": 452986306,
+   "sha256": "9bbc8e8dee88daac3d426ae11c85cf948e1fc20630c6a8a70e34547d5ecee45d",
+   "mtime": "2026-07-16T19:30:59",
+   "params": {
+    "Np": 384,
+    "Lp": 18.070588235294053,
+    "h": 0.0470588235294116
+   },
+   "arrays": {
+    "u": {
+     "shape": [
+      384,
+      384,
+      384
+     ],
+     "dtype": "float64"
+    },
+    "Np": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "Lp": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "off": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    }
+   },
+   "originating_command": "python3 noNull_phaseG_mass.py (G3 seven-point DST-I response field, grid 256, padding 1.5; 2026-07-16)"
+  },
+  "noNull_phaseG_u_N256_p2.npz": {
+   "status": "present",
+   "bytes": 1073743298,
+   "sha256": "cf7a08a5d658cd7be3af29438c8437c3e51ada5f7a82560e9deab545ed3299da",
+   "mtime": "2026-07-16T19:31:05",
+   "params": {
+    "Np": 512,
+    "Lp": 24.094117647058738,
+    "h": 0.0470588235294116
+   },
+   "arrays": {
+    "u": {
+     "shape": [
+      512,
+      512,
+      512
+     ],
+     "dtype": "float64"
+    },
+    "Np": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "Lp": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "off": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    }
+   },
+   "originating_command": "python3 noNull_phaseG_mass.py (G3 seven-point DST-I response field, grid 256, padding 2; 2026-07-16)"
   }
  }
 }
