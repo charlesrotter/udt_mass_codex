@@ -53,3 +53,15 @@ cosines = 1.0 to 1e-8 — seeds converged to identical vectors (fixed-point chec
 (raw 3.4e-2, wholly T/R-coupled; bound => 0.2509 +/- ~1.2e-3); (ii) impure h^2 (~1e-3 systematic);
 (iii) seeds not independent evidence (the hunt is). NOT checked: hunts at 192/256; T/R cluster floor
 below ~+3e-3 (unconverged; >=97% translation/rotation of the pinned box = boundary class).
+
+---
+# CORRECTION BANNER (2026-07-14, post-seal dispatch — historical report above left intact)
+- The perturbation bound in CHECK 3 ("0.2509 +/- ~1.2e-3") is RETRACTED: it used the converged
+  pseudomode eigenvalues (~0.002-0.006) as the T/R energy scale, but the deflation span consists of
+  the RAW generators whose Rayleigh block runs 0.03-35 with a near-resonant 0.245 element at 256^3
+  (gap 0.0055 -> bound 5.2e-2; exact within-span diagonalization: doublet mixes to 0.2311/0.2652).
+  Supported statement: within-span raw doublet = deflated value +/- ~2e-2, all values positive.
+  Full algebra: perturbation_bound_algebra_note.md.
+- CHECK 3's full-space hunt Ritz values were positive but NOT raw-converged (T/R-cluster residuals
+  ~0.99): a variational floor probe, not an eigenpair certification. Full U(1)^perp inertia is OPEN
+  pending the T/R Schur-complement inertia test.
