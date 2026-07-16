@@ -63,6 +63,61 @@ def grad_noNull(n_raw, h, xi, kappa):               # MEMORY-SAFE gradient: sum 
     return g
 
 
+def hvp_exact(n_raw, v, h, xi, kappa):              # EXACT Hessian-vector product (double backward)
+    """Machine-precision H·v of the same (1/8)-averaged no-null energy, w.r.t. the RAW field n_raw
+    (same object grad_noNull differentiates — includes the normalization layer). Accumulated one
+    orientation at a time (only one orientation's second-order graph ever live). No FD noise floor:
+    use for residual/Schur EVALUATION and refinement solves where FD-HVP noise (~1e-8) dominates.
+    ~2-3x the cost of one grad_noNull call. Memory: ~2x per-orientation backward (OK at 128^3/192^3;
+    check before use at 256^3)."""
+    vd = v.detach()
+    Hv = torch.zeros_like(n_raw)
+    for s in _ORIENTS:
+        n2 = n_raw.detach().clone().requires_grad_(True)
+        nn = n2 / n2.norm(dim=0, keepdim=True)
+        e2, e4 = _orient_E2E4(nn, h, xi, kappa, s)
+        gg, = torch.autograd.grad((e2 + e4) / 8, n2, create_graph=True)
+        hh, = torch.autograd.grad((gg * vd).sum(), n2)
+        Hv = Hv + hh.detach(); del n2, nn, gg, hh, e2, e4
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+    return Hv
+
+
+def hvp_exact_chunked(n_raw, v, h, xi, kappa):      # exact HVP, LOW-MEMORY (per-orientation, per-term)
+    """Identical mathematics to hvp_exact — H·v of the (1/8)-averaged no-null energy — but the double
+    backward is chunked per orientation AND per energy term (e2, then each of the 6 F_ij pairs), so
+    only ~1/7 of one orientation's second-order graph is ever live. ~2x slower; peak memory ~6 GB at
+    256^3 (vs ~24 GB unchunked). For grids where hvp_exact does not fit."""
+    vd = v.detach()
+    Hv = torch.zeros_like(n_raw)
+    def _acc(term_closure):
+        nonlocal Hv
+        n2 = n_raw.detach().clone().requires_grad_(True)
+        nn = n2 / n2.norm(dim=0, keepdim=True)
+        E = term_closure(nn)
+        gg, = torch.autograd.grad(E / 8, n2, create_graph=True)
+        hh, = torch.autograd.grad((gg * vd).sum(), n2)
+        Hv = Hv + hh.detach(); del n2, nn, gg, hh, E
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+    for s in _ORIENTS:
+        def _e2(nn, s=s):
+            dn = [_dop(nn, 1, s[0], h), _dop(nn, 2, s[1], h), _dop(nn, 3, s[2], h)]
+            return (0.5 * xi * sum((dn[k] * dn[k]).sum(0) for k in range(3))).sum() * h**3
+        _acc(_e2)
+        for i in range(3):
+            for j in range(3):
+                if i == j:
+                    continue
+                def _e4ij(nn, s=s, i=i, j=j):
+                    dni = _dop(nn, i + 1, s[i], h); dnj = _dop(nn, j + 1, s[j], h)
+                    Fij = (nn * _cross(dni, dnj)).sum(0)
+                    return (0.25 * kappa * Fij * Fij).sum() * h**3
+                _acc(_e4ij)
+    return Hv
+
+
 def energy_centered(n_raw, h, xi, kappa):           # reference: the OLD centered-difference energy
     n = n_raw / n_raw.norm(dim=0, keepdim=True)
 

@@ -1,7 +1,7 @@
 {
  "purpose": "H3 stability certification artifact fingerprints (NPZ gitignored/large; this manifest is the auditable record)",
- "generated": "2026-07-14T10:46:10",
- "git_HEAD": "5a297b29102614aa4f1542551ea596f7180dbf36",
+ "generated": "2026-07-16T18:51:25",
+ "git_HEAD": "64af1204d027debd432b6d2c5f909167d68e92d0",
  "torch_version": "2.5.1+cu121",
  "cuda_version": "12.1",
  "device": "cpu",
@@ -859,6 +859,279 @@
     }
    },
    "originating_command": "blind verifier verify_hunt.py \u2014 genuine-subspace hunt (u1+6 T/R deflation), own LOBPCG, random seed variant s1 (2026-07-14)"
+  },
+  "noNull_schur_Z_N128.npz": {
+   "status": "present",
+   "bytes": 301992820,
+   "sha256": "85d55ac8b343c75a84d063b2490e864ca9b154c3450a7b1be1d4271fb0fbb597",
+   "mtime": "2026-07-14T22:50:44",
+   "params": {
+    "N": 128.0,
+    "L": 6.0,
+    "h": 0.09448818897637795
+   },
+   "arrays": {
+    "z0": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "z1": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "z2": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "z3": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "z4": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "z5": {
+     "shape": [
+      3,
+      128,
+      128,
+      128
+     ],
+     "dtype": "float64"
+    },
+    "B": {
+     "shape": [
+      6,
+      6
+     ],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "eps": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "SCHUR_GRIDS=128 CG_TOL_REL=1e-6->refineX python3 noNull_schur_inertia.py (PASS, margin +2.00e-6; 2026-07-14)"
+  },
+  "noNull_schur_Z_N192.npz": {
+   "status": "present",
+   "bytes": 1019218804,
+   "sha256": "1f3d6f01d0c2533c00746a7e2cbfbb0bb9c73e2ef70e2c58ad1e76e5b2ffae7b",
+   "mtime": "2026-07-15T02:03:35",
+   "params": {
+    "N": 192.0,
+    "L": 6.0,
+    "h": 0.06282722513089005
+   },
+   "arrays": {
+    "z0": {
+     "shape": [
+      3,
+      192,
+      192,
+      192
+     ],
+     "dtype": "float64"
+    },
+    "z1": {
+     "shape": [
+      3,
+      192,
+      192,
+      192
+     ],
+     "dtype": "float64"
+    },
+    "z2": {
+     "shape": [
+      3,
+      192,
+      192,
+      192
+     ],
+     "dtype": "float64"
+    },
+    "z3": {
+     "shape": [
+      3,
+      192,
+      192,
+      192
+     ],
+     "dtype": "float64"
+    },
+    "z4": {
+     "shape": [
+      3,
+      192,
+      192,
+      192
+     ],
+     "dtype": "float64"
+    },
+    "z5": {
+     "shape": [
+      3,
+      192,
+      192,
+      192
+     ],
+     "dtype": "float64"
+    },
+    "B": {
+     "shape": [
+      6,
+      6
+     ],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "eps": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "SCHUR_GRIDS=192 CG_TOL_REL=1e-4 python3 noNull_schur_inertia.py (PASS, margin +3.31e-7; 2026-07-15)"
+  },
+  "noNull_schur_Z_N256.npz": {
+   "status": "present",
+   "bytes": 2415922172,
+   "sha256": "b97ce37c7c5e0f51d290b213b41d7ee649e2641a48260218e6e7bfac1c810890",
+   "mtime": "2026-07-16T18:45:56",
+   "params": {
+    "N": 256.0,
+    "L": 6.0,
+    "h": 0.0470588235294116
+   },
+   "arrays": {
+    "z0": {
+     "shape": [
+      3,
+      256,
+      256,
+      256
+     ],
+     "dtype": "float64"
+    },
+    "z1": {
+     "shape": [
+      3,
+      256,
+      256,
+      256
+     ],
+     "dtype": "float64"
+    },
+    "z2": {
+     "shape": [
+      3,
+      256,
+      256,
+      256
+     ],
+     "dtype": "float64"
+    },
+    "z3": {
+     "shape": [
+      3,
+      256,
+      256,
+      256
+     ],
+     "dtype": "float64"
+    },
+    "z4": {
+     "shape": [
+      3,
+      256,
+      256,
+      256
+     ],
+     "dtype": "float64"
+    },
+    "z5": {
+     "shape": [
+      3,
+      256,
+      256,
+      256
+     ],
+     "dtype": "float64"
+    },
+    "B": {
+     "shape": [
+      6,
+      6
+     ],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "eps": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "SCHUR_GRIDS=256 CG_TOL_REL=1e-4 python3 noNull_schur_inertia.py (PASS, margin +4.14e-9 exact-op; 2026-07-16)"
   }
  }
 }

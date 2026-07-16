@@ -1,0 +1,66 @@
+
+=== N=256 (h=0.04706, h^3=1.042e-04) === [exact-eval layer ON]
+  spectral precond augmentation: 3 vectors, lam[phys] [0.251, 0.251, 0.323]
+  B (T/R block) eigs [phys]: [np.float64(0.0612), np.float64(0.2454), np.float64(0.2454), np.float64(0.6724), np.float64(0.6724), np.float64(34.893)]
+  B asymmetry ||B-B^T||/||B||: 3.84e-18
+  a_L: lambda_0=2.614526e-05 (phys 0.250882), ||r||=2.984e-08 -> a_L=2.611541e-05 (phys 0.250596)
+  base warm-start: upsampled saved N=192 solution
+  resumed col0 from ckpt (rel resid 9.99e-05)
+  resumed col1 from ckpt (rel resid 9.87e-05)
+  resumed col2 from ckpt (rel resid 1.42e-03)
+  resumed col3 from ckpt (rel resid 2.83e-04)
+  resumed col4 from ckpt (rel resid 1.96e-04)
+  resumed col5 from ckpt (rel resid 1.55e-04)
+    N256 eps1e-4 col0: iters=0 ||r||/||c||=9.99e-05 (converged at start)
+    N256 eps1e-4 col1: iters=0 ||r||/||c||=9.87e-05 (converged at start)
+    N256 eps1e-4 col2: iters=791 ||r||/||c||=9.99e-05 restarts=0
+    N256 eps1e-4 col3: iters=44 ||r||/||c||=2.83e-04 restarts=0
+    N256 eps1e-4 col4: iters=44 ||r||/||c||=1.96e-04 restarts=0
+    N256 eps1e-4 col5: iters=3 ||r||/||c||=8.23e-05 restarts=0
+  N256 eps=1e-4: eta_Z=4.12e-05  ||S-S^T||/||S||=2.69e-06  solve-gate: NONE MET
+    S eigs [raw]:  ['4.035e-09', '4.196e-09', '1.625e-07', '5.262e-07', '5.262e-07', '2.910e-04']
+    S eigs [phys]: ['0.00004', '0.00004', '0.00156', '0.00505', '0.00505', '2.79276']
+    ||C||=1.281e-02 ||R||=1.055e-06 a_L=2.612e-05 -> ||DeltaS||<=1.283e-05; margin lmin(S)-||DeltaS|| = -1.282e-05 (NOT POSITIVE)
+    N256 eps=1e-4 refineX1 col0: iters=37 ||r||/||c||=8.75e-04 restarts=0
+    N256 eps=1e-4 refineX1 col1: iters=38 ||r||/||c||=8.94e-04 restarts=0
+    N256 eps=1e-4 refineX1 col2: iters=29 ||r||/||c||=7.54e-04 restarts=0
+    N256 eps=1e-4 refineX1 col3: iters=35 ||r||/||c||=9.65e-04 restarts=0
+    N256 eps=1e-4 refineX1 col4: iters=36 ||r||/||c||=7.91e-04 restarts=0
+    N256 eps=1e-4 refineX1 col5: iters=39 ||r||/||c||=9.43e-04 restarts=0
+  N256 eps=1e-4 refinedX1: eta_Z=3.88e-08  ||S-S^T||/||S||=2.00e-09  solve-gate: eta_Z<1e-6
+    S eigs [raw]:  ['4.150e-09', '4.153e-09', '1.625e-07', '5.262e-07', '5.262e-07', '2.910e-04']
+    S eigs [phys]: ['0.00004', '0.00004', '0.00156', '0.00505', '0.00505', '2.79276']
+    ||C||=1.281e-02 ||R||=9.947e-10 a_L=2.612e-05 -> ||DeltaS||<=1.126e-08; margin lmin(S)-||DeltaS|| = -7.109e-09 (NOT POSITIVE)
+    N256 eps=1e-4 refineX2 col0: iters=39 ||r||/||c||=9.26e-04 restarts=0
+    N256 eps=1e-4 refineX2 col1: iters=36 ||r||/||c||=8.55e-04 restarts=0
+    N256 eps=1e-4 refineX2 col2: iters=36 ||r||/||c||=7.10e-04 restarts=0
+    N256 eps=1e-4 refineX2 col3: iters=39 ||r||/||c||=8.86e-04 restarts=0
+    N256 eps=1e-4 refineX2 col4: iters=39 ||r||/||c||=9.18e-04 restarts=0
+    N256 eps=1e-4 refineX2 col5: iters=37 ||r||/||c||=9.12e-04 restarts=0
+  N256 eps=1e-4 refinedX2: eta_Z=3.54e-11  ||S-S^T||/||S||=2.57e-12  solve-gate: eta_Z<1e-6
+    S eigs [raw]:  ['4.150e-09', '4.153e-09', '1.625e-07', '5.262e-07', '5.262e-07', '2.910e-04']
+    S eigs [phys]: ['0.00004', '0.00004', '0.00156', '0.00505', '0.00505', '2.79276']
+    ||C||=1.281e-02 ||R||=9.074e-13 a_L=2.612e-05 -> ||DeltaS||<=1.027e-11; margin lmin(S)-||DeltaS|| = 4.139e-09 (POSITIVE)
+    N256 eps0.0002 col0: iters=0 ||r||/||c||=1.41e-07 (converged at start)
+    N256 eps0.0002 col1: iters=0 ||r||/||c||=1.41e-07 (converged at start)
+    N256 eps0.0002 col2: iters=0 ||r||/||c||=2.81e-07 (converged at start)
+    N256 eps0.0002 col3: iters=0 ||r||/||c||=8.35e-08 (converged at start)
+    N256 eps0.0002 col4: iters=0 ||r||/||c||=8.35e-08 (converged at start)
+    N256 eps0.0002 col5: iters=0 ||r||/||c||=1.19e-08 (converged at start)
+  N256 eps=0.0002 [FD sweep]: eta_Z=6.04e-09  ||S-S^T||/||S||=1.55e-11  solve-gate: eta_Z<1e-6
+    S eigs [raw]:  ['4.150e-09', '4.153e-09', '1.625e-07', '5.262e-07', '5.262e-07', '2.910e-04']
+    S eigs [phys]: ['0.00004', '0.00004', '0.00156', '0.00505', '0.00505', '2.79276']
+    ||C||=1.281e-02 ||R||=1.546e-10 a_L=2.612e-05 -> ||DeltaS||<=1.750e-09; margin lmin(S)-||DeltaS|| = 2.399e-09 (POSITIVE)
+    N256 eps5e-05 col0: iters=0 ||r||/||c||=5.59e-07 (converged at start)
+    N256 eps5e-05 col1: iters=0 ||r||/||c||=5.59e-07 (converged at start)
+    N256 eps5e-05 col2: iters=0 ||r||/||c||=1.12e-06 (converged at start)
+    N256 eps5e-05 col3: iters=0 ||r||/||c||=3.33e-07 (converged at start)
+    N256 eps5e-05 col4: iters=0 ||r||/||c||=3.32e-07 (converged at start)
+    N256 eps5e-05 col5: iters=0 ||r||/||c||=4.72e-08 (converged at start)
+  N256 eps=5e-05 [FD sweep]: eta_Z=2.40e-08  ||S-S^T||/||S||=5.45e-11  solve-gate: eta_Z<1e-6
+    S eigs [raw]:  ['4.150e-09', '4.153e-09', '1.625e-07', '5.262e-07', '5.262e-07', '2.910e-04']
+    S eigs [phys]: ['0.00004', '0.00004', '0.00156', '0.00505', '0.00505', '2.79276']
+    ||C||=1.281e-02 ||R||=6.154e-10 a_L=2.612e-05 -> ||DeltaS||<=6.965e-09; margin lmin(S)-||DeltaS|| = -2.816e-09 (NOT POSITIVE)
+  saved noNull_schur_Z_N256.npz; N=256 status: PASS (16626s)
+FULL U(1)^perp INERTIA POSITIVE at N=256: A>0 (certified) and S>0 with error-controlled margin at every grid run and every HVP-eps — by Sylvester inertia, no T/R mode discarded. Grids not listed remain PENDING.
+DONE

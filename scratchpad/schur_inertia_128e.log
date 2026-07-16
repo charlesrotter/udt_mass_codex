@@ -1,0 +1,50 @@
+
+=== N=128 (h=0.09449, h^3=8.436e-04) === [exact-eval layer ON]
+  spectral precond augmentation: 7 vectors, lam[phys] [0.253, 0.253, 0.321, 0.483, 0.486, 0.542, 0.543]
+  B (T/R block) eigs [phys]: [np.float64(0.0309), np.float64(0.122), np.float64(0.122), np.float64(0.3314), np.float64(0.3314), np.float64(17.6417)]
+  B asymmetry ||B-B^T||/||B||: 2.45e-18
+  a_L: lambda_0=2.133678e-04 (phys 0.252928), ||r||=3.792e-07 -> a_L=2.129886e-04 (phys 0.252478)
+  resumed Z from final noNull_schur_Z_N128.npz
+    N128 eps1e-4 col0: iters=14 ||r||/||c||=9.50e-05 restarts=0
+    N128 eps1e-4 col1: iters=15 ||r||/||c||=8.01e-05 restarts=0
+    N128 eps1e-4 col2: iters=12 ||r||/||c||=9.82e-05 restarts=0
+    N128 eps1e-4 col3: iters=12 ||r||/||c||=9.89e-05 restarts=0
+    N128 eps1e-4 col4: iters=12 ||r||/||c||=9.35e-05 restarts=0
+    N128 eps1e-4 col5: iters=10 ||r||/||c||=5.36e-05 restarts=0
+  N128 eps=1e-4: eta_Z=2.68e-05  ||S-S^T||/||S||=1.09e-05  solve-gate: NONE MET
+    S eigs [raw]:  ['2.011e-06', '4.302e-06', '4.303e-06', '4.782e-06', '4.783e-06', '2.308e-03']
+    S eigs [phys]: ['0.00238', '0.00510', '0.00510', '0.00567', '0.00567', '2.73572']
+    ||C||=3.593e-02 ||R||=1.927e-06 a_L=2.130e-04 -> ||DeltaS||<=1.500e-05; margin lmin(S)-||DeltaS|| = -1.299e-05 (NOT POSITIVE)
+    N128 eps=1e-4 refineX1 col0: iters=31 ||r||/||c||=8.74e-04 restarts=0
+    N128 eps=1e-4 refineX1 col1: iters=33 ||r||/||c||=7.01e-04 restarts=0
+    N128 eps=1e-4 refineX1 col2: iters=31 ||r||/||c||=9.61e-04 restarts=0
+    N128 eps=1e-4 refineX1 col3: iters=31 ||r||/||c||=8.04e-04 restarts=0
+    N128 eps=1e-4 refineX1 col4: iters=31 ||r||/||c||=8.62e-04 restarts=0
+    N128 eps=1e-4 refineX1 col5: iters=31 ||r||/||c||=8.56e-04 restarts=0
+  N128 eps=1e-4 refinedX1: eta_Z=2.30e-08  ||S-S^T||/||S||=2.79e-09  solve-gate: eta_Z<1e-6
+    S eigs [raw]:  ['2.011e-06', '4.303e-06', '4.304e-06', '4.782e-06', '4.783e-06', '2.308e-03']
+    S eigs [phys]: ['0.00238', '0.00510', '0.00510', '0.00567', '0.00567', '2.73572']
+    ||C||=3.593e-02 ||R||=1.650e-09 a_L=2.130e-04 -> ||DeltaS||<=1.268e-08; margin lmin(S)-||DeltaS|| = 1.999e-06 (POSITIVE)
+    N128 eps0.0002 col0: iters=1 ||r||/||c||=7.54e-08 restarts=0
+    N128 eps0.0002 col1: iters=1 ||r||/||c||=1.19e-07 restarts=0
+    N128 eps0.0002 col2: iters=1 ||r||/||c||=1.17e-07 restarts=0
+    N128 eps0.0002 col3: iters=1 ||r||/||c||=8.19e-08 restarts=0
+    N128 eps0.0002 col4: iters=1 ||r||/||c||=8.29e-08 restarts=0
+    N128 eps0.0002 col5: iters=1 ||r||/||c||=4.58e-08 restarts=0
+  N128 eps=0.0002 [FD sweep]: eta_Z=2.29e-08  ||S-S^T||/||S||=1.98e-09  solve-gate: eta_Z<1e-6
+    S eigs [raw]:  ['2.011e-06', '4.303e-06', '4.304e-06', '4.782e-06', '4.783e-06', '2.308e-03']
+    S eigs [phys]: ['0.00238', '0.00510', '0.00510', '0.00567', '0.00567', '2.73572']
+    ||C||=3.593e-02 ||R||=1.646e-09 a_L=2.130e-04 -> ||DeltaS||<=1.264e-08; margin lmin(S)-||DeltaS|| = 1.999e-06 (POSITIVE)
+    N128 eps5e-05 col0: iters=1 ||r||/||c||=2.25e-07 restarts=0
+    N128 eps5e-05 col1: iters=1 ||r||/||c||=5.46e-07 restarts=0
+    N128 eps5e-05 col2: iters=1 ||r||/||c||=2.91e-07 restarts=0
+    N128 eps5e-05 col3: iters=1 ||r||/||c||=1.13e-07 restarts=0
+    N128 eps5e-05 col4: iters=1 ||r||/||c||=1.14e-07 restarts=0
+    N128 eps5e-05 col5: iters=1 ||r||/||c||=4.72e-08 restarts=0
+  N128 eps=5e-05 [FD sweep]: eta_Z=2.39e-08  ||S-S^T||/||S||=2.26e-09  solve-gate: eta_Z<1e-6
+    S eigs [raw]:  ['2.011e-06', '4.303e-06', '4.304e-06', '4.782e-06', '4.783e-06', '2.308e-03']
+    S eigs [phys]: ['0.00238', '0.00510', '0.00510', '0.00567', '0.00567', '2.73572']
+    ||C||=3.593e-02 ||R||=1.717e-09 a_L=2.130e-04 -> ||DeltaS||<=1.319e-08; margin lmin(S)-||DeltaS|| = 1.998e-06 (POSITIVE)
+  saved noNull_schur_Z_N128.npz; N=128 status: PASS (470s)
+FULL U(1)^perp INERTIA POSITIVE at 128/192/256: A>0 (certified) and S>0 with error-controlled margin at every grid and every HVP-eps — by Sylvester inertia, no T/R mode discarded
+DONE

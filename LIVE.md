@@ -42,20 +42,44 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
   soft-locking in U(1)+T/R complement; plain block-4 stalls ~0.05 — use the guard+lock version).
 - **BLIND ADVERSARIAL VERIFIER PASS (zero-context, own code, adjudicate framing):** criticality
   quantified; eigenvalues reproduced to 2e-9; **independent negative-mode hunt (128³) finds NOTHING
-  below our floor** (reproduces doublet+isolated at overlap 0.999–1.0; full-space floor = POSITIVE T/R
-  cluster). AMENDMENTS (scoped, quantified): doublet convergence is T/R-DEFLATION-scoped (raw backward
-  error 3.4e-2 lies wholly in the T/R quasi-symmetry span; raw-operator doublet = 0.2509±1.2e-3 —
-  positivity robust); cross-seed identity = fixed-point check, not independent evidence; h² NOT pure
-  (h⁴ significant at 128³; ~1e-3 systematic on extrapolants). NOT probed: hunts at 192/256; T/R floor
-  below +3e-3 (≥97% translation/rotation = pinned-box boundary class).
+  below our floor** (reproduces doublet+isolated at overlap 0.999–1.0; full-space Ritz values all
+  POSITIVE). AMENDMENTS (scoped, quantified): doublet convergence is T/R-DEFLATION-scoped (raw backward
+  error 3.4e-2 lies wholly in the T/R quasi-symmetry span); cross-seed identity = fixed-point check,
+  not independent evidence; h² NOT pure (h⁴ significant at 128³; ~1e-3 systematic on extrapolants).
+- **⚠ CORRECTIONS (2026-07-14 evidence seal + dispatch):** (1) the verifier's "raw-operator doublet
+  = 0.2509±1.2e-3" is **RETRACTED** — its gap used converged pseudomode eigenvalues; the exact
+  within-span algebra (raw Rayleigh block of the Q_TR generators runs 0.03–35, near-resonant 0.245
+  element at 256³) gives ±~2e-2 within the probed span (`verifier_evidence_2026-07-14/
+  perturbation_bound_algebra_note.md`). (2) The N=128 full-space hunt produced positive Ritz values
+  but did **NOT raw-converge** (T/R-cluster residuals ~0.99) — it was a variational floor probe, NOT
+  an eigenpair certification. **⇒ CERTIFIED: the T/R-DEFLATED physical spectrum is positive**
+  (doublet+isolated, raw-backward-error gates, 3 grids, ε-sweep, blind-verified).
+- **✅ FULL U(1)^⊥ INERTIA SETTLED POSITIVE (2026-07-14→16, Schur-complement seal per dispatch):**
+  S = B − CᵀA⁻¹C computed at 128/192/256 with error-controlled margins — **all six S eigenvalues
+  positive at every grid** (margins +2.0e-6 / +3.3e-7 / +4.1e-9 raw; the 256³ certification on the
+  EXACT double-backward Hessian `hvp_exact`/`_chunked`, η_Z=3.5e-11, bound 400× under λ_min(S)).
+  By Sylvester inertia (A≻0 certified + S≻0) the complete U(1)^⊥ Hessian is positive — **no T/R
+  mode discarded**. **Fresh independent verifier (own code, exact operator): PASS at all 3 grids**
+  (S-spectra match to 9e-15). Records: `noNull_schur_inertia_ALL.json` (+ per-grid),
+  `noNull_schur_verify.json`, raw logs `scratchpad/schur_inertia_*.log` (incl. the honest failure
+  records: FD-noise-floor wall, two solver-divergence episodes, one mislabeled-abort bug — each
+  diagnosed+fixed; the physics answer never moved). **FINDING (ponder):** the translation-pair S
+  eigenvalues collapse with grid (0.0024→0.0020→0.00004 phys) → marginal (flat) in the continuum
+  limit — box-artifact walls, physically expected (sliding costs nothing in infinite space); prime
+  candidate for the analytic boundary-layer theorem (numerics→algebraics transition). Rotations +
+  the remaining T/R combinations stay finite-positive. **STATIC STABILITY OF THE Q=1 CARRIER: the
+  strongest statement this frame can make is now made, scoped as stamped (this carrier, L=6.0 box,
+  HBW=2, EH-action CONDITIONAL, carrier=posit). Charles's physics verdict/canonization PENDING.
+  F/G NOT started (per dispatch). Native-action dispatch DRAFT awaiting Charles §0/§1 review.**
 - **SCOPE STAMPS (travel with the verdict):** static; THIS Q≈1 lower-E carrier; box L=6.0 (FREE);
   mask HBW=2 (FREE; wider-mask boundary sweep NOT done); EH/metric-only action = CONDITIONAL-DERIVED;
   S² carrier = posit (bedrock memory). Hess outputs now N-tagged (anti-clobber; converged vectors =
   `noNull_hess_refine_s{0,1,192_*,128_*}.npz`).
-- **STATUS: `Nyquist instability FALSIFIED; corrected-operator static stability of the Q=1 carrier:
-  POSITIVE SPECTRUM, numerically certified + blind-verified (scoped as stamped). Charles verdict
-  pending.`** NEXT (on his go): **F** geodesic/trust-region behavioral branches (max-rotation
-  amplitude) → **G** recompute Phase C (E4/source/flux, M_N=2E4) on the corrected carrier.
+- **STATUS: `Nyquist instability FALSIFIED; T/R-deflated physical spectrum certified POSITIVE
+  (3 grids, blind-verified); FULL U(1)^⊥ inertia certified POSITIVE (3 grids, Schur seal +
+  independent verifier). Static stability: SETTLED within the stamped scope; Charles verdict
+  pending.`** NEXT (on his go): **F** behavioral branches → **G** recompute Phase C (E4/source/
+  flux, M_N=2E4) on the corrected carrier; native-action derivation dispatch awaiting his review.
 
 **➤➤➤ DETAILED ARC RECORD = `stability_branch_follow_256_DECISION.md` (full arc, retractions, fork).
 The 2026-07-12 layer below is HISTORY of this arc (kept for the record):**

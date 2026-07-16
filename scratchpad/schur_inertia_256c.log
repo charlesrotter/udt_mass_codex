@@ -1,0 +1,46 @@
+
+=== N=256 (h=0.04706, h^3=1.042e-04) === [exact-eval layer ON]
+  spectral precond augmentation: 3 vectors, lam[phys] [0.251, 0.251, 0.323]
+  B (T/R block) eigs [phys]: [np.float64(0.0612), np.float64(0.2454), np.float64(0.2454), np.float64(0.6724), np.float64(0.6724), np.float64(34.893)]
+  B asymmetry ||B-B^T||/||B||: 3.84e-18
+  a_L: lambda_0=2.614526e-05 (phys 0.250882), ||r||=2.984e-08 -> a_L=2.611541e-05 (phys 0.250596)
+  base warm-start: upsampled saved N=192 solution
+  resumed col0 from ckpt (rel resid 1.00e-04)
+  resumed col1 from ckpt (rel resid 9.88e-05)
+  ckpt col2 POISONED (rel resid 3.47e+02) -> discarded, base start kept
+    N256 eps1e-4 col0: iters=1 ||r||/||c||=9.99e-05 restarts=0
+    N256 eps1e-4 col1: iters=1 ||r||/||c||=9.87e-05 restarts=0
+    N256 eps1e-4 col2: iters=3000 ||r||/||c||=1.42e-03 restarts=1
+    N256 eps1e-4 col3: iters=844 ||r||/||c||=2.83e-04 restarts=1
+    N256 eps1e-4 col4: iters=694 ||r||/||c||=1.96e-04 restarts=1
+    N256 eps1e-4 col5: iters=37 ||r||/||c||=1.55e-04 restarts=0
+  N256 eps=1e-4: eta_Z=7.74e-05  ||S-S^T||/||S||=4.10e-06  solve-gate: NONE MET
+    S eigs [raw]:  ['4.035e-09', '4.196e-09', '1.625e-07', '5.262e-07', '5.262e-07', '2.910e-04']
+    S eigs [phys]: ['0.00004', '0.00004', '0.00156', '0.00505', '0.00505', '2.79276']
+    ||C||=1.281e-02 ||R||=1.983e-06 a_L=2.612e-05 -> ||DeltaS||<=2.549e-05; margin lmin(S)-||DeltaS|| = -2.549e-05 (NOT POSITIVE)
+    N256 eps=1e-4 refineX1 col0: iters=38 ||r||/||c||=9.00e-04 restarts=0
+    N256 eps=1e-4 refineX1 col1: iters=38 ||r||/||c||=8.94e-04 restarts=0
+    N256 eps=1e-4 refineX1 col2: iters=30 ||r||/||c||=9.97e-04 restarts=0
+    N256 eps=1e-4 refineX1 col3: iters=35 ||r||/||c||=9.65e-04 restarts=0
+    N256 eps=1e-4 refineX1 col4: iters=37 ||r||/||c||=8.80e-04 restarts=0
+    N256 eps=1e-4 refineX1 col5: iters=39 ||r||/||c||=8.19e-04 restarts=0
+  N256 eps=1e-4 refinedX1: eta_Z=6.34e-08  ||S-S^T||/||S||=1.06e-08  solve-gate: eta_Z<1e-6
+    S eigs [raw]:  ['4.150e-09', '4.153e-09', '1.625e-07', '5.262e-07', '5.262e-07', '2.910e-04']
+    S eigs [phys]: ['0.00004', '0.00004', '0.00156', '0.00505', '0.00505', '2.79276']
+    ||C||=1.281e-02 ||R||=1.624e-09 a_L=2.612e-05 -> ||DeltaS||<=1.838e-08; margin lmin(S)-||DeltaS|| = -1.423e-08 (NOT POSITIVE)
+    N256 eps=1e-4 refineX2 col0: iters=39 ||r||/||c||=9.11e-04 restarts=0
+    N256 eps=1e-4 refineX2 col1: iters=36 ||r||/||c||=8.55e-04 restarts=0
+    N256 eps=1e-4 refineX2 col2: iters=39 ||r||/||c||=9.15e-04 restarts=0
+    N256 eps=1e-4 refineX2 col3: iters=39 ||r||/||c||=8.86e-04 restarts=0
+    N256 eps=1e-4 refineX2 col4: iters=40 ||r||/||c||=6.40e-04 restarts=0
+    N256 eps=1e-4 refineX2 col5: iters=39 ||r||/||c||=8.93e-04 restarts=0
+  N256 eps=1e-4 refinedX2: eta_Z=5.66e-11  ||S-S^T||/||S||=6.27e-12  solve-gate: eta_Z<1e-6
+    S eigs [raw]:  ['4.150e-09', '4.153e-09', '1.625e-07', '5.262e-07', '5.262e-07', '2.910e-04']
+    S eigs [phys]: ['0.00004', '0.00004', '0.00156', '0.00505', '0.00505', '2.79276']
+    ||C||=1.281e-02 ||R||=1.449e-12 a_L=2.612e-05 -> ||DeltaS||<=1.641e-11; margin lmin(S)-||DeltaS|| = 4.133e-09 (POSITIVE)
+    N256 eps0.0002 col0: iters=1 ||r||/||c||=1.39e-07 restarts=0
+    N256 eps0.0002 col1: iters=1 ||r||/||c||=1.41e-07 restarts=0
+    N256 eps0.0002 col2: iters=1 ||r||/||c||=2.81e-07 restarts=0
+    N256 eps0.0002 col3: iters=0 ||r||/||c||=8.35e-08 restarts=0  !!! BREAKDOWN {'iter': 0, 'pAp': -4.9855131388161575e-28, 'rayleigh_phys_verified': 0.3839403285905194, 'note': 'below noise floor -> numerical breakdown, not a witness'}
+NEGATIVE-CURVATURE WITNESS at N=256 (eps sweep) — full inertia NOT positive
+DONE

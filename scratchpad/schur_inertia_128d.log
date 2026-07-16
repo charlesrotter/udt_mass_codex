@@ -1,0 +1,39 @@
+
+=== N=128 (h=0.09449, h^3=8.436e-04) ===
+  spectral precond augmentation: 7 vectors, lam[phys] [0.253, 0.253, 0.321, 0.483, 0.486, 0.542, 0.543]
+  B (T/R block) eigs [phys]: [np.float64(0.0309), np.float64(0.122), np.float64(0.122), np.float64(0.3314), np.float64(0.3314), np.float64(17.6417)]
+  B asymmetry ||B-B^T||/||B||: 3.53e-12
+  a_L: lambda_0=2.133678e-04 (phys 0.252928), ||r||=3.792e-07 -> a_L=2.129886e-04 (phys 0.252478)
+    N128 eps1e-4 col0: iters=1500 ||r||/||c||=3.14e-05 restarts=0
+    N128 eps1e-4 col1: iters=1500 ||r||/||c||=1.43e-04 restarts=0
+    N128 eps1e-4 col2: iters=1500 ||r||/||c||=3.97e-03 restarts=0
+    N128 eps1e-4 col3: iters=1500 ||r||/||c||=3.55e-03 restarts=0
+    N128 eps1e-4 col4: iters=1500 ||r||/||c||=6.80e-04 restarts=0
+    N128 eps1e-4 col5: iters=84 ||r||/||c||=2.11e-06 restarts=0
+  N128 eps=1e-4: eta_Z=2.61e-04  ||S-S^T||/||S||=6.04e-06  solve-gate: NONE MET
+    S eigs [raw]:  ['2.011e-06', '4.295e-06', '4.305e-06', '4.781e-06', '4.784e-06', '2.308e-03']
+    S eigs [phys]: ['0.00238', '0.00509', '0.00510', '0.00567', '0.00567', '2.73572']
+    ||C||=3.593e-02 ||R||=1.874e-05 a_L=2.130e-04 -> ||DeltaS||<=1.611e-04; margin lmin(S)-||DeltaS|| = -1.590e-04 (NOT POSITIVE)
+    N128 eps=1e-4 refine1 col0: iters=1500 ||r||/||c||=6.97e-01 restarts=0
+    N128 eps=1e-4 refine1 col1: iters=1500 ||r||/||c||=2.50e+01 restarts=0
+    N128 eps=1e-4 refine1 col2: iters=20 ||r||/||c||=1.70e-02 restarts=0
+    N128 eps=1e-4 refine1 col3: iters=22 ||r||/||c||=9.69e-03 restarts=0
+    N128 eps=1e-4 refine1 col4: iters=26 ||r||/||c||=3.03e-02 restarts=0
+    N128 eps=1e-4 refine1 col5: iters=1500 ||r||/||c||=2.76e+01 restarts=0
+  N128 eps=1e-4 refined1: eta_Z=1.55e-04  ||S-S^T||/||S||=2.54e-07  solve-gate: NONE MET
+    S eigs [raw]:  ['2.011e-06', '4.303e-06', '4.304e-06', '4.782e-06', '4.783e-06', '2.308e-03']
+    S eigs [phys]: ['0.00238', '0.00510', '0.00510', '0.00567', '0.00567', '2.73571']
+    ||C||=3.593e-02 ||R||=1.115e-05 a_L=2.130e-04 -> ||DeltaS||<=9.184e-05; margin lmin(S)-||DeltaS|| = -8.983e-05 (NOT POSITIVE)
+    N128 eps=1e-4 refine2 col0: iters=1500 ||r||/||c||=2.26e+00 restarts=0
+    N128 eps=1e-4 refine2 col1: iters=20 ||r||/||c||=1.18e-02 restarts=0
+    N128 eps=1e-4 refine2 col2: iters=1500 ||r||/||c||=4.72e+02 restarts=0
+    N128 eps=1e-4 refine2 col3: iters=1500 ||r||/||c||=9.58e-01 restarts=0
+    N128 eps=1e-4 refine2 col4: iters=1500 ||r||/||c||=1.60e+02 restarts=0
+    N128 eps=1e-4 refine2 col5: iters=1500 ||r||/||c||=2.86e+00 restarts=0
+  N128 eps=1e-4 refined2: eta_Z=6.89e-04  ||S-S^T||/||S||=2.06e-05  solve-gate: NONE MET
+    S eigs [raw]:  ['2.014e-06', '4.303e-06', '4.304e-06', '4.782e-06', '4.783e-06', '2.308e-03']
+    S eigs [phys]: ['0.00239', '0.00510', '0.00510', '0.00567', '0.00567', '2.73572']
+    ||C||=3.593e-02 ||R||=4.949e-05 a_L=2.130e-04 -> ||DeltaS||<=4.905e-04; margin lmin(S)-||DeltaS|| = -4.884e-04 (NOT POSITIVE)
+    N128 eps=1e-4 refine3 col0: iters=1500 ||r||/||c||=6.20e+00 restarts=0
+    N128 eps=1e-4 refine3 col1: iters=1500 ||r||/||c||=1.05e+01 restarts=0
+    N128 eps=1e-4 refine3 col2: iters=19 ||r||/||c||=9.59e-03 restarts=0

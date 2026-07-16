@@ -13,12 +13,12 @@
 [PASS] A: doublet lam N=192: log 0.25175043 vs npz 0.25175043
 [PASS] A: isolated lam N=192: log 0.32253707 vs npz 0.32253707
 [PASS] A: eta_c N=192: log 9.3e-04 vs npz max 9.34e-04
-[PASS] A: r_j N=192: log 7.2e-05 vs npz max 9.06e-05
+[PASS] A: r_j N=192: log 9.1e-05 vs npz max 9.06e-05
 [PASS] A: gates N=192: eta_c(defl)=9.34e-04 r_j(iso,raw)=9.06e-05 (doublet RAW residual ~3.4e-2 is NOT this gate)
 [PASS] A: doublet lam N=256: log 0.25088214 vs npz 0.25088214
 [PASS] A: isolated lam N=256: log 0.32260956 vs npz 0.32260956
-[PASS] A: eta_c N=256: log 8.3e-04 vs npz max 8.62e-04
-[PASS] A: r_j N=256: log 7.4e-04 vs npz max 9.48e-04
+[PASS] A: eta_c N=256: log 8.6e-04 vs npz max 8.62e-04
+[PASS] A: r_j N=256: log 9.5e-04 vs npz max 9.48e-04
 [PASS] A: gates N=256: eta_c(defl)=8.62e-04 r_j(iso,raw)=9.48e-04 (doublet RAW residual ~3.4e-2 is NOT this gate)
 [PASS] B: dbl coarse slope: +0.2364 vs quoted +0.236
 [PASS] B: dbl fine slope: +0.5011 vs quoted +0.501

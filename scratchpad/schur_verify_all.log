@@ -1,0 +1,18 @@
+N=128: Q orthogonality max|Q^TQ - I| = 2.22e-16; max|<q,u1>| = 1.88e-15
+N=128: eta_Z=2.296e-08  ||S-S^T||/||S||=2.79e-09
+N=128: S eigs [phys] = ['0.00238', '0.00510', '0.00510', '0.00567', '0.00567', '2.73572']
+N=128: a_L=2.1299e-04 (lam0=0.25293 phys, r0=3.79e-07); ||DeltaS||<=1.268e-08; margin=1.999e-06 -> POSITIVE
+N=128: INERTIA VERDICT (own recompute): S>0 with error-controlled margin; A>0 via certified floor (a_L>0) => Hbar|U(1)perp POSITIVE
+N=192: Q orthogonality max|Q^TQ - I| = 2.22e-16; max|<q,u1>| = 2.83e-16
+N=192: eta_Z=4.040e-07  ||S-S^T||/||S||=1.16e-08
+N=192: S eigs [phys] = ['0.00195', '0.00195', '0.00206', '0.00528', '0.00528', '2.78254']
+N=192: a_L=6.2340e-05 (lam0=0.25175 phys, r0=9.30e-08); ||DeltaS||<=1.541e-07; margin=3.307e-07 -> POSITIVE
+N=192: INERTIA VERDICT (own recompute): S>0 with error-controlled margin; A>0 via certified floor (a_L>0) => Hbar|U(1)perp POSITIVE
+N=256: Q orthogonality max|Q^TQ - I| = 2.22e-16; max|<q,u1>| = 1.43e-15
+N=256: eta_Z=3.542e-11  ||S-S^T||/||S||=2.57e-12
+N=256: S eigs [phys] = ['0.00004', '0.00004', '0.00156', '0.00505', '0.00505', '2.79276']
+N=256: a_L=2.6115e-05 (lam0=0.25088 phys, r0=2.98e-08); ||DeltaS||<=1.027e-11; margin=4.139e-09 -> POSITIVE
+N=256: INERTIA VERDICT (own recompute): S>0 with error-controlled margin; A>0 via certified floor (a_L>0) => Hbar|U(1)perp POSITIVE
+N=256: vs solver JSON: max |S-eig diff| = 8.88e-15 phys
+
+== FRESH-VERIFIER VERDICT: FULL U(1)^perp INERTIA POSITIVE at all verified grids (independent recompute) ==

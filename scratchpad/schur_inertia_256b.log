@@ -1,0 +1,7 @@
+
+=== N=256 (h=0.04706, h^3=1.042e-04) === [exact-eval layer ON]
+  spectral precond augmentation: 3 vectors, lam[phys] [0.251, 0.251, 0.323]
+  B (T/R block) eigs [phys]: [np.float64(0.0612), np.float64(0.2454), np.float64(0.2454), np.float64(0.6724), np.float64(0.6724), np.float64(34.893)]
+  B asymmetry ||B-B^T||/||B||: 3.84e-18
+  a_L: lambda_0=2.614526e-05 (phys 0.250882), ||r||=2.984e-08 -> a_L=2.611541e-05 (phys 0.250596)
+  warm-started Z by upsampling saved N=192 solution

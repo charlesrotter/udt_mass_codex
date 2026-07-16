@@ -31,6 +31,10 @@ ARTIFACTS = {
     # blind-verifier hunt blocks (its own LOBPCG final vectors, N=128; copied from session scratchpad)
     'hunt_u1_s0.npz':    'blind verifier verify_hunt.py — full-space hunt (u1-only deflation), own LOBPCG, random seed variant s0 (2026-07-14)',
     'hunt_u1tr_s1.npz':  'blind verifier verify_hunt.py — genuine-subspace hunt (u1+6 T/R deflation), own LOBPCG, random seed variant s1 (2026-07-14)',
+    # Schur-complement inertia seal solution blocks (Charles dispatch 2026-07-14; certified 07-14..16)
+    'noNull_schur_Z_N128.npz': 'SCHUR_GRIDS=128 CG_TOL_REL=1e-6->refineX python3 noNull_schur_inertia.py (PASS, margin +2.00e-6; 2026-07-14)',
+    'noNull_schur_Z_N192.npz': 'SCHUR_GRIDS=192 CG_TOL_REL=1e-4 python3 noNull_schur_inertia.py (PASS, margin +3.31e-7; 2026-07-15)',
+    'noNull_schur_Z_N256.npz': 'SCHUR_GRIDS=256 CG_TOL_REL=1e-4 python3 noNull_schur_inertia.py (PASS, margin +4.14e-9 exact-op; 2026-07-16)',
 }
 
 def sha256(path, bufsize=1 << 22):
