@@ -26,6 +26,15 @@ Corrections en route (all committed): verifier's ±1.2e-3 bound RETRACTED (→±
 false "NEGATIVE-CURVATURE WITNESS" headline was a control-flow bug (measured curvature +0.384 — a
 solver event, not physics); FD noise floor → exact-HVP layer; CAS caught my EL sign error.
 
+**F IN PROGRESS (2026-07-17, per `UDT_H3_BOUNDARY_AUDIT_PATCH_THEN_F_DISPATCH.md`):** Part-A evidence
+patch DONE (commit 442c64e, verifiers 62/62+CAS 4/4). F: dirs+gate+controls+128^3 ladder DONE (WIP
+commit; 58 branches, NO transition 0.05-1.20 rad, topology held everywhere, endpoints on the T/R
+drift shelf); fine chain (control/fine 192 -> control/fine 256) RUNNING (logs F_evidence/
+*_run.log; restart-safe JSONs noNull_F_*_N{N}.json). Verifier ready: verify_noNull_behavioral_F.py.
+On completion: run verifier -> single F evidence commit -> STOP (no LIVE/CANON edits per dispatch).
+NOTE: LIVE topmost still says F LOCKED + carries the retracted 'fine-pair intercept ~0' phrase —
+both await the next authorized LIVE edit.
+
 **Pending Charles:** F go/no-go (preregistered §9 of the G dispatch; LOCKED); native-action dispatch
 §0/§1 review (`UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md`, DRAFT, arms not launched); canonization calls.
 **Key commits:** da51ec4→1c2196c (spectrum cert), d131557 (inertia seal), 493d104 (G), 837d633
