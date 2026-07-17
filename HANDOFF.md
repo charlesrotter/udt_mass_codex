@@ -34,7 +34,7 @@ noNull_phaseG_mass_results.md, noNull_boundary_virial_results.md, noNull_virial_
 
 ## [ARCHIVED] 2026-07-12 layer → `HANDOFF_ARCHIVE.md` (superseded by CURRENT above)
 
-## CURRENT (2026-07-09)
+## MACRO LANE (2026-07-09 — SEPARATE lane; particle lane above wins on conflict)
 
 **Frame:** simple reciprocal metric only; free \(D_A\) quarantined (`grok/quarantine_free_DA/`).
 

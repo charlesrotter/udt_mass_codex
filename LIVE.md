@@ -5,9 +5,10 @@
 Stale historical frontier layers live under `archive/LIVE_historical_frontier_through_2026-07-08.md`
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
-**⚠ TWO LIVE LANES (2026-07-12):** the **PARTICLE-MASS lane** (H3 corrected-operator stability) is the arc under
-active work — read `LIVE.md` CURRENT STATE (below, has the ▶ START-HERE command) → **`stability_branch_follow_256_DECISION.md`**
-(detailed record) → MEMORY.md TOP. The **MACRO lane** (simple-metric / WR-L) is a separate ongoing lane; its read
+**⚠ TWO LIVE LANES (2026-07-16):** the **PARTICLE-MASS lane** (H3 stability→mass arc) is SETTLED-and-WAITING —
+read `LIVE.md` CURRENT STATE topmost (below; next action = WAIT on Charles's three desk items) →
+`noNull_phaseG_mass_results.md` + `noNull_boundary_virial_results.md` (latest results) →
+**`stability_branch_follow_256_DECISION.md`** (detailed arc record) → MEMORY.md TOP. The **MACRO lane** (simple-metric / WR-L) is a separate ongoing lane; its read
 order is: **`UDT_METHOD_MUSIC.md`** → **`UDT_DOTTED_LINE.md`** → **`UDT_ELEGANCE_UNCOVER.md`** → **`SIMPLE_METRIC_MACRO.md`**.
 Free-\(D_A\) / mixed scoreboards = **`grok/quarantine_free_DA/`** only (not live).
 Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE_historical_frontier_through_2026-07-08.md` and `archive/INDEX_pre_simple_metric_WR_L_2026-07-09.md`.
@@ -62,7 +63,7 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 
 **[prior layer of the same arc — stability certification, 2026-07-14→16, still-true record:]**
 
-**➤➤➤ LATEST (2026-07-14 — STABILITY CERTIFICATION COMPLETE; records = `noNull_hess_h2fit_log.txt` +
+**➤➤➤ [prior layer] (2026-07-14 — STABILITY CERTIFICATION COMPLETE; records = `noNull_hess_h2fit_log.txt` +
 `noNull_hess_refine_{256,192}_log.txt`; commits `da51ec4..1c2196c`):**
 - **All numerical gates MET at 128/192/256, both seeds** (Charles-directed raw-backward-error protocol
   2026-07-13): refined physical spectrum POSITIVE — doublet 0.25293/0.25175/0.25088, isolated
