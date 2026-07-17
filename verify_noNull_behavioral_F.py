@@ -8,18 +8,34 @@ never imported). From saved artifacts it independently checks:
      are DETERMINISTIC, so they are REGENERATED here with an own geodesic implementation and checked
      against the recorded start energies (the production run recorded start observables in JSON but
      did not save start fields; this deterministic regeneration is the verification path, noted);
-  3. selected small-amplitude energies with an OWN eight-orientation loop + exact-HVP comparison;
+  3. selected small-amplitude symmetric finite differences with OWN tangent reconstruction,
+     geodesics, and eight-orientation energies; the exact-HVP comparison is explicitly labeled
+     as shared audited derivative code rather than an independent Hessian implementation;
   4. both no-null charges, energy split, criticality convention (labeled shared-gradient), smoothness
      (theta_nn_max), localization for ALL bracket endpoints from the saved endpoint npz;
   5. every endpoint classification predicate replayed from the raw JSON (never repaired);
   6. field hashes vs branch metadata (endpoint npz SHA-256 recorded here).
 Output: noNull_F_verify.json + stdout. Verdict PASS/FAIL/UNRESOLVED.
 """
-import os, gc, json, math, glob, hashlib, numpy as np, torch
+import os, sys, gc, json, math, glob, hashlib, pathlib, numpy as np, torch
 from noNull_energy import energy_noNull, grad_noNull, hvp_exact, hvp_exact_chunked
 from noNull_precond import mnorm
+if '--log' in sys.argv:
+    log_index = sys.argv.index('--log')
+    log_stream = open(sys.argv[log_index + 1], 'w')
+    class Tee:
+        def __init__(self, *streams): self.streams = streams
+        def write(self, data):
+            for stream in self.streams: stream.write(data)
+            return len(data)
+        def flush(self):
+            for stream in self.streams: stream.flush()
+    sys.stdout = Tee(sys.__stdout__, log_stream)
+    sys.stderr = Tee(sys.__stderr__, log_stream)
 torch.set_default_dtype(torch.float64); dev = 'cuda' if torch.cuda.is_available() else 'cpu'
 HBW = 2
+OWN_Q_REL_TOL = 1e-6
+HVP_Q_REL_TOL = 1e-2
 GRIDS = {128: ('noNull_critical_field_128.npz', 'noNull_hess_refine_s128_0.npz', 'noNull_hess_refine_s128_1.npz'),
          192: ('noNull_critical_field_192.npz', 'noNull_hess_refine_s192_0.npz', 'noNull_hess_refine_s192_1.npz'),
          256: ('noNull_critical_field.npz', 'noNull_hess_refine_s0.npz', 'noNull_hess_refine_s1.npz')}
@@ -32,6 +48,7 @@ def sha(p):
     with open(p, 'rb') as f:
         for b in iter(lambda: f.read(1 << 22), b''): hh.update(b)
     return hh.hexdigest()
+def relerr(a, b): return abs(a - b) / max(abs(b), 1e-30)
 def own_cross(a, b):
     return torch.stack([a[1]*b[2]-a[2]*b[1], a[2]*b[0]-a[0]*b[2], a[0]*b[1]-a[1]*b[0]], 0)
 def own_E(n, h, xi, kap):
@@ -49,6 +66,15 @@ def own_E(n, h, xi, kap):
                         F = (n*own_cross(dn[i], dn[j])).sum(0); Y = Y + F*F
                 E2 += float((0.5*xi*X).sum())*h**3/8; E4 += float((0.25*kap*Y).sum())*h**3/8
     return E2, E4
+def own_geodesic(n0, v, theta):
+    """Verifier-local pointwise S2 geodesic; no production branch helper is imported."""
+    w = v / (float(v.norm(dim=0).max()) + 1e-300)
+    wn = w.norm(dim=0, keepdim=True)
+    unit = w / (wn + 1e-300)
+    ang = theta * wn
+    nt = torch.cos(ang) * n0 + torch.sin(ang) * unit
+    nt = torch.where(wn.expand_as(nt) > 1e-14, nt, n0)
+    return nt / nt.norm(dim=0, keepdim=True), float(ang.abs().max()), w
 def own_charges(n, h):
     N = n.shape[1]
     def hopf(F):
@@ -73,6 +99,42 @@ def own_charges(n, h):
                     for j in range(3):
                         if i != j: F[(i, j)] = F[(i, j)] + (n*own_cross(ds[i], ds[j])).sum(0)/8
     return Qf, hopf(F)
+
+# One-shot catch-proof mode. It mutates the SAVED production q, exercises the exact named
+# own-FD-vs-production predicate, and restores the original bytes in a finally block.
+if '--catch-proof' in sys.argv:
+    gate_path = pathlib.Path('noNull_F_gate.json')
+    verify_path = pathlib.Path('noNull_F_verify.json')
+    original = gate_path.read_bytes()
+    before_sha = hashlib.sha256(original).hexdigest()
+    result = {'target': 'N=128 v5 own FD vs production q', 'tolerance': OWN_Q_REL_TOL}
+    try:
+        prior = json.loads(verify_path.read_text())
+        q_own = prior['grids']['128']['gate_checks']['v5']['q_own']
+        gate = json.loads(original)
+        q_original = gate['128']['v5']['q']['0.001']
+        q_mutated = q_original * 1.001
+        gate['128']['v5']['q']['0.001'] = q_mutated
+        gate_path.write_text(json.dumps(gate, indent=1) + '\n')
+        reloaded = json.loads(gate_path.read_text())['128']['v5']['q']['0.001']
+        discrepancy = relerr(q_own, reloaded)
+        named_check_green = discrepancy < OWN_Q_REL_TOL
+        result.update(q_own=q_own, q_original=q_original, q_mutated=q_mutated,
+                      relative_discrepancy=discrepancy, named_check_green=named_check_green,
+                      expected_red=not named_check_green)
+        print(f"[{'PASS' if named_check_green else 'FAIL'}] N=128 v5 own FD vs production q "
+              f"(CONTROLLED MUTATION): rel={discrepancy:.3e} tol={OWN_Q_REL_TOL:.1e}", flush=True)
+    finally:
+        gate_path.write_bytes(original)
+    after_sha = sha(gate_path)
+    result['before_sha256'] = before_sha
+    result['restored_sha256'] = after_sha
+    result['artifact_restored'] = after_sha == before_sha
+    result['verdict'] = 'PASS' if result.get('expected_red') and result['artifact_restored'] else 'FAIL'
+    pathlib.Path('noNull_F_catchproof.json').write_text(json.dumps(result, indent=1) + '\n')
+    print(f"catch-proof verdict: {result['verdict']}; expected RED={result.get('expected_red')}; "
+          f"artifact restored={result['artifact_restored']}", flush=True)
+    raise SystemExit(0 if result['verdict'] == 'PASS' else 1)
 
 out = {'grids': {}}
 for Ng, (critf, s0f, s1f) in GRIDS.items():
@@ -109,19 +171,61 @@ for Ng, (critf, s0f, s1f) in GRIDS.items():
     a0 = compl(torch.tensor(ds0['V'][0], device=dev)); a0 = a0/a0.norm()
     ov = np.array([[abs(ip(a0, v5)), abs(ip(a0, v6))]])
     check(f'N={Ng} seed0 doublet member lies in span(v5,v6)', (ov**2).sum() > 1 - 1e-8, f'{(ov**2).sum():.10f}')
-    # 3) small-amplitude: own energy at a geodesic point vs gate JSON + own exact HVP
+    i0 = compl(torch.tensor(ds0['V'][2], device=dev)); i0 = i0/i0.norm()
+    check(f'N={Ng} independently reconstructed isolated direction agrees saved v7',
+          abs(ip(i0, v7)) > 1 - 1e-8, f'|overlap|={abs(ip(i0, v7)):.10f}')
+    # 3) small-amplitude: OWN symmetric geodesics and eight-orientation energies are the
+    # independent load-bearing check. hvp_exact remains shared audited derivative code.
     gj = json.load(open('noNull_F_gate.json'))[str(Ng)]
-    w = v5/float(v5.norm(dim=0).max())
-    wn = w.norm(dim=0, keepdim=True); unit = w/(wn + 1e-300)
     th = 1e-3
-    nt = torch.cos(th*wn)*n0 + torch.sin(th*wn)*unit
-    nt = torch.where(wn.expand_as(nt) > 1e-14, nt, n0); nt = nt/nt.norm(dim=0, keepdim=True)
-    E2p, E4p = own_E(nt, h, xi, kap); E2m, E4m = own_E(n0, h, xi, kap)
     hx = hvp_exact_chunked if Ng >= 256 else hvp_exact
-    Hw = hx(n0, w, h, xi, kap); wHw = ip(w, Hw)
-    check(f'N={Ng} gate wHw vs own exact HVP', abs(wHw - gj['v5']['wHw'])/abs(gj['v5']['wHw']) < 1e-9,
-          f'{wHw:.6f} vs {gj["v5"]["wHw"]:.6f}')
-    del Hw
+    E20, E40 = own_E(n0, h, xi, kap); E0own = E20 + E40
+    gate_records = {}
+    for dname, vown, vsaved in (('v5', a0, v5), ('v7', i0, v7)):
+        span_overlap = abs(ip(vown, vsaved))
+        check(f'N={Ng} {dname} own tangent reconstruction agrees saved direction',
+              span_overlap > 1 - 1e-8, f'|overlap|={span_overlap:.10f}')
+        np_, rp, w = own_geodesic(n0, vown, +th)
+        nm_, rm, _ = own_geodesic(n0, vown, -th)
+        unit_err = max(float((np_.norm(dim=0) - 1).abs().max()),
+                       float((nm_.norm(dim=0) - 1).abs().max()))
+        bnd_err = 0.0
+        for nt in (np_, nm_):
+            for axn in (1, 2, 3):
+                for sl in (slice(0, HBW), slice(-HBW, None)):
+                    idx = [slice(None)] * 4; idx[axn] = sl
+                    bnd_err = max(bnd_err, float((nt[tuple(idx)] - n0[tuple(idx)]).abs().max()))
+        angle_err = max(abs(rp - th), abs(rm - th))
+        check(f'N={Ng} {dname} own +/- geodesics unit+fixed-boundary+angle',
+              unit_err < 1e-12 and bnd_err == 0.0 and angle_err < 1e-12,
+              f'unit={unit_err:.2e} bnd={bnd_err:.1e} angle={angle_err:.2e}')
+        E2p, E4p = own_E(np_, h, xi, kap)
+        E2m, E4m = own_E(nm_, h, xi, kap)
+        Epown, Emown = E2p + E4p, E2m + E4m
+        qown = (Epown - 2 * E0own + Emown) / th**2
+        qprod = float(gj[dname]['q'][f'{th:g}'])
+        Hw = hx(n0, w, h, xi, kap); wHw = ip(w, Hw)
+        rel_own_prod = relerr(qown, qprod)
+        rel_own_hvp = relerr(qown, wHw)
+        rel_hvp_prod = relerr(wHw, float(gj[dname]['wHw']))
+        check(f'N={Ng} {dname} own FD vs production q', rel_own_prod < OWN_Q_REL_TOL,
+              f'qown={qown:.12g} qprod={qprod:.12g} rel={rel_own_prod:.3e}')
+        check(f'N={Ng} {dname} own FD vs shared exact-HVP cross-check', rel_own_hvp < HVP_Q_REL_TOL,
+              f'qown={qown:.12g} wHw={wHw:.12g} rel={rel_own_hvp:.3e}')
+        check(f'N={Ng} {dname} shared exact-HVP vs production HVP record', rel_hvp_prod < 1e-9,
+              f'wHw={wHw:.12g} recorded={gj[dname]["wHw"]:.12g} rel={rel_hvp_prod:.3e}')
+        gate_records[dname] = dict(theta=th, E_plus_own=Epown, E0_own=E0own,
+                                   E_minus_own=Emown, q_own=qown, q_production=qprod,
+                                   wHw_shared_exact_HVP=wHw,
+                                   rel_own_vs_production=rel_own_prod,
+                                   rel_own_vs_shared_exact_HVP=rel_own_hvp,
+                                   rel_shared_exact_HVP_vs_production_record=rel_hvp_prod,
+                                   own_q_rel_tolerance=OWN_Q_REL_TOL,
+                                   hvp_q_rel_tolerance=HVP_Q_REL_TOL,
+                                   tangent_overlap_saved=span_overlap,
+                                   unit_error=unit_err, boundary_error=bnd_err,
+                                   realized_angle_plus=rp, realized_angle_minus=rm)
+        del np_, nm_, w, Hw
     # 4-5) endpoints: recompute + replay classification
     ctrl = json.load(open(f'noNull_F_control_N{Ng}.json')) if os.path.exists(f'noNull_F_control_N{Ng}.json') else None
     nep = 0; ncls = 0
@@ -181,8 +285,9 @@ for Ng, (critf, s0f, s1f) in GRIDS.items():
           f'{ncls} replayed')
     check(f'N={Ng} endpoint recomputes green', all(ok for nm, ok, _ in checks if f'{Ng}' in nm and 'endpoint recompute' in nm) if any('endpoint recompute' in nm and str(Ng) in nm for nm, _, _ in checks) else True,
           f'{nep} recomputed (bounded sample)')
-    out['grids'][str(Ng)] = dict(n_classified_replayed=ncls, n_endpoints_recomputed=nep)
-    del n0, u1, Q, v5, v6, v7
+    out['grids'][str(Ng)] = dict(n_classified_replayed=ncls, n_endpoints_recomputed=nep,
+                                 gate_checks=gate_records)
+    del n0, u1, Q, v5, v6, v7, a0, i0
     gc.collect(); torch.cuda.empty_cache()
 # 6) endpoint hashes
 manifest = {}
@@ -195,3 +300,5 @@ print(f'\n== F VERIFIER VERDICT: {verdict} ({npass}/{len(checks)}) ==', flush=Tr
 out['verdict'] = verdict; out['npass'] = npass; out['ntotal'] = len(checks)
 out['checks'] = [dict(name=a, ok=b, detail=c) for a, b, c in checks]
 json.dump(out, open('noNull_F_verify.json', 'w'), indent=1)
+if nfail:
+    raise SystemExit(1)

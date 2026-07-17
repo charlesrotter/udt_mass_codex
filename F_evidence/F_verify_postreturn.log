@@ -1,0 +1,53 @@
+[PASS] N=128 dirs orthonormal (own Gram): 2.22e-16
+[PASS] N=128 dirs tangent+boundary: tang 3.3e-19 bnd 0.0e+00
+[PASS] N=128 dirs in U(1)+T/R complement (own projectors): 2.14e-17
+[PASS] N=128 seed0 doublet member lies in span(v5,v6): 1.0000000000
+[PASS] N=128 independently reconstructed isolated direction agrees saved v7: |overlap|=1.0000000000
+[PASS] N=128 v5 own tangent reconstruction agrees saved direction: |overlap|=1.0000000000
+[PASS] N=128 v5 own +/- geodesics unit+fixed-boundary+angle: unit=2.22e-16 bnd=0.0e+00 angle=2.17e-19
+[PASS] N=128 v5 own FD vs production q: qown=82.6610515787 qprod=82.6610515787 rel=0.000e+00
+[PASS] N=128 v5 own FD vs shared exact-HVP cross-check: qown=82.6610515787 wHw=82.6610381639 rel=1.623e-07
+[PASS] N=128 v5 shared exact-HVP vs production HVP record: wHw=82.6610381639 recorded=82.6610381639 rel=0.000e+00
+[PASS] N=128 v7 own tangent reconstruction agrees saved direction: |overlap|=1.0000000000
+[PASS] N=128 v7 own +/- geodesics unit+fixed-boundary+angle: unit=2.22e-16 bnd=0.0e+00 angle=0.00e+00
+[PASS] N=128 v7 own FD vs production q: qown=64.3603505068 qprod=64.3603505068 rel=0.000e+00
+[PASS] N=128 v7 own FD vs shared exact-HVP cross-check: qown=64.3603505068 wHw=64.3603438939 rel=1.027e-07
+[PASS] N=128 v7 shared exact-HVP vs production HVP record: wHw=64.3603438939 recorded=64.3603438939 rel=0.000e+00
+[PASS] N=128 all classifications replay identically: 59 replayed
+[PASS] N=128 endpoint recomputes green: 15 recomputed (bounded sample)
+[PASS] N=192 dirs orthonormal (own Gram): 2.22e-16
+[PASS] N=192 dirs tangent+boundary: tang 2.2e-19 bnd 0.0e+00
+[PASS] N=192 dirs in U(1)+T/R complement (own projectors): 2.24e-17
+[PASS] N=192 seed0 doublet member lies in span(v5,v6): 1.0000000000
+[PASS] N=192 independently reconstructed isolated direction agrees saved v7: |overlap|=1.0000000000
+[PASS] N=192 v5 own tangent reconstruction agrees saved direction: |overlap|=1.0000000000
+[PASS] N=192 v5 own +/- geodesics unit+fixed-boundary+angle: unit=2.22e-16 bnd=0.0e+00 angle=0.00e+00
+[PASS] N=192 v5 own FD vs production q: qown=84.4250162118 qprod=84.4250162118 rel=0.000e+00
+[PASS] N=192 v5 own FD vs shared exact-HVP cross-check: qown=84.4250162118 wHw=84.4250023137 rel=1.646e-07
+[PASS] N=192 v5 shared exact-HVP vs production HVP record: wHw=84.4250023137 recorded=84.4250023137 rel=0.000e+00
+[PASS] N=192 v7 own tangent reconstruction agrees saved direction: |overlap|=1.0000000000
+[PASS] N=192 v7 own +/- geodesics unit+fixed-boundary+angle: unit=2.22e-16 bnd=0.0e+00 angle=0.00e+00
+[PASS] N=192 v7 own FD vs production q: qown=68.3201160427 qprod=68.3201160427 rel=0.000e+00
+[PASS] N=192 v7 own FD vs shared exact-HVP cross-check: qown=68.3201160427 wHw=68.3201095872 rel=9.449e-08
+[PASS] N=192 v7 shared exact-HVP vs production HVP record: wHw=68.3201095872 recorded=68.3201095872 rel=0.000e+00
+[PASS] N=192 all classifications replay identically: 12 replayed
+[PASS] N=192 endpoint recomputes green: 12 recomputed (bounded sample)
+[PASS] N=256 dirs orthonormal (own Gram): 3.63e-18
+[PASS] N=256 dirs tangent+boundary: tang 1.6e-19 bnd 0.0e+00
+[PASS] N=256 dirs in U(1)+T/R complement (own projectors): 4.16e-17
+[PASS] N=256 seed0 doublet member lies in span(v5,v6): 1.0000000000
+[PASS] N=256 independently reconstructed isolated direction agrees saved v7: |overlap|=1.0000000000
+[PASS] N=256 v5 own tangent reconstruction agrees saved direction: |overlap|=1.0000000000
+[PASS] N=256 v5 own +/- geodesics unit+fixed-boundary+angle: unit=2.22e-16 bnd=0.0e+00 angle=2.17e-19
+[PASS] N=256 v5 own FD vs production q: qown=85.0455348314 qprod=85.0455348882 rel=6.684e-10
+[PASS] N=256 v5 own FD vs shared exact-HVP cross-check: qown=85.0455348314 wHw=85.0455207604 rel=1.655e-07
+[PASS] N=256 v5 shared exact-HVP vs production HVP record: wHw=85.0455207604 recorded=85.0455207604 rel=0.000e+00
+[PASS] N=256 v7 own tangent reconstruction agrees saved direction: |overlap|=1.0000000000
+[PASS] N=256 v7 own +/- geodesics unit+fixed-boundary+angle: unit=2.22e-16 bnd=0.0e+00 angle=2.17e-19
+[PASS] N=256 v7 own FD vs production q: qown=69.6815912988 qprod=69.6815912988 rel=0.000e+00
+[PASS] N=256 v7 own FD vs shared exact-HVP cross-check: qown=69.6815912988 wHw=69.6815848871 rel=9.201e-08
+[PASS] N=256 v7 shared exact-HVP vs production HVP record: wHw=69.6815848871 recorded=69.6815848871 rel=2.039e-16
+[PASS] N=256 all classifications replay identically: 12 replayed
+[PASS] N=256 endpoint recomputes green: 12 recomputed (bounded sample)
+
+== F VERIFIER VERDICT: PASS (51/51) ==

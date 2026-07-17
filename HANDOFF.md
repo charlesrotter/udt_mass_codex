@@ -28,10 +28,14 @@ solver event, not physics); FD noise floor → exact-HVP layer; CAS caught my EL
 
 **F COMPLETE (2026-07-17, `UDT_H3_BOUNDARY_AUDIT_PATCH_THEN_F_DISPATCH.md`; commits 442c64e→2f024f8):**
 Part-A evidence patch green (5 defects fixed, verifiers 62/62 + CAS 4/4, zero scalar change). F basin
-characterization: 83 branches (8 doublet dirs + iso±; θ≤1.2 rad; 3 grids) — zero topology changes,
-zero lower states, single robust basin; fine grids 24/24 RETURNED BASIN; T/R drift shelf fades with
-grid (box artifact). Verifier PASS 21/21; endpoint npz hashed. Scope: basin behavior, NOT dynamics/
-infinite-volume/mass. Records: `noNull_behavioral_F_results.md` + `noNull_F_*.json` + `F_evidence/`.
+characterization: exact 83-endpoint census (128³: 1 RETURNED BASIN + 58 OTHER STATIONARY BRANCH;
+fine grids: 24/24 RETURNED BASIN), with zero topology changes, lower stationary states, or resolved
+basin exits. The 128³ OTHER family is consistent with measured near-degenerate T/R box drift; only
+the negative Rz offset is claimed to fade monotonically with refinement. **Single robust basin =
+STRONG finite-slice LEAD**, not the literal class of all endpoints. Repaired verifier PASS 51/51
+(independent own-energy symmetric FD; shared exact-HVP cross-check labeled); catch-proof RED and
+byte-restored; endpoint NPZ hashes unchanged. Scope: basin behavior, NOT dynamics/infinite-volume/
+mass. Records: `noNull_behavioral_F_results.md` + `noNull_F_*.json` + `F_evidence/`.
 
 **Pending Charles:** audit of the F return; native-action dispatch §0/§1 review
 (`UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md`, DRAFT, arms not launched); canonization calls; next-push

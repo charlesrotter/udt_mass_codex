@@ -1,0 +1,133 @@
+{
+  "audit": "F post-return pre-edit evidence census",
+  "date": "2026-07-17",
+  "source_head": "b8edad0",
+  "dispatch_findings_disagreements": [],
+  "endpoint_total": 83,
+  "grids": {
+    "128": {
+      "source": "noNull_F_ladder_N128.json",
+      "endpoint_count": 59,
+      "class_histogram": {
+        "RETURNED BASIN": 1,
+        "OTHER STATIONARY BRANCH": 58
+      },
+      "ranges": {
+        "E": [271.8288231503811, 271.8323956757266],
+        "dE_vs_control": [-0.002252944049985217, 0.001319581295547323],
+        "displacement": [0.2140675860011047, 7.105383359389927],
+        "Q_fwd": [-0.9673178918311804, -0.9669597943017256],
+        "Q_sym": [-0.9660336053296448, -0.965661339502419],
+        "gf_mnorm": [0.0005155723902688298, 0.04928510237321437]
+      }
+    },
+    "192": {
+      "source": "noNull_F_fine_N192.json",
+      "endpoint_count": 12,
+      "class_histogram": {
+        "RETURNED BASIN": 12
+      },
+      "ranges": {
+        "E": [274.1801831374181, 274.1803874085431],
+        "dE_vs_control": [-0.00041367739549968974, -0.00020940627052823402],
+        "displacement": [3.1899107946514884, 41.294737353335435],
+        "Q_fwd": [-0.9861437078088984, -0.9861112292596879],
+        "Q_sym": [-0.9855861763775516, -0.9855842297801658],
+        "gf_mnorm": [0.005117032970729901, 0.03915130579075694]
+      }
+    },
+    "256": {
+      "source": "noNull_F_fine_N256.json",
+      "endpoint_count": 12,
+      "class_histogram": {
+        "RETURNED BASIN": 12
+      },
+      "ranges": {
+        "E": [274.95802860271965, 274.9583408739037],
+        "dE_vs_control": [-0.0001627277006264194, 0.00014954348341689183],
+        "displacement": [2.4593883245741277, 126.01528435365384],
+        "Q_fwd": [-0.9923771748461867, -0.9923226589978386],
+        "Q_sym": [-0.9920380786759774, -0.9920336297339012],
+        "gf_mnorm": [0.007173308697871305, 0.021437748192221343]
+      }
+    }
+  },
+  "controls": {
+    "128": {
+      "repeat_nsteps": [0, 0],
+      "repeat_displacement": [0.0, 0.0],
+      "E": 271.83107609443107,
+      "gf_mnorm": 0.04113679141380126,
+      "Q_fwd": -0.9672850964767774,
+      "Q_sym": -0.965999662654045,
+      "envelopes": {"sigE": 0.0, "sigQ": 0.0, "sigLoc": 0.0, "tauE": 0.001, "tauQ": 0.02, "tauLoc": 0.01},
+      "u1_dE": 0.0,
+      "tr_controls": {
+        "Tx": {"dE": -0.000611880421161004, "displacement": 10.755003965732175},
+        "Ty": {"dE": -0.0006118695196164481, "displacement": 10.754955004639482},
+        "Tz": {"dE": -0.0007332298229698608, "displacement": 15.194552809687655},
+        "Rx": {"dE": -0.0008958807237036126, "displacement": 19.748913109828262},
+        "Ry": {"dE": -0.0008958044053315461, "displacement": 19.748865567055127},
+        "Rz": {"dE": -0.0022202746227435455, "displacement": 3.60844444634223}
+      }
+    },
+    "192": {
+      "repeat_nsteps": [0, 0],
+      "repeat_displacement": [0.0, 0.0],
+      "E": 274.1805968148136,
+      "gf_mnorm": 0.01728783601838628,
+      "Q_fwd": -0.9861777748564944,
+      "Q_sym": -0.9856202488721,
+      "envelopes": {"sigE": 0.0, "sigQ": 0.0, "sigLoc": 0.0, "tauE": 0.001, "tauQ": 0.02, "tauLoc": 0.01},
+      "u1_dE": 0.0,
+      "tr_controls": {
+        "Tx": {"dE": 0.00022380242205599643, "displacement": 20.49307724034089},
+        "Rz": {"dE": -0.0004117890536008417, "displacement": 3.055919350662694}
+      }
+    },
+    "256": {
+      "repeat_nsteps": [0, 0],
+      "repeat_displacement": [0.0, 0.0],
+      "E": 274.9581913304203,
+      "gf_mnorm": 0.015680115356001587,
+      "Q_fwd": -0.9923443428431228,
+      "Q_sym": -0.992032964031705,
+      "envelopes": {"sigE": 0.0, "sigQ": 0.0, "sigLoc": 0.0, "tauE": 0.001, "tauQ": 0.02, "tauLoc": 0.01},
+      "u1_dE": 0.0,
+      "tr_controls": {
+        "Tx": {"dE": 0.00016951412885646278, "displacement": 31.776381580361008},
+        "Rz": {"dE": -0.00016171889058114175, "displacement": 2.307030045402059}
+      }
+    }
+  },
+  "trajectory_record_keys": [
+    "E", "accepted", "actual", "cg", "cg_iters", "displacement", "gf_mnorm",
+    "mu", "pred", "rad", "rho", "step", "t", "theta_nn_max"
+  ],
+  "branch_record_keys": [
+    "class", "cls", "direction", "endpoint", "guard", "nsteps", "reached", "start", "theta", "traj"
+  ],
+  "endpoint_record_keys": [
+    "E", "E2", "E4", "Q_fwd", "Q_sym", "centroid", "displacement", "gf_mnorm", "loc4", "theta_nn_max"
+  ],
+  "npz_metadata": {
+    "manifest_recorded_count": 89,
+    "manifest_current_count": 89,
+    "manifest_unchanged_pre_edit": true,
+    "manifest_missing": [],
+    "manifest_extra": [],
+    "manifest_mismatches": [],
+    "total_bytes": 11085632870,
+    "schemas": {
+      "128": {"count": 61, "n_shape": [3, 128, 128, 128], "n_dtype": "float64", "bytes_per_file": 50332630},
+      "192": {"count": 14, "n_shape": [3, 192, 192, 192], "n_dtype": "float64", "bytes_per_file": 169870294},
+      "256": {"count": 14, "n_shape": [3, 256, 256, 256], "n_dtype": "float64", "bytes_per_file": 402654166}
+    },
+    "members": ["n", "N", "L", "h"]
+  },
+  "interpretation": {
+    "control_repeats": "deterministic zero-step identity/replay; the preregistered floor envelopes remain unchanged",
+    "displacement_comparison": "the N=128 endpoint range partly overlaps and is bounded above by the six-control T/R scale; it is not wholly inside the T/R-control range",
+    "tr_energy_trend": "the six-generator controls are not a uniform shelf; only the negative Rz offset is described as fading in magnitude with refinement"
+  }
+}

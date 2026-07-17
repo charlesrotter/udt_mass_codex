@@ -30,7 +30,7 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-17 — H3 PARTICLE-MASS arc COMPLETE THROUGH F: stability SETTLED (twice-verified) → G conditional mass readout → boundary-virial (BOX-STRESS LEAD) → audit patch → **F basin characterization DONE (single robust basin, 83 branches, 3 grids, verifier 21/21)**. All dispatched work returned; Charles's audits + native-action §0/§1 review pending.) ============
+## ============ CURRENT STATE (2026-07-17 — H3 PARTICLE-MASS arc COMPLETE THROUGH F: stability SETTLED (twice-verified) → G conditional mass readout → boundary-virial (BOX-STRESS LEAD) → audit patch → **F finite-slice characterization DONE (83 endpoints, no resolved basin exit; single robust basin = STRONG LEAD; verifier 51/51)**. All dispatched work returned; Charles's audits + native-action §0/§1 review pending.) ============
 
 **➤➤➤ TOPMOST LAYER (2026-07-16 — read this + the two result docs, then stop):**
 - **G (conditional mass readout on the corrected carrier) COMPLETE** — `noNull_phaseG_mass_results.md`
@@ -40,7 +40,8 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
   contrast: the superseded centered-carrier record had 0.05% closure). NO κ_g used; DATA-BLIND.
 - **BOUNDARY-VIRIAL dispatch COMPLETE** — `noNull_boundary_virial_results.md` (verifier PASS 38/38 +
   CAS 4/4; commit `837d633`). V1 identity DERIVED+CAS'd: **E4−E2 = B_∂Ω + W_res ⇒ M_N⁽⁰⁾ = E_carrier
-  + B_∂Ω** (the "two masses" = one mass + a computable boundary term). V2 exact (2e-16). V3: the
+  + B_∂Ω + W_res** (for an exact critical point W_res=0; the saved carrier retains its reported
+  residual work). V2 exact (2e-16). V3: the
   **E2-rich pinned-wall skin** found (E2 only ~86% inside a=2.5 vs E4 99.5%); surface closure
   converging ~h² empirically (33%→15.4%→8.5%; powers p=1.88, 2.07 — audit-patch corrected from ~O(h)), local theorem OPEN. **V4 box scout (pad+re-relax, fixed h): |δ_vir|
   falls MONOTONE at BOTH resolutions** — h_c: 0.0521→0.0439→0.0379 (L=6→7.5→9); h_f: 0.0363→0.0256
@@ -52,11 +53,14 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
   grad_noNull everywhere); corrected + re-verified.
 - **✅ AUDIT-PATCH + F DONE (2026-07-16→17, `UDT_H3_BOUNDARY_AUDIT_PATCH_THEN_F_DISPATCH.md`;
   commits 442c64e→2f024f8):** Part-A evidence patch green (5 record defects fixed; verifiers 62/62 +
-  CAS 4/4; zero scalar change). **F basin characterization COMPLETE** (`noNull_behavioral_F_results.md`,
-  verifier PASS 21/21): 83 branches (8 doublet-plane dirs + both iso signs; θ 0.05→1.20 rad;
-  128/192/256) — **zero topology changes, zero lower states, single robust basin**; fine grids 24/24
-  RETURNED BASIN; the T/R drift shelf fades with grid (−2.2e-3→−4e-4→−1.5e-4 = box artifact, matches
-  the marginal-walls finding). Scope: relaxation/basin behavior in the L=6 frame — NOT dynamics,
+  CAS 4/4; zero scalar change). **F finite-slice characterization COMPLETE**
+  (`noNull_behavioral_F_results.md`, repaired verifier PASS 51/51 + catch-proof): exact 83 endpoints
+  (128³: 1 RETURNED BASIN + 58 OTHER STATIONARY BRANCH; 192/256: 24/24 RETURNED BASIN) — **zero
+  topology changes, lower stationary states, or resolved basin exits**. The 128³ OTHER family is
+  consistent with the measured near-degenerate T/R box drift; the negative Rz offset narrows with
+  grid (−2.22e-3→−4.12e-4→−1.62e-4), while the full control set is nonuniform. **Single robust basin
+  = STRONG LEAD within the preregistered finite-grid slice**, not a literal class for all endpoints.
+  Endpoint hashes unchanged. Scope: relaxation/basin behavior in the L=6 frame — NOT dynamics,
   NOT infinite-volume, NOT a mass statement.
 - **⏳ ON CHARLES'S DESK:** (1) audit of the F return (+ the G / boundary-virial / audit-patch chain);
   (2) **native-action dispatch review** (§0 process + §1 framing of
@@ -117,8 +121,8 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
   S² carrier = posit (bedrock memory). Hess outputs now N-tagged (anti-clobber; converged vectors =
   `noNull_hess_refine_s{0,1,192_*,128_*}.npz`).
 - **STATUS: `Stability SETTLED (2 verified layers) · conditional mass M_N⁽⁰⁾=2E4 read out
-  (continuum ≈283.4; virial gap −2.7% = boundary stress, BOX-STRESS LEAD) · basin characterized
-  (single robust basin, verifier 21/21). All corrected-carrier work dispatched to date is COMPLETE,
+  (continuum ≈283.4; virial gap −2.7% = boundary stress, BOX-STRESS LEAD) · finite-slice basin
+  characterized (no resolved exit; single robust basin = STRONG LEAD; verifier 51/51). All corrected-carrier work dispatched to date is COMPLETE,
   scoped, and verified; physics verdicts / canonization / next direction = Charles.`**
 
 **➤➤➤ DETAILED ARC RECORD = `stability_branch_follow_256_DECISION.md` (full arc, retractions, fork). The superseded 2026-07-11/12 layers are archived in `archive/LIVE_h3_stability_layers_2026-07-11_12.md`.**

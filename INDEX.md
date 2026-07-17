@@ -15,8 +15,11 @@ Solvers/tools: `noNull_energy.py` (corrected operator + **exact HVP** `hvp_exact
 Dispatches: `UDT_H3_CORRECTED_G_THEN_F_SEQUENCING_DISPATCH.md` (F prereg = §9; F LOCKED) +
 `UDT_H3_BOUNDARY_VIRIAL_CLOSURE_BEFORE_F_DISPATCH.md` (done) +
 `UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md` (DRAFT awaiting Charles §0/§1 review).
-F (basin): `noNull_behavioral_F.py` + `verify_noNull_behavioral_F.py` + `noNull_behavioral_F_results.md` +
-`noNull_F_{dirs,gate,control_*,ladder_N128,fine_*}​.json` + `F_endpoints/` (hashed) + `F_evidence/`.
+F (finite-slice basin behavior; 83 endpoints: 1 RETURNED + 58 OTHER at 128³, 24/24 RETURNED fine;
+single robust basin = STRONG LEAD, not literal all-endpoint class): `noNull_behavioral_F.py` +
+`verify_noNull_behavioral_F.py` + `noNull_behavioral_F_results.md` + `noNull_F_postreturn_audit.json` +
+`noNull_F_{dirs,gate,control_*,ladder_N128,fine_*,verify,catchproof}​.json` + `F_endpoints/` (hashed) +
+`F_evidence/`.
 Audit patch: `noNull_boxscout_build.py` (+_start_rebuilt npz manifested).
 Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`, `boundary_audit_patch_2026-07-16/`,
 `verifier_evidence_2026-07-14/`, `artifact_manifest.json` (SHA-256 of all npz).  

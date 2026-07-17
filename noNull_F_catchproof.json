@@ -1,0 +1,14 @@
+{
+ "target": "N=128 v5 own FD vs production q",
+ "tolerance": 1e-06,
+ "q_own": 82.66105157872516,
+ "q_original": 82.66105157872516,
+ "q_mutated": 82.74371263030388,
+ "relative_discrepancy": 0.0009990009990008275,
+ "named_check_green": false,
+ "expected_red": true,
+ "before_sha256": "090dca9082c624738b81c9e79f9c52030484c6f1fb68c37335da5cfafc521a4d",
+ "restored_sha256": "090dca9082c624738b81c9e79f9c52030484c6f1fb68c37335da5cfafc521a4d",
+ "artifact_restored": true,
+ "verdict": "PASS"
+}

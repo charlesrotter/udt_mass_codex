@@ -65,13 +65,23 @@ explicitly). ⚠ Scar warning: this exact terrain produced the project's oldest 
 matter weight that was assumed-as-natural, not derived (census, §4). Any weight that appears "by
 covariance" must be shown FORCED step by step; "the natural choice" is a HABIT tag, not a derivation.
 
-**Mandatory consistency test for ANY candidate rule (Q1-full or Q2/Q3-shortcut):** the carrier's
-scaling/virial structure yields, under the EH-conditional rule, the machine-verified identity
-M_N = 2·E4 = E2 + E4 (attachment A4; confirmed to 0.05% by two independent flux methods). Each arm
-must derive what its candidate rule predicts for this identity — reproduced exactly, systematically
-modified (state the modified form), or broken (state why). A candidate that cannot be run through
-this test is incomplete. The test is DATA-BLIND (it relates internal energy pieces; no observational
-numbers enter).
+**Mandatory consistency test for ANY candidate rule (Q1-full or Q2/Q3-shortcut):** each arm must
+predict three distinct statements rather than silently identifying them:
+
+1. the source/lapse mass rule (under the EH-conditional premise, \(M_N^{(0)}=2E_4\));
+2. the finite-domain carrier virial/boundary relation
+   \(E_4-E_2=B_{\partial\Omega}+W_{\rm res}\), hence
+   \(M_N^{(0)}=E_{\rm carrier}+B_{\partial\Omega}+W_{\rm res}\);
+3. the controlled limit, if any, in which the boundary and residual terms vanish.
+
+For an exact critical point \(W_{\rm res}=0\); for the saved numerical carrier it is retained and
+reported. The corrected \(L=6\) continuum audit has a persistent virial gap of approximately −2.7%,
+so \(2E_4=E_2+E_4\) is not a current finite-box identity. The boundary-stress explanation is a
+STRONG LEAD; the local surface theorem and infinite-volume closure remain OPEN. The old
+\(M_N=2E_4=E_2+E_4\) agreement to 0.05% is retained only as **SUPERSEDED centered-operator
+provenance**, never as current evidence or a pass criterion. A candidate that cannot be run through
+all three current tests is incomplete. The tests are DATA-BLIND (they relate internal energy pieces;
+no observational numbers enter).
 
 ## 2. FOUNDATION (what may be used; everything else must be derived or flagged)
 

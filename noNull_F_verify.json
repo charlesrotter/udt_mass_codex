@@ -2,20 +2,140 @@
  "grids": {
   "128": {
    "n_classified_replayed": 59,
-   "n_endpoints_recomputed": 15
+   "n_endpoints_recomputed": 15,
+   "gate_checks": {
+    "v5": {
+     "theta": 0.001,
+     "E_plus_own": 271.8311174444773,
+     "E0_own": 271.83107609443107,
+     "E_minus_own": 271.83111740543643,
+     "q_own": 82.66105157872516,
+     "q_production": 82.66105157872516,
+     "wHw_shared_exact_HVP": 82.66103816386493,
+     "rel_own_vs_production": 0.0,
+     "rel_own_vs_shared_exact_HVP": 1.6228758472175643e-07,
+     "rel_shared_exact_HVP_vs_production_record": 0.0,
+     "own_q_rel_tolerance": 1e-06,
+     "hvp_q_rel_tolerance": 0.01,
+     "tangent_overlap_saved": 1.0000000000000002,
+     "unit_error": 2.220446049250313e-16,
+     "boundary_error": 0.0,
+     "realized_angle_plus": 0.0009999999999999998,
+     "realized_angle_minus": 0.0009999999999999998
+    },
+    "v7": {
+     "theta": 0.001,
+     "E_plus_own": 271.8316395563659,
+     "E0_own": 271.83107609443107,
+     "E_minus_own": 271.8305769928468,
+     "q_own": 64.36035050683131,
+     "q_production": 64.36035050683131,
+     "wHw_shared_exact_HVP": 64.36034389386735,
+     "rel_own_vs_production": 0.0,
+     "rel_own_vs_shared_exact_HVP": 1.0274904634861684e-07,
+     "rel_shared_exact_HVP_vs_production_record": 0.0,
+     "own_q_rel_tolerance": 1e-06,
+     "hvp_q_rel_tolerance": 0.01,
+     "tangent_overlap_saved": 1.0000000000000002,
+     "unit_error": 2.220446049250313e-16,
+     "boundary_error": 0.0,
+     "realized_angle_plus": 0.001,
+     "realized_angle_minus": 0.001
+    }
+   }
   },
   "192": {
    "n_classified_replayed": 12,
-   "n_endpoints_recomputed": 12
+   "n_endpoints_recomputed": 12,
+   "gate_checks": {
+    "v5": {
+     "theta": 0.001,
+     "E_plus_own": 274.1806390333619,
+     "E0_own": 274.1805968148136,
+     "E_minus_own": 274.18063902128154,
+     "q_own": 84.42501621175325,
+     "q_production": 84.42501621175325,
+     "wHw_shared_exact_HVP": 84.42500231370433,
+     "rel_own_vs_production": 0.0,
+     "rel_own_vs_shared_exact_HVP": 1.6462005968411794e-07,
+     "rel_shared_exact_HVP_vs_production_record": 0.0,
+     "own_q_rel_tolerance": 1e-06,
+     "hvp_q_rel_tolerance": 0.01,
+     "tangent_overlap_saved": 1.0,
+     "unit_error": 2.220446049250313e-16,
+     "boundary_error": 0.0,
+     "realized_angle_plus": 0.001,
+     "realized_angle_minus": 0.001
+    },
+    "v7": {
+     "theta": 0.001,
+     "E_plus_own": 274.18086510242745,
+     "E0_own": 274.1805968148136,
+     "E_minus_own": 274.1803968473158,
+     "q_own": 68.32011604274157,
+     "q_production": 68.32011604274157,
+     "wHw_shared_exact_HVP": 68.32010958719098,
+     "rel_own_vs_production": 0.0,
+     "rel_own_vs_shared_exact_HVP": 9.44897575413164e-08,
+     "rel_shared_exact_HVP_vs_production_record": 0.0,
+     "own_q_rel_tolerance": 1e-06,
+     "hvp_q_rel_tolerance": 0.01,
+     "tangent_overlap_saved": 1.0000000000000002,
+     "unit_error": 2.220446049250313e-16,
+     "boundary_error": 0.0,
+     "realized_angle_plus": 0.001,
+     "realized_angle_minus": 0.001
+    }
+   }
   },
   "256": {
    "n_classified_replayed": 12,
-   "n_endpoints_recomputed": 12
+   "n_endpoints_recomputed": 12,
+   "gate_checks": {
+    "v5": {
+     "theta": 0.001,
+     "E_plus_own": 274.9582338562693,
+     "E0_own": 274.9581913304203,
+     "E_minus_own": 274.95823385010607,
+     "q_own": 85.04553483135169,
+     "q_production": 85.0455348881951,
+     "wHw_shared_exact_HVP": 85.04552076043127,
+     "rel_own_vs_production": 6.68388045716181e-10,
+     "rel_own_vs_shared_exact_HVP": 1.6545163447523113e-07,
+     "rel_shared_exact_HVP_vs_production_record": 0.0,
+     "own_q_rel_tolerance": 1e-06,
+     "hvp_q_rel_tolerance": 0.01,
+     "tangent_overlap_saved": 1.0,
+     "unit_error": 2.220446049250313e-16,
+     "boundary_error": 0.0,
+     "realized_angle_plus": 0.0009999999999999998,
+     "realized_angle_minus": 0.0009999999999999998
+    },
+    "v7": {
+     "theta": 0.001,
+     "E_plus_own": 274.95830155432463,
+     "E0_own": 274.9581913304203,
+     "E_minus_own": 274.9581507881072,
+     "q_own": 69.68159129883134,
+     "q_production": 69.68159129883134,
+     "wHw_shared_exact_HVP": 69.68158488713611,
+     "rel_own_vs_production": 0.0,
+     "rel_own_vs_shared_exact_HVP": 9.201419908737204e-08,
+     "rel_shared_exact_HVP_vs_production_record": 2.0393988940147465e-16,
+     "own_q_rel_tolerance": 1e-06,
+     "hvp_q_rel_tolerance": 0.01,
+     "tangent_overlap_saved": 1.0,
+     "unit_error": 2.220446049250313e-16,
+     "boundary_error": 0.0,
+     "realized_angle_plus": 0.0009999999999999998,
+     "realized_angle_minus": 0.0009999999999999998
+    }
+   }
   }
  },
  "verdict": "PASS",
- "npass": 21,
- "ntotal": 21,
+ "npass": 51,
+ "ntotal": 51,
  "checks": [
   {
    "name": "N=128 dirs orthonormal (own Gram)",
@@ -38,9 +158,59 @@
    "detail": "1.0000000000"
   },
   {
-   "name": "N=128 gate wHw vs own exact HVP",
+   "name": "N=128 independently reconstructed isolated direction agrees saved v7",
    "ok": true,
-   "detail": "82.661038 vs 82.661038"
+   "detail": "|overlap|=1.0000000000"
+  },
+  {
+   "name": "N=128 v5 own tangent reconstruction agrees saved direction",
+   "ok": true,
+   "detail": "|overlap|=1.0000000000"
+  },
+  {
+   "name": "N=128 v5 own +/- geodesics unit+fixed-boundary+angle",
+   "ok": true,
+   "detail": "unit=2.22e-16 bnd=0.0e+00 angle=2.17e-19"
+  },
+  {
+   "name": "N=128 v5 own FD vs production q",
+   "ok": true,
+   "detail": "qown=82.6610515787 qprod=82.6610515787 rel=0.000e+00"
+  },
+  {
+   "name": "N=128 v5 own FD vs shared exact-HVP cross-check",
+   "ok": true,
+   "detail": "qown=82.6610515787 wHw=82.6610381639 rel=1.623e-07"
+  },
+  {
+   "name": "N=128 v5 shared exact-HVP vs production HVP record",
+   "ok": true,
+   "detail": "wHw=82.6610381639 recorded=82.6610381639 rel=0.000e+00"
+  },
+  {
+   "name": "N=128 v7 own tangent reconstruction agrees saved direction",
+   "ok": true,
+   "detail": "|overlap|=1.0000000000"
+  },
+  {
+   "name": "N=128 v7 own +/- geodesics unit+fixed-boundary+angle",
+   "ok": true,
+   "detail": "unit=2.22e-16 bnd=0.0e+00 angle=0.00e+00"
+  },
+  {
+   "name": "N=128 v7 own FD vs production q",
+   "ok": true,
+   "detail": "qown=64.3603505068 qprod=64.3603505068 rel=0.000e+00"
+  },
+  {
+   "name": "N=128 v7 own FD vs shared exact-HVP cross-check",
+   "ok": true,
+   "detail": "qown=64.3603505068 wHw=64.3603438939 rel=1.027e-07"
+  },
+  {
+   "name": "N=128 v7 shared exact-HVP vs production HVP record",
+   "ok": true,
+   "detail": "wHw=64.3603438939 recorded=64.3603438939 rel=0.000e+00"
   },
   {
    "name": "N=128 all classifications replay identically",
@@ -73,9 +243,59 @@
    "detail": "1.0000000000"
   },
   {
-   "name": "N=192 gate wHw vs own exact HVP",
+   "name": "N=192 independently reconstructed isolated direction agrees saved v7",
    "ok": true,
-   "detail": "84.425002 vs 84.425002"
+   "detail": "|overlap|=1.0000000000"
+  },
+  {
+   "name": "N=192 v5 own tangent reconstruction agrees saved direction",
+   "ok": true,
+   "detail": "|overlap|=1.0000000000"
+  },
+  {
+   "name": "N=192 v5 own +/- geodesics unit+fixed-boundary+angle",
+   "ok": true,
+   "detail": "unit=2.22e-16 bnd=0.0e+00 angle=0.00e+00"
+  },
+  {
+   "name": "N=192 v5 own FD vs production q",
+   "ok": true,
+   "detail": "qown=84.4250162118 qprod=84.4250162118 rel=0.000e+00"
+  },
+  {
+   "name": "N=192 v5 own FD vs shared exact-HVP cross-check",
+   "ok": true,
+   "detail": "qown=84.4250162118 wHw=84.4250023137 rel=1.646e-07"
+  },
+  {
+   "name": "N=192 v5 shared exact-HVP vs production HVP record",
+   "ok": true,
+   "detail": "wHw=84.4250023137 recorded=84.4250023137 rel=0.000e+00"
+  },
+  {
+   "name": "N=192 v7 own tangent reconstruction agrees saved direction",
+   "ok": true,
+   "detail": "|overlap|=1.0000000000"
+  },
+  {
+   "name": "N=192 v7 own +/- geodesics unit+fixed-boundary+angle",
+   "ok": true,
+   "detail": "unit=2.22e-16 bnd=0.0e+00 angle=0.00e+00"
+  },
+  {
+   "name": "N=192 v7 own FD vs production q",
+   "ok": true,
+   "detail": "qown=68.3201160427 qprod=68.3201160427 rel=0.000e+00"
+  },
+  {
+   "name": "N=192 v7 own FD vs shared exact-HVP cross-check",
+   "ok": true,
+   "detail": "qown=68.3201160427 wHw=68.3201095872 rel=9.449e-08"
+  },
+  {
+   "name": "N=192 v7 shared exact-HVP vs production HVP record",
+   "ok": true,
+   "detail": "wHw=68.3201095872 recorded=68.3201095872 rel=0.000e+00"
   },
   {
    "name": "N=192 all classifications replay identically",
@@ -108,9 +328,59 @@
    "detail": "1.0000000000"
   },
   {
-   "name": "N=256 gate wHw vs own exact HVP",
+   "name": "N=256 independently reconstructed isolated direction agrees saved v7",
    "ok": true,
-   "detail": "85.045521 vs 85.045521"
+   "detail": "|overlap|=1.0000000000"
+  },
+  {
+   "name": "N=256 v5 own tangent reconstruction agrees saved direction",
+   "ok": true,
+   "detail": "|overlap|=1.0000000000"
+  },
+  {
+   "name": "N=256 v5 own +/- geodesics unit+fixed-boundary+angle",
+   "ok": true,
+   "detail": "unit=2.22e-16 bnd=0.0e+00 angle=2.17e-19"
+  },
+  {
+   "name": "N=256 v5 own FD vs production q",
+   "ok": true,
+   "detail": "qown=85.0455348314 qprod=85.0455348882 rel=6.684e-10"
+  },
+  {
+   "name": "N=256 v5 own FD vs shared exact-HVP cross-check",
+   "ok": true,
+   "detail": "qown=85.0455348314 wHw=85.0455207604 rel=1.655e-07"
+  },
+  {
+   "name": "N=256 v5 shared exact-HVP vs production HVP record",
+   "ok": true,
+   "detail": "wHw=85.0455207604 recorded=85.0455207604 rel=0.000e+00"
+  },
+  {
+   "name": "N=256 v7 own tangent reconstruction agrees saved direction",
+   "ok": true,
+   "detail": "|overlap|=1.0000000000"
+  },
+  {
+   "name": "N=256 v7 own +/- geodesics unit+fixed-boundary+angle",
+   "ok": true,
+   "detail": "unit=2.22e-16 bnd=0.0e+00 angle=2.17e-19"
+  },
+  {
+   "name": "N=256 v7 own FD vs production q",
+   "ok": true,
+   "detail": "qown=69.6815912988 qprod=69.6815912988 rel=0.000e+00"
+  },
+  {
+   "name": "N=256 v7 own FD vs shared exact-HVP cross-check",
+   "ok": true,
+   "detail": "qown=69.6815912988 wHw=69.6815848871 rel=9.201e-08"
+  },
+  {
+   "name": "N=256 v7 shared exact-HVP vs production HVP record",
+   "ok": true,
+   "detail": "wHw=69.6815848871 recorded=69.6815848871 rel=2.039e-16"
   },
   {
    "name": "N=256 all classifications replay identically",

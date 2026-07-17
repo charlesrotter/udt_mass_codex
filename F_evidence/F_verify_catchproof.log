@@ -1,0 +1,2 @@
+[FAIL] N=128 v5 own FD vs production q (CONTROLLED MUTATION): rel=9.990e-04 tol=1.0e-06
+catch-proof verdict: PASS; expected RED=True; artifact restored=True
