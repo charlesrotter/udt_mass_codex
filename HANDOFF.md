@@ -37,9 +37,11 @@ STRONG finite-slice LEAD**, not the literal class of all endpoints. Repaired ver
 byte-restored; endpoint NPZ hashes unchanged. Scope: basin behavior, NOT dynamics/infinite-volume/
 mass. Records: `noNull_behavioral_F_results.md` + `noNull_F_*.json` + `F_evidence/`.
 
-**Pending Charles:** audit of the F return; native-action dispatch §0/§1 review
-(`UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md`, DRAFT, arms not launched); canonization calls; next-push
-direction (theorem route / native-action arms / box-mask study / spin-isorotation).
+**Pending Charles:** audit of the F return; synchronized native-action process/framing review
+(`UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md` §0/§1, the founding-hierarchy fork, and cold files C0/C1;
+adversarially audited, arms **NOT launched**; see
+`UDT_NATIVE_ACTION_WORKSTATION_SYNC_AUDIT_2026-07-17.md`); canonization calls; next-push direction
+(theorem route / native-action arms / box-mask study / spin-isorotation).
 **Key commits:** da51ec4→1c2196c (spectrum cert), d131557 (inertia seal), 493d104 (G), 837d633
 (boundary-virial). **Records:** noNull_hess_h2fit_log.txt, noNull_schur_inertia_ALL.json,
 noNull_phaseG_mass_results.md, noNull_boundary_virial_results.md, noNull_virial_identity_derivation.md.

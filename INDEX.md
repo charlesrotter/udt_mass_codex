@@ -14,7 +14,13 @@ Solvers/tools: `noNull_energy.py` (corrected operator + **exact HVP** `hvp_exact
 `verify_noNull_boundary_virial.py` + `verify_virial_identity_cas.py` (boundary-virial).
 Dispatches: `UDT_H3_CORRECTED_G_THEN_F_SEQUENCING_DISPATCH.md` (F prereg = §9; F LOCKED) +
 `UDT_H3_BOUNDARY_VIRIAL_CLOSURE_BEFORE_F_DISPATCH.md` (done) +
-`UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md` (DRAFT awaiting Charles §0/§1 review).
+`UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md` (SYNCHRONIZED DRAFT awaiting Charles §0/§1, hierarchy,
+C0/C1 review; arms NOT launched) + `UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md` (C0) +
+`UDT_NATIVE_ACTION_COLD_PACKET.md` (C1). Synchronization evidence:
+`UDT_NATIVE_ACTION_WORKSTATION_SYNC_AUDIT_2026-07-17.md`; owner/foundation records are the root
+`UDT_RECIPROCAL_C_*`, `UDT_COMMON_SCALE_NEUTRALITY_*`, `UDT_S2_CARRIER_STATUS_*`,
+`UDT_XMAX_STATUS_*`, and `UDT_GLOBAL_BOOTSTRAP_*` files. Historical long-session material is
+quarantined at `archive/native_action_chat_2026-07-14_15/` for post-D0-D5 Stage II only.
 F (finite-slice basin behavior; 83 endpoints: 1 RETURNED + 58 OTHER at 128³, 24/24 RETURNED fine;
 single robust basin = STRONG LEAD, not literal all-endpoint class): `noNull_behavioral_F.py` +
 `verify_noNull_behavioral_F.py` + `noNull_behavioral_F_results.md` + `noNull_F_postreturn_audit.json` +

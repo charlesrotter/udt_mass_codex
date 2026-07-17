@@ -30,7 +30,7 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-17 — H3 PARTICLE-MASS arc COMPLETE THROUGH F: stability SETTLED (twice-verified) → G conditional mass readout → boundary-virial (BOX-STRESS LEAD) → audit patch → **F finite-slice characterization DONE (83 endpoints, no resolved basin exit; single robust basin = STRONG LEAD; verifier 51/51)**. All dispatched work returned; Charles's audits + native-action §0/§1 review pending.) ============
+## ============ CURRENT STATE (2026-07-17 — H3 PARTICLE-MASS arc COMPLETE THROUGH F: stability SETTLED (twice-verified) → G conditional mass readout → boundary-virial (BOX-STRESS LEAD) → audit patch → **F finite-slice characterization DONE (83 endpoints, no resolved basin exit; single robust basin = STRONG LEAD; verifier 51/51)**. All dispatched work returned; native-action packet synchronized and adversarially audited but arms NOT launched; Charles's audits + process/framing review pending.) ============
 
 **➤➤➤ TOPMOST LAYER (2026-07-16 — read this + the two result docs, then stop):**
 - **G (conditional mass readout on the corrected carrier) COMPLETE** — `noNull_phaseG_mass_results.md`
@@ -63,8 +63,9 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
   Endpoint hashes unchanged. Scope: relaxation/basin behavior in the L=6 frame — NOT dynamics,
   NOT infinite-volume, NOT a mass statement.
 - **⏳ ON CHARLES'S DESK:** (1) audit of the F return (+ the G / boundary-virial / audit-patch chain);
-  (2) **native-action dispatch review** (§0 process + §1 framing of
-  `UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md` — arms NOT launched); (3) any canonization (stability
+  (2) **synchronized native-action review** (§0 process + §1 framing + founding-hierarchy fork of
+  `UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md`, plus C0/C1; adversarial audit recorded in
+  `UDT_NATIVE_ACTION_WORKSTATION_SYNC_AUDIT_2026-07-17.md`; arms **NOT launched**); (3) any canonization (stability
   seal; basin characterization); (4) direction for the next push (candidates: boundary-layer theorem
   route / native-action arms / box-mask study / spin-isorotation on the certified carrier).
 - **Ops for a fresh session:** launch pattern = `setsid bash -c '… timeout … python3 …' & disown`

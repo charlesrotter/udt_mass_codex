@@ -16,6 +16,11 @@ live Stage-I foundation and not a physics or canon update.
 - The `verify_udt_*.py` scripts and captured `*_out.txt` files verify only the encoded algebra or
   consistency assertions. They do not certify premise completeness, uniqueness, physical adoption,
   boundary legality, carrier emergence, or canon status.
+- Stage-II precision for
+  `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`: its phrase “the unique additive group
+  coordinate” means an additive coordinate on the nontrivial one-dimensional group, unique only up
+  to nonzero multiplicative normalization, including orientation/sign. This annotation does not
+  rewrite the preserved historical bytes.
 
 ## Disclosure firewall
 

@@ -1,0 +1,2565 @@
+Script started on 2026-07-17 18:36:59-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+OpenAI Codex v0.144.5
+--------
+workdir: /tmp/udt_native_sync_audit.8UHf9X
+model: gpt-5.6-sol
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: medium
+reasoning summaries: none
+session id: 019f7239-d02e-7703-90cd-cbd528eae6e2
+--------
+user
+Act as a fresh hostile premise and status auditor. Read every one of the 13 files in this isolated directory completely. Do not use outside knowledge, browse, edit files, run derivations, or access any repository. Audit the synchronized native-action controller, cold-arm dispatch, and cold packet against the governing workstation sync dispatch and imported owner records. Determine: 1 whether prohibited historical native-action conclusions leak into Stage I; 2 whether every owner ruling is preserved at its exact strength; 3 whether action uniqueness is properly countermodel-gated; 4 whether S2, Xmax, density, G, or EH is misrepresented as derived; 5 whether the controller and cold-arm disclosure firewalls agree; 6 whether displayed algebra and every premise/status/provenance label are internally sound and conform to the packet taxonomy. Hunt concrete defects, especially silent premise promotion or qualitative weakening. Give an explicit VERIFIED, VERIFIED-WITH-CAVEATS, or REFUTED verdict. Treat any caveat that should be repaired before arm launch as a defect and give the minimal exact fix. This audit selects no physics conclusion.
+codex
+I’ll perform a closed-world, read-only audit: first inventory the 13 files, then read each completely and trace every conclusion, owner ruling, firewall, equation, and status/provenance label against the governing records. I will not modify anything or use external sources.
+exec
+/bin/bash -lc "pwd && rg --files -0 | xargs -0 -n1 printf '%s\\n' && find . -type f -printf '%p\\t%s bytes\\n' | sort" in /tmp/udt_native_sync_audit.8UHf9X
+ succeeded in 0ms:
+/tmp/udt_native_sync_audit.8UHf9X
+verify_udt_reciprocal_c_postulate.py
+UDT_NATIVE_ACTION_COLD_PACKET.md
+UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md
+verify_udt_reciprocal_c_postulate_out.txt
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md
+UDT_S2_CARRIER_STATUS_CLARIFICATION_2026-07-15.md
+UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md
+UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md
+UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md
+UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_VERIFY_DISPATCH.md
+./UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md	2886 bytes
+./UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md	2693 bytes
+./UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md	7431 bytes
+./UDT_NATIVE_ACTION_COLD_PACKET.md	13333 bytes
+./UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md	19283 bytes
+./UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md	6071 bytes
+./UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md	11418 bytes
+./UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md	5113 bytes
+./UDT_RECIPROCAL_C_FOUNDING_POSTULATE_VERIFY_DISPATCH.md	4278 bytes
+./UDT_S2_CARRIER_STATUS_CLARIFICATION_2026-07-15.md	2015 bytes
+./UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md	4134 bytes
+./verify_udt_reciprocal_c_postulate.py	6793 bytes
+./verify_udt_reciprocal_c_postulate_out.txt	1591 bytes
+
+codex
+The directory contains exactly 13 regular files: 11 Markdown records, one verifier script, and its captured output. I’m now reading them in full, with line numbers so any defect and minimal fix can be cited precisely.
+exec
+/bin/bash -lc 'for f in $(rg --files | sort); do wc -l "$f"; done' in /tmp/udt_native_sync_audit.8UHf9X
+ succeeded in 0ms:
+77 UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md
+60 UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md
+103 UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md
+267 UDT_NATIVE_ACTION_COLD_PACKET.md
+276 UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md
+122 UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md
+376 UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md
+162 UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md
+159 UDT_RECIPROCAL_C_FOUNDING_POSTULATE_VERIFY_DISPATCH.md
+52 UDT_S2_CARRIER_STATUS_CLARIFICATION_2026-07-15.md
+109 UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md
+162 verify_udt_reciprocal_c_postulate.py
+31 verify_udt_reciprocal_c_postulate_out.txt
+
+exec
+/bin/bash -lc "nl -ba 'UDT_NATIVE_ACTION_COLD_PACKET.md'" in /tmp/udt_native_sync_audit.8UHf9X
+ succeeded in 0ms:
+     1	# UDT NATIVE ACTION — STAGE-I COLD FOUNDATION PACKET
+     2
+     3	**Purpose.** This is the complete foundation packet for
+     4	`UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md`. It incorporates the owner rulings current through
+     5	2026-07-17 while deliberately withholding historical action/backreaction work, project preferences,
+     6	and target identities. Status changes labeled `FOUNDING` below are supplied authoritatively by the
+     7	governing workstation-synchronization ruling; older derivation records retain their derivation-time
+     8	“candidate” wording for provenance. The cold arm does not need or receive that external record.
+     9
+    10	## 1. FOUNDING LEDGER
+    11
+    12	### 1.1 Positional dilation
+    13
+    14	**FOUNDING — owner-stated, not to be re-derived or demoted:** positional dilation is a founding UDT
+    15	principle. Under the separately ledgered positional-relativity **POSIT** below, positional comparison
+    16	is physical and relational and no position is privileged. The arm's task is to determine what
+    17	further action, coupling, boundary, and charge structure follows, not to decide whether positional
+    18	dilation exists.
+    19
+    20	For the currently supplied positive local comparison formalization, the following additional
+    21	premises are used. They remain **POSIT / positional relativity unless separately owner-locked**:
+    22
+    23	1. **difference:** comparisons depend on relative positional depth rather than an absolute seat;
+    24	2. **composition:** comparisons compose consistently through an intermediate position;
+    25	3. **reversal:** reversing a comparison gives its inverse;
+    26	4. **nontriviality — OBSERVED or separate POSIT:** it is not derived from composition. The trivial
+    27	   representation remains a solution of composition and duality alone, but whether it is physically
+    28	   admissible under the owner-stated founding principle is an explicit framing fork for Charles.
+    29
+    30	### 1.2 Reciprocal-c Identity and UDT Reciprocity
+    31
+    32	**FOUNDING — owner-stated and synchronized by the governing dispatch:** `c` and `c^{-1}` are coequal
+    33	time-to-length and length-to-time conversion directions, not a one-way speed plus an arithmetic
+    34	afterthought.
+    35
+    36	**FOUNDING — synchronized by the governing dispatch:** the UDT Reciprocity Principle acts dually on
+    37	those conversion directions. For the dimension-matched temporal/radial coframe pair
+    38
+    39	\[
+    40	q=(c\,dt,dr)^T,
+    41	\qquad
+    42	P(\Delta)=\operatorname{diag}(u(\Delta),v(\Delta)),
+    43	\]
+    44
+    45	one faithful dual-pairing formalization is
+    46
+    47	\[
+    48	K=\begin{pmatrix}0&1\\1&0\end{pmatrix},
+    49	\qquad
+    50	P^T K P=K.
+    51	\]
+    52
+    53	This gives `uv=1`. The inverse relation is **DERIVED from the dual-action formulation**; the choice
+    54	to make positional action contragredient is the stated content of UDT Reciprocity and is not a
+    55	theorem of the number `c` alone. Ordinary covariance of the conversion isomorphism would instead
+    56	give `u=v`. That alternative is retained only as a logical-independence/circularity check on
+    57	Reciprocal-c alone; except for the trivial intersection, it is not an admissible countermodel to the
+    58	full synchronized ledger, where dual UDT Reciprocity is founding.
+    59
+    60	### 1.3 Common-Scale Neutrality
+    61
+    62	**FOUNDING — owner-locked:** a simultaneous local common rescaling of temporal and spatial measure
+    63	is calibration, not pre-material physics. The pre-scale local geometry is represented by
+    64
+    65	\[
+    66	[g]_{\rm CSN}=\{\Omega(x)^2g:\Omega(x)>0\}.
+    67	\]
+    68
+    69	Any positive diagonal time/radial calibration decomposes as
+    70
+    71	\[
+    72	\operatorname{diag}(u,v)
+    73	=\sqrt{uv}\,\operatorname{diag}
+    74	\!\left(e^{-\phi},e^{+\phi}\right),
+    75	\qquad
+    76	\phi=\tfrac12\ln(v/u).
+    77	\]
+    78
+    79	Common-Scale Neutrality declares the first factor calibrational; reciprocal positional depth is the
+    80	determinant-one second factor. A native pre-scale law must respect this neutrality, but this
+    81	statement does not select locality, derivative order, an action, a boundary term, or material scale.
+    82	No primitive local meter, second, mass scale, or gravitational normalization is supplied.
+    83	Dimensionful scales—including any normalization later identified as `G`—must emerge from solution,
+    84	boundary, global-closure, or matter data.
+    85
+    86	### 1.4 Explicit founding-hierarchy fork
+    87
+    88	Two wordings remain live and must not be silently collapsed:
+    89
+    90	- **FORK H1 — cofoundational reading:** positional dilation is the owner-stated founding principle;
+    91	  Reciprocal-c Identity and UDT Reciprocity are cofoundational structure that constrain how it acts.
+    92	- **FORK H2 — structural-downstream reading:** positional dilation remains founding, while the
+    93	  reciprocal-c derivation puts the *functional reciprocal metric form* downstream of the conversion
+    94	  identity, duality, and composition premises.
+    95
+    96	Neither wording permits demoting positional dilation to an accidental inference. If an action result
+    97	depends on choosing H1 or H2, retain both and return the framing choice to Charles.
+    98
+    99	## 2. DERIVED KINEMATIC CONTENT — AND ITS LIMIT
+   100
+   101	Under the explicit **POSIT** that relative depth is additive and represented by positive comparisons
+   102	that are continuous, measurable, monotone, or otherwise regular enough to exclude pathological
+   103	Cauchy solutions,
+   104
+   105	\[
+   106	P(\Delta_1+\Delta_2)=P(\Delta_1)P(\Delta_2)
+   107	\]
+   108
+   109	gives exponentials. Thus the exponential form is **DERIVED CONDITIONALLY** on composition and the
+   110	regularity premise. With `uv=1` and a **CHOSE** sign/unit convention for `phi`,
+   111
+   112	\[
+   113	P(\phi)=\operatorname{diag}(e^{-\phi},e^{+\phi}).
+   114	\]
+   115
+   116	After choosing a representative of the Common-Scale Neutrality class—for example the `Omega=1`
+   117	representative—and using a **POSIT / CHOSE local Lorentzian quadratic readout** in the dimension-matched
+   118	coframe, the reciprocal clock/parallel-direction block is
+   119
+   120	\[
+   121	g_{tt}=-e^{-2\phi}c^2,
+   122	\qquad
+   123	g_{\parallel\parallel}=e^{+2\phi},
+   124	\qquad
+   125	(-g_{tt}/c^2)g_{\parallel\parallel}=1.
+   126	\]
+   127
+   128	Identifying the reciprocal spatial slot with the `phi`-gradient direction is an explicit
+   129	**CONDITIONAL slot-identification premise** outside a gradient-adapted coframe. A static spherical
+   130	specialization makes that direction radial, but staticity, spherical symmetry, diagonality, and an
+   131	areal chart are not universal consequences.
+   132
+   133	The supplied owner locks do not themselves specify the following items. Stage I must determine
+   134	whether the **combined** ledger constrains or selects any of them, subject to the countermodel gate:
+   135
+   136	- the transverse spatial block or full time-live geometry;
+   137	- independent dynamical fields or the off-shell variation domain;
+   138	- an action, field equation, measure, locality class, or derivative order;
+   139	- the finite-cell boundary functional or all admissible boundary variations;
+   140	- a matter carrier, four-dimensional matter completion, or coupling weight;
+   141	- stress/source normalization, gravitational charge, mass, or an absolute scale.
+   142
+   143	The displayed representative identity is not invariant under a further common conformal rescaling;
+   144	the variation ledger must distinguish the equivalence class from its chosen representative. Any
+   145	uniqueness or underdetermination claim must attempt a distinct admissible countermodel under the same
+   146	complete frozen ledger.
+   147
+   148	## 3. FINITE-CELL CANON
+   149
+   150	UDT's native global setting is a finite mirrored cell, not an asymptotically flat spatial infinity.
+   151	Accordingly:
+   152
+   153	- no spatial-infinity condition or asymptotic charge construction may enter as native input;
+   154	- a private wall condition may not be selected merely to hold a configuration together;
+   155	- **FOUNDING / canonical input—supplied for the static `phi` sector** (repository provenance: `CANON.md`): the spatial-depth
+   156	  mirror makes `phi` odd at the seal, so its value vanishes there while its normal derivative is
+   157	  free. This packet reports that binding condition but does not independently re-establish its
+   158	  canonization history;
+   159	- that parity statement does not select the action's boundary functional, the boundary data for
+   160	  every other field, or a conserved charge;
+   161	- a local large-cell or weak-field readout is allowed only after its finite-cell relation and error
+   162	  are controlled.
+   163
+   164	## 4. MATTER-CARRIER STATUS AND CONDITIONAL SURVIVOR
+   165
+   166	**HISTORICAL WORKING POSIT, REOPENED:** the round `S^2` carrier is not fixed as fundamental UDT
+   167	content. It may emerge from deeper positional dynamics, remain independently needed, or be replaced
+   168	by another carrier. The arm must keep a carrier-agnostic branch alive.
+   169
+   170	The existing particle calculation remains a **CONDITIONAL SURVIVOR** within the chosen round-target
+   171	model
+   172
+   173	\[
+   174	\mathbf n:\mathbb R^3\to S^2,
+   175	\]
+   176
+   177	with flat-static functional
+   178
+   179	\[
+   180	E[\mathbf n]
+   181	=\int d^3x\left[
+   182	\frac{\xi}{2}\,\partial_i\mathbf n\!\cdot\!\partial_i\mathbf n
+   183	+\frac{\kappa_4}{4}F_{ij}F_{ij}
+   184	\right],
+   185	\qquad
+   186	F_{ij}=\mathbf n\!\cdot\!(\partial_i\mathbf n\times\partial_j\mathbf n).
+   187	\]
+   188
+   189	Within that model, the target and carrier choice are **CHOSE / HISTORICAL WORKING**, the displayed
+   190	forms are **CONDITIONAL / CHOSE historical model content—supplied**, and the absolute coefficients are
+   191	**FREE**. Stage I may audit their provenance but must not infer them from the founding kinematics.
+   192	Existing static results do not establish carrier uniqueness or emergence.
+   193
+   194	This three-dimensional functional supplies no unique time-derivative sector, spacetime contractions,
+   195	measure dependence, lapse/shift response, stress variation, backreaction rule, or mass identity.
+   196	Those are derivation questions or explicit underdeterminations. A result on this survivor branch must
+   197	remain conditional and may not eliminate alternative carriers.
+   198
+   199	## 5. UNIVERSAL UNATTAINABLE SCALE
+   200
+   201	**WORKING POSIT:** one universal unattainable `X_max` exists. Its origin and value remain **OPEN**:
+   202	it may be primitive, or it may be a global output of the realized universe involving `c`, total
+   203	mass, a normalization later identified as `G`, and additional native closure data. No such
+   204	normalization is yet natively derived or numerically supplied.
+   205
+   206	- Do not insert a Schwarzschild coefficient or any other imported numerical factor.
+   207	- Do not treat dimensional compatibility as a derivation.
+   208	- Do not make `X_max` object-specific, locally fitted, or locally varying to close an equation.
+   209	- A global-output proposal must avoid circular mass definitions and must supply enough independent
+   210	  closure conditions to determine all claimed global constants.
+   211
+   212	## 6. GLOBAL BOOTSTRAP AND MATTER WINDOW
+   213
+   214	**OWNER-STATED WORKING PRINCIPLE:** the realized universe is a self-consistent global solution, and
+   215	matter-bearing global solutions occupy an extremely narrow window in total density—qualitatively,
+   216	relative width $\ll 1$—with no center, width, or density value supplied.
+   217
+   218	- “Total” includes every ledger sector supplied by the eventual theory, not localized visible matter
+   219	  alone.
+   220	- Total density means that full-ledger mass divided by the proper volume of the complete realized
+   221	  spatial cell or slice.
+   222	- The full time-live proper volume and physical boundary are not yet derived.
+   223	- Recycling among ledger sectors is redistribution and does not change total density when total mass
+   224	  and proper volume are fixed.
+   225	- No density value or numerical width is supplied. Its center and width must emerge.
+   226	- No global average may be inserted directly into a local action as a fitted coupling, hard cutoff,
+   227	  or effective correction.
+   228	- The primary reading constrains complete matter-bearing global solutions. The stronger claim that
+   229	  no local carrier solution exists outside the window is a separate **OPEN fork**, not an inference.
+   230
+   231	This principle is a global selection requirement, not a ready-made local field equation, action, or
+   232	carrier.
+   233
+   234	## 7. REQUIRED PREMISE LEDGER
+   235
+   236	Before deriving, each arm must list at least:
+   237
+   238	- which founding-hierarchy fork it uses and whether the result depends on that wording;
+   239	- independent fields and the full off-shell configuration space;
+   240	- how reciprocal kinematics and common-scale equivalence enter the variation domain;
+   241	- locality, derivative order, covariance, foliation, parity, and time-reversal premises;
+   242	- measure, orientation, finite-cell boundary functional, and allowed boundary variations;
+   243	- carrier-agnostic versus conditional round-`S^2` branches;
+   244	- every four-dimensional completion of the static survivor functional;
+   245	- sign and normalization conventions;
+   246	- the status and role of `X_max` and global-bootstrap data;
+   247	- the finite-cell charge/mass definition and any controlled local readout.
+   248
+   249	Tag every entry **FOUNDING / DERIVED / CHOSE / WORKING / OPEN / CONDITIONAL / POSIT / OBSERVED /
+   250	FREE / HABIT**, with a citation or explicit statement of non-derivation. A theorem may classify a
+   251	chosen premise set; it cannot derive those premises from kinematics.
+   252
+   253	## 8. MATERIAL WITHHELD UNTIL STAGE II
+   254
+   255	Stage I excludes every historical proposed action, action-selection result, carrier-coupling result,
+   256	source equation, charge or mass identity, radial-profile result, target value, and superseded
+   257	mechanism. The cold packet neither confirms nor denies that such work exists.
+   258
+   259	After D0-D5 are frozen and hashed, the driver may disclose an explicitly enumerated historical
+   260	packet for a separate challenge addendum. Cold conclusions may then be defended, revised for a named
+   261	premise or error, or shown underdetermined; they may not be silently rewritten to match history.
+   262
+   263	## 9. DATA BLINDNESS
+   264
+   265	No particle masses, observational target values, density values, or tuning targets are available in
+   266	either stage. Agreement with a desired number is not evidence that an action, coupling, carrier, or
+   267	global closure is derived.
+
+exec
+/bin/bash -lc "nl -ba 'UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md'" in /tmp/udt_native_sync_audit.8UHf9X
+exec
+/bin/bash -lc "nl -ba 'UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md'" in /tmp/udt_native_sync_audit.8UHf9X
+ succeeded in 0ms:
+     1	# DISPATCH — UDT NATIVE ACTION, STAGE-I COLD DERIVATION
+     2
+     3	**Status:** Stage-I derivation prompt. Work only from this file and
+     4	`UDT_NATIVE_ACTION_COLD_PACKET.md`.
+     5
+     6	**Founding status:** under the governing workstation-synchronization ruling, positional dilation
+     7	remains a **FOUNDING UDT PRINCIPLE**; Reciprocal-c Identity and the dual action of UDT Reciprocity are
+     8	`FOUNDING`; and Common-Scale Neutrality is owner-locked `FOUNDING`. Older derivation-time “candidate”
+     9	labels are provenance, not the synchronized status. Do not re-derive, weaken, or silently reorder
+    10	these statements. Determine what additional action, coupling, boundary, scale, carrier, and charge
+    11	structure follows—and what remains free.
+    12
+    13	## 0. ISOLATION CONTRACT
+    14
+    15	- You are one of two independent cold derivation arms. Do not seek or infer the other arm's work.
+    16	- Do not search the repository or use remembered UDT action proposals, particle-mass derivations,
+    17	  project preferences, or target identities.
+    18	- `UDT_NATIVE_ACTION_COLD_PACKET.md` is the complete foundation. If another project document is
+    19	  exposed accidentally, name the exposure and stop; the driver will restart the arm cold.
+    20	- Do not infer from omissions that a historical result exists or that the project prefers a branch.
+    21	- No particle masses, observational targets, or tunable target numbers may be used.
+    22	- Complete D0–D5 below. The driver will freeze and hash the result before any historical material is
+    23	  disclosed.
+    24
+    25	## 1. QUESTIONS
+    26
+    27	Given the frozen foundation, determine what the synchronized founding ledger **FORCES**, identify
+    28	which premise does the forcing, and state what remains unforced for:
+    29
+    30	- **Q1 — dynamical completion.** Does the kinematic metric relation select an action principle? If
+    31	  so, identify the independent fields, allowed invariants, measure, derivative order, and boundary
+    32	  functional. Test every uniqueness claim by attempting a distinct admissible countermodel.
+    33	- **Q2 — carrier census, four-dimensional completion, and coupling.** Keep both a carrier-agnostic
+    34	  branch and the conditional surviving round-$S^2$, $E_2+E_4$ branch. The supplied expression is a
+    35	  static spatial energy, not yet a spacetime matter action. Determine whether the frozen foundation
+    36	  selects a carrier or fixes time derivatives, spacetime contractions, measure, metric dependence,
+    37	  and source variation. Retain every unforced carrier, completion, or weight as a live branch.
+    38	- **Q3 — finite-cell charge and controlled weak-field readout.** Derive the native finite-cell
+    39	  definition of gravitational charge/mass, its boundary term, and its exact static equation if they
+    40	  are determined. Only after the exact nonlinear equations are fixed may a controlled weak-field or
+    41	  local-large-cell expansion be made; state its order, error control, and finite-cell meaning.
+    42
+    43	Unique action, allowed family, and underdetermination are symmetric full-credit outcomes. The fork
+    44	map is the deliverable. Agreement with or departure from a standard theory is not a success metric.
+    45
+    46	## 2. BINDING RESEARCH RULES
+    47
+    48	1. The metric is the theory. Uncover what it is doing; do not import or create a mechanism.
+    49	2. Every term, coupling, source, sign, weight, measure, boundary condition, and normalization must
+    50	   trace explicitly to the UDT founding ledger and chosen carrier branch or be labeled with its
+    51	   non-derived status. The historical $S^2$ survivor may not be treated as uniquely selected.
+    52	3. For every branch on which an operator is derived or explicitly chosen, establish its full
+    53	   nonlinear covariant form first. A controlled expansion is permitted only with its parameter,
+    54	   retained order, remainder/error control, and domain of validity stated. The foundation may still
+    55	   leave operator existence, covariance, or form underdetermined.
+    56	4. Standard theories and classification theorems are reference/mathematical tools only. Their
+    57	   premises must enter the ledger; their standard form is never the default UDT branch.
+    58	5. Do not use ΛCDM, Standard Model physics, quantum mechanics, QED, GR field equations, fluids,
+    59	   Q-balls, boson stars, or textbook mechanisms as UDT derivations. Standard theories remain
+    60	   comparison/readout only.
+    61	6. No fitting, fudge factors, hard physical cutoffs, effective corrections, or invented couplings.
+    62	   Numerical solver controls and consistent discretizations are allowed only when they leave the
+    63	   tested continuum functional unchanged.
+    64	7. Borrowing a sound analytic or numerical method is allowed; silently replacing the UDT equations
+    65	   with a standard theory's equations is not.
+    66	8. MAP before DERIVE: first state the whole frame, premise ledger, and fork map. Tag each premise
+    67	   **FOUNDING / DERIVED / CHOSE / WORKING / OPEN / CONDITIONAL / POSIT / OBSERVED / FREE / HABIT**,
+    68	   with a citation to the cold packet or an explicit statement of non-derivation.
+    69	9. Declare the full UDT configuration space and how the reciprocal kinematic relation enters it.
+    70	   Vary before optional static, spherical, diagonal, or areal reduction. If a reduced action is also
+    71	   varied, prove equivalence or retain a separate conditional branch.
+    72	10. The static $E_2+E_4$ energy is not a spacetime action. Do not infer stress, lapse dependence,
+    73	   backreaction, or mass until a four-dimensional completion and metric variation are derived or
+    74	   explicitly labeled CHOSE.
+    75	11. At every choice point retain all live branches. If the foundation does not select among them,
+    76	    the result is UNDERDETERMINED.
+    77	12. A uniqueness claim must survive a countermodel attempt: construct a distinct local/nonlocal,
+    78	    measure, boundary, derivative-order, or carrier-completion branch whenever the frozen premises
+    79	    allow one. One valid alternative defeats UNIQUE/FORCED.
+    80	13. Keep the owner rulings distinct: positional dilation is not demoted by a structural derivation of
+    81	    its reciprocal functional form; common scale is calibrational; $S^2$ is reopened; universal
+    82	    unattainable $X_{max}$ has OPEN origin/value; and the global-bootstrap/extremely-narrow-density
+    83	    principle (qualitatively, relative width $\ll 1$) supplies neither a window center, width, density
+    84	    number, nor a fitted local coupling.
+    85
+    86	## 3. REQUIRED OUTPUTS
+    87
+    88	- **D0 — provenance:** model/session identifier, SHA-256 of this dispatch and the cold packet,
+    89	  exposure declaration, and completion timestamp.
+    90	- **D1 — MAP:** whole frame, complete premise ledger, explicit founding-hierarchy wording fork,
+    91	  independent fields, variation domain/order, carrier census, global-scale/bootstrap status, and
+    92	  fork map before derivation.
+    93	- **D2 — derivation:** every step marked FORCED-BY(citation) or CHOSEN(alternatives retained); exact
+    94	  nonlinear equations before any controlled approximation.
+    95	- **D3 — algebra checks:** standalone runnable SymPy scripts for every load-bearing algebraic step.
+    96	  For each script, state exactly what it verifies and what it cannot verify. A passing script does
+    97	  not validate premises, ansatz completeness, boundary legality, or uniqueness.
+    98	- **D4 — answers:** Q1/Q2/Q3 classified claim-by-claim as FORCED / ALLOWED-FAMILY /
+    99	  UNDERDETERMINED, with the countermodel result and what would close every open fork.
+   100	- **D5 — self-audit:** check every rule in §2 explicitly and name all near-smuggles, failed
+   101	  derivations, and unresolved operator or boundary questions.
+   102
+   103	Do not bank a physics conclusion. Return the frozen cold package to the driver.
+
+ succeeded in 0ms:
+     1	# UDT Native-Action Workstation Synchronization Dispatch
+     2
+     3	**Date:** 2026-07-17
+     4	**Mode:** repository synchronization and premise reconciliation only
+     5	**Stop condition:** do not launch Arm A, Arm B, Arm C, a GPU run, or a new derivation
+     6
+     7	## 0. Purpose
+     8
+     9	Import the surviving native-action work from the long-form ChatGPT derivation session without
+    10	treating superseded intermediate files as the live foundation. The current cold packet predates
+    11	several later owner rulings and is therefore **not launch-ready until reconciled**.
+    12
+    13	Preserve all unrelated dirty and untracked workstation files. `LIVE.md` remains authoritative for
+    14	the research frontier; this dispatch advances no physics conclusion.
+    15
+    16	## 1. Startup
+    17
+    18	Run exactly:
+    19
+    20	```bash
+    21	git checkout grok
+    22	git fetch origin
+    23	git pull --ff-only origin grok
+    24	git status --short --branch
+    25	git log -8 --oneline
+    26	```
+    27
+    28	Read `LIVE.md`, `HANDOFF.md`, `stability_branch_follow_256_DECISION.md`, and the exact incoming files
+    29	before interpreting or editing anything.
+    30
+    31	## 2. Active incoming set
+    32
+    33	The transfer manifest supplies these active files:
+    34
+    35	1. `UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md` — revised controller/Arm-C dispatch;
+    36	2. `UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md` — isolated Stage-I arm prompt;
+    37	3. `UDT_NATIVE_ACTION_COLD_PACKET.md` — pre-reconciliation cold foundation draft;
+    38	4. `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md`;
+    39	5. `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`;
+    40	6. `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_VERIFY_DISPATCH.md`;
+    41	7. `verify_udt_reciprocal_c_postulate.py`;
+    42	8. `verify_udt_reciprocal_c_postulate_out.txt`;
+    43	9. `UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md`;
+    44	10. `UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md`;
+    45	11. `UDT_S2_CARRIER_STATUS_CLARIFICATION_2026-07-15.md`;
+    46	12. `UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md`.
+    47
+    48	Verify every incoming SHA-256 against `UDT_WORKSTATION_TRANSFER_MANIFEST_2026-07-17.md` before use.
+    49
+    50	## 3. Required reconciliation
+    51
+    52	Edit the controller, cold-arm prompt, and cold packet in place so they carry the later owner rulings
+    53	without leaking any historical action conclusion into Stage I:
+    54
+    55	- **FOUNDING:** Reciprocal-c Identity — `c` and `c^{-1}` are coequal time/length conversion
+    56	  directions, not merely a speed and an arithmetic afterthought.
+    57	- **FOUNDING:** the UDT Reciprocity Principle acts dually on those conversion directions.
+    58	- **FOUNDING, locked:** Common-Scale Neutrality — a simultaneous local common rescaling of time and
+    59	  length is calibration, not pre-material physics.
+    60	- **FOUNDING owner statement retained:** positional dilation is a founding UDT principle. The new
+    61	  reciprocal-c derivation may put the *functional reciprocal metric form* downstream without silently
+    62	  demoting the owner-stated principle itself. If the hierarchy needs sharper wording, return that as
+    63	  an explicit framing fork for Charles.
+    64	- **HISTORICAL WORKING POSIT, REOPENED:** the `S^2` carrier may emerge, remain independently needed,
+    65	  or be replaced. The existing H3 results remain conditional on the chosen `S^2`, round-target,
+    66	  `L2+L4` model.
+    67	- **WORKING POSIT:** one universal unattainable `X_max` exists; whether it is primitive or a global
+    68	  output such as a function of `c`, total mass, and `G` remains OPEN. Insert no Schwarzschild factor.
+    69	- **OWNER-STATED WORKING PRINCIPLE:** the universe is a self-consistent global bootstrap and
+    70	  matter-bearing global solutions occupy a narrow total-density window. Insert no density value,
+    71	  hard cutoff, or fitted local coupling.
+    72
+    73	The cold packet must clearly distinguish what these premises force from what remains open. In
+    74	particular it must not disclose the conditional `C^2` action branch, WR-L/scaffold findings, carrier
+    75	coupling results, H3 lapse identity, target mass identity, or any desired conclusion to Stage-I arms.
+    76
+    77	## 4. Quarantined audit archive
+    78
+    79	The transfer archive also contains `stage2_audit_archive/`. These are historical derivation maps,
+    80	results, verifier prompts, scripts, and outputs from the long session. They include conditional
+    81	branches and superseded explorations.
+    82
+    83	- Preserve them under `archive/native_action_chat_2026-07-14_15/` with their original filenames.
+    84	- Do not put them in the Stage-I arm context and do not allow the cold arms repository access.
+    85	- Do not promote them into `LIVE.md` or `CANON.md` merely because a symbolic verifier passed.
+    86	- They may be used only after D0-D5 are frozen, as explicitly labeled Stage-II challenge evidence.
+    87	- Add a short archive README distinguishing owner rulings, surviving conditional results,
+    88	  superseded explorations, and algebra-only verification.
+    89
+    90	## 5. Process audit
+    91
+    92	Before banking the synchronized packet, run a zero-context adversarial review that receives only the
+    93	three reconciled controller/cold files plus the owner/foundation records. Ask it to find:
+    94
+    95	1. any historical action conclusion leaked into the cold packet;
+    96	2. any owner ruling silently weakened, strengthened, or omitted;
+    97	3. any claim that the metric kinematics uniquely select an action without a countermodel gate;
+    98	4. any treatment of `S^2`, `X_max`, a density value, `G`, or EH as already derived;
+    99	5. any inconsistency between the controller disclosure firewall and the cold-arm prompt.
+   100
+   101	Record its exact input hashes and full output. Resolve concrete defects, but do not let the reviewer
+   102	choose physics or canonize premises.
+   103
+   104	## 6. Commit and return
+   105
+   106	Commit in two logical groups:
+   107
+   108	1. imported owner/foundation records and quarantined audit archive;
+   109	2. reconciled controller/cold packet plus adversarial synchronization audit.
+   110
+   111	Narrowly update `INDEX.md` and the pending native-action pointer in `HANDOFF.md`; update `LIVE.md`
+   112	only if needed to say the packet is synchronized and still awaiting Charles's process/framing review.
+   113	Do not edit `CANON.md`.
+   114
+   115	Return and stop with:
+   116
+   117	- exact imported paths and SHA-256 verification;
+   118	- the reconciled premise ledger in lay language;
+   119	- every wording fork requiring Charles;
+   120	- adversarial audit verdict and full path;
+   121	- commits, status, and log;
+   122	- confirmation that no derivation arm or computation was launched.
+
+exec
+/bin/bash -lc "nl -ba 'UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md'" in /tmp/udt_native_sync_audit.8UHf9X
+ succeeded in 0ms:
+     1	# DISPATCH — NATIVE GRAVITATIONAL ACTION & BACKREACTION RULE (SYNCHRONIZED DRAFT)
+     2
+     3	**Audience:** driver/controller and Arm C. **Do not supply this file to either Stage-I cold arm.**
+     4
+     5	**Purpose.** Starting from the synchronized founding ledger—owner-stated positional dilation,
+     6	Reciprocal-c Identity, dual UDT Reciprocity, and owner-locked Common-Scale Neutrality—determine
+     7	natively what further structure it forces for a gravitational action and matter backreaction rule,
+     8	or establish honestly that it underdetermines them. The task is not to re-derive, weaken, demote, or
+     9	silently reorder the founding statements. The completed particle-lane evidence remains scoped and
+    10	conditional where stamped; this packet advances no mass, action, or carrier conclusion. The
+    11	`FOUNDING` status for Reciprocal-c and dual Reciprocity is directed by
+    12	`UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md` §3; older imported “candidate” wording remains
+    13	visible as derivation-time provenance.
+    14
+    15	**Status: SYNCHRONIZED DRAFT. ARMS NOT LAUNCHED. Charles reviews the PROCESS and founding hierarchy
+    16	before dispatch.**
+    17
+    18	---
+    19
+    20	## 0. PROCESS ARCHITECTURE (structural safeguards — the frame-catching lives HERE)
+    21
+    22	The project owner cannot referee the math; the process must catch what he can't:
+    23
+    24	- **Two-stage disclosure firewall.** In Stage I, arms A and B receive ONLY
+    25	  `UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md` and `UDT_NATIVE_ACTION_COLD_PACKET.md`. They do not
+    26	  receive this controller dispatch, prior action conclusions, the EH-conditional H3 derivation, a
+    27	  desired mass identity, LIVE/HANDOFF, or project leans. Each arm
+    28	  completes D0–D5; the driver then freezes and hashes its complete Stage-I output before disclosing
+    29	  anything else. In Stage II, the historical/challenge packet in §6 is disclosed and each arm writes
+    30	  a separately labeled addendum. It may revise a conclusion only by naming the new premise or error;
+    31	  the frozen cold derivation remains visible.
+    32	- **Arm A and Arm B — independent derivation.** Two separate LLM sessions (different model families
+    33	  if available), with no shared conversation and no knowledge of each other. Each derives cold in
+    34	  Stage I and challenges its result independently in Stage II.
+    35	- **Arm C — adversarial refutation.** A third session receives the complete record specified in §6. Its
+    36	  ONLY job is refutation: hunt (i) smuggled premises (a value/BC/weight assumed without derivation),
+    37	  (ii) unforced choices presented as forced, (iii) circularity (assuming EH-form structure while
+    38	  "deriving" it — the classic failure), (iv) GR-form imports (trigger #6: "folds away / reduces to the
+    39	  standard case" steps are the prime suspects), (v) mined SUPERSEDED documents (Stage-II census).
+    40	  Arm C must also attempt the strongest COUNTER-derivation it can construct for each arm conclusion.
+    41	- **CAS verification.** Every load-bearing algebraic step in any arm's derivation must ship as a
+    42	  runnable sympy script. The driver re-runs all scripts; a step without a passing script is a CLAIM,
+    43	  not a result. A passing script certifies the encoded algebra only — not the completeness of the
+    44	  ansatz, validity of a premise, legality of a boundary variation, or uniqueness of a continuum
+    45	  theory.
+    46	- **Convergence rule.** A conclusion is a CANDIDATE only where arms A and B independently agree AND
+    47	  the claim survives arm C. Disagreements are not adjudicated by any LLM: they come back to Charles
+    48	  as FORKS, translated to lay language by the driver (what each branch claims, what it assumes, what
+    49	  would decide it).
+    50	- **Nothing banks from this dispatch alone.** Candidates then get the standard house treatment: fresh
+    51	  blind verification of the load-bearing step + Charles's sign-off. Only then does the EH-conditional
+    52	  label resolve.
+    53	- **Countermodel gate.** A claim that positional dilation uniquely forces an action, measure,
+    54	  coupling, boundary term, or mass rule is not accepted until the arms and Arm C try to construct a
+    55	  distinct admissible theory satisfying the same frozen foundation. One valid countermodel changes
+    56	  UNIQUE/FORCED to ALLOWED-FAMILY or UNDERDETERMINED.
+    57	- **Variation-order gate.** Every result must state whether the full fields were varied before a
+    58	  symmetry/static reduction was imposed, or a reduced action was varied directly. It must also state
+    59	  how the kinematic reciprocal constraint enters the variation domain. Agreement of distinct routes
+    60	  must be proved; otherwise they remain separate branches.
+    61
+    62	## 1. THE QUESTION (framed to observe, not target)
+    63
+    64	Given the frozen foundation in §2, determine what the **synchronized founding ledger** FORCES—and
+    65	which ingredient does the forcing—and what it does not force for:
+    66
+    67	- **Q1 — dynamical completion.** Does the kinematic metric relation select an action principle at
+    68	  all? If so, identify the independent fields, allowed invariants, measure, derivative order, and
+    69	  boundary functional. Test uniqueness by counterexample. Einstein–Hilbert and Lovelock structures
+    70	  may be compared or classified only after their premises are entered in the ledger; no standard
+    71	  action is the default branch.
+    72	- **Q2 — four-dimensional carrier completion and coupling.** The supplied $E_2+E_4$ expression is a
+    73	  static spatial energy, not yet a spacetime matter action. Determine whether positional dilation
+    74	  fixes its time-derivative sector, spacetime contractions, measure, metric dependence, and source
+    75	  variation. Any completion or exponential-of-φ weight not forced by the postulate must remain a
+    76	  live CHOSE branch.
+    77	- **Q3 — finite-cell charge and controlled weak-field readout.** Derive the native finite-cell
+    78	  definition of gravitational charge/mass, its boundary term, and its exact static equation if those
+    79	  are determined. Only after the exact nonlinear equations are fixed may a controlled weak-field or
+    80	  local large-cell expansion be made. State its error/order and its relation to — not identification
+    81	  with — any spatial-infinity Poisson/flux readout.
+    82
+    83	**Acceptable outcomes are symmetric:** unique action, allowed family, or underdetermination are each
+    84	full-credit outcomes if the premise ledger and countermodel test support them. Matching GR is not
+    85	success; departing from GR is not success; the fork map is the deliverable.
+    86
+    87	**Named Stage-II challenge for Q2/Q3 — the carrier-covariance route (each arm must attempt OR refute
+    88	it only after D0-D5 freeze):**
+    89	the STATIC weak-field readout may need LESS than the full Q1 answer. It requires only (i) the dilation
+    90	field's own sourced equation—reported in A2 as a historical native derivation candidate and subject
+    91	to its premise/status audit—and (ii) the coupling
+    92	weight by which the carrier's energy enters as that source. Attempt to derive (ii) from the CARRIER
+    93	side on the conditional survivor branch: demand the historical carrier functional (attachment A3)
+    94	behave consistently under position-
+    95	dependent dilation (covariance of its kinetic/quartic terms under the derived metric), and determine
+    96	whether that consistency FORCES the weight. If it does, the static mass readout goes native ahead of
+    97	the full Q1 resolution (Q1 then remains open but non-blocking for the static mass — say so
+    98	explicitly). ⚠ Scar warning: this exact terrain produced the project's oldest smuggle — an e^{2φ}
+    99	matter weight that was assumed-as-natural, not derived (census, §4). Any weight that appears "by
+   100	covariance" must be shown FORCED step by step; "the natural choice" is a HABIT tag, not a derivation.
+   101
+   102	**Mandatory Stage-II consistency test for ANY surviving candidate rule (never disclose before the
+   103	arm's D0-D5 package is frozen):** in D6 each arm must predict three distinct statements rather than
+   104	silently identifying them:
+   105
+   106	1. the source/lapse mass rule (under the EH-conditional premise, \(M_N^{(0)}=2E_4\));
+   107	2. the finite-domain carrier virial/boundary relation
+   108	   \(E_4-E_2=B_{\partial\Omega}+W_{\rm res}\), hence
+   109	   \(M_N^{(0)}=E_{\rm carrier}+B_{\partial\Omega}+W_{\rm res}\);
+   110	3. the controlled limit, if any, in which the boundary and residual terms vanish.
+   111
+   112	For an exact critical point \(W_{\rm res}=0\); for the saved numerical carrier it is retained and
+   113	reported. The corrected \(L=6\) continuum audit has a persistent virial gap of approximately −2.7%,
+   114	so \(2E_4=E_2+E_4\) is not a current finite-box identity. The boundary-stress explanation is a
+   115	STRONG LEAD; the local surface theorem and infinite-volume closure remain OPEN. The old
+   116	\(M_N=2E_4=E_2+E_4\) agreement to 0.05% is retained only as **SUPERSEDED centered-operator
+   117	provenance**, never as current evidence or a pass criterion. A candidate that cannot be run through
+   118	all three current tests is incomplete. The tests are DATA-BLIND (they relate internal energy pieces;
+   119	no observational numbers enter).
+   120
+   121	## 2. FOUNDATION AND DISCLOSURE BOUNDARY
+   122
+   123	### Stage I — cold derivation
+   124
+   125	The entire admissible foundation is `UDT_NATIVE_ACTION_COLD_PACKET.md`. In particular:
+   126
+   127	- positional dilation remains an owner-stated **FOUNDING PRINCIPLE** and is not demoted if the
+   128	  reciprocal functional metric form is placed downstream;
+   129	- Reciprocal-c Identity and dual UDT Reciprocity are founding; their pairing algebra constrains the
+   130	  determinant-one comparison structure but does not select an action;
+   131	- Common-Scale Neutrality is owner-locked founding content: common local scale is calibration, not
+   132	  pre-material physics;
+   133	- the exact hierarchy wording between founding dilation and the reciprocal-c structural derivation
+   134	  remains an explicit fork for Charles wherever it affects a conclusion;
+   135	- the reciprocal clock/gradient-direction metric relation and finite-cell canon are available with
+   136	  their stated scope and named conditional slot identification;
+   137	- the $S^2$ carrier is a historical working posit now reopened; its flat-static $E_2+E_4$ functional
+   138	  is a conditional survivor branch, not the uniquely selected carrier or a four-dimensional action;
+   139	- one universal unattainable $X_{max}$ is a working posit, while primitive-versus-global origin and
+   140	  value remain open; no Schwarzschild coefficient is supplied;
+   141	- global bootstrap and an extremely narrow matter-bearing total-density window—qualitatively,
+   142	  relative width $\ll 1$—are owner-stated working principles, with no window center, width, density
+   143	  number, local cutoff, or fitted coupling supplied;
+   144	- GR/EH may be used as a reference or mathematical comparison only;
+   145	- no earlier UDT action result, H3 lapse/mass identity, project preference, or target number is
+   146	  available.
+   147
+   148	Everything else must be derived or ledgered as FOUNDING / DERIVED / CHOSE / WORKING / OPEN /
+   149	CONDITIONAL / POSIT / OBSERVED / FREE / HABIT.
+   150
+   151	### Stage II — historical challenge
+   152
+   153	Only after each cold D0–D5 package is frozen and hashed does the driver disclose the §6 historical
+   154	packet. The arm then audits its own cold derivation against that record in a separate addendum. Prior
+   155	work is evidence to check, not authority to inherit.
+   156
+   157	## 3. BINDING RULES (C0 carries the cold-arm form; enforce the same substance)
+   158
+   159	1. *Principle 1:* "Uncover what the metric is doing. Do not import or create mechanisms." Every term
+   160	   must be derived from the principle, never posited because it would help.
+   161	2. *Principle 2:* For every branch on which an operator is derived or explicitly chosen, establish
+   162	   its full nonlinear covariant form first. A weak-field, local-large-cell, or other controlled
+   163	   expansion may then be a stated result only when its expansion parameter, retained order,
+   164	   remainder/error control, and domain of validity are explicit. It may never replace the exact
+   165	   theory while being presented as its derivation; the foundation may still leave operator
+   166	   existence, covariance, or form underdetermined.
+   167	3. *Principle 7 / trigger #6:* Derive UDT's equations NATIVELY; never default to the parent theory's
+   168	   (GR's) standard form. Every "this term folds away / reduces to the standard case" step is the prime
+   169	   suspect for smuggling GR back in — show the term's fate from the positional-dilation operator
+   170	   natively.
+   171	4. *Allowed lane (non-droppable, verbatim):* "These triggers police the SMUGGLE OF PHYSICS, never the
+   172	   BORROWING OF METHOD. CATEGORY-A (conditioning / numerical technique / *how* we solve) is ALWAYS
+   173	   GREEN and only needs a soundness/convergence check: borrowing JFNK/Newton-Krylov, continuation/
+   174	   homotopy, spectral/collocation, preconditioners, junction-condition/DtN/Calderón & geon formalism,
+   175	   machine-precision Taylor replacement — and USING GR AS A REFERENCE/LIMIT (flat/Schwarzschild/
+   176	   de Sitter anchors, contrasting to see where UDT departs). A technique changes HOW we solve the UDT
+   177	   equations, not the physics: it is NOT a 'mechanism/term/coupling' and need NOT be 'derived from
+   178	   the metric'; only two duties — apply it to the UDT equations (don't silently swap in GR's), and
+   179	   soundness-check it. CATEGORY-B (a change to the PHYSICS — a mechanism, coupling, equation-form,
+   180	   source, or a structure-holding BC) is gated. Default for a real technique or a GR-as-reference
+   181	   comparison is GREEN; progress is the point."
+   182	5. *MAP before DERIVE:* each arm first delivers a MAP — the frame whole, the premise ledger (every
+   183	   value/BC/sign/weight it would be choosing, each tagged **FOUNDING / DERIVED / CHOSE / WORKING /
+   184	   OPEN / CONDITIONAL / POSIT / OBSERVED / FREE / HABIT**, with citation), the fork map — BEFORE any
+   185	   derivation. Derivation follows the map.
+   186	6. *Fork honesty:* at every choice point, present the fork and all branches. Never silently pick. If
+   187	   the principle does not decide a branch, the answer is UNDERDETERMINED — that is a result, not a
+   188	   failure.
+   189	7. *Variation domain before symmetry reduction:* declare the full UDT configuration space and how
+   190	   the kinematic reciprocal relation is imposed (built-in constrained variable, constrained
+   191	   variation, or another derived route). Vary before imposing optional staticity, spherical
+   192	   symmetry, diagonal gauge, or areal coordinates. If a symmetry-reduced action is also varied,
+   193	   prove equivalence or retain it as a distinct conditional branch.
+   194	8. *Static energy is not a spacetime action:* do not infer stress, lapse dependence, backreaction, or
+   195	   mass from the conditional three-dimensional $E_2+E_4$ survivor until its carrier status,
+   196	   four-dimensional completion, and metric variation have been derived or explicitly labeled.
+   197	9. *No physics imports:* do not use ΛCDM, Standard Model physics, quantum mechanics, QED, GR field
+   198	   equations, fluids, Q-balls, boson stars, or textbook mechanisms as UDT derivations. Standard
+   199	   theories remain comparison/readout only.
+   200	10. *No target engineering:* no fitting, fudge factors, hard physical cutoffs, effective
+   201	    corrections, or invented couplings. Solver controls and consistent discretizations are allowed
+   202	    only when they leave the tested continuum functional unchanged.
+   203
+   204	## 4. QUARANTINE RULE
+   205
+   206	For Stage I, the cold-arm dispatch plus cold packet are exhaustive. Repository search,
+   207	memory-adjacent documents, this controller dispatch, LIVE, HANDOFF, prior derivation reports, action
+   208	proposals, H3 mass work, and superseded mechanisms are out of context. If an arm encounters any of
+   209	them accidentally, it must name the exposure and restart cold in a fresh session. Stage II receives
+   210	only the explicit historical packet in §6; banners and census labels govern what may be treated as
+   211	surviving prior work.
+   212
+   213	## 5. DELIVERABLES
+   214
+   215	**Per derivation arm (A, B):**
+   216	- D0 — Stage-I provenance: model/session identifier, exact cold-arm-dispatch and cold-packet SHA-256
+   217	  hashes, exposure declaration, and completion timestamp.
+   218	- D1 — MAP: frame + full status-tagged premise ledger + fork map. Before derivation.
+   219	- D2 — Derivation: every step marked FORCED-BY(what) or CHOSEN(flagged, with the alternative kept
+   220	  alive); independent fields and variation order explicit; exact nonlinear equations before any
+   221	  controlled approximation.
+   222	- D3 — CAS scripts (sympy) for every load-bearing algebraic step; runnable standalone, with a note
+   223	  stating exactly what each script does and does not certify.
+   224	- D4 — Answers to Q1/Q2/Q3 as a fork map: forced / allowed-family / underdetermined, with what would
+   225	  close each open fork.
+   226	- D5 — Self-audit against §3 (explicitly check each rule; name near-misses).
+   227	- D6 — Stage-II challenge addendum, written only after D0–D5 are frozen and hashed: list every
+   228	  disclosed historical claim, apply the three-part current mass/virial consistency test where
+   229	  relevant, state whether each item confirms/challenges the cold result, and give any revision with
+   230	  the exact new premise or identified error. Never overwrite D0–D5.
+   231
+   232	**Arm C (adversarial):**
+   233	- Receives the frozen Stage-I outputs, Stage-II addenda, and the complete historical packet.
+   234	- Per-claim verdict: CONFIRMED-FORCED / ACTUALLY-CHOSEN / CIRCULAR / IMPORT / UNDETERMINED, with the
+   235	  specific step indicted.
+   236	- The strongest counter-derivation constructible for each major conclusion.
+   237	- A smuggle list: every place either arm relied on GR-form intuition without native justification.
+   238
+   239	**Driver (after all arms):** freezes and hashes Stage-I packages before disclosure; records the exact
+   240	packet supplied to every session; builds a mechanical A-vs-B agreement table; re-runs CAS scripts;
+   241	lists forks in lay terms for Charles; prepares a blind-verification plan for surviving candidates.
+   242
+   243	## 6. DISCLOSURE MANIFEST (assembled and hashed by the driver)
+   244
+   245	### Stage I — supplied to Arm A and Arm B
+   246
+   247	- C0: `UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md`.
+   248	- C1: `UDT_NATIVE_ACTION_COLD_PACKET.md`.
+   249
+   250	Nothing else. In particular, do not supply this controller dispatch or give the cold arms free
+   251	repository access.
+   252
+   253	### Stage II — supplied only after each arm's D0–D5 package is frozen
+   254
+   255	- A1: `CANON.md` — C-2026-06-18-1 (metric derivation), finite-cell canon, and
+   256	  C-2026-07-09-1 (WR-L, macro-sector context only).
+   257	- A2: `udt_field_equations_derivation_results.md` + `native_geometric_action_results.md` +
+   258	  `simple_metric_S9_native_action_honesty_results.md` (historical native-action work; surviving and
+   259	  superseded banners control).
+   260	- A3: `matter_carrier_provenance_audit_results.md` + the exact continuum carrier functional in
+   261	  `noNull_energy.py` (carrier provenance and implementation cross-check).
+   262	- A4: `w_alg_verifier_scripts/UDT_H3_STATIC_MASS_BACKREACTION_DISPATCH.md` (the EH-conditional frame,
+   263	  lapse identity, and target mass claim under examination).
+   264	- A5: `pre_native_era_census.md` + `macro_spine_provenance_2026-07-06.md` (census of surviving versus
+   265	  superseded material).
+   266	- A6: `archive/native_action_chat_2026-07-14_15/` — quarantined long-session maps, conditional
+   267	  results, superseded explorations, and algebra-only verifier records. Its README and every in-file
+   268	  status banner remain binding; no passing script promotes a premise or conclusion.
+   269
+   270	Arm C receives this controller dispatch, C0–C1, A1–A6, both frozen cold packages, and both Stage-II
+   271	addenda.
+   272
+   273	---
+   274	*Reconciled 2026-07-17 with the later Reciprocal-c, Common-Scale Neutrality, carrier-status,
+   275	unattainable-scale, and global-bootstrap owner records. Charles reviews §0 (process), §1 (question
+   276	framing), the founding-hierarchy fork, C0, and C1 before any arm is launched.*
+
+exec
+/bin/bash -lc "nl -ba 'UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md'" in /tmp/udt_native_sync_audit.8UHf9X
+ succeeded in 0ms:
+     1	# Reciprocal-c founding postulate — derivation MAP
+     2
+     3	## Hygiene header
+     4
+     5	| Field | Value |
+     6	|---|---|
+     7	| Date | 2026-07-15 |
+     8	| Origin | Charles Rotter: “c is a reciprocal identity of time and length—not a one-way speed” |
+     9	| Mode | Analytic derivation and circularity audit; DATA-BLIND |
+    10	| Repository | `grok` at `64af120`; unrelated dirt preserved |
+    11	| Adoption | User-proposed foundational postulate; mathematical reach not pre-accepted |
+    12	| GPU | Not used or requested |
+    13
+    14	## 0. Question
+    15
+    16	Determine whether the following user-originated postulate, together with the UDT Reciprocity
+    17	Principle, genuinely sits upstream of positional dilation:
+    18
+    19	> **Reciprocal-c Identity.** The universal constant $c$ is the reversible identity between temporal
+    20	> and spatial measure. Its two directions,
+    21	> $L=cT$ and $T=L/c$, are equally fundamental and are respected by every positional comparison.
+    22
+    23	Test whether this derives, rather than assumes,
+    24
+    25	$$
+    26	ds^2=-e^{-2\phi}c^2dt^2+e^{2\phi}dr^2+r^2d\Omega^2,
+    27	$$
+    28
+    29	and then determine whether it selects a dynamical action or the scale $X$.
+    30
+    31	## 1. Formalizations frozen before calculation
+    32
+    33	Let the dimension-matched radial coframe pair be
+    34
+    35	$$
+    36	q=\begin{pmatrix}c\,dt\\dr\end{pmatrix}.
+    37	$$
+    38
+    39	A continuous positional comparison at additive depth $\Delta$ acts diagonally:
+    40
+    41	$$
+    42	P(\Delta)=\operatorname{diag}(u(\Delta),v(\Delta)),
+    43	\qquad u,v>0.
+    44	$$
+    45
+    46	The two meanings below must not be conflated.
+    47
+    48	### F1 — conversion-map covariance only
+    49
+    50	Treat $c:\mathcal T\to\mathcal L$ as an isomorphism and require the positional maps to commute with
+    51	it. In one dimension this gives equal representations on time and length.
+    52
+    53	### F2 — reciprocal duality
+    54
+    55	Treat the two directions $c$ and $c^{-1}$ as a dual pair, and interpret the UDT Reciprocity
+    56	Principle as requiring positional transformations to act contragrediently on the two sides. The
+    57	dimensionless evaluation pairing is preserved.
+    58
+    59	In the coframe basis this pairing may be represented by
+    60
+    61	$$
+    62	K=\begin{pmatrix}0&1\\1&0\end{pmatrix},
+    63	$$
+    64
+    65	and Reciprocity requires
+    66
+    67	$$
+    68	P(\Delta)^T K P(\Delta)=K.
+    69	$$
+    70
+    71	This is an operational time-length duality statement, not yet a metric equation.
+    72
+    73	## 2. Other declared premises
+    74
+    75	### P1 — positional relativity
+    76
+    77	Only relative depth matters; comparisons compose and reverse:
+    78
+    79	$$
+    80	P(\Delta_1+\Delta_2)=P(\Delta_1)P(\Delta_2),
+    81	\qquad
+    82	P(-\Delta)=P(\Delta)^{-1}.
+    83	$$
+    84
+    85	Assume continuity or measurability sufficient to exclude pathological Cauchy solutions.
+    86
+    87	### P2 — nontriviality
+    88
+    89	At least one positional comparison is not the identity. This is to be tagged as empirical or as a
+    90	separate founding premise; it must not be derived from group composition.
+    91
+    92	### P3 — local metric readout
+    93
+    94	Use the local Lorentzian interval in the dimension-matched physical coframe,
+    95
+    96	$$
+    97	ds^2=-(q'^0)^2+(q'^1)^2+r^2d\Omega^2,
+    98	\qquad q'=Pq,
+    99	$$
+   100
+   101	with spherical areal $r$. This is declared SR-continuity/local metric structure. The reciprocal-c
+   102	postulate by itself supplies a time-length conversion and null structure, not the quadratic
+   103	Lorentzian signature or angular sector.
+   104
+   105	## 3. Predeclared gates
+   106
+   107	### G1 — circularity
+   108
+   109	PASS only if the derivation states exactly where $v=u^{-1}$ enters. If it is simply the formal
+   110	meaning assigned to Reciprocity, tag it as postulated structural content rather than a theorem of
+   111	$c$ alone.
+   112
+   113	### G2 — competing formalization
+   114
+   115	Compute F1. If F1 gives $v=u$, record that reciprocal-c identity alone does not force the UDT
+   116	metric.
+   117
+   118	### G3 — metric derivation
+   119
+   120	Under F2 plus P1–P3, solve for $u,v$ and recover the reciprocal exponential metric up to sign and
+   121	normalization of $\phi$.
+   122
+   123	### G4 — nontrivial branch
+   124
+   125	Check whether $u=v=1$ remains a solution.
+   126
+   127	### G5 — independent consequences
+   128
+   129	Derive the positional group, determinant, volume form, generator, reversal invariant, and tangent
+   130	norm without importing field equations.
+   131
+   132	### G6 — action selection
+   133
+   134	Test whether the premises select $F(Y)=Y$ over nonlinear $F(Y)$. One valid counteraction defeats
+   135	uniqueness.
+   136
+   137	### G7 — role of $X$
+   138
+   139	Determine whether $X$ occurs in the local postulates or follows from their equations. Distinguish a
+   140	local action parameter, solution integration constant, and global boundary datum.
+   141
+   142	## 4. Required outputs
+   143
+   144	1. Exact implication of F1.
+   145	2. Exact implication of F2.
+   146	3. Continuous representation theorem and metric.
+   147	4. Complete assumption ledger.
+   148	5. Action counterfamily or action selector.
+   149	6. Explicit verdict on whether $X$ must be postulated now.
+   150	7. Symbolic verifier and cold workstation dispatch.
+   151
+   152	## 5. Stop rules
+   153
+   154	- Do not claim that the arithmetic existence of $1/c$ alone derives reciprocal dilation.
+   155	- Do not call the metric derived from only two premises if local metric readout, continuity, or
+   156	  nontriviality is also required.
+   157	- Do not import GR field equations or an EH action as UDT derivations.
+   158	- Do not infer matter emergence or an $S^2$ carrier from the kinematic group.
+   159	- Do not postulate $X$ merely because the local kinematic derivation does not contain it.
+   160	- Do not alter `LIVE.md` or `CANON.md` or bank the result without independent verification and the
+   161	  owner's explicit verdict.
+   162
+
+exec
+/bin/bash -lc "nl -ba 'UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md'" in /tmp/udt_native_sync_audit.8UHf9X
+ succeeded in 0ms:
+     1	# Reciprocal-c founding postulate — derivation results
+     2
+     3	## Hygiene header
+     4
+     5	| Field | Value |
+     6	|---|---|
+     7	| Date | 2026-07-15 |
+     8	| Origin | **Charles Rotter:** “$c$ is a reciprocal identity of time and length—not a one-way speed” |
+     9	| Combined premise | Reciprocal-c Identity plus the UDT Reciprocity Principle |
+    10	| Mode | Analytic derivation and circularity audit; DATA-BLIND |
+    11	| Repository | `grok` at `64af120`; unrelated dirt preserved |
+    12	| Verifier | `verify_udt_reciprocal_c_postulate.py`: **29/29 checks pass** |
+    13	| Adoption | User-proposed foundational postulate; independent verification still required before banking |
+    14	| GPU | Not used or needed |
+    15
+    16	## 0. Decisive result
+    17
+    18	The proposal is a genuine upstream candidate when stated as a **duality**, not merely as the
+    19	arithmetic observation that $c$ has an inverse.
+    20
+    21	> **Reciprocal-c Identity — proposed by Charles Rotter.** The universal constant $c$ is the
+    22	> reversible identity between temporal and spatial measure. Its two directions,
+    23	> $L=cT$ and $T=L/c$, are equally fundamental and must be respected by positional comparisons.
+    24
+    25	Together with the UDT Reciprocity Principle:
+    26
+    27	> A positional transformation acts reciprocally on the two sides of the time-length identity: the
+    28	> length-side action is the dual inverse of the time-side action.
+    29
+    30	the postulate derives the reciprocal UDT metric family:
+    31
+    32	$$
+    33	\boxed{
+    34	ds^2=-e^{-2\phi}c^2dt^2+e^{2\phi}dr^2+r^2d\Omega^2.
+    35	}
+    36	$$
+    37
+    38	This is more than the earlier causal-measure reformulation. Under the new foundation, preservation
+    39	of the time-radial measure is a **derived consequence** of reciprocal time-length duality rather
+    40	than an independent postulate.
+    41
+    42	The result does not yet derive a unique action, the profile $\phi(r)$, or the scale $X$.
+    43
+    44	## 1. Why the derivation is short
+    45
+    46	Use the dimension-matched temporal/radial coframe pair
+    47
+    48	$$
+    49	q=\begin{pmatrix}c\,dt\\dr\end{pmatrix}.
+    50	$$
+    51
+    52	A positive diagonal positional comparison at relative depth $\Delta$ is
+    53
+    54	$$
+    55	P(\Delta)=
+    56	\begin{pmatrix}
+    57	u(\Delta)&0\\
+    58	0&v(\Delta)
+    59	\end{pmatrix}.
+    60	$$
+    61
+    62	Reciprocal-c makes the two entries a physical conversion pair. The Reciprocity Principle says the
+    63	positional actions on that pair are dual. Represent the dimensionless evaluation pairing by
+    64
+    65	$$
+    66	K=\begin{pmatrix}0&1\\1&0\end{pmatrix}.
+    67	$$
+    68
+    69	Preserving the reciprocal pairing gives
+    70
+    71	$$
+    72	P^T K P=K.
+    73	$$
+    74
+    75	But exactly
+    76
+    77	$$
+    78	P^T K P=u(\Delta)v(\Delta)K.
+    79	$$
+    80
+    81	Therefore
+    82
+    83	$$
+    84	\boxed{u(\Delta)v(\Delta)=1.}
+    85	$$
+    86
+    87	This is where metric reciprocity enters. It is **not** a theorem of the number $c$ alone; it is the
+    88	mathematical content of applying the independent UDT Reciprocity Principle to the user-proposed
+    89	two-way $c$ identity.
+    90
+    91	## 2. Positional composition fixes the exponential
+    92
+    93	No position is privileged, so only relative positional depth matters. Continuous comparisons
+    94	compose:
+    95
+    96	$$
+    97	P(\Delta_1+\Delta_2)=P(\Delta_1)P(\Delta_2).
+    98	$$
+    99
+   100	Thus
+   101
+   102	$$
+   103	u(\Delta)=e^{a\Delta},
+   104	\qquad
+   105	v(\Delta)=e^{b\Delta}.
+   106	$$
+   107
+   108	Dual reciprocity gives $a+b=0$. For a nontrivial representation, define the depth normalization
+   109	$\phi=-a\Delta$. Then
+   110
+   111	$$
+   112	u=e^{-\phi},
+   113	\qquad
+   114	v=e^{+\phi}.
+   115	$$
+   116
+   117	Using the local metric readout in the transformed physical coframe,
+   118
+   119	$$
+   120	ds^2=-(u c\,dt)^2+(v\,dr)^2+r^2d\Omega^2,
+   121	$$
+   122
+   123	produces the boxed UDT metric.
+   124
+   125	### Assumption ledger
+   126
+   127	| Ingredient | Status | Work performed |
+   128	|---|---|---|
+   129	| $c$ and $c^{-1}$ are coequal physical conversion directions | **PROPOSED FOUNDATIONAL — Charles Rotter** | Makes time and length a reciprocal physical pair rather than a one-way speed relation. |
+   130	| UDT Reciprocity acts contragrediently on that pair | **FOUNDATIONAL INTERPRETATION** | Forces $uv=1$. |
+   131	| Relative comparisons compose continuously | **POSIT / positional relativity** | Forces exponential dependence on additive depth. |
+   132	| At least one comparison is nonidentity | **OBSERVED or separate POSIT** | Excludes the trivial $u=v=1$ representation. |
+   133	| Local Lorentzian quadratic interval and spherical areal sector | **SR-CONTINUITY / DECLARED READOUT** | Converts the coframe scaling into the displayed metric and supplies signature/angular structure. |
+   134	| Sign and unit of $\phi$ | **CHOSE** | Coordinate convention on the one-dimensional positional group. |
+   135
+   136	Consequently it would be inaccurate to say that the arithmetic pair $c,1/c$ alone derives the
+   137	metric. It is accurate to say that the user-proposed Reciprocal-c Identity **combined with the
+   138	already stated UDT Reciprocity Principle**, positional composition, and local metric continuity
+   139	derives it.
+   140
+   141	## 3. The necessary adversarial alternative
+   142
+   143	Suppose instead that “$c$ is reversible” means only that $c:\mathcal T\to\mathcal L$ is an ordinary
+   144	isomorphism and positional transformations commute with it:
+   145
+   146	$$
+   147	P_L\,c=c\,P_T.
+   148	$$
+   149
+   150	In one dimension this gives
+   151
+   152	$$
+   153	v=u,
+   154	$$
+   155
+   156	not $v=u^{-1}$. The radial metric block would then be conformally scaled:
+   157
+   158	$$
+   159	ds^2_{(t,r)}=u^2(-c^2dt^2+dr^2),
+   160	$$
+   161
+   162	which is not the UDT reciprocal metric unless $u=1$.
+   163
+   164	This countercase proves two things:
+   165
+   166	1. invariant local $c$ alone is insufficient;
+   167	2. the UDT Reciprocity Principle is doing essential, independently visible work.
+   168
+   169	It also makes the new postulate falsifiable: if physical time-length conversion transforms
+   170	covariantly rather than dually under positional change, this proposed foundation fails to derive
+   171	UDT.
+   172
+   173	## 4. New consequences derived from the foundation
+   174
+   175	### 4.1 Causal-measure preservation is downstream
+   176
+   177	Since $uv=1$,
+   178
+   179	$$
+   180	\det P=1,
+   181	$$
+   182
+   183	and
+   184
+   185	$$
+   186	\det g_{(t,r)}=-c^2,
+   187	\qquad
+   188	\sqrt{-g}=c r^2\sin\theta.
+   189	$$
+   190
+   191	Thus positional dilation redistributes clock and radial-ruler calibration without changing the
+   192	adapted metric four-volume. The prior causal-measure principle is no longer required as an
+   193	independent foundation if the Reciprocal-c interpretation is accepted.
+   194
+   195	### 4.2 Positional depth is the unique additive group coordinate
+   196
+   197	The positional transformation is
+   198
+   199	$$
+   200	S(\phi)=\operatorname{diag}(e^{-\phi},e^{\phi}),
+   201	$$
+   202
+   203	with
+   204
+   205	$$
+   206	S(\phi_1)S(\phi_2)=S(\phi_1+\phi_2),
+   207	\qquad
+   208	S(-\phi)=S(\phi)^{-1}.
+   209	$$
+   210
+   211	The reversal-even relative comparison is
+   212
+   213	$$
+   214	\frac12\operatorname{Tr}(S_A^{-1}S_B)
+   215	=\cosh(\phi_B-\phi_A).
+   216	$$
+   217
+   218	### 4.3 A quadratic infinitesimal geometry is derived
+   219
+   220	The group current is
+   221
+   222	$$
+   223	J=S^{-1}dS
+   224	=\operatorname{diag}(-d\phi,d\phi),
+   225	$$
+   226
+   227	so
+   228
+   229	$$
+   230	\operatorname{Tr}J=0,
+   231	\qquad
+   232	\boxed{\frac12\operatorname{Tr}(J^2)=d\phi^2.}
+   233	$$
+   234
+   235	Because the positional group has a one-dimensional tangent algebra, every positive invariant
+   236	quadratic inner product on it is this norm multiplied by one constant. Therefore the postulate
+   237	does derive a canonical quadratic **infinitesimal geometry**, unique up to normalization.
+   238
+   239	This is an important advance toward an action principle. It is not yet the statement that physical
+   240	energy or action equals that norm.
+   241
+   242	## 5. Why a unique action still does not follow
+   243
+   244	> **SUBSEQUENT STRONGER AUDIT (2026-07-15):** The full inverse problem for arbitrary regular
+   245	> physical-metric $F(Y)$ has now been solved. Making WR-L stationary requires
+   246	> $F'(Y)\propto(4X^2Y)^{3/2}/(4X^2Y-1)^2$, which is singular at the regular center and explicitly
+   247	> contains $X$. See `UDT_WRL_SCAFFOLD_NATIVE_ACTION_SEPARATION_DERIVATION_RESULTS.md`.
+   248
+   249	> **SUBSEQUENT METRIC-ONLY FORK (2026-07-15):** If common local time-length scale is additionally
+   250	> declared representational, the lowest-order four-dimensional conformal metric action is $C^2$.
+   251	> Its full Bach equation admits WR-L with $X$ as a solution constant, but WR-L has $C^2=0$ and is
+   252	> not selected. See `UDT_RECIPROCAL_C_CONFORMAL_ACTION_DERIVATION_RESULTS.md`.
+   253
+   254	For a spacetime-dependent depth field define
+   255
+   256	$$
+   257	Y=\frac12\operatorname{Tr}(J_\mu J^\mu).
+   258	$$
+   259
+   260	The Reciprocal-c Identity and Reciprocity allow
+   261
+   262	$$
+   263	I_F=\int dV_4\,F(Y)
+   264	$$
+   265
+   266	for arbitrary suitable $F$. In particular,
+   267
+   268	$$
+   269	F_1(Y)=\frac12Y,
+   270	\qquad
+   271	F_2(Y)=\frac12Y+\frac{\alpha}{4}Y^2
+   272	$$
+   273
+   274	obey the same kinematic symmetries but have different nonlinear Euler equations. Hence
+   275
+   276	$$
+   277	\boxed{
+   278	\text{reciprocal-c duality derives the quadratic norm, but not a unique physical action.}
+   279	}
+   280	$$
+   281
+   282	The missing statement is now sharply isolated: **why must physical cost equal the invariant
+   283	quadratic norm rather than an arbitrary function of it?** Exact additivity of independent local
+   284	distortions would answer that, but it has not yet been derived from reciprocal-c duality.
+   285
+   286	### Direct test of the simplest action
+   287
+   288	Choosing the canonical norm anyway, using the full reciprocal physical metric, and restricting
+   289	consistently to a static radial field gives, up to normalization,
+   290
+   291	$$
+   292	I_{\rm can}=\int dr\,r^2 e^{-2\phi}(\phi')^2.
+   293	$$
+   294
+   295	With $A=e^{-2\phi}$ this becomes
+   296
+   297	$$
+   298	I_{\rm can}=\int dr\,\frac{r^2(A')^2}{4A}.
+   299	$$
+   300
+   301	The exact Euler expression evaluated on WR-L, $A=1-r/X$, is
+   302
+   303	$$
+   304	\left.\mathcal E_A\right|_{\rm WR-L}
+   305	=-\frac{r(4X-3r)}{4(X-r)^2},
+   306	$$
+   307
+   308	which is nonzero throughout $0<r<X$. Therefore the obvious quadratic group action does **not**
+   309	produce WR-L. More action structure is required; inventing it would not be a derivation.
+   310
+   311	## 6. What happens to $X$
+   312
+   313	The new local postulate contains no length scale. It derives
+   314
+   315	$$
+   316	A=e^{-2\phi}>0
+   317	$$
+   318
+   319	but permits any positive profile $A(r)$. It cannot select $A=1-r/X$ or the numerical/global value
+   320	of $X$.
+   321
+   322	Nevertheless it clarifies the wall. For WR-L,
+   323
+   324	$$
+   325	\phi(r)=-\frac12\ln\left(1-\frac rX\right),
+   326	$$
+   327
+   328	so
+   329
+   330	$$
+   331	r\to X^-
+   332	\quad\Longrightarrow\quad
+   333	\phi\to+\infty.
+   334	$$
+   335
+   336	The wall is not a finite endpoint of the reciprocal positional group; it is infinite positional
+   337	depth. Thus asymptotic infinite dilation is natural once the WR-L profile is supplied. The local
+   338	group still does not determine the areal location $X$ where that infinity is approached.
+   339
+   340	Therefore:
+   341
+   342	- **Do not postulate $X$ yet for the local metric/action derivation.**
+   343	- Keep $X$ **OPEN / WORKING** as a global boundary datum, solution integration scale, or quantity
+   344	  potentially derived from total cosmic data.
+   345	- Adopt a fundamental $X_{\max}$ only if the global derivation fails and the owner explicitly
+   346	  chooses it.
+   347
+   348	## 7. Falsification gates
+   349
+   350	The proposed foundation fails or needs revision if any of the following occurs:
+   351
+   352	1. positional transformations do not act dually on the $c/c^{-1}$ conversion pair;
+   353	2. an operational comparison finds $uv\neq1$ after coordinate gauge is fixed;
+   354	3. the full time-live or nonspherical metric cannot extend the reciprocal pairing consistently;
+   355	4. nontrivial positional dilation cannot be distinguished from the identity representation;
+   356	5. a native UDT dynamical derivation requires a transformation structure incompatible with $S$;
+   357	6. cold verification finds that the pairing formulation merely relabels a hidden metric premise.
+   358
+   359	## 8. Honest conclusion
+   360
+   361	$$
+   362	\boxed{
+   363	\begin{gathered}
+   364	\text{FOUNDATIONAL CANDIDATE proposed by Charles Rotter: reciprocal-c identity;}\\
+   365	\text{DERIVED with UDT Reciprocity and declared continuity premises: reciprocal metric family;}\\
+   366	\text{DERIVED: determinant-one group, preserved volume, canonical quadratic tangent norm;}\\
+   367	\text{NOT DERIVED: nontriviality, unique action, WR-L radial profile, or }X;\\
+   368	\text{FALSIFIED: the obvious quadratic group action as the WR-L action.}
+   369	\end{gathered}
+   370	}
+   371	$$
+   372
+   373	The brevity of the metric derivation does not make the insight minor. Once the correct one-
+   374	dimensional dual structure is identified, the inverse exponential pair is mathematically forced.
+   375	The remaining difficulty has moved downstream: from “why this metric structure?” to “what native
+   376	dynamical rule selects its physical profile and matter content?”
+
+exec
+/bin/bash -lc "sed -n '240,320p' 'UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md' | nl -ba -v "'$(echo 240)' in /tmp/udt_native_sync_audit.8UHf9X
+ succeeded in 0ms:
+   240	packet supplied to every session; builds a mechanical A-vs-B agreement table; re-runs CAS scripts;
+   241	lists forks in lay terms for Charles; prepares a blind-verification plan for surviving candidates.
+   242
+   243	## 6. DISCLOSURE MANIFEST (assembled and hashed by the driver)
+   244
+   245	### Stage I — supplied to Arm A and Arm B
+   246
+   247	- C0: `UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md`.
+   248	- C1: `UDT_NATIVE_ACTION_COLD_PACKET.md`.
+   249
+   250	Nothing else. In particular, do not supply this controller dispatch or give the cold arms free
+   251	repository access.
+   252
+   253	### Stage II — supplied only after each arm's D0–D5 package is frozen
+   254
+   255	- A1: `CANON.md` — C-2026-06-18-1 (metric derivation), finite-cell canon, and
+   256	  C-2026-07-09-1 (WR-L, macro-sector context only).
+   257	- A2: `udt_field_equations_derivation_results.md` + `native_geometric_action_results.md` +
+   258	  `simple_metric_S9_native_action_honesty_results.md` (historical native-action work; surviving and
+   259	  superseded banners control).
+   260	- A3: `matter_carrier_provenance_audit_results.md` + the exact continuum carrier functional in
+   261	  `noNull_energy.py` (carrier provenance and implementation cross-check).
+   262	- A4: `w_alg_verifier_scripts/UDT_H3_STATIC_MASS_BACKREACTION_DISPATCH.md` (the EH-conditional frame,
+   263	  lapse identity, and target mass claim under examination).
+   264	- A5: `pre_native_era_census.md` + `macro_spine_provenance_2026-07-06.md` (census of surviving versus
+   265	  superseded material).
+   266	- A6: `archive/native_action_chat_2026-07-14_15/` — quarantined long-session maps, conditional
+   267	  results, superseded explorations, and algebra-only verifier records. Its README and every in-file
+   268	  status banner remain binding; no passing script promotes a premise or conclusion.
+   269
+   270	Arm C receives this controller dispatch, C0–C1, A1–A6, both frozen cold packages, and both Stage-II
+   271	addenda.
+   272
+   273	---
+   274	*Reconciled 2026-07-17 with the later Reciprocal-c, Common-Scale Neutrality, carrier-status,
+   275	unattainable-scale, and global-bootstrap owner records. Charles reviews §0 (process), §1 (question
+   276	framing), the founding-hierarchy fork, C0, and C1 before any arm is launched.*
+
+exec
+/bin/bash -lc "sed -n '1,220p' 'UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md' | nl -ba -v "'$(echo 1)' in /tmp/udt_native_sync_audit.8UHf9X
+ succeeded in 0ms:
+     1	# Reciprocal-c founding postulate — derivation MAP
+     2
+     3	## Hygiene header
+     4
+     5	| Field | Value |
+     6	|---|---|
+     7	| Date | 2026-07-15 |
+     8	| Origin | Charles Rotter: “c is a reciprocal identity of time and length—not a one-way speed” |
+     9	| Mode | Analytic derivation and circularity audit; DATA-BLIND |
+    10	| Repository | `grok` at `64af120`; unrelated dirt preserved |
+    11	| Adoption | User-proposed foundational postulate; mathematical reach not pre-accepted |
+    12	| GPU | Not used or requested |
+    13
+    14	## 0. Question
+    15
+    16	Determine whether the following user-originated postulate, together with the UDT Reciprocity
+    17	Principle, genuinely sits upstream of positional dilation:
+    18
+    19	> **Reciprocal-c Identity.** The universal constant $c$ is the reversible identity between temporal
+    20	> and spatial measure. Its two directions,
+    21	> $L=cT$ and $T=L/c$, are equally fundamental and are respected by every positional comparison.
+    22
+    23	Test whether this derives, rather than assumes,
+    24
+    25	$$
+    26	ds^2=-e^{-2\phi}c^2dt^2+e^{2\phi}dr^2+r^2d\Omega^2,
+    27	$$
+    28
+    29	and then determine whether it selects a dynamical action or the scale $X$.
+    30
+    31	## 1. Formalizations frozen before calculation
+    32
+    33	Let the dimension-matched radial coframe pair be
+    34
+    35	$$
+    36	q=\begin{pmatrix}c\,dt\\dr\end{pmatrix}.
+    37	$$
+    38
+    39	A continuous positional comparison at additive depth $\Delta$ acts diagonally:
+    40
+    41	$$
+    42	P(\Delta)=\operatorname{diag}(u(\Delta),v(\Delta)),
+    43	\qquad u,v>0.
+    44	$$
+    45
+    46	The two meanings below must not be conflated.
+    47
+    48	### F1 — conversion-map covariance only
+    49
+    50	Treat $c:\mathcal T\to\mathcal L$ as an isomorphism and require the positional maps to commute with
+    51	it. In one dimension this gives equal representations on time and length.
+    52
+    53	### F2 — reciprocal duality
+    54
+    55	Treat the two directions $c$ and $c^{-1}$ as a dual pair, and interpret the UDT Reciprocity
+    56	Principle as requiring positional transformations to act contragrediently on the two sides. The
+    57	dimensionless evaluation pairing is preserved.
+    58
+    59	In the coframe basis this pairing may be represented by
+    60
+    61	$$
+    62	K=\begin{pmatrix}0&1\\1&0\end{pmatrix},
+    63	$$
+    64
+    65	and Reciprocity requires
+    66
+    67	$$
+    68	P(\Delta)^T K P(\Delta)=K.
+    69	$$
+    70
+    71	This is an operational time-length duality statement, not yet a metric equation.
+    72
+    73	## 2. Other declared premises
+    74
+    75	### P1 — positional relativity
+    76
+    77	Only relative depth matters; comparisons compose and reverse:
+    78
+    79	$$
+    80	P(\Delta_1+\Delta_2)=P(\Delta_1)P(\Delta_2),
+    81	\qquad
+    82	P(-\Delta)=P(\Delta)^{-1}.
+    83	$$
+    84
+    85	Assume continuity or measurability sufficient to exclude pathological Cauchy solutions.
+    86
+    87	### P2 — nontriviality
+    88
+    89	At least one positional comparison is not the identity. This is to be tagged as empirical or as a
+    90	separate founding premise; it must not be derived from group composition.
+    91
+    92	### P3 — local metric readout
+    93
+    94	Use the local Lorentzian interval in the dimension-matched physical coframe,
+    95
+    96	$$
+    97	ds^2=-(q'^0)^2+(q'^1)^2+r^2d\Omega^2,
+    98	\qquad q'=Pq,
+    99	$$
+   100
+   101	with spherical areal $r$. This is declared SR-continuity/local metric structure. The reciprocal-c
+   102	postulate by itself supplies a time-length conversion and null structure, not the quadratic
+   103	Lorentzian signature or angular sector.
+   104
+   105	## 3. Predeclared gates
+   106
+   107	### G1 — circularity
+   108
+   109	PASS only if the derivation states exactly where $v=u^{-1}$ enters. If it is simply the formal
+   110	meaning assigned to Reciprocity, tag it as postulated structural content rather than a theorem of
+   111	$c$ alone.
+   112
+   113	### G2 — competing formalization
+   114
+   115	Compute F1. If F1 gives $v=u$, record that reciprocal-c identity alone does not force the UDT
+   116	metric.
+   117
+   118	### G3 — metric derivation
+   119
+   120	Under F2 plus P1–P3, solve for $u,v$ and recover the reciprocal exponential metric up to sign and
+   121	normalization of $\phi$.
+   122
+   123	### G4 — nontrivial branch
+   124
+   125	Check whether $u=v=1$ remains a solution.
+   126
+   127	### G5 — independent consequences
+   128
+   129	Derive the positional group, determinant, volume form, generator, reversal invariant, and tangent
+   130	norm without importing field equations.
+   131
+   132	### G6 — action selection
+   133
+   134	Test whether the premises select $F(Y)=Y$ over nonlinear $F(Y)$. One valid counteraction defeats
+   135	uniqueness.
+   136
+   137	### G7 — role of $X$
+   138
+   139	Determine whether $X$ occurs in the local postulates or follows from their equations. Distinguish a
+   140	local action parameter, solution integration constant, and global boundary datum.
+   141
+   142	## 4. Required outputs
+   143
+   144	1. Exact implication of F1.
+   145	2. Exact implication of F2.
+   146	3. Continuous representation theorem and metric.
+   147	4. Complete assumption ledger.
+   148	5. Action counterfamily or action selector.
+   149	6. Explicit verdict on whether $X$ must be postulated now.
+   150	7. Symbolic verifier and cold workstation dispatch.
+   151
+   152	## 5. Stop rules
+   153
+   154	- Do not claim that the arithmetic existence of $1/c$ alone derives reciprocal dilation.
+   155	- Do not call the metric derived from only two premises if local metric readout, continuity, or
+   156	  nontriviality is also required.
+   157	- Do not import GR field equations or an EH action as UDT derivations.
+   158	- Do not infer matter emergence or an $S^2$ carrier from the kinematic group.
+   159	- Do not postulate $X$ merely because the local kinematic derivation does not contain it.
+   160	- Do not alter `LIVE.md` or `CANON.md` or bank the result without independent verification and the
+   161	  owner's explicit verdict.
+   162
+
+exec
+/bin/bash -lc "nl -ba 'UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md'" in /tmp/udt_native_sync_audit.8UHf9X
+ succeeded in 0ms:
+     1	# UDT Common-Scale Neutrality — owner-locked foundational postulate
+     2
+     3	## Decision record
+     4
+     5	| Field | Value |
+     6	|---|---|
+     7	| Date | 2026-07-15 |
+     8	| Authority | Charles Rotter |
+     9	| Status | **FOUNDATIONAL POSTULATE — LOCKED for the continuing derivation** |
+    10	| Upstream premise | Reciprocal-c Identity: $c$ and $c^{-1}$ are coequal time-length conversion directions |
+    11	| Scope | Local common time-length calibration; not yet a complete action, boundary law, mass rule, or global closure |
+    12
+    13	## Postulate
+    14
+    15	> **Common-Scale Neutrality.** No absolute local scale is fundamental in UDT. A simultaneous local
+    16	> rescaling of temporal and spatial measure is calibration rather than physical change. Physical
+    17	> length, time, and mass scales must emerge from global geometric closure, boundary conditions,
+    18	> matter formation, or a combination of them.
+    19
+    20	In metric language, the foundational local geometry is represented by the equivalence class
+    21
+    22	$$
+    23	[g]_{\rm CSN}
+    24	=\left\{\Omega(x)^2g_{\mu\nu}:\Omega(x)>0\right\}.
+    25	$$
+    26
+    27	The reciprocal positional part remains separately meaningful:
+    28
+    29	$$
+    30	D(\phi)=\operatorname{diag}(e^{-\phi},e^\phi),
+    31	\qquad
+    32	\det D=1.
+    33	$$
+    34
+    35	Any positive diagonal time/radial calibration decomposes as
+    36
+    37	$$
+    38	\operatorname{diag}(u,v)
+    39	=\sqrt{uv}\,D\!\left(\frac12\ln\frac vu\right).
+    40	$$
+    41
+    42	Common-Scale Neutrality declares the first factor calibrational; UDT Reciprocity governs the
+    43	second.
+    44
+    45	## What is now foundational
+    46
+    47	- There is no primitive absolute local meter, second, or mass scale.
+    48	- $g_{\mu\nu}$ and $\Omega^2g_{\mu\nu}$ represent the same pre-scale local geometry.
+    49	- A native pre-scale bulk law must respect local common-scale neutrality.
+    50	- Dimensionful physical scales must be solution, boundary, global, or matter-emergent data rather
+    51	  than unexplained local constants.
+    52
+    53	## What is not decided by this lock
+    54
+    55	- the unique native action outside a named derivative/minimality class;
+    56	- whether the action is local;
+    57	- derivative order and time-live degrees of freedom;
+    58	- the finite-cell boundary functional;
+    59	- the origin or value of $X$;
+    60	- the matter carrier, including whether $S^2$ emerges, survives as a posit, or is replaced;
+    61	- how common-scale neutrality is broken or fixed in the material phase;
+    62	- the normalization identified observationally as $G$;
+    63	- any particle mass.
+    64
+    65	## Falsification
+    66
+    67	The postulate fails if a complete UDT construction requires an absolute local scale as primitive
+    68	input, or if two configurations related only by $g\mapsto\Omega^2g$ produce a dimensionless local
+    69	observable difference before any boundary/matter scale is supplied.
+    70
+    71	## Research consequence
+    72
+    73	The conformal metric-action branch in
+    74	`UDT_RECIPROCAL_C_CONFORMAL_ACTION_DERIVATION_RESULTS.md` is now founded with respect to its
+    75	common-scale premise. Its remaining locality, dimensionality, derivative-minimality, unrestricted-
+    76	variation, and boundary premises retain their explicit CONDITIONAL status.
+    77
+
+exec
+/bin/bash -lc "nl -ba 'UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md'" in /tmp/udt_native_sync_audit.8UHf9X
+ succeeded in 0ms:
+     1	# Owner-stated principle — global bootstrap and narrow matter-existence density
+     2
+     3	**Date:** 2026-07-15
+     4
+     5	**Authority:** Charles
+     6
+     7	**Effect:** new working principle for derivation; no action, carrier, density value, or canon entry is
+     8	silently supplied
+     9
+    10	## Owner statement
+    11
+    12	> The UDT universe bootstraps itself. Matter can only exist within an extremely narrow range of the
+    13	> total mass density of the universe.
+    14
+    15	## Prospective status
+    16
+    17	\[
+    18	\boxed{
+    19	\begin{gathered}
+    20	\text{The realized UDT universe is a self-consistent global solution, not a background chosen first.}\\
+    21	\text{A globally self-consistent matter-bearing solution exists only in a narrow total-density window.}
+    22	\end{gathered}
+    23	}
+    24	\]
+    25
+    26	This is recorded as an **OWNER-STATED WORKING PRINCIPLE** pending any later canon action. “Narrow” is
+    27	not assigned a numerical width here. The theory must derive its center and width before observational
+    28	comparison.
+    29
+    30	## Interpretation ledger
+    31
+    32	- **Total mass** means the complete UDT ledger: localized matter, horizon/black-hole contribution,
+    33	  diffuse or geometric reservoir, and any other term derived from the eventual action. It does not
+    34	  mean visible/localized matter alone.
+    35	- **Total density** means total mass divided by the proper volume of the complete realized spatial
+    36	  cell/slice. The full time-live volume and boundary are not yet derived.
+    37	- **Primary global reading:** local carrier equations may possess mathematical solutions outside the
+    38	  window, but no complete self-consistent UDT universe containing physical matter does.
+    39	- **Stronger local reading:** no stable localized carrier solution exists outside the window. This is
+    40	  kept as a separate fork; it is not silently inferred from the word “bootstraps.”
+    41	- **No nonlocal insertion:** the global average density may not be written directly into a local
+    42	  action as a fitted coupling or hard cutoff. Its influence must arrive through the solved physical
+    43	  geometry, boundary data, or a separately derived global variational condition.
+    44	- **Recycling is redistribution:** conversion among ledger sectors does not change total density when
+    45	  total mass and proper volume are fixed.
+    46
+    47	## Falsifiable core
+    48
+    49	Let \(\mathcal W\) be the set of dimensionless total densities for which the full nonlinear UDT
+    50	equations, boundary conditions, global closure, and physical stability gates admit a matter-bearing
+    51	solution. The principle requires
+    52
+    53	\[
+    54	\mathcal W\ne\varnothing,
+    55	\qquad
+    56	\frac{\operatorname{width}(\mathcal W)}{\operatorname{center}(\mathcal W)}\ll1.
+    57	\]
+    58
+    59	It fails if the complete theory admits matter-bearing universes over a broad continuum, admits none,
+    60	or obtains a narrow window only by inserting its location/width by hand.
+
+exec
+/bin/bash -lc "nl -ba 'UDT_S2_CARRIER_STATUS_CLARIFICATION_2026-07-15.md'" in /tmp/udt_native_sync_audit.8UHf9X
+ succeeded in 0ms:
+     1	# Owner clarification — status of the \(S^2\) carrier
+     2
+     3	**Date:** 2026-07-15
+     4	**Authority:** Charles
+     5	**Effect:** status/provenance correction; no numerical result is erased
+     6
+     7	## Correct status
+     8
+     9	The \(S^2\) matter carrier was historically accepted as foundational **as a working posit after
+    10	attempts to derive a carrier failed**. That historical acceptance is not a present insistence that
+    11	\(S^2\) is fundamental UDT truth.
+    12
+    13	\[
+    14	\boxed{
+    15	\text{\(S^2\) carrier = HISTORICAL WORKING POSIT, now REOPENED.}
+    16	}
+    17	\]
+    18
+    19	It may:
+    20
+    21	1. emerge from positional dilation, reciprocity, the working universal unattainable-distance
+    22	   structure \(X_{\max}\), and a future dynamical principle;
+    23	2. survive as a necessary independent postulate;
+    24	3. be replaced by a different carrier forced by the deeper derivation.
+    25
+    26	No result may assume that Charles has newly canonized or permanently fixed the \(S^2\) carrier.
+    27
+    28	## Downstream status
+    29
+    30	- The corrected \(Q_H=1\) critical field and stability computation remain valid **within the
+    31	  working \(S^2\), round-target, \(L_2+L_4\) model and its numerical scope**.
+    32	- They do not establish that \(S^2\) is the unique or fundamental UDT matter carrier.
+    33	- Carrier-action, metric-coupling, and mass conclusions remain conditional on the carrier choice.
+    34	- A replacement carrier must be judged from UDT premises and its own continuum functional, not
+    35	  rejected because it differs from the existing \(S^2\) model.
+    36
+    37	## Frozen-map note
+    38
+    39	The already-frozen files UDT_NATIVE_ACTION_NONCOLD_MAP.md and
+    40	UDT_FINITE_CELL_BOUNDARY_MAP.md record the premise status visible when those derivations began.
+    41	They remain unchanged for audit integrity. Their \(S^2\)-POSIT rows are superseded prospectively by
+    42	this clarification and must be read as **historical working input**, not an immutable foundation.
+    43
+    44	## Research question reopened
+    45
+    46	\[
+    47	\boxed{
+    48	\text{What carrier, if any, is forced by the full positional-dilation dynamics?}
+    49	}
+    50	\]
+    51
+    52	The existing \(S^2\) carrier is one falsifiable survivor candidate in that census.
+
+exec
+/bin/bash -lc "nl -ba 'UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md'" in /tmp/udt_native_sync_audit.8UHf9X
+ succeeded in 0ms:
+     1	# Owner clarification — status and possible origin of \(X_{\max}\)
+     2
+     3	**Date:** 2026-07-15
+     4	**Authority:** Charles
+     5	**Effect:** status/provenance correction; no profile or wall result is promoted or erased
+     6
+     7	## Correct status
+     8
+     9	Earlier work asked whether Charles would accept a universal unattainable maximum distance as a
+    10	postulate, and he agreed. That agreement established a **working posit**, not a permanent decision
+    11	that \(X_{\max}\) is an independent fundamental constant.
+    12
+    13	\[
+    14	\boxed{
+    15	\begin{aligned}
+    16	&\exists\,X_{\max},\quad d<X_{\max},\quad d\to X_{\max}\text{ only asymptotically}
+    17	&&\text{WORKING POSIT},\\
+    18	&X_{\max}\text{ is an independent primitive constant}
+    19	&&\text{OPEN},\\
+    20	&X_{\max}=F(c,M_{\rm total},G)
+    21	&&\text{LEAD / derivation target}.
+    22	\end{aligned}}
+    23	\]
+    24
+    25	The current working reading remains one universal \(X_{\max}\), not a separately fitted value for
+    26	each object. Its origin and value are reopened.
+    27
+    28	## Dimensional lead, not a derivation
+    29
+    30	If \(c\), \(G\), and a natively defined total mass are the only dimensional inputs, dimensional
+    31	analysis permits
+    32
+    33	\[
+    34	X_{\max}=\alpha\,\frac{G M_{\rm total}}{c^2},
+    35	\]
+    36
+    37	where \(\alpha\) is dimensionless. Dimensional analysis does not determine \(\alpha\), prove that
+    38	these are the correct inputs, or establish that \(G\) and \(M_{\rm total}\) are already independent
+    39	native quantities. No Schwarzschild factor, including \(\alpha=2\), may be imported.
+    40
+    41	A possible whole-system closure would instead be implicit:
+    42
+    43	\[
+    44	X_{\max}
+    45	=\alpha\,\frac{G\,M_{\rm total}[X_{\max}]}{c^2}.
+    46	\]
+    47
+    48	This becomes meaningful only after UDT supplies a native action, mass definition, and total-mass
+    49	functional. It is not evidence merely because it is dimensionally possible.
+    50
+    51	## Global constants need not be primitive inputs
+    52
+    53	Owner PONDER, 2026-07-15: \(X_{\max}\) may be as permanent and universal within the realized
+    54	universe as \(c\), while both numerical values may be fixed by the universe's total mass and size.
+    55	Record this as a **LEAD**, not a derived relation and not a decision that \(c\) varies locally.
+    56
+    57	\[
+    58	\boxed{
+    59	\text{operationally universal constant}
+    60	\;\not\Rightarrow\;
+    61	\text{ontologically independent primitive}.
+    62	}
+    63	\]
+    64
+    65	If \(c\) is also a whole-universe output, the dimensional relation should be written as the single
+    66	dimensionless compactness
+    67
+    68	\[
+    69	\chi_U=\frac{G M_{\rm total}}{c^2X_{\max}}.
+    70	\]
+    71
+    72	Equations such as
+    73
+    74	\[
+    75	c^2=\beta\,\frac{G M_{\rm total}}{X_{\max}}
+    76	\qquad\Longleftrightarrow\qquad
+    77	X_{\max}=\beta\,\frac{G M_{\rm total}}{c^2}
+    78	\]
+    79
+    80	are the same one relation, not two independent derivations. They determine only
+    81	\(\chi_U=1/\beta\). A second independent native closure is required to determine both \(c\) and
+    82	\(X_{\max}\), and the dimensionless \(\beta\) must emerge rather than be fitted or imported.
+    83
+    84	The admissible target is therefore a coupled global-eigenvalue problem in which \(c\) and
+    85	\(X_{\max}\) remain constant across the realized solution, while the full UDT action, carrier (if
+    86	any), and whole-system regularity determine their values. No local \(c(x)\) or \(X_{\max}(x)\) is
+    87	implied.
+    88
+    89	## Falsification gates
+    90
+    91	The mass-closure lead fails if:
+    92
+    93	1. \(M_{\rm total}\) cannot be defined without already assuming \(X_{\max}\) in a circular,
+    94	   non-variational way;
+    95	2. the closure has no positive solution, an arbitrary continuum, or requires a fitted \(\alpha\);
+    96	3. different subsystems demand different values of the allegedly universal \(X_{\max}\);
+    97	4. the relation requires an imported gravitational mass or boundary normalization;
+    98	5. the resulting solution does not make \(X_{\max}\) unattainable under the full time-live
+    99	   dynamics.
+   100	6. treating \(c\) and \(X_{\max}\) as joint outputs supplies only the one dimensional relation
+   101	   above and no independent equation fixing the pair;
+   102	7. either “constant” must be varied locally or fitted separately across systems to make the
+   103	   closure work.
+   104
+   105	## Frozen-record note
+   106
+   107	Prior files that label \(X_{\max}\) a POSTULATE remain valid as historical records of the working
+   108	frame. Prospectively, read POSTULATE there as **WORKING POSIT: existence/unattainability**, with
+   109	**origin/value OPEN** under this clarification.
+
+exec
+/bin/bash -lc "nl -ba 'UDT_RECIPROCAL_C_FOUNDING_POSTULATE_VERIFY_DISPATCH.md'" in /tmp/udt_native_sync_audit.8UHf9X
+ succeeded in 0ms:
+     1	# Workstation dispatch — cold audit of the Reciprocal-c founding postulate
+     2
+     3	## Attribution and scope
+     4
+     5	Charles Rotter proposed on 2026-07-15:
+     6
+     7	> **$c$ is a reciprocal identity of time and length—not a one-way speed.** The directions
+     8	> $L=cT$ and $T=L/c$ are equally fundamental.
+     9
+    10	The derivation combines this with the previously stated UDT Reciprocity Principle and positional
+    11	composition. Independently determine whether that combination genuinely derives the reciprocal
+    12	metric or merely conceals it in terminology.
+    13
+    14	Audit only these new files:
+    15
+    16	- `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md`
+    17	- `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`
+    18	- `verify_udt_reciprocal_c_postulate.py`
+    19	- `verify_udt_reciprocal_c_postulate_out.txt`
+    20
+    21	Do not alter `LIVE.md` or `CANON.md`, adopt the postulate, start F/G, or import GR field equations.
+    22
+    23	## 1. Cold formalization
+    24
+    25	Before reading the supplied proof in detail, give at least two precise mathematical meanings of
+    26	“$c$ is a reciprocal identity.” Test separately:
+    27
+    28	1. ordinary covariance/intertwining of the isomorphism $c:\mathcal T\to\mathcal L$;
+    29	2. a dual/contragredient action on the two conversion directions.
+    30
+    31	Report whether the first forces equal or inverse scale factors. Do not allow the successful second
+    32	meaning to erase the first countercase.
+    33
+    34	## 2. Reciprocity circularity gate
+    35
+    36	State the UDT Reciprocity Principle in words without metric coefficients. Then translate it into
+    37	an equation. Determine whether
+    38
+    39	$$
+    40	P^T K P=K
+    41	$$
+    42
+    43	is a faithful independent formulation or whether it simply postulates $uv=1$ under another name.
+    44	Return both the strongest defense and the strongest objection.
+    45
+    46	## 3. Metric derivation
+    47
+    48	Starting from
+    49
+    50	$$
+    51	q=(c\,dt,dr)^T,
+    52	\qquad
+    53	P(\Delta)=\operatorname{diag}(u(\Delta),v(\Delta)),
+    54	$$
+    55
+    56	audit:
+    57
+    58	1. the dual-pairing algebra;
+    59	2. the continuous composition theorem;
+    60	3. reversal;
+    61	4. exclusion or survival of the trivial representation;
+    62	5. the local quadratic metric readout;
+    63	6. every assumption required to obtain
+    64	   $ds^2=-e^{-2\phi}c^2dt^2+e^{2\phi}dr^2+r^2d\Omega^2$.
+    65
+    66	Identify explicitly which parts come from Reciprocal-c, Reciprocity, positional relativity,
+    67	observation, and inherited local metric structure.
+    68
+    69	## 4. Consequence audit
+    70
+    71	Recompute independently:
+    72
+    73	$$
+    74	\det P,
+    75	\qquad
+    76	\det g_{(t,r)},
+    77	\qquad
+    78	\sqrt{-g},
+    79	$$
+    80
+    81	$$
+    82	S^{-1}dS,
+    83	\qquad
+    84	\frac12\operatorname{Tr}\!\left[(S^{-1}dS)^2\right],
+    85	\qquad
+    86	\frac12\operatorname{Tr}(S_A^{-1}S_B).
+    87	$$
+    88
+    89	Determine whether the quadratic tangent inner product is unique up to normalization on the
+    90	one-dimensional group. Separate this geometric fact from an action principle.
+    91
+    92	## 5. Action adversary
+    93
+    94	Test the family
+    95
+    96	$$
+    97	I_F=\int dV_4\,F(Y),
+    98	\qquad
+    99	Y=\frac12\operatorname{Tr}(J_\mu J^\mu).
+   100	$$
+   101
+   102	Exhibit at least two symmetry-compatible choices with different nonlinear Euler equations. Then
+   103	independently reduce the canonical quadratic choice in the full reciprocal physical metric to the
+   104	static radial sector and test it on
+   105
+   106	$$
+   107	A(r)=1-\frac rX.
+   108	$$
+   109
+   110	Audit the reported residual
+   111
+   112	$$
+   113	\left.\mathcal E_A\right|_{\rm WR-L}
+   114	=-\frac{r(4X-3r)}{4(X-r)^2}.
+   115	$$
+   116
+   117	Any algebraic error must be corrected before a conclusion is returned.
+   118
+   119	## 6. $X$ audit
+   120
+   121	Determine independently whether the local postulates contain or select a length scale. Check
+   122
+   123	$$
+   124	\phi_{\rm WR-L}=-\frac12\ln(1-r/X)
+   125	$$
+   126
+   127	and its $r\to X^-$ limit. Separate:
+   128
+   129	- infinite group depth;
+   130	- coordinate location $X$;
+   131	- global boundary datum;
+   132	- integration constant;
+   133	- fundamental constant.
+   134
+   135	Do not recommend postulating $X_{\max}$ merely because it is absent locally.
+   136
+   137	## 7. Required verdict
+   138
+   139	Return:
+   140
+   141	1. PASS/FAIL for sections 1–6;
+   142	2. corrected algebra for every failure;
+   143	3. full hidden-assumption ledger;
+   144	4. strongest circularity objection;
+   145	5. strongest reason the postulate is genuinely upstream;
+   146	6. one metric verdict:
+   147	   - **FAILS TO DERIVE UDT METRIC**;
+   148	   - **DERIVES ONLY BY RESTATEMENT**;
+   149	   - **DERIVES UNDER EXPLICIT INDEPENDENT PREMISES**;
+   150	7. one action verdict:
+   151	   - **UNIQUE ACTION DERIVED**;
+   152	   - **QUADRATIC GEOMETRY ONLY; ACTION OPEN**;
+   153	8. one $X$ verdict:
+   154	   - **LOCALLY DERIVED**;
+   155	   - **GLOBAL/INTEGRATION STATUS OPEN**;
+   156	   - **MUST BE POSTULATED**, with proof.
+   157
+   158	Retain raw scripts and output. Stop after reporting; no canon or frontier rewrite without Charles's
+   159	explicit verdict.
+
+exec
+/bin/bash -lc "nl -ba 'verify_udt_reciprocal_c_postulate.py'" in /tmp/udt_native_sync_audit.8UHf9X
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Exact audit of the user-proposed reciprocal-c founding postulate.
+     3
+     4	This distinguishes conversion-map covariance from reciprocal duality, verifies
+     5	the metric implication of the latter, and checks the surviving action/profile
+     6	nonuniqueness. It does not adopt the postulate or bank a UDT conclusion.
+     7	"""
+     8
+     9	import sympy as sp
+    10
+    11
+    12	checks = []
+    13
+    14
+    15	def check(name, statement):
+    16	    ok = bool(statement)
+    17	    checks.append((name, ok))
+    18	    print(f"[{'PASS' if ok else 'FAIL'}] {name}")
+    19	    if not ok:
+    20	        raise AssertionError(name)
+    21
+    22
+    23	c, u, v = sp.symbols("c u v", positive=True)
+    24
+    25	# F1: ordinary naturality of an isomorphism c:T->L gives equal, not dual,
+    26	# representations in one dimension.
+    27	intertwining_defect = sp.simplify(v * c - c * u)
+    28	check("conversion-map covariance gives equal scale factors",
+    29	      sp.solve(intertwining_defect, v) == [u])
+    30	check("conversion-map covariance does not generically give reciprocity",
+    31	      sp.simplify((u * v).subs(v, u) - 1) == u**2 - 1)
+    32
+    33	# F2: contragredient time-length duality preserves an off-diagonal evaluation
+    34	# pairing and forces inverse scale factors.
+    35	K = sp.Matrix([[0, 1], [1, 0]])
+    36	P = sp.diag(u, v)
+    37	pairing_pullback = sp.simplify(P.T * K * P)
+    38	check("dual pairing scales by product uv", pairing_pullback == u * v * K)
+    39	check("pairing preservation forces inverse scale",
+    40	      sp.solve(sp.Eq(u * v, 1), v) == [1 / u])
+    41
+    42	# Continuous positive representation of additive positional depth.
+    43	d1, d2, k = sp.symbols("d1 d2 k", real=True)
+    44	U = lambda d: sp.exp(-k * d)
+    45	V = lambda d: sp.exp(k * d)
+    46	check("temporal representation composes",
+    47	      sp.simplify(U(d1 + d2) - U(d1) * U(d2)) == 0)
+    48	check("radial representation composes",
+    49	      sp.simplify(V(d1 + d2) - V(d1) * V(d2)) == 0)
+    50	check("representations are reciprocal", sp.simplify(U(d1) * V(d1)) == 1)
+    51	check("comparison reverses", sp.simplify(U(-d1) - 1 / U(d1)) == 0
+    52	      and sp.simplify(V(-d1) - 1 / V(d1)) == 0)
+    53	check("trivial representation remains allowed", U(d1).subs(k, 0) == 1
+    54	      and V(d1).subs(k, 0) == 1)
+    55
+    56	# Metric readout in the transformed dimension-matched coframe.
+    57	phi, r, theta = sp.symbols("phi r theta", real=True)
+    58	r_pos = sp.symbols("r_pos", positive=True)
+    59	gtt = -c**2 * sp.exp(-2 * phi)
+    60	grr = sp.exp(2 * phi)
+    61	det2 = sp.simplify(gtt * grr)
+    62	det4 = sp.simplify(det2 * r_pos**4 * sp.sin(theta)**2)
+    63	check("reciprocal-c dual representation gives UDT clock coefficient",
+    64	      gtt == -c**2 * sp.exp(-2 * phi))
+    65	check("reciprocal-c dual representation gives UDT radial coefficient",
+    66	      grr == sp.exp(2 * phi))
+    67	check("radial metric determinant is fixed", det2 == -c**2)
+    68	check("four-volume is independent of dilation depth",
+    69	      sp.diff(det4, phi) == 0)
+    70
+    71	# Equal-scaling F1 instead produces a conformal radial block, demonstrating
+    72	# that c as a reversible isomorphism alone is insufficient.
+    73	w = sp.symbols("w", positive=True)
+    74	f1_det2 = sp.simplify((-c**2 * w**2) * w**2)
+    75	check("equal-scaling formalization gives a different metric family",
+    76	      f1_det2 == -c**2 * w**4)
+    77	check("equal-scaling determinant is not fixed for nontrivial scale",
+    78	      sp.diff(f1_det2, w) != 0)
+    79
+    80	# Local measured null speed remains c for arbitrary positive coframe scales,
+    81	# so invariant local c alone cannot choose between F1 and F2.
+    82	coordinate_null_speed = sp.simplify(c * u / v)
+    83	physical_null_speed = sp.simplify(v * coordinate_null_speed / u)
+    84	check("local measured null speed is c for arbitrary scales",
+    85	      physical_null_speed == c)
+    86
+    87	# Determinant-one group consequences.
+    88	S = sp.diag(sp.exp(-phi), sp.exp(phi))
+    89	check("positional duality transformation has determinant one", S.det() == 1)
+    90	check("positional duality preserves evaluation pairing",
+    91	      sp.simplify(S.T * K * S - K) == sp.zeros(2))
+    92	check("positional reversal is matrix inversion",
+    93	      sp.simplify(S.subs(phi, -phi) - S.inv()) == sp.zeros(2))
+    94	H = sp.simplify(S.inv() * sp.diff(S, phi))
+    95	check("positional generator is traceless", sp.trace(H) == 0)
+    96	check("canonical group tangent norm is quadratic", sp.trace(H * H) / 2 == 1)
+    97
+    98	# Relative invariant.
+    99	phi1, phi2 = sp.symbols("phi1 phi2", real=True)
+   100	S1 = sp.diag(sp.exp(-phi1), sp.exp(phi1))
+   101	S2 = sp.diag(sp.exp(-phi2), sp.exp(phi2))
+   102	relative_trace = sp.simplify(sp.trace(S1.inv() * S2) / 2)
+   103	cosh_exp = (sp.exp(phi2 - phi1) + sp.exp(phi1 - phi2)) / 2
+   104	check("relative invariant is reversal-even",
+   105	      sp.simplify(relative_trace - cosh_exp) == 0)
+   106
+   107	# The group gives a canonical quadratic tangent scalar but not a unique action.
+   108	x, alpha = sp.symbols("x alpha", real=True)
+   109	f = sp.Function("f")(x)
+   110	fp = sp.diff(f, x)
+   111	Y = fp**2
+   112	L_quadratic = Y / 2
+   113	L_counter = Y / 2 + alpha * Y**2 / 4
+   114	EL_quadratic = sp.simplify(sp.diff(sp.diff(L_quadratic, fp), x)
+   115	                           - sp.diff(L_quadratic, f))
+   116	EL_counter = sp.factor(sp.simplify(sp.diff(sp.diff(L_counter, fp), x)
+   117	                                   - sp.diff(L_counter, f)))
+   118	check("quadratic action gives linear one-dimensional equation",
+   119	      EL_quadratic == sp.diff(f, x, 2))
+   120	check("reciprocity-compatible counteraction gives different equation",
+   121	      sp.simplify(EL_counter
+   122	                  - (1 + 3 * alpha * fp**2) * sp.diff(f, x, 2)) == 0)
+   123	check("founding kinematics does not select unique action",
+   124	      sp.simplify(EL_counter - EL_quadratic) != 0)
+   125
+   126	# No local X selector: any positive reciprocal profile belongs to the same
+   127	# kinematic family. WR-L is one member.
+   128	X = sp.symbols("X", positive=True)
+   129	A = sp.Function("A")(r_pos)
+   130	general_det = sp.simplify((-c**2 * A) / A)
+   131	check("arbitrary reciprocal radial profile obeys the kinematics",
+   132	      general_det == -c**2)
+   133	check("WR-L profile is one member but is not selected",
+   134	      sp.simplify(general_det.subs(A, 1 - r_pos / X) + c**2) == 0)
+   135
+   136	# In the WR-L member, the wall is group infinity, but the group does not set
+   137	# the coordinate X at which it is approached.
+   138	phi_wrl = -sp.log(1 - r_pos / X) / 2
+   139	check("WR-L wall is infinite reciprocal depth",
+   140	      sp.limit(phi_wrl, r_pos, X, dir="-") == sp.oo)
+   141
+   142	# Even choosing the canonical quadratic group norm as a physical-metric action
+   143	# does not yield the WR-L profile.  For static radial phi and A=exp(-2 phi),
+   144	# sqrt(-g) g^rr phi'^2 reduces (up to a constant) to r^2 A'^2/(4A).
+   145	Aprime = sp.diff(A, r_pos)
+   146	L_canonical = r_pos**2 * Aprime**2 / (4 * A)
+   147	EL_canonical = sp.factor(sp.simplify(
+   148	    sp.diff(sp.diff(L_canonical, Aprime), r_pos)
+   149	    - sp.diff(L_canonical, A)))
+   150	A_wrl = 1 - r_pos / X
+   151	EL_on_wrl = sp.factor(EL_canonical.subs({
+   152	    A: A_wrl,
+   153	    sp.diff(A, r_pos): -1 / X,
+   154	    sp.diff(A, r_pos, 2): 0,
+   155	}))
+   156	check("canonical quadratic group action does not produce WR-L",
+   157	      sp.simplify(EL_on_wrl + r_pos * (4 * X - 3 * r_pos)
+   158	                  / (4 * (X - r_pos)**2)) == 0)
+   159
+   160	passed = sum(ok for _, ok in checks)
+   161	print(f"ALL CONSISTENT ({passed}/{len(checks)} checks pass)")
+   162	print(f"SymPy {sp.__version__}")
+
+exec
+/bin/bash -lc "nl -ba 'verify_udt_reciprocal_c_postulate_out.txt'" in /tmp/udt_native_sync_audit.8UHf9X
+ succeeded in 0ms:
+     1	[PASS] conversion-map covariance gives equal scale factors
+     2	[PASS] conversion-map covariance does not generically give reciprocity
+     3	[PASS] dual pairing scales by product uv
+     4	[PASS] pairing preservation forces inverse scale
+     5	[PASS] temporal representation composes
+     6	[PASS] radial representation composes
+     7	[PASS] representations are reciprocal
+     8	[PASS] comparison reverses
+     9	[PASS] trivial representation remains allowed
+    10	[PASS] reciprocal-c dual representation gives UDT clock coefficient
+    11	[PASS] reciprocal-c dual representation gives UDT radial coefficient
+    12	[PASS] radial metric determinant is fixed
+    13	[PASS] four-volume is independent of dilation depth
+    14	[PASS] equal-scaling formalization gives a different metric family
+    15	[PASS] equal-scaling determinant is not fixed for nontrivial scale
+    16	[PASS] local measured null speed is c for arbitrary scales
+    17	[PASS] positional duality transformation has determinant one
+    18	[PASS] positional duality preserves evaluation pairing
+    19	[PASS] positional reversal is matrix inversion
+    20	[PASS] positional generator is traceless
+    21	[PASS] canonical group tangent norm is quadratic
+    22	[PASS] relative invariant is reversal-even
+    23	[PASS] quadratic action gives linear one-dimensional equation
+    24	[PASS] reciprocity-compatible counteraction gives different equation
+    25	[PASS] founding kinematics does not select unique action
+    26	[PASS] arbitrary reciprocal radial profile obeys the kinematics
+    27	[PASS] WR-L profile is one member but is not selected
+    28	[PASS] WR-L wall is infinite reciprocal depth
+    29	[PASS] canonical quadratic group action does not produce WR-L
+    30	ALL CONSISTENT (29/29 checks pass)
+    31	SymPy 1.13.3
+
+codex
+The main synchronization safeguards are substantively aligned: the Stage-I file set is identical in the controller and arm prompt, action uniqueness is countermodel-gated, and no C²/EH/H3/WR-L/mass conclusion appears in the cold files. I’m doing the final hostile pass now for subtler premise promotion, weakened owner language, and taxonomy/algebra defects.
+exec
+/bin/bash -lc "rg -n \"FOUND|DERIV|CHOSE|WORKING|OPEN|CONDIT|POSIT|OBSERVED|FREE|HABIT|SURVIV|LEAD|LOCK|canonical|relative width|density|Einstein|EH|C\\"'^2|WR-L|H3|G'"\\b|X_max|X_\\{max\\}|S\\"'^2" -- *.md' in /tmp/udt_native_sync_audit.8UHf9X
+ succeeded in 0ms:
+UDT_S2_CARRIER_STATUS_CLARIFICATION_2026-07-15.md:1:# Owner clarification — status of the \(S^2\) carrier
+UDT_S2_CARRIER_STATUS_CLARIFICATION_2026-07-15.md:9:The \(S^2\) matter carrier was historically accepted as foundational **as a working posit after
+UDT_S2_CARRIER_STATUS_CLARIFICATION_2026-07-15.md:11:\(S^2\) is fundamental UDT truth.
+UDT_S2_CARRIER_STATUS_CLARIFICATION_2026-07-15.md:15:\text{\(S^2\) carrier = HISTORICAL WORKING POSIT, now REOPENED.}
+UDT_S2_CARRIER_STATUS_CLARIFICATION_2026-07-15.md:26:No result may assume that Charles has newly canonized or permanently fixed the \(S^2\) carrier.
+UDT_S2_CARRIER_STATUS_CLARIFICATION_2026-07-15.md:31:  working \(S^2\), round-target, \(L_2+L_4\) model and its numerical scope**.
+UDT_S2_CARRIER_STATUS_CLARIFICATION_2026-07-15.md:32:- They do not establish that \(S^2\) is the unique or fundamental UDT matter carrier.
+UDT_S2_CARRIER_STATUS_CLARIFICATION_2026-07-15.md:35:  rejected because it differs from the existing \(S^2\) model.
+UDT_S2_CARRIER_STATUS_CLARIFICATION_2026-07-15.md:41:They remain unchanged for audit integrity. Their \(S^2\)-POSIT rows are superseded prospectively by
+UDT_S2_CARRIER_STATUS_CLARIFICATION_2026-07-15.md:52:The existing \(S^2\) carrier is one falsifiable survivor candidate in that census.
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_VERIFY_DISPATCH.md:16:- `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md`
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_VERIFY_DISPATCH.md:17:- `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_VERIFY_DISPATCH.md:21:Do not alter `LIVE.md` or `CANON.md`, adopt the postulate, start F/G, or import GR field equations.
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_VERIFY_DISPATCH.md:103:independently reduce the canonical quadratic choice in the full reciprocal physical metric to the
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_VERIFY_DISPATCH.md:113:\left.\mathcal E_A\right|_{\rm WR-L}
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_VERIFY_DISPATCH.md:124:\phi_{\rm WR-L}=-\frac12\ln(1-r/X)
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_VERIFY_DISPATCH.md:147:   - **FAILS TO DERIVE UDT METRIC**;
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_VERIFY_DISPATCH.md:148:   - **DERIVES ONLY BY RESTATEMENT**;
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_VERIFY_DISPATCH.md:149:   - **DERIVES UNDER EXPLICIT INDEPENDENT PREMISES**;
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_VERIFY_DISPATCH.md:151:   - **UNIQUE ACTION DERIVED**;
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_VERIFY_DISPATCH.md:152:   - **QUADRATIC GEOMETRY ONLY; ACTION OPEN**;
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_VERIFY_DISPATCH.md:154:   - **LOCALLY DERIVED**;
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_VERIFY_DISPATCH.md:155:   - **GLOBAL/INTEGRATION STATUS OPEN**;
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md:157:- Do not import GR field equations or an EH action as UDT derivations.
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md:158:- Do not infer matter emergence or an $S^2$ carrier from the kinematic group.
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:129:| $c$ and $c^{-1}$ are coequal physical conversion directions | **PROPOSED FOUNDATIONAL — Charles Rotter** | Makes time and length a reciprocal physical pair rather than a one-way speed relation. |
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:130:| UDT Reciprocity acts contragrediently on that pair | **FOUNDATIONAL INTERPRETATION** | Forces $uv=1$. |
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:131:| Relative comparisons compose continuously | **POSIT / positional relativity** | Forces exponential dependence on additive depth. |
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:132:| At least one comparison is nonidentity | **OBSERVED or separate POSIT** | Excludes the trivial $u=v=1$ representation. |
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:134:| Sign and unit of $\phi$ | **CHOSE** | Coordinate convention on the one-dimensional positional group. |
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:237:does derive a canonical quadratic **infinitesimal geometry**, unique up to normalization.
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:245:> physical-metric $F(Y)$ has now been solved. Making WR-L stationary requires
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:247:> contains $X$. See `UDT_WRL_SCAFFOLD_NATIVE_ACTION_SEPARATION_DERIVATION_RESULTS.md`.
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:250:> declared representational, the lowest-order four-dimensional conformal metric action is $C^2$.
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:251:> Its full Bach equation admits WR-L with $X$ as a solution constant, but WR-L has $C^2=0$ and is
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:252:> not selected. See `UDT_RECIPROCAL_C_CONFORMAL_ACTION_DERIVATION_RESULTS.md`.
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:288:Choosing the canonical norm anyway, using the full reciprocal physical metric, and restricting
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:301:The exact Euler expression evaluated on WR-L, $A=1-r/X$, is
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:304:\left.\mathcal E_A\right|_{\rm WR-L}
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:309:produce WR-L. More action structure is required; inventing it would not be a derivation.
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:322:Nevertheless it clarifies the wall. For WR-L,
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:337:depth. Thus asymptotic infinite dilation is natural once the WR-L profile is supplied. The local
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:343:- Keep $X$ **OPEN / WORKING** as a global boundary datum, solution integration scale, or quantity
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:364:\text{FOUNDATIONAL CANDIDATE proposed by Charles Rotter: reciprocal-c identity;}\\
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:365:\text{DERIVED with UDT Reciprocity and declared continuity premises: reciprocal metric family;}\\
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:366:\text{DERIVED: determinant-one group, preserved volume, canonical quadratic tangent norm;}\\
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:367:\text{NOT DERIVED: nontriviality, unique action, WR-L radial profile, or }X;\\
+UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:368:\text{FALSIFIED: the obvious quadratic group action as the WR-L action.}
+UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md:35:1. `UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md` — revised controller/Arm-C dispatch;
+UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md:38:4. `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md`;
+UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md:39:5. `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`;
+UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md:40:6. `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_VERIFY_DISPATCH.md`;
+UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md:55:- **FOUNDING:** Reciprocal-c Identity — `c` and `c^{-1}` are coequal time/length conversion
+UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md:57:- **FOUNDING:** the UDT Reciprocity Principle acts dually on those conversion directions.
+UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md:58:- **FOUNDING, locked:** Common-Scale Neutrality — a simultaneous local common rescaling of time and
+UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md:60:- **FOUNDING owner statement retained:** positional dilation is a founding UDT principle. The new
+UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md:64:- **HISTORICAL WORKING POSIT, REOPENED:** the `S^2` carrier may emerge, remain independently needed,
+UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md:65:  or be replaced. The existing H3 results remain conditional on the chosen `S^2`, round-target,
+UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md:67:- **WORKING POSIT:** one universal unattainable `X_max` exists; whether it is primitive or a global
+UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md:68:  output such as a function of `c`, total mass, and `G` remains OPEN. Insert no Schwarzschild factor.
+UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md:69:- **OWNER-STATED WORKING PRINCIPLE:** the universe is a self-consistent global bootstrap and
+UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md:70:  matter-bearing global solutions occupy a narrow total-density window. Insert no density value,
+UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md:74:particular it must not disclose the conditional `C^2` action branch, WR-L/scaffold findings, carrier
+UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md:75:coupling results, H3 lapse identity, target mass identity, or any desired conclusion to Stage-I arms.
+UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md:98:4. any treatment of `S^2`, `X_max`, a density value, `G`, or EH as already derived;
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:11:`FOUNDING` status for Reciprocal-c and dual Reciprocity is directed by
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:26:  receive this controller dispatch, prior action conclusions, the EH-conditional H3 derivation, a
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:37:  (ii) unforced choices presented as forced, (iii) circularity (assuming EH-form structure while
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:51:  blind verification of the load-bearing step + Charles's sign-off. Only then does the EH-conditional
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:69:  boundary functional. Test uniqueness by counterexample. Einstein–Hilbert and Lovelock structures
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:76:  live CHOSE branch.
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:100:covariance" must be shown FORCED step by step; "the natural choice" is a HABIT tag, not a derivation.
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:106:1. the source/lapse mass rule (under the EH-conditional premise, \(M_N^{(0)}=2E_4\));
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:115:STRONG LEAD; the local surface theorem and infinite-volume closure remain OPEN. The old
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:121:## 2. FOUNDATION AND DISCLOSURE BOUNDARY
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:127:- positional dilation remains an owner-stated **FOUNDING PRINCIPLE** and is not demoted if the
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:137:- the $S^2$ carrier is a historical working posit now reopened; its flat-static $E_2+E_4$ functional
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:139:- one universal unattainable $X_{max}$ is a working posit, while primitive-versus-global origin and
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:141:- global bootstrap and an extremely narrow matter-bearing total-density window—qualitatively,
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:142:  relative width $\ll 1$—are owner-stated working principles, with no window center, width, density
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:144:- GR/EH may be used as a reference or mathematical comparison only;
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:145:- no earlier UDT action result, H3 lapse/mass identity, project preference, or target number is
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:148:Everything else must be derived or ledgered as FOUNDING / DERIVED / CHOSE / WORKING / OPEN /
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:149:CONDITIONAL / POSIT / OBSERVED / FREE / HABIT.
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:157:## 3. BINDING RULES (C0 carries the cold-arm form; enforce the same substance)
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:172:   BORROWING OF METHOD. CATEGORY-A (conditioning / numerical technique / *how* we solve) is ALWAYS
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:175:   machine-precision Taylor replacement — and USING GR AS A REFERENCE/LIMIT (flat/Schwarzschild/
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:182:5. *MAP before DERIVE:* each arm first delivers a MAP — the frame whole, the premise ledger (every
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:183:   value/BC/sign/weight it would be choosing, each tagged **FOUNDING / DERIVED / CHOSE / WORKING /
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:184:   OPEN / CONDITIONAL / POSIT / OBSERVED / FREE / HABIT**, with citation), the fork map — BEFORE any
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:208:proposals, H3 mass work, and superseded mechanisms are out of context. If an arm encounters any of
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:219:- D2 — Derivation: every step marked FORCED-BY(what) or CHOSEN(flagged, with the alternative kept
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:234:- Per-claim verdict: CONFIRMED-FORCED / ACTUALLY-CHOSEN / CIRCULAR / IMPORT / UNDETERMINED, with the
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:256:  C-2026-07-09-1 (WR-L, macro-sector context only).
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md:262:- A4: `w_alg_verifier_scripts/UDT_H3_STATIC_MASS_BACKREACTION_DISPATCH.md` (the EH-conditional frame,
+UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md:17:&&\text{WORKING POSIT},\\
+UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md:19:&&\text{OPEN},\\
+UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md:20:&X_{\max}=F(c,M_{\rm total},G)
+UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md:21:&&\text{LEAD / derivation target}.
+UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md:30:If \(c\), \(G\), and a natively defined total mass are the only dimensional inputs, dimensional
+UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md:34:X_{\max}=\alpha\,\frac{G M_{\rm total}}{c^2},
+UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md:38:these are the correct inputs, or establish that \(G\) and \(M_{\rm total}\) are already independent
+UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md:45:=\alpha\,\frac{G\,M_{\rm total}[X_{\max}]}{c^2}.
+UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md:55:Record this as a **LEAD**, not a derived relation and not a decision that \(c\) varies locally.
+UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md:69:\chi_U=\frac{G M_{\rm total}}{c^2X_{\max}}.
+UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md:75:c^2=\beta\,\frac{G M_{\rm total}}{X_{\max}}
+UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md:77:X_{\max}=\beta\,\frac{G M_{\rm total}}{c^2}
+UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md:108:frame. Prospectively, read POSTULATE there as **WORKING POSIT: existence/unattainability**, with
+UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md:109:**origin/value OPEN** under this clarification.
+UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md:1:# Owner-stated principle — global bootstrap and narrow matter-existence density
+UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md:7:**Effect:** new working principle for derivation; no action, carrier, density value, or canon entry is
+UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md:13:> total mass density of the universe.
+UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md:21:\text{A globally self-consistent matter-bearing solution exists only in a narrow total-density window.}
+UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md:26:This is recorded as an **OWNER-STATED WORKING PRINCIPLE** pending any later canon action. “Narrow” is
+UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md:35:- **Total density** means total mass divided by the proper volume of the complete realized spatial
+UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md:41:- **No nonlocal insertion:** the global average density may not be written directly into a local
+UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md:44:- **Recycling is redistribution:** conversion among ledger sectors does not change total density when
+UDT_NATIVE_ACTION_COLD_PACKET.md:1:# UDT NATIVE ACTION — STAGE-I COLD FOUNDATION PACKET
+UDT_NATIVE_ACTION_COLD_PACKET.md:6:and target identities. Status changes labeled `FOUNDING` below are supplied authoritatively by the
+UDT_NATIVE_ACTION_COLD_PACKET.md:10:## 1. FOUNDING LEDGER
+UDT_NATIVE_ACTION_COLD_PACKET.md:14:**FOUNDING — owner-stated, not to be re-derived or demoted:** positional dilation is a founding UDT
+UDT_NATIVE_ACTION_COLD_PACKET.md:15:principle. Under the separately ledgered positional-relativity **POSIT** below, positional comparison
+UDT_NATIVE_ACTION_COLD_PACKET.md:21:premises are used. They remain **POSIT / positional relativity unless separately owner-locked**:
+UDT_NATIVE_ACTION_COLD_PACKET.md:26:4. **nontriviality — OBSERVED or separate POSIT:** it is not derived from composition. The trivial
+UDT_NATIVE_ACTION_COLD_PACKET.md:32:**FOUNDING — owner-stated and synchronized by the governing dispatch:** `c` and `c^{-1}` are coequal
+UDT_NATIVE_ACTION_COLD_PACKET.md:36:**FOUNDING — synchronized by the governing dispatch:** the UDT Reciprocity Principle acts dually on
+UDT_NATIVE_ACTION_COLD_PACKET.md:53:This gives `uv=1`. The inverse relation is **DERIVED from the dual-action formulation**; the choice
+UDT_NATIVE_ACTION_COLD_PACKET.md:62:**FOUNDING — owner-locked:** a simultaneous local common rescaling of temporal and spatial measure
+UDT_NATIVE_ACTION_COLD_PACKET.md:83:Dimensionful scales—including any normalization later identified as `G`—must emerge from solution,
+UDT_NATIVE_ACTION_COLD_PACKET.md:99:## 2. DERIVED KINEMATIC CONTENT — AND ITS LIMIT
+UDT_NATIVE_ACTION_COLD_PACKET.md:101:Under the explicit **POSIT** that relative depth is additive and represented by positive comparisons
+UDT_NATIVE_ACTION_COLD_PACKET.md:109:gives exponentials. Thus the exponential form is **DERIVED CONDITIONALLY** on composition and the
+UDT_NATIVE_ACTION_COLD_PACKET.md:110:regularity premise. With `uv=1` and a **CHOSE** sign/unit convention for `phi`,
+UDT_NATIVE_ACTION_COLD_PACKET.md:117:representative—and using a **POSIT / CHOSE local Lorentzian quadratic readout** in the dimension-matched
+UDT_NATIVE_ACTION_COLD_PACKET.md:129:**CONDITIONAL slot-identification premise** outside a gradient-adapted coframe. A static spherical
+UDT_NATIVE_ACTION_COLD_PACKET.md:155:- **FOUNDING / canonical input—supplied for the static `phi` sector** (repository provenance: `CANON.md`): the spatial-depth
+UDT_NATIVE_ACTION_COLD_PACKET.md:164:## 4. MATTER-CARRIER STATUS AND CONDITIONAL SURVIVOR
+UDT_NATIVE_ACTION_COLD_PACKET.md:166:**HISTORICAL WORKING POSIT, REOPENED:** the round `S^2` carrier is not fixed as fundamental UDT
+UDT_NATIVE_ACTION_COLD_PACKET.md:170:The existing particle calculation remains a **CONDITIONAL SURVIVOR** within the chosen round-target
+UDT_NATIVE_ACTION_COLD_PACKET.md:174:\mathbf n:\mathbb R^3\to S^2,
+UDT_NATIVE_ACTION_COLD_PACKET.md:189:Within that model, the target and carrier choice are **CHOSE / HISTORICAL WORKING**, the displayed
+UDT_NATIVE_ACTION_COLD_PACKET.md:190:forms are **CONDITIONAL / CHOSE historical model content—supplied**, and the absolute coefficients are
+UDT_NATIVE_ACTION_COLD_PACKET.md:191:**FREE**. Stage I may audit their provenance but must not infer them from the founding kinematics.
+UDT_NATIVE_ACTION_COLD_PACKET.md:201:**WORKING POSIT:** one universal unattainable `X_max` exists. Its origin and value remain **OPEN**:
+UDT_NATIVE_ACTION_COLD_PACKET.md:203:mass, a normalization later identified as `G`, and additional native closure data. No such
+UDT_NATIVE_ACTION_COLD_PACKET.md:208:- Do not make `X_max` object-specific, locally fitted, or locally varying to close an equation.
+UDT_NATIVE_ACTION_COLD_PACKET.md:214:**OWNER-STATED WORKING PRINCIPLE:** the realized universe is a self-consistent global solution, and
+UDT_NATIVE_ACTION_COLD_PACKET.md:215:matter-bearing global solutions occupy an extremely narrow window in total density—qualitatively,
+UDT_NATIVE_ACTION_COLD_PACKET.md:216:relative width $\ll 1$—with no center, width, or density value supplied.
+UDT_NATIVE_ACTION_COLD_PACKET.md:220:- Total density means that full-ledger mass divided by the proper volume of the complete realized
+UDT_NATIVE_ACTION_COLD_PACKET.md:223:- Recycling among ledger sectors is redistribution and does not change total density when total mass
+UDT_NATIVE_ACTION_COLD_PACKET.md:225:- No density value or numerical width is supplied. Its center and width must emerge.
+UDT_NATIVE_ACTION_COLD_PACKET.md:229:  no local carrier solution exists outside the window is a separate **OPEN fork**, not an inference.
+UDT_NATIVE_ACTION_COLD_PACKET.md:243:- carrier-agnostic versus conditional round-`S^2` branches;
+UDT_NATIVE_ACTION_COLD_PACKET.md:246:- the status and role of `X_max` and global-bootstrap data;
+UDT_NATIVE_ACTION_COLD_PACKET.md:249:Tag every entry **FOUNDING / DERIVED / CHOSE / WORKING / OPEN / CONDITIONAL / POSIT / OBSERVED /
+UDT_NATIVE_ACTION_COLD_PACKET.md:250:FREE / HABIT**, with a citation or explicit statement of non-derivation. A theorem may classify a
+UDT_NATIVE_ACTION_COLD_PACKET.md:265:No particle masses, observational target values, density values, or tuning targets are available in
+UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md:9:| Status | **FOUNDATIONAL POSTULATE — LOCKED for the continuing derivation** |
+UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md:60:- the matter carrier, including whether $S^2$ emerges, survives as a posit, or is replaced;
+UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md:62:- the normalization identified observationally as $G$;
+UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md:74:`UDT_RECIPROCAL_C_CONFORMAL_ACTION_DERIVATION_RESULTS.md` is now founded with respect to its
+UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md:76:variation, and boundary premises retain their explicit CONDITIONAL status.
+UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md:1:# DISPATCH — UDT NATIVE ACTION, STAGE-I COLD DERIVATION
+UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md:7:remains a **FOUNDING UDT PRINCIPLE**; Reciprocal-c Identity and the dual action of UDT Reciprocity are
+UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md:8:`FOUNDING`; and Common-Scale Neutrality is owner-locked `FOUNDING`. Older derivation-time “candidate”
+UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md:34:  branch and the conditional surviving round-$S^2$, $E_2+E_4$ branch. The supplied expression is a
+UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md:46:## 2. BINDING RESEARCH RULES
+UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md:51:   non-derived status. The historical $S^2$ survivor may not be treated as uniquely selected.
+UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md:66:8. MAP before DERIVE: first state the whole frame, premise ledger, and fork map. Tag each premise
+UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md:67:   **FOUNDING / DERIVED / CHOSE / WORKING / OPEN / CONDITIONAL / POSIT / OBSERVED / FREE / HABIT**,
+UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md:74:   explicitly labeled CHOSE.
+UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md:81:    its reciprocal functional form; common scale is calibrational; $S^2$ is reopened; universal
+UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md:82:    unattainable $X_{max}$ has OPEN origin/value; and the global-bootstrap/extremely-narrow-density
+UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md:83:    principle (qualitatively, relative width $\ll 1$) supplies neither a window center, width, density
+UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md:93:- **D2 — derivation:** every step marked FORCED-BY(citation) or CHOSEN(alternatives retained); exact
+
+codex
+Verdict: **VERIFIED-WITH-CAVEATS — not ready for arm launch until the defects below are repaired.**
+
+I read all 13 files completely, read-only. I did not access a repository or external source, modify files, execute the verifier, or select a physics conclusion.
+
+## Findings
+
+1. **No prohibited native-action conclusion leaks into Stage I.**
+
+The Stage-I files do not disclose the C² branch, WR-L/scaffold results, carrier-coupling result, H3 lapse/mass identity, target mass identity, EH result, or preferred action. Supplying the conditional static \(S^2\), \(E_2+E_4\) carrier functional is expressly anticipated by the synchronized controller and is not presented as a gravitational action.
+
+2. **Action uniqueness is correctly countermodel-gated.**
+
+The controller, cold-arm dispatch, and cold packet consistently require a distinct admissible countermodel attempt. One valid alternative defeats `UNIQUE/FORCED`. No kinematic-to-action uniqueness is asserted in Stage I.
+
+3. **S², density, G, and EH are not represented as derived.**
+
+They remain respectively reopened/conditional, working-global, emergent or unidentified normalization, and comparison-only. \(X_{\max}\) is not called derived, but its owner provenance is weakened as described below.
+
+4. **The disclosure firewalls agree.**
+
+Both controller and arm prompt specify exactly the two Stage-I files, forbid repository access and historical inference, and require D0–D5 to be frozen before Stage II. No substantive firewall contradiction was found.
+
+5. **Displayed algebra is internally correct within its declared premises.**
+
+The diagonal decomposition, \(P^TKP=K\Rightarrow uv=1\), exponential representation, reciprocal metric block, determinant statements, group current/norm, counteraction Euler equations, WR-L depth limit, and reported canonical-action residual are algebraically consistent. The captured 29/29 output corresponds to the script’s 29 checks, though those checks certify encoded algebra only.
+
+## Launch-blocking defects
+
+### 1. The \(X_{\max}\) owner lead is qualitatively weakened
+
+The owner record labels
+
+\[
+X_{\max}=F(c,M_{\rm total},G)
+\]
+
+as **LEAD / derivation target** in [UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md](/tmp/udt_native_sync_audit.8UHf9X/UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md:20). The cold packet reduces it to something that merely “may” occur under the general `OPEN` label in [UDT_NATIVE_ACTION_COLD_PACKET.md](/tmp/udt_native_sync_audit.8UHf9X/UDT_NATIVE_ACTION_COLD_PACKET.md:201). That preserves non-derivation but not the exact positive owner provenance.
+
+Minimal exact fix, added after the `OPEN` sentence in the controller and both cold files:
+
+> **OWNER LEAD / derivation target, not derived:** \(X_{\max}=F(c,M_{\rm total},G)\). Primitive-versus-global origin, functional form, normalization, and value remain **OPEN**; dimensional compatibility supplies none of them.
+
+### 2. The surviving \(S^2\) ruling is made less specific
+
+The owner record expressly preserves the corrected \(Q_H=1\) critical-field and stability computation as valid within the working \(S^2\), round-target, \(L_2+L_4\) model and its numerical scope. The packet substitutes the vaguer “existing particle calculation remains a CONDITIONAL SURVIVOR.”
+
+That is directionally correct but weaker than the exact ruling.
+
+Minimal fix in the controller’s retained owner ledger:
+
+> The corrected \(Q_H=1\) critical-field and stability computation remains valid only within the working \(S^2\), round-target, \(L_2+L_4\) model and its stated numerical scope. It establishes neither carrier uniqueness nor emergence; carrier-action, metric-coupling, and mass conclusions remain conditional on carrier choice.
+
+The cold files can retain the non-result-specific formulation to avoid unnecessary Stage-I priming, but should say that this wording is a disclosure-safe abstraction of an exact controller-held owner ruling—not a weakening of it.
+
+### 3. Premise statuses and provenance qualifiers are syntactically conflated
+
+The required taxonomy is:
+
+`FOUNDING / DERIVED / CHOSE / WORKING / OPEN / CONDITIONAL / POSIT / OBSERVED / FREE / HABIT`.
+
+But the packet uses compounds such as:
+
+- `DERIVED CONDITIONALLY`
+- `FOUNDING / canonical input`
+- `CONDITIONAL SURVIVOR`
+- `CHOSE / HISTORICAL WORKING`
+- `OWNER-STATED WORKING PRINCIPLE`
+
+These are understandable, but they do not cleanly separate status from provenance and invite arms to copy non-taxonomic hybrid tags.
+
+Minimal exact normalization:
+
+- `DERIVED / CONDITIONAL` — provenance: …
+- `FOUNDING` — provenance: canonical input …
+- `CONDITIONAL` — provenance: historical survivor …
+- `WORKING / POSIT` — provenance: historical; presently reopened
+- `WORKING` — provenance: owner-stated principle
+
+No substantive ruling needs changing.
+
+### 4. The finite-cell seal condition has uncheckable provenance in this audit set
+
+[UDT_NATIVE_ACTION_COLD_PACKET.md](/tmp/udt_native_sync_audit.8UHf9X/UDT_NATIVE_ACTION_COLD_PACKET.md:155) promotes the odd-\(\phi\) seal condition to `FOUNDING / canonical input` while citing `CANON.md`, which is absent from the isolated 13-file evidence set. The controller affirms that finite-cell canon is available, but a synchronized draft is not the cited canon record. Its exact wording and strength therefore cannot be verified closed-world.
+
+Minimal fix before launch: add the exact canonical excerpt, identifier, and hash to the reviewed foundation records. Do not demote the condition merely because its source was omitted.
+
+### 5. “Dimensionless total densities” lacks a defined normalization
+
+[UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md](/tmp/udt_native_sync_audit.8UHf9X/UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md:49) calls \(\mathcal W\) a set of “dimensionless total densities,” while total density was defined as mass divided by proper volume and no nondimensionalizing scale is supplied.
+
+Minimal fix:
+
+> Let \(\mathcal W\) be the set of total densities …
+
+The ratio \(\operatorname{width}(\mathcal W)/\operatorname{center}(\mathcal W)\) is already dimensionless, so no invented normalization is needed.
+
+With those five repairs, the synchronized controller/cold package would merit **VERIFIED** on the supplied closed-world record. No physics conclusion is selected by this audit.
+tokens used
+58,716
+
+Script done on 2026-07-17 18:40:16-04:00 [COMMAND_EXIT_CODE="0"]
