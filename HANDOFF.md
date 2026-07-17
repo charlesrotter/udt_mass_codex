@@ -28,7 +28,7 @@ solver event, not physics); FD noise floor → exact-HVP layer; CAS caught my EL
 
 **F COMPLETE (2026-07-17, `UDT_H3_BOUNDARY_AUDIT_PATCH_THEN_F_DISPATCH.md`; commits 442c64e→2f024f8):**
 Part-A evidence patch green (5 defects fixed, verifiers 62/62 + CAS 4/4, zero scalar change). F basin
-characterization: ~82 branches (8 doublet dirs + iso±; θ≤1.2 rad; 3 grids) — zero topology changes,
+characterization: 83 branches (8 doublet dirs + iso±; θ≤1.2 rad; 3 grids) — zero topology changes,
 zero lower states, single robust basin; fine grids 24/24 RETURNED BASIN; T/R drift shelf fades with
 grid (box artifact). Verifier PASS 21/21; endpoint npz hashed. Scope: basin behavior, NOT dynamics/
 infinite-volume/mass. Records: `noNull_behavioral_F_results.md` + `noNull_F_*.json` + `F_evidence/`.

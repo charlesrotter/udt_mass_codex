@@ -30,7 +30,7 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-17 — H3 PARTICLE-MASS arc COMPLETE THROUGH F: stability SETTLED (twice-verified) → G conditional mass readout → boundary-virial (BOX-STRESS LEAD) → audit patch → **F basin characterization DONE (single robust basin, 82 branches, 3 grids, verifier 21/21)**. All dispatched work returned; Charles's audits + native-action §0/§1 review pending.) ============
+## ============ CURRENT STATE (2026-07-17 — H3 PARTICLE-MASS arc COMPLETE THROUGH F: stability SETTLED (twice-verified) → G conditional mass readout → boundary-virial (BOX-STRESS LEAD) → audit patch → **F basin characterization DONE (single robust basin, 83 branches, 3 grids, verifier 21/21)**. All dispatched work returned; Charles's audits + native-action §0/§1 review pending.) ============
 
 **➤➤➤ TOPMOST LAYER (2026-07-16 — read this + the two result docs, then stop):**
 - **G (conditional mass readout on the corrected carrier) COMPLETE** — `noNull_phaseG_mass_results.md`
@@ -53,7 +53,7 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **✅ AUDIT-PATCH + F DONE (2026-07-16→17, `UDT_H3_BOUNDARY_AUDIT_PATCH_THEN_F_DISPATCH.md`;
   commits 442c64e→2f024f8):** Part-A evidence patch green (5 record defects fixed; verifiers 62/62 +
   CAS 4/4; zero scalar change). **F basin characterization COMPLETE** (`noNull_behavioral_F_results.md`,
-  verifier PASS 21/21): ~82 branches (8 doublet-plane dirs + both iso signs; θ 0.05→1.20 rad;
+  verifier PASS 21/21): 83 branches (8 doublet-plane dirs + both iso signs; θ 0.05→1.20 rad;
   128/192/256) — **zero topology changes, zero lower states, single robust basin**; fine grids 24/24
   RETURNED BASIN; the T/R drift shelf fades with grid (−2.2e-3→−4e-4→−1.5e-4 = box artifact, matches
   the marginal-walls finding). Scope: relaxation/basin behavior in the L=6 frame — NOT dynamics,
