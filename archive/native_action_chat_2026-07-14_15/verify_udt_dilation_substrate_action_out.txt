@@ -1,0 +1,30 @@
+PASS 01: Rindler Riemann tensor vanishes
+PASS 02: Rindler Ricci tensor vanishes
+PASS 03: Rindler Ricci scalar vanishes
+PASS 04: Rindler dilation-potential gradient is nonzero
+PASS 05: a first-gradient density would charge the flat accelerated chart
+PASS 06: reciprocal static determinant is phi-independent
+PASS 07: SR/UDT gamma map beta^2 <-> r/X
+PASS 08: UDT kinematic gamma diverges at X
+PASS 09: spherical reciprocal Ricci scalar
+PASS 10: WR-L is curved with R=6/(X r)
+PASS 11: flat A=1 has zero curvature
+PASS 12: reciprocal one-function EH radial density is a total derivative
+PASS 13: reduced EH Euler operator vanishes identically
+PASS 14: a curvature-squared action is a distinct nonempty bulk branch
+PASS 15: both R and R^2 densities vanish on flat geometry
+PASS 16: Killing antisymmetry makes the stationary energy current conserved
+PASS 17: generic O(2) Noether identity
+PASS 18: two distinct actions possess the same O(2) symmetry
+PASS 19: internal charge is not automatically energy
+PASS 20: localized + horizon + reservoir transfer ledger closes
+PASS 21: uncompensated replacement matter double-counts mass
+PASS 22: Derrick stationarity gives E2=E4
+PASS 23: stationary carrier energy equals 2E4
+PASS 24: one observed mass fixes the product xi*kappa
+PASS 25: the coupling ratio and physical size remain free
+PASS 26: unrestricted and reciprocal-constrained carrier sources differ generically
+PASS 27: Mdot=0 implies Xdot=0 in the dimensional closure
+PASS 28: mass conservation does not determine the dimensionless closure coefficient
+
+RESULT: 28/28 checks pass

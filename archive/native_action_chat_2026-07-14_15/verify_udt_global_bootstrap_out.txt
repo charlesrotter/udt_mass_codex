@@ -1,0 +1,33 @@
+PASS 01: reciprocal spherical Ricci scalar
+PASS 02: WR-L Ricci scalar is 6/(X r)
+PASS 03: WR-L mixed Gtt is -2/(X r)
+PASS 04: WR-L mixed Grr is -2/(X r)
+PASS 05: WR-L mixed angular component is -1/(X r)
+PASS 06: WR-L cannot be EH+constant-Lambda vacuum
+PASS 07: dimensionless WR-L volume integral is 16/15
+PASS 08: conditional WR-L proper volume is (64 pi/15) X^3
+PASS 09: conditional WR-L horizon is at finite proper radius 2X
+PASS 10: conditional average density
+PASS 11: dimensionless density equals compactness divided by volume factor
+PASS 12: X=alpha GM/c^2 implies delta=1/(nu alpha)
+PASS 13: density-window lower compactness map
+PASS 14: density-window upper compactness map
+PASS 15: density-window alpha endpoints invert
+PASS 16: window parametrization has two distinct endpoints
+PASS 17: nonzero window does not pick one density
+PASS 18: dimensionless mass response equals predicted compactness
+PASS 19: WR-L bootstrap fixed point is nu*delta=mu(delta)
+PASS 20: two distinct response laws share the same bootstrap root
+PASS 21: shared bootstrap root does not reconstruct the response law
+PASS 22: density evolution identity
+PASS 23: dimensionless-density evolution identity
+PASS 24: constant mass and c leave delta controlled by X
+PASS 25: constant mass, X, and c keep density fixed
+PASS 26: c->scale*c and X->X/scale^2 preserve compactness
+PASS 27: flat L2+L4 stationary scale
+PASS 28: flat L2+L4 scale curvature is positive
+PASS 29: standalone flat carrier has no total-density variable
+PASS 30: electron anchor fixes xi*kappa product
+PASS 31: electron anchor leaves coupling ratio free
+
+RESULT: 31/31 checks pass

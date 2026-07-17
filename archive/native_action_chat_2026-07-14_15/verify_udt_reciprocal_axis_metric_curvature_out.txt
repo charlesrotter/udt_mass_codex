@@ -1,0 +1,36 @@
+[PASS] gamma lower symmetry
+[PASS] riemann last pair
+[PASS] riemann first pair
+[PASS] riemann pair exchange
+[PASS] riemann first bianchi
+[PASS] ricci symmetry
+[PASS] weyl trace
+[PASS] weyl invariant identity
+[PASS] q=1 gives zero scalar curvature
+[PASS] q=1 gives zero Ricci norm
+[PASS] q=1 gives zero Riemann norm
+[PASS] q=1 gives zero Weyl norm
+[PASS] k=0 gives zero full curvature
+[PASS] metric determinant is constant minus one
+[PASS] manufactured axis texture has area-form F=0
+[PASS] rank-one texture nevertheless has nonzero Weyl norm
+[PASS] rank-one texture has positive Weyl norm
+[PASS] exact closed form for R
+[PASS] exact closed form for Ricci2
+[PASS] exact closed form for Riemann2
+[PASS] exact closed form for Weyl2
+[PASS] scalar curvature scales as k^2
+[PASS] Ricci2 scales as k^4
+[PASS] Riemann2 scales as k^4
+[PASS] Weyl2 scales as k^4
+
+EXACT PROBES (k=1):
+q=1: R=0, Ricci2=0, Riemann2=0, Weyl2=0
+q=3/2: R=-1/12, Ricci2=17/48, Riemann2=203/144, Weyl2=19/27
+q=2: R=-1/4, Ricci2=19/16, Riemann2=75/16, Weyl2=7/3
+q=9/4: R=-25/72, Ricci2=3025/1728, Riemann2=35675/5184, Weyl2=3325/972
+q=3: R=-2/3, Ricci2=4, Riemann2=140/9, Weyl2=208/27
+q=4: R=-9/8, Ricci2=531/64, Riemann2=2043/64, Weyl2=63/4
+[PASS] closed forms hold at every rational q probe
+
+SUMMARY: 26/26 checks pass

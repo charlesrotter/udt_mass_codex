@@ -1,0 +1,31 @@
+[PASS] positive calibration decomposes into common and reciprocal clock factors
+[PASS] positive calibration decomposes into common and reciprocal ruler factors
+[PASS] reciprocal factor has determinant one
+[PASS] common scaling leaves the time-length ratio unchanged
+[PASS] volume density is not common-scale invariant
+[PASS] Ricci-scalar density has nonzero constant conformal weight
+[PASS] Weyl-squared density has zero conformal weight
+[PASS] Ricci scalar derived from metric
+[PASS] Ricci-square derived from metric
+[PASS] Riemann-square derived from metric
+[PASS] Euler density derived from metric
+[PASS] Euler radial density is a total derivative
+[PASS] Weyl-square derived from metric
+[PASS] Weyl-square differs from its two-invariant bulk form only by Euler density
+[PASS] reduced Einstein-Hilbert density has empty reciprocal bulk equation
+[PASS] R-square reciprocal Euler operator
+[PASS] Ricci-square reciprocal Euler operator
+[PASS] curvature-quadratic operators are independent
+[PASS] Euler density has empty bulk equation
+[PASS] Weyl-square reciprocal Euler operator
+[PASS] four-constant reciprocal family solves reduced Weyl equation
+[PASS] WR-L conformal curvature vanishes
+[PASS] WR-L Ricci scalar remains nonzero
+[PASS] full Bach tensor has no off-diagonal residue
+[PASS] full Bach temporal component gives algebraic constraint
+[PASS] full Bach radial component matches temporal component
+[PASS] full Bach angular components are opposite
+[PASS] full Bach tensor is trace free
+[PASS] WR-L passes full covariant Bach equation
+ALL CONSISTENT (29/29 checks pass)
+SymPy 1.13.3

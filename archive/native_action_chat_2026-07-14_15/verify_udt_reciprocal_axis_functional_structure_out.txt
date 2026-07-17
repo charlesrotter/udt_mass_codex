@@ -1,0 +1,38 @@
+[PASS] all full-tensor audits pass at all manufactured jets
+[PASS] exact closed form for R at all manufactured jets
+[PASS] exact closed form for Ricci2 at all manufactured jets
+[PASS] exact closed form for Riemann2 at all manufactured jets
+[PASS] exact closed form for Weyl2 at all manufactured jets
+[PASS] Weyl contraction identity at all manufactured jets
+[PASS] one-coordinate Weyl density is nonnegative at all probes
+[PASS] pure depth second jet has nonzero Weyl density
+[PASS] pure axis second jet has nonzero Weyl density
+[PASS] constant-q reduced density at p=0, s=0
+[PASS] constant-q reduced density at p=2/3, s=5/7
+[PASS] constant-q reduced density at p=-4/5, s=3/2
+[PASS] constant-q reduced Euler coefficient
+[PASS] pure-depth log formula at q=3/2
+[PASS] pure-depth log formula at q=2
+[PASS] pure-depth log formula at q=5
+[PASS] Weyl density scales as inverse length to the fourth
+[PASS] three-dimensional static integral scales as inverse size
+[PASS] positive homotopy q=1/4, t=0
+[PASS] positive homotopy q=1/4, t=1/5
+[PASS] positive homotopy q=1/4, t=1/2
+[PASS] positive homotopy q=1/4, t=1
+[PASS] positive homotopy q=3/2, t=0
+[PASS] positive homotopy q=3/2, t=1/5
+[PASS] positive homotopy q=3/2, t=1/2
+[PASS] positive homotopy q=3/2, t=1
+[PASS] positive homotopy q=7, t=0
+[PASS] positive homotopy q=7, t=1/5
+[PASS] positive homotopy q=7, t=1/2
+[PASS] positive homotopy q=7, t=1
+[PASS] isotropic endpoint erases constant-q axis curvature
+
+EXACT ONE-COORDINATE WEYL DENSITY:
+C2=(v/q-u^2/q^2-(q-1)p^2/q)^2
+   +((q-1)s+2up)^2/q
+   +(u^2-(q-1)q(2q+1)p^2)^2/(3q^4)
+
+SUMMARY: 31/31 checks pass

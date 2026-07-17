@@ -1,0 +1,29 @@
+[PASS] single-axis spatial metric has longitudinal eigenvalue exp(2phi)
+[PASS] single-axis spatial metric leaves transverse directions neutral
+[PASS] single-axis spatial determinant is exp(2phi)
+[PASS] reciprocal time factor makes full determinant constant
+[PASS] metric identifies n and -n as the same axis
+[PASS] axis orientation becomes metrically invisible at phi=0
+[PASS] unit axis has n dot n=1
+[PASS] axis derivatives are tangent
+[PASS] target-area form is antisymmetric
+[PASS] generic two-directional target area is nonzero
+[PASS] rank-one target area vanishes
+[PASS] rank-one Gram invariants obey Q1=Q2
+[PASS] rank-one Q2 countermodel has positive cost
+[PASS] area-form cost Q1-Q2 vanishes on rank one
+[PASS] one-dimensional reciprocal-depth current has zero loop wedge
+[PASS] axis-orientation reversal flips F
+[PASS] axis-orientation reversal leaves F squared invariant
+[PASS] proper target rotation preserves F
+[PASS] improper target reflection flips F
+[PASS] full O(3) leaves F squared invariant
+[PASS] ordered-index Gram identity is F_ij F_ij=Q1-Q2
+[PASS] lower-index pullback F is CSN neutral
+[PASS] raised F squared has CSN weight -4
+[PASS] sqrt(-g) F squared has total CSN weight zero
+[PASS] decomposable pullback two-form has F wedge F=0
+[PASS] static spatial two-form norm is nonnegative
+[PASS] static spatial norm vanishes only when all area components vanish
+
+SUMMARY: 27/27 checks pass

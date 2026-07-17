@@ -1,0 +1,20 @@
+[PASS] two-derivative density has weight plus two in 4D
+[PASS] four-derivative density is common-scale neutral in 4D
+[PASS] six-derivative density has weight minus two in 4D
+[PASS] fixed scalar mass density is not scale neutral in 4D
+[PASS] massive point action rescales with proper interval
+[PASS] Bach source equation requires zero trace
+[PASS] two-derivative carrier trace is nonzero in 4D
+[PASS] quartic carrier trace vanishes in 4D
+[PASS] two-derivative carrier density violates CSN
+[PASS] quartic carrier density respects CSN
+[PASS] quartic invariants agree on rank-one probe
+[PASS] quartic invariants differ on rank-two probe
+[PASS] common scale cannot select one quartic carrier invariant
+[PASS] quartic-only energy has no finite stationary radius
+[PASS] two-term stationary radius
+[PASS] two-term stationary point has positive radial Hessian
+[PASS] stationarity gives equal scaling energies
+[PASS] a post-scale two-derivative coefficient has inverse-length-square dimension
+ALL CONSISTENT (18/18 checks pass)
+SymPy 1.13.3

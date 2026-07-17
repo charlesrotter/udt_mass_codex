@@ -1,0 +1,30 @@
+[PASS] all WR-L metric components carry one common X^2
+[PASS] all residual WR-L component shapes are dimensionless
+[PASS] dimensionless WR-L lapse is A=1-rho
+[PASS] wall is the dimensionless location rho=1
+[PASS] simultaneous r and X dilation leaves A invariant
+[PASS] dimensionless proper radial length is 2
+[PASS] dimensionless radial volume integral is 16/15
+[PASS] dimensionless angular-integrated volume coefficient is 64pi/15
+[PASS] proper radial length has X-weight 1
+[PASS] proper volume has X-weight 3
+[PASS] WR-L scalar curvature R=6/(X^2 rho) has X-weight -2
+[PASS] dimensionless curvature X^2 R has X-weight zero
+[PASS] reconstructed delta is exactly mu/nu
+[PASS] predicted compactness is exactly mu
+[PASS] bootstrap mass response scales as lambda
+[PASS] bootstrap volume response scales as lambda^3
+[PASS] mean density scales as lambda^-2
+[PASS] dimensionless delta is invariant on the scale orbit
+[PASS] dimensionless compactness is invariant on the scale orbit
+[PASS] bootstrap residual has the recorded form mu-nu*delta
+[PASS] self-consistent bookkeeping root is delta=mu/nu
+[PASS] fixed normalized mass plus compactness root solves X
+[PASS] fixed volume plus dimensionless volume response solves X^3
+[PASS] fixed mass and density root give X=GM/(c^2 nu delta)
+[PASS] GM/c^2 has dimensions of length
+[PASS] c alone cannot construct an absolute length
+[PASS] delta weight is g_weight+m_weight-1
+[PASS] recorded response with fixed G and M proportional to X is invariant
+
+SUMMARY: 28/28 checks pass

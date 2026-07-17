@@ -1,0 +1,28 @@
+[PASS] reciprocal mean is cosh depth
+[PASS] reciprocal invariant is even
+[PASS] reciprocal excess is exact chord square
+[PASS] translation invariance infinitesimally requires h prime zero
+[PASS] invariant metric in residual A coordinate
+[PASS] invariant metric in depletion B coordinate
+[PASS] general reciprocal-cost expansion through sixth order
+[PASS] MR-1 has quadratic leading term
+[PASS] allowed reciprocal countercost begins quartically
+[PASS] symmetric pair local limit and O(ell^2) correction
+[PASS] odd-kernel-order contribution cancels
+[PASS] quadratic local-gradient Euler equation
+[PASS] nonlinear allowed local-gradient Euler equation
+[PASS] nonlinear counteraction is distinct
+[PASS] quadratic-in-Y term violates orthogonal additivity
+[PASS] cubic-in-Y term violates orthogonal additivity
+[PASS] linear-in-Y cost obeys orthogonal additivity
+[PASS] WR-L depth derivative
+[PASS] physical radial depth norm diverges as 1/A
+[PASS] physical radial depth norm diverges at wall
+[PASS] pair-local relative correction blows up near wall
+[PASS] shift-clean r^2 depth norm WR-L residual
+[PASS] reciprocal reduced covariant scalar kinetic misses WR-L
+[PASS] invariant B-metric weight diverges at wall
+[PASS] flat-B and invariant-depth metrics agree only weakly
+[PASS] nonlinear counterfamily has same linear multiplier on WR-L
+ALL CONSISTENT (26/26 checks pass)
+SymPy 1.13.3

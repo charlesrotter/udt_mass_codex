@@ -1,0 +1,26 @@
+[PASS] static energy scales as A c epsilon/X
+[PASS] mass is E/c^2=A epsilon/(c X)
+[PASS] particle radius is sigma X
+[PASS] mass ratios cancel A, c, and X
+[PASS] A and X scaled together leave every calibrated mass unchanged
+[PASS] the same transformation scales all physical radii
+[PASS] beta_e equals g_hat epsilon_e
+[PASS] global compactness equals g_hat epsilon_U
+[PASS] global-to-electron mass ratio is mu/beta
+[PASS] bootstrap density is mu/nu
+[PASS] one-mass plus G-bridge inversion reproduces observed mass
+[PASS] inverted action normalization is m c X/epsilon
+[PASS] inverted X gives beta=g_hat epsilon
+[PASS] inverted particle radius is sigma times X
+[PASS] A c/X has energy dimensions
+[PASS] A/(c X) has mass dimensions
+[PASS] G A/(c^3 X^2) is dimensionless
+[PASS] G m/(c^2 X) is dimensionless
+[PASS] a dimensionless finite stationary sigma is CSN-compatible
+[PASS] the example finite sigma is a strict minimum
+[PASS] flat quartic-only energy has no finite stationary sigma
+[PASS] flat quartic-only energy decreases with sigma
+[PASS] overall action multiplication leaves a zero Euler residual zero
+[PASS] a relative dimensionless coupling is not removed by overall scaling
+
+SUMMARY: 24/24 checks pass

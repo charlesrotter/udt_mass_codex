@@ -1,0 +1,29 @@
+[PASS] clock comparison composes
+[PASS] ruler comparison composes
+[PASS] clock comparison reverses
+[PASS] ruler comparison reverses
+[PASS] positional relativity alone leaves two exponents
+[PASS] measure preservation fixes reciprocal exponent
+[PASS] normalized clock factor
+[PASS] normalized ruler factor
+[PASS] trivial no-dilation branch remains allowed
+[PASS] radial metric determinant is fixed
+[PASS] four-metric determinant is depth independent
+[PASS] four-volume density is depth independent
+[PASS] positional deformation has determinant one
+[PASS] deformation matrices compose additively
+[PASS] relative normalized trace is reciprocal cosh
+[PASS] group current is traceless
+[PASS] group trace norm is quadratic
+[PASS] reciprocal metric tangent is trace free
+[PASS] metric volume has zero reciprocal variation
+[PASS] reciprocal tangent selects rho plus radial pressure
+[PASS] local measured null speed is automatically c
+[PASS] constant clock rescaling cannot remove product profile
+[PASS] quadratic invariant-strain Euler equation
+[PASS] nonlinear invariant-strain counteraction
+[PASS] candidate causal-measure principle does not select action
+[PASS] arbitrary reciprocal profile preserves measure
+[PASS] WR-L is one member, not selected by local measure
+ALL CONSISTENT (27/27 checks pass)
+SymPy 1.13.3

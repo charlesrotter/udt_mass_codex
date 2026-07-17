@@ -1,0 +1,24 @@
+[PASS] overall action factor leaves a zero Euler residual zero
+[PASS] relative coupling survives overall action rescaling
+[PASS] dimensionless charge-to-energy response is q/epsilon
+[PASS] overall action normalization cancels from q/epsilon
+[PASS] Q1 and Q2 are distinct on a generic rank-two probe
+[PASS] static S^2 pullback identity is F_ij F_ij=Q1-Q2
+[PASS] pullback area density is nonnegative
+[PASS] rank-one probe has Q1=Q2
+[PASS] rank-one pullback area vanishes
+[PASS] all selected inside examples satisfy exact cone inequalities
+[PASS] inside-cone examples are nonnegative on exact nonnegative grid
+[PASS] outside examples violate at least one exact cone inequality
+[PASS] a+b<0 is exposed by a rank-one-axis probe
+[PASS] 2a+b<0 is exposed by an equal-eigenvalue probe
+[PASS] positivity admits Q1, Q2, and Q1-Q2, so it is nonunique
+[PASS] area-only coefficient condition is a+b=0
+[PASS] positive nontrivial area-only sector requires a>0
+[PASS] area-only density equals a(Q1-Q2) on generic probe
+[PASS] area-only density vanishes on rank-one probe
+[PASS] dimensionless sourced equation can determine response at fixed relative coupling
+[PASS] multiplying full action does not determine relative matter coupling
+[PASS] a model energy alone is not a complete calibration tuple
+
+SUMMARY: 22/22 checks pass

@@ -1,0 +1,37 @@
+PASS 01: reciprocal average equals cosh
+PASS 02: MR-1 is reciprocal-even
+PASS 03: MR-1 vanishes at zero difference
+PASS 04: hyperbolic branch gives gamma identity
+PASS 05: MR-1 diverges at the distance bound
+PASS 06: first derivative
+PASS 07: second derivative
+PASS 08: small-u expansion
+PASS 09: small-depth expansion
+PASS 10: counterfunction is reciprocal-even
+PASS 11: counterfunction also vanishes at zero
+PASS 12: counterfunction is genuinely distinct
+PASS 13: counterfunction also diverges
+PASS 14: common-depth shift gives zero total gradient
+PASS 15: Hessian has exact common-shift zero mode
+PASS 16: full Hessian quadratic form is weighted edge-square sum
+PASS 17: phi dot gradient gives stationarity sum
+PASS 18: positive-sign scale derivative
+PASS 19: positive-sign scale convexity
+PASS 20: positive energy sign gives attractive radial force
+PASS 21: negative energy sign reverses the force
+PASS 22: smooth affine pair expansion through sixth order
+PASS 23: L2-normalized local limit suppresses quartic term
+PASS 24: L4-normalized local limit makes quadratic term divergent
+PASS 25: aligned angular states reduce to reciprocal depth difference
+PASS 26: hyperbolic-angular local metric
+PASS 27: angular stiffness depends on absolute depth
+PASS 28: common depth shift is not a symmetry for angular mismatch
+PASS 29: angular fiber collapses at zero depth
+PASS 30: normalized-gradient Frobenius triple product vanishes
+PASS 31: WR-L to hyperbolic-distance chart relation
+PASS 32: identifying the two dimensionless radii is not valid
+PASS 33: reciprocal gamma expressed on WR-L areal radius
+PASS 34: compactness from one dimensional closure
+PASS 35: c and X forms are algebraic rearrangements
+
+RESULT: 35/35 checks pass

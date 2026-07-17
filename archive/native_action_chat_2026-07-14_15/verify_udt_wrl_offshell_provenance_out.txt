@@ -1,0 +1,30 @@
+[PASS] exact off-shell re-centering relation
+[PASS] general stationary family
+[PASS] re-centered singular stationary branch residual
+[PASS] regular linear stationary branch is re-centering closed
+[PASS] perturbed base action
+[PASS] re-centered perturbed base action
+[PASS] base action is not off-shell re-centering invariant
+[PASS] base action is invariant on exact WR-L
+[PASS] general quadratic Euler expression
+[PASS] quadratic cross term is boundary plus potential
+[PASS] quadratic class yields WR-L ODE
+[PASS] quadratic kinetic coefficient condition
+[PASS] base Euler equation
+[PASS] sixth-order counteraction Euler multiplier
+[PASS] sixth-order counteraction Hessian
+[PASS] counterfamily has exactly the same ODE
+[PASS] counterfamily is strictly nondegenerate
+[PASS] counterfamily Hessian ratio is field-dependent
+[PASS] base WR-L action value
+[PASS] counteraction WR-L action value
+[PASS] base WR-L wall momentum
+[PASS] counteraction changes WR-L wall momentum
+[PASS] gauge-fixed ODE is not globally depth-scale invariant
+[PASS] relational reference action Euler equation
+[PASS] relational reference action restores simultaneous depth scaling
+[PASS] relational WR-L action remains scale-degenerate
+[PASS] reference variation vanishes on relational WR-L
+[PASS] fixed-spatial-metric parent fails reciprocal one-field variation
+ALL CONSISTENT (28/28 checks pass)
+SymPy 1.13.3

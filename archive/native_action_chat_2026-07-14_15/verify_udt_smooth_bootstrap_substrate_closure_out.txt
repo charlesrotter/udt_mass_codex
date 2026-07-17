@@ -1,0 +1,10 @@
+[PASS] all 115 exact checks
+
+SELECTED SUBSTRATE:
+A=1-r^2/X^2
+q=1/(1-r^2/X^2)
+J_q=q'/q^2=2r/X^2
+D_q=(r^-2)(r^2 J_q)'=6/X^2
+K_parallel=4(r/X)^2/(3X^2), c_parallel=4(r/X)^4/3
+
+SUMMARY: 115/115 checks pass

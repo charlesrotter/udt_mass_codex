@@ -1,0 +1,23 @@
+[PASS] CSN first-jet boundary value has scale weight -1
+[PASS] A is scale invariant
+[PASS] v=r A' is scale invariant
+[PASS] counterfamily vanishes on the flat reference
+[PASS] counterfamily has arbitrary wall value k
+[PASS] counterfamily wall A derivative vanishes
+[PASS] counterfamily wall v derivative vanishes
+[PASS] free-jet differentiability coefficients vanish on WR-L
+[PASS] different k retain identical endpoint differentiability
+[PASS] different k give different inverse-X boundary values
+[PASS] Euler b is zero on flat A=1
+[PASS] Euler b is four on WR-L wall data
+[PASS] Euler bare primitive has nonzero wall A derivative
+[PASS] Euler bare primitive has nonzero wall v derivative
+[PASS] Euler primitive vanishes at any A=1 fold
+[PASS] Euler one-sided WR-L endpoint value is 4/X
+[PASS] matched-interface primitive cancels orientation by orientation
+[PASS] boundary action is invariant at fixed dimensionless duration
+[PASS] per-coordinate-time boundary readout scales as inverse X
+[PASS] different overall action normalizations give different charge values
+[PASS] nonzero rescaling leaves zero bulk equation zero
+
+SUMMARY: 21/21 checks pass

@@ -1,0 +1,84 @@
+[PASS] all parallel full-tensor audits pass
+[PASS] parallel exact closed form for R
+[PASS] parallel exact closed form for Ricci2
+[PASS] parallel exact closed form for Riemann2
+[PASS] parallel exact closed form for Weyl2
+[PASS] parallel invariants are independent of theta second jet
+[PASS] parallel carrier expansion q=3/2, p=0
+[PASS] parallel carrier expansion q=2, p=0
+[PASS] parallel carrier expansion q=2, p=1
+[PASS] parallel carrier expansion q=9/4, p=1
+[PASS] parallel carrier expansion q=3, p=1
+[PASS] parallel carrier expansion q=7/5, p=4
+[PASS] parallel carrier expansion q=11/4, p=-1
+[PASS] parallel carrier expansion q=1, p=5
+[PASS] parallel carrier expansion q=6, p=3
+[PASS] transverse raw carrier expansion q=3/2, p=0
+[PASS] transverse integrated coefficient identity q=3/2
+[PASS] transverse full invariant agrees with prior exact formula q=3/2
+[PASS] transverse raw carrier expansion q=2, p=0
+[PASS] transverse integrated coefficient identity q=2
+[PASS] transverse full invariant agrees with prior exact formula q=2
+[PASS] transverse raw carrier expansion q=2, p=1
+[PASS] transverse integrated coefficient identity q=2
+[PASS] transverse full invariant agrees with prior exact formula q=2
+[PASS] transverse raw carrier expansion q=9/4, p=1
+[PASS] transverse integrated coefficient identity q=9/4
+[PASS] transverse full invariant agrees with prior exact formula q=9/4
+[PASS] transverse raw carrier expansion q=3, p=1
+[PASS] transverse integrated coefficient identity q=3
+[PASS] transverse full invariant agrees with prior exact formula q=3
+[PASS] transverse raw carrier expansion q=7/5, p=4
+[PASS] transverse integrated coefficient identity q=7/5
+[PASS] transverse full invariant agrees with prior exact formula q=7/5
+[PASS] transverse raw carrier expansion q=11/4, p=-1
+[PASS] transverse integrated coefficient identity q=11/4
+[PASS] transverse full invariant agrees with prior exact formula q=11/4
+[PASS] transverse raw carrier expansion q=1, p=5
+[PASS] transverse integrated coefficient identity q=1
+[PASS] transverse full invariant agrees with prior exact formula q=1
+[PASS] transverse raw carrier expansion q=6, p=3
+[PASS] transverse integrated coefficient identity q=6
+[PASS] transverse full invariant agrees with prior exact formula q=6
+[PASS] WR-L parallel quadratic coefficient vanishes x=1/10
+[PASS] WR-L parallel quartic coefficient x=1/10
+[PASS] WR-L parallel quadratic coefficient vanishes x=1/4
+[PASS] WR-L parallel quartic coefficient x=1/4
+[PASS] WR-L parallel quadratic coefficient vanishes x=1/2
+[PASS] WR-L parallel quartic coefficient x=1/2
+[PASS] WR-L parallel quadratic coefficient vanishes x=3/4
+[PASS] WR-L parallel quartic coefficient x=3/4
+[PASS] WR-L transverse effective coefficient positive at x=1/4
+[PASS] WR-L transverse effective coefficient negative at x=1/2
+[PASS] smooth parallel quadratic coefficient x=1/10
+[PASS] smooth parallel quartic coefficient x=1/10
+[PASS] smooth parallel coefficients are positive x=1/10
+[PASS] smooth transverse highest terms are positive x=1/10
+[PASS] smooth transverse effective coefficient is negative x=1/10
+[PASS] smooth parallel quadratic coefficient x=1/4
+[PASS] smooth parallel quartic coefficient x=1/4
+[PASS] smooth parallel coefficients are positive x=1/4
+[PASS] smooth transverse highest terms are positive x=1/4
+[PASS] smooth transverse effective coefficient is negative x=1/4
+[PASS] smooth parallel quadratic coefficient x=1/2
+[PASS] smooth parallel quartic coefficient x=1/2
+[PASS] smooth parallel coefficients are positive x=1/2
+[PASS] smooth transverse highest terms are positive x=1/2
+[PASS] smooth transverse effective coefficient is negative x=1/2
+[PASS] smooth parallel quadratic coefficient x=3/4
+[PASS] smooth parallel quartic coefficient x=3/4
+[PASS] smooth parallel coefficients are positive x=3/4
+[PASS] smooth transverse highest terms are positive x=3/4
+[PASS] smooth transverse effective coefficient is negative x=3/4
+[PASS] positive formal scale-balance ratio A2=1, A4=1
+[PASS] positive formal scale-balance ratio A2=3/2, A4=2/3
+[PASS] positive formal scale-balance ratio A2=7, A4=5/4
+
+PARALLEL CARRIER EXPANSION:
+Delta C2 = K_parallel*(theta')^2 + c_parallel*(theta')^4
+K_parallel=2(q-1)(q q''-2 q'^2)/(3 q^4)
+c_parallel=4(q-1)^2/(3 q^2)
+WR-L: K_parallel=0
+smooth q=1/(1-x^2): K_parallel=4x^2/(3X^2), c_parallel=4x^4/3
+
+SUMMARY: 75/75 checks pass

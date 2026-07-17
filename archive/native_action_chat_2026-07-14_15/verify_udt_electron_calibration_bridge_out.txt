@@ -1,0 +1,28 @@
+[PASS] WR-L A' is exactly -1/X
+[PASS] WR-L A'' is exactly zero
+[PASS] full nonlinear conformal bracket W[A] vanishes identically
+[PASS] higher-derivative boundary momentum P1 vanishes on WR-L
+[PASS] higher-derivative boundary momentum P0 vanishes on WR-L
+[PASS] reduced C^2 density gamma W^2/r^2 vanishes on WR-L
+[PASS] first variation coefficient is zero because W and W' vanish
+[PASS] Euler primitive on WR-L is 4r/X^2
+[PASS] Euler primitive is zero at the seat
+[PASS] Euler primitive is 4/X at the wall r=X
+[PASS] Euler contribution scales with X-weight -1
+[PASS] first coefficient pair has stationary radius R1
+[PASS] second coefficient pair has stationary radius R2
+[PASS] first stationary energy equals the same observed energy
+[PASS] second stationary energy equals the same observed energy
+[PASS] observed mass fixes product ab=E^2/4
+[PASS] coefficient ratio b/a remains radius-squared
+[PASS] different radii give different coefficient ratios at identical mass
+[PASS] positive stationary point has positive second derivative
+[PASS] beta_e=G m_e/(c^2 X) is recovered exactly
+[PASS] a derived beta_e plus observed m_e fixes X
+[PASS] global mass ratio is M_total/m_e=mu/beta
+[PASS] bootstrap relation is delta=mu/nu
+[PASS] beta_e is dimensionless
+[PASS] G m_e/c^2 has dimensions of length
+[PASS] dimensionless topology alone supplies no length dimension
+
+SUMMARY: 26/26 checks pass

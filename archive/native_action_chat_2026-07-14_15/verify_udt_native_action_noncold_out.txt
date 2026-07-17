@@ -1,0 +1,20 @@
+PASS A1 reciprocal Ricci scalar
+PASS A2 reciprocal determinant
+PASS A3 reduced EH is a radial boundary term
+PASS A4 reduced EH tangent Euler equation is empty
+PASS A5 unrestricted-then-restricted Gt
+PASS A6 unrestricted-then-restricted Gr
+PASS A7 unrestricted-then-restricted Gang
+PASS B1 tangent/multiplier equation on reciprocity
+PASS B2 full EH equation retains A+rA'=1
+PASS B3 multiplier does not restore the discarded normal equation
+PASS C1 kinetic family Euler equation
+PASS C2 nonzero mixing changes dynamics
+PASS D1 lapse family has the same N=1 static density
+PASS D2 lapse source depends on completion
+PASS E1 L2 cancels from rho+S
+PASS E2 conditional EH lapse source
+PASS E3 Derrick stationarity gives E2=E4
+PASS E4 virial curvature is 2E4
+PASS E5 conditional weak-field mass identity
+ALL SYMBOLIC CHECKS PASS

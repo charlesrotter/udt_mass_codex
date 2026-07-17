@@ -1,0 +1,19 @@
+[PASS] reciprocal radial determinant is field independent
+[PASS] physical-metric current scalar
+[PASS] full nonlinear arbitrary-F Euler chain rule
+[PASS] WR-L depth derivative
+[PASS] WR-L current scalar
+[PASS] WR-L current derivative
+[PASS] regular-center current value
+[PASS] wall current diverges
+[PASS] inverse Euler equation reduction
+[PASS] exact inverse solution for F prime
+[PASS] required F prime diverges at regular center
+[PASS] center singularity is inverse square
+[PASS] only zero integration coefficient removes singularity
+[PASS] constant F prime fails inverse equation
+[PASS] direct quadratic WR-L residual
+[PASS] distinct-X inverse solutions are not normalization equivalent
+[PASS] WR-L wall is infinite positional depth
+ALL CONSISTENT (17/17 checks pass)
+SymPy 1.13.3

@@ -1,0 +1,31 @@
+[PASS] conversion-map covariance gives equal scale factors
+[PASS] conversion-map covariance does not generically give reciprocity
+[PASS] dual pairing scales by product uv
+[PASS] pairing preservation forces inverse scale
+[PASS] temporal representation composes
+[PASS] radial representation composes
+[PASS] representations are reciprocal
+[PASS] comparison reverses
+[PASS] trivial representation remains allowed
+[PASS] reciprocal-c dual representation gives UDT clock coefficient
+[PASS] reciprocal-c dual representation gives UDT radial coefficient
+[PASS] radial metric determinant is fixed
+[PASS] four-volume is independent of dilation depth
+[PASS] equal-scaling formalization gives a different metric family
+[PASS] equal-scaling determinant is not fixed for nontrivial scale
+[PASS] local measured null speed is c for arbitrary scales
+[PASS] positional duality transformation has determinant one
+[PASS] positional duality preserves evaluation pairing
+[PASS] positional reversal is matrix inversion
+[PASS] positional generator is traceless
+[PASS] canonical group tangent norm is quadratic
+[PASS] relative invariant is reversal-even
+[PASS] quadratic action gives linear one-dimensional equation
+[PASS] reciprocity-compatible counteraction gives different equation
+[PASS] founding kinematics does not select unique action
+[PASS] arbitrary reciprocal radial profile obeys the kinematics
+[PASS] WR-L profile is one member but is not selected
+[PASS] WR-L wall is infinite reciprocal depth
+[PASS] canonical quadratic group action does not produce WR-L
+ALL CONSISTENT (29/29 checks pass)
+SymPy 1.13.3

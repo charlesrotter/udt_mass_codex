@@ -1,0 +1,26 @@
+PASS 01: quadratic member momentum
+PASS 02: nonlinear member momentum
+PASS 03: counterfamily members are distinct for nonzero alpha
+PASS 04: both members have no explicit phi
+PASS 05: both members are derivative-reversal even
+PASS 06: full nonlinear Euler operator
+PASS 07: total derivative leaves Hessian in q unchanged
+PASS 08: total derivative shifts endpoint momentum
+PASS 09: total derivative leaves bulk Euler dependence unchanged
+PASS 10: L2 spatial trace
+PASS 11: L4 spatial trace
+PASS 12: carrier lapse-source identity
+PASS 13: L2 tangent source is twice parallel L2 energy
+PASS 14: L4 tangent source is twice parallel L4 energy
+PASS 15: full reciprocal tangent source
+PASS 16: reciprocal static measure is phi-independent
+PASS 17: constrained carrier variation sees parallel channels only
+PASS 18: different time-live completions agree for static carrier
+PASS 19: time-live completions differ off the static sector
+PASS 20: three-dimensional carrier scaling derivative
+PASS 21: virial implies total energy equals twice E4
+PASS 22: conditional lapse flux gives M_N = 2 integral N rho4
+PASS 23: global compactness relation fixes only one ratio
+PASS 24: c and X closure forms are algebraically identical
+
+RESULT: 24/24 checks pass
