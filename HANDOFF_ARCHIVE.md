@@ -1,4 +1,40 @@
-# HANDOFF ARCHIVE — superseded resume blocks (history preserved out of the live HANDOFF)
+# HANDOFF ARCHIVE — newest first
+
+## [moved 2026-07-16 from HANDOFF.md]
+## [SUPERSEDED layer] (2026-07-12 — H3 particle-mass, corrected-operator stability arc)
+
+**Detailed record: `stability_branch_follow_256_DECISION.md`.** Live plan + next action: **LIVE.md CURRENT STATE**.
+
+**One-paragraph state:** The Phase-B "particle unwinding instability" (a −290 negative-Hessian cluster) was
+**FALSIFIED as a checkerboard/Nyquist OPERATOR ARTIFACT** — the centered difference `D^c` (fs_hopfion.py:48,
+used by energy AND hopf_charge) annihilates `(-1)^i`; the 3 negative modes lived in that exact null (blind-
+verified; `R_cb≈0.01`). 384³ can't fix an exact null → that plan is dead. A **corrected no-null operator**
+(`noNull_energy.py`, 8-orientation, O(h²), autograd-exact) was built + validated; the old −290 modes flip to
++30000 under it. An overnight "STABLE soliton" verdict was **RETRACTED → OPEN** (Hessian was at a non-critical
+field, wide mask, loose convergence, overlaps over-read). **CRITICALITY REACHED (verified):** free-variable
+projection `P_free` (2 layers); moving-tangent Riemannian bug fixed (transport curvature pairs); corrected
+L-BFGS/CG STALL at ‖g_f‖≈2.5 → Riemannian trust-region **Newton-Krylov** (`STAGE=nk`: Steihaug-CG + LM + U(1)
+deflation + projected HVP + **preconditioned inner CG**) drove `‖g_f‖_{M⁻¹}` → **0.0157 < 0.05** (independently
+re-verified). `noNull_critical_field.npz` = genuine critical point (E=274.958 lower-E Q=1 min; Q=−0.992). The
+0.05 target was MET, not loosened. HONEST STATUS: *Nyquist FALSIFIED; critical Q=1 carrier at 256³; stability
+OPEN pending the hybrid spectral test.* EH action stays CONDITIONAL-DERIVED.
+
+**Hessian: bs≥12-vs-32GB WALL → Charles authorized a HYBRID (2026-07-12).** Streaming LOBPCG-with-P at bs=12/256³
+OOMs (~30GB; monolithic checkpointing doesn't help). Plan: **bs=10 @256³** (memory-smoke first — no CPU offload/
+bespoke checkpointing) + **bs=12 @192³ & @128³** (re-NK-relax each grid; downsampler=`noNull_downsample.py`, params via `BASE_FIELD`/`CRIT_FIELD` env). `STAGE=hess`: `HESS_BS` **default 8** (bs=10/12 OOM @256³);
+converge **ALL lowest-9 Ritz pairs** r_j<1e-3 ×≥2 seeds; **Q_TR pseudomode projection** s_j (QR of 6 T/R gens
+after U(1) removal — record, don't discard); **rank-revealing geneigh**. Certify stability only via h²-fit
+λ(h)=λ0+c·h²: physical modes POSITIVE + 192↔256 agreement + neg pseudomodes→0. Don't pre-claim grid-convergence.
+
+**Next (ordered):** bs=10@256³ smoke→run (2 seeds) → regenerate+NK-relax carrier @192³ & @128³ → bs=12 Hessian
+there (same gates) → h² fit + agreement → fresh-reimpl verify → **F** behavioral branches → **G** Phase-C recompute
+on the corrected carrier. Key files + launch caveats: LIVE.md.
+
+**NOTE:** this particle-mass arc runs in its own (Charles-authorized) frame, SEPARATE from the macro/WR-L
+lane below (both live; neither uniquely so).
+
+
+---
 
 > **⚠ α-COEFF CORRECTED (2026-07-10):** any `+α·ξ·e^{αφ}·ρ²·I_r` below is WRONG — the anchor-verified coefficient is **`−(α/2)·ξ·e^{αφ}·ρ²·I_r`** (`verify_alpha_coeff_ANCHORED.py`; reproduces base φ-EOM + base ρ-EOM + T_AB). **SIGN-CRITICAL:** for α<0 the direct source is POSITIVE (SUPPORTS `I_r`), not draining. Any pre-grok reasoning here that relied on the old `+α` sign is **CONDITIONS-CHANGED** (see LIVE.md on grok).
 

@@ -18,7 +18,7 @@ Dispatches: `UDT_H3_CORRECTED_G_THEN_F_SEQUENCING_DISPATCH.md` (F prereg = §9; 
 Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`,
 `verifier_evidence_2026-07-14/`, `artifact_manifest.json` (SHA-256 of all npz).  
 **Frame:** simple metric + **WR-L / C-2026-07-09-1** (\(A=1-r/X\)).  
-**NEXT:** Thread B **time-live eigenmode** about drained f2d (static seal series exhausted for round); residual L time-live appearance still live.  
+**NEXT (MACRO lane only — 2026-07-10, may be stale; the PARTICLE lane's next = LIVE.md topmost = WAIT on Charles):** Thread B time-live eigenmode about drained f2d; residual L time-live appearance still live.  
 **Quarantine:** free \(D_A\) → `grok/quarantine_free_DA/` (not live theory verdicts).
 
 ---
