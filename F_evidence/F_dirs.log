@@ -1,0 +1,9 @@
+N=128: TR singular values ['4.058e+02', '4.058e+02', '3.174e+02', '3.174e+02', '3.143e+02', '7.076e+01']; doublet principal cosines ['0.9999999996', '0.9999999996'] (angles deg ['1.56e-03', '1.67e-03']); iso overlap 1.0000000000
+N=128: Euclid Gram-I max|err|=2.22e-16; M=h^3 I Gram = h^3*Gram (h^3=8.4359e-04); tangency 3.25e-19
+N=192: TR singular values ['7.710e+02', '7.710e+02', '5.943e+02', '5.943e+02', '5.880e+02', '1.357e+02']; doublet principal cosines ['0.9999999997', '0.9999999995'] (angles deg ['1.50e-03', '1.82e-03']); iso overlap 1.0000000000
+N=192: Euclid Gram-I max|err|=2.22e-16; M=h^3 I Gram = h^3*Gram (h^3=2.4800e-04); tangency 2.17e-19
+N=192: cross-grid (from 128) principal cosines ['0.999844', '0.999844']
+N=256: TR singular values ['1.199e+03', '1.199e+03', '9.211e+02', '9.211e+02', '9.109e+02', '2.136e+02']; doublet principal cosines ['0.9999999999', '0.9999999995'] (angles deg ['7.65e-04', '1.86e-03']); iso overlap 0.9999999968
+N=256: Euclid Gram-I max|err|=3.63e-18; M=h^3 I Gram = h^3*Gram (h^3=1.0421e-04); tangency 1.63e-19
+N=256: cross-grid (from 192) principal cosines ['0.999975', '0.999975']
+wrote noNull_F_dirs.json
