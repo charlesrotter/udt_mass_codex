@@ -1,0 +1,197 @@
+{
+ "verdict": "PASS",
+ "npass": 38,
+ "ntotal": 38,
+ "checks": [
+  {
+   "name": "N=128 own E2/E4 vs black-box",
+   "ok": true,
+   "detail": "128.832932952/142.998143143"
+  },
+  {
+   "name": "N=128 own E2/E4 vs production",
+   "ok": true,
+   "detail": "match"
+  },
+  {
+   "name": "N=128 own scale response (lam=1.0002)",
+   "ok": true,
+   "detail": "rel 0.00e+00"
+  },
+  {
+   "name": "N=128 int(S)=E4-E2 (own)",
+   "ok": true,
+   "detail": "14.165210"
+  },
+  {
+   "name": "N=128 B(a=1) own quadrature",
+   "ok": true,
+   "detail": "53.176649 vs 53.176649"
+  },
+  {
+   "name": "N=128 B(a=1.5) own quadrature",
+   "ok": true,
+   "detail": "51.371945 vs 51.371945"
+  },
+  {
+   "name": "N=128 B(a=2) own quadrature",
+   "ok": true,
+   "detail": "36.568395 vs 36.568395"
+  },
+  {
+   "name": "N=128 B(a=2.5) own quadrature",
+   "ok": true,
+   "detail": "24.230425 vs 24.230425"
+  },
+  {
+   "name": "N=128 B(a=2.95) own quadrature",
+   "ok": true,
+   "detail": "16.827717 vs 16.827717"
+  },
+  {
+   "name": "N=128 >=3 surface entries",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "name": "N=192 own E2/E4 vs black-box",
+   "ok": true,
+   "detail": "132.117852773/142.062744042"
+  },
+  {
+   "name": "N=192 own E2/E4 vs production",
+   "ok": true,
+   "detail": "match"
+  },
+  {
+   "name": "N=192 own scale response (lam=1.0002)",
+   "ok": true,
+   "detail": "rel 4.15e-16"
+  },
+  {
+   "name": "N=192 int(S)=E4-E2 (own)",
+   "ok": true,
+   "detail": "9.944891"
+  },
+  {
+   "name": "N=192 B(a=1) own quadrature",
+   "ok": true,
+   "detail": "52.025379 vs 52.025379"
+  },
+  {
+   "name": "N=192 B(a=1.5) own quadrature",
+   "ok": true,
+   "detail": "53.115542 vs 53.115542"
+  },
+  {
+   "name": "N=192 B(a=2) own quadrature",
+   "ok": true,
+   "detail": "37.669613 vs 37.669613"
+  },
+  {
+   "name": "N=192 B(a=2.5) own quadrature",
+   "ok": true,
+   "detail": "24.561435 vs 24.561435"
+  },
+  {
+   "name": "N=192 B(a=2.95) own quadrature",
+   "ok": true,
+   "detail": "17.614230 vs 17.614230"
+  },
+  {
+   "name": "N=192 >=3 surface entries",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "name": "N=256 own E2/E4 vs black-box",
+   "ok": true,
+   "detail": "133.080274366/141.877916965"
+  },
+  {
+   "name": "N=256 own E2/E4 vs production",
+   "ok": true,
+   "detail": "match"
+  },
+  {
+   "name": "N=256 own scale response (lam=1.0002)",
+   "ok": true,
+   "detail": "rel 2.07e-16"
+  },
+  {
+   "name": "N=256 int(S)=E4-E2 (own)",
+   "ok": true,
+   "detail": "8.797643"
+  },
+  {
+   "name": "N=256 B(a=1) own quadrature",
+   "ok": true,
+   "detail": "51.330350 vs 51.330350"
+  },
+  {
+   "name": "N=256 B(a=1.5) own quadrature",
+   "ok": true,
+   "detail": "53.586374 vs 53.586374"
+  },
+  {
+   "name": "N=256 B(a=2) own quadrature",
+   "ok": true,
+   "detail": "37.741908 vs 37.741908"
+  },
+  {
+   "name": "N=256 B(a=2.5) own quadrature",
+   "ok": true,
+   "detail": "25.292595 vs 25.292595"
+  },
+  {
+   "name": "N=256 B(a=2.95) own quadrature",
+   "ok": true,
+   "detail": "17.693398 vs 17.693398"
+  },
+  {
+   "name": "N=256 >=3 surface entries",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "name": "scout L6.00_N128 scalars (own)",
+   "ok": true,
+   "detail": "E=271.8311 dv=-0.05211 Q=-0.96729 critM=4.114e-02"
+  },
+  {
+   "name": "scout L7.51_N160 scalars (own)",
+   "ok": true,
+   "detail": "E=270.7899 dv=-0.04390 Q=-0.96791 critM=1.232e-02"
+  },
+  {
+   "name": "scout L9.02_N192 scalars (own)",
+   "ok": true,
+   "detail": "E=270.3288 dv=-0.03793 Q=-0.96832 critM=1.991e-02"
+  },
+  {
+   "name": "scout L7.51_N240_hf scalars (own)",
+   "ok": true,
+   "detail": "E=273.0728 dv=-0.02560 Q=-0.98650 critM=1.036e-02"
+  },
+  {
+   "name": "predicate: |delta_vir| monotone decreasing in L at h_c",
+   "ok": true,
+   "detail": "0.05211 > 0.04390 > 0.03793"
+  },
+  {
+   "name": "predicate: |delta_vir| decreases in L at h_f",
+   "ok": true,
+   "detail": "0.03627 > 0.02560"
+  },
+  {
+   "name": "predicate: all scout carriers meet ||g_f||_M-1 < 0.05",
+   "ok": true,
+   "detail": "[0.0411, 0.0123, 0.0199, 0.0104]"
+  },
+  {
+   "name": "predicate: topology held (|Q_fwd| > 0.96 all boxes)",
+   "ok": true,
+   "detail": "[-0.9673, -0.9679, -0.9683, -0.9865]"
+  }
+ ]
+}

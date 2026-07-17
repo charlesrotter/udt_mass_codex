@@ -1,0 +1,7 @@
+L6.00_N128: E=271.8311 E2=128.8329 E4=142.9981 gap=+14.1652 delta_vir=-0.05211 Qf=-0.96729 critM=4.114e-02 thmax=0.282 E2/E4frac@2.5 0.8629/0.9959
+L7.51_N160: E=270.7899 E2=129.4513 E4=141.3386 gap=+11.8872 delta_vir=-0.04390 Qf=-0.96791 critM=1.232e-02 thmax=0.279 E2/E4frac@2.5 0.8585/0.9956
+L9.02_N192: E=270.3288 E2=130.0379 E4=140.2909 gap=+10.2530 delta_vir=-0.03793 Qf=-0.96832 critM=1.991e-02 thmax=0.278 E2/E4frac@2.5 0.8550/0.9953
+
+wrote noNull_boxscout_observables.json
+L7.51_N240(h_f): E=273.0728 E2=133.0405 E4=140.0323 gap=+6.9918 delta_vir=-0.02560 Qf=-0.98650 critM=1.036e-02
+appended to noNull_boxscout_observables.json

@@ -1,0 +1,6 @@
+[PASS] (T1) trace T_ii = S (generic constrained field) residual=0
+[PASS] (MD) multiplier drop (generic constrained field) residuals=[0, 0, 0]
+[PASS] (T2') div T + Rhat·dn = 0 [polytrig-1] 
+[PASS] (T2') div T + Rhat·dn = 0 [polytrig-2] 
+
+== CAS VERDICT: PASS (4/4) ==

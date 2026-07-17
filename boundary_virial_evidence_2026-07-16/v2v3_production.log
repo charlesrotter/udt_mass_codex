@@ -1,0 +1,14 @@
+
+=== V2/V3 N=128: E2=128.832933 E4=142.998143 ===
+  V2: worst lambda rel 4.18e-16; intS=14.165210 (=E4-E2 to 1.1e-14); W_res=-1.0768 (Cauchy<= 1.1692; W/(E4-E2)=-0.076)
+  V3 a=2.95: V=24.2012 B_site=16.8277 B_half=16.9292 W=-0.6748 rel_err site/half = +3.326e-01/+3.284e-01
+
+=== V2/V3 N=192: E2=132.117853 E4=142.062744 ===
+  V2: worst lambda rel 2.07e-16; intS=9.944891 (=E4-E2 to 3.7e-14); W_res=-0.4706 (Cauchy<= 0.5069; W/(E4-E2)=-0.047)
+  V3 a=2.95: V=20.4695 B_site=17.6142 B_half=17.6849 W=-0.2999 rel_err site/half = +1.541e-01/+1.507e-01
+
+=== V2/V3 N=256: E2=133.080274 E4=141.877917 ===
+  V2: worst lambda rel 4.13e-16; intS=8.797643 (=E4-E2 to 8.9e-15); W_res=-0.0844 (Cauchy<= 0.4641; W/(E4-E2)=-0.010)
+  V3 a=2.95: V=19.4042 B_site=17.6934 B_half=17.7466 W=+0.0683 rel_err site/half = +8.465e-02/+8.190e-02
+
+wrote noNull_boundary_virial_ALL.json

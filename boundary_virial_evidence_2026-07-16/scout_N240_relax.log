@@ -1,0 +1,16 @@
+# NK TRUST-REGION start E=274.1806 mu0=1.0 rad0=2.0 target ||g_f||_M-1<5e-02
+  [nk] step=1 t=11s ||g_f||_M-1=6.0233e+00 DN2=4.659e-02 E=274.18060 mu=5.0e-01 rad=4.00e+00 rho=+1.01 cg=boundary(0) ACC g_perp=6.023e+00
+  [nk] step=2 t=30s ||g_f||_M-1=5.8068e+00 DN2=9.117e-02 E=274.13488 mu=2.5e-01 rad=8.00e+00 rho=+1.01 cg=boundary(0) ACC g_perp=5.807e+00
+  [nk] step=3 t=48s ||g_f||_M-1=5.3806e+00 DN2=1.730e-01 E=274.04637 mu=1.2e-01 rad=1.60e+01 rho=+1.01 cg=boundary(0) ACC g_perp=5.381e+00
+  [nk] step=4 t=66s ||g_f||_M-1=4.4771e+00 DN2=2.956e-01 E=273.88313 mu=6.2e-02 rad=1.60e+01 rho=+1.02 cg=boundary(0) ACC g_perp=4.477e+00
+  [nk] step=5 t=84s ||g_f||_M-1=3.0653e+00 DN2=2.286e-01 E=273.62262 mu=3.1e-02 rad=1.60e+01 rho=+1.01 cg=boundary(0) ACC g_perp=3.065e+00
+  [nk] step=6 t=109s ||g_f||_M-1=3.7791e+00 DN2=2.011e-01 E=273.45514 mu=1.6e-02 rad=1.60e+01 rho=+1.01 cg=boundary(1) ACC g_perp=3.779e+00
+  [nk] step=7 t=134s ||g_f||_M-1=3.7423e+00 DN2=1.634e-01 E=273.33229 mu=7.8e-03 rad=1.60e+01 rho=+1.01 cg=boundary(1) ACC g_perp=3.742e+00
+  [nk] step=8 t=165s ||g_f||_M-1=3.7730e+00 DN2=1.295e-01 E=273.24475 mu=3.9e-03 rad=1.60e+01 rho=+1.00 cg=boundary(2) ACC g_perp=3.773e+00
+  [nk] step=9 t=197s ||g_f||_M-1=2.1243e+00 DN2=7.005e-02 E=273.16615 mu=2.0e-03 rad=1.60e+01 rho=+1.00 cg=boundary(2) ACC g_perp=2.124e+00
+  [nk] step=10 t=228s ||g_f||_M-1=1.7509e+00 DN2=4.688e-02 E=273.12169 mu=9.8e-04 rad=1.60e+01 rho=+1.00 cg=boundary(2) ACC g_perp=1.751e+00
+  [nk] step=11 t=266s ||g_f||_M-1=1.4078e+00 DN2=2.886e-02 E=273.09304 mu=4.9e-04 rad=1.60e+01 rho=+1.00 cg=boundary(3) ACC g_perp=1.408e+00
+  [nk] step=12 t=396s ||g_f||_M-1=1.3684e+00 DN2=9.536e-03 E=273.07755 mu=2.4e-04 rad=1.60e+01 rho=+1.00 cg=converged(17) ACC g_perp=1.368e+00
+# NK CONVERGED step=13 ||g_f||_M-1=1.0364e-02
+# NK DONE ||g_f||_M-1=1.0364e-02 target=5e-02 REACHED E=273.0728 Q_fwd=-0.98650 theta_max=0.1802
+DONE

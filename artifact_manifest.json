@@ -1510,6 +1510,141 @@
     }
    },
    "originating_command": "python3 noNull_phaseG_mass.py (G3 seven-point DST-I response field, grid 256, padding 2; 2026-07-16)"
+  },
+  "noNull_boxscout_N160.npz": {
+   "status": "present",
+   "bytes": 98305476,
+   "sha256": "3ff0f81ce5415c1873124691c0f166e424d40002605da9991a9ea5a63c517d74",
+   "mtime": "2026-07-16T20:06:24",
+   "params": {
+    "N": 160.0,
+    "L": 7.511811023622047,
+    "h": 0.09448818897637795,
+    "xi": 1.0,
+    "kappa": 1.0
+   },
+   "arrays": {
+    "n": {
+     "shape": [
+      3,
+      160,
+      160,
+      160
+     ],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "xi": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "kappa": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "V4a: pad 128(L=6,h_c) carrier +n_inf fill -> STAGE=nk relax (converged 0.0123; 2026-07-16)"
+  },
+  "noNull_boxscout_N192.npz": {
+   "status": "present",
+   "bytes": 169870788,
+   "sha256": "67cd9c28d89a860e757561b0b76e24530f6df0613aa8f2326e3a297cbe378f97",
+   "mtime": "2026-07-16T20:09:17",
+   "params": {
+    "N": 192.0,
+    "L": 9.023622047244094,
+    "h": 0.09448818897637795,
+    "xi": 1.0,
+    "kappa": 1.0
+   },
+   "arrays": {
+    "n": {
+     "shape": [
+      3,
+      192,
+      192,
+      192
+     ],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "xi": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "kappa": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "V4a: pad 128(L=6,h_c) carrier +n_inf fill -> STAGE=nk relax (converged 0.0199; 2026-07-16)"
+  },
+  "noNull_boxscout_N240.npz": {
+   "status": "present",
+   "bytes": 331777476,
+   "sha256": "2f1eceeebb77fd08cad8abc3caecda64a32af025c3f1d2f5e76c969593c185b6",
+   "mtime": "2026-07-16T20:18:40",
+   "params": {
+    "N": 240.0,
+    "L": 7.507853403141361,
+    "h": 0.06282722513089005,
+    "xi": 1.0,
+    "kappa": 1.0
+   },
+   "arrays": {
+    "n": {
+     "shape": [
+      3,
+      240,
+      240,
+      240
+     ],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "xi": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "kappa": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "V4b: pad 192(L=6,h_f) carrier +n_inf fill -> STAGE=nk relax (converged 0.0104; 2026-07-16)"
   }
  }
 }
