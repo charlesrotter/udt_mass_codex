@@ -5,9 +5,9 @@
 Stale historical frontier layers live under `archive/LIVE_historical_frontier_through_2026-07-08.md`
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
-**⚠ TWO LIVE LANES (2026-07-16):** the **PARTICLE-MASS lane** (H3 stability→mass arc) is SETTLED-and-WAITING —
-read `LIVE.md` CURRENT STATE topmost (below; next action = WAIT on Charles's three desk items) →
-`noNull_phaseG_mass_results.md` + `noNull_boundary_virial_results.md` (latest results) →
+**⚠ TWO LIVE LANES (2026-07-17):** the **PARTICLE-MASS lane** (H3 stability→mass→basin arc) is COMPLETE-and-WAITING —
+read `LIVE.md` CURRENT STATE topmost (below; next action = WAIT on Charles's desk items) →
+`noNull_behavioral_F_results.md` + `noNull_boundary_virial_results.md` + `noNull_phaseG_mass_results.md` →
 **`stability_branch_follow_256_DECISION.md`** (detailed arc record) → MEMORY.md TOP. The **MACRO lane** (simple-metric / WR-L) is a separate ongoing lane; its read
 order is: **`UDT_METHOD_MUSIC.md`** → **`UDT_DOTTED_LINE.md`** → **`UDT_ELEGANCE_UNCOVER.md`** → **`SIMPLE_METRIC_MACRO.md`**.
 Free-\(D_A\) / mixed scoreboards = **`grok/quarantine_free_DA/`** only (not live).
@@ -30,7 +30,7 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-16 — H3 PARTICLE-MASS arc: stability FULLY SETTLED (deflated spectrum + full-H Schur inertia, 3 grids, twice-verified) → G mass readout DONE (conditional; virial-gap finding) → boundary-virial dispatch DONE (BOX-STRESS LEAD). F LOCKED awaiting Charles audit+go. Native-action dispatch DRAFT awaiting his §0/§1 review.) ============
+## ============ CURRENT STATE (2026-07-17 — H3 PARTICLE-MASS arc COMPLETE THROUGH F: stability SETTLED (twice-verified) → G conditional mass readout → boundary-virial (BOX-STRESS LEAD) → audit patch → **F basin characterization DONE (single robust basin, 82 branches, 3 grids, verifier 21/21)**. All dispatched work returned; Charles's audits + native-action §0/§1 review pending.) ============
 
 **➤➤➤ TOPMOST LAYER (2026-07-16 — read this + the two result docs, then stop):**
 - **G (conditional mass readout on the corrected carrier) COMPLETE** — `noNull_phaseG_mass_results.md`
@@ -42,18 +42,27 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
   CAS 4/4; commit `837d633`). V1 identity DERIVED+CAS'd: **E4−E2 = B_∂Ω + W_res ⇒ M_N⁽⁰⁾ = E_carrier
   + B_∂Ω** (the "two masses" = one mass + a computable boundary term). V2 exact (2e-16). V3: the
   **E2-rich pinned-wall skin** found (E2 only ~86% inside a=2.5 vs E4 99.5%); surface closure
-  converging ~O(h) (15%→8.5%), local theorem OPEN. **V4 box scout (pad+re-relax, fixed h): |δ_vir|
+  converging ~h² empirically (33%→15.4%→8.5%; powers p=1.88, 2.07 — audit-patch corrected from ~O(h)), local theorem OPEN. **V4 box scout (pad+re-relax, fixed h): |δ_vir|
   falls MONOTONE at BOTH resolutions** — h_c: 0.0521→0.0439→0.0379 (L=6→7.5→9); h_f: 0.0363→0.0256
   (L=6→7.5; the 0.0363 anchor = the N=192 raw δ_vir in `noNull_phaseG_mass_ALL.json`, the 0.0256 in
   `noNull_boxscout_observables.json`). All criticality gates met, topology held. **VERDICT: BOX-STRESS LEAD; local surface
-  theorem OPEN; infinite-volume closure OPEN (no limit claimed — dispatch forbids).** CAS note: the
+  theorem OPEN; infinite-volume closure OPEN — audit patch (442c64e): literal 1/L intercepts are
+  unstable/nonphysical (fine 2-pt gap −4.76); NO intercept identifiable from this scout.** CAS note: the
   first CAS pass CAUGHT a sign error in the hand-written EL (production unaffected — audited
   grad_noNull everywhere); corrected + re-verified.
-- **⏳ ON CHARLES'S DESK:** (1) audit of the G + boundary-virial returns → **F go/no-go** (F
-  preregistration = §9 of `UDT_H3_CORRECTED_G_THEN_F_SEQUENCING_DISPATCH.md`; F remains LOCKED);
+- **✅ AUDIT-PATCH + F DONE (2026-07-16→17, `UDT_H3_BOUNDARY_AUDIT_PATCH_THEN_F_DISPATCH.md`;
+  commits 442c64e→2f024f8):** Part-A evidence patch green (5 record defects fixed; verifiers 62/62 +
+  CAS 4/4; zero scalar change). **F basin characterization COMPLETE** (`noNull_behavioral_F_results.md`,
+  verifier PASS 21/21): ~82 branches (8 doublet-plane dirs + both iso signs; θ 0.05→1.20 rad;
+  128/192/256) — **zero topology changes, zero lower states, single robust basin**; fine grids 24/24
+  RETURNED BASIN; the T/R drift shelf fades with grid (−2.2e-3→−4e-4→−1.5e-4 = box artifact, matches
+  the marginal-walls finding). Scope: relaxation/basin behavior in the L=6 frame — NOT dynamics,
+  NOT infinite-volume, NOT a mass statement.
+- **⏳ ON CHARLES'S DESK:** (1) audit of the F return (+ the G / boundary-virial / audit-patch chain);
   (2) **native-action dispatch review** (§0 process + §1 framing of
-  `UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md` — 2-arm+adversarial+CAS; carrier-covariance route +
-  M=2E4 consistency test folded in; arms NOT launched); (3) any canonization of the stability seal.
+  `UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md` — arms NOT launched); (3) any canonization (stability
+  seal; basin characterization); (4) direction for the next push (candidates: boundary-layer theorem
+  route / native-action arms / box-mask study / spin-isorotation on the certified carrier).
 - **Ops for a fresh session:** launch pattern = `setsid bash -c '… timeout … python3 …' & disown`
   (plain `&` dies with the tool shell); ONE GPU process; **exact Hessian tools** `hvp_exact`/
   `hvp_exact_chunked` in `noNull_energy.py` (machine-precision; FD-HVP noise floor ~1e-10 rel blocks
@@ -107,11 +116,10 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
   mask HBW=2 (FREE; wider-mask boundary sweep NOT done); EH/metric-only action = CONDITIONAL-DERIVED;
   S² carrier = posit (bedrock memory). Hess outputs now N-tagged (anti-clobber; converged vectors =
   `noNull_hess_refine_s{0,1,192_*,128_*}.npz`).
-- **STATUS: `Nyquist instability FALSIFIED; T/R-deflated physical spectrum certified POSITIVE
-  (3 grids, blind-verified); FULL U(1)^⊥ inertia certified POSITIVE (3 grids, Schur seal +
-  independent verifier). Static stability: SETTLED within the stamped scope; Charles verdict
-  pending.`** NEXT (on his go): **F** behavioral branches → **G** recompute Phase C (E4/source/
-  flux, M_N=2E4) on the corrected carrier; native-action derivation dispatch awaiting his review.
+- **STATUS: `Stability SETTLED (2 verified layers) · conditional mass M_N⁽⁰⁾=2E4 read out
+  (continuum ≈283.4; virial gap −2.7% = boundary stress, BOX-STRESS LEAD) · basin characterized
+  (single robust basin, verifier 21/21). All corrected-carrier work dispatched to date is COMPLETE,
+  scoped, and verified; physics verdicts / canonization / next direction = Charles.`**
 
 **➤➤➤ DETAILED ARC RECORD = `stability_branch_follow_256_DECISION.md` (full arc, retractions, fork). The superseded 2026-07-11/12 layers are archived in `archive/LIVE_h3_stability_layers_2026-07-11_12.md`.**
 

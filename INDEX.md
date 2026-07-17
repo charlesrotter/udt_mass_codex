@@ -2,7 +2,7 @@
 
 **⚠ BRANCH: `grok` (2026-07-10)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
-**➤ LIVE PARTICLE-MASS ARC (2026-07-16, separate lane — STABILITY SETTLED; G + boundary-virial DONE; F LOCKED):**
+**➤ LIVE PARTICLE-MASS ARC (2026-07-17, separate lane — arc COMPLETE through F; awaiting Charles):**
 Read LIVE.md CURRENT STATE topmost layer. Result docs: `noNull_phaseG_mass_results.md` (conditional mass
 readout, virial-gap finding) + `noNull_boundary_virial_results.md` (BOX-STRESS LEAD) +
 `noNull_virial_identity_derivation.md` (V1 identity, CAS 4/4) + `noNull_hess_refine_256_log.txt` /
@@ -15,7 +15,10 @@ Solvers/tools: `noNull_energy.py` (corrected operator + **exact HVP** `hvp_exact
 Dispatches: `UDT_H3_CORRECTED_G_THEN_F_SEQUENCING_DISPATCH.md` (F prereg = §9; F LOCKED) +
 `UDT_H3_BOUNDARY_VIRIAL_CLOSURE_BEFORE_F_DISPATCH.md` (done) +
 `UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md` (DRAFT awaiting Charles §0/§1 review).
-Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`,
+F (basin): `noNull_behavioral_F.py` + `verify_noNull_behavioral_F.py` + `noNull_behavioral_F_results.md` +
+`noNull_F_{dirs,gate,control_*,ladder_N128,fine_*}​.json` + `F_endpoints/` (hashed) + `F_evidence/`.
+Audit patch: `noNull_boxscout_build.py` (+_start_rebuilt npz manifested).
+Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`, `boundary_audit_patch_2026-07-16/`,
 `verifier_evidence_2026-07-14/`, `artifact_manifest.json` (SHA-256 of all npz).  
 **Frame:** simple metric + **WR-L / C-2026-07-09-1** (\(A=1-r/X\)).  
 **NEXT (MACRO lane only — 2026-07-10, may be stale; the PARTICLE lane's next = LIVE.md topmost = WAIT on Charles):** Thread B time-live eigenmode about drained f2d; residual L time-live appearance still live.  

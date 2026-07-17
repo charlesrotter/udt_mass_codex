@@ -5,7 +5,7 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-10).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-16 — H3 particle-mass: stability SETTLED; G done; boundary-virial done; F locked)
+## CURRENT (2026-07-17 — H3 particle-mass: stability SETTLED; G done; boundary-virial done; audit patch + F done — arc complete, awaiting Charles)
 
 **Read LIVE.md CURRENT STATE topmost layer first.** Session arc 07-13→16 in one paragraph:
 
@@ -26,17 +26,16 @@ Corrections en route (all committed): verifier's ±1.2e-3 bound RETRACTED (→±
 false "NEGATIVE-CURVATURE WITNESS" headline was a control-flow bug (measured curvature +0.384 — a
 solver event, not physics); FD noise floor → exact-HVP layer; CAS caught my EL sign error.
 
-**F IN PROGRESS (2026-07-17, per `UDT_H3_BOUNDARY_AUDIT_PATCH_THEN_F_DISPATCH.md`):** Part-A evidence
-patch DONE (commit 442c64e, verifiers 62/62+CAS 4/4). F: dirs+gate+controls+128^3 ladder DONE (WIP
-commit; 58 branches, NO transition 0.05-1.20 rad, topology held everywhere, endpoints on the T/R
-drift shelf); fine chain (control/fine 192 -> control/fine 256) RUNNING (logs F_evidence/
-*_run.log; restart-safe JSONs noNull_F_*_N{N}.json). Verifier ready: verify_noNull_behavioral_F.py.
-On completion: run verifier -> single F evidence commit -> STOP (no LIVE/CANON edits per dispatch).
-NOTE: LIVE topmost still says F LOCKED + carries the retracted 'fine-pair intercept ~0' phrase —
-both await the next authorized LIVE edit.
+**F COMPLETE (2026-07-17, `UDT_H3_BOUNDARY_AUDIT_PATCH_THEN_F_DISPATCH.md`; commits 442c64e→2f024f8):**
+Part-A evidence patch green (5 defects fixed, verifiers 62/62 + CAS 4/4, zero scalar change). F basin
+characterization: ~82 branches (8 doublet dirs + iso±; θ≤1.2 rad; 3 grids) — zero topology changes,
+zero lower states, single robust basin; fine grids 24/24 RETURNED BASIN; T/R drift shelf fades with
+grid (box artifact). Verifier PASS 21/21; endpoint npz hashed. Scope: basin behavior, NOT dynamics/
+infinite-volume/mass. Records: `noNull_behavioral_F_results.md` + `noNull_F_*.json` + `F_evidence/`.
 
-**Pending Charles:** F go/no-go (preregistered §9 of the G dispatch; LOCKED); native-action dispatch
-§0/§1 review (`UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md`, DRAFT, arms not launched); canonization calls.
+**Pending Charles:** audit of the F return; native-action dispatch §0/§1 review
+(`UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md`, DRAFT, arms not launched); canonization calls; next-push
+direction (theorem route / native-action arms / box-mask study / spin-isorotation).
 **Key commits:** da51ec4→1c2196c (spectrum cert), d131557 (inertia seal), 493d104 (G), 837d633
 (boundary-virial). **Records:** noNull_hess_h2fit_log.txt, noNull_schur_inertia_ALL.json,
 noNull_phaseG_mass_results.md, noNull_boundary_virial_results.md, noNull_virial_identity_derivation.md.
