@@ -1,0 +1,64 @@
+[PASS] N=128 own E2/E4 vs black-box: 128.832932952/142.998143143
+[PASS] N=128 own E2/E4 vs production: match
+[PASS] N=128 own scale response (lam=1.0002): rel 0.00e+00
+[PASS] N=128 int(S)=E4-E2 (own): 14.165210
+[PASS] N=128 B(a=1) own quadrature: 53.176649 vs 53.176649
+[PASS] N=128 B(a=1.5) own quadrature: 51.371945 vs 51.371945
+[PASS] N=128 B(a=2) own quadrature: 36.568395 vs 36.568395
+[PASS] N=128 B(a=2.5) own quadrature: 24.230425 vs 24.230425
+[PASS] N=128 B(a=2.95) own quadrature: 16.827717 vs 16.827717
+[PASS] N=128 >=3 surface entries: 5
+[PASS] N=192 own E2/E4 vs black-box: 132.117852773/142.062744042
+[PASS] N=192 own E2/E4 vs production: match
+[PASS] N=192 own scale response (lam=1.0002): rel 4.15e-16
+[PASS] N=192 int(S)=E4-E2 (own): 9.944891
+[PASS] N=192 B(a=1) own quadrature: 52.025379 vs 52.025379
+[PASS] N=192 B(a=1.5) own quadrature: 53.115542 vs 53.115542
+[PASS] N=192 B(a=2) own quadrature: 37.669613 vs 37.669613
+[PASS] N=192 B(a=2.5) own quadrature: 24.561435 vs 24.561435
+[PASS] N=192 B(a=2.95) own quadrature: 17.614230 vs 17.614230
+[PASS] N=192 >=3 surface entries: 5
+[PASS] N=256 own E2/E4 vs black-box: 133.080274366/141.877916965
+[PASS] N=256 own E2/E4 vs production: match
+[PASS] N=256 own scale response (lam=1.0002): rel 2.07e-16
+[PASS] N=256 int(S)=E4-E2 (own): 8.797643
+[PASS] N=256 B(a=1) own quadrature: 51.330350 vs 51.330350
+[PASS] N=256 B(a=1.5) own quadrature: 53.586374 vs 53.586374
+[PASS] N=256 B(a=2) own quadrature: 37.741908 vs 37.741908
+[PASS] N=256 B(a=2.5) own quadrature: 25.292595 vs 25.292595
+[PASS] N=256 B(a=2.95) own quadrature: 17.693398 vs 17.693398
+[PASS] N=256 >=3 surface entries: 5
+[PASS] scout L6.00_N128_hc scalars (own): E=271.8311 dv=-0.05211 Qf=-0.96729
+[PASS] scout L6.00_N128_hc Q_sym (own): -0.96600 vs -0.96600
+[PASS] scout L6.00_N128_hc theta_max (own): 0.2816
+[PASS] scout L6.00_N128_hc criticality [shared-gradient convention]: 4.114e-02
+[PASS] scout L6.00_N128_hc a=2.5 localization E2/E4 (own): 0.8629/0.9959
+[PASS] scout L7.51_N160_hc scalars (own): E=270.7899 dv=-0.04390 Qf=-0.96791
+[PASS] scout L7.51_N160_hc Q_sym (own): -0.96665 vs -0.96665
+[PASS] scout L7.51_N160_hc theta_max (own): 0.2793
+[PASS] scout L7.51_N160_hc criticality [shared-gradient convention]: 1.232e-02
+[PASS] scout L7.51_N160_hc a=2.5 localization E2/E4 (own): 0.8585/0.9956
+[PASS] scout L9.02_N192_hc scalars (own): E=270.3288 dv=-0.03793 Qf=-0.96832
+[PASS] scout L9.02_N192_hc Q_sym (own): -0.96707 vs -0.96707
+[PASS] scout L9.02_N192_hc theta_max (own): 0.2777
+[PASS] scout L9.02_N192_hc criticality [shared-gradient convention]: 1.991e-02
+[PASS] scout L9.02_N192_hc a=2.5 localization E2/E4 (own): 0.8550/0.9953
+[PASS] scout L6.00_N192_hf scalars (own): E=274.1806 dv=-0.03627 Qf=-0.98618
+[PASS] scout L6.00_N192_hf Q_sym (own): -0.98562 vs -0.98562
+[PASS] scout L6.00_N192_hf theta_max (own): 0.1820
+[PASS] scout L6.00_N192_hf criticality [shared-gradient convention]: 1.729e-02
+[PASS] scout L6.00_N192_hf a=2.5 localization E2/E4 (own): 0.8654/0.9960
+[PASS] scout L7.51_N240_hf scalars (own): E=273.0728 dv=-0.02560 Qf=-0.98650
+[PASS] scout L7.51_N240_hf Q_sym (own): -0.98595 vs -0.98595
+[PASS] scout L7.51_N240_hf theta_max (own): 0.1802
+[PASS] scout L7.51_N240_hf criticality [shared-gradient convention]: 1.036e-02
+[PASS] scout L7.51_N240_hf a=2.5 localization E2/E4 (own): 0.8593/0.9956
+[PASS] rebuilt start noNull_boxscout_N160_start_rebuilt.npz core-bitwise + constant-fill: core=True fill=True E_match=True
+[PASS] rebuilt start noNull_boxscout_N192_start_rebuilt.npz core-bitwise + constant-fill: core=True fill=True E_match=True
+[PASS] rebuilt start noNull_boxscout_N240_start_rebuilt.npz core-bitwise + constant-fill: core=True fill=True E_match=True
+[PASS] predicate: |delta_vir| monotone decreasing in L at h_c: 0.05211 > 0.04390 > 0.03793
+[PASS] predicate: |delta_vir| decreases in L at h_f: 0.03627 > 0.02560
+[PASS] predicate: all scout carriers meet ||g_f||_M-1 < 0.05: [0.0411, 0.0123, 0.0199, 0.0173, 0.0104]
+[PASS] predicate: topology held (|Q_fwd| > 0.96 all boxes): [-0.9673, -0.9679, -0.9683, -0.9862, -0.9865]
+
+== BOUNDARY-VIRIAL VERIFIER VERDICT: PASS (62/62) ==

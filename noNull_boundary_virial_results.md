@@ -28,10 +28,13 @@ bound 0.46). The gap is an exact conjugate response of the fixed-box family.
 - NEW: E₂ localization (G had only E₄): inside the a=2.5 cube, E₄ fraction 99.5–99.6% but E₂ only
   **85.5–86.3%** — an **E₂-rich boundary skin** (the pinned wall forces the hopfion tail), exactly
   where box support must live. V(2.95)=19.4 > full gap 8.8 ⇒ the outer shell carries large NEGATIVE ∫S.
-- Surface closure error |V−B−W|/|V| at a=2.95: **15.4% (192³) → 8.5% (256³)** — improving ≈O(h),
-  not closed at available h. Face placement (site vs half-cell) shifts B by ≤0.4%. Label:
-  **surface construction CONVERGING; local boundary theorem OPEN** (as the dispatch anticipated for a
-  one-sided site discretization).
+- Surface closure error |V−B−W|/|V| at a=2.95: **33.3% (128³) → 15.4% (192³) → 8.5% (256³)**.
+  Successive empirical powers p = log(e_i/e_{i+1})/log(h_i/h_{i+1}) = **1.88 and 2.07** —
+  approximately SECOND order over these three grids (an empirical observation, NOT a proven
+  asymptotic order; three points cannot establish a theorem). [CORRECTED 2026-07-16 audit patch:
+  the original text characterized this as ≈O(h); the measured powers are ≈2.] Face placement
+  (site vs half-cell) shifts B by ≤0.4%. Label: **surface construction CONVERGING (~h² empirically);
+  local boundary theorem OPEN**.
 
 ## V4 — bounded fixed-spacing box scout: MONOTONE AND CLEAN (both h)
 | box | h | L | E | δ_vir | Q_fwd | ‖g_f‖_M⁻¹ |
@@ -45,8 +48,13 @@ bound 0.46). The gap is an exact conjugate response of the fixed-box family.
 - |δ_vir| decreases monotonically with L at BOTH resolutions (×0.84, ×0.86 per step at h_c; ×0.71 at h_f).
 - E decreases as the wall recedes (the box was confining); topology and charges stable; all
   criticality gates met without loosening; θ_max stable; core localization unchanged.
-- The coarse-triplet 1/L fit hints at a +2.5 intercept, but this is NOT robust in h (fine-pair
-  intercept ≈ 0); the gap itself has strong h² content. Raw numbers reported; **no limit claimed**.
+- Literal 1/L fits [CORRECTED 2026-07-16 audit patch — the original "fine-pair intercept ≈ 0"
+  phrase is DELETED as unsupported]: gap intercepts: coarse 3-point **+2.537** (slope +69.9);
+  fine 2-point **−4.759** (slope +88.2). |δ_vir| intercepts: coarse 3-point **+0.0100**; fine
+  2-point **−0.0168**. The fine two-point intercepts are NONPHYSICAL/UNSTABLE (negative gap is
+  impossible; two points cannot constrain an intercept) and support **no limit inference**; the
+  coarse three-point intercept is likewise h-contaminated. **No intercept is identifiable from this
+  scout.** Raw numbers reported; **no limit claimed**.
 
 ## Decision-table outcome
 V2 exact ✓; V4 |δ_vir| decreases cleanly with L at both h ✓; V3 converging but not closed at

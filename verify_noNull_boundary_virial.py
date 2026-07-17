@@ -120,32 +120,76 @@ for Ng, critf in ((128, 'noNull_critical_field_128.npz'), (192, 'noNull_critical
     check(f'N={Ng} >=3 surface entries', nsurf >= 3, f'{nsurf}')
     del n, r2, r4, T, Tn; gc.collect(); torch.cuda.empty_cache()
 
-# ---- 4: scout boxes ----
-for tag, f in (('L6.00_N128', 'noNull_critical_field_128.npz'), ('L7.51_N160', 'noNull_boxscout_N160.npz'),
-               ('L9.02_N192', 'noNull_boxscout_N192.npz'), ('L7.51_N240_hf', 'noNull_boxscout_N240.npz')):
+# ---- 4: scout boxes (complete observable set; own implementations except the labeled convention) ----
+def own_charge_sym(n, h):
+    N = n.shape[1]
+    F = {(i, j): torch.zeros(N, N, N, device=dev) for i in range(3) for j in range(3) if i != j}
+    for s1 in (1, -1):
+        for s2 in (1, -1):
+            for s3 in (1, -1):
+                dn = [own_d(n, 1, s1, h), own_d(n, 2, s2, h), own_d(n, 3, s3, h)]
+                for i in range(3):
+                    for j in range(3):
+                        if i != j: F[(i, j)] = F[(i, j)] + (n*own_cross(dn[i], dn[j])).sum(0)/8
+    B = torch.stack([F[(1, 2)], F[(2, 0)], F[(0, 1)]], 0)
+    k1 = 2*math.pi*torch.fft.fftfreq(N, d=h, device=dev)
+    KX, KY, KZ = torch.meshgrid(k1, k1, k1, indexing='ij'); k2 = KX*KX+KY*KY+KZ*KZ; k2[0, 0, 0] = 1.0
+    dfw = lambda g, ax: (torch.roll(g, -1, ax) - g)/h
+    cB = torch.stack([dfw(B[2], 1)-dfw(B[1], 2), dfw(B[0], 2)-dfw(B[2], 0), dfw(B[1], 0)-dfw(B[0], 1)], 0)
+    A = torch.zeros_like(B)
+    for c in range(3):
+        Ak = torch.fft.fftn(-cB[c])/(-k2); Ak[0, 0, 0] = 0.0; A[c] = torch.fft.ifftn(Ak).real
+    return float((A*B).sum(0).sum()*h**3/(16*math.pi**2))
+for tag, f in (('L6.00_N128_hc', 'noNull_critical_field_128.npz'), ('L7.51_N160_hc', 'noNull_boxscout_N160.npz'),
+               ('L9.02_N192_hc', 'noNull_boxscout_N192.npz'), ('L6.00_N192_hf', 'noNull_critical_field_192.npz'),
+               ('L7.51_N240_hf', 'noNull_boxscout_N240.npz')):
     dc = np.load(f)
     N, L, h, xi, kap = int(dc['N']), float(dc['L']), float(dc['h']), float(dc['xi']), float(dc['kappa'])
     n = torch.tensor(dc['n'], device=dev); n = n/n.norm(dim=0, keepdim=True)
     E, E2r, E4r = [float(x) for x in energy_noNull(n, h, xi, kap)]
-    Qo = own_charge(n, h)
+    Qo = own_charge(n, h); Qso = own_charge_sym(n, h)
+    thmx = 0.0
+    for a in range(3):
+        dot = (n*torch.roll(n, -1, a+1)).sum(0).clamp(-1, 1); thmx = max(thmx, float(torch.arccos(dot).max()))
     from noNull_energy import grad_noNull
     FM = torch.zeros(N, N, N, device=dev); FM[2:-2, 2:-2, 2:-2] = 1.0
     gr = grad_noNull(n, h, xi, kap); gf = (gr-(gr*n).sum(0, keepdim=True)*n)*FM
-    cM = float(mnorm(gf, h))
+    cM = float(mnorm(gf, h))                     # SHARED-GRADIENT CONVENTION (audited grad_noNull), not independent
+    r2o, r4o, _ = own_fields(n, h, xi, kap)
+    axn = (np.arange(N)-(N-1)/2)*h
+    A3 = np.maximum.reduce(np.meshgrid(np.abs(axn), np.abs(axn), np.abs(axn), indexing='ij'))
+    r2n = r2o.cpu().numpy(); r4n = r4o.cpu().numpy()
+    e2f = float(r2n[A3 <= 2.5].sum()*h**3/(float(r2o.sum())*h**3))
+    e4f = float(r4n[A3 <= 2.5].sum()*h**3/(float(r4o.sum())*h**3))
     row = scout[tag]
     dvo = (E2r-E4r)/(E2r+E4r)
-    ok = (abs(E-row['E']) < 1e-6 and abs(dvo-row['delta_vir']) < 1e-9 and abs(Qo-row['Q_fwd']) < 1e-6
-          and abs(cM-row['crit_Minv']) < 1e-6)
-    check(f'scout {tag} scalars (own)', ok,
-          f'E={E:.4f} dv={dvo:+.5f} Q={Qo:.5f} critM={cM:.3e}')
-    del n, gr, gf; gc.collect(); torch.cuda.empty_cache()
+    ok = (abs(E-row['E']) < 1e-6 and abs(dvo-row['delta_vir']) < 1e-9 and abs(Qo-row['Q_fwd']) < 1e-6)
+    check(f'scout {tag} scalars (own)', ok, f'E={E:.4f} dv={dvo:+.5f} Qf={Qo:.5f}')
+    check(f'scout {tag} Q_sym (own)', abs(Qso-row['Q_sym']) < 1e-6, f'{Qso:.5f} vs {row["Q_sym"]:.5f}')
+    check(f'scout {tag} theta_max (own)', abs(thmx-row['theta_max']) < 1e-9, f'{thmx:.4f}')
+    check(f'scout {tag} criticality [shared-gradient convention]', abs(cM-row['crit_Minv']) < 1e-6, f'{cM:.3e}')
+    lc = row['localization']['cubes']['2.5']
+    check(f'scout {tag} a=2.5 localization E2/E4 (own)',
+          abs(e2f-lc['E2_frac']) < 1e-9 and abs(e4f-lc['E4_frac']) < 1e-9, f'{e2f:.4f}/{e4f:.4f}')
+    del n, gr, gf, r2o, r4o; gc.collect(); torch.cuda.empty_cache()
+
+# ---- 4b: rebuilt-start predicates ----
+bld = json.load(open('noNull_boxscout_build.json'))
+for case in bld['cases']:
+    dsrc = np.load(case['src']); dst = np.load(case['dst'])
+    n0 = dsrc['n']; big = dst['n']; off = int(case['offset']); N0 = n0.shape[1]
+    core_ok = bool((big[:, off:off+N0, off:off+N0, off:off+N0] == n0).all())
+    m = np.ones(big.shape[1:], dtype=bool); m[off:off+N0, off:off+N0, off:off+N0] = False
+    fill_ok = bool((big[0][m] == 0).all() and (big[1][m] == 0).all() and (big[2][m] == -1).all())
+    check(f"rebuilt start {case['dst']} core-bitwise + constant-fill", core_ok and fill_ok,
+          f'core={core_ok} fill={fill_ok} E_match={case["E_match"]}')
 
 # ---- 5: decision-table predicates ----
 dv = {k: abs(scout[k]['delta_vir']) for k in scout}
-mono_hc = dv['L6.00_N128'] > dv['L7.51_N160'] > dv['L9.02_N192']
+mono_hc = dv['L6.00_N128_hc'] > dv['L7.51_N160_hc'] > dv['L9.02_N192_hc']
 check('predicate: |delta_vir| monotone decreasing in L at h_c', mono_hc,
-      f"{dv['L6.00_N128']:.5f} > {dv['L7.51_N160']:.5f} > {dv['L9.02_N192']:.5f}")
-dv192 = abs(json.load(open('noNull_phaseG_mass_ALL.json'))['grids']['192']['G1']['delta_vir'])
+      f"{dv['L6.00_N128_hc']:.5f} > {dv['L7.51_N160_hc']:.5f} > {dv['L9.02_N192_hc']:.5f}")
+dv192 = dv['L6.00_N192_hf']
 mono_hf = dv192 > dv['L7.51_N240_hf']
 check('predicate: |delta_vir| decreases in L at h_f', mono_hf, f'{dv192:.5f} > {dv["L7.51_N240_hf"]:.5f}')
 crit_ok = all(scout[k]['crit_Minv'] < 0.05 for k in scout)

@@ -1,0 +1,4 @@
+noNull_boxscout_N160_start_rebuilt.npz: N=160 L=7.511811 off=16 core=BITWISE fill=EXACT E_start=271.8311 vs log 271.8311 -> MATCH
+noNull_boxscout_N192_start_rebuilt.npz: N=192 L=9.023622 off=32 core=BITWISE fill=EXACT E_start=271.8311 vs log 271.8311 -> MATCH
+noNull_boxscout_N240_start_rebuilt.npz: N=240 L=7.507853 off=24 core=BITWISE fill=EXACT E_start=274.1806 vs log 274.1806 -> MATCH
+wrote noNull_boxscout_build.json

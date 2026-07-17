@@ -1,0 +1,68 @@
+{
+ "builder": "noNull_boxscout_build.py",
+ "n_inf": [
+  0.0,
+  0.0,
+  -1.0
+ ],
+ "pin_layers": 2,
+ "cases": [
+  {
+   "src": "noNull_critical_field_128.npz",
+   "src_sha256": "c903d7cb54b2e9474d5f161380ae2755a8ec0246605a6653a394774c8034e784",
+   "dst": "noNull_boxscout_N160_start_rebuilt.npz",
+   "dst_sha256": "00190f1a2accd5dddd578cfcc3590eee4f497fbf790ba60ae4731715504e680c",
+   "N": 160,
+   "L": 7.511811023622047,
+   "h": 0.09448818897637795,
+   "offset": 16,
+   "core_bitwise": true,
+   "fill_exact": true,
+   "E_start": 271.83107609443107,
+   "E_start_log": 271.8311,
+   "E_match": true,
+   "build_cmd": "python3 noNull_boxscout_build.py",
+   "relax_cmd": "BASE_FIELD=noNull_boxscout_N160.npz CRIT_FIELD=noNull_boxscout_N160.npz STAGE=nk NK_BUDGET_S=14000 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True timeout 21600 python3 noNull_resolve.py",
+   "relax_log": "boundary_virial_evidence_2026-07-16/scout_N160_relax.log",
+   "relaxed_field": "noNull_boxscout_N160.npz (NOT touched by this builder)"
+  },
+  {
+   "src": "noNull_critical_field_128.npz",
+   "src_sha256": "c903d7cb54b2e9474d5f161380ae2755a8ec0246605a6653a394774c8034e784",
+   "dst": "noNull_boxscout_N192_start_rebuilt.npz",
+   "dst_sha256": "fc09c62ef3c0186fdb409829886f0c12f7cd23a9fd3537afe968e1db67a18537",
+   "N": 192,
+   "L": 9.023622047244094,
+   "h": 0.09448818897637795,
+   "offset": 32,
+   "core_bitwise": true,
+   "fill_exact": true,
+   "E_start": 271.83107609443107,
+   "E_start_log": 271.8311,
+   "E_match": true,
+   "build_cmd": "python3 noNull_boxscout_build.py",
+   "relax_cmd": "BASE_FIELD=noNull_boxscout_N192.npz CRIT_FIELD=noNull_boxscout_N192.npz STAGE=nk NK_BUDGET_S=14000 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True timeout 21600 python3 noNull_resolve.py",
+   "relax_log": "boundary_virial_evidence_2026-07-16/scout_N192_relax.log",
+   "relaxed_field": "noNull_boxscout_N192.npz (NOT touched by this builder)"
+  },
+  {
+   "src": "noNull_critical_field_192.npz",
+   "src_sha256": "69e07b034bfeb7bb3c2d6a11b1cf79464381ccea86ceb04ffab6499fb0e43d77",
+   "dst": "noNull_boxscout_N240_start_rebuilt.npz",
+   "dst_sha256": "e3426bd00071471ea0e9cb9efb7895ec80e1b80f679953b8c6b24fbde02d01a5",
+   "N": 240,
+   "L": 7.507853403141361,
+   "h": 0.06282722513089005,
+   "offset": 24,
+   "core_bitwise": true,
+   "fill_exact": true,
+   "E_start": 274.1805968148136,
+   "E_start_log": 274.1806,
+   "E_match": true,
+   "build_cmd": "python3 noNull_boxscout_build.py",
+   "relax_cmd": "BASE_FIELD=noNull_boxscout_N240.npz CRIT_FIELD=noNull_boxscout_N240.npz STAGE=nk NK_BUDGET_S=14000 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True timeout 21600 python3 noNull_resolve.py",
+   "relax_log": "boundary_virial_evidence_2026-07-16/scout_N240_relax.log",
+   "relaxed_field": "noNull_boxscout_N240.npz (NOT touched by this builder)"
+  }
+ ]
+}

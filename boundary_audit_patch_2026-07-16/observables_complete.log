@@ -1,0 +1,7 @@
+L6.00_N128_hc: E=271.8311 E2=128.8329 E4=142.9981 dv=-0.05211 Qf=-0.96729 Qs=-0.96600 critM=4.114e-02 thmax=0.282
+L7.51_N160_hc: E=270.7899 E2=129.4513 E4=141.3386 dv=-0.04390 Qf=-0.96791 Qs=-0.96665 critM=1.232e-02 thmax=0.279
+L9.02_N192_hc: E=270.3288 E2=130.0379 E4=140.2909 dv=-0.03793 Qf=-0.96832 Qs=-0.96707 critM=1.991e-02 thmax=0.278
+L6.00_N192_hf: E=274.1806 E2=132.1179 E4=142.0627 dv=-0.03627 Qf=-0.98618 Qs=-0.98562 critM=1.729e-02 thmax=0.182
+L7.51_N240_hf: E=273.0728 E2=133.0405 E4=140.0323 dv=-0.02560 Qf=-0.98650 Qs=-0.98595 critM=1.036e-02 thmax=0.180
+no-change audit vs prior JSON: worst |diff| = 0.00e+00 (must be serialization-roundoff only)
+wrote complete noNull_boxscout_observables.json (5 boxes, full observable set)

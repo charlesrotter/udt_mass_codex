@@ -1645,6 +1645,141 @@
     }
    },
    "originating_command": "V4b: pad 192(L=6,h_f) carrier +n_inf fill -> STAGE=nk relax (converged 0.0104; 2026-07-16)"
+  },
+  "noNull_boxscout_N160_start_rebuilt.npz": {
+   "status": "present",
+   "bytes": 98305476,
+   "sha256": "00190f1a2accd5dddd578cfcc3590eee4f497fbf790ba60ae4731715504e680c",
+   "mtime": "2026-07-16T21:02:56",
+   "params": {
+    "N": 160.0,
+    "L": 7.511811023622047,
+    "h": 0.09448818897637795,
+    "xi": 1.0,
+    "kappa": 1.0
+   },
+   "arrays": {
+    "n": {
+     "shape": [
+      3,
+      160,
+      160,
+      160
+     ],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "xi": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "kappa": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "python3 noNull_boxscout_build.py (deterministic V4 start reconstruction; core bitwise-verified; 2026-07-16)"
+  },
+  "noNull_boxscout_N192_start_rebuilt.npz": {
+   "status": "present",
+   "bytes": 169870788,
+   "sha256": "fc09c62ef3c0186fdb409829886f0c12f7cd23a9fd3537afe968e1db67a18537",
+   "mtime": "2026-07-16T21:02:57",
+   "params": {
+    "N": 192.0,
+    "L": 9.023622047244094,
+    "h": 0.09448818897637795,
+    "xi": 1.0,
+    "kappa": 1.0
+   },
+   "arrays": {
+    "n": {
+     "shape": [
+      3,
+      192,
+      192,
+      192
+     ],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "xi": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "kappa": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "python3 noNull_boxscout_build.py (deterministic V4 start reconstruction; core bitwise-verified; 2026-07-16)"
+  },
+  "noNull_boxscout_N240_start_rebuilt.npz": {
+   "status": "present",
+   "bytes": 331777476,
+   "sha256": "e3426bd00071471ea0e9cb9efb7895ec80e1b80f679953b8c6b24fbde02d01a5",
+   "mtime": "2026-07-16T21:02:58",
+   "params": {
+    "N": 240.0,
+    "L": 7.507853403141361,
+    "h": 0.06282722513089005,
+    "xi": 1.0,
+    "kappa": 1.0
+   },
+   "arrays": {
+    "n": {
+     "shape": [
+      3,
+      240,
+      240,
+      240
+     ],
+     "dtype": "float64"
+    },
+    "N": {
+     "shape": [],
+     "dtype": "int64"
+    },
+    "L": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "h": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "xi": {
+     "shape": [],
+     "dtype": "float64"
+    },
+    "kappa": {
+     "shape": [],
+     "dtype": "float64"
+    }
+   },
+   "originating_command": "python3 noNull_boxscout_build.py (deterministic V4 start reconstruction; core bitwise-verified; 2026-07-16)"
   }
  }
 }
