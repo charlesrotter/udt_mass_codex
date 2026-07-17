@@ -5,7 +5,34 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-10).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-12 — H3 particle-mass, corrected-operator stability arc)
+## CURRENT (2026-07-16 — H3 particle-mass: stability SETTLED; G done; boundary-virial done; F locked)
+
+**Read LIVE.md CURRENT STATE topmost layer first.** Session arc 07-13→16 in one paragraph:
+
+The corrected-operator stability question was closed in TWO layers, both blind/independently verified:
+(1) the T/R-DEFLATED physical spectrum certified positive at 128/192/256 (Charles's raw-backward-error
+protocol: doublet η_c<1e-3 via invariant-subspace residual, isolated raw r_j<1e-3, ε-sweep, cross-seed
+1e-9; refined values doublet 0.25088/isolated 0.32261 at 256³, h→0 ≈ +0.249/+0.322); (2) **full
+U(1)^⊥ inertia positive** via the T/R Schur-complement seal (S=B−CᵀA⁻¹C exact, no mode discarded;
+margins +2.0e-6/+3.3e-7/+4.1e-9; 256³ on the EXACT double-backward Hessian; fresh own-code verifier
+PASS ×3, S-spectra match 9e-15). Translation-pair walls collapse with grid (0.0024→0.00004 phys) →
+marginal in continuum = box-artifact walls (theorem-route candidate). THEN **G** (dispatch): conditional
+mass readout on the corrected carrier — M_N⁽⁰⁾=2E4 (EH-conditional Gauss/lapse identity); continuum
+2E4≈283.3–283.5 vs E_carrier≈275.9; **virial gap δ_vir→−2.7%** (vs 0.05% closure on the superseded
+centered carrier). THEN **boundary-virial** (dispatch): identity E4−E2=B_∂Ω+W_res DERIVED+CAS'd;
+exact scale response 2e-16; E2-rich pinned-wall skin found; **box scout monotone at both h** →
+**BOX-STRESS LEAD** (gap = boundary dilation stress; local surface theorem OPEN; L→∞ OPEN).
+Corrections en route (all committed): verifier's ±1.2e-3 bound RETRACTED (→±2e-2 within-span); one
+false "NEGATIVE-CURVATURE WITNESS" headline was a control-flow bug (measured curvature +0.384 — a
+solver event, not physics); FD noise floor → exact-HVP layer; CAS caught my EL sign error.
+
+**Pending Charles:** F go/no-go (preregistered §9 of the G dispatch; LOCKED); native-action dispatch
+§0/§1 review (`UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md`, DRAFT, arms not launched); canonization calls.
+**Key commits:** da51ec4→1c2196c (spectrum cert), d131557 (inertia seal), 493d104 (G), 837d633
+(boundary-virial). **Records:** noNull_hess_h2fit_log.txt, noNull_schur_inertia_ALL.json,
+noNull_phaseG_mass_results.md, noNull_boundary_virial_results.md, noNull_virial_identity_derivation.md.
+
+## [SUPERSEDED layer] (2026-07-12 — H3 particle-mass, corrected-operator stability arc)
 
 **Detailed record: `stability_branch_follow_256_DECISION.md`.** Live plan + next action: **LIVE.md CURRENT STATE**.
 

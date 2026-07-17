@@ -29,7 +29,37 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-14 — H3 STATIC PARTICLE-MASS arc: Phase-B stability NUMERICALLY CERTIFIED + BLIND-VERIFIED (positive spectrum, 3 grids); awaiting Charles's verdict; NEXT = F (behavioral) / G (recompute Phase-C mass on corrected carrier)). ============
+## ============ CURRENT STATE (2026-07-16 — H3 PARTICLE-MASS arc: stability FULLY SETTLED (deflated spectrum + full-H Schur inertia, 3 grids, twice-verified) → G mass readout DONE (conditional; virial-gap finding) → boundary-virial dispatch DONE (BOX-STRESS LEAD). F LOCKED awaiting Charles audit+go. Native-action dispatch DRAFT awaiting his §0/§1 review.) ============
+
+**➤➤➤ TOPMOST LAYER (2026-07-16 — read this + the two result docs, then stop):**
+- **G (conditional mass readout on the corrected carrier) COMPLETE** — `noNull_phaseG_mass_results.md`
+  (verifier PASS 90/90; commit `493d104`). All gates crushed (r_P~1e-12 via direct DST-I 7-point solve;
+  Gauss 4e-12). CONDITIONAL (EH lapse) unit response: **M_N⁽⁰⁾=2E4; continuum 2E4≈283.3–283.5 vs
+  E_carrier=E2+E4≈275.9** — the **virial does NOT close at L=6: δ_vir→≈−2.7% continuum** (E2<E4;
+  contrast: the superseded centered-carrier record had 0.05% closure). NO κ_g used; DATA-BLIND.
+- **BOUNDARY-VIRIAL dispatch COMPLETE** — `noNull_boundary_virial_results.md` (verifier PASS 38/38 +
+  CAS 4/4; commit `837d633`). V1 identity DERIVED+CAS'd: **E4−E2 = B_∂Ω + W_res ⇒ M_N⁽⁰⁾ = E_carrier
+  + B_∂Ω** (the "two masses" = one mass + a computable boundary term). V2 exact (2e-16). V3: the
+  **E2-rich pinned-wall skin** found (E2 only ~86% inside a=2.5 vs E4 99.5%); surface closure
+  converging ~O(h) (15%→8.5%), local theorem OPEN. **V4 box scout (pad+re-relax, fixed h): |δ_vir|
+  falls MONOTONE at BOTH resolutions** — h_c: 0.0521→0.0439→0.0379 (L=6→7.5→9); h_f: 0.0363→0.0256
+  (L=6→7.5). All criticality gates met, topology held. **VERDICT: BOX-STRESS LEAD; local surface
+  theorem OPEN; infinite-volume closure OPEN (no limit claimed — dispatch forbids).** CAS note: the
+  first CAS pass CAUGHT a sign error in the hand-written EL (production unaffected — audited
+  grad_noNull everywhere); corrected + re-verified.
+- **⏳ ON CHARLES'S DESK:** (1) audit of the G + boundary-virial returns → **F go/no-go** (F
+  preregistration = §9 of `UDT_H3_CORRECTED_G_THEN_F_SEQUENCING_DISPATCH.md`; F remains LOCKED);
+  (2) **native-action dispatch review** (§0 process + §1 framing of
+  `UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md` — 2-arm+adversarial+CAS; carrier-covariance route +
+  M=2E4 consistency test folded in; arms NOT launched); (3) any canonization of the stability seal.
+- **Ops for a fresh session:** launch pattern = `setsid bash -c '… timeout … python3 …' & disown`
+  (plain `&` dies with the tool shell); ONE GPU process; **exact Hessian tools** `hvp_exact`/
+  `hvp_exact_chunked` in `noNull_energy.py` (machine-precision; FD-HVP noise floor ~1e-10 rel blocks
+  deep certification); hess outputs N-tagged; `.gitignore` has `*.log` — **git add -f** for evidence
+  logs; scout fields `noNull_boxscout_N{160,192,240}.npz`; evidence dirs `phaseG_evidence_2026-07-16/`
+  + `boundary_virial_evidence_2026-07-16/`; artifact_manifest.json = SHA-256 of every npz.
+
+**[prior layer of the same arc — stability certification, 2026-07-14→16, still-true record:]**
 
 **➤➤➤ LATEST (2026-07-14 — STABILITY CERTIFICATION COMPLETE; records = `noNull_hess_h2fit_log.txt` +
 `noNull_hess_refine_{256,192}_log.txt`; commits `da51ec4..1c2196c`):**

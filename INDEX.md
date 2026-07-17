@@ -2,11 +2,21 @@
 
 **⚠ BRANCH: `grok` (2026-07-10)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
-**➤ LIVE PARTICLE-MASS ARC (2026-07-12, separate lane):** `stability_branch_follow_256_DECISION.md` (record) +
-`noNull_energy.py` / `noNull_precond.py` / `noNull_resolve.py` (corrected no-null operator + preconditioner +
-relax/NK/hess) + `stability_checkerboard_audit.py` / `noNull_curvature_check.py` / `noNull_residual_*.py`
-(diagnostics) + `stability_eigenmode_256.py` (block LOBPCG). Phase-B "instability" = Nyquist operator artifact
-(falsified); criticality/stability OPEN. See LIVE.md CURRENT STATE.  
+**➤ LIVE PARTICLE-MASS ARC (2026-07-16, separate lane — STABILITY SETTLED; G + boundary-virial DONE; F LOCKED):**
+Read LIVE.md CURRENT STATE topmost layer. Result docs: `noNull_phaseG_mass_results.md` (conditional mass
+readout, virial-gap finding) + `noNull_boundary_virial_results.md` (BOX-STRESS LEAD) +
+`noNull_virial_identity_derivation.md` (V1 identity, CAS 4/4) + `noNull_hess_refine_256_log.txt` /
+`noNull_hess_h2fit_log.txt` (spectrum certification) + `noNull_schur_inertia_ALL.json` (full-H inertia seal).
+Solvers/tools: `noNull_energy.py` (corrected operator + **exact HVP** `hvp_exact`/`_chunked`) /
+`noNull_precond.py` / `noNull_resolve.py` (relax/NK/hess, N-tagged outputs) / `noNull_hess_refine.py`
+(soft-lock ortho-LOBPCG) / `noNull_schur_inertia.py` + `noNull_schur_verify.py` (inertia seal) /
+`noNull_phaseG_mass.py` + `verify_noNull_phaseG_mass.py` (G) / `noNull_boundary_virial.py` +
+`verify_noNull_boundary_virial.py` + `verify_virial_identity_cas.py` (boundary-virial).
+Dispatches: `UDT_H3_CORRECTED_G_THEN_F_SEQUENCING_DISPATCH.md` (F prereg = §9; F LOCKED) +
+`UDT_H3_BOUNDARY_VIRIAL_CLOSURE_BEFORE_F_DISPATCH.md` (done) +
+`UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md` (DRAFT awaiting Charles §0/§1 review).
+Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`,
+`verifier_evidence_2026-07-14/`, `artifact_manifest.json` (SHA-256 of all npz).  
 **Frame:** simple metric + **WR-L / C-2026-07-09-1** (\(A=1-r/X\)).  
 **NEXT:** Thread B **time-live eigenmode** about drained f2d (static seal series exhausted for round); residual L time-live appearance still live.  
 **Quarantine:** free \(D_A\) → `grok/quarantine_free_DA/` (not live theory verdicts).
