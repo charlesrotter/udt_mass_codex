@@ -1,0 +1,15 @@
+control rep0: E=274.180597 gn=1.729e-02 Qf=-0.98618 reached=True
+control rep1: E=274.180597 gn=1.729e-02 Qf=-0.98618 reached=True
+variability: sigE=0.00e+00 sigQ=0.00e+00 sigLoc=0.00e+00 -> tauE=1.000e-03 tauQ=0.020 tauLoc=0.010
+U(1) rotation control: dE=0.000e+00 Qf=-0.98618
+    [TR-Tx] step=1 gn=2.235e+00 E=274.19076 rho=+1.04 converged(8) ACC
+T/R control Tx: E=274.180821 disp=20.493 Qf=-0.98617
+    [TR-Rz] step=1 gn=7.137e+01 E=283.77111 rho=+1.00 boundary(0) ACC
+    [TR-Rz] step=2 gn=6.846e+01 E=283.02549 rho=+1.00 boundary(0) ACC
+    [TR-Rz] step=3 gn=6.274e+01 E=281.64356 rho=+1.00 boundary(0) ACC
+    [TR-Rz] step=4 gn=5.172e+01 E=279.31441 rho=+1.00 boundary(0) ACC
+    [TR-Rz] step=5 gn=3.326e+01 E=276.36351 rho=+1.00 boundary(1) ACC
+    [TR-Rz] step=6 gn=2.082e+01 E=275.01410 rho=+1.00 boundary(4) ACC
+    [TR-Rz] step=7 gn=1.120e+00 E=274.18631 rho=+1.01 converged(16) ACC
+T/R control Rz: E=274.180185 disp=3.056 Qf=-0.98615
+wrote noNull_F_control_N192.json

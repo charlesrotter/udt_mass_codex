@@ -1,0 +1,126 @@
+{
+ "grids": {
+  "128": {
+   "n_classified_replayed": 59,
+   "n_endpoints_recomputed": 15
+  },
+  "192": {
+   "n_classified_replayed": 12,
+   "n_endpoints_recomputed": 12
+  },
+  "256": {
+   "n_classified_replayed": 12,
+   "n_endpoints_recomputed": 12
+  }
+ },
+ "verdict": "PASS",
+ "npass": 21,
+ "ntotal": 21,
+ "checks": [
+  {
+   "name": "N=128 dirs orthonormal (own Gram)",
+   "ok": true,
+   "detail": "2.22e-16"
+  },
+  {
+   "name": "N=128 dirs tangent+boundary",
+   "ok": true,
+   "detail": "tang 3.3e-19 bnd 0.0e+00"
+  },
+  {
+   "name": "N=128 dirs in U(1)+T/R complement (own projectors)",
+   "ok": true,
+   "detail": "2.14e-17"
+  },
+  {
+   "name": "N=128 seed0 doublet member lies in span(v5,v6)",
+   "ok": true,
+   "detail": "1.0000000000"
+  },
+  {
+   "name": "N=128 gate wHw vs own exact HVP",
+   "ok": true,
+   "detail": "82.661038 vs 82.661038"
+  },
+  {
+   "name": "N=128 all classifications replay identically",
+   "ok": true,
+   "detail": "59 replayed"
+  },
+  {
+   "name": "N=128 endpoint recomputes green",
+   "ok": true,
+   "detail": "15 recomputed (bounded sample)"
+  },
+  {
+   "name": "N=192 dirs orthonormal (own Gram)",
+   "ok": true,
+   "detail": "2.22e-16"
+  },
+  {
+   "name": "N=192 dirs tangent+boundary",
+   "ok": true,
+   "detail": "tang 2.2e-19 bnd 0.0e+00"
+  },
+  {
+   "name": "N=192 dirs in U(1)+T/R complement (own projectors)",
+   "ok": true,
+   "detail": "2.24e-17"
+  },
+  {
+   "name": "N=192 seed0 doublet member lies in span(v5,v6)",
+   "ok": true,
+   "detail": "1.0000000000"
+  },
+  {
+   "name": "N=192 gate wHw vs own exact HVP",
+   "ok": true,
+   "detail": "84.425002 vs 84.425002"
+  },
+  {
+   "name": "N=192 all classifications replay identically",
+   "ok": true,
+   "detail": "12 replayed"
+  },
+  {
+   "name": "N=192 endpoint recomputes green",
+   "ok": true,
+   "detail": "12 recomputed (bounded sample)"
+  },
+  {
+   "name": "N=256 dirs orthonormal (own Gram)",
+   "ok": true,
+   "detail": "3.63e-18"
+  },
+  {
+   "name": "N=256 dirs tangent+boundary",
+   "ok": true,
+   "detail": "tang 1.6e-19 bnd 0.0e+00"
+  },
+  {
+   "name": "N=256 dirs in U(1)+T/R complement (own projectors)",
+   "ok": true,
+   "detail": "4.16e-17"
+  },
+  {
+   "name": "N=256 seed0 doublet member lies in span(v5,v6)",
+   "ok": true,
+   "detail": "1.0000000000"
+  },
+  {
+   "name": "N=256 gate wHw vs own exact HVP",
+   "ok": true,
+   "detail": "85.045521 vs 85.045521"
+  },
+  {
+   "name": "N=256 all classifications replay identically",
+   "ok": true,
+   "detail": "12 replayed"
+  },
+  {
+   "name": "N=256 endpoint recomputes green",
+   "ok": true,
+   "detail": "12 recomputed (bounded sample)"
+  }
+ ]
+}
