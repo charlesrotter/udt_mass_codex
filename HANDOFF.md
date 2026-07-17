@@ -69,7 +69,7 @@ Fork (A) global re-center → singularity forced · (B) wall-asymptotic → regu
 **Carrier posit:** `matter_carrier_provenance_audit_results.md`.  
 **Time-live gates:** linear no-go + finite-amp LEAD — `threadB_timelive_linear_nogo_and_finite_amp_MAP.md`.  
 **H4·N4rev:** CF2 box-controlled.  
-**NEXT:** see LIVE.md (fixed-Q isorotation / residual L).
+**NEXT:** see LIVE.md.
 
 **Red:** bare-metric L claim; revive P_ell; lean on MS mass as native; χ²-shop \(A(r)\); free \(D_A\) as theory; \(x_{\max}\) as hard spatial wall.
 
