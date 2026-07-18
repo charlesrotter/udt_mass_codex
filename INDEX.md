@@ -12,12 +12,15 @@ Solvers/tools: `noNull_energy.py` (corrected operator + **exact HVP** `hvp_exact
 (soft-lock ortho-LOBPCG) / `noNull_schur_inertia.py` + `noNull_schur_verify.py` (inertia seal) /
 `noNull_phaseG_mass.py` + `verify_noNull_phaseG_mass.py` (G) / `noNull_boundary_virial.py` +
 `verify_noNull_boundary_virial.py` + `verify_virial_identity_cas.py` (boundary-virial).
-Native-action Stage I: frozen Arm A/B packages under `native_action_stage1_2026-07-18/`; return and
-external manifest hashes in `UDT_NATIVE_ACTION_STAGE1_RETURN_2026-07-18.md`. D0–D5, raw transcripts,
-CAS scripts/outputs, and driver mechanical audits are complete; no Stage II / Arm C / GPU launch.
+Native-action Stage II: frozen separate Arm A/B D6 packages under
+`native_action_stage2_2026-07-18/`; return and external manifest hashes in
+`UDT_NATIVE_ACTION_STAGE2_RETURN_2026-07-18.md`. Each includes exact A1–A6 receipt, 134-row census,
+D6, new CAS scripts/outputs, launch evidence, raw transcript, and driver mechanical audit. Original
+Stage-I packages remain frozen under `native_action_stage1_2026-07-18/`; no cross-arm adjudication /
+Arm C / GPU launch.
 Dispatches: `UDT_H3_CORRECTED_G_THEN_F_SEQUENCING_DISPATCH.md` (F prereg = §9; F LOCKED) +
 `UDT_H3_BOUNDARY_VIRIAL_CLOSURE_BEFORE_F_DISPATCH.md` (done) +
-`UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md` (Stage I complete/frozen; awaiting Charles package audit) +
+`UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md` (Stage II A/B complete/frozen; awaiting Charles D6 audit) +
 `UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md` (C0) +
 `UDT_NATIVE_ACTION_COLD_PACKET.md` (C1). Synchronization evidence:
 `UDT_NATIVE_ACTION_WORKSTATION_SYNC_AUDIT_2026-07-17.md`; owner/foundation records are the root

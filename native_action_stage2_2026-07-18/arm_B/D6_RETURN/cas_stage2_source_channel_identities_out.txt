@@ -1,0 +1,14 @@
+Ordered-index convention: Y = F_ij F_ij = 2 (f12^2 + f13^2 + f23^2)
+rho + S = kappa4*(f12**2 + f13**2 + f23**2)
+2 rho_4  = kappa4*(f12**2 + f13**2 + f23**2)
+Identity 1 holds: True
+
+rho + p_parallel = a*xi + f12**2*kappa4 + f13**2*kappa4
+2 (rho2_parallel + rho4_parallel) = a*xi + kappa4*(f12**2 + f13**2)
+Identity 2 holds: True
+
+Difference between the two source channels:
+a*xi - f23**2*kappa4
+
+Load-bearing conclusion:
+Without an extra theorem equating directional and traced channels, reciprocal tangent variation and unrestricted lapse variation are algebraically distinct.

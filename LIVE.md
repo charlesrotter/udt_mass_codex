@@ -30,19 +30,20 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-18 — H3 PARTICLE-MASS arc COMPLETE THROUGH F: stability SETTLED (twice-verified) → G conditional mass readout → boundary-virial (BOX-STRESS LEAD) → audit patch → **F finite-slice characterization DONE (83 endpoints, no resolved basin exit; single robust basin = STRONG LEAD; verifier 51/51)**. Native-action Stage I A/B COMPLETE, mechanically checked, frozen, and returned; Charles's package audit pending. Stage II, Arm C, and GPU work NOT launched.) ============
+## ============ CURRENT STATE (2026-07-18 — H3 PARTICLE-MASS arc COMPLETE THROUGH F: stability SETTLED (twice-verified) → G conditional mass readout → boundary-virial (BOX-STRESS LEAD) → audit patch → **F finite-slice characterization DONE (83 endpoints, no resolved basin exit; single robust basin = STRONG LEAD; verifier 51/51)**. Native-action Stage II A/B COMPLETE, mechanically checked, frozen, and returned; Charles's D6 package audit pending. Cross-arm adjudication, Arm C, and GPU work NOT launched.) ============
 
-**➤➤➤ NATIVE-ACTION STAGE-I RETURN (2026-07-18; `UDT_NATIVE_ACTION_STAGE1_RETURN_2026-07-18.md`):**
-- **✅ TWO COLD ARMS COMPLETE AND FROZEN:** genuinely separate Bubblewrap namespaces and Codex
-  sessions (`gpt-5.6-sol` and `gpt-5.4`) received only byte-identical C0/C1. Both returned complete
-  D0–D5, CAS scripts + captured outputs, final responses, and raw outer transcripts. All 15 CAS
-  scripts compile, exit zero, and reproduce captured output byte-for-byte. Per-file manifests pass;
-  external manifest hashes are recorded in the return. Arm A's disclosed private-tmpfs self-check
-  deviation is preserved and driver-classified noncontaminating, not hidden.
-- **STOP / AUDIT BOUNDARY:** packages are read-only under `native_action_stage1_2026-07-18/`.
-  No cross-arm physics comparison or conclusion was banked. Charles audits the two immutable packages
-  next. Stage II, Arm C, independent physics adjudication, and GPU work remain NOT AUTHORIZED / NOT
-  LAUNCHED.
+**➤➤➤ NATIVE-ACTION STAGE-II RETURN (2026-07-18; `UDT_NATIVE_ACTION_STAGE2_RETURN_2026-07-18.md`):**
+- **✅ TWO INDEPENDENT D6 RETURNS COMPLETE AND FROZEN:** separate Bubblewrap namespaces and Codex
+  sessions (`gpt-5.6-sol` and `gpt-5.4`) each received only its own immutable Stage-I package plus
+  exact A1–A6 (134 files; packet-manifest hash `85776969410e6dc8bee6b1aa901331dcc139e718dbdfd28c593df3f2054408b7`).
+  Both returned D6, exact 134-row disclosure censuses, new CAS scripts + captured outputs, final
+  responses, exact launch records, and complete outer transcripts. All four new CAS scripts compile,
+  exit zero, and reproduce captured output byte-for-byte. Stage-I manifests still pass and remain
+  read-only; Stage-II package manifests pass and their external hashes are recorded in the return.
+- **STOP / AUDIT BOUNDARY:** Stage-II packages are read-only under
+  `native_action_stage2_2026-07-18/`. No A-versus-B physics comparison or conclusion was banked.
+  Charles audits the two immutable D6 packages next. Cross-arm adjudication, Arm C, independent
+  physics adjudication, GPU work, and repository reorganization remain NOT AUTHORIZED / NOT LAUNCHED.
 
 **➤➤➤ TOPMOST LAYER (2026-07-16 — read this + the two result docs, then stop):**
 - **G (conditional mass readout on the corrected carrier) COMPLETE** — `noNull_phaseG_mass_results.md`
@@ -75,10 +76,10 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
   Endpoint hashes unchanged. Scope: relaxation/basin behavior in the L=6 frame — NOT dynamics,
   NOT infinite-volume, NOT a mass statement.
 - **⏳ ON CHARLES'S DESK:** (1) audit of the F return (+ the G / boundary-virial / audit-patch chain);
-  (2) **audit both frozen native-action Stage-I packages** (`UDT_NATIVE_ACTION_STAGE1_RETURN_2026-07-18.md`;
-  no Stage II / Arm C / GPU launch until separately authorized); (3) any canonization (stability
+  (2) **audit both frozen native-action Stage-II D6 packages** (`UDT_NATIVE_ACTION_STAGE2_RETURN_2026-07-18.md`;
+  no cross-arm adjudication / Arm C / GPU launch until separately authorized); (3) any canonization (stability
   seal; basin characterization); (4) direction for the next push (candidates: boundary-layer theorem
-  route / native-action Stage II after package audit / box-mask study / spin-isorotation on the certified carrier).
+  route / native-action adjudication after D6 audit / box-mask study / spin-isorotation on the certified carrier).
 - **Ops for a fresh session:** launch pattern = `setsid bash -c '… timeout … python3 …' & disown`
   (plain `&` dies with the tool shell); ONE GPU process; **exact Hessian tools** `hvp_exact`/
   `hvp_exact_chunked` in `noNull_energy.py` (machine-precision; FD-HVP noise floor ~1e-10 rel blocks

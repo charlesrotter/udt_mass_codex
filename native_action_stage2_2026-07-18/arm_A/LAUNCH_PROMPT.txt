@@ -1,0 +1,39 @@
+You are the independent Stage-II continuation of UDT native-action Arm A. This is a historical challenge of your own already-frozen Stage-I work, not a new cold derivation and not a comparison with Arm B.
+
+AUTHORIZED PROJECT INPUTS ONLY:
+- /stage1 is your own complete immutable Stage-I Arm-A package. It is read-only.
+- /packet contains exactly the enumerated A1-A6 historical challenge packet in repository-relative paths. It is read-only.
+- /return is initially empty and is the only place you may write.
+
+Do not inspect /home, /opt, /usr, /etc, /tmp, a network resource, or any path other than /stage1, /packet, and /return. Runtime binaries may execute, but their files are not project evidence. Do not use remembered UDT project content. Do not seek or infer Arm B, Arm C, the controller file, LIVE/HANDOFF, or any unenumerated repository record. Web use is disabled. Stage II must not modify, replace, or restate D0-D5 as if rewritten.
+
+Before substantive review:
+1. Verify /stage1/SHA256SUMS.txt and confirm its external SHA-256 is d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19.
+2. Inventory /packet and confirm exactly 134 regular files, no symlinks. Reconstruct in /return/RECEIVED_A1_A6_SHA256SUMS.txt the repository-relative manifest using the same sorted ordering as the packet: the nine A1-A5 file paths listed below first in this exact order, followed by every regular A6 file sorted bytewise. Its SHA-256 must be 85776969410e6dc8bee6b1aa901331dcc139e718dbdfd28c593df3f2054408b7.
+3. Read your own cold_output/D0_D5.md completely before reading A1-A6. Then read every A1-A6 file completely. For source scripts and captured outputs, audit their encoded claim and certification limit; a passing script never promotes a premise or conclusion.
+
+A1-A5 exact leading paths:
+CANON.md
+udt_field_equations_derivation_results.md
+native_geometric_action_results.md
+simple_metric_S9_native_action_honesty_results.md
+matter_carrier_provenance_audit_results.md
+noNull_energy.py
+w_alg_verifier_scripts/UDT_H3_STATIC_MASS_BACKREACTION_DISPATCH.md
+pre_native_era_census.md
+macro_spine_provenance_2026-07-06.md
+A6 is archive/native_action_chat_2026-07-14_15/ in full.
+
+Create /return/D6_DISCLOSURE_CENSUS.tsv with one header row and exactly one data row per disclosed file (134 rows). Columns: attachment, relative_path, governing_banner_or_status, claim_or_mechanical_role, relation_to_own_D0_D5, disposition, notes. Use SURVIVING / CONDITIONAL / OPEN / SUPERSEDED / ALGEBRA-ONLY / OUT-OF-SCOPE precisely; preserve every in-file banner and the A6 README's authority rule.
+
+Create /return/D6.md as a separate Stage-II challenge addendum. It must contain, in order:
+- D6.0 provenance: exact model/session information available, Stage-I manifest hash, A1-A6 manifest hash, initial inventories, UTC completion timestamp, and truthful exposure declaration.
+- D6.1 disclosure map: an attachment-by-attachment claim census that points to the exhaustive TSV and explicitly names every claim family that can bear on your cold conclusions. Historical work is evidence to check, never authority to inherit.
+- D6.2 own-result audit: for every major D0-D5 conclusion and every relevant historical claim, classify CONFIRMS / CHALLENGES / NO-CHANGE / OUT-OF-SCOPE. A revision is allowed only with the exact new premise or exact identified error. Never overwrite or silently strengthen D0-D5.
+- D6.3 carrier-covariance route: attempt OR refute, step by step, whether the conditional A3 continuum carrier functional, when consistently completed under position-dependent dilation and the derived reciprocal metric, forces the carrier-to-dilation source weight. Separate (a) covariance after a four-dimensional matter action is chosen, (b) choice of field weights/measure/time sector/representative, (c) metric or phi variation, and (d) a truly forced source law. If covariance only classifies a chosen completion, say so. “Natural” is HABIT, not a derivation. State explicitly whether this route could put the static mass readout ahead of the unresolved full-Q1 action question.
+- D6.4 current three-part mass/virial test. Keep three distinct statements: (1) under the EH-conditional source/lapse premise, M_N^(0)=2E4; (2) on the finite domain, E4-E2=B_boundary+W_res, hence M_N^(0)=E_carrier+B_boundary+W_res; (3) a separately premised controlled limit, if any, in which boundary and residual terms vanish. For an exact critical point W_res=0; for a saved numerical carrier it remains reported. Retain the corrected L=6 continuum virial gap near -2.7%: 2E4=E2+E4 is not a current finite-box identity. Boundary stress is a STRONG LEAD; the local surface theorem and infinite-volume closure remain OPEN. The old 0.05% centered-operator match is SUPERSEDED provenance, never current evidence or a pass criterion. Explain whether each surviving candidate can pass all three tests and what additional premises are required.
+- D6.5 revisions and remaining forks: exact change log relative to D0-D5, including explicit NO-CHANGE entries, and what would close each surviving fork.
+- D6.6 algebra checks: for every NEW load-bearing finite algebra step, create a standalone /return/cas_stage2_*.py and matching /return/cas_stage2_*_out.txt. State what each verifies and cannot verify. Do not create decorative checks. Historical scripts may be inspected but not copied as new proof.
+- D6.7 self-audit: challenge imports, circularity, GR-form inheritance, status-banner violations, target engineering, variation-order mistakes, and accidental context exposure. Confirm /stage1 hashes still pass and no Stage-I byte was modified.
+
+Preserve all forks. Do not bank a physics conclusion, compare arms, launch Arm C, use GPU work, or reorganize anything. End with a short final response listing every file created in /return. Do not finish until D6.md, the 134-row census, any required CAS scripts/outputs, RECEIVED_A1_A6_SHA256SUMS.txt, and final self-check are complete.

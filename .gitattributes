@@ -5,3 +5,10 @@ native_action_stage1_2026-07-18/*/PRELAUNCH_NETWORK_FAILURE_TRANSCRIPT.txt -text
 # Cold-arm outputs are immutable evidence; retain any arm-authored whitespace verbatim.
 native_action_stage1_2026-07-18/*/cold_output/D0_D5.md -whitespace
 native_action_stage1_2026-07-18/*/cold_output/cas_*_out.txt -whitespace
+
+# Stage-II challenge returns and raw terminal captures are immutable audit evidence.
+native_action_stage2_2026-07-18/*/OUTER_TRANSCRIPT.txt -text -diff
+native_action_stage2_2026-07-18/*/PRELAUNCH_CLI_FAILURE_TRANSCRIPT.txt -text -diff
+native_action_stage2_2026-07-18/*/D6_RETURN/D6.md -whitespace
+native_action_stage2_2026-07-18/*/D6_RETURN/D6_DISCLOSURE_CENSUS.tsv -whitespace
+native_action_stage2_2026-07-18/*/D6_RETURN/cas_stage2_*_out.txt -whitespace
