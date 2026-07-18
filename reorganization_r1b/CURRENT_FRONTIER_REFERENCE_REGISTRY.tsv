@@ -1,0 +1,29 @@
+target	source	line	column	candidate_universe	line_excerpt
+CLAUDE.md	LIVE.md	17	3	YES	"- CLAUDE.md ""How we work"": MAP / OBSERVE / PONDER are primary, DERIVE is gated. Let structure"
+CLAUDE.md	LIVE.md	21	22	YES	- **DRIVER TRIGGERS (CLAUDE.md, always-loaded) + harness HOOKS** (`.claude/hooks/corral_trigger.py`, fires on
+HANDOFF.md	LIVE.md	6	35	YES	(and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
+HANDOFF_ARCHIVE.md	LIVE.md	6	84	YES	(and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
+LIVE.md	HANDOFF.md	3	8	YES	**Read LIVE.md CURRENT STATE topmost layer first.** Session arc 07-13→16 in one paragraph:
+LIVE.md	LIVE.md	9	7	YES	read `LIVE.md` CURRENT STATE topmost (below; next action = WAIT on Charles's desk items) →
+MEMORY.md	LIVE.md	11	71	NO	**`stability_branch_follow_256_DECISION.md`** (detailed arc record) → MEMORY.md TOP. The **MACRO lane** (simple-metric / WR-L) is a separate ongoing lane; its read
+MEMORY.md	LIVE.md	25	16	NO	"TOP entry in MEMORY.md is the CURRENT frontier; older FRONTIER-labeled entries are tagged ""SUPERSEDED as frontier"""
+MEMORY.md	LIVE.md	27	45	NO	(observed 2026-07-03): on resume, re-read MEMORY.md FROM DISK — this file + disk memory win over the snapshot.**
+SIMPLE_METRIC_MACRO.md	LIVE.md	12	101	NO	order is: **`UDT_METHOD_MUSIC.md`** → **`UDT_DOTTED_LINE.md`** → **`UDT_ELEGANCE_UNCOVER.md`** → **`SIMPLE_METRIC_MACRO.md`**.
+UDT_DOTTED_LINE.md	LIVE.md	12	42	NO	order is: **`UDT_METHOD_MUSIC.md`** → **`UDT_DOTTED_LINE.md`** → **`UDT_ELEGANCE_UNCOVER.md`** → **`SIMPLE_METRIC_MACRO.md`**.
+UDT_ELEGANCE_UNCOVER.md	LIVE.md	12	69	NO	order is: **`UDT_METHOD_MUSIC.md`** → **`UDT_DOTTED_LINE.md`** → **`UDT_ELEGANCE_UNCOVER.md`** → **`SIMPLE_METRIC_MACRO.md`**.
+UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md	HANDOFF.md	18	2	NO	`UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md` records: 4D `INHERITED`; fields/covariance/locality/
+UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md	LIVE.md	50	33	NO	- **✅ GR→UDT SELECTOR AUDIT:** `UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md` classifies 4D as
+UDT_H3_BOUNDARY_AUDIT_PATCH_THEN_F_DISPATCH.md	HANDOFF.md	41	28	NO	**F COMPLETE (2026-07-17, `UDT_H3_BOUNDARY_AUDIT_PATCH_THEN_F_DISPATCH.md`; commits 442c64e→2f024f8):**
+UDT_H3_BOUNDARY_AUDIT_PATCH_THEN_F_DISPATCH.md	LIVE.md	81	45	NO	- **✅ AUDIT-PATCH + F DONE (2026-07-16→17, `UDT_H3_BOUNDARY_AUDIT_PATCH_THEN_F_DISPATCH.md`;
+UDT_METHOD_MUSIC.md	LIVE.md	12	14	NO	order is: **`UDT_METHOD_MUSIC.md`** → **`UDT_DOTTED_LINE.md`** → **`UDT_ELEGANCE_UNCOVER.md`** → **`SIMPLE_METRIC_MACRO.md`**.
+noNull_behavioral_F_results.md	HANDOFF.md	50	17	NO	mass. Records: `noNull_behavioral_F_results.md` + `noNull_F_*.json` + `F_evidence/`.
+noNull_behavioral_F_results.md	LIVE.md	10	2	NO	`noNull_behavioral_F_results.md` + `noNull_boundary_virial_results.md` + `noNull_phaseG_mass_results.md` →
+noNull_behavioral_F_results.md	LIVE.md	84	5	NO	(`noNull_behavioral_F_results.md`, repaired verifier PASS 51/51 + catch-proof): exact 83 endpoints
+noNull_boundary_virial_results.md	HANDOFF.md	57	32	NO	noNull_phaseG_mass_results.md, noNull_boundary_virial_results.md, noNull_virial_identity_derivation.md.
+noNull_boundary_virial_results.md	LIVE.md	10	37	NO	`noNull_behavioral_F_results.md` + `noNull_boundary_virial_results.md` + `noNull_phaseG_mass_results.md` →
+noNull_boundary_virial_results.md	LIVE.md	68	44	NO	- **BOUNDARY-VIRIAL dispatch COMPLETE** — `noNull_boundary_virial_results.md` (verifier PASS 38/38 +
+noNull_phaseG_mass_results.md	HANDOFF.md	57	1	NO	noNull_phaseG_mass_results.md, noNull_boundary_virial_results.md, noNull_virial_identity_derivation.md.
+noNull_phaseG_mass_results.md	LIVE.md	10	75	NO	`noNull_behavioral_F_results.md` + `noNull_boundary_virial_results.md` + `noNull_phaseG_mass_results.md` →
+noNull_phaseG_mass_results.md	LIVE.md	63	73	NO	- **G (conditional mass readout on the corrected carrier) COMPLETE** — `noNull_phaseG_mass_results.md`
+noNull_virial_identity_derivation.md	HANDOFF.md	57	67	NO	noNull_phaseG_mass_results.md, noNull_boundary_virial_results.md, noNull_virial_identity_derivation.md.
+stability_branch_follow_256_DECISION.md	LIVE.md	11	4	NO	**`stability_branch_follow_256_DECISION.md`** (detailed arc record) → MEMORY.md TOP. The **MACRO lane** (simple-metric / WR-L) is a separate ongoing lane; its read

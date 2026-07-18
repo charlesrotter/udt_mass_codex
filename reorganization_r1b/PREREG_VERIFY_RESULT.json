@@ -1,0 +1,17 @@
+{
+  "base": "4b226472c8f7c22dfcdd2c328a109e92d1df5abd",
+  "base_root_markdown": 440,
+  "base_tracked_paths": 3401,
+  "catchproof": {
+    "file_md_bak_rejected": "PASS",
+    "file_md_parenthesis_detected": "PASS",
+    "file_md_period_detected": "PASS"
+  },
+  "frontier_candidate_targets": 4,
+  "frontier_occurrences": 28,
+  "generated_records_absent_from_selection_base": true,
+  "mode": "INDEPENDENT_R1B_PREREGISTERED_INPUT_VERIFIER",
+  "permanent_root_rows": 16,
+  "preregistered_candidates": 99,
+  "result": "PASS"
+}

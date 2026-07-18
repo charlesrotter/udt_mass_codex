@@ -1,0 +1,29 @@
+{
+  "base": "4b226472c8f7c22dfcdd2c328a109e92d1df5abd",
+  "base_root_markdown": 440,
+  "base_tracked_paths": 3401,
+  "current_frontier_candidate_targets": 4,
+  "current_frontier_reference_occurrences": 28,
+  "cutoff": "2026-07-01",
+  "generated_artifacts": {
+    "BASE_ROOT_MARKDOWN.tsv": "946801ff08ec96bc01584142f0786e24be2592c63dde209aa5b12a108a062e9b",
+    "CURRENT_FRONTIER_REFERENCE_REGISTRY.tsv": "a1dd79633923ddf65700078692ccb0e690573fc162b4b38d67b6e5d7c6e6d2cb",
+    "PERMANENT_ROOT_REGISTRY.tsv": "01c68bdde03b4200f8692374192b1c1622400f7a25683c86c3e27a42994cac18",
+    "PREREGISTERED_CANDIDATES.tsv": "c00a8fcd2f612ddd5af23f8e7d13f97feb8a9d3915ec1f6a523a9098db09cf02"
+  },
+  "generated_audit_records_influence_selection": false,
+  "matcher": {
+    "catchproof": {
+      "backup_suffix_rejected": "PASS",
+      "closing_parenthesis_detected": "PASS",
+      "sentence_period_detected": "PASS"
+    },
+    "path": "reorganization_r1a/correction_2026-07-18/reference_boundary.py",
+    "sha256": "1a20d563c1aae476d56ade647262626acacd0838ea9adee918c446ec7679cb8d"
+  },
+  "mode": "R1B_PREREGISTERED_INPUT_FREEZE",
+  "permanent_root_registry_rows": 16,
+  "preregistered_candidates": 99,
+  "result": "PASS",
+  "selection_uses_base_tree_only": true
+}
