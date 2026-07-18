@@ -12,7 +12,7 @@ cannot overrule the topmost current-state block in `LIVE.md`.
 [`NEGATIVES_REGISTRY.md`](NEGATIVES_REGISTRY.md), and
 [`PROVENANCE.md`](PROVENANCE.md) are the main status and evidence ledgers.
 
-## Repository reorganization checkpoint R0–R1F
+## Repository reorganization checkpoint R0–R1G
 
 R1E batch planning and R1F/B01 are complete as an audited checkpoint. Fixed historical inventories,
 preregistrations, planning records, and verification records remain immutable. Resolve current
@@ -20,7 +20,23 @@ artifact locations through
 [`CURRENT_ARTIFACT_PATHS.tsv`](research/_registry/CURRENT_ARTIFACT_PATHS.tsv), not by rewriting those
 snapshots; use [`MIGRATION_LEDGER.tsv`](research/_registry/MIGRATION_LEDGER.tsv) for migration
 provenance. Five active artifacts moved byte-identically: the R1D S8 note and four behaviorally
-verified R1F macro verifiers. B02/B03 remain proposals; no further migration is authorized.
+verified R1F macro verifiers.
+
+R1G provenance audit and readout correction are complete. The prefix-based pre-native
+classification was false: the affected cascade set is 121 `NATIVE_2026-07-01`, zero `MIXED`, and
+B02/B03 are 29 `NATIVE_2026-07-01`, two `MIXED`, one `OPEN`. Reference-only
+GR/Einstein/Misner–Sharp readouts do not demote native operator provenance. The two alpha-coupling
+files, `phi_source_derivation.py` and `homog_alpha_test.py`, remain `MIXED` because alpha enters
+their tested action/EOM. The old B02/B03
+`archive/pre_2026-07-01/` destinations are withdrawn. For affected paths, R1G supersedes the
+corresponding classifications in the fixed-snapshot
+[`ROOT_OWNERSHIP.tsv`](research/_registry/ROOT_OWNERSHIP.tsv) and
+[`MIGRATION_READINESS.tsv`](research/_registry/MIGRATION_READINESS.tsv) until a separately authorized
+correction is applied; those snapshots remain unchanged. See the
+[`R1G audit`](reorganization_r1g/R1G_AUDIT_REPORT.md) and
+[`readout correction`](reorganization_r1g/R1G_READOUT_PROVENANCE_CORRECTION_REPORT.md). B02/B03 are
+paused; no registry correction, replacement batch planning, B02/B03 or further migration is
+authorized.
 
 ## Repository reorganization R0
 

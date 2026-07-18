@@ -30,9 +30,9 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-18 — H3 PARTICLE-MASS arc COMPLETE THROUGH F: stability SETTLED (twice-verified) → G conditional mass readout → boundary-virial (BOX-STRESS LEAD) → audit patch → **F finite-slice characterization DONE (83 endpoints, no resolved basin exit; single robust basin = STRONG LEAD; verifier 51/51)**. Native-action Stage I/II A/B, adversarial Arm C, final A/B/C adjudication, external clean-environment verification, and GR→UDT selector audit COMPLETE. R0–R1F REORGANIZATION CHECKPOINT COMPLETE; five active artifacts migrated byte-identically; no further migration authorized. Canonization, GPU work, and further arms NOT launched.) ============
+## ============ CURRENT STATE (2026-07-18 — H3 PARTICLE-MASS arc COMPLETE THROUGH F: stability SETTLED (twice-verified) → G conditional mass readout → boundary-virial (BOX-STRESS LEAD) → audit patch → **F finite-slice characterization DONE (83 endpoints, no resolved basin exit; single robust basin = STRONG LEAD; verifier 51/51)**. Native-action Stage I/II A/B, adversarial Arm C, final A/B/C adjudication, external clean-environment verification, and GR→UDT selector audit COMPLETE. R0–R1G REORGANIZATION CHECKPOINT COMPLETE; R1G provenance/readout correction integrated as navigation; five active artifacts migrated byte-identically; no further migration authorized. Canonization, GPU work, and further arms NOT launched.) ============
 
-**➤➤➤ R1 REORGANIZATION CHECKPOINT (2026-07-18):**
+**➤➤➤ R1 REORGANIZATION + R1G PROVENANCE CHECKPOINT (2026-07-18):**
 - **✅ R0–R1F COMPLETE:** fixed historical inventories, preregistrations, planning records, and
   verification records remain immutable. R1E batch planning is complete; R1F/B01 moved the active
   macro SymPy verifier quartet and behaviorally verified identical pre/post execution.
@@ -40,8 +40,21 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
   verifiers retain their Git blobs and SHA-256 values. Resolve present locations through
   `research/_registry/CURRENT_ARTIFACT_PATHS.tsv` and migration provenance through
   `research/_registry/MIGRATION_LEDGER.tsv`.
-- **STOP / AUTHORITY BOUNDARY:** B02/B03 remain proposals. No further migration, physics work,
-  canonization, or GPU work is authorized by this checkpoint.
+- **✅ R1G PROVENANCE AUDIT + READOUT CORRECTION COMPLETE:** the prefix-based pre-native
+  classification was false. The affected cascade set is **121 `NATIVE_2026-07-01`, zero `MIXED`**;
+  B02/B03 are **29 `NATIVE_2026-07-01`, two `MIXED`, one `OPEN`**. Reference-only
+  GR/Einstein/Misner–Sharp readouts do not demote native operator provenance. The two alpha-coupling
+  files, `phi_source_derivation.py` and `homog_alpha_test.py`, remain `MIXED` because alpha enters
+  their tested action/EOM. Read `reorganization_r1g/R1G_AUDIT_REPORT.md` and
+  `reorganization_r1g/R1G_READOUT_PROVENANCE_CORRECTION_REPORT.md`.
+- **WITHDRAWN DESTINATIONS / FIXED-SNAPSHOT OVERRIDE:** all old B02/B03
+  `archive/pre_2026-07-01/` destinations are withdrawn. For affected paths, R1G supersedes the
+  corresponding classifications in fixed-snapshot `research/_registry/ROOT_OWNERSHIP.tsv` and
+  `research/_registry/MIGRATION_READINESS.tsv` until a separately authorized correction to the
+  registries is applied; those registries remain unedited historical evidence.
+- **STOP / AUTHORITY BOUNDARY:** B02/B03 are paused. No registry correction, replacement batch
+  planning, B02/B03 or further migration, physics work, canonization, or GPU work is authorized by
+  this checkpoint.
 
 **➤➤➤ NATIVE-ACTION FINAL ADJUDICATION + SELECTOR AUDIT (2026-07-18):**
 - **✅ FINAL A/B/C ADJUDICATION FROZEN AT `ded310a`:** read

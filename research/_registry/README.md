@@ -13,6 +13,16 @@ assert that the old path still exists. Use `MIGRATION_LEDGER.tsv` for the R1F mi
 rollback parent, blob, SHA-256, verification record, and rollback command.
 
 The lane `ROOT_INVENTORY.tsv` files are navigation indexes, not new physics authorities. The S8 row
-changed in R1D and the four verifier rows changed in R1F. R1E's B02/B03 entries remain proposals;
-no further migration is authorized. Claim labels and frozen evidence remain governed by
-[`LIVE.md`](../../LIVE.md), [`HANDOFF.md`](../../HANDOFF.md), and their cited evidence.
+changed in R1D and the four verifier rows changed in R1F.
+
+The R1G provenance audit and readout correction are complete. The prefix-based pre-native
+classification was false: the affected cascade set is 121 `NATIVE_2026-07-01` and zero `MIXED`;
+B02/B03 contain 29 `NATIVE_2026-07-01`, two `MIXED`, and one `OPEN`. GR/Einstein/Misner–Sharp
+reference-only readouts do not demote native operator provenance. `phi_source_derivation.py` and
+`homog_alpha_test.py` remain `MIXED` because alpha enters the action/EOM. The old B02/B03
+`archive/pre_2026-07-01/` destinations are withdrawn. For affected paths,
+[`reorganization_r1g/`](../../reorganization_r1g/R1G_READOUT_PROVENANCE_CORRECTION_REPORT.md) supersedes the
+corresponding classifications in `ROOT_OWNERSHIP.tsv` and `MIGRATION_READINESS.tsv` until a
+separately authorized correction is applied. No B02/B03 or further migration is authorized.
+Claim labels and frozen evidence remain governed by [`LIVE.md`](../../LIVE.md),
+[`HANDOFF.md`](../../HANDOFF.md), and their cited evidence.

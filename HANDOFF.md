@@ -5,7 +5,7 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-10).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-18 — H3 particle-mass arc complete; native-action final adjudication and selector audit complete; R0–R1F reorganization checkpoint complete)
+## CURRENT (2026-07-18 — H3 particle-mass arc complete; native-action final adjudication and selector audit complete; R0–R1G reorganization/provenance checkpoint complete)
 
 **Read LIVE.md CURRENT STATE topmost layer first.** Session arc 07-13→16 in one paragraph:
 
@@ -14,8 +14,18 @@ historical inventories, preregistrations, planning records, and verification rec
 immutable. Five active artifacts moved byte-identically: the R1D S8 note and the four R1F macro
 SymPy verifiers; B01 was behaviorally verified before and after movement. Resolve current locations
 through `research/_registry/CURRENT_ARTIFACT_PATHS.tsv` and migration provenance through
-`research/_registry/MIGRATION_LEDGER.tsv`. B02/B03 remain proposals; no further migration is
-authorized.
+`research/_registry/MIGRATION_LEDGER.tsv`.
+
+**R1G PROVENANCE AUDIT + READOUT CORRECTION COMPLETE:** the prefix-based pre-native classification
+was false. The affected cascade set is 121 `NATIVE_2026-07-01`, zero `MIXED`; B02/B03 are 29
+`NATIVE_2026-07-01`, two `MIXED`, one `OPEN`. Reference-only GR/Einstein/Misner–Sharp readouts do
+not demote native operator provenance. `phi_source_derivation.py` and `homog_alpha_test.py` remain
+`MIXED` because alpha enters the tested action/EOM. The old B02/B03 `archive/pre_2026-07-01/`
+destinations are **WITHDRAWN**. For affected paths, R1G supersedes the corresponding fixed-snapshot
+classifications in `research/_registry/ROOT_OWNERSHIP.tsv` and
+`research/_registry/MIGRATION_READINESS.tsv` until a separately authorized correction is applied;
+the registries remain unedited. B02/B03 are paused, and no registry correction, replacement batch
+planning, B02/B03 or further migration is authorized.
 
 **NATIVE-ACTION ADJUDICATION COMPLETE AND FROZEN (2026-07-18; `ded310a`):** the mechanical A/B/C
 adjudication is under `native_action_final_adjudication_2026-07-18/`. Read
