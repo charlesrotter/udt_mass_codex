@@ -1,0 +1,21 @@
+{
+  "base": "4c98e32d7b8af0dc3159706d18006d673566d721",
+  "boundary_catchproof": {
+    "backup_suffix_rejected": "PASS",
+    "closing_parenthesis_detected": "PASS",
+    "sentence_period_detected": "PASS"
+  },
+  "consolidated_pointer_occurrences": 85,
+  "corrected_frozen_source_occurrences": 16,
+  "corrected_occurrences": 815,
+  "corrected_sources": 92,
+  "historical_tables_modified": false,
+  "moved_files_still_eligible": 17,
+  "omission_dispositions": {
+    "INTENTIONAL_COLOCATED_ARCHIVE_REFERENCE": 1,
+    "RETAINED_TARGET_NO_REWRITE": 8,
+    "REWRITE_LIVE_POINTER": 5
+  },
+  "omitted_occurrences_recovered": 14,
+  "result": "CORRECTED_CENSUS_BUILT"
+}

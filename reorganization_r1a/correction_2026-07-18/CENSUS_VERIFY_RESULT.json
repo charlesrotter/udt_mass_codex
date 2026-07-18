@@ -1,0 +1,72 @@
+{
+  "base": "4c98e32d7b8af0dc3159706d18006d673566d721",
+  "catchproof": {
+    "file_md_bak_rejected": "PASS",
+    "file_md_parenthesis_detected": "PASS",
+    "file_md_period_detected": "PASS",
+    "frozen_flag_launder_rejected": "PASS",
+    "legacy_period_bug_rejected": "PASS",
+    "loose_suffix_false_positive_rejected": "PASS",
+    "missing_occurrence_rejected": "PASS"
+  },
+  "corrected_frozen_source_occurrences": 16,
+  "corrected_occurrences": 815,
+  "corrected_sources": 92,
+  "historical_artifacts": [
+    {
+      "path": "reorganization_r1a/ADJUDICATION_SUMMARY.json",
+      "result": "PASS",
+      "sha256": "12fcdf6479ed730b12a41ee6e914b8bc76b5930f2abe8a54487e3e0393b63ad0"
+    },
+    {
+      "path": "reorganization_r1a/CANDIDATE_ADJUDICATION.tsv",
+      "result": "PASS",
+      "sha256": "e03fa5c36ea685493fde632e5504c9cadd41debcce319a8486bd311b37fb5c07"
+    },
+    {
+      "path": "reorganization_r1a/ELIGIBLE_BATCH.txt",
+      "result": "PASS",
+      "sha256": "8a919bd952528bebba860adeea99664dba9c2443d7d7492258dd984eb42f37b3"
+    },
+    {
+      "path": "reorganization_r1a/INBOUND_REFERENCES.tsv",
+      "result": "PASS",
+      "sha256": "2718fecb4ebd2b6c0149757caec6c03b8d878538852b0e45dda484f33f84d060"
+    },
+    {
+      "path": "reorganization_r1a/POINTER_REWRITE_PLAN.tsv",
+      "result": "PASS",
+      "sha256": "f8db715b4d5521f1cfb99e7bb4b89966268a52928e488f38ec10fe43a380831c"
+    },
+    {
+      "path": "reorganization_r1a/PREMOVE_HASHES.tsv",
+      "result": "PASS",
+      "sha256": "7e6a70e7103da44cfbbfade17fb7adac6a3b88d38e9bfc9a8c9b65bfeb5fad52"
+    },
+    {
+      "path": "reorganization_r1a/PREMOVE_ADJUDICATION_REPORT.md",
+      "result": "PASS",
+      "sha256": "ef565d472fd673466559f7e37f3654c13d4b34068c7b350b169bad0dc149fa86"
+    },
+    {
+      "path": "reorganization_r1a/PREMOVE_VERIFY_RESULT.json",
+      "result": "PASS",
+      "sha256": "7dbfe1044f75bd3c15d4dab291ce8cafcc5c6f76f17c128304e3d9ec820b3d59"
+    },
+    {
+      "path": "reorganization_r1a/MOVE_MAP.tsv",
+      "result": "PASS",
+      "sha256": "f4b59869f5885475655ee94abd87db8eb91e27893db85a93f83660b61ec0c4d7"
+    },
+    {
+      "path": "reorganization_r1a/POSTMOVE_POINTER_CENSUS.tsv",
+      "result": "PASS",
+      "sha256": "050c1923dc031368457bd7b2f00ec717b009ab84f22a29eab4eccdf5f39950a8"
+    }
+  ],
+  "literal_git_grep_exact_agreement": true,
+  "mode": "INDEPENDENT_LITERAL_GIT_GREP_VERIFIER",
+  "moved_files_still_eligible": 17,
+  "recovered_omissions": 14,
+  "result": "PASS"
+}
