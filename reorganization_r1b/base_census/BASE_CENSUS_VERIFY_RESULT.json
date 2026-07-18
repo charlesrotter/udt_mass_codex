@@ -1,0 +1,20 @@
+{
+  "base": "4b226472c8f7c22dfcdd2c328a109e92d1df5abd",
+  "candidates": 99,
+  "catchproof": {
+    "file_md_bak_rejected": "PASS",
+    "file_md_parenthesis_detected": "PASS",
+    "file_md_period_detected": "PASS",
+    "missing_occurrence_rejected": "PASS",
+    "wrong_source_class_rejected": "PASS"
+  },
+  "exact_occurrence_agreement": true,
+  "forensic_occurrences": 15006,
+  "forensic_sources": 457,
+  "full_forensic_dependency_edges": 20807,
+  "mode": "INDEPENDENT_LITERAL_GIT_GREP_R1B_BASE_CENSUS_VERIFIER",
+  "operational_dependency_edges": 14829,
+  "operational_occurrences": 2725,
+  "operational_sources": 422,
+  "result": "PASS"
+}

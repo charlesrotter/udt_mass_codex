@@ -1,0 +1,2 @@
+source	old_target	new_target	line	column	source_immutability	rewrite_mode
+STATE.md	p4_VERIFIER.md	archive/pre_2026-07-01/p4_VERIFIER.md	218	1	MUTABLE_NAVIGATION_SOURCE	EXACT_PATH_TOKEN_ONLY

@@ -1,0 +1,31 @@
+{
+  "base": "4b226472c8f7c22dfcdd2c328a109e92d1df5abd",
+  "base_literal_git_census": "PASS",
+  "candidate_rows": 99,
+  "catchproof": {
+    "blocked_candidate_promotion_rejected": "PASS",
+    "file_safety_limit_rejected": "PASS",
+    "hard_frozen_pointer_rewrite_rejected": "PASS",
+    "missing_candidate_rejected": "PASS",
+    "missing_colocated_reference_rejected": "PASS",
+    "substitution_safety_limit_rejected": "PASS"
+  },
+  "classification_counts": {
+    "ACTIVE_CROSS_ERA": 17,
+    "ARCHIVE_ELIGIBLE": 2,
+    "BLOCKED": 8,
+    "HARD_FROZEN": 58,
+    "HISTORICAL_SNAPSHOT": 2,
+    "PERMANENT_ROOT": 10,
+    "SOFT_EVIDENCE_PATH_ONLY": 2
+  },
+  "eligible_files": [
+    "STEP2_timelive_matter_MAP.md",
+    "p4_VERIFIER.md"
+  ],
+  "intentional_colocated_references": 1,
+  "mode": "INDEPENDENT_ADVERSARIAL_R1B_ADJUDICATION_VERIFIER",
+  "planned_operational_substitutions": 1,
+  "result": "PASS",
+  "safety_stop_triggered": false
+}

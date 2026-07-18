@@ -1,0 +1,26 @@
+{
+  "archive_eligible": 2,
+  "candidates": 99,
+  "classification_counts": {
+    "ACTIVE_CROSS_ERA": 17,
+    "ARCHIVE_ELIGIBLE": 2,
+    "BLOCKED": 8,
+    "HARD_FROZEN": 58,
+    "HISTORICAL_SNAPSHOT": 2,
+    "PERMANENT_ROOT": 10,
+    "SOFT_EVIDENCE_PATH_ONLY": 2
+  },
+  "eligible_files": [
+    "STEP2_timelive_matter_MAP.md",
+    "p4_VERIFIER.md"
+  ],
+  "intentional_colocated_references": 1,
+  "mode": "R1B_PREMOVE_INDIVIDUAL_ADJUDICATION",
+  "operational_live_substitutions": 1,
+  "result": "PASS",
+  "safety_stop": {
+    "file_limit": 40,
+    "substitution_limit": 400,
+    "triggered": false
+  }
+}

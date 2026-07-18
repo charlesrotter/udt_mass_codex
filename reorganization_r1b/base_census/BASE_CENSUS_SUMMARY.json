@@ -1,0 +1,48 @@
+{
+  "base": "4b226472c8f7c22dfcdd2c328a109e92d1df5abd",
+  "candidates": 99,
+  "corrected_matcher_catchproof": {
+    "backup_suffix_rejected": "PASS",
+    "closing_parenthesis_detected": "PASS",
+    "sentence_period_detected": "PASS"
+  },
+  "forensic_inbound_occurrences": 15006,
+  "forensic_inbound_sources": 457,
+  "full_forensic_dependency_category_counts": {
+    "FILE_PATH": 1478,
+    "MANIFEST": 1135,
+    "MARKDOWN_LINK": 364,
+    "PYTHON_IMPORT": 6702,
+    "STARTUP": 399,
+    "TEST": 161,
+    "TEXT_REFERENCE": 10568
+  },
+  "full_forensic_dependency_edges": 20807,
+  "generated_records_influence_candidate_selection": false,
+  "mode": "R1B_FIXED_BASE_FORENSIC_AND_OPERATIONAL_CENSUS",
+  "operational_dependency_category_counts": {
+    "FILE_PATH": 1404,
+    "MANIFEST": 1135,
+    "MARKDOWN_LINK": 329,
+    "PYTHON_IMPORT": 6582,
+    "STARTUP": 399,
+    "TEST": 161,
+    "TEXT_REFERENCE": 4819
+  },
+  "operational_dependency_edges": 14829,
+  "operational_exclusion_prefixes": [
+    "reorganization_r0/",
+    "reorganization_r1a/",
+    "reorganization_r1b/"
+  ],
+  "operational_inbound_occurrences": 2725,
+  "operational_inbound_sources": 422,
+  "result": "PASS",
+  "source_immutability_counts": {
+    "HARD_FROZEN_SOURCE": 89,
+    "HISTORICAL_SNAPSHOT_SOURCE": 35,
+    "MUTABLE_NAVIGATION_SOURCE": 13,
+    "RUNTIME_OR_MANIFEST_IMMUTABLE": 98,
+    "SOFT_EVIDENCE_PATH_ONLY_SOURCE": 222
+  }
+}
