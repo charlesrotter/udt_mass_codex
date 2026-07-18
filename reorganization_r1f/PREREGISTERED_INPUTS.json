@@ -1,0 +1,22 @@
+{
+  "artifact_mutations": 0,
+  "base": "14ba31a77aed1553c5df8ecd59b0f7a000c10e20",
+  "batch_id": "B01_ACTIVE_MACRO_SYMPY_QUARTET",
+  "behavior_gate": "same exit code and byte-identical stdout/stderr per script",
+  "branch": "codex/reorg-r1f-macro-verifier-quartet-2026-07-18",
+  "candidate_contents_inspected_by_freezer": false,
+  "candidate_rows": 4,
+  "input_sha256": {
+    "reorganization_r1e/PROPOSED_BATCH_FILE_PLAN.tsv": "c9089c1885f2f618c12567885f1e3d416abeeaa026cd6c442cf7ae64ae70f82c",
+    "reorganization_r1e/PROPOSED_MIGRATION_LEDGER_SCHEMA.tsv": "dc56e450ac01d80f822cc93f47a715a06e4b4fd9e6955a9746c0659a105720c3",
+    "research/_registry/CURRENT_ARTIFACT_PATHS.tsv": "1ba0a17c42215d3192fdcd336c747f3a93ac2c79667783be74d0b6807cd88369",
+    "research/macro/ROOT_INVENTORY.tsv": "ffcd98f65edc3fdb28577e5204a190c4fcf01c377c90b2f1499a7f4ed68ca6cf"
+  },
+  "migration_commit_then_ledger_commit": true,
+  "migration_status": "MIGRATED_R1F",
+  "post_move_command_template": "env CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 timeout 30s python3 {destination}",
+  "pre_move_command_template": "env CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 timeout 30s python3 {current_path}",
+  "preregistered_batch_sha256": "87cf6b480252b840f18dd5faee7a45560c458f0534839f69c7cfc3abfbd1c6aa",
+  "result": "PASS",
+  "timeout_seconds": 30
+}

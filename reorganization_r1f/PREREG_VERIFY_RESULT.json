@@ -1,0 +1,9 @@
+{
+  "artifact_mutations": 0,
+  "base": "14ba31a77aed1553c5df8ecd59b0f7a000c10e20",
+  "batch_id": "B01_ACTIVE_MACRO_SYMPY_QUARTET",
+  "candidate_rows": 4,
+  "mode": "R1F_PREREGISTRATION_VERIFY",
+  "preregistered_batch_sha256": "87cf6b480252b840f18dd5faee7a45560c458f0534839f69c7cfc3abfbd1c6aa",
+  "result": "PASS"
+}
