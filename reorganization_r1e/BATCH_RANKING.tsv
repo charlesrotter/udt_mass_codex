@@ -1,0 +1,4 @@
+rank	batch_id	lane_class	file_count	atomic_family_count	disposition	size_preference	status	rationale
+1	B01_ACTIVE_MACRO_SYMPY_QUARTET	ACTIVE	4	4	SAFE_BYTE_IDENTICAL	EXCEPTION_ATOMIC_ACTIVE_QUARTET	PROPOSED_NOT_AUTHORIZED	four independently audited SymPy/stdout verifiers; active/legacy separation forbids padding
+2	B02_LEGACY_STANDALONE_ALGEBRA_A	LEGACY	18	18	SAFE_BYTE_IDENTICAL	WITHIN_5_TO_25	PROPOSED_NOT_AUTHORIZED	dependency-free legacy standalone scripts; no runtime paths, outputs, test globs, or operational inbound pointers
+3	B03_LEGACY_STANDALONE_ALGEBRA_B	LEGACY	14	14	SAFE_BYTE_IDENTICAL	WITHIN_5_TO_25	PROPOSED_NOT_AUTHORIZED	dependency-free legacy standalone scripts; no runtime paths, outputs, test globs, or operational inbound pointers

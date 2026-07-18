@@ -1,0 +1,25 @@
+{
+  "candidate_count": 119,
+  "candidate_universe_sha256": "7fc413f8046de195f56424b12fa6607fed690dbd0a72064f5118e9c958f47141",
+  "destination_collisions": 0,
+  "disposition_counts": {
+    "BLOCKED_IMMUTABLE_COMPANION": 37,
+    "BLOCKED_RUNTIME_OR_MISSING_INPUT": 42,
+    "BLOCKED_TEST_SCOPE": 1,
+    "NEEDS_MANUAL_ADJUDICATION": 3,
+    "SAFE_BYTE_IDENTICAL": 36
+  },
+  "family_count": 71,
+  "frontier_candidates": 0,
+  "operational_inbound_edges": 0,
+  "owner_counts": {
+    "LEGACY_FROZEN": 107,
+    "MACRO": 8,
+    "PARTICLE_MASS": 4
+  },
+  "proposed_batch_counts": {
+    "B01_ACTIVE_MACRO_SYMPY_QUARTET": 4,
+    "B02_LEGACY_STANDALONE_ALGEBRA_A": 18,
+    "B03_LEGACY_STANDALONE_ALGEBRA_B": 14
+  }
+}

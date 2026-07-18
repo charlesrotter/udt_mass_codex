@@ -1,0 +1,3770 @@
+{
+  "base": "b59005dba9acaf6c575185876655bd6a5c792094",
+  "candidate_count": 119,
+  "candidate_universe_sha256": "7fc413f8046de195f56424b12fa6607fed690dbd0a72064f5118e9c958f47141",
+  "edges": [
+    {
+      "evidence": "operational census line 4: cell_solver_universe_T3.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_bv10_cas.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "AST line 10: cascade_stageC_lib",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_bv10_reshoot.py",
+      "target": "cascade_stageC_lib.py"
+    },
+    {
+      "evidence": "imports retained root solver libraries and generates a root-relative NPY",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv10_reshoot.py",
+      "target": "cascade_stageC_lib.py"
+    },
+    {
+      "evidence": "AST line 9: cell_solver_universe_T3",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_bv10_reshoot.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "imports retained root solver libraries and generates a root-relative NPY",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv10_reshoot.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv11_lib.py",
+      "target": "cascade_bv11_v1_root.py"
+    },
+    {
+      "evidence": "unprefixed bv11_lib import, hard-coded root module load, and producer/output closure are unresolved",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv11_lib.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "operational census line 16: cell_solver_universe_T3.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_bv11_lib.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "AST line 5: bv11_lib",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_bv11_v1_root.py",
+      "target": "cascade_bv11_lib.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv11_v1_root.py",
+      "target": "cascade_bv11_v1_tolcheck.py"
+    },
+    {
+      "evidence": "unprefixed bv11_lib import, hard-coded root module load, and producer/output closure are unresolved",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv11_v1_root.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "AST line 5: bv11_lib",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_bv11_v1_tolcheck.py",
+      "target": "cascade_bv11_lib.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv11_v1_tolcheck.py",
+      "target": "cascade_bv11_v2_desert.py"
+    },
+    {
+      "evidence": "unprefixed bv11_lib import, hard-coded root module load, and producer/output closure are unresolved",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv11_v1_tolcheck.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "AST line 5: bv11_lib",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_bv11_v2_desert.py",
+      "target": "cascade_bv11_lib.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv11_v2_desert.py",
+      "target": "cascade_bv11_v3_cap.py"
+    },
+    {
+      "evidence": "unprefixed bv11_lib import, hard-coded root module load, and producer/output closure are unresolved",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv11_v2_desert.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "unprefixed bv11_lib import, hard-coded root module load, and producer/output closure are unresolved",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv11_v3_cap.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv13_su_trans.py",
+      "target": "cascade_bv13_vhat_probe.py"
+    },
+    {
+      "evidence": "unprefixed bv14_lib import and dynamic SCR ledger/output paths",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv14_counts.py",
+      "target": "cascade_bv14_lib.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv14_counts.py",
+      "target": "cascade_bv14_spare_a_sens.py"
+    },
+    {
+      "evidence": "unprefixed bv14_lib import and dynamic SCR ledger/output paths",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv14_spare_a_sens.py",
+      "target": "cascade_bv14_lib.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv14_spare_a_sens.py",
+      "target": "cascade_bv14_su.py"
+    },
+    {
+      "evidence": "unprefixed bv14_lib import and dynamic SCR ledger/output paths",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv14_su.py",
+      "target": "cascade_bv14_lib.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv14_su.py",
+      "target": "cascade_bv14_summary.py"
+    },
+    {
+      "evidence": "unprefixed bv14_lib import and dynamic SCR ledger/output paths",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv14_summary.py",
+      "target": "cascade_bv14_lib.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv14_summary.py",
+      "target": "cascade_bv14_tolsweep.py"
+    },
+    {
+      "evidence": "unprefixed bv14_lib import and dynamic SCR ledger/output paths",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv14_tolsweep.py",
+      "target": "cascade_bv14_lib.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv14_tolsweep.py",
+      "target": "cascade_bv14_validate.py"
+    },
+    {
+      "evidence": "unprefixed bv14_lib import and dynamic SCR ledger/output paths",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv14_validate.py",
+      "target": "cascade_bv14_lib.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv15_asm.py",
+      "target": "cascade_bv15_x1_ladder.py"
+    },
+    {
+      "evidence": "operational census line 2: stability_operator_results.md",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_bv15_asm.py",
+      "target": "stability_operator_results.md"
+    },
+    {
+      "evidence": "AST line 11: bv15_asm",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_bv15_x1_ladder.py",
+      "target": "cascade_bv15_asm.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv15_x1_ladder.py",
+      "target": "cascade_bv15_x1_validate.py"
+    },
+    {
+      "evidence": "AST line 12: bv15_asm",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_bv15_x1_validate.py",
+      "target": "cascade_bv15_asm.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv15_x1_validate.py",
+      "target": "cascade_bv15_x2_anatomy.py"
+    },
+    {
+      "evidence": "AST line 14: bv15_asm",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_bv15_x2_anatomy.py",
+      "target": "cascade_bv15_asm.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv15_x2_anatomy.py",
+      "target": "cascade_bv15_x3_c2.py"
+    },
+    {
+      "evidence": "AST line 6: bv15_asm",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_bv15_x3_c2.py",
+      "target": "cascade_bv15_asm.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv5_c1_scan.py",
+      "target": "cascade_bv5_c1c2c3_roots.py"
+    },
+    {
+      "evidence": "AST line 4: bv5_common",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_bv5_c1_scan.py",
+      "target": "cascade_bv5_common.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv5_c1c2c3_roots.py",
+      "target": "cascade_bv5_c4_bigN.py"
+    },
+    {
+      "evidence": "AST line 6: bv5_common",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_bv5_c1c2c3_roots.py",
+      "target": "cascade_bv5_common.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv5_c4_bigN.py",
+      "target": "cascade_bv5_c4_floor_audit.py"
+    },
+    {
+      "evidence": "AST line 6: bv5_common",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_bv5_c4_bigN.py",
+      "target": "cascade_bv5_common.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv5_c4_floor_audit.py",
+      "target": "cascade_bv5_c5_stuck.py"
+    },
+    {
+      "evidence": "AST line 5: bv5_common",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_bv5_c4_floor_audit.py",
+      "target": "cascade_bv5_common.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv5_c5_stuck.py",
+      "target": "cascade_bv5_common.py"
+    },
+    {
+      "evidence": "AST line 3: bv5_common",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_bv5_c5_stuck.py",
+      "target": "cascade_bv5_common.py"
+    },
+    {
+      "evidence": "operational census line 2: cell_solver_universe_T3.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_bv5_common.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv6_c1_refine.py",
+      "target": "cascade_bv6_c1_sweep.py"
+    },
+    {
+      "evidence": "retained library plus sweep/refine producer-output chain must move together",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv6_c1_refine.py",
+      "target": "cascade_bv6_lib.py"
+    },
+    {
+      "evidence": "retained library plus sweep/refine producer-output chain must move together",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv6_c1_sweep.py",
+      "target": "cascade_bv6_lib.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv6_c1_sweep.py",
+      "target": "cascade_bv6_probe.py"
+    },
+    {
+      "evidence": "retained library plus sweep/refine producer-output chain must move together",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv6_probe.py",
+      "target": "cascade_bv6_lib.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv6_probe.py",
+      "target": "cascade_bv6_xcheck.py"
+    },
+    {
+      "evidence": "retained library plus sweep/refine producer-output chain must move together",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv6_xcheck.py",
+      "target": "cascade_bv6_lib.py"
+    },
+    {
+      "evidence": "retained core module and missing sweep input block the root-relative chain",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv7_t1_refine.py",
+      "target": "cascade_bv7_core.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv7_t1_refine.py",
+      "target": "cascade_bv7_t2.py"
+    },
+    {
+      "evidence": "retained core module and missing sweep input block the root-relative chain",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv7_t2.py",
+      "target": "cascade_bv7_core.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv7_t2.py",
+      "target": "cascade_bv7_t3.py"
+    },
+    {
+      "evidence": "retained core module and missing sweep input block the root-relative chain",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv7_t3.py",
+      "target": "cascade_bv7_core.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv7_t3.py",
+      "target": "cascade_bv7_validate.py"
+    },
+    {
+      "evidence": "retained core module and missing sweep input block the root-relative chain",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv7_validate.py",
+      "target": "cascade_bv7_core.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_bv9_reshoot_Z1.py",
+      "target": "cascade_bv9_tables.py"
+    },
+    {
+      "evidence": "AST line 10: cell_solver_universe_T3",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_bv9_reshoot_Z1.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "retained universe solver and dynamic table-input set are outside the candidates",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv9_reshoot_Z1.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "operational census line 36: cascade_stageB_rungs.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_bv9_tables.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "operational census line 21: cascade_stageC_c1_A1m2_Z8.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_bv9_tables.py",
+      "target": "cascade_stageC_c1_A1m2_Z8.json"
+    },
+    {
+      "evidence": "operational census line 25: cascade_stageC_c2_A1m3_Z1.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_bv9_tables.py",
+      "target": "cascade_stageC_c2_A1m3_Z1.json"
+    },
+    {
+      "evidence": "operational census line 22: cascade_stageC_c3_A2k3_Z8.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_bv9_tables.py",
+      "target": "cascade_stageC_c3_A2k3_Z8.json"
+    },
+    {
+      "evidence": "operational census line 23: cascade_stageC_c4_A3_Z8.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_bv9_tables.py",
+      "target": "cascade_stageC_c4_A3_Z8.json"
+    },
+    {
+      "evidence": "operational census line 24: cascade_stageC_c5_A1m4_Z8.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_bv9_tables.py",
+      "target": "cascade_stageC_c5_A1m4_Z8.json"
+    },
+    {
+      "evidence": "retained universe solver and dynamic table-input set are outside the candidates",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_bv9_tables.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_lemD_bessel.py",
+      "target": "cascade_lemD_final.py"
+    },
+    {
+      "evidence": "retained solver and frozen stage-B output are runtime inputs",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_lemD_bessel.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "AST line 31: cell_solver_universe_T3",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_lemD_bessel.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "retained solver and frozen stage-B output are runtime inputs",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_lemD_bessel.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "operational census line 3: cell_solver_universe_T3.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_lemD_cas.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_lemD_final.py",
+      "target": "cascade_lemD_reshoot.py"
+    },
+    {
+      "evidence": "retained solver and frozen stage-B output are runtime inputs",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_lemD_final.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "operational census line 30: cascade_stageB_rungs.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_lemD_final.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "operational census line 26: cascade_stageC_c1_A1m2_Z8.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_lemD_final.py",
+      "target": "cascade_stageC_c1_A1m2_Z8.json"
+    },
+    {
+      "evidence": "operational census line 31: cascade_stageC_c2_A1m3_Z1.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_lemD_final.py",
+      "target": "cascade_stageC_c2_A1m3_Z1.json"
+    },
+    {
+      "evidence": "operational census line 27: cascade_stageC_c3_A2k3_Z8.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_lemD_final.py",
+      "target": "cascade_stageC_c3_A2k3_Z8.json"
+    },
+    {
+      "evidence": "operational census line 28: cascade_stageC_c4_A3_Z8.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_lemD_final.py",
+      "target": "cascade_stageC_c4_A3_Z8.json"
+    },
+    {
+      "evidence": "operational census line 29: cascade_stageC_c5_A1m4_Z8.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_lemD_final.py",
+      "target": "cascade_stageC_c5_A1m4_Z8.json"
+    },
+    {
+      "evidence": "AST line 98: cell_solver_universe_T3",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_lemD_final.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "retained solver and frozen stage-B output are runtime inputs",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_lemD_final.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_lemD_reshoot.py",
+      "target": "cascade_lemD_table.py"
+    },
+    {
+      "evidence": "retained solver and frozen stage-B output are runtime inputs",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_lemD_reshoot.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "AST line 13: cell_solver_universe_T3",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_lemD_reshoot.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "retained solver and frozen stage-B output are runtime inputs",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_lemD_reshoot.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "retained solver and frozen stage-B output are runtime inputs",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_lemD_table.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "operational census line 43: cascade_stageB_rungs.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_lemD_table.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "operational census line 37: cascade_stageC_c1_A1m2_Z8.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_lemD_table.py",
+      "target": "cascade_stageC_c1_A1m2_Z8.json"
+    },
+    {
+      "evidence": "operational census line 38: cascade_stageC_c2_A1m3_Z1.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_lemD_table.py",
+      "target": "cascade_stageC_c2_A1m3_Z1.json"
+    },
+    {
+      "evidence": "operational census line 39: cascade_stageC_c3_A2k3_Z8.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_lemD_table.py",
+      "target": "cascade_stageC_c3_A2k3_Z8.json"
+    },
+    {
+      "evidence": "operational census line 40: cascade_stageC_c4_A3_Z8.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_lemD_table.py",
+      "target": "cascade_stageC_c4_A3_Z8.json"
+    },
+    {
+      "evidence": "operational census line 41: cascade_stageC_c5_A1m4_Z8.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_lemD_table.py",
+      "target": "cascade_stageC_c5_A1m4_Z8.json"
+    },
+    {
+      "evidence": "retained solver and frozen stage-B output are runtime inputs",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_lemD_table.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "operational census line 7: cell_solver_universe_T3.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_or_energy_cas.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_or_energy_numeric.py",
+      "target": "cascade_or_energy_rung1_and_alignment.py"
+    },
+    {
+      "evidence": "hard-coded root stage-B output and retained solver are runtime inputs",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_or_energy_numeric.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "operational census line 1: cascade_stageB_rungs.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_or_energy_numeric.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "AST line 12: cell_solver_universe_T3",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_or_energy_numeric.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "hard-coded root stage-B output and retained solver are runtime inputs",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_or_energy_numeric.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "hard-coded root stage-B output and retained solver are runtime inputs",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_or_energy_rung1_and_alignment.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "operational census line 21: cascade_stageB_rungs.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_or_energy_rung1_and_alignment.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "AST line 19: cell_solver_universe_T3",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_or_energy_rung1_and_alignment.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "hard-coded root stage-B output and retained solver are runtime inputs",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_or_energy_rung1_and_alignment.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_s2_aggregate.py",
+      "target": "cascade_s2_core.py"
+    },
+    {
+      "evidence": "operational census line 4: cascade_bv13_matrices2.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_s2_core.py",
+      "target": "cascade_bv13_matrices2.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_s2_core.py",
+      "target": "cascade_s2_validate.py"
+    },
+    {
+      "evidence": "operational census line 27: cascade_stageB_rungs.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_s2_core.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "operational census line 45: cascade_stageC_c1_A1m2_Z8.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_s2_core.py",
+      "target": "cascade_stageC_c1_A1m2_Z8.json"
+    },
+    {
+      "evidence": "operational census line 48: cascade_stageC_c2_A1m3_Z1.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_s2_core.py",
+      "target": "cascade_stageC_c2_A1m3_Z1.json"
+    },
+    {
+      "evidence": "AST line 18: cell_solver_universe_T3",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_s2_core.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "operational census line 3: stability_filter_miniMAP.md",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_s2_core.py",
+      "target": "stability_filter_miniMAP.md"
+    },
+    {
+      "evidence": "operational census line 3: stability_operator_results.md",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_s2_core.py",
+      "target": "stability_operator_results.md"
+    },
+    {
+      "evidence": "operational census line 41: twin_ladder_involution_results.md",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_s2_core.py",
+      "target": "twin_ladder_involution_results.md"
+    },
+    {
+      "evidence": "AST line 10: s2_core",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_s2_validate.py",
+      "target": "cascade_s2_core.py"
+    },
+    {
+      "evidence": "AST line 101: s2_core",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_s2_validate.py",
+      "target": "cascade_s2_core.py"
+    },
+    {
+      "evidence": "AST line 14: cascade_bv14_lib",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_s3_lib.py",
+      "target": "cascade_bv14_lib.py"
+    },
+    {
+      "evidence": "operational census line 3: cascade_bv14_lib.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_s3_lib.py",
+      "target": "cascade_bv14_lib.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_s3_lib.py",
+      "target": "cascade_s3_t2_t3.py"
+    },
+    {
+      "evidence": "AST line 8: s3_lib",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_s3_t2_t3.py",
+      "target": "cascade_s3_lib.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_s3_t2_t3.py",
+      "target": "cascade_s3_t5.py"
+    },
+    {
+      "evidence": "AST line 15: s3_lib",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_s3_t5.py",
+      "target": "cascade_s3_lib.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_s3_t5.py",
+      "target": "cascade_s3_validate.py"
+    },
+    {
+      "evidence": "AST line 8: s3_lib",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_s3_validate.py",
+      "target": "cascade_s3_lib.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_sf_d5_spotcheck.py",
+      "target": "cascade_sf_d5b_extra.py"
+    },
+    {
+      "evidence": "operational census line 5: cascade_stageB_rungs.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_sf_d5_spotcheck.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "AST line 19: cell_solver_universe_T3",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_sf_d5_spotcheck.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "AST line 10: sf_d5_spotcheck",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_sf_d5b_extra.py",
+      "target": "cascade_sf_d5_spotcheck.py"
+    },
+    {
+      "evidence": "retained stage-A library and shared results file close the runtime family",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_stageA_extra.py",
+      "target": "cascade_stageA_lib.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_stageA_extra.py",
+      "target": "cascade_stageA_run.py"
+    },
+    {
+      "evidence": "retained stage-A library and shared results file close the runtime family",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_stageA_run.py",
+      "target": "cascade_stageA_lib.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_stageB_above.py",
+      "target": "cascade_stageB_analysis.py"
+    },
+    {
+      "evidence": "retained solver/common modules and frozen rung data close the family",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_stageB_above.py",
+      "target": "cascade_stageB_common.py"
+    },
+    {
+      "evidence": "retained solver/common modules and frozen rung data close the family",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_stageB_above.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "AST line 7: cell_solver_universe_T3",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_stageB_above.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "retained solver/common modules and frozen rung data close the family",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_stageB_above.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_stageB_analysis.py",
+      "target": "cascade_stageB_bisect.py"
+    },
+    {
+      "evidence": "retained solver/common modules and frozen rung data close the family",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_stageB_analysis.py",
+      "target": "cascade_stageB_common.py"
+    },
+    {
+      "evidence": "retained solver/common modules and frozen rung data close the family",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_stageB_analysis.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "retained solver/common modules and frozen rung data close the family",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_stageB_analysis.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "retained solver/common modules and frozen rung data close the family",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_stageB_bisect.py",
+      "target": "cascade_stageB_common.py"
+    },
+    {
+      "evidence": "retained solver/common modules and frozen rung data close the family",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_stageB_bisect.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_stageB_bisect.py",
+      "target": "cascade_stageB_sanity.py"
+    },
+    {
+      "evidence": "AST line 9: cell_solver_universe_T3",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_stageB_bisect.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "AST line 25: cell_solver_universe_T3",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_stageB_bisect.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "retained solver/common modules and frozen rung data close the family",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_stageB_bisect.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "retained solver/common modules and frozen rung data close the family",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_stageB_sanity.py",
+      "target": "cascade_stageB_common.py"
+    },
+    {
+      "evidence": "retained solver/common modules and frozen rung data close the family",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_stageB_sanity.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "AST line 5: cell_solver_universe_T3",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_stageB_sanity.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "retained solver/common modules and frozen rung data close the family",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_stageB_sanity.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "retained stage-C library is a runtime import",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_stageC_run.py",
+      "target": "cascade_stageC_lib.py"
+    },
+    {
+      "evidence": "AST line 9: cascade_stageB_common",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_tw_confirm.py",
+      "target": "cascade_stageB_common.py"
+    },
+    {
+      "evidence": "retained solver/common and hard-coded frozen rung file remain at root",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_tw_confirm.py",
+      "target": "cascade_stageB_common.py"
+    },
+    {
+      "evidence": "retained solver/common and hard-coded frozen rung file remain at root",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_tw_confirm.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_tw_confirm.py",
+      "target": "cascade_tw_pred.py"
+    },
+    {
+      "evidence": "AST line 7: cell_solver_universe_T3",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_tw_confirm.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "retained solver/common and hard-coded frozen rung file remain at root",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_tw_confirm.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "retained solver/common and hard-coded frozen rung file remain at root",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_tw_pred.py",
+      "target": "cascade_stageB_common.py"
+    },
+    {
+      "evidence": "retained solver/common and hard-coded frozen rung file remain at root",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_tw_pred.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "operational census line 15: cascade_stageB_rungs.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cascade_tw_pred.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "cascade_tw_pred.py",
+      "target": "cascade_tw_reshoot.py"
+    },
+    {
+      "evidence": "retained solver/common and hard-coded frozen rung file remain at root",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_tw_pred.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "retained solver/common and hard-coded frozen rung file remain at root",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_tw_reshoot.py",
+      "target": "cascade_stageB_common.py"
+    },
+    {
+      "evidence": "retained solver/common and hard-coded frozen rung file remain at root",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_tw_reshoot.py",
+      "target": "cascade_stageB_rungs.json"
+    },
+    {
+      "evidence": "AST line 11: cell_solver_universe_T3",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "cascade_tw_reshoot.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "retained solver/common and hard-coded frozen rung file remain at root",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "cascade_tw_reshoot.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "operational census line 4: cell_solver_f2d.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cell_solver_f2d_BUILDNOTES.md",
+      "target": "cell_solver_f2d.py"
+    },
+    {
+      "evidence": "operational census line 6: discreteness_preregistration.md",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cell_solver_f2d_BUILDNOTES.md",
+      "target": "discreteness_preregistration.md"
+    },
+    {
+      "evidence": "operational census line 7: f2d_virial_step0_results.md",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cell_solver_f2d_BUILDNOTES.md",
+      "target": "f2d_virial_step0_results.md"
+    },
+    {
+      "evidence": "operational census line 7: f_rtheta_free_field_MAP.md",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cell_solver_f2d_BUILDNOTES.md",
+      "target": "f_rtheta_free_field_MAP.md"
+    },
+    {
+      "evidence": "operational census line 8: round_matter_reduction_results.md",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cell_solver_f2d_BUILDNOTES.md",
+      "target": "round_matter_reduction_results.md"
+    },
+    {
+      "evidence": "operational census line 41: spectral_cheb.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cell_solver_f2d_BUILDNOTES.md",
+      "target": "spectral_cheb.py"
+    },
+    {
+      "evidence": "operational census line 25: spectral_sph_exact.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cell_solver_f2d_BUILDNOTES.md",
+      "target": "spectral_sph_exact.py"
+    },
+    {
+      "evidence": "operational census line 5: verify_f2d_reduction.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "cell_solver_f2d_BUILDNOTES.md",
+      "target": "verify_f2d_reduction.py"
+    },
+    {
+      "evidence": "root module/input/output family includes an immutable output and absent inputs",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "controlled_relax_hessian.py",
+      "target": "controlled_relax_hessian_out.json"
+    },
+    {
+      "evidence": "operational census line 86: controlled_relax_hessian_out.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "controlled_relax_hessian.py",
+      "target": "controlled_relax_hessian_out.json"
+    },
+    {
+      "evidence": "root module/input/output family includes an immutable output and absent inputs",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "controlled_relax_hessian.py",
+      "target": "hopfion_arc_scripts_2026-07-05/fs_hopfion.py"
+    },
+    {
+      "evidence": "AST line 9: cell_solver_composite",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "e2c_bv_gauntlet.py",
+      "target": "cell_solver_composite.py"
+    },
+    {
+      "evidence": "imports retained composite solver",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "e2c_bv_gauntlet.py",
+      "target": "cell_solver_composite.py"
+    },
+    {
+      "evidence": "AST line 6: cell_solver_composite",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "e2d_bv_cert.py",
+      "target": "cell_solver_composite.py"
+    },
+    {
+      "evidence": "both scripts import retained composite solver and continuation driver",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "e2d_bv_cert.py",
+      "target": "cell_solver_composite.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "e2d_bv_cert.py",
+      "target": "e2d_bv_checks.py"
+    },
+    {
+      "evidence": "AST line 7: e2d_continuation_driver",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "e2d_bv_cert.py",
+      "target": "e2d_continuation_driver.py"
+    },
+    {
+      "evidence": "both scripts import retained composite solver and continuation driver",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "e2d_bv_cert.py",
+      "target": "e2d_continuation_driver.py"
+    },
+    {
+      "evidence": "AST line 6: cell_solver_composite",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "e2d_bv_checks.py",
+      "target": "cell_solver_composite.py"
+    },
+    {
+      "evidence": "both scripts import retained composite solver and continuation driver",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "e2d_bv_checks.py",
+      "target": "cell_solver_composite.py"
+    },
+    {
+      "evidence": "AST line 7: e2d_continuation_driver",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "e2d_bv_checks.py",
+      "target": "e2d_continuation_driver.py"
+    },
+    {
+      "evidence": "both scripts import retained composite solver and continuation driver",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "e2d_bv_checks.py",
+      "target": "e2d_continuation_driver.py"
+    },
+    {
+      "evidence": "operational census line 10: cell_solver_universe_T3.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "homog_universe_solve.py",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "AST line 6: hopfion_static_mass_common",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "hopfion_static_mass_hessian_256driver.py",
+      "target": "hopfion_static_mass_common.py"
+    },
+    {
+      "evidence": "common module is referenced by frozen packages and output JSON is immutable",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "hopfion_static_mass_hessian_256driver.py",
+      "target": "hopfion_static_mass_common.py"
+    },
+    {
+      "evidence": "common module is referenced by frozen packages and output JSON is immutable",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "hopfion_static_mass_hessian_256driver.py",
+      "target": "hopfion_static_mass_hessian_out.json"
+    },
+    {
+      "evidence": "operational census line 62: hopfion_static_mass_hessian_out.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "hopfion_static_mass_hessian_256driver.py",
+      "target": "hopfion_static_mass_hessian_out.json"
+    },
+    {
+      "evidence": "root-CWD module/input/checkpoint/output family is incomplete",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "long_relax_256.py",
+      "target": "hopfion_arc_scripts_2026-07-05/fs_hopfion.py"
+    },
+    {
+      "evidence": "six absent inputs feed immutable evidence and output records",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "noNull_evidence_checker.py",
+      "target": "noNull_evidence_checker_output.txt"
+    },
+    {
+      "evidence": "operational census line 5: noNull_evidence_checker_output.txt",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "noNull_evidence_checker.py",
+      "target": "noNull_evidence_checker_output.txt"
+    },
+    {
+      "evidence": "operational census line 106: noNull_evidence_seal.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "noNull_evidence_checker.py",
+      "target": "noNull_evidence_seal.py"
+    },
+    {
+      "evidence": "operational census line 3: noNull_hess_h2fit_log.txt",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "noNull_evidence_checker.py",
+      "target": "noNull_hess_h2fit_log.txt"
+    },
+    {
+      "evidence": "six absent inputs feed immutable evidence and output records",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "noNull_evidence_checker.py",
+      "target": "noNull_stability_evidence.json"
+    },
+    {
+      "evidence": "operational census line 4: noNull_stability_evidence.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "noNull_evidence_checker.py",
+      "target": "noNull_stability_evidence.json"
+    },
+    {
+      "evidence": "operational census line 4: r2_prereg_s_cas.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "r2_prereg_s_dependence_LEAD.md",
+      "target": "r2_prereg_s_cas.py"
+    },
+    {
+      "evidence": "__file__-relative write would strand or overwrite an immutable result",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "simple_metric_dotted_line.py",
+      "target": "simple_metric_dotted_line_out.json"
+    },
+    {
+      "evidence": "operational census line 33: simple_metric_dotted_line_out.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "simple_metric_dotted_line.py",
+      "target": "simple_metric_dotted_line_out.json"
+    },
+    {
+      "evidence": "__file__-relative write would strand or overwrite an immutable result",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "simple_metric_promising_candidates_zoom.py",
+      "target": "simple_metric_promising_candidates_zoom_out.json"
+    },
+    {
+      "evidence": "operational census line 62: simple_metric_promising_candidates_zoom_out.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "simple_metric_promising_candidates_zoom.py",
+      "target": "simple_metric_promising_candidates_zoom_out.json"
+    },
+    {
+      "evidence": "__file__-relative write would strand or overwrite an immutable result",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "simple_metric_relational_rooms_continue.py",
+      "target": "simple_metric_relational_rooms_continue_out.json"
+    },
+    {
+      "evidence": "operational census line 46: simple_metric_relational_rooms_continue_out.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "simple_metric_relational_rooms_continue.py",
+      "target": "simple_metric_relational_rooms_continue_out.json"
+    },
+    {
+      "evidence": "operational census line 4: discreteness_preregistration.md",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "solver_build_MAP.md",
+      "target": "discreteness_preregistration.md"
+    },
+    {
+      "evidence": "operational census line 10: cascade_bv6_lib.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "stageD_sweep_results_raw.md",
+      "target": "cascade_bv6_lib.py"
+    },
+    {
+      "evidence": "operational census line 66: cascade_bv9_reshoot.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "stageD_sweep_results_raw.md",
+      "target": "cascade_bv9_reshoot.py"
+    },
+    {
+      "evidence": "operational census line 26: cascade_stageB_common.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "stageD_sweep_results_raw.md",
+      "target": "cascade_stageB_common.py"
+    },
+    {
+      "evidence": "operational census line 129: cascade_stageD_prereg.md",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "stageD_sweep_results_raw.md",
+      "target": "cascade_stageD_prereg.md"
+    },
+    {
+      "evidence": "raw result is coupled to retained producer scripts and generated JSON records",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "stageD_sweep_results_raw.md",
+      "target": "cascade_stageD_sweep_refine.py"
+    },
+    {
+      "evidence": "operational census line 12: cascade_stageD_sweep_refine.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "stageD_sweep_results_raw.md",
+      "target": "cascade_stageD_sweep_refine.py"
+    },
+    {
+      "evidence": "raw result is coupled to retained producer scripts and generated JSON records",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "stageD_sweep_results_raw.md",
+      "target": "cascade_stageD_sweep_scan.py"
+    },
+    {
+      "evidence": "operational census line 12: cascade_stageD_sweep_scan.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "stageD_sweep_results_raw.md",
+      "target": "cascade_stageD_sweep_scan.py"
+    },
+    {
+      "evidence": "operational census line 9: cell_solver_universe_T3.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "stageD_sweep_results_raw.md",
+      "target": "cell_solver_universe_T3.py"
+    },
+    {
+      "evidence": "operational census line 130: ladder_lemmaD_sealing_amplitude_results.md",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "stageD_sweep_results_raw.md",
+      "target": "ladder_lemmaD_sealing_amplitude_results.md"
+    },
+    {
+      "evidence": "operational census line 130: ladder_theorems_AB_C_results.md",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "stageD_sweep_results_raw.md",
+      "target": "ladder_theorems_AB_C_results.md"
+    },
+    {
+      "evidence": "operational census line 129: ladder_theta0_accumulation_results.md",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "stageD_sweep_results_raw.md",
+      "target": "ladder_theta0_accumulation_results.md"
+    },
+    {
+      "evidence": "operational census line 13: stageD_refine_pass2.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "stageD_sweep_results_raw.md",
+      "target": "stageD_refine_pass2.json"
+    },
+    {
+      "evidence": "operational census line 13: stageD_scan_pass1.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "stageD_sweep_results_raw.md",
+      "target": "stageD_scan_pass1.json"
+    },
+    {
+      "evidence": "raw result is coupled to retained producer scripts and generated JSON records",
+      "kind": "REQUIRED_COMPANION",
+      "required_for_migration": true,
+      "source": "stageD_sweep_results_raw.md",
+      "target": "stageD_sweep_results_raw.json"
+    },
+    {
+      "evidence": "operational census line 13: stageD_sweep_results_raw.json",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "stageD_sweep_results_raw.md",
+      "target": "stageD_sweep_results_raw.json"
+    },
+    {
+      "evidence": "operational census line 3: cell_solver_round.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "verify_universe_bv2_a_reduction.py",
+      "target": "cell_solver_round.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "verify_universe_bv4_q1_validate.py",
+      "target": "verify_universe_bv4_q2_powers.py"
+    },
+    {
+      "evidence": "AST line 6: bv4_shoot",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "verify_universe_bv4_q1_validate.py",
+      "target": "verify_universe_bv4_shoot.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "verify_universe_bv4_q2_powers.py",
+      "target": "verify_universe_bv4_q3_bisect.py"
+    },
+    {
+      "evidence": "AST line 5: bv4_shoot",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "verify_universe_bv4_q2_powers.py",
+      "target": "verify_universe_bv4_shoot.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "verify_universe_bv4_q3_bisect.py",
+      "target": "verify_universe_bv4_q3_scan.py"
+    },
+    {
+      "evidence": "AST line 7: bv4_shoot",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "verify_universe_bv4_q3_bisect.py",
+      "target": "verify_universe_bv4_shoot.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "verify_universe_bv4_q3_scan.py",
+      "target": "verify_universe_bv4_q4_q5.py"
+    },
+    {
+      "evidence": "AST line 5: bv4_shoot",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "verify_universe_bv4_q3_scan.py",
+      "target": "verify_universe_bv4_shoot.py"
+    },
+    {
+      "evidence": "shared import, producer/output, runtime companion, or manually audited atomic closure",
+      "kind": "FAMILY_CLOSURE",
+      "required_for_migration": true,
+      "source": "verify_universe_bv4_q4_q5.py",
+      "target": "verify_universe_bv4_shoot.py"
+    },
+    {
+      "evidence": "AST line 7: bv4_shoot",
+      "kind": "PYTHON_IMPORT",
+      "required_for_migration": true,
+      "source": "verify_universe_bv4_q4_q5.py",
+      "target": "verify_universe_bv4_shoot.py"
+    },
+    {
+      "evidence": "operational census line 17: cell_solver_universe_T3.py",
+      "kind": "TEXT_REFERENCE",
+      "required_for_migration": false,
+      "source": "verify_universe_bv4_shoot.py",
+      "target": "cell_solver_universe_T3.py"
+    }
+  ],
+  "families": [
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_bv10_reshoot.py"
+      ],
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_BV10_RESHOOT_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 5,
+      "candidate_members": [
+        "cascade_bv11_lib.py",
+        "cascade_bv11_v1_root.py",
+        "cascade_bv11_v1_tolcheck.py",
+        "cascade_bv11_v2_desert.py",
+        "cascade_bv11_v3_cap.py"
+      ],
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV11_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 2,
+      "candidate_members": [
+        "cascade_bv13_su_trans.py",
+        "cascade_bv13_vhat_probe.py"
+      ],
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV13_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 6,
+      "candidate_members": [
+        "cascade_bv14_counts.py",
+        "cascade_bv14_spare_a_sens.py",
+        "cascade_bv14_su.py",
+        "cascade_bv14_summary.py",
+        "cascade_bv14_tolsweep.py",
+        "cascade_bv14_validate.py"
+      ],
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV14_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 5,
+      "candidate_members": [
+        "cascade_bv15_asm.py",
+        "cascade_bv15_x1_ladder.py",
+        "cascade_bv15_x1_validate.py",
+        "cascade_bv15_x2_anatomy.py",
+        "cascade_bv15_x3_c2.py"
+      ],
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV15_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 6,
+      "candidate_members": [
+        "cascade_bv5_c1_scan.py",
+        "cascade_bv5_c1c2c3_roots.py",
+        "cascade_bv5_c4_bigN.py",
+        "cascade_bv5_c4_floor_audit.py",
+        "cascade_bv5_c5_stuck.py",
+        "cascade_bv5_common.py"
+      ],
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV5_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 4,
+      "candidate_members": [
+        "cascade_bv6_c1_refine.py",
+        "cascade_bv6_c1_sweep.py",
+        "cascade_bv6_probe.py",
+        "cascade_bv6_xcheck.py"
+      ],
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_BV6_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 4,
+      "candidate_members": [
+        "cascade_bv7_t1_refine.py",
+        "cascade_bv7_t2.py",
+        "cascade_bv7_t3.py",
+        "cascade_bv7_validate.py"
+      ],
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_BV7_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 2,
+      "candidate_members": [
+        "cascade_bv9_reshoot_Z1.py",
+        "cascade_bv9_tables.py"
+      ],
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_BV9_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cell_solver_f2d_BUILDNOTES.md"
+      ],
+      "disposition": "NEEDS_MANUAL_ADJUDICATION",
+      "family_id": "F_CELL_BUILD_NOTES_MANUAL",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "e2c_bv_gauntlet.py"
+      ],
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_E2C_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 2,
+      "candidate_members": [
+        "e2d_bv_cert.py",
+        "e2d_bv_checks.py"
+      ],
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_E2D_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 4,
+      "candidate_members": [
+        "cascade_lemD_bessel.py",
+        "cascade_lemD_final.py",
+        "cascade_lemD_reshoot.py",
+        "cascade_lemD_table.py"
+      ],
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_LEMD_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "simple_metric_dotted_line.py"
+      ],
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_MACRO_DOTTED_OUTPUT",
+      "lane_class": "ACTIVE"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "simple_metric_legacy_double_fix_side_excursion.md"
+      ],
+      "disposition": "BLOCKED_TEST_SCOPE",
+      "family_id": "F_MACRO_LEGACY_TEST_SCOPE",
+      "lane_class": "ACTIVE"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "simple_metric_relational_rooms_continue.py"
+      ],
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_MACRO_ROOMS_OUTPUT",
+      "lane_class": "ACTIVE"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "simple_metric_promising_candidates_zoom.py"
+      ],
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_MACRO_ZOOM_OUTPUT",
+      "lane_class": "ACTIVE"
+    },
+    {
+      "candidate_count": 2,
+      "candidate_members": [
+        "cascade_or_energy_numeric.py",
+        "cascade_or_energy_rung1_and_alignment.py"
+      ],
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_OR_ENERGY_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "controlled_relax_hessian.py"
+      ],
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_PARTICLE_CONTROLLED",
+      "lane_class": "ACTIVE"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "hopfion_static_mass_hessian_256driver.py"
+      ],
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_PARTICLE_HOPFION_HESSIAN",
+      "lane_class": "ACTIVE"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "long_relax_256.py"
+      ],
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_PARTICLE_LONG_RELAX",
+      "lane_class": "ACTIVE"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "noNull_evidence_checker.py"
+      ],
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_PARTICLE_NONULL",
+      "lane_class": "ACTIVE"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "r2_prereg_s_dependence_LEAD.md"
+      ],
+      "disposition": "NEEDS_MANUAL_ADJUDICATION",
+      "family_id": "F_R2_LEAD_MANUAL",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 3,
+      "candidate_members": [
+        "cascade_s2_aggregate.py",
+        "cascade_s2_core.py",
+        "cascade_s2_validate.py"
+      ],
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_S2_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 4,
+      "candidate_members": [
+        "cascade_s3_lib.py",
+        "cascade_s3_t2_t3.py",
+        "cascade_s3_t5.py",
+        "cascade_s3_validate.py"
+      ],
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_S3_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_bv10_cas.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_BV10_CAS",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_bv10_E2_period.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_BV10_E2_PERIOD",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_bv10_E2_symbolic.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_BV10_E2_SYMBOLIC",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_bv10_E3_bottom.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_BV10_E3_BOTTOM",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_bv11_v4_cas.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_BV11_V4_CAS",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_bv13_w1_classes.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_BV13_W1_CLASSES",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_bv13_w2_w3cas.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_BV13_W2_W3CAS",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_bv13_w5_homothety.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_BV13_W5_HOMOTHETY",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_bv16_cas.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_BV16_CAS",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_lemD_cas.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_LEMD_CAS",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_or_energy_cas.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_OR_ENERGY_CAS",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_sf_cas1_bulk.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_SF_CAS1_BULK",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_sf_cas4_zeromodes.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_SF_CAS4_ZEROMODES",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_th2_bottom_beta.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_TH2_BOTTOM_BETA",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_th2_bottom_system.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_TH2_BOTTOM_SYSTEM",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_th2_cas_checks.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_TH2_CAS_CHECKS",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_th2_cas_kappa.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_TH2_CAS_KAPPA",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_th2_launch.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_TH2_LAUNCH",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_tw_cas.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_TW_CAS",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "homog_alpha_test.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_HOMOG_ALPHA_TEST",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "homog_universe_numeric.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_HOMOG_UNIVERSE_NUMERIC",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "homog_universe_solve.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_HOMOG_UNIVERSE_SOLVE",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "phi_source_derivation.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_PHI_SOURCE_DERIVATION",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "stageD_bv_forecast_check.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_STAGED_BV_FORECAST_CHECK",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "verify_center_escape.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_CENTER_ESCAPE",
+      "lane_class": "ACTIVE"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "verify_center_nogo.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_CENTER_NOGO",
+      "lane_class": "ACTIVE"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "verify_eos_dS_window.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_EOS_DS_WINDOW",
+      "lane_class": "ACTIVE"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "verify_redshift_profile_derivation.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_REDSHIFT_PROFILE_DERIVATION",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "verify_universe_bv2_a_reduction.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_UNIVERSE_BV2_A_REDUCTION",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "verify_universe_bv2_b_ident.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_UNIVERSE_BV2_B_IDENT",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "verify_universe_bv2_c_folds.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_UNIVERSE_BV2_C_FOLDS",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "verify_universe_bv2_d_budget.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_UNIVERSE_BV2_D_BUDGET",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "verify_universe_bv2_e_sigma.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_UNIVERSE_BV2_E_SIGMA",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "verify_universe_bv2_f_einstein.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_UNIVERSE_BV2_F_EINSTEIN",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "verify_universe_bv2_g_transv_toy.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_UNIVERSE_BV2_G_TRANSV_TOY",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "verify_wrl_canon.py"
+      ],
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_WRL_CANON",
+      "lane_class": "ACTIVE"
+    },
+    {
+      "candidate_count": 2,
+      "candidate_members": [
+        "cascade_sf_d5_spotcheck.py",
+        "cascade_sf_d5b_extra.py"
+      ],
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_SF_D5_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "solver_build_MAP.md"
+      ],
+      "disposition": "NEEDS_MANUAL_ADJUDICATION",
+      "family_id": "F_SOLVER_MAP_MANUAL",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "stageD_sweep_results_raw.md"
+      ],
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_STAGED_RAW_OUTPUT",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 2,
+      "candidate_members": [
+        "cascade_stageA_extra.py",
+        "cascade_stageA_run.py"
+      ],
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_STAGE_A_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 4,
+      "candidate_members": [
+        "cascade_stageB_above.py",
+        "cascade_stageB_analysis.py",
+        "cascade_stageB_bisect.py",
+        "cascade_stageB_sanity.py"
+      ],
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_STAGE_B_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_stageC_run.py"
+      ],
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_STAGE_C_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "cascade_th2_final_table.py"
+      ],
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_TH2_FINAL_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 3,
+      "candidate_members": [
+        "cascade_tw_confirm.py",
+        "cascade_tw_pred.py",
+        "cascade_tw_reshoot.py"
+      ],
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_TW_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 6,
+      "candidate_members": [
+        "verify_universe_bv4_q1_validate.py",
+        "verify_universe_bv4_q2_powers.py",
+        "verify_universe_bv4_q3_bisect.py",
+        "verify_universe_bv4_q3_scan.py",
+        "verify_universe_bv4_q4_q5.py",
+        "verify_universe_bv4_shoot.py"
+      ],
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_UNIVERSE_BV4_RUNTIME",
+      "lane_class": "LEGACY"
+    },
+    {
+      "candidate_count": 1,
+      "candidate_members": [
+        "verify_sne_adversarial.py"
+      ],
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_VERIFY_SNE_RUNTIME",
+      "lane_class": "LEGACY"
+    }
+  ],
+  "family_count": 71,
+  "nodes": [
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv10_E2_period.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_BV10_E2_PERIOD",
+      "id": "cascade_bv10_E2_period.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv10_E2_symbolic.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_BV10_E2_SYMBOLIC",
+      "id": "cascade_bv10_E2_symbolic.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv10_E3_bottom.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_BV10_E3_BOTTOM",
+      "id": "cascade_bv10_E3_bottom.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv10_cas.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_BV10_CAS",
+      "id": "cascade_bv10_cas.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv10_reshoot.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_BV10_RESHOOT_RUNTIME",
+      "id": "cascade_bv10_reshoot.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv11_lib.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV11_RUNTIME",
+      "id": "cascade_bv11_lib.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv11_v1_root.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV11_RUNTIME",
+      "id": "cascade_bv11_v1_root.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv11_v1_tolcheck.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV11_RUNTIME",
+      "id": "cascade_bv11_v1_tolcheck.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv11_v2_desert.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV11_RUNTIME",
+      "id": "cascade_bv11_v2_desert.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv11_v3_cap.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV11_RUNTIME",
+      "id": "cascade_bv11_v3_cap.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv11_v4_cas.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_BV11_V4_CAS",
+      "id": "cascade_bv11_v4_cas.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "exists": true,
+      "id": "cascade_bv13_matrices2.py",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv13_su_trans.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV13_RUNTIME",
+      "id": "cascade_bv13_su_trans.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv13_vhat_probe.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV13_RUNTIME",
+      "id": "cascade_bv13_vhat_probe.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv13_w1_classes.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_BV13_W1_CLASSES",
+      "id": "cascade_bv13_w1_classes.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv13_w2_w3cas.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_BV13_W2_W3CAS",
+      "id": "cascade_bv13_w2_w3cas.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv13_w5_homothety.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_BV13_W5_HOMOTHETY",
+      "id": "cascade_bv13_w5_homothety.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv14_counts.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV14_RUNTIME",
+      "id": "cascade_bv14_counts.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "exists": true,
+      "frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+      "id": "cascade_bv14_lib.py",
+      "kind": "companion",
+      "tracked": true
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv14_spare_a_sens.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV14_RUNTIME",
+      "id": "cascade_bv14_spare_a_sens.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv14_su.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV14_RUNTIME",
+      "id": "cascade_bv14_su.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv14_summary.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV14_RUNTIME",
+      "id": "cascade_bv14_summary.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv14_tolsweep.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV14_RUNTIME",
+      "id": "cascade_bv14_tolsweep.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv14_validate.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV14_RUNTIME",
+      "id": "cascade_bv14_validate.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv15_asm.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV15_RUNTIME",
+      "id": "cascade_bv15_asm.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv15_x1_ladder.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV15_RUNTIME",
+      "id": "cascade_bv15_x1_ladder.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv15_x1_validate.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV15_RUNTIME",
+      "id": "cascade_bv15_x1_validate.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv15_x2_anatomy.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV15_RUNTIME",
+      "id": "cascade_bv15_x2_anatomy.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv15_x3_c2.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV15_RUNTIME",
+      "id": "cascade_bv15_x3_c2.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv16_cas.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_BV16_CAS",
+      "id": "cascade_bv16_cas.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv5_c1_scan.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV5_RUNTIME",
+      "id": "cascade_bv5_c1_scan.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv5_c1c2c3_roots.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV5_RUNTIME",
+      "id": "cascade_bv5_c1c2c3_roots.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv5_c4_bigN.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV5_RUNTIME",
+      "id": "cascade_bv5_c4_bigN.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv5_c4_floor_audit.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV5_RUNTIME",
+      "id": "cascade_bv5_c4_floor_audit.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv5_c5_stuck.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV5_RUNTIME",
+      "id": "cascade_bv5_c5_stuck.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv5_common.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_BV5_RUNTIME",
+      "id": "cascade_bv5_common.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv6_c1_refine.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_BV6_RUNTIME",
+      "id": "cascade_bv6_c1_refine.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv6_c1_sweep.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_BV6_RUNTIME",
+      "id": "cascade_bv6_c1_sweep.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "exists": true,
+      "frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+      "id": "cascade_bv6_lib.py",
+      "kind": "companion",
+      "tracked": true
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv6_probe.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_BV6_RUNTIME",
+      "id": "cascade_bv6_probe.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv6_xcheck.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_BV6_RUNTIME",
+      "id": "cascade_bv6_xcheck.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "exists": true,
+      "frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+      "id": "cascade_bv7_core.py",
+      "kind": "companion",
+      "tracked": true
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv7_t1_refine.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_BV7_RUNTIME",
+      "id": "cascade_bv7_t1_refine.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv7_t2.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_BV7_RUNTIME",
+      "id": "cascade_bv7_t2.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv7_t3.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_BV7_RUNTIME",
+      "id": "cascade_bv7_t3.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv7_validate.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_BV7_RUNTIME",
+      "id": "cascade_bv7_validate.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "exists": true,
+      "id": "cascade_bv9_reshoot.py",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv9_reshoot_Z1.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_BV9_RUNTIME",
+      "id": "cascade_bv9_reshoot_Z1.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_bv9_tables.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_BV9_RUNTIME",
+      "id": "cascade_bv9_tables.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_lemD_bessel.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_LEMD_RUNTIME",
+      "id": "cascade_lemD_bessel.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_lemD_cas.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_LEMD_CAS",
+      "id": "cascade_lemD_cas.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_lemD_final.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_LEMD_RUNTIME",
+      "id": "cascade_lemD_final.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_lemD_reshoot.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_LEMD_RUNTIME",
+      "id": "cascade_lemD_reshoot.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_lemD_table.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_LEMD_RUNTIME",
+      "id": "cascade_lemD_table.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_or_energy_cas.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_OR_ENERGY_CAS",
+      "id": "cascade_or_energy_cas.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_or_energy_numeric.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_OR_ENERGY_RUNTIME",
+      "id": "cascade_or_energy_numeric.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_or_energy_rung1_and_alignment.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_OR_ENERGY_RUNTIME",
+      "id": "cascade_or_energy_rung1_and_alignment.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_s2_aggregate.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_S2_RUNTIME",
+      "id": "cascade_s2_aggregate.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_s2_core.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_S2_RUNTIME",
+      "id": "cascade_s2_core.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_s2_validate.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_S2_RUNTIME",
+      "id": "cascade_s2_validate.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_s3_lib.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_S3_RUNTIME",
+      "id": "cascade_s3_lib.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_s3_t2_t3.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_S3_RUNTIME",
+      "id": "cascade_s3_t2_t3.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_s3_t5.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_S3_RUNTIME",
+      "id": "cascade_s3_t5.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_s3_validate.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_S3_RUNTIME",
+      "id": "cascade_s3_validate.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_sf_cas1_bulk.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_SF_CAS1_BULK",
+      "id": "cascade_sf_cas1_bulk.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_sf_cas4_zeromodes.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_SF_CAS4_ZEROMODES",
+      "id": "cascade_sf_cas4_zeromodes.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_sf_d5_spotcheck.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_SF_D5_RUNTIME",
+      "id": "cascade_sf_d5_spotcheck.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_sf_d5b_extra.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_SF_D5_RUNTIME",
+      "id": "cascade_sf_d5b_extra.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_stageA_extra.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_STAGE_A_RUNTIME",
+      "id": "cascade_stageA_extra.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "exists": true,
+      "frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+      "id": "cascade_stageA_lib.py",
+      "kind": "companion",
+      "tracked": true
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_stageA_run.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_STAGE_A_RUNTIME",
+      "id": "cascade_stageA_run.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_stageB_above.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_STAGE_B_RUNTIME",
+      "id": "cascade_stageB_above.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_stageB_analysis.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_STAGE_B_RUNTIME",
+      "id": "cascade_stageB_analysis.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_stageB_bisect.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_STAGE_B_RUNTIME",
+      "id": "cascade_stageB_bisect.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "exists": true,
+      "frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+      "id": "cascade_stageB_common.py",
+      "kind": "companion",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "cascade_stageB_rungs.json",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_stageB_sanity.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_STAGE_B_RUNTIME",
+      "id": "cascade_stageB_sanity.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "exists": true,
+      "id": "cascade_stageC_c1_A1m2_Z8.json",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "cascade_stageC_c2_A1m3_Z1.json",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "cascade_stageC_c3_A2k3_Z8.json",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "cascade_stageC_c4_A3_Z8.json",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "cascade_stageC_c5_A1m4_Z8.json",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "id": "cascade_stageC_lib.py",
+      "kind": "companion"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_stageC_run.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_STAGE_C_RUNTIME",
+      "id": "cascade_stageC_run.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "exists": true,
+      "id": "cascade_stageD_prereg.md",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "cascade_stageD_sweep_refine.py",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "cascade_stageD_sweep_scan.py",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_th2_bottom_beta.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_TH2_BOTTOM_BETA",
+      "id": "cascade_th2_bottom_beta.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_th2_bottom_system.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_TH2_BOTTOM_SYSTEM",
+      "id": "cascade_th2_bottom_system.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_th2_cas_checks.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_TH2_CAS_CHECKS",
+      "id": "cascade_th2_cas_checks.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_th2_cas_kappa.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_TH2_CAS_KAPPA",
+      "id": "cascade_th2_cas_kappa.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_th2_final_table.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_TH2_FINAL_RUNTIME",
+      "id": "cascade_th2_final_table.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_th2_launch.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_TH2_LAUNCH",
+      "id": "cascade_th2_launch.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_tw_cas.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_CASCADE_TW_CAS",
+      "id": "cascade_tw_cas.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_tw_confirm.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_TW_RUNTIME",
+      "id": "cascade_tw_confirm.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_tw_pred.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_TW_RUNTIME",
+      "id": "cascade_tw_pred.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cascade_tw_reshoot.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_TW_RUNTIME",
+      "id": "cascade_tw_reshoot.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "id": "cell_solver_composite.py",
+      "kind": "companion"
+    },
+    {
+      "exists": true,
+      "id": "cell_solver_f2d.py",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "destination": "archive/pre_2026-07-01/cell_solver_f2d_BUILDNOTES.md",
+      "disposition": "NEEDS_MANUAL_ADJUDICATION",
+      "family_id": "F_CELL_BUILD_NOTES_MANUAL",
+      "id": "cell_solver_f2d_BUILDNOTES.md",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "exists": true,
+      "id": "cell_solver_round.py",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "cell_solver_universe_T3.py",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "destination": "research/particle_mass/controlled_relax_hessian.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_PARTICLE_CONTROLLED",
+      "id": "controlled_relax_hessian.py",
+      "kind": "candidate",
+      "lane_class": "ACTIVE",
+      "owner": "PARTICLE_MASS"
+    },
+    {
+      "exists": true,
+      "id": "controlled_relax_hessian_out.json",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "discreteness_preregistration.md",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "destination": "archive/pre_2026-07-01/e2c_bv_gauntlet.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_E2C_RUNTIME",
+      "id": "e2c_bv_gauntlet.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/e2d_bv_cert.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_E2D_RUNTIME",
+      "id": "e2d_bv_cert.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/e2d_bv_checks.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_E2D_RUNTIME",
+      "id": "e2d_bv_checks.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "id": "e2d_continuation_driver.py",
+      "kind": "companion"
+    },
+    {
+      "exists": true,
+      "id": "f2d_virial_step0_results.md",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "f_rtheta_free_field_MAP.md",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "destination": "archive/pre_2026-07-01/homog_alpha_test.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_HOMOG_ALPHA_TEST",
+      "id": "homog_alpha_test.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/homog_universe_numeric.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_HOMOG_UNIVERSE_NUMERIC",
+      "id": "homog_universe_numeric.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/homog_universe_solve.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_HOMOG_UNIVERSE_SOLVE",
+      "id": "homog_universe_solve.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "exists": true,
+      "frozen_manifest_status": "NOT_REGISTERED_ROOT_PATH",
+      "id": "hopfion_arc_scripts_2026-07-05/fs_hopfion.py",
+      "kind": "companion",
+      "tracked": true
+    },
+    {
+      "id": "hopfion_static_mass_common.py",
+      "kind": "companion"
+    },
+    {
+      "destination": "research/particle_mass/hopfion_static_mass_hessian_256driver.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_PARTICLE_HOPFION_HESSIAN",
+      "id": "hopfion_static_mass_hessian_256driver.py",
+      "kind": "candidate",
+      "lane_class": "ACTIVE",
+      "owner": "PARTICLE_MASS"
+    },
+    {
+      "exists": true,
+      "id": "hopfion_static_mass_hessian_out.json",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "ladder_lemmaD_sealing_amplitude_results.md",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "ladder_theorems_AB_C_results.md",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "ladder_theta0_accumulation_results.md",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "destination": "research/particle_mass/long_relax_256.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_PARTICLE_LONG_RELAX",
+      "id": "long_relax_256.py",
+      "kind": "candidate",
+      "lane_class": "ACTIVE",
+      "owner": "PARTICLE_MASS"
+    },
+    {
+      "destination": "research/particle_mass/noNull_evidence_checker.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_PARTICLE_NONULL",
+      "id": "noNull_evidence_checker.py",
+      "kind": "candidate",
+      "lane_class": "ACTIVE",
+      "owner": "PARTICLE_MASS"
+    },
+    {
+      "exists": true,
+      "id": "noNull_evidence_checker_output.txt",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "noNull_evidence_seal.py",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "noNull_hess_h2fit_log.txt",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "noNull_stability_evidence.json",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "destination": "archive/pre_2026-07-01/phi_source_derivation.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_PHI_SOURCE_DERIVATION",
+      "id": "phi_source_derivation.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "exists": true,
+      "id": "r2_prereg_s_cas.py",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "destination": "archive/pre_2026-07-01/r2_prereg_s_dependence_LEAD.md",
+      "disposition": "NEEDS_MANUAL_ADJUDICATION",
+      "family_id": "F_R2_LEAD_MANUAL",
+      "id": "r2_prereg_s_dependence_LEAD.md",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "exists": true,
+      "id": "round_matter_reduction_results.md",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "destination": "research/macro/simple_metric_dotted_line.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_MACRO_DOTTED_OUTPUT",
+      "id": "simple_metric_dotted_line.py",
+      "kind": "candidate",
+      "lane_class": "ACTIVE",
+      "owner": "MACRO"
+    },
+    {
+      "exists": true,
+      "id": "simple_metric_dotted_line_out.json",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "destination": "research/macro/simple_metric_legacy_double_fix_side_excursion.md",
+      "disposition": "BLOCKED_TEST_SCOPE",
+      "family_id": "F_MACRO_LEGACY_TEST_SCOPE",
+      "id": "simple_metric_legacy_double_fix_side_excursion.md",
+      "kind": "candidate",
+      "lane_class": "ACTIVE",
+      "owner": "MACRO"
+    },
+    {
+      "destination": "research/macro/simple_metric_promising_candidates_zoom.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_MACRO_ZOOM_OUTPUT",
+      "id": "simple_metric_promising_candidates_zoom.py",
+      "kind": "candidate",
+      "lane_class": "ACTIVE",
+      "owner": "MACRO"
+    },
+    {
+      "exists": true,
+      "id": "simple_metric_promising_candidates_zoom_out.json",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "destination": "research/macro/simple_metric_relational_rooms_continue.py",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_MACRO_ROOMS_OUTPUT",
+      "id": "simple_metric_relational_rooms_continue.py",
+      "kind": "candidate",
+      "lane_class": "ACTIVE",
+      "owner": "MACRO"
+    },
+    {
+      "exists": true,
+      "id": "simple_metric_relational_rooms_continue_out.json",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "destination": "archive/pre_2026-07-01/solver_build_MAP.md",
+      "disposition": "NEEDS_MANUAL_ADJUDICATION",
+      "family_id": "F_SOLVER_MAP_MANUAL",
+      "id": "solver_build_MAP.md",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "exists": true,
+      "id": "spectral_cheb.py",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "spectral_sph_exact.py",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "stability_filter_miniMAP.md",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "stability_operator_results.md",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "destination": "archive/pre_2026-07-01/stageD_bv_forecast_check.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_STAGED_BV_FORECAST_CHECK",
+      "id": "stageD_bv_forecast_check.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "exists": true,
+      "id": "stageD_refine_pass2.json",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "stageD_scan_pass1.json",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "exists": true,
+      "id": "stageD_sweep_results_raw.json",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "destination": "archive/pre_2026-07-01/stageD_sweep_results_raw.md",
+      "disposition": "BLOCKED_IMMUTABLE_COMPANION",
+      "family_id": "F_STAGED_RAW_OUTPUT",
+      "id": "stageD_sweep_results_raw.md",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "exists": true,
+      "id": "twin_ladder_involution_results.md",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "destination": "research/macro/verify_center_escape.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_CENTER_ESCAPE",
+      "id": "verify_center_escape.py",
+      "kind": "candidate",
+      "lane_class": "ACTIVE",
+      "owner": "MACRO"
+    },
+    {
+      "destination": "research/macro/verify_center_nogo.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_CENTER_NOGO",
+      "id": "verify_center_nogo.py",
+      "kind": "candidate",
+      "lane_class": "ACTIVE",
+      "owner": "MACRO"
+    },
+    {
+      "destination": "research/macro/verify_eos_dS_window.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_EOS_DS_WINDOW",
+      "id": "verify_eos_dS_window.py",
+      "kind": "candidate",
+      "lane_class": "ACTIVE",
+      "owner": "MACRO"
+    },
+    {
+      "exists": true,
+      "id": "verify_f2d_reduction.py",
+      "kind": "reference_target",
+      "tracked": true
+    },
+    {
+      "destination": "archive/pre_2026-07-01/verify_redshift_profile_derivation.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_REDSHIFT_PROFILE_DERIVATION",
+      "id": "verify_redshift_profile_derivation.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/verify_sne_adversarial.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_VERIFY_SNE_RUNTIME",
+      "id": "verify_sne_adversarial.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/verify_universe_bv2_a_reduction.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_UNIVERSE_BV2_A_REDUCTION",
+      "id": "verify_universe_bv2_a_reduction.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/verify_universe_bv2_b_ident.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_UNIVERSE_BV2_B_IDENT",
+      "id": "verify_universe_bv2_b_ident.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/verify_universe_bv2_c_folds.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_UNIVERSE_BV2_C_FOLDS",
+      "id": "verify_universe_bv2_c_folds.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/verify_universe_bv2_d_budget.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_UNIVERSE_BV2_D_BUDGET",
+      "id": "verify_universe_bv2_d_budget.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/verify_universe_bv2_e_sigma.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_UNIVERSE_BV2_E_SIGMA",
+      "id": "verify_universe_bv2_e_sigma.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/verify_universe_bv2_f_einstein.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_UNIVERSE_BV2_F_EINSTEIN",
+      "id": "verify_universe_bv2_f_einstein.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/verify_universe_bv2_g_transv_toy.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_UNIVERSE_BV2_G_TRANSV_TOY",
+      "id": "verify_universe_bv2_g_transv_toy.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/verify_universe_bv4_q1_validate.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_UNIVERSE_BV4_RUNTIME",
+      "id": "verify_universe_bv4_q1_validate.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/verify_universe_bv4_q2_powers.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_UNIVERSE_BV4_RUNTIME",
+      "id": "verify_universe_bv4_q2_powers.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/verify_universe_bv4_q3_bisect.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_UNIVERSE_BV4_RUNTIME",
+      "id": "verify_universe_bv4_q3_bisect.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/verify_universe_bv4_q3_scan.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_UNIVERSE_BV4_RUNTIME",
+      "id": "verify_universe_bv4_q3_scan.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/verify_universe_bv4_q4_q5.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_UNIVERSE_BV4_RUNTIME",
+      "id": "verify_universe_bv4_q4_q5.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "archive/pre_2026-07-01/verify_universe_bv4_shoot.py",
+      "disposition": "BLOCKED_RUNTIME_OR_MISSING_INPUT",
+      "family_id": "F_UNIVERSE_BV4_RUNTIME",
+      "id": "verify_universe_bv4_shoot.py",
+      "kind": "candidate",
+      "lane_class": "LEGACY",
+      "owner": "LEGACY_FROZEN"
+    },
+    {
+      "destination": "research/macro/verify_wrl_canon.py",
+      "disposition": "SAFE_BYTE_IDENTICAL",
+      "family_id": "F_SAFE_VERIFY_WRL_CANON",
+      "id": "verify_wrl_canon.py",
+      "kind": "candidate",
+      "lane_class": "ACTIVE",
+      "owner": "MACRO"
+    }
+  ],
+  "schema": "R1E_ATOMIC_FAMILY_GRAPH_V1"
+}

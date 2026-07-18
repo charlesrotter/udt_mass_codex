@@ -1,0 +1,95 @@
+{
+  "atomic_families": 71,
+  "base": "b59005dba9acaf6c575185876655bd6a5c792094",
+  "candidate_ledger_rows": 119,
+  "candidate_universe": {
+    "last_modified_commit": "2755abb",
+    "rows": 119,
+    "sha256": "7fc413f8046de195f56424b12fa6607fed690dbd0a72064f5118e9c958f47141"
+  },
+  "catchproof": {
+    "active_legacy_mixed_batch_rejected": "PASS",
+    "destination_collision_rejected": "PASS",
+    "duplicate_candidate_rejected": "PASS",
+    "immutable_companion_rejected": "PASS",
+    "missing_candidate_rejected": "PASS",
+    "split_dependency_component_rejected": "PASS",
+    "stale_current_pointer_rejected": "PASS",
+    "unresolved_runtime_path_rejected": "PASS"
+  },
+  "current_artifact_paths": {
+    "rows": 1114,
+    "unique_current_paths": 1114
+  },
+  "dirty_content_policy": "NOT_READ",
+  "dirty_workstation_rows_metadata_only": 54,
+  "disposition_counts": {
+    "BLOCKED_IMMUTABLE_COMPANION": 37,
+    "BLOCKED_RUNTIME_OR_MISSING_INPUT": 42,
+    "BLOCKED_TEST_SCOPE": 1,
+    "NEEDS_MANUAL_ADJUDICATION": 3,
+    "SAFE_BYTE_IDENTICAL": 36
+  },
+  "frontier_rows": 306,
+  "frontier_unique_targets": 101,
+  "frozen_manifest_replays": [
+    {
+      "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+      "package": "native_action_stage1_2026-07-18/arm_A",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 30
+    },
+    {
+      "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+      "package": "native_action_stage1_2026-07-18/arm_B",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 16
+    },
+    {
+      "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+      "package": "native_action_stage2_2026-07-18/arm_A",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 14
+    },
+    {
+      "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+      "package": "native_action_stage2_2026-07-18/arm_B",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 14
+    },
+    {
+      "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+      "package": "native_action_arm_c_2026-07-18",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 22
+    },
+    {
+      "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+      "package": "native_action_final_adjudication_2026-07-18",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 37
+    }
+  ],
+  "markdown_links_verified": 73,
+  "migration_authorized": false,
+  "mode": "R1E_BATCH_PLAN_EXTERNAL_FAIL_CLOSED_VERIFY",
+  "plan_only_diff_paths": 21,
+  "proposed_batches": {
+    "B01_ACTIVE_MACRO_SYMPY_QUARTET": 4,
+    "B02_LEGACY_STANDALONE_ALGEBRA_A": 18,
+    "B03_LEGACY_STANDALONE_ALGEBRA_B": 14
+  },
+  "research_artifact_moves_or_edits": 0,
+  "result": "PASS",
+  "test_baseline": {
+    "baseline_match": true,
+    "command": "python3 -m pytest tests/",
+    "expected_failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "failed": 1,
+    "passed": 69,
+    "python": "3.10.12",
+    "returncode": 1,
+    "scope": "R1E_BATCH_PLAN",
+    "xfailed": 1
+  }
+}

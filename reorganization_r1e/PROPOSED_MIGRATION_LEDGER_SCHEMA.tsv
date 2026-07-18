@@ -1,0 +1,18 @@
+ordinal	column	required	semantics	allowed_or_format
+1	migration_id	YES	globally unique append-only event identifier	R1F-YYYYMMDD-NNN
+2	committed_at_utc	YES	commit timestamp in UTC	ISO-8601
+3	phase	YES	authorized migration phase	R1F_OR_LATER
+4	batch_id	YES	preregistered batch identifier	non-empty
+5	original_path	YES	fixed-base artifact identity	CURRENT_ARTIFACT_PATHS.original_path
+6	old_current_path	YES	path immediately before migration	tracked path
+7	new_current_path	YES	path immediately after migration	tracked path
+8	rename_score	YES	Git rename identity	R100
+9	git_blob_oid_before	YES	pre-move blob	40 hex
+10	git_blob_oid_after	YES	post-move blob	same as before
+11	sha256_before	YES	pre-move bytes	64 hex
+12	sha256_after	YES	post-move bytes	same unless separately authorized pointer-only source
+13	pointer_change_record	YES	exact path-only changes outside fixed history	path:before_sha:after_sha or NONE
+14	verification_record	YES	machine verification artifact	tracked relative path
+15	commit	YES	migration commit	40 hex
+16	rollback_parent	YES	parent restoring pre-migration tree	40 hex
+17	notes	NO	non-authoritative operational note	single line

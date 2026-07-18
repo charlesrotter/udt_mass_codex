@@ -1,0 +1,386 @@
+candidate_path	line	evidence_type	raw_target	resolved_target	status	load_bearing	detail
+cascade_bv10_cas.py	4	TEXT_REFERENCE	cell_solver_universe_T3.py	cell_solver_universe_T3.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_bv10_reshoot.py	0	REQUIRED_COMPANION	cascade_stageC_lib.py	cascade_stageC_lib.py	NOT_FROZEN_OR_MANIFEST	YES	imports retained root solver libraries and generates a root-relative NPY
+cascade_bv10_reshoot.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	imports retained root solver libraries and generates a root-relative NPY
+cascade_bv10_reshoot.py	9	PYTHON_IMPORT	cell_solver_universe_T3	cell_solver_universe_T3.py	TRACKED_COMPANION	YES	AST import closure
+cascade_bv10_reshoot.py	10	PYTHON_IMPORT	cascade_stageC_lib	cascade_stageC_lib.py	TRACKED_COMPANION	YES	AST import closure
+cascade_bv10_reshoot.py	97	RUNTIME_FILE_PATH	bv10_reshoot_results.npy	bv10_reshoot_results.npy	DYNAMIC	YES	np.save
+cascade_bv11_lib.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	unprefixed bv11_lib import, hard-coded root module load, and producer/output closure are unresolved
+cascade_bv11_lib.py	16	TEXT_REFERENCE	cell_solver_universe_T3.py	cell_solver_universe_T3.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_bv11_v1_root.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	unprefixed bv11_lib import, hard-coded root module load, and producer/output closure are unresolved
+cascade_bv11_v1_root.py	5	PYTHON_IMPORT	bv11_lib	cascade_bv11_lib.py	CANDIDATE_ALIAS	YES	AST import closure
+cascade_bv11_v1_root.py	48	RUNTIME_FILE_PATH	bv11_fundamental_traj.npz	bv11_fundamental_traj.npz	MISSING_OR_GENERATED	YES	np.savez
+cascade_bv11_v1_root.py	50	RUNTIME_FILE_PATH	{'dstar': dstar, 'astar': astar, 'suite100k': d100, 'suite200k': {k: d200[k] for k in d200 if k not in ()}, 'shots': L.SHOTS['n']}	{'dstar': dstar, 'astar': astar, 'suite100k': d100, 'suite200k': {k: d200[k] for k in d200 if k not in ()}, 'shots': L.SHOTS['n']}	DYNAMIC	YES	json.dump
+cascade_bv11_v1_root.py	52	RUNTIME_FILE_PATH	bv11_root.json	bv11_root.json	MISSING_OR_GENERATED	YES	open
+cascade_bv11_v1_tolcheck.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	unprefixed bv11_lib import, hard-coded root module load, and producer/output closure are unresolved
+cascade_bv11_v1_tolcheck.py	5	PYTHON_IMPORT	bv11_lib	cascade_bv11_lib.py	CANDIDATE_ALIAS	YES	AST import closure
+cascade_bv11_v2_desert.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	unprefixed bv11_lib import, hard-coded root module load, and producer/output closure are unresolved
+cascade_bv11_v2_desert.py	5	PYTHON_IMPORT	bv11_lib	cascade_bv11_lib.py	CANDIDATE_ALIAS	YES	AST import closure
+cascade_bv11_v3_cap.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	unprefixed bv11_lib import, hard-coded root module load, and producer/output closure are unresolved
+cascade_bv11_v3_cap.py	68	RUNTIME_FILE_PATH	bv11_fundamental_traj.npz	bv11_fundamental_traj.npz	MISSING_OR_GENERATED	YES	np.load
+cascade_bv13_su_trans.py	9	RUNTIME_FILE_PATH	bv13_bg.npz	bv13_bg.npz	MISSING_OR_GENERATED	YES	np.load
+cascade_bv13_su_trans.py	10	RUNTIME_FILE_PATH	bv13_bg.json	bv13_bg.json	MISSING_OR_GENERATED	YES	open
+cascade_bv13_su_trans.py	10	RUNTIME_FILE_PATH	open('bv13_bg.json')	open('bv13_bg.json')	DYNAMIC	YES	json.load
+cascade_bv13_vhat_probe.py	11	RUNTIME_FILE_PATH	bv13_bg.npz	bv13_bg.npz	MISSING_OR_GENERATED	YES	np.load
+cascade_bv13_vhat_probe.py	12	RUNTIME_FILE_PATH	bv13_bg.json	bv13_bg.json	MISSING_OR_GENERATED	YES	open
+cascade_bv13_vhat_probe.py	12	RUNTIME_FILE_PATH	open('bv13_bg.json')	open('bv13_bg.json')	DYNAMIC	YES	json.load
+cascade_bv14_counts.py	0	REQUIRED_COMPANION	cascade_bv14_lib.py	cascade_bv14_lib.py	NOT_FROZEN_OR_MANIFEST	YES	unprefixed bv14_lib import and dynamic SCR ledger/output paths
+cascade_bv14_counts.py	77	RUNTIME_FILE_PATH	SCR	SCR	DYNAMIC	YES	os.path.join
+cascade_bv14_counts.py	77	RUNTIME_FILE_PATH	os.path.join(SCR, f'bv14_counts_{tag}.json')	os.path.join(SCR, f'bv14_counts_{tag}.json')	DYNAMIC	YES	open
+cascade_bv14_counts.py	78	RUNTIME_FILE_PATH	out	out	DYNAMIC	YES	json.dump
+cascade_bv14_spare_a_sens.py	0	REQUIRED_COMPANION	cascade_bv14_lib.py	cascade_bv14_lib.py	NOT_FROZEN_OR_MANIFEST	YES	unprefixed bv14_lib import and dynamic SCR ledger/output paths
+cascade_bv14_spare_a_sens.py	55	RUNTIME_FILE_PATH	SCR	SCR	DYNAMIC	YES	os.path.join
+cascade_bv14_spare_a_sens.py	55	RUNTIME_FILE_PATH	open(os.path.join(SCR, 'bv14_shot_ledger.json'))	open(os.path.join(SCR, 'bv14_shot_ledger.json'))	DYNAMIC	YES	json.load
+cascade_bv14_spare_a_sens.py	55	RUNTIME_FILE_PATH	os.path.join(SCR, 'bv14_shot_ledger.json')	os.path.join(SCR, 'bv14_shot_ledger.json')	DYNAMIC	YES	open
+cascade_bv14_spare_a_sens.py	58	RUNTIME_FILE_PATH	SCR	SCR	DYNAMIC	YES	os.path.join
+cascade_bv14_spare_a_sens.py	58	RUNTIME_FILE_PATH	led	led	DYNAMIC	YES	json.dump
+cascade_bv14_spare_a_sens.py	58	RUNTIME_FILE_PATH	os.path.join(SCR, 'bv14_shot_ledger.json')	os.path.join(SCR, 'bv14_shot_ledger.json')	DYNAMIC	YES	open
+cascade_bv14_su.py	0	REQUIRED_COMPANION	cascade_bv14_lib.py	cascade_bv14_lib.py	NOT_FROZEN_OR_MANIFEST	YES	unprefixed bv14_lib import and dynamic SCR ledger/output paths
+cascade_bv14_su.py	60	RUNTIME_FILE_PATH	SCR	SCR	DYNAMIC	YES	os.path.join
+cascade_bv14_su.py	60	RUNTIME_FILE_PATH	os.path.join(SCR, f'bv14_su_{tag}_M{Mg}.json')	os.path.join(SCR, f'bv14_su_{tag}_M{Mg}.json')	DYNAMIC	YES	open
+cascade_bv14_su.py	61	RUNTIME_FILE_PATH	out	out	DYNAMIC	YES	json.dump
+cascade_bv14_summary.py	0	REQUIRED_COMPANION	cascade_bv14_lib.py	cascade_bv14_lib.py	NOT_FROZEN_OR_MANIFEST	YES	unprefixed bv14_lib import and dynamic SCR ledger/output paths
+cascade_bv14_tolsweep.py	0	REQUIRED_COMPANION	cascade_bv14_lib.py	cascade_bv14_lib.py	NOT_FROZEN_OR_MANIFEST	YES	unprefixed bv14_lib import and dynamic SCR ledger/output paths
+cascade_bv14_validate.py	0	REQUIRED_COMPANION	cascade_bv14_lib.py	cascade_bv14_lib.py	NOT_FROZEN_OR_MANIFEST	YES	unprefixed bv14_lib import and dynamic SCR ledger/output paths
+cascade_bv15_asm.py	2	TEXT_REFERENCE	stability_operator_results.md	stability_operator_results.md	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_bv15_asm.py	34	RUNTIME_FILE_PATH	SCR	SCR	DYNAMIC	YES	os.path.join
+cascade_bv15_asm.py	34	RUNTIME_FILE_PATH	os.path.join(SCR, f'bv15_bg_{tag}.pkl')	os.path.join(SCR, f'bv15_bg_{tag}.pkl')	DYNAMIC	YES	open
+cascade_bv15_x1_ladder.py	11	PYTHON_IMPORT	bv15_asm	cascade_bv15_asm.py	CANDIDATE_ALIAS	YES	AST import closure
+cascade_bv15_x1_ladder.py	40	RUNTIME_FILE_PATH	SCR	SCR	DYNAMIC	YES	os.path.join
+cascade_bv15_x1_ladder.py	41	RUNTIME_FILE_PATH	fn	fn	DYNAMIC	YES	open
+cascade_bv15_x1_ladder.py	41	RUNTIME_FILE_PATH	open(fn)	open(fn)	DYNAMIC	YES	json.load
+cascade_bv15_x1_ladder.py	70	RUNTIME_FILE_PATH	fn	fn	DYNAMIC	YES	open
+cascade_bv15_x1_ladder.py	70	RUNTIME_FILE_PATH	res	res	DYNAMIC	YES	json.dump
+cascade_bv15_x1_validate.py	12	PYTHON_IMPORT	bv15_asm	cascade_bv15_asm.py	CANDIDATE_ALIAS	YES	AST import closure
+cascade_bv15_x1_validate.py	126	RUNTIME_FILE_PATH	SCR	SCR	DYNAMIC	YES	os.path.join
+cascade_bv15_x1_validate.py	126	RUNTIME_FILE_PATH	os.path.join(SCR, 'bv15_x1_validate.json')	os.path.join(SCR, 'bv15_x1_validate.json')	DYNAMIC	YES	open
+cascade_bv15_x1_validate.py	126	RUNTIME_FILE_PATH	out	out	DYNAMIC	YES	json.dump
+cascade_bv15_x2_anatomy.py	14	PYTHON_IMPORT	bv15_asm	cascade_bv15_asm.py	CANDIDATE_ALIAS	YES	AST import closure
+cascade_bv15_x2_anatomy.py	133	RUNTIME_FILE_PATH	SCR	SCR	DYNAMIC	YES	os.path.join
+cascade_bv15_x2_anatomy.py	133	RUNTIME_FILE_PATH	os.path.join(SCR, f'bv15_x2_anatomy_{tag}.json')	os.path.join(SCR, f'bv15_x2_anatomy_{tag}.json')	DYNAMIC	YES	open
+cascade_bv15_x2_anatomy.py	133	RUNTIME_FILE_PATH	out	out	DYNAMIC	YES	json.dump
+cascade_bv15_x3_c2.py	6	PYTHON_IMPORT	bv15_asm	cascade_bv15_asm.py	CANDIDATE_ALIAS	YES	AST import closure
+cascade_bv15_x3_c2.py	42	RUNTIME_FILE_PATH	SCR	SCR	DYNAMIC	YES	os.path.join
+cascade_bv15_x3_c2.py	42	RUNTIME_FILE_PATH	os.path.join(SCR, 'bv15_x3_c2.json')	os.path.join(SCR, 'bv15_x3_c2.json')	DYNAMIC	YES	open
+cascade_bv15_x3_c2.py	42	RUNTIME_FILE_PATH	out	out	DYNAMIC	YES	json.dump
+cascade_bv5_c1_scan.py	4	PYTHON_IMPORT	bv5_common	cascade_bv5_common.py	CANDIDATE_ALIAS	YES	AST import closure
+cascade_bv5_c1_scan.py	36	RUNTIME_FILE_PATH	bv5_c1_scan.json	bv5_c1_scan.json	MISSING_OR_GENERATED	YES	open
+cascade_bv5_c1_scan.py	37	RUNTIME_FILE_PATH	results	results	DYNAMIC	YES	json.dump
+cascade_bv5_c1c2c3_roots.py	6	PYTHON_IMPORT	bv5_common	cascade_bv5_common.py	CANDIDATE_ALIAS	YES	AST import closure
+cascade_bv5_c1c2c3_roots.py	102	RUNTIME_FILE_PATH	bv5_roots_first.json	bv5_roots_first.json	MISSING_OR_GENERATED	YES	open
+cascade_bv5_c1c2c3_roots.py	103	RUNTIME_FILE_PATH	out	out	DYNAMIC	YES	json.dump
+cascade_bv5_c4_bigN.py	6	PYTHON_IMPORT	bv5_common	cascade_bv5_common.py	CANDIDATE_ALIAS	YES	AST import closure
+cascade_bv5_c4_bigN.py	84	RUNTIME_FILE_PATH	bv5_c4_bigN.json	bv5_c4_bigN.json	MISSING_OR_GENERATED	YES	open
+cascade_bv5_c4_bigN.py	85	RUNTIME_FILE_PATH	res	res	DYNAMIC	YES	json.dump
+cascade_bv5_c4_floor_audit.py	5	PYTHON_IMPORT	bv5_common	cascade_bv5_common.py	CANDIDATE_ALIAS	YES	AST import closure
+cascade_bv5_c5_stuck.py	3	PYTHON_IMPORT	bv5_common	cascade_bv5_common.py	CANDIDATE_ALIAS	YES	AST import closure
+cascade_bv5_common.py	2	TEXT_REFERENCE	cell_solver_universe_T3.py	cell_solver_universe_T3.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_bv6_c1_refine.py	0	REQUIRED_COMPANION	cascade_bv6_lib.py	cascade_bv6_lib.py	NOT_FROZEN_OR_MANIFEST	YES	retained library plus sweep/refine producer-output chain must move together
+cascade_bv6_c1_refine.py	6	RUNTIME_FILE_PATH	bv6_c1_sweep.json	bv6_c1_sweep.json	MISSING_OR_GENERATED	YES	open
+cascade_bv6_c1_refine.py	6	RUNTIME_FILE_PATH	open('bv6_c1_sweep.json')	open('bv6_c1_sweep.json')	DYNAMIC	YES	json.load
+cascade_bv6_c1_refine.py	38	RUNTIME_FILE_PATH	{'roots': [{k: v if not isinstance(v, np.ndarray) else v.tolist() for (k, v) in r.items()} for r in out], 'shots_this_proc': SHOTS['n']}	{'roots': [{k: v if not isinstance(v, np.ndarray) else v.tolist() for (k, v) in r.items()} for r in out], 'shots_this_proc': SHOTS['n']}	DYNAMIC	YES	json.dump
+cascade_bv6_c1_refine.py	41	RUNTIME_FILE_PATH	bv6_c1_roots.json	bv6_c1_roots.json	MISSING_OR_GENERATED	YES	open
+cascade_bv6_c1_sweep.py	0	REQUIRED_COMPANION	cascade_bv6_lib.py	cascade_bv6_lib.py	NOT_FROZEN_OR_MANIFEST	YES	retained library plus sweep/refine producer-output chain must move together
+cascade_bv6_c1_sweep.py	27	RUNTIME_FILE_PATH	{'rows': rows, 'shots': SHOTS['n'], 'grid_ratio': ratio}	{'rows': rows, 'shots': SHOTS['n'], 'grid_ratio': ratio}	DYNAMIC	YES	json.dump
+cascade_bv6_c1_sweep.py	28	RUNTIME_FILE_PATH	bv6_c1_sweep.json	bv6_c1_sweep.json	MISSING_OR_GENERATED	YES	open
+cascade_bv6_probe.py	0	REQUIRED_COMPANION	cascade_bv6_lib.py	cascade_bv6_lib.py	NOT_FROZEN_OR_MANIFEST	YES	retained library plus sweep/refine producer-output chain must move together
+cascade_bv6_xcheck.py	0	REQUIRED_COMPANION	cascade_bv6_lib.py	cascade_bv6_lib.py	NOT_FROZEN_OR_MANIFEST	YES	retained library plus sweep/refine producer-output chain must move together
+cascade_bv6_xcheck.py	77	RUNTIME_FILE_PATH	res | {'interleave_pattern_N7': pattern, 'shots_this_proc': SHOTS['n']}	res | {'interleave_pattern_N7': pattern, 'shots_this_proc': SHOTS['n']}	DYNAMIC	YES	json.dump
+cascade_bv6_xcheck.py	78	RUNTIME_FILE_PATH	bv6_xcheck.json	bv6_xcheck.json	MISSING_OR_GENERATED	YES	open
+cascade_bv7_t1_refine.py	0	REQUIRED_COMPANION	cascade_bv7_core.py	cascade_bv7_core.py	NOT_FROZEN_OR_MANIFEST	YES	retained core module and missing sweep input block the root-relative chain
+cascade_bv7_t1_refine.py	6	RUNTIME_FILE_PATH	bv7_t1_sweep.json	bv7_t1_sweep.json	MISSING_OR_GENERATED	YES	open
+cascade_bv7_t1_refine.py	6	RUNTIME_FILE_PATH	open('bv7_t1_sweep.json')	open('bv7_t1_sweep.json')	DYNAMIC	YES	json.load
+cascade_bv7_t1_refine.py	38	RUNTIME_FILE_PATH	[{k: v for (k, v) in r.items() if k != 'diag_str'} for r in results]	[{k: v for (k, v) in r.items() if k != 'diag_str'} for r in results]	DYNAMIC	YES	json.dump
+cascade_bv7_t1_refine.py	39	RUNTIME_FILE_PATH	bv7_t1_roots.json	bv7_t1_roots.json	MISSING_OR_GENERATED	YES	open
+cascade_bv7_t2.py	0	REQUIRED_COMPANION	cascade_bv7_core.py	cascade_bv7_core.py	NOT_FROZEN_OR_MANIFEST	YES	retained core module and missing sweep input block the root-relative chain
+cascade_bv7_t2.py	70	RUNTIME_FILE_PATH	bv7_t1_roots.json	bv7_t1_roots.json	MISSING_OR_GENERATED	YES	open
+cascade_bv7_t2.py	70	RUNTIME_FILE_PATH	open('bv7_t1_roots.json')	open('bv7_t1_roots.json')	DYNAMIC	YES	json.load
+cascade_bv7_t3.py	0	REQUIRED_COMPANION	cascade_bv7_core.py	cascade_bv7_core.py	NOT_FROZEN_OR_MANIFEST	YES	retained core module and missing sweep input block the root-relative chain
+cascade_bv7_validate.py	0	REQUIRED_COMPANION	cascade_bv7_core.py	cascade_bv7_core.py	NOT_FROZEN_OR_MANIFEST	YES	retained core module and missing sweep input block the root-relative chain
+cascade_bv9_reshoot_Z1.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	retained universe solver and dynamic table-input set are outside the candidates
+cascade_bv9_reshoot_Z1.py	10	PYTHON_IMPORT	cell_solver_universe_T3	cell_solver_universe_T3.py	TRACKED_COMPANION	YES	AST import closure
+cascade_bv9_tables.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	retained universe solver and dynamic table-input set are outside the candidates
+cascade_bv9_tables.py	16	RUNTIME_FILE_PATH	f'{REPO}/{f}'	f'{REPO}/{f}'	DYNAMIC	YES	open
+cascade_bv9_tables.py	16	RUNTIME_FILE_PATH	open(f'{REPO}/{f}')	open(f'{REPO}/{f}')	DYNAMIC	YES	json.load
+cascade_bv9_tables.py	21	TEXT_REFERENCE	cascade_stageC_c1_A1m2_Z8.json	cascade_stageC_c1_A1m2_Z8.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_bv9_tables.py	22	TEXT_REFERENCE	cascade_stageC_c3_A2k3_Z8.json	cascade_stageC_c3_A2k3_Z8.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_bv9_tables.py	23	TEXT_REFERENCE	cascade_stageC_c4_A3_Z8.json	cascade_stageC_c4_A3_Z8.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_bv9_tables.py	24	TEXT_REFERENCE	cascade_stageC_c5_A1m4_Z8.json	cascade_stageC_c5_A1m4_Z8.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_bv9_tables.py	25	TEXT_REFERENCE	cascade_stageC_c2_A1m3_Z1.json	cascade_stageC_c2_A1m3_Z1.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_bv9_tables.py	36	TEXT_REFERENCE	cascade_stageB_rungs.json	cascade_stageB_rungs.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_lemD_bessel.py	0	REQUIRED_COMPANION	cascade_stageB_rungs.json	cascade_stageB_rungs.json	R0_FROZEN_EVIDENCE	YES	retained solver and frozen stage-B output are runtime inputs
+cascade_lemD_bessel.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	retained solver and frozen stage-B output are runtime inputs
+cascade_lemD_bessel.py	31	PYTHON_IMPORT	cell_solver_universe_T3	cell_solver_universe_T3.py	TRACKED_COMPANION	YES	AST import closure
+cascade_lemD_cas.py	3	TEXT_REFERENCE	cell_solver_universe_T3.py	cell_solver_universe_T3.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_lemD_final.py	0	REQUIRED_COMPANION	cascade_stageB_rungs.json	cascade_stageB_rungs.json	R0_FROZEN_EVIDENCE	YES	retained solver and frozen stage-B output are runtime inputs
+cascade_lemD_final.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	retained solver and frozen stage-B output are runtime inputs
+cascade_lemD_final.py	26	TEXT_REFERENCE	cascade_stageC_c1_A1m2_Z8.json	cascade_stageC_c1_A1m2_Z8.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_lemD_final.py	27	TEXT_REFERENCE	cascade_stageC_c3_A2k3_Z8.json	cascade_stageC_c3_A2k3_Z8.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_lemD_final.py	28	TEXT_REFERENCE	cascade_stageC_c4_A3_Z8.json	cascade_stageC_c4_A3_Z8.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_lemD_final.py	29	TEXT_REFERENCE	cascade_stageC_c5_A1m4_Z8.json	cascade_stageC_c5_A1m4_Z8.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_lemD_final.py	30	TEXT_REFERENCE	cascade_stageB_rungs.json	cascade_stageB_rungs.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_lemD_final.py	31	TEXT_REFERENCE	cascade_stageC_c2_A1m3_Z1.json	cascade_stageC_c2_A1m3_Z1.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_lemD_final.py	72	RUNTIME_FILE_PATH	BASE + f	BASE + f	DYNAMIC	YES	open
+cascade_lemD_final.py	72	RUNTIME_FILE_PATH	open(BASE + f)	open(BASE + f)	DYNAMIC	YES	json.load
+cascade_lemD_final.py	98	PYTHON_IMPORT	cell_solver_universe_T3	cell_solver_universe_T3.py	TRACKED_COMPANION	YES	AST import closure
+cascade_lemD_reshoot.py	0	REQUIRED_COMPANION	cascade_stageB_rungs.json	cascade_stageB_rungs.json	R0_FROZEN_EVIDENCE	YES	retained solver and frozen stage-B output are runtime inputs
+cascade_lemD_reshoot.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	retained solver and frozen stage-B output are runtime inputs
+cascade_lemD_reshoot.py	13	PYTHON_IMPORT	cell_solver_universe_T3	cell_solver_universe_T3.py	TRACKED_COMPANION	YES	AST import closure
+cascade_lemD_table.py	0	REQUIRED_COMPANION	cascade_stageB_rungs.json	cascade_stageB_rungs.json	R0_FROZEN_EVIDENCE	YES	retained solver and frozen stage-B output are runtime inputs
+cascade_lemD_table.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	retained solver and frozen stage-B output are runtime inputs
+cascade_lemD_table.py	37	TEXT_REFERENCE	cascade_stageC_c1_A1m2_Z8.json	cascade_stageC_c1_A1m2_Z8.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_lemD_table.py	38	TEXT_REFERENCE	cascade_stageC_c2_A1m3_Z1.json	cascade_stageC_c2_A1m3_Z1.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_lemD_table.py	39	TEXT_REFERENCE	cascade_stageC_c3_A2k3_Z8.json	cascade_stageC_c3_A2k3_Z8.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_lemD_table.py	40	TEXT_REFERENCE	cascade_stageC_c4_A3_Z8.json	cascade_stageC_c4_A3_Z8.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_lemD_table.py	41	TEXT_REFERENCE	cascade_stageC_c5_A1m4_Z8.json	cascade_stageC_c5_A1m4_Z8.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_lemD_table.py	42	RUNTIME_FILE_PATH	BASE + f	BASE + f	DYNAMIC	YES	open
+cascade_lemD_table.py	42	RUNTIME_FILE_PATH	open(BASE + f)	open(BASE + f)	DYNAMIC	YES	json.load
+cascade_lemD_table.py	43	RUNTIME_FILE_PATH	BASE + 'cascade_stageB_rungs.json'	BASE + 'cascade_stageB_rungs.json'	DYNAMIC	YES	open
+cascade_lemD_table.py	43	RUNTIME_FILE_PATH	open(BASE + 'cascade_stageB_rungs.json')	open(BASE + 'cascade_stageB_rungs.json')	DYNAMIC	YES	json.load
+cascade_lemD_table.py	43	TEXT_REFERENCE	cascade_stageB_rungs.json	cascade_stageB_rungs.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_or_energy_cas.py	7	TEXT_REFERENCE	cell_solver_universe_T3.py	cell_solver_universe_T3.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_or_energy_numeric.py	0	REQUIRED_COMPANION	cascade_stageB_rungs.json	cascade_stageB_rungs.json	R0_FROZEN_EVIDENCE	YES	hard-coded root stage-B output and retained solver are runtime inputs
+cascade_or_energy_numeric.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	hard-coded root stage-B output and retained solver are runtime inputs
+cascade_or_energy_numeric.py	1	TEXT_REFERENCE	cascade_stageB_rungs.json	cascade_stageB_rungs.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_or_energy_numeric.py	12	PYTHON_IMPORT	cell_solver_universe_T3	cell_solver_universe_T3.py	TRACKED_COMPANION	YES	AST import closure
+cascade_or_energy_numeric.py	14	RUNTIME_FILE_PATH	/home/udt-admin/udt_mass_codex/cascade_stageB_rungs.json	/home/udt-admin/udt_mass_codex/cascade_stageB_rungs.json	ABSOLUTE_EXTERNAL	YES	open
+cascade_or_energy_numeric.py	14	RUNTIME_FILE_PATH	open('/home/udt-admin/udt_mass_codex/cascade_stageB_rungs.json')	open('/home/udt-admin/udt_mass_codex/cascade_stageB_rungs.json')	DYNAMIC	YES	json.load
+cascade_or_energy_rung1_and_alignment.py	0	REQUIRED_COMPANION	cascade_stageB_rungs.json	cascade_stageB_rungs.json	R0_FROZEN_EVIDENCE	YES	hard-coded root stage-B output and retained solver are runtime inputs
+cascade_or_energy_rung1_and_alignment.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	hard-coded root stage-B output and retained solver are runtime inputs
+cascade_or_energy_rung1_and_alignment.py	19	PYTHON_IMPORT	cell_solver_universe_T3	cell_solver_universe_T3.py	TRACKED_COMPANION	YES	AST import closure
+cascade_or_energy_rung1_and_alignment.py	21	RUNTIME_FILE_PATH	/home/udt-admin/udt_mass_codex/cascade_stageB_rungs.json	/home/udt-admin/udt_mass_codex/cascade_stageB_rungs.json	ABSOLUTE_EXTERNAL	YES	open
+cascade_or_energy_rung1_and_alignment.py	21	RUNTIME_FILE_PATH	open('/home/udt-admin/udt_mass_codex/cascade_stageB_rungs.json')	open('/home/udt-admin/udt_mass_codex/cascade_stageB_rungs.json')	DYNAMIC	YES	json.load
+cascade_or_energy_rung1_and_alignment.py	21	TEXT_REFERENCE	cascade_stageB_rungs.json	cascade_stageB_rungs.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_s2_aggregate.py	9	RUNTIME_FILE_PATH	SCRATCH	SCRATCH	DYNAMIC	YES	os.path.join
+cascade_s2_aggregate.py	10	RUNTIME_FILE_PATH	f	f	DYNAMIC	YES	open
+cascade_s2_aggregate.py	10	RUNTIME_FILE_PATH	open(f)	open(f)	DYNAMIC	YES	json.load
+cascade_s2_aggregate.py	156	RUNTIME_FILE_PATH	SCRATCH	SCRATCH	DYNAMIC	YES	os.path.join
+cascade_s2_aggregate.py	156	RUNTIME_FILE_PATH	os.path.join(SCRATCH, 's2_final_table.json')	os.path.join(SCRATCH, 's2_final_table.json')	DYNAMIC	YES	open
+cascade_s2_aggregate.py	156	RUNTIME_FILE_PATH	{t: R[t] for t in ORDER}	{t: R[t] for t in ORDER}	DYNAMIC	YES	json.dump
+cascade_s2_aggregate.py	159	RUNTIME_FILE_PATH	SCRATCH	SCRATCH	DYNAMIC	YES	os.path.join
+cascade_s2_aggregate.py	159	RUNTIME_FILE_PATH	open(os.path.join(SCRATCH, 's2_shot_log.json'))	open(os.path.join(SCRATCH, 's2_shot_log.json'))	DYNAMIC	YES	json.load
+cascade_s2_aggregate.py	159	RUNTIME_FILE_PATH	os.path.join(SCRATCH, 's2_shot_log.json')	os.path.join(SCRATCH, 's2_shot_log.json')	DYNAMIC	YES	open
+cascade_s2_core.py	3	TEXT_REFERENCE	stability_filter_miniMAP.md	stability_filter_miniMAP.md	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_s2_core.py	3	TEXT_REFERENCE	stability_operator_results.md	stability_operator_results.md	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_s2_core.py	4	TEXT_REFERENCE	cascade_bv13_matrices2.py	cascade_bv13_matrices2.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_s2_core.py	18	PYTHON_IMPORT	cell_solver_universe_T3	cell_solver_universe_T3.py	TRACKED_COMPANION	YES	AST import closure
+cascade_s2_core.py	27	RUNTIME_FILE_PATH	REPO	REPO	DYNAMIC	YES	os.path.join
+cascade_s2_core.py	27	RUNTIME_FILE_PATH	open(os.path.join(REPO, 'cascade_stageB_rungs.json'))	open(os.path.join(REPO, 'cascade_stageB_rungs.json'))	DYNAMIC	YES	json.load
+cascade_s2_core.py	27	RUNTIME_FILE_PATH	os.path.join(REPO, 'cascade_stageB_rungs.json')	os.path.join(REPO, 'cascade_stageB_rungs.json')	DYNAMIC	YES	open
+cascade_s2_core.py	27	TEXT_REFERENCE	cascade_stageB_rungs.json	cascade_stageB_rungs.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_s2_core.py	41	TEXT_REFERENCE	twin_ladder_involution_results.md	twin_ladder_involution_results.md	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_s2_core.py	45	RUNTIME_FILE_PATH	REPO	REPO	DYNAMIC	YES	os.path.join
+cascade_s2_core.py	45	RUNTIME_FILE_PATH	open(os.path.join(REPO, 'cascade_stageC_c1_A1m2_Z8.json'))	open(os.path.join(REPO, 'cascade_stageC_c1_A1m2_Z8.json'))	DYNAMIC	YES	json.load
+cascade_s2_core.py	45	RUNTIME_FILE_PATH	os.path.join(REPO, 'cascade_stageC_c1_A1m2_Z8.json')	os.path.join(REPO, 'cascade_stageC_c1_A1m2_Z8.json')	DYNAMIC	YES	open
+cascade_s2_core.py	45	TEXT_REFERENCE	cascade_stageC_c1_A1m2_Z8.json	cascade_stageC_c1_A1m2_Z8.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_s2_core.py	48	RUNTIME_FILE_PATH	REPO	REPO	DYNAMIC	YES	os.path.join
+cascade_s2_core.py	48	RUNTIME_FILE_PATH	open(os.path.join(REPO, 'cascade_stageC_c2_A1m3_Z1.json'))	open(os.path.join(REPO, 'cascade_stageC_c2_A1m3_Z1.json'))	DYNAMIC	YES	json.load
+cascade_s2_core.py	48	RUNTIME_FILE_PATH	os.path.join(REPO, 'cascade_stageC_c2_A1m3_Z1.json')	os.path.join(REPO, 'cascade_stageC_c2_A1m3_Z1.json')	DYNAMIC	YES	open
+cascade_s2_core.py	48	TEXT_REFERENCE	cascade_stageC_c2_A1m3_Z1.json	cascade_stageC_c2_A1m3_Z1.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_s2_core.py	60	RUNTIME_FILE_PATH	SCRATCH	SCRATCH	DYNAMIC	YES	os.path.join
+cascade_s2_core.py	63	RUNTIME_FILE_PATH	SHOT_LOG	SHOT_LOG	DYNAMIC	YES	open
+cascade_s2_core.py	63	RUNTIME_FILE_PATH	open(SHOT_LOG)	open(SHOT_LOG)	DYNAMIC	YES	json.load
+cascade_s2_core.py	65	RUNTIME_FILE_PATH	SHOT_LOG	SHOT_LOG	DYNAMIC	YES	open
+cascade_s2_core.py	65	RUNTIME_FILE_PATH	log	log	DYNAMIC	YES	json.dump
+cascade_s2_core.py	69	RUNTIME_FILE_PATH	SCRATCH	SCRATCH	DYNAMIC	YES	os.path.join
+cascade_s2_core.py	71	RUNTIME_FILE_PATH	pkl	pkl	DYNAMIC	YES	open
+cascade_s2_core.py	77	RUNTIME_FILE_PATH	pkl	pkl	DYNAMIC	YES	open
+cascade_s2_core.py	88	RUNTIME_FILE_PATH	pkl	pkl	DYNAMIC	YES	open
+cascade_s2_core.py	501	RUNTIME_FILE_PATH	SCRATCH	SCRATCH	DYNAMIC	YES	os.path.join
+cascade_s2_core.py	502	RUNTIME_FILE_PATH	ck	ck	DYNAMIC	YES	open
+cascade_s2_core.py	502	RUNTIME_FILE_PATH	open(ck)	open(ck)	DYNAMIC	YES	json.load
+cascade_s2_core.py	506	RUNTIME_FILE_PATH	ck	ck	DYNAMIC	YES	open
+cascade_s2_core.py	506	RUNTIME_FILE_PATH	res	res	DYNAMIC	YES	json.dump
+cascade_s2_core.py	517	RUNTIME_FILE_PATH	ck	ck	DYNAMIC	YES	open
+cascade_s2_core.py	517	RUNTIME_FILE_PATH	res	res	DYNAMIC	YES	json.dump
+cascade_s2_core.py	524	RUNTIME_FILE_PATH	ck	ck	DYNAMIC	YES	open
+cascade_s2_core.py	524	RUNTIME_FILE_PATH	res	res	DYNAMIC	YES	json.dump
+cascade_s2_core.py	529	RUNTIME_FILE_PATH	ck	ck	DYNAMIC	YES	open
+cascade_s2_core.py	529	RUNTIME_FILE_PATH	res	res	DYNAMIC	YES	json.dump
+cascade_s2_core.py	537	RUNTIME_FILE_PATH	ck	ck	DYNAMIC	YES	open
+cascade_s2_core.py	537	RUNTIME_FILE_PATH	res	res	DYNAMIC	YES	json.dump
+cascade_s2_validate.py	10	PYTHON_IMPORT	s2_core	cascade_s2_core.py	CANDIDATE_ALIAS	YES	AST import closure
+cascade_s2_validate.py	101	PYTHON_IMPORT	s2_core	cascade_s2_core.py	CANDIDATE_ALIAS	YES	AST import closure
+cascade_s3_lib.py	3	TEXT_REFERENCE	cascade_bv14_lib.py	cascade_bv14_lib.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_s3_lib.py	14	PYTHON_IMPORT	cascade_bv14_lib	cascade_bv14_lib.py	TRACKED_COMPANION	YES	AST import closure
+cascade_s3_lib.py	21	RUNTIME_FILE_PATH	SCR	SCR	DYNAMIC	YES	os.path.join
+cascade_s3_lib.py	21	RUNTIME_FILE_PATH	os.path.join(SCR, f's2_bg_{tag}.pkl')	os.path.join(SCR, f's2_bg_{tag}.pkl')	DYNAMIC	YES	open
+cascade_s3_t2_t3.py	8	PYTHON_IMPORT	s3_lib	cascade_s3_lib.py	CANDIDATE_ALIAS	YES	AST import closure
+cascade_s3_t2_t3.py	14	RUNTIME_FILE_PATH	SCR	SCR	DYNAMIC	YES	os.path.join
+cascade_s3_t2_t3.py	117	RUNTIME_FILE_PATH	ck	ck	DYNAMIC	YES	open
+cascade_s3_t2_t3.py	117	RUNTIME_FILE_PATH	out	out	DYNAMIC	YES	json.dump
+cascade_s3_t5.py	15	PYTHON_IMPORT	s3_lib	cascade_s3_lib.py	CANDIDATE_ALIAS	YES	AST import closure
+cascade_s3_t5.py	58	RUNTIME_FILE_PATH	SCR	SCR	DYNAMIC	YES	os.path.join
+cascade_s3_t5.py	59	RUNTIME_FILE_PATH	led_f	led_f	DYNAMIC	YES	open
+cascade_s3_t5.py	59	RUNTIME_FILE_PATH	open(led_f)	open(led_f)	DYNAMIC	YES	json.load
+cascade_s3_t5.py	61	RUNTIME_FILE_PATH	led	led	DYNAMIC	YES	json.dump
+cascade_s3_t5.py	61	RUNTIME_FILE_PATH	led_f	led_f	DYNAMIC	YES	open
+cascade_s3_t5.py	164	RUNTIME_FILE_PATH	SCR	SCR	DYNAMIC	YES	os.path.join
+cascade_s3_t5.py	164	RUNTIME_FILE_PATH	os.path.join(SCR, f's3_t5_{tag}.json')	os.path.join(SCR, f's3_t5_{tag}.json')	DYNAMIC	YES	open
+cascade_s3_t5.py	164	RUNTIME_FILE_PATH	out	out	DYNAMIC	YES	json.dump
+cascade_s3_validate.py	8	PYTHON_IMPORT	s3_lib	cascade_s3_lib.py	CANDIDATE_ALIAS	YES	AST import closure
+cascade_s3_validate.py	14	RUNTIME_FILE_PATH	SCR	SCR	DYNAMIC	YES	os.path.join
+cascade_s3_validate.py	14	RUNTIME_FILE_PATH	open(os.path.join(SCR, f'bv14_bg_{row}.json'))	open(os.path.join(SCR, f'bv14_bg_{row}.json'))	DYNAMIC	YES	json.load
+cascade_s3_validate.py	14	RUNTIME_FILE_PATH	os.path.join(SCR, f'bv14_bg_{row}.json')	os.path.join(SCR, f'bv14_bg_{row}.json')	DYNAMIC	YES	open
+cascade_s3_validate.py	27	RUNTIME_FILE_PATH	SCR	SCR	DYNAMIC	YES	os.path.join
+cascade_s3_validate.py	27	RUNTIME_FILE_PATH	open(os.path.join(SCR, f'bv14_counts_{TAGS[tag]}.json'))	open(os.path.join(SCR, f'bv14_counts_{TAGS[tag]}.json'))	DYNAMIC	YES	json.load
+cascade_s3_validate.py	27	RUNTIME_FILE_PATH	os.path.join(SCR, f'bv14_counts_{TAGS[tag]}.json')	os.path.join(SCR, f'bv14_counts_{TAGS[tag]}.json')	DYNAMIC	YES	open
+cascade_s3_validate.py	59	RUNTIME_FILE_PATH	SCR	SCR	DYNAMIC	YES	os.path.join
+cascade_s3_validate.py	59	RUNTIME_FILE_PATH	os.path.join(SCR, 's3_validate.json')	os.path.join(SCR, 's3_validate.json')	DYNAMIC	YES	open
+cascade_s3_validate.py	59	RUNTIME_FILE_PATH	out	out	DYNAMIC	YES	json.dump
+cascade_sf_d5_spotcheck.py	5	TEXT_REFERENCE	cascade_stageB_rungs.json	cascade_stageB_rungs.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_sf_d5_spotcheck.py	19	PYTHON_IMPORT	cell_solver_universe_T3	cell_solver_universe_T3.py	TRACKED_COMPANION	YES	AST import closure
+cascade_sf_d5_spotcheck.py	162	RUNTIME_FILE_PATH	results	results	DYNAMIC	YES	json.dump
+cascade_sf_d5_spotcheck.py	162	RUNTIME_FILE_PATH	sf_d5_out.json	sf_d5_out.json	MISSING_OR_GENERATED	YES	open
+cascade_sf_d5b_extra.py	10	PYTHON_IMPORT	sf_d5_spotcheck	cascade_sf_d5_spotcheck.py	CANDIDATE_ALIAS	YES	AST import closure
+cascade_stageA_extra.py	0	REQUIRED_COMPANION	cascade_stageA_lib.py	cascade_stageA_lib.py	NOT_FROZEN_OR_MANIFEST	YES	retained stage-A library and shared results file close the runtime family
+cascade_stageA_extra.py	56	RUNTIME_FILE_PATH	open('stageA_results.json')	open('stageA_results.json')	DYNAMIC	YES	json.load
+cascade_stageA_extra.py	56	RUNTIME_FILE_PATH	stageA_results.json	stageA_results.json	MISSING_OR_GENERATED	YES	open
+cascade_stageA_extra.py	60	RUNTIME_FILE_PATH	res	res	DYNAMIC	YES	json.dump
+cascade_stageA_extra.py	60	RUNTIME_FILE_PATH	stageA_results.json	stageA_results.json	MISSING_OR_GENERATED	YES	open
+cascade_stageA_run.py	0	REQUIRED_COMPANION	cascade_stageA_lib.py	cascade_stageA_lib.py	NOT_FROZEN_OR_MANIFEST	YES	retained stage-A library and shared results file close the runtime family
+cascade_stageA_run.py	73	RUNTIME_FILE_PATH	OUT	OUT	DYNAMIC	YES	open
+cascade_stageA_run.py	74	RUNTIME_FILE_PATH	results	results	DYNAMIC	YES	json.dump
+cascade_stageA_run.py	78	RUNTIME_FILE_PATH	OUT	OUT	DYNAMIC	YES	open
+cascade_stageA_run.py	79	RUNTIME_FILE_PATH	results	results	DYNAMIC	YES	json.dump
+cascade_stageB_above.py	0	REQUIRED_COMPANION	cascade_stageB_common.py	cascade_stageB_common.py	NOT_FROZEN_OR_MANIFEST	YES	retained solver/common modules and frozen rung data close the family
+cascade_stageB_above.py	0	REQUIRED_COMPANION	cascade_stageB_rungs.json	cascade_stageB_rungs.json	R0_FROZEN_EVIDENCE	YES	retained solver/common modules and frozen rung data close the family
+cascade_stageB_above.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	retained solver/common modules and frozen rung data close the family
+cascade_stageB_above.py	7	PYTHON_IMPORT	cell_solver_universe_T3	cell_solver_universe_T3.py	TRACKED_COMPANION	YES	AST import closure
+cascade_stageB_above.py	71	RUNTIME_FILE_PATH	{'rows': rows, 'brackets': br, 'rungs': [{k: v for (k, v) in r.items() if 'profile' not in k} for r in rungs], 'shots_this_script': SHOTS}	{'rows': rows, 'brackets': br, 'rungs': [{k: v for (k, v) in r.items() if 'profile' not in k} for r in rungs], 'shots_this_script': SHOTS}	DYNAMIC	YES	json.dump
+cascade_stageB_above.py	74	RUNTIME_FILE_PATH	f'{SCR}/stageB_above.json'	f'{SCR}/stageB_above.json'	DYNAMIC	YES	open
+cascade_stageB_analysis.py	0	REQUIRED_COMPANION	cascade_stageB_common.py	cascade_stageB_common.py	NOT_FROZEN_OR_MANIFEST	YES	retained solver/common modules and frozen rung data close the family
+cascade_stageB_analysis.py	0	REQUIRED_COMPANION	cascade_stageB_rungs.json	cascade_stageB_rungs.json	R0_FROZEN_EVIDENCE	YES	retained solver/common modules and frozen rung data close the family
+cascade_stageB_analysis.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	retained solver/common modules and frozen rung data close the family
+cascade_stageB_analysis.py	7	RUNTIME_FILE_PATH	f'{SCR}/stageB_rungs.json'	f'{SCR}/stageB_rungs.json'	DYNAMIC	YES	open
+cascade_stageB_analysis.py	7	RUNTIME_FILE_PATH	open(f'{SCR}/stageB_rungs.json')	open(f'{SCR}/stageB_rungs.json')	DYNAMIC	YES	json.load
+cascade_stageB_analysis.py	8	RUNTIME_FILE_PATH	f'{SCR}/stageB_sweep.json'	f'{SCR}/stageB_sweep.json'	DYNAMIC	YES	open
+cascade_stageB_analysis.py	8	RUNTIME_FILE_PATH	open(f'{SCR}/stageB_sweep.json')	open(f'{SCR}/stageB_sweep.json')	DYNAMIC	YES	json.load
+cascade_stageB_analysis.py	9	RUNTIME_FILE_PATH	f'{SCR}/stageB_above.json'	f'{SCR}/stageB_above.json'	DYNAMIC	YES	open
+cascade_stageB_analysis.py	9	RUNTIME_FILE_PATH	open(f'{SCR}/stageB_above.json')	open(f'{SCR}/stageB_above.json')	DYNAMIC	YES	json.load
+cascade_stageB_bisect.py	0	REQUIRED_COMPANION	cascade_stageB_common.py	cascade_stageB_common.py	NOT_FROZEN_OR_MANIFEST	YES	retained solver/common modules and frozen rung data close the family
+cascade_stageB_bisect.py	0	REQUIRED_COMPANION	cascade_stageB_rungs.json	cascade_stageB_rungs.json	R0_FROZEN_EVIDENCE	YES	retained solver/common modules and frozen rung data close the family
+cascade_stageB_bisect.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	retained solver/common modules and frozen rung data close the family
+cascade_stageB_bisect.py	9	PYTHON_IMPORT	cell_solver_universe_T3	cell_solver_universe_T3.py	TRACKED_COMPANION	YES	AST import closure
+cascade_stageB_bisect.py	25	PYTHON_IMPORT	cell_solver_universe_T3	cell_solver_universe_T3.py	TRACKED_COMPANION	YES	AST import closure
+cascade_stageB_bisect.py	91	RUNTIME_FILE_PATH	f'{SCR}/stageB_sweep.json'	f'{SCR}/stageB_sweep.json'	DYNAMIC	YES	open
+cascade_stageB_bisect.py	91	RUNTIME_FILE_PATH	open(f'{SCR}/stageB_sweep.json')	open(f'{SCR}/stageB_sweep.json')	DYNAMIC	YES	json.load
+cascade_stageB_bisect.py	134	RUNTIME_FILE_PATH	{'rungs': [{k: v for (k, v) in r.items() if 'profile' not in k} for r in rungs], 'profiles': [{'bracket_index': r['bracket_index'], 'N_delta_profile': r.get('N_delta_profile'), 'N_rhop_profile': r.get('N_rhop_profile')} for r in rungs], 'cut_brackets': cut, 'shots_this_script': SHOTS}	{'rungs': [{k: v for (k, v) in r.items() if 'profile' not in k} for r in rungs], 'profiles': [{'bracket_index': r['bracket_index'], 'N_delta_profile': r.get('N_delta_profile'), 'N_rhop_profile': r.get('N_rhop_profile')} for r in rungs], 'cut_brackets': cut, 'shots_this_script': SHOTS}	DYNAMIC	YES	json.dump
+cascade_stageB_bisect.py	139	RUNTIME_FILE_PATH	f'{SCR}/stageB_rungs.json'	f'{SCR}/stageB_rungs.json'	DYNAMIC	YES	open
+cascade_stageB_sanity.py	0	REQUIRED_COMPANION	cascade_stageB_common.py	cascade_stageB_common.py	NOT_FROZEN_OR_MANIFEST	YES	retained solver/common modules and frozen rung data close the family
+cascade_stageB_sanity.py	0	REQUIRED_COMPANION	cascade_stageB_rungs.json	cascade_stageB_rungs.json	R0_FROZEN_EVIDENCE	YES	retained solver/common modules and frozen rung data close the family
+cascade_stageB_sanity.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	retained solver/common modules and frozen rung data close the family
+cascade_stageB_sanity.py	5	PYTHON_IMPORT	cell_solver_universe_T3	cell_solver_universe_T3.py	TRACKED_COMPANION	YES	AST import closure
+cascade_stageC_run.py	0	REQUIRED_COMPANION	cascade_stageC_lib.py	cascade_stageC_lib.py	NOT_FROZEN_OR_MANIFEST	YES	retained stage-C library is a runtime import
+cascade_stageC_run.py	62	RUNTIME_FILE_PATH	{'combo': combo, 'Z': c['Z'], 'stuck': c['stuck'], 'd0_est': c['d0_est'], 'rows': rows, 'brackets': [list(b) for b in br], 'nonseal_rows': nonseal, 'rungs': [{k: v for (k, v) in r.items() if 'profile' not in k} for r in rungs], 'profiles': [{'bracket_index': r['bracket_index'], 'N_delta_profile': r.get('N_delta_profile'), 'N_rhop_profile': r.get('N_rhop_profile')} for r in rungs], 'shots': L.SHOTS, 'wall_s': time.time() - t0}	{'combo': combo, 'Z': c['Z'], 'stuck': c['stuck'], 'd0_est': c['d0_est'], 'rows': rows, 'brackets': [list(b) for b in br], 'nonseal_rows': nonseal, 'rungs': [{k: v for (k, v) in r.items() if 'profile' not in k} for r in rungs], 'profiles': [{'bracket_index': r['bracket_index'], 'N_delta_profile': r.get('N_delta_profile'), 'N_rhop_profile': r.get('N_rhop_profile')} for r in rungs], 'shots': L.SHOTS, 'wall_s': time.time() - t0}	DYNAMIC	YES	json.dump
+cascade_stageC_run.py	70	RUNTIME_FILE_PATH	f'{SCR}/stageC_{combo}.json'	f'{SCR}/stageC_{combo}.json'	DYNAMIC	YES	open
+cascade_th2_final_table.py	9	RUNTIME_FILE_PATH	open('th2_results.json')	open('th2_results.json')	DYNAMIC	YES	json.load
+cascade_th2_final_table.py	9	RUNTIME_FILE_PATH	th2_results.json	th2_results.json	MISSING_OR_GENERATED	YES	open
+cascade_th2_final_table.py	36	RUNTIME_FILE_PATH	out	out	DYNAMIC	YES	json.dump
+cascade_th2_final_table.py	36	RUNTIME_FILE_PATH	th2_final_table.json	th2_final_table.json	MISSING_OR_GENERATED	YES	open
+cascade_tw_confirm.py	0	REQUIRED_COMPANION	cascade_stageB_common.py	cascade_stageB_common.py	NOT_FROZEN_OR_MANIFEST	YES	retained solver/common and hard-coded frozen rung file remain at root
+cascade_tw_confirm.py	0	REQUIRED_COMPANION	cascade_stageB_rungs.json	cascade_stageB_rungs.json	R0_FROZEN_EVIDENCE	YES	retained solver/common and hard-coded frozen rung file remain at root
+cascade_tw_confirm.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	retained solver/common and hard-coded frozen rung file remain at root
+cascade_tw_confirm.py	7	PYTHON_IMPORT	cell_solver_universe_T3	cell_solver_universe_T3.py	TRACKED_COMPANION	YES	AST import closure
+cascade_tw_confirm.py	9	PYTHON_IMPORT	cascade_stageB_common	cascade_stageB_common.py	TRACKED_COMPANION	YES	AST import closure
+cascade_tw_pred.py	0	REQUIRED_COMPANION	cascade_stageB_common.py	cascade_stageB_common.py	NOT_FROZEN_OR_MANIFEST	YES	retained solver/common and hard-coded frozen rung file remain at root
+cascade_tw_pred.py	0	REQUIRED_COMPANION	cascade_stageB_rungs.json	cascade_stageB_rungs.json	R0_FROZEN_EVIDENCE	YES	retained solver/common and hard-coded frozen rung file remain at root
+cascade_tw_pred.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	retained solver/common and hard-coded frozen rung file remain at root
+cascade_tw_pred.py	15	TEXT_REFERENCE	cascade_stageB_rungs.json	cascade_stageB_rungs.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cascade_tw_pred.py	16	RUNTIME_FILE_PATH	/home/udt-admin/udt_mass_codex/cascade_stageB_rungs.json	/home/udt-admin/udt_mass_codex/cascade_stageB_rungs.json	ABSOLUTE_EXTERNAL	YES	open
+cascade_tw_pred.py	16	RUNTIME_FILE_PATH	open('/home/udt-admin/udt_mass_codex/cascade_stageB_rungs.json')	open('/home/udt-admin/udt_mass_codex/cascade_stageB_rungs.json')	DYNAMIC	YES	json.load
+cascade_tw_reshoot.py	0	REQUIRED_COMPANION	cascade_stageB_common.py	cascade_stageB_common.py	NOT_FROZEN_OR_MANIFEST	YES	retained solver/common and hard-coded frozen rung file remain at root
+cascade_tw_reshoot.py	0	REQUIRED_COMPANION	cascade_stageB_rungs.json	cascade_stageB_rungs.json	R0_FROZEN_EVIDENCE	YES	retained solver/common and hard-coded frozen rung file remain at root
+cascade_tw_reshoot.py	0	REQUIRED_COMPANION	cell_solver_universe_T3.py	cell_solver_universe_T3.py	NOT_FROZEN_OR_MANIFEST	YES	retained solver/common and hard-coded frozen rung file remain at root
+cascade_tw_reshoot.py	11	PYTHON_IMPORT	cell_solver_universe_T3	cell_solver_universe_T3.py	TRACKED_COMPANION	YES	AST import closure
+cell_solver_f2d_BUILDNOTES.md	4	TEXT_REFERENCE	cell_solver_f2d.py	cell_solver_f2d.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cell_solver_f2d_BUILDNOTES.md	5	TEXT_REFERENCE	verify_f2d_reduction.py	verify_f2d_reduction.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cell_solver_f2d_BUILDNOTES.md	6	TEXT_REFERENCE	discreteness_preregistration.md	discreteness_preregistration.md	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cell_solver_f2d_BUILDNOTES.md	7	TEXT_REFERENCE	f2d_virial_step0_results.md	f2d_virial_step0_results.md	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cell_solver_f2d_BUILDNOTES.md	7	TEXT_REFERENCE	f_rtheta_free_field_MAP.md	f_rtheta_free_field_MAP.md	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cell_solver_f2d_BUILDNOTES.md	8	TEXT_REFERENCE	round_matter_reduction_results.md	round_matter_reduction_results.md	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cell_solver_f2d_BUILDNOTES.md	25	TEXT_REFERENCE	spectral_sph_exact.py	spectral_sph_exact.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+cell_solver_f2d_BUILDNOTES.md	41	TEXT_REFERENCE	spectral_cheb.py	spectral_cheb.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+controlled_relax_hessian.py	0	REQUIRED_COMPANION	controlled_relax_hessian_out.json	controlled_relax_hessian_out.json	R0_FROZEN_EVIDENCE	YES	root module/input/output family includes an immutable output and absent inputs
+controlled_relax_hessian.py	0	REQUIRED_COMPANION	hopfion_arc_scripts_2026-07-05/fs_hopfion.py	hopfion_arc_scripts_2026-07-05/fs_hopfion.py	NOT_REGISTERED_ROOT_PATH	YES	root module/input/output family includes an immutable output and absent inputs
+controlled_relax_hessian.py	13	RUNTIME_FILE_PATH	'prod_relax256uncon.npz' if os.path.exists('prod_relax256uncon.npz') else 'hopfion_arc_scripts_2026-07-05/prod_an256.npz'	'prod_relax256uncon.npz' if os.path.exists('prod_relax256uncon.npz') else 'hopfion_arc_scripts_2026-07-05/prod_an256.npz'	DYNAMIC	YES	np.load
+controlled_relax_hessian.py	27	RUNTIME_FILE_PATH	LOG	LOG	DYNAMIC	YES	open
+controlled_relax_hessian.py	29	RUNTIME_FILE_PATH	LOG	LOG	DYNAMIC	YES	open
+controlled_relax_hessian.py	53	RUNTIME_FILE_PATH	controlled_best_field.npz	controlled_best_field.npz	MISSING_OR_GENERATED	YES	np.savez
+controlled_relax_hessian.py	85	RUNTIME_FILE_PATH	{'best_gradnorm': gn_best, 'Q': Qb, 'lowest_lam_phys': lam_phys, 'res_phys': res_phys, 'in_core': incore, 'verdict': verdict}	{'best_gradnorm': gn_best, 'Q': Qb, 'lowest_lam_phys': lam_phys, 'res_phys': res_phys, 'in_core': incore, 'verdict': verdict}	DYNAMIC	YES	json.dump
+controlled_relax_hessian.py	86	RUNTIME_FILE_PATH	controlled_relax_hessian_out.json	controlled_relax_hessian_out.json	RESOLVED_TRACKED	YES	open
+controlled_relax_hessian.py	86	TEXT_REFERENCE	controlled_relax_hessian_out.json	controlled_relax_hessian_out.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+e2c_bv_gauntlet.py	0	REQUIRED_COMPANION	cell_solver_composite.py	cell_solver_composite.py	NOT_FROZEN_OR_MANIFEST	YES	imports retained composite solver
+e2c_bv_gauntlet.py	9	PYTHON_IMPORT	cell_solver_composite	cell_solver_composite.py	TRACKED_COMPANION	YES	AST import closure
+e2d_bv_cert.py	0	REQUIRED_COMPANION	cell_solver_composite.py	cell_solver_composite.py	NOT_FROZEN_OR_MANIFEST	YES	both scripts import retained composite solver and continuation driver
+e2d_bv_cert.py	0	REQUIRED_COMPANION	e2d_continuation_driver.py	e2d_continuation_driver.py	NOT_FROZEN_OR_MANIFEST	YES	both scripts import retained composite solver and continuation driver
+e2d_bv_cert.py	6	PYTHON_IMPORT	cell_solver_composite	cell_solver_composite.py	TRACKED_COMPANION	YES	AST import closure
+e2d_bv_cert.py	7	PYTHON_IMPORT	e2d_continuation_driver	e2d_continuation_driver.py	TRACKED_COMPANION	YES	AST import closure
+e2d_bv_checks.py	0	REQUIRED_COMPANION	cell_solver_composite.py	cell_solver_composite.py	NOT_FROZEN_OR_MANIFEST	YES	both scripts import retained composite solver and continuation driver
+e2d_bv_checks.py	0	REQUIRED_COMPANION	e2d_continuation_driver.py	e2d_continuation_driver.py	NOT_FROZEN_OR_MANIFEST	YES	both scripts import retained composite solver and continuation driver
+e2d_bv_checks.py	6	PYTHON_IMPORT	cell_solver_composite	cell_solver_composite.py	TRACKED_COMPANION	YES	AST import closure
+e2d_bv_checks.py	7	PYTHON_IMPORT	e2d_continuation_driver	e2d_continuation_driver.py	TRACKED_COMPANION	YES	AST import closure
+homog_universe_solve.py	10	TEXT_REFERENCE	cell_solver_universe_T3.py	cell_solver_universe_T3.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+hopfion_static_mass_hessian_256driver.py	0	REQUIRED_COMPANION	hopfion_static_mass_common.py	hopfion_static_mass_common.py	REFERENCED_BY_SIX_FROZEN_PACKAGES	YES	common module is referenced by frozen packages and output JSON is immutable
+hopfion_static_mass_hessian_256driver.py	0	REQUIRED_COMPANION	hopfion_static_mass_hessian_out.json	hopfion_static_mass_hessian_out.json	R0_FROZEN_EVIDENCE	YES	common module is referenced by frozen packages and output JSON is immutable
+hopfion_static_mass_hessian_256driver.py	6	PYTHON_IMPORT	hopfion_static_mass_common	hopfion_static_mass_common.py	TRACKED_COMPANION	YES	AST import closure
+hopfion_static_mass_hessian_256driver.py	59	RUNTIME_FILE_PATH	{'phaseB_256_clean': {'virial': E2 / E4, 'gradnorm': gnorm, 'lam_phys': lam_phys, 'res_phys': res_phys, 'eig_converged': converged, 'in_core': lf(v), 'localized': localized, 'verdict': verdict, 'note': 'fixed-boundary, generalized norm (M=h^3 I), production 256 minimizer as-is (gradnorm 0.13 residual). Multi-resolution re-relaxation BLOCKED: naive arrested-Newton collapses coarse hopfion (Derrick) without production rescale machinery.'}}	{'phaseB_256_clean': {'virial': E2 / E4, 'gradnorm': gnorm, 'lam_phys': lam_phys, 'res_phys': res_phys, 'eig_converged': converged, 'in_core': lf(v), 'localized': localized, 'verdict': verdict, 'note': 'fixed-boundary, generalized norm (M=h^3 I), production 256 minimizer as-is (gradnorm 0.13 residual). Multi-resolution re-relaxation BLOCKED: naive arrested-Newton collapses coarse hopfion (Derrick) without production rescale machinery.'}}	DYNAMIC	YES	json.dump
+hopfion_static_mass_hessian_256driver.py	62	RUNTIME_FILE_PATH	hopfion_static_mass_hessian_out.json	hopfion_static_mass_hessian_out.json	RESOLVED_TRACKED	YES	open
+hopfion_static_mass_hessian_256driver.py	62	TEXT_REFERENCE	hopfion_static_mass_hessian_out.json	hopfion_static_mass_hessian_out.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+long_relax_256.py	0	REQUIRED_COMPANION	hopfion_arc_scripts_2026-07-05/fs_hopfion.py	hopfion_arc_scripts_2026-07-05/fs_hopfion.py	NOT_REGISTERED_ROOT_PATH	YES	root-CWD module/input/checkpoint/output family is incomplete
+long_relax_256.py	19	RUNTIME_FILE_PATH	START	START	DYNAMIC	YES	np.load
+long_relax_256.py	34	RUNTIME_FILE_PATH	LOG	LOG	DYNAMIC	YES	open
+long_relax_256.py	35	RUNTIME_FILE_PATH	LOG	LOG	DYNAMIC	YES	open
+long_relax_256.py	87	RUNTIME_FILE_PATH	long_relax_256_ckpt.npz	long_relax_256_ckpt.npz	MISSING_OR_GENERATED	YES	np.savez
+long_relax_256.py	90	RUNTIME_FILE_PATH	long_relax_256_final.npz	long_relax_256_final.npz	MISSING_OR_GENERATED	YES	np.savez
+long_relax_256.py	93	RUNTIME_FILE_PATH	{'final_gradnorm': gn, 'Q': Qof(n), 'lowest_lam_phys': lam, 'in_core': incore, 'iters': it, 'start_gradnorm': 0.1197}	{'final_gradnorm': gn, 'Q': Qof(n), 'lowest_lam_phys': lam, 'in_core': incore, 'iters': it, 'start_gradnorm': 0.1197}	DYNAMIC	YES	json.dump
+long_relax_256.py	94	RUNTIME_FILE_PATH	long_relax_256_out.json	long_relax_256_out.json	MISSING_OR_GENERATED	YES	open
+noNull_evidence_checker.py	0	REQUIRED_COMPANION	noNull_evidence_checker_output.txt	noNull_evidence_checker_output.txt	R0_FROZEN_EVIDENCE	YES	six absent inputs feed immutable evidence and output records
+noNull_evidence_checker.py	0	REQUIRED_COMPANION	noNull_stability_evidence.json	noNull_stability_evidence.json	R0_FROZEN_EVIDENCE	YES	six absent inputs feed immutable evidence and output records
+noNull_evidence_checker.py	3	TEXT_REFERENCE	noNull_hess_h2fit_log.txt	noNull_hess_h2fit_log.txt	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+noNull_evidence_checker.py	4	TEXT_REFERENCE	noNull_stability_evidence.json	noNull_stability_evidence.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+noNull_evidence_checker.py	5	TEXT_REFERENCE	noNull_evidence_checker_output.txt	noNull_evidence_checker_output.txt	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+noNull_evidence_checker.py	33	RUNTIME_FILE_PATH	f0	f0	DYNAMIC	YES	np.load
+noNull_evidence_checker.py	33	RUNTIME_FILE_PATH	f1	f1	DYNAMIC	YES	np.load
+noNull_evidence_checker.py	49	RUNTIME_FILE_PATH	noNull_hess_h2fit_log.txt	noNull_hess_h2fit_log.txt	RESOLVED_TRACKED	YES	open
+noNull_evidence_checker.py	84	RUNTIME_FILE_PATH	noNull_stability_evidence.json	noNull_stability_evidence.json	RESOLVED_TRACKED	YES	open
+noNull_evidence_checker.py	84	RUNTIME_FILE_PATH	open('noNull_stability_evidence.json')	open('noNull_stability_evidence.json')	DYNAMIC	YES	json.load
+noNull_evidence_checker.py	106	TEXT_REFERENCE	noNull_evidence_seal.py	noNull_evidence_seal.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+noNull_evidence_checker.py	111	RUNTIME_FILE_PATH	noNull_evidence_checker_output.txt	noNull_evidence_checker_output.txt	RESOLVED_TRACKED	YES	open
+r2_prereg_s_dependence_LEAD.md	4	TEXT_REFERENCE	r2_prereg_s_cas.py	r2_prereg_s_cas.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+simple_metric_dotted_line.py	0	REQUIRED_COMPANION	simple_metric_dotted_line_out.json	simple_metric_dotted_line_out.json	R0_FROZEN_EVIDENCE	YES	__file__-relative write would strand or overwrite an immutable result
+simple_metric_dotted_line.py	10	RUNTIME_FILE_PATH	__file__	__file__	DYNAMIC	YES	Path
+simple_metric_dotted_line.py	33	RUNTIME_FILE_PATH	json.dumps(out, indent=2)	json.dumps(out, indent=2)	DYNAMIC	YES	write_text
+simple_metric_dotted_line.py	33	TEXT_REFERENCE	simple_metric_dotted_line_out.json	simple_metric_dotted_line_out.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+simple_metric_promising_candidates_zoom.py	0	REQUIRED_COMPANION	simple_metric_promising_candidates_zoom_out.json	simple_metric_promising_candidates_zoom_out.json	R0_FROZEN_EVIDENCE	YES	__file__-relative write would strand or overwrite an immutable result
+simple_metric_promising_candidates_zoom.py	11	RUNTIME_FILE_PATH	__file__	__file__	DYNAMIC	YES	Path
+simple_metric_promising_candidates_zoom.py	62	RUNTIME_FILE_PATH	json.dumps(out, indent=2)	json.dumps(out, indent=2)	DYNAMIC	YES	write_text
+simple_metric_promising_candidates_zoom.py	62	TEXT_REFERENCE	simple_metric_promising_candidates_zoom_out.json	simple_metric_promising_candidates_zoom_out.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+simple_metric_relational_rooms_continue.py	0	REQUIRED_COMPANION	simple_metric_relational_rooms_continue_out.json	simple_metric_relational_rooms_continue_out.json	R0_FROZEN_EVIDENCE	YES	__file__-relative write would strand or overwrite an immutable result
+simple_metric_relational_rooms_continue.py	10	RUNTIME_FILE_PATH	__file__	__file__	DYNAMIC	YES	Path
+simple_metric_relational_rooms_continue.py	46	RUNTIME_FILE_PATH	json.dumps(out, indent=2)	json.dumps(out, indent=2)	DYNAMIC	YES	write_text
+simple_metric_relational_rooms_continue.py	46	TEXT_REFERENCE	simple_metric_relational_rooms_continue_out.json	simple_metric_relational_rooms_continue_out.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+solver_build_MAP.md	4	TEXT_REFERENCE	discreteness_preregistration.md	discreteness_preregistration.md	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+stageD_sweep_results_raw.md	0	REQUIRED_COMPANION	cascade_stageD_sweep_refine.py	cascade_stageD_sweep_refine.py	NOT_FROZEN_OR_MANIFEST	YES	raw result is coupled to retained producer scripts and generated JSON records
+stageD_sweep_results_raw.md	0	REQUIRED_COMPANION	cascade_stageD_sweep_scan.py	cascade_stageD_sweep_scan.py	NOT_FROZEN_OR_MANIFEST	YES	raw result is coupled to retained producer scripts and generated JSON records
+stageD_sweep_results_raw.md	0	REQUIRED_COMPANION	stageD_sweep_results_raw.json	stageD_sweep_results_raw.json	R0_FROZEN_EVIDENCE	YES	raw result is coupled to retained producer scripts and generated JSON records
+stageD_sweep_results_raw.md	9	TEXT_REFERENCE	cell_solver_universe_T3.py	cell_solver_universe_T3.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+stageD_sweep_results_raw.md	10	TEXT_REFERENCE	cascade_bv6_lib.py	cascade_bv6_lib.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+stageD_sweep_results_raw.md	12	TEXT_REFERENCE	cascade_stageD_sweep_refine.py	cascade_stageD_sweep_refine.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+stageD_sweep_results_raw.md	12	TEXT_REFERENCE	cascade_stageD_sweep_scan.py	cascade_stageD_sweep_scan.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+stageD_sweep_results_raw.md	13	TEXT_REFERENCE	stageD_refine_pass2.json	stageD_refine_pass2.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+stageD_sweep_results_raw.md	13	TEXT_REFERENCE	stageD_scan_pass1.json	stageD_scan_pass1.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+stageD_sweep_results_raw.md	13	TEXT_REFERENCE	stageD_sweep_results_raw.json	stageD_sweep_results_raw.json	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+stageD_sweep_results_raw.md	26	TEXT_REFERENCE	cascade_stageB_common.py	cascade_stageB_common.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+stageD_sweep_results_raw.md	66	TEXT_REFERENCE	cascade_bv9_reshoot.py	cascade_bv9_reshoot.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+stageD_sweep_results_raw.md	129	TEXT_REFERENCE	cascade_stageD_prereg.md	cascade_stageD_prereg.md	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+stageD_sweep_results_raw.md	129	TEXT_REFERENCE	ladder_theta0_accumulation_results.md	ladder_theta0_accumulation_results.md	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+stageD_sweep_results_raw.md	130	TEXT_REFERENCE	ladder_lemmaD_sealing_amplitude_results.md	ladder_lemmaD_sealing_amplitude_results.md	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+stageD_sweep_results_raw.md	130	TEXT_REFERENCE	ladder_theorems_AB_C_results.md	ladder_theorems_AB_C_results.md	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+verify_universe_bv2_a_reduction.py	3	TEXT_REFERENCE	cell_solver_round.py	cell_solver_round.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
+verify_universe_bv4_q1_validate.py	6	PYTHON_IMPORT	bv4_shoot	verify_universe_bv4_shoot.py	CANDIDATE_ALIAS	YES	AST import closure
+verify_universe_bv4_q2_powers.py	5	PYTHON_IMPORT	bv4_shoot	verify_universe_bv4_shoot.py	CANDIDATE_ALIAS	YES	AST import closure
+verify_universe_bv4_q3_bisect.py	7	PYTHON_IMPORT	bv4_shoot	verify_universe_bv4_shoot.py	CANDIDATE_ALIAS	YES	AST import closure
+verify_universe_bv4_q3_scan.py	5	PYTHON_IMPORT	bv4_shoot	verify_universe_bv4_shoot.py	CANDIDATE_ALIAS	YES	AST import closure
+verify_universe_bv4_q4_q5.py	7	PYTHON_IMPORT	bv4_shoot	verify_universe_bv4_shoot.py	CANDIDATE_ALIAS	YES	AST import closure
+verify_universe_bv4_shoot.py	17	TEXT_REFERENCE	cell_solver_universe_T3.py	cell_solver_universe_T3.py	RESOLVED_TRACKED	NO_INFORMATIONAL	-
