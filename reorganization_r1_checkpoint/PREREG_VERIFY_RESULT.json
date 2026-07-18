@@ -1,0 +1,13 @@
+{
+  "branch_clean_before_preregistration": true,
+  "control_preimages_match": true,
+  "current_path_map_hash_match": true,
+  "dirty_inventory_hash_match": true,
+  "fixed_history_ledger_hash_match": true,
+  "manifest_hashes_match": true,
+  "merge_base": "bfa0b9a9371fab0266315bc2bb6845b8a7446a18",
+  "origin_grok": "bfa0b9a9371fab0266315bc2bb6845b8a7446a18",
+  "origin_grok_is_ancestor": true,
+  "result": "PASS",
+  "source_tip": "b4e839c31583f1b220eabc390f235fb794578af9"
+}

@@ -1,0 +1,41 @@
+{
+  "allowed_existing_edits": [
+    "AGENTS.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "README.md"
+  ],
+  "allowed_record_prefix": "reorganization_r1_checkpoint/",
+  "branch": "codex/reorg-r1-checkpoint-integration-2026-07-18",
+  "expected_origin_grok": "bfa0b9a9371fab0266315bc2bb6845b8a7446a18",
+  "observed_merge_base": "bfa0b9a9371fab0266315bc2bb6845b8a7446a18",
+  "observed_origin_grok": "bfa0b9a9371fab0266315bc2bb6845b8a7446a18",
+  "origin_grok_is_ancestor": true,
+  "source_commits_beyond_grok": 20,
+  "source_tip": "b4e839c31583f1b220eabc390f235fb794578af9",
+  "fast_forward_only": true,
+  "force_push_forbidden": true,
+  "physics_or_research_artifact_changes": 0,
+  "frozen_manifest_sha256": {
+    "native_action_arm_c_2026-07-18": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+    "native_action_final_adjudication_2026-07-18": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+    "native_action_stage1_2026-07-18/arm_A": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+    "native_action_stage1_2026-07-18/arm_B": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+    "native_action_stage2_2026-07-18/arm_A": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+    "native_action_stage2_2026-07-18/arm_B": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45"
+  },
+  "current_path_contract": {
+    "MIGRATED_R1D": 1,
+    "ROOT_RETAINED": 1113,
+    "rows": 1114,
+    "unique_current_paths": 1114,
+    "unique_original_paths": 1114
+  },
+  "dirty_metadata_rows": 54,
+  "test_contract": {
+    "failed": 1,
+    "passed": 69,
+    "xfailed": 1
+  }
+}
