@@ -5,9 +5,17 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-10).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-17 — H3 particle-mass: stability SETTLED; G done; boundary-virial done; audit patch + F done — arc complete, awaiting Charles)
+## CURRENT (2026-07-18 — H3 particle-mass arc complete; native-action Stage I A/B frozen and awaiting Charles's audit)
 
 **Read LIVE.md CURRENT STATE topmost layer first.** Session arc 07-13→16 in one paragraph:
+
+**NATIVE-ACTION STAGE I COMPLETE (2026-07-18):** two isolated cold arms (`gpt-5.6-sol` and
+`gpt-5.4`) received only exact C0/C1 and returned complete D0–D5, CAS scripts/outputs, final
+responses, and full outer transcripts. Mechanical checks pass; every package file is manifested and
+the two external manifest hashes are frozen in `UDT_NATIVE_ACTION_STAGE1_RETURN_2026-07-18.md`.
+Packages are read-only under `native_action_stage1_2026-07-18/`. No cross-arm physics conclusion was
+banked. Stage II, Arm C, and GPU work were not launched and remain unauthorized pending Charles's
+package audit.
 
 The corrected-operator stability question was closed in TWO layers, both blind/independently verified:
 (1) the T/R-DEFLATED physical spectrum certified positive at 128/192/256 (Charles's raw-backward-error
@@ -37,11 +45,10 @@ STRONG finite-slice LEAD**, not the literal class of all endpoints. Repaired ver
 byte-restored; endpoint NPZ hashes unchanged. Scope: basin behavior, NOT dynamics/infinite-volume/
 mass. Records: `noNull_behavioral_F_results.md` + `noNull_F_*.json` + `F_evidence/`.
 
-**Pending Charles:** audit of the F return; synchronized native-action process/framing review
-(`UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md` §0/§1, the founding-hierarchy fork, and cold files C0/C1;
-adversarially audited, arms **NOT launched**; see
-`UDT_NATIVE_ACTION_WORKSTATION_SYNC_AUDIT_2026-07-17.md`); canonization calls; next-push direction
-(theorem route / native-action arms / box-mask study / spin-isorotation).
+**Pending Charles:** audit of the F return; audit both frozen native-action Stage-I packages
+(`UDT_NATIVE_ACTION_STAGE1_RETURN_2026-07-18.md`; no Stage II / Arm C / GPU until separately
+authorized); canonization calls; next-push direction
+(theorem route / native-action Stage II after package audit / box-mask study / spin-isorotation).
 **Key commits:** da51ec4→1c2196c (spectrum cert), d131557 (inertia seal), 493d104 (G), 837d633
 (boundary-virial). **Records:** noNull_hess_h2fit_log.txt, noNull_schur_inertia_ALL.json,
 noNull_phaseG_mass_results.md, noNull_boundary_virial_results.md, noNull_virial_identity_derivation.md.

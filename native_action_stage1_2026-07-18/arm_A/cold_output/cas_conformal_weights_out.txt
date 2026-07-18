@@ -1,0 +1,6 @@
+weight exponent of sqrt(g)*X^2 in d dimensions = d - 4
+in d=4 = 0
+weight exponent of sqrt(g)*F_mn F^mn in d=4 = 0
+weight exponent of sqrt(g)*g^mn dn.dn in d=4 = 2
+with a weight -1 compensator chi, quadratic term weight = 0
+explicit invariant factors: 1 1

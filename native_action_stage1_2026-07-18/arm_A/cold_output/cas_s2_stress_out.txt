@@ -1,0 +1,3 @@
+T00 sigma = ns2*xi/2
+T00 quartic = fij_sum*kappa/4
+T00 total - supplied energy = 0

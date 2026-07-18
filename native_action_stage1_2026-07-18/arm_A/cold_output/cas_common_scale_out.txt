@@ -1,0 +1,6 @@
+diag(u,v) - proposed decomposition =
+⎡0  0⎤
+⎢    ⎥
+⎣0  0⎦
+determinant of reciprocal factor = 1
+recovered phi = -log(u)/2 + log(v)/2

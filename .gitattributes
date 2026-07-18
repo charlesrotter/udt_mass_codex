@@ -1,0 +1,7 @@
+# Preserve raw terminal captures byte-for-byte and suppress textual diff/whitespace rewriting.
+native_action_stage1_2026-07-18/*/OUTER_TRANSCRIPT.txt -text -diff
+native_action_stage1_2026-07-18/*/PRELAUNCH_NETWORK_FAILURE_TRANSCRIPT.txt -text -diff
+
+# Cold-arm outputs are immutable evidence; retain any arm-authored whitespace verbatim.
+native_action_stage1_2026-07-18/*/cold_output/D0_D5.md -whitespace
+native_action_stage1_2026-07-18/*/cold_output/cas_*_out.txt -whitespace

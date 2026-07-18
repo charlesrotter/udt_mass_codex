@@ -1,0 +1,7 @@
+Four-dimensional Lagrangian in components =
+f0i2⋅κ   fijₛᵤₘ⋅κ   ns₂⋅ξ   nt₂⋅ξ
+────── - ──────── - ───── + ─────
+  2         4         2       2  
+Static L = -fij_sum*kappa/4 - ns2*xi/2
+Supplied static energy density = fij_sum*kappa/4 + ns2*xi/2
+L_static + E_supplied = 0

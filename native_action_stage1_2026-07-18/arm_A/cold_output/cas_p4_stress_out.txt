@@ -1,0 +1,5 @@
+Trace in d dimensions = X**2*a*(4 - d)/4
+Trace in d=4 = 0
+Static orthonormal T_00 = a*p2**2/4
+Hamiltonian density -L = a*p2**2/4
+Difference = 0

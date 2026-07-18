@@ -1,0 +1,15 @@
+Exact angle-stripped boundary flux =
+                                 3
+     3  2  -4⋅eps⋅f(r) ⎛d       ⎞ 
+a⋅eps ⋅r ⋅ℯ           ⋅⎜──(f(r))⎟ 
+                       ⎝dr      ⎠ 
+Expansion through O(eps^4) =
+                    3                              3          
+     3  2 ⎛d       ⎞           4  2      ⎛d       ⎞     ⎛   5⎞
+a⋅eps ⋅r ⋅⎜──(f(r))⎟  - 4⋅a⋅eps ⋅r ⋅f(r)⋅⎜──(f(r))⎟  + O⎝eps ⎠
+          ⎝dr      ⎠                     ⎝dr      ⎠           
+Exact minus leading, series through O(eps^5) =
+                             3                               3          
+         4  2      ⎛d       ⎞           5  2  2    ⎛d       ⎞     ⎛   6⎞
+- 4⋅a⋅eps ⋅r ⋅f(r)⋅⎜──(f(r))⎟  + 8⋅a⋅eps ⋅r ⋅f (r)⋅⎜──(f(r))⎟  + O⎝eps ⎠
+                   ⎝dr      ⎠                      ⎝dr      ⎠           

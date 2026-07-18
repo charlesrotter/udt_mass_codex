@@ -12,8 +12,8 @@ conditional where stamped; this packet advances no mass, action, or carrier conc
 `UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md` §3; older imported “candidate” wording remains
 visible as derivation-time provenance.
 
-**Status: STAGE I AUTHORIZED BY CHARLES. Launch Arm A and Arm B only. Arm C, Stage II, and GPU work
-remain NOT AUTHORIZED.**
+**Status: STAGE I COMPLETE AND FROZEN. Arm A and Arm B packages were returned for Charles's audit in
+`UDT_NATIVE_ACTION_STAGE1_RETURN_2026-07-18.md`. Arm C, Stage II, and GPU work remain NOT AUTHORIZED.**
 
 ---
 

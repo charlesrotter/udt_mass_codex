@@ -71,3 +71,11 @@ or cross-arm convergence claim occurs in Stage I.
 After those checks, every file in each arm package receives a SHA-256 entry. The manifest itself is
 then hashed from outside the package. Both package directories and manifest hashes are frozen before
 any Stage-II disclosure. Any failed exposure declaration or input-hash mismatch forces a cold restart.
+
+## Return — 2026-07-18
+
+Both arms completed and passed the preregistered mechanical gate. The frozen packages, exact session
+provenance, raw transcripts, CAS bundles, per-file manifests, external manifest hashes, and Arm A's
+noncontaminating private-tmpfs scope disclosure are recorded in
+`UDT_NATIVE_ACTION_STAGE1_RETURN_2026-07-18.md`. No Stage-II material was disclosed, and Arm C and GPU
+work were not launched.
