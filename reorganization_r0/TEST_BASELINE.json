@@ -1,0 +1,12 @@
+{
+  "baseline_match": true,
+  "command": "python3 -m pytest tests/",
+  "date": "2026-07-18",
+  "expected_failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+  "failed": 1,
+  "passed": 69,
+  "python": "3.10.12",
+  "returncode": 1,
+  "scope": "existing tests at the bfa0b9a R0 base; no test or physics file edited",
+  "xfailed": 1
+}

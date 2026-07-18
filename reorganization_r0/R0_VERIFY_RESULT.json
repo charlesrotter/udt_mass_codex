@@ -1,0 +1,153 @@
+{
+  "base_commit": "bfa0b9a9371fab0266315bc2bb6845b8a7446a18",
+  "base_diff_additions_only": true,
+  "base_diff_entries": [
+    [
+      "A",
+      "README.md"
+    ],
+    [
+      "A",
+      "REORGANIZATION_R0_PREREG_2026-07-18.md"
+    ],
+    [
+      "A",
+      "reorganization_r0/DEPENDENCY_MAP.tsv"
+    ],
+    [
+      "A",
+      "reorganization_r0/DEPENDENCY_SUMMARY.md"
+    ],
+    [
+      "A",
+      "reorganization_r0/DIRTY_WORKSTATION_INVENTORY.tsv"
+    ],
+    [
+      "A",
+      "reorganization_r0/PROPOSED_DIRECTORY_TREE.md"
+    ],
+    [
+      "A",
+      "reorganization_r0/R0_AUDIT_REPORT.md"
+    ],
+    [
+      "A",
+      "reorganization_r0/R0_VERIFY_RESULT.json"
+    ],
+    [
+      "A",
+      "reorganization_r0/README.md"
+    ],
+    [
+      "A",
+      "reorganization_r0/ROOT_FILE_INVENTORY.tsv"
+    ],
+    [
+      "A",
+      "reorganization_r0/ROOT_RETENTION.tsv"
+    ],
+    [
+      "A",
+      "reorganization_r0/SCAN_SUMMARY.json"
+    ],
+    [
+      "A",
+      "reorganization_r0/TEST_BASELINE.json"
+    ],
+    [
+      "A",
+      "reorganization_r0/TEST_BASELINE.txt"
+    ],
+    [
+      "A",
+      "reorganization_r0/build_navigation_outputs.py"
+    ],
+    [
+      "A",
+      "reorganization_r0/build_r0_inventory.py"
+    ],
+    [
+      "A",
+      "reorganization_r0/run_test_baseline.py"
+    ],
+    [
+      "A",
+      "reorganization_r0/verify_r0_inventory.py"
+    ]
+  ],
+  "catchproof": {
+    "bad_sha256_rejected": "PASS",
+    "duplicate_root_row_rejected": "PASS",
+    "missing_dependency_category_rejected": "PASS",
+    "missing_root_row_rejected": "PASS",
+    "modified_base_path_rejected": "PASS",
+    "unknown_classification_rejected": "PASS"
+  },
+  "date": "2026-07-18",
+  "dependency_categories": [
+    "FILE_PATH",
+    "MANIFEST",
+    "MARKDOWN_LINK",
+    "PYTHON_IMPORT",
+    "STARTUP",
+    "TEST",
+    "TEXT_REFERENCE"
+  ],
+  "dependency_edges_checked": 14865,
+  "dirty_rows_verified_metadata_only": 54,
+  "frozen_packages": [
+    {
+      "entries": 29,
+      "label": "stage1_A",
+      "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+      "result": "PASS"
+    },
+    {
+      "entries": 15,
+      "label": "stage1_B",
+      "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+      "result": "PASS"
+    },
+    {
+      "entries": 13,
+      "label": "stage2_A",
+      "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+      "result": "PASS"
+    },
+    {
+      "entries": 13,
+      "label": "stage2_B",
+      "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+      "result": "PASS"
+    },
+    {
+      "entries": 21,
+      "label": "arm_C",
+      "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+      "result": "PASS"
+    },
+    {
+      "entries": 36,
+      "label": "final_adjudication",
+      "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+      "result": "PASS"
+    }
+  ],
+  "mode": "INDEPENDENT_MECHANICAL_STATIC_VALIDATOR",
+  "result": "PASS",
+  "root_references_independently_recomputed": true,
+  "root_rows_verified": 1131,
+  "semantic_caveat": "Hashes, coverage, references, categories, dirty metadata, and additions-only scope are mechanically verified. R0 classifications are conservative proposals, not move authorization.",
+  "test_baseline": {
+    "baseline_match": true,
+    "command": "python3 -m pytest tests/",
+    "date": "2026-07-18",
+    "expected_failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "failed": 1,
+    "passed": 69,
+    "python": "3.10.12",
+    "returncode": 1,
+    "scope": "existing tests at the bfa0b9a R0 base; no test or physics file edited",
+    "xfailed": 1
+  }
+}
