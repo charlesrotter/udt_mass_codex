@@ -1,0 +1,13 @@
+{
+  "audit_tsv_sha256": "dbd631424bed590e11699f4bd06fd5a225391ea19b272b439051861fbb6b0f20",
+  "candidates": 4,
+  "external_sympy_import_only": 4,
+  "file_io_or_output": 0,
+  "frontier_hits": 0,
+  "frozen_package_hits": 0,
+  "manifest_hits": 0,
+  "operational_inbound_edges": 0,
+  "result": "PASS",
+  "runtime_relative_paths": 0,
+  "test_hits": 0
+}

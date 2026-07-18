@@ -1,0 +1,21 @@
+{
+  "base": "14ba31a77aed1553c5df8ecd59b0f7a000c10e20",
+  "behaviorally_identical": 4,
+  "current_map_rows": 1114,
+  "duplicate_copies": 0,
+  "fixed_r0_r1e_changes": 0,
+  "identical_blobs": 4,
+  "identical_sha256": 4,
+  "mode": "R1F_PRECOMMIT_MIGRATION_VERIFY",
+  "preregistration_commit": "fa211047fd9d81fcc64c424376facc6378837dfc",
+  "r100_renames": 4,
+  "result": "PASS",
+  "stale_current_navigation_pointers": 0,
+  "status_counts": {
+    "MIGRATED_R1D": 1,
+    "MIGRATED_R1F": 4,
+    "ROOT_RETAINED": 1109
+  },
+  "unique_current_paths": 1114,
+  "unique_original_paths": 1114
+}

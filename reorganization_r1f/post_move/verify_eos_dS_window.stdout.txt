@@ -1,0 +1,45 @@
+=== Einstein mixed components (readout) ===
+G^t_t   = (r*Derivative(A(r), r) + A(r) - 1)/r**2
+G^r_r   = (r*Derivative(A(r), r) + A(r) - 1)/r**2
+G^theta_theta = Derivative(A(r), (r, 2))/2 + Derivative(A(r), r)/r
+
+rho  ~ -G^t_t   = (-r*Derivative(A(r), r) - A(r) + 1)/r**2
+p_r  ~  G^r_r   = (r*Derivative(A(r), r) + A(r) - 1)/r**2
+p_t  ~  G^th_th = Derivative(A(r), (r, 2))/2 + Derivative(A(r), r)/r
+
+p_r + rho simplifies to: 0
+
+=== ODE p_t = w rho ===
+Eq(Derivative(A(r), (r, 2))/2 + Derivative(A(r), r)/r, w*(-r*Derivative(A(r), r) - A(r) + 1)/r**2)
+
+General solution:
+Eq(A(r), Piecewise((C1/r**(2*w) + C2/r + 1, (w > 0) | (w < 0)), ((2*C1*w/r**(2*w) - C1/r**(2*w) + 2*C2*w/r - C2/r + 2*w - 2*w*log(r)/r**(2*w))/(2*w - 1), True)))
+
+
+=================================================================
+ PART 2: verify power family A=1-(r/X)^beta, beta=-2w
+=================================================================
+p_t/rho for A=1-(r/X)^beta : -beta/2   (expect -beta/2 = w)
+Ricci scalar R = r**(beta - 2)*(beta**2 + 3*beta + 2)/X**beta   (doc: (beta+1)(beta+2) r^(beta-2)/X^beta)
+  check vs doc: 0
+
+--- Center regularity: R finite as r->0 requires exponent (beta-2) >= 0 -> beta>=2 -> w<=-1
+  L (beta=1, w=-1/2): R = 6/(X*r) ,  R(r->0) = oo
+  dS (beta=2, w=-1): R = 12/X**2 ,  R(r->0) = 12/X**2
+  beta=3, w=-3/2: R = 20*r/X**3 ,  R(r->0) = 0
+  beta=1/2, w=-1/4: R = 15/(4*sqrt(X)*r**(3/2)) ,  R(r->0) = oo
+
+--- DEC analysis (rho>0, |p_r|<=rho, |p_t|<=rho) ---
+rho(A=1-(r/X)^beta) = r**(beta - 2)*(beta + 1)/X**beta
+sign of rho: for X>0,r>0 rho = (beta+1) r^(beta-2)/X^beta -> positive for beta>-1
+  simplified rho: (r/X)**beta*(beta + 1)
+|p_t|<=rho  <=>  |w|<=1  (with rho>0)  ->  w in [-1,1]; combined w<0 => w in [-1,0)
+Center-regular w<=-1  INTERSECT  DEC w>=-1  ==>  w = -1 UNIQUELY
+
+--- de Sitter member beta=2 ---
+A_dS = 1 - r**2/X**2  rho = 3/X**2  p_t = -3/X**2  p_t/rho = -1
+rho uniform = 3/X**2  (doc: 3/(8pi X^2) with 8piG=1 convention gives rho=3/X^2? check factor)
+R_dS = 12/X**2
+
+--- Does the DROPPED C2/r term matter? (Schwarzschild mass term) ---
+Ricci scalar of A=1+C2/r : 0 (=0: Schwarzschild vacuum, but K~1/r^6 singular at 0)
