@@ -24,4 +24,4 @@ Sources: [`FINAL_STATUS_LEDGER.tsv`](../native_action_final_adjudication_2026-07
 
 ## Migration boundary
 
-R1D moved one byte-identical canary artifact into the macro lane. The fixed-base ownership and readiness tables remain unchanged historical audit snapshots; use `CURRENT_ARTIFACT_PATHS.tsv` for present paths. The prior ranked proposal remains fixed R1C history in [`FIRST_ACTIVE_FAMILY_MIGRATION_RECOMMENDATION.md`](_registry/FIRST_ACTIVE_FAMILY_MIGRATION_RECOMMENDATION.md). No further migration is authorized by this index.
+Five active artifacts have moved byte-identically: the R1D S8 note and the four R1F/B01 macro SymPy verifiers, whose pre/post behavior was also verified byte-for-byte. The fixed-base ownership/readiness tables and R1E planning records remain unchanged historical snapshots. Use [`CURRENT_ARTIFACT_PATHS.tsv`](_registry/CURRENT_ARTIFACT_PATHS.tsv) for present paths and [`MIGRATION_LEDGER.tsv`](_registry/MIGRATION_LEDGER.tsv) for migration provenance. B02/B03 remain proposals; no further migration is authorized by this index.

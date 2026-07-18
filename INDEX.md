@@ -2,9 +2,12 @@
 
 **⚠ BRANCH: `grok` (2026-07-10)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
-**R1 REORGANIZATION CHECKPOINT:** R0–R1D is complete. Fixed historical inventories remain immutable;
-resolve present locations through `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`. One active
-artifact moved byte-identically in R1D. No further migration is authorized yet.
+**R1 REORGANIZATION CHECKPOINT:** R1E batch planning and R1F/B01 are complete. Fixed historical
+inventories and planning records remain immutable. Five active artifacts moved byte-identically:
+one R1D note and four behaviorally verified R1F macro verifiers. Resolve present locations through
+`research/_registry/CURRENT_ARTIFACT_PATHS.tsv` and migration provenance through
+`research/_registry/MIGRATION_LEDGER.tsv`. B02/B03 remain proposals; no further migration is
+authorized.
 **➤ LIVE PARTICLE-MASS ARC (2026-07-17, separate lane — arc COMPLETE through F; awaiting Charles):**
 Read LIVE.md CURRENT STATE topmost layer. Result docs: `noNull_phaseG_mass_results.md` (conditional mass
 readout, virial-gap finding) + `noNull_boundary_virial_results.md` (BOX-STRESS LEAD) +

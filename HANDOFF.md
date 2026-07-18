@@ -5,14 +5,17 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-10).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-18 — H3 particle-mass arc complete; native-action final adjudication and selector audit complete; R0–R1D reorganization checkpoint complete)
+## CURRENT (2026-07-18 — H3 particle-mass arc complete; native-action final adjudication and selector audit complete; R0–R1F reorganization checkpoint complete)
 
 **Read LIVE.md CURRENT STATE topmost layer first.** Session arc 07-13→16 in one paragraph:
 
-**R1 REORGANIZATION CHECKPOINT COMPLETE:** R0–R1D is integrated. Fixed historical inventories,
-preregistrations, and verification records remain immutable. Resolve current artifact locations
-through `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`. R1D moved one active artifact
-byte-identically into `research/macro/`; no further migration is authorized yet.
+**R1 REORGANIZATION CHECKPOINT COMPLETE:** R1E batch planning and R1F/B01 are integrated. Fixed
+historical inventories, preregistrations, planning records, and verification records remain
+immutable. Five active artifacts moved byte-identically: the R1D S8 note and the four R1F macro
+SymPy verifiers; B01 was behaviorally verified before and after movement. Resolve current locations
+through `research/_registry/CURRENT_ARTIFACT_PATHS.tsv` and migration provenance through
+`research/_registry/MIGRATION_LEDGER.tsv`. B02/B03 remain proposals; no further migration is
+authorized.
 
 **NATIVE-ACTION ADJUDICATION COMPLETE AND FROZEN (2026-07-18; `ded310a`):** the mechanical A/B/C
 adjudication is under `native_action_final_adjudication_2026-07-18/`. Read

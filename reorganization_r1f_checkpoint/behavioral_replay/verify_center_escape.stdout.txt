@@ -1,0 +1,11 @@
+L re-centered, in r'=r-b: (X - b - rp)/(X - b)   (expect 1 - r'/(X-b))
+  matches 1 - r'/(X-b)? True
+
+dS re-centered, in r'=r-b: (X**2 - (b + rp)**2)/(X**2 - b**2)
+dS re-centered series in r': X**2/(X**2 - b**2) - b**2/(X**2 - b**2) - 2*b*rp/(X**2 - b**2) - rp**2/(X**2 - b**2)
+  const term (want 1): 1  ; linear term in r' (want 0): 2*b/(-X**2 + b**2)
+  => dS re-centering produces a LINEAR term: True -> dS is NOT closed under multiplicative re-centering (not a member).
+
+Family A=(1-r/X)^(1/s): A'(0) = -1/(X*s)  (zero only if 1/s=0 i.e. trivial, or X->oo)
+A'(0)=0 within family  <=>  alpha=0 (A=const=1, NO wall) or X->oo (no wall).
+=> No non-trivial center-regular member of the re-centering family. NO ESCAPE.

@@ -1,0 +1,9 @@
+{
+  "ancestor": true,
+  "merge_base": "b59005dba9acaf6c575185876655bd6a5c792094",
+  "observed_origin_grok": "b59005dba9acaf6c575185876655bd6a5c792094",
+  "preregistration_commit": "a5546429cf2c6606785b07173ac1bb69d2c6f5df",
+  "result": "PASS",
+  "source_ahead_commit_count": 5,
+  "source_tip": "3bb88a6b6cfc223d308b8bae6e27d69b1a1b119f"
+}

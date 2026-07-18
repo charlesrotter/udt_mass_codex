@@ -1,0 +1,23 @@
+=== General A(r) invariants ===
+R  = (-r**2*Derivative(A(r), (r, 2)) - 4*r*Derivative(A(r), r) - 2*A(r) + 2)/r**2
+K  = (r**4*Derivative(A(r), (r, 2))**2 + 4*r**2*Derivative(A(r), r)**2 + 4*A(r)**2 - 8*A(r) + 4)/r**4
+
+=== On L (A=1-r/X) ===
+R_L = 6/(X*r)
+K_L = 8/(X**2*r**2)
+leading R_L as r->0: 6/(X*r)
+leading K_L as r->0: 8/(X**2*r**2)
+lim r*R_L : 6/X
+lim r^2*K_L : 8/X**2
+
+=== On family (1-r/X)^alpha ===
+lim r*R_f  : 6*alpha/X
+lim r^2*K_f: 8*alpha**2/X**2
+A'(0) family = -alpha/X
+A'(0) L      = -1/X
+
+=== General Taylor center A=1+a1 r+a2 r^2+... ===
+R series: -6*a1/r - 12*a2 - 20*a3*r
+K series: 80*a2*a3*r + 24*a2**2 + 32*a1*a3 + 24*a1*a2/r + 8*a1**2/r**2 + O(r**2)
+R finite at 0 requires a1=0? R|a1=0: -12*a2
+K finite at 0 requires a1=0? K|a1=0: 24*a2**2

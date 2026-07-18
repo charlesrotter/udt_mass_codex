@@ -1,0 +1,176 @@
+{
+  "all_changed_paths": [
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "README.md",
+    "reorganization_r1f_checkpoint/PREFLIGHT_RESULT.json",
+    "reorganization_r1f_checkpoint/R1F_CHECKPOINT_INTEGRATION_AUDIT.md",
+    "reorganization_r1f_checkpoint/R1F_CHECKPOINT_INTEGRATION_PREREGISTRATION.md",
+    "reorganization_r1f_checkpoint/VERIFY_RESULT.json",
+    "reorganization_r1f_checkpoint/behavioral_replay/BEHAVIORAL_REPLAY.tsv",
+    "reorganization_r1f_checkpoint/behavioral_replay/verify_center_escape.stderr.txt",
+    "reorganization_r1f_checkpoint/behavioral_replay/verify_center_escape.stdout.txt",
+    "reorganization_r1f_checkpoint/behavioral_replay/verify_center_nogo.stderr.txt",
+    "reorganization_r1f_checkpoint/behavioral_replay/verify_center_nogo.stdout.txt",
+    "reorganization_r1f_checkpoint/behavioral_replay/verify_eos_dS_window.stderr.txt",
+    "reorganization_r1f_checkpoint/behavioral_replay/verify_eos_dS_window.stdout.txt",
+    "reorganization_r1f_checkpoint/behavioral_replay/verify_wrl_canon.stderr.txt",
+    "reorganization_r1f_checkpoint/behavioral_replay/verify_wrl_canon.stdout.txt",
+    "reorganization_r1f_checkpoint/final_validation/TEST_BASELINE.json",
+    "reorganization_r1f_checkpoint/final_validation/TEST_BASELINE.txt",
+    "reorganization_r1f_checkpoint/verify_r1f_checkpoint.py",
+    "research/README.md",
+    "research/_registry/README.md"
+  ],
+  "authorized_existing_files_changed": [
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "README.md",
+    "research/README.md",
+    "research/_registry/README.md"
+  ],
+  "b02_b03_authorized": false,
+  "behavioral_record_pairs_verified": 4,
+  "behavioral_replays_verified": [
+    {
+      "command": "env CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 timeout 30s python3 research/macro/verify_center_escape.py",
+      "executed_path": "research/macro/verify_center_escape.py",
+      "exit_code": 0,
+      "original_path": "verify_center_escape.py",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_size": 0,
+      "stdout_sha256": "f3e0c8d0212d5c01e54abc8de013dd3b62a98b3f6b5583a254c135808c3deff9",
+      "stdout_size": 715
+    },
+    {
+      "command": "env CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 timeout 30s python3 research/macro/verify_center_nogo.py",
+      "executed_path": "research/macro/verify_center_nogo.py",
+      "exit_code": 0,
+      "original_path": "verify_center_nogo.py",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_size": 0,
+      "stdout_sha256": "a9eae7d513ef994897f04e139f38281dd4372628c443d0d4d3180629e4cbed59",
+      "stdout_size": 762
+    },
+    {
+      "command": "env CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 timeout 30s python3 research/macro/verify_eos_dS_window.py",
+      "executed_path": "research/macro/verify_eos_dS_window.py",
+      "exit_code": 0,
+      "original_path": "verify_eos_dS_window.py",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_size": 0,
+      "stdout_sha256": "310a145c46a66d82c3cbd99df568a41ec562a98b648a6fbacbb3dfd5522bc2d4",
+      "stdout_size": 2151
+    },
+    {
+      "command": "env CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 timeout 30s python3 research/macro/verify_wrl_canon.py",
+      "executed_path": "research/macro/verify_wrl_canon.py",
+      "exit_code": 0,
+      "original_path": "verify_wrl_canon.py",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_size": 0,
+      "stdout_sha256": "49864b66db59f6f5a4e053f70c4c051f9537d514bd2e3bc1631cfc68888714c8",
+      "stdout_size": 2019
+    }
+  ],
+  "catchproof": {
+    "behavior_hash_mismatch_rejected": "PASS",
+    "broken_link_rejected": "PASS",
+    "current_map_mismatch_rejected": "PASS",
+    "dirty_metadata_drift_rejected": "PASS",
+    "invalid_ledger_parent_rejected": "PASS",
+    "manifest_mutation_rejected": "PASS",
+    "non_r100_move_rejected": "PASS",
+    "unauthorized_edit_rejected": "PASS",
+    "unexpected_origin_grok_rejected": "PASS"
+  },
+  "current_map": {
+    "rows": 1114,
+    "status_counts": {
+      "MIGRATED_R1D": 1,
+      "MIGRATED_R1F": 4,
+      "ROOT_RETAINED": 1109
+    },
+    "unique_current_paths": 1114,
+    "unique_original_paths": 1114
+  },
+  "dirty_checkout_metadata_rows": 54,
+  "dirty_content_policy": "NOT_READ",
+  "frontier_rows": 306,
+  "frontier_unique_targets": 101,
+  "frozen_manifest_replays": [
+    {
+      "manifest_entries_passed": 29,
+      "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+      "package": "native_action_stage1_2026-07-18/arm_A",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_source": 30
+    },
+    {
+      "manifest_entries_passed": 15,
+      "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+      "package": "native_action_stage1_2026-07-18/arm_B",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_source": 16
+    },
+    {
+      "manifest_entries_passed": 13,
+      "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+      "package": "native_action_stage2_2026-07-18/arm_A",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_source": 14
+    },
+    {
+      "manifest_entries_passed": 13,
+      "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+      "package": "native_action_stage2_2026-07-18/arm_B",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_source": 14
+    },
+    {
+      "manifest_entries_passed": 21,
+      "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+      "package": "native_action_arm_c_2026-07-18",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_source": 22
+    },
+    {
+      "manifest_entries_passed": 36,
+      "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+      "package": "native_action_final_adjudication_2026-07-18",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_source": 37
+    }
+  ],
+  "identical_r100_count": 4,
+  "ledger_self_reference": false,
+  "markdown_links_verified": 64,
+  "merge_base": "b59005dba9acaf6c575185876655bd6a5c792094",
+  "migration_commit": "c4cf405bba49625a9352a022b60754e7249c27f9",
+  "migration_ledger_rows": 4,
+  "mode": "R1F_CHECKPOINT_FAIL_CLOSED_VERIFY",
+  "origin_grok_preintegration": "b59005dba9acaf6c575185876655bd6a5c792094",
+  "r100_renames": [
+    "R100\tverify_center_escape.py\tresearch/macro/verify_center_escape.py",
+    "R100\tverify_center_nogo.py\tresearch/macro/verify_center_nogo.py",
+    "R100\tverify_eos_dS_window.py\tresearch/macro/verify_eos_dS_window.py",
+    "R100\tverify_wrl_canon.py\tresearch/macro/verify_wrl_canon.py"
+  ],
+  "result": "PASS",
+  "rollback_parent": "fa211047fd9d81fcc64c424376facc6378837dfc",
+  "source_commits_ahead": 5,
+  "source_tip": "3bb88a6b6cfc223d308b8bae6e27d69b1a1b119f",
+  "test_baseline": {
+    "baseline_match": true,
+    "command": "python3 -m pytest tests/",
+    "expected_failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "failed": 1,
+    "passed": 69,
+    "python": "3.10.12",
+    "returncode": 1,
+    "scope": "R1F_CHECKPOINT_INTEGRATION",
+    "xfailed": 1
+  }
+}

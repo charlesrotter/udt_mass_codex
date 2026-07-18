@@ -30,16 +30,18 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-18 — H3 PARTICLE-MASS arc COMPLETE THROUGH F: stability SETTLED (twice-verified) → G conditional mass readout → boundary-virial (BOX-STRESS LEAD) → audit patch → **F finite-slice characterization DONE (83 endpoints, no resolved basin exit; single robust basin = STRONG LEAD; verifier 51/51)**. Native-action Stage I/II A/B, adversarial Arm C, final A/B/C adjudication, external clean-environment verification, and GR→UDT selector audit COMPLETE. R0–R1D REORGANIZATION CHECKPOINT COMPLETE; one active artifact migrated byte-identically; no further migration authorized. Canonization, GPU work, and further arms NOT launched.) ============
+## ============ CURRENT STATE (2026-07-18 — H3 PARTICLE-MASS arc COMPLETE THROUGH F: stability SETTLED (twice-verified) → G conditional mass readout → boundary-virial (BOX-STRESS LEAD) → audit patch → **F finite-slice characterization DONE (83 endpoints, no resolved basin exit; single robust basin = STRONG LEAD; verifier 51/51)**. Native-action Stage I/II A/B, adversarial Arm C, final A/B/C adjudication, external clean-environment verification, and GR→UDT selector audit COMPLETE. R0–R1F REORGANIZATION CHECKPOINT COMPLETE; five active artifacts migrated byte-identically; no further migration authorized. Canonization, GPU work, and further arms NOT launched.) ============
 
 **➤➤➤ R1 REORGANIZATION CHECKPOINT (2026-07-18):**
-- **✅ R0–R1D COMPLETE:** fixed historical inventories, preregistrations, and verification records
-  remain immutable. Current artifact locations are resolved through
-  `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`.
-- **✅ ONE ACTIVE CANARY MIGRATED BYTE-IDENTICALLY:** R1D moved the S8 provenance note into
-  `research/macro/` with R100, unchanged Git blob and SHA-256, and no duplicate copy.
-- **STOP / AUTHORITY BOUNDARY:** no further migration, R1E, physics work, or GPU work is authorized
-  by this checkpoint.
+- **✅ R0–R1F COMPLETE:** fixed historical inventories, preregistrations, planning records, and
+  verification records remain immutable. R1E batch planning is complete; R1F/B01 moved the active
+  macro SymPy verifier quartet and behaviorally verified identical pre/post execution.
+- **✅ FIVE ACTIVE ARTIFACTS MIGRATED BYTE-IDENTICALLY:** the R1D S8 note plus the four R1F
+  verifiers retain their Git blobs and SHA-256 values. Resolve present locations through
+  `research/_registry/CURRENT_ARTIFACT_PATHS.tsv` and migration provenance through
+  `research/_registry/MIGRATION_LEDGER.tsv`.
+- **STOP / AUTHORITY BOUNDARY:** B02/B03 remain proposals. No further migration, physics work,
+  canonization, or GPU work is authorized by this checkpoint.
 
 **➤➤➤ NATIVE-ACTION FINAL ADJUDICATION + SELECTOR AUDIT (2026-07-18):**
 - **✅ FINAL A/B/C ADJUDICATION FROZEN AT `ded310a`:** read
