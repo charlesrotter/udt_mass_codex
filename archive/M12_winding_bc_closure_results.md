@@ -19,7 +19,7 @@ Sources synthesized (all committed, quoted by finding; none recomputed):
 `NEGATIVES_REGISTRY.md` #61, `FOUNDATIONAL_ASSUMPTIONS_LEDGER.md` (M12 row),
 `F0_SYSTEMATIC_AUDIT_results.md` (M12),
 `native_dilation_weight_derivation_results.md` (the derived operator + angular obstruction),
-`static_soliton_rerun_derived_operator_results.md`, `STEP2_timelive_matter_results.md`,
+`archive/pre_2026-07-01/static_soliton_rerun_derived_operator_results.md`, `archive/pre_2026-07-01/STEP2_timelive_matter_results.md`,
 `P5e_proper_results.md` (the three derived-operator solves — all charge-1 only).
 
 ---
@@ -110,10 +110,10 @@ m-catalog rides the import.
 The imported m>=2 ladder is **NOT used in any derived-operator result.** Confirmed by
 direct read of all three live-program solves on the newly-derived two-player operator:
 
-- `static_soliton_rerun_derived_operator_results.md` — premise P3: "**Charge-1 hedgehog:
+- `archive/pre_2026-07-01/static_soliton_rerun_derived_operator_results.md` — premise P3: "**Charge-1 hedgehog:
   Theta(0)=pi, Theta(seal)=0** ... Did NOT build the m>=2 ladder. The core value pi is a
   **NODE selecting degree-1, not the forbidden m*pi twist ladder**."
-- `STEP2_timelive_matter_results.md` — premise Pr-charge: "Charge-1 hedgehog ... **No m>=2
+- `archive/pre_2026-07-01/STEP2_timelive_matter_results.md` — premise Pr-charge: "Charge-1 hedgehog ... **No m>=2
   winding ladder built.**" GATE A: Theta core->seal 3.142 -> 0.000 (clean charge-1).
 - `P5e_proper_results.md` — premise Pr-charge: "Charge-1 hedgehog ... **No m>=2 ladder.**"
 

@@ -8,7 +8,7 @@ Native S^2 area-form (pi_2) carrier + the NATIVE r=0-NODE core condition
 soliton M_MS ~ 0.28-0.30 with the native-S^2 Theta-free sector (Gate-B control).
 
 Driver: Claude (Opus 4.8, 1M).  2026-06-19.  OBSERVE.  DATA-BLIND.
-Frame: coupled_timelive_solve_CONTRACT.md S1/S(Stage 1a).
+Frame: archive/pre_2026-07-01/coupled_timelive_solve_CONTRACT.md S1/S(Stage 1a).
 
 WHAT REUSES vs MODIFIES:
   REUSE (verbatim physics): the carrier-robust DIAGONAL stress (rho, p_r) and the

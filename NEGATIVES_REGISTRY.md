@@ -154,7 +154,7 @@ Doc: `universe_cell_vacuum_impossibility_results.md`.
 
 **The derived-operator soliton corpus is SCOPED to the IMPORTED S³ baryon (Object A); UDT's NATIVE S²
 matter is UNSOLVED on the derived operator.** Re-derivation + blind verification
-(matter_object_identity_native_vs_import_results.md; re-deriver a1e6f30e0156bd566, verifier a5d8a017511eda669,
+(archive/pre_2026-07-01/matter_object_identity_native_vs_import_results.md; re-deriver a1e6f30e0156bd566, verifier a5d8a017511eda669,
 SUPPORTED-WITH-REVISIONS) established: the matter object that `static_soliton_rerun`, the **round gate**
 (b1prime_round_gate; Gate A, the B=1/A matter-kinetic break, the box-control 1/R² tower, the single negative
 Derrick mode), **STEP2**, **P5e-proper**, and the **B1' off-round slices** all solved is the **S³/π₃ Skyrme
@@ -193,9 +193,9 @@ This re-grade supplies leaning, not a verdict. A blind verifier attacks it next.
 
 ## *** 2026-06-21 BANKED-RESULT CORRECTION (not a negative; logged here per Charles's instruction) ***
 
-**`static_soliton_rerun_derived_operator_results.md` — "tiny 1/r scalar hair q.|X|~0.5" is CONDITIONS-
+**`archive/pre_2026-07-01/static_soliton_rerun_derived_operator_results.md` — "tiny 1/r scalar hair q.|X|~0.5" is CONDITIONS-
 CHANGED -> CORRECTED.** The B1' round-gate cleanup + blind verifier
-(`b1prime_round_gate_derived_operator_results.md`, agent a6b142162a3211abd) showed that hair magnitude
+(`archive/pre_2026-07-01/b1prime_round_gate_derived_operator_results.md`, agent a6b142162a3211abd) showed that hair magnitude
 is a GRID-FIT ARTIFACT: the 1/r body-fit does not converge (the doc's number diverges 0.5->1.3 with
 resolution; an independent reconstruction's flips sign), `|phi|max`->0 with refinement, and the
 CONSERVED scalar flux ~= 0 on both solvers (interior noise floor ~1e-6). The doc's own "SOFT — coarse
@@ -345,7 +345,7 @@ mechanism" (Principle 1, restated post-postulate).
 ## Coefficient / Tier-D blockers
 
 10. TIER-D ROUNDS 1-3 CLEAN MISSES (126/126, 740/740, 12/12)
-    — lepton_ladder_test_results.md, tier_d_round2_results.md,
+    — archive/pre_2026-07-01/lepton_ladder_test_results.md, tier_d_round2_results.md,
     tier_d_round3_results.md.
     Premises: each round's pre-registered frozen candidate set (scoped
     by construction via contracts).
@@ -2095,10 +2095,10 @@ CS5. THE SEAL IS NOT THE BELL-NONLOCALITY CHANNEL (no-signaling + self/terminus 
 ## Coupled time-live native-matter solve (Step 1, 2026-06-19, blind-verified)
 #65. THE FULLY-COUPLED TIME-LIVE NATIVE BREATHER WITH FINITE-AMPLITUDE NONLINEAR BACK-REACTION OPENS NO NEW
    DISCRETE BOUND LEVEL -- IT SOFTENS THE LADDER TOWARD A TACHYON (=> one charge-1 carrier = one particle,
-   #44 confirmed even with the back-reaction). Docs: coupled_timelive_solve_results.md (+CONTRACT
-   coupled_timelive_solve_CONTRACT.md, pre-registered; +blind verifier coupled_timelive_VERIFIER.md
+   #44 confirmed even with the back-reaction). Docs: archive/pre_2026-07-01/coupled_timelive_solve_results.md (+CONTRACT
+   archive/pre_2026-07-01/coupled_timelive_solve_CONTRACT.md, pre-registered; +blind verifier archive/pre_2026-07-01/coupled_timelive_VERIFIER.md
    af6b5caadb494bde2, STANDS). The explicitly-authorized "one shot against the tripwire": the reduced proxy
-   (timelive_nonround_native_solve_results.md) flagged the fully-coupled nonlinear amplitude back-reaction as
+   (archive/pre_2026-07-01/timelive_nonround_native_solve_results.md) flagged the fully-coupled nonlinear amplitude back-reaction as
    the ONE place a deeper binding could hide; this push BUILT it (native S^2/pi_2 carrier, Theta-FREE with the
    r=0 node condition replacing the imported Skyrme BC #61 -- calibration M_MS=0.281; live time axis;
    metric a,b + matter Th0 + mode u re-solved self-consistently with the A^2 mode energy in <T>). RESULT: the

@@ -11,7 +11,7 @@ attacked hardest per the charter. SURVIVES / SUPERSEDED / STILL-OPEN are all fir
 
 ## STEP 1 — the original claim + its premises (reconstructed)
 
-**Primary doc:** `matter_object_identity_native_vs_import_results.md` (2026-06-21/22; re-deriver
+**Primary doc:** `archive/pre_2026-07-01/matter_object_identity_native_vs_import_results.md` (2026-06-21/22; re-deriver
 a1e6f30e0156bd566, blind verifier a5d8a017511eda669; verdict SUPPORTED-WITH-REVISIONS; NOT canon —
 tagged a "scoping/provenance result"). Registry entry: NEGATIVES_REGISTRY.md:88–102 ("2026-06-21
 OBJECT-IDENTITY SCOPING"). Supporting archive: `archive/s2_s3_identity_results.md`,
@@ -110,7 +110,7 @@ Three separable pieces:
   UPGRADES the original "OPEN" to a POSITIVE native argument.
 - **Positive half ("matter-in-motion IS a field/defect with computed dynamics") → STILL-OPEN.** r2_prereg
   states orbital dynamics *"should ultimately come from field solutions"* (a "should," not a solve). The old
-  time-live coupled solve (`coupled_timelive_solve_results.md`) rode the CONDITIONS-CHANGED box-control frame
+  time-live coupled solve (`archive/pre_2026-07-01/coupled_timelive_solve_results.md`) rode the CONDITIONS-CHANGED box-control frame
   and carries no authority. The native moving-field / defect-dynamics solve has NOT been run (awaits E2c
   existence + D4 ω≠0). **Verdict: split — negative CLEAN-CURRENT, positive STILL-OPEN.**
 

@@ -4,7 +4,7 @@ coupled_tl_gates.py -- STAGE 2: RUN + OBSERVE the coupled time-live breather und
 the CONTRACT gates A/B/C.
 
 Driver: Claude (Opus 4.8, 1M).  2026-06-19.  OBSERVE, not targeting.  DATA-BLIND.
-Frame: coupled_timelive_solve_CONTRACT.md S2 (the gates), S4 (decision table).
+Frame: archive/pre_2026-07-01/coupled_timelive_solve_CONTRACT.md S2 (the gates), S4 (decision table).
 
 GATE A -- BOX-CONTROL (3 criteria; a level claimed INTRINSIC must pass ALL):
   A1 no 1/R scaling: level flat (<few%) across >=8x cell-size range.

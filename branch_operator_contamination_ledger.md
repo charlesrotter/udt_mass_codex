@@ -67,16 +67,16 @@ building blocks reused by the assembly) + `check_winding_survival.py` (kap8 save
 | 4 | `ponder_horizon_signatures` (kap8 saved-field) | scalar-tensor | horizon signatures | NO — inherits #1 | inherits #77 quarantine |
 | 5 | `native_object_characterization` (kap8 saved-field) | scalar-tensor | object characterization | NO — inherits #1 | inherits #77 quarantine |
 | 6 | `branchP_solver_floor_xcontinuation_results.md` (#66) | scalar-tensor (X=−2e5) | NO interior localization (negative) | YES — #66 (frame-robust, sharpened by #76) | registry #66 CONDITIONS-CHANGED note → #76 |
-| 7 | `static_soliton_rerun_derived_operator_results.md` | scalar-tensor (X=−2e5) | L=1 localization; B=1/A break; 1/r hair (→null) | YES — object-identity + banked-correction + 07-04 | in-file SUPERSEDED stamp |
-| 8 | `STEP2_timelive_matter_results.md` | scalar-tensor (X=−2e5) | box-control / must-quantize | YES — object-identity + 07-04 | in-file SUPERSEDED stamp |
+| 7 | `archive/pre_2026-07-01/static_soliton_rerun_derived_operator_results.md` | scalar-tensor (X=−2e5) | L=1 localization; B=1/A break; 1/r hair (→null) | YES — object-identity + banked-correction + 07-04 | in-file SUPERSEDED stamp |
+| 8 | `archive/pre_2026-07-01/STEP2_timelive_matter_results.md` | scalar-tensor (X=−2e5) | box-control / must-quantize | YES — object-identity + 07-04 | in-file SUPERSEDED stamp |
 | 9 | `P5e_proper_results.md` | scalar-tensor (X=−2e5) | no intrinsic discreteness (coupled) | YES — object-identity + 07-04 | in-file SUPERSEDED stamp |
-| 10 | `coupled_timelive_solve_results.md` | EH-era (a=−1, G=8πT) | catalog negative | YES — #65 (no blocking authority) + 07-04 | in-file SUPERSEDED stamp |
-| 11 | `b1prime_round_gate_derived_operator_results.md` | scalar-tensor (X=−2e5) | Gate-A survivor legs; box-control | YES — object-identity + 07-04 | in-file SUPERSEDED stamp |
+| 10 | `archive/pre_2026-07-01/coupled_timelive_solve_results.md` | EH-era (a=−1, G=8πT) | catalog negative | YES — #65 (no blocking authority) + 07-04 | in-file SUPERSEDED stamp |
+| 11 | `archive/pre_2026-07-01/b1prime_round_gate_derived_operator_results.md` | scalar-tensor (X=−2e5) | Gate-A survivor legs; box-control | YES — object-identity + 07-04 | in-file SUPERSEDED stamp |
 | 12 | `matter_regrade_derived_operator_results.md` | scalar-tensor (a(φ)=e^{+φ} weight) | matter-sector re-grade (armchair CAS) | YES — this sweep (armchair, no solver) | in-file SUPERSEDED stamp |
-| 13 | `F1F3_closure_results.md` | scalar-tensor ("vacuum≠GR", free-X) | closure record (armchair) | YES — this sweep | in-file SUPERSEDED stamp |
-| 14 | `P1P5_reaudit_vs_derived_operator_results.md` | scalar-tensor 'derived operator' (a=e^{+φ}) | auditor triage (UNVERIFIED, self-labeled NOT canon) | YES — this sweep | in-file SUPERSEDED stamp |
-| 15 | `p1_offdiag_wiring_results.md` | EH-era (a=−1, G=kap8·T) + imported S³ | off-diag wiring (cat-A) + scoped shear-selectivity neg | YES — object-identity + subsumed everything-on arc | in-file SUPERSEDED stamp (LOW RISK) |
-| 16 | `matter_object_identity_native_vs_import_results.md` | re-derivation/armchair (refs e^{2φ} weight) | covariance/topology (operator-independent, SURVIVE) | YES — object-identity + 07-04 per-sub-claim | in-file SUPERSEDED stamp (pointer only) |
+| 13 | `archive/pre_2026-07-01/F1F3_closure_results.md` | scalar-tensor ("vacuum≠GR", free-X) | closure record (armchair) | YES — this sweep | in-file SUPERSEDED stamp |
+| 14 | `archive/pre_2026-07-01/P1P5_reaudit_vs_derived_operator_results.md` | scalar-tensor 'derived operator' (a=e^{+φ}) | auditor triage (UNVERIFIED, self-labeled NOT canon) | YES — this sweep | in-file SUPERSEDED stamp |
+| 15 | `archive/pre_2026-07-01/p1_offdiag_wiring_results.md` | EH-era (a=−1, G=kap8·T) + imported S³ | off-diag wiring (cat-A) + scoped shear-selectivity neg | YES — object-identity + subsumed everything-on arc | in-file SUPERSEDED stamp (LOW RISK) |
+| 16 | `archive/pre_2026-07-01/matter_object_identity_native_vs_import_results.md` | re-derivation/armchair (refs e^{2φ} weight) | covariance/topology (operator-independent, SURVIVE) | YES — object-identity + 07-04 per-sub-claim | in-file SUPERSEDED stamp (pointer only) |
 
 **CLEAN (did NOT route through a pre-native operator; NO stamp needed):** `native_dilation_weight_derivation`
 [CORRECTED 2026-07-06 macro-spine pass → SPLIT: core CLEAN, §5–§7 scalar-tensor/Cassini-X=−2e5 SUPERSEDED; see `macro_spine_provenance_2026-07-06.md`],

@@ -2,7 +2,7 @@
 """
 coupled_tl_s2_derive.py -- DERIVE the native S^2 area-form (pi_2) carrier's
 radial stress + Euler-Lagrange operator, symbolically, for the coupled time-live
-solve (CONTRACT coupled_timelive_solve_CONTRACT.md, Stage 1a).
+solve (CONTRACT archive/pre_2026-07-01/coupled_timelive_solve_CONTRACT.md, Stage 1a).
 
 Driver: Claude (Opus 4.8, 1M).  2026-06-19.  OBSERVE/DERIVE-prep.  DATA-BLIND.
 

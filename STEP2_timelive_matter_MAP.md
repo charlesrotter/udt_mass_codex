@@ -9,7 +9,7 @@ included, on the newly-derived gravity operator. It EXTENDS `EVERYTHING_ON_SOLVE
 else — the derived operator, the machinery (re-pose/JFNK/dense-LM/gates/anti-hang), the staged-build
 skeleton — is inherited from that re-MAP and from `EVERYTHING_ON_SOLVER_P5e_MAP.md` (the original P5e).
 
-**Why STEP 2 now (the premise of this MAP).** `static_soliton_rerun_derived_operator_results.md` (STEP 3,
+**Why STEP 2 now (the premise of this MAP).** `archive/pre_2026-07-01/static_soliton_rerun_derived_operator_results.md` (STEP 3,
 just done + blind-verified) showed the new operator's STATIC effect is small: the static charge-1 soliton
 is "GR + a TINY 1/r hair" at the healthy X, with B=1/A broken dominantly by an operator-INDEPENDENT
 matter-kinetic stress. Its verified headline: **"the new operator changes the STATIC structure only
@@ -20,12 +20,12 @@ and anchor-gated.
 Parents: `EVERYTHING_ON_SOLVER_P5e_REMAP_derived_operator.md` (the vacuum re-MAP, machinery + operator),
 `EVERYTHING_ON_SOLVER_P5e_MAP.md` (original staged build, Choice A/B, gates, anti-hang),
 `EVERYTHING_ON_SOLVER_BUILD_MAP.md`, `POST_POSTULATE_PROGRAM.md`, `SOLVER_COMPLETENESS_MAP.md` (governing).
-Inputs: `static_soliton_rerun_derived_operator_results.md` (the omega->0 anchor),
+Inputs: `archive/pre_2026-07-01/static_soliton_rerun_derived_operator_results.md` (the omega->0 anchor),
 `matter_regrade_derived_operator_results.md` (matter sector: coupling PHYSICAL, exchange law),
 `F2_matter_action_forcedness_results.md` ({L2,L4} minimal-NOT-unique),
 `native_dilation_weight_derivation_results.md` (operator + healthy X window),
 `scale_symmetry_bootstrap_analysis_results.md` (box-control = the symmetry's fingerprint; matter = the breaker),
-`coupled_timelive_solve_results.md` + `timelive_nonround_native_solve_results.md` (#65, the OLD-operator precedent).
+`archive/pre_2026-07-01/coupled_timelive_solve_results.md` + `archive/pre_2026-07-01/timelive_nonround_native_solve_results.md` (#65, the OLD-operator precedent).
 
 ---
 

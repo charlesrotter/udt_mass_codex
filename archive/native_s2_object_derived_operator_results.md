@@ -6,7 +6,7 @@ SUPPORTED-WITH-REVISIONS** (solver a37f373f640070876; verifier a77ae86f05269b650
 UDT's genuinely native matter object solved on the derived operator for the FIRST time.
 
 ## 0. CONTEXT
-The object-identity re-derivation (matter_object_identity_native_vs_import_results.md) established UDT's
+The object-identity re-derivation (archive/pre_2026-07-01/matter_object_identity_native_vs_import_results.md) established UDT's
 native matter is the S²/π₂ winding (the round-gate soliton was the imported S³ baryon). This push SOLVED
 the native object on the derived operator. **Key verifier revision: the first solve froze a legitimate
 native DOF (a radial twist that stays ON S²) — so its "defect" verdict is SLICE-SCOPED, not a verdict on

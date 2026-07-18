@@ -22,7 +22,7 @@ Three banked results (all 2026-06-19, all verifier-touched) point at ONE missing
    quantizes the radial node n at FIXED depth (WRONG variable) → ~1 stable rung, then TACHYON past
    `D* ~ 2.4–3.4` (`omega^2(D)>0` carrier-stability bound). The frequency binding is POWER-LAW in depth
    (`~D^{3.5..4.9}`) because `V_eff` sees only `v0'` (differentiated).
-3. **time-live carrier** (`timelive_nonround_native_solve_results.md`, blind-verified): the live carrier is a
+3. **time-live carrier** (`archive/pre_2026-07-01/timelive_nonround_native_solve_results.md`, blind-verified): the live carrier is a
    standing wave with `omega^2 = -<U,L U>/<U,M U> > 0` — a CONTINUOUS family; the discrete part is the
    already-banked `l(l+1)` charge floor; the band above is box-controlled. The one place a deeper binding
    could hide = the **fully-coupled nonlinear amplitude back-reaction** (explicitly left OPEN there).

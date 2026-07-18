@@ -25,9 +25,9 @@ action-registry staleness (`solver_action.py` still GR-baseline / MIGRATION-DEFE
 derived e^{2φ} operator); premise-ledger upgrade (token-presence → call-path); add `determined=True` tests (liveness
 tests still exercise determined=False/kap8=0.05); split GR-baseline regression from live-UDT-action consistency
 (`test_operator_from_action.py` locks φ=0 = GR-baseline); make conditional solver modes (`galerkin`,`svd_ls`)
-first-class in the gate's import graph; hooks are reminders not guards. (Full external audit = `EXTERNAL_AUDIT_2026-06-30.md`.)
+first-class in the gate's import graph; hooks are reminders not guards. (Full external audit = `archive/pre_2026-07-01/EXTERNAL_AUDIT_2026-06-30.md`.)
 **Key files:** `galerkin_basis.py`, `newton_solve_p1(step='galerkin'|'lm')`, `d1_gauge_check.py`,
-`x_solution_space_explore.py`, `PROVENANCE_AUDIT_2026-06-30.md`, `D1_FIX_DESIGN.md`. Op: solves UNBUFFERED, single process.
+`x_solution_space_explore.py`, `archive/pre_2026-07-01/PROVENANCE_AUDIT_2026-06-30.md`, `D1_FIX_DESIGN.md`. Op: solves UNBUFFERED, single process.
 
 ### RESUME RUNBOOK (the concrete first moves — verified 2026-06-30; everything below is ON DISK + committed)
 0. **Confirm guardrails** (catch-proof §4): see the `✓ CORRAL GUARDRAILS ACTIVE` banner + recite the 6 DRIVER TRIGGERS
@@ -80,7 +80,7 @@ No imposition needed (benign, LM-damping-handled); smin is NOT a flooring obstru
 endpoints (KTE falsified it: smax barely moved) — it is **smax ∝ |X|, carried entirely by the φ-EL row** (`d1_smax_source.py`).
 And X=-2e5 is a **Cassini-FORCED FIT mis-tagged FREE** (magnitude = the PPN bound rounded up; nothing in the metric
 selects it — Charles caught it). So we PIVOTED (Charles): stop forcing the floor at the imposed X; EXPLORE the
-determined solution across FREE X. **TWO PROVENANCE AUDITS (direct + blind-adversarial, `PROVENANCE_AUDIT_2026-06-30.md`):
+determined solution across FREE X. **TWO PROVENANCE AUDITS (direct + blind-adversarial, `archive/pre_2026-07-01/PROVENANCE_AUDIT_2026-06-30.md`):
 X is the LONE observation-fit kluge on the live path** (kap8=1 verified DERIVED; xi=kap=1 units; 2e-2 defaults dead;
 no swarm). Two soft DERIVED-headlines flagged: **the e^{2φ} matter weight** (CHOSE, LIVE, O(5) at hadronic depth =
 Principle-2 territory — Charles's eye owed) and **φ(seal)=0 parity** (two docs contradict). **X-SWEEP (PROVISIONAL,
@@ -154,7 +154,7 @@ the CURRENT STATE block above. P2 (cross-model verify) + P3 (e^{2φ} weight, φ-
    dilation well — NOT a forming horizon** (the GR "compact/near-horizon" reading was a misapplied ruler) — `a9efe4b`.
 4. **Spectral check** (`1750f24`): the SMOOTH sector (φ/lapse/interior) is RESOLVED at Nr=8 → Nr=12 LOW-value; the
    "fat tails" are a benign BC step + the inherent rc-regulated singular core — `a73caf9`.
-5. **BROAD-SWEEP SOLVER AUDIT** (`0086672`, 21-agent workflow, `SOLVER_AUDIT_2026-06-29.md`): physics core
+5. **BROAD-SWEEP SOLVER AUDIT** (`0086672`, 21-agent workflow, `archive/pre_2026-07-01/SOLVER_AUDIT_2026-06-29.md`): physics core
    TRUSTWORTHY (no smuggled GR/mechanism), FIX-FIRST a bounded list before time-live. Top finding = D1.
 6. **D1 CONFIRMED** (`ad5df06`): the static solve is UNDERDETERMINED — residual = 1776 eqns / 4224 unknowns at
    Nr=8 (body mask `[3:Nr-3]` imposes the PDE on only 2 of 8 radial layers; most fields singly-BC'd), Jacobian
@@ -199,7 +199,7 @@ Re-pose `p1_residual_general_einstein.py::residual_vector_p1` as a DETERMINED sq
 - **Residues for Charles (only non-derived choices):** φ(seal)=0 canon-confirm (derived default holds); rc finite-core
   model = justified CHOSE. Everything else in the BC table is DERIVED + blind-verified.
 
-### Other fix-first items still open (after D1, before time-live) — from `SOLVER_AUDIT_2026-06-29.md`
+### Other fix-first items still open (after D1, before time-live) — from `archive/pre_2026-07-01/SOLVER_AUDIT_2026-06-29.md`
 A2/D5 (tag the e^{2φ} weight + xi=kap provenance), G3 (stability notion on the 11-field object), §3-iii consolidation
 (retire proliferated solvers to one canonical), cheap bugs (C5 NameError, D4 seed). Then DYNAMIC (time-live native S²).
 **LEGACY ARCHIVING / CONSOLIDATION = the §3-iii task, DELIBERATELY NOT done end-of-session 2026-06-29:** the

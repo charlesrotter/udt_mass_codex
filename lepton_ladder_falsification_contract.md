@@ -4,7 +4,7 @@ Status: PRE-REGISTRATION — committed BEFORE the test is run.
 Created: 2026-06-10.
 Companion test script (to be written and run only AFTER this commit):
 `native_lepton_ladder_frozen_test.py`.
-Results doc (after): `lepton_ladder_test_results.md`.
+Results doc (after): `archive/pre_2026-07-01/lepton_ladder_test_results.md`.
 Alters nothing existing; new files only.
 
 ## Purpose

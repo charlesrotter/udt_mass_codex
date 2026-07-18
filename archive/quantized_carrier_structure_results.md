@@ -18,7 +18,7 @@ Charles's decision (2026-06-19): accept **POSTULATE A**. UDT = **quantized dilat
 The geometry is native; quantization discretizes the continuous native carrier.
 
 **KEPT NATIVE (not postulated, not imported):**
-- the **time-live standing-wave carrier** (validated, blind-verified: timelive_nonround_native_solve_results.md):
+- the **time-live standing-wave carrier** (validated, blind-verified: archive/pre_2026-07-01/timelive_nonround_native_solve_results.md):
   `L_space[U] = omega^2 M[U]`, `M>0`, `L_space` negative-definite, so `omega^2 = -<U,L_space U>/<U,M U> > 0`
   — a **continuous** standing-wave family.
 - the **area-form CHARGE** centrifugal term `l(l+1)` (l>=1; native, banked: N=3, q=1/3, eta=1/18).
@@ -191,7 +191,7 @@ Discrete in `l` (= charge); a single stable radial level; power-law (not exponen
 
 | Item | tag | note |
 |---|---|---|
-| carrier `L_space[U]=omega^2 M[U]`, `M>0`, `L_space` neg-def, omega^2>0 | **NATIVE** (validated, blind-verified) | timelive_nonround_native_solve_results.md |
+| carrier `L_space[U]=omega^2 M[U]`, `M>0`, `L_space` neg-def, omega^2>0 | **NATIVE** (validated, blind-verified) | archive/pre_2026-07-01/timelive_nonround_native_solve_results.md |
 | Liouville form `-psi''+V_eff psi=E psi`, `V_eff=l(l+1)+V_L`, `V_L=(1/2)s'-(1/4)s^2` | **DERIVED-here exact (sympy)** | the load-bearing "only-derivatives-of-v0" fact |
 | `l(l+1)` centrifugal/charge floor, l>=1 | **NATIVE** (banked charge: N=3, q=1/3) | B1/B2/timelive |
 | `E = omega^2`, `m_n ~ omega_n` (E=hbar omega, mass=dilation cost) | **POSTULATE A (i) + native dilation cost** | hbar quantum of action |

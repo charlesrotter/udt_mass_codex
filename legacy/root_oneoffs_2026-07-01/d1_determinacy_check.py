@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""D1 determinacy check (audit SOLVER_AUDIT_2026-06-29.md, HIGH finding): is the converged static
+"""D1 determinacy check (audit archive/pre_2026-07-01/SOLVER_AUDIT_2026-06-29.md, HIGH finding): is the converged static
 solve DETERMINED, or underdetermined (residual-smallness regularized by seed+Levenberg, not pinned
 by the metric)? Compute the residual Jacobian J = d(residual)/d(u) at the converged Nr=8 off-ON point
 and report: #rows (equations) vs #cols (unknowns), the singular-value spectrum, the numerical rank,

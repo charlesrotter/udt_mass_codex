@@ -11,7 +11,7 @@ Alters nothing existing; new files only.
 Round 1 (`lepton_ladder_falsification_contract.md`, committed at git
 `26fc757`) tested the then-available native vocabulary against the six
 required branch coefficients and failed cleanly: 126/126 classifications
-were MISS (`lepton_ladder_test_results.md`). Its T5 verdict froze the six
+were MISS (`archive/pre_2026-07-01/lepton_ladder_test_results.md`). Its T5 verdict froze the six
 required values as the standing wall any future derivation must hit, and
 its prohibition list forbade retuning THAT model.
 
@@ -47,7 +47,7 @@ removed, or reweighted after the run.
 ## Targets (frozen; from round 1, not restated here by digit)
 
 The six wall numbers recorded in the "Standing constraint" section of
-`lepton_ladder_test_results.md`: local-branch `C_M1`, `C_E1`,
+`archive/pre_2026-07-01/lepton_ladder_test_results.md`: local-branch `C_M1`, `C_E1`,
 `C_E1/C_M1`, and the warped-branch triple. The test script quotes them
 verbatim from that doc at evaluation time. They are required
 coefficients, not data: the lepton input is already absorbed in them and

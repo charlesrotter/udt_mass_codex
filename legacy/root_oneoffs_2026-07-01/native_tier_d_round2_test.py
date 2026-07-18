@@ -40,7 +40,7 @@ TOL_LEAD = mp.mpf("1e-3")
 Q_COLLAR = mp.mpf(1) / 3  # self-similar collar q = 1/3 (banked)
 
 # ---------------------------------------------------------------------------
-# The six wall numbers (lepton_ladder_test_results.md, "Standing constraint";
+# The six wall numbers (archive/pre_2026-07-01/lepton_ladder_test_results.md, "Standing constraint";
 # quoted at EVALUATION time per the contract's build protocol)
 # ---------------------------------------------------------------------------
 

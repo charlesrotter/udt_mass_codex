@@ -1,7 +1,7 @@
 # BLIND VERIFIER — Time-Live Non-Round Native Solve (structural-first)
 
 **Verifier agent:** claude-opus-4-8[1m] (blind adversarial). **Date:** 2026-06-19.
-**Target:** `timelive_nonround_native_solve_results.md` (constructor) + the three load-bearing claims.
+**Target:** `archive/pre_2026-07-01/timelive_nonround_native_solve_results.md` (constructor) + the three load-bearing claims.
 **Method:** independent re-derivation. Did NOT run/trust the constructor's scripts; built my own
 sympy symbolic derivations (full Christoffel->Ricci->Einstein from scratch for Claim 2) and an
 independent numpy `eigvalsh` self-adjoint finite-volume eigensolver (different assembly than the

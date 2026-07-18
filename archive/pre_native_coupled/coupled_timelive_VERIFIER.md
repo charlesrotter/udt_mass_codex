@@ -2,8 +2,8 @@
 
 **Verifier:** claude-opus-4-8[1m] (independent blind adversarial pass).
 **Date:** 2026-06-19.
-**Target:** `coupled_timelive_solve_results.md` (SCOPED NEGATIVE verdict) under the
-frozen `coupled_timelive_solve_CONTRACT.md`.
+**Target:** `archive/pre_2026-07-01/coupled_timelive_solve_results.md` (SCOPED NEGATIVE verdict) under the
+frozen `archive/pre_2026-07-01/coupled_timelive_solve_CONTRACT.md`.
 **Mode:** DATA-BLIND (no lepton/mass/ratio/wall number loaded or compared). I re-ran
 the solver from independent harnesses (my own loops, not the driver's `coupled_tl_gates`
 where avoidable; cross-checked GPU and CPU) and re-derived the structural arguments.

@@ -94,7 +94,7 @@ absent from the imposed BC.**
 
 Exact BCs used (quotes, file:line):
 
-- **STEP2_timelive_matter_results.md** — Dirichlet wall + R-scan.
+- **archive/pre_2026-07-01/STEP2_timelive_matter_results.md** — Dirichlet wall + R-scan.
   `:96` "ω² m u = −(k u')' + V u, **Dirichlet both ends**"; charge BC
   `:195` "Charge-1 hedgehog Θ(0)=π, **Θ(seal)=0**"; verdict from box-radius scan
   `:117-121` "w_pos_low·R² ~20-31 (roughly constant ⇒ 1/R² BOX MODE)";
@@ -106,7 +106,7 @@ Exact BCs used (quotes, file:line):
   gauge mode"; `:134-139` "ω DECREASES as the box grows (0.429 → 0.295 as R 10 → 12,
   ~1/R)… intercept fit ω² = a/R² + b… b = −0.134 (≤0)" (box scan over R∈[8,12]).
 
-- **static_soliton_rerun_derived_operator_results.md** — explicit Dirichlet/regular wall.
+- **archive/pre_2026-07-01/static_soliton_rerun_derived_operator_results.md** — explicit Dirichlet/regular wall.
   `:170` "P7 | **Seal BC A=B=1, φ=0**; core regularity (zero-gradient) | CHOSE… **A
   continuous BC, not a quantizer.**"; verifier even flags the BC-dependence as untested
   `:225-226` "**Does the seal BC (A=B=1, φ=0)**… pre-select the deficit/hair? Try a

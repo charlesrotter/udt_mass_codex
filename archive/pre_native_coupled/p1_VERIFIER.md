@@ -6,7 +6,7 @@ mass/ratio/wall numbers handled). **Constraint honored:** NO full 8-field Newton
 solve run. All checks are single Einstein/residual evaluations, greps, sympy
 truth, and reasoning. Append-only.
 
-Target: `p1_offdiag_wiring_results.md`, `p1_residual_general_einstein.py`,
+Target: `archive/pre_2026-07-01/p1_offdiag_wiring_results.md`, `p1_residual_general_einstein.py`,
 `p1_validate.py`. Reproduction scripts (NEW files): `_verif_hybrid_sweep.py`,
 `_verif_b_and_nth.py`.
 

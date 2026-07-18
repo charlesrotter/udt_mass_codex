@@ -10,10 +10,10 @@ no background poll, no concurrency, never a blend-toward-endpoint).
 NEW FILE ONLY: `/tmp/p5c_regrade_derived.py` (reuses the committed derived-operator
 solver `/tmp/soliton_rerun_solve.py` — `residual` + LM step byte-identical, only the
 initial guess differs). EL exprs `/tmp/soliton_EL.txt` (the four field equations
-derived in `static_soliton_rerun_derived_operator_results.md`).
+derived in `archive/pre_2026-07-01/static_soliton_rerun_derived_operator_results.md`).
 
 READ (this session): `p5c_basins_results.md` + `p5c_barriers_results.md` (the OLD-operator
-method + verdict being re-graded), `static_soliton_rerun_derived_operator_results.md`
+method + verdict being re-graded), `archive/pre_2026-07-01/static_soliton_rerun_derived_operator_results.md`
 (the derived-operator static solver REUSED), `native_dilation_weight_derivation_results.md`,
 `matter_regrade_derived_operator_results.md`.
 

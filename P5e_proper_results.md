@@ -19,9 +19,9 @@ symbolic, + static-limit GATE), `p5e_solve.py` (multi-harmonic free-omega couple
 gate + #60 control), `p5e_timelive.py` (single-process bounded time-live driver). Residuals saved to
 `/tmp/p5e_residuals.pkl`.
 
-Builds on (read this session): `STEP2_timelive_matter_results.md` (the residual STEP-2 built + its
+Builds on (read this session): `archive/pre_2026-07-01/STEP2_timelive_matter_results.md` (the residual STEP-2 built + its
 three reductions this push removes), `EVERYTHING_ON_SOLVER_P5e_MAP.md` (Choice A/B, the staged build),
-`static_soliton_rerun_derived_operator_results.md` (the omega->0 static anchor),
+`archive/pre_2026-07-01/static_soliton_rerun_derived_operator_results.md` (the omega->0 static anchor),
 `native_dilation_weight_derivation_results.md` (the derived operator).
 
 ---

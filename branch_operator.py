@@ -117,7 +117,7 @@ PI = math.pi
 
 # TAGGED REFERENCE constants -- NOT silent defaults (2026-06-30 cleanup).
 # X_PROD especially is a FREE, Cassini-FORCED value (R1-R3 do NOT fix |X|; only the sign is derived -- see
-# PROVENANCE_AUDIT_2026-06-30.md): it must NEVER be injected silently. The live branch operators below now
+# archive/pre_2026-07-01/PROVENANCE_AUDIT_2026-06-30.md): it must NEVER be injected silently. The live branch operators below now
 # REQUIRE X/xi/kap to be passed EXPLICITLY (no default) so every choice is ledgered at the call site. These
 # constants remain as the tagged provenance home (test_solver_integrity checks they are tagged; prototypes
 # read them explicitly) and as documented reference values -- read them by name when you want them, on purpose.

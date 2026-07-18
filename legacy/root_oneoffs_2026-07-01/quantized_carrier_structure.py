@@ -9,7 +9,7 @@ spectrum (NOT the values).
 Agent: claude-opus-4-8[1m].   Date: 2026-06-19.   STRUCTURE-FIRST, DATA-BLIND.
 NOT canon. Append-only working record. NO git commit.
 
-THE NATIVE CARRIER (validated, blind-verified: timelive_nonround_native_solve_results.md):
+THE NATIVE CARRIER (validated, blind-verified: archive/pre_2026-07-01/timelive_nonround_native_solve_results.md):
    L_space[U] = omega^2 M[U],   M>0,   L_space negative-definite
    radial reduction (Liouville normal form):
       -(P U')' + [ l(l+1) W(r) + Q(r) ] U  =  omega^2 M(r) U

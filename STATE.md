@@ -181,7 +181,7 @@ on the field equations; round recovers to floor (M_MS~0.29). VERIFIER (a392cfe, 
 strong shear needs P5's true general Einstein. (2) e_rt~1.3e-2 is NOT yet shown to be a grid artifact (flat vs
 Nth for a resolved l=2 = possible genuine geometric response) — do NOT bank "round has zero physical
 off-diagonal content" until a higher-Nth re-solve. (3) the matter EL is still blind to off-diagonals — P2 must
-re-take the observation with the EL seeing the full metric. Docs: p1_offdiag_wiring_results.md, p1_VERIFIER.md.
+re-take the observation with the EL seeing the full metric. Docs: archive/pre_2026-07-01/p1_offdiag_wiring_results.md, p1_VERIFIER.md.
 S^2-vs-S^3 OBJECT IDENTITY SETTLED (before P2, blind-verified 2026-06-19; s2_s3_identity_results.md +
 _VERIFIER.md): the native matter object is **S^2** (unit 3-vector, pi_2) — DEMANDS-level, no fork. The native
 L2+L4 sources NO stable 4th component (the only interior critical point is n_4=0; the unstable direction
@@ -451,13 +451,13 @@ Continues the MORNING block below. Charles gated VISION Step 1 ("Build the full 
 against the tripwire), driver ran it MAP-first then pre-registered + built + solved + blind-verified.
 
 **THE MAP CATCH (cheap-stage, the method working):** the Step-1 MAP found a REDUCED/structural version of the
-solve had already run overnight (timelive_nonround_native_solve_results.md, blind-verified): time-live REVIVES
+solve had already run overnight (archive/pre_2026-07-01/timelive_nonround_native_solve_results.md, blind-verified): time-live REVIVES
 B2/wcc's dead static operator into a real standing-wave eigenproblem (Charles's phi-angular hunch gets its
 CARRIER — durable win), but the spectrum = {intrinsic FLOOR = the already-banked l(l+1) angular charge barrier}
 + {box continuum}, NO new tower. The ONE thing the reduced proxy omitted = the fully-coupled NONLINEAR
 amplitude back-reaction (a Principle-2 flagged-not-drilled residual). Charles chose to take the one shot at it.
 
-**THE SOLVE (#65, pre-registered coupled_timelive_solve_CONTRACT.md, blind-verified af6b5caadb494bde2):** built
+**THE SOLVE (#65, pre-registered archive/pre_2026-07-01/coupled_timelive_solve_CONTRACT.md, blind-verified af6b5caadb494bde2):** built
 the native S^2/pi_2 carrier Theta-FREE (r=0 node BC replacing the imported Skyrme BC #61; calibration M_MS=0.281
 clean), live time axis, metric a,b + matter Th0 + mode u re-solved self-consistently with the A^2 mode energy.
 RESULT = SCOPED NEGATIVE, grid-converged: the back-reaction is GENUINELY finite-amplitude + ACTIVE (max|da|~1.0,
@@ -1531,7 +1531,7 @@ first principles).
    (local share law positively excluded — blows up); (iii) self-similarity
    p=q vs section-393 Alternative B.
 3. **Tier-D coefficient functional** — must produce, data-blind, the six
-   banked wall numbers (lepton_ladder_test_results.md): local
+   banked wall numbers (archive/pre_2026-07-01/lepton_ladder_test_results.md): local
    C_M1=0.977679087638, C_E1=1.93121474779, ratio=1.97530536575 (+ warped
    triple) to 1e-4. Required corrections fall BETWEEN the rungs of the
    eta/2 vocabulary — suggests a missing object, not a missing rational.
@@ -1755,7 +1755,7 @@ these as blocking.
    target only if a derivation produces the form independently).
 [prior queue text follows]
 0-prev. TIER-D COEFFICIENT DERIVATION — the active frontier. The macro weld
-   discriminator is COMPLETE (weld_discriminator_results.md): verdict
+   discriminator is COMPLETE (archive/pre_2026-07-01/weld_discriminator_results.md): verdict
    INDISTINGUISHABLE-AT-CURRENT-RECORD — the metric's own algebraic
    weld is NOT vetoed by the macro data (reproduces Einstein-weld
    phenomenology to ~1% of comb spacing); a real, robust ~3-ell EE comb
@@ -1874,7 +1874,7 @@ these as blocking.
   particle_spectrum_native_geometry.md (spectrum stage).
 - Audits this cycle: dimension_ladder_null_audit.md,
   sector_weight_spectral_probe_results.md,
-  p_domain_closure_attempt_results.md, lepton_ladder_test_results.md,
+  p_domain_closure_attempt_results.md, archive/pre_2026-07-01/lepton_ladder_test_results.md,
   lepton_ladder_falsification_contract.md (pre-registration).
 
 ## OPEN FRONTIER (2026-06-14) — THE EM / PHOTON SECTOR (unmapped)

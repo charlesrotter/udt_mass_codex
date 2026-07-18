@@ -6,7 +6,7 @@
 # Coupled Time-Live Non-Round Native Catalog Solve — RESULTS
 
 **Mode:** BUILD + RUN + OBSERVE under the FROZEN PRE-REGISTRATION CONTRACT
-(`coupled_timelive_solve_CONTRACT.md`, frozen 2026-06-19). **Status:** NOT canon.
+(`archive/pre_2026-07-01/coupled_timelive_solve_CONTRACT.md`, frozen 2026-06-19). **Status:** NOT canon.
 Append-only working record. Charles canonizes.
 **Agent:** claude-opus-4-8[1m]. **Date:** 2026-06-19.
 **DATA-BLIND:** no lepton/mass/ratio/wall number loaded, computed, or compared

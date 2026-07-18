@@ -13,7 +13,7 @@ header + ledger; `universe_cell_fold_jc_sigma_results.md:10`), and their proofs 
 `4e^{−2φ}ρ'²` (the monotone-flux engine). **Nothing transfers to G for free**; every G statement
 below is derived fresh from the banked two-player action
 (`native_field_equations_constrained_two_player_results.md:85-113`). The banked "round
-Birkhoff-frozen" results (#62-64, `timelive_nonround_native_solve_results.md`) are earlier-frame,
+Birkhoff-frozen" results (#62-64, `archive/pre_2026-07-01/timelive_nonround_native_solve_results.md`) are earlier-frame,
 time-sector-scoped — used only as corroboration, never load-bearing.
 
 ---

@@ -7,7 +7,7 @@
 
 This is VISION_POST_POSTULATE.md **Step 1**, taken in its FULL form. It is the explicitly
 authorized **one shot against the tripwire**: the reduced/structural proxy
-(`timelive_nonround_native_solve_results.md`, blind-verified) already ran and landed a
+(`archive/pre_2026-07-01/timelive_nonround_native_solve_results.md`, blind-verified) already ran and landed a
 two-edged partial; this contract freezes the test of the ONE physically-new ingredient that
 proxy omitted — the **fully-coupled nonlinear amplitude back-reaction** (a Principle-2
 flagged-not-drilled residual, taken deliberately, not by default).
@@ -154,4 +154,4 @@ calibration. A fixed-metric Hessian count is NOT a stability verdict.
   with agent id + date, aimed HARDEST at any positive.
 - Every banked verdict carries its PREMISE SET (this frozen model + regime stamp) into
   NEGATIVES_REGISTRY.md if negative.
-- Result doc: `coupled_timelive_solve_results.md` (append-only).
+- Result doc: `archive/pre_2026-07-01/coupled_timelive_solve_results.md` (append-only).

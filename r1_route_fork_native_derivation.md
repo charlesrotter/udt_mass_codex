@@ -46,7 +46,7 @@ shift-breaker is 𝒦; W_χ = e^{2φ}(G)/1(P) fixed by χ-pinning). **Type of th
 WEIGHTS (φ-exponents) of admitted terms. It has never pinned a COEFFICIENT** — cf. the free X
 in the 4D-frame derivation (`native_dilation_weight_derivation_results.md` §7 "the
 kinetic-to-curvature ratio X: R1/R2/R3 fix that BOTH wear e^{2φ} but not their relative
-coefficient"; `F1F3_closure_results.md` §3 "the ONE principle-unfixed parameter"), and the free
+coefficient"; `archive/pre_2026-07-01/F1F3_closure_results.md` §3 "the ONE principle-unfixed parameter"), and the free
 Z_φ in the constrained frame (`native_geometric_action_results.md:70-71` "R1 shift symmetry
 fixes the FORM φ'² but not its coefficient").
 
@@ -147,7 +147,7 @@ the rule pins all weights, isn't a free Z anomalous? No — resolved by typing t
 pins **weights (φ-exponents)**, RULE-2 pins the **transverse-block coefficient ratios** (a
 value criterion with no grip on the φ-sector [B1c]). Z is a coefficient of an
 already-weight-0 term, i.e. exactly the object NEITHER criterion reaches. Precedents: the free X
-dial (4D frame, `F1F3_closure_results.md` §3 — "the one principle-unfixed parameter", bounded by
+dial (4D frame, `archive/pre_2026-07-01/F1F3_closure_results.md` §3 — "the one principle-unfixed parameter", bounded by
 observation not principle) and the banked "Z_φ free from shift"
 (`native_geometric_action_results.md:70-71`). The fork's coefficients (Z, μ) are the
 constrained-frame descendants of the same known blind spot. The asymmetry "everything forced

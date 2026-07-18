@@ -11,14 +11,14 @@ FOUNDATIONAL_ASSUMPTIONS_LEDGER.md. This doc = the actionable checklist.
 
 ## PHASE A — finish F1–F8 (close every residual to a clean state)
 
-- [x] **F1 — gravity curvature action.** CLOSED (F1F3_closure_results.md, verified CLEAN). DERIVED (vacuum!=GR). FINISH: confirm the derivation is airtight;
+- [x] **F1 — gravity curvature action.** CLOSED (archive/pre_2026-07-01/F1F3_closure_results.md, verified CLEAN). DERIVED (vacuum!=GR). FINISH: confirm the derivation is airtight;
   formally close the superseded gravity-side residuals (N4 C1-uniqueness scope, N6 asymptotic-flatness-vs-
   no-infinity tension, N8 local-Lorentz-at-extremes); document the FREE X dial (kinetic/curvature ratio) as
   the one principle-unfixed parameter, with the no-ghost+Cassini window. Deliverable: F1 closure record.
 - [x] **F2 — matter action L2+L4.** CLOSED (F2_closure_results.md, verified CLEAN). RESOLVED = minimal-but-not-unique. FINISH: document the {X^2,L6} admissible
   extras as a bounded value-open ambiguity (mass-only, not EOS); CHECK the load-bearing full-SO(3) target
   assumption (if reduced, V re-enters). Deliverable: F2 closure record.
-- [x] **F3 — a(phi) coupling.** CLOSED (folded into F1F3_closure_results.md, verified CLEAN). DERIVED a=e^{+phi} (entangled w/ F1). FINISH: tie off with F1; confirm the
+- [x] **F3 — a(phi) coupling.** CLOSED (folded into archive/pre_2026-07-01/F1F3_closure_results.md, verified CLEAN). DERIVED a=e^{+phi} (entangled w/ F1). FINISH: tie off with F1; confirm the
   physical-coupling re-grade is airtight; close "a=-1 silently used in P1-P5d" (the P1-P5 re-audit covers the
   downstream). Deliverable: folded into F1+F3 closure.
 - [ ] **F4 — finite-cell / seal / boundary.** Seal-as-QUANTIZER question CLOSED (verified). FINISH the STRUCTURE:
@@ -55,7 +55,7 @@ FOUNDATIONAL_ASSUMPTIONS_LEDGER.md. This doc = the actionable checklist.
   residual} = {off-round discreteness gate, B0 gap#4} = {P5c angular basins}. It is where the phi-angular hunch
   lives (the derived-operator angular obstruction). A BUILD (not a bounded re-grade). The key remaining piece for
   a 100%-complete solver. Anti-hang LOCKED.
-    - [x] **B1'-step0 ROUND-LIMIT GATE — DONE + blind-verified** (b1prime_round_gate_derived_operator_results.md,
+    - [x] **B1'-step0 ROUND-LIMIT GATE — DONE + blind-verified** (archive/pre_2026-07-01/b1prime_round_gate_derived_operator_results.md,
       verifier a6b142162a3211abd, SUPPORTED-WITH-REVISIONS). Reconstructed the derived operator into a well-posed
       RADIAL solver, phi an independent player; found+fixed a smuggled kap8=0.05 (kap8=1 is DERIVED). Gate A PASS
       (localized charge-1, B=1/A matter-kinetic break ~0.07), Gate B PASS (1/R^2 tower + one node-free negative
@@ -89,7 +89,7 @@ exp-clamp tripwire; replace 3-row edge excision with a real boundary.
 - **S2 — REFRAMED (2026-06-21, verified):** the free-matter build surfaced + a data-blind re-derivation/blind
   verifier CONFIRMED that the derived-operator soliton corpus ran the IMPORTED S^3/pi_3 Skyrme baryon (body
   BC-held); UDT's NATIVE matter is the S^2/pi_2 winding (n=x/r), UNSOLVED on the derived operator
-  (matter_object_identity_native_vs_import_results.md). free_s2_matter.py built (machinery reusable) but its
+  (archive/pre_2026-07-01/matter_object_identity_native_vs_import_results.md). free_s2_matter.py built (machinery reusable) but its
   gate was vs n=x/r — fine, since n=x/r IS the native object. **S2 deliverable = SOLVE the native S^2/pi_2
   object (n=x/r, NO imported baryon BC) on the derived operator** — does it form a stable localized object
   (size from geometry/weight, NOT a matter lump), and what is its gate (box-control or structure)? This is the

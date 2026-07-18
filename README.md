@@ -1,9 +1,15 @@
 # UDT repository
 
 This root is the control and navigation surface for the UDT research record.
-For a fresh session, read [`AGENTS.md`](AGENTS.md), then [`LIVE.md`](LIVE.md),
-then [`HANDOFF.md`](HANDOFF.md). [`INDEX.md`](INDEX.md) is the repository map;
-[`CANON.md`](CANON.md), [`NEGATIVES_REGISTRY.md`](NEGATIVES_REGISTRY.md), and
+After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
+order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
+[`stability_branch_follow_256_DECISION.md`](stability_branch_follow_256_DECISION.md)
+→ the exact evidence named by those files for the active lane. `AGENTS.md`
+supplies operational instructions and binding research discipline, but it
+cannot overrule the topmost current-state block in `LIVE.md`.
+
+[`INDEX.md`](INDEX.md) is the repository map; [`CANON.md`](CANON.md),
+[`NEGATIVES_REGISTRY.md`](NEGATIVES_REGISTRY.md), and
 [`PROVENANCE.md`](PROVENANCE.md) are the main status and evidence ledgers.
 
 ## Repository reorganization R0
@@ -18,3 +24,10 @@ change, or history rewrite. Start with the
 
 Frozen evidence packages and their historical records are immutable. Any later
 reorganization phase must preserve their bytes, manifests, and provenance.
+
+## Repository reorganization R1A
+
+R1A supersedes the generic R0 tree proposal with a research-lane-first layout
+and executes only the independently gated first pre-July-1 archive batch. See
+the [`R1A audit index`](reorganization_r1a/README.md) and
+[`lane-first proposal`](reorganization_r1a/PROPOSED_DIRECTORY_TREE.md).

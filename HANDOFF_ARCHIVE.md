@@ -54,7 +54,7 @@ trimmed to concise pointers (HANDOFF 160 -> ~70 lines). NOT lost — full detail
   (curvature Branch G/P fork; e^{2φ} matter weight) are detailed in `p2_operator_from_action_results.md` +
   `p4_cross_model_verify_results.md`.
 - **2026-06-22 NATIVE-MATTER ARC, verbatim detail + its (now-superseded) "build the time-live native S² / two
-  Charles decisions" NEXT** → `matter_object_identity_native_vs_import_results.md`,
+  Charles decisions" NEXT** → `archive/pre_2026-07-01/matter_object_identity_native_vs_import_results.md`,
   `complete_solver_stage1_general_einstein_results.md`, `native_s2_object_`/`native_s2_twist_freed_`/
   `native_offround_twist_shear_results.md`. Its NEXT was SUPERSEDED by the Branch-P push (the sequencing decision
   led to the silent-Branch-G finding; the discreteness gate was ruled = observe-for-emergence-else-Postulate-A).
@@ -406,7 +406,7 @@ Read STATE.md TOP (the 2026-06-19 AFTERNOON block) + NEGATIVES_REGISTRY #65. Dis
 - THE PIVOT (Charles, "do 1"): retire the "catalog = one carrier's spectrum/tower" template. Catalog
   frontier = what DISTINGUISHES DISTINCT objects + sets their DEPTHS — distinct charge/winding SECTORS + the
   free non-stationary/off-diagonal/ensemble DOF (VISION spine §III). Mass-as-cost = the exponential home.
-  Docs: coupled_timelive_solve_CONTRACT.md, coupled_timelive_solve_results.md, coupled_timelive_VERIFIER.md.
+  Docs: archive/pre_2026-07-01/coupled_timelive_solve_CONTRACT.md, archive/pre_2026-07-01/coupled_timelive_solve_results.md, coupled_timelive_VERIFIER.md.
 
 ## *** 2026-06-19 MORNING FRONTIER [SUPERSEDED] — POSTULATE A ACCEPTED; BOX-TRAP BROKEN; TOWER FRAMING INDICTED => CATALOG REFRAME ***
 Read STATE.md TOP (the 2026-06-19 MORNING block) + memory postulate-A-accepted. Distilled:
@@ -525,7 +525,7 @@ NEVER blend toward a chosen endpoint (biased artifact) — use unbiased kicks + 
 Superseded by the 2026-06-22 NATIVE-MATTER ARC block at HANDOFF.md TOP + COMPLETION_PROGRAM.md. The B1'
 off-round build (set up as 'next' in these blocks) was RUN and became the native-matter arc; the EVENING
 derived-operator foundation STANDS (the operator is derived) but its must-quantize headline is now SCOPED
-to the imported S^3 object (see matter_object_identity_native_vs_import_results.md). Moved verbatim:
+to the imported S^3 object (see archive/pre_2026-07-01/matter_object_identity_native_vs_import_results.md). Moved verbatim:
 
 ## *** 2026-06-21 NIGHT — COMPLETION PROGRAM UNDERWAY (read FIRST) ***
 Charles's directive: FINISH every F-item (no hanging threads, even substantially-done ones), THEN audit solvers +
@@ -541,7 +541,7 @@ UPGRADING F2). REMAINING Phase B: **B1' off-round build (NEXT, see below)**, B2 
 audit, B5 previous-results top-to-bottom re-grade, B6 wide-range numerics.
 
 ## *** B1' STATUS (2026-06-21 LATER): ROUND-LIMIT GATE DONE + VERIFIED; the 3-D OFF-ROUND RESIDUAL is the live NEXT ***
-Charles ran "clean the gate first." DONE + blind-verified (b1prime_round_gate_derived_operator_results.md, verifier
+Charles ran "clean the gate first." DONE + blind-verified (archive/pre_2026-07-01/b1prime_round_gate_derived_operator_results.md, verifier
 a6b142162a3211abd, SUPPORTED-WITH-REVISIONS): the derived operator is reconstructed into a well-posed RADIAL solver
 (phi an independent player); a smuggled kap8=0.05 was found+fixed (kap8=1 DERIVED); Gate A PASS, Gate B PASS (1/R^2
 tower + one node-free negative Derrick mode), operator=action's-own-equation confirmed. **CORRECTION banked: NO
@@ -607,10 +607,10 @@ committed; see FOUNDATIONAL_ASSUMPTIONS_LEDGER.md TOP blocks + the named docs):
    L6}; bulk potential V FORBIDDEN under full SO(3) (corrects the corpus); scale symmetry NEUTRAL on term-selection.
 
 **SEQUENCE DONE (Charles's 1->3->2, all blind-verified, committed):**
-- [1] consolidation (done). [3] BOUNDED STATIC RE-RUN (static_soliton_rerun_derived_operator_results.md): the
+- [1] consolidation (done). [3] BOUNDED STATIC RE-RUN (archive/pre_2026-07-01/static_soliton_rerun_derived_operator_results.md): the
   static charge-1 soliton on the new operator = **GR + a TINY 1/r hair** (q~1/|X|); B=1/A break is dominantly the
   OPERATOR-INDEPENDENT matter-kinetic one; the new operator's static effect is small => **the teeth are in DYNAMICS.**
-- [2] TIME-LIVE COUPLED MATTER SOLVE (STEP2_timelive_matter_results.md): **BOX-CONTROL** — on the DERIVED operator
+- [2] TIME-LIVE COUPLED MATTER SOLVE (archive/pre_2026-07-01/STEP2_timelive_matter_results.md): **BOX-CONTROL** — on the DERIVED operator
   (vacuum!=GR, physical matter coupling, charge-1, live time) the classical metric gives **NO intrinsic
   discreteness**: positive tower w^2~1/R^2 (intercept statistically ZERO; R=64 push = clean 1/R^2, no plateau);
   the one negative mode = the Derrick/breathing soft direction (not a level); ACTION-ROBUST (persists at kap=0 /

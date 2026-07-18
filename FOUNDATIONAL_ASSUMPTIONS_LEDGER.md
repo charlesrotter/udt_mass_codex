@@ -15,7 +15,7 @@ PARTIAL = clarified but a gap remains; OPEN = untouched or parked. The audit's C
 survives on the derived, full-coupled (P5e-proper) machinery.** The deepest imports are cleared; ~half the
 items remain.
 
-*** 2026-06-22 OBJECT-IDENTITY RE-SCOPING (verified — matter_object_identity_native_vs_import_results.md). ***
+*** 2026-06-22 OBJECT-IDENTITY RE-SCOPING (verified — archive/pre_2026-07-01/matter_object_identity_native_vs_import_results.md). ***
 The B1' off-round build opened a foundational arc that RE-SCOPES the must-quantize line and touches F2/M10/M11:
 the matter object that ALL derived-operator solves ran (round gate, static_soliton, STEP2, P5e — i.e. the
 "box-control survives" machinery) is an **IMPORTED S^3 Skyrme baryon** (body held by the imported winding BC).
@@ -162,7 +162,7 @@ complete-solver goal, NOT spectrum-matching. Matter-sector MAP + two analytic ga
   angular-term selection. Verdict rests on the carrier target = full SO(3).
 - RE-SET DONE (blind-verified): [static] the soliton on the new operator = GR + a TINY 1/r hair (q~1/|X|); B=1/A
   break dominantly the OPERATOR-INDEPENDENT matter-kinetic one => the operator's static effect is small, teeth in
-  DYNAMICS (static_soliton_rerun_derived_operator_results.md). [time-live] the fully-coupled matter+time solve on
+  DYNAMICS (archive/pre_2026-07-01/static_soliton_rerun_derived_operator_results.md). [time-live] the fully-coupled matter+time solve on
   the derived operator = **BOX-CONTROL** (w^2~1/R^2, intercept ~0, R=64 no-plateau; negative mode = Derrick
   breathing; ACTION-ROBUST across the {L4,X^2} F2 ambiguity) — STEP2_timelive_matter_results.md.
 - P5e PROPER DONE (P5e_proper_results.md, blind-verified): the genuinely fully-coupled solve — off-diagonal time
