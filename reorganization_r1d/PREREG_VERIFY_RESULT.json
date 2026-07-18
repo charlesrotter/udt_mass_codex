@@ -1,0 +1,24 @@
+{
+  "base": "b3c50109df90658378d157c65fc723b1265c48c8",
+  "destination": "research/macro/simple_metric_S8_action_provenance_note.md",
+  "dirty_inventory_sha256": "9c4f6d9a3734c121c4960fd04d41d9f898f1ec16370775dfb41b9a5c872dcd1f",
+  "dirty_path_count": 54,
+  "fixed_history_rows": 150,
+  "fixed_history_tsv_sha256": "8cd79d42d7af1361b1485051ba538afb07ad951c95ef7294372692a8378178ad",
+  "fixed_root_inventory_rows": 1114,
+  "fixed_root_inventory_sha256": "a4a071407af657962e36c33e9308ddbe6416fe3f38da5ea48ea93d7c1bcbd12c",
+  "forbidden_substitution": "../../simple_metric_solution_space_ZOOM.md",
+  "generated_records_excluded_from_fixed_base_universe": true,
+  "preimage_macro_inventory_sha256": "cacb1b87fb6e84a985729d67d14a6ee4cd6993419dae6a57f45fb1088f618bbb",
+  "preimage_research_readme_sha256": "4f730bcc7a1a2fb4088d52356f9e83f43cce78c477270b7c6cf5a5f231642e49",
+  "result": "PASS",
+  "source": "simple_metric_S8_action_provenance_note.md",
+  "source_blob": "94b494cd326a27aacbbbedbd9aa91febb8acf471",
+  "source_line_10": "| **Re-run** | light CAS in `simple_metric_solution_space_ZOOM.md` session |",
+  "source_line_10_classification": "REPOSITORY_ROOT_INFORMATIONAL_TOKEN_NOT_MARKDOWN_LINK_OR_RUNTIME_OPEN",
+  "source_sha256": "a3fae1798f64c4bdc3a79692a618281c407d162309073a02dc72d89eb9c554f9",
+  "status_contract": {
+    "MIGRATED_R1D": 1,
+    "ROOT_RETAINED": 1113
+  }
+}
