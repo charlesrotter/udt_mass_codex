@@ -39,7 +39,8 @@ d38232792ac78188687db433a3f60a08c775c46e9ecf5fc42ad7953dc89fadb0  UDT_NATIVE_ACT
 ## Isolation and independence
 
 - **Arm A:** fresh ephemeral Codex session, `gpt-5.6-sol`, web search disabled, no user config.
-- **Arm B:** fresh non-persistent Claude Code session, latest Opus alias, safe/customization-free mode.
+- **Arm B:** separate fresh ephemeral Codex session, `gpt-5.4`, web search disabled, no user config.
+  This is a distinct OpenAI model release and session; no cross-arm context is shared.
 - Each arm runs in a separate Bubblewrap mount namespace. Its working directory initially contains
   only C0 and C1. The repository, the other arm, controller, LIVE/HANDOFF, Stage-II archive, and prior
   audit record are absent from its filesystem view.
@@ -49,6 +50,10 @@ d38232792ac78188687db433a3f60a08c775c46e9ecf5fc42ad7953dc89fadb0  UDT_NATIVE_ACT
 - The two sessions run independently and have no shared conversation, work directory, output, or
   transcript.
 - Bubblewrap supplies no host GPU device.
+
+A proposed cross-provider Arm B launch was rejected before execution because transfer to that
+third-party provider lacked explicit approval. No packet bytes were sent and no external Arm B
+session was created. The isolated `gpt-5.4` arm is the approved-provider fallback.
 
 ## Required return and freeze gate
 
