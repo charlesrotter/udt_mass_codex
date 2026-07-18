@@ -45,7 +45,7 @@ The [ranked future-migration recommendation](../research/_registry/FIRST_ACTIVE_
 
 - 1,114 unique frozen paths, ownership rows, and readiness rows: pass.
 - Four lane inventories exactly reproduce primary and secondary relationships: pass.
-- 54 generated Markdown links: pass.
+- 59 generated Markdown links: pass.
 - 306 current-frontier reference rows and 101 unique targets: pass.
 - Six frozen manifests and complete frozen package states: pass.
 - Full tests: 69 passed, 1 known hygiene-header failure, 1 xfailed—the established baseline.
