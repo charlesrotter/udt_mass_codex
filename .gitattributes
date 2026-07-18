@@ -12,3 +12,12 @@ native_action_stage2_2026-07-18/*/PRELAUNCH_CLI_FAILURE_TRANSCRIPT.txt -text -di
 native_action_stage2_2026-07-18/*/D6_RETURN/D6.md -whitespace
 native_action_stage2_2026-07-18/*/D6_RETURN/D6_DISCLOSURE_CENSUS.tsv -whitespace
 native_action_stage2_2026-07-18/*/D6_RETURN/cas_stage2_*_out.txt -whitespace
+
+# Arm-C adversarial return and raw captures are immutable audit evidence.
+native_action_arm_c_2026-07-18/OUTER_TRANSCRIPT.txt -text -diff
+native_action_arm_c_2026-07-18/PRELAUNCH_NETWORK_FAILURE_TRANSCRIPT.txt -text -diff
+native_action_arm_c_2026-07-18/LAUNCH_PROMPT.txt -whitespace -diff
+native_action_arm_c_2026-07-18/ARM_C_RETURN/ARM_C_REPORT.md -whitespace
+native_action_arm_c_2026-07-18/ARM_C_RETURN/*.tsv -whitespace
+native_action_arm_c_2026-07-18/ARM_C_RETURN/cas_armc_*.py -whitespace
+native_action_arm_c_2026-07-18/ARM_C_RETURN/cas_armc_*_out.txt -whitespace

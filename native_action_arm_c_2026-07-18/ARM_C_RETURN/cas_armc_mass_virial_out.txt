@@ -1,0 +1,9 @@
+PASS finite-cell virial implies M0=Ecarrier+B+W
+PASS exact criticality W=0 still leaves boundary term
+PASS separate B=W=0 closure gives M0=Ecarrier
+PASS minimal carrier gives rho+S=2rho4
+PASS nonzero -2.7 percent gap forbids finite-box E2=E4
+FINITE_CELL_DEFECT -B_boundary - E2 + E4 - W_res
+REPORTED_GAP_RATIONAL -27/1000
+LIMIT: identities are conditional bookkeeping; surface theorem, numerics, and limits remain open
+PASS SUMMARY 5/5 checks

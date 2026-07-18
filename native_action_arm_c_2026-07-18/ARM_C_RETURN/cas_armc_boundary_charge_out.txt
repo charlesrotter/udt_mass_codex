@@ -1,0 +1,10 @@
+PASS total derivative leaves bulk Euler equation unchanged
+PASS total derivative shifts boundary momentum
+PASS Dirichlet parity does not set normal derivative
+PASS r^2 R is an exact radial total derivative
+PASS reference and normalization are independent charge choices
+BOUNDARY_MOMENTUM_BEFORE Derivative(f(r), r)
+BOUNDARY_MOMENTUM_AFTER lambda + Derivative(f(r), r)
+EH_PRIMITIVE -r**2*Derivative(A(r), r) - 2*r*A(r) + 2*r
+LIMIT: bulk algebra does not select a finite-cell primitive, subtraction, or normalized charge
+PASS SUMMARY 5/5 checks

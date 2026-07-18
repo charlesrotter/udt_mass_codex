@@ -1,0 +1,15 @@
+PASS four-dimensional C^2 density has Weyl exponent zero
+PASS four-dimensional scalar X^2 density has Weyl exponent zero
+PASS EH density is not scale neutral
+PASS constant-coefficient S2 quadratic density is not scale neutral
+PASS S2 F^2 density is scale neutral
+PASS C^2 identity coefficients
+PASS Euler identity coefficients
+PASS C^2 and Euler are linearly independent
+PASS conditional curvature-square family is p*C^2+q*Euler
+PASS Euler quotient leaves one bulk normalization p
+PASS EH/Lovelock and exact pre-scale CSN are in tension
+WEIGHTS_D4 {'volume': 4, 'EH': 2, 'C2': 0, 'scalar_X2_weight0_phi': 0, 'S2_quadratic_weight0_n': 2, 'S2_F2_weight0_n': 0}
+CURVATURE_COMBINATION [p + q, -2*p - 4*q, p/3 + q]
+LIMIT: conditional classification only; premises, boundary law, and solutions are not certified
+PASS SUMMARY 11/11 checks

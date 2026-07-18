@@ -6,11 +6,14 @@
 
 ## TOP — CURRENT POINTER (2026-07-18)
 
-**LIVE.md CURRENT STATE is authoritative.** Native-action Stage II A/B is complete, mechanically
-checked, frozen, and returned in `UDT_NATIVE_ACTION_STAGE2_RETURN_2026-07-18.md`, with separate D6
-packages under `native_action_stage2_2026-07-18/`. Original Stage-I packages remain immutable.
-Charles audits next. No cross-arm physics conclusion is banked; cross-arm adjudication, Arm C, GPU
-work, and repository reorganization remain unlaunched and unauthorized.
+**LIVE.md CURRENT STATE is authoritative.** Native-action Stage I/II A/B and the fresh isolated
+adversarial Arm C are complete, mechanically checked, frozen, and returned. Arm-C entry point:
+`UDT_NATIVE_ACTION_ARM_C_RETURN_2026-07-18.md`; package:
+`native_action_arm_c_2026-07-18/`; external manifest hash:
+`99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f`. Original Stage-I/II packages
+remain immutable. Charles audits next. No final A/B/C physics conclusion is banked; final
+adjudication, canonization, GPU work, further arms, and repository reorganization remain unlaunched
+and unauthorized.
 
 The H3 particle-mass arc remains complete through F with the scope stamps in LIVE/HANDOFF and
 `stability_branch_follow_256_DECISION.md`.

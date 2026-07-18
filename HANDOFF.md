@@ -5,18 +5,20 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-10).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-18 — H3 particle-mass arc complete; native-action Stage II A/B frozen and awaiting Charles's audit)
+## CURRENT (2026-07-18 — H3 particle-mass arc complete; native-action Arm C frozen and awaiting Charles's audit)
 
 **Read LIVE.md CURRENT STATE topmost layer first.** Session arc 07-13→16 in one paragraph:
 
-**NATIVE-ACTION STAGE II COMPLETE (2026-07-18):** two isolated continuation arms (`gpt-5.6-sol`
-and `gpt-5.4`) each received only its own frozen Stage-I package plus exact A1–A6 and returned a
-separate D6, exact 134-row disclosure census, new CAS scripts/outputs, final response, and full outer
-transcript. Mechanical checks pass; every Stage-II package file is manifested and the two external
-manifest hashes are frozen in `UDT_NATIVE_ACTION_STAGE2_RETURN_2026-07-18.md`. Packages are read-only
-under `native_action_stage2_2026-07-18/`; original Stage-I manifests still pass and remain read-only.
-No cross-arm physics comparison or conclusion was banked. Cross-arm adjudication, Arm C, GPU work,
-and repository reorganization remain unauthorized pending Charles's D6 package audit.
+**NATIVE-ACTION ARM C COMPLETE (2026-07-18):** after Charles accepted both frozen D6 returns, one
+fresh isolated adversarial Arm C (`gpt-5.6-sol`) received only the controller, exact C0/C1, complete
+immutable Stage-I/II A/B packages, and exact A1–A6 with manifests. It returned C.0-C.9, a 39-row claim
+matrix, 16-row complete-foundation countermodel matrix, 28-row smuggle list, and five new reproducible
+CAS checks. Mechanical audit passes; the read-only package is under `native_action_arm_c_2026-07-18/`
+and its external manifest hash is
+`99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f`. The Stage-I/II packages remain
+unchanged and read-only. `UDT_NATIVE_ACTION_ARM_C_RETURN_2026-07-18.md` is the audit entry point.
+Final A/B/C adjudication, canonization, GPU work, further arms, and repository reorganization remain
+unauthorized pending Charles's Arm-C package audit.
 
 The corrected-operator stability question was closed in TWO layers, both blind/independently verified:
 (1) the T/R-DEFLATED physical spectrum certified positive at 128/192/256 (Charles's raw-backward-error
@@ -46,10 +48,10 @@ STRONG finite-slice LEAD**, not the literal class of all endpoints. Repaired ver
 byte-restored; endpoint NPZ hashes unchanged. Scope: basin behavior, NOT dynamics/infinite-volume/
 mass. Records: `noNull_behavioral_F_results.md` + `noNull_F_*.json` + `F_evidence/`.
 
-**Pending Charles:** audit of the F return; audit both frozen native-action Stage-II D6 packages
-(`UDT_NATIVE_ACTION_STAGE2_RETURN_2026-07-18.md`; no cross-arm adjudication / Arm C / GPU until
+**Pending Charles:** audit of the F return; audit the frozen native-action Arm-C package
+(`UDT_NATIVE_ACTION_ARM_C_RETURN_2026-07-18.md`; no final A/B/C adjudication / canonization / GPU until
 separately authorized); canonization calls; next-push direction
-(theorem route / native-action adjudication after D6 audit / box-mask study / spin-isorotation).
+(theorem route / native-action adjudication after Arm-C audit / box-mask study / spin-isorotation).
 **Key commits:** da51ec4→1c2196c (spectrum cert), d131557 (inertia seal), 493d104 (G), 837d633
 (boundary-virial). **Records:** noNull_hess_h2fit_log.txt, noNull_schur_inertia_ALL.json,
 noNull_phaseG_mass_results.md, noNull_boundary_virial_results.md, noNull_virial_identity_derivation.md.

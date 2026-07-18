@@ -12,10 +12,10 @@ conditional where stamped; this packet advances no mass, action, or carrier conc
 `UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md` §3; older imported “candidate” wording remains
 visible as derivation-time provenance.
 
-**Status: STAGE-II D6 AUDIT ACCEPTED; FRESH ISOLATED ARM C AUTHORIZED BY CHARLES. Stage-I and
-Stage-II A/B packages remain frozen and unchanged. Arm C receives only the exact §6 record plus its
-manifests and returns an adversarial package for audit. Final adjudication, GPU work, canonization,
-and repository reorganization remain NOT AUTHORIZED / NOT LAUNCHED.**
+**Status: FRESH ISOLATED ARM C COMPLETE, MECHANICALLY CHECKED, FROZEN, AND RETURNED FOR CHARLES'S
+AUDIT. Stage-I and Stage-II A/B packages remain frozen and unchanged. Arm C received only the exact
+§6 record plus its manifests and returned an adversarial package. Final adjudication, GPU work,
+canonization, additional arms, and repository reorganization remain NOT AUTHORIZED / NOT LAUNCHED.**
 
 ---
 
