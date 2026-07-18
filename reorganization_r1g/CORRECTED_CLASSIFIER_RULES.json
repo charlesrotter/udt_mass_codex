@@ -1,0 +1,54 @@
+{
+  "destination_taxonomy": {
+    "archive/native_2026-07-01/": "historical/superseded artifacts explicitly descended from the f766478 native operator",
+    "archive/post_2026-07-01/": "post-July MIXED or operator-OPEN historical artifacts, partitioned by owner/family",
+    "archive/pre_2026-07-01/": "only PRE_NATIVE with explicit path-specific operator lineage predating f766478",
+    "current_path": "FROZEN/manifest-constrained artifacts unless separately authorized",
+    "research/<lane>/": "ACTIVE artifacts only after dependency-closed migration authority"
+  },
+  "forbidden_inference": "No prefix, including cascade_, may establish PRE_NATIVE or any destination.",
+  "lifecycle_labels": [
+    "ACTIVE",
+    "SUPERSEDED",
+    "HISTORICAL",
+    "FROZEN"
+  ],
+  "operator_labels": [
+    "PRE_NATIVE",
+    "NATIVE_2026-07-01",
+    "MIXED",
+    "OPEN"
+  ],
+  "result": "PROPOSED_NOT_APPLIED",
+  "rules_in_precedence_order": [
+    {
+      "effect": "retain immutable path; do not infer operator provenance",
+      "rule": "hard_frozen_or_manifest"
+    },
+    {
+      "effect": "classify from operator-bearing commits and primary records",
+      "rule": "explicit_operator_lineage"
+    },
+    {
+      "effect": "MIXED when native operators and imported/reference operators share the artifact",
+      "rule": "mixed_lineage"
+    },
+    {
+      "effect": "OPEN; filename and dates may not promote or demote",
+      "rule": "insufficient_lineage"
+    },
+    {
+      "effect": "classify independently from current controls/result status",
+      "rule": "lifecycle"
+    },
+    {
+      "effect": "evaluate dependencies and immutable constraints independently",
+      "rule": "migration_safety"
+    }
+  ],
+  "separate_axes": [
+    "operator_provenance",
+    "scientific_lifecycle",
+    "path_migration_safety"
+  ]
+}

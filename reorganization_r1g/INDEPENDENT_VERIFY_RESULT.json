@@ -1,0 +1,114 @@
+{
+  "affected_cascade_rows": 121,
+  "affected_family_rows": 15,
+  "affected_introduction_dates": {
+    "2026-07-02": 61,
+    "2026-07-03": 60
+  },
+  "affected_operator_provenance": {
+    "MIXED": 5,
+    "NATIVE_2026-07-01": 116
+  },
+  "all_cascade_prefix_rows": 138,
+  "artifact_moves_or_edits": 0,
+  "b02_b03_authorized": false,
+  "b02_b03_rows": 32,
+  "base": "8015342a81b2d27cc310dde95ab7f386c6441a77",
+  "batch_counts": {
+    "B02_LEGACY_STANDALONE_ALGEBRA_A": 18,
+    "B03_LEGACY_STANDALONE_ALGEBRA_B": 14
+  },
+  "batch_introduction_ranges": {
+    "B02": [
+      "2026-07-02",
+      "2026-07-07"
+    ],
+    "B03": [
+      "2026-07-02",
+      "2026-07-08"
+    ]
+  },
+  "boundary_parent": "78939836326cb822e22b2a72bfd8097365185aa6",
+  "candidate_lifecycle": {
+    "HISTORICAL": 32
+  },
+  "candidate_operator_provenance": {
+    "MIXED": 5,
+    "NATIVE_2026-07-01": 26,
+    "OPEN": 1
+  },
+  "catchproof": {
+    "duplicate_candidate_rejected": "PASS",
+    "missing_candidate_rejected": "PASS",
+    "post_july_cascade_without_lineage_rejected": "PASS",
+    "pre_native_destination_without_pre_native_provenance_rejected": "PASS",
+    "removing_pre_native_lineage_evidence_rejected": "PASS"
+  },
+  "corrected_pre_2026_07_01_destinations": 0,
+  "current_registry_edits": 0,
+  "dirty_content_policy": "NOT_READ",
+  "dirty_workstation_rows_metadata_only": 54,
+  "frontier_rows": 306,
+  "frontier_unique_targets": 101,
+  "frozen_manifest_replays": [
+    {
+      "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+      "package": "native_action_stage1_2026-07-18/arm_A",
+      "result": "PASS",
+      "sha256sum_check_lines": 29,
+      "tracked_paths_byte_identical_to_base": 30
+    },
+    {
+      "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+      "package": "native_action_stage1_2026-07-18/arm_B",
+      "result": "PASS",
+      "sha256sum_check_lines": 15,
+      "tracked_paths_byte_identical_to_base": 16
+    },
+    {
+      "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+      "package": "native_action_stage2_2026-07-18/arm_A",
+      "result": "PASS",
+      "sha256sum_check_lines": 13,
+      "tracked_paths_byte_identical_to_base": 14
+    },
+    {
+      "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+      "package": "native_action_stage2_2026-07-18/arm_B",
+      "result": "PASS",
+      "sha256sum_check_lines": 13,
+      "tracked_paths_byte_identical_to_base": 14
+    },
+    {
+      "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+      "package": "native_action_arm_c_2026-07-18",
+      "result": "PASS",
+      "sha256sum_check_lines": 21,
+      "tracked_paths_byte_identical_to_base": 22
+    },
+    {
+      "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+      "package": "native_action_final_adjudication_2026-07-18",
+      "result": "PASS",
+      "sha256sum_check_lines": 36,
+      "tracked_paths_byte_identical_to_base": 37
+    }
+  ],
+  "markdown_links_verified": 80,
+  "mode": "R1G_INDEPENDENT_FAIL_CLOSED_PROVENANCE_VERIFY",
+  "native_field_equation_boundary": "f7664786d1e2340262ea5aa22336cf0c2f8b0dfc",
+  "preregistration_commit": "7078b4bed9c7e42f3de343874e3b667e3facac10",
+  "r1c_prefix_bug_reproduced": true,
+  "result": "PASS",
+  "test_baseline": {
+    "baseline_match": true,
+    "command": "python3 -m pytest tests/",
+    "expected_failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "failed": 1,
+    "passed": 69,
+    "python": "3.10.12",
+    "returncode": 1,
+    "scope": "R1G_PROVENANCE_CLASSIFICATION_AUDIT",
+    "xfailed": 1
+  }
+}

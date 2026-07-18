@@ -1,0 +1,17 @@
+{
+  "affected_cascade_introduction_dates": {
+    "2026-07-02": 61,
+    "2026-07-03": 60
+  },
+  "affected_cascade_rows": 121,
+  "base": "8015342a81b2d27cc310dde95ab7f386c6441a77",
+  "batch_counts": {
+    "B02_LEGACY_STANDALONE_ALGEBRA_A": 18,
+    "B03_LEGACY_STANDALONE_ALGEBRA_B": 14
+  },
+  "candidate_contents_opened_by_freezer": false,
+  "candidate_rows": 32,
+  "input_hash_rows": 11,
+  "preregistration_commit": "7078b4bed9c7e42f3de343874e3b667e3facac10",
+  "result": "PASS"
+}

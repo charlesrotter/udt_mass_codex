@@ -1,0 +1,17 @@
+{
+  "boundary_adds": [
+    "A\tnative_field_equations_constrained_two_player_results.md",
+    "A\tverify_native_fieldeq.py"
+  ],
+  "boundary_author_and_commit_date": "2026-07-01T10:18:06-04:00|2026-07-01T10:18:06-04:00",
+  "boundary_subject": "Native UDT field equations derived (constrained-two-player, G/P regimes) + CAS + blind verified",
+  "last_pre_boundary_ancestor": "78939836326cb822e22b2a72bfd8097365185aa6",
+  "native_field_equation_boundary": "f7664786d1e2340262ea5aa22336cf0c2f8b0dfc",
+  "note": "f766478 is the first native-field-equation commit; af286a6 later adds the native geometric action and does not move this boundary",
+  "result": "PASS",
+  "semantic_evidence": [
+    "native_field_equations_constrained_two_player_results.md:3-10",
+    "branch_operator_contamination_ledger.md:10-33",
+    "PURSUIT_CHARTER_2026-07-04.md:175-179"
+  ]
+}
