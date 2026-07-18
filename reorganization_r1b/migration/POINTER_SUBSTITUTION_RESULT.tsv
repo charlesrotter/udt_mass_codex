@@ -1,0 +1,2 @@
+source	old_target	new_target	replacement_count	before_sha256	after_sha256	change_scope
+STATE.md	p4_VERIFIER.md	archive/pre_2026-07-01/p4_VERIFIER.md	1	a964ec91c1afe5e5144cc2ed05d5ee49d0a6ab141551bb45e45b30720b09d066	acda676ebe84cbec08d5348c568ae5aa950851443c923ae0e12bf2c0eed6833f	EXACT_PATH_TOKEN_ONLY

@@ -215,7 +215,7 @@ SCOPED OUT (Principle 7, flagged not hidden): phi-as-metric-DOF curvature-side d
 curvature-action; P3 stays inside the GR-form field eqn with the matter weight. **P4 inherits** a weight-capable
 native S^2 matter sector (stress + EL both carry e^{(a+1)phi}, ruler form, on the full off-diagonal metric).
 P4 DONE = DONE-for-scope / PARTIAL-on-physics (blind-verified, merged cb1de83; p4_time_live_results.md +
-p4_VERIFIER.md). The LIVE TIME ROW is wired into the full P1-P3 stack (open-time single-harmonic balance,
+archive/pre_2026-07-01/p4_VERIFIER.md). The LIVE TIME ROW is wired into the full P1-P3 stack (open-time single-harmonic balance,
 d_t^2->-omega^2, omega free; d_T g != 0 reaches the kernel t-slot; matter profile time-dependence live).
 CONTAINMENT bitwise: omega->0 returns the static P3 soliton EXACTLY (dM_MS=0, amplitudes=0). Time is GENUINELY
 live: d_T g reaches Christoffels -> nonzero G^t_r LINEAR in omega (the Birkhoff-escape channel) + T_tr!=0

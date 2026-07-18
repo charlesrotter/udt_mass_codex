@@ -1,0 +1,79 @@
+{
+  "base": "4b226472c8f7c22dfcdd2c328a109e92d1df5abd",
+  "boundary_catchproof": {
+    "backup_suffix_rejected": "PASS",
+    "closing_parenthesis_detected": "PASS",
+    "sentence_period_detected": "PASS"
+  },
+  "candidate_exact_path_only_edits": 1,
+  "candidate_payloads_byte_identical": 98,
+  "candidate_rows_verified": 99,
+  "dirty_content_policy": "NOT_READ",
+  "dirty_rows_metadata_only": 54,
+  "exact_path_substitutions": 1,
+  "frozen_packages": [
+    {
+      "complete_state_sha256": "65730070b7ec2e6d3aea5b9cdc742e1f4029568daa04b3ea40f9b9ce6a961521",
+      "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+      "package": "native_action_stage1_2026-07-18/arm_A",
+      "result": "PASS",
+      "tracked_files": 30
+    },
+    {
+      "complete_state_sha256": "f886de295140cdad61466791af6c62cf29a580198bbdbb659e4e6b6025c4ed78",
+      "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+      "package": "native_action_stage1_2026-07-18/arm_B",
+      "result": "PASS",
+      "tracked_files": 16
+    },
+    {
+      "complete_state_sha256": "02358b035ae31e1ed5871e8a69404202160249965447f1df92a27ae16f38d194",
+      "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+      "package": "native_action_stage2_2026-07-18/arm_A",
+      "result": "PASS",
+      "tracked_files": 14
+    },
+    {
+      "complete_state_sha256": "0cd59cce069b588f0f5d368c226a44897862330673ffbb6040d843acc266e08e",
+      "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+      "package": "native_action_stage2_2026-07-18/arm_B",
+      "result": "PASS",
+      "tracked_files": 14
+    },
+    {
+      "complete_state_sha256": "2a8416d3ef1a77b9cabecaaf86d8a7d3d13e66d73221c80e0cda039029d027c3",
+      "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+      "package": "native_action_arm_c_2026-07-18",
+      "result": "PASS",
+      "tracked_files": 22
+    },
+    {
+      "complete_state_sha256": "1a56f27c8b800f4cecece189f821352ed9ce0e04efd14ce84b97ad4972d40646",
+      "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+      "package": "native_action_final_adjudication_2026-07-18",
+      "result": "PASS",
+      "tracked_files": 37
+    }
+  ],
+  "literal_git_grep_checks": {
+    "STEP2_timelive_matter_MAP.md": "PASS",
+    "p4_VERIFIER.md": "PASS"
+  },
+  "moved_files": 2,
+  "mutation_base": "7f8fd38440cc42fc0467b84a0e1b351219e83e37",
+  "pointer_census_rows": 821,
+  "r100_renames": 2,
+  "result": "PASS",
+  "stale_non_frozen_operational_pointers": 0,
+  "test_baseline": {
+    "baseline_match": true,
+    "command": "python3 -m pytest tests/",
+    "expected_failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "failed": 1,
+    "passed": 69,
+    "python": "3.10.12",
+    "returncode": 1,
+    "scope": "POSTMOVE_MIGRATION_CHECKPOINT",
+    "xfailed": 1
+  }
+}
