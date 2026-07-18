@@ -30,6 +30,11 @@ Before interpreting the frontier, read from disk in this exact order:
 6. The relevant full protocols under `.claude/skills/*/SKILL.md`.
 7. `INDEX.md` and the top of `MEMORY.md` for pointers only; neither can overrule `LIVE.md`.
 
+For current artifact locations, use `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`. The R0–R1C
+ownership, readiness, census, preregistration, and verification records are fixed historical
+snapshots and must not be rewritten to mimic current paths. This is an operational navigation rule;
+like every instruction in this file, it cannot overrule `LIVE.md`.
+
 Then give Charles a short orientation report: actual HEAD and dirt, the current honest claim, its
 premise stamps, the open gate, and the proposed bounded next action. Do not mutate files or launch a
 long solve until that orientation is complete.

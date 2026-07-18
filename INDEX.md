@@ -2,6 +2,9 @@
 
 **⚠ BRANCH: `grok` (2026-07-10)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
+**R1 REORGANIZATION CHECKPOINT:** R0–R1D is complete. Fixed historical inventories remain immutable;
+resolve present locations through `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`. One active
+artifact moved byte-identically in R1D. No further migration is authorized yet.
 **➤ LIVE PARTICLE-MASS ARC (2026-07-17, separate lane — arc COMPLETE through F; awaiting Charles):**
 Read LIVE.md CURRENT STATE topmost layer. Result docs: `noNull_phaseG_mass_results.md` (conditional mass
 readout, virial-gap finding) + `noNull_boundary_virial_results.md` (BOX-STRESS LEAD) +
@@ -22,7 +25,7 @@ boundary charge OPEN. Original Stage-I/II A/B and Arm-C packages remain immutabl
 replay, all six package states unchanged). Selector audit:
 `UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md`; preregistration:
 `UDT_GR_TO_UDT_SELECTOR_AUDIT_PREREG_2026-07-18.md`. No canonization, carrier adoption, GPU work,
-further arms, or repository reorganization.
+further arms, or further repository migration.
 Dispatches: `UDT_H3_CORRECTED_G_THEN_F_SEQUENCING_DISPATCH.md` (F prereg = §9; F LOCKED) +
 `UDT_H3_BOUNDARY_VIRIAL_CLOSURE_BEFORE_F_DISPATCH.md` (done) +
 `UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md` (A/B/C and final adjudication complete/frozen) +

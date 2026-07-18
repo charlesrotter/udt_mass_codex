@@ -30,7 +30,16 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-18 — H3 PARTICLE-MASS arc COMPLETE THROUGH F: stability SETTLED (twice-verified) → G conditional mass readout → boundary-virial (BOX-STRESS LEAD) → audit patch → **F finite-slice characterization DONE (83 endpoints, no resolved basin exit; single robust basin = STRONG LEAD; verifier 51/51)**. Native-action Stage I/II A/B, adversarial Arm C, final A/B/C adjudication, external clean-environment verification, and GR→UDT selector audit COMPLETE. Canonization, GPU work, further arms, and repository reorganization NOT launched.) ============
+## ============ CURRENT STATE (2026-07-18 — H3 PARTICLE-MASS arc COMPLETE THROUGH F: stability SETTLED (twice-verified) → G conditional mass readout → boundary-virial (BOX-STRESS LEAD) → audit patch → **F finite-slice characterization DONE (83 endpoints, no resolved basin exit; single robust basin = STRONG LEAD; verifier 51/51)**. Native-action Stage I/II A/B, adversarial Arm C, final A/B/C adjudication, external clean-environment verification, and GR→UDT selector audit COMPLETE. R0–R1D REORGANIZATION CHECKPOINT COMPLETE; one active artifact migrated byte-identically; no further migration authorized. Canonization, GPU work, and further arms NOT launched.) ============
+
+**➤➤➤ R1 REORGANIZATION CHECKPOINT (2026-07-18):**
+- **✅ R0–R1D COMPLETE:** fixed historical inventories, preregistrations, and verification records
+  remain immutable. Current artifact locations are resolved through
+  `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`.
+- **✅ ONE ACTIVE CANARY MIGRATED BYTE-IDENTICALLY:** R1D moved the S8 provenance note into
+  `research/macro/` with R100, unchanged Git blob and SHA-256, and no duplicate copy.
+- **STOP / AUTHORITY BOUNDARY:** no further migration, R1E, physics work, or GPU work is authorized
+  by this checkpoint.
 
 **➤➤➤ NATIVE-ACTION FINAL ADJUDICATION + SELECTOR AUDIT (2026-07-18):**
 - **✅ FINAL A/B/C ADJUDICATION FROZEN AT `ded310a`:** read
@@ -56,7 +65,7 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
   pre-scale on `[g]_CSN` or post-scale on a bootstrap-selected representative; it does not by itself
   derive C², EH, or a two-stage bridge.
 - **STOP / AUTHORITY BOUNDARY:** this is an adjudicated ledger and selector map, not canonization.
-  No carrier is adopted. No GPU work, further arms, canonization, or repository reorganization is
+  No carrier is adopted. No GPU work, further arms, canonization, or further repository migration is
   authorized by this layer. Await Charles's next direction.
 
 **➤➤➤ TOPMOST LAYER (2026-07-16 — read this + the two result docs, then stop):**
@@ -92,8 +101,8 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **⏳ ON CHARLES'S DESK:** (1) audit of the F return (+ the G / boundary-virial / audit-patch chain);
   (2) review the frozen final native-action adjudication and the GR→UDT selector audit; (3) any
   canonization (stability seal; basin characterization; native-action status); (4) direction for the
-  next push. No native-action continuation, GPU launch, carrier adoption, or repository
-  reorganization follows without a new dispatch.
+  next push. No native-action continuation, GPU launch, carrier adoption, or further repository
+  migration follows without a new dispatch.
 - **Ops for a fresh session:** launch pattern = `setsid bash -c '… timeout … python3 …' & disown`
   (plain `&` dies with the tool shell); ONE GPU process; **exact Hessian tools** `hvp_exact`/
   `hvp_exact_chunked` in `noNull_energy.py` (machine-precision; FD-HVP noise floor ~1e-10 rel blocks

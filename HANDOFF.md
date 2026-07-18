@@ -5,9 +5,14 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-10).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-18 — H3 particle-mass arc complete; native-action final adjudication and selector audit complete)
+## CURRENT (2026-07-18 — H3 particle-mass arc complete; native-action final adjudication and selector audit complete; R0–R1D reorganization checkpoint complete)
 
 **Read LIVE.md CURRENT STATE topmost layer first.** Session arc 07-13→16 in one paragraph:
+
+**R1 REORGANIZATION CHECKPOINT COMPLETE:** R0–R1D is integrated. Fixed historical inventories,
+preregistrations, and verification records remain immutable. Resolve current artifact locations
+through `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`. R1D moved one active artifact
+byte-identically into `research/macro/`; no further migration is authorized yet.
 
 **NATIVE-ACTION ADJUDICATION COMPLETE AND FROZEN (2026-07-18; `ded310a`):** the mechanical A/B/C
 adjudication is under `native_action_final_adjudication_2026-07-18/`. Read
@@ -26,7 +31,7 @@ complete-state digest: `2b4a2c3d6a6881753822bf096e28f170a464d5a29666a4d1d4fb93af
 variation domain/derivative order `OPEN`; boundary completion `MODIFIED` by the finite cell while its
 functional and charge remain open. The immediate missing fork is pre-scale equivalence-class versus
 post-scale representative variation; it is not a complete-action selector. No carrier is adopted.
-Stop before canonization, GPU work, further arms, or repository reorganization.
+Stop before canonization, GPU work, further arms, or further repository migration.
 
 The corrected-operator stability question was closed in TWO layers, both blind/independently verified:
 (1) the T/R-DEFLATED physical spectrum certified positive at 128/192/256 (Charles's raw-backward-error
@@ -58,7 +63,7 @@ mass. Records: `noNull_behavioral_F_results.md` + `noNull_F_*.json` + `F_evidenc
 
 **Pending Charles:** audit of the F return; review the frozen native-action final adjudication and
 GR→UDT selector audit; canonization calls; next-push direction. No native-action continuation,
-carrier adoption, GPU launch, or repository reorganization follows without a new dispatch.
+carrier adoption, GPU launch, or further repository migration follows without a new dispatch.
 **Key commits:** da51ec4→1c2196c (spectrum cert), d131557 (inertia seal), 493d104 (G), 837d633
 (boundary-virial). **Records:** noNull_hess_h2fit_log.txt, noNull_schur_inertia_ALL.json,
 noNull_phaseG_mass_results.md, noNull_boundary_virial_results.md, noNull_virial_identity_derivation.md.

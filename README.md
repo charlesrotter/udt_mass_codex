@@ -12,6 +12,14 @@ cannot overrule the topmost current-state block in `LIVE.md`.
 [`NEGATIVES_REGISTRY.md`](NEGATIVES_REGISTRY.md), and
 [`PROVENANCE.md`](PROVENANCE.md) are the main status and evidence ledgers.
 
+## Repository reorganization checkpoint R0–R1D
+
+R0 through R1D is complete as an audited checkpoint. Fixed historical inventories,
+preregistrations, and verification records remain immutable. Resolve current artifact locations
+through [`CURRENT_ARTIFACT_PATHS.tsv`](research/_registry/CURRENT_ARTIFACT_PATHS.tsv), not by
+rewriting those snapshots. R1D migrated one active artifact byte-identically into the macro lane.
+No further migration is authorized yet.
+
 ## Repository reorganization R0
 
 Phase R0 is an additions-only census and navigation proposal at base commit
