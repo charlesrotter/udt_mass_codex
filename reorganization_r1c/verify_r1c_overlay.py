@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import csv
 import hashlib
 import json
@@ -44,6 +45,17 @@ README_INSERTION = """
 
 Phase R1C adds an ownership and navigation-only [research lane index](research/README.md). It does not move or copy research artifacts and does not create a new physics authority.
 """
+CORRECTION_BASE = "204f3637f134811f05df12aa7494ef41289ee3b4"
+SELECTOR_AUDIT_PATHS = (
+    "UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md",
+    "UDT_GR_TO_UDT_SELECTOR_AUDIT_PREREG_2026-07-18.md",
+)
+CORRECTION_MODIFIED_PATHS = {
+    "reorganization_r1c/R1C_AUDIT_REPORT.md",
+    "reorganization_r1c/verify_r1c_overlay.py",
+    "research/_registry/FIRST_ACTIVE_FAMILY_MIGRATION_RECOMMENDATION.md",
+    "research/_registry/VERIFY_RESULT.json",
+}
 
 
 def run(repo: Path, command: list[str], *, binary: bool = False) -> str | bytes:
@@ -178,6 +190,198 @@ def validate_diff(lines: list[str]) -> set[str]:
     return additions
 
 
+def validate_correction_diff(lines: list[str]) -> tuple[set[str], set[str]]:
+    additions: set[str] = set()
+    modifications: set[str] = set()
+    for line in lines:
+        fields = line.split("\t")
+        if fields[0] == "M":
+            assert fields[1] in CORRECTION_MODIFIED_PATHS, line
+            modifications.add(fields[1])
+        elif fields[0] == "A":
+            path = fields[1]
+            assert path.startswith("reorganization_r1c/correction/") or path == (
+                "research/_registry/FIRST_ACTIVE_FAMILY_MIGRATION_RECOMMENDATION.json"
+            ), line
+            additions.add(path)
+        else:
+            raise AssertionError(f"correction move/delete/copy/unauthorized status: {line}")
+    assert modifications <= CORRECTION_MODIFIED_PATHS
+    assert {
+        "reorganization_r1c/R1C_AUDIT_REPORT.md",
+        "reorganization_r1c/verify_r1c_overlay.py",
+        "research/_registry/FIRST_ACTIVE_FAMILY_MIGRATION_RECOMMENDATION.md",
+    } <= modifications
+    return additions, modifications
+
+
+def reference_positions(text: str, token: str) -> list[int]:
+    left_continuation = frozenset(
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_.-"
+    )
+    right_continuation = frozenset(
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-"
+    )
+    found: list[int] = []
+    offset = 0
+    while True:
+        offset = text.find(token, offset)
+        if offset < 0:
+            return found
+        end = offset + len(token)
+        left_ok = not offset or text[offset - 1] not in left_continuation
+        right_ok = end == len(text)
+        if not right_ok:
+            following = text[end]
+            if following not in right_continuation:
+                right_ok = not (
+                    following == "."
+                    and end + 1 < len(text)
+                    and text[end + 1] in right_continuation
+                )
+        if left_ok and right_ok:
+            found.append(offset)
+        offset = end
+
+
+def validate_recommendation(
+    repo: Path,
+    payload: dict[str, Any],
+    candidate_rows: list[dict[str, str]],
+    audit_rows: list[dict[str, str]],
+    mechanical: dict[str, Any],
+    ownership: list[dict[str, str]],
+    readiness: list[dict[str, str]],
+    operational_dependencies: list[dict[str, str]],
+    forensic_dependencies: list[dict[str, str]],
+) -> dict[str, Any]:
+    candidate_paths = [row["current_path"] for row in candidate_rows]
+    assert len(candidate_paths) == len(set(candidate_paths)) == 13
+    audit_paths = [row["current_path"] for row in audit_rows]
+    assert len(audit_paths) == len(set(audit_paths)) == 13
+    assert set(audit_paths) == set(candidate_paths)
+    audit_by_path = {row["current_path"]: row for row in audit_rows}
+    assert sorted(int(row["rank"]) for row in audit_rows) == list(range(1, 14))
+    assert all(all(value for value in row.values()) for row in audit_rows)
+
+    own_rows: dict[str, list[dict[str, str]]] = __import__("collections").defaultdict(list)
+    ready_rows: dict[str, list[dict[str, str]]] = __import__("collections").defaultdict(list)
+    for row in ownership:
+        own_rows[row["current_path"]].append(row)
+    for row in readiness:
+        ready_rows[row["current_path"]].append(row)
+
+    assert mechanical["result"] == "PASS" and mechanical["base"] == CORRECTION_BASE
+    mechanical_rows = {row["current_path"]: row for row in mechanical["candidates"]}
+    assert len(mechanical_rows) == mechanical["candidate_count"] == 13
+    assert set(mechanical_rows) == set(candidate_paths)
+    for path in candidate_paths:
+        assert len(own_rows[path]) == len(ready_rows[path]) == 1
+        own = own_rows[path][0]
+        ready = ready_rows[path][0]
+        audit = audit_by_path[path]
+        mech = mechanical_rows[path]
+        assert own["primary_owner"] in LANES
+        assert ready["migration_readiness"] == "MOVE_READY"
+        assert ready["recommended_destination_if_migrated"] != "-"
+        assert audit["primary_owner"] == own["primary_owner"] == mech["primary_owner"]
+        assert audit["destination"] == ready["recommended_destination_if_migrated"] == mech["destination"]
+        assert audit["git_blob_oid"] == mech["git_blob_oid"]
+        assert audit["sha256"] == mech["sha256"]
+        assert (repo / path).is_file()
+        assert (repo / path).read_bytes() == git_blob(repo, CORRECTION_BASE, path)
+
+    ranking = payload["ranked_candidates"]
+    assert len(ranking) == 13
+    assert {
+        (item["current_path"], int(item["rank"]), item["ruling"]) for item in ranking
+    } == {
+        (row["current_path"], int(row["rank"]), row["closure_ruling"]) for row in audit_rows
+    }
+    assert payload["candidate_count"] == 13
+    assert payload["base"] == CORRECTION_BASE
+    assert payload["research_artifact_moves_renames_copies_deletes"] == 0
+    assert payload["decision"] in {
+        "RECOMMEND_SINGLE_AUDITED_FAMILY", "NO_MIGRATION_AUTHORIZED_YET"
+    }
+
+    recommended = payload["recommended_files"]
+    if payload["decision"] == "NO_MIGRATION_AUTHORIZED_YET":
+        assert recommended == []
+        return {"decision": payload["decision"], "recommended_files": 0}
+    assert payload["decision"] == "RECOMMEND_SINGLE_AUDITED_FAMILY"
+    assert len(recommended) >= 1
+    for item in recommended:
+        path = item["current_path"]
+        assert path in candidate_paths
+        assert len(ready_rows[path]) == len(own_rows[path]) == 1
+        ready = ready_rows[path][0]
+        own = own_rows[path][0]
+        audit = audit_by_path[path]
+        mech = mechanical_rows[path]
+        assert ready["migration_readiness"] == item["migration_readiness"] == "MOVE_READY"
+        assert ready["recommended_destination_if_migrated"] != "-"
+        assert item["destination"] == ready["recommended_destination_if_migrated"]
+        assert item["primary_owner"] == own["primary_owner"] in LANES
+        assert own["frozen_manifest_status"] == item["frozen_manifest_status"] == "NOT_FROZEN_OR_MANIFEST"
+        assert "FROZEN" not in ready["blocking_or_change_requirement"]
+        assert "MANIFEST" not in ready["blocking_or_change_requirement"]
+        assert audit["closure_ruling"] == item["closure_audit_ruling"] == "PASS_RECOMMENDED"
+        assert int(audit["rank"]) == int(item["rank"])
+        assert item["git_blob_oid"] == mech["git_blob_oid"]
+        assert item["sha256"] == mech["sha256"]
+        assert not mech["destination_collision"]
+        assert mech["registered_unresolved_dynamic_touches"] == 0
+        assert mech["operational_inbound_edges"] == []
+        assert mech["frozen_package_inbound_sources"] == []
+        assert not (repo / item["destination"]).exists()
+
+        operational_inbound = [
+            edge for edge in operational_dependencies
+            if path in edge["resolved_target"].split("|") and edge["source"] != path
+        ]
+        frozen_inbound = [
+            edge for edge in forensic_dependencies
+            if path in edge["resolved_target"].split("|")
+            and edge["source"].startswith((
+                "native_action_stage1_2026-07-18/",
+                "native_action_stage2_2026-07-18/",
+                "native_action_arm_c_2026-07-18/",
+                "native_action_final_adjudication_2026-07-18/",
+            ))
+        ]
+        assert operational_inbound == [] and frozen_inbound == []
+
+        substitutions = item["required_path_substitutions"]
+        assert substitutions
+        for substitution in substitutions:
+            assert substitution["future_source"] == item["destination"]
+            assert substitution["old_target"] in mech["file_like_tokens"]
+            expected = os.path.relpath(
+                repo / substitution["old_target"],
+                (repo / item["destination"]).parent,
+            )
+            assert substitution["new_target"] == expected
+            source_text = (repo / path).read_text(encoding="utf-8")
+            positions = reference_positions(source_text, substitution["old_target"])
+            assert len(positions) == 1
+            assert source_text.count("\n", 0, positions[0]) + 1 == int(substitution["line_at_base"])
+
+    prior = {row["current_path"]: row for row in payload["rejected_prior_recommendation"]}
+    assert set(prior) == set(SELECTOR_AUDIT_PATHS)
+    for path in SELECTOR_AUDIT_PATHS:
+        assert len(ready_rows[path]) == 1
+        ready = ready_rows[path][0]
+        assert ready["migration_readiness"] == prior[path]["migration_readiness"] == "IMMUTABLE_PATH"
+        assert ready["blocking_or_change_requirement"] == prior[path]["blocker"] == "R0_FROZEN_EVIDENCE"
+        assert ready["recommended_destination_if_migrated"] == prior[path]["destination"] == "-"
+    return {
+        "decision": payload["decision"],
+        "recommended_files": len(recommended),
+        "recommended_paths": [item["current_path"] for item in recommended],
+    }
+
+
 def current_dirty_metadata(checkout: Path) -> dict[str, tuple[str, int, str]]:
     env = os.environ.copy()
     env["GIT_OPTIONAL_LOCKS"] = "0"
@@ -227,11 +431,17 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--repo", type=Path, required=True)
     parser.add_argument("--base", required=True)
+    parser.add_argument("--correction-base", required=True)
     parser.add_argument("--inventory", type=Path, required=True)
     parser.add_argument("--ownership", type=Path, required=True)
     parser.add_argument("--readiness", type=Path, required=True)
     parser.add_argument("--frontier", type=Path, required=True)
     parser.add_argument("--dependency-map", type=Path, required=True)
+    parser.add_argument("--forensic-dependency-map", type=Path, required=True)
+    parser.add_argument("--candidates", type=Path, required=True)
+    parser.add_argument("--candidate-audit", type=Path, required=True)
+    parser.add_argument("--mechanical-closure", type=Path, required=True)
+    parser.add_argument("--recommendation", type=Path, required=True)
     parser.add_argument("--dirty-inventory", type=Path, required=True)
     parser.add_argument("--dirty-checkout", type=Path, required=True)
     parser.add_argument("--test-result", type=Path, required=True)
@@ -240,6 +450,8 @@ def main() -> int:
     repo = args.repo.resolve()
     base = str(run(repo, ["git", "rev-parse", args.base])).strip()
     assert base == "07c67bfbe661705c6b936243fa1ed697f23c1644"
+    correction_base = str(run(repo, ["git", "rev-parse", args.correction_base])).strip()
+    assert correction_base == CORRECTION_BASE
 
     frozen, _ = load_tsv(args.inventory)
     ownership, _ = load_tsv(args.ownership)
@@ -263,6 +475,15 @@ def main() -> int:
     validate_readme(repo, base)
 
     dependencies, _ = load_tsv(args.dependency_map)
+    forensic_dependencies, _ = load_tsv(args.forensic_dependency_map)
+    candidate_rows, _ = load_tsv(args.candidates)
+    audit_rows, _ = load_tsv(args.candidate_audit)
+    mechanical = json.loads(args.mechanical_closure.read_text(encoding="utf-8"))
+    recommendation = json.loads(args.recommendation.read_text(encoding="utf-8"))
+    recommendation_summary = validate_recommendation(
+        repo, recommendation, candidate_rows, audit_rows, mechanical,
+        ownership, readiness, dependencies, forensic_dependencies,
+    )
     expected_frontier = set()
     for edge in dependencies:
         source = edge["source"]
@@ -290,6 +511,12 @@ def main() -> int:
 
     diff_lines = str(run(repo, ["git", "diff", "--name-status", "--find-renames=100%", base])).splitlines()
     additions = validate_diff(diff_lines)
+    correction_diff_lines = str(
+        run(repo, ["git", "diff", "--name-status", "--find-renames=100%", correction_base])
+    ).splitlines()
+    correction_additions, correction_modifications = validate_correction_diff(correction_diff_lines)
+    assert "research/_registry/FIRST_ACTIVE_FAMILY_MIGRATION_RECOMMENDATION.json" in correction_additions
+    assert "reorganization_r1c/correction/R1C_CORRECTION_PREREGISTRATION.md" in correction_additions
     assert "README.md" in str(run(repo, ["git", "diff", "--name-only", base])).splitlines()
     # No added research file is an exact byte copy of a fixed-base artifact.
     base_hashes = {sha256(git_blob(repo, base, path)) for path in git_paths(repo, base)}
@@ -331,6 +558,24 @@ def main() -> int:
     bad_readiness[0]["migration_readiness"] = "MAYBE"
     bad_links = dict(links)
     bad_links["research/README.md"] = bad_links["research/README.md"].replace("foundations/README.md", "foundations/MISSING.md", 1)
+    bad_destination = copy.deepcopy(recommendation)
+    bad_destination["recommended_files"][0]["destination"] = "research/macro/WRONG_DESTINATION.md"
+
+    def selector_recommendation(selector_path: str) -> dict[str, Any]:
+        bad = copy.deepcopy(recommendation)
+        bad["recommended_files"][0]["current_path"] = selector_path
+        bad["recommended_files"][0]["primary_owner"] = "NATIVE_ACTION"
+        bad["recommended_files"][0]["migration_readiness"] = "IMMUTABLE_PATH"
+        bad["recommended_files"][0]["destination"] = "-"
+        bad["recommended_files"][0]["frozen_manifest_status"] = "R0_FROZEN_EVIDENCE"
+        return bad
+
+    def check_recommendation(payload: dict[str, Any]) -> dict[str, Any]:
+        return validate_recommendation(
+            repo, payload, candidate_rows, audit_rows, mechanical,
+            ownership, readiness, dependencies, forensic_dependencies,
+        )
+
     result = {
         "result": "PASS",
         "mode": "R1C_INDEPENDENT_FAIL_CLOSED_OVERLAY_VERIFY",
@@ -345,6 +590,11 @@ def main() -> int:
         "verified_markdown_links": link_count,
         "authorized_additions": len(additions),
         "only_existing_path_modified": "README.md",
+        "correction_base": correction_base,
+        "correction_additions": len(correction_additions),
+        "correction_modified_records": sorted(correction_modifications),
+        "candidate_closure_rows": len(audit_rows),
+        "recommendation": recommendation_summary,
         "research_artifact_moves_renames_copies_deletes": 0,
         "frozen_manifest_replays": frozen_replays,
         "dirty_workstation_rows_metadata_only": len(current_dirty),
@@ -355,6 +605,13 @@ def main() -> int:
             "duplicate_ownership_row_rejected": rejected(lambda: validate_tables(frozen, ownership + [ownership[0]], readiness)),
             "bad_primary_owner_rejected": rejected(lambda: validate_tables(frozen, bad_ownership, readiness)),
             "bad_readiness_rejected": rejected(lambda: validate_tables(frozen, ownership, bad_readiness)),
+            "bad_recommendation_destination_rejected": rejected(lambda: check_recommendation(bad_destination)),
+            "selector_audit_recommendation_rejected": rejected(
+                lambda: check_recommendation(selector_recommendation(SELECTOR_AUDIT_PATHS[0]))
+            ),
+            "selector_audit_prereg_recommendation_rejected": rejected(
+                lambda: check_recommendation(selector_recommendation(SELECTOR_AUDIT_PATHS[1]))
+            ),
             "broken_link_rejected": rejected(lambda: validate_links(repo, bad_links)),
             "startup_order_mutation_rejected": rejected(lambda: validate_readme(repo, base, (repo / "README.md").read_bytes().replace(b"LIVE.md", b"L1VE.md", 1))),
             "unauthorized_existing_edit_rejected": rejected(lambda: validate_diff(["M\tLIVE.md"])),

@@ -1,16 +1,28 @@
 {
-  "authorized_additions": 26,
+  "authorized_additions": 37,
   "base": "07c67bfbe661705c6b936243fa1ed697f23c1644",
+  "candidate_closure_rows": 13,
   "catchproof": {
     "bad_primary_owner_rejected": "PASS",
     "bad_readiness_rejected": "PASS",
+    "bad_recommendation_destination_rejected": "PASS",
     "broken_link_rejected": "PASS",
     "duplicate_ownership_row_rejected": "PASS",
     "manifest_mutation_rejected": "PASS",
     "missing_ownership_row_rejected": "PASS",
+    "selector_audit_prereg_recommendation_rejected": "PASS",
+    "selector_audit_recommendation_rejected": "PASS",
     "startup_order_mutation_rejected": "PASS",
     "unauthorized_existing_edit_rejected": "PASS"
   },
+  "correction_additions": 11,
+  "correction_base": "204f3637f134811f05df12aa7494ef41289ee3b4",
+  "correction_modified_records": [
+    "reorganization_r1c/R1C_AUDIT_REPORT.md",
+    "reorganization_r1c/verify_r1c_overlay.py",
+    "research/_registry/FIRST_ACTIVE_FAMILY_MIGRATION_RECOMMENDATION.md",
+    "research/_registry/VERIFY_RESULT.json"
+  ],
   "current_frontier_reference_rows": 306,
   "current_frontier_unique_targets": 101,
   "dirty_content_policy": "NOT_READ",
@@ -70,6 +82,13 @@
     "RETAIN_ROOT": 38
   },
   "readiness_rows": 1114,
+  "recommendation": {
+    "decision": "RECOMMEND_SINGLE_AUDITED_FAMILY",
+    "recommended_files": 1,
+    "recommended_paths": [
+      "simple_metric_S8_action_provenance_note.md"
+    ]
+  },
   "research_artifact_moves_renames_copies_deletes": 0,
   "result": "PASS",
   "root_rows": 1114,
@@ -81,8 +100,8 @@
     "passed": 69,
     "python": "3.10.12",
     "returncode": 1,
-    "scope": "R1C_ADDITIONS_ONLY_LANE_OVERLAY",
+    "scope": "R1C_RECOMMENDATION_CORRECTION_NO_CONTENT_MIGRATION",
     "xfailed": 1
   },
-  "verified_markdown_links": 59
+  "verified_markdown_links": 64
 }

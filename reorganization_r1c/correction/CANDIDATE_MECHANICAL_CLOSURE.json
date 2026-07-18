@@ -1,0 +1,2737 @@
+{
+  "base": "204f3637f134811f05df12aa7494ef41289ee3b4",
+  "candidate_count": 13,
+  "candidates": [
+    {
+      "candidate_frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+      "corrected_boundary_occurrences": 115,
+      "corrected_boundary_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "reorganization_r1c/build_r1c_lane_overlay.py",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/particle_mass/ROOT_INVENTORY.tsv"
+      ],
+      "current_path": "controlled_relax_hessian.py",
+      "destination": "research/particle_mass/controlled_relax_hessian.py",
+      "destination_collision": false,
+      "file_like_token_status": {
+        "controlled_best_field.npz": {
+          "frozen_manifest_status": "NOT_REGISTERED_ROOT_PATH",
+          "readiness": "NOT_REGISTERED_ROOT_PATH",
+          "tracked_at_base": false
+        },
+        "controlled_relax_hessian_out.json": {
+          "frozen_manifest_status": "R0_FROZEN_EVIDENCE",
+          "readiness": "IMMUTABLE_PATH",
+          "tracked_at_base": true
+        },
+        "hopfion_arc_scripts_2026-07-05/prod_an256.npz": {
+          "frozen_manifest_status": "NOT_REGISTERED_ROOT_PATH",
+          "readiness": "NOT_REGISTERED_ROOT_PATH",
+          "tracked_at_base": false
+        },
+        "prod_relax256uncon.npz": {
+          "frozen_manifest_status": "NOT_REGISTERED_ROOT_PATH",
+          "readiness": "NOT_REGISTERED_ROOT_PATH",
+          "tracked_at_base": false
+        },
+        "scratchpad/controlled_relax.log": {
+          "frozen_manifest_status": "NOT_REGISTERED_ROOT_PATH",
+          "readiness": "NOT_REGISTERED_ROOT_PATH",
+          "tracked_at_base": false
+        }
+      },
+      "file_like_tokens": [
+        "controlled_best_field.npz",
+        "controlled_relax_hessian_out.json",
+        "hopfion_arc_scripts_2026-07-05/prod_an256.npz",
+        "prod_relax256uncon.npz",
+        "scratchpad/controlled_relax.log"
+      ],
+      "forensic_inbound_edges": [
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "3959",
+          "raw_target": "controlled_relax_hessian.py",
+          "resolved_target": "controlled_relax_hessian.py",
+          "source": "reorganization_r0/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "349",
+          "raw_target": "controlled_relax_hessian.py",
+          "resolved_target": "controlled_relax_hessian.py",
+          "source": "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "3939",
+          "raw_target": "controlled_relax_hessian.py",
+          "resolved_target": "controlled_relax_hessian.py",
+          "source": "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "344",
+          "raw_target": "controlled_relax_hessian.py",
+          "resolved_target": "controlled_relax_hessian.py",
+          "source": "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "3939",
+          "raw_target": "controlled_relax_hessian.py",
+          "resolved_target": "controlled_relax_hessian.py",
+          "source": "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "344",
+          "raw_target": "controlled_relax_hessian.py",
+          "resolved_target": "controlled_relax_hessian.py",
+          "source": "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        }
+      ],
+      "forensic_reorganization_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv"
+      ],
+      "frozen_package_inbound_sources": [],
+      "git_blob_oid": "d113e1c85d2c22bd86c00fb7ae45b7a6e6dc1a29",
+      "hygiene_test_glob_matches": [],
+      "literal_git_grep_crosscheck": "PASS",
+      "literal_git_grep_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "reorganization_r1c/build_r1c_lane_overlay.py",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/particle_mass/ROOT_INVENTORY.tsv"
+      ],
+      "migration_readiness": "MOVE_READY",
+      "operational_inbound_edges": [],
+      "operational_outbound_edges": [
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "7",
+          "raw_target": "json",
+          "resolved_target": "json",
+          "source": "controlled_relax_hessian.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "7",
+          "raw_target": "numpy",
+          "resolved_target": "numpy",
+          "source": "controlled_relax_hessian.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "7",
+          "raw_target": "sys",
+          "resolved_target": "sys",
+          "source": "controlled_relax_hessian.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "7",
+          "raw_target": "time",
+          "resolved_target": "time",
+          "source": "controlled_relax_hessian.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "7",
+          "raw_target": "torch",
+          "resolved_target": "torch",
+          "source": "controlled_relax_hessian.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "9",
+          "raw_target": "fs_hopfion",
+          "resolved_target": "fs_hopfion",
+          "source": "controlled_relax_hessian.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "grad",
+          "kind": "PY_FROM_IMPORT",
+          "line": "10",
+          "raw_target": "torch.func",
+          "resolved_target": "torch.func",
+          "source": "controlled_relax_hessian.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "12",
+          "raw_target": "os",
+          "resolved_target": "os",
+          "source": "controlled_relax_hessian.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "np.load",
+          "kind": "FILE_PATH_CALL",
+          "line": "13",
+          "raw_target": "'prod_relax256uncon.npz' if os.path.exists('prod_relax256uncon.npz') else 'hopfion_arc_scripts_2026-07-05/prod_an256.npz'",
+          "resolved_target": "'prod_relax256uncon.npz' if os.path.exists('prod_relax256uncon.npz') else 'hopfion_arc_scripts_2026-07-05/prod_an256.npz'",
+          "source": "controlled_relax_hessian.py",
+          "status": "DYNAMIC"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "open",
+          "kind": "FILE_PATH_CALL",
+          "line": "27",
+          "raw_target": "LOG",
+          "resolved_target": "LOG",
+          "source": "controlled_relax_hessian.py",
+          "status": "DYNAMIC"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "open",
+          "kind": "FILE_PATH_CALL",
+          "line": "29",
+          "raw_target": "LOG",
+          "resolved_target": "LOG",
+          "source": "controlled_relax_hessian.py",
+          "status": "DYNAMIC"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "np.savez",
+          "kind": "FILE_PATH_CALL",
+          "line": "53",
+          "raw_target": "controlled_best_field.npz",
+          "resolved_target": "controlled_best_field.npz",
+          "source": "controlled_relax_hessian.py",
+          "status": "MISSING_OR_GENERATED"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "json.dump",
+          "kind": "FILE_PATH_CALL",
+          "line": "85",
+          "raw_target": "{'best_gradnorm': gn_best, 'Q': Qb, 'lowest_lam_phys': lam_phys, 'res_phys': res_phys, 'in_core': incore, 'verdict': verdict}",
+          "resolved_target": "{'best_gradnorm': gn_best, 'Q': Qb, 'lowest_lam_phys': lam_phys, 'res_phys': res_phys, 'in_core': incore, 'verdict': verdict}",
+          "source": "controlled_relax_hessian.py",
+          "status": "DYNAMIC"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "open",
+          "kind": "FILE_PATH_CALL",
+          "line": "86",
+          "raw_target": "controlled_relax_hessian_out.json",
+          "resolved_target": "controlled_relax_hessian_out.json",
+          "source": "controlled_relax_hessian.py",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "86",
+          "raw_target": "controlled_relax_hessian_out.json",
+          "resolved_target": "controlled_relax_hessian_out.json",
+          "source": "controlled_relax_hessian.py",
+          "status": "RESOLVED_TRACKED"
+        }
+      ],
+      "primary_owner": "PARTICLE_MASS",
+      "python_imports": [
+        "fs_hopfion",
+        "json",
+        "numpy",
+        "os",
+        "sys",
+        "time",
+        "torch",
+        "torch.func"
+      ],
+      "registered_unresolved_dynamic_touches": 0,
+      "root_internal_import_resolution": {
+        "fs_hopfion": "NOT_ROOT_MODULE",
+        "json": "NOT_ROOT_MODULE",
+        "numpy": "NOT_ROOT_MODULE",
+        "os": "NOT_ROOT_MODULE",
+        "sys": "NOT_ROOT_MODULE",
+        "time": "NOT_ROOT_MODULE",
+        "torch": "NOT_ROOT_MODULE",
+        "torch.func": "NOT_ROOT_MODULE"
+      },
+      "sha256": "72ce101b01e14b5a241e09b1ae188b4fb4883778c72f71bd69346d938513e37e",
+      "size_bytes": 5634
+    },
+    {
+      "candidate_frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+      "corrected_boundary_occurrences": 81,
+      "corrected_boundary_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/particle_mass/ROOT_INVENTORY.tsv"
+      ],
+      "current_path": "hopfion_static_mass_hessian_256driver.py",
+      "destination": "research/particle_mass/hopfion_static_mass_hessian_256driver.py",
+      "destination_collision": false,
+      "file_like_token_status": {
+        "hopfion_arc_scripts_2026-07-05/prod_an256.npz": {
+          "frozen_manifest_status": "NOT_REGISTERED_ROOT_PATH",
+          "readiness": "NOT_REGISTERED_ROOT_PATH",
+          "tracked_at_base": false
+        },
+        "hopfion_static_mass_hessian_out.json": {
+          "frozen_manifest_status": "R0_FROZEN_EVIDENCE",
+          "readiness": "IMMUTABLE_PATH",
+          "tracked_at_base": true
+        }
+      },
+      "file_like_tokens": [
+        "hopfion_arc_scripts_2026-07-05/prod_an256.npz",
+        "hopfion_static_mass_hessian_out.json"
+      ],
+      "forensic_inbound_edges": [
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "4749",
+          "raw_target": "hopfion_static_mass_hessian_256driver.py",
+          "resolved_target": "hopfion_static_mass_hessian_256driver.py",
+          "source": "reorganization_r0/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "450",
+          "raw_target": "hopfion_static_mass_hessian_256driver.py",
+          "resolved_target": "hopfion_static_mass_hessian_256driver.py",
+          "source": "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "4723",
+          "raw_target": "hopfion_static_mass_hessian_256driver.py",
+          "resolved_target": "hopfion_static_mass_hessian_256driver.py",
+          "source": "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "442",
+          "raw_target": "hopfion_static_mass_hessian_256driver.py",
+          "resolved_target": "hopfion_static_mass_hessian_256driver.py",
+          "source": "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "4723",
+          "raw_target": "hopfion_static_mass_hessian_256driver.py",
+          "resolved_target": "hopfion_static_mass_hessian_256driver.py",
+          "source": "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "442",
+          "raw_target": "hopfion_static_mass_hessian_256driver.py",
+          "resolved_target": "hopfion_static_mass_hessian_256driver.py",
+          "source": "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        }
+      ],
+      "forensic_reorganization_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv"
+      ],
+      "frozen_package_inbound_sources": [],
+      "git_blob_oid": "1bf3450f1d1a1fa32333ad692b83b87f63e1d51f",
+      "hygiene_test_glob_matches": [],
+      "literal_git_grep_crosscheck": "PASS",
+      "literal_git_grep_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/particle_mass/ROOT_INVENTORY.tsv"
+      ],
+      "migration_readiness": "MOVE_READY",
+      "operational_inbound_edges": [],
+      "operational_outbound_edges": [
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "6",
+          "raw_target": "hopfion_static_mass_common",
+          "resolved_target": "hopfion_static_mass_common.py",
+          "source": "hopfion_static_mass_hessian_256driver.py",
+          "status": "RESOLVED_INTERNAL"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "6",
+          "raw_target": "json",
+          "resolved_target": "json",
+          "source": "hopfion_static_mass_hessian_256driver.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "6",
+          "raw_target": "numpy",
+          "resolved_target": "numpy",
+          "source": "hopfion_static_mass_hessian_256driver.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "6",
+          "raw_target": "torch",
+          "resolved_target": "torch",
+          "source": "hopfion_static_mass_hessian_256driver.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "grad",
+          "kind": "PY_FROM_IMPORT",
+          "line": "7",
+          "raw_target": "torch.func",
+          "resolved_target": "torch.func",
+          "source": "hopfion_static_mass_hessian_256driver.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "json.dump",
+          "kind": "FILE_PATH_CALL",
+          "line": "59",
+          "raw_target": "{'phaseB_256_clean': {'virial': E2 / E4, 'gradnorm': gnorm, 'lam_phys': lam_phys, 'res_phys': res_phys, 'eig_converged': converged, 'in_core': lf(v), 'localized': localized, 'verdict': verdict, 'note': 'fixed-boundary, generalized norm (M=h^3 I), production 256 minimizer as-is (gradnorm 0.13 residual). Multi-resolution re-relaxation BLOCKED: naive arrested-Newton collapses coarse hopfion (Derrick) without production rescale machinery.'}}",
+          "resolved_target": "{'phaseB_256_clean': {'virial': E2 / E4, 'gradnorm': gnorm, 'lam_phys': lam_phys, 'res_phys': res_phys, 'eig_converged': converged, 'in_core': lf(v), 'localized': localized, 'verdict': verdict, 'note': 'fixed-boundary, generalized norm (M=h^3 I), production 256 minimizer as-is (gradnorm 0.13 residual). Multi-resolution re-relaxation BLOCKED: naive arrested-Newton collapses coarse hopfion (Derrick) without production rescale machinery.'}}",
+          "source": "hopfion_static_mass_hessian_256driver.py",
+          "status": "DYNAMIC"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "open",
+          "kind": "FILE_PATH_CALL",
+          "line": "62",
+          "raw_target": "hopfion_static_mass_hessian_out.json",
+          "resolved_target": "hopfion_static_mass_hessian_out.json",
+          "source": "hopfion_static_mass_hessian_256driver.py",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "62",
+          "raw_target": "hopfion_static_mass_hessian_out.json",
+          "resolved_target": "hopfion_static_mass_hessian_out.json",
+          "source": "hopfion_static_mass_hessian_256driver.py",
+          "status": "RESOLVED_TRACKED"
+        }
+      ],
+      "primary_owner": "PARTICLE_MASS",
+      "python_imports": [
+        "hopfion_static_mass_common",
+        "json",
+        "numpy",
+        "torch",
+        "torch.func"
+      ],
+      "registered_unresolved_dynamic_touches": 0,
+      "root_internal_import_resolution": {
+        "hopfion_static_mass_common": "hopfion_static_mass_common.py",
+        "json": "NOT_ROOT_MODULE",
+        "numpy": "NOT_ROOT_MODULE",
+        "torch": "NOT_ROOT_MODULE",
+        "torch.func": "NOT_ROOT_MODULE"
+      },
+      "sha256": "aeaddb307d68a9229dc87135ebc608ec8215c17f682853380743abbda95d67d2",
+      "size_bytes": 4588
+    },
+    {
+      "candidate_frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+      "corrected_boundary_occurrences": 109,
+      "corrected_boundary_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "reorganization_r1c/build_r1c_lane_overlay.py",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/particle_mass/ROOT_INVENTORY.tsv"
+      ],
+      "current_path": "long_relax_256.py",
+      "destination": "research/particle_mass/long_relax_256.py",
+      "destination_collision": false,
+      "file_like_token_status": {
+        "long_relax_256_ckpt.npz": {
+          "frozen_manifest_status": "NOT_REGISTERED_ROOT_PATH",
+          "readiness": "NOT_REGISTERED_ROOT_PATH",
+          "tracked_at_base": false
+        },
+        "long_relax_256_final.npz": {
+          "frozen_manifest_status": "NOT_REGISTERED_ROOT_PATH",
+          "readiness": "NOT_REGISTERED_ROOT_PATH",
+          "tracked_at_base": false
+        },
+        "long_relax_256_out.json": {
+          "frozen_manifest_status": "NOT_REGISTERED_ROOT_PATH",
+          "readiness": "NOT_REGISTERED_ROOT_PATH",
+          "tracked_at_base": false
+        },
+        "prod_relax256uncon.npz": {
+          "frozen_manifest_status": "NOT_REGISTERED_ROOT_PATH",
+          "readiness": "NOT_REGISTERED_ROOT_PATH",
+          "tracked_at_base": false
+        },
+        "scratchpad/long_relax_256.log": {
+          "frozen_manifest_status": "NOT_REGISTERED_ROOT_PATH",
+          "readiness": "NOT_REGISTERED_ROOT_PATH",
+          "tracked_at_base": false
+        }
+      },
+      "file_like_tokens": [
+        "long_relax_256_ckpt.npz",
+        "long_relax_256_final.npz",
+        "long_relax_256_out.json",
+        "prod_relax256uncon.npz",
+        "scratchpad/long_relax_256.log"
+      ],
+      "forensic_inbound_edges": [
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "8716",
+          "raw_target": "long_relax_256.py",
+          "resolved_target": "long_relax_256.py",
+          "source": "reorganization_r0/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "469",
+          "raw_target": "long_relax_256.py",
+          "resolved_target": "long_relax_256.py",
+          "source": "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "8682",
+          "raw_target": "long_relax_256.py",
+          "resolved_target": "long_relax_256.py",
+          "source": "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "460",
+          "raw_target": "long_relax_256.py",
+          "resolved_target": "long_relax_256.py",
+          "source": "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "8682",
+          "raw_target": "long_relax_256.py",
+          "resolved_target": "long_relax_256.py",
+          "source": "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "460",
+          "raw_target": "long_relax_256.py",
+          "resolved_target": "long_relax_256.py",
+          "source": "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        }
+      ],
+      "forensic_reorganization_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv"
+      ],
+      "frozen_package_inbound_sources": [],
+      "git_blob_oid": "fe07e728530aa9b0c22c2f1f9e02f372c5df7119",
+      "hygiene_test_glob_matches": [],
+      "literal_git_grep_crosscheck": "PASS",
+      "literal_git_grep_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "reorganization_r1c/build_r1c_lane_overlay.py",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/particle_mass/ROOT_INVENTORY.tsv"
+      ],
+      "migration_readiness": "MOVE_READY",
+      "operational_inbound_edges": [],
+      "operational_outbound_edges": [
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "13",
+          "raw_target": "json",
+          "resolved_target": "json",
+          "source": "long_relax_256.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "13",
+          "raw_target": "numpy",
+          "resolved_target": "numpy",
+          "source": "long_relax_256.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "13",
+          "raw_target": "os",
+          "resolved_target": "os",
+          "source": "long_relax_256.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "13",
+          "raw_target": "sys",
+          "resolved_target": "sys",
+          "source": "long_relax_256.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "13",
+          "raw_target": "time",
+          "resolved_target": "time",
+          "source": "long_relax_256.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "13",
+          "raw_target": "torch",
+          "resolved_target": "torch",
+          "source": "long_relax_256.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "15",
+          "raw_target": "fs_hopfion",
+          "resolved_target": "fs_hopfion",
+          "source": "long_relax_256.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "grad",
+          "kind": "PY_FROM_IMPORT",
+          "line": "16",
+          "raw_target": "torch.func",
+          "resolved_target": "torch.func",
+          "source": "long_relax_256.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "np.load",
+          "kind": "FILE_PATH_CALL",
+          "line": "19",
+          "raw_target": "START",
+          "resolved_target": "START",
+          "source": "long_relax_256.py",
+          "status": "DYNAMIC"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "open",
+          "kind": "FILE_PATH_CALL",
+          "line": "34",
+          "raw_target": "LOG",
+          "resolved_target": "LOG",
+          "source": "long_relax_256.py",
+          "status": "DYNAMIC"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "open",
+          "kind": "FILE_PATH_CALL",
+          "line": "35",
+          "raw_target": "LOG",
+          "resolved_target": "LOG",
+          "source": "long_relax_256.py",
+          "status": "DYNAMIC"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "np.savez",
+          "kind": "FILE_PATH_CALL",
+          "line": "87",
+          "raw_target": "long_relax_256_ckpt.npz",
+          "resolved_target": "long_relax_256_ckpt.npz",
+          "source": "long_relax_256.py",
+          "status": "MISSING_OR_GENERATED"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "np.savez",
+          "kind": "FILE_PATH_CALL",
+          "line": "90",
+          "raw_target": "long_relax_256_final.npz",
+          "resolved_target": "long_relax_256_final.npz",
+          "source": "long_relax_256.py",
+          "status": "MISSING_OR_GENERATED"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "json.dump",
+          "kind": "FILE_PATH_CALL",
+          "line": "93",
+          "raw_target": "{'final_gradnorm': gn, 'Q': Qof(n), 'lowest_lam_phys': lam, 'in_core': incore, 'iters': it, 'start_gradnorm': 0.1197}",
+          "resolved_target": "{'final_gradnorm': gn, 'Q': Qof(n), 'lowest_lam_phys': lam, 'in_core': incore, 'iters': it, 'start_gradnorm': 0.1197}",
+          "source": "long_relax_256.py",
+          "status": "DYNAMIC"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "open",
+          "kind": "FILE_PATH_CALL",
+          "line": "94",
+          "raw_target": "long_relax_256_out.json",
+          "resolved_target": "long_relax_256_out.json",
+          "source": "long_relax_256.py",
+          "status": "MISSING_OR_GENERATED"
+        }
+      ],
+      "primary_owner": "PARTICLE_MASS",
+      "python_imports": [
+        "fs_hopfion",
+        "json",
+        "numpy",
+        "os",
+        "sys",
+        "time",
+        "torch",
+        "torch.func"
+      ],
+      "registered_unresolved_dynamic_touches": 0,
+      "root_internal_import_resolution": {
+        "fs_hopfion": "NOT_ROOT_MODULE",
+        "json": "NOT_ROOT_MODULE",
+        "numpy": "NOT_ROOT_MODULE",
+        "os": "NOT_ROOT_MODULE",
+        "sys": "NOT_ROOT_MODULE",
+        "time": "NOT_ROOT_MODULE",
+        "torch": "NOT_ROOT_MODULE",
+        "torch.func": "NOT_ROOT_MODULE"
+      },
+      "sha256": "9e8e74afbd28c7bddd6eceed5089d904990734e3086b24af04f2b499a64b0d50",
+      "size_bytes": 5706
+    },
+    {
+      "candidate_frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+      "corrected_boundary_occurrences": 134,
+      "corrected_boundary_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_census/BASE_INBOUND_REFERENCES_FORENSIC.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/particle_mass/ROOT_INVENTORY.tsv"
+      ],
+      "current_path": "noNull_evidence_checker.py",
+      "destination": "research/particle_mass/noNull_evidence_checker.py",
+      "destination_collision": false,
+      "file_like_token_status": {
+        "noNull_evidence_checker_output.txt": {
+          "frozen_manifest_status": "R0_FROZEN_EVIDENCE",
+          "readiness": "IMMUTABLE_PATH",
+          "tracked_at_base": true
+        },
+        "noNull_evidence_seal.py": {
+          "frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+          "readiness": "POINTER_MIGRATION_REQUIRED",
+          "tracked_at_base": true
+        },
+        "noNull_hess_h2fit_log.txt": {
+          "frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+          "readiness": "POINTER_MIGRATION_REQUIRED",
+          "tracked_at_base": true
+        },
+        "noNull_hess_refine_s0.npz": {
+          "frozen_manifest_status": "NOT_REGISTERED_ROOT_PATH",
+          "readiness": "NOT_REGISTERED_ROOT_PATH",
+          "tracked_at_base": false
+        },
+        "noNull_hess_refine_s1.npz": {
+          "frozen_manifest_status": "NOT_REGISTERED_ROOT_PATH",
+          "readiness": "NOT_REGISTERED_ROOT_PATH",
+          "tracked_at_base": false
+        },
+        "noNull_hess_refine_s128_0.npz": {
+          "frozen_manifest_status": "NOT_REGISTERED_ROOT_PATH",
+          "readiness": "NOT_REGISTERED_ROOT_PATH",
+          "tracked_at_base": false
+        },
+        "noNull_hess_refine_s128_1.npz": {
+          "frozen_manifest_status": "NOT_REGISTERED_ROOT_PATH",
+          "readiness": "NOT_REGISTERED_ROOT_PATH",
+          "tracked_at_base": false
+        },
+        "noNull_hess_refine_s192_0.npz": {
+          "frozen_manifest_status": "NOT_REGISTERED_ROOT_PATH",
+          "readiness": "NOT_REGISTERED_ROOT_PATH",
+          "tracked_at_base": false
+        },
+        "noNull_hess_refine_s192_1.npz": {
+          "frozen_manifest_status": "NOT_REGISTERED_ROOT_PATH",
+          "readiness": "NOT_REGISTERED_ROOT_PATH",
+          "tracked_at_base": false
+        },
+        "noNull_stability_evidence.json": {
+          "frozen_manifest_status": "R0_FROZEN_EVIDENCE",
+          "readiness": "IMMUTABLE_PATH",
+          "tracked_at_base": true
+        },
+        "perturbation_bound_algebra_note.md": {
+          "frozen_manifest_status": "NOT_REGISTERED_ROOT_PATH",
+          "readiness": "NOT_REGISTERED_ROOT_PATH",
+          "tracked_at_base": false
+        }
+      },
+      "file_like_tokens": [
+        "noNull_evidence_checker_output.txt",
+        "noNull_evidence_seal.py",
+        "noNull_hess_h2fit_log.txt",
+        "noNull_hess_refine_s0.npz",
+        "noNull_hess_refine_s1.npz",
+        "noNull_hess_refine_s128_0.npz",
+        "noNull_hess_refine_s128_1.npz",
+        "noNull_hess_refine_s192_0.npz",
+        "noNull_hess_refine_s192_1.npz",
+        "noNull_stability_evidence.json",
+        "perturbation_bound_algebra_note.md"
+      ],
+      "forensic_inbound_edges": [
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "11545",
+          "raw_target": "noNull_evidence_checker.py",
+          "resolved_target": "noNull_evidence_checker.py",
+          "source": "reorganization_r0/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "664",
+          "raw_target": "noNull_evidence_checker.py",
+          "resolved_target": "noNull_evidence_checker.py",
+          "source": "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "11519",
+          "raw_target": "noNull_evidence_checker.py",
+          "resolved_target": "noNull_evidence_checker.py",
+          "source": "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "654",
+          "raw_target": "noNull_evidence_checker.py",
+          "resolved_target": "noNull_evidence_checker.py",
+          "source": "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "4214",
+          "raw_target": "noNull_evidence_checker.py",
+          "resolved_target": "noNull_evidence_checker.py",
+          "source": "reorganization_r1b/base_census/BASE_INBOUND_REFERENCES_FORENSIC.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "11519",
+          "raw_target": "noNull_evidence_checker.py",
+          "resolved_target": "noNull_evidence_checker.py",
+          "source": "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "654",
+          "raw_target": "noNull_evidence_checker.py",
+          "resolved_target": "noNull_evidence_checker.py",
+          "source": "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        }
+      ],
+      "forensic_reorganization_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_census/BASE_INBOUND_REFERENCES_FORENSIC.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv"
+      ],
+      "frozen_package_inbound_sources": [],
+      "git_blob_oid": "7fda84b69197e512979793a43b4c7e798cd36d49",
+      "hygiene_test_glob_matches": [],
+      "literal_git_grep_crosscheck": "PASS",
+      "literal_git_grep_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_census/BASE_INBOUND_REFERENCES_FORENSIC.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/particle_mass/ROOT_INVENTORY.tsv"
+      ],
+      "migration_readiness": "MOVE_READY",
+      "operational_inbound_edges": [],
+      "operational_outbound_edges": [
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "3",
+          "raw_target": "noNull_hess_h2fit_log.txt",
+          "resolved_target": "noNull_hess_h2fit_log.txt",
+          "source": "noNull_evidence_checker.py",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "4",
+          "raw_target": "noNull_stability_evidence.json",
+          "resolved_target": "noNull_stability_evidence.json",
+          "source": "noNull_evidence_checker.py",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "5",
+          "raw_target": "noNull_evidence_checker_output.txt",
+          "resolved_target": "noNull_evidence_checker_output.txt",
+          "source": "noNull_evidence_checker.py",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "15",
+          "raw_target": "json",
+          "resolved_target": "json",
+          "source": "noNull_evidence_checker.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "15",
+          "raw_target": "numpy",
+          "resolved_target": "numpy",
+          "source": "noNull_evidence_checker.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "15",
+          "raw_target": "os",
+          "resolved_target": "os",
+          "source": "noNull_evidence_checker.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "15",
+          "raw_target": "re",
+          "resolved_target": "re",
+          "source": "noNull_evidence_checker.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "np.load",
+          "kind": "FILE_PATH_CALL",
+          "line": "33",
+          "raw_target": "f0",
+          "resolved_target": "f0",
+          "source": "noNull_evidence_checker.py",
+          "status": "DYNAMIC"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "np.load",
+          "kind": "FILE_PATH_CALL",
+          "line": "33",
+          "raw_target": "f1",
+          "resolved_target": "f1",
+          "source": "noNull_evidence_checker.py",
+          "status": "DYNAMIC"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "open",
+          "kind": "FILE_PATH_CALL",
+          "line": "49",
+          "raw_target": "noNull_hess_h2fit_log.txt",
+          "resolved_target": "noNull_hess_h2fit_log.txt",
+          "source": "noNull_evidence_checker.py",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "open",
+          "kind": "FILE_PATH_CALL",
+          "line": "84",
+          "raw_target": "noNull_stability_evidence.json",
+          "resolved_target": "noNull_stability_evidence.json",
+          "source": "noNull_evidence_checker.py",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "json.load",
+          "kind": "FILE_PATH_CALL",
+          "line": "84",
+          "raw_target": "open('noNull_stability_evidence.json')",
+          "resolved_target": "open('noNull_stability_evidence.json')",
+          "source": "noNull_evidence_checker.py",
+          "status": "DYNAMIC"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "106",
+          "raw_target": "noNull_evidence_seal.py",
+          "resolved_target": "noNull_evidence_seal.py",
+          "source": "noNull_evidence_checker.py",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "open",
+          "kind": "FILE_PATH_CALL",
+          "line": "111",
+          "raw_target": "noNull_evidence_checker_output.txt",
+          "resolved_target": "noNull_evidence_checker_output.txt",
+          "source": "noNull_evidence_checker.py",
+          "status": "RESOLVED_TRACKED"
+        }
+      ],
+      "primary_owner": "PARTICLE_MASS",
+      "python_imports": [
+        "json",
+        "numpy",
+        "os",
+        "re"
+      ],
+      "registered_unresolved_dynamic_touches": 0,
+      "root_internal_import_resolution": {
+        "json": "NOT_ROOT_MODULE",
+        "numpy": "NOT_ROOT_MODULE",
+        "os": "NOT_ROOT_MODULE",
+        "re": "NOT_ROOT_MODULE"
+      },
+      "sha256": "ebef723192529aaa90d87aca234fe631667a41b5e2e3ed0993cd1666c76d79d0",
+      "size_bytes": 7205
+    },
+    {
+      "candidate_frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+      "corrected_boundary_occurrences": 51,
+      "corrected_boundary_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/BASE_ROOT_MARKDOWN.tsv",
+        "reorganization_r1b/base_census/BASE_INBOUND_REFERENCES_FORENSIC.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/macro/ROOT_INVENTORY.tsv"
+      ],
+      "current_path": "simple_metric_S8_action_provenance_note.md",
+      "destination": "research/macro/simple_metric_S8_action_provenance_note.md",
+      "destination_collision": false,
+      "file_like_token_status": {
+        "simple_metric_solution_space_ZOOM.md": {
+          "frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+          "readiness": "POINTER_MIGRATION_REQUIRED",
+          "tracked_at_base": true
+        }
+      },
+      "file_like_tokens": [
+        "simple_metric_solution_space_ZOOM.md"
+      ],
+      "forensic_inbound_edges": [
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "13360",
+          "raw_target": "simple_metric_S8_action_provenance_note.md",
+          "resolved_target": "simple_metric_S8_action_provenance_note.md",
+          "source": "reorganization_r0/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "838",
+          "raw_target": "simple_metric_S8_action_provenance_note.md",
+          "resolved_target": "simple_metric_S8_action_provenance_note.md",
+          "source": "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "12978",
+          "raw_target": "simple_metric_S8_action_provenance_note.md",
+          "resolved_target": "simple_metric_S8_action_provenance_note.md",
+          "source": "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "827",
+          "raw_target": "simple_metric_S8_action_provenance_note.md",
+          "resolved_target": "simple_metric_S8_action_provenance_note.md",
+          "source": "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "330",
+          "raw_target": "simple_metric_S8_action_provenance_note.md",
+          "resolved_target": "simple_metric_S8_action_provenance_note.md",
+          "source": "reorganization_r1b/BASE_ROOT_MARKDOWN.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "7270",
+          "raw_target": "simple_metric_S8_action_provenance_note.md",
+          "resolved_target": "simple_metric_S8_action_provenance_note.md",
+          "source": "reorganization_r1b/base_census/BASE_INBOUND_REFERENCES_FORENSIC.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "12978",
+          "raw_target": "simple_metric_S8_action_provenance_note.md",
+          "resolved_target": "simple_metric_S8_action_provenance_note.md",
+          "source": "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "827",
+          "raw_target": "simple_metric_S8_action_provenance_note.md",
+          "resolved_target": "simple_metric_S8_action_provenance_note.md",
+          "source": "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        }
+      ],
+      "forensic_reorganization_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/BASE_ROOT_MARKDOWN.tsv",
+        "reorganization_r1b/base_census/BASE_INBOUND_REFERENCES_FORENSIC.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv"
+      ],
+      "frozen_package_inbound_sources": [],
+      "git_blob_oid": "94b494cd326a27aacbbbedbd9aa91febb8acf471",
+      "hygiene_test_glob_matches": [],
+      "literal_git_grep_crosscheck": "PASS",
+      "literal_git_grep_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/BASE_ROOT_MARKDOWN.tsv",
+        "reorganization_r1b/base_census/BASE_INBOUND_REFERENCES_FORENSIC.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/macro/ROOT_INVENTORY.tsv"
+      ],
+      "migration_readiness": "MOVE_READY",
+      "operational_inbound_edges": [],
+      "operational_outbound_edges": [
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "10",
+          "raw_target": "simple_metric_solution_space_ZOOM.md",
+          "resolved_target": "simple_metric_solution_space_ZOOM.md",
+          "source": "simple_metric_S8_action_provenance_note.md",
+          "status": "RESOLVED_TRACKED"
+        }
+      ],
+      "primary_owner": "MACRO",
+      "python_imports": [],
+      "registered_unresolved_dynamic_touches": 0,
+      "root_internal_import_resolution": {},
+      "sha256": "a3fae1798f64c4bdc3a79692a618281c407d162309073a02dc72d89eb9c554f9",
+      "size_bytes": 1564
+    },
+    {
+      "candidate_frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+      "corrected_boundary_occurrences": 73,
+      "corrected_boundary_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/macro/ROOT_INVENTORY.tsv"
+      ],
+      "current_path": "simple_metric_dotted_line.py",
+      "destination": "research/macro/simple_metric_dotted_line.py",
+      "destination_collision": false,
+      "file_like_token_status": {
+        "simple_metric_dotted_line_out.json": {
+          "frozen_manifest_status": "R0_FROZEN_EVIDENCE",
+          "readiness": "IMMUTABLE_PATH",
+          "tracked_at_base": true
+        }
+      },
+      "file_like_tokens": [
+        "simple_metric_dotted_line_out.json"
+      ],
+      "forensic_inbound_edges": [
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "13450",
+          "raw_target": "simple_metric_dotted_line.py",
+          "resolved_target": "simple_metric_dotted_line.py",
+          "source": "reorganization_r0/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "878",
+          "raw_target": "simple_metric_dotted_line.py",
+          "resolved_target": "simple_metric_dotted_line.py",
+          "source": "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "12997",
+          "raw_target": "simple_metric_dotted_line.py",
+          "resolved_target": "simple_metric_dotted_line.py",
+          "source": "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "867",
+          "raw_target": "simple_metric_dotted_line.py",
+          "resolved_target": "simple_metric_dotted_line.py",
+          "source": "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "12997",
+          "raw_target": "simple_metric_dotted_line.py",
+          "resolved_target": "simple_metric_dotted_line.py",
+          "source": "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "867",
+          "raw_target": "simple_metric_dotted_line.py",
+          "resolved_target": "simple_metric_dotted_line.py",
+          "source": "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        }
+      ],
+      "forensic_reorganization_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv"
+      ],
+      "frozen_package_inbound_sources": [],
+      "git_blob_oid": "f79fd1ec197e9c26e6b8337248b1a4717ec02a6f",
+      "hygiene_test_glob_matches": [],
+      "literal_git_grep_crosscheck": "PASS",
+      "literal_git_grep_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/macro/ROOT_INVENTORY.tsv"
+      ],
+      "migration_readiness": "MOVE_READY",
+      "operational_inbound_edges": [],
+      "operational_outbound_edges": [
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "annotations",
+          "kind": "PY_FROM_IMPORT",
+          "line": "3",
+          "raw_target": "__future__",
+          "resolved_target": "__future__",
+          "source": "simple_metric_dotted_line.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "5",
+          "raw_target": "json",
+          "resolved_target": "json",
+          "source": "simple_metric_dotted_line.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "Path",
+          "kind": "PY_FROM_IMPORT",
+          "line": "6",
+          "raw_target": "pathlib",
+          "resolved_target": "pathlib",
+          "source": "simple_metric_dotted_line.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "8",
+          "raw_target": "sympy",
+          "resolved_target": "sympy",
+          "source": "simple_metric_dotted_line.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "Path",
+          "kind": "FILE_PATH_CALL",
+          "line": "10",
+          "raw_target": "__file__",
+          "resolved_target": "__file__",
+          "source": "simple_metric_dotted_line.py",
+          "status": "DYNAMIC"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "write_text",
+          "kind": "FILE_PATH_CALL",
+          "line": "33",
+          "raw_target": "json.dumps(out, indent=2)",
+          "resolved_target": "json.dumps(out, indent=2)",
+          "source": "simple_metric_dotted_line.py",
+          "status": "DYNAMIC"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "33",
+          "raw_target": "simple_metric_dotted_line_out.json",
+          "resolved_target": "simple_metric_dotted_line_out.json",
+          "source": "simple_metric_dotted_line.py",
+          "status": "RESOLVED_TRACKED"
+        }
+      ],
+      "primary_owner": "MACRO",
+      "python_imports": [
+        "__future__",
+        "json",
+        "pathlib",
+        "sympy"
+      ],
+      "registered_unresolved_dynamic_touches": 0,
+      "root_internal_import_resolution": {
+        "__future__": "NOT_ROOT_MODULE",
+        "json": "NOT_ROOT_MODULE",
+        "pathlib": "NOT_ROOT_MODULE",
+        "sympy": "NOT_ROOT_MODULE"
+      },
+      "sha256": "928e2b33b7fdbf7dd1e705e9fa117dc7fe8885630f2b51b93945fd6054e216fc",
+      "size_bytes": 1005
+    },
+    {
+      "candidate_frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+      "corrected_boundary_occurrences": 32,
+      "corrected_boundary_sources": [
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/BASE_ROOT_MARKDOWN.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/macro/ROOT_INVENTORY.tsv"
+      ],
+      "current_path": "simple_metric_legacy_double_fix_side_excursion.md",
+      "destination": "research/macro/simple_metric_legacy_double_fix_side_excursion.md",
+      "destination_collision": false,
+      "file_like_token_status": {},
+      "file_like_tokens": [],
+      "forensic_inbound_edges": [
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "905",
+          "raw_target": "simple_metric_legacy_double_fix_side_excursion.md",
+          "resolved_target": "simple_metric_legacy_double_fix_side_excursion.md",
+          "source": "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "14118",
+          "raw_target": "simple_metric_legacy_double_fix_side_excursion.md",
+          "resolved_target": "simple_metric_legacy_double_fix_side_excursion.md",
+          "source": "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "894",
+          "raw_target": "simple_metric_legacy_double_fix_side_excursion.md",
+          "resolved_target": "simple_metric_legacy_double_fix_side_excursion.md",
+          "source": "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "366",
+          "raw_target": "simple_metric_legacy_double_fix_side_excursion.md",
+          "resolved_target": "simple_metric_legacy_double_fix_side_excursion.md",
+          "source": "reorganization_r1b/BASE_ROOT_MARKDOWN.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "14118",
+          "raw_target": "simple_metric_legacy_double_fix_side_excursion.md",
+          "resolved_target": "simple_metric_legacy_double_fix_side_excursion.md",
+          "source": "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "894",
+          "raw_target": "simple_metric_legacy_double_fix_side_excursion.md",
+          "resolved_target": "simple_metric_legacy_double_fix_side_excursion.md",
+          "source": "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        }
+      ],
+      "forensic_reorganization_sources": [
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/BASE_ROOT_MARKDOWN.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv"
+      ],
+      "frozen_package_inbound_sources": [],
+      "git_blob_oid": "183e6f58a0e093138d0e1698670d413c6072dbf8",
+      "hygiene_test_glob_matches": [
+        "simple_metric_legacy_*_excursion.md"
+      ],
+      "literal_git_grep_crosscheck": "PASS",
+      "literal_git_grep_sources": [
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/BASE_ROOT_MARKDOWN.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/macro/ROOT_INVENTORY.tsv"
+      ],
+      "migration_readiness": "MOVE_READY",
+      "operational_inbound_edges": [],
+      "operational_outbound_edges": [],
+      "primary_owner": "MACRO",
+      "python_imports": [],
+      "registered_unresolved_dynamic_touches": 0,
+      "root_internal_import_resolution": {},
+      "sha256": "56232dc127822a7842b16e73b1f7c45e8cfe3d1080dd5c84ce64a00e0df88ab9",
+      "size_bytes": 3295
+    },
+    {
+      "candidate_frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+      "corrected_boundary_occurrences": 78,
+      "corrected_boundary_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/macro/ROOT_INVENTORY.tsv"
+      ],
+      "current_path": "simple_metric_promising_candidates_zoom.py",
+      "destination": "research/macro/simple_metric_promising_candidates_zoom.py",
+      "destination_collision": false,
+      "file_like_token_status": {
+        "simple_metric_promising_candidates_zoom_out.json": {
+          "frozen_manifest_status": "R0_FROZEN_EVIDENCE",
+          "readiness": "IMMUTABLE_PATH",
+          "tracked_at_base": true
+        }
+      },
+      "file_like_tokens": [
+        "simple_metric_promising_candidates_zoom_out.json"
+      ],
+      "forensic_inbound_edges": [
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "13591",
+          "raw_target": "simple_metric_promising_candidates_zoom.py",
+          "resolved_target": "simple_metric_promising_candidates_zoom.py",
+          "source": "reorganization_r0/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "934",
+          "raw_target": "simple_metric_promising_candidates_zoom.py",
+          "resolved_target": "simple_metric_promising_candidates_zoom.py",
+          "source": "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "13027",
+          "raw_target": "simple_metric_promising_candidates_zoom.py",
+          "resolved_target": "simple_metric_promising_candidates_zoom.py",
+          "source": "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "923",
+          "raw_target": "simple_metric_promising_candidates_zoom.py",
+          "resolved_target": "simple_metric_promising_candidates_zoom.py",
+          "source": "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "13027",
+          "raw_target": "simple_metric_promising_candidates_zoom.py",
+          "resolved_target": "simple_metric_promising_candidates_zoom.py",
+          "source": "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "923",
+          "raw_target": "simple_metric_promising_candidates_zoom.py",
+          "resolved_target": "simple_metric_promising_candidates_zoom.py",
+          "source": "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        }
+      ],
+      "forensic_reorganization_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv"
+      ],
+      "frozen_package_inbound_sources": [],
+      "git_blob_oid": "01d9abb4febd81734e10d11f17b05924a7c269ee",
+      "hygiene_test_glob_matches": [],
+      "literal_git_grep_crosscheck": "PASS",
+      "literal_git_grep_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/macro/ROOT_INVENTORY.tsv"
+      ],
+      "migration_readiness": "MOVE_READY",
+      "operational_inbound_edges": [],
+      "operational_outbound_edges": [
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "annotations",
+          "kind": "PY_FROM_IMPORT",
+          "line": "3",
+          "raw_target": "__future__",
+          "resolved_target": "__future__",
+          "source": "simple_metric_promising_candidates_zoom.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "5",
+          "raw_target": "json",
+          "resolved_target": "json",
+          "source": "simple_metric_promising_candidates_zoom.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "Path",
+          "kind": "PY_FROM_IMPORT",
+          "line": "6",
+          "raw_target": "pathlib",
+          "resolved_target": "pathlib",
+          "source": "simple_metric_promising_candidates_zoom.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "8",
+          "raw_target": "numpy",
+          "resolved_target": "numpy",
+          "source": "simple_metric_promising_candidates_zoom.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "quad",
+          "kind": "PY_FROM_IMPORT",
+          "line": "9",
+          "raw_target": "scipy.integrate",
+          "resolved_target": "scipy.integrate",
+          "source": "simple_metric_promising_candidates_zoom.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "Path",
+          "kind": "FILE_PATH_CALL",
+          "line": "11",
+          "raw_target": "__file__",
+          "resolved_target": "__file__",
+          "source": "simple_metric_promising_candidates_zoom.py",
+          "status": "DYNAMIC"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "write_text",
+          "kind": "FILE_PATH_CALL",
+          "line": "62",
+          "raw_target": "json.dumps(out, indent=2)",
+          "resolved_target": "json.dumps(out, indent=2)",
+          "source": "simple_metric_promising_candidates_zoom.py",
+          "status": "DYNAMIC"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "62",
+          "raw_target": "simple_metric_promising_candidates_zoom_out.json",
+          "resolved_target": "simple_metric_promising_candidates_zoom_out.json",
+          "source": "simple_metric_promising_candidates_zoom.py",
+          "status": "RESOLVED_TRACKED"
+        }
+      ],
+      "primary_owner": "MACRO",
+      "python_imports": [
+        "__future__",
+        "json",
+        "numpy",
+        "pathlib",
+        "scipy.integrate"
+      ],
+      "registered_unresolved_dynamic_touches": 0,
+      "root_internal_import_resolution": {
+        "__future__": "NOT_ROOT_MODULE",
+        "json": "NOT_ROOT_MODULE",
+        "numpy": "NOT_ROOT_MODULE",
+        "pathlib": "NOT_ROOT_MODULE",
+        "scipy.integrate": "NOT_ROOT_MODULE"
+      },
+      "sha256": "d89065ed4e7eac7c27a1c735b3573629ab4af81a12278280fc64f8d56832c985",
+      "size_bytes": 1751
+    },
+    {
+      "candidate_frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+      "corrected_boundary_occurrences": 73,
+      "corrected_boundary_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/macro/ROOT_INVENTORY.tsv"
+      ],
+      "current_path": "simple_metric_relational_rooms_continue.py",
+      "destination": "research/macro/simple_metric_relational_rooms_continue.py",
+      "destination_collision": false,
+      "file_like_token_status": {
+        "simple_metric_relational_rooms_continue_out.json": {
+          "frozen_manifest_status": "R0_FROZEN_EVIDENCE",
+          "readiness": "IMMUTABLE_PATH",
+          "tracked_at_base": true
+        }
+      },
+      "file_like_tokens": [
+        "simple_metric_relational_rooms_continue_out.json"
+      ],
+      "forensic_inbound_edges": [
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "13599",
+          "raw_target": "simple_metric_relational_rooms_continue.py",
+          "resolved_target": "simple_metric_relational_rooms_continue.py",
+          "source": "reorganization_r0/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "936",
+          "raw_target": "simple_metric_relational_rooms_continue.py",
+          "resolved_target": "simple_metric_relational_rooms_continue.py",
+          "source": "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "13029",
+          "raw_target": "simple_metric_relational_rooms_continue.py",
+          "resolved_target": "simple_metric_relational_rooms_continue.py",
+          "source": "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "925",
+          "raw_target": "simple_metric_relational_rooms_continue.py",
+          "resolved_target": "simple_metric_relational_rooms_continue.py",
+          "source": "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "13029",
+          "raw_target": "simple_metric_relational_rooms_continue.py",
+          "resolved_target": "simple_metric_relational_rooms_continue.py",
+          "source": "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "925",
+          "raw_target": "simple_metric_relational_rooms_continue.py",
+          "resolved_target": "simple_metric_relational_rooms_continue.py",
+          "source": "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        }
+      ],
+      "forensic_reorganization_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv"
+      ],
+      "frozen_package_inbound_sources": [],
+      "git_blob_oid": "477595cb11089c152d0e082921cfc3ef2da0f9af",
+      "hygiene_test_glob_matches": [],
+      "literal_git_grep_crosscheck": "PASS",
+      "literal_git_grep_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/macro/ROOT_INVENTORY.tsv"
+      ],
+      "migration_readiness": "MOVE_READY",
+      "operational_inbound_edges": [],
+      "operational_outbound_edges": [
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "annotations",
+          "kind": "PY_FROM_IMPORT",
+          "line": "3",
+          "raw_target": "__future__",
+          "resolved_target": "__future__",
+          "source": "simple_metric_relational_rooms_continue.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "5",
+          "raw_target": "json",
+          "resolved_target": "json",
+          "source": "simple_metric_relational_rooms_continue.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "Path",
+          "kind": "PY_FROM_IMPORT",
+          "line": "6",
+          "raw_target": "pathlib",
+          "resolved_target": "pathlib",
+          "source": "simple_metric_relational_rooms_continue.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "8",
+          "raw_target": "numpy",
+          "resolved_target": "numpy",
+          "source": "simple_metric_relational_rooms_continue.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "Path",
+          "kind": "FILE_PATH_CALL",
+          "line": "10",
+          "raw_target": "__file__",
+          "resolved_target": "__file__",
+          "source": "simple_metric_relational_rooms_continue.py",
+          "status": "DYNAMIC"
+        },
+        {
+          "category": "FILE_PATH",
+          "detail": "write_text",
+          "kind": "FILE_PATH_CALL",
+          "line": "46",
+          "raw_target": "json.dumps(out, indent=2)",
+          "resolved_target": "json.dumps(out, indent=2)",
+          "source": "simple_metric_relational_rooms_continue.py",
+          "status": "DYNAMIC"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "46",
+          "raw_target": "simple_metric_relational_rooms_continue_out.json",
+          "resolved_target": "simple_metric_relational_rooms_continue_out.json",
+          "source": "simple_metric_relational_rooms_continue.py",
+          "status": "RESOLVED_TRACKED"
+        }
+      ],
+      "primary_owner": "MACRO",
+      "python_imports": [
+        "__future__",
+        "json",
+        "numpy",
+        "pathlib"
+      ],
+      "registered_unresolved_dynamic_touches": 0,
+      "root_internal_import_resolution": {
+        "__future__": "NOT_ROOT_MODULE",
+        "json": "NOT_ROOT_MODULE",
+        "numpy": "NOT_ROOT_MODULE",
+        "pathlib": "NOT_ROOT_MODULE"
+      },
+      "sha256": "ca97b65e28bfa795a1d466b288c3c14c3d55881497b6421c2a25cc5f5b8594e3",
+      "size_bytes": 1423
+    },
+    {
+      "candidate_frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+      "corrected_boundary_occurrences": 39,
+      "corrected_boundary_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "reorganization_r1c/build_r1c_lane_overlay.py",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/macro/ROOT_INVENTORY.tsv"
+      ],
+      "current_path": "verify_center_escape.py",
+      "destination": "research/macro/verify_center_escape.py",
+      "destination_collision": false,
+      "file_like_token_status": {},
+      "file_like_tokens": [],
+      "forensic_inbound_edges": [
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "14635",
+          "raw_target": "verify_center_escape.py",
+          "resolved_target": "verify_center_escape.py",
+          "source": "reorganization_r0/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "1056",
+          "raw_target": "verify_center_escape.py",
+          "resolved_target": "verify_center_escape.py",
+          "source": "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "13069",
+          "raw_target": "verify_center_escape.py",
+          "resolved_target": "verify_center_escape.py",
+          "source": "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "1042",
+          "raw_target": "verify_center_escape.py",
+          "resolved_target": "verify_center_escape.py",
+          "source": "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "13069",
+          "raw_target": "verify_center_escape.py",
+          "resolved_target": "verify_center_escape.py",
+          "source": "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "1042",
+          "raw_target": "verify_center_escape.py",
+          "resolved_target": "verify_center_escape.py",
+          "source": "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        }
+      ],
+      "forensic_reorganization_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv"
+      ],
+      "frozen_package_inbound_sources": [],
+      "git_blob_oid": "867cddbad61287219658912e3523c9dbbe2cc7e9",
+      "hygiene_test_glob_matches": [],
+      "literal_git_grep_crosscheck": "PASS",
+      "literal_git_grep_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "reorganization_r1c/build_r1c_lane_overlay.py",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/macro/ROOT_INVENTORY.tsv"
+      ],
+      "migration_readiness": "MOVE_READY",
+      "operational_inbound_edges": [],
+      "operational_outbound_edges": [
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "9",
+          "raw_target": "sympy",
+          "resolved_target": "sympy",
+          "source": "verify_center_escape.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        }
+      ],
+      "primary_owner": "MACRO",
+      "python_imports": [
+        "sympy"
+      ],
+      "registered_unresolved_dynamic_touches": 0,
+      "root_internal_import_resolution": {
+        "sympy": "NOT_ROOT_MODULE"
+      },
+      "sha256": "ef0a29e58d7132d908ac94869d0c94ee1d65caceea13c42bdf9e7019eb998aa5",
+      "size_bytes": 2725
+    },
+    {
+      "candidate_frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+      "corrected_boundary_occurrences": 39,
+      "corrected_boundary_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "reorganization_r1c/build_r1c_lane_overlay.py",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/macro/ROOT_INVENTORY.tsv"
+      ],
+      "current_path": "verify_center_nogo.py",
+      "destination": "research/macro/verify_center_nogo.py",
+      "destination_collision": false,
+      "file_like_token_status": {},
+      "file_like_tokens": [],
+      "forensic_inbound_edges": [
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "14636",
+          "raw_target": "verify_center_nogo.py",
+          "resolved_target": "verify_center_nogo.py",
+          "source": "reorganization_r0/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "1057",
+          "raw_target": "verify_center_nogo.py",
+          "resolved_target": "verify_center_nogo.py",
+          "source": "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "13070",
+          "raw_target": "verify_center_nogo.py",
+          "resolved_target": "verify_center_nogo.py",
+          "source": "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "1043",
+          "raw_target": "verify_center_nogo.py",
+          "resolved_target": "verify_center_nogo.py",
+          "source": "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "13070",
+          "raw_target": "verify_center_nogo.py",
+          "resolved_target": "verify_center_nogo.py",
+          "source": "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "1043",
+          "raw_target": "verify_center_nogo.py",
+          "resolved_target": "verify_center_nogo.py",
+          "source": "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        }
+      ],
+      "forensic_reorganization_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv"
+      ],
+      "frozen_package_inbound_sources": [],
+      "git_blob_oid": "a86c2554959ccb5478fd2043a0030d8a9caa2530",
+      "hygiene_test_glob_matches": [],
+      "literal_git_grep_crosscheck": "PASS",
+      "literal_git_grep_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "reorganization_r1c/build_r1c_lane_overlay.py",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/macro/ROOT_INVENTORY.tsv"
+      ],
+      "migration_readiness": "MOVE_READY",
+      "operational_inbound_edges": [],
+      "operational_outbound_edges": [
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "8",
+          "raw_target": "sympy",
+          "resolved_target": "sympy",
+          "source": "verify_center_nogo.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        }
+      ],
+      "primary_owner": "MACRO",
+      "python_imports": [
+        "sympy"
+      ],
+      "registered_unresolved_dynamic_touches": 0,
+      "root_internal_import_resolution": {
+        "sympy": "NOT_ROOT_MODULE"
+      },
+      "sha256": "206d51e2d7a44ea567a49ae8da114e5a9e801e970a96b21b4e6393376abf88d0",
+      "size_bytes": 4711
+    },
+    {
+      "candidate_frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+      "corrected_boundary_occurrences": 39,
+      "corrected_boundary_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "reorganization_r1c/build_r1c_lane_overlay.py",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/macro/ROOT_INVENTORY.tsv"
+      ],
+      "current_path": "verify_eos_dS_window.py",
+      "destination": "research/macro/verify_eos_dS_window.py",
+      "destination_collision": false,
+      "file_like_token_status": {},
+      "file_like_tokens": [],
+      "forensic_inbound_edges": [
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "14668",
+          "raw_target": "verify_eos_dS_window.py",
+          "resolved_target": "verify_eos_dS_window.py",
+          "source": "reorganization_r0/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "1063",
+          "raw_target": "verify_eos_dS_window.py",
+          "resolved_target": "verify_eos_dS_window.py",
+          "source": "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "13071",
+          "raw_target": "verify_eos_dS_window.py",
+          "resolved_target": "verify_eos_dS_window.py",
+          "source": "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "1049",
+          "raw_target": "verify_eos_dS_window.py",
+          "resolved_target": "verify_eos_dS_window.py",
+          "source": "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "13071",
+          "raw_target": "verify_eos_dS_window.py",
+          "resolved_target": "verify_eos_dS_window.py",
+          "source": "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "1049",
+          "raw_target": "verify_eos_dS_window.py",
+          "resolved_target": "verify_eos_dS_window.py",
+          "source": "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        }
+      ],
+      "forensic_reorganization_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv"
+      ],
+      "frozen_package_inbound_sources": [],
+      "git_blob_oid": "9cb1f6917debc40700d99eaebb1f4c927d1b8293",
+      "hygiene_test_glob_matches": [],
+      "literal_git_grep_crosscheck": "PASS",
+      "literal_git_grep_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "reorganization_r1c/build_r1c_lane_overlay.py",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/macro/ROOT_INVENTORY.tsv"
+      ],
+      "migration_readiness": "MOVE_READY",
+      "operational_inbound_edges": [],
+      "operational_outbound_edges": [
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "18",
+          "raw_target": "sympy",
+          "resolved_target": "sympy",
+          "source": "verify_eos_dS_window.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        }
+      ],
+      "primary_owner": "MACRO",
+      "python_imports": [
+        "sympy"
+      ],
+      "registered_unresolved_dynamic_touches": 0,
+      "root_internal_import_resolution": {
+        "sympy": "NOT_ROOT_MODULE"
+      },
+      "sha256": "719fd2f4f70fc72dee2d129d57515957adf82a0ed962986453500ac5752ac58d",
+      "size_bytes": 6200
+    },
+    {
+      "candidate_frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+      "corrected_boundary_occurrences": 39,
+      "corrected_boundary_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "reorganization_r1c/build_r1c_lane_overlay.py",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/macro/ROOT_INVENTORY.tsv"
+      ],
+      "current_path": "verify_wrl_canon.py",
+      "destination": "research/macro/verify_wrl_canon.py",
+      "destination_collision": false,
+      "file_like_token_status": {},
+      "file_like_tokens": [],
+      "forensic_inbound_edges": [
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "14828",
+          "raw_target": "verify_wrl_canon.py",
+          "resolved_target": "verify_wrl_canon.py",
+          "source": "reorganization_r0/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "1105",
+          "raw_target": "verify_wrl_canon.py",
+          "resolved_target": "verify_wrl_canon.py",
+          "source": "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "13089",
+          "raw_target": "verify_wrl_canon.py",
+          "resolved_target": "verify_wrl_canon.py",
+          "source": "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "1091",
+          "raw_target": "verify_wrl_canon.py",
+          "resolved_target": "verify_wrl_canon.py",
+          "source": "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "13089",
+          "raw_target": "verify_wrl_canon.py",
+          "resolved_target": "verify_wrl_canon.py",
+          "source": "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+          "status": "RESOLVED_TRACKED"
+        },
+        {
+          "category": "TEXT_REFERENCE",
+          "detail": "-",
+          "kind": "TEXT_REFERENCE",
+          "line": "1091",
+          "raw_target": "verify_wrl_canon.py",
+          "resolved_target": "verify_wrl_canon.py",
+          "source": "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+          "status": "RESOLVED_TRACKED"
+        }
+      ],
+      "forensic_reorganization_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv"
+      ],
+      "frozen_package_inbound_sources": [],
+      "git_blob_oid": "e5f2b5760326b7eefa7f7dc0339118b8bd327deb",
+      "hygiene_test_glob_matches": [],
+      "literal_git_grep_crosscheck": "PASS",
+      "literal_git_grep_sources": [
+        "reorganization_r0/DEPENDENCY_MAP.tsv",
+        "reorganization_r0/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1a/postmove_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1a/postmove_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/base_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/base_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1b/postmove_forensic_census/ROOT_FILE_INVENTORY.tsv",
+        "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv",
+        "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv",
+        "reorganization_r1c/build_r1c_lane_overlay.py",
+        "research/_registry/MIGRATION_READINESS.tsv",
+        "research/_registry/ROOT_OWNERSHIP.tsv",
+        "research/macro/ROOT_INVENTORY.tsv"
+      ],
+      "migration_readiness": "MOVE_READY",
+      "operational_inbound_edges": [],
+      "operational_outbound_edges": [
+        {
+          "category": "PYTHON_IMPORT",
+          "detail": "-",
+          "kind": "PY_IMPORT",
+          "line": "17",
+          "raw_target": "sympy",
+          "resolved_target": "sympy",
+          "source": "verify_wrl_canon.py",
+          "status": "EXTERNAL_OR_STDLIB"
+        }
+      ],
+      "primary_owner": "MACRO",
+      "python_imports": [
+        "sympy"
+      ],
+      "registered_unresolved_dynamic_touches": 0,
+      "root_internal_import_resolution": {
+        "sympy": "NOT_ROOT_MODULE"
+      },
+      "sha256": "b5e6b5b79a1f743962d94820d9e5e14e0315fec0873962158bc5bdc5190877fc",
+      "size_bytes": 6294
+    }
+  ],
+  "catchproof": {
+    "file_md_bak_rejected": "PASS",
+    "file_md_parenthesis_detected": "PASS",
+    "file_md_period_detected": "PASS"
+  },
+  "literal_git_grep_crosschecks": 13,
+  "mode": "R1C_CORRECTION_MECHANICAL_CLOSURE_NO_ADJUDICATION",
+  "result": "PASS"
+}

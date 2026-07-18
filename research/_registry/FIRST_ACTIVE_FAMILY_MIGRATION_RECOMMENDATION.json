@@ -1,0 +1,58 @@
+{
+  "base": "204f3637f134811f05df12aa7494ef41289ee3b4",
+  "candidate_count": 13,
+  "decision": "RECOMMEND_SINGLE_AUDITED_FAMILY",
+  "recommendation_status": "PROPOSAL_ONLY_SEPARATE_DISPATCH_REQUIRED",
+  "recommended_files": [
+    {
+      "closure_audit_ruling": "PASS_RECOMMENDED",
+      "current_path": "simple_metric_S8_action_provenance_note.md",
+      "destination": "research/macro/simple_metric_S8_action_provenance_note.md",
+      "family": "S8_ACTION_PROVENANCE_NOTE",
+      "frozen_manifest_status": "NOT_FROZEN_OR_MANIFEST",
+      "git_blob_oid": "94b494cd326a27aacbbbedbd9aa91febb8acf471",
+      "migration_readiness": "MOVE_READY",
+      "primary_owner": "MACRO",
+      "rank": 1,
+      "required_path_substitutions": [
+        {
+          "future_source": "research/macro/simple_metric_S8_action_provenance_note.md",
+          "line_at_base": 10,
+          "new_target": "../../simple_metric_solution_space_ZOOM.md",
+          "old_target": "simple_metric_solution_space_ZOOM.md"
+        }
+      ],
+      "sha256": "a3fae1798f64c4bdc3a79692a618281c407d162309073a02dc72d89eb9c554f9"
+    }
+  ],
+  "rejected_prior_recommendation": [
+    {
+      "blocker": "R0_FROZEN_EVIDENCE",
+      "current_path": "UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md",
+      "destination": "-",
+      "migration_readiness": "IMMUTABLE_PATH"
+    },
+    {
+      "blocker": "R0_FROZEN_EVIDENCE",
+      "current_path": "UDT_GR_TO_UDT_SELECTOR_AUDIT_PREREG_2026-07-18.md",
+      "destination": "-",
+      "migration_readiness": "IMMUTABLE_PATH"
+    }
+  ],
+  "research_artifact_moves_renames_copies_deletes": 0,
+  "ranked_candidates": [
+    {"current_path": "simple_metric_S8_action_provenance_note.md", "rank": 1, "ruling": "PASS_RECOMMENDED"},
+    {"current_path": "verify_center_escape.py", "rank": 2, "ruling": "PASS_DEFER_FAMILY_BUNDLE"},
+    {"current_path": "verify_center_nogo.py", "rank": 3, "ruling": "PASS_DEFER_FAMILY_BUNDLE"},
+    {"current_path": "verify_eos_dS_window.py", "rank": 4, "ruling": "PASS_DEFER_FAMILY_BUNDLE"},
+    {"current_path": "verify_wrl_canon.py", "rank": 5, "ruling": "PASS_DEFER_FAMILY_BUNDLE"},
+    {"current_path": "simple_metric_legacy_double_fix_side_excursion.md", "rank": 6, "ruling": "BLOCKED_TEST_SCOPE_AND_ACTIVE_FAMILY_MISMATCH"},
+    {"current_path": "simple_metric_dotted_line.py", "rank": 7, "ruling": "BLOCKED_IMMUTABLE_GENERATED_OUTPUT"},
+    {"current_path": "simple_metric_promising_candidates_zoom.py", "rank": 8, "ruling": "BLOCKED_IMMUTABLE_GENERATED_OUTPUT"},
+    {"current_path": "simple_metric_relational_rooms_continue.py", "rank": 9, "ruling": "BLOCKED_IMMUTABLE_GENERATED_OUTPUT"},
+    {"current_path": "noNull_evidence_checker.py", "rank": 10, "ruling": "BLOCKED_FROZEN_EVIDENCE_AND_ABSENT_INPUTS"},
+    {"current_path": "hopfion_static_mass_hessian_256driver.py", "rank": 11, "ruling": "BLOCKED_IMMUTABLE_IMPORT_OUTPUT_AND_ABSENT_INPUT"},
+    {"current_path": "controlled_relax_hessian.py", "rank": 12, "ruling": "BLOCKED_FROZEN_OUTPUT_ROOT_RUNTIME_AND_ABSENT_INPUTS"},
+    {"current_path": "long_relax_256.py", "rank": 13, "ruling": "BLOCKED_ROOT_RUNTIME_AND_ABSENT_INPUTS"}
+  ]
+}

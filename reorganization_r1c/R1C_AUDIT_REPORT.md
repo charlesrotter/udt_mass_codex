@@ -39,18 +39,26 @@ These are dependency gates, not move authority. R1C executes none of them.
 
 The [research index](../research/README.md) and four lane READMEs point to existing paths. Claim labels are reproduced from `LIVE.md`, `HANDOFF.md`, `CANON.md`, and the accepted final status ledger without re-adjudication.
 
-The [ranked future-migration recommendation](../research/_registry/FIRST_ACTIVE_FAMILY_MIGRATION_RECOMMENDATION.md) selects the two-file GR→UDT selector-audit pair as the smallest bounded active family. It records the exact file set, five current inbound substitutions, post-move relative-path qualifications, absence of import/test/data/manifest changes, and rollback/verification gates. The migration is not executed.
+## R1C correction layer — prior recommendation superseded
+
+The original recommendation incorrectly selected the two-file GR→UDT selector-audit pair even though the controlling readiness table classifies both files `IMMUTABLE_PATH`, blocked by `R0_FROZEN_EVIDENCE`, with destination `-`. That recommendation is invalid and superseded. Neither selector-audit file is moved or modified.
+
+The [corrected future-migration recommendation](../research/_registry/FIRST_ACTIVE_FAMILY_MIGRATION_RECOMMENDATION.md) is restricted to the preregistered 13 active-lane `MOVE_READY` rows. After complete inbound, outbound, runtime-relative, generated-output, frozen-reference, test, and family-companion closure, it recommends only `simple_metric_S8_action_provenance_note.md` for a later separate dispatch. Its sole outbound file reference, `simple_metric_solution_space_ZOOM.md`, is explicitly recorded and would require the exact future path substitution `../../simple_metric_solution_space_ZOOM.md`. No migration is executed.
+
+The corrected recommendation is also recorded in [machine-readable form](../research/_registry/FIRST_ACTIVE_FAMILY_MIGRATION_RECOMMENDATION.json). The [complete candidate audit](correction/CANDIDATE_CLOSURE_AUDIT.tsv) retains all 13 individual rankings and blockers.
 
 ## Verification
 
 - 1,114 unique frozen paths, ownership rows, and readiness rows: pass.
 - Four lane inventories exactly reproduce primary and secondary relationships: pass.
-- 59 generated Markdown links: pass.
+- 64 generated Markdown links: pass.
 - 306 current-frontier reference rows and 101 unique targets: pass.
 - Six frozen manifests and complete frozen package states: pass.
 - Full tests: 69 passed, 1 known hygiene-header failure, 1 xfailed—the established baseline.
 - Original dirty checkout: 54 status/lstat rows unchanged; content remains `NOT_READ`.
-- Catch-proofs for missing/duplicate rows, invalid owner/readiness, broken link, startup-order mutation, unauthorized edit, and manifest mutation: pass.
+- Thirteen active-lane `MOVE_READY` closure rows and literal-Git/corrected-boundary cross-checks: pass.
+- Recommendation gates for exact `MOVE_READY`, destination agreement, active-lane ownership, and absence of frozen/manifest prohibition: pass.
+- Catch-proofs for both invalid selector-audit recommendations, destination mismatch, missing/duplicate rows, invalid owner/readiness, broken link, startup-order mutation, unauthorized edit, and manifest mutation: pass.
 
 Machine result: [`VERIFY_RESULT.json`](../research/_registry/VERIFY_RESULT.json).
 
