@@ -25,6 +25,10 @@ change, or history rewrite. Start with the
 Frozen evidence packages and their historical records are immutable. Any later
 reorganization phase must preserve their bytes, manifests, and provenance.
 
+## Research lane index
+
+Phase R1C adds an ownership and navigation-only [research lane index](research/README.md). It does not move or copy research artifacts and does not create a new physics authority.
+
 ## Repository reorganization R1A
 
 R1A supersedes the generic R0 tree proposal with a research-lane-first layout

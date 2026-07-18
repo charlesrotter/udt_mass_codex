@@ -1,0 +1,88 @@
+{
+  "authorized_additions": 26,
+  "base": "07c67bfbe661705c6b936243fa1ed697f23c1644",
+  "catchproof": {
+    "bad_primary_owner_rejected": "PASS",
+    "bad_readiness_rejected": "PASS",
+    "broken_link_rejected": "PASS",
+    "duplicate_ownership_row_rejected": "PASS",
+    "manifest_mutation_rejected": "PASS",
+    "missing_ownership_row_rejected": "PASS",
+    "startup_order_mutation_rejected": "PASS",
+    "unauthorized_existing_edit_rejected": "PASS"
+  },
+  "current_frontier_reference_rows": 306,
+  "current_frontier_unique_targets": 101,
+  "dirty_content_policy": "NOT_READ",
+  "dirty_workstation_rows_metadata_only": 54,
+  "frozen_manifest_replays": [
+    {
+      "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+      "package": "native_action_stage1_2026-07-18/arm_A",
+      "result": "PASS"
+    },
+    {
+      "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+      "package": "native_action_stage1_2026-07-18/arm_B",
+      "result": "PASS"
+    },
+    {
+      "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+      "package": "native_action_stage2_2026-07-18/arm_A",
+      "result": "PASS"
+    },
+    {
+      "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+      "package": "native_action_stage2_2026-07-18/arm_B",
+      "result": "PASS"
+    },
+    {
+      "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+      "package": "native_action_arm_c_2026-07-18",
+      "result": "PASS"
+    },
+    {
+      "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+      "package": "native_action_final_adjudication_2026-07-18",
+      "result": "PASS"
+    }
+  ],
+  "mode": "R1C_INDEPENDENT_FAIL_CLOSED_OVERLAY_VERIFY",
+  "only_existing_path_modified": "README.md",
+  "ownership_rows": 1114,
+  "primary_owner_counts": {
+    "CONTROL_ROOT": 23,
+    "CROSS_LANE_SHARED": 15,
+    "FOUNDATIONS": 12,
+    "LEGACY_FROZEN": 625,
+    "MACRO": 270,
+    "NATIVE_ACTION": 27,
+    "PARTICLE_MASS": 138,
+    "UNKNOWN_BLOCKED": 4
+  },
+  "readiness_counts": {
+    "BLOCKED": 98,
+    "IMMUTABLE_PATH": 418,
+    "IMPORT_MIGRATION_REQUIRED": 49,
+    "MANIFEST_MIGRATION_REQUIRED": 3,
+    "MOVE_READY": 120,
+    "POINTER_MIGRATION_REQUIRED": 388,
+    "RETAIN_ROOT": 38
+  },
+  "readiness_rows": 1114,
+  "research_artifact_moves_renames_copies_deletes": 0,
+  "result": "PASS",
+  "root_rows": 1114,
+  "test_baseline": {
+    "baseline_match": true,
+    "command": "python3 -m pytest tests/",
+    "expected_failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "failed": 1,
+    "passed": 69,
+    "python": "3.10.12",
+    "returncode": 1,
+    "scope": "R1C_ADDITIONS_ONLY_LANE_OVERLAY",
+    "xfailed": 1
+  },
+  "verified_markdown_links": 59
+}

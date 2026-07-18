@@ -1,0 +1,29 @@
+{
+  "frontier_reference_rows": 306,
+  "frontier_unique_targets": 101,
+  "frozen_root_rows": 1114,
+  "generated_records_influence_frozen_universe": false,
+  "migration_readiness_counts": {
+    "BLOCKED": 98,
+    "IMMUTABLE_PATH": 418,
+    "IMPORT_MIGRATION_REQUIRED": 49,
+    "MANIFEST_MIGRATION_REQUIRED": 3,
+    "MOVE_READY": 120,
+    "POINTER_MIGRATION_REQUIRED": 388,
+    "RETAIN_ROOT": 38
+  },
+  "mode": "R1C_ADDITIONS_ONLY_LANE_OWNERSHIP_OVERLAY",
+  "ownership_rows": 1114,
+  "primary_owner_counts": {
+    "CONTROL_ROOT": 23,
+    "CROSS_LANE_SHARED": 15,
+    "FOUNDATIONS": 12,
+    "LEGACY_FROZEN": 625,
+    "MACRO": 270,
+    "NATIVE_ACTION": 27,
+    "PARTICLE_MASS": 138,
+    "UNKNOWN_BLOCKED": 4
+  },
+  "readiness_rows": 1114,
+  "result": "GENERATED"
+}
