@@ -1,0 +1,37 @@
+{
+  "base_commit": "d8c712942c7b7dc3941c90609d9b0b4dd881dc7c",
+  "candidate_rows": 63,
+  "disposition_counts": {
+    "MOVE_BATCH_1": 17,
+    "RETAIN_R1A": 46
+  },
+  "eligible_batch": [
+    "EXTERNAL_AUDIT_2026-06-30.md",
+    "F1F3_closure_results.md",
+    "P1P5_reaudit_vs_derived_operator_results.md",
+    "PROVENANCE_AUDIT_2026-06-30.md",
+    "SOLVER_AUDIT_2026-06-29.md",
+    "STEP2_timelive_matter_results.md",
+    "b1prime_round_gate_derived_operator_results.md",
+    "coupled_timelive_VERIFIER.md",
+    "coupled_timelive_solve_CONTRACT.md",
+    "coupled_timelive_solve_results.md",
+    "lepton_ladder_test_results.md",
+    "matter_object_identity_native_vs_import_results.md",
+    "p1_offdiag_wiring_results.md",
+    "static_soliton_rerun_derived_operator_results.md",
+    "timelive_nonround_VERIFIER.md",
+    "timelive_nonround_native_solve_results.md",
+    "weld_discriminator_results.md"
+  ],
+  "frozen_reference_occurrences": 12,
+  "inbound_reference_occurrences": 801,
+  "inbound_reference_sources": 87,
+  "pointer_rewrite_groups": 68,
+  "pointer_rewrite_occurrences": 80,
+  "r0_classification_counts": {
+    "ARCHIVE_CANDIDATE": 26,
+    "UNKNOWN/BLOCKED": 37
+  },
+  "result": "PREMOVE_ADJUDICATION_FROZEN"
+}

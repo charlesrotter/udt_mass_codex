@@ -1,0 +1,16 @@
+{
+  "candidate_rows": 63,
+  "catchproof": {
+    "bad_hash_rejected": "PASS",
+    "duplicate_candidate_rejected": "PASS",
+    "frozen_flag_launder_rejected": "PASS",
+    "missing_candidate_rejected": "PASS",
+    "missing_reference_rejected": "PASS",
+    "unknown_move_rejected": "PASS"
+  },
+  "eligible_batch_files": 17,
+  "mode": "INDEPENDENT_PREMOVE_STATIC_VERIFIER",
+  "reference_occurrences": 801,
+  "result": "PASS",
+  "snapshot": "d8c712942c7b7dc3941c90609d9b0b4dd881dc7c"
+}
