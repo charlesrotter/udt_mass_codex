@@ -1,0 +1,228 @@
+{
+  "artifact_moves_or_content_edits": 0,
+  "b02_b03_execution_batches_withdrawn": true,
+  "base": "2058f69db3f5c3a4322c5a9404e7145a62eeef2d",
+  "catchproof": {
+    "broken_link_rejected": "PASS",
+    "dirty_metadata_drift_rejected": "PASS",
+    "duplicate_current_path_rejected": "PASS",
+    "duplicate_override_rejected": "PASS",
+    "frozen_record_mutation_rejected": "PASS",
+    "incorrect_union_or_overlap_rejected": "PASS",
+    "inherited_unreviewed_inflation_rejected": "PASS",
+    "manifest_mutation_rejected": "PASS",
+    "missing_override_rejected": "PASS",
+    "pre_native_fallback_rejected": "PASS",
+    "reference_only_readout_loss_rejected": "PASS",
+    "standalone_move_stranding_immutable_companion_rejected": "PASS",
+    "unauthorized_edit_rejected": "PASS"
+  },
+  "changed_paths": [
+    "reorganization_r1h/B02_B03_SCIENTIFIC_FAMILY_CLOSURE.tsv",
+    "reorganization_r1h/CURRENT_CLASSIFICATION_SCHEMA.json",
+    "reorganization_r1h/R1H_AUDIT_REPORT.md",
+    "reorganization_r1h/R1H_PREREGISTRATION.md",
+    "reorganization_r1h/SCIENTIFIC_FAMILY_DEFINITIONS.json",
+    "reorganization_r1h/SCIENTIFIC_FAMILY_MIGRATION_RULE.md",
+    "reorganization_r1h/VERIFY_RESULT.json",
+    "reorganization_r1h/build_r1h_effective_registry.py",
+    "reorganization_r1h/final_validation/TEST_BASELINE.json",
+    "reorganization_r1h/final_validation/TEST_BASELINE.txt",
+    "reorganization_r1h/verify_r1h_effective_registry.py",
+    "research/_registry/CURRENT_CLASSIFICATION.tsv",
+    "research/_registry/README.md"
+  ],
+  "closure": {
+    "batch_counts": {
+      "B02_LEGACY_STANDALONE_ALGEBRA_A": 18,
+      "B03_LEGACY_STANDALONE_ALGEBRA_B": 14
+    },
+    "closure_ruling_counts": {
+      "BLOCKED_IMMUTABLE_FAMILY_COMPANION": 32
+    },
+    "family_counts": {
+      "SF01_THETA0_ACCUMULATION": 9,
+      "SF02_TWIN_LADDER_INVOLUTION": 2,
+      "SF03_STABILITY_OPERATOR": 5,
+      "SF04_ENERGY_ORIENTATION_READOUT": 2,
+      "SF05_LEMMA_D_SEALING_AMPLITUDE": 1,
+      "SF06_PHI_ALPHA_COUPLING": 2,
+      "SF07_STAGE_D_FORECAST": 1,
+      "SF08_HOMOGENEOUS_UNIVERSE_NEGATIVE": 2,
+      "SF09_REDSHIFT_OPTICS_N2": 1,
+      "SF10_UNIVERSE_CELL_FOLD_JC_SIGMA": 7
+    },
+    "rows": 32,
+    "runtime_file_io_rows": 0,
+    "runtime_local_import_rows": 0
+  },
+  "closure_sha256": "e9bba349597e0b583a97f80ee6cc72a5caba943cd1e6b8788703c5846937cdec",
+  "current_paths": {
+    "rows": 1114,
+    "status_counts": {
+      "MIGRATED_R1D": 1,
+      "MIGRATED_R1F": 4,
+      "ROOT_RETAINED": 1109
+    },
+    "unique_current_paths": 1114,
+    "unique_original_paths": 1114
+  },
+  "dirty_checkout_metadata_rows": 54,
+  "dirty_content_policy": "NOT_READ",
+  "effective_registry": {
+    "effective_primary_owner_counts": {
+      "CONTROL_ROOT": 23,
+      "CROSS_LANE_SHARED": 15,
+      "FOUNDATIONS": 141,
+      "LEGACY_FROZEN": 491,
+      "MACRO": 273,
+      "NATIVE_ACTION": 27,
+      "PARTICLE_MASS": 140,
+      "UNKNOWN_BLOCKED": 4
+    },
+    "inherited_rows": 980,
+    "operator_provenance_counts": {
+      "INHERITED_UNREVIEWED": 980,
+      "MIXED": 2,
+      "NATIVE_2026-07-01": 131,
+      "OPEN": 1
+    },
+    "r1g_affected_rows": 121,
+    "r1g_b02_b03_rows": 32,
+    "r1g_overlap_rows": 19,
+    "r1g_union_rows": 134,
+    "reference_only_readout_rows": 6,
+    "review_status_counts": {
+      "INHERITED_UNREVIEWED": 980,
+      "R1G_ADJUDICATED": 102,
+      "R1H_SCIENTIFIC_FAMILY_REVIEWED": 32
+    },
+    "rows": 1114,
+    "scientific_lifecycle_counts": {
+      "FROZEN": 1,
+      "HISTORICAL": 133,
+      "INHERITED_UNREVIEWED": 980
+    },
+    "unique_current_paths": 1114,
+    "unique_original_paths": 1114
+  },
+  "effective_registry_sha256": "2de2a2795235f674218af54513b1f6ffd93711ef49d02f7e992a4f33a97e12ea",
+  "fixed_input_hashes": {
+    "reorganization_r1e/PROPOSED_BATCH_FILE_PLAN.tsv": "c9089c1885f2f618c12567885f1e3d416abeeaa026cd6c442cf7ae64ae70f82c",
+    "reorganization_r1g/AFFECTED_CASCADE_FILE_CENSUS.tsv": "d44c2b8b55c3e16350dec8ce55349426e57cce4d1035859e29898c9fa0736c9d",
+    "reorganization_r1g/B02_B03_ADJUDICATION.tsv": "cbae13c1d79f3d16a2c6542dfe003559fd3abadffb1d56e8490fdecc3070de11",
+    "reorganization_r1g/READOUT_PROVENANCE_CORRECTION_AUDIT.tsv": "16f2237db4a3188e9668fa3f57cac265e473f9bbaddabf9f767a4fef5281252c",
+    "research/_registry/CURRENT_ARTIFACT_PATHS.tsv": "9c1f7c9a9f11dbf31706268d5dbd3c2ffd4247e3f981a603d86e2095925e729c",
+    "research/_registry/CURRENT_FRONTIER_TARGETS.tsv": "5ad9408676d788063165d5b41d6e4002d81f157c2b2a22a5dd23714740d2ec61",
+    "research/_registry/MIGRATION_READINESS.tsv": "4fbdb4e71aae4caf18df9142e7ab822bb5b348b3b364b72e97707679bd244062",
+    "research/_registry/ROOT_OWNERSHIP.tsv": "4e8a4e82d4698f24dea7510932a919773267dfad3ad4033999e195044a056edc"
+  },
+  "frontier_rows": 306,
+  "frontier_unique_targets": 101,
+  "frozen_manifest_replays": [
+    {
+      "manifest_entries_passed": 29,
+      "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+      "package": "native_action_stage1_2026-07-18/arm_A",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 30
+    },
+    {
+      "manifest_entries_passed": 15,
+      "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+      "package": "native_action_stage1_2026-07-18/arm_B",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 16
+    },
+    {
+      "manifest_entries_passed": 13,
+      "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+      "package": "native_action_stage2_2026-07-18/arm_A",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 14
+    },
+    {
+      "manifest_entries_passed": 13,
+      "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+      "package": "native_action_stage2_2026-07-18/arm_B",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 14
+    },
+    {
+      "manifest_entries_passed": 21,
+      "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+      "package": "native_action_arm_c_2026-07-18",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 22
+    },
+    {
+      "manifest_entries_passed": 36,
+      "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+      "package": "native_action_final_adjudication_2026-07-18",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 37
+    }
+  ],
+  "generator_check": "PASS",
+  "generator_summary": {
+    "b02_rows": 18,
+    "b03_rows": 14,
+    "base": "2058f69db3f5c3a4322c5a9404e7145a62eeef2d",
+    "closure_ruling_counts": {
+      "BLOCKED_IMMUTABLE_FAMILY_COMPANION": 32
+    },
+    "closure_sha256": "e9bba349597e0b583a97f80ee6cc72a5caba943cd1e6b8788703c5846937cdec",
+    "execution_batches_withdrawn": [
+      "B02_LEGACY_STANDALONE_ALGEBRA_A",
+      "B03_LEGACY_STANDALONE_ALGEBRA_B"
+    ],
+    "operator_provenance_counts": {
+      "INHERITED_UNREVIEWED": 980,
+      "MIXED": 2,
+      "NATIVE_2026-07-01": 131,
+      "OPEN": 1
+    },
+    "r1g_affected_rows": 121,
+    "r1g_b02_b03_rows": 32,
+    "r1g_overlap_rows": 19,
+    "r1g_union_rows": 134,
+    "registry_sha256": "2de2a2795235f674218af54513b1f6ffd93711ef49d02f7e992a4f33a97e12ea",
+    "review_status_counts": {
+      "INHERITED_UNREVIEWED": 980,
+      "R1G_ADJUDICATED": 102,
+      "R1H_SCIENTIFIC_FAMILY_REVIEWED": 32
+    },
+    "scientific_family_counts": {
+      "SF01_THETA0_ACCUMULATION": 9,
+      "SF02_TWIN_LADDER_INVOLUTION": 2,
+      "SF03_STABILITY_OPERATOR": 5,
+      "SF04_ENERGY_ORIENTATION_READOUT": 2,
+      "SF05_LEMMA_D_SEALING_AMPLITUDE": 1,
+      "SF06_PHI_ALPHA_COUPLING": 2,
+      "SF07_STAGE_D_FORECAST": 1,
+      "SF08_HOMOGENEOUS_UNIVERSE_NEGATIVE": 2,
+      "SF09_REDSHIFT_OPTICS_N2": 1,
+      "SF10_UNIVERSE_CELL_FOLD_JC_SIGMA": 7
+    },
+    "stable_identity_rows": 1114,
+    "unique_current_paths": 1114,
+    "unique_original_paths": 1114
+  },
+  "integration_authorized": false,
+  "markdown_links_verified": 11,
+  "mode": "R1H_EFFECTIVE_REGISTRY_AND_SCIENTIFIC_FAMILY_CLOSURE_FAIL_CLOSED_VERIFY",
+  "preregistration_commit": "b7074062f0f8c196c9695e28add68950b3d9a996",
+  "result": "PASS",
+  "schema_sha256": "bf1a982cf492cb2b7014e90f804a65417a621cd2882a5b9c86e21c94104e5690",
+  "test_baseline": {
+    "baseline_match": true,
+    "command": "python3 -m pytest tests/",
+    "expected_failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "failed": 1,
+    "passed": 69,
+    "python": "3.10.12",
+    "returncode": 1,
+    "scope": "R1H_EFFECTIVE_REGISTRY_AND_SCIENTIFIC_FAMILY_CLOSURE",
+    "xfailed": 1
+  }
+}

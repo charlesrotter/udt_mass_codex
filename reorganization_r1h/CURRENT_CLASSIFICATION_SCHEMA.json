@@ -1,0 +1,46 @@
+{
+  "schema_version": "R1H_CURRENT_CLASSIFICATION_V1",
+  "identity_source": "research/_registry/CURRENT_ARTIFACT_PATHS.tsv@2058f69db3f5c3a4322c5a9404e7145a62eeef2d",
+  "row_count": 1114,
+  "primary_key": "original_path",
+  "unique_fields": [
+    "original_path",
+    "current_path"
+  ],
+  "columns": [
+    "original_path",
+    "current_path",
+    "fixed_snapshot_owner",
+    "fixed_snapshot_evidence",
+    "effective_primary_owner",
+    "operator_provenance",
+    "imported_action_or_coupling",
+    "comparison_readout",
+    "role",
+    "scientific_lifecycle",
+    "path_migration_safety",
+    "scientific_family",
+    "adjudication_source",
+    "review_status"
+  ],
+  "review_status_values": {
+    "INHERITED_UNREVIEWED": "No R1G/R1H row-level adjudication; fixed owner is carried forward without claiming fresh verification.",
+    "R1G_ADJUDICATED": "R1G provenance/lifecycle/family classification applied; not a new R1H content review.",
+    "R1H_SCIENTIFIC_FAMILY_REVIEWED": "R1G provenance axes retained and R1H scientific-family migration closure applied."
+  },
+  "override_contract": {
+    "affected_cascade_rows": 121,
+    "b02_b03_rows": 32,
+    "intersection_rows": 19,
+    "union_rows": 134,
+    "unaffected_inherited_rows": 980
+  },
+  "semantics": {
+    "fixed_snapshot_owner": "Exact R1C ROOT_OWNERSHIP.tsv primary_owner for the stable original identity.",
+    "fixed_snapshot_evidence": "Exact R1C ROOT_OWNERSHIP.tsv ownership_evidence for the stable original identity.",
+    "effective_primary_owner": "R1G owner for overridden identities; otherwise the explicitly unreviewed inherited fixed owner.",
+    "path_migration_safety": "R1H closure ruling for the 32 B02/B03 candidates, R1G migration_safety for other R1G overrides, and an INHERITED_UNREVIEWED-prefixed fixed readiness otherwise.",
+    "adjudication_source": "Names the exact evidence layer used; it does not upgrade unaffected rows.",
+    "review_status": "Mandatory anti-inflation stamp. INHERITED_UNREVIEWED is not an adjudication."
+  }
+}

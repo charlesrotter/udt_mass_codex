@@ -1,0 +1,175 @@
+{
+  "definitions_version": "R1H_2026-07-18",
+  "families": [
+    {
+      "family_id": "SF01_THETA0_ACCUMULATION",
+      "introducing_commit": "add2f22217576fa96308c68bc459e8e271affddf",
+      "candidate_paths": [
+        "cascade_bv10_E2_period.py",
+        "cascade_bv10_E2_symbolic.py",
+        "cascade_bv10_E3_bottom.py",
+        "cascade_bv10_cas.py",
+        "cascade_th2_bottom_beta.py",
+        "cascade_th2_bottom_system.py",
+        "cascade_th2_cas_checks.py",
+        "cascade_th2_cas_kappa.py",
+        "cascade_th2_launch.py"
+      ],
+      "result_evidence_original_paths": [
+        "cascade_th2_final_table.json",
+        "ladder_theta0_accumulation_results.md"
+      ],
+      "external_conceptual_original_paths": [
+        "ladder_lemmaD_sealing_amplitude_results.md",
+        "native_field_equations_constrained_two_player_results.md"
+      ],
+      "family_basis": "second-order theta0 derivation, bottom closure, accumulated ladder law, and its generated final table"
+    },
+    {
+      "family_id": "SF02_TWIN_LADDER_INVOLUTION",
+      "introducing_commit": "48b50d402960f92aaa345daee26ae7dd14dca0c0",
+      "candidate_paths": [
+        "cascade_bv11_v4_cas.py",
+        "cascade_tw_cas.py"
+      ],
+      "result_evidence_original_paths": [
+        "twin_ladder_involution_results.md"
+      ],
+      "external_conceptual_original_paths": [
+        "ladder_theta0_accumulation_results.md",
+        "native_field_equations_constrained_two_player_results.md"
+      ],
+      "family_basis": "twin-ladder inversion, root/desert/cap/product chain, and adjudicated involution result"
+    },
+    {
+      "family_id": "SF03_STABILITY_OPERATOR",
+      "introducing_commit": "4ee798243b0911bdd8360710aa84ca75aefae039",
+      "candidate_paths": [
+        "cascade_bv13_w1_classes.py",
+        "cascade_bv13_w2_w3cas.py",
+        "cascade_bv13_w5_homothety.py",
+        "cascade_sf_cas1_bulk.py",
+        "cascade_sf_cas4_zeromodes.py"
+      ],
+      "result_evidence_original_paths": [
+        "stability_operator_results.md"
+      ],
+      "external_conceptual_original_paths": [
+        "twin_ladder_involution_results.md",
+        "native_field_equations_constrained_two_player_results.md"
+      ],
+      "family_basis": "background/matrix/class/zero-mode stability-operator derivation and its frozen result"
+    },
+    {
+      "family_id": "SF04_ENERGY_ORIENTATION_READOUT",
+      "introducing_commit": "5a82fbbd657402126c8f74af6b70bab92d02e274",
+      "candidate_paths": [
+        "cascade_bv16_cas.py",
+        "cascade_or_energy_cas.py"
+      ],
+      "result_evidence_original_paths": [
+        "ladder_energy_orientation_results.md"
+      ],
+      "external_conceptual_original_paths": [
+        "CANON.md",
+        "native_field_equations_constrained_two_player_results.md"
+      ],
+      "family_basis": "native energy-orientation chain with disclosed reference-only Einstein/Misner-Sharp readout"
+    },
+    {
+      "family_id": "SF05_LEMMA_D_SEALING_AMPLITUDE",
+      "introducing_commit": "2836cc8694db1967ba0d03ee43184ab87238ae05",
+      "candidate_paths": [
+        "cascade_lemD_cas.py"
+      ],
+      "result_evidence_original_paths": [
+        "ladder_lemmaD_sealing_amplitude_results.md"
+      ],
+      "external_conceptual_original_paths": [
+        "cascade_stageC_results.md",
+        "native_field_equations_constrained_two_player_results.md"
+      ],
+      "family_basis": "Lemma-D Bessel/CAS/reshoot/table chain and sealing-amplitude result"
+    },
+    {
+      "family_id": "SF06_PHI_ALPHA_COUPLING",
+      "introducing_commit": "28bff7da29609fc1a383b867b6e564de662d27d3",
+      "candidate_paths": [
+        "homog_alpha_test.py",
+        "phi_source_derivation.py"
+      ],
+      "result_evidence_original_paths": [
+        "udt_phi_blindness_relaxation_results.md"
+      ],
+      "external_conceptual_original_paths": [
+        "native_field_equations_constrained_two_player_results.md"
+      ],
+      "family_basis": "alpha-coupling action/EOM test and phi-blindness relaxation record"
+    },
+    {
+      "family_id": "SF07_STAGE_D_FORECAST",
+      "introducing_commit": "de090cdf613d68b3420ba0a631dfc071b27515a6",
+      "candidate_paths": [
+        "stageD_bv_forecast_check.py"
+      ],
+      "result_evidence_original_paths": [
+        "cascade_stageD_results.md",
+        "stageD_bv_reshoot_results.json"
+      ],
+      "external_conceptual_original_paths": [
+        "cascade_stageD_prereg.md",
+        "native_field_equations_constrained_two_player_results.md"
+      ],
+      "family_basis": "Stage-D forecast/reshoot/compare chain, preregistration, and frozen outputs"
+    },
+    {
+      "family_id": "SF08_HOMOGENEOUS_UNIVERSE_NEGATIVE",
+      "introducing_commit": "70962d6005fb0b6058b54c7feee3679fbef4aa88",
+      "candidate_paths": [
+        "homog_universe_numeric.py",
+        "homog_universe_solve.py"
+      ],
+      "result_evidence_original_paths": [
+        "udt_no_homogeneous_universe_results.md"
+      ],
+      "external_conceptual_original_paths": [
+        "native_field_equations_constrained_two_player_results.md"
+      ],
+      "family_basis": "homogeneous-universe numeric/solve test, frame record, scoped negative, and negative registry"
+    },
+    {
+      "family_id": "SF09_REDSHIFT_OPTICS_N2",
+      "introducing_commit": "2239a142d209e2f29c114a76b8b86bc3ba130aa2",
+      "candidate_paths": [
+        "verify_redshift_profile_derivation.py"
+      ],
+      "result_evidence_original_paths": [
+        "luminosity_distance_n2_optics_results.md"
+      ],
+      "external_conceptual_original_paths": [
+        "udt_canonical_geometry.md"
+      ],
+      "family_basis": "n=2 optics derivation, SNe test/verification chain, and canonical-geometry comparison record"
+    },
+    {
+      "family_id": "SF10_UNIVERSE_CELL_FOLD_JC_SIGMA",
+      "introducing_commit": "ef2423d5d9934e8d56e856ad617d996e922e68d4",
+      "candidate_paths": [
+        "verify_universe_bv2_a_reduction.py",
+        "verify_universe_bv2_b_ident.py",
+        "verify_universe_bv2_c_folds.py",
+        "verify_universe_bv2_d_budget.py",
+        "verify_universe_bv2_e_sigma.py",
+        "verify_universe_bv2_f_einstein.py",
+        "verify_universe_bv2_g_transv_toy.py"
+      ],
+      "result_evidence_original_paths": [
+        "universe_cell_fold_jc_sigma_results.md"
+      ],
+      "external_conceptual_original_paths": [
+        "native_field_equations_constrained_two_player_results.md"
+      ],
+      "family_basis": "universe-cell fold/junction/sigma derivation and seven-part adversarial verification chain"
+    }
+  ]
+}
