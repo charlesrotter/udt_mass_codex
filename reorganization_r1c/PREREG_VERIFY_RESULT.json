@@ -1,0 +1,14 @@
+{
+  "base": "07c67bfbe661705c6b936243fa1ed697f23c1644",
+  "catchproof": {
+    "bad_oid_rejected": "PASS",
+    "bad_sha256_rejected": "PASS",
+    "duplicate_row_rejected": "PASS",
+    "missing_row_rejected": "PASS"
+  },
+  "inventory_sha256": "a4a071407af657962e36c33e9308ddbe6416fe3f38da5ea48ea93d7c1bcbd12c",
+  "mode": "R1C_PREREGISTRATION_INDEPENDENT_FAIL_CLOSED_VERIFY",
+  "result": "PASS",
+  "root_blob_rows": 1114,
+  "unique_primary_universe_paths": 1114
+}

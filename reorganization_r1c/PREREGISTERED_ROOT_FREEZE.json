@@ -1,0 +1,10 @@
+{
+  "base": "07c67bfbe661705c6b936243fa1ed697f23c1644",
+  "generated_records_influence_universe": false,
+  "inventory_sha256": "a4a071407af657962e36c33e9308ddbe6416fe3f38da5ea48ea93d7c1bcbd12c",
+  "mode": "R1C_FIXED_BASE_COMPLETE_TRACKED_ROOT_FREEZE",
+  "path_oid_sha256": "c2875ffde4f5e033cd709a1b0c319fca6b0b066354fe961cb42c1561ec737f7b",
+  "result": "PASS",
+  "root_blob_rows": 1114,
+  "unique_paths": 1114
+}
