@@ -6,14 +6,19 @@
 
 ## TOP — CURRENT POINTER (2026-07-18)
 
-**LIVE.md CURRENT STATE is authoritative.** Native-action Stage I/II A/B and the fresh isolated
-adversarial Arm C are complete, mechanically checked, frozen, and returned. Arm-C entry point:
-`UDT_NATIVE_ACTION_ARM_C_RETURN_2026-07-18.md`; package:
-`native_action_arm_c_2026-07-18/`; external manifest hash:
-`99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f`. Original Stage-I/II packages
-remain immutable. Charles audits next. No final A/B/C physics conclusion is banked; final
-adjudication, canonization, GPU work, further arms, and repository reorganization remain unlaunched
-and unauthorized.
+**LIVE.md CURRENT STATE is authoritative.** Native-action Stage I/II A/B, isolated Arm C, and the
+final mechanical A/B/C adjudication are complete and frozen. Final entry point:
+`native_action_final_adjudication_2026-07-18/FINAL_ADJUDICATION_REPORT.md`; commit `ded310a`; package
+manifest `57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33`. Status split:
+reciprocal kinematics DERIVED; C²/Bach UNIQUE-CONDITIONAL; EH/S²/mass CONDITIONAL; complete
+action/source/boundary charge OPEN. `native_action_external_verifier_2026-07-18/` independently
+replayed 24/24 CAS scripts from a clean pinned-SymPy CPU environment and confirmed all six immutable
+package states unchanged. `UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md` is the current dependency map:
+4D inherited; fields/covariance/locality/variation domain/derivative order open; finite-cell boundary
+ontology modified with its differentiable action/charge open. The smallest immediate fork is
+pre-scale equivalence-class versus post-scale representative variation; it is not a complete-action
+selector. No carrier is adopted. Await Charles; no canonization, GPU work, further arms, or repository
+reorganization is authorized by this layer.
 
 The H3 particle-mass arc remains complete through F with the scope stamps in LIVE/HANDOFF and
 `stability_branch_follow_256_DECISION.md`.

@@ -30,25 +30,34 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-18 — H3 PARTICLE-MASS arc COMPLETE THROUGH F: stability SETTLED (twice-verified) → G conditional mass readout → boundary-virial (BOX-STRESS LEAD) → audit patch → **F finite-slice characterization DONE (83 endpoints, no resolved basin exit; single robust basin = STRONG LEAD; verifier 51/51)**. Native-action Stage I/II A/B and adversarial Arm C COMPLETE, mechanically checked, frozen, and returned. Final A/B/C adjudication, canonization, and GPU work NOT launched.) ============
+## ============ CURRENT STATE (2026-07-18 — H3 PARTICLE-MASS arc COMPLETE THROUGH F: stability SETTLED (twice-verified) → G conditional mass readout → boundary-virial (BOX-STRESS LEAD) → audit patch → **F finite-slice characterization DONE (83 endpoints, no resolved basin exit; single robust basin = STRONG LEAD; verifier 51/51)**. Native-action Stage I/II A/B, adversarial Arm C, final A/B/C adjudication, external clean-environment verification, and GR→UDT selector audit COMPLETE. Canonization, GPU work, further arms, and repository reorganization NOT launched.) ============
 
-**➤➤➤ NATIVE-ACTION ARM-C RETURN (2026-07-18; `UDT_NATIVE_ACTION_ARM_C_RETURN_2026-07-18.md`):**
-- **✅ FRESH ISOLATED ADVERSARIAL ARM C COMPLETE AND FROZEN:** after Charles accepted both immutable
-  D6 packages, Arm C received the controller, exact C0/C1, complete frozen Stage-I and Stage-II A/B
-  packages, and exact A1–A6 with manifests—212 manifested inputs plus the aggregate manifest, no
-  repository mount. Its report, 39-row claim matrix, 16-row complete-foundation countermodel matrix,
-  28-row smuggle list, five new CAS checks/outputs, prompt, transcripts, and provenance record are
-  frozen under `native_action_arm_c_2026-07-18/`. All five scripts compile, exit zero, and reproduce
-  captured output byte-for-byte. Package-manifest hash:
-  `99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f`.
-- **AUDIT ORIENTATION ONLY—not adjudication:** Arm C reports that the reciprocal kinematics survives;
-  no unique complete action is forced; conditional C²/Bach is the strongest unique-action narrowing;
-  broad underdetermination survives but the displayed countermodels are incomplete/conditional rather
-  than complete solved universes; the carrier-source and mass/virial conclusions retain their named
-  completion, variation, boundary, and closure conditions.
-- **STOP / AUDIT BOUNDARY:** Stage-I, Stage-II, and Arm-C packages are read-only. Charles audits Arm C
-  next. Final A/B/C physics adjudication, canonization, GPU work, additional arms, and repository
-  reorganization remain NOT AUTHORIZED / NOT LAUNCHED.
+**➤➤➤ NATIVE-ACTION FINAL ADJUDICATION + SELECTOR AUDIT (2026-07-18):**
+- **✅ FINAL A/B/C ADJUDICATION FROZEN AT `ded310a`:** read
+  `native_action_final_adjudication_2026-07-18/FINAL_ADJUDICATION_REPORT.md`, then
+  `FINAL_STATUS_LEDGER.tsv` and `LAY_DECISION_TREE.md`. The status split is: reciprocal kinematics
+  `DERIVED`; C²/Bach bulk `UNIQUE-CONDITIONAL`; EH/S²/present mass statements `CONDITIONAL`; complete
+  action, native source, differentiable finite-cell boundary action, and normalized boundary
+  charge/mass `OPEN`. The countermodel-completeness and mass-priority overstatements are corrected;
+  the shared-static-source route remains a real but `OPEN` theorem path. Package-manifest SHA-256:
+  `57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33`.
+- **✅ FROZEN PACKAGES EXTERNALLY REVERIFIED WITHOUT MUTATION:**
+  `native_action_external_verifier_2026-07-18/` pins `sympy==1.13.1` and `mpmath==1.3.0`, runs only
+  copied scripts in an isolated CPU-only `/tmp` environment, and records 24/24 byte-exact CAS passes.
+  All Stage-I/II, Arm-C, and final package manifests passed; all complete package-state hashes were
+  identical before/after. Final-package complete-state digest:
+  `2b4a2c3d6a6881753822bf096e28f170a464d5a29666a4d1d4fb93af8814ba7e`.
+- **✅ GR→UDT SELECTOR AUDIT:** `UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md` classifies 4D as
+  `INHERITED`; dynamical fields, covariance, locality, variation domain, and derivative order as
+  `OPEN`; and boundary completion as `MODIFIED`, with spatial infinity rejected as native input and
+  the finite-cell differentiable action/charge still open. Reciprocity, Common-Scale Neutrality,
+  finite-cell structure, and bootstrap closure constrain different layers but do not select a
+  complete action. The smallest immediate missing discriminator is whether fundamental variation is
+  pre-scale on `[g]_CSN` or post-scale on a bootstrap-selected representative; it does not by itself
+  derive C², EH, or a two-stage bridge.
+- **STOP / AUTHORITY BOUNDARY:** this is an adjudicated ledger and selector map, not canonization.
+  No carrier is adopted. No GPU work, further arms, canonization, or repository reorganization is
+  authorized by this layer. Await Charles's next direction.
 
 **➤➤➤ TOPMOST LAYER (2026-07-16 — read this + the two result docs, then stop):**
 - **G (conditional mass readout on the corrected carrier) COMPLETE** — `noNull_phaseG_mass_results.md`
@@ -81,10 +90,10 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
   Endpoint hashes unchanged. Scope: relaxation/basin behavior in the L=6 frame — NOT dynamics,
   NOT infinite-volume, NOT a mass statement.
 - **⏳ ON CHARLES'S DESK:** (1) audit of the F return (+ the G / boundary-virial / audit-patch chain);
-  (2) **audit the frozen native-action Arm-C return** (`UDT_NATIVE_ACTION_ARM_C_RETURN_2026-07-18.md`;
-  no final A/B/C adjudication / canonization / GPU launch until separately authorized); (3) any canonization (stability
-  seal; basin characterization); (4) direction for the next push (candidates: boundary-layer theorem
-  route / native-action adjudication after Arm-C audit / box-mask study / spin-isorotation on the certified carrier).
+  (2) review the frozen final native-action adjudication and the GR→UDT selector audit; (3) any
+  canonization (stability seal; basin characterization; native-action status); (4) direction for the
+  next push. No native-action continuation, GPU launch, carrier adoption, or repository
+  reorganization follows without a new dispatch.
 - **Ops for a fresh session:** launch pattern = `setsid bash -c '… timeout … python3 …' & disown`
   (plain `&` dies with the tool shell); ONE GPU process; **exact Hessian tools** `hvp_exact`/
   `hvp_exact_chunked` in `noNull_energy.py` (machine-precision; FD-HVP noise floor ~1e-10 rel blocks

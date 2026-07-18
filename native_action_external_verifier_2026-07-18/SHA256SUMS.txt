@@ -1,0 +1,5 @@
+1983dc36d153b6bc50f01b07f284f1ff3e4533a67cd5a830abe8377aa5026ab3  ./CLEAN_RUN_RECORD.md
+2bbe36b1381bc8c699a29ddc345ce42738d54354beaef7aad924eea533f65e49  ./README.md
+6dcc23bd7399fa568482cd1518b3a2c88aa73dd08d710aaab7cabe930adc02ac  ./VERIFY_RESULT.json
+35b448ad7b41b8b2591c1a3e4543e681a52ea3707014020628badc65d35a8385  ./requirements-verifier.txt
+97e9d923690ac08f5af126cad6db2a9c7c2cfbb9c0ee977089e5597cce91fbee  ./verify_frozen_adjudication.py

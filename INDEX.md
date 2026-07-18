@@ -12,16 +12,20 @@ Solvers/tools: `noNull_energy.py` (corrected operator + **exact HVP** `hvp_exact
 (soft-lock ortho-LOBPCG) / `noNull_schur_inertia.py` + `noNull_schur_verify.py` (inertia seal) /
 `noNull_phaseG_mass.py` + `verify_noNull_phaseG_mass.py` (G) / `noNull_boundary_virial.py` +
 `verify_noNull_boundary_virial.py` + `verify_virial_identity_cas.py` (boundary-virial).
-Native-action Arm C: frozen isolated adversarial package under `native_action_arm_c_2026-07-18/`;
-return and external manifest hash in `UDT_NATIVE_ACTION_ARM_C_RETURN_2026-07-18.md`. It includes the
-C.0-C.9 report, 39-row claim matrix, 16-row complete-foundation countermodel matrix, 28-row smuggle
-list, five new CAS scripts/outputs, exact intake receipt, launch evidence, raw transcript, and driver
-mechanical audit. Original Stage-I and Stage-II A/B packages remain frozen under
-`native_action_stage1_2026-07-18/` and `native_action_stage2_2026-07-18/`; no final A/B/C
-adjudication, canonization, or GPU launch.
+Native-action final adjudication: frozen at `ded310a` under
+`native_action_final_adjudication_2026-07-18/`; start with `FINAL_ADJUDICATION_REPORT.md`, then
+`FINAL_STATUS_LEDGER.tsv` and `LAY_DECISION_TREE.md`. Manifest SHA-256:
+`57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33`. Status split: reciprocal
+kinematics DERIVED; C²/Bach UNIQUE-CONDITIONAL; EH/S²/mass CONDITIONAL; complete action/source/
+boundary charge OPEN. Original Stage-I/II A/B and Arm-C packages remain immutable. External verifier:
+`native_action_external_verifier_2026-07-18/` (pinned SymPy, isolated CPU-only 24/24 byte-exact
+replay, all six package states unchanged). Selector audit:
+`UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md`; preregistration:
+`UDT_GR_TO_UDT_SELECTOR_AUDIT_PREREG_2026-07-18.md`. No canonization, carrier adoption, GPU work,
+further arms, or repository reorganization.
 Dispatches: `UDT_H3_CORRECTED_G_THEN_F_SEQUENCING_DISPATCH.md` (F prereg = §9; F LOCKED) +
 `UDT_H3_BOUNDARY_VIRIAL_CLOSURE_BEFORE_F_DISPATCH.md` (done) +
-`UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md` (Arm C complete/frozen; awaiting Charles audit) +
+`UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md` (A/B/C and final adjudication complete/frozen) +
 `UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md` (C0) +
 `UDT_NATIVE_ACTION_COLD_PACKET.md` (C1). Synchronization evidence:
 `UDT_NATIVE_ACTION_WORKSTATION_SYNC_AUDIT_2026-07-17.md`; owner/foundation records are the root

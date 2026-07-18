@@ -5,20 +5,28 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-10).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-18 — H3 particle-mass arc complete; native-action Arm C frozen and awaiting Charles's audit)
+## CURRENT (2026-07-18 — H3 particle-mass arc complete; native-action final adjudication and selector audit complete)
 
 **Read LIVE.md CURRENT STATE topmost layer first.** Session arc 07-13→16 in one paragraph:
 
-**NATIVE-ACTION ARM C COMPLETE (2026-07-18):** after Charles accepted both frozen D6 returns, one
-fresh isolated adversarial Arm C (`gpt-5.6-sol`) received only the controller, exact C0/C1, complete
-immutable Stage-I/II A/B packages, and exact A1–A6 with manifests. It returned C.0-C.9, a 39-row claim
-matrix, 16-row complete-foundation countermodel matrix, 28-row smuggle list, and five new reproducible
-CAS checks. Mechanical audit passes; the read-only package is under `native_action_arm_c_2026-07-18/`
-and its external manifest hash is
-`99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f`. The Stage-I/II packages remain
-unchanged and read-only. `UDT_NATIVE_ACTION_ARM_C_RETURN_2026-07-18.md` is the audit entry point.
-Final A/B/C adjudication, canonization, GPU work, further arms, and repository reorganization remain
-unauthorized pending Charles's Arm-C package audit.
+**NATIVE-ACTION ADJUDICATION COMPLETE AND FROZEN (2026-07-18; `ded310a`):** the mechanical A/B/C
+adjudication is under `native_action_final_adjudication_2026-07-18/`. Read
+`FINAL_ADJUDICATION_REPORT.md` → `FINAL_STATUS_LEDGER.tsv` → `LAY_DECISION_TREE.md`. Final split:
+reciprocal kinematics `DERIVED`; C²/Bach `UNIQUE-CONDITIONAL`; EH/S²/present mass formulas
+`CONDITIONAL`; complete action/native source/differentiable finite-cell boundary action/normalized
+charge `OPEN`. The shared-static-source route remains `OPEN`, not excluded. Frozen package manifest:
+`57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33`.
+
+**EXTERNAL VERIFIER + GR→UDT SELECTOR AUDIT COMPLETE:**
+`native_action_external_verifier_2026-07-18/` pins SymPy `1.13.1` and mpmath `1.3.0`; its isolated
+CPU-only run copied all 24 CAS scripts to `/tmp`, reproduced every output byte-for-byte, passed all
+six internal manifests, and found identical complete package states before/after. Final-package
+complete-state digest: `2b4a2c3d6a6881753822bf096e28f170a464d5a29666a4d1d4fb93af8814ba7e`.
+`UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md` records: 4D `INHERITED`; fields/covariance/locality/
+variation domain/derivative order `OPEN`; boundary completion `MODIFIED` by the finite cell while its
+functional and charge remain open. The immediate missing fork is pre-scale equivalence-class versus
+post-scale representative variation; it is not a complete-action selector. No carrier is adopted.
+Stop before canonization, GPU work, further arms, or repository reorganization.
 
 The corrected-operator stability question was closed in TWO layers, both blind/independently verified:
 (1) the T/R-DEFLATED physical spectrum certified positive at 128/192/256 (Charles's raw-backward-error
@@ -48,10 +56,9 @@ STRONG finite-slice LEAD**, not the literal class of all endpoints. Repaired ver
 byte-restored; endpoint NPZ hashes unchanged. Scope: basin behavior, NOT dynamics/infinite-volume/
 mass. Records: `noNull_behavioral_F_results.md` + `noNull_F_*.json` + `F_evidence/`.
 
-**Pending Charles:** audit of the F return; audit the frozen native-action Arm-C package
-(`UDT_NATIVE_ACTION_ARM_C_RETURN_2026-07-18.md`; no final A/B/C adjudication / canonization / GPU until
-separately authorized); canonization calls; next-push direction
-(theorem route / native-action adjudication after Arm-C audit / box-mask study / spin-isorotation).
+**Pending Charles:** audit of the F return; review the frozen native-action final adjudication and
+GR→UDT selector audit; canonization calls; next-push direction. No native-action continuation,
+carrier adoption, GPU launch, or repository reorganization follows without a new dispatch.
 **Key commits:** da51ec4→1c2196c (spectrum cert), d131557 (inertia seal), 493d104 (G), 837d633
 (boundary-virial). **Records:** noNull_hess_h2fit_log.txt, noNull_schur_inertia_ALL.json,
 noNull_phaseG_mass_results.md, noNull_boundary_virial_results.md, noNull_virial_identity_derivation.md.
