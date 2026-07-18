@@ -7,9 +7,14 @@ and B03 are blocked and unauthorized. The fixed R1C rule classified every
 eligible `cascade_*` path as pre-native from its prefix, and R1E propagated that
 label into a pre-July archive destination without operator-lineage evidence.
 
-No research artifact, fixed R0–R1F record, current registry, script, evidence,
-data file, or manifest was changed by R1G. This directory is an additions-only
-correction overlay.
+No research artifact or research script, fixed R0–R1F record, current registry,
+evidence, data file, or manifest was changed by R1G. Only this audit overlay is
+corrected.
+
+The current tables include the preregistered readout-provenance correction:
+reference-only standard-theory diagnostics are disclosed separately and do not
+demote the provenance of the native action/EOM they read. The correction record
+is [R1G_READOUT_PROVENANCE_CORRECTION_REPORT.md](R1G_READOUT_PROVENANCE_CORRECTION_REPORT.md).
 
 ## Independent census
 
@@ -18,7 +23,8 @@ correction overlay.
   `PRE_NATIVE_FAMILY+R0_HISTORICAL_EVIDENCE`.
 - Git history places 61 introductions on July 2 and 60 on July 3.
 - The 121 affected rows resolve into 15 coherent introducing-commit/family
-  groups: 116 `NATIVE_2026-07-01` and 5 `MIXED`; none is proven `PRE_NATIVE`.
+  groups: all 121 are `NATIVE_2026-07-01`; none is `MIXED` or proven
+  `PRE_NATIVE`. Five C12 rows separately disclose reference-only GR/MS readout.
 - Lifecycle is separately recorded as 120 `HISTORICAL` and one `FROZEN`
   Stage-D preregistration.
 
@@ -40,8 +46,8 @@ The totals are:
 
 | Axis | Ruling | Count |
 |---|---:|---:|
-| Operator provenance | `NATIVE_2026-07-01` | 26 |
-| Operator provenance | `MIXED` | 5 |
+| Operator provenance | `NATIVE_2026-07-01` | 29 |
+| Operator provenance | `MIXED` | 2 |
 | Operator provenance | `OPEN` | 1 |
 | Operator provenance | `PRE_NATIVE` | 0 |
 | Scientific lifecycle | `HISTORICAL` | 32 |
@@ -49,12 +55,15 @@ The totals are:
 | Primary owner | `MACRO` | 3 |
 | Primary owner | `PARTICLE_MASS` | 2 |
 | Migration safety | `BLOCKED_PROVENANCE_CORRECTION_REQUIRED` | 32 |
+| Comparison readout | `REFERENCE_ONLY` | 3 |
+| Imported action/coupling | load-bearing nonzero alpha | 2 |
 
-The mixed rows are `cascade_bv16_cas.py`, `cascade_or_energy_cas.py`,
-`phi_source_derivation.py`, `homog_alpha_test.py`, and
-`verify_universe_bv2_f_einstein.py`. They combine the native lineage with,
-respectively, reference Einstein/Misner-Sharp readouts or imported alpha/source
-conventions. `verify_redshift_profile_derivation.py` is `OPEN`: it is a
+The two `MIXED` rows are `phi_source_derivation.py` and `homog_alpha_test.py`:
+the imported/free nonzero-alpha weight enters the tested matter action and phi
+EOM. `cascade_bv16_cas.py`, `cascade_or_energy_cas.py`, and
+`verify_universe_bv2_f_einstein.py` remain `NATIVE_2026-07-01`; each separately
+discloses `GR_EINSTEIN_TENSOR;MISNER_SHARP` with `role=REFERENCE_ONLY`.
+`verify_redshift_profile_derivation.py` is `OPEN`: it is a
 post-July kinematic/proper-distance calculation without a field-equation
 operator lineage. The remaining 26 explicitly descend from the July 1 native
 equations.
@@ -72,8 +81,9 @@ Nothing in R1G applies that proposal to the fixed registries.
 
 The external verifier reconstructs the plan and affected universes without
 importing the freezer/builder, recomputes every Git history and content
-identity, exercises the three provenance catch-proofs plus coverage checks,
-replays all six frozen manifests and package paths/blobs, checks current links
+identity, exercises eight provenance/coverage catch-proofs—including the three
+readout/action separation guards—replays all six frozen manifests and package
+paths/blobs, checks current links
 and all 306 frontier rows / 101 unique targets, confirms the known test
 baseline, and compares the original dirty checkout's 54 paths by status/lstat
 metadata only with contents marked `NOT_READ`.

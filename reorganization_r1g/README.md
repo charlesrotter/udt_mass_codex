@@ -10,6 +10,11 @@ reconstructed 121-file blast radius is
 [AFFECTED_CASCADE_FILE_CENSUS.tsv](AFFECTED_CASCADE_FILE_CENSUS.tsv), grouped in
 [AFFECTED_CASCADE_FAMILY_SUMMARY.tsv](AFFECTED_CASCADE_FAMILY_SUMMARY.tsv).
 
+The readout-provenance correction is documented in
+[R1G_READOUT_PROVENANCE_CORRECTION_REPORT.md](R1G_READOUT_PROVENANCE_CORRECTION_REPORT.md),
+with its exact eight-file dataflow audit in
+[READOUT_PROVENANCE_CORRECTION_AUDIT.tsv](READOUT_PROVENANCE_CORRECTION_AUDIT.tsv).
+
 The boundary finding is documented in
 [JULY1_NATIVE_FIELD_EQUATION_BOUNDARY.md](JULY1_NATIVE_FIELD_EQUATION_BOUNDARY.md),
 and the proposed replacement rules are in

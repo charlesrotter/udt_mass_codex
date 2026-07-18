@@ -1,14 +1,15 @@
 {
   "affected_cascade_rows": 121,
   "affected_family_rows": 15,
+  "affected_imported_action_or_coupling_rows": 0,
   "affected_lifecycle_counts": {
     "FROZEN": 1,
     "HISTORICAL": 120
   },
   "affected_provenance_counts": {
-    "MIXED": 5,
-    "NATIVE_2026-07-01": 116
+    "NATIVE_2026-07-01": 121
   },
+  "affected_reference_only_readout_rows": 5,
   "archive_pre_destination_rows": 0,
   "base": "8015342a81b2d27cc310dde95ab7f386c6441a77",
   "boundary": "f7664786d1e2340262ea5aa22336cf0c2f8b0dfc",
@@ -17,6 +18,7 @@
     "B02_LEGACY_STANDALONE_ALGEBRA_A": 18,
     "B03_LEGACY_STANDALONE_ALGEBRA_B": 14
   },
+  "candidate_imported_action_or_coupling_rows": 2,
   "candidate_lifecycle_counts": {
     "HISTORICAL": 32
   },
@@ -26,10 +28,11 @@
     "PARTICLE_MASS": 2
   },
   "candidate_provenance_counts": {
-    "MIXED": 5,
-    "NATIVE_2026-07-01": 26,
+    "MIXED": 2,
+    "NATIVE_2026-07-01": 29,
     "OPEN": 1
   },
+  "candidate_reference_only_readout_rows": 3,
   "candidate_rows": 32,
   "moves_authorized": false,
   "pre_native_affected_cascade_rows": 0,

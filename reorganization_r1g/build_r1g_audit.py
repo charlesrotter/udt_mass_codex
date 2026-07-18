@@ -15,11 +15,10 @@ BASE = "8015342a81b2d27cc310dde95ab7f386c6441a77"
 BOUNDARY = "f7664786d1e2340262ea5aa22336cf0c2f8b0dfc"
 BOUNDARY_PARENT = "78939836326cb822e22b2a72bfd8097365185aa6"
 
-MIXED_CANDIDATES = {
+MIXED_CANDIDATES = {"phi_source_derivation.py", "homog_alpha_test.py"}
+READOUT_ONLY_CANDIDATES = {
     "cascade_bv16_cas.py",
     "cascade_or_energy_cas.py",
-    "phi_source_derivation.py",
-    "homog_alpha_test.py",
     "verify_universe_bv2_f_einstein.py",
 }
 OPEN_CANDIDATES = {"verify_redshift_profile_derivation.py"}
@@ -91,9 +90,12 @@ FAMILIES = {
         "note": "verified soft-mode family remains scoped to the native round-static action",
     },
     "5a82fbbd657402126c8f74af6b70bab92d02e274": {
-        "id": "C12_ENERGY_ORIENTATION", "provenance": "MIXED", "lifecycle": "HISTORICAL",
-        "evidence": "ladder_energy_orientation_results.md;CANON.md:C-2026-07-03-1;f766478;GR_REFERENCE:Einstein_tensor+Misner-Sharp",
-        "note": "native action/EOM identities are combined with explicitly reference-only Einstein/MS readouts",
+        "id": "C12_ENERGY_ORIENTATION", "provenance": "NATIVE_2026-07-01", "lifecycle": "HISTORICAL",
+        "evidence": "ladder_energy_orientation_results.md;CANON.md:C-2026-07-03-1;f766478;COMPARISON_READOUT:GR_EINSTEIN_TENSOR+MISNER_SHARP;ROLE:REFERENCE_ONLY",
+        "imported_action_or_coupling": "NONE",
+        "comparison_readout": "GR_EINSTEIN_TENSOR;MISNER_SHARP",
+        "role": "REFERENCE_ONLY",
+        "note": "native tested action/EOM; Einstein/MS material is disclosed downstream reference-only readout with no feedback",
     },
     "34d1b6b1c4469f1fccf77eb6a212fc90cc766ee2": {
         "id": "C13_STAGED_PREREG", "provenance": "NATIVE_2026-07-01", "lifecycle": "FROZEN",
@@ -138,47 +140,60 @@ def candidate_classification(path: str, intro: str) -> dict[str, str]:
             "operator_provenance": "OPEN",
             "operator_lineage_evidence": "2239a142:verify_redshift_profile_derivation.py uses a separate proper-distance homogeneity postulate and no field equation;luminosity_distance_n2_optics_results.md",
             "provenance_note": "post-July kinematic/optics check; no operator lineage to classify as pre-native or July-1-native",
+            "imported_action_or_coupling": "NONE", "comparison_readout": "NONE", "role": "NONE",
         }
     if path in {"cascade_bv16_cas.py", "cascade_or_energy_cas.py"}:
         return {
-            "operator_provenance": "MIXED",
+            "operator_provenance": "NATIVE_2026-07-01",
             "operator_lineage_evidence": FAMILIES[intro]["evidence"],
-            "provenance_note": "native July-1 action/EOM plus explicitly reference-only Einstein tensor and Misner-Sharp readout",
+            "provenance_note": "native July-1 tested action/EOM; Einstein tensor and Misner-Sharp are downstream comparison readouts only",
+            "imported_action_or_coupling": "NONE",
+            "comparison_readout": "GR_EINSTEIN_TENSOR;MISNER_SHARP", "role": "REFERENCE_ONLY",
         }
     if path == "verify_universe_bv2_f_einstein.py":
         return {
-            "operator_provenance": "MIXED",
-            "operator_lineage_evidence": "ef2423d:universe_cell_fold_jc_sigma_results.md:D3;f766478;GR_REFERENCE:Einstein_tensor+Misner-Sharp",
-            "provenance_note": "native EOM substitutions are combined with a non-native Einstein/MS reading audited as such",
+            "operator_provenance": "NATIVE_2026-07-01",
+            "operator_lineage_evidence": "ef2423d:universe_cell_fold_jc_sigma_results.md:D3;f766478;COMPARISON_READOUT:GR_EINSTEIN_TENSOR+MISNER_SHARP;ROLE:REFERENCE_ONLY",
+            "provenance_note": "native EOM substitutions are tested; Einstein/MS is a disclosed non-native comparison reading with no feedback",
+            "imported_action_or_coupling": "NONE",
+            "comparison_readout": "GR_EINSTEIN_TENSOR;MISNER_SHARP", "role": "REFERENCE_ONLY",
         }
     if path in {"phi_source_derivation.py", "homog_alpha_test.py"}:
         return {
             "operator_provenance": "MIXED",
             "operator_lineage_evidence": "28bff7da:udt_phi_blindness_relaxation_results.md;f766478;alpha=-2 IMPORTED;alpha=-1/-0.5 FREE",
-            "provenance_note": "July-1 native Branch-P baseline extended across a free/imported alpha coupling family",
+            "provenance_note": "free/imported nonzero alpha multiplies the tested matter action and enters the varied phi EOM",
+            "imported_action_or_coupling": "ALPHA_MINUS_2_GR_PHYSICAL_METRIC;NONZERO_ALPHA_FREE",
+            "comparison_readout": "NONE", "role": "ENTERS_TESTED_ACTION_AND_PHI_EOM",
         }
     if path.startswith("cascade_"):
         family = FAMILIES[intro]
         return {"operator_provenance": family["provenance"],
                 "operator_lineage_evidence": family["evidence"],
-                "provenance_note": family["note"]}
+                "provenance_note": family["note"],
+                "imported_action_or_coupling": family.get("imported_action_or_coupling", "NONE"),
+                "comparison_readout": family.get("comparison_readout", "NONE"),
+                "role": family.get("role", "NONE")}
     if path == "stageD_bv_forecast_check.py":
         return {
             "operator_provenance": "NATIVE_2026-07-01",
             "operator_lineage_evidence": "de090cdf:cascade_stageD_results.md;cascade_stageD_prereg.md;f766478",
             "provenance_note": "independent replay of the native cascade's preregistered Stage-D forecast",
+            "imported_action_or_coupling": "NONE", "comparison_readout": "NONE", "role": "NONE",
         }
     if path.startswith("verify_universe_bv2_"):
         return {
             "operator_provenance": "NATIVE_2026-07-01",
             "operator_lineage_evidence": "ef2423d:universe_cell_fold_jc_sigma_results.md;native_field_equations_constrained_two_player_results.md;f766478",
             "provenance_note": "independent reduction/variation of the July-1 native round-cell action",
+            "imported_action_or_coupling": "NONE", "comparison_readout": "NONE", "role": "NONE",
         }
     if path.startswith("homog_universe_"):
         return {
             "operator_provenance": "NATIVE_2026-07-01",
             "operator_lineage_evidence": "70962d60:udt_no_homogeneous_universe_results.md;native_field_equations_constrained_two_player_results.md;f766478",
             "provenance_note": "static homogeneity test directly evaluates the July-1 native Branch-P field equation",
+            "imported_action_or_coupling": "NONE", "comparison_readout": "NONE", "role": "NONE",
         }
     raise AssertionError(f"unadjudicated candidate: {path}")
 
@@ -203,8 +218,8 @@ def candidate_destination(path: str, provenance: str, owner: str) -> tuple[str, 
         root = "archive/post_2026-07-01/macro/kinematic_optics/"
         why = "post-July operator-neutral kinematic/optics history"
     elif provenance == "MIXED":
-        root = "archive/post_2026-07-01/foundations/mixed_native_gr_readout/"
-        why = "historical native-action calculation containing explicitly non-native GR/MS readout"
+        root = "archive/post_2026-07-01/foundations/mixed_operator/"
+        why = "historical calculation with imported structure entering the tested operator"
     else:
         root = "archive/native_2026-07-01/foundations/universe_cell/"
         why = "historical July-1-native universe-cell/cascade foundation"
@@ -243,6 +258,8 @@ def main() -> int:
             "r1e_destination": row["proposed_destination"],
             "operator_provenance": classified["operator_provenance"],
             "operator_lineage_evidence": classified["operator_lineage_evidence"],
+            "imported_action_or_coupling": classified["imported_action_or_coupling"],
+            "comparison_readout": classified["comparison_readout"], "role": classified["role"],
             "pre_native_lineage_commit": "",
             "provenance_note": classified["provenance_note"],
             "scientific_lifecycle": "HISTORICAL",
@@ -265,9 +282,6 @@ def main() -> int:
         family = FAMILIES[intro]; grouped.setdefault(intro, []).append(row)
         if family["lifecycle"] == "FROZEN":
             safety, destination = "IMMUTABLE_PATH_RETAIN", row["current_path"]
-        elif family["provenance"] == "MIXED":
-            safety = "BLOCKED_PROVENANCE_CORRECTION_REQUIRED"
-            destination = "archive/post_2026-07-01/foundations/mixed_native_gr_readout/" + Path(row["current_path"]).name
         else:
             safety = "BLOCKED_PROVENANCE_CORRECTION_REQUIRED"
             destination = "archive/native_2026-07-01/foundations/universe_cell/" + Path(row["current_path"]).name
@@ -277,6 +291,9 @@ def main() -> int:
             "last_commit": row["last_commit"], "last_commit_date": row["last_commit_date"],
             "family_id": family["id"], "operator_provenance": family["provenance"],
             "operator_lineage_evidence": family["evidence"], "pre_native_lineage_commit": "",
+            "imported_action_or_coupling": family.get("imported_action_or_coupling", "NONE"),
+            "comparison_readout": family.get("comparison_readout", "NONE"),
+            "role": family.get("role", "NONE"),
             "scientific_lifecycle": family["lifecycle"],
             "lifecycle_evidence": "archive/INDEX_pre_simple_metric_WR_L_2026-07-09.md:SUPERSEDED_as_frontier;family_result_record",
             "primary_owner": "FOUNDATIONS", "secondary_consumers": "MACRO;PARTICLE_MASS",
@@ -293,14 +310,86 @@ def main() -> int:
             "introducing_commit_date": members[0]["introducing_commit_date"],
             "introducing_subject": members[0]["introducing_subject"], "file_count": str(len(members)),
             "operator_provenance": family["provenance"], "operator_lineage_evidence": family["evidence"],
+            "imported_action_or_coupling": family.get("imported_action_or_coupling", "NONE"),
+            "comparison_readout": family.get("comparison_readout", "NONE"),
+            "role": family.get("role", "NONE"),
             "scientific_lifecycle": family["lifecycle"], "primary_owner": "FOUNDATIONS",
             "migration_safety": "IMMUTABLE_PATH_RETAIN" if family["lifecycle"] == "FROZEN" else "BLOCKED_PROVENANCE_CORRECTION_REQUIRED",
             "destination_root_proposal": ("CURRENT_PATH" if family["lifecycle"] == "FROZEN" else
-                "archive/post_2026-07-01/foundations/mixed_native_gr_readout/" if family["provenance"] == "MIXED" else
                 "archive/native_2026-07-01/foundations/universe_cell/"),
             "family_note": family["note"],
         })
     write_rows(out / "AFFECTED_CASCADE_FAMILY_SUMMARY.tsv", summary)
+
+    correction_audit = [
+        {
+            "current_path": "cascade_bv16_cas.py", "audit_scope": "NAMED_B02;C12_ENERGY_ORIENTATION",
+            "tested_functional_or_eom": "NATIVE_L_GEO_MINUS_U;EL_PHI;EL_RHO;H",
+            "imported_action_or_coupling": "NONE", "comparison_readout": "GR_EINSTEIN_TENSOR;MISNER_SHARP",
+            "role": "REFERENCE_ONLY", "operator_provenance": "NATIVE_2026-07-01",
+            "algebraic_dependency": "Y1-Y2 derive native L/EL/H before Y3 computes Gtt and mMS; no G/MS symbol enters L, variation, EL, or solver substitutions",
+            "ruling": "READOUT_DISCLOSED_NO_OPERATOR_DEMOTION",
+        },
+        {
+            "current_path": "cascade_bv16_rungs.py", "audit_scope": "C12_ENERGY_ORIENTATION",
+            "tested_functional_or_eom": "NATIVE_SOLVER_EOM;BANKED_L;H",
+            "imported_action_or_coupling": "NONE", "comparison_readout": "GR_EINSTEIN_TENSOR;MISNER_SHARP",
+            "role": "REFERENCE_ONLY", "operator_provenance": "NATIVE_2026-07-01",
+            "algebraic_dependency": "native shoot completes before eps/MS diagnostics; neither diagnostic feeds make_risefall_slice, shoot, L, H, or the EOM",
+            "ruling": "READOUT_DISCLOSED_NO_OPERATOR_DEMOTION",
+        },
+        {
+            "current_path": "cascade_or_energy_cas.py", "audit_scope": "NAMED_B02;C12_ENERGY_ORIENTATION",
+            "tested_functional_or_eom": "NATIVE_L_BANKED;EL_PHI;EL_RHO;H",
+            "imported_action_or_coupling": "NONE", "comparison_readout": "GR_EINSTEIN_TENSOR;MISNER_SHARP",
+            "role": "REFERENCE_ONLY", "operator_provenance": "NATIVE_2026-07-01",
+            "algebraic_dependency": "C4-C9 establish native action/EL/H; C10-C14 then compare an independently computed Gtt/MS readout without feedback",
+            "ruling": "READOUT_DISCLOSED_NO_OPERATOR_DEMOTION",
+        },
+        {
+            "current_path": "cascade_or_energy_numeric.py", "audit_scope": "C12_ENERGY_ORIENTATION",
+            "tested_functional_or_eom": "NATIVE_SOLVER_EOM;BANKED_L;H",
+            "imported_action_or_coupling": "NONE", "comparison_readout": "GR_EINSTEIN_TENSOR;MISNER_SHARP",
+            "role": "REFERENCE_ONLY", "operator_provenance": "NATIVE_2026-07-01",
+            "algebraic_dependency": "native IVP and L/H quadrature are complete before MS/eps comparison; readout is not an input to the solver or action",
+            "ruling": "READOUT_DISCLOSED_NO_OPERATOR_DEMOTION",
+        },
+        {
+            "current_path": "cascade_or_energy_rung1_and_alignment.py", "audit_scope": "C12_ENERGY_ORIENTATION",
+            "tested_functional_or_eom": "NATIVE_SOLVER_EOM;BANKED_L;H",
+            "imported_action_or_coupling": "NONE", "comparison_readout": "GR_EINSTEIN_TENSOR;MISNER_SHARP",
+            "role": "REFERENCE_ONLY", "operator_provenance": "NATIVE_2026-07-01",
+            "algebraic_dependency": "MS/eps sign alignment is computed after native rungs and does not determine the native action, EOM, or coupling",
+            "ruling": "READOUT_DISCLOSED_NO_OPERATOR_DEMOTION",
+        },
+        {
+            "current_path": "verify_universe_bv2_f_einstein.py", "audit_scope": "NAMED_B03",
+            "tested_functional_or_eom": "NATIVE_PHI_EOM;NATIVE_RHO_EOM",
+            "imported_action_or_coupling": "NONE", "comparison_readout": "GR_EINSTEIN_TENSOR;MISNER_SHARP",
+            "role": "REFERENCE_ONLY", "operator_provenance": "NATIVE_2026-07-01",
+            "algebraic_dependency": "native EOM substitutions are explicit inputs to the audit; Gmix and mMS are derived diagnostic outputs and never source those EOMs",
+            "ruling": "READOUT_DISCLOSED_NO_OPERATOR_DEMOTION",
+        },
+        {
+            "current_path": "phi_source_derivation.py", "audit_scope": "ALPHA_COUPLING_CONTROL",
+            "tested_functional_or_eom": "L2_WITH_EXP_ALPHA_PHI_RADIAL_WEIGHT;VARIATION_WRT_PHI",
+            "imported_action_or_coupling": "ALPHA_MINUS_2_GR_PHYSICAL_METRIC;NONZERO_ALPHA_FREE",
+            "comparison_readout": "NONE", "role": "ENTERS_TESTED_ACTION_AND_PHI_EOM",
+            "operator_provenance": "MIXED",
+            "algebraic_dependency": "exp(alpha*phi) multiplies Grr inside L2; differentiating the action produces alpha*exp(alpha*phi) in the phi EOM",
+            "ruling": "IMPORTED_OR_FREE_COUPLING_IS_LOAD_BEARING",
+        },
+        {
+            "current_path": "homog_alpha_test.py", "audit_scope": "ALPHA_COUPLING_CONTROL",
+            "tested_functional_or_eom": "AUGMENTED_NATIVE_DILATION_EOM_WITH_ALPHA_SOURCE",
+            "imported_action_or_coupling": "ALPHA_MINUS_2_GR_PHYSICAL_METRIC;NONZERO_ALPHA_FREE",
+            "comparison_readout": "NONE", "role": "ENTERS_TESTED_ACTION_AND_PHI_EOM",
+            "operator_provenance": "MIXED",
+            "algebraic_dependency": "alpha*exp(alpha*phi)*rho^2 is the denominator/source weight used to solve the tested EOM for I_r",
+            "ruling": "IMPORTED_OR_FREE_COUPLING_IS_LOAD_BEARING",
+        },
+    ]
+    write_rows(out / "READOUT_PROVENANCE_CORRECTION_AUDIT.tsv", correction_audit)
 
     boundary = {
         "result": "PASS", "last_pre_boundary_ancestor": BOUNDARY_PARENT,
@@ -319,13 +408,17 @@ def main() -> int:
         json.dumps(boundary, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
     rules = {
-        "result": "PROPOSED_NOT_APPLIED", "separate_axes": ["operator_provenance", "scientific_lifecycle", "path_migration_safety"],
+        "result": "PROPOSED_NOT_APPLIED", "separate_axes": [
+            "operator_provenance", "imported_action_or_coupling", "comparison_readout",
+            "scientific_lifecycle", "path_migration_safety",
+        ],
         "operator_labels": ["PRE_NATIVE", "NATIVE_2026-07-01", "MIXED", "OPEN"],
         "lifecycle_labels": ["ACTIVE", "SUPERSEDED", "HISTORICAL", "FROZEN"],
         "rules_in_precedence_order": [
             {"rule": "hard_frozen_or_manifest", "effect": "retain immutable path; do not infer operator provenance"},
             {"rule": "explicit_operator_lineage", "effect": "classify from operator-bearing commits and primary records"},
-            {"rule": "mixed_lineage", "effect": "MIXED when native operators and imported/reference operators share the artifact"},
+            {"rule": "mixed_lineage", "effect": "MIXED only when imported structure enters the tested functional/action, variation, EOM, coupling, or load-bearing derivation"},
+            {"rule": "reference_only_readout", "effect": "retain native operator provenance and require explicit comparison_readout plus role=REFERENCE_ONLY"},
             {"rule": "insufficient_lineage", "effect": "OPEN; filename and dates may not promote or demote"},
             {"rule": "lifecycle", "effect": "classify independently from current controls/result status"},
             {"rule": "migration_safety", "effect": "evaluate dependencies and immutable constraints independently"},
@@ -338,6 +431,11 @@ def main() -> int:
             "current_path": "FROZEN/manifest-constrained artifacts unless separately authorized",
         },
         "forbidden_inference": "No prefix, including cascade_, may establish PRE_NATIVE or any destination.",
+        "readout_rule": "A standard-theory comparison/readout does not demote a native operator unless it feeds the tested action, variation, EOM, coupling, or load-bearing derivation.",
+        "required_reference_only_disclosure": {
+            "comparison_readout": "GR_EINSTEIN_TENSOR;MISNER_SHARP",
+            "role": "REFERENCE_ONLY",
+        },
     }
     (out / "CORRECTED_CLASSIFIER_RULES.json").write_text(
         json.dumps(rules, indent=2, sort_keys=True) + "\n", encoding="utf-8")
@@ -351,6 +449,10 @@ def main() -> int:
         "affected_cascade_rows": len(file_census), "affected_family_rows": len(summary),
         "affected_provenance_counts": dict(Counter(row["operator_provenance"] for row in file_census)),
         "affected_lifecycle_counts": dict(Counter(row["scientific_lifecycle"] for row in file_census)),
+        "candidate_reference_only_readout_rows": sum(row["role"] == "REFERENCE_ONLY" for row in candidate_rows),
+        "candidate_imported_action_or_coupling_rows": sum(row["imported_action_or_coupling"] != "NONE" for row in candidate_rows),
+        "affected_reference_only_readout_rows": sum(row["role"] == "REFERENCE_ONLY" for row in file_census),
+        "affected_imported_action_or_coupling_rows": sum(row["imported_action_or_coupling"] != "NONE" for row in file_census),
         "pre_native_candidate_rows": sum(row["operator_provenance"] == "PRE_NATIVE" for row in candidate_rows),
         "pre_native_affected_cascade_rows": sum(row["operator_provenance"] == "PRE_NATIVE" for row in file_census),
         "archive_pre_destination_rows": sum(row["corrected_destination_proposal"].startswith("archive/pre_2026-07-01/") for row in candidate_rows + file_census),

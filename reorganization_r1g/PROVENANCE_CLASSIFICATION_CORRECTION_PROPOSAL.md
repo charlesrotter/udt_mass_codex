@@ -8,13 +8,20 @@ In the fixed R1C builder, the branch beginning with
 `lower.startswith(("cascade_", ...))` returns `LEGACY_FROZEN` and
 `PRE_NATIVE_FAMILY+R0_HISTORICAL_EVIDENCE`. It runs without establishing the
 artifact's operator lineage. R1E then maps that legacy label to
-`archive/pre_2026-07-01/`. This conflates three independent questions.
+`archive/pre_2026-07-01/`. The initial R1G overlay then over-corrected three
+readout-bearing candidates and the five-file C12 family to `MIXED`. That second
+error treated a disclosed downstream GR comparison as though it altered the
+tested UDT operator. The corrected proposal separates five questions.
 
 1. **Operator provenance**: `PRE_NATIVE`, `NATIVE_2026-07-01`, `MIXED`, or
    `OPEN`, established from operator-bearing commits and primary records.
-2. **Scientific lifecycle**: `ACTIVE`, `SUPERSEDED`, `HISTORICAL`, or `FROZEN`,
+2. **Imported action or coupling**: whether imported/free structure enters the
+   tested functional, variation, EOM, coupling, or load-bearing derivation.
+3. **Comparison readout**: any standard-theory diagnostic calculated
+   downstream, preserved with an explicit role such as `REFERENCE_ONLY`.
+4. **Scientific lifecycle**: `ACTIVE`, `SUPERSEDED`, `HISTORICAL`, or `FROZEN`,
    established from the current controls and result status.
-3. **Path-migration safety**: a separate dependency, manifest, frozen-path,
+5. **Path-migration safety**: a separate dependency, manifest, frozen-path,
    collision, and pointer-closure decision.
 
 A historical artifact is not thereby pre-native. A post-July artifact is not
@@ -28,10 +35,15 @@ a provenance-specific archive.
 2. Classify operator provenance from explicit path/family lineage. A
    `PRE_NATIVE` ruling requires a path-history commit at or before the parent of
    `f766478`; a prefix is never evidence.
-3. Classify `MIXED` when native and imported/reference operators coexist.
-4. Classify insufficient evidence as `OPEN`.
-5. Determine lifecycle independently from current controls and result records.
-6. Determine migration safety independently from the complete dependency and
+3. Classify `MIXED` only when imported structure enters the tested functional,
+   variation, EOM, coupling, or load-bearing derivation.
+4. A standard-theory comparison/readout that has no feedback retains the
+   native operator classification and must disclose
+   `comparison_readout=GR_EINSTEIN_TENSOR;MISNER_SHARP` and
+   `role=REFERENCE_ONLY`.
+5. Classify insufficient operator evidence as `OPEN`.
+6. Determine lifecycle independently from current controls and result records.
+7. Determine migration safety independently from the complete dependency and
    immutability closure.
 
 The proposed machine rules are
@@ -64,7 +76,11 @@ The independent verifier rejects:
   fixture;
 - any `archive/pre_2026-07-01/` destination whose operator provenance is not
   proven `PRE_NATIVE`;
-- missing or duplicate adjudication rows.
+- missing or duplicate adjudication rows;
+- demoting a native operator because of reference-only GR readout;
+- deleting a required comparison-readout disclosure;
+- labeling an imported coupling inside the tested action/EOM as
+  `REFERENCE_ONLY`.
 
 These checks are exercised, not merely asserted, in
 [INDEPENDENT_VERIFY_RESULT.json](INDEPENDENT_VERIFY_RESULT.json).

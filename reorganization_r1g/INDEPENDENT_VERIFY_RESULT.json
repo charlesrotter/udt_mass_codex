@@ -1,14 +1,15 @@
 {
   "affected_cascade_rows": 121,
   "affected_family_rows": 15,
+  "affected_imported_action_or_coupling_rows": 0,
   "affected_introduction_dates": {
     "2026-07-02": 61,
     "2026-07-03": 60
   },
   "affected_operator_provenance": {
-    "MIXED": 5,
-    "NATIVE_2026-07-01": 116
+    "NATIVE_2026-07-01": 121
   },
+  "affected_reference_only_readout_rows": 5,
   "all_cascade_prefix_rows": 138,
   "artifact_moves_or_edits": 0,
   "b02_b03_authorized": false,
@@ -29,19 +30,24 @@
     ]
   },
   "boundary_parent": "78939836326cb822e22b2a72bfd8097365185aa6",
+  "candidate_imported_action_or_coupling_rows": 2,
   "candidate_lifecycle": {
     "HISTORICAL": 32
   },
   "candidate_operator_provenance": {
-    "MIXED": 5,
-    "NATIVE_2026-07-01": 26,
+    "MIXED": 2,
+    "NATIVE_2026-07-01": 29,
     "OPEN": 1
   },
+  "candidate_reference_only_readout_rows": 3,
   "catchproof": {
+    "deleted_readout_disclosure_rejected": "PASS",
     "duplicate_candidate_rejected": "PASS",
+    "imported_action_coupling_as_reference_only_rejected": "PASS",
     "missing_candidate_rejected": "PASS",
     "post_july_cascade_without_lineage_rejected": "PASS",
     "pre_native_destination_without_pre_native_provenance_rejected": "PASS",
+    "reference_only_gr_readout_demotion_rejected": "PASS",
     "removing_pre_native_lineage_evidence_rejected": "PASS"
   },
   "corrected_pre_2026_07_01_destinations": 0,
@@ -94,11 +100,13 @@
       "tracked_paths_byte_identical_to_base": 37
     }
   ],
-  "markdown_links_verified": 80,
+  "markdown_links_verified": 84,
   "mode": "R1G_INDEPENDENT_FAIL_CLOSED_PROVENANCE_VERIFY",
   "native_field_equation_boundary": "f7664786d1e2340262ea5aa22336cf0c2f8b0dfc",
   "preregistration_commit": "7078b4bed9c7e42f3de343874e3b667e3facac10",
   "r1c_prefix_bug_reproduced": true,
+  "readout_correction_audit_rows": 8,
+  "readout_correction_preregistration_commit": "5c2cd3ced72edbab97913ff8c8a6ff334a256f96",
   "result": "PASS",
   "test_baseline": {
     "baseline_match": true,
@@ -108,7 +116,7 @@
     "passed": 69,
     "python": "3.10.12",
     "returncode": 1,
-    "scope": "R1G_PROVENANCE_CLASSIFICATION_AUDIT",
+    "scope": "R1G_READOUT_PROVENANCE_CORRECTION",
     "xfailed": 1
   }
 }

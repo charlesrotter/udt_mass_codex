@@ -6,6 +6,6 @@
   "passed": 69,
   "python": "3.10.12",
   "returncode": 1,
-  "scope": "R1G_PROVENANCE_CLASSIFICATION_AUDIT",
+  "scope": "R1G_READOUT_PROVENANCE_CORRECTION",
   "xfailed": 1
 }

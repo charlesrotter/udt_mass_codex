@@ -24,6 +24,7 @@ from urllib.parse import unquote
 
 BASE = "8015342a81b2d27cc310dde95ab7f386c6441a77"
 PREREG = "7078b4bed9c7e42f3de343874e3b667e3facac10"
+CORRECTION_PREREG = "5c2cd3c"
 BOUNDARY = "f7664786d1e2340262ea5aa22336cf0c2f8b0dfc"
 BOUNDARY_PARENT = "78939836326cb822e22b2a72bfd8097365185aa6"
 PACKAGES = {
@@ -51,12 +52,18 @@ EXPECTED_FAMILIES = {
     "34d1b6b1c4469f1fccf77eb6a212fc90cc766ee2": 1,
     "6cb6e306c0549f14f775ac956ffde7cc119267c9": 2,
 }
-MIXED_CANDIDATES = {
+MIXED_CANDIDATES = {"phi_source_derivation.py", "homog_alpha_test.py"}
+READOUT_ONLY_CANDIDATES = {
     "cascade_bv16_cas.py",
     "cascade_or_energy_cas.py",
-    "phi_source_derivation.py",
-    "homog_alpha_test.py",
     "verify_universe_bv2_f_einstein.py",
+}
+C12_READOUT_FILES = {
+    "cascade_bv16_cas.py",
+    "cascade_bv16_rungs.py",
+    "cascade_or_energy_cas.py",
+    "cascade_or_energy_numeric.py",
+    "cascade_or_energy_rung1_and_alignment.py",
 }
 OPEN_CANDIDATES = {"verify_redshift_profile_derivation.py"}
 ALLOWED_PROVENANCE = {"PRE_NATIVE", "NATIVE_2026-07-01", "MIXED", "OPEN"}
@@ -141,6 +148,9 @@ def validate_provenance_row(repo: Path, row: dict[str, str]) -> None:
     evidence = row.get("operator_lineage_evidence", "")
     pre_commit = row.get("pre_native_lineage_commit", "")
     path = row.get("current_path", "")
+    imported = row.get("imported_action_or_coupling", "")
+    readout = row.get("comparison_readout", "")
+    role = row.get("role", "")
     if provenance not in ALLOWED_PROVENANCE:
         raise GateError("INVALID_PROVENANCE_LABEL", path)
     if lifecycle not in ALLOWED_LIFECYCLE:
@@ -149,6 +159,24 @@ def validate_provenance_row(repo: Path, row: dict[str, str]) -> None:
         raise GateError("INVALID_OWNER", path)
     if not row.get("migration_safety", ""):
         raise GateError("MISSING_MIGRATION_SAFETY", path)
+    if not imported or not readout or not role:
+        raise GateError("MISSING_SEPARATE_PROVENANCE_AXIS", path)
+    if role == "REFERENCE_ONLY":
+        if imported != "NONE":
+            raise GateError("IMPORTED_COUPLING_MISLABELED_REFERENCE_ONLY", path)
+        if readout == "NONE" or "COMPARISON_READOUT:" not in evidence or "ROLE:REFERENCE_ONLY" not in evidence:
+            raise GateError("READOUT_DISCLOSURE_MISSING", path)
+        if provenance != "NATIVE_2026-07-01":
+            raise GateError("REFERENCE_ONLY_READOUT_DEMOTED_NATIVE", path)
+    elif readout != "NONE":
+        raise GateError("READOUT_ROLE_MISSING", path)
+    if role == "ENTERS_TESTED_ACTION_AND_PHI_EOM":
+        if imported == "NONE":
+            raise GateError("IMPORTED_COUPLING_DISCLOSURE_MISSING", path)
+        if provenance != "MIXED":
+            raise GateError("IMPORTED_COUPLING_NOT_MIXED", path)
+    elif imported != "NONE":
+        raise GateError("IMPORTED_COUPLING_ROLE_MISSING", path)
     if provenance == "PRE_NATIVE":
         if not pre_commit or not evidence:
             raise GateError("PRE_NATIVE_EVIDENCE_MISSING", path)
@@ -189,6 +217,15 @@ def validate_candidate_table(repo: Path, table: list[dict[str, str]], expected: 
             raise GateError("LIFECYCLE_ADJUDICATION_MISMATCH", path)
         if row["r1e_destination"] != source["destination"]:
             raise GateError("R1E_DESTINATION_MISMATCH", path)
+        if path in READOUT_ONLY_CANDIDATES:
+            expected_axes = ("NONE", "GR_EINSTEIN_TENSOR;MISNER_SHARP", "REFERENCE_ONLY")
+        elif path in MIXED_CANDIDATES:
+            expected_axes = ("ALPHA_MINUS_2_GR_PHYSICAL_METRIC;NONZERO_ALPHA_FREE", "NONE", "ENTERS_TESTED_ACTION_AND_PHI_EOM")
+        else:
+            expected_axes = ("NONE", "NONE", "NONE")
+        actual_axes = (row["imported_action_or_coupling"], row["comparison_readout"], row["role"])
+        if actual_axes != expected_axes:
+            raise GateError("SEPARATE_PROVENANCE_AXIS_MISMATCH", path)
         validate_provenance_row(repo, row)
 
 
@@ -205,13 +242,73 @@ def validate_affected(repo: Path, table: list[dict[str, str]], expected_paths: s
         for field in ("introducing_commit", "introducing_commit_date", "last_commit", "last_commit_date"):
             if row[field] != record[field]:
                 raise GateError("HISTORY_MISMATCH", f"{path}:{field}")
-        expected_provenance = "MIXED" if row["introducing_commit"] == "5a82fbbd657402126c8f74af6b70bab92d02e274" else "NATIVE_2026-07-01"
-        if row["operator_provenance"] != expected_provenance:
+        if row["operator_provenance"] != "NATIVE_2026-07-01":
             raise GateError("PROVENANCE_ADJUDICATION_MISMATCH", path)
+        expected_axes = (("NONE", "GR_EINSTEIN_TENSOR;MISNER_SHARP", "REFERENCE_ONLY")
+                         if path in C12_READOUT_FILES else ("NONE", "NONE", "NONE"))
+        actual_axes = (row["imported_action_or_coupling"], row["comparison_readout"], row["role"])
+        if actual_axes != expected_axes:
+            raise GateError("SEPARATE_PROVENANCE_AXIS_MISMATCH", path)
         expected_lifecycle = "FROZEN" if row["introducing_commit"] == "34d1b6b1c4469f1fccf77eb6a212fc90cc766ee2" else "HISTORICAL"
         if row["scientific_lifecycle"] != expected_lifecycle:
             raise GateError("LIFECYCLE_ADJUDICATION_MISMATCH", path)
         validate_provenance_row(repo, row)
+
+
+def validate_readout_audit(repo: Path, table: list[dict[str, str]]) -> None:
+    expected = C12_READOUT_FILES | {"verify_universe_bv2_f_einstein.py"} | MIXED_CANDIDATES
+    paths = [row["current_path"] for row in table]
+    if len(table) != 8 or len(set(paths)) != 8 or set(paths) != expected:
+        raise GateError("READOUT_AUDIT_COVERAGE", f"rows={len(table)} unique={len(set(paths))}")
+    by_path = {row["current_path"]: row for row in table}
+    for path in C12_READOUT_FILES | {"verify_universe_bv2_f_einstein.py"}:
+        row = by_path[path]
+        if (row["imported_action_or_coupling"], row["comparison_readout"], row["role"], row["operator_provenance"]) != (
+            "NONE", "GR_EINSTEIN_TENSOR;MISNER_SHARP", "REFERENCE_ONLY", "NATIVE_2026-07-01"
+        ):
+            raise GateError("READOUT_AUDIT_RULING", path)
+    for path in MIXED_CANDIDATES:
+        row = by_path[path]
+        if row["comparison_readout"] != "NONE" or row["role"] != "ENTERS_TESTED_ACTION_AND_PHI_EOM" or row["operator_provenance"] != "MIXED":
+            raise GateError("ALPHA_COUPLING_AUDIT_RULING", path)
+
+    bv16 = (repo / "cascade_bv16_cas.py").read_text(encoding="utf-8")
+    bv16_native, bv16_readout = bv16.split("# ================= Y3(i): Einstein tensor from scratch, OFF-SHELL", 1)
+    if "L = L_geo - U" not in bv16_native or "EL_phi" not in bv16_native or "EL_rho" not in bv16_native:
+        raise GateError("NATIVE_ACTION_CHAIN_MISSING", "cascade_bv16_cas.py")
+    if "Gtt_mixed" in bv16_native or "Ric4" in bv16_native or "Gtt_mixed" not in bv16_readout:
+        raise GateError("GR_READOUT_FEEDBACK", "cascade_bv16_cas.py")
+
+    energy = (repo / "cascade_or_energy_cas.py").read_text(encoding="utf-8")
+    energy_native, energy_readout = energy.split("# ---------------------------------------------------------------- C10: OFF-SHELL Misner-Sharp identity via G^t_t", 1)
+    if "L = L_banked" not in energy_native or "EL_phi" not in energy_native or "EL_rho" not in energy_native:
+        raise GateError("NATIVE_ACTION_CHAIN_MISSING", "cascade_or_energy_cas.py")
+    if "Gtt_mix" in energy_native or "Ric4" in energy_native or "Gtt_mix" not in energy_readout:
+        raise GateError("GR_READOUT_FEEDBACK", "cascade_or_energy_cas.py")
+
+    verify = (repo / "verify_universe_bv2_f_einstein.py").read_text(encoding="utf-8")
+    if "# on-shell substitutions (native EOMs with source sigma)" not in verify:
+        raise GateError("NATIVE_ACTION_CHAIN_MISSING", "verify_universe_bv2_f_einstein.py")
+    native_block = verify.split("# on-shell substitutions (native EOMs with source sigma)", 1)[1].split("# (ii)", 1)[0]
+    if "phipp =" not in native_block or "rhopp =" not in native_block or "Gmix" in native_block:
+        raise GateError("GR_READOUT_FEEDBACK", "verify_universe_bv2_f_einstein.py")
+
+    for path, readout_marker in {
+        "cascade_bv16_rungs.py": "# MS mass",
+        "cascade_or_energy_numeric.py": "# Misner-Sharp route",
+        "cascade_or_energy_rung1_and_alignment.py": "m = 0.5 * rho",
+    }.items():
+        source = (repo / path).read_text(encoding="utf-8")
+        if "shoot(" not in source or readout_marker not in source or source.index("shoot(") > source.index(readout_marker):
+            raise GateError("GR_READOUT_FEEDBACK", path)
+
+    phi_source = (repo / "phi_source_derivation.py").read_text(encoding="utf-8")
+    required_phi = ["grr = sp.exp(alpha*phi)", "L2 =", "grr*Grr", "sp.diff(integrand, phi)", "alpha * xi * e^{alpha φ}"]
+    if not all(token in phi_source for token in required_phi):
+        raise GateError("IMPORTED_COUPLING_NOT_IN_ACTION", "phi_source_derivation.py")
+    homog = (repo / "homog_alpha_test.py").read_text(encoding="utf-8")
+    if "weight = alpha * sp.exp(alpha*phi) * rho**2" not in homog or "I_req = sp.simplify(R / weight)" not in homog:
+        raise GateError("IMPORTED_COUPLING_NOT_IN_ACTION", "homog_alpha_test.py")
 
 
 def validate_links(repo: Path) -> int:
@@ -270,6 +367,12 @@ def main() -> int:
     repo = args.repo.resolve()
     audit = repo / "reorganization_r1g"
 
+    correction_paths = [line for line in str(git(repo, "show", "--format=", "--name-only", CORRECTION_PREREG)).splitlines() if line]
+    if correction_paths != ["reorganization_r1g/R1G_READOUT_PROVENANCE_CORRECTION_PREREGISTRATION.md"]:
+        raise AssertionError("correction preregistration commit scope mismatch")
+    if git(repo, "merge-base", "--is-ancestor", CORRECTION_PREREG, "HEAD", check=False).returncode:
+        raise AssertionError("correction preregistration is not an ancestor of HEAD")
+
     if str(git(repo, "rev-parse", f"{BOUNDARY}^" )).strip() != BOUNDARY_PARENT:
         raise AssertionError("native-field-equation boundary parent mismatch")
     if git(repo, "merge-base", "--is-ancestor", BOUNDARY, BASE, check=False).returncode:
@@ -323,13 +426,15 @@ def main() -> int:
 
     candidate_table = rows(audit / "B02_B03_ADJUDICATION.tsv")
     affected_table = rows(audit / "AFFECTED_CASCADE_FILE_CENSUS.tsv")
+    readout_audit = rows(audit / "READOUT_PROVENANCE_CORRECTION_AUDIT.tsv")
     validate_candidate_table(repo, candidate_table, expected_candidates)
     validate_affected(repo, affected_table, expected_affected)
+    validate_readout_audit(repo, readout_audit)
     candidate_provenance = Counter(row["operator_provenance"] for row in candidate_table)
     affected_provenance = Counter(row["operator_provenance"] for row in affected_table)
-    if candidate_provenance != Counter({"NATIVE_2026-07-01": 26, "MIXED": 5, "OPEN": 1}):
+    if candidate_provenance != Counter({"NATIVE_2026-07-01": 29, "MIXED": 2, "OPEN": 1}):
         raise AssertionError(f"candidate provenance totals mismatch: {candidate_provenance}")
-    if affected_provenance != Counter({"NATIVE_2026-07-01": 116, "MIXED": 5}):
+    if affected_provenance != Counter({"NATIVE_2026-07-01": 121}):
         raise AssertionError(f"affected provenance totals mismatch: {affected_provenance}")
 
     summary = rows(audit / "AFFECTED_CASCADE_FAMILY_SUMMARY.tsv")
@@ -337,6 +442,19 @@ def main() -> int:
         raise AssertionError("family summary mismatch")
     if any(row["destination_root_proposal"].startswith("archive/pre_2026-07-01/") for row in summary):
         raise AssertionError("family summary retained invalid pre-native destination")
+    c12 = next(row for row in summary if row["family_id"] == "C12_ENERGY_ORIENTATION")
+    if (c12["operator_provenance"], c12["imported_action_or_coupling"], c12["comparison_readout"], c12["role"]) != (
+        "NATIVE_2026-07-01", "NONE", "GR_EINSTEIN_TENSOR;MISNER_SHARP", "REFERENCE_ONLY"
+    ):
+        raise AssertionError("C12 family readout/provenance separation mismatch")
+
+    rules = json.loads((audit / "CORRECTED_CLASSIFIER_RULES.json").read_text(encoding="utf-8"))
+    required_axes = {"operator_provenance", "imported_action_or_coupling", "comparison_readout", "scientific_lifecycle", "path_migration_safety"}
+    if set(rules["separate_axes"]) != required_axes:
+        raise AssertionError("corrected classifier axes mismatch")
+    rule_effects = {row["rule"]: row["effect"] for row in rules["rules_in_precedence_order"]}
+    if "MIXED only" not in rule_effects.get("mixed_lineage", "") or "REFERENCE_ONLY" not in rule_effects.get("reference_only_readout", ""):
+        raise AssertionError("corrected classifier readout rule mismatch")
 
     bad_post_july = copy.deepcopy(candidate_table[0])
     bad_post_july["operator_provenance"] = "PRE_NATIVE"
@@ -360,12 +478,26 @@ def main() -> int:
     missing_candidate = candidate_table[:-1]
     duplicate_candidate = copy.deepcopy(candidate_table)
     duplicate_candidate[-1]["current_path"] = duplicate_candidate[0]["current_path"]
+    readout_row = copy.deepcopy(next(row for row in candidate_table if row["current_path"] == "cascade_bv16_cas.py"))
+    demoted_readout = copy.deepcopy(readout_row)
+    demoted_readout["operator_provenance"] = "MIXED"
+    deleted_readout_disclosure = copy.deepcopy(readout_row)
+    deleted_readout_disclosure["comparison_readout"] = "NONE"
+    imported_as_reference = copy.deepcopy(next(row for row in candidate_table if row["current_path"] == "phi_source_derivation.py"))
+    imported_as_reference.update({
+        "operator_provenance": "NATIVE_2026-07-01",
+        "comparison_readout": "GR_EINSTEIN_TENSOR;MISNER_SHARP",
+        "role": "REFERENCE_ONLY",
+    })
     catchproof = {
         "post_july_cascade_without_lineage_rejected": expect("PRE_NATIVE_EVIDENCE_MISSING", lambda: validate_provenance_row(repo, bad_post_july)),
         "removing_pre_native_lineage_evidence_rejected": expect("PRE_NATIVE_EVIDENCE_MISSING", lambda: validate_provenance_row(repo, removed_evidence)),
         "pre_native_destination_without_pre_native_provenance_rejected": expect("INVALID_PRE_ARCHIVE_DESTINATION", lambda: validate_provenance_row(repo, native_pre_destination)),
         "missing_candidate_rejected": expect("CANDIDATE_COVERAGE", lambda: validate_candidate_table(repo, missing_candidate, expected_candidates)),
         "duplicate_candidate_rejected": expect("CANDIDATE_COVERAGE", lambda: validate_candidate_table(repo, duplicate_candidate, expected_candidates)),
+        "reference_only_gr_readout_demotion_rejected": expect("REFERENCE_ONLY_READOUT_DEMOTED_NATIVE", lambda: validate_provenance_row(repo, demoted_readout)),
+        "deleted_readout_disclosure_rejected": expect("READOUT_DISCLOSURE_MISSING", lambda: validate_provenance_row(repo, deleted_readout_disclosure)),
+        "imported_action_coupling_as_reference_only_rejected": expect("IMPORTED_COUPLING_MISLABELED_REFERENCE_ONLY", lambda: validate_provenance_row(repo, imported_as_reference)),
     }
 
     outside_diff = str(git(repo, "diff", "--name-only", BASE, "--", ".", ":(exclude)reorganization_r1g"))
@@ -425,6 +557,7 @@ def main() -> int:
         "mode": "R1G_INDEPENDENT_FAIL_CLOSED_PROVENANCE_VERIFY",
         "base": BASE,
         "preregistration_commit": PREREG,
+        "readout_correction_preregistration_commit": str(git(repo, "rev-parse", CORRECTION_PREREG)).strip(),
         "native_field_equation_boundary": BOUNDARY,
         "boundary_parent": BOUNDARY_PARENT,
         "r1c_prefix_bug_reproduced": True,
@@ -437,7 +570,12 @@ def main() -> int:
         "batch_counts": dict(Counter(row["batch_id"] for row in candidate_table)),
         "batch_introduction_ranges": {"B02": [min(b02_dates), max(b02_dates)], "B03": [min(b03_dates), max(b03_dates)]},
         "candidate_operator_provenance": dict(candidate_provenance),
+        "candidate_reference_only_readout_rows": sum(row["role"] == "REFERENCE_ONLY" for row in candidate_table),
+        "candidate_imported_action_or_coupling_rows": sum(row["imported_action_or_coupling"] != "NONE" for row in candidate_table),
         "candidate_lifecycle": dict(Counter(row["scientific_lifecycle"] for row in candidate_table)),
+        "affected_reference_only_readout_rows": sum(row["role"] == "REFERENCE_ONLY" for row in affected_table),
+        "affected_imported_action_or_coupling_rows": sum(row["imported_action_or_coupling"] != "NONE" for row in affected_table),
+        "readout_correction_audit_rows": len(readout_audit),
         "corrected_pre_2026_07_01_destinations": sum(row["corrected_destination_proposal"].startswith("archive/pre_2026-07-01/") for row in candidate_table),
         "catchproof": catchproof,
         "markdown_links_verified": links,
