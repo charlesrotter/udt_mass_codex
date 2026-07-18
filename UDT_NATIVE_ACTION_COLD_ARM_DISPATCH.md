@@ -10,6 +10,12 @@ frozen Stage-I taxonomy. Do not infer information beyond the supplied premises o
 or silently reorder these statements. Determine what additional action, coupling, boundary, scale,
 carrier, and charge structure follows—and what remains free.
 
+**Owner launch rulings:** use H2: positional dilation remains founding, while Reciprocal-c, dual UDT
+Reciprocity, composition, and the stated regularity premises place the reciprocal exponential
+functional form downstream. Nontriviality is **OBSERVED** in the realized universe; the trivial
+`phi=0` configuration remains mathematically allowed. Use proper total density `rho_tot` and the
+dimensionless fractional width `Delta rho/rho_*`; any separately normalized density remains **OPEN**.
+
 ## 0. ISOLATION CONTRACT
 
 - You are one of two independent cold derivation arms. Do not seek or infer the other arm's work.
@@ -77,19 +83,21 @@ map is the deliverable. Agreement with or departure from a standard theory is no
 12. A uniqueness claim must survive a countermodel attempt: construct a distinct local/nonlocal,
     measure, boundary, derivative-order, or carrier-completion branch whenever the frozen premises
     allow one. One valid alternative defeats UNIQUE/FORCED.
-13. Keep the owner rulings distinct: positional dilation is not demoted by a structural derivation of
-    its reciprocal functional form; common scale is calibrational; and $S^2$ is reopened. Universal
+13. Keep the owner rulings distinct: under H2, positional dilation is not demoted by a structural
+    derivation of its reciprocal functional form; nontriviality is OBSERVED while `phi=0` remains a
+    mathematical configuration; common scale is calibrational; and $S^2$ is reopened. Universal
     unattainable $X_{max}$ is a WORKING / POSIT with origin/value OPEN. The owner lead and derivation
     target $X_{max}=F(c,M_{\rm total},G)$ is not derived: primitive-versus-global origin, functional
     form, normalization, and value remain OPEN, and dimensional compatibility supplies none of them.
-    The WORKING global-bootstrap/extremely-narrow-density principle (qualitatively, relative width
-    $\ll 1$) supplies neither a window center, width, density number, nor a fitted local coupling.
+    The WORKING global-bootstrap/extremely-narrow-density principle uses proper total density
+    $\rho_{\rm tot}$ and fractional width $\Delta\rho/\rho_*$; it supplies neither a window center,
+    width, density number, separate normalization, nor a fitted local coupling.
 
 ## 3. REQUIRED OUTPUTS
 
 - **D0 — provenance:** model/session identifier, SHA-256 of this dispatch and the cold packet,
   exposure declaration, and completion timestamp.
-- **D1 — MAP:** whole frame, complete premise ledger, explicit founding-hierarchy wording fork,
+- **D1 — MAP:** whole frame, complete premise ledger, explicit H2 founding-hierarchy ruling,
   independent fields, variation domain/order, carrier census, global-scale/bootstrap status, and
   fork map before derivation.
 - **D2 — derivation:** every step marked FORCED-BY(citation) or CHOSEN(alternatives retained); exact

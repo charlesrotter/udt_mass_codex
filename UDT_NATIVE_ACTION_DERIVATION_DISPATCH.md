@@ -12,8 +12,8 @@ conditional where stamped; this packet advances no mass, action, or carrier conc
 `UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md` §3; older imported “candidate” wording remains
 visible as derivation-time provenance.
 
-**Status: SYNCHRONIZED DRAFT. ARMS NOT LAUNCHED. Charles reviews the PROCESS and founding hierarchy
-before dispatch.**
+**Status: STAGE I AUTHORIZED BY CHARLES. Launch Arm A and Arm B only. Arm C, Stage II, and GPU work
+remain NOT AUTHORIZED.**
 
 ---
 
@@ -130,8 +130,10 @@ The entire admissible foundation is `UDT_NATIVE_ACTION_COLD_PACKET.md`. In parti
   determinant-one comparison structure but does not select an action;
 - Common-Scale Neutrality is owner-locked founding content: common local scale is calibration, not
   pre-material physics;
-- the exact hierarchy wording between founding dilation and the reciprocal-c structural derivation
-  remains an explicit fork for Charles wherever it affects a conclusion;
+- Charles ruled **H2**: positional dilation remains founding, while Reciprocal-c, dual UDT
+  Reciprocity, composition, and the stated regularity premises place the reciprocal exponential
+  functional form downstream. The local Lorentzian readout and representative choice retain their
+  explicit non-derived statuses;
 - the reciprocal clock/gradient-direction metric relation and finite-cell canon are available with
   their stated scope and named conditional slot identification;
 - the $S^2$ carrier is a historical working posit now reopened; its flat-static $E_2+E_4$ functional
@@ -278,5 +280,6 @@ addenda.
 
 ---
 *Reconciled 2026-07-17 with the later Reciprocal-c, Common-Scale Neutrality, carrier-status,
-unattainable-scale, and global-bootstrap owner records. Charles reviews §0 (process), §1 (question
-framing), the founding-hierarchy fork, C0, and C1 before any arm is launched.*
+unattainable-scale, and global-bootstrap owner records. Charles reviewed §0, §1, C0, and C1; ruled
+H2, OBSERVED nontriviality with the trivial mathematical configuration retained, and proper total
+density with fractional width; and authorized Stage I on 2026-07-17.*

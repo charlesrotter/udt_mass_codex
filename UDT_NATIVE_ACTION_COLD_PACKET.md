@@ -21,9 +21,8 @@ premises are used. They remain **POSIT**—provenance: positional relativity—u
 1. **difference:** comparisons depend on relative positional depth rather than an absolute seat;
 2. **composition:** comparisons compose consistently through an intermediate position;
 3. **reversal:** reversing a comparison gives its inverse;
-4. **nontriviality:** status **OBSERVED** or separate **POSIT**; it is not derived from composition. The trivial
-   representation remains a solution of composition and duality alone, but whether it is physically
-   admissible under the owner-stated founding principle is an explicit framing fork for Charles.
+4. **nontriviality:** **OBSERVED** in the realized universe, which has nonzero dilation; it is not
+   derived from composition. The trivial `phi=0` representation remains mathematically allowed.
 
 ### 1.2 Reciprocal-c Identity and UDT Reciprocity
 
@@ -81,18 +80,13 @@ No primitive local meter, second, mass scale, or gravitational normalization is 
 Dimensionful scales—including any normalization later identified as `G`—must emerge from solution,
 boundary, global-closure, or matter data.
 
-### 1.4 Explicit founding-hierarchy fork
+### 1.4 Owner-ruled founding hierarchy — H2
 
-Two wordings remain live and must not be silently collapsed:
-
-- **FORK H1 — cofoundational reading:** positional dilation is the owner-stated founding principle;
-  Reciprocal-c Identity and UDT Reciprocity are cofoundational structure that constrain how it acts.
-- **FORK H2 — structural-downstream reading:** positional dilation remains founding, while the
-  reciprocal-c derivation puts the *functional reciprocal metric form* downstream of the conversion
-  identity, duality, and composition premises.
-
-Neither wording permits demoting positional dilation to an accidental inference. If an action result
-depends on choosing H1 or H2, retain both and return the framing choice to Charles.
+**H2:** positional dilation remains the owner-stated founding principle. Reciprocal-c Identity, dual
+UDT Reciprocity, composition, and the explicit regularity premise put the *reciprocal exponential
+functional form* downstream. The local Lorentzian readout, Common-Scale representative, sign/unit of
+`phi`, and any slot identification retain their separately ledgered non-derived statuses. No result
+may use H2 to demote positional dilation or to claim that Reciprocal-c alone derives the metric.
 
 ## 2. DERIVED KINEMATIC CONTENT — AND ITS LIMIT
 
@@ -222,10 +216,9 @@ density—qualitatively, relative width $\ll 1$—with no center, width, or dens
 - Recycling among ledger sectors is redistribution and does not change total density when total mass
   and proper volume are fixed.
 - No density value or numerical width is supplied. Its center and width must emerge.
-- The owner record's phrase “dimensionless total densities” supplies no nondimensionalizing scale.
-  Stage I therefore treats the window variable as total density and only the relative width
-  `width/center` as dimensionless. A separately normalized density variable is an explicit **OPEN**
-  wording fork for Charles; do not invent its scale.
+- Use proper total density $\rho_{\rm tot}$ and the dimensionless fractional width
+  $\Delta\rho/\rho_*\ll1$. No separate nondimensionalizing scale is supplied or to be invented; a
+  separately normalized density variable remains **OPEN**.
 - No global average may be inserted directly into a local action as a fitted coupling, hard cutoff,
   or effective correction.
 - The primary reading constrains complete matter-bearing global solutions. The stronger claim that
@@ -238,7 +231,7 @@ carrier.
 
 Before deriving, each arm must list at least:
 
-- which founding-hierarchy fork it uses and whether the result depends on that wording;
+- how the H2 founding-hierarchy ruling enters and whether any result depends on that wording;
 - independent fields and the full off-shell configuration space;
 - how reciprocal kinematics and common-scale equivalence enter the variation domain;
 - locality, derivative order, covariance, foliation, parity, and time-reversal premises;
