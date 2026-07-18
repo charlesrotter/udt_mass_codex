@@ -1,0 +1,23 @@
+Signature convention: (-,+,+,+)
+ADM convention: ds^2 = -N^2 dt^2 + h_ij dx^i dx^j, zero shift for the static audit
+Ordered-index convention: F_{mu nu} F^{mu nu} sums over all ordered pairs
+
+F_{mu nu} F^{mu nu}: Bm - 2*E0/N**2
+Corrected covariant L_rel density: sqrt_h*(2*Dt2*xi + 2*E0*kappa4 - N**2*(Bm*kappa4 + 2*Xs*xi))/(4*N)
+Corrected covariant L_rel density on a static slice: -N*sqrt_h*(Bm*kappa4 + 2*Xs*xi)/4
+Expected static density for positive E2+E4: -N*sqrt_h*(Bm*kappa4 + 2*Xs*xi)/4
+Static-match check: True
+
+Stage-I illustrative S_rel static density as written: N*sqrt_h*(Bm*kappa4 + 2*Xs*xi)/4
+Stage-I S_rel static sign matches expected: False
+
+Stage-I sign pattern difference with mapping alpha=beta=xi, gamma=-kappa4, delta=kappa4: 0
+Corrected sign pattern difference with mapping alpha=beta=gamma=delta as xi,kappa4: 0
+
+Stage-I illustrative S_fol static density: -N*sqrt_h*(Bm*delta + 2*Xs*beta)/4
+Stage-I S_fol static density matches expected with beta=xi, delta=kappa4: True
+
+Load-bearing conclusions:
+1. With (-,+,+,+), the covariant carrier action needs the overall minus sign to reduce to -N sqrt(h) (E2+E4) on a static slice.
+2. Using the Stage-I S_fol sign pattern, the off-static electric term matches the corrected covariant action only if gamma = -kappa4.
+3. If one wants gamma = +kappa4, the foliation action must use +gamma/(2N^2) h^{ij} F_{0i} F_{0j}, not the Stage-I minus sign.

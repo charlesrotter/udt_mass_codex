@@ -1,0 +1,10 @@
+L = -a*Derivative(f(x), x)**4/4
+dL/d(phi') = -a*Derivative(f(x), x)**3
+Euler-Lagrange coefficient dL/dphi-d_x(dL/dphi') =
+              2  2       
+    ⎛d       ⎞  d        
+3⋅a⋅⎜──(f(x))⎟ ⋅───(f(x))
+    ⎝dx      ⎠    2      
+                dx       
+Expected a*d_x((phi')^3), difference = 0
+Boundary coefficient from integration by parts is dL/d(phi') = -a*Derivative(f(x), x)**3

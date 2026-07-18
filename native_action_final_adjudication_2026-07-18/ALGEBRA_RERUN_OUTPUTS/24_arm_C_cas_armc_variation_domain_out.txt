@@ -1,0 +1,11 @@
+PASS restrict-then-vary gives tangent projection Ex-Ey
+PASS a separate normal equation remains
+PASS multiplier elimination gives Ex-Ey=0
+PASS tangent-stationary witness is not full-stationary
+PASS multiplier can solve witness equations
+PASS normal equation can vanish while original equation does not
+FULL_EULER a*x + c*y b*y + c*x
+TANGENT_EULER a*x + b*x - 2*c*x
+NORMAL_EULER_ON_CONSTRAINT x*(a - b)
+LIMIT: finite chain-rule model only; continuum/gauge/boundary equivalence is not certified
+PASS SUMMARY 6/6 checks

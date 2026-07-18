@@ -1,0 +1,4 @@
+PASS generic position-weight chain rule
+PASS constant-weight constrained variation is directional
+PASS chosen weights change the source coefficients
+LIMIT: algebra does not select weights or certify a physical source law

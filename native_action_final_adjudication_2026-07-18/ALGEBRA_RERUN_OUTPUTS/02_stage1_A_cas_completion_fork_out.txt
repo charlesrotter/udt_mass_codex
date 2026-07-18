@@ -1,0 +1,5 @@
+General flat-foliation L = -Di2*xi/2 + Dt2*a2/2 - Fij2*kappa/4 + Fti2*a4/2
+Static L = -Di2*xi/2 - Fij2*kappa/4
+Static L + supplied E = 0
+d(static L)/d(a2) = 0
+d(static L)/d(a4) = 0

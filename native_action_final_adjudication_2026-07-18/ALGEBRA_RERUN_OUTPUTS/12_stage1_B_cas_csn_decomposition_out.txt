@@ -1,0 +1,5 @@
+diag(u,v) - sqrt(uv) * diag(exp(-phi), exp(phi)) =
+Matrix([[0, 0], [0, 0]])
+
+determinant of reciprocal factor =
+1

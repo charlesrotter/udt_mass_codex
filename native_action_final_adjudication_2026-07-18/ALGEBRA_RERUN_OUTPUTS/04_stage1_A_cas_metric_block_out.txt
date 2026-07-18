@@ -1,0 +1,18 @@
+g2 =
+⎡  2  -2⋅φ      ⎤
+⎢-c ⋅ℯ       0  ⎥
+⎢               ⎥
+⎢            2⋅φ⎥
+⎣    0      ℯ   ⎦
+g2 inverse =
+⎡  2⋅φ        ⎤
+⎢-ℯ           ⎥
+⎢──────    0  ⎥
+⎢   2         ⎥
+⎢  c          ⎥
+⎢             ⎥
+⎢         -2⋅φ⎥
+⎣  0     ℯ    ⎦
+(-g_tt/c^2)*g_rr = 1
+det(g2) = -c**2
+N*sqrt(det h) (positive angular chart) = r**2*Abs(sin(theta))

@@ -1,0 +1,10 @@
+started_utc=2026-07-18T13:12:26.157396+00:00
+completed_utc=2026-07-18T13:12:31.370737+00:00
+python=3.10.12
+execution=CPU_ONLY
+gpu_exposed_to_child_scripts=NO
+package_manifests=PASS_5_OF_5
+source_anchors=PASS_6_OF_6
+algebra_scripts=PASS_24_OF_24
+stdout_reproduction=BYTE_EXACT_24_OF_24
+certification_limit=ENCODED_ALGEBRA_ONLY

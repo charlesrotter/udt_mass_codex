@@ -1,0 +1,17 @@
+P.T*K*P =
+⎡ 0   u⋅v⎤
+⎢        ⎥
+⎣u⋅v   0 ⎦
+P.T*K*P-K =
+⎡   0     u⋅v - 1⎤
+⎢                ⎥
+⎣u⋅v - 1     0   ⎦
+Solutions of uv=1 for v: [1/u]
+P(a)P(b)-P(a+b) =
+⎡0  0⎤
+⎢    ⎥
+⎣0  0⎦
+P(a).T*K*P(a)-K =
+⎡0  0⎤
+⎢    ⎥
+⎣0  0⎦

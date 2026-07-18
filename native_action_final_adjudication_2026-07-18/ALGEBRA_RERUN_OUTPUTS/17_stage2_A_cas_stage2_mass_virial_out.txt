@@ -1,0 +1,4 @@
+PASS finite-domain identity: M0 = E_carrier + B_boundary + W_res
+PASS exact critical point leaves the boundary contribution
+PASS separately premised zero-boundary/zero-residual closure
+LIMIT: algebra does not prove EH sourcing, a surface theorem, or a limit

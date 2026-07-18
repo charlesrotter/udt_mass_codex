@@ -1,0 +1,4 @@
+e^(-2 eps f) through eps^2 = 1 - 2*eps*f + 2*eps**2*f**2 + O(eps**3)
+e^(+2 eps f) through eps^2 = 1 + 2*eps*f + 2*eps**2*f**2 + O(eps**3)
+Product of O(eps^2) truncations through eps^4 = 4*eps**4*f**4 + 1
+Product through retained O(eps^2) = 1 + O(eps**3)

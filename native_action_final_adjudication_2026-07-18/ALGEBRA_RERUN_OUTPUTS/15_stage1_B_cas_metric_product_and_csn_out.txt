@@ -1,0 +1,5 @@
+Representative product (-g_tt/c^2) * g_pp =
+1
+
+After common rescaling, (-g_tt/c^2) * g_pp =
+Omega**4

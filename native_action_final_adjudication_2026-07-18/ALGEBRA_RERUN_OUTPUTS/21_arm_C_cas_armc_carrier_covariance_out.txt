@@ -1,0 +1,14 @@
+PASS corrected covariant action reduces to minus positive static E2+E4
+PASS covariant/foliation mapping is a2=xi and a4=kappa4
+PASS time coefficients disappear from static restriction
+PASS unrestricted metric identity rho+S=2rho4
+PASS reciprocal tangent identity is directional
+PASS directional and traced sources are generically unequal
+PASS chosen carrier weights change every source coefficient
+PASS carrier L2 and L4 have different CSN weights
+F_MUNU_FMUNU B - 2*E0/N**2
+SOURCE_TRACED kappa4*(f12**2 + f13**2 + f23**2)
+SOURCE_DIRECTIONAL f12**2*kappa4 + f13**2*kappa4 + xi*xpar
+SOURCE_DIFFERENCE -f23**2*kappa4 + xi*xpar
+LIMIT: encoded algebra does not select covariance, weights, variation domain, or mass
+PASS SUMMARY 8/8 checks
