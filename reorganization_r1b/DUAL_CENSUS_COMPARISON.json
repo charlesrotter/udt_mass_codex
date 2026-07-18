@@ -1,0 +1,35 @@
+{
+  "base_full_forensic_edges": 20807,
+  "base_operational_edges": 14829,
+  "base_selection_commit": "4b226472c8f7c22dfcdd2c328a109e92d1df5abd",
+  "forensic_map_sha256": "2f56b5afb76103f5df0af274678bf89bbe08c2b700321acd23ae9036f170adfc",
+  "full_and_operational_counts_kept_separate": true,
+  "generated_audit_records_influence_selection": false,
+  "mode": "R1B_DUAL_DEPENDENCY_CENSUS_COMPARISON",
+  "moved_files": 2,
+  "operational_map_sha256": "685146d3da193f52ac0dc52f533697fa5f94daa564b850c3645b46119d9a2d03",
+  "postmove_commit": "49814eb5e12928edb443fca73e69cab2af2e76dc",
+  "postmove_full_forensic_category_counts": {
+    "FILE_PATH": 1529,
+    "MANIFEST": 1135,
+    "MARKDOWN_LINK": 364,
+    "PYTHON_IMPORT": 6780,
+    "STARTUP": 399,
+    "TEST": 161,
+    "TEXT_REFERENCE": 15102
+  },
+  "postmove_full_forensic_edges": 25470,
+  "postmove_historical_reorganization_edges_excluded": 10643,
+  "postmove_operational_category_counts": {
+    "FILE_PATH": 1404,
+    "MANIFEST": 1135,
+    "MARKDOWN_LINK": 329,
+    "PYTHON_IMPORT": 6582,
+    "STARTUP": 399,
+    "TEST": 161,
+    "TEXT_REFERENCE": 4817
+  },
+  "postmove_operational_edges": 14827,
+  "result": "PASS",
+  "stale_non_frozen_operational_pointers": 0
+}

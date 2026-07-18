@@ -1,0 +1,70 @@
+{
+  "authorized_final_additions": 14,
+  "base": "4b226472c8f7c22dfcdd2c328a109e92d1df5abd",
+  "candidate_rows": 99,
+  "classification_counts": {
+    "ACTIVE_CROSS_ERA": 17,
+    "ARCHIVE_ELIGIBLE": 2,
+    "BLOCKED": 8,
+    "HARD_FROZEN": 58,
+    "HISTORICAL_SNAPSHOT": 2,
+    "PERMANENT_ROOT": 10,
+    "SOFT_EVIDENCE_PATH_ONLY": 2
+  },
+  "dirty_content_policy": "NOT_READ",
+  "dirty_workstation_rows_metadata_only": 54,
+  "exact_path_substitutions": 1,
+  "excluded_historical_reorganization_edges": 10643,
+  "frozen_manifest_replays": [
+    {
+      "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+      "package": "native_action_stage1_2026-07-18/arm_A",
+      "replay": "PASS"
+    },
+    {
+      "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+      "package": "native_action_stage1_2026-07-18/arm_B",
+      "replay": "PASS"
+    },
+    {
+      "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+      "package": "native_action_stage2_2026-07-18/arm_A",
+      "replay": "PASS"
+    },
+    {
+      "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+      "package": "native_action_stage2_2026-07-18/arm_B",
+      "replay": "PASS"
+    },
+    {
+      "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+      "package": "native_action_arm_c_2026-07-18",
+      "replay": "PASS"
+    },
+    {
+      "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+      "package": "native_action_final_adjudication_2026-07-18",
+      "replay": "PASS"
+    }
+  ],
+  "generated_audit_records_influence_selection": false,
+  "migration_commit": "49814eb5e12928edb443fca73e69cab2af2e76dc",
+  "moved_files": 2,
+  "mutation_base": "7f8fd38440cc42fc0467b84a0e1b351219e83e37",
+  "postmove_full_forensic_edges": 25470,
+  "postmove_operational_edges": 14827,
+  "r100_renames": 2,
+  "result": "PASS",
+  "stale_non_frozen_operational_pointers": 0,
+  "test_baseline": {
+    "baseline_match": true,
+    "command": "python3 -m pytest tests/",
+    "expected_failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "failed": 1,
+    "passed": 69,
+    "python": "3.10.12",
+    "returncode": 1,
+    "scope": "R1B_FINAL_POST_CENSUS",
+    "xfailed": 1
+  }
+}

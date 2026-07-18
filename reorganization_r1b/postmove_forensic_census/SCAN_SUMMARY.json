@@ -1,0 +1,104 @@
+{
+  "base_commit": "49814eb5e12928edb443fca73e69cab2af2e76dc",
+  "base_root_file_count": 1114,
+  "base_tree_entries": 3445,
+  "base_tree_path_oid_sha256": "bebb805374c9065f4f6f75a76050d4a94a7104fab54dad63bf941b584ef1ff36",
+  "classification_counts": {
+    "ACTIVE": 188,
+    "ARCHIVE_CANDIDATE": 9,
+    "CONTROL": 18,
+    "FROZEN_EVIDENCE": 466,
+    "MOVE_CANDIDATE": 429,
+    "UNKNOWN/BLOCKED": 4
+  },
+  "date": "2026-07-18",
+  "dependency_categories": [
+    "FILE_PATH",
+    "MANIFEST",
+    "MARKDOWN_LINK",
+    "PYTHON_IMPORT",
+    "STARTUP",
+    "TEST",
+    "TEXT_REFERENCE"
+  ],
+  "dependency_category_counts": {
+    "FILE_PATH": 1529,
+    "MANIFEST": 1135,
+    "MARKDOWN_LINK": 364,
+    "PYTHON_IMPORT": 6780,
+    "STARTUP": 399,
+    "TEST": 161,
+    "TEXT_REFERENCE": 15102
+  },
+  "dependency_edge_count": 25470,
+  "dependency_status_counts": {
+    "ABSOLUTE_EXTERNAL": 409,
+    "AMBIGUOUS_BASENAME": 82,
+    "DYNAMIC": 1109,
+    "DYNAMIC_OR_GLOB": 40,
+    "EXTERNAL": 1,
+    "EXTERNAL_OR_STDLIB": 6226,
+    "MISSING_OR_GENERATED": 331,
+    "RESOLVED_ANCHOR": 1,
+    "RESOLVED_BY_BASENAME": 498,
+    "RESOLVED_DIRECTORY": 36,
+    "RESOLVED_INTERNAL": 618,
+    "RESOLVED_TRACKED": 16119
+  },
+  "dirty_content_policy": "NOT_READ; git status plus lstat only",
+  "dirty_workstation_checkout": "/home/udt-admin/udt_mass_codex",
+  "dirty_workstation_rows": 54,
+  "frozen_packages": [
+    {
+      "internal_manifest": "PASS",
+      "label": "stage1_A",
+      "manifest_entries": 29,
+      "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+      "package": "native_action_stage1_2026-07-18/arm_A"
+    },
+    {
+      "internal_manifest": "PASS",
+      "label": "stage1_B",
+      "manifest_entries": 15,
+      "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+      "package": "native_action_stage1_2026-07-18/arm_B"
+    },
+    {
+      "internal_manifest": "PASS",
+      "label": "stage2_A",
+      "manifest_entries": 13,
+      "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+      "package": "native_action_stage2_2026-07-18/arm_A"
+    },
+    {
+      "internal_manifest": "PASS",
+      "label": "stage2_B",
+      "manifest_entries": 13,
+      "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+      "package": "native_action_stage2_2026-07-18/arm_B"
+    },
+    {
+      "internal_manifest": "PASS",
+      "label": "arm_C",
+      "manifest_entries": 21,
+      "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+      "package": "native_action_arm_c_2026-07-18"
+    },
+    {
+      "internal_manifest": "PASS",
+      "label": "final_adjudication",
+      "manifest_entries": 36,
+      "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+      "package": "native_action_final_adjudication_2026-07-18"
+    }
+  ],
+  "limitations": [
+    "dynamic runtime path values are surfaced but not guessed",
+    "static imports do not prove runtime execution",
+    "classification is an R0 proposal, not move authorization",
+    "R0-generated files are outside the self-referential base census"
+  ],
+  "result": "GENERATED",
+  "root_inventory_rows": 1114,
+  "scope": "base-snapshot tracked root files plus static dependency edges"
+}

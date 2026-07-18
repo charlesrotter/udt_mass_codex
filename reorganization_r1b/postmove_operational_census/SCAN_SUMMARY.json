@@ -1,0 +1,40 @@
+{
+  "base_commit": "49814eb5e12928edb443fca73e69cab2af2e76dc",
+  "dependency_category_counts": {
+    "FILE_PATH": 1404,
+    "MANIFEST": 1135,
+    "MARKDOWN_LINK": 329,
+    "PYTHON_IMPORT": 6582,
+    "STARTUP": 399,
+    "TEST": 161,
+    "TEXT_REFERENCE": 4817
+  },
+  "dependency_edge_count": 14827,
+  "dependency_status_counts": {
+    "ABSOLUTE_EXTERNAL": 409,
+    "AMBIGUOUS_BASENAME": 82,
+    "DYNAMIC": 1000,
+    "DYNAMIC_OR_GLOB": 40,
+    "EXTERNAL": 1,
+    "EXTERNAL_OR_STDLIB": 6028,
+    "MISSING_OR_GENERATED": 316,
+    "RESOLVED_ANCHOR": 1,
+    "RESOLVED_BY_BASENAME": 498,
+    "RESOLVED_DIRECTORY": 34,
+    "RESOLVED_INTERNAL": 618,
+    "RESOLVED_TRACKED": 5800
+  },
+  "excluded_historical_edge_count": 10643,
+  "excluded_historical_source_count": 82,
+  "exclusion_prefixes": [
+    "reorganization_r0/",
+    "reorganization_r1a/",
+    "reorganization_r1b/"
+  ],
+  "generated_audit_records_influence_selection": false,
+  "mode": "R1B_POSTMOVE_OPERATIONAL_DEPENDENCY_CENSUS",
+  "operational_map_sha256": "685146d3da193f52ac0dc52f533697fa5f94daa564b850c3645b46119d9a2d03",
+  "result": "PASS",
+  "selection_was_frozen_before_adjudication_and_mutation": true,
+  "source_count": 2709
+}
