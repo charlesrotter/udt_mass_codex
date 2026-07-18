@@ -1,0 +1,10 @@
+{
+  "base": "204f3637f134811f05df12aa7494ef41289ee3b4",
+  "candidate_count": 13,
+  "candidate_paths_sha256": "13daae3be432640b46c11771d365e23d8dbd25c29857aa8c91d9fc3194af3f9b",
+  "frozen_input_hashes": "PASS",
+  "research_artifact_moves_renames_copies_deletes": 0,
+  "result": "PASS",
+  "selector_audit_paths_confirmed_immutable": "PASS",
+  "selector_audit_paths_excluded": "PASS"
+}

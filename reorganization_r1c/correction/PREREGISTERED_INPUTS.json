@@ -1,0 +1,20 @@
+{
+  "base": "204f3637f134811f05df12aa7494ef41289ee3b4",
+  "candidate_count": 13,
+  "candidate_rule": "primary_owner in active research lanes AND migration_readiness == MOVE_READY",
+  "generated_records_excluded_from_selection": true,
+  "inputs": {
+    "reorganization_r1b/postmove_forensic_census/DEPENDENCY_MAP.tsv": "2f56b5afb76103f5df0af274678bf89bbe08c2b700321acd23ae9036f170adfc",
+    "reorganization_r1b/postmove_forensic_census/DIRTY_WORKSTATION_INVENTORY.tsv": "9c4f6d9a3734c121c4960fd04d41d9f898f1ec16370775dfb41b9a5c872dcd1f",
+    "reorganization_r1b/postmove_operational_census/DEPENDENCY_MAP.tsv": "685146d3da193f52ac0dc52f533697fa5f94daa564b850c3645b46119d9a2d03",
+    "research/_registry/CURRENT_FRONTIER_TARGETS.tsv": "5ad9408676d788063165d5b41d6e4002d81f157c2b2a22a5dd23714740d2ec61",
+    "research/_registry/MIGRATION_READINESS.tsv": "4fbdb4e71aae4caf18df9142e7ab822bb5b348b3b364b72e97707679bd244062",
+    "research/_registry/ROOT_OWNERSHIP.tsv": "4e8a4e82d4698f24dea7510932a919773267dfad3ad4033999e195044a056edc"
+  },
+  "permitted_final_rulings": [
+    "RECOMMEND_SINGLE_AUDITED_FAMILY",
+    "NO_MIGRATION_AUTHORIZED_YET"
+  ],
+  "research_artifact_moves_renames_copies_deletes": 0
+}
+
