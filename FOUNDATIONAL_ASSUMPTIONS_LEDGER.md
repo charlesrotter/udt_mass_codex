@@ -164,7 +164,7 @@ complete-solver goal, NOT spectrum-matching. Matter-sector MAP + two analytic ga
   break dominantly the OPERATOR-INDEPENDENT matter-kinetic one => the operator's static effect is small, teeth in
   DYNAMICS (archive/pre_2026-07-01/static_soliton_rerun_derived_operator_results.md). [time-live] the fully-coupled matter+time solve on
   the derived operator = **BOX-CONTROL** (w^2~1/R^2, intercept ~0, R=64 no-plateau; negative mode = Derrick
-  breathing; ACTION-ROBUST across the {L4,X^2} F2 ambiguity) — STEP2_timelive_matter_results.md.
+  breathing; ACTION-ROBUST across the {L4,X^2} F2 ambiguity) — archive/pre_2026-07-01/STEP2_timelive_matter_results.md.
 - P5e PROPER DONE (P5e_proper_results.md, blind-verified): the genuinely fully-coupled solve — off-diagonal time
   row g_tr LIVE (dynamically sourced; 0 statically=gauge mode), FREE-omega self-consistent eigenvalue,
   time-spectral, finite-amplitude — CONVERGED (bounded, R in [8,12]) and REPRODUCED box-control WITHOUT STEP-2's

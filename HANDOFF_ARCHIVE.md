@@ -406,7 +406,7 @@ Read STATE.md TOP (the 2026-06-19 AFTERNOON block) + NEGATIVES_REGISTRY #65. Dis
 - THE PIVOT (Charles, "do 1"): retire the "catalog = one carrier's spectrum/tower" template. Catalog
   frontier = what DISTINGUISHES DISTINCT objects + sets their DEPTHS — distinct charge/winding SECTORS + the
   free non-stationary/off-diagonal/ensemble DOF (VISION spine §III). Mass-as-cost = the exponential home.
-  Docs: archive/pre_2026-07-01/coupled_timelive_solve_CONTRACT.md, archive/pre_2026-07-01/coupled_timelive_solve_results.md, coupled_timelive_VERIFIER.md.
+  Docs: archive/pre_2026-07-01/coupled_timelive_solve_CONTRACT.md, archive/pre_2026-07-01/coupled_timelive_solve_results.md, archive/pre_2026-07-01/coupled_timelive_VERIFIER.md.
 
 ## *** 2026-06-19 MORNING FRONTIER [SUPERSEDED] — POSTULATE A ACCEPTED; BOX-TRAP BROKEN; TOWER FRAMING INDICTED => CATALOG REFRAME ***
 Read STATE.md TOP (the 2026-06-19 MORNING block) + memory postulate-A-accepted. Distilled:
@@ -670,7 +670,7 @@ purity harness, solver_action.py, discipline skills, cross-model verify, LIVE.md
 acceptance tests" framing (M1 derived-op+φ / M2 X-kinetic→−2e5 / M3 Branch-P U all GREEN; M4a kap8→1 RED) is
 SUPERSEDED: the static solver became code-complete, the kap8 question was characterized, pytest is now 32 passed /
 1 xfailed (the 1 = the G/P-fork + charge-1-core HABIT-pin gate). The migration (archive/MIGRATION.md) is closed.
-(Note: M2's X-kinetic→−2e5 is exactly the value later caught as the Cassini KLUGE — see PROVENANCE_AUDIT_2026-06-30.md.)
+(Note: M2's X-kinetic→−2e5 is exactly the value later caught as the Cassini KLUGE — see archive/pre_2026-07-01/PROVENANCE_AUDIT_2026-06-30.md.)
 
 
 # ===== ARCHIVED 2026-07-03 from HANDOFF.md: the 2026-07-02-morning PRIOR STATE block =====

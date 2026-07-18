@@ -1,0 +1,11 @@
+{
+  "baseline_match": true,
+  "command": "python3 -m pytest tests/",
+  "expected_failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+  "failed": 1,
+  "passed": 69,
+  "python": "3.10.12",
+  "returncode": 1,
+  "scope": "R1A post-move tree; path-only pointer edits and 17 byte-identical archive moves",
+  "xfailed": 1
+}

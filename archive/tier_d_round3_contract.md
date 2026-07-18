@@ -12,7 +12,7 @@ CONDITIONAL coefficient readings — the only coefficient forms any route
 licensed after two blind adversarial verifier passes. They were derived
 data-blind (no lepton input; disclosures on record). This contract
 freezes them for evaluation against the six banked wall numbers of
-lepton_ladder_test_results.md.
+archive/pre_2026-07-01/lepton_ladder_test_results.md.
 
 Exclusions, fixed now: route C's Gaussian-determinant forms are NOT
 evaluable (free normalization N and flat-direction measure — no

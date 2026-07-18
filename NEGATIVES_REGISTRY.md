@@ -372,7 +372,7 @@ mechanism" (Principle 1, restated post-postulate).
     (the proper-measure lift's contravariant split touches the same
     bookkeeping; if the measure fork resolves to proper, re-grade).
 14. MACRO DISCRIMINATOR INDISTINGUISHABILITY (native vs Einstein weld
-    ~1% of comb spacing) — weld_discriminator_results.md.
+    ~1% of comb spacing) — archive/pre_2026-07-01/weld_discriminator_results.md.
     Premises: current Planck record precision (30-42 ell); phase
     channel; geometry-clean differential scoping.
     Status: STANDING (the banked ~3-ell EE comb downshift remains the

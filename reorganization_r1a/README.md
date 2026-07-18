@@ -4,7 +4,31 @@ R1A begins the research-lane-first reorganization with one conservative
 archive batch and stops before R1B. It does not relocate active research,
 Python modules, opaque data, manifests, or frozen evidence.
 
-## Read first
+## **Read the correction layer first**
+
+> The original R1A tables remain immutable historical evidence. The corrected
+> census is **815 occurrences / 92 sources / 16 frozen-source occurrences**;
+> it supersedes the original 801/87/12 counts without overwriting them.
+
+- [`correction_2026-07-18/CORRECTION_PREREGISTRATION.md`](correction_2026-07-18/CORRECTION_PREREGISTRATION.md):
+  correction scope frozen before pointer mutation.
+- [`correction_2026-07-18/OMISSION_LEDGER.tsv`](correction_2026-07-18/OMISSION_LEDGER.tsv):
+  all 14 recovered occurrences and their 5 rewrite / 1 intentional co-located
+  / 8 retained-target dispositions.
+- [`correction_2026-07-18/CORRECTED_INBOUND_REFERENCES.tsv`](correction_2026-07-18/CORRECTED_INBOUND_REFERENCES.tsv)
+  and [`correction_2026-07-18/LITERAL_GIT_GREP_COMPARISON.tsv`](correction_2026-07-18/LITERAL_GIT_GREP_COMPARISON.tsv):
+  corrected census and exact independent comparison at `4c98e32`.
+- [`correction_2026-07-18/CORRECTED_CONSOLIDATED_ADJUDICATION.tsv`](correction_2026-07-18/CORRECTED_CONSOLIDATED_ADJUDICATION.tsv)
+  and [`correction_2026-07-18/CORRECTED_CONSOLIDATED_POINTER_PLAN.tsv`](correction_2026-07-18/CORRECTED_CONSOLIDATED_POINTER_PLAN.tsv):
+  additive corrected rulings; all 17 moved files remain eligible.
+- [`correction_2026-07-18/FINAL_VERIFY_RESULT.json`](correction_2026-07-18/FINAL_VERIFY_RESULT.json):
+  five exact pointer corrections, moved/frozen hash gates, zero stale
+  non-frozen pointers, dirty-workstation firewall, catch-proofs, and test
+  baseline.
+
+R1B has not started and is not authorized by this correction.
+
+## Historical first-run evidence
 
 - [`R1A_AUDIT_REPORT.md`](R1A_AUDIT_REPORT.md): final outcome and gates.
 - [`PREMOVE_ADJUDICATION_REPORT.md`](PREMOVE_ADJUDICATION_REPORT.md): individual

@@ -1,0 +1,240 @@
+{
+  "authorized_pointer_corrections": [
+    {
+      "replacements": 2,
+      "result": "PASS",
+      "source": "HANDOFF_ARCHIVE.md"
+    },
+    {
+      "replacements": 1,
+      "result": "PASS",
+      "source": "FOUNDATIONAL_ASSUMPTIONS_LEDGER.md"
+    },
+    {
+      "replacements": 1,
+      "result": "PASS",
+      "source": "archive/tier_d_round3_contract.md"
+    },
+    {
+      "replacements": 1,
+      "result": "PASS",
+      "source": "NEGATIVES_REGISTRY.md"
+    }
+  ],
+  "catchproof": {
+    "file_md_bak_rejected": "PASS",
+    "file_md_parenthesis_detected": "PASS",
+    "file_md_period_detected": "PASS"
+  },
+  "corrected_census": {
+    "frozen_source_occurrences": 16,
+    "literal_git_grep_exact_agreement": true,
+    "occurrences": 815,
+    "sources": 92
+  },
+  "dirty_rows_metadata_only": 54,
+  "frozen_packages": [
+    {
+      "complete_state_sha256": "65730070b7ec2e6d3aea5b9cdc742e1f4029568daa04b3ea40f9b9ce6a961521",
+      "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+      "package": "native_action_stage1_2026-07-18/arm_A",
+      "result": "PASS",
+      "tracked_files": 30
+    },
+    {
+      "complete_state_sha256": "f886de295140cdad61466791af6c62cf29a580198bbdbb659e4e6b6025c4ed78",
+      "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+      "package": "native_action_stage1_2026-07-18/arm_B",
+      "result": "PASS",
+      "tracked_files": 16
+    },
+    {
+      "complete_state_sha256": "02358b035ae31e1ed5871e8a69404202160249965447f1df92a27ae16f38d194",
+      "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+      "package": "native_action_stage2_2026-07-18/arm_A",
+      "result": "PASS",
+      "tracked_files": 14
+    },
+    {
+      "complete_state_sha256": "0cd59cce069b588f0f5d368c226a44897862330673ffbb6040d843acc266e08e",
+      "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+      "package": "native_action_stage2_2026-07-18/arm_B",
+      "result": "PASS",
+      "tracked_files": 14
+    },
+    {
+      "complete_state_sha256": "2a8416d3ef1a77b9cabecaaf86d8a7d3d13e66d73221c80e0cda039029d027c3",
+      "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+      "package": "native_action_arm_c_2026-07-18",
+      "result": "PASS",
+      "tracked_files": 22
+    },
+    {
+      "complete_state_sha256": "1a56f27c8b800f4cecece189f821352ed9ce0e04efd14ce84b97ad4972d40646",
+      "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+      "package": "native_action_final_adjudication_2026-07-18",
+      "result": "PASS",
+      "tracked_files": 37
+    }
+  ],
+  "historical_artifacts_unchanged": [
+    {
+      "path": "reorganization_r1a/ADJUDICATION_SUMMARY.json",
+      "result": "PASS",
+      "sha256": "12fcdf6479ed730b12a41ee6e914b8bc76b5930f2abe8a54487e3e0393b63ad0"
+    },
+    {
+      "path": "reorganization_r1a/CANDIDATE_ADJUDICATION.tsv",
+      "result": "PASS",
+      "sha256": "e03fa5c36ea685493fde632e5504c9cadd41debcce319a8486bd311b37fb5c07"
+    },
+    {
+      "path": "reorganization_r1a/ELIGIBLE_BATCH.txt",
+      "result": "PASS",
+      "sha256": "8a919bd952528bebba860adeea99664dba9c2443d7d7492258dd984eb42f37b3"
+    },
+    {
+      "path": "reorganization_r1a/INBOUND_REFERENCES.tsv",
+      "result": "PASS",
+      "sha256": "2718fecb4ebd2b6c0149757caec6c03b8d878538852b0e45dda484f33f84d060"
+    },
+    {
+      "path": "reorganization_r1a/POINTER_REWRITE_PLAN.tsv",
+      "result": "PASS",
+      "sha256": "f8db715b4d5521f1cfb99e7bb4b89966268a52928e488f38ec10fe43a380831c"
+    },
+    {
+      "path": "reorganization_r1a/PREMOVE_HASHES.tsv",
+      "result": "PASS",
+      "sha256": "7e6a70e7103da44cfbbfade17fb7adac6a3b88d38e9bfc9a8c9b65bfeb5fad52"
+    },
+    {
+      "path": "reorganization_r1a/PREMOVE_ADJUDICATION_REPORT.md",
+      "result": "PASS",
+      "sha256": "ef565d472fd673466559f7e37f3654c13d4b34068c7b350b169bad0dc149fa86"
+    },
+    {
+      "path": "reorganization_r1a/PREMOVE_VERIFY_RESULT.json",
+      "result": "PASS",
+      "sha256": "7dbfe1044f75bd3c15d4dab291ce8cafcc5c6f76f17c128304e3d9ec820b3d59"
+    },
+    {
+      "path": "reorganization_r1a/MOVE_MAP.tsv",
+      "result": "PASS",
+      "sha256": "f4b59869f5885475655ee94abd87db8eb91e27893db85a93f83660b61ec0c4d7"
+    },
+    {
+      "path": "reorganization_r1a/POSTMOVE_POINTER_CENSUS.tsv",
+      "result": "PASS",
+      "sha256": "050c1923dc031368457bd7b2f00ec717b009ab84f22a29eab4eccdf5f39950a8"
+    }
+  ],
+  "historical_base": "65b7f861ccbffc6b8623ea73035050b3d62fff92",
+  "intentional_colocated_reference": "PASS",
+  "mode": "R1A_BOUNDARY_CORRECTION_FINAL_FAIL_CLOSED_VERIFIER",
+  "moved_files_still_eligible": 17,
+  "moved_payloads": [
+    {
+      "path": "archive/pre_2026-07-01/EXTERNAL_AUDIT_2026-06-30.md",
+      "result": "PASS",
+      "sha256": "8e629e00770bd5e0cf0a02ccc8b1fe65e188eaa69198d324396401e04dcc8d05"
+    },
+    {
+      "path": "archive/pre_2026-07-01/F1F3_closure_results.md",
+      "result": "PASS",
+      "sha256": "f622623ca39958335584a61eb5b81a92fbb4e8527a36b899c60b7dacc8b8cd1a"
+    },
+    {
+      "path": "archive/pre_2026-07-01/P1P5_reaudit_vs_derived_operator_results.md",
+      "result": "PASS",
+      "sha256": "118219cfe882a9dff689108e6cda5360933509301191af8557486ba4e9939293"
+    },
+    {
+      "path": "archive/pre_2026-07-01/PROVENANCE_AUDIT_2026-06-30.md",
+      "result": "PASS",
+      "sha256": "5cddf3bbe006e357ef95cc49defa3c60afc1f0ab675fa2c7e50c40299c173a46"
+    },
+    {
+      "path": "archive/pre_2026-07-01/SOLVER_AUDIT_2026-06-29.md",
+      "result": "PASS",
+      "sha256": "62353fe1da76eb795f36e36fabe6792a43420155447d0cc9e0797cfe6fbf2eb9"
+    },
+    {
+      "path": "archive/pre_2026-07-01/STEP2_timelive_matter_results.md",
+      "result": "PASS",
+      "sha256": "267e394e1101f6c3a4058f1530513cc845d5625a455abe2f034ee729d7e87868"
+    },
+    {
+      "path": "archive/pre_2026-07-01/b1prime_round_gate_derived_operator_results.md",
+      "result": "PASS",
+      "sha256": "f05222d69d5e62f099e43d8bbfafd26db77aaea94185045d818a67719809664c"
+    },
+    {
+      "path": "archive/pre_2026-07-01/coupled_timelive_VERIFIER.md",
+      "result": "PASS",
+      "sha256": "818a2c9bb70be03d41f64a963e10345ac797514aec8778038a1564e71d1ee925"
+    },
+    {
+      "path": "archive/pre_2026-07-01/coupled_timelive_solve_CONTRACT.md",
+      "result": "PASS",
+      "sha256": "3859303844c9b08ecca3a1e4cb2aecf769d5f3142b706b4c5d1916e1db67343f"
+    },
+    {
+      "path": "archive/pre_2026-07-01/coupled_timelive_solve_results.md",
+      "result": "PASS",
+      "sha256": "34cf544afba51a799d833436b97c9a73eb215bbfc3bea7a8ae7e7a5380c3babf"
+    },
+    {
+      "path": "archive/pre_2026-07-01/lepton_ladder_test_results.md",
+      "result": "PASS",
+      "sha256": "3623678f20e2aead7ff4ac8cbe7b1d37b587c9d58d47c726ffd401e7cda3f167"
+    },
+    {
+      "path": "archive/pre_2026-07-01/matter_object_identity_native_vs_import_results.md",
+      "result": "PASS",
+      "sha256": "52408980a863e681fef64f84eb2a36034538ef21673df69b88c44ec3d3389767"
+    },
+    {
+      "path": "archive/pre_2026-07-01/p1_offdiag_wiring_results.md",
+      "result": "PASS",
+      "sha256": "b93e73e91ade1492147952d383e8296fb67a6c08e8933d8a0967fe9c6d4bad41"
+    },
+    {
+      "path": "archive/pre_2026-07-01/static_soliton_rerun_derived_operator_results.md",
+      "result": "PASS",
+      "sha256": "e327dee6f9bf41cba356f923edc84c07b348fa87a6b2a3542b8064de7ba93be7"
+    },
+    {
+      "path": "archive/pre_2026-07-01/timelive_nonround_VERIFIER.md",
+      "result": "PASS",
+      "sha256": "a6271e006f62e5c8332f357d6d9310f8de98f63bf199b7bb5efe3e81b7e1c4c5"
+    },
+    {
+      "path": "archive/pre_2026-07-01/timelive_nonround_native_solve_results.md",
+      "result": "PASS",
+      "sha256": "004f987642c86b4cfd0e4dcf9dd2866a6b36575324af44138d1682e7d3a3cdd9"
+    },
+    {
+      "path": "archive/pre_2026-07-01/weld_discriminator_results.md",
+      "result": "PASS",
+      "sha256": "935cb27fd6e15b48d6b7e04289466a9d27ab32dc623f6125c0def3cd2ce6f487"
+    }
+  ],
+  "mutation_base": "adaee13df71b90c1eb4e1f49ee68783ea56d4bdc",
+  "pointer_census_rows": 9083,
+  "r0_base": "4c98e32d7b8af0dc3159706d18006d673566d721",
+  "result": "PASS",
+  "retained_target_omissions": 8,
+  "stale_non_frozen_pointers": 0,
+  "test_baseline": {
+    "baseline_match": true,
+    "command": "python3 -m pytest tests/",
+    "expected_failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "failed": 1,
+    "passed": 69,
+    "python": "3.10.12",
+    "returncode": 1,
+    "scope": "R1A post-move tree; path-only pointer edits and 17 byte-identical archive moves",
+    "xfailed": 1
+  }
+}

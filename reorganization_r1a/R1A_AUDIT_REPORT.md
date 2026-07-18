@@ -7,6 +7,38 @@
 - Scope: startup correction, lane-first proposal, complete 63-file
   adjudication, and one conservative archive batch
 
+## **CORRECTION LAYER — inbound-reference boundary repair**
+
+> **This layer supersedes the reference counts in the preserved original R1A
+> run below; it does not rewrite or replace the original preregistered tables.**
+
+The correction was preregistered in commit `f5b4ee5` before any live pointer
+mutation. A repaired filename-boundary matcher and an independent literal
+`git grep -F` implementation agree occurrence-for-occurrence at R0 base
+`4c98e32`: **815 occurrences across 92 sources, including 16 formally
+frozen-source occurrences**. The original 801/87/12 tables remain unchanged as
+historical evidence. Executable catch-proofs detect `file.md.` and `file.md)`
+while rejecting `file.md.bak`.
+
+The 14 recovered omissions have explicit dispositions: five non-frozen live
+pointers received only the preregistered `archive/pre_2026-07-01/` prefix; one
+`archive/pre_native_coupled/` reference intentionally names its co-located
+archived verifier and remains unchanged; the other eight name targets retained
+at root. The consolidated pointer plan therefore has 85 substitutions across
+33 sources, compared with 80 across 32 sources in the historical first run.
+
+Post-correction verification confirms that all 17 moved files remain eligible
+and retain their Git blobs and SHA-256 payloads, all six frozen packages remain
+byte-identical to R0, the original workstation still matches its 54-row
+metadata-only inventory, zero stale non-frozen pointers remain, and tests stay
+at the recorded 69 passed / 1 xfailed / 1 known hygiene failure baseline.
+
+The correction evidence is indexed under
+[`correction_2026-07-18/`](correction_2026-07-18/), including the preregistration,
+omission ledger, corrected/consolidated tables, literal-Git comparison,
+pointer-change hashes, corrected post-move census, and fail-closed final result.
+R1B remains unauthorized.
+
 ## Outcome
 
 R1A moved 17 pre-July-1 superseded Markdown records to
@@ -40,7 +72,7 @@ children. There is no global file-type bucket that can erase lane provenance.
 Only `archive/pre_2026-07-01/` is created and populated in R1A; the research
 lane tree remains a proposal for later audit.
 
-## Complete review-queue adjudication
+## Historical first-run review-queue adjudication (preserved)
 
 The frozen pre-move adjudication contains exactly 63 rows: all 26 R0
 `ARCHIVE_CANDIDATE` paths and all 37 R0 `UNKNOWN/BLOCKED` paths. Its independent
@@ -70,7 +102,7 @@ of an exact inbound reference was never treated as proof of archival safety.
 Their individual roles, references, blockers, hashes, history, and rulings are
 in `CANDIDATE_ADJUDICATION.tsv` and `PREMOVE_ADJUDICATION_REPORT.md`.
 
-## Pointer and hash gates
+## Historical first-run pointer and hash gates (preserved)
 
 - 17/17 move-map rows have identical before/after SHA-256 values.
 - 17/17 Git renames are 100% identical.
