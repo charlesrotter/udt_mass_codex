@@ -1,0 +1,9 @@
+{
+  "base": "b59005dba9acaf6c575185876655bd6a5c792094",
+  "candidate_contents_inspected_before_freeze": false,
+  "candidate_rows": 119,
+  "excluded_already_migrated": "simple_metric_S8_action_provenance_note.md",
+  "result": "PASS",
+  "unique_current_paths": 119,
+  "unique_original_paths": 119
+}

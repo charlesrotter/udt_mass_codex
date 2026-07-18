@@ -1,0 +1,18 @@
+{
+  "artifact_mutations": 0,
+  "base": "b59005dba9acaf6c575185876655bd6a5c792094",
+  "candidate_contents_inspected_before_freeze": false,
+  "candidate_rows": 119,
+  "candidate_rule": "fixed R1C migration_readiness == MOVE_READY resolved through current map, excluding migrated S8",
+  "candidate_tsv_sha256": "7fc413f8046de195f56424b12fa6607fed690dbd0a72064f5118e9c958f47141",
+  "excluded_already_migrated": "simple_metric_S8_action_provenance_note.md",
+  "fixed_move_ready_rows_before_exclusion": 120,
+  "input_sha256": {
+    "reorganization_r1c/FROZEN_ROOT_INVENTORY.tsv": "a4a071407af657962e36c33e9308ddbe6416fe3f38da5ea48ea93d7c1bcbd12c",
+    "research/_registry/CURRENT_ARTIFACT_PATHS.tsv": "1ba0a17c42215d3192fdcd336c747f3a93ac2c79667783be74d0b6807cd88369",
+    "research/_registry/MIGRATION_READINESS.tsv": "4fbdb4e71aae4caf18df9142e7ab822bb5b348b3b364b72e97707679bd244062"
+  },
+  "result": "PASS",
+  "unique_current_paths": 119,
+  "unique_original_paths": 119
+}
