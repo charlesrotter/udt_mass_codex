@@ -49,6 +49,8 @@ def main() -> int:
     for item in batch:
         old, destination = item["current_path"], item["destination"]
         for source in files:
+            if source == "reorganization_r1f/OLD_PATH_OCCURRENCE_CLASSIFICATION.tsv":
+                continue
             path = REPO / source
             if not path.is_file():
                 continue

@@ -1,0 +1,92 @@
+{
+  "b02_b03_authorized": false,
+  "base": "14ba31a77aed1553c5df8ecd59b0f7a000c10e20",
+  "behaviorally_identical_runs": 4,
+  "catchproof": {
+    "artifact_mutation_rejected": "PASS",
+    "behavioral_output_mismatch_rejected": "PASS",
+    "duplicate_current_path_rejected": "PASS",
+    "invalid_ledger_commit_rejected": "PASS",
+    "missing_move_rejected": "PASS",
+    "stale_pointer_rejected": "PASS",
+    "wrong_destination_rejected": "PASS"
+  },
+  "current_artifact_paths": {
+    "rows": 1114,
+    "status_counts": {
+      "MIGRATED_R1D": 1,
+      "MIGRATED_R1F": 4,
+      "ROOT_RETAINED": 1109
+    },
+    "unique_current_paths": 1114,
+    "unique_original_paths": 1114
+  },
+  "dirty_content_policy": "NOT_READ",
+  "dirty_workstation_rows_metadata_only": 54,
+  "duplicate_copies": 0,
+  "frontier_rows": 306,
+  "frontier_unique_targets": 101,
+  "frozen_manifest_replays": [
+    {
+      "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+      "package": "native_action_stage1_2026-07-18/arm_A",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 30
+    },
+    {
+      "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+      "package": "native_action_stage1_2026-07-18/arm_B",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 16
+    },
+    {
+      "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+      "package": "native_action_stage2_2026-07-18/arm_A",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 14
+    },
+    {
+      "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+      "package": "native_action_stage2_2026-07-18/arm_B",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 14
+    },
+    {
+      "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+      "package": "native_action_arm_c_2026-07-18",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 22
+    },
+    {
+      "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+      "package": "native_action_final_adjudication_2026-07-18",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 37
+    }
+  ],
+  "identical_blobs_and_sha256": 4,
+  "markdown_links_verified": 62,
+  "migration_commit": "c4cf405bba49625a9352a022b60754e7249c27f9",
+  "migration_ledger_rows": 4,
+  "mode": "R1F_FINAL_EXTERNAL_FAIL_CLOSED_VERIFY",
+  "old_path_occurrences": 356,
+  "preregistration_commit": "fa211047fd9d81fcc64c424376facc6378837dfc",
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "r100_renames": 4,
+  "result": "PASS",
+  "rollback_parent": "fa211047fd9d81fcc64c424376facc6378837dfc",
+  "self_referential_ledger": false,
+  "stale_current_navigation_pointers": 0,
+  "sympy_version": "1.13.1",
+  "test_baseline": {
+    "baseline_match": true,
+    "command": "python3 -m pytest tests/",
+    "expected_failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "failed": 1,
+    "passed": 69,
+    "python": "3.10.12",
+    "returncode": 1,
+    "scope": "R1F_MACRO_VERIFIER_QUARTET",
+    "xfailed": 1
+  }
+}
