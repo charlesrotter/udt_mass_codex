@@ -6,7 +6,9 @@ order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md)
 → the angular audit's [`lay decision tree`](angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md)
 and [`status ledger`](angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv) → the exact
-evidence named by those files only when required by the active task. `AGENTS.md`
+evidence named by those files only when required by the active task → the targeted `CLAUDE.md`
+method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
+`MEMORY.md` top/current pointer. `AGENTS.md`
 supplies operational instructions and binding research discipline, but it
 cannot overrule the topmost current-state block in `LIVE.md`.
 

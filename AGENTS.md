@@ -50,10 +50,13 @@ after the user's actual task makes them load-bearing.
 10. The top/current summary in `INDEX.md` and `MEMORY.md`'s `TOP — CURRENT POINTER` for pointers only;
     neither can overrule `LIVE.md`.
 
-For current artifact locations, use `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`. The R0–R1C
-ownership, readiness, census, preregistration, and verification records are fixed historical
-snapshots and must not be rewritten to mimic current paths. This is an operational navigation rule;
-like every instruction in this file, it cannot overrule `LIVE.md`.
+For the 1,114 fixed-base artifact identities, use
+`research/_registry/CURRENT_ARTIFACT_PATHS.tsv`. Post-base additions such as the July 19 frontier and
+audit packages are outside that fixed universe; use their direct tracked paths named by `LIVE.md`
+rather than expecting registry rows. The R0–R1C ownership, readiness, census, preregistration, and
+verification records are fixed historical snapshots and must not be rewritten to mimic current
+paths. This is an operational navigation rule; like every instruction in this file, it cannot
+overrule `LIVE.md`.
 
 Then give Charles a short orientation report: actual HEAD and dirt, the current honest claim, its
 premise stamps, the open gate, and the proposed bounded next action. Do not mutate files or launch a

@@ -29,12 +29,17 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 ## Binding method (never skip)
 - CLAUDE.md "How we work": MAP / OBSERVE / PONDER are primary, DERIVE is gated. Let structure
   EMERGE; pre-work discussion in LAY language; "chose or derived?" / "observing or targeting?".
-- Discipline skills (`.claude/skills/`, auto-loaded): **solver-first**, **verifier-before-record**
-  (incl. cross-model escalation), **no-shortcuts** (run `python3 -m pytest tests/` — **expect 1 FAILED** = the known hygiene-header doc backlog on 36 `simple_metric_*` result docs, NOT a code failure; ~69 passed / 1 xfailed otherwise), **completeness-map**.
-- **DRIVER TRIGGERS (CLAUDE.md, always-loaded) + harness HOOKS** (`.claude/hooks/corral_trigger.py`, fires on
-  Task/Bash/git-commit) make the corral fire WITHOUT being challenged — pause+honesty, never merit; the allowed-lane
-  clause (category-A technique always GREEN) is non-droppable. **CONFIRMED LIVE (2026-07-01 startup): the
-  `✓ CORRAL GUARDRAILS ACTIVE` banner appears + the 6 triggers auto-load** (self-check passed). Memory freshness: the
+- Discipline skills (`.claude/skills/`): a compatible Claude runtime may auto-load them; Codex must
+  manually read only the protocol triggered by the actual task. Core protocols are **solver-first**,
+  **verifier-before-record** (incl. cross-model escalation), **no-shortcuts** (run `python3 -m pytest
+  tests/` — **expect 1 FAILED** = the known hygiene-header doc backlog on 36 `simple_metric_*` result
+  docs, NOT a code failure; ~69 passed / 1 xfailed otherwise), and **completeness-map**.
+- **DRIVER TRIGGERS (CLAUDE.md) + harness HOOKS** (`.claude/hooks/corral_trigger.py`, fires on
+  Task/Bash/git-commit) are binding method. In a compatible Claude runtime the hooks make the corral
+  fire without being challenged; Codex must not assume the hooks or banner are active and must apply
+  the triggers manually. The allowed-lane clause (category-A technique always GREEN) is non-droppable.
+  **CLAUDE-HARNESS CONFIRMATION (2026-07-01 startup):** the `✓ CORRAL GUARDRAILS ACTIVE` banner and six
+  auto-loaded triggers passed their self-check in that runtime. Memory freshness: the
   TOP entry in MEMORY.md is the CURRENT frontier; older FRONTIER-labeled entries are tagged "SUPERSEDED as frontier"
   (durable lesson only); the rest are durable principle-memories. Read the TOP entry + this LIVE file for the live plan. **The auto-loaded memory snapshot can LAG disk
   (observed 2026-07-03): on resume, re-read MEMORY.md FROM DISK — this file + disk memory win over the snapshot.**

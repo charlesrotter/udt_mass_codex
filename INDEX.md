@@ -79,10 +79,11 @@ Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`,
 4. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
    **`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`**
 5. The exact frozen evidence named by that frontier only for the active question
-6. **`MEMORY.md`** TOP (disk) for a compact pointer
-7. **`CLAUDE.md`** targeted principles + how-we-work + DRIVER TRIGGERS
-8. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
-9. This INDEX → specific result docs
+6. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
+7. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
+8. Only the task-triggered protocol under **`.claude/skills/`**
+9. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
+10. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
 
 ---
 
