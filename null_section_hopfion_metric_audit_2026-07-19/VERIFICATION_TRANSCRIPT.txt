@@ -1,0 +1,11 @@
+command: python3 null_section_hopfion_metric_audit_2026-07-19/verify_null_section_hopfion.py --output null_section_hopfion_metric_audit_2026-07-19/VERIFICATION_RESULT.json
+working_directory: repository root
+python: 3.10.12
+sympy: 1.13.1
+cpu_only: yes
+exit_code: 0
+stdout:
+VERIFIER PASS sources=15/15 ledger=22/22 algebra=32/32 catches=22/22
+EXACT_RECIPROCAL_HOPF_ORBIT_BLOCK_COMPATIBILITY_WITNESS; CONDITIONAL_UNIT_HOPF_CONNECTION_AFTER_TORIC_S3_COMPLETION; ANGULAR_SLOTS_GLOBAL_CLOSURE_BOUNDARY_CONFIGURATION_SPACE_AND_ACTION_OPEN; DIRECT_CELESTIAL_CARRIER_IDENTITY_BLOCKED_WITHOUT_SOLDERING
+stderr:
+<empty>

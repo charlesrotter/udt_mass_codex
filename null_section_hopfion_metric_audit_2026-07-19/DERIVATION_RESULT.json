@@ -1,0 +1,131 @@
+{
+  "check_count": 32,
+  "checks": {
+    "angular_phi_frobenius_coefficients_derived": "PASS",
+    "angular_phi_null_acceleration_derived": "PASS",
+    "angular_phi_radial_covector_is_null": "PASS",
+    "angular_phi_spatial_frobenius_pullback_zero": "PASS",
+    "anti_diagonal_connection_density_and_charge": "PASS",
+    "common_scale_cancels_from_connection": "PASS",
+    "constant_map_has_zero_hopf_charge": "PASS",
+    "constant_map_pullback_curvature_is_zero": "PASS",
+    "doubled_area_form_connection_convention": "PASS",
+    "generic_positive_two_block_has_reciprocal_normal_form": "PASS",
+    "global_collapse_cycle_determinant": "PASS",
+    "hopf_connection_density": "PASS",
+    "hopf_connection_integral_and_charge": "PASS",
+    "hopf_coordinate_derivative": "PASS",
+    "hopf_quotient_map_unit_norm": "PASS",
+    "lorentz_aberration_is_not_fixed_so3_rotation": "PASS",
+    "lorentz_aberration_preserves_celestial_sphere": "PASS",
+    "ordinary_derivative_frame_energy": "PASS",
+    "positive_conformal_rescaling_preserves_null_lift": "PASS",
+    "pure_gauge_covariant_cancellation": "PASS",
+    "reciprocal_angular_realization_has_tracefree_shear": "PASS",
+    "reciprocal_hopf_torus_block": "PASS",
+    "reciprocity_mirror_swaps_circles": "PASS",
+    "rotating_round_dyad_is_removable_frame_gauge": "PASS",
+    "round_angular_warp_has_no_tracefree_selector": "PASS",
+    "round_completion_endpoint_limits": "PASS",
+    "round_s3_block_reconstruction": "PASS",
+    "standard_hopf_map_equals_reciprocal_depth_map": "PASS",
+    "target_map_and_spacetime_null_lift_are_distinct_types": "PASS",
+    "unit_target_vector_has_null_lift_iff_unit_norm": "PASS",
+    "winding_frame_equals_standard_hopf_map": "PASS",
+    "winding_frame_produces_hopf_components": "PASS"
+  },
+  "exact_identities": {
+    "aberration_pair_dot_product_after": "beta**2",
+    "aberration_pair_dot_product_before": "0",
+    "angular_phi_frobenius_coefficients": [
+      "A_theta/A**2",
+      "A_varphi/A**2"
+    ],
+    "anti_diagonal_connection_density": "cosh(2*phi)**(-2)",
+    "collapse_cycle_determinant": "p",
+    "common_scale_round_s3": "1/(2*cosh(2*phi))",
+    "constant_map_pullback_curvature": [
+      "0",
+      "0",
+      "0"
+    ],
+    "constant_map_registered_hopf_charge": "0",
+    "diagonal_and_antidiagonal_charges": [
+      "1",
+      "-1"
+    ],
+    "doubled_connection_charge_1_over_16pi2": "1",
+    "doubled_connection_integral": "-16*pi**2",
+    "frame_rotation_covariant_derivative": [
+      "0",
+      "0",
+      "0"
+    ],
+    "frame_rotation_ordinary_L2_density": "theta_x**2",
+    "generic_normalized_two_block": "Matrix([[a/b, 0], [0, b/a]])",
+    "geometric_type_shapes": {
+      "internal_target_map": [
+        3,
+        1
+      ],
+      "spacetime_null_lift": [
+        4,
+        1
+      ]
+    },
+    "hopf_connection_coefficients": [
+      "1/2 - tanh(2*phi)/2",
+      "tanh(2*phi)/2 + 1/2"
+    ],
+    "hopf_coordinate": "tan(eta)=exp(2*phi)",
+    "hopf_curvature_density": "-1/cosh(2*phi)**2",
+    "hopf_map": [
+      "cos(delta)*sech(2*phi)",
+      "sin(delta)*sech(2*phi)",
+      "-tanh(2*phi)"
+    ],
+    "integral_A_wedge_dA": "-4*pi**2",
+    "mirror_rule": "phi->-phi swaps xi1 and xi2 scale factors",
+    "normalized_hopf_torus_block": "Matrix([[exp(-2*phi), 0], [0, exp(2*phi)]])",
+    "null_lift_norm": "n_x**2 + n_y**2 + n_z**2 - 1",
+    "positive_conformal_null_lift_norm": "Omega_c**2*(n_x**2 + n_y**2 + n_z**2 - 1)",
+    "radial_null_angular_acceleration": [
+      "(A_theta*qInv_tt + A_varphi*qInv_tp)/A**2",
+      "(A_theta*qInv_tp + A_varphi*qInv_pp)/A**2"
+    ],
+    "reciprocal_mixed_connection": "Matrix([[(-Omega + Omega_p)/Omega, 0], [0, (Omega + Omega_p)/Omega]])",
+    "reciprocal_mixed_tracefree": "Matrix([[-1, 0], [0, 1]])",
+    "registered_hopf_charge": "1",
+    "rotating_round_dyad_covariant_derivative": "Matrix([[0, 0], [0, 0]])",
+    "round_completion_endpoint_limits": {
+      "Omega_minus_infinity": "0",
+      "Omega_plus_infinity": "0",
+      "f_minus_infinity": "1",
+      "f_plus_infinity": "0",
+      "g_minus_infinity": "0",
+      "g_plus_infinity": "1"
+    },
+    "round_mixed_connection": "Matrix([[R_p/R, 0], [0, R_p/R]])",
+    "round_mixed_tracefree": "Matrix([[0, 0], [0, 0]])",
+    "round_s3_metric": "sech(2*phi)^2 dphi^2 + [1/(2*cosh(2*phi))]*(exp(-2*phi) dxi1^2 + exp(2*phi) dxi2^2)",
+    "spatial_slice_pullback_of_ell_wedge_dell": "0",
+    "winding_frame_standard_hopf_map": [
+      "sin(2*eta_h)*cos(xi1 - xi2)",
+      "sin(2*eta_h)*sin(xi1 - xi2)",
+      "cos(2*eta_h)"
+    ]
+  },
+  "maximum_verdict": "EXACT_RECIPROCAL_HOPF_ORBIT_BLOCK_COMPATIBILITY_WITNESS; CONDITIONAL_UNIT_HOPF_CONNECTION_AFTER_TORIC_S3_COMPLETION; ANGULAR_SLOTS_GLOBAL_CLOSURE_BOUNDARY_CONFIGURATION_SPACE_AND_ACTION_OPEN; DIRECT_CELESTIAL_CARRIER_IDENTITY_BLOCKED_WITHOUT_SOLDERING",
+  "python": "3.10.12",
+  "status": "PASS",
+  "structural_readout": {
+    "angular_phi_result": "Angular dependence of the diagonal reciprocal scalar creates geometric coupling and a Frobenius obstruction, but its spatial pullback is not the existing Hopf charge and the radial-looking null line is not geodesic when angular gradients are nonzero.",
+    "conditional_unit_charge": "Choosing the diagonal circle action, 2*pi periods, and S3 endpoint closure gives integral(A wedge dA)=-4*pi^2 and Q_H=1.",
+    "csn_endpoint_caveat": "The round common scale tends to zero at the two collapse orbits; the CSN equivalence with Omega>0 holds on the open principal-orbit region, while smooth caps are additional conformal-completion data.",
+    "exact_new_match": "The CSN-normalized U(1)xU(1) orbit block of round S3 in Hopf coordinates is diag(exp(-2*phi),exp(2*phi)).",
+    "frame_obstruction": "The existing internal target field and ordinary-derivative energy cannot be relabeled as an unframed null-direction section.",
+    "genericity_caveat": "Every positive diagonal two-block has a reciprocal determinant-one normal form; the local exponential match alone does not select S3 or Hopf topology.",
+    "not_selected": "C0/C1 does not place the reciprocal pair in two spatial angular slots or select the common scale, radial completion, circle action, periods, collapse cycles, or physical boundary."
+  },
+  "sympy": "1.13.1"
+}

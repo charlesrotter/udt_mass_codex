@@ -1,0 +1,11 @@
+command: python3 null_section_hopfion_metric_audit_2026-07-19/derive_null_section_hopfion.py --output null_section_hopfion_metric_audit_2026-07-19/DERIVATION_RESULT.json
+working_directory: repository root
+python: 3.10.12
+sympy: 1.13.1
+cpu_only: yes
+exit_code: 0
+stdout:
+DERIVATION PASS 32/32
+EXACT_RECIPROCAL_HOPF_ORBIT_BLOCK_COMPATIBILITY_WITNESS; CONDITIONAL_UNIT_HOPF_CONNECTION_AFTER_TORIC_S3_COMPLETION; ANGULAR_SLOTS_GLOBAL_CLOSURE_BOUNDARY_CONFIGURATION_SPACE_AND_ACTION_OPEN; DIRECT_CELESTIAL_CARRIER_IDENTITY_BLOCKED_WITHOUT_SOLDERING
+stderr:
+<empty>

@@ -1,0 +1,130 @@
+{
+  "algebra_checks": 32,
+  "audit_report_sha256": "af15bf24f994ae43f6d0e54e07b83d83e977aed9fbe88462f582edec89cef618",
+  "base": "715fa57767ecc2ec370599ad18cd9f87911798d8",
+  "catch_proof_count": 22,
+  "catch_proofs": [
+    {
+      "caught": "AssertionError",
+      "name": "open_angular_block_promoted",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "celestial_identity_promoted",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "frame_winding_ignored",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "ordinary_energy_mislabeled_covariant",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "generic_normal_form_ignored",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "round_completion_promoted",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "conditional_charge_promoted",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "lens_space_countermodels_removed",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "round_warp_promoted",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "angular_phi_coupling_overclaimed",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "copresence_semantics_promoted",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "open_action_promoted",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "hopf_charge_mutation",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "conformal_null_anchor_deleted",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "constant_map_zero_charge_deleted",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "aberration_mislabeled_fixed_rotation",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "frobenius_derivation_deleted",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "genericity_caveat_deleted",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "source_hash_mutation",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "transverse_open_disclosure_removed",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "report_uniqueness_overclaim",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "orbit_block_promoted_to_full_metric",
+      "result": "PASS"
+    }
+  ],
+  "derivation_replay": "PASS_BYTE_IDENTICAL",
+  "derivation_result_sha256": "eb7cc8e5a5fd757cb67046113d453d645eb3fed68fc34f75900057b9881f5ac7",
+  "ledger_rows": 22,
+  "preregistration_sha256": "ad46dc61f5b10f560f615b607b9053acb10f2908d28949fdc0ac0598b302a2c5",
+  "python": "3.10.12",
+  "source_inventory_sha256": "4de9e5609e41b94aed6b65835f9cb7908912db04b33b8d343420a91e6ca203f0",
+  "source_rows": 15,
+  "status": "PASS_SELF_CONSISTENCY",
+  "status_ledger_sha256": "6f252615f91b41d6ea09eb33fc28c871d45205277c6a584d1fdd02eb4ed9dbcf",
+  "sympy": "1.13.1",
+  "verdict": "EXACT_RECIPROCAL_HOPF_ORBIT_BLOCK_COMPATIBILITY_WITNESS; CONDITIONAL_UNIT_HOPF_CONNECTION_AFTER_TORIC_S3_COMPLETION; ANGULAR_SLOTS_GLOBAL_CLOSURE_BOUNDARY_CONFIGURATION_SPACE_AND_ACTION_OPEN; DIRECT_CELESTIAL_CARRIER_IDENTITY_BLOCKED_WITHOUT_SOLDERING",
+  "verification_class": "DETERMINISTIC_REPLAY_SOURCE_SNAPSHOT_AND_CATCH_PROOFS; EXTERNAL_SEMANTIC_REVIEW_SEPARATE"
+}
