@@ -1,0 +1,50 @@
+Script started on 2026-07-19 19:56:12-04:00 [<not executed on terminal>]
+{
+  "catch_proofs": {
+    "acceleration_connection_invariant_invented": "PASS",
+    "acceleration_curvature_invented": "PASS",
+    "angular_flux_formula_deleted": "PASS",
+    "beta_dependent_flux_invented": "PASS",
+    "coordinate_cell_promoted_to_physical": "PASS",
+    "crossover_formula_invented": "PASS",
+    "exact_commuting_holonomy_deleted": "PASS",
+    "generic_flux_promoted_to_holonomy": "PASS",
+    "gr_equivalence_imported": "PASS",
+    "parallel_transport_sign_reversed": "PASS",
+    "positional_beta_dependence_hidden": "PASS",
+    "reciprocal_angular_interaction_deleted": "PASS",
+    "tphi_flux_deleted": "PASS",
+    "warped_product_scope_promoted": "PASS",
+    "zero_angular_flux_imposed": "PASS",
+    "zero_mixed_plane_changed": "PASS"
+  },
+  "checks": {
+    "deterministic_primary_replay_and_contract": "PASS",
+    "independent_accelerated_coordinate_riemann_projection": "PASS",
+    "independent_acceleration_parameter_cancellation": "PASS",
+    "independent_angular_flux_and_nonuniqueness": "PASS",
+    "independent_exact_commuting_tphi_holonomy": "PASS",
+    "internal_adversarial_corrections_recorded": "PASS",
+    "ledger_coverage": "PASS",
+    "no_control_or_canon_edits": "PASS",
+    "report_contract": "PASS",
+    "source_inventory_replay": "PASS"
+  },
+  "independent_witnesses": {
+    "acceleration_derivative_of_curvature": "0",
+    "beta": "accel*t^2/2",
+    "closed_angular_flux": "-A/L**2 + 2*pi*chi",
+    "riemann_projection": "direct coordinate Christoffel/Riemann then tetrad projection",
+    "sigma": "p*u^2+q*v^2",
+    "tphi_holonomy_group": "SO(1,1)",
+    "tphi_stokes_flux": "-c*(t0 - t1)*(exp(2*phi0) - exp(2*phi1))*exp(-2*phi0 - 2*phi1)/L",
+    "zero_flux_area": "2*pi*chi*L^2",
+    "zero_flux_nonround_witness": "any nonround S2 metric rescaled to area 4*pi*L^2 retains nonconstant K and has Phi23=0"
+  },
+  "python": "3.10.12",
+  "result": "PASS",
+  "schema": "udt-accelerating-finite-cell-cartan-verification-1.0",
+  "sympy": "1.13.1"
+}
+
+Script done on 2026-07-19 19:56:19-04:00 [COMMAND_EXIT_CODE="0"]

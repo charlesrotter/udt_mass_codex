@@ -1,0 +1,15 @@
+id	question	result	status	remaining_gate
+S01	Does acceleration survive in full Cartan curvature?	No in all six planes of the declared representative	EXACT_PURE_FRAME_RESULT	More general base-dependent angular twist and shear remain open
+S02	Does the Cartan connection require imported observer mechanics?	No; it follows from the dynamic metric coframe and zero torsion	DERIVED_PER_REPRESENTATIVE	Physical observer dynamics remains open
+S03	Does beta_dot or beta_double_dot survive invariantly?	No; neither generates curvature or fixed-face flux; positional beta remains through psi in orthonormal components	EXACT_PURE_FRAME_RESULT	Underlying curvature and shifted position need not vanish
+S04	Is the finite t-phi holonomy computable?	Yes exactly as a commuting SO(1,1) boost with signed rapidity -Phi01 in the registered transport convention	EXACT_RESTRICTED_HOLONOMY	Only the declared t-phi face; sign reverses with orientation convention
+S05	Can a finite cell distinguish geometry from acceleration?	A symbolic coordinate cell can; a same-physical-cell comparison preserves holonomy under pullback	DERIVED_PER_REPRESENTATIVE	Physical cell size boundaries and measurement rule unselected
+S06	How does the angular sector interact with reciprocal depth?	Omega23 contains Kbar-1/L^2 and Omega02 Omega03 are nonzero	DERIVED_PER_REPRESENTATIVE	Angular metric remains free
+S07	Does zero angular flux select a round S2?	No; it fixes only an integrated area-topology relation if imposed	UNDERDETERMINED	Pointwise curvature topology and section remain open
+S08	Does finite curvature flux generally equal holonomy?	No	REFUTED_GENERAL_IDENTIFICATION	Generic finite holonomy needs path ordering
+S09	Does this establish gravity-acceleration equivalence?	No	NOT_DERIVED	Requires physical observer cell measurement and dynamical interpretation
+S10	Does it show why GR-like local equivalence can appear?	It shows frame acceleration contributes no curvature while finite curvature shrinks with cell area in the local limit	STRUCTURAL_LEAD	No UDT-to-GR matching theorem derived
+S11	Is a physical crossover formula selected?	No; an exact t-phi defect exists but its cell scale norm and threshold are not selected	OPEN	Native finite-cell/bootstrap selection
+S12	Is L equal to Xmax?	Not derived or imposed	OPEN_VALUE_ORIGIN	Global bootstrap
+S13	Is this the complete UDT metric?	No; it is a conditional reciprocal warped-product representative	BOUNDED_REPRESENTATIVE	Base-dependent angular twist shear and complete boundary
+S14	Maximum conclusion	Acceleration is pure frame structure throughout this six-plane representative while exact finite-cell curvature exposes underlying reciprocal-angular geometry	VERIFIED_WITH_CAVEATS	No equivalence principle action matter or physical crossover

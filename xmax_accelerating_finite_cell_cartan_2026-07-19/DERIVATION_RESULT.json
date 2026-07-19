@@ -1,0 +1,134 @@
+{
+  "cartan_curvature": {
+    "angular_interaction": "Omega23 combines intrinsic Kbar with the reciprocal warp contribution -1/L^2; Omega02 and Omega03 couple reciprocal time to each angular direction",
+    "beta_dependence": "NO beta_dot OR beta_double_dot CREATES CURVATURE; fully expanded unprimed coordinate two-forms also contain no beta, while orthonormal coefficients and basis separately depend on psi=phi-beta",
+    "coordinate_basis": {
+      "Omega01": "(-2*c*exp(-2*phi)/L)*dt^dphi",
+      "Omega02": "(c*exp(-2*phi)*exp(sigma(u, v))/L**2)*dt^du",
+      "Omega03": "(c*exp(-2*phi)*exp(sigma(u, v))/L**2)*dt^dv",
+      "Omega12": "0",
+      "Omega13": "0",
+      "Omega23": "(-(L**2*Derivative(sigma(u, v), (u, 2)) + L**2*Derivative(sigma(u, v), (v, 2)) + exp(2*sigma(u, v)))/L**2)*du^dv"
+    },
+    "identities": "TORSION_ZERO; FIRST_BIANCHI_ZERO; SECOND_BIANCHI_ZERO",
+    "orthonormal_frame": {
+      "Omega01": "-2 f^2 theta0^theta1",
+      "Omega02": "+f^2 theta0^theta2",
+      "Omega03": "+f^2 theta0^theta3",
+      "Omega12": "0",
+      "Omega13": "0",
+      "Omega23": "exp(-2psi)(Kbar-1/L^2) theta2^theta3"
+    }
+  },
+  "checks": {
+    "beta_and_derivatives_cancel_from_coordinate_connection_01": "PASS",
+    "beta_and_derivatives_cancel_from_coordinate_connection_12": "PASS",
+    "beta_and_derivatives_cancel_from_coordinate_connection_13": "PASS",
+    "beta_and_derivatives_cancel_from_coordinate_connection_23": "PASS",
+    "beta_and_derivatives_cancel_from_coordinate_curvature_01": "PASS",
+    "beta_and_derivatives_cancel_from_coordinate_curvature_02": "PASS",
+    "beta_and_derivatives_cancel_from_coordinate_curvature_03": "PASS",
+    "beta_and_derivatives_cancel_from_coordinate_curvature_12": "PASS",
+    "beta_and_derivatives_cancel_from_coordinate_curvature_13": "PASS",
+    "beta_and_derivatives_cancel_from_coordinate_curvature_23": "PASS",
+    "closed_angular_zero_flux_area": "PASS",
+    "coordinate_curvature_01": "PASS",
+    "coordinate_curvature_02": "PASS",
+    "coordinate_curvature_03": "PASS",
+    "coordinate_curvature_12": "PASS",
+    "coordinate_curvature_13": "PASS",
+    "coordinate_curvature_23": "PASS",
+    "coordinate_spin_connection_01": "PASS",
+    "coordinate_spin_connection_12": "PASS",
+    "coordinate_spin_connection_13": "PASS",
+    "coordinate_spin_connection_23": "PASS",
+    "exact_tphi_flux": "PASS",
+    "exact_tphi_holonomy_lorentz": "PASS",
+    "exact_tphi_holonomy_unit_determinant": "PASS",
+    "exact_tphi_stokes": "PASS",
+    "first_bianchi_0": "PASS",
+    "first_bianchi_1": "PASS",
+    "first_bianchi_2": "PASS",
+    "first_bianchi_3": "PASS",
+    "second_bianchi_00": "PASS",
+    "second_bianchi_01": "PASS",
+    "second_bianchi_02": "PASS",
+    "second_bianchi_03": "PASS",
+    "second_bianchi_10": "PASS",
+    "second_bianchi_11": "PASS",
+    "second_bianchi_12": "PASS",
+    "second_bianchi_13": "PASS",
+    "second_bianchi_20": "PASS",
+    "second_bianchi_21": "PASS",
+    "second_bianchi_22": "PASS",
+    "second_bianchi_23": "PASS",
+    "second_bianchi_30": "PASS",
+    "second_bianchi_31": "PASS",
+    "second_bianchi_32": "PASS",
+    "second_bianchi_33": "PASS",
+    "torsion_0": "PASS",
+    "torsion_1": "PASS",
+    "torsion_2": "PASS",
+    "torsion_3": "PASS"
+  },
+  "equivalence_adjudication": {
+    "acceleration": "PURE_FRAME_IN_THIS_REPRESENTATIVE; beta_dot and beta_double_dot do not generate Cartan curvature or registered fixed-face flux; beta may label the shifted position psi in orthonormal components",
+    "derived_dimensionless_tphi_defect": "Phi01=(c/L)(t1-t0)(exp(-2phi1)-exp(-2phi0))",
+    "finite_cell": "NONZERO CURVATURE/HOLONOMY CAN DISTINGUISH THE UNDERLYING GEOMETRY FROM A PURE FRAME CHANGE",
+    "gr_equivalence": "NOT_ADOPTED_OR_DERIVED",
+    "physical_crossover": "OPEN; no physical cell size, invariant multi-plane norm, or bootstrap-selected threshold is supplied"
+  },
+  "finite_cell": {
+    "angular_patch_flux": "Phi23=integral_Sigma (Kbar-1/L^2) dAbar",
+    "beta_dependence": "NONE FOR THE REGISTERED FIXED UNPRIMED COORDINATE FACES; a same-physical-cell comparison must transform the boundaries and preserves holonomy by pullback naturality",
+    "cell_semantics": "coordinate faces are symbolic integration domains, not a bootstrap-selected physical UDT cell",
+    "closed_angular_flux": "Phi23=2*pi*chi(Sigma)-Abar/L^2",
+    "radial_angular_fluxes": "Phi12=Phi13=0 in this representative",
+    "time_angular_fluxes": {
+      "Phi02_fixed_coframe_gauge": "Delta_t*c*ell2*exp(-2*phi_star)/L**2",
+      "Phi03_fixed_coframe_gauge": "Delta_t*c*ell3*exp(-2*phi_star)/L**2"
+    },
+    "tphi_boundary_connection_integral": "(c/L)(t1-t0)(exp(-2phi1)-exp(-2phi0))",
+    "tphi_exact_holonomy": "H01=exp(-Phi01 J01) for dV+omega V=0 and the registered loop orientation; reversing orientation or generator sign reverses the rapidity sign",
+    "tphi_flux_Phi01": "(c/L)(t1-t0)(exp(-2phi1)-exp(-2phi0))",
+    "tphi_holonomy_matrix": [
+      [
+        "cosh(Phi01)",
+        "-sinh(Phi01)"
+      ],
+      [
+        "-sinh(Phi01)",
+        "cosh(Phi01)"
+      ]
+    ],
+    "zero_closed_angular_flux_condition": "Abar=2*pi*chi*L^2; for topology S2 this is Abar=4*pi*L^2",
+    "zero_flux_not_imposed": true
+  },
+  "holonomy_scope": {
+    "exact": "t-phi face only, because its restricted connection uses one commuting boost generator",
+    "not_exactly_flux": "generic time-angular and angular finite holonomies require path ordering/non-Abelian Stokes data; raw curvature flux is not a gauge-invariant replacement",
+    "small_loop": "H=I+Omega(area bivector)+higher-order terms in a fixed local trivialization"
+  },
+  "maximum_conclusion": "IN_THE_DECLARED_CONDITIONAL_FOUR_DIMENSIONAL_RECIPROCAL_WARPED_PRODUCT_REPRESENTATIVE_THE_ACCELERATING_FRAME_IS_AN_EXACT_PULLBACK; BETA_DOT_AND_BETA_DOUBLE_DOT_GENERATE_NO_CURVATURE_IN_THE_FULL_SIX_PLANE_CARTAN_CENSUS_OR_REGISTERED_FIXED_FACE_FLUXES; BETA_CAN_STILL_LABEL_SHIFTED_POSITION_IN_ORTHONORMAL_COMPONENTS; THE_TPHI_COORDINATE_CELL_HAS_AN_EXACT_SO11_HOLONOMY_AND_THE_ANGULAR_FLUX_EXACTLY_COMBINES_INTRINSIC_CURVATURE_WITH_MINUS_ONE_OVER_L_SQUARED; A_PHYSICAL_EQUIVALENCE_WINDOW_REMAINS_OPEN_BECAUSE_PHYSICAL_CELL_SIZE_NORM_THRESHOLD_AND_OMITTED_TWIST_SHEAR_SECTORS_ARE_NOT_SELECTED",
+  "python": "3.10.12",
+  "representative": {
+    "angular_seed": "qbar=exp(2sigma(u,v))(du^2+dv^2); Kbar=-exp(-2sigma)(sigma_uu+sigma_vv)",
+    "coframe": {
+      "theta0": "c exp(-(phi+beta)) dt",
+      "theta1": "L exp(phi-beta)(dphi-beta_dot dt)",
+      "theta2": "exp(phi-beta+sigma(u,v)) du",
+      "theta3": "exp(phi-beta+sigma(u,v)) dv"
+    },
+    "psi": "phi-beta(t)",
+    "scope": "full six-plane Cartan curvature of the conditional four-dimensional reciprocal warped-product representative; base-dependent angular twist/shear excluded"
+  },
+  "schema": "udt-accelerating-finite-cell-cartan-1.0",
+  "spin_connection_coordinate_basis": {
+    "beta_dependence": "IN THE CHOSEN PULLED-BACK COFRAME GAUGE, beta and all time derivatives cancel from the fully expanded coordinate one-forms; spin connection coefficients are gauge-dependent",
+    "omega01": "(-c*exp(-2*phi)/L)*dt",
+    "omega12": "(-exp(sigma(u, v))/L)*du",
+    "omega13": "(-exp(sigma(u, v))/L)*dv",
+    "omega23": "(Derivative(sigma(u, v), v))*du + (-Derivative(sigma(u, v), u))*dv"
+  },
+  "sympy": "1.13.1"
+}

@@ -1,0 +1,19 @@
+id	component	exact_result	status	remaining_gate
+C01	dynamic orthonormal coframe	theta0=c exp(-(phi+beta))dt; theta1=L exp(phi-beta)(dphi-beta_dot dt); angular thetaa=exp(phi-beta)barthetaa	EXACT_CONDITIONAL	Warped-product representative only
+C02	torsion	all four Cartan torsion forms vanish	DERIVED_PER_REPRESENTATIVE	No independent connection adopted
+C03	spin connection beta dependence	in the chosen pulled-back coframe gauge beta beta_dot and beta_double_dot cancel from the fully expanded coordinate one-forms	EXACT_GAUGE_SCOPED_RESULT	Spin connection is gauge-dependent and the coframe remains beta-dependent
+C04	Omega01	-2 exp(-2psi)/L^2 theta0 wedge theta1	DERIVED_PER_REPRESENTATIVE	Underlying reciprocal curvature is nonzero
+C05	Omega02 and Omega03	+exp(-2psi)/L^2 theta0 wedge theta2 or theta3	DERIVED_PER_REPRESENTATIVE	Time-angular curvature remains
+C06	Omega12 and Omega13	zero	DERIVED_IN_WARPED_PRODUCT_CLASS	Base-dependent angular shear or twist may change these planes
+C07	Omega23	exp(-2psi)(Kbar-1/L^2) theta2 wedge theta3	DERIVED_PER_REPRESENTATIVE	Intrinsic angular metric remains free
+C08	Cartan identities	torsion first Bianchi and second Bianchi vanish exactly	IDENTITY	Not a field equation or selector
+C09	acceleration curvature	beta_dot and beta_double_dot generate no curvature in all six planes; beta remains through shifted position in orthonormal coefficients	EXACT_PURE_FRAME_RESULT	Does not identify gravity with acceleration
+C10	t-phi flux	Phi01=(c/L)Delta_t(exp(-2phi1)-exp(-2phi0))	EXACT_FINITE_CELL_FLUX	Coordinate face is symbolic not a selected physical cell
+C11	t-phi holonomy	H01=exp(-Phi01 J01) for dV+omega V=0 and the registered orientation	EXACT_RESTRICTED_HOLONOMY	Orientation or generator reversal changes the rapidity sign; not a generic formula
+C12	time-angular flux	Phi02 and Phi03 scale as (c/L^2)exp(-2phi_star)Delta_t times angular coframe length	EXACT_FIXED_GAUGE_FLUX	Raw component flux is gauge-dependent
+C13	radial-angular flux	Phi12=Phi13=0	EXACT_IN_WARPED_PRODUCT_CLASS	Twist and shear sectors excluded
+C14	angular patch flux	Phi23=integral(Kbar-1/L^2)dAbar	EXACT_FINITE_CELL_FLUX	Does not select angular geometry
+C15	closed angular flux	Phi23=2pi chi-Abar/L^2 by Gauss-Bonnet	EXACT_GLOBAL_IDENTITY	Topology and area remain unselected
+C16	zero angular flux	would require Abar=2pi chi L^2; S2 topology would give 4pi L^2	CONDITIONAL_CONSEQUENCE	Zero flux topology and roundness are not derived
+C17	generic finite holonomy	requires path ordering and transported curvature; raw flux is not generally equal to holonomy	OPEN_EXACT_GENERIC_HOLONOMY	Complete cell connection path and gauge data
+C18	physical equivalence window	coordinate faces are not selected physical cells; no selected cell size multi-plane invariant norm or threshold	OPEN	Bootstrap or complete-solution selection rule
