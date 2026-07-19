@@ -1,0 +1,147 @@
+{
+  "bootstrap_selects_branch": false,
+  "boundary_completion": "OPEN",
+  "branch_A_metric_only": "UNRESOLVED_TRIAL",
+  "branch_B_auxiliary_constraint": "UNRESOLVED_TRIAL",
+  "common_trial": {
+    "diffeomorphism_covariance": "RETAIN_TRIAL_CONDITIONAL",
+    "finite_mirrored_cell": "CANONIZED_BINDING",
+    "four_dimensions": "INHERITED",
+    "full_finite_cell_diffeomorphism_group": "UNRESOLVED_TRIAL",
+    "unrestricted_variation_of_declared_fields": "RETAIN_TRIAL"
+  },
+  "complete_action": "OPEN",
+  "density_normalization_invented": false,
+  "derivative_order": "OPEN_NOT_ADOPTED",
+  "field_census_selected": false,
+  "gpu_used": false,
+  "invariant_inventory": "OPEN_NOT_ADOPTED",
+  "locality": "OPEN_NOT_ADOPTED",
+  "matter_or_carrier_assumed": false,
+  "metric_is_theory_excludes_auxiliary_bookkeeping": "NOT_ESTABLISHED",
+  "mode": "CPU_ONLY_EXACT_SYMBOLIC",
+  "native_source": "OPEN",
+  "next_missing_selector": "native off-shell field/constraint authority: a theorem excluding auxiliary varied constraints, or a derived constraint functional requiring one",
+  "promoted_action": "NONE",
+  "result": "PASS",
+  "sympy_version": "1.13.1",
+  "tests": {
+    "T2_generic_KKT": {
+      "equivalence_requires": "C=0 plus proof that lambda*grad(C) is redundant",
+      "metric_only_equations": [
+        "Derivative(S_0(x, y), x)",
+        "Derivative(S_0(x, y), y)"
+      ],
+      "metric_plus_constraint_equations": [
+        "lambda*Derivative(C(x, y), x) + Derivative(S_0(x, y), x)",
+        "lambda*Derivative(C(x, y), y) + Derivative(S_0(x, y), y)",
+        "C(x, y)"
+      ],
+      "off_shell_equivalence": false,
+      "result": "PASS"
+    },
+    "T3_redundant_and_reactive": {
+      "aligned": {
+        "C": "x + y - 3",
+        "S0": "(x - 1)**2 + (y - 2)**2",
+        "classification": "REDUNDANT_AT_REALIZED_ROOT_ONLY",
+        "constrained_root": {
+          "lambda": "0",
+          "x": "1",
+          "y": "2"
+        },
+        "metric_only_root": {
+          "x": "1",
+          "y": "2"
+        }
+      },
+      "inference": "shared roots can occur, but reactive constraints change the variational problem",
+      "reactive": {
+        "C": "x + y - 1",
+        "S0": "x**2 + y**2",
+        "classification": "NONZERO_NORMAL_REACTION",
+        "constrained_root": {
+          "lambda": "-1",
+          "x": "1/2",
+          "y": "1/2"
+        },
+        "metric_only_constraint_residual": "-1",
+        "metric_only_root": {
+          "x": "0",
+          "y": "0"
+        }
+      },
+      "result": "PASS"
+    },
+    "T4_penalty_and_elimination": {
+      "finite_penalty": {
+        "action": "alpha*(x + y - 1)**2/2 + x**2 + y**2",
+        "constraint_residual": "-1/(alpha + 1)",
+        "effective_reaction": "-alpha/(alpha + 1)",
+        "exact_for_finite_positive_alpha": false,
+        "root": {
+          "x": "alpha/(2*alpha + 2)",
+          "y": "alpha/(2*alpha + 2)"
+        },
+        "singular_limit": "alpha -> infinity"
+      },
+      "hard_elimination": {
+        "equals_branch_A": false,
+        "reason": "variation is restricted to the constraint tangent space",
+        "reduced_action": "2*x**2 - 2*x + 1",
+        "root": "1/2",
+        "substitution": "y=1-x",
+        "tangent_equation": "4*x - 2"
+      },
+      "result": "PASS"
+    },
+    "T5_covariance_field_census": {
+      "field_census_selected_by_covariance": false,
+      "finite_gauge_analogue": {
+        "action": "(u - v)**2",
+        "delta_u": "epsilon",
+        "delta_v": "epsilon",
+        "identity": "0"
+      },
+      "illustrative_4D_bulk_witness": {
+        "CSN_weights": "w_W=-4; w_lambda=0",
+        "W": "C_abcd*C^abcd (represented by curvature amplitude c**2)",
+        "branch_A": "integral_M sqrt(|g|) W",
+        "branch_B": "integral_M sqrt(|g|) (1+lambda) W",
+        "classification": "CATEGORY_A_EXISTENCE_WITNESS_NOT_NATIVE_ACTION",
+        "complete_UDT_universe": false,
+        "lambda_equation": "W=0",
+        "shared_bulk_root": "flat reciprocal metric (phi=0, W=0) on a finite cell"
+      },
+      "metric_only_noether_identity": "2*nabla_mu(E_g^{mu}{}_{nu}) = 0",
+      "metric_plus_scalar_noether_identity": "2*nabla_mu(E_g^{mu}{}_{nu}) = E_lambda*nabla_nu(lambda)",
+      "on_auxiliary_shell": "E_lambda=0 restores the metric-only divergence identity",
+      "result": "PASS",
+      "scope": "bulk diffeomorphism identity; boundary differentiability remains separate"
+    },
+    "T6_CSN_weight": {
+      "caveat": "C must transform homogeneously; local inhomogeneous terms require a separate audit",
+      "classification_only": true,
+      "constraint_or_multiplier_derived": false,
+      "constraint_scalar_weight": "w_C",
+      "dimension": 4,
+      "required_multiplier_weight": "-w_C - 4",
+      "result": "PASS",
+      "sqrt_g_weight": 4,
+      "total_integrand_weight": "0"
+    },
+    "T7_finite_cell_boundary": {
+      "boundary_completion_selected": false,
+      "inference": "a covariant bulk constraint can alter the finite-cell differentiability problem",
+      "one_dimensional_anchor": {
+        "E_lambda": "Derivative(q(z), z)",
+        "E_q": "-Derivative(lambda(z), z) - Derivative(q(z), (z, 2))",
+        "L": "lambda(z)*Derivative(q(z), z) + Derivative(q(z), z)**2/2",
+        "added_constraint_boundary_piece": "lambda(z)*delta(q)",
+        "endpoint_variation": "(lambda(z) + Derivative(q(z), z))*delta(q)"
+      },
+      "result": "PASS"
+    }
+  },
+  "top_level_outcome": "BOTH_CONDITIONALLY_ADMISSIBLE"
+}

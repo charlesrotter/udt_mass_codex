@@ -1,0 +1,162 @@
+{
+  "adversarial_audit": {
+    "required_statements": 6,
+    "result": "PASS",
+    "reviewers": 2
+  },
+  "artifact_moves": 0,
+  "base": "378eac0ae0b615f4e64828d50bbe5d7d027393c1",
+  "catchproof": {
+    "bundled_EH_promotion_rejected": "PASS",
+    "covariance_metric_only_promotion_rejected": "PASS",
+    "dirty_metadata_drift_rejected": "PASS",
+    "discarded_reactive_case_rejected": "PASS",
+    "dropped_constraint_boundary_term_rejected": "PASS",
+    "false_finite_penalty_equivalence_rejected": "PASS",
+    "frozen_package_mutation_rejected": "PASS",
+    "missing_multiplier_equation_rejected": "PASS",
+    "overstated_branch_selection_rejected": "PASS",
+    "scope_escape_rejected": "PASS",
+    "source_hash_mutation_rejected": "PASS",
+    "wrong_CSN_multiplier_weight_rejected": "PASS"
+  },
+  "changed_paths": [
+    "gr_constraint_paired_trial_2026-07-18/ADVERSARIAL_AUDIT.md",
+    "gr_constraint_paired_trial_2026-07-18/DERIVATION_REPORT.md",
+    "gr_constraint_paired_trial_2026-07-18/DERIVATION_RESULT.json",
+    "gr_constraint_paired_trial_2026-07-18/LAY_DECISION_TREE.md",
+    "gr_constraint_paired_trial_2026-07-18/PREMISE_LEDGER.tsv",
+    "gr_constraint_paired_trial_2026-07-18/PREREGISTRATION.md",
+    "gr_constraint_paired_trial_2026-07-18/SHA256SUMS.txt",
+    "gr_constraint_paired_trial_2026-07-18/STATUS_LEDGER.tsv",
+    "gr_constraint_paired_trial_2026-07-18/VERIFICATION_RESULT.json",
+    "gr_constraint_paired_trial_2026-07-18/derive_gr_constraint_trial.py",
+    "gr_constraint_paired_trial_2026-07-18/requirements-cpu.txt",
+    "gr_constraint_paired_trial_2026-07-18/verify_gr_constraint_trial.py"
+  ],
+  "cpu_dependency": {
+    "gpu_imports": [],
+    "result": "PASS",
+    "sympy": "1.13.1"
+  },
+  "dirty_checkout_metadata_rows": 54,
+  "dirty_content_policy": "NOT_READ",
+  "frozen_package_replays": [
+    {
+      "manifest_entries_passed": 29,
+      "package": "native_action_stage1_2026-07-18/arm_A",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 30
+    },
+    {
+      "manifest_entries_passed": 15,
+      "package": "native_action_stage1_2026-07-18/arm_B",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 16
+    },
+    {
+      "manifest_entries_passed": 13,
+      "package": "native_action_stage2_2026-07-18/arm_A",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 14
+    },
+    {
+      "manifest_entries_passed": 13,
+      "package": "native_action_stage2_2026-07-18/arm_B",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 14
+    },
+    {
+      "manifest_entries_passed": 21,
+      "package": "native_action_arm_c_2026-07-18",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 22
+    },
+    {
+      "manifest_entries_passed": 36,
+      "package": "native_action_final_adjudication_2026-07-18",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 37
+    }
+  ],
+  "gpu_used": false,
+  "grok_integration_authorized": false,
+  "independent_CSN_weight": {
+    "result": "PASS",
+    "total": "0",
+    "w_lambda": "-w - 4"
+  },
+  "independent_KKT": {
+    "equations": [
+      "eta*Derivative(K(p, q), p) + Derivative(F(p, q), p)",
+      "eta*Derivative(K(p, q), q) + Derivative(F(p, q), q)",
+      "K(p, q)"
+    ],
+    "result": "PASS"
+  },
+  "independent_boundary": {
+    "endpoint_coefficient": "mu(z) + Derivative(f(z), z)",
+    "result": "PASS"
+  },
+  "independent_covariance": {
+    "field_census_selected": false,
+    "finite_identity": "0",
+    "illustrative_4D_bulk_root_checks": [
+      "0",
+      "0",
+      "0"
+    ],
+    "metric_plus_scalar_identity": "2 div(E_g)=E_lambda grad(lambda)",
+    "result": "PASS"
+  },
+  "independent_paired_anchors": {
+    "aligned_lambda": "0",
+    "reactive_lambda": "-3",
+    "result": "PASS"
+  },
+  "independent_penalty": {
+    "finite_exact": false,
+    "residual": "-1/(beta + 1)",
+    "result": "PASS"
+  },
+  "mode": "INDEPENDENT_CPU_ONLY_GR_CONSTRAINT_TRIAL_VERIFY",
+  "navigation": {
+    "current_paths": 1114,
+    "frontier": [
+      306,
+      101
+    ],
+    "links": 0
+  },
+  "package_manifest": {
+    "entries_passed": 10,
+    "manifest_sha256": "8d5c617d9bb611f67b15524b34271de7f121ea9a71fa14d8e131cf85bc2c63a2",
+    "result": "PASS"
+  },
+  "preregistration_commit": "3e1d8a3cb6cb9ea3589f75e55f93b7cececa0ea4",
+  "report_contract": {
+    "required_statements": 13,
+    "result": "PASS"
+  },
+  "reported_outcome": "BOTH_CONDITIONALLY_ADMISSIBLE",
+  "result": "PASS",
+  "source_hashes": {
+    "UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md": "4bb0da9098da0a9970602e2449615eef151796b0d7fe7a9978f4b66145748a34",
+    "UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md": "db4a426b021e375fa4bca0d870aaf973de319de3b08072195d001a056630832d",
+    "bootstrap_variation_selector_2026-07-18/DERIVATION_REPORT.md": "05a84a7bfeca3d78c628a3a6a343463db11497d66c5889ac0590655728d056f9",
+    "bootstrap_variation_selector_2026-07-18/SHA256SUMS.txt": "cad3c4f0dccc1599c5b4ff48c6adafa32fb64b590e4ef4f0f6e20e5e96de9bed",
+    "bootstrap_variation_selector_2026-07-18/STATUS_LEDGER.tsv": "d271b483a02e0732bbab7f597b59827810586894ea29a8717f3cfff3c87949e6",
+    "native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv": "70cab9d5e10b03e0e3418129b67155e01d9f805c4397c69ef8795c4d2aaa5dfd"
+  },
+  "test_baseline": {
+    "baseline_match": true,
+    "command": "python3 -m pytest tests/",
+    "expected_failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "failed": 1,
+    "passed": 69,
+    "python": "3.10.12",
+    "returncode": 1,
+    "scope": "full",
+    "xfailed": 1
+  }
+}
