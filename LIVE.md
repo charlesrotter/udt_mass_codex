@@ -1,12 +1,15 @@
 # LIVE — the only guaranteed-current file (READ ME FIRST)
 
-**⚠ BRANCH: work is on `grok` (2026-07-10).** If not on it: `git checkout grok`. `main` is stale for this arc.
+**⚠ BRANCH: work is on `grok` (2026-07-19).** If not on it: `git checkout grok`. `main` is stale for this arc.
 **The CURRENT STATE block below is the only current frontier** — read it and stop.
 Stale historical frontier layers live under `archive/LIVE_historical_frontier_through_2026-07-08.md`
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
-**⚠ TWO LIVE LANES (2026-07-17):** the **PARTICLE-MASS lane** (H3 stability→mass→basin arc) is COMPLETE-and-WAITING —
-read `LIVE.md` CURRENT STATE topmost (below; next action = WAIT on Charles's desk items) →
+**⚠ CURRENT SCIENTIFIC FRONTIER (2026-07-19):** after this CURRENT STATE block read
+`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`. The bootstrap/stable-matter interpretation is a
+`WORKING_HYPOTHESIS`; the time-live soliton selector audit is `PROPOSED_NOT_PREREGISTERED` and has
+not been launched. The **PARTICLE-MASS lane** (H3 stability→mass→basin arc) remains complete in its
+stated static finite-box scope — read
 `noNull_behavioral_F_results.md` + `noNull_boundary_virial_results.md` + `noNull_phaseG_mass_results.md` →
 **`stability_branch_follow_256_DECISION.md`** (detailed arc record) → MEMORY.md TOP. The **MACRO lane** (simple-metric / WR-L) is a separate ongoing lane; its read
 order is: **`UDT_METHOD_MUSIC.md`** → **`UDT_DOTTED_LINE.md`** → **`UDT_ELEGANCE_UNCOVER.md`** → **`SIMPLE_METRIC_MACRO.md`**.
@@ -30,7 +33,36 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-18 — H3 PARTICLE-MASS arc COMPLETE THROUGH F: stability SETTLED (twice-verified) → G conditional mass readout → boundary-virial (BOX-STRESS LEAD) → audit patch → **F finite-slice characterization DONE (83 endpoints, no resolved basin exit; single robust basin = STRONG LEAD; verifier 51/51)**. Native-action Stage I/II A/B, adversarial Arm C, final A/B/C adjudication, external clean-environment verification, and GR→UDT selector audit COMPLETE. R0–R1H REORGANIZATION CHECKPOINT COMPLETE and VERIFIED; five active artifacts remain the only byte-identical content migrations; no row is newly move-ready. Further repository reorganization is PAUSED pending explicit dispatch. Canonization, GPU work, and further arms NOT launched.) ============
+## ============ CURRENT STATE (2026-07-19 — JULY 18–19 SCIENTIFIC SELECTOR CHAIN COMPLETE AND VERIFIED THROUGH CO-PRESENCE GR-CONSTRAINT REGRADE. Reciprocal clock/ruler/optical linkage DERIVED only in the registered static reciprocal class; universal realization, action, source, scale calibration, unconditional mass, and bridge OPEN. Co-presence = whole-solution membership, not instantaneous propagation. Bootstrap variation placement UNDERDETERMINED. Proposed next = CPU-first time-live soliton selector audit, NOT PREREGISTERED OR LAUNCHED. H3 static finite-box stability remains settled within its carrier/box premises; time-live matter theorem remains OPEN. R0–R1H reorganization remains PAUSED. No canonization or GPU work.) ============
+
+**➤➤➤ JULY 18–19 SCIENTIFIC FRONTIER — COMPLETE EVIDENCE, NEXT STUDY ONLY PROPOSED:**
+- **READ NEXT:** `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then the exact package evidence it names.
+- **✅ BOOTSTRAP:** current wording is `ON_SHELL_CLOSURE_OR_ADMISSIBILITY`; pre-scale versus
+  post-scale variation and a two-stage bridge remain `UNDERDETERMINED`.
+- **✅ FIELD/CONSTRAINT SELECTORS:** metric-only and metric-plus-auxiliary witnesses remain
+  `BOTH_CONDITIONALLY_ADMISSIBLE` in the bounded trial. Reciprocity does not currently supply a
+  nontrivial local algebraic metric constraint or a universal local metric-only spacetime-line
+  realization rule.
+- **✅ INFINITE-c / OPTICAL / CO-PRESENCE ADJUDICATION:** literal infinite conversion at the same
+  foundation layer would replace current Reciprocal-c Identity; regulated/projective and
+  atemporal-global readings remain compatible. The conditional static reciprocal metric links clock
+  dilation, reciprocal ruler dilation, redshift, and adapted optical slope, while normalized local
+  null speed stays `c_0`. Co-presence is whole-solution event membership, not zero travel duration,
+  signalling, or constraint propagation.
+- **✅ GR-CONSTRAINT REGRADE:** prior exact algebra survives. Hamiltonian- and momentum-like
+  equations require a parent UDT law plus foliation; initial-data status additionally requires
+  principal-part, admissible-data, and propagation analysis. No native ADM constraint, lapse/shift
+  ontology, field census, action, source, or bridge was selected. Final package manifest:
+  `022f3c97916e38f29260812c14ad0136574d1908c70aabc7d4e56ae99d78f7bc`.
+- **WORKING HYPOTHESIS, NOT RESULT:** bootstrap may select law/parameter/solution combinations that
+  permit stable matter in a complete time-live finite universe.
+- **PROPOSED_NOT_PREREGISTERED:** freeze the scoped soliton and compare minimal time-live completions
+  with CPU-only linear spectra, constraint propagation, boundary flux, and shared-versus-dependent
+  stability tests. Stability must be independently defined, not fitted to preserve a preferred
+  soliton. No solve or GPU launch follows from this navigation checkpoint.
+- **OPEN:** parent whole-solution law, field census, variation domain, representative map, complete
+  action/source, finite-cell differentiable boundary action, normalized charge, carrier emergence,
+  unconditional mass, and dynamical bridge.
 
 **➤➤➤ R1H EFFECTIVE-REGISTRY CHECKPOINT — REORGANIZATION PAUSED (2026-07-18):**
 - **✅ R0–R1F COMPLETE:** fixed historical inventories, preregistrations, planning records, and
@@ -85,9 +117,9 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
   derive C², EH, or a two-stage bridge.
 - **STOP / AUTHORITY BOUNDARY:** this is an adjudicated ledger and selector map, not canonization.
   No carrier is adopted. No GPU work, further arms, canonization, or further repository migration is
-  authorized by this layer. Await Charles's next direction.
+  authorized by this layer. Its prior “await direction” frontier is superseded by the July 19 block.
 
-**➤➤➤ TOPMOST LAYER (2026-07-16 — read this + the two result docs, then stop):**
+**➤➤➤ PRIOR PARTICLE LAYER (2026-07-16 — retained evidence; July 19 block is current):**
 - **G (conditional mass readout on the corrected carrier) COMPLETE** — `noNull_phaseG_mass_results.md`
   (verifier PASS 90/90; commit `493d104`). All gates crushed (r_P~1e-12 via direct DST-I 7-point solve;
   Gauss 4e-12). CONDITIONAL (EH lapse) unit response: **M_N⁽⁰⁾=2E4; continuum 2E4≈283.3–283.5 vs
@@ -117,7 +149,8 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
   = STRONG LEAD within the preregistered finite-grid slice**, not a literal class for all endpoints.
   Endpoint hashes unchanged. Scope: relaxation/basin behavior in the L=6 frame — NOT dynamics,
   NOT infinite-volume, NOT a mass statement.
-- **⏳ ON CHARLES'S DESK:** (1) audit of the F return (+ the G / boundary-virial / audit-patch chain);
+- **[SUPERSEDED AS FRONTIER BY THE JULY 19 BLOCK ABOVE; RETAINED AS JULY 18 HISTORY] ON CHARLES'S
+  DESK:** (1) audit of the F return (+ the G / boundary-virial / audit-patch chain);
   (2) review the frozen final native-action adjudication and the GR→UDT selector audit; (3) any
   canonization (stability seal; basin characterization; native-action status); (4) direction for the
   next push. No native-action continuation, GPU launch, carrier adoption, or further repository

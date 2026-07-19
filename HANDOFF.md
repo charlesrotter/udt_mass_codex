@@ -3,11 +3,41 @@
 > **READ `LIVE.md` FIRST** — only guaranteed-current frontier + next action.
 > If this file disagrees with LIVE.md, **LIVE.md wins.**
 >
-> **⚠ BRANCH: work is on `grok` (2026-07-10).** If not on it: `git checkout grok`. `main` is stale for this arc.
+> **⚠ BRANCH: work is on `grok` (2026-07-19).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-18 — H3 particle-mass arc complete; native-action final adjudication and selector audit complete; R0–R1H reorganization checkpoint complete and paused)
+## CURRENT (2026-07-19 — co-presence/constraint-selector chain complete; time-live bootstrap study proposed but not launched; reorganization paused)
 
-**Read LIVE.md CURRENT STATE topmost layer first.** Session arc 07-13→16 in one paragraph:
+**Read LIVE.md CURRENT STATE topmost layer first, then
+`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`.** The July 18–19 scientific chain is complete and verified:
+
+- bootstrap remains `ON_SHELL_CLOSURE_OR_ADMISSIBILITY`; variation placement and the two-stage
+  bridge are `UNDERDETERMINED`;
+- the bounded field-census trial is `BOTH_CONDITIONALLY_ADMISSIBLE` and selects neither branch;
+- the reciprocal static metric conditionally unifies clock dilation, reciprocal ruler dilation,
+  redshift, and adapted optical slope, while normalized local null speed remains `c_0` and universal
+  material realization stays open;
+- co-presence is whole-solution event-domain membership, not zero travel duration, instantaneous
+  influence, or constraint propagation;
+- the final GR-constraint regrade preserves prior algebra but selects no native Hamiltonian or
+  momentum constraint, lapse/shift ontology, field census, action, source, or bridge. A future
+  Hamiltonian-like UDT equation requires a parent law and foliation; initial-data status additionally
+  needs principal-part, data, and propagation proofs;
+- complete action, source, finite-cell differentiable boundary completion, normalized charge,
+  carrier emergence, unconditional mass, and the parent whole-solution law remain open.
+
+**WORKING HYPOTHESIS, NOT A RESULT:** bootstrap may select the law/parameter/solution combinations
+that sustain stable matter in a complete time-live finite universe.
+
+**PROPOSED_NOT_PREREGISTERED:** freeze the existing scoped static finite-box soliton and compare the
+smallest admissible time-live completions with CPU-only linearized spectra, constraint propagation,
+boundary flux, and shared-versus-completion-dependent stability tests. Stability must be specified
+independently. No time-live solve, carrier adoption, GPU work, or dynamical completion is authorized
+by this handoff.
+
+Final July 19 package: `copresence_gr_constraint_regrade_2026-07-19/`; manifest
+`022f3c97916e38f29260812c14ad0136574d1908c70aabc7d4e56ae99d78f7bc`.
+
+Prior particle session arc 07-13→17 in one paragraph:
 
 **R1H EFFECTIVE-REGISTRY CHECKPOINT COMPLETE AND VERIFIED:** R1E batch planning and R1F/B01 are integrated. Fixed
 historical inventories, preregistrations, planning records, and verification records remain
@@ -79,7 +109,7 @@ STRONG finite-slice LEAD**, not the literal class of all endpoints. Repaired ver
 byte-restored; endpoint NPZ hashes unchanged. Scope: basin behavior, NOT dynamics/infinite-volume/
 mass. Records: `noNull_behavioral_F_results.md` + `noNull_F_*.json` + `F_evidence/`.
 
-**Pending Charles:** audit of the F return; review the frozen native-action final adjudication and
+**[SUPERSEDED AS FRONTIER BY THE JULY 19 CURRENT BLOCK; RETAINED AS JULY 18 HISTORY] Pending Charles:** audit of the F return; review the frozen native-action final adjudication and
 GR→UDT selector audit; canonization calls; next-push direction. No native-action continuation,
 carrier adoption, GPU launch, or further repository migration follows without a new dispatch.
 **Key commits:** da51ec4→1c2196c (spectrum cert), d131557 (inertia seal), 493d104 (G), 837d633

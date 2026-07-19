@@ -24,11 +24,14 @@ Before interpreting the frontier, read from disk in this exact order:
 
 1. `LIVE.md` — its topmost `CURRENT STATE` overrides every other status description.
 2. `HANDOFF.md` — top/current block only.
-3. `stability_branch_follow_256_DECISION.md` — for the decision and operator history.
+3. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — current scientific checkpoint, status distinctions,
+   and the proposed-but-not-launched next study.
 4. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task.
-5. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline.
-6. The relevant full protocols under `.claude/skills/*/SKILL.md`.
-7. `INDEX.md` and the top of `MEMORY.md` for pointers only; neither can overrule `LIVE.md`.
+5. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
+   is durable lane evidence, not the global frontier.
+6. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline.
+7. The relevant full protocols under `.claude/skills/*/SKILL.md`.
+8. `INDEX.md` and the top of `MEMORY.md` for pointers only; neither can overrule `LIVE.md`.
 
 For current artifact locations, use `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`. The R0–R1C
 ownership, readiness, census, preregistration, and verification records are fixed historical
@@ -38,6 +41,11 @@ like every instruction in this file, it cannot overrule `LIVE.md`.
 Then give Charles a short orientation report: actual HEAD and dirt, the current honest claim, its
 premise stamps, the open gate, and the proposed bounded next action. Do not mutate files or launch a
 long solve until that orientation is complete.
+
+The current bootstrap/stable-matter interpretation is a working hypothesis, and the time-live
+soliton selector audit is proposed but not preregistered or launched. Do not silently turn that
+navigation pointer into authority to choose a dynamical completion, adopt a carrier, run GPU work,
+or claim a bootstrap parameter-selection theorem.
 
 ## Codex/Claude compatibility
 

@@ -3,14 +3,28 @@
 This root is the control and navigation surface for the UDT research record.
 After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
-[`stability_branch_follow_256_DECISION.md`](stability_branch_follow_256_DECISION.md)
+[`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md)
 → the exact evidence named by those files for the active lane. `AGENTS.md`
 supplies operational instructions and binding research discipline, but it
 cannot overrule the topmost current-state block in `LIVE.md`.
 
+For particle operator history after current orientation, consult
+[`stability_branch_follow_256_DECISION.md`](stability_branch_follow_256_DECISION.md). It is durable
+particle-lane evidence, not the global scientific frontier.
+
 [`INDEX.md`](INDEX.md) is the repository map; [`CANON.md`](CANON.md),
 [`NEGATIVES_REGISTRY.md`](NEGATIVES_REGISTRY.md), and
 [`PROVENANCE.md`](PROVENANCE.md) are the main status and evidence ledgers.
+
+## Scientific checkpoint — July 19, 2026
+
+The verified bootstrap, Reciprocity, infinite-c, optical-flow, co-presence, and GR-constraint
+selector chain is summarized in
+[`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md). The current working
+hypothesis is that bootstrap may select law/parameter/solution combinations capable of sustaining
+stable matter in a complete time-live finite universe. A CPU-first time-live comparison of the
+existing scoped soliton is proposed but not preregistered or launched. It is not a derived bootstrap
+law, carrier adoption, action choice, mass theorem, canonization, or GPU authorization.
 
 ## Repository reorganization checkpoint R0–R1H
 

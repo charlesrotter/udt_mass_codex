@@ -1,7 +1,16 @@
-# INDEX — Repo Map (2026-07-10 lean)
+# INDEX — Repo Map (2026-07-19 lean)
 
-**⚠ BRANCH: `grok` (2026-07-10)** — `main` is stale for this arc; `git checkout grok`.
+**⚠ BRANCH: `grok` (2026-07-19)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
+**➤ CURRENT SCIENTIFIC FRONTIER:** `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`. The verified chain runs
+from bootstrap variation-domain underdetermination through the final co-presence GR-constraint
+regrade. Current maximum conclusion: reciprocal/optical/co-presence kinematic structure is clarified,
+but no parent whole-solution law, action, source, field census, native ADM constraint, lapse/shift
+ontology, material realization, carrier emergence, unconditional mass, or C2/EH bridge is selected.
+The bootstrap/stable-matter interpretation is a `WORKING_HYPOTHESIS`; a CPU-first comparison of the
+scoped soliton across minimal time-live completions is `PROPOSED_NOT_PREREGISTERED` and not launched.
+Start evidence at `copresence_gr_constraint_regrade_2026-07-19/DERIVATION_REPORT.md`, then follow its
+source crosswalk and the frontier's nine-package table. No GPU work or canonization is authorized.
 **R1H EFFECTIVE-REGISTRY CHECKPOINT — COMPLETE, VERIFIED, AND PAUSED:** R1E batch planning and R1F/B01 are complete. Fixed historical
 inventories and planning records remain immutable. Five active artifacts moved byte-identically:
 one R1D note and four behaviorally verified R1F macro verifiers. Resolve present locations through
@@ -52,19 +61,21 @@ Audit patch: `noNull_boxscout_build.py` (+_start_rebuilt npz manifested).
 Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`, `boundary_audit_patch_2026-07-16/`,
 `verifier_evidence_2026-07-14/`, `artifact_manifest.json` (SHA-256 of all npz).  
 **Frame:** simple metric + **WR-L / C-2026-07-09-1** (\(A=1-r/X\)).  
-**NEXT (MACRO lane only — 2026-07-10, may be stale; the PARTICLE lane's next = LIVE.md topmost = WAIT on Charles):** Thread B time-live eigenmode about drained f2d; residual L time-live appearance still live.  
+**HISTORICAL MACRO NEXT (2026-07-10; not the current global frontier):** Thread B time-live eigenmode about drained f2d; residual L time-live appearance. Follow the July 19 frontier before reviving either.
 **Quarantine:** free \(D_A\) → `grok/quarantine_free_DA/` (not live theory verdicts).
 
 ---
 
 ## Reading order
 
-1. **`LIVE.md`** FRONTIER  
-2. **`MEMORY.md`** TOP (disk)  
-3. **`HANDOFF.md`** CURRENT block  
-4. **`CLAUDE.md`** principles + how-we-work + DRIVER TRIGGERS  
-5. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed  
-6. This INDEX → specific result docs  
+1. **`LIVE.md`** CURRENT STATE
+2. **`HANDOFF.md`** CURRENT block
+3. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`**
+4. The exact frozen evidence named by that frontier for the active question
+5. **`MEMORY.md`** TOP (disk) for a compact pointer
+6. **`CLAUDE.md`** principles + how-we-work + DRIVER TRIGGERS
+7. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
+8. This INDEX → specific result docs
 
 ---
 
@@ -106,7 +117,7 @@ Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`,
 | Time-live appearance MAP | `simple_metric_timelive_residual_appearance_MAP.md` |
 | Time-live AP exact derive | `simple_metric_timelive_AP_exact_derive_results.md` |
 | SNe / cascade history | `simple_metric_pantheon_*`, `simple_metric_mass_xmax_cascade.md`, … |
-| Orientation | `LIVE.md`, `MEMORY.md`, `HANDOFF.md`, this INDEX |
+| Orientation | `LIVE.md`, `HANDOFF.md`, `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, `MEMORY.md`, this INDEX |
 | Discipline | `CLAUDE.md`, `.claude/skills/`, `tests/` |
 
 ---

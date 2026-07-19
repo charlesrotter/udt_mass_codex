@@ -4,24 +4,32 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-07-18)
+## TOP — CURRENT POINTER (2026-07-19)
 
-**LIVE.md CURRENT STATE is authoritative.** Native-action Stage I/II A/B, isolated Arm C, and the
-final mechanical A/B/C adjudication are complete and frozen. Final entry point:
-`native_action_final_adjudication_2026-07-18/FINAL_ADJUDICATION_REPORT.md`; commit `ded310a`; package
-manifest `57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33`. Status split:
-reciprocal kinematics DERIVED; C²/Bach UNIQUE-CONDITIONAL; EH/S²/mass CONDITIONAL; complete
-action/source/boundary charge OPEN. `native_action_external_verifier_2026-07-18/` independently
-replayed 24/24 CAS scripts from a clean pinned-SymPy CPU environment and confirmed all six immutable
-package states unchanged. `UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md` is the current dependency map:
-4D inherited; fields/covariance/locality/variation domain/derivative order open; finite-cell boundary
-ontology modified with its differentiable action/charge open. The smallest immediate fork is
-pre-scale equivalence-class versus post-scale representative variation; it is not a complete-action
-selector. No carrier is adopted. Await Charles; no canonization, GPU work, further arms, or repository
-reorganization is authorized by this layer.
+**LIVE.md CURRENT STATE is authoritative.** Read `HANDOFF.md`, then
+`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`. The verified July 18–19 selector chain now extends the frozen
+native-action adjudication through bootstrap variation-domain underdetermination, paired field-census
+trials, Reciprocity/off-shell and spacetime-line selectors, infinite-c adjudication, invariant
+optical flow, reciprocal clock/ruler/optical linkage, co-presence causal accessibility, and the final
+GR-constraint regrade.
 
-The H3 particle-mass arc remains complete through F with the scope stamps in LIVE/HANDOFF and
-`stability_branch_follow_256_DECISION.md`.
+Current honest status: reciprocal kinematics remain derived under exact premises; C²/Bach remains
+unique-conditional; EH/S²/present mass remains conditional; complete action, native source,
+finite-cell differentiable boundary completion, normalized charge, representative selection,
+carrier emergence, unconditional mass, and the bridge remain open. Co-presence means whole-solution
+event-domain membership, not instantaneous propagation. Existing bootstrap is on-shell
+closure/admissibility and does not yet select variation placement, fields, action, or a bridge. Prior
+constraint algebra survives, but no native ADM constraint or lapse/shift ontology is selected.
+
+`WORKING_HYPOTHESIS`: bootstrap may select law/parameter/solution combinations that sustain stable
+matter in a complete time-live finite universe. `PROPOSED_NOT_PREREGISTERED`: freeze the existing
+scoped static finite-box soliton and compare minimal time-live completions using CPU-only linear
+spectra, constraint propagation, boundary flux, and shared-versus-completion-dependent stability.
+No solve, carrier adoption, GPU work, canonization, or repository reorganization is authorized by
+this pointer.
+
+The H3 particle-mass arc remains complete in its static finite-box/carrier scope. Its operator history
+is in `stability_branch_follow_256_DECISION.md`; it is not a full time-live matter theorem.
 
 ## DURABLE PRIOR MACRO FRONTIER (2026-07-09 simple metric + WR-L canon)
 
