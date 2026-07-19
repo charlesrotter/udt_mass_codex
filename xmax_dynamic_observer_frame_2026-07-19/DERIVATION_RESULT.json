@@ -1,0 +1,108 @@
+{
+  "acceleration_and_curvature": {
+    "accelerated_witness_beta_half_at2_Gamma_phi_tt": "a0**2*t**2 - a0 - c**2*exp(-4*phi)/L**2",
+    "classification": "VELOCITY_AND_ACCELERATION_ENTER_THE_METRIC_DERIVED_CONNECTION_BUT_ADD_NO_NEW_SCALAR_CURVATURE_ON_THE_PURE_GAUGE_OBSERVER_ORBIT",
+    "curvature_interpretation": "R is exactly the original scalar evaluated at phi'=phi-beta(t); beta_dot and beta_double_dot cancel",
+    "nonzero_connection_components": {
+      "Gamma^phi_phiphi": "1",
+      "Gamma^phi_tphi": "-2 beta_dot",
+      "Gamma^phi_tt": "beta_dot^2-beta_double_dot-(c^2/L^2)exp(-4phi)",
+      "Gamma^t_tphi": "-1"
+    },
+    "pullback_metric_1plus1": "exp(-2beta)[-exp(-2phi)c^2dt^2+exp(2phi)L^2(dphi-beta_dot dt)^2]",
+    "scalar_curvature": "R=-4 exp(-2(phi-beta(t)))/L^2",
+    "scope": "coordinate/frame acceleration in the conditional 1+1 depth slice, not a force or equivalence principle",
+    "uniform_witness_beta_vt_Gamma_phi_tt": "v0**2 - c**2*exp(-4*phi)/L**2"
+  },
+  "adjudication": {
+    "accelerating_observers": "ARBITRARY_SMOOTH_BETA_FRAME_PATHS_SUPPORTED KINEMATICALLY; PHYSICAL OBSERVER INTERPRETATION REQUIRES THE TIMELIKE BOUND; BETA_DOUBLE_DOT ENTERS LEVI_CIVITA_CONNECTION",
+    "action": "NOT_SELECTED",
+    "frame_principle": "EXTENDS_BEYOND_STATIC_RECENTERING_BUT_CURRENT_DYNAMIC_CLOSURE_IS_METRIC_DIFFEO_COVARIANCE_NOT_YET_A_PHYSICAL_EQUIVALENCE_PRINCIPLE",
+    "invariant_effect": "NO_NEW_SCALAR_CURVATURE_FROM_BETA_DERIVATIVES_ON_PURE_GAUGE_ORBIT",
+    "moving_observers": "EXACT_CONDITIONAL_DYNAMIC_FRAME_ORBIT_EXISTS_WITH_FORCED_OFF_DIAGONAL_SHIFT",
+    "speed_bound": "CONDITIONAL_TIMELIKE_BOUND_ON_OBSERVER_DEPTH_TRAJECTORY_ONLY"
+  },
+  "checks": {
+    "absorbed_pullback_shift_sign": "PASS",
+    "active_depth_connection_sign": "PASS",
+    "beta_t2_finite_time_map_image": "PASS",
+    "dynamic_beta_derivatives_cancel_from_scalar_curvature": "PASS",
+    "dynamic_complete_metric_pullback": "PASS",
+    "dynamic_connection_000": "PASS",
+    "dynamic_connection_001": "PASS",
+    "dynamic_connection_011": "PASS",
+    "dynamic_connection_100": "PASS",
+    "dynamic_connection_101": "PASS",
+    "dynamic_connection_111": "PASS",
+    "dynamic_frame_composed_depth_shift": "PASS",
+    "dynamic_frame_composed_time_derivative": "PASS",
+    "dynamic_pullback_determinant": "PASS",
+    "dynamic_scalar_curvature_pullback": "PASS",
+    "dynamic_time_depth_cross_term_forced": "PASS",
+    "dynamic_time_scale_unique_positive_solution": "PASS",
+    "exact_depth_connection_zero_curvature": "PASS",
+    "naive_time_product_rejected_when_beta_dot_nonzero": "PASS",
+    "naive_time_product_rule_defect": "PASS",
+    "trajectory_norm_factorization": "PASS",
+    "trajectory_null_boundary": "PASS",
+    "trajectory_proper_time_factor": "PASS"
+  },
+  "depth_connection": {
+    "absorbed_pullback_shift": "in fixed unprimed coordinates, dphi'=dphi+a_shift with a_shift=-d beta",
+    "active_transformed_connection": "from a=0, a_prime=+d beta",
+    "classification": "METRIC_PULLBACK_FORCES_A_PURE_GAUGE_DEPTH_CONNECTION_ON_THE_OBSERVER_ORBIT",
+    "covariant_depth_coframe": "Dphi=dphi+a",
+    "curvature": "da_prime=da_shift=0 identically for smooth beta",
+    "local_recenter": "phi->phi-beta(x); a->a+d beta keeps Dphi invariant",
+    "not_claimed": "independent connection field, force, nonzero holonomy, or dynamics",
+    "sign_convention": "a_prime and a_shift are different representations and must not be identified"
+  },
+  "dynamic_composition": {
+    "classification": "EXACT_LOCAL_DYNAMIC_FRAME_COMPOSITION_PSEUDOGROUP; GLOBAL_GROUP_REQUIRES_COMMON_DOMAINS_AND_SURJECTIVITY",
+    "combined_parameter": "beta12(t)=beta1(t)+beta2(T_beta1(t))",
+    "combined_time_derivative": "dT2/dt=exp(-2 beta12(t))",
+    "first_map": "T1=T_beta1(t), phi1=phi-beta1(t)",
+    "global_counterexample": "beta(t)=t^2 on R maps time only onto (-sqrt(pi/8),sqrt(pi/8))",
+    "inverse": "exists on the image of each chart interval because T_beta is strictly monotone; a global R-to-R inverse additionally requires surjectivity",
+    "second_map": "T2=T_beta2(T1), phi2=phi1-beta2(T1)",
+    "structure": "lifted composition law of orientation-preserving time diffeomorphisms; beta=-one_half log(T_prime) is constrained by T"
+  },
+  "full_metric_pullback": {
+    "classification": "EXACT_DYNAMIC_FULL_METRIC_ORBIT_CLOSURE; STATIC_DIAGONAL_SUBFAMILY_NOT_CLOSED",
+    "common_factor": "exp(-2beta(t))",
+    "complete_pullback": "F_beta^*g0=exp(-2beta)[-exp(-2phi)c^2dt^2+exp(2phi)h_ij(dz^i-delta_phi^i beta_dot dt)(dz^j-delta_phi^j beta_dot dt)]",
+    "diagonal_family": "not closed for beta_dot nonzero",
+    "forced_depth_one_form": "dphi'=dphi-beta_dot dt",
+    "frame_map": "T'=T_beta(t); phi'=phi-beta(t); y'=y",
+    "off_diagonal_orbit": "closed exactly, including time-depth and any h_phiA-induced time-transverse terms",
+    "scope": "stationary F_beta-invariant spatial seed and fixed F3 time action"
+  },
+  "maximum_conclusion": "THE_CONDITIONAL_XMAX_FRAME_EXTENDS_TO_ARBITRARY_SMOOTH_TIME_DEPENDENT_POSITIONAL_RECENTERINGS_WHEN_THE_FULL_OFF_DIAGONAL_METRIC_ORBIT_IS_RETAINED; ONLY_THE_TIMELIKE_SUBSET_QUALIFIES_AS_CONDITIONAL_OBSERVER_TRAJECTORIES; THE_METRIC_PULLBACK_FORCES_A_PURE_GAUGE_DEPTH_SHIFT_AND_LEVI_CIVITA_TERMS_CONTAINING_BETA_DOT_AND_BETA_DOUBLE_DOT; THE_CONDITIONAL_METRIC_SUPPLIES_AN_EXACT_TIMELIKE_BOUND; OBSERVER_DERIVATIVES_CANCEL_FROM_SCALAR_CURVATURE; COMPOSITION_IS_LOCAL_ON_COMPATIBLE_CHARTS_AND_IS_NOT_A_GLOBAL_GROUP_WITHOUT_ADDITIONAL_DOMAIN_AND_SURJECTIVITY_PREMISES; NO_EQUIVALENCE_PRINCIPLE_ACTION_MATTER_SPEED_LAW_OR_GLOBAL_SEAL_BRIDGE_IS_DERIVED",
+  "python": "3.10.12",
+  "schema": "udt-xmax-dynamic-observer-frame-1.0",
+  "seal_and_action": {
+    "action": "not selected; covariance of an eventual action and boundary functional remains open",
+    "classification": "OPEN_GLOBAL_FIELD_BOUNDARY_AND_DYNAMICAL_COMPLETION",
+    "seal": "time-dependent relational shift does not derive a map to the absolute static Phi=0 seal"
+  },
+  "sympy": "1.13.1",
+  "time_map": {
+    "classification": "EXACT_DYNAMIC_TIME_MAP_IN_FIXED_F3_FRAME_FAMILY",
+    "constant_limit": "beta constant gives T_beta=exp(-2beta)t plus an additive origin",
+    "differential_map": "dT_beta=exp(-2 beta(t)) dt",
+    "integrated_map": "T_beta(t)=T0+integral_from_t0_to_t exp(-2 beta(s)) ds",
+    "monotonicity": "dT_beta/dt>0 for every finite real beta",
+    "rejected_shortcut": "T=exp(-2beta(t))t has an extra -2t beta_dot term",
+    "uniqueness": "positive common-CSN-factor requirement fixes n_beta=exp(-2beta)"
+  },
+  "trajectory_causality": {
+    "classification": "EXACT_CONDITIONAL_CAUSAL_CLASSIFICATION_IN_DIAGONAL_RECIPROCAL_DEPTH_METRIC",
+    "dimensionless_local_depth_speed": "w=(L/c) exp(2beta) beta_dot",
+    "null": "|w|=1",
+    "proper_time": "d tau/dt=exp(-beta) sqrt(1-w^2) on the timelike branch",
+    "scope": "observer-trajectory tangent only; not a material speed law or derived light dynamics",
+    "spacelike": "|w|>1",
+    "timelike": "|w|<1 equivalently L|beta_dot|<c exp(-2beta)",
+    "trajectory": "phi=beta(t)"
+  }
+}

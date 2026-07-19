@@ -1,0 +1,5 @@
+id	purpose	exact_command	python	sympy	exit_code	output_artifact	output_sha256	compute
+E01	primary exact dynamic-frame algebra	env PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES='' python3 -B xmax_dynamic_observer_frame_2026-07-19/derive_xmax_dynamic_frame.py	3.10.12	1.13.1	0	DERIVATION_TRANSCRIPT.txt	7f36a9eb8c48ff04f3f766e4cf015c5d9e73f852854e0960c3d62423d3d50f1a	CPU_ONLY
+E02	independent algebra semantic catches and adversarial-correction checks	env PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES='' python3 -B xmax_dynamic_observer_frame_2026-07-19/verify_xmax_dynamic_frame.py	3.10.12	1.13.1	0	VERIFICATION_TRANSCRIPT.txt	f80a1dfe5bdb03a7fc00862326268b85361d73c18722a95d1bff7eea68e68fc6	CPU_ONLY
+E03	fixed source inventory	env PYTHONDONTWRITEBYTECODE=1 python3 -B xmax_dynamic_observer_frame_2026-07-19/build_source_inventory.py	3.10.12	N/A	0	SOURCE_INVENTORY.tsv	17a11b56d3b36bd9c6f69ca15bae89987791143fc8860581d078e2c2a315eaeb	CPU_ONLY
+E04	repository test baseline	env PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES='' python3 -m pytest tests/	3.10.12	N/A	1_EXPECTED_BASELINE	TEST_TRANSCRIPT.txt	0dd72e6b3dea5d7ab3676fa164066d3c923c8aae94e135141d49577f89dd4d0b	CPU_ONLY

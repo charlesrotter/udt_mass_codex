@@ -1,0 +1,14 @@
+id	question	result	status	remaining_gate
+S01	Does the Xmax frame extend to moving observers?	Yes for arbitrary smooth frame paths beta(t) when the forced off-diagonal metric orbit is retained; only the timelike subset are conditional observer trajectories	EXACT_CONDITIONAL	Static diagonal subfamily does not close and no physical observer dynamics is selected
+S02	Does it extend to accelerating observers?	Yes kinematically for smooth frame paths; beta_double_dot enters the metric-derived connection	EXACT_CONDITIONAL	A physical observer must satisfy the timelike bound; no observer dynamics or equivalence principle derived
+S03	What time coordinate is required?	dT=exp(-2beta(t))dt, not T=exp(-2beta(t))t	DERIVED_IN_FIXED_F3	Time-exponent counterfamilies remain outside declared frame
+S04	Does the metric itself supply shift terms?	Yes; dphi becomes dphi-beta_dot dt and forces all cross terms	DERIVED_BY_PULLBACK	Shift is coordinate/coframe structure, not new matter
+S05	Is a new connection field required?	No; active a_prime=+d beta and absorbed pullback a_shift=-d beta are distinct exact conventions with zero curvature	PURE_GAUGE	Independent nonzero-curvature connection remains open and unmotivated
+S06	Do moving trajectories have a metric speed bound?	Timelike iff L|beta_dot|<c exp(-2beta)	CONDITIONAL_CAUSAL_CLASSIFICATION	Not a universal matter or signal speed law
+S07	Does acceleration create physical curvature?	No on the observer pullback orbit; beta derivatives cancel from scalar curvature	REFUTED_IMPLICATION	Base curvature remains and is evaluated at the shifted point
+S08	Is this more than static symmetry?	Yes as an exact dynamic metric/coframe orbit	VERIFIED_WITH_CAVEATS	Its dynamic closure is still generic diffeomorphism covariance, not a physical equivalence principle
+S09	Does it derive moving-observer forces or geodesics?	No	OPEN	Requires a native action and observer/matter definition
+S10	Does it solve the relational-depth versus absolute-seal seam?	No	OPEN_ROLE_DISTINCTION	Derived field/boundary transformation
+S11	Does it derive c or Xmax?	No; both remain unchanged symbolic parameters	OPEN_VALUE_ORIGIN	Global bootstrap and native mass closure
+S12	Does it select the action or matter?	No	OPEN	Variation source boundary carrier and mass remain
+S13	Maximum conclusion	Arbitrary smooth moving/accelerating positional frame paths are supported kinematically by the full metric orbit with a pure-gauge depth shift; only timelike paths qualify as conditional observers	VERIFIED_WITH_CAVEATS	Composition is chart-local absent global premises; no equivalence principle action or physical motion law

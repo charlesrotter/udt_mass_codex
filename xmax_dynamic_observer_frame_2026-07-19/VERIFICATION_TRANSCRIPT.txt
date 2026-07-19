@@ -1,0 +1,53 @@
+Script started on 2026-07-19 19:29:11-04:00 [<not executed on terminal>]
+{
+  "catch_proofs": {
+    "action_invented": "PASS",
+    "active_connection_sign_reversed": "PASS",
+    "beta_double_dot_connection_deleted": "PASS",
+    "complete_metric_orbit_deleted": "PASS",
+    "composition_time_argument_deleted": "PASS",
+    "connection_conventions_conflated": "PASS",
+    "equivalence_principle_invented": "PASS",
+    "forced_cross_terms_deleted": "PASS",
+    "local_composition_promoted_to_global_group": "PASS",
+    "naive_time_map_restored": "PASS",
+    "non_surjective_counterexample_deleted": "PASS",
+    "observer_connection_promoted": "PASS",
+    "pullback_shift_sign_reversed": "PASS",
+    "pure_gauge_curvature_invented": "PASS",
+    "seal_action_closure_invented": "PASS",
+    "spurious_acceleration_curvature_added": "PASS",
+    "trajectory_bound_promoted_to_matter": "PASS",
+    "trajectory_causal_bound_deleted": "PASS"
+  },
+  "checks": {
+    "deterministic_primary_replay_and_contract": "PASS",
+    "fresh_context_adversarial_corrections_recorded": "PASS",
+    "independent_accelerated_curvature_cancellation": "PASS",
+    "independent_connection_signs_curvature_and_local_composition": "PASS",
+    "independent_dynamic_metric_shift_and_signature": "PASS",
+    "independent_time_map_and_naive_defect": "PASS",
+    "independent_trajectory_causal_bound": "PASS",
+    "ledger_coverage": "PASS",
+    "no_control_or_canon_edits": "PASS",
+    "report_contract": "PASS",
+    "source_inventory_replay": "PASS"
+  },
+  "independent_witnesses": {
+    "absorbed_pullback_shift": "-d beta",
+    "accelerated_beta": "accel*t^2/2",
+    "accelerated_scalar": "-4*exp(accel*t**2 - 2*phi)/L**2",
+    "active_connection_from_zero": "+d beta",
+    "beta_t2_time_map_image": "(-sqrt(pi/8),sqrt(pi/8))",
+    "conditional_null_depth_speed": "c exp(-2beta)/L",
+    "depth_connection_curvatures": "0",
+    "dynamic_metric_determinant": "-exp(-4beta)c^2L^2",
+    "time_scale": "exp(-2beta)"
+  },
+  "python": "3.10.12",
+  "result": "PASS",
+  "schema": "udt-xmax-dynamic-observer-verification-1.0",
+  "sympy": "1.13.1"
+}
+
+Script done on 2026-07-19 19:29:16-04:00 [COMMAND_EXIT_CODE="0"]

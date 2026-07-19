@@ -1,0 +1,19 @@
+id	component	exact_result	status	remaining_gate
+D01	dynamic time differential	dT=exp(-2beta(t))dt uniquely matches the fixed-F3 spatial CSN factor	EXACT_CONDITIONAL	Other time-exponent/coframe families remain outside this audit
+D02	integrated time coordinate	T(t)=T0+integral exp(-2beta(s))ds is strictly monotone	EXACT	Global chart interval/completeness remains solution-dependent
+D03	naive product time map	T=exp(-2beta(t))t has an extra -2t beta_dot term	REJECTED	None in declared differential test
+D04	depth differential	dphi'=dphi-beta_dot dt	EXACT	Requires retaining off-diagonal metric terms
+D05	static diagonal metric family	nonzero beta_dot forces time-depth and possible time-transverse cross terms	NOT_CLOSED	May be used only for beta constant
+D06	complete metric orbit	full pullback closes with common exp(-2beta) factor and forced shift	EXACT_CONDITIONAL	Stationary invariant seed and fixed-F3 frame premises
+D07	local depth connection	active a_prime=+d beta from a=0; absorbed pullback shift a_shift=-d beta; both have da=0	PURE_GAUGE_DERIVED	The two sign conventions must not be identified; non-exact connection curvature is not supplied
+D08	dynamic frame composition	beta12(t)=beta1(t)+beta2(T_beta1(t)) and dT2/dt=exp(-2beta12)	EXACT_LOCAL_PSEUDOGROUP	A global group requires compatible domains and surjective time maps
+D09	moving observer trajectory	w=(L/c)exp(2beta)beta_dot classifies tangent	EXACT_IN_CONDITIONAL_DEPTH_METRIC	Not a material velocity law
+D10	timelike boundary	L|beta_dot|<c exp(-2beta)	CONDITIONAL_METRIC_CAUSAL_BOUND	Physical observer/carrier dynamics open
+D11	proper time	dtau/dt=exp(-beta)sqrt(1-w^2) on timelike branch	EXACT_CONDITIONAL	Clock interpretation inherits metric premise
+D12	accelerated connection	Gamma^phi_tt contains -beta_double_dot and beta_dot squared; Gamma^phi_tphi=-2beta_dot	METRIC_DERIVED	No force law follows
+D13	scalar curvature	R=-4 exp(-2(phi-beta(t)))/L^2; beta derivatives cancel	EXACT_PURE_FRAME_RESULT	Other invariants/full 4D seed follow diffeomorphism covariance but were not exhaustively expanded
+D14	constant drift witness	beta=v0 t gives forced constant shift and connection v0 terms	EXACT_WITNESS	Timelike interval depends on beta and v0
+D15	accelerated witness	beta=a0 t squared/2 gives explicit -a0 connection term	EXACT_WITNESS	No physical acceleration profile selected
+D16	frame-principle grade	dynamic closure is metric diffeomorphism/coframe covariance with UDT-specific reciprocal/projective inputs	VERIFIED_WITH_CAVEATS	Not yet an equivalence principle or action symmetry
+D17	absolute seal	dynamic relational shift supplies no map to fixed absolute Phi=0 boundary	OPEN_ROLE_BOUNDARY_JOIN	Complete field/boundary action
+D18	action/source/matter	no selection follows	OPEN	Native action source carrier and mass
