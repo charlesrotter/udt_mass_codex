@@ -1,0 +1,42 @@
+{
+  "mode": "CPU_ONLY_READ_ONLY_REPOSITORY_GATES",
+  "base": "28628be883dd37b0982dfb8ceeb41e46f1aa0d9b",
+  "tests": {
+    "command": "python3 -m pytest tests/",
+    "python": "3.10.12",
+    "pytest": "9.1.1",
+    "result": "KNOWN_BASELINE",
+    "passed": 69,
+    "failed": 1,
+    "xfailed": 1,
+    "known_failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header"
+  },
+  "frozen_native_action_manifests": {
+    "result": "PASS",
+    "command": "sha256sum -c SHA256SUMS.txt in each frozen package",
+    "packages": {
+      "native_action_stage1_2026-07-18/arm_A": 29,
+      "native_action_stage1_2026-07-18/arm_B": 15,
+      "native_action_stage2_2026-07-18/arm_A": 13,
+      "native_action_stage2_2026-07-18/arm_B": 13,
+      "native_action_arm_c_2026-07-18": 21,
+      "native_action_final_adjudication_2026-07-18": 36
+    },
+    "entries_passed": 127,
+    "package_paths_including_six_manifests": 133
+  },
+  "external_frozen_verifier_attempt": {
+    "result": "NOT_RUN_OUTSIDE_PINNED_ENVIRONMENT",
+    "reason": "The verifier correctly requires a dedicated virtual environment and refused the system interpreter because /usr/pyvenv.cfg was absent.",
+    "effect": "No frozen package was modified. Internal manifests were replayed separately. The previously banked pinned-environment 24/24 CAS result is not claimed as freshly rerun here."
+  },
+  "original_workstation_checkout": {
+    "inspection": "git status metadata only; file contents unread",
+    "dirty_metadata_entries": 54,
+    "modified_tracked_entries": 3,
+    "untracked_entries": 51,
+    "result": "UNCHANGED_BY_AUDIT"
+  },
+  "gpu": "NOT_USED",
+  "navigation_or_reorganization": "NOT_TOUCHED"
+}

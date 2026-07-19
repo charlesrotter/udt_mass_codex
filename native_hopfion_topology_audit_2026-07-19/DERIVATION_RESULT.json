@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "canonical_hopf_charge": "1",
+    "canonical_hopf_charge_is_one": true,
+    "chern_simons_density": "-sin(2*eta)",
+    "chern_simons_integral": "-4*pi**2",
+    "csn_preserves_null_condition": true,
+    "csn_scaled_metric_null_norm": "conformal**2*omega**2*u1**2 + conformal**2*omega**2*u2**2 + conformal**2*omega**2*u3**2 - conformal**2*omega**2",
+    "hedgehog_has_nonzero_primary_flux": true,
+    "hedgehog_s2_flux": "4*pi",
+    "hopf_target_identity_zero": true,
+    "normalized_gradient_frobenius_zero": true,
+    "projective_null_condition": "omega**2*u1**2 + omega**2*u2**2 + omega**2*u3**2 - omega**2",
+    "projective_null_fiber_is_s2": true,
+    "unit_s2_area_chern_simons_integral": "-16*pi**2",
+    "unit_s2_area_hopf_charge": "1",
+    "unit_s2_area_hopf_charge_is_one": true
+  },
+  "classification_limits": {
+    "canonical_hopf_map": "mathematical positive control only",
+    "gradient_s2": "hypersurface-orthogonal where defined; not a generic carrier map",
+    "hedgehog_flux": "nonzero primary pi2 flux; not a localized zero-flux Hopf configuration",
+    "null_s2": "celestial conformal/topological S2 fiber of the projective null-line cone after the conditional 4D Lorentzian readout; not a fixed round carrier target or selected section; future positive rays additionally require chosen time orientation"
+  },
+  "method": "exact Hopf-coordinate Chern-Simons integration plus independent algebraic target/flux/null checks",
+  "python": "3.10.12",
+  "sympy": "1.13.1"
+}
