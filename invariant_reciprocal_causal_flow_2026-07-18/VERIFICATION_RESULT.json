@@ -41,6 +41,7 @@
     "invariant_reciprocal_causal_flow_2026-07-18/REVIEW_INVARIANT_GEOMETRY.md",
     "invariant_reciprocal_causal_flow_2026-07-18/SHA256SUMS.txt",
     "invariant_reciprocal_causal_flow_2026-07-18/STATUS_LEDGER.tsv",
+    "invariant_reciprocal_causal_flow_2026-07-18/VERIFICATION_RESULT.json",
     "invariant_reciprocal_causal_flow_2026-07-18/derive_invariant_causal_flow.py",
     "invariant_reciprocal_causal_flow_2026-07-18/requirements-cpu.txt",
     "invariant_reciprocal_causal_flow_2026-07-18/verify_invariant_causal_flow.py"
