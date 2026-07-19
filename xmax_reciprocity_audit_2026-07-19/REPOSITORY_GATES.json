@@ -1,0 +1,196 @@
+{
+  "authority_boundary": {
+    "action_constructed": false,
+    "canon_changed": false,
+    "carrier_adopted": false,
+    "new_principle_adopted": false,
+    "repository_reorganization_performed": false,
+    "startup_controls_changed": false,
+    "time_live_solve_performed": false
+  },
+  "base": "35a7423e018e67c1aa02aef8932d0c92f036bd4b",
+  "catch_proofs": {
+    "dirty_metadata_loss_rejected": "PASS",
+    "frozen_manifest_corruption_rejected": "PASS",
+    "missing_current_path_rejected": "PASS",
+    "missing_frontier_target_rejected": "PASS",
+    "out_of_scope_change_rejected": "PASS",
+    "package_hash_failure_rejected": "PASS",
+    "prior_science_manifest_corruption_rejected": "PASS"
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_work_performed": false
+  },
+  "dirty_checkout": {
+    "contents_read": false,
+    "metadata_sha256": "4bc96070c841a14c497b642ee7b93dcf9061372f770aee065d6b495ee4996f4c",
+    "paths": 54
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 20,
+    "result": "PASS",
+    "sha256": "9b1dbd9a38176f9cc4996771485b3d459d83b425e64cd3ac63454350914c2fb3"
+  },
+  "prior_scientific_packages": {
+    "entries": 211,
+    "packages": [
+      {
+        "entries": 14,
+        "manifest_sha256": "6f03f82d485d4a20c2d2bfc13dc8979c1b229bf92c53f0eb36831abf3d75febc",
+        "package": "native_hopfion_topology_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 16,
+        "manifest_sha256": "e195d14349407c23e4a050628ec84298d3d35e23e2c25b5cf285a5c81f8e989b",
+        "package": "null_section_hopfion_metric_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest_sha256": "64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50",
+        "package": "angular_toric_closure_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest_sha256": "9c074cc83b0815607c1a4a36f8dffeac09bf79c9d0f5aee74a356b21e87bf470",
+        "package": "transverse_reciprocal_realization_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest_sha256": "32e523d44142cd36904a66f385890c5c417d9b827d0ac3cf956bdb48a838004b",
+        "package": "projective_transport_section_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest_sha256": "01ed5557bb94a1df99209d37b1eb5e4eefae4486978be34ab09dafb73aeac17b",
+        "package": "reciprocal_metric_null_line_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest_sha256": "1a48e574835ee3838514294a7badd2415a74cdb0d10cf0545c30d3698ab022d2",
+        "package": "bootstrap_csn_phi_angular_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 14,
+        "manifest_sha256": "d4ce35881bfd79952083da84bd5bd7f80b6d21b0e69d698059e1695c6f90ba6d",
+        "package": "reciprocal_clock_optical_scale_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 16,
+        "manifest_sha256": "14e13dd27aa7036a6fef7db9208681459b86c06186bfffc7990ee877947d8356",
+        "package": "copresence_causal_accessibility_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest_sha256": "022f3c97916e38f29260812c14ad0136574d1908c70aabc7d4e56ae99d78f7bc",
+        "package": "copresence_gr_constraint_regrade_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest_sha256": "5121270039c91c654bcd9bb5667cb06c31a5b91dec3747ddf015df0129081812",
+        "package": "rung2_weld_postjuly_regrade_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest_sha256": "0e630938c516a0e70cfdb97924ebd6501bd4a97223909b038a22c341a653f1f7",
+        "package": "metric_cartan_holonomy_audit_2026-07-19",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS"
+  },
+  "result": "PASS",
+  "schema": "udt-xmax-reciprocity-repository-gates-v1",
+  "scope_paths": [
+    "xmax_reciprocity_audit_2026-07-19/AUDIT_REPORT.md",
+    "xmax_reciprocity_audit_2026-07-19/DERIVATION_RESULT.json",
+    "xmax_reciprocity_audit_2026-07-19/DERIVATION_TRANSCRIPT.txt",
+    "xmax_reciprocity_audit_2026-07-19/EXECUTION_LEDGER.tsv",
+    "xmax_reciprocity_audit_2026-07-19/EXTERNAL_ADVERSARIAL_REVIEW.md",
+    "xmax_reciprocity_audit_2026-07-19/POST_PREREG_PREMISE_REFINEMENT.md",
+    "xmax_reciprocity_audit_2026-07-19/PREREGISTRATION.md",
+    "xmax_reciprocity_audit_2026-07-19/RECIPROCITY_CANDIDATE_LEDGER.tsv",
+    "xmax_reciprocity_audit_2026-07-19/SHA256SUMS.txt",
+    "xmax_reciprocity_audit_2026-07-19/SOURCE_INVENTORY.tsv",
+    "xmax_reciprocity_audit_2026-07-19/STATUS_LEDGER.tsv",
+    "xmax_reciprocity_audit_2026-07-19/TEST_TRANSCRIPT.txt",
+    "xmax_reciprocity_audit_2026-07-19/VERIFICATION_RESULT.json",
+    "xmax_reciprocity_audit_2026-07-19/VERIFICATION_TRANSCRIPT.txt",
+    "xmax_reciprocity_audit_2026-07-19/build_manifest.py",
+    "xmax_reciprocity_audit_2026-07-19/build_source_inventory.py",
+    "xmax_reciprocity_audit_2026-07-19/derive_xmax_reciprocity.py",
+    "xmax_reciprocity_audit_2026-07-19/requirements.txt",
+    "xmax_reciprocity_audit_2026-07-19/verify_package_manifest.py",
+    "xmax_reciprocity_audit_2026-07-19/verify_repository_gates.py",
+    "xmax_reciprocity_audit_2026-07-19/verify_xmax_reciprocity.py"
+  ],
+  "tests": {
+    "baseline_match": true,
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest tests/",
+    "failed": 1,
+    "failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "passed": 69,
+    "stdout_sha256": "d59d39a34a6dc08c22a03c226a9e7ae777d01faed686800d0d07e49dd3ea685e",
+    "xfailed": 1
+  }
+}

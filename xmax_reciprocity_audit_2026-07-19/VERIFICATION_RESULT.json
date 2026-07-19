@@ -1,0 +1,56 @@
+{
+  "catch_proofs": {
+    "action_invented": "PASS",
+    "alternative_bounded_countergroup_deleted": "PASS",
+    "angular_counterfamily_deleted": "PASS",
+    "arithmetic_inverse_domain_failure_hidden": "PASS",
+    "chosen_XR1_and_metric_phi_premises_promoted": "PASS",
+    "conditional_position_group_promoted": "PASS",
+    "copresence_promoted": "PASS",
+    "finite_bound_falsely_promotes_XR1_uniqueness": "PASS",
+    "flat_isotropic_counterextension_deleted": "PASS",
+    "metric_counterwitness_ignored": "PASS",
+    "multiplicative_character_deleted": "PASS",
+    "seal_Xmax_identification_invented": "PASS"
+  },
+  "checks": {
+    "deterministic_derivation_and_contract": "PASS",
+    "independent_alternative_bounded_group_countermodel": "PASS",
+    "independent_conditional_and_flat_angular_algebras": "PASS",
+    "independent_endpoint_and_angular_counterfamily": "PASS",
+    "independent_metric_pullback_counterwitness": "PASS",
+    "independent_projective_matrix_character": "PASS",
+    "ledger_coverage": "PASS",
+    "no_control_or_canon_edits": "PASS",
+    "report_contract": "PASS",
+    "source_inventory_replay": "PASS"
+  },
+  "independent_witnesses": {
+    "alternative_bounded_group_A_composition": "9 - 4*sqrt(5)",
+    "alternative_bounded_group_A_product": "17 - 12*sqrt(2)",
+    "angular_curvature_classes": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "-1",
+        "-1"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ],
+    "flat_translation_commutator": "zero",
+    "projective_matrix_character": "PASS",
+    "proper_endpoint_over_X": "1 + pi/2",
+    "radial_ratio_xi_half": "512/625",
+    "radial_ratio_xi_zero": "32/81",
+    "time_ratio_alpha_one_third": "2"
+  },
+  "python": "3.10.12",
+  "result": "PASS",
+  "schema": "udt-xmax-reciprocity-verification-1.0",
+  "sympy": "1.13.1"
+}

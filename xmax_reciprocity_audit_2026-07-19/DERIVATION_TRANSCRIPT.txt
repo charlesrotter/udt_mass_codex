@@ -1,0 +1,185 @@
+Script started on 2026-07-19 18:32:18-04:00 [<not executed on terminal>]
+{
+  "adjudication": {
+    "CSN_representative": "ONE_GLOBAL_LENGTH_CAN_FIX_ONE_CONSTANT_SCALE_NOT_ARBITRARY_LOCAL_CONFORMAL_REPRESENTATIVE",
+    "Xmax_reciprocity": "EXACT_1D_MULTIPLICATIVE_RECIPROCITY_WITHIN_WORKING_XMAX_PLUS_CHOSEN_FRACTIONAL_LINEAR_XR1_AND_METRIC_PHI_JOIN; NOT_DERIVED_FROM_FINITE_BOUND_GENERIC_COMPOSITION_REVERSAL_ALONE",
+    "action": "NOT_SELECTED; CURRENT_FIELD_LOCALITY_VARIATION_DERIVATIVE_SOURCE_AND_BOUNDARY_GATES_REMAIN",
+    "angular_selector": "NOT_DERIVED; CHOSEN_NEGATIVE_CURVATURE_GROUP_EXTENSION_GENERATES_ROTATIONAL_HOLONOMY_BUT_ARBITRARY_WARP_AND_FLAT_ISOTROPIC_COUNTEREXTENSIONS_SURVIVE",
+    "copresence": "COMPATIBLE_WHOLE_SOLUTION_SEMANTICS_NOT_A_TRANSFORMATION_OR_ACTION_SELECTOR",
+    "finite_cell": "XMAX_ASYMPTOTIC_REACH_BOUNDARY_AND_STATIC_PHI_ZERO_SEAL_ARE_DISTINCT_UNLESS_NEW_MAP_DERIVED",
+    "full_metric_symmetry": "NOT_DERIVED_AND_REFUTED_FOR_NATURAL_MOBIUS_RECENTERING_IN_PINNED_STATIC_DIAGONAL_TRANSFORMATION_CLASS"
+  },
+  "alternative_bounded_group_countermodel": {
+    "classification": "EXACT_COUNTERMODEL_FINITE_BOUND_COMPOSITION_REVERSAL_AND_REGULARITY_DO_NOT_FORCE_FRACTIONAL_LINEAR_XR1_OR_MULTIPLICATIVE_A",
+    "compactification": "xi=f(u)=u/sqrt(1+u^2), u in R",
+    "composition": "xi boxplus eta=f(f_inverse(xi)+f_inverse(eta))",
+    "inverse_coordinate": "u=xi/sqrt(1-xi^2)",
+    "properties": "smooth ordered associative commutative group by conjugation of additive R; identity 0; inverse -xi; endpoints +-1",
+    "witness": {
+      "A_of_composition": "9 - 4*sqrt(5)",
+      "A_product": "17 - 12*sqrt(2)",
+      "xi": "1/sqrt(2)",
+      "xi_boxplus_xi": "2/sqrt(5)"
+    }
+  },
+  "angular_extension": {
+    "classification": "RADIAL_XR1_DOES_NOT_SELECT_ANGULAR_WARP_OR_HOLONOMY; ROTATIONAL_COMMUTATOR_REQUIRES_CHOSEN_NEGATIVE_CURVATURE_GROUP_EMBEDDING",
+    "conditional_isotropic_group": {
+      "algebra": "[Kx,Ky]=-Jz",
+      "commutator": "[[0, 0, 0, 0], [0, 0, 1, 0], [0, -1, 0, 0], [0, 0, 0, 0]]",
+      "meaning": "non-collinear recenterings conditionally generate angular rotation/local holonomy",
+      "premises": "CHOSEN standard Lorentz/negative-curvature position-space embedding",
+      "status": "CHOSE_CONDITIONAL_COMPARISON_NOT_DERIVED_FROM_1D_XR1_OR_ISOTROPY_HOMOGENEITY_ALONE"
+    },
+    "counterfamily_result": "SAME_RADIAL_PHI_COORDINATE_ALLOWS_LOCAL_ANGULAR_SECTIONAL_CURVATURE_MINUS_ONE_ZERO_OR_PLUS_ONE",
+    "flat_isotropic_counterextension": {
+      "collinear_law": "XR1",
+      "map": "u in R^3 -> x=X tanh(|u|) u/|u|",
+      "meaning": "bounded isotropic homogeneous ball realization with no forced rotational commutator",
+      "translation_algebra": "[Tx,Ty]=0"
+    },
+    "radial_data_counterfamily": {
+      "flat": {
+        "K_radial": "0",
+        "K_tangential": "0",
+        "f(phi)": "phi"
+      },
+      "hyperbolic": {
+        "K_radial": "-1",
+        "K_tangential": "-1",
+        "f(phi)": "sinh(phi)"
+      },
+      "spherical_local": {
+        "K_radial": "1",
+        "K_tangential": "1",
+        "f(phi)": "sin(phi)"
+      }
+    }
+  },
+  "bounded_composition": {
+    "additive_coordinate": "phi=atanh(xi)",
+    "classification": "EXACT_WITHIN_WORKING_XMAX_PLUS_CHOSEN_FRACTIONAL_LINEAR_XR1_LAW_SIGNED_ORIENTED_DOMAIN_AND_ADDITIVE_COORDINATE_TO_METRIC_PHI_IDENTIFICATION",
+    "composition": "(xi+eta)/(1+xi*eta)",
+    "domain": "xi=x/X_max in (-1,1)",
+    "endpoint_scope": "+-1 are not group elements; they are absorbing one-sided limits; (+1) composed (-1) is undefined 0/0",
+    "identity": "0",
+    "inverse": "-xi",
+    "metric_factor": "A=(1-xi)/(1+xi)=exp(-2 phi)",
+    "multiplicative_character": "A(xi composed eta)=A(xi)A(eta)",
+    "reversal_character": "A(-xi)=1/A(xi)"
+  },
+  "candidate_involutions": {
+    "arithmetic_x_to_X2_over_x": {
+      "classification": "VALID_INVOLUTION_ON_NONZERO_EXTENDED_DOMAIN_NOT_INTERNAL_MAXIMUM_REACH_RECIPROCITY",
+      "dimensionless_map": "xi -> 1/xi",
+      "witness": "xi=1/2 -> 2 outside (-1,1)"
+    },
+    "boundary_complement": {
+      "classification": "INVOLUTION_BUT_NOT_POSITIONAL_REVERSAL_OR_COMPOSITION_AUTOMORPHISM",
+      "composition_defect": "-(7*xi**2 - 10*xi - 5)/((xi + 3)*(2*xi - 5))",
+      "identity_image": "0 -> 1",
+      "map": "xi -> 1-xi on [0,1]"
+    },
+    "scale_dual": {
+      "classification": "VALID_POSITIVE_SCALE_INVOLUTION_BUT_NOT_SELF_MAP_OF_SUBMAXIMAL_REACH_DOMAIN",
+      "fixed_point": "sigma=X_max",
+      "map": "sigma -> X_max^2/sigma",
+      "witness": "sigma=X_max/2 -> 2 X_max"
+    }
+  },
+  "checks": {
+    "CSN_local_family_same_global_length": "PASS",
+    "CSN_local_modes_not_fixed_by_one_length": "PASS",
+    "XR1_A_composition_multiplicative": "PASS",
+    "XR1_A_exponential": "PASS",
+    "XR1_A_reversal_inverse": "PASS",
+    "XR1_additive_rapidity": "PASS",
+    "XR1_associative_1D": "PASS",
+    "XR1_commutative_1D": "PASS",
+    "XR1_endpoint_minus_absorbing_limit_formula": "PASS",
+    "XR1_endpoint_plus_absorbing_limit_formula": "PASS",
+    "XR1_identity_left": "PASS",
+    "XR1_identity_right": "PASS",
+    "XR1_invariant_spatial_metric": "PASS",
+    "XR1_inverse": "PASS",
+    "XR1_recenter_A_ratio": "PASS",
+    "XR1_recenter_formula": "PASS",
+    "XR2_inside_maps_outside_witness": "PASS",
+    "XR2_involution": "PASS",
+    "XR3_identity_not_preserved": "PASS",
+    "XR3_involution": "PASS",
+    "XR3_not_composition_homomorphism": "PASS",
+    "XR4_below_X_maps_above_X": "PASS",
+    "XR4_scale_fixed_point": "PASS",
+    "XR4_scale_involution": "PASS",
+    "Xmax_phi_diverges_at_reach_boundary": "PASS",
+    "Xmax_phi_neutral_at_x_zero": "PASS",
+    "alternative_A_composed_witness": "PASS",
+    "alternative_A_product_witness": "PASS",
+    "alternative_bounded_group_breaks_A_character": "PASS",
+    "alternative_compactification_derivative": "PASS",
+    "alternative_compactification_finite_endpoints": "PASS",
+    "alternative_compactification_odd": "PASS",
+    "alternative_compactification_origin": "PASS",
+    "angular_flat_radial_curvature": "PASS",
+    "angular_flat_tangential_curvature": "PASS",
+    "angular_hyperbolic_radial_curvature": "PASS",
+    "angular_hyperbolic_tangential_curvature": "PASS",
+    "angular_spherical_local_radial_curvature": "PASS",
+    "angular_spherical_local_tangential_curvature": "PASS",
+    "conditional_isotropic_noncollinear_commutator": "PASS",
+    "current_optical_primitive": "PASS",
+    "current_proper_endpoint_integral": "PASS",
+    "current_radial_metric_not_XR1_invariant": "PASS",
+    "current_vs_invariant_spatial_ratio": "PASS",
+    "flat_isotropic_extension_commuting_translations": "PASS",
+    "metric_no_constant_time_rescaling_can_restore_conformal_ratio": "PASS",
+    "metric_recenter_derivative": "PASS",
+    "metric_spatial_ratio_at_half": "PASS",
+    "metric_spatial_ratio_at_zero": "PASS",
+    "metric_time_ratio": "PASS"
+  },
+  "maximum_conclusion": "THE_CHOSEN_FRACTIONAL_LINEAR_XR1_LAW_HAS_AN_EXACT_MULTIPLICATIVE_A_CHARACTER_AND_REVERSAL_A_TO_A_INVERSE_AFTER_IDENTIFYING_ITS_ADDITIVE_COORDINATE_WITH_METRIC_PHI; FINITE_XMAX_AND_GENERIC_GROUP_AXIOMS_DO_NOT_FORCE_XR1; XR1_IS_NOT_A_SYMMETRY_OF_THE_PINNED_RECIPROCAL_METRIC_UNDER_NATURAL_RECENTERING; ANGULAR_HOLONOMY_REQUIRES_A_CHOSEN_CURVED_GROUP_EMBEDDING; SCALE_ACTION_AND_FINITE_CELL_BRIDGES_REMAIN_OPEN",
+  "metric_symmetry": {
+    "XR1_invariant_distance_primitive": "atanh(xi)",
+    "XR1_invariant_spatial_line": "dell^2 proportional dxi^2/(1-xi^2)^2 = dphi^2",
+    "classification": "XR1_RECENTERING_NOT_ISOMETRY_OR_CSN_EQUIVALENCE_OF_PINNED_RECIPROCAL_METRIC_WITH_UNCHANGED_OR_CONSTANTLY_RESCALED_TIME",
+    "constant_time_rescaling": "cannot remove xi dependence of the spatial ratio",
+    "current_optical_primitive_over_X": "-xi - 2*log(1 - xi)",
+    "current_proper_distance_0_to_X_over_X": "1 + pi/2",
+    "current_reciprocal_spatial_line": "dell^2 proportional ((1+xi)/(1-xi)) dxi^2",
+    "current_to_invariant_coefficient_ratio": "-(xi - 1)*(xi + 1)**3",
+    "endpoint_classification": "CURRENT_PROPER_DISTANCE_FINITE; CURRENT_OPTICAL_AND_XR1_RAPIDITY_DISTANCES_DIVERGE",
+    "recenter": "xi'=(xi-alpha)/(1-alpha*xi)",
+    "scope": "declared static diagonal transformation class; a new field/frame action remains open",
+    "spatial_component_ratio": "-(alpha - 1)**3*(alpha + 1)/(alpha*xi - 1)**4",
+    "spatial_ratio_witnesses_alpha_one_third": {
+      "xi_0": "32/81",
+      "xi_half": "512/625"
+    },
+    "time_component_ratio_t_unchanged": "-(alpha + 1)/(alpha - 1)"
+  },
+  "python": "3.10.12",
+  "scale_and_boundary": {
+    "classification": "XMAX_CAN_FIX_AT_MOST_A_GLOBAL_SCALE_NORMALIZATION_WITHOUT_LOCAL_REPRESENTATIVE_SELECTION; FINITE_CELL_SEAL_NOT_IDENTIFIED_WITH_XMAX_BOUNDARY",
+    "constant_scale": {
+      "law": "L_max[s^2 g]=s L_max[g] for a geometric length functional",
+      "one_condition": "L_max[g_*]=X_max fixes at most one global constant normalization"
+    },
+    "finite_cell_comparison": {
+      "Xmax_reach_boundary": "xi->1 implies phi->+infinity and A->0",
+      "classification": "DISTINCT_OBJECTS_UNLESS_A_NEW_GLOBAL_MAP_IS_DERIVED",
+      "current_static_phi_seal": "phi=0 with normal derivative free",
+      "same_surface_test": "incompatible under xi=tanh(phi): phi=0 maps to xi=0, not xi=1"
+    },
+    "local_CSN_counterfamily": {
+      "Omega_epsilon": "1+epsilon cos(2 pi y), |epsilon|<1",
+      "result": "infinitely many nonconstant positive local conformal factors preserve the same one-dimensional total length",
+      "unit_interval_average": "1"
+    }
+  },
+  "schema": "udt-xmax-reciprocity-audit-1.0",
+  "sympy": "1.13.1"
+}
+
+Script done on 2026-07-19 18:32:19-04:00 [COMMAND_EXIT_CODE="0"]

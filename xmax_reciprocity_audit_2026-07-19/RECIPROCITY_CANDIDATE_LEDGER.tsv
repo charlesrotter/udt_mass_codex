@@ -1,0 +1,14 @@
+id	candidate	domain	algebraic_result	metric_or_physical_result	status
+XR01	fractional-linear bounded composition	signed oriented xi in (-1,1)	xi plus eta over 1 plus xi eta; associative and commutative in 1D	conditional on working Xmax plus historical named P2 fractional-linear law	EXACT_WITHIN_CHOSEN_XR1
+XR02	bounded reversal within XR1	signed oriented xi in (-1,1)	xi inverse equals minus xi	A(-xi)=1/A(xi) after metric-phi join	EXACT_WITHIN_CHOSEN_XR1
+XR03	multiplicative character within XR1	signed oriented xi in (-1,1)	A(xi compose eta)=A(xi)A(eta)	A=exp(-2phi) additionally identifies additive XR1 coordinate with metric phi	EXACT_WITHIN_CHOSEN_XR1_AND_PHI_JOIN
+XR04	arithmetic reciprocal	nonzero extended xi	xi maps to 1/xi	maps xi=1/2 outside maximum-reach domain	REJECTED_AS_INTERNAL_XMAX_RECIPROCITY
+XR05	boundary complement	xi in [0,1]	xi maps to 1-xi	moves identity and fails composition homomorphism	REJECTED_AS_POSITIONAL_INVERSE
+XR06	reciprocal scale	sigma in (0,infinity)	sigma maps to Xmax squared over sigma	valid involution but maps submaximal scales beyond Xmax	CONDITIONAL_DISTINCT_SCALE_DUALITY
+XR07	natural Mobius recentering	pinned static diagonal reciprocal metric	exact phi shift and A ratio	neither isometry nor CSN equivalence with unchanged or constantly rescaled time	REFUTED_IN_DECLARED_METRIC_TRANSFORMATION_CLASS
+XR08	XR1-invariant spatial line	xi in (-1,1)	dell squared proportional dxi squared over (1-xi squared) squared	unattainable boundary in invariant proper distance; differs from current reciprocal radial coefficient	CONDITIONAL_ALTERNATIVE_GEOMETRY
+XR09	arbitrary angular warp	local phi interval	f=phi, sinh(phi), or sin(phi) gives curvature 0, -1, or +1	radial XR1 does not select angular sector	EXACT_COUNTERFAMILY
+XR10	negative-curvature group extension	chosen standard Lorentz-like comparison algebra	[Kx,Ky]=-Jz	noncollinear recentering conditionally generates angular rotation/holonomy	CHOSE_CONDITIONAL_EXTRA_PREMISE
+XR11	global length normalization	constant CSN scale	Lmax=Xmax can fix one constant multiplier	cannot fix arbitrary local Omega(x)	PARTIAL_SCALE_SELECTOR_ONLY
+XR12	Xmax boundary equals finite-cell seal	current mappings	phi infinity versus phi zero	incompatible unless a new global map distinguishes or relates them	REJECTED_SILENT_IDENTIFICATION
+XR13	alternative smooth bounded group	xi=f(u)=u/sqrt(1+u squared)	associative commutative composition inherited from additive u; finite endpoints and reversal	A is not multiplicative at exact registered witness	EXACT_COUNTERMODEL_TO_XR1_UNIQUENESS

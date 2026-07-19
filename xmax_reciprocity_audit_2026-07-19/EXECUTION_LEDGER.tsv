@@ -1,0 +1,5 @@
+id	purpose	exact_command	python	sympy	exit_code	output_artifact	output_sha256	compute
+E01	primary exact Xmax reciprocity algebra	env PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES='' python3 -B xmax_reciprocity_audit_2026-07-19/derive_xmax_reciprocity.py	3.10.12	1.13.1	0	DERIVATION_TRANSCRIPT.txt	308c553d0e7053801a5f9a76118da308a499449dda9766127dcf76d45b3582a8	CPU_ONLY
+E02	independent algebra and semantic catch proofs	env PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES='' python3 -B xmax_reciprocity_audit_2026-07-19/verify_xmax_reciprocity.py	3.10.12	1.13.1	0	VERIFICATION_TRANSCRIPT.txt	79fbb8fa0e5b03ee0eb5cf49e349cd6159cb05f704c56d1e8a8a8bf63798fa1e	CPU_ONLY
+E03	fixed source inventory	env PYTHONDONTWRITEBYTECODE=1 python3 -B xmax_reciprocity_audit_2026-07-19/build_source_inventory.py	3.10.12	N/A	0	SOURCE_INVENTORY.tsv	0e553f4d8d7f969e582d3c7207984126f44c02c232f9a0892c246e8e8091731e	CPU_ONLY
+E04	repository test baseline	env PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES='' python3 -m pytest tests/	3.10.12	N/A	1_EXPECTED_BASELINE	TEST_TRANSCRIPT.txt	1c49b6c3a90c91f49e32317bccfb21f89716bf52fc92e046d03f27ab55d89229	CPU_ONLY
