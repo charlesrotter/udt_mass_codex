@@ -1,0 +1,22 @@
+id	object	status	role_in_audit	not_implied
+R01	Positional dilation	FOUNDING	Unchanged upstream principle	No off-shell constraint or action
+R02	Reciprocal-c Identity	FOUNDING	Coequal conversion directions	Does not alone imply uv=1 or a spacetime scalar
+R03	Dual UDT Reciprocity	FOUNDING	Faithful contragredient pairing gives uv=1	Does not select spacetime fields or covariance
+R04	Reciprocal exponential comparison	DERIVED_CONDITIONAL	Positive additive depth; composition; reversal; regularity; chosen sign/unit	No unique action or representative
+R05	Lorentzian reciprocal metric block	CONDITIONAL	Object whose component identity is audited	Not the full metric; not CSN invariant; slot/readout chosen
+R06	Common-Scale Neutrality	FOUNDING	Common local scale is calibrational	No representative; action; locality; boundary; material scale
+R07	Four-dimensional arena	INHERITED	Comparison dimension for natural-scalar theorem	Not derived
+R08	Bulk diffeomorphism covariance	RETAIN_TRIAL_CONDITIONAL	Required covariance class under test	Full finite-cell active group unresolved
+R09	Finite mirrored cell	CANONIZED_BINDING	Native global arena and static phi seal	No bulk two-plane; complete boundary action; generator; charge
+R10	Realized nonzero dilation	OBSERVED	Physical-universe observation	Trivial phi=0 remains mathematical and usable as logical anchor
+R11	Metric-only order-zero field census	TRIAL_CLASS_L0	Bounded theorem target	No derivative or nonlocal closure
+R12	Paired time/parallel vectors or coframe	OPEN_NOT_ASSUMED	Strongest structured challenge	No native origin; normalization; global extension
+R13	Reference metric or volume form	OPEN_NOT_ASSUMED	Density/background challenge	Not supplied by CSN or finite cell
+R14	Derivative metric scalars	OPEN_CHALLENGE_L3	Test non-equivalence to algebraic reciprocity	No complete derivative inventory
+R15	Boundary/nonlocal selector	OPEN_CHALLENGE_L4	Finite-cell challenge	No selection functional supplied
+R16	Locality and derivative order	OPEN	Not adopted beyond bounded class definitions	No C2 or EH promotion
+R17	Unrestricted variation of declared fields	RETAIN_TRIAL	Prevents silent loss of equations	Does not choose the field census
+R18	Metric-is-the-theory maxim	BINDING_INTERPRETATION_TO_AUDIT	Metric-led physical ontology	Not established as metric-only off-shell closure
+R19	Bootstrap closure	WORKING_ON_SHELL	Global compatibility only	No local C[g] or multiplier authority
+R20	SymPy 1.13.1 CPU execution	CATEGORY_A_TECHNIQUE	Exact algebra and catch-proofs	No physics premise
+
