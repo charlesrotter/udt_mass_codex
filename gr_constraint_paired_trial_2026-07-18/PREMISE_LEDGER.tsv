@@ -1,0 +1,17 @@
+id	premise	status	role_in_trial	not_implied
+P01	Four-dimensional arena	INHERITED	Common trial arena	Not derived by Reciprocity or bootstrap
+P02	Diffeomorphism covariance	TRIAL_CONDITIONAL	Common constraint tested independently	Does not bundle locality; fields; derivative order; EH; boundary
+P03	Finite mirrored cell	CANONIZED_BINDING	Common global arena	No spatial infinity; GHY; ADM; complete boundary action
+P04	Reciprocity	FOUNDING_WITH_DERIVED_KINEMATICS	Unchanged common foundation	Does not select off-shell fields
+P05	Common-Scale Neutrality	FOUNDING	Constrains pre-scale weights	Does not select metric-only or multiplier fields
+P06	Bootstrap closure	OWNER_STATED_WORKING_ON_SHELL	Compatibility gate only	Does not select field census or variation placement
+P07	Metric-only unrestricted variation	TRIAL_BRANCH_A	One paired off-shell census	Not selected or complete
+P08	Metric-plus-auxiliary-constraint unrestricted variation	TRIAL_BRANCH_B	Second paired off-shell census	No physical ontology or specific constraint assigned
+P09	Locality	OPEN	Held open in both branches	Covariance does not imply locality
+P10	Derivative order and invariant inventory	OPEN	Held open in both branches	No EH; Lovelock; C2 selection
+P11	Finite-cell differentiable boundary completion	OPEN	Required future gate for both branches	Bulk covariance is insufficient
+P12	Metric-is-the-theory maxim	BINDING_INTERPRETATION_TO_AUDIT	Requires metric-led physical ontology	Does not automatically resolve auxiliary bookkeeping
+P13	Bootstrap off-shell role and selection map	OPEN_NOT_SELECTED	Inherited prior scientific result	No bridge or field selector
+P14	Carrier; matter source; unconditional mass	OPEN	Excluded from trial	No carrier or source assumption
+P15	Multiplier/KKT and penalty algebra	CATEGORY_A_TECHNIQUE	Exact variational anchors only	Not affirmative UDT physics
+P16	SymPy 1.13.1 CPU execution	CATEGORY_A_TECHNIQUE	Exact algebra and catch-proofs	No physics premise
