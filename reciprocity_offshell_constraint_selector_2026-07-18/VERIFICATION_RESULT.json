@@ -1,0 +1,172 @@
+{
+  "adversarial_audit": {
+    "required_statements": 7,
+    "result": "PASS",
+    "reviewers": 2
+  },
+  "artifact_moves": 0,
+  "base": "7b0e07fcad2ffdee94bcc1acda582d7ebab074d0",
+  "catchproof": {
+    "component_product_scalar_claim_rejected": "PASS",
+    "curvature_one_way_equivalence_rejected": "PASS",
+    "dirty_metadata_drift_rejected": "PASS",
+    "frozen_package_mutation_rejected": "PASS",
+    "hidden_preferred_frame_rejected": "PASS",
+    "lost_CSN_scale_shift_rejected": "PASS",
+    "nonconstant_order_zero_invariant_rejected": "PASS",
+    "physical_reaction_from_gauge_fixing_rejected": "PASS",
+    "scope_escape_rejected": "PASS",
+    "scope_overstatement_and_auxiliary_promotion_rejected": "PASS",
+    "source_hash_mutation_rejected": "PASS",
+    "volume_density_as_scalar_rejected": "PASS"
+  },
+  "changed_paths": [
+    "reciprocity_offshell_constraint_selector_2026-07-18/ADVERSARIAL_AUDIT.md",
+    "reciprocity_offshell_constraint_selector_2026-07-18/DERIVATION_REPORT.md",
+    "reciprocity_offshell_constraint_selector_2026-07-18/DERIVATION_RESULT.json",
+    "reciprocity_offshell_constraint_selector_2026-07-18/LAY_DECISION_TREE.md",
+    "reciprocity_offshell_constraint_selector_2026-07-18/PREMISE_LEDGER.tsv",
+    "reciprocity_offshell_constraint_selector_2026-07-18/PREREGISTRATION.md",
+    "reciprocity_offshell_constraint_selector_2026-07-18/SHA256SUMS.txt",
+    "reciprocity_offshell_constraint_selector_2026-07-18/STATUS_LEDGER.tsv",
+    "reciprocity_offshell_constraint_selector_2026-07-18/VERIFICATION_RESULT.json",
+    "reciprocity_offshell_constraint_selector_2026-07-18/derive_reciprocity_constraint_selector.py",
+    "reciprocity_offshell_constraint_selector_2026-07-18/requirements-cpu.txt",
+    "reciprocity_offshell_constraint_selector_2026-07-18/verify_reciprocity_constraint_selector.py"
+  ],
+  "cpu_dependency": {
+    "gpu_imports": [],
+    "result": "PASS",
+    "sympy": "1.13.1"
+  },
+  "dirty_checkout_metadata_rows": 54,
+  "dirty_content_policy": "NOT_READ",
+  "frozen_package_replays": [
+    {
+      "manifest_entries_passed": 29,
+      "package": "native_action_stage1_2026-07-18/arm_A",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 30
+    },
+    {
+      "manifest_entries_passed": 15,
+      "package": "native_action_stage1_2026-07-18/arm_B",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 16
+    },
+    {
+      "manifest_entries_passed": 13,
+      "package": "native_action_stage2_2026-07-18/arm_A",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 14
+    },
+    {
+      "manifest_entries_passed": 13,
+      "package": "native_action_stage2_2026-07-18/arm_B",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 14
+    },
+    {
+      "manifest_entries_passed": 21,
+      "package": "native_action_arm_c_2026-07-18",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 22
+    },
+    {
+      "manifest_entries_passed": 36,
+      "package": "native_action_final_adjudication_2026-07-18",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 37
+    }
+  ],
+  "gpu_used": false,
+  "grok_integration_authorized": false,
+  "independent_CSN": {
+    "phi_invariant": true,
+    "result": "PASS",
+    "sigma_shift": "+log(Omega)"
+  },
+  "independent_chart": {
+    "new": "p*q/(u**2*v**2)",
+    "old": "p*q",
+    "result": "PASS",
+    "scalar": false
+  },
+  "independent_curvature": {
+    "both_flat": true,
+    "equivalent": false,
+    "products": [
+      "1",
+      "9"
+    ],
+    "result": "PASS"
+  },
+  "independent_density": {
+    "reference_needed": true,
+    "result": "PASS",
+    "transformation": "sqrt|g| -> |J| sqrt|g|"
+  },
+  "independent_gauge": {
+    "gauge_lambda": "0",
+    "reactive_fixture": "CSN_VIOLATING",
+    "result": "PASS"
+  },
+  "independent_orbit": {
+    "nonconstant_order_zero_scalar": false,
+    "result": "PASS",
+    "transitive_fixed_signature_orbit": true
+  },
+  "independent_structured": {
+    "fields": [
+      "g",
+      "T",
+      "N"
+    ],
+    "metric_only": false,
+    "ratio_invariant": true,
+    "result": "PASS"
+  },
+  "mode": "INDEPENDENT_CPU_ONLY_RECIPROCITY_CONSTRAINT_SELECTOR_VERIFY",
+  "navigation": {
+    "current_paths": 1114,
+    "frontier": [
+      306,
+      101
+    ],
+    "links": 0
+  },
+  "package_manifest": {
+    "entries_passed": 10,
+    "manifest_sha256": "3f6da5926200f68e07b67a167948b2211d0a506fa65d322e600a7d22b080c74a",
+    "result": "PASS"
+  },
+  "preregistration_commit": "750d48bd79178a48d20912b85ef713d1261f0038",
+  "report_contract": {
+    "required_statements": 13,
+    "result": "PASS"
+  },
+  "reported_outcome": "NO_L0_CONSTRAINT_REPRESENTATIVE_IDENTITY_IS_GAUGE_READOUT",
+  "result": "PASS",
+  "source_hashes": {
+    "UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md": "4bb0da9098da0a9970602e2449615eef151796b0d7fe7a9978f4b66145748a34",
+    "UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md": "db4a426b021e375fa4bca0d870aaf973de319de3b08072195d001a056630832d",
+    "UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md": "6e977717ca028cabaa198dd14a6a97b3b15740e45485d0ab735f3df0326df192",
+    "UDT_NATIVE_ACTION_COLD_PACKET.md": "d38232792ac78188687db433a3f60a08c775c46e9ecf5fc42ad7953dc89fadb0",
+    "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003",
+    "gr_constraint_paired_trial_2026-07-18/DERIVATION_REPORT.md": "952b29705023c0626896db75b7a60173d6c78e3e00a8321d826a53b606557316",
+    "gr_constraint_paired_trial_2026-07-18/SHA256SUMS.txt": "8d5c617d9bb611f67b15524b34271de7f121ea9a71fa14d8e131cf85bc2c63a2",
+    "gr_constraint_paired_trial_2026-07-18/STATUS_LEDGER.tsv": "ba26cad7d04d7492c206e3fe11a7cd10ab226c01663bef5edee4b166c2f08809",
+    "native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv": "70cab9d5e10b03e0e3418129b67155e01d9f805c4397c69ef8795c4d2aaa5dfd"
+  },
+  "test_baseline": {
+    "baseline_match": true,
+    "command": "python3 -m pytest tests/",
+    "expected_failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "failed": 1,
+    "passed": 69,
+    "python": "3.10.12",
+    "returncode": 1,
+    "scope": "full",
+    "xfailed": 1
+  }
+}

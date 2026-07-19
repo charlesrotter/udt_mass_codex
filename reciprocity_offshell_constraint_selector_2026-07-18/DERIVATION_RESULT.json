@@ -1,0 +1,121 @@
+{
+  "boundary_completion": "OPEN",
+  "carrier_or_source_assumed": false,
+  "complete_action": "OPEN",
+  "density_normalization_invented": false,
+  "gauge_multiplier": "ALLOWED_BOOKKEEPING_WITH_ZERO_REACTION_IN_CSN_INVARIANT_ANCHOR",
+  "gpu_used": false,
+  "metric_only_off_shell_closure": "NOT_DERIVED",
+  "mode": "CPU_ONLY_EXACT_SYMBOLIC_AND_NATURALITY_AUDIT",
+  "native_auxiliary_constraint_required": false,
+  "off_shell_field_census": "OPEN_NARROWED",
+  "physical_multiplier_for_reciprocal_product": "NOT_DERIVED",
+  "promoted_action": "NONE",
+  "reciprocity_current_role": "DERIVED_KINEMATIC_COMPARISON_WITH_CONDITIONAL_METRIC_READOUT",
+  "result": "PASS",
+  "route_status": {
+    "L0_metric_only_order_zero": "REFUTED_IN_CLASS",
+    "L1_adapted_representative_product": "CSN_GAUGE_READOUT_CONDITIONAL_ON_FRAME_AND_REPRESENTATIVE",
+    "L2_structured_covariant": "OPEN_EXTRA_STRUCTURE_NOT_DERIVED",
+    "L3_derivative_metric_only": "OPEN_CURVATURE_SHORTCUT_NOT_EQUIVALENT",
+    "L4_global_boundary": "OPEN_NOT_SUPPLIED"
+  },
+  "smallest_missing_object": "native natural selector/realization of the paired line directions, relative normalization, transformation law, degeneracy handling, and finite-cell extension",
+  "sympy_version": "1.13.1",
+  "tests": {
+    "T2_chart_component": {
+      "component_product_is_scalar_without_carried_frame": false,
+      "coordinate_change": "t_new=alpha*t; x_new=beta*x",
+      "metric_block": "Matrix([[-a, 0], [0, b]])",
+      "new_component_product": "a*b/(alpha**2*beta**2)",
+      "old_component_product": "a*b",
+      "result": "PASS",
+      "unit_product_maps_to": "1/4 for alpha=2, beta=1"
+    },
+    "T3_CSN_decomposition": {
+      "CSN_map": "sigma -> sigma+log(Omega); phi -> phi",
+      "a": "exp(2*sigma-2*phi)",
+      "a_times_b": "exp(4*sigma)",
+      "b": "exp(2*sigma+2*phi)",
+      "b_over_a": "exp(4*phi)",
+      "classification": "COMMON_SCALE_GAUGE_FIXING_AFTER_PAIRED_FRAME_AND_REPRESENTATIVE",
+      "phi": "log(b/a)/4",
+      "result": "PASS",
+      "sigma": "log(a*b)/4",
+      "unit_product_equivalent_to": "sigma=0"
+    },
+    "T4_order_zero_natural_scalar": {
+      "A": "Matrix([[sqrt(a0), 0, 0, 0], [0, sqrt(a1), 0, 0], [0, 0, sqrt(a2), 0], [0, 0, 0, sqrt(a3)]])",
+      "determinant_classification": "DENSITY_REQUIRING_A_REFERENCE_DENSITY_FOR_AN_EQUATION",
+      "g": "Matrix([[-a0, 0, 0, 0], [0, a1, 0, 0], [0, 0, a2, 0], [0, 0, 0, a3]])",
+      "nontrivial_C_of_g_alone_exists_in_L0": false,
+      "orbit_anchor": "g=A^T eta A for every positive diagonal Lorentz block",
+      "result": "PASS",
+      "scope": "one metric; pointwise; algebraic; fixed dimension and Lorentz signature",
+      "sqrt_abs_det_g": "sqrt(a0)*sqrt(a1)*sqrt(a2)*sqrt(a3)",
+      "theorem": "GL(4) acts transitively on nondegenerate Lorentz inner products of fixed signature; therefore every order-zero diffeomorphism-natural scalar of one metric is constant"
+    },
+    "T5_structured_candidate": {
+      "a": "-g(T,T)/c^2",
+      "b": "g(N,N)",
+      "candidate_data": [
+        "metric g",
+        "timelike vector T",
+        "parallel vector N"
+      ],
+      "depth": "phi=log(b/a)/4",
+      "depth_CSN_invariant": true,
+      "metric_only": false,
+      "native_status": "OPEN_EXTRA_STRUCTURE_NOT_DERIVED",
+      "normalizing_T_and_N_makes_product": "tautologically one rather than a dynamical equation",
+      "product_CSN_map": "a*b -> Omega^4*a*b",
+      "result": "PASS",
+      "weighted_vector_escape": "possible only after assigning extra Weyl weights/transformation laws to T and N"
+    },
+    "T6_gauge_variation": {
+      "CSN_invariant_action": "(phi - phi_star)**2",
+      "field_theory_identity": "local CSN invariance makes the conformal/scale Euler direction a Ward identity",
+      "hard_sigma_zero_equation": "2*phi - 2*phi_star",
+      "multiplier_equations": [
+        "2*phi - 2*phi_star",
+        "lambda",
+        "sigma"
+      ],
+      "multiplier_root": {
+        "lambda": "0",
+        "phi": "phi_star",
+        "sigma": "0"
+      },
+      "physical_normal_reaction_in_invariant_anchor": false,
+      "reactive_corrupt_fixture": {
+        "classification": "CSN_VIOLATION_NOT_NATIVE_PRE_SCALE_REACTION",
+        "inserted_term": "kappa*sigma",
+        "lambda": "-kappa"
+      },
+      "readout_equation": "2*phi - 2*phi_star",
+      "result": "PASS"
+    },
+    "T7_curvature_shortcut": {
+      "all_derivative_or_nonlocal_constraints_excluded": false,
+      "component_products": {
+        "rescaled_chart": "1/4",
+        "unit_chart": "1"
+      },
+      "connection_and_curvature": "zero in the displayed Cartesian charts",
+      "curvature_condition_equivalent_to_component_product": false,
+      "flat_metric_family": "diag(-a,b) with constant positive a,b",
+      "inference": "vanishing curvature cannot distinguish unit-product from rescaled flat charts",
+      "result": "PASS"
+    },
+    "T8_finite_cell": {
+      "binding_input": "finite mirrored cell; static phi odd at seal, phi=0 there, normal derivative free",
+      "boundary_or_nonlocal_selector": "OPEN_NOT_SUPPLIED",
+      "complete_boundary_group_action_generator": "OPEN",
+      "result": "PASS",
+      "supplies_CSN_representative_or_normalization": false,
+      "supplies_boundary_normal": "AT_SEAL_ONLY_UP_TO_DECLARED_BOUNDARY_STRUCTURE",
+      "supplies_bulk_time_parallel_two_plane": false
+    }
+  },
+  "top_level_outcome": "NO_L0_CONSTRAINT_REPRESENTATIVE_IDENTITY_IS_GAUGE_READOUT"
+}

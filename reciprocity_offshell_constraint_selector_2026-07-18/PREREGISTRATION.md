@@ -188,4 +188,3 @@ This run may close only the local order-zero metric-only constraint class and cl
 representative identity. It cannot derive a complete action, universally select readout/hard/
 multiplier implementations, exclude derivative or global constructions, adopt a source/carrier,
 update `grok`, resume repository reorganization, canonize a result, or use GPU work.
-
