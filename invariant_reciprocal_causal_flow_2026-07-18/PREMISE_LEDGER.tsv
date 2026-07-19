@@ -1,0 +1,19 @@
+id	premise	status	provenance	use
+P01	Positional dilation is foundational	FOUNDING	C0/C1	May parameterize reciprocal metric block
+P02	Reciprocal diagonal pair is exp(-phi),exp(+phi)	DERIVED_CONDITIONAL	UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md	Follows with founding Reciprocal-c and dual Reciprocity plus composition regularity and conventions
+P03	Common positive metric scale is neutral	FOUNDING	UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md	Requires CSN/Weyl audit
+P04	Complete native action is selected	OPEN	native_action_final_adjudication_2026-07-18	Must not be assumed
+P05	Native source and boundary charge are selected	OPEN	native_action_final_adjudication_2026-07-18	Must not be assumed
+P06	Metric-only order-zero line realization exists	REFUTED_IN_CLASS	reciprocal_line_realization_selector_2026-07-18	Universal line/observer claim forbidden
+P07	H6 reciprocal metric endpoint framing is coherent	CONDITIONAL	infinite_c_reciprocity_adjudication_2026-07-18	Starting hypothesis under test
+P08	The supplied metric determines a conformal null cone	MATHEMATICAL_INPUT	metric definition	May be derived without field equations
+P09	A static timelike Killing flow is supplied	CONDITIONAL_CLASS_I1	preregistration	Required for static optical metric
+P10	The Killing/time normalization is supplied	CONDITIONAL_CLASS_I1	preregistration	Required for numerical arrival time
+P11	A parallel spatial line is supplied	CONDITIONAL_CLASS_I1	preregistration	Required for one-dimensional speed language
+P12	WR-L profile A=1-r/X is supplied	CONDITIONAL_MACRO_PROFILE	post-firewall reciprocal/action chain	May test geometry; may not derive action
+P13	WR-L wall is a material substrate	OPEN_OWNER_HYPOTHESIS	post-preregistration owner clarification	Must not be assumed or used as rescue
+P14	CMB wall and canonical static mirror seal are one surface	OPEN_AND_CURRENTLY_DISTINCT	no topology/matching derivation	WR-L wall has phi to positive infinity; canonical mirror seal has phi=0
+P15	Static optical result extends to time-live cosmology	OPEN	no time-live derivation	Must not be promoted
+P16	Black-hole destruction feeds substrate recycling	OPEN_OWNER_COMPARISON_TERMINOLOGY	post-preregistration owner clarification	Native black-hole ontology transfer conservation and no-signalling are all open
+P17	Substrate recycling causes dispersed mass emergence	OPEN_OWNER_COMPARISON_TERMINOLOGY	post-preregistration owner clarification	Native mass boundary charge emergence and coupling are all open
+P18	Locally measured light speed varies with phi	REJECTED_IN_CONDITIONAL_METRIC_BLOCK	exact orthonormal readout	Coordinate slope only

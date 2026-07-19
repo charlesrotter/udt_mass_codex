@@ -1,0 +1,31 @@
+id	claim	status	scope
+S01	The supplied Lorentzian metric mathematically determines its null directions	DERIVED_FROM_METRIC	universal material clock signal coupling remains open
+S02	c_coord=c0 exp(-2phi) is a scalar speed	NO	adapted static coordinate component only
+S03	A metric-normalized orthonormal observer assigns radial metric-null speed c0	DERIVED_CONDITIONAL_READOUT	finite phi reciprocal block; material rods and clocks not derived
+S04	h_opt=N^-2 h is the static optical metric	DERIVED_CONDITIONAL	chosen static flow and quotient
+S05	Static optical metric is CSN invariant	DERIVED_CONDITIONAL	positive Weyl factors with Lie_K Omega=0 preserving chosen flow and quotient
+S06	Numerical optical arrival time needs time-flow normalization	REQUIRED	constant Killing rescaling remains
+S07	Integrated optical line length is invariant under radial reparameterization	DERIVED_CONDITIONAL	chosen static flow and path
+S08	Optical stretch q(phi)=exp(2phi) obeys q(phi)q(-phi)=1	DERIVED_CONDITIONAL	adapted reciprocal coordinate and fixed Killing normalization; not itself a scalar
+S09	Optical reciprocity proves the internal K-pairing	NO	CSN metric representative is nondiscriminating
+S10	Metric universally selects observer and parallel line	NO_UNIVERSAL_LOCAL_SELECTOR	Minkowski/Rindler counterexample and prior no-go
+S11	Position-dependent coordinate light slope implies curvature	NO	flat Rindler counterexample
+S12	WR-L radial coordinate slope is c0(1-r/X)	DERIVED_CONDITIONAL	static WR-L profile
+S13	Formal WR-L proper radial integral from singular center to wall is 2X	DERIVED_CONDITIONAL	wall is finite proper distance from any regular interior start
+S14	WR-L optical distance and static arrival time to wall diverge	DERIVED_CONDITIONAL	from any regular interior start with fixed static flow and normalization
+S15	WR-L radial t-r block is Rindler	DERIVED_CONDITIONAL	exact coordinate map
+S16	WR-L A=0 surface admits a nondegenerate ingoing EF form	DERIVED_LOCAL_EXTENSION	metric geometry only
+S17	WR-L full 4D wall curvature invariants are finite	DERIVED_CONDITIONAL	R=6/X^2 and Kretschmann=8/X^4 at wall
+S18	WR-L full 4D center is regular	NO	R and Kretschmann diverge as r approaches zero
+S19	WR-L metric alone proves the wall is material	NOT_DERIVED	boundary ontology/matching absent
+S20	Wall energy substrate	OPEN_SEPARATE_HYPOTHESIS	must supply boundary ontology and dynamics
+S21	Owner-termed black-hole destruction to substrate to dispersed mass emergence	OPEN_SEPARATE_HYPOTHESIS	native black-hole mass transfer conservation coupling and no-signalling all open
+S22	WR-L wall is the CMB	OPEN	no time-live observational matching
+S23	Stationary nonstatic optical structure	CONDITIONAL_EXTENSION	Fermat/Randers class requires separate derivation
+S24	General time-live reciprocal causal-arrival map	OPEN	full 4D null propagation required
+S25	Complete native action	OPEN	unchanged
+S26	Native matter source and carrier emergence	OPEN	unchanged
+S27	Boundary charge and global scale normalization	OPEN	unchanged
+S28	Spacetime line realization	OPEN	unchanged
+S29	Literal observable superluminal signalling	NOT_AUTHORIZED	no intervention-level theorem
+S30	Top-level outcome	STATIC_OPTICAL_REALIZATION_CONDITIONAL_UNIVERSAL_REALIZATION_OPEN	registered outcome 2

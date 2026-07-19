@@ -1,0 +1,162 @@
+{
+  "adjudication": {
+    "Killing_normalization_selected_without_reference_data": false,
+    "WRL_full4D_center_is_regular": false,
+    "WRL_metric_alone_proves_material_wall_or_substrate": false,
+    "WRL_static_wall_identified_with_CMB": false,
+    "WRL_wall_is_curvature_singularity": false,
+    "WRL_wall_is_finite_proper_distance": true,
+    "WRL_wall_is_infinite_static_optical_distance": true,
+    "coordinate_null_slope_is_scalar": false,
+    "integrated_static_optical_arrival_is_coordinate_invariant": true,
+    "line_realization_gap_closed": false,
+    "local_orthonormal_light_speed_varies_with_phi": false,
+    "metric_determines_null_cone": true,
+    "metric_universally_selects_observer_and_parallel_line": false,
+    "native_action_source_carrier_or_boundary_charge_selected": false,
+    "optical_reciprocity_proves_internal_K_pairing": false,
+    "physical_matter_clocks_signals_proven_to_follow_metric_cone": false,
+    "static_optical_metric_CSN_invariant_given_static_flow": true,
+    "static_result_establishes_time_live_cosmology": false,
+    "substrate_recycling_mechanism_derived": false
+  },
+  "check_count": 38,
+  "checks": {
+    "T1_coordinate_slope_from_metric_ratio": true,
+    "T1_local_orthonormal_speed_is_anchor": true,
+    "T2_optical_arrival_density": true,
+    "T2_static_optical_metric": true,
+    "T3_CSN_static_optical_metric_invariant": true,
+    "T3_time_reparameterization_rescales_coordinate_slope": true,
+    "T3_time_reparameterization_rescales_optical_metric": true,
+    "T4_reciprocal_coordinate_slope_product": true,
+    "T4_reciprocal_optical_stretch_product": true,
+    "T5_coordinate_slope_changes_under_radial_reparametrization": true,
+    "T5_optical_density_transforms_as_line_element": true,
+    "T5_reciprocal_stretch_product_radial_coordinate_pinned": true,
+    "T5_reciprocal_stretch_product_time_normalization_pinned": true,
+    "T5_slope_density_inverse_relation": true,
+    "T6_WRL_coordinate_slope": true,
+    "T6_WRL_lapse": true,
+    "T6_WRL_optical_metric": true,
+    "T6_WRL_spatial_metric": true,
+    "T7_WRL_center_slope_is_anchor": true,
+    "T7_WRL_optical_antiderivative": true,
+    "T7_WRL_proper_antiderivative": true,
+    "T7_WRL_regular_start_finite_remaining_proper_distance": true,
+    "T7_WRL_regular_start_infinite_remaining_optical_distance": true,
+    "T7_WRL_wall_finite_proper_distance": true,
+    "T7_WRL_wall_infinite_optical_distance": true,
+    "T7_WRL_wall_infinite_static_arrival_time": true,
+    "T7_WRL_wall_slope_is_zero": true,
+    "T8_WRL_EF_extension_nondegenerate": true,
+    "T8_WRL_center_curvature_singular": true,
+    "T8_WRL_full4D_EF_determinant_regular_at_wall": true,
+    "T8_WRL_full4D_Kretschmann": true,
+    "T8_WRL_full4D_Ricci_scalar": true,
+    "T8_WRL_radial_block_is_Rindler": true,
+    "T8_WRL_wall_curvature_finite": true,
+    "T9_Rindler_coordinate_slope_varies_in_flat_metric": true,
+    "T9_Rindler_local_speed_is_anchor": true,
+    "T9_explicit_Minkowski_to_Rindler_pullback": true,
+    "T9_inertial_and_Rindler_optical_components_differ": true
+  },
+  "class_results": {
+    "I0_UNIVERSAL_METRIC_ONLY_LOCAL_CAUSAL_SCALAR_OR_FLOW": "NULL_CONE_DERIVED_SPEED_DECOMPOSITION_NOT_UNIVERSAL",
+    "I1_STATIC_OPTICAL_REALIZATION": "DERIVED_CONDITIONAL_ON_STATIC_FLOW_QUOTIENT_AND_NORMALIZATION",
+    "I2_STATIONARY_REALIZATION": "FERMAT_RANDERS_EXTENSION_CONDITIONAL_NOT_EXECUTED",
+    "I3_GENERAL_TIME_LIVE_REALIZATION": "OPEN_FULL_NULL_ARRIVAL_MAP_REQUIRED",
+    "I4_FINITE_CELL_GLOBAL_COMPLETION": "OPEN_BOUNDARY_MATCHING_AND_NORMALIZATION_REQUIRED",
+    "I5_SUBSTRATE_RECYCLING_FALLBACK": "OPEN_SEPARATE_ONTOLOGY_AND_DYNAMICS_NOT_USED"
+  },
+  "environment": {
+    "cpu_only": true,
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "exact_algebra": {
+    "CSN_and_coordinate_change": {
+      "scaled_optical_rr": "exp(4*phi)",
+      "time_rescaled_coordinate_slope": "c_0*exp(-2*phi)/lambda_t",
+      "time_rescaled_optical_rr": "lambda_t**2*exp(4*phi)",
+      "transformed_arrival_density": "J*exp(2*phi)/c_0",
+      "transformed_coordinate_slope": "c_0*exp(-2*phi)/J",
+      "transformed_optical_qq": "J**2*exp(4*phi)",
+      "transformed_reciprocal_stretch_products": {
+        "radial_coordinate": "J**2",
+        "time_normalization": "lambda_t**2"
+      }
+    },
+    "WRL": {
+      "A": "1 - r/X",
+      "EF_block": "Matrix([[c_0**2*(-1 + r/X), c_0], [c_0, 0]])",
+      "EF_determinant": "-c_0**2",
+      "EF_full4D_determinant": "-c_0**2*r**4*sin(theta)**2",
+      "Kretschmann_4D": "8/(X**2*r**2)",
+      "Ricci_scalar_4D": "6/(X*r)",
+      "Rindler_block": [
+        "-c_0**2*rho**2/(4*X**2)",
+        "1"
+      ],
+      "Rindler_radius_map": "X - rho**2/(4*X)",
+      "arrival_time": "-X*log((X - r)/X)/c_0",
+      "coordinate_null_slope": "c_0*(X - r)/X",
+      "curvature_limits": {
+        "kretschmann_center": "oo",
+        "kretschmann_wall": "8/X**4",
+        "ricci_center": "oo",
+        "ricci_wall": "6/X**2"
+      },
+      "from_regular_start": {
+        "limits": {
+          "optical_to_wall": "oo",
+          "proper_to_wall": "2*sqrt(X)*sqrt(X - r_0)"
+        },
+        "optical_distance": "X*log((X - r_0)/(X - r))",
+        "proper_distance": "2*sqrt(X)*(-sqrt(X - r) + sqrt(X - r_0))"
+      },
+      "limits": {
+        "arrival_time_wall": "oo",
+        "coordinate_slope_center": "c_0",
+        "coordinate_slope_wall": "0",
+        "optical_distance_wall": "oo",
+        "proper_distance_wall": "2*X"
+      },
+      "optical_distance": "-X*log((X - r)/X)",
+      "proper_distance": "-2*sqrt(X)*sqrt(X - r) + 2*X"
+    },
+    "flat_observer_counterexample": {
+      "Minkowski_metric_pullback": "Matrix([[-kappa**2*rho_R**2, 0], [0, 1]])",
+      "Minkowski_to_Rindler_Jacobian": "Matrix([[kappa*rho_R*cosh(kappa*t_R), sinh(kappa*t_R)], [kappa*rho_R*sinh(kappa*t_R), cosh(kappa*t_R)]])",
+      "Rindler_coordinate_slope": "kappa*rho_R",
+      "Rindler_lapse": "kappa*rho_R/c_0",
+      "Rindler_local_speed": "c_0",
+      "Rindler_optical_rr": "c_0**2/(kappa**2*rho_R**2)",
+      "inertial_lapse": "1",
+      "inertial_optical_rr": "1"
+    },
+    "reciprocal_static_block": {
+      "coordinate_null_slope": "c_0*exp(-2*phi)",
+      "lapse": "exp(-phi)",
+      "local_proper_speed": "c_0",
+      "optical_rr": "exp(4*phi)",
+      "optical_stretch": "exp(2*phi)",
+      "reversed_slope_product": "c_0**2",
+      "reversed_stretch_product": "1",
+      "spatial_rr": "exp(2*phi)"
+    }
+  },
+  "next_discriminator": {
+    "question": "What native structure selects the timelike flow, parallel direction, normalization, and global matching that turn the conformal null cone into a UDT causal-arrival map?",
+    "required_evidence": [
+      "native_observer_or_clock_congruence_selector",
+      "native_parallel_line_realization",
+      "normalization_or_boundary_matching_rule",
+      "time_live_4D_null_arrival_derivation",
+      "CMB_to_metric_surface_identification",
+      "separate_boundary_substrate_action_and_recycling_map_if_pursued"
+    ]
+  },
+  "schema": "udt.invariant-reciprocal-causal-flow.v1",
+  "top_level_outcome": "STATIC_OPTICAL_REALIZATION_CONDITIONAL_UNIVERSAL_REALIZATION_OPEN"
+}

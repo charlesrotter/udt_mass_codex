@@ -1,0 +1,176 @@
+{
+  "artifact_moves": 0,
+  "base": "f813572826bcabd8c2dfe3c247f6a709e3eee508",
+  "catchproof": {
+    "CMB_wall_identity_rejected": "PASS",
+    "CSN_noninvariance_rejected": "PASS",
+    "Rindler_curvature_claim_rejected": "PASS",
+    "WRL_center_regularity_rejected": "PASS",
+    "WRL_curvature_singularity_rejected": "PASS",
+    "action_source_carrier_promotion_rejected": "PASS",
+    "coordinate_speed_scalar_rejected": "PASS",
+    "dirty_metadata_drift_rejected": "PASS",
+    "finite_WRL_optical_wall_rejected": "PASS",
+    "frozen_package_mutation_rejected": "PASS",
+    "infinite_WRL_proper_wall_rejected": "PASS",
+    "line_selector_promotion_rejected": "PASS",
+    "local_c_variation_rejected": "PASS",
+    "material_wall_from_metric_rejected": "PASS",
+    "missing_normalization_rejected": "PASS",
+    "missing_static_flow_rejected": "PASS",
+    "optical_to_internal_pairing_promotion_rejected": "PASS",
+    "scope_escape_rejected": "PASS",
+    "source_mutation_rejected": "PASS",
+    "static_to_time_live_promotion_rejected": "PASS",
+    "status_corruption_rejected": "PASS",
+    "substrate_from_metric_rejected": "PASS",
+    "substrate_recycling_promotion_rejected": "PASS",
+    "superluminal_signalling_promotion_rejected": "PASS",
+    "unique_Minkowski_observer_rejected": "PASS"
+  },
+  "changed_paths": [
+    "invariant_reciprocal_causal_flow_2026-07-18/ADVERSARIAL_AUDIT.md",
+    "invariant_reciprocal_causal_flow_2026-07-18/DERIVATION_REPORT.md",
+    "invariant_reciprocal_causal_flow_2026-07-18/DERIVATION_RESULT.json",
+    "invariant_reciprocal_causal_flow_2026-07-18/DERIVATION_TRANSCRIPT.txt",
+    "invariant_reciprocal_causal_flow_2026-07-18/LAY_DECISION_TREE.md",
+    "invariant_reciprocal_causal_flow_2026-07-18/POST_PREREG_SUBSTRATE_FALLBACK.md",
+    "invariant_reciprocal_causal_flow_2026-07-18/PREMISE_LEDGER.tsv",
+    "invariant_reciprocal_causal_flow_2026-07-18/PREREGISTRATION.md",
+    "invariant_reciprocal_causal_flow_2026-07-18/REVIEW_BOUNDARY_SUBSTRATE.md",
+    "invariant_reciprocal_causal_flow_2026-07-18/REVIEW_INVARIANT_GEOMETRY.md",
+    "invariant_reciprocal_causal_flow_2026-07-18/SHA256SUMS.txt",
+    "invariant_reciprocal_causal_flow_2026-07-18/STATUS_LEDGER.tsv",
+    "invariant_reciprocal_causal_flow_2026-07-18/derive_invariant_causal_flow.py",
+    "invariant_reciprocal_causal_flow_2026-07-18/requirements-cpu.txt",
+    "invariant_reciprocal_causal_flow_2026-07-18/verify_invariant_causal_flow.py"
+  ],
+  "cpu_dependency": {
+    "gpu_imports": [],
+    "result": "PASS",
+    "sympy": "1.13.1"
+  },
+  "current_foundation_changed": false,
+  "dirty_checkout_metadata_rows": 54,
+  "dirty_content_policy": "NOT_READ",
+  "frozen_package_replays": [
+    {
+      "entries": 29,
+      "package": "native_action_stage1_2026-07-18/arm_A",
+      "paths": 30,
+      "result": "PASS"
+    },
+    {
+      "entries": 15,
+      "package": "native_action_stage1_2026-07-18/arm_B",
+      "paths": 16,
+      "result": "PASS"
+    },
+    {
+      "entries": 13,
+      "package": "native_action_stage2_2026-07-18/arm_A",
+      "paths": 14,
+      "result": "PASS"
+    },
+    {
+      "entries": 13,
+      "package": "native_action_stage2_2026-07-18/arm_B",
+      "paths": 14,
+      "result": "PASS"
+    },
+    {
+      "entries": 21,
+      "package": "native_action_arm_c_2026-07-18",
+      "paths": 22,
+      "result": "PASS"
+    },
+    {
+      "entries": 36,
+      "package": "native_action_final_adjudication_2026-07-18",
+      "paths": 37,
+      "result": "PASS"
+    }
+  ],
+  "gpu_used": false,
+  "grok_integration_authorized": false,
+  "independent_exact_algebra": {
+    "Minkowski_Rindler_pullback": "Matrix([[-kappa**2*rho_R**2, 0], [0, 1]])",
+    "WRL_EF_determinant": "-c0**2",
+    "WRL_Rindler_block": [
+      "-c0**2*rho**2/(4*X**2)",
+      "1"
+    ],
+    "WRL_curvature": [
+      "6/(X*r)",
+      "8/(X**2*r**2)"
+    ],
+    "WRL_full_EF_determinant": "-c0**2*r**4*sin(theta)**2",
+    "WRL_optical_wall": "oo",
+    "WRL_proper_wall": "2*X",
+    "WRL_regular_start_wall": [
+      "2*sqrt(X)*sqrt(X - r0)",
+      "oo"
+    ],
+    "WRL_wall_curvature": [
+      "6/X**2",
+      "8/X**4"
+    ],
+    "coordinate_slope": "c0*exp(-2*phi)",
+    "flat_Rindler_coordinate_slope": "kappa*rho_R",
+    "frame_pinned_stretch_products": [
+      "jacobian**2",
+      "scale**2"
+    ],
+    "local_proper_speed": "c0",
+    "optical_rr": "exp(4*phi)",
+    "reciprocal_stretch_product": "1",
+    "result": "PASS"
+  },
+  "ledgers": {
+    "premise_rows": 18,
+    "result": "PASS",
+    "status_rows": 30
+  },
+  "mode": "INDEPENDENT_CPU_ONLY_INVARIANT_RECIPROCAL_CAUSAL_FLOW",
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "links": 0
+  },
+  "package_manifest": {
+    "entries": 14,
+    "result": "PASS",
+    "sha256": "786f3dc190d929bac6540a452c4bade8c41517f2169dfdc7de13daf46978801c"
+  },
+  "preregistration_commit": "38077b0cb3257325a783bd6532a1a42ed6ebb101",
+  "report_and_reviews": {
+    "report_tokens": 15,
+    "result": "PASS",
+    "reviews": 2
+  },
+  "reported_outcome": "STATIC_OPTICAL_REALIZATION_CONDITIONAL_UNIVERSAL_REALIZATION_OPEN",
+  "result": "PASS",
+  "source_hashes": {
+    "UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md": "4bb0da9098da0a9970602e2449615eef151796b0d7fe7a9978f4b66145748a34",
+    "UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md": "6e977717ca028cabaa198dd14a6a97b3b15740e45485d0ab735f3df0326df192",
+    "UDT_NATIVE_ACTION_COLD_PACKET.md": "d38232792ac78188687db433a3f60a08c775c46e9ecf5fc42ad7953dc89fadb0",
+    "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003",
+    "infinite_c_reciprocity_adjudication_2026-07-18/DERIVATION_RESULT.json": "2c88a586feddca236ca86eabf46e243c526c45e6f9a5cf55ddec206438ab7188",
+    "infinite_c_reciprocity_adjudication_2026-07-18/SHA256SUMS.txt": "f15235b149dd915aabcefbb405a776234fb4a68ac8da4b706a09583d3c64a5f6",
+    "infinite_c_reciprocity_adjudication_2026-07-18/STATUS_LEDGER.tsv": "e984654e1f649f2a9d9daca20fa41a88f3122a8231fcd61482025b4141037988",
+    "native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv": "70cab9d5e10b03e0e3418129b67155e01d9f805c4397c69ef8795c4d2aaa5dfd",
+    "reciprocal_line_realization_selector_2026-07-18/SHA256SUMS.txt": "4fe297e81414977f5eb75b6e535e1fca0f60a1d872e1fd42921f25aee0e59a16",
+    "reciprocity_offshell_constraint_selector_2026-07-18/SHA256SUMS.txt": "3f6da5926200f68e07b67a167948b2211d0a506fa65d322e600a7d22b080c74a"
+  },
+  "substrate_recycling_derived": false,
+  "test_baseline": {
+    "baseline_match": true,
+    "collected": 71,
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest tests/",
+    "failed": 1,
+    "failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "passed": 69,
+    "xfailed": 1
+  }
+}
