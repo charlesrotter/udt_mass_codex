@@ -3,9 +3,10 @@
 **⚠ BRANCH: `grok` (2026-07-19)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
 **➤ CURRENT SCIENTIFIC FRONTIER:** `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md`, then the preceding
-`null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` and
-`native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md`. The chain establishes an exact
+`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md` and
+`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`. Full audit reports and preceding
+null-section/native-topology layers are task-specific follow-up, not generic startup reads. The
+chain establishes an exact
 reciprocal Hopf torus orbit-block compatibility witness. Within explicitly supplied global toric
 eigencap premises, `S3` topology and free diagonal/anti-diagonal Hopf actions are
 `UNIQUE-CONDITIONAL`; UDT's registered principles do not yet select those premises. The first open
@@ -74,12 +75,14 @@ Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`,
 
 1. **`LIVE.md`** CURRENT STATE
 2. **`HANDOFF.md`** CURRENT block
-3. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`**
-4. The exact frozen evidence named by that frontier for the active question
-5. **`MEMORY.md`** TOP (disk) for a compact pointer
-6. **`CLAUDE.md`** principles + how-we-work + DRIVER TRIGGERS
-7. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
-8. This INDEX → specific result docs
+3. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** current-result/open-gate/authority sections
+4. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
+   **`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`**
+5. The exact frozen evidence named by that frontier only for the active question
+6. **`MEMORY.md`** TOP (disk) for a compact pointer
+7. **`CLAUDE.md`** targeted principles + how-we-work + DRIVER TRIGGERS
+8. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
+9. This INDEX → specific result docs
 
 ---
 

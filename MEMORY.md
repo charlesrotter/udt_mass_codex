@@ -8,9 +8,11 @@
 
 **LIVE.md CURRENT STATE is authoritative.** Read `HANDOFF.md`, then
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md`; use
+`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md` and
+`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`; use the full angular report and
 `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` and
-`native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` for the preceding layers. The verified July 18–19 selector chain
+`native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` only for task-specific derivation or
+provenance. The verified July 18–19 selector chain
 extends the frozen native-action adjudication through bootstrap variation-domain underdetermination,
 paired field-census trials, Reciprocity/off-shell and spacetime-line selectors, infinite-c
 adjudication, invariant optical flow, reciprocal clock/ruler/optical linkage, co-presence causal

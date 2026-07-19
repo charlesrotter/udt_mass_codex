@@ -20,24 +20,35 @@ If a pull is blocked by local work, preserve and inspect that work. Never reset,
 stash user changes merely to make the pull succeed. If an untracked file collides with an identical
 upstream file, prove that it is byte-identical and preserve a backup before moving it aside.
 
-Before interpreting the frontier, read from disk in this exact order:
+Before interpreting the frontier, read from disk in this exact order. **Bounded-startup rule:** do
+not dump whole long files or recursively open every cited artifact during orientation. Read only the
+marked/current sections below; expand to full reports, scripts, JSON, logs, or historical layers only
+after the user's actual task makes them load-bearing.
 
-1. `LIVE.md` — its topmost `CURRENT STATE` overrides every other status description.
-2. `HANDOFF.md` — top/current block only.
-3. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — current scientific checkpoint, status distinctions,
-   the completed metric/Hopf and angular–toric audit chain, and the current open selector seam.
-4. `angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md` — the current conditional uniqueness
-   theorem, counterfamilies, and the two ordered missing gates.
-5. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` when the exact reciprocal
-   Hopf-orbit witness or its provenance is relevant, then
+1. `LIVE.md` — read only the range between `STARTUP_CURRENT_BEGIN` and `STARTUP_CURRENT_END`; its
+   `CURRENT STATE` overrides every other status description. Do not read the remaining historical
+   layers at startup.
+2. `HANDOFF.md` — read only its `STARTUP_CURRENT_BEGIN` / `STARTUP_CURRENT_END` range.
+3. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — initially read only `Current honest result`, `Current
+   open discriminator`, and `Authority boundary`.
+4. `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`, then
+   `angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv` — the compact current theorem,
+   counterfamily boundary, and two ordered gates. Read the full package `AUDIT_REPORT.md` only when
+   the task requires its derivation or provenance.
+5. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` only when the exact reciprocal
+   Hopf-orbit witness or its provenance becomes load-bearing, then
    `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` for the preceding carrier/topology
-   classification.
-6. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task.
+   classification only when that layer is relevant.
+6. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task; none are
+   part of generic startup orientation.
 7. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
    is durable lane evidence, not the global frontier.
-8. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline.
-9. The relevant full protocols under `.claude/skills/*/SKILL.md`.
-10. `INDEX.md` and the top of `MEMORY.md` for pointers only; neither can overrule `LIVE.md`.
+8. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline only; do not dump the
+   whole charter at startup.
+9. Only the specific full protocol under `.claude/skills/*/SKILL.md` triggered by the actual task;
+   do not preload every skill.
+10. The top/current summary in `INDEX.md` and `MEMORY.md`'s `TOP — CURRENT POINTER` for pointers only;
+    neither can overrule `LIVE.md`.
 
 For current artifact locations, use `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`. The R0–R1C
 ownership, readiness, census, preregistration, and verification records are fixed historical

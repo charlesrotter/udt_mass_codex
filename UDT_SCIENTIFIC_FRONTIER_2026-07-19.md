@@ -4,6 +4,11 @@ Date: 2026-07-19
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+Startup scope: for initial orientation, read `Current honest result`, `Current open discriminator`,
+and `Authority boundary`. The evidence table, particle/matter detail, and working-hypothesis section
+remain available for task-specific follow-up; they are not a requirement to dump into a fresh
+instance's context before it can report orientation.
+
 ## Current honest result
 
 The July 18–19 scientific chain sharpens the frontier without selecting a complete UDT dynamics:

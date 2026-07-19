@@ -1,5 +1,7 @@
 # LIVE — the only guaranteed-current file (READ ME FIRST)
 
+<!-- STARTUP_CURRENT_BEGIN -->
+
 **⚠ BRANCH: work is on `grok` (2026-07-19).** If not on it: `git checkout grok`. `main` is stale for this arc.
 **The CURRENT STATE block below is the only current frontier** — read it and stop.
 Stale historical frontier layers live under `archive/LIVE_historical_frontier_through_2026-07-08.md`
@@ -7,9 +9,10 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
 **⚠ CURRENT SCIENTIFIC FRONTIER (2026-07-19):** after this CURRENT STATE block read
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md`, then
-`null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` and
-`native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` for the preceding layers. The
+`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md` and
+`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`. Read the
+full angular audit, then the null-section and native-topology reports, only when the actual task
+requires their derivation or provenance. The
 bootstrap/stable-matter interpretation is a `WORKING_HYPOTHESIS`. The exact reciprocal Hopf-orbit
 match is a compatibility witness; `S3` and free diagonal/anti-diagonal Hopf actions are
 `UNIQUE-CONDITIONAL` only inside supplied global toric eigencap premises. Registered UDT has not yet
@@ -44,9 +47,12 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 
 **➤➤➤ JULY 19 ANGULAR–TORIC CLOSURE CHAIN — COMPLETE EVIDENCE, NO FOLLOW-ON LAUNCHED:**
 - **READ NEXT:** `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-  `angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md`; use
+  `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md` and
+  `angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`; use the
+  full `AUDIT_REPORT.md`, then
   `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` and
-  `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` for the preceding bridge layers.
+  `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md`, only for task-specific derivation or
+  provenance work.
 - **✅ EXACT COMPATIBILITY WITNESS:** with `tan(eta)=exp(2 phi)`, the determinant-normalized Hopf
   torus orbit block is exactly `diag(exp(-2 phi),exp(2 phi))`. If two periodic spatial circles, the
   diagonal action, full reciprocal range, and opposing primitive collapses are separately supplied,
@@ -79,6 +85,8 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
   `64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50`;
   `null_section_hopfion_metric_audit_2026-07-19/` manifest SHA-256
   `e195d14349407c23e4a050628ec84298d3d35e23e2c25b5cf285a5c81f8e989b`.
+
+<!-- STARTUP_CURRENT_END -->
 
 **➤➤➤ JULY 19 NATIVE HOPFION TOPOLOGY AUDIT — COMPLETE PRECEDING LAYER:**
 - **READ NEXT:** `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then the exact package evidence it names.

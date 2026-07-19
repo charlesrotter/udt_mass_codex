@@ -1,5 +1,7 @@
 # HANDOFF — Resume (lean)
 
+<!-- STARTUP_CURRENT_BEGIN -->
+
 > **READ `LIVE.md` FIRST** — only guaranteed-current frontier + next action.
 > If this file disagrees with LIVE.md, **LIVE.md wins.**
 >
@@ -9,9 +11,10 @@
 
 **Read LIVE.md CURRENT STATE topmost layer first, then
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md`.** For the immediately preceding bridge
-layers, read `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md`, then
-`native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md`.
+`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md` and
+`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`.** Read the full angular audit and the
+immediately preceding null-section/native-topology reports only when the actual task needs their
+derivation or provenance.
 
 The two latest bounded CPU-only metric audits are complete and verified:
 
@@ -43,6 +46,8 @@ Packages:
   `64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50`;
 - `null_section_hopfion_metric_audit_2026-07-19/`; manifest
   `e195d14349407c23e4a050628ec84298d3d35e23e2c25b5cf285a5c81f8e989b`.
+
+<!-- STARTUP_CURRENT_END -->
 
 The preceding native Hopfion topology audit remains intact:
 
