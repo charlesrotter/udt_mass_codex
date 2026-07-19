@@ -48,6 +48,7 @@
     "reciprocal_clock_optical_scale_selector_2026-07-19/REVIEW_SCALE_CAUSALITY.md",
     "reciprocal_clock_optical_scale_selector_2026-07-19/SHA256SUMS.txt",
     "reciprocal_clock_optical_scale_selector_2026-07-19/STATUS_LEDGER.tsv",
+    "reciprocal_clock_optical_scale_selector_2026-07-19/VERIFICATION_RESULT.json",
     "reciprocal_clock_optical_scale_selector_2026-07-19/derive_reciprocal_clock_optical_scale.py",
     "reciprocal_clock_optical_scale_selector_2026-07-19/requirements-cpu.txt",
     "reciprocal_clock_optical_scale_selector_2026-07-19/verify_reciprocal_clock_optical_scale.py"
