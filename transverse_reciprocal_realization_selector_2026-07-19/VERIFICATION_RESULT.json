@@ -1,0 +1,170 @@
+{
+  "algebra_checks": 40,
+  "audit_report_sha256": "567994f42ecf608b4d5015d46cb6746067f24d29219a1c5ac9c460c8fd156745",
+  "base": "4f5cb5d18b4f3658789a0b0e5f88d1f9439e811a",
+  "candidate_family_sha256": "b553d475ca99a182b2e09a4c79bf479f24a9f9e92f2be738ce251a7a84eb1ce3",
+  "candidate_rows": 7,
+  "catch_proof_count": 27,
+  "catch_proofs": [
+    {
+      "caught": "AssertionError",
+      "name": "direct_extension_promotion",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "so2_obstruction_removed",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "hodge_area_promoted",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "global_periodicity_promoted",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "finite_disk_counterfamily_deleted",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "finite_sphere_counterfamily_deleted",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "spin_embedding_promotion",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "representation_s3_promoted",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "phase_roles_conflated",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "global_spin_promotion",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "soldering_promotion",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "bootstrap_scope_inflation",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "cap_gate_activated",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "action_promotion",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "missing_global_counterfamily",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "duplicate_candidate",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "representation_promoted_to_spacetime",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "irrational_torus_counterexample_removed",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "irrational_torus_basis_removed",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "balanced_reference_premise_removed",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "source_hash_mutation",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "transverse_open_disclosure_removed",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "bootstrap_contradiction_rejected",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "algebra_physical_promotion",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "algebra_common_phase_conflation",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "algebra_cap_activation",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "report_overclaim",
+      "result": "PASS"
+    }
+  ],
+  "derivation_replay": "PASS_BYTE_IDENTICAL",
+  "derivation_result_sha256": "fac08f193a32491ff5a4df89805aec3c28b9e89da68b5dd2b6c49f81df1cee1e",
+  "independent_exact": {
+    "balanced_reference_ray": "PASS",
+    "cp1_unit_sphere": "PASS",
+    "founding_pairing": "PASS",
+    "fubini_study_nonisometry": "PASS",
+    "hopf_integral": "PASS",
+    "induced_vector_transverse_invariance": "PASS",
+    "irrational_torus_nonperiodicity": "PASS",
+    "normalized_orbit": "PASS",
+    "phase_twisted_embedding": "PASS",
+    "so2_equivariance": "PASS"
+  },
+  "ledger_rows": 22,
+  "preregistration_commit": "5becdc107317802cff8aec44948969a317356204",
+  "preregistration_sha256": "94a2193d148ec3219666d9368dde30676d8ea3f442628bf2f9cfc60311e671ea",
+  "python": "3.10.12",
+  "source_inventory_sha256": "150a94fd6b953b27b7b6b6951f30659c4747b3f5f6b73dd0dca4a30c75b56111",
+  "source_rows": 13,
+  "status": "PASS_SELF_CONSISTENCY",
+  "status_ledger_sha256": "e3460c54543dbaac2dfb4d6b33e4f23318a8abe00a25645c285214e04138cada",
+  "sympy": "1.13.1",
+  "verdict": "EXACT_REPRESENTATION_LEVEL_RECIPROCAL_HOPF_CORRESPONDENCE_CONDITIONAL_ON_LORENTZ_SPIN_REALIZATION; PHYSICAL_TRANSVERSE_SPATIAL_PERIODICITY_UNDERDETERMINED; GLOBAL_UNIT_HOPF_LIFT_AND_SOLDERING_OPEN; FINITE_CELL_CAP_GATE_NOT_ACTIVATED",
+  "verification_class": "BASE_PINNED_SOURCES; BYTE_IDENTICAL_REPLAY; INDEPENDENT_SPIN_PROJECTIVE_ALGEBRA; CATCH_PROOFS; FRESH_SEMANTIC_REVIEW_SEPARATE"
+}

@@ -1,0 +1,11 @@
+command: python3 transverse_reciprocal_realization_selector_2026-07-19/derive_transverse_reciprocal_selector.py --output transverse_reciprocal_realization_selector_2026-07-19/DERIVATION_RESULT.json
+working_directory: repository root
+python: 3.10.12
+sympy: 1.13.1
+cpu_only: yes
+exit_code: 0
+stdout:
+DERIVATION PASS 40/40
+EXACT_REPRESENTATION_LEVEL_RECIPROCAL_HOPF_CORRESPONDENCE_CONDITIONAL_ON_LORENTZ_SPIN_REALIZATION; PHYSICAL_TRANSVERSE_SPATIAL_PERIODICITY_UNDERDETERMINED; GLOBAL_UNIT_HOPF_LIFT_AND_SOLDERING_OPEN; FINITE_CELL_CAP_GATE_NOT_ACTIVATED
+stderr:
+<empty>

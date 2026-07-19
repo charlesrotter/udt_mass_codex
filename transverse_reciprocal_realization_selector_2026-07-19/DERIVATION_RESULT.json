@@ -1,0 +1,230 @@
+{
+  "check_count": 40,
+  "checks": {
+    "balanced_seed_required_at_phi_zero": "PASS",
+    "boost_invariant_hermitian_form_nonpositive": "PASS",
+    "common_phase_not_generically_sl2": "PASS",
+    "common_phase_projective_invariance": "PASS",
+    "conditional_hopf_connection_integral": "PASS",
+    "conditional_hopf_unit_class": "PASS",
+    "cp1_bilinear_unit_sphere": "PASS",
+    "direct_vector_extension_preserves_form": "PASS",
+    "direct_vector_extension_transverse_identity": "PASS",
+    "direct_vector_extension_unit_determinant": "PASS",
+    "exact_reciprocal_hopf_correspondence": "PASS",
+    "finite_countermodel_determinant": "PASS",
+    "finite_countermodel_phi_odd": "PASS",
+    "finite_countermodel_projected_hessian": "PASS",
+    "finite_countermodel_transverse_shear": "PASS",
+    "founding_dual_pairing": "PASS",
+    "generic_seed_normalized_orbit": "PASS",
+    "hodge_area_has_no_symmetric_tf_part": "PASS",
+    "hodge_transverse_area_rank": "PASS",
+    "hopf_connection_vertical_normalization": "PASS",
+    "hopf_connection_wedge_density": "PASS",
+    "irrational_torus_first_eigenflow_nonclosed": "PASS",
+    "irrational_torus_projected_hessian_selects_dense_axes": "PASS",
+    "irrational_torus_second_eigenflow_nonclosed": "PASS",
+    "no_lorentz_invariant_positive_spinor_norm": "PASS",
+    "normalized_hopf_orbit": "PASS",
+    "normalized_spinor_radial_metric": "PASS",
+    "phase_twisted_embedding_same_metric_weights": "PASS",
+    "phase_twisted_embedding_special_linear": "PASS",
+    "positive_common_scale_projective_invariance": "PASS",
+    "projective_boost_not_round_isometry": "PASS",
+    "projective_null_direction_unit_sphere": "PASS",
+    "reciprocal_projective_celestial_flow": "PASS",
+    "relative_phase_is_celestial_azimuth": "PASS",
+    "relative_phase_is_sl2": "PASS",
+    "so2_equivariance_obstruction": "PASS",
+    "spin_boost_reciprocal_ratio": "PASS",
+    "spin_boost_special_linear": "PASS",
+    "spinor_hermitian_rank_one_null": "PASS",
+    "unit_spinor_norm": "PASS"
+  },
+  "classification": {
+    "balanced_reference_ray": "EQUAL_COMPONENT_MAGNITUDES_AT_PHI_ZERO_REQUIRED_FOR_UNSHIFTED_PRIOR_BLOCK",
+    "direct_tangent_vector_route": "TRANSVERSE_IDENTITY_NOT_RECIPROCAL_PAIR",
+    "finite_cell_bootstrap_rejection_operator": "ABSENT_FROM_REGISTERED_WORDING",
+    "finite_cell_cap_gate": "NOT_ACTIVATED",
+    "global_unit_hopf_lift": "OPEN_WITHOUT_GLOBAL_SPIN_LIFT_AND_NORM_FRAME_DATA",
+    "metric_derivative_route": "CONDITIONAL_STRATIFIED_AND_DEGENERATE; NO_FORCED_EXPONENTIAL_WEIGHTS_OR_CLOSED_ORBITS",
+    "physical_transverse_spatial_periodicity": "UNDERDETERMINED_NOT_DERIVED",
+    "representation_correspondence": "EXACT_WITHIN_CONDITIONAL_LORENTZ_SPIN_REALIZATION",
+    "smallest_missing_gate": "NATIVE_REALIZATION_OR_SOLDERING_RULE_FROM_RECIPROCAL_PROJECTIVE_GEOMETRY_TO_PHYSICAL_FIELD_OR_TRANSVERSE_METRIC_DATA",
+    "so2_natural_tensor_route": "NO_NONZERO_SCALAR_ONLY_EQUIVARIANT_TRACEFREE_TENSOR",
+    "soldering_to_physical_spacetime": "OPEN",
+    "spin_embedding_uniqueness": "REAL_POSITIVE_EMBEDDING_REQUIRES_ALPHA_ZERO; METRIC_MAGNITUDES_ALONE_ALLOW_PHASE_TWIST_ALPHA"
+  },
+  "counterfamilies": {
+    "finite_disk_transverse": {
+      "foundation_status": "KINEMATICALLY_COMPATIBLE; COMPLETE_ACTION_AND_BOOTSTRAP_ADMISSIBILITY_UNTESTABLE",
+      "geometry": "R_t x [-L,L]_r x D2 with diag(-e^-2kr,e^2kr,1,1)",
+      "periodic_transverse_pair": "ABSENT"
+    },
+    "finite_sphere_transverse": {
+      "foundation_status": "KINEMATICALLY_COMPATIBLE; S2_HAS_NO_FREE_EFFECTIVE_T2_ACTION",
+      "geometry": "R_t x [-L,L]_r x S2 with reciprocal longitudinal block and round transverse S2",
+      "periodic_transverse_pair": "ABSENT"
+    },
+    "irrational_torus_eigenflow": {
+      "foundation_status": "GRANTS_TRANSVERSE_TORUS_AND_RECIPROCAL_AXES_BUT_BOTH_EIGENFLOWS_ARE_DENSE",
+      "geometry": "T2 with exact reciprocal metric in a constant irrational-slope eigenbasis",
+      "periodic_transverse_pair": "ABSENT_DESPITE_TORUS_AND_NONDEGENERATE_HESSIAN_AXES"
+    },
+    "local_plane_vs_torus": {
+      "foundation_status": "LOCAL_C0_C1_CANNOT_DISTINGUISH_GLOBAL_PERIOD_IDENTIFICATIONS",
+      "geometry": "identical local flat transverse metric on R2 and T2",
+      "periodic_transverse_pair": "GLOBAL_CHOICE_NOT_LOCAL_CONSEQUENCE"
+    },
+    "spin_representation_only": {
+      "foundation_status": "EXACT_REPRESENTATION_CORRESPONDENCE_WITH_OPEN_GLOBAL_SPIN_AND_SOLDERING",
+      "geometry": "conditional local SL2C doublet with projective celestial CP1",
+      "periodic_transverse_pair": "PHASE_COORDINATES_NOT_SPACETIME_DIRECTIONS"
+    }
+  },
+  "exact_identities": {
+    "direct_4d_transverse_block": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "finite_countermodel_metric": [
+      [
+        "-exp(-2*kappa*r)",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "exp(2*kappa*r)",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "founding_action": [
+      [
+        "exp(-phi)",
+        "0"
+      ],
+      [
+        "0",
+        "exp(phi)"
+      ]
+    ],
+    "founding_pairing": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ],
+    "fubini_study_boost_factor_at_lambda2_rho1": "16/25",
+    "generic_seed_reciprocal_orbit": [
+      [
+        "seed_a*exp(-2*phi)/seed_b",
+        "0"
+      ],
+      [
+        "0",
+        "seed_b*exp(2*phi)/seed_a"
+      ]
+    ],
+    "hopf_integral": "-4*pi**2",
+    "hopf_unit_class": "1",
+    "normalized_hopf_orbit": [
+      [
+        "1/t",
+        "0"
+      ],
+      [
+        "0",
+        "t"
+      ]
+    ],
+    "normalized_spinor_radial_metric": "cosh(2*phi)**(-2)",
+    "phase_twisted_spin_embedding": [
+      [
+        "exp(I*alpha*phi - phi)",
+        "0"
+      ],
+      [
+        "0",
+        "exp(-I*alpha*phi + phi)"
+      ]
+    ],
+    "projective_direction": [
+      "cos(xi1 - xi2)/cosh(2*phi)",
+      "-sin(xi1 - xi2)/cosh(2*phi)",
+      "-tanh(2*phi)"
+    ],
+    "reciprocal_hopf_orbit": [
+      [
+        "exp(-2*phi)",
+        "0"
+      ],
+      [
+        "0",
+        "exp(2*phi)"
+      ]
+    ],
+    "so2_invariant_tracefree_solution": {
+      "x": "0",
+      "y": "0"
+    },
+    "spin_boost": [
+      [
+        "exp(-a)",
+        "0"
+      ],
+      [
+        "0",
+        "exp(a)"
+      ]
+    ]
+  },
+  "mode": "CPU_EXACT_METRIC_AND_REPRESENTATION_ALGEBRA",
+  "premise_stamps": {
+    "4d_conformal_lorentzian_readout": "INHERITED_CONDITIONAL",
+    "carrier_action_boundary_mass": "OPEN_NOT_ENTERED",
+    "global_spin_structure": "OPEN",
+    "internal_pair_to_lorentz_boost_embedding": "CONDITIONAL_OPEN_REALIZATION_MAP",
+    "local_spin_frame": "CHOSE_REPRESENTATION_COORDINATES",
+    "phase_to_physical_spatial_circle": "OPEN_NOT_DERIVED",
+    "positive_norm_representative": "CHOSE_OBSERVER_OR_HERMITIAN_NORM",
+    "reciprocal_pair": "DERIVED_CONDITIONAL"
+  },
+  "python": "3.10.12",
+  "status": "PASS",
+  "sympy": "1.13.1",
+  "topological_classification": {
+    "common_phase_role": "HOPF_FIBER_GAUGE_NOT_SECOND_PHYSICAL_SPATIAL_DIRECTION",
+    "metric_rotation_frame_bundle_over_S2": "SO3_TO_S2_WITH_CIRCLE_FIBER; TOTAL_RP3; EULER_CLASS_MAGNITUDE_2",
+    "positive_scale_quotient": "C2_MINUS_ZERO_MOD_RPLUS_DIFFEO_S3_AFTER_NORM_CHOICE",
+    "projective_quotient": "C2_MINUS_ZERO_MOD_CSTAR_IS_CP1_DIFFEO_S2",
+    "relative_phase_role": "CELESTIAL_AZIMUTH_AFTER_AXIS_AND_FRAME_CHOICE",
+    "spin_lift_bundle_over_S2": "SU2_TO_S2_WITH_CIRCLE_FIBER; TOTAL_S3; CHERN_CLASS_MAGNITUDE_1"
+  },
+  "verdict": "EXACT_REPRESENTATION_LEVEL_RECIPROCAL_HOPF_CORRESPONDENCE_CONDITIONAL_ON_LORENTZ_SPIN_REALIZATION; PHYSICAL_TRANSVERSE_SPATIAL_PERIODICITY_UNDERDETERMINED; GLOBAL_UNIT_HOPF_LIFT_AND_SOLDERING_OPEN; FINITE_CELL_CAP_GATE_NOT_ACTIVATED"
+}
