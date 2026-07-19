@@ -1,0 +1,110 @@
+{
+  "adjudication": {
+    "CMB_identified_with_phi_positive_infinity": false,
+    "abandon_reciprocity_now": false,
+    "adopt_literal_infinite_c_now": false,
+    "current_owner_foundation_changed": false,
+    "distance_to_phi_endpoint_map_derived": false,
+    "full_4d_metric_discrimination_established": false,
+    "layered_atemporal_and_geometric_reciprocity_logically_compatible": true,
+    "line_realization_gap_closed": false,
+    "local_orthonormal_speed_varies_with_phi": false,
+    "local_time_parallel_conformal_block_discriminates_internal_reciprocity": false,
+    "metric_coordinate_speed_is_diffeomorphism_scalar": false,
+    "metric_endpoint_interpretation_requires_abandoning_reciprocity": false,
+    "observable_superluminal_signalling_authorized": false,
+    "owner_clarification_received_after_preregistration": true,
+    "regulated_infinite_c_logically_compatible_with_reciprocity": true,
+    "underlying_infinite_speed_well_typed_without_pregeometric_time_and_distance": false,
+    "variation_domain_or_action_selected": false
+  },
+  "check_count": 23,
+  "checks": {
+    "H6_conditional_WRL_center_speed_is_anchor_not_infinity": true,
+    "H6_conditional_WRL_wall_speed_tends_to_zero": true,
+    "H6_fast_projective_metric_endpoint_is_rank_one": true,
+    "H6_local_orthonormal_speed_remains_anchor": true,
+    "H6_null_slope_is_metric_ratio": true,
+    "H6_reciprocal_endpoint_limits_are_infinite_and_zero": true,
+    "H6_reversal_multiplies_coordinate_speeds_to_anchor_squared": true,
+    "H6_slow_projective_metric_endpoint_is_rank_one": true,
+    "T2_finite_reciprocal_determinant_one": true,
+    "T2_finite_reciprocal_pairing_exact": true,
+    "T3_infinite_endpoint_singular": true,
+    "T3_projective_endpoint_is_finite_rank_one_not_GL2": true,
+    "T3_reciprocal_metric_conformal_limit_exact": true,
+    "T4_constant_regulator_contributes_no_derivative": true,
+    "T4_residual_causal_speed_finite": true,
+    "T4_residual_metric_factorization_exact": true,
+    "T5_CSN_maps_nonreciprocal_to_reciprocal_representative": true,
+    "T5_general_CSN_decomposition_reconstructs": true,
+    "T5_general_CSN_representative_determinant_one": true,
+    "T5_nonreciprocal_metric_same_effective_cone": true,
+    "T5_nonreciprocal_pairing_not_preserved_generically": true,
+    "T7_constant_effective_c_has_ordinary_lorentz_group": true,
+    "T8_nonreciprocal_countermodel_really_nonunit_determinant": true
+  },
+  "environment": {
+    "cpu_only": true,
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "exact_algebra": {
+    "CSN_scale_to_reciprocal": "sqrt(C)/sqrt(c_eff)",
+    "H6_conditional_WRL_limits": {
+      "center": "c_anchor",
+      "wall": "0"
+    },
+    "H6_conditional_WRL_speed": "c_anchor*(-radius + wall)/wall",
+    "H6_coordinate_null_speed": "c_anchor*exp(-2*depth)",
+    "H6_endpoint_limits": {
+      "phi_to_negative_infinity": "oo",
+      "phi_to_positive_infinity": "0"
+    },
+    "H6_locally_measured_speed": "c_anchor",
+    "H6_metric_endpoint_flow": "Matrix([[-c_anchor**2*exp(-2*depth), 0], [0, exp(2*depth)]])",
+    "H6_projective_metric_endpoints": {
+      "fast": "Matrix([[-c_anchor**2, 0], [0, 0]])",
+      "slow": "Matrix([[0, 0], [0, 1]])"
+    },
+    "H6_reversed_speed_product": "c_anchor**2",
+    "lorentz_residual": "Matrix([[0, 0], [0, 0]])",
+    "nonreciprocal_determinant": "c_eff/C",
+    "nonreciprocal_pairing": "Matrix([[0, c_eff/C], [c_eff/C, 0]])",
+    "nonreciprocal_representative": "Matrix([[c_eff/C, 0], [0, 1]])",
+    "projective_rank_one_endpoint": "Matrix([[0, 0], [0, 1]])",
+    "reciprocal_common_factor": "C/c_eff",
+    "reciprocal_component_limits": {
+      "u": "0",
+      "v": "oo"
+    },
+    "reciprocal_metric": "Matrix([[-C*c_eff, 0], [0, C/c_eff]])",
+    "reciprocal_pairing": "Matrix([[0, 1], [1, 0]])",
+    "reciprocal_representative": "Matrix([[sqrt(c_eff)/sqrt(C), 0], [0, sqrt(C)/sqrt(c_eff)]])",
+    "residual_effective_speed": "c_star*exp(-2*psi)",
+    "residual_metric": "Matrix([[-c_star**2*exp(-2*psi), 0], [0, exp(2*psi)]])"
+  },
+  "hypotheses": {
+    "H0_FINITE_RECIPROCAL_EFFECTIVE": "CONSISTENT_CURRENT_FOUNDATION",
+    "H1_LITERAL_INFINITY_SAME_LAYER": "INCOMPATIBLE_WITH_FINITE_INVERTIBLE_RECIPROCAL_PAIR",
+    "H2_REGULATED_PROJECTIVE_INFINITY": "COMPATIBLE_LIMIT_NOT_GROUP_ENDPOINT",
+    "H3_CSN_APPARENT_RECIPROCITY": "METRIC_EQUIVALENT_INTERNAL_PAIRING_NOT_DERIVED",
+    "H4_GALILEAN_TO_LORENTZ_EMERGENCE": "OPEN_REPLACEMENT_REQUIRES_NEW_DYNAMICS_AND_UNIVERSAL_COUPLING",
+    "H5A_ATEMPORAL_GLOBAL_CLOSURE": "CONCEPTUALLY_COMPATIBLE_NOT_DERIVED",
+    "H5B_TIMED_INSTANTANEOUS_SUBSTRATE": "OPEN_REPLACEMENT_REQUIRES_PREFERRED_CAUSAL_STRUCTURE",
+    "H6_RECIPROCAL_CAUSAL_ENDPOINT_FLOW": "CONDITIONALLY_COHERENT_METRIC_BLOCK_INTERPRETATION"
+  },
+  "next_discriminator": {
+    "question": "Does positional dilation carry a native spacetime/internal pairing action beyond its CSN metric representative?",
+    "required_evidence": [
+      "native_pairing_or_representation_theorem",
+      "finite_cell_or_bootstrap_selection_of_the_finite_residual",
+      "universal_coupling_to_one_emergent_causal_cone",
+      "ordered_spacetime_line_realization",
+      "no_observable_superluminal_signalling_theorem",
+      "native_distance_to_phi_profile_and_CMB_boundary_identification"
+    ]
+  },
+  "schema": "udt.infinite-c-reciprocity-adjudication.v1",
+  "top_level_outcome": "LAYERED_COMPATIBILITY_METRIC_NONDISCRIMINATING"
+}

@@ -1,0 +1,171 @@
+{
+  "artifact_moves": 0,
+  "base": "b3cd93bd92960b89935b9946b88f2e6017195c99",
+  "catchproof": {
+    "CSN_related_metric_distinction_rejected": "PASS",
+    "H5A_H5B_conflation_rejected": "PASS",
+    "H5_no_signalling_promotion_rejected": "PASS",
+    "action_variation_promotion_rejected": "PASS",
+    "atemporal_speed_type_confusion_rejected": "PASS",
+    "constant_background_curvature_claim_rejected": "PASS",
+    "coordinate_null_slope_as_scalar_rejected": "PASS",
+    "countermodel_current_admissibility_rejected": "PASS",
+    "deformed_effective_lorentz_claim_rejected": "PASS",
+    "determinant_one_gauge_as_pairing_proof_rejected": "PASS",
+    "dirty_metadata_drift_rejected": "PASS",
+    "distance_CMB_endpoint_map_promotion_rejected": "PASS",
+    "frozen_package_mutation_rejected": "PASS",
+    "full_4d_equivalence_promotion_rejected": "PASS",
+    "historical_electron_picture_promotion_rejected": "PASS",
+    "line_realization_promotion_rejected": "PASS",
+    "literal_infinite_c_adoption_rejected": "PASS",
+    "literal_infinity_invertibility_rejected": "PASS",
+    "local_c_variation_promotion_rejected": "PASS",
+    "reciprocity_abandonment_adoption_rejected": "PASS",
+    "scope_escape_rejected": "PASS",
+    "singular_endpoint_as_invertible_reciprocal_element_rejected": "PASS",
+    "source_mutation_rejected": "PASS",
+    "status_contract_corruption_rejected": "PASS",
+    "unit_value_foundation_selector_rejected": "PASS",
+    "zero_times_infinity_identity_rejected": "PASS"
+  },
+  "changed_paths": [
+    "infinite_c_reciprocity_adjudication_2026-07-18/ADVERSARIAL_AUDIT.md",
+    "infinite_c_reciprocity_adjudication_2026-07-18/DERIVATION_REPORT.md",
+    "infinite_c_reciprocity_adjudication_2026-07-18/DERIVATION_RESULT.json",
+    "infinite_c_reciprocity_adjudication_2026-07-18/DERIVATION_TRANSCRIPT.txt",
+    "infinite_c_reciprocity_adjudication_2026-07-18/LAY_DECISION_TREE.md",
+    "infinite_c_reciprocity_adjudication_2026-07-18/POST_PREREG_METRIC_ENDPOINT_CLARIFICATION.md",
+    "infinite_c_reciprocity_adjudication_2026-07-18/POST_PREREG_OWNER_CLARIFICATION.md",
+    "infinite_c_reciprocity_adjudication_2026-07-18/PREMISE_LEDGER.tsv",
+    "infinite_c_reciprocity_adjudication_2026-07-18/PREREGISTRATION.md",
+    "infinite_c_reciprocity_adjudication_2026-07-18/REVIEW_CAUSALITY_PROVENANCE.md",
+    "infinite_c_reciprocity_adjudication_2026-07-18/REVIEW_PROJECTIVE_COUNTERAUDIT.md",
+    "infinite_c_reciprocity_adjudication_2026-07-18/SHA256SUMS.txt",
+    "infinite_c_reciprocity_adjudication_2026-07-18/STATUS_LEDGER.tsv",
+    "infinite_c_reciprocity_adjudication_2026-07-18/derive_infinite_c_reciprocity.py",
+    "infinite_c_reciprocity_adjudication_2026-07-18/requirements-cpu.txt",
+    "infinite_c_reciprocity_adjudication_2026-07-18/verify_infinite_c_reciprocity.py"
+  ],
+  "cpu_dependency": {
+    "gpu_imports": [],
+    "result": "PASS",
+    "sympy": "1.13.1"
+  },
+  "current_foundation_changed": false,
+  "dirty_checkout_metadata_rows": 54,
+  "dirty_content_policy": "NOT_READ",
+  "frozen_package_replays": [
+    {
+      "entries": 29,
+      "package": "native_action_stage1_2026-07-18/arm_A",
+      "paths": 30,
+      "result": "PASS"
+    },
+    {
+      "entries": 15,
+      "package": "native_action_stage1_2026-07-18/arm_B",
+      "paths": 16,
+      "result": "PASS"
+    },
+    {
+      "entries": 13,
+      "package": "native_action_stage2_2026-07-18/arm_A",
+      "paths": 14,
+      "result": "PASS"
+    },
+    {
+      "entries": 13,
+      "package": "native_action_stage2_2026-07-18/arm_B",
+      "paths": 14,
+      "result": "PASS"
+    },
+    {
+      "entries": 21,
+      "package": "native_action_arm_c_2026-07-18",
+      "paths": 22,
+      "result": "PASS"
+    },
+    {
+      "entries": 36,
+      "package": "native_action_final_adjudication_2026-07-18",
+      "paths": 37,
+      "result": "PASS"
+    }
+  ],
+  "gpu_used": false,
+  "grok_integration_authorized": false,
+  "independent_exact_algebra": {
+    "CSN_related": true,
+    "H6_conditional_WRL_limits": [
+      "anchor",
+      "0"
+    ],
+    "H6_conditional_WRL_speed": "anchor*(-radius + wall)/wall",
+    "H6_coordinate_speed": "anchor*exp(-2*depth)",
+    "H6_endpoint_limits": [
+      "oo",
+      "0"
+    ],
+    "H6_local_proper_speed": "anchor",
+    "H6_projective_metric_endpoints": [
+      "Matrix([[-anchor**2, 0], [0, 0]])",
+      "Matrix([[0, 0], [0, 1]])"
+    ],
+    "H6_reversed_product": "anchor**2",
+    "component_limits": [
+      "0",
+      "oo"
+    ],
+    "nonreciprocal_pairing_factor": "observed/regulator",
+    "ordinary_lorentz_residual": "Matrix([[0, 0], [0, 0]])",
+    "projective_rank_one_endpoint": "Matrix([[0, 0], [0, 1]])",
+    "reciprocal_pairing": true,
+    "result": "PASS"
+  },
+  "ledger": {
+    "result": "PASS",
+    "rows": 28
+  },
+  "mode": "INDEPENDENT_CPU_ONLY_INFINITE_C_RECIPROCITY_ADJUDICATION",
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "links": 0
+  },
+  "package_manifest": {
+    "entries": 15,
+    "result": "PASS",
+    "sha256": "f15235b149dd915aabcefbb405a776234fb4a68ac8da4b706a09583d3c64a5f6"
+  },
+  "preregistration_commit": "de6c2645371752b987fdd0072061f498d40051ba",
+  "report_and_reviews": {
+    "result": "PASS",
+    "tokens": 11
+  },
+  "reported_outcome": "LAYERED_COMPATIBILITY_METRIC_NONDISCRIMINATING",
+  "result": "PASS",
+  "source_hashes": {
+    "UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md": "4bb0da9098da0a9970602e2449615eef151796b0d7fe7a9978f4b66145748a34",
+    "UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md": "6e977717ca028cabaa198dd14a6a97b3b15740e45485d0ab735f3df0326df192",
+    "UDT_NATIVE_ACTION_COLD_PACKET.md": "d38232792ac78188687db433a3f60a08c775c46e9ecf5fc42ad7953dc89fadb0",
+    "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003",
+    "native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv": "70cab9d5e10b03e0e3418129b67155e01d9f805c4397c69ef8795c4d2aaa5dfd",
+    "reciprocal_line_realization_selector_2026-07-18/DERIVATION_REPORT.md": "e05cc6b0f124419104dde530305e1cd3779b5e3f7136f59e2000af67812a948e",
+    "reciprocal_line_realization_selector_2026-07-18/SHA256SUMS.txt": "4fe297e81414977f5eb75b6e535e1fca0f60a1d872e1fd42921f25aee0e59a16",
+    "reciprocal_line_realization_selector_2026-07-18/STATUS_LEDGER.tsv": "b3a0edea452a7873b8bf8a7aeacaa4339a620f7901e673f942a8319dc6023faa",
+    "reciprocity_offshell_constraint_selector_2026-07-18/SHA256SUMS.txt": "3f6da5926200f68e07b67a167948b2211d0a506fa65d322e600a7d22b080c74a"
+  },
+  "test_baseline": {
+    "baseline_match": true,
+    "command": "python3 -m pytest tests/",
+    "expected_failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "failed": 1,
+    "passed": 69,
+    "python": "3.10.12",
+    "returncode": 1,
+    "scope": "full",
+    "xfailed": 1
+  }
+}
