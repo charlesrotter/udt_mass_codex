@@ -55,6 +55,15 @@ The final instance correctly reported:
 
 It marked all four residual-defect checks `PASS` and found every mandatory startup target.
 
+## Pre-existing verifier note
+
+The controller also probed the native Hopf topology verifier, beyond the registered startup
+rehearsal gate. It rejects the current `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` hash because its
+source inventory records an older version of that live navigation file. The same rejection
+reproduces at the preregistered base `ca2bf9e`, so it was not introduced by this correction. The
+native Hopf package manifest remains the byte-identity gate and is replayed separately; neither the
+frozen package nor its inventory is changed here.
+
 ## Harness
 
 Each controlled successor was launched with:
