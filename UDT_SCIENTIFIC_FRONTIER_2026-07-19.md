@@ -1,7 +1,7 @@
 # UDT Scientific Frontier — Co-Presence, Bootstrap, and Time-Live Matter
 
-Date: 2026-07-19  
-Authority: current navigation/status checkpoint; not canonization  
+Date: 2026-07-19
+Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
 ## Current honest result

@@ -1,8 +1,8 @@
 # UDT Scientific Checkpoint Integration — Preregistration
 
-Date: 2026-07-19  
-Branch: `codex/scientific-checkpoint-integration-2026-07-19`  
-Scientific source tip: `d2e7b7af16bc6784c859e9c4cd52bcddc60c693b`  
+Date: 2026-07-19
+Branch: `codex/scientific-checkpoint-integration-2026-07-19`
+Scientific source tip: `d2e7b7af16bc6784c859e9c4cd52bcddc60c693b`
 Required pre-integration `origin/grok`: `3f0d716bd07f9c9f5d8438638bdced28a7b45bda`
 
 ## Purpose
