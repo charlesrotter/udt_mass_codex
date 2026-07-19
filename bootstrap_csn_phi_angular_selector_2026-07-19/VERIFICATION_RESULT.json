@@ -1,0 +1,97 @@
+{
+  "base": "58a3fa8dbc7b4cb7de55313efc361194fdc65114",
+  "candidate_rows": 12,
+  "catch_count": 17,
+  "catch_proofs": [
+    {
+      "name": "dropped_independent_tangent",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "trace_identity_promoted_to_phi_eom",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "noether_identity_detached_from_chosen_action",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "angular_tracefree_family_dropped",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "bootstrap_functional_invented",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "eikonal_conditional_class_promoted",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "eikonal_nowhere_zero_coefficient_dropped",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "petrov_d_called_unique",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "petrov_d_multiplicity_mutated",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "petrov_o_given_selected_line",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "kasner_petrov_i_counterwitness_removed",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "einstein_comparison_imported_as_native",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "carrier_activation",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "conditional_witness_called_complete_universe",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "historical_canon_scope_exception_hidden",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "csn_open_locality_disclosure_removed",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "bootstrap_stronger_local_fork_silently_imported",
+      "result": "PASS_REJECTED"
+    }
+  ],
+  "derivation_checks": 43,
+  "independent_check_count": 9,
+  "independent_checks": {
+    "analytic_kasner_electric_weyl": "PASS",
+    "analytic_kasner_pnd_discriminant": "PASS",
+    "analytic_kasner_ricci": "PASS",
+    "independent_conformal_zero_sets": "PASS",
+    "independent_petrov_multiplicities": "PASS",
+    "independent_reciprocal_time_map": "PASS",
+    "independent_tangent_rank": "PASS",
+    "independent_timelike_dphi": "PASS",
+    "independent_trace_counterprojections": "PASS"
+  },
+  "ledger_rows": 35,
+  "mode": "FRESH_INDEPENDENT_ANALYTIC_AND_FAIL_CLOSED_PACKAGE_VERIFICATION",
+  "preregistration_commit": "4e5b0ba413d83d9c69c972a11517e42b18b52005",
+  "python": "3.10.12",
+  "replay_byte_equivalent_json": true,
+  "source_rows": 20,
+  "status": "PASS",
+  "sympy": "1.13.1",
+  "verdict": "EXACT_CSN_INVARIANCE_OF_A_CHOSEN_ACTION_IMPLIES_A_GAUGE_NOETHER_IDENTITY_NOT_A_PHI_ANGULAR_EOM; BOOTSTRAP_SUPPLIES_GLOBAL_ADMISSIBILITY_NOT_CURRENT_LOCAL_SELECTOR; EIKONAL_UNIQUE_CONDITIONAL_ONLY_WITHIN_LOCAL_DIFF_COVARIANT_METRIC_PLUS_ONE_WEIGHT_ZERO_COVECTOR_HOMOGENEOUS_QUADRATIC_FIRST_JET_SCALAR_CLASS; ALGEBRAIC_SPECIALITY_CSN_COMPATIBLE_BUT_UNIQUE_PND_NOT_FORCED; CONDITIONAL_C2_BACH_AND_ZERO_LAMBDA_EH_DO_NOT_FORCE_TARGET; NO_LOCAL_SELECTOR_FOR_NULL_DPHI_OR_ONE_UNIQUE_REPEATED_PND_IS_DERIVED_FROM_THE_FROZEN_POST_JULY_1_C0_C1_PLUS_CURRENT_CSN_BOOTSTRAP_SOURCE_SET"
+}

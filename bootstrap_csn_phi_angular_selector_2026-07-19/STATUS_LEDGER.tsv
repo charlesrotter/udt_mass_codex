@@ -1,0 +1,36 @@
+claim_id	claim	status	basis	dependency_or_limit
+R01	CSN identifies positive local common scale as calibration	FOUNDING	Owner-locked postulate [g]_CSN={Omega^2 g}	Pre-scale scope only
+R02	Reciprocity leaves a separately meaningful determinant-one phi direction	FOUNDING	D(phi)=diag(e^-phi,e^phi)	Does not itself supply dynamics
+R03	Common-scale, reciprocal-phi, and angular trace-free logarithmic metric tangents have rank three	DERIVED_EXACT	Exact matrix rank in DERIVATION_RESULT.json	Local diagonal tile; covariant trace/trace-free statement is the controlling content
+R04	Exact CSN invariance of a chosen action yields a gauge Noether identity	DERIVED_CONDITIONAL	For algebraic-weight field transformations delta_sigma S gives 2 g_ab E^ab plus weighted-field terms and a boundary identity	Assumes an action and symmetry-realizing fields; inhomogeneous transformations can add derivatives of Euler expressions
+R05	The CSN Noether identity is an off-shell identity rather than an additional Euler equation	DERIVED_CONDITIONAL	Gauge variation is a dependent variation	Boundary and weighted-field terms must be retained
+R06	The trace identity forces the reciprocal-phi Euler projection	REFUTED_EXACT	Trace-zero Euler vector (1,-1,0,0) has nonzero phi projection	No added operator correlates the directions
+R07	The trace identity forces the angular trace-free Euler projection	REFUTED_EXACT	Trace-zero Euler vector (0,0,1,-1) has nonzero shear projection	Full angular sector retained
+R08	Current owner-stated bootstrap is after-solution global admissibility	WORKING	Frozen bootstrap principle and prior selector audit	Not canon and not a local equation
+R09	After-solution admissibility adds a local phi-angular operator	NOT_PRESENT	It filters solutions after equations/closure exist	A future complete bootstrap functional could change this
+R10	A varied bootstrap constraint has form E+eta delta B=0	CONDITIONAL_FORM	Exact formal variation	B and its variation domain are unspecified
+R11	A bootstrap-selected representative has a normal-to-section equation	CONDITIONAL_FORM	Restricted variation chain rule	Sigma and normal condition are unspecified
+R12	Current bootstrap selects among the three placements	UNDERDETERMINED	All three survive the frozen language	Prior selector audit independently established the obstruction
+R13	The eikonal zero set is CSN-compatible	DERIVED_CONDITIONAL	(grad phi)^2 scales Omega^-2 for invariant phi	Compatibility is not selection
+R14	The eikonal equation is unique in the nontrivial homogeneous quadratic scalar first-jet class	UNIQUE_CONDITIONAL	One covector and one inverse metric have one quadratic scalar contraction, up to a nowhere-zero coefficient function	Requires invariant independent phi, locality, first-jet scalar class, and a nowhere-zero coefficient
+R15	Current CSN/bootstrap selects the eikonal minimality class	NOT_DERIVED	Locality, fields, derivative order, and variation domain remain open	No promotion from conditional class to foundation
+R16	The Weyl speciality zero set is CSN-compatible in four dimensions	DERIVED_CONDITIONAL	I^3-27J^2 has homogeneous conformal weight and invariant zero set	Four-dimensional Petrov arena is inherited/conditional
+R17	Algebraic speciality forces one uniquely repeated PND	REFUTED_EXACT	II=[2,1,1], D=[2,2], III=[3,1], N=[4]; in O the Weyl tensor vanishes and curvature selects no PND	D and O defeat uniqueness; the empty O root list in JSON is a code sentinel, not a literal empty null-direction set
+R18	A phi-Weyl alignment equation is supplied	NOT_PRESENT	No frozen source contains an alignment operator	Formal closure target only
+R19	Generic Kasner exponents (-2/7,3/7,6/7) obey both Kasner constraints	OBSERVED_EXACT	Sum and sum of squares both equal one	Chosen conditional counterfamily
+R20	The exact Kasner witness is Ricci-flat	OBSERVED_EXACT	Independent coordinate curvature gives all Ricci components zero	Conditional EH comparison, not native UDT adoption
+R21	The exact Kasner witness is Bach-flat	DERIVED_CONDITIONAL	Four-dimensional Ricci-flat metrics have vanishing Bach tensor	Uses the conditional C2/Bach comparison branch
+R22	A time-coordinate change gives an exact reciprocal t-x block	OBSERVED_EXACT	t=(5 tau/7)^(7/5) gives g_tautau g_xx=-1	Coordinate representative on tau>0
+R23	The reciprocal Kasner phi gradient is timelike	OBSERVED_EXACT	(grad phi)^2=-4*5^(1/5)*7^(4/5)/(125 tau^(14/5))<0	Thus it is not the lightlike branch
+R24	The reciprocal Kasner Weyl tensor is Petrov I	OBSERVED_EXACT	PND quartic discriminant 1194393600/(13841287201 t^12) is nonzero	Four simple PNDs; no repeated direction
+R25	Conditional C2/Bach forces the requested target	REFUTED_WITHIN_CONDITIONAL_CLASS	The reciprocal Kasner witness is Bach-flat, timelike-dphi, Petrov I	Not an unconditional complete-UDT countermodel
+R26	Conditional post-scale zero-Lambda EH forces the requested target	REFUTED_WITHIN_CONDITIONAL_CLASS	The same coordinate-reciprocal Kasner metric is Ricci-flat, timelike-dphi, Petrov I	Zero-Lambda vacuum comparison tile only
+R27	Static seal parity fixes the missing local operator	NOT_DERIVED	Only phi parity/value is sealed; normal derivative remains free	Full finite-cell boundary completion is open
+R28	The narrow proper-total-density statement is a pointwise anisotropic equation	NOT_PRESENT	Current statement is global realized-solution admissibility	No density normalization or local insertion allowed
+R29	The frozen post-July-1 C0/C1 plus current CSN/bootstrap source set derives a local null-dphi or unique-repeated-PND selector	NOT_DERIVED_FROM_AUDITED_SOURCE_SET	Exact source census plus independent tangent, placement, and counterfamily algebra	Does not claim absence from every UDT-era record and does not exclude a future separately derived bootstrap functional or section rule
+R30	A complete matter-bearing UDT universe violating the target has been constructed	NOT_CLAIMED	Kasner is an exact conditional action-branch counterwitness only	Carrier, source, boundary, and global closure remain open
+R31	A future bootstrap completion could add the missing equation	OPEN	Would require an explicit B, Sigma, action, or boundary/global operator	Must be separately derived and audited
+R32	Native lightlike dphi branch is forced	NOT_DERIVED	Eikonal is compatible and unique only in a narrow added class	Nontrivial time-live lightlike branch remains optional
+R33	A uniquely repeated native curvature direction is forced	NOT_DERIVED	Speciality is compatible but not selected and not sufficient for uniqueness	Would require type branch and alignment/continuation gates
+R34	Carrier or mass closure follows from this audit	NOT_ACTIVATED	Explicit stop line	No carrier, action, time-live solve, mass, or stability conclusion
+R35	CANON C-2026-06-10-3 records a pre-July nonstationary phi-angular rung-2 weld	HISTORICAL_CANON_OUTSIDE_AFFIRMATIVE_AUDIT	The mixed-date CANON file is disclosed; the July-1 provenance firewall forbids using that pre-July equation as affirmative physics here	This audit neither rederives the weld nor adjudicates whether it forces either requested selector; a separate operator-provenance regrade is required
