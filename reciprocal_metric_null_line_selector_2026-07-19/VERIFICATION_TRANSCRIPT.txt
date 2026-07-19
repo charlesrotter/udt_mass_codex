@@ -1,0 +1,22 @@
+COMMAND
+python3 reciprocal_metric_null_line_selector_2026-07-19/verify_reciprocal_null_line_selector.py --output reciprocal_metric_null_line_selector_2026-07-19/VERIFICATION_RESULT.json
+
+ENVIRONMENT
+CPU only
+Python 3.10.12
+SymPy 1.13.1
+
+STDOUT
+VERIFICATION PASS catches=13/13 independent=8/8
+
+STDERR
+empty
+
+EXIT CODE
+0
+
+INDEPENDENCE
+The verifier does not import the derivation module. It reconstructs the general angular norm,
+the explicit eikonal solution, the anisotropic Weyl tensor and PND quartic, a round-warped D
+witness, and the special PND multiplicities. It also replays the constructor into a temporary
+output and requires byte identity.

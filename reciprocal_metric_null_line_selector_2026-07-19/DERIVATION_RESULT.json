@@ -1,0 +1,116 @@
+{
+  "check_count": 32,
+  "checks": {
+    "angular_time_live_eikonal": "PASS",
+    "anisotropic_invariant_speciality_excluded": "PASS",
+    "anisotropic_petrov_i_exact": "PASS",
+    "anisotropic_phi_odd": "PASS",
+    "anisotropic_pnd_quartic_four_simple_roots": "PASS",
+    "anisotropic_psi0_psi2_psi4_nonzero": "PASS",
+    "anisotropic_psi1_vanishes": "PASS",
+    "anisotropic_psi3_vanishes": "PASS",
+    "anisotropic_reciprocal_temporal_radial_product": "PASS",
+    "anisotropic_speciality_counterexample_registered": "PASS",
+    "csn_dphi_norm_scaling": "PASS",
+    "explicit_time_live_eikonal_branch": "PASS",
+    "explicit_time_live_eikonal_nontrivial": "PASS",
+    "general_block_inverse_dphi_norm": "PASS",
+    "null_first_jet_exists": "PASS",
+    "petrov_ii_local_unique_double_root": "PASS",
+    "petrov_iii_local_unique_triple_root": "PASS",
+    "petrov_n_local_unique_quadruple_root": "PASS",
+    "positive_angular_complete_square_decomposition": "PASS",
+    "radial_time_live_eikonal": "PASS",
+    "spacelike_first_jet_exists": "PASS",
+    "spherical_curved_subfamily_petrov_d": "PASS",
+    "spherical_flat_subfamily_petrov_o": "PASS",
+    "spherical_only_psi2_may_survive": "PASS",
+    "spherical_psi0_vanishes": "PASS",
+    "spherical_psi1_vanishes": "PASS",
+    "spherical_psi3_vanishes": "PASS",
+    "spherical_psi4_vanishes": "PASS",
+    "static_dphi_positive_sum": "PASS",
+    "static_seal_zero_gradient_has_zero_norm": "PASS",
+    "static_zero_gradient_has_zero_norm": "PASS",
+    "timelike_first_jet_exists": "PASS"
+  },
+  "classification": {
+    "anisotropic_reciprocal_counterfamily": "PETROV_I_WITH_FOUR_SIMPLE_PNDS",
+    "global_conformal_null_line": "NOT_DERIVED",
+    "petrov_ii_iii_n": "LOCAL_UNIQUE_HIGHEST_MULTIPLICITY_LINE_EXISTS_BUT_NOT_FOUNDATION_FORCED",
+    "physical_carrier_action_cap": "OPEN_NOT_ACTIVATED",
+    "round_angular_warped_petrov": "D_IF_PSI2_NONZERO; O_IF_PSI2_ZERO; TWO_OR_NO_PNDS",
+    "static_positive_spatial_dphi": "SPACELIKE_OR_ZERO; NONTRIVIAL_NULL_EXCLUDED_WITHIN_STATIC_SUBFAMILY",
+    "static_seal_global_nullness": "REQUIRES_ALL_SPATIAL_DERIVATIVES_ZERO_WHERE_PARTIAL_T_PHI_ZERO",
+    "time_live_angular_dphi": "POSITIVE_ANGULAR_TERM_REQUIRES_ADDITIONAL_TIME_BALANCE",
+    "time_live_radial_dphi": "NULL_IS_OPTIONAL_EIKONAL_PDE_NOT_RECIPROCITY_IDENTITY",
+    "unique_repeated_pnd": "UNDERDETERMINED_NOT_DERIVED"
+  },
+  "counterfamilies": {
+    "anisotropic_reciprocal_petrov_i": {
+      "result": "exact reciprocal temporal/radial product with four simple PNDs",
+      "scope": "finite local r interval with chosen unequal transverse warp rates"
+    },
+    "explicit_time_live_null_gradient": {
+      "result": "nontrivial eikonal branch exists but is selected by a PDE not by reciprocity",
+      "scope": "local positive numerator/denominator domain"
+    },
+    "round_angular_petrov_d_or_o": {
+      "result": "two repeated radial PNDs or conformally flat no selector",
+      "scope": "conditional spherical/constant-curvature warped family"
+    },
+    "static_nonzero_phi_spacelike_gradient": {
+      "result": "same reciprocal block; dphi spacelike rather than null",
+      "scope": "static positive-spatial metric family"
+    }
+  },
+  "exact_identities": {
+    "angular_complete_square_decomposition": "px**2/qa + (-px*qb + py*qa)**2/(qa*(qa*qd - qb**2))",
+    "angular_time_live_eikonal": "(c_light**2*pr**2 + c_light**2*qnorm*exp(2*phi) - pt**2*exp(4*phi))*exp(-4*phi)/c_light**2",
+    "anisotropic_np_at_k1_ay2_az3_r0": {
+      "psi0": "-5/4",
+      "psi1": "0",
+      "psi2": "-13/12",
+      "psi3": "0",
+      "psi4": "-5/4"
+    },
+    "anisotropic_petrov_I": "61/12",
+    "anisotropic_petrov_J": "-91/216",
+    "anisotropic_pnd_discriminant": "32400",
+    "anisotropic_pnd_polynomial": "-(z**2 + 5)*(5*z**2 + 1)/4",
+    "anisotropic_scalar_at_k1_ay2_az3_r0": "-22",
+    "anisotropic_speciality_discriminant": "2025/16",
+    "explicit_angular_inverse_norm": "(px**2*qd - 2*px*py*qb + py**2*qa)/(qa*qd - qb**2)",
+    "explicit_time_live_eikonal_phi": "log((A0 + 2*c_light*t*wave_rate)/(B0 - 2*r*wave_rate))/2",
+    "general_dphi_norm": "pr**2*exp(-2*phi) + qnorm - pt**2*exp(2*phi)/c_light**2",
+    "radial_time_live_eikonal": "(c_light*pr - pt*exp(2*phi))*(c_light*pr + pt*exp(2*phi))*exp(-4*phi)/c_light**2",
+    "spherical_np_at_generic_static_two_jet": {
+      "psi0": "0",
+      "psi1": "0",
+      "psi2": "-(2*R0**2*p1**2 - R0**2*p2 + 2*R0*R1*p1 - R0*R2 + R1**2 - exp(2*p0))*exp(-2*p0)/(6*R0**2)",
+      "psi3": "0",
+      "psi4": "0"
+    },
+    "spherical_scalar_at_r0": "-2*(2*R0**2*p1**2 - R0**2*p2 - 4*R0*R1*p1 + 2*R0*R2 + R1**2 - exp(2*p0))*exp(-2*p0)/R0**2",
+    "static_dphi_norm": "(pr**2 + qnorm*exp(2*phi))*exp(-2*phi)"
+  },
+  "mode": "CPU_EXACT_CAUSAL_GRADIENT_AND_WEYL_PETROV_ALGEBRA",
+  "premise_stamps": {
+    "action_source_boundary_bootstrap_operator": "OPEN",
+    "anisotropic_warp_rates": "CHOSE_COUNTERFAMILY",
+    "carrier_section_periods_caps": "OPEN_EXCLUDED",
+    "common_scale_neutrality": "FOUNDING",
+    "field_equations_goldberg_sachs": "EXCLUDED_NOT_IMPORTED",
+    "four_dimensional_lorentz_readout": "INHERITED_CONDITIONAL",
+    "petrov_class": "OBSERVED_CURVATURE_READOUT_PER_FAMILY",
+    "positive_spatial_angular_metric": "GENERAL_LOCAL_METRIC_REQUIREMENT",
+    "reciprocal_metric_block": "DERIVED_CONDITIONAL",
+    "round_angular_warp": "PINNED_BY_HABIT_CONDITIONAL_TEST_FAMILY",
+    "staticity": "CHOSE_CONDITIONAL_SUBFAMILY",
+    "time_live_eikonal": "FREE_BRANCH_NOT_FIELD_EQUATION"
+  },
+  "python": "3.10.12",
+  "status": "PASS",
+  "sympy": "1.13.1",
+  "verdict": "NONTRIVIAL_STATIC_NULL_DPHI_EXCLUDED_WITHIN_POSITIVE_SPATIAL_STATIC_SUBFAMILY; TIME_LIVE_NULL_DPHI_OPTIONAL_EIKONAL_BRANCH; ROUND_ANGULAR_WARPED_FAMILY_PETROV_D_OR_O_CONDITIONAL; RECIPROCAL_ANISOTROPIC_PETROV_I_COUNTERFAMILY_EXISTS; UNIQUE_REPEATED_PND_UNDERDETERMINED; GLOBAL_CONFORMAL_NULL_LINE_NOT_DERIVED"
+}

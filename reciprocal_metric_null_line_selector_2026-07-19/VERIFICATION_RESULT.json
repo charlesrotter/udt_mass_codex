@@ -1,0 +1,78 @@
+{
+  "base": "e76d748881e6a091ce367a4c11db640700724bfb",
+  "byte_identical_derivation_replay": "PASS",
+  "candidate_rows": 8,
+  "catch_proof_count": 13,
+  "catch_proofs": [
+    {
+      "name": "missing_source",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "duplicate_candidate",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "dropped_positive_angular_term",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "static_nonzero_gradient_called_null",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "eikonal_promoted_to_reciprocity",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "petrov_d_pair_called_unique",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "petrov_o_called_selector",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "deleted_petrov_i_counterfamily",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "imported_gr_geodesicity",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "skipped_seal_type_transition",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "claimed_carrier_closure",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "claimed_complete_on_shell_countermodel",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "mutated_open_transverse_source",
+      "result": "PASS_REJECTED"
+    }
+  ],
+  "controller_checks": 32,
+  "independent_exact_checks": {
+    "explicit_time_live_solution": "PASS",
+    "general_positive_angular_norm": "PASS",
+    "independent_anisotropic_weyl": "PASS",
+    "independent_petrov_i_quartic": "PASS",
+    "independent_round_warped_d_witness": "PASS",
+    "radial_eikonal_relation": "PASS",
+    "special_pnd_multiplicities": "PASS",
+    "static_causal_class": "PASS"
+  },
+  "ledger_rows": 28,
+  "preregistration": "9fc890a5074f016917272b1b37b3681cedff2d53",
+  "python": "3.10.12",
+  "source_rows": 16,
+  "status": "PASS",
+  "sympy": "1.13.1",
+  "verdict": "NONTRIVIAL_STATIC_NULL_DPHI_EXCLUDED_WITHIN_POSITIVE_SPATIAL_STATIC_SUBFAMILY; TIME_LIVE_NULL_DPHI_OPTIONAL_EIKONAL_BRANCH; ROUND_ANGULAR_WARPED_FAMILY_PETROV_D_OR_O_CONDITIONAL; RECIPROCAL_ANISOTROPIC_PETROV_I_COUNTERFAMILY_EXISTS; UNIQUE_REPEATED_PND_UNDERDETERMINED; GLOBAL_CONFORMAL_NULL_LINE_NOT_DERIVED"
+}

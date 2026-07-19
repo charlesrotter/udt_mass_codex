@@ -1,0 +1,29 @@
+claim_id	claim	status	basis	dependency_or_limit
+R01	Reciprocal exponential temporal/parallel representative	DERIVED_CONDITIONAL	composition regularity dual reciprocity and chosen Lorentz representative	transverse block time-live geometry and common scale remain open
+R02	Positive common scale preserves dphi causal type	DERIVED_CONDITIONAL	g inverse scales by Omega^-2 for smooth Omega positive	not a statement through Omega zero nonsmooth rescaling or metric degeneracy
+R03	General reciprocal dphi norm	DERIVED_CONDITIONAL	-e^(2phi) phi_t^2/c^2 + e^(-2phi) phi_r^2 + q^AB phi_A phi_B	uses block-diagonal gradient-adapted representative and positive q_AB
+R04	Nonzero static dphi is spacelike	DERIVED_WITHIN_SUBFAMILY	all terms are nonnegative when phi_t=0	static positive-spatial subfamily only
+R05	Nontrivial static null dphi	EXCLUDED_WITHIN_SUBFAMILY	zero norm forces every spatial derivative to vanish and dphi=0	does not exclude time-live or off-diagonal null gradients
+R06	Radial time-live null dphi	OPTIONAL_EIKONAL_BRANCH	phi_t equals plus or minus c exp(-2phi) phi_r	not a founding identity or evolution law
+R07	Explicit nontrivial time-live eikonal solution	OBSERVED_EXACT	phi=one-half log((A+2 c k t)/(B-2 k r)) has zero norm	local domain with positive numerator and denominator
+R08	Angular gradient contribution	DERIVED_CONDITIONAL	q^AB phi_A phi_B enters with positive sign	q_AB remains physically underdetermined
+R09	Time-live angular null dphi	OPTIONAL_EIKONAL_BRANCH	temporal derivative must balance radial plus angular positive terms	branch sign boundary and global continuation are open
+R10	Static seal dphi norm	DERIVED_WITHIN_STATIC_SEAL	at phi=0 and phi_t=0 the norm is phi_r^2+q^AB phi_A phi_B	canon leaves normal derivative free
+R11	Static seal supplies a null line	NOT_DERIVED	free nonzero normal derivative makes dphi spacelike; zero all-gradient makes dphi zero	time-on seal behavior remains open
+R12	Static reciprocal round common-warp angular Weyl pattern	DERIVED_CONDITIONAL	adapted exact NP contraction for arbitrary local radial two-jets leaves only Psi2	static round-sphere common-warp ansatz is pinned by habit not UDT
+R13	Round warped nonconformally-flat class	PETROV_D_CONDITIONAL	nonzero Psi2 yields two distinct double base-null PNDs	unordered pair not one line
+R14	Round warped conformally-flat class	PETROV_O_CONDITIONAL	Psi2 zero makes the full Weyl tensor vanish	Weyl curvature then selects no direction
+R15	Round warped unique repeated PND	EXCLUDED_WITHIN_SUBFAMILY	D gives two and O gives none	cannot be generalized to free angular metrics
+R16	Anisotropic reciprocal metric identity	EXACT_COUNTERFAMILY	g_tt g_rr/c^2=-1 with positive unequal transverse warps	chosen kinematic metric not certified on shell
+R17	Anisotropic PND quartic	OBSERVED_EXACT	-(z^2+5)(5z^2+1)/4 has four simple roots	tetrad and projective coordinate are chosen readout conventions
+R18	Anisotropic Petrov class	PETROV_I_EXACT_COUNTERFAMILY	nonzero quartic and invariant discriminants exclude speciality	valid on finite nondegenerate local interval
+R19	Reciprocity forces Petrov II III or N	REFUTED_AT_KINEMATIC_LEVEL	exact Petrov-I reciprocal counterfamily satisfies the same open transverse ledger	an eventual action could reject the counterfamily
+R20	Petrov II III N highest-multiplicity line	CONDITIONAL_LOCAL_SELECTOR	root multiplicities two three and four give one distinguished line	type is not forced and geodesicity is not imported
+R21	Goldberg-Sachs or GR field-equation completion	EXCLUDED_NOT_IMPORTED	no GR field equation or Einstein condition is in the frozen ledger	PND geodesicity remains separate
+R22	Petrov type and PND multiplicity are CSN-natural	DERIVED_CONDITIONAL	Weyl zero pattern and projective roots persist under smooth positive nondegenerate rescaling	global smooth extension through singular or type-change loci is open
+R23	Global smooth conformal null line	NOT_DERIVED	static gradient failure plus D/O/I alternatives prevent a foundation-level selector	algebraically special on-shell restriction could change this
+R24	Current bootstrap ranks causal or Petrov branches	NO_CURRENT_OPERATOR	registered bootstrap states admissibility but supplies no action map	complete native action and boundary completion remain open
+R25	Physical carrier identification	OPEN_NOT_ACTIVATED	a null line is not yet a section soldering carrier action or target	no S2 carrier or Hopf section adopted
+R26	Finite-cell cap gate	OPEN_NOT_ACTIVATED	local selector gate failed before boundary completion	no cap period charge or mass conclusion follows
+R27	Counterfamilies are complete UDT universes	NOT_CLAIMED	they satisfy the tested kinematic foundation only	action source boundary and on-shell bootstrap are open
+R28	Unique repeated PND selector	UNDERDETERMINED_NOT_DERIVED	allowed round and anisotropic families yield two zero or four directions	future metric equations may reduce the family

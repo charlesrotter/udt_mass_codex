@@ -1,0 +1,77 @@
+{
+  "audit": "reciprocal-metric-null-line-selector-2026-07-19",
+  "base_commit": "e76d748881e6a091ce367a4c11db640700724bfb",
+  "preregistration_commit": "9fc890a5074f016917272b1b37b3681cedff2d53",
+  "branch": "codex/reciprocal-null-line-selector-2026-07-19",
+  "compute": {
+    "cpu_only": true,
+    "gpu_work_performed": false,
+    "python": "3.10.12",
+    "sympy": "1.13.1",
+    "dependency_pin": "requirements.txt: sympy==1.13.1"
+  },
+  "tests": {
+    "command": "python3 -m pytest tests/ -q",
+    "result": "BASELINE_REPRODUCED",
+    "passed": 69,
+    "failed_known_hygiene": 1,
+    "xfailed": 1,
+    "known_failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header"
+  },
+  "frozen_packages": {
+    "native_action_packages": 6,
+    "native_action_manifest_entries": 127,
+    "native_action_package_paths_including_manifests": 133,
+    "native_action_result": "PASS_UNCHANGED",
+    "stage1_arm_a_manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+    "stage1_arm_b_manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+    "stage2_arm_a_manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+    "stage2_arm_b_manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+    "arm_c_manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+    "final_adjudication_manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+    "native_hopfion_topology_manifest_sha256": "6f03f82d485d4a20c2d2bfc13dc8979c1b229bf92c53f0eb36831abf3d75febc",
+    "null_section_hopfion_metric_manifest_sha256": "e195d14349407c23e4a050628ec84298d3d35e23e2c25b5cf285a5c81f8e989b",
+    "angular_toric_closure_manifest_sha256": "64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50",
+    "transverse_reciprocal_realization_manifest_sha256": "9c074cc83b0815607c1a4a36f8dffeac09bf79c9d0f5aee74a356b21e87bf470",
+    "projective_transport_selector_manifest_sha256": "32e523d44142cd36904a66f385890c5c417d9b827d0ac3cf956bdb48a838004b",
+    "prior_scientific_package_result": "PASS_UNCHANGED"
+  },
+  "current_navigation": {
+    "stable_identities": 1114,
+    "unique_original_paths": 1114,
+    "unique_current_paths": 1114,
+    "root_retained": 1109,
+    "migrated_r1d": 1,
+    "migrated_r1f": 4,
+    "current_markdown_links_checked": 102,
+    "current_link_sources": 23,
+    "package_markdown_links_checked": 0,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "result": "PASS"
+  },
+  "original_dirty_checkout": {
+    "inspection": "METADATA_ONLY",
+    "contents_read": false,
+    "total_paths": 54,
+    "tracked_modified_paths": 3,
+    "untracked_paths": 51,
+    "metadata_sha256": "4bc96070c841a14c497b642ee7b93dcf9061372f770aee065d6b495ee4996f4c",
+    "result": "UNCHANGED"
+  },
+  "authority_boundary": {
+    "startup_controls_changed": false,
+    "origin_grok_changed_during_derivation": false,
+    "repository_reorganization_performed": false,
+    "canonization_performed": false,
+    "carrier_or_cap_derivation_performed": false,
+    "time_live_solve_performed": false,
+    "action_construction_performed": false
+  },
+  "package_integrity": {
+    "manifest": "SHA256SUMS.txt",
+    "entries": 18,
+    "result": "PASS_FINAL_BUILD_AND_REPLAY"
+  },
+  "overall": "PASS"
+}
