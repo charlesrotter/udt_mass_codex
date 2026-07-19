@@ -8,6 +8,7 @@ import ast
 import copy
 import csv
 import hashlib
+import io
 import json
 import re
 import stat
@@ -19,9 +20,25 @@ from urllib.parse import unquote
 
 BASE = "2058f69db3f5c3a4322c5a9404e7145a62eeef2d"
 PREREG = "b7074062f0f8c196c9695e28add68950b3d9a996"
+R1H_PRE_CORRECTION = "b050d2eec5050cdcacc0edada67a438656cf3307"
+CORRECTION_PREREG = "cf0005afefb5684b6e38889c3f7fcdf4b9886700"
+STALE_IDENTITY_SET_SHA256 = "78f9afef35b3d4b97f4fea5f1c30b0ab269f1d91becad75034f0aaff11334393"
 ALLOWED_EXISTING = {
     "research/_registry/CURRENT_CLASSIFICATION.tsv",
     "research/_registry/README.md",
+}
+CORRECTION_ALLOWED = {
+    "reorganization_r1h/R1H_POST_CORRECTION_MIGRATION_STATE_PREREGISTRATION.md",
+    "reorganization_r1h/build_r1h_effective_registry.py",
+    "reorganization_r1h/CURRENT_CLASSIFICATION_SCHEMA.json",
+    "research/_registry/CURRENT_CLASSIFICATION.tsv",
+    "reorganization_r1h/R1H_AUDIT_REPORT.md",
+    "reorganization_r1h/verify_r1h_effective_registry.py",
+    "reorganization_r1h/VERIFY_RESULT.json",
+    "research/_registry/README.md",
+}
+CORRECTION_REQUIRED_BEFORE_VERIFY = CORRECTION_ALLOWED - {
+    "reorganization_r1h/VERIFY_RESULT.json"
 }
 PACKAGES = {
     "native_action_stage1_2026-07-18/arm_A": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
@@ -45,7 +62,10 @@ REGISTRY_FIELDS = [
     "original_path", "current_path", "fixed_snapshot_owner", "fixed_snapshot_evidence",
     "effective_primary_owner", "operator_provenance", "imported_action_or_coupling",
     "comparison_readout", "role", "scientific_lifecycle", "path_migration_safety",
-    "scientific_family", "adjudication_source", "review_status",
+    "migration_review_status", "scientific_family", "adjudication_source", "review_status",
+]
+PRE_CORRECTION_REGISTRY_FIELDS = [
+    field for field in REGISTRY_FIELDS if field != "migration_review_status"
 ]
 CLOSURE_FIELDS = [
     "batch_id", "original_path", "current_path", "introducing_commit",
@@ -103,6 +123,11 @@ def rows(path: Path) -> list[dict[str, str]]:
     return read_rows(path)[1]
 
 
+def read_rows_text(payload: str) -> tuple[list[str], list[dict[str, str]]]:
+    reader = csv.DictReader(io.StringIO(payload), delimiter="\t")
+    return list(reader.fieldnames or []), list(reader)
+
+
 def sha(payload: bytes) -> str:
     return hashlib.sha256(payload).hexdigest()
 
@@ -126,6 +151,15 @@ def validate_prereg(repo: Path) -> None:
     paths = str(git(repo, "diff-tree", "--no-commit-id", "--name-only", "-r", PREREG)).splitlines()
     if parent != BASE or paths != ["reorganization_r1h/R1H_PREREGISTRATION.md"]:
         raise GateError("PREREGISTRATION", f"{parent}:{paths}")
+    correction = str(git(repo, "rev-parse", CORRECTION_PREREG)).strip()
+    correction_parent = str(git(repo, "rev-parse", f"{correction}^")).strip()
+    correction_paths = str(
+        git(repo, "diff-tree", "--no-commit-id", "--name-only", "-r", correction)
+    ).splitlines()
+    if correction_parent != R1H_PRE_CORRECTION or correction_paths != [
+        "reorganization_r1h/R1H_POST_CORRECTION_MIGRATION_STATE_PREREGISTRATION.md"
+    ]:
+        raise GateError("PREREGISTRATION", f"{correction_parent}:{correction_paths}")
 
 
 def validate_scope(repo: Path, injected: str | None = None) -> list[str]:
@@ -150,6 +184,21 @@ def validate_scope(repo: Path, injected: str | None = None) -> list[str]:
     missing = required - changed
     if missing:
         raise GateError("SCOPE", "missing:" + ",".join(sorted(missing)))
+    correction_changed = set(
+        str(git(repo, "diff", "--name-only", R1H_PRE_CORRECTION)).splitlines()
+    )
+    correction_changed.update(
+        str(git(repo, "ls-files", "--others", "--exclude-standard")).splitlines()
+    )
+    if injected:
+        correction_changed.add(injected)
+    correction_invalid = sorted(correction_changed - CORRECTION_ALLOWED)
+    correction_missing = sorted(CORRECTION_REQUIRED_BEFORE_VERIFY - correction_changed)
+    if correction_invalid or correction_missing:
+        raise GateError(
+            "SCOPE",
+            f"correction_invalid={correction_invalid};correction_missing={correction_missing}",
+        )
     return sorted(changed)
 
 
@@ -256,10 +305,123 @@ def validate_inherited(registry: list[dict[str, str]], union: set[str]) -> int:
             or row["scientific_lifecycle"] != "INHERITED_UNREVIEWED"
             or row["scientific_family"] != "INHERITED_UNREVIEWED"
             or row["adjudication_source"] != "R1C_FIXED_SNAPSHOT_INHERITANCE"
+            or row["migration_review_status"] != "INHERITED_UNREVIEWED"
             or not row["path_migration_safety"].startswith("INHERITED_UNREVIEWED:")
         ):
             raise GateError("INHERITED_INFLATION", row["original_path"])
     return len(inherited)
+
+
+def validate_migration_state_correction(
+    registry: list[dict[str, str]],
+    prior_registry: list[dict[str, str]],
+) -> dict[str, object]:
+    prior_by = {row["original_path"]: row for row in prior_registry}
+    current_by = {row["original_path"]: row for row in registry}
+    if len(prior_by) != 1114 or set(prior_by) != set(current_by):
+        raise GateError("REPLACEMENT_SET", "pre/post identity mismatch")
+
+    selected = [
+        row["original_path"]
+        for row in prior_registry
+        if row["review_status"] == "R1G_ADJUDICATED"
+        and row["path_migration_safety"] == "BLOCKED_PROVENANCE_CORRECTION_REQUIRED"
+    ]
+    selected_hash = sha("".join(f"{path}\n" for path in selected).encode("utf-8"))
+    if len(selected) != 101 or selected_hash != STALE_IDENTITY_SET_SHA256:
+        raise GateError("REPLACEMENT_SET", f"pre={len(selected)}:{selected_hash}")
+    selected_set = set(selected)
+
+    stale = [
+        row["original_path"] for row in registry
+        if row["path_migration_safety"] == "BLOCKED_PROVENANCE_CORRECTION_REQUIRED"
+    ]
+    if stale:
+        raise GateError("STALE_PROVENANCE_BLOCK", stale[0])
+
+    replacement_set = {
+        row["original_path"] for row in registry
+        if row["path_migration_safety"] == "BLOCKED_SCIENTIFIC_FAMILY_REVIEW_REQUIRED"
+    }
+    if replacement_set != selected_set:
+        movable = [
+            path for path in selected
+            if current_by[path]["path_migration_safety"] in {
+                "MOVE_READY", "SAFE_BYTE_IDENTICAL", "SAFE_WITH_PATH_POINTER_CHANGES"
+            }
+        ]
+        if movable:
+            raise GateError("FAMILY_REVIEW_PROMOTION", movable[0])
+        raise GateError(
+            "REPLACEMENT_SET",
+            f"missing={sorted(selected_set - replacement_set)[:1]};"
+            f"extra={sorted(replacement_set - selected_set)[:1]}",
+        )
+
+    protected_32 = 0
+    immutable_1 = 0
+    inherited_980 = 0
+    for original, prior in prior_by.items():
+        current = current_by[original]
+        old_fields = PRE_CORRECTION_REGISTRY_FIELDS
+        if original in selected_set:
+            for field in old_fields:
+                if field == "path_migration_safety":
+                    continue
+                if current[field] != prior[field]:
+                    raise GateError("REPLACEMENT_SET", f"{original}:{field}")
+            if current["migration_review_status"] != "FAMILY_REVIEW_REQUIRED":
+                raise GateError("REPLACEMENT_SET", f"{original}:migration_review_status")
+        elif (
+            prior["review_status"] == "R1H_SCIENTIFIC_FAMILY_REVIEWED"
+            and prior["path_migration_safety"] == "BLOCKED_IMMUTABLE_FAMILY_COMPANION"
+        ):
+            protected_32 += 1
+            if any(current[field] != prior[field] for field in old_fields):
+                raise GateError("PROTECTED_REVIEWED_STATE", original)
+            if current["migration_review_status"] != "FAMILY_REVIEWED_BLOCKED":
+                raise GateError("PROTECTED_REVIEWED_STATE", original)
+        elif (
+            prior["review_status"] == "R1G_ADJUDICATED"
+            and prior["path_migration_safety"] == "IMMUTABLE_PATH_RETAIN"
+        ):
+            immutable_1 += 1
+            if any(current[field] != prior[field] for field in old_fields):
+                raise GateError("PROTECTED_REVIEWED_STATE", original)
+            if current["migration_review_status"] != "IMMUTABLE_PATH":
+                raise GateError("PROTECTED_REVIEWED_STATE", original)
+        elif prior["review_status"] == "INHERITED_UNREVIEWED":
+            inherited_980 += 1
+            if any(current[field] != prior[field] for field in old_fields):
+                raise GateError("INHERITED_BASELINE_DRIFT", original)
+            if current["migration_review_status"] != "INHERITED_UNREVIEWED":
+                raise GateError("INHERITED_BASELINE_DRIFT", original)
+        else:
+            raise GateError("REPLACEMENT_SET", f"unclassified prior row:{original}")
+
+    if (protected_32, immutable_1, inherited_980) != (32, 1, 980):
+        raise GateError(
+            "PROTECTED_REVIEWED_STATE",
+            f"{protected_32}/{immutable_1}/{inherited_980}",
+        )
+    migration_reviews = Counter(row["migration_review_status"] for row in registry)
+    expected = Counter({
+        "FAMILY_REVIEW_REQUIRED": 101,
+        "FAMILY_REVIEWED_BLOCKED": 32,
+        "IMMUTABLE_PATH": 1,
+        "INHERITED_UNREVIEWED": 980,
+    })
+    if migration_reviews != expected:
+        raise GateError("MIGRATION_REVIEW_STATUS", str(migration_reviews))
+    return {
+        "replacement_rows": len(selected),
+        "replacement_identity_set_sha256": selected_hash,
+        "protected_family_reviewed_blocked_rows": protected_32,
+        "protected_immutable_rows": immutable_1,
+        "inherited_old_fields_identical_rows": inherited_980,
+        "stale_provenance_correction_rows": 0,
+        "migration_review_status_counts": dict(sorted(migration_reviews.items())),
+    }
 
 
 def immutable_current_path(
@@ -427,13 +589,22 @@ def validate_registry(
             close = closure_by[original]
             if (
                 row["path_migration_safety"] != close["closure_ruling"]
+                or row["migration_review_status"] != "FAMILY_REVIEWED_BLOCKED"
                 or row["scientific_family"] != close["scientific_family"]
                 or row["review_status"] != "R1H_SCIENTIFIC_FAMILY_REVIEWED"
             ):
                 raise GateError("REGISTRY_SOURCE", f"{original}:R1H closure")
         else:
+            expected_migration = source["migration_safety"]
+            expected_migration_review = "IMMUTABLE_PATH"
+            if expected_migration == "BLOCKED_PROVENANCE_CORRECTION_REQUIRED":
+                expected_migration = "BLOCKED_SCIENTIFIC_FAMILY_REVIEW_REQUIRED"
+                expected_migration_review = "FAMILY_REVIEW_REQUIRED"
+            elif expected_migration != "IMMUTABLE_PATH_RETAIN":
+                raise GateError("REGISTRY_SOURCE", f"{original}:unexpected source migration")
             if (
-                row["path_migration_safety"] != source["migration_safety"]
+                row["path_migration_safety"] != expected_migration
+                or row["migration_review_status"] != expected_migration_review
                 or row["scientific_family"] != source["family_id"]
                 or row["review_status"] != "R1G_ADJUDICATED"
             ):
@@ -441,6 +612,7 @@ def validate_registry(
 
     reviews = Counter(row["review_status"] for row in registry)
     provenance = Counter(row["operator_provenance"] for row in registry)
+    migration_reviews = Counter(row["migration_review_status"] for row in registry)
     expected_reviews = Counter({
         "INHERITED_UNREVIEWED": 980,
         "R1G_ADJUDICATED": 102,
@@ -452,8 +624,18 @@ def validate_registry(
         "MIXED": 2,
         "OPEN": 1,
     })
-    if reviews != expected_reviews or provenance != expected_provenance:
-        raise GateError("REGISTRY_SOURCE", f"{reviews}:{provenance}")
+    expected_migration_reviews = Counter({
+        "FAMILY_REVIEW_REQUIRED": 101,
+        "FAMILY_REVIEWED_BLOCKED": 32,
+        "IMMUTABLE_PATH": 1,
+        "INHERITED_UNREVIEWED": 980,
+    })
+    if (
+        reviews != expected_reviews
+        or provenance != expected_provenance
+        or migration_reviews != expected_migration_reviews
+    ):
+        raise GateError("REGISTRY_SOURCE", f"{reviews}:{provenance}:{migration_reviews}")
     return {
         "rows": len(registry),
         "unique_original_paths": len(set(originals)),
@@ -466,6 +648,7 @@ def validate_registry(
         "reference_only_readout_rows": readout_count,
         "review_status_counts": dict(sorted(reviews.items())),
         "operator_provenance_counts": dict(sorted(provenance.items())),
+        "migration_review_status_counts": dict(sorted(migration_reviews.items())),
         "effective_primary_owner_counts": dict(sorted(Counter(row["effective_primary_owner"] for row in registry).items())),
         "scientific_lifecycle_counts": dict(sorted(Counter(row["scientific_lifecycle"] for row in registry).items())),
     }
@@ -602,9 +785,24 @@ def main() -> int:
     frozen_hashes = validate_frozen_inputs(repo)
     schema = json.loads((repo / "reorganization_r1h/CURRENT_CLASSIFICATION_SCHEMA.json").read_text(encoding="utf-8"))
     registry_fields, registry = read_rows(repo / "research/_registry/CURRENT_CLASSIFICATION.tsv")
+    prior_fields, prior_registry = read_rows_text(
+        str(git(repo, "show", f"{R1H_PRE_CORRECTION}:research/_registry/CURRENT_CLASSIFICATION.tsv"))
+    )
     closure_fields, closure = read_rows(repo / "reorganization_r1h/B02_B03_SCIENTIFIC_FAMILY_CLOSURE.tsv")
     if registry_fields != REGISTRY_FIELDS or schema["columns"] != REGISTRY_FIELDS:
         raise GateError("SCHEMA", str(registry_fields))
+    if (
+        schema.get("schema_version") != "R1H_CURRENT_CLASSIFICATION_V2_MIGRATION_REVIEW_AXIS"
+        or schema.get("migration_review_status_counts") != {
+            "FAMILY_REVIEW_REQUIRED": 101,
+            "FAMILY_REVIEWED_BLOCKED": 32,
+            "IMMUTABLE_PATH": 1,
+            "INHERITED_UNREVIEWED": 980,
+        }
+    ):
+        raise GateError("SCHEMA", "migration-review contract")
+    if prior_fields != PRE_CORRECTION_REGISTRY_FIELDS:
+        raise GateError("SCHEMA", f"pre-correction:{prior_fields}")
     if closure_fields != CLOSURE_FIELDS:
         raise GateError("SCHEMA", str(closure_fields))
 
@@ -617,6 +815,7 @@ def main() -> int:
     current_result = validate_current_paths(repo, current)
     closure_result = validate_closure(repo, closure, candidates, ownership, readiness, original_by_current)
     registry_result = validate_registry(registry, current, ownership, readiness, affected, candidates, closure)
+    correction_result = validate_migration_state_correction(registry, prior_registry)
 
     generator = run(repo, ["python3", "-B", "reorganization_r1h/build_r1h_effective_registry.py", "--repo", ".", "--check"])
     generator_result = json.loads(generator.stdout)
@@ -650,6 +849,37 @@ def main() -> int:
     next(row for row in inherited_inflation if row["review_status"] == "INHERITED_UNREVIEWED")["review_status"] = "R1G_ADJUDICATED"
     stranded = copy.deepcopy(closure)
     stranded[0]["standalone_move_safe"] = "YES"
+    replacement_row = next(
+        row for row in registry
+        if row["migration_review_status"] == "FAMILY_REVIEW_REQUIRED"
+    )
+    stale_state = copy.deepcopy(registry)
+    next(
+        row for row in stale_state if row["original_path"] == replacement_row["original_path"]
+    )["path_migration_safety"] = "BLOCKED_PROVENANCE_CORRECTION_REQUIRED"
+    wrong_replacement = copy.deepcopy(registry)
+    next(
+        row for row in wrong_replacement if row["original_path"] == replacement_row["original_path"]
+    )["path_migration_safety"] = "BLOCKED_UNREVIEWED"
+    promoted = copy.deepcopy(registry)
+    next(
+        row for row in promoted if row["original_path"] == replacement_row["original_path"]
+    )["path_migration_safety"] = "MOVE_READY"
+    protected_family = copy.deepcopy(registry)
+    next(
+        row for row in protected_family
+        if row["migration_review_status"] == "FAMILY_REVIEWED_BLOCKED"
+    )["scientific_family"] = "CORRUPTED_FAMILY"
+    protected_immutable = copy.deepcopy(registry)
+    next(
+        row for row in protected_immutable
+        if row["migration_review_status"] == "IMMUTABLE_PATH"
+    )["path_migration_safety"] = "MOVE_READY"
+    inherited_drift = copy.deepcopy(registry)
+    next(
+        row for row in inherited_drift
+        if row["migration_review_status"] == "INHERITED_UNREVIEWED"
+    )["effective_primary_owner"] = "CORRUPTED_OWNER"
 
     catchproof = {
         "pre_native_fallback_rejected": catch("PRE_NATIVE_FALLBACK", lambda: validate_no_pre_native(pre_native, union)),
@@ -668,17 +898,50 @@ def main() -> int:
         "manifest_mutation_rejected": catch("MANIFEST", lambda: validate_manifests(repo, True)),
         "broken_link_rejected": catch("BROKEN_LINK", lambda: validate_links(repo, True)),
         "dirty_metadata_drift_rejected": catch("DIRTY_METADATA", lambda: validate_dirty(repo, args.dirty_checkout.resolve(), True)),
+        "stale_provenance_correction_state_rejected": catch(
+            "STALE_PROVENANCE_BLOCK",
+            lambda: validate_migration_state_correction(stale_state, prior_registry),
+        ),
+        "incorrect_101_identity_replacement_set_rejected": catch(
+            "REPLACEMENT_SET",
+            lambda: validate_migration_state_correction(wrong_replacement, prior_registry),
+        ),
+        "family_review_required_promotion_rejected": catch(
+            "FAMILY_REVIEW_PROMOTION",
+            lambda: validate_migration_state_correction(promoted, prior_registry),
+        ),
+        "family_reviewed_blocked_drift_rejected": catch(
+            "PROTECTED_REVIEWED_STATE",
+            lambda: validate_migration_state_correction(protected_family, prior_registry),
+        ),
+        "immutable_path_drift_rejected": catch(
+            "PROTECTED_REVIEWED_STATE",
+            lambda: validate_migration_state_correction(protected_immutable, prior_registry),
+        ),
+        "inherited_old_field_drift_rejected": catch(
+            "INHERITED_BASELINE_DRIFT",
+            lambda: validate_migration_state_correction(inherited_drift, prior_registry),
+        ),
     }
 
     result = {
         "result": "PASS",
-        "mode": "R1H_EFFECTIVE_REGISTRY_AND_SCIENTIFIC_FAMILY_CLOSURE_FAIL_CLOSED_VERIFY",
+        "mode": "R1H_POST_CORRECTION_MIGRATION_STATE_FAIL_CLOSED_VERIFY",
         "base": BASE,
         "preregistration_commit": PREREG,
+        "pre_correction_tip": R1H_PRE_CORRECTION,
+        "correction_preregistration_commit": str(git(repo, "rev-parse", CORRECTION_PREREG)).strip(),
         "changed_paths": changed,
+        "correction_changed_paths": sorted(
+            str(git(repo, "diff", "--name-only", R1H_PRE_CORRECTION)).splitlines()
+        ),
         "fixed_input_hashes": frozen_hashes,
         "current_paths": current_result,
         "effective_registry": registry_result,
+        "migration_state_correction": correction_result,
+        "pre_correction_registry_sha256": sha(
+            str(git(repo, "show", f"{R1H_PRE_CORRECTION}:research/_registry/CURRENT_CLASSIFICATION.tsv")).encode("utf-8")
+        ),
         "effective_registry_sha256": sha((repo / "research/_registry/CURRENT_CLASSIFICATION.tsv").read_bytes()),
         "closure": closure_result,
         "closure_sha256": sha((repo / "reorganization_r1h/B02_B03_SCIENTIFIC_FAMILY_CLOSURE.tsv").read_bytes()),

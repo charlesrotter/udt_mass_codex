@@ -11,6 +11,31 @@ Preregistration commit: `b7074062f0f8c196c9695e28add68950b3d9a996`
 Verdict: **VERIFIED for the preregistered repository-classification scope.**
 This is not a physics adjudication or migration authorization.
 
+## Post-correction migration-state layer
+
+The migration-state correction was separately preregistered at `cf0005a` from the exact
+pre-correction tip `b050d2eec5050cdcacc0edada67a438656cf3307`. Before mutation, the exact
+predicate `review_status = R1G_ADJUDICATED` and
+`path_migration_safety = BLOCKED_PROVENANCE_CORRECTION_REQUIRED` selected 101 identities; their
+newline-terminated `original_path` projection hashes to
+`78f9afef35b3d4b97f4fea5f1c30b0ab269f1d91becad75034f0aaff11334393`.
+
+Those exact 101 rows now read `BLOCKED_SCIENTIFIC_FAMILY_REVIEW_REQUIRED`. No family review was
+performed, no row was promoted to a movable state, and zero rows retain the stale provenance block.
+The new independent `migration_review_status` axis has exact counts:
+
+| Rows | Migration review status |
+|---:|---|
+| 101 | `FAMILY_REVIEW_REQUIRED` |
+| 32 | `FAMILY_REVIEWED_BLOCKED` |
+| 1 | `IMMUTABLE_PATH` |
+| 980 | `INHERITED_UNREVIEWED` |
+
+The pre-existing 32 family-blocked rows and one immutable row are field-identical to `b050d2e` apart
+from receiving the new status field. Every old field of all 980 inherited rows is identical to
+`b050d2e`. The 32-row scientific-family closure table remains byte-identical at SHA-256
+`e9bba349597e0b583a97f80ee6cc72a5caba943cd1e6b8788703c5846937cdec`.
+
 ## Effective current registry
 
 The generated authoritative overlay is
@@ -42,9 +67,9 @@ freshly adjudicated.
 SHA-256:
 
 - current classification:
-  `2de2a2795235f674218af54513b1f6ffd93711ef49d02f7e992a4f33a97e12ea`;
+  `05cc6b48d40b9041d1bd82584489fde6cb2a29f59b495b50c32ac30abe6bb8e3`;
 - schema:
-  `bf1a982cf492cb2b7014e90f804a65417a621cd2882a5b9c86e21c94104e5690`.
+  `6c589a8c51862ebc64b6b36a59bc21d84d443d5988b858f09a9768b5d5e794af`.
 
 ## B02/B03 scientific-family closure
 
@@ -89,7 +114,7 @@ Git commit families, re-parsed candidate imports/file I/O, validated immutable
 companions, and compared the checked-in outputs with a fresh deterministic
 generator replay.
 
-All 13 exercised catch-proofs passed:
+All 19 exercised catch-proofs passed. The original 13 remain passing:
 
 1. pre-native fallback rejected;
 2. missing override rejected;
@@ -104,6 +129,15 @@ All 13 exercised catch-proofs passed:
 11. manifest mutation rejected;
 12. broken link rejected;
 13. original dirty-checkout metadata drift rejected.
+
+The six post-correction proofs also passed:
+
+14. a surviving stale provenance-correction state rejected;
+15. an incorrect replacement set rejected;
+16. promotion of a family-review-required row rejected;
+17. drift in a family-reviewed blocked row rejected;
+18. drift in the immutable row rejected;
+19. drift in an old inherited-row field rejected.
 
 Repository gates:
 
@@ -129,8 +163,9 @@ Repository gates:
    frozen/manifest, control/frontier, current-path, and historical-snapshot
    premises are explicit.
 
-The 980 inherited rows remain unreviewed. This audit is one bounded repository
-organization tile, not completion of migration or scientific-family review.
+The 980 inherited rows remain unreviewed. The 101 corrected rows still require scientific-family
+migration review. This audit is one bounded repository organization tile, not completion of
+migration or scientific-family review.
 
 ## Authority boundary
 

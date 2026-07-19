@@ -20,6 +20,13 @@ scientific-family closure only for the 32 B02/B03 candidates. All 32 are
 `BLOCKED_IMMUTABLE_FAMILY_COMPANION`, so B02 and B03 are withdrawn as execution batches. This branch
 authorizes no migration or fixed-snapshot rewrite.
 
+`migration_review_status` is a separate axis from provenance `review_status`. The post-correction
+registry has 101 `FAMILY_REVIEW_REQUIRED` rows at
+`BLOCKED_SCIENTIFIC_FAMILY_REVIEW_REQUIRED`, 32 `FAMILY_REVIEWED_BLOCKED` rows, one
+`IMMUTABLE_PATH` row, and 980 `INHERITED_UNREVIEWED` rows. The 101 rows have incorporated the R1G
+provenance correction but have not received scientific-family migration review; none is move-ready.
+No row retains the obsolete `BLOCKED_PROVENANCE_CORRECTION_REQUIRED` state.
+
 The lane `ROOT_INVENTORY.tsv` files are navigation indexes, not new physics authorities. The S8 row
 changed in R1D and the four verifier rows changed in R1F.
 

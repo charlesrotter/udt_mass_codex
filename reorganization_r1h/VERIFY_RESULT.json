@@ -7,13 +7,19 @@
     "dirty_metadata_drift_rejected": "PASS",
     "duplicate_current_path_rejected": "PASS",
     "duplicate_override_rejected": "PASS",
+    "family_review_required_promotion_rejected": "PASS",
+    "family_reviewed_blocked_drift_rejected": "PASS",
     "frozen_record_mutation_rejected": "PASS",
+    "immutable_path_drift_rejected": "PASS",
+    "incorrect_101_identity_replacement_set_rejected": "PASS",
     "incorrect_union_or_overlap_rejected": "PASS",
+    "inherited_old_field_drift_rejected": "PASS",
     "inherited_unreviewed_inflation_rejected": "PASS",
     "manifest_mutation_rejected": "PASS",
     "missing_override_rejected": "PASS",
     "pre_native_fallback_rejected": "PASS",
     "reference_only_readout_loss_rejected": "PASS",
+    "stale_provenance_correction_state_rejected": "PASS",
     "standalone_move_stranding_immutable_companion_rejected": "PASS",
     "unauthorized_edit_rejected": "PASS"
   },
@@ -21,6 +27,7 @@
     "reorganization_r1h/B02_B03_SCIENTIFIC_FAMILY_CLOSURE.tsv",
     "reorganization_r1h/CURRENT_CLASSIFICATION_SCHEMA.json",
     "reorganization_r1h/R1H_AUDIT_REPORT.md",
+    "reorganization_r1h/R1H_POST_CORRECTION_MIGRATION_STATE_PREREGISTRATION.md",
     "reorganization_r1h/R1H_PREREGISTRATION.md",
     "reorganization_r1h/SCIENTIFIC_FAMILY_DEFINITIONS.json",
     "reorganization_r1h/SCIENTIFIC_FAMILY_MIGRATION_RULE.md",
@@ -57,6 +64,17 @@
     "runtime_local_import_rows": 0
   },
   "closure_sha256": "e9bba349597e0b583a97f80ee6cc72a5caba943cd1e6b8788703c5846937cdec",
+  "correction_changed_paths": [
+    "reorganization_r1h/CURRENT_CLASSIFICATION_SCHEMA.json",
+    "reorganization_r1h/R1H_AUDIT_REPORT.md",
+    "reorganization_r1h/R1H_POST_CORRECTION_MIGRATION_STATE_PREREGISTRATION.md",
+    "reorganization_r1h/VERIFY_RESULT.json",
+    "reorganization_r1h/build_r1h_effective_registry.py",
+    "reorganization_r1h/verify_r1h_effective_registry.py",
+    "research/_registry/CURRENT_CLASSIFICATION.tsv",
+    "research/_registry/README.md"
+  ],
+  "correction_preregistration_commit": "cf0005afefb5684b6e38889c3f7fcdf4b9886700",
   "current_paths": {
     "rows": 1114,
     "status_counts": {
@@ -81,6 +99,12 @@
       "UNKNOWN_BLOCKED": 4
     },
     "inherited_rows": 980,
+    "migration_review_status_counts": {
+      "FAMILY_REVIEWED_BLOCKED": 32,
+      "FAMILY_REVIEW_REQUIRED": 101,
+      "IMMUTABLE_PATH": 1,
+      "INHERITED_UNREVIEWED": 980
+    },
     "operator_provenance_counts": {
       "INHERITED_UNREVIEWED": 980,
       "MIXED": 2,
@@ -106,7 +130,7 @@
     "unique_current_paths": 1114,
     "unique_original_paths": 1114
   },
-  "effective_registry_sha256": "2de2a2795235f674218af54513b1f6ffd93711ef49d02f7e992a4f33a97e12ea",
+  "effective_registry_sha256": "05cc6b48d40b9041d1bd82584489fde6cb2a29f59b495b50c32ac30abe6bb8e3",
   "fixed_input_hashes": {
     "reorganization_r1e/PROPOSED_BATCH_FILE_PLAN.tsv": "c9089c1885f2f618c12567885f1e3d416abeeaa026cd6c442cf7ae64ae70f82c",
     "reorganization_r1g/AFFECTED_CASCADE_FILE_CENSUS.tsv": "d44c2b8b55c3e16350dec8ce55349426e57cce4d1035859e29898c9fa0736c9d",
@@ -176,6 +200,12 @@
       "B02_LEGACY_STANDALONE_ALGEBRA_A",
       "B03_LEGACY_STANDALONE_ALGEBRA_B"
     ],
+    "migration_review_status_counts": {
+      "FAMILY_REVIEWED_BLOCKED": 32,
+      "FAMILY_REVIEW_REQUIRED": 101,
+      "IMMUTABLE_PATH": 1,
+      "INHERITED_UNREVIEWED": 980
+    },
     "operator_provenance_counts": {
       "INHERITED_UNREVIEWED": 980,
       "MIXED": 2,
@@ -186,7 +216,7 @@
     "r1g_b02_b03_rows": 32,
     "r1g_overlap_rows": 19,
     "r1g_union_rows": 134,
-    "registry_sha256": "2de2a2795235f674218af54513b1f6ffd93711ef49d02f7e992a4f33a97e12ea",
+    "registry_sha256": "05cc6b48d40b9041d1bd82584489fde6cb2a29f59b495b50c32ac30abe6bb8e3",
     "review_status_counts": {
       "INHERITED_UNREVIEWED": 980,
       "R1G_ADJUDICATED": 102,
@@ -210,10 +240,26 @@
   },
   "integration_authorized": false,
   "markdown_links_verified": 11,
-  "mode": "R1H_EFFECTIVE_REGISTRY_AND_SCIENTIFIC_FAMILY_CLOSURE_FAIL_CLOSED_VERIFY",
+  "migration_state_correction": {
+    "inherited_old_fields_identical_rows": 980,
+    "migration_review_status_counts": {
+      "FAMILY_REVIEWED_BLOCKED": 32,
+      "FAMILY_REVIEW_REQUIRED": 101,
+      "IMMUTABLE_PATH": 1,
+      "INHERITED_UNREVIEWED": 980
+    },
+    "protected_family_reviewed_blocked_rows": 32,
+    "protected_immutable_rows": 1,
+    "replacement_identity_set_sha256": "78f9afef35b3d4b97f4fea5f1c30b0ab269f1d91becad75034f0aaff11334393",
+    "replacement_rows": 101,
+    "stale_provenance_correction_rows": 0
+  },
+  "mode": "R1H_POST_CORRECTION_MIGRATION_STATE_FAIL_CLOSED_VERIFY",
+  "pre_correction_registry_sha256": "2de2a2795235f674218af54513b1f6ffd93711ef49d02f7e992a4f33a97e12ea",
+  "pre_correction_tip": "b050d2eec5050cdcacc0edada67a438656cf3307",
   "preregistration_commit": "b7074062f0f8c196c9695e28add68950b3d9a996",
   "result": "PASS",
-  "schema_sha256": "bf1a982cf492cb2b7014e90f804a65417a621cd2882a5b9c86e21c94104e5690",
+  "schema_sha256": "6c589a8c51862ebc64b6b36a59bc21d84d443d5988b858f09a9768b5d5e794af",
   "test_baseline": {
     "baseline_match": true,
     "command": "python3 -m pytest tests/",
@@ -222,7 +268,7 @@
     "passed": 69,
     "python": "3.10.12",
     "returncode": 1,
-    "scope": "R1H_EFFECTIVE_REGISTRY_AND_SCIENTIFIC_FAMILY_CLOSURE",
+    "scope": "R1H_POST_CORRECTION_MIGRATION_STATE_FIX",
     "xfailed": 1
   }
 }

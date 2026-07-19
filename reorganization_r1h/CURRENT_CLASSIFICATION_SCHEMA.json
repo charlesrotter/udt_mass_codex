@@ -1,5 +1,5 @@
 {
-  "schema_version": "R1H_CURRENT_CLASSIFICATION_V1",
+  "schema_version": "R1H_CURRENT_CLASSIFICATION_V2_MIGRATION_REVIEW_AXIS",
   "identity_source": "research/_registry/CURRENT_ARTIFACT_PATHS.tsv@2058f69db3f5c3a4322c5a9404e7145a62eeef2d",
   "row_count": 1114,
   "primary_key": "original_path",
@@ -19,6 +19,7 @@
     "role",
     "scientific_lifecycle",
     "path_migration_safety",
+    "migration_review_status",
     "scientific_family",
     "adjudication_source",
     "review_status"
@@ -27,6 +28,18 @@
     "INHERITED_UNREVIEWED": "No R1G/R1H row-level adjudication; fixed owner is carried forward without claiming fresh verification.",
     "R1G_ADJUDICATED": "R1G provenance/lifecycle/family classification applied; not a new R1H content review.",
     "R1H_SCIENTIFIC_FAMILY_REVIEWED": "R1G provenance axes retained and R1H scientific-family migration closure applied."
+  },
+  "migration_review_status_values": {
+    "FAMILY_REVIEW_REQUIRED": "Provenance is adjudicated, but scientific-family migration review has not been performed; movement remains blocked.",
+    "FAMILY_REVIEWED_BLOCKED": "Scientific-family migration closure was reviewed and movement is blocked by an immutable family companion.",
+    "IMMUTABLE_PATH": "The stable identity is frozen at its current path.",
+    "INHERITED_UNREVIEWED": "No current migration review; inherited fixed-snapshot classification is not promoted."
+  },
+  "migration_review_status_counts": {
+    "FAMILY_REVIEW_REQUIRED": 101,
+    "FAMILY_REVIEWED_BLOCKED": 32,
+    "IMMUTABLE_PATH": 1,
+    "INHERITED_UNREVIEWED": 980
   },
   "override_contract": {
     "affected_cascade_rows": 121,
@@ -39,7 +52,8 @@
     "fixed_snapshot_owner": "Exact R1C ROOT_OWNERSHIP.tsv primary_owner for the stable original identity.",
     "fixed_snapshot_evidence": "Exact R1C ROOT_OWNERSHIP.tsv ownership_evidence for the stable original identity.",
     "effective_primary_owner": "R1G owner for overridden identities; otherwise the explicitly unreviewed inherited fixed owner.",
-    "path_migration_safety": "R1H closure ruling for the 32 B02/B03 candidates, R1G migration_safety for other R1G overrides, and an INHERITED_UNREVIEWED-prefixed fixed readiness otherwise.",
+    "path_migration_safety": "R1H closure ruling for the 32 B02/B03 candidates; BLOCKED_SCIENTIFIC_FAMILY_REVIEW_REQUIRED for the 101 provenance-adjudicated rows lacking family review; immutable path retention for the one frozen row; and an INHERITED_UNREVIEWED-prefixed fixed readiness otherwise.",
+    "migration_review_status": "Independent review axis preventing provenance adjudication from being mistaken for migration-family review or move authority.",
     "adjudication_source": "Names the exact evidence layer used; it does not upgrade unaffected rows.",
     "review_status": "Mandatory anti-inflation stamp. INHERITED_UNREVIEWED is not an adjudication."
   }

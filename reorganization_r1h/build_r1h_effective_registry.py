@@ -37,6 +37,7 @@ REGISTRY_FIELDS = [
     "role",
     "scientific_lifecycle",
     "path_migration_safety",
+    "migration_review_status",
     "scientific_family",
     "adjudication_source",
     "review_status",
@@ -346,6 +347,7 @@ def build(repo: Path) -> tuple[bytes, bytes, dict[str, object]]:
                 "role": "INHERITED_UNREVIEWED",
                 "scientific_lifecycle": "INHERITED_UNREVIEWED",
                 "path_migration_safety": f"INHERITED_UNREVIEWED:{ready['migration_readiness']}",
+                "migration_review_status": "INHERITED_UNREVIEWED",
                 "scientific_family": "INHERITED_UNREVIEWED",
                 "adjudication_source": "R1C_FIXED_SNAPSHOT_INHERITANCE",
                 "review_status": "INHERITED_UNREVIEWED",
@@ -357,6 +359,7 @@ def build(repo: Path) -> tuple[bytes, bytes, dict[str, object]]:
                 closure = family_by_candidate[original]
                 family_name = closure["scientific_family"]
                 migration = closure["closure_ruling"]
+                migration_review = "FAMILY_REVIEWED_BLOCKED"
                 review = "R1H_SCIENTIFIC_FAMILY_REVIEWED"
                 layers = ["R1G:B02_B03_ADJUDICATION.tsv", "R1H:B02_B03_SCIENTIFIC_FAMILY_CLOSURE.tsv"]
                 if original in affected_by_path:
@@ -365,6 +368,15 @@ def build(repo: Path) -> tuple[bytes, bytes, dict[str, object]]:
             else:
                 family_name = source["family_id"]
                 migration = source["migration_safety"]
+                if migration == "BLOCKED_PROVENANCE_CORRECTION_REQUIRED":
+                    migration = "BLOCKED_SCIENTIFIC_FAMILY_REVIEW_REQUIRED"
+                    migration_review = "FAMILY_REVIEW_REQUIRED"
+                elif migration == "IMMUTABLE_PATH_RETAIN":
+                    migration_review = "IMMUTABLE_PATH"
+                else:
+                    raise AssertionError(
+                        f"unexpected non-candidate R1G migration state: {original}:{migration}"
+                    )
                 review = "R1G_ADJUDICATED"
                 adjudication = "R1G:AFFECTED_CASCADE_FILE_CENSUS.tsv"
             record = {
@@ -376,6 +388,7 @@ def build(repo: Path) -> tuple[bytes, bytes, dict[str, object]]:
                 "role": source["role"],
                 "scientific_lifecycle": source["scientific_lifecycle"],
                 "path_migration_safety": migration,
+                "migration_review_status": migration_review,
                 "scientific_family": str(family_name),
                 "adjudication_source": adjudication,
                 "review_status": review,
@@ -384,6 +397,7 @@ def build(repo: Path) -> tuple[bytes, bytes, dict[str, object]]:
 
     review_counts = Counter(row["review_status"] for row in registry_records)
     provenance_counts = Counter(row["operator_provenance"] for row in registry_records)
+    migration_review_counts = Counter(row["migration_review_status"] for row in registry_records)
     closure_counts = Counter(row["closure_ruling"] for row in closure_records)
     family_counts = Counter(row["scientific_family"] for row in closure_records)
     if review_counts != Counter({
@@ -399,6 +413,18 @@ def build(repo: Path) -> tuple[bytes, bytes, dict[str, object]]:
         "OPEN": 1,
     }):
         raise AssertionError(f"provenance counts mismatch: {provenance_counts}")
+    if migration_review_counts != Counter({
+        "FAMILY_REVIEW_REQUIRED": 101,
+        "FAMILY_REVIEWED_BLOCKED": 32,
+        "IMMUTABLE_PATH": 1,
+        "INHERITED_UNREVIEWED": 980,
+    }):
+        raise AssertionError(f"migration-review counts mismatch: {migration_review_counts}")
+    if any(
+        row["path_migration_safety"] == "BLOCKED_PROVENANCE_CORRECTION_REQUIRED"
+        for row in registry_records
+    ):
+        raise AssertionError("stale provenance-correction migration state remains")
     if closure_counts != Counter({"BLOCKED_IMMUTABLE_FAMILY_COMPANION": 32}):
         raise AssertionError(f"closure counts mismatch: {closure_counts}")
 
@@ -415,6 +441,7 @@ def build(repo: Path) -> tuple[bytes, bytes, dict[str, object]]:
         "r1g_union_rows": len(union),
         "review_status_counts": dict(sorted(review_counts.items())),
         "operator_provenance_counts": dict(sorted(provenance_counts.items())),
+        "migration_review_status_counts": dict(sorted(migration_review_counts.items())),
         "closure_ruling_counts": dict(sorted(closure_counts.items())),
         "scientific_family_counts": dict(sorted(family_counts.items())),
         "b02_rows": sum(row["batch_id"].startswith("B02") for row in closure_records),
