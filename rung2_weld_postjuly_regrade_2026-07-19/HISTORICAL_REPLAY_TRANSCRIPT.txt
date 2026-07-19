@@ -1,0 +1,315 @@
+Script started on 2026-07-19 17:08:52-04:00 [<not executed on terminal>]
+
+==============================================================================
+W1 — KINEMATIC TIES FROM THE CANON (B = 1/A at perturbed level) AND THE K-VERDICT
+==============================================================================
+  [PASS] UDT structure: g_tt·g_rr = -1 EXACTLY at all orders in eps (delta(g_tt g_rr) = 0 is automatic, not imposed)
+  [PASS] RW match: dg_tt = -f·H0·Y with H0 = -2 dphi exactly (spec expectation confirmed)
+  [PASS] RW match: dg_rr = (1/f)·H2·Y with H2 = +2 dphi exactly (spec expectation confirmed)
+  [PASS] generic RW fields: delta(g_tt g_rr) = -(H0 + H2)·Y, so the perturbed B = 1/A identity <=> H0 = -H2; with metric-is-phi (H2 = 2 dphi) this forces H0 = -2 dphi — the ties are the unique B=1/A-compatible reduction
+  [PASS] perturbed areal radius: sqrt(g_thth) = r·(1 + K·Y/2) + O(eps²) — the (th,phi)-sphere areal radius shifts by r·K·Y/2
+
+  K-removal analysis (is K pure gauge / removable into an areal re-chart?):
+  [PASS] (L_xi g)_thth = 2rR·Y + 2r²Theta·Y'' exactly
+  [PASS] (L_xi g)_phph = sin²th·(2rR·Y) + 2r²Theta·sin th·cos th·Y' exactly
+  [PASS] trace/G-harmonic split: (L_xi g)_thth·sin²th - (L_xi g)_phph = 2r²Theta·sin²th·(Y'' - cot th·Y') — removing K from BOTH sphere slots while keeping the RW form (G-harmonic = 0) requires Theta·(Y'' - cot th·Y') = 0
+  [PASS] ell = 2 witness (Y = 3cos²th - 1): Y'' - cot th·Y' = 6 sin²th =/= 0 => Theta = 0 is FORCED for ell >= 2
+  [PASS] ell = 1 honesty (Y = cos th): Y'' - cot th·Y' = 0 — at ell = 1 the obstruction vanishes and K IS removable (dipole caveat recorded)
+  [PASS] with Theta = 0, R = rK/2: (L_xi g)_thth = r²K·Y and (L_xi g)_phph = r²K·Y·sin²th — K removed from the sphere block
+  [PASS] THE PRICE: the same transformation generates delta g_{r th} = -e^{2phi0}·(rK/2)·d_th Y =/= 0 — the perturbed metric leaves the P0/RW class (no diagonal-block areal chart exists for K =/= 0, ell >= 2)
+
+  W1 K-VERDICT (honest): for ell >= 2, K is NOT pure gauge within the
+  P0/RW class (the G-harmonic obstruction forces Theta = 0; the unique
+  K-removing re-chart generates g_{r th} =/= 0, i.e. exits the class).
+  Demanding that the perturbed metric still be of P0 form in a perturbed
+  AREAL chart — the strict perturbed-level extension of canon C-1 —
+  therefore FORCES K = 0 as a restriction of the UDT configuration
+  space, not as a gauge choice.  Because that extension of C-1 (a
+  static-sector canon) to perturbations is itself a reading, K is
+  carried SYMBOLICALLY through W2-W3; W3's variational analysis then
+  disqualifies K independently.  H1 is untouched by C-1 (absent from
+  g_tt·g_rr and from g_thth): the canon leaves H1 FREE.  Candidate
+  matter-side systems after W1: (dphi, H1) [strict canon] or
+  (dphi, H1, K) [loose reading] — decided in W3.
+
+==============================================================================
+W2 — EINSTEIN SIDE (IDENTITY LEVEL): dG^t_theta ON GENERAL f = e^{-2phi0(r)}, W1 TIES IMPOSED, (H1, K) KEPT
+==============================================================================
+  [PASS] inverse metric to O(eps): g·g^{-1} = id + O(eps²) (first-order inverse exact)
+  (linearized Einstein tensor computed from scratch, O(eps) exact)
+  [PASS] background anchor: G^th_th = -f·E0 with E0 = phi0'' + 2phi0'/r - 2phi0'^2 — the theta-theta Einstein-VACUUM equation IS the banked vacuum equation (A2 of the gr-balance file, re-derived)
+  [PASS] f-language: G^th_th = f''/2 + f'/r exactly (matches the banked identity (r²f')'/(2r²))
+  [PASS] background anchor: G^t_t = (r f' + f - 1)/r² in f-language (matches gr-balance A2)
+  [PASS] THE W2 RESULT (exact, general phi0(r)): dG^t_theta = e^{2phi0}·[-(1/2) d_r(e^{-2phi0} H1) + d_t(dphi) + (1/2) d_t K]·d_th Y — AUDIT.md S116 'Step 1' operator confirmed on an arbitrary profile, K-coefficient exactly +1/2
+  [PASS] coefficient of Y(theta) is exactly 0 and no Y'' appears: dG^t_theta / d_th Y is theta-free (clean transverse vector; ell-flat — no ell(ell+1) anywhere, at GENERAL f)
+  [PASS] background C1 stress anchor: T^th_th = -(c/2) e^{-4phi0} phi0'^2 = -(c/8) f'^2 — the gr-balance angular TENSION, re-derived
+  [PASS] dT^t_theta[C1] = 0 at first order EXACTLY — at matter scope (C1 the only content) the Einstein weld would be SOURCE-FREE
+
+  W2 RESULT (exact, general f):  dG^t_theta =
+      e^{2phi0} [ -(1/2) d_r(e^{-2phi0} H1) + d_t(dphi) + (1/2) d_t K ]
+      · d_th Y
+  so IF the (t,theta) Einstein equation dG^t_theta = 8 pi G dT^t_theta is
+  imposed (an import, per the guardrail), the weld reads
+      d_r(e^{-2phi0} H1) = 2 d_t(dphi) + d_t K - 16 pi G e^{-2phi0} tau,
+  dT^t_theta =: tau·d_th Y — exactly the AUDIT.md refined weld; and at
+  matter scope tau[C1] = 0.  This is identity-level geometry (guardrail-
+  legal); whether anything NATIVE enforces it is W3/W4.
+
+==============================================================================
+W3 — THE NATIVE SIDE: SECOND-ORDER C1 ACTION S = -(c/2) int e^{-2phi} g^{mu nu} d_mu phi d_nu phi sqrt(-g)
+==============================================================================
+  [PASS] background density: L0 = -(c/2) e^{-4phi0} r² phi0'^2 (the banked C1 density)
+  [PASS] first-order action: L1 is proportional to Y (h- and Y'-free), so int L1 dOmega = 0 for ell >= 1 — the background is stationary WITHIN the mode sector and the second-order action is well-posed there
+  [PASS] background C1 EL: EL_phi0 = c e^{-4phi0} r² (phi0'' + 2phi0'/r - 2phi0'^2) — vacuum equation exactly as the dispatch spec stated; (r²f')' = 0 is its f-language form
+  [PASS] angular structure of L2 [param I: g_thth = r²(1+KY)]: only Y² and (d_th Y)² appear (residual after extraction = 0)
+  [PASS] angular structure of L2 [param II: g_thth = r² e^{KY}]: only Y² and (d_th Y)² appear (residual after extraction = 0)
+  [PASS] STRUCTURAL FACT: the second-order C1 action contains NO derivatives of H1 or K (both parametrizations) — a matter-type action carries no metric derivatives, so H1 and K are AUXILIARY (algebraic) fields natively; no native kinetic terms exist for them in C1
+  [PASS] closed form (param I): L2/c = (1/2)r²(d_t dphi)² - (1/2)f²r²(d_r dphi)² + 4f²r²phi0'·dphi·d_r dphi - 4f²r²phi0'^2 dphi² - (lam/2) f dphi² - f r² phi0'·H1·d_t dphi + (1/4) f²r²phi0'^2 H1² + f²r²phi0'(2phi0' dphi - d_r dphi)·K  exactly
+
+  (a) the native H1 equation — THE DECISIVE QUESTION:
+  [PASS] H1 sector is parametrization-SAFE: EL_H1 identical in both g_thth parametrizations (the background is stationary in the g_tr direction — no linear H1 term exists in L1)
+  [PASS] EL_H1 = (c/2) r² e^{-4phi0} phi0'·[phi0'·H1 - 2 e^{2phi0}·d_t dphi] exactly
+  [PASS] THE NATIVE WELD (exact, phi0' =/= 0): EL_H1 = 0  <=>  f phi0'·H1 = 2 d_t dphi  <=>  f'·H1 = -4 d_t dphi  <=>  -(1/2)(d_r e^{-2phi0})·H1 = 2 d_t dphi — ALGEBRAIC, not differential
+  [PASS] phi0' -> 0 limit: EL_H1 vanishes IDENTICALLY (H1 drops out of the second-order C1 action on locally-flat backgrounds — grade (c) holds there, and only there)
+  [PASS] STRUCTURAL IDENTIFICATION (verifier): EL_H1·Y = -r²·(dT_tr) EXACTLY — the native weld is first-order VANISHING RADIAL ENERGY FLUX (delta T_tr = 0), the matter-only remnant of GR's (t,r) slot; in GR, H1-variation yields the (t,r) Einstein equation, never the (t,theta) weld (that needs Bianchi + the REST of the Einstein system, which W4 closes off natively) — this is why grade (d) was forced
+
+  (b) native weld vs Einstein weld — inequivalence witness:
+  [PASS] witness (vacuum f = 1 + 2/r, dphi = t·r, K = 0): H1 = -4 d_t dphi / f' satisfies the native weld exactly but leaves Einstein-weld residual d_r(f H1) - 2 d_t dphi = 6r² + 6r =/= 0 — the two welds are INEQUIVALENT equations
+
+  (c) the native K equation — the parametrization obstruction:
+  [PASS] EL_K [param I] = -c r² f phi0' · d_r(f·dphi) — a pure radial constraint d_r(f·dphi) = 0 on dphi (no K in it!)
+  [PASS] EL_K [param II] - EL_K [param I] = -(c/2) r² e^{-4phi0} phi0'^2 K = T^th_th[bg]·r²·K exactly — the K-equation DEPENDS ON THE PARAMETRIZATION, and the ambiguity coefficient IS the banked angular stress (the unbalanced theta-theta object of the gr-balance file)
+      => K is NOT a well-defined native variational field: a
+      second-order action is field-redefinition invariant only in
+      directions where the background action is stationary, and UDT's
+      PROVEN non-imposition of the theta-theta Einstein equation is
+      exactly the failure of stationarity in the g_thth direction.  (In
+      GR the total action is background-stationary in ALL metric
+      directions, so this ambiguity cancels — the contrast is UDT's own
+      banked departure, now biting at perturbed level.)  Native system:
+      (dphi, H1); K = 0 is the canon-consistent slice (agrees with W1).
+
+  (d) the native dphi equation (general f, K kept for the record):
+  [PASS] EL_dphi = c·[ -r² d_t² dphi + r² f phi0' d_t H1 + d_r(r² f² d_r dphi) - 4 r² f² E0·dphi - lam f·dphi + f² r²(E0·K + phi0'·d_r K) ] exactly — the dphi potential term is -4f²r²E0·dphi, which VANISHES on the vacuum background (E0 = 0): background-EL simplification as directed
+
+  (e) eliminating the auxiliary H1 on its own weld — the kinetic flip:
+  [PASS] effective Lagrangian after H1 elimination: the (d_t dphi)² coefficient is -(c/2)r² — FLIPPED from +(c/2)r² (the H1 coupling contributes exactly -c·r²; auxiliary-field elimination -B²/(4A) with A = (c/4)f²phi0'^2r², B = c f phi0' r²)
+  [PASS] equivalence of elimination routes: EL of the effective Lagrangian == EL_dphi with H1 = H1*(dphi) substituted (legal because dL/dH1 = 0 at H1*)
+  [PASS] ON-SHELL NATIVE SYSTEM (K = 0): + r² d_t² dphi + d_r(r² f² d_r dphi) - 4 r² f² E0 dphi - lam f dphi = 0 — ELLIPTIC in (t, r): the native weld flips the time-kinetic sign
+  [PASS] normal modes dphi = u(r)cos(omega t), GENERAL E0 (verifier amendment — the E0 term stays): (r²f²u')' = (lam f + 4r²f²E0 + omega² r²)·u
+  [PASS] normal modes on VACUUM (E0 = 0): (r²f²u')' = (lam f + omega² r²)·u — and u·(r²f²u')' = d_r(r²f²u'u) - r²f²u'^2, so int over the cell with vanishing boundary term gives int[r²f²u'^2 + lam f u² + omega² r² u²] = 0: NO nontrivial real-omega modes PROVEN FOR E0 >= 0 (pointwise lam f + 4r²f²E0 >= 0 suffices; covers every vacuum background) — omega² < 0 (relaxation/instability) is the native spectrum THERE; for E0 < 0 the argument fails and the window is REAL (next checks); boundary-condition caveat in the docstring
+
+  (e') the E0 < 0 oscillation window — verifier counterexample, reproduced numerically:
+  [PASS] counterexample collar phi0 = -3(r - 3/2)² on [1, 2], ell = 2 (lam = 6): E0 < 0 throughout (max E0 = -5.76) and the pointwise positivity density fails badly (min q = -8650.1 < 0), while the vacuum control satisfies it (min q = 6.00 > 0)
+  [PASS] REAL-FREQUENCY MODE on the sourced collar (Dirichlet, n = 800): top eigenvalue omega² = +7.527 = +7.53 > 0 — a real oscillation mode EXISTS where E0 < 0 (verifier value +7.53 reproduced)
+  [PASS] vacuum control on the same cell (phi0 = 0, ell = 2): top eigenvalue omega² = -12.644 = -12.6 < 0 — no real modes, exactly as the E0 >= 0 theorem demands (verifier value -12.6 reproduced)
+      THE FINDING (verifier-corrected scope): on SOURCED collars
+      (E0 = the angular source term, nonzero exactly on matter cells)
+      the native elliptic system CAN support real-frequency oscillation
+      modes — the source that softens the core can open its own
+      oscillation window.  Whether the PHYSICAL sourced cell (banked
+      eta = 1/18, ell = 1 source) sits inside the window is the phase-2
+      computation.
+  [PASS] contrast — H1 EXCLUDED by hand (strict diagonal P0 reading): -r² d_t² dphi + d_r(r² f² d_r dphi) - 4r²f²E0 dphi - lam f dphi = 0 — HYPERBOLIC (wave) with characteristic speed dr/dt = f, the same light cones as the macro carrier (principal symbol -omega² + f²k_r²)
+
+  (f) variation-rule documentation — native (self-coupled) vs frozen-metric (GR-import) rule:
+  [PASS] angular structure of L2 [frozen-metric contrast]: only Y² and (d_th Y)² appear (residual after extraction = 0)
+  [PASS] the self-coupling terms (native minus frozen-metric dphi equation, H1 = K = 0 slice) are EXACTLY -2c r² f² (E0 + phi0'^2)·dphi — a pure mass-like shift (no gradient and no lam content), nonzero on every nontrivial background: the UDT metric-is-phi self-coupling is REAL in the mode equations, not a relabeling, and on the vacuum shell it reduces to -2c r² f² phi0'^2·dphi
+      self-coupling difference = -2*c*r*(-r*Derivative(phi0(r), r)**2 + r*Derivative(phi0(r), (r, 2)) + 2*Derivative(phi0(r), r))*deltaphi(t, r)*exp(-4*phi0(r))
+
+  W3 GRADE (the decisive question, honest): outcome (d) — SOMETHING
+  ELSE, precisely characterized.  The native H1 equation EXISTS (so not
+  (c), except on locally-flat slices phi0' = 0) and welds the same pair
+  (H1 <-> d_t dphi) as the Einstein constraint, but it is ALGEBRAIC —
+      f phi0'·H1 = 2 d_t(dphi),   i.e.   H1 = -4 d_t(dphi)/f',
+  with NO d_r(H1) and NO K — not the Einstein differential weld with
+  altered coefficients (so not (b), and certainly not (a)).  Verified
+  inequivalent by witness.  The Einstein weld d_r(e^{-2phi0}H1) =
+  2 d_t dphi + d_t K is therefore NOT implied by the C1 dynamics: at
+  matter scope it is an IMPORT.  The native system's own structure:
+  H1 auxiliary, K variationally ill-defined (the theta-theta refusal
+  biting at perturbed level), and the on-shell breathing sector
+  ELLIPTIC in time — a genuinely different dynamical regime from the
+  imported-weld macro sector.
+
+==============================================================================
+W4 — BIANCHI/CONSERVATION ROUTE: DOES div G = 0 + C1 CONSERVATION IMPLY THE WELD?
+==============================================================================
+  [PASS] contracted Bianchi identity, theta-component: div G_theta = 0 at order eps^0 AND order eps^1 on the full perturbed UDT configuration (identity verified, machinery validated)
+  [PASS] background r-component: (div T)_r = c f² phi0'(E0 - phi0'^2) exactly — equals the gr-balance identity (c/4)f'(f'' + 2f'/r) + (c/8)f'^3/f in f-language; on the vacuum shell (E0 = 0) the leftover -c f² phi0'^3 = (c/8) f'^3/f =/= 0 stands: the C1 stress is NOT conserved on its own vacuum (banked result, re-derived from scratch)
+  [PASS] first-order theta-component: (div T)_theta = c f² (E0 - phi0'^2)·dphi·d_th Y exactly — INDEPENDENT of H1 and K: no choice of H1 (native weld, Einstein weld, anything) changes it
+  [PASS] (div T)_theta = (div T)_r[background density] promoted by dphi·d_th Y / phi0': the background non-conservation density (E0 - phi0'^2) is EXACTLY what leaks into the perturbative (t,theta) budget
+  [PASS] on the vacuum background (E0 = 0): (div T)_theta = -c f² phi0'^2 · dphi · d_th Y =/= 0 for ANY nontrivial breathing (it vanishes only at dphi = 0 or phi0' = 0)
+  [PASS] Einstein-budget bookkeeping: div(G - 8 pi G_N T)_theta = -8 pi G_N (div T)_theta at first order (Bianchi kills the G side) — so imposing the FULL theta-row of Einstein equations (E^mu_theta = 0 for all mu, all theta-row components) would force (div T)_theta = 0, i.e. dphi = 0 on the vacuum cell: the Einstein theta-row is INCONSISTENT with any breathing mode on the UDT background
+
+  W4 VERDICT (exact): the Bianchi/conservation route does NOT imply the
+  weld — in either direction:
+  (i)  div G = 0 is an identity (verified at both orders): by itself it
+       relates dG^t_theta to dG^r_theta and the angular components; it
+       implies the (t,theta) constraint only if the OTHER Einstein
+       equations are imposed — and the repo has PROVEN UDT does not
+       impose the theta-theta one (Einstein tension Delta > 0).
+  (ii) the C1 stress is not conserved: the banked background leftover
+       (c/8)f'^3/f (re-derived) is promoted at first order to the
+       (t,theta) budget as (div T)_theta = c f²(E0 - phi0'^2)·dphi·
+       d_th Y =/= 0 — independent of H1 — so the full Einstein
+       theta-row would force dphi = 0.  The non-conservation does not
+       merely fail to derive the weld; it makes the surrounding
+       Einstein system inconsistent with breathing, leaving the single
+       (t,theta) component as a freestanding IMPORT wherever it is used.
+
+
+==============================================================================
+W5 — VERDICT + THE FINAL MATTER-SIDE WELD SYSTEM
+==============================================================================
+  NATIVE STATUS OF THE RUNG-2 WELD — the honest verdict:
+
+  1. The Einstein differential weld d_r(e^{-2phi0}H1) = 2 d_t dphi +
+     d_t K - 16 pi G e^{-2phi0} dT^t_th is CONFIRMED at identity level
+     on general f (W2: it is exactly what dG^t_theta = 8 pi G dT^t_th
+     says; AUDIT.md S116 validated on arbitrary profiles, K-coefficient
+     +1).  But it is NOT native:
+       - not from the C1 dynamics (W3, grade (d): the C1 system's own
+         H1 equation is the ALGEBRAIC weld f phi0'H1 = 2 d_t dphi);
+       - not from Bianchi/conservation (W4: identity needs the
+         theta-row, which UDT provably rejects and which is
+         inconsistent with breathing).
+     At MATTER scope the Einstein weld is an IMPORT (guardrail item:
+     'Einstein equations as source equations — not imported') — and it
+     is EQUALLY an import STRUCTURALLY at MACRO scope: the non-C1
+     macro content (recycling radiation sector, dT^t_th =/= 0) changes
+     the SOURCE TERM of the constraint, not its pedigree, and macro
+     total-conservation self-consistency is unverified.  The macro
+     empirical support is CHANNEL-SPECIFIC: phase/interleaving/TE
+     PASSED; the EE amplitude is the standing ~2x overshoot.  And the
+     validated phase signature (H1 in quadrature with dphi) follows
+     from H1 ~ d_t(dphi) in TIME structure, which BOTH welds supply —
+     the macro phase channel may not discriminate them.  PHASE-2
+     DISCRIMINATOR (named): rerun the macro projection with the native
+     algebraic weld H1 = -4 d_t(dphi)/f' and compare the RADIAL
+     structure against the CMB record.  The macro/micro relation is
+     now sharp and recorded: macro uses the Einstein weld with sources,
+     empirically supported channel-by-channel; the native cell supplies
+     a DIFFERENT, algebraic weld with the same time structure.
+
+  2. The phi-angular dynamical coupling itself (canon C-3's surviving
+     hunch-home) DOES exist natively: H1 is welded to d_t dphi by the
+     C1 action's own constraint — just not by the Einstein operator.
+     STRUCTURALLY (verifier identification): the native weld is
+     EL_H1 = -r²·dT_tr = 0 — first-order vanishing radial energy flux,
+     the matter-only remnant of GR's (t,r) slot.  In GR, H1-variation
+     yields the (t,r) equation, never the (t,theta) weld, which only
+     arrives via Bianchi plus the rest of the Einstein system — and W4
+     closes that route off natively.  Grade (d) was forced.
+
+  FINAL MATTER-SIDE WELD SYSTEM (native variation rule; canon slice
+  K = 0 [W1 strict reading + W3 obstruction]; general static cell
+  background f = e^{-2phi0(r)}, E0 := phi0'' + 2phi0'/r - 2phi0'^2 the
+  background C1 EL density [= 0 in vacuum, = source in a sourced cell];
+  domain r in [0, R_cell], phi0(R_cell) = 0 at the mirror interface per
+  canon C-2, core endpoint phi0 -> -infinity]:
+
+    READING A — H1 variational (the dispatch-directed native rule):
+      (A1)  f phi0'·H1 = 2 d_t(dphi)            [native ALGEBRAIC weld]
+            <=>  f'·H1 = -4 d_t(dphi)
+      (A2)  + r² d_t²(dphi) + d_r(r² f² d_r dphi)
+            - 4 r² f² E0·dphi - lam f·dphi = 0   [on-shell, ELLIPTIC]
+      Normal modes dphi = u(r)e^{-i omega t}:
+            (r²f²u')' = (lam f + 4r²f²E0 + omega² r²)·u
+      — positive-definite form => no real-omega modes under boundary
+      conditions with vanishing boundary term WHENEVER pointwise
+      lam f + 4r²f²E0 >= 0 (in particular E0 >= 0: every vacuum
+      background); omega² < 0 (relaxation/instability spectrum) there.
+      On SOURCED collars with E0 < 0 the oscillation window OPENS
+      (W3(e'): real mode omega² = +7.53 on the witness collar).
+      Phase-2 questions: whether the PHYSICAL sourced cell (banked
+      eta = 1/18, ell = 1 source) sits inside the window; boundary
+      conditions at the phi = 0 interface (mirror) and the core
+      endpoint; and whether the macro boundary pumps this sector.
+
+    READING B — H1 excluded (strict diagonal P0 reading):
+      (B1)  - r² d_t²(dphi) + d_r(r² f² d_r dphi)
+            - 4 r² f² E0·dphi - lam f·dphi = 0   [HYPERBOLIC breathing]
+      with characteristic speed dr/dt = f (the macro carrier's light
+      cones) and SL weight r²f² (the C1 e^{-2phi} weight makes it
+      differ from the minimally-coupled operator).
+
+    READING C — H1 external + Einstein weld imposed (the macro import,
+      recorded for completeness at matter scope):
+      (C1)  d_r(e^{-2phi0} H1) = 2 d_t(dphi)     [+ d_t K if K kept;
+            source-free since dT^t_theta[C1] = 0]
+      with (B1) as the dphi equation.  This is the S116 structure
+      transplanted; it is NOT selected by anything native (W3/W4).
+
+  The choice among A/B/C is the H1-field-status question — the sharp,
+  named residue of this dispatch.  A is what the banked C1 action plus
+  the honest variation rule says; its elliptic character forbids native
+  real-frequency breathing on VACUUM (E0 >= 0) cells — either a deep
+  feature (vacuum-cell modes are NOT free oscillations — consistent
+  with the repo's no-native-discreteness record to date) or evidence
+  that the C1 action is incomplete at perturbed level (the rho-dynamics
+  direction) — while on SOURCED collars the E0 < 0 window (W3(e')) is
+  the candidate home of native oscillation modes: source-enabled,
+  weld-coupled, finite-cell.  Phase 2 (spectra) must run on Reading A
+  first, on the banked sourced backgrounds.
+
+  GRADES (repo convention):
+    W1 K-verdict:        K = 0 FORCED on the strict perturbed-level
+                         canon (ell >= 2); not pure gauge; W3
+                         independently disqualifies K as a native
+                         variational field.  System: (dphi, H1).
+    W2:                  AUDIT S116 weld operator CONFIRMED at general
+                         f (identity level), K-coefficient +1, ell-flat,
+                         matter-scope source = 0.
+    W3 (decisive):       grade (d) — native ALGEBRAIC weld
+                         f phi0'H1 = 2 d_t dphi = vanishing radial
+                         energy flux (EL_H1 = -r²·dT_tr); Einstein weld
+                         NOT implied; (c) only on phi0' = 0 slices;
+                         no-real-omega proven for E0 >= 0 only, real
+                         mode exhibited at E0 < 0 (omega² = +7.53).
+    W4:                  Bianchi route: NO implication; Einstein
+                         theta-row inconsistent with breathing
+                         (non-conservation leak computed exactly).
+    Weld native status:  EINSTEIN IMPORT structurally at BOTH scopes;
+                         macro empirical support CHANNEL-SPECIFIC
+                         (phase/interleaving/TE pass; EE ~2x overshoot
+                         standing; phase channel may not discriminate
+                         the welds); native counterpart exists and
+                         differs.
+
+==============================================================================
+SUMMARY
+==============================================================================
+  All symbolic/exact checks PASSED.
+
+  W1  Ties: H0 = -2 dphi, H2 = +2 dphi; g_tt g_rr = -1 automatic at all
+      orders.  K: not pure gauge (ell >= 2); strict perturbed-level
+      canon C-1 forces K = 0; areal re-chart price = g_{r th} =/= 0.
+  W2  dG^t_theta = e^{2phi0}[-(1/2)d_r(e^{-2phi0}H1) + d_t dphi +
+      (1/2)d_t K]·d_th Y at GENERAL f — AUDIT S116 confirmed; ell-flat;
+      dT^t_theta[C1] = 0 (matter-scope weld would be source-free).
+  W3  Grade (d): the native H1 equation is the ALGEBRAIC weld
+      f phi0'·H1 = 2 d_t dphi (<=> f'H1 = -4 d_t dphi), identically
+      EL_H1 = -r²·dT_tr — first-order VANISHING RADIAL ENERGY FLUX
+      (verifier identification); no native d_r H1, no native K equation
+      (parametrization-obstructed by the banked theta-theta refusal);
+      H1 elimination flips the dphi time-kinetic sign: the on-shell
+      native sector is ELLIPTIC.  No real-omega modes PROVEN FOR
+      E0 >= 0 (all vacuum backgrounds); on sourced collars with E0 < 0
+      the oscillation window OPENS — counterexample reproduced
+      (omega² = +7.53 real mode; vacuum control -12.6).  Einstein weld
+      != native weld (witness-verified).
+  W4  Bianchi implies nothing here: div G = 0 verified (identity);
+      (div T)_theta^(1) = c f²(E0 - phi0'^2)·dphi·d_th Y =/= 0
+      (H1-independent; the banked non-conservation leak, promoted) —
+      the Einstein theta-row would force dphi = 0.
+  W5  Verdict: the rung-2 weld is an EINSTEIN IMPORT structurally at
+      BOTH scopes (macro support empirical and channel-specific; the
+      phase channel may not discriminate the welds — phase-2
+      discriminator: native-weld macro projection vs the CMB record);
+      the native matter-side system is (dphi, H1) with the algebraic
+      weld + an elliptic on-shell breathing equation (Reading A),
+      recorded alongside Readings B/C.  Spectra on the banked sourced
+      backgrounds = phase 2, highest leverage.
+
+Script done on 2026-07-19 17:08:56-04:00 [COMMAND_EXIT_CODE="0"]

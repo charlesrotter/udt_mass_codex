@@ -1,0 +1,44 @@
+{
+  "catch_proofs": {
+    "CMB_comparison_called_derivation": "PASS",
+    "K_term_dropped": "PASS",
+    "K_zero_called_current_forced": "PASS",
+    "Petrov_D_called_unique": "PASS",
+    "Petrov_I_counterwitness_deleted": "PASS",
+    "compatibility_called_implication": "PASS",
+    "conditional_countermetric_promoted": "PASS",
+    "curvature_component_called_EOM": "PASS",
+    "deleted_Einstein_source_step": "PASS",
+    "full_gradient_spacelike_witness_demoted": "PASS",
+    "pre_july_label_promoted": "PASS"
+  },
+  "checks": {
+    "current_vs_historical_source_separation": "PASS",
+    "derivation_contract": "PASS",
+    "derivation_transcript_matches_stdout": "PASS",
+    "deterministic_derivation_replay": "PASS",
+    "historical_replay": "PASS",
+    "independent_PND_discriminants": "PASS",
+    "ledger_contract": "PASS",
+    "no_control_or_canon_edits": "PASS",
+    "report_contract": "PASS",
+    "source_inventory_replay": "PASS"
+  },
+  "counts": {
+    "algebra_checks": 20,
+    "catch_proofs": 11,
+    "object_rows": 12,
+    "source_rows": 17,
+    "status_rows": 20
+  },
+  "hashes": {
+    "derivation_result_sha256": "15eed3d3960b4457d2706f40fae938a038d24cdfe19a18c6c8b792f4227ca51a",
+    "derivation_stdout_sha256": "15eed3d3960b4457d2706f40fae938a038d24cdfe19a18c6c8b792f4227ca51a",
+    "derivation_transcript_body_sha256": "15eed3d3960b4457d2706f40fae938a038d24cdfe19a18c6c8b792f4227ca51a",
+    "derivation_transcript_file_sha256": "ff7f4aeecb68a58b91f5a80081ccd9bcd578af44c1e30200c4d9b806d0317e73",
+    "historical_stdout_sha256": "c31267914c657250933a55caebb0d73ed2af68157fd3187f47da409152136288",
+    "source_inventory_sha256": "a45c11493245ffd00b0393e119d7288d8ee6a7ed4b0603ee21e22e24178de409"
+  },
+  "maximum_verified_conclusion": "HISTORICAL_DIFFERENTIAL_WELD_REPRODUCED_AS_EINSTEIN_SOURCE_CONDITIONAL;_DISTINCT_ALGEBRAIC_WELD_REPRODUCED_AS_PRE_NATIVE_ACTION_CONDITIONAL;_NO_NULL_DPHI_OR_UNIQUE_REPEATED_PND_SELECTOR_FOLLOWS_IN_THE_TESTED_TILES",
+  "schema": "rung2-weld-verification-1.0"
+}

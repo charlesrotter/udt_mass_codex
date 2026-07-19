@@ -1,0 +1,127 @@
+Script started on 2026-07-19 17:23:19-04:00 [<not executed on terminal>]
+{
+  "algebraic_weld_causal_counterjets": {
+    "scope": "causal class of the perturbation first jet dp at a point with phi0_r nonzero",
+    "witnesses": {
+      "NULL": {
+        "gradient_norm": "0",
+        "residual": "0"
+      },
+      "SPACELIKE": {
+        "gradient_norm": "1",
+        "residual": "0"
+      },
+      "TIMELIKE": {
+        "gradient_norm": "-1",
+        "residual": "0"
+      },
+      "ZERO": {
+        "gradient_norm": "0",
+        "residual": "0"
+      }
+    }
+  },
+  "checks": {
+    "K_retained_with_half_coefficient": "PASS",
+    "algebraic_weld_null_residual": "PASS",
+    "algebraic_weld_spacelike_residual": "PASS",
+    "algebraic_weld_timelike_residual": "PASS",
+    "algebraic_weld_zero_residual": "PASS",
+    "background_inverse_check": "PASS",
+    "differential_weld_null_residual": "PASS",
+    "differential_weld_spacelike_residual": "PASS",
+    "differential_weld_timelike_residual": "PASS",
+    "differential_weld_zero_residual": "PASS",
+    "full_gradient_spacelike_joint_weld_witness": "PASS",
+    "historical_vacuum_background_E0": "PASS",
+    "kasner_mixed_zero_source_equation": "PASS_ANALYTIC_RICCI_FLAT_COMPARISON",
+    "kasner_petrov_I_nonzero_discriminant": "PASS",
+    "kasner_square_sum": "PASS",
+    "kasner_sum": "PASS",
+    "linear_mixed_curvature_rederived": "PASS",
+    "nonlinear_reciprocity_does_not_zero_mixed_curvature": "PASS",
+    "pre_july_action_algebraic_EL_rederived": "PASS",
+    "static_reciprocal_mixed_zero_petrov_I": "PASS"
+  },
+  "differential_weld_causal_counterjets": {
+    "scope": "causal class of the perturbation first jet dp on the f=1 reproduction tile",
+    "witnesses": {
+      "NULL": {
+        "gradient_norm": "0",
+        "residual": "0"
+      },
+      "SPACELIKE": {
+        "gradient_norm": "1",
+        "residual": "0"
+      },
+      "TIMELIKE": {
+        "gradient_norm": "-1",
+        "residual": "0"
+      },
+      "ZERO": {
+        "gradient_norm": "0",
+        "residual": "0"
+      }
+    }
+  },
+  "exact_nonlinear_diagonal_tile": {
+    "G_up_t_theta": "-(Derivative(A(t, r, theta), t)*Derivative(B(t, r, theta), theta) + Derivative(A(t, r, theta), t)*Derivative(Phi(t, r, theta), theta) - Derivative(B(t, r, theta), t)*Derivative(B(t, r, theta), theta) - Derivative(B(t, r, theta), t)*Derivative(Phi(t, r, theta), theta) - 2*Derivative(Phi(t, r, theta), t)*Derivative(Phi(t, r, theta), theta) - Derivative(B(t, r, theta), t, theta) - Derivative(Phi(t, r, theta), t, theta))*exp(2*Phi(t, r, theta))",
+    "classification": "EXACT_METRIC_DERIVED_READOUT_NOT_A_NATIVE_ZERO_EQUATION",
+    "metric": "diag(-exp(-2 Phi), exp(2 Phi), exp(2 A), exp(2 B)); Phi,A,B free functions of t,r,theta",
+    "nonzero_witness": "(r*t + 2*r*theta - 2*t**2 - 2*t*theta + 1)*exp(2*t*theta)",
+    "scope": "diagonal local comparison only; no off-diagonal completeness claim"
+  },
+  "full_gradient_spacelike_historical_vacuum_witness": {
+    "algebraic_weld_residual": "0",
+    "background": "f=1+C_vac/r; phi0=-log(f)/2; C_vac>0; r>0",
+    "background_scalar_EL_E0": "0",
+    "causal_class": "SPACELIKE_NONZERO",
+    "differential_weld_residual": "0",
+    "perturbations": "p=H1=K=tau=0",
+    "scope": "historical scalar-action vacuum background; not a complete current UDT solution",
+    "total_dphi_norm": "C_vac**2/(4*r**3*(C_vac + r))"
+  },
+  "kasner_conditional_comparison": {
+    "classification": "PETROV_I;_CONDITIONAL_COMPARISON_NOT_COMPLETE_UDT",
+    "electric_weyl_eigenvalues": [
+      "-18/(49*tau**2)",
+      "12/(49*tau**2)",
+      "6/(49*tau**2)"
+    ],
+    "exponents": [
+      "-2/7",
+      "3/7",
+      "6/7"
+    ],
+    "pnd_discriminant": "1194393600/(13841287201*tau**12)",
+    "pnd_polynomial": "3*(root**4 + 18*root**2 + 1)/(49*tau**2)"
+  },
+  "linearized_historical_tile": {
+    "classification": "RAW_METRIC_DERIVED_LINEARIZED_CURVATURE_COMPONENT_NOT_AN_EOM",
+    "delta_G_up_t_theta": "-(H1(t, r)*Derivative(f(r), r) + f(r)*Derivative(H1(t, r), r) - Derivative(K(t, r), t) - 2*Derivative(p(t, r), t))*Derivative(Y(theta), theta)/(2*f(r))",
+    "equation_step": "delta G^t_theta = 8 pi G delta T^t_theta is imported Einstein/source dynamics",
+    "metric": "diag(-f+2 eps f pY, f^-1+2 eps f^-1 pY, r^2(1+eps KY), r^2 sin(theta)^2(1+eps KY)) with g_tr=eps H1 Y"
+  },
+  "maximum_algebraic_conclusion": "THE_HISTORICAL_DIFFERENTIAL_WELD_IS_AN_EINSTEIN_EQUATION_BUILT_FROM_A_METRIC_DERIVED_LINEARIZED_MIXED_CURVATURE_OPERATOR;_THE_DISTINCT_ALGEBRAIC_RELATION_AND_THE_DIFFERENTIAL_RELATION_BOTH_ADMIT_NON_NULL_CAUSAL_JETS_AND_DO_NOT_FORCE_A_UNIQUE_REPEATED_PND",
+  "pre_july_scalar_action_tile": {
+    "classification": "HISTORICAL_PRE_NATIVE_ACTION_CONDITIONAL_NOT_IN_CURRENT_C0_C1_ACTION_LEDGER",
+    "functional": "S=-(coupling/2) integral exp(-2 phi) g^ab d_a phi d_b phi sqrt(-g)",
+    "second_variation_EL_H1": "-coupling*r**2*(-H1(t, r)*Derivative(phi0(r), r) + 2*exp(2*phi0(r))*Derivative(p(t, r), t))*exp(-4*phi0(r))*Derivative(phi0(r), r)/2",
+    "zero_equation": "exp(-2 phi0) phi0_r H1 = 2 p_t when phi0_r != 0"
+  },
+  "python": "3.10.12",
+  "schema": "rung2-weld-regrade-1.0",
+  "static_reciprocal_historical_family_comparison": {
+    "electric_characteristic_discriminant": "11913/1250000000",
+    "electric_characteristic_polynomial": "(75*lambda - 8)*(45000*lambda**2 + 4800*lambda - 169)/3375000",
+    "electric_weyl_mixed_matrix": "[[-1/75, -sqrt(2)/20, 0], [-sqrt(2)/20, -7/75, 0], [0, 0, 8/75]]",
+    "evaluation_point": "r=1, cos(theta)=1/sqrt(3), Phi=0",
+    "mixed_component": "G^t_theta=0 identically by static diagonality",
+    "petrov_type": "I",
+    "profile": "Phi=r*(3*cos(theta)^2-1)/20",
+    "scope": "exact reciprocal static ell=2 comparison; not a complete UDT universe"
+  },
+  "sympy": "1.13.1"
+}
+
+Script done on 2026-07-19 17:23:46-04:00 [COMMAND_EXIT_CODE="0"]

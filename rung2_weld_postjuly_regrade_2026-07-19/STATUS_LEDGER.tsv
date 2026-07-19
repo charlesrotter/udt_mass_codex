@@ -1,0 +1,21 @@
+id	claim	status	evidence	scope_or_remaining_open
+R01	Historical June-10 program text names one derived rung-2 weld	OBSERVED_HISTORICAL	CANON.md C-2026-06-10-3	Text remains unchanged; Charles alone revises canon
+R02	The unchanged historical implementation still reproduces	OBSERVED_REPRODUCED	HISTORICAL_REPLAY_TRANSCRIPT.txt exit 0	Reproduction is not independent authority
+R03	The even-parity metric ansatz gives delta G^t_theta=f^-1[-1/2 d_r(fH1)+p_t+K_t/2]d_theta Y	DERIVED_WITHIN_LINEARIZED_HISTORICAL_ANSATZ	Independent first-variation curvature calculation	Static spherical background; chosen harmonic; linear order
+R04	The raw mixed-curvature expression is a UDT field equation	REFUTED_PROVENANCE	A metric definition supplies the tensor but no zero/source equation	Complete native action and variation domain remain open
+R05	The differential weld follows after G^t_theta=8 pi G T^t_theta	DERIVED_CONDITIONAL_COMPARISON	Exact algebra from R03	Einstein/source step is imported rather than native UDT
+R06	The zero-source differential weld is a geometric identity	REFUTED_EXACT	Exact nonlinear reciprocal diagonal witness has nonzero G^t_theta; R03 operator is freely nonzero	Zero-source is still a conditional equation
+R07	The distinct algebraic weld follows from the June-10 scalar action	OBSERVED_EXACT_HISTORICAL_ACTION_TILE	Independent second-variation EL_H1 calculation	Only conditional on that pre-native functional and phi0_r nonzero
+R08	The June-10 scalar action belongs to current C0/C1	NOT_PRESENT	Cold packet explicitly supplies no action/EOM; final adjudication leaves complete action open	No affirmative post-July promotion
+R09	The algebraic weld is a current native UDT equation	HISTORICAL_ONLY_NOT_CURRENTLY_DERIVED	R07 plus R08 and July-6 supersession banner	May be retested only if a future native action independently regenerates it
+R10	K=0 is forced by current UDT	NOT_DERIVED_OVERSTATED_HISTORICAL_RESTRICTION	Old script admits it extends a static areal-chart reading; current packet leaves transverse/time-live geometry open	K remains free in the current bounded audit
+R11	Full nonlinear reciprocal diagonal geometry contains phi-angular coupling	OBSERVED_EXACT_METRIC_GEOMETRY	Exact G^t_theta(Phi,A,B) calculation with independent transverse warps	A geometric coupling is not a law setting the component to zero
+R12	Reciprocity alone sets the exact mixed component to zero	REFUTED_EXACT	Explicit Phi=t theta; A=t^2+r theta; B=tr+theta^2 witness gives nonzero G^t_theta	Diagonal local tile only
+R13	Either historical weld forces null dphi	REFUTED_WITHIN_TESTED_TILES	All four perturbation-first-jet classes satisfy both relations; the exact f=1+C/r old-action vacuum and static reciprocal Petrov-I witnesses have nonzero spacelike total dphi	No statement about a future stronger coupled system
+R14	The zero-source mixed equation forces one uniquely repeated PND	REFUTED_EXACT	Exact static reciprocal ell=2 completion has G^t_theta=0 and Petrov-I electric-Weyl discriminant 11913/1250000000	Conditional comparison; not a complete UDT universe
+R15	The generic conditional Kasner comparison also satisfies mixed zero and is Petrov I	OBSERVED_EXACT_CONDITIONAL	PND quartic discriminant 1194393600/(13841287201 tau^12)	Independent cross-check outside the historical spherical family
+R16	CSN supplies the missing mixed equation	NOT_DERIVED	Current CSN yields a conditional trace identity only	Requires a chosen invariant action before even that identity exists
+R17	Bootstrap supplies the missing local weld	NOT_DERIVED	Current bootstrap is global on-shell admissibility	Local feedback/variation mechanism remains open
+R18	Historical CMB comparison proves native provenance	REFUTED_METHOD	Pipeline is pre-native/superseded and observational compatibility is not derivation	No CMB phenomenology rerun in this audit
+R19	The June-10 name conflated a geometric Einstein differential equation and a separate scalar-action algebraic equation	DERIVED_PROVENANCE_RECONSTRUCTION	Independent equations plus source chronology and banners	The two relations are inequivalent
+R20	A post-July native phi-angular equation selecting null dphi or a unique repeated PND has been recovered	NOT_DERIVED_FROM_AUDITED_SOURCE_SET	R03-R19	Complete native action/source/boundary and bridge remain open

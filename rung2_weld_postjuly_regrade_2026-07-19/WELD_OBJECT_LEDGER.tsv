@@ -1,0 +1,13 @@
+id	object	provenance	current_status	null_dphi_force	unique_repeated_pnd_force	decisive_limit
+W01	reciprocal temporal-radial metric block	current C0/C1 composition plus dual Reciprocity plus representative/readout premises	DERIVED_CONDITIONAL_KINEMATICS	NO	NO	Does not select transverse block or equation of motion
+W02	linearized delta G^t_theta mixed-curvature expression	metric definition plus chosen static spherical even-parity ansatz	RAW_METRIC_DERIVED_LINEARIZED_READOUT	NO	NO	A tensor component is not an equation of motion
+W03	d_r(f H1)=2 p_t+K_t-16 pi G f tau	historical G^t_theta=8 pi G T^t_theta step	IMPORTED_EINSTEIN_SOURCE_EQUATION	REFUTED_WITHIN_TESTED_ZERO_SOURCE_TILE	REFUTED_WITH_EXACT_RECIPROCAL_PETROV_I_WITNESS	Requires Einstein dynamics and an imported/open source
+W04	d_r(f H1)=2 p_t+K_t	historical zero-source specialization	CONDITIONAL_IMPORTED_ZERO_SOURCE_EQUATION	REFUTED_WITH_TIMELIKE_SPACELIKE_NULL_ZERO_COUNTERJETS	REFUTED_WITH_EXACT_STATIC_RECIPROCAL_PETROV_I_WITNESS	Zero source does not turn an Einstein equation into an identity
+W05	f phi0_r H1=2 p_t	June-10 scalar-action second variation	HISTORICAL_PRE_NATIVE_ACTION_CONDITIONAL_NOT_CURRENT_C0_C1	REFUTED_BY_SPACELIKE_TOTAL_DPHI_OLD_ACTION_VACUUM;PERTURBATION_FIRST_JETS_SELECTOR_NEUTRAL	NOT_DERIVED	The defining action is absent from the current foundation/action ledger
+W06	K=0 restriction	June-10 extension of static areal P0 chart into ell>=2 perturbations	HISTORICAL_CHOICE_OVERSTATED_AS_FORCED	NO	NO	Current C0/C1 leaves transverse and time-live geometry open
+W07	exact nonlinear diagonal G^t_theta(Phi,A,B)	metric definition on a chosen diagonal local reciprocal chart	EXACT_METRIC_DERIVED_READOUT	NO	NO	Reciprocity does not make it vanish; off-diagonal completion remains outside scope
+W08	CSN trace Noether identity	current CSN plus a separately chosen exactly invariant action	CONDITIONAL_IDENTITY_NOT_MIXED_EOM	NO	NO	Trace identity cannot supply a missing mixed component
+W09	Reciprocity determinant-one relation	current founding dual pairing and chosen representative	KINEMATIC_NOT_DYNAMICAL	NO	NO	No derivative operator or variation domain follows
+W10	bootstrap narrow-window admissibility	current owner-stated global principle	GLOBAL_SELECTION_REQUIREMENT_NOT_LOCAL_EOM	NO	NO	No local source or mixed operator is supplied
+W11	CMB compatibility/discriminator	June-10 legacy projection pipeline	SUPERSEDED_HISTORICAL_COMPARISON_ONLY	NO	NO	Observational agreement cannot establish operator provenance
+W12	one current native rung-2 weld	post-July source census	NOT_DERIVED_FROM_AUDITED_CURRENT_SOURCE_SET	NO	NO	Does not prove absence from every possible future UDT completion
