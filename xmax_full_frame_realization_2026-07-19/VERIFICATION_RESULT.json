@@ -1,0 +1,51 @@
+{
+  "catch_proofs": {
+    "1plus1_conformal_nonuniqueness_deleted": "PASS",
+    "CSN_homothety_falsely_promoted_to_isometry": "PASS",
+    "action_invented": "PASS",
+    "additive_depth_selection_deleted": "PASS",
+    "bounded_dx_counterwitness_hidden": "PASS",
+    "c_value_origin_invented": "PASS",
+    "declared_frame_scope_promoted": "PASS",
+    "free_time_exponent_counterfamily_deleted": "PASS",
+    "intrinsic_angular_geometry_invented": "PASS",
+    "positional_law_promoted": "PASS",
+    "projective_join_caveat_deleted": "PASS",
+    "projective_position_join_promoted": "PASS",
+    "seal_role_silently_identified": "PASS",
+    "stationary_frame_invariance_deleted": "PASS",
+    "time_frame_action_deleted": "PASS",
+    "transverse_counterfamily_deleted": "PASS"
+  },
+  "checks": {
+    "deterministic_primary_replay_and_contract": "PASS",
+    "independent_1plus1_conformal_counterfamily": "PASS",
+    "independent_bounded_dx_counterwitness": "PASS",
+    "independent_free_time_exponent_counterfamily": "PASS",
+    "independent_full_metric_Lie_homothety": "PASS",
+    "independent_projective_anchor_and_composition": "PASS",
+    "independent_relational_absolute_seal_mismatch": "PASS",
+    "independent_transverse_weight_and_counterfamily": "PASS",
+    "ledger_coverage": "PASS",
+    "no_control_or_canon_edits": "PASS",
+    "report_contract": "PASS",
+    "source_inventory_replay": "PASS"
+  },
+  "independent_witnesses": {
+    "Lie_derivative_K_g": "-2 g",
+    "absolute_seal_after_nonzero_shift": "-beta != 0",
+    "anchored_projective_coordinate": "(r - 1)/(r + 1)",
+    "bounded_dx_spatial_ratios": [
+      "32/81",
+      "512/625"
+    ],
+    "bounded_dx_time_ratio": "1/2",
+    "free_time_exponent_common_factor": "exp(-2(a+1)beta)",
+    "null_conformal_factor": "A1*p*q/A0",
+    "transverse_solution": "C*exp(phi)"
+  },
+  "python": "3.10.12",
+  "result": "PASS",
+  "schema": "udt-xmax-full-frame-verification-1.0",
+  "sympy": "1.13.1"
+}

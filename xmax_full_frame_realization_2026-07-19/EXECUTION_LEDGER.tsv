@@ -1,0 +1,5 @@
+id	purpose	exact_command	python	sympy	exit_code	output_artifact	output_sha256	compute
+E01	primary exact projective/full-frame algebra	env PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES='' python3 -B xmax_full_frame_realization_2026-07-19/derive_xmax_full_frame.py	3.10.12	1.13.1	0	DERIVATION_TRANSCRIPT.txt	93b88edd87a72c71a81df22df0173c78d535d35849e3b409d33ffe68bf798362	CPU_ONLY
+E02	independent Lie-derivative/projective verifier and catch proofs	env PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES='' python3 -B xmax_full_frame_realization_2026-07-19/verify_xmax_full_frame.py	3.10.12	1.13.1	0	VERIFICATION_TRANSCRIPT.txt	288c2ddbe2be75df82ce263ced0c03f223465bff6fe3aac42f022daaba332df9	CPU_ONLY
+E03	fixed source inventory	env PYTHONDONTWRITEBYTECODE=1 python3 -B xmax_full_frame_realization_2026-07-19/build_source_inventory.py	3.10.12	N/A	0	SOURCE_INVENTORY.tsv	407161a4b262190af70639f864e0819155fb3aa53ee2bbe6dff8a2db1f9b6a92	CPU_ONLY
+E04	repository test baseline	env PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES='' python3 -m pytest tests/	3.10.12	N/A	1_EXPECTED_BASELINE	TEST_TRANSCRIPT.txt	0c490235f73800988d144e2964eefa013138e1ef0ec9c1a28a28aa7a59ee4e3c	CPU_ONLY

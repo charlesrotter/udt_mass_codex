@@ -1,0 +1,121 @@
+{
+  "adjudication": {
+    "Xmax_value": "OPEN; MAY_BE_INVARIANT_BOOTSTRAP_OUTPUT_ONLY_AFTER_NATIVE_GLOBAL_SCALAR_CLOSURE",
+    "action": "NOT_SELECTED",
+    "angular_sector": "RECIPROCAL_PHI_DEPENDENCE_SELECTED_IN_RESTRICTED_WARP_CLASS; INTRINSIC_GEOMETRY_AND_GLOBAL_COMPLETION_OPEN",
+    "old_dx_metric": "REFUTED_AS_FULL_FRAME_REALIZATION_IN_DECLARED_NATURAL_RECENTERING_CLASS",
+    "positional_law": "DERIVED_CONDITIONAL_ON_PROJECTIVE_POSITION_JOIN; NOT_DERIVED_FROM_XMAX_OR_1PLUS1_CSN_ALONE",
+    "realization": "EXACT_CONDITIONAL_FULL_FRAME_CSN_REALIZATION_EXISTS_IN_RECIPROCAL_ADDITIVE_DEPTH_COFRAME_FAMILY",
+    "seal": "RELATIONAL_DEPTH_TO_ABSOLUTE_STATIC_FIELD_JOIN_OPEN"
+  },
+  "checks": {
+    "Xmax_fixed_under_frame_map": "PASS",
+    "absolute_zero_seal_not_invariant_under_internal_shift": "PASS",
+    "alternative_bounded_chart_not_projective_witness": "PASS",
+    "arbitrary_null_reparameterization_is_conformal": "PASS",
+    "arbitrary_null_reparameterization_positive_factor": "PASS",
+    "bounded_dx_not_full_frame_seed": "PASS",
+    "bounded_dx_second_spatial_witness": "PASS",
+    "bounded_dx_seed_ratio_witness": "PASS",
+    "bounded_dx_spatial_ratio_witness": "PASS",
+    "bounded_dx_time_ratio_witness": "PASS",
+    "c_fixed_under_frame_map": "PASS",
+    "candidate_global_mass_scalar_fixed_if_declared": "PASS",
+    "constant_depth_seed_realizes_frame": "PASS",
+    "depth_seed_translation_infinitesimal": "PASS",
+    "flat_transverse_seed_phi_independent": "PASS",
+    "free_time_exponent_counterfamily_spatial": "PASS",
+    "free_time_exponent_counterfamily_temporal": "PASS",
+    "full_frame_Xmax_minus_endpoint": "PASS",
+    "full_frame_Xmax_plus_endpoint": "PASS",
+    "full_frame_bounded_recenter": "PASS",
+    "full_frame_common_CSN_factor": "PASS",
+    "full_frame_depth_group_composition": "PASS",
+    "full_frame_not_generic_isometry": "PASS",
+    "full_frame_time_group_composition": "PASS",
+    "projective_CSN_common_scale": "PASS",
+    "projective_anchor_r_infinity": "PASS",
+    "projective_anchor_r_one": "PASS",
+    "projective_anchor_r_zero": "PASS",
+    "projective_pair_composition_to_XR1": "PASS",
+    "projective_ratio_multiplication_to_XR1": "PASS",
+    "projective_reciprocal_pair_to_tanh": "PASS",
+    "projective_reversal": "PASS",
+    "projective_three_anchor_uniqueness": "PASS",
+    "round_transverse_seed_phi_independent": "PASS",
+    "transverse_warp_functional_equation": "PASS",
+    "transverse_warp_infinitesimal": "PASS"
+  },
+  "depth_vs_bounded_differential": {
+    "bounded_dx_seed": "dx=X_max sech(phi)^2 dphi",
+    "bounded_dx_witness_beta_atanh_one_third": {
+      "spatial_ratio_phi_zero": "32/81",
+      "spatial_ratio_xi_half": "512/625",
+      "time_ratio": "1/2"
+    },
+    "classification": "FIXED_F3_TIME_ACTION_SELECTS_ADDITIVE_DEPTH_COFRAME_OVER_BOUNDED_DX_WITHIN_THE_REGISTERED_PURE_DEPTH_CLASS",
+    "free_time_exponent_counterfamily": "k(phi)=exp(a phi), t'=exp(-(a+2)beta)t gives common factor exp(-2(a+1)beta)",
+    "full_frame_condition": "the spatial seed before the exp(2phi) reciprocal weight must be invariant under phi translations",
+    "normalization": "L=X_max is an available global normalization using the working ruler, not a derivation of X_max's value",
+    "pure_depth_solution": "k(phi)=constant=L, hence reciprocal spatial coframe L dphi",
+    "scope": "constant k is selected only with fixed t'=exp(-2beta)t; bounded dx still fails every constant time rescaling because its defect depends on position; new field/frame mixing is outside the declared class"
+  },
+  "full_frame": {
+    "bounded_action": "x'=X_max tanh(phi-beta) gives XR1 and fixes +-X_max as limiting endpoints",
+    "causal_action": "conformal factor is positive, so the metric null cone is preserved",
+    "classification": "EXACT_FULL_FOUR_DIMENSIONAL_FRAME_REALIZATION_IN_DECLARED_RECIPROCAL_CSN_COFRAME_FAMILY",
+    "coordinates": "(t,phi,y1,y2)",
+    "frame_map": "phi'=phi-beta; t'=exp(-2beta)t; y'=y; X_max'=X_max; c'=c",
+    "group_law": "F_beta2 composed F_beta1 = F_(beta1+beta2)",
+    "metric_action": "F_beta pullback g = exp(-2beta) g",
+    "metric_family": "g=-exp(-2phi)c^2 dt^2 + exp(2phi) h_ij dz^i dz^j",
+    "not_claimed": "unique complete UDT metric, isometry, angular topology, action, or physical signal theorem",
+    "spatial_seed_condition": "h=h(y) is stationary and F_beta-invariant; arbitrary invariant depth-transverse cross terms survive"
+  },
+  "maximum_conclusion": "A_COMPLETE_FOUR_DIMENSIONAL_CSN_FRAME_ACTION_EXISTS_CONDITIONALLY_WHEN_POSITION_IS_THE_ANCHORED_PROJECTIVE_COORDINATE_OF_THE_RECIPROCAL_CSN_COFRAME_RAY_AND_THE_SPATIAL_SEED_IS_ADDITIVE_DEPTH_TRANSLATION_INVARIANT; THIS_DERIVES_XR1_AND_SELECTS_COMMON_RECIPROCAL_PHI_WEIGHT_BUT_NOT_THE_PROJECTIVE_POSITION_JOIN_INTRINSIC_TRANSVERSE_GEOMETRY_SEAL_BRIDGE_XMAX_VALUE_ACTION_OR_MATTER",
+  "projective_position": {
+    "anchor_uniqueness": "unique fractional-linear chart with r=0 -> -1, r=1 -> 0, r=infinity -> +1",
+    "anchored_coordinate": "xi=(r-1)/(r+1)=(v-u)/(v+u)=tanh(phi)",
+    "classification": "PROJECTIVE_LAW_DERIVED_CONDITIONAL_ON_IDENTIFYING_POSITIONAL_SEPARATION_WITH_THE_ANCHORED_PROJECTIVE_COORDINATE_OF_THE_RECIPROCAL_CSN_COFRAME_RAY",
+    "composition": "multiplication of reciprocal projective ratios gives xi12=(xi1+xi2)/(1+xi1 xi2)",
+    "physical_join": "x=X_max xi",
+    "projective_ratio": "r=v/u=exp(2 phi)",
+    "reciprocal_pair": "[u:v]=[exp(-phi):exp(+phi)] modulo common CSN scale",
+    "remaining_choice": "the projective-position identification is not yet owner-locked by the current foundation",
+    "reversal": "u<->v gives xi->-xi"
+  },
+  "python": "3.10.12",
+  "schema": "udt-xmax-full-frame-realization-1.0",
+  "seal_and_bootstrap": {
+    "absolute_seal_test": "if the same physical scalar is shifted internally, Phi_abs=0 maps to -beta and the seal is not preserved",
+    "allowed_resolutions_not_selected": [
+      "phi_rel is a coordinate/ray parameter distinct from Phi_abs",
+      "derive a compensating boundary/frame action",
+      "revise the absolute-seal or global-frame interpretation"
+    ],
+    "bootstrap_Xmax": "X_max can be invariant if it is a scalar output of complete-solution closure",
+    "c_caveat": "the symbol c is unchanged and conformal null cones are preserved; its value or bootstrap origin is not derived",
+    "classification": "RELATIONAL_DEPTH_AND_ABSOLUTE_STATIC_SEAL_FIELD_CANNOT_BE_SILENTLY_IDENTIFIED_IN_THIS_FRAME_REALIZATION",
+    "mass_caveat": "this requires a native observer-independent M_total; current complete action/source/mass definition remains open",
+    "relational_depth_action": "phi_rel'=phi_rel-beta so each positional observer can set local relational depth to zero"
+  },
+  "sympy": "1.13.1",
+  "transverse_sector": {
+    "classification": "PHI_DEPENDENCE_SELECTED_IN_RESTRICTED_WARP_CLASS_BUT_INTRINSIC_TRANSVERSE_GEOMETRY_TOPOLOGY_ROUNDNESS_TWIST_AND_BOUNDARY_REMAIN_OPEN",
+    "equivalent_form": "all spatial coframe directions carry the same exp(+phi) reciprocal weight over a phi-independent seed",
+    "positive_solution": "R(phi)=C exp(phi)",
+    "restricted_warp_equation": "R(phi-beta)=exp(-beta)R(phi)",
+    "surviving_intrinsic_seeds": [
+      "round local S2 q=diag(1,sin(theta)^2)",
+      "flat local q=diag(1,1)",
+      "arbitrary phi-independent q_AB and invariant cross terms"
+    ]
+  },
+  "two_dimensional_conformal_counterfamily": {
+    "classification": "EXACT_COUNTERFAMILY_TWO_DIMENSIONAL_LOCAL_CSN_COVARIANCE_ALONE_DOES_NOT_SELECT_XR1_OR_THE_PROJECTIVE_CHART",
+    "extension": "u'=-h_beta(-u), v'=h_beta(v), where h_beta is any smooth monotone one-parameter re-centering conjugated into optical y",
+    "optical_coordinates": "u=t-y, v=t+y with g2=-A(y) du dv",
+    "pullback_factor": "A(y') h_beta'(-u) h_beta'(v) / A(y)",
+    "remaining_gate": "the reciprocal projective coframe join or full transverse structure must do the selecting"
+  }
+}

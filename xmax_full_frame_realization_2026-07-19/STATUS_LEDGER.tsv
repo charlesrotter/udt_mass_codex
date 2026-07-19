@@ -1,0 +1,15 @@
+id	question	result	status	remaining_gate
+S01	Is there a full four-dimensional observer-frame realization of invariant Xmax?	Yes in the reciprocal additive-depth coframe family; the metric changes only by one common CSN factor	EXACT_CONDITIONAL	Projective-position join and global field/boundary completion remain
+S02	Can P2 fractional-linear composition be reduced to a smaller premise?	Yes; it follows from the uniquely anchored projective coordinate of the reciprocal CSN coframe ray	DERIVED_CONDITIONAL_ON_PROJECTIVE_POSITION_JOIN	The physical positional interpretation of that ray is not owner-locked
+S03	Does finite Xmax alone derive the law?	No	REFUTED_IMPLICATION	The previous smooth bounded countergroup remains admissible without the projective join
+S04	Which radial differential realizes the registered F3 frame?	With fixed t'=exp(-2beta)t, an additive depth coframe L dphi; bounded dx fails every constant time rescaling	SELECTED_IN_FIXED_F3_PURE_DEPTH_CLASS	Freeing the time exponent admits k=exp(a phi); L=Xmax normalization remains conditional
+S05	What is the exact frame map?	phi'=phi-beta; t'=exp(-2beta)t; transverse labels fixed; Xmax and c fixed	EXACT_IN_DECLARED_FAMILY	Other transformation families are not exhausted
+S06	Is the frame map an isometry?	No generically; it is a homothety F* g=exp(-2beta)g and therefore CSN-equivalent	CSN_EQUIVALENT_NOT_ISOMETRIC	Physical use requires founding CSN
+S07	Does it preserve causality?	It preserves the conditional metric null cone because the common factor is positive	DERIVED_CONDITIONAL	Native physical signal law remains open
+S08	Does it select the angular sector?	It selects reciprocal exp(+phi) dependence in the restricted warp class but not q_AB or topology	PARTIAL_CONDITIONAL	Intrinsic transverse geometry and global completion open
+S09	Does 1+1 conformal covariance make the projective law unique?	No; arbitrary monotone bounded re-centerings have local null-coordinate conformal extensions	REFUTED_IMPLICATION	Need reciprocal projective coframe interpretation or stronger full-frame data
+S10	Is relational phi the absolute static seal field?	Not silently; the shift symmetry conflicts with a fixed zero value if they are the same scalar	OPEN_ROLE_DISTINCTION	Derive a field-role map or boundary action
+S11	Can Xmax be set by total mass and still be invariant?	Possibly if both are scalar outputs of complete-solution closure	CONDITIONAL_LEAD	Native M_total and complete action/source are open
+S12	Does the construction derive c or its value?	No; c is an unchanged symbolic conversion parameter and null cones are conformally preserved	OPEN_VALUE_ORIGIN	Bootstrap relation remains unconstructed
+S13	Does this close the UDT action or matter?	No	OPEN	Action source carrier boundary and bootstrap dynamics remain
+S14	Maximum conclusion	A conditional full-frame CSN realization exists and reduces P2 to one explicit projective-position join	VERIFIED_WITH_CAVEATS	Not complete UDT frame/boundary/action closure
