@@ -1,0 +1,14 @@
+top_level_outcome=NO_UNIVERSAL_LOCAL_METRIC_ONLY_SELECTOR_REALIZATION_MAP_OPEN
+python=3.10.12
+sympy=1.13.1
+checks=11/11
+lorentz_residual=Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])
+boosted_e0=Matrix([[cosh(beta)], [sinh(beta)], [0], [0]])
+line_wedge_minor=sinh(beta)
+boost_line_zero_set={0}
+coframes_distinct=True
+endomorphism_at_phi_zero=Matrix([[1, 0], [0, 1]])
+eigenvalue_gap_zero_set={0}
+boundary_agreement=Matrix([[0], [0]])
+bulk_extension_difference=Matrix([[0], [L**2*eps/4]])
+result_sha256=cdb8131707da1d9326c2a8153984c75fe20307c11552edd45d00c16babf7c37e

@@ -1,0 +1,72 @@
+{
+  "check_count": 11,
+  "checks": {
+    "T2_boost_preserves_lorentz_metric": true,
+    "T2_rotation_fixed_candidate_moved_by_every_nonzero_real_boost": true,
+    "T3_flat_metric_jet_retains_lorentz_isotropy": true,
+    "T4_metric_factorization_not_unique": true,
+    "T4_phi_zero_endomorphism_is_identity": true,
+    "T4_reciprocal_endomorphism_degenerates_exactly_at_phi_zero": true,
+    "T5_constant_phi_gradient_vanishes": true,
+    "T5_flat_curvature_eigenframe_degenerate": true,
+    "T6_conformal_rescaling_preserves_null_cone": true,
+    "T7_extensions_agree_at_seal": true,
+    "T7_extensions_differ_in_bulk": true
+  },
+  "environment": {
+    "cpu_only": true,
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "exact_algebra": {
+    "boost_line_zero_set": "{0}",
+    "boosted_e0": "Matrix([[cosh(beta)], [sinh(beta)], [0], [0]])",
+    "boundary_agreement": "Matrix([[0], [0]])",
+    "bulk_extension_difference": "Matrix([[0], [L**2*eps/4]])",
+    "conformal_cone_factor": "Omega**2",
+    "eigenvalue_gap": "2*sinh(phi)",
+    "eigenvalue_gap_zero_set": "{0}",
+    "endomorphism_at_phi_zero": "Matrix([[1, 0], [0, 1]])",
+    "line_wedge_minor": "sinh(beta)",
+    "lorentz_residual": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+    "reciprocal_endomorphism": "Matrix([[exp(-phi), 0], [0, exp(phi)]])"
+  },
+  "least_missing_object": {
+    "full_coframe_required": false,
+    "name": "native_internal_pair_to_spacetime_line_realization_rule",
+    "required_facets": [
+      "domain_and_codomain",
+      "diffeomorphism_and_common_scale_transformation_law",
+      "relative_normalization",
+      "internal_pairing_and_orthogonality_meaning",
+      "phi_zero_and_other_degeneracy_handling",
+      "finite_cell_boundary_and_bulk_compatibility",
+      "global_existence_and_branch_rule"
+    ]
+  },
+  "routes": {
+    "S0_pointwise_metric_only_line_selector": "REFUTED_IN_CLASS",
+    "S1_universal_local_finite_jet_metric_only_selector": "REFUTED_IN_CLASS",
+    "S2_internal_to_spacetime_realization": "OPEN",
+    "S3_curvature_eigenline": "CONDITIONAL_STRATIFIED",
+    "S3_declared_spacetime_endomorphism": "CONDITIONAL_STRUCTURED",
+    "S3_gradient_phi": "CIRCULAR_OR_EXTRA_FIELD",
+    "S3_static_killing_line": "CONDITIONAL_SECTOR_ONLY",
+    "S4_boundary_to_bulk_extension": "UNDERDETERMINED",
+    "S4_seal_normal_line": "CONDITIONAL_BOUNDARY_LOCAL",
+    "auxiliary_field_requirement": "NOT_DERIVED",
+    "complete_action_source_boundary_charge": "OPEN",
+    "internal_reciprocal_pair": "DERIVED_KINEMATIC",
+    "variation_domain": "OPEN"
+  },
+  "schema": "udt.reciprocal-line-realization-selector.v1",
+  "scope_guards": {
+    "auxiliary_structure_not_required_by_no_go": true,
+    "flat_trivial_configuration_allowed": true,
+    "generic_stratified_selectors_not_excluded": true,
+    "global_boundary_selectors_not_excluded": true,
+    "internal_pair_not_identified_as_spacetime_tensor": true,
+    "no_action_or_variation_domain_selected": true
+  },
+  "top_level_outcome": "NO_UNIVERSAL_LOCAL_METRIC_ONLY_SELECTOR_REALIZATION_MAP_OPEN"
+}
