@@ -1,0 +1,142 @@
+{
+  "adversarial_audit": {
+    "required_statements": 8,
+    "result": "PASS",
+    "reviewers": 2
+  },
+  "artifact_moves": 0,
+  "base": "3f0d716bd07f9c9f5d8438638bdced28a7b45bda",
+  "catchproof": {
+    "broad_density_window_rejected": "PASS",
+    "density_insertion_rejected": "PASS",
+    "dirty_metadata_drift_rejected": "PASS",
+    "false_fourth_to_second_order_bridge_rejected": "PASS",
+    "frozen_package_mutation_rejected": "PASS",
+    "missing_countermodel_closure_rejected": "PASS",
+    "omitted_normal_variation_term_rejected": "PASS",
+    "overstated_bridge_status_rejected": "PASS",
+    "scope_escape_rejected": "PASS",
+    "source_hash_mutation_rejected": "PASS"
+  },
+  "changed_paths": [
+    "bootstrap_variation_selector_2026-07-18/ADVERSARIAL_AUDIT.md",
+    "bootstrap_variation_selector_2026-07-18/DERIVATION_REPORT.md",
+    "bootstrap_variation_selector_2026-07-18/DERIVATION_RESULT.json",
+    "bootstrap_variation_selector_2026-07-18/LAY_DECISION_TREE.md",
+    "bootstrap_variation_selector_2026-07-18/PREMISE_LEDGER.tsv",
+    "bootstrap_variation_selector_2026-07-18/PREREGISTRATION.md",
+    "bootstrap_variation_selector_2026-07-18/SHA256SUMS.txt",
+    "bootstrap_variation_selector_2026-07-18/STATUS_LEDGER.tsv",
+    "bootstrap_variation_selector_2026-07-18/VERIFICATION_RESULT.json",
+    "bootstrap_variation_selector_2026-07-18/derive_bootstrap_selector.py",
+    "bootstrap_variation_selector_2026-07-18/requirements-cpu.txt",
+    "bootstrap_variation_selector_2026-07-18/verify_bootstrap_selector.py"
+  ],
+  "conformal_weights": {
+    "sqrt_g_C2": 0,
+    "sqrt_g_R": 2
+  },
+  "cpu_dependency": {
+    "gpu_imports": [],
+    "result": "PASS",
+    "sympy": "1.13.1"
+  },
+  "dirty_checkout_metadata_rows": 54,
+  "dirty_content_policy": "NOT_READ",
+  "frozen_package_replays": [
+    {
+      "manifest_entries_passed": 29,
+      "package": "native_action_stage1_2026-07-18/arm_A",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 30
+    },
+    {
+      "manifest_entries_passed": 15,
+      "package": "native_action_stage1_2026-07-18/arm_B",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 16
+    },
+    {
+      "manifest_entries_passed": 13,
+      "package": "native_action_stage2_2026-07-18/arm_A",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 14
+    },
+    {
+      "manifest_entries_passed": 13,
+      "package": "native_action_stage2_2026-07-18/arm_B",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 14
+    },
+    {
+      "manifest_entries_passed": 21,
+      "package": "native_action_arm_c_2026-07-18",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 22
+    },
+    {
+      "manifest_entries_passed": 36,
+      "package": "native_action_final_adjudication_2026-07-18",
+      "result": "PASS",
+      "tracked_paths_byte_identical_to_base": 37
+    }
+  ],
+  "gpu_used": false,
+  "grok_integration_authorized": false,
+  "mode": "INDEPENDENT_CPU_ONLY_BOOTSTRAP_SELECTOR_VERIFY",
+  "navigation": {
+    "current_paths": 1114,
+    "frontier": [
+      306,
+      101
+    ],
+    "links": 0
+  },
+  "package_manifest": {
+    "entries_passed": 10,
+    "manifest_sha256": "cad3c4f0dccc1599c5b4ff48c6adafa32fb64b590e4ef4f0f6e20e5e96de9bed",
+    "result": "PASS"
+  },
+  "preregistration_commit": "851b8f34a6cda8aebfcd65ab86bff3b7f3f4fd72",
+  "principal_order": {
+    "nontrivial_identity_exists": false,
+    "result": "PASS"
+  },
+  "report_contract": {
+    "required_statements": 7,
+    "result": "PASS"
+  },
+  "reported_outcome": "UNDERDETERMINED",
+  "result": "PASS",
+  "selector_countermodels": {
+    "common_closure": true,
+    "common_root": true,
+    "density_absent_from_local_actions": true,
+    "different_off_shell_actions": true,
+    "fractional_width_assumption": "0 < epsilon << 1",
+    "result": "PASS"
+  },
+  "source_hashes": {
+    "UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md": "4bb0da9098da0a9970602e2449615eef151796b0d7fe7a9978f4b66145748a34",
+    "UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md": "ce14075bad1ff4b6ea9b41e35dc6b63dfc5a9ae13478bd57c80b1502f33fb540",
+    "UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md": "db4a426b021e375fa4bca0d870aaf973de319de3b08072195d001a056630832d",
+    "UDT_GR_TO_UDT_SELECTOR_AUDIT_PREREG_2026-07-18.md": "6a835388e8f7a82a4bb4b9496f99c4a5e4181f5e5ccb2637641a1b4346922cc6",
+    "native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv": "70cab9d5e10b03e0e3418129b67155e01d9f805c4397c69ef8795c4d2aaa5dfd",
+    "native_action_final_adjudication_2026-07-18/LAY_DECISION_TREE.md": "cac9da7f47d529eccb06615a25e5158a14a8ffa6b33739fb5b21152758da961a"
+  },
+  "test_baseline": {
+    "baseline_match": true,
+    "command": "python3 -m pytest tests/",
+    "expected_failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "failed": 1,
+    "passed": 69,
+    "python": "3.10.12",
+    "returncode": 1,
+    "scope": "BOOTSTRAP_VARIATION_SELECTOR_FINAL",
+    "xfailed": 1
+  },
+  "variation_restriction": {
+    "normal_term": "a*h1*u + 2*a*h2*u**2 + 3*b*h0**2*h1 + 6*b*h0**2*h2*u + 6*b*h0*h1**2*u + 18*b*h0*h1*h2*u**2 + 12*b*h0*h2**2*u**3 + 3*b*h1**3*u**2 + 12*b*h1**2*h2*u**3 + 15*b*h1*h2**2*u**4 + 6*b*h2**3*u**5",
+    "result": "PASS"
+  }
+}

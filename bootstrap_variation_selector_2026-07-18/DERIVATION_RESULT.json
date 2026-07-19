@@ -1,0 +1,87 @@
+{
+  "bootstrap_variation_domain": "OPEN_NOT_SELECTED",
+  "carrier_assumed": false,
+  "density_normalization_invented": false,
+  "gpu_used": false,
+  "independent_missing_bridge_object": "DYNAMICAL_MATCHING_THEOREM",
+  "mode": "CPU_ONLY_EXACT_SYMBOLIC",
+  "promoted_action": "NONE",
+  "result": "PASS",
+  "smallest_missing_off_shell_object": "BOOTSTRAP_ROLE_AND_PLACEMENT: admissibility predicate vs varied global constraint vs representative-selection map",
+  "strongest_bridge_result": "CONDITIONAL_CONTRACT_ONLY",
+  "sympy_version": "1.13.1",
+  "tests": {
+    "T2_variation_restriction": {
+      "equivalence_condition": "S_y*f_prime = 0 on the admitted section",
+      "identity": "dS_reduced/dx = S_x|section + S_y|section * f_prime",
+      "normal_term": "b*p*x + 2*c*p**2*x + 2*c*p*r + e*p",
+      "result": "PASS"
+    },
+    "T3_selector_countermodels": {
+      "fractional_width_assumption": "0 < epsilon << 1",
+      "fractional_width_fitted": false,
+      "local_density_insertion": false,
+      "post_model": {
+        "action": "lambda*(q - q_star)**4 + sigma_star**2*(q - q_star)**2",
+        "equation": "4*lambda*(q - q_star)**3 + sigma_star**2*(2*q - 2*q_star)",
+        "variation_placement": "GLOBAL_SELECTION_THEN_VARY_ON_SELECTED_SECTION"
+      },
+      "pre_model": {
+        "action": "(q - q_star)**2",
+        "equation": "2*q - 2*q_star",
+        "variation_placement": "VARY_ON_CSN_QUOTIENT_THEN_APPLY_GLOBAL_CLOSURE"
+      },
+      "result": "PASS",
+      "scope": "logical selector countermodels; not complete UDT universes",
+      "shared_density_at_root": "rho_tot = rho_star",
+      "shared_global_closure": "sigma - sigma_star",
+      "shared_matter_admissibility": "Abs(kappa*(sigma - sigma_star)/rho_star) < epsilon",
+      "shared_realized_root": {
+        "q": "q_star",
+        "sigma": "sigma_star"
+      }
+    },
+    "T4_conformal_weights": {
+      "C2_weight": -4,
+      "R_weight": -2,
+      "dimension": 4,
+      "result": "PASS",
+      "scope": "constant common scaling necessary-condition anchor only",
+      "sqrt_g_C2_weight": 0,
+      "sqrt_g_R_weight": 2,
+      "sqrt_g_weight": 4
+    },
+    "T5_principal_order": {
+      "coefficient_conditions": [
+        "Eq(alpha, 0)",
+        "True",
+        "Eq(-M**2*beta, 0)",
+        "True",
+        "True"
+      ],
+      "difference": "-M**2*beta*k**2 + alpha*k**4",
+      "inference": "representative/scale selection alone does not lower principal order",
+      "nontrivial_identity_exists": false,
+      "result": "PASS",
+      "tested_identity": "alpha*k^4 == beta*M^2*k^2 for all k"
+    },
+    "T6_global_placement": {
+      "after_solution_predicate_equations": [
+        "2*q - 2*q_star",
+        "sigma - sigma_star"
+      ],
+      "equivalence_status": "NOT_ASSUMED",
+      "off_shell_multiplier_equations": [
+        "2*q - 2*q_star",
+        "eta",
+        "sigma - sigma_star"
+      ],
+      "result": "PASS",
+      "selected_section_equations": [
+        "2*q - 2*q_star"
+      ]
+    }
+  },
+  "top_level_outcome": "UNDERDETERMINED",
+  "two_stage_bridge": "OPEN_NOT_DERIVED"
+}
