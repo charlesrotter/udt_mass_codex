@@ -1,0 +1,24 @@
+CO-PRESENCE REgrade OF GR CONSTRAINTS — EXACT CPU TRANSCRIPT
+date=2026-07-19
+branch=codex/copresence-gr-constraint-regrade-2026-07-19
+base=b083deea5711aa4dc6f571036114e5304272955d
+prereg_commit=bf935ed
+
+Pinned CPU dependency environment:
+$ env PYTHONNOUSERSITE=1 PYTHONPATH=/tmp/udt_clock_optical_scale_site python3 -c 'import sympy; print(sympy.__version__)'
+1.13.1
+
+Exact derivation:
+$ env PYTHONNOUSERSITE=1 PYTHONPATH=/tmp/udt_clock_optical_scale_site python3 copresence_gr_constraint_regrade_2026-07-19/derive_copresence_gr_constraint_regrade.py
+outcome=PRIOR_ALGEBRA_SURVIVES_CONSTRAINT_ROLES_RECLASSIFIED_NO_NATIVE_GR_CONSTRAINT_SELECTED
+exact_checks=29/29
+result_sha256=335613022dbb2beace176051938127d02adef91d6706df3d6a849c66220bd20f
+
+Independent verifier:
+$ env PYTHONDONTWRITEBYTECODE=1 PYTHONNOUSERSITE=1 PYTHONPATH=/tmp/udt_clock_optical_scale_site python3 copresence_gr_constraint_regrade_2026-07-19/verify_copresence_gr_constraint_regrade.py
+verification=PASS
+exact_checks=24/24
+catch_proofs=45/45
+source_manifest_replay=3_packages/36_entries
+
+CPU only. No GPU module imported or invoked.

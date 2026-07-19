@@ -1,0 +1,102 @@
+{
+  "base": "b083deea5711aa4dc6f571036114e5304272955d",
+  "catch_proofs": {
+    "dirty_metadata_loss_rejected": "PASS",
+    "frozen_manifest_corruption_rejected": "PASS",
+    "missing_current_path_rejected": "PASS",
+    "missing_frontier_target_rejected": "PASS",
+    "out_of_scope_change_rejected": "PASS",
+    "package_hash_failure_rejected": "PASS"
+  },
+  "dirty_checkout": {
+    "contents_read": false,
+    "paths": 54
+  },
+  "frozen": {
+    "manifest_entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "paths": 30,
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "paths": 16,
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "paths": 14,
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "paths": 14,
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "package": "native_action_arm_c_2026-07-18",
+        "paths": 22,
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "package": "native_action_final_adjudication_2026-07-18",
+        "paths": 37,
+        "result": "PASS"
+      }
+    ],
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 19,
+    "result": "PASS",
+    "sha256": "022f3c97916e38f29260812c14ad0136574d1908c70aabc7d4e56ae99d78f7bc"
+  },
+  "result": "PASS",
+  "schema": "udt-copresence-gr-constraint-regrade-repository-gates-v1",
+  "scope_paths": [
+    "copresence_gr_constraint_regrade_2026-07-19/ADVERSARIAL_AUDIT.md",
+    "copresence_gr_constraint_regrade_2026-07-19/DERIVATION_REPORT.md",
+    "copresence_gr_constraint_regrade_2026-07-19/DERIVATION_RESULT.json",
+    "copresence_gr_constraint_regrade_2026-07-19/DERIVATION_TRANSCRIPT.txt",
+    "copresence_gr_constraint_regrade_2026-07-19/LAY_DECISION_TREE.md",
+    "copresence_gr_constraint_regrade_2026-07-19/POST_PREREG_SEMANTIC_CORRECTION.md",
+    "copresence_gr_constraint_regrade_2026-07-19/PREMISE_LEDGER.tsv",
+    "copresence_gr_constraint_regrade_2026-07-19/PREREGISTRATION.md",
+    "copresence_gr_constraint_regrade_2026-07-19/RECLASSIFICATION_TABLE.tsv",
+    "copresence_gr_constraint_regrade_2026-07-19/REVIEW_MATH.md",
+    "copresence_gr_constraint_regrade_2026-07-19/REVIEW_SEMANTIC.md",
+    "copresence_gr_constraint_regrade_2026-07-19/ROLE_TAXONOMY.tsv",
+    "copresence_gr_constraint_regrade_2026-07-19/SHA256SUMS.txt",
+    "copresence_gr_constraint_regrade_2026-07-19/SOURCE_CONCLUSION_CROSSWALK.tsv",
+    "copresence_gr_constraint_regrade_2026-07-19/STATUS_LEDGER.tsv",
+    "copresence_gr_constraint_regrade_2026-07-19/VERIFICATION_RESULT.json",
+    "copresence_gr_constraint_regrade_2026-07-19/derive_copresence_gr_constraint_regrade.py",
+    "copresence_gr_constraint_regrade_2026-07-19/requirements-cpu.txt",
+    "copresence_gr_constraint_regrade_2026-07-19/verify_copresence_gr_constraint_regrade.py",
+    "copresence_gr_constraint_regrade_2026-07-19/verify_repository_gates.py"
+  ],
+  "tests": {
+    "baseline_match": true,
+    "collected": 71,
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest tests/",
+    "failed": 1,
+    "failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "passed": 69,
+    "stdout_sha256": "b2ef936589264e9b819abd60c97503c7a6a2aa801e959ab3cd3f820c30886cc8",
+    "xfailed": 1
+  }
+}

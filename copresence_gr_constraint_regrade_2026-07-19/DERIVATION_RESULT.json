@@ -1,0 +1,91 @@
+{
+  "classification": {
+    "action_selection": "OPEN_NOT_SELECTED",
+    "bootstrap_whole_solution_role": "RETAINED_AND_CLARIFIED_ON_SHELL_ADMISSIBILITY",
+    "constraint_propagation": "OPEN_REQUIRES_LOCAL_DYNAMICS_AND_DATA",
+    "copresence_as_propagation_mechanism": "REJECTED_AS_INFERENCE",
+    "field_census_selection": "OPEN_NOT_SELECTED",
+    "hamiltonian_momentum_constraints": "PARENT_EQUATION_AND_FOLIATION_CONDITIONAL_NOT_NATIVE",
+    "lapse": "FORMAL_MULTIPLIER_EXAMPLE_NOT_NATIVE_ONTOLOGY",
+    "physical_calibration": "OPEN_REQUIRES_REPRESENTATIVE_AND_MATERIAL_RULES",
+    "prior_gr_constraint_algebra": "RETAINED",
+    "prior_paired_top_level": "RETAINED_BOTH_CONDITIONALLY_ADMISSIBLE",
+    "same_copresence_countermodels": "DERIVED_NONSELECTION_OF_CONSTRAINT_LAW",
+    "shift": "OPEN_NATIVE_ONTOLOGY_AND_DETAILED_ROLE_NOT_DERIVED_HERE"
+  },
+  "date": "2026-07-19",
+  "derived": {
+    "boosted_hamiltonian_like_projection": "sinh(zeta)**2",
+    "boosted_momentum_like_projection": "sinh(2*zeta)/2",
+    "boundary_momentum": "lambda + qprime",
+    "finite_penalty_residual": "-1/(alpha + 1)",
+    "lapse_multiplier_equation": "-p**2/2 - q**2/2 + 1/2",
+    "metric_only_predicate_residual": "-1",
+    "metric_only_root": [
+      "0",
+      "0"
+    ],
+    "multiplier_root": [
+      "1/2",
+      "1/2",
+      "-1"
+    ],
+    "noether_identity": "0",
+    "propagated_constraint": "u0 - v0",
+    "restricted_root": "1/2",
+    "unpropagated_constraint": "a*t - b*t + u0 - v0",
+    "whole_history_coefficients": [
+      "a - b",
+      "u0 - v0"
+    ]
+  },
+  "exact_checks": {
+    "checks": {
+      "after_solution_predicate_not_automatically_satisfied": true,
+      "aligned_constraint_root_exact": true,
+      "boosted_frame_orthogonal": true,
+      "boosted_normal_unit_timelike": true,
+      "boosted_tangent_unit_spacelike": true,
+      "complete_tensor_zero_implies_all_projections_zero": true,
+      "finite_noether_identity": true,
+      "finite_penalty_constraint_residual_nonzero": true,
+      "finite_penalty_root_exact": true,
+      "lapse_adds_p_reaction": true,
+      "lapse_adds_q_reaction": true,
+      "lapse_variation_imposes_constraint": true,
+      "momentum_projection_slice_dependent": true,
+      "multiplier_changes_boundary_momentum": true,
+      "multiplier_reaction_nonzero": true,
+      "noether_equations_not_each_identity": true,
+      "normal_projection_nonzero_in_boosted_slice": true,
+      "normal_projection_slice_dependent": true,
+      "normal_projection_vanishes_in_reference_slice": true,
+      "paired_dynamics_propagates_constraint": true,
+      "restricted_tangent_root_exact": true,
+      "same_background_allows_distinct_parent_tensor_projections": true,
+      "same_copresence_domain_allows_distinct_constraint_propagation": true,
+      "unpaired_dynamics_constraint_drift": true,
+      "unrestricted_root_exact": true,
+      "varied_multiplier_root_exact": true,
+      "whole_history_admissibility_requires_two_conditions": true,
+      "zero_initial_constraint_not_sufficient_without_propagation_law": true,
+      "zero_initial_constraint_propagates_under_paired_dynamics": true
+    },
+    "passed": 29,
+    "total": 29
+  },
+  "maximum_conclusion": "RECLASSIFICATION_OVERLAY_ONLY",
+  "outcome": "PRIOR_ALGEBRA_SURVIVES_CONSTRAINT_ROLES_RECLASSIFIED_NO_NATIVE_GR_CONSTRAINT_SELECTED",
+  "role_counts": {
+    "OPEN": 7,
+    "RECLASSIFIED_CONDITIONAL": 4,
+    "REJECTED_AS_INFERENCE": 5,
+    "RETAINED": 11
+  },
+  "schema": "udt-copresence-gr-constraint-regrade-v1",
+  "scope": "constraint-role and provenance regrade; no concrete GR constraint adopted",
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  }
+}
