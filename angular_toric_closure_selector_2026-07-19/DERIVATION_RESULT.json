@@ -1,0 +1,247 @@
+{
+  "check_count": 25,
+  "checks": {
+    "additional_mirror_cycles_are_primitive": "PASS",
+    "additional_mirror_determinant_examples": "PASS",
+    "additional_mirror_smith_classes": "PASS",
+    "collapse_cycle_determinant_examples": "PASS",
+    "collapse_cycles_are_primitive": "PASS",
+    "finite_interval_orbit_coefficients_do_not_collapse": "PASS",
+    "finite_no_cap_phi_seal_parity": "PASS",
+    "finite_no_cap_torus_mirror_isometry": "PASS",
+    "finite_no_cap_torus_positive_determinant": "PASS",
+    "free_weight_classification": "PASS",
+    "free_weight_connections_and_charges": "PASS",
+    "generic_positive_orbit_block_has_reciprocal_normal_form": "PASS",
+    "hopf_orbit_is_reciprocal_in_phi": "PASS",
+    "left_cap_all_order_analytic_parity": "PASS",
+    "nonround_csn_invariant_ratio_differs": "PASS",
+    "nonround_full_metric_not_conformal_to_round": "PASS",
+    "nonround_witness_has_exchange_mirror": "PASS",
+    "opposing_axis_caps_have_determinant_one": "PASS",
+    "positive_csn_common_factor_vanishes_at_caps": "PASS",
+    "ratio_defines_reciprocal_depth": "PASS",
+    "right_cap_all_order_analytic_parity": "PASS",
+    "round_and_nonround_cap_regularity": "PASS",
+    "round_and_nonround_share_normalized_orbit_block": "PASS",
+    "smith_lattice_quotient_classes": "PASS",
+    "weighted_action_stabilizer_examples": "PASS"
+  },
+  "classification": {
+    "conditional_second_gate": "FINITE_CELL_CAP_COMPLETION",
+    "exchange_mirror_without_eigencap_rule": "TOPOLOGY_UNDERDETERMINED",
+    "first_missing_gate": "TRANSVERSE_SPATIAL_RECIPROCAL_REALIZATION_AND_PERIODICITY",
+    "free_smooth_circle_quotient": "WEIGHTS_ABS_M_EQUALS_ABS_N_EQUALS_1_UNIQUE_CONDITIONAL",
+    "general_toric_completion": "P0_P1_LENS_P_GREATER_1_INCOMPLETE_AND_NONCOMPACT_FAMILIES_REMAIN",
+    "global_diagonal_two_eigencaps": "S3_UNIQUE_CONDITIONAL_WITHIN_SUPPLIED_TORIC_CAP_PREMISES",
+    "registered_udt_selection": "SPATIAL_TORUS_SLOT_CAP_AND_QUOTIENT_NOT_SELECTED",
+    "round_completion": "NOT_UNIQUE_EVEN_WITHIN_SMOOTH_MIRROR_S3_CLASS"
+  },
+  "exact_identities": {
+    "additional_mirror_determinants": {
+      "p15": 15,
+      "p7": 7,
+      "p8": 8,
+      "p9": 9
+    },
+    "additional_mirror_primitivity": {
+      "p15": [
+        1,
+        1
+      ],
+      "p7": [
+        1,
+        1
+      ],
+      "p8": [
+        1,
+        1
+      ],
+      "p9": [
+        1,
+        1
+      ]
+    },
+    "additional_mirror_smith_classes": {
+      "p15": [
+        1,
+        15
+      ],
+      "p7": [
+        1,
+        7
+      ],
+      "p8": [
+        1,
+        8
+      ],
+      "p9": [
+        1,
+        9
+      ]
+    },
+    "cap_regularity": {
+      "H_at_left": "1",
+      "H_at_right": "1",
+      "H_prime_left": "0",
+      "H_prime_right": "0",
+      "collapse_slope_left": "1",
+      "collapse_slope_right": "1",
+      "spectator_slope_left": "0",
+      "spectator_slope_right": "0"
+    },
+    "collapse_determinant_classes": {
+      "p0_same_cycle": 0,
+      "p1_axis_exchange": 1,
+      "p3_mirror_exchange": 3,
+      "p5_mirror_exchange": 5
+    },
+    "collapse_smith_classes": {
+      "p0_same_cycle": [
+        1,
+        0
+      ],
+      "p1_axis_exchange": [
+        1,
+        1
+      ],
+      "p3_mirror_exchange": [
+        1,
+        3
+      ],
+      "p5_mirror_exchange": [
+        1,
+        5
+      ]
+    },
+    "exceptional_stabilizer_orders": {
+      "(1,2)": [
+        1,
+        2
+      ],
+      "(2,1)": [
+        2,
+        1
+      ],
+      "(2,3)": [
+        2,
+        3
+      ]
+    },
+    "finite_interval_endpoint_orbit_coefficients": [
+      "exp(2)",
+      "exp(-2)",
+      "exp(-2)",
+      "exp(2)"
+    ],
+    "finite_no_cap_metric": "Matrix([[1, 0, 0], [0, exp(-2*sin(sigma)), 0], [0, 0, exp(2*sin(sigma))]])",
+    "finite_no_cap_phi": "sin(sigma)",
+    "free_effective_weights": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "free_weight_connection_data": {
+      "(-1,-1)": {
+        "coefficients": [
+          "-cos(eta)**2",
+          "-sin(eta)**2"
+        ],
+        "common_scale_check": "PASS",
+        "integral_A_wedge_dA": "-4*pi**2",
+        "registered_charge": "1"
+      },
+      "(-1,1)": {
+        "coefficients": [
+          "-cos(eta)**2",
+          "sin(eta)**2"
+        ],
+        "common_scale_check": "PASS",
+        "integral_A_wedge_dA": "4*pi**2",
+        "registered_charge": "-1"
+      },
+      "(1,-1)": {
+        "coefficients": [
+          "cos(eta)**2",
+          "-sin(eta)**2"
+        ],
+        "common_scale_check": "PASS",
+        "integral_A_wedge_dA": "4*pi**2",
+        "registered_charge": "-1"
+      },
+      "(1,1)": {
+        "coefficients": [
+          "cos(eta)**2",
+          "sin(eta)**2"
+        ],
+        "common_scale_check": "PASS",
+        "integral_A_wedge_dA": "-4*pi**2",
+        "registered_charge": "1"
+      }
+    },
+    "generic_normalized_orbit": "Matrix([[F/G, 0], [0, G/F]])",
+    "left_cap_parity": {
+      "H": "even",
+      "collapse": "odd",
+      "spectator": "even"
+    },
+    "mirror_examples_are_primitive": {
+      "p0_same_cycle": [
+        1
+      ],
+      "p1_axis_exchange": [
+        1,
+        1
+      ],
+      "p3_mirror_exchange": [
+        1,
+        1
+      ],
+      "p5_mirror_exchange": [
+        1,
+        1
+      ]
+    },
+    "nonround_metric": "Matrix([[(sin(2*eta)**2 + 3)**2/9, 0, 0], [0, cos(eta)**2, 0], [0, 0, sin(eta)**2]])",
+    "nonround_radial_factor": "sin(2*eta)**2/3 + 1",
+    "radial_orbit_ratio_difference_at_midpoint": "14/9",
+    "reciprocal_depth_from_orbit_ratio": "-log(F)/2 + log(G)/2",
+    "right_cap_parity": {
+      "H": "even",
+      "collapse": "odd",
+      "spectator": "even"
+    },
+    "round_common_scale_cap_limits": [
+      "0",
+      "0"
+    ],
+    "round_metric": "Matrix([[1, 0, 0], [0, cos(eta)**2, 0], [0, 0, sin(eta)**2]])",
+    "zero_weight_stabilizer_orders": {
+      "(0,1)": [
+        "U1",
+        1
+      ],
+      "(1,0)": [
+        1,
+        "U1"
+      ]
+    }
+  },
+  "maximum_verdict": "S3_AND_FREE_HOPF_ACTION_UNIQUE_CONDITIONAL_WITHIN_SUPPLIED_TORIC_CAP_PREMISES; RECIPROCITY_CSN_FINITE_CELL_AND_BOOTSTRAP_DO_NOT_SELECT_THOSE_PREMISES; FIRST_MISSING_GATE_TRANSVERSE_SPATIAL_RECIPROCAL_REALIZATION_AND_PERIODICITY; CONDITIONAL_SECOND_GATE_FINITE_CELL_CAP_COMPLETION_OPEN",
+  "python": "3.10.12",
+  "status": "PASS",
+  "sympy": "1.13.1"
+}

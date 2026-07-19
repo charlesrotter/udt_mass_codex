@@ -1,0 +1,59 @@
+{
+  "audit": "angular-toric-closure-selector-2026-07-19",
+  "base_commit": "cc7b08381281fa104661df5b6af9fb030cabac95",
+  "branch": "codex/angular-toric-closure-selector-2026-07-19",
+  "compute": {
+    "cpu_only": true,
+    "gpu_work_performed": false,
+    "python": "3.10.12",
+    "sympy": "1.13.1",
+    "dependency_pin": "requirements.txt: sympy==1.13.1"
+  },
+  "tests": {
+    "command": "python3 -m pytest tests/ -q",
+    "result": "BASELINE_REPRODUCED",
+    "passed": 69,
+    "failed_known_hygiene": 1,
+    "xfailed": 1,
+    "known_failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header"
+  },
+  "frozen_packages": {
+    "native_action_packages": 6,
+    "native_action_manifest_entries": 127,
+    "native_action_package_paths_including_manifests": 133,
+    "native_action_result": "PASS_UNCHANGED",
+    "native_hopfion_topology_audit_manifest_entries": 14,
+    "native_hopfion_topology_audit_result": "PASS_UNCHANGED",
+    "null_section_hopfion_metric_audit_manifest_entries": 16,
+    "null_section_hopfion_metric_audit_result": "PASS_UNCHANGED"
+  },
+  "current_navigation": {
+    "stable_identities": 1114,
+    "root_retained": 1109,
+    "migrated_r1d": 1,
+    "migrated_r1f": 4,
+    "research_and_r1g_markdown_links_checked": 95,
+    "current_control_markdown_links_checked": 11,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "result": "PASS"
+  },
+  "original_dirty_checkout": {
+    "inspection": "METADATA_ONLY",
+    "contents_read": false,
+    "total_paths": 54,
+    "tracked_modified_paths": 3,
+    "untracked_paths": 51,
+    "metadata_sha256": "4bc96070c841a14c497b642ee7b93dcf9061372f770aee065d6b495ee4996f4c",
+    "result": "UNCHANGED"
+  },
+  "authority_boundary": {
+    "startup_controls_changed": false,
+    "origin_grok_changed": false,
+    "repository_reorganization_performed": false,
+    "canonization_performed": false,
+    "time_live_work_performed": false,
+    "action_construction_performed": false
+  },
+  "overall": "PASS"
+}

@@ -1,0 +1,235 @@
+{
+  "algebra_checks": 25,
+  "audit_report_sha256": "4e1178a7993a6f3f3e94713df27d0ab8c140b96ef613c5fa09099af72941cb8b",
+  "base": "cc7b08381281fa104661df5b6af9fb030cabac95",
+  "candidate_family_sha256": "752adf109a54aaf7e738abdf3eef0f123dc278cd2b35aca65bcf7bddcc11dd10",
+  "candidate_rows": 15,
+  "catch_proof_count": 23,
+  "catch_proofs": [
+    {
+      "caught": "AssertionError",
+      "name": "spatial_slot_promotion",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "mirror_determinant_overclaim",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "conditional_s3_promotion",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "lens_family_deleted",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "finite_no_cap_countermodel_deleted",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "smoothness_round_overclaim",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "positive_csn_crosses_caps",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "free_action_promotion",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "quotient_promoted_to_carrier",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "finite_cell_scope_inflation",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "bootstrap_scope_inflation",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "open_action_promotion",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "missing_lens_counterfamily",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "duplicate_candidate",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "exceptional_action_mislabeled_free",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "mirror_p3_mutation",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "algebra_selection_promotion",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "source_hash_mutation",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "transverse_open_disclosure_removed",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "bootstrap_boundary_open_disclosure_removed",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "bootstrap_required_tokens_plus_contradiction_rejected",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "canon_required_tokens_plus_angular_contradiction_rejected",
+      "result": "PASS"
+    },
+    {
+      "caught": "AssertionError",
+      "name": "report_s3_overclaim",
+      "result": "PASS"
+    }
+  ],
+  "derivation_replay": "PASS_BYTE_IDENTICAL",
+  "derivation_result_sha256": "b4fa2f81773260c55cccb47d8b62896d9d2e807cfb007fca640c96aa2bcde272",
+  "independent_exact": {
+    "additional_mirror_determinants": {
+      "p15": 15,
+      "p7": 7,
+      "p8": 8,
+      "p9": 9
+    },
+    "additional_mirror_primitivity": {
+      "p15": [
+        1,
+        1
+      ],
+      "p7": [
+        1,
+        1
+      ],
+      "p8": [
+        1,
+        1
+      ],
+      "p9": [
+        1,
+        1
+      ]
+    },
+    "additional_mirror_smith_classes": {
+      "p15": [
+        1,
+        15
+      ],
+      "p7": [
+        1,
+        7
+      ],
+      "p8": [
+        1,
+        8
+      ],
+      "p9": [
+        1,
+        9
+      ]
+    },
+    "cap_all_order_parity": "PASS",
+    "charges": {
+      "(-1,-1)": 1,
+      "(-1,1)": -1,
+      "(1,-1)": -1,
+      "(1,1)": 1
+    },
+    "connection_integrals": {
+      "(-1,-1)": "-4*pi**2",
+      "(-1,1)": "4*pi**2",
+      "(1,-1)": "4*pi**2",
+      "(1,1)": "-4*pi**2"
+    },
+    "csn_cap_limits": [
+      "0",
+      "0"
+    ],
+    "determinants": {
+      "p0_same_cycle": 0,
+      "p1_axis_exchange": 1,
+      "p3_mirror_exchange": 3,
+      "p5_mirror_exchange": 5
+    },
+    "finite_interval_positive_orbits": "PASS",
+    "free_weights": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "nonround_ratio_difference": "14/9",
+    "periodic_mirror_witness": "PASS_LOCAL_PARITY_ONLY",
+    "zero_weight_stabilizers": {
+      "(0,1)": [
+        "U1",
+        1
+      ],
+      "(1,0)": [
+        1,
+        "U1"
+      ]
+    }
+  },
+  "ledger_rows": 18,
+  "preregistration_sha256": "6628c38cc85f3873e52de12fb0578493f340fc9a86c35f416a95869900f5c264",
+  "python": "3.10.12",
+  "source_inventory_sha256": "f60052445e668785d34bc75fc1751ed98d5a68a399c03d53dfc1962d3c04e9a0",
+  "source_rows": 12,
+  "status": "PASS_SELF_CONSISTENCY",
+  "status_ledger_sha256": "d39b40f919c4f1b23b7785c2d5ce0b3cb325620eea7463eff4182082d2211f90",
+  "sympy": "1.13.1",
+  "verdict": "S3_AND_FREE_HOPF_ACTION_UNIQUE_CONDITIONAL_WITHIN_SUPPLIED_TORIC_CAP_PREMISES; RECIPROCITY_CSN_FINITE_CELL_AND_BOOTSTRAP_DO_NOT_SELECT_THOSE_PREMISES; FIRST_MISSING_GATE_TRANSVERSE_SPATIAL_RECIPROCAL_REALIZATION_AND_PERIODICITY; CONDITIONAL_SECOND_GATE_FINITE_CELL_CAP_COMPLETION_OPEN",
+  "verification_class": "BASE_PINNED_SOURCES; BYTE_IDENTICAL_REPLAY; INDEPENDENT_LATTICE_WEIGHT_ARITHMETIC; CATCH_PROOFS; FRESH_SEMANTIC_REVIEW_SEPARATE"
+}

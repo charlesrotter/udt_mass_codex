@@ -1,0 +1,11 @@
+command: python3 angular_toric_closure_selector_2026-07-19/verify_angular_toric_selector.py --output angular_toric_closure_selector_2026-07-19/VERIFICATION_RESULT.json
+working_directory: repository root
+python: 3.10.12
+sympy: 1.13.1
+cpu_only: yes
+exit_code: 0
+stdout:
+VERIFIER PASS sources=12/12 candidates=15/15 ledger=18/18 algebra=25/25 catches=23/23
+S3_AND_FREE_HOPF_ACTION_UNIQUE_CONDITIONAL_WITHIN_SUPPLIED_TORIC_CAP_PREMISES; RECIPROCITY_CSN_FINITE_CELL_AND_BOOTSTRAP_DO_NOT_SELECT_THOSE_PREMISES; FIRST_MISSING_GATE_TRANSVERSE_SPATIAL_RECIPROCAL_REALIZATION_AND_PERIODICITY; CONDITIONAL_SECOND_GATE_FINITE_CELL_CAP_COMPLETION_OPEN
+stderr:
+<empty>
