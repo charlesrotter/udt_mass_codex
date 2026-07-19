@@ -2,20 +2,17 @@
 
 **⚠ BRANCH: `grok` (2026-07-10)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
-**R1 REORGANIZATION + R1G PROVENANCE CHECKPOINT:** R1E batch planning and R1F/B01 are complete. Fixed historical
+**R1H EFFECTIVE-REGISTRY CHECKPOINT — COMPLETE, VERIFIED, AND PAUSED:** R1E batch planning and R1F/B01 are complete. Fixed historical
 inventories and planning records remain immutable. Five active artifacts moved byte-identically:
 one R1D note and four behaviorally verified R1F macro verifiers. Resolve present locations through
 `research/_registry/CURRENT_ARTIFACT_PATHS.tsv` and migration provenance through
-`research/_registry/MIGRATION_LEDGER.tsv`. R1G provenance audit and readout correction are complete:
-the prefix-based pre-native classification was false; the affected cascade set is 121
-`NATIVE_2026-07-01`, zero `MIXED`; B02/B03 are 29 `NATIVE_2026-07-01`, two `MIXED`, one `OPEN`.
-Reference-only GR/Einstein/Misner–Sharp readouts do not demote native operator provenance;
-`phi_source_derivation.py` and `homog_alpha_test.py` remain `MIXED` because alpha enters the tested
-action/EOM. Old B02/B03 `archive/pre_2026-07-01/` destinations are **WITHDRAWN**. For affected
-paths, R1G supersedes the corresponding fixed-snapshot classifications in
-`research/_registry/ROOT_OWNERSHIP.tsv` and `research/_registry/MIGRATION_READINESS.tsv` until a
-separately authorized correction is applied. B02/B03 are paused; no registry correction,
-replacement batch planning, B02/B03 or further migration is authorized.
+`research/_registry/MIGRATION_LEDGER.tsv`. The authoritative effective overlay is
+`research/_registry/CURRENT_CLASSIFICATION.tsv`: 1,114 stable identities/current paths; 101
+`FAMILY_REVIEW_REQUIRED` / `BLOCKED_SCIENTIFIC_FAMILY_REVIEW_REQUIRED`; 32
+`FAMILY_REVIEWED_BLOCKED` / `BLOCKED_IMMUTABLE_FAMILY_COMPANION`; one `IMMUTABLE_PATH`; and 980
+`INHERITED_UNREVIEWED`. Fixed historical snapshots remain unchanged. B02/B03 are withdrawn; no row
+is newly move-ready. The five prior byte-identical moves remain the only content migrations.
+Further repository reorganization is **PAUSED** pending explicit dispatch.
 **➤ LIVE PARTICLE-MASS ARC (2026-07-17, separate lane — arc COMPLETE through F; awaiting Charles):**
 Read LIVE.md CURRENT STATE topmost layer. Result docs: `noNull_phaseG_mass_results.md` (conditional mass
 readout, virial-gap finding) + `noNull_boundary_virial_results.md` (BOX-STRESS LEAD) +

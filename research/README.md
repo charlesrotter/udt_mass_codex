@@ -22,8 +22,16 @@ The complete frozen root universe has 1,114 paths. Each has exactly one fixed-ba
 
 Sources: [`FINAL_STATUS_LEDGER.tsv`](../native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv), [`LIVE.md`](../LIVE.md), and [`HANDOFF.md`](../HANDOFF.md). These labels are indexed, not re-adjudicated here.
 
-## Migration and R1G provenance boundary
+## R1H effective registry and migration boundary
 
 Five active artifacts have moved byte-identically: the R1D S8 note and the four R1F/B01 macro SymPy verifiers, whose pre/post behavior was also verified byte-for-byte. The fixed-base ownership/readiness tables and R1E planning records remain unchanged historical snapshots. Use [`CURRENT_ARTIFACT_PATHS.tsv`](_registry/CURRENT_ARTIFACT_PATHS.tsv) for present paths and [`MIGRATION_LEDGER.tsv`](_registry/MIGRATION_LEDGER.tsv) for migration provenance.
 
-The R1G provenance audit and readout correction are complete. The prefix-based pre-native classification was false: the affected cascade set is 121 `NATIVE_2026-07-01` and zero `MIXED`; B02/B03 contain 29 `NATIVE_2026-07-01`, two `MIXED`, and one `OPEN`. GR/Einstein/Misner–Sharp reference-only readouts do not demote native operator provenance. `phi_source_derivation.py` and `homog_alpha_test.py` remain `MIXED` because alpha enters the action/EOM. The old B02/B03 `archive/pre_2026-07-01/` destinations are withdrawn. For affected paths, [R1G](../reorganization_r1g/R1G_READOUT_PROVENANCE_CORRECTION_REPORT.md) supersedes the corresponding classifications in [`ROOT_OWNERSHIP.tsv`](_registry/ROOT_OWNERSHIP.tsv) and [`MIGRATION_READINESS.tsv`](_registry/MIGRATION_READINESS.tsv) until a separately authorized correction is applied. No B02/B03 or further migration is authorized.
+R1H is complete and verified. [`CURRENT_CLASSIFICATION.tsv`](_registry/CURRENT_CLASSIFICATION.tsv)
+is the effective overlay for all 1,114 stable identities/current paths: 101
+`FAMILY_REVIEW_REQUIRED` at `BLOCKED_SCIENTIFIC_FAMILY_REVIEW_REQUIRED`, 32
+`FAMILY_REVIEWED_BLOCKED` at `BLOCKED_IMMUTABLE_FAMILY_COMPANION`, one `IMMUTABLE_PATH`, and 980
+`INHERITED_UNREVIEWED`. The fixed-base [`ROOT_OWNERSHIP.tsv`](_registry/ROOT_OWNERSHIP.tsv) and
+[`MIGRATION_READINESS.tsv`](_registry/MIGRATION_READINESS.tsv) remain unchanged historical
+snapshots. B02/B03 are withdrawn and no row is newly move-ready. The five prior byte-identical moves
+remain the only content migrations. Further repository reorganization is **PAUSED** pending a later
+explicit dispatch; no R1I, family adjudication, or migration is authorized.

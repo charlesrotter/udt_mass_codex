@@ -5,11 +5,11 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-10).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-18 — H3 particle-mass arc complete; native-action final adjudication and selector audit complete; R0–R1G reorganization/provenance checkpoint complete)
+## CURRENT (2026-07-18 — H3 particle-mass arc complete; native-action final adjudication and selector audit complete; R0–R1H reorganization checkpoint complete and paused)
 
 **Read LIVE.md CURRENT STATE topmost layer first.** Session arc 07-13→16 in one paragraph:
 
-**R1 REORGANIZATION CHECKPOINT COMPLETE:** R1E batch planning and R1F/B01 are integrated. Fixed
+**R1H EFFECTIVE-REGISTRY CHECKPOINT COMPLETE AND VERIFIED:** R1E batch planning and R1F/B01 are integrated. Fixed
 historical inventories, preregistrations, planning records, and verification records remain
 immutable. Five active artifacts moved byte-identically: the R1D S8 note and the four R1F macro
 SymPy verifiers; B01 was behaviorally verified before and after movement. Resolve current locations
@@ -21,11 +21,16 @@ was false. The affected cascade set is 121 `NATIVE_2026-07-01`, zero `MIXED`; B0
 `NATIVE_2026-07-01`, two `MIXED`, one `OPEN`. Reference-only GR/Einstein/Misner–Sharp readouts do
 not demote native operator provenance. `phi_source_derivation.py` and `homog_alpha_test.py` remain
 `MIXED` because alpha enters the tested action/EOM. The old B02/B03 `archive/pre_2026-07-01/`
-destinations are **WITHDRAWN**. For affected paths, R1G supersedes the corresponding fixed-snapshot
-classifications in `research/_registry/ROOT_OWNERSHIP.tsv` and
-`research/_registry/MIGRATION_READINESS.tsv` until a separately authorized correction is applied;
-the registries remain unedited. B02/B03 are paused, and no registry correction, replacement batch
-planning, B02/B03 or further migration is authorized.
+destinations are **WITHDRAWN**.
+
+**CURRENT R1H CLASSIFICATION:** `research/_registry/CURRENT_CLASSIFICATION.tsv` is the effective
+overlay for all 1,114 stable identities/current paths. Counts are 101 `FAMILY_REVIEW_REQUIRED` at
+`BLOCKED_SCIENTIFIC_FAMILY_REVIEW_REQUIRED`, 32 `FAMILY_REVIEWED_BLOCKED` at
+`BLOCKED_IMMUTABLE_FAMILY_COMPANION`, one `IMMUTABLE_PATH`, and 980 `INHERITED_UNREVIEWED`. Fixed
+historical ownership/readiness snapshots remain unchanged; no row is newly move-ready. B02/B03 are
+withdrawn. The five prior byte-identical moves remain the only content migrations. Further
+repository reorganization is **PAUSED** pending a later explicit dispatch; no R1I, family
+adjudication, migration, physics work, canonization, or GPU work follows from this checkpoint.
 
 **NATIVE-ACTION ADJUDICATION COMPLETE AND FROZEN (2026-07-18; `ded310a`):** the mechanical A/B/C
 adjudication is under `native_action_final_adjudication_2026-07-18/`. Read
