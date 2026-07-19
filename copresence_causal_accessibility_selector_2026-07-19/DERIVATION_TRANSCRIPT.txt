@@ -1,0 +1,19 @@
+CO-PRESENCE AND CAUSAL ACCESSIBILITY SELECTOR — EXACT CPU TRANSCRIPT
+date=2026-07-19
+branch=codex/copresence-causal-accessibility-selector-2026-07-19
+base=9e82c9d7ca53a0bb5138c09be689c1df44261d6d
+prereg_commit=22b7f08
+
+Clean pinned dependency check:
+$ env PYTHONNOUSERSITE=1 PYTHONPATH=/tmp/udt_clock_optical_scale_site python3 -c 'import sys, sympy; print(sys.version); print(sympy.__version__); print(sympy.__file__)'
+3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]
+1.13.1
+/tmp/udt_clock_optical_scale_site/sympy/__init__.py
+
+Exact derivation:
+$ env PYTHONNOUSERSITE=1 PYTHONPATH=/tmp/udt_clock_optical_scale_site python3 copresence_causal_accessibility_selector_2026-07-19/derive_copresence_causal_accessibility.py
+outcome=COPRESENCE_CAUSAL_PARTITION_COHERENT_CONFORMAL_LAYER_DERIVED_ACTION_BRIDGE_OPEN
+exact_checks=23/23
+result_sha256=ae2396cd8b041536075be6b38a4e8c60bcd23263652c7ff258c3ecbdd865d709
+
+CPU only. No GPU modules imported or invoked.

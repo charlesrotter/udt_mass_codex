@@ -1,0 +1,95 @@
+{
+  "classification": {
+    "action_selection": "OPEN",
+    "causal_reachability": "DERIVED_FROM_TIME_ORIENTED_LORENTZIAN_CONFORMAL_CLASS",
+    "copresence": "WORKING_DEFINITION_SHARED_DOMAIN_OF_ONE_WHOLE_SOLUTION",
+    "operational_no_signalling": "POSIT_REQUIRES_DYNAMICS_COUPLING_AND_DATA_DOMAIN",
+    "physical_calibration": "OPEN_REQUIRES_MATERIAL_TRANSFORMATION_AND_COUPLING",
+    "pre_post_scale_layering": "COMPATIBLE_ARCHITECTURE_NOT_UNIQUE_BRIDGE",
+    "reciprocal_coordinate_warping": "CONDITIONAL_STATIC_ADAPTED_REPRESENTATIVE",
+    "source_absorber_relation": "WORKING_CONDITIONAL_ENDPOINT_INTERPRETATION_NOT_PHOTON_ONTOLOGY",
+    "udt_uniqueness": "NOT_ESTABLISHED"
+  },
+  "date": "2026-07-19",
+  "derived": {
+    "conformal_cotangent_factor": "omega**(-2)",
+    "conformal_tangent_factor": "omega**2",
+    "constant_lapse_static_chart_null_coordinate_time": "L/(c0*n**2)",
+    "global_boundary_response": [
+      "1/2",
+      "1/2"
+    ],
+    "optical_characteristic_speeds": [
+      "-c0",
+      "c0"
+    ],
+    "optical_coordinate_density": "n**(-2)",
+    "reciprocal_coordinate_null_slope": "c0*n**2",
+    "shared_characteristic_polynomials": [
+      "q",
+      "q**2"
+    ],
+    "timelike_null_spacelike_examples": [
+      "-3*L**2",
+      "0",
+      "L**2"
+    ]
+  },
+  "exact_checks": {
+    "checks": {
+      "boundary_retuning_changes_both_components": true,
+      "candidate_star_emission_offset_is_null_related": true,
+      "coordinate_slope_changes_under_time_normalization": true,
+      "derivative_order_not_selected_by_cone": true,
+      "finite_nonzero_static_chart_coordinate_time": true,
+      "general_radial_null_slope": true,
+      "global_constraint_solution_exact": true,
+      "global_member_pair_can_be_null": true,
+      "global_member_pair_can_be_spacelike": true,
+      "global_member_pair_can_be_timelike": true,
+      "ingoing_optical_characteristic": true,
+      "lower_order_dynamics_not_selected_by_cone": true,
+      "nonconstant_lapse_chain_rule_cancellation": true,
+      "optical_wave_principal_part": true,
+      "outgoing_optical_characteristic": true,
+      "positive_conformal_characteristic_identity": true,
+      "positive_conformal_tangent_identity": true,
+      "proper_length_changes_with_representative": true,
+      "proper_time_changes_with_representative": true,
+      "reciprocal_radial_null_slope": true,
+      "second_and_fourth_order_share_characteristic_zero_set_forward": true,
+      "second_and_fourth_order_share_characteristic_zero_set_reverse": true,
+      "star_remote_same_chart_time_is_spacelike": true
+    },
+    "passed": 23,
+    "total": 23
+  },
+  "forbidden_inferences": [
+    "copresence_is_simultaneity",
+    "copresence_implies_zero_travel_time",
+    "global_boundary_dependence_is_instantaneous_signalling",
+    "metric_cone_alone_proves_material_retarded_support",
+    "positive_CSN_rescaling_changes_causal_order",
+    "conformal_class_alone_fixes_proper_clocks_or_mass",
+    "copresence_uniquely_selects_C2_EH_or_two_stage_bridge"
+  ],
+  "outcome": "COPRESENCE_CAUSAL_PARTITION_COHERENT_CONFORMAL_LAYER_DERIVED_ACTION_BRIDGE_OPEN",
+  "schema": "udt-copresence-causal-accessibility-v1",
+  "scope": "global-solution semantics plus conformal and static-reciprocal kinematics; no native matter dynamics",
+  "status_counts": {
+    "CONDITIONAL": 6,
+    "DERIVED": 9,
+    "OPEN": 2,
+    "POSIT": 1,
+    "REJECTED_AS_INFERENCE": 4,
+    "WORKING": 2
+  },
+  "terminology": {
+    "causal_partition": "LAY_SHORTHAND_FOR_EVENT_RELATIVE_CAUSAL_REACHABILITY_NOT_AN_EQUIVALENCE_PARTITION",
+    "time_normalization_convention": "t_prime=t/lambda"
+  },
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  }
+}
