@@ -1,0 +1,16 @@
+top_level_outcome=RECIPROCAL_CLOCK_OPTICAL_LINK_DERIVED_SCALE_REALIZATION_AND_MASS_OPEN
+python=3.10.12
+sympy=1.13.1
+checks=45/45
+general_coordinate_slope=N*c_0/B
+local_metric_null_speed=c_0
+one_plus_z=N_o/N_e
+reciprocal_slope_ratio=N_e**2/N_o**2
+reciprocal_optical_ratio=N_o**2/N_e**2
+same_clock_slopes=time_only:N*c_0,common:c_0,reciprocal:N**2*c_0
+observer_assigned_rest_energy=N_e*c_0**2*m/N_o
+received_photon_energy=E_gamma_e*N_e/N_o
+scale_speed=c_0*exp(-2*phi_x_sigma)
+scale_dual_speed_product=c_0**2
+scale_limits=UV:oo,IR:0
+result_sha256=71c2f85cfc391157dee1979ae4f8fa57a3eb23aacceee02d0f255e88156cd18a

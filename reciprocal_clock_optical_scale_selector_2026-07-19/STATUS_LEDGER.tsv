@@ -1,0 +1,31 @@
+id	claim	status	scope
+S01	General static radial coordinate null slope is c0 N/B	DERIVED_CONDITIONAL	chosen static clock flow and radial coordinate
+S02	Time dilation N alone determines effective coordinate speed	NO	ruler response B is independently required
+S03	Clock and optical effects share one dilation field under NB=1	DERIVED_CONDITIONAL	reciprocal static representative
+S04	Static redshift factor is 1+z=N_o/N_e	DERIVED_CONDITIONAL	selected representative Killing normalization and material clock coupling
+S05	Reciprocal coordinate-slope ratio is (1+z)^-2	DERIVED_CONDITIONAL	NB=1 and same adapted radial coordinate standard at endpoints
+S06	Reciprocal optical-component ratio is (1+z)^2	DERIVED_CONDITIONAL	NB=1 and same adapted radial coordinate standard; integrated length is invariant
+S07	Time dilation redshift and effective slope are numerically identical	NO	they are linked readings with different powers
+S08	Same N with time-only common-scale and reciprocal B gives three slopes	DERIVED_COUNTERMODELS	c0 N; c0; c0 N^2
+S09	Common CSN scaling changes coordinate null slope	NO	pointwise N/B is invariant; unequal endpoint factors do change lapse redshift ratio before representative/coupling selection
+S10	Metric-normalized local null speed varies with N	NO	finite metric-null readout remains c0
+S11	Static redshift determines increase or constancy of native invariant rest mass	NOT_DERIVED	fixed-m comparison is not native UDT matter
+S12	Null Killing-frequency and observer-normalized remote energy assignments redshift	DERIVED_CONDITIONAL	selected static metric; physical emission detection coupling open
+S13	Native mass increase constancy or emergence	OPEN	action source carrier coupling required
+S14	Coordinate location r and relational resolution sigma are identical	NO	different types of variable
+S15	Literal scale-dependent cones at fixed event require extra architecture	REQUIRED_IF_LITERAL	multiscale Finsler constitutive bilocal or effective geometry; effective optics may use single-metric nonlocal readout
+S16	Exact neutral phi=0 anchor	DERIVED_CONDITIONAL	broad plateau thresholds and error bounds untested
+S17	Terrestrial/solar GR overlap follows from plateau kinematics alone	NO	field equations coupling and precision limits also required
+S18	Dual-scale adapted slope product is c0^2	DERIVED_CONDITIONAL	if operational phi(x;sigma_dual)=-phi(x;sigma) in consistent frame
+S19	Dual-scale involution domain pivot profile and coupling	OPEN	cannot be selected by units or convention
+S20	UV apparent optical speedup	CONDITIONAL_OWNER_HYPOTHESIS	operational sigma ordering realization and causal meaning open
+S21	IR apparent optical slowdown	CONDITIONAL_OWNER_HYPOTHESIS	operational sigma ordering realization and cosmological map open
+S22	In one-sided reciprocal branch c0 is a speed floor	NO	it is only the pinned coordinate-slope ceiling
+S23	In one-sided reciprocal branch unity is optical-stretch floor	YES_CONDITIONAL	pinned optical-density normalization for phi>=0; not invariant scalar floor
+S24	Observable superluminal signalling	NOT_AUTHORIZED	universal coupling causality and intervention theorem absent
+S25	Static Killing redshift formula is the full cosmological derivation	NO	time-live geometry required
+S26	CMB wall seal substrate identification	OPEN	unchanged
+S27	Complete native action source carrier and boundary charge	OPEN	unchanged
+S28	Scale extension obligation set	CONDITIONAL_OBLIGATION_SET	open flow line representative normalization; operational sigma; geometric/readout law; endpoint comparison; conditional material/causal coupling
+S29	Current foundation changed	NO	derivation is conditional
+S30	Top-level outcome	RECIPROCAL_CLOCK_OPTICAL_LINK_DERIVED_SCALE_REALIZATION_AND_MASS_OPEN	registered outcome 2

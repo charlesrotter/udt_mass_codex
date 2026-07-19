@@ -1,0 +1,176 @@
+{
+  "artifact_moves": 0,
+  "base": "2092a047da4b1267eabdb6be59e5b50b41e3db62",
+  "catchproof": {
+    "IR_profile_promotion_rejected": "PASS",
+    "Killing_energy_native_mass_rejected": "PASS",
+    "NB_one_invariance_rejected": "PASS",
+    "UV_profile_promotion_rejected": "PASS",
+    "boundary_identity_promotion_rejected": "PASS",
+    "boxed_square_CSN_theorem_rejected": "PASS",
+    "broad_plateau_promotion_rejected": "PASS",
+    "c0_speed_floor_confusion_rejected": "PASS",
+    "common_scale_speed_change_rejected": "PASS",
+    "coordinate_ceiling_as_invariant_signal_bound_rejected": "PASS",
+    "coordinate_speed_scalar_rejected": "PASS",
+    "dirty_metadata_drift_rejected": "PASS",
+    "dynamics_promotion_rejected": "PASS",
+    "frozen_package_mutation_rejected": "PASS",
+    "local_c_variation_rejected": "PASS",
+    "local_mass_increase_rejected": "PASS",
+    "native_mass_constancy_promotion_rejected": "PASS",
+    "observer_line_gap_closure_rejected": "PASS",
+    "photon_material_coupling_promotion_rejected": "PASS",
+    "pivot_selection_rejected": "PASS",
+    "plateau_as_full_GR_proof_rejected": "PASS",
+    "position_scale_type_confusion_rejected": "PASS",
+    "reciprocal_square_loss_rejected": "PASS",
+    "redshift_speed_numerical_identity_rejected": "PASS",
+    "ruler_omission_rejected": "PASS",
+    "scope_escape_rejected": "PASS",
+    "single_metric_many_scale_cones_rejected": "PASS",
+    "source_mutation_rejected": "PASS",
+    "static_cosmology_promotion_rejected": "PASS",
+    "status_corruption_rejected": "PASS",
+    "superluminal_signalling_rejected": "PASS",
+    "unique_architecture_promotion_rejected": "PASS"
+  },
+  "changed_paths": [
+    "reciprocal_clock_optical_scale_selector_2026-07-19/ADVERSARIAL_AUDIT.md",
+    "reciprocal_clock_optical_scale_selector_2026-07-19/DERIVATION_REPORT.md",
+    "reciprocal_clock_optical_scale_selector_2026-07-19/DERIVATION_RESULT.json",
+    "reciprocal_clock_optical_scale_selector_2026-07-19/DERIVATION_TRANSCRIPT.txt",
+    "reciprocal_clock_optical_scale_selector_2026-07-19/LAY_DECISION_TREE.md",
+    "reciprocal_clock_optical_scale_selector_2026-07-19/POST_PREREG_SCALE_SYMBOL_CLARIFICATION.md",
+    "reciprocal_clock_optical_scale_selector_2026-07-19/PREMISE_LEDGER.tsv",
+    "reciprocal_clock_optical_scale_selector_2026-07-19/PREREGISTRATION.md",
+    "reciprocal_clock_optical_scale_selector_2026-07-19/REVIEW_MASS_COSMOLOGY.md",
+    "reciprocal_clock_optical_scale_selector_2026-07-19/REVIEW_SCALE_CAUSALITY.md",
+    "reciprocal_clock_optical_scale_selector_2026-07-19/SHA256SUMS.txt",
+    "reciprocal_clock_optical_scale_selector_2026-07-19/STATUS_LEDGER.tsv",
+    "reciprocal_clock_optical_scale_selector_2026-07-19/derive_reciprocal_clock_optical_scale.py",
+    "reciprocal_clock_optical_scale_selector_2026-07-19/requirements-cpu.txt",
+    "reciprocal_clock_optical_scale_selector_2026-07-19/verify_reciprocal_clock_optical_scale.py"
+  ],
+  "cpu_dependency": {
+    "gpu_imports": [],
+    "result": "PASS",
+    "sympy": "1.13.1"
+  },
+  "current_foundation_changed": false,
+  "dirty_checkout_metadata_rows": 54,
+  "dirty_content_policy": "NOT_READ",
+  "frozen_package_replays": [
+    {
+      "entries": 29,
+      "package": "native_action_stage1_2026-07-18/arm_A",
+      "paths": 30,
+      "result": "PASS"
+    },
+    {
+      "entries": 15,
+      "package": "native_action_stage1_2026-07-18/arm_B",
+      "paths": 16,
+      "result": "PASS"
+    },
+    {
+      "entries": 13,
+      "package": "native_action_stage2_2026-07-18/arm_A",
+      "paths": 14,
+      "result": "PASS"
+    },
+    {
+      "entries": 13,
+      "package": "native_action_stage2_2026-07-18/arm_B",
+      "paths": 14,
+      "result": "PASS"
+    },
+    {
+      "entries": 21,
+      "package": "native_action_arm_c_2026-07-18",
+      "paths": 22,
+      "result": "PASS"
+    },
+    {
+      "entries": 36,
+      "package": "native_action_final_adjudication_2026-07-18",
+      "paths": 37,
+      "result": "PASS"
+    }
+  ],
+  "gpu_used": false,
+  "grok_integration_authorized": false,
+  "independent_exact_algebra": {
+    "NB_constraint_transforms": [
+      "J",
+      "1/lambda_t",
+      "Omega**2"
+    ],
+    "dual_scale_speed_product": "c0**2",
+    "endpoint_CSN_redshift": "No*Omega_o/(Ne*Omega_e)",
+    "general_slope_ratio": "Bo*Ne/(Be*No)",
+    "general_speed": "N*c0/B",
+    "local_metric_null_speed": "c0",
+    "observer_energy": "Ne*c0**2*m/No",
+    "one_plus_z": "No/Ne",
+    "optical_stretch": "B/N",
+    "radially_reparameterized_ratios": [
+      "Jo*Ne**2/(Je*No**2)",
+      "Je*No**2/(Jo*Ne**2)"
+    ],
+    "reciprocal_optical_ratio": "No**2/Ne**2",
+    "reciprocal_slope_ratio": "Ne**2/No**2",
+    "result": "PASS",
+    "same_clock_slopes": [
+      "N*c0",
+      "c0",
+      "N**2*c0"
+    ]
+  },
+  "ledgers": {
+    "premise_rows": 17,
+    "result": "PASS",
+    "status_rows": 30
+  },
+  "mode": "INDEPENDENT_CPU_ONLY_RECIPROCAL_CLOCK_OPTICAL_SCALE_SELECTOR",
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "links": 0
+  },
+  "package_manifest": {
+    "entries": 14,
+    "result": "PASS",
+    "sha256": "d4ce35881bfd79952083da84bd5bd7f80b6d21b0e69d698059e1695c6f90ba6d"
+  },
+  "preregistration_commit": "a1a2fd15b362931feb815289318efa74bdec15b3",
+  "report_and_reviews": {
+    "report_tokens": 13,
+    "result": "PASS",
+    "reviews": 2
+  },
+  "reported_outcome": "RECIPROCAL_CLOCK_OPTICAL_LINK_DERIVED_SCALE_REALIZATION_AND_MASS_OPEN",
+  "result": "PASS",
+  "source_hashes": {
+    "UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md": "4bb0da9098da0a9970602e2449615eef151796b0d7fe7a9978f4b66145748a34",
+    "UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md": "6e977717ca028cabaa198dd14a6a97b3b15740e45485d0ab735f3df0326df192",
+    "UDT_NATIVE_ACTION_COLD_PACKET.md": "d38232792ac78188687db433a3f60a08c775c46e9ecf5fc42ad7953dc89fadb0",
+    "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003",
+    "infinite_c_reciprocity_adjudication_2026-07-18/SHA256SUMS.txt": "f15235b149dd915aabcefbb405a776234fb4a68ac8da4b706a09583d3c64a5f6",
+    "invariant_reciprocal_causal_flow_2026-07-18/DERIVATION_RESULT.json": "491401f2235ee3c33ec2e637845b20ba7c3b2199ef9d9163a494313b12c836f4",
+    "invariant_reciprocal_causal_flow_2026-07-18/SHA256SUMS.txt": "786f3dc190d929bac6540a452c4bade8c41517f2169dfdc7de13daf46978801c",
+    "invariant_reciprocal_causal_flow_2026-07-18/STATUS_LEDGER.tsv": "f490bba0c4b0fc819f575e0d3062d8e78529901303d0d7df2d080746d0f98ef0",
+    "native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv": "70cab9d5e10b03e0e3418129b67155e01d9f805c4397c69ef8795c4d2aaa5dfd",
+    "reciprocal_line_realization_selector_2026-07-18/SHA256SUMS.txt": "4fe297e81414977f5eb75b6e535e1fca0f60a1d872e1fd42921f25aee0e59a16"
+  },
+  "test_baseline": {
+    "baseline_match": true,
+    "collected": 71,
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest tests/",
+    "failed": 1,
+    "failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "passed": 69,
+    "xfailed": 1
+  }
+}

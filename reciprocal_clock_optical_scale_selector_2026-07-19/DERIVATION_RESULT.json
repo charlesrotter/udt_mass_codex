@@ -1,0 +1,199 @@
+{
+  "adjudication": {
+    "IR_slowdown_profile_selected_by_current_foundation": false,
+    "NB_equals_one_is_coordinate_time_normalization_or_local_CSN_invariant": false,
+    "UV_speedup_selected_by_current_foundation": false,
+    "action_source_carrier_boundary_or_substrate_selected": false,
+    "boxed_square_relations_are_CSN_class_physical_redshift_theorems": false,
+    "boxed_square_relations_are_pinned_adapted_component_identities": true,
+    "broad_ordinary_scale_plateau_tested": false,
+    "common_scale_dilation_changes_null_slope": false,
+    "coordinate_effective_speed_is_local_scalar_constant": false,
+    "coordinate_position_and_relational_scale_identical": false,
+    "dual_scale_pivot_selected": false,
+    "fixed_mass_compton_branch_is_native_UDT": false,
+    "local_rest_mass_increase_derived_from_redshift": false,
+    "material_photon_emission_propagation_detection_coupling_derived": false,
+    "native_invariant_mass_constancy_derived": false,
+    "native_mass_emergence_or_mass_increase_derived": false,
+    "observable_superluminal_signalling_authorized": false,
+    "one_sided_c0_is_invariant_material_signal_speed_ceiling": false,
+    "one_sided_c0_is_pinned_adapted_coordinate_slope_ceiling": true,
+    "one_sided_c0_is_speed_floor": false,
+    "one_sided_unity_is_invariant_optical_scalar_floor": false,
+    "one_sided_unity_is_pinned_optical_density_floor": true,
+    "operational_scale_involution_and_domain_selected": false,
+    "ordinary_scale_plateau_thresholds_selected": false,
+    "prior_observer_line_representative_normalization_gap_closed": false,
+    "received_energy_redshift_derived_in_static_class": true,
+    "reciprocal_speed_ratio_is_inverse_redshift_squared": true,
+    "redshift_and_effective_speed_are_numerically_identical": false,
+    "same_scale_endpoint_or_cross_scale_coupling_rule_selected": false,
+    "scale_indexed_metric_architecture_selected": false,
+    "scale_realization_unique_minimum_architecture_selected": false,
+    "static_result_promoted_to_time_live_or_CMB": false,
+    "time_dilation_alone_uniquely_determines_effective_speed": false,
+    "time_dilation_and_effective_speed_share_one_dilation_field_in_reciprocal_block": true
+  },
+  "check_count": 45,
+  "checks": {
+    "T1_clock_factor": true,
+    "T1_coordinate_null_slope": true,
+    "T1_local_metric_null_speed": true,
+    "T1_optical_arrival_density": true,
+    "T1_ruler_factor": true,
+    "T2_clock_rate_ratio_is_inverse_redshift": true,
+    "T2_static_redshift_factor": true,
+    "T3_general_slope_redshift_relation": true,
+    "T4_optical_component_ratio_requires_pinned_radial_standard": true,
+    "T4_reciprocal_optical_ratio_is_redshift_squared": true,
+    "T4_reciprocal_optical_stretch": true,
+    "T4_reciprocal_slope": true,
+    "T4_reciprocal_slope_ratio_is_inverse_redshift_squared": true,
+    "T4_slope_ratio_is_clock_ratio_squared": true,
+    "T4_slope_ratio_requires_pinned_radial_standard": true,
+    "T5_common_scale_optical_unchanged": true,
+    "T5_common_scale_slope_unchanged": true,
+    "T5_general_ruler_exponent_optical": true,
+    "T5_general_ruler_exponent_slope": true,
+    "T5_same_clock_three_ruler_response_functions_distinct": true,
+    "T5_time_only_optical": true,
+    "T5_time_only_slope": true,
+    "T6_CSN_null_slope_invariant": true,
+    "T6_CSN_optical_stretch_invariant": true,
+    "T6_NB_one_not_local_CSN_invariant": true,
+    "T6_NB_one_radial_coordinate_pinned": true,
+    "T6_NB_one_time_normalization_pinned": true,
+    "T6_endpoint_dependent_CSN_rescales_lapse_redshift": true,
+    "T6_radial_coordinate_slope_density_inverse": true,
+    "T6_redshift_ratio_normalization_invariant": true,
+    "T6_time_normalization_rescales_optical": true,
+    "T6_time_normalization_rescales_slope": true,
+    "T7_fixed_mass_comparison_compton_frequency": true,
+    "T7_fixed_mass_comparison_rest_energy": true,
+    "T7_observer_assigned_energy_is_redshifted": true,
+    "T7_photon_received_energy_is_redshifted": true,
+    "T7_source_energy_reconstruction": true,
+    "T7_static_Killing_rest_energy": true,
+    "T8_dual_scale_lapse_product": true,
+    "T8_dual_scale_optical_product": true,
+    "T8_dual_scale_slope_product": true,
+    "T8_exact_neutral_anchor": true,
+    "T9_UV_and_IR_endpoint_slopes": true,
+    "T9_optical_stretch_increases_with_phi": true,
+    "T9_speed_decreases_with_phi": true
+  },
+  "class_results": {
+    "J0_GENERAL_CLOCK_RULER_DECOMPOSITION": "TIME_DILATION_ALONE_INSUFFICIENT",
+    "J1_UDT_RECIPROCAL_STATIC_BLOCK": "INVERSE_SQUARE_REDSHIFT_OPTICAL_LINK_DERIVED_CONDITIONAL",
+    "J2_COUNTERMODELS": "SAME_CLOCK_FACTOR_THREE_DISTINCT_OPTICAL_RESPONSES",
+    "J3_OPERATIONAL_ENERGY_AND_MASS": "STATIC_REDSHIFT_DOES_NOT_DERIVE_MASS_CHANGE_NATIVE_MASS_OPEN",
+    "J4_RELATIONAL_SCALE_REALIZATION": "KINEMATIC_IDENTITIES_CONDITIONAL_ARCHITECTURE_AND_PROFILE_OPEN",
+    "J5_ONE_SIDED_FALLBACK": "PINNED_ADAPTED_COORDINATE_SLOPE_CEILING_AND_OPTICAL_DENSITY_FLOOR"
+  },
+  "conditional_obligation_set": {
+    "existing_open_pins": [
+      "observer_clock_flow",
+      "parallel_spatial_line",
+      "post_scale_representative",
+      "Killing_and_radial_normalization"
+    ],
+    "literal_many_cones_note": "Literal different cones at one event require multiscale, Finsler, constitutive, bilocal, or effective geometry; effective optics may instead arise from a single metric plus a scale-dependent observer, line, readout, or nonlocal travel kernel.",
+    "not_selected": [
+      "scale_profile_phi_of_x_sigma",
+      "operational_scale_involution_and_domain",
+      "UV_IR_pivot_or_fixed_point",
+      "ordinary_plateau_boundaries_or_error_bounds",
+      "material_coupling_and_causal_completion"
+    ],
+    "scale_extension_obligations": [
+      "operational_relational_scale_selector_sigma",
+      "geometric_or_readout_law_single_metric_nonlocal_or_multiscale",
+      "same_sigma_endpoint_rule_or_sigma_e_sigma_o_coupling",
+      "matter_signal_coupling_if_physical_universality_is_claimed",
+      "hyperbolicity_common_causal_order_and_intervention_no_signalling"
+    ],
+    "status": "NO_UNIQUE_MINIMUM_ARCHITECTURE_SELECTED"
+  },
+  "environment": {
+    "cpu_only": true,
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "exact_algebra": {
+    "energy_mass_readouts": {
+      "Killing_rest_energy_at_emitter": "N_e*c_0**2*m",
+      "local_compton_frequency": "c_0**2*m/hbar",
+      "local_rest_energy": "c_0**2*m",
+      "observer_assigned_rest_energy": "N_e*c_0**2*m/N_o",
+      "received_photon_energy": "E_gamma_e*N_e/N_o",
+      "reconstructed_source_energy": "E_gamma_e"
+    },
+    "general": {
+      "coordinate_null_slope": "N*c_0/B",
+      "local_metric_null_speed": "c_0",
+      "optical_stretch": "B/N",
+      "proper_length": "B*dr",
+      "proper_time": "N*dt"
+    },
+    "redshift": {
+      "clock_rate_ratio": "N_e/N_o",
+      "endpoint_CSN_rescaled_one_plus_z": "N_o*Omega_o/(N_e*Omega_e)",
+      "general_slope_ratio": "B_o*N_e/(B_e*N_o)",
+      "one_plus_z": "N_o/N_e",
+      "radially_reparameterized_ratios": {
+        "optical": "J_e*N_o**2/(J_o*N_e**2)",
+        "slope": "J_o*N_e**2/(J_e*N_o**2)"
+      },
+      "reciprocal_optical_ratio": "N_o**2/N_e**2",
+      "reciprocal_slope_ratio": "N_e**2/N_o**2"
+    },
+    "relational_scale": {
+      "B": "exp(phi_x_sigma)",
+      "N": "exp(-phi_x_sigma)",
+      "c_eff": "c_0*exp(-2*phi_x_sigma)",
+      "derivatives": {
+        "optical": "2*exp(2*phi_x_sigma)",
+        "speed": "-2*c_0*exp(-2*phi_x_sigma)"
+      },
+      "dual_products": {
+        "lapse": "1",
+        "optical": "1",
+        "speed": "c_0**2"
+      },
+      "limits": {
+        "IR_phi_to_positive_infinity": "0",
+        "UV_phi_to_negative_infinity": "oo",
+        "one_sided_phi_zero_optical": "1",
+        "one_sided_phi_zero_speed": "c_0"
+      },
+      "plateau": {
+        "B": "1",
+        "N": "1",
+        "c_eff": "c_0",
+        "q_opt": "1"
+      },
+      "q_opt": "exp(2*phi_x_sigma)"
+    },
+    "same_clock_countermodels": {
+      "common_scale": {
+        "optical": "1",
+        "slope": "c_0"
+      },
+      "general_B_equals_N_to_p": {
+        "optical": "N**(p - 1)",
+        "slope": "N**(1 - p)*c_0"
+      },
+      "reciprocal": {
+        "optical": "N**(-2)",
+        "slope": "N**2*c_0"
+      },
+      "time_only": {
+        "optical": "1/N",
+        "slope": "N*c_0"
+      }
+    }
+  },
+  "schema": "udt.reciprocal-clock-optical-scale-selector.v1",
+  "top_level_outcome": "RECIPROCAL_CLOCK_OPTICAL_LINK_DERIVED_SCALE_REALIZATION_AND_MASS_OPEN"
+}
