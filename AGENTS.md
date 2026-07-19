@@ -25,15 +25,19 @@ Before interpreting the frontier, read from disk in this exact order:
 1. `LIVE.md` — its topmost `CURRENT STATE` overrides every other status description.
 2. `HANDOFF.md` — top/current block only.
 3. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — current scientific checkpoint, status distinctions,
-   the completed native Hopfion topology audit, and the current open selector seam.
-4. `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` when carrier, topology, or the next
-   scientific question is relevant; then its status ledger and exact load-bearing evidence.
-5. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task.
-6. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
+   the completed metric/Hopf and angular–toric audit chain, and the current open selector seam.
+4. `angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md` — the current conditional uniqueness
+   theorem, counterfamilies, and the two ordered missing gates.
+5. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` when the exact reciprocal
+   Hopf-orbit witness or its provenance is relevant, then
+   `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` for the preceding carrier/topology
+   classification.
+6. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task.
+7. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
    is durable lane evidence, not the global frontier.
-7. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline.
-8. The relevant full protocols under `.claude/skills/*/SKILL.md`.
-9. `INDEX.md` and the top of `MEMORY.md` for pointers only; neither can overrule `LIVE.md`.
+8. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline.
+9. The relevant full protocols under `.claude/skills/*/SKILL.md`.
+10. `INDEX.md` and the top of `MEMORY.md` for pointers only; neither can overrule `LIVE.md`.
 
 For current artifact locations, use `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`. The R0–R1C
 ownership, readiness, census, preregistration, and verification records are fixed historical
@@ -44,12 +48,15 @@ Then give Charles a short orientation report: actual HEAD and dirt, the current 
 premise stamps, the open gate, and the proposed bounded next action. Do not mutate files or launch a
 long solve until that orientation is complete.
 
-The bootstrap/stable-matter interpretation remains a working hypothesis. The bounded native Hopfion
-topology audit is complete: the existing implementation is already full 3D Hopf-capable, while the
-carrier remains conditional and the conditional metric null-direction `S^2` is only a fiber, not a
-selected section. Do not silently turn that bridge candidate—or the earlier time-live proposal—into
-authority to adopt a carrier, section, framing, boundary, dynamical completion, run GPU work, or
-claim a bootstrap parameter-selection theorem.
+The bootstrap/stable-matter interpretation remains a working hypothesis. The bounded audit chain is
+complete through angular–toric closure: the existing implementation is already full 3D Hopf-capable;
+the reciprocal metric has an exact conditional Hopf-orbit-block witness; and `S3` plus free
+diagonal/anti-diagonal Hopf actions are unique only after global toric eigencap premises are supplied.
+Registered UDT does not yet derive the first missing gate—transverse spatial reciprocal realization
+and periodicity—or the conditional second gate of finite-cell cap completion. Do not silently turn
+either conditional theorem, the earlier celestial fiber, or the time-live proposal into authority to
+adopt a carrier, section, torus, cap, framing, boundary, dynamical completion, run GPU work, or claim
+a bootstrap parameter-selection theorem.
 
 ## Codex/Claude compatibility
 

@@ -8,13 +8,18 @@
 
 **LIVE.md CURRENT STATE is authoritative.** Read `HANDOFF.md`, then
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md`. The verified July 18–19 selector chain
+`angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md`; use
+`null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` and
+`native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` for the preceding layers. The verified July 18–19 selector chain
 extends the frozen native-action adjudication through bootstrap variation-domain underdetermination,
 paired field-census trials, Reciprocity/off-shell and spacetime-line selectors, infinite-c
 adjudication, invariant optical flow, reciprocal clock/ruler/optical linkage, co-presence causal
 accessibility, and the final GR-constraint regrade. The subsequent bounded topology audit establishes
 that the existing H3/no-null particle implementation is already full-3D Hopf-capable; the overlooked
-layer is upstream carrier emergence, not missing 3D Hopfion mathematics.
+layer is upstream carrier emergence, not missing 3D Hopfion mathematics. The next two metric audits
+find an exact reciprocal Hopf torus orbit-block witness and prove `S3` plus free
+diagonal/anti-diagonal Hopf actions unique only within explicitly supplied global toric eigencap
+premises.
 
 Current honest status: reciprocal kinematics remain derived under exact premises; C²/Bach remains
 unique-conditional; EH/S²/present mass remains conditional; complete action, native source,
@@ -25,12 +30,16 @@ closure/admissibility and does not yet select variation placement, fields, actio
 constraint algebra survives, but no native ADM constraint or lapse/shift ontology is selected. The
 conditional conformal-Lorentzian metric supplies a CSN-invariant celestial `S2` null-direction fiber;
 it does not select a carrier section, fixed round target, frame/transport, physical finite-cell
-boundary, dynamics, or topology-propagation law. The carrier remains `POSIT` / `CONDITIONAL`.
+boundary, dynamics, or topology-propagation law. Registered UDT also does not yet derive the first
+toric gate—transverse spatial reciprocal realization and periodicity—or the distinct conditional
+second gate of finite-cell cap completion. Smoothness alone does not select the round metric. The
+carrier remains `POSIT` / `CONDITIONAL`.
 
 `WORKING_HYPOTHESIS`: bootstrap may select law/parameter/solution combinations that sustain stable
 matter in a complete time-live finite universe. The earlier CPU-only comparison of minimal time-live
-completions remains only a possible later study. No new derivation, section selector, solve, carrier
-adoption, GPU work, canonization, or repository reorganization is authorized by this pointer.
+completions remains only a possible later study. No new transverse-realization or cap-completion
+audit, time-live solve, carrier adoption, GPU work, canonization, or repository reorganization is
+authorized by this pointer.
 
 The H3 particle-mass arc remains complete in its static finite-box/carrier scope. Its operator history
 is in `stability_branch_follow_256_DECISION.md`; it is not a full time-live matter theorem.

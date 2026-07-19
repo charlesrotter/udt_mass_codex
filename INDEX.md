@@ -3,18 +3,18 @@
 **⚠ BRANCH: `grok` (2026-07-19)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
 **➤ CURRENT SCIENTIFIC FRONTIER:** `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md`. The completed topology audit found that
-the current H3/no-null particle implementation is already full-3D Hopf-capable; the missed seam was
-not the 3D soliton mathematics but the upstream emergence of its carrier. The conditional 4D
-conformal-Lorentzian metric supplies a CSN-invariant celestial `S2` null-direction fiber, but no
-carrier section, fixed round target, frame/transport, physical finite-cell boundary, action, or
-time-live topology theorem is selected. The carrier remains `POSIT` / `CONDITIONAL`, and the banked
-configuration remains `OBSERVED_CARRIER_CONDITIONAL` because its raw field was not freshly replayed.
-Audit verdict:
-`EXISTING_3D_HOPFION_NOT_MISSED; HOPF_STRUCTURE_CARRIER_CONDITIONAL;`
-`METRIC_NULL_S2_FIBER_CONDITIONAL; SECTION_AND_BOUNDARY_SELECTOR_OPEN`. The preceding
-bootstrap/reciprocal/optical/co-presence/GR-constraint chain remains intact. No follow-on study, GPU
-work, or canonization is authorized.
+`angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md`, then the preceding
+`null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` and
+`native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md`. The chain establishes an exact
+reciprocal Hopf torus orbit-block compatibility witness. Within explicitly supplied global toric
+eigencap premises, `S3` topology and free diagonal/anti-diagonal Hopf actions are
+`UNIQUE-CONDITIONAL`; UDT's registered principles do not yet select those premises. The first open
+gate is transverse spatial reciprocal realization and periodicity. Finite-cell cap completion is a
+distinct conditional second gate. Smoothness does not select the round metric, and no carrier,
+action, source, boundary functional, mass theorem, or time-live topology law follows. The existing
+H3/no-null implementation remains full-3D Hopf-capable and `OBSERVED_CARRIER_CONDITIONAL` in its
+banked scope. The preceding bootstrap/reciprocal/optical/co-presence/GR-constraint chain remains
+intact. No follow-on study, GPU work, reorganization, or canonization is authorized.
 **R1H EFFECTIVE-REGISTRY CHECKPOINT — COMPLETE, VERIFIED, AND PAUSED:** R1E batch planning and R1F/B01 are complete. Fixed historical
 inventories and planning records remain immutable. Five active artifacts moved byte-identically:
 one R1D note and four behaviorally verified R1F macro verifiers. Resolve present locations through
@@ -107,6 +107,8 @@ Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`,
 | Time-live linear no-go + finite-amp | `threadB_timelive_linear_nogo_and_finite_amp_MAP.md` |
 | Matter carrier provenance | `matter_carrier_provenance_audit_results.md` |
 | Native Hopfion topology audit | `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md`, `native_hopfion_topology_audit_2026-07-19/TOPOLOGY_STATUS_LEDGER.tsv` |
+| Reciprocal Hopf metric audit | `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md`, `null_section_hopfion_metric_audit_2026-07-19/STATUS_LEDGER.tsv` |
+| Angular–toric closure selector | `angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md`, `angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`, `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md` |
 | Hopfion mass / ambient-φ MAP | `hopfion_mass_background_coupling_MAP.md` |
 | Hopfion G/P exterior NEXT charter | `hopfion_GP_exterior_NEXT_CHARTER.md` |
 | Hopfion G/P exterior probe results | `hopfion_GP_exterior_probe_results.md` |

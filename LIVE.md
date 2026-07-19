@@ -7,11 +7,15 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
 **⚠ CURRENT SCIENTIFIC FRONTIER (2026-07-19):** after this CURRENT STATE block read
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md`. The bootstrap/stable-matter
-interpretation is a `WORKING_HYPOTHESIS`. The bounded native Hopfion topology audit is complete: the
-existing implementation is already full 3D Hopf-capable, but the carrier remains conditional and
-the metric null-direction `S^2` is only a conditional fiber, not a selected carrier section. The
-earlier time-live soliton study remains an unlaunched later proposal. The **PARTICLE-MASS lane**
+`angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md`, then
+`null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` and
+`native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` for the preceding layers. The
+bootstrap/stable-matter interpretation is a `WORKING_HYPOTHESIS`. The exact reciprocal Hopf-orbit
+match is a compatibility witness; `S3` and free diagonal/anti-diagonal Hopf actions are
+`UNIQUE-CONDITIONAL` only inside supplied global toric eigencap premises. Registered UDT has not yet
+derived transverse spatial reciprocal realization and periodicity, nor the conditional finite-cell
+cap completion that would follow it. The earlier time-live soliton study remains an unlaunched later
+proposal. The **PARTICLE-MASS lane**
 (H3 stability→mass→basin arc) remains complete in its stated static finite-box scope — read
 `noNull_behavioral_F_results.md` + `noNull_boundary_virial_results.md` + `noNull_phaseG_mass_results.md` →
 **`stability_branch_follow_256_DECISION.md`** (detailed arc record) → MEMORY.md TOP. The **MACRO lane** (simple-metric / WR-L) is a separate ongoing lane; its read
@@ -36,9 +40,47 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-19 — NATIVE HOPFION TOPOLOGY AUDIT COMPLETE AND VERIFIED. EXISTING PARTICLE IMPLEMENTATION IS FULL 3D HOPF-CAPABLE; IT WAS NOT THE MISSING LEVEL. ROUND-S2 CARRIER REMAINS POSIT/CONDITIONAL. CONDITIONAL 4D CONFORMAL-LORENTZIAN METRIC SUPPLIES A CSN-INVARIANT CELESTIAL S2 NULL-DIRECTION FIBER, BUT SECTION, FRAME/TRANSPORT, PHYSICAL FINITE-CELL BOUNDARY, ACTION, AND TIME-LIVE TOPOLOGY LAW REMAIN OPEN. PRIOR RECIPROCAL/OPTICAL/CO-PRESENCE AND GR-CONSTRAINT RESULTS SURVIVE. NO NEXT STUDY IS LAUNCHED OR AUTHORIZED. H3 STATIC FINITE-BOX STABILITY REMAINS SETTLED WITHIN ITS CARRIER/BOX PREMISES. R0–R1H REORGANIZATION REMAINS PAUSED. NO CANONIZATION OR GPU WORK.) ============
+## ============ CURRENT STATE (2026-07-19 — ANGULAR–TORIC CLOSURE SELECTOR AUDIT COMPLETE AND VERIFIED. THE RECIPROCAL EXPONENTIAL PAIR EXACTLY MATCHES A HOPF TORUS ORBIT BLOCK. S3 TOPOLOGY AND FREE DIAGONAL/ANTI-DIAGONAL HOPF ACTIONS ARE UNIQUE ONLY WITHIN EXPLICITLY SUPPLIED GLOBAL TORIC EIGENCAP PREMISES. REGISTERED UDT DOES NOT YET DERIVE THE FIRST GATE: TRANSVERSE SPATIAL RECIPROCAL REALIZATION AND PERIODICITY. FINITE-CELL CAP COMPLETION IS A DISTINCT CONDITIONAL SECOND GATE. ROUND-S2 CARRIER, COMPLETE ACTION/SOURCE/BOUNDARY LAW, AND TIME-LIVE TOPOLOGY LAW REMAIN OPEN. NO NEXT STUDY IS LAUNCHED OR AUTHORIZED. H3 STATIC FINITE-BOX STABILITY REMAINS SETTLED WITHIN ITS CARRIER/BOX PREMISES. R0–R1H REORGANIZATION REMAINS PAUSED. NO CANONIZATION OR GPU WORK.) ============
 
-**➤➤➤ JULY 19 NATIVE HOPFION TOPOLOGY AUDIT — COMPLETE EVIDENCE, NO FOLLOW-ON LAUNCHED:**
+**➤➤➤ JULY 19 ANGULAR–TORIC CLOSURE CHAIN — COMPLETE EVIDENCE, NO FOLLOW-ON LAUNCHED:**
+- **READ NEXT:** `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
+  `angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md`; use
+  `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` and
+  `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` for the preceding bridge layers.
+- **✅ EXACT COMPATIBILITY WITNESS:** with `tan(eta)=exp(2 phi)`, the determinant-normalized Hopf
+  torus orbit block is exactly `diag(exp(-2 phi),exp(2 phi))`. If two periodic spatial circles, the
+  diagonal action, full reciprocal range, and opposing primitive collapses are separately supplied,
+  the metric-dual connection is Common-Scale independent and carries conditional unit Hopf class.
+- **✅ CONDITIONAL TOPOLOGY THEOREM:** in one global integral torus basis, a globally diagonal
+  reciprocal orbit block closing through smooth primitive collapse of opposite eigen-circles has
+  determinant-one collapse data and therefore `S3` topology. Requiring a free effective circle
+  quotient then forces `|m|=|n|=1`, leaving diagonal/anti-diagonal actions and `Q=+/-1` orientation
+  classes. These are `UNIQUE-CONDITIONAL`, not foundation-level selections.
+- **OPEN FIRST GATE:** exact C0/C1 does not place the founding temporal/parallel reciprocal pair into
+  two transverse periodic spatial directions. This transverse spatial realization and periodicity
+  is the smallest genuinely missing selector.
+- **OPEN CONDITIONAL SECOND GATE:** only after the first gate is derived does finite-cell
+  cap completion become active. Present finite-cell canon fixes a finite mirrored monotone domain,
+  no spatial infinity, and static `phi` seal parity/value, but no torus lattice, collapse cycles,
+  cap functional, or boundary equation.
+- **COUNTERFAMILIES RETAINED:** smoothness does not select the round metric; an explicit non-round
+  smooth `S3` witness has the same normalized orbit block and caps. Finite-boundary no-cap,
+  same-cycle, lens-space, incomplete/noncompact, exceptional-weight, and fixed-circle alternatives
+  remain unless the missing premises are derived.
+- **NO CARRIER/ACTION RESULT:** the canonical quotient map is a unit-class witness, not carrier
+  emergence, the full `Map(S3,S2)` configuration space, `L2+L4` dynamics, source, mass, or time-live
+  topology conservation.
+- **FINAL VERDICT:**
+  `S3_AND_FREE_HOPF_ACTION_UNIQUE_CONDITIONAL_WITHIN_SUPPLIED_TORIC_CAP_PREMISES;`
+  `RECIPROCITY_CSN_FINITE_CELL_AND_BOOTSTRAP_DO_NOT_SELECT_THOSE_PREMISES;`
+  `FIRST_MISSING_GATE_TRANSVERSE_SPATIAL_RECIPROCAL_REALIZATION_AND_PERIODICITY;`
+  `CONDITIONAL_SECOND_GATE_FINITE_CELL_CAP_COMPLETION_OPEN`.
+- **PACKAGES:** `angular_toric_closure_selector_2026-07-19/` manifest SHA-256
+  `64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50`;
+  `null_section_hopfion_metric_audit_2026-07-19/` manifest SHA-256
+  `e195d14349407c23e4a050628ec84298d3d35e23e2c25b5cf285a5c81f8e989b`.
+
+**➤➤➤ JULY 19 NATIVE HOPFION TOPOLOGY AUDIT — COMPLETE PRECEDING LAYER:**
 - **READ NEXT:** `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then the exact package evidence it names.
 - **✅ EXISTING 3D REPRESENTATION:** the H3 and corrected no-null particle implementations already
   use a `3 x N x N x N` unit-vector field, a degree-one `R3 -> S3 -> S2` Hopf seed, all three spatial
@@ -48,11 +90,12 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
   conformal-Lorentzian readout, projective null lines form a celestial conformal/topological `S2`
   fiber preserved by positive Common-Scale rescaling. This is a promising upstream bridge candidate,
   but it is not UDT-unique and is not a selected physical carrier.
-- **OPEN SELECTOR SEAM:** a fiber does not select a section, fixed round target metric,
+- **PRECEDING OPEN SEAM, NOW SHARPENED BY THE ANGULAR–TORIC AUDITS:** a fiber does not select a section, fixed round target metric,
   frame/trivialization, connection/transport law, `L2+L4` dynamics, physical finite-cell carrier
-  boundary, or global/time-live topology theorem. The smallest open question is whether Reciprocity,
+  boundary, or global/time-live topology theorem. The earlier broad question was whether Reciprocity,
   finite-cell structure, or bootstrap closure selects those structures without importing the
-  existing Hopfion by hand.
+  existing Hopfion by hand; the current first gate is the transverse spatial reciprocal realization
+  and periodicity stated above.
 - **EVIDENCE SCOPE:** banked evidence reports the localized `|Q| approximately 1` torus, but the large
   raw field checkpoints were absent from the clean checkout and were not freshly replayed. The
   configuration remains `OBSERVED_CARRIER_CONDITIONAL`; static stability remains
@@ -85,8 +128,9 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **WORKING HYPOTHESIS, NOT RESULT:** bootstrap may select law/parameter/solution combinations that
   permit stable matter in a complete time-live finite universe.
 - **LATER PROPOSAL ONLY / NOT LAUNCHED:** the earlier suggestion to freeze the scoped soliton and
-  compare minimal time-live completions remains available after the upstream carrier-section seam is
-  addressed or deliberately held conditional. It is not the currently authorized next action.
+  compare minimal time-live completions remains available only after the transverse spatial
+  reciprocal-realization gate and any conditional finite-cell cap/carrier premises are addressed or
+  deliberately held conditional. It is not the currently authorized next action.
 - **OPEN:** parent whole-solution law, field census, variation domain, representative map, complete
   action/source, finite-cell differentiable boundary action, normalized charge, carrier section and
   transport, carrier emergence, unconditional mass, and dynamical bridge.

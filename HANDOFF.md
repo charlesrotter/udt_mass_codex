@@ -5,12 +5,46 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-19).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-19 — native Hopfion topology audit complete; carrier-section selector open; no follow-on launched; reorganization paused)
+## CURRENT (2026-07-19 — angular–toric closure audit complete; two ordered selector gates open; no follow-on launched; reorganization paused)
 
 **Read LIVE.md CURRENT STATE topmost layer first, then
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md`.** The bounded CPU-only topology audit is
-complete and verified:
+`angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md`.** For the immediately preceding bridge
+layers, read `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md`, then
+`native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md`.
+
+The two latest bounded CPU-only metric audits are complete and verified:
+
+- in Hopf coordinates with `tan(eta)=exp(2 phi)`, the determinant-normalized angular orbit block is
+  exactly `diag(exp(-2 phi),exp(2 phi))`, giving an exact reciprocal Hopf compatibility witness;
+- if UDT separately supplies two periodic transverse spatial circles, one fixed global integral
+  basis, global diagonal reciprocal form, and opposing smooth primitive eigen-circle caps, the
+  collapse determinant is one and the completed spatial topology is conditionally `S3`;
+- if UDT then separately requires a free effective circle quotient, freeness forces
+  `|m|=|n|=1`, leaving diagonal/anti-diagonal actions with conditional `Q=+/-1` orientations;
+- registered Reciprocity, Common-Scale Neutrality, finite-cell canon, and bootstrap do not select
+  those premises;
+- the **first missing gate** is transverse spatial reciprocal realization and periodicity;
+- finite-cell cap completion is a distinct **conditional second gate**, active only if the first is
+  derived;
+- smoothness does not select the round metric, and finite-boundary no-cap, lens-space,
+  exceptional-weight, fixed-circle, and other registered alternatives remain;
+- no carrier, action, source, boundary functional, mass theorem, or time-live topology law follows.
+
+Current verdict:
+`S3_AND_FREE_HOPF_ACTION_UNIQUE_CONDITIONAL_WITHIN_SUPPLIED_TORIC_CAP_PREMISES;`
+`RECIPROCITY_CSN_FINITE_CELL_AND_BOOTSTRAP_DO_NOT_SELECT_THOSE_PREMISES;`
+`FIRST_MISSING_GATE_TRANSVERSE_SPATIAL_RECIPROCAL_REALIZATION_AND_PERIODICITY;`
+`CONDITIONAL_SECOND_GATE_FINITE_CELL_CAP_COMPLETION_OPEN`.
+
+Packages:
+
+- `angular_toric_closure_selector_2026-07-19/`; manifest
+  `64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50`;
+- `null_section_hopfion_metric_audit_2026-07-19/`; manifest
+  `e195d14349407c23e4a050628ec84298d3d35e23e2c25b5cf285a5c81f8e989b`.
+
+The preceding native Hopfion topology audit remains intact:
 
 - the existing H3 and corrected no-null implementations are already genuine full-3D
   Faddeev–Skyrme Hopfion constructions, not the retired imported radial Skyrmion;
@@ -22,14 +56,14 @@ complete and verified:
   celestial conformal/topological `S2` fiber preserved by positive Common-Scale rescaling;
 - that fiber is not a selected section, fixed round carrier target, frame/trivialization,
   connection/transport law, action, physical finite-cell boundary, or time-live topology theorem;
-- the smallest open conceptual seam is whether Reciprocity, finite-cell structure, or bootstrap
-  closure selects those structures without importing the existing Hopfion by hand.
+- its broad carrier-section seam is now narrowed by the angular audits to the two ordered gates
+  above, without selecting either one.
 
 Final verdict:
 `EXISTING_3D_HOPFION_NOT_MISSED; HOPF_STRUCTURE_CARRIER_CONDITIONAL;`
 `METRIC_NULL_S2_FIBER_CONDITIONAL; SECTION_AND_BOUNDARY_SELECTOR_OPEN`.
 
-Package: `native_hopfion_topology_audit_2026-07-19/`; manifest
+Preceding package: `native_hopfion_topology_audit_2026-07-19/`; manifest
 `6f03f82d485d4a20c2d2bfc13dc8979c1b229bf92c53f0eb36831abf3d75febc`.
 
 The prior July 18–19 scientific selector chain also remains complete and verified:
@@ -53,9 +87,10 @@ The prior July 18–19 scientific selector chain also remains complete and verif
 that sustain stable matter in a complete time-live finite universe.
 
 **LATER PROPOSAL ONLY / NOT LAUNCHED:** the earlier CPU-only comparison of minimal time-live
-completions remains a possible later study after the upstream carrier-section seam is addressed or
-held explicitly conditional. No topology derivation, time-live solve, carrier adoption, action
-construction, GPU work, or dynamical completion is authorized by this handoff.
+completions remains a possible later study only after the transverse spatial reciprocal-realization
+gate and any conditional cap/carrier premises are addressed or held explicitly conditional. No
+further selector derivation, time-live solve, carrier adoption, action construction, GPU work, or
+dynamical completion is authorized by this handoff.
 
 Prior co-presence/constraint package: `copresence_gr_constraint_regrade_2026-07-19/`; manifest
 `022f3c97916e38f29260812c14ad0136574d1908c70aabc7d4e56ae99d78f7bc`.

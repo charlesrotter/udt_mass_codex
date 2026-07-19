@@ -23,12 +23,16 @@ selector chain is summarized in
 [`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md). The subsequent
 CPU-only [native Hopfion topology audit](native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md)
 found that the existing particle implementation is already a genuine full-3D Hopfion construction.
-The remaining upstream problem is carrier emergence: the conditional conformal-Lorentzian metric
-has a CSN-invariant celestial `S2` null-direction fiber, but it does not select the carrier section,
-framing/transport, physical finite-cell boundary, action, or time-live topology law. The round-`S2`
-carrier remains `POSIT` / `CONDITIONAL`. The current bootstrap interpretation remains a working
-hypothesis, and no follow-on derivation, time-live solve, carrier adoption, action choice, mass
-theorem, canonization, or GPU work is authorized by this checkpoint.
+The [reciprocal Hopf metric audit](null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md) then
+found an exact Hopf-torus orbit-block compatibility witness, and the
+[angular–toric closure audit](angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md) proved that
+`S3` topology and free diagonal/anti-diagonal Hopf actions are unique only within explicitly
+supplied global toric eigencap premises. Registered UDT does not yet derive the first missing gate,
+transverse spatial reciprocal realization and periodicity; finite-cell cap completion is a separate
+conditional second gate. The round-`S2` carrier remains `POSIT` / `CONDITIONAL`, and carrier
+emergence, complete action/source/boundary law, time-live topology, and unconditional mass remain
+open. No follow-on derivation, time-live solve, carrier adoption, action choice, mass theorem,
+canonization, repository reorganization, or GPU work is authorized by this checkpoint.
 
 ## Repository reorganization checkpoint R0–R1H
 

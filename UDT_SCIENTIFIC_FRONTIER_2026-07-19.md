@@ -1,4 +1,4 @@
-# UDT Scientific Frontier — Co-Presence, Bootstrap, and Hopfion Topology
+# UDT Scientific Frontier — Co-Presence, Bootstrap, and Angular–Toric Hopf Closure
 
 Date: 2026-07-19
 Authority: current navigation/status checkpoint; not canonization
@@ -34,16 +34,31 @@ The July 18–19 scientific chain sharpens the frontier without selecting a comp
   form a celestial conformal/topological `S2` fiber preserved by positive Common-Scale rescaling;
 - that `S2` fiber does not select a carrier section, fixed round target, frame/trivialization,
   connection/transport law, `L2+L4` action, physical finite-cell boundary, or time-live topology
-  theorem.
+  theorem;
+- independently, the determinant-normalized two-torus orbit block of the standard Hopf `S3`
+  witness is exactly `diag(exp(-2 phi),exp(2 phi))` under `tan(eta)=exp(2 phi)`;
+- that exact match is a compatibility witness, because C0/C1 does not derive two periodic
+  transverse spatial slots, a torus action, periods, global range, or caps;
+- within the explicitly supplied class of one global integral torus basis, globally diagonal
+  reciprocal orbit form, and opposing smooth primitive eigen-circle caps, the collapse determinant
+  is one and `S3` topology is `UNIQUE-CONDITIONAL`;
+- conditional on that `S3` completion and a separate demand for a free effective circle quotient,
+  freeness forces `|m|=|n|=1`, leaving diagonal/anti-diagonal actions with `Q=+/-1`;
+- smoothness does not select the round metric, and general toric, finite-boundary no-cap,
+  lens-space, exceptional-weight, fixed-circle, and incomplete/noncompact alternatives remain when
+  the supplied premises are relaxed;
+- registered Reciprocity, Common-Scale Neutrality, finite-cell canon, and bootstrap do not derive
+  those global toric premises.
 
 The next missing scientific object is a parent whole-solution UDT law: a complete rule declaring the
 fields or other state variables, equations or admissibility map, variation domain, finite-cell
 boundary completion, source/coupling, and bootstrap role. It might ultimately be metric-only, but
 the reciprocal metric currently fixes kinematic structure without uniquely choosing `C^2`, EH,
 derivative order, or auxiliary bookkeeping.
-At the particle/topology seam, the smallest missing selector is whether UDT principles select a
-section or texture of the conformally natural null-direction sphere bundle together with its
-comparison and finite-cell boundary rules, rather than positing an independent carrier.
+At the particle/topology seam, the smallest missing selector is now more precise: whether UDT
+derives a transverse **spatial** realization of the reciprocal pair and makes those directions
+periodic. Only after that first gate passes does a separate finite-cell toric/cap-completion gate
+become active. Neither phrase is a new principle; each names a missing derivation.
 
 ## Verified July 18–19 evidence chain
 
@@ -59,12 +74,17 @@ comparison and finite-cell boundary rules, rather than positing an independent c
 | `copresence_causal_accessibility_selector_2026-07-19/` | `COPRESENCE_CAUSAL_PARTITION_COHERENT_CONFORMAL_LAYER_DERIVED_ACTION_BRIDGE_OPEN` | `14e13dd27aa7036a6fef7db9208681459b86c06186bfffc7990ee877947d8356` |
 | `copresence_gr_constraint_regrade_2026-07-19/` | `PRIOR_ALGEBRA_SURVIVES_CONSTRAINT_ROLES_RECLASSIFIED_NO_NATIVE_GR_CONSTRAINT_SELECTED` | `022f3c97916e38f29260812c14ad0136574d1908c70aabc7d4e56ae99d78f7bc` |
 | `native_hopfion_topology_audit_2026-07-19/` | `EXISTING_3D_HOPFION_NOT_MISSED; HOPF_STRUCTURE_CARRIER_CONDITIONAL; METRIC_NULL_S2_FIBER_CONDITIONAL; SECTION_AND_BOUNDARY_SELECTOR_OPEN` | `6f03f82d485d4a20c2d2bfc13dc8979c1b229bf92c53f0eb36831abf3d75febc` |
+| `null_section_hopfion_metric_audit_2026-07-19/` | `EXACT_RECIPROCAL_HOPF_ORBIT_BLOCK_COMPATIBILITY_WITNESS; CONDITIONAL_UNIT_HOPF_CONNECTION_AFTER_TORIC_S3_COMPLETION; ANGULAR_SLOTS_GLOBAL_CLOSURE_BOUNDARY_CONFIGURATION_SPACE_AND_ACTION_OPEN` | `e195d14349407c23e4a050628ec84298d3d35e23e2c25b5cf285a5c81f8e989b` |
+| `angular_toric_closure_selector_2026-07-19/` | `S3_AND_FREE_HOPF_ACTION_UNIQUE_CONDITIONAL_WITHIN_SUPPLIED_TORIC_CAP_PREMISES; FIRST_MISSING_GATE_TRANSVERSE_SPATIAL_RECIPROCAL_REALIZATION_AND_PERIODICITY; CONDITIONAL_SECOND_GATE_FINITE_CELL_CAP_COMPLETION_OPEN` | `64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50` |
 
 The GR-constraint regrade is an overlay only. Its derivation passed 29/29; its independent verifier
 passed 24/24 with 45/45 semantic/source catches; two fresh closure reviews returned `PASS`. The
 topology audit separately passed 11/11 exact algebra anchors and 13/13 mutation catches; its
 deterministic verifier is explicitly a self-consistency/regression gate, while the fresh adversarial
-semantic review is recorded separately.
+semantic review is recorded separately. The null-section/Hopf metric audit passed its registered
+exact algebra and adversarial gates. The angular–toric audit then passed 25/25 algebra checks and
+23/23 catch-proofs; its fresh adversarial review returned `PASS` after the registered semantic
+corrections.
 
 ## Particle/matter premise boundary
 
@@ -98,24 +118,29 @@ soliton.
 
 ## Current open discriminator — not launched
 
-`OPEN_NOT_PREREGISTERED_NULL_S2_SECTION_AND_BOUNDARY_SELECTOR`
+`OPEN_NOT_PREREGISTERED_TRANSVERSE_SPATIAL_RECIPROCAL_REALIZATION_AND_PERIODICITY`
 
-Before importing more Hopfion actions or launching time-live computation, the narrowest conceptual
-question is:
+Before importing more Hopfion actions, choosing a finite-cell cap, or launching time-live
+computation, the narrowest conceptual question is:
 
-> Does UDT select a conformally natural section or texture of its null-direction sphere bundle,
-> together with a finite-cell boundary/framing and comparison rule, without positing an independent
-> carrier?
+> Does exact UDT geometry derive two transverse spatial directions that carry the reciprocal
+> exponential pair as periodic circles, without reassigning the founding temporal/parallel pair or
+> inserting a torus by hand?
 
-A future bounded audit could test this at the kinematic/bundle level. It must fail closed if a
-section, connection, frame, or boundary is chosen merely to reproduce the existing Hopfion. The
-local celestial `S2` is not UDT-unique by itself; every 4D Lorentzian conformal geometry has it. A
-distinctive result would require Reciprocity, finite-cell structure, or bootstrap closure to select
-the additional structure.
+A future bounded audit could test this at the exact metric/representation level. It must fail closed
+if spatial slots, angular periodicity, an integral lattice, or a quotient action are selected merely
+to reproduce the existing Hopfion. The direct celestial-section identity remains blocked without
+soldering/frame/connection data, while the toric route remains conditional until its spatial slot
+and periodicity are derived.
 
-Only after that seam is addressed—or explicitly held conditional—does the earlier unlaunched
-time-live proposal become well-framed. That later study would compare the same frozen scoped soliton
-across the smallest admissible time-live completions:
+If that first gate is derived, the next question is separately whether the finite cell closes the
+two directions by opposing smooth primitive eigen-circle caps. Current finite-cell canon does not
+say so. It permits a physical finite boundary without a cap, and general toric gluing can retain
+same-cycle or lens-space alternatives. Smoothness also leaves non-round `S3` interiors.
+
+Only after those ordered premises are derived—or explicitly held conditional—does the earlier
+unlaunched time-live proposal become well-framed. That later study would compare the same frozen
+scoped soliton across the smallest admissible time-live completions:
 
 1. freeze the soliton, finite-cell boundary, carrier interpretation, and all present premise stamps;
 2. enumerate minimal time-live completions without promoting any one;
@@ -133,9 +158,9 @@ Possible later interpretations, not preregistered outcomes:
 - shared stable conditions could support the open shared-static-sector route;
 - completion-dependent stability could expose a missing structural dynamical selector.
 
-No section-selector audit or time-live calculation is authorized by this checkpoint. Either requires
-a separate preregistration defining its complete candidate space, chosen-versus-derived premises,
-falsifiers, and exact stop conditions.
+No transverse-realization audit, cap-completion audit, or time-live calculation is authorized by
+this checkpoint. Each requires a separate preregistration defining its complete candidate space,
+chosen-versus-derived premises, falsifiers, and exact stop conditions.
 
 ## Authority boundary
 
@@ -144,6 +169,8 @@ falsifiers, and exact stop conditions.
 - No carrier, action, source law, GR constraint, lapse/shift ontology, or bridge is adopted.
 - No null-direction section, frame/transport law, physical carrier boundary, or topology-propagation
   theorem is adopted.
+- No transverse spatial reciprocal torus, angular periodicity, cap cycle, `S3` universe, Hopf
+  quotient, or chirality is adopted.
 - No canonization is performed.
 - Complete action, native source, finite-cell differentiable boundary action, normalized charge,
   unconditional mass, and carrier emergence remain `OPEN`.
