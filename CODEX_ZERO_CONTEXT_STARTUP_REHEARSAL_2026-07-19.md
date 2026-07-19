@@ -36,6 +36,11 @@ canonization was performed.
 4. Commit `ea5b4bfc6f526e989e5733db1067e8bafdee6f17` corrected those four issues.
 5. The final fresh-clone rehearsal at `ea5b4bf` returned `PASS`, exit code 0, with a clean synchronized
    worktree and no remaining operational ambiguity that would block a safe successor.
+6. A post-pass mechanical check found that the marked `LIVE.md` slice was 92 lines, although the
+   rehearsal contract capped a single command at 80. The unchanged general binding-method block was
+   moved immediately below the marker. The required startup slices are now 70 lines in `LIVE.md` and
+   48 lines in `HANDOFF.md`; all method text remains present, and `AGENTS.md` still directs the
+   targeted method read later in the startup sequence.
 
 ## Final successor readout
 

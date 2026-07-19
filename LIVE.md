@@ -26,28 +26,6 @@ order is: **`UDT_METHOD_MUSIC.md`** → **`UDT_DOTTED_LINE.md`** → **`UDT_ELEG
 Free-\(D_A\) / mixed scoreboards = **`grok/quarantine_free_DA/`** only (not live).
 Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE_historical_frontier_through_2026-07-08.md` and `archive/INDEX_pre_simple_metric_WR_L_2026-07-09.md`.
 
-## Binding method (never skip)
-- CLAUDE.md "How we work": MAP / OBSERVE / PONDER are primary, DERIVE is gated. Let structure
-  EMERGE; pre-work discussion in LAY language; "chose or derived?" / "observing or targeting?".
-- Discipline skills (`.claude/skills/`): a compatible Claude runtime may auto-load them; Codex must
-  manually read only the protocol triggered by the actual task. Core protocols are **solver-first**,
-  **verifier-before-record** (incl. cross-model escalation), **no-shortcuts** (run `python3 -m pytest
-  tests/` — **expect 1 FAILED** = the known hygiene-header doc backlog on 36 `simple_metric_*` result
-  docs, NOT a code failure; ~69 passed / 1 xfailed otherwise), and **completeness-map**.
-- **DRIVER TRIGGERS (CLAUDE.md) + harness HOOKS** (`.claude/hooks/corral_trigger.py`, fires on
-  Task/Bash/git-commit) are binding method. In a compatible Claude runtime the hooks make the corral
-  fire without being challenged; Codex must not assume the hooks or banner are active and must apply
-  the triggers manually. The allowed-lane clause (category-A technique always GREEN) is non-droppable.
-  **CLAUDE-HARNESS CONFIRMATION (2026-07-01 startup):** the `✓ CORRAL GUARDRAILS ACTIVE` banner and six
-  auto-loaded triggers passed their self-check in that runtime. Memory freshness: the
-  TOP entry in MEMORY.md is the CURRENT frontier; older FRONTIER-labeled entries are tagged "SUPERSEDED as frontier"
-  (durable lesson only); the rest are durable principle-memories. Read the TOP entry + this LIVE file for the live plan. **The auto-loaded memory snapshot can LAG disk
-  (observed 2026-07-03): on resume, re-read MEMORY.md FROM DISK — this file + disk memory win over the snapshot.**
-- **DATA-BLIND:** never load the six lepton wall numbers during a derivation (contract 26fc757). We
-  predict RATIOS.
-- **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
-  background-poll a solve.
-
 ## ============ CURRENT STATE (2026-07-19 — ANGULAR–TORIC CLOSURE SELECTOR AUDIT COMPLETE AND VERIFIED. THE RECIPROCAL EXPONENTIAL PAIR EXACTLY MATCHES A HOPF TORUS ORBIT BLOCK. S3 TOPOLOGY AND FREE DIAGONAL/ANTI-DIAGONAL HOPF ACTIONS ARE UNIQUE ONLY WITHIN EXPLICITLY SUPPLIED GLOBAL TORIC EIGENCAP PREMISES. REGISTERED UDT DOES NOT YET DERIVE THE FIRST GATE: TRANSVERSE SPATIAL RECIPROCAL REALIZATION AND PERIODICITY. FINITE-CELL CAP COMPLETION IS A DISTINCT CONDITIONAL SECOND GATE. ROUND-S2 CARRIER, COMPLETE ACTION/SOURCE/BOUNDARY LAW, AND TIME-LIVE TOPOLOGY LAW REMAIN OPEN. NO NEXT STUDY IS LAUNCHED OR AUTHORIZED. H3 STATIC FINITE-BOX STABILITY REMAINS SETTLED WITHIN ITS CARRIER/BOX PREMISES. R0–R1H REORGANIZATION REMAINS PAUSED. NO CANONIZATION OR GPU WORK.) ============
 
 **➤➤➤ JULY 19 ANGULAR–TORIC CLOSURE CHAIN — COMPLETE EVIDENCE, NO FOLLOW-ON LAUNCHED:**
@@ -92,6 +70,28 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
   `e195d14349407c23e4a050628ec84298d3d35e23e2c25b5cf285a5c81f8e989b`.
 
 <!-- STARTUP_CURRENT_END -->
+
+## Binding method (never skip)
+- CLAUDE.md "How we work": MAP / OBSERVE / PONDER are primary, DERIVE is gated. Let structure
+  EMERGE; pre-work discussion in LAY language; "chose or derived?" / "observing or targeting?".
+- Discipline skills (`.claude/skills/`): a compatible Claude runtime may auto-load them; Codex must
+  manually read only the protocol triggered by the actual task. Core protocols are **solver-first**,
+  **verifier-before-record** (incl. cross-model escalation), **no-shortcuts** (run `python3 -m pytest
+  tests/` — **expect 1 FAILED** = the known hygiene-header doc backlog on 36 `simple_metric_*` result
+  docs, NOT a code failure; ~69 passed / 1 xfailed otherwise), and **completeness-map**.
+- **DRIVER TRIGGERS (CLAUDE.md) + harness HOOKS** (`.claude/hooks/corral_trigger.py`, fires on
+  Task/Bash/git-commit) are binding method. In a compatible Claude runtime the hooks make the corral
+  fire without being challenged; Codex must not assume the hooks or banner are active and must apply
+  the triggers manually. The allowed-lane clause (category-A technique always GREEN) is non-droppable.
+  **CLAUDE-HARNESS CONFIRMATION (2026-07-01 startup):** the `✓ CORRAL GUARDRAILS ACTIVE` banner and six
+  auto-loaded triggers passed their self-check in that runtime. Memory freshness: the
+  TOP entry in MEMORY.md is the CURRENT frontier; older FRONTIER-labeled entries are tagged "SUPERSEDED as frontier"
+  (durable lesson only); the rest are durable principle-memories. Read the TOP entry + this LIVE file for the live plan. **The auto-loaded memory snapshot can LAG disk
+  (observed 2026-07-03): on resume, re-read MEMORY.md FROM DISK — this file + disk memory win over the snapshot.**
+- **DATA-BLIND:** never load the six lepton wall numbers during a derivation (contract 26fc757). We
+  predict RATIOS.
+- **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
+  background-poll a solve.
 
 **➤➤➤ JULY 19 NATIVE HOPFION TOPOLOGY AUDIT — COMPLETE PRECEDING LAYER:**
 - **READ NEXT:** `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then the exact package evidence it names.
