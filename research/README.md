@@ -16,11 +16,18 @@ The complete frozen root universe has 1,114 paths. Each has exactly one fixed-ba
 - Reciprocal kinematics: `DERIVED`.
 - C-squared/Bach bulk: `UNIQUE-CONDITIONAL`.
 - EH, S2, and every present mass statement: `CONDITIONAL`.
+- Existing H3/no-null representation: `FULL_3D_HOPF_CAPABLE`; banked configuration:
+  `OBSERVED_CARRIER_CONDITIONAL`.
+- Conformal-Lorentzian projective null-direction `S2` fiber: `CONDITIONAL_DERIVED_FIBER`; carrier
+  section, framing/transport, and physical finite-cell boundary: `OPEN`.
 - Complete action, native source law, differentiable finite-cell boundary action, and normalized boundary charge/mass: `OPEN`.
 - H3 particle-mass arc: `COMPLETE THROUGH F`; finite-slice “single robust basin” remains a `STRONG LEAD` within its preregistered slice.
 - Macro L form: `DERIVED under WR-L`; the native package remains `OPEN`.
 
-Sources: [`FINAL_STATUS_LEDGER.tsv`](../native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv), [`LIVE.md`](../LIVE.md), and [`HANDOFF.md`](../HANDOFF.md). These labels are indexed, not re-adjudicated here.
+Sources: [`FINAL_STATUS_LEDGER.tsv`](../native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv),
+[`native Hopfion topology audit`](../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md),
+[`LIVE.md`](../LIVE.md), and [`HANDOFF.md`](../HANDOFF.md). These labels are indexed, not
+re-adjudicated here.
 
 ## R1H effective registry and migration boundary
 

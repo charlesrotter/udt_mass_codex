@@ -20,11 +20,15 @@ particle-lane evidence, not the global scientific frontier.
 
 The verified bootstrap, Reciprocity, infinite-c, optical-flow, co-presence, and GR-constraint
 selector chain is summarized in
-[`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md). The current working
-hypothesis is that bootstrap may select law/parameter/solution combinations capable of sustaining
-stable matter in a complete time-live finite universe. A CPU-first time-live comparison of the
-existing scoped soliton is proposed but not preregistered or launched. It is not a derived bootstrap
-law, carrier adoption, action choice, mass theorem, canonization, or GPU authorization.
+[`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md). The subsequent
+CPU-only [native Hopfion topology audit](native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md)
+found that the existing particle implementation is already a genuine full-3D Hopfion construction.
+The remaining upstream problem is carrier emergence: the conditional conformal-Lorentzian metric
+has a CSN-invariant celestial `S2` null-direction fiber, but it does not select the carrier section,
+framing/transport, physical finite-cell boundary, action, or time-live topology law. The round-`S2`
+carrier remains `POSIT` / `CONDITIONAL`. The current bootstrap interpretation remains a working
+hypothesis, and no follow-on derivation, time-live solve, carrier adoption, action choice, mass
+theorem, canonization, or GPU work is authorized by this checkpoint.
 
 ## Repository reorganization checkpoint R0–R1H
 

@@ -6,10 +6,13 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
 **⚠ CURRENT SCIENTIFIC FRONTIER (2026-07-19):** after this CURRENT STATE block read
-`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`. The bootstrap/stable-matter interpretation is a
-`WORKING_HYPOTHESIS`; the time-live soliton selector audit is `PROPOSED_NOT_PREREGISTERED` and has
-not been launched. The **PARTICLE-MASS lane** (H3 stability→mass→basin arc) remains complete in its
-stated static finite-box scope — read
+`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
+`native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md`. The bootstrap/stable-matter
+interpretation is a `WORKING_HYPOTHESIS`. The bounded native Hopfion topology audit is complete: the
+existing implementation is already full 3D Hopf-capable, but the carrier remains conditional and
+the metric null-direction `S^2` is only a conditional fiber, not a selected carrier section. The
+earlier time-live soliton study remains an unlaunched later proposal. The **PARTICLE-MASS lane**
+(H3 stability→mass→basin arc) remains complete in its stated static finite-box scope — read
 `noNull_behavioral_F_results.md` + `noNull_boundary_virial_results.md` + `noNull_phaseG_mass_results.md` →
 **`stability_branch_follow_256_DECISION.md`** (detailed arc record) → MEMORY.md TOP. The **MACRO lane** (simple-metric / WR-L) is a separate ongoing lane; its read
 order is: **`UDT_METHOD_MUSIC.md`** → **`UDT_DOTTED_LINE.md`** → **`UDT_ELEGANCE_UNCOVER.md`** → **`SIMPLE_METRIC_MACRO.md`**.
@@ -33,10 +36,35 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **ANTI-HANG:** coupled solves are SLOW — bound the grid (Nr<=16/24), ONE clean process, never
   background-poll a solve.
 
-## ============ CURRENT STATE (2026-07-19 — JULY 18–19 SCIENTIFIC SELECTOR CHAIN COMPLETE AND VERIFIED THROUGH CO-PRESENCE GR-CONSTRAINT REGRADE. Reciprocal clock/ruler/optical linkage DERIVED only in the registered static reciprocal class; universal realization, action, source, scale calibration, unconditional mass, and bridge OPEN. Co-presence = whole-solution membership, not instantaneous propagation. Bootstrap variation placement UNDERDETERMINED. Proposed next = CPU-first time-live soliton selector audit, NOT PREREGISTERED OR LAUNCHED. H3 static finite-box stability remains settled within its carrier/box premises; time-live matter theorem remains OPEN. R0–R1H reorganization remains PAUSED. No canonization or GPU work.) ============
+## ============ CURRENT STATE (2026-07-19 — NATIVE HOPFION TOPOLOGY AUDIT COMPLETE AND VERIFIED. EXISTING PARTICLE IMPLEMENTATION IS FULL 3D HOPF-CAPABLE; IT WAS NOT THE MISSING LEVEL. ROUND-S2 CARRIER REMAINS POSIT/CONDITIONAL. CONDITIONAL 4D CONFORMAL-LORENTZIAN METRIC SUPPLIES A CSN-INVARIANT CELESTIAL S2 NULL-DIRECTION FIBER, BUT SECTION, FRAME/TRANSPORT, PHYSICAL FINITE-CELL BOUNDARY, ACTION, AND TIME-LIVE TOPOLOGY LAW REMAIN OPEN. PRIOR RECIPROCAL/OPTICAL/CO-PRESENCE AND GR-CONSTRAINT RESULTS SURVIVE. NO NEXT STUDY IS LAUNCHED OR AUTHORIZED. H3 STATIC FINITE-BOX STABILITY REMAINS SETTLED WITHIN ITS CARRIER/BOX PREMISES. R0–R1H REORGANIZATION REMAINS PAUSED. NO CANONIZATION OR GPU WORK.) ============
 
-**➤➤➤ JULY 18–19 SCIENTIFIC FRONTIER — COMPLETE EVIDENCE, NEXT STUDY ONLY PROPOSED:**
+**➤➤➤ JULY 19 NATIVE HOPFION TOPOLOGY AUDIT — COMPLETE EVIDENCE, NO FOLLOW-ON LAUNCHED:**
 - **READ NEXT:** `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then the exact package evidence it names.
+- **✅ EXISTING 3D REPRESENTATION:** the H3 and corrected no-null particle implementations already
+  use a `3 x N x N x N` unit-vector field, a degree-one `R3 -> S3 -> S2` Hopf seed, all three spatial
+  derivatives, and Whitehead/Hopf charge. They are full 3D Faddeev–Skyrme Hopfion constructions,
+  not the retired imported `S3 -> S3` radial Skyrmion.
+- **✅ METRIC TOPOLOGY LEAD, CONDITIONAL:** after the inherited/conditional 4D
+  conformal-Lorentzian readout, projective null lines form a celestial conformal/topological `S2`
+  fiber preserved by positive Common-Scale rescaling. This is a promising upstream bridge candidate,
+  but it is not UDT-unique and is not a selected physical carrier.
+- **OPEN SELECTOR SEAM:** a fiber does not select a section, fixed round target metric,
+  frame/trivialization, connection/transport law, `L2+L4` dynamics, physical finite-cell carrier
+  boundary, or global/time-live topology theorem. The smallest open question is whether Reciprocity,
+  finite-cell structure, or bootstrap closure selects those structures without importing the
+  existing Hopfion by hand.
+- **EVIDENCE SCOPE:** banked evidence reports the localized `|Q| approximately 1` torus, but the large
+  raw field checkpoints were absent from the clean checkout and were not freshly replayed. The
+  configuration remains `OBSERVED_CARRIER_CONDITIONAL`; static stability remains
+  `SETTLED_STATIC_FINITE_BOX_CONDITIONAL`.
+- **FINAL VERDICT:**
+  `EXISTING_3D_HOPFION_NOT_MISSED; HOPF_STRUCTURE_CARRIER_CONDITIONAL;`
+  `METRIC_NULL_S2_FIBER_CONDITIONAL; SECTION_AND_BOUNDARY_SELECTOR_OPEN`.
+- **PACKAGE:** `native_hopfion_topology_audit_2026-07-19/`; read `AUDIT_REPORT.md` then
+  `TOPOLOGY_STATUS_LEDGER.tsv`. Manifest SHA-256:
+  `6f03f82d485d4a20c2d2bfc13dc8979c1b229bf92c53f0eb36831abf3d75febc`.
+
+**➤➤➤ JULY 18–19 SCIENTIFIC SELECTOR CHAIN — COMPLETE PRIOR LAYER:**
 - **✅ BOOTSTRAP:** current wording is `ON_SHELL_CLOSURE_OR_ADMISSIBILITY`; pre-scale versus
   post-scale variation and a two-stage bridge remain `UNDERDETERMINED`.
 - **✅ FIELD/CONSTRAINT SELECTORS:** metric-only and metric-plus-auxiliary witnesses remain
@@ -56,13 +84,12 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
   `022f3c97916e38f29260812c14ad0136574d1908c70aabc7d4e56ae99d78f7bc`.
 - **WORKING HYPOTHESIS, NOT RESULT:** bootstrap may select law/parameter/solution combinations that
   permit stable matter in a complete time-live finite universe.
-- **PROPOSED_NOT_PREREGISTERED:** freeze the scoped soliton and compare minimal time-live completions
-  with CPU-only linear spectra, constraint propagation, boundary flux, and shared-versus-dependent
-  stability tests. Stability must be independently defined, not fitted to preserve a preferred
-  soliton. No solve or GPU launch follows from this navigation checkpoint.
+- **LATER PROPOSAL ONLY / NOT LAUNCHED:** the earlier suggestion to freeze the scoped soliton and
+  compare minimal time-live completions remains available after the upstream carrier-section seam is
+  addressed or deliberately held conditional. It is not the currently authorized next action.
 - **OPEN:** parent whole-solution law, field census, variation domain, representative map, complete
-  action/source, finite-cell differentiable boundary action, normalized charge, carrier emergence,
-  unconditional mass, and dynamical bridge.
+  action/source, finite-cell differentiable boundary action, normalized charge, carrier section and
+  transport, carrier emergence, unconditional mass, and dynamical bridge.
 
 **➤➤➤ R1H EFFECTIVE-REGISTRY CHECKPOINT — REORGANIZATION PAUSED (2026-07-18):**
 - **✅ R0–R1F COMPLETE:** fixed historical inventories, preregistrations, planning records, and

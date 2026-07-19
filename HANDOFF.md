@@ -5,10 +5,34 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-19).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-19 — co-presence/constraint-selector chain complete; time-live bootstrap study proposed but not launched; reorganization paused)
+## CURRENT (2026-07-19 — native Hopfion topology audit complete; carrier-section selector open; no follow-on launched; reorganization paused)
 
 **Read LIVE.md CURRENT STATE topmost layer first, then
-`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`.** The July 18–19 scientific chain is complete and verified:
+`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
+`native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md`.** The bounded CPU-only topology audit is
+complete and verified:
+
+- the existing H3 and corrected no-null implementations are already genuine full-3D
+  Faddeev–Skyrme Hopfion constructions, not the retired imported radial Skyrmion;
+- the banked localized `|Q| approximately 1` configuration remains
+  `OBSERVED_CARRIER_CONDITIONAL`; its large raw field was absent from the clean checkout and was not
+  freshly replayed;
+- exact C0/C1 still leaves the round-`S2` carrier `WORKING / POSIT / CONDITIONAL`;
+- after the inherited/conditional 4D conformal-Lorentzian readout, projective null lines supply a
+  celestial conformal/topological `S2` fiber preserved by positive Common-Scale rescaling;
+- that fiber is not a selected section, fixed round carrier target, frame/trivialization,
+  connection/transport law, action, physical finite-cell boundary, or time-live topology theorem;
+- the smallest open conceptual seam is whether Reciprocity, finite-cell structure, or bootstrap
+  closure selects those structures without importing the existing Hopfion by hand.
+
+Final verdict:
+`EXISTING_3D_HOPFION_NOT_MISSED; HOPF_STRUCTURE_CARRIER_CONDITIONAL;`
+`METRIC_NULL_S2_FIBER_CONDITIONAL; SECTION_AND_BOUNDARY_SELECTOR_OPEN`.
+
+Package: `native_hopfion_topology_audit_2026-07-19/`; manifest
+`6f03f82d485d4a20c2d2bfc13dc8979c1b229bf92c53f0eb36831abf3d75febc`.
+
+The prior July 18–19 scientific selector chain also remains complete and verified:
 
 - bootstrap remains `ON_SHELL_CLOSURE_OR_ADMISSIBILITY`; variation placement and the two-stage
   bridge are `UNDERDETERMINED`;
@@ -28,13 +52,12 @@
 **WORKING HYPOTHESIS, NOT A RESULT:** bootstrap may select the law/parameter/solution combinations
 that sustain stable matter in a complete time-live finite universe.
 
-**PROPOSED_NOT_PREREGISTERED:** freeze the existing scoped static finite-box soliton and compare the
-smallest admissible time-live completions with CPU-only linearized spectra, constraint propagation,
-boundary flux, and shared-versus-completion-dependent stability tests. Stability must be specified
-independently. No time-live solve, carrier adoption, GPU work, or dynamical completion is authorized
-by this handoff.
+**LATER PROPOSAL ONLY / NOT LAUNCHED:** the earlier CPU-only comparison of minimal time-live
+completions remains a possible later study after the upstream carrier-section seam is addressed or
+held explicitly conditional. No topology derivation, time-live solve, carrier adoption, action
+construction, GPU work, or dynamical completion is authorized by this handoff.
 
-Final July 19 package: `copresence_gr_constraint_regrade_2026-07-19/`; manifest
+Prior co-presence/constraint package: `copresence_gr_constraint_regrade_2026-07-19/`; manifest
 `022f3c97916e38f29260812c14ad0136574d1908c70aabc7d4e56ae99d78f7bc`.
 
 Prior particle session arc 07-13→17 in one paragraph:

@@ -25,13 +25,15 @@ Before interpreting the frontier, read from disk in this exact order:
 1. `LIVE.md` — its topmost `CURRENT STATE` overrides every other status description.
 2. `HANDOFF.md` — top/current block only.
 3. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — current scientific checkpoint, status distinctions,
-   and the proposed-but-not-launched next study.
-4. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task.
-5. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
+   the completed native Hopfion topology audit, and the current open selector seam.
+4. `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` when carrier, topology, or the next
+   scientific question is relevant; then its status ledger and exact load-bearing evidence.
+5. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task.
+6. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
    is durable lane evidence, not the global frontier.
-6. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline.
-7. The relevant full protocols under `.claude/skills/*/SKILL.md`.
-8. `INDEX.md` and the top of `MEMORY.md` for pointers only; neither can overrule `LIVE.md`.
+7. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline.
+8. The relevant full protocols under `.claude/skills/*/SKILL.md`.
+9. `INDEX.md` and the top of `MEMORY.md` for pointers only; neither can overrule `LIVE.md`.
 
 For current artifact locations, use `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`. The R0–R1C
 ownership, readiness, census, preregistration, and verification records are fixed historical
@@ -42,10 +44,12 @@ Then give Charles a short orientation report: actual HEAD and dirt, the current 
 premise stamps, the open gate, and the proposed bounded next action. Do not mutate files or launch a
 long solve until that orientation is complete.
 
-The current bootstrap/stable-matter interpretation is a working hypothesis, and the time-live
-soliton selector audit is proposed but not preregistered or launched. Do not silently turn that
-navigation pointer into authority to choose a dynamical completion, adopt a carrier, run GPU work,
-or claim a bootstrap parameter-selection theorem.
+The bootstrap/stable-matter interpretation remains a working hypothesis. The bounded native Hopfion
+topology audit is complete: the existing implementation is already full 3D Hopf-capable, while the
+carrier remains conditional and the conditional metric null-direction `S^2` is only a fiber, not a
+selected section. Do not silently turn that bridge candidate—or the earlier time-live proposal—into
+authority to adopt a carrier, section, framing, boundary, dynamical completion, run GPU work, or
+claim a bootstrap parameter-selection theorem.
 
 ## Codex/Claude compatibility
 
@@ -72,6 +76,9 @@ Do not rely on conversational memory. Disk evidence wins.
   fluids, Q-balls, boson stars, or textbook mechanisms as UDT derivations. They may be comparison or
   readout tools only, clearly labeled.
 - The `S^2` carrier is a `POSIT`, not a derived necessity. A replacement or emergence remains open.
+- The conditional conformal-Lorentzian null-direction fiber is a celestial topological/conformal
+  `S^2`; it does not by itself derive the carrier's fixed round target, section, transport, action,
+  or boundary completion.
 - An EH metric-only action is `CONDITIONAL` through the stated minimality premise; it is not native UDT
   merely because it is mathematically familiar.
 - No fitting, fudge factors, hard physical cutoffs, effective corrections, or invented couplings.

@@ -2,15 +2,19 @@
 
 **⚠ BRANCH: `grok` (2026-07-19)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
-**➤ CURRENT SCIENTIFIC FRONTIER:** `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`. The verified chain runs
-from bootstrap variation-domain underdetermination through the final co-presence GR-constraint
-regrade. Current maximum conclusion: reciprocal/optical/co-presence kinematic structure is clarified,
-but no parent whole-solution law, action, source, field census, native ADM constraint, lapse/shift
-ontology, material realization, carrier emergence, unconditional mass, or C2/EH bridge is selected.
-The bootstrap/stable-matter interpretation is a `WORKING_HYPOTHESIS`; a CPU-first comparison of the
-scoped soliton across minimal time-live completions is `PROPOSED_NOT_PREREGISTERED` and not launched.
-Start evidence at `copresence_gr_constraint_regrade_2026-07-19/DERIVATION_REPORT.md`, then follow its
-source crosswalk and the frontier's nine-package table. No GPU work or canonization is authorized.
+**➤ CURRENT SCIENTIFIC FRONTIER:** `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
+`native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md`. The completed topology audit found that
+the current H3/no-null particle implementation is already full-3D Hopf-capable; the missed seam was
+not the 3D soliton mathematics but the upstream emergence of its carrier. The conditional 4D
+conformal-Lorentzian metric supplies a CSN-invariant celestial `S2` null-direction fiber, but no
+carrier section, fixed round target, frame/transport, physical finite-cell boundary, action, or
+time-live topology theorem is selected. The carrier remains `POSIT` / `CONDITIONAL`, and the banked
+configuration remains `OBSERVED_CARRIER_CONDITIONAL` because its raw field was not freshly replayed.
+Audit verdict:
+`EXISTING_3D_HOPFION_NOT_MISSED; HOPF_STRUCTURE_CARRIER_CONDITIONAL;`
+`METRIC_NULL_S2_FIBER_CONDITIONAL; SECTION_AND_BOUNDARY_SELECTOR_OPEN`. The preceding
+bootstrap/reciprocal/optical/co-presence/GR-constraint chain remains intact. No follow-on study, GPU
+work, or canonization is authorized.
 **R1H EFFECTIVE-REGISTRY CHECKPOINT — COMPLETE, VERIFIED, AND PAUSED:** R1E batch planning and R1F/B01 are complete. Fixed historical
 inventories and planning records remain immutable. Five active artifacts moved byte-identically:
 one R1D note and four behaviorally verified R1F macro verifiers. Resolve present locations through
@@ -102,6 +106,7 @@ Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`,
 | Thread B mirror-vs-wall results | `threadB_f2d_mirror_vs_wall_results.md` |
 | Time-live linear no-go + finite-amp | `threadB_timelive_linear_nogo_and_finite_amp_MAP.md` |
 | Matter carrier provenance | `matter_carrier_provenance_audit_results.md` |
+| Native Hopfion topology audit | `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md`, `native_hopfion_topology_audit_2026-07-19/TOPOLOGY_STATUS_LEDGER.tsv` |
 | Hopfion mass / ambient-φ MAP | `hopfion_mass_background_coupling_MAP.md` |
 | Hopfion G/P exterior NEXT charter | `hopfion_GP_exterior_NEXT_CHARTER.md` |
 | Hopfion G/P exterior probe results | `hopfion_GP_exterior_probe_results.md` |
