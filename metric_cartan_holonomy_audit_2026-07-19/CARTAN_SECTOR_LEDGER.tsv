@@ -1,0 +1,16 @@
+id	object	input_or_definition	what_is_derived	what_is_not_derived	status
+C01	coframe	chosen nondegenerate metric representative and local orthonormal frame	metric reconstruction	preferred coframe or representative	CHOSE_GAUGE_PER_REPRESENTATIVE
+C02	Levi-Civita spin connection	T^I=0 and metric compatibility	unique omega for supplied coframe	independent dynamical connection or EOM	DERIVED_PER_REPRESENTATIVE
+C03	curvature two-form	Omega=d omega+omega wedge omega	Riemann curvature and infinitesimal holonomy	an equation setting a contraction to zero	DERIVED_PER_REPRESENTATIVE
+C04	Cartan/Bianchi identities	definitions plus torsion-free connection	Omega wedge e=0 and D Omega=0	action, source, or local selector	DERIVED_IDENTITY_NOT_DYNAMICS
+C05	local Lorentz gauge	orthonormal-frame change	connection gauge shift and curvature conjugacy invariance	preferred angular direction	DERIVED_GAUGE_STRUCTURE
+C06	reciprocal base	current reciprocal metric realization	base coframe contribution	complete transverse block or dynamics	CONDITIONAL_REALIZATION
+C07	transverse zweibein	arbitrary positive q_AB	trace, shear, and screen SO(2) connection	fixed round screen or carrier	OPEN_METRIC_SECTOR
+C08	twist/shift	A^A_i in full 2+2 decomposition	horizontal curvature and mixed Cartan terms	zero twist or unique twist	OPEN_METRIC_SECTOR
+C09	finite-cell boundary data	current registered phi seal matching only	phi boundary equivalence class	transverse twist jets or interior curvature/holonomy	UNDERDETERMINED
+C10	holonomy fixed object	chosen connection plus loop family	parallel/fixed objects if a reduction exists	unique reduction, section, or matter object	OPEN_SPECIAL_REDUCTION
+C11	conditional C2 action	pre-scale variation and locality premises	Bach bulk equations within declared domain	physical scale, source, boundary completion	UNIQUE_CONDITIONAL
+C12	conditional EH action	post-scale representative plus minimality premise	Einstein-Hilbert bulk route within declared domain	native selection of representative or bridge	CONDITIONAL
+C13	single-axis metric	h=I+(exp(2phi)-1)n tensor n	projective n sign invariance and metric curvature	carrier emergence or native necessity	CHOSE_COMPARISON
+C14	angular pullback area	n dot (dn cross dn)	topological two-form after target/section choice	equality to metric C2	CONDITIONAL_CARRIER_OBJECT
+C15	metric holonomy as matter	additional global identification	possible descriptive program	sector, functional, source, boundary, stability	OPEN_NOT_DERIVED

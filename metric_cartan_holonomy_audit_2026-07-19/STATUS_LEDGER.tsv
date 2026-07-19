@@ -1,0 +1,19 @@
+id	question	result	status	scope_or_remaining_gate
+S01	Is the Levi-Civita Cartan connection native metric information?	Yes after a nondegenerate metric representative is supplied	DERIVED_PER_REPRESENTATIVE	No preferred coframe or physical representative follows
+S02	Do Cartan or Bianchi identities supply a field equation?	No; they hold for every Levi-Civita metric	NOT_DERIVED	Action/variation/bootstrap law remains open
+S03	Does the full metric contain phi-angular coupling?	Yes through transverse curvature, shear, twist, and mixed derivatives	DERIVED_GEOMETRY	No equation selecting their values follows
+S04	May twist/shear/off-diagonal sectors be silently removed?	No	OPEN	Such removal is a subfamily choice
+S05	Do Cartan identities plus equal chosen twist-boundary jets fix interior local loop transport?	No in the exact comparison family	REFUTED_KINEMATIC_IMPLICATION	All members share chosen u=q=q_prime=0 endpoints; this is not a complete-bootstrap solution family
+S06	Does a special one-dimensional holonomy fixed set follow generically?	No; examples have fixed dimensions 3, 1, or 0	UNDERDETERMINED	A special holonomy reduction needs another global condition
+S07	Does holonomy itself derive matter?	No	OPEN	Selected global sector, functional, source, boundary, and stability are missing
+S08	Is the provisional July-15 area-only F2 bridge current verified authority?	No	POST_JULY_PROVISIONAL_CANDIDATE	It identifies a test; its own independent-verification gate is open and later current audits control
+S09	In the chosen single-axis metric is C2 equal to area-only F2?	No; rank-one n has F=0 while C2=3/4 at the preregistered point	REFUTED_IN_TESTED_CLASS	Conditional local metric tile only; no global numerical ordering is claimed
+S10	Does n to minus n leave the chosen axis metric unchanged?	Yes	DERIVED_IN_CONDITIONAL_TILE	Projective sign invariance does not select n
+S11	Are C2 and EH built from the same Cartan curvature?	Yes	DERIVED_COMMON_ORIGIN	Common origin is not an action identity
+S12	Does common origin derive a C2-to-EH bridge?	No	OPEN	Contractions, scale weights, variation domains, and boundaries differ
+S13	What is the constant-scale distinction in 4D?	sqrt(g) C2 has weight 0; sqrt(g) R has weight 2	DERIVED_KINEMATICS	Local scale selection and boundary completion remain open
+S14	Does this audit derive a native phi-angular equation?	No	OPEN	No current premise turns the curvature readout into an EOM
+S15	Does this audit force a lightlike phi branch or repeated curvature direction?	No	NOT_DERIVED	Earlier counterfamilies remain effective
+S16	What does the holonomy/bridge route still require?	A global admissibility/reduction-or-soldering rule with variation and boundary content	ROUTE_SCOPED_CANDIDATE_OPEN_GATE	This is not claimed to be UDT's unique missing object and does not invent a postulate
+S17	Is GPU solution-space grinding indicated now?	No	NOT_AUTHORIZED_AND_NOT_YET_DIAGNOSTIC	The missing gate is conceptual/global rather than an unsampled local parameter
+S18	Maximum conclusion	Cartan geometry is canonical per representative but current UDT does not select holonomy, matter, or the C2-EH bridge	VERIFIED_WITH_CAVEATS	Bounded exact tiles plus current-source audit; not a complete action theorem

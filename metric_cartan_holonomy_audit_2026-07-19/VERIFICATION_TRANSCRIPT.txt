@@ -1,0 +1,39 @@
+Script started on 2026-07-19 17:56:06-04:00 [<not executed on terminal>]
+{
+  "catch_proofs": {
+    "EH_C2_identity_invented": "PASS",
+    "chosen_axis_promoted": "PASS",
+    "holonomy_called_matter": "PASS",
+    "holonomy_selector_promoted": "PASS",
+    "local_transport_promoted_to_global_holonomy_group": "PASS",
+    "off_diagonal_curvature_lowering_omitted": "PASS",
+    "rank_one_C2_deleted": "PASS",
+    "rank_one_area_changed": "PASS",
+    "route_scoped_gap_promoted_to_unique": "PASS",
+    "twist_boundary_equivalence_deleted": "PASS"
+  },
+  "checks": {
+    "derivation_transcript_matches_stdout": "PASS",
+    "deterministic_derivation_and_contract": "PASS",
+    "fresh_adversarial_review_contract": "PASS",
+    "independent_constant_scale_count": "PASS",
+    "independent_coordinate_axis_C2_vs_area": "PASS",
+    "independent_coordinate_twist": "PASS",
+    "ledger_coverage": "PASS",
+    "no_control_or_canon_edits": "PASS",
+    "report_contract": "PASS",
+    "source_inventory_replay_and_provenance_correction": "PASS"
+  },
+  "independent_witnesses": {
+    "axis_C2_at_x0_a4": "3/4",
+    "axis_K_at_xpi6_a4": "-3/8",
+    "axis_R_at_x0_a4": "-3/2",
+    "twist_R_up_x_yxy_at_midpoint": "729/1024"
+  },
+  "python": "3.10.12",
+  "result": "PASS",
+  "schema": "udt-metric-cartan-holonomy-verification-1.0",
+  "sympy": "1.13.1"
+}
+
+Script done on 2026-07-19 17:56:14-04:00 [COMMAND_EXIT_CODE="0"]

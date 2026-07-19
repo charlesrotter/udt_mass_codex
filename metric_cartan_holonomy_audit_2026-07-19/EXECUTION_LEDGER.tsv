@@ -1,0 +1,5 @@
+id	purpose	exact_command	python	sympy	exit_code	output_artifact	output_sha256	compute
+E01	primary exterior/metric algebra	env PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES='' python3 -B metric_cartan_holonomy_audit_2026-07-19/derive_metric_cartan_holonomy.py	3.10.12	1.13.1	0	DERIVATION_TRANSCRIPT.txt	269049856372519d1257984d0c02516720e853f984dafc20d73d68a6ec17c532	CPU_ONLY
+E02	independent coordinate verifier and catch proofs	env PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES='' python3 -B metric_cartan_holonomy_audit_2026-07-19/verify_metric_cartan_holonomy.py	3.10.12	1.13.1	0	VERIFICATION_TRANSCRIPT.txt	c6b6bbe146407781073468857e346fcb31346f860af3596b5562decfef9e2721	CPU_ONLY
+E03	fixed source inventory	env PYTHONDONTWRITEBYTECODE=1 python3 -B metric_cartan_holonomy_audit_2026-07-19/build_source_inventory.py	3.10.12	N/A	0	SOURCE_INVENTORY.tsv	332befac90a3f1b18733090ae2435cba472c352d452e71b5aadd763c66be0c80	CPU_ONLY
+E04	repository test baseline	env PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES='' python3 -m pytest tests/	3.10.12	N/A	1_EXPECTED_BASELINE	TEST_TRANSCRIPT.txt	feac2327027d705ebeba12ea2e60a164a629f23565f84c669cb212142d2f5e2d	CPU_ONLY

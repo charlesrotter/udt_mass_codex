@@ -1,0 +1,149 @@
+{
+  "abstract_cartan": {
+    "first_bianchi": "D T^I=Omega^I_J wedge e^J; torsion-free gives Omega^I_J wedge e^J=0",
+    "first_structure_equation": "T^I=de^I+omega^I_J wedge e^J",
+    "metric_only_choice": "T^I=0 and omega_IJ=-omega_JI uniquely determine Levi-Civita omega for a supplied nondegenerate coframe",
+    "second_bianchi": "D Omega^I_J=0",
+    "second_structure_equation": "Omega^I_J=d omega^I_J+omega^I_K wedge omega^K_J",
+    "status": "METRIC_DERIVED_IDENTITIES_NOT_EOM; NEITHER BIANCHI IDENTITY SETS OMEGA RICCI WEYL OR AN EULER_TENSOR TO ZERO"
+  },
+  "adjudication": {
+    "C2_EH_bridge": "NOT_DERIVED; SAME_CARTAN_CURVATURE_ORIGIN_BUT_DIFFERENT_CONTRACTIONS_SCALE_WEIGHTS_VARIATION_AND_BOUNDARY_GATES",
+    "cartan_identities": "DERIVED_NOT_DYNAMICS",
+    "connection_curvature": "LEVI_CIVITA_CONNECTION_AND_CURVATURE_METRIC_DERIVED_PER_REPRESENTATIVE",
+    "holonomy_selector": "UNDERDETERMINED_NOT_SELECTED_BY_CURRENT_FOUNDATION",
+    "metric_holonomy_matter": "NOT_DERIVED; CURVATURE_CLASSIFICATION_LACKS_SELECTED_SECTOR_FUNCTIONAL_SOURCE_BOUNDARY_AND_STABILITY",
+    "route_scoped_missing_object": "FOR_HOLONOMY_OR_C2_EH_BRIDGE_A_GLOBAL_METRIC_ADMISSIBILITY_REDUCTION_OR_SOLDERING_RULE_WITH_VARIATION_AND_BOUNDARY_CONTENT_IS_ONE_CANDIDATE_OPEN_GATE; NOT_CLAIMED_UNIQUE_AND_NOT_A_NEW_POSTULATE",
+    "single_axis_F2": "REFUTED_IN_CONDITIONAL_AXIS_METRIC_BY_RANK_ONE_NONZERO_C2"
+  },
+  "checks": {
+    "C2_constant_scale_weight": "PASS",
+    "EH_C2_not_same_Cartan_contraction": "PASS",
+    "EH_constant_scale_weight": "PASS",
+    "SO2_connection_gauge_curvature_invariance": "PASS",
+    "axis_gaussian_general": "PASS",
+    "axis_gaussian_nondiagonal_point": "PASS",
+    "axis_gaussian_point": "PASS",
+    "axis_isotropic_limit": "PASS",
+    "axis_projective_sign_invariance": "PASS",
+    "axis_rank_one_C2_cost_nonzero": "PASS",
+    "axis_rank_one_area_form": "PASS",
+    "axis_weyl_squared_point": "PASS",
+    "boundary_identical_twist_has_nonzero_interior_curvature": "PASS",
+    "holonomy_axis_fixed_dim": "PASS",
+    "holonomy_identity_fixed_dim": "PASS",
+    "holonomy_nonparallel_intersection_dim": "PASS",
+    "lambda_zero_member_is_flat": "PASS",
+    "twist_boundary_q_-1": "PASS",
+    "twist_boundary_q_1": "PASS",
+    "twist_boundary_qp_-1": "PASS",
+    "twist_boundary_qp_1": "PASS",
+    "twist_boundary_u_-1": "PASS",
+    "twist_boundary_u_1": "PASS",
+    "twist_curvature_12": "PASS",
+    "twist_curvature_13": "PASS",
+    "twist_curvature_23": "PASS",
+    "twist_first_bianchi_0": "PASS",
+    "twist_first_bianchi_1": "PASS",
+    "twist_first_bianchi_2": "PASS",
+    "twist_first_bianchi_3": "PASS",
+    "twist_second_bianchi_00": "PASS",
+    "twist_second_bianchi_01": "PASS",
+    "twist_second_bianchi_02": "PASS",
+    "twist_second_bianchi_03": "PASS",
+    "twist_second_bianchi_10": "PASS",
+    "twist_second_bianchi_11": "PASS",
+    "twist_second_bianchi_12": "PASS",
+    "twist_second_bianchi_13": "PASS",
+    "twist_second_bianchi_20": "PASS",
+    "twist_second_bianchi_21": "PASS",
+    "twist_second_bianchi_22": "PASS",
+    "twist_second_bianchi_23": "PASS",
+    "twist_second_bianchi_30": "PASS",
+    "twist_second_bianchi_31": "PASS",
+    "twist_second_bianchi_32": "PASS",
+    "twist_second_bianchi_33": "PASS",
+    "twist_torsion_0": "PASS",
+    "twist_torsion_1": "PASS",
+    "twist_torsion_2": "PASS",
+    "twist_torsion_3": "PASS"
+  },
+  "conditional_single_axis_challenge": {
+    "C2_4": "3/4",
+    "K": "-3/4",
+    "K_nondiagonal": "-3/8",
+    "R_4": "-3/2",
+    "classification": "CONDITIONAL_SINGLE_AXIS_CURVATURE_DIFFERENT_FROM_AREA_ONLY_F2",
+    "conditional_metric": "h=I+(a-1)n tensor n, a=exp(2 phi); n=(cos x,sin x,0)",
+    "gaussian_curvature": "(1 - a)*cos(2*x)/a",
+    "nondiagonal_test_point": "x=pi/6; a=4",
+    "pullback_area_F": "0",
+    "result": "RANK_ONE_F_ZERO_BUT_METRIC_C2_NONZERO",
+    "scope": "chosen single-axis local interior tile; not native carrier emergence or complete solution",
+    "test_point": "x=0; a=4"
+  },
+  "curvature_action_comparison": {
+    "C2_density_weight": "1",
+    "C_abcd_C_abcd_weight": "s^-4",
+    "EH_density_weight": "s**2",
+    "R_weight": "s^-2",
+    "constant_common_scale": "g -> s^2 g",
+    "levi_civita_connection": "unchanged only for constant s; changes for local Omega(x)",
+    "result": "SAME_CURVATURE_ORIGIN_DIFFERENT_CONTRACTIONS_AND_SCALE_WEIGHTS_NO_IDENTITY_BRIDGE",
+    "sqrt_abs_g_weight": "s^4"
+  },
+  "holonomy_fixed_sets": {
+    "classification": "HOLONOMY_FIXED_SET_CAN_BE_MANY_ONE_OR_NONE; SPECIAL_REDUCTION_REQUIRED_FOR_ONE",
+    "identity_holonomy_fixed_dimension": 3,
+    "scope": "representative SO(3) comparison families; not exhaustive Lorentz/conformal holonomy census",
+    "single_axis_rotation_fixed_dimension": 1,
+    "two_nonparallel_rotations_common_fixed_dimension": 0
+  },
+  "local_lorentz_gauge": {
+    "classification": "COFRAME_AND_CONNECTION_COMPONENTS_GAUGE_DEPENDENT; CURVATURE_HOLONOMY_CONJUGACY_INVARIANT",
+    "coframe_rotation": "(e2,e3) -> R(alpha(x))(e2,e3)",
+    "metric": "unchanged",
+    "screen_connection": "omega23 -> omega23 + d alpha (orientation convention dependent sign)",
+    "screen_curvature": "d omega23 unchanged because d^2 alpha=0"
+  },
+  "maximum_conclusion": "CARTAN_GEOMETRY_IS_CANONICAL_AFTER_A_METRIC_REPRESENTATIVE_BUT_DOES_NOT_SUPPLY_DYNAMICS;_FREE_TRANSVERSE_TWIST_PRODUCES_CHOSEN_BOUNDARY_EQUAL_CONTINUOUS_CURVATURE_AND_LOCAL_LOOP_TRANSPORT_FAMILIES;_THE_CHOSEN_SINGLE_AXIS_METRIC_C2_FUNCTIONAL_IS_NOT_AREA_ONLY;_HOLONOMY_MATTER_AND_THE_C2_TO_EH_BRIDGE_REMAIN_NOT_DERIVED",
+  "python": "3.10.12",
+  "schema": "udt-metric-cartan-holonomy-audit-1.0",
+  "sympy": "1.13.1",
+  "twisted_screen": {
+    "bump_family": {
+      "boundary_jets": "chosen comparison jets u=q=q_prime=0 at r=+-1 for every lambda",
+      "lambda_nonzero": "nonzero curvature and infinitesimal local loop transport",
+      "lambda_zero": "flat",
+      "midpoint_lambda_one": {
+        "q": "-27/16",
+        "q_prime": "9/8"
+      },
+      "q": "-6*lambda*r*(r - 1)**2*(r + 1)**2",
+      "q_prime": "-6*lambda*(r - 1)*(r + 1)*(5*r**2 - 1)",
+      "u": "lambda*(1 - r**2)**3"
+    },
+    "cartan_identities": "TORSION_ZERO; FIRST_BIANCHI_ZERO; SECOND_BIANCHI_ZERO WHILE CURVATURE_NONZERO",
+    "classification": "EXACT_CHOSEN_EQUAL_BOUNDARY_JETS_WITH_CONTINUOUSLY_DIFFERENT_INTERIOR_CURVATURE_AND_LOCAL_LOOP_TRANSPORT",
+    "coframe": "e0=dt; e1=dr; e2=dx; e3=dy+u(r)dx",
+    "curvature": {
+      "Omega12": "(-3*q(r)**2/4)*e1^e2 + (-Derivative(q(r), r)/2)*e1^e3",
+      "Omega13": "(-Derivative(q(r), r)/2)*e1^e2 + (q(r)**2/4)*e1^e3",
+      "Omega23": "(q(r)**2/4)*e2^e3"
+    },
+    "scope": "phi=0 mathematical member; embedding this twist in a nontrivial reciprocal coframe changes the connection and was not computed; not a complete UDT solution",
+    "spin_connection": {
+      "omega12": "(-q(r)/2)*e3",
+      "omega13": "(-q(r)/2)*e2",
+      "omega23": "(q(r)/2)*e1"
+    },
+    "structure": "de3=q e1^e2, q=u_r"
+  },
+  "two_plus_two_sector_map": {
+    "base": "g_ij and its reciprocal two-weight realization when separately supplied",
+    "geometric_data": "base curvature; transverse curvature; screen expansion/shear; twist curvature; mixed covariant derivatives; algebraic cross terms",
+    "mixed": "A^A_i shifts/twist; horizontal curvature and base derivatives of q_AB",
+    "transverse": "arbitrary positive q_AB represented by a zweibein; trace shear and SO(2) gauge retained",
+    "warning": "setting A^A_i=0, diagonal q_AB, zero shear, or integrable screen is a subfamily restriction"
+  }
+}
