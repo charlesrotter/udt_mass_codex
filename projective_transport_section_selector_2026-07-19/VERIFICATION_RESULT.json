@@ -1,0 +1,154 @@
+{
+  "algebra_checks": 54,
+  "audit_report_sha256": "e111efd8413a7289279bf868cd0fc79359a4378160815597d94388876d53508f",
+  "base": "75c62d1a357821d4957588e640ba03f0bc0f285e",
+  "candidate_family_sha256": "b1d3ad12b9c1c5d1c1c404a9603de6bea4ef5ec92fc4939a9b452a751bee795f",
+  "candidate_rows": 8,
+  "catch_proof_count": 30,
+  "catch_proofs": [
+    {
+      "name": "propagation_promoted_to_selection",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "all_ray_spray_promoted",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "levi_civita_representative_dependence_removed",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "tractor_type_gate_removed",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "dphi_branch_census_filtered",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "static_time_premise_removed",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "angular_hessian_promotion",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "hessian_stratum_promotion",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "petrov_type_promotion",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "hopf_vertical_type_removed",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "hopf_pullback_circularity_removed",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "holonomy_census_removed",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "finite_cell_scope_inflation",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "bootstrap_scope_inflation",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "physical_gate_promotion",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "downstream_gate_activation",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "missing_candidate",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "duplicate_candidate",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "spray_candidate_promoted",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "petrov_counterstrata_removed",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "hopf_section_circularity_removed",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "source_hash_mutation",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "transverse_open_slot_removed",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "prior_section_gate_removed",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "algebra_levi_civita_promotion",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "algebra_tractor_promotion",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "algebra_phi_angular_promotion",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "algebra_physical_gate_promotion",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "report_carrier_overclaim",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "report_petrov_overclaim",
+      "result": "PASS_REJECTED"
+    }
+  ],
+  "derivation_replay": "PASS_BYTE_IDENTICAL",
+  "derivation_result_sha256": "1a6d7ec276306084115735b1d4ddee49b24ec64c951e3058281c7aa9d93967d2",
+  "independent_exact": {
+    "angular_hessian_conformal_branching": "PASS",
+    "arbitrary_levi_civita_discrepancy": "PASS",
+    "conditional_longitudinal_null_pair": "PASS",
+    "holonomy_fixed_set_census": "PASS",
+    "hopf_vertical_connection": "PASS",
+    "integrated_parallel_transport_counterexample": "PASS",
+    "null_hamiltonian_conformal_identity": "PASS",
+    "null_shell_projective_spray": "PASS",
+    "petrov_multiplicity_selectors": "PASS"
+  },
+  "ledger_rows": 25,
+  "preregistration_commit": "9a357c525a31c6f4066e929b8f798f09773c4358",
+  "preregistration_sha256": "8c897eaee7e0c550e7c0198fa9ffe396e381a8f7e825b038fa10a0961cfdc433",
+  "python": "3.10.12",
+  "source_inventory_sha256": "bbe67250ad2ff833f31cc61f2eb51ee943b4271bcc6e92d16985ba14b8414b4e",
+  "source_rows": 18,
+  "status": "PASS_SELF_CONSISTENCY",
+  "status_ledger_sha256": "788f1ccfbaf4fc6fdd76903fc0cd1b2961d2d64d68bfb9f15d81d95f175d9c2b",
+  "sympy": "1.13.1",
+  "verdict": "CONFORMAL_NULL_GEODESIC_PROPAGATION_DERIVED_CONDITIONAL; LEVI_CIVITA_TANGENT_RAY_COMPARISON_CSN_REPRESENTATIVE_DEPENDENT; CONDITIONAL_STATIC_PHI_ROUTE_SELECTS_ONLY_A_LONGITUDINAL_NULL_PAIR; PHI_ANGULAR_PHYSICAL_SECTION_UNDERDETERMINED; CONFORMAL_TRACTOR_AND_HOPF_CONNECTIONS_TRANSPORT_REPRESENTATION_DATA_BUT_DO_NOT_SELECT_A_SECTION; GLOBAL_HOLONOMY_AND_PROJECTIVE_TO_PHYSICAL_SOLDERING_OPEN; PHYSICAL_PROJECTIVE_REALIZATION_GATE_NOT_PASSED",
+  "verification_class": "BASE_PINNED_SOURCES; BYTE_IDENTICAL_REPLAY; INDEPENDENT_CONFORMAL_TRANSPORT_ALGEBRA; CATCH_PROOFS; FRESH_SEMANTIC_REVIEW_SEPARATE"
+}
