@@ -1,0 +1,4 @@
+sector	paths	certified_round	reduced_artifacts	time_limited	lambda_safety_limited	coefficient_safety_limited	accepted_steps
+GENERAL	5	0	2	3	0	0	699
+SEAL_EVEN	8	1	2	4	1	0	1418
+SEAL_ODD_W	9	0	2	4	1	2	1802

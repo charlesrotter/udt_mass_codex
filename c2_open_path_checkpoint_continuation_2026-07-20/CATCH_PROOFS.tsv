@@ -1,0 +1,15 @@
+catch	result
+accepted_residual_rejected	PASS
+accepted_state_loss_rejected	PASS
+artifact_bach_pass_rejected	PASS
+artifact_projection_pass_rejected	PASS
+coverage_rejected	PASS
+duplicate_path_rejected	PASS
+endpoint_count_rejected	PASS
+ledger_promotion_rejected	PASS
+missing_path_rejected	PASS
+open_promoted_rejected	PASS
+restart_vector_rejected	PASS
+round_promotion_rejected	PASS
+status_count_rejected	PASS
+summary_overclaim_rejected	PASS

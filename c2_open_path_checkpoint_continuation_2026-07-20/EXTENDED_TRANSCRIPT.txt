@@ -1,0 +1,8 @@
+{"event": "RESTART", "lambda": 0.3753281515123798, "path_id": "P4_SEAL_EVEN_SINGLE_N_-1_0.20"}
+{"event": "RESTART", "lambda": 0.3753287176952555, "path_id": "P4_SEAL_ODD_W_SINGLE_N_-1_0.20"}
+{"event": "RESTART", "lambda": 1.4169996438465222, "path_id": "P4_SEAL_EVEN_SINGLE_N_+1_0.20"}
+{"event": "RESTART", "lambda": 1.416986811888585, "path_id": "P4_SEAL_ODD_W_SINGLE_N_+1_0.20"}
+{"event": "RESTART", "lambda": 0.39052381757534177, "path_id": "P4_SEAL_EVEN_MIXED_00_0.20"}
+{"event": "RESTART", "lambda": 1.1367088495697426, "path_id": "P4_SEAL_ODD_W_MIXED_00_0.20"}
+{"event": "RESTART", "lambda": 0.42852835345712664, "path_id": "P4_GENERAL_MIXED_01_0.20"}
+{"event": "RESTART", "lambda": 0.20087802716813483, "path_id": "P4_SEAL_EVEN_MIXED_01_0.20"}

@@ -1,0 +1,36 @@
+{
+  "checks": {
+    "accepted_residual_gate": true,
+    "accepted_states": true,
+    "artifact_gate": true,
+    "coverage_22": true,
+    "endpoint_counts": true,
+    "no_promoted_nonround": true,
+    "registered_status_counts": true,
+    "remaining_open_15": true,
+    "round_gate": true,
+    "tables": true
+  },
+  "counts": {
+    "accepted_states": 3919,
+    "bounded_open": 15,
+    "cumulative_registered_starts": 198,
+    "cumulative_round": 177,
+    "paths": 22,
+    "reduced_artifacts": 6,
+    "rejected_steps": 1,
+    "round_endpoints": 1
+  },
+  "maxima": {
+    "accepted_homotopy_residual_inf": 9.990852589680799e-10,
+    "artifact_full_bach_64_inf": 1316.2550636617357,
+    "artifact_higher_projection_residual_inf": 32.647766140492074,
+    "endpoint_raw_residual_inf": 1.8671079793799925e-10,
+    "restart_residual_inf": 8.846683385854703e-10
+  },
+  "maximum_conclusion": "EXTENDED_22_PATH_CONDITIONAL_C2_HOMOTOPY_CHARACTERIZED; CUMULATIVE_177_OF_198_CERTIFIED_ROUND; NO_FULL_BACH_NONROUND_ENDPOINT_OBSERVED; UNIQUENESS_OPEN",
+  "primary_observation": "ONE_NEW_ROUND_ENDPOINT; SIX_REDUCED_ARTIFACTS_FAIL_HIGHER_PROJECTION_AND_FULL_BACH; FIFTEEN_PATHS_REMAIN_BOUNDED_OPEN",
+  "raw_sha256": "c784c6aeb0c8d122bf7f485708c5c132fdcf8a90c3ea3320f66702812db9fa2b",
+  "result": "PASS",
+  "schema": "udt-c2-open-path-checkpoint-summary-1.0"
+}

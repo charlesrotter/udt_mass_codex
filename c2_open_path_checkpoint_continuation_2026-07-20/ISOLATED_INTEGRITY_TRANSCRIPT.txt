@@ -1,0 +1,1 @@
+{"artifact_hashes": 8, "catch_proofs": 14, "groups": 5, "result": "PASS", "source_hashes": 8}

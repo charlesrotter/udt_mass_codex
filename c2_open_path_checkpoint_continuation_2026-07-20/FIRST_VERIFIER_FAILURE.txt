@@ -1,0 +1,3 @@
+result=FAIL_AFTER_EXPENSIVE_GROUPS
+failure=catch-did-not-fail:open_promoted_rejected
+disposition=VERIFIER_HARNESS_CORRECTED_BEFORE_BANKING

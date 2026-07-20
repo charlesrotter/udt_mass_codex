@@ -1,0 +1,45 @@
+{"event": "RESTART", "lambda": 0.3753281515123798, "path_id": "P4_SEAL_EVEN_SINGLE_N_-1_0.20"}
+{"event": "RESTART", "lambda": 0.3753287176952555, "path_id": "P4_SEAL_ODD_W_SINGLE_N_-1_0.20"}
+{"event": "RESTART", "lambda": 1.4169996438465222, "path_id": "P4_SEAL_EVEN_SINGLE_N_+1_0.20"}
+{"event": "RESTART", "lambda": 1.416986811888585, "path_id": "P4_SEAL_ODD_W_SINGLE_N_+1_0.20"}
+{"event": "RESTART", "lambda": 0.39052381757534177, "path_id": "P4_SEAL_EVEN_MIXED_00_0.20"}
+{"event": "RESTART", "lambda": 1.1367088495697426, "path_id": "P4_SEAL_ODD_W_MIXED_00_0.20"}
+{"event": "RESTART", "lambda": 0.42852835345712664, "path_id": "P4_GENERAL_MIXED_01_0.20"}
+{"event": "RESTART", "lambda": 0.20087802716813483, "path_id": "P4_SEAL_EVEN_MIXED_01_0.20"}
+{"accepted_steps": 162, "additional_arclength": 3.774462890624994, "endpoint_classification": "DISTINCT_REDUCED_STATIONARY_CANDIDATE", "event": "END", "final_lambda": -0.0008223858328049238, "path_id": "P4_SEAL_EVEN_SINGLE_N_-1_0.20", "seconds": 538.9375637460034, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 162, "additional_arclength": 3.774462890624994, "endpoint_classification": "DISTINCT_REDUCED_STATIONARY_CANDIDATE", "event": "END", "final_lambda": -0.0008223061939236014, "path_id": "P4_SEAL_ODD_W_SINGLE_N_-1_0.20", "seconds": 536.4953070299234, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 134, "additional_arclength": 3.7687500000000087, "endpoint_classification": null, "event": "END", "final_lambda": 5.009413130857259, "path_id": "P4_SEAL_EVEN_SINGLE_N_+1_0.20", "seconds": 446.77479658601806, "status": "LAMBDA_SAFETY_LIMIT"}
+{"accepted_steps": 134, "additional_arclength": 3.7687500000000087, "endpoint_classification": null, "event": "END", "final_lambda": 5.009398623420353, "path_id": "P4_SEAL_ODD_W_SINGLE_N_+1_0.20", "seconds": 445.61467629205436, "status": "LAMBDA_SAFETY_LIMIT"}
+{"accepted_steps": 274, "additional_arclength": 4.379959827661515, "endpoint_classification": null, "event": "END", "final_lambda": 0.004042439752374345, "path_id": "P4_SEAL_EVEN_MIXED_00_0.20", "seconds": 901.0522957909852, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 244, "additional_arclength": 5.083593750000001, "endpoint_classification": null, "event": "END", "final_lambda": 0.9652569402589445, "path_id": "P4_SEAL_ODD_W_MIXED_00_0.20", "seconds": 904.0064323500264, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 168, "additional_arclength": 2.996713256835941, "endpoint_classification": null, "event": "END", "final_lambda": 0.08134982256860114, "path_id": "P4_GENERAL_MIXED_01_0.20", "seconds": 902.8588398178108, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 65, "additional_arclength": 1.0599609375000012, "endpoint_classification": "DISTINCT_REDUCED_STATIONARY_CANDIDATE", "event": "END", "final_lambda": -0.0004555897933562265, "path_id": "P4_SEAL_EVEN_MIXED_01_0.20", "seconds": 257.18640522193164, "status": "ENDPOINT_REACHED"}
+{"event": "RESTART", "lambda": 0.3446086238751876, "path_id": "P4_SEAL_ODD_W_MIXED_01_0.20"}
+{"event": "RESTART", "lambda": 0.512438387872194, "path_id": "P4_GENERAL_MIXED_02_0.20"}
+{"event": "RESTART", "lambda": 0.23090557080175722, "path_id": "P4_SEAL_ODD_W_MIXED_03_0.20"}
+{"event": "RESTART", "lambda": 0.31329460286206723, "path_id": "P4_GENERAL_MIXED_04_0.20"}
+{"event": "RESTART", "lambda": 0.2882145566073972, "path_id": "P4_SEAL_EVEN_MIXED_04_0.20"}
+{"event": "RESTART", "lambda": 0.42667796378843814, "path_id": "P4_SEAL_ODD_W_MIXED_04_0.20"}
+{"event": "RESTART", "lambda": 0.3132938873876588, "path_id": "P4_GENERAL_MIXED_05_0.20"}
+{"event": "RESTART", "lambda": 0.25382372933512154, "path_id": "P4_SEAL_EVEN_MIXED_05_0.20"}
+{"accepted_steps": 164, "additional_arclength": 4.0552734375, "endpoint_classification": null, "event": "END", "final_lambda": 0.1329016148337406, "path_id": "P4_SEAL_ODD_W_MIXED_01_0.20", "seconds": 902.0415489608422, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 227, "additional_arclength": 4.788281250000002, "endpoint_classification": null, "event": "END", "final_lambda": 0.03706035107993214, "path_id": "P4_GENERAL_MIXED_02_0.20", "seconds": 900.5863419279922, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 233, "additional_arclength": 4.202929687499973, "endpoint_classification": null, "event": "END", "final_lambda": 0.8334164963500321, "path_id": "P4_SEAL_ODD_W_MIXED_03_0.20", "seconds": 900.8782266040798, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 55, "additional_arclength": 1.2533203124999996, "endpoint_classification": "DISTINCT_REDUCED_STATIONARY_CANDIDATE", "event": "END", "final_lambda": -0.003869652343627615, "path_id": "P4_GENERAL_MIXED_04_0.20", "seconds": 258.2104310558643, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 242, "additional_arclength": 5.104687500000007, "endpoint_classification": null, "event": "END", "final_lambda": 0.8742281329425394, "path_id": "P4_SEAL_EVEN_MIXED_04_0.20", "seconds": 903.0610371448565, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 213, "additional_arclength": 5.341992187499992, "endpoint_classification": null, "event": "END", "final_lambda": 0.05596321647693923, "path_id": "P4_SEAL_ODD_W_MIXED_04_0.20", "seconds": 726.327838706784, "status": "COEFFICIENT_SAFETY_LIMIT"}
+{"accepted_steps": 222, "additional_arclength": 3.1280273437500163, "endpoint_classification": null, "event": "END", "final_lambda": 0.04818251425486899, "path_id": "P4_GENERAL_MIXED_05_0.20", "seconds": 903.4681100300513, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 252, "additional_arclength": 3.3618164062499885, "endpoint_classification": null, "event": "END", "final_lambda": 0.775512766868739, "path_id": "P4_SEAL_EVEN_MIXED_05_0.20", "seconds": 901.9432187811472, "status": "PATH_TIME_LIMIT"}
+{"event": "RESTART", "lambda": 0.3498544209108259, "path_id": "P4_SEAL_ODD_W_MIXED_05_0.20"}
+{"event": "RESTART", "lambda": 0.19156042020766145, "path_id": "P4_GENERAL_MIXED_06_0.20"}
+{"event": "RESTART", "lambda": 0.11787904611236555, "path_id": "P4_SEAL_EVEN_MIXED_06_0.20"}
+{"event": "RESTART", "lambda": 0.46267734151782974, "path_id": "P4_SEAL_ODD_W_MIXED_06_0.20"}
+{"event": "RESTART", "lambda": 0.5563161594815205, "path_id": "P4_SEAL_EVEN_MIXED_07_0.20"}
+{"event": "RESTART", "lambda": 0.6412995173129393, "path_id": "P4_SEAL_ODD_W_MIXED_07_0.20"}
+{"accepted_steps": 255, "additional_arclength": 4.3842041015624895, "endpoint_classification": null, "event": "END", "final_lambda": 0.1571511472838205, "path_id": "P4_SEAL_ODD_W_MIXED_05_0.20", "seconds": 796.9374796829652, "status": "COEFFICIENT_SAFETY_LIMIT"}
+{"accepted_steps": 27, "additional_arclength": 0.5976562500000003, "endpoint_classification": "DISTINCT_REDUCED_STATIONARY_CANDIDATE", "event": "END", "final_lambda": -0.00416760754044325, "path_id": "P4_GENERAL_MIXED_06_0.20", "seconds": 123.16910806600936, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 9, "additional_arclength": 0.16875, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.010079146295734661, "path_id": "P4_SEAL_EVEN_MIXED_06_0.20", "seconds": 38.38222798006609, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 153, "additional_arclength": 4.253906250000013, "endpoint_classification": "DISTINCT_REDUCED_STATIONARY_CANDIDATE", "event": "END", "final_lambda": -0.000256323784523955, "path_id": "P4_SEAL_ODD_W_MIXED_06_0.20", "seconds": 520.23944561393, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 280, "additional_arclength": 5.157421874999968, "endpoint_classification": null, "event": "END", "final_lambda": 1.21625414298234, "path_id": "P4_SEAL_EVEN_MIXED_07_0.20", "seconds": 902.407653826056, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 244, "additional_arclength": 5.146875000000008, "endpoint_classification": null, "event": "END", "final_lambda": 1.0042415561066518, "path_id": "P4_SEAL_ODD_W_MIXED_07_0.20", "seconds": 902.3446804720443, "status": "PATH_TIME_LIMIT"}
+{"attempted": 22, "endpoint_counts": {"DISTINCT_REDUCED_STATIONARY_CANDIDATE": 6, "ROUND_GAUGE_FIXED_ORBIT": 1}, "planned": 22, "result": "COMPLETE_WITHIN_BUDGET", "status_counts": {"COEFFICIENT_SAFETY_LIMIT": 2, "ENDPOINT_REACHED": 7, "LAMBDA_SAFETY_LIMIT": 2, "PATH_TIME_LIMIT": 11}}

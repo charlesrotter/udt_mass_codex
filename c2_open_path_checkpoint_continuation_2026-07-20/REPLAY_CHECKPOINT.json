@@ -1,0 +1,53 @@
+{
+  "groups": {
+    "finite_difference_gradient": {
+      "epsilon": 2e-05,
+      "maximum_scaled_error": 8.179778700419816e-09,
+      "method": "centered finite difference of reduced action",
+      "profiles": [
+        {
+          "maximum_absolute_error": 1.1690338652670107e-07,
+          "path_id": "P4_SEAL_EVEN_SINGLE_N_-1_0.20",
+          "scaled_error": 8.179778700419816e-09
+        },
+        {
+          "maximum_absolute_error": 4.16112072798569e-07,
+          "path_id": "P4_GENERAL_MIXED_01_0.20",
+          "scaled_error": 1.5420183630422069e-09
+        },
+        {
+          "maximum_absolute_error": 1.1688707424184486e-07,
+          "path_id": "P4_SEAL_ODD_W_SINGLE_N_-1_0.20",
+          "scaled_error": 8.178625848839327e-09
+        }
+      ]
+    },
+    "full_bach_replay": {
+      "maximum_logged_difference": 0.0,
+      "maximum_raw_component_inf": 1316.2550636617357,
+      "minimum_raw_component_inf": 4.9866402760939135,
+      "profiles": 12
+    },
+    "raw": {
+      "accepted_states": 3919,
+      "artifacts": 6,
+      "bounded_open": 15,
+      "paths": 22,
+      "round": 1
+    },
+    "state_replay": {
+      "maximum_homotopy_residual_inf": 9.990852589680799e-10,
+      "maximum_logged_difference": 0.0,
+      "paths": 22,
+      "states": 3919
+    },
+    "tables": {
+      "census_rows": 3,
+      "completeness_rows": 7,
+      "path_rows": 22,
+      "status_rows": 17,
+      "summary_checks": 10
+    }
+  },
+  "raw_sha256": "c784c6aeb0c8d122bf7f485708c5c132fdcf8a90c3ea3320f66702812db9fa2b"
+}

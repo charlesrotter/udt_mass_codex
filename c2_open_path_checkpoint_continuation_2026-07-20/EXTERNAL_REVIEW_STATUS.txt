@@ -1,0 +1,3 @@
+Fresh external-model review was not performed because no such authorization was given. The package
+uses an independent saved-state replay, finite-difference action gradients, direct full-Bach tensor
+recomputation, deterministic ledgers, and mutation catches. Grade remains VERIFIED-WITH-CAVEATS.

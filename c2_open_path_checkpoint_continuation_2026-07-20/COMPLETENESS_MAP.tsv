@@ -1,0 +1,8 @@
+population	count	status
+original_registered_starts	198	FROZEN_UNIVERSE
+certified_round_before_this_continuation	176	PRIOR_OBSERVED
+new_certified_round	1	OBSERVED
+cumulative_certified_round	177	OBSERVED
+reduced_only_artifact_endpoints	6	OBSERVED_FULL_BACH_FAIL
+remaining_bounded_open_paths	15	OPEN
+certified_nonround_full_bach_endpoints	0	NOT_OBSERVED

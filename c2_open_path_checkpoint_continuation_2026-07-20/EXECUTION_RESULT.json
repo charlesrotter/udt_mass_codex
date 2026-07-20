@@ -1,0 +1,69 @@
+{
+  "environment": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "numpy": "2.2.6",
+    "python": "3.10.12",
+    "torch": "2.5.1+cu121"
+  },
+  "expensive_full_replay_completed": true,
+  "expensive_full_replay_reruns": 2,
+  "first_rerun_harness_failure_preserved": true,
+  "records": [
+    {
+      "command": "/usr/bin/python3 c2_open_path_checkpoint_continuation_2026-07-20/summarize_extended.py",
+      "compute": "CPU_ONLY",
+      "exit_code": "0",
+      "id": "E01",
+      "output_artifact": "SUMMARY_TRANSCRIPT.txt",
+      "output_sha256": "cdaf4b7bb65323b9be3fadea622835d72484e891ab9f352c9d0403ccf71c3e0a"
+    },
+    {
+      "command": "/usr/bin/python3 c2_open_path_checkpoint_continuation_2026-07-20/verify_result_integrity.py",
+      "compute": "CPU_ONLY",
+      "exit_code": "0",
+      "id": "E02",
+      "output_artifact": "INTEGRITY_TRANSCRIPT.txt",
+      "output_sha256": "6b4a317d432ab944066d6dd98bbbf773db7e184b238b0911200b0add31599ba7"
+    },
+    {
+      "command": "/usr/bin/python3 -m pytest tests/",
+      "compute": "CPU_ONLY",
+      "exit_code": "1_EXPECTED_BASELINE",
+      "id": "E03",
+      "output_artifact": "TEST_TRANSCRIPT.txt",
+      "output_sha256": "3868b958a15eddab0fd4f86731bae5852907e6ff51c119b77239b03743db6557"
+    },
+    {
+      "command": "/usr/bin/python3 -I -c import sys,runpy; sys.path[:0]=['/home/udt-admin/.local/lib/python3.10/site-packages','/tmp/udt_startup_rehearsal_20260719_h0zjlA/repo/c2_open_path_checkpoint_continuation_2026-07-20']; import numpy; assert numpy.__version__=='2.2.6'; runpy.run_path('/tmp/udt_startup_rehearsal_20260719_h0zjlA/repo/c2_open_path_checkpoint_continuation_2026-07-20/verify_result_integrity.py',run_name='__main__')",
+      "compute": "CPU_ONLY",
+      "exit_code": "0",
+      "id": "E04",
+      "output_artifact": "ISOLATED_INTEGRITY_TRANSCRIPT.txt",
+      "output_sha256": "6b4a317d432ab944066d6dd98bbbf773db7e184b238b0911200b0add31599ba7"
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python3 c2_open_path_checkpoint_continuation_2026-07-20/verify_extended.py",
+      "compute": "CPU_ONLY_FULL_REPLAY_COMPLETED",
+      "exit_code": "0",
+      "id": "E05",
+      "output_artifact": "FULL_VERIFICATION_TRANSCRIPT.txt",
+      "output_sha256": "f2408213d734d2d5d8e5d63def649e0dd64efca24e48a4a77136ecbd97836bab"
+    },
+    {
+      "command": "fresh external-model review",
+      "compute": "EXTERNAL_REVIEW_NOT_PERFORMED",
+      "exit_code": "AUTHORIZATION_NOT_GIVEN",
+      "id": "E06",
+      "output_artifact": "EXTERNAL_REVIEW_STATUS.txt",
+      "output_sha256": "b36fdb5e2c0ae40fd35cef30453bdfdf97cc5895e1f9640089a7133099057dcc"
+    }
+  ],
+  "result": "PASS",
+  "schema": "udt-c2-open-path-checkpoint-execution-1.0",
+  "test_baseline": {
+    "failed_known_hygiene": 1,
+    "passed": 69,
+    "xfailed": 1
+  }
+}

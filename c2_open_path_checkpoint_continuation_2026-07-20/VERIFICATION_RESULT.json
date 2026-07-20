@@ -1,0 +1,85 @@
+{
+  "catch_proofs": {
+    "accepted_residual_rejected": "PASS",
+    "accepted_state_loss_rejected": "PASS",
+    "artifact_bach_pass_rejected": "PASS",
+    "artifact_projection_pass_rejected": "PASS",
+    "coverage_rejected": "PASS",
+    "duplicate_path_rejected": "PASS",
+    "endpoint_count_rejected": "PASS",
+    "ledger_promotion_rejected": "PASS",
+    "missing_path_rejected": "PASS",
+    "open_promoted_rejected": "PASS",
+    "restart_vector_rejected": "PASS",
+    "round_promotion_rejected": "PASS",
+    "status_count_rejected": "PASS",
+    "summary_overclaim_rejected": "PASS"
+  },
+  "certification": "VERIFIED-WITH-CAVEATS: exact parent checkpoint identity, full saved-state replay, independent finite-difference action gradients, direct full-Bach replay, deterministic tables, and mutation catches; no fresh external-model review",
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false
+  },
+  "counts": {
+    "accepted_states": 3919,
+    "bounded_open": 15,
+    "catch_proofs": 14,
+    "groups": 5,
+    "paths": 22,
+    "reduced_artifacts": 6,
+    "round_endpoints": 1
+  },
+  "groups": {
+    "finite_difference_gradient": {
+      "epsilon": 2e-05,
+      "maximum_scaled_error": 8.179778700419816e-09,
+      "method": "centered finite difference of reduced action",
+      "profiles": [
+        {
+          "maximum_absolute_error": 1.1690338652670107e-07,
+          "path_id": "P4_SEAL_EVEN_SINGLE_N_-1_0.20",
+          "scaled_error": 8.179778700419816e-09
+        },
+        {
+          "maximum_absolute_error": 4.16112072798569e-07,
+          "path_id": "P4_GENERAL_MIXED_01_0.20",
+          "scaled_error": 1.5420183630422069e-09
+        },
+        {
+          "maximum_absolute_error": 1.1688707424184486e-07,
+          "path_id": "P4_SEAL_ODD_W_SINGLE_N_-1_0.20",
+          "scaled_error": 8.178625848839327e-09
+        }
+      ]
+    },
+    "full_bach_replay": {
+      "maximum_logged_difference": 0.0,
+      "maximum_raw_component_inf": 1316.2550636617357,
+      "minimum_raw_component_inf": 4.9866402760939135,
+      "profiles": 12
+    },
+    "raw": {
+      "accepted_states": 3919,
+      "artifacts": 6,
+      "bounded_open": 15,
+      "paths": 22,
+      "round": 1
+    },
+    "state_replay": {
+      "maximum_homotopy_residual_inf": 9.990852589680799e-10,
+      "maximum_logged_difference": 0.0,
+      "paths": 22,
+      "states": 3919
+    },
+    "tables": {
+      "census_rows": 3,
+      "completeness_rows": 7,
+      "path_rows": 22,
+      "status_rows": 17,
+      "summary_checks": 10
+    }
+  },
+  "result": "PASS",
+  "schema": "udt-c2-open-path-checkpoint-verification-1.0",
+  "verdict": "ONE_NEW_ROUND_ENDPOINT; SIX_REDUCED_ENDPOINTS_REJECTED_BY_HIGHER_PROJECTION_AND_FULL_BACH; FIFTEEN_PATHS_REMAIN_BOUNDED_OPEN"
+}
