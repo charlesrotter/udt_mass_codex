@@ -1,0 +1,45 @@
+{
+  "environment": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "records": [
+    {
+      "command": "/usr/bin/python3 scale_breaking_closure_census_2026-07-20/build_source_census.py",
+      "exit_code": 0,
+      "id": "E01",
+      "output_artifact": "CENSUS_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "05b9e5f39aa6e74823a61c7f1a1f5ad033af1abeadffe9c073727f726379b3a2"
+    },
+    {
+      "command": "/usr/bin/python3 scale_breaking_closure_census_2026-07-20/derive_scale_breaking_closure.py",
+      "exit_code": 0,
+      "id": "E02",
+      "output_artifact": "DERIVATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "0b29643898180ccf4c9b6d08a7770e3045c26f4ac00df133c29370e1f5ed1725"
+    },
+    {
+      "command": "/usr/bin/python3 scale_breaking_closure_census_2026-07-20/verify_scale_breaking_closure.py",
+      "exit_code": 0,
+      "id": "E03",
+      "output_artifact": "VERIFICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "310946c94c023e65f81579016824b7b3c1ceb5160d035b29095d513670f0361b"
+    },
+    {
+      "command": "/usr/bin/python3 -m pytest tests/",
+      "exit_code": 1,
+      "id": "E04",
+      "output_artifact": "TEST_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "0864f26f590ea05a15db7c2ece86ad2f152947f0adc92991499df4e9cac1d985"
+    }
+  ],
+  "result": "PASS",
+  "schema": "udt-scale-breaking-execution-1.0",
+  "test_baseline": {
+    "failed_known_hygiene": 1,
+    "passed": 69,
+    "xfailed": 1
+  }
+}

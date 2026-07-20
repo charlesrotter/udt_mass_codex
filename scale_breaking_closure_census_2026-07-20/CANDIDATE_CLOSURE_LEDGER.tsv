@@ -1,0 +1,22 @@
+id	candidate	provenance	independence_test	classification	ruling
+C01	Common-Scale Neutrality	FOUNDING	Defines equivalence rather than a section	HOMOTHETY_INVARIANT_DIMENSIONLESS	Forbids silent pre-scale calibration; supplies no scale equation
+C02	Xmax ratio xi and fractional reciprocity	CONDITIONAL_HYPOTHESIS	Invariant under x,Xmax common scaling	HOMOTHETY_INVARIANT_DIMENSIONLESS	Retained compatibility law; not a numerical Xmax selector
+C03	WR-L reciprocal profile A=1-r/X	SCOPED_DERIVED	Depends only on r/X	HOMOTHETY_INVARIANT_DIMENSIONLESS	Selects shape/ratio, not absolute X
+C04	Observed c_E and G_obs	OBSERVED_ANCHORS	Only c_E^2/G_obs gives mass per length	HOMOGENEOUS_NOT_SCALE_SELECTING	Calibrate a selected solution but cannot form a length
+C05	Xmax=alpha*G_obs*M_tot/c_E^2	WORKING_DIMENSIONAL_FORM	One degree-one homogeneous equation	HOMOGENEOUS_NOT_SCALE_SELECTING	Fixes compactness if alpha emerges; not common scale
+C06	M_tot=gamma*c_E^2*Xmax/G_obs	CONDITIONAL_CHARGE_FORM	One degree-one homogeneous equation	HOMOGENEOUS_NOT_SCALE_SELECTING	Requires native mass/charge normalization
+C07	Coupled C05+C06	CONDITIONAL_PAIR	Determinant 1-alpha*gamma; consistent positive case rank one	HOMOGENEOUS_NOT_SCALE_SELECTING	Continuum of common scales when consistent
+C08	Proper reach wall area and volume	SCOPED_METRIC_LIMITS	Pure powers X X^2 X^3 with no fixed target	HOMOGENEOUS_NOT_SCALE_SELECTING	Measure a chosen member; do not choose one
+C09	Wall curvature and surface gravity	SCOPED_METRIC_LIMITS	Pure inverse powers with no fixed target	HOMOGENEOUS_NOT_SCALE_SELECTING	Could calibrate only if a native independent value exists
+C10	Raw lapse flux	SCOPED_METRIC_IDENTITY	Linear in X and not conserved/normalized	HOMOGENEOUS_NOT_SCALE_SELECTING	Promising bridge but not mass or scale closure
+C11	Normalized finite-cell charge/mass	OPEN_OBJECT	No action primitive generator reference or normalization	OPEN_OBJECT_ABSENT	Could contribute only after native derivation
+C12	Total proper density rho_tot=M_tot/V_tot	DEFINED_OUTPUT	Definition is dependent on M_tot and same-solution volume	HOMOGENEOUS_NOT_SCALE_SELECTING	No new equation or density value
+C13	Dimensionless density G*rho_tot*Xmax^2/c_E^2	DEFINED_OUTPUT	Algebraically compactness divided by volume coefficient	HOMOTHETY_INVARIANT_DIMENSIONLESS	Not independent of C05/C06 family
+C14	Bootstrap root/window	OWNER_WORKING	Dimensionless and current response/center/width absent	HOMOTHETY_INVARIANT_DIMENSIONLESS	May rank branches/compactness; no absolute scale now
+C15	Independent native density center rho_star	OPEN_OBJECT	Would add a second logarithmic row and rank two	COULD_SELECT_IF_INDEPENDENT_VALUE_DERIVED	No current source derives it; do not invent normalization
+C16	Independent native boundary area/curvature/scale eigenvalue	OPEN_OBJECT	Would be nonhomogeneous if its value came independently	COULD_SELECT_IF_INDEPENDENT_VALUE_DERIVED	No current boundary action supplies it
+C17	Clock-curvature equation	UNIQUE_CONDITIONAL	Homogeneous zero equation and post-scale representative dependent	HOMOGENEOUS_NOT_SCALE_SELECTING	Selects WR-L profile if supplied, not absolute scale
+C18	Toric/Hopf/topological integer	CONDITIONAL_DIMENSIONLESS	Integer is unchanged by homothety	HOMOTHETY_INVARIANT_DIMENSIONLESS	Can classify topology, not size
+C19	Conditional particle stability/mass evidence	CARRIER_EH_BOX_CONDITIONAL	Uses chosen carrier/action/box and conditional mass readouts	CONDITIONAL_OR_IMPORTED_READOUT	Cannot supply native global scale closure
+C20	Native matter/carrier action coefficient ratio	OPEN_OBJECT	Could carry a length only after coefficients and global join are derived	OPEN_OBJECT_ABSENT	No carrier/action adoption in this audit
+C21	Endpoint-flat local CSN representative family	PARENT_EXACT_COUNTERFAMILY	Survives even if endpoint Xmax is fixed	HOMOTHETY_INVARIANT_DIMENSIONLESS	Global scale closure alone would not select complete interior coframe

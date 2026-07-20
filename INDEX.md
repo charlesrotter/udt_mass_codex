@@ -1,8 +1,17 @@
-# INDEX — Repo Map (2026-07-19 lean)
+# INDEX — Repo Map (2026-07-20 lean)
 
-**⚠ BRANCH: `grok` (2026-07-19)** — `main` is stale for this arc; `git checkout grok`.
+**⚠ BRANCH: `grok` (2026-07-20)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
 **➤ CURRENT SCIENTIFIC FRONTIER:**
+`scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
+`LAY_DECISION_TREE.md`, `SCALE_WEIGHT_LEDGER.tsv`, and `NEXT_SCIENTIFIC_DECISION.md`. The exact
+dimensional matrix for `(M_tot,X_max,c_E,G_obs)` has one null group, compactness
+`G_obs*M_tot/(c_E^2*X_max)`. Measured `c_E,G_obs` calibrate mass per length but cannot form an
+absolute mass or length. The apparent M-X pair is rank one when consistent, and density formed from
+the same mass/volume is dependent. `X_max` reciprocity remains a conditional dimensionless
+positional compatibility law and cannot select its numerical scale. No noncircular scale breaker
+was found among 21 current candidates; a future closure needs an independently derived dimensional
+datum or explicit scale-breaking process, plus a separate global-to-local coframe join. Next read
 `boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, and `NEXT_DERIVATION.md`. No existing boundary,
 bootstrap, or `X_max`-reciprocity rule selects the physical CSN representative. Canonized WR-L

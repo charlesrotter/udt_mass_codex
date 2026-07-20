@@ -1,0 +1,17 @@
+id	claim	status	scope_or_reason
+S01	WR-L profile fixes the dimensionless reciprocal shape	DERIVED_IN_SCOPED_SIMPLE_METRIC	Depends on canonized residual/recentering/wall premises; absolute X remains free
+S02	Xmax reciprocity survives as dimensionless positional structure	CONDITIONAL_HYPOTHESIS	Exact within supplied fractional-law premises; physical frame/coframe realization remains withdrawn/open
+S03	Xmax reciprocity fixes physical Xmax	NOT_DERIVED	x/Xmax and composition are invariant under common scaling
+S04	Observed c_E and G_obs alone fix M_tot and Xmax	REFUTED_BY_DIMENSION_AND_RANK	They provide mass per length but no absolute length
+S05	The paired linear M-X relations isolate a positive scale	REFUTED_AS_SUFFICIENT	Consistent case has rank one; inconsistent case has no positive nonzero solution
+S06	Proper reach area volume curvature surface gravity or raw flux select scale without a target value	REFUTED_AS_SUFFICIENT	They are homogeneous functions of X and measure rather than select a member
+S07	rho_tot=M_tot/V_tot supplies an independent scale equation	REFUTED_AS_INDEPENDENT	It is a definition; dimensionless density reduces to compactness times a known coefficient
+S08	Current bootstrap supplies a density center or scale eigenvalue	OPEN_NOT_SUPPLIED	Owner principle is on-shell admissibility and fractional width; center/response functional absent
+S09	A native independent density center or boundary eigenvalue could close global scale	CONDITIONAL_FUTURE_ROUTE	Would have rank two with mass-length relation if noncircularly derived
+S10	Current boundary flux is a normalized native total mass	NOT_DERIVED	Action generator reference normalization source balance and conservation remain open
+S11	Current topology or Hopf integer fixes scale	REFUTED_AS_SUFFICIENT	Dimensionless classification data carry no absolute length
+S12	Current conditional particle branch supplies universal scale closure	NOT_DERIVED	Carrier action finite box and mass route remain conditional and not globally joined
+S13	Fixing global Xmax would also select the complete local CSN representative	REFUTED_IN_BOUNDED_ORBIT	Endpoint-flat local Omega(y) family remains
+S14	A noncircular homothety-breaking equation exists in the audited current candidate set	NOT_FOUND_IN_AUDITED_CURRENT_FOUNDATION	All 21 candidates are invariant homogeneous conditional or absent
+S15	Complete action source carrier boundary charge physical Xmax and unconditional mass are closed	OPEN	No promotion follows from this census
+S16	With only M_tot Xmax c_E G_obs and dimensionless state data compactness is the sole independent dimensionless group	DERIVED_SCOPED_DIMENSIONAL_THEOREM	Dimensional matrix has rank three and nullspace vector (1,-1,-2,1); an additional independent dimensional datum is required for absolute scale

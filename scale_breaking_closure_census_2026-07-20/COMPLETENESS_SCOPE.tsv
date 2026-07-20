@@ -1,0 +1,11 @@
+criterion	covered_in_this_audit	dropped_or_open	could_dropped_scope_host_emergence
+FIELDS	Scalar Xmax M_tot rho_tot recorded WR-L invariants and dimensionless state labels	Complete metric components phi matter/source carrier boundary fields and auxiliary variables	YES; this audit is not a field census or solve
+ACTION_TERMS	No action term adopted; current absence and normalization ambiguity audited	Complete native bulk boundary corner and matter action	YES; a native dimensional coefficient could change the dimensional inventory
+FULL_EQUATIONS	All 21 frozen current scalar closure candidates and general MXcG dimensional theorem	Euler-Lagrange equations constraints source equations and boundary variation	YES; a new derived dimensional object would require re-audit
+DOMAIN_COORDINATES	Static spherical WR-L scalars used only as recorded evaluation data	General time angular topology charts global extension and complete finite cell	YES; no whole-domain verdict claimed
+BOUNDARY_REGULARITY	Recorded wall limits raw flux and endpoint-flat local counterfamily	Differentiable boundary action primitive generator reference normalization and terminal ontology	YES; boundary completion is a principal open route
+TOPOLOGICAL_SECTOR	Dimensionless Hopf/toric integer audited for scale weight	All topology sectors and their dynamical selection	YES for configuration selection; no for scale without another dimensional object
+DYNAMICAL_CHARACTER	Static algebraic scale rank only	Stationary time-periodic dynamic and time-live matter/bootstrap behavior	YES; stability may reveal a new object but cannot be assumed
+BRANCH_BIFURCATION	All current recorded scalar candidate classes retained without merit filtering	Unknown complete-solution branches and bifurcations	YES; conclusion is current-candidate scoped
+STABILITY_SPECTRUM	Existing finite-box stability used only as conditional provenance	Unconditional stability and global time-live persistence	YES; no stability theorem follows
+REGIME_VALIDITY	Classical current authority using M_tot Xmax c_E G_obs plus dimensionless data	Any future independent dimensional coefficient datum anomaly or new native field	YES; adding one invalidates the closed dimensional inventory and triggers re-audit

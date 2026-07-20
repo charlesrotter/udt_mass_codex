@@ -1,0 +1,110 @@
+{
+  "checks": {
+    "MXcG_has_one_dimensionless_group": "PASS",
+    "WRL_lapse_weight_zero": "PASS",
+    "WRL_profile_weight_zero": "PASS",
+    "X_from_mass_relation_weight_one": "PASS",
+    "c_and_G_cannot_form_length": "PASS",
+    "c_and_G_cannot_form_mass": "PASS",
+    "clock_curvature_residual_weight_minus_two": "PASS",
+    "clock_curvature_trial_nonzero": "PASS",
+    "compactness_weight_zero": "PASS",
+    "conditional_area_target_solution": "PASS",
+    "conditional_curvature_target_solution": "PASS",
+    "conditional_density_center_solution": "PASS",
+    "consistent_pair_has_positive_scale_direction": "PASS",
+    "consistent_pair_rank_one": "PASS",
+    "dimensionless_density_is_dependent_compactness": "PASS",
+    "dimensionless_density_weight_zero": "PASS",
+    "independent_density_row_determinant_nonzero": "PASS",
+    "independent_density_row_rank_two": "PASS",
+    "linear_pair_determinant": "PASS",
+    "local_CSN_bump_endpoint_slopes": "PASS",
+    "local_CSN_bump_endpoint_values": "PASS",
+    "local_CSN_bump_nontrivial_interior": "PASS",
+    "local_CSN_volume_response": "PASS",
+    "local_CSN_volume_response_weight_three": "PASS",
+    "log_pair_homothety_null": "PASS",
+    "log_pair_rank_one": "PASS",
+    "mass_from_X_relation_weight_one": "PASS",
+    "observed_mass_per_length_weight_zero": "PASS",
+    "proper_reach_weight_one": "PASS",
+    "proper_volume_weight_three": "PASS",
+    "raw_flux_weight_one": "PASS",
+    "surface_gravity_weight_minus_one": "PASS",
+    "topological_integer_weight_zero": "PASS",
+    "total_density_weight_minus_two": "PASS",
+    "unique_group_is_compactness": "PASS",
+    "wall_Kretschmann_weight_minus_four": "PASS",
+    "wall_Ricci_weight_minus_two": "PASS",
+    "wall_area_weight_two": "PASS",
+    "xmax_composition_remains_dimensionless_under_reversal": "PASS",
+    "xmax_fractional_composition_weight_zero": "PASS",
+    "xmax_ratio_weight_zero": "PASS"
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "conditional_future_routes": {
+    "native_boundary_eigenvalue": "could select Xmax if its nonzero value is independently derived",
+    "native_density_center": "would raise log rank to two if independently derived",
+    "warning": "neither object exists in current foundation; examples are rank diagnostics, not proposals to insert values"
+  },
+  "current_closure": {
+    "boundary_scalars": "homogeneous powers of Xmax without independently derived target values",
+    "density_definition": "G*rho_tot*Xmax^2/c_E^2 = compactness/kV; no independent row",
+    "mass_length_pair": "rank one when alpha*gamma=1; no isolated positive scale",
+    "noncircular_scale_breaker_found": false,
+    "topology": "dimensionless and scale blind"
+  },
+  "dimensional_theorem": {
+    "c_E_and_G_obs_form_length": false,
+    "c_E_and_G_obs_form_mass": false,
+    "dimension_matrix_rank": 3,
+    "dimensionless_nullspace": [
+      1,
+      -1,
+      -2,
+      1
+    ],
+    "ruling": "ANY_CLOSURE_USING_ONLY_THESE_OBJECTS_CAN_SELECT_COMPACTNESS_NOT_ABSOLUTE_SCALE",
+    "unique_group": "G_obs*M_tot/(c_E^2*Xmax)",
+    "variables": [
+      "M_tot",
+      "Xmax",
+      "c_E",
+      "G_obs",
+      "dimensionless metric/state data"
+    ]
+  },
+  "homothety": {
+    "available_log_rank": 1,
+    "diagnostic": "X,r,x,M -> lambda*(X,r,x,M); measured c_E and G_obs fixed",
+    "meaning": "tests scale rank of the recorded solution family; not an observer transformation",
+    "null_direction": [
+      1,
+      1
+    ],
+    "unknowns": [
+      "log(Xmax)",
+      "log(M_tot)"
+    ]
+  },
+  "local_representative": {
+    "counterfamily": "Omega=exp(epsilon*y^2*(1-y)^2)",
+    "ruling": "GLOBAL_XMAX_SELECTION_WOULD_NOT_ALONE_FIX_COMPLETE_CSN_REPRESENTATIVE",
+    "volume_first_variation": "1024*pi*X^3/5005"
+  },
+  "maximum_conclusion": "NO_NONCIRCULAR_SCALE_BREAKER_FOUND_IN_AUDITED_CURRENT_FOUNDATION",
+  "result": "PASS",
+  "schema": "udt-scale-breaking-closure-census-1.0",
+  "xmax_reciprocity": {
+    "composition": "(xi+eta)/(1+xi*eta)",
+    "dimensionless_position": "xi=x/Xmax",
+    "ruling": "COMPATIBLE_WITH_ANY_COMMON_SCALE; DOES_NOT_SELECT_XMAX_VALUE",
+    "scale_weight": 0,
+    "status": "CONDITIONAL_HYPOTHESIS_RETAINED"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "catch_proofs": {
+    "Xmax_hypothesis_promotion_rejected": "PASS",
+    "Xmax_reciprocity_scale_promotion_rejected": "PASS",
+    "conditional_carrier_promotion_rejected": "PASS",
+    "conditional_particle_mass_promotion_rejected": "PASS",
+    "density_definition_independence_rejected": "PASS",
+    "dependent_density_promotion_rejected": "PASS",
+    "derivation_Xmax_weight_mutation_rejected": "PASS",
+    "derivation_scale_breaker_invention_rejected": "PASS",
+    "dimensionless_density_weight_mutation_rejected": "PASS",
+    "global_scale_local_section_conflation_rejected": "PASS",
+    "malformed_census_hash_rejected": "PASS",
+    "maximum_conclusion_overreach_rejected": "PASS",
+    "missing_candidate_rejected": "PASS",
+    "missing_census_row_rejected": "PASS",
+    "missing_source_rejected": "PASS",
+    "missing_weight_row_rejected": "PASS",
+    "physical_Xmax_promotion_rejected": "PASS",
+    "rank_one_pair_promotion_rejected": "PASS",
+    "raw_flux_mass_promotion_rejected": "PASS",
+    "top_level_overclaim_rejected": "PASS"
+  },
+  "certification": "VERIFIED-WITH-CAVEATS: independent in-package algebra/source replay; no fresh external-model review",
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "counts": {
+    "candidates": 21,
+    "catch_proofs": 20,
+    "census": 3828,
+    "sources": 33,
+    "status": 16,
+    "weights": 22
+  },
+  "derivation_sha256": "4e58c749497cd0d9cefd8e3f1b676bf0e1b68e5baf39504500b2340c14095004",
+  "groups": {
+    "candidate_closures": {
+      "noncircular_scale_breakers": 0,
+      "rows": 21
+    },
+    "derivation": {
+      "available_log_rank": 1,
+      "checks": 41
+    },
+    "independent_algebra": {
+      "dimensionless_density": "DEPENDENT_ON_COMPACTNESS",
+      "existing_log_rank": 1,
+      "local_CSN_family": "SURVIVES_FIXED_ENDPOINT",
+      "rank_with_independent_density_center": 2,
+      "xmax_reciprocity": "HOMOTHETY_INVARIANT"
+    },
+    "scale_weights": {
+      "anchors_checked": 8,
+      "rows": 22
+    },
+    "source_adjudication": {
+      "base_hashes_replayed": 33,
+      "rows": 33
+    },
+    "source_census": {
+      "dispositions": {
+        "CONTEXT_CANDIDATE": 1633,
+        "EXCLUDED_DUPLICATE_RAW_RECORD": 55,
+        "EXCLUDED_GENERATED_ORGANIZATION": 262,
+        "LOAD_BEARING_CANDIDATE": 33,
+        "PROVENANCE_OR_CONTEXT_ONLY": 1845
+      },
+      "rows": 3828
+    },
+    "source_text": {
+      "CANON": "PASS",
+      "CSN": "PASS",
+      "Xmax": "PASS",
+      "action": "PASS",
+      "bootstrap": "PASS",
+      "parent": "PASS",
+      "scale": "PASS"
+    },
+    "status": {
+      "rows": 16,
+      "rulings_checked": 12
+    }
+  },
+  "result": "PASS",
+  "schema": "udt-scale-breaking-closure-verification-1.0",
+  "verdict": "NO_NONCIRCULAR_SCALE_BREAKER_FOUND_IN_AUDITED_CURRENT_FOUNDATION; XMAX_RECIPROCITY_RETAINED_AS_CONDITIONAL_DIMENSIONLESS_COMPATIBILITY"
+}

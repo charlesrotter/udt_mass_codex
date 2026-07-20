@@ -1,0 +1,8 @@
+date=2026-07-20
+python=3.10.12
+sympy=1.13.1
+pytest=9.1.1
+compute=CPU_ONLY
+gpu_used=false
+preregistered_base=ff1df31c10303ae8deb8438f36ce66f76130c819
+preregistration_commit=de84081

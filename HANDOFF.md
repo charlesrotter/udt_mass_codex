@@ -5,11 +5,13 @@
 > **READ `LIVE.md` FIRST** — only guaranteed-current frontier + next action.
 > If this file disagrees with LIVE.md, **LIVE.md wins.**
 >
-> **⚠ BRANCH: work is on `grok` (2026-07-19).** If not on it: `git checkout grok`. `main` is stale for this arc.
+> **⚠ BRANCH: work is on `grok` (2026-07-20).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-19 — boundary/bootstrap representative audit complete; verified with caveats; no follow-on launched)
+## CURRENT (2026-07-20 — scale-breaking closure census complete; verified with caveats; no follow-on launched)
 
 **Read LIVE.md CURRENT STATE topmost layer first, then
+`scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
+`LAY_DECISION_TREE.md`, `SCALE_WEIGHT_LEDGER.tsv`, and `NEXT_SCIENTIFIC_DECISION.md`; next read
 `boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md`,
 `STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, and `NEXT_DERIVATION.md`; next read
 `clock_curvature_selector_audit_2026-07-19/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
@@ -23,7 +25,29 @@
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` only through that correction overlay.** Older reports are
 preserved evidence, not inherited authority.
 
-Current representative-selection ruling:
+Current scale-breaking closure ruling:
+
+- with only `M_tot`, `X_max`, measured `c_E`, measured `G_obs`, and dimensionless state data,
+  compactness `G_obs M_tot/(c_E^2 X_max)` is the sole independent dimensionless group;
+- `c_E,G_obs` supply mass per length but cannot form an absolute length or mass;
+- the proposed mass/size pair is rank one when consistent, while total density calculated from the
+  same mass and volume is dependent rather than a new equation;
+- every current boundary scalar is a homogeneous power of `X_max` with no independently derived
+  target value; raw flux remains unnormalized and is not native mass;
+- `X_max` reciprocity is retained as a conditional dimensionless positional compatibility law. It
+  survives common scaling and therefore cannot choose the numerical `X_max`;
+- no noncircular scale breaker was found among 21 current candidates. A future completion requires
+  an independently derived dimensional datum or explicit scale-breaking process; another
+  dimensionless relation is insufficient;
+- fixing global `X_max` would still leave the endpoint-flat local CSN representative family, so a
+  separate complete-coframe join remains open;
+- complete action, source, carrier, boundary action, normalized charge, physical `X_max`,
+  unconditional mass, and global-to-local representative join remain open;
+- no follow-on audit, GPU work, canonization, or reorganization is authorized.
+
+Package: `scale_breaking_closure_census_2026-07-20/`.
+
+Prior representative-selection ruling:
 
 - no existing noncircular boundary, bootstrap, or `X_max`-reciprocity rule selects the physical CSN
   representative;

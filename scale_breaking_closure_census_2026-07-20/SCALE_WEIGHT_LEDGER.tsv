@@ -1,0 +1,23 @@
+id	quantity_or_relation	scale_weight_under_Hlambda	provenance	classification	missing_independent_datum
+W01	xi=x/Xmax	0	Xmax reciprocity conditional hypothesis	HOMOTHETY_INVARIANT_DIMENSIONLESS	None for comparison law; physical Xmax still open
+W02	fractional composition (xi+eta)/(1+xi*eta)	0	Xmax reciprocity conditional hypothesis	HOMOTHETY_INVARIANT_DIMENSIONLESS	Physical frame/coframe realization
+W03	WR-L A=1-r/X	0	Canonized scoped simple metric	HOMOTHETY_INVARIANT_DIMENSIONLESS	Absolute X and common coframe scale
+W04	proper radial reach ell=2X	1	WR-L static metric limit	HOMOGENEOUS_NOT_SCALE_SELECTING	Independently derived ell target
+W05	wall area=4*pi*X^2	2	WR-L static metric limit	HOMOGENEOUS_NOT_SCALE_SELECTING	Independently derived area target
+W06	proper volume=64*pi*X^3/15	3	WR-L static metric limit	HOMOGENEOUS_NOT_SCALE_SELECTING	Complete slice/domain and independent volume target
+W07	wall Ricci scalar=6/X^2	-2	WR-L representative	HOMOGENEOUS_NOT_SCALE_SELECTING	Independently derived curvature target
+W08	wall Kretschmann=8/X^4	-4	WR-L representative	HOMOGENEOUS_NOT_SCALE_SELECTING	Independently derived curvature target
+W09	geometric surface gravity=1/(2X)	-1	WR-L static representative	HOMOGENEOUS_NOT_SCALE_SELECTING	Independent clock/generator normalization and target
+W10	raw lapse flux=-2*pi*X	1	WR-L static metric identity	HOMOGENEOUS_NOT_SCALE_SELECTING	Action generator reference orientation normalization and source balance
+W11	putative normalized mass=gamma*c_E^2*X/G_obs	1	Conditional charge normalization	HOMOGENEOUS_NOT_SCALE_SELECTING	Native gamma and proof charge equals M_tot
+W12	compactness=G_obs*M_tot/(c_E^2*Xmax)	0	Dimensional global form	HOMOTHETY_INVARIANT_DIMENSIONLESS	Native mass and independent scale equation
+W13	rho_tot=M_tot/V_tot with V_tot proportional Xmax^3	-2	Definition after complete solution	HOMOGENEOUS_NOT_SCALE_SELECTING	Independent density center
+W14	G_obs*rho_tot*Xmax^2/c_E^2	0	Dimensionless density/compactness	HOMOTHETY_INVARIANT_DIMENSIONLESS	Native mass/volume and independent dimensional datum
+W15	bootstrap fractional width Delta_rho/rho_star	0	Owner working principle	HOMOTHETY_INVARIANT_DIMENSIONLESS	Derived center width and full solution family
+W16	topological/Hopf integer Q	0	Conditional angular/carrier evidence	HOMOTHETY_INVARIANT_DIMENSIONLESS	No scale information
+W17	clock-curvature zero equation	-2 overall zero-set weight	Unique-conditional post-scale identity	HOMOGENEOUS_NOT_SCALE_SELECTING	Native origin and representative selection
+W18	observed c_E^2/G_obs	0 under solution Hlambda	Observed calibration anchors	HOMOTHETY_INVARIANT_MASS_PER_LENGTH	An independent native length mass density or scale eigenvalue
+W19	independently derived nonzero rho_star	-2 target if available	Object absent in current foundation	COULD_SELECT_IF_INDEPENDENT_VALUE_DERIVED	Native matter/bootstrap derivation
+W20	independently derived nonzero boundary area/curvature target	2 or -2 target if available	Object absent in current foundation	COULD_SELECT_IF_INDEPENDENT_VALUE_DERIVED	Native boundary/action law
+W21	carrier L2/L4 length from coefficient ratio	potentially nonzero	Conditional chosen carrier/action coefficients	CONDITIONAL_OR_IMPORTED_READOUT	Native carrier action coefficients and global join
+W22	endpoint-flat local Omega(y)	0 global endpoint scale; functional local freedom	Parent exact counterfamily	LOCAL_REPRESENTATIVE_DEGENERACY	Native local section/coframe rule even after Xmax is fixed

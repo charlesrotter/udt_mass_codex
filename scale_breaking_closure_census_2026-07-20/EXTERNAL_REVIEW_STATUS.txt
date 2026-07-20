@@ -1,0 +1,3 @@
+Fresh zero-context external-model adversarial review: NOT PERFORMED.
+Reason: no explicit external-disclosure authorization was given for this audit.
+Consequence: maximum banked grade is VERIFIED-WITH-CAVEATS.
