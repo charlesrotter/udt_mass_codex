@@ -1,0 +1,59 @@
+{
+  "environment": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "records": [
+    {
+      "command": "/usr/bin/python3 complete_coframe_seal_involution_2026-07-20/build_source_census.py",
+      "exit_code": 0,
+      "id": "E01",
+      "output_artifact": "CENSUS_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "cefccd8bed26fb61ed99ee7b2cb71a6d3909b8bdfa013f8f01bcdeb7bf6740f7"
+    },
+    {
+      "command": "/usr/bin/python3 complete_coframe_seal_involution_2026-07-20/build_source_adjudication.py",
+      "exit_code": 0,
+      "id": "E02",
+      "output_artifact": "ADJUDICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "bf93e7106ed9434a9ed2efa6e8b913ac94fd9b8ad899c0b5b2def86ff5d2b188"
+    },
+    {
+      "command": "/usr/bin/python3 complete_coframe_seal_involution_2026-07-20/derive_complete_coframe_involution.py",
+      "exit_code": 0,
+      "id": "E03",
+      "output_artifact": "DERIVATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "452bda6b4821251a7aea2178f6e47c7616c0d12b866032951e023854fa35ef53"
+    },
+    {
+      "command": "/usr/bin/python3 complete_coframe_seal_involution_2026-07-20/verify_complete_coframe_involution.py",
+      "exit_code": 0,
+      "id": "E04",
+      "output_artifact": "VERIFICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "5d5eb980fd29d8b2121f41982e1ac6788169ebd8087a66a304088ec162477a27"
+    },
+    {
+      "command": "/usr/bin/python3 -m pytest tests/",
+      "exit_code": 1,
+      "id": "E05",
+      "output_artifact": "TEST_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "ff221789dd7e76da3a9d209c671fa93a6bfd95b46056153ff5c0d19eade7f197"
+    },
+    {
+      "command": "/usr/bin/python3 -I -c import sys,runpy; sys.path.insert(0,'/home/udt-admin/.local/lib/python3.10/site-packages'); import sympy; assert sympy.__version__=='1.13.1'; runpy.run_path('complete_coframe_seal_involution_2026-07-20/verify_complete_coframe_involution.py',run_name='__main__')",
+      "exit_code": 0,
+      "id": "E06",
+      "output_artifact": "ISOLATED_VERIFICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "5d5eb980fd29d8b2121f41982e1ac6788169ebd8087a66a304088ec162477a27"
+    }
+  ],
+  "result": "PASS",
+  "schema": "udt-complete-coframe-seal-involution-execution-1.0",
+  "test_baseline": {
+    "failed_known_hygiene": 1,
+    "passed": 69,
+    "xfailed": 1
+  }
+}

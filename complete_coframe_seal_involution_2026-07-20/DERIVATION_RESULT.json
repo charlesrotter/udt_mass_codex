@@ -1,0 +1,77 @@
+{
+  "angular_extensions": {
+    "conjugacy_traces": [
+      2,
+      -2,
+      0
+    ],
+    "reflection_axis": "continuous theta family",
+    "selector": "not supplied"
+  },
+  "basis_analysis": {
+    "H": "Hadamard",
+    "H^T D H": "Lorentz boost",
+    "H^T J H": "diag(1,-1) reflection",
+    "H^T K H": "diag(1,-1)",
+    "status": "exact algebra; physical null-slot interpretation chosen"
+  },
+  "checks": {
+    "Hadamard_diagonalizes_K": "PASS",
+    "K_bilinear_preserved_by_full_family": "PASS",
+    "angular_reflection_continuum_involutive": "PASS",
+    "angular_reflection_continuum_orthogonal": "PASS",
+    "character_becomes_Lorentz_boost": "PASS",
+    "constant_conjugator_diagonal_entries_forced_zero": "PASS",
+    "direct_four_block_preserves_K4": "PASS",
+    "direct_four_block_transverse_identity": "PASS",
+    "eta_pullback_signature_swapped": "PASS",
+    "field_transport_cocycle": "PASS",
+    "field_transport_maps_phi_to_minus_phi": "PASS",
+    "field_transport_not_conformal_eta_generically": "PASS",
+    "general_family_conjugates_reciprocal_character": "PASS",
+    "general_real_involution_family": "PASS",
+    "multiple_complete_conditional_extensions": "PASS",
+    "no_positive_conformal_eta_solution": "PASS",
+    "raw_swap_anti_isometry_in_eta": "PASS",
+    "swap_becomes_Lorentz_reflection": "PASS",
+    "three_angular_conjugacy_types": "PASS"
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "conditional_complete_witnesses": {
+    "W01": {
+      "angular": "+I",
+      "block": "K_null",
+      "time_on": "separate_open"
+    },
+    "W02": {
+      "angular": "-I",
+      "block": "K_null",
+      "time_on": "separate_open"
+    },
+    "W03": {
+      "angular": "axis_reflection",
+      "block": "K_null_Fb",
+      "time_on": "chosen_parity"
+    }
+  },
+  "constant_real_classification": {
+    "diagonal_eta": "no positive-conformal solution",
+    "dual_K": "entire F_b family preserves K",
+    "general_inverting_involution": "F_b=[[0,b],[1/b,0]], b nonzero"
+  },
+  "field_transport": {
+    "Lorentz_isometry": false,
+    "T_phi": "diag(exp(2phi),exp(-2phi))",
+    "cocycle": true,
+    "status": "field matching, not physical symmetry"
+  },
+  "maximum_conclusion": "RECIPROCAL_CHARACTER_INVERSION_HAS_NO_REAL_CONSTANT_POSITIVE_CSN_ISOMETRY_IN_THE_CHOSEN_DIAGONAL_CLOCK_RADIAL_READOUT; IT_HAS_A_CONTINUUM_OF_CONDITIONAL_O11_REFLECTIONS_IF_THE_DUAL_PAIRING_IS_CHOSEN_AS_NULL_BASIS_METRIC; ANGULAR_AND_TIME_ON_EXTENSIONS_ARE_NONUNIQUE; PRIMARY_BRANCH_MULTIPLE_COMPLETIONS",
+  "primary_outcome": "MULTIPLE_COMPLETIONS",
+  "result": "PASS",
+  "schema": "udt-complete-coframe-seal-involution-1.0",
+  "smallest_missing_object": "a source-authorized physical quadratic readout/slot map plus a complete normal-angular-time-on coframe lift of the seal involution"
+}

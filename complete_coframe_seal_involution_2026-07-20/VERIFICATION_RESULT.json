@@ -1,0 +1,145 @@
+{
+  "catch_proofs": {
+    "CSN_overclaim_rejected": "PASS",
+    "Hopf-requirement_overclaim_rejected": "PASS",
+    "Hopf_overclaim_rejected": "PASS",
+    "K-choice_overclaim_rejected": "PASS",
+    "K-provenance_overclaim_rejected": "PASS",
+    "K-status_overclaim_rejected": "PASS",
+    "action_overclaim_rejected": "PASS",
+    "angular-I_overclaim_rejected": "PASS",
+    "angular-axis_overclaim_rejected": "PASS",
+    "angular-minus_overclaim_rejected": "PASS",
+    "angular-status_overclaim_rejected": "PASS",
+    "balanced-choice_overclaim_rejected": "PASS",
+    "basis_overclaim_rejected": "PASS",
+    "block_founded_promotion_rejected": "PASS",
+    "boundary-tangent_overclaim_rejected": "PASS",
+    "canon_mutation_rejected": "PASS",
+    "carrier-status_overclaim_rejected": "PASS",
+    "carrier_import_rejected": "PASS",
+    "chirality_overclaim_rejected": "PASS",
+    "complete-status_overclaim_rejected": "PASS",
+    "complete-witness_overclaim_rejected": "PASS",
+    "complex_overclaim_rejected": "PASS",
+    "constant-family_overclaim_rejected": "PASS",
+    "continuum_collapse_rejected": "PASS",
+    "derivation_outcome_mutation_rejected": "PASS",
+    "direct-four_overclaim_rejected": "PASS",
+    "eta-status_overclaim_rejected": "PASS",
+    "foundation_overclaim_rejected": "PASS",
+    "global-status_overclaim_rejected": "PASS",
+    "global_overclaim_rejected": "PASS",
+    "grade_overclaim_rejected": "PASS",
+    "inequivalent_witness_loss_rejected": "PASS",
+    "mass_overclaim_rejected": "PASS",
+    "maximum_overreach_rejected": "PASS",
+    "missing_block_rejected": "PASS",
+    "missing_census_rejected": "PASS",
+    "missing_extension_rejected": "PASS",
+    "missing_outcome_rejected": "PASS",
+    "missing_requirement_rejected": "PASS",
+    "missing_scope_rejected": "PASS",
+    "missing_source_rejected": "PASS",
+    "missing_status_rejected": "PASS",
+    "missing_witness_rejected": "PASS",
+    "native_outcome_promotion_rejected": "PASS",
+    "negative-factor_overclaim_rejected": "PASS",
+    "normal_overclaim_rejected": "PASS",
+    "outcome-status_overclaim_rejected": "PASS",
+    "raw-swap_overclaim_rejected": "PASS",
+    "time-on_overclaim_rejected": "PASS",
+    "time-status_overclaim_rejected": "PASS",
+    "transport-requirement_overclaim_rejected": "PASS",
+    "transport-status_overclaim_rejected": "PASS",
+    "transport_overclaim_rejected": "PASS",
+    "transport_promotion_rejected": "PASS"
+  },
+  "certification": "VERIFIED-WITH-CAVEATS: independent source/hash, full constant-block, basis, angular-class, and mutation reconstruction; no fresh external-model review",
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "counts": {
+    "blocks": 7,
+    "catch_proofs": 54,
+    "census": 3904,
+    "completeness": 17,
+    "extensions": 12,
+    "outcomes": 4,
+    "requirements": 9,
+    "sources": 84,
+    "status": 24,
+    "witnesses": 5
+  },
+  "derivation_sha256": "a0579b3785ff1bccef888a3ace186af8668a189aa802a238e9017adc8d72a3d0",
+  "groups": {
+    "blocks": {
+      "rows": 7,
+      "rulings_checked": 7
+    },
+    "completeness": {
+      "rows": 17
+    },
+    "derivation": {
+      "checks": 19,
+      "outcome": "MULTIPLE_COMPLETIONS"
+    },
+    "extensions": {
+      "rows": 12,
+      "rulings_checked": 12
+    },
+    "independent_algebra": {
+      "K_isometry": "PASS",
+      "angular_classes": [
+        2,
+        -2,
+        0
+      ],
+      "basis_boost": "PASS",
+      "constant_family": "PASS",
+      "positive_eta_obstruction": "PASS"
+    },
+    "outcomes": {
+      "rows": 4,
+      "rulings_checked": 4
+    },
+    "requirements": {
+      "rows": 9,
+      "rulings_checked": 9
+    },
+    "source_adjudication": {
+      "base_hashes_replayed": 84,
+      "rows": 84
+    },
+    "source_census": {
+      "dispositions": {
+        "CONTEXT_CANDIDATE": 1708,
+        "EXCLUDED_DUPLICATE_RAW_RECORD": 84,
+        "EXCLUDED_GENERATED_ORGANIZATION": 226,
+        "LOAD_BEARING_CANDIDATE": 84,
+        "PROVENANCE_OR_COUNTEREXAMPLE_ONLY": 1802
+      },
+      "rows": 3904
+    },
+    "source_syntax": {
+      "CSN": "PASS",
+      "canon": "PASS",
+      "cold_packet": "PASS",
+      "parent": "PASS",
+      "transverse": "PASS"
+    },
+    "status": {
+      "rows": 24,
+      "rulings_checked": 24
+    },
+    "witnesses": {
+      "rows": 5,
+      "rulings_checked": 5
+    }
+  },
+  "result": "PASS",
+  "schema": "udt-complete-coframe-seal-involution-verification-1.0",
+  "verdict": "MULTIPLE_COMPLETIONS; NO_REAL_CONSTANT_POSITIVE_CSN_ISOMETRY_IN_CONDITIONAL_DIAGONAL_READOUT; CONDITIONAL_K_NULL_REFLECTION_FAMILY; ANGULAR_AND_TIME_ON_LIFTS_UNSELECTED"
+}

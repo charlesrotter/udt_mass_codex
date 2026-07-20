@@ -1,0 +1,8 @@
+id	command	compute	exit_code	output_artifact	output_sha256
+E01	/usr/bin/python3 complete_coframe_seal_involution_2026-07-20/build_source_census.py	CPU_ONLY	0	CENSUS_TRANSCRIPT.txt	cefccd8bed26fb61ed99ee7b2cb71a6d3909b8bdfa013f8f01bcdeb7bf6740f7
+E02	/usr/bin/python3 complete_coframe_seal_involution_2026-07-20/build_source_adjudication.py	CPU_ONLY	0	ADJUDICATION_TRANSCRIPT.txt	bf93e7106ed9434a9ed2efa6e8b913ac94fd9b8ad899c0b5b2def86ff5d2b188
+E03	/usr/bin/python3 complete_coframe_seal_involution_2026-07-20/derive_complete_coframe_involution.py	CPU_ONLY	0	DERIVATION_TRANSCRIPT.txt	452bda6b4821251a7aea2178f6e47c7616c0d12b866032951e023854fa35ef53
+E04	/usr/bin/python3 complete_coframe_seal_involution_2026-07-20/verify_complete_coframe_involution.py	CPU_ONLY	0	VERIFICATION_TRANSCRIPT.txt	5d5eb980fd29d8b2121f41982e1ac6788169ebd8087a66a304088ec162477a27
+E05	/usr/bin/python3 -m pytest tests/	CPU_ONLY	1_EXPECTED_BASELINE	TEST_TRANSCRIPT.txt	ff221789dd7e76da3a9d209c671fa93a6bfd95b46056153ff5c0d19eade7f197
+E06	/usr/bin/python3 -I -c import sys,runpy; sys.path.insert(0,'/home/udt-admin/.local/lib/python3.10/site-packages'); import sympy; assert sympy.__version__=='1.13.1'; runpy.run_path('complete_coframe_seal_involution_2026-07-20/verify_complete_coframe_involution.py',run_name='__main__')	CPU_ONLY	0	ISOLATED_VERIFICATION_TRANSCRIPT.txt	5d5eb980fd29d8b2121f41982e1ac6788169ebd8087a66a304088ec162477a27
+E07	fresh external-model review	EXTERNAL_REVIEW_NOT_PERFORMED	AUTHORIZATION_NOT_GIVEN	EXTERNAL_REVIEW_STATUS.txt	0d3393987162e96be35316cd0ba4300c1a25564bdd43d69c32ddabd12474e33b

@@ -1,0 +1,85 @@
+id	path	role	authority	affirmative_use	prohibition	audit_ruling
+R01	CANON.md	canon/control ledger	MIXED_DATE_CONTROL	current owner locks only after later controls	pre-July science cannot affirm post-firewall physics	SCOPE_HISTORY_ONLY
+R02	LIVE.md	controlling state	CURRENT_CONTROL	frontier and authority boundary	not load-bearing algebra	CONTROLLING_SCOPE
+R03	UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md	CSN postulate	OWNER_LOCKED_FOUNDATION	pre-scale conformal equivalence	does not select a representative or action	FOUNDING_SELECTOR
+R04	UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md	bootstrap principle	OWNER_STATED_WORKING	on-shell consistency	cannot become a missing local EOM	ON_SHELL_ONLY
+R05	UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md	action selector audit	POST_FIREWALL_EVIDENCE	pre/post-scale action distinctions	no C2 completion promotion	ACTION_BRANCH_SCOPE
+R06	UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md	C0 foundation	HARD_FROZEN_OWNER_PACKET	exact supplied foundation	no historical import	FOUNDATION_INPUT
+R07	UDT_NATIVE_ACTION_COLD_PACKET.md	C1 clarification	HARD_FROZEN_OWNER_PACKET	seal/carrier/bootstrap/Xmax statuses	no action or boundary completion	FOUNDATION_INPUT
+R08	UDT_S2_CARRIER_STATUS_CLARIFICATION_2026-07-15.md	carrier clarification	OWNER_CURRENT_CLARIFICATION	S2 reopened as posit	no carrier/action assumption	CARRIER_EXCLUSION
+R09	UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md	Xmax clarification	OWNER_CURRENT_CLARIFICATION	working global posit	no local insertion or value	GLOBAL_STATUS
+R10	angular_derivative_weight_selector_2026-07-20/AUDIT_REPORT.md	derivative-weight audit	CURRENT_EVIDENCE	order separation	no L2/L4 import	DERIVATIVE_SCOPE
+R11	angular_derivative_weight_selector_2026-07-20/DERIVATION_RESULT.json	derivative exact algebra	CURRENT_EVIDENCE	CSN order algebra	bounded premises	CONDITIONAL_ALGEBRA
+R12	angular_derivative_weight_selector_2026-07-20/STATUS_LEDGER.tsv	derivative ledger	CURRENT_EVIDENCE	route labels	no material weighting	STATUS_SCOPE
+R13	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	toric closure audit	CURRENT_EVIDENCE	conditional S3 family	premises not founded	CONDITIONAL_GLOBAL_GEOMETRY
+R14	angular_toric_closure_selector_2026-07-19/DERIVATION_RESULT.json	toric exact algebra	CURRENT_EVIDENCE	cap/lattice calculations	inherits premises	CONDITIONAL_ALGEBRA
+R15	angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv	toric status ledger	CURRENT_EVIDENCE	conditional/open distinctions	no topology promotion	STATUS_SCOPE
+R16	bootstrap_csn_phi_angular_selector_2026-07-19/AUDIT_REPORT.md	phi-angular audit	CURRENT_EVIDENCE	selectors fail to force local equation	no invented equation	NEGATIVE_SELECTOR_EVIDENCE
+R17	bootstrap_csn_phi_angular_selector_2026-07-19/STATUS_LEDGER.tsv	phi-angular ledger	CURRENT_EVIDENCE	underdetermination labels	no equation promotion	STATUS_SCOPE
+R18	boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md	boundary audit	CURRENT_EVIDENCE	boundary/bootstrap limits	future completion remains open	BOUNDARY_SELECTOR_NEGATIVE
+R19	boundary_bootstrap_representative_selector_audit_2026-07-19/STATUS_LEDGER.tsv	boundary ledger	CURRENT_EVIDENCE	selector statuses	no boundary action promotion	STATUS_SCOPE
+R20	c2_angular_reduction_selector_2026-07-20/AUDIT_REPORT.md	immediate parent audit	CURRENT_EVIDENCE	compact round-shape theorem	product and boundary caveats remain	PARENT_RESULT
+R21	c2_angular_reduction_selector_2026-07-20/COMPLETENESS_SCOPE.tsv	parent scope	CURRENT_EVIDENCE	omitted lapse/shift/boundary layers	omissions stay open	SCOPE_GATE
+R22	c2_angular_reduction_selector_2026-07-20/DERIVATION_RESULT.json	parent exact output	CURRENT_EVIDENCE	curvature roots and coefficients	inherits product premises	PARENT_ALGEBRA
+R23	c2_angular_reduction_selector_2026-07-20/EQUATION_LEDGER.tsv	parent equations	CURRENT_EVIDENCE	product Bach and shape identities	constant-lapse limitation	PARENT_ALGEBRA
+R24	c2_angular_reduction_selector_2026-07-20/NEXT_SCIENTIFIC_DECISION.md	authorized seam	CURRENT_NAVIGATION	defines variable-lapse question	not outcome evidence	QUESTION_ONLY
+R25	c2_angular_reduction_selector_2026-07-20/STATUS_LEDGER.tsv	parent status ledger	CURRENT_EVIDENCE	exact conditional labels	no scale/matter promotion	STATUS_SCOPE
+R26	c2_finite_cell_boundary_variation_2026-07-20/AUDIT_REPORT.md	immediate parent audit	CURRENT_EVIDENCE	exact boundary phase-space and selector negative	conditional C2 and non-null fixed-wall caveats	PARENT_PHASE_SPACE
+R27	c2_finite_cell_boundary_variation_2026-07-20/BOUNDARY_CLASS_LEDGER.tsv	parent class census	CURRENT_EVIDENCE	inequivalent differentiable classes	none selected	CLASS_FORK
+R28	c2_finite_cell_boundary_variation_2026-07-20/COMPLETENESS_SCOPE.tsv	parent scope census	CURRENT_EVIDENCE	decomposition omissions	omissions remain open	SCOPE_GATE
+R29	c2_finite_cell_boundary_variation_2026-07-20/CONVENTION_LEDGER.tsv	parent convention ledger	CURRENT_EVIDENCE	normal/gauge/K conventions	null and moving walls open	CONVENTION_SCOPE
+R30	c2_finite_cell_boundary_variation_2026-07-20/DERIVATION_RESULT.json	parent exact output	CURRENT_EVIDENCE	machine-readable phase-space identities	not physical wall rule	PARENT_ALGEBRA
+R31	c2_finite_cell_boundary_variation_2026-07-20/EQUATION_LEDGER.tsv	parent equations	CURRENT_EVIDENCE	h/K momenta, corner, CSN, Q	conventions and action conditional	PARENT_ALGEBRA
+R32	c2_finite_cell_boundary_variation_2026-07-20/NEXT_SCIENTIFIC_DECISION.md	authorized seam	CURRENT_NAVIGATION	defines exact join question	not outcome evidence	QUESTION_ONLY
+R33	c2_finite_cell_boundary_variation_2026-07-20/STATUS_LEDGER.tsv	parent status ledger	CURRENT_EVIDENCE	exact derived/open labels	no physical polarization promotion	STATUS_SCOPE
+R34	c2_rigidity_three_route_zoomout_2026-07-20/AUDIT_REPORT.md	immediate parent zoom-out	CURRENT_EVIDENCE	ranks boundary variation before nonlinear solve	ranking is not outcome authority	PARENT_ROUTE_RANKING
+R35	c2_rigidity_three_route_zoomout_2026-07-20/COMPLETENESS_SCOPE.tsv	zoom-out scope census	CURRENT_EVIDENCE	boundary/action/nonlinear omissions	omissions remain open	SCOPE_GATE
+R36	c2_rigidity_three_route_zoomout_2026-07-20/DERIVATION_RESULT.json	zoom-out machine result	CURRENT_EVIDENCE	conditional scale and omission checks	inherits conditional C2 premises	PARENT_ALGEBRA
+R37	c2_rigidity_three_route_zoomout_2026-07-20/NEXT_SCIENTIFIC_DECISION.md	authorized seam	CURRENT_NAVIGATION	defines finite-cell boundary question	not evidence for outcome	QUESTION_ONLY
+R38	c2_rigidity_three_route_zoomout_2026-07-20/ROUTE_COMPARISON.tsv	three-route comparison	CURRENT_EVIDENCE	omission and dependency comparison	no route chosen by physics	ROUTE_SCOPE
+R39	c2_rigidity_three_route_zoomout_2026-07-20/STATUS_LEDGER.tsv	zoom-out status ledger	CURRENT_EVIDENCE	scoped rigidity/open labels	no boundary selector promotion	STATUS_SCOPE
+R40	c2_time_fiber_shift_jacobi_2026-07-20/AUDIT_REPORT.md	immediate parent audit	CURRENT_EVIDENCE	shift Jacobi rigidity and mandatory zoom-out	linear compact branch only	RIGIDITY_INPUT
+R41	c2_time_fiber_shift_jacobi_2026-07-20/COMPLETENESS_SCOPE.tsv	shift scope census	CURRENT_EVIDENCE	nonlinear/boundary/domain omissions	omissions remain open	SCOPE_GATE
+R42	c2_time_fiber_shift_jacobi_2026-07-20/DERIVATION_RESULT.json	shift exact output	CURRENT_EVIDENCE	kernel and Bach projection	inherits compact round premises	CONDITIONAL_ALGEBRA
+R43	c2_time_fiber_shift_jacobi_2026-07-20/EQUATION_LEDGER.tsv	shift equations	CURRENT_EVIDENCE	Weyl/Bach Jacobi operator	Jacobi order only	CONDITIONAL_ALGEBRA
+R44	c2_time_fiber_shift_jacobi_2026-07-20/NEXT_SCIENTIFIC_DECISION.md	authorized zoom-out seam	CURRENT_NAVIGATION	defines three-route comparison	not evidence for outcome	QUESTION_ONLY
+R45	c2_time_fiber_shift_jacobi_2026-07-20/STATUS_LEDGER.tsv	shift status ledger	CURRENT_EVIDENCE	exact scoped labels	no nonlinear promotion	STATUS_SCOPE
+R46	c2_variable_lapse_selector_2026-07-20/AUDIT_REPORT.md	variable-lapse audit	CURRENT_EVIDENCE	diagonal lapse rigidity and CSN copy	bounded compact branch only	RIGIDITY_INPUT
+R47	c2_variable_lapse_selector_2026-07-20/COMPLETENESS_SCOPE.tsv	variable-lapse scope	CURRENT_EVIDENCE	omitted layers	omissions remain open	SCOPE_GATE
+R48	c2_variable_lapse_selector_2026-07-20/DERIVATION_RESULT.json	variable-lapse output	CURRENT_EVIDENCE	exact curvature result	inherits premises	CONDITIONAL_ALGEBRA
+R49	c2_variable_lapse_selector_2026-07-20/EQUATION_LEDGER.tsv	variable-lapse equations	CURRENT_EVIDENCE	conformal reduction	boundary/shift open	CONDITIONAL_ALGEBRA
+R50	c2_variable_lapse_selector_2026-07-20/NEXT_SCIENTIFIC_DECISION.md	parent navigation	CURRENT_NAVIGATION	time/fiber seam	not outcome authority	QUESTION_HISTORY
+R51	c2_variable_lapse_selector_2026-07-20/STATUS_LEDGER.tsv	variable-lapse ledger	CURRENT_EVIDENCE	exact scoped labels	no UDT-wide promotion	STATUS_SCOPE
+R52	copresence_causal_accessibility_selector_2026-07-19/DERIVATION_REPORT.md	co-presence audit	CURRENT_EVIDENCE	membership versus causal/response distinction	no action or boundary selector	COPRESENCE_SCOPE
+R53	copresence_causal_accessibility_selector_2026-07-19/STATUS_LEDGER.tsv	co-presence ledger	CURRENT_EVIDENCE	C03-C05 conformal causal statuses	no physical calibration	STATUS_SCOPE
+R54	copresence_gr_constraint_regrade_2026-07-19/DERIVATION_REPORT.md	constraint regrade	CURRENT_EVIDENCE	global admissibility not off-shell equation	no native ADM/lapse/shift import	OFFSHELL_SCOPE
+R55	copresence_gr_constraint_regrade_2026-07-19/RECLASSIFICATION_TABLE.tsv	constraint role table	CURRENT_EVIDENCE	R07 R18 R24-R26 roles	no parent-law promotion	STATUS_SCOPE
+R56	finite_cell_seal_boundary_phase_join_2026-07-20/AUDIT_REPORT.md	immediate parent audit	CURRENT_EVIDENCE	partial seal data and raw-swap obstruction	no complete coframe or boundary promotion	PARENT_PARTIAL_JOIN
+R57	finite_cell_seal_boundary_phase_join_2026-07-20/CLAUSE_TO_BOUNDARY_SLOT.tsv	foundation-to-slot map	CURRENT_EVIDENCE	maps supplied clauses to partial data	no missing slot invented	CLAUSE_SCOPE
+R58	finite_cell_seal_boundary_phase_join_2026-07-20/DERIVATION_RESULT.json	parent exact output	CURRENT_EVIDENCE	tangent rank mirror and swap identities	not a complete physical symmetry	PARENT_ALGEBRA
+R59	finite_cell_seal_boundary_phase_join_2026-07-20/NEXT_SCIENTIFIC_DECISION.md	authorized seam	CURRENT_NAVIGATION	defines exact complete-coframe question	not outcome evidence	QUESTION_ONLY
+R60	finite_cell_seal_boundary_phase_join_2026-07-20/OUTCOME_BRANCH_LEDGER.tsv	parent outcome branches	CURRENT_EVIDENCE	partial-seal branch classification	does not settle extension audit	QUESTION_PARENT
+R61	finite_cell_seal_boundary_phase_join_2026-07-20/SLOT_COVERAGE.tsv	parent slot census	CURRENT_EVIDENCE	enumerates missing boundary slots	open slots remain open	SCOPE_GATE
+R62	finite_cell_seal_boundary_phase_join_2026-07-20/STATUS_LEDGER.tsv	parent status ledger	CURRENT_EVIDENCE	exact derived/open labels	no physical involution promotion	STATUS_SCOPE
+R63	finite_cell_seal_boundary_phase_join_2026-07-20/STRONGEST_JOIN_CHALLENGES.tsv	parent adversarial challenges	CURRENT_EVIDENCE	strongest seal-selector counterarguments	challenges are not completion	CHALLENGE_INPUT
+R64	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	dimensional audit	CURRENT_EVIDENCE	coefficient ruler	no scale promotion	DIMENSIONAL_GATE
+R65	matter_bootstrap_dimensional_inventory_2026-07-20/STATUS_LEDGER.tsv	dimensional ledger	CURRENT_EVIDENCE	scale statuses	no scale promotion	STATUS_SCOPE
+R66	metric_cartan_holonomy_audit_2026-07-19/AUDIT_REPORT.md	whole-metric Cartan audit	CURRENT_EVIDENCE	full coframe census	Cartan identities are not EOM	METRIC_COMPLETENESS_WARNING
+R67	metric_cartan_holonomy_audit_2026-07-19/STATUS_LEDGER.tsv	Cartan status ledger	CURRENT_EVIDENCE	derived/open distinctions	no action promotion	STATUS_SCOPE
+R68	native_action_final_adjudication_2026-07-18/COUNTERMODEL_COMPLETENESS_FINAL.tsv	completeness correction	HARD_FROZEN_POST_FIREWALL	countermodel limits	no complete-universe claim	FROZEN_SCOPE
+R69	native_action_final_adjudication_2026-07-18/FINAL_ADJUDICATION_REPORT.md	final action ruling	HARD_FROZEN_POST_FIREWALL	C2/EH/action distinctions	immutable; no strengthening	FROZEN_ACTION_STATUS
+R70	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv	final status ledger	HARD_FROZEN_POST_FIREWALL	UNIQUE-CONDITIONAL and OPEN labels	immutable	FROZEN_ACTION_STATUS
+R71	native_action_final_adjudication_2026-07-18/MECHANICAL_AGREEMENT_DISAGREEMENT.tsv	frozen final adjudication	HARD_FROZEN_POST_FIREWALL	M06 parity and M19 boundary ruling	immutable; no strengthening	FROZEN_BOUNDARY_STATUS
+R72	native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md	topology audit	CURRENT_EVIDENCE	Hopf capability caveat	topology does not set action	TOPOLOGY_SCOPE
+R73	native_hopfion_topology_audit_2026-07-19/TOPOLOGY_STATUS_LEDGER.tsv	topology ledger	CURRENT_EVIDENCE	topology/carrier labels	no carrier promotion	STATUS_SCOPE
+R74	null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md	conditional Hopf audit	CURRENT_EVIDENCE	orbit/connection witness	no carrier/action derivation	CONDITIONAL_HOPF_ROUTE
+R75	null_section_hopfion_metric_audit_2026-07-19/DERIVATION_RESULT.json	Hopf exact algebra	CURRENT_EVIDENCE	conditional identities	inherits premises	CONDITIONAL_ALGEBRA
+R76	null_section_hopfion_metric_audit_2026-07-19/STATUS_LEDGER.tsv	Hopf status ledger	CURRENT_EVIDENCE	compatibility/open distinctions	no carrier promotion	STATUS_SCOPE
+R77	scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md	scale census	CURRENT_EVIDENCE	homothety rank	no absolute equation	SCALE_SCOPE
+R78	scale_breaking_closure_census_2026-07-20/STATUS_LEDGER.tsv	scale ledger	CURRENT_EVIDENCE	open scale objects	no Xmax value	STATUS_SCOPE
+R79	transverse_reciprocal_realization_selector_2026-07-19/AUDIT_REPORT.md	transverse realization audit	CURRENT_EVIDENCE	direct extension and conditional spin/Hopf witnesses	no physical transverse topology or carrier	TRANSVERSE_SCOPE
+R80	transverse_reciprocal_realization_selector_2026-07-19/CANDIDATE_FAMILY.tsv	transverse candidate census	CURRENT_EVIDENCE	inequivalent realization families	none selected by current foundation	EXTENSION_FORK
+R81	transverse_reciprocal_realization_selector_2026-07-19/DERIVATION_RESULT.json	transverse exact output	CURRENT_EVIDENCE	block extension and equivariance algebra	inherits conditional realization premises	CONDITIONAL_ALGEBRA
+R82	transverse_reciprocal_realization_selector_2026-07-19/STATUS_LEDGER.tsv	transverse status ledger	CURRENT_EVIDENCE	exact conditional/open distinctions	no extension selector promotion	STATUS_SCOPE
+R83	udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md	premise-reset control	CURRENT_EVIDENCE	correct c phi distance Xmax boundary meanings	no new boundary equation	SEMANTIC_CONTROL
+R84	udt_premise_reset_audit_2026-07-19/OWNER_MEANING_LEDGER.tsv	owner meanings	OWNER_LOCKED_FOR_AUDIT	O03 O06-O12 O15	boundary join and scale open	SEMANTIC_CONTROL

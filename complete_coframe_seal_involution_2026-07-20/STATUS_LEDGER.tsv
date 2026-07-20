@@ -1,0 +1,25 @@
+id	layer	claim	status	basis	limit
+S01	FOUNDATION	Reciprocal-c and dual Reciprocity	FOUNDING	frozen C0/C1 owner packet	does not by itself choose a physical quadratic readout
+S02	FOUNDATION	K off-diagonal pairing	FAITHFUL_DUAL_PAIRING_FORMALIZATION	P^T K P=K exactly	K is not declared the physical metric
+S03	KINEMATICS	reciprocal exponential character D(phi)	DERIVED_CONDITIONAL	composition regularity and sign/unit premises	physical slot identification remains chosen
+S04	STATIC_SEAL	phi maps to minus phi and vanishes at seal	CANONIZED_BINDING	spatial depth mirror sector	phi normal derivative remains free
+S05	BLOCK_ALGEBRA	general constant real inverting involution	DERIVED_EXACT	F_b=[[0,b],[1/b,0]] for nonzero b	classifies character maps not physical meaning
+S06	DIAGONAL_READOUT	positive-CSN Lorentzian isometry of eta	REFUTED_FOR_CONSTANT_REAL_FAMILY	F_b^T eta F_b has exchanged signs	eta readout itself is conditional
+S07	DUAL_NULL_READOUT	F_b preserves K	DERIVED_EXACT	F_b^T K F_b=K for every nonzero b	K-as-physical-null-metric is CHOSE
+S08	BASIS	Hadamard maps K to diagonal Lorentz form	DERIVED_EXACT	congruence and boost/reflection identities	physical reinterpretation of transformed slots is CHOSE
+S09	FIELD_TRANSPORT	T(phi) maps D(phi) to D(-phi)	DERIVED_EXACT_COCYCLE	T(-phi)T(phi)=I	generically not a Lorentzian conformal isometry
+S10	NORMAL	radial reflection reverses normal	PARTIAL_FOUNDED_BASE_ACTION	static spatial mirror names reflection	complete coframe and derivative action remain open
+S11	ANGULAR	identity extension	CONDITIONAL_WITNESS	exact orthogonal involution	not selected
+S12	ANGULAR	minus-identity extension	CONDITIONAL_INEQUIVALENT_WITNESS	exact orthogonal involution	metric action can coincide while coframe parity differs
+S13	ANGULAR	axis-reflection continuum	DERIVED_EXACT_FAMILY	R(theta) diag(1,-1) R(theta)^T	axis/director not supplied
+S14	ANGULAR	conditional Hopf circle exchange	CONDITIONAL_WITNESS	exact in separately premised reciprocal angular block	physical transverse topology and soldering open
+S15	TIME_ON	temporal mirror sector authority	CANONIZED_SECTOR_AUTHORITY	CANON C-2026-07-04-1	off-diagonal and omega/node rule open
+S16	CSN	positive common-scale equivalence	FOUNDING	owner-locked postulate	does not select representative or sector cocycle
+S17	BOUNDARY_TANGENTS	complete fixed and anti-fixed tangent split	NOT_DERIVED	depends on unselected block and sector lift	cannot select delta h delta K or corner data
+S18	GLOBAL	angular caps lattice topology and orientation	OPEN	multiple conditional completions survive	finite-cell wording supplies no unique globalization
+S19	ACTION	C2 or EH action selection	OUT_OF_SCOPE_OPEN	no action varied in this audit	frozen conditional statuses unchanged
+S20	CARRIER	S2 carrier or soldering	OPEN_NOT_ADOPTED	conditional fiber is not selected section	no matter conclusion
+S21	SCALE_MASS	Xmax c G total mass and particle mass	OPEN_NOT_DERIVED	finite-dimensional symmetry audit only	no normalization or bootstrap closure
+S22	OUTCOME	complete native coframe involution	NOT_DERIVED	physical readout and sector extensions unselected	cannot close boundary join
+S23	OUTCOME	multiple conditional completions	PRIMARY_OUTCOME	explicit K-family plus inequivalent angular/time lifts	conditional witnesses are not realized universes
+S24	EVIDENCE	audit certification	VERIFIED_WITH_CAVEATS	exact replay independent reconstruction source hashes and catches	no fresh different-model adversarial review

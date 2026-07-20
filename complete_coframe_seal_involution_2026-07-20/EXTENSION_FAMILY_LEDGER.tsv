@@ -1,0 +1,13 @@
+id	sector	extension	algebraic_status	founded_status	boundary_tangent_effect	ruling
+X01	angular isotropic two-plane	+A=I	orthogonal involution; trace 2	angular identity not selected	all angular coframe tangents even	CONDITIONAL_EXTENSION
+X02	angular isotropic two-plane	A=-I	orthogonal involution; trace -2	angular sign not selected	coframe anti-fixed while metric is even	CONDITIONAL_INEQUIVALENT_COFRAME_EXTENSION
+X03	angular isotropic two-plane	A(theta)=R(theta)diag(1,-1)R(theta)^T	continuous orthogonal reflection family; trace 0	axis/director not supplied	one fixed and one anti-fixed angular coframe line	CONTINUUM_CONDITIONAL_EXTENSIONS
+X04	angular anisotropic block	aligned sign flips or eigenline reflection	stabilizer depends on eigenvalue strata	angular metric/eigenlines not derived	parities stratified and undefined at degeneracy	CONDITIONAL_STRATIFIED
+X05	direct four-vector extension	P4=diag(e^-phi,e^phi,1,1)	faithful K4-preserving extension	one admissible representation; no uniqueness	transverse directions unchanged	CONDITIONAL_TRANSVERSE_IDENTITY_WITNESS
+X06	conditional Hopf toric extension	phi reversal plus xi1/xi2 exchange	exact isometry in supplied reciprocal angular block	spatial torus periodicity exchange and caps unselected	angular exchange fixed/anti-fixed lines	CONDITIONAL_ANGULAR_SWAP_WITNESS
+X07	normal orientation	n->-n	base reflection squares to identity	spatial reflection named but full coframe lift open	normal coframe anti-fixed; normal derivatives change parity	PARTIAL_FOUNDED_BASE_ACTION
+X08	static reciprocal field	phi->-phi	canonized sector action	FOUNDING/CANONIZED in static sector	phi fixed value zero and normal slope free	FOUNDED_SCALAR_ACTION_ONLY
+X09	time-on/off-diagonal	t->-t with possible component parities	temporal reflection squares to identity	sector authority canonized; omega/node rule open	shift/cross-term parity not executable	OPEN_EXTENSION
+X10	common scale	log Omega even, gauge-shifted, or paired by positive functions	many positive CSN-compatible cocycles	CSN declares equivalence but no section	common scale is gauge/null rather than fixed	MULTIPLE_GAUGE_EXTENSIONS
+X11	orientation/chirality	determinant plus or minus and diagonal/anti-diagonal Hopf choices	discrete alternatives exact in conditional witnesses	orientation not selected	corner and charge signs differ	OPEN_DISCRETE_EXTENSION
+X12	global cap/topology	no cap, S3, lens, or other gluing	multiple exact conditional families	finite cell supplies no toric lattice/cap map	global fixed sets and corners differ	OPEN_GLOBAL_EXTENSIONS
