@@ -1,0 +1,86 @@
+{
+  "catch_proofs": {
+    "WRL_profile_representative_conflation_rejected": "PASS",
+    "Xmax_derivation_result_mutation_rejected": "PASS",
+    "Xmax_reciprocity_selector_promotion_rejected": "PASS",
+    "bootstrap_map_invention_rejected": "PASS",
+    "bump_falsifier_erasure_rejected": "PASS",
+    "complete_action_promotion_rejected": "PASS",
+    "dimensionless_root_scale_promotion_rejected": "PASS",
+    "fixed_Xmax_local_selector_promotion_rejected": "PASS",
+    "malformed_census_hash_rejected": "PASS",
+    "maximum_conclusion_overreach_rejected": "PASS",
+    "missing_census_row_rejected": "PASS",
+    "missing_load_bearing_source_rejected": "PASS",
+    "missing_requirement_row_rejected": "PASS",
+    "missing_selector_candidate_rejected": "PASS",
+    "top_level_selector_promotion_rejected": "PASS",
+    "withdrawn_Xmax_physics_promotion_rejected": "PASS"
+  },
+  "certification": "VERIFIED-WITH-CAVEATS: independent in-package algebra and source replay; no fresh external-model review",
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "counts": {
+    "candidates": 17,
+    "catch_proofs": 16,
+    "census": 1762,
+    "requirements": 17,
+    "sources": 29,
+    "status": 14
+  },
+  "derivation_sha256": "50a607c37297984b61d7ad4a8b97e2497836848d60560a693ae06ffc75974ea9",
+  "groups": {
+    "derivation": {
+      "checks": 28,
+      "maximum": "NO_EXISTING_NONCIRCULAR_BOUNDARY_BOOTSTRAP_OR_XMAX_RECIPROCITY_RULE_SELECTS_THE_PHYSICAL_CSN_REPRESENTATIVE; WRL_RATIO_PROFILE_AND_CONDITIONAL_CLOCK_CURVATURE_SELECTOR_REMAIN_DISTINCT"
+    },
+    "independent_algebra": {
+      "compactness": "HOMOTHETY_INVARIANT",
+      "length_response_over_X": "16/315",
+      "optical_metric": "INVARIANT",
+      "volume_response_over_X3": "1024*pi/5005",
+      "x_over_Xmax": "HOMOTHETY_INVARIANT"
+    },
+    "selector_candidates": {
+      "rows": 17,
+      "rulings_checked": 9
+    },
+    "selector_requirements": {
+      "passing_all": 0,
+      "rows": 17
+    },
+    "source_adjudication": {
+      "exact_coverage": true,
+      "rows": 29
+    },
+    "source_census": {
+      "dispositions": {
+        "CONTEXT_CANDIDATE": 914,
+        "EXCLUDED_DUPLICATE_RAW_RECORD": 23,
+        "EXCLUDED_GENERATED_ORGANIZATION": 67,
+        "LOAD_BEARING_CANDIDATE": 29,
+        "PROVENANCE_OR_CONTEXT_ONLY": 729
+      },
+      "rows": 1762
+    },
+    "source_text": {
+      "CANON": "PASS",
+      "CSN": "PASS",
+      "Xmax": "PASS",
+      "Xmax_status": "PASS",
+      "bootstrap": "PASS",
+      "clock": "PASS",
+      "premise_reset": "PASS"
+    },
+    "status": {
+      "rows": 14,
+      "rulings_checked": 13
+    }
+  },
+  "result": "PASS",
+  "schema": "udt-boundary-bootstrap-representative-verification-1.0",
+  "verdict": "SELECTOR_NOT_FOUND_IN_CURRENT_FOUNDATION; XMAX_RECIPROCITY_RETAINED_AS_CONDITIONAL_DIMENSIONLESS_POSITIONAL_HYPOTHESIS"
+}

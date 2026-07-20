@@ -1,0 +1,132 @@
+Script started on 2026-07-19 23:54:14-04:00 [<not executed on terminal>]
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-9.1.1, pluggy-1.6.0
+rootdir: /tmp/udt_startup_rehearsal_20260719_h0zjlA/repo
+configfile: pytest.ini
+collecting ... collected 71 items                                                             
+
+tests/test_branch_operator.py .......                                    [  9%]
+tests/test_hygiene_header.py .F.                                         [ 14%]
+tests/test_n5d_offround.py ......                                        [ 22%]
+tests/test_n5d_pullback.py .......                                       [ 32%]
+tests/test_n5d_roundlimit.py ......                                      [ 40%]
+tests/test_n5d_signgate.py ....                                          [ 46%]
+tests/test_n5d_stage2.py ............                                    [ 63%]
+tests/test_operator_from_action.py .......                               [ 73%]
+tests/test_solution_space_gate.py .....x                                 [ 81%]
+tests/test_solver_integrity.py .............                             [100%]
+
+=================================== FAILURES ===================================
+___________________ test_covered_results_have_hygiene_header ___________________
+
+    def test_covered_results_have_hygiene_header():
+        files = _covered_files()
+        assert files, "no covered results files found — check globs"
+        missing: list[str] = []
+        for path in files:
+            text = path.read_text(encoding="utf-8", errors="replace")
+            rel = path.relative_to(REPO)
+            for pat in REQUIRED_MARKERS:
+                if not re.search(pat, text, re.IGNORECASE):
+                    missing.append(f"{rel}: missing /{pat}/")
+            if not GRADE_TOKEN.search(text):
+                missing.append(f"{rel}: Build-on grade value not one of DEMO|LEAD|CONDITIONAL|BANKED-FOR-STRUCTURE")
+>       assert not missing, "Hygiene header gaps:\n  " + "\n  ".join(missing)
+E       AssertionError: Hygiene header gaps:
+E           simple_metric_EOS_power_window_dS_results.md: missing /Verifier status/
+E           simple_metric_EOS_power_window_dS_results.md: Build-on grade value not one of DEMO|LEAD|CONDITIONAL|BANKED-FOR-STRUCTURE
+E           simple_metric_GR_mine_embedding_fork_results.md: missing /Observing or targeting/
+E           simple_metric_GR_mine_embedding_fork_results.md: missing /Verifier status/
+E           simple_metric_HL_unification_results.md: missing /Verifier status/
+E           simple_metric_HL_unification_results.md: missing /NOT claimed/
+E           simple_metric_J1_honesty_skeleton_results.md: missing /Verifier status/
+E           simple_metric_L_P_selection_derive_results.md: missing /Verifier status/
+E           simple_metric_L_P_selection_derive_results.md: missing /NOT claimed/
+E           simple_metric_L_native_optical_derive_results.md: missing /Verifier status/
+E           simple_metric_L_principle_closure_attack_results.md: missing /Verifier status/
+E           simple_metric_L_principle_closure_attack_results.md: missing /NOT claimed/
+E           simple_metric_L_wall_regularity_closure_results.md: missing /Verifier status/
+E           simple_metric_L_wall_regularity_closure_results.md: missing /NOT claimed/
+E           simple_metric_L_wall_regularity_closure_results.md: Build-on grade value not one of DEMO|LEAD|CONDITIONAL|BANKED-FOR-STRUCTURE
+E           simple_metric_S3_native_dust_ceiling_results.md: Build-on grade value not one of DEMO|LEAD|CONDITIONAL|BANKED-FOR-STRUCTURE
+E           simple_metric_SNe_shape_clue_results.md: missing /Verifier status/
+E           simple_metric_WR_L_center_invariants_second_pass_results.md: missing /Observing or targeting/
+E           simple_metric_WR_L_center_invariants_second_pass_results.md: missing /Verifier status/
+E           simple_metric_WR_L_center_invariants_second_pass_results.md: missing /NOT claimed/
+E           simple_metric_WR_L_center_invariants_second_pass_results.md: Build-on grade value not one of DEMO|LEAD|CONDITIONAL|BANKED-FOR-STRUCTURE
+E           simple_metric_WR_L_center_nogo_atlas_results.md: missing /Verifier status/
+E           simple_metric_WR_L_center_nogo_atlas_results.md: missing /NOT claimed/
+E           simple_metric_WR_L_center_nogo_atlas_results.md: Build-on grade value not one of DEMO|LEAD|CONDITIONAL|BANKED-FOR-STRUCTURE
+E           simple_metric_WR_L_center_recenter_exclusion_results.md: missing /Observing or targeting/
+E           simple_metric_WR_L_center_recenter_exclusion_results.md: missing /Verifier status/
+E           simple_metric_WR_L_center_recenter_exclusion_results.md: missing /NOT claimed/
+E           simple_metric_WR_L_center_recenter_exclusion_results.md: Build-on grade value not one of DEMO|LEAD|CONDITIONAL|BANKED-FOR-STRUCTURE
+E           simple_metric_WR_L_external_triple_blind_audit_results.md: missing /Premise ledger/
+E           simple_metric_WR_L_external_triple_blind_audit_results.md: missing /Observing or targeting/
+E           simple_metric_WR_L_external_triple_blind_audit_results.md: missing /Verifier status/
+E           simple_metric_WR_L_external_triple_blind_audit_results.md: missing /NOT claimed/
+E           simple_metric_WR_L_external_triple_blind_audit_results.md: Build-on grade value not one of DEMO|LEAD|CONDITIONAL|BANKED-FOR-STRUCTURE
+E           simple_metric_alpha_restoring_probe_results.md: missing /Observing or targeting/
+E           simple_metric_alpha_restoring_probe_results.md: missing /Verifier status/
+E           simple_metric_alpha_restoring_probe_results.md: missing /NOT claimed/
+E           simple_metric_angular_on_L_multipole_results.md: missing /Verifier status/
+E           simple_metric_angular_timelive_L_results.md: missing /Verifier status/
+E           simple_metric_bao_cf_process_results.md: missing /Premise ledger/
+E           simple_metric_bao_cf_process_results.md: missing /Observing or targeting/
+E           simple_metric_bao_cf_process_results.md: missing /Verifier status/
+E           simple_metric_bao_cf_process_results.md: missing /NOT claimed/
+E           simple_metric_bao_disk_inventory_results.md: missing /Premise ledger/
+E           simple_metric_bao_disk_inventory_results.md: missing /Observing or targeting/
+E           simple_metric_bao_disk_inventory_results.md: missing /Verifier status/
+E           simple_metric_bao_disk_inventory_results.md: missing /NOT claimed/
+E           simple_metric_bao_proper_pass_results.md: missing /Premise ledger/
+E           simple_metric_bao_proper_pass_results.md: missing /Observing or targeting/
+E           simple_metric_bao_proper_pass_results.md: missing /Verifier status/
+E           simple_metric_bao_proper_pass_results.md: missing /NOT claimed/
+E           simple_metric_bao_pure_AP_character_results.md: missing /Verifier status/
+E           simple_metric_bao_pure_AP_character_results.md: missing /NOT claimed/
+E           simple_metric_center_dS_external_verify_pass_results.md: missing /Premise ledger/
+E           simple_metric_center_dS_external_verify_pass_results.md: missing /Observing or targeting/
+E           simple_metric_center_dS_external_verify_pass_results.md: missing /Verifier status/
+E           simple_metric_center_dS_external_verify_pass_results.md: missing /NOT claimed/
+E           simple_metric_center_dS_external_verify_pass_results.md: Build-on grade value not one of DEMO|LEAD|CONDITIONAL|BANKED-FOR-STRUCTURE
+E           simple_metric_dS_native_any_alpha_closed_results.md: missing /Observing or targeting/
+E           simple_metric_dS_native_any_alpha_closed_results.md: missing /Verifier status/
+E           simple_metric_dS_native_any_alpha_closed_results.md: missing /NOT claimed/
+E           simple_metric_dS_native_any_alpha_closed_results.md: Build-on grade value not one of DEMO|LEAD|CONDITIONAL|BANKED-FOR-STRUCTURE
+E           simple_metric_elegance_SNe_character_results.md: missing /Verifier status/
+E           simple_metric_hard_explore_results.md: missing /Verifier status/
+E           simple_metric_hard_explore_results.md: missing /NOT claimed/
+E           simple_metric_kaleidoscope_K1_results.md: missing /Premise ledger/
+E           simple_metric_kaleidoscope_K1_results.md: missing /Observing or targeting/
+E           simple_metric_kaleidoscope_K1_results.md: missing /Verifier status/
+E           simple_metric_kaleidoscope_K1_results.md: missing /NOT claimed/
+E           simple_metric_kaleidoscope_K2_results.md: missing /Verifier status/
+E           simple_metric_kaleidoscope_K3_results.md: missing /Verifier status/
+E           simple_metric_kaleidoscope_K3_results.md: missing /NOT claimed/
+E           simple_metric_kaleidoscope_K4_results.md: missing /Verifier status/
+E           simple_metric_kaleidoscope_K4_results.md: missing /NOT claimed/
+E           simple_metric_kaleidoscope_MINE_results.md: missing /Verifier status/
+E           simple_metric_kaleidoscope_MINE_results.md: missing /NOT claimed/
+E           simple_metric_local_cavity_HG_results.md: missing /Verifier status/
+E           simple_metric_local_cavity_HG_results.md: missing /NOT claimed/
+E           simple_metric_relational_rooms_continue_results.md: missing /Verifier status/
+E           simple_metric_relational_rooms_continue_results.md: missing /NOT claimed/
+E           simple_metric_rooms_filled_local_results.md: missing /Verifier status/
+E           simple_metric_skeleton_reach_closure_results.md: missing /Verifier status/
+E           simple_metric_timelive_AP_exact_derive_results.md: missing /Verifier status/
+E           simple_metric_timelive_AP_exact_derive_results.md: missing /NOT claimed/
+E           simple_metric_timelive_AP_intermediate_results.md: missing /Observing or targeting/
+E           simple_metric_timelive_AP_intermediate_results.md: missing /Verifier status/
+E           simple_metric_timelive_AP_intermediate_results.md: missing /NOT claimed/
+E           simple_metric_timelive_AP_results.md: missing /Verifier status/
+E           simple_metric_timelive_AP_results.md: missing /NOT claimed/
+E       assert not ['simple_metric_EOS_power_window_dS_results.md: missing /Verifier status/', 'simple_metric_EOS_power_window_dS_results...fication_results.md: missing /Verifier status/', 'simple_metric_HL_unification_results.md: missing /NOT claimed/', ...]
+
+tests/test_hygiene_header.py:81: AssertionError
+=========================== short test summary info ============================
+XFAIL tests/test_solution_space_gate.py::test_no_habit_pins - known HABIT pins (silent G/P fork; charge-1 core pin) are not yet freed or justified to THEORY; XPASSes when the matter sector is freed.
+FAILED tests/test_hygiene_header.py::test_covered_results_have_hygiene_header
+=================== 1 failed, 69 passed, 1 xfailed in 1.33s ====================
+
+Script done on 2026-07-19 23:54:16-04:00 [COMMAND_EXIT_CODE="1"]

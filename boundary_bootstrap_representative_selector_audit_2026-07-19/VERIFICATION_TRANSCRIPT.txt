@@ -1,0 +1,4 @@
+Script started on 2026-07-19 23:54:00-04:00 [<not executed on terminal>]
+{"catch_proofs": 16, "groups": 8, "result": "PASS", "verdict": "SELECTOR_NOT_FOUND_IN_CURRENT_FOUNDATION; XMAX_RECIPROCITY_RETAINED_AS_CONDITIONAL_DIMENSIONLESS_POSITIONAL_HYPOTHESIS"}
+
+Script done on 2026-07-19 23:54:02-04:00 [COMMAND_EXIT_CODE="0"]

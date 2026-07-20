@@ -1,0 +1,15 @@
+id	claim	status	scope_or_reason
+S01	WR-L residual re-centering and wall conditions select the reciprocal L profile	DERIVED_IN_CANONIZED_SIMPLE_METRIC_SCOPE	Selects the ratio/profile under named axioms; absolute X remains free.
+S02	That WR-L profile selection fixes a physical CSN representative	NOT_DERIVED	Common-scale Omega multiplies the complete coframe without changing reciprocal depth.
+S03	Finite-cell endpoint/wall data fix the local CSN representative	REFUTED_IN_BOUNDED_ORBIT	Nontrivial endpoint-flat Omega family preserves all enumerated endpoint and optical data.
+S04	The clock-curvature equation follows from those boundary data	NOT_DERIVED	The endpoint-flat family changes its residual while preserving the boundary tests.
+S05	The clock-curvature equation remains a post-scale WR-L selector	UNIQUE_CONDITIONAL	Prior audit unchanged.
+S06	Current bootstrap supplies a representative map Sigma	OPEN_NOT_SUPPLIED	It is on-shell closure/admissibility and provides no off-shell map/normal condition.
+S07	A dimensionless bootstrap root fixes absolute Xmax or common scale	REFUTED_AS_SUFFICIENT	Compactness and dimensionless density are homothety invariant.
+S08	Xmax reciprocity constrains dimensionless positional comparison	CONDITIONAL_HYPOTHESIS	Exact in chosen fractional-linear/projective premises; physical frame meaning was withdrawn by premise reset.
+S09	Xmax reciprocity fixes the global homothety	NOT_DERIVED	x/Xmax and its composition are invariant when x and Xmax scale together; Xmax value remains open.
+S10	A derived fixed physical Xmax could calibrate the global scale	CONDITIONAL	Only after noncircular native mass/boundary/bootstrap closure derives its value.
+S11	Even a fixed endpoint Xmax fixes the entire local representative	REFUTED_IN_BOUNDED_ORBIT	Endpoint-flat Omega leaves the boundary scale unchanged and changes interior geometry.
+S12	Existing boundary action or normalized charge fixes the representative	OPEN_OBJECT_ABSENT	Current sources explicitly leave primitive generator reference and normalization open.
+S13	Existing current UDT foundation contains a noncircular physical-representative selector	SELECTOR_NOT_FOUND_IN_CURRENT_FOUNDATION	All 17 candidate routes fail at least one preregistered selector requirement.
+S14	Complete action source carrier boundary charge mass and Xmax are closed	OPEN	No promotion follows.

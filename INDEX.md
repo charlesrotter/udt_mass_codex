@@ -3,7 +3,15 @@
 **⚠ BRANCH: `grok` (2026-07-19)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
 **➤ CURRENT SCIENTIFIC FRONTIER:**
-`clock_curvature_selector_audit_2026-07-19/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
+`boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, and `NEXT_DERIVATION.md`. No existing boundary,
+bootstrap, or `X_max`-reciprocity rule selects the physical CSN representative. Canonized WR-L
+residual/wall structure already selects the reciprocal ratio/profile in its scoped simple metric,
+not the common scale. An endpoint-flat CSN bump preserves the tested wall, causal, reciprocal, and
+optical data while changing interior geometry. `X_max` reciprocity remains a conditional
+dimensionless positional hypothesis: it organizes `x/Xmax` but is blind to common homothety and
+does not fix local interior scale. Current bootstrap supplies no representative map or native
+mass/volume response. Next read `clock_curvature_selector_audit_2026-07-19/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
 `LAY_DECISION_TREE.md`, and `NEXT_DERIVATION.md`. Across arbitrary static spherical reciprocal
 `A(r)`, the two clock-curvature forms reduce to one profile equation. Supplying that equation plus
 a finite normalized seat and wall uniquely selects WR-L, but a same-endpoint reciprocal deformation

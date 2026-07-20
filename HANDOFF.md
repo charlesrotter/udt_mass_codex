@@ -7,9 +7,11 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-19).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-19 — clock–curvature selector audit complete; verified with caveats; no follow-on launched)
+## CURRENT (2026-07-19 — boundary/bootstrap representative audit complete; verified with caveats; no follow-on launched)
 
 **Read LIVE.md CURRENT STATE topmost layer first, then
+`boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md`,
+`STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, and `NEXT_DERIVATION.md`; next read
 `clock_curvature_selector_audit_2026-07-19/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
 `LAY_DECISION_TREE.md`, and `NEXT_DERIVATION.md`; next read
 `native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
@@ -20,6 +22,29 @@
 `OWNER_MEANING_LEDGER.tsv`, `PACKAGE_REGRADE.tsv`, and `RERUN_PRIORITY.md`; then use
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` only through that correction overlay.** Older reports are
 preserved evidence, not inherited authority.
+
+Current representative-selection ruling:
+
+- no existing noncircular boundary, bootstrap, or `X_max`-reciprocity rule selects the physical CSN
+  representative;
+- canonized WR-L residual re-centering plus wall axioms already selects the reciprocal ratio/profile
+  `A=1-r/X` in its scoped simple metric, while leaving absolute `X` and common scale free;
+- an endpoint-flat local CSN bump preserves reciprocal depth, null cones, all tested seat/wall
+  values/slopes, wall area, surface gravity, and optical geometry while changing interior angular
+  area, proper length/volume, curvature, and clock-curvature residual;
+- `X_max` reciprocity remains a conditional dimensionless positional hypothesis. It organizes
+  `x/Xmax`, but cannot distinguish a common homothety, and even a fixed wall size would not fix the
+  endpoint-flat interior orbit;
+- current bootstrap is on-shell admissibility and supplies no representative map, native
+  mass/volume response, density center/width, or normal equation;
+- a purely pre-scale geometric selector is partly mis-posed because CSN declares that orbit
+  calibrational. Physical selection must accompany a derived scale-bearing boundary charge, mass,
+  matter, or global closure;
+- all 17 candidates fail at least one of seven registered selector gates. Complete action, source,
+  carrier, boundary action, normalized charge, physical `X_max`, and mass remain open;
+- no follow-on derivation, GPU work, canonization, or reorganization is authorized.
+
+Package: `boundary_bootstrap_representative_selector_audit_2026-07-19/`.
 
 Current clock–curvature selector ruling:
 
@@ -35,8 +60,8 @@ Current clock–curvature selector ruling:
 - after selecting a physical static representative and clock direction it is the covariant
   trace-adjusted-Ricci clock contraction, so it remains a conditional post-scale lead;
 - current on-shell bootstrap supplies neither the representative nor the interior equation;
-- the next unlaunched gate is a repository/derivation audit for a noncircular finite-cell
-  boundary/bootstrap representative-selection rule. Do not invent one if it is absent;
+- that representative-selection gate is complete in
+  `boundary_bootstrap_representative_selector_audit_2026-07-19/`; use its ruling above;
 - complete action, source, carrier, boundary action, charge, `X_max`, and mass remain open. No GPU,
   canonization, reorganization, or follow-on audit is authorized.
 

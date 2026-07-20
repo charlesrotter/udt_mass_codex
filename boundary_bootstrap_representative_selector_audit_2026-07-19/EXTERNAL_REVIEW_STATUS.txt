@@ -1,0 +1,4 @@
+Fresh external-model adversarial review: NOT PERFORMED.
+Reason: separate disclosure/transmission authorization was not provided.
+Effect: the package is VERIFIED-WITH-CAVEATS despite independent in-package algebra, source replay, and catch-proofs.
+No repository evidence was transmitted externally.

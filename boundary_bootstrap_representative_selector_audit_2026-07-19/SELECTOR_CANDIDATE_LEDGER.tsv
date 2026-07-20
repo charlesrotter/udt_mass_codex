@@ -1,0 +1,18 @@
+id	candidate	current_authority	acts_on	selector_test	ruling
+C01	Common-Scale Neutrality	FOUNDING	CSN equivalence class	Defines quotient but no section/map	NOT_A_SELECTOR; it creates the representative question.
+C02	Finite-cell seat and WR-L wall endpoint values	CURRENT_SCOPED	Endpoint and causal data	Endpoint-flat Omega family survives	NOT_A_LOCAL_REPRESENTATIVE_SELECTOR.
+C03	WR-L residual composition/re-centering plus wall package	CANONIZED_IN_SIMPLE_METRIC_SCOPE	Reciprocal ratio/profile in an areal representative	Selects A=(1-r/X) within accepted axioms but leaves X and common Omega free	DERIVED_PROFILE_SELECTOR; NOT_CSN_REPRESENTATIVE_SELECTOR.
+C04	Clock-curvature equation	UNIQUE_CONDITIONAL	Interior profile after static representative	Selects WR-L if supplied; not locally CSN covariant	CONDITIONAL_POST_SCALE_SELECTOR; NATIVE_ORIGIN_OPEN.
+C05	Current owner bootstrap wording	WORKING	Completed realized solutions	On-shell admissibility; no functional or Sigma map	NOT_CURRENT_REPRESENTATIVE_SELECTOR.
+C06	Dimensionless bootstrap fixed point mu-nu*delta=0	CONDITIONAL_ARCHIVED_ALGEBRA	Dimensionless complete-solution response	Homothety invariant and depends on open native mass/volume responses	POTENTIAL_COMPACTNESS_SELECTOR; NOT_SCALE_OR_LOCAL_REPRESENTATIVE_SELECTOR.
+C07	Finite-cell off-shell boundary action and normalized generator	OPEN_REQUIRED	Boundary variation and charge	No distinguished primitive/action/normalization exists	OPEN_CANDIDATE_OBJECT_NOT_SUPPLIED.
+C08	Universal Xmax existence/unattainability	WORKING_POSIT_GLOBAL_OUTPUT	Global boundary scale	Value/origin open; supplying it numerically would be circular	NOT_CURRENT_SELECTOR.
+C09	Fractional-linear Xmax reciprocity in xi=x/Xmax	CONDITIONAL_MATH_PHYSICS_WITHDRAWN	Dimensionless positional comparison	Invariant under x,Xmax common homothety; full metric/angular realization not derived	VALUABLE_POSITIONAL_HYPOTHESIS; NOT_REPRESENTATIVE_SELECTOR.
+C10	Conditional Xmax full-frame homothety	CONDITIONAL_MATH_PHYSICS_WITHDRAWN	Chosen reciprocal coframe family	Exhibits CSN equivalence while holding symbolic Xmax; does not select a member	EQUIVALENCE_WITNESS_NOT_SELECTOR.
+C11	Moving/accelerating Xmax frame and Cartan curvature	CONDITIONAL_MATH_PHYSICS_WITHDRAWN	Pullback orbit of chosen coframe	Pure frame covariance; input-like Xmax and phi shift physical join unresolved	NOT_SELECTOR.
+C12	Observed c_E and G_obs	OWNER_LOCKED_OBSERVATIONAL	Physical-unit calibration	Supply mass per length but no length	NOT_SUFFICIENT.
+C13	Narrow total-density window	OWNER_WORKING	Matter-bearing complete-solution set	Center/width and native mass/volume are not derived	ADMISSIBILITY_TARGET_NOT_SELECTOR_EQUATION.
+C14	Wall area surface gravity and optical reach	DERIVED_IN_STATIC_BRANCH	Boundary/optical geometry	All survive endpoint-flat local CSN family	NOT_SUFFICIENT.
+C15	Proper volume or proper radial length	CONDITIONAL_DEFINITION	Interior representative	Changes along local orbit but no physical target value is supplied	POTENTIAL_FUTURE_SELECTOR_IF_NATIVELY_NORMALIZED; CURRENTLY_OPEN.
+C16	Intrinsic angular geometry or angular boundary completion	OPEN	Transverse coframe	No current rule fixes interior Omega angular shape/twist/topology	MISSING_SECTOR_NOT_SELECTOR.
+C17	Native total mass/boundary charge plus Xmax closure	OWNER_HYPOTHESIS_COHERENT	Global homothety and physical calibration	Could fix global scale only with non-degree-one charge/value and independent closure; neither exists	OPEN_FUTURE_ROUTE; DOES_NOT_CURRENTLY_FIX_LOCAL_OMEGA.

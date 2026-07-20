@@ -4,7 +4,44 @@ Date: 2026-07-19
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
-## July 19 clock–curvature selector overlay — current authority
+## July 19 boundary/bootstrap representative-selection overlay — current authority
+
+Read `boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, `SELECTOR_REQUIREMENT_MATRIX.tsv`, and
+`NEXT_DERIVATION.md` before the older layers below.
+
+The audit finds no existing noncircular finite-cell, bootstrap, or `X_max`-reciprocity rule that
+selects the physical member of `[g]_CSN`. The canonized WR-L residual-recentering and wall package
+already selects `A=1-r/X` as a reciprocal ratio/profile in its scoped simple metric while leaving
+absolute `X` and the common scale free. Clock-curvature is a second `UNIQUE-CONDITIONAL` selector
+for the same profile if its equation is supplied; it is not the current native origin of WR-L.
+
+The exact local family `g_epsilon=exp[2 epsilon y^2(1-y)^2]g_WRL` preserves reciprocal depth, null
+cones, seat/wall values and first derivatives, wall area, surface gravity, and the complete optical
+metric. It changes interior angular areas, proper length/volume, scalar curvature, and the
+clock-curvature residual. Boundary/optical data alone therefore do not select the interior
+representative.
+
+Charles's `X_max`-reciprocity hypothesis remains explicitly retained as
+`CONDITIONAL_DIMENSIONLESS_POSITIONAL_HYPOTHESIS`. The ratio `x/Xmax` and its fractional-linear
+composition are unchanged under `x,Xmax -> lambda*x,lambda*Xmax`. It can constrain positional
+structure without fixing the global homothety. Even an independently derived endpoint value would
+not eliminate the endpoint-flat local family unless a complete-coframe rule accompanied it. Prior
+Xmax frame-package algebra remains conditional while its physical observer interpretation stays
+withdrawn under the premise reset.
+
+Current bootstrap is on-shell closure/admissibility and supplies no `Sigma` map, native mass/volume
+response, density center/width, or normal equation. The conceptual correction is that a
+CSN-respecting pre-scale law should not select a calibrational gauge member. Physical selection must
+coincide with derived scale-bearing boundary, charge, mass, matter, or global closure. All 17 audited
+candidates fail at least one of seven registered requirements.
+
+Status: `SELECTOR_NOT_FOUND_IN_CURRENT_FOUNDATION`, `VERIFIED-WITH-CAVEATS`; exact 28/28 derivation,
+1,762-source census, 29 load-bearing adjudications, and independent eight-group/16-catch verification
+pass. Complete action, source, carrier, boundary action, normalized charge, physical `X_max`, and
+mass remain open. No GPU work, canonization, or reorganization follows.
+
+## July 19 clock–curvature selector overlay — prior current authority
 
 Read `clock_curvature_selector_audit_2026-07-19/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, `PROFILE_FAMILY_LEDGER.tsv`, and

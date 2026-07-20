@@ -1,0 +1,72 @@
+{
+  "bootstrap": {
+    "dimensionless_root": "mu(delta)-nu(delta)*delta=0",
+    "homothety": "M,Xmax -> lambda*M,lambda*Xmax leaves compactness and dimensionless density unchanged",
+    "ruling": "CURRENT_ON_SHELL_BOOTSTRAP_CAN_FILTER_COMPLETE_SOLUTIONS_BUT_DOES_NOT_SUPPLY_SIGMA_OR_REMOVE_LOCAL_CSN_ORBIT"
+  },
+  "checks": {
+    "Omega_prime_seat": "PASS",
+    "Omega_prime_wall": "PASS",
+    "Omega_seat": "PASS",
+    "Omega_wall": "PASS",
+    "bootstrap_root_scale_blind": "PASS",
+    "bump_nontrivial_interior": "PASS",
+    "bump_seat_derivative": "PASS",
+    "bump_seat_value": "PASS",
+    "bump_wall_derivative": "PASS",
+    "bump_wall_value": "PASS",
+    "clock_curvature_bump_extra": "PASS",
+    "clock_curvature_not_preserved": "PASS",
+    "common_product_changes": "PASS",
+    "compactness_homothety_invariant": "PASS",
+    "dimensionless_density_homothety_invariant": "PASS",
+    "interior_angular_area_changes": "PASS",
+    "interior_scalar_curvature_changes": "PASS",
+    "optical_angular_metric_invariant": "PASS",
+    "optical_radial_metric_invariant": "PASS",
+    "proper_length_changes": "PASS",
+    "proper_volume_changes": "PASS",
+    "reciprocal_depth_preserved": "PASS",
+    "reciprocal_ratio_preserved": "PASS",
+    "surface_gravity_preserved": "PASS",
+    "wall_area_preserved": "PASS",
+    "wall_scalar_curvature_preserved": "PASS",
+    "xmax_composition_homothety_invariant": "PASS",
+    "xmax_ratio_homothety_invariant": "PASS"
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "endpoint_flat_CSN_family": {
+    "Omega": "exp(epsilon*y^2*(1-y)^2)",
+    "changes": [
+      "interior angular areas",
+      "proper radial length and proper volume",
+      "interior scalar curvature representative",
+      "clock-curvature residual"
+    ],
+    "clock_curvature_witness": "E4_extra(epsilon=1,y=1/4)=-165*sqrt(3)/(2048*X^2)",
+    "length_first_variation": "16*X/315",
+    "preserves": [
+      "CSN class and reciprocal ratio/depth",
+      "null/causal structure",
+      "seat and wall endpoint values and first derivatives",
+      "wall area and static surface-gravity magnitude",
+      "complete optical spatial metric and optical reach",
+      "finite/infinite character of recorded reaches"
+    ],
+    "volume_first_variation": "1024*pi*X^3/5005"
+  },
+  "maximum_conclusion": "NO_EXISTING_NONCIRCULAR_BOUNDARY_BOOTSTRAP_OR_XMAX_RECIPROCITY_RULE_SELECTS_THE_PHYSICAL_CSN_REPRESENTATIVE; WRL_RATIO_PROFILE_AND_CONDITIONAL_CLOCK_CURVATURE_SELECTOR_REMAIN_DISTINCT",
+  "result": "PASS",
+  "schema": "udt-boundary-bootstrap-representative-selector-1.0",
+  "xmax_reciprocity": {
+    "dimensionless_position": "xi=x/Xmax",
+    "global_fixed_value": "would fix one global scale only if independently derived; current value/origin remain open",
+    "homothety": "x->lambda*x, Xmax->lambda*Xmax leaves xi and XR1 composition unchanged",
+    "local_representative": "even fixed endpoint Xmax does not remove endpoint-flat interior Omega(y)",
+    "ruling": "VALUABLE_DIMENSIONLESS_POSITIONAL_HYPOTHESIS; NOT_A_CURRENT_CSN_REPRESENTATIVE_SELECTOR"
+  }
+}
