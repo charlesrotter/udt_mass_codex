@@ -1,0 +1,19 @@
+id	prior_statement	correction_disposition	replacement_statement	remaining_gate
+C01	physical signed position is normalized reciprocal imbalance	WITHDRAWN	Signed reciprocal imbalance is an oriented ordered-comparison chart and is not physical distance	Derive nonnegative separation from the complete metric
+C02	reciprocal CSN projective ray is derived	SURVIVES	The ray remains derived in the declared dual representation	Representation and sign/unit premises remain
+C03	normalized imbalance is unique in the anchored first-degree chart class	SURVIVES_NARROWED	It is the unique oriented three-anchor first-degree projective chart	Physical radial readout remains open
+C04	x equals Xmax times tanh phi is the candidate physical signed position	WITHDRAWN_NARROWED	Xmax times tanh rho is only a bounded radial-display candidate with rho nonnegative	Operational radial measurement law
+C05	smooth f_epsilon charts refute unrestricted readout uniqueness	SURVIVES	The counterfamily survives after restriction to the nonnegative half interval	No chart selector exists
+C06	complete L dphi coframe is insensitive to bounded chart labels	SURVIVES_NARROWED	The additive L dphi seed inside the full reciprocal-weighted spatial coframe remains chart-independent	Physical distance still needs the complete weighted radial-angular metric
+C07	phi_rel(P;O)=Phi(P)-Phi(O)	NARROWED	This is an ordered reciprocal comparison in the shared static representation and not distance	Complete time-live comparison law
+C08	phi_rel(O;O)=0	SURVIVES_NARROWED	Ordered comparison and separation vanish at observer coincidence	No global distance theorem follows
+C09	phi_rel(S;O)=-Phi(O)	NARROWED	This is the signed ordered seal comparison; its magnitude candidate is abs(Phi(O))	Physical distance functional
+C10	the seal is generically neither relative zero nor Xmax endpoint	SURVIVES	For nonzero finite observer depth the seal is not coincidence and its bounded radial candidate is interior	Global map remains open
+C11	sign of projective imbalance supplies physical direction	WITHDRAWN_FOR_3D	Sign supplies only chosen-axis orientation or doubled-cover branch; physical direction belongs to angular data	Intrinsic angular geometry and transport
+C12	exp(-delta) and exp(+delta) are reciprocal clock-ruler weights	SURVIVES_NARROWED	They exchange under ordered observer-comparison reversal; angular reversal at fixed rho is different	Derive unconditional observable extraction or the temporal-slot selector
+C13	comparison reversal can be read as inverse physical clock behavior	WITHDRAWN	Inverse comparison is an algebraic statement and does not imply direction-induced clock speed-up	Scalar clock observable
+C14	physical observer distance may be signed	REJECTED	Physical separation is nonnegative and symmetric under direction reversal	Complete metric distance theorem
+C15	abs(delta) is physical distance	OPEN_NOT_DERIVED	abs(delta) is the minimal magnitude candidate but not a global distance theorem	Radial scale angular path foliation and representative
+C16	the reciprocal pair uniquely selects clock slowing	CONDITIONAL_ONLY	The chosen Lorentzian temporal slot gives exp(-rho), but at least two alternatives survive Reciprocity CSN and direction-evenness without that slot	Native temporal-slot or scalar-observable selector
+C17	Xmax tanh depth is proper distance	NOT_ESTABLISHED	It may be a bounded coordinate even when proper radial length is controlled by L dphi	Relate Xmax coordinate reach to metric length
+C18	one projective-position selector is the smallest missing object	REPLACED_BY_SEPARATE_JOINS	Distance map clock-observable map and radial projective readout must be distinguished	Derive each without circular identification

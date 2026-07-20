@@ -1,0 +1,13 @@
+id	question	result	status	remaining_gate
+S01	Can physical observer distance be negative?	No	REJECTED	None
+S02	What survives of signed reciprocal imbalance?	An oriented ordered-comparison projective coordinate	DERIVED_CONDITIONAL	Declared reciprocal representation
+S03	Does sign alone provide 3D physical direction?	No	REFUTED	Angular sector or chosen axis
+S04	Is abs(delta) the derived physical distance?	No; it is a minimal magnitude candidate	OPEN	Complete metric distance functional
+S05	Does a radial proper-length result exist in the audited coframe family?	A conditional weighted radial line element exists through exp(phi)L dphi in a chosen representative	CONDITIONAL	Representative scale path and global angular completion
+S06	Is Xmax tanh(rho) derived as physical distance?	No	OPEN	Operational radial readout
+S07	Does the smooth chart counterfamily survive the correction?	Yes on the nonnegative interval	EXACT_COUNTERFAMILY	No selection
+S08	Do the ordered reciprocal weights unconditionally define the physical clock rate?	No; they exchange under ordered observer comparison, while the chosen temporal slot conditionally gives exp(-rho)	CONDITIONAL_ONLY	Native slot or observable extraction map
+S09	Does angular direction reversal at fixed depth imply clock speed-up?	No; rho and the conditional exp(-rho) factor are unchanged	REJECTED_INTERPRETATION	Do not conflate with swapping ordered observers
+S10	Is a unique direction-even non-speeding clock scalar derived without the chosen slot?	No; multiple exact candidates survive	OPEN	Native temporal-slot or scalar-observable selector
+S11	How is the seal comparison regraded?	Ordered value minus Phi(O); magnitude candidate abs(Phi(O))	DERIVED_CONDITIONAL	Global physical distance
+S12	What is the corrected maximum claim?	Oriented comparison algebra survives while physical distance direction and clock readout separate	VERIFIED_WITH_CAVEATS	No global distance clock action or angular closure

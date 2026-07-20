@@ -1,0 +1,106 @@
+{
+  "adjudication": {
+    "angular_direction": "OPEN_BEYOND_THE_ABSTRACT_DIRECTION_SLOT",
+    "direction_induced_clock_speedup": "REJECTED_FOR_ANGULAR_REVERSAL_AT_FIXED_RHO; ORDERED_OBSERVER_COMPARISON_IS_DISTINCT",
+    "global_distance": "OPEN",
+    "negative_observer_distance": "REJECTED",
+    "physical_signed_position": "WITHDRAWN_AS_A_CATEGORY_ERROR_FOR_DISTANCE",
+    "scalar_clock_dilation": "CONDITIONAL_IN_CHOSEN_TEMPORAL_SLOT; UNCONDITIONAL_NATIVE_READOUT_OPEN",
+    "signed_reciprocal_imbalance": "RETAINED_AS_ORIENTED_ALGEBRAIC_PROJECTIVE_COORDINATE"
+  },
+  "checks": {
+    "chosen_slot_clock_non_speeding_witness": "PASS",
+    "chosen_slot_clock_normalized_at_zero": "PASS",
+    "chosen_slot_clock_radial_derivative": "PASS",
+    "clock_candidates_distinct": "PASS",
+    "clock_candidates_normalized_at_zero": "PASS",
+    "clock_one_csn_neutral": "PASS",
+    "clock_one_direction_even": "PASS",
+    "clock_one_exchange_even": "PASS",
+    "clock_one_radial_derivative": "PASS",
+    "clock_one_witness": "PASS",
+    "clock_second_candidate_normalized_at_zero": "PASS",
+    "clock_two_csn_neutral": "PASS",
+    "clock_two_direction_even": "PASS",
+    "clock_two_exchange_even": "PASS",
+    "clock_two_radial_derivative": "PASS",
+    "clock_two_witness": "PASS",
+    "coincidence_has_zero_candidate_separation": "PASS",
+    "comparison_reversal_exchanges_u_to_v": "PASS",
+    "comparison_reversal_exchanges_v_to_u": "PASS",
+    "direction_reversal_flips_vector": "PASS",
+    "direction_reversal_preserves_magnitude_squared": "PASS",
+    "ordered_coframe_inverse_survives": "PASS",
+    "ordered_comparison_antisymmetric": "PASS",
+    "ordered_u_not_direction_even": "PASS",
+    "ordered_v_not_direction_even": "PASS",
+    "projective_chart_is_oriented_odd": "PASS",
+    "radial_chart_at_coincidence": "PASS",
+    "radial_chart_unattainable_limit": "PASS",
+    "radial_counterfamily_derivative": "PASS",
+    "radial_counterfamily_endpoint_anchor": "PASS",
+    "radial_counterfamily_witness": "PASS",
+    "radial_counterfamily_zero_anchor": "PASS",
+    "reciprocal_pair_product": "PASS",
+    "seal_candidate_separation": "PASS",
+    "seal_ordered_comparison": "PASS",
+    "seal_radial_display_even_in_observer_side": "PASS",
+    "separation_nonnegative": "PASS",
+    "separation_symmetric_under_observer_exchange": "PASS",
+    "shared_static_difference_map_survives": "PASS"
+  },
+  "coframe_regrade": {
+    "classification": "EXACT_ALGEBRA_SURVIVES; CHOSEN_TEMPORAL_SLOT_IS_CONDITIONAL; UNCONDITIONAL_OBSERVER_CLOCK_EXTRACTION_REMAINS_OPEN",
+    "does_not_follow": "inverse ordered comparison is not a physical clock-speed-up theorem",
+    "survives": "D(delta)^-1=D(-delta), additive composition, CSN ray, and the additive L dphi seed inside the full reciprocal-weighted coframe"
+  },
+  "conceptual_objects": {
+    "clock_scalar": {
+      "admissible_candidate_one": "2*sqrt(u*v)/(u+v)=sech(delta)",
+      "admissible_candidate_two": "[2*sqrt(u*v)/(u+v)]^2=sech(delta)^2",
+      "classification": "UNCONDITIONAL_NATIVE_SCALAR_OPEN; RECIPROCITY_CSN_AND_DIRECTION_EVENNESS_ALONE_DO_NOT_SELECT_THE_READOUT",
+      "conditional_chosen_slot": "the CHOSE local Lorentzian temporal slot gives exp(-rho) for rho>=0 and is unchanged by n_hat -> -n_hat",
+      "conditional_status": "CONDITIONAL_IN_THE_CHOSEN_LOCAL_LORENTZIAN_TEMPORAL_SLOT",
+      "ordered_weights": "exp(-delta) and exp(+delta) exchange under ordered observer-comparison reversal; that operation is distinct from reversing angular direction at fixed rho",
+      "properties": "smooth CSN-neutral exchange-even normalized and nonincreasing with rho"
+    },
+    "direction": {
+      "classification": "DIRECTION_REQUIRES_THE_ANGULAR_SECTOR_OR_A_CHOSEN_ONE_DIMENSIONAL_AXIS",
+      "representation": "displacement_candidate=rho*n_hat with rho>=0",
+      "reversal": "n_hat -> -n_hat while rho is unchanged"
+    },
+    "ordered_comparison": {
+      "classification": "DERIVED_CONDITIONAL_AS_ORDERED_RECIPROCAL_COMPARISON_NOT_DISTANCE",
+      "definition": "delta(P;O)=Phi(P)-Phi(O)",
+      "exchange": "delta(O;P)=-delta(P;O)"
+    },
+    "projective_imbalance": {
+      "classification": "ORIENTED_PROJECTIVE_COORDINATE_NOT_PHYSICAL_DISTANCE",
+      "radial_form": "chi=tanh(rho) is a bounded magnitude display candidate",
+      "readout_status": "radial chart remains OPEN because the smooth f_epsilon family survives on [0,1]",
+      "signed_form": "xi=tanh(delta) is an oriented odd chart"
+    },
+    "separation": {
+      "classification": "CANDIDATE_NOT_A_DERIVED_GLOBAL_METRIC_DISTANCE",
+      "minimal_candidate": "rho_candidate(P,O)=abs(delta(P;O))",
+      "properties": "nonnegative symmetric and zero at coincidence"
+    }
+  },
+  "maximum_conclusion": "THE_PRIOR_SIGNED-POSITION LANGUAGE IS CORRECTED: SIGNED RECIPROCAL IMBALANCE IS AN ORIENTED ORDERED-COMPARISON CHART, NOT PHYSICAL DISTANCE; NONNEGATIVE SEPARATION REQUIRES A MAGNITUDE AND GLOBALLY THE COMPLETE RADIAL-ANGULAR METRIC; ANGULAR DIRECTION REVERSAL AT FIXED RHO IS DISTINCT FROM REVERSING AN ORDERED OBSERVER COMPARISON; THE CHOSEN LOCAL LORENTZIAN TEMPORAL SLOT CONDITIONALLY GIVES EXP(-RHO), BUT MULTIPLE EXACT CSN-NEUTRAL DIRECTION-EVEN READOUTS SURVIVE WITHOUT THAT SLOT, SO AN UNCONDITIONAL NATIVE CLOCK OBSERVABLE AND THE PHYSICAL RADIAL READOUT REMAIN OPEN",
+  "python": "3.10.12",
+  "revised_missing_maps": {
+    "clock_map": "derive why the local Lorentzian temporal slot is natively selected or derive the scalar clock observable without that slot choice",
+    "distance_map": "derive physical nonnegative separation from the complete metric including radial and angular path data",
+    "projective_map": "decide whether X_max*tanh(rho) is an operational radial coordinate or only a bounded display",
+    "status": "ALL_OPEN; IDENTIFIED_NOT_ADOPTED"
+  },
+  "schema": "udt-projective-direction-magnitude-correction-1.0",
+  "seal_regrade": {
+    "absolute": "Phi(S)=0",
+    "classification": "SEAL_IS_NEITHER_GENERIC_OBSERVER_COINCIDENCE_NOR_XMAX_ENDPOINT",
+    "ordered": "delta(S;O)=-Phi(O)",
+    "projective_radial_candidate": "chi(S,O)=tanh(abs(Phi(O)))",
+    "separation_candidate": "rho_candidate(S,O)=abs(Phi(O))"
+  },
+  "sympy": "1.13.1"
+}

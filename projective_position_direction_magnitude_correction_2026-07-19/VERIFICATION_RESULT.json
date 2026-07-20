@@ -1,0 +1,39 @@
+{
+  "catch_proofs": {
+    "angular_direction_dropped": "PASS",
+    "chosen_temporal_slot_scope_promoted": "PASS",
+    "clock_candidate_promoted_without_selector": "PASS",
+    "direction_reversal_changed_distance_magnitude": "PASS",
+    "inverse_comparison_promoted_to_speedup": "PASS",
+    "magnitude_promoted_to_global_distance": "PASS",
+    "open_maps_adopted": "PASS",
+    "ordered_weight_called_clock_scalar": "PASS",
+    "prior_package_mutation_rejected": "PASS",
+    "projective_chart_promoted_to_distance": "PASS",
+    "seal_identified_with_coincidence_or_endpoint": "PASS",
+    "signed_comparison_called_distance": "PASS"
+  },
+  "checks": {
+    "correction_ledger_coverage": "PASS",
+    "deterministic_primary_replay_and_contract": "PASS",
+    "independent_complete_metric_requires_angular_path_data": "PASS",
+    "independent_direction_magnitude_split": "PASS",
+    "independent_ordered_vs_nonnegative_separation": "PASS",
+    "independent_third_clock_counterexample": "PASS",
+    "no_control_canon_or_prior_edits": "PASS",
+    "prior_package_byte_identity": "PASS",
+    "report_contract": "PASS",
+    "source_inventory_replay": "PASS"
+  },
+  "independent_witnesses": {
+    "angular_path": "dphi=0,dtheta=1,L=H=1 gives metric length squared 1 while radial difference is zero",
+    "clock_counterexample": "2uv/(u^2+v^2)=sech(2delta)",
+    "clock_witness_u_half_v_two": "8/17",
+    "observer_swap": "delta flips sign while abs(delta) is invariant",
+    "prior_manifest_sha256": "bde786c168a2bf552a9720afa66a3615e66c0d63ffcfb78af680c88813198a84"
+  },
+  "python": "3.10.12",
+  "result": "PASS",
+  "schema": "udt-projective-direction-magnitude-verification-1.0",
+  "sympy": "1.13.1"
+}
