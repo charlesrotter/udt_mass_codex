@@ -7,13 +7,36 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-19).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-19 — premise-reset audit complete; inherited cumulative frontier withdrawn; no new derivation launched)
+## CURRENT (2026-07-19 — asymptotic-boundary lineage audit complete; verified with caveats; no follow-on launched)
 
 **Read LIVE.md CURRENT STATE topmost layer first, then
+`asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
+`LAY_DECISION_TREE.md`, and `GLOBAL_CLOSURE_EQUATION_LEDGER.tsv`; next read
 `udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`,
 `OWNER_MEANING_LEDGER.tsv`, `PACKAGE_REGRADE.tsv`, and `RERUN_PRIORITY.md`; then use
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` only through that correction overlay.** Older reports are
 preserved evidence, not inherited authority.
+
+Current boundary-lineage ruling:
+
+- the recorded CMB outer fold (`phi=0`, `A=1`) and WR-L wall (`phi->+infinity`, `A->0`) are
+  distinct surfaces in their stated models;
+- the WR-L wall has finite proper radius `2X`, finite static volume, infinite optical reach, finite
+  curvature, and a regular ingoing extension: it is a causal horizon, not a metric-derived hard edge;
+- WR-L `X` remains a supplied family parameter. Its identification with derived global `X_max` is
+  `OPEN`, though it is the strongest recorded observational/causal candidate;
+- no post-firewall native mass-dilation boundary law was found. Misner-Sharp mass is a GR readout,
+  and the exact raw lapse flux `-2*pi*X` is unnormalized geometry, not total mass;
+- accepted observational `c_E,G_obs` calibrate mass against length but do not select an absolute
+  member of the common-scale family. A proper native mass structure can close `M_tot,X_max` only if
+  it or the boundary/bootstrap supplies an independent scale-breaking condition;
+- independent exact algebra/tensor checks and catch-proofs pass. Fresh-context model review was not
+  transmitted without explicit disclosure authorization, so the package is
+  `VERIFIED-WITH-CAVEATS`, not settled;
+- no follow-on boundary-generator derivation, GPU work, canonization, or reorganization is
+  authorized.
+
+Package: `asymptotic_boundary_lineage_audit_2026-07-19/`.
 
 Current premise-reset ruling:
 

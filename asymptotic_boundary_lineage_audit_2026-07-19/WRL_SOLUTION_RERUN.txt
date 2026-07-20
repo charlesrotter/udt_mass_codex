@@ -1,0 +1,60 @@
+Script started on 2026-07-19 22:31:40-04:00 [<not executed on terminal>]
+[PASS] general proper-radius primitive
+[PASS] general optical-radius primitive
+[PASS] WR-L proper radius is 2X
+[PASS] WR-L tortoise derivative
+[PASS] WR-L tortoise diverges at the wall
+[PASS] WR-L static-patch volume
+[PASS] proper-coordinate radial profile
+[PASS] proper-coordinate horizon radius
+[PASS] proper-coordinate horizon is an area extremum
+[PASS] four-dimensional Ricci scalar
+[PASS] static-slice Ricci scalar
+[PASS] Kretschmann scalar
+[PASS] wall Ricci scalar is finite
+[PASS] wall Kretschmann scalar is finite
+[PASS] seat Ricci scalar diverges
+[PASS] seat Kretschmann scalar diverges
+[PASS] integrated four-dimensional Ricci scalar
+[PASS] integrated static-slice Ricci scalar
+[PASS] integrated Kretschmann scalar
+[PASS] volume-average four-dimensional Ricci scalar
+[PASS] volume-average static-slice Ricci scalar
+[PASS] ingoing-null metric block determinant
+[PASS] ingoing-null metric block finite at wall
+[PASS] explicit crossing curve is timelike at wall
+[PASS] constant-v radial curve is null
+[PASS] spatial lapse Laplacian
+[PASS] lapse-curvature identity using R4
+[PASS] lapse-curvature identity using R3
+[PASS] spatial lapse zero mode has finite norm
+[PASS] raw lapse flux on a sphere
+[PASS] raw lapse flux at wall
+[PASS] raw lapse flux at seat
+[PASS] lapse divergence theorem
+[PASS] power-lapse flux formula
+[PASS] A flux vanishes at wall
+[PASS] sqrt(A) is finite-nonzero threshold
+[PASS] quarter-power flux diverges
+[PASS] d'Alembertian-to-tortoise reduction
+[PASS] WR-L scalar potential
+[PASS] wave potential vanishes at horizon
+[PASS] ell=0 exact zero-energy resonance u=r
+[PASS] constant-mode wave-norm primitive
+[PASS] constant mode is not wave-normalizable at horizon
+[PASS] static multipole integration-by-parts identity
+[PASS] spatial and spacetime-static scalar operators are inequivalent
+[PASS] curvature-lapse zero-mode ODE family
+[PASS] bounded-seat plus wall selects WR-L within that family
+[PASS] inverse radial functional Euler equation
+[PASS] inverse functional square completion
+[PASS] WR-L saturates inverse-functional bound for every X
+[PASS] fixed-metric curvature-lapse functional fails reciprocal reduced variation
+[PASS] dimensionless Ricci shape
+[PASS] dimensionless Kretschmann shape
+[PASS] dimensionless volume
+[PASS] dimensionless wall lapse flux
+ALL CONSISTENT (55/55 checks pass)
+SymPy 1.13.1
+
+Script done on 2026-07-19 22:31:42-04:00 [COMMAND_EXIT_CODE="0"]

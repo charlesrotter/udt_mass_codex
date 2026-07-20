@@ -1,0 +1,8 @@
+Script started on 2026-07-19 22:31:40-04:00 [<not executed on terminal>]
+tanh φ = tanh(phi)
+(1-A)/(1+A) = tanh(phi)
+equal True
+Same spine; fork is f(A) embedding into areal radius
+DONE
+
+Script done on 2026-07-19 22:31:40-04:00 [COMMAND_EXIT_CODE="0"]

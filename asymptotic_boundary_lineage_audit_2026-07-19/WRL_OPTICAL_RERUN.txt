@@ -1,0 +1,9 @@
+Script started on 2026-07-19 22:31:40-04:00 [<not executed on terminal>]
+r = kappa*(1 - exp(-2*phi))/2
+r = (κ/2)(1-A) => X=κ/2, r/X=1-A
+H: dr/(A dφ) = X*exp(2*phi)/cosh(phi)**2  (not const)
+L: dr/(A dφ) = 2*X  (= 2X)
+P-opt forces L uniquely on reciprocal metric
+DONE
+
+Script done on 2026-07-19 22:31:40-04:00 [COMMAND_EXIT_CODE="0"]

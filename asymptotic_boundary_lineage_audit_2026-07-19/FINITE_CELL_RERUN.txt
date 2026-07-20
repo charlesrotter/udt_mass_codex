@@ -1,0 +1,27 @@
+Script started on 2026-07-19 22:31:40-04:00 [<not executed on terminal>]
+PASS A1 odd fold has A=1
+PASS A2 WR-L wall has A->0
+PASS B1 Branch-P mirror defect
+PASS B2 Branch-P does not descend for generic fields
+PASS B3 Branch-G mirror defect
+PASS B4 Branch-G descends on the mu=0 slice
+PASS B5 both defects vanish only at the pinned fold data phi=0,rho'=0
+PASS C1 canonical momenta
+PASS C2 transverse momentum
+PASS C3 fold momenta
+PASS C4 one-copy B=0 natural rho condition couples mu to the free flux
+PASS C5 two-side rho-momentum jump is mu-independent
+PASS C6 two-side phi-momentum jump
+PASS D1 d(alpha q)/dr leaves the bulk Euler equation unchanged
+PASS D2 d(alpha q)/dr shifts boundary momentum
+PASS D3 d(gamma r)/dr leaves the bulk Euler equation unchanged
+PASS D4 d(gamma r)/dr shifts the endpoint Hamiltonian
+PASS E1 WR-L derivative
+PASS E2 WR-L is not an R1-vacuum extremal
+PASS E3 shift-clean action density has 1/epsilon^2 wall divergence
+PASS E4 shift-clean momentum has 1/epsilon wall divergence
+PASS E5 inverse pure-kinetic weight makes WR-L an exact extremal
+PASS E6 that exact weight produces a center-divergent density
+ALL SYMBOLIC CHECKS PASS (23/23)
+
+Script done on 2026-07-19 22:31:40-04:00 [COMMAND_EXIT_CODE="0"]

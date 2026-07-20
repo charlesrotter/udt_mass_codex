@@ -1,0 +1,4 @@
+Script started on 2026-07-19 22:48:52-04:00 [<not executed on terminal>]
+{"catch_proofs": 12, "checks": 9, "result": "PASS", "verdict": "CMB_FOLD_AND_WRL_WALL_DISTINCT; WRL_IS_REGULAR_CROSSABLE_STATIC_HORIZON; XMAX_AND_NATIVE_MASS_JOIN_OPEN"}
+
+Script done on 2026-07-19 22:48:53-04:00 [COMMAND_EXIT_CODE="0"]

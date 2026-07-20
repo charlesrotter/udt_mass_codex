@@ -1,0 +1,52 @@
+surface_id	quantity	limit_or_value	status	premise_scope	implication
+B01	phi	0	DERIVED_CONDITIONAL	historical odd mirror plus continuity	No clock-dilation asymptote at the fold
+B01	A=e^-2phi	1	DERIVED_CONDITIONAL	same	Ordinary lapse, not A=0
+B01	clock factor sqrt(A)	1	DERIVED_CONDITIONAL	same	Does not realize WR-L time freeze
+B01	radial ruler factor 1/sqrt(A)	1	DERIVED_CONDITIONAL	same	Does not realize WR-L ruler divergence
+B01	areal derivative rho_prime	0	DERIVED_CONDITIONAL	mirror-image/closed-cell posture	Turning sphere within the conditional reduction
+B01	dilation flux phi_prime	free output	DERIVED_CONDITIONAL	recorded variation class	Boundary value does not normalize a mass
+B01	proper radial reach	OPEN	No full cell profile fixed by fold data	Fold pins alone do not determine size
+B01	optical reach	OPEN	No full cell profile fixed by fold data	Fold pins alone do not produce infinite optical distance
+B01	curvature	OPEN_AS_COMPLETE_SURFACE_CLAIM	Conditional local fold equations only	Do not infer horizon regularity from parity
+B01	mass	OPEN_NATIVE; conditional MS readout c^2 rho_s/(2G)	GR-reference readout plus rho_prime=0	Not a native mass theorem
+B02	phi	-ln(1101)	DERIVED_CONDITIONAL	CMB Delta-phi anchor plus B01 convention	Signed local phi is negative in this historical branch
+B02	A=e^-2phi	1101^2	DERIVED_CONDITIONAL	same	Not an A=0 boundary
+B02	clock factor sqrt(A)	1101	DERIVED_CONDITIONAL	same	Branch-local normalization, not universal clock comparison
+B02	radial ruler factor 1/sqrt(A)	1/1101	DERIVED_CONDITIONAL	same	Branch-local metric coefficient
+B02	phi_prime and rho_prime	0	DERIVED_CONDITIONAL	even mirror stationarity	Finite-depth fold, not asymptotic depth
+B02	absolute size	FREE	homothety	Anchor fixes shape/depth difference, not scale
+B02	mass	OPEN_NATIVE	conditional action energy only	Not total universe mass
+B03	phi	+infinity	DERIVED_METRIC_LIMIT	WR-L profile	Genuine positional-depth asymptote in static chart
+B03	A=e^-2phi	0	DERIVED_METRIC_LIMIT	WR-L profile	Static lapse horizon
+B03	clock factor sqrt(A)	0	DERIVED_METRIC_LIMIT	WR-L profile	Static clocks freeze relative to seat coordinate
+B03	radial ruler factor 1/sqrt(A)	+infinity	DERIVED_METRIC_LIMIT	WR-L profile	Infinitesimal radial coefficient diverges while integral stays finite
+B03	proper radial reach	2X	DERIVED_METRIC_LIMIT	static slice from r=0 to X	Finite proper room
+B03	proper spatial volume	64*pi*X^3/15	DERIVED_METRIC_LIMIT	static slice from r=0 to X	Finite static-patch volume conditional on including singular seat
+B03	optical/tortoise reach	+infinity	DERIVED_METRIC_LIMIT	static optical geometry	Infinite optical throat
+B03	Ricci scalar	6/X^2 at wall	DERIVED_METRIC_LIMIT	WR-L representative	Finite curvature at horizon
+B03	Kretschmann scalar	8/X^4 at wall	DERIVED_METRIC_LIMIT	WR-L representative	Finite curvature at horizon
+B03	raw lapse flux	-2*pi*X	DERIVED_METRIC_LIMIT	static-slice lapse N=sqrt(A), outward unit normal, and spherical area	Finite metric quantity linear in X; unnormalized and not native mass
+B03	redshift from finite interior seat	+infinity	DERIVED_CONDITIONAL	static observers in declared representative	Coordinate/static-observer statement
+B03	crossability	regular ingoing and timelike curves exist	DERIVED_METRIC_LIMIT	Lorentzian continuation through A=0	Invariant unattainability or terminality is not derived
+B03	MS mass readout	c^2 X/(2G)	INTERPRETATION_NOT_DERIVED	GR-reference Misner-Sharp packaging	Candidate dimensional bridge only
+B03	native total mass	OPEN	complete action/source/generator missing	No mass-dilation boundary theorem
+B04	phi	0	DERIVED_METRIC_LIMIT	WR-L profile at r=0	Not the CMB fold merely because the value matches
+B04	A	1	DERIVED_METRIC_LIMIT	WR-L profile at r=0	Ordinary lapse normalization
+B04	Ricci scalar	+infinity as 6/(Xr)	DERIVED_METRIC_LIMIT	global WR-L extrapolation	True center singularity
+B04	Kretschmann scalar	+infinity as 8/(X^2 r^2)	DERIVED_METRIC_LIMIT	global WR-L extrapolation	True center singularity
+B04	mass density readout	diverges as 1/r	INTERPRETATION_NOT_DERIVED	Einstein/MS reference	Not native matter emergence
+B05	phi	+infinity	DERIVED_CONDITIONAL	hyperbolic composition chart	Same endpoint depth behavior as WR-L but not same profile
+B05	A	0	DERIVED_CONDITIONAL	hyperbolic composition chart	Chart endpoint only until geometric join supplied
+B05	composition distance	X supplied	CHOSE	working maximum postulate	Cannot derive global Xmax from itself
+B05	proper and areal reach	JOIN_DEPENDENT	J1, P_ell, or free map	No unique physical boundary
+B05	mass	CONDITIONAL_GR_READOUT	chosen join plus MS	No native mass lock
+B06	all physical limits	NOT_APPLICABLE	finite numerical box	No boundary physics
+B07	phi	OPEN	complete global solution missing	No assumed boundary normalization
+B07	A/clock/ruler	OPEN	complete metric representative missing	No assumed horizon type
+B07	proper radius and volume	OPEN	complete slice missing	Required for rho_tot
+B07	causal character	OPEN	domain and metric completion missing	Could be horizon, fold, cap, or other global closure
+B07	total mass	OPEN	native mass structure and normalized generator missing	Needed for proposed c-G closure
+B07	Xmax	UNKNOWN_GLOBAL_OUTPUT	owner target	Not a supplied parameter
+B08	boundary primitive	OPEN	complete action missing	Bulk equations cannot determine it
+B08	allowed variations	OPEN	variation domain missing	Fold quotient, one-copy, interface, and horizon remain inequivalent
+B08	normalized charge	OPEN	generator/reference/orientation missing	No native mass from raw flux

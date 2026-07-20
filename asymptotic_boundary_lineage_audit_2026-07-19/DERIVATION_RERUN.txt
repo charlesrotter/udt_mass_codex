@@ -1,0 +1,4 @@
+Script started on 2026-07-19 22:48:51-04:00 [<not executed on terminal>]
+{"checks": 24, "join": "CMB_FOLD_AND_WRL_WALL_DISTINCT_IN_RECORDED_MODELS; GLOBAL_XMAX_JOIN_OPEN", "result": "PASS"}
+
+Script done on 2026-07-19 22:48:52-04:00 [COMMAND_EXIT_CODE="0"]

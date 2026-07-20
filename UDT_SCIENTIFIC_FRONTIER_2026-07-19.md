@@ -4,6 +4,38 @@ Date: 2026-07-19
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## July 19 asymptotic-boundary lineage overlay — current authority
+
+Read `asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, and `GLOBAL_CLOSURE_EQUATION_LEDGER.tsv` before the
+older layers below.
+
+The recorded CMB outer fold and WR-L wall are distinct in their stated models. The fold has
+`phi=0`, `A=1`, and ordinary clock/ruler factors. The WR-L wall has `phi->+infinity`, `A->0`, finite
+proper reach, infinite optical reach, finite wall curvature, and a regular ingoing continuation.
+It is therefore a metric-derived regular causal horizon, not a metric-derived hard terminal edge.
+
+WR-L `X` remains a supplied static-family parameter, while global frame-shared `X_max` remains an
+unknown output of the complete metric/bootstrap. The wall is the strongest recorded candidate for
+an observational/causal `X_max` realization, but their equality and the global domain are `OPEN`.
+The CMB fold is not the recorded clock-dilation asymptote.
+
+No post-firewall native mass-dilation boundary law is derived. The Misner-Sharp wall value is a GR
+reference readout. The exact raw lapse flux `-2*pi*X` is a finite metric quantity and a useful lead,
+but it is not mass without a native normalized generator and boundary completion.
+
+Observed ordinary-regime `c_E` and `G_obs` fix the physical mass-per-length calibration. They do not
+alone choose an absolute `M_tot` and `X_max` because common rescaling leaves their dimensionless
+compactness unchanged. A native mass functional plus boundary/bootstrap closure can realize the
+owner proposal only if the combined system also supplies an independent scale eigenvalue or breaks
+that homothety.
+
+This package is `VERIFIED-WITH-CAVEATS`: local exact algebra, direct tensor recomputation, and
+exercised mutation catches pass; the preregistered fresh-context model review was not transmitted
+without explicit external-disclosure authorization. No boundary-generator follow-on, GPU work,
+canonization, or reorganization is launched. The lower "current open discriminator" is superseded
+as the global next task; it remains durable angular-lane evidence only.
+
 ## July 19 premise-reset overlay — current authority
 
 Read `udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`, then its

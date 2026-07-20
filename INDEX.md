@@ -3,36 +3,26 @@
 **⚠ BRANCH: `grok` (2026-07-19)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
 **➤ CURRENT SCIENTIFIC FRONTIER:**
-`udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`, then
-`OWNER_MEANING_LEDGER.tsv`, `PACKAGE_REGRADE.tsv`, and `RERUN_PRIORITY.md`. The premise-reset audit
-withdraws inherited cumulative confidence from the July 19 chain. UDT is scale-free at its core;
-measured Einsteinian `c_E` and measured `G_obs` are accepted observational anchors in the calibrated
-physical layer. Signed local `phi`, signed ordered comparison, and nonnegative distance are separate.
-`X_max` is a derived global frame-shared output, not a supplied frame constant. The
-four Xmax frame families retain algebra with their physical interpretations withdrawn; three
-projective/clock packages require rerun. Older reports, including
-`reciprocal_c_clock_channel_correction_2026-07-19/`, are preserved evidence and must be read through
-this overlay. Then use `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` and, only when relevant,
-`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md` and
-`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`. Full audit reports and preceding
-null-section/native-topology layers are task-specific follow-up, not generic startup reads. The
-chain establishes an exact
-reciprocal Hopf torus orbit-block compatibility witness. Within explicitly supplied global toric
-eigencap premises, `S3` topology and free diagonal/anti-diagonal Hopf actions are
-`UNIQUE-CONDITIONAL`; UDT's registered principles do not yet select those premises. The first open
-gate is transverse spatial reciprocal realization and periodicity. Finite-cell cap completion is a
-distinct conditional second gate. Smoothness does not select the round metric, and no carrier,
-action, source, boundary functional, mass theorem, or time-live topology law follows. The existing
-H3/no-null implementation remains full-3D Hopf-capable and `OBSERVED_CARRIER_CONDITIONAL` in its
-banked scope. The preceding bootstrap/reciprocal/optical/co-presence/GR-constraint chain remains
-intact. The latest correction restores the full founding channel premise: `c^-1` is the clock side,
-and dual Reciprocity plus regular composition fixes its reciprocal exponential response. Angular
-reversal does not negate signed local `phi`. The recent `sech`-type alternatives remain rejected as
-multiplicative channel characters, but the universal nonnegative-`rho` physical-clock interpretation
-is withdrawn pending a local-field/observer comparison derivation.
-Global radial-angular distance, `X_max` readout/scale, action, source, boundary, carrier emergence,
-and unconditional mass remain open. No follow-on study, GPU work, reorganization, or canonization is
-authorized.
+`asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
+`LAY_DECISION_TREE.md`, and `GLOBAL_CLOSURE_EQUATION_LEDGER.tsv`. The recorded CMB outer fold and
+WR-L wall are distinct: the fold has `phi=0`, `A=1`; the wall has `phi->+infinity`, `A->0`, finite
+proper reach, infinite optical reach, finite curvature, and a regular ingoing extension. WR-L is
+therefore a regular causal horizon, not a metric-derived hard edge. Its supplied `X` is the strongest
+recorded observational/causal candidate for global `X_max`, but their equality and the global domain
+remain `OPEN`.
+
+No native mass-dilation boundary law was found. Misner-Sharp mass remains a GR reference readout;
+the exact raw lapse flux `-2*pi*X` is an unnormalized metric lead. Measured `c_E,G_obs` calibrate
+mass per length but do not choose an absolute common scale. Charles's proposed joint determination
+of `M_tot,X_max` remains coherent only if native mass/boundary/bootstrap structure supplies an
+independent scale-breaking condition. The package is `VERIFIED-WITH-CAVEATS`: exact local and
+tensor checks pass, while fresh-context model review was not transmitted without explicit
+external-disclosure authorization.
+
+Next read the premise-reset package and `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` through the new
+boundary overlay. Older angular/Hopf and frame packages remain task-specific conditional evidence.
+Action, source, carrier, differentiable boundary, global `X_max`, and unconditional mass remain
+open. No follow-on derivation, GPU work, reorganization, or canonization is authorized.
 **R1H EFFECTIVE-REGISTRY CHECKPOINT — COMPLETE, VERIFIED, AND PAUSED:** R1E batch planning and R1F/B01 are complete. Fixed historical
 inventories and planning records remain immutable. Five active artifacts moved byte-identically:
 one R1D note and four behaviorally verified R1F macro verifiers. Resolve present locations through
@@ -92,17 +82,19 @@ Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`,
 
 1. **`LIVE.md`** CURRENT STATE
 2. **`HANDOFF.md`** CURRENT block
-3. **`udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`**, **`OWNER_MEANING_LEDGER.tsv`**,
+3. **`asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`**,
+   **`STATUS_LEDGER.tsv`**, **`LAY_DECISION_TREE.md`**, and **`GLOBAL_CLOSURE_EQUATION_LEDGER.tsv`**
+4. **`udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`**, **`OWNER_MEANING_LEDGER.tsv`**,
    **`PACKAGE_REGRADE.tsv`**, and **`RERUN_PRIORITY.md`**
-4. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** through the premise-reset overlay only
-5. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
+5. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** through both current overlays only
+6. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
    **`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`**
-6. The exact frozen evidence named by that frontier only for the active question
-7. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
-8. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
-9. Only the task-triggered protocol under **`.claude/skills/`**
-10. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
-11. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
+7. The exact frozen evidence named by that frontier only for the active question
+8. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
+9. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
+10. Only the task-triggered protocol under **`.claude/skills/`**
+11. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
+12. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
 
 ---
 

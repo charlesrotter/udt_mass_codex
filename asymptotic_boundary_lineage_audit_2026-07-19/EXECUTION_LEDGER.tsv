@@ -1,0 +1,7 @@
+id	command	compute	exit_code	output_artifact	output_sha256	ruling
+E01	python3 asymptotic_boundary_lineage_audit_2026-07-19/build_candidate_universe.py	CPU_ONLY	0	CENSUS_RERUN.txt	d75f22d7143da94f0b76176cfd3487d1b07411aa9fa4f9a0296f62eee89a1f6a	Immutable-base candidate census complete
+E02	python3 asymptotic_boundary_lineage_audit_2026-07-19/build_source_adjudication.py	CPU_ONLY	0	SOURCE_RERUN.txt	ed301f9a016c46ff00d37a12b4534f395bd6feb1c165b21764bd6a6dfecfaf78	All 67 load-bearing sources adjudicated
+E03	python3 asymptotic_boundary_lineage_audit_2026-07-19/derive_boundary_limits.py	CPU_ONLY	0	DERIVATION_RERUN.txt	c899d90ea607c1801e95de6059e0c10d4d105290a946cbe72a98360d39ed15fc	24 exact checks pass
+E04	python3 asymptotic_boundary_lineage_audit_2026-07-19/verify_boundary_lineage.py	CPU_ONLY	0	VERIFIER_RERUN.txt	965724866b728bc37eeed0dc09740eb1bba160039d545c32cab73551cca6ad69	9 independent gates and 12 exercised catches pass
+E05	codex exec read-only external review under EXTERNAL_REVIEW_PROMPT.md	EXTERNAL_REVIEW_NOT_PERFORMED	1_AUTHORIZATION_GATE	EXTERNAL_REVIEW_TRANSCRIPT.txt	9c070140c23e4dfbff165f1d01b7e2046465baa7f45d5212c821534945ad955b	Fresh-context disclosure not authorized; package remains VERIFIED-WITH-CAVEATS
+E06	env CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest tests/	CPU_ONLY	1_EXPECTED_BASELINE	TEST_TRANSCRIPT.txt	7b12ddcd82a9b543808313c7325be129979116155b78489fa7c0468308fc6e34	69 passed, 1 known hygiene-header failure, 1 xfailed

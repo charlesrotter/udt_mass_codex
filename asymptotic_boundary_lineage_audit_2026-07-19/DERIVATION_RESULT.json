@@ -1,0 +1,105 @@
+{
+  "CMB_FOLD": {
+    "A": "1",
+    "areal_derivative_rho_prime": "0",
+    "clock_factor_sqrt_A": "1",
+    "mass": "NO_NATIVE_MASS; conditional MS readout gives c^2*rho_s/(2G)",
+    "normal_norm_g_inverse_rr": "1",
+    "phi": "0",
+    "radial_ruler_factor_inv_sqrt_A": "1",
+    "surface_character": "TIMELIKE_QUOTIENT_OR_BOUNDARY_IN_RECORDED_STATIC_METRIC"
+  },
+  "WRL_WALL": {
+    "A_limit": "0",
+    "Kretschmann_wall": "8/X^4",
+    "MS_mass_authority": "GR_REFERENCE_OR_CONDITIONAL_ONLY",
+    "MS_mass_readout": "c^2*X/(2G)",
+    "Ricci_wall": "6/X^2",
+    "X_status_in_profile": "SUPPLIED_POSITIVE_PARAMETER",
+    "clock_factor_limit": "0",
+    "native_mass": "OPEN",
+    "optical_reach": "+infinity",
+    "phi_limit": "+infinity",
+    "profile": "A=1-r/X; phi=-log(A)/2",
+    "proper_radius": "2X",
+    "proper_volume": "64*pi*X^3/15",
+    "radial_ruler_factor_limit": "+infinity",
+    "raw_lapse_flux_authority": "UNNORMALIZED_METRIC_QUANTITY; NOT_NATIVE_MASS",
+    "raw_lapse_flux_wall": "-2*pi*X",
+    "regular_extension": true,
+    "static_surface": "NULL_CAUSAL_HORIZON",
+    "terminal_boundary_derived": false
+  },
+  "checks": {
+    "family_A2_eps_power": "PASS",
+    "family_A_eps_power": "PASS",
+    "fold_clock_not_asymptotic": "PASS",
+    "fold_normal_not_null": "PASS",
+    "fold_not_lapse_horizon": "PASS",
+    "fold_wrl_not_same_surface_by_lapse": "PASS",
+    "fold_wrl_not_same_surface_by_phi": "PASS",
+    "wrl_K_8_over_X2r2": "PASS",
+    "wrl_MS_readout_profile": "PASS",
+    "wrl_MS_readout_wall": "PASS",
+    "wrl_R_6_over_Xr": "PASS",
+    "wrl_ef_determinant_regular": "PASS",
+    "wrl_lapse_zero": "PASS",
+    "wrl_optical_primitive": "PASS",
+    "wrl_optical_reach_infinite": "PASS",
+    "wrl_phi_positive_infinite": "PASS",
+    "wrl_proper_radius_2X": "PASS",
+    "wrl_proper_volume_64piX3_over15": "PASS",
+    "wrl_raw_lapse_flux_profile": "PASS",
+    "wrl_raw_lapse_flux_wall": "PASS",
+    "wrl_reciprocal_ruler_infinite": "PASS",
+    "wrl_static_wall_null": "PASS",
+    "wrl_wall_K_finite": "PASS",
+    "wrl_wall_R_finite": "PASS"
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "family_rules": {
+    "finite_A_second_inside_1_to_2": "alpha = 1",
+    "intersection": "alpha = 1",
+    "optical_infinite": "alpha >= 1",
+    "proper_finite": "alpha < 2"
+  },
+  "join_result": "CMB_FOLD_AND_WRL_WALL_DISTINCT_IN_RECORDED_MODELS; GLOBAL_XMAX_JOIN_OPEN",
+  "result": "PASS",
+  "scale_closure": {
+    "G_obs": "OBSERVATIONAL_ANCHOR",
+    "absolute_scale_gate": "NATIVE_MASS_OR_BOUNDARY_STRUCTURE_MUST_BREAK_X_TO_lambda_X_AND_M_TO_lambda_M_HOMOTHETY",
+    "alpha": "NOT_DERIVED",
+    "c_E": "OBSERVATIONAL_ANCHOR",
+    "dimensionless_compactness": "G_obs*M_tot/(c_E^2*X_max)",
+    "native_total_mass_structure": "OPEN",
+    "one_dimensional_relation": "X_max=alpha*G_obs*M_tot/c_E^2",
+    "second_independent_closure": "REQUIRED_UNLESS_NATIVE_MASS_STRUCTURE_SUPPLIES_IT"
+  },
+  "schema": "udt-asymptotic-boundary-limits-1.0",
+  "surface_discriminants": {
+    "A": {
+      "CMB_FOLD": "1",
+      "WRL_WALL": "0"
+    },
+    "clock_factor": {
+      "CMB_FOLD": "1",
+      "WRL_WALL": "0"
+    },
+    "normal_character": {
+      "CMB_FOLD": "non-null in recorded static metric",
+      "WRL_WALL": "null"
+    },
+    "phi": {
+      "CMB_FOLD": "0",
+      "WRL_WALL": "+infinity"
+    },
+    "radial_ruler": {
+      "CMB_FOLD": "1",
+      "WRL_WALL": "+infinity"
+    }
+  }
+}

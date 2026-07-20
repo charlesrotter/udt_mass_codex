@@ -1,0 +1,4 @@
+COMMAND: python3 asymptotic_boundary_lineage_audit_2026-07-19/build_candidate_universe.py
+EXIT_CODE: 0
+STDOUT:
+PASS candidates=1061 token_hits=1046 counts={'CONTEXT_ONLY': 99, 'DUPLICATE_SNAPSHOT': 88, 'EXCLUDED_WITH_REASON': 457, 'LOAD_BEARING': 67, 'NEGATIVE_CONTROL': 350}

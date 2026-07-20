@@ -1,0 +1,20 @@
+CONTROLLER RECORD — fresh-context adversarial review was not performed
+
+Attempted bounded command:
+codex exec --ephemeral --ignore-user-config -m gpt-5.6-sol -c model_reasoning_effort="high" -c web_search="disabled" -s workspace-write -C <clean-repo> -o <package>/EXTERNAL_REVIEW.md "Follow EXTERNAL_REVIEW_PROMPT.md exactly; read-only; no repository edits."
+
+Sandboxed attempts exited 1 before model launch because the ephemeral app-server required a write
+outside the permitted sandbox.
+
+The required escalation was requested with this disclosure question:
+"Allow a fresh ephemeral Codex instance to perform the repository-required read-only adversarial
+review and write only its review transcript into this audit package?"
+
+The escalation reviewer rejected transmission because the action would send substantial current-
+repository content to an external model service and this audit had no explicit user approval for
+that specific disclosure. It directed the controller not to work around the gate.
+
+RESULT: NOT PERFORMED
+MODEL OUTPUT: NONE
+REPOSITORY EDITS BY REVIEWER: NONE
+SCIENTIFIC CONSEQUENCE: fresh-context gate absent; bank VERIFIED-WITH-CAVEATS, not SETTLED

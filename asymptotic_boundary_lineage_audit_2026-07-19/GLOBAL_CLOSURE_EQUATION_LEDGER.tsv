@@ -1,0 +1,21 @@
+id	type	expression_or_object	current_status	independent_information	missing_gate
+K01	OBSERVED_ANCHOR	c_E	KNOWN	Clock-length physical-unit calibration	Native placement in complete metric solution
+K02	OBSERVED_ANCHOR	G_obs	KNOWN	Gravitational physical-unit calibration	Native placement and charge normalization
+U01	UNKNOWN	complete dimensionless metric/state solution	OPEN	None yet	Complete action/admissibility law and boundary
+U02	UNKNOWN	physical representative/common scale	OPEN	None yet	Bootstrap/CSN scale-selection bridge
+U03	UNKNOWN	global Xmax	OPEN	None yet	Metric surface and global closure
+U04	UNKNOWN	total proper spatial volume V_tot	OPEN	Functional once metric and slice are fixed	Complete time-live slice and boundary
+U05	UNKNOWN	native total mass M_tot	OPEN	None yet	Native mass structure and normalized generator
+U06	DEFINED_OUTPUT	rho_tot=M_tot/V_tot	DEFINITION	No new independent equation	U04 and U05
+U07	UNKNOWN	dimensionless compactness chi_U=G_obs M_tot/(c_E^2 Xmax)	OPEN	One dimensionless relation once U03 and U05 exist	Native boundary/mass selection
+U08	UNKNOWN	boundary ontology and differentiable primitive	OPEN	None yet	Complete finite-cell action
+E01	DEFINITION	rho_tot=M_tot/V_tot	AVAILABLE_AFTER_SOLUTION	Relates U04-U06	Does not set any value
+E02	DIMENSIONAL_FORM	Xmax=alpha G_obs M_tot/c_E^2	WORKING_HYPOTHESIS	One relation if alpha emerges	Derive alpha and prove native M_tot
+E03	METRIC_VOLUME	V_tot=Integral_Sigma sqrt(h) d^3x	CONDITIONAL_DEFINITION	Computable after U01, U02, slice, and boundary	Complete representative and time-live slice
+E04	NATIVE_MASS_FUNCTIONAL	M_tot=M_UDT[state,boundary]	OPEN	Could supply the second closure Charles anticipates	Complete source/action/generator
+E05	BOUNDARY_REGULARITY	B_UDT[state,Xmax]=0	OPEN	Could select a dimensionless compactness/branch	Native boundary equation
+E06	BOOTSTRAP_WINDOW	width(W)/center(W)<<1	OWNER_WORKING_PRINCIPLE	Admissibility constraint, not a numerical equation	Derive W from complete matter-bearing solutions
+E07	HOMOTHETY_BREAK_OR_SCALE_EIGENVALUE	A native equation not invariant under Xmax->lambda Xmax and M_tot->lambda M_tot	OPEN	Would select an absolute member of the scale family	Must emerge from matter/boundary/global closure without inserting a fitted scale
+R01	RANK_RULING	c_E and G_obs known; E02 alone is one relation for M_tot, Xmax, and alpha	DERIVED_DIMENSION_COUNT	Does not determine M_tot and Xmax	Need E04 plus E05 or an equivalent independent closure
+R02	CONDITIONAL_CLOSURE	If the proper UDT mass structure supplies E04 and complete boundary/bootstrap supplies E05, M_tot and Xmax may be jointly determined	WORKING_HYPOTHESIS_COHERENT	Matches Charles's proposal without assuming the answer	Demonstrate noncircular positive isolated solution and universality
+R03	DIMENSIONAL_RULING	c_E and G_obs alone fix the conversion M/L through c_E^2/G_obs but cannot form an absolute mass or length	DERIVED_DIMENSION_COUNT	Explains why WR-L remains a homothetic X-family	The proper UDT mass structure must also supply E07, or else only M_tot/Xmax is determined

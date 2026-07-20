@@ -1,0 +1,40 @@
+Script started on 2026-07-19 22:31:40-04:00 [<not executed on terminal>]
+======================================================================
+STEP 1a: derive the functional equation from the re-centering axiom
+======================================================================
+r'/X' = (r-r0)/(X-r0) = (-F(phi) + F(phi0))/(F(phi0) - 1)
+Axiom (phi=phi0+dphi): Eq((F(phi0) - F(dphi + phi0))/(F(phi0) - 1), F(dphi))
+=> F(phi0+dphi) = -F(dphi)*F(phi0) + F(dphi) + F(phi0)
+   claimed FE   = (1 - F(phi0))*F(dphi) + F(phi0)
+   MATCH: True
+
+======================================================================
+STEP 1b: solve the FE  F(a+b)=F(a)+(1-F(a))F(b),  F(0)=0
+======================================================================
+G(a+b) form check: 1-FE  ==  (1-Fa)(1-Fb): True
+F=1-e^{-lam phi} satisfies FE: True
+F(0)=0: True
+decoy F=phi/(1+phi) satisfies FE: False (expect False)
+=> r/X = 1 - A^s,  A=(1-r/X)^alpha, alpha=1/s ; L is alpha=1
+
+======================================================================
+STEP 2: verify G^theta_theta = A''/2 + A'/r from the FULL metric
+======================================================================
+G^theta_theta - (A''/2 + A'/r) = 0
+  (0 confirms the formula in the doc/canon)
+
+--- wall behavior: A=eps^alpha, eps=1-r/X, dr=-X d eps ---
+(i) optical  int eps^{-alpha} d eps exponent: -alpha -> diverges (inf reach) iff alpha>=1
+(ii) proper  int eps^{-alpha/2} d eps: finite iff alpha<2
+A'' = alpha*(X - r)**(alpha - 2)*(alpha - 1)/X**alpha   ~ eps^(alpha-2), coeff alpha(alpha-1)/X^2
+A'  = -alpha*(X - r)**(alpha - 1)/X**alpha
+  alpha=1/2: optical finite(FAIL) proper finite(ok)   G^th_th(wall)=-oo
+  alpha=1: optical inf(ok)      proper finite(ok)   G^th_th(wall)=-1/X**2
+  alpha=3/2: optical inf(ok)      proper finite(ok)   G^th_th(wall)=oo
+  alpha=2: optical inf(ok)      proper inf(FAIL)    G^th_th(wall)=X**(-2)
+  alpha=3: optical inf(ok)      proper inf(FAIL)    G^th_th(wall)=0
+
+Band from (i)&(ii): 1<=alpha<2. Within it, finite G^th_th only at alpha=1.
+alpha>=2 gives finite G^th_th too, but is KILLED by proper-room (ii).
+
+Script done on 2026-07-19 22:31:41-04:00 [COMMAND_EXIT_CODE="0"]

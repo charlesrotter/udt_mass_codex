@@ -8,8 +8,10 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
 **⚠ CURRENT SCIENTIFIC FRONTIER (2026-07-19):** after this CURRENT STATE block read
-`udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`, then its
-`OWNER_MEANING_LEDGER.tsv`, `PACKAGE_REGRADE.tsv`, and `RERUN_PRIORITY.md`; only then read
+`asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, and exact verification evidence. Next read
+`udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`, then its `OWNER_MEANING_LEDGER.tsv`,
+`PACKAGE_REGRADE.tsv`, and `RERUN_PRIORITY.md`; only then read
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` and the older package relevant to the task. The prior
 `reciprocal_c_clock_channel_correction_2026-07-19/` and Xmax/projective frame packages are preserved
 evidence but no longer cumulative-frontier authority. Then, when angular evidence is relevant, read
@@ -30,7 +32,33 @@ order is: **`UDT_METHOD_MUSIC.md`** → **`UDT_DOTTED_LINE.md`** → **`UDT_ELEG
 Free-\(D_A\) / mixed scoreboards = **`grok/quarantine_free_DA/`** only (not live).
 Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE_historical_frontier_through_2026-07-08.md` and `archive/INDEX_pre_simple_metric_WR_L_2026-07-09.md`.
 
-## ============ CURRENT STATE (2026-07-19 — PREMISE-RESET AUDIT COMPLETE. INHERITED JULY-19 CUMULATIVE CONFIDENCE IS WITHDRAWN. UDT IS SCALE-FREE AT ITS CORE WHILE MEASURED EINSTEINIAN C AND MEASURED G ARE ACCEPTED OBSERVATIONAL ANCHORS THAT INTRODUCE CALIBRATED PHYSICAL SCALE. SIGNED LOCAL PHI, SIGNED ORDERED OBSERVER COMPARISON, AND NONNEGATIVE PHYSICAL DISTANCE ARE DISTINCT. X_MAX IS ONE GLOBAL FRAME-SHARED OUTPUT TO BE DERIVED FROM THE COMPLETE METRIC/BOOTSTRAP WITH C, G, AND POSSIBLY TOTAL MASS/DENSITY, NOT A SUPPLIED FRAME CONSTANT. THE FINITE BOUNDARY IS EXPECTED AS AN ASYMPTOTIC TIME/MASS-DILATION LIMIT; ITS JOIN TO THE FOLD, WR-L X, AND GLOBAL X_MAX IS OPEN. OF 19 JULY-19 PACKAGES: 2 SURVIVE INDEPENDENTLY, 10 SURVIVE CONDITIONALLY RELABELED, 4 RETAIN ALGEBRA WITH PHYSICAL INTERPRETATION WITHDRAWN, AND 3 ARE CONTAMINATED/RERUN-REQUIRED. NO ACTION, SOURCE, CARRIER, BOUNDARY FORMULA, X_MAX, OR MASS CLOSURE IS DERIVED. NO NEW DERIVATION, GPU WORK, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-19 — ASYMPTOTIC-BOUNDARY LINEAGE AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. THE RECORDED CMB OUTER FOLD AND WR-L WALL ARE DISTINCT: THE FOLD HAS PHI=0 AND ORDINARY LAPSE; THE WR-L WALL HAS PHI→+INFINITY, VANISHING STATIC LAPSE, FINITE PROPER REACH, INFINITE OPTICAL REACH, FINITE WALL CURVATURE, AND A REGULAR INGOING EXTENSION. WR-L X IS A SUPPLIED FAMILY PARAMETER, NOT YET THE DERIVED GLOBAL X_MAX; THE WALL IS THE STRONGEST RECORDED CAUSAL/OBSERVATIONAL X_MAX CANDIDATE BUT IS NOT A DERIVED HARD EDGE OR GLOBAL DOMAIN. NO POST-FIREWALL NATIVE MASS-DILATION BOUNDARY LAW WAS FOUND. THE EXACT RAW LAPSE FLUX -2πX IS UNNORMALIZED METRIC GEOMETRY, NOT MASS. OBSERVED C AND G FIX MASS-PER-LENGTH CALIBRATION; ABSOLUTE TOTAL MASS AND X_MAX REQUIRE A NATIVE MASS/BOUNDARY/BOOTSTRAP EQUATION THAT BREAKS THE COMMON SCALE HOMOTHETY. ACTION, SOURCE, CARRIER, COMPLETE BOUNDARY, X_MAX, AND MASS CLOSURE REMAIN OPEN. FRESH-CONTEXT EXTERNAL MODEL REVIEW WAS NOT TRANSMITTED WITHOUT EXPLICIT DISCLOSURE AUTHORIZATION. NO FOLLOW-ON DERIVATION, GPU WORK, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+
+**➤➤➤ JULY 19 ASYMPTOTIC-BOUNDARY LINEAGE AUDIT — CURRENT AUTHORITY:**
+- **READ NEXT:** `asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`, then
+  `STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, `GLOBAL_CLOSURE_EQUATION_LEDGER.tsv`, and
+  `VERIFICATION_RESULT.json`.
+- **DERIVED-CONDITIONAL SURFACE SPLIT:** the recorded CMB odd fold has `phi=0`, `A=1`, and
+  `rho_prime=0`; the WR-L wall has `phi->+infinity`, `A->0`, and null causal character. They are
+  distinct in the recorded models.
+- **EXACT WR-L LIMITS:** proper radius `2X`, static volume `64*pi*X^3/15`, infinite optical reach,
+  finite wall invariants `R=6/X^2` and `K=8/X^4`, and a regular ingoing extension.
+- **NOT A HARD EDGE:** the WR-L wall is a regular horizon. A complete UDT domain could treat it as
+  an observational/causal limit, but terminality, quotient/crossing ontology, and global selection
+  are not supplied by the static metric.
+- **GLOBAL JOIN OPEN:** historical WR-L `X` is supplied; global frame-shared `X_max` must be a
+  derived output. Their equality is a promising candidate join, not a result.
+- **MASS OPEN:** Misner-Sharp `c_E^2 X/(2G_obs)` is a GR reference readout. The exact raw lapse flux
+  `-2*pi*X` is an unnormalized metric lead; no native generator or total mass is derived.
+- **SCALE RULING:** observed `c_E,G_obs` calibrate mass per length. Charles's proposed joint closure
+  is coherent only if native mass/boundary/bootstrap structure also supplies an independent scale
+  selector that breaks `M,X -> lambda M,lambda X`.
+- **EVIDENCE GRADE:** `VERIFIED-WITH-CAVEATS`; exact local/tensor checks and mutation catches pass,
+  while the preregistered fresh-context model review remains unexecuted pending explicit external-
+  disclosure authorization.
+- **NEXT SEAM NOT LAUNCHED:** determine whether the exact boundary flux and a complete
+  matter-bearing finite-cell geometry supply a normalized native generator and scale-breaking
+  bootstrap condition.
 
 **➤➤➤ JULY 19 UDT PREMISE-RESET AUDIT — CURRENT AUTHORITY:**
 - **READ NEXT:** `udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`,
@@ -55,8 +83,9 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **XMAX FRAME CHAIN WITHDRAWN AS PHYSICS:** the reciprocity, full-frame, dynamic-frame, and
   accelerating-frame algebra remains preserved conditional mathematics, not current UDT frame
   physics.
-- **NEXT SCIENTIFIC TASK NOT LAUNCHED:** audit the existing asymptotic-boundary lineage, especially
-  WR-L and fold records, before any new derivation.
+- **BOUNDARY AUDIT SUPERSEDED THIS NEXT STEP:** the audit is complete in
+  `asymptotic_boundary_lineage_audit_2026-07-19/`; use its caveated ruling above before any new
+  derivation.
 
 **➤➤➤ JULY 19 RECIPROCAL-C CLOCK-CHANNEL CORRECTION — PRESERVED, NOW REGRADED BY THE PREMISE RESET:**
 - **READ NEXT:** `reciprocal_c_clock_channel_correction_2026-07-19/AUDIT_REPORT.md`, then

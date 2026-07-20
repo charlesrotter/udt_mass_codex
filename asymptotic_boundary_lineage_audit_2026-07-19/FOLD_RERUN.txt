@@ -1,0 +1,36 @@
+Script started on 2026-07-19 22:31:40-04:00 [<not executed on terminal>]
+[PASS] A1: scrK = -2 e^{-2phi} rho'^2/rho^2
+[PASS] A2: L_P = (Z/2)rho^2 phi'^2 - 2e^{-2phi}rho'^2 + 2
+[PASS] A3: L_G = (Z/2)rho^2 phi'^2 - 2rho'^2 + 2
+[PASS] B1: EL_phi gives banked phi''
+[PASS] B2: EL_rho gives banked rho''
+[PASS] B3: E+2 = (Z/2)rho^2 phi'^2 - 2e^{-2phi}rho'^2  (H=E_doc-2 convention)
+   dE/dr with arbitrary rho''-source S: -4*S(r)*exp(-2*phi(r))*Derivative(rho(r), r)
+[PASS] B4: dE/dr = -4 e^{-2phi} rho' S  (E_geo conserved iff S=0; source term exact)
+[PASS] B5: flux law Phi' = 4 e^{-2phi} rho'^2 for ANY rho''-source
+   invariance conditions (must all vanish):
+    const: 2*w - 2   -> w = 1
+    phi'^2: (-Z*rho**2*w + Z*g(rho, p)**2 - 4*exp(2*p)*Derivative(g(rho, p), p)**2)/(2*w)
+    phi'rho': -4*exp(2*p)*Derivative(g(rho, p), p)*Derivative(g(rho, p), rho)/w  -> g_rho g_phi = 0
+    rho'^2: 2*exp(-2*p) - 2*exp(2*p)*Derivative(g(rho, p), rho)**2/w
+[PASS] C1: [w=1, g_phi=0] phi'^2-coeff = (Z/2)(g^2-rho^2) -> g = rho
+[PASS] C2: with g=rho the rho'^2 residual = 2e^{-2phi} - 2e^{2phi} = -4 sinh(2phi) != 0
+[PASS] C3: L_G exactly invariant under the odd fold (g=rho, w=1)
+[PASS] D1a: odd-mirror P phi-residual = -(4 rho'^2/(Z rho^2))(e^{-2phi}+e^{2phi}) [zero iff rho'=0]
+[PASS] D1b: odd-mirror P rho-residual = 4 phi'rho' + (Z/4)rho phi'^2(e^{-2phi}-e^{2phi})
+[PASS] D2: odd-mirror extension is an EXACT G-solution (phi-eq)
+[PASS] D3: odd-mirror extension is an EXACT G-solution (rho-eq)
+[PASS] D4: EVEN mirror extension is an EXACT P-solution (phi-eq)
+[PASS] D5: EVEN mirror extension is an EXACT P-solution (rho-eq)
+[PASS] E1: first-variation = -EL*eta + d/dr(p*eta)  (boundary-term collection identity)
+[PASS] E2: partner pullback = (Z/2)rho^2 phi'^2 - 2e^{+2phi}rho'^2 + 2 (the sign-flipped copy)
+[PASS] E3a: p_tot_phi = 2 Z rho^2 phi'
+[PASS] E3b: p_tot_rho|_{phi=0} = -8 rho'  -> stationarity with free d(rho) pins rho'(rs)=0
+[PASS] E4: p*dq + L*Drs == p*Dq - H*Drs
+[PASS] E5a: E(rs) = q^2/(2 Z rho_s^2)
+[PASS] E5b: E(rc) = 0 at the even mirror
+   E6: free-fold transversality  H_tot(rs)=0  <=>  q^2/(2 Z rho_s^2) = 2 - E_m(rs): 2*Z*(2 - E_m)*rho(r)**2 = q^2
+
+24/24 checks passed
+
+Script done on 2026-07-19 22:31:41-04:00 [COMMAND_EXIT_CODE="0"]

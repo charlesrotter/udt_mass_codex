@@ -1,0 +1,15 @@
+left_id	right_id	ruling	load_bearing_discriminant	maximum_claim
+B01	B02	DISTINCT	outer odd fold has phi=0 and rho_prime=0; inner even fold has phi=-ln(1101) and both field derivatives zero	Different endpoints of one historical conditional cell reduction
+B01	B03	DERIVED_DISTINCT_IN_RECORDED_MODELS	phi 0 versus +infinity; A 1 versus 0; non-null quotient/boundary versus null regular horizon	No finite additive recentering or current field map identifies them
+B01	B04	DERIVED_DISTINCT_DESPITE_SHARED_PHI_ZERO	CMB fold is outer mirror surface with rho_prime=0; WR-L seat is r=0 curvature singularity	A shared normalization value does not identify surfaces
+B01	B05	DERIVED_DISTINCT_IN_RECORDED_MODELS	phi 0 and A 1 versus phi +infinity and A 0	Any relation would require a new global embedding
+B01	B07	OPEN	global Xmax has no derived phi value, chart, or surface	Cannot identify or exclude without complete closure
+B03	B04	DERIVED_DISTINCT	wall r=X is regular null horizon; seat r=0 is curvature singular	Two endpoints of the WR-L static patch
+B03	B05	NOT_IDENTICAL_PROFILES; ENDPOINT_ASYMPTOTICS_COMPATIBLE	A=1-r/X versus A=(X-x)/(X+x); equality of r and x is a chosen join	Do not equate their X symbols or interiors
+B03	B07	OPEN	WR-L X is supplied/free while global Xmax must be derived output	WR-L horizon is a candidate realization only
+B05	B07	OPEN_WITH_PHYSICAL_INTERPRETATION_WITHDRAWN	hyperbolic X was supplied to define the chart	Algebra cannot derive its own global scale
+B06	B01	DERIVED_SCOPE_DISTINCT	numerical mask versus physical/canonical fold	No physical inference from box boundary
+B06	B03	DERIVED_SCOPE_DISTINCT	numerical mask versus metric null horizon	No physical inference from box boundary
+B08	B01	OPEN	fold value and parity do not choose action primitive or variation class	A complete action may realize the fold in inequivalent ways
+B08	B03	OPEN	regular causal horizon does not choose terminal, reflecting, quotient, or crossing ontology	Boundary action and domain remain separate
+B08	B07	OPEN	neither boundary functional nor global closure equation exists	Potential future joint selection only

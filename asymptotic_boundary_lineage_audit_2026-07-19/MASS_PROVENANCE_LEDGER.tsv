@@ -1,0 +1,11 @@
+id	object	provenance	status	boundary_role	current_ruling
+M01	Misner-Sharp m=c^2 r(1-A)/(2G)	GR geometric/readout tool	CONDITIONAL_REFERENCE_ONLY	Gives c^2 X/(2G) at any areal A=0 surface	Does not derive UDT total mass or coefficient alpha=2
+M02	Einstein tensor density/stress readout	GR comparison/readout	CONDITIONAL_REFERENCE_ONLY	Produces rho~1/r on WR-L	Not a native source or matter-emergence law
+M03	Historical mass-dilation exponent/weight	primarily pre-July-1 scalar-tensor/matter work	NEGATIVE_OR_FAILURE_PROVENANCE_ONLY	No certified asymptotic boundary join	Cannot provide affirmative UDT physics under firewall
+M04	Fold Legendre energy E_m and E_m(core)=2	historical reduced action plus free-endpoint/primitive premises	DERIVED_CONDITIONAL	Conditional cell closure datum	Dimensionless reduced energy is not normalized total mass
+M05	Fold dilation flux q=Z rho^2 phi_prime	historical action representative and variation class	DERIVED_CONDITIONAL	Free output at odd fold	Total derivatives and normalization prevent native mass identification
+M06	H3 lapse/finite-volume mass relation	EH plus selected S2 completion and controlled weak/static premises	CONDITIONAL	Can define a finite-volume reference charge	Not action-independent or native
+M07	Normalized finite-cell gravitational charge	complete differentiable action, generator, reference, and solution	OPEN	Would be candidate native total mass	No current construction
+M08	Observed c_E and G_obs	observational calibration anchors	OBSERVED	Supply physical dimensions after scale selection	Do not select action, mass functional, or boundary
+M09	Xmax=alpha G_obs M_tot/c_E^2	dimensional/global-compactness form	WORKING_HYPOTHESIS	Possible joint scale closure	alpha and native M_tot functional must emerge; not fixed by dimensional analysis
+M10	Mass dilation at the terminal asymptote	owner working picture	OPEN	Potential selector for physical boundary	No current post-firewall derivation connects native mass to any asymptote

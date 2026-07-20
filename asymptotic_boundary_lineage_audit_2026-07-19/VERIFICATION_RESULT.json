@@ -1,0 +1,84 @@
+{
+  "catch_proofs": {
+    "MS_native_mass_promotion_rejected": "PASS",
+    "dimensional_analysis_as_derivation_rejected": "PASS",
+    "duplicate_candidate_rejected": "PASS",
+    "fold_phi_swap_rejected": "PASS",
+    "input_X_output_promotion_rejected": "PASS",
+    "mass_dilation_boundary_promotion_rejected": "PASS",
+    "missing_candidate_rejected": "PASS",
+    "missing_mass_structure_closure_rejected": "PASS",
+    "notation_only_surface_join_rejected": "PASS",
+    "pre_firewall_mass_promotion_rejected": "PASS",
+    "proper_optical_confusion_rejected": "PASS",
+    "raw_flux_mass_promotion_rejected": "PASS"
+  },
+  "checks": {
+    "boundary_objects": {
+      "fold": "CMB_FOLD",
+      "rows": 8,
+      "wall": "WRL_WALL"
+    },
+    "candidate_universe": {
+      "dispositions": {
+        "CONTEXT_ONLY": 99,
+        "DUPLICATE_SNAPSHOT": 88,
+        "EXCLUDED_WITH_REASON": 457,
+        "LOAD_BEARING": 67,
+        "NEGATIVE_CONTROL": 350
+      },
+      "rows": 1061,
+      "token_hits": 1046
+    },
+    "direct_tensor": {
+      "Kretschmann": "8/(X**2*r**2)",
+      "Ricci": "6/(X*r)",
+      "method": "direct Christoffel-Riemann contraction"
+    },
+    "global_closure": {
+      "known_anchors": 2,
+      "open_load_bearing_equations": 2,
+      "rows": 20
+    },
+    "mass_provenance": {
+      "rows": 10
+    },
+    "quantity_limits": {
+      "rows": 51,
+      "surfaces": 8
+    },
+    "source_adjudication": {
+      "families": 11,
+      "rows": 67
+    },
+    "source_text": {
+      "dimensional_lead": "PASS",
+      "fold_pins": "PASS",
+      "horizon_precision": "PASS",
+      "mass_open": "PASS",
+      "object_split": "PASS"
+    },
+    "surface_identity": {
+      "rows": 14
+    }
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "counts": {
+    "boundary_objects": 8,
+    "candidates": 1061,
+    "catch_proofs": 12,
+    "closure_rows": 20,
+    "load_bearing_sources": 67,
+    "mass_rows": 10,
+    "quantity_limits": 51,
+    "surface_pairs": 14
+  },
+  "derivation_result_sha256": "0c250a4b77777c3b8cfbafc47b04ab645254acb073faac93f3e7482eafa0b5e1",
+  "result": "PASS",
+  "schema": "udt-asymptotic-boundary-lineage-verification-1.0",
+  "verdict": "CMB_FOLD_AND_WRL_WALL_DISTINCT; WRL_IS_REGULAR_CROSSABLE_STATIC_HORIZON; XMAX_AND_NATIVE_MASS_JOIN_OPEN"
+}
