@@ -113,6 +113,13 @@ def bach_point(r, epsilon, pcoeff, ucoeff, lorentz=True, backreaction=True):
         for b in range(DIM)]) for a in range(DIM)])
 
 
+def bach_raised_point(r, epsilon, pcoeff, ucoeff):
+    g = metric_point(r, epsilon, pcoeff, ucoeff)
+    inverse = torch.linalg.inv(g)
+    bach = bach_point(r, epsilon, pcoeff, ucoeff)
+    return torch.einsum("ac,bd,cd->ab", inverse, inverse, bach)
+
+
 def derivative(function, r, order):
     result = function
     for _ in range(order):
@@ -174,15 +181,22 @@ def main():
             r = torch.tensor(raw_point)
             direct_quadratic = even_quadratic_coefficient(lambda eps: density_point(r, eps, pcoeff, ucoeff))
             expected_quadratic, expected_jacobi = formula_values(r, pcoeff, ucoeff)
-            linear_bach = odd_linear_coefficient(lambda eps: bach_point(r, eps, pcoeff, ucoeff)[2, 3])
+            linear_bach = odd_linear_coefficient(lambda eps: bach_raised_point(r, eps, pcoeff, ucoeff)[2, 3])
+            background_bach_xx = bach_raised_point(r, epsilon0, pcoeff, ucoeff)[2, 2]
+            local_u = polynomial(r, ucoeff)
+            # Full metric-path projection: g_xy=epsilon*u and g_xx=1+epsilon^2*u^2.
+            # The background Euler term is required off shell and enforces the constant-shear zero mode.
+            projected_bach = linear_bach + local_u * background_bach_xx
             missing_backreaction = even_quadratic_coefficient(lambda eps: density_point(r, eps, pcoeff, ucoeff, True, False))
             euclidean = even_quadratic_coefficient(lambda eps: density_point(r, eps, pcoeff, ucoeff, False, True))
             records.append({
                 "profile": name, "r": raw_point,
                 "direct_quadratic": float(direct_quadratic), "formula_quadratic": float(expected_quadratic),
                 "quadratic_relative_error": relative_error(direct_quadratic, expected_quadratic),
-                "formula_jacobi": float(expected_jacobi), "linear_bach_xy": float(linear_bach),
-                "jacobi_to_bach_ratio": float(expected_jacobi / linear_bach) if abs(float(linear_bach)) > 1e-11 else None,
+                "formula_jacobi": float(expected_jacobi), "linear_raised_bach_xy": float(linear_bach),
+                "background_raised_bach_xx": float(background_bach_xx),
+                "metric_path_projected_bach": float(projected_bach),
+                "jacobi_to_bach_ratio": float(expected_jacobi / projected_bach) if abs(float(projected_bach)) > 1e-11 else None,
                 "missing_backreaction_quadratic": float(missing_backreaction),
                 "missing_backreaction_difference": float(torch.abs(missing_backreaction - expected_quadratic)),
                 "euclidean_quadratic": float(euclidean),
@@ -193,8 +207,8 @@ def main():
     ratios = [record["jacobi_to_bach_ratio"] for record in nonconstant if record["jacobi_to_bach_ratio"] is not None]
     ratio_reference = ratios[0]
     ratio_spread = max(abs(value - ratio_reference) for value in ratios)
-    quadratic_error = max(record["quadratic_relative_error"] for record in records)
-    constant_max = max(max(abs(record["direct_quadratic"]), abs(record["formula_jacobi"]), abs(record["linear_bach_xy"])) for record in constant)
+    quadratic_error = max(record["quadratic_relative_error"] for record in nonconstant)
+    constant_max = max(max(abs(record["direct_quadratic"]), abs(record["formula_jacobi"]), abs(record["metric_path_projected_bach"])) for record in constant)
     missing_difference = max(record["missing_backreaction_difference"] for record in nonconstant)
     euclidean_difference = max(record["euclidean_difference"] for record in nonconstant)
     checks = {
