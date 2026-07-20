@@ -1,0 +1,110 @@
+{
+  "CSN": {
+    "pure_variation": "delta g_ab=2 sigma g_ab gives Theta=0",
+    "ruling": "bare C2 boundary phase space retains the common-scale null direction"
+  },
+  "Noether_two_form": {
+    "bare_Q": "Q_xi^{mu nu}=-4 C^{mu nu rho sigma} nabla_rho xi_sigma+8 xi_sigma nabla_rho C^{mu nu rho sigma}",
+    "open": "overall coefficient; integrability; primitive; reference; orientation; corner improvement; physical normalization"
+  },
+  "boundary_classes": {
+    "CLAMPED_TWO_JET": {
+      "extra_equation": "none",
+      "fixed": "delta h=0; delta K=0; compatible corner delta h=0",
+      "selected_by_UDT": false
+    },
+    "CONFORMAL_CLASS": {
+      "extra_equation": "common Weyl direction remains null",
+      "fixed": "trace-free boundary conformal data as declared",
+      "selected_by_UDT": false
+    },
+    "DIRICHLET_PLUS_NATURAL_E": {
+      "extra_equation": "E_TF=0 if delta K_TF free",
+      "fixed": "delta h=0",
+      "selected_by_UDT": false
+    },
+    "FULLY_NATURAL_BARE": {
+      "extra_equation": "E_TF=0; Pi_h=0; corner flux condition",
+      "fixed": "boundary location/gauge only",
+      "selected_by_UDT": false
+    },
+    "K_FIXED_PLUS_NATURAL_PI": {
+      "extra_equation": "Pi_h=0 plus corner rule if delta h free",
+      "fixed": "delta K=0",
+      "selected_by_UDT": false
+    },
+    "MIXED_OR_NEUMANN_AFTER_COMPLETION": {
+      "extra_equation": "depends on added integrable boundary/Legendre functional",
+      "fixed": "chosen momentum/polarization",
+      "selected_by_UDT": false
+    }
+  },
+  "checks": {
+    "Noether_two_form_has_expected_two_terms": "PASS",
+    "Weyl_tracefree_seed_1": "PASS",
+    "Weyl_tracefree_seed_4": "PASS",
+    "Weyl_tracefree_seed_8": "PASS",
+    "bulk_C2_weight_zero": "PASS",
+    "conformally_flat_bare_Noether_zero": "PASS",
+    "conformally_flat_bare_potential_zero": "PASS",
+    "constant_curvature_Weyl_zero": "PASS",
+    "curvature_momentum_P_equals_2C_seed_1": "PASS",
+    "curvature_momentum_P_equals_2C_seed_4": "PASS",
+    "curvature_momentum_P_equals_2C_seed_8": "PASS",
+    "electric_Weyl_boundary_momentum_nonzero": "PASS",
+    "electric_Weyl_is_scale_covariant_not_scale_selector": "PASS",
+    "electric_Weyl_tracefree": "PASS",
+    "multiple_differentiable_boundary_classes_retained": "PASS",
+    "no_boundary_class_selected_by_current_UDT": "PASS",
+    "product_sample_Weyl_nonzero": "PASS",
+    "pure_common_Weyl_variation_is_boundary_null": "PASS",
+    "trace_mode_absent_from_deltaK_momentum": "PASS"
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "conformally_flat_branch": {
+    "C": "0",
+    "Theta": "0 for arbitrary first variation",
+    "bare_Q_xi": "0",
+    "ruling": "bare C2 boundary objects do not select scale or yield normalized mass/charge"
+  },
+  "covariant_variation": {
+    "bulk": "proportional to Bach_ab delta g^ab",
+    "normalization": "overall action coefficient and sign convention remain conditional",
+    "potential": "Theta^mu=4 C^{mu a b nu} nabla_nu(delta g_ab)-4 nabla_nu C^{mu a b nu} delta g_ab"
+  },
+  "curvature_momentum": {
+    "P_abcd": "2 C_abcd",
+    "ruling": "derived by exact finite-difference curvature-tensor tests"
+  },
+  "maximum_conclusion": "CONDITIONAL_C2_BARE_BOUNDARY_PHASE_SPACE_AND_CORNER_FLUX_DERIVED; COMMON_SCALE_IS_NULL_AND_CONFORMALLY_FLAT_BARE_CHARGE_VANISHES; PHYSICAL_BOUNDARY_POLARIZATION_REFERENCE_AND_NORMALIZATION_OPEN",
+  "non_null_Gaussian_decomposition": {
+    "Pi_h": "8 epsilon E^{k(i}K_k^{j)}-4 epsilon nabla_nu C^{n i j nu}-4 epsilon D_k C^{n i j k}",
+    "conventions": "g_nn=epsilon; delta g_nn=delta g_ni=0; K_ij=(1/2)partial_n h_ij; E^ij=C^{n i n j}",
+    "corner_flux": "4 epsilon s_k C^{n i j k} delta h_ij",
+    "normal_flux": "n.Theta=-8 epsilon E^ij delta K_ij + Pi_h^ij delta h_ij + 4 epsilon D_k(C^{n i j k}delta h_ij)",
+    "principal_momentum": "P_K^ij=-8 epsilon E^ij; trace-free"
+  },
+  "nonzero_Weyl_sample": {
+    "C2": "100/3",
+    "electric_Weyl_diagonal": [
+      "5/3",
+      "-5/6",
+      "-5/6"
+    ],
+    "scalar_curvature": "10"
+  },
+  "result": "PASS",
+  "schema": "udt-conditional-c2-finite-cell-boundary-variation-1.0",
+  "scope": {
+    "open": "null/moving/signature-changing wall; full corner topology; added completion; physical data; representative; scale; source; EH bridge"
+  },
+  "selector_ruling": {
+    "mathematical_boundary_phase_space": "DERIVED_CONDITIONAL",
+    "physical_boundary_polarization": "OPEN_NOT_SELECTED",
+    "smallest_missing_boundary_selector": "native rule choosing the allowed boundary variation/polarization and corner data; charge additionally needs primitive/reference/normalization"
+  }
+}

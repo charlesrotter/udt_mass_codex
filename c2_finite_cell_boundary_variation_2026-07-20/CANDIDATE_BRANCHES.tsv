@@ -1,0 +1,11 @@
+id	branch	ruling	reason	open_scope
+C01	bare non-null boundary phase space	DERIVED_CONDITIONAL	covariant potential decomposes into delta h, delta K, and corner flux	potential ambiguity and normal conventions
+C02	clamped two-jet wall	RETAINED_NOT_SELECTED	makes bare fourth-order variation differentiable	no native premise fixes both jets
+C03	Dirichlet plus natural electric-Weyl wall	RETAINED_NOT_SELECTED	free trace-free delta K yields E_TF=0	no native premise chooses Dirichlet data
+C04	fully natural bare wall	RETAINED_NOT_SELECTED	free variations yield both momentum equations and corner rule	physical meaning and existence not established
+C05	mixed or Neumann completion	OPEN_CONDITIONAL	possible only after an integrable added boundary functional	completion not derived
+C06	common-scale boundary direction	NULL_DIRECTION_RETAINED	Weyl trace freedom makes bare Theta vanish	no representative selection
+C07	conformally flat branch	DEGENERATE_BARE_PHASE_SPACE	C=0 makes bare Theta and Q vanish	physical mass and completion remain open
+C08	nonzero-Weyl branch	NONTRIVIAL_PHASE_SPACE_RETAINED	product sample has trace-free nonzero electric Weyl	actual finite-cell solution not supplied
+C09	null or moving finite-cell seal	OPEN_OUTSIDE_DECOMPOSITION	Gaussian normal non-null audit cannot cover it	requires separate covariant boundary geometry
+C10	normalized physical charge	OPEN_NOT_DERIVED	bare Noether two-form lacks reference, primitive, and normalization	matter/source and boundary completion remain open

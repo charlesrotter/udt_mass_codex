@@ -1,0 +1,11 @@
+id	class	fixed_or_allowed_variation	natural_equation_or_completion	bare_differentiability	selected_by_current_UDT	status
+B01	CLAMPED_TWO_JET	delta h=0 and delta K=0; compatible corner delta h=0	none	YES	NO	ADMISSIBLE_NOT_SELECTED
+B02	DIRICHLET_PLUS_NATURAL_E	delta h=0; trace-free delta K free	E_TF=0	YES_ON_NATURAL_SUBSPACE	NO	ADMISSIBLE_NOT_SELECTED
+B03	K_FIXED_PLUS_NATURAL_PI	delta K=0; delta h free	Pi_h=0 plus corner rule	YES_ON_NATURAL_SUBSPACE	NO	ADMISSIBLE_NOT_SELECTED
+B04	FULLY_NATURAL_BARE	delta h and trace-free delta K free	E_TF=0; Pi_h=0; corner flux condition	YES_ON_NATURAL_SUBSPACE	NO	ADMISSIBLE_NOT_SELECTED
+B05	MIXED_OR_NEUMANN_AFTER_COMPLETION	chosen momentum or mixed polarization	depends on separately declared integrable boundary/Legendre functional	CONDITIONAL_ON_COMPLETION	NO	OPEN_COMPLETION_FAMILY
+B06	CONFORMAL_CLASS	declared trace-free conformal data; common Weyl variation allowed	common-scale direction is automatically null	YES_IN_DECLARED_CLASS	NO	ADMISSIBLE_NOT_SELECTED
+B07	FIXED_TRACE_OR_TRACEFREE_K	one declared component of K fixed and complementary component varied	complementary projection of E or Pi must vanish	CONDITIONAL_ON_DECLARATION	NO	OPEN_MIXED_FAMILY
+B08	CORNER_POLARIZATION	boundary pieces meet at codimension two edge	cancel or fix 4 epsilon s_k C^{n i j k}delta h_ij	CONDITIONAL_ON_CORNER_RULE	NO	OPEN_CORNER_FAMILY
+B09	CONFORMALLY_FLAT_DEGENERATE	C=0	bare Theta and bare Q vanish	DEGENERATE	NO	DEGENERATE_NOT_SELECTOR
+B10	NULL_MOVING_OR_SIGNATURE_CHANGING	boundary normal is null, moving, or degenerates	non-null Gaussian decomposition does not apply	NOT_CLASSIFIED	NO	OPEN_OUTSIDE_SLICE

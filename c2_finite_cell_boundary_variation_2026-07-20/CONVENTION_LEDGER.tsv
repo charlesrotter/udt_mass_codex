@@ -1,0 +1,13 @@
+id	choice	value	status	effect_or_limit
+V01	metric variation variable	delta g_ab	DECLARED_CONVENTION	Changing to delta g^ab changes bulk sign bookkeeping
+V02	Riemann sign	as implemented in exact algebra and inherited C2 identity	DECLARED_CONVENTION	All displayed potential signs must be read with this convention
+V03	unit normal	n^2=epsilon with epsilon=+1 or -1	DECLARED_CONVENTION	Normal-flux signs carry epsilon
+V04	Gaussian normal chart	g_nn=epsilon and g_ni=0	BOUNDED_DIAGNOSTIC	Not a physical wall condition
+V05	fixed boundary gauge	delta g_nn=delta g_ni=0	BOUNDED_DIAGNOSTIC	Moving-boundary and normal variations remain open
+V06	extrinsic curvature	K_ij=(1/2)partial_n h_ij	DECLARED_CONVENTION	Opposite K convention reverses corresponding terms
+V07	electric Weyl	E^ij=C^{n i n j}	DECLARED_CONVENTION	P_K=-8 epsilon E in these conventions
+V08	boundary covariant derivative	D_k compatible with h_ij	DECLARED_CONVENTION	Tangential integration by parts produces corner flux
+V09	corner outward normal	s_k within the boundary piece	DECLARED_CONVENTION	Orientation reversal reverses corner flux
+V10	potential representative	bare covariant Iyer-Wald-type representative from unrestricted bulk variation	CHOSE_FOR_AUDIT	Exact-divergence improvements remain possible
+V11	bulk coefficient	unity in displayed algebra	UNSELECTED_NORMALIZATION	Physical action and charge coefficients remain open
+V12	boundary functional	none added	PREREGISTERED_EXCLUSION	Mixed/Neumann completions are classified but not adopted

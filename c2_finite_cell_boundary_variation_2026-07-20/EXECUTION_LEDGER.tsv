@@ -1,0 +1,8 @@
+id	command	compute	exit_code	output_artifact	output_sha256
+E01	/usr/bin/python3 c2_finite_cell_boundary_variation_2026-07-20/build_source_census.py	CPU_ONLY	0	CENSUS_TRANSCRIPT.txt	5b105e4bcad273adfd7aca92f39f2e7a67a9afcad52052f5b189028ec490fb6e
+E02	/usr/bin/python3 c2_finite_cell_boundary_variation_2026-07-20/build_source_adjudication.py	CPU_ONLY	0	ADJUDICATION_TRANSCRIPT.txt	4ca077fe9e2d82db6f6e7afa795574e1aa99e384cef50d5440e5722da0e74b9a
+E03	/usr/bin/python3 c2_finite_cell_boundary_variation_2026-07-20/derive_c2_boundary_variation.py	CPU_ONLY	0	DERIVATION_TRANSCRIPT.txt	7d7ac567c4487fb6665b5a36580c8a693a5a66ec8eba2d46c916e2ed6250abe3
+E04	/usr/bin/python3 c2_finite_cell_boundary_variation_2026-07-20/verify_c2_boundary_variation.py	CPU_ONLY	0	VERIFICATION_TRANSCRIPT.txt	9aa9206922a43af08c1b42e2860780876cb52699a927ccd296a75a98cb34b671
+E05	/usr/bin/python3 -m pytest tests/	CPU_ONLY	1_EXPECTED_BASELINE	TEST_TRANSCRIPT.txt	ff221789dd7e76da3a9d209c671fa93a6bfd95b46056153ff5c0d19eade7f197
+E06	/usr/bin/python3 -I -c import sys,runpy; sys.path.insert(0,'/home/udt-admin/.local/lib/python3.10/site-packages'); import sympy; assert sympy.__version__=='1.13.1'; runpy.run_path('c2_finite_cell_boundary_variation_2026-07-20/verify_c2_boundary_variation.py',run_name='__main__')	CPU_ONLY	0	ISOLATED_VERIFICATION_TRANSCRIPT.txt	9aa9206922a43af08c1b42e2860780876cb52699a927ccd296a75a98cb34b671
+E07	fresh external-model review	EXTERNAL_REVIEW_NOT_PERFORMED	AUTHORIZATION_NOT_GIVEN	EXTERNAL_REVIEW_STATUS.txt	5281eafbe101570514ab2af8bf7dc366bc878dd0289de1c8d8eb81f9d9113c09

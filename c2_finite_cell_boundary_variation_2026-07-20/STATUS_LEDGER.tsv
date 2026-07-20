@@ -1,0 +1,21 @@
+id	claim	status	exact_scope
+S01	reciprocal UDT kinematics	DERIVED_FROZEN_INHERITED	No new kinematic derivation performed
+S02	four-dimensional pre-scale C2/Bach bulk	UNIQUE_CONDITIONAL_FROZEN_INHERITED	Only under the frozen action-class and variation-before-scale premises
+S03	curvature momentum P=2C	DERIVED_CONDITIONAL	Exact 4D algebra
+S04	bare covariant C2 symplectic potential	DERIVED_CONDITIONAL	Declared variation and Riemann conventions
+S05	non-null delta h/delta K boundary split	VERIFIED_WITH_CAVEATS	Fixed-wall Gaussian normal gauge; convention representative explicit
+S06	trace-free electric-Weyl momentum conjugate to delta K	DERIVED_CONDITIONAL	P_K=-8 epsilon E
+S07	tangential corner flux	DERIVED_CONDITIONAL	One smooth non-null boundary piece
+S08	common-scale boundary mode	NULL_DIRECTION_DERIVED_CONDITIONAL	Bare C2 potential vanishes on delta g=2 sigma g
+S09	conformally flat bare potential and Noether object	VANISH_DERIVED_CONDITIONAL	Not a physical mass theorem
+S10	bare diffeomorphism Noether two-form	DERIVED_UNNORMALIZED_CONDITIONAL	No reference, primitive, integrability, or physical coefficient
+S11	unique physical boundary condition	NOT_DERIVED	Multiple differentiable classes survive
+S12	finite-cell seal selects boundary polarization	NOT_DERIVED	Current seal statement supplies no delta h/delta K rule
+S13	CSN selects an absolute representative at the wall	REFUTED_FOR_BARE_C2	Common Weyl direction remains null
+S14	conformally flat branch has zero physical mass	NOT_DERIVED_FALSE_INFERENCE	Only bare conditional C2 Q vanishes
+S15	complete boundary and corner action	OPEN	No completion functional adopted
+S16	null or moving wall	OPEN	Outside non-null fixed-wall decomposition
+S17	complete native action and source	OPEN	No action promotion, matter carrier, or source derivation
+S18	absolute scale, Xmax, total mass, or electron mass	OPEN	No numerical anchor enters this audit
+S19	EH or two-stage bridge	OPEN	Boundary audit does not connect action branches
+S20	banked audit grade	VERIFIED_WITH_CAVEATS	Preregistered, exact and independently replayed in-package; no fresh external-model review

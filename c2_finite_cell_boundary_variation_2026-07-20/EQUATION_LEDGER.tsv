@@ -1,0 +1,19 @@
+id	object	premises	exact_result	status	limitation
+E01	conditional bulk density	four dimensions; unrestricted metric variation; pre-scale C2 action class	sqrt(|g|) C_abcd C^abcd; overall coefficient unfixed	UNIQUE_CONDITIONAL	This audit does not select the action or its coefficient
+E02	curvature momentum	E01 and Riemann symmetries	P^abcd=partial(C2)/partial R_abcd=2 C^abcd	DERIVED_CONDITIONAL	Index placement follows the declared metric convention
+E03	covariant symplectic potential	E01-E02; delta g_ab convention	Theta^mu=4 C^{mu a b nu} nabla_nu(delta g_ab)-4 nabla_nu C^{mu a b nu} delta g_ab	DERIVED_CONDITIONAL	Potential is ambiguous by an exact boundary divergence
+E04	bulk equation	E03 after unrestricted integration by parts	Euler-Lagrange tensor is proportional to Bach_ab	DERIVED_CONDITIONAL	Overall sign and normalization depend on variation conventions
+E05	non-null normal flux	non-null fixed wall; Gaussian normal gauge; delta g_nn=delta g_ni=0	n.Theta=-8 epsilon E^ij delta K_ij+Pi_h^ij delta h_ij+4 epsilon D_k(C^{n i j k}delta h_ij)	DERIVED_CONDITIONAL	Not a null, moving, or signature-changing wall formula
+E06	induced-metric momentum	E05; K_ij=(1/2)partial_n h_ij; E^ij=C^{n i n j}	Pi_h^ij=8 epsilon E^{k(i}K_k^{j)}-4 epsilon nabla_nu C^{n i j nu}-4 epsilon D_k C^{n i j k}	DERIVED_CONDITIONAL	Convention-dependent representative of the potential
+E07	extrinsic-curvature momentum	E05	P_K^ij=-8 epsilon E^ij	DERIVED_CONDITIONAL	Only the trace-free delta K sector is paired
+E08	corner flux	E05 on a boundary piece with edge normal s_k	4 epsilon s_k C^{n i j k}delta h_ij	DERIVED_CONDITIONAL	Corner orientation and added improvements remain open
+E09	trace momentum	Weyl trace freedom	h_ij P_K^ij=0	DERIVED_CONDITIONAL	Does not fix the trace of K or the common scale
+E10	pure common-scale variation	delta g_ab=2 sigma g_ab; arbitrary local sigma	Theta^mu=0	DERIVED_CONDITIONAL	Bare C2 boundary phase space retains the CSN null direction
+E11	conformally flat stratum	C_abcd=0	Theta^mu=0 for arbitrary first variation	DERIVED_CONDITIONAL	Zero bare potential is not a physical vacuum or mass theorem
+E12	bare diffeomorphism Noether two-form	E01-E03	Q_xi^{mu nu}=-4 C^{mu nu rho sigma}nabla_rho xi_sigma+8 xi_sigma nabla_rho C^{mu nu rho sigma}	DERIVED_CONDITIONAL	Exact-form ambiguity and overall coefficient remain
+E13	conformally flat bare Noether object	C=0 and nabla C=0	Q_xi=0	DERIVED_CONDITIONAL	Does not imply normalized physical charge or mass vanishes
+E14	nonzero-Weyl product sample	orthonormal planes K_01=2 and K_23=3	R=10; C2=100/3; E=diag(5/3,-5/6,-5/6)	OBSERVED_EXACT_DIAGNOSTIC	Algebraic regression sample, not a UDT solution
+E15	common homothety	four-dimensional bulk C2	bulk action has scale weight zero	DERIVED_CONDITIONAL	Scale covariance does not select a representative
+E16	boundary differentiability	bare potential and declared allowed variations	at least six inequivalent differentiable boundary classes remain	CHARACTERIZED_CONDITIONAL	Current UDT premises select none
+E17	physical boundary polarization	current finite-cell, CSN, reciprocity, and bootstrap statements	no unique allowed delta h/delta K or momentum class is supplied	OPEN_NOT_SELECTED	Requires a native boundary-variation rule, not a familiar imported choice
+E18	normalized physical charge	E12 plus still-missing completion	primitive, reference, integrability, orientation, corner improvement, and normalization are open	OPEN	Bare Q cannot be called mass or energy

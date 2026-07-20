@@ -1,0 +1,17 @@
+layer	status	covered	not_covered
+unrestricted covariant bulk variation	COMPLETE_IN_CONDITIONAL_ACTION	full four-metric varied before ansatz	action selection and coefficient
+curvature momentum	EXACT	P=2C with Riemann symmetries	other actions
+covariant boundary potential	EXACT_REPRESENTATIVE	bare potential from integration by parts	exact-divergence improvements
+bulk Euler-Lagrange tensor	IDENTIFIED	Bach proportionality	overall sign/normalization convention
+non-null boundary decomposition	VERIFIED_WITH_CAVEATS	fixed-wall Gaussian normal delta h/delta K split	null, moving, signature-changing wall
+corner flux	DERIVED_IN_SLICE	tangential divergence on a smooth boundary piece	global corner topology and joint completion
+common-scale direction	EXACT	pure local Weyl variation is bare-null	physical representative selection
+conformally flat stratum	EXACT	bare Theta and Q vanish	physical vacuum, energy, or mass interpretation
+nonzero-Weyl stratum	ALGEBRAIC_SAMPLE	nonzero trace-free electric Weyl exists	full UDT finite-cell solution
+boundary class census	COMPLETE_FOR_REGISTERED_CLASSES	ten preregistered classes retained or left open	all possible exotic boundary theories
+physical boundary polarization	NOT_SELECTED	missing selector localized to allowed variations/corner data	which class nature uses
+Noether two-form	BARE_UNNORMALIZED_OBJECT	two exact C and nabla C terms	integrability, primitive, reference, normalization
+matter and source	NOT_TESTED	none	carrier, source, mass, stability, emergence
+scale and anchors	NOT_SELECTED	four-dimensional C2 scale weight zero	c/G calibration, Xmax, total mass/density
+two-stage bridge	NOT_TESTED	none	pre-scale C2 to post-scale EH or another completion
+external adversarial model review	NOT_PERFORMED	in-package independent implementation only	fresh isolated model-family review

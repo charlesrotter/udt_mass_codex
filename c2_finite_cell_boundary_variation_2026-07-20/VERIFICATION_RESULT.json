@@ -1,0 +1,124 @@
+{
+  "catch_proofs": {
+    "CSN-branch_overclaim_rejected": "PASS",
+    "CSN-status_overclaim_rejected": "PASS",
+    "action-status_overclaim_rejected": "PASS",
+    "action_equation_overclaim_rejected": "PASS",
+    "anchor-status_overclaim_rejected": "PASS",
+    "base_source_mutation_rejected": "PASS",
+    "boundary-selector_equation_overclaim_rejected": "PASS",
+    "bridge-status_overclaim_rejected": "PASS",
+    "carrier_import_rejected": "PASS",
+    "charge-branch_overclaim_rejected": "PASS",
+    "charge_equation_overclaim_rejected": "PASS",
+    "clamped-branch_overclaim_rejected": "PASS",
+    "clamped_misgrade_rejected": "PASS",
+    "completion-status_overclaim_rejected": "PASS",
+    "completion_misgrade_rejected": "PASS",
+    "derivation_charge_mutation_rejected": "PASS",
+    "derivation_selector_mutation_rejected": "PASS",
+    "flat-branch_overclaim_rejected": "PASS",
+    "flat-charge_misgrade_rejected": "PASS",
+    "flat-vacuum_equation_overclaim_rejected": "PASS",
+    "grade_overclaim_rejected": "PASS",
+    "mass-status_overclaim_rejected": "PASS",
+    "mass_equation_overclaim_rejected": "PASS",
+    "matter-status_overclaim_rejected": "PASS",
+    "maximum_overreach_rejected": "PASS",
+    "missing_boundary_class_rejected": "PASS",
+    "missing_branch_rejected": "PASS",
+    "missing_census_row_rejected": "PASS",
+    "missing_convention_rejected": "PASS",
+    "missing_equation_rejected": "PASS",
+    "missing_scope_rejected": "PASS",
+    "missing_source_rejected": "PASS",
+    "missing_status_rejected": "PASS",
+    "null-branch_overclaim_rejected": "PASS",
+    "null-wall_misgrade_rejected": "PASS",
+    "polarization_equation_overclaim_rejected": "PASS",
+    "scale_equation_overclaim_rejected": "PASS",
+    "selector-status_overclaim_rejected": "PASS",
+    "wall-status_overclaim_rejected": "PASS",
+    "wall_equation_overclaim_rejected": "PASS"
+  },
+  "certification": "VERIFIED-WITH-CAVEATS: independent six-plane curvature-momentum algebra and component Gaussian-normal split; no fresh external-model review",
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "counts": {
+    "boundary_classes": 10,
+    "branches": 10,
+    "catch_proofs": 40,
+    "census": 3843,
+    "completeness": 16,
+    "conventions": 12,
+    "equations": 18,
+    "sources": 57,
+    "status": 20
+  },
+  "derivation_sha256": "2c3055c5905b49a6c5c42e1744ac1547eb2066a45e3255cbc6abf4344e2df7d0",
+  "groups": {
+    "boundary_classes": {
+      "rows": 10,
+      "rulings_checked": 10
+    },
+    "branches": {
+      "rows": 10,
+      "rulings_checked": 10
+    },
+    "completeness": {
+      "external_review": "NOT_PERFORMED",
+      "rows": 16
+    },
+    "conventions": {
+      "rows": 12
+    },
+    "derivation": {
+      "checks": 19,
+      "maximum_conclusion": "CONDITIONAL_C2_BARE_BOUNDARY_PHASE_SPACE_AND_CORNER_FLUX_DERIVED; COMMON_SCALE_IS_NULL_AND_CONFORMALLY_FLAT_BARE_CHARGE_VANISHES; PHYSICAL_BOUNDARY_POLARIZATION_REFERENCE_AND_NORMALIZATION_OPEN"
+    },
+    "equations": {
+      "rows": 18,
+      "rulings_checked": 18
+    },
+    "independent_algebra": {
+      "gaussian_normal_component_split": "PASS",
+      "product_C2": "100/3",
+      "product_E": [
+        "5/3",
+        "-5/6",
+        "-5/6"
+      ],
+      "pure_Weyl_trace_test": "PASS",
+      "six_plane_curvature_momentum": "PASS",
+      "tangential_product_rule": "PASS"
+    },
+    "source_adjudication": {
+      "base_hashes_replayed": 57,
+      "rows": 57
+    },
+    "source_census": {
+      "dispositions": {
+        "CONTEXT_CANDIDATE": 1681,
+        "EXCLUDED_DUPLICATE_RAW_RECORD": 76,
+        "EXCLUDED_GENERATED_ORGANIZATION": 226,
+        "LOAD_BEARING_CANDIDATE": 57,
+        "PROVENANCE_OR_COUNTEREXAMPLE_ONLY": 1803
+      },
+      "rows": 3843
+    },
+    "source_syntax": {
+      "CSN": "PASS",
+      "parent_boundary_seam": "PASS"
+    },
+    "status": {
+      "rows": 20,
+      "rulings_checked": 20
+    }
+  },
+  "result": "PASS",
+  "schema": "udt-conditional-c2-finite-cell-boundary-verification-1.0",
+  "verdict": "BARE_CONDITIONAL_C2_EXPOSES_NON_NULL_BOUNDARY_PHASE_SPACE_AND_CORNER_FLUX_BUT_SELECTS_NO_PHYSICAL_POLARIZATION; COMMON_SCALE_REMAINS_NULL; CONFORMALLY_FLAT_BARE_Q_ZERO_IS_NOT_A_MASS_THEOREM"
+}

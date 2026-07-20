@@ -1,0 +1,3 @@
+Fresh external-model adversarial review was not authorized for this continuation.
+Independent in-package algebra uses a separate six-plane curvature representation and an explicit component Gaussian-normal split.
+Maximum certification remains VERIFIED-WITH-CAVEATS.
