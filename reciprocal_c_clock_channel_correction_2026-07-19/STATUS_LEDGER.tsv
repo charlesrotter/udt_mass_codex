@@ -1,0 +1,16 @@
+id	question	result	status	remaining_gate
+S01	Is c^-1 merely an optional arithmetic inverse?	No; it is the coequal time-per-length conversion direction	FOUNDING_OWNER_CLARIFIED	None
+S02	Is the base clock channel open?	No; Reciprocal-c names it	NOT_OPEN	None
+S03	What fixes the channel response with depth?	Dual Reciprocity plus regular additive composition gives reciprocal exponentials	DERIVED_CONDITIONAL	Nontriviality and chosen sign/unit
+S04	Does angular reversal swap the clock and ruler channels?	No; rho stays fixed	REJECTED	Direction remains angular
+S05	Does ordered observer reversal invert the comparison?	Yes	DERIVED_CONDITIONAL	Do not call it angular reversal
+S06	Does the declared local Lorentzian branch give exp(-rho) clock slowing?	Yes for a stationary fixed-spatial observer	CONDITIONAL	Quadratic readout representative and observer scope
+S07	Are sech(delta) and sech(delta)^2 alternative channel laws?	No; they fail multiplicative composition	REJECTED_AS_COUNTERMODELS	Nonphysical diagnostics only
+S08	Does sech(2delta) independently restore underdetermination?	No; it also fails composition	REJECTED_AS_COUNTERMODEL	None
+S09	Is physical separation allowed to be negative?	No	REJECTED	Global distance still requires complete metric
+S10	Is Xmax tanh(rho) derived proper distance?	No	OPEN	Operational bounded-coordinate and metric-distance join
+S11	Is the reciprocal kinematic skeleton substantially closed?	Yes under its exact premise stamps	DERIVED_CONDITIONAL	Do not promote metric dynamics
+S12	Is the complete native action closed?	No	OPEN	Variation domain action and boundary completion
+S13	Are native source carrier emergence and unconditional mass closed?	No	OPEN	Complete matter law and bootstrap
+S14	Did contorted mathematics create a false open problem?	Yes for the extra symmetric clock selector	CORRECTED	Other listed joins remain genuine
+S15	Is everything solved?	No	REFUTED_AS_CURRENT_CLAIM	Independent closure of every open join

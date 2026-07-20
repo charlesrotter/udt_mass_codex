@@ -8,7 +8,8 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
 **⚠ CURRENT SCIENTIFIC FRONTIER (2026-07-19):** after this CURRENT STATE block read
-`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
+`reciprocal_c_clock_channel_correction_2026-07-19/AUDIT_REPORT.md` and its
+`STATUS_LEDGER.tsv`, then `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
 `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md` and
 `angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`. Read the
 full angular audit, then the null-section and native-topology reports, only when the actual task
@@ -26,7 +27,31 @@ order is: **`UDT_METHOD_MUSIC.md`** → **`UDT_DOTTED_LINE.md`** → **`UDT_ELEG
 Free-\(D_A\) / mixed scoreboards = **`grok/quarantine_free_DA/`** only (not live).
 Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE_historical_frontier_through_2026-07-08.md` and `archive/INDEX_pre_simple_metric_WR_L_2026-07-09.md`.
 
-## ============ CURRENT STATE (2026-07-19 — ANGULAR–TORIC CLOSURE SELECTOR AUDIT COMPLETE AND VERIFIED. THE RECIPROCAL EXPONENTIAL PAIR EXACTLY MATCHES A HOPF TORUS ORBIT BLOCK. S3 TOPOLOGY AND FREE DIAGONAL/ANTI-DIAGONAL HOPF ACTIONS ARE UNIQUE ONLY WITHIN EXPLICITLY SUPPLIED GLOBAL TORIC EIGENCAP PREMISES. REGISTERED UDT DOES NOT YET DERIVE THE FIRST GATE: TRANSVERSE SPATIAL RECIPROCAL REALIZATION AND PERIODICITY. FINITE-CELL CAP COMPLETION IS A DISTINCT CONDITIONAL SECOND GATE. ROUND-S2 CARRIER, COMPLETE ACTION/SOURCE/BOUNDARY LAW, AND TIME-LIVE TOPOLOGY LAW REMAIN OPEN. NO NEXT STUDY IS LAUNCHED OR AUTHORIZED. H3 STATIC FINITE-BOX STABILITY REMAINS SETTLED WITHIN ITS CARRIER/BOX PREMISES. R0–R1H REORGANIZATION REMAINS PAUSED. NO CANONIZATION OR GPU WORK.) ============
+## ============ CURRENT STATE (2026-07-19 — RECIPROCAL-C CLOCK-CHANNEL CORRECTION COMPLETE AND VERIFIED. C^-1 IS THE FOUNDING CLOCK/TIME-PER-LENGTH CHANNEL; DUAL RECIPROCITY PLUS REGULAR COMPOSITION FIXES THE RECIPROCAL EXPONENTIAL CHANNEL RESPONSE UNDER ITS EXACT PREMISES. ANGULAR REVERSAL AT FIXED NONNEGATIVE DEPTH DOES NOT SWAP CHANNELS OR SPEED THE CLOCK. THE RECENT SECH-TYPE CLOCK ALTERNATIVES ARE WITHDRAWN AS UNDERPREMISED BECAUSE THEY FAIL CHANNEL COMPOSITION. THE LOCAL PROPER-CLOCK READING REMAINS CONDITIONAL ON THE DECLARED LORENTZIAN READOUT/REPRESENTATIVE. GLOBAL RADIAL-ANGULAR DISTANCE, XMAX READOUT/SCALE, COMPLETE ACTION/SOURCE/BOUNDARY, CARRIER EMERGENCE, AND UNCONDITIONAL MASS REMAIN OPEN. THE PRIOR ANGULAR–TORIC AUDIT REMAINS CONDITIONAL EVIDENCE, NOT A NEW CLOCK GATE. NO NEXT STUDY, CANONIZATION, GPU WORK, OR REORGANIZATION IS AUTHORIZED.) ============
+
+**➤➤➤ JULY 19 RECIPROCAL-C CLOCK-CHANNEL CORRECTION — COMPLETE EVIDENCE:**
+- **READ NEXT:** `reciprocal_c_clock_channel_correction_2026-07-19/AUDIT_REPORT.md`, then
+  `reciprocal_c_clock_channel_correction_2026-07-19/STATUS_LEDGER.tsv` and
+  `CORRECTION_OVERLAY.tsv`; only then use `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` for the broader
+  action/angular/matter frontier.
+- **FOUNDING / OWNER-CLARIFIED:** `c` and `c^-1` are coequal conversion directions; `c^-1` is the
+  clock/time-per-length channel, not an optional scalar readout.
+- **DERIVED-CONDITIONAL KINEMATICS:** dual UDT Reciprocity plus regular additive composition fixes
+  the named channel weights as reciprocal exponentials, with sign/unit and nontriviality stamped.
+- **DIRECTION CORRECTION:** physical depth is nonnegative and direction is angular. Looking the
+  opposite way at the same depth leaves the clock/ruler channels unchanged. Reversing an ordered
+  observer comparison is a distinct inverse operation.
+- **FALSE SELECTOR WITHDRAWN:** `sech(delta)`, its square, and `sech(2 delta)` are symmetric
+  diagnostics but fail multiplicative channel composition. They are not admissible alternative
+  clock-channel laws under the complete foundation.
+- **READOUT SCOPE RETAINED:** `exp(-rho)` is the stationary proper-clock factor only in the declared
+  local Lorentzian quadratic readout, Common-Scale representative, and observer scope. Those stamps
+  are not silently promoted.
+- **GENUINELY OPEN:** complete radial-angular distance/path, operational `X_max` coordinate and
+  scale, physical representative, complete action/variation domain, native source/coupling,
+  differentiable finite-cell boundary, carrier emergence, unconditional mass, and time-live matter.
+- **DO NOT CLAIM EVERYTHING SOLVED:** the reciprocal kinematic skeleton is substantially closed;
+  the listed dynamical/global/matter joins require separate evidence.
 
 **➤➤➤ JULY 19 ANGULAR–TORIC CLOSURE CHAIN — COMPLETE EVIDENCE, NO FOLLOW-ON LAUNCHED:**
 - **READ NEXT:** `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then

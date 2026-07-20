@@ -1,0 +1,70 @@
+{
+  "catch_proofs": {
+    "angular_reversal_swapped_channels": "PASS",
+    "control_correction_layer_loss_rejected": "PASS",
+    "everything_solved_promoted": "PASS",
+    "founding_anchor_demoted": "PASS",
+    "local_readout_promoted": "PASS",
+    "negative_distance_restored": "PASS",
+    "noncharacter_admitted_as_channel": "PASS",
+    "prior_package_1_mutation_rejected": "PASS",
+    "prior_package_2_mutation_rejected": "PASS",
+    "projective_coordinate_promoted": "PASS",
+    "reciprocal_c_afterthought_restored": "PASS"
+  },
+  "checks": {
+    "both_prior_packages_byte_identical": "PASS",
+    "correction_ledger_coverage": "PASS",
+    "deterministic_primary_replay_and_contract": "PASS",
+    "independent_angular_reversal_preserves_channels": "PASS",
+    "independent_generator_character_derivation": "PASS",
+    "independent_noncharacter_witness": "PASS",
+    "live_control_correction_layer": "PASS",
+    "report_contract": "PASS",
+    "scope_and_canon_boundary": "PASS",
+    "source_inventory_replay": "PASS"
+  },
+  "independent_witnesses": {
+    "generator": "diag(-1,+1)",
+    "live_controls": [
+      {
+        "path": "LIVE.md",
+        "sha256": "6e51c6245cf1c03fd79404ab15c3fdb6b0aff98da6a9271ea637d119867a191d",
+        "window_lines": 160
+      },
+      {
+        "path": "HANDOFF.md",
+        "sha256": "a3fbb8b0c15422bca30a43a774670fd149ce81aafc60e656fd2856dcaf185560",
+        "window_lines": 160
+      },
+      {
+        "path": "INDEX.md",
+        "sha256": "ca4c3fb10e715d92597a808d25fa173e78533663e7154908b640702cb1ee6682",
+        "window_lines": 160
+      },
+      {
+        "path": "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
+        "sha256": "a8fdc6ada80bceea26908468e69026a0aa75b811ed511b009fca9e6e6c16898b",
+        "window_lines": 160
+      }
+    ],
+    "prior_packages": [
+      {
+        "manifest_sha256": "bde786c168a2bf552a9720afa66a3615e66c0d63ffcfb78af680c88813198a84",
+        "package": "projective_position_join_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "manifest_sha256": "377eaa791ab93845f50c19d6eb30dadb0b10322ac0cbe405db55ca0a37ad3dfb",
+        "package": "projective_position_direction_magnitude_correction_2026-07-19",
+        "result": "PASS"
+      }
+    ],
+    "sech_log3_character_failure": "-144/1025",
+    "true_clock_character": "exp[-(x+y)]=exp(-x)exp(-y)"
+  },
+  "python": "3.10.12",
+  "result": "PASS",
+  "schema": "udt-reciprocal-c-clock-channel-verification-1.0",
+  "sympy": "1.13.1"
+}

@@ -2,7 +2,9 @@
 
 **⚠ BRANCH: `grok` (2026-07-19)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
-**➤ CURRENT SCIENTIFIC FRONTIER:** `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
+**➤ CURRENT SCIENTIFIC FRONTIER:**
+`reciprocal_c_clock_channel_correction_2026-07-19/AUDIT_REPORT.md` and
+`STATUS_LEDGER.tsv`, then `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
 `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md` and
 `angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`. Full audit reports and preceding
 null-section/native-topology layers are task-specific follow-up, not generic startup reads. The
@@ -15,7 +17,14 @@ distinct conditional second gate. Smoothness does not select the round metric, a
 action, source, boundary functional, mass theorem, or time-live topology law follows. The existing
 H3/no-null implementation remains full-3D Hopf-capable and `OBSERVED_CARRIER_CONDITIONAL` in its
 banked scope. The preceding bootstrap/reciprocal/optical/co-presence/GR-constraint chain remains
-intact. No follow-on study, GPU work, reorganization, or canonization is authorized.
+intact. The latest correction restores the full founding channel premise: `c^-1` is the clock side,
+and dual Reciprocity plus regular composition fixes its reciprocal exponential response. Angular
+reversal at fixed nonnegative depth does not swap channels. The recent `sech`-type alternatives are
+withdrawn as clock laws because they fail multiplicative channel composition; the declared local
+Lorentzian proper-clock interpretation retains its conditional readout/representative stamps.
+Global radial-angular distance, `X_max` readout/scale, action, source, boundary, carrier emergence,
+and unconditional mass remain open. No follow-on study, GPU work, reorganization, or canonization is
+authorized.
 **R1H EFFECTIVE-REGISTRY CHECKPOINT — COMPLETE, VERIFIED, AND PAUSED:** R1E batch planning and R1F/B01 are complete. Fixed historical
 inventories and planning records remain immutable. Five active artifacts moved byte-identically:
 one R1D note and four behaviorally verified R1F macro verifiers. Resolve present locations through
@@ -75,15 +84,17 @@ Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`,
 
 1. **`LIVE.md`** CURRENT STATE
 2. **`HANDOFF.md`** CURRENT block
-3. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** current-result/open-gate/authority sections
-4. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
+3. **`reciprocal_c_clock_channel_correction_2026-07-19/AUDIT_REPORT.md`** and
+   **`STATUS_LEDGER.tsv`**
+4. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** current-result/open-gate/authority sections
+5. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
    **`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`**
-5. The exact frozen evidence named by that frontier only for the active question
-6. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
-7. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
-8. Only the task-triggered protocol under **`.claude/skills/`**
-9. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
-10. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
+6. The exact frozen evidence named by that frontier only for the active question
+7. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
+8. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
+9. Only the task-triggered protocol under **`.claude/skills/`**
+10. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
+11. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
 
 ---
 

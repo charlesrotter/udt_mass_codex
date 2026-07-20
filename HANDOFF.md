@@ -7,14 +7,36 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-19).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-19 — angular–toric closure audit complete; two ordered selector gates open; no follow-on launched; reorganization paused)
+## CURRENT (2026-07-19 — Reciprocal-c clock-channel correction complete; false scalar selector withdrawn; genuine global/dynamical joins remain open)
 
 **Read LIVE.md CURRENT STATE topmost layer first, then
-`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
+`reciprocal_c_clock_channel_correction_2026-07-19/AUDIT_REPORT.md` and its
+`STATUS_LEDGER.tsv`, then `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
 `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md` and
 `angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`.** Read the full angular audit and the
 immediately preceding null-section/native-topology reports only when the actual task needs their
 derivation or provenance.
+
+The current correction restores the complete founding premise chain:
+
+- `c^-1` is the owner-stated clock/time-per-length channel of Reciprocal-c Identity;
+- dual Reciprocity and regular additive composition already fix the named reciprocal exponential
+  channel response under the recorded sign/unit and nontriviality stamps;
+- nonnegative physical depth is unchanged by angular direction reversal, so looking the other way
+  does not swap clock/ruler channels or speed the clock;
+- ordered observer-comparison reversal remains an inverse algebraic operation and is not angular
+  reversal;
+- the recent `sech`-type symmetric clock alternatives are withdrawn as complete-foundation
+  countermodels because they fail multiplicative channel composition;
+- the stationary `exp(-rho)` proper-clock reading remains conditional on the declared local
+  Lorentzian quadratic readout, Common-Scale representative, and observer scope;
+- complete radial-angular distance, the `X_max` readout/scale, physical representative, action,
+  source, differentiable boundary, carrier emergence, unconditional mass, and time-live matter
+  remain genuinely open;
+- no follow-on solve, canonization, GPU work, or repository reorganization is authorized.
+
+Package: `reciprocal_c_clock_channel_correction_2026-07-19/`; read `AUDIT_REPORT.md`,
+`STATUS_LEDGER.tsv`, then `CORRECTION_OVERLAY.tsv`.
 
 The two latest bounded CPU-only metric audits are complete and verified:
 

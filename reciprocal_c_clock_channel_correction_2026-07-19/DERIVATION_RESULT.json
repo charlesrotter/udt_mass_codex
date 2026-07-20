@@ -1,0 +1,99 @@
+{
+  "adjudication": {
+    "base_clock_selector": "NOT_OPEN; FIXED_BY_FOUNDING_RECIPROCAL_C_CHANNEL_IDENTITY",
+    "complete_udt_closure": "OPEN",
+    "exponential_clock_channel": "DERIVED_CONDITIONAL_WITH_COMPOSITION_REGULARITY_DUAL_RECIPROCITY_AND_SIGN_UNIT",
+    "negative_physical_distance": "REJECTED",
+    "projective_radial_readout": "OPEN",
+    "symmetric_clock_selector_problem": "WITHDRAWN_AS_UNDERPREMISED"
+  },
+  "checks": {
+    "angular_reversal_changes_direction": "PASS",
+    "angular_reversal_preserves_clock_channel": "PASS",
+    "angular_reversal_preserves_rho": "PASS",
+    "angular_reversal_preserves_ruler_channel": "PASS",
+    "clock_character_composition": "PASS",
+    "clock_half_depth_witness": "PASS",
+    "clock_positive": "PASS",
+    "clock_radial_derivative": "PASS",
+    "conditional_proper_clock_neutral_anchor": "PASS",
+    "conditional_stationary_proper_clock_factor": "PASS",
+    "dual_channel_product": "PASS",
+    "neutral_ruler_channel": "PASS",
+    "neutral_temporal_channel": "PASS",
+    "ordered_comparison_composition": "PASS",
+    "ordered_comparison_inverse": "PASS",
+    "ordered_reversal_distinct_from_fixed_rho_angular_reversal": "PASS",
+    "reciprocal_c_identity": "PASS",
+    "ruler_character_composition": "PASS",
+    "ruler_double_depth_witness": "PASS",
+    "ruler_radial_derivative": "PASS",
+    "sech_2delta_log2_exact": "PASS",
+    "sech_2delta_log4_exact": "PASS",
+    "sech_2delta_not_channel_character": "PASS",
+    "sech_character_failure_witness": "PASS",
+    "sech_log2_exact": "PASS",
+    "sech_log4_exact": "PASS",
+    "sech_not_channel_character": "PASS",
+    "sech_squared_not_channel_character": "PASS",
+    "true_clock_character_witness": "PASS",
+    "true_ruler_character_witness": "PASS"
+  },
+  "corrected_frontier": {
+    "closed": [
+      "reciprocal-c clock/ruler channel identity",
+      "dual inverse relation",
+      "regular reciprocal exponential channel response",
+      "direction-invariant channel weights at fixed nonnegative depth",
+      "ordered comparison inverse and composition algebra"
+    ],
+    "conditional": [
+      "local Lorentzian quadratic metric readout and CSN representative",
+      "stationary proper-clock interpretation exp(-rho)",
+      "reciprocal spatial slot identification"
+    ],
+    "everything_solved": false,
+    "open": [
+      "global physical radial-angular distance and path",
+      "X_max origin value and operational bounded coordinate",
+      "physical representative and material scale",
+      "complete action and variation domain",
+      "native source coupling and differentiable finite-cell boundary",
+      "carrier emergence unconditional mass and time-live matter theorem"
+    ]
+  },
+  "derived_channels": {
+    "classification": "DERIVED_CONDITIONAL_WITH_EXACT_PREMISE_STAMPS",
+    "premises": "named reciprocal-c pair + dual UDT Reciprocity + regular additive composition + nontriviality + chosen sign/unit",
+    "properties": "T(0)=R(0)=1; T*R=1; T and R are multiplicative characters",
+    "ruler_weight": "R(rho)=exp(+rho)",
+    "temporal_weight": "T(rho)=exp(-rho)"
+  },
+  "direction_correction": {
+    "angular_reversal": "n_hat -> -n_hat at fixed rho leaves T and R unchanged",
+    "classification": "ANGULAR_REVERSAL_DOES_NOT_SWAP_CLOCK_AND_RULER_CHANNELS",
+    "ordered_observer_reversal": "delta -> -delta gives D(-delta)=D(delta)^-1",
+    "physical_depth": "rho>=0"
+  },
+  "founding_anchor": {
+    "classification": "FOUNDING_OWNER_CLARIFIED",
+    "clock_channel": "the time-per-length direction is owner-identified as the clock side",
+    "statement": "c and c^-1 are coequal time-to-length and length-to-time conversion directions; c^-1 is not an optional arithmetic afterthought"
+  },
+  "local_clock_readout": {
+    "classification": "CONDITIONAL_ON_THE_DECLARED_LORENTZIAN_READOUT_REPRESENTATIVE_AND_OBSERVER_SCOPE",
+    "not_open": "no additional choice among arbitrary symmetric functions is needed inside this declared branch",
+    "result": "for the declared local Lorentzian quadratic readout and a stationary fixed-spatial observer, d_tau/d_t=exp(-rho)"
+  },
+  "maximum_conclusion": "THE BASE CLOCK CHANNEL WAS ALREADY FIXED BY THE FOUNDING RECIPROCAL-C IDENTITY, AND DUAL RECIPROCITY PLUS REGULAR COMPOSITION FIXES ITS RECIPROCAL EXPONENTIAL RESPONSE UP TO THE DECLARED SIGN/UNIT; ANGULAR REVERSAL AT FIXED NONNEGATIVE DEPTH DOES NOT SWAP CHANNELS OR SPEED THE CLOCK; THE RECENT SECH-TYPE ALTERNATIVES FAIL THE COMPLETE CHANNEL COMPOSITION LAW AND ARE WITHDRAWN AS COUNTERMODELS; THE LOCAL PROPER-CLOCK READING REMAINS CONDITIONALLY TIED TO THE DECLARED LORENTZIAN REPRESENTATIVE, WHILE GLOBAL DISTANCE, XMAX, ACTION, SOURCE, BOUNDARY, CARRIER, AND UNCONDITIONAL MASS REMAIN OPEN",
+  "python": "3.10.12",
+  "schema": "udt-reciprocal-c-clock-channel-correction-1.0",
+  "symmetric_alternative_regrade": {
+    "classification": "REJECTED_AS_COMPLETE_FOUNDATION_CLOCK_CHANNEL_COUNTERMODELS",
+    "reason": "they are symmetric diagnostic functions of the reciprocal pair but fail the named channel multiplicative composition character",
+    "sech_2delta_failure": "-7200/74273",
+    "sech_delta_failure": "-72/425",
+    "sech_delta_squared_failure": "-33984/180625"
+  },
+  "sympy": "1.13.1"
+}

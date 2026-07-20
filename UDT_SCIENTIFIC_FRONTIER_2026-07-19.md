@@ -4,12 +4,35 @@ Date: 2026-07-19
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## July 19 Reciprocal-c clock-channel correction overlay
+
+Read `reciprocal_c_clock_channel_correction_2026-07-19/AUDIT_REPORT.md` and its
+`STATUS_LEDGER.tsv` before reopening any clock-channel selector.
+
+The full founding premise chain already names `c^-1` as the clock/time-per-length direction.
+Together with dual UDT Reciprocity and regular additive composition, this fixes the named reciprocal
+exponential channel response under the exact nontriviality and sign/unit stamps. Nonnegative physical
+depth remains fixed when angular direction reverses, so looking the other way does not swap the clock
+and ruler channels. Reversing an ordered observer comparison is a different inverse operation.
+
+The later `sech(delta)`, `sech(delta)^2`, and `sech(2delta)` suggestions are withdrawn as alternative
+clock-channel laws: they are symmetric diagnostics but fail multiplicative positional composition
+and discard the postulated channel identity. The stationary `exp(-rho)` proper-clock interpretation
+remains `CONDITIONAL` on the declared local Lorentzian quadratic readout, Common-Scale
+representative, and observer scope; those premises are not promoted.
+
+This removes a false selector seam but does not close the complete UDT dynamics. Global
+radial-angular distance, the operational `X_max` map and scale, physical representative, complete
+action/variation domain, source/coupling, differentiable finite-cell boundary, carrier emergence,
+unconditional mass, and a time-live matter theorem remain `OPEN`.
+
 ## Current honest result
 
 The July 18–19 scientific chain sharpens the frontier without selecting a complete UDT dynamics:
 
-- reciprocal UDT kinematics remain `DERIVED` under their exact premise stamps;
-- the static reciprocal metric conditionally links clock dilation, reciprocal ruler dilation,
+- reciprocal UDT kinematics remain `DERIVED` under their exact premise stamps, including the named
+  Reciprocal-c clock/ruler channels and their regular exponential response;
+- the static reciprocal metric conditionally links the already-named clock channel, reciprocal ruler dilation,
   redshift, and adapted optical slope;
 - metric-normalized local null speed remains the finite anchor `c_0`; zero/infinite effective-speed
   language is a coordinate/relational endpoint, not a derived varying local constant;
