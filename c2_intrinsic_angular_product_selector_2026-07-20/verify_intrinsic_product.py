@@ -240,11 +240,19 @@ def main():
                     coords = torch.tensor([raw_r, raw_theta])
                     direct = even_quadratic(lambda eps: density_point(coords, eps, ycoeff, ucoeff, curvature))
                     expected = expected_twist(coords[0], coords[1], ycoeff, ucoeff, curvature)
+                    if twist_name == "U0":
+                        center = density_point(coords, torch.tensor(0.0), ycoeff, ucoeff, curvature)
+                        positive = density_point(coords, torch.tensor(0.2), ycoeff, ucoeff, curvature)
+                        negative = density_point(coords, torch.tensor(-0.2), ycoeff, ucoeff, curvature)
+                        invariance = float(torch.maximum(torch.abs(positive - center), torch.abs(negative - center)))
+                    else:
+                        invariance = None
                     twist_records.append({
                         "profile": profile, "twist": twist_name, "K": curvature, "r": raw_r, "theta": raw_theta,
                         "direct_quadratic": float(direct), "formula_quadratic": float(expected),
                         "absolute_error": float(torch.abs(direct - expected)),
                         "scaled_error": relative_error(direct, expected),
+                        "constant_finite_amplitude_invariance": invariance,
                     })
 
     bach_nonzero = [row for row in bach_records if abs(row["formula"]) > 1e-10]
@@ -254,7 +262,8 @@ def main():
     max_bach_relative = max(row["scaled_error"] for row in bach_nonzero)
     max_bach_zero = max(row["absolute_error"] for row in bach_zero)
     max_twist_relative = max(row["scaled_error"] for row in twist_nonconstant)
-    max_constant = max(max(abs(row["direct_quadratic"]), abs(row["formula_quadratic"])) for row in twist_constant)
+    max_constant_coefficient_noise = max(abs(row["direct_quadratic"]) for row in twist_constant)
+    max_constant = max(row["constant_finite_amplitude_invariance"] for row in twist_constant)
 
     mutation_coords = torch.tensor([0.2, 0.7])
     mutation_y = torch.tensor(PROFILES[0][1])
@@ -278,7 +287,8 @@ def main():
     if not all(checks.values()):
         raise AssertionError({"checks": checks, "max_bach_relative": max_bach_relative,
                               "max_bach_zero": max_bach_zero, "max_twist_relative": max_twist_relative,
-                              "max_constant": max_constant, "angular_difference": angular_difference,
+                              "max_constant": max_constant, "max_constant_coefficient_noise": max_constant_coefficient_noise,
+                              "angular_difference": angular_difference,
                               "backreaction_difference": backreaction_difference})
 
     with (HERE / "BACH_VERIFICATION_POINTS.tsv").open("w", encoding="utf-8", newline="") as handle:
@@ -292,7 +302,9 @@ def main():
         "result": "PASS", "checks": checks,
         "counts": {"bach_records": len(bach_records), "twist_records": len(twist_records)},
         "maxima": {"bach_nonzero_scaled_error": max_bach_relative, "bach_zero_absolute_error": max_bach_zero,
-                   "twist_nonconstant_scaled_error": max_twist_relative, "constant_twist_absolute": max_constant,
+                   "twist_nonconstant_scaled_error": max_twist_relative,
+                   "constant_twist_finite_amplitude_absolute": max_constant,
+                   "constant_twist_second_difference_noise": max_constant_coefficient_noise,
                    "omitted_angular_derivative_difference": angular_difference,
                    "missing_backreaction_difference": backreaction_difference},
         "compute": {"method": "independent Torch two-coordinate forward-AD tensor and Bach construction",
