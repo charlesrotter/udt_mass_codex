@@ -1,0 +1,5 @@
+No fresh external-model review was authorized for this audit.
+
+Independent in-package verification uses a separately written four-dimensional coordinate-curvature
+implementation, independent orbit matching, base-blob/source replay, and exercised fail-closed
+mutations. The maximum grade remains VERIFIED-WITH-CAVEATS.

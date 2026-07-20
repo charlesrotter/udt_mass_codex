@@ -1,0 +1,13 @@
+layer	coverage	status	omission_effect
+4D conformal covariance	exact positive-lapse reduction of the complete declared coframe and Bach zero set	EXACT_FOR_SLICE	zeros or poles of lapse are separate singular strata
+compact product theorem	full Bach 00 consequence for the conformally related compact product	DECISIVE_FOR_COMPACT_NO_BOUNDARY_SLICE	physical boundary flux evades the integration theorem
+reciprocal-toric orbit matching	arbitrary positive H(eta), positive N(eta), constant positive s, fixed diagonal toric basis	EXACT_CONDITIONAL_FAMILY	moving basis, function-valued squashing, and off-diagonal connections remain open
+direct 4D curvature	independent Christoffel/Riemann contractions for one lapse-only and one common-factor sample	INDEPENDENT_POINT_CHECK	samples are regression anchors, not global classification alone
+candidate preservation	constant, lapse-only, common-copy, joint, singular, boundary, shift, basis, and topology branches	COMPLETE_FOR_PREREGISTERED_CENSUS	unforeseen unrestricted coframe branches remain possible
+boundary	smooth mathematical caps treated as compact S3; physical finite-cell boundary withheld	CONDITIONAL_COMPACT_ONLY	boundary/corner completion may change admissible solutions
+time and connection	static diagonal lapse only	BOUNDED	acceleration, time/fiber shift, reciprocal time/radial coupling, and propagation are untested
+bootstrap and Xmax	current owner wording audited; no local equation inserted	SOURCE_COMPLETE_FOR_CURRENT_RULE	global closure may select a representative only after a complete solution exists
+carrier and matter	S2, section, soldering, L2+L4, source, and electron calibration excluded	NOT_PART_OF_SOLVE	no matter-action or particle conclusion is permitted
+overall scale	CSN orbit and homothety tracked exactly	EXACT_SCOPED	absolute size, Xmax, total mass, density, c/G calibration remain open
+numerics	exact CPU algebra only; no relaxation or scan	NOT_RUN_BY_DESIGN	no global numerical solution-space claim
+external adversarial review	no fresh disclosure authorization	NOT_PERFORMED	maximum grade remains VERIFIED-WITH-CAVEATS

@@ -1,0 +1,59 @@
+{
+  "environment": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "records": [
+    {
+      "command": "/usr/bin/python3 c2_variable_lapse_selector_2026-07-20/build_source_census.py",
+      "exit_code": 0,
+      "id": "E01",
+      "output_artifact": "CENSUS_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "f49643bd39e3aab029eefc42e0dbd365a6e250e9b6f37a98da6762747081f798"
+    },
+    {
+      "command": "/usr/bin/python3 c2_variable_lapse_selector_2026-07-20/build_source_adjudication.py",
+      "exit_code": 0,
+      "id": "E02",
+      "output_artifact": "ADJUDICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "f84b0548fe5bc5a45bc89529a0a947142f38207117db7da55cb89b919c80582d"
+    },
+    {
+      "command": "/usr/bin/python3 c2_variable_lapse_selector_2026-07-20/derive_c2_variable_lapse.py",
+      "exit_code": 0,
+      "id": "E03",
+      "output_artifact": "DERIVATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "d0e9323da7319b3771c1cd963f5ab766131d5932050c1e4accfebc81a09d8741"
+    },
+    {
+      "command": "/usr/bin/python3 c2_variable_lapse_selector_2026-07-20/verify_c2_variable_lapse.py",
+      "exit_code": 0,
+      "id": "E04",
+      "output_artifact": "VERIFICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "6ff2024d7971c7c560eddb2813334e3a5dacb803ffeae618f769e2366acb3edf"
+    },
+    {
+      "command": "/usr/bin/python3 -m pytest tests/",
+      "exit_code": 1,
+      "id": "E05",
+      "output_artifact": "TEST_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "bd1541cb063dde0fe30be43c92c6980dfad83dcbcd3862ae261eb37f587417e3"
+    },
+    {
+      "command": "/usr/bin/python3 -I -c import sys,runpy; sys.path.insert(0,'/home/udt-admin/.local/lib/python3.10/site-packages'); import sympy; assert sympy.__version__=='1.13.1'; print('isolated_sympy='+sympy.__version__); runpy.run_path('c2_variable_lapse_selector_2026-07-20/verify_c2_variable_lapse.py',run_name='__main__')",
+      "exit_code": 0,
+      "id": "E06",
+      "output_artifact": "ISOLATED_VERIFICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "6df59f63c46472a98c5f0106681176bac63150a0f953dfac809718346ae54518"
+    }
+  ],
+  "result": "PASS",
+  "schema": "udt-conditional-c2-variable-lapse-execution-1.0",
+  "test_baseline": {
+    "failed_known_hygiene": 1,
+    "passed": 69,
+    "xfailed": 1
+  }
+}

@@ -1,0 +1,18 @@
+id	claim	status	exact_regime	remaining_open_scope
+S01	A positive static lapse can be removed by a common conformal gauge while its inverse spatial factor is retained	DERIVED_CONDITIONAL	declared static diagonal 4D coframe	lapse zeros, shifts, and time dependence
+S02	The conditional C2 Weyl density and Bach zero set are common-scale invariant	DERIVED_CONDITIONAL	4D pre-scale metric-only C2 branch	complete native action and boundary
+S03	Compact Bach flatness makes N^-2 g3 constant curvature	DERIVED_CONDITIONAL	smooth compact capped S3 without physical boundary	finite-cell wall and other topology
+S04	Fixed-basis orbit matching forces s=1,H=1,N constant modulo CSN	DERIVED_CONDITIONAL	positive reciprocal-toric family	moving basis and off-diagonal coframe
+S05	A changing clock factor alone is conformal curvature, not a zero-cost clock law	DERIVED_CONDITIONAL	fixed round spatial metric; torus-invariant positive N	general lapse/shift geometry
+S06	The exact lapse-only sample has C4^2=64/21	OBSERVED_EXACT	registered sample at eta=pi/8	illustrative point only
+S07	A nonconstant common factor of the complete round coframe remains zero-Weyl	DERIVED_CONDITIONAL	positive Omega and conditional round product	physical representative selection
+S08	A nonconstant lapse is a new physical Bach-flat branch	REFUTED_IN_SLICE	positive compact fixed-basis no-shift family	boundary/singular/shift branches remain open
+S09	Variable lapse changes the round angular selection	REFUTED_IN_SLICE	same conditional compact family	time-live and boundary completion
+S10	The result selects an absolute clock rate or radius	NOT_DERIVED	CSN-equivalent family	scale/Xmax/mass closure
+S11	The smooth caps are the physical finite-cell wall	NOT_DERIVED	current boundary premises	boundary topology/action/flux
+S12	Bootstrap or Xmax supplies an extra local lapse equation	NOT_SUPPLIED	current owner-stated principles	future global closure
+S13	Time/fiber shift and acceleration have been solved	FALSE_EXCLUDED	static diagonal ansatz	next coframe seam
+S14	Electron mass or c/G entered the dimensionless solve	FALSE_EXCLUDED	complete bounded calculation	future observational calibration only
+S15	Carrier L2/L4 or a matter source follows from the lapse result	REFUTED_CONFLATION	no carrier actor was admitted	complete native matter action
+S16	Conditional variable-lapse C2 classification	VERIFIED_WITH_CAVEATS	preregistered exact slice; independent 4D point checks; no fresh external-model review	cannot be promoted to unrestricted UDT geometry
+S17	Complete native action/source/boundary/scale/mass	OPEN	unchanged final adjudication	full closure required

@@ -1,0 +1,10 @@
+id	branch	passes	fails_or_open	ruling
+B01	constant N;H=1;s=1 compact round product	full compact Bach equation; direct curvature; smooth caps	product/toric/C2 premises and physical boundary remain conditional	SURVIVES_SAME_CSN_CLASS
+B02	nonconstant lapse N(eta) with fixed round spatial metric	regular positive clock factor	C4^2=2N^-2|Hess N_TF|^2; torus-invariant zero set forces N'=0	EXCLUDED_IN_FIXED_ROUND_NO_SHIFT_SLICE
+B03	nonconstant common factor Omega(eta) multiplying the complete round coframe	Weyl and Bach zero set; direct curvature sample	no new physical representative or scale is selected	SURVIVES_AS_CSN_EQUIVALENT_COPY
+B04	joint nonconstant N,H or nonunit s in fixed reciprocal toric basis	allowed before equations	conformal product theorem plus orbit matching forces s=1,H=1,N constant modulo B03	EXCLUDED_AS_NEW_PHYSICAL_COMPACT_BRANCH
+B05	lapse zero, pole, or sign-changing stratum	may represent chart/causal degeneration	positive regular conformal reduction fails and no admissible singular completion is supplied	OPEN_SINGULAR_STRATUM
+B06	finite physical interval with boundary-supported flux	compact integral no longer eliminates Delta R	boundary/corner action and admissible Bach data absent	OPEN_BOUNDARY_BRANCH
+B07	time/fiber shift, reciprocal time/radial connection, or genuine time dependence	allowed by the full coframe census	not covered by static diagonal conformal reduction	OPEN_SHIFT_TIME_LIVE_BRANCH
+B08	angle-dependent conformal/diffeomorphic copies or moving toric basis	may contain gauge copies or additional connection data	not classified by torus-invariant fixed-basis orbit match	OPEN_BASIS_AND_GLOBAL_BRANCH
+B09	alternative cap, quotient, or topology	compatible with current underdetermination	not covered by smooth primitive S3 caps	OPEN_GLOBAL_GEOMETRY_BRANCH

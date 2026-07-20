@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "axis_exchange_is_retained": "PASS",
+    "common_conformal_copy_of_round_branch_remains_zero_Weyl": "PASS",
+    "common_homothety_does_not_change_dimensionless_shape": "PASS",
+    "common_scale_cancels_from_Weyl_density": "PASS",
+    "compact_integral_removes_laplacian": "PASS",
+    "compact_product_Bach00_form": "PASS",
+    "constant_lapse_has_zero_Weyl_on_round_spatial_metric": "PASS",
+    "electron_mass_absent_from_dimensionless_equations": "PASS",
+    "four_dimensional_Weyl_density_weight_zero": "PASS",
+    "matched_lapse_is_constant": "PASS",
+    "nonconstant_common_factor_positive": "PASS",
+    "nonconstant_lapse_only_sample_Weyl_nonzero": "PASS",
+    "orbit_sum_match_forces_F_one": "PASS",
+    "orbit_sum_original_one": "PASS",
+    "positive_interior_orbit_cross_zero_forces_unit_squashing": "PASS",
+    "positive_lapse_defines_regular_CSN_gauge": "PASS",
+    "same_axis_orbit_ratio_identifies_depth_coordinate": "PASS",
+    "same_axis_radial_match_H_one": "PASS",
+    "torus_invariant_zero_Weyl_lapse_forces_Nprime_zero": "PASS"
+  },
+  "common_factor_copy": {
+    "metric": "Omega(eta)^2*[epsilon_t d_tau^2+b^2 g_round]",
+    "status": "SAME_CSN_CLASS; nonconstant lapse accompanied by the same complete-coframe factor"
+  },
+  "compact_full_equation": {
+    "Bhat_tau_tau": "-epsilon_t*(Delta_hat R_hat/12+|Ric_hat_TF|^2/4)",
+    "integrated_result": "N^-2*g3 must be a constant-curvature metric on smooth compact S3",
+    "ruling": "EVERY_REGULAR_COMPACT_VARIABLE_LAPSE_BACH_SOLUTION_IS_CONFORMAL_TO_A_ROUND_PRODUCT"
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "conformal_reduction": {
+    "Bach_zero_set": "conformally invariant inside the conditional C2 branch",
+    "Weyl_density": "sqrt(|g|) C^2 is unchanged in 4D",
+    "gauge": "g_hat=N^-2*g4=epsilon_t*d_tau^2+N^-2*g3",
+    "original": "g4=epsilon_t*N(eta)^2*d_tau^2+g3",
+    "ruling": "POSITIVE_LAPSE_CAN_BE_REMOVED_AS_CSN_GAUGE_WHILE ITS SPATIAL RESCALING IS RETAINED"
+  },
+  "direct_lapse_check": {
+    "formula": "C^2=2/N^2*|(Hess_round N)_TF|^2 for H=s=1",
+    "sample": "N=1+(1/3)sin^2(2 eta), eta=pi/8",
+    "sample_C2": "64/21",
+    "torus_invariant_zero_condition": "N'=0"
+  },
+  "fixed_reciprocal_orbit_gauge": {
+    "cross_component": "q^2*(s^2-1)",
+    "result": "s=1; N*r0/b=1 constant; u=eta or axis exchange; H=1",
+    "ruling": "NO_NEW_NONCONSTANT_LAPSE_BRANCH_IN_FIXED_BASIS_POSITIVE_COMPACT_FAMILY"
+  },
+  "maximum_conclusion": "CONDITIONAL_ROUND_CSN_CLASS_SURVIVES_POSITIVE_VARIABLE_LAPSE_IN_COMPACT_FIXED_BASIS_C2_FAMILY; NO_NEW_PHYSICAL_LAPSE_BRANCH; SCALE_MATERIAL_BOUNDARY_AND_TIME_SHIFT_OPEN",
+  "result": "PASS",
+  "scale_and_matter": {
+    "electron_mass": "excluded from equations; reserved future observational calibration",
+    "material_weighting": "not derived",
+    "overall_b": "unselected common calibration"
+  },
+  "schema": "udt-conditional-c2-variable-lapse-selector-1.0"
+}

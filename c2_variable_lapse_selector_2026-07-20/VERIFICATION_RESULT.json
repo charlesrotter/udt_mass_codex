@@ -1,0 +1,113 @@
+{
+  "catch_proofs": {
+    "Bach_overclaim_rejected": "PASS",
+    "CSN-copy_overclaim_rejected": "PASS",
+    "action-status_overclaim_rejected": "PASS",
+    "base_source_mutation_rejected": "PASS",
+    "bootstrap-status_overclaim_rejected": "PASS",
+    "boundary-branch_branch_misgrade_rejected": "PASS",
+    "boundary_overclaim_rejected": "PASS",
+    "carrier-status_overclaim_rejected": "PASS",
+    "carrier_import_rejected": "PASS",
+    "clock_overclaim_rejected": "PASS",
+    "copy_branch_misgrade_rejected": "PASS",
+    "derivation_CSN_copy_promotion_rejected": "PASS",
+    "derivation_lapse_cost_loss_rejected": "PASS",
+    "electron-status_overclaim_rejected": "PASS",
+    "lapse-status_overclaim_rejected": "PASS",
+    "lapse_branch_misgrade_rejected": "PASS",
+    "matter_overclaim_rejected": "PASS",
+    "maximum_conclusion_overreach_rejected": "PASS",
+    "missing_branch_rejected": "PASS",
+    "missing_census_row_rejected": "PASS",
+    "missing_completeness_layer_rejected": "PASS",
+    "missing_equation_rejected": "PASS",
+    "missing_source_adjudication_rejected": "PASS",
+    "missing_status_rejected": "PASS",
+    "sample_overclaim_rejected": "PASS",
+    "scale-status_overclaim_rejected": "PASS",
+    "scale_overclaim_rejected": "PASS",
+    "shift-status_overclaim_rejected": "PASS",
+    "shift_overclaim_rejected": "PASS",
+    "singular_branch_misgrade_rejected": "PASS",
+    "time-live_branch_misgrade_rejected": "PASS",
+    "wall-status_overclaim_rejected": "PASS",
+    "wall_overclaim_rejected": "PASS"
+  },
+  "certification": "VERIFIED-WITH-CAVEATS: independent 4D coordinate curvature and orbit matching; no fresh external-model review",
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "counts": {
+    "branches": 9,
+    "catch_proofs": 33,
+    "census": 3757,
+    "completeness": 12,
+    "equations": 17,
+    "sources": 39,
+    "status": 17
+  },
+  "derivation_sha256": "2f649a3a1be1f766e0c39609b0845377e4c68ac9e01c34286a4b60714b257f13",
+  "groups": {
+    "branches": {
+      "rows": 9,
+      "rulings_checked": 9
+    },
+    "completeness": {
+      "external_review": "NOT_PERFORMED",
+      "rows": 12
+    },
+    "derivation": {
+      "checks": 19,
+      "maximum_conclusion": "CONDITIONAL_ROUND_CSN_CLASS_SURVIVES_POSITIVE_VARIABLE_LAPSE_IN_COMPACT_FIXED_BASIS_C2_FAMILY; NO_NEW_PHYSICAL_LAPSE_BRANCH; SCALE_MATERIAL_BOUNDARY_AND_TIME_SHIFT_OPEN"
+    },
+    "equations": {
+      "rows": 17,
+      "rulings_checked": 17
+    },
+    "independent_4d_algebra": {
+      "common_factor": {
+        "C2": "0",
+        "R": "-14*exp(-1/3)/3",
+        "Ricci2": "52*exp(-2/3)/3",
+        "Riemann2": "740*exp(-2/3)/27"
+      },
+      "lapse_only": {
+        "C2": "64/21",
+        "R": "26/7",
+        "Ricci2": "524/49",
+        "Riemann2": "972/49"
+      },
+      "orbit_cross_root": "s=1",
+      "zero_Weyl_toric_lapse": "Nprime=0"
+    },
+    "source_adjudication": {
+      "base_hashes_replayed": 39,
+      "rows": 39
+    },
+    "source_census": {
+      "dispositions": {
+        "CONTEXT_CANDIDATE": 1625,
+        "EXCLUDED_DUPLICATE_RAW_RECORD": 64,
+        "EXCLUDED_GENERATED_ORGANIZATION": 226,
+        "LOAD_BEARING_CANDIDATE": 39,
+        "PROVENANCE_OR_COUNTEREXAMPLE_ONLY": 1803
+      },
+      "rows": 3757
+    },
+    "source_syntax": {
+      "CSN": "PASS",
+      "carrier": "PASS",
+      "parent_question": "PASS"
+    },
+    "status": {
+      "rows": 17,
+      "rulings_checked": 17
+    }
+  },
+  "result": "PASS",
+  "schema": "udt-conditional-c2-variable-lapse-verification-1.0",
+  "verdict": "CONDITIONAL_ROUND_CSN_CLASS_SURVIVES_POSITIVE_VARIABLE_LAPSE_IN_COMPACT_FIXED_BASIS_C2_FAMILY; NO_NEW_PHYSICAL_LAPSE_BRANCH; SCALE_MATERIAL_BOUNDARY_AND_TIME_SHIFT_OPEN"
+}

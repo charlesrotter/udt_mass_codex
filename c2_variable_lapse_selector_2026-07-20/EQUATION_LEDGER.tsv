@@ -1,0 +1,18 @@
+id	object	premises	exact_result	status	limitation
+E01	positive-lapse conformal gauge	g4=epsilon_t N(eta)^2 d tau^2+g3; N>0	g_hat=N^-2 g4=epsilon_t d tau^2+N^-2 g3	DERIVED_CONDITIONAL	Zeros or sign changes of N are excluded as singular strata
+E02	four-dimensional Weyl density	4D; complete coframe common rescaling	sqrt(|g|) C^2 is invariant under g->Omega^2 g	DERIVED_CONDITIONAL	This is the conditional pre-scale C2 branch, not a complete-action theorem
+E03	Bach zero set	4D conditional C2 equation; positive regular conformal factor	B[g]=0 iff B[Omega^-2 g]=0 up to the nonzero conformal weight	DERIVED_CONDITIONAL	Boundary completion and admissible data remain open
+E04	conformal product reduction	E01-E03	variable-lapse problem reduces to the constant-lapse product with spatial metric N^-2 g3	DERIVED_CONDITIONAL	Only the declared static no-shift family is reduced
+E05	compact product Bach consequence	smooth compact capped S3; no physical boundary	Bhat_00=0 forces Ric(N^-2 g3)_TF=0 and hence constant sectional curvature	DERIVED_CONDITIONAL	A physical finite-cell boundary may carry the discarded Laplacian flux
+E06	reciprocal orbit cross component	fixed toric reciprocal basis; positive interior orbits	q^2(s^2-1)=0 forces s=1	DERIVED_CONDITIONAL	A moving angular basis or additional connection is not covered
+E07	round-orbit matching	constant-curvature target in same toric basis	matching cos^2 eta and sin^2 eta components gives F=1 and u=eta or axis exchange	DERIVED_CONDITIONAL	Global diffeomorphic copies are quotiented, not separately selected
+E08	radial and lapse matching	E06-E07; smooth unit cap normalization	H=1 and N=b/r0=constant	DERIVED_CONDITIONAL	The constant value is common calibration and does not select physical scale
+E09	fixed-round lapse Weyl norm	H=1;s=1; torus-invariant N(eta)>0	C4^2=2 N^-2 |(Hess_round N)_TF|^2	DERIVED_CONDITIONAL	Does not include shift, time dependence, or angle-dependent lapse
+E10	torus-invariant zero-Weyl lapse	E09; smooth connected interior	angular Hessian eigenvalue difference=-N'/(sin eta cos eta), so C4=0 forces N'=0	DERIVED_CONDITIONAL	Endpoint singular strata are not regular solutions
+E11	nonconstant lapse-only sample	N=1+(1/3)sin^2(2eta);H=s=1;eta=pi/8	R=26/7; Ricci^2=524/49; Riemann^2=972/49; C4^2=64/21	OBSERVED_EXACT_COUNTEREXAMPLE	One sample illustrates rather than proves the general E10 result
+E12	common full-coframe conformal copy	g4=Omega(eta)^2[epsilon_t d tau^2+b^2 g_round]; Omega>0	C4^2=0; nonconstant lapse survives only with the same spatial factor in the same CSN class	DERIVED_CONDITIONAL	Does not make Omega a physical field or select a representative
+E13	common-copy direct sample	Omega=exp[(1/3)sin^2(2eta)];eta=pi/8	R=-14 exp(-1/3)/3; Ricci^2=52 exp(-2/3)/3; Riemann^2=740 exp(-2/3)/27; C4^2=0	OBSERVED_EXACT	Independent curvature check at one regular interior point
+E14	overall scale	common homothety b->lambda b	dimensionless zero set is unchanged and b remains absent	DERIVED_SCOPED	Xmax, total mass, density, c, G, and electron mass do not acquire values
+E15	finite-cell boundary	current supplied premises	no differentiable C2 boundary/corner action or Bach flux rule is supplied	OPEN_NOT_AN_EQUATION	Compact integration cannot be promoted to the physical wall
+E16	time/fiber shift or time-live connection	current bounded ansatz	no equation tested	OPEN	This is the next dimensionless coframe seam
+E17	material action and electron calibration	carrier, section, soldering, and m_e excluded	no L2/L4 material weighting or mass equation derived	NOT_SUPPLIED	Observational calibration is downstream of a selected matter branch
