@@ -1,0 +1,16 @@
+id	claim	status	exact_regime	remaining_open_scope
+S01	Product C4^2 equals twice spatial trace-free Ricci norm	DERIVED_CONDITIONAL	static constant-lapse product representative	general time-live coframe
+S02	C2 density is an exact positive sum of angular depth/squashing squares	DERIVED_CONDITIONAL	positive reciprocal-toric product family	conditional action and toric premises
+S03	Round H=1;s=1 zero-Weyl branch	DERIVED_CONDITIONAL	unit smooth caps in the stated family	physical boundary and UDT realization
+S04	Frozen-H nonround stationary point s=1/sqrt(5)	OBSERVED_EXACT_FALSE_CANDIDATE	partial reduced variation only	fails H equation and Bach00
+S05	Constant-H partial root s=1/sqrt(3)	OBSERVED_EXACT_FALSE_CANDIDATE	depth equation only	fails squashing equation and Bach00
+S06	Round shape selected by complete compact-product Bach equation	DERIVED_CONDITIONAL	compact smooth S3; static product; conditional C2; positive spatial metric	nonproduct/time-live/boundary/topology branches
+S07	CSN selects overall size b	REFUTED_IN_SLICE	integrated C2 common homothety	physical scale remains open
+S08	Same C2 invariant yields a quadratic two-derivative H-shape term	DERIVED_CONDITIONAL	linearized round reciprocal-toric metric mode	full tensor spectrum and physical interpretation
+S09	Derived H-shape term is the historical carrier L2	REFUTED_CONFLATION	no carrier/section/soldering exists	matter actor/action remains open
+S10	A nonzero relative L2/L4 material weighting is selected	NOT_DERIVED	complete bounded solve	physical scale and material bridge remain open
+S11	Compact smooth cap equals the physical finite-cell wall	NOT_DERIVED	current boundary canon	boundary topology/action/flux remain open
+S12	Bootstrap or Xmax supplies the missing dimensionless equation	NOT_SUPPLIED	current owner-stated rules	future global closure may do so
+S13	Electron mass used in dimensionless solve	FALSE_EXCLUDED	no observational calibration entered	may be applied later after a branch exists
+S14	Conditional product C2 angular selection result	VERIFIED_WITH_CAVEATS	preregistered exact slice; in-package independent verification; no fresh external-model review	cannot be promoted to complete UDT geometry
+S15	Complete native action/source/carrier/scale/mass	OPEN	unchanged final adjudication	full closure required

@@ -1,0 +1,5 @@
+No fresh external-model review was authorized for this audit.
+
+Independent in-package verification uses a separately written direct coordinate-Christoffel/Ricci
+implementation, a separate sectional-curvature perturbation calculation, base-blob/source replay,
+and exercised fail-closed mutations. The maximum grade remains VERIFIED-WITH-CAVEATS.

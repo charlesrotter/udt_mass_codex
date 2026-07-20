@@ -1,0 +1,59 @@
+{
+  "environment": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "records": [
+    {
+      "command": "/usr/bin/python3 c2_angular_reduction_selector_2026-07-20/build_source_census.py",
+      "exit_code": 0,
+      "id": "E01",
+      "output_artifact": "CENSUS_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "2644e9b19b4295f4053c786ab89d7ac39b3f2d633934017e159243ae5e2da118"
+    },
+    {
+      "command": "/usr/bin/python3 c2_angular_reduction_selector_2026-07-20/build_source_adjudication.py",
+      "exit_code": 0,
+      "id": "E02",
+      "output_artifact": "ADJUDICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "7cfbf377f2b5cb839ca38ce454cb94ad3ce4829a10c90ec0baa241e7e9bd2eb7"
+    },
+    {
+      "command": "/usr/bin/python3 c2_angular_reduction_selector_2026-07-20/derive_c2_angular_reduction.py",
+      "exit_code": 0,
+      "id": "E03",
+      "output_artifact": "DERIVATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "ca631c0edd0f49883cfa220fdf5e2befc5388bee6170c6cf74108cfee74fb92b"
+    },
+    {
+      "command": "/usr/bin/python3 c2_angular_reduction_selector_2026-07-20/verify_c2_angular_reduction.py",
+      "exit_code": 0,
+      "id": "E04",
+      "output_artifact": "VERIFICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "775b6f8b8406899e5759c6c086e27ac2f849a465fee0cc9ca4d22478309d317d"
+    },
+    {
+      "command": "/usr/bin/python3 -m pytest tests/",
+      "exit_code": 1,
+      "id": "E05",
+      "output_artifact": "TEST_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "bfcc021dd20513cc45f1e6486652327003db19c19e655713b9478def26b4996a"
+    },
+    {
+      "command": "/usr/bin/python3 -I -c import sys,runpy; sys.path.insert(0,'/home/udt-admin/.local/lib/python3.10/site-packages'); import sympy; assert sympy.__version__=='1.13.1'; print('isolated_sympy='+sympy.__version__); runpy.run_path('c2_angular_reduction_selector_2026-07-20/verify_c2_angular_reduction.py',run_name='__main__')",
+      "exit_code": 0,
+      "id": "E06",
+      "output_artifact": "ISOLATED_VERIFICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "844fadbe32689698a2dafd86c5829fee14bcee378ad063fd102f5b208703d008"
+    }
+  ],
+  "result": "PASS",
+  "schema": "udt-conditional-c2-angular-reduction-execution-1.0",
+  "test_baseline": {
+    "failed_known_hygiene": 1,
+    "passed": 69,
+    "xfailed": 1
+  }
+}

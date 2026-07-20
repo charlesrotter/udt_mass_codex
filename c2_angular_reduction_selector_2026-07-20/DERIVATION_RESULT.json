@@ -1,0 +1,79 @@
+{
+  "checks": {
+    "base_scalar_round_value": "PASS",
+    "compact_Bach_integral_forces_tf_zero": "PASS",
+    "connection_curvature_norm": "PASS",
+    "constant_H_action": "PASS",
+    "constant_H_stationarity_factor": "PASS",
+    "depth_Euler_Lagrange_derived_before_freezing_H": "PASS",
+    "dimensionless_equations_do_not_select_overall_b": "PASS",
+    "four_dimensional_CSN_integrated_scale_cancels": "PASS",
+    "homogeneous_tf_norm": "PASS",
+    "nonround_reduced_root_fails_full_Bach00": "PASS",
+    "nonround_reduced_second_variation_negative": "PASS",
+    "positive_constant_H_depth_equation_roots": "PASS",
+    "positive_reduced_stationary_branches": "PASS",
+    "positive_squashing_zero_branch_is_round": "PASS",
+    "product_Weyl_squared": "PASS",
+    "round_branch_passes_Bach00": "PASS",
+    "round_depth_quadratic_density": "PASS",
+    "round_reduced_second_variation_positive": "PASS",
+    "round_zero_branch_all_Hp_terms_positive": "PASS",
+    "signature_independence_static_product": "PASS",
+    "simultaneous_constant_H_and_squashing_reduced_root_is_round": "PASS",
+    "smooth_nonround_mode_action_quadratic_coefficient": "PASS",
+    "smooth_nonround_mode_integral": "PASS",
+    "tracefree_Ricci_sum_of_squares": "PASS",
+    "zero_branch_requires_depth_derivative_zero": "PASS"
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "full_Bach_gate": {
+    "B00": "-epsilon_t*(Delta_3 R3/12+|Ric3_TF|^2/4)",
+    "compact_integral": "integral Delta_3 R3=0 on smooth capped S3, hence Bach00=0 forces Ric3_TF=0",
+    "nonround_reduced_root_B00_euclidean": "-128/75",
+    "ruling": "ONLY_ROUND_BRANCH_SURVIVES_FULL_BACH_IN_COMPACT_PRODUCT_FAMILY"
+  },
+  "general_dimensionless_density": {
+    "C4_squared": "4/(3 H^4)*[(k w+4(1-s^2))^2+3 s^2 w^2]",
+    "definitions": "w=H'/H; k=(sin eta cos eta)'/(sin eta cos eta); s=a/b",
+    "ruling": "ROUND_ZERO_WEYL_BRANCH_UNIQUE_WITHIN_POSITIVE_RECIPROCAL_TORIC_PRODUCT_FAMILY",
+    "zero_branch": "H'=0 and s=1; smooth unit cap normalization then H=1"
+  },
+  "maximum_conclusion": "CONDITIONAL_ROUND_ANGULAR_SHAPE_SELECTION_IN_COMPACT_STATIC_PRODUCT_C2_SLICE; CONDITIONAL_TWO_DERIVATIVE_METRIC_SHAPE_TERM; MATERIAL_WEIGHTING_AND_FULL_BRIDGE_OPEN",
+  "product_identity": {
+    "C4_squared": "2*(Ric3_ij Ric3^ij-R3^2/3)=2*|Ric3_TF|^2",
+    "metric": "epsilon_t*d_tau^2+g3",
+    "ruling": "EXACT_FOR_STATIC_PRODUCT_SLICE; NOT_A_FULL_TIME_LIVE_IDENTITY"
+  },
+  "quadratic_expansion": {
+    "density_coefficient": "(4/3)*(sin eta cos eta)*(k^2+3)*(h')^2 before angular integration",
+    "mode": "H=1+epsilon*h(eta), s=1",
+    "ruling": "TWO_DERIVATIVE_METRIC_SHAPE_TERM_DERIVED_CONDITIONALLY; NO_CARRIER_K2_OR_NONZERO_L2_L4_BALANCE_DERIVED",
+    "test_mode": "h=sin^2(2 eta)",
+    "test_mode_action_coefficient": "256*pi^2/5 per unit dimensionless proper time"
+  },
+  "reduced_stationarity": {
+    "H_variation_on_constant_H_positive_roots": [
+      "1/sqrt(3)",
+      "1"
+    ],
+    "constant_H_action": "(128 pi^2/3)*theta*s*(1-s^2)^2",
+    "ruling": "FROZEN_DEPTH_VARIATION_CREATES_A_NONROUND_FALSE_CANDIDATE; COMPLETE_REDUCED_VARIATION_AND_FULL_EQUATIONS_RETAIN_ROUND_ONLY",
+    "s_variation_with_H_frozen_positive_roots": [
+      "1/sqrt(5)",
+      "1"
+    ],
+    "simultaneous_constant_branch": "s=1 only"
+  },
+  "result": "PASS",
+  "scale": {
+    "overall_b": "CSN calibration; cancels from integrated C2 when proper-time interval scales with b",
+    "physical_scale": "not selected",
+    "squashing": "dimensionless and conditionally selected to one by full compact-product Bach equation"
+  },
+  "schema": "udt-conditional-c2-angular-reduction-1.0"
+}

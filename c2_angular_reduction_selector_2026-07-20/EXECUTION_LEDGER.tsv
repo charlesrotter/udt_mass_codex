@@ -1,0 +1,8 @@
+id	command	compute	exit_code	output_artifact	output_sha256
+E01	/usr/bin/python3 c2_angular_reduction_selector_2026-07-20/build_source_census.py	CPU_ONLY	0	CENSUS_TRANSCRIPT.txt	2644e9b19b4295f4053c786ab89d7ac39b3f2d633934017e159243ae5e2da118
+E02	/usr/bin/python3 c2_angular_reduction_selector_2026-07-20/build_source_adjudication.py	CPU_ONLY	0	ADJUDICATION_TRANSCRIPT.txt	7cfbf377f2b5cb839ca38ce454cb94ad3ce4829a10c90ec0baa241e7e9bd2eb7
+E03	/usr/bin/python3 c2_angular_reduction_selector_2026-07-20/derive_c2_angular_reduction.py	CPU_ONLY	0	DERIVATION_TRANSCRIPT.txt	ca631c0edd0f49883cfa220fdf5e2befc5388bee6170c6cf74108cfee74fb92b
+E04	/usr/bin/python3 c2_angular_reduction_selector_2026-07-20/verify_c2_angular_reduction.py	CPU_ONLY	0	VERIFICATION_TRANSCRIPT.txt	775b6f8b8406899e5759c6c086e27ac2f849a465fee0cc9ca4d22478309d317d
+E05	/usr/bin/python3 -m pytest tests/	CPU_ONLY	1_EXPECTED_BASELINE	TEST_TRANSCRIPT.txt	bfcc021dd20513cc45f1e6486652327003db19c19e655713b9478def26b4996a
+E06	/usr/bin/python3 -I -c import sys,runpy; sys.path.insert(0,'/home/udt-admin/.local/lib/python3.10/site-packages'); import sympy; assert sympy.__version__=='1.13.1'; print('isolated_sympy='+sympy.__version__); runpy.run_path('c2_angular_reduction_selector_2026-07-20/verify_c2_angular_reduction.py',run_name='__main__')	CPU_ONLY	0	ISOLATED_VERIFICATION_TRANSCRIPT.txt	844fadbe32689698a2dafd86c5829fee14bcee378ad063fd102f5b208703d008
+E07	fresh external-model review	EXTERNAL_REVIEW_NOT_PERFORMED	AUTHORIZATION_NOT_GIVEN	EXTERNAL_REVIEW_STATUS.txt	88a4bdc11441df5b28bbc7e6a6a013db2cd292d2bcb4e74883afe0a4971f8dd7

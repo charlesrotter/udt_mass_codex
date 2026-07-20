@@ -1,0 +1,113 @@
+{
+  "catch_proofs": {
+    "base_source_mutation_rejected": "PASS",
+    "bootstrap_overclaim_rejected": "PASS",
+    "boundary_overclaim_rejected": "PASS",
+    "carrier_import_rejected": "PASS",
+    "compact-boundary_overclaim_rejected": "PASS",
+    "derivation_metric_carrier_conflation_rejected": "PASS",
+    "derivation_partial_root_promotion_rejected": "PASS",
+    "false-root_overclaim_rejected": "PASS",
+    "frozen-H_overclaim_rejected": "PASS",
+    "material_overclaim_rejected": "PASS",
+    "maximum_conclusion_overreach_rejected": "PASS",
+    "metric-carrier_overclaim_rejected": "PASS",
+    "missing_branch_rejected": "PASS",
+    "missing_census_row_rejected": "PASS",
+    "missing_equation_rejected": "PASS",
+    "missing_source_adjudication_rejected": "PASS",
+    "missing_status_rejected": "PASS",
+    "partial_false_branch_acceptance_rejected": "PASS",
+    "physical_boundary_silent_exclusion_rejected": "PASS",
+    "product_overclaim_rejected": "PASS",
+    "roundness_overclaim_rejected": "PASS",
+    "status-action_overclaim_rejected": "PASS",
+    "status-bootstrap_overclaim_rejected": "PASS",
+    "status-carrier_overclaim_rejected": "PASS",
+    "status-electron_overclaim_rejected": "PASS",
+    "status-round_overclaim_rejected": "PASS",
+    "status-scale_overclaim_rejected": "PASS",
+    "status-wall_overclaim_rejected": "PASS",
+    "status-weight_overclaim_rejected": "PASS",
+    "time_live_completion_invention_rejected": "PASS"
+  },
+  "certification": "VERIFIED-WITH-CAVEATS: independent coordinate Ricci and sectional-curvature implementation; no fresh external-model review",
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "counts": {
+    "branches": 8,
+    "catch_proofs": 30,
+    "census": 3667,
+    "completeness": 11,
+    "equations": 16,
+    "sources": 35,
+    "status": 15
+  },
+  "derivation_sha256": "069b91e1cccc9c19d0d799bad1ec52c862f4361ac58ae77210e4947d06b92259",
+  "groups": {
+    "branches": {
+      "rows": 8,
+      "rulings_checked": 8
+    },
+    "completeness": {
+      "external_review": "NOT_PERFORMED",
+      "rows": 11
+    },
+    "derivation": {
+      "checks": 25,
+      "maximum_conclusion": "CONDITIONAL_ROUND_ANGULAR_SHAPE_SELECTION_IN_COMPACT_STATIC_PRODUCT_C2_SLICE; CONDITIONAL_TWO_DERIVATIVE_METRIC_SHAPE_TERM; MATERIAL_WEIGHTING_AND_FULL_BRIDGE_OPEN"
+    },
+    "equations": {
+      "rows": 16,
+      "rulings_checked": 16
+    },
+    "independent_algebra": {
+      "direct_false_Bach00": "-128/75",
+      "direct_false_root": {
+        "C4_squared": "1024/75",
+        "R": "38/5",
+        "Ricci2": "652/25",
+        "TF2": "512/75"
+      },
+      "direct_nonround_sample": {
+        "C4_squared": "2987008/352947",
+        "R": "2368/343",
+        "Ricci2": "2366976/117649",
+        "TF2": "1493504/352947"
+      },
+      "direct_round_C4_squared": "0",
+      "sectional_mode_coefficient": "256*pi**2/5"
+    },
+    "source_adjudication": {
+      "base_hashes_replayed": 35,
+      "rows": 35
+    },
+    "source_census": {
+      "dispositions": {
+        "CONTEXT_CANDIDATE": 1567,
+        "EXCLUDED_DUPLICATE_RAW_RECORD": 61,
+        "EXCLUDED_GENERATED_ORGANIZATION": 218,
+        "LOAD_BEARING_CANDIDATE": 35,
+        "PROVENANCE_OR_COUNTEREXAMPLE_ONLY": 1786
+      },
+      "rows": 3667
+    },
+    "source_syntax": {
+      "CSN": "PASS",
+      "Cartan": "PASS",
+      "bootstrap": "PASS",
+      "carrier": "PASS",
+      "frozen_action": "PASS"
+    },
+    "status": {
+      "rows": 15,
+      "rulings_checked": 15
+    }
+  },
+  "result": "PASS",
+  "schema": "udt-conditional-c2-angular-reduction-verification-1.0",
+  "verdict": "CONDITIONAL_ROUND_ANGULAR_SHAPE_SELECTION_IN_COMPACT_STATIC_PRODUCT_C2_SLICE; CONDITIONAL_TWO_DERIVATIVE_METRIC_SHAPE_TERM; MATERIAL_WEIGHTING_AND_FULL_BRIDGE_OPEN"
+}

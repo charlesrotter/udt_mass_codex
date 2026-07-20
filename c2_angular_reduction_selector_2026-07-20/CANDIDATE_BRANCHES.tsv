@@ -1,0 +1,9 @@
+id	branch	passes	fails_or_open	ruling
+B01	H=1;s=1 compact product round S3	all reduced equations; full Bach; smooth caps; CSN shape quotient	product/toric realization and physical finite-cell identification remain conditional	SURVIVES_CONDITIONALLY
+B02	H=1;s=1/sqrt(5)	partial s variation with H frozen	H variation and full Bach B00	FALSE_REDUCED_CANDIDATE_REJECTED
+B03	H=1;s=1/sqrt(3)	constant-branch H variation	global s variation and full Bach B00	FALSE_PARTIAL_CANDIDATE_REJECTED
+B04	nonconstant smooth H;s>0 compact caps	may solve an incomplete reduced subset	full compact-product Bach integral forces Ric3_TF=0, hence H'=0 and s=1	EXCLUDED_IN_FULL_COMPACT_PRODUCT_BACH_SLICE
+B05	nonround H or s on a finite physical interval	Bach00 may balance a boundary Laplacian flux	finite-cell differentiable C2 boundary/corner action and admissible data absent	OPEN_BOUNDARY_BRANCH
+B06	nonproduct lapse/shift/time-fiber coupling	allowed by current open coframe census	not covered by product identity or compact theorem	OPEN_TIME_LIVE_BRANCH
+B07	non-toric or alternative cap/topology completion	allowed unless the conditional toric premises are derived	not covered by this ansatz	OPEN_GLOBAL_GEOMETRY_BRANCH
+B08	round background metric-shape fluctuation	quadratic h' term descends from same C2 invariant	no carrier actor, soldering, physical scale, or nonlinear material action	CONDITIONAL_GEOMETRIC_BRIDGE_ONLY

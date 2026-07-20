@@ -1,0 +1,17 @@
+id	object	premises	exact_result	status	limitation
+E01	4D product Weyl norm	g4=epsilon_t d tau^2+g3; static constant lapse; 3D spatial curvature only	C4^2=2(Ric3_ij Ric3^ij-R3^2/3)=2|Ric3_TF|^2	DERIVED_CONDITIONAL	Not valid for a general time-live lapse/shift/coupled reciprocal block without recomputation
+E02	general reciprocal-toric density	conditional capped Hopf geometry; H>0; s=a/b>0	C4^2=4/(3H^4)[(kH'/H+4(1-s^2))^2+3s^2(H'/H)^2]	DERIVED_CONDITIONAL	Toric realization, caps, product form, and C2 action remain conditional
+E03	zero-Weyl branch	positive H,s and the E02 family	H'=0 and s=1; smooth unit cap slopes then H=1	DERIVED_CONDITIONAL	A zero-action/minimum postulate was not used
+E04	frozen-depth squashing variation	H=1 imposed before varying s	partial reduced roots s=1/sqrt(5),1	DERIVED_DIAGNOSTIC	The nonround root is a false candidate created by freezing H
+E05	depth variation on constant-H branch	H varied before H'=0; then constant branch evaluated	partial roots s=1/sqrt(3),1	DERIVED_DIAGNOSTIC	Must be intersected with all other reduced and full equations
+E06	simultaneous constant reduced branch	E04 and E05 both required	s=1 only	DERIVED_CONDITIONAL	Does not classify all nonconstant reduced extrema by itself
+E07	full product Bach 00 equation	unrestricted 4D C2 equation evaluated on product slice	B00=-epsilon_t(Delta_3 R3/12+|Ric3_TF|^2/4)	DERIVED_CONDITIONAL	Boundary flux matters on a physical interval
+E08	compact capped Bach theorem	smooth compact S3; no physical boundary; positive spatial metric	integrated B00=0 forces Ric3_TF=0, hence constant sectional curvature	DERIVED_CONDITIONAL	Fails as an integration theorem when an uncompleted finite-cell boundary contributes flux
+E09	nonround frozen-depth root full-equation test	H=1; s=1/sqrt(5)	B00=-128/75 in Euclidean convention	REFUTED_AS_FULL_SOLUTION	A partial reduced stationary point is not a Bach solution
+E10	round branch full-equation test	H=1;s=1	C4=0 and every Bach component vanishes	DERIVED_CONDITIONAL_SOLUTION	Does not prove UDT supplies the product/toric premises
+E11	round depth-mode quadratic density	H=1+epsilon h(eta);s=1	coefficient (4/3)q(k^2+3)(h')^2 before angle integration	DERIVED_CONDITIONAL_METRIC_TERM	This is a metric-shape term, not a carrier sigma-model K2
+E12	smooth test-mode coefficient	h=sin^2(2eta); unit dimensionless proper time	quadratic integrated coefficient 256 pi^2/5	DERIVED_DIAGNOSTIC	One mode is not a complete fluctuation spectrum
+E13	overall common scale	proper-time interval scales with b under CSN	b*b^3*b^-4=1; dimensionless equations contain no b	DERIVED_SCOPED	Physical scale remains unselected
+E14	finite-cell coefficient/eigenvalue	current static phi seal only	no differentiable C2 boundary action or Bach flux rule supplied	OPEN_NOT_AN_EQUATION	Compact cap result cannot silently be applied to the physical wall
+E15	bootstrap/Xmax	current on-shell bootstrap and conditional Xmax reciprocity	no local dimensionless shape equation added	NOT_SUPPLIED	A future global eigenproblem may select among full solutions
+E16	material two/four weighting	no carrier, section, soldering, or historical action	no nonzero L2+L4 balance obtained	OPEN	The derived metric-shape quadratic term is not matter-action closure
