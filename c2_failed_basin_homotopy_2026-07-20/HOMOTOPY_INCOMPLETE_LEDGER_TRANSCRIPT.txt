@@ -1,0 +1,103 @@
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_N_-1_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_N_-1_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_N_+1_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_N_+1_0.20"}
+{"accepted_steps": 49, "endpoint_classification": null, "event": "END", "final_lambda": 0.3753281515123798, "path_id": "P4_SEAL_EVEN_SINGLE_N_-1_0.20", "seconds": 182.10874562594108, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 49, "endpoint_classification": null, "event": "END", "final_lambda": 0.3753287176952555, "path_id": "P4_SEAL_ODD_W_SINGLE_N_-1_0.20", "seconds": 181.75368534005247, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 47, "endpoint_classification": null, "event": "END", "final_lambda": 1.4414846992571761, "path_id": "P4_SEAL_EVEN_SINGLE_N_+1_0.20", "seconds": 181.76991667109542, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 46, "endpoint_classification": null, "event": "END", "final_lambda": 1.416986811888585, "path_id": "P4_SEAL_ODD_W_SINGLE_N_+1_0.20", "seconds": 180.1489258480724, "status": "PATH_TIME_LIMIT"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "SINGLE_H_-1_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_H_-1_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_H_-1_0.20"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "SINGLE_S_-1_0.20"}
+{"accepted_steps": 21, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.028729675488671037, "path_id": "P4_GENERAL_SINGLE_H_-1_0.20", "seconds": 90.60544620407745, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 21, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.028729694588376497, "path_id": "P4_SEAL_EVEN_SINGLE_H_-1_0.20", "seconds": 84.04402849590406, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 21, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.028729654585205686, "path_id": "P4_SEAL_ODD_W_SINGLE_H_-1_0.20", "seconds": 84.37084319908172, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 31, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.053062265208623484, "path_id": "P2_GENERAL_SINGLE_S_-1_0.20", "seconds": 105.91275156987831, "status": "ENDPOINT_REACHED"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "SINGLE_S_-1_0.20"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "SINGLE_S_-1_0.20"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "SINGLE_S_-1_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_S_-1_0.20"}
+{"accepted_steps": 31, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.05306226324557763, "path_id": "P2_SEAL_EVEN_SINGLE_S_-1_0.20", "seconds": 100.10715464595705, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 31, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.05306226324557763, "path_id": "P2_SEAL_ODD_W_SINGLE_S_-1_0.20", "seconds": 99.51026497408748, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 38, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.04356567121812792, "path_id": "P4_GENERAL_SINGLE_S_-1_0.20", "seconds": 146.97455752501264, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 38, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.043565794415992155, "path_id": "P4_SEAL_EVEN_SINGLE_S_-1_0.20", "seconds": 135.8870799979195, "status": "ENDPOINT_REACHED"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_S_-1_0.20"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "SINGLE_S_+1_0.20"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "SINGLE_S_+1_0.20"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "SINGLE_S_+1_0.20"}
+{"accepted_steps": 38, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.04356567825412329, "path_id": "P4_SEAL_ODD_W_SINGLE_S_-1_0.20", "seconds": 135.27067548106425, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 21, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.024191203987138647, "path_id": "P2_GENERAL_SINGLE_S_+1_0.20", "seconds": 80.84493110398762, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 21, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.024191214093396817, "path_id": "P2_SEAL_EVEN_SINGLE_S_+1_0.20", "seconds": 77.93580494611524, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 21, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.024191214093396817, "path_id": "P2_SEAL_ODD_W_SINGLE_S_+1_0.20", "seconds": 77.44508028798737, "status": "ENDPOINT_REACHED"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "SINGLE_S_+1_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_S_+1_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_S_+1_0.20"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "SINGLE_W_-1_0.20"}
+{"accepted_steps": 22, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.024183928046261606, "path_id": "P4_GENERAL_SINGLE_S_+1_0.20", "seconds": 98.71463604504243, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 22, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.024183867239241943, "path_id": "P4_SEAL_EVEN_SINGLE_S_+1_0.20", "seconds": 90.84132855082862, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 22, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.02418403475836879, "path_id": "P4_SEAL_ODD_W_SINGLE_S_+1_0.20", "seconds": 90.49299538205378, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 23, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.008836415037902435, "path_id": "P2_SEAL_EVEN_SINGLE_W_-1_0.20", "seconds": 97.05292113986798, "status": "ENDPOINT_REACHED"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_W_-1_0.20"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "SINGLE_W_+1_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_W_+1_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_00_0.05"}
+{"accepted_steps": 28, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.014032412558208229, "path_id": "P4_SEAL_EVEN_SINGLE_W_-1_0.20", "seconds": 124.36254391819239, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 23, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.008836415037902435, "path_id": "P2_SEAL_EVEN_SINGLE_W_+1_0.20", "seconds": 97.24357026000507, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 28, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.014032412558208229, "path_id": "P4_SEAL_EVEN_SINGLE_W_+1_0.20", "seconds": 124.02769252890721, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 31, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.013972750723870797, "path_id": "P4_SEAL_EVEN_MIXED_00_0.05", "seconds": 125.48216718900949, "status": "ENDPOINT_REACHED"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "MIXED_00_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_00_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_00_0.20"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_01_0.20"}
+{"accepted_steps": 21, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.024567766879089337, "path_id": "P2_GENERAL_MIXED_00_0.20", "seconds": 85.78190688719042, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 46, "endpoint_classification": null, "event": "END", "final_lambda": 0.39362069956528073, "path_id": "P4_SEAL_EVEN_MIXED_00_0.20", "seconds": 181.32274180580862, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 48, "endpoint_classification": null, "event": "END", "final_lambda": 1.1367088495697426, "path_id": "P4_SEAL_ODD_W_MIXED_00_0.20", "seconds": 181.7123506050557, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 41, "endpoint_classification": null, "event": "END", "final_lambda": 0.4327491658439987, "path_id": "P4_GENERAL_MIXED_01_0.20", "seconds": 180.5164879008662, "status": "PATH_TIME_LIMIT"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_01_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_01_0.20"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_02_0.05"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "MIXED_02_0.20"}
+{"accepted_steps": 45, "endpoint_classification": null, "event": "END", "final_lambda": 0.21272288388162133, "path_id": "P4_SEAL_EVEN_MIXED_01_0.20", "seconds": 180.89424665505067, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 46, "endpoint_classification": null, "event": "END", "final_lambda": 0.3446086238751876, "path_id": "P4_SEAL_ODD_W_MIXED_01_0.20", "seconds": 184.18859632802196, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 21, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.04773188062188532, "path_id": "P4_GENERAL_MIXED_02_0.05", "seconds": 90.77095927810296, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 21, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.006516368583286527, "path_id": "P2_GENERAL_MIXED_02_0.20", "seconds": 86.60322123509832, "status": "ENDPOINT_REACHED"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_02_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_03_0.05"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_03_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_03_0.20"}
+{"accepted_steps": 41, "endpoint_classification": null, "event": "END", "final_lambda": 0.5181552344931944, "path_id": "P4_GENERAL_MIXED_02_0.20", "seconds": 180.53644378180616, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 21, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.04786756535111322, "path_id": "P4_SEAL_EVEN_MIXED_03_0.05", "seconds": 73.55440931208432, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 21, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.013223376707437015, "path_id": "P4_GENERAL_MIXED_03_0.20", "seconds": 101.68244424904697, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 44, "endpoint_classification": null, "event": "END", "final_lambda": 0.2380714141983314, "path_id": "P4_SEAL_ODD_W_MIXED_03_0.20", "seconds": 180.57541953912005, "status": "PATH_TIME_LIMIT"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_04_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_04_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_04_0.20"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "MIXED_05_0.20"}
+{"accepted_steps": 42, "endpoint_classification": null, "event": "END", "final_lambda": 0.31329460286206723, "path_id": "P4_GENERAL_MIXED_04_0.20", "seconds": 185.08319795085117, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 44, "endpoint_classification": null, "event": "END", "final_lambda": 0.2882145566073972, "path_id": "P4_SEAL_EVEN_MIXED_04_0.20", "seconds": 183.2867919090204, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 49, "endpoint_classification": null, "event": "END", "final_lambda": 0.42667796378843814, "path_id": "P4_SEAL_ODD_W_MIXED_04_0.20", "seconds": 181.7121171040926, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 37, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.015019080552595836, "path_id": "P2_SEAL_EVEN_MIXED_05_0.20", "seconds": 145.69889861298725, "status": "ENDPOINT_REACHED"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "MIXED_05_0.20"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_05_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_05_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_05_0.20"}
+{"accepted_steps": 28, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.0037184854657854164, "path_id": "P2_SEAL_ODD_W_MIXED_05_0.20", "seconds": 113.8419270250015, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 42, "endpoint_classification": null, "event": "END", "final_lambda": 0.3132938873876588, "path_id": "P4_GENERAL_MIXED_05_0.20", "seconds": 183.24464313010685, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 44, "endpoint_classification": null, "event": "END", "final_lambda": 0.25382372933512154, "path_id": "P4_SEAL_EVEN_MIXED_05_0.20", "seconds": 182.1742939602118, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 44, "endpoint_classification": null, "event": "END", "final_lambda": 0.3532586728955956, "path_id": "P4_SEAL_ODD_W_MIXED_05_0.20", "seconds": 180.00062709581107, "status": "PATH_TIME_LIMIT"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "MIXED_06_0.20"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_06_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_06_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_06_0.20"}
+{"accepted_steps": 27, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.014222878001968982, "path_id": "P2_SEAL_EVEN_MIXED_06_0.20", "seconds": 110.01588612492196, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 42, "endpoint_classification": null, "event": "END", "final_lambda": 0.19156042020766145, "path_id": "P4_GENERAL_MIXED_06_0.20", "seconds": 185.5647494108416, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 49, "endpoint_classification": null, "event": "END", "final_lambda": 0.1334400211267702, "path_id": "P4_SEAL_EVEN_MIXED_06_0.20", "seconds": 180.86850696988404, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 45, "endpoint_classification": null, "event": "END", "final_lambda": 0.4747190356711337, "path_id": "P4_SEAL_ODD_W_MIXED_06_0.20", "seconds": 182.0578187990468, "status": "PATH_TIME_LIMIT"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "MIXED_07_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_07_0.20"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_07_0.20"}
+{"accepted_steps": 31, "endpoint_classification": "ROUND_GAUGE_FIXED_ORBIT", "event": "END", "final_lambda": -0.004376280134503179, "path_id": "P2_SEAL_ODD_W_MIXED_07_0.20", "seconds": 121.35819139005616, "status": "ENDPOINT_REACHED"}
+{"accepted_steps": 46, "endpoint_classification": null, "event": "END", "final_lambda": 0.5369836525412954, "path_id": "P4_SEAL_EVEN_MIXED_07_0.20", "seconds": 182.3615274608601, "status": "PATH_TIME_LIMIT"}
+{"accepted_steps": 45, "endpoint_classification": null, "event": "END", "final_lambda": 0.6396064178555206, "path_id": "P4_SEAL_ODD_W_MIXED_07_0.20", "seconds": 181.37369971396402, "status": "PATH_TIME_LIMIT"}
+{"attempted": 51, "endpoint_counts": {"ROUND_GAUGE_FIXED_ORBIT": 29}, "planned": 51, "result": "COMPLETE_WITHIN_BUDGET", "status_counts": {"ENDPOINT_REACHED": 29, "PATH_TIME_LIMIT": 22}}

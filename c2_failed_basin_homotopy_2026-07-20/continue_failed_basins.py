@@ -35,7 +35,7 @@ def correct(qp,lp,tan,B,f0,layout):
  q=qp.copy();lam=float(lp);events=[];f,_,action=evaluate(q,layout,False)
  for iteration in range(MAX_CORRECTOR+1):
   h=f-lam*f0;arc=float(tan@np.r_[q-qp,lam-lp]);norm=max(float(np.linalg.norm(h,np.inf)),abs(arc))
-  events.append({"iteration":iteration,"augmented_residual_inf":norm,"homotopy_residual_inf":float(np.linalg.norm(h,np.inf)),"arclength_residual":arc,"lambda":lam,"coefficient_norm":float(np.linalg.norm(q))})
+  events.append({"iteration":iteration,"augmented_residual_inf":norm,"homotopy_residual_inf":float(np.linalg.norm(h,np.inf)),"arclength_residual":arc,"lambda":lam,"coefficients":q.tolist(),"coefficient_norm":float(np.linalg.norm(q)),"action":action})
   if norm<=SOLVE_TOL:return True,q,lam,B,f,action,events
   if iteration==MAX_CORRECTOR:return False,q,lam,B,f,action,events
   aug=np.block([[B,-f0[:,None]],[tan[None,:]]]);rhs=-np.r_[h,arc]
@@ -56,7 +56,7 @@ def correct(qp,lp,tan,B,f0,layout):
 def endpoint_solve(initial,B,layout,start_time):
  q=initial.copy();f,_,action=evaluate(q,layout,False);history=[];refreshes=0
  for iteration in range(31):
-  res=float(np.linalg.norm(f,np.inf));history.append({"iteration":iteration,"raw_residual_inf":res,"coefficient_norm":float(np.linalg.norm(q)),"action":action})
+  res=float(np.linalg.norm(f,np.inf));history.append({"iteration":iteration,"raw_residual_inf":res,"coefficients":q.tolist(),"coefficient_norm":float(np.linalg.norm(q)),"action":action})
   if res<=SOLVE_TOL:return {"status":"SOLVE_RESIDUAL_PASS","coefficients":q.tolist(),"raw_residual_inf":res,"action":action,"history":history,"exact_hessian_refreshes":refreshes}
   if iteration==30 or time.monotonic()-start_time>MAX_PATH_SECONDS:break
   if iteration%6==0:
@@ -94,9 +94,9 @@ def trace(attempt):
    ok,nq,nl,nB,nf,na,events=correct(qp,lp,tan,B,f0,layout)
    if ok:
     previous_q=q.copy();previous_lam=lam;q=nq;lam=nl;B=nB;action=na;arc+=local;success=True
-    accepted.append({"step":step_index,"arclength":arc,"step_size":local,"lambda":lam,"coefficient_norm":float(np.linalg.norm(q)),"homotopy_residual_inf":float(np.linalg.norm(nf-lam*f0,np.inf)),"corrector_iterations":len(events)-1,"tangent_lambda":float(tan[-1]),"exact_refresh":False})
+    accepted.append({"step":step_index,"arclength":arc,"step_size":local,"lambda":lam,"coefficients":q.tolist(),"coefficient_norm":float(np.linalg.norm(q)),"action":action,"homotopy_residual_inf":float(np.linalg.norm(nf-lam*f0,np.inf)),"corrector_iterations":len(events)-1,"tangent":tan.tolist(),"tangent_lambda":float(tan[-1]),"exact_refresh":False})
     ds=min(MAX_STEP,local*(1.25 if len(events)-1<=3 else .75 if len(events)-1>=9 else 1.0));break
-   rejected.append({"step":step_index,"halving":halving,"step_size":local,"predictor_lambda":float(lp),"last_augmented_residual_inf":events[-1]["augmented_residual_inf"] if events else math.inf})
+   rejected.append({"step":step_index,"halving":halving,"step_size":local,"predictor_coefficients":qp.tolist(),"predictor_lambda":float(lp),"last_coefficients":nq.tolist(),"last_lambda":float(nl),"last_augmented_residual_inf":events[-1]["augmented_residual_inf"] if events else math.inf,"corrector_history":events})
    if halving==0:
     _,B,_=evaluate(q,layout,True);refreshes+=1
   if not success:status="MIN_STEP_OR_CORRECTOR_STALL";break
