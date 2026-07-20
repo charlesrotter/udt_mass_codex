@@ -137,6 +137,25 @@ def relative_error(a, b):
     return float(torch.abs(a - b) / torch.maximum(torch.tensor(1e-10), torch.maximum(torch.abs(a), torch.abs(b))))
 
 
+def even_quadratic_coefficient(function, step=2e-3):
+    def estimate(size):
+        positive = function(torch.tensor(size))
+        negative = function(torch.tensor(-size))
+        center = function(torch.tensor(0.0))
+        return (positive + negative - 2 * center) / (2 * size * size)
+    coarse = estimate(step)
+    fine = estimate(step / 2)
+    return (4 * fine - coarse) / 3
+
+
+def odd_linear_coefficient(function, step=2e-3):
+    def estimate(size):
+        return (function(torch.tensor(size)) - function(torch.tensor(-size))) / (2 * size)
+    coarse = estimate(step)
+    fine = estimate(step / 2)
+    return (4 * fine - coarse) / 3
+
+
 PROFILES = [
     ("A", [0, 1/3, 1/5, -1/7], [0, 2/5, -1/4, 1/6, 1/9], [-1/3, 1/5, 2/3]),
     ("B", [0, -1/4, 2/7, 0, 1/13], [1/7, 1/2, 0, -1/5, 0, 1/11], [-2/5, 1/7, 3/5]),
@@ -153,11 +172,11 @@ def main():
         ucoeff = torch.tensor(uc)
         for raw_point in points:
             r = torch.tensor(raw_point)
-            direct_quadratic = jacfwd(jacfwd(density_point, argnums=1), argnums=1)(r, epsilon0, pcoeff, ucoeff) / 2
+            direct_quadratic = even_quadratic_coefficient(lambda eps: density_point(r, eps, pcoeff, ucoeff))
             expected_quadratic, expected_jacobi = formula_values(r, pcoeff, ucoeff)
-            linear_bach = jacfwd(bach_point, argnums=1)(r, epsilon0, pcoeff, ucoeff)[2, 3]
-            missing_backreaction = jacfwd(jacfwd(density_point, argnums=1), argnums=1)(r, epsilon0, pcoeff, ucoeff, True, False) / 2
-            euclidean = jacfwd(jacfwd(density_point, argnums=1), argnums=1)(r, epsilon0, pcoeff, ucoeff, False, True) / 2
+            linear_bach = odd_linear_coefficient(lambda eps: bach_point(r, eps, pcoeff, ucoeff)[2, 3])
+            missing_backreaction = even_quadratic_coefficient(lambda eps: density_point(r, eps, pcoeff, ucoeff, True, False))
+            euclidean = even_quadratic_coefficient(lambda eps: density_point(r, eps, pcoeff, ucoeff, False, True))
             records.append({
                 "profile": name, "r": raw_point,
                 "direct_quadratic": float(direct_quadratic), "formula_quadratic": float(expected_quadratic),
