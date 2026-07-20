@@ -143,7 +143,11 @@ def main():
         - quadratic
     )
     flat_expected = y**2 * sp.diff(u, r, 2) ** 2 - sp.Rational(2, 3) * y * sp.diff(y, r, 2) * sp.diff(u, r) ** 2
-    flat_difference = sp.simplify(quadratic.subs(K, 0) - flat_expected)
+    # The parent Cartesian tile is the constant F=1 member of K=0.  K=0 alone also includes
+    # polar/linear F charts whose selected coordinate twist has a nontrivial screen connection.
+    flat_cartesian = sp.simplify(quadratic.subs({K: 0, F: 1}).doit())
+    flat_difference = sp.simplify(flat_cartesian - flat_expected)
+    angular_connection_dependence = any(item.has(F) for item in quadratic.atoms(sp.Derivative))
     checks = {
         "determinant": sp.simplify(determinant + F**2) == 0,
         "linear_vanishes": linear == 0,
@@ -152,7 +156,6 @@ def main():
         "no_undifferentiated_u": sp.simplify(sp.diff(quadratic, u)) == 0,
         "boundary_decomposition_exact": boundary_check == 0,
         "flat_parent_recovered": flat_difference == 0,
-        "angular_dependence_reduced_to_K": "Derivative(F(theta)" not in str(quadratic),
     }
     if not all(checks.values()):
         raise AssertionError(checks)
@@ -171,6 +174,10 @@ def main():
         "constant_twist_density": str(constant_twist),
         "reversal_difference": str(reversal),
         "flat_parent_difference": str(flat_difference),
+        "classification": {
+            "angular_connection_dependence_present": angular_connection_dependence,
+            "meaning": "the chosen coordinate twist is directional data not determined by scalar Gaussian curvature K alone",
+        },
         "checks": checks,
         "compute": {"method": "exact SymPy two-coordinate Weyl-squared twist expansion", "cpu_only": True},
     }
