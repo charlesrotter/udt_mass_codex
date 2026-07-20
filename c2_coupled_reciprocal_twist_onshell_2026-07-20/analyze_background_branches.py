@@ -16,6 +16,9 @@ p = -sp.log(y) / 2
 def main():
     a, b, c, d = [sp.diff(p, r, order) for order in range(1, 5)]
     q = sp.factor(b - 2 * a**2)
+    background_density = sp.factor(sp.Rational(4, 3) * y**2 * q**2)
+    higher_twist_coefficient = y**2
+    lower_twist_coefficient = sp.factor(sp.Rational(4, 3) * y**2 * q)
     e00 = sp.factor(20 * a**4 - 56 * a**2 * b + 18 * a * c + 11 * b**2 - 2 * d)
     e11 = sp.factor(-4 * a**4 + 8 * a**2 * b - 2 * a * c + b**2)
     e22 = sp.factor(12 * a**4 - 32 * a**2 * b + 10 * a * c + 5 * b**2 - d)
@@ -54,6 +57,8 @@ def main():
     }
     checks = {
         "q_transform": sp.simplify(q - expected["q"]) == 0,
+        "background_density_transform": sp.simplify(background_density - sp.diff(y, r, 2) ** 2 / 3) == 0,
+        "lower_twist_coefficient_transform": sp.simplify(lower_twist_coefficient + sp.Rational(2, 3) * y * sp.diff(y, r, 2)) == 0,
         "reduced_transform": sp.simplify(reduced - expected["reduced"]) == 0,
         "constraint_transform": sp.simplify(e11 - expected["constraint"]) == 0,
         "component_relation": sp.simplify(e00 - 2 * e22 - e11) == 0,
@@ -79,6 +84,9 @@ def main():
         "definition": "y(r)=exp(-2*p(r))>0",
         "transforms": {
             "Q": str(q),
+            "background_density": str(background_density),
+            "higher_twist_coefficient": str(higher_twist_coefficient),
+            "lower_twist_coefficient": str(lower_twist_coefficient),
             "E00_numerator": str(e00),
             "E11_numerator": str(e11),
             "E22_numerator": str(e22),
