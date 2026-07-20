@@ -132,7 +132,8 @@ def main():
             "linear_vanishes": linear == 0,
             "constant_twist_zero": constant_twist == 0,
             "twist_reversal_even": reversal == 0,
-            "no_undifferentiated_u": not quadratic.has(u),
+            # Derivative(u(r),r) structurally contains u(r), so ``has(u)`` is too broad.
+            "no_undifferentiated_u": sp.simplify(sp.diff(quadratic, u)) == 0,
         },
         "compute": {"method": "exact SymPy coordinate tensor", "cpu_only": True},
     }
