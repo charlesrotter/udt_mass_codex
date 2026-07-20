@@ -1,0 +1,5 @@
+Script started on 2026-07-19 22:16:47-04:00 [<not executed on terminal>]
+{"edges": 83, "load_bearing_claims": 42, "nodes": 89, "owner_meanings": 15, "packages": 19, "semantic_conflicts": 13}
+{"ALGEBRA_VALID_PHYSICS_WITHDRAWN": 4, "CONTAMINATED_RERUN_REQUIRED": 3, "SURVIVES_CONDITIONAL_RELABELED": 10, "SURVIVES_INDEPENDENT": 2}
+
+Script done on 2026-07-19 22:16:47-04:00 [COMMAND_EXIT_CODE="0"]

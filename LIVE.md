@@ -8,8 +8,11 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
 **⚠ CURRENT SCIENTIFIC FRONTIER (2026-07-19):** after this CURRENT STATE block read
-`reciprocal_c_clock_channel_correction_2026-07-19/AUDIT_REPORT.md` and its
-`STATUS_LEDGER.tsv`, then `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
+`udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`, then its
+`OWNER_MEANING_LEDGER.tsv`, `PACKAGE_REGRADE.tsv`, and `RERUN_PRIORITY.md`; only then read
+`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` and the older package relevant to the task. The prior
+`reciprocal_c_clock_channel_correction_2026-07-19/` and Xmax/projective frame packages are preserved
+evidence but no longer cumulative-frontier authority. Then, when angular evidence is relevant, read
 `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md` and
 `angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`. Read the
 full angular audit, then the null-section and native-topology reports, only when the actual task
@@ -27,9 +30,35 @@ order is: **`UDT_METHOD_MUSIC.md`** → **`UDT_DOTTED_LINE.md`** → **`UDT_ELEG
 Free-\(D_A\) / mixed scoreboards = **`grok/quarantine_free_DA/`** only (not live).
 Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE_historical_frontier_through_2026-07-08.md` and `archive/INDEX_pre_simple_metric_WR_L_2026-07-09.md`.
 
-## ============ CURRENT STATE (2026-07-19 — RECIPROCAL-C CLOCK-CHANNEL CORRECTION COMPLETE AND VERIFIED. C^-1 IS THE FOUNDING CLOCK/TIME-PER-LENGTH CHANNEL; DUAL RECIPROCITY PLUS REGULAR COMPOSITION FIXES THE RECIPROCAL EXPONENTIAL CHANNEL RESPONSE UNDER ITS EXACT PREMISES. ANGULAR REVERSAL AT FIXED NONNEGATIVE DEPTH DOES NOT SWAP CHANNELS OR SPEED THE CLOCK. THE RECENT SECH-TYPE CLOCK ALTERNATIVES ARE WITHDRAWN AS UNDERPREMISED BECAUSE THEY FAIL CHANNEL COMPOSITION. THE LOCAL PROPER-CLOCK READING REMAINS CONDITIONAL ON THE DECLARED LORENTZIAN READOUT/REPRESENTATIVE. GLOBAL RADIAL-ANGULAR DISTANCE, XMAX READOUT/SCALE, COMPLETE ACTION/SOURCE/BOUNDARY, CARRIER EMERGENCE, AND UNCONDITIONAL MASS REMAIN OPEN. THE PRIOR ANGULAR–TORIC AUDIT REMAINS CONDITIONAL EVIDENCE, NOT A NEW CLOCK GATE. NO NEXT STUDY, CANONIZATION, GPU WORK, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-19 — PREMISE-RESET AUDIT COMPLETE. INHERITED JULY-19 CUMULATIVE CONFIDENCE IS WITHDRAWN. UDT IS SCALE-FREE AT ITS CORE WHILE MEASURED EINSTEINIAN C AND MEASURED G ARE ACCEPTED OBSERVATIONAL ANCHORS THAT INTRODUCE CALIBRATED PHYSICAL SCALE. SIGNED LOCAL PHI, SIGNED ORDERED OBSERVER COMPARISON, AND NONNEGATIVE PHYSICAL DISTANCE ARE DISTINCT. X_MAX IS ONE GLOBAL FRAME-SHARED OUTPUT TO BE DERIVED FROM THE COMPLETE METRIC/BOOTSTRAP WITH C, G, AND POSSIBLY TOTAL MASS/DENSITY, NOT A SUPPLIED FRAME CONSTANT. THE FINITE BOUNDARY IS EXPECTED AS AN ASYMPTOTIC TIME/MASS-DILATION LIMIT; ITS JOIN TO THE FOLD, WR-L X, AND GLOBAL X_MAX IS OPEN. OF 19 JULY-19 PACKAGES: 2 SURVIVE INDEPENDENTLY, 10 SURVIVE CONDITIONALLY RELABELED, 4 RETAIN ALGEBRA WITH PHYSICAL INTERPRETATION WITHDRAWN, AND 3 ARE CONTAMINATED/RERUN-REQUIRED. NO ACTION, SOURCE, CARRIER, BOUNDARY FORMULA, X_MAX, OR MASS CLOSURE IS DERIVED. NO NEW DERIVATION, GPU WORK, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
 
-**➤➤➤ JULY 19 RECIPROCAL-C CLOCK-CHANNEL CORRECTION — COMPLETE EVIDENCE:**
+**➤➤➤ JULY 19 UDT PREMISE-RESET AUDIT — CURRENT AUTHORITY:**
+- **READ NEXT:** `udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`,
+  `OWNER_MEANING_LEDGER.tsv`, `SEMANTIC_CONFLICT_LEDGER.tsv`, `PACKAGE_REGRADE.tsv`, then
+  `RERUN_PRIORITY.md`.
+- **OWNER MEANINGS:** `c_E` is finite measured Einsteinian `c` at ordinary terrestrial/solar
+  scales. `phi(p)` is a signed local dilation field. Physical distance is nonnegative. An ordered
+  observer comparison may be signed, but it is neither distance nor angular reversal.
+- **SCALE LAYERS:** the UDT core remains scale-free; measured `c_E` and measured `G_obs` are accepted
+  observational anchors in the calibrated physical layer. They do not select EH or another action.
+- **GLOBAL OUTPUT:** `X_max` is shared by all observational frames only as a derived global output of
+  the completed metric/bootstrap. Its value and functional dependence on `c_E`, `G_obs`, the metric,
+  and possibly `rho_tot=M_tot/V_tot` remain `OPEN`.
+- **BOUNDARY:** finite-cell structure remains; the numerical boundary should emerge as an
+  asymptotic time/mass-dilation limit. The CMB fold, historical WR-L endpoint `X`, and global
+  `X_max` may not be silently identified or separated.
+- **REVIEW_REQUIRED:** all downstream conclusions are regraded claim by claim. Exact scripts can
+  survive while their physical UDT interpretation is withdrawn.
+- **RECIPROCAL-C SURVIVES NARROWLY:** the finite clock-length anchor and reciprocal character algebra
+  survive. Identifying the character argument universally with nonnegative separation `rho` does
+  not; the local clock/comparison map requires clean rederivation with signed local `phi`.
+- **XMAX FRAME CHAIN WITHDRAWN AS PHYSICS:** the reciprocity, full-frame, dynamic-frame, and
+  accelerating-frame algebra remains preserved conditional mathematics, not current UDT frame
+  physics.
+- **NEXT SCIENTIFIC TASK NOT LAUNCHED:** audit the existing asymptotic-boundary lineage, especially
+  WR-L and fold records, before any new derivation.
+
+**➤➤➤ JULY 19 RECIPROCAL-C CLOCK-CHANNEL CORRECTION — PRESERVED, NOW REGRADED BY THE PREMISE RESET:**
 - **READ NEXT:** `reciprocal_c_clock_channel_correction_2026-07-19/AUDIT_REPORT.md`, then
   `reciprocal_c_clock_channel_correction_2026-07-19/STATUS_LEDGER.tsv` and
   `CORRECTION_OVERLAY.tsv`; only then use `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` for the broader
@@ -38,15 +67,15 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
   clock/time-per-length channel, not an optional scalar readout.
 - **DERIVED-CONDITIONAL KINEMATICS:** dual UDT Reciprocity plus regular additive composition fixes
   the named channel weights as reciprocal exponentials, with sign/unit and nontriviality stamped.
-- **DIRECTION CORRECTION:** physical depth is nonnegative and direction is angular. Looking the
-  opposite way at the same depth leaves the clock/ruler channels unchanged. Reversing an ordered
-  observer comparison is a distinct inverse operation.
+- **DIRECTION CORRECTION, REGRADED:** physical distance is nonnegative and direction is angular, but
+  signed local `phi` is not distance. Looking the opposite way leaves the local field unchanged;
+  reversing an ordered observer comparison is a distinct inverse operation.
 - **FALSE SELECTOR WITHDRAWN:** `sech(delta)`, its square, and `sech(2 delta)` are symmetric
   diagnostics but fail multiplicative channel composition. They are not admissible alternative
   clock-channel laws under the complete foundation.
-- **READOUT SCOPE RETAINED:** `exp(-rho)` is the stationary proper-clock factor only in the declared
-  local Lorentzian quadratic readout, Common-Scale representative, and observer scope. Those stamps
-  are not silently promoted.
+- **READOUT REQUIRES RERUN:** `exp(-phi)` remains the temporal coefficient in the declared local
+  Lorentzian representative. The later universal replacement `phi -> rho>=0` in a physical clock
+  comparison is withdrawn pending a worldline/observer derivation.
 - **GENUINELY OPEN:** complete radial-angular distance/path, operational `X_max` coordinate and
   scale, physical representative, complete action/variation domain, native source/coupling,
   differentiable finite-cell boundary, carrier emergence, unconditional mass, and time-live matter.

@@ -1,0 +1,978 @@
+{
+  "base": "3b6dedf9bd2692b0ff5ba9e871d7952cf8752aad",
+  "claim_regrades": {
+    "ALGEBRA_VALID_PHYSICS_WITHDRAWN": 7,
+    "CONTAMINATED_RERUN_REQUIRED": 3,
+    "SURVIVES_CONDITIONAL_RELABELED": 15,
+    "SURVIVES_INDEPENDENT": 17
+  },
+  "counts": {
+    "edges": 83,
+    "load_bearing_claims": 42,
+    "nodes": 89,
+    "owner_meanings": 15,
+    "packages": 19,
+    "semantic_conflicts": 13
+  },
+  "edges": [
+    {
+      "from": "C01",
+      "relation": "CONTROLLED_BY",
+      "to": "O03"
+    },
+    {
+      "from": "C02",
+      "relation": "CONTROLLED_BY",
+      "to": "O03"
+    },
+    {
+      "from": "C02",
+      "relation": "CONTROLLED_BY",
+      "to": "O04"
+    },
+    {
+      "from": "C03",
+      "relation": "CONTROLLED_BY",
+      "to": "O01"
+    },
+    {
+      "from": "C03",
+      "relation": "CONTROLLED_BY",
+      "to": "O02"
+    },
+    {
+      "from": "C03",
+      "relation": "CONTROLLED_BY",
+      "to": "O03"
+    },
+    {
+      "from": "C04",
+      "relation": "CONTROLLED_BY",
+      "to": "O06"
+    },
+    {
+      "from": "C04",
+      "relation": "CONTROLLED_BY",
+      "to": "O07"
+    },
+    {
+      "from": "C05",
+      "relation": "CONTROLLED_BY",
+      "to": "O06"
+    },
+    {
+      "from": "C05",
+      "relation": "CONTROLLED_BY",
+      "to": "O07"
+    },
+    {
+      "from": "C06",
+      "relation": "CONTROLLED_BY",
+      "to": "O11"
+    },
+    {
+      "from": "C07",
+      "relation": "CONTROLLED_BY",
+      "to": "O11"
+    },
+    {
+      "from": "C08",
+      "relation": "CONTROLLED_BY",
+      "to": "O08"
+    },
+    {
+      "from": "C08",
+      "relation": "CONTROLLED_BY",
+      "to": "O09"
+    },
+    {
+      "from": "C09",
+      "relation": "CONTROLLED_BY",
+      "to": "O03"
+    },
+    {
+      "from": "C09",
+      "relation": "CONTROLLED_BY",
+      "to": "O06"
+    },
+    {
+      "from": "C09",
+      "relation": "CONTROLLED_BY",
+      "to": "O07"
+    },
+    {
+      "from": "C11",
+      "relation": "CONTROLLED_BY",
+      "to": "O01"
+    },
+    {
+      "from": "C12",
+      "relation": "CONTROLLED_BY",
+      "to": "O11"
+    },
+    {
+      "from": "C13",
+      "relation": "CONTROLLED_BY",
+      "to": "O14"
+    },
+    {
+      "from": "C13",
+      "relation": "CONTROLLED_BY",
+      "to": "O15"
+    },
+    {
+      "from": "L01",
+      "relation": "BELONGS_TO",
+      "to": "P:angular_toric_closure_selector_2026-07-19"
+    },
+    {
+      "from": "L02",
+      "relation": "BELONGS_TO",
+      "to": "P:angular_toric_closure_selector_2026-07-19"
+    },
+    {
+      "from": "L03",
+      "relation": "BELONGS_TO",
+      "to": "P:bootstrap_csn_phi_angular_selector_2026-07-19"
+    },
+    {
+      "from": "L04",
+      "relation": "BELONGS_TO",
+      "to": "P:bootstrap_csn_phi_angular_selector_2026-07-19"
+    },
+    {
+      "from": "L05",
+      "relation": "BELONGS_TO",
+      "to": "P:copresence_causal_accessibility_selector_2026-07-19"
+    },
+    {
+      "from": "L06",
+      "relation": "BELONGS_TO",
+      "to": "P:copresence_causal_accessibility_selector_2026-07-19"
+    },
+    {
+      "from": "L07",
+      "relation": "BELONGS_TO",
+      "to": "P:copresence_causal_accessibility_selector_2026-07-19"
+    },
+    {
+      "from": "L08",
+      "relation": "BELONGS_TO",
+      "to": "P:copresence_gr_constraint_regrade_2026-07-19"
+    },
+    {
+      "from": "L09",
+      "relation": "BELONGS_TO",
+      "to": "P:copresence_gr_constraint_regrade_2026-07-19"
+    },
+    {
+      "from": "L10",
+      "relation": "BELONGS_TO",
+      "to": "P:metric_cartan_holonomy_audit_2026-07-19"
+    },
+    {
+      "from": "L11",
+      "relation": "BELONGS_TO",
+      "to": "P:metric_cartan_holonomy_audit_2026-07-19"
+    },
+    {
+      "from": "L12",
+      "relation": "BELONGS_TO",
+      "to": "P:native_hopfion_topology_audit_2026-07-19"
+    },
+    {
+      "from": "L13",
+      "relation": "BELONGS_TO",
+      "to": "P:native_hopfion_topology_audit_2026-07-19"
+    },
+    {
+      "from": "L14",
+      "relation": "BELONGS_TO",
+      "to": "P:null_section_hopfion_metric_audit_2026-07-19"
+    },
+    {
+      "from": "L15",
+      "relation": "BELONGS_TO",
+      "to": "P:null_section_hopfion_metric_audit_2026-07-19"
+    },
+    {
+      "from": "L16",
+      "relation": "BELONGS_TO",
+      "to": "P:projective_position_direction_magnitude_correction_2026-07-19"
+    },
+    {
+      "from": "L16",
+      "relation": "CONTROLLED_BY",
+      "to": "O03"
+    },
+    {
+      "from": "L16",
+      "relation": "CONTROLLED_BY",
+      "to": "O05"
+    },
+    {
+      "from": "L17",
+      "relation": "BELONGS_TO",
+      "to": "P:projective_position_direction_magnitude_correction_2026-07-19"
+    },
+    {
+      "from": "L18",
+      "relation": "BELONGS_TO",
+      "to": "P:projective_position_join_audit_2026-07-19"
+    },
+    {
+      "from": "L19",
+      "relation": "BELONGS_TO",
+      "to": "P:projective_position_join_audit_2026-07-19"
+    },
+    {
+      "from": "L19",
+      "relation": "CONTROLLED_BY",
+      "to": "O03"
+    },
+    {
+      "from": "L19",
+      "relation": "CONTROLLED_BY",
+      "to": "O06"
+    },
+    {
+      "from": "L19",
+      "relation": "CONTROLLED_BY",
+      "to": "O11"
+    },
+    {
+      "from": "L19",
+      "relation": "CONTROLLED_BY",
+      "to": "O12"
+    },
+    {
+      "from": "L20",
+      "relation": "BELONGS_TO",
+      "to": "P:projective_transport_section_selector_2026-07-19"
+    },
+    {
+      "from": "L21",
+      "relation": "BELONGS_TO",
+      "to": "P:projective_transport_section_selector_2026-07-19"
+    },
+    {
+      "from": "L22",
+      "relation": "BELONGS_TO",
+      "to": "P:reciprocal_c_clock_channel_correction_2026-07-19"
+    },
+    {
+      "from": "L22",
+      "relation": "CONTROLLED_BY",
+      "to": "O01"
+    },
+    {
+      "from": "L23",
+      "relation": "BELONGS_TO",
+      "to": "P:reciprocal_c_clock_channel_correction_2026-07-19"
+    },
+    {
+      "from": "L24",
+      "relation": "BELONGS_TO",
+      "to": "P:reciprocal_c_clock_channel_correction_2026-07-19"
+    },
+    {
+      "from": "L24",
+      "relation": "CONTROLLED_BY",
+      "to": "O03"
+    },
+    {
+      "from": "L24",
+      "relation": "CONTROLLED_BY",
+      "to": "O04"
+    },
+    {
+      "from": "L25",
+      "relation": "BELONGS_TO",
+      "to": "P:reciprocal_clock_optical_scale_selector_2026-07-19"
+    },
+    {
+      "from": "L26",
+      "relation": "BELONGS_TO",
+      "to": "P:reciprocal_clock_optical_scale_selector_2026-07-19"
+    },
+    {
+      "from": "L26",
+      "relation": "CONTROLLED_BY",
+      "to": "O08"
+    },
+    {
+      "from": "L26",
+      "relation": "CONTROLLED_BY",
+      "to": "O09"
+    },
+    {
+      "from": "L27",
+      "relation": "BELONGS_TO",
+      "to": "P:reciprocal_metric_null_line_selector_2026-07-19"
+    },
+    {
+      "from": "L27",
+      "relation": "CONTROLLED_BY",
+      "to": "O03"
+    },
+    {
+      "from": "L28",
+      "relation": "BELONGS_TO",
+      "to": "P:reciprocal_metric_null_line_selector_2026-07-19"
+    },
+    {
+      "from": "L29",
+      "relation": "BELONGS_TO",
+      "to": "P:rung2_weld_postjuly_regrade_2026-07-19"
+    },
+    {
+      "from": "L30",
+      "relation": "BELONGS_TO",
+      "to": "P:rung2_weld_postjuly_regrade_2026-07-19"
+    },
+    {
+      "from": "L31",
+      "relation": "BELONGS_TO",
+      "to": "P:transverse_reciprocal_realization_selector_2026-07-19"
+    },
+    {
+      "from": "L32",
+      "relation": "BELONGS_TO",
+      "to": "P:transverse_reciprocal_realization_selector_2026-07-19"
+    },
+    {
+      "from": "L33",
+      "relation": "BELONGS_TO",
+      "to": "P:xmax_accelerating_finite_cell_cartan_2026-07-19"
+    },
+    {
+      "from": "L34",
+      "relation": "BELONGS_TO",
+      "to": "P:xmax_accelerating_finite_cell_cartan_2026-07-19"
+    },
+    {
+      "from": "L35",
+      "relation": "BELONGS_TO",
+      "to": "P:xmax_dynamic_observer_frame_2026-07-19"
+    },
+    {
+      "from": "L36",
+      "relation": "BELONGS_TO",
+      "to": "P:xmax_dynamic_observer_frame_2026-07-19"
+    },
+    {
+      "from": "L36",
+      "relation": "CONTROLLED_BY",
+      "to": "O03"
+    },
+    {
+      "from": "L37",
+      "relation": "BELONGS_TO",
+      "to": "P:xmax_full_frame_realization_2026-07-19"
+    },
+    {
+      "from": "L38",
+      "relation": "BELONGS_TO",
+      "to": "P:xmax_full_frame_realization_2026-07-19"
+    },
+    {
+      "from": "L38",
+      "relation": "CONTROLLED_BY",
+      "to": "O03"
+    },
+    {
+      "from": "L38",
+      "relation": "CONTROLLED_BY",
+      "to": "O06"
+    },
+    {
+      "from": "L39",
+      "relation": "BELONGS_TO",
+      "to": "P:xmax_reciprocity_audit_2026-07-19"
+    },
+    {
+      "from": "L40",
+      "relation": "BELONGS_TO",
+      "to": "P:xmax_reciprocity_audit_2026-07-19"
+    },
+    {
+      "from": "L41",
+      "relation": "BELONGS_TO",
+      "to": "P:copresence_gr_constraint_regrade_2026-07-19"
+    },
+    {
+      "from": "L41",
+      "relation": "CONTROLLED_BY",
+      "to": "O14"
+    },
+    {
+      "from": "L41",
+      "relation": "CONTROLLED_BY",
+      "to": "O15"
+    },
+    {
+      "from": "L42",
+      "relation": "BELONGS_TO",
+      "to": "P:xmax_reciprocity_audit_2026-07-19"
+    },
+    {
+      "from": "L42",
+      "relation": "CONTROLLED_BY",
+      "to": "O07"
+    },
+    {
+      "from": "L42",
+      "relation": "CONTROLLED_BY",
+      "to": "O14"
+    },
+    {
+      "from": "L42",
+      "relation": "CONTROLLED_BY",
+      "to": "O15"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "C01",
+      "label": "phi role",
+      "status": "REVIEW_REQUIRED",
+      "type": "SEMANTIC_CONFLICT"
+    },
+    {
+      "id": "C02",
+      "label": "phi sign",
+      "status": "REVIEW_REQUIRED",
+      "type": "SEMANTIC_CONFLICT"
+    },
+    {
+      "id": "C03",
+      "label": "clock baseline",
+      "status": "REVIEW_REQUIRED",
+      "type": "SEMANTIC_CONFLICT"
+    },
+    {
+      "id": "C04",
+      "label": "X_max status",
+      "status": "REVIEW_REQUIRED",
+      "type": "SEMANTIC_CONFLICT"
+    },
+    {
+      "id": "C05",
+      "label": "X versus X_max",
+      "status": "REVIEW_REQUIRED",
+      "type": "SEMANTIC_CONFLICT"
+    },
+    {
+      "id": "C06",
+      "label": "boundary value",
+      "status": "REVIEW_REQUIRED",
+      "type": "SEMANTIC_CONFLICT"
+    },
+    {
+      "id": "C07",
+      "label": "boundary logical role",
+      "status": "REVIEW_REQUIRED",
+      "type": "SEMANTIC_CONFLICT"
+    },
+    {
+      "id": "C08",
+      "label": "density role",
+      "status": "REVIEW_REQUIRED",
+      "type": "SEMANTIC_CONFLICT"
+    },
+    {
+      "id": "C09",
+      "label": "observer frame",
+      "status": "REVIEW_REQUIRED",
+      "type": "SEMANTIC_CONFLICT"
+    },
+    {
+      "id": "C10",
+      "label": "verification meaning",
+      "status": "REVIEW_REQUIRED",
+      "type": "SEMANTIC_CONFLICT"
+    },
+    {
+      "id": "C11",
+      "label": "finite c versus infinite substrate",
+      "status": "REVIEW_REQUIRED",
+      "type": "SEMANTIC_CONFLICT"
+    },
+    {
+      "id": "C12",
+      "label": "mass dilation boundary",
+      "status": "REVIEW_REQUIRED",
+      "type": "SEMANTIC_CONFLICT"
+    },
+    {
+      "id": "C13",
+      "label": "observational G and scale",
+      "status": "REVIEW_REQUIRED",
+      "type": "SEMANTIC_CONFLICT"
+    },
+    {
+      "id": "L01",
+      "label": "Primitive toric cap determinants classify S3 and lens alternatives",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L02",
+      "label": "UDT currently selects S3 and a free Hopf action",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L03",
+      "label": "CSN trace identity does not force phi or angular Euler projections",
+      "status": "SURVIVES_INDEPENDENT",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L04",
+      "label": "Current bootstrap forces null dphi or one repeated direction",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L05",
+      "label": "Positive CSN preserves metric causal classes",
+      "status": "SURVIVES_INDEPENDENT",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L06",
+      "label": "Static reciprocal optical slope is c_E N squared when NB=1",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L07",
+      "label": "Co-presence gives instantaneous physical signalling",
+      "status": "SURVIVES_INDEPENDENT",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L08",
+      "label": "Multiplier and finite-penalty algebra",
+      "status": "SURVIVES_INDEPENDENT",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L09",
+      "label": "Standalone ADM constraints are native UDT laws",
+      "status": "SURVIVES_INDEPENDENT",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L10",
+      "label": "Levi-Civita Cartan connection and curvature follow from a supplied representative",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L11",
+      "label": "Cartan identities select dynamics holonomy or matter",
+      "status": "SURVIVES_INDEPENDENT",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L12",
+      "label": "Existing active implementation is full-3D Hopf-capable",
+      "status": "SURVIVES_INDEPENDENT",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L13",
+      "label": "Static no-null stability is settled within carrier finite-box premises",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L14",
+      "label": "Hopf-coordinate orbit block exactly matches reciprocal exponentials",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L15",
+      "label": "This match derives the carrier and action",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L16",
+      "label": "Signed ordered comparison is not negative physical distance",
+      "status": "SURVIVES_INDEPENDENT",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L17",
+      "label": "Physical clock factor universally equals exp(-abs(Phi(P)-Phi(O)))",
+      "status": "CONTAMINATED_RERUN_REQUIRED",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L18",
+      "label": "Three anchors uniquely select tanh inside first-degree projective charts",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L19",
+      "label": "Relative depth is Phi(P)-Phi(O) and generically separates seal from Xmax endpoint",
+      "status": "CONTAMINATED_RERUN_REQUIRED",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L20",
+      "label": "Conformal metric propagates each chosen null ray projectively",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L21",
+      "label": "Transport chooses the initial section",
+      "status": "SURVIVES_INDEPENDENT",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L22",
+      "label": "c_E and its inverse are the founding two-way clock-length conversion anchor",
+      "status": "SURVIVES_INDEPENDENT",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L23",
+      "label": "Reciprocal exponential characters compose and sech summaries do not",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L24",
+      "label": "The physical clock is always the exp(-rho) slowing branch for nonnegative depth",
+      "status": "CONTAMINATED_RERUN_REQUIRED",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L25",
+      "label": "Static null slope is c_E N/B and normalized local null speed is c_E",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L26",
+      "label": "Redshift alone derives native mass increase or emergence",
+      "status": "SURVIVES_INDEPENDENT",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L27",
+      "label": "General reciprocal norm of signed dphi and static spacelike result",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L28",
+      "label": "Reciprocity forces a unique null or repeated curvature direction",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L29",
+      "label": "Historical mixed equation and scalar-action equation have distinct imported provenance",
+      "status": "SURVIVES_INDEPENDENT",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L30",
+      "label": "Current UDT has recovered a native rung-2 weld",
+      "status": "SURVIVES_INDEPENDENT",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L31",
+      "label": "A scalar phi alone cannot select reciprocal shear axes in an isotropic transverse plane",
+      "status": "SURVIVES_INDEPENDENT",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L32",
+      "label": "Spin/Hopf representation supplies physical spatial torus or carrier",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L33",
+      "label": "Beta derivatives cancel from curvature on the declared pullback orbit",
+      "status": "ALGEBRA_VALID_PHYSICS_WITHDRAWN",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L34",
+      "label": "This proves a UDT gravity-acceleration principle across the finite cell",
+      "status": "SURVIVES_INDEPENDENT",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L35",
+      "label": "Time-dependent phi recentering forces off-diagonal pullback terms",
+      "status": "ALGEBRA_VALID_PHYSICS_WITHDRAWN",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L36",
+      "label": "Arbitrary beta(t) represents physical UDT observers",
+      "status": "ALGEBRA_VALID_PHYSICS_WITHDRAWN",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L37",
+      "label": "Declared reciprocal metric family has an exact CSN homothety under phi translation",
+      "status": "ALGEBRA_VALID_PHYSICS_WITHDRAWN",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L38",
+      "label": "The homothety is a full physical observer-frame realization with shared Xmax",
+      "status": "ALGEBRA_VALID_PHYSICS_WITHDRAWN",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L39",
+      "label": "Chosen fractional-linear group has exact multiplicative A character",
+      "status": "ALGEBRA_VALID_PHYSICS_WITHDRAWN",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L40",
+      "label": "This group is native Xmax reciprocity acting on physical position and metric phi",
+      "status": "ALGEBRA_VALID_PHYSICS_WITHDRAWN",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L41",
+      "label": "Accepting measured G makes GR constraints or EH native UDT",
+      "status": "SURVIVES_INDEPENDENT",
+      "type": "CLAIM"
+    },
+    {
+      "id": "L42",
+      "label": "Measured c_E and G_obs uniquely determine X_max",
+      "status": "SURVIVES_INDEPENDENT",
+      "type": "CLAIM"
+    },
+    {
+      "id": "O01",
+      "label": "c_E",
+      "status": "OWNER_LOCKED_FOR_AUDIT",
+      "type": "OWNER_MEANING"
+    },
+    {
+      "id": "O02",
+      "label": "c_effective",
+      "status": "OWNER_DIRECTION_WORKING",
+      "type": "OWNER_MEANING"
+    },
+    {
+      "id": "O03",
+      "label": "phi(p)",
+      "status": "OWNER_LOCKED_FOR_AUDIT",
+      "type": "OWNER_MEANING"
+    },
+    {
+      "id": "O04",
+      "label": "distance",
+      "status": "OWNER_LOCKED_FOR_AUDIT",
+      "type": "OWNER_MEANING"
+    },
+    {
+      "id": "O05",
+      "label": "observer_comparison",
+      "status": "OWNER_LOCKED_FOR_AUDIT",
+      "type": "OWNER_MEANING"
+    },
+    {
+      "id": "O06",
+      "label": "X_max",
+      "status": "OWNER_LOCKED_FOR_AUDIT",
+      "type": "OWNER_MEANING"
+    },
+    {
+      "id": "O07",
+      "label": "X_max_origin",
+      "status": "OWNER_LOCKED_DERIVATION_TARGET",
+      "type": "OWNER_MEANING"
+    },
+    {
+      "id": "O08",
+      "label": "rho_tot",
+      "status": "OWNER_LOCKED_FOR_AUDIT",
+      "type": "OWNER_MEANING"
+    },
+    {
+      "id": "O09",
+      "label": "local_density_effects",
+      "status": "OPEN",
+      "type": "OWNER_MEANING"
+    },
+    {
+      "id": "O10",
+      "label": "finite_cell_structure",
+      "status": "CANONICAL_STRUCTURE_RETAINED",
+      "type": "OWNER_MEANING"
+    },
+    {
+      "id": "O11",
+      "label": "boundary_origin",
+      "status": "OWNER_WORKING_BELIEF",
+      "type": "OWNER_MEANING"
+    },
+    {
+      "id": "O12",
+      "label": "phi_at_boundary",
+      "status": "OPEN_CONFLICT",
+      "type": "OWNER_MEANING"
+    },
+    {
+      "id": "O13",
+      "label": "metric_status",
+      "status": "BINDING_METHOD",
+      "type": "OWNER_MEANING"
+    },
+    {
+      "id": "O14",
+      "label": "G_obs",
+      "status": "OWNER_LOCKED_FOR_AUDIT",
+      "type": "OWNER_MEANING"
+    },
+    {
+      "id": "O15",
+      "label": "scale_layers",
+      "status": "OWNER_LOCKED_FOR_AUDIT",
+      "type": "OWNER_MEANING"
+    },
+    {
+      "id": "P:angular_toric_closure_selector_2026-07-19",
+      "label": "angular_toric_closure_selector_2026-07-19",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "PACKAGE"
+    },
+    {
+      "id": "P:bootstrap_csn_phi_angular_selector_2026-07-19",
+      "label": "bootstrap_csn_phi_angular_selector_2026-07-19",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "PACKAGE"
+    },
+    {
+      "id": "P:copresence_causal_accessibility_selector_2026-07-19",
+      "label": "copresence_causal_accessibility_selector_2026-07-19",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "PACKAGE"
+    },
+    {
+      "id": "P:copresence_gr_constraint_regrade_2026-07-19",
+      "label": "copresence_gr_constraint_regrade_2026-07-19",
+      "status": "SURVIVES_INDEPENDENT",
+      "type": "PACKAGE"
+    },
+    {
+      "id": "P:metric_cartan_holonomy_audit_2026-07-19",
+      "label": "metric_cartan_holonomy_audit_2026-07-19",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "PACKAGE"
+    },
+    {
+      "id": "P:native_hopfion_topology_audit_2026-07-19",
+      "label": "native_hopfion_topology_audit_2026-07-19",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "PACKAGE"
+    },
+    {
+      "id": "P:null_section_hopfion_metric_audit_2026-07-19",
+      "label": "null_section_hopfion_metric_audit_2026-07-19",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "PACKAGE"
+    },
+    {
+      "id": "P:projective_position_direction_magnitude_correction_2026-07-19",
+      "label": "projective_position_direction_magnitude_correction_2026-07-19",
+      "status": "CONTAMINATED_RERUN_REQUIRED",
+      "type": "PACKAGE"
+    },
+    {
+      "id": "P:projective_position_join_audit_2026-07-19",
+      "label": "projective_position_join_audit_2026-07-19",
+      "status": "CONTAMINATED_RERUN_REQUIRED",
+      "type": "PACKAGE"
+    },
+    {
+      "id": "P:projective_transport_section_selector_2026-07-19",
+      "label": "projective_transport_section_selector_2026-07-19",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "PACKAGE"
+    },
+    {
+      "id": "P:reciprocal_c_clock_channel_correction_2026-07-19",
+      "label": "reciprocal_c_clock_channel_correction_2026-07-19",
+      "status": "CONTAMINATED_RERUN_REQUIRED",
+      "type": "PACKAGE"
+    },
+    {
+      "id": "P:reciprocal_clock_optical_scale_selector_2026-07-19",
+      "label": "reciprocal_clock_optical_scale_selector_2026-07-19",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "PACKAGE"
+    },
+    {
+      "id": "P:reciprocal_metric_null_line_selector_2026-07-19",
+      "label": "reciprocal_metric_null_line_selector_2026-07-19",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "PACKAGE"
+    },
+    {
+      "id": "P:rung2_weld_postjuly_regrade_2026-07-19",
+      "label": "rung2_weld_postjuly_regrade_2026-07-19",
+      "status": "SURVIVES_INDEPENDENT",
+      "type": "PACKAGE"
+    },
+    {
+      "id": "P:transverse_reciprocal_realization_selector_2026-07-19",
+      "label": "transverse_reciprocal_realization_selector_2026-07-19",
+      "status": "SURVIVES_CONDITIONAL_RELABELED",
+      "type": "PACKAGE"
+    },
+    {
+      "id": "P:xmax_accelerating_finite_cell_cartan_2026-07-19",
+      "label": "xmax_accelerating_finite_cell_cartan_2026-07-19",
+      "status": "ALGEBRA_VALID_PHYSICS_WITHDRAWN",
+      "type": "PACKAGE"
+    },
+    {
+      "id": "P:xmax_dynamic_observer_frame_2026-07-19",
+      "label": "xmax_dynamic_observer_frame_2026-07-19",
+      "status": "ALGEBRA_VALID_PHYSICS_WITHDRAWN",
+      "type": "PACKAGE"
+    },
+    {
+      "id": "P:xmax_full_frame_realization_2026-07-19",
+      "label": "xmax_full_frame_realization_2026-07-19",
+      "status": "ALGEBRA_VALID_PHYSICS_WITHDRAWN",
+      "type": "PACKAGE"
+    },
+    {
+      "id": "P:xmax_reciprocity_audit_2026-07-19",
+      "label": "xmax_reciprocity_audit_2026-07-19",
+      "status": "ALGEBRA_VALID_PHYSICS_WITHDRAWN",
+      "type": "PACKAGE"
+    }
+  ],
+  "package_regrades": {
+    "ALGEBRA_VALID_PHYSICS_WITHDRAWN": 4,
+    "CONTAMINATED_RERUN_REQUIRED": 3,
+    "SURVIVES_CONDITIONAL_RELABELED": 10,
+    "SURVIVES_INDEPENDENT": 2
+  },
+  "result": "PASS",
+  "schema": "udt-premise-reset-dependency-graph-1.0"
+}

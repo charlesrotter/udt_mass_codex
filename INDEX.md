@@ -3,8 +3,16 @@
 **⚠ BRANCH: `grok` (2026-07-19)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
 **➤ CURRENT SCIENTIFIC FRONTIER:**
-`reciprocal_c_clock_channel_correction_2026-07-19/AUDIT_REPORT.md` and
-`STATUS_LEDGER.tsv`, then `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
+`udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`, then
+`OWNER_MEANING_LEDGER.tsv`, `PACKAGE_REGRADE.tsv`, and `RERUN_PRIORITY.md`. The premise-reset audit
+withdraws inherited cumulative confidence from the July 19 chain. UDT is scale-free at its core;
+measured Einsteinian `c_E` and measured `G_obs` are accepted observational anchors in the calibrated
+physical layer. Signed local `phi`, signed ordered comparison, and nonnegative distance are separate.
+`X_max` is a derived global frame-shared output, not a supplied frame constant. The
+four Xmax frame families retain algebra with their physical interpretations withdrawn; three
+projective/clock packages require rerun. Older reports, including
+`reciprocal_c_clock_channel_correction_2026-07-19/`, are preserved evidence and must be read through
+this overlay. Then use `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` and, only when relevant,
 `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md` and
 `angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`. Full audit reports and preceding
 null-section/native-topology layers are task-specific follow-up, not generic startup reads. The
@@ -19,9 +27,9 @@ H3/no-null implementation remains full-3D Hopf-capable and `OBSERVED_CARRIER_CON
 banked scope. The preceding bootstrap/reciprocal/optical/co-presence/GR-constraint chain remains
 intact. The latest correction restores the full founding channel premise: `c^-1` is the clock side,
 and dual Reciprocity plus regular composition fixes its reciprocal exponential response. Angular
-reversal at fixed nonnegative depth does not swap channels. The recent `sech`-type alternatives are
-withdrawn as clock laws because they fail multiplicative channel composition; the declared local
-Lorentzian proper-clock interpretation retains its conditional readout/representative stamps.
+reversal does not negate signed local `phi`. The recent `sech`-type alternatives remain rejected as
+multiplicative channel characters, but the universal nonnegative-`rho` physical-clock interpretation
+is withdrawn pending a local-field/observer comparison derivation.
 Global radial-angular distance, `X_max` readout/scale, action, source, boundary, carrier emergence,
 and unconditional mass remain open. No follow-on study, GPU work, reorganization, or canonization is
 authorized.
@@ -84,9 +92,9 @@ Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`,
 
 1. **`LIVE.md`** CURRENT STATE
 2. **`HANDOFF.md`** CURRENT block
-3. **`reciprocal_c_clock_channel_correction_2026-07-19/AUDIT_REPORT.md`** and
-   **`STATUS_LEDGER.tsv`**
-4. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** current-result/open-gate/authority sections
+3. **`udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`**, **`OWNER_MEANING_LEDGER.tsv`**,
+   **`PACKAGE_REGRADE.tsv`**, and **`RERUN_PRIORITY.md`**
+4. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** through the premise-reset overlay only
 5. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
    **`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`**
 6. The exact frozen evidence named by that frontier only for the active question

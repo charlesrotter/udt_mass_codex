@@ -4,22 +4,50 @@ Date: 2026-07-19
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## July 19 premise-reset overlay — current authority
+
+Read `udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`, then its
+`OWNER_MEANING_LEDGER.tsv`, `PACKAGE_REGRADE.tsv`, and `RERUN_PRIORITY.md` before using any result
+below.
+
+Inherited cumulative confidence in the July 19 chain is withdrawn. The corrected meanings are:
+
+- finite measured Einsteinian `c_E` is the ordinary terrestrial/solar clock-length baseline;
+- the pre-scale UDT core remains scale-free while measured `c_E` and `G_obs` introduce calibrated
+  scale at the observational layer without selecting an action;
+- `phi(p)` is a signed local field;
+- physical distance is nonnegative;
+- an ordered observer comparison may be signed but is not distance or angular reversal;
+- `X_max` is one global frame-shared output of the completed metric/bootstrap with observational
+  `c_E`, `G_obs`, and possibly mass/density—not a supplied positional-frame constant; and
+- the numerical finite boundary is expected as an asymptotic time/mass-dilation limit, with its
+  relation to the CMB fold and historical WR-L `X` still open.
+
+Across 19 frozen packages, 2 survive independently, 10 survive conditionally relabeled, 4 retain
+exact algebra with physical interpretation withdrawn, and 3 are contaminated/rerun-required. The
+Reciprocal-c anchor and character algebra survive; the universal identification of their argument
+with nonnegative `rho` does not. All four Xmax frame packages are conditional mathematics rather
+than current UDT observer-frame physics. No action, source, boundary formula, carrier, `X_max`, local
+density effect, or unconditional mass is derived.
+
 ## July 19 Reciprocal-c clock-channel correction overlay
 
-Read `reciprocal_c_clock_channel_correction_2026-07-19/AUDIT_REPORT.md` and its
-`STATUS_LEDGER.tsv` before reopening any clock-channel selector.
+This older overlay is preserved and superseded on its nonnegative-depth physical clock reading. Read
+`reciprocal_c_clock_channel_correction_2026-07-19/AUDIT_REPORT.md` only through the premise-reset
+overlay above.
 
 The full founding premise chain already names `c^-1` as the clock/time-per-length direction.
 Together with dual UDT Reciprocity and regular additive composition, this fixes the named reciprocal
-exponential channel response under the exact nontriviality and sign/unit stamps. Nonnegative physical
-depth remains fixed when angular direction reverses, so looking the other way does not swap the clock
-and ruler channels. Reversing an ordered observer comparison is a different inverse operation.
+exponential representation under the exact nontriviality and sign/unit stamps. Physical distance is
+nonnegative, while local `phi` may be signed. Angular reversal does not negate that local field, and
+reversing an ordered observer comparison is a different inverse operation.
 
 The later `sech(delta)`, `sech(delta)^2`, and `sech(2delta)` suggestions are withdrawn as alternative
 clock-channel laws: they are symmetric diagnostics but fail multiplicative positional composition
-and discard the postulated channel identity. The stationary `exp(-rho)` proper-clock interpretation
-remains `CONDITIONAL` on the declared local Lorentzian quadratic readout, Common-Scale
-representative, and observer scope; those premises are not promoted.
+and discard the postulated channel identity. The local metric coefficient `exp(-phi)` remains
+`CONDITIONAL` on the declared Lorentzian quadratic readout and representative. The later universal
+`exp(-rho)` physical-clock interpretation is withdrawn pending a signed-local-field observer
+comparison derivation.
 
 This removes a false selector seam but does not close the complete UDT dynamics. Global
 radial-angular distance, the operational `X_max` map and scale, physical representative, complete

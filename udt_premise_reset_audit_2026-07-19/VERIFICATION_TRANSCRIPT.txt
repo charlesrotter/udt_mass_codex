@@ -1,0 +1,183 @@
+Script started on 2026-07-19 22:16:47-04:00 [<not executed on terminal>]
+{
+  "catch_proofs": {
+    "Xmax_input_promotion_rejected": "PASS",
+    "blanket_all_invalid_rejected": "PASS",
+    "blanket_all_valid_rejected": "PASS",
+    "distance_forces_phi_nonnegative_rejected": "PASS",
+    "duplicate_package_rejected": "PASS",
+    "global_density_local_source_promotion_rejected": "PASS",
+    "hard_boundary_input_rejected": "PASS",
+    "missing_package_rejected": "PASS",
+    "navigation_quarantine_loss_rejected": "PASS",
+    "nonnegative_rho_clock_promotion_rejected": "PASS",
+    "observed_G_anchor_demotion_rejected": "PASS",
+    "physical_Xmax_frame_promotion_rejected": "PASS",
+    "prior_manifest_mutation_rejected": "PASS",
+    "reciprocal_c_anchor_demotion_rejected": "PASS",
+    "scale_free_core_loss_rejected": "PASS",
+    "signed_phi_loss_rejected": "PASS"
+  },
+  "checks": {
+    "all_19_prior_packages_byte_identical": "PASS",
+    "current_navigation_quarantine": "PASS",
+    "deterministic_dependency_graph": "PASS",
+    "report_contract": "PASS",
+    "source_inventory_replay": "PASS",
+    "table_contract": "PASS"
+  },
+  "controls": [
+    {
+      "path": "LIVE.md",
+      "sha256": "4224cef4f52eb09bd5f0570c284239f146450b7f253ebeb0fbf55b4b6c10aefb"
+    },
+    {
+      "path": "HANDOFF.md",
+      "sha256": "663d692b9e91bfb08a8019fe80bbc4abe1d94ab917caf06b351fec0864d3f271"
+    },
+    {
+      "path": "INDEX.md",
+      "sha256": "97612d269bd72431c1cb5190e15458c3d04a0747a4f9d9c0e062b9a71e93a73c"
+    },
+    {
+      "path": "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
+      "sha256": "3d70a81dc55708b37e159a7c10b2ef2833301c6a010fec7427330740eaf6c0ec"
+    }
+  ],
+  "counts": {
+    "load_bearing_claims": 42,
+    "owner_meanings": 15,
+    "package_regrades": {
+      "ALGEBRA_VALID_PHYSICS_WITHDRAWN": 4,
+      "CONTAMINATED_RERUN_REQUIRED": 3,
+      "SURVIVES_CONDITIONAL_RELABELED": 10,
+      "SURVIVES_INDEPENDENT": 2
+    },
+    "packages": 19,
+    "prior_manifest_entries": 346,
+    "semantic_conflicts": 13
+  },
+  "dependency_graph_sha256": "d7dff117e0e068a48713026da134d424c889f2a467cd55352d269f8bbf3c3faf",
+  "prior_packages": [
+    {
+      "entries": 18,
+      "manifest_sha256": "64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50",
+      "package": "angular_toric_closure_selector_2026-07-19",
+      "result": "PASS"
+    },
+    {
+      "entries": 20,
+      "manifest_sha256": "1a48e574835ee3838514294a7badd2415a74cdb0d10cf0545c30d3698ab022d2",
+      "package": "bootstrap_csn_phi_angular_selector_2026-07-19",
+      "result": "PASS"
+    },
+    {
+      "entries": 16,
+      "manifest_sha256": "14e13dd27aa7036a6fef7db9208681459b86c06186bfffc7990ee877947d8356",
+      "package": "copresence_causal_accessibility_selector_2026-07-19",
+      "result": "PASS"
+    },
+    {
+      "entries": 19,
+      "manifest_sha256": "022f3c97916e38f29260812c14ad0136574d1908c70aabc7d4e56ae99d78f7bc",
+      "package": "copresence_gr_constraint_regrade_2026-07-19",
+      "result": "PASS"
+    },
+    {
+      "entries": 20,
+      "manifest_sha256": "0e630938c516a0e70cfdb97924ebd6501bd4a97223909b038a22c341a653f1f7",
+      "package": "metric_cartan_holonomy_audit_2026-07-19",
+      "result": "PASS"
+    },
+    {
+      "entries": 14,
+      "manifest_sha256": "6f03f82d485d4a20c2d2bfc13dc8979c1b229bf92c53f0eb36831abf3d75febc",
+      "package": "native_hopfion_topology_audit_2026-07-19",
+      "result": "PASS"
+    },
+    {
+      "entries": 16,
+      "manifest_sha256": "e195d14349407c23e4a050628ec84298d3d35e23e2c25b5cf285a5c81f8e989b",
+      "package": "null_section_hopfion_metric_audit_2026-07-19",
+      "result": "PASS"
+    },
+    {
+      "entries": 19,
+      "manifest_sha256": "377eaa791ab93845f50c19d6eb30dadb0b10322ac0cbe405db55ca0a37ad3dfb",
+      "package": "projective_position_direction_magnitude_correction_2026-07-19",
+      "result": "PASS"
+    },
+    {
+      "entries": 19,
+      "manifest_sha256": "bde786c168a2bf552a9720afa66a3615e66c0d63ffcfb78af680c88813198a84",
+      "package": "projective_position_join_audit_2026-07-19",
+      "result": "PASS"
+    },
+    {
+      "entries": 18,
+      "manifest_sha256": "32e523d44142cd36904a66f385890c5c417d9b827d0ac3cf956bdb48a838004b",
+      "package": "projective_transport_section_selector_2026-07-19",
+      "result": "PASS"
+    },
+    {
+      "entries": 19,
+      "manifest_sha256": "ac38f2b58cf41e0965950ddceb615e8b1edda6f419cecf282c0a98a55f58ce85",
+      "package": "reciprocal_c_clock_channel_correction_2026-07-19",
+      "result": "PASS"
+    },
+    {
+      "entries": 14,
+      "manifest_sha256": "d4ce35881bfd79952083da84bd5bd7f80b6d21b0e69d698059e1695c6f90ba6d",
+      "package": "reciprocal_clock_optical_scale_selector_2026-07-19",
+      "result": "PASS"
+    },
+    {
+      "entries": 18,
+      "manifest_sha256": "01ed5557bb94a1df99209d37b1eb5e4eefae4486978be34ab09dafb73aeac17b",
+      "package": "reciprocal_metric_null_line_selector_2026-07-19",
+      "result": "PASS"
+    },
+    {
+      "entries": 20,
+      "manifest_sha256": "5121270039c91c654bcd9bb5667cb06c31a5b91dec3747ddf015df0129081812",
+      "package": "rung2_weld_postjuly_regrade_2026-07-19",
+      "result": "PASS"
+    },
+    {
+      "entries": 18,
+      "manifest_sha256": "9c074cc83b0815607c1a4a36f8dffeac09bf79c9d0f5aee74a356b21e87bf470",
+      "package": "transverse_reciprocal_realization_selector_2026-07-19",
+      "result": "PASS"
+    },
+    {
+      "entries": 19,
+      "manifest_sha256": "c36c5b9e58c4305c91dd52ccbcae42cbd77548f0d4d10d36eda85529e6eb754f",
+      "package": "xmax_accelerating_finite_cell_cartan_2026-07-19",
+      "result": "PASS"
+    },
+    {
+      "entries": 19,
+      "manifest_sha256": "dfd3c1b7497ee0b24e82e4277afe700ae17629f1912dfa39bcfa15db501f34db",
+      "package": "xmax_dynamic_observer_frame_2026-07-19",
+      "result": "PASS"
+    },
+    {
+      "entries": 20,
+      "manifest_sha256": "9b986d647b56283ba20dd25d4ae118bc42e775912656da70ef6237f1fbc83b5d",
+      "package": "xmax_full_frame_realization_2026-07-19",
+      "result": "PASS"
+    },
+    {
+      "entries": 20,
+      "manifest_sha256": "9b1dbd9a38176f9cc4996771485b3d459d83b425e64cd3ac63454350914c2fb3",
+      "package": "xmax_reciprocity_audit_2026-07-19",
+      "result": "PASS"
+    }
+  ],
+  "python": "3.10.12",
+  "result": "PASS",
+  "schema": "udt-premise-reset-verification-1.0",
+  "source_inventory_sha256": "92126906f6e24b6102a69d7130ff1555f01a802cc0939193f8fe5da0b6fb59e6"
+}
+
+Script done on 2026-07-19 22:16:47-04:00 [COMMAND_EXIT_CODE="0"]

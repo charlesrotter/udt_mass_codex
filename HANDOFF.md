@@ -7,36 +7,61 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-19).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-19 — Reciprocal-c clock-channel correction complete; false scalar selector withdrawn; genuine global/dynamical joins remain open)
+## CURRENT (2026-07-19 — premise-reset audit complete; inherited cumulative frontier withdrawn; no new derivation launched)
 
 **Read LIVE.md CURRENT STATE topmost layer first, then
-`reciprocal_c_clock_channel_correction_2026-07-19/AUDIT_REPORT.md` and its
-`STATUS_LEDGER.tsv`, then `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
+`udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`,
+`OWNER_MEANING_LEDGER.tsv`, `PACKAGE_REGRADE.tsv`, and `RERUN_PRIORITY.md`; then use
+`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` only through that correction overlay.** Older reports are
+preserved evidence, not inherited authority.
+
+Current premise-reset ruling:
+
+- finite measured Einsteinian `c_E` is the ordinary terrestrial/solar clock-length baseline;
+- UDT remains scale-free at its core, while measured `c_E` and `G_obs` introduce scale at the
+  calibrated observational layer without selecting an action;
+- signed local `phi(p)`, signed ordered observer comparison, and nonnegative physical distance are
+  different objects;
+- `X_max` is one global frame-shared output of the complete metric/bootstrap using observational
+  anchors `c_E`, `G_obs`, and possibly global mass/density—not a supplied frame constant;
+- global density is `M_tot/V_tot`; its local effects remain open with native mass emergence;
+- the boundary is expected as an asymptotic time/mass-dilation limit, while the relation among the
+  CMB fold, WR-L endpoint `X`, and global `X_max` remains open;
+- across 19 packages, 2 survive independently, 10 survive conditionally relabeled, 4 keep exact
+  algebra with physical interpretation withdrawn, and 3 require clean rerun;
+- the Reciprocal-c anchor survives, but the universal nonnegative-`rho` clock interpretation is
+  withdrawn pending a signed-local-phi worldline comparison;
+- all four Xmax frame packages are conditional mathematics, not current UDT observer-frame physics;
+- no further derivation, GPU work, canonization, or repository reorganization is authorized.
+
+Package: `udt_premise_reset_audit_2026-07-19/`.
+
+The following older angular chain is task-specific conditional evidence only:
 `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md` and
-`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`.** Read the full angular audit and the
+`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`. Read the full angular audit and the
 immediately preceding null-section/native-topology reports only when the actual task needs their
 derivation or provenance.
 
-The current correction restores the complete founding premise chain:
+The preceding Reciprocal-c correction is preserved but superseded on its physical clock reading:
 
 - `c^-1` is the owner-stated clock/time-per-length channel of Reciprocal-c Identity;
 - dual Reciprocity and regular additive composition already fix the named reciprocal exponential
   channel response under the recorded sign/unit and nontriviality stamps;
-- nonnegative physical depth is unchanged by angular direction reversal, so looking the other way
-  does not swap clock/ruler channels or speed the clock;
+- nonnegative physical distance is distinct from signed local `phi`; angular reversal does not
+  negate the local field;
 - ordered observer-comparison reversal remains an inverse algebraic operation and is not angular
   reversal;
 - the recent `sech`-type symmetric clock alternatives are withdrawn as complete-foundation
   countermodels because they fail multiplicative channel composition;
-- the stationary `exp(-rho)` proper-clock reading remains conditional on the declared local
-  Lorentzian quadratic readout, Common-Scale representative, and observer scope;
+- the universal stationary `exp(-rho)` physical-clock reading is now rerun-required; only the
+  `exp(-phi)` local metric coefficient survives conditionally in the declared representative;
 - complete radial-angular distance, the `X_max` readout/scale, physical representative, action,
   source, differentiable boundary, carrier emergence, unconditional mass, and time-live matter
   remain genuinely open;
 - no follow-on solve, canonization, GPU work, or repository reorganization is authorized.
 
-Package: `reciprocal_c_clock_channel_correction_2026-07-19/`; read `AUDIT_REPORT.md`,
-`STATUS_LEDGER.tsv`, then `CORRECTION_OVERLAY.tsv`.
+Package: `reciprocal_c_clock_channel_correction_2026-07-19/`; do not use without the premise-reset
+overlay.
 
 The two latest bounded CPU-only metric audits are complete and verified:
 
