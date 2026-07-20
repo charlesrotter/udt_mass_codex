@@ -1,0 +1,8 @@
+id	command	compute	exit_code	output_artifact	output_sha256
+E01	/usr/bin/python3 c2_time_fiber_shift_jacobi_2026-07-20/build_source_census.py	CPU_ONLY	0	CENSUS_TRANSCRIPT.txt	11dbbfe704c0fc73128b7230841ce0d1cb0e95418c55acbeaa92d7c557957af3
+E02	/usr/bin/python3 c2_time_fiber_shift_jacobi_2026-07-20/build_source_adjudication.py	CPU_ONLY	0	ADJUDICATION_TRANSCRIPT.txt	12dbb639c3ef42558bbe3336477ebaddc6e1b05ebcceb4a808a1980a344a37c4
+E03	/usr/bin/python3 c2_time_fiber_shift_jacobi_2026-07-20/derive_c2_time_fiber_shift.py	CPU_ONLY	0	DERIVATION_TRANSCRIPT.txt	6cd24834352c626a26bfc6991b24dd2c009db7749d107a4253b8faf2ab8d9d26
+E04	/usr/bin/python3 c2_time_fiber_shift_jacobi_2026-07-20/verify_c2_time_fiber_shift.py	CPU_ONLY	0	VERIFICATION_TRANSCRIPT.txt	adc3d00cf274a39a20f3d41fa5df1a956858fdabeec98c205ad6d101595287c3
+E05	/usr/bin/python3 -m pytest tests/	CPU_ONLY	1_EXPECTED_BASELINE	TEST_TRANSCRIPT.txt	5bfad2e9ea3b3eb74515546e518df21d55b9a9fce9748e478f1e981dbb67d264
+E06	/usr/bin/python3 -I -c import sys,runpy; sys.path.insert(0,'/home/udt-admin/.local/lib/python3.10/site-packages'); import sympy; assert sympy.__version__=='1.13.1'; print('isolated_sympy='+sympy.__version__); runpy.run_path('c2_time_fiber_shift_jacobi_2026-07-20/verify_c2_time_fiber_shift.py',run_name='__main__')	CPU_ONLY	0	ISOLATED_VERIFICATION_TRANSCRIPT.txt	15149eb08a0c9740b39cc5b91075cc8b5b465f26412e510a928657a3104d7217
+E07	fresh external-model review	EXTERNAL_REVIEW_NOT_PERFORMED	AUTHORIZATION_NOT_GIVEN	EXTERNAL_REVIEW_STATUS.txt	f7de99848436a13f3fe6967793a03a247d69ddfe02bbf8ed8e6f4089e4177788

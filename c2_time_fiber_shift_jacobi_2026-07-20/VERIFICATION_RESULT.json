@@ -1,0 +1,107 @@
+{
+  "catch_proofs": {
+    "Bach_equation_overclaim_rejected": "PASS",
+    "acceleration_overclaim_rejected": "PASS",
+    "action_overclaim_rejected": "PASS",
+    "base_source_mutation_rejected": "PASS",
+    "boundary-branch_misgrade_rejected": "PASS",
+    "boundary_equation_overclaim_rejected": "PASS",
+    "carrier_import_rejected": "PASS",
+    "closure_overclaim_rejected": "PASS",
+    "constant_misgrade_rejected": "PASS",
+    "derivation_full_equation_loss_rejected": "PASS",
+    "derivation_kernel_mutation_rejected": "PASS",
+    "electron_overclaim_rejected": "PASS",
+    "gauge_equation_overclaim_rejected": "PASS",
+    "matter_equation_overclaim_rejected": "PASS",
+    "maximum_overreach_rejected": "PASS",
+    "missing_branch_rejected": "PASS",
+    "missing_census_row_rejected": "PASS",
+    "missing_equation_rejected": "PASS",
+    "missing_scope_rejected": "PASS",
+    "missing_source_rejected": "PASS",
+    "missing_status_rejected": "PASS",
+    "nonlinear-branch_misgrade_rejected": "PASS",
+    "nonlinear-status_overclaim_rejected": "PASS",
+    "nonlinear_equation_overclaim_rejected": "PASS",
+    "scale_overclaim_rejected": "PASS",
+    "scoped-negative_overclaim_rejected": "PASS",
+    "singular-branch_misgrade_rejected": "PASS",
+    "singular_equation_overclaim_rejected": "PASS",
+    "stability_equation_overclaim_rejected": "PASS",
+    "time-live_misgrade_rejected": "PASS",
+    "wall_overclaim_rejected": "PASS"
+  },
+  "certification": "VERIFIED-WITH-CAVEATS: independent finite-metric Euclidean curvature sample and energy/operator reconstruction; no fresh external-model review",
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "counts": {
+    "branches": 9,
+    "catch_proofs": 31,
+    "census": 3786,
+    "completeness": 13,
+    "equations": 17,
+    "sources": 45,
+    "status": 17
+  },
+  "derivation_sha256": "5b558b0a41bc7b63e3c9bf16807040ad6c8157c6e832f22027cff8f2bb7ef00b",
+  "groups": {
+    "branches": {
+      "rows": 9,
+      "rulings_checked": 9
+    },
+    "completeness": {
+      "external_review": "NOT_PERFORMED",
+      "rows": 13
+    },
+    "derivation": {
+      "checks": 16,
+      "maximum_conclusion": "NO_REGULAR_NON_GAUGE_TIME_FIBER_SHIFT_JACOBI_MODE_IN_CONDITIONAL_ROUND_COMPACT_C2_SLICE; NONLINEAR_BOUNDARY_TIME_LIVE_SCALE_AND_MATTER_OPEN"
+    },
+    "equations": {
+      "rows": 17,
+      "rulings_checked": 17
+    },
+    "independent_algebra": {
+      "degree_six_energy_rank": 6,
+      "endpoint_v_exponents": [
+        "-1",
+        "0"
+      ],
+      "finite_metric_sample": {
+        "C2_epsilon2_at_pi_over_6": "48",
+        "background_R": "6"
+      },
+      "sample_Bach_projection": "-16",
+      "sample_Jacobi": "32*sqrt(3)"
+    },
+    "source_adjudication": {
+      "base_hashes_replayed": 45,
+      "rows": 45
+    },
+    "source_census": {
+      "dispositions": {
+        "CONTEXT_CANDIDATE": 1644,
+        "EXCLUDED_DUPLICATE_RAW_RECORD": 68,
+        "EXCLUDED_GENERATED_ORGANIZATION": 226,
+        "LOAD_BEARING_CANDIDATE": 45,
+        "PROVENANCE_OR_COUNTEREXAMPLE_ONLY": 1803
+      },
+      "rows": 3786
+    },
+    "source_syntax": {
+      "CSN": "PASS",
+      "parent_question": "PASS"
+    },
+    "status": {
+      "rows": 17,
+      "rulings_checked": 17
+    }
+  },
+  "result": "PASS",
+  "schema": "udt-conditional-c2-time-fiber-shift-verification-1.0",
+  "verdict": "NO_REGULAR_NON_GAUGE_TIME_FIBER_SHIFT_JACOBI_MODE_IN_CONDITIONAL_ROUND_COMPACT_C2_SLICE; NONLINEAR_BOUNDARY_TIME_LIVE_SCALE_AND_MATTER_OPEN"
+}

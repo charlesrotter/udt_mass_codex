@@ -1,0 +1,14 @@
+layer	coverage	status	omission_effect
+fields	one stationary torus-invariant time/fiber shift varied about full-equation-tested round N=H=s=1 background	JACOBI_COMPLETE_FOR_ONE_FIELD	other metric components and nonlinear backreaction remain open
+action terms	conditional pre-scale metric-only C2 bulk	EXACT_CONDITIONAL	complete action and boundary completion remain open
+full equations	reduced Jacobi equation independently matched to direct full Bach shift projection	COMPLETE_AT_LINEAR_SHIFT_ORDER	other Bach components constrain even-order backreaction, not tested here
+domain and coordinates	full eta interval, two angular circles, noncompact stationary time	EXACT_FOR_SLICE	general spatial/angular/time dependence omitted
+boundary and regularity	smooth primitive mathematical S3 caps; all local singular endpoint strata retained	CONDITIONAL_COMPACT_ONLY	physical finite-cell boundary may support other modes
+topological sector	conditional primitive capped S3 toric sector	ONE_CONDITIONAL_SECTOR	quotients and other topology open
+dynamical character	stationary Jacobi sector	ONE_TILE	time-periodic, hyperbolic, acceleration, and nonlinear stationary branches open
+branch and bifurcation	complete smooth linear kernel plus singular local strata	LINEAR_COMPLETE	disconnected finite-amplitude branches cannot be excluded
+stability spectrum	no time-dependent or canonical-energy calculation	NOT_TESTED	Jacobi kernel is not stability certification
+regime of validity	positive regular caps; conditional round compact C2 background	EXACTLY_SCOPED	boundary, singular, noncompact, alternative action, and post-scale regimes open
+scale and bootstrap	common homothety tracked; no global equation inserted	SOURCE_COMPLETE_FOR_CURRENT_RULE	no Xmax or physical scale selection
+carrier and matter	excluded by preregistration	NOT_PART_OF_SOLVE	no matter-action or particle claim
+external adversarial review	no fresh disclosure authorization	NOT_PERFORMED	maximum grade VERIFIED-WITH-CAVEATS

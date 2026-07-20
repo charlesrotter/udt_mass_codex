@@ -1,0 +1,18 @@
+id	claim	status	exact_regime	remaining_open_scope
+S01	The time/fiber shift enters conformal curvature only through derivatives at Jacobi order	DERIVED_CONDITIONAL	conditional round stationary fixed-basis background	nonlinear backreaction and other connections
+S02	Euclidean quadratic shift density is a positive sum of squares	DERIVED_CONDITIONAL	smooth capped S3 Jacobi sector	physical Lorentzian stability interpretation
+S03	Lorentzian quadratic density differs by an overall sign and has the same Jacobi zero set	DERIVED_CONDITIONAL	stationary analytic continuation	general time dependence
+S04	Reduced Jacobi variation matches the direct full Bach shift projection	DERIVED_CONDITIONAL	linear order in W	remaining Bach components at nonlinear order
+S05	The only smooth compact shift Jacobi mode is constant W	DERIVED_CONDITIONAL	w smooth in x=cos2eta on [-1,1]	physical boundary and singular completion
+S06	Constant W is an exact rotating-coordinate copy	DERIVED_EXACT_COORDINATE	noncompact tau and standard angular identifications	global causal/identification alternatives
+S07	A regular non-gauge time/fiber Jacobi mode exists	REFUTED_IN_SLICE	declared compact linear sector	nonlinear disconnected and boundary branches open
+S08	All nonconstant time/fiber solutions are excluded	NOT_DERIVED	Jacobi result only	nonlinear, boundary, singular, topology, other shifts
+S09	Endpoint log/pole branches were discarded	FALSE	explicit branch census	retained as uncompleted singular strata
+S10	The result proves acceleration/gravity equivalence	FALSE_EXCLUDED	stationary one-connection audit	acceleration remains open
+S11	The result selects absolute clock rate or scale	NOT_DERIVED	CSN quotient	Xmax/mass/c/G closure
+S12	Smooth mathematical caps are the physical wall	NOT_DERIVED	conditional compact domain	boundary action/data
+S13	Electron mass or material carrier entered the solve	FALSE_EXCLUDED	complete audit	future calibration only
+S14	Complete native action/source/mass follows	REFUTED_CONFLATION	conditional metric Jacobi tile	complete closure open
+S15	Time/fiber shift Jacobi classification	VERIFIED_WITH_CAVEATS	preregistered direct Weyl/Bach algebra; independent in-package checks; no fresh external review	cannot be promoted to nonlinear/unrestricted UDT geometry
+S16	Complete nonlinear stationary coframe	OPEN	unchanged	vary N,H,s,W and all connections
+S17	Complete native action/source/boundary/scale/mass	OPEN	unchanged final adjudication	full closure required

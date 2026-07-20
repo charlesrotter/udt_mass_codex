@@ -1,0 +1,59 @@
+{
+  "environment": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "records": [
+    {
+      "command": "/usr/bin/python3 c2_time_fiber_shift_jacobi_2026-07-20/build_source_census.py",
+      "exit_code": 0,
+      "id": "E01",
+      "output_artifact": "CENSUS_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "11dbbfe704c0fc73128b7230841ce0d1cb0e95418c55acbeaa92d7c557957af3"
+    },
+    {
+      "command": "/usr/bin/python3 c2_time_fiber_shift_jacobi_2026-07-20/build_source_adjudication.py",
+      "exit_code": 0,
+      "id": "E02",
+      "output_artifact": "ADJUDICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "12dbb639c3ef42558bbe3336477ebaddc6e1b05ebcceb4a808a1980a344a37c4"
+    },
+    {
+      "command": "/usr/bin/python3 c2_time_fiber_shift_jacobi_2026-07-20/derive_c2_time_fiber_shift.py",
+      "exit_code": 0,
+      "id": "E03",
+      "output_artifact": "DERIVATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "6cd24834352c626a26bfc6991b24dd2c009db7749d107a4253b8faf2ab8d9d26"
+    },
+    {
+      "command": "/usr/bin/python3 c2_time_fiber_shift_jacobi_2026-07-20/verify_c2_time_fiber_shift.py",
+      "exit_code": 0,
+      "id": "E04",
+      "output_artifact": "VERIFICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "adc3d00cf274a39a20f3d41fa5df1a956858fdabeec98c205ad6d101595287c3"
+    },
+    {
+      "command": "/usr/bin/python3 -m pytest tests/",
+      "exit_code": 1,
+      "id": "E05",
+      "output_artifact": "TEST_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "5bfad2e9ea3b3eb74515546e518df21d55b9a9fce9748e478f1e981dbb67d264"
+    },
+    {
+      "command": "/usr/bin/python3 -I -c import sys,runpy; sys.path.insert(0,'/home/udt-admin/.local/lib/python3.10/site-packages'); import sympy; assert sympy.__version__=='1.13.1'; print('isolated_sympy='+sympy.__version__); runpy.run_path('c2_time_fiber_shift_jacobi_2026-07-20/verify_c2_time_fiber_shift.py',run_name='__main__')",
+      "exit_code": 0,
+      "id": "E06",
+      "output_artifact": "ISOLATED_VERIFICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "15149eb08a0c9740b39cc5b91075cc8b5b465f26412e510a928657a3104d7217"
+    }
+  ],
+  "result": "PASS",
+  "schema": "udt-conditional-c2-time-fiber-shift-execution-1.0",
+  "test_baseline": {
+    "failed_known_hygiene": 1,
+    "passed": 69,
+    "xfailed": 1
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "Jacobi_equation": {
+    "direct_Bach_projection": "B_tau_xi1+B_tau_xi2=-Jacobi/[4 sin(2eta)]",
+    "eta_form": "sin(2eta) w''''+4cos(2eta) w'''-[16sin(2eta)+4cos^2(2eta)/sin(2eta)]w''+8cos(2eta)[cot^2(2eta)-1]w'=0",
+    "x": "cos(2eta)",
+    "x_form": "d_x^2[(1-x^2)^2 w_xx]-4 d_x[(1-x^2)w_x]=0"
+  },
+  "checks": {
+    "Euler_Lagrange_exact": "PASS",
+    "common_homothety_absent_from_dimensionless_Jacobi": "PASS",
+    "compact_coordinate_Jacobi_equation": "PASS",
+    "constant_shift_exact_coordinate_pullback": "PASS",
+    "constant_shift_is_Jacobi_solution": "PASS",
+    "cos2_sample_Q": "PASS",
+    "cos2_sample_first_square_zero": "PASS",
+    "cos2_sample_integrated_coefficient": "PASS",
+    "direct_Bach_projection_matches_reduced_Jacobi": "PASS",
+    "direct_Lorentzian_Weyl_norm_matches_square_form": "PASS",
+    "electron_mass_absent": "PASS",
+    "linear_Weyl_temporal_parity_gives_signature_flip": "PASS",
+    "round_product_scalar_curvature_six": "PASS",
+    "shift_has_no_linear_scalar_curvature": "PASS",
+    "smooth_energy_identity_positive": "PASS",
+    "smooth_global_kernel_only_constant": "PASS"
+  },
+  "complete_regular_kernel": {
+    "constant_status": "exact rotating-coordinate/gauge copy via xi1,xi2 -> xi1,xi2+W0 tau",
+    "energy_identity": "integral[(1-x^2)^2 w_xx^2+4(1-x^2)w_x^2] dx=0",
+    "result": "w=constant only",
+    "singular_local_strata": "retained: w_x pole/log and integration-constant endpoint-log branches",
+    "smooth_domain": "w(x) smooth on [-1,1]"
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "direct_coordinate_result": {
+    "Bach_projection": "B_tau_xi1+B_tau_xi2=-Jacobi/[4 sin(2 eta)]",
+    "Bach_projection_matches_reduced_Jacobi": true,
+    "all_nonzero_components_have_odd_temporal_parity": true,
+    "background_scalar_curvature": "6",
+    "euclidean_C2_quadratic": "+[(w''-2 cot(2 eta) w')^2+16(w')^2]",
+    "linear_scalar_curvature": "0",
+    "lorentzian_C2_quadratic": "-[(w''-2 cot(2 eta) w')^2+16(w')^2]",
+    "lorentzian_norm_coefficients_match": true,
+    "nonzero_linear_Weyl_components": 36
+  },
+  "maximum_conclusion": "NO_REGULAR_NON_GAUGE_TIME_FIBER_SHIFT_JACOBI_MODE_IN_CONDITIONAL_ROUND_COMPACT_C2_SLICE; NONLINEAR_BOUNDARY_TIME_LIVE_SCALE_AND_MATTER_OPEN",
+  "quadratic_density": {
+    "Euclidean": "q[(w''-2 cot(2 eta) w')^2+16(w')^2]",
+    "Lorentzian": "the negative of the Euclidean density; identical stationary zero set",
+    "q": "sin(eta)cos(eta)"
+  },
+  "result": "PASS",
+  "schema": "udt-conditional-c2-time-fiber-shift-jacobi-1.0",
+  "scope": {
+    "classified": "stationary torus-invariant time/fiber Jacobi sector about the conditional round compact solution",
+    "open": "nonlinear backreaction; disconnected branches; physical boundary; singular completion; other shifts; time dependence; acceleration; topology; scale; matter"
+  }
+}

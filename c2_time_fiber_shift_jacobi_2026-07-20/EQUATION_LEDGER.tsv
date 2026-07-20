@@ -1,0 +1,18 @@
+id	object	premises	exact_result	status	limitation
+E01	stationary shift coframe	conditional round background; e3=A+epsilon w(eta)d tau	full coordinate metric includes both linear cross terms and epsilon^2 w^2 d tau^2	DERIVED_CONDITIONAL	Only one torus-invariant time/fiber connection is opened
+E02	linear scalar curvature	E01; either signature	delta R=0	DERIVED_CONDITIONAL	Does not imply linear Weyl or Bach curvature vanishes
+E03	quadratic Euclidean Weyl norm	epsilon_t=+1; coefficient of epsilon^2	C4^2=(w''-2cot(2eta)w')^2+16(w')^2	DERIVED_CONDITIONAL	Jacobi order only
+E04	quadratic Lorentzian Weyl norm	epsilon_t=-1; stationary continuation	C4^2 is the negative of E03; stationary equation is unchanged	DERIVED_CONDITIONAL	Indefinite norm is not a stability energy
+E05	quadratic density	q=sin eta cos eta; round volume	L2=q[(w''-2cot(2eta)w')^2+16(w')^2]	DERIVED_CONDITIONAL	Overall angular/time normalization does not affect the zero set
+E06	eta Jacobi equation	arbitrary smooth w varied before trial mode	S w''''+4C w'''-(16S+4C^2/S)w''+8C(C^2/S^2-1)w'=0	DERIVED_CONDITIONAL	S=sin2eta,C=cos2eta; endpoints require separate regularity
+E07	direct full Bach projection	linearized full 4D Bach tensor	B_tau_xi1+B_tau_xi2=-Jacobi/[4 sin(2eta)]	DERIVED_CONDITIONAL	Only the shift-field projection is tested at Jacobi order
+E08	compact coordinate form	x=cos2eta	d_x^2[(1-x^2)^2w_xx]-4d_x[(1-x^2)w_x]=0	DERIVED_CONDITIONAL	Equivalent on the regular interior
+E09	smooth global energy identity	w smooth on closed x interval [-1,1]	integral[(1-x^2)^2w_xx^2+4(1-x^2)w_x^2]dx=0	DERIVED_CONDITIONAL	Uses mathematical capped compactness, not a physical-wall boundary rule
+E10	complete smooth kernel	E08-E09	w_x=0, so w=constant only	DERIVED_CONDITIONAL	Does not exclude singular, boundary-supported, or nonlinear disconnected branches
+E11	constant shift coordinate map	xi1'=xi1+W0 tau;xi2'=xi2+W0 tau	exact pullback equals the finite constant-W metric	DERIVED_EXACT_COORDINATE	Global status assumes noncompact time and unchanged angle identifications
+E12	cos2eta sample	w=cos2eta	first square vanishes; Q=64sin^2(2eta); integrated coefficient=256pi^2/3	OBSERVED_EXACT_DIAGNOSTIC	One nonconstant profile, not a solution-space proof
+E13	endpoint singular strata	local integrated ODE for v=w_x	v pole/log and integration-constant endpoint-log branches exist locally	CHARACTERIZED_OPEN_STRATA	No physical singular or boundary completion supplied
+E14	overall common scale	CSN homothety	Jacobi zero set contains no b	DERIVED_SCOPED	Absolute clock/radius/Xmax remain open
+E15	nonlinear backreaction	N,H,s,W varied at finite amplitude	no equation solved	OPEN	Jacobi result cannot become a nonlinear no-go
+E16	physical finite-cell boundary	current supplied premises	no differentiable C2 boundary/corner action or shift flux rule	OPEN_NOT_AN_EQUATION	Compact energy proof cannot be applied to the physical wall
+E17	matter and observational anchors	carrier, source, c/G calibration, electron mass excluded	no material equation or mass derived	NOT_SUPPLIED	Downstream calibration only

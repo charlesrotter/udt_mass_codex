@@ -1,0 +1,10 @@
+id	branch	passes	fails_or_open	ruling
+B01	w=constant	Jacobi; full Bach projection; exact finite coordinate pullback	global rotating-frame interpretation depends on noncompact time and identifications	SURVIVES_AS_COORDINATE_GAUGE_ORBIT
+B02	smooth nonconstant w on compact capped S3	local Jacobi equation can be posed	positive compact energy identity forces w_x=0	EXCLUDED_AT_JACOBI_ORDER_IN_SLICE
+B03	w=cos2eta	smooth trial profile; one square vanishes	second square nonzero and Jacobi residual nonzero	EXACT_NONSOLUTION_DIAGNOSTIC
+B04	endpoint pole/log local solutions	local fourth-order equation retains them	not smooth finite-action capped solutions	RETAINED_SINGULAR_STRATA
+B05	finite physical interval with boundary-supported shift	may evade compact integration by boundary terms	boundary/corner action and admissible data absent	OPEN_BOUNDARY_BRANCH
+B06	finite-amplitude W with N,H,s backreaction	allowed by full stationary ansatz	Jacobi kernel cannot classify disconnected or bifurcating nonlinear solutions	OPEN_NONLINEAR_BRANCH
+B07	other time/base or time/radial shifts and moving angular basis	allowed by whole coframe census	not represented by W	OPEN_CONNECTION_BRANCHES
+B08	genuine time dependence or acceleration	allowed by UDT frontier	not stationary and not covered	OPEN_TIME_LIVE_BRANCH
+B09	alternative topology or cap completion	currently underdetermined	compact S3 energy proof is topology/domain scoped	OPEN_GLOBAL_GEOMETRY_BRANCH

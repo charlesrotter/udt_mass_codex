@@ -1,0 +1,5 @@
+No fresh external-model review was authorized for this audit.
+
+Independent in-package verification uses an explicit-profile finite off-diagonal metric curvature
+reconstruction, separate compact-coordinate operator and energy algebra, base-source replay, and
+exercised fail-closed mutations. The maximum grade remains VERIFIED-WITH-CAVEATS.
