@@ -1,0 +1,94 @@
+{
+  "catch_proofs": {
+    "L6_box_promotion_rejected": "PASS",
+    "Xmax_ratio_absolute_promotion_rejected": "PASS",
+    "base_source_mutation_rejected": "PASS",
+    "coefficient_derivation_invention_rejected": "PASS",
+    "coefficient_native_promotion_rejected": "PASS",
+    "conditional_mass_promotion_rejected": "PASS",
+    "conditional_ruler_absolute_promotion_rejected": "PASS",
+    "counterfactual_Xmax_overclaim_rejected": "PASS",
+    "derivation_Xmax_overclaim_rejected": "PASS",
+    "derivation_mass_overclaim_rejected": "PASS",
+    "fixed_Q_scale_invention_rejected": "PASS",
+    "grid_box_scale_promotion_rejected": "PASS",
+    "maximum_conclusion_overreach_rejected": "PASS",
+    "missing_census_row_rejected": "PASS",
+    "missing_dimensional_object_rejected": "PASS",
+    "missing_kappa_g_invention_rejected": "PASS",
+    "missing_parameter_rejected": "PASS",
+    "missing_source_adjudication_rejected": "PASS",
+    "missing_status_rejected": "PASS",
+    "numerical_box_physical_promotion_rejected": "PASS",
+    "phaseG_mass_overclaim_rejected": "PASS",
+    "supplied_Q_promotion_rejected": "PASS",
+    "topology_radius_invention_rejected": "PASS",
+    "topology_scale_promotion_rejected": "PASS",
+    "unit_coefficient_promotion_rejected": "PASS"
+  },
+  "certification": "VERIFIED-WITH-CAVEATS: independent AST/source replay and algebra; no fresh external-model review",
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "counts": {
+    "catch_proofs": 25,
+    "census": 3924,
+    "objects": 26,
+    "parameters": 28,
+    "sources": 41,
+    "status": 16
+  },
+  "derivation_sha256": "79e8e2d2545aa2c69e45775361d1ea8f299948ba8ccdc6d5b5a4cfbab8abe433",
+  "groups": {
+    "code_parameters": {
+      "anchors_checked": 8,
+      "rows": 28
+    },
+    "derivation": {
+      "checks": 31,
+      "maximum_conclusion": "HIDDEN_CONDITIONAL_COEFFICIENT_RULER; NO_NATIVE_DIMENSIONAL_MATTER_OBJECT_FOUND"
+    },
+    "dimensional_objects": {
+      "noncircular_scale_breakers": 0,
+      "rows": 26
+    },
+    "independent_algebra": {
+      "L2_power": 1,
+      "L4_power": -1,
+      "coefficient_ratio_dimension": "length^2",
+      "gaussian_shape_integrals_positive": true,
+      "stationary_radius": "sqrt(B0)*sqrt(b)/(sqrt(A0)*sqrt(a))"
+    },
+    "source_adjudication": {
+      "base_hashes_replayed": 41,
+      "rows": 41
+    },
+    "source_census": {
+      "dispositions": {
+        "CONTEXT_CANDIDATE": 1650,
+        "EXCLUDED_DUPLICATE_RAW_RECORD": 58,
+        "EXCLUDED_GENERATED_ORGANIZATION": 271,
+        "LOAD_BEARING_CANDIDATE": 41,
+        "PROVENANCE_OR_CONTEXT_ONLY": 1904
+      },
+      "rows": 3924
+    },
+    "source_syntax": {
+      "box": "PASS",
+      "coefficient_defaults": "PASS",
+      "continuum": "PASS",
+      "fixed_Q": "PASS",
+      "mass": "PASS",
+      "stability": "PASS"
+    },
+    "status": {
+      "rows": 16,
+      "rulings_checked": 16
+    }
+  },
+  "result": "PASS",
+  "schema": "udt-matter-bootstrap-dimensional-verification-1.0",
+  "verdict": "HIDDEN_CONDITIONAL_COEFFICIENT_RULER; NO_NATIVE_DIMENSIONAL_MATTER_OBJECT_FOUND"
+}

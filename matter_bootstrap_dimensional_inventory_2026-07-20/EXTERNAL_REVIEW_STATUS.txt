@@ -1,0 +1,5 @@
+NO_FRESH_EXTERNAL_MODEL_REVIEW
+
+No explicit disclosure authorization was supplied for this audit. Independent verification is
+in-package and uses separate AST/source replay plus independent exact algebra. Maximum grade remains
+VERIFIED-WITH-CAVEATS.

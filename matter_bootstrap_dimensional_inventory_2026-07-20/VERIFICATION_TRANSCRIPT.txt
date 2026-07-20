@@ -1,0 +1,1 @@
+{"catch_proofs": 25, "groups": 8, "result": "PASS", "verdict": "HIDDEN_CONDITIONAL_COEFFICIENT_RULER; NO_NATIVE_DIMENSIONAL_MATTER_OBJECT_FOUND"}

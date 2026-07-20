@@ -4,6 +4,46 @@ Date: 2026-07-20
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## July 20 matter/bootstrap dimensional-inventory overlay — current authority
+
+Read `matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, `DIMENSIONAL_OBJECT_LEDGER.tsv`, and
+`NEXT_SCIENTIFIC_DECISION.md` before the older layers below.
+
+For the exact conditional three-dimensional `L2+L4` functional already used by the corrected
+no-null branch, a scaled shape obeys
+
+```text
+E(R)=xi*A*R+kappa*B/R,
+R_star=sqrt(kappa/xi)*sqrt(B/A),
+E_star=2*sqrt(xi*kappa*A*B).
+```
+
+The finite static size therefore inherits the coefficient ruler `ell_coeff=sqrt(kappa/xi)`; Hopf
+topology alone does not set a radius. In physical dimensions, `xi` is energy/length and `kappa` is
+energy times length. The standard source paths expose these coefficients and normally set both to
+one, which absorbs one length and energy unit into code coordinates rather than deriving them from
+the UDT metric.
+
+Measured `c_E,G_obs` can dimensionally form the force scale `c_E^4/G_obs`, but the four-derivative
+coefficient still needs a length squared. Consequently both physical soliton radius and
+`E_star/c_E^2` retain the same undetermined ruler. The computational `L,h,N,HBW` are numerical or
+domain controls, fixed-Q inertia factorizes with the same ruler, and phase G remains a conditional
+EH/weak-field unit-response mass readout without a physical `kappa_g` value or controlled isolated
+boundary completion.
+
+The `Xmax` reciprocity hypothesis remains explicitly retained as conditional scale-weight-zero
+compatibility. If a future native derivation supplied `kappa/xi=Xmax^2*f(state)`, it could select
+`R_star/Xmax`; it would not select absolute `Xmax`, because the common homothety remains.
+
+Across a 3,924-source frozen census and 41 individually adjudicated load-bearing sources, no native
+dimensional matter object or coefficient was found before the carrier/action/domain/readout inputs.
+Exact 31/31 algebra and an independent eight-group/25-catch verifier pass. Status:
+`HIDDEN_CONDITIONAL_COEFFICIENT_RULER; NO_NATIVE_DIMENSIONAL_MATTER_OBJECT_FOUND`,
+`VERIFIED-WITH-CAVEATS`. The carrier, complete action, source, boundary charge, unconditional mass,
+absolute `Xmax`, and time-live persistence remain open. No follow-on derivation, GPU work,
+canonization, or reorganization follows.
+
 ## July 20 scale-breaking whole-closure overlay — current authority
 
 Read `scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,

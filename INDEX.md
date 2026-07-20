@@ -3,6 +3,16 @@
 **⚠ BRANCH: `grok` (2026-07-20)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
 **➤ CURRENT SCIENTIFIC FRONTIER:**
+`matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
+`LAY_DECISION_TREE.md`, `DIMENSIONAL_OBJECT_LEDGER.tsv`, and `NEXT_SCIENTIFIC_DECISION.md`. The
+conditional static soliton has exact scale law `E(R)=xi*A*R+kappa*B/R` and therefore
+`R_star=sqrt(kappa/xi)*sqrt(B/A)`. Its finite size inherits the coefficient ruler
+`sqrt(kappa/xi)`; the standard `xi=kappa=1` branch absorbs that ruler into code units. Hopf topology
+is dimensionless, the finite box/grid are numerical controls, fixed-Q inertia uses the same ruler,
+and phase-G mass remains a conditional EH unit-response readout. `c_E,G_obs` cannot supply the
+length squared needed by `kappa`. A future `kappa/xi=Xmax^2*f` could select particle/`Xmax` ratio
+but not absolute `Xmax`; conditional `Xmax` reciprocity remains compatible and scale blind. No
+native dimensional matter object was found. Next read
 `scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
 `LAY_DECISION_TREE.md`, `SCALE_WEIGHT_LEDGER.tsv`, and `NEXT_SCIENTIFIC_DECISION.md`. The exact
 dimensional matrix for `(M_tot,X_max,c_E,G_obs)` has one null group, compactness
@@ -114,21 +124,25 @@ Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`,
 
 1. **`LIVE.md`** CURRENT STATE
 2. **`HANDOFF.md`** CURRENT block
-3. **`native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`**,
+3. **`matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`**,
+   **`STATUS_LEDGER.tsv`**, **`LAY_DECISION_TREE.md`**, and **`NEXT_SCIENTIFIC_DECISION.md`**
+4. **`scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md`**,
+   **`STATUS_LEDGER.tsv`**, **`LAY_DECISION_TREE.md`**, and **`NEXT_SCIENTIFIC_DECISION.md`**
+5. **`native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`**,
    **`STATUS_LEDGER.tsv`**, **`LAY_DECISION_TREE.md`**, and **`NEXT_DERIVATION.md`**
-4. **`asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`**,
+6. **`asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`**,
    **`STATUS_LEDGER.tsv`**, **`LAY_DECISION_TREE.md`**, and **`GLOBAL_CLOSURE_EQUATION_LEDGER.tsv`**
-5. **`udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`**, **`OWNER_MEANING_LEDGER.tsv`**,
+7. **`udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`**, **`OWNER_MEANING_LEDGER.tsv`**,
    **`PACKAGE_REGRADE.tsv`**, and **`RERUN_PRIORITY.md`**
-6. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** through all current overlays only
-7. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
+8. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** through all current overlays only
+9. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
    **`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`**
-8. The exact frozen evidence named by that frontier only for the active question
-9. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
-10. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
-11. Only the task-triggered protocol under **`.claude/skills/`**
-12. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
-13. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
+10. The exact frozen evidence named by that frontier only for the active question
+11. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
+12. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
+13. Only the task-triggered protocol under **`.claude/skills/`**
+14. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
+15. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
 
 ---
 

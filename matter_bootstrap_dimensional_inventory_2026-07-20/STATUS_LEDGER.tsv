@@ -1,0 +1,17 @@
+id	question	status	ruling
+S01	How do the two continuum terms scale in three spatial dimensions?	DERIVED_SCOPED	E2 scales as R and E4 as 1/R under n_R(x)=n_1(x/R).
+S02	What sets the stationary static size?	DERIVED_SCOPED	R_star=sqrt(kappa/xi)*sqrt(B/A); topology alone does not set it.
+S03	Does the existing branch contain a hidden ruler?	VERIFIED_WITH_CAVEATS	Yes: ell_coeff=sqrt(kappa/xi), absorbed as one code length when xi=kappa=1.
+S04	Are xi and kappa natively derived from the UDT metric?	OPEN_NOT_FOUND	No current source derives either coefficient before choosing the carrier/action.
+S05	Can c_E and G_obs alone normalize both coefficients?	REFUTED_AS_SUFFICIENT	c_E^4/G_obs has xi dimensions; kappa additionally requires a length squared.
+S06	Does Hopf topology set absolute size?	REFUTED_AS_SUFFICIENT	Q_H is dimensionless and invariant under common rescaling.
+S07	Does the finite numerical box supply a physical scale?	REFUTED_CONFLATION	L,h,N,HBW are category-A/domain controls and the carrier wall is explicitly a solver boundary.
+S08	Does finite-grid stability derive the ruler?	REFUTED_AS_SUFFICIENT	It certifies a local minimum only within the chosen carrier/action/box/coefficient branch.
+S09	Does the fixed-Q branch add an independent ruler or clock?	NOT_FOUND	Its inertia factorizes with ell_coeff and its Q/time normalization is supplied in code units.
+S10	Is phase-G an unconditional native mass?	CONDITIONAL	M_N^(0)=2E4 is an EH/weak-field unit-response readout and lacks kappa_g plus controlled isolated boundary completion.
+S11	What if kappa/xi is tied to Xmax squared?	RATIO_ONLY_CONDITIONAL	R_star/Xmax can be selected but the common absolute scale remains free.
+S12	Does Xmax reciprocity close that remaining scale?	CONDITIONAL_NOT_SELECTOR	x/Xmax has scale weight zero and is compatible with, but does not choose, the common scale.
+S13	Is a native matter/source dimensional eigenvalue present?	OPEN_NOT_FOUND	No such object occurs in the audited current branch.
+S14	Is the complete matter action derived?	OPEN	Carrier, action coefficients, metric coupling, source, and boundary charge remain conditional or open.
+S15	Is time-live persistence proved?	OPEN	Relaxation and fixed-Q scans are not physical time evolution.
+S16	Maximum bankable conclusion	VERIFIED_WITH_CAVEATS	Hidden conditional coefficient ruler found; no native dimensional matter object found; no fresh external-model review.

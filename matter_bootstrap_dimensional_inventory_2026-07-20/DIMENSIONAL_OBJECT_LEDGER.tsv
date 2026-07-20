@@ -1,0 +1,27 @@
+id	object	definition_or_dimensions	primary_provenance	closure_class	current_ruling
+D01	measured c_E	length/time	OBSERVATIONAL_CALIBRATION	RATIO_OR_COMPACTNESS_ONLY	accepted terrestrial/solar scale anchor
+D02	observed G_obs	length^3/(mass*time^2)	OBSERVATIONAL_CALIBRATION	RATIO_OR_COMPACTNESS_ONLY	accepted gravitational calibration anchor
+D03	physical Xmax	global length	OPEN_NOT_PRESENT	COULD_BREAK_IF_NATIVELY_DERIVED	not yet selected in absolute units
+D04	total mass M_tot	global mass	OPEN_NOT_PRESENT	COULD_BREAK_IF_NATIVELY_DERIVED	not yet natively derived
+D05	L2 coefficient xi	energy/length = force	CONDITIONAL_ACTION_OR_CARRIER_INPUT	COULD_BREAK_IF_NATIVELY_DERIVED	exposed by current functional but not metric-derived
+D06	L4 coefficient kappa	energy*length	CONDITIONAL_ACTION_OR_CARRIER_INPUT	COULD_BREAK_IF_NATIVELY_DERIVED	exposed by current functional but not metric-derived
+D07	coefficient ruler ell_coeff	sqrt(kappa/xi), length	CONDITIONAL_ACTION_OR_CARRIER_INPUT	BLOCKED_BY_CONDITIONAL_PREMISE	hidden ruler absorbed as one code unit when xi=kappa=1
+D08	coefficient energy unit	sqrt(xi*kappa), energy	CONDITIONAL_ACTION_OR_CARRIER_INPUT	BLOCKED_BY_CONDITIONAL_PREMISE	hidden energy normalization absorbed in code units
+D09	static soliton radius R_star	ell_coeff*sqrt(B/A)	SOLUTION_OUTPUT_CONDITIONAL_ON_INPUTS	BLOCKED_BY_CONDITIONAL_PREMISE	finite size inherits coefficient ruler and dimensionless shape
+D10	static carrier energy E_star	2*sqrt(xi*kappa*A*B)	SOLUTION_OUTPUT_CONDITIONAL_ON_INPUTS	BLOCKED_BY_CONDITIONAL_PREMISE	conditional branch output
+D11	rest-mass conversion E_star/c_E^2	mass	SOLUTION_OUTPUT_CONDITIONAL_ON_INPUTS	BLOCKED_BY_CONDITIONAL_PREMISE	retains ell_coeff and action normalization
+D12	phase-G M_N^(0)	2E4 in unit response	SOLUTION_OUTPUT_CONDITIONAL_ON_INPUTS	BLOCKED_BY_CONDITIONAL_PREMISE	conditional EH/weak-field readout; no kappa_g value
+D13	Hopf charge Q_H	integer/dimensionless	DIMENSIONLESS_TOPOLOGY_OR_SHAPE	NOT_PHYSICAL_SCALE_INFORMATION	classifies topology but supplies no ruler
+D14	fixed charge Q	numeric list in code normalization	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	NOT_PHYSICAL_SCALE_INFORMATION	supplied rather than derived
+D15	isorotation inertia I	xi*C2*R^3+kappa*C4*R	SOLUTION_OUTPUT_CONDITIONAL_ON_INPUTS	BLOCKED_BY_CONDITIONAL_PREMISE	factorizes with same ell_coeff; no new ruler
+D16	frequency omega	Q/I in code normalization	SOLUTION_OUTPUT_CONDITIONAL_ON_INPUTS	BLOCKED_BY_CONDITIONAL_PREMISE	no native physical time normalization
+D17	box half-width L	coordinate/code length	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	NOT_PHYSICAL_SCALE_INFORMATION	computational domain, not UDT finite-cell wall
+D18	grid spacing h	2L/(N-1) or recorded code spacing	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	NOT_PHYSICAL_SCALE_INFORMATION	convergence control
+D19	grid count N	integer	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	NOT_PHYSICAL_SCALE_INFORMATION	no physical scale content
+D20	boundary width HBW	grid layers	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	NOT_PHYSICAL_SCALE_INFORMATION	pinned solver boundary control
+D21	constant exterior carrier value	dimensionless target boundary condition	CONDITIONAL_ACTION_OR_CARRIER_INPUT	BLOCKED_BY_CONDITIONAL_PREMISE	topological branch premise, not physical wall
+D22	round S2 target radius	unit by target convention	CONDITIONAL_ACTION_OR_CARRIER_INPUT	BLOCKED_BY_CONDITIONAL_PREMISE	dimensionless target normalization, not spacetime length
+D23	EH gravitational normalization kappa_g	action/source normalization	OPEN_NOT_PRESENT	COULD_BREAK_IF_NATIVELY_DERIVED	not used in phase-G unit response
+D24	total density center	mass/length^3	OPEN_NOT_PRESENT	COULD_BREAK_IF_NATIVELY_DERIVED	bootstrap postulate does not supply a value
+D25	Xmax reciprocity position	x/Xmax dimensionless	DIMENSIONLESS_TOPOLOGY_OR_SHAPE	RATIO_OR_COMPACTNESS_ONLY	conditional hypothesis compatible with common scaling
+D26	counterfactual ell_coeff/Xmax	sqrt(f4/f2) dimensionless	CONDITIONAL_ACTION_OR_CARRIER_INPUT	RATIO_OR_COMPACTNESS_ONLY	would select particle/cell ratio, not absolute Xmax

@@ -1,0 +1,86 @@
+{
+  "checks": {
+    "Derrick_stationarity_E2_equals_E4": "PASS",
+    "Xmax_counterfactual_common_scale_survives": "PASS",
+    "Xmax_counterfactual_mass_scales_with_Xmax": "PASS",
+    "Xmax_counterfactual_selects_radius_ratio": "PASS",
+    "Xmax_reciprocity_coordinate_scale_weight_zero": "PASS",
+    "anchored_coefficient_ratio": "PASS",
+    "anchored_energy_contains_extra_length": "PASS",
+    "anchored_mass_contains_same_length": "PASS",
+    "anchored_radius_contains_extra_length": "PASS",
+    "box_physical_length_inherits_coefficient_ruler": "PASS",
+    "c4_over_G_does_not_match_kappa": "PASS",
+    "c4_over_G_matches_xi": "PASS",
+    "code_unit_factorization": "PASS",
+    "coefficient_ratio_is_ruler": "PASS",
+    "grid_count_has_no_physical_dimension": "PASS",
+    "grid_spacing_inherits_coefficient_ruler": "PASS",
+    "inertia_L2_scaling_R3": "PASS",
+    "inertia_L4_scaling_R1": "PASS",
+    "inertia_uses_same_coefficient_ruler": "PASS",
+    "kappa_dimension_energy_length": "PASS",
+    "kappa_over_xi_dimension_length_squared": "PASS",
+    "scaled_energy_exact": "PASS",
+    "stationary_energy": "PASS",
+    "stationary_point_positive": "PASS",
+    "stationary_radius_solves_derivative": "PASS",
+    "three_dimensional_L2_scaling": "PASS",
+    "three_dimensional_L4_scaling": "PASS",
+    "topological_Q_has_no_scale": "PASS",
+    "unit_coefficients_absorb_energy_unit": "PASS",
+    "unit_coefficients_absorb_length_unit": "PASS",
+    "xi_dimension_force": "PASS"
+  },
+  "coefficient_dimensions": {
+    "code_ruling": "xi=kappa=1 absorbs ell_coeff=1 and the corresponding energy unit",
+    "energy_unit": "sqrt(xi*kappa)",
+    "kappa": "energy*length = mass*length^3/time^2",
+    "kappa_over_xi": "length^2",
+    "length_unit": "ell_coeff=sqrt(kappa/xi)",
+    "xi": "energy/length = force = mass*length/time^2"
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "continuum_scaling": {
+    "E2": "xi*A*R",
+    "E4": "kappa*B/R",
+    "family": "n_R(x)=n_1(x/R) in three spatial dimensions",
+    "ruling": "FINITE_STATIC_SIZE_INHERITS_COEFFICIENT_RATIO; TOPOLOGY_ALONE_DOES_NOT_SET_RADIUS",
+    "stationary_energy": "2*sqrt(xi*kappa*A*B)",
+    "stationary_radius": "sqrt(kappa/xi)*sqrt(B/A)"
+  },
+  "fixed_charge": {
+    "factorized": "xi*ell_coeff^3*(C2*s^3+C4*s)",
+    "inertia": "xi*C2*R^3+kappa*C4*R",
+    "ruling": "NO_INDEPENDENT_NATIVE_RULER_FOUND",
+    "source_status": "existing Q values and time/frequency normalization are supplied in code units"
+  },
+  "mass_readout": {
+    "boundary": "M_N=E_carrier additionally needs controlled vanishing boundary/residual terms",
+    "carrier_energy": "conditional on round-S2 L2+L4 branch",
+    "phase_G": "conditional EH/weak-field unit-response M_N^(0)=2E4; no kappa_g value",
+    "rest_mass_conversion": "E_star/c_E^2 retains ell_0",
+    "ruling": "NO_NATIVE_UNCONDITIONAL_MASS_NORMALIZATION"
+  },
+  "maximum_conclusion": "HIDDEN_CONDITIONAL_COEFFICIENT_RULER; NO_NATIVE_DIMENSIONAL_MATTER_OBJECT_FOUND",
+  "observational_anchors": {
+    "kappa_requires": "(c_E^4/G_obs)*ell_0^2*dimensionless f4",
+    "physical_mass": "2*(c_E^2/G_obs)*ell_0*sqrt(f2*f4*A*B)",
+    "physical_radius": "ell_0*sqrt(f4*B/(f2*A))",
+    "ruling": "c_E_AND_G_obs_DO_NOT_SUPPLY_ell_0",
+    "xi_possible_dimension_only": "(c_E^4/G_obs)*dimensionless f2"
+  },
+  "result": "PASS",
+  "schema": "udt-matter-bootstrap-dimensional-inventory-1.0",
+  "xmax_counterfactual": {
+    "assumption": "kappa/xi=Xmax^2*(f4/f2)",
+    "homothety": "Xmax,R_star,M_star all retain one common scale",
+    "reciprocity": "conditional x/Xmax structure remains scale-weight zero",
+    "result": "R_star/Xmax=sqrt(f4*B/(f2*A))",
+    "ruling": "RATIO_SELECTION_ONLY; NOT_ABSOLUTE_XMAX_SELECTION"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "environment": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "records": [
+    {
+      "command": "/usr/bin/python3 matter_bootstrap_dimensional_inventory_2026-07-20/build_source_census.py",
+      "exit_code": 0,
+      "id": "E01",
+      "output_artifact": "CENSUS_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "33e792d14e5897f6e8d16229fbdb096166477795abe3b87786368933e4ccfe4b"
+    },
+    {
+      "command": "/usr/bin/python3 matter_bootstrap_dimensional_inventory_2026-07-20/build_source_adjudication.py",
+      "exit_code": 0,
+      "id": "E02",
+      "output_artifact": "ADJUDICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "c3d27814272b8b3c9df00579ee9cc810025c3e719c53e2f281746a76ae956dc3"
+    },
+    {
+      "command": "/usr/bin/python3 matter_bootstrap_dimensional_inventory_2026-07-20/derive_matter_dimensional_inventory.py",
+      "exit_code": 0,
+      "id": "E03",
+      "output_artifact": "DERIVATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "27b22d24511a0d4a7dfe0030085d95c346a96f01e3d7a8f5b90346eb8638c5d3"
+    },
+    {
+      "command": "/usr/bin/python3 matter_bootstrap_dimensional_inventory_2026-07-20/verify_matter_dimensional_inventory.py",
+      "exit_code": 0,
+      "id": "E04",
+      "output_artifact": "VERIFICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "0369fbb1f0c83b3548253ab241a1652599eac2be5fbcbbc15800e7497d567e86"
+    },
+    {
+      "command": "/usr/bin/python3 -m pytest tests/",
+      "exit_code": 1,
+      "id": "E05",
+      "output_artifact": "TEST_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "0864f26f590ea05a15db7c2ece86ad2f152947f0adc92991499df4e9cac1d985"
+    },
+    {
+      "command": "/usr/bin/python3 -I -c import sys,runpy; sys.path.insert(0,'/home/udt-admin/.local/lib/python3.10/site-packages'); import sympy; assert sympy.__version__=='1.13.1'; print('isolated_sympy='+sympy.__version__); runpy.run_path('matter_bootstrap_dimensional_inventory_2026-07-20/verify_matter_dimensional_inventory.py',run_name='__main__')",
+      "exit_code": 0,
+      "id": "E06",
+      "output_artifact": "ISOLATED_VERIFICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "d53fd7091c5695369a645eed281d52f3ac5b7cb70dd19be8d6813c7557daaf88"
+    }
+  ],
+  "result": "PASS",
+  "schema": "udt-matter-bootstrap-dimensional-execution-1.0",
+  "test_baseline": {
+    "failed_known_hygiene": 1,
+    "passed": 69,
+    "xfailed": 1
+  }
+}

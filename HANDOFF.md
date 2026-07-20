@@ -7,9 +7,11 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-20).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-20 — scale-breaking closure census complete; verified with caveats; no follow-on launched)
+## CURRENT (2026-07-20 — matter dimensional inventory complete; verified with caveats; no follow-on launched)
 
 **Read LIVE.md CURRENT STATE topmost layer first, then
+`matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
+`LAY_DECISION_TREE.md`, `DIMENSIONAL_OBJECT_LEDGER.tsv`, and `NEXT_SCIENTIFIC_DECISION.md`; next read
 `scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
 `LAY_DECISION_TREE.md`, `SCALE_WEIGHT_LEDGER.tsv`, and `NEXT_SCIENTIFIC_DECISION.md`; next read
 `boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md`,
@@ -24,6 +26,29 @@
 `OWNER_MEANING_LEDGER.tsv`, `PACKAGE_REGRADE.tsv`, and `RERUN_PRIORITY.md`; then use
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` only through that correction overlay.** Older reports are
 preserved evidence, not inherited authority.
+
+Current matter-dimensional ruling:
+
+- the existing conditional static branch obeys `E(R)=xi*A*R+kappa*B/R`, so
+  `R_star=sqrt(kappa/xi)*sqrt(B/A)`;
+- `xi` has dimensions energy/length and `kappa` energy*length. Their ratio supplies the hidden
+  length squared; setting both to one absorbs the ruler into code units rather than deriving it;
+- Hopf charge is dimensionless. The finite box/grid can perturb the branch but cannot create the
+  continuum coefficient ruler. The scoped stability result remains valid within its exact premises;
+- fixed-Q inertia factorizes with the same coefficient ruler and uses supplied charge/time
+  normalization, so it adds no native independent clock or length;
+- `c_E,G_obs` can dimensionally normalize `xi` as force, but `kappa` still requires an independent
+  length squared. The same missing length remains in physical radius and mass;
+- phase G remains an EH/weak-field unit-response readout with no `kappa_g` value and no controlled
+  isolated-boundary mass theorem;
+- `Xmax` reciprocity remains conditional and scale-weight zero. A derived
+  `kappa/xi=Xmax^2*f(state)` could select `R_star/Xmax`, not absolute `Xmax`;
+- no native dimensional matter object, carrier, action coefficient, source, boundary charge,
+  unconditional mass, or time-live theorem was found;
+- next bounded question: whether metric-native angular/finite-cell/CSN/bootstrap structure fixes
+  the relative derivative normalization without first adopting `S2` or `L2+L4`.
+
+Package: `matter_bootstrap_dimensional_inventory_2026-07-20/`.
 
 Current scale-breaking closure ruling:
 

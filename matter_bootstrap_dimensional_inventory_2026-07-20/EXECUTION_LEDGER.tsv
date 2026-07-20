@@ -1,0 +1,8 @@
+id	command	compute	exit_code	output_artifact	output_sha256
+E01	/usr/bin/python3 matter_bootstrap_dimensional_inventory_2026-07-20/build_source_census.py	CPU_ONLY	0	CENSUS_TRANSCRIPT.txt	33e792d14e5897f6e8d16229fbdb096166477795abe3b87786368933e4ccfe4b
+E02	/usr/bin/python3 matter_bootstrap_dimensional_inventory_2026-07-20/build_source_adjudication.py	CPU_ONLY	0	ADJUDICATION_TRANSCRIPT.txt	c3d27814272b8b3c9df00579ee9cc810025c3e719c53e2f281746a76ae956dc3
+E03	/usr/bin/python3 matter_bootstrap_dimensional_inventory_2026-07-20/derive_matter_dimensional_inventory.py	CPU_ONLY	0	DERIVATION_TRANSCRIPT.txt	27b22d24511a0d4a7dfe0030085d95c346a96f01e3d7a8f5b90346eb8638c5d3
+E04	/usr/bin/python3 matter_bootstrap_dimensional_inventory_2026-07-20/verify_matter_dimensional_inventory.py	CPU_ONLY	0	VERIFICATION_TRANSCRIPT.txt	0369fbb1f0c83b3548253ab241a1652599eac2be5fbcbbc15800e7497d567e86
+E05	/usr/bin/python3 -m pytest tests/	CPU_ONLY	1_EXPECTED_BASELINE	TEST_TRANSCRIPT.txt	0864f26f590ea05a15db7c2ece86ad2f152947f0adc92991499df4e9cac1d985
+E06	/usr/bin/python3 -I -c import sys,runpy; sys.path.insert(0,'/home/udt-admin/.local/lib/python3.10/site-packages'); import sympy; assert sympy.__version__=='1.13.1'; print('isolated_sympy='+sympy.__version__); runpy.run_path('matter_bootstrap_dimensional_inventory_2026-07-20/verify_matter_dimensional_inventory.py',run_name='__main__')	CPU_ONLY	0	ISOLATED_VERIFICATION_TRANSCRIPT.txt	d53fd7091c5695369a645eed281d52f3ac5b7cb70dd19be8d6813c7557daaf88
+E07	fresh external-model review	EXTERNAL_REVIEW_NOT_PERFORMED	AUTHORIZATION_NOT_GIVEN	EXTERNAL_REVIEW_STATUS.txt	7417e457948ec6381df20e32cddfed5a1a0f6508bcbb6d2b89d7b7d2e93934ea

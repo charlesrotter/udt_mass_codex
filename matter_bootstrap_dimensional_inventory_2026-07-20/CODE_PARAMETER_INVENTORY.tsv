@@ -1,0 +1,29 @@
+id	path	line	object	source_form	recorded_value_or_expression	primary_provenance	physical_ruling
+P01	noNull_energy.py	7	xi	continuum coefficient	xi/2 multiplying two-derivative density	CONDITIONAL_ACTION_OR_CARRIER_INPUT	physical dimensions energy/length
+P02	noNull_energy.py	7	kappa	continuum coefficient	kappa/4 multiplying four-derivative density	CONDITIONAL_ACTION_OR_CARRIER_INPUT	physical dimensions energy*length
+P03	noNull_energy.py	147	xi;kappa	demonstration assignment	1.0;1.0	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	absorbs coefficient length sqrt(kappa/xi)=1 code unit
+P04	noNull_resolve.py	21	input field	runtime file	controlled_best_field.npz default	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	input provenance not native scale
+P05	noNull_resolve.py	22	N;L;h;xi;kappa	loaded parameters	values read from input field	CONDITIONAL_ACTION_OR_CARRIER_INPUT	preserved solver inputs
+P06	noNull_boxscout_build.py	40	L;xi;kappa	exact assertion	6.0;1.0;1.0	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	finite code box and unit coefficients
+P07	noNull_boxscout_build.py	61	Lnew	numerical domain expression	(Nnew-1)*h/2	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	larger computational box at fixed code spacing
+P08	noNull_behavioral_F.py	5	L;HBW	result scope declaration	6;2	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	finite-grid certification scope only
+P09	noNull_phaseG_mass.py	20	S2;L2+L4	status declaration	POSIT/CHOSE	CONDITIONAL_ACTION_OR_CARRIER_INPUT	mass readout inherits conditional branch
+P10	noNull_phaseG_mass.py	21	EH lapse identity	status declaration	CONDITIONAL	CONDITIONAL_ACTION_OR_CARRIER_INPUT	not native UDT mass
+P11	noNull_phaseG_mass.py	23	kappa_g	readout normalization	not used; unit-response test	OPEN_NOT_PRESENT	physical gravitational mass normalization absent
+P12	noNull_phaseG_mass.py	31	HBW	numerical boundary width	2	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	no physical ruler
+P13	noNull_phaseG_mass.py	36	cube half-widths	numerical diagnostic	1.0,1.5,2.0,2.5,2.95 inside L=6 carrier box	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	code distances only
+P14	hopfion_fixedQ_collective_phase0.py	18	xi;kappa	gauge comment	1;1 free data-blind	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	chosen code normalization
+P15	hopfion_fixedQ_collective_phase0.py	19	E4	assignment	1.0	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	chosen energy unit
+P16	hopfion_fixedQ_collective_phase0.py	25	I2	assignment	1.0 CHOSE-norm	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	chosen inertia normalization
+P17	hopfion_fixedQ_collective_phase0.py	26	I4	assignment	1.0 CHOSE-norm	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	chosen inertia normalization
+P18	hopfion_fixedQ_phase1_isorotation.py	148	L	CLI default	5.0	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	finite code box
+P19	hopfion_fixedQ_phase1_isorotation.py	149	xi	CLI default	1.0	CONDITIONAL_ACTION_OR_CARRIER_INPUT	unit coefficient
+P20	hopfion_fixedQ_phase1_isorotation.py	150	kappa	CLI default	1.0	CONDITIONAL_ACTION_OR_CARRIER_INPUT	unit coefficient
+P21	hopfion_fixedQ_phase1_isorotation.py	153	Q	CLI default	0,0.5,1.0	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	supplied charge list and normalization
+P22	hopfion_fixedQ_phase1_isorotation.py	155	seed size	CLI default	1.2	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	initial-condition scale not physical output
+P23	hopfion_fixedQ_phase1b_production.py	191	L	CLI default	6.0	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	finite code box
+P24	hopfion_fixedQ_phase1b_production.py	192	xi	CLI default	1.0	CONDITIONAL_ACTION_OR_CARRIER_INPUT	unit coefficient
+P25	hopfion_fixedQ_phase1b_production.py	193	kappa	CLI default	1.0	CONDITIONAL_ACTION_OR_CARRIER_INPUT	unit coefficient
+P26	hopfion_fixedQ_phase1b_production.py	197	Q	CLI default	0,0.5,1.0	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	supplied charge list and normalization
+P27	hopfion_fixedQ_phase1b_production.py	199	seed size	CLI default	1.25	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	initial-condition scale not physical output
+P28	hopfion_fixedQ_phase1b_production.py	200	rescale interval	CLI default	25	NUMERICAL_UNIT_OR_DOMAIN_CONTROL	solver control

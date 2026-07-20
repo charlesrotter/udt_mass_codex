@@ -1,0 +1,77 @@
+#!/usr/bin/env python3
+"""Build the one-row-per-load-bearing-source adjudication."""
+
+from __future__ import annotations
+
+import csv
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+
+# path: (role, authority, ruling, dimensional_objects, primary_provenance, closure_ruling)
+ROWS = {
+    "INDEX.md": ("navigation snapshot", "CONTROL", "points to current conditional particle evidence", "none", "OPEN_NOT_PRESENT", "NOT_PHYSICAL_SCALE_INFORMATION"),
+    "LIVE.md": ("current authority", "CONTROL", "current scale gate and conditional matter scope", "c_E;G_obs;Xmax", "OBSERVATIONAL_CALIBRATION", "RATIO_OR_COMPACTNESS_ONLY"),
+    "UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md": ("bootstrap postulate", "CURRENT_POSTULATE", "requires global self-consistency but supplies no dimensional eigenvalue", "density center and width are OPEN", "OPEN_NOT_PRESENT", "COULD_BREAK_IF_NATIVELY_DERIVED"),
+    "UDT_S2_CARRIER_STATUS_CLARIFICATION_2026-07-15.md": ("carrier status", "CURRENT_CLARIFICATION", "round S2 carrier reopened as working posit", "target radius fixed dimensionlessly", "CONDITIONAL_ACTION_OR_CARRIER_INPUT", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md": ("scientific checkpoint", "CURRENT_FRONTIER", "stable branch scoped to carrier/action/box premises", "code length and energy units", "CONDITIONAL_ACTION_OR_CARRIER_INPUT", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "hopfion_arc_scripts_2026-07-05/fs_hopfion.py": ("legacy continuum implementation imported by fixed-Q scripts", "ACTIVE_CODE_PROVENANCE", "exposes xi and kappa and a finite coordinate box", "xi;kappa;L;h", "CONDITIONAL_ACTION_OR_CARRIER_INPUT", "COULD_BREAK_IF_NATIVELY_DERIVED"),
+    "hopfion_fixedQ_collective_phase0.py": ("dimensionless collective demo", "HISTORICAL_EXPERIMENT", "sets E4=I2=I4=1 and calls normalization CHOSE", "R code unit;Q code normalization", "NUMERICAL_UNIT_OR_DOMAIN_CONTROL", "NOT_PHYSICAL_SCALE_INFORMATION"),
+    "hopfion_fixedQ_collective_phase0_out.json": ("collective demo output", "OBSERVED_HISTORICAL", "reports ratios under chosen unit moments", "dimensionless R_Q ratios", "SOLUTION_OUTPUT_CONDITIONAL_ON_INPUTS", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "hopfion_fixedQ_collective_phase0_results.md": ("collective demo interpretation", "HISTORICAL_RESULT", "limits claims to ratios and chosen normalization", "dimensionless R_Q ratios", "SOLUTION_OUTPUT_CONDITIONAL_ON_INPUTS", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "hopfion_fixedQ_phase1_isorotation.py": ("fixed-Q implementation", "HISTORICAL_EXPERIMENT", "xi=kappa=1 defaults; supplied Q; finite L; I2 and I4 inherited from conditional functional", "xi;kappa;L;h;Q;omega;I", "CONDITIONAL_ACTION_OR_CARRIER_INPUT", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "hopfion_fixedQ_phase1_isorotation_out.json": ("fixed-Q output", "OBSERVED_HISTORICAL", "output under supplied Q and code units", "R;I;omega in code units", "SOLUTION_OUTPUT_CONDITIONAL_ON_INPUTS", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "hopfion_fixedQ_phase1_isorotation_results.md": ("fixed-Q result", "HISTORICAL_RESULT", "no physical time or absolute radius certified", "R;I;omega in code units", "SOLUTION_OUTPUT_CONDITIONAL_ON_INPUTS", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "hopfion_fixedQ_phase1b_production.py": ("fixed-Q production implementation", "HISTORICAL_EXPERIMENT", "xi=kappa=1 defaults and supplied Q; optional Derrick rescaling", "xi;kappa;L;h;Q;omega;I", "CONDITIONAL_ACTION_OR_CARRIER_INPUT", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "hopfion_fixedQ_phase1b_production_out.json": ("fixed-Q production output", "OBSERVED_HISTORICAL", "observed branch in chosen code normalization", "R;I;omega in code units", "SOLUTION_OUTPUT_CONDITIONAL_ON_INPUTS", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "hopfion_fixedQ_phase1b_production_results.md": ("fixed-Q production interpretation", "HISTORICAL_RESULT", "charge-stabilized lead not time-live or native-scale result", "dimensionless Q and code-scale outputs", "SOLUTION_OUTPUT_CONDITIONAL_ON_INPUTS", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "hopfion_mass_background_coupling_MAP.md": ("historical research map", "SCOPED_CONTEXT", "carrier posit and metric coupling remain conditional", "ambient depth;carrier size in code units", "CONDITIONAL_ACTION_OR_CARRIER_INPUT", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "hopfion_static_mass_common.py": ("conditional covariant/EH readout implementation", "ACTIVE_CODE_PROVENANCE", "imports EH normalization and reads xi/kappa/L from field", "k_g;xi;kappa;L;mass response", "CONDITIONAL_ACTION_OR_CARRIER_INPUT", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "matter_carrier_provenance_audit_results.md": ("carrier provenance audit", "CURRENT_PROVENANCE", "metric supplies angular slot; S2 actor and round target are not metric-derived", "target choice only", "CONDITIONAL_ACTION_OR_CARRIER_INPUT", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "native_action_final_adjudication_2026-07-18/FINAL_ADJUDICATION_REPORT.md": ("final action audit", "HARD_FROZEN", "complete action/source/boundary charge open; mass conditional", "action and source normalizations OPEN", "OPEN_NOT_PRESENT", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv": ("action status ledger", "HARD_FROZEN", "EH/S2/mass conditional; source and charge open", "action coefficients and physical scale OPEN", "OPEN_NOT_PRESENT", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md": ("current topology audit", "CURRENT_EVIDENCE", "full 3D Hopf-capable implementation but carrier/section conditional", "Q_H dimensionless", "DIMENSIONLESS_TOPOLOGY_OR_SHAPE", "NOT_PHYSICAL_SCALE_INFORMATION"),
+    "native_hopfion_topology_audit_2026-07-19/TOPOLOGY_STATUS_LEDGER.tsv": ("topology status ledger", "CURRENT_EVIDENCE", "Q topology cannot select a dimensional ruler", "Q_H dimensionless", "DIMENSIONLESS_TOPOLOGY_OR_SHAPE", "NOT_PHYSICAL_SCALE_INFORMATION"),
+    "noNull_behavioral_F.py": ("finite-grid perturbation implementation", "ACTIVE_NUMERICAL_EVIDENCE", "loads xi/kappa/L/h and labels L=6/HBW=2 result finite-grid", "L;h;xi;kappa;HBW", "NUMERICAL_UNIT_OR_DOMAIN_CONTROL", "NOT_PHYSICAL_SCALE_INFORMATION"),
+    "noNull_behavioral_F_results.md": ("finite-grid perturbation result", "OBSERVED_SCOPED", "behavioral census conditional on S2/L2+L4 and certified finite grid", "finite code box", "SOLUTION_OUTPUT_CONDITIONAL_ON_INPUTS", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "noNull_boundary_virial.py": ("virial/boundary implementation", "ACTIVE_NUMERICAL_EVIDENCE", "implements exact E(lambda)=lambda E2+E4/lambda and finite-box stress", "xi;kappa;L;h", "CONDITIONAL_ACTION_OR_CARRIER_INPUT", "COULD_BREAK_IF_NATIVELY_DERIVED"),
+    "noNull_boundary_virial_ALL.json": ("virial raw summary", "OBSERVED_SCOPED", "finite-box virial and surface-stress observations", "code-unit energies and box radii", "SOLUTION_OUTPUT_CONDITIONAL_ON_INPUTS", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "noNull_boundary_virial_results.md": ("virial result", "OBSERVED_SCOPED", "virial gap assigned to finite-box boundary stress plus residual", "code-unit energies and box radii", "SOLUTION_OUTPUT_CONDITIONAL_ON_INPUTS", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "noNull_boxscout_build.json": ("box-expansion record", "OBSERVED_SCOPED", "records larger numerical domains at fixed spacing", "L;h;N in code units", "NUMERICAL_UNIT_OR_DOMAIN_CONTROL", "NOT_PHYSICAL_SCALE_INFORMATION"),
+    "noNull_boxscout_build.py": ("box-expansion implementation", "ACTIVE_NUMERICAL_EVIDENCE", "asserts source L=6 and xi=kappa=1 then varies numerical box", "L;h;N;xi;kappa", "NUMERICAL_UNIT_OR_DOMAIN_CONTROL", "NOT_PHYSICAL_SCALE_INFORMATION"),
+    "noNull_energy.py": ("current corrected continuum implementation", "ACTIVE_LOAD_BEARING_CODE", "E2 coefficient xi/2 and E4 coefficient kappa/4; demonstration uses xi=kappa=1", "xi;kappa;h", "CONDITIONAL_ACTION_OR_CARRIER_INPUT", "COULD_BREAK_IF_NATIVELY_DERIVED"),
+    "noNull_phaseG_mass.py": ("conditional mass-readout implementation", "ACTIVE_NUMERICAL_EVIDENCE", "explicitly EH/weak-field unit response; no kappa_g; reads xi/kappa/L", "xi;kappa;L;h;conditional M_N", "CONDITIONAL_ACTION_OR_CARRIER_INPUT", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "noNull_phaseG_mass_ALL.json": ("conditional mass raw summary", "OBSERVED_SCOPED", "mass response in code normalization and finite box", "code-unit E4 and M_N", "SOLUTION_OUTPUT_CONDITIONAL_ON_INPUTS", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "noNull_phaseG_mass_results.md": ("conditional mass result", "OBSERVED_SCOPED", "M_N=2E4 only under stated EH lapse/readout premises", "code-unit E4 and M_N", "SOLUTION_OUTPUT_CONDITIONAL_ON_INPUTS", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "noNull_resolve.py": ("current relaxation/Hessian driver", "ACTIVE_NUMERICAL_EVIDENCE", "loads L/h/xi/kappa from saved input and preserves them", "L;h;xi;kappa;solver tolerances", "NUMERICAL_UNIT_OR_DOMAIN_CONTROL", "NOT_PHYSICAL_SCALE_INFORMATION"),
+    "noNull_schur_inertia.py": ("finite-grid inertia certification", "ACTIVE_NUMERICAL_EVIDENCE", "certifies spectral separation in chosen box/grid", "L;h;HBW;eigenvalue code units", "NUMERICAL_UNIT_OR_DOMAIN_CONTROL", "NOT_PHYSICAL_SCALE_INFORMATION"),
+    "noNull_stability_evidence.json": ("stability evidence summary", "OBSERVED_SCOPED", "finite-grid stability evidence conditional on loaded continuum parameters", "code-unit eigenvalues and grids", "SOLUTION_OUTPUT_CONDITIONAL_ON_INPUTS", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "noNull_virial_identity_derivation.md": ("continuum identity", "CURRENT_DERIVATION", "M_N=carrier energy only if conditional EH identity and controlled boundary limit", "conditional mass and boundary term", "CONDITIONAL_ACTION_OR_CARRIER_INPUT", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+    "scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md": ("current scale theorem", "CURRENT_EVIDENCE", "c_E/G_obs calibrate mass per length; only compactness selected", "c_E;G_obs;M_tot;Xmax", "OBSERVATIONAL_CALIBRATION", "RATIO_OR_COMPACTNESS_ONLY"),
+    "scale_breaking_closure_census_2026-07-20/SCALE_WEIGHT_LEDGER.tsv": ("scale-weight ledger", "CURRENT_EVIDENCE", "topology and Xmax reciprocity scale-weight zero", "dimensionless Q and x/Xmax", "DIMENSIONLESS_TOPOLOGY_OR_SHAPE", "NOT_PHYSICAL_SCALE_INFORMATION"),
+    "scale_breaking_closure_census_2026-07-20/STATUS_LEDGER.tsv": ("scale status ledger", "CURRENT_EVIDENCE", "no noncircular absolute scale breaker found", "absolute scale OPEN", "OPEN_NOT_PRESENT", "COULD_BREAK_IF_NATIVELY_DERIVED"),
+    "stability_branch_follow_256_DECISION.md": ("particle stability checkpoint", "DURABLE_LANE_EVIDENCE", "positive finite-grid physical mode conditional on carrier/action/box", "L=6;HBW=2;xi=kappa=1 code branch", "SOLUTION_OUTPUT_CONDITIONAL_ON_INPUTS", "BLOCKED_BY_CONDITIONAL_PREMISE"),
+}
+
+
+def main() -> None:
+    with (HERE / "SOURCE_CENSUS.tsv").open(encoding="utf-8", newline="") as handle:
+        census = list(csv.DictReader(handle, delimiter="\t"))
+    expected = {row["path"] for row in census if row["initial_disposition"] == "LOAD_BEARING_CANDIDATE"}
+    if expected != set(ROWS):
+        raise AssertionError(f"source adjudication mismatch missing={sorted(expected-set(ROWS))} extra={sorted(set(ROWS)-expected)}")
+    fields = ["id", "path", "role", "authority", "current_ruling", "dimensional_objects", "primary_provenance", "closure_ruling"]
+    with (HERE / "SOURCE_ADJUDICATION.tsv").open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields, delimiter="\t", lineterminator="\n")
+        writer.writeheader()
+        for index, path in enumerate(sorted(ROWS), 1):
+            role, authority, ruling, objects, provenance, closure = ROWS[path]
+            writer.writerow({"id": f"R{index:02d}", "path": path, "role": role, "authority": authority,
+                             "current_ruling": ruling, "dimensional_objects": objects,
+                             "primary_provenance": provenance, "closure_ruling": closure})
+    print(f"PASS rows={len(ROWS)}")
+
+
+if __name__ == "__main__":
+    main()

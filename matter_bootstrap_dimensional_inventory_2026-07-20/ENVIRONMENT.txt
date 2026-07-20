@@ -1,0 +1,11 @@
+audit_date=2026-07-20
+base=ab099c9c642d68049cfc4810fd709df638ce591c
+preregistration_commit=29a8591744e26c8f2dee5115d6d9ce08eb537ce5
+python=3.10.12
+sympy=1.13.1
+platform=Linux 6.8.0-124-generic x86_64 GNU/Linux
+compute=CPU_ONLY
+gpu_used=false
+external_model_review=NOT_AUTHORIZED
+isolated_replay=python3 -I with explicitly pinned SymPy 1.13.1 site-package path
+original_dirty_checkout_contents_read=false
