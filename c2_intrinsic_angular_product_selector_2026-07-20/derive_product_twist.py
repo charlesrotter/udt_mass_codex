@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Exact quadratic transverse-twist C2 operator on the intrinsic-curvature product background."""
+"""Exact quadratic transverse-twist C2 action density on the intrinsic-curvature product background."""
 from __future__ import annotations
 
 import json
@@ -130,8 +130,10 @@ def boundary_decomposition(lagrangian):
 
 def main():
     g, inverse, determinant, scalar, c2 = tensors()
-    density_per_transverse_volume = sp.simplify(c2)
-    expansion = sp.series(density_per_transverse_volume, epsilon, 0, 3).removeO().expand()
+    # The oriented local coframe is chosen with F>0 on the bounded chart, so sqrt(-g)=F.
+    # Expand the action density required by the preregistration, not C2 alone.
+    action_density = sp.simplify(F * c2)
+    expansion = sp.series(action_density, epsilon, 0, 3).removeO().expand()
     linear = reduce_constant_curvature(expansion.coeff(epsilon, 1))
     quadratic = reduce_constant_curvature(expansion.coeff(epsilon, 2))
     background = reduce_constant_curvature(expansion.coeff(epsilon, 0))
@@ -164,7 +166,7 @@ def main():
         "metric": [[str(item) for item in row] for row in g.tolist()],
         "determinant": str(determinant),
         "scalar_curvature": str(reduce_constant_curvature(scalar)),
-        "background_density_per_transverse_volume": str(background),
+        "background_action_density": str(background),
         "density_linear_epsilon": str(linear),
         "density_quadratic_epsilon": str(quadratic),
         "jacobi_operator": str(jacobi),
@@ -179,10 +181,10 @@ def main():
             "meaning": "the chosen coordinate twist is directional data not determined by scalar Gaussian curvature K alone",
         },
         "checks": checks,
-        "compute": {"method": "exact SymPy two-coordinate Weyl-squared twist expansion", "cpu_only": True},
+        "compute": {"method": "exact SymPy two-coordinate sqrt(-g) Weyl-squared action-density expansion", "cpu_only": True},
     }
     (HERE / "TWIST_DERIVATION.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-    print("background_density", background)
+    print("background_action_density", background)
     print("quadratic_density", quadratic)
     print("jacobi_operator", jacobi)
     print("boundary_delta_u", boundary_u)

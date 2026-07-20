@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Independent Torch two-coordinate Bach and finite-epsilon twist verification."""
+"""Independent Torch two-coordinate Bach and finite-epsilon action-density verification."""
 from __future__ import annotations
 
 import csv
@@ -99,9 +99,10 @@ def curvature_point(coords, epsilon, ycoeff, ucoeff, curvature, backreaction=Tru
 
 
 def density_point(coords, epsilon, ycoeff, ucoeff, curvature, backreaction=True, angular_derivatives=True):
-    _, inverse, _, _, _, weyl = curvature_point(coords, epsilon, ycoeff, ucoeff, curvature, backreaction, angular_derivatives)
+    metric, inverse, _, _, _, weyl = curvature_point(coords, epsilon, ycoeff, ucoeff, curvature, backreaction, angular_derivatives)
     cup = torch.einsum("ae,bf,cg,dh,efgh->abcd", inverse, inverse, inverse, inverse, weyl)
-    return torch.einsum("abcd,abcd->", weyl, cup)
+    c2 = torch.einsum("abcd,abcd->", weyl, cup)
+    return torch.sqrt(torch.abs(torch.linalg.det(metric))) * c2
 
 
 def weyl_point(coords, epsilon, ycoeff, ucoeff, curvature):
@@ -181,7 +182,7 @@ def expected_twist(r, theta, ycoeff, ucoeff, curvature):
     u1, u2 = derivative(ufun, r, 1), derivative(ufun, r, 2)
     factor = angular_factor(theta, curvature)
     fprime = derivative(lambda x: angular_factor(x, curvature), theta, 1)
-    return y0 * (4 * curvature * factor**2 * u1**2 + 3 * factor**2 * y0 * u2**2 - 2 * factor**2 * y2 * u1**2 + 27 * fprime**2 * u1**2) / 3
+    return factor * y0 * (4 * curvature * factor**2 * u1**2 + 3 * factor**2 * y0 * u2**2 - 2 * factor**2 * y2 * u1**2 + 27 * fprime**2 * u1**2) / 3
 
 
 def relative_error(a, b):
@@ -307,7 +308,7 @@ def main():
                    "constant_twist_second_difference_noise": max_constant_coefficient_noise,
                    "omitted_angular_derivative_difference": angular_difference,
                    "missing_backreaction_difference": backreaction_difference},
-        "compute": {"method": "independent Torch two-coordinate forward-AD tensor and Bach construction",
+        "compute": {"method": "independent Torch two-coordinate forward-AD tensor, Bach, and sqrt(-g) C2 construction",
                     "dtype": "float64", "cpu_only": True},
     }
     (HERE / "VERIFICATION_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
