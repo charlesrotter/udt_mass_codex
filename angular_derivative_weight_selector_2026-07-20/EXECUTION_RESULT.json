@@ -1,0 +1,59 @@
+{
+  "environment": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "records": [
+    {
+      "command": "/usr/bin/python3 angular_derivative_weight_selector_2026-07-20/build_source_census.py",
+      "exit_code": 0,
+      "id": "E01",
+      "output_artifact": "CENSUS_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "5d7ff94cd0f25db19d63d00539bf84787c20a59a0cd1d9c3031455654f76bf5b"
+    },
+    {
+      "command": "/usr/bin/python3 angular_derivative_weight_selector_2026-07-20/build_source_adjudication.py",
+      "exit_code": 0,
+      "id": "E02",
+      "output_artifact": "ADJUDICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "257ce0e825574987f51add349207675332adb69d1ac1c79f05e9ac8de039264c"
+    },
+    {
+      "command": "/usr/bin/python3 angular_derivative_weight_selector_2026-07-20/derive_angular_weight_selector.py",
+      "exit_code": 0,
+      "id": "E03",
+      "output_artifact": "DERIVATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "aedd0a3362a4a94962ed3591dcf92e94ed13e96324fc644aa9c1e7226436bf8e"
+    },
+    {
+      "command": "/usr/bin/python3 angular_derivative_weight_selector_2026-07-20/verify_angular_weight_selector.py",
+      "exit_code": 0,
+      "id": "E04",
+      "output_artifact": "VERIFICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "eb776aff55fa67c1c159f234af07b0706a65f77255bddb5e049b450294f08569"
+    },
+    {
+      "command": "/usr/bin/python3 -m pytest tests/",
+      "exit_code": 1,
+      "id": "E05",
+      "output_artifact": "TEST_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "0864f26f590ea05a15db7c2ece86ad2f152947f0adc92991499df4e9cac1d985"
+    },
+    {
+      "command": "/usr/bin/python3 -I -c import sys,runpy; sys.path.insert(0,'/home/udt-admin/.local/lib/python3.10/site-packages'); import sympy; assert sympy.__version__=='1.13.1'; print('isolated_sympy='+sympy.__version__); runpy.run_path('angular_derivative_weight_selector_2026-07-20/verify_angular_weight_selector.py',run_name='__main__')",
+      "exit_code": 0,
+      "id": "E06",
+      "output_artifact": "ISOLATED_VERIFICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "e8f4de401c1dfcf234fd129c8431ea24a4feb78676500b9b78d2e013e08dee7d"
+    }
+  ],
+  "result": "PASS",
+  "schema": "udt-angular-derivative-weight-execution-1.0",
+  "test_baseline": {
+    "failed_known_hygiene": 1,
+    "passed": 69,
+    "xfailed": 1
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "catch_proofs": {
+    "C2-status_overclaim_rejected": "PASS",
+    "C2_complete_action_promotion_rejected": "PASS",
+    "K2-status_overclaim_rejected": "PASS",
+    "X-status_overclaim_rejected": "PASS",
+    "Xmax_form_overclaim_rejected": "PASS",
+    "base_source_mutation_rejected": "PASS",
+    "bootstrap_overclaim_rejected": "PASS",
+    "boundary_overclaim_rejected": "PASS",
+    "carrier-action_overclaim_rejected": "PASS",
+    "carrier_import_rejected": "PASS",
+    "derivation_Xmax_overclaim_rejected": "PASS",
+    "derivation_bridge_overclaim_rejected": "PASS",
+    "dimensionless_state_function_erasure_rejected": "PASS",
+    "gauge-bridge_overclaim_rejected": "PASS",
+    "maximum_conclusion_overreach_rejected": "PASS",
+    "missing_census_row_rejected": "PASS",
+    "missing_counterfamily_rejected": "PASS",
+    "missing_invariant_rejected": "PASS",
+    "missing_source_adjudication_rejected": "PASS",
+    "missing_status_rejected": "PASS",
+    "neutral_K2_pre_scale_promotion_rejected": "PASS",
+    "nonround_depth_family_erasure_rejected": "PASS",
+    "quartic_uniqueness_invention_rejected": "PASS",
+    "relative-weight_overclaim_rejected": "PASS",
+    "roundness_overclaim_rejected": "PASS",
+    "squash-status_overclaim_rejected": "PASS",
+    "squashing_freedom_erasure_rejected": "PASS"
+  },
+  "certification": "VERIFIED-WITH-CAVEATS: independent coordinate-tensor algebra and base-source replay; no fresh external-model review",
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "counts": {
+    "catch_proofs": 27,
+    "census": 3825,
+    "completeness": 11,
+    "counterfamilies": 8,
+    "invariants": 18,
+    "sources": 33,
+    "status": 18
+  },
+  "derivation_sha256": "68e460193f4618091f1bedca157f68150767ee136752c3071e4679f057d68867",
+  "groups": {
+    "completeness": {
+      "external_review": "NOT_PERFORMED",
+      "rows": 11
+    },
+    "counterfamilies": {
+      "load_bearing": [
+        "C01",
+        "C04",
+        "C05",
+        "C07",
+        "C08"
+      ],
+      "rows": 8
+    },
+    "derivation": {
+      "checks": 38,
+      "maximum_conclusion": "PRE_SCALE_DERIVATIVE_ORDER_SEPARATION_DERIVED_IN_NEUTRAL_BRANCH; NONZERO_RELATIVE_WEIGHT_NOT_SELECTED_IN_CURRENT_FOUNDATION"
+    },
+    "independent_algebra": {
+      "Berger_direct_coordinate": {
+        "a2_b3_R": "(-250*sin(u)**8 + 1250*sin(u)**6 - 2250*sin(u)**4 + 2902*sin(u)**2 + 250*cos(u)**8 + 250*cos(u)**6 - 500)/(1458*sin(u)**2)",
+        "round_R": "6"
+      },
+      "Derrick_root": "sqrt(qcoef)*sqrt(shape4)/(sqrt(p)*sqrt(shape2))",
+      "neutral_density_weights": {
+        "K2": 2,
+        "K4": 0
+      },
+      "nonround_quotient": {
+        "F2": "288/49",
+        "R": "2592/343",
+        "flux": "-2*pi",
+        "ratio": "9/7"
+      }
+    },
+    "invariants": {
+      "rows": 18,
+      "rulings_checked": 12
+    },
+    "source_adjudication": {
+      "base_hashes_replayed": 33,
+      "rows": 33
+    },
+    "source_census": {
+      "dispositions": {
+        "CONTEXT_CANDIDATE": 1604,
+        "EXCLUDED_DUPLICATE_RAW_RECORD": 62,
+        "EXCLUDED_GENERATED_ORGANIZATION": 238,
+        "LOAD_BEARING_CANDIDATE": 33,
+        "PROVENANCE_OR_COUNTEREXAMPLE_ONLY": 1888
+      },
+      "rows": 3825
+    },
+    "source_syntax": {
+      "CSN": "PASS",
+      "Xmax": "PASS",
+      "bootstrap": "PASS",
+      "carrier": "PASS",
+      "frozen_action_status": "PASS"
+    },
+    "status": {
+      "rows": 18,
+      "rulings_checked": 18
+    }
+  },
+  "result": "PASS",
+  "schema": "udt-angular-derivative-weight-verification-1.0",
+  "verdict": "PRE_SCALE_DERIVATIVE_ORDER_SEPARATION_DERIVED_IN_NEUTRAL_BRANCH; NONZERO_RELATIVE_WEIGHT_NOT_SELECTED_IN_CURRENT_FOUNDATION"
+}

@@ -1,0 +1,19 @@
+id	object	branch_or_premise	derivative_order	CSN_status	selector_content	ruling
+I01	sqrt(|g|)	4D metric measure	0	weight +4	measure only	DERIVED_SCOPED
+I02	sqrt(|g|) g^{mu nu} T_AB(Y) d_mu Y^A d_nu Y^B	dimensionless CSN-neutral angular variable; target tensor separately supplied	2	weight +2	nonzero constant coefficient forbidden before scale selection	CONDITIONAL_EXCLUSION_DERIVED
+I03	sqrt(|g|) (tr K)^2 and sqrt(|g|) tr(K^2)	same neutral angular branch	4	weight 0	at least two independent parity-even contractions remain	COMPATIBLE_NOT_SELECTED
+I04	sqrt(|g|) F_mu_nu F^mu_nu	an angular two-form is separately supplied	4	weight 0	two-form and its normalization are additional data	CONDITIONAL_COMPATIBLE_NOT_SELECTED
+I05	sqrt(|g|) R	4D local metric-only branch	2	weight +2 even for constant common scale	available only after representative/scale selection	CONDITIONAL_POST_SCALE
+I06	sqrt(|g|) C_mu_nu_rho_sigma C^mu_nu_rho_sigma	4D local metric-only parity-even lowest curvature-square branch	4	local Weyl compatible	bulk direction only modulo Euler/boundary and overall normalization	UNIQUE_CONDITIONAL_PRESERVED
+I07	Euler density	4D metric-only	4	topological bulk class	can change boundary/topology bookkeeping; no local bulk coefficient selector	TOPOLOGICAL_FREEDOM
+I08	Pontryagin density	4D parity-odd metric-only	4	topological bulk class	parity premise required to exclude	CONDITIONAL_PARITY_ODD_FREEDOM
+I09	bulk divergences and boundary/corner terms	finite-cell variational completion	mixed	depends on completion	seal value alone does not fix coefficients or differentiability	OPEN
+I10	sqrt(|g|) chi^2 K2	mathematical weight-minus-one compensator counterfamily	2	weight 0	chi existence, transformation, dynamics, and selected value are not supplied	CONDITIONAL_COUNTERFAMILY_ONLY
+I11	post-scale a2 K2+a4 K4	selected physical representative and angular actor	2+4	not a pre-scale invariant statement	ratio a4/a2 remains a length squared and must be derived	OPEN_CONDITIONAL_BRANCH
+I12	a4/a2=Xmax^2 f(global dimensionless state)	conditional Xmax tie after both terms exist	global form	common-scale covariant	fixes dimensions only; f, sign, existence, and placement remain free	FORM_ONLY
+I13	h_H=H(eta)^2 d_eta^2+cos^2 eta sin^2 eta d_delta^2	conditional diagonal reciprocal toric completion and circle quotient	metric	common overall scale removed	H remains an unselected smooth depth/shape function	CONDITIONAL_GEOMETRY
+I14	A=cos^2 eta d_xi1+sin^2 eta d_xi2; F=dA	same conditional Hopf route	connection/curvature	connection common-scale independent	Chern flux fixed but local F norm depends on H	TOPOLOGY_FIXED_LOCAL_NORM_OPEN
+I15	g3=b^2 h_base+a^2 A^2	conditional smooth Hopf submersion	metric	common scaling removes neither a/b nor its effects	chosen scalar-curvature reduction gives a ratio depending on (a/b)^2	SQUASHING_NOT_SELECTED
+I16	finite mirrored seal phi=0; normal derivative free	canonized static phi boundary datum	boundary	compatible with CSN	no angular boundary datum or differentiable boundary functional supplied	NOT_A_COEFFICIENT_SELECTOR
+I17	global bootstrap narrow density window	owner-stated working on-shell requirement	global/on-shell	not a local invariant	no off-shell response functional or coefficient equation supplied	NOT_YET_A_COEFFICIENT_SELECTOR
+I18	(K0+q2)^2=K0^2+2 K0 q2+q2^2	schematic exact reduction identity for one scale-free four-derivative invariant	mixed effective orders	requires selected nonzero background curvature K0	shows how two orders could share one geometric parent; exact UDT ansatz/action still missing	WORKING_CONDITIONAL_ROUTE

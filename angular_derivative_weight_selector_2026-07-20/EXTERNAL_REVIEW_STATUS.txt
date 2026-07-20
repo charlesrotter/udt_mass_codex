@@ -1,0 +1,5 @@
+No fresh external-model review was authorized for this audit.
+
+Independent in-package verification used a separately written direct coordinate-tensor
+implementation, base-blob/source replay, and exercised fail-closed mutations. Under the repository
+rules the maximum grade therefore remains VERIFIED-WITH-CAVEATS.
