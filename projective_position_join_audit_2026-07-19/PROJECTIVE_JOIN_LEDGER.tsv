@@ -1,0 +1,19 @@
+id	component	exact_result	status	remaining_gate
+J01	reciprocal positive pair	[u:v]=[exp(-phi):exp(+phi)] with uv=1	DERIVED_CONDITIONAL	Declared dual representation and chosen sign/unit
+J02	CSN quotient	common scale [su:sv] leaves the ray and ratio r=v/u unchanged	DERIVED	No physical position readout follows
+J03	anchored fractional-linear chart	r=0,1,infinity to -1,0,+1 uniquely gives (r-1)/(r+1)=tanh(phi)	DERIVED_IN_CLASS	Requires first-degree fractional-linear readout class
+J04	normalized imbalance	(v-u)/(v+u)=tanh(phi)	DERIVED_IN_CLASS	Physical position join remains open
+J05	fractional composition	xi composition is (xi1+xi2)/(1+xi1 xi2)	DERIVED_CONDITIONAL	Requires xi as the positional display
+J06	primary counterfamily	f_epsilon=xi+epsilon xi(1-xi^2), -1<epsilon<1/2	EXACT_COUNTERFAMILY	Physical operational readout absent
+J07	counterfamily anchors and parity	all members are odd and fix -1,0,+1	EXACT	None in declared readout test
+J08	counterfamily monotonicity	derivative positive on the full closed interval for -1<epsilon<1/2	EXACT	None in declared readout test
+J09	slope-matched counterfamily	g_epsilon=xi+epsilon xi^3(1-xi^2) also has g_prime(0)=1	EXACT_COUNTERFAMILY	Even local neutral calibration does not select tanh
+J10	induced composition	each display inherits an associative group by conjugating additive phi	EXACT	Nonzero members do not obey the original Mobius formula in display coordinates
+J11	complete coframe	D(phi-beta)=D(phi)D(-beta) and L dphi is recovered through every display Jacobian	EXACT_CONDITIONAL	Display choice is not part of the fundamental coframe
+J12	dynamic frame	every display inherits the same phi shift and off-diagonal coframe orbit	EXACT_CONDITIONAL	No readout selection
+J13	absolute-relative map	D(Phi(P))D(Phi(O))^-1=D(Phi(P)-Phi(O))	DERIVED_CONDITIONAL	Same reciprocal representation for absolute field and observer calibration
+J14	observer zero	phi_rel(O;O)=0	DERIVED_CONDITIONAL	Does not move the physical seal
+J15	seal in relative depth	Phi(S)=0 gives phi_rel(S;O)=-Phi(O)	DERIVED_CONDITIONAL	Complete time-live absolute scalar and boundary action open
+J16	seal versus Xmax endpoint	xi_rel(S;O)=-tanh(Phi(O)), generically interior and nonzero	REFUTED_GENERIC_IDENTIFICATION	Only infinite observer depth reaches an endpoint
+J17	finite cell and bootstrap	seal parity qualitative bootstrap and common Xmax are unchanged by smooth ray reparameterization	NO_SELECTION	An operational measure or boundary readout law is absent
+J18	smallest missing selector	physical position is a first-degree anchored projective readout of the reciprocal CSN ray	ABSENT_IDENTIFIED_NOT_ADOPTED	Owner lock or derivation from a new operational boundary/measure law

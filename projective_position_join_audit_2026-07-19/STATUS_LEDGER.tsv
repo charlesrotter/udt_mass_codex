@@ -1,0 +1,15 @@
+id	question	result	status	remaining_gate
+S01	Does UDT derive the reciprocal projective ray?	Yes in the declared dual positive-pair representation after CSN	DERIVED_CONDITIONAL	Representation and sign/unit premises retained
+S02	Is normalized imbalance mathematically natural?	Yes; it is the unique three-anchor first-degree fractional-linear chart	DERIVED_IN_CLASS	Physical readout class not selected
+S03	Does UDT derive x=Xmax tanh(phi) unconditionally?	No	OPEN	Physical projective-position join
+S04	Does finite bounded composition alone force tanh?	No; exact smooth counterfamilies survive	REFUTED_UNRESTRICTED_UNIQUENESS	None
+S05	Does neutral-point slope calibration force tanh?	No; a slope-matched counterfamily survives	REFUTED_UNREGISTERED_SHORTCUT	A stronger operational readout law
+S06	Does complete-coframe covariance select the positional display?	No; the coframe is L dphi and every display is a conjugate chart	UNDERDETERMINED	A physical relation between display and measurement
+S07	Does Xmax select the display?	No; all counterfamily members share the same endpoints	NO_SELECTION	Origin and operational meaning of Xmax
+S08	Does the finite-cell seal select the display?	No; it fixes absolute Phi zero/parity but not the relative projective chart	NO_SELECTION	Absolute-relative boundary action
+S09	Does qualitative bootstrap select the display?	No; smooth relabeling leaves the same complete geometry and density content	NO_SELECTION	A derived bootstrap functional sensitive to an operational position measure
+S10	Can relative phi be related to absolute Phi?	Yes conditionally as Phi(P)-Phi(O) in the shared reciprocal static representation	DERIVED_CONDITIONAL	Complete time-live field and observer calibration law
+S11	Is the seal relative zero for every observer?	No	REFUTED_GENERIC_IDENTIFICATION	Only observer self-location is relative zero
+S12	Is the seal the Xmax endpoint?	No for finite observer depth under the conditional difference map	REFUTED_GENERIC_IDENTIFICATION	A different global map would need derivation
+S13	What is the smallest missing selector?	Physical position must be the first-degree anchored projective readout of the reciprocal CSN ray	ABSENT_IDENTIFIED_NOT_ADOPTED	Derive or explicitly choose it
+S14	Maximum conclusion	Projective ray and conditional two-depth difference map advance but the physical positional chart remains open	VERIFIED_WITH_CAVEATS	No action angular bootstrap scale or matter closure

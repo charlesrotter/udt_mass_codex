@@ -1,0 +1,121 @@
+Script started on 2026-07-19 20:14:21-04:00 [<not executed on terminal>]
+{
+  "adjudication": {
+    "fractional_position_law": "DERIVED_ONLY_AFTER_THE_PROJECTIVE_POSITION_JOIN",
+    "normalized_imbalance": "DERIVED_CONDITIONAL_ON_FIRST_DEGREE_ANCHORED_PROJECTIVE_READOUT",
+    "projective_position_join": "OPEN; REFUTED_AS_UNCONDITIONALLY_DERIVED_BY_THE_EXACT_F_EPSILON_COUNTERFAMILY",
+    "projective_ray": "DERIVED_IN_DECLARED_DUAL_REPRESENTATION",
+    "relative_absolute_phi_map": "DERIVED_CONDITIONAL_IN_SHARED_STATIC_RECIPROCAL_REPRESENTATION",
+    "seal_equals_xmax_endpoint": "REFUTED_FOR_GENERIC_FINITE_OBSERVER_DEPTH_UNDER_THAT_MAP",
+    "selector_status": "ABSENT; IDENTIFIED_NOT_ADOPTED",
+    "smallest_missing_selector": "PHYSICAL_POSITION_IS_A_FIRST_DEGREE_ANCHORED_PROJECTIVE_READOUT_OF_THE_RECIPROCAL_CSN_RAY"
+  },
+  "checks": {
+    "absolute_to_relative_reciprocal_map": "PASS",
+    "all_displays_inherit_complete_frame_shift": "PASS",
+    "anchored_fractional_linear_solution_unique": "PASS",
+    "anchored_ratio_equals_tanh": "PASS",
+    "coframe_group_action_independent_of_display": "PASS",
+    "counterfamily_derivative": "PASS",
+    "counterfamily_difference_formula": "PASS",
+    "counterfamily_exchange_odd": "PASS",
+    "counterfamily_monotone_for_minus1_lt_epsilon_lt_half": "PASS",
+    "counterfamily_negative_endpoint": "PASS",
+    "counterfamily_negative_epsilon_minimum": "PASS",
+    "counterfamily_origin": "PASS",
+    "counterfamily_positive_endpoint": "PASS",
+    "counterfamily_positive_epsilon_minimum": "PASS",
+    "display_csn_invariance": "PASS",
+    "display_depth_jacobian": "PASS",
+    "display_reciprocal_exchange": "PASS",
+    "induced_group_associativity": "PASS",
+    "induced_group_identity": "PASS",
+    "induced_group_inverse": "PASS",
+    "nonprojective_member_has_conjugate_not_original_mobius_law": "PASS",
+    "nonzero_counterfamily_member_differs_from_normalized_imbalance": "PASS",
+    "normalized_imbalance_csn_invariant": "PASS",
+    "normalized_imbalance_exchange_odd": "PASS",
+    "normalized_imbalance_is_tanh": "PASS",
+    "observer_self_depth_zero": "PASS",
+    "projective_ratio_exponential": "PASS",
+    "reciprocal_pair_determinant_one": "PASS",
+    "relative_depth_intermediate_composition": "PASS",
+    "seal_not_projective_endpoint_for_finite_observer_depth": "PASS",
+    "seal_not_relative_zero_for_generic_observer": "PASS",
+    "seal_projective_coordinate": "PASS",
+    "seal_relative_depth": "PASS",
+    "shifted_projective_coordinate": "PASS",
+    "slope_matched_family_derivative": "PASS",
+    "slope_matched_family_endpoints": "PASS",
+    "slope_matched_family_monotone_for_minus1_lt_epsilon_lt_half": "PASS",
+    "slope_matched_family_negative_endpoint": "PASS",
+    "slope_matched_family_neutral_derivative": "PASS",
+    "slope_matched_family_odd": "PASS",
+    "slope_matched_family_origin": "PASS"
+  },
+  "composition_and_coframe": {
+    "candidate_law": "x_epsilon(phi1) oplus x_epsilon(phi2) := x_epsilon(phi1+phi2)",
+    "depth_coframe": "L dphi = L dx_epsilon/[X_max*f_epsilon_prime(xi)*(1-xi^2)]",
+    "equivalent_conjugation": "f_epsilon(Mobius(f_epsilon_inverse(y1),f_epsilon_inverse(y2)))",
+    "frame_shift": "x_epsilon' = X_max*f_epsilon((xi-tanh(beta))/(1-xi*tanh(beta)))",
+    "group_properties": "identity inverse associativity closure inherited exactly from additive phi",
+    "selection_result": "THE_COMPLETE_PHI_COFRAME_ACTION_IS_IDENTICAL_FOR_EVERY_EPSILON_AND_DOES_NOT_SELECT_THE_DISPLAY"
+  },
+  "counterfamily": {
+    "classification": "EXACT_KINEMATIC_READOUT_COUNTERFAMILY_UNDER_CURRENT_PREMISES",
+    "definition": "f_epsilon(xi)=xi+epsilon*xi*(1-xi^2)",
+    "derivative": "1+epsilon*(1-3xi^2)",
+    "derivative_minimum": "1+epsilon for -1<epsilon<0; 1-2epsilon for 0<=epsilon<1/2",
+    "nonprojective_witness": {
+      "conjugate_vs_original_mobius_difference": "-45/29728",
+      "epsilon": "1/4",
+      "f_minus_xi": "3/32",
+      "xi": "1/2"
+    },
+    "parameter_interval": "-1<epsilon<1/2",
+    "physical_display": "x_epsilon=X_max*f_epsilon(tanh(phi))",
+    "properties": "smooth increasing odd bijection of [-1,1] fixing -1,0,+1; CSN-neutral after composition with xi",
+    "slope_matched_companion": {
+      "definition": "g_epsilon(xi)=xi+epsilon*xi^3*(1-xi^2)",
+      "derivative_minimum_proof": "3y-5y^2 on y in [0,1] ranges from -2 to 9/20; the stated epsilon interval keeps g_prime positive",
+      "neutral_derivative": "g_epsilon_prime(0)=1 for every epsilon",
+      "parameter_interval": "-1<epsilon<1/2",
+      "purpose": "survives any unregistered attempt to select normalized imbalance only by matching the local neutral-point slope"
+    }
+  },
+  "finite_cell_and_bootstrap": {
+    "bootstrap_effect": "qualitative complete-solution and narrow-density requirements are unchanged by a smooth reparameterization of the same reciprocal ray",
+    "classification": "NO_CURRENT_FINITE_CELL_OR_BOOTSTRAP_READOUT_SELECTOR_FOUND",
+    "seal_effect": "fixes the absolute static-field zero and parity, not the observer-relative projective endpoint",
+    "xmax_effect": "a common unattainable endpoint is shared by every f_epsilon member and does not select epsilon"
+  },
+  "maximum_conclusion": "CURRENT_UDT_DERIVES_THE_RECIPROCAL_CSN_PROJECTIVE_RAY_AND_TANH_AS_THE_UNIQUE_THREE_ANCHOR_FIRST_DEGREE_FRACTIONAL_LINEAR_COORDINATE_BUT_DOES_NOT_DERIVE_THAT_PHYSICAL_POSITION_MUST_USE_THAT_COORDINATE; AN_EXACT_SMOOTH_ODD_BOUNDED_F_EPSILON_FAMILY_PRESERVES_RECIPROCITY_CSN_COMPOSITION_COMPLETE_PHI_COFRAME_XMAX_SEAL_AND_QUALITATIVE_BOOTSTRAP_CONTENT; IN_THE_SHARED_STATIC_RECIPROCAL_REPRESENTATION_OBSERVER_RELATIVE_DEPTH_IS_CONDITIONALLY_THE_DIFFERENCE_OF_ABSOLUTE_FIELDS_AND_THE_FIXED_SEAL_IS_GENERICALLY_NEITHER_RELATIVE_ZERO_NOR_THE_XMAX_ENDPOINT; THE_SMALLEST_MISSING_SELECTOR_IS_THE_PHYSICAL_FIRST_DEGREE_ANCHORED_PROJECTIVE_READOUT_AND_IT_IS_NOT_ADOPTED",
+  "normalized_imbalance": {
+    "anchors": "r=0,1,infinity map to xi=-1,0,+1",
+    "coordinate": "xi=(v-u)/(v+u)=(r-1)/(r+1)=tanh(phi)",
+    "fractional_composition": "xi1_plus_xi2=(xi1+xi2)/(1+xi1*xi2)",
+    "physical_join": "NOT_YET_DERIVED",
+    "uniqueness": "UNIQUE_ONLY_AMONG_FIRST_DEGREE_FRACTIONAL_LINEAR_COORDINATES_WITH_THE_THREE_ANCHORS"
+  },
+  "python": "3.10.12",
+  "reciprocal_csn_ray": {
+    "classification": "DERIVED_IN_DECLARED_DUAL_RECIPROCAL_REPRESENTATION",
+    "common_scale": "[su:sv]=[u:v]",
+    "exchange": "u<->v gives phi->-phi",
+    "pair": "[u:v]=[exp(-phi):exp(+phi)]",
+    "ratio": "r=v/u=exp(2phi)"
+  },
+  "schema": "udt-projective-position-join-audit-1.0",
+  "sympy": "1.13.1",
+  "two_depths": {
+    "absolute_field": "Phi(P), with static finite-cell seal Phi(S)=0",
+    "classification": "DERIVED_CONDITIONAL_IN_THE_SHARED_STATIC_RECIPROCAL_REPRESENTATION",
+    "conditional_shared_representation_map": "phi_rel(P;O)=Phi(P)-Phi(O) from D(Phi(P))*D(Phi(O))^-1",
+    "observer_zero": "phi_rel(O;O)=0",
+    "remaining_scope": "does not derive a complete time-live absolute scalar, boundary action, or identification of seal with X_max reach",
+    "seal_projective_display": "xi_rel(S;O)=-tanh(Phi(O)), generically neither zero nor an endpoint",
+    "seal_seen_by_observer": "phi_rel(S;O)=-Phi(O)"
+  }
+}
+
+Script done on 2026-07-19 20:14:23-04:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,43 @@
+Script started on 2026-07-19 20:14:26-04:00 [<not executed on terminal>]
+{
+  "catch_proofs": {
+    "anchored_class_scope_deleted": "PASS",
+    "bootstrap_selector_invented": "PASS",
+    "coframe_chart_selection_invented": "PASS",
+    "counterfamily_rejected_without_premise": "PASS",
+    "join_status_promoted": "PASS",
+    "missing_selector_adopted": "PASS",
+    "physical_join_invented": "PASS",
+    "seal_moved_to_relative_zero": "PASS",
+    "seal_moved_to_xmax_endpoint": "PASS",
+    "slope_matched_counterfamily_deleted": "PASS",
+    "two_depth_map_scope_promoted": "PASS"
+  },
+  "checks": {
+    "deterministic_primary_replay_and_contract": "PASS",
+    "independent_absolute_relative_depth_and_seal": "PASS",
+    "independent_anchor_and_slope_matched_counterfamily": "PASS",
+    "independent_anchored_projective_uniqueness_in_class": "PASS",
+    "independent_conjugate_group_not_original_mobius": "PASS",
+    "independent_csn_exchange_and_coframe_indifference": "PASS",
+    "ledger_coverage": "PASS",
+    "no_control_or_canon_edits": "PASS",
+    "report_contract": "PASS",
+    "source_inventory_replay": "PASS"
+  },
+  "independent_witnesses": {
+    "anchored_mobius": "(r-1)/(r+1)",
+    "conjugate_not_original_mobius": "43408064358036/149304049361328125",
+    "counterfamily": "h(x)=x+(1/100)x^3(1-x^2)^2",
+    "counterfamily_derivative_lower_bound": "4/5 on [-1,1] by coefficient triangle bound",
+    "counterfamily_slopes": "h'(0)=h'(-1)=h'(+1)=1",
+    "relative_depth": "PhiP-PhiO",
+    "seal_relative_depth": "-PhiO"
+  },
+  "python": "3.10.12",
+  "result": "PASS",
+  "schema": "udt-projective-position-join-verification-1.0",
+  "sympy": "1.13.1"
+}
+
+Script done on 2026-07-19 20:15:30-04:00 [COMMAND_EXIT_CODE="0"]
