@@ -1,0 +1,11 @@
+criterion	covered	status	evidence	remaining_scope
+1_exact_failed_identity_universe	all 51 parent failures	COMPLETE_FOR_REGISTERED_CENSUS	RAW_HOMOTOPY_PATHS_COMPLETE_LEDGER.json	no omitted registered path
+2_artificial_path_equation	full stored H=F-lambdaF0 states	VERIFIED	VERIFICATION_RESULT.json	homotopy is numerical only
+3_original_equation_endpoints	29 paths at lambda zero	OBSERVED_29_PASS	PATH_STATUS_LEDGER.tsv	22 paths do not reach endpoint
+4_spectral_orders	orders two and four	BOUNDED	order-two 14/14 round; order-four 15 round 22 open	higher and nonpolynomial modes
+5_parity_sectors	GENERAL SEAL_EVEN SEAL_ODD_W	BOUNDED	PATH_CENSUS.tsv	other symmetry classes
+6_full_metric_components	N H S W cohomogeneity-one	BROAD_WITHIN_TILE	nonlinear frozen engine	unrestricted ten-component and nontoric metrics
+7_full_Bach	round exact anchor only	NOT_TRIGGERED_FOR_NONROUND	no nonround endpoint	nonround and physical-boundary gate open
+8_physical_boundary_and_topology	not selected	OPEN	PRESOLVE_IMPLEMENTATION_NOTE.md	primitive caps wall polarization and global topology
+9_time_live_and_stability	not sampled	OPEN	stationary homotopy only	genuine time dependence
+10_action_matter_scale	not entered	OPEN	conditional dimensionless C2 metric-only tile	native action carrier source c G Xmax and mass

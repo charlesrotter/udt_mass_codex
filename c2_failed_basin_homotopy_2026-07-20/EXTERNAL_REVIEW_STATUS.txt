@@ -1,0 +1,6 @@
+Fresh external-model adversarial review was not authorized or performed.
+
+The evidence grade is VERIFIED-WITH-CAVEATS.  Independent checks include a complete saved-state
+homotopy replay, centered finite differences of the action, duplicate-run identity agreement, a
+direct round Bach anchor, source hashes, and exercised mutation catches.  These do not substitute
+for a fresh review by another model or research context.

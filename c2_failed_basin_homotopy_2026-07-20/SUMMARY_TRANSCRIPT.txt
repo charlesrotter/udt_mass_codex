@@ -1,0 +1,1 @@
+{"accepted_points": 1764, "fold_paths": 7, "nonround_endpoints": 0, "paths": 51, "rejected_steps": 6, "result": "PASS", "round_endpoints": 29, "unresolved": 22}

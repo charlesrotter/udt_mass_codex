@@ -1,0 +1,69 @@
+{
+  "environment": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "numpy": "2.2.6",
+    "python": "3.10.12",
+    "torch": "2.5.1+cu121"
+  },
+  "expensive_homotopy_rerun": false,
+  "records": [
+    {
+      "command": "/usr/bin/python3 c2_failed_basin_homotopy_2026-07-20/build_source_census.py",
+      "exit_code": 0,
+      "id": "E01",
+      "output_artifact": "CENSUS_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "6d6a900efbf241d7f8f5919b9fcbb43c71a371d7720b7e27a74d8926ca56f643"
+    },
+    {
+      "command": "/usr/bin/python3 c2_failed_basin_homotopy_2026-07-20/build_source_adjudication.py",
+      "exit_code": 0,
+      "id": "E02",
+      "output_artifact": "ADJUDICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "f9616c160ab0098f5e941e1f6c2baa5b0cf5a242e4249dea84175b9ed8aeb3e6"
+    },
+    {
+      "command": "/usr/bin/python3 c2_failed_basin_homotopy_2026-07-20/summarize_homotopy.py",
+      "exit_code": 0,
+      "id": "E03",
+      "output_artifact": "SUMMARY_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "f395c8dad29bbb7b7a2847290ce160a4ac63f7f661e06c62ad6bb069e547bf27"
+    },
+    {
+      "command": "/usr/bin/python3 c2_failed_basin_homotopy_2026-07-20/verify_raw_artifact.py",
+      "exit_code": 0,
+      "id": "E04",
+      "output_artifact": "RAW_ARTIFACT_VERIFICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "83cb58bd184e15371dc3167b1ab77e7ffd6cea79abad4ac505c5fc123fd6a54e"
+    },
+    {
+      "command": "/usr/bin/python3 c2_failed_basin_homotopy_2026-07-20/verify_homotopy.py",
+      "exit_code": 0,
+      "id": "E05",
+      "output_artifact": "VERIFICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "1fbb79b2b99efd6e8d552e66656f32d39ad1957d14d9f20cb8121fe0848f8192"
+    },
+    {
+      "command": "/usr/bin/python3 -m pytest tests/",
+      "exit_code": 1,
+      "id": "E06",
+      "output_artifact": "TEST_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "7e7c89fa548ef360b5afa71295d08a3465cbb65d87585db0bc3b4f61cd86f5b3"
+    },
+    {
+      "command": "/usr/bin/python3 -I -c import sys,runpy; sys.path[:0]=['/home/udt-admin/.local/lib/python3.10/site-packages','/home/udt-admin/.local/lib/python3.10/site-packages','/tmp/udt_startup_rehearsal_20260719_h0zjlA/repo/c2_failed_basin_homotopy_2026-07-20','/tmp/udt_startup_rehearsal_20260719_h0zjlA/repo/c2_nonlinear_stationary_solution_space_2026-07-20']; import numpy,torch; assert numpy.__version__=='2.2.6'; assert torch.__version__=='2.5.1+cu121'; runpy.run_path('/tmp/udt_startup_rehearsal_20260719_h0zjlA/repo/c2_failed_basin_homotopy_2026-07-20/verify_homotopy.py',run_name='__main__')",
+      "exit_code": 0,
+      "id": "E07",
+      "output_artifact": "ISOLATED_VERIFICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "1fbb79b2b99efd6e8d552e66656f32d39ad1957d14d9f20cb8121fe0848f8192"
+    }
+  ],
+  "result": "PASS",
+  "saved_state_replay": true,
+  "schema": "udt-c2-failed-basin-homotopy-execution-1.0",
+  "test_baseline": {
+    "failed_known_hygiene": 1,
+    "passed": 69,
+    "xfailed": 1
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "checks": {
+    "accepted_count": true,
+    "accepted_homotopy_gate": true,
+    "all_vectors_retained": true,
+    "bach_not_triggered": true,
+    "complete_schema": true,
+    "coverage_51": true,
+    "endpoint_raw_gate": true,
+    "endpoint_round_gate": true,
+    "endpoint_validation_gate": true,
+    "endpoints": true,
+    "fold_count": true,
+    "identity_regression": true,
+    "no_nonround": true,
+    "order2_all_round": true,
+    "order4_split": true,
+    "status_rows": true,
+    "statuses": true,
+    "tables": true
+  },
+  "counts": {
+    "accepted_points": 1764,
+    "fold_paths": 7,
+    "nonround_endpoints": 0,
+    "paths": 51,
+    "rejected_steps": 6,
+    "round_endpoints": 29,
+    "unresolved": 22
+  },
+  "maxima": {
+    "accepted_homotopy_residual_inf": 9.970122505364998e-10,
+    "endpoint_coefficient_norm": 3.553635345703164e-11,
+    "endpoint_raw_residual_inf": 5.661873707753503e-10,
+    "endpoint_validation_residual_inf": 1.7354554952470685e-09
+  },
+  "maximum_conclusion": "FAILED_BASIN_HOMOTOPY_CHARACTERIZED_IN_CONDITIONAL_STATIONARY_TORIC_C2_TILE; BROAD_ROUND_BASIN_STRENGTHENED; UNIQUENESS_OPEN",
+  "primary_observation": "29_OF_51_FORMERLY_UNRESOLVED_PATHS_NOW_CERTIFIED_ROUND; 22_REMAIN_UNRESOLVED",
+  "raw_complete_sha256": "1a8da008545be0a65d9f25899219a9334e4afd0692d5ef1bb7b67b95a817b2e8",
+  "raw_preserved_sha256": "05583c69d82ed8afb713fa17094a790b7c30146012f4616ef32ed22d5f57586c",
+  "result": "PASS",
+  "schema": "udt-c2-failed-basin-homotopy-summary-1.0"
+}

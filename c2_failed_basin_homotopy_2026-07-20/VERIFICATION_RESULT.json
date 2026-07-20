@@ -1,0 +1,118 @@
+{
+  "catch_proofs": {
+    "census_loss_rejected": "PASS",
+    "coverage_loss_rejected": "PASS",
+    "duplicate_path_rejected": "PASS",
+    "endpoint_count_rejected": "PASS",
+    "endpoint_residual_rejected": "PASS",
+    "endpoint_validation_rejected": "PASS",
+    "homotopy_gate_rejected": "PASS",
+    "missing_coefficients_rejected": "PASS",
+    "missing_path_rejected": "PASS",
+    "missing_tangent_rejected": "PASS",
+    "nonround_promotion_rejected": "PASS",
+    "order2_open_rejected": "PASS",
+    "regression_mismatch_rejected": "PASS",
+    "round_norm_rejected": "PASS",
+    "source_loss_rejected": "PASS",
+    "status_count_rejected": "PASS",
+    "summary_overclaim_rejected": "PASS",
+    "timeout_endpoint_rejected": "PASS",
+    "timeout_lambda_rejected": "PASS",
+    "timeout_promoted_rejected": "PASS"
+  },
+  "certification": "VERIFIED-WITH-CAVEATS: full saved-state replay, independent finite-difference action gradients, duplicate-run identity agreement, sources and mutation catches; no fresh external-model review",
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false
+  },
+  "counts": {
+    "accepted_points": 1764,
+    "catch_proofs": 20,
+    "groups": 7,
+    "paths": 51,
+    "round_endpoints": 29,
+    "unresolved": 22
+  },
+  "groups": {
+    "bach_anchor": {
+      "boundary": "OPEN_NOT_TESTED",
+      "round_points": [
+        {
+          "eta": 0.02,
+          "raw_component_inf": 5.919487592309094e-09,
+          "symmetry_error_inf": 2.2214323091023692e-27
+        },
+        {
+          "eta": 0.7853981633974483,
+          "raw_component_inf": 2.8865798640254078e-15,
+          "symmetry_error_inf": 0.0
+        }
+      ]
+    },
+    "finite_difference_gradient": {
+      "epsilon": 2e-05,
+      "maximum_scaled_error": 7.303861194432221e-08,
+      "method": "centered finite difference of the reduced action, independent of coefficient autograd",
+      "profiles": [
+        {
+          "maximum_absolute_error": 4.266973308020283e-08,
+          "path_id": "P2_GENERAL_SINGLE_S_-1_0.20",
+          "scaled_error": 5.491190374164e-09,
+          "size": 10
+        },
+        {
+          "maximum_absolute_error": 8.806163993568816e-07,
+          "path_id": "P4_GENERAL_SINGLE_H_-1_0.20",
+          "scaled_error": 7.303861194432221e-08,
+          "size": 18
+        },
+        {
+          "maximum_absolute_error": 4.761527208074767e-07,
+          "path_id": "P4_SEAL_EVEN_SINGLE_N_-1_0.20",
+          "scaled_error": 1.307620134670421e-08,
+          "size": 10
+        }
+      ]
+    },
+    "input": {
+      "failed_identities": 51,
+      "sha256": "0671c58e9684390ce82fa136dc9d2986337efcf5edc63453ecabe3b802197d55"
+    },
+    "raw": {
+      "accepted_points": 1764,
+      "identity_regression": 51,
+      "paths": 51,
+      "rejected_steps": 6,
+      "round_endpoints": 29,
+      "unresolved": 22
+    },
+    "sources": {
+      "census_rows": 3966,
+      "dispositions": {
+        "CONTEXT_CANDIDATE": 1742,
+        "EXCLUDED_DUPLICATE_RAW_RECORD": 92,
+        "EXCLUDED_GENERATED_ORGANIZATION": 226,
+        "LOAD_BEARING_CANDIDATE": 104,
+        "PROVENANCE_OR_COUNTEREXAMPLE_ONLY": 1802
+      },
+      "source_rows": 104
+    },
+    "state_replay": {
+      "maximum_log_difference": 0.0,
+      "maximum_recomputed_homotopy_residual_inf": 9.970122505364998e-10,
+      "paths": 51,
+      "points": 1764
+    },
+    "tables": {
+      "folds": 7,
+      "path_census": 6,
+      "path_ledger": 51,
+      "statuses": 22,
+      "summary_checks": 18
+    }
+  },
+  "result": "PASS",
+  "schema": "udt-c2-failed-basin-homotopy-verification-1.0",
+  "verdict": "29_FORMER_FAILURES_CERTIFIED_ROUND; 22_PATHS_REMAIN_UNRESOLVED; NO_NONROUND_ENDPOINT_OBSERVED"
+}
