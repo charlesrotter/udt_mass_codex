@@ -1,0 +1,1 @@
+{"attempts": 198, "certified": 147, "checks": 22, "observation": "ONLY_ROUND_COORDINATE_CSN_ORBIT_OBSERVED_AMONG_147_CERTIFIED_ROOTS_IN_BOUNDED_SEARCH", "result": "PASS", "unresolved": 51}

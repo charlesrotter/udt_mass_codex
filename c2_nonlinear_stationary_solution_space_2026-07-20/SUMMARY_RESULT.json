@@ -1,0 +1,49 @@
+{
+  "certified_root_max_coefficient_norm": 1.3830808433406037e-10,
+  "checks": {
+    "all_certified_roots_round": "PASS",
+    "all_clusters_round": "PASS",
+    "all_higher_projections_below_gate": "PASS",
+    "all_raw_passes_below_gate": "PASS",
+    "all_raw_passes_validated": "PASS",
+    "cluster_seed_total": "PASS",
+    "complete_budget": "PASS",
+    "frozen_grids": "PASS",
+    "frozen_orders": "PASS",
+    "frozen_sectors": "PASS",
+    "frozen_tolerances": "PASS",
+    "one_cluster_per_stratum": "PASS",
+    "raw_schema": "PASS",
+    "six_strata": "PASS",
+    "status_counts": "PASS",
+    "unique_seeds_(2, 'GENERAL')": "PASS",
+    "unique_seeds_(2, 'SEAL_EVEN')": "PASS",
+    "unique_seeds_(2, 'SEAL_ODD_W')": "PASS",
+    "unique_seeds_(4, 'GENERAL')": "PASS",
+    "unique_seeds_(4, 'SEAL_EVEN')": "PASS",
+    "unique_seeds_(4, 'SEAL_ODD_W')": "PASS",
+    "unresolved_not_mislabeled": "PASS"
+  },
+  "coframe_ruling": "METRIC_ONLY_C2_CANNOT_DISTINGUISH_COFRAME_LIFTS_WITH_IDENTICAL_METRIC_PULLBACK",
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false
+  },
+  "maximum_conclusion": "BROAD_ROUND_BASIN_OBSERVED_IN_CONDITIONAL_SMOOTH_CAP_TORIC_STATIONARY_C2_GALERKIN_TILE; DISCONNECTED_LARGE_AMPLITUDE_PHYSICAL_BOUNDARY_NONTORIC_TIME_LIVE_ACTION_AND_UDT_COMPLETION_OPEN",
+  "primary_observation": "ONLY_ROUND_COORDINATE_CSN_ORBIT_OBSERVED_AMONG_147_CERTIFIED_ROOTS_IN_BOUNDED_SEARCH",
+  "raw_counts": {
+    "attempts": 198,
+    "certified_reduced_roots": 147,
+    "clusters": 6,
+    "strata": 6,
+    "unresolved_attempt_basins": 51
+  },
+  "residuals": {
+    "max_higher_mode_validation": 6.626992185076909e-09,
+    "max_solve_pass": 9.916772938654255e-10,
+    "min_unresolved": 0.04808259904896163
+  },
+  "result": "PASS",
+  "schema": "udt-c2-nonlinear-stationary-solution-space-summary-1.0",
+  "solver_caveat": "51_PREREGISTERED_ATTEMPT_BASINS_UNRESOLVED; NO_BRANCH_EXCLUSION"
+}

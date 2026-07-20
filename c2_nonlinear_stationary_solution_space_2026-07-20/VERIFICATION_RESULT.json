@@ -1,0 +1,124 @@
+{
+  "catch_proofs": {
+    "action_overclaim_rejected": "PASS",
+    "ansatz_overclaim_rejected": "PASS",
+    "basin_overclaim_rejected": "PASS",
+    "boundary_overclaim_rejected": "PASS",
+    "canon_mutation_rejected": "PASS",
+    "carrier_import_rejected": "PASS",
+    "closure_overclaim_rejected": "PASS",
+    "cluster_overclaim_rejected": "PASS",
+    "coframe-status_overclaim_rejected": "PASS",
+    "coframe_promotion_rejected": "PASS",
+    "failure_promotion_rejected": "PASS",
+    "grade_overclaim_rejected": "PASS",
+    "grid_mutation_rejected": "PASS",
+    "mass_overclaim_rejected": "PASS",
+    "maximum_overreach_rejected": "PASS",
+    "merit_filter_rejected": "PASS",
+    "missing_attempt_rejected": "PASS",
+    "missing_attempt_table_rejected": "PASS",
+    "missing_census_rejected": "PASS",
+    "missing_cluster_rejected": "PASS",
+    "missing_scope_rejected": "PASS",
+    "missing_source_rejected": "PASS",
+    "missing_status_rejected": "PASS",
+    "missing_unresolved_rejected": "PASS",
+    "nonround_cluster_rejected": "PASS",
+    "outcome_overclaim_rejected": "PASS",
+    "parity_overclaim_rejected": "PASS",
+    "summary_caveat_loss_rejected": "PASS",
+    "summary_uniqueness_rejected": "PASS",
+    "time_overclaim_rejected": "PASS",
+    "topology_overclaim_rejected": "PASS",
+    "unresolved_overclaim_rejected": "PASS",
+    "validation_failure_rejected": "PASS"
+  },
+  "certification": "VERIFIED-WITH-CAVEATS: independent finite-difference tensor reference, exact raw census, source hashes, and mutation catches; no fresh external-model review",
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false
+  },
+  "counts": {
+    "attempts": 198,
+    "catch_proofs": 33,
+    "certified": 147,
+    "groups": 7,
+    "sources": 92,
+    "unresolved": 51
+  },
+  "groups": {
+    "independent_tensor": {
+      "errors": [
+        {
+          "determinant": 2.7755575615628914e-17,
+          "eta": 0.31,
+          "metric": 0.0,
+          "scalar": 2.722018166423368e-10,
+          "weyl_squared": 1.00647107315055e-09
+        },
+        {
+          "determinant": 5.551115123125783e-17,
+          "eta": 0.73,
+          "metric": 0.0,
+          "scalar": 2.0753178731069966e-08,
+          "weyl_squared": 5.269479602665328e-09
+        },
+        {
+          "determinant": 0.0,
+          "eta": 1.19,
+          "metric": 0.0,
+          "scalar": 1.5138297726480232e-08,
+          "weyl_squared": 3.3145179378912815e-09
+        }
+      ],
+      "method": "independent NumPy five-point metric derivatives and separate coordinate contraction",
+      "profiles": 3,
+      "round_strata": 6
+    },
+    "raw_census": {
+      "attempts": 198,
+      "certified": 147,
+      "clusters": 6,
+      "max_coefficient_norm": 1.3830808433406037e-10,
+      "max_solve": 9.916772938654255e-10,
+      "max_validation": 6.626992185076909e-09,
+      "strata": 6,
+      "unresolved": 51
+    },
+    "source_adjudication": {
+      "base_hashes_replayed": 92,
+      "rows": 92
+    },
+    "source_census": {
+      "dispositions": {
+        "CONTEXT_CANDIDATE": 1726,
+        "EXCLUDED_DUPLICATE_RAW_RECORD": 88,
+        "EXCLUDED_GENERATED_ORGANIZATION": 226,
+        "LOAD_BEARING_CANDIDATE": 92,
+        "PROVENANCE_OR_COUNTEREXAMPLE_ONLY": 1802
+      },
+      "rows": 3934
+    },
+    "source_syntax": {
+      "parent": "PASS",
+      "preregistration": "PASS",
+      "shift": "PASS"
+    },
+    "summary": {
+      "checks": 22
+    },
+    "tables": {
+      "attempt_rows": 6,
+      "cluster_rows": 6,
+      "completeness_rows": 10,
+      "status_rows": 25,
+      "unresolved_rows": 51
+    }
+  },
+  "raw_sha256": "0671c58e9684390ce82fa136dc9d2986337efcf5edc63453ecabe3b802197d55",
+  "result": "PASS",
+  "schema": "udt-c2-nonlinear-stationary-solution-space-verification-1.0",
+  "summary_sha256": "77305b795f91e57c1f596ae2d95b832f10da80d2cb1d7c9bdff83717fcb44b52",
+  "verdict": "BROAD_ROUND_BASIN_OBSERVED_IN_CONDITIONAL_SMOOTH_CAP_TORIC_STATIONARY_C2_TILE; 51_ATTEMPT_BASINS_UNRESOLVED; NO_UNIQUENESS_OR_COFRAME_SELECTION"
+}

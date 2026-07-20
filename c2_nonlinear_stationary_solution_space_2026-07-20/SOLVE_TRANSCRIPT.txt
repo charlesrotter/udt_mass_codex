@@ -1,0 +1,397 @@
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "ZERO"}
+{"event": "END", "order": 2, "residual": 3.4545085345256357e-14, "seconds": 0.7889767100568861, "sector": "GENERAL", "seed": "ZERO", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "ZERO"}
+{"event": "END", "order": 2, "residual": 3.4545085345256357e-14, "seconds": 0.7314220280386508, "sector": "SEAL_EVEN", "seed": "ZERO", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "ZERO"}
+{"event": "END", "order": 2, "residual": 3.4545085345256357e-14, "seconds": 0.7696944789495319, "sector": "SEAL_ODD_W", "seed": "ZERO", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "ZERO"}
+{"event": "END", "order": 4, "residual": 1.0798668648707486e-13, "seconds": 0.7879643489141017, "sector": "GENERAL", "seed": "ZERO", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "ZERO"}
+{"event": "END", "order": 4, "residual": 1.0798668648707486e-13, "seconds": 0.7876800030935556, "sector": "SEAL_EVEN", "seed": "ZERO", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "ZERO"}
+{"event": "END", "order": 4, "residual": 1.0798668648707486e-13, "seconds": 0.7655293559655547, "sector": "SEAL_ODD_W", "seed": "ZERO", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "SINGLE_N_-1_0.05"}
+{"event": "END", "order": 2, "residual": 2.917631213775907e-10, "seconds": 3.155311578884721, "sector": "GENERAL", "seed": "SINGLE_N_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "SINGLE_N_-1_0.05"}
+{"event": "END", "order": 2, "residual": 2.621397177149683e-10, "seconds": 4.29140536300838, "sector": "SEAL_EVEN", "seed": "SINGLE_N_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "SINGLE_N_-1_0.05"}
+{"event": "END", "order": 2, "residual": 2.621397177149683e-10, "seconds": 4.2752184281125665, "sector": "SEAL_ODD_W", "seed": "SINGLE_N_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "SINGLE_N_-1_0.05"}
+{"event": "END", "order": 4, "residual": 8.581485876402287e-10, "seconds": 3.2498634608928114, "sector": "GENERAL", "seed": "SINGLE_N_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_N_-1_0.05"}
+{"event": "END", "order": 4, "residual": 7.449804693734498e-10, "seconds": 4.809362710919231, "sector": "SEAL_EVEN", "seed": "SINGLE_N_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_N_-1_0.05"}
+{"event": "END", "order": 4, "residual": 7.44976397369491e-10, "seconds": 4.814563462045044, "sector": "SEAL_ODD_W", "seed": "SINGLE_N_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "SINGLE_N_+1_0.05"}
+{"event": "END", "order": 2, "residual": 2.9177147352767964e-10, "seconds": 3.1758709200657904, "sector": "GENERAL", "seed": "SINGLE_N_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "SINGLE_N_+1_0.05"}
+{"event": "END", "order": 2, "residual": 3.849782062669048e-10, "seconds": 4.323903236771002, "sector": "SEAL_EVEN", "seed": "SINGLE_N_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "SINGLE_N_+1_0.05"}
+{"event": "END", "order": 2, "residual": 3.849782062669048e-10, "seconds": 4.320037990109995, "sector": "SEAL_ODD_W", "seed": "SINGLE_N_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "SINGLE_N_+1_0.05"}
+{"event": "END", "order": 4, "residual": 8.581509852708953e-10, "seconds": 3.2979277670383453, "sector": "GENERAL", "seed": "SINGLE_N_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_N_+1_0.05"}
+{"event": "END", "order": 4, "residual": 9.916772938654255e-10, "seconds": 4.42390619404614, "sector": "SEAL_EVEN", "seed": "SINGLE_N_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_N_+1_0.05"}
+{"event": "END", "order": 4, "residual": 9.916753959774046e-10, "seconds": 4.42661167611368, "sector": "SEAL_ODD_W", "seed": "SINGLE_N_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "SINGLE_N_-1_0.20"}
+{"event": "END", "order": 2, "residual": 5.8029796409629504e-11, "seconds": 4.812263613799587, "sector": "GENERAL", "seed": "SINGLE_N_-1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "SINGLE_N_-1_0.20"}
+{"event": "END", "order": 2, "residual": 3.053461001249067e-10, "seconds": 5.884332046145573, "sector": "SEAL_EVEN", "seed": "SINGLE_N_-1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "SINGLE_N_-1_0.20"}
+{"event": "END", "order": 2, "residual": 3.053461001249067e-10, "seconds": 5.836396494181827, "sector": "SEAL_ODD_W", "seed": "SINGLE_N_-1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "SINGLE_N_-1_0.20"}
+{"event": "END", "order": 4, "residual": 4.5666760299020014e-11, "seconds": 5.359712142962962, "sector": "GENERAL", "seed": "SINGLE_N_-1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_N_-1_0.20"}
+{"event": "END", "order": 4, "residual": 6.362335636866039, "seconds": 4.61790301091969, "sector": "SEAL_EVEN", "seed": "SINGLE_N_-1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_N_-1_0.20"}
+{"event": "END", "order": 4, "residual": 6.362335636866041, "seconds": 4.649367172969505, "sector": "SEAL_ODD_W", "seed": "SINGLE_N_-1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "SINGLE_N_+1_0.20"}
+{"event": "END", "order": 2, "residual": 5.7978154785650786e-11, "seconds": 4.713863111799583, "sector": "GENERAL", "seed": "SINGLE_N_+1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "SINGLE_N_+1_0.20"}
+{"event": "END", "order": 2, "residual": 1.2171640921295898e-10, "seconds": 6.640136105939746, "sector": "SEAL_EVEN", "seed": "SINGLE_N_+1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "SINGLE_N_+1_0.20"}
+{"event": "END", "order": 2, "residual": 1.2171640921295898e-10, "seconds": 6.639794375980273, "sector": "SEAL_ODD_W", "seed": "SINGLE_N_+1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "SINGLE_N_+1_0.20"}
+{"event": "END", "order": 4, "residual": 4.566015416616736e-11, "seconds": 5.382684344891459, "sector": "GENERAL", "seed": "SINGLE_N_+1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_N_+1_0.20"}
+{"event": "END", "order": 4, "residual": 6.11254895892322, "seconds": 4.234975814120844, "sector": "SEAL_EVEN", "seed": "SINGLE_N_+1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_N_+1_0.20"}
+{"event": "END", "order": 4, "residual": 6.11254895892319, "seconds": 4.248133944813162, "sector": "SEAL_ODD_W", "seed": "SINGLE_N_+1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "SINGLE_H_-1_0.05"}
+{"event": "END", "order": 2, "residual": 1.1292434618387668e-11, "seconds": 3.5677057271823287, "sector": "GENERAL", "seed": "SINGLE_H_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "SINGLE_H_-1_0.05"}
+{"event": "END", "order": 2, "residual": 1.1290557440715887e-11, "seconds": 3.520543630933389, "sector": "SEAL_EVEN", "seed": "SINGLE_H_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "SINGLE_H_-1_0.05"}
+{"event": "END", "order": 2, "residual": 1.1290557440715887e-11, "seconds": 3.5114300011191517, "sector": "SEAL_ODD_W", "seed": "SINGLE_H_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "SINGLE_H_-1_0.05"}
+{"event": "END", "order": 4, "residual": 3.014462272790466e-10, "seconds": 3.709289154037833, "sector": "GENERAL", "seed": "SINGLE_H_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_H_-1_0.05"}
+{"event": "END", "order": 4, "residual": 3.0144416176006603e-10, "seconds": 3.634612540015951, "sector": "SEAL_EVEN", "seed": "SINGLE_H_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_H_-1_0.05"}
+{"event": "END", "order": 4, "residual": 3.0145324860871957e-10, "seconds": 3.6167977270670235, "sector": "SEAL_ODD_W", "seed": "SINGLE_H_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "SINGLE_H_+1_0.05"}
+{"event": "END", "order": 2, "residual": 8.996131761255378e-10, "seconds": 3.1746462809387594, "sector": "GENERAL", "seed": "SINGLE_H_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "SINGLE_H_+1_0.05"}
+{"event": "END", "order": 2, "residual": 8.99612612188864e-10, "seconds": 3.1214981640223414, "sector": "SEAL_EVEN", "seed": "SINGLE_H_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "SINGLE_H_+1_0.05"}
+{"event": "END", "order": 2, "residual": 8.99612612188864e-10, "seconds": 3.1379204150289297, "sector": "SEAL_ODD_W", "seed": "SINGLE_H_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "SINGLE_H_+1_0.05"}
+{"event": "END", "order": 4, "residual": 1.5251005421279944e-10, "seconds": 3.7121504549868405, "sector": "GENERAL", "seed": "SINGLE_H_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_H_+1_0.05"}
+{"event": "END", "order": 4, "residual": 1.525077508271324e-10, "seconds": 3.6234282210934907, "sector": "SEAL_EVEN", "seed": "SINGLE_H_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_H_+1_0.05"}
+{"event": "END", "order": 4, "residual": 1.5250923780750508e-10, "seconds": 3.5950089511461556, "sector": "SEAL_ODD_W", "seed": "SINGLE_H_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "SINGLE_H_-1_0.20"}
+{"event": "END", "order": 2, "residual": 8.184614636651304e-10, "seconds": 5.145215559983626, "sector": "GENERAL", "seed": "SINGLE_H_-1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "SINGLE_H_-1_0.20"}
+{"event": "END", "order": 2, "residual": 8.184627774689421e-10, "seconds": 5.071884538047016, "sector": "SEAL_EVEN", "seed": "SINGLE_H_-1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "SINGLE_H_-1_0.20"}
+{"event": "END", "order": 2, "residual": 8.184627774689421e-10, "seconds": 5.074082747101784, "sector": "SEAL_ODD_W", "seed": "SINGLE_H_-1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "SINGLE_H_-1_0.20"}
+{"event": "END", "order": 4, "residual": 0.1824425796855584, "seconds": 5.170034835115075, "sector": "GENERAL", "seed": "SINGLE_H_-1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_H_-1_0.20"}
+{"event": "END", "order": 4, "residual": 0.1824425796857385, "seconds": 5.058675243984908, "sector": "SEAL_EVEN", "seed": "SINGLE_H_-1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_H_-1_0.20"}
+{"event": "END", "order": 4, "residual": 0.1824425796857113, "seconds": 5.048313171137124, "sector": "SEAL_ODD_W", "seed": "SINGLE_H_-1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "SINGLE_H_+1_0.20"}
+{"event": "END", "order": 2, "residual": 6.352123588953478e-11, "seconds": 4.74788569402881, "sector": "GENERAL", "seed": "SINGLE_H_+1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "SINGLE_H_+1_0.20"}
+{"event": "END", "order": 2, "residual": 6.35206460176869e-11, "seconds": 4.704308935906738, "sector": "SEAL_EVEN", "seed": "SINGLE_H_+1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "SINGLE_H_+1_0.20"}
+{"event": "END", "order": 2, "residual": 6.35206460176869e-11, "seconds": 4.680164545075968, "sector": "SEAL_ODD_W", "seed": "SINGLE_H_+1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "SINGLE_H_+1_0.20"}
+{"event": "END", "order": 4, "residual": 5.326966563584166e-11, "seconds": 5.366626999108121, "sector": "GENERAL", "seed": "SINGLE_H_+1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_H_+1_0.20"}
+{"event": "END", "order": 4, "residual": 5.3250427834082993e-11, "seconds": 5.262206753948703, "sector": "SEAL_EVEN", "seed": "SINGLE_H_+1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_H_+1_0.20"}
+{"event": "END", "order": 4, "residual": 5.3242966059649695e-11, "seconds": 5.226617224980146, "sector": "SEAL_ODD_W", "seed": "SINGLE_H_+1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "SINGLE_S_-1_0.05"}
+{"event": "END", "order": 2, "residual": 5.246092571489251e-10, "seconds": 4.344387020915747, "sector": "GENERAL", "seed": "SINGLE_S_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "SINGLE_S_-1_0.05"}
+{"event": "END", "order": 2, "residual": 5.246103443129969e-10, "seconds": 4.3417402701452374, "sector": "SEAL_EVEN", "seed": "SINGLE_S_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "SINGLE_S_-1_0.05"}
+{"event": "END", "order": 2, "residual": 5.246103443129969e-10, "seconds": 4.299303792882711, "sector": "SEAL_ODD_W", "seed": "SINGLE_S_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "SINGLE_S_-1_0.05"}
+{"event": "END", "order": 4, "residual": 3.5575467397822244e-10, "seconds": 4.558365860953927, "sector": "GENERAL", "seed": "SINGLE_S_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_S_-1_0.05"}
+{"event": "END", "order": 4, "residual": 3.5575489179148193e-10, "seconds": 4.440020459936932, "sector": "SEAL_EVEN", "seed": "SINGLE_S_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_S_-1_0.05"}
+{"event": "END", "order": 4, "residual": 3.557559688368855e-10, "seconds": 4.435701197013259, "sector": "SEAL_ODD_W", "seed": "SINGLE_S_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "SINGLE_S_+1_0.05"}
+{"event": "END", "order": 2, "residual": 1.6738865319255136e-11, "seconds": 4.778891644906253, "sector": "GENERAL", "seed": "SINGLE_S_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "SINGLE_S_+1_0.05"}
+{"event": "END", "order": 2, "residual": 1.6739970050813072e-11, "seconds": 4.703362803906202, "sector": "SEAL_EVEN", "seed": "SINGLE_S_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "SINGLE_S_+1_0.05"}
+{"event": "END", "order": 2, "residual": 1.6739970050813072e-11, "seconds": 4.710567646892741, "sector": "SEAL_ODD_W", "seed": "SINGLE_S_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "SINGLE_S_+1_0.05"}
+{"event": "END", "order": 4, "residual": 5.405776428739618e-10, "seconds": 4.964936804026365, "sector": "GENERAL", "seed": "SINGLE_S_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_S_+1_0.05"}
+{"event": "END", "order": 4, "residual": 5.405790765202866e-10, "seconds": 4.831515153171495, "sector": "SEAL_EVEN", "seed": "SINGLE_S_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_S_+1_0.05"}
+{"event": "END", "order": 4, "residual": 5.405767962444404e-10, "seconds": 4.841069108108059, "sector": "SEAL_ODD_W", "seed": "SINGLE_S_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "SINGLE_S_-1_0.20"}
+{"event": "END", "order": 2, "residual": 5.894161235056561, "seconds": 4.158083613961935, "sector": "GENERAL", "seed": "SINGLE_S_-1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "SINGLE_S_-1_0.20"}
+{"event": "END", "order": 2, "residual": 5.894161235056561, "seconds": 4.135778283933178, "sector": "SEAL_EVEN", "seed": "SINGLE_S_-1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "SINGLE_S_-1_0.20"}
+{"event": "END", "order": 2, "residual": 5.894161235056561, "seconds": 4.131219868082553, "sector": "SEAL_ODD_W", "seed": "SINGLE_S_-1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "SINGLE_S_-1_0.20"}
+{"event": "END", "order": 4, "residual": 5.893694251782084, "seconds": 4.361242297105491, "sector": "GENERAL", "seed": "SINGLE_S_-1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_S_-1_0.20"}
+{"event": "END", "order": 4, "residual": 5.893694251782081, "seconds": 4.2413486239966005, "sector": "SEAL_EVEN", "seed": "SINGLE_S_-1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_S_-1_0.20"}
+{"event": "END", "order": 4, "residual": 5.893694251782081, "seconds": 4.241787472972646, "sector": "SEAL_ODD_W", "seed": "SINGLE_S_-1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "SINGLE_S_+1_0.20"}
+{"event": "END", "order": 2, "residual": 6.220626294233368, "seconds": 4.1931051320862025, "sector": "GENERAL", "seed": "SINGLE_S_+1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "SINGLE_S_+1_0.20"}
+{"event": "END", "order": 2, "residual": 6.220626294233366, "seconds": 4.118438314180821, "sector": "SEAL_EVEN", "seed": "SINGLE_S_+1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "SINGLE_S_+1_0.20"}
+{"event": "END", "order": 2, "residual": 6.220626294233366, "seconds": 4.1219317689538, "sector": "SEAL_ODD_W", "seed": "SINGLE_S_+1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "SINGLE_S_+1_0.20"}
+{"event": "END", "order": 4, "residual": 6.218820885065686, "seconds": 4.330518122995272, "sector": "GENERAL", "seed": "SINGLE_S_+1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_S_+1_0.20"}
+{"event": "END", "order": 4, "residual": 6.21882088506568, "seconds": 4.230293592903763, "sector": "SEAL_EVEN", "seed": "SINGLE_S_+1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_S_+1_0.20"}
+{"event": "END", "order": 4, "residual": 6.218820885065679, "seconds": 4.2692398191429675, "sector": "SEAL_ODD_W", "seed": "SINGLE_S_+1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "SINGLE_W_-1_0.05"}
+{"event": "END", "order": 2, "residual": 9.663758775826202e-11, "seconds": 3.5731213930994272, "sector": "GENERAL", "seed": "SINGLE_W_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "SINGLE_W_-1_0.05"}
+{"event": "END", "order": 2, "residual": 9.825708259971369e-11, "seconds": 4.710012411000207, "sector": "SEAL_EVEN", "seed": "SINGLE_W_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "SINGLE_W_-1_0.05"}
+{"event": "END", "order": 2, "residual": 9.663759119685554e-11, "seconds": 3.504746182123199, "sector": "SEAL_ODD_W", "seed": "SINGLE_W_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "SINGLE_W_-1_0.05"}
+{"event": "END", "order": 4, "residual": 3.95752795723356e-10, "seconds": 3.6918414069805294, "sector": "GENERAL", "seed": "SINGLE_W_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_W_-1_0.05"}
+{"event": "END", "order": 4, "residual": 3.3272510772381374e-10, "seconds": 4.828204482095316, "sector": "SEAL_EVEN", "seed": "SINGLE_W_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_W_-1_0.05"}
+{"event": "END", "order": 4, "residual": 3.957528345801526e-10, "seconds": 3.6148360760416836, "sector": "SEAL_ODD_W", "seed": "SINGLE_W_-1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "SINGLE_W_+1_0.05"}
+{"event": "END", "order": 2, "residual": 9.663758775826202e-11, "seconds": 3.5312191441189498, "sector": "GENERAL", "seed": "SINGLE_W_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "SINGLE_W_+1_0.05"}
+{"event": "END", "order": 2, "residual": 9.825708259971369e-11, "seconds": 4.686797825852409, "sector": "SEAL_EVEN", "seed": "SINGLE_W_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "SINGLE_W_+1_0.05"}
+{"event": "END", "order": 2, "residual": 9.663759119685554e-11, "seconds": 3.5182039870414883, "sector": "SEAL_ODD_W", "seed": "SINGLE_W_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "SINGLE_W_+1_0.05"}
+{"event": "END", "order": 4, "residual": 3.95752795723356e-10, "seconds": 3.7218053669203073, "sector": "GENERAL", "seed": "SINGLE_W_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_W_+1_0.05"}
+{"event": "END", "order": 4, "residual": 3.3272510772381374e-10, "seconds": 4.831301392056048, "sector": "SEAL_EVEN", "seed": "SINGLE_W_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_W_+1_0.05"}
+{"event": "END", "order": 4, "residual": 3.957528345801526e-10, "seconds": 3.5892419840674847, "sector": "SEAL_ODD_W", "seed": "SINGLE_W_+1_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "SINGLE_W_-1_0.20"}
+{"event": "END", "order": 2, "residual": 4.2817203575817777e-10, "seconds": 5.562816676916555, "sector": "GENERAL", "seed": "SINGLE_W_-1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "SINGLE_W_-1_0.20"}
+{"event": "END", "order": 2, "residual": 3.923586803451153, "seconds": 5.697883946122602, "sector": "SEAL_EVEN", "seed": "SINGLE_W_-1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "SINGLE_W_-1_0.20"}
+{"event": "END", "order": 2, "residual": 4.2817893851820716e-10, "seconds": 5.496261274907738, "sector": "SEAL_ODD_W", "seed": "SINGLE_W_-1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "SINGLE_W_-1_0.20"}
+{"event": "END", "order": 4, "residual": 2.835547556408694e-10, "seconds": 5.788187667960301, "sector": "GENERAL", "seed": "SINGLE_W_-1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_W_-1_0.20"}
+{"event": "END", "order": 4, "residual": 49.636057019083516, "seconds": 4.614319510059431, "sector": "SEAL_EVEN", "seed": "SINGLE_W_-1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_W_-1_0.20"}
+{"event": "END", "order": 4, "residual": 2.835554760702832e-10, "seconds": 5.6368615590035915, "sector": "SEAL_ODD_W", "seed": "SINGLE_W_-1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "SINGLE_W_+1_0.20"}
+{"event": "END", "order": 2, "residual": 4.2817203575817777e-10, "seconds": 5.518181879073381, "sector": "GENERAL", "seed": "SINGLE_W_+1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "SINGLE_W_+1_0.20"}
+{"event": "END", "order": 2, "residual": 3.923586803451153, "seconds": 5.679117716150358, "sector": "SEAL_EVEN", "seed": "SINGLE_W_+1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "SINGLE_W_+1_0.20"}
+{"event": "END", "order": 2, "residual": 4.2817893851820716e-10, "seconds": 5.448829557979479, "sector": "SEAL_ODD_W", "seed": "SINGLE_W_+1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "SINGLE_W_+1_0.20"}
+{"event": "END", "order": 4, "residual": 2.835547556408694e-10, "seconds": 5.752774054883048, "sector": "GENERAL", "seed": "SINGLE_W_+1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "SINGLE_W_+1_0.20"}
+{"event": "END", "order": 4, "residual": 49.636057019083516, "seconds": 4.602561918087304, "sector": "SEAL_EVEN", "seed": "SINGLE_W_+1_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "SINGLE_W_+1_0.20"}
+{"event": "END", "order": 4, "residual": 2.835554760702832e-10, "seconds": 5.638956103939563, "sector": "SEAL_ODD_W", "seed": "SINGLE_W_+1_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "MIXED_00_0.05"}
+{"event": "END", "order": 2, "residual": 3.4396022060941914e-11, "seconds": 4.379925820976496, "sector": "GENERAL", "seed": "MIXED_00_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "MIXED_00_0.05"}
+{"event": "END", "order": 2, "residual": 5.659916974692555e-10, "seconds": 3.9185547619126737, "sector": "SEAL_EVEN", "seed": "MIXED_00_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "MIXED_00_0.05"}
+{"event": "END", "order": 2, "residual": 1.1439844578482453e-11, "seconds": 3.510883155046031, "sector": "SEAL_ODD_W", "seed": "MIXED_00_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_00_0.05"}
+{"event": "END", "order": 4, "residual": 5.1799701779240184e-11, "seconds": 5.38105644681491, "sector": "GENERAL", "seed": "MIXED_00_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_00_0.05"}
+{"event": "END", "order": 4, "residual": 0.04808259904896163, "seconds": 5.8269563051871955, "sector": "SEAL_EVEN", "seed": "MIXED_00_0.05", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_00_0.05"}
+{"event": "END", "order": 4, "residual": 4.00920574056215e-11, "seconds": 5.255315372953191, "sector": "SEAL_ODD_W", "seed": "MIXED_00_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "MIXED_00_0.20"}
+{"event": "END", "order": 2, "residual": 5.987965717449794, "seconds": 4.597278686007485, "sector": "GENERAL", "seed": "MIXED_00_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "MIXED_00_0.20"}
+{"event": "END", "order": 2, "residual": 1.391101956721634e-10, "seconds": 6.271067552966997, "sector": "SEAL_EVEN", "seed": "MIXED_00_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "MIXED_00_0.20"}
+{"event": "END", "order": 2, "residual": 1.367196026443548e-10, "seconds": 4.694927358068526, "sector": "SEAL_ODD_W", "seed": "MIXED_00_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_00_0.20"}
+{"event": "END", "order": 4, "residual": 2.2255674692279962e-10, "seconds": 6.625170515850186, "sector": "GENERAL", "seed": "MIXED_00_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_00_0.20"}
+{"event": "END", "order": 4, "residual": 5.77643298513049, "seconds": 7.068139991024509, "sector": "SEAL_EVEN", "seed": "MIXED_00_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_00_0.20"}
+{"event": "END", "order": 4, "residual": 0.8220886089234714, "seconds": 8.556722823996097, "sector": "SEAL_ODD_W", "seed": "MIXED_00_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "MIXED_01_0.05"}
+{"event": "END", "order": 2, "residual": 8.014336912977273e-12, "seconds": 3.9725852929987013, "sector": "GENERAL", "seed": "MIXED_01_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "MIXED_01_0.05"}
+{"event": "END", "order": 2, "residual": 1.7806217136207145e-11, "seconds": 3.5358954009134322, "sector": "SEAL_EVEN", "seed": "MIXED_01_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "MIXED_01_0.05"}
+{"event": "END", "order": 2, "residual": 7.422347256058584e-11, "seconds": 3.9030778768938035, "sector": "SEAL_ODD_W", "seed": "MIXED_01_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_01_0.05"}
+{"event": "END", "order": 4, "residual": 3.308317411972439e-11, "seconds": 5.786948495078832, "sector": "GENERAL", "seed": "MIXED_01_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_01_0.05"}
+{"event": "END", "order": 4, "residual": 9.831929766521277e-10, "seconds": 6.044486509868875, "sector": "SEAL_EVEN", "seed": "MIXED_01_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_01_0.05"}
+{"event": "END", "order": 4, "residual": 7.405939659576364e-11, "seconds": 6.07646249094978, "sector": "SEAL_ODD_W", "seed": "MIXED_01_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "MIXED_01_0.20"}
+{"event": "END", "order": 2, "residual": 1.2810189531798505e-10, "seconds": 5.188127825036645, "sector": "GENERAL", "seed": "MIXED_01_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "MIXED_01_0.20"}
+{"event": "END", "order": 2, "residual": 1.1455197707340907e-10, "seconds": 5.48980067204684, "sector": "SEAL_EVEN", "seed": "MIXED_01_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "MIXED_01_0.20"}
+{"event": "END", "order": 2, "residual": 4.150661134460189e-11, "seconds": 5.484436797909439, "sector": "SEAL_ODD_W", "seed": "MIXED_01_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_01_0.20"}
+{"event": "END", "order": 4, "residual": 276.75496082528883, "seconds": 4.33221072005108, "sector": "GENERAL", "seed": "MIXED_01_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_01_0.20"}
+{"event": "END", "order": 4, "residual": 179.9905448269986, "seconds": 4.227418086025864, "sector": "SEAL_EVEN", "seed": "MIXED_01_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_01_0.20"}
+{"event": "END", "order": 4, "residual": 280.67874913693123, "seconds": 4.282497790176421, "sector": "SEAL_ODD_W", "seed": "MIXED_01_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "MIXED_02_0.05"}
+{"event": "END", "order": 2, "residual": 5.978236349150652e-11, "seconds": 4.794092877069488, "sector": "GENERAL", "seed": "MIXED_02_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "MIXED_02_0.05"}
+{"event": "END", "order": 2, "residual": 2.1749655817619013e-10, "seconds": 3.901875925017521, "sector": "SEAL_EVEN", "seed": "MIXED_02_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "MIXED_02_0.05"}
+{"event": "END", "order": 2, "residual": 3.680662506413927e-10, "seconds": 3.8867137911729515, "sector": "SEAL_ODD_W", "seed": "MIXED_02_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_02_0.05"}
+{"event": "END", "order": 4, "residual": 0.23061624427322738, "seconds": 5.979869856033474, "sector": "GENERAL", "seed": "MIXED_02_0.05", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_02_0.05"}
+{"event": "END", "order": 4, "residual": 4.639296490723272e-10, "seconds": 5.249053659150377, "sector": "SEAL_EVEN", "seed": "MIXED_02_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_02_0.05"}
+{"event": "END", "order": 4, "residual": 9.49471194405682e-10, "seconds": 4.433741788147017, "sector": "SEAL_ODD_W", "seed": "MIXED_02_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "MIXED_02_0.20"}
+{"event": "END", "order": 2, "residual": 6.825679974306061, "seconds": 4.186532984022051, "sector": "GENERAL", "seed": "MIXED_02_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "MIXED_02_0.20"}
+{"event": "END", "order": 2, "residual": 1.697893946633065e-10, "seconds": 5.493840290931985, "sector": "SEAL_EVEN", "seed": "MIXED_02_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "MIXED_02_0.20"}
+{"event": "END", "order": 2, "residual": 5.266110953702688e-11, "seconds": 6.996083273086697, "sector": "SEAL_ODD_W", "seed": "MIXED_02_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_02_0.20"}
+{"event": "END", "order": 4, "residual": 139.53712885326834, "seconds": 6.746991814114153, "sector": "GENERAL", "seed": "MIXED_02_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_02_0.20"}
+{"event": "END", "order": 4, "residual": 1.0555499003450112e-11, "seconds": 7.694405072135851, "sector": "SEAL_EVEN", "seed": "MIXED_02_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_02_0.20"}
+{"event": "END", "order": 4, "residual": 1.4806429531867377e-10, "seconds": 6.873935051029548, "sector": "SEAL_ODD_W", "seed": "MIXED_02_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "MIXED_03_0.05"}
+{"event": "END", "order": 2, "residual": 6.647753604093624e-11, "seconds": 3.9616378659848124, "sector": "GENERAL", "seed": "MIXED_03_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "MIXED_03_0.05"}
+{"event": "END", "order": 2, "residual": 9.4110891133281e-11, "seconds": 3.5452046680729836, "sector": "SEAL_EVEN", "seed": "MIXED_03_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "MIXED_03_0.05"}
+{"event": "END", "order": 2, "residual": 1.6311966157821913e-10, "seconds": 3.121047485154122, "sector": "SEAL_ODD_W", "seed": "MIXED_03_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_03_0.05"}
+{"event": "END", "order": 4, "residual": 5.589915778529664e-10, "seconds": 5.374803285812959, "sector": "GENERAL", "seed": "MIXED_03_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_03_0.05"}
+{"event": "END", "order": 4, "residual": 0.1915784615952331, "seconds": 4.644417249131948, "sector": "SEAL_EVEN", "seed": "MIXED_03_0.05", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_03_0.05"}
+{"event": "END", "order": 4, "residual": 2.5796445433150344e-10, "seconds": 5.24646335397847, "sector": "SEAL_ODD_W", "seed": "MIXED_03_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "MIXED_03_0.20"}
+{"event": "END", "order": 2, "residual": 2.010059171797017e-10, "seconds": 5.158351110992953, "sector": "GENERAL", "seed": "MIXED_03_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "MIXED_03_0.20"}
+{"event": "END", "order": 2, "residual": 3.2540915311478453e-10, "seconds": 4.712941034929827, "sector": "SEAL_EVEN", "seed": "MIXED_03_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "MIXED_03_0.20"}
+{"event": "END", "order": 2, "residual": 2.4226718864007555e-10, "seconds": 4.30080847395584, "sector": "SEAL_ODD_W", "seed": "MIXED_03_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_03_0.20"}
+{"event": "END", "order": 4, "residual": 5.108053674678716, "seconds": 4.7755887631792575, "sector": "GENERAL", "seed": "MIXED_03_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_03_0.20"}
+{"event": "END", "order": 4, "residual": 4.338911116265673e-10, "seconds": 6.46316805598326, "sector": "SEAL_EVEN", "seed": "MIXED_03_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_03_0.20"}
+{"event": "END", "order": 4, "residual": 13.378064028628344, "seconds": 6.262463301187381, "sector": "SEAL_ODD_W", "seed": "MIXED_03_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "MIXED_04_0.05"}
+{"event": "END", "order": 2, "residual": 2.1152898531890418e-10, "seconds": 3.5521327171009034, "sector": "GENERAL", "seed": "MIXED_04_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "MIXED_04_0.05"}
+{"event": "END", "order": 2, "residual": 5.076431808217174e-10, "seconds": 4.304880272829905, "sector": "SEAL_EVEN", "seed": "MIXED_04_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "MIXED_04_0.05"}
+{"event": "END", "order": 2, "residual": 1.2708111680313697e-10, "seconds": 5.099658316001296, "sector": "SEAL_ODD_W", "seed": "MIXED_04_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_04_0.05"}
+{"event": "END", "order": 4, "residual": 1.676732861660258e-11, "seconds": 6.2149776429869235, "sector": "GENERAL", "seed": "MIXED_04_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_04_0.05"}
+{"event": "END", "order": 4, "residual": 1.9256534542102806e-10, "seconds": 6.883556936169043, "sector": "SEAL_EVEN", "seed": "MIXED_04_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_04_0.05"}
+{"event": "END", "order": 4, "residual": 9.826250707626333e-10, "seconds": 5.597168099833652, "sector": "SEAL_ODD_W", "seed": "MIXED_04_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "MIXED_04_0.20"}
+{"event": "END", "order": 2, "residual": 7.714634201627852e-11, "seconds": 4.74276971584186, "sector": "GENERAL", "seed": "MIXED_04_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "MIXED_04_0.20"}
+{"event": "END", "order": 2, "residual": 2.1307244983957041e-10, "seconds": 5.853301982861012, "sector": "SEAL_EVEN", "seed": "MIXED_04_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "MIXED_04_0.20"}
+{"event": "END", "order": 2, "residual": 2.4838801238657247e-11, "seconds": 10.795447344891727, "sector": "SEAL_ODD_W", "seed": "MIXED_04_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_04_0.20"}
+{"event": "END", "order": 4, "residual": 26.385215071509933, "seconds": 5.157465148018673, "sector": "GENERAL", "seed": "MIXED_04_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_04_0.20"}
+{"event": "END", "order": 4, "residual": 259.26132986051766, "seconds": 4.211259923875332, "sector": "SEAL_EVEN", "seed": "MIXED_04_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_04_0.20"}
+{"event": "END", "order": 4, "residual": 235.86938054179325, "seconds": 4.2524109990336, "sector": "SEAL_ODD_W", "seed": "MIXED_04_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "MIXED_05_0.05"}
+{"event": "END", "order": 2, "residual": 1.9340293123080406e-10, "seconds": 3.1559215739835054, "sector": "GENERAL", "seed": "MIXED_05_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "MIXED_05_0.05"}
+{"event": "END", "order": 2, "residual": 9.819166734722869e-11, "seconds": 5.124956216895953, "sector": "SEAL_EVEN", "seed": "MIXED_05_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "MIXED_05_0.05"}
+{"event": "END", "order": 2, "residual": 2.8028878455982306e-10, "seconds": 5.1088403759058565, "sector": "SEAL_ODD_W", "seed": "MIXED_05_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_05_0.05"}
+{"event": "END", "order": 4, "residual": 4.777349201680376e-10, "seconds": 5.350298819830641, "sector": "GENERAL", "seed": "MIXED_05_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_05_0.05"}
+{"event": "END", "order": 4, "residual": 2.0941976732138292e-10, "seconds": 4.827873358968645, "sector": "SEAL_EVEN", "seed": "MIXED_05_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_05_0.05"}
+{"event": "END", "order": 4, "residual": 7.152022506343654e-10, "seconds": 4.819604287855327, "sector": "SEAL_ODD_W", "seed": "MIXED_05_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "MIXED_05_0.20"}
+{"event": "END", "order": 2, "residual": 8.79392022469139e-11, "seconds": 4.76505635608919, "sector": "GENERAL", "seed": "MIXED_05_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "MIXED_05_0.20"}
+{"event": "END", "order": 2, "residual": 2.7242031525766293, "seconds": 5.340537559008226, "sector": "SEAL_EVEN", "seed": "MIXED_05_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "MIXED_05_0.20"}
+{"event": "END", "order": 2, "residual": 3.363698264037232, "seconds": 5.3762571138795465, "sector": "SEAL_ODD_W", "seed": "MIXED_05_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_05_0.20"}
+{"event": "END", "order": 4, "residual": 1.0531533935138258, "seconds": 6.573314371984452, "sector": "GENERAL", "seed": "MIXED_05_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_05_0.20"}
+{"event": "END", "order": 4, "residual": 183.3212263831796, "seconds": 4.311540373135358, "sector": "SEAL_EVEN", "seed": "MIXED_05_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_05_0.20"}
+{"event": "END", "order": 4, "residual": 63.22800479285674, "seconds": 4.327173228142783, "sector": "SEAL_ODD_W", "seed": "MIXED_05_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "MIXED_06_0.05"}
+{"event": "END", "order": 2, "residual": 9.73768112784535e-11, "seconds": 4.0351961550768465, "sector": "GENERAL", "seed": "MIXED_06_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "MIXED_06_0.05"}
+{"event": "END", "order": 2, "residual": 6.173681934553251e-11, "seconds": 4.779891521902755, "sector": "SEAL_EVEN", "seed": "MIXED_06_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "MIXED_06_0.05"}
+{"event": "END", "order": 2, "residual": 5.915895827192043e-11, "seconds": 4.387139301048592, "sector": "SEAL_ODD_W", "seed": "MIXED_06_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_06_0.05"}
+{"event": "END", "order": 4, "residual": 4.71002338598584e-10, "seconds": 5.445560210151598, "sector": "GENERAL", "seed": "MIXED_06_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_06_0.05"}
+{"event": "END", "order": 4, "residual": 8.496191284362809e-11, "seconds": 4.499133249046281, "sector": "SEAL_EVEN", "seed": "MIXED_06_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_06_0.05"}
+{"event": "END", "order": 4, "residual": 6.730181397613578e-10, "seconds": 5.346517330035567, "sector": "SEAL_ODD_W", "seed": "MIXED_06_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "MIXED_06_0.20"}
+{"event": "END", "order": 2, "residual": 7.398853492892512e-10, "seconds": 6.0469147430267185, "sector": "GENERAL", "seed": "MIXED_06_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "MIXED_06_0.20"}
+{"event": "END", "order": 2, "residual": 5.790188435469226, "seconds": 4.212926130043343, "sector": "SEAL_EVEN", "seed": "MIXED_06_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "MIXED_06_0.20"}
+{"event": "END", "order": 2, "residual": 2.5482311771794665e-11, "seconds": 5.153266567969695, "sector": "SEAL_ODD_W", "seed": "MIXED_06_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_06_0.20"}
+{"event": "END", "order": 4, "residual": 17.492909491340058, "seconds": 4.844791378127411, "sector": "GENERAL", "seed": "MIXED_06_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_06_0.20"}
+{"event": "END", "order": 4, "residual": 0.3622822446662242, "seconds": 6.321108092088252, "sector": "SEAL_EVEN", "seed": "MIXED_06_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_06_0.20"}
+{"event": "END", "order": 4, "residual": 191.94431127819811, "seconds": 4.2466886879410595, "sector": "SEAL_ODD_W", "seed": "MIXED_06_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "MIXED_07_0.05"}
+{"event": "END", "order": 2, "residual": 4.2146535595981073e-11, "seconds": 4.7880724689457566, "sector": "GENERAL", "seed": "MIXED_07_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "MIXED_07_0.05"}
+{"event": "END", "order": 2, "residual": 1.1294084422192797e-11, "seconds": 3.9202068420127034, "sector": "SEAL_EVEN", "seed": "MIXED_07_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "MIXED_07_0.05"}
+{"event": "END", "order": 2, "residual": 6.176211779186126e-10, "seconds": 4.325459324987605, "sector": "SEAL_ODD_W", "seed": "MIXED_07_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_07_0.05"}
+{"event": "END", "order": 4, "residual": 2.42314415998672e-10, "seconds": 5.39341501891613, "sector": "GENERAL", "seed": "MIXED_07_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_07_0.05"}
+{"event": "END", "order": 4, "residual": 3.8070723207029725e-11, "seconds": 5.254950537113473, "sector": "SEAL_EVEN", "seed": "MIXED_07_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_07_0.05"}
+{"event": "END", "order": 4, "residual": 9.009086111268358e-11, "seconds": 5.647412532940507, "sector": "SEAL_ODD_W", "seed": "MIXED_07_0.05", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "GENERAL", "seed": "MIXED_07_0.20"}
+{"event": "END", "order": 2, "residual": 1.4812400696775073e-10, "seconds": 7.17796130804345, "sector": "GENERAL", "seed": "MIXED_07_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_EVEN", "seed": "MIXED_07_0.20"}
+{"event": "END", "order": 2, "residual": 8.610643478667012e-11, "seconds": 5.519937071017921, "sector": "SEAL_EVEN", "seed": "MIXED_07_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 2, "sector": "SEAL_ODD_W", "seed": "MIXED_07_0.20"}
+{"event": "END", "order": 2, "residual": 0.08422747424550875, "seconds": 6.520355409942567, "sector": "SEAL_ODD_W", "seed": "MIXED_07_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "GENERAL", "seed": "MIXED_07_0.20"}
+{"event": "END", "order": 4, "residual": 3.5559530284774906e-10, "seconds": 12.967481103958562, "sector": "GENERAL", "seed": "MIXED_07_0.20", "status": "SOLVE_RESIDUAL_PASS"}
+{"event": "START", "order": 4, "sector": "SEAL_EVEN", "seed": "MIXED_07_0.20"}
+{"event": "END", "order": 4, "residual": 291.62668419454775, "seconds": 4.253416324965656, "sector": "SEAL_EVEN", "seed": "MIXED_07_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"event": "START", "order": 4, "sector": "SEAL_ODD_W", "seed": "MIXED_07_0.20"}
+{"event": "END", "order": 4, "residual": 178.98782807782197, "seconds": 4.264817559858784, "sector": "SEAL_ODD_W", "seed": "MIXED_07_0.20", "status": "NO_RESIDUAL_DECREASING_NEWTON_STEP"}
+{"attempted": 198, "clusters": 6, "planned": 198, "result": "COMPLETE_WITHIN_BUDGET", "status_counts": {"NO_RESIDUAL_DECREASING_NEWTON_STEP": 51, "SOLVE_RESIDUAL_PASS": 147}}

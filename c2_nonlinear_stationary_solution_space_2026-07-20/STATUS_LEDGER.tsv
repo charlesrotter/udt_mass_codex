@@ -1,0 +1,26 @@
+id	layer	claim	status	basis	limit
+S01	ACTION	metric-only four-dimensional C2 bulk	UNIQUE_CONDITIONAL	frozen locality derivative and variation-class premises	not complete UDT action
+S02	GEOMETRY	reciprocal-toric smooth-cap coframe	CONDITIONAL_CANDIDATE_PREMISE	prior exact angular/Hopf audits	transverse realization topology and physical boundary unselected
+S03	ANSATZ	stationary torus-invariant cohomogeneity-one N,H,S,W family	BOUNDED_SLICE	full nonlinear dependence and W-squared backreaction retained	other metric components time dependence and nontoric geometry omitted
+S04	GAUGE	e2 profile midpoint lapse and constant shift choices	COORDINATE_CSN_GAUGE	declared gauge quotient	no physical scale or wall selected
+S05	SECTORS	GENERAL SEAL_EVEN and SEAL_ODD_W	FREE_AND_EXPLORED_IN_REGISTERED_SPACES	three exact polynomial subspaces	coframe-only sign lifts can be metrically identical
+S06	NUMERICS	orders two and four at 48 nodes	OBSERVED_BOUNDED	198 deterministic attempts completed	finite Galerkin spaces do not exhaust functions
+S07	ROOTS	raw stationarity passes	OBSERVED_147	all residuals at or below 1e-9	not full unrestricted Bach certification
+S08	VALIDATION	doubled-grid and two-extra-degree projections	OBSERVED_147_PASS	maximum projected raw residual 6.627e-9 below 1e-7	projection is not a proof outside smooth spectral class
+S09	CLUSTERS	certified root classes	OBSERVED_SIX_STRATUM_COPIES	one cluster per order and parity stratum	cross-stratum copies represent the same metric
+S10	ROUNDNESS	certified coefficient distance from round	OBSERVED_MAX_1_3831E_MINUS_10	all 147 roots collapse to gauge-fixed zero coefficients	observation is seed/order scoped
+S11	BASIN	connected round neighborhood	BROAD_ROUND_BASIN_LEAD	small signed single-sector and mixed seeds converge in every stratum	basin boundary not mapped
+S12	UNRESOLVED	Newton attempt basins	OBSERVED_51_UNRESOLVED	no residual-decreasing step under frozen solver	cannot be interpreted as absent solutions
+S13	AMPLITUDE	unresolved seed distribution	OBSERVED_48_OF_51_AT_NORM_0_20	large seeds dominate failures	conditioning versus branch/fold unresolved
+S14	PARITY	certified physical branch dependence	NOT_OBSERVED	all certified sectors return the same round metric	different failure counts are solver evidence only
+S15	COFRAME	plus/minus and identical-metric seal lifts	METRICALLY_INDISTINGUISHABLE	metric-only action depends on g not coframe sign	cannot select a unique coframe involution
+S16	FULL_EQUATION	round representative	FULL_BACH_PASS_CONDITIONAL	conformally flat round cylinder has Weyl and Bach zero	inside conditional C2 and toric domain
+S17	FULL_EQUATION	nonround candidates	NONE_CERTIFIED	no distinct reduced root survived gates	does not exclude roots hidden in unresolved basins
+S18	OUTCOME	certified-root census	ONLY_ROUND_ORBIT_OBSERVED_IN_BOUNDED_SEARCH	147 certified roots and six gauge-equivalent clusters	no uniqueness theorem
+S19	OUTCOME	complete solution-space closure	NOT_REACHED	51 unresolved basins and multiple unsampled completeness layers	no no-go or rigidity promotion
+S20	BOUNDARY	physical finite-cell wall and polarization	OPEN_NOT_TESTED	smooth primitive caps used only as mathematical domain	seal completion remains open
+S21	DYNAMICS	genuine time-live solutions	OPEN_NOT_TESTED	stationary tile only	no time evolution or stability conclusion
+S22	TOPOLOGY	nontoric and alternative global completions	OPEN_NOT_TESTED	conditional S3-like cap family only	no topology selection
+S23	MATTER_SCALE	carrier source Xmax c G and mass	OPEN_NOT_ENTERED	dimensionless metric-only computation	no matter or scale conclusion
+S24	NEXT	failed-basin continuation and direct Bach gate	AUTHORIZED_ONLY_BY_FUTURE_DISPATCH	pseudo-arclength is the solver-completeness route	no further solve launched here
+S25	EVIDENCE	package grade	VERIFIED_WITH_CAVEATS	preregistered raw census exact anchors independent reconstruction and catches	no fresh different-model review

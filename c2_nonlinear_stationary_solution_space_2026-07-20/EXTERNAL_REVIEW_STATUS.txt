@@ -1,0 +1,6 @@
+Fresh external-model adversarial review was not authorized or performed.
+
+The package grade is therefore VERIFIED-WITH-CAVEATS.  Its independent checks are a
+separate NumPy finite-difference curvature implementation, deterministic raw-census
+replay, source-hash replay, and exercised mutation catches.  These do not substitute
+for a fresh review by a different model or research context.
