@@ -1,0 +1,22 @@
+id	claim	status	exact_scope_or_limit
+S01	finite mirrored domain and rejection of spatial infinity	CANONIZED_BINDING	Domain ontology; not every boundary datum
+S02	static spatial seal has phi=0	CANONIZED_BINDING	Static phi sector only
+S03	parity-preserving static variations have delta phi=0	DERIVED_FROM_CANON	One scalar Dirichlet tangent
+S04	static normal derivative phi-prime is fixed	FALSE_EXCLUDED	Canon explicitly leaves it free
+S05	phi seal maps to one reciprocal metric-ratio datum	DERIVED_CONDITIONAL	Requires adapted static reciprocal coframe; independent-field/complete-coframe join remains open
+S06	phi seal fixes the full induced metric h_ij	NOT_DERIVED	Common scale, angular shear, off-diagonal, and time-on components remain
+S07	mirror wording makes the seal an ordinary metric reflection with K_ij=0	NOT_DERIVED	Full Lorentzian coframe involution is absent and generic free phi-prime gives a nonzero reciprocal metric jet
+S08	dual-pairing swap conjugates D(phi) to D(-phi)	DERIVED_EXACT_ALGEBRA	Two-channel reciprocal character only
+S09	that swap is a positive-CSN Lorentzian seal isometry	REFUTED_FOR_RAW_SWAP	K^T eta K=-eta; positive CSN cannot absorb the sign
+S10	Reciprocity selects complete boundary variations	NOT_DERIVED	Kinematic ratio structure has no transverse, normal-jet, or corner rule
+S11	CSN fixes a physical boundary representative	REFUTED_AS_SECTION_SELECTOR	Common-scale direction is bare-null, not chosen
+S12	co-presence supplies an off-shell boundary equation	REJECTED_AS_INFERENCE	Whole-solution membership is not variation or response dynamics
+S13	current Xmax statement identifies and types the local seal	NOT_DERIVED	Global/local equality, location, causal character, and value remain open
+S14	primary bootstrap supplies allowed boundary variations	NOT_SUPPLIED	After-solution admissibility; varied B and Sigma remain missing conditional forms
+S15	E and Pi_h natural equations are uniquely selected	NOT_DERIVED	Their projections depend on the unselected allowed variation class
+S16	corner variation or completion is selected	OPEN	Bare corner flux is exposed only
+S17	normalized boundary charge or mass is selected	OPEN	Primitive, reference, integrability, action coefficient, and source absent
+S18	at least two inequivalent full variation witnesses fit every mapped clause	DERIVED_LOGICAL_INDEPENDENCE	W01 and W02 add different unforced transverse choices while preserving delta phi=0 and free normal jet
+S19	primary join classification	PARTIAL_SEAL_DATA_ONLY	One genuine static scalar wire, not a complete boundary control panel
+S20	complete native action source carrier scale and time-live matter	OPEN_NOT_ACTIVATED	No promotion follows
+S21	banked audit grade	VERIFIED_WITH_CAVEATS	Preregistered and independently replayed in-package; no fresh external-model review

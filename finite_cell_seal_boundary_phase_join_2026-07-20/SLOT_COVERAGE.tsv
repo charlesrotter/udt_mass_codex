@@ -1,0 +1,16 @@
+id	boundary_slot	current_coverage	status	decisive_source_or_argument	missing_for_complete_join
+K01	finite-domain boundary existence	finite mirrored cell; no spatial infinity	SUPPLIED_DOMAIN_ONTOLOGY	cold packet section 3	precise full spacetime hypersurface and global completion
+K02	seal relation to global Xmax	working candidate only	OPEN	premise-reset O06-O12 and Xmax clarification	derived global-to-local boundary map
+K03	boundary causal character	WR-L horizon is conditional; current seal type not universal	OPEN	asymptotic-boundary and parent non-null caveat	native complete metric limit
+K04	static reciprocal boundary value	phi=0 and delta phi=0 under parity-preserving variations	SUPPLIED_ONE_SCALAR_STATIC	CANON C-2026-07-04-1	map from phi to complete coframe outside adapted static sector
+K05	common-scale component of delta h	pre-scale gauge/null direction, not fixed	NULL_NOT_SECTIONED	CSN and parent Theta(delta g=2 sigma g)=0	physical representative/section rule
+K06	angular trace-free and off-diagonal delta h	no data	OPEN	cold packet explicitly withholds other-field data	derived angular/time-on seal rule
+K07	static reciprocal normal derivative	phi-prime explicitly free	FREE_NOT_FIXED	CANON C-2026-07-04-1	no missing datum for freedom; but remaining K sectors still need rules
+K08	other components of delta K	no data	OPEN	cold packet other fields and parent phase space	complete metric mirror action or boundary rule
+K09	electric-Weyl natural equation	depends on which delta K components are free	NOT_SELECTED	parent boundary classes	allowed-variation polarization
+K10	induced-metric momentum equation	depends on which delta h components are free	NOT_SELECTED	parent boundary classes	allowed-variation polarization
+K11	corner variation and flux	bare term exposed; no corner data	OPEN	parent E08 and cold packet	corner topology/orientation/data or completion
+K12	time-on/rotating/off-diagonal seal data	temporal mirror names sector; omega node open	OPEN_SECTOR	CANON C-2026-07-04-1	executable time-on involution and variation rule
+K13	off-shell bootstrap boundary map	primary bootstrap is after-solution; B and Sigma absent	NOT_SUPPLIED	bootstrap principle and selector audits	derived varied functional or representative map
+K14	boundary primitive/reference/normalization	bare Q only	OPEN	parent E12-E18 and final adjudication M19	complete action/boundary generator and native mass definition
+K15	complete physical polarization	one scalar Dirichlet condition plus explicit/free/open remainder	PARTIAL_SEAL_DATA_ONLY	K01-K14	all unfilled slots and a rule selecting one compatible family

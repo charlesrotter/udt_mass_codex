@@ -1,0 +1,8 @@
+id	command	compute	exit_code	output_artifact	output_sha256
+E01	/usr/bin/python3 finite_cell_seal_boundary_phase_join_2026-07-20/build_source_census.py	CPU_ONLY	0	CENSUS_TRANSCRIPT.txt	8258e99a33495a847c1c19a6ce8647d9e439df7e9d0c7d9d1671d1143f2dc670
+E02	/usr/bin/python3 finite_cell_seal_boundary_phase_join_2026-07-20/build_source_adjudication.py	CPU_ONLY	0	ADJUDICATION_TRANSCRIPT.txt	d4d927559ffc3626f96837c0009f15f4e6359132576b6da638ff9639a848d50d
+E03	/usr/bin/python3 finite_cell_seal_boundary_phase_join_2026-07-20/derive_seal_boundary_join.py	CPU_ONLY	0	DERIVATION_TRANSCRIPT.txt	09b447d44ba21e7af5094b9a65b398894401f3add1d37e6dc3376e949da12aab
+E04	/usr/bin/python3 finite_cell_seal_boundary_phase_join_2026-07-20/verify_seal_boundary_join.py	CPU_ONLY	0	VERIFICATION_TRANSCRIPT.txt	a532cad6debbb070f9aac69f84de97c0a2307f29537733a4c6d3149467b64654
+E05	/usr/bin/python3 -m pytest tests/	CPU_ONLY	1_EXPECTED_BASELINE	TEST_TRANSCRIPT.txt	71b0ca8871faca50f3fd5c0584222ae2f769ca13830b5932d2009cbc863dbee1
+E06	/usr/bin/python3 -I -c import sys,runpy; sys.path.insert(0,'/home/udt-admin/.local/lib/python3.10/site-packages'); import sympy; assert sympy.__version__=='1.13.1'; runpy.run_path('finite_cell_seal_boundary_phase_join_2026-07-20/verify_seal_boundary_join.py',run_name='__main__')	CPU_ONLY	0	ISOLATED_VERIFICATION_TRANSCRIPT.txt	a532cad6debbb070f9aac69f84de97c0a2307f29537733a4c6d3149467b64654
+E07	fresh external-model review	EXTERNAL_REVIEW_NOT_PERFORMED	AUTHORIZATION_NOT_GIVEN	EXTERNAL_REVIEW_STATUS.txt	a30c22f4d816bb884b5853dee8a358a100e9e34685cf7d2722ca8597106e950c

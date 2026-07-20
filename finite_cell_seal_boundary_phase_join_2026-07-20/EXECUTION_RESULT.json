@@ -1,0 +1,59 @@
+{
+  "environment": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "records": [
+    {
+      "command": "/usr/bin/python3 finite_cell_seal_boundary_phase_join_2026-07-20/build_source_census.py",
+      "exit_code": 0,
+      "id": "E01",
+      "output_artifact": "CENSUS_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "8258e99a33495a847c1c19a6ce8647d9e439df7e9d0c7d9d1671d1143f2dc670"
+    },
+    {
+      "command": "/usr/bin/python3 finite_cell_seal_boundary_phase_join_2026-07-20/build_source_adjudication.py",
+      "exit_code": 0,
+      "id": "E02",
+      "output_artifact": "ADJUDICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "d4d927559ffc3626f96837c0009f15f4e6359132576b6da638ff9639a848d50d"
+    },
+    {
+      "command": "/usr/bin/python3 finite_cell_seal_boundary_phase_join_2026-07-20/derive_seal_boundary_join.py",
+      "exit_code": 0,
+      "id": "E03",
+      "output_artifact": "DERIVATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "09b447d44ba21e7af5094b9a65b398894401f3add1d37e6dc3376e949da12aab"
+    },
+    {
+      "command": "/usr/bin/python3 finite_cell_seal_boundary_phase_join_2026-07-20/verify_seal_boundary_join.py",
+      "exit_code": 0,
+      "id": "E04",
+      "output_artifact": "VERIFICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "a532cad6debbb070f9aac69f84de97c0a2307f29537733a4c6d3149467b64654"
+    },
+    {
+      "command": "/usr/bin/python3 -m pytest tests/",
+      "exit_code": 1,
+      "id": "E05",
+      "output_artifact": "TEST_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "71b0ca8871faca50f3fd5c0584222ae2f769ca13830b5932d2009cbc863dbee1"
+    },
+    {
+      "command": "/usr/bin/python3 -I -c import sys,runpy; sys.path.insert(0,'/home/udt-admin/.local/lib/python3.10/site-packages'); import sympy; assert sympy.__version__=='1.13.1'; runpy.run_path('finite_cell_seal_boundary_phase_join_2026-07-20/verify_seal_boundary_join.py',run_name='__main__')",
+      "exit_code": 0,
+      "id": "E06",
+      "output_artifact": "ISOLATED_VERIFICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "a532cad6debbb070f9aac69f84de97c0a2307f29537733a4c6d3149467b64654"
+    }
+  ],
+  "result": "PASS",
+  "schema": "udt-finite-cell-seal-boundary-join-execution-1.0",
+  "test_baseline": {
+    "failed_known_hygiene": 1,
+    "passed": 69,
+    "xfailed": 1
+  }
+}

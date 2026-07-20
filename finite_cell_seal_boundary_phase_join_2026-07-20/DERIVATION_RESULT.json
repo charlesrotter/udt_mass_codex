@@ -1,0 +1,82 @@
+{
+  "boundary_slots": {
+    "E_equation": "NOT_SELECTED",
+    "Pi_h_equation": "NOT_SELECTED",
+    "boundary_Xmax_join": "OPEN",
+    "boundary_domain": "PARTIAL_SUPPLIED",
+    "causal_character": "OPEN",
+    "charge_normalization": "OPEN",
+    "corner_rule": "OPEN",
+    "delta_K": "RECIPROCAL_NORMAL_DERIVATIVE_EXPLICITLY_FREE; OTHER_COMPONENTS_OPEN",
+    "delta_h": "ONE_STATIC_RATIO_SCALAR_FIXED; COMMON_SCALE_NULL; TRANSVERSE_AND_TIME_ON_OPEN",
+    "off_shell_bootstrap_map": "NOT_SUPPLIED"
+  },
+  "checks": {
+    "angular_shear_survives_phi_Dirichlet": "PASS",
+    "both_witnesses_preserve_free_phi_jet": "PASS",
+    "both_witnesses_preserve_phi_Dirichlet": "PASS",
+    "common_scale_survives_phi_Dirichlet": "PASS",
+    "complete_join_has_unfilled_slots": "PASS",
+    "full_induced_metric_component_count": "PASS",
+    "generic_free_phi_slope_gives_nonzero_metric_jet": "PASS",
+    "independent_common_phi_angular_tangents": "PASS",
+    "multiple_polarizations_survive": "PASS",
+    "negative_metric_factor_not_positive_CSN": "PASS",
+    "odd_profiles_have_free_distinct_slopes": "PASS",
+    "odd_profiles_share_zero_seal": "PASS",
+    "one_scalar_cannot_fix_full_h": "PASS",
+    "ordinary_even_reflection_would_force_zero_jet": "PASS",
+    "ordinary_reflection_not_entailed_by_odd_phi": "PASS",
+    "pairwise_orthogonal_bookkeeping_tangents": "PASS",
+    "reciprocity_swap_conjugates_phi_to_minus_phi": "PASS",
+    "reciprocity_swap_is_not_Lorentzian_isometry": "PASS",
+    "seal_delta_phi_removes_one_tangent": "PASS",
+    "witnesses_are_inequivalent": "PASS"
+  },
+  "compatible_witnesses": {
+    "W01": {
+      "corner": "natural",
+      "delta_K": "free",
+      "delta_angular_shape": "free",
+      "delta_common_scale": "free_null",
+      "delta_offdiagonal": "free",
+      "delta_phi": "fixed_zero"
+    },
+    "W02": {
+      "corner": "fixed_non_CSN",
+      "delta_K": "free",
+      "delta_angular_shape": "fixed",
+      "delta_common_scale": "free_null",
+      "delta_offdiagonal": "fixed",
+      "delta_phi": "fixed_zero"
+    }
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "maximum_conclusion": "STATIC_ODD_PHI_SUPPLIES_ONE_DIRICHLET_RATIO_DATUM_WITH_FREE_NORMAL_DERIVATIVE; IT_DOES_NOT SELECT_THE_CONDITIONAL_C2_METRIC_TWO_JET_MOMENTA_CORNER_OR_CHARGE; PRIMARY_BRANCH_PARTIAL_SEAL_DATA_ONLY",
+  "mirror_challenge": {
+    "canon_phi_prime": "FREE",
+    "generic_clock_metric_normal_jet": "2*a",
+    "ordinary_metric_reflection_K_zero": "CONDITIONAL_MATHEMATICAL_THEOREM_NOT_CURRENT_UDT_PREMISE",
+    "ruling": "MIRROR_WORDING_DOES_NOT_DERIVE_K_IJ_ZERO_OR_A_COMPLETE_METRIC_INVOLUTION"
+  },
+  "primary_outcome": "PARTIAL_SEAL_DATA_ONLY",
+  "reciprocal_swap_challenge": {
+    "Lorentzian_pullback": "swap^T eta swap = -eta",
+    "identity": "swap D(phi) swap = D(-phi)",
+    "ruling": "DUAL_PAIRING_SWAP_IS_AN_EXACT_RECIPROCAL_INVERSION_WITNESS_BUT_NOT_BY_ITSELF_A_POSITIVE_CSN_LORENTZIAN_SEAL_ISOMETRY"
+  },
+  "result": "PASS",
+  "schema": "udt-finite-cell-seal-boundary-phase-join-1.0",
+  "smallest_missing_object": "complete metric/coframe seal involution plus an off-shell allowed-variation and corner rule; if scale-bearing, also a derived global-to-local boundary map",
+  "supporting_nonuniqueness": "MULTIPLE_INEQUIVALENT_POLARIZATION_WITNESSES_REMAIN_COMPATIBLE",
+  "tangent_rank": {
+    "interpretation": "delta phi=0 removes one reciprocal tangent while common scale, angular shear, and additional full-metric tangents remain",
+    "matrix_rank": 3,
+    "seal_constraint_rank": 1,
+    "seal_nullity": 3
+  }
+}

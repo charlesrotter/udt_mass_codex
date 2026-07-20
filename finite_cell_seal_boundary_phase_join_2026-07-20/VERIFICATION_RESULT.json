@@ -1,0 +1,139 @@
+{
+  "catch_proofs": {
+    "B_overclaim_rejected": "PASS",
+    "CSN-section_overclaim_rejected": "PASS",
+    "CSN_overclaim_rejected": "PASS",
+    "E-slot_overclaim_rejected": "PASS",
+    "Pi-slot_overclaim_rejected": "PASS",
+    "Sigma_overclaim_rejected": "PASS",
+    "Xmax-slot_overclaim_rejected": "PASS",
+    "Xmax-status_overclaim_rejected": "PASS",
+    "Xmax_overclaim_rejected": "PASS",
+    "bare-Q_overclaim_rejected": "PASS",
+    "bootstrap-join_overclaim_rejected": "PASS",
+    "bootstrap-slot_overclaim_rejected": "PASS",
+    "bootstrap_overclaim_rejected": "PASS",
+    "canon_mutation_rejected": "PASS",
+    "carrier_import_rejected": "PASS",
+    "charge-slot_overclaim_rejected": "PASS",
+    "co-presence_overclaim_rejected": "PASS",
+    "copresence-boundary_overclaim_rejected": "PASS",
+    "copresence_overclaim_rejected": "PASS",
+    "corner-slot_overclaim_rejected": "PASS",
+    "counterpair_overclaim_rejected": "PASS",
+    "derivation_outcome_mutation_rejected": "PASS",
+    "evidence-grade_overclaim_rejected": "PASS",
+    "free-jet_overclaim_rejected": "PASS",
+    "jet-slot_overclaim_rejected": "PASS",
+    "join-slot_overclaim_rejected": "PASS",
+    "mass_overclaim_rejected": "PASS",
+    "maximum_overreach_rejected": "PASS",
+    "metric-reflection_overclaim_rejected": "PASS",
+    "mirror-K_overclaim_rejected": "PASS",
+    "missing_census_rejected": "PASS",
+    "missing_challenge_rejected": "PASS",
+    "missing_clause_rejected": "PASS",
+    "missing_outcome_rejected": "PASS",
+    "missing_scope_rejected": "PASS",
+    "missing_slot_rejected": "PASS",
+    "missing_source_rejected": "PASS",
+    "missing_status_rejected": "PASS",
+    "missing_witness_rejected": "PASS",
+    "parent_overclaim_rejected": "PASS",
+    "phi-full-h_overclaim_rejected": "PASS",
+    "phi-prime_overclaim_rejected": "PASS",
+    "physics-closure_overclaim_rejected": "PASS",
+    "primary-grade_overclaim_rejected": "PASS",
+    "reciprocity_overclaim_rejected": "PASS",
+    "scale-slot_overclaim_rejected": "PASS",
+    "swap-isometry_overclaim_rejected": "PASS",
+    "swap_obstruction_loss_rejected": "PASS",
+    "swap_overclaim_rejected": "PASS",
+    "temporal-mirror_overclaim_rejected": "PASS",
+    "unique_outcome_promotion_rejected": "PASS",
+    "witness_inequivalence_loss_rejected": "PASS"
+  },
+  "certification": "VERIFIED-WITH-CAVEATS: independent source/hash, tangent, mirror, swap, and counterpair reconstruction; no fresh external-model review",
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "counts": {
+    "catch_proofs": 52,
+    "census": 3873,
+    "challenges": 11,
+    "clauses": 15,
+    "completeness": 17,
+    "outcomes": 4,
+    "slots": 15,
+    "sources": 72,
+    "status": 21,
+    "witnesses": 3
+  },
+  "derivation_sha256": "aa8139f6fe65bd7681786f17ad9d19bd166267d22b0dcfe7af0cbe5747e4e9ee",
+  "groups": {
+    "challenges": {
+      "rows": 11,
+      "rulings_checked": 11
+    },
+    "clauses": {
+      "rows": 15,
+      "rulings_checked": 15
+    },
+    "completeness": {
+      "rows": 17
+    },
+    "derivation": {
+      "checks": 20,
+      "outcome": "PARTIAL_SEAL_DATA_ONLY"
+    },
+    "independent_algebra": {
+      "Lorentzian_anti_isometry": "PASS",
+      "free_clock_metric_jet": "2*a",
+      "reciprocal_swap": "PASS",
+      "static_tangent_rank": 3
+    },
+    "outcomes": {
+      "rows": 4,
+      "rulings_checked": 4
+    },
+    "slots": {
+      "rows": 15,
+      "rulings_checked": 15
+    },
+    "source_adjudication": {
+      "base_hashes_replayed": 72,
+      "rows": 72
+    },
+    "source_census": {
+      "dispositions": {
+        "CONTEXT_CANDIDATE": 1693,
+        "EXCLUDED_DUPLICATE_RAW_RECORD": 80,
+        "EXCLUDED_GENERATED_ORGANIZATION": 226,
+        "LOAD_BEARING_CANDIDATE": 72,
+        "PROVENANCE_OR_COUNTEREXAMPLE_ONLY": 1802
+      },
+      "rows": 3873
+    },
+    "source_syntax": {
+      "CSN": "PASS",
+      "Xmax": "PASS",
+      "bootstrap": "PASS",
+      "canon": "PASS",
+      "cold_packet": "PASS",
+      "copresence": "PASS"
+    },
+    "status": {
+      "rows": 21,
+      "rulings_checked": 21
+    },
+    "witnesses": {
+      "rows": 3,
+      "rulings_checked": 3
+    }
+  },
+  "result": "PASS",
+  "schema": "udt-finite-cell-seal-boundary-join-verification-1.0",
+  "verdict": "PARTIAL_SEAL_DATA_ONLY; STATIC_DELTA_PHI_ZERO_WITH_FREE_NORMAL_DERIVATIVE; COMPLETE_C2_POLARIZATION_NOT_SELECTED; RAW_RECIPROCITY_SWAP_NOT_A_LORENTZIAN_SEAL_ISOMETRY"
+}

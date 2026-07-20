@@ -1,0 +1,1 @@
+{"checks": 20, "primary_outcome": "PARTIAL_SEAL_DATA_ONLY", "result": "PASS", "supporting_nonuniqueness": "MULTIPLE_INEQUIVALENT_POLARIZATION_WITNESSES_REMAIN_COMPATIBLE"}
