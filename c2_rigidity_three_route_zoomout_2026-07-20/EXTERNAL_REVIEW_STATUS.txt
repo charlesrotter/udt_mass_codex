@@ -1,0 +1,5 @@
+No fresh external-model review was authorized for this audit.
+
+Independent in-package verification uses separate homogeneity and fourth-order boundary-variation
+algebra, base-source replay, and exercised fail-closed mutations. The maximum grade remains
+VERIFIED-WITH-CAVEATS.

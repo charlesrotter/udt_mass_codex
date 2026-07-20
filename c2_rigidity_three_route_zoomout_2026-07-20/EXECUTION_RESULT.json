@@ -1,0 +1,59 @@
+{
+  "environment": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "records": [
+    {
+      "command": "/usr/bin/python3 c2_rigidity_three_route_zoomout_2026-07-20/build_source_census.py",
+      "exit_code": 0,
+      "id": "E01",
+      "output_artifact": "CENSUS_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "4db12a3988f8accf3215818f23a7b7a44cb45315a7aea826a72531a1f7d66880"
+    },
+    {
+      "command": "/usr/bin/python3 c2_rigidity_three_route_zoomout_2026-07-20/build_source_adjudication.py",
+      "exit_code": 0,
+      "id": "E02",
+      "output_artifact": "ADJUDICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "320eb37df682666985f84b88c8f819058aecc70dbf8d85d61043a063e8b0d9dd"
+    },
+    {
+      "command": "/usr/bin/python3 c2_rigidity_three_route_zoomout_2026-07-20/derive_three_route_zoomout.py",
+      "exit_code": 0,
+      "id": "E03",
+      "output_artifact": "DERIVATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "60e5ff1a50e9ac328e8d5cdc91136296e02daae15d3e58798e084ce2192fe6c1"
+    },
+    {
+      "command": "/usr/bin/python3 c2_rigidity_three_route_zoomout_2026-07-20/verify_three_route_zoomout.py",
+      "exit_code": 0,
+      "id": "E04",
+      "output_artifact": "VERIFICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "91f3c858decc05b1aa6aa065275f795e8f39e42b0ccab9bd71645d79b6ba78d3"
+    },
+    {
+      "command": "/usr/bin/python3 -m pytest tests/",
+      "exit_code": 1,
+      "id": "E05",
+      "output_artifact": "TEST_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "ff221789dd7e76da3a9d209c671fa93a6bfd95b46056153ff5c0d19eade7f197"
+    },
+    {
+      "command": "/usr/bin/python3 -I -c import sys,runpy; sys.path.insert(0,'/home/udt-admin/.local/lib/python3.10/site-packages'); import sympy; assert sympy.__version__=='1.13.1'; runpy.run_path('c2_rigidity_three_route_zoomout_2026-07-20/verify_three_route_zoomout.py',run_name='__main__')",
+      "exit_code": 0,
+      "id": "E06",
+      "output_artifact": "ISOLATED_VERIFICATION_TRANSCRIPT.txt",
+      "stdout_stderr_sha256": "91f3c858decc05b1aa6aa065275f795e8f39e42b0ccab9bd71645d79b6ba78d3"
+    }
+  ],
+  "result": "PASS",
+  "schema": "udt-c2-rigidity-three-route-execution-1.0",
+  "test_baseline": {
+    "failed_known_hygiene": 1,
+    "passed": 69,
+    "xfailed": 1
+  }
+}

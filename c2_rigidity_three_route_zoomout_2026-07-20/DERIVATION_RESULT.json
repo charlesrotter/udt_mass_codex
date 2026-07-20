@@ -1,0 +1,73 @@
+{
+  "boundary_countermodel": {
+    "action": "integral (y'')^2 dx",
+    "boundary_variation": "[2 y'' delta y' - 2 y''' delta y]",
+    "bulk": "2 y''''=0",
+    "completions": {
+      "CLAMPED": "delta y=delta y'=0",
+      "MIXED": "one member of each conjugate pair fixed/vanishing after a boundary term",
+      "NATURAL": "y''=y'''=0"
+    },
+    "ruling": "bulk variation exposes conjugate pairs but does not select physical boundary data"
+  },
+  "checks": {
+    "Bach_and_EH_symbols_not_identical": "PASS",
+    "C2_bulk_weight_zero": "PASS",
+    "EH_bulk_weight_two": "PASS",
+    "GHY_comparison_weight_two": "PASS",
+    "G_anchor_does_not_break_mass_length_similarity": "PASS",
+    "bare_EH_no_positive_scale_stationary_point": "PASS",
+    "boundary_pair_delta_y": "PASS",
+    "boundary_pair_delta_yprime": "PASS",
+    "c_anchor_does_not_break_common_length_time_scale": "PASS",
+    "compactness_homothety_invariant": "PASS",
+    "cosmological_volume_weight_four": "PASS",
+    "density_X2_homothety_invariant": "PASS",
+    "density_weight_mass_minus_volume": "PASS",
+    "fourth_order_bulk_equation": "PASS",
+    "majority_dependency_edges_remain_open": "PASS",
+    "multiple_boundary_completions_exist": "PASS",
+    "representative_value_cannot_change_symbol_order": "PASS",
+    "rigidity_is_one_dependency_tile": "PASS"
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "exact_invariants": {
+    "C2": "weight 0",
+    "EH": "weight 2 but no positive scale stationary point by itself",
+    "GM_over_c2X": "weight 0",
+    "G_rho_X2_over_c2": "weight 0"
+  },
+  "homogeneity_weights": {
+    "C2_scalar": -4,
+    "G_on_similarity_orbit": 0,
+    "Lambda_density_scalar": 0,
+    "R_scalar": -2,
+    "Xmax": 1,
+    "boundary_measure": 3,
+    "c": 0,
+    "density": -2,
+    "extrinsic_curvature": -1,
+    "mass": 1,
+    "sqrt_g": 4,
+    "volume": 3
+  },
+  "maximum_conclusion": "COMPACT_C2_RIGIDITY_IS_BRANCH_SCOPED; NO_SINGLE_CLOSING_SELECTOR; IMMEDIATE_VARIATION_PLACEMENT_AND_EXECUTABLE_OFFSHELL_REPRESENTATIVE_MAP_OPEN; CONDITIONAL_C2_BOUNDARY_VARIATION_RANKED_NEXT",
+  "next_bounded_derivation": "derive the exact conditional C2 finite-cell boundary symplectic potential/conjugate data before a nonlinear branch solve",
+  "result": "PASS",
+  "rigidity_meaning": "one conditional conformally-flat compact branch has a restricted tangent space; UDT-wide rigidity is not implied",
+  "route_ranking": [
+    "PHYSICAL_BOUNDARY_VARIATION",
+    "NONLINEAR_STATIONARY_CLOSURE",
+    "VARIATION_DOMAIN_BRIDGE_BLOCKED_NO_NEW_INPUT"
+  ],
+  "schema": "udt-c2-rigidity-three-route-zoomout-1.0",
+  "selector_ruling": {
+    "complete_closure": "NO_SINGLE_CLOSING_SELECTOR; dynamical matching, boundary, source, and normalization remain independent edges",
+    "executable_bridge_object": "off-shell scale-bearing representative map specifying varied fields and held-fixed global object remains OPEN",
+    "immediate_fork": "placement of fundamental variation relative to scale selection remains OPEN"
+  }
+}

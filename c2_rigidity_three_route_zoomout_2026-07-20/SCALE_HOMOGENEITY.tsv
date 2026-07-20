@@ -1,0 +1,16 @@
+id	object	common_homothety	weight	can_select_lambda_alone	ruling
+H01	4D C2 bulk integral	g->lambda^2 g	0	NO	EXACT_CSN_NEUTRAL
+H02	Bach zero set	g->Omega^2 g	conformally covariant zero set	NO	EVERY_SOLUTION_RETAINS_LOCAL_CSN_ORBIT_WITHOUT_BOUNDARY_BREAKING
+H03	4D EH bulk integral with fixed coordinate domain	g->lambda^2 g	2	NO	SCALE_SENSITIVE_BUT_NOT_A_STATIONARY_SCALE_EQUATION
+H04	4D cosmological volume integral	g->lambda^2 g	4	NO_ALONE	COEFFICIENT_AND_TERM_NOT_NATIVE_SELECTED
+H05	3D boundary area	g->lambda^2 g	3 for measure; area subobjects weight 2	NO	GEOMETRIC_EXTENSIVE_QUANTITY_NOT_NORMALIZATION
+H06	GHY-type first-derivative boundary integral comparison	g->lambda^2 g	2	NO	POST_SCALE_COMPARISON_NOT_NATIVE_C2_BOUNDARY_SELECTION
+H07	Xmax	length homothety	1	NO	VALUE_REMAINS_FREE
+H08	total mass on fixed dimensionless compactness orbit	M->lambda M	1	NO	REQUIRES_NATIVE_SOURCE_AND_NORMALIZATION
+H09	proper volume	V->lambda^3 V	3	NO	EXTENSIVE_OUTPUT
+H10	proper density M/V	rho->lambda^-2 rho	-2	NO	COMBINES_WITH_XMAX_TO_DIMENSIONLESS_RATIO
+H11	GM/(c^2 Xmax)	M,Xmax->lambda(M,Xmax)	0	NO	DIMENSIONLESS_COMPACTNESS_ONLY
+H12	G rho Xmax^2/c^2	rho->lambda^-2 rho;Xmax->lambda Xmax	0	NO	DIMENSIONLESS_BOOTSTRAP_RATIO_ONLY
+H13	observational c	length and time scale together	0	NO	UNIT_ANCHOR_NOT_FIELD_EQUATION
+H14	observational G	length,time,mass scale on compactness orbit	0	NO	NORMALIZATION_ANCHOR_NOT_SOURCE_OR_SCALE_EQUATION
+H15	fixed observed electron mass	M_e held fixed while geometric mass scales	breaks orbit	YES_AS_CALIBRATION_ONLY	EXCLUDED_UNTIL_NATIVE_MATTER_BRANCH_EXISTS

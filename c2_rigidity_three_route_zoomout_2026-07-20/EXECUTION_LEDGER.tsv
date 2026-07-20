@@ -1,0 +1,8 @@
+id	command	compute	exit_code	output_artifact	output_sha256
+E01	/usr/bin/python3 c2_rigidity_three_route_zoomout_2026-07-20/build_source_census.py	CPU_ONLY	0	CENSUS_TRANSCRIPT.txt	4db12a3988f8accf3215818f23a7b7a44cb45315a7aea826a72531a1f7d66880
+E02	/usr/bin/python3 c2_rigidity_three_route_zoomout_2026-07-20/build_source_adjudication.py	CPU_ONLY	0	ADJUDICATION_TRANSCRIPT.txt	320eb37df682666985f84b88c8f819058aecc70dbf8d85d61043a063e8b0d9dd
+E03	/usr/bin/python3 c2_rigidity_three_route_zoomout_2026-07-20/derive_three_route_zoomout.py	CPU_ONLY	0	DERIVATION_TRANSCRIPT.txt	60e5ff1a50e9ac328e8d5cdc91136296e02daae15d3e58798e084ce2192fe6c1
+E04	/usr/bin/python3 c2_rigidity_three_route_zoomout_2026-07-20/verify_three_route_zoomout.py	CPU_ONLY	0	VERIFICATION_TRANSCRIPT.txt	91f3c858decc05b1aa6aa065275f795e8f39e42b0ccab9bd71645d79b6ba78d3
+E05	/usr/bin/python3 -m pytest tests/	CPU_ONLY	1_EXPECTED_BASELINE	TEST_TRANSCRIPT.txt	ff221789dd7e76da3a9d209c671fa93a6bfd95b46056153ff5c0d19eade7f197
+E06	/usr/bin/python3 -I -c import sys,runpy; sys.path.insert(0,'/home/udt-admin/.local/lib/python3.10/site-packages'); import sympy; assert sympy.__version__=='1.13.1'; runpy.run_path('c2_rigidity_three_route_zoomout_2026-07-20/verify_three_route_zoomout.py',run_name='__main__')	CPU_ONLY	0	ISOLATED_VERIFICATION_TRANSCRIPT.txt	91f3c858decc05b1aa6aa065275f795e8f39e42b0ccab9bd71645d79b6ba78d3
+E07	fresh external-model review	EXTERNAL_REVIEW_NOT_PERFORMED	AUTHORIZATION_NOT_GIVEN	EXTERNAL_REVIEW_STATUS.txt	cb3f1be130802a8c6b7e9fe2363d63acf5283ce36f6cff95ded4a12d3ff3ee04

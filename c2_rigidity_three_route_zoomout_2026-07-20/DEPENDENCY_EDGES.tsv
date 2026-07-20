@@ -1,0 +1,13 @@
+id	from_node	to_node	required_edge	current_status	new_rigidity_effect	ruling
+D01	founding reciprocity+CSN	pre-scale dynamics	placement of fundamental variation relative to scale selection	OPEN	NONE	IMMEDIATE_FORK_SELECTOR_MISSING
+D02	pre-scale CSN class	conditional C2 bulk	4D metric-only locality covariance inventory unrestricted variation	UNIQUE_CONDITIONAL	NONE	CLASS_RESULT_NOT_FOUNDING_DERIVATION
+D03	conditional C2 bulk	conformal-class solution	full Bach equations plus domain/boundary data	PARTIAL	adds compact round tangent rigidity	ONE_CONDITIONAL_BRANCH_BETTER_CLASSIFIED
+D04	conformal-class solution	physical representative	off-shell scale-bearing global constraint or representative map	OPEN	NONE	EXECUTABLE_BRIDGE_EDGE_MISSING
+D05	physical representative	post-scale EH admissibility	representative-first placement plus metric-only covariance locality second-order minimality	CONDITIONAL	NONE	EH_NOT_SELECTED
+D06	pre-scale C2 dynamics	post-scale EH dynamics	dynamical matching/regime theorem and degree-of-freedom reconciliation	OPEN	NONE	REPRESENTATIVE_SELECTION_IS_NOT_DYNAMICAL_MATCHING
+D07	bulk dynamics	finite-cell variational problem	differentiable boundary/corner completion and admissible data	OPEN	compact rigidity makes this edge more consequential	NEXT_MATHEMATICAL_EDGE_TO_EXPOSE
+D08	finite-cell variational problem	normalized boundary charge	primitive reference orientation normalization	OPEN	NONE	CHARGE_NOT_DERIVED
+D09	metric solution	native total mass/source	matter actor source coupling and conserved definition	OPEN	NONE	SOURCE_EDGE_MISSING
+D10	native mass+volume	bootstrap closure	response functions and off-shell/global equation	OPEN	NONE	CURRENT_BOOTSTRAP_ON_SHELL_ONLY
+D11	bootstrap closure	Xmax and absolute scale	noncircular simultaneous global solution and local coframe join	OPEN	NONE	XMAX_RECIPROCITY_ONLY_DIMENSIONLESS
+D12	selected geometry	observed particle mass	derived matter branch plus calibration map	OPEN	NONE	ELECTRON_MASS_DOWNSTREAM_ONLY

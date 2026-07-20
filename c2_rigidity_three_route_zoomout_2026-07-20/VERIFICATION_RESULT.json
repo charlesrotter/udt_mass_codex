@@ -1,0 +1,104 @@
+{
+  "catch_proofs": {
+    "base_hash_mutation_rejected": "PASS",
+    "counter_single_overclaim_rejected": "PASS",
+    "derivation_next_route_mutation_rejected": "PASS",
+    "derivation_single_selector_rejected": "PASS",
+    "edge_match_overclaim_rejected": "PASS",
+    "edge_rep_overclaim_rejected": "PASS",
+    "maximum_overreach_rejected": "PASS",
+    "missing_census_rejected": "PASS",
+    "missing_counter_row_rejected": "PASS",
+    "missing_edges_row_rejected": "PASS",
+    "missing_routes_row_rejected": "PASS",
+    "missing_scale_row_rejected": "PASS",
+    "missing_scope_row_rejected": "PASS",
+    "missing_source_rejected": "PASS",
+    "missing_status_row_rejected": "PASS",
+    "route_block_overclaim_rejected": "PASS",
+    "route_rank_overclaim_rejected": "PASS",
+    "scale_anchor_overclaim_rejected": "PASS",
+    "scale_overclaim_rejected": "PASS",
+    "status_action_overclaim_rejected": "PASS",
+    "status_anchors_overclaim_rejected": "PASS",
+    "status_bootstrap_overclaim_rejected": "PASS",
+    "status_boundary_overclaim_rejected": "PASS",
+    "status_bridge_overclaim_rejected": "PASS",
+    "status_electron_overclaim_rejected": "PASS",
+    "status_fork_overclaim_rejected": "PASS",
+    "status_nonlinear_overclaim_rejected": "PASS",
+    "status_rigidity_overclaim_rejected": "PASS"
+  },
+  "certification": "VERIFIED-WITH-CAVEATS: independent homogeneity/boundary algebra and base-source replay; no fresh external-model review",
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "counts": {
+    "catch_proofs": 28,
+    "census": 3814,
+    "countermodels": 10,
+    "edges": 12,
+    "routes": 3,
+    "scale": 15,
+    "scope": 12,
+    "sources": 51,
+    "status": 21
+  },
+  "derivation_sha256": "f2e0054470e974829f268148d7f0449d721de1c8b8dbe78c94c6eb50c0082195",
+  "groups": {
+    "census": {
+      "dispositions": {
+        "CONTEXT_CANDIDATE": 1662,
+        "EXCLUDED_DUPLICATE_RAW_RECORD": 72,
+        "EXCLUDED_GENERATED_ORGANIZATION": 226,
+        "LOAD_BEARING_CANDIDATE": 51,
+        "PROVENANCE_OR_COUNTEREXAMPLE_ONLY": 1803
+      },
+      "rows": 3814
+    },
+    "countermodels": {
+      "rows": 10
+    },
+    "derivation": {
+      "checks": 18,
+      "maximum_conclusion": "COMPACT_C2_RIGIDITY_IS_BRANCH_SCOPED; NO_SINGLE_CLOSING_SELECTOR; IMMEDIATE_VARIATION_PLACEMENT_AND_EXECUTABLE_OFFSHELL_REPRESENTATIVE_MAP_OPEN; CONDITIONAL_C2_BOUNDARY_VARIATION_RANKED_NEXT"
+    },
+    "edges": {
+      "rows": 12
+    },
+    "independent_algebra": {
+      "C2_weight": 0,
+      "EH_plus_extra_balance": "sqrt(2)*sqrt(A)/(2*sqrt(B))",
+      "EH_weight": 2,
+      "boundary_conjugates": 2,
+      "operator_orders": [
+        4,
+        2
+      ]
+    },
+    "routes": {
+      "rows": 3
+    },
+    "scale": {
+      "rows": 15
+    },
+    "scope": {
+      "rows": 12
+    },
+    "semantics": {
+      "semantic_rulings": 22
+    },
+    "sources": {
+      "hashes_replayed": 51,
+      "rows": 51
+    },
+    "status": {
+      "rows": 21
+    }
+  },
+  "result": "PASS",
+  "schema": "udt-c2-rigidity-three-route-zoomout-verification-1.0",
+  "verdict": "COMPACT_C2_RIGIDITY_IS_BRANCH_SCOPED; NO_SINGLE_CLOSING_SELECTOR; IMMEDIATE_VARIATION_PLACEMENT_AND_EXECUTABLE_OFFSHELL_REPRESENTATIVE_MAP_OPEN; CONDITIONAL_C2_BOUNDARY_VARIATION_RANKED_NEXT"
+}
