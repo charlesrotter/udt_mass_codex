@@ -57,6 +57,7 @@ def main():
         "reduced_transform": sp.simplify(reduced - expected["reduced"]) == 0,
         "constraint_transform": sp.simplify(e11 - expected["constraint"]) == 0,
         "component_relation": sp.simplify(e00 - 2 * e22 - e11) == 0,
+        "reduced_plus_constraint_imply_transverse_component": sp.simplify(e22 - reduced + e11) == 0,
         "cubic_is_general_reduced_branch": reduced_cubic == 0,
         "cubic_full_constraint": sp.simplify(constraint - 4 * (B**2 - 3 * A * C)) == 0,
         "sign_witness_satisfies_constraint": sp.simplify(constraint.subs({A: -1, B: 0, C: 0, D: 2})) == 0,
@@ -86,6 +87,7 @@ def main():
         "minimal_full_system": {
             "equation_1": "Derivative(y(r), (r, 4)) = 0",
             "equation_2": "-2*Derivative(y(r), r)*Derivative(y(r), (r, 3)) + Derivative(y(r), (r, 2))**2 = 0",
+            "equivalence": "equation_1 and equation_2 are necessary and sufficient for every nonzero Bach component in this tile",
         },
         "general_local_branch": {
             "y": str(cubic),
