@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "all_nonzero_components_match": true,
+    "all_registered_profiles": true,
+    "all_zero_components_match": true,
+    "constant_profile_zero_control": true,
+    "cpu_only": true,
+    "transverse_bach_component_exercised": true
+  },
+  "compute": {
+    "cpu_only": true,
+    "dtype": "float64",
+    "method": "independent banked Torch forward-AD full coordinate Bach tensor",
+    "source": "c2_reciprocal_transverse_twist_jacobi_2026-07-20/verify_twist_jacobi.py"
+  },
+  "counts": {
+    "component_records": 128,
+    "nonzero_records": 24,
+    "profile_points": 8
+  },
+  "maxima": {
+    "constant_profile_absolute": 0.0,
+    "nonzero_scaled_error": 5.017742234854814e-15,
+    "transverse_component_witness": 0.6335310293911997,
+    "zero_absolute_error": 0.0
+  },
+  "result": "PASS",
+  "schema": "udt-c2-coupled-reciprocal-background-bach-verification-1.0"
+}

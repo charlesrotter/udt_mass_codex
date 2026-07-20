@@ -1,0 +1,18 @@
+sector	coverage	status	consequence
+reciprocal_clock_factor	y=exp(-2p)>0 arbitrary before variation	RETAINED	Full local branch is classified
+conditional_action	four-dimensional metric-only C2 bulk	RETAINED_CONDITIONAL	Bach equations are native to the conditional branch only
+full_tensor_equation	all diagonal and zero off-diagonal Bach components	RETAINED	Reduced false branches are rejected
+reduced_variation	p bulk Euler equation and two endpoint channels	RETAINED_DIAGNOSTIC	Compared explicitly with full Bach
+local_branch_space	all analytic solutions of y_fourth=0 plus algebraic cubic constraint	COMPLETE_BOUNDED	Global positivity and completion remain open
+twist_response	parent quadratic coefficient substituted on every local branch	RETAINED_CONDITIONAL	No nonlinear twist solve
+independent_replay	128 Torch forward-AD Bach component records	RETAINED_METHOD	Finite witnesses support but do not replace exact classification
+intrinsic_angular_curvature	flat dx dy background only	OMITTED_OPEN	Angular curvature may change or select the cubic branch
+transverse_area_and_shear	fixed unit transverse metric at zero twist	OMITTED_OPEN	No area or squashing equation
+global_topology	local radial and Cartesian transverse chart	OMITTED_OPEN	No caps section bundle or Hopf charge
+finite_cell_boundary	endpoint current shown; no physical data imposed	OMITTED_OPEN	Cubic constants are not globally selected
+bootstrap	no whole-solution closure condition applied	OMITTED_OPEN	No universe eigenvalue or branch selection
+time_dependence	static background and Jacobi response	OMITTED_OPEN	No evolution or dynamical stability
+physical_scale	pre-scale representative only	OMITTED_OPEN	No c G electron anchor Xmax or mass prediction
+carrier_and_source	no S2 L2+L4 alternative actor or source	EXCLUDED_OPEN	Metric response is not renamed matter
+full_metric_space	one reciprocal block and one inherited twist direction	BOUNDED_SLICE	Other metric sectors can alter the branch equations
+compute	CPU exact SymPy plus CPU Torch float64 replay	RETAINED_METHOD	No GPU work

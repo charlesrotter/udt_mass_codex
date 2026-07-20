@@ -1,0 +1,49 @@
+{
+  "catch_proofs": {
+    "angular_completion_overclaim_rejected": true,
+    "boundary_discard_rejected": true,
+    "carrier_promotion_rejected": true,
+    "discarded_transverse_component_rejected": true,
+    "divide_by_Q_rejected": true,
+    "false_branch_promotion_rejected": true,
+    "fixed_sign_overclaim_rejected": true,
+    "gpu_promotion_rejected": true,
+    "nonzero_curvature_assumption_rejected": true,
+    "reduced_only_promotion_rejected": true
+  },
+  "checks": {
+    "all_background_checks": true,
+    "all_branch_checks": true,
+    "all_three_witness_values": true,
+    "angular_scope_open": true,
+    "background_schema": true,
+    "carrier_left_open": true,
+    "full_bach_multiple_strata": true,
+    "general_cubic_constraint": true,
+    "independent_component_replay": true,
+    "independent_tolerance": true,
+    "reduced_false_branches": true,
+    "sign_selection_left_open": true,
+    "source_lineage_hashes": true,
+    "status_ledger_unique": true,
+    "twist_coefficients_recorded": true
+  },
+  "counts": {
+    "background_checks": 5,
+    "branch_checks": 14,
+    "completeness_rows": 17,
+    "component_records": 128,
+    "source_lineage_rows": 5,
+    "status_rows": 14
+  },
+  "load_bearing_hashes": {
+    "BACKGROUND_DERIVATION.json": "c575a78eb812fb717cb6fbc671cabe5e7dc43890770a38ee05fcf3f0b2e38c8b",
+    "BRANCH_ANALYSIS.json": "4b97232ae90da2c5654e44fc2adf8dd2e37832a4455b42728436472f8e822236",
+    "COMPLETENESS_MAP.tsv": "5803f19e1255765704677683a3c41d06bc6b032339048db89fc338acf096be44",
+    "STATUS_LEDGER.tsv": "5fc7dc65fcee42b94249a9eabf841f4e1d9cf312567e33a8c1cc8ad5b80c4673",
+    "VERIFICATION_POINTS.tsv": "7e0545a1659a13137d342aaf301d41606a825f34efabb58e4407780aecdfb994",
+    "VERIFICATION_RESULT.json": "31d099b648fc95e9a9a46e8ef20e2e5a4a24c8983239b0f10611d3d38413b7b9"
+  },
+  "result": "PASS",
+  "schema": "udt-c2-coupled-reciprocal-background-package-verification-1.0"
+}

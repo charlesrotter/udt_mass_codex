@@ -1,0 +1,15 @@
+id	claim	status	exact_regime	what_it_does_not_establish
+B01	The twist-free C2 density becomes y_second_squared/3 for y=exp(-2p)>0	DERIVED	Exact local reciprocal direct-product tile	Not the complete native action or a physical energy density
+B02	Restricted variation of the reciprocal profile gives y_fourth=0	DERIVED	One-function reduced C2 action with endpoint current retained	Reduced stationarity is not sufficient for full metric stationarity
+B03	The full Bach system adds 2 y_first y_third minus y_second_squared=0	DERIVED	All nonzero four-dimensional Bach components retained	No global boundary or angular equation
+B04	Every local full-Bach branch is a positive cubic y=A r_cubed+B r_squared+C r+D with B_squared=3 A C	DERIVED	Intervals on which y remains positive	No global completeness regularity or physical equivalence classification
+B05	The parent lower-order twist coefficient becomes minus two-thirds y y_second	DERIVED	Parent quadratic transverse-twist Jacobi sector on the full-Bach background	Not a carrier coefficient or stability eigenvalue
+B06	Full Bach permits positive zero and negative lower-order twist strata	DERIVED	Single admissible local branch y=2-r_cubed realizes all three on [-1/2,1/2]	Does not say a completed finite cell permits every stratum
+B07	Local full Bach selects one physical coefficient sign	OPEN	No local selection; sign varies across admitted solutions and even within one branch	Global angular boundary or bootstrap selection remains possible
+B08	The two-derivative/four-derivative metric bridge survives on nonzero full-Bach branches	CONDITIONAL	Conditional C2 parent; local quadratic twist; nonzero y_second	No unique weight scale topology section or matter action
+B09	Reduced p stationarity admits extra branches rejected by full Bach	DERIVED	Counterbranch y=1+r_squared has y_fourth=0 but violates the transverse Bach constraint by numerator 4	Does not invalidate reduction after the missing constraint is enforced
+B10	Bulk reduced equation and both p endpoint variation channels are separated exactly	DERIVED	No boundary values or boundary functional selected	No boundary charge or differentiable global variational problem
+B11	Independent direct Bach replay matches the symbolic components	OBSERVED	128 component records at eight preregistered profile points; max scaled error 5.02e-15	No fresh external-model review or unrestricted-profile numeric theorem
+B12	Intrinsic angular curvature finite-cell caps and bootstrap choose the cubic constants	OPEN	Excluded from the flat local transverse tile	These are the next candidate selectors not derived results
+B13	C2 is the action authority for this result	CONDITIONAL	UNIQUE-CONDITIONAL only inside the frozen pre-scale metric-only local 4D unrestricted-variation bulk class	Not the complete UDT action or post-scale bridge
+B14	Carrier Hopf section source boundary charge time-live stability scale and unconditional mass	OPEN	Excluded from this package	No matter closure is claimed

@@ -1,0 +1,65 @@
+{
+  "all_signs_single_branch_witness": {
+    "Q": "-3*r/(r**3 - 2)",
+    "interval": "[-1/2,1/2]",
+    "values": {
+      "minimum_y_on_registered_interval": "15/8",
+      "r_minus_half": "-12/17",
+      "r_plus_half": "4/5",
+      "r_zero": "0"
+    },
+    "y": "2 - r**3"
+  },
+  "checks": {
+    "background_density_transform": true,
+    "component_relation": true,
+    "constraint_transform": true,
+    "cubic_full_constraint": true,
+    "cubic_is_general_reduced_branch": true,
+    "full_constraint_rejects_false_branch": true,
+    "lower_twist_coefficient_transform": true,
+    "q_has_positive_zero_negative_witnesses": true,
+    "q_transform": true,
+    "reduced_false_branch_stationary": true,
+    "reduced_plus_constraint_imply_transverse_component": true,
+    "reduced_transform": true,
+    "sign_witness_positive_tile": true,
+    "sign_witness_satisfies_constraint": true
+  },
+  "compute": {
+    "cpu_only": true,
+    "method": "exact SymPy branch transformation and polynomial classification"
+  },
+  "definition": "y(r)=exp(-2*p(r))>0",
+  "general_local_branch": {
+    "Q": "-(3*A*r + B)/(A*r**3 + B*r**2 + C*r + D)",
+    "coefficient_constraint": "B**2 = 3*A*C",
+    "positivity_condition": "A*r**3+B*r**2+C*r+D > 0 on the local interval",
+    "y": "A*r**3 + B*r**2 + C*r + D"
+  },
+  "minimal_full_system": {
+    "equation_1": "Derivative(y(r), (r, 4)) = 0",
+    "equation_2": "-2*Derivative(y(r), r)*Derivative(y(r), (r, 3)) + Derivative(y(r), (r, 2))**2 = 0",
+    "equivalence": "equation_1 and equation_2 are necessary and sufficient for every nonzero Bach component in this tile"
+  },
+  "outcomes": [
+    "FULL_BACH_PERMITS_MULTIPLE_Q_STRATA",
+    "REDUCED_STATIONARITY_FALSELY_SELECTS_EXTRA_BRANCHES"
+  ],
+  "reduced_only_false_branch": {
+    "full_constraint_numerator": "4",
+    "reduced_equation": "0",
+    "y": "r**2 + 1"
+  },
+  "schema": "udt-c2-coupled-reciprocal-background-branches-1.0",
+  "transforms": {
+    "E00_numerator": "-(-4*y(r)*Derivative(y(r), (r, 4)) - 2*Derivative(y(r), r)*Derivative(y(r), (r, 3)) + Derivative(y(r), (r, 2))**2)/(4*y(r)**2)",
+    "E11_numerator": "(-2*Derivative(y(r), r)*Derivative(y(r), (r, 3)) + Derivative(y(r), (r, 2))**2)/(4*y(r)**2)",
+    "E22_numerator": "-(-2*y(r)*Derivative(y(r), (r, 4)) - 2*Derivative(y(r), r)*Derivative(y(r), (r, 3)) + Derivative(y(r), (r, 2))**2)/(4*y(r)**2)",
+    "Q": "-Derivative(y(r), (r, 2))/(2*y(r))",
+    "background_density": "Derivative(y(r), (r, 2))**2/3",
+    "higher_twist_coefficient": "y(r)**2",
+    "lower_twist_coefficient": "-2*y(r)*Derivative(y(r), (r, 2))/3",
+    "reduced_numerator": "Derivative(y(r), (r, 4))/(2*y(r))"
+  }
+}

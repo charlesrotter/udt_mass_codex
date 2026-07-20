@@ -1,0 +1,57 @@
+{
+  "bach_nonzero_components": {
+    "B_00": "(20*Derivative(p(r), r)**4 - 56*Derivative(p(r), r)**2*Derivative(p(r), (r, 2)) + 18*Derivative(p(r), r)*Derivative(p(r), (r, 3)) + 11*Derivative(p(r), (r, 2))**2 - 2*Derivative(p(r), (r, 4)))*exp(-6*p(r))/6",
+    "B_11": "(-4*Derivative(p(r), r)**4 + 8*Derivative(p(r), r)**2*Derivative(p(r), (r, 2)) - 2*Derivative(p(r), r)*Derivative(p(r), (r, 3)) + Derivative(p(r), (r, 2))**2)*exp(-2*p(r))/6",
+    "B_22": "(12*Derivative(p(r), r)**4 - 32*Derivative(p(r), r)**2*Derivative(p(r), (r, 2)) + 10*Derivative(p(r), r)*Derivative(p(r), (r, 3)) + 5*Derivative(p(r), (r, 2))**2 - Derivative(p(r), (r, 4)))*exp(-4*p(r))/6",
+    "B_33": "(12*Derivative(p(r), r)**4 - 32*Derivative(p(r), r)**2*Derivative(p(r), (r, 2)) + 10*Derivative(p(r), r)*Derivative(p(r), (r, 3)) + 5*Derivative(p(r), (r, 2))**2 - Derivative(p(r), (r, 4)))*exp(-4*p(r))/6"
+  },
+  "bach_trace": "0",
+  "background_density": "4*(-2*Derivative(p(r), r)**2 + Derivative(p(r), (r, 2)))**2*exp(-4*p(r))/3",
+  "boundary_decomposition_difference": "0",
+  "boundary_delta_p_coefficient": "8*(4*Derivative(p(r), r)*Derivative(p(r), (r, 2)) - Derivative(p(r), (r, 3)))*exp(-4*p(r))/3",
+  "boundary_delta_p_prime_coefficient": "8*(-2*Derivative(p(r), r)**2 + Derivative(p(r), (r, 2)))*exp(-4*p(r))/3",
+  "checks": {
+    "bach_symmetric": true,
+    "bach_tracefree": true,
+    "boundary_decomposition_exact": true,
+    "determinant_minus_one": true,
+    "reduced_projection_nonzero_identity": true
+  },
+  "compute": {
+    "cpu_only": true,
+    "method": "exact SymPy full coordinate Bach tensor"
+  },
+  "determinant": "-1",
+  "full_metric_path_projection": "2*(8*Derivative(p(r), r)**4 - 24*Derivative(p(r), r)**2*Derivative(p(r), (r, 2)) + 8*Derivative(p(r), r)*Derivative(p(r), (r, 3)) + 6*Derivative(p(r), (r, 2))**2 - Derivative(p(r), (r, 4)))*exp(-4*p(r))/3",
+  "metric": [
+    [
+      "-exp(-2*p(r))",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "exp(2*p(r))",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "reduced_euler_to_projection_ratio": "-4",
+  "reduced_p_euler": "-8*(8*Derivative(p(r), r)**4 - 24*Derivative(p(r), r)**2*Derivative(p(r), (r, 2)) + 8*Derivative(p(r), r)*Derivative(p(r), (r, 3)) + 6*Derivative(p(r), (r, 2))**2 - Derivative(p(r), (r, 4)))*exp(-4*p(r))/3",
+  "scalar_curvature": "2*(-2*Derivative(p(r), r)**2 + Derivative(p(r), (r, 2)))*exp(-2*p(r))",
+  "schema": "udt-c2-coupled-reciprocal-background-bach-1.0",
+  "weyl_squared": "4*(-2*Derivative(p(r), r)**2 + Derivative(p(r), (r, 2)))**2*exp(-4*p(r))/3"
+}
