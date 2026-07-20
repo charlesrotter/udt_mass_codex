@@ -1,0 +1,61 @@
+{
+  "action_ambiguity": {
+    "exact_q_boundary_term": "same bulk EL; fixed-boundary momentum shifts by eta",
+    "exact_r_boundary_term": "same bulk EL; movable-endpoint Hamiltonian shifts by -zeta",
+    "overall_rescaling": "same stationary equation; canonical momenta/charges rescale",
+    "ruling": "METRIC_AND_BULK_EQUATIONS_DO_NOT_FIX_BOUNDARY_GENERATOR_OR_NORMALIZATION"
+  },
+  "checks": {
+    "R3_flux_budget": "PASS",
+    "R4_flux_budget": "PASS",
+    "action_rescaling_changes_momentum": "PASS",
+    "action_rescaling_same_bulk_equation": "PASS",
+    "density_center_would_select_scale": "PASS",
+    "dimensionless_curvature_shape": "PASS",
+    "dimensionless_flux_shape": "PASS",
+    "divergence_theorem": "PASS",
+    "exact_q_boundary_term_same_bulk_EL": "PASS",
+    "exact_q_boundary_term_shifts_momentum": "PASS",
+    "exact_r_boundary_term_shifts_endpoint_H": "PASS",
+    "flux_mass_compactness_only": "PASS",
+    "flux_mass_density_scaling": "PASS",
+    "flux_not_radially_conserved": "PASS",
+    "flux_profile": "PASS",
+    "flux_seat": "PASS",
+    "flux_wall": "PASS",
+    "lapse_R3_identity": "PASS",
+    "lapse_R4_identity": "PASS",
+    "lapse_laplacian": "PASS",
+    "linear_closure_determinant": "PASS",
+    "linear_closure_reduces_to_coefficient": "PASS",
+    "volume_scaling": "PASS",
+    "weighted_R3_budget": "PASS",
+    "weighted_R4_budget": "PASS"
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "maximum_conclusion": "RAW_METRIC_CURVATURE_BUDGET_DERIVED; CONSERVED_CHARGE_AND_ABSOLUTE_SCALE_OPEN",
+  "metric_flux": {
+    "laplace_N": "D^2 N=-N/(X*r)=-R4*N/6=-R3*N/4",
+    "profile": "Phi_N(r)=-2*pi*r^2/X",
+    "radial_derivative": "dPhi_N/dr=-4*pi*r/X != 0",
+    "ruling": "FINITE_INTEGRATED_CURVATURE_BUDGET; NOT_SURFACE_INDEPENDENT_CHARGE",
+    "wall": "Phi_N(X)=-2*pi*X",
+    "weighted_R3_integral": "8*pi*X",
+    "weighted_R4_integral": "12*pi*X"
+  },
+  "result": "PASS",
+  "scale_rank": {
+    "candidate_mass": "M_flux=gamma*c_E^2*X/G_obs",
+    "compactness": "G_obs*M_flux/(c_E^2*X)=gamma",
+    "consistent_case": "alpha*gamma=1 gives rank one and a continuum of positive X",
+    "determinant": "1-alpha*gamma",
+    "inconsistent_case": "alpha*gamma!=1 gives only X=0 for the homogeneous pair",
+    "missing_gate": "native non-degree-one mass/boundary equation or separately derived physical density/scale",
+    "paired_X_relation": "X=alpha*G_obs*M_flux/c_E^2"
+  },
+  "schema": "udt-native-boundary-generator-scale-1.0"
+}

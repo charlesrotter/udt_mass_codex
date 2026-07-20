@@ -1,0 +1,5 @@
+Python 3.10.12
+SymPy 1.13.1
+pytest 9.1.1
+Compute CPU only
+GPU work performed: no

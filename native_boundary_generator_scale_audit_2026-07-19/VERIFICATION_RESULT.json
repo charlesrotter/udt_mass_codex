@@ -1,0 +1,77 @@
+{
+  "catch_proofs": {
+    "CSN_scale_selection_promotion_rejected": "PASS",
+    "action_ambiguity_erasure_rejected": "PASS",
+    "action_gap_erasure_rejected": "PASS",
+    "bootstrap_center_promotion_rejected": "PASS",
+    "homogeneous_pair_full_rank_rejected": "PASS",
+    "invented_density_center_rejected": "PASS",
+    "missing_candidate_rejected": "PASS",
+    "missing_source_rejected": "PASS",
+    "raw_flux_conservation_promotion_rejected": "PASS",
+    "raw_flux_mass_promotion_rejected": "PASS",
+    "scale_continuum_erasure_rejected": "PASS",
+    "status_mass_promotion_rejected": "PASS"
+  },
+  "checks": {
+    "candidate_universe": {
+      "dispositions": {
+        "CONTEXT_ONLY": 79,
+        "DUPLICATE_OR_AUDIT_RECORD": 41,
+        "EXCLUDED_WITH_REASON": 289,
+        "LOAD_BEARING": 27,
+        "NEGATIVE_CONTROL": 40
+      },
+      "rows": 476,
+      "token_hits": 471
+    },
+    "charge_requirements": {
+      "open": 11,
+      "rows": 16
+    },
+    "derivation": {
+      "checks": 25,
+      "maximum": "RAW_METRIC_CURVATURE_BUDGET_DERIVED; CONSERVED_CHARGE_AND_ABSOLUTE_SCALE_OPEN"
+    },
+    "independent_algebra": {
+      "cG_length_monomial": "NONE",
+      "closure_determinant": "-alpha*gamma + 1",
+      "dflux_dr": "-4*pi*y",
+      "flux": "-2*pi*X*y^2"
+    },
+    "scale_closure": {
+      "rows": 20
+    },
+    "source_adjudication": {
+      "families": 17,
+      "rows": 27
+    },
+    "source_text": {
+      "CSN": "PASS",
+      "WRL": "PASS",
+      "Xmax": "PASS",
+      "bootstrap": "PASS",
+      "final_action": "PASS"
+    },
+    "status": {
+      "rows": 15
+    }
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "counts": {
+    "candidates": 476,
+    "catch_proofs": 12,
+    "charge_rows": 16,
+    "scale_rows": 20,
+    "sources": 27,
+    "status_rows": 15
+  },
+  "derivation_sha256": "1d0bf37dbaf1f963a7f56c88e963fe3dcc84285cfdb287a7d9169ee5b4b15ded",
+  "result": "PASS",
+  "schema": "udt-native-boundary-generator-verification-1.0",
+  "verdict": "RAW_METRIC_CURVATURE_BUDGET_DERIVED; CONSERVED_CHARGE_NATIVE_MASS_AND_ABSOLUTE_SCALE_OPEN"
+}

@@ -7,15 +7,41 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-19).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-19 — asymptotic-boundary lineage audit complete; verified with caveats; no follow-on launched)
+## CURRENT (2026-07-19 — native boundary-generator/scale audit complete; verified with caveats; no follow-on launched)
 
 **Read LIVE.md CURRENT STATE topmost layer first, then
+`native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
+`LAY_DECISION_TREE.md`, and `NEXT_DERIVATION.md`; next read
 `asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
 `LAY_DECISION_TREE.md`, and `GLOBAL_CLOSURE_EQUATION_LEDGER.tsv`; next read
 `udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`,
 `OWNER_MEANING_LEDGER.tsv`, `PACKAGE_REGRADE.tsv`, and `RERUN_PRIORITY.md`; then use
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` only through that correction overlay.** Older reports are
 preserved evidence, not inherited authority.
+
+Current boundary-generator/scale ruling:
+
+- the raw WR-L lapse flux is `Phi_N(r)=-2*pi*r^2/X`, so it is not radially conserved;
+- it is exactly the integrated clock-curvature budget
+  `D^2N=-R4*N/6=-R3*N/4`, reaching `-2*pi*X` at the wall;
+- this makes it a promising metric bridge, but not yet mass: a native bulk constraint/source,
+  differentiable action, generator, reference, normalization, and time-live conservation are open;
+- action scaling and exact boundary derivatives prove that metric/bulk equations alone do not fix a
+  boundary charge;
+- if a future normalization gives `M=gamma*c_E^2*X/G_obs`, pairing it with
+  `X=alpha*G_obs*M/c_E^2` fixes only compactness. In the consistent case the two relations have rank
+  one and leave every positive common scale free;
+- `c_E,G_obs` provide mass-per-length calibration, not an absolute length;
+- Charles's joint mass/`X_max` proposal remains coherent if native matter, boundary, or bootstrap
+  supplies a homothety-breaking non-homogeneous mass law, scale eigenvalue, or derived physical
+  density center;
+- CSN and current bootstrap require scale emergence but do not provide that equation;
+- the next candidate derivation—unlaunched—is whether UDT forces the clock-curvature identity beyond
+  the static WR-L branch;
+- no action, source, carrier, conserved charge, numerical scale, GPU work, canonization, or
+  reorganization is authorized.
+
+Package: `native_boundary_generator_scale_audit_2026-07-19/`.
 
 Current boundary-lineage ruling:
 

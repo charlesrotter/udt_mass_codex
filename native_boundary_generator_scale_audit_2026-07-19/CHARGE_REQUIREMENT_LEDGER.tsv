@@ -1,0 +1,17 @@
+id	required_object	current_status	exact_evidence	consequence
+C01	WR-L metric and static lapse	DERIVED_CONDITIONAL	A=1-r/X; N=sqrt(A); X supplied	Metric flux can be computed but branch/global selection remains open
+C02	Finite wall flux	DERIVED_METRIC_LIMIT	Phi_N(X)=-2*pi*X	A finite length-valued geometric boundary datum exists
+C03	Surface independence / vacuum conservation	FAILS_FOR_RAW_FLUX	dPhi_N/dr=-4*pi*r/X	Raw flux is not a radially conserved vacuum Gauss charge
+C04	Bulk balance law	DERIVED_METRIC_IDENTITY	D^2N=-R4*N/6=-R3*N/4	Wall flux is an integrated weighted-curvature budget
+C05	Native off-shell action	OPEN	Final A/B/C adjudication S23	No presymplectic structure or physical generator follows from metric data alone
+C06	Selected variation domain	OPEN	Metric-only, hard reciprocal, auxiliary, restricted, and unrestricted routes remain inequivalent	No unique source or canonical momentum
+C07	Differentiable boundary/corner primitive	OPEN	Exact total derivatives shift boundary data without changing bulk EL equations	Fold values or horizon regularity do not select the primitive
+C08	Symmetry generator	PARTIAL_STATIC_ONLY	WR-L has a static Killing direction in the declared representative	Global physical time generator and time-live persistence are open
+C09	Generator normalization	OPEN	Overall action rescaling leaves stationary equations unchanged and rescales momenta/charges	Observed G may calibrate a selected action but cannot select the action or charge form
+C10	Reference/background subtraction	OPEN	No native finite-cell reference declared	Absolute finite-boundary charge remains ambiguous
+C11	Orientation and sign	OPEN	Outward static-slice convention gives negative lapse flux	Mass sign cannot be inferred from raw sign alone
+C12	Integrability in solution space	OPEN	No covariant phase space or Hamiltonian variation constructed	A scalar flux value need not integrate to a state function
+C13	Native bulk source ledger	OPEN	Carrier/source/mass emergence unresolved	Curvature accumulation cannot yet be partitioned into total mass sectors
+C14	Global domain and X=Xmax	OPEN	WR-L X is supplied; global Xmax is derived-output target	Even a conditional charge at X is not yet total-universe mass
+C15	Time-live conservation	OPEN	Only static metric audited	No theorem that the candidate charge persists under full dynamics
+C16	Complete native total mass	OPEN	C05-C15 incomplete	Raw Phi_N cannot presently be promoted to M_tot

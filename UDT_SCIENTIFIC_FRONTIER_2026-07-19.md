@@ -4,6 +4,52 @@ Date: 2026-07-19
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## July 19 native boundary-generator and scale-selection overlay — current authority
+
+Read `native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, `CHARGE_REQUIREMENT_LEDGER.tsv`,
+`SCALE_CLOSURE_LEDGER.tsv`, and `NEXT_DERIVATION.md` before the older layers below.
+
+The WR-L raw lapse flux is
+
+```text
+Phi_N(r)=-2*pi*r^2/X,
+```
+
+and therefore is not radially conserved. Its finite wall value is the exact volume-integrated
+clock-curvature budget because the static branch obeys
+
+```text
+D^2N=-R4*N/6=-R3*N/4.
+```
+
+This is a genuine metric identity for WR-L and the narrowest current bridge candidate between local
+dilation, distributed curvature, and the finite wall. It is not yet a universal UDT field equation,
+native source constraint, conserved charge, or mass law.
+
+Overall action rescaling preserves stationary solutions while rescaling canonical charges. Exact
+boundary derivatives preserve bulk Euler equations while shifting boundary momentum or the
+movable-endpoint Hamiltonian. Thus metric/bulk equations alone do not determine the boundary
+primitive, generator, reference, orientation, integrability, or normalization. Observed `G_obs`
+can calibrate a selected action/charge route; it does not select that route.
+
+If a future normalization gives `M=gamma*c_E^2*X/G_obs`, combining it with
+`X=alpha*G_obs*M/c_E^2` has determinant `1-alpha*gamma`. The consistent nonzero case is rank one and
+leaves a continuum of common scales. `c_E,G_obs` form mass per length but no length. The owner joint
+`M_tot,X_max` hypothesis therefore remains coherent only if the complete native matter,
+boundary, or bootstrap system supplies a non-degree-one mass functional, an independent scale
+eigenvalue, or a derived physical density center.
+
+CSN says scale must emerge and current bootstrap requires a narrow matter-bearing density window;
+neither supplies the emergence equation, density center, or width. The next candidate question is
+whether exact UDT principles force the clock-curvature identity—or a covariant generalization—over
+the admissible complete metric family. That derivation is not launched.
+
+Status: `VERIFIED-WITH-CAVEATS`; new 25/25 derivation, independent eight-group/12-catch verifier,
+and archived/frozen 55/55, 23/23, and 5/5 replays pass. Fresh-context external review remains
+unperformed without specific disclosure authorization. No action, source, carrier, conserved
+charge, numerical scale, GPU work, canonization, or reorganization follows.
+
 ## July 19 asymptotic-boundary lineage overlay — current authority
 
 Read `asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`, then its

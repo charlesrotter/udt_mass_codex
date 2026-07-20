@@ -1,0 +1,302 @@
+{
+  "authority_boundary": {
+    "absolute_scale_derived": false,
+    "action_or_boundary_selected": false,
+    "canon_changed": false,
+    "density_center_invented": false,
+    "external_model_review_performed": false,
+    "gpu_work_performed": false,
+    "raw_flux_promoted_to_conserved_charge": false,
+    "raw_flux_promoted_to_mass": false,
+    "repository_reorganization_performed": false,
+    "source_carrier_or_time_live_solution_constructed": false,
+    "startup_controls_changed": true
+  },
+  "base": "ad9e9bd5c27e4bfe40defcc225f81f2806a1c9f9",
+  "catch_proofs": {
+    "control_overlay_loss_rejected": "PASS",
+    "dirty_metadata_loss_rejected": "PASS",
+    "execution_hash_corruption_rejected": "PASS",
+    "frozen_manifest_corruption_rejected": "PASS",
+    "missing_current_path_rejected": "PASS",
+    "missing_frontier_target_rejected": "PASS",
+    "out_of_scope_change_rejected": "PASS",
+    "package_hash_failure_rejected": "PASS",
+    "prior_package_corruption_rejected": "PASS"
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_work_performed": false
+  },
+  "controls": {
+    "count": 4,
+    "files": [
+      {
+        "path": "LIVE.md",
+        "sha256": "77ae59a4c7844e151ae7d0cad10c51b5f1a29f688a802cdf63bd22fbe93a6ec3"
+      },
+      {
+        "path": "HANDOFF.md",
+        "sha256": "8603603aa88e7addfdce06ae796ffae93b87c3f050f3bf3a2bf2d6d126df0239"
+      },
+      {
+        "path": "INDEX.md",
+        "sha256": "e95a0a077bac5be165fd3c60e7bd66e6517a7a66ddedf54b2cc0def47eb9bdd6"
+      },
+      {
+        "path": "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
+        "sha256": "177a199c11b112912537e66b5aa48754cf36bdb1b44b3c2f007929a57b129d96"
+      }
+    ],
+    "result": "PASS"
+  },
+  "dirty_checkout": {
+    "contents_read": false,
+    "metadata_sha256": "4bc96070c841a14c497b642ee7b93dcf9061372f770aee065d6b495ee4996f4c",
+    "paths": 54
+  },
+  "execution_ledger": {
+    "result": "PASS",
+    "rows": 9
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 31,
+    "result": "PASS",
+    "sha256": "39d335fbbc0367f206d77173f72d4b4485145dd0cb42aacc8c4491656e6d287c"
+  },
+  "prior_scientific_packages": {
+    "entries": 405,
+    "packages": [
+      {
+        "entries": 18,
+        "manifest_sha256": "64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50",
+        "package": "angular_toric_closure_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest_sha256": "1a48e574835ee3838514294a7badd2415a74cdb0d10cf0545c30d3698ab022d2",
+        "package": "bootstrap_csn_phi_angular_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 16,
+        "manifest_sha256": "14e13dd27aa7036a6fef7db9208681459b86c06186bfffc7990ee877947d8356",
+        "package": "copresence_causal_accessibility_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest_sha256": "022f3c97916e38f29260812c14ad0136574d1908c70aabc7d4e56ae99d78f7bc",
+        "package": "copresence_gr_constraint_regrade_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest_sha256": "0e630938c516a0e70cfdb97924ebd6501bd4a97223909b038a22c341a653f1f7",
+        "package": "metric_cartan_holonomy_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 14,
+        "manifest_sha256": "6f03f82d485d4a20c2d2bfc13dc8979c1b229bf92c53f0eb36831abf3d75febc",
+        "package": "native_hopfion_topology_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 16,
+        "manifest_sha256": "e195d14349407c23e4a050628ec84298d3d35e23e2c25b5cf285a5c81f8e989b",
+        "package": "null_section_hopfion_metric_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest_sha256": "377eaa791ab93845f50c19d6eb30dadb0b10322ac0cbe405db55ca0a37ad3dfb",
+        "package": "projective_position_direction_magnitude_correction_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest_sha256": "bde786c168a2bf552a9720afa66a3615e66c0d63ffcfb78af680c88813198a84",
+        "package": "projective_position_join_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest_sha256": "32e523d44142cd36904a66f385890c5c417d9b827d0ac3cf956bdb48a838004b",
+        "package": "projective_transport_section_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest_sha256": "ac38f2b58cf41e0965950ddceb615e8b1edda6f419cecf282c0a98a55f58ce85",
+        "package": "reciprocal_c_clock_channel_correction_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 14,
+        "manifest_sha256": "d4ce35881bfd79952083da84bd5bd7f80b6d21b0e69d698059e1695c6f90ba6d",
+        "package": "reciprocal_clock_optical_scale_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest_sha256": "01ed5557bb94a1df99209d37b1eb5e4eefae4486978be34ab09dafb73aeac17b",
+        "package": "reciprocal_metric_null_line_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest_sha256": "5121270039c91c654bcd9bb5667cb06c31a5b91dec3747ddf015df0129081812",
+        "package": "rung2_weld_postjuly_regrade_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest_sha256": "9c074cc83b0815607c1a4a36f8dffeac09bf79c9d0f5aee74a356b21e87bf470",
+        "package": "transverse_reciprocal_realization_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest_sha256": "c36c5b9e58c4305c91dd52ccbcae42cbd77548f0d4d10d36eda85529e6eb754f",
+        "package": "xmax_accelerating_finite_cell_cartan_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest_sha256": "dfd3c1b7497ee0b24e82e4277afe700ae17629f1912dfa39bcfa15db501f34db",
+        "package": "xmax_dynamic_observer_frame_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest_sha256": "9b986d647b56283ba20dd25d4ae118bc42e775912656da70ef6237f1fbc83b5d",
+        "package": "xmax_full_frame_realization_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest_sha256": "9b1dbd9a38176f9cc4996771485b3d459d83b425e64cd3ac63454350914c2fb3",
+        "package": "xmax_reciprocity_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 22,
+        "manifest_sha256": "6123253b9370bce674c626a863dc595c773da3905cb155a7fe2b77c4667fd3a7",
+        "package": "udt_premise_reset_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 37,
+        "manifest_sha256": "3841492810a553cc07ae3107cc10c3c5584547db5dcb87757e377ebcdb335afb",
+        "package": "asymptotic_boundary_lineage_audit_2026-07-19",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS"
+  },
+  "result": "PASS",
+  "schema": "udt-native-boundary-generator-repository-gates-1.0",
+  "science_verifier": {
+    "catch_proofs": 12,
+    "groups": 8,
+    "result": "PASS"
+  },
+  "scope_paths": [
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
+    "native_boundary_generator_scale_audit_2026-07-19/ARM_C_BOUNDARY_RERUN.txt",
+    "native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md",
+    "native_boundary_generator_scale_audit_2026-07-19/CANDIDATE_UNIVERSE.tsv",
+    "native_boundary_generator_scale_audit_2026-07-19/CENSUS_TRANSCRIPT.txt",
+    "native_boundary_generator_scale_audit_2026-07-19/CHARGE_REQUIREMENT_LEDGER.tsv",
+    "native_boundary_generator_scale_audit_2026-07-19/DERIVATION_RESULT.json",
+    "native_boundary_generator_scale_audit_2026-07-19/DERIVATION_TRANSCRIPT.txt",
+    "native_boundary_generator_scale_audit_2026-07-19/DEVELOPMENT_NOTES.md",
+    "native_boundary_generator_scale_audit_2026-07-19/ENVIRONMENT.txt",
+    "native_boundary_generator_scale_audit_2026-07-19/EXECUTION_LEDGER.tsv",
+    "native_boundary_generator_scale_audit_2026-07-19/EXTERNAL_REVIEW_PROMPT.md",
+    "native_boundary_generator_scale_audit_2026-07-19/EXTERNAL_REVIEW_STATUS.txt",
+    "native_boundary_generator_scale_audit_2026-07-19/FINITE_CELL_RERUN.txt",
+    "native_boundary_generator_scale_audit_2026-07-19/LAY_DECISION_TREE.md",
+    "native_boundary_generator_scale_audit_2026-07-19/NEXT_DERIVATION.md",
+    "native_boundary_generator_scale_audit_2026-07-19/PREREGISTRATION.md",
+    "native_boundary_generator_scale_audit_2026-07-19/SCALE_CLOSURE_LEDGER.tsv",
+    "native_boundary_generator_scale_audit_2026-07-19/SHA256SUMS.txt",
+    "native_boundary_generator_scale_audit_2026-07-19/SOURCE_ADJUDICATION.tsv",
+    "native_boundary_generator_scale_audit_2026-07-19/SOURCE_TRANSCRIPT.txt",
+    "native_boundary_generator_scale_audit_2026-07-19/STATUS_LEDGER.tsv",
+    "native_boundary_generator_scale_audit_2026-07-19/TEST_TRANSCRIPT.txt",
+    "native_boundary_generator_scale_audit_2026-07-19/VERIFICATION_RESULT.json",
+    "native_boundary_generator_scale_audit_2026-07-19/VERIFICATION_TRANSCRIPT.txt",
+    "native_boundary_generator_scale_audit_2026-07-19/WRL_RERUN.txt",
+    "native_boundary_generator_scale_audit_2026-07-19/build_candidate_universe.py",
+    "native_boundary_generator_scale_audit_2026-07-19/build_manifest.py",
+    "native_boundary_generator_scale_audit_2026-07-19/build_source_adjudication.py",
+    "native_boundary_generator_scale_audit_2026-07-19/derive_boundary_generator.py",
+    "native_boundary_generator_scale_audit_2026-07-19/verify_boundary_generator.py",
+    "native_boundary_generator_scale_audit_2026-07-19/verify_package_manifest.py",
+    "native_boundary_generator_scale_audit_2026-07-19/verify_repository_gates.py"
+  ],
+  "tests": {
+    "baseline_match": true,
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest tests/",
+    "failed": 1,
+    "failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "passed": 69,
+    "stdout_sha256": "0864f26f590ea05a15db7c2ece86ad2f152947f0adc92991499df4e9cac1d985",
+    "xfailed": 1
+  }
+}

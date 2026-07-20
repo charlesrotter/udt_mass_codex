@@ -1,0 +1,4 @@
+Script started on 2026-07-19 23:09:12-04:00 [<not executed on terminal>]
+{"catch_proofs": 12, "checks": 8, "result": "PASS", "verdict": "RAW_METRIC_CURVATURE_BUDGET_DERIVED; CONSERVED_CHARGE_NATIVE_MASS_AND_ABSOLUTE_SCALE_OPEN"}
+
+Script done on 2026-07-19 23:09:12-04:00 [COMMAND_EXIT_CODE="0"]

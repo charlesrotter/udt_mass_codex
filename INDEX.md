@@ -3,7 +3,15 @@
 **⚠ BRANCH: `grok` (2026-07-19)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
 **➤ CURRENT SCIENTIFIC FRONTIER:**
-`asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
+`native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
+`LAY_DECISION_TREE.md`, and `NEXT_DERIVATION.md`. The exact WR-L lapse flux grows as
+`-2*pi*r^2/X`; its wall value is the integrated clock-curvature budget, not a radially conserved or
+normalized mass charge. Action rescaling and boundary derivatives leave bulk stationarity intact
+while changing boundary generators. A mass linear in `X`, paired with the dimensional `X-M`
+relation, fixes compactness but leaves the absolute common scale free. Native matter, boundary, or
+bootstrap must supply a separate homothety-breaking equation or derived physical density center.
+The exact clock-curvature identity is the narrowest candidate seam, but remains branch-specific.
+Next read `asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
 `LAY_DECISION_TREE.md`, and `GLOBAL_CLOSURE_EQUATION_LEDGER.tsv`. The recorded CMB outer fold and
 WR-L wall are distinct: the fold has `phi=0`, `A=1`; the wall has `phi->+infinity`, `A->0`, finite
 proper reach, infinite optical reach, finite curvature, and a regular ingoing extension. WR-L is
@@ -82,19 +90,21 @@ Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`,
 
 1. **`LIVE.md`** CURRENT STATE
 2. **`HANDOFF.md`** CURRENT block
-3. **`asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`**,
+3. **`native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`**,
+   **`STATUS_LEDGER.tsv`**, **`LAY_DECISION_TREE.md`**, and **`NEXT_DERIVATION.md`**
+4. **`asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`**,
    **`STATUS_LEDGER.tsv`**, **`LAY_DECISION_TREE.md`**, and **`GLOBAL_CLOSURE_EQUATION_LEDGER.tsv`**
-4. **`udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`**, **`OWNER_MEANING_LEDGER.tsv`**,
+5. **`udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`**, **`OWNER_MEANING_LEDGER.tsv`**,
    **`PACKAGE_REGRADE.tsv`**, and **`RERUN_PRIORITY.md`**
-5. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** through both current overlays only
-6. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
+6. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** through all current overlays only
+7. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
    **`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`**
-7. The exact frozen evidence named by that frontier only for the active question
-8. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
-9. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
-10. Only the task-triggered protocol under **`.claude/skills/`**
-11. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
-12. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
+8. The exact frozen evidence named by that frontier only for the active question
+9. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
+10. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
+11. Only the task-triggered protocol under **`.claude/skills/`**
+12. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
+13. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
 
 ---
 

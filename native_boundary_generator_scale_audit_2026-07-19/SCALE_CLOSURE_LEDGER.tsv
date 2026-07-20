@@ -1,0 +1,21 @@
+id	object_or_equation	status	information_rank	missing_gate
+K01	ordinary-regime c_E	OBSERVED	unit/calibration anchor	Native placement in complete selected solution
+K02	measured G_obs	OBSERVED	mass-length gravitational calibration	Selected action/source and normalization
+U01	global Xmax	OPEN_UNKNOWN	one length output	Global selected metric/domain
+U02	native M_tot	OPEN_UNKNOWN	one mass output	Native normalized charge/source ledger
+U03	dimensionless alpha in Xmax=alpha G M/c^2	OPEN_UNKNOWN	compactness coefficient	Native global solution
+U04	dimensionless gamma in M_flux=gamma c^2 X/G	OPEN_UNKNOWN	charge normalization	Action, generator, reference, boundary
+E01	Xmax=alpha G_obs M_tot/c_E^2	WORKING_DIMENSIONAL_FORM	one homogeneous relation	alpha and native mass
+E02	M_flux=gamma c_E^2 X/G_obs	CONDITIONAL_FLUX_NORMALIZATION	one homogeneous relation	gamma and proof M_flux=M_tot
+R01	determinant of E01+E02	DERIVED	1-alpha*gamma	No isolated positive solution from the homogeneous pair
+R02	consistent case alpha*gamma=1	DERIVED_RANK_ONE	continuum of positive common scales	Independent homothety-breaking equation
+R03	inconsistent case alpha*gamma!=1	DERIVED	zero solution only	Cannot repair by fitting coefficients
+E03	WR-L static volume V=64*pi*X^3/15	DERIVED_METRIC_LIMIT	volume scales as X^3	Complete time-live slice and global domain
+E04	flux-normalized density rho=15 gamma c^2/(64*pi G X^2)	DERIVED_CONDITIONAL	density changes as X^-2	Proof of mass normalization and global volume
+E05	physical density center rho_star	OPEN	would select X=sqrt(15 gamma c^2/(64*pi G rho_star))	Native matter/bootstrap derivation of rho_star; no invented normalization
+E06	bootstrap fractional width Delta rho/rho_star	WORKING_DIMENSIONLESS	admissibility width only	Center, width, and full solution family
+E07	CSN	FOUNDING_NEUTRALITY	forbids primitive local scale; says scale must emerge	Does not provide emergence equation
+E08	native M_UDT[X,state]	OPEN	could be non-degree-one and close scale	Complete action, matter, boundary, state solution
+E09	global boundary/transversality equation	OPEN	could supply independent scale eigenvalue	Differentiable boundary action and allowed variations
+R04	c_E and G_obs alone	DERIVED_DIMENSION_COUNT	c_E^2/G_obs has dimensions mass/length; no length can be formed	One additional native dimensional output or scale-breaking global equation
+R05	owner mass/Xmax proposal	WORKING_COHERENT	possible if E08 or E09 breaks homothety	Noncircular isolated positive solution

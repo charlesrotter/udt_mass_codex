@@ -8,6 +8,8 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
 **⚠ CURRENT SCIENTIFIC FRONTIER (2026-07-19):** after this CURRENT STATE block read
+`native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
+`LAY_DECISION_TREE.md`, and `NEXT_DERIVATION.md`. Next read
 `asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, and exact verification evidence. Next read
 `udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`, then its `OWNER_MEANING_LEDGER.tsv`,
@@ -32,7 +34,33 @@ order is: **`UDT_METHOD_MUSIC.md`** → **`UDT_DOTTED_LINE.md`** → **`UDT_ELEG
 Free-\(D_A\) / mixed scoreboards = **`grok/quarantine_free_DA/`** only (not live).
 Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE_historical_frontier_through_2026-07-08.md` and `archive/INDEX_pre_simple_metric_WR_L_2026-07-09.md`.
 
-## ============ CURRENT STATE (2026-07-19 — ASYMPTOTIC-BOUNDARY LINEAGE AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. THE RECORDED CMB OUTER FOLD AND WR-L WALL ARE DISTINCT: THE FOLD HAS PHI=0 AND ORDINARY LAPSE; THE WR-L WALL HAS PHI→+INFINITY, VANISHING STATIC LAPSE, FINITE PROPER REACH, INFINITE OPTICAL REACH, FINITE WALL CURVATURE, AND A REGULAR INGOING EXTENSION. WR-L X IS A SUPPLIED FAMILY PARAMETER, NOT YET THE DERIVED GLOBAL X_MAX; THE WALL IS THE STRONGEST RECORDED CAUSAL/OBSERVATIONAL X_MAX CANDIDATE BUT IS NOT A DERIVED HARD EDGE OR GLOBAL DOMAIN. NO POST-FIREWALL NATIVE MASS-DILATION BOUNDARY LAW WAS FOUND. THE EXACT RAW LAPSE FLUX -2πX IS UNNORMALIZED METRIC GEOMETRY, NOT MASS. OBSERVED C AND G FIX MASS-PER-LENGTH CALIBRATION; ABSOLUTE TOTAL MASS AND X_MAX REQUIRE A NATIVE MASS/BOUNDARY/BOOTSTRAP EQUATION THAT BREAKS THE COMMON SCALE HOMOTHETY. ACTION, SOURCE, CARRIER, COMPLETE BOUNDARY, X_MAX, AND MASS CLOSURE REMAIN OPEN. FRESH-CONTEXT EXTERNAL MODEL REVIEW WAS NOT TRANSMITTED WITHOUT EXPLICIT DISCLOSURE AUTHORIZATION. NO FOLLOW-ON DERIVATION, GPU WORK, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-19 — NATIVE BOUNDARY-GENERATOR AND SCALE-SELECTION AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. THE WR-L RAW LAPSE FLUX IS PHI_N(r)=-2πr²/X AND IS NOT RADIALLY CONSERVED; ITS WALL VALUE -2πX IS THE EXACT VOLUME-INTEGRATED CLOCK–CURVATURE BUDGET D²N=-R4 N/6=-R3 N/4, NOT YET A NATIVE CHARGE OR MASS. ACTION RESCALING AND EXACT BOUNDARY TERMS PROVE THAT THE METRIC AND BULK EQUATIONS ALONE DO NOT FIX THE GENERATOR, REFERENCE, OR NORMALIZATION. IF MASS IS ONLY M=γc²X/G, COMBINING IT WITH X=αGM/c² HAS RANK ONE WHEN CONSISTENT AND LEAVES EVERY POSITIVE COMMON SCALE FREE. C AND G SUPPLY MASS-PER-LENGTH CALIBRATION BUT NO LENGTH. THE OWNER JOINT M_TOTAL/X_MAX HYPOTHESIS REMAINS COHERENT ONLY IF NATIVE MATTER, BOUNDARY, OR BOOTSTRAP SUPPLIES A NON-HOMOGENEOUS MASS LAW, SCALE EIGENVALUE, OR DERIVED PHYSICAL DENSITY CENTER. CSN AND CURRENT BOOTSTRAP REQUIRE EMERGENCE BUT DO NOT YET SUPPLY THAT EQUATION. THE CLOCK–CURVATURE IDENTITY IS THE NARROWEST CURRENT CANDIDATE SEAM, BUT IS BRANCH-SPECIFIC AND NOT YET A UNIVERSAL FIELD EQUATION. ACTION, SOURCE, CARRIER, COMPLETE BOUNDARY, CONSERVED CHARGE, X_MAX, AND MASS CLOSURE REMAIN OPEN. NO FOLLOW-ON DERIVATION, GPU WORK, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+
+**➤➤➤ JULY 19 NATIVE BOUNDARY-GENERATOR AND SCALE AUDIT — CURRENT AUTHORITY:**
+- **READ NEXT:** `native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`, then
+  `STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, `CHARGE_REQUIREMENT_LEDGER.tsv`,
+  `SCALE_CLOSURE_LEDGER.tsv`, and `NEXT_DERIVATION.md`.
+- **EXACT METRIC BUDGET:** `Phi_N(r)=-2*pi*r^2/X`; it grows from zero to `-2*pi*X` and obeys
+  `D^2N=-R4*N/6=-R3*N/4`. The wall flux is accumulated weighted curvature.
+- **NOT YET A CONSERVED CHARGE:** nonzero `dPhi_N/dr` requires a native bulk source/constraint
+  balance. No action, generator, reference, integrability, normalization, or time-live conservation
+  is supplied.
+- **BOUNDARY AMBIGUITY EXACT:** overall action rescaling changes charges without changing stationary
+  solutions; exact boundary derivatives shift momenta or endpoint Hamiltonians without changing
+  bulk Euler equations.
+- **SCALE RANK:** the homogeneous pair `M=gamma*c_E^2*X/G_obs` and
+  `X=alpha*G_obs*M/c_E^2` has determinant `1-alpha*gamma`. Consistency makes it rank one and leaves
+  a continuum of absolute scales.
+- **OWNER HYPOTHESIS SURVIVES CONDITIONALLY:** native matter/boundary/bootstrap can jointly select
+  `M_tot,X_max` only if it supplies an independent homothety-breaking equation or physical density
+  center. Current CSN/bootstrap wording names that emergence role but does not calculate it.
+- **NARROWEST NEW LEAD:** test whether exact UDT principles force the WR-L clock–curvature identity,
+  or a covariant generalization, across the admissible complete metric family. It is presently a
+  branch identity, not a universal UDT field equation.
+- **EVIDENCE:** new 25/25 derivation; independent eight-group verifier with 12/12 catches; archived
+  WR-L 55/55, finite-cell 23/23, and frozen Arm-C boundary 5/5 replays.
+- **GRADE:** `VERIFIED-WITH-CAVEATS`; fresh-context external review remains unperformed without
+  specific disclosure authorization.
 
 **➤➤➤ JULY 19 ASYMPTOTIC-BOUNDARY LINEAGE AUDIT — CURRENT AUTHORITY:**
 - **READ NEXT:** `asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`, then
@@ -56,9 +84,8 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - **EVIDENCE GRADE:** `VERIFIED-WITH-CAVEATS`; exact local/tensor checks and mutation catches pass,
   while the preregistered fresh-context model review remains unexecuted pending explicit external-
   disclosure authorization.
-- **NEXT SEAM NOT LAUNCHED:** determine whether the exact boundary flux and a complete
-  matter-bearing finite-cell geometry supply a normalized native generator and scale-breaking
-  bootstrap condition.
+- **NEXT SEAM AUDITED:** the boundary-generator/scale audit is complete in
+  `native_boundary_generator_scale_audit_2026-07-19/`; use its current ruling above.
 
 **➤➤➤ JULY 19 UDT PREMISE-RESET AUDIT — CURRENT AUTHORITY:**
 - **READ NEXT:** `udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`,

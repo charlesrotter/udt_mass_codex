@@ -1,0 +1,3 @@
+STATUS: NOT PERFORMED
+REASON: A fresh external-model review would disclose substantial current repository evidence to an external service. Separate explicit authorization for this audit has not been given. No launch or workaround was attempted.
+SCIENTIFIC EFFECT: Bank VERIFIED-WITH-CAVEATS, not SETTLED.

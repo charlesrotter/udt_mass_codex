@@ -1,0 +1,4 @@
+COMMAND: python3 native_boundary_generator_scale_audit_2026-07-19/build_candidate_universe.py
+EXIT_CODE: 0
+STDOUT:
+PASS candidates=476 token_hits=471 counts={'CONTEXT_ONLY': 79, 'DUPLICATE_OR_AUDIT_RECORD': 41, 'EXCLUDED_WITH_REASON': 289, 'LOAD_BEARING': 27, 'NEGATIVE_CONTROL': 40}

@@ -1,0 +1,16 @@
+id	claim	status	premise_scope	remaining_open_scope
+S01	Raw WR-L spherical lapse flux is Phi_N(r)=-2*pi*r^2/X	DERIVED_METRIC	static WR-L representative with supplied X	Global selection of the representative
+S02	Raw wall lapse flux is finite and equals -2*pi*X	DERIVED_METRIC_LIMIT	same	Physical generator and interpretation
+S03	Raw lapse flux is radially conserved	REFUTED_IN_WRL_INTERIOR	dPhi_N/dr=-4*pi*r/X	A native source/constraint may provide a balance law
+S04	Raw wall flux is an integrated weighted-curvature budget	DERIVED_METRIC	D^2N=-R4*N/6=-R3*N/4 and divergence theorem	Whether a native action identifies this budget with a charge
+S05	Raw wall flux is native total mass	OPEN	no native action/generator/normalization	All charge-requirement ledger gates
+S06	Metric and bulk equations uniquely determine boundary charge normalization	REFUTED_AS_SUFFICIENT	action-rescaling and exact-boundary-term ambiguities	A distinguished native action and boundary principle
+S07	Observed G fixes normalization once the action/generator form is selected	CONDITIONAL	ordinary-regime calibration	Native action and matching theorem
+S08	WR-L X equals global Xmax	OPEN	WR-L X supplied; Xmax output	Complete global solution/domain
+S09	Two linear relations X=alpha GM/c^2 and M=gamma c^2X/G select absolute X and M	REFUTED_AS_SUFFICIENT	homogeneous pair	Independent non-homogeneous/native scale equation
+S10	The consistent homogeneous pair fixes compactness alpha*gamma=1	DERIVED_DIMENSION_COUNT	conditional flux-mass form	Coefficients still must be native
+S11	CSN selects the absolute scale	OPEN_NOT_SUPPLIED	CSN requires scale to emerge globally/m materially	Emergence equation
+S12	Current bootstrap selects an absolute density center	OPEN_NOT_SUPPLIED	owner working narrow fractional window	Derived rho_star and full matter-bearing solutions
+S13	A native density center would select X in the conditional WR-L volume branch	CONDITIONAL_DERIVED	M_flux normalization, WR-L volume, and supplied rho_star	Derive all three rather than insert them
+S14	A proper native mass/boundary structure can jointly determine M_tot and Xmax	WORKING_COHERENT	must break homothety and yield isolated positive solution	Complete native mass, boundary, bootstrap, and global solution
+S15	Complete native boundary charge and absolute scale are closed	OPEN	current bounded audit	Action/source/carrier/domain/time-live completion
