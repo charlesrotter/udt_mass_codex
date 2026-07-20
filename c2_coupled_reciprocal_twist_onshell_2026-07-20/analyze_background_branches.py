@@ -58,7 +58,7 @@ def main():
         "constraint_transform": sp.simplify(e11 - expected["constraint"]) == 0,
         "component_relation": sp.simplify(e00 - 2 * e22 - e11) == 0,
         "cubic_is_general_reduced_branch": reduced_cubic == 0,
-        "cubic_full_constraint": constraint == 4 * (B**2 - 3 * A * C),
+        "cubic_full_constraint": sp.simplify(constraint - 4 * (B**2 - 3 * A * C)) == 0,
         "sign_witness_satisfies_constraint": sp.simplify(constraint.subs({A: -1, B: 0, C: 0, D: 2})) == 0,
         "sign_witness_positive_tile": witness_values["minimum_y_on_registered_interval"] == "15/8",
         "q_has_positive_zero_negative_witnesses": (
