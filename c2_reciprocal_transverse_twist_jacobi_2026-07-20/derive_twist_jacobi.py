@@ -11,6 +11,7 @@ r = sp.symbols("r", real=True)
 epsilon = sp.symbols("epsilon", real=True)
 p = sp.Function("p")(r)
 u = sp.Function("u")(r)
+eta = sp.Function("eta")(r)
 DIM = 4
 RADIAL = 1
 
@@ -100,6 +101,21 @@ def euler_lagrange_second_order(lagrangian):
     return sp.simplify(sp.diff(lagrangian, u) - dr(sp.diff(lagrangian, dr(u))) + dr(dr(sp.diff(lagrangian, dr(u, 2)))))
 
 
+def second_order_boundary_decomposition(lagrangian):
+    """Return the endpoint coefficients and an exact integration-by-parts check."""
+    momentum_two = sp.diff(lagrangian, dr(u, 2))
+    momentum_one = sp.diff(lagrangian, dr(u)) - dr(momentum_two)
+    variation_density = (
+        sp.diff(lagrangian, u) * eta
+        + sp.diff(lagrangian, dr(u)) * dr(eta)
+        + momentum_two * dr(eta, 2)
+    )
+    bulk = euler_lagrange_second_order(lagrangian) * eta
+    boundary_current = momentum_one * eta + momentum_two * dr(eta)
+    check = sp.simplify(variation_density - bulk - dr(boundary_current))
+    return sp.factor(momentum_one), sp.factor(momentum_two), check
+
+
 def main():
     g, inverse, determinant, gamma, rup, ricci, scalar, c2 = tensors()
     density = sp.simplify(sp.sqrt(-determinant) * c2)
@@ -107,6 +123,7 @@ def main():
     linear = sp.simplify(expansion.coeff(epsilon, 1))
     quadratic = sp.factor(sp.simplify(expansion.coeff(epsilon, 2)))
     jacobi = sp.factor(euler_lagrange_second_order(quadratic))
+    boundary_delta_u, boundary_delta_u_prime, boundary_check = second_order_boundary_decomposition(quadratic)
     constant_twist = sp.simplify(quadratic.subs({dr(u): 0, dr(u, 2): 0}))
     reversal = sp.simplify(quadratic.xreplace({u: -u, dr(u): -dr(u), dr(u, 2): -dr(u, 2)}) - quadratic)
     flat = sp.simplify(quadratic.subs({dr(p): 0, dr(p, 2): 0}))
@@ -123,6 +140,9 @@ def main():
         "density_quadratic_jets": str(qjets),
         "jacobi_operator": str(jacobi),
         "jacobi_operator_jets": str(jjets),
+        "boundary_delta_u_coefficient": str(boundary_delta_u),
+        "boundary_delta_u_prime_coefficient": str(boundary_delta_u_prime),
+        "boundary_decomposition_difference": str(boundary_check),
         "jet_symbol_order": [str(item) for item in symbols],
         "constant_twist_density": str(constant_twist),
         "reversal_difference": str(reversal),
@@ -134,6 +154,7 @@ def main():
             "twist_reversal_even": reversal == 0,
             # Derivative(u(r),r) structurally contains u(r), so ``has(u)`` is too broad.
             "no_undifferentiated_u": sp.simplify(sp.diff(quadratic, u)) == 0,
+            "boundary_decomposition_exact": boundary_check == 0,
         },
         "compute": {"method": "exact SymPy coordinate tensor", "cpu_only": True},
     }
@@ -144,6 +165,8 @@ def main():
     print("scalar_curvature", sp.factor(scalar))
     print("quadratic_density", quadratic)
     print("jacobi_operator", jacobi)
+    print("boundary_delta_u_coefficient", boundary_delta_u)
+    print("boundary_delta_u_prime_coefficient", boundary_delta_u_prime)
     print("flat_profile_quadratic_density", sp.factor(flat))
     print("checks", result["checks"])
 

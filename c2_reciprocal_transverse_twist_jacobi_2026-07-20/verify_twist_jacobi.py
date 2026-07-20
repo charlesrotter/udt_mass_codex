@@ -229,7 +229,7 @@ def main():
         "schema": "udt-c2-reciprocal-transverse-twist-verification-1.0",
         "result": "PASS", "checks": checks, "points": len(records),
         "maxima": {"quadratic_relative_error": quadratic_error, "bach_ratio_reference": ratio_reference, "bach_ratio_spread": ratio_spread, "constant_twist_absolute": constant_max, "missing_backreaction_difference": missing_difference, "euclidean_signature_difference": euclidean_difference},
-        "interpretation": {"direct_bach_relation": "action_jacobi equals the recorded constant multiple of direct linearized covariant Bach_xy at every nonzero witness", "euclidean_mutation": "DIFFERS" if euclidean_difference > 1e-6 else "QUADRATIC_TWIST_DENSITY_SIGNATURE_INDEPENDENT_IN_THIS_STATIC_TILE"},
+        "interpretation": {"direct_bach_relation": "action_jacobi equals the recorded constant multiple of the full raised-index metric-path Bach projection at every nonzero witness", "euclidean_mutation": "DIFFERS" if euclidean_difference > 1e-6 else "QUADRATIC_TWIST_DENSITY_SIGNATURE_INDEPENDENT_IN_THIS_STATIC_TILE"},
         "compute": {"method": "independent Torch forward-AD coordinate tensor and direct Weyl divergence", "dtype": "float64", "cpu_only": True},
     }
     (HERE / "VERIFICATION_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
