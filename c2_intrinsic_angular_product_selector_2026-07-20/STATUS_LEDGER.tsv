@@ -1,0 +1,17 @@
+id	claim	status	exact_regime	what_it_does_not_establish
+I01	The twist-free C2 action density is F times the square of y_second minus 2K divided by 3	DERIVED	Exact local reciprocal times constant-curvature product coframe	Not the complete native action or a physical energy density
+I02	Restricted y variation gives y_fourth equals zero	DERIVED	One-function reduced C2 action with endpoint channels retained	Reduced stationarity is not sufficient for full metric stationarity
+I03	Full Bach adds y_second_squared minus 2 y_first y_third minus 4 K_squared equals zero	DERIVED	Every nonzero four-dimensional Bach component retained	No global boundary or unrestricted angular equation
+I04	Every local full-Bach branch is a positive cubic with B_squared equals 3 A C plus K_squared	DERIVED	Intervals on which y remains positive	No global completeness or physical equivalence classification
+I05	Intrinsic curvature selects one reciprocal-background branch	OPEN	Nonzero K shifts but does not close the cubic family	Global coframe boundary and bootstrap selection remain possible
+I06	The quadratic twist action contains both y_squared u_second_squared and a lower u_first_squared term	DERIVED	Exact epsilon-squared expansion including metric backreaction	Not a carrier action or stability functional
+I07	Constant u is an exact local zero mode	DERIVED	Local coordinate shear in the registered chart	No statement about global large diffeomorphisms or periods
+I08	The lower twist coefficient depends on K y_second and the directional screen connection F_first over F	DERIVED	One chosen toric twist direction in the product coframe	Scalar K does not derive the direction section or framing
+I09	A single admissible K=1 branch realizes positive zero and negative lower twist strata	DERIVED	Registered local interval and equatorial angular witness	Does not say a completed finite cell realizes every stratum
+I10	Intrinsic curvature changes the twist derivative inventory	DERIVED	Conditional local C2 quadratic action	No unique relative physical weight or scale follows
+I11	Intrinsic curvature removes local selector underdetermination	OPEN	It does not in this bounded product tile	Area shear global boundary or full coframe coupling may change the result
+I12	Independent coordinate replay matches the full Bach tensor and twist action density	OBSERVED	288 Bach records and 24 twist records at preregistered witnesses	No unrestricted-profile numerical theorem or fresh external-model review
+I13	Transverse area shear and complete screen connection supply the missing selector	WORKING	Identified as the smallest omitted metric-led join	Not yet derived or tested
+I14	C2 supplies action authority for this result	CONDITIONAL	UNIQUE-CONDITIONAL only in the frozen pre-scale metric-only local 4D unrestricted-variation bulk class	Not the complete UDT action or post-scale bridge
+I15	Boundary caps topology finite-cell seal and bootstrap select the physical branch	OPEN	Excluded from the local product tile	No boundary charge or universe eigenvalue derived
+I16	Carrier section source time-live stability physical scale and unconditional mass	OPEN	Excluded from this package	No matter closure is claimed

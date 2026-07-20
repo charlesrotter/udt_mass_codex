@@ -1,0 +1,20 @@
+sector	coverage	status	consequence
+reciprocal_clock_factor	y=exp(-2p)>0 arbitrary before variation	RETAINED	All local analytic product-background branches classified
+conditional_action	four-dimensional metric-only C2 bulk	RETAINED_CONDITIONAL	Bach equations are authoritative only inside the conditional branch
+intrinsic_angular_curvature	constant Gaussian K with signs positive zero negative	RETAINED_BOUNDED	K changes equations but does not select a branch
+angular_chart	local F_second+K F=0 with F>0	RETAINED_BOUNDED	No cap period topology or global quotient
+full_background_tensor	all Bach components at zero twist	RETAINED	Reduced-only false branches rejected
+background_branch_space	all analytic solutions of the exact local system	COMPLETE_BOUNDED	Global regularity and equivalence remain open
+twist_action	exact epsilon-squared sqrt(-g)C2 including metric backreaction	RETAINED_BOUNDED	One directional toric twist only
+twist_endpoint_variation	bulk Jacobi operator and two radial endpoint channels	RETAINED	No boundary values or boundary action selected
+directional_screen_connection	F_first/F dependence exposed	RETAINED_DIAGNOSTIC	Section or framing not derived
+independent_replay	Torch forward-AD tensor and action-density reconstruction	RETAINED_METHOD	Finite witnesses support but do not replace exact classification
+transverse_area	fixed unit local representative	OMITTED_OPEN	Area equation may couple to K y and twist
+transverse_shear	fixed except the selected twist	OMITTED_OPEN	Squashing and polarization branches untested
+unrestricted_angular_dependence	constant-curvature toric seed only	OMITTED_OPEN	No general two-surface or nontoric modes
+global_topology	local angular chart	OMITTED_OPEN	No section bundle Hopf charge caps or periods
+finite_cell_boundary	endpoint currents shown; no physical data imposed	OMITTED_OPEN	Cubic constants remain unselected
+bootstrap	no whole-solution closure applied	OMITTED_OPEN	No Xmax c G total mass or scale closure
+time_dependence	static background and Jacobi response	OMITTED_OPEN	No evolution or dynamical stability
+carrier_and_source	no S2 L2+L4 alternative actor or source	EXCLUDED_OPEN	Metric twist is not renamed matter
+compute	CPU exact SymPy and CPU Torch float64	RETAINED_METHOD	No GPU work

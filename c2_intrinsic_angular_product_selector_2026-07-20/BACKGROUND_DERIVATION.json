@@ -1,0 +1,57 @@
+{
+  "bach_nonzero_components": {
+    "B_00": "-(-4*K**2 - 4*y(r)*Derivative(y(r), (r, 4)) - 2*Derivative(y(r), r)*Derivative(y(r), (r, 3)) + Derivative(y(r), (r, 2))**2)*y(r)/24",
+    "B_11": "(-4*K**2 - 2*Derivative(y(r), r)*Derivative(y(r), (r, 3)) + Derivative(y(r), (r, 2))**2)/(24*y(r))",
+    "B_22": "-(-4*K**2 - 2*y(r)*Derivative(y(r), (r, 4)) - 2*Derivative(y(r), r)*Derivative(y(r), (r, 3)) + Derivative(y(r), (r, 2))**2)/24",
+    "B_33": "-(-4*K**2 - 2*y(r)*Derivative(y(r), (r, 4)) - 2*Derivative(y(r), r)*Derivative(y(r), (r, 3)) + Derivative(y(r), (r, 2))**2)*F(theta)**2/24"
+  },
+  "bach_trace": "0",
+  "boundary_decomposition_difference": "0",
+  "boundary_delta_y_coefficient": "-2*Derivative(y(r), (r, 3))/3",
+  "boundary_delta_y_prime_coefficient": "2*(-2*K + Derivative(y(r), (r, 2)))/3",
+  "checks": {
+    "angular_dependence_reduced_to_K": true,
+    "bach_symmetric": true,
+    "bach_tracefree": true,
+    "boundary_decomposition_exact": true,
+    "determinant": true
+  },
+  "compute": {
+    "cpu_only": true,
+    "method": "exact SymPy two-coordinate full Bach tensor"
+  },
+  "constant_curvature_identity": "Derivative(F(theta),(theta,2))=-K*F(theta)",
+  "density": "(-2*K + Derivative(y(r), (r, 2)))**2*F(theta)/3",
+  "density_per_transverse_volume": "(-2*K + Derivative(y(r), (r, 2)))**2/3",
+  "determinant": "-F(theta)**2",
+  "metric": [
+    [
+      "-y(r)",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1/y(r)",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "F(theta)**2"
+    ]
+  ],
+  "reduced_y_euler": "2*Derivative(y(r), (r, 4))/3",
+  "scalar_curvature": "2*K - Derivative(y(r), (r, 2))",
+  "schema": "udt-c2-intrinsic-angular-product-background-1.0",
+  "weyl_squared": "(-2*K + Derivative(y(r), (r, 2)))**2/3"
+}

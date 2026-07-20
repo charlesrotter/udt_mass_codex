@@ -1,0 +1,61 @@
+{
+  "catch_proofs": {
+    "action_volume_factor_removal_rejected": true,
+    "area_completion_overclaim_rejected": true,
+    "boundary_discard_rejected": true,
+    "carrier_promotion_rejected": true,
+    "conditional_action_promotion_rejected": true,
+    "constant_twist_response_rejected": true,
+    "directional_connection_removal_rejected": true,
+    "divide_by_zero_stratum_rejected": true,
+    "fixed_curvature_sign_rejected": true,
+    "lower_zero_stratum_discard_rejected": true,
+    "missing_metric_backreaction_rejected": true,
+    "omitted_angular_derivatives_rejected": true,
+    "reduced_only_promotion_rejected": true
+  },
+  "checks": {
+    "background_action_density": true,
+    "background_checks": true,
+    "background_schema": true,
+    "branch_checks": true,
+    "carrier_left_open": true,
+    "complete_action_volume_factor": true,
+    "directional_connection_disclosed": true,
+    "full_bach_components": true,
+    "full_branch_constraint": true,
+    "independent_replay": true,
+    "independent_tolerances": true,
+    "lower_three_strata": true,
+    "omitted_coframe_sectors_open": true,
+    "q_three_strata": true,
+    "registered_outcomes": true,
+    "selector_left_open": true,
+    "source_lineage_hashes": true,
+    "status_ledger_unique": true,
+    "twist_checks": true,
+    "twist_schema": true
+  },
+  "counts": {
+    "bach_records": 288,
+    "background_checks": 5,
+    "branch_checks": 11,
+    "completeness_rows": 19,
+    "source_lineage_rows": 6,
+    "status_rows": 16,
+    "twist_checks": 7,
+    "twist_records": 24
+  },
+  "load_bearing_hashes": {
+    "BACH_VERIFICATION_POINTS.tsv": "a88ad9b5b9b47ecb618cbe144f2840b9ef22dee171af91bde99908f0d22b82e3",
+    "BACKGROUND_DERIVATION.json": "80e7e51b356a963821af44dfdbf721501c5f2c13fefe1d75e40814503b245b8d",
+    "BRANCH_ANALYSIS.json": "47214fb3f3a4bc6e3570c667e18d7e2420638e887e0ef379da202e9fb27e1cc2",
+    "COMPLETENESS_MAP.tsv": "5fa440605dc62656b96e6fe5379dfce0033b5270b0726769f6694d0c48979bcb",
+    "STATUS_LEDGER.tsv": "315a7b172061a4193b4fbadb10e208c765d3752594b6c476a2a00b45a077b1d0",
+    "TWIST_DERIVATION.json": "224d5ac051935f79e1c4457275375d1ea91e986fe8073423004a5c54e2b9ce28",
+    "TWIST_VERIFICATION_POINTS.tsv": "b87d20e8eeefb89eabf5d30dd78996eb203c907fe7303b4fc9a350537cbd8565",
+    "VERIFICATION_RESULT.json": "237dc369bb9d5b10733ec071585a847f53522610f0bdce31e46b21ec7d89f23a"
+  },
+  "result": "PASS",
+  "schema": "udt-c2-intrinsic-angular-product-package-verification-1.0"
+}

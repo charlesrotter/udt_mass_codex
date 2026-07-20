@@ -1,0 +1,68 @@
+{
+  "all_Q_strata_witness": {
+    "K": "1",
+    "Q": "-9*r/(3*r**3 - r + 6)",
+    "interval": "[-1/2,1/2]",
+    "values": {
+      "minimum_y_on_registered_interval": "52/27",
+      "r_minus_half": "36/49",
+      "r_plus_half": "-36/47",
+      "r_zero": "0"
+    },
+    "y": "r**3 - r/3 + 2"
+  },
+  "all_twist_lower_strata_witness": {
+    "K": "1",
+    "angular_point": "F=1,F_prime=0 (equator of the local positive-curvature representative)",
+    "coefficient": "-4*(3*r - 1)*(3*r**3 - r + 6)/9",
+    "values": {
+      "r_one_half": "-47/36",
+      "r_one_third": "0",
+      "r_zero": "8/3"
+    }
+  },
+  "checks": {
+    "cubic_constraint_exact": true,
+    "false_branch_full_rejected": true,
+    "false_branch_reduced_stationary": true,
+    "full_system_sufficiency_angular": true,
+    "full_system_sufficiency_temporal": true,
+    "general_reduced_branch_is_cubic": true,
+    "lower_coefficient_all_strata": true,
+    "q_all_strata": true,
+    "sign_branch_full_bach": true,
+    "sign_branch_positive_tile": true,
+    "zero_K_reduces_parent_constraint": true
+  },
+  "compute": {
+    "cpu_only": true,
+    "method": "exact SymPy polynomial branch classification"
+  },
+  "general_local_branch": {
+    "Q": "-(3*A*r + B)/(A*r**3 + B*r**2 + C*r + D)",
+    "constraint": "B**2=3*A*C+K**2",
+    "positivity": "A*r**3+B*r**2+C*r+D>0 on the local interval",
+    "y": "A*r**3 + B*r**2 + C*r + D"
+  },
+  "minimal_full_system": {
+    "equation_1": "Derivative(y(r),(r,4))=0",
+    "equation_2": "Derivative(y(r),(r,2))**2-2*Derivative(y(r),r)*Derivative(y(r),(r,3))-4*K**2=0",
+    "equivalence": "necessary and sufficient for every nonzero background Bach component when y>0"
+  },
+  "outcomes": [
+    "INTRINSIC_CURVATURE_DOES_NOT_CHANGE_LOCAL_SELECTOR_UNDERDETERMINATION",
+    "INTRINSIC_CURVATURE_CHANGES_TWIST_DERIVATIVE_INVENTORY"
+  ],
+  "reduced_only_false_branch": {
+    "K": "1",
+    "full_constraint": "12",
+    "reduced_equation": "0",
+    "y": "2*r**2 + 2"
+  },
+  "schema": "udt-c2-intrinsic-angular-product-branches-1.0",
+  "twist_direction_ruling": {
+    "normalized_lower_coefficient": "y*(4*K-2*y_second+27*(F_prime/F)**2)/3",
+    "reason": "scalar K does not determine the screen connection of the chosen transverse one-form",
+    "status": "DIRECTIONAL_SECTION_DATA_REMAINS"
+  }
+}

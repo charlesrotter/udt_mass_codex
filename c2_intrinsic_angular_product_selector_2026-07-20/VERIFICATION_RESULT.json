@@ -1,0 +1,32 @@
+{
+  "checks": {
+    "all_registered_bach_records": true,
+    "all_registered_twist_records": true,
+    "bach_nonzero_match": true,
+    "bach_zero_match": true,
+    "constant_twist_zero": true,
+    "missing_backreaction_caught": true,
+    "omitted_angular_derivatives_caught": true,
+    "twist_nonconstant_match": true
+  },
+  "compute": {
+    "cpu_only": true,
+    "dtype": "float64",
+    "method": "independent Torch two-coordinate forward-AD tensor, Bach, and sqrt(-g) C2 construction"
+  },
+  "counts": {
+    "bach_records": 288,
+    "twist_records": 24
+  },
+  "maxima": {
+    "bach_nonzero_scaled_error": 6.776684983100927e-14,
+    "bach_zero_absolute_error": 4.179891099825019e-17,
+    "constant_twist_finite_amplitude_absolute": 2.6645352591003757e-15,
+    "constant_twist_second_difference_noise": 3.626728547108845e-09,
+    "missing_backreaction_difference": 2.4768979400846547e-07,
+    "omitted_angular_derivative_difference": 0.662627161405321,
+    "twist_nonconstant_scaled_error": 1.5488354459819203e-09
+  },
+  "result": "PASS",
+  "schema": "udt-c2-intrinsic-angular-product-independent-verification-1.0"
+}

@@ -1,0 +1,58 @@
+{
+  "background_action_density": "(-2*K + Derivative(y(r), (r, 2)))**2*F(theta)/3",
+  "boundary_decomposition_difference": "0",
+  "boundary_delta_u_coefficient": "2*(4*K*F(theta)**2*Derivative(u(r), r) - 3*F(theta)**2*y(r)*Derivative(u(r), (r, 3)) - 2*F(theta)**2*Derivative(u(r), r)*Derivative(y(r), (r, 2)) - 6*F(theta)**2*Derivative(u(r), (r, 2))*Derivative(y(r), r) + 27*Derivative(F(theta), theta)**2*Derivative(u(r), r))*F(theta)*y(r)/3",
+  "boundary_delta_u_prime_coefficient": "2*F(theta)**3*y(r)**2*Derivative(u(r), (r, 2))",
+  "checks": {
+    "boundary_decomposition_exact": true,
+    "constant_twist_zero": true,
+    "determinant": true,
+    "flat_parent_recovered": true,
+    "linear_vanishes": true,
+    "no_undifferentiated_u": true,
+    "twist_reversal_even": true
+  },
+  "classification": {
+    "angular_connection_dependence_present": true,
+    "meaning": "the chosen coordinate twist is directional data not determined by scalar Gaussian curvature K alone"
+  },
+  "compute": {
+    "cpu_only": true,
+    "method": "exact SymPy two-coordinate sqrt(-g) Weyl-squared action-density expansion"
+  },
+  "constant_twist_density": "0",
+  "density_linear_epsilon": "0",
+  "density_quadratic_epsilon": "(4*K*F(theta)**2*Derivative(u(r), r)**2 + 3*F(theta)**2*y(r)*Derivative(u(r), (r, 2))**2 - 2*F(theta)**2*Derivative(u(r), r)**2*Derivative(y(r), (r, 2)) + 27*Derivative(F(theta), theta)**2*Derivative(u(r), r)**2)*F(theta)*y(r)/3",
+  "determinant": "-F(theta)**2",
+  "flat_parent_difference": "0",
+  "jacobi_operator": "-2*(4*K*F(theta)**2*y(r)*Derivative(u(r), (r, 2)) + 4*K*F(theta)**2*Derivative(u(r), r)*Derivative(y(r), r) - 3*F(theta)**2*y(r)**2*Derivative(u(r), (r, 4)) - 2*F(theta)**2*y(r)*Derivative(u(r), r)*Derivative(y(r), (r, 3)) - 8*F(theta)**2*y(r)*Derivative(u(r), (r, 2))*Derivative(y(r), (r, 2)) - 12*F(theta)**2*y(r)*Derivative(u(r), (r, 3))*Derivative(y(r), r) - 2*F(theta)**2*Derivative(u(r), r)*Derivative(y(r), r)*Derivative(y(r), (r, 2)) - 6*F(theta)**2*Derivative(u(r), (r, 2))*Derivative(y(r), r)**2 + 27*y(r)*Derivative(F(theta), theta)**2*Derivative(u(r), (r, 2)) + 27*Derivative(F(theta), theta)**2*Derivative(u(r), r)*Derivative(y(r), r))*F(theta)/3",
+  "metric": [
+    [
+      "-y(r)",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1/y(r)",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "epsilon**2*F(theta)**2*u(r)**2 + 1",
+      "epsilon*F(theta)**2*u(r)"
+    ],
+    [
+      "0",
+      "0",
+      "epsilon*F(theta)**2*u(r)",
+      "F(theta)**2"
+    ]
+  ],
+  "reversal_difference": "0",
+  "scalar_curvature": "-(-4*K + epsilon**2*F(theta)**2*y(r)*Derivative(u(r), r)**2 + 2*Derivative(y(r), (r, 2)))/2",
+  "schema": "udt-c2-intrinsic-angular-product-twist-1.0"
+}
