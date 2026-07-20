@@ -1,0 +1,14 @@
+id	claim	status	exact_regime	what_it_does_not_establish
+T01	The reciprocal/twist coframe has determinant minus one	DERIVED	Exact four-dimensional local coframe; arbitrary p(r), u(r), and epsilon	No global chart, physical boundary, or selected solution
+T02	The C2 density has no term linear in the transverse twist	DERIVED	Full coordinate curvature expanded at epsilon=0	No nonlinear finite-amplitude uniqueness or stability
+T03	The quadratic twist density is exp(-4p)[u_second^2 + (4/3)(p_second-2 p_first^2)u_first^2]	DERIVED	Conditional pre-scale metric-only C2 branch; static cohomogeneity-one tile	Not a carrier L2+L4 action or complete UDT action
+T04	The u_second^2 coefficient is strictly positive for finite real p	DERIVED	Same quadratic local density	Lorentzian dynamical stability is not inferred from a static action Hessian
+T05	The lower-derivative u_first^2 coefficient has no selected sign	OPEN	Positive if p_second>2 p_first^2, zero at equality, negative below it	No reciprocal-background equation or bootstrap selector was solved here
+T06	Background reciprocal curvature generically supplies both derivative orders from one C2 invariant	DERIVED	Generic local p jets with p_second not equal to 2 p_first^2	No unique relative weight, global scale, or on-shell branch
+T07	A constant transverse twist is an exact coordinate-shear zero mode	DERIVED	Quadratic density, Jacobi operator, and full metric-path Bach projection	No statement about globally nontrivial winding
+T08	The action Jacobi and independent full metric-path Bach projection have one constant ratio	OBSERVED	Ten preregistered float64 profile points; ratio -8 with spread 5.85e-12	Not a symbolic independent Bach theorem over unrestricted profiles
+T09	Bulk Jacobi and both endpoint variation channels separate with zero symbolic remainder	DERIVED	Second-order radial quadratic density before boundary conditions	No physical boundary condition, boundary action, or charge is selected
+T10	The static quadratic twist density is signature-independent in the registered Euclidean-time mutation	OBSERVED	Ten registered local witnesses; maximum difference 9.03e-10	No statement about time-dependent signatures or Lorentzian evolution
+T11	The stable nonround Hopfion points to transverse twist as a relevant geometric sector	WORKING	Cross-audit interpretation only; full 3D Hopf-capable implementation with conditional carrier	No metric-to-carrier soldering, topology selection, or backreaction
+T12	C2 is the parent invariant for this calculation	CONDITIONAL	UNIQUE-CONDITIONAL only within the frozen pre-scale metric-only local 4D unrestricted-variation bulk class	Not the complete native action or post-scale EH bridge
+T13	Carrier, Hopf section, physical scale, source, boundary charge, stable time-live matter, and unconditional mass	OPEN	Excluded from this bounded tile	Nothing in this package closes these objects

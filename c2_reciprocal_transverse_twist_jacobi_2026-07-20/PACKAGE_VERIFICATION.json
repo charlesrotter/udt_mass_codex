@@ -1,0 +1,47 @@
+{
+  "catch_proofs": {
+    "action_only_circular_check_rejected": true,
+    "carrier_promotion_rejected": true,
+    "constant_twist_false_stiffness_rejected": true,
+    "dropped_boundary_record_rejected": true,
+    "fixed_lower_sign_overclaim_rejected": true,
+    "frozen_p_derivatives_rejected": true,
+    "gpu_promotion_rejected": true,
+    "isolated_bach_component_rejected": true,
+    "missing_metric_backreaction_rejected": true,
+    "topology_promotion_rejected": true
+  },
+  "checks": {
+    "all_symbolic_checks": true,
+    "bach_ratio_minus_eight": true,
+    "bach_ratio_spread": true,
+    "boundary_decomposition_exact": true,
+    "carrier_not_promoted": true,
+    "constant_twist_tolerance": true,
+    "density_tolerance": true,
+    "derivation_schema": true,
+    "determinant_minus_one": true,
+    "exact_density_formula": true,
+    "independent_verification_pass": true,
+    "ledger_unique_complete": true,
+    "lower_sign_left_open": true,
+    "scope_records_background_gap": true,
+    "scope_records_topology_gap": true,
+    "source_lineage_hashes": true
+  },
+  "counts": {
+    "completeness_rows": 16,
+    "registered_numeric_points": 10,
+    "source_lineage_rows": 6,
+    "status_rows": 13
+  },
+  "load_bearing_hashes": {
+    "COMPLETENESS_MAP.tsv": "38f507b0456df9a2eb42bb91f17c9de511e209d0b88335d7ab8b79badbe46b88",
+    "DERIVATION_RESULT.json": "6ff57d87e914739cea4f31d844b37a9fad2fc897ecd45b84adf207908cb1dc56",
+    "STATUS_LEDGER.tsv": "86c23ef580e71cefdb0ecf33a9363a59a19ba9e536fd33923af071ccad9e6d25",
+    "VERIFICATION_POINTS.tsv": "8e1fe32c27fa0fce85ab7139ae36f0944519bd66e4a8275d115f9e31283da3e9",
+    "VERIFICATION_RESULT.json": "fd133759e8eb73154581999b32c74497c281ca09b5a2fec8e9542e901ac12bdb"
+  },
+  "result": "PASS",
+  "schema": "udt-c2-reciprocal-transverse-twist-package-verification-1.0"
+}

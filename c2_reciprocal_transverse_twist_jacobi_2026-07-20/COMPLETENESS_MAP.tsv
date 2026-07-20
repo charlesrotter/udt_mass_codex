@@ -1,0 +1,17 @@
+sector	coverage	status	consequence
+reciprocal_clock_parallel_block	exp(-p) clock and exp(+p) radial coframe retained	RETAINED_CONDITIONAL	Exact reciprocal product is present
+reciprocal_profile	arbitrary local p jets through third derivative retained	RETAINED_OFF_SHELL	Coefficient strata are characterized but no p branch is selected
+transverse_twist	e3=dy+epsilon u(r) dx with full epsilon-squared metric backreaction	RETAINED_QUADRATIC	Exact Hessian and zero mode are derived
+curvature	full connection Riemann Ricci scalar Weyl and C2 density	RETAINED	No reduced GR equation entered
+variation	u varied through the exact quadratic functional	RETAINED	Bulk fourth-order Jacobi and endpoint terms derived
+background_variation	p and remaining metric components not jointly varied	OMITTED_OPEN	On-shell sign and branch selection remain open
+twist_amplitude	finite nonlinear epsilon behavior beyond quadratic order	OMITTED_OPEN	No nonperturbative twist solution
+spatial_dependence	only radial cohomogeneity-one dependence	OMITTED_OPEN	No full 3D linking or nontoric angular texture
+time_dependence	static tile only	OMITTED_OPEN	No time-live evolution or dynamical stability
+topology	local Cartesian transverse patch	OMITTED_OPEN	No Hopf number section caps or global bundle
+boundary	endpoint variation displayed but no conditions or action chosen	OMITTED_OPEN	No differentiable global variational problem or charge
+physical_scale	no representative scale c G electron anchor or Xmax value inserted	OMITTED_OPEN	No mass or length prediction
+carrier	no S2 L2+L4 or alternative actor supplied	EXCLUDED_OPEN	Metric twist is not renamed matter
+source_and_mass	no native source coupling or mass functional	EXCLUDED_OPEN	Unconditional matter and mass remain open
+full_metric_space	one off-diagonal mode over one reciprocal block	BOUNDED_SLICE	Other sectors can alter the conclusion
+compute	CPU exact SymPy plus independent Torch forward AD float64 witnesses	RETAINED_METHOD	No GPU or solution-space filtering

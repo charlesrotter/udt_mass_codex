@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "all_registered_points": true,
+    "bach_normalization_constant": true,
+    "constant_twist_zero": true,
+    "direct_density_matches": true,
+    "euclidean_signature_classified": true,
+    "missing_backreaction_caught": true
+  },
+  "compute": {
+    "cpu_only": true,
+    "dtype": "float64",
+    "method": "independent Torch forward-AD coordinate tensor and direct Weyl divergence"
+  },
+  "interpretation": {
+    "direct_bach_relation": "action_jacobi equals the recorded constant multiple of the full raised-index metric-path Bach projection at every nonzero witness",
+    "euclidean_mutation": "QUADRATIC_TWIST_DENSITY_SIGNATURE_INDEPENDENT_IN_THIS_STATIC_TILE"
+  },
+  "maxima": {
+    "bach_ratio_reference": -7.999999999999781,
+    "bach_ratio_spread": 5.845990358466224e-12,
+    "constant_twist_absolute": 1.1796119636642288e-10,
+    "euclidean_signature_difference": 9.025268310480783e-10,
+    "missing_backreaction_difference": 0.6192986571248871,
+    "quadratic_relative_error": 3.229666020728108e-09
+  },
+  "points": 10,
+  "result": "PASS",
+  "schema": "udt-c2-reciprocal-transverse-twist-verification-1.0"
+}
