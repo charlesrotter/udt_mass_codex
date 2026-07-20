@@ -1,0 +1,9 @@
+id	path	role	current_use
+R01	UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md	founding CSN statement	LOAD_BEARING
+R02	UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md	working bootstrap scope	LOAD_BEARING
+R03	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv	current action/source/boundary statuses	LOAD_BEARING
+R04	archive/native_action_chat_2026-07-14_15/UDT_WRL_SOLUTION_SPACE_CLOSURE_DERIVATION_RESULTS.md	archived WR-L algebra and reciprocity gauge	ALGEBRA_ONLY
+R05	native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md	immediate clock-curvature lead	LOAD_BEARING
+R06	UDT_SCIENTIFIC_FRONTIER_2026-07-19.md	pre-audit scientific frontier	LOAD_BEARING
+R07	reciprocity_offshell_constraint_selector_2026-07-18/DERIVATION_REPORT.md	reciprocity off-shell status	CONTEXT_AND_NEGATIVE_CONTROL
+R08	asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md	finite-cell boundary distinction	CONTEXT

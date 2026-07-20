@@ -4,7 +4,41 @@ Date: 2026-07-19
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
-## July 19 native boundary-generator and scale-selection overlay — current authority
+## July 19 clock–curvature selector overlay — current authority
+
+Read `clock_curvature_selector_audit_2026-07-19/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, `PROFILE_FAMILY_LEDGER.tsv`, and
+`NEXT_DERIVATION.md` before the older layers below.
+
+For every static spherical reciprocal areal metric with arbitrary profile `A(r)`, the two WR-L
+clock–curvature forms are proportional and reduce to
+
+`A''+A'/r+(1-A)/r^2=0`.
+
+If that equation is supplied, its general solution is `A=1-a*r-b/r`; a finite normalized seat and
+one wall select `A=1-r/X`. The equation is therefore `UNIQUE-CONDITIONAL` as a WR-L profile
+selector in this bounded family.
+
+It is not forced by the current foundation. The explicit positive deformation
+`A=(1-r/X)[1+(r/2X)(1-r/X)]` preserves the tested reciprocal block, seat, wall, linear wall class,
+and integrable weighted seat-curvature class, but its selector residual is nonzero. Its failure to
+satisfy the separate WR-L profile axiom prevents a complete-foundation-counterexample claim while
+showing that Reciprocity and finite-cell endpoints do not entail the equation.
+
+The equation as written is also not locally CSN covariant. Its zero set acquires derivative terms
+under `g->exp(2 sigma)g`, and no coefficient in the simple `D^2N+aR3N` class removes them at the
+physical lapse weight. Once a physical static representative and unit clock direction are selected,
+it is the covariant clock contraction of `R_mu_nu-R*g_mu_nu/6`; before that selection it is not a
+native pre-scale law.
+
+The smallest missing selector is a native rule choosing that physical representative/clock
+direction and implying the clock–curvature condition. Current on-shell bootstrap does not supply
+it. Status: `VERIFIED-WITH-CAVEATS`; exact 23/23 derivation and independent direct-tensor six-group,
+12-catch verifier pass, while fresh external-model review remains unauthorized. No complete action,
+source, carrier, boundary action, charge, `X_max`, mass, GPU work, canonization, or reorganization
+follows.
+
+## July 19 native boundary-generator and scale-selection overlay — prior current authority
 
 Read `native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, `CHARGE_REQUIREMENT_LEDGER.tsv`,
@@ -41,9 +75,8 @@ boundary, or bootstrap system supplies a non-degree-one mass functional, an inde
 eigenvalue, or a derived physical density center.
 
 CSN says scale must emerge and current bootstrap requires a narrow matter-bearing density window;
-neither supplies the emergence equation, density center, or width. The next candidate question is
-whether exact UDT principles force the clock-curvature identity—or a covariant generalization—over
-the admissible complete metric family. That derivation is not launched.
+neither supplies the emergence equation, density center, or width. The clock-curvature candidate
+question is now complete in `clock_curvature_selector_audit_2026-07-19/`; use its overlay above.
 
 Status: `VERIFIED-WITH-CAVEATS`; new 25/25 derivation, independent eight-group/12-catch verifier,
 and archived/frozen 55/55, 23/23, and 5/5 replays pass. Fresh-context external review remains

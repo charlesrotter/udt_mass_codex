@@ -8,8 +8,10 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
 **⚠ CURRENT SCIENTIFIC FRONTIER (2026-07-19):** after this CURRENT STATE block read
-`native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
+`clock_curvature_selector_audit_2026-07-19/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
 `LAY_DECISION_TREE.md`, and `NEXT_DERIVATION.md`. Next read
+`native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
+`LAY_DECISION_TREE.md`, and exact verification evidence. Next read
 `asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, and exact verification evidence. Next read
 `udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`, then its `OWNER_MEANING_LEDGER.tsv`,
@@ -34,7 +36,26 @@ order is: **`UDT_METHOD_MUSIC.md`** → **`UDT_DOTTED_LINE.md`** → **`UDT_ELEG
 Free-\(D_A\) / mixed scoreboards = **`grok/quarantine_free_DA/`** only (not live).
 Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE_historical_frontier_through_2026-07-08.md` and `archive/INDEX_pre_simple_metric_WR_L_2026-07-09.md`.
 
-## ============ CURRENT STATE (2026-07-19 — NATIVE BOUNDARY-GENERATOR AND SCALE-SELECTION AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. THE WR-L RAW LAPSE FLUX IS PHI_N(r)=-2πr²/X AND IS NOT RADIALLY CONSERVED; ITS WALL VALUE -2πX IS THE EXACT VOLUME-INTEGRATED CLOCK–CURVATURE BUDGET D²N=-R4 N/6=-R3 N/4, NOT YET A NATIVE CHARGE OR MASS. ACTION RESCALING AND EXACT BOUNDARY TERMS PROVE THAT THE METRIC AND BULK EQUATIONS ALONE DO NOT FIX THE GENERATOR, REFERENCE, OR NORMALIZATION. IF MASS IS ONLY M=γc²X/G, COMBINING IT WITH X=αGM/c² HAS RANK ONE WHEN CONSISTENT AND LEAVES EVERY POSITIVE COMMON SCALE FREE. C AND G SUPPLY MASS-PER-LENGTH CALIBRATION BUT NO LENGTH. THE OWNER JOINT M_TOTAL/X_MAX HYPOTHESIS REMAINS COHERENT ONLY IF NATIVE MATTER, BOUNDARY, OR BOOTSTRAP SUPPLIES A NON-HOMOGENEOUS MASS LAW, SCALE EIGENVALUE, OR DERIVED PHYSICAL DENSITY CENTER. CSN AND CURRENT BOOTSTRAP REQUIRE EMERGENCE BUT DO NOT YET SUPPLY THAT EQUATION. THE CLOCK–CURVATURE IDENTITY IS THE NARROWEST CURRENT CANDIDATE SEAM, BUT IS BRANCH-SPECIFIC AND NOT YET A UNIVERSAL FIELD EQUATION. ACTION, SOURCE, CARRIER, COMPLETE BOUNDARY, CONSERVED CHARGE, X_MAX, AND MASS CLOSURE REMAIN OPEN. NO FOLLOW-ON DERIVATION, GPU WORK, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-19 — CLOCK–CURVATURE SELECTOR AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. FOR EVERY STATIC SPHERICAL RECIPROCAL AREAL METRIC, BOTH PROPOSED CLOCK–CURVATURE FORMS REDUCE TO A''+A'/r+(1-A)/r²=0. SUPPLYING THAT EQUATION PLUS A FINITE NORMALIZED SEAT AND ONE WALL UNIQUELY SELECTS A=1-r/X, SO IT IS A UNIQUE-CONDITIONAL WR-L PROFILE SELECTOR. IT IS NOT YET A NATIVE UDT LAW: AN EXPLICIT POSITIVE RECIPROCAL FINITE-CELL DEFORMATION WITH THE SAME SEAT, WALL, LINEAR WALL CLASS, AND INTEGRABLE SEAT-CURVATURE CLASS VIOLATES IT. THE EQUATION'S ZERO SET IS ALSO NOT PRESERVED BY GENERAL LOCAL COMMON-SCALE TRANSFORMATIONS, AND NO COEFFICIENT IN D²N+aR3N REPAIRS THAT AT PHYSICAL LAPSE WEIGHT. AFTER A PHYSICAL STATIC REPRESENTATIVE AND CLOCK DIRECTION ARE SELECTED, THE EQUATION HAS THE COVARIANT READOUT (R_MN-RG_MN/6)U^M U^N=0 AND REMAINS A CONDITIONAL POST-SCALE LEAD. THE SMALLEST MISSING SELECTOR IS A NATIVE RULE CHOOSING THAT REPRESENTATIVE/CLOCK DIRECTION AND IMPLYING THE CONDITION. CURRENT RECIPROCITY, FINITE-CELL ENDPOINTS, CSN, AND ON-SHELL BOOTSTRAP DO NOT SUPPLY IT. COMPLETE ACTION, SOURCE, CARRIER, BOUNDARY ACTION, CHARGE, X_MAX, AND MASS REMAIN OPEN. NO FOLLOW-ON AUDIT, GPU WORK, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+
+**➤➤➤ JULY 19 CLOCK–CURVATURE SELECTOR AUDIT — CURRENT AUTHORITY:**
+- **READ NEXT:** `clock_curvature_selector_audit_2026-07-19/AUDIT_REPORT.md`, then
+  `STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, `PROFILE_FAMILY_LEDGER.tsv`, and
+  `NEXT_DERIVATION.md`.
+- **GENERAL REDUCTION:** both `D^2N+R4*N/6` and `D^2N+R3*N/4` vanish exactly when
+  `A''+A'/r+(1-A)/r^2=0` in the complete tested arbitrary-`A(r)` family.
+- **UNIQUE-CONDITIONAL:** that supplied equation gives `A=1-a*r-b/r`; finite normalized seat plus
+  one wall remove `b` and set `a=1/X`, selecting WR-L.
+- **NOT CURRENTLY FORCED:** a preregistered `epsilon=1/2` deformation preserves the enumerated
+  reciprocal finite-cell endpoint/wall properties but has residual `epsilon*2(4r-3X)/X^3`.
+- **LOCAL CSN OBSTRUCTION:** the zero equation acquires
+  `2 grad(sigma).grad(N)+N|grad sigma|^2`; no coefficient in `D^2N+aR3N` removes all local-scale
+  terms at physical lapse weight.
+- **POST-SCALE LEAD ONLY:** after selecting a physical representative and static clock direction it
+  is the trace-adjusted-Ricci clock contraction. The native representative/equation selector is
+  still missing.
+- **EVIDENCE:** exact 23/23 derivation; independent direct-tensor verifier with six groups and 12/12
+  catches. Grade remains `VERIFIED-WITH-CAVEATS` because fresh external review was not authorized.
 
 **➤➤➤ JULY 19 NATIVE BOUNDARY-GENERATOR AND SCALE AUDIT — CURRENT AUTHORITY:**
 - **READ NEXT:** `native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`, then

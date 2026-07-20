@@ -1,0 +1,60 @@
+{
+  "catch_proofs": {
+    "CSN_algebra_mutation_rejected": "PASS",
+    "algebra_mutation_rejected": "PASS",
+    "bootstrap_equation_invention_rejected": "PASS",
+    "complete_action_promotion_rejected": "PASS",
+    "conditional_selector_promotion_rejected": "PASS",
+    "countermetric_erasure_rejected": "PASS",
+    "countermodel_completeness_overstatement_rejected": "PASS",
+    "local_CSN_failure_erasure_rejected": "PASS",
+    "maximum_conclusion_promotion_rejected": "PASS",
+    "missing_premise_rejected": "PASS",
+    "missing_profile_rejected": "PASS",
+    "reciprocity_forcing_promotion_rejected": "PASS"
+  },
+  "certification": "VERIFIED-WITH-CAVEATS: independent in-package tensor replay; no fresh external-model review",
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "counts": {
+    "catch_proofs": 12,
+    "premises": 12,
+    "profiles": 4,
+    "sources": 8,
+    "statuses": 12
+  },
+  "derivation_sha256": "aa204b48602efa1a04d206d0ff417015cc109363c52c77e9843a41a3e91cbc0b",
+  "groups": {
+    "derivation": {
+      "checks": 23,
+      "maximum": "CLOCK_CURVATURE_PROFILE_SELECTION_UNIQUE_CONDITIONAL_WITHIN_STATIC_RECIPROCAL_AREAL_GAUGE; NOT_FORCED_BY_CURRENT_RECIPROCITY_CSN_FINITE_CELL_OR_BOOTSTRAP"
+    },
+    "independent_tensor_algebra": {
+      "R3": "-2*Derivative(Q(r), r)/r + (2 - 2*Q(r))/r**2",
+      "R4": "-Derivative(Q(r), (r, 2)) - 4*Derivative(Q(r), r)/r + (2 - 2*Q(r))/r**2",
+      "countermetric_residual": "2*epsilon*(-3*X + 4*r)/X**3",
+      "laplace_N": "(Derivative(Q(r), (r, 2))/2 + Derivative(Q(r), r)/r)*sqrt(Q(r))"
+    },
+    "premises": {
+      "rows": 12
+    },
+    "profiles": {
+      "countermetrics": 1,
+      "rows": 4
+    },
+    "sources": {
+      "rows": 8,
+      "text_checks": 4
+    },
+    "statuses": {
+      "rows": 12,
+      "rulings_checked": 10
+    }
+  },
+  "result": "PASS",
+  "schema": "udt-clock-curvature-selector-verification-1.0",
+  "verdict": "UNIQUE_CONDITIONAL_PROFILE_SELECTOR; CURRENT_NATIVE_FOUNDATION_DOES_NOT_FORCE_IT"
+}

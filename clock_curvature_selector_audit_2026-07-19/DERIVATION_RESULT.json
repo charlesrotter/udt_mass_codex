@@ -1,0 +1,75 @@
+{
+  "checks": {
+    "E3_E4_equivalence": "PASS",
+    "E3_reduction": "PASS",
+    "E4_local_CSN_extra": "PASS",
+    "E4_reduction": "PASS",
+    "E4_zero_not_preserved_locally": "PASS",
+    "clock_contraction_equals_E4_over_N": "PASS",
+    "constant_common_scale_preserves_zero": "PASS",
+    "deformation_positive_factor": "PASS",
+    "deformation_residual": "PASS",
+    "deformation_seat": "PASS",
+    "deformation_violates_selector": "PASS",
+    "deformation_wall": "PASS",
+    "deformation_weighted_R3_integrable_seat": "PASS",
+    "deformation_weighted_R4_integrable_seat": "PASS",
+    "finite_seat_normalization": "PASS",
+    "general_lapse_laplacian": "PASS",
+    "no_simple_spatial_coefficient_restores_local_CSN": "PASS",
+    "one_wall_selects_WRL": "PASS",
+    "profile_general_solution": "PASS",
+    "same_linear_wall_class": "PASS",
+    "simple_spatial_operator_cross_obstruction": "PASS",
+    "singular_mode_excluded_by_finite_seat": "PASS",
+    "trace_adjusted_Ricci_form": "PASS"
+  },
+  "common_scale": {
+    "E4_transform": "E4'=exp(-sigma)[E4+2 grad(sigma).grad(N)+N|grad(sigma)|^2]",
+    "ruling": "constant common scale preserves zero; general local common scale does not; no coefficient a fixes the physical lapse weight",
+    "simple_E3a_transform": "E_a'=exp(-sigma)[E_a+3 grad(sigma).grad(N)+(1-4a)N Delta sigma+(2-2a)N|grad sigma|^2]"
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "countermetric": {
+    "profile": "A_epsilon=(1-r/X)[1+epsilon(r/X)(1-r/X)]",
+    "profile_residual": "2*epsilon*(4*r-3*X)/X^3",
+    "satisfied": [
+      "reciprocal clock/ruler block",
+      "A(0)=1",
+      "A(X)=0",
+      "A>0 inside",
+      "same linear wall class",
+      "integrable weighted seat curvature"
+    ],
+    "tested_member": "epsilon=1/2",
+    "unresolved_or_not_satisfied": [
+      "WR-L residual-recentering profile axiom",
+      "complete off-shell action/source/boundary/bootstrap"
+    ]
+  },
+  "covariant_readout": {
+    "equation": "(R_mu_nu-R*g_mu_nu/6)u^mu u^nu=0",
+    "required_structure": "selected static unit clock direction u and physical representative"
+  },
+  "general_family": {
+    "E3": "N[A''+A'/r+(1-A)/r^2]/2",
+    "E4": "N[A''+A'/r+(1-A)/r^2]/3",
+    "R3": "-2A'/r+2(1-A)/r^2",
+    "R4": "-A''-4A'/r+2(1-A)/r^2",
+    "laplace_N": "N(A''/2+A'/r)",
+    "metric": "ds^2=-A(r)c^2dt^2+A(r)^(-1)dr^2+r^2dOmega^2"
+  },
+  "maximum_conclusion": "CLOCK_CURVATURE_PROFILE_SELECTION_UNIQUE_CONDITIONAL_WITHIN_STATIC_RECIPROCAL_AREAL_GAUGE; NOT_FORCED_BY_CURRENT_RECIPROCITY_CSN_FINITE_CELL_OR_BOOTSTRAP",
+  "result": "PASS",
+  "schema": "udt-clock-curvature-selector-1.0",
+  "selector_solution": {
+    "conditional_result": "A=1-r/X (WR-L)",
+    "finite_normalized_seat": "b=0",
+    "general": "A=1-a*r-b/r",
+    "wall_at_X": "a=1/X"
+  }
+}

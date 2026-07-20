@@ -1,0 +1,13 @@
+id	premise	status	role	ruling
+P01	UDT metric is the theory	PINNED_BY_THEORY	foundation	Metric-led audit; no imported field equation.
+P02	Reciprocal static block g_tt*g_rr=-c^2	PINNED_BY_THEORY_IN_BOUNDED_REPRESENTATION	kinematic constraint	Supplies A and A^-1 pairing but no differential equation for A.
+P03	Local Common-Scale Neutrality before physical representative selection	PINNED_BY_THEORY	foundation	A native pre-scale law must preserve the registered local common-scale equivalence.
+P04	Finite normalized seat A(0)=1 and finite wall A(X)=0	PINNED_BY_THEORY_IN_FINITE_CELL	boundary data	Endpoint data do not supply the interior profile equation.
+P05	Static spherical zero-shift areal chart	FREE_AND_EXPLORED	bounded ansatz	Maximum conclusion is restricted to this representation.
+P06	Clock-curvature equation	OPEN_CANDIDATE	selector under test	Must not be inferred from WR-L substitution.
+P07	WR-L profile A=1-r/X	CANDIDATE_BRANCH	positive control	Known to satisfy the equation exactly.
+P08	Bootstrap as on-shell closure/admissibility	WORKING	global selection	Current wording supplies no local off-shell profile equation.
+P09	EH Bach or other action	OPEN_NOT_ASSUMED	excluded	No action equation is imported.
+P10	Matter carrier source and boundary action	OPEN_NOT_ASSUMED	excluded	No matter or normalized boundary generator is supplied.
+P11	Intrinsic angular shape/topology beyond round bounded slice	OPEN	scope boundary	Round dOmega^2 is part of this bounded representation, not a global selection theorem.
+P12	Fresh external-model adversarial review	NOT_AUTHORIZED	certification caveat	Positive return cannot exceed VERIFIED-WITH-CAVEATS.

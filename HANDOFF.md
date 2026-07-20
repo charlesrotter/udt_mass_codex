@@ -7,9 +7,11 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-19).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-19 — native boundary-generator/scale audit complete; verified with caveats; no follow-on launched)
+## CURRENT (2026-07-19 — clock–curvature selector audit complete; verified with caveats; no follow-on launched)
 
 **Read LIVE.md CURRENT STATE topmost layer first, then
+`clock_curvature_selector_audit_2026-07-19/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
+`LAY_DECISION_TREE.md`, and `NEXT_DERIVATION.md`; next read
 `native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
 `LAY_DECISION_TREE.md`, and `NEXT_DERIVATION.md`; next read
 `asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
@@ -18,6 +20,27 @@
 `OWNER_MEANING_LEDGER.tsv`, `PACKAGE_REGRADE.tsv`, and `RERUN_PRIORITY.md`; then use
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` only through that correction overlay.** Older reports are
 preserved evidence, not inherited authority.
+
+Current clock–curvature selector ruling:
+
+- for arbitrary `A(r)` in the static spherical reciprocal areal family, both proposed identities
+  reduce to `A''+A'/r+(1-A)/r^2=0`;
+- supplying that equation plus a finite normalized seat and one wall uniquely selects WR-L, so the
+  equation is a `UNIQUE-CONDITIONAL` profile selector;
+- a positive reciprocal finite-cell deformation with the same seat, wall, linear wall class, and
+  integrable weighted seat-curvature class violates the equation. Reciprocity and endpoint data do
+  not force it;
+- its zero set is not preserved by general local CSN transformations, and no coefficient in the
+  simple `D^2N+aR3N` class repairs this at physical lapse weight;
+- after selecting a physical static representative and clock direction it is the covariant
+  trace-adjusted-Ricci clock contraction, so it remains a conditional post-scale lead;
+- current on-shell bootstrap supplies neither the representative nor the interior equation;
+- the next unlaunched gate is a repository/derivation audit for a noncircular finite-cell
+  boundary/bootstrap representative-selection rule. Do not invent one if it is absent;
+- complete action, source, carrier, boundary action, charge, `X_max`, and mass remain open. No GPU,
+  canonization, reorganization, or follow-on audit is authorized.
+
+Package: `clock_curvature_selector_audit_2026-07-19/`.
 
 Current boundary-generator/scale ruling:
 
@@ -36,8 +59,8 @@ Current boundary-generator/scale ruling:
   supplies a homothety-breaking non-homogeneous mass law, scale eigenvalue, or derived physical
   density center;
 - CSN and current bootstrap require scale emergence but do not provide that equation;
-- the next candidate derivation—unlaunched—is whether UDT forces the clock-curvature identity beyond
-  the static WR-L branch;
+- that next candidate derivation is complete in `clock_curvature_selector_audit_2026-07-19/`; use
+  its current ruling above;
 - no action, source, carrier, conserved charge, numerical scale, GPU work, canonization, or
   reorganization is authorized.
 

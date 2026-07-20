@@ -1,0 +1,13 @@
+id	claim	status	scope_or_reason
+S01	WR-L satisfies D2N+R4*N/6=0 and D2N+R3*N/4=0	DERIVED	Exact static reciprocal areal calculation.
+S02	The two clock-curvature forms are equivalent in the bounded family	DERIVED	E3=(3/2)E4 for arbitrary A(r).
+S03	Supplying the clock-curvature equation plus finite normalized seat and one wall selects WR-L	UNIQUE_CONDITIONAL	The supplied equation gives A=1-a*r-b/r; endpoint conditions give b=0 a=1/X.
+S04	Reciprocity alone forces the clock-curvature equation	NOT_DERIVED	Reciprocal countermetric F04 violates it.
+S05	Finite-cell endpoints alone force the clock-curvature equation	NOT_DERIVED	F03 and F04 share the tested endpoints and wall class.
+S06	The equation is native before scale/representative selection under local CSN	REFUTED_AS_WRITTEN	Its zero set is not preserved by general local common-scale transformations.
+S07	A coefficient choice D2N+a*R3*N repairs local CSN covariance at physical lapse weight	REFUTED	Unavoidable 3 grad(sigma).grad(N) term.
+S08	The equation is a covariant scalar after selecting a physical static clock congruence	CONDITIONAL	It is the clock-clock contraction of R_mu_nu-R*g_mu_nu/6.
+S09	Current bootstrap supplies the missing profile equation or physical representative	OPEN_NOT_SUPPLIED	Registered bootstrap is on-shell closure/admissibility.
+S10	The countermetric is a complete-foundation UDT counterexample	OPEN_NOT_CLAIMED	Action source boundary and complete bootstrap are unresolved; WR-L profile axiom is not satisfied.
+S11	Clock-curvature is a post-scale selector candidate	CONDITIONAL_LEAD	It would select WR-L in the bounded family but lacks a native derivation.
+S12	Complete action source carrier charge mass and X_max follow	OPEN	Outside this audit and not supplied by the identity.

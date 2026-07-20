@@ -3,14 +3,21 @@
 **⚠ BRANCH: `grok` (2026-07-19)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
 **➤ CURRENT SCIENTIFIC FRONTIER:**
-`native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
-`LAY_DECISION_TREE.md`, and `NEXT_DERIVATION.md`. The exact WR-L lapse flux grows as
+`clock_curvature_selector_audit_2026-07-19/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
+`LAY_DECISION_TREE.md`, and `NEXT_DERIVATION.md`. Across arbitrary static spherical reciprocal
+`A(r)`, the two clock-curvature forms reduce to one profile equation. Supplying that equation plus
+a finite normalized seat and wall uniquely selects WR-L, but a same-endpoint reciprocal deformation
+violates it and general local CSN transformations do not preserve it. It is therefore a
+`UNIQUE-CONDITIONAL` post-scale profile selector, not a current native law. The missing gate is a
+native selection of the physical CSN representative/static clock direction that implies the
+condition. Next read `native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, and `NEXT_DERIVATION.md`. The exact WR-L lapse flux grows as
 `-2*pi*r^2/X`; its wall value is the integrated clock-curvature budget, not a radially conserved or
 normalized mass charge. Action rescaling and boundary derivatives leave bulk stationarity intact
 while changing boundary generators. A mass linear in `X`, paired with the dimensional `X-M`
 relation, fixes compactness but leaves the absolute common scale free. Native matter, boundary, or
 bootstrap must supply a separate homothety-breaking equation or derived physical density center.
-The exact clock-curvature identity is the narrowest candidate seam, but remains branch-specific.
+The exact clock-curvature identity is now graded by the current selector audit above.
 Next read `asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
 `LAY_DECISION_TREE.md`, and `GLOBAL_CLOSURE_EQUATION_LEDGER.tsv`. The recorded CMB outer fold and
 WR-L wall are distinct: the fold has `phi=0`, `A=1`; the wall has `phi->+infinity`, `A->0`, finite

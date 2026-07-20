@@ -1,0 +1,8 @@
+date=2026-07-19
+python=3.10.12
+sympy=1.13.1
+platform=Linux-6.8.0-124-generic-x86_64-with-glibc2.35
+compute=CPU_ONLY
+gpu_used=false
+preregistered_base=674641832fe449c6fbe4a1a8ae6e6d949fd686cc
+preregistration_commit=39b8e0a31a09f99fa2179a7c031d518de1e8e66e

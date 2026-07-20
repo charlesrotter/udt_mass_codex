@@ -1,0 +1,4 @@
+Script started on 2026-07-19 23:28:28-04:00 [<not executed on terminal>]
+{"catch_proofs": 12, "groups": 6, "result": "PASS", "verdict": "UNIQUE_CONDITIONAL_PROFILE_SELECTOR; CURRENT_NATIVE_FOUNDATION_DOES_NOT_FORCE_IT"}
+
+Script done on 2026-07-19 23:28:29-04:00 [COMMAND_EXIT_CODE="0"]
