@@ -69,6 +69,7 @@ def main():
         "reduced_false_branch_stationary": false_reduced == 0,
         "full_constraint_rejects_false_branch": false_constraint == 4,
     }
+    checks = {name: bool(value) for name, value in checks.items()}
     if not all(checks.values()):
         raise AssertionError(checks)
 

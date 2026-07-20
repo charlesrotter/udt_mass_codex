@@ -16,3 +16,9 @@ while the registered expected expression was
 Their simplified difference is exactly zero. The check was corrected to test that exact simplified
 difference rather than expression-tree identity. No equation, profile, branch, tolerance, or outcome
 class changed. The failed pre-solve invocation supplies no scientific result.
+
+The next invocation passed all branch checks but stopped while serializing their results because one
+resolved SymPy relational remained a `BooleanTrue` object rather than a Python `bool`. The harness
+now converts every already-resolved check to a built-in boolean before JSON serialization. This
+second pre-bank failure also changed no equation, profile, branch, tolerance, or outcome and supplies
+no scientific result.
