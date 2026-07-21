@@ -1,0 +1,12 @@
+id	family	channel	scope
+V01	NO_DYNAMICS_LOADED	configuration family only	no stationarity claim
+V02	ONE_SIDED_FIXED_EMBEDDING	raw field current	functional and polarization open
+V03	ONE_SIDED_MOVING_EMBEDDING	field current plus displacement response	shape functional open
+V04	TWO_SIDED_SMOOTH_MATCHING	difference of oriented currents	cancellation requires complete matching
+V05	TWO_SIDED_INTERFACE	jump field and shape channels	interface functional open
+V06	CAP_REGULARITY	shrinking-orbit and corner limits	action-dependent differentiability
+V07	QUOTIENT_DESCENT	equivariant allowed variations	fixed/free action dependent
+V08	NULL_OR_CHARACTERISTIC_DATA	generator cross-section and joint channels	law dependent
+V09	DEGENERATE_OR_TYPE_CHANGE_VARIATION	inverse-free or generalized formulation required	operator absent
+V10	BOUNDARY_CORNER_LEGENDRE_IMPROVEMENT	primitive polarization and corner ambiguity	functional family unselected
+V11	OTHER_VARIATION_COMPLETION	unclassified off-shell domain	OTHER_UNENUMERATED_REQUIRED

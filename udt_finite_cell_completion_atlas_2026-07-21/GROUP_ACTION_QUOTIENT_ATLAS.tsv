@@ -1,0 +1,11 @@
+id	family	fixed_codimension	local_result
+Q01	TRIVIAL_ACTION	0	no quotient change
+Q02	FREE_PROPER_ACTION	0	manifold quotient without fixed stratum
+Q03	CODIMENSION_ONE_REFLECTION_ISOTROPY	1	local manifold-with-boundary model
+Q04	CODIMENSION_TWO_ISOTROPY	2	orbifold or stratified transverse cone
+Q05	CODIMENSION_THREE_ISOTROPY	3	higher-codimension fixed stratum
+Q06	ISOLATED_FIXED_POINT	4	point singularity or orbifold model
+Q07	NONFINITE_OR_CONTINUOUS_ISOTROPY	variable	orbit-type stratification
+Q08	NONPROPER_ACTION	variable	non-Hausdorff or generalized quotient possible
+Q09	FIELD_DEPENDENT_OR_AFFINE_ACTION	variable	full bundle equivariance required
+Q10	OTHER_GROUP_OR_GROUPOID_ACTION	unbounded	OTHER_UNENUMERATED_REQUIRED

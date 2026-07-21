@@ -1,0 +1,11 @@
+id	axis	cardinality_kind	registered_coverage	required_remainder	ranking_allowed
+X01	METRIC_ZERO_JET	finite_marginals_plus_continuous	15 inertia rows plus continuous congruence data	degenerate and other-signature closure	NO
+X02	METRIC_HIGHER_JETS	functional_unbounded	P02 complete second-jet point atlas	all orders nonsmooth and singular remainder	NO
+X03	PHI_ZERO_SET	functional_topological_unbounded	regular and finite-order germ witnesses	arbitrary closed and stratified zero-set remainder	NO
+X04	CAUSAL_TIME_LIVE	functional_unbounded	all local causal dphi classes	moving branching type-changing histories	NO
+X05	FIELD_COFRAME_BUNDLE	functional_topological_unbounded	seven registered local realizations	field-dependent transitions and unenumerated bundles	NO
+X06	ANGULAR_MIXED_GEOMETRY	functional_topological_unbounded	all screen shear/twist ranks and ten slots	off-toric collapse and arbitrary screen topology	NO
+X07	GLOBAL_INCIDENCE	combinatorial_topological_unbounded	cover and bounded witness families	arbitrary covers gluings corners and networks	NO
+X08	TRANSITION_COCYCLE	functional_groupoid_unbounded	constant two-channel group law	full field-dependent 4D cocycles	NO
+X09	VARIATION_CHANNEL	functional_unbounded	conditional raw L01/L02 currents	boundary interface cap quotient and corner functionals	NO
+X10	GLOBAL_OUTPUT	not_evaluable	status-only placeholders	representative scale Xmax mass volume density bootstrap	NO

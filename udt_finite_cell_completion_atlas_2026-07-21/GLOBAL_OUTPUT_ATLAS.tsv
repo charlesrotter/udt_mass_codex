@@ -1,0 +1,9 @@
+id	object	status	reason
+O01	PHYSICAL_CSN_REPRESENTATIVE	NOT_EVALUABLE	selection map absent
+O02	ABSOLUTE_SCALE	NOT_EVALUABLE	scale breaker absent
+O03	XMAX	NOT_EVALUABLE	complete global metric and scale closure absent
+O04	PROPER_VOLUME	BRANCH_FUNCTIONAL_OPEN	complete slice and representative absent
+O05	NATIVE_MASS_AND_CHARGE	NOT_EVALUABLE	source generator normalization absent
+O06	TOTAL_DENSITY	NOT_EVALUABLE	mass and proper volume absent
+O07	BOOTSTRAP_ADMISSIBILITY	NOT_EVALUABLE	complete matter-bearing solutions absent
+O08	OTHER_GLOBAL_OUTPUT	OTHER_UNENUMERATED_REQUIRED	future complete theory may add derived outputs

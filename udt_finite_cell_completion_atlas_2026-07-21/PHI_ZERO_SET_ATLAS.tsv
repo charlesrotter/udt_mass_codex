@@ -1,0 +1,13 @@
+id	family	defining_property	status
+Z01	EMPTY_ZERO_SET	phi has fixed nonzero sign	OPEN_FAMILY
+Z02	IDENTICALLY_ZERO	phi zero on complete connected region	TRIVIAL_FIELD_FAMILY
+Z03	REGULAR_LEVEL_HYPERSURFACE	dphi nonzero on zero set	IMPLICIT_FUNCTION_STRATUM
+Z04	FINITE_ODD_ORDER_CONTACT	first nonzero normal order odd and at least three	CRITICAL_SIGN_CROSSING
+Z05	FINITE_EVEN_ORDER_CONTACT	first nonzero normal order even	CRITICAL_TOUCHING
+Z06	MORSE_OR_QUADRATIC_CRITICAL_ZERO	nondegenerate Hessian with arbitrary inertia	CONE_ISOLATED_OR_BRANCHING_BY_SIGNATURE
+Z07	POSITIVE_DIMENSIONAL_CRITICAL_ZERO	dphi zero along part or all of zero set	CRITICAL_SUBMANIFOLD_OR_STRATUM
+Z08	MULTIPLE_COMPONENT_ZERO_SET	two or more disjoint or intersecting components	GLOBAL_INCIDENCE_OPEN
+Z09	ZERO_ON_OPEN_REGION	phi vanishes on a nonempty open set but not necessarily globally	SMOOTH_NONANALYTIC_ALLOWED
+Z10	INFINITE_ORDER_FLAT_ZERO	all finite jets vanish at some zero	NOT_CLASSIFIED_BY_FINITE_JET_ATLAS
+Z11	NONSMOOTH_OR_DISTRIBUTIONAL_ZERO	phi regularity below smooth	REGULARITY_BRANCH_OPEN
+Z12	ARBITRARY_CLOSED_OR_OTHER_STRATIFIED_ZERO_SET	unrestricted smooth-category remainder without EOM or analyticity	OTHER_UNENUMERATED_REQUIRED

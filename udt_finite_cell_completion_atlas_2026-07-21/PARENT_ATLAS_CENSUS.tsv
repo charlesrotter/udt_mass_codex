@@ -1,0 +1,7 @@
+parent	object	count	treatment
+P00	complete_dof_rows	24	all retained
+P00	conditional_metric_slots	10	all-coordinate and unranked
+P02	marginal_registered_strata	89	identity carryforward
+P03	founded-constraint-accounted_strata	89	no local deletion
+P03G	global_assembly_axes	12	all open/partial statuses retained
+P03G	uncounted_global_moduli	15	not discretized away

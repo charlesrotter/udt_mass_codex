@@ -1,0 +1,14 @@
+id	family	data	scope
+A01	POSITIVE_REGULAR_SCREEN	arbitrary three screen metric slots	all coordinates
+A02	INDEFINITE_OR_DEGENERATE_SCREEN	all split inertia closures	type change retained
+A03	NONZERO_SCREEN_SHEAR	rank one or two shear	CSN invariant rank
+A04	ZERO_OR_NONZERO_TWIST	integrable and nonintegrable screen distributions	both retained
+A05	TIME_ANGULAR_SHIFT	M07 and M08 slots	stationary and time-live mixing
+A06	DEPTH_ANGULAR_SHIFT	M09 and M10 slots	radial/depth twist and mixing
+A07	MOVING_EIGENDIRECTIONS	off-diagonal screen shape and chart transitions	no global diagonal gauge
+A08	NO_COLLAPSE_BOUNDARY	screen remains nondegenerate at finite incidence	boundary data open
+A09	ONE_OR_MORE_CYCLE_COLLAPSES	rank loss with local lattice/cap data	toric and nontoric branches
+A10	TORIC_PRIMITIVE_AND_NONPRIMITIVE_CAPS	bounded lattice witness families	not global exhaustive
+A11	NON_TORIC_CAP_OR_FIXED_SET	general group action or no group action	functional topology open
+A12	ANGULAR_TOPOLOGY_CHANGE_OR_STRATIFICATION	screen bundle incidence changes	generalized branch
+A13	OTHER_ANGULAR_MIXED_COMPLETION	arbitrary screen bundle metric and transition remainder	OTHER_UNENUMERATED_REQUIRED

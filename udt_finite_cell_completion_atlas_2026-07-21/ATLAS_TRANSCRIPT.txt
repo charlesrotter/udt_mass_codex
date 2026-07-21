@@ -1,0 +1,14 @@
+UDT_FINITE_CELL_COMPLETION_ATLAS=PASS
+checks=37
+classification=CURRENT_FINITE_CELL_COMPLETION_TYPE_SPACE_MAPPED_WITH_UNBOUNDED_REMAINDERS
+P02_marginal_strata=89/89
+P03_accounted_strata=89/89
+P03G_axes=12 uncounted_moduli=15
+completion_axes=10
+phi_zero_families=12 including_unbounded_remainder=YES
+angular_mixed_families=13 including_unbounded_remainder=YES
+global_incidence_families=14 including_unbounded_remainder=YES
+field_lane_pairs=21/21 P06_ready=0
+branch_ranking=NO
+dynamics=NO solutions=0 gpu=NO
+maximum_conclusion=UDT_FINITE_CELL_COMPLETION_CONFIGURATION_ATLAS_CHARACTERIZED_WITHOUT_DYNAMICS

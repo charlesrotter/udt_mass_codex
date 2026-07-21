@@ -1,0 +1,12 @@
+id	family	geometric_data	scope
+T01	NO_DISTINGUISHED_SURFACE	none	static_or_time_live
+T02	REGULAR_TIMELIKE_SURFACE	spacelike normal	fixed_moving_or_general
+T03	REGULAR_NULL_SURFACE	null normal	characteristic_status_law_dependent
+T04	REGULAR_SPACELIKE_SURFACE	timelike normal	initial_final_or_internal_role_law_dependent
+T05	CAUSAL_TYPE_CHANGING_SURFACE	normal norm changes sign	transition locus retained
+T06	DEGENERATE_NORMAL_OR_METRIC	normal or inverse metric undefined	separate generalized branch
+T07	STATIC_EMBEDDING	embedding independent of time coordinate	one time-live stratum only
+T08	STATIONARY_NONSTATIC_EMBEDDING	time symmetry with nonzero shifts or rotation	mixed slots retained
+T09	GENERAL_MOVING_EMBEDDING	all coordinate dependence	no velocity law supplied
+T10	BRANCHING_MERGING_OR_MULTICOMPONENT_HISTORY	surface incidence changes	global time topology open
+T11	OTHER_NONSURFACE_OR_GENERALIZED_HISTORY	not captured by regular embeddings	OTHER_UNENUMERATED_REQUIRED

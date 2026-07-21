@@ -1,0 +1,12 @@
+id	family	transition_kind	required_data
+F01	METRIC_ONLY	metric or conformal-metric transition	phi is derived coordinate or absent only if branch says so
+F02	INDEPENDENT_ORDINARY_PHI_SCALAR	scalar transition	global scalar and zero set required
+F03	INDEPENDENT_TWISTED_OR_SIGN_PHI	line-bundle equivariant transition	bundle and cocycle required
+F04	COFRAME_FIELD	Lorentz conformal or broader supplied soldering	frame gauge and torsion status required
+F05	PROJECTOR_OR_PLANE_FIELD	Grassmannian/projector transition	rank integrability and type change retained
+F06	MULTIPLIER_OR_CONSTRAINT_FIELD	dual-bundle transition	variation domain changes
+F07	TWO_STAGE_OR_BRIDGE_FIELDS	stagewise transition and matching	no bridge operator exists
+F08	INDEPENDENT_CONNECTION	affine/principal-bundle connection transition	torsion nonmetricity and holonomy open
+F09	CARRIER_OR_OTHER_EXTRA_FIELD	field-specific bundle transition	carrier agnostic parent retained
+F10	MIXED_FIELD_REALIZATION	several preceding objects simultaneously	complete equation census required later
+F11	OTHER_COMPATIBLE_FIELD_BUNDLE	unclassified field-dependent transition	OTHER_UNENUMERATED_REQUIRED

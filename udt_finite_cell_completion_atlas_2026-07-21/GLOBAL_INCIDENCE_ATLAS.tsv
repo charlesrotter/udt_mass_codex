@@ -1,0 +1,15 @@
+id	family	construction	scope
+I01	COMPACT_WITHOUT_BOUNDARY	closed manifold or generalized closed space	cover topology unbounded
+I02	ONE_OR_MORE_RETAINED_BOUNDARIES	boundary incidence and corners	component count unbounded
+I03	SMOOTH_EXTENSION_ACROSS_MARKED_SET	single manifold continuation	marked set may be bookkeeping
+I04	PIECEWISE_INTERFACE	two or more regions with matching data	jump functional open
+I05	PAIRWISE_GLUING	boundary components joined by diffeomorphism and field transition	mapping class unbounded
+I06	MULTIPLE_OR_GRAPH_GLUING	cell complex or network incidence	combinatorial family unbounded
+I07	CAP_COMPLETION	one or more directions collapse	local regularity and global topology separate
+I08	FREE_QUOTIENT	proper free action	quotient has no fixed boundary
+I09	FIXED_SET_QUOTIENT	action with isotropy	boundary orbifold or stratum by representation
+I10	PERIODIC_OR_MAPPING_TORUS_COMPLETION	cyclic base and monodromy	transition class unbounded
+I11	NONORIENTABLE_OR_TIME_NONORIENTABLE_COMPLETION	orientation bundle nontrivial	not excluded by local metric
+I12	SINGULAR_OR_STRATIFIED_COMPLETION	manifold regularity fails on strata	retained
+I13	MIXED_COMPLETION	several incidence operations combined	not reducible to one label
+I14	OTHER_GLOBAL_INCIDENCE	arbitrary cover nerve gluing and topology remainder	OTHER_UNENUMERATED_REQUIRED

@@ -1,0 +1,13 @@
+UDT_FINITE_CELL_COMPLETION_ATLAS_VERIFICATION=PASS
+independent_checks=108
+catch_proofs=76
+generator_imported=NO
+P02_marginal_strata=89/89
+completion_axes=10/10
+required_unbounded_remainders=10/10
+angular_mixed_families=13/13
+global_incidence_families=14/14
+field_lane_pairs=21/21 P06_ready=0
+ranking_or_merit_filter=NO
+main_result_sha256=3a9d4822d8bd8ace9450cd0bee65eb76a07faf08fa36b3945e99f95c1f0c50a2
+fresh_adversarial_context=OPEN_NOT_PERFORMED

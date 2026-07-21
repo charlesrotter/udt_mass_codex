@@ -1,0 +1,10 @@
+{
+  "catch_proofs": 76,
+  "classification": "CURRENT_FINITE_CELL_COMPLETION_TYPE_SPACE_MAPPED_WITH_UNBOUNDED_REMAINDERS",
+  "fresh_adversarial_context": "OPEN_NOT_PERFORMED",
+  "generator_imported": "NO",
+  "independent_checks": 108,
+  "main_result_sha256": "3a9d4822d8bd8ace9450cd0bee65eb76a07faf08fa36b3945e99f95c1f0c50a2",
+  "schema": "udt-finite-cell-completion-atlas-verification-1.0",
+  "verdict": "PASS"
+}

@@ -1,0 +1,12 @@
+id	family	defining_property	status
+M01	REGULAR_LORENTZIAN	nonzero determinant inertia 1/3 or 3/1	P02_CARRYFORWARD
+M02	REGULAR_OTHER_SIGNATURE	nonzero determinant other inertia	P02_CARRYFORWARD_NOT_FOUNDATION_EXCLUDED
+M03	DEGENERATE_FIXED_RANK	rank zero through three at a locus	P02_CARRYFORWARD
+M04	SIGNATURE_TYPE_CHANGE	inertia changes across determinant-zero locus	GLOBAL_EXTENSION_OPEN
+M05	SMOOTH_CHART_EXTENSION	components singular or degenerate in one chart but regular in another	ATLAS_TRANSITION_REQUIRED
+M06	FINITE_DIFFERENTIABILITY	metric is Ck but not Ckplus1	JET_MATCHING_BRANCH
+M07	PIECEWISE_SMOOTH_INTERFACE	one-sided jets exist with jumps	DISTRIBUTIONAL_OR_MATCHING_BRANCH
+M08	CURVATURE_SINGULAR	invariant curvature diverges or fails distributionally	RETAINED_OUTCOME
+M09	METRIC_INCOMPLETE_WITH_EXTENSION_OPEN	finite affine reach without supplied completion	GLOBAL_CONTINUATION_BRANCH
+M10	NONMANIFOLD_OR_STRATIFIED_METRIC_SPACE	local manifold model fails at a stratum	RETAINED_GLOBAL_BRANCH
+M11	OTHER_REGULARITY_OR_GENERALIZED_GEOMETRY	unclassified regularity completion	OTHER_UNENUMERATED_REQUIRED

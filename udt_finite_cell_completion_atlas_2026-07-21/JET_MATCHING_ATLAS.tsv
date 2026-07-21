@@ -1,0 +1,10 @@
+id	family	condition	limit
+J01	NO_DISTINGUISHED_JOIN	single atlas with no marked completion surface	no matching equation
+J02	C0_JOIN	metric and fields agree in value under transition	higher jets may jump
+J03	C1_JOIN	value and first jets agree under transition	second and higher jets may jump
+J04	C2_JOIN	jets through order two agree under transition	higher jets may jump
+J05	CK_JOIN	jets through declared finite k agree under transition	k is free branch datum
+J06	CINFINITY_JOIN	all finite jets match under full transition	analyticity does not follow
+J07	ANALYTIC_JOIN	convergent local expansions agree	analyticity is an extra premise
+J08	DISTRIBUTIONAL_JOIN	finite jumps with declared weak geometry	junction functional and products open
+J09	SINGULAR_OR_OTHER_MATCHING	transition or jet class outside listed regularities	OTHER_UNENUMERATED_REQUIRED

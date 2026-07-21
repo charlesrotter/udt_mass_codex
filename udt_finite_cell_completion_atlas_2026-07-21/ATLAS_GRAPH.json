@@ -1,0 +1,58 @@
+{
+  "axes": [
+    "METRIC_ZERO_JET",
+    "METRIC_HIGHER_JETS",
+    "PHI_ZERO_SET",
+    "CAUSAL_TIME_LIVE",
+    "FIELD_COFRAME_BUNDLE",
+    "ANGULAR_MIXED_GEOMETRY",
+    "GLOBAL_INCIDENCE",
+    "TRANSITION_COCYCLE",
+    "VARIATION_CHANNEL",
+    "GLOBAL_OUTPUT"
+  ],
+  "classification": "CURRENT_FINITE_CELL_COMPLETION_TYPE_SPACE_MAPPED_WITH_UNBOUNDED_REMAINDERS",
+  "edges": [
+    [
+      "P00_CONFIGURATION",
+      "P02_LOCAL_JETS",
+      "local jet projection"
+    ],
+    [
+      "P02_LOCAL_JETS",
+      "P03_FOUNDED_CONSTRAINTS",
+      "cited premise action"
+    ],
+    [
+      "P03_FOUNDED_CONSTRAINTS",
+      "P03G_GLOBAL_ASSEMBLY",
+      "cover and cocycle extension"
+    ],
+    [
+      "P03G_GLOBAL_ASSEMBLY",
+      "CURRENT_COMPLETION_TYPE_SPACE",
+      "completion family expansion"
+    ],
+    [
+      "CURRENT_COMPLETION_TYPE_SPACE",
+      "FUTURE_DYNAMICAL_SOLUTIONS",
+      "requires complete selected operator and variation domain"
+    ]
+  ],
+  "forbidden_edges": [
+    "named desired boundary -> atlas acceptance",
+    "conditional action -> configuration ranking",
+    "regular witness -> exhaustive global topology",
+    "time dependence -> physical evolution",
+    "configuration atlas -> P06 readiness"
+  ],
+  "layers": [
+    "P00_CONFIGURATION",
+    "P02_LOCAL_JETS",
+    "P03_FOUNDED_CONSTRAINTS",
+    "P03G_GLOBAL_ASSEMBLY",
+    "CURRENT_COMPLETION_TYPE_SPACE",
+    "FUTURE_DYNAMICAL_SOLUTIONS"
+  ],
+  "schema": "udt-finite-cell-completion-atlas-graph-1.0"
+}
