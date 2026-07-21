@@ -1,0 +1,170 @@
+{
+  "edges": [
+    {
+      "from": "F_POSITION",
+      "relation": "comparison_argument",
+      "to": "Q_INTERNAL_CHARACTER"
+    },
+    {
+      "from": "F_RECIPROCAL_C",
+      "relation": "coequal_channels",
+      "to": "Q_INTERNAL_CHARACTER"
+    },
+    {
+      "from": "F_DUAL_RECIPROCITY",
+      "relation": "determinant_one",
+      "to": "Q_INTERNAL_CHARACTER"
+    },
+    {
+      "from": "F_COMPOSITION",
+      "relation": "regular_character",
+      "to": "Q_INTERNAL_CHARACTER"
+    },
+    {
+      "from": "F_CSN",
+      "relation": "positive_common_scale_equivalence",
+      "to": "Q_CSN_ORBITS"
+    },
+    {
+      "from": "P02_ATLAS",
+      "relation": "exact_local_parent",
+      "to": "Q_CSN_ORBITS"
+    },
+    {
+      "from": "S_SEMANTICS",
+      "relation": "prevents_conflation",
+      "to": "Q_UNCONSTRAINED_LOCAL"
+    },
+    {
+      "from": "C_4D_LORENTZ",
+      "relation": "conditional_arena",
+      "to": "P02_ATLAS"
+    },
+    {
+      "from": "O_SOLDERING",
+      "relation": "join_remains_open",
+      "to": "Q_UNCONSTRAINED_LOCAL"
+    },
+    {
+      "from": "F_FINITE_CELL",
+      "relation": "finite_completion_required",
+      "to": "Q_UNCONSTRAINED_GLOBAL"
+    },
+    {
+      "from": "F_STATIC_SEAL",
+      "relation": "phi_value_and_variation",
+      "to": "Q_STATIC_SEAL"
+    },
+    {
+      "from": "O_BOUNDARY",
+      "relation": "remaining_data_open",
+      "to": "Q_UNCONSTRAINED_GLOBAL"
+    },
+    {
+      "from": "O_GLOBAL_COMPLETION",
+      "relation": "topology_scale_open",
+      "to": "Q_UNCONSTRAINED_GLOBAL"
+    },
+    {
+      "from": "W_BOOTSTRAP",
+      "relation": "not_evaluable_before_complete_solution",
+      "to": "Q_UNCONSTRAINED_GLOBAL"
+    }
+  ],
+  "forbidden_edges": [
+    {
+      "from": "Q_INTERNAL_CHARACTER",
+      "reason": "no spacetime soldering supplied",
+      "to": "P02_ATLAS"
+    },
+    {
+      "from": "W_BOOTSTRAP",
+      "reason": "no local equation supplied",
+      "to": "Q_UNCONSTRAINED_LOCAL"
+    },
+    {
+      "from": "F_FINITE_CELL",
+      "reason": "domain ontology is not a point-local tensor relation",
+      "to": "P02_ATLAS"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "F_POSITION",
+      "kind": "FOUNDATION"
+    },
+    {
+      "id": "F_RECIPROCAL_C",
+      "kind": "FOUNDATION"
+    },
+    {
+      "id": "F_DUAL_RECIPROCITY",
+      "kind": "FOUNDATION"
+    },
+    {
+      "id": "F_COMPOSITION",
+      "kind": "POSIT"
+    },
+    {
+      "id": "F_CSN",
+      "kind": "FOUNDATION"
+    },
+    {
+      "id": "S_SEMANTICS",
+      "kind": "OWNER_CLARIFICATION"
+    },
+    {
+      "id": "C_4D_LORENTZ",
+      "kind": "CONDITIONAL"
+    },
+    {
+      "id": "O_SOLDERING",
+      "kind": "OPEN"
+    },
+    {
+      "id": "F_FINITE_CELL",
+      "kind": "FOUNDATION"
+    },
+    {
+      "id": "F_STATIC_SEAL",
+      "kind": "FOUNDATION_SCOPED"
+    },
+    {
+      "id": "O_BOUNDARY",
+      "kind": "OPEN"
+    },
+    {
+      "id": "O_GLOBAL_COMPLETION",
+      "kind": "OPEN"
+    },
+    {
+      "id": "W_BOOTSTRAP",
+      "kind": "WORKING_GLOBAL"
+    },
+    {
+      "id": "P02_ATLAS",
+      "kind": "FROZEN_PARENT"
+    },
+    {
+      "id": "Q_INTERNAL_CHARACTER",
+      "kind": "OUTPUT"
+    },
+    {
+      "id": "Q_CSN_ORBITS",
+      "kind": "OUTPUT"
+    },
+    {
+      "id": "Q_STATIC_SEAL",
+      "kind": "OUTPUT"
+    },
+    {
+      "id": "Q_UNCONSTRAINED_LOCAL",
+      "kind": "OUTPUT"
+    },
+    {
+      "id": "Q_UNCONSTRAINED_GLOBAL",
+      "kind": "OUTPUT"
+    }
+  ],
+  "schema": "udt-p03-constraint-dependency-graph-1.0"
+}

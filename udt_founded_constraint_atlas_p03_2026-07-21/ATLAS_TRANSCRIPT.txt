@@ -1,0 +1,11 @@
+P03 founded-constraint atlas
+status=PASS
+checks=20/20
+inputs=36 effects=24 branches=7
+p02_strata_accounted=89/89
+unconditional_point_local_metric_strata_removed=0
+csn_curvature_dimensions=20->10
+conditional_split_first_jet_dimensions=8->6
+countermodels=12 inconsistent_combinations=14
+action_selected=False equation_selected=False merit_filter=False
+maximum_conclusion=CURRENT_FOUNDATION_CONSTRAINED_CONFIGURATION_SPACE_CHARACTERIZED

@@ -1,0 +1,105 @@
+{
+  "P02_axis_counts": {
+    "CURVATURE_RANK": 7,
+    "DPHI": 8,
+    "METRIC_INERTIA": 15,
+    "PETROV": 6,
+    "RICCI_RANK": 5,
+    "SPLIT_FIRST_JET": 12,
+    "SPLIT_INERTIA": 36
+  },
+  "check_count": 20,
+  "checks": {
+    "P02_package_manifest_unchanged": "PASS",
+    "all_12_split_first_jet_witnesses_retained": "PASS",
+    "all_15_metric_inertia_witnesses_retained": "PASS",
+    "all_36_registered_premises_classified": "PASS",
+    "all_36_split_inertia_witnesses_retained": "PASS",
+    "all_5_Ricci_rank_witnesses_retained_as_representatives": "PASS",
+    "all_6_Petrov_types_retained": "PASS",
+    "all_7_curvature_rank_witnesses_retained_as_representatives": "PASS",
+    "all_89_P02_discrete_strata_accounted": "PASS",
+    "all_8_dphi_strata_retained": "PASS",
+    "bootstrap_has_no_point_local_edge": "PASS",
+    "conditional_Lorentz_branch_is_single_Z09_row": "PASS",
+    "conditional_split_branch_is_single_S27_row": "PASS",
+    "finite_cell_has_no_point_local_edge": "PASS",
+    "internal_reciprocity_does_not_solder_metric": "PASS",
+    "no_action_or_equation_loaded": "PASS",
+    "no_merit_filter_loaded": "PASS",
+    "no_metric_stratum_removed_by_unconditional_foundation": "PASS",
+    "split_first_jet_quotient_has_6_shear_twist_classes": "PASS",
+    "static_seal_normal_derivative_free": "PASS"
+  },
+  "constraint_ruling": {
+    "CSN_is_equivalence_not_branch_selection": true,
+    "complete_boundary_data": "OPEN",
+    "conditional_Lorentz_zero_jet": "Z09",
+    "conditional_reciprocal_split_zero_jet": "S27",
+    "global_completion": "OPEN",
+    "internal_reciprocity_metric_soldering": "OPEN",
+    "local_phi_differential_equation": "NOT_SUPPLIED",
+    "local_phi_value_equation": "NOT_SUPPLIED",
+    "static_seal_normal_derivative": "FREE",
+    "static_seal_phi_value": "ZERO_IN_B04_ONLY",
+    "unconditional_point_local_metric_strata_removed": 0
+  },
+  "counts": {
+    "P02_discrete_strata_accounted": 89,
+    "constraint_effects": 24,
+    "countermodels": 12,
+    "dimension_rows": 13,
+    "foundation_input_rows": 36,
+    "inconsistent_combinations": 14,
+    "realization_branches": 7,
+    "split_first_jet_invariant_quotient_classes": 6
+  },
+  "dimension_contract": {
+    "conditional_4D_curvature_after_local_CSN": 10,
+    "conditional_4D_curvature_before_CSN": 20,
+    "conditional_generic_curvature_after_Lorentz_frame_quotient": 4,
+    "conditional_split_first_jet_after_CSN": 6,
+    "conditional_split_first_jet_before_CSN": 8,
+    "internal_positive_pair_before_reciprocity": 2,
+    "internal_reciprocal_character": 1,
+    "static_seal_free_normal_phi_jet": 1,
+    "static_seal_phi_value": 0
+  },
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "maximum_conclusion": "CURRENT_FOUNDATION_CONSTRAINED_CONFIGURATION_SPACE_CHARACTERIZED",
+  "question_mode": "METRIC_LED_OBSERVING_CONSTRAINT_EFFECTS",
+  "schema": "udt-p03-founded-constraint-atlas-1.0",
+  "scope": {
+    "CPU_only": true,
+    "GPU_used": false,
+    "ODE_or_PDE_run": false,
+    "P04_launched": false,
+    "action_selected": false,
+    "comparison_or_empirical_target_loaded": false,
+    "equation_of_motion_selected": false,
+    "merit_filter_used": false
+  },
+  "source_sha256": {
+    "CSN_postulate": "4bb0da9098da0a9970602e2449615eef151796b0d7fe7a9978f4b66145748a34",
+    "P02_manifest": "c56390eb26b80c54a3c3a09f4800086c8dbc00b5bfd40b2038e264e85bec8938",
+    "bootstrap_principle": "ce14075bad1ff4b6ea9b41e35dc6b63dfc5a9ae13478bd57c80b1502f33fb540",
+    "cold_packet": "d38232792ac78188687db433a3f60a08c775c46e9ecf5fc42ad7953dc89fadb0",
+    "owner_meanings": "393889c25975e8c9bded1f9e5aac90b285273c80e40914f1492159b61ae093d5",
+    "premise_ledger": "fb94f3d843c134cb8122c25d263d23cde3eea8db036f1473f78c90887a63352d"
+  },
+  "status": "PASS",
+  "table_sha256": {
+    "CONSTRAINT_DEPENDENCY_GRAPH.json": "fc9446b94c76b3151838aa6852cc3df8576f66b5d2131e535bb3f23bad26f991",
+    "CONSTRAINT_EFFECT_LEDGER.tsv": "1350f0c07c23b9873abed30f3ff6c261a334f290e20e32c9c4699ea20187a0fc",
+    "COUNTERMODEL_LEDGER.tsv": "4434521186e08acce7cf4de9a931b698986e8a1d8710768a75a2b56540ff68f1",
+    "FOUNDATION_INPUT_REGISTRY.tsv": "6515fbccf60e782f12a3deed51fc5b6627fea089e423bb822cb22c3a47cb5e17",
+    "INCONSISTENT_COMBINATIONS.tsv": "76e1bd1c64a984f7143163ddf12828d987d6cccfa3f476f42fe81cf228f008f6",
+    "REALIZATION_BRANCHES.tsv": "c9780f258cb665b9b5002f63086113f9b667db04c38e181b8cf68ba672e08887",
+    "SURVIVING_STRATA.tsv": "9749876abab06da1a307ba334e9db10345de91397878c769721607a9bdc8e84a",
+    "UNCONSTRAINED_DIMENSIONS.tsv": "c9457fcb88d5bf3490b6bfdd5c8ee8a0d54d1317f359c79f2a66598c9da855b3"
+  }
+}

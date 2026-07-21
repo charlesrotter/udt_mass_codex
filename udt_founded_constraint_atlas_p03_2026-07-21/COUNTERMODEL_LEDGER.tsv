@@ -1,0 +1,13 @@
+id	challenged_overstatement	witness	exact_check	certification
+M01	realized nontriviality forces phi nonzero at every point	phi(x)=x on a finite interval	phi(0)=0 and phi(1)=1	EXACT_ELEMENTARY
+M02	signed phi is physical negative distance	phi=-1; distance=1 as separate data	signed field and nonnegative length coexist	SEMANTIC_PRODUCT_WITNESS
+M03	Reciprocity restricts an unsoldered metric jet	D(phi)=diag(exp(-phi),exp(phi)) paired with any P02 zero-jet witness	det(D)=1 independently of the metric witness	EXACT_PRODUCT_WITNESS
+M04	current premises select one dphi causal/support class	all F01-F08 P02 witnesses	eight exact strata remain without a phi equation	P02_EXACT_TABLE
+M05	current premises force split integrability	K01 and K02	same zero shear/expansion ranks with twist ranks zero and one	P02_EXACT_TABLE
+M06	current premises force one shear rank	K01 K03 K05 at zero expansion and twist	shear-map ranks zero one and two all occur	P02_EXACT_TABLE
+M07	screen expansion rank is common-scale invariant	K01 and its positive local CSN transform	arbitrary scale gradient changes expansion while shear and twist remain	P02_EXACT_ALGEBRA
+M08	Ricci rank labels pre-scale curvature	fixed zero Weyl plus C0-C4 Schouten witnesses	all five Ricci ranks lie in representative data	P02_EXACT_DIRECT_SUM
+M09	current premises select one algebraic curvature type	W01-W06	all six exact invariant-sector types occur with zero Ricci	P02_EXACT_TABLE
+M10	static seal parity fixes the normal derivative	phi_a(n)=a*n for a=0 and a=1	both are odd and vanish at n=0; derivatives are 0 and 1	EXACT_ELEMENTARY
+M11	finite-cell ontology supplies a point-local curvature equation	constant local metric patch inside a finite coordinate cell with arbitrary compactly supported local jet perturbation	finiteness alone states a domain property and no tensor equality	LOCALITY_LOGICAL_WITNESS
+M12	bootstrap presently removes a local P02 stratum	same local jet embedded as an unevaluated member of B06	native mass volume stability and window data are absent, so the admissibility predicate has no current truth value	DOMAIN_GUARD_WITNESS

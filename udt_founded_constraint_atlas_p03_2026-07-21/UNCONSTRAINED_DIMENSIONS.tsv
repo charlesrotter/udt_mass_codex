@@ -1,0 +1,14 @@
+id	branch	object	parent_dimension	after_explicit_restriction	after_declared_equivalence	counting_relation	status
+D01	B00	positive diagonal comparison weights	2	1	1	log(u)+log(v)=0; common positive scale is not a second physical mode	EXACT_INTERNAL_CHARACTER
+D02	B01_INTERIOR	signed scalar phi value	1	1	1	no founded point-local value equation	FREE_LOCAL_VALUE
+D03	B01_INTERIOR	dphi covector	4	4	4	no founded point-local differential equation	ALL_EIGHT_P02_STRATA_RETAINED
+D04	B01	raw symmetric metric two-jet	150	20	10	normal-coordinate redundancy leaves Riemann[20]; CSN Hessian identifies Schouten[10]	P02_EXACT
+D05	B01	algebraic curvature tensor	20	20	10	Weyl[10] direct-sum Schouten[10] with Schouten translated along the CSN orbit	P02_EXACT
+D06	B01	Schouten representative sector	10	10	0	all ten components are representative data at a point	NOT_A_QUOTIENT_OBSERVABLE
+D07	B01	common-scale-invariant curvature sector	10	10	10	local positive common scale preserves this sector	CONTINUOUS_DATA_RETAINED
+D08	B02	generic invariant curvature modulo local Lorentz frame	10	10	4	six generic frame parameters identify presentations	CONDITIONAL_REGULAR_LORENTZ_COUNT
+D09	B03	split expansion shear twist first-jet data	8	8	6	CSN removes two expansion-covector components; four shear plus two twist components remain	CONDITIONAL_SPLIT_COUNT
+D10	B04	static seal phi value	1	0	0	phi_at_seal=0	STATIC_SEAL_ONLY
+D11	B04	static seal normal derivative phi	1	1	1	explicitly free	STATIC_SEAL_ONLY
+D12	B04;B05	complete boundary/coframe data	UNKNOWN	UNKNOWN	UNKNOWN	allowed variations normal jets caps and corners are not supplied	UNCOUNTED_OPEN_SPACE
+D13	B05;B06	global topology Xmax mass volume and bootstrap data	UNKNOWN	UNKNOWN	UNKNOWN	point-local P02 cannot count complete-cell/global degrees of freedom	UNCOUNTED_OPEN_SPACE

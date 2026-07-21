@@ -1,0 +1,25 @@
+id	object	premise_ids	domain	exact_relation_or_status	effect	consequence
+E01	relative positional comparison	P01	B00	difference/reversal on ordered comparisons	PRESERVE	No equation on a point-local metric or phi jet follows.
+E02	dual reciprocal character	P02;P03	B00	u>0;v>0;u*v=1	RESTRICT	The internal two-channel logarithmic pair has one independent relative mode.
+E03	regular additive composition	P04	B00	D(a+b)=D(a)D(b)	RESTRICT	The named positive regular comparison is an exponential character; pointwise phi values remain free.
+E04	realized nontriviality	P05	B06	there exists a realized location/comparison with phi!=0	NO_LOCAL_EFFECT	An existential global observation cannot delete a local phi=0 point or mathematical branch.
+E05	phi distance comparison semantics	P35	ALL	phi is signed; distance is nonnegative; ordered comparison is separately signed	SEMANTIC_SEPARATION	No sign or causal stratum is removed.
+E06	positive CSN zero jet	P08	B01	g is equivalent to Omega^2*g for Omega>0	IDENTIFY	Metric inertia rank and degeneracy are preserved; all fifteen P02 inertia witnesses remain represented.
+E07	positive CSN dphi type	P08;P35	B01	g_inverse(dphi,dphi) rescales by Omega^-2	PRESERVE	Zero versus nonzero and timelike/null/spacelike type are preserved once the conditional metric arena is supplied.
+E08	positive CSN screen expansion	P08;P10	B03	theta_A maps to theta_A+2*d_A(log Omega)	IDENTIFY	Expansion is representative data; its rank does not label the quotient.
+E09	positive CSN screen shear	P08;P10	B03	trace-free q-inverse Lie derivative is unchanged	PRESERVE	All three shear-map ranks remain distinct conditional split strata.
+E10	positive CSN split twist	P08;P10	B03	Frobenius vertical twist distribution is unchanged	PRESERVE	Integrable and nonintegrable split witnesses both remain.
+E11	positive CSN curvature decomposition	P08	B01	Riemann algebraic space equals Weyl[10] direct-sum Schouten[10]; scale Hessian translates Schouten	IDENTIFY	The quotient retains ten curvature components; full-Riemann and Ricci ranks are not quotient labels.
+E12	conditional Lorentz readout	P07;P09	B02	regular signature convention (-+++)	CONDITIONAL_ONLY	Z09 is the supplied interior stratum; this does not erase the other fourteen atlas closures from the unconditional parent.
+E13	conditional reciprocal split	P07;P10	B03	Lorentzian base plus positive screen in the supplied split	CONDITIONAL_ONLY	S27 is the supplied regular split stratum; the split and its alignment are not founded universally.
+E14	conditional Levi-Civita evaluator	P24	B01;B02;B03	connection determined from a supplied regular metric representative	CONDITIONAL_ONLY	It evaluates a metric; it does not remove a metric configuration.
+E15	finite-cell ontology	P11	B05	complete domain is finite and has no spatial infinity	NO_LOCAL_EFFECT	No point-local tensor identity, hard wall, cap, or asymptotic charge is supplied.
+E16	static seal phi value	P12	B04	phi_at_seal=0	RESTRICT	One scalar value is fixed only on the static seal branch.
+E17	static seal allowed variation	P12	B04	delta_phi_at_seal=0 for parity-preserving variations	RESTRICT	One scalar tangent direction is fixed only in that boundary variation branch.
+E18	static seal normal jet	P12;P29	B04	normal_derivative_phi is free	PRESERVE	Zero and nonzero normal-derivative witnesses remain.
+E19	remaining boundary data	P13;P29	B04;B05	not supplied	PRESERVE	Other coframe data polarizations normal jets caps and corners remain open.
+E20	angular and global completion	P23	B05	period cap quotient topology and no-cap are open	PRESERVE	No local split or Petrov stratum is removed by an unchosen completion.
+E21	global Xmax	P16	B05;B06	derived global output with unknown value and functional	NO_LOCAL_EFFECT	It cannot serve as a supplied local ruler or branch score.
+E22	bootstrap admissibility	P17;P36	B06	complete-solution density window after native mass volume and stability exist	NO_LOCAL_EFFECT	It supplies no present local equation coefficient center width or cutoff.
+E23	observational c_E and G_obs	P14;P15	CALIBRATED_READOUT	downstream measured anchors	NO_LOCAL_EFFECT	They do not alter the pre-scale local atlas.
+E24	unloaded dynamics carrier and comparisons	P19;P20;P21;P22;P30;P31	NOT_LOADED_IN_P03	excluded from candidate and acceptance logic	PRESERVE	No configuration is accepted rejected or ranked by an unloaded law or desired readout.

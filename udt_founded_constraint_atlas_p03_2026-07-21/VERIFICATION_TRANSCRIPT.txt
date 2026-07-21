@@ -1,0 +1,8 @@
+P03 independent verification
+status=PASS
+checks=10/10
+catch_proofs=34/34
+main_result_sha256=db9a82616d2e5d01fd094f74d03e26b9b9f42685d42f2db62c3163b0f8b17dce
+P02_manifest_sha256=c56390eb26b80c54a3c3a09f4800086c8dbc00b5bfd40b2038e264e85bec8938
+P02_tree_sha256=1321107a72020019c421521732a0248e627e07eec77b70bdf64be71bc068b436
+generator_imported=False action_or_equation_loaded=False merit_filter=False
