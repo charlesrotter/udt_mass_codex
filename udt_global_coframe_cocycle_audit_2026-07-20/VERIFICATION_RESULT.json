@@ -1,0 +1,91 @@
+{
+  "catch_proofs": {
+    "K_choice_hidden_as_foundation_rejected": true,
+    "K_elegance_as_physical_phi_rejected": true,
+    "action_promotion_rejected": true,
+    "angular_class_deletion_rejected": true,
+    "boundary_polarization_promotion_rejected": true,
+    "carrier_promotion_rejected": true,
+    "complete_action_status_rejected": true,
+    "corner_order_invention_rejected": true,
+    "diagonal_readout_promotion_rejected": true,
+    "eta_visibility_as_closed_seal_rejected": true,
+    "global_completion_promotion_rejected": true,
+    "gpu_promotion_rejected": true,
+    "mixed_family_as_unique_readout_rejected": true,
+    "mixed_readout_canonization_rejected": true,
+    "orientation_as_selector_rejected": true,
+    "primitive_implies_S3_rejected": true,
+    "static_phi_as_complete_tangent_rejected": true,
+    "three_odd_cocycle_promotion_rejected": true,
+    "topology_uniqueness_rejected": true
+  },
+  "checks": {
+    "boundary_polarization_open": true,
+    "classification_ledgers_complete": true,
+    "cover_gate_open": true,
+    "derivation_schema_and_check_count": true,
+    "independent_angular_corner_checks": true,
+    "independent_cap_lattice_checks": true,
+    "independent_full_tangent_dimensions": true,
+    "independent_rational_group_checks": true,
+    "lay_readout_not_global_closure": true,
+    "maximum_conclusion_exact": true,
+    "mixed_modulus_survives_full_extension": true,
+    "mixed_readout_family_exact_conditional": true,
+    "next_decision_excludes_imports_and_gpu": true,
+    "outcomes_exact": true,
+    "readout_gate_open": true,
+    "report_discloses_mixed_family_scope": true,
+    "source_lineage_exact": true,
+    "status_ledger_complete": true,
+    "uniqueness_not_earned": true
+  },
+  "counts": {
+    "catch_proofs": 19,
+    "cocycle_rows": 16,
+    "derivation_checks": 63,
+    "independent_checks": 19,
+    "sources": 18,
+    "status_rows": 30,
+    "tangent_rows": 5,
+    "witnesses": 9
+  },
+  "independent_full_tangent_dimensions": {
+    "ANGULAR_AXIS_REFLECTION": {
+      "coframe_antifixed": 2,
+      "coframe_fixed": 2,
+      "determinant": 1,
+      "metric_even": 6,
+      "metric_odd": 4
+    },
+    "ANGULAR_MINUS_IDENTITY": {
+      "coframe_antifixed": 3,
+      "coframe_fixed": 1,
+      "determinant": -1,
+      "metric_even": 7,
+      "metric_odd": 3
+    },
+    "ANGULAR_PLUS_IDENTITY": {
+      "coframe_antifixed": 1,
+      "coframe_fixed": 3,
+      "determinant": -1,
+      "metric_even": 7,
+      "metric_odd": 3
+    }
+  },
+  "independent_method": "Python standard library exact Fraction matrix algebra and rational rank",
+  "load_bearing_hashes": {
+    "AUDIT_REPORT.md": "cfb733d40271bcdb0259c91c631caaa4a80d96cd54350df61ca8c4e4f149819e",
+    "COCYCLE_CLASSIFICATION.tsv": "b78b2c5762ca1438e68c4d8e07849fa6809a5f4a862ea1b69753743a5543ef3a",
+    "DERIVATION_RESULT.json": "32eb1e5b6b38e98eeb6d4df1ef54f3f778e4a8c35fde0f261385b40403a83816",
+    "GLOBAL_WITNESSES.tsv": "b5f04ccb14a0dfa03cb12c4391df4998ded132c0727fdd79f8e5a94f90a904bf",
+    "LAY_DECISION_TREE.md": "4213424c915a05691a666b60bcf8d5649e4f2474c221fbbb1541ccd80393d10e",
+    "NEXT_SCIENTIFIC_DECISION.md": "3deb22dee2a8af4cd875f5187c4577ddb2539b33db1c4bf3f509ae70edb2946b",
+    "SOURCE_LINEAGE.tsv": "099c2af3b655ee0f308f815b35ca24a42a4c7156fe79e260eb7f1843525ce44b",
+    "STATUS_LEDGER.tsv": "f546e0ce571d59dbc5a0b6407ed7b027d19daac82104e2ebe6bb75ddef9f384c",
+    "TANGENT_CLASSIFICATION.tsv": "6e3ea3ce36c25bd7c43d9841f9d2347a864e28e1dbfae5a630b4044581806db1"
+  },
+  "result": "PASS_VERIFIED_WITH_CAVEATS",
+  "schema": "udt-global-coframe-cocycle-independent-verification-1.0"
+}

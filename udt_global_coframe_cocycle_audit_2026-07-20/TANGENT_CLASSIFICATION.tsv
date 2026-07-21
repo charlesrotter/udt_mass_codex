@@ -1,0 +1,6 @@
+class_id	angular_lift	full_determinant	coframe_fixed_dim	coframe_antifixed_dim	metric_even_dim	metric_odd_dim	foundation_status
+T01	plus_identity	-1	3	1	7	3	CONDITIONAL_UNSELECTED
+T02	minus_identity	-1	1	3	7	3	CONDITIONAL_UNSELECTED
+T03	axis_reflection	1	2	2	6	4	CONDITIONAL_UNSELECTED
+T04	static_phi_rule_only	NA	NA	NA	9	1	CANONIZED_ONE_SCALAR_NOT_COMPLETE_INVOLUTION_TANGENT
+T05	boundary_polarization	NA	NA	NA	NA	NA	OPEN_DELTA_H_DELTA_K_CORNER_AND_MOMENTUM_CHOICES_REMAIN

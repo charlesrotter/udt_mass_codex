@@ -1,0 +1,238 @@
+{
+  "boundary_tangent_ruling": {
+    "full_symmetric_metric_dimension": 10,
+    "involution_even_dimensions": {
+      "ANGULAR_AXIS_REFLECTION": 6,
+      "ANGULAR_MINUS_IDENTITY": 7,
+      "ANGULAR_PLUS_IDENTITY": 7
+    },
+    "involution_odd_dimensions": {
+      "ANGULAR_AXIS_REFLECTION": 4,
+      "ANGULAR_MINUS_IDENTITY": 3,
+      "ANGULAR_PLUS_IDENTITY": 3
+    },
+    "polarization": "NOT_SELECTED_BY_INVOLUTION; conditional C2 delta-h/delta-K choices remain",
+    "remaining_after_static_phi_only": 9,
+    "static_delta_phi_zero_removes": 1
+  },
+  "cap_lattice_witnesses": {
+    "AXIS_EXCHANGE_P1": {
+      "absolute_determinant": 1,
+      "left_cycle": [
+        1,
+        0
+      ],
+      "primitive": true,
+      "right_cycle": [
+        0,
+        1
+      ]
+    },
+    "MIRROR_LENS_P3": {
+      "absolute_determinant": 3,
+      "left_cycle": [
+        2,
+        1
+      ],
+      "primitive": true,
+      "right_cycle": [
+        1,
+        2
+      ]
+    },
+    "MIRROR_LENS_P5": {
+      "absolute_determinant": 5,
+      "left_cycle": [
+        3,
+        2
+      ],
+      "primitive": true,
+      "right_cycle": [
+        2,
+        3
+      ]
+    },
+    "SAME_CYCLE_P0": {
+      "absolute_determinant": 0,
+      "left_cycle": [
+        1,
+        1
+      ],
+      "primitive": true,
+      "right_cycle": [
+        1,
+        1
+      ]
+    }
+  },
+  "checks": {
+    "ANGULAR_AXIS_REFLECTION_dimension_partition": "PASS",
+    "ANGULAR_AXIS_REFLECTION_full_involution": "PASS",
+    "ANGULAR_MINUS_IDENTITY_dimension_partition": "PASS",
+    "ANGULAR_MINUS_IDENTITY_full_involution": "PASS",
+    "ANGULAR_PLUS_IDENTITY_dimension_partition": "PASS",
+    "ANGULAR_PLUS_IDENTITY_full_involution": "PASS",
+    "AXIS_EXCHANGE_P1_primitive": "PASS",
+    "F_F_is_preserving": "PASS",
+    "F_G_is_inverting": "PASS",
+    "F_antifixed_norm": "PASS",
+    "F_antifixed_vector": "PASS",
+    "F_fixed_norm": "PASS",
+    "F_fixed_vector": "PASS",
+    "F_inverts_reciprocal_character": "PASS",
+    "F_is_involution": "PASS",
+    "G_F_is_inverting": "PASS",
+    "G_group_law": "PASS",
+    "K_readout_makes_reciprocal_character_metric_invisible": "PASS",
+    "MIRROR_LENS_P3_primitive": "PASS",
+    "MIRROR_LENS_P5_primitive": "PASS",
+    "MU4_full_four_metric_Lorentz_signature_witness": "PASS",
+    "MU4_full_four_metric_mirror_isometry": "PASS",
+    "MU9_full_four_metric_Lorentz_signature_witness": "PASS",
+    "MU9_full_four_metric_mirror_isometry": "PASS",
+    "SAME_CYCLE_P0_primitive": "PASS",
+    "angular_reflection_commutator_formula": "PASS",
+    "angular_reflection_involution": "PASS",
+    "angular_reflection_orientation": "PASS",
+    "angular_reflection_product_rotation": "PASS",
+    "balanced_swap_is_anti_isometry_between_eta_mirror_representatives": "PASS",
+    "boost_conjugates_F_magnitude": "PASS",
+    "diagonal_pullback_exact": "PASS",
+    "dual_metric_preserved_by_F": "PASS",
+    "dual_metric_preserved_by_G": "PASS",
+    "eta_readout_retains_reciprocal_metric_dilation": "PASS",
+    "four_inversion_loop_constraint": "PASS",
+    "full_class_invariants_are_distinct": "PASS",
+    "general_mirror_equation_classification": "PASS",
+    "generic_base_corner_has_infinite_order": "PASS",
+    "mixed_readout_anchor_diagonalizes_to_Lorentz_form": "PASS",
+    "mixed_readout_constant_determinant": "PASS",
+    "mixed_readout_exact_mirror_isometry": "PASS",
+    "mixed_readout_lorentz_witness": "PASS",
+    "mixed_readout_modulus_CSN_and_diagonal_gauge_invariant": "PASS",
+    "mixed_readout_modulus_survives_full_direct_extension": "PASS",
+    "mixed_readout_phi_visible_when_A_nonzero": "PASS",
+    "mixed_readout_seal_becomes_standard_spatial_reflection": "PASS",
+    "no_positive_CSN_diagonal_readout_isometry": "PASS",
+    "nonzero_cross_term_forces_unit_mirror_scale": "PASS",
+    "oblique_axis_reflections_do_not_commute": "PASS",
+    "opposite_parameter_even_corner": "PASS",
+    "order_three_angular_corner_witness": "PASS",
+    "perpendicular_axis_reflections_commute": "PASS",
+    "primitive_mirror_caps_do_not_select_one_lattice": "PASS",
+    "pure_K_is_phi_invisible_limit": "PASS",
+    "same_axis_reflections_commute": "PASS",
+    "same_parameter_base_corner": "PASS",
+    "static_delta_phi_is_not_complete_metric_tangent_rule": "PASS",
+    "three_inversions_remain_inverting": "PASS",
+    "three_inverting_overlap_maps_cannot_multiply_to_identity": "PASS",
+    "unit_mirror_scale_forces_C_equals_A_b_squared": "PASS",
+    "valid_triple_cocycle_needs_preserving_third_transition": "PASS",
+    "zero_cross_term_cannot_give_Lorentz_mirror_family": "PASS"
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false,
+    "sympy": "1.13.1"
+  },
+  "corner_ruling": {
+    "commuting_angular_axis_reflections": "requires same or perpendicular axes modulo pi",
+    "commuting_base_reflections": "requires c=+b or c=-b",
+    "finite_order_angular_product": "requires theta-psi=pi*k/m for declared order m",
+    "finite_order_base_product": "requires b/c=1, or b/c=-1 with even order",
+    "status": "REDUCES_AFTER_CORNER_ORDER_AND_INCIDENCE_ARE_SUPPLIED; DOES_NOT_SELECT_THEM"
+  },
+  "full_local_lift_classes": {
+    "ANGULAR_AXIS_REFLECTION": {
+      "coframe_antifixed_dimension": 2,
+      "coframe_fixed_dimension": 2,
+      "determinant": 1,
+      "symmetric_metric_even_dimension": 6,
+      "symmetric_metric_odd_dimension": 4,
+      "trace": 0
+    },
+    "ANGULAR_MINUS_IDENTITY": {
+      "coframe_antifixed_dimension": 3,
+      "coframe_fixed_dimension": 1,
+      "determinant": -1,
+      "symmetric_metric_even_dimension": 7,
+      "symmetric_metric_odd_dimension": 3,
+      "trace": -2
+    },
+    "ANGULAR_PLUS_IDENTITY": {
+      "coframe_antifixed_dimension": 1,
+      "coframe_fixed_dimension": 3,
+      "determinant": -1,
+      "symmetric_metric_even_dimension": 7,
+      "symmetric_metric_odd_dimension": 3,
+      "trace": 2
+    }
+  },
+  "maximum_conclusion": "UDT_GLOBAL_COFRAME_COCYCLE_STATUS_CHARACTERIZED",
+  "mixed_readout_full_witnesses": {
+    "MU4": {
+      "A": 1,
+      "B": -2,
+      "Lorentz_determinant_at_seal": -3,
+      "angular_lift": "+I",
+      "b": 1,
+      "mirror_isometry": true,
+      "mu": 4
+    },
+    "MU9": {
+      "A": 1,
+      "B": -3,
+      "Lorentz_determinant_at_seal": -8,
+      "angular_lift": "+I",
+      "b": 1,
+      "mirror_isometry": true,
+      "mu": 9
+    }
+  },
+  "outcome_not_earned": "UNIQUE_GLOBAL_COFRAME_AND_TANGENT_COMPLETION_IN_AUDITED_CLASS",
+  "outcomes": [
+    "MULTIPLE_GLOBAL_COMPLETIONS_SURVIVE_CONDITIONALLY",
+    "COCYCLE_CONSISTENCY_REDUCES_BUT_DOES_NOT_SELECT",
+    "GLOBAL_COCYCLE_CANNOT_BE_POSED_WITHOUT_OPEN_TOPOLOGY_OR_COVER",
+    "BOUNDARY_TANGENT_SPACE_REMAINS_POLARIZATION_DEPENDENT",
+    "CURRENT_DATA_DEFINE_ONLY_LOCAL_OR_SECTORWISE_INVOLUTIONS"
+  ],
+  "readout_ruling": {
+    "K_antifixed_norm": "-2*b",
+    "K_fixed_norm": "2*b",
+    "conditional_sign_interpretation": {
+      "b_negative": "fixed line timelike and anti-fixed line spacelike in K convention",
+      "b_positive": "fixed line spacelike and anti-fixed line timelike in K convention"
+    },
+    "diagonal_clock_radial": "NO_CONSTANT_POSITIVE_CSN_ISOMETRIC_INVERTING_LIFT",
+    "dual_K_as_physical_null_metric": "CONDITIONAL_O11_LIFT_FAMILY",
+    "mixed_readout_family": {
+      "H0": "[[A,B],[B,A*b^2]]",
+      "Lorentz_condition": "B^2>A^2*b^2",
+      "conditional_spatial_witness": "A=1; B=-2; b=1 diagonalizes to diag(-1,3) while F becomes diag(1,-1)",
+      "dimensionless_unselected_modulus": "mu=B^2/(A^2*b^2)>1",
+      "g_phi": "[[A*exp(-2phi),B],[B,A*b^2*exp(2phi)]]",
+      "mirror": "F_b^T g(-phi) F_b=g(phi)",
+      "phi_visible_condition": "A!=0",
+      "pure_K_limit": "A=0",
+      "status": "EXACT_CONDITIONAL_FAMILY_NOT_SELECTED"
+    },
+    "readout_tradeoff": {
+      "K": "P^T K P=K, so isolated reciprocal phi is metric-invisible/pure frame boost",
+      "eta": "P^T eta P=diag(-z^-2,z^2), so phi is metric-visible but the balanced mirror swap is an anti-isometry",
+      "required_join": "a source-authorized full-metric soldering/readout that retains physical reciprocal dilation and closes the seal"
+    },
+    "status": "MIXED_READOUT_FAMILY_EXISTS; PHYSICAL_SOLDERING_AND_MODULUS_SELECTION_OPEN"
+  },
+  "reciprocal_transition_group": {
+    "conjugacy": "G_a F_b G_a^-1=F_(a^2 b); magnitude is gauge-conjugate inside each sign, while sign(b) remains a real conjugacy invariant",
+    "grading": "Z2; odd=inverting; every closed cocycle has even inversion parity",
+    "inverting_component": "F_b=[[0,b],[1/b,0]]",
+    "preserving_component": "G_a=diag(a,1/a)",
+    "triple_overlap": "three inverting transitions cannot close; two inverting transitions require a preserving third transition"
+  },
+  "result": "PASS",
+  "schema": "udt-global-coframe-cocycle-audit-1.0",
+  "smallest_global_gate_after_local_readout": "a founded chart/corner/cap incidence structure carrying the Z2 reciprocal transition cocycle",
+  "smallest_local_gate": "source-authorized physical soldering/slot map and selection of the mixed-readout modulus compatible with the observational clock/ruler anchor"
+}
