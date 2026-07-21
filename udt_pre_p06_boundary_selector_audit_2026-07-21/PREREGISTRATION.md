@@ -29,7 +29,7 @@ boundary condition that produces a preferred solution.
 - P05 result:
   `266a92253844ade86716d421f12831f7a44e8b377d5ebcfc0b1a0fee0b63aab3`.
 - Conditional `C^2` boundary-variation manifest:
-  `848db01c3524a45f15854228549d45dac4ac7b10cd07aa06924dffd406b3c9d4`.
+  `2be362cd50cc5102960cb6a1e8745196cad956799b851c3e71a212b01d70d83e`.
 - Seal-to-boundary-phase-space join manifest:
   `704b084548a212eabcfb1ac051e89234a7fd91bbeaf7f70abcc28bf63edc7a3b`.
 - Complete-coframe seal-involution manifest:
@@ -43,6 +43,9 @@ boundary condition that produces a preferred solution.
 
 All parent packages are immutable inputs. Their conclusions are re-adjudicated against P05 rather
 than silently copied or strengthened.
+
+The manifest correction above was committed separately before outcome algebra. See
+`PREREGISTRATION_CORRECTION.md`; git history preserves the originally transcribed value.
 
 ## Premise and choice ledger
 
