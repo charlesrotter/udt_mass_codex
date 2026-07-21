@@ -128,6 +128,12 @@ def main():
     navigation = generic.validate_navigation(ROOT)
     dirty = generic.validate_dirty(ROOT, DIRTY)
     tests = generic.validate_tests(ROOT)
+    # Pytest's summary embeds elapsed wall time, so its raw stdout hash changes on every clean replay.
+    # Certify the stable baseline tuple instead; the complete raw run is still emitted by pytest when
+    # the gate fails and is not a load-bearing scientific artifact here.
+    tests.pop("stdout_sha256", None)
+    stable_test_signature = f"{tests['passed']}|{tests['failed']}|{tests['xfailed']}|{tests['failure']}"
+    tests["result_signature_sha256"] = hashlib.sha256(stable_test_signature.encode("utf-8")).hexdigest()
     package = generic.validate_package_manifest(ROOT)
     catches = {
         "scope": generic.expect("SCOPE", lambda: scope(generic, "LIVE.md")),

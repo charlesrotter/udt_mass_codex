@@ -94,7 +94,7 @@
   "package_manifest": {
     "entries": 28,
     "result": "PASS",
-    "sha256": "978836f594a08b220942367790ce46db8995179183ac83101ef94170158e2207"
+    "sha256": "62f9b3f33409b62fb841734e8a91e61d9b859247bf808c4a6cf3740b6a54b6c9"
   },
   "parent_immutability": {
     "count": 7,
@@ -485,7 +485,7 @@
     "failed": 1,
     "failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
     "passed": 69,
-    "stdout_sha256": "bfcc021dd20513cc45f1e6486652327003db19c19e655713b9478def26b4996a",
+    "result_signature_sha256": "4d45c55debef9b600bbc823f29e00a8ff0acdbda69d315df488c93af04494796",
     "xfailed": 1
   }
 }
