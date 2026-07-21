@@ -1,0 +1,43 @@
+{
+  "angular_completion_ruling": {
+    "reason": "general area/shear action densities carry inequivalent F and F_prime_squared/F weights, so the radial equations require an unselected angular domain and cap/period completion",
+    "status": "OPEN_LOAD_BEARING"
+  },
+  "checks": {
+    "angular_integration_not_silently_selected": true,
+    "background_derivation_exact": true,
+    "conformal_control_exact": true,
+    "einstein_counterexample_exact": true,
+    "gauge_structure_exact": true,
+    "general_twist_timeout_disclosed": true,
+    "independent_verification": true,
+    "mixed_hessian_zero": true,
+    "product_density_recovered": true,
+    "product_y_and_area_full_bach_zero": true,
+    "pure_twist_control_nonzero": true,
+    "restricted_shear_obstruction_recorded": true
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_work_performed": false
+  },
+  "connection_ruling": {
+    "constant_connection": "LOCAL_ZERO_MODE",
+    "local_gauge_curvature": "H=dA",
+    "mixed_even_odd_hessian": "ZERO",
+    "pure_general_area_shear_twist_operator": "INCONCLUSIVE_TIMEOUT"
+  },
+  "maximum_conclusion": "CONDITIONAL_LOCAL_C2_TRANSVERSE_COFRAME_CLOSURE_PARTIALLY_CHARACTERIZED",
+  "outcomes": [
+    "PRODUCT_BACH_FAMILY_REMAINS_FULL_METRIC_STATIONARY",
+    "TWIST_HESSIAN_BLOCK_DIAGONAL_BY_REFLECTION",
+    "COFRAME_CONTROL_INCONCLUSIVE"
+  ],
+  "result": "PASS_WITH_INCONCLUSIVE_PURE_TWIST_BLOCK",
+  "schema": "udt-c2-transverse-coframe-closure-analysis-1.0",
+  "selector_ruling": {
+    "local_full_metric_selector_added": false,
+    "reason": "the nonzero r-only shear projection freezes angular shape/domain data and rejects an exact Bach-flat Einstein product; pointwise full Bach remains authoritative",
+    "restricted_radial_shear_selector_valid": false
+  }
+}

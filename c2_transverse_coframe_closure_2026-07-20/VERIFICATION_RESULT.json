@@ -1,0 +1,35 @@
+{
+  "checks": {
+    "background_density_matches": true,
+    "conformal_restricted_shear_zero": true,
+    "constant_connection_zero_mode": true,
+    "einstein_and_conformal_products_bach_zero": true,
+    "einstein_restricted_shear_matches": true,
+    "pure_twist_control_nonzero": true,
+    "twist_even_sector_mixed_blocks_zero": true
+  },
+  "compute": {
+    "cpu_only": true,
+    "dtype": "float64",
+    "method": "independent Torch two-coordinate forward-AD metric, Bach, action, and parameter Hessian"
+  },
+  "controls": {
+    "conformal_restricted_shear": -9.928387537893786e-16,
+    "einstein_expected": -6.871655330535371,
+    "einstein_restricted_shear": -6.8716553305353765,
+    "minimum_pure_twist_magnitude": 0.4239273485225331
+  },
+  "counts": {
+    "bach_components": 32,
+    "background_records": 6,
+    "mixed_block_records": 6
+  },
+  "maxima": {
+    "bach_zero_absolute": 1.0556565501409803e-14,
+    "background_scaled_error": 7.751335700394727e-16,
+    "constant_connection_absolute": 5.551115123125783e-16,
+    "mixed_block_absolute": 0.0
+  },
+  "result": "PASS",
+  "schema": "udt-c2-transverse-coframe-independent-verification-1.0"
+}

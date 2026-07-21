@@ -1,0 +1,19 @@
+id	claim	status	exact_regime	what_it_does_not_establish
+T01	The toric transverse connection transforms as A to A plus d lambda and has invariant curvature H=dA	DERIVED	Exact local coordinate gauge law	No global holonomy period cap or boundary data
+T02	The metric determinant is independent of the connection	DERIVED	Complete local fiber block with both connection components	No action or branch selection
+T03	Constant radial-gauge A_theta is a local zero mode	DERIVED	Local chart and finite-amplitude independent controls	No statement about global Wilson data
+T04	The arbitrary radial area/shear background action density is derived exactly	DERIVED	Static toric constant-curvature seed and conditional C2 bulk	Not the unrestricted angular metric or complete native action
+T05	General radial projection densities contain inequivalent F and F_first_squared_over_F weights	DERIVED	Arbitrary y b c in the bounded coframe	No unique radial equation before angular completion and integration
+T06	The product action is recovered exactly at b=c=1	DERIVED	Exact control limit	Does not select a member of the product family
+T07	The product y and common-area projections vanish on full Bach	DERIVED	Complete product Bach system	No global branch selection
+T08	The restricted radial shear projection equals eight-thirds K times y_second-minus-2K on full Bach	DERIVED	F angular shape/domain frozen during r-only leg variation	This projection is not an unrestricted field equation
+T09	The restricted shear projection selects the physical product branch	REJECTED	It rejects the exact Bach-flat Einstein branch y_second=-2K	Cannot overrule pointwise full Bach
+T10	Both conformal and Einstein constant-curvature product branches are Bach-flat	DERIVED	K nonzero with y_second plus-or-minus 2K and higher derivatives zero	No claim that either is globally selected
+T11	Twist/even-sector area and shear mixed Hessian blocks vanish	DERIVED	About A=0 in the local conditional metric action by psi reflection	Does not determine the pure twist block
+T12	The arbitrary-area/shear pure-twist operator is closed exactly	INCONCLUSIVE	Exact ten-minute CPU contraction stop with no result file	Timeout is not negative physics
+T13	The product Bach family gains a legitimate local coframe selector	OPEN	No selector survives the variation-domain audit	Global angular boundary and bootstrap may select
+T14	Independent direct tensor calculations reproduce every banked load-bearing claim	OBSERVED	Six background records six mixed records and 32 Bach components	No fresh external-model or unrestricted-profile theorem
+T15	Angular cap period regularity and finite-cell completion are load-bearing	DERIVED	Required to define admissible shear variations and angular integration	Their actual UDT completion remains open
+T16	C2 supplies action authority for this audit	CONDITIONAL	UNIQUE-CONDITIONAL only in the frozen pre-scale local metric-only 4D bulk class	Not the complete UDT action or post-scale bridge
+T17	Carrier section source time-live stability physical scale and unconditional mass	OPEN	Excluded from this package	No matter closure is claimed
+T18	GPU exploration is indicated by this result	REJECTED	The missing gate is conceptual angular completion and an exact unresolved operator	No GPU work performed

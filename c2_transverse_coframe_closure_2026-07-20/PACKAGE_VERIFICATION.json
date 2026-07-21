@@ -1,0 +1,61 @@
+{
+  "catch_proofs": {
+    "angular_completion_overclaim_rejected": true,
+    "carrier_promotion_rejected": true,
+    "conditional_action_promotion_rejected": true,
+    "constant_connection_response_rejected": true,
+    "einstein_branch_discard_rejected": true,
+    "endpoint_discard_rejected": true,
+    "general_division_by_F_rejected": true,
+    "gpu_promotion_rejected": true,
+    "invented_twist_result_rejected": true,
+    "missing_inconclusive_outcome_rejected": true,
+    "mixed_block_mutation_rejected": true,
+    "restricted_selector_promotion_rejected": true,
+    "timeout_as_negative_rejected": true
+  },
+  "checks": {
+    "angular_domain_load_bearing": true,
+    "angular_integration_disclosed": true,
+    "background_schema_and_checks": true,
+    "carrier_open": true,
+    "closure_schema_and_checks": true,
+    "einstein_counterexample": true,
+    "gauge_schema_and_checks": true,
+    "general_pure_twist_inconclusive": true,
+    "mixed_blocks_exact_zero": true,
+    "partial_grade_disclosed": true,
+    "product_recovery": true,
+    "pure_twist_nonzero_control": true,
+    "registered_partial_outcomes": true,
+    "restricted_selector_rejected": true,
+    "source_lineage_hashes": true,
+    "status_ledger_unique": true,
+    "verification_schema_and_checks": true
+  },
+  "counts": {
+    "bach_components": 32,
+    "background_checks": 8,
+    "background_records": 6,
+    "closure_checks": 12,
+    "completeness_rows": 21,
+    "gauge_checks": 4,
+    "independent_checks": 7,
+    "mixed_block_records": 6,
+    "source_lineage_rows": 6,
+    "status_rows": 18
+  },
+  "load_bearing_hashes": {
+    "BACKGROUND_CLOSURE.json": "c746ecf4e486ff0a202da0bc0b654c4fcd3dc6e19b6c45ba07128e0f34dde868",
+    "BACKGROUND_VERIFICATION_POINTS.tsv": "de93d61bd5d06d714d47425e4a147bb1ef04b0a1fe46f1b26125f853f9a0db00",
+    "CLOSURE_ANALYSIS.json": "8923c0d04b98e6cff52178b27b85badeed304e662404add5ef8b5640b810be97",
+    "COMPLETENESS_MAP.tsv": "ffaf91175f4f61ae53b5e22029ebf30543d34d74f9c556dda8f1e015e3a6da44",
+    "GAUGE_STRUCTURE.json": "e06325cd7141228dd8a4ca8abe6afdc5187899adada61436fb3f1ecea6b9edf8",
+    "GENERAL_TWIST_TIMEOUT.md": "8025579c95d908930c5081417d232d30912ed3545d1268ea32bc877b915bd1f1",
+    "MIXED_BLOCK_POINTS.tsv": "d6e08e10a7518ea45bc945cdae5b7de368410abacfe631e4901ad06931b226f6",
+    "STATUS_LEDGER.tsv": "1119e9c44e9e6858aaf791078ab4ac3566a1d2c68f2aebefe0be4004df7e0a6b",
+    "VERIFICATION_RESULT.json": "d586cf81c99b8347ef37b965939362f54d93f871e888e7dcbbb10fdfcb650d60"
+  },
+  "result": "PASS_WITH_REGISTERED_INCONCLUSIVE_SECTOR",
+  "schema": "udt-c2-transverse-coframe-package-verification-1.0"
+}

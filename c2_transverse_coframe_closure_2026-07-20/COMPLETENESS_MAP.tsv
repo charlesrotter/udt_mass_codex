@@ -1,0 +1,22 @@
+sector	coverage	status	consequence
+reciprocal_clock_factor	y(r)>0 arbitrary	RETAINED	Product and general background controls included
+transverse_area	a(r)>0 through b and c	RETAINED_RADIAL	Angular dependence of area omitted
+transverse_shear	s(r) through b and c	RETAINED_RADIAL	Restricted variation domain exposed
+complete_local_connection	A_r and A_theta gauge law; radial gauge after derivation	RETAINED	Global connection data remain open
+connection_curvature	H=dA	RETAINED	Constant local connection is correctly zero
+conditional_action	four-dimensional metric-only C2 bulk	RETAINED_CONDITIONAL	Not the complete native action
+background_action_density	arbitrary radial y b c and constant-curvature F	COMPLETE_BOUNDED	Angular integration not selected
+background_endpoint_currents	two radial endpoint channels for y b c	RETAINED	No boundary values or boundary action selected
+product_full_bach	all pointwise components from frozen parent plus independent replay	RETAINED	Remains authority over restricted projections
+variation_domain	Einstein counterexample and conformal control	RETAINED	Spurious radial-shear selector rejected
+mixed_hessian	twist-area and twist-shear blocks	COMPLETE_BOUNDED	Exactly zero by reflection
+pure_twist_general	exact arbitrary b c contraction attempted	INCONCLUSIVE_TIMEOUT	No TWIST_CLOSURE result exists
+product_twist	frozen parent recovered conceptually only	INHERITED_BOUNDED	Not rederived as substitute for failed general block
+intrinsic_angular_shape	F_second+K F seed only	OMITTED_OPEN	No unrestricted angular metric
+angular_domain_and_caps	unspecified	OMITTED_LOAD_BEARING	General radial integration and admissible shear variations undefined
+global_topology_and_periods	unspecified	OMITTED_LOAD_BEARING	No compact completion or holonomy ruling
+finite_cell_boundary	no physical seal or boundary functional	OMITTED_OPEN	No branch constants selected
+bootstrap	no whole-solution closure	OMITTED_OPEN	No Xmax c G mass or scale selection
+time_dependence	static background and Hessian only	OMITTED_OPEN	No evolution or stability
+carrier_and_source	no S2 L2+L4 alternative actor or source	EXCLUDED_OPEN	Metric connection is not renamed matter
+compute	CPU exact SymPy plus CPU Torch float64	RETAINED_METHOD	No GPU work

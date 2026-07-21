@@ -1,0 +1,37 @@
+{
+  "checks": {
+    "connection_curvature_gauge_invariant": true,
+    "connection_independent_determinant": true,
+    "constant_radial_gauge_zero": true,
+    "radial_gauge_curvature": true
+  },
+  "compute": {
+    "cpu_only": true,
+    "method": "exact SymPy exterior-component and block-determinant identities"
+  },
+  "determinant": "grr*gtt*htheta*radius**2",
+  "gauge_law": {
+    "A_r": "A_r(r, theta) + Derivative(lambda(r, theta), r)",
+    "A_theta": "A_theta(r, theta) + Derivative(lambda(r, theta), theta)",
+    "coordinate": "psi -> psi-lambda(r,theta)",
+    "curvature": "-Derivative(A_r(r, theta), theta) + Derivative(A_theta(r, theta), r)",
+    "transformed_curvature": "-Derivative(A_r(r, theta), theta) + Derivative(A_theta(r, theta), r)"
+  },
+  "radial_toric_gauge": {
+    "A_r": "0",
+    "A_theta": "epsilon*u(r)",
+    "H_rtheta": "epsilon*Derivative(u(r),r)",
+    "scope": "local gauge only; global holonomy, periods, caps, and boundary data remain"
+  },
+  "reflection": {
+    "consequence": "any diffeomorphism-scalar metric action is even in A about A=0, so its Hessian has no A-area or A-shear mixed block",
+    "even_fields": [
+      "y",
+      "a",
+      "s",
+      "F"
+    ],
+    "map": "psi -> -psi, A -> -A"
+  },
+  "schema": "udt-c2-transverse-coframe-gauge-structure-1.0"
+}
