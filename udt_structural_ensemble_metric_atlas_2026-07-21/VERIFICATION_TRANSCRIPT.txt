@@ -1,0 +1,10 @@
+UDT_STRUCTURAL_ENSEMBLE_ATLAS_VERIFICATION=PASS
+independent_checks=38 catch_proofs=30
+ensemble_builder_imported=NO
+controls=11 carriers=48 masks=16 configurations=6144 interactions=5760 ALL_RECONCILED
+all_6144_primitive_jets=PASS max_error=0
+all_6144_metric_assemblies=PASS max_error=4.4408920985006262e-16
+all_6144_curvatures=PASS max_error=3.0531133177191805e-16
+all_5760_mobius_terms=PASS max_kinematic_error=0
+classification=BOUNDED_STRUCTURAL_ENSEMBLE_CONFIGURATIONS_AND_MOBIUS_INTERACTIONS_OBSERVED
+maximum=BOUNDED_STRUCTURAL_ENSEMBLE_AND_MOBIUS_INTERACTION_ATLAS_CHARACTERIZED

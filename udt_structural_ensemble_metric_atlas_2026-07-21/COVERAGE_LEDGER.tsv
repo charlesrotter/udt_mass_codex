@@ -1,0 +1,11 @@
+id	object	observed	required	scope
+C01	control identities	11	11	exactly once
+C02	ensemble identities	4	4	chart bookkeeping
+C03	carrier vectors	48	48	parent identities
+C04	ensemble masks	16	16	complete Boolean lattice
+C05	configuration records	6144	6144	all retained
+C06	interaction records	5760	5760	all nonempty targets
+C07	raw shards	8	8	complete disjoint contexts
+C08	span-rank rows	135	135	15 targets times nine payloads
+C09	physics filters	NONE	NONE	not evaluated
+C10	actions dynamics boundaries	NOT_LOADED	NOT_LOADED	explicitly open

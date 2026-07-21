@@ -1,0 +1,9 @@
+UDT_STRUCTURAL_ENSEMBLE_METRIC_ATLAS=PASS
+checks=23 classification=BOUNDED_STRUCTURAL_ENSEMBLE_CONFIGURATIONS_AND_MOBIUS_INTERACTIONS_OBSERVED
+ensembles=4 controls=11 carriers=48 masks=16 contexts=8
+configurations=6144 interactions=5760 span_rows=135 raw_shards=8
+unique_configurations=5092 unique_metric_jets=2369
+max_identity_residual=4.4408920985006262e-16 numeric_uncertain_configurations=120
+mask_geometry_classes={'M0': {'R0_K0_S0_T0_M0': 384}, 'M1': {'R4_K5_S0_T0_M1': 1, 'R4_K6_S0_T0_M1': 383}, 'M2': {'R4_K6_S2_T0_M1': 384}, 'M3': {'R4_K6_S2_T0_M1': 384}, 'M4': {'R4_K6_S2_T1_M1': 384}, 'M5': {'R4_K6_S2_T1_M1': 384}, 'M6': {'R4_K6_S2_T1_M1': 384}, 'M7': {'R4_K6_S2_T1_M1': 384}, 'M8': {'R0_K0_S0_T0_M0': 384}, 'M9': {'R4_K5_S0_T0_M1': 1, 'R4_K6_S0_T0_M1': 383}, 'MA': {'R4_K6_S2_T0_M1': 384}, 'MB': {'R4_K6_S2_T0_M1': 384}, 'MC': {'R4_K6_S2_T1_M1': 384}, 'MD': {'R4_K6_S2_T1_M1': 384}, 'ME': {'R4_K6_S2_T1_M1': 384}, 'MF': {'R4_K6_S2_T1_M1': 384}}
+physical_interaction=NO action_EOM=NO dynamics=NO solutions=0 physics_ranking=NO finite_exhaustiveness=NO gpu=NO
+maximum_conclusion=BOUNDED_STRUCTURAL_ENSEMBLE_AND_MOBIUS_INTERACTION_ATLAS_CHARACTERIZED

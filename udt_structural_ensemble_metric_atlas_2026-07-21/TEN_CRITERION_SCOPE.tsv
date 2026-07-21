@@ -1,0 +1,11 @@
+id	criterion	covered	open
+Q01	FIELDS	ten metric controls plus independent signed phi	other realizations open
+Q02	ACTION_TERMS	none	all actions excluded
+Q03	FULL_EQUATIONS	none	no law-defined solutions
+Q04	DOMAIN_COORDINATES	regular 2+2 chart four banks eight points	other charts/functions open
+Q05	BOUNDARY_REGULARITY	not sampled	finite-cell boundary open
+Q06	TOPOLOGICAL_SECTOR	none	global topology open
+Q07	DYNAMICAL_CHARACTER	configuration two-jets only	physical evolution absent
+Q08	ENSEMBLE_INTERACTION	exact mask Mobius diagnostics	no physical coupling claim
+Q09	STABILITY	not entered	no perturbation operator
+Q10	REGIME_VALIDITY	48 carriers all masks finite chart	continuum/global space open

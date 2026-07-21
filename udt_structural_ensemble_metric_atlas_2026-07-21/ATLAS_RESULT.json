@@ -1,0 +1,275 @@
+{
+  "action_or_equations_loaded": false,
+  "active_interaction_rows_by_target_and_payload": {
+    "M1": {
+      "metric_twojet": 384,
+      "phi_twojet": 0,
+      "ricci": 384,
+      "riemann": 384,
+      "scalar": 384,
+      "shear": 0,
+      "slot_twojet": 384,
+      "twist": 0,
+      "weyl": 384
+    },
+    "M2": {
+      "metric_twojet": 384,
+      "phi_twojet": 0,
+      "ricci": 384,
+      "riemann": 384,
+      "scalar": 384,
+      "shear": 384,
+      "slot_twojet": 384,
+      "twist": 0,
+      "weyl": 384
+    },
+    "M3": {
+      "metric_twojet": 0,
+      "phi_twojet": 0,
+      "ricci": 384,
+      "riemann": 384,
+      "scalar": 384,
+      "shear": 0,
+      "slot_twojet": 0,
+      "twist": 0,
+      "weyl": 384
+    },
+    "M4": {
+      "metric_twojet": 384,
+      "phi_twojet": 0,
+      "ricci": 384,
+      "riemann": 384,
+      "scalar": 384,
+      "shear": 384,
+      "slot_twojet": 384,
+      "twist": 384,
+      "weyl": 384
+    },
+    "M5": {
+      "metric_twojet": 0,
+      "phi_twojet": 0,
+      "ricci": 384,
+      "riemann": 384,
+      "scalar": 384,
+      "shear": 0,
+      "slot_twojet": 0,
+      "twist": 0,
+      "weyl": 384
+    },
+    "M6": {
+      "metric_twojet": 384,
+      "phi_twojet": 0,
+      "ricci": 384,
+      "riemann": 384,
+      "scalar": 384,
+      "shear": 336,
+      "slot_twojet": 0,
+      "twist": 0,
+      "weyl": 384
+    },
+    "M7": {
+      "metric_twojet": 0,
+      "phi_twojet": 0,
+      "ricci": 336,
+      "riemann": 336,
+      "scalar": 336,
+      "shear": 0,
+      "slot_twojet": 0,
+      "twist": 0,
+      "weyl": 336
+    },
+    "M8": {
+      "metric_twojet": 0,
+      "phi_twojet": 384,
+      "ricci": 0,
+      "riemann": 0,
+      "scalar": 0,
+      "shear": 0,
+      "slot_twojet": 0,
+      "twist": 0,
+      "weyl": 0
+    },
+    "M9": {
+      "metric_twojet": 0,
+      "phi_twojet": 0,
+      "ricci": 0,
+      "riemann": 0,
+      "scalar": 0,
+      "shear": 0,
+      "slot_twojet": 0,
+      "twist": 0,
+      "weyl": 0
+    },
+    "MA": {
+      "metric_twojet": 0,
+      "phi_twojet": 0,
+      "ricci": 0,
+      "riemann": 0,
+      "scalar": 0,
+      "shear": 0,
+      "slot_twojet": 0,
+      "twist": 0,
+      "weyl": 0
+    },
+    "MB": {
+      "metric_twojet": 0,
+      "phi_twojet": 0,
+      "ricci": 0,
+      "riemann": 0,
+      "scalar": 0,
+      "shear": 0,
+      "slot_twojet": 0,
+      "twist": 0,
+      "weyl": 0
+    },
+    "MC": {
+      "metric_twojet": 0,
+      "phi_twojet": 0,
+      "ricci": 0,
+      "riemann": 0,
+      "scalar": 0,
+      "shear": 0,
+      "slot_twojet": 0,
+      "twist": 0,
+      "weyl": 0
+    },
+    "MD": {
+      "metric_twojet": 0,
+      "phi_twojet": 0,
+      "ricci": 0,
+      "riemann": 0,
+      "scalar": 0,
+      "shear": 0,
+      "slot_twojet": 0,
+      "twist": 0,
+      "weyl": 0
+    },
+    "ME": {
+      "metric_twojet": 0,
+      "phi_twojet": 0,
+      "ricci": 0,
+      "riemann": 0,
+      "scalar": 0,
+      "shear": 0,
+      "slot_twojet": 0,
+      "twist": 0,
+      "weyl": 0
+    },
+    "MF": {
+      "metric_twojet": 0,
+      "phi_twojet": 0,
+      "ricci": 0,
+      "riemann": 0,
+      "scalar": 0,
+      "shear": 0,
+      "slot_twojet": 0,
+      "twist": 0,
+      "weyl": 0
+    }
+  },
+  "carrier_vectors": 48,
+  "checks": 23,
+  "checks_passed": [
+    "source_udt_amplitude_volume_metric_atlas_2026-07-21/SHA256SUMS.txt",
+    "source_udt_canonical_geometry_evaluator_p01_2026-07-21/SHA256SUMS.txt",
+    "prereg_PREREGISTRATION.md",
+    "prereg_PREREGISTRATION_IMPLEMENTATION_NOTE.md",
+    "control_partition_count",
+    "control_partition_unique",
+    "ensemble_partition",
+    "mask_registry",
+    "mask_order_census",
+    "carrier_count",
+    "carrier_family_census",
+    "carrier_radius_census",
+    "carrier_parent_reconciliation",
+    "schedule",
+    "configuration_count",
+    "all_lorentzian",
+    "identity_gate",
+    "all_retained",
+    "interaction_count",
+    "shard_registry",
+    "class_census_complete",
+    "span_rank_rows",
+    "order_census"
+  ],
+  "classification": "BOUNDED_STRUCTURAL_ENSEMBLE_CONFIGURATIONS_AND_MOBIUS_INTERACTIONS_OBSERVED",
+  "configuration_records": 6144,
+  "control_count": 11,
+  "dynamics_loaded": false,
+  "ensemble_count": 4,
+  "ensemble_ontology_claimed": false,
+  "evidence_grade": "OBSERVED_PENDING_INDEPENDENT_VERIFICATION",
+  "finite_exhaustiveness_claim": false,
+  "gpu_used": false,
+  "interaction_records": 5760,
+  "mask_count": 16,
+  "mask_geometry_class_counts": {
+    "M0": {
+      "R0_K0_S0_T0_M0": 384
+    },
+    "M1": {
+      "R4_K5_S0_T0_M1": 1,
+      "R4_K6_S0_T0_M1": 383
+    },
+    "M2": {
+      "R4_K6_S2_T0_M1": 384
+    },
+    "M3": {
+      "R4_K6_S2_T0_M1": 384
+    },
+    "M4": {
+      "R4_K6_S2_T1_M1": 384
+    },
+    "M5": {
+      "R4_K6_S2_T1_M1": 384
+    },
+    "M6": {
+      "R4_K6_S2_T1_M1": 384
+    },
+    "M7": {
+      "R4_K6_S2_T1_M1": 384
+    },
+    "M8": {
+      "R0_K0_S0_T0_M0": 384
+    },
+    "M9": {
+      "R4_K5_S0_T0_M1": 1,
+      "R4_K6_S0_T0_M1": 383
+    },
+    "MA": {
+      "R4_K6_S2_T0_M1": 384
+    },
+    "MB": {
+      "R4_K6_S2_T0_M1": 384
+    },
+    "MC": {
+      "R4_K6_S2_T1_M1": 384
+    },
+    "MD": {
+      "R4_K6_S2_T1_M1": 384
+    },
+    "ME": {
+      "R4_K6_S2_T1_M1": 384
+    },
+    "MF": {
+      "R4_K6_S2_T1_M1": 384
+    }
+  },
+  "max_identity_residual": 4.440892098500626e-16,
+  "maximum_conclusion": "BOUNDED_STRUCTURAL_ENSEMBLE_AND_MOBIUS_INTERACTION_ATLAS_CHARACTERIZED",
+  "mobius_physical_coupling_claimed": false,
+  "numeric_uncertain_configurations": 120,
+  "phi_metric_source_claimed": false,
+  "physical_interaction_claimed": false,
+  "physics_ranking_used": false,
+  "raw_shard_registry_sha256": "e3e645c55d009702edd9a2db66b9298114c5d2b703936016296e31e5bb80e3f3",
+  "raw_shards": 8,
+  "schema": "udt-structural-ensemble-metric-atlas-1.0",
+  "solutions_run": 0,
+  "span_rank_rows": 135,
+  "status": "PASS",
+  "unique_configuration_hashes": 5092,
+  "unique_metric_jet_hashes": 2369
+}
