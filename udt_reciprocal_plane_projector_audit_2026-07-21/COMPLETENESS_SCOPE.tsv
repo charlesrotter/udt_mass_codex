@@ -1,0 +1,15 @@
+criterion	coverage	detail
+preregistration	COMPLETE	Question class witnesses falsifiers and maximum conclusion were committed before derivation.
+full_local_tensor_equation	COMPLETE_IN_DECLARED_CLASS	All components of nabla P were solved for the general cross jets in an adapted orthonormal frame.
+necessity_and_sufficiency	COMPLETE_IN_LOCAL_INTEGRABLE_2_PLUS_2_CLASS	Both pure-trace conditions and the unique one-form were derived and substituted back.
+twist	EXACT_BOUNDED_COUNTERMODEL	A nonintegrable rank-two plane is ruled out by torsion and Frobenius.
+metric_cross_terms	COMPLETE_FOR_REGISTERED_EIGHT	Each constant metric uses its own metric-orthogonal projector rather than a coordinate projector.
+intrinsic_angular_geometry	EXACT_ROUND_WITNESS_PLUS_GENERAL_LOCAL_ARGUMENT	Nonzero round curvature and unrestricted intrinsic screen connection are retained.
+reciprocal_profile	TWO_EXACT_JETS_PLUS_ARBITRARY_SYMBOLIC_CLASS	No phi selector is found.
+CSN	COMPLETE_IN_WEYL_CLASS	Representative shift leaves the affine connection unchanged.
+holonomy	LOCAL_ALGEBRA_CHARACTERIZED	Residual base boost and angular rotation are explicit; global holonomy is not computed.
+global_distribution	NOT_COVERED	Zeros degeneracies cover gluing caps and boundary continuation remain open.
+connection_classes	BOUNDED	Torsionful and non-Weyl nonmetric connections are not tested.
+dynamics_and_action	NOT_COVERED	No field equation action boundary functional evolution or bootstrap selection is used.
+matter_and_topology	NOT_COVERED	No carrier Hopf section soliton source mass or topology is selected.
+compute	CPU_ONLY	Exact SymPy derivation and independent standard-library rational reconstruction; no GPU.

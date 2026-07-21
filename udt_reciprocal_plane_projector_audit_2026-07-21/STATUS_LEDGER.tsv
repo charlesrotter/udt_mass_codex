@@ -1,0 +1,20 @@
+claim_id	claim	status	evidence	remaining_open_scope
+R01	Founding Reciprocity supplies an internal clock/ruler character	DERIVED_WITH_FOUNDATIONAL_CANDIDATE_BOUNDARY	S01	Its global spacetime-plane realization is not derived.
+R02	CSN supplies a conformal metric class	FOUNDATIONAL_POSTULATE_LOCKED	S02	It does not choose a connection or projector.
+R03	A supplied nondegenerate metric and Lorentzian two-plane determine an orthogonal rank-two projector	DERIVED_CONDITIONAL	Exact projector formula and eight cross witnesses	The plane itself is conditional.
+R04	A torsion-free P-parallel connection forces both distributions integrable	DERIVED_IN_DECLARED_CLASS	Frobenius torsion identity and twist witness	Torsionful transport is not covered.
+R05	A torsion-free Weyl P-parallel connection exists exactly for an integrable umbilical split	DERIVED_IN_DECLARED_CLASS	Full cross-jet solution and sufficiency substitution	Global and singular cases remain open.
+R06	The compatible Weyl connection is unique	DERIVED_CONDITIONAL	Difference-map rank four	Existence and physical authority remain separate.
+R07	The connection is CSN representative-invariant	DERIVED_IN_DECLARED_CLASS	Exact Weyl shift algebra	Only the tested connection class is covered.
+R08	The reciprocal warped metric with arbitrary phi and R is compatible	DERIVED_IN_WITNESS_CLASS	Round-screen exact residuals	This is not a field equation or profile selector.
+R09	Projector parallelism selects phi	REFUTED	Two inequivalent profile jets pass	Bootstrap action and boundary remain open.
+R10	Projector parallelism permits intrinsic curved angular geometry	DERIVED_IN_DECLARED_CLASS	Round screen scalar curvature 2/R^2 and zero residual	No angular shape or topology is selected.
+R11	Projector parallelism permits trace-free cross-shear	REFUTED_IN_DECLARED_CLASS	Two rank-four/augmented-five obstructions	A broader non-Weyl or torsionful law is not tested.
+R12	Projector parallelism permits nonintegrable twist	REFUTED_IN_TORSION_FREE_CLASS	Explicit transverse Frobenius bracket	Current metric has not been shown to eliminate twist.
+R13	Projector parallelism implies normalized reciprocal-generator parallelism	REFUTED	Exact P-parallel/L-nonparallel witness	Individual axes require a stronger law.
+R14	Nonzero metric cross terms alone obstruct the projector law	REFUTED	All eight metric-derived orthogonal projectors pass	Variable cross structure may still create twist or shear.
+R15	The projector law selects a second reciprocal pair or Hopf axis	NOT_DERIVED	Residual SO(2) commutator witness	Angular section carrier and topology remain open.
+R16	UDT currently derives projector parallelism as a frame principle	OPEN	Source/status audit	Compatibility and elegance are not authority.
+R17	UDT currently forces the complete metric into the integrable umbilical class	OPEN	S09 S10 S13	Shift twist shear and global continuation remain unselected.
+R18	Complete action source boundary charge carrier or mass follows	NOT_DERIVED	Scope audit	No downstream physics is inferred by this test.
+R19	Smallest sharpened selector question	OPEN_SHARPENED_GATE	Theorem plus source audit	Does the complete UDT metric and finite-cell seal select a global integrable umbilical reciprocal two-plane projector?

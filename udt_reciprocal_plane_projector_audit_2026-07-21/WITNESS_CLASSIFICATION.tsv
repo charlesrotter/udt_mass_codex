@@ -1,0 +1,17 @@
+witness_id	class	input	result	exact_gate	interpretation
+W01	RECIPROCAL_WARPED_ROUND_SCREEN	arbitrary phi(r) and positive R(r) with round q0	PASS	A=-d_base log R	The ordinary reciprocal static metric class is projector-compatible.
+W02	PHI_PROFILE_ONE	dphi/dr=2 with the same R and round screen	PASS	all projector residuals zero	Projector transport does not choose the reciprocal depth profile.
+W03	PHI_PROFILE_TWO	dphi/dr=11 with the same R and round screen	PASS	all projector residuals zero	An inequivalent profile passes the identical projector law.
+W04	CURVED_SCREEN	round two-sphere with scalar curvature 2/R^2	PASS	intrinsic curvature remains in the screen connection	Preserving the plane does not flatten or select the angular geometry.
+W05	SCREEN_CROSS_SHEAR	partial_0 q=diag(1,-1)	FAIL	coefficient rank 4 augmented rank 5	A Weyl one-form cannot absorb trace-free screen shear.
+W06	BASE_CROSS_SHEAR	partial_2 h=diag(1,1) at h=diag(-1,1)	FAIL	coefficient rank 4 augmented rank 5	A Weyl one-form cannot absorb trace-free reciprocal-plane shear.
+W07	NONINTEGRABLE_TWIST	E0=partial_t-B r partial_y and E1=partial_r with B nonzero	FAIL	[E0,E1]=B partial_y outside the plane	Torsion-free projector preservation is impossible.
+W08	P_NOT_L	P parallel with dphi/dr=3 and fixed screen	PASS_FOR_P_FAIL_FOR_L	nabla P=0 but nabla L nonzero	Plane preservation is strictly weaker than axis-by-axis reciprocal transport.
+W09	PLUS_IDENTITY_MU4	constant nonzero-cross metric mu=4	PASS	metric-orthogonal P rank 2; difference rank 4; A=0	Cross terms alone are not an obstruction when the correct orthogonal projector is used.
+W10	PLUS_IDENTITY_MU9	constant nonzero-cross metric mu=9	PASS	metric-orthogonal P rank 2; difference rank 4; A=0	Cross terms alone are not an obstruction when the correct orthogonal projector is used.
+W11	MINUS_IDENTITY_MU4	constant nonzero-cross metric mu=4	PASS	metric-orthogonal P rank 2; difference rank 4; A=0	Registered lift witness passes conditionally.
+W12	MINUS_IDENTITY_MU9	constant nonzero-cross metric mu=9	PASS	metric-orthogonal P rank 2; difference rank 4; A=0	Registered lift witness passes conditionally.
+W13	AXIS_REFLECTION_MU4	constant nonzero-cross metric mu=4	PASS	metric-orthogonal P rank 2; difference rank 4; A=0	Registered lift witness passes conditionally.
+W14	AXIS_REFLECTION_MU9	constant nonzero-cross metric mu=9	PASS	metric-orthogonal P rank 2; difference rank 4; A=0	Registered lift witness passes conditionally.
+W15	HOPF_EXCHANGE_MU4	constant nonzero-cross metric mu=4	PASS	metric-orthogonal P rank 2; difference rank 4; A=0	No Hopf selection follows from compatibility.
+W16	HOPF_EXCHANGE_MU9	constant nonzero-cross metric mu=9	PASS	metric-orthogonal P rank 2; difference rank 4; A=0	No Hopf selection follows from compatibility.

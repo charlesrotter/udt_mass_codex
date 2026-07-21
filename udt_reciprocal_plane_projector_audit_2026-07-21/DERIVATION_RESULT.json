@@ -1,0 +1,260 @@
+{
+  "check_count": 102,
+  "checks": {
+    "AXIS_REFLECTION_MU4_P_idempotent": "PASS",
+    "AXIS_REFLECTION_MU4_P_metric_self_adjoint": "PASS",
+    "AXIS_REFLECTION_MU4_P_rank_two": "PASS",
+    "AXIS_REFLECTION_MU4_constant_compatibility_0": "PASS",
+    "AXIS_REFLECTION_MU4_constant_compatibility_1": "PASS",
+    "AXIS_REFLECTION_MU4_constant_compatibility_2": "PASS",
+    "AXIS_REFLECTION_MU4_constant_compatibility_3": "PASS",
+    "AXIS_REFLECTION_MU4_difference_rank_four": "PASS",
+    "AXIS_REFLECTION_MU9_P_idempotent": "PASS",
+    "AXIS_REFLECTION_MU9_P_metric_self_adjoint": "PASS",
+    "AXIS_REFLECTION_MU9_P_rank_two": "PASS",
+    "AXIS_REFLECTION_MU9_constant_compatibility_0": "PASS",
+    "AXIS_REFLECTION_MU9_constant_compatibility_1": "PASS",
+    "AXIS_REFLECTION_MU9_constant_compatibility_2": "PASS",
+    "AXIS_REFLECTION_MU9_constant_compatibility_3": "PASS",
+    "AXIS_REFLECTION_MU9_difference_rank_four": "PASS",
+    "CSN_affine_connection_invariant_0": "PASS",
+    "CSN_affine_connection_invariant_1": "PASS",
+    "CSN_affine_connection_invariant_2": "PASS",
+    "CSN_affine_connection_invariant_3": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU4_P_idempotent": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU4_P_metric_self_adjoint": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU4_P_rank_two": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU4_constant_compatibility_0": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU4_constant_compatibility_1": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU4_constant_compatibility_2": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU4_constant_compatibility_3": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU4_difference_rank_four": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU9_P_idempotent": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU9_P_metric_self_adjoint": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU9_P_rank_two": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU9_constant_compatibility_0": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU9_constant_compatibility_1": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU9_constant_compatibility_2": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU9_constant_compatibility_3": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU9_difference_rank_four": "PASS",
+    "MINUS_IDENTITY_MU4_P_idempotent": "PASS",
+    "MINUS_IDENTITY_MU4_P_metric_self_adjoint": "PASS",
+    "MINUS_IDENTITY_MU4_P_rank_two": "PASS",
+    "MINUS_IDENTITY_MU4_constant_compatibility_0": "PASS",
+    "MINUS_IDENTITY_MU4_constant_compatibility_1": "PASS",
+    "MINUS_IDENTITY_MU4_constant_compatibility_2": "PASS",
+    "MINUS_IDENTITY_MU4_constant_compatibility_3": "PASS",
+    "MINUS_IDENTITY_MU4_difference_rank_four": "PASS",
+    "MINUS_IDENTITY_MU9_P_idempotent": "PASS",
+    "MINUS_IDENTITY_MU9_P_metric_self_adjoint": "PASS",
+    "MINUS_IDENTITY_MU9_P_rank_two": "PASS",
+    "MINUS_IDENTITY_MU9_constant_compatibility_0": "PASS",
+    "MINUS_IDENTITY_MU9_constant_compatibility_1": "PASS",
+    "MINUS_IDENTITY_MU9_constant_compatibility_2": "PASS",
+    "MINUS_IDENTITY_MU9_constant_compatibility_3": "PASS",
+    "MINUS_IDENTITY_MU9_difference_rank_four": "PASS",
+    "PLUS_IDENTITY_MU4_P_idempotent": "PASS",
+    "PLUS_IDENTITY_MU4_P_metric_self_adjoint": "PASS",
+    "PLUS_IDENTITY_MU4_P_rank_two": "PASS",
+    "PLUS_IDENTITY_MU4_constant_compatibility_0": "PASS",
+    "PLUS_IDENTITY_MU4_constant_compatibility_1": "PASS",
+    "PLUS_IDENTITY_MU4_constant_compatibility_2": "PASS",
+    "PLUS_IDENTITY_MU4_constant_compatibility_3": "PASS",
+    "PLUS_IDENTITY_MU4_difference_rank_four": "PASS",
+    "PLUS_IDENTITY_MU9_P_idempotent": "PASS",
+    "PLUS_IDENTITY_MU9_P_metric_self_adjoint": "PASS",
+    "PLUS_IDENTITY_MU9_P_rank_two": "PASS",
+    "PLUS_IDENTITY_MU9_constant_compatibility_0": "PASS",
+    "PLUS_IDENTITY_MU9_constant_compatibility_1": "PASS",
+    "PLUS_IDENTITY_MU9_constant_compatibility_2": "PASS",
+    "PLUS_IDENTITY_MU9_constant_compatibility_3": "PASS",
+    "PLUS_IDENTITY_MU9_difference_rank_four": "PASS",
+    "P_parallel_L_not_parallel_P_0": "PASS",
+    "P_parallel_L_not_parallel_P_1": "PASS",
+    "P_parallel_L_not_parallel_P_2": "PASS",
+    "P_parallel_L_not_parallel_P_3": "PASS",
+    "P_parallel_does_not_imply_L_parallel": "PASS",
+    "angular_rotation_does_not_preserve_reciprocal_axis": "PASS",
+    "angular_rotation_preserves_projector": "PASS",
+    "base_boost_preserves_projector": "PASS",
+    "base_tracefree_shear_obstructed_rank_4_augmented_5": "PASS",
+    "base_volume_formula_A2": "PASS",
+    "base_volume_formula_A3": "PASS",
+    "cross_jet_sufficiency_0": "PASS",
+    "cross_jet_sufficiency_1": "PASS",
+    "cross_jet_sufficiency_2": "PASS",
+    "cross_jet_sufficiency_3": "PASS",
+    "free_phi_rate_11_0": "PASS",
+    "free_phi_rate_11_1": "PASS",
+    "free_phi_rate_11_2": "PASS",
+    "free_phi_rate_11_3": "PASS",
+    "free_phi_rate_2_0": "PASS",
+    "free_phi_rate_2_1": "PASS",
+    "free_phi_rate_2_2": "PASS",
+    "free_phi_rate_2_3": "PASS",
+    "full_cross_jet_solution_is_exact_umbilical_form": "PASS",
+    "nonintegrable_twist_has_transverse_bracket": "PASS",
+    "projector_difference_map_rank_four": "PASS",
+    "reciprocal_round_screen_witness_0": "PASS",
+    "reciprocal_round_screen_witness_1": "PASS",
+    "reciprocal_round_screen_witness_2": "PASS",
+    "reciprocal_round_screen_witness_3": "PASS",
+    "round_screen_scalar_curvature_nonzero": "PASS",
+    "screen_tracefree_shear_obstructed_rank_4_augmented_5": "PASS",
+    "screen_volume_formula_A0": "PASS",
+    "screen_volume_formula_A1": "PASS"
+  },
+  "maximum_conclusion": "UDT_RECIPROCAL_PLANE_PROJECTOR_FRAME_STATUS_CHARACTERIZED",
+  "physical_status": {
+    "action_topology_carrier_source_mass": "NOT_INFERRED",
+    "current_metric_forces_integrable_umbilical_split": "OPEN_NOT_DERIVED",
+    "internal_pair_to_spacetime_plane": "CONDITIONAL_NOT_DERIVED",
+    "overall": "COHERENT_CONDITIONAL_FRAME_REDUCTION_NOT_AN_UNCONDITIONAL_UDT_SELECTOR",
+    "projector_parallelism_as_UDT_law": "OPEN_NOT_DERIVED"
+  },
+  "schema": "udt-reciprocal-plane-projector-derivation-1.0",
+  "smallest_missing_principle": {
+    "question": "Does the complete UDT metric and finite-cell seal select a global integrable umbilical reciprocal two-plane projector?",
+    "status": "OPEN_SHARPENED_GATE",
+    "why_missing": "The tested law uniquely transports a supplied compatible split but neither creates the plane nor proves twist/shear absent."
+  },
+  "strictness": {
+    "P_parallel_implies_L_parallel": false,
+    "arbitrary_reciprocal_phi_retained": true,
+    "intrinsic_angular_rotation_retained": true,
+    "twist_or_cross_shear_retained": false
+  },
+  "theorem": {
+    "CSN": "g->exp(2sigma)g; A->A-dsigma; affine connection unchanged",
+    "adapted_conditions": [
+      "partial_A h_ij = 2 s_A h_ij",
+      "partial_i q_AB = 2 r_i q_AB"
+    ],
+    "class": "torsion-free Weyl connection; supplied metric-orthogonal Lorentzian rank-two projector",
+    "existence": "IFF_BOTH_DISTRIBUTIONS_INTEGRABLE_AND_CROSS_SECOND_FUNDAMENTAL_FORMS_PURE_TRACE",
+    "unique_one_form": "A_A=-s_A=-(1/4)partial_A log|det h|; A_i=-r_i=-(1/4)partial_i log det q",
+    "uniqueness": "AT_MOST_ONE_CONNECTION"
+  },
+  "witnesses": {
+    "base_tracefree_shear": "FAIL_RANK_4_AUGMENTED_5",
+    "constant_nonzero_cross_metrics": {
+      "AXIS_REFLECTION_MU4": {
+        "connection": "LC=0; A=0",
+        "difference_map_rank": 4,
+        "metric_cross_entries": [
+          "1/10",
+          "1/10",
+          "1/10",
+          "-1/10"
+        ],
+        "mu": 4,
+        "projector_rank": 2,
+        "result": "COMPATIBLE_UNIQUE_IN_DECLARED_CLASS"
+      },
+      "AXIS_REFLECTION_MU9": {
+        "connection": "LC=0; A=0",
+        "difference_map_rank": 4,
+        "metric_cross_entries": [
+          "1/10",
+          "1/10",
+          "1/10",
+          "-1/10"
+        ],
+        "mu": 9,
+        "projector_rank": 2,
+        "result": "COMPATIBLE_UNIQUE_IN_DECLARED_CLASS"
+      },
+      "HOPF_EXCHANGE_LOCAL_MU4": {
+        "connection": "LC=0; A=0",
+        "difference_map_rank": 4,
+        "metric_cross_entries": [
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10"
+        ],
+        "mu": 4,
+        "projector_rank": 2,
+        "result": "COMPATIBLE_UNIQUE_IN_DECLARED_CLASS"
+      },
+      "HOPF_EXCHANGE_LOCAL_MU9": {
+        "connection": "LC=0; A=0",
+        "difference_map_rank": 4,
+        "metric_cross_entries": [
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10"
+        ],
+        "mu": 9,
+        "projector_rank": 2,
+        "result": "COMPATIBLE_UNIQUE_IN_DECLARED_CLASS"
+      },
+      "MINUS_IDENTITY_MU4": {
+        "connection": "LC=0; A=0",
+        "difference_map_rank": 4,
+        "metric_cross_entries": [
+          "1/10",
+          "1/10",
+          "-1/10",
+          "-1/10"
+        ],
+        "mu": 4,
+        "projector_rank": 2,
+        "result": "COMPATIBLE_UNIQUE_IN_DECLARED_CLASS"
+      },
+      "MINUS_IDENTITY_MU9": {
+        "connection": "LC=0; A=0",
+        "difference_map_rank": 4,
+        "metric_cross_entries": [
+          "1/10",
+          "1/10",
+          "-1/10",
+          "-1/10"
+        ],
+        "mu": 9,
+        "projector_rank": 2,
+        "result": "COMPATIBLE_UNIQUE_IN_DECLARED_CLASS"
+      },
+      "PLUS_IDENTITY_MU4": {
+        "connection": "LC=0; A=0",
+        "difference_map_rank": 4,
+        "metric_cross_entries": [
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10"
+        ],
+        "mu": 4,
+        "projector_rank": 2,
+        "result": "COMPATIBLE_UNIQUE_IN_DECLARED_CLASS"
+      },
+      "PLUS_IDENTITY_MU9": {
+        "connection": "LC=0; A=0",
+        "difference_map_rank": 4,
+        "metric_cross_entries": [
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10"
+        ],
+        "mu": 9,
+        "projector_rank": 2,
+        "result": "COMPATIBLE_UNIQUE_IN_DECLARED_CLASS"
+      }
+    },
+    "nonintegrable_twist": "FAIL_BY_TORSION_AND_FROBENIUS",
+    "reciprocal_warped_round_screen": {
+      "allowed_profiles": "arbitrary phi(r), arbitrary positive R(r)",
+      "connection": "A=-d_base log R",
+      "intrinsic_screen_scalar_curvature": "2/R^2",
+      "metric": "diag(-exp(-2phi),exp(2phi),R^2,R^2 sin^2(theta))",
+      "result": "PASS"
+    },
+    "screen_tracefree_shear": "FAIL_RANK_4_AUGMENTED_5",
+    "two_phi_rates": [
+      2,
+      11
+    ]
+  }
+}

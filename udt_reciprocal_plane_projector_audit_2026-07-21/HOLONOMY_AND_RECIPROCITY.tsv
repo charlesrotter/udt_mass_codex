@@ -1,0 +1,9 @@
+id	question	exact_result	status	boundary
+H01	Does preserving P preserve the reciprocal clock/radial plane?	Yes for a supplied compatible P	DERIVED_CONDITIONAL	The spacetime realization of the founding internal pair remains open.
+H02	Does preserving P preserve individual clock and ruler axes?	No; a base boost commutes with P	REFUTED	A stronger line reduction or normalized generator is additional structure.
+H03	Does preserving P preserve the angular screen?	Yes as the complementary distribution	DERIVED_CONDITIONAL	It does not select coordinates axes or a section within that screen.
+H04	Does preserving P remove angular rotations?	No; the intrinsic SO(2) rotation commutes with P	REFUTED	Angular holonomy and curvature survive.
+H05	Does preserving P select an angular reciprocal axis?	No; SO(2) rotation fails to commute with a chosen angular reciprocal involution	REFUTED	The conditional two-pair/Hopf route remains strictly stronger.
+H06	What residual local frame algebra remains?	common conformal scale plus so(1,1) plus so(2)	DERIVED_CONDITIONAL	Discrete/global reductions and topology are not included.
+H07	Does the law select phi?	No; two inequivalent phi jets pass with the same P screen and A	REFUTED	A field equation bootstrap or boundary condition is still needed.
+H08	Does CSN change the transported affine connection?	No; A shifts by minus d sigma and the affine connection is invariant	DERIVED_IN_WEYL_CLASS	This does not prove that UDT selects Weyl transport.

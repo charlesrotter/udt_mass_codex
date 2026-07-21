@@ -1,0 +1,11 @@
+id	statement	exact_condition	result	premise_scope
+T01	Input structure	A Lorentzian conformal metric and a supplied metric-orthogonal rank-two Lorentzian projector P	CONDITIONAL_INPUT	The internal founding pair has not been proved to realize this spacetime object globally.
+T02	Torsion consequence	If a torsion-free connection preserves P then im(P) and ker(P) are Frobenius integrable	DERIVED_IN_DECLARED_CLASS	Torsionful and singular distributions are outside scope.
+T03	Base cross condition	partial_A h_ij = 2 s_A h_ij	NECESSARY_AND_SUFFICIENT_PART	No trace-free screen-direction deformation of the reciprocal plane is allowed.
+T04	Screen cross condition	partial_i q_AB = 2 r_i q_AB	NECESSARY_AND_SUFFICIENT_PART	No trace-free base-direction deformation of the angular screen is allowed.
+T05	Unique Weyl one-form	A_A=-s_A=-(1/4)partial_A log|det h| and A_i=-r_i=-(1/4)partial_i log det q	DERIVED_CONDITIONAL	Formula is for the two-plus-two adapted integrable class.
+T06	Uniqueness	The Weyl one-form difference map has rank four	UNIQUE_IF_COMPATIBLE	Uniqueness is not existence or physical selection.
+T07	CSN covariance	g maps to exp(2 sigma)g and A maps to A-d sigma while the affine connection is unchanged	DERIVED_IN_DECLARED_CLASS	Uses the torsion-free Weyl comparison class.
+T08	Intrinsic base freedom	partial_i h_jk is unrestricted by projector parallelism	DERIVED_IN_DECLARED_CLASS	Field equations or an action may impose separate restrictions.
+T09	Intrinsic screen freedom	partial_A q_BC and intrinsic screen curvature are unrestricted by projector parallelism	DERIVED_IN_DECLARED_CLASS	No angular shape topology or section is selected.
+T10	Complete local theorem	Existence iff the supplied split is integrable and both cross second fundamental forms are pure trace	DERIVED_IN_DECLARED_CLASS	Local nonsingular geometry only; global continuation remains open.
