@@ -1,0 +1,6 @@
+design_family	records	ricci_rank_counts	curvature_operator_rank_counts	shear_rank_counts	twist_rank_counts	mixed_curvature_active	merit_filter
+METRIC_AXIS	160	4:160	3:32;5:128	0:48;1:112	0:96;1:64	160	NONE
+ORIGIN	8	0:8	0:8	0:8	0:8	0	NONE
+ORTHOGONAL_SIGN	256	4:256	6:256	2:256	1:256	256	NONE
+PHI_AXIS	16	0:16	0:16	0:16	0:16	0	NONE
+PHI_SWEEP	40	4:40	6:40	2:40	1:40	40	NONE

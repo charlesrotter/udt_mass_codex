@@ -1,0 +1,61 @@
+design_id	family	alpha_0	alpha_1	alpha_2	alpha_3	alpha_4	alpha_5	alpha_6	alpha_7	alpha_8	alpha_9	beta	note
+O00	ORIGIN	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	all eleven controls zero
+A00P	METRIC_AXIS	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	isolated alpha_0
+A00M	METRIC_AXIS	-1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	isolated alpha_0
+A01P	METRIC_AXIS	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	isolated alpha_1
+A01M	METRIC_AXIS	0.0	-1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	isolated alpha_1
+A02P	METRIC_AXIS	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	isolated alpha_2
+A02M	METRIC_AXIS	0.0	0.0	-1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	isolated alpha_2
+A03P	METRIC_AXIS	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	isolated alpha_3
+A03M	METRIC_AXIS	0.0	0.0	0.0	-1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	isolated alpha_3
+A04P	METRIC_AXIS	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	isolated alpha_4
+A04M	METRIC_AXIS	0.0	0.0	0.0	0.0	-1.0	0.0	0.0	0.0	0.0	0.0	0.0	isolated alpha_4
+A05P	METRIC_AXIS	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	isolated alpha_5
+A05M	METRIC_AXIS	0.0	0.0	0.0	0.0	0.0	-1.0	0.0	0.0	0.0	0.0	0.0	isolated alpha_5
+A06P	METRIC_AXIS	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	isolated alpha_6
+A06M	METRIC_AXIS	0.0	0.0	0.0	0.0	0.0	0.0	-1.0	0.0	0.0	0.0	0.0	isolated alpha_6
+A07P	METRIC_AXIS	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	isolated alpha_7
+A07M	METRIC_AXIS	0.0	0.0	0.0	0.0	0.0	0.0	0.0	-1.0	0.0	0.0	0.0	isolated alpha_7
+A08P	METRIC_AXIS	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	isolated alpha_8
+A08M	METRIC_AXIS	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	-1.0	0.0	0.0	isolated alpha_8
+A09P	METRIC_AXIS	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	isolated alpha_9
+A09M	METRIC_AXIS	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	-1.0	0.0	isolated alpha_9
+B00P	PHI_AXIS	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	isolated beta
+B00M	PHI_AXIS	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	-1.0	isolated beta
+H00	ORTHOGONAL_SIGN	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	corrected H32 columns
+H01	ORTHOGONAL_SIGN	-0.75	0.75	0.75	0.75	0.75	-0.75	-0.75	0.75	-0.75	-0.75	0.75	corrected H32 columns
+H02	ORTHOGONAL_SIGN	0.75	-0.75	0.75	0.75	0.75	-0.75	0.75	-0.75	-0.75	0.75	-0.75	corrected H32 columns
+H03	ORTHOGONAL_SIGN	-0.75	-0.75	0.75	0.75	0.75	0.75	-0.75	-0.75	0.75	-0.75	-0.75	corrected H32 columns
+H04	ORTHOGONAL_SIGN	0.75	0.75	-0.75	0.75	0.75	0.75	-0.75	-0.75	-0.75	0.75	0.75	corrected H32 columns
+H05	ORTHOGONAL_SIGN	-0.75	0.75	-0.75	0.75	0.75	-0.75	0.75	-0.75	0.75	-0.75	0.75	corrected H32 columns
+H06	ORTHOGONAL_SIGN	0.75	-0.75	-0.75	0.75	0.75	-0.75	-0.75	0.75	0.75	0.75	-0.75	corrected H32 columns
+H07	ORTHOGONAL_SIGN	-0.75	-0.75	-0.75	0.75	0.75	0.75	0.75	0.75	-0.75	-0.75	-0.75	corrected H32 columns
+H08	ORTHOGONAL_SIGN	0.75	0.75	0.75	-0.75	0.75	0.75	0.75	0.75	0.75	-0.75	-0.75	corrected H32 columns
+H09	ORTHOGONAL_SIGN	-0.75	0.75	0.75	-0.75	0.75	-0.75	-0.75	0.75	-0.75	0.75	-0.75	corrected H32 columns
+H10	ORTHOGONAL_SIGN	0.75	-0.75	0.75	-0.75	0.75	-0.75	0.75	-0.75	-0.75	-0.75	0.75	corrected H32 columns
+H11	ORTHOGONAL_SIGN	-0.75	-0.75	0.75	-0.75	0.75	0.75	-0.75	-0.75	0.75	0.75	0.75	corrected H32 columns
+H12	ORTHOGONAL_SIGN	0.75	0.75	-0.75	-0.75	0.75	0.75	-0.75	-0.75	-0.75	-0.75	-0.75	corrected H32 columns
+H13	ORTHOGONAL_SIGN	-0.75	0.75	-0.75	-0.75	0.75	-0.75	0.75	-0.75	0.75	0.75	-0.75	corrected H32 columns
+H14	ORTHOGONAL_SIGN	0.75	-0.75	-0.75	-0.75	0.75	-0.75	-0.75	0.75	0.75	-0.75	0.75	corrected H32 columns
+H15	ORTHOGONAL_SIGN	-0.75	-0.75	-0.75	-0.75	0.75	0.75	0.75	0.75	-0.75	0.75	0.75	corrected H32 columns
+H16	ORTHOGONAL_SIGN	0.75	0.75	0.75	0.75	-0.75	0.75	0.75	0.75	0.75	0.75	0.75	corrected H32 columns
+H17	ORTHOGONAL_SIGN	-0.75	0.75	0.75	0.75	-0.75	-0.75	-0.75	0.75	-0.75	-0.75	0.75	corrected H32 columns
+H18	ORTHOGONAL_SIGN	0.75	-0.75	0.75	0.75	-0.75	-0.75	0.75	-0.75	-0.75	0.75	-0.75	corrected H32 columns
+H19	ORTHOGONAL_SIGN	-0.75	-0.75	0.75	0.75	-0.75	0.75	-0.75	-0.75	0.75	-0.75	-0.75	corrected H32 columns
+H20	ORTHOGONAL_SIGN	0.75	0.75	-0.75	0.75	-0.75	0.75	-0.75	-0.75	-0.75	0.75	0.75	corrected H32 columns
+H21	ORTHOGONAL_SIGN	-0.75	0.75	-0.75	0.75	-0.75	-0.75	0.75	-0.75	0.75	-0.75	0.75	corrected H32 columns
+H22	ORTHOGONAL_SIGN	0.75	-0.75	-0.75	0.75	-0.75	-0.75	-0.75	0.75	0.75	0.75	-0.75	corrected H32 columns
+H23	ORTHOGONAL_SIGN	-0.75	-0.75	-0.75	0.75	-0.75	0.75	0.75	0.75	-0.75	-0.75	-0.75	corrected H32 columns
+H24	ORTHOGONAL_SIGN	0.75	0.75	0.75	-0.75	-0.75	0.75	0.75	0.75	0.75	-0.75	-0.75	corrected H32 columns
+H25	ORTHOGONAL_SIGN	-0.75	0.75	0.75	-0.75	-0.75	-0.75	-0.75	0.75	-0.75	0.75	-0.75	corrected H32 columns
+H26	ORTHOGONAL_SIGN	0.75	-0.75	0.75	-0.75	-0.75	-0.75	0.75	-0.75	-0.75	-0.75	0.75	corrected H32 columns
+H27	ORTHOGONAL_SIGN	-0.75	-0.75	0.75	-0.75	-0.75	0.75	-0.75	-0.75	0.75	0.75	0.75	corrected H32 columns
+H28	ORTHOGONAL_SIGN	0.75	0.75	-0.75	-0.75	-0.75	0.75	-0.75	-0.75	-0.75	-0.75	-0.75	corrected H32 columns
+H29	ORTHOGONAL_SIGN	-0.75	0.75	-0.75	-0.75	-0.75	-0.75	0.75	-0.75	0.75	0.75	-0.75	corrected H32 columns
+H30	ORTHOGONAL_SIGN	0.75	-0.75	-0.75	-0.75	-0.75	-0.75	-0.75	0.75	0.75	-0.75	0.75	corrected H32 columns
+H31	ORTHOGONAL_SIGN	-0.75	-0.75	-0.75	-0.75	-0.75	0.75	0.75	0.75	-0.75	0.75	0.75	corrected H32 columns
+S00	PHI_SWEEP	1.0	-0.5	0.75	-1.0	0.5	-0.75	1.0	-0.5	0.75	-1.0	-1.0	fixed metric amplitudes
+S01	PHI_SWEEP	1.0	-0.5	0.75	-1.0	0.5	-0.75	1.0	-0.5	0.75	-1.0	-0.5	fixed metric amplitudes
+S02	PHI_SWEEP	1.0	-0.5	0.75	-1.0	0.5	-0.75	1.0	-0.5	0.75	-1.0	0.0	fixed metric amplitudes
+S03	PHI_SWEEP	1.0	-0.5	0.75	-1.0	0.5	-0.75	1.0	-0.5	0.75	-1.0	0.5	fixed metric amplitudes
+S04	PHI_SWEEP	1.0	-0.5	0.75	-1.0	0.5	-0.75	1.0	-0.5	0.75	-1.0	1.0	fixed metric amplitudes

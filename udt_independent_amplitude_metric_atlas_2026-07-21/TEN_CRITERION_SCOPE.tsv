@@ -1,0 +1,11 @@
+id	criterion	covered	open
+Q01	FIELDS	ten independently controlled metric slots plus independent C02 phi	other field realizations and phi joins open
+Q02	ACTION_TERMS	none	all actions excluded
+Q03	FULL_EQUATIONS	none	no EOM solution set
+Q04	DOMAIN_COORDINATES	four smooth banks and all eight points	arbitrary functions and global atlas open
+Q05	BOUNDARY_REGULARITY	not sampled	finite-cell boundary open
+Q06	TOPOLOGICAL_SECTOR	none selected	global topology open
+Q07	DYNAMICAL_CHARACTER	coordinate-dependent configurations	not physical evolution
+Q08	BRANCH_BIFURCATION	finite amplitude design only	no law-defined branches
+Q09	STABILITY	not entered	no perturbation operator
+Q10	REGIME_VALIDITY	one regular factorized local chart	other charts nonsmooth and global regimes open

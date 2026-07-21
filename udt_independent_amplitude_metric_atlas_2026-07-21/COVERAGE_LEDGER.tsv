@@ -1,0 +1,11 @@
+id	object	observed	required	status	scope
+C01	amplitude_design_rows	60	60	PASS	finite deterministic design
+C02	unique_amplitude_rows	60	60	PASS	not Cartesian exhaustive
+C03	metric_design_rank	10	10	PASS	sample design matrix
+C04	combined_design_rank	11	11	PASS	sample design matrix
+C05	regular_configuration_records	480	480	PASS	four banks two points each
+C06	complete_metric_tangent_rank_ten_records	480	480	PASS	210x10 tangent
+C07	combined_tangent_rank_eleven_records	480	480	PASS	231x11 tangent
+C08	phi_decoupling_checks	16	16	PASS	configuration independence only
+C09	all_coordinate_metric_activity_nonzero_metric_records	456	456	PASS	pointwise derivative activity
+C10	arbitrary_functions_global_topology_and_dynamics	NOT_ENUMERATED	EXPLICIT_OPEN	PASS	no finite exhaustiveness

@@ -1,0 +1,16 @@
+id	failure_mode	present
+A01	action EOM or residual filter	ABSENT
+A02	boundary seal or topology target	ABSENT
+A03	particle mass stability or spectrum target	ABSENT
+A04	GR or empirical merit target	ABSENT
+A05	shared metric amplitude retained	ABSENT
+A06	phi amplitude fed into metric	ABSENT
+A07	rank-deficient record discarded	ABSENT
+A08	slot-value rank promoted to complete-jet rank	ABSENT
+A09	time dependence called evolution	ABSENT
+A10	finite design called generic dense or exhaustive	ABSENT
+A11	physical representative selected	ABSENT
+A12	metric-phi law inferred	ABSENT
+A13	parameter threshold assigned physical meaning	ABSENT
+A14	undesired curvature class filtered	ABSENT
+A15	complete solution space claimed	ABSENT

@@ -1,0 +1,17 @@
+UDT_INDEPENDENT_AMPLITUDE_METRIC_ATLAS=PASS
+checks=28 classification=INDEPENDENT_AMPLITUDE_CONFIGURATION_ATLAS_OBSERVED_IN_REGISTERED_LOCAL_REGIME
+design_rows=60 metric_design_rank=10 combined_design_rank=11
+configurations=480 unique_configurations=476 unique_metric_jets=425
+slot_value_tangent_ranks={'0': 60, '10': 420}
+complete_metric_tangent_ranks={'10': 480}
+combined_tangent_ranks={'11': 480}
+phi_decoupling_checks=16 max_phi_to_metric_feedback=0 max_metric_to_phi_feedback=0
+metric_zero_flat=24/24
+full_ricci_curvature_ranks=456/296/480
+shear_twist_mixed=296/360/456/480
+phi_signs=158/44/278
+dphi_timelike_zero_nearnull_spacelike=76/176/0/228
+max_identity_residual=4.4408920985006262e-16
+raw_configuration_sha256=506d911cadc034be34de968484895d761ae9e503be6ec085b5fecdee6085c66c
+dynamics=NO solutions=0 physics_ranking=NO finite_exhaustiveness=NO gpu=NO
+maximum_conclusion=TEN_METRIC_AMPLITUDES_AND_PHI_VARIED_INDEPENDENTLY_WITHIN_REGISTERED_CONFIGURATION_DESIGN

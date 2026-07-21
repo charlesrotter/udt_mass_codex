@@ -1,0 +1,30 @@
+{
+  "builder_imported": false,
+  "catch_proofs": 17,
+  "catches": [
+    "missing_design",
+    "duplicate_design",
+    "shared_amplitude_regression",
+    "lost_metric_axis",
+    "lost_phi_axis",
+    "rank_promotion",
+    "phi_feedback",
+    "omitted_sector",
+    "changed_tolerance",
+    "filtered_record",
+    "dynamics_promotion",
+    "physical_evolution_promotion",
+    "physics_ranking_promotion",
+    "solutions_promotion",
+    "finite_exhaustiveness",
+    "geometry_census_corruption",
+    "anti_imposition_identity"
+  ],
+  "classification_verified": "INDEPENDENT_AMPLITUDE_CONFIGURATION_ATLAS_OBSERVED_IN_REGISTERED_LOCAL_REGIME",
+  "independent_checks": 57,
+  "independent_curvature_anchor": "H17_B2_P6",
+  "maximum_verified": "TEN_METRIC_AMPLITUDES_AND_PHI_VARIED_INDEPENDENTLY_WITHIN_REGISTERED_CONFIGURATION_DESIGN",
+  "schema": "udt-independent-amplitude-metric-atlas-verification-1.0",
+  "status": "PASS",
+  "symbolic_anchor": "O00_B0_P0"
+}
