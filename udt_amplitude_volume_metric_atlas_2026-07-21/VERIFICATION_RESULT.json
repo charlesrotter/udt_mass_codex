@@ -1,0 +1,38 @@
+{
+  "all_configuration_curvatures_reconstructed": 1160,
+  "catch_proofs": 20,
+  "catches": [
+    "missing_design",
+    "duplicate_design",
+    "changed_halton_coordinate",
+    "changed_halton_base",
+    "changed_hadamard_direction",
+    "changed_radius",
+    "missing_observation",
+    "raw_jet_mutation",
+    "class_mutation",
+    "rank_margin_mutation",
+    "edge_mutation",
+    "filtered_record",
+    "ensemble_promotion",
+    "physical_transition_promotion",
+    "dynamics_promotion",
+    "solution_promotion",
+    "finite_exhaustiveness",
+    "census_corruption",
+    "anti_imposition_corruption",
+    "common_mode_design_constant_drift"
+  ],
+  "classification_verified": "BOUNDED_AMPLITUDE_VOLUME_CONFIGURATIONS_OBSERVED",
+  "curvature_anchors": [
+    "O00_B0_P0",
+    "V037_B2_P6",
+    "R07_4_B3_P7"
+  ],
+  "frozen_independent_geometry_verifier_reused": true,
+  "independent_checks": 44,
+  "maximum_verified": "BOUNDED_ELEVEN_AMPLITUDE_INTERIOR_AND_RADIAL_CONFIGURATION_VOLUME_CHARACTERIZED",
+  "schema": "udt-amplitude-volume-metric-atlas-verification-1.0",
+  "status": "PASS",
+  "volume_builder_imported": false
+}

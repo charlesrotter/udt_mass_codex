@@ -1,0 +1,11 @@
+id	criterion	covered	open
+Q01	FIELDS	ten metric amplitudes plus independent C02 phi	other field realizations open
+Q02	ACTION_TERMS	none	all actions excluded
+Q03	FULL_EQUATIONS	none	no law-defined solutions
+Q04	DOMAIN_COORDINATES	four analytic banks eight points	arbitrary functions and charts open
+Q05	BOUNDARY_REGULARITY	not sampled	finite-cell boundary open
+Q06	TOPOLOGICAL_SECTOR	none	global topology open
+Q07	DYNAMICAL_CHARACTER	configuration dependence only	physical evolution absent
+Q08	BRANCH_BIFURCATION	diagnostic radial changes	no physical transition claim
+Q09	STABILITY	not entered	no perturbation operator
+Q10	REGIME_VALIDITY	bounded eleven-cube local chart	global and full amplitude space open

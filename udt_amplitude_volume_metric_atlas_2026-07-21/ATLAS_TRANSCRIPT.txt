@@ -1,0 +1,12 @@
+UDT_AMPLITUDE_VOLUME_METRIC_ATLAS=PASS
+checks=18 classification=BOUNDED_AMPLITUDE_VOLUME_CONFIGURATIONS_OBSERVED
+design=145 interior=64 radial=80 configurations=1160
+unique_configurations=1156 unique_metric_jets=1153
+geometry_classes={'R0_K0_S0_T0_M0': 8, 'R4_K6_S2_T1_M1': 1152}
+radial_edges=640 changed=128 unchanged=512
+numeric_uncertain_records=0
+phi_signs={'negative': 434, 'near_zero': 2, 'positive': 724} dphi_classes={'SPACELIKE': 864, 'TIMELIKE': 288, 'ZERO': 8}
+max_identity_residual=4.4408920985006262e-16
+raw_configuration_sha256=27b016b38a0ff3cb5891ba9fa453e1f4019644e27ef2372fd2e93f9399b594f3
+ensembles=DEFERRED dynamics=NO solutions=0 physics_ranking=NO finite_exhaustiveness=NO gpu=NO
+maximum_conclusion=BOUNDED_ELEVEN_AMPLITUDE_INTERIOR_AND_RADIAL_CONFIGURATION_VOLUME_CHARACTERIZED

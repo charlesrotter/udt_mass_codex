@@ -1,0 +1,10 @@
+id	object	observed	required	status	scope
+C01	amplitude_identities	145	145	PASS	finite raw design
+C02	interior_rows	64	64	PASS	Halton indices 1..64
+C03	radial_rows	80	80	PASS	16 directions five radii
+C04	configuration_records	1160	1160	PASS	all retained
+C05	radial_edges	640	640	PASS	diagnostic changes only
+C06	numeric_uncertain_records	0	REPORTED_NOT_FILTERED	PASS	rank threshold diagnostic
+C07	diagnostic_tuple_changed_edges	128	REPORTED_NOT_FILTERED	PASS	not physical transition
+C08	ensemble_or_physics_interpretation	NOT_PERFORMED	DEFERRED	PASS	raw mapping only
+C09	arbitrary_functions_charts_global_space	NOT_ENUMERATED	EXPLICIT_OPEN	PASS	no exhaustiveness

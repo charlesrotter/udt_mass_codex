@@ -1,0 +1,70 @@
+{
+  "amplitude_identities": 145,
+  "checks": 18,
+  "checks_passed": [
+    "source_udt_independent_amplitude_metric_atlas_2026-07-21/SHA256SUMS.txt",
+    "source_udt_canonical_geometry_evaluator_p01_2026-07-21/SHA256SUMS.txt",
+    "design_count",
+    "design_unique",
+    "interior_unique",
+    "interior_metric_rank",
+    "interior_combined_rank",
+    "interior_sign_coverage",
+    "radial_registry",
+    "schedule",
+    "configuration_count",
+    "configuration_unique_ids",
+    "all_lorentzian",
+    "identity_gate",
+    "all_retained",
+    "radial_edges",
+    "no_physical_transition",
+    "class_census_complete"
+  ],
+  "classification": "BOUNDED_AMPLITUDE_VOLUME_CONFIGURATIONS_OBSERVED",
+  "coefficient_banks": 4,
+  "configuration_records": 1160,
+  "dynamics_loaded": false,
+  "ensemble_interpretation_performed": false,
+  "evidence_grade": "OBSERVED_PENDING_INDEPENDENT_VERIFICATION",
+  "finite_exhaustiveness_claim": false,
+  "gpu_used": false,
+  "interior_rows": 64,
+  "max_identity_residual": 4.440892098500626e-16,
+  "maximum_conclusion": "BOUNDED_ELEVEN_AMPLITUDE_INTERIOR_AND_RADIAL_CONFIGURATION_VOLUME_CHARACTERIZED",
+  "observed_census": {
+    "design_kind_counts": {
+      "INTERIOR": 512,
+      "ORIGIN": 8,
+      "RADIAL": 640
+    },
+    "dphi_class_counts": {
+      "SPACELIKE": 864,
+      "TIMELIKE": 288,
+      "ZERO": 8
+    },
+    "geometry_class_counts": {
+      "R0_K0_S0_T0_M0": 8,
+      "R4_K6_S2_T1_M1": 1152
+    },
+    "numeric_uncertain_records": 0,
+    "phi_sign_counts": {
+      "near_zero": 2,
+      "negative": 434,
+      "positive": 724
+    },
+    "radial_changed_edges": 128,
+    "radial_unchanged_edges": 512
+  },
+  "physical_transition_claimed": false,
+  "physics_ranking_used": false,
+  "radial_edges": 640,
+  "radial_rows": 80,
+  "raw_configuration_sha256": "27b016b38a0ff3cb5891ba9fa453e1f4019644e27ef2372fd2e93f9399b594f3",
+  "sample_points": 8,
+  "schema": "udt-amplitude-volume-metric-atlas-1.0",
+  "solutions_run": 0,
+  "status": "PASS",
+  "unique_configuration_hashes": 1156,
+  "unique_metric_jet_hashes": 1153
+}

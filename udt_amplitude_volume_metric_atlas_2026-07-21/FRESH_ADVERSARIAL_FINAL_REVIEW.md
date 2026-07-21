@@ -1,0 +1,1 @@
+PASS — within the finite registered sample only. Verifier: 44 checks, 20 catches; generated outputs remained byte-identical.
