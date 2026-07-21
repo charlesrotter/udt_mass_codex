@@ -428,6 +428,7 @@
     "udt_canonical_geometry_evaluator_p01_2026-07-21/INTERFACE_COVERAGE.tsv",
     "udt_canonical_geometry_evaluator_p01_2026-07-21/LAY_REPORT.md",
     "udt_canonical_geometry_evaluator_p01_2026-07-21/PREREGISTRATION.md",
+    "udt_canonical_geometry_evaluator_p01_2026-07-21/REPOSITORY_GATES.json",
     "udt_canonical_geometry_evaluator_p01_2026-07-21/SHA256SUMS.txt",
     "udt_canonical_geometry_evaluator_p01_2026-07-21/SOURCE_LINEAGE.tsv",
     "udt_canonical_geometry_evaluator_p01_2026-07-21/STATUS_LEDGER.tsv",
@@ -446,7 +447,7 @@
     "failed": 1,
     "failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
     "passed": 69,
-    "stdout_sha256": "71b0ca8871faca50f3fd5c0584222ae2f769ca13830b5932d2009cbc863dbee1",
+    "stdout_sha256": "29ed5b9fc24aa66314a7b30371e0fd7495a0dd04307b6d32d1368dd31c3b67e6",
     "xfailed": 1
   }
 }
