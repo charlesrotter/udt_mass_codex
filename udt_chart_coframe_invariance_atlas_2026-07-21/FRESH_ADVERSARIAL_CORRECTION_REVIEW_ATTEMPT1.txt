@@ -1,0 +1,7 @@
+# FAIL
+
+- Correct feature branch; preregistration and parent sources match hashes.
+- CPU-only verifier reproduced 1,419,862 checks and 14 mutation catches. Cartan/spin residuals were \(2.22\times10^{-16}\)/\(3.05\times10^{-16}\); 768 split checks reached \(1.11\times10^{-16}\).
+- Manifest hashes validate for all 61 listed files, but the exact worktree contains a 62nd unmanifested file: `FRESH_ADVERSARIAL_CORRECTION_REVIEW_TRANSCRIPT.txt`. The repository gate therefore fails recursive coverage at [verify_repository_gates.py](/tmp/udt_startup_rehearsal_20260719_h0zjlA/repo/udt_chart_coframe_invariance_atlas_2026-07-21/verify_repository_gates.py:123).
+- The C05/M4 conditional split rank remains threshold-sensitive: \(1.0766\times10^{-9}\) retained versus \(3.3477\times10^{-10}\) discarded at \(10^{-9}\).
+- Scope remains a finite chart/coframe atlas, not a full-group proof. Split findings remain conditional on the supplied 2+2 split; no physical split is selected.

@@ -1,0 +1,14 @@
+item	status	scope	remaining_open
+full_metric_and_curvature_chart_covariance	OBSERVED	all 6144 configurations under seven registered constant charts	nonlinear and full diffeomorphism group
+full_tensor_mobius_activity_invariance	OBSERVED	all 5760 targets under all twelve registered transformations	unregistered transformations
+full_tensor_span_rank_invariance	OBSERVED	all 15 targets and seven full-tensor payloads under all twelve transformations	physical degrees-of-freedom interpretation
+local_lorentz_coframe_metric_invariance	OBSERVED	five registered constant/local Lorentz probes; 3840 independent anchors	full Lorentz group proof
+cartan_curvature_coframe_covariance	OBSERVED	all 6144 configurations and five coframe probes	global framing/topology
+block_preserving_split_consistency	OBSERVED	C01/C02 and all coframe probes	intrinsic selection of split
+cross_reseated_split_dependence	OBSERVED	C03/C04/C05 all configurations and interactions	whether UDT supplies an invariant distribution
+time_screen_split_signature_failure	OBSERVED	C06 all 6144 configurations and 5760 split targets	other admissible distributions
+preferred_base_screen_projector	OPEN	not selected by chart or coframe invariance	metric-native selector or proof of non-selection
+full_diffeomorphism_invariance_atlas	OPEN	constant charts only	nonlinear chart jets
+action_source_carrier_boundary_scale	OPEN	not loaded	complete UDT dynamics and matter
+physical_interpretation_of_mobius_terms	OPEN	structural diagnostic only	law-defined coupling meaning
+

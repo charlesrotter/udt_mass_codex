@@ -1,0 +1,145 @@
+{
+  "action_loaded": false,
+  "checks": 41,
+  "checks_passed": [
+    "source_udt_structural_ensemble_metric_atlas_2026-07-21/SHA256SUMS.txt",
+    "source_udt_canonical_geometry_evaluator_p01_2026-07-21/SHA256SUMS.txt",
+    "source_udt_complete_metric_solution_space_map_2026-07-21/SHA256SUMS.txt",
+    "prereg_PREREGISTRATION.md",
+    "prereg_PREREGISTRATION_CORRECTION.md",
+    "transformation_count",
+    "invertible_C00_IDENTITY",
+    "invertible_C01_BLOCK_GENERAL",
+    "invertible_C02_BLOCK_GENERAL_INVERSE",
+    "invertible_C03_CROSS_GENERAL",
+    "invertible_C04_CROSS_GENERAL_INVERSE",
+    "invertible_C05_SWAP_DEPTH_SCREEN",
+    "invertible_C06_SWAP_TIME_SCREEN",
+    "invertible_F01_CONSTANT_BASE_BOOST",
+    "lorentz_F01_CONSTANT_BASE_BOOST",
+    "invertible_F02_LOCAL_BASE_BOOST",
+    "lorentz_F02_LOCAL_BASE_BOOST",
+    "invertible_F03_CONSTANT_CROSS_BOOST",
+    "lorentz_F03_CONSTANT_CROSS_BOOST",
+    "invertible_F04_LOCAL_CROSS_BOOST",
+    "lorentz_F04_LOCAL_CROSS_BOOST",
+    "invertible_F05_LOCAL_SCREEN_ROTATION",
+    "lorentz_F05_LOCAL_SCREEN_ROTATION",
+    "parent_configurations",
+    "parent_interactions",
+    "parent_raw_shards",
+    "raw_shard_RAW_CONFIGURATION_JETS_B0_P0.jsonl",
+    "raw_shard_RAW_CONFIGURATION_JETS_B0_P4.jsonl",
+    "raw_shard_RAW_CONFIGURATION_JETS_B1_P1.jsonl",
+    "raw_shard_RAW_CONFIGURATION_JETS_B1_P5.jsonl",
+    "raw_shard_RAW_CONFIGURATION_JETS_B2_P2.jsonl",
+    "raw_shard_RAW_CONFIGURATION_JETS_B2_P6.jsonl",
+    "raw_shard_RAW_CONFIGURATION_JETS_B3_P3.jsonl",
+    "raw_shard_RAW_CONFIGURATION_JETS_B3_P7.jsonl",
+    "configuration_orbit_count",
+    "interaction_orbit_count",
+    "no_numeric_covariance_failures",
+    "full_tensor_mobius_covariance",
+    "all_retained",
+    "span_rows",
+    "rank_margin_rows"
+  ],
+  "classification": "BOUNDED_CHART_COFRAME_AND_SUPPLIED_SPLIT_ORBITS_OBSERVED",
+  "configuration_orbit_records": 73728,
+  "configuration_records": 6144,
+  "configuration_shards": 12,
+  "discarded_records": 0,
+  "evidence_grade": "OBSERVED_PENDING_INDEPENDENT_VERIFICATION",
+  "full_group_exhaustiveness_claim": false,
+  "gpu_used": false,
+  "interaction_orbit_records": 69120,
+  "interaction_records": 5760,
+  "interaction_shards": 12,
+  "max_certification_residual": 1.7763568394002505e-15,
+  "maximum_conclusion": "BOUNDED_CHART_COFRAME_AND_SUPPLIED_SPLIT_INVARIANCE_ATLAS_CHARACTERIZED",
+  "numeric_covariance_failures": 0,
+  "numeric_uncertain_span_rows": 1,
+  "physical_merit_filter": false,
+  "primary_status_counts": {
+    "C00_IDENTITY": {
+      "TENSOR_COVARIANT_COMPONENT_CHANGE": 6144
+    },
+    "C01_BLOCK_GENERAL": {
+      "TENSOR_COVARIANT_COMPONENT_CHANGE": 6144
+    },
+    "C02_BLOCK_GENERAL_INVERSE": {
+      "TENSOR_COVARIANT_COMPONENT_CHANGE": 6144
+    },
+    "C03_CROSS_GENERAL": {
+      "SUPPLIED_SPLIT_RESEATED_DEFINED": 6144
+    },
+    "C04_CROSS_GENERAL_INVERSE": {
+      "SUPPLIED_SPLIT_RESEATED_DEFINED": 6144
+    },
+    "C05_SWAP_DEPTH_SCREEN": {
+      "SUPPLIED_SPLIT_RESEATED_DEFINED": 6144
+    },
+    "C06_SWAP_TIME_SCREEN": {
+      "SUPPLIED_SPLIT_UNDEFINED_SIGNATURE": 6144
+    },
+    "F01_CONSTANT_BASE_BOOST": {
+      "METRIC_INVARIANT_COFRAME_GAUGE": 6144
+    },
+    "F02_LOCAL_BASE_BOOST": {
+      "METRIC_INVARIANT_COFRAME_GAUGE": 6144
+    },
+    "F03_CONSTANT_CROSS_BOOST": {
+      "METRIC_INVARIANT_COFRAME_GAUGE": 6144
+    },
+    "F04_LOCAL_CROSS_BOOST": {
+      "METRIC_INVARIANT_COFRAME_GAUGE": 6144
+    },
+    "F05_LOCAL_SCREEN_ROTATION": {
+      "METRIC_INVARIANT_COFRAME_GAUGE": 6144
+    }
+  },
+  "schema": "udt-chart-coframe-invariance-atlas-1.0",
+  "solutions_run": 0,
+  "span_rows": 1800,
+  "split_domain_counts": {
+    "C00_IDENTITY": {
+      "DEFINED": 6144
+    },
+    "C01_BLOCK_GENERAL": {
+      "DEFINED": 6144
+    },
+    "C02_BLOCK_GENERAL_INVERSE": {
+      "DEFINED": 6144
+    },
+    "C03_CROSS_GENERAL": {
+      "DEFINED": 6144
+    },
+    "C04_CROSS_GENERAL_INVERSE": {
+      "DEFINED": 6144
+    },
+    "C05_SWAP_DEPTH_SCREEN": {
+      "DEFINED": 6144
+    },
+    "C06_SWAP_TIME_SCREEN": {
+      "INVALID_SIGNATURE": 6144
+    },
+    "F01_CONSTANT_BASE_BOOST": {
+      "DEFINED": 6144
+    },
+    "F02_LOCAL_BASE_BOOST": {
+      "DEFINED": 6144
+    },
+    "F03_CONSTANT_CROSS_BOOST": {
+      "DEFINED": 6144
+    },
+    "F04_LOCAL_CROSS_BOOST": {
+      "DEFINED": 6144
+    },
+    "F05_LOCAL_SCREEN_ROTATION": {
+      "DEFINED": 6144
+    }
+  },
+  "split_selected_claim": false,
+  "status": "PASS",
+  "transformations": 12
+}

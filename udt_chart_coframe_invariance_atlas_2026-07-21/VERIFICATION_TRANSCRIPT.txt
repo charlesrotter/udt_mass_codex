@@ -1,0 +1,8 @@
+UDT_CHART_COFRAME_INVARIANCE_ATLAS_VERIFICATION=PASS
+checks=1419862 catch_proofs=14
+configuration_orbits=73728 interaction_orbits=69120
+local_lorentz_anchors=3840 max_metric_residual=7.1558784992303779e-16
+coordinate_curvature_anchors=112 max_curvature_residual=5.5511151231257827e-17
+independent_cartan_anchors=3952 max_cartan_residual=2.2204460492503131e-16 max_spin_residual=3.0531133177191805e-16
+independent_split_interactions=768 max_residual=1.1102230246251565e-16
+maximum_conclusion=BOUNDED_CHART_COFRAME_AND_SUPPLIED_SPLIT_INVARIANCE_ATLAS_CHARACTERIZED

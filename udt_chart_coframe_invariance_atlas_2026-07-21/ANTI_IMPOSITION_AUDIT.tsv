@@ -1,0 +1,13 @@
+id	failure_mode	present
+A01	chart component change called new geometry	ABSENT
+A02	coframe gauge called physical sector	ABSENT
+A03	reseated split called selected	ABSENT
+A04	invalid split discarded	ABSENT
+A05	undefined split imputed	ABSENT
+A06	component rank called physical degrees of freedom	ABSENT
+A07	ensemble mask re-fit after transform	ABSENT
+A08	finite probes called full group proof	ABSENT
+A09	action or source inferred	ABSENT
+A10	unexpected pattern filtered	ABSENT
+A11	coordinate reseating called evolution	ABSENT
+A12	physical merit ranking	ABSENT

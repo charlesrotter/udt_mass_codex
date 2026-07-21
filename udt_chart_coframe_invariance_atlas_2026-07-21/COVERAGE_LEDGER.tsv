@@ -1,0 +1,11 @@
+id	object	observed	required	pass
+C01	parent configurations	6144	6144	YES
+C02	parent interactions	5760	5760	YES
+C03	registered transformations	12	12	YES
+C04	configuration orbit rows	73728	73728	YES
+C05	interaction orbit rows	69120	69120	YES
+C06	configuration shards	12	12	YES
+C07	interaction shards	12	12	YES
+C08	span rows	1800	1800	YES
+C09	discarded configurations	0	0	YES
+C10	solutions/actions loaded	0	0	YES

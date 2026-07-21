@@ -1,0 +1,53 @@
+# Verdict: FAIL
+
+The bounded mathematical conclusion is supported, but the package cannot be certified as `COMPLETE_VERIFIED_WITH_CAVEATS` in its present form. The failures concern evidence completeness and claimed independence—not a counterexample to the geometry.
+
+## Decisive failures
+
+1. **The banked package is incomplete and not reproducible as delivered.**
+
+   - `PREREGISTRATION.md` and `PREREGISTRATION_CORRECTION.md` are listed in [SOURCE_LINEAGE.tsv](/tmp/udt_startup_rehearsal_20260719_h0zjlA/repo/udt_chart_coframe_invariance_atlas_2026-07-21/SOURCE_LINEAGE.tsv:5) but absent from the package directory. Their exact hashes do exist in Git commits `f572769` and `fefa380`, so preregistration itself is genuine.
+   - [COMMANDS.md](/tmp/udt_startup_rehearsal_20260719_h0zjlA/repo/udt_chart_coframe_invariance_atlas_2026-07-21/COMMANDS.md:10) claims execution of `build_manifest.py` and `verify_repository_gates.py`, but neither script nor `SHA256SUMS.txt` is present.
+   - The verifier therefore cannot replay on the mandated `grok` worktree. It presently stops at the absent parent source; after restoring that source, it would next stop at the absent preregistration files required at [verify_invariance_atlas.py](/tmp/udt_startup_rehearsal_20260719_h0zjlA/repo/udt_chart_coframe_invariance_atlas_2026-07-21/verify_invariance_atlas.py:225).
+
+2. **Independent verification is overstated.**
+
+   - The verifier checks builder-produced Cartan residual columns at [verify_invariance_atlas.py](/tmp/udt_startup_rehearsal_20260719_h0zjlA/repo/udt_chart_coframe_invariance_atlas_2026-07-21/verify_invariance_atlas.py:257), but its independent raw recomputation block covers metric jets, coordinate Riemann curvature, and split reconstruction—not Cartan curvature ([line 295](/tmp/udt_startup_rehearsal_20260719_h0zjlA/repo/udt_chart_coframe_invariance_atlas_2026-07-21/verify_invariance_atlas.py:295)).
+   - The `D2` reconstruction is meaningfully separate for Schur-complement jet algebra, but shares the canonical forward evaluator and nearly identical shear/twist formulas. It detects many builder implementation mistakes, not a shared convention or kinematics error.
+   - Several advertised catch-proofs are synthetic false predicates rather than exercised mutations: K06 only removes a JSON vector and checks its length; K07 adds `1e-3` to an already computed residual; K10 compares a dummy zero hash ([lines 393–399](/tmp/udt_startup_rehearsal_20260719_h0zjlA/repo/udt_chart_coframe_invariance_atlas_2026-07-21/verify_invariance_atlas.py:393)). These do not prove that the full verification path catches the named faults.
+
+3. **One rank-threshold caveat is omitted.**
+
+   C05/M4 `split_slot_twojet` rank 130 retains a singular value of `1.0766158328e-9` while discarding `3.3477070080e-10` at the `1e-9` threshold ([exact row](/tmp/udt_startup_rehearsal_20260719_h0zjlA/repo/udt_chart_coframe_invariance_atlas_2026-07-21/TRANSFORMED_SPAN_RANKS.tsv:789)). The report discusses activity margins at [AUDIT_REPORT.md](/tmp/udt_startup_rehearsal_20260719_h0zjlA/repo/udt_chart_coframe_invariance_atlas_2026-07-21/AUDIT_REPORT.md:107), but not this rank sensitivity.
+
+## What independently passed
+
+- The convention `x = Jx'` and all covariant-index transformations are correct.
+- Fresh direct Riemann recomputation passed 112 coordinate anchors at `5.55e-17`.
+- Lorentz zeroth/first/second identities passed at `2.22e-16`, `3.47e-18`, and `1.95e-18`.
+- All 3,840 local-Lorentz metric-two-jet anchors passed at `7.16e-16`.
+- Fresh algebraic Cartan checks passed 9,216 transformation anchors at `1.94e-16`.
+- All 142,848 saved orbit rows and shard hashes reproduced.
+- Full-tensor activity and span-rank invariance reproduced.
+- The M3 and M6 rank contrasts reproduce exactly.
+- All 6,144 C06 configurations remain retained but split-invalid ([SPLIT_DOMAIN_CENSUS.tsv](/tmp/udt_startup_rehearsal_20260719_h0zjlA/repo/udt_chart_coframe_invariance_atlas_2026-07-21/SPLIT_DOMAIN_CENSUS.tsv:8)); all corresponding split interaction values and ranks are blank, never imputed.
+- The report correctly distinguishes pushed-forward tensor geometry from a newly re-seated coordinate-position split and correctly refuses to call cross-split terms new physics.
+- The finite constant-chart limitation is stated honestly at [AUDIT_REPORT.md](/tmp/udt_startup_rehearsal_20260719_h0zjlA/repo/udt_chart_coframe_invariance_atlas_2026-07-21/AUDIT_REPORT.md:99).
+
+## Banking gates
+
+1. Preregistered: **YES**, recoverable byte-exact from Git.
+2. Full space or bounded scope justified: **YES** for the registered finite atlas.
+3. Independently verified on every load-bearing premise: **NO** as packaged.
+4. Every premise and threshold audited: **NO**, because the C05/M4 rank margin is undisclosed and required evidence files are absent.
+
+## Required corrections
+
+- Restore the two preregistration files byte-exact into the final package.
+- Supply and run the declared manifest and repository-gate scripts; generate a package `SHA256SUMS.txt`.
+- Add a genuinely independent Cartan-curvature check, preferably through the spin-connection/Cartan route rather than repeating the algebraic coframe conversion.
+- Replace K06, K07, K10, and comparable synthetic predicates with actual data/code mutations followed by fail-closed verifier execution.
+- Disclose the C05/M4 threshold-sensitive rank and scope any exact-rank claim accordingly.
+- Regenerate and replay the package CPU-only in a clean, source-complete worktree before upgrading the status.
+
+No repository files were edited, no GPU work was run, and no physical split is selected or recommended.

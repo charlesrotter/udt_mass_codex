@@ -1,0 +1,9 @@
+id	premise	status	scope
+P01	4D conformal-Lorentzian coframe metric	CONDITIONAL	parent realization
+P02	twelve exact transformations	FREE_AND_EXPLORED	finite registered probes
+P03	constant coordinate charts	BOUNDED	nonlinear charts open
+P04	local Lorentz coframes	GAUGE_TEST	registered values and two-jets
+P05	first-two last-two split	CHOSE	reseated and audited, not selected
+P06	ensemble mask histories	CHOSE	fixed before transformations
+P07	component activity threshold	PINNED_BY_HABIT	1e-9 with margins
+P08	action source carrier boundary scale	OPEN	not loaded
