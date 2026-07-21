@@ -119,17 +119,19 @@ def product(expression):
 def main():
     g, determinant, scalar, c2 = tensors()
     action_density = sp.factor(b * c * F * c2)
-    radial_lagrangian = sp.factor(action_density / F)
-    eulers = {str(field): euler_second(radial_lagrangian, field) for field, _ in FIELDS}
-    boundaries = {str(field): boundary(radial_lagrangian, field) for field, _ in FIELDS}
+    # With arbitrary b,c the density contains independent F and F'^2/F weights.  Vary the complete
+    # density pointwise and leave the angular integration explicit; division by F is valid only in
+    # the product control.
+    eulers = {str(field): euler_second(action_density, field) for field, _ in FIELDS}
+    boundaries = {str(field): boundary(action_density, field) for field, _ in FIELDS}
     product_eulers = {name: product(value) for name, value in eulers.items()}
     product_boundaries = {name: tuple(product(value) for value in pair) for name, pair in boundaries.items()}
 
-    product_density_expected = (sp.diff(y, r, 2) - 2 * K) ** 2 / 3
-    product_density_difference = sp.factor(product(radial_lagrangian) - product_density_expected)
-    area_projection = sp.factor(product_eulers[str(b)] + product_eulers[str(c)])
-    shear_projection = sp.factor(product_eulers[str(b)] - product_eulers[str(c)])
-    y_projection = sp.factor(product_eulers[str(y)])
+    product_density_expected = F * (sp.diff(y, r, 2) - 2 * K) ** 2 / 3
+    product_density_difference = sp.factor(product(action_density) - product_density_expected)
+    area_projection = sp.factor((product_eulers[str(b)] + product_eulers[str(c)]) / F)
+    shear_projection = sp.factor((product_eulers[str(b)] - product_eulers[str(c)]) / F)
+    y_projection = sp.factor(product_eulers[str(y)] / F)
 
     full_equation_1 = sp.diff(y, r, 4)
     full_equation_2 = sp.diff(y, r, 2) ** 2 - 2 * sp.diff(y, r) * sp.diff(y, r, 3) - 4 * K**2
@@ -164,9 +166,10 @@ def main():
         "determinant": str(determinant),
         "scalar_curvature": str(scalar),
         "weyl_squared": str(c2),
-        "radial_action_density_per_F": str(radial_lagrangian),
-        "euler_projections": {name: str(value) for name, value in eulers.items()},
+        "action_density": str(action_density),
+        "euler_density_projections": {name: str(value) for name, value in eulers.items()},
         "endpoint_coefficients": {name: {"delta_field": str(pair[0]), "delta_field_prime": str(pair[1])} for name, pair in boundaries.items()},
+        "angular_reduction_rule": "integrate each Euler and endpoint density over the selected theta domain; no general division by F is valid because F and F_prime_squared/F weights coexist",
         "area_shear_map": {
             "Euler_a": "(b*Euler_b+c*Euler_c)/a",
             "Euler_s": "b*Euler_b-c*Euler_c",
@@ -176,14 +179,15 @@ def main():
             "endpoint_delta_s": "b*P_b-c*P_c+b_prime*Q_b-c_prime*Q_c",
         },
         "product_control": {
-            "radial_density": str(product(radial_lagrangian)),
+            "action_density": str(product(action_density)),
+            "density_per_F": str(sp.factor(product(action_density) / F)),
             "density_difference": str(product_density_difference),
             "Euler_y": str(y_projection),
             "Euler_area": str(area_projection),
             "Euler_shear": str(shear_projection),
             "on_full_bach": {name: str(value) for name, value in on_full.items()},
             "full_system": [str(full_equation_1), str(full_equation_2)],
-            "endpoint_coefficients_bc": {name: {"delta_field": str(pair[0]), "delta_field_prime": str(pair[1])} for name, pair in product_boundaries.items()},
+            "endpoint_coefficients_bc": {name: {"delta_field": str(sp.factor(pair[0] / F)), "delta_field_prime": str(sp.factor(pair[1] / F))} for name, pair in product_boundaries.items()},
         },
         "variation_domain_obstruction": {
             "radial_shear_projection_on_full_bach": str(on_full["shear"]),
