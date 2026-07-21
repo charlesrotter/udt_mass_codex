@@ -1,0 +1,8 @@
+UDT_JOINT_INVARIANT_SUBSPACE_ATLAS=PASS
+configurations=6144 families=55296 nonlinear_configs=12288 nonlinear_families=110592
+unique_central_2plus2=0 multiple_central_2plus2=2225
+gradient_planes=0 nondegenerate_gradient_planes=0
+unique_bivector_splits=0 eigenplane_rows=0
+nonlinear_discordances=0 nonlinear_uncertain=24
+max_parent_residual=0 max_nonlinear_covariance=2.2204460492503131e-16
+maximum_conclusion=BOUNDED_POINTWISE_JOINT_INVARIANT_SUBSPACE_ATLAS_CHARACTERIZED
