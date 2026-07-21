@@ -424,6 +424,7 @@
     "udt_complete_metric_solution_space_map_2026-07-21/PREREGISTRATION.md",
     "udt_complete_metric_solution_space_map_2026-07-21/REDUNDANCY_AND_REALIZATION_LEDGER.tsv",
     "udt_complete_metric_solution_space_map_2026-07-21/REGRADING_AND_ROLLBACK_RULES.tsv",
+    "udt_complete_metric_solution_space_map_2026-07-21/REPOSITORY_GATES.json",
     "udt_complete_metric_solution_space_map_2026-07-21/SHA256SUMS.txt",
     "udt_complete_metric_solution_space_map_2026-07-21/SOURCE_LINEAGE.tsv",
     "udt_complete_metric_solution_space_map_2026-07-21/TEN_CRITERION_COMPLETENESS.tsv",
@@ -439,7 +440,7 @@
     "failed": 1,
     "failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
     "passed": 69,
-    "stdout_sha256": "fc084d322b87ec36290d2a5fe33600f24b1b5a6f8d04b462114e6973bd20a6d3",
+    "stdout_sha256": "635963eca5563c804bd4fa32e6d984ff8997ff7f512ddab71c6848427e0d72f5",
     "xfailed": 1
   }
 }
