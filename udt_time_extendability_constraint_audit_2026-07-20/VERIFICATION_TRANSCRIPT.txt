@@ -1,0 +1,10 @@
+command=python3 udt_time_extendability_constraint_audit_2026-07-20/verify_time_extendability.py
+python=3.10.12
+implementation=STANDARD_LIBRARY_EXACT_RATIONAL_MATRIX_AND_LINEAR_RANK_RECONSTRUCTION
+compute=CPU_ONLY
+exit_code=0
+verification=PASS_VERIFIED_WITH_CAVEATS
+derivation_checks=177
+independent_checks=311
+catch_proofs=24
+

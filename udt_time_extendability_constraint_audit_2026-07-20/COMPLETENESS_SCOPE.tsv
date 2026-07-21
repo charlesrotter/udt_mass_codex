@@ -1,0 +1,12 @@
+criterion	coverage	what_was_tested	what_remains_open
+fields	BOUNDED_COMPLETE	G R L and connection on registered four-dimensional lift representatives	full UDT field census matter and field-dependent bundle data
+action_terms	NOT_APPLICABLE_KINEMATIC	no action imported	native bulk and boundary action
+full_equations	NOT_COVERED	pointwise and differentiated compatibility identities only	Euler-Lagrange evolution and constraints
+domain_coordinates	BOUNDED	one exact path parameter s on closed interval plus full four-by-four coframe matrices	physical time map spatial dependence and global charts
+boundary_regularity	SOURCE_AUDITED_ONLY	static seal parity retained	physical time-dependent finite-cell boundary law
+topological_sector	NOT_COVERED	local conditional Hopf exchange only	global topology periods caps and sectors
+dynamical_character	KINEMATIC_PATHS_ONLY	nonconstant smooth histories and moving-frame comparison	stationary periodic hyperbolic or full nonlinear dynamics
+branch_bifurcation	BOUNDED_CENSUS	four lift classes times two inequivalent histories	field-dependent anisotropic and disconnected dynamical branches
+stability_spectrum	NOT_COVERED	no relaxation or physical time evolution	time-live matter and geometry stability
+regime_of_validity	EXPLICIT	constant real isotropic lift classes nonzero parity-compatible constant cross blocks k>=2 examples	all mu>1 existence is algebraic but global physical completion remains open
+

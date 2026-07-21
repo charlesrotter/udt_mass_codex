@@ -1,0 +1,18 @@
+claim_id	claim	status	premise_or_limit
+T01	All four registered constant real isotropic complete lift classes possess exact nonconstant kinematic mu histories	DERIVED_BOUNDED	Two rational histories per lift nonzero cross blocks Lorentz signature on 0<=s<=1
+T02	The differentiated pointwise involution isometry and reciprocal-inversion identities hold on all eight histories	DERIVED_BOUNDED	Algebraic preservation only; no EOM
+T03	Positive determinant normalization can impose fixed four-volume along every history	DERIVED_BOUNDED_CSN_GAUGE	Gauge diagnostic is not the whole CSN postulate or a physical representative
+T04	Metric compatibility alone permits dot(mu)!=0	DERIVED_BOUNDED	Exact compatible connection plus six-dimensional metric-skew freedom at sample
+T05	Metric plus seal compatibility permits dot(mu)!=0	DERIVED_BOUNDED	Exact compatible connection; dimensions three or two by lift at sample
+T06	Full metric seal and reciprocal-generator parallelism forces dot(mu)=0	DERIVED_CONDITIONAL	Requires covariant preservation of L which current UDT has not selected
+T07	Full reciprocal parallelism selects the numerical value of mu	NOT_DERIVED	Every constant mu>1 remains algebraically allowed
+T08	A moving frame creates physical mu evolution	REFUTED_IN_TESTED_CLASS	Pure frame conjugation is removed by its connection while invariant deformation is not
+T09	Current CSN selects a physical time transport	NOT_DERIVED	CSN supplies local conformal equivalence and no preferred representative connection
+T10	Current finite cell or seal supplies a time-evolution equation	NOT_DERIVED	Static ratio datum only; normal transverse and time-on evolution open
+T11	Current bootstrap supplies a time-evolution or mu equation	NOT_DERIVED	After-solution admissibility predicate with no varied functional or map
+T12	The earlier frozen lift results are invalidated by kinematic time consistency	REFUTED_BOUNDED	Every registered frozen class has exact smooth kinematic extensions
+T13	The earlier frozen lift results constitute a complete dynamical theorem	NOT_DERIVED	Action boundary physical connection and physical time remain open
+T14	A physical UDT transport law is selected	OPEN	Metric compatibility seal compatibility and full reciprocal parallelism remain distinct levels
+T15	Time-live matter or soliton persistence follows	OPEN_NOT_TESTED	Carrier action boundary and matter evolution excluded
+T16	Kinematic time-extendability closes the mu selector	UNDERDETERMINED	Time consistency either permits mu histories or conditionally conserves an arbitrary value
+

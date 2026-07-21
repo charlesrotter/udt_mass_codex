@@ -1,0 +1,9 @@
+level	requirements	exact_result	mu_effect	current_authority
+C01	pointwise R^2=I;R^TGR=G;RLR=-L	Eight nonconstant exact Lorentz histories across four lifts	ARBITRARY_SMOOTH_MU_GREATER_THAN_ONE_IN_TESTED_CLASS	AUTHORIZED_AS_KINEMATIC_COMPARISON
+C02	metric compatibility	Gamma=one_half G^-1 dot(G) plus six-dimensional metric-skew freedom	NO_VALUE_OR_DOT_MU_SELECTOR	DERIVED_PER_SUPPLIED_REPRESENTATIVE
+C03	metric plus seal compatibility	Exact systems remain consistent with dimensions three or two and dot(mu)!=0	NO_VALUE_OR_DOT_MU_SELECTOR	CONDITIONAL_COMPARISON_NOT_SELECTED_PHYSICAL_TRANSPORT
+C04	metric plus seal plus reciprocal-generator parallelism	Varying-mu systems rank 16 augmented rank 17; constant-mu systems consistent	DOT_MU_ZERO_ONLY	NOT_CURRENTLY_SELECTED_BY_UDT
+C05	common CSN scaling with full parallelism	Gamma=sigma I preserves G scale seal and L	MU_CONSTANT_VALUE_ARBITRARY	CSN_AUTHORIZES_SCALE_GAUGE_NOT_THIS_COMPLETE_TRANSPORT
+C06	time-dependent frame conjugation	Connection removes pure component motion; true mu deformation remains in covariant derivative of L	SEPARATES_GAUGE_MOTION_FROM_INVARIANT_CHANGE	EXACT_BASIS_COVARIANCE_ONLY
+C07	current bootstrap finite cell and boundary	No evolution functional representative map or complete boundary transport equation found	NO_MU_VALUE_EQUATION	OPEN
+
