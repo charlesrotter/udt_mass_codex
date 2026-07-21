@@ -43,7 +43,10 @@ def metric_point(coords, epsilon, area_amp, shear_amp, ycoeff, acoeff, scoeff, u
     area = polynomial(r, acoeff)
     shear = polynomial(r, scoeff)
     u = polynomial(r, ucoeff)
-    mode = 1 + r / 9 + r**2 / 13
+    # The registered variation-domain witness is a constant angular-leg rescaling.  An r-dependent
+    # test mode adds derivative-of-variation terms to the pointwise density derivative and is not
+    # the comparison encoded by the exact product projection.
+    mode = torch.ones_like(r)
     b = area * torch.exp(shear + area_amp * mode + shear_amp * mode)
     c = area * torch.exp(-shear + area_amp * mode - shear_amp * mode)
     factor = angular_factor(theta, curvature, angular_derivatives)
