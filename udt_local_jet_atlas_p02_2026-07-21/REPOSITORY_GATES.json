@@ -436,6 +436,7 @@
     "udt_local_jet_atlas_p02_2026-07-21/NEXT_DECISION.md",
     "udt_local_jet_atlas_p02_2026-07-21/PETROV_STRATA.tsv",
     "udt_local_jet_atlas_p02_2026-07-21/PREREGISTRATION.md",
+    "udt_local_jet_atlas_p02_2026-07-21/REPOSITORY_GATES.json",
     "udt_local_jet_atlas_p02_2026-07-21/RICCI_ENDOMORPHISM_RANK_STRATA.tsv",
     "udt_local_jet_atlas_p02_2026-07-21/SECOND_JET_DIRECT_SUM_BASIS.tsv",
     "udt_local_jet_atlas_p02_2026-07-21/SECOND_JET_PARAMETRIZATION.md",
@@ -460,7 +461,7 @@
     "failed": 1,
     "failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
     "passed": 69,
-    "stdout_sha256": "b983d9680dbb93462c9008ecf93faad6d622c8054f96fc5f9b68b7819f64f740",
+    "stdout_sha256": "5bfad2e9ea3b3eb74515546e518df21d55b9a9fce9748e478f1e981dbb67d264",
     "xfailed": 1
   }
 }
