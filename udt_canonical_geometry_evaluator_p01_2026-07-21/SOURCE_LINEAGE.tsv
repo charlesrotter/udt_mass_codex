@@ -1,0 +1,16 @@
+id	path	authority_class	permitted_use	P01_role
+S01	LIVE.md	CURRENT_CONTROL	CURRENT_STATUS_ONLY	Confirms the current frontier and prohibits unapproved selector promotion.
+S02	HANDOFF.md	CURRENT_CONTROL_SUBORDINATE_TO_LIVE	CURRENT_ORIENTATION_ONLY	Confirms current bounded scientific seam and status vocabulary.
+S03	UDT_SCIENTIFIC_FRONTIER_2026-07-19.md	CURRENT_FRONTIER_WITH_LATER_OVERLAYS	AFFIRMATIVE_WITH_STATUS_STAMPS	Separates reciprocal kinematics from open action source and bridge.
+S04	UDT_NATIVE_ACTION_COLD_PACKET.md	BINDING_FOUNDATION_PACKET	AFFIRMATIVE_WITH_EXPLICIT_OPENS	Supplies conditional 4D Lorentzian arena and forbids static diagonal round or action defaults.
+S05	UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md	FOUNDATIONAL_POSTULATE_LOCKED	AFFIRMATIVE	Supplies conformal representative bookkeeping while leaving physical representative and dynamics open.
+S06	UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md	FOUNDING_PLUS_DERIVED_KINEMATICS	PROVENANCE_ONLY	Keeps reciprocal clock/ruler structure visible without selecting a spacetime split.
+S07	udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md	CURRENT_CORRECTION_OVERLAY	AFFIRMATIVE_CORRECTION	Keeps signed local phi distinct from distance and metric realization.
+S08	metric_cartan_holonomy_audit_2026-07-19/AUDIT_REPORT.md	VERIFIED_WITH_CAVEATS	BOUNDED_GEOMETRY_SOURCE	Requires the complete local 2+2 slot inventory and preserves shifts twist shear and screen shape.
+S09	rung2_weld_postjuly_regrade_2026-07-19/AUDIT_REPORT.md	VERIFIED_WITH_CAVEATS_CORRECTION	GEOMETRIC_COUPLING_ONLY	Prevents curvature identities from becoming equations of motion.
+S10	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv	FINAL_ACTION_STATUS_LEDGER	STATUS_BOUNDARY_ONLY	Keeps native action open C2 unique-conditional and EH conditional.
+S11	udt_reciprocal_plane_projector_audit_2026-07-21/AUDIT_REPORT.md	VERIFIED_WITH_CAVEATS	NONSELECTION_BOUNDARY	Prevents the conditional 2+2 interface from being relabeled a selected global reciprocal plane.
+S12	udt_complete_metric_solution_space_map_2026-07-21/PREREGISTRATION.md	FROZEN_PARENT_PREREGISTRATION	P01_STAGE_AUTHORITY	Defines configuration constrained and dynamical spaces plus anti-imposition rules.
+S13	udt_complete_metric_solution_space_map_2026-07-21/FUTURE_ATLAS_PROTOCOL.tsv	FROZEN_PARENT_PROTOCOL	P01_STAGE_AUTHORITY	Defines P01 work outputs stop condition and maximum conclusion.
+S14	udt_complete_metric_solution_space_map_2026-07-21/COMPLETE_METRIC_DOF_LEDGER.tsv	FROZEN_PARENT_LEDGER	SOFTWARE_INTERFACE_REQUIREMENT	Defines ten conditional 2+2 slots and abstract whole-frame objects.
+S15	udt_canonical_geometry_evaluator_p01_2026-07-21/PREREGISTRATION.md	FROZEN_P01_PREREGISTRATION	AUDIT_CONTROL	Freezes exact representations regressions tolerances catches compute bound and conclusion ceiling.

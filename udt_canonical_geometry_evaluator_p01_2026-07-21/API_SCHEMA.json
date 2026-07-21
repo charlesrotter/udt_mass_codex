@@ -1,0 +1,41 @@
+{
+  "schema": "udt-p01-canonical-geometry-api-1.0",
+  "dimension": 4,
+  "index_order": {
+    "metric_first": ["derivative", "metric_mu", "metric_nu"],
+    "metric_second": ["derivative_a", "derivative_b", "metric_mu", "metric_nu"],
+    "coframe": ["internal_I", "coordinate_mu"],
+    "coframe_first": ["derivative", "internal_I", "coordinate_mu"],
+    "coframe_second": ["derivative_a", "derivative_b", "internal_I", "coordinate_mu"],
+    "local_lorentz_first": ["derivative", "internal_I", "internal_J"],
+    "local_lorentz_second": ["derivative_a", "derivative_b", "internal_I", "internal_J"],
+    "christoffel": ["rho_up", "mu", "nu"],
+    "riemann_up": ["rho_up", "sigma", "mu", "nu"],
+    "spin_connection": ["coordinate_mu", "internal_I_up", "internal_J_down"],
+    "cartan_curvature": ["internal_I_up", "internal_J_down", "coordinate_mu", "coordinate_nu"]
+  },
+  "required_symmetries": {
+    "metric": "mu<->nu",
+    "metric_first": "mu<->nu",
+    "metric_second": "a<->b and mu<->nu",
+    "coframe_second": "a<->b",
+    "slot_second": "a<->b"
+  },
+  "conditional_two_plus_two_slots": [
+    "h00", "h01", "h11", "q22", "q23", "q33",
+    "A2_0", "A3_0", "A2_1", "A3_1"
+  ],
+  "domain": {
+    "metric": "finite nondegenerate Lorentzian point value",
+    "conditional_base": "finite nondegenerate Lorentzian 2x2 block",
+    "conditional_screen": "finite positive-definite 2x2 block",
+    "CSN_factor": "finite positive scalar"
+  },
+  "out_of_scope": [
+    "signature-changing point as an accepted P01 evaluation",
+    "third and higher jets",
+    "global charts topology and boundary completion",
+    "action equations sources carriers and physical evolution",
+    "selection of reciprocal split phi join or CSN representative"
+  ]
+}

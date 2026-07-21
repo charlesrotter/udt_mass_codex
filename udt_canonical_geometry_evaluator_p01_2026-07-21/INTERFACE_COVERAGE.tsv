@@ -1,0 +1,16 @@
+id	interface_or_quantity	input_shape_or_definition	covered	validation	not_covered
+I01	abstract_coframe_value	e[I,mu] 4x4	YES	g=eT eta e; local-Lorentz two-jet gauge law and full linear-coordinate tensor reconstruction	No physical coframe section or reciprocal plane selection.
+I02	abstract_coframe_first_jet	de[a,I,mu] 4x4x4	YES	Metric first jets spin connection and first Cartan torsion	No integration to a global coframe.
+I03	abstract_coframe_second_jet	dde[a,b,I,mu] 4x4x4x4 symmetric a,b	YES	Metric second jets derivative of spin connection and second Cartan curvature	No third jets or second differential Bianchi identity.
+I04	coordinate_metric_value	g[mu,nu] 4x4 symmetric nondegenerate Lorentzian	YES	Inverse determinant inertia and reconstruction residual	No signature-changing point admitted inside one evaluation call; such loci belong to P02 strata.
+I05	coordinate_metric_first_jet	dg[a,mu,nu] 4x4x4 symmetric mu,nu	YES	Christoffel and metric compatibility	No field equation or propagation law.
+I06	coordinate_metric_second_jet	ddg[a,b,mu,nu] 4x4x4x4 symmetric a,b and mu,nu	YES	dGamma Riemann Ricci scalar symmetries and first Bianchi	No curvature derivative or second Bianchi because third jets are outside P01.
+I07	conditional_base_slots	h00 h01 h11	YES	All values plus 12 first and 30 symmetric-second channels exercised	No derivation that this base is the UDT reciprocal plane.
+I08	conditional_screen_slots	q22 q23 q33	YES	All values plus 12 first and 30 symmetric-second channels exercised	No roundness topology section or carrier target.
+I09	conditional_mixed_slots	A2_0 A3_0 A2_1 A3_1	YES	All values plus 16 first and 40 symmetric-second channels exercised	No zero-shift zero-twist or integrability assumption.
+I10	conditional_split_reverse	G to h q A	YES	Forward/reverse reconstruction block inverse and determinant factorization	No global or type-changing split continuation.
+I11	Levi_Civita_connection	Gamma and partial Gamma	YES	Independent SymPy direct differentiation and metric compatibility	No independent-connection or torsion dynamics branch.
+I12	curvature	Riemann Ricci scalar	YES	Independent SymPy fixtures symmetries pair exchange and first Bianchi	No action density equation source or GR field equation.
+I13	Cartan_geometry	omega partial omega torsion and Omega	YES	First Cartan zero and second Cartan agreement with coordinate Riemann	No holonomy-group classification or global transport.
+I14	CSN_bookkeeping	Omega constant weights and variable d ln Omega	YES	Weights 1 2 -2 8 4 and independent conformal connection	No physical representative scale or selector.
+I15	fixture_readouts	Cartesian flat polar flat and unit-sphere product	YES	Known connection and curvature values with exact independent algebra	Fixtures do not rank branches or supply UDT physics.

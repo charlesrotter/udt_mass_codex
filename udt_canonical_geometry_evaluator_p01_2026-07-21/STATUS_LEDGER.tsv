@@ -1,0 +1,17 @@
+id	object	status	exact_scope	remaining_open
+P01	canonical_local_metric_two_jet_evaluator	TOOL_VERIFIED	Nondegenerate Lorentzian value plus symmetric first and second jets in four coordinates	Jet-space stratification and every global question remain P02/P11.
+P02	abstract_coframe_parent_interface	TOOL_VERIFIED	Coframe value and two jets under tested local-Lorentz two-jet gauge transformation and full linear-coordinate metric/connection/curvature reconstruction	Physical coframe section transition functions and global soldering remain open.
+P03	conditional_ten_slot_2_plus_2_interface	TOOL_VERIFIED_CONDITIONAL	Exactly ten slots with all 10 value 40 first and 100 symmetric-second channels exercised	The reciprocal plane screen split integrability and global existence are not derived.
+P04	metric_inverse_determinant_signature	TOOL_VERIFIED	Float64 local evaluator with exact independent split identities	Degenerate and signature-changing strata are rejected as P01 inputs and retained for P02.
+P05	Levi_Civita_connection_and_first_derivative	TOOL_VERIFIED	Local metric two jets with independent SymPy fixture comparison	Independent connection torsion and nonmetricity field branches remain open.
+P06	Riemann_Ricci_scalar_curvature	TOOL_VERIFIED	Declared index convention; full arrays independently matched on three fixtures	No curvature action or field equation follows.
+P07	metric_compatibility_and_algebraic_curvature_identities	TOOL_VERIFIED	Raw residuals below 2e-10 for symmetry pair exchange first Bianchi and Ricci symmetry	Second differential Bianchi requires third jets and is outside P01.
+P08	first_Cartan_torsion_identity	TOOL_VERIFIED	Torsion-free spin connection reconstructed from coframe jets	This is geometry not an equation of motion.
+P09	second_Cartan_curvature_identity	TOOL_VERIFIED	Direct derivative-of-spin calculation agrees with coordinate Riemann in the coframe	No global holonomy classification follows.
+P10	CSN_weights_and_connection_transform	TOOL_VERIFIED	Coframe metric inverse determinant volume weights and variable conformal connection	No physical CSN representative or scale is selected.
+P11	flat_and_curved_regression_fixtures	COMPARISON_READOUT_ONLY	Cartesian flat polar flat and line-product unit sphere	No fixture imports GR dynamics or UDT branch merit.
+P12	reciprocal_plane_selection	OPEN_NOT_EVALUATED	The 2+2 interface accepts a supplied split only	Selection integrability type change and global patching remain open.
+P13	phi_metric_join	OPEN_NOT_EVALUATED	No phi field or slot identity appears in evaluator inputs	Independent versus metric-derived phi remains a P02/P04 branch question.
+P14	native_action_source_boundary	OPEN_NOT_EVALUATED	No action EOM matter source boundary charge or variation is present	Complete native dynamics and finite-cell completion remain open.
+P15	metric_solution_space	NOT_EXPLORED	Only fixed regression and coverage witnesses were evaluated	P02 local jet atlas and all later ODE PDE and global stages require new dispatches.
+P16	P02_execution_authority	NOT_AUTHORIZED	P01 stops after verified evaluator and repository banking	No atlas enumeration classification or scientific verdict begins automatically.
