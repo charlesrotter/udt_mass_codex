@@ -1,0 +1,16 @@
+object	status	statement	remaining_open_scope
+Plus-identity angular lift	CONDITIONAL_LEAVES_MU_OPEN	Complete parity equations admit nonzero cross blocks and both mu witnesses	Physical lift selection and global continuation
+Minus-identity angular lift	CONDITIONAL_LEAVES_MU_OPEN	Complete parity equations admit nonzero cross blocks and both mu witnesses	Physical lift selection and global continuation
+Axis-reflection angular lift	CONDITIONAL_LEAVES_MU_OPEN	Orientation-preserving 2/2 class admits nonzero cross blocks and both mu witnesses	Axis/director corner and global completion
+Hopf-exchange local lift	CONDITIONAL_LEAVES_MU_OPEN	Local linear exchange class admits nonzero cross blocks and both mu witnesses	Spatial torus periods caps topology and physical realization
+Complete-lift orientation	DOES_NOT_SELECT_MU	Both orientation signs retain mu=4 and mu=9	No current rule selects an orientation class
+Fixed/anti-fixed multiplicities	DO_NOT_SELECT_MU	Every registered multiplicity class retains inequivalent mu witnesses	Boundary polarization and sector lift open
+Reciprocal transition group	DERIVED_EXACT_MU_BLIND	Z2 grading and group words depend on transition parameters not metric modulus	Global cover and overlap incidence
+Normalized seal transition	DERIVED_CONDITIONAL_MU_BLIND	Every k>1 becomes the same standard spatial reflection	Normalized reciprocal generator retains mu
+Angular corner algebra	DERIVED_EXACT_MU_BLIND	Corner word depends on axes and declared order only	No axes order or incidence supplied
+Conditional Hopf cap classification	CONDITIONAL_NO_MU_EQUATION	Integer cap determinant and free-action weights do not contain mu	Unselected spatial periodic realization and cap completion
+Metric-dependent Cartan holonomy	DERIVED_PER_REPRESENTATIVE_OPEN_SELECTOR	Could distinguish completed metrics after loops and reduction are supplied	No current global metric admissibility equation
+Current bootstrap	ON_SHELL_ADMISSIBILITY_NO_MU_EQUATION	No varied functional representative section or pair-invariant equation	Future separately derived global map
+Metric-dependent global closure equation	ABSENT_FROM_CURRENT_LEDGER	Existing group/cap words are topological or algebraic and mu-blind	Could arise from future metric boundary/holonomy/bootstrap completion
+Global completion	OPEN	Cover incidence caps periods normal/time-on lifts and boundary polarization are not selected	No complete realized-universe countermodel claimed
+Action source carrier mass scale	OPEN_EXCLUDED	No change in this audit	Complete UDT dynamics and matter

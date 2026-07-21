@@ -1,0 +1,282 @@
+{
+  "check_count": 92,
+  "checks": {
+    "AXIS_REFLECTION_MU4_determinant": "PASS",
+    "AXIS_REFLECTION_MU4_full_pair_invariant": "PASS",
+    "AXIS_REFLECTION_MU4_nonzero_cross": "PASS",
+    "AXIS_REFLECTION_MU4_positive_transverse_Schur": "PASS",
+    "AXIS_REFLECTION_MU9_determinant": "PASS",
+    "AXIS_REFLECTION_MU9_full_pair_invariant": "PASS",
+    "AXIS_REFLECTION_MU9_nonzero_cross": "PASS",
+    "AXIS_REFLECTION_MU9_positive_transverse_Schur": "PASS",
+    "AXIS_REFLECTION_angular_involution": "PASS",
+    "AXIS_REFLECTION_angular_metric_isometry": "PASS",
+    "AXIS_REFLECTION_antifixed_dimension": "PASS",
+    "AXIS_REFLECTION_complete_cross_parity": "PASS",
+    "AXIS_REFLECTION_complete_generator_inversion": "PASS",
+    "AXIS_REFLECTION_complete_metric_isometry": "PASS",
+    "AXIS_REFLECTION_complete_seal_involution": "PASS",
+    "AXIS_REFLECTION_fixed_dimension": "PASS",
+    "AXIS_REFLECTION_mu_witnesses_inequivalent": "PASS",
+    "AXIS_REFLECTION_orientation": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU4_determinant": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU4_full_pair_invariant": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU4_nonzero_cross": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU4_positive_transverse_Schur": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU9_determinant": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU9_full_pair_invariant": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU9_nonzero_cross": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU9_positive_transverse_Schur": "PASS",
+    "HOPF_EXCHANGE_LOCAL_angular_involution": "PASS",
+    "HOPF_EXCHANGE_LOCAL_angular_metric_isometry": "PASS",
+    "HOPF_EXCHANGE_LOCAL_antifixed_dimension": "PASS",
+    "HOPF_EXCHANGE_LOCAL_complete_cross_parity": "PASS",
+    "HOPF_EXCHANGE_LOCAL_complete_generator_inversion": "PASS",
+    "HOPF_EXCHANGE_LOCAL_complete_metric_isometry": "PASS",
+    "HOPF_EXCHANGE_LOCAL_complete_seal_involution": "PASS",
+    "HOPF_EXCHANGE_LOCAL_fixed_dimension": "PASS",
+    "HOPF_EXCHANGE_LOCAL_mu_witnesses_inequivalent": "PASS",
+    "HOPF_EXCHANGE_LOCAL_orientation": "PASS",
+    "MINUS_IDENTITY_MU4_determinant": "PASS",
+    "MINUS_IDENTITY_MU4_full_pair_invariant": "PASS",
+    "MINUS_IDENTITY_MU4_nonzero_cross": "PASS",
+    "MINUS_IDENTITY_MU4_positive_transverse_Schur": "PASS",
+    "MINUS_IDENTITY_MU9_determinant": "PASS",
+    "MINUS_IDENTITY_MU9_full_pair_invariant": "PASS",
+    "MINUS_IDENTITY_MU9_nonzero_cross": "PASS",
+    "MINUS_IDENTITY_MU9_positive_transverse_Schur": "PASS",
+    "MINUS_IDENTITY_angular_involution": "PASS",
+    "MINUS_IDENTITY_angular_metric_isometry": "PASS",
+    "MINUS_IDENTITY_antifixed_dimension": "PASS",
+    "MINUS_IDENTITY_complete_cross_parity": "PASS",
+    "MINUS_IDENTITY_complete_generator_inversion": "PASS",
+    "MINUS_IDENTITY_complete_metric_isometry": "PASS",
+    "MINUS_IDENTITY_complete_seal_involution": "PASS",
+    "MINUS_IDENTITY_fixed_dimension": "PASS",
+    "MINUS_IDENTITY_mu_witnesses_inequivalent": "PASS",
+    "MINUS_IDENTITY_orientation": "PASS",
+    "P0_cap_determinant": "PASS",
+    "P1_cap_determinant": "PASS",
+    "P3_cap_determinant": "PASS",
+    "P5_cap_determinant": "PASS",
+    "PLUS_IDENTITY_MU4_determinant": "PASS",
+    "PLUS_IDENTITY_MU4_full_pair_invariant": "PASS",
+    "PLUS_IDENTITY_MU4_nonzero_cross": "PASS",
+    "PLUS_IDENTITY_MU4_positive_transverse_Schur": "PASS",
+    "PLUS_IDENTITY_MU9_determinant": "PASS",
+    "PLUS_IDENTITY_MU9_full_pair_invariant": "PASS",
+    "PLUS_IDENTITY_MU9_nonzero_cross": "PASS",
+    "PLUS_IDENTITY_MU9_positive_transverse_Schur": "PASS",
+    "PLUS_IDENTITY_angular_involution": "PASS",
+    "PLUS_IDENTITY_angular_metric_isometry": "PASS",
+    "PLUS_IDENTITY_antifixed_dimension": "PASS",
+    "PLUS_IDENTITY_complete_cross_parity": "PASS",
+    "PLUS_IDENTITY_complete_generator_inversion": "PASS",
+    "PLUS_IDENTITY_complete_metric_isometry": "PASS",
+    "PLUS_IDENTITY_complete_seal_involution": "PASS",
+    "PLUS_IDENTITY_fixed_dimension": "PASS",
+    "PLUS_IDENTITY_mu_witnesses_inequivalent": "PASS",
+    "PLUS_IDENTITY_orientation": "PASS",
+    "angular_corner_trace": "PASS",
+    "both_orientation_classes_retain_mu4_and_mu9": "PASS",
+    "cap_classes_remain_multiple": "PASS",
+    "corner_word_has_zero_mu_derivative": "PASS",
+    "generic_axis_reflections_do_not_commute": "PASS",
+    "normalized_generator_retains_mu": "PASS",
+    "normalized_seal_mu_blind": "PASS",
+    "normalized_seal_same_for_mu4_mu9": "PASS",
+    "perpendicular_axis_reflections_commute": "PASS",
+    "quarter_turn_corner_order_four": "PASS",
+    "reciprocal_F_involution": "PASS",
+    "reciprocal_conjugation": "PASS",
+    "reciprocal_even_product": "PASS",
+    "reciprocal_three_inversions_not_identity": "PASS",
+    "reciprocal_valid_triple_cocycle": "PASS",
+    "same_axis_angular_corner_identity": "PASS"
+  },
+  "exclusions": [
+    "topology, cap, period, or corner choice",
+    "action, field equation, or boundary functional",
+    "physical representative, scale, or Xmax",
+    "carrier, source, mass, and matter",
+    "GPU work and canonization"
+  ],
+  "global_authority": {
+    "bootstrap_role": "ON_SHELL_ADMISSIBILITY_NO_CURRENT_MU_EQUATION",
+    "caps_periods_lattice_topology": "OPEN_OR_CONDITIONAL",
+    "corner_order_and_angles": "OPEN",
+    "cover": "OPEN",
+    "metric_dependent_equation_for_pair_invariant": "ABSENT_FROM_CURRENT_LEDGER",
+    "normal_time_on_executable_lift": "OPEN",
+    "overlap_incidence": "OPEN"
+  },
+  "lift_results": {
+    "AXIS_REFLECTION": {
+      "angular_metric_dimension": 2,
+      "cross_dimension": 2,
+      "fixed_antifixed": "2/2",
+      "mu_values_surviving": [
+        4,
+        9
+      ],
+      "orientation": 1,
+      "status": "CONDITIONAL_LIFT_FAMILY_LEAVES_MU_OPEN"
+    },
+    "HOPF_EXCHANGE_LOCAL": {
+      "angular_metric_dimension": 2,
+      "cross_dimension": 2,
+      "fixed_antifixed": "2/2",
+      "mu_values_surviving": [
+        4,
+        9
+      ],
+      "orientation": 1,
+      "status": "CONDITIONAL_LIFT_FAMILY_LEAVES_MU_OPEN"
+    },
+    "MINUS_IDENTITY": {
+      "angular_metric_dimension": 3,
+      "cross_dimension": 2,
+      "fixed_antifixed": "1/3",
+      "mu_values_surviving": [
+        4,
+        9
+      ],
+      "orientation": -1,
+      "status": "CONDITIONAL_LIFT_FAMILY_LEAVES_MU_OPEN"
+    },
+    "PLUS_IDENTITY": {
+      "angular_metric_dimension": 3,
+      "cross_dimension": 2,
+      "fixed_antifixed": "3/1",
+      "mu_values_surviving": [
+        4,
+        9
+      ],
+      "orientation": -1,
+      "status": "CONDITIONAL_LIFT_FAMILY_LEAVES_MU_OPEN"
+    }
+  },
+  "maximum_conclusion": "UDT_COMPLETE_LIFT_AND_GLOBAL_MU_CLOSURE_STATUS_CHARACTERIZED",
+  "orientation_result": {
+    "both_classes_mu_values": [
+      4,
+      9
+    ],
+    "orientation_preserving_lifts": [
+      "AXIS_REFLECTION",
+      "HOPF_EXCHANGE_LOCAL"
+    ],
+    "orientation_reversing_lifts": [
+      "PLUS_IDENTITY",
+      "MINUS_IDENTITY"
+    ],
+    "status": "ORIENTATION_CLASS_LEAVES_MU_OPEN"
+  },
+  "outcomes": [
+    "ORIENTATION_CLASS_LEAVES_MU_OPEN",
+    "CORNER_COCYCLE_IS_MU_BLIND",
+    "ALL_REGISTERED_ALGEBRAIC_LIFTS_LEAVE_MU_OPEN",
+    "NONZERO_CROSS_BLOCKS_LEAVE_MU_OPEN_IN_EVERY_LIFT",
+    "NORMALIZED_SEAL_TRANSITIONS_ARE_MU_BLIND",
+    "CONDITIONAL_HOPF_LIFT_HAS_NO_CURRENT_MU_EQUATION",
+    "METRIC_DEPENDENT_GLOBAL_CLOSURE_EQUATION_ABSENT",
+    "GLOBAL_COMPLETION_REMAINS_OPEN"
+  ],
+  "schema": "udt-complete-lift-mu-closure-derivation-1.0",
+  "transition_result": {
+    "corner_words": "depend on transition ratios, angular axes, and declared order; no mu variable occurs",
+    "normalized_generator": "retains mu through sqrt((k-1)/(k+1))",
+    "normalized_seal": "diag(+1,-1) independent of mu",
+    "reciprocal_group": "Z2_GRADED_EVEN_REVERSAL_PARITY"
+  },
+  "witnesses": {
+    "AXIS_REFLECTION_MU4": {
+      "cross_u": "1/10",
+      "cross_v": "1/10",
+      "determinant": "-7599/2500",
+      "fixed_antifixed": "2/2",
+      "full_pair_invariant": "-8300/2533",
+      "lift": "AXIS_REFLECTION",
+      "mu": 4,
+      "orientation": 1,
+      "signature": "(-,+,+,+)"
+    },
+    "AXIS_REFLECTION_MU9": {
+      "cross_u": "1/10",
+      "cross_v": "1/10",
+      "determinant": "-20099/2500",
+      "fixed_antifixed": "2/2",
+      "full_pair_invariant": "-49900/20099",
+      "lift": "AXIS_REFLECTION",
+      "mu": 9,
+      "orientation": 1,
+      "signature": "(-,+,+,+)"
+    },
+    "HOPF_EXCHANGE_LOCAL_MU4": {
+      "cross_u": "1/10",
+      "cross_v": "1/10",
+      "determinant": "-78/25",
+      "fixed_antifixed": "2/2",
+      "full_pair_invariant": "-251/78",
+      "lift": "HOPF_EXCHANGE_LOCAL",
+      "mu": 4,
+      "orientation": 1,
+      "signature": "(-,+,+,+)"
+    },
+    "HOPF_EXCHANGE_LOCAL_MU9": {
+      "cross_u": "1/10",
+      "cross_v": "1/10",
+      "determinant": "-204/25",
+      "fixed_antifixed": "2/2",
+      "full_pair_invariant": "-251/102",
+      "lift": "HOPF_EXCHANGE_LOCAL",
+      "mu": 9,
+      "orientation": 1,
+      "signature": "(-,+,+,+)"
+    },
+    "MINUS_IDENTITY_MU4": {
+      "cross_u": "1/10",
+      "cross_v": "1/10",
+      "determinant": "-74/25",
+      "fixed_antifixed": "1/3",
+      "full_pair_invariant": "-247/74",
+      "lift": "MINUS_IDENTITY",
+      "mu": 4,
+      "orientation": -1,
+      "signature": "(-,+,+,+)"
+    },
+    "MINUS_IDENTITY_MU9": {
+      "cross_u": "1/10",
+      "cross_v": "1/10",
+      "determinant": "-198/25",
+      "fixed_antifixed": "1/3",
+      "full_pair_invariant": "-248/99",
+      "lift": "MINUS_IDENTITY",
+      "mu": 9,
+      "orientation": -1,
+      "signature": "(-,+,+,+)"
+    },
+    "PLUS_IDENTITY_MU4": {
+      "cross_u": "1/10",
+      "cross_v": "1/10",
+      "determinant": "-78/25",
+      "fixed_antifixed": "3/1",
+      "full_pair_invariant": "-251/78",
+      "lift": "PLUS_IDENTITY",
+      "mu": 4,
+      "orientation": -1,
+      "signature": "(-,+,+,+)"
+    },
+    "PLUS_IDENTITY_MU9": {
+      "cross_u": "1/10",
+      "cross_v": "1/10",
+      "determinant": "-204/25",
+      "fixed_antifixed": "3/1",
+      "full_pair_invariant": "-251/102",
+      "lift": "PLUS_IDENTITY",
+      "mu": 9,
+      "orientation": -1,
+      "signature": "(-,+,+,+)"
+    }
+  }
+}

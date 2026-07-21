@@ -1,0 +1,10 @@
+command=python3 udt_complete_lift_mu_closure_audit_2026-07-20/verify_complete_lift_mu.py
+python=3.10.12
+implementation=STANDARD_LIBRARY_RATIONAL_MATRIX_RECONSTRUCTION
+compute=CPU_ONLY
+exit_code=0
+verification=PASS_VERIFIED_WITH_CAVEATS
+derivation_checks=92
+independent_checks=75
+catch_proofs=20
+

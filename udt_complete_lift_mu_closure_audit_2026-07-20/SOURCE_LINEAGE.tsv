@@ -1,0 +1,17 @@
+id	path	locator	source_status	audit_use
+S01	udt_clock_ruler_soldering_selector_audit_2026-07-20/AUDIT_REPORT.md	Result and next missing object	IMMEDIATE_PARENT	Supplies seal-local soldering, invariant-open mu, and the complete-lift/global-continuation question.
+S02	udt_clock_ruler_soldering_selector_audit_2026-07-20/SEAL_SOLDERING_LEDGER.tsv	L01-L10	IMMEDIATE_PARENT	Preserves exact local sign, normalization, lift, and continuation statuses.
+S03	udt_global_coframe_cocycle_audit_2026-07-20/AUDIT_REPORT.md	transition theorem, corner constraints, and full lifts	VERIFIED_WITH_CAVEATS	Supplies Z2-graded reciprocal transition algebra, open cover/incidence, and three local angular lift classes.
+S04	udt_global_coframe_cocycle_audit_2026-07-20/COCYCLE_CLASSIFICATION.tsv	C01-C15	VERIFIED_WITH_CAVEATS	Records exact loop parity, corner, cap, and global nonselection rulings.
+S05	udt_global_coframe_cocycle_audit_2026-07-20/GLOBAL_WITNESSES.tsv	W02-W09	VERIFIED_WITH_CAVEATS	Records conditional spatial, corner, cocycle, cap, and mixed-readout witnesses.
+S06	complete_coframe_seal_involution_2026-07-20/AUDIT_REPORT.md	Result and full-lift ruling	VERIFIED_WITH_CAVEATS	Current foundation does not derive one complete physical coframe action.
+S07	complete_coframe_seal_involution_2026-07-20/EXTENSION_FAMILY_LEDGER.tsv	X01-X12	VERIFIED_WITH_CAVEATS	Enumerates angular identity, minus identity, axis-reflection, Hopf, normal, time-on, orientation, and global alternatives.
+S08	complete_coframe_seal_involution_2026-07-20/OUTCOME_BRANCH_LEDGER.tsv	whole file	VERIFIED_WITH_CAVEATS	Multiple conditional completions are the controlling outcome.
+S09	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	conditional S3 theorem and toric census	VERIFIED_WITH_CAVEATS	Hopf/S3 becomes unique only after unselected spatial-torus and opposing-cap premises; mirror caps retain p=0,1,3,5 and more.
+S10	angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv	T04-T18	VERIFIED_WITH_CAVEATS	Topology, periods, caps, orientation, quotient, and bootstrap ranking remain conditional or open.
+S11	projective_transport_section_selector_2026-07-19/AUDIT_REPORT.md	propagation/comparison/selection split	VERIFIED_WITH_CAVEATS	Transport of supplied data does not select the initial section or physical soldering.
+S12	metric_cartan_holonomy_audit_2026-07-19/AUDIT_REPORT.md	Cartan identities and global selection limit	VERIFIED_WITH_CAVEATS	Metric-dependent curvature/holonomy is derived per representative but no global admissibility or reduction rule is supplied.
+S13	bootstrap_csn_phi_angular_selector_2026-07-19/AUDIT_REPORT.md	What bootstrap currently supplies	VERIFIED_WITH_CAVEATS	Current bootstrap is after-solution admissibility with no varied functional or representative section.
+S14	CANON.md	C-2026-07-04-1	CANONIZED_SECTOR_SPLIT	Static spatial and time-on temporal mirror sectors are distinct; complete executable time-on action remains open.
+S15	UDT_SCIENTIFIC_FRONTIER_2026-07-19.md	current honest result and open gates	CURRENT_FRONTIER	Global-to-local coframe join, representative, boundary completion, and bootstrap map remain open.
+S16	udt_complete_lift_mu_closure_audit_2026-07-20/PREREGISTRATION.md	whole file	FROZEN_PREREGISTRATION	Freezes lift universe, countermodels, orientation/cocycle tests, outcomes, and stop line.

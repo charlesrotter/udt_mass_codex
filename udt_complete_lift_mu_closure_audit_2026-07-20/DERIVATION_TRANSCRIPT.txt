@@ -1,0 +1,10 @@
+command=python3 udt_complete_lift_mu_closure_audit_2026-07-20/derive_complete_lift_mu.py
+python=3.10.12
+sympy=1.13.1
+compute=CPU_ONLY
+exit_code=0
+check_count=92
+checks_passed=92
+checks_failed=0
+maximum_conclusion=UDT_COMPLETE_LIFT_AND_GLOBAL_MU_CLOSURE_STATUS_CHARACTERIZED
+
