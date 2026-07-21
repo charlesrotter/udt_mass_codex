@@ -1,0 +1,51 @@
+{
+  "conditional_lanes": {
+    "L01": {
+      "bulk": "Bach",
+      "canonical_pairs": 12,
+      "principal": "double metric-null"
+    },
+    "L02": {
+      "bulk": "Einstein-Lambda",
+      "canonical_pairs": 6,
+      "principal": "simple metric-null"
+    },
+    "L03": {
+      "bulk": null,
+      "canonical_pairs": null,
+      "principal": null
+    }
+  },
+  "failed_implications": [
+    "metric null cone -> seal is null",
+    "seal is null -> unique boundary data",
+    "Noether identity -> unique constraint-preserving boundary condition",
+    "delta phi=0 -> zero complete metric flux",
+    "zero flux -> unique polarization",
+    "polarization -> unique boundary functional"
+  ],
+  "inputs": [
+    "UDT_NATIVE_ACTION_COLD_PACKET.md",
+    "udt_full_equation_variation_p05_2026-07-21/SHA256SUMS.txt",
+    "udt_pre_p06_boundary_selector_audit_2026-07-21/SHA256SUMS.txt",
+    "reciprocal_metric_null_line_selector_2026-07-19/SHA256SUMS.txt",
+    "complete_coframe_seal_involution_2026-07-20/SHA256SUMS.txt",
+    "udt_global_kinematic_assembly_p03g_2026-07-21/SHA256SUMS.txt",
+    "udt_founded_constraint_atlas_p03_2026-07-21/SHA256SUMS.txt"
+  ],
+  "joins": [
+    "conditional time-live seal level set -> dphi normal",
+    "metric operator principal symbol -> propagation characteristics",
+    "boundary variation -> symplectic canonical pairs",
+    "seal tangent -> one reciprocal coordinate restriction"
+  ],
+  "open_inputs": [
+    "time-live seal extension",
+    "complete coframe action and lift",
+    "boundary causal type and embedding",
+    "off-shell bootstrap functional",
+    "boundary/corner improvement and normalization",
+    "all non-metric field equations"
+  ],
+  "question": "Does full time-live metric structure close the pre-P06 boundary selector?"
+}

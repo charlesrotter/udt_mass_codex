@@ -1,0 +1,9 @@
+id	branch	causal_status	L01	L02	polarization	selected
+T01	NO_TIME_LIVE_SEAL_EXTENSION	OPEN	covariant current only	covariant current only	NOT_DEFINED	NO
+T02	FIXED_NON_NULL_MIRROR_FOLD	regular static level set is timelike when dphi nonzero	noncharacteristic fourth-order boundary pairs	noncharacteristic second-order boundary pairs	MULTIPLE	NO
+T03	MOVING_TIMELIKE_SEAL	spacelike normal	noncharacteristic; boundary data required	noncharacteristic; boundary data required	MULTIPLE	NO
+T04	MOVING_NULL_CHARACTERISTIC_SEAL	null normal; v=+-c only in radial level-set subcase	double characteristic	simple characteristic	NULL_DATA_GENERATOR_AND_JOINTS_OPEN	NO
+T05	MOVING_SPACELIKE_SEAL	timelike normal	initial/final-data type fourth-order surface	initial/final-data type second-order surface	MULTIPLE	NO
+T06	TYPE_CHANGING_OR_DEGENERATE	nonuniform or inverse metric unavailable	OPEN	OPEN	OPEN	NO
+T07	NULL_WRL_HORIZON	conditional distinct null object	covariant current; double cone	covariant current; simple cone	generator normalization auxiliary null and joints open	NO
+T08	QUOTIENT_CROSSING_INTERNAL_MATCH	ontology unselected	matching/soldering action open	matching/soldering action open	OPEN	NO

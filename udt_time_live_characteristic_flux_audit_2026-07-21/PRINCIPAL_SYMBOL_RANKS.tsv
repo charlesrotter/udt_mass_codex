@@ -1,0 +1,7 @@
+lane	covector_class	covector	xi_squared	matrix_dimension	rank	nullity	built_in_kernel	quotient_character	scope
+L01	TIMELIKE	(1, 0, 0, 0)	-1	10x10	5	5	4 diffeomorphism + 1 Weyl (independence may drop on null xi)	metric-null double	flat-point principal symbol; conditional C2 lane
+L02	TIMELIKE	(1, 0, 0, 0)	-1	10x10	6	4	4 diffeomorphism (independence may drop on null xi)	metric-null simple	flat-point principal symbol; conditional EH lane
+L01	SPACELIKE	(0, 1, 0, 0)	1	10x10	5	5	4 diffeomorphism + 1 Weyl (independence may drop on null xi)	metric-null double	flat-point principal symbol; conditional C2 lane
+L02	SPACELIKE	(0, 1, 0, 0)	1	10x10	6	4	4 diffeomorphism (independence may drop on null xi)	metric-null simple	flat-point principal symbol; conditional EH lane
+L01	NULL	(1, 1, 0, 0)	0	10x10	1	9	4 diffeomorphism + 1 Weyl (independence may drop on null xi)	metric-null double	flat-point principal symbol; conditional C2 lane
+L02	NULL	(1, 1, 0, 0)	0	10x10	4	6	4 diffeomorphism (independence may drop on null xi)	metric-null simple	flat-point principal symbol; conditional EH lane

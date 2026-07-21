@@ -1,0 +1,37 @@
+{
+  "P06_ready_pairs": 0,
+  "boundary_branches": 8,
+  "catch_proofs": 45,
+  "classification": "TIME_LIVE_REDUCES_BUT_DOES_NOT_SELECT_BOUNDARY_DATA",
+  "field_lane_pairs": 21,
+  "generator_imported": false,
+  "independent_algebra_checks": 28,
+  "main_result_sha256": "20a478ce2df376fef65bb562f65b72e9221e37fcdbcc863d8423191dcb21c027",
+  "principal_ranks": {
+    "L01_NULL": {
+      "nullity": 9,
+      "rank": 1
+    },
+    "L01_SPACELIKE": {
+      "nullity": 5,
+      "rank": 5
+    },
+    "L01_TIMELIKE": {
+      "nullity": 5,
+      "rank": 5
+    },
+    "L02_NULL": {
+      "nullity": 6,
+      "rank": 4
+    },
+    "L02_SPACELIKE": {
+      "nullity": 4,
+      "rank": 6
+    },
+    "L02_TIMELIKE": {
+      "nullity": 4,
+      "rank": 6
+    }
+  },
+  "verification": "PASS"
+}

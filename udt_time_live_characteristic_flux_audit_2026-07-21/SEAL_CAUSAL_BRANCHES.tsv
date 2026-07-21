@@ -1,0 +1,8 @@
+id	normal_class	seal_first_jet_at_c1_qI	normal_norm	boundary_class	current_UDT_status	consequence
+S01	TIMELIKE_NORMAL_SPACELIKE_SEAL	(1, 0, 0, 0)	-1	spacelike	CONDITIONAL_WITNESS_NOT_SELECTED	Reciprocity supplies the cone but does not select the seal first jet
+S02	NULL_NORMAL_NULL_SEAL	(1, 1, 0, 0)	0	null	CONDITIONAL_WITNESS_NOT_SELECTED	Reciprocity supplies the cone but does not select the seal first jet
+S03	SPACELIKE_NORMAL_TIMELIKE_SEAL	(0, 1, 0, 0)	1	timelike	CONDITIONAL_WITNESS_NOT_SELECTED	Reciprocity supplies the cone but does not select the seal first jet
+S04	NULL_WITH_ANGULAR_GRADIENT	(1, 0, 1, 0)	0	null	CONDITIONAL_WITNESS_NOT_SELECTED	Reciprocity supplies the cone but does not select the seal first jet
+S05	RADIAL_MOVING_LEVEL_SET	phi_t=-v*phi_r	phi_r^2*(1-v^2/c^2)	timelike/null/spacelike according to |v|<c/=c/>c	DERIVED_KINEMATICS_INSIDE_CONDITIONAL_TIME_LIVE_SEAL_EXTENSION	null seal iff v=+c or -c when phi_r is nonzero; v is not selected
+S06	STATIC_CANONICAL_SEAL	phi_t=phi_A=0; phi_r free	phi_r^2	timelike when regular; undefined as level set if phi_r=0	CANONIZED_SCOPED_STATIC_RESULT	the recorded static mirror is non-characteristic at regular points
+S07	NO_TIME_LIVE_SEAL_EXTENSION	not supplied	not evaluable	OPEN	CURRENT_FOUNDATION_BRANCH	static canon alone does not define a moving boundary worldtube

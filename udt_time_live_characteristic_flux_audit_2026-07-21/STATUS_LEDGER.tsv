@@ -1,0 +1,15 @@
+id	claim	status	scope
+R01	full reciprocal first-jet causal identity	DERIVED	positive local reciprocal representative with arbitrary positive angular block
+R02	time-live seal is phi=0 level surface	CONDITIONAL_EXPLORATORY_EXTENSION	static seal canon does not itself make this global extension
+R03	radial moving seal tangency phi_t+v phi_r=0	DERIVED_CONDITIONAL_KINEMATICS	regular radial level-set branch
+R04	Reciprocity forces null seal speed	NOT_DERIVED	timelike null and spacelike exact first-jet witnesses survive
+R05	L01 characteristic cone	DERIVED_CONDITIONAL_DOUBLE_METRIC_NULL	regular metric C2 lane after diagnostic gauge/Weyl quotient
+R06	L02 characteristic cone	DERIVED_CONDITIONAL_SIMPLE_METRIC_NULL	regular metric EH lane after diagnostic gauge quotient
+R07	Noether identities select boundary data	NOT_DERIVED	identities propagate compatible constraints but supply no unique incoming/polarization subspace
+R08	static scalar seal kills full boundary flux	EXCLUDED_BY_EXACT_COUNTERWITNESSES	angular/off-diagonal metric channels in both conditional lanes
+R09	time-live characteristics select polarization	NOT_DERIVED	multiple exact maximal flux-free polarizations survive
+R10	time-live characteristics select boundary functional	NOT_DERIVED	Euler improvement Legendre embedding orientation and corner ambiguities survive
+R11	complete coframe time-live flux	OPEN_NO_COFRAME_ACTION_OR_UNIQUE_LIFT	metric-only result cannot be promoted to coframe fields
+R12	P06 readiness	CLOSED_ZERO_OF_21_PAIRS	complete operator boundary and field equations required
+R13	overall selector classification	TIME_LIVE_REDUCES_BUT_DOES_NOT_SELECT_BOUNDARY_DATA	current principles and conditional P05 lanes only
+R14	native action carrier source mass scale or charge	OPEN_NOT_ADDRESSED	outside maximum conclusion

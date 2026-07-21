@@ -1,0 +1,62 @@
+{
+  "P06_ready_pairs": 0,
+  "audit": "UDT_FULL_TIME_LIVE_CHARACTERISTIC_AND_BOUNDARY_FLUX",
+  "base": "21cfeb8f25fe18afe5a5a924ea073a9cfc24238b",
+  "boundary_branches": 8,
+  "canonical_pair_census": {
+    "L01_non_null": "constrained presymplectic; P_K trace-free and CSN-null",
+    "L02_non_null_comparison": 6
+  },
+  "central_result": "Time dependence supplies conditional propagation cones, a level-set velocity relation, constraint identities, and boundary canonical pairs. It does not select the seal causal type, a unique flux-free polarization, or a unique boundary/corner functional.",
+  "checks": 80,
+  "classification": "TIME_LIVE_REDUCES_BUT_DOES_NOT_SELECT_BOUNDARY_DATA",
+  "conditional_characteristics": {
+    "L01": "metric-null double",
+    "L02": "metric-null simple",
+    "L03": "undefined"
+  },
+  "epistemic_grade": "LEAD_PENDING_FRESH_ADVERSARIAL_REVIEW",
+  "field_lane_pairs": 21,
+  "functional_ambiguities_retained": 7,
+  "gpu_used": false,
+  "inequivalent_flux_free_polarizations": {
+    "L01": 2,
+    "L02": 2,
+    "continuous_families": true
+  },
+  "maximum_conclusion": "TIME_LIVE_CHARACTERISTIC_AND_BOUNDARY_FLUX_SELECTOR_STATUS_CLASSIFIED",
+  "nonzero_seal_compatible_flux_witnesses": 4,
+  "principal_ranks": {
+    "L01_NULL": {
+      "nullity": 9,
+      "rank": 1
+    },
+    "L01_SPACELIKE": {
+      "nullity": 5,
+      "rank": 5
+    },
+    "L01_TIMELIKE": {
+      "nullity": 5,
+      "rank": 5
+    },
+    "L02_NULL": {
+      "nullity": 6,
+      "rank": 4
+    },
+    "L02_SPACELIKE": {
+      "nullity": 4,
+      "rank": 6
+    },
+    "L02_TIMELIKE": {
+      "nullity": 4,
+      "rank": 6
+    }
+  },
+  "seal_causal_classes_retained": [
+    "timelike",
+    "null",
+    "spacelike",
+    "type-changing/open"
+  ],
+  "solutions_run": 0
+}

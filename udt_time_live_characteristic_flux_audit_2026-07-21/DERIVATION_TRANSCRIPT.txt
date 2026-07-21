@@ -1,0 +1,12 @@
+UDT_TIME_LIVE_CHARACTERISTIC_FLUX_AUDIT=PASS
+checks=80
+classification=TIME_LIVE_REDUCES_BUT_DOES_NOT_SELECT_BOUNDARY_DATA
+principal_ranks={"L01_NULL": {"nullity": 9, "rank": 1}, "L01_SPACELIKE": {"nullity": 5, "rank": 5}, "L01_TIMELIKE": {"nullity": 5, "rank": 5}, "L02_NULL": {"nullity": 6, "rank": 4}, "L02_SPACELIKE": {"nullity": 4, "rank": 6}, "L02_TIMELIKE": {"nullity": 4, "rank": 6}}
+seal_causal_classes=timelike,null,spacelike,type-changing/open
+flux_free_polarizations=L01:2+,L02:2+
+seal_compatible_nonzero_flux_witnesses=4
+boundary_branches=8
+field_pairs=21/21
+P06_ready_pairs=0
+solutions=0 gpu=NO
+maximum_conclusion=TIME_LIVE_CHARACTERISTIC_AND_BOUNDARY_FLUX_SELECTOR_STATUS_CLASSIFIED

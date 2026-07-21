@@ -1,0 +1,9 @@
+id	lane	object	exact_result	time_live_meaning	selector_effect	status
+C01	L01	gauge-quotient principal factor	alpha*(g^ab xi_a xi_b)^2	metric null cone with double fourth-order characteristic	propagation cone only; no polarization selected	DERIVED_CONDITIONAL
+C02	L02	gauge-quotient principal factor	kappa*(g^ab xi_a xi_b)	metric null cone with simple second-order characteristic	propagation cone only; no polarization selected	DERIVED_CONDITIONAL
+C03	L01	Noether identities	nabla^a B_ab=0 and g^ab B_ab=0	diffeomorphism and Weyl constraint identities	propagate compatible constraints after evolution/gauge/boundary choices; do not choose them	DERIVED_CONDITIONAL
+C04	L02	Noether identity	nabla^a(G_ab+Lambda g_ab)=0	diffeomorphism constraint identity	propagates compatible constraints after evolution/gauge/boundary choices; does not choose them	DERIVED_CONDITIONAL
+C05	L01+L02	regular level-set seal	seal characteristic iff g^-1(dphi,dphi)=0	null dphi eikonal branch	optional branch; current Reciprocity does not force it	DERIVED_KINEMATICS_CONDITIONAL_EXTENSION
+C06	L01+L02	CSN	g^-1(dphi,dphi)->Omega^-2 g^-1(dphi,dphi)	causal type and nullness preserved	preserves a choice; does not make one	DERIVED
+C07	L01+L02	type-changing/degenerate locus	inverse-metric symbol unavailable or nonuniform	characteristic count may change	no extrapolation from regular branches	OPEN_RETAINED
+C08	L03	bridge characteristics	no operator	undefined	cannot test	OPEN_NO_OPERATOR

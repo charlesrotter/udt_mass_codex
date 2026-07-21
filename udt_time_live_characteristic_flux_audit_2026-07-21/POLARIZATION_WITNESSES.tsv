@@ -1,0 +1,6 @@
+id	lane	name	fixed_or_free	scalar_seal	normal_phi_jet	flux	dimension	status
+P01	L02	seal-compatible induced-metric polarization	all delta gamma=0; all delta pi free	preserved	not fixed by induced metric data	zero	6	CONDITIONAL_WITNESS_NOT_ADOPTED
+P02	L02	seal-plus-transverse-momentum polarization	delta gamma_phi=0 and delta pi_transverse=0; delta pi_phi and delta gamma_transverse free	preserved	reciprocal momentum free	zero	6	INEQUIVALENT_CONDITIONAL_WITNESS
+P03	L01	h-fixed K-free natural-electric-Weyl class	all delta h=0; all delta K free; impose P_K_TF=-8 epsilon E_TF=0; corner delta h=0	preserved	all delta K including reciprocal normal jet free	zero on declared natural subspace	OPEN_CONSTRAINED_PRESYMPLECTIC	CONDITIONAL_WITNESS_NOT_ADOPTED
+P04	L01	seal-only h plus fully-natural transverse class	delta h_phi=0; transverse delta h and all delta K free; impose E_TF=0 projected Pi_h=0 and corner flux=0	preserved	all delta K including reciprocal normal jet free	zero on inequivalent declared natural subspace	OPEN_CONSTRAINED_PRESYMPLECTIC	INEQUIVALENT_CONDITIONAL_WITNESS
+P05	L01+L02	continuous canonical rotations	each unsealed canonical pair admits mixed Lagrangian subspaces	preservable	preservable as free	zero on each chosen Lagrangian subspace	lane-dependent	CONTINUUM_AMBIGUITY

@@ -1,0 +1,5 @@
+id	lane	sector	fields	equations	seal	boundary_flux	conclusion
+F01	L02	unsealed angular/off-diagonal canonical pair	delta1 gamma_1=1; delta2 pi_1=1	phase-space tangent witness	delta phi=0	1	scalar seal does not imply zero full metric flux
+F02	L01	unsealed angular h/Pi_h canonical pair	delta1 h_2=1; delta2 Pi_h2=1	phase-space tangent witness	delta phi=0	1	scalar seal does not imply zero fourth-order flux
+F03	L02	time-live TT angular-shape principal wave h_22=-h_33=q	q1=t-x; q2=(t-x)^2	Box q1=Box q2=0	reciprocal phi perturbation absent	normalized j^x(t=1,x=0)=-1	on-principal-shell time dependence carries nonzero boundary flux
+F04	L01	time-live TT angular-shape principal biwave h_22=-h_33=q	q1=x^2+t*x; q2=t-x	Box^2 q1=Box^2 q2=0	reciprocal phi perturbation absent	normalized j^x(t=1,x=0)=-2	double-characteristic lane retains independent derivative flux

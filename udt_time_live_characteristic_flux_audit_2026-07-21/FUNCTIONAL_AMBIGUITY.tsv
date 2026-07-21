@@ -1,0 +1,8 @@
+id	object	time_live_effect	bulk_effect	removed_by_characteristics	status
+A01	overall action scale	rescales symplectic current momenta and charges	same zero equation for nonzero scale	NO	OPEN
+A02	Euler beta E4	changes boundary/corner potential	zero regular 4D metric bulk variation	NO	OPEN
+A03	exact bulk divergence	changes boundary primitive	no bulk Euler change	NO	OPEN
+A04	Theta -> Theta + delta Y + dZ	changes potential/corner representative and local flux by an exact boundary divergence	no bulk Euler change	NO	OPEN
+A05	boundary Legendre transform	exchanges coordinate and momentum polarization	preserves bulk symplectic form	NO	OPEN
+A06	orientation reference generator normalization	changes signs/zero points/charges	no principal cone selection	NO	OPEN
+A07	moving embedding and joints	adds embedding response and joint/corner channels	not contained in fixed-boundary operator	NO	OPEN
