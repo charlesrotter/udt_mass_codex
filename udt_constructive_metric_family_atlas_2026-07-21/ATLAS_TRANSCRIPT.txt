@@ -1,0 +1,19 @@
+UDT_CONSTRUCTIVE_METRIC_FAMILY_ATLAS=PASS
+checks=28
+classification=CONSTRUCTIVE_ALL_SLOT_CONFIGURATION_FAMILIES_OBSERVED_IN_REGISTERED_LOCAL_REGIME
+regular_records=160 unique_metric_jets=129
+banks=4 deformation_values=5 points=8
+all_ten_slots=YES all_four_coordinates_nonzero_deformations=YES
+deformation_edges=128 gauge_checks=3 CSN_orbits=4
+degenerate_closure_records=20 singular_retained=4
+max_identity_residual=3.3306690738754696e-16
+raw_configuration_sha256=41968a7fd682ffebd6c871a440cbcb4ac951355a96a97be7c5c854b0773f454b
+observed_zero_flat=32/32
+observed_nonzero_full_ranks=128/128/128
+observed_nonzero_shear_twist_mixed=128/128/128
+observed_phi_signs=54/12/94
+observed_dphi_timelike_zero_nonzero_near_null_spacelike=18/32/0/110
+sampled_tangent_ranks=0:4;1:28;4:16;5:112 shared_lambda=YES independent_ten_amplitude_scan=NO
+dynamics=NO solutions=0 physical_evolution=NO
+compatibility_ranking=NO finite_exhaustiveness=NO gpu=NO
+maximum_conclusion=CONSTRUCTIVE_METRIC_CONFIGURATION_FAMILIES_CHARACTERIZED_NOT_DYNAMICAL_SOLUTIONS

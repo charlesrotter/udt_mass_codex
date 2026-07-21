@@ -1,0 +1,13 @@
+{
+  "catch_proofs": 48,
+  "fresh_adversarial_context": "COMPLETE_VERIFIED_WITH_CAVEATS",
+  "fresh_reviewer": "constructive_atlas_adversary",
+  "generator_imported": "NO",
+  "independent_checks": 395,
+  "independent_curvature_reconstruction": "PASS",
+  "main_result_sha256": "b5db45566c7a3e9f4a823d1eb2f8861378ff82cfbb2c541294a36c473ce2d6dd",
+  "raw_configuration_sha256": "41968a7fd682ffebd6c871a440cbcb4ac951355a96a97be7c5c854b0773f454b",
+  "schema": "udt-constructive-metric-family-atlas-verification-1.0",
+  "sympy_anchor": "B2_L3_P3",
+  "verdict": "PASS"
+}

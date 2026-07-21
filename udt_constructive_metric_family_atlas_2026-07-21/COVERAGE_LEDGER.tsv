@@ -1,0 +1,15 @@
+coverage_id	object	observed	required	status	limit
+C01	regular_all_slot_records	160	160	PASS	four finite coefficient banks
+C02	unique_metric_jet_hashes	129	REPORTED_NOT_FILTERED	PASS	duplicates retained
+C03	nonzero_deformation_all_coordinates_active	128	128	PASS	activity threshold only
+C04	mixed_shift_value_records	160	160	PASS	pointwise value
+C05	nonzero_deformation_shear_records	128	REPORTED_NOT_FILTERED	PASS	numeric rank
+C06	nonzero_deformation_twist_records	128	REPORTED_NOT_FILTERED	PASS	numeric rank
+C07	nonzero_deformation_mixed_curvature_records	128	REPORTED_NOT_FILTERED	PASS	numeric activity
+C08	signed_phi_offsets	4	4	PASS	independent phi branch only
+C09	deformation_edges	128	128	PASS	finite paths
+C10	gauge_release_checks	3	3	PASS	two coordinate one Lorentz orbit
+C11	CSN_orbit_records	4	4	PASS	two anchors two kappas
+C12	degenerate_type_change_records	20	20	PASS	zero-jet closure witnesses
+C13	arbitrary_function_global_topology_remainder	NOT_ENUMERATED	EXPLICIT_OPEN	PASS	no finite exhaustiveness
+C14	sampled_path_tangent_rank	0:4;1:28;4:16;5:112	REPORT_SHARED_LAMBDA_RESTRICTION	PASS	ten latent amplitudes were not independently scanned
