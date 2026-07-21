@@ -366,6 +366,7 @@
     "udt_global_coframe_cocycle_audit_2026-07-20/LAY_DECISION_TREE.md",
     "udt_global_coframe_cocycle_audit_2026-07-20/NEXT_SCIENTIFIC_DECISION.md",
     "udt_global_coframe_cocycle_audit_2026-07-20/PREREGISTRATION.md",
+    "udt_global_coframe_cocycle_audit_2026-07-20/REPOSITORY_GATES.json",
     "udt_global_coframe_cocycle_audit_2026-07-20/SHA256SUMS.txt",
     "udt_global_coframe_cocycle_audit_2026-07-20/SOURCE_LINEAGE.tsv",
     "udt_global_coframe_cocycle_audit_2026-07-20/STATUS_LEDGER.tsv",
@@ -383,7 +384,7 @@
     "failed": 1,
     "failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
     "passed": 69,
-    "stdout_sha256": "5bfad2e9ea3b3eb74515546e518df21d55b9a9fce9748e478f1e981dbb67d264",
+    "stdout_sha256": "ff923412b491f9580f496e8df7d48970923d31ec639c4eec6309dd8bf5d40425",
     "xfailed": 1
   }
 }
