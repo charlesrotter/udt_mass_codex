@@ -89,9 +89,9 @@
     "verification_result_sha256": "1f86c4dda12e919935415290aa6f5ae7db7177941c7bf722e4532696525c30a8"
   },
   "package_manifest": {
-    "entries": 31,
+    "entries": 32,
     "result": "PASS",
-    "sha256": "a5b182724017ffa9eccb96bcd8d927fb70a4255e681edd118febda657e5aee9f"
+    "sha256": "5c26d4eb97c4dc370e286469c63d662f182a71a94a6e6899131fd6706c4e7f2e"
   },
   "prior_scientific_packages": {
     "entries": 1380,
@@ -448,6 +448,7 @@
     "udt_full_equation_variation_p05_2026-07-21/AUDIT_REPORT.md",
     "udt_full_equation_variation_p05_2026-07-21/COMMANDS.md",
     "udt_full_equation_variation_p05_2026-07-21/FIELD_EQUATION_COMPLETENESS.tsv",
+    "udt_full_equation_variation_p05_2026-07-21/FRESH_ADVERSARIAL_REVIEW_STATUS.md",
     "udt_full_equation_variation_p05_2026-07-21/GLOBAL_AXIS_CARRYFORWARD.tsv",
     "udt_full_equation_variation_p05_2026-07-21/LAY_REPORT.md",
     "udt_full_equation_variation_p05_2026-07-21/NEXT_DECISION.md",

@@ -75,8 +75,9 @@ results do not erase degenerate or type-changing branches.
    boundary channels, all 21 field pairs, and all 12 carried global axes; no global solution claim.
 3. **Independent verification:** a non-importing implementation replayed source hashes and tables,
    reconstructed five load-bearing algebraic identities, and passed 31 deliberate corruptions. A
-   fresh adversarial-context review is still a separate evidence gate, so the machine result remains
-   `LEAD_PENDING_FRESH_ADVERSARIAL_REVIEW` until that record exists.
+   fresh adversarial-context process was attempted in an isolated exact-commit worktree but ended
+   without a verdict; `FRESH_ADVERSARIAL_REVIEW_STATUS.md` records the rejected/incomplete attempts.
+   The machine result therefore remains `LEAD_PENDING_FRESH_ADVERSARIAL_REVIEW`.
 4. **Premise audit:** yes; all inherited, added, open, comparison-only, and excluded inputs are stated
    in the preregistration and lane convention records.
 
