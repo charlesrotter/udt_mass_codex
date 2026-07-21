@@ -1,0 +1,16 @@
+command: python3 --version
+Python 3.10.12
+
+command: python3 -c 'import sympy; print(sympy.__version__)'
+1.13.1
+
+command: python3 udt_clock_ruler_soldering_selector_audit_2026-07-20/derive_soldering_selector.py
+exit_code: 0
+maximum_conclusion: UDT_CURRENT_METRIC_NATIVE_SOLDERING_SELECTOR_STATUS_CHARACTERIZED
+seal_local_base_soldering: DERIVED_CONDITIONAL_WITHIN_PRE_SPLIT_MIXED_BASE_AT_SEAL
+conditional_complete_soldering: DERIVED_WITHIN_CHOSEN_TRANSVERSE_IDENTITY_AND_AXIS_REFLECTION_LIFT
+mu_status: INVARIANT_OPEN
+mu4_nonzero_cross: determinant=-7599/2500 full_pair_invariant=-8300/2533
+mu9_nonzero_cross: determinant=-20099/2500 full_pair_invariant=-49900/20099
+check_count: 51
+all_checks: PASS

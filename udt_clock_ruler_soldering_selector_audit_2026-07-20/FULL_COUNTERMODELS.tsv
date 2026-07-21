@@ -1,0 +1,4 @@
+id	mu	base_H	angular_Q	angular_seal	cross_C	determinant	full_pair_invariant	signature	shared_conditions	ruling
+MU4_NONZERO	4	[[1,-2],[-2,1]]	I2	diag(1,-1)	[[1/10,1/10],[1/10,-1/10]]	-7599/2500	-8300/2533	(-,+,+,+)	finite-c convention; same CSN convention; exact seal; same angular block; same nonzero cross block; orientation +	SURVIVES
+MU9_NONZERO	9	[[1,-3],[-3,1]]	I2	diag(1,-1)	[[1/10,1/10],[1/10,-1/10]]	-20099/2500	-49900/20099	(-,+,+,+)	finite-c convention; same CSN convention; exact seal; same angular block; same nonzero cross block; orientation +	SURVIVES
+UNIT_VOLUME_FAMILY	k^2 for any k>1	[[1,-k],[-k,1]]	I2/sqrt(k^2-1)	any compatible lift	0	-1	2(1+k^2)/(1-k^2)	(-,+,+,+)	unit full determinant by angular compensation	CONTINUUM_SURVIVES

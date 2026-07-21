@@ -1,0 +1,16 @@
+object	status	statement	remaining_open_scope
+Mixed readout family	DERIVED_CONDITIONAL	Exact Lorentzian spatial-seal family retained from parent audit	Physical selection of family and complete metric
+Seal-local base eigensplitting	DERIVED_CONDITIONAL	Spatial F_b selects orthogonal fixed time and reversed radial lines at phi=0 in the supplied base	Full lift and continuation away from seal
+Mixed-family sign branch	DERIVED_CONDITIONAL	Spatial rather than temporal reflection selects B<-|A b| for A>0 b>0	Overall convention and physical family selection
+Seal-local base normalization	DERIVED_CONDITIONAL	Metric norms yield an operational eta frame and remove continuous boost freedom when seal parity is fixed	Discrete signs and global path transport
+Base temporal mirror relation	DERIVED_CONDITIONAL	Minus the spatial seal is the standard temporal reflection in the same normalized 2D base	Complete time-on/off-diagonal component action
+Mixing modulus mu	INVARIANT_OPEN	Seal fixes a sign branch but not magnitude; mu remains in the normalized reciprocal generator	Global/angular/dynamical selector
+Direct transverse-identity reciprocal lift	CONDITIONAL_WITNESS	L4 supplies a reciprocal plane and the metric supplies its orthogonal transverse complement	No unique current full reciprocal/angular lift
+Nonzero parity-compatible cross coupling	DERIVED_EXACT_FAMILY	C=[[u,v],[u,-v]] obeys the full seal and preserves inequivalent mu witnesses	Global regularity and selected angular geometry
+Angular seal completion	MULTIPLE_COMPLETIONS	Identity, minus identity, axis reflection, and conditional Hopf lifts survive	Native lift, periods, caps, topology
+CSN and determinant normalization	DO_NOT_SELECT_MU	Common scale and unit determinant leave the dimensionless invariant free	Scale-bearing complete closure
+Cartan geometry	DERIVED_PER_REPRESENTATIVE	Curvature can depend on mu after a metric is supplied; Cartan/Bianchi identities do not choose it	Dynamical/global admissibility equation
+Current bootstrap	ON_SHELL_ADMISSIBILITY_NO_SOLDERING_EQUATION	No current coframe map, pair-invariant equation, or representative section exists	Future derived B functional or Sigma section
+Complete metric-native soldering	OPEN_WITH_PARTIAL_LOCAL_CONSTRUCTION	Seal-local construction exists, but selected full lift and global continuation do not	Angular/normal/time-on lift and path-consistent transport
+Full angular dynamic selection of mu	OPEN	Not excluded by local countermodels	Requires separately derived complete equation and boundary domain
+Action carrier source mass boundary charge	OPEN_EXCLUDED	No promotion in this audit	Complete UDT dynamics and matter

@@ -1,0 +1,11 @@
+id	object	exact_result	status	limit
+L01	mixed base seal eigenspaces	F_b fixed line span((b,1)) and reversed line span((-b,1)) are H-orthogonal	DERIVED_CONDITIONAL	mixed real symmetric readout family at phi=0
+L02	spatial-versus-temporal Lorentz branch	For A>0 b>0 spatial reflection requires B<-|A b|; the opposite sign makes the fixed/reversed causal roles temporal-like	DERIVED_CONDITIONAL_SIGN_SELECTION	convention and conditional readout explicit
+L03	base orthonormal frame	Metric normalization of the two seal eigenlines gives eta=diag(-1,1)	DERIVED_CONDITIONAL	at the seal after the reciprocal base is supplied
+L04	residual base boost	All H-orthonormalizers differ by O(1,1), but requiring F=diag(+1,-1) removes continuous boosts	DERIVED_CONDITIONAL	leaves only discrete signs/time orientation
+L05	temporal relation	In the same normalized base frame minus F becomes diag(-1,+1)	DERIVED_CONDITIONAL_BASE_RELATION	does not supply the complete time-on/angular lift
+L06	mu magnitude	Reciprocal generator in the seal frame contains sqrt((k-1)/(k+1)) and its inverse	INVARIANT_OPEN	seal selects sign branch but no k or mu=k^2 value
+L07	conditional full reciprocal plane	For L4=diag(-1,1,0,0), im(L4) is the reciprocal plane	CONDITIONAL_EXTENSION	transverse-identity reciprocal lift is not uniquely selected
+L08	metric transverse complement	The H4-orthogonal complement of im(L4) is uniquely constructed even with nonzero base-angular cross terms	DERIVED_WITHIN_L07	angular lift/topology/global continuation remain open
+L09	full angular seal	Identity, minus identity, axis reflections, and conditional Hopf exchange all survive	MULTIPLE_COMPLETIONS	no unique normal/angular/time-on lift
+L10	global soldering	Path-consistent continuation of the seal-local frame through the complete universe	OPEN	needs selected full metric/lift and global transport/boundary completion

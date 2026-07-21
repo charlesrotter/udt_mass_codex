@@ -1,0 +1,17 @@
+id	path	locator	source_status	audit_use
+S01	udt_mixed_readout_anchor_soldering_audit_2026-07-20/AUDIT_REPORT.md	Result and invariant	IMMEDIATE_PARENT	Supplies the fixed-q versus orthonormalizable fork and invariant-open mu result.
+S02	udt_mixed_readout_anchor_soldering_audit_2026-07-20/STATUS_LEDGER.tsv	whole file	IMMEDIATE_PARENT	Preserves non-derived observer, temporal-component, and complete soldering stamps.
+S03	UDT_NATIVE_ACTION_COLD_PACKET.md	1.2 through 2	FROZEN_FOUNDATION	Defines q, reciprocal character, CSN, and separately chosen readout/slot meanings.
+S04	CANON.md	C-2026-07-04-1	CANONIZED_SECTOR_SPLIT	Names the static spatial-depth mirror and separate temporal time-on/off-diagonal sector.
+S05	complete_coframe_seal_involution_2026-07-20/AUDIT_REPORT.md	Result and what was learned	VERIFIED_WITH_CAVEATS	Establishes exact base involution family and multiple angular/normal/time-on completions.
+S06	complete_coframe_seal_involution_2026-07-20/EXTENSION_FAMILY_LEDGER.tsv	X01-X12	VERIFIED_WITH_CAVEATS	Records identity, minus-identity, axis-reflection, Hopf, normal, temporal, and global lift alternatives.
+S07	udt_global_coframe_cocycle_audit_2026-07-20/DERIVATION_RESULT.json	mixed_readout_family and witnesses	DERIVED_CONDITIONAL	Supplies exact mixed seal family and direct full-coframe mu=4 and mu=9 witnesses.
+S08	udt_global_coframe_cocycle_audit_2026-07-20/TANGENT_CLASSIFICATION.tsv	whole file	DERIVED_CONDITIONAL	Shows full fixed/anti-fixed dimensions depend on the angular lift.
+S09	bootstrap_csn_phi_angular_selector_2026-07-19/AUDIT_REPORT.md	What bootstrap currently supplies	VERIFIED_WITH_CAVEATS	Current bootstrap is after-solution admissibility; varied functional and representative section are unsupplied alternatives.
+S10	boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md	Why bootstrap does not yet close the gap	VERIFIED_WITH_CAVEATS	No current noncircular finite-cell/bootstrap rule selects a physical CSN representative or complete coframe.
+S11	metric_cartan_holonomy_audit_2026-07-19/AUDIT_REPORT.md	Cartan equations and adjudication	VERIFIED_WITH_CAVEATS	Connection and curvature are derived per supplied metric/coframe; identities do not select the realized metric.
+S12	metric_cartan_holonomy_audit_2026-07-19/CARTAN_SECTOR_LEDGER.tsv	C01-C10	VERIFIED_WITH_CAVEATS	Preferred coframe, transverse block, twist, global reduction, and matter interpretation remain open.
+S13	c2_intrinsic_angular_product_selector_2026-07-20/AUDIT_REPORT.md	Result and open scope	CONDITIONAL_C2_TILE	Intrinsic angular curvature interacts with reciprocal geometry but leaves a continuous local family.
+S14	c2_transverse_coframe_closure_2026-07-20/AUDIT_REPORT.md	Result and variation-domain ruling	CONDITIONAL_C2_TILE	Restored area/shear does not yield a legitimate local selector; angular caps, periods, and completion are load-bearing.
+S15	UDT_SCIENTIFIC_FRONTIER_2026-07-19.md	current honest result and bootstrap overlays	CURRENT_FRONTIER	Representative, material clock/ruler calibration, global-to-local coframe join, and complete bootstrap map remain open.
+S16	udt_clock_ruler_soldering_selector_audit_2026-07-20/PREREGISTRATION.md	whole file	FROZEN_PREREGISTRATION	Freezes the tensor, countermodel, selector-rank, exclusions, and maximum-conclusion contract.

@@ -1,0 +1,12 @@
+structure	current_tensor_role	what_it_does_supply	mu_or_soldering_equation	result
+Observed c_E	scalar dimensional calibration	ordinary local clock-length unit and null-cone calibration	NONE	DOES_NOT_SELECT_RELATIVE_FRAME_OR_MU
+CSN	positive scalar gauge equivalence	removes common pre-scale calibration direction	NONE; pair invariant unchanged	LEAVES_MU_OPEN
+Spatial-depth seal	involutive coframe map between phi and minus phi	conditional seal-local fixed/reversed eigensplitting and sign of Lorentz branch	NO_MAGNITUDE_EQUATION	PARTIAL_LOCAL_SOLDERING_ONLY
+Angular seal lift	full-coframe involution extension	parity subspaces after a lift is chosen	NO_UNIQUE_LIFT; no mu equation	MULTIPLE_COMPLETIONS
+Metric orthogonality	symmetric Lorentz bilinear form	normalization and orthogonal complement of a supplied reciprocal plane	NO_SELECTION_OF_COMPLETE_LIFT_OR_MU	CONDITIONAL_CONSTRUCTION
+Cartan connection	connection derived from supplied representative/coframe	curvature and transport; can detect different mu geometries	IDENTITY/CONSTRUCTION_NOT_SELECTOR	DERIVED_PER_REPRESENTATIVE
+Cartan/Bianchi identities	geometric identities	consistency of supplied connection and curvature	NONE	DO_NOT_SELECT
+Current bootstrap	whole-solution admissibility predicate	filters completed solutions after equations and ledgers exist	NO_COFRAME_MAP; NO_PAIR-INVARIANT_EQUATION	NO_CURRENT_SOLDERING_EQUATION
+Varied bootstrap functional	formal possible completion	could add a metric/coframe equation if B were supplied	UNSUPPLIED	OPEN_FUTURE_ROUTE
+Bootstrap representative section	formal possible completion	could correlate CSN, reciprocal, and angular tangents if Sigma were supplied	UNSUPPLIED	OPEN_FUTURE_ROUTE
+Conditional C2 angular equations	chosen pre-scale action tile	metric coupling within bounded ansatz and variation domain	NO_NATIVE_UNIQUE_MU; global completion open	CONDITIONAL_NOT_CURRENT_SELECTOR

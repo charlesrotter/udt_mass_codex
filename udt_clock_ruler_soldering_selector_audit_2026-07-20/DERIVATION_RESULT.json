@@ -1,0 +1,126 @@
+{
+  "check_count": 51,
+  "checks": {
+    "Cartan_curvature_distinguishes_but_does_not_select_witnesses": "PASS",
+    "MU4_cross_block_nonzero": "PASS",
+    "MU4_full_pair_invariant": "PASS",
+    "MU4_metric_selected_transverse_complement_positive": "PASS",
+    "MU4_nonzero_cross_determinant": "PASS",
+    "MU4_one_Lorentz_negative_direction": "PASS",
+    "MU9_cross_block_nonzero": "PASS",
+    "MU9_full_pair_invariant": "PASS",
+    "MU9_metric_selected_transverse_complement_positive": "PASS",
+    "MU9_nonzero_cross_determinant": "PASS",
+    "MU9_one_Lorentz_negative_direction": "PASS",
+    "base_pair_invariant_retains_mu": "PASS",
+    "boosted_base_frame_still_orthonormal": "PASS",
+    "complete_cross_block_parity_equation": "PASS",
+    "four_metric_determinant_CSN_weight": "PASS",
+    "full_depth_reversal_metric_isometry": "PASS",
+    "full_metric_determinant_formula": "PASS",
+    "full_pair_invariant_formula": "PASS",
+    "full_seal_antifixed_dimension_two": "PASS",
+    "full_seal_fixed_dimension_two": "PASS",
+    "full_seal_inverts_generator": "PASS",
+    "full_seal_involution": "PASS",
+    "full_seal_metric_isometry": "PASS",
+    "full_seal_orientation_preserving_witness": "PASS",
+    "metric_orthogonal_reciprocal_projector_is_idempotent": "PASS",
+    "metric_orthogonal_reciprocal_projector_is_self_adjoint": "PASS",
+    "minus_seal_is_standard_temporal_reflection": "PASS",
+    "mixed_metric_seal_isometry": "PASS",
+    "nonzero_coupling_does_not_collapse_mu_witnesses": "PASS",
+    "only_zero_real_boost_preserves_standard_seal": "PASS",
+    "orthonormalizer_lorentz_family": "PASS",
+    "positive_CSN_does_not_change_full_pair_invariant": "PASS",
+    "reciprocal_generator_in_seal_frame": "PASS",
+    "reciprocal_generator_remains_involution": "PASS",
+    "seal_eigenlines_metric_orthogonal": "PASS",
+    "seal_inverts_reciprocal_generator": "PASS",
+    "seal_involution": "PASS",
+    "seal_is_standard_spatial_reflection": "PASS",
+    "seal_minus_eigenvector": "PASS",
+    "seal_minus_norm": "PASS",
+    "seal_plus_eigenvector": "PASS",
+    "seal_plus_norm": "PASS",
+    "seal_preserves_metric_orthogonal_split": "PASS",
+    "seal_removes_continuous_base_boost_at_fixed_surface": "PASS",
+    "seal_selected_base_orthonormalizer": "PASS",
+    "spatial_reflection_branch_minus_is_spacelike_witness": "PASS",
+    "spatial_reflection_branch_plus_is_timelike_witness": "PASS",
+    "transverse_complement_metric_formula": "PASS",
+    "unit_determinant_angular_compensation": "PASS",
+    "unit_determinant_retains_mu": "PASS",
+    "varying_reciprocal_metric_scalar_curvature": "PASS"
+  },
+  "conditional_complete_soldering": {
+    "cross_terms": "allowed and absorbed by the metric-orthogonal projector; they do not fix mu",
+    "limit": "the transverse-identity reciprocal extension and angular axis-reflection lift are conditional witnesses, not selected current UDT structure",
+    "reciprocal_plane": "im(L4)",
+    "seal_axes": "joint metric normalization and seal parity reduce the local frame to discrete signs",
+    "status": "DERIVED_WITHIN_CHOSEN_TRANSVERSE_IDENTITY_AND_AXIS_REFLECTION_LIFT",
+    "transverse_plane": "metric-orthogonal complement of im(L4)"
+  },
+  "exclusions": [
+    "action or field-equation selection",
+    "imported observer/tetrad mechanics",
+    "global angular topology or section",
+    "physical representative or scale",
+    "carrier, source, matter, mass, and boundary charge"
+  ],
+  "full_coframe_countermodels": {
+    "MU4": {
+      "cross_u": "1/10",
+      "cross_v": "1/10",
+      "determinant": "-7599/2500",
+      "full_pair_invariant": "-8300/2533",
+      "mu": 4,
+      "signature": "(-,+,+,+)"
+    },
+    "MU9": {
+      "cross_u": "1/10",
+      "cross_v": "1/10",
+      "determinant": "-20099/2500",
+      "full_pair_invariant": "-49900/20099",
+      "mu": 9,
+      "signature": "(-,+,+,+)"
+    }
+  },
+  "maximum_conclusion": "UDT_CURRENT_METRIC_NATIVE_SOLDERING_SELECTOR_STATUS_CHARACTERIZED",
+  "mu_status": {
+    "base_invariant": "2*(1+mu)/(1-mu)",
+    "magnitude": "not selected",
+    "selected_sign_only": "spatial rather than temporal seal selects the B<-|A*b| branch in the stated convention",
+    "status": "INVARIANT_OPEN"
+  },
+  "outcome_scope": {
+    "FULL_ANGULAR_DYNAMIC_COMPLETION_COULD_STILL_SELECT_OPEN": "could select the complete lift, global transport, and mu; none is currently supplied",
+    "METRIC_NATIVE_SOLDERING_RULE_ABSENT_FROM_CURRENT_LEDGER": "complete selected lift and global continuation absent; a conditional seal-local construction is present"
+  },
+  "outcomes": [
+    "ANGULAR_SEAL_STRUCTURE_LEAVES_MU_OPEN",
+    "NONZERO_ANGULAR_COUPLING_LEAVES_MU_OPEN",
+    "CSN_OR_VOLUME_NORMALIZATION_LEAVES_MU_OPEN",
+    "CARTAN_HOLONOMY_IS_CONDITIONAL_ON_COFRAME_CHOICE",
+    "BOOTSTRAP_HAS_NO_CURRENT_SOLDERING_EQUATION",
+    "METRIC_NATIVE_SOLDERING_RULE_ABSENT_FROM_CURRENT_LEDGER",
+    "FULL_ANGULAR_DYNAMIC_COMPLETION_COULD_STILL_SELECT_OPEN"
+  ],
+  "schema": "udt-clock-ruler-soldering-selector-derivation-1.0",
+  "seal_local_base_soldering": {
+    "limit": "requires the pre-split base and holds at the fixed seal; full angular parity subspaces are higher-dimensional",
+    "normalization": "metric norms give eta; residual continuous O(1,1) boost is removed by fixing the seal to diag(+1,-1)",
+    "radial_line": "F_b -1 eigenspace span((-b,1))",
+    "spatial_branch": "B=-k*A*b with A>0,b>0,k>1",
+    "status": "DERIVED_CONDITIONAL_WITHIN_PRE_SPLIT_MIXED_BASE_AT_SEAL",
+    "temporal_relation": "-F_b becomes diag(-1,+1) in the same base frame",
+    "time_line": "F_b +1 eigenspace span((b,1))"
+  },
+  "selector_rank": {
+    "CSN": "one scalar gauge direction; no dimensionless-mu equation",
+    "Cartan": "connection/curvature derived per supplied representative and coframe; curvature may see mu but identities do not choose it",
+    "angular_lift": "multiple lifts and same-parity base-angular couplings remain",
+    "bootstrap": "current after-solution admissibility predicate; no coframe map or invariant equation",
+    "spatial_seal": "involution and parity decomposition; no magnitude equation"
+  }
+}

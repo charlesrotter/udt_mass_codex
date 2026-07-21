@@ -1,0 +1,6 @@
+command: python3 udt_clock_ruler_soldering_selector_audit_2026-07-20/verify_soldering_selector.py
+exit_code: 0
+verification=PASS_VERIFIED_WITH_CAVEATS
+derivation_checks=51
+independent_checks=39
+catch_proofs=20
