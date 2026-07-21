@@ -1,0 +1,10 @@
+countermodel_id	data	candidate_challenged	exact_observation	consequence
+D01	flat positive screen with no angular seal	metric and orientation	continuous reflection family M(alpha) survives	metric does not choose an axis
+D02	zero projected Hessian	Hessian eigensplitting	normalization denominator is zero	selector undefined on isotropic stratum
+D03	two noncollinear trace-free tensors diag(1,-1) and exchange	multi-tensor priority	both square to identity but select different axes	no unique selector without a priority law
+D04	plus identity angular seal	seal anticommutation	RMR equals minus M forces M zero	direct faithful lift cannot seed the second pair
+D05	minus identity angular seal	seal anticommutation	RMR equals minus M forces M zero	time-on identity class cannot seed the second pair
+D06	round angular product at sin theta equals 3/5	fixed full plus or minus reciprocal axes	torsion-free Weyl compatibility has coefficient rank 4 and augmented rank 5	intrinsic angular spin connection obstructs both fixed full-pair orientations in this product class
+D07	unit round S2 screen	global self-adjoint reciprocal axes	Gauss-Bonnet Euler number is 2	a global eigenline splitting is topologically obstructed on that screen
+D08	flat angular torus screen	global reciprocal axes	global axes can exist but form a continuous family	existence does not imply selection
+D09	rotation holonomy by pi/4	parallel boundary reflection	conjugation changes M	bulk path independence requires a holonomy reduction

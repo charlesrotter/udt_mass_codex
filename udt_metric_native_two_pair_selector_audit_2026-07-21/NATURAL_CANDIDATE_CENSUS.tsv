@@ -1,0 +1,13 @@
+candidate_id	supplied_data	candidate_construction	bounded_result	decisive_limit	status
+C01	conformal metric alone	natural tangent endomorphism commuting with the metric stabilizer	only scalar self-adjoint endomorphisms	cannot have trace zero and square plus identity	NO_SELECTOR_IN_CLASS
+C02	conformal metric plus orientation	Hodge complex structure on the positive screen	J squared equals minus identity	not a real reciprocal involution	NO_SELECTOR_IN_CLASS
+C03	founding longitudinal plane plus metric	metric-orthogonal positive screen	selects the screen as a plane	retains continuous O2 rotations inside the screen	PARTIAL_ONLY
+C04	metric plus non-null dphi	gradient line and orthogonal complement	at most a one-plus-three split without the founding second line	fails at dphi zero and does not split the screen	CONDITIONAL_PARTIAL
+C05	projected trace-free Hessian of phi	normalize the nonzero symmetric trace-free screen endomorphism	unique local reciprocal axes on a simple nonzero stratum	undefined on isotropic/zero Hessian stratum and phi realization remains conditional	CONDITIONAL_STRATUM_ONLY
+C06	projected trace-free Ricci or electric curvature	normalize a nonzero simple symmetric screen endomorphism	unique local axes on a simple spectrum	vanishes or becomes degenerate on flat constant-curvature and repeated-spectrum strata	CONDITIONAL_STRATUM_ONLY
+C07	multiple Hessian/curvature screen tensors	select axes from each tensor	individually valid tensors can select inequivalent axes	no current priority or combination law	UNDERDETERMINED
+C08	curvature or holonomy centralizer	find normalized L commuting with every curvature generator	can diagnose an already reduced connection	generic holonomy has no such L and current UDT does not demand reduction	CONDITIONAL_DIAGNOSTIC
+C09	plus or minus identity angular seal lift	solve R M R equals minus M	only M equals zero	cannot supply a second normalized pair	REFUTED_IN_CLASS
+C10	angular reflection seal plus positive screen metric	M equals Jq times R	unique normalized complementary reflection up to sign at the seal	complete angular lift and bulk continuation remain unselected	CONDITIONAL_SEAL_LOCAL_SELECTOR
+C11	seal-local M plus reciprocal-compatible transport	parallel continuation subject to curvature commutant	unique if a global compatible connection and reduction exist	parallelism holonomy reduction and global path independence are not derived	CONDITIONAL_WITH_EXACT_MISSING_JOIN
+C12	conditional Hopf carrier or toric completion	infer axes from desired carrier geometry	reproduces the same reciprocal weight pattern	would reverse the derivation and import unselected periods caps section and carrier	EXCLUDED_AS_SELECTOR

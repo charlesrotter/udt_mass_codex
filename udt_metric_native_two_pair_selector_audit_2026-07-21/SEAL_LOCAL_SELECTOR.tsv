@@ -1,0 +1,7 @@
+case_id	angular_seal	screen_metric_class	metric_derived_candidate	exact_result	authority
+SLC01	plus identity	arbitrary invariant positive q	none	the anticommutant is zero	registered lift but not selected
+SLC02	minus identity	arbitrary invariant positive q	none	the anticommutant is zero	registered lift but not selected
+SLC03	axis reflection	positive diagonal q	M equals Jq R	M squared equals identity; trace zero; q-self-adjoint; RMR equals minus M; unique up to sign	conditional on this complete angular lift
+SLC04	local Hopf exchange	positive q with equal diagonal entries	M equals Jq R	same complementary-reflection theorem in a conjugate basis	conditional on this complete angular lift
+SLC05	axis reflection with nonzero cross block and mu 4	Schur screen q equals diag(51/50,149/150)	orthogonal-screen M from Jq R	full four-dimensional L squares to identity and is seal-inverted	conditional non-product witness
+SLC06	axis reflection with nonzero cross block and mu 9	Schur screen q equals diag(101/100,199/200)	orthogonal-screen M from Jq R	full four-dimensional L squares to identity and is seal-inverted	conditional non-product witness

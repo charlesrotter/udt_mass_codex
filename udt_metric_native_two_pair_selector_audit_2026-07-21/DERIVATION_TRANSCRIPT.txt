@@ -1,0 +1,152 @@
+Script started on 2026-07-21 08:38:34-04:00 [<not executed on terminal>]
+{
+  "bulk_continuation": {
+    "authority": "RECIPROCAL_PARALLELISM_AND_HOLONOMY_REDUCTION_NOT_CURRENTLY_DERIVED",
+    "flat_screen": "admits a continuous family and therefore does not select one without seal/framing data",
+    "generic_rotation_holonomy": "does not preserve a reciprocal reflection",
+    "necessary_condition": "[Omega,L]=0 for every curvature/holonomy generator when nabla L=0",
+    "round_screen_product": {
+      "DIRECT_TRANSVERSE_ZERO": {
+        "augmented_rank": 4,
+        "coefficient_rank": 4,
+        "status": "COMPATIBLE"
+      },
+      "FULL_MINUS": {
+        "augmented_rank": 5,
+        "coefficient_rank": 4,
+        "status": "INTRINSIC_ANGULAR_OBSTRUCTION"
+      },
+      "FULL_PLUS": {
+        "augmented_rank": 5,
+        "coefficient_rank": 4,
+        "status": "INTRINSIC_ANGULAR_OBSTRUCTION"
+      }
+    }
+  },
+  "check_count": 62,
+  "checks": {
+    "Hopf_J_square": "PASS",
+    "Hopf_M_anticommutes": "PASS",
+    "Hopf_M_normalized": "PASS",
+    "Hopf_M_self_adjoint": "PASS",
+    "Hopf_exchange_metric_isometry": "PASS",
+    "MINUS_IDENTITY_anticommutant_zero": "PASS",
+    "MU4_full_L_normalized": "PASS",
+    "MU4_full_L_tracefree": "PASS",
+    "MU4_full_seal_inverts_L": "PASS",
+    "MU4_orthogonal_split": "PASS",
+    "MU4_screen_M_normalized": "PASS",
+    "MU4_screen_metric_pullback": "PASS",
+    "MU4_screen_positive_determinant": "PASS",
+    "MU4_screen_positive_first_minor": "PASS",
+    "MU4_screen_seal_isometry": "PASS",
+    "MU4_seal_isometry": "PASS",
+    "MU4_split_frame_recovers_base_and_screen_generators": "PASS",
+    "MU9_full_L_normalized": "PASS",
+    "MU9_full_L_tracefree": "PASS",
+    "MU9_full_seal_inverts_L": "PASS",
+    "MU9_orthogonal_split": "PASS",
+    "MU9_screen_M_normalized": "PASS",
+    "MU9_screen_metric_pullback": "PASS",
+    "MU9_screen_positive_determinant": "PASS",
+    "MU9_screen_positive_first_minor": "PASS",
+    "MU9_screen_seal_isometry": "PASS",
+    "MU9_seal_isometry": "PASS",
+    "MU9_split_frame_recovers_base_and_screen_generators": "PASS",
+    "O2_natural_self_adjoint_endomorphism_is_scalar": "PASS",
+    "O2_natural_tracefree_self_adjoint_endomorphism_is_zero": "PASS",
+    "PLUS_IDENTITY_anticommutant_zero": "PASS",
+    "axis_J_square": "PASS",
+    "axis_M_anticommutes_with_seal": "PASS",
+    "axis_M_normalized": "PASS",
+    "axis_M_self_adjoint": "PASS",
+    "axis_M_tracefree": "PASS",
+    "axis_reflection_isometry": "PASS",
+    "curvature_rotation_fails_commutant": "PASS",
+    "flat_metric_has_continuous_axis_family": "PASS",
+    "flat_reflection_family_normalized": "PASS",
+    "flat_reflection_family_tracefree": "PASS",
+    "full_turn_preserves_reflection": "PASS",
+    "independent_screen_tensors_select_different_axes": "PASS",
+    "isotropic_screen_tensor_has_zero_norm": "PASS",
+    "longitudinal_plane_commutant_rank_recorded": "PASS",
+    "longitudinal_plane_plus_metric_retains_screen_symmetry": "PASS",
+    "normalized_projected_Hessian_is_CSN_invariant": "PASS",
+    "orientation_complex_structure_squares_minus_identity": "PASS",
+    "quarter_rotation_changes_reflection": "PASS",
+    "reflection_orientation_flip_exchanges_M_sign": "PASS",
+    "reflection_self_adjoint_anticommutant_is_one_dimensional": "PASS",
+    "round_screen_DIRECT_TRANSVERSE_ZERO_rank": "PASS",
+    "round_screen_FULL_MINUS_rank": "PASS",
+    "round_screen_FULL_PLUS_rank": "PASS",
+    "screen_shear_square": "PASS",
+    "screen_shear_trace": "PASS",
+    "seal_only_family_anticommutes": "PASS",
+    "seal_only_family_normalized": "PASS",
+    "shear_x_normalized": "PASS",
+    "shear_z_normalized": "PASS",
+    "unit_sphere_Euler_number_two": "PASS",
+    "unit_sphere_Gauss_Bonnet_integral": "PASS"
+  },
+  "maximum_conclusion": "UDT_METRIC_NATIVE_TWO_PAIR_SELECTOR_STATUS_CHARACTERIZED",
+  "metric_naturality": {
+    "longitudinal_pair_plus_metric": "retains O(2) screen stabilizer and no reciprocal screen axes",
+    "metric_plus_orientation": "only scalar self-adjoint tangent endomorphisms; Hodge J squares to -I",
+    "multiple_tensor_candidates": "can select inequivalent axes with no current priority rule",
+    "tracefree_screen_tensor": "normalized involution wherever nonzero; undefined on isotropic stratum"
+  },
+  "outcomes": [
+    "NO_UNCONDITIONAL_METRIC_NATIVE_TWO_PAIR_SELECTOR_IN_AUDITED_CLASS",
+    "METRIC_ORIENTATION_ALONE_DOES_NOT_SELECT_ANGULAR_RECIPROCAL_AXES",
+    "HESSIAN_OR_CURVATURE_ANISOTROPY_SELECTS_ONLY_ON_NONDEGENERATE_STRATA",
+    "ANGULAR_REFLECTION_SEAL_PLUS_SCREEN_METRIC_SELECTS_COMPLEMENTARY_PAIR_UP_TO_SIGN_AT_SEAL",
+    "IDENTITY_ANGULAR_SEAL_LIFTS_FORBID_A_NONZERO_ANTICOMMUTING_SECOND_PAIR",
+    "COMPLETE_ANGULAR_SEAL_LIFT_REMAINS_UNSELECTED",
+    "BULK_PARALLEL_EXTENSION_REQUIRES_UNSELECTED_HOLONOMY_REDUCTION",
+    "ROUND_INTRINSIC_ANGULAR_SCREEN_OBSTRUCTS_FIXED_FULL_TWO_PAIR_WEYL_TRANSPORT_IN_PRODUCT_CLASS",
+    "ROUND_S2_SCREEN_HAS_GLOBAL_EIGENLINE_OBSTRUCTION",
+    "DIRECT_TRANSVERSE_ZERO_AND_FULL_TWO_PAIR_REALIZATIONS_REMAIN_INEQUIVALENT",
+    "CONDITIONAL_SEAL_TO_BULK_JOIN_SHARPENED"
+  ],
+  "schema": "udt-metric-native-two-pair-selector-derivation-1.0",
+  "scope": {
+    "complete": "enumerated local metric/phi Hessian curvature-eigensplitting and registered seal classes through the declared second-derivative algebra",
+    "not_covered": [
+      "arbitrary higher jets and nonlocal spectral constructions",
+      "torsionful or non-Weyl connection families",
+      "derived selection of complete angular seal lift",
+      "global cover periods caps topology and boundary dynamics",
+      "action field equations bootstrap functional carrier source mass and canonization"
+    ]
+  },
+  "seal_local_theorem": {
+    "authority": "CONDITIONAL_ON_UNSELECTED_COMPLETE_ANGULAR_SEAL_LIFT_AND_SEAL_LOCAL_ONLY",
+    "construction": "M=J_q R",
+    "identity_lifts": "no nonzero anticommuting M",
+    "nonzero_cross_witnesses": {
+      "MU4": {
+        "mu": 4,
+        "result": "SEAL_LOCAL_COMPLEMENTARY_PAIR_EXISTS_UP_TO_SIGN",
+        "screen_generator": "Matrix([[0, sqrt(2533)/51], [3*sqrt(2533)/149, 0]])",
+        "screen_metric": "Matrix([[51/50, 0], [0, 149/150]])"
+      },
+      "MU9": {
+        "mu": 9,
+        "result": "SEAL_LOCAL_COMPLEMENTARY_PAIR_EXISTS_UP_TO_SIGN",
+        "screen_generator": "Matrix([[0, sqrt(40198)/202], [sqrt(40198)/199, 0]])",
+        "screen_metric": "Matrix([[101/100, 0], [0, 199/200]])"
+      }
+    },
+    "premises": "positive screen metric q and q-orthogonal orientation-reversing angular seal R",
+    "properties": "M^2=I; tr(M)=0; M is q-self-adjoint; RMR=-M",
+    "uniqueness": "up to global orientation/sign exchange"
+  },
+  "smallest_missing_join": {
+    "combined_question": "Does complete Reciprocity require the finite-cell seal to seed a globally integrable two-pair reduction?",
+    "first": "select the orientation-preserving complete seal class whose angular action is a reflection",
+    "second": "derive a bulk continuation/holonomy-reduction law for the seal-local reciprocal pair",
+    "status": "OPEN"
+  }
+}
+
+Script done on 2026-07-21 08:38:35-04:00 [COMMAND_EXIT_CODE="0"]

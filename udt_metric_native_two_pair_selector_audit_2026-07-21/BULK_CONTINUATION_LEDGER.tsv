@@ -1,0 +1,9 @@
+level	input	condition	what_follows	current_authority	status
+B01	seal-local angular reflection R and screen metric q	M equals Jq R	unique boundary reciprocal reflection up to sign	conditional complete lift only	DERIVED_CONDITIONAL_AT_SEAL
+B02	boundary full L and a supplied connection	parallel transport along one chosen path	an L can be propagated along that path	connection and path are unselected	PROPAGATION_NOT_SELECTION
+B03	boundary full L and connection on a simply connected bulk	all holonomy generators commute with L	path-independent parallel extension exists	no current holonomy-reduction law	CONDITIONAL
+B04	parallel full L	curvature integrability commutator Omega with L equals zero	connection holonomy reduces to the L centralizer	reciprocal parallelism is not founded	CONDITIONAL
+B05	parent torsion-free conformal class	compatible full L exists	compatible connection is unique	existence and torsion premise remain open	UNIQUE_IF_EXISTS
+B06	current finite-cell seal	registered parity at fixed surface	limited base soldering and lift classes	no angular lift choice or bulk evolution	INSUFFICIENT
+B07	current bootstrap	complete solutions already supplied	may test global admissibility	no local continuation or reduction equation	INSUFFICIENT
+B08	conditional Hopf/toric global completion	periods caps and framed orbit directions supplied	global axes may be representable	premises are not derived and cannot select themselves	DIAGNOSTIC_ONLY

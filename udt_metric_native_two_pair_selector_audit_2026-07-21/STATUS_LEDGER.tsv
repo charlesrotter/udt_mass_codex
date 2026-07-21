@@ -1,0 +1,21 @@
+claim_id	claim	status	premise_or_limit
+M01	A conformal metric alone selects a normalized trace-free tangent involution	REFUTED_IN_NATURAL_CLASS	The self-adjoint stabilizer commutant is scalar
+M02	Orientation converts the metric into a reciprocal involution	REFUTED_IN_NATURAL_CLASS	The screen Hodge operator squares to minus identity
+M03	The founding longitudinal plane plus the metric selects the positive transverse plane	DERIVED_CONDITIONAL	Requires the conditional spacetime realization of the founding pair
+M04	The same data select ordered reciprocal axes inside the transverse plane	NOT_DERIVED	The residual O2 stabilizer remains continuous
+M05	A nonzero trace-free Hessian or curvature screen tensor can select local reciprocal axes	DERIVED_CONDITIONAL_STRATUM	Fails where the tensor vanishes or its eigenvalues repeat
+M06	Hessian and curvature candidates necessarily select the same axes	REFUTED_ALGEBRAICALLY	Independent trace-free tensors can be noncollinear
+M07	The metric supplies a priority among inequivalent nondegenerate tensor candidates	NOT_DERIVED	No priority or combination law is registered
+M08	Every registered complete angular seal lift admits a second reciprocal pair	REFUTED_IN_REGISTERED_CLASS	Plus and minus identity lifts have zero anticommutant
+M09	An angular reflection seal plus its positive screen metric selects a complementary reciprocal reflection up to sign	DERIVED_CONDITIONAL_AT_SEAL	M equals Jq R; complete reflection lift remains unselected
+M10	The seal-local theorem survives nonzero base-angular cross coupling	DERIVED_CONDITIONAL	Exact mu 4 and mu 9 Schur-screen witnesses pass
+M11	The sign ambiguity is continuous	REFUTED_IN_METRIC_SEAL_CLASS	Metric and normalization reduce the seal-only continuous family to orientation/sign exchange
+M12	Current UDT selects the orientation-preserving complete seal class	NOT_DERIVED	All four complete lift classes remain registered
+M13	A boundary reciprocal pair automatically defines a unique bulk pair	REFUTED_GENERALLY	Path independence requires holonomy to commute with L
+M14	Parent connection uniqueness supplies bulk existence	REFUTED_LOGICALLY	Uniqueness is conditional on an already compatible realized L
+M15	A round intrinsic angular screen supports globally fixed reciprocal eigenlines	REFUTED_IN_ROUND_SCREEN_CLASS	Local curvature rotation and nonzero Euler number obstruct the fixed global split
+M16	The direct transverse-zero and full two-pair realizations are equivalent descriptions	REFUTED_IN_TESTED_CLASSES	Identity seal permits only the direct class while angular reflections permit a second pair
+M17	The conditional Hopf match selects the seal lift or continuation	NOT_DERIVED	Carrier topology periods caps and section remain excluded inputs
+M18	The exact missing join is reflection-lift selection plus a native bulk holonomy-reduction law	OPEN_SHARPENED_GATE	Neither part is current authority
+M19	A complete action source boundary charge or mass follows	NOT_DERIVED	Selector audit is kinematic and premise-bounded
+M20	An unconditional metric-native full two-pair selector exists in the audited class	NOT_DERIVED	Only stratum-local and seal-local conditional constructions survive
