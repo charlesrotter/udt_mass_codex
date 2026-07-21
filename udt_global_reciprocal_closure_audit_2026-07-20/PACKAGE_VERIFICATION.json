@@ -1,0 +1,62 @@
+{
+  "catch_proofs": {
+    "CSN_as_integral_selector_rejected": true,
+    "angular_only_smallest_join_rejected": true,
+    "bootstrap_as_off_shell_functional_rejected": true,
+    "bootstrap_only_smallest_join_rejected": true,
+    "cG_as_absolute_scale_rejected": true,
+    "canonization_rejected": true,
+    "copresence_as_field_equation_rejected": true,
+    "finite_Xmax_as_unique_fractional_law_rejected": true,
+    "global_completion_as_adopted_premise_rejected": true,
+    "global_object_promotion_rejected": true,
+    "matter_promotion_rejected": true,
+    "new_premise_necessity_rejected": true,
+    "radial_reciprocity_as_angular_selector_rejected": true,
+    "static_seal_as_complete_boundary_rejected": true,
+    "unconditional_action_rejected": true,
+    "variation_domain_promotion_rejected": true
+  },
+  "checks": {
+    "all_joins_open_and_unselected": true,
+    "clause_identity_and_count": true,
+    "complete_action_and_matter_open": true,
+    "global_completion_target_open": true,
+    "graph_edge_coverage": true,
+    "graph_node_coverage": true,
+    "internal_catch_proofs_all_pass": true,
+    "join_identity_and_count": true,
+    "later_gates_separate": true,
+    "maximum_conclusion_exact": true,
+    "next_action_excludes_open_choices": true,
+    "registered_outcomes_exact": true,
+    "report_discloses_scoped_countermodels": true,
+    "skeleton_discloses_non_authority": true,
+    "source_identity_and_count": true,
+    "status_identity_and_count": true,
+    "unearned_outcomes_exact": true,
+    "witness_identity_and_count": true
+  },
+  "counts": {
+    "clauses": 16,
+    "counterwitnesses": 9,
+    "graph_edges": 38,
+    "graph_nodes": 25,
+    "open_joins": 9,
+    "sources": 22,
+    "status_rows": 21
+  },
+  "load_bearing_hashes": {
+    "AUDIT_REPORT.md": "635a2419886d559d72651e87edd828965735a153ee381468e843c375d5010046",
+    "CLAUSE_LEDGER.tsv": "f0d88cbf4da4bbc895b72cbe95ff182c8c3b95dabfc4586e47b144f7c7b9421b",
+    "CLOSURE_SKELETON.md": "9578d56037bbb9e3465ba14ea67230823018b1fb0172009cb8d83b423939fef7",
+    "COUNTERMODEL_MATRIX.tsv": "fe61a15d42ab847c32886bd3f4f8955c7b79feb1a1f01264105edab943d7cce5",
+    "DEPENDENCY_GRAPH.json": "766a548d1ae033a2ef58e96e07bd67ab82e3b8a30efdb93f0bd3820f4322d1fb",
+    "DERIVATION_RESULT.json": "be1e71485486475356a55ead8bb3db4b3b843b8a5e4c6439cd9363cd148b9ee6",
+    "OPEN_JOIN_LEDGER.tsv": "194326441879e39fc169fb00ca28930469e26ea9aca0309f61a22a3a0934c4a5",
+    "SOURCE_LINEAGE.tsv": "06add859ab0a786fd5bd3a6a4e4ee235c821fd99150c7dd6120bd96701b71feb",
+    "STATUS_LEDGER.tsv": "19a1f848fdebc156c1e7f05ce020b692cb3cfe3a7c529da266b9e3a8c7f2e228"
+  },
+  "result": "PASS_VERIFIED_WITH_CAVEATS",
+  "schema": "udt-global-reciprocal-closure-verification-1.0"
+}

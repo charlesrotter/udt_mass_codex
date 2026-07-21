@@ -1,0 +1,346 @@
+{
+  "edges": [
+    {
+      "from": "C01",
+      "relation": "REQUIRED_BY",
+      "to": "J01"
+    },
+    {
+      "from": "C02",
+      "relation": "REQUIRED_BY",
+      "to": "J01"
+    },
+    {
+      "from": "C15",
+      "relation": "REQUIRED_BY",
+      "to": "J01"
+    },
+    {
+      "from": "C03",
+      "relation": "REQUIRED_BY",
+      "to": "J02"
+    },
+    {
+      "from": "C04",
+      "relation": "REQUIRED_BY",
+      "to": "J02"
+    },
+    {
+      "from": "C15",
+      "relation": "REQUIRED_BY",
+      "to": "J02"
+    },
+    {
+      "from": "C03",
+      "relation": "REQUIRED_BY",
+      "to": "J03"
+    },
+    {
+      "from": "C12",
+      "relation": "REQUIRED_BY",
+      "to": "J03"
+    },
+    {
+      "from": "C14",
+      "relation": "REQUIRED_BY",
+      "to": "J03"
+    },
+    {
+      "from": "C04",
+      "relation": "REQUIRED_BY",
+      "to": "J04"
+    },
+    {
+      "from": "C11",
+      "relation": "REQUIRED_BY",
+      "to": "J04"
+    },
+    {
+      "from": "J01",
+      "relation": "REQUIRED_BY",
+      "to": "J04"
+    },
+    {
+      "from": "J02",
+      "relation": "REQUIRED_BY",
+      "to": "J04"
+    },
+    {
+      "from": "J03",
+      "relation": "REQUIRED_BY",
+      "to": "J04"
+    },
+    {
+      "from": "C03",
+      "relation": "REQUIRED_BY",
+      "to": "J05"
+    },
+    {
+      "from": "C04",
+      "relation": "REQUIRED_BY",
+      "to": "J05"
+    },
+    {
+      "from": "C05",
+      "relation": "REQUIRED_BY",
+      "to": "J05"
+    },
+    {
+      "from": "C12",
+      "relation": "REQUIRED_BY",
+      "to": "J05"
+    },
+    {
+      "from": "C08",
+      "relation": "REQUIRED_BY",
+      "to": "J06"
+    },
+    {
+      "from": "J01",
+      "relation": "REQUIRED_BY",
+      "to": "J06"
+    },
+    {
+      "from": "J02",
+      "relation": "REQUIRED_BY",
+      "to": "J06"
+    },
+    {
+      "from": "J03",
+      "relation": "REQUIRED_BY",
+      "to": "J06"
+    },
+    {
+      "from": "J04",
+      "relation": "REQUIRED_BY",
+      "to": "J06"
+    },
+    {
+      "from": "J05",
+      "relation": "REQUIRED_BY",
+      "to": "J06"
+    },
+    {
+      "from": "C02",
+      "relation": "REQUIRED_BY",
+      "to": "J07"
+    },
+    {
+      "from": "C11",
+      "relation": "REQUIRED_BY",
+      "to": "J07"
+    },
+    {
+      "from": "C13",
+      "relation": "REQUIRED_BY",
+      "to": "J07"
+    },
+    {
+      "from": "J05",
+      "relation": "REQUIRED_BY",
+      "to": "J07"
+    },
+    {
+      "from": "J06",
+      "relation": "REQUIRED_BY",
+      "to": "J07"
+    },
+    {
+      "from": "C09",
+      "relation": "REQUIRED_BY",
+      "to": "J08"
+    },
+    {
+      "from": "C10",
+      "relation": "REQUIRED_BY",
+      "to": "J08"
+    },
+    {
+      "from": "J04",
+      "relation": "REQUIRED_BY",
+      "to": "J08"
+    },
+    {
+      "from": "J06",
+      "relation": "REQUIRED_BY",
+      "to": "J08"
+    },
+    {
+      "from": "J07",
+      "relation": "REQUIRED_BY",
+      "to": "J08"
+    },
+    {
+      "from": "C16",
+      "relation": "REQUIRED_BY",
+      "to": "J09"
+    },
+    {
+      "from": "J04",
+      "relation": "REQUIRED_BY",
+      "to": "J09"
+    },
+    {
+      "from": "J07",
+      "relation": "REQUIRED_BY",
+      "to": "J09"
+    },
+    {
+      "from": "J08",
+      "relation": "REQUIRED_BY",
+      "to": "J09"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "C01",
+      "kind": "ESTABLISHED_OR_SCOPED_CLAUSE",
+      "label": "reciprocal_clock_ruler_kinematics",
+      "status": "DERIVED_WITH_FROZEN_PREMISE_STAMPS"
+    },
+    {
+      "id": "C02",
+      "kind": "ESTABLISHED_OR_SCOPED_CLAUSE",
+      "label": "common_scale_neutrality",
+      "status": "FOUNDING"
+    },
+    {
+      "id": "C03",
+      "kind": "ESTABLISHED_OR_SCOPED_CLAUSE",
+      "label": "finite_cell",
+      "status": "CANONIZED_DOMAIN_ONTOLOGY"
+    },
+    {
+      "id": "C04",
+      "kind": "ESTABLISHED_OR_SCOPED_CLAUSE",
+      "label": "static_spatial_seal",
+      "status": "CANONIZED_SCOPED_BOUNDARY_DATA"
+    },
+    {
+      "id": "C05",
+      "kind": "ESTABLISHED_OR_SCOPED_CLAUSE",
+      "label": "WRL_simple_metric_profile",
+      "status": "DERIVED_IN_SCOPED_SIMPLE_METRIC"
+    },
+    {
+      "id": "C06",
+      "kind": "ESTABLISHED_OR_SCOPED_CLAUSE",
+      "label": "co_presence",
+      "status": "WORKING_INTERPRETATION"
+    },
+    {
+      "id": "C07",
+      "kind": "ESTABLISHED_OR_SCOPED_CLAUSE",
+      "label": "causal_cones",
+      "status": "DERIVED_CONDITIONAL_IN_CONFORMAL_METRIC"
+    },
+    {
+      "id": "C08",
+      "kind": "ESTABLISHED_OR_SCOPED_CLAUSE",
+      "label": "global_bootstrap",
+      "status": "OWNER_STATED_WORKING_AFTER_SOLUTION_ADMISSIBILITY"
+    },
+    {
+      "id": "C09",
+      "kind": "ESTABLISHED_OR_SCOPED_CLAUSE",
+      "label": "pre_scale_C2_action",
+      "status": "UNIQUE_CONDITIONAL"
+    },
+    {
+      "id": "C10",
+      "kind": "ESTABLISHED_OR_SCOPED_CLAUSE",
+      "label": "post_scale_EH_route",
+      "status": "CONDITIONAL"
+    },
+    {
+      "id": "C11",
+      "kind": "ESTABLISHED_OR_SCOPED_CLAUSE",
+      "label": "C2_boundary_phase_space",
+      "status": "DERIVED_CONDITIONAL"
+    },
+    {
+      "id": "C12",
+      "kind": "ESTABLISHED_OR_SCOPED_CLAUSE",
+      "label": "Xmax_reciprocity",
+      "status": "WORKING_POSIT_PLUS_CONDITIONAL_KINEMATICS"
+    },
+    {
+      "id": "C13",
+      "kind": "ESTABLISHED_OR_SCOPED_CLAUSE",
+      "label": "observational_c_and_G",
+      "status": "OBSERVATIONAL_ANCHORS"
+    },
+    {
+      "id": "C14",
+      "kind": "ESTABLISHED_OR_SCOPED_CLAUSE",
+      "label": "intrinsic_angular_geometry",
+      "status": "OPEN"
+    },
+    {
+      "id": "C15",
+      "kind": "ESTABLISHED_OR_SCOPED_CLAUSE",
+      "label": "complete_seal_involution",
+      "status": "MULTIPLE_CONDITIONAL_COMPLETIONS"
+    },
+    {
+      "id": "C16",
+      "kind": "ESTABLISHED_OR_SCOPED_CLAUSE",
+      "label": "matter_carrier_and_source",
+      "status": "POSIT_AND_OPEN"
+    },
+    {
+      "id": "J01",
+      "kind": "OPEN_JOIN",
+      "label": "physical_full_coframe_slot_and_readout_map",
+      "status": "OPEN"
+    },
+    {
+      "id": "J02",
+      "kind": "OPEN_JOIN",
+      "label": "complete_normal_angular_time_on_seal_involution",
+      "status": "OPEN"
+    },
+    {
+      "id": "J03",
+      "kind": "OPEN_JOIN",
+      "label": "intrinsic_angular_domain_caps_periods_topology_and_holonomy",
+      "status": "OPEN"
+    },
+    {
+      "id": "J04",
+      "kind": "OPEN_JOIN",
+      "label": "allowed_boundary_polarization_and_corner_completion",
+      "status": "OPEN"
+    },
+    {
+      "id": "J05",
+      "kind": "OPEN_JOIN",
+      "label": "static_seal_WRL_horizon_and_global_Xmax_relationship",
+      "status": "OPEN"
+    },
+    {
+      "id": "J06",
+      "kind": "OPEN_JOIN",
+      "label": "bootstrap_off_shell_role_or_representative_map",
+      "status": "OPEN"
+    },
+    {
+      "id": "J07",
+      "kind": "OPEN_JOIN",
+      "label": "local_CSN_section_global_scale_breaker_normalized_charge_and_native_mass",
+      "status": "OPEN"
+    },
+    {
+      "id": "J08",
+      "kind": "OPEN_JOIN",
+      "label": "action_stage_and_two_stage_dynamical_bridge",
+      "status": "OPEN"
+    },
+    {
+      "id": "J09",
+      "kind": "OPEN_JOIN",
+      "label": "native_matter_carrier_source_and_boundary_coupling",
+      "status": "OPEN"
+    }
+  ]
+}
