@@ -47,7 +47,7 @@ def scope(generic, inject: str | None = None) -> list[str]:
     bad = sorted(path for path in changed if path and not path.startswith(PACKAGE + "/"))
     if bad:
         raise generic.GateError("SCOPE", bad[0])
-    return sorted(changed)
+    return sorted(path for path in changed if path != f"{PACKAGE}/REPOSITORY_GATES.json")
 
 
 def scientific_verification() -> dict[str, object]:
@@ -219,4 +219,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
