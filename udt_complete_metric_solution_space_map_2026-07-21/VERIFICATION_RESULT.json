@@ -1,0 +1,131 @@
+{
+  "catch_proofs": [
+    {
+      "catch": "missing_metric_sector",
+      "expected_error": "METRIC_SECTOR_SET",
+      "status": "PASS"
+    },
+    {
+      "catch": "duplicated_degree_of_freedom",
+      "expected_error": "ID_UNIQUE:COMPLETE_METRIC_DOF_LEDGER.tsv",
+      "status": "PASS"
+    },
+    {
+      "catch": "wrong_metric_slot_total",
+      "expected_error": "METRIC_SLOT_COUNT",
+      "status": "PASS"
+    },
+    {
+      "catch": "unconditional_2_plus_2",
+      "expected_error": "SPLIT_CONDITIONALITY",
+      "status": "PASS"
+    },
+    {
+      "catch": "offshell_branch_promoted",
+      "expected_error": "OFFSHELL_PROMOTION",
+      "status": "PASS"
+    },
+    {
+      "catch": "habit_pin_authorized",
+      "expected_error": "HABIT_PINS",
+      "status": "PASS"
+    },
+    {
+      "catch": "conditional_action_called_native",
+      "expected_error": "CONDITIONAL_ACTION",
+      "status": "PASS"
+    },
+    {
+      "catch": "ode_presented_as_whole",
+      "expected_error": "ODE_WHOLE_GUARD",
+      "status": "PASS"
+    },
+    {
+      "catch": "configuration_time_called_evolution",
+      "expected_error": "TIME_LIVE_GUARD",
+      "status": "PASS"
+    },
+    {
+      "catch": "readout_before_freeze",
+      "expected_error": "READOUT_FIREWALL",
+      "status": "PASS"
+    },
+    {
+      "catch": "singular_outcome_dropped",
+      "expected_error": "OUTCOME_SET",
+      "status": "PASS"
+    },
+    {
+      "catch": "unresolved_outcome_dropped",
+      "expected_error": "OUTCOME_SET",
+      "status": "PASS"
+    },
+    {
+      "catch": "completeness_gap_hidden",
+      "expected_error": "COMPLETENESS_OPEN",
+      "status": "PASS"
+    },
+    {
+      "catch": "pre_july_affirmative_use",
+      "expected_error": "SOURCE_FIREWALL",
+      "status": "PASS"
+    },
+    {
+      "catch": "generated_evidence_feedback",
+      "expected_error": "GENERATED_FEEDBACK",
+      "status": "PASS"
+    },
+    {
+      "catch": "stage_removed",
+      "expected_error": "STAGE_SEQUENCE",
+      "status": "PASS"
+    },
+    {
+      "catch": "reduced_before_full_variation",
+      "expected_error": "FULL_VARIATION_BEFORE_REDUCTION",
+      "status": "PASS"
+    },
+    {
+      "catch": "gr_metric_selector",
+      "expected_error": "GR_SELECTION_FIREWALL",
+      "status": "PASS"
+    }
+  ],
+  "counts": {
+    "anti_myopia_checks": 24,
+    "catch_proofs": 18,
+    "completeness_criteria": 10,
+    "dof_rows": 24,
+    "graph_edges": 22,
+    "graph_nodes": 18,
+    "metric_slots": 10,
+    "outcome_classes": 16,
+    "premise_rows": 36,
+    "result_schema_fields": 34,
+    "source_rows": 28,
+    "stages": 14
+  },
+  "errors": [],
+  "input_sha256": {
+    "ALGEBRA_ODE_TIME_DESIGN.tsv": "f15539b23609e647ff5428d919e46422fb2ec2ff496e37fc75b8f4df3362e544",
+    "ANTI_MYOPIA_AUDIT.tsv": "57bbd354698e733f26ffdc452cf031c174173c1e6adf1b2212f5ae4e9312301a",
+    "BRANCH_OUTCOME_VOCABULARY.tsv": "f116a5e1f9e7de8a6c09c94e0580ec981136a7b6f1e8346f8430cdda7a452174",
+    "BRANCH_RECORD_SCHEMA.tsv": "85f503e20dac92c0781f1bb7f03a65ead024aae387b4e614438e1c65e642f8e4",
+    "COMPLETE_METRIC_DOF_LEDGER.tsv": "91a3749c65a21cadd0a63f07ea45463f9aa8d48499421e8c746a921748eedc04",
+    "COMPUTE_AND_STOP_CONTRACT.tsv": "cd3bbd16cfde7048e0dff28ba18a6bad5c4a30eebeecb7c561552a99cf9139e2",
+    "FUTURE_ATLAS_PROTOCOL.tsv": "27c0ead67012b4b4055d0262414018eaea583ba924cf1011d885510ff092079a",
+    "GEOMETRIC_COUPLING_MAP.tsv": "25a7c5d63cc7630a4b0fbf427025c4e9266cc31c1fd9ab4079a5419f14100fe9",
+    "LAYER_AND_STAGE_GRAPH.json": "41e100b6bcb85a9a0b99503520b390497992e468293642029792f9375c78ccb8",
+    "OFFSHELL_CONFIGURATION_BRANCHES.tsv": "a89e97b18662be8a4bd30e5ba9d89c904b44a8851f2fe3d411f9e2e2e327224a",
+    "PREMISE_AND_REDUCTION_LEDGER.tsv": "fb94f3d843c134cb8122c25d263d23cde3eea8db036f1473f78c90887a63352d",
+    "PREREGISTRATION.md": "804d8a792535e296cd77f6243b9e8f562497a71417706f5fdc53e91df8079970",
+    "REDUNDANCY_AND_REALIZATION_LEDGER.tsv": "419a58e97d690aaf247ad2912652b1cd8a36357ef3bee922f011fc56c88c7b9b",
+    "REGRADING_AND_ROLLBACK_RULES.tsv": "82211ef29c838ec15c0f16de5188c72b4b4df266bd241eb027d8a7b9670e6305",
+    "SOURCE_LINEAGE.tsv": "e469f23108596b970a3e1bb1c0a59cfe55adb514f56716c1a75a0c705dfdfa1b",
+    "TEN_CRITERION_COMPLETENESS.tsv": "8d97a0816ed35b181c6df654c2012c6185e3bdd3505845ef16c5a8e3f522a16a"
+  },
+  "maximum_conclusion": "EXECUTION_PLAN_READY_FOR_OWNER_REVIEW",
+  "schema": "udt-complete-metric-map-verification-1.0",
+  "scientific_solve_executed": false,
+  "status": "PASS"
+}

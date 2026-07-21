@@ -1,0 +1,35 @@
+field_id	field_name	required	purpose	validation_rule
+B01	record_id	YES	Stable identity independent of interpretation.	Unique nonempty identifier.
+B02	parent_record_ids	YES	Branch ancestry continuation split or merge.	Every parent exists or is NONE.
+B03	atlas_stage	YES	Stage that produced the record.	Must exist in FUTURE_ATLAS_PROTOCOL.tsv.
+B04	space_layer	YES	Configuration constrained dynamics global frozen or comparison.	Must agree with stage and graph node.
+B05	offshell_branch_id	YES	Metric-only metric-plus-phi coframe projector multiplier two-stage or connection census.	Must exist in OFFSHELL_CONFIGURATION_BRANCHES.tsv.
+B06	dynamics_law_id	YES	NONE or exact authorized law manifest.	NONE required for kinematic records; conditional status explicit otherwise.
+B07	dynamics_law_status	YES	OPEN CONDITIONAL UNIQUE_CONDITIONAL or NATIVE_IF_LATER_DERIVED.	May never be silently upgraded.
+B08	representation_and_split	YES	Coframe metric chart and supplied 2+2 realization.	Invertibility domain and alternate/type-change handling recorded.
+B09	coordinate_chart	YES	Local/global coordinates and patch identifier.	Axes singularities and overlap maps recorded.
+B10	gauge_and_CSN_conditions	YES	Coordinate frame connection and common-scale choices.	Every condition cites numeric necessity or physical premise.
+B11	live_fields_and_slots	YES	All varied degrees and coordinate dependencies.	Must list every relevant metric slot or cite whole evaluator.
+B12	frozen_or_omitted_fields	YES	Visible completeness debt.	Use NONE or explicit premise-stamped list; never blank.
+B13	dependence_set	YES	Which of x0 x1 y2 y3 remain live.	Static and symmetry reductions explicit.
+B14	symmetry_stratum	YES	Static stationary homogeneous axisymmetric or none.	Every symmetry is CHOSE unless cited otherwise.
+B15	domain_and_topology	YES	Intervals patches cover caps quotient and finite-cell relation.	No implicit spatial infinity or box=physical-cell inference.
+B16	boundary_and_corner_class	YES	Allowed variations values normal jets and natural residuals.	Static phi seal separated from all other data.
+B17	initial_or_free_data	YES	All integration constants functions seeds and ranges.	Every physical value has a premise stamp.
+B18	continuation_parameters	YES	Scanned parameters and direction.	Full preregistered domain or unresolved cells listed.
+B19	numerical_method	YES	Exact symbolic shooting collocation continuation PDE method or NONE.	Category-A method and soundness checks recorded.
+B20	basis_grid_and_precision	YES	Discretization and arithmetic.	Exact values or NOT_APPLICABLE; refinement path present.
+B21	stop_tolerances_and_limits	YES	Raw residual tolerance iterations wall time and resource bounds.	Preregistered and not retuned after outcome.
+B22	raw_equation_residual	YES	Primary certification gate.	Unscaled norm and location recorded; never replaced by preconditioned residual.
+B23	constraint_and_boundary_residuals	YES	All secondary equations and patch joins.	Each component/channel independently reported.
+B24	backward_error_and_conditioning	YES	Numerical reliability and singularity diagnostics.	Report values or NOT_AVAILABLE with reason.
+B25	convergence_and_method_crosscheck	YES	Grid/order/method consistency.	At least registered convergence plan and independent anchor.
+B26	signature_degeneracy_causal_class	YES	Geometry classification rather than filtering.	Every type-change or undefined locus preserved.
+B27	geometric_invariants	YES	Coordinate/frame-independent comparison fields.	Definitions and representative dependence explicit.
+B28	outcome_labels	YES	Multi-label mathematical behavior.	Vocabulary must include all applicable outcomes; no merit label.
+B29	solver_disposition	YES	CONVERGED DIVERGED FLOORED TIMEOUT BUG SUSPECT UNRESOLVED or NOT_RUN.	Disposition is not physics and does not delete record.
+B30	premise_row_ids	YES	Complete dependency stamp.	Every id exists in PREMISE_AND_REDUCTION_LEDGER.tsv.
+B31	raw_artifact_paths_and_hashes	YES	Reproducible evidence.	Existing paths hashes commands versions and shapes recorded.
+B32	comparison_state	YES	Whether downstream data have been loaded.	UNSEEN before P12; readout role after P12 only.
+B33	interpretation_status	YES	OBSERVED INFERRED CONDITIONAL OPEN or comparison-only.	No canon or derived label beyond evidence gates.
+B34	unresolved_scope	YES	Exact space not covered.	Nonempty even for successful bounded records.

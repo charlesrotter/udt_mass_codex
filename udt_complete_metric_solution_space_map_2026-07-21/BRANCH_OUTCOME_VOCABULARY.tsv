@@ -1,0 +1,17 @@
+outcome_id	label	meaning	retention_rule
+V01	TRIVIAL	Identity flat constant or zero-field branch within stated premises.	Always retain; never discard for lacking structure.
+V02	REGULAR	Meets the declared mathematical regularity class on the tested domain.	Retain with the exact class; not automatically physical merit.
+V03	SINGULAR	An invariant or field diverges or a required differentiability class fails.	Retain with location order and chart-independence audit.
+V04	DEGENERATE	Metric operator Jacobian or leading coefficient loses rank.	Retain as a separate stratum and test alternate variables/charts.
+V05	HORIZON_OR_CAUSAL_BOUNDARY	Causal character changes or an optical/coordinate limit occurs.	Retain; do not call a hard edge or failure without global proof.
+V06	TYPE_CHANGE	Signature Petrov split rank differential order or other algebraic class changes.	Retain both sides and transition locus.
+V07	OSCILLATORY	Fields or invariants oscillate within the registered domain.	Retain frequency/node data without spectrum interpretation.
+V08	DIVERGENT_BRANCH	Continuation runs to unbounded field coordinate or parameter behavior.	Retain asymptotics and distinguish physical from coordinate/numerical divergence.
+V09	DISCONNECTED	No registered continuation joins the branch to its comparison family.	Retain with search bounds; disconnected is not necessarily complete proof.
+V10	BIFURCATION_OR_FOLD	Branch Jacobian or continuation graph has a registered split/turn.	Retain every daughter and zero mode with look-elsewhere accounting.
+V11	BOUNDARY_CONTROLLED	Behavior changes materially with boundary class or domain size.	Retain and report dependency; do not promote box behavior.
+V12	GAUGE_OR_REPRESENTATIVE_ORBIT	Records are related by coordinate frame or CSN transformation.	Retain one invariant identity plus transformation provenance; do not count as physical multiplicity.
+V13	UNRESOLVED_NUMERICAL	Certification tolerance convergence or conditioning is insufficient.	Retain as open evidence; never convert to no solution.
+V14	SOLVER_FAILURE_OR_BUG_SUSPECT	Algorithm fails or a likely implementation defect is present.	Retain diagnostic and fix solver before judging metric.
+V15	TIMEOUT_OR_RESOURCE_BOUND	Registered compute limit reached without classification.	Retain checkpoint and throughput limit; not negative physics.
+V16	NO_GLOBAL_COMPLETION_FOUND_WITHIN_BOUNDS	Local branch failed all enumerated global joins within a frozen search.	Retain exact bounds/premises; never state unconditional nonexistence.

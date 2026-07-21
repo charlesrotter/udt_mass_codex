@@ -1,0 +1,445 @@
+{
+  "authority_boundary": {
+    "canon_changed": false,
+    "carrier_or_matter_adopted": false,
+    "external_model_review_performed": false,
+    "native_dynamics_selected": false,
+    "ode_or_pde_run": false,
+    "repository_reorganization_performed": false,
+    "solution_space_explored": false,
+    "startup_controls_changed": false
+  },
+  "base": "fa3d3afda98b2516e58b83a4f383190df9a0aa68",
+  "catch_proofs": {
+    "current": "PASS",
+    "dirty": "PASS",
+    "frontier": "PASS",
+    "frozen": "PASS",
+    "package": "PASS",
+    "prior": "PASS",
+    "scope": "PASS"
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_work_performed": false,
+    "scientific_solve_executed": false
+  },
+  "dirty_checkout": {
+    "contents_read": false,
+    "metadata_sha256": "4bc96070c841a14c497b642ee7b93dcf9061372f770aee065d6b495ee4996f4c",
+    "paths": 54
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "map_verifier": {
+    "catch_proofs": 18,
+    "completeness_criteria": 10,
+    "metric_slots": 10,
+    "scientific_solve_executed": false,
+    "stages": 14,
+    "status": "PASS"
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 25,
+    "result": "PASS",
+    "sha256": "1778e4dcfcf9ac0bd3574fb3ff5248f2990265fa40d0822ff964ac67c434ae38"
+  },
+  "prior_scientific_packages": {
+    "entries": 1219,
+    "packages": [
+      {
+        "entries": 18,
+        "manifest_sha256": "64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50",
+        "package": "angular_toric_closure_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest_sha256": "1a48e574835ee3838514294a7badd2415a74cdb0d10cf0545c30d3698ab022d2",
+        "package": "bootstrap_csn_phi_angular_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 16,
+        "manifest_sha256": "14e13dd27aa7036a6fef7db9208681459b86c06186bfffc7990ee877947d8356",
+        "package": "copresence_causal_accessibility_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest_sha256": "022f3c97916e38f29260812c14ad0136574d1908c70aabc7d4e56ae99d78f7bc",
+        "package": "copresence_gr_constraint_regrade_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest_sha256": "0e630938c516a0e70cfdb97924ebd6501bd4a97223909b038a22c341a653f1f7",
+        "package": "metric_cartan_holonomy_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 14,
+        "manifest_sha256": "6f03f82d485d4a20c2d2bfc13dc8979c1b229bf92c53f0eb36831abf3d75febc",
+        "package": "native_hopfion_topology_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 16,
+        "manifest_sha256": "e195d14349407c23e4a050628ec84298d3d35e23e2c25b5cf285a5c81f8e989b",
+        "package": "null_section_hopfion_metric_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest_sha256": "377eaa791ab93845f50c19d6eb30dadb0b10322ac0cbe405db55ca0a37ad3dfb",
+        "package": "projective_position_direction_magnitude_correction_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest_sha256": "bde786c168a2bf552a9720afa66a3615e66c0d63ffcfb78af680c88813198a84",
+        "package": "projective_position_join_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest_sha256": "32e523d44142cd36904a66f385890c5c417d9b827d0ac3cf956bdb48a838004b",
+        "package": "projective_transport_section_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest_sha256": "ac38f2b58cf41e0965950ddceb615e8b1edda6f419cecf282c0a98a55f58ce85",
+        "package": "reciprocal_c_clock_channel_correction_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 14,
+        "manifest_sha256": "d4ce35881bfd79952083da84bd5bd7f80b6d21b0e69d698059e1695c6f90ba6d",
+        "package": "reciprocal_clock_optical_scale_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest_sha256": "01ed5557bb94a1df99209d37b1eb5e4eefae4486978be34ab09dafb73aeac17b",
+        "package": "reciprocal_metric_null_line_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest_sha256": "5121270039c91c654bcd9bb5667cb06c31a5b91dec3747ddf015df0129081812",
+        "package": "rung2_weld_postjuly_regrade_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest_sha256": "9c074cc83b0815607c1a4a36f8dffeac09bf79c9d0f5aee74a356b21e87bf470",
+        "package": "transverse_reciprocal_realization_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest_sha256": "c36c5b9e58c4305c91dd52ccbcae42cbd77548f0d4d10d36eda85529e6eb754f",
+        "package": "xmax_accelerating_finite_cell_cartan_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest_sha256": "dfd3c1b7497ee0b24e82e4277afe700ae17629f1912dfa39bcfa15db501f34db",
+        "package": "xmax_dynamic_observer_frame_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest_sha256": "9b986d647b56283ba20dd25d4ae118bc42e775912656da70ef6237f1fbc83b5d",
+        "package": "xmax_full_frame_realization_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest_sha256": "9b1dbd9a38176f9cc4996771485b3d459d83b425e64cd3ac63454350914c2fb3",
+        "package": "xmax_reciprocity_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 22,
+        "manifest_sha256": "6123253b9370bce674c626a863dc595c773da3905cb155a7fe2b77c4667fd3a7",
+        "package": "udt_premise_reset_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 37,
+        "manifest_sha256": "3841492810a553cc07ae3107cc10c3c5584547db5dcb87757e377ebcdb335afb",
+        "package": "asymptotic_boundary_lineage_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 31,
+        "manifest_sha256": "39d335fbbc0367f206d77173f72d4b4485145dd0cb42aacc8c4491656e6d287c",
+        "package": "native_boundary_generator_scale_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "62dd9fa82d19af1a065ffd45529b8cb0d7c4a814db66ea75759f1d19f159ea04",
+        "package": "clock_curvature_selector_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 25,
+        "manifest_sha256": "6cd896586dda87b8e9794818c34ccb392a2f5a004e7d88ba8e288db57e50c6c3",
+        "package": "boundary_bootstrap_representative_selector_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 28,
+        "manifest_sha256": "53996dfcc0fb9cef29422ff94908fe71aaed32703d49e70e2d6d7f01aa19fe84",
+        "package": "scale_breaking_closure_census_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 31,
+        "manifest_sha256": "716c2ad9c071a49f75b4c340d6d980d75cfc0a48b0923c39e0cf3d100759ae77",
+        "package": "matter_bootstrap_dimensional_inventory_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 32,
+        "manifest_sha256": "bff22ac4ff488c4a426f87afdfbce3d06d8a23659552f19284da1eda3b98c8ff",
+        "package": "angular_derivative_weight_selector_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 32,
+        "manifest_sha256": "98581e8f4da61692262b063650a281ffa0fb83739d16c3edd7afdbeaeaa83295",
+        "package": "c2_angular_reduction_selector_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 32,
+        "manifest_sha256": "28009a732ef6b07e74fd20764e5481d7e866a43812fa40f47162e53d60e557ae",
+        "package": "c2_variable_lapse_selector_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 32,
+        "manifest_sha256": "7decd015d987d50c1d120d32eb9111b5a6ca07b538c9c3db83bb7420bcd23fee",
+        "package": "c2_time_fiber_shift_jacobi_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 34,
+        "manifest_sha256": "848db01c3524a45f15854228549d45dac4ac7b10cd07aa06924dffd406b3c9d4",
+        "package": "c2_rigidity_three_route_zoomout_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 34,
+        "manifest_sha256": "2be362cd50cc5102960cb6a1e8745196cad956799b851c3e71a212b01d70d83e",
+        "package": "c2_finite_cell_boundary_variation_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 35,
+        "manifest_sha256": "704b084548a212eabcfb1ac051e89234a7fd91bbeaf7f70abcc28bf63edc7a3b",
+        "package": "finite_cell_seal_boundary_phase_join_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 35,
+        "manifest_sha256": "87d43cb281d236111a8baec4fe7da5686a8043931e6ba0a2715228f7d61f483e",
+        "package": "complete_coframe_seal_involution_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 39,
+        "manifest_sha256": "feb8d68bc8d52bbe7743146b4f081fbe33b2b02f3d971fa6b7626cd2859c6a10",
+        "package": "c2_nonlinear_stationary_solution_space_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 43,
+        "manifest_sha256": "113fa557c2a8e0b3267974276809ebebfd41b18a5ec4c5fe7afa93b875367a95",
+        "package": "c2_failed_basin_homotopy_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 37,
+        "manifest_sha256": "e130b3e01583ac317643f7e3050979a8084cbf06f2700e190690f96957008c4d",
+        "package": "c2_open_path_checkpoint_continuation_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 22,
+        "manifest_sha256": "73a53266bd49b16593e0e55c05f65940b69687c9ca2a211c060bf5b9eafa9b0b",
+        "package": "c2_reciprocal_transverse_twist_jacobi_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "3fa442d93c4f69322f90504dd92dbbba5e8028195076e57e44c1bcf3b1347aa8",
+        "package": "c2_coupled_reciprocal_twist_onshell_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 26,
+        "manifest_sha256": "8b3a011bbb6c7821405ba1113d51238b72ddd8dc2d773f1e92a88f469ffb9e65",
+        "package": "c2_intrinsic_angular_product_selector_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 29,
+        "manifest_sha256": "21a72d4e2f1afdb582042b0378bb6e3006277b832fd1daec0ddcf11df2b75d2a",
+        "package": "c2_transverse_coframe_closure_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest_sha256": "e11985e9afd9cefbb818e75aa1afe90acec48d60b2170e26c2fe712287742d48",
+        "package": "udt_global_reciprocal_closure_audit_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 17,
+        "manifest_sha256": "1297e8f6773f863f426d66f6c4915741a742c1ee13230abf2b066421de49b04b",
+        "package": "udt_global_coframe_cocycle_audit_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest_sha256": "6b190e97202755ce79e0b394a7fbd6a1e06d1199cecea4c193400ef9c9ec3798",
+        "package": "udt_mixed_readout_anchor_soldering_audit_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest_sha256": "48ecfbdd78ec44308a7d93309e68cc13b4293fd2d051a6dff11c832e0bc60450",
+        "package": "udt_clock_ruler_soldering_selector_audit_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest_sha256": "15972da297739e299c6d1173e8b2989b98eb8416c067fdba9eb8d74c0697455e",
+        "package": "udt_complete_lift_mu_closure_audit_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest_sha256": "a937bcf290cb7964d54f8e358a56489a6c4015a0264fcb949103a2a6af31c72c",
+        "package": "udt_time_extendability_constraint_audit_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "6842b5f03d94ede4c880d565738a77905f53a6f221f5910be15d2dfa4f4d19a4",
+        "package": "udt_gr_subtraction_reciprocal_connection_audit_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "d800a5c1f6ec6deaa695d00728809de4fe81129651a8d9194a814637950ccdef",
+        "package": "udt_metric_native_two_pair_selector_audit_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "3a6cc83e40fe95951b19f37b68b1167a3683cf4f02c0fbf1f52f54d95db99b66",
+        "package": "udt_complete_seal_fixed_set_selector_audit_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest_sha256": "7d14a1cfda1135e3f34af48796d0ea3ea46930f2c94a1fb6ef80d2006c042ee6",
+        "package": "udt_reciprocal_plane_projector_audit_2026-07-21",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS"
+  },
+  "result": "PASS",
+  "schema": "udt-complete-metric-solution-space-map-repository-gates-1.0",
+  "scope_paths": [
+    "udt_complete_metric_solution_space_map_2026-07-21/ALGEBRA_ODE_TIME_DESIGN.tsv",
+    "udt_complete_metric_solution_space_map_2026-07-21/ANTI_MYOPIA_AUDIT.tsv",
+    "udt_complete_metric_solution_space_map_2026-07-21/AUDIT_REPORT.md",
+    "udt_complete_metric_solution_space_map_2026-07-21/BRANCH_OUTCOME_VOCABULARY.tsv",
+    "udt_complete_metric_solution_space_map_2026-07-21/BRANCH_RECORD_SCHEMA.tsv",
+    "udt_complete_metric_solution_space_map_2026-07-21/COMMANDS.md",
+    "udt_complete_metric_solution_space_map_2026-07-21/COMPLETE_METRIC_DOF_LEDGER.tsv",
+    "udt_complete_metric_solution_space_map_2026-07-21/COMPUTE_AND_STOP_CONTRACT.tsv",
+    "udt_complete_metric_solution_space_map_2026-07-21/FUTURE_ATLAS_PROTOCOL.tsv",
+    "udt_complete_metric_solution_space_map_2026-07-21/GEOMETRIC_COUPLING_MAP.tsv",
+    "udt_complete_metric_solution_space_map_2026-07-21/LAYER_AND_STAGE_GRAPH.json",
+    "udt_complete_metric_solution_space_map_2026-07-21/LAY_MAP.md",
+    "udt_complete_metric_solution_space_map_2026-07-21/OFFSHELL_CONFIGURATION_BRANCHES.tsv",
+    "udt_complete_metric_solution_space_map_2026-07-21/OWNER_REVIEW_GATE.md",
+    "udt_complete_metric_solution_space_map_2026-07-21/PREMISE_AND_REDUCTION_LEDGER.tsv",
+    "udt_complete_metric_solution_space_map_2026-07-21/PREREGISTRATION.md",
+    "udt_complete_metric_solution_space_map_2026-07-21/REDUNDANCY_AND_REALIZATION_LEDGER.tsv",
+    "udt_complete_metric_solution_space_map_2026-07-21/REGRADING_AND_ROLLBACK_RULES.tsv",
+    "udt_complete_metric_solution_space_map_2026-07-21/SHA256SUMS.txt",
+    "udt_complete_metric_solution_space_map_2026-07-21/SOURCE_LINEAGE.tsv",
+    "udt_complete_metric_solution_space_map_2026-07-21/TEN_CRITERION_COMPLETENESS.tsv",
+    "udt_complete_metric_solution_space_map_2026-07-21/VERIFICATION_RESULT.json",
+    "udt_complete_metric_solution_space_map_2026-07-21/VERIFICATION_TRANSCRIPT.txt",
+    "udt_complete_metric_solution_space_map_2026-07-21/build_manifest.py",
+    "udt_complete_metric_solution_space_map_2026-07-21/verify_complete_metric_solution_space_map.py",
+    "udt_complete_metric_solution_space_map_2026-07-21/verify_repository_gates.py"
+  ],
+  "tests": {
+    "baseline_match": true,
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest tests/",
+    "failed": 1,
+    "failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "passed": 69,
+    "stdout_sha256": "fc084d322b87ec36290d2a5fe33600f24b1b5a6f8d04b462114e6973bd20a6d3",
+    "xfailed": 1
+  }
+}
