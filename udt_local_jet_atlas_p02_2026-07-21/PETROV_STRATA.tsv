@@ -1,0 +1,7 @@
+id	Petrov_type	exact_Q	I	J	Delta	nilpotency_index	Weyl_operator_rank	P01_max_residual	positive_CSN_status
+W01	I	Matrix([[1, 0,  0],[0, 2,  0],[0, 0, -3]])	7	3	100	NON_NILPOTENT	6	0	INVARIANT_ALGEBRAIC_TYPE
+W02	D	Matrix([[1, 0,  0],[0, 1,  0],[0, 0, -2]])	3	1	0	NON_NILPOTENT	6	0	INVARIANT_ALGEBRAIC_TYPE
+W03	II	Matrix([[2, I,  0],[I, 0,  0],[0, 0, -2]])	3	1	0	NON_NILPOTENT	6	0	INVARIANT_ALGEBRAIC_TYPE
+W04	III	Matrix([[0, 1, I],[1, 0, 0],[I, 0, 0]])	0	0	0	3	4	0	INVARIANT_ALGEBRAIC_TYPE
+W05	N	Matrix([[1,  I, 0],[I, -1, 0],[0,  0, 0]])	0	0	0	2	2	0	INVARIANT_ALGEBRAIC_TYPE
+W06	O	Matrix([[0, 0, 0],[0, 0, 0],[0, 0, 0]])	0	0	0	0	0	0	INVARIANT_ALGEBRAIC_TYPE

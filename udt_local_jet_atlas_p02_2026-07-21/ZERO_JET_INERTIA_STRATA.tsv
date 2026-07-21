@@ -1,0 +1,16 @@
+id	n_negative	n_positive	n_zero	rank	determinant	status	exact_witness	positive_CSN_preserves
+Z01	0	0	4	0	0	DEGENERATE_TYPE_CHANGE	Matrix([[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0]])	YES
+Z02	0	1	3	1	0	DEGENERATE_TYPE_CHANGE	Matrix([[1, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0]])	YES
+Z03	0	2	2	2	0	DEGENERATE_TYPE_CHANGE	Matrix([[1, 0, 0, 0],[0, 1, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0]])	YES
+Z04	0	3	1	3	0	DEGENERATE_TYPE_CHANGE	Matrix([[1, 0, 0, 0],[0, 1, 0, 0],[0, 0, 1, 0],[0, 0, 0, 0]])	YES
+Z05	0	4	0	4	1	NON_LORENTZIAN_REGULAR	Matrix([[1, 0, 0, 0],[0, 1, 0, 0],[0, 0, 1, 0],[0, 0, 0, 1]])	YES
+Z06	1	0	3	1	0	DEGENERATE_TYPE_CHANGE	Matrix([[-1, 0, 0, 0],[ 0, 0, 0, 0],[ 0, 0, 0, 0],[ 0, 0, 0, 0]])	YES
+Z07	1	1	2	2	0	DEGENERATE_TYPE_CHANGE	Matrix([[-1, 0, 0, 0],[ 0, 1, 0, 0],[ 0, 0, 0, 0],[ 0, 0, 0, 0]])	YES
+Z08	1	2	1	3	0	DEGENERATE_TYPE_CHANGE	Matrix([[-1, 0, 0, 0],[ 0, 1, 0, 0],[ 0, 0, 1, 0],[ 0, 0, 0, 0]])	YES
+Z09	1	3	0	4	-1	LORENTZIAN_REGULAR	Matrix([[-1, 0, 0, 0],[ 0, 1, 0, 0],[ 0, 0, 1, 0],[ 0, 0, 0, 1]])	YES
+Z10	2	0	2	2	0	DEGENERATE_TYPE_CHANGE	Matrix([[-1,  0, 0, 0],[ 0, -1, 0, 0],[ 0,  0, 0, 0],[ 0,  0, 0, 0]])	YES
+Z11	2	1	1	3	0	DEGENERATE_TYPE_CHANGE	Matrix([[-1,  0, 0, 0],[ 0, -1, 0, 0],[ 0,  0, 1, 0],[ 0,  0, 0, 0]])	YES
+Z12	2	2	0	4	1	NON_LORENTZIAN_REGULAR	Matrix([[-1,  0, 0, 0],[ 0, -1, 0, 0],[ 0,  0, 1, 0],[ 0,  0, 0, 1]])	YES
+Z13	3	0	1	3	0	DEGENERATE_TYPE_CHANGE	Matrix([[-1,  0,  0, 0],[ 0, -1,  0, 0],[ 0,  0, -1, 0],[ 0,  0,  0, 0]])	YES
+Z14	3	1	0	4	-1	LORENTZIAN_REGULAR	Matrix([[-1,  0,  0, 0],[ 0, -1,  0, 0],[ 0,  0, -1, 0],[ 0,  0,  0, 1]])	YES
+Z15	4	0	0	4	1	NON_LORENTZIAN_REGULAR	Matrix([[-1,  0,  0,  0],[ 0, -1,  0,  0],[ 0,  0, -1,  0],[ 0,  0,  0, -1]])	YES

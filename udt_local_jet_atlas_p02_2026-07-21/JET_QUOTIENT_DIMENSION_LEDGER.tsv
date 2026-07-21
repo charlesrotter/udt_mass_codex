@@ -1,0 +1,5 @@
+id	object	raw_components	removed_or_quotiented	remaining	status
+D01	symmetric_metric_two_jet	150	0	150	10_VALUE_PLUS_40_FIRST_PLUS_100_SECOND
+D02	normal_coordinate_metric_two_jet_before_residual_Lorentz	150	130	20	ALGEBRAIC_RIEMANN_TENSOR
+D03	curvature_mod_local_CSN_Hessian	20	10	10	WEYL_TENSOR_PRE_SCALE_LOCAL_CONTENT
+D04	generic_Weyl_mod_local_Lorentz_frame	10	6	4	CONTINUOUS_REAL_INVARIANTS_NOT_DISCRETE_PETROV_LABEL_ONLY

@@ -1,0 +1,21 @@
+id	sector	basis_name	upper_bivector_bilinear_21_vector	prefix_exact_rank
+B01	SCHOUTEN_REPRESENTATIVE	P00	Matrix([[1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]])	1
+B02	SCHOUTEN_REPRESENTATIVE	P01	Matrix([[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0]])	2
+B03	SCHOUTEN_REPRESENTATIVE	P02	Matrix([[0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]])	3
+B04	SCHOUTEN_REPRESENTATIVE	P03	Matrix([[0, 0, 0, 0, 1, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]])	4
+B05	SCHOUTEN_REPRESENTATIVE	P11	Matrix([[-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]])	5
+B06	SCHOUTEN_REPRESENTATIVE	P12	Matrix([[0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0]])	6
+B07	SCHOUTEN_REPRESENTATIVE	P13	Matrix([[0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0]])	7
+B08	SCHOUTEN_REPRESENTATIVE	P22	Matrix([[0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]])	8
+B09	SCHOUTEN_REPRESENTATIVE	P23	Matrix([[0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0]])	9
+B10	SCHOUTEN_REPRESENTATIVE	P33	Matrix([[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 1, 0, 0, 1, 0, 0]])	10
+B11	WEYL_PRE_SCALE	E_DIAG_01	Matrix([[1, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0]])	11
+B12	WEYL_PRE_SCALE	E_DIAG_02	Matrix([[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, -1, 0, 0, 0, 0, 1]])	12
+B13	WEYL_PRE_SCALE	E_OFF_01	Matrix([[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0]])	13
+B14	WEYL_PRE_SCALE	E_OFF_02	Matrix([[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0]])	14
+B15	WEYL_PRE_SCALE	E_OFF_12	Matrix([[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0]])	15
+B16	WEYL_PRE_SCALE	B_DIAG_01	Matrix([[0, 0, 0, 1, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]])	16
+B17	WEYL_PRE_SCALE	B_DIAG_02	Matrix([[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0]])	17
+B18	WEYL_PRE_SCALE	B_OFF_01	Matrix([[0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]])	18
+B19	WEYL_PRE_SCALE	B_OFF_02	Matrix([[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]])	19
+B20	WEYL_PRE_SCALE	B_OFF_12	Matrix([[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]])	20

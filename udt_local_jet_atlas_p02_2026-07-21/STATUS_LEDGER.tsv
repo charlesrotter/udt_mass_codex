@@ -1,0 +1,19 @@
+id	object	status	exact_scope	remaining_open
+P01	metric_zero_jet_inertia	EXACT_LOCAL_ATLAS	All 15 real symmetric 4D inertia classes with degeneracy retained	Which classes occur in a complete UDT solution requires founded constraints and dynamics.
+P02	supplied_split_zero_jet_inertia	EXACT_CONDITIONAL_LOCAL_ATLAS	All 36 base/screen inertia products with fixed nonzero shifts	The split is supplied not derived selected integrable or global.
+P03	dphi_causal_alignment	EXACT_INDEPENDENT_FIELD_LOCAL_ATLAS	Eight zero horizontal vertical mixed and causal strata	The phi-metric join and phi equation remain open.
+P04	split_integrability	EXACT_CONDITIONAL_LOCAL_ATLAS	Frobenius twist rank zero or one	The origin and global topology of the split remain open.
+P05	screen_expansion	EXACT_REPRESENTATIVE_DATA	Rank zero or one and affine CSN shift	No pre-scale branch can be ranked by expansion zero or sign.
+P06	screen_shear	EXACT_CONDITIONAL_LOCAL_ATLAS	Shear-map ranks zero one two with invariant q-inverse sigma	Global angular geometry section and moving eigenframe remain open.
+P07	curvature_operator_rank	EXACT_REPRESENTATIVE_LOCAL_ATLAS	All ranks zero through six with exact normal-coordinate witnesses	Full Riemann rank is not CSN invariant or on shell.
+P08	Ricci_rank_and_scalar	EXACT_REPRESENTATIVE_LOCAL_ATLAS	All Ricci ranks zero through four in the Schouten sector	No EH equation source or physical representative follows.
+P09	Weyl_Petrov_type	EXACT_PRE_SCALE_LOCAL_ATLAS	All six Petrov types with exact real Weyl witnesses	Continuous invariants and global holonomy remain open.
+P10	coordinate_jet_quotient	DERIVED_LOCAL_GEOMETRY	150 raw metric two-jet components reduce to 20 Riemann components before residual Lorentz quotient	No coordinate gauge is a physical observer frame.
+P11	CSN_curvature_quotient	DERIVED_LOCAL_GEOMETRY	Ten-component Schouten sector locally removable leaving ten Weyl components	Local representative removal does not prove a global representative exists.
+P12	generic_Weyl_continuous_moduli	RETAINED_OPEN_VALUES	Four generic real invariants remain after local Lorentz quotient	Petrov labels do not discretize the atlas.
+P13	P01_evaluator_regression	TOOL_VERIFIED	Every second-jet witness reconstructs in P01 below 2e-10	P01/P02 tools are not UDT dynamics.
+P14	founded_constraints	NOT_APPLIED	P02 remains configuration space	P03 requires separate owner-authorized premise application.
+P15	native_action_source_boundary	OPEN_NOT_EVALUATED	No action EOM source carrier boundary charge or scale enters	Complete native dynamics and matter remain open.
+P16	global_solution_space	NOT_EXPLORED	Point-local jets only	Charts topology seals caps corners Xmax mass volume and bootstrap remain P11-level work.
+P17	physical_time_and_stability	NOT_EVALUATED	Time derivatives are local jet channels only	No evolution law propagation stability or time-live theorem follows.
+P18	P03_execution_authority	NOT_AUTHORIZED	P02 stops after atlas verification and banking	No founded-constraint atlas begins automatically.

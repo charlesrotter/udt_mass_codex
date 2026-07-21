@@ -1,0 +1,15 @@
+id	object	coverage	certification	remaining_open
+I01	all_real_symmetric_metric_zero_jets	15 inertia triples	Exact diagonal witnesses rank determinant and completeness count	Only regular Lorentzian strata admit the inverse-dependent P02 classifiers.
+I02	conditional_supplied_split_zero_jets	36 base/screen inertia products	Exact triangular congruence rank and determinant factorization	The split projector origin integrability and global continuation are not derived.
+I03	signed_local_dphi	8 zero support and causal/alignment strata	Exact rational covectors and norms	The phi value metric join transport and equation remain open.
+I04	screen_expansion	both rank states with exact CSN affine transformation	Exact horizontal Lie derivative decomposition	Expansion is physical only after a representative and congruence are supplied.
+I05	screen_shear	map ranks 0 1 2	Exact trace-free basis witnesses and CSN-invariant endomorphism	Global eigenframe transitions and topology remain open.
+I06	split_twist_integrability	map ranks 0 1	Exact Frobenius curvature witnesses	Local integrability does not prove global product or select the split.
+I07	curvature_operator	all ranks 0 through 6	Exact bivector operators normal-coordinate jets and P01 replay	Rank is not a field equation and is CSN representative-dependent.
+I08	Ricci_endomorphism	all ranks 0 through 4	Exact Weyl-free witnesses normal-coordinate jets and P01 replay	Segre continuous data and relative alignment remain explicit representative moduli.
+I09	Weyl_algebraic_type	Petrov I D II III N O	Exact Q invariants minimal polynomials real Weyl reconstruction and P01 replay	Petrov type is not a branch merit score or complete numerical orbit.
+I10	coordinate_redundancy	150 to 20 local normal-coordinate tensor components	Exact jet-dimension ledger and Riemann reconstruction	Residual Lorentz action and continuous invariants remain.
+I11	local_CSN_redundancy	20 curvature to 10 Weyl components	Exact Schouten-Hessian elimination and Weyl preservation	No physical common-scale representative is selected.
+I12	continuous_moduli	retained symbolically inside every discrete stratum	No sampling frequency or floating clustering enters classification	A finite table is not a grid of all component values.
+I13	degenerate_and_type_change_closure	retained at zero jet and rejected where inverse is required	Exact undefined-scope labels	No canonical generalized inverse continuation is invented.
+I14	dynamics_global_boundary_matter	NOT_EVALUATED	Fail-closed status and scope gates	P03 action EOM ODE PDE global cell carrier source and mass remain separate.

@@ -1,0 +1,48 @@
+{
+  "schema": "udt-p02-local-jet-atlas-api-1.0",
+  "regular_metric_signature": [-1, 1, 1, 1],
+  "bivector_order": ["01", "02", "03", "23", "31", "12"],
+  "zero_jet_axes": [
+    "full_metric_inertia",
+    "conditional_base_inertia",
+    "conditional_screen_inertia"
+  ],
+  "first_jet_axes": [
+    "independent_dphi_support_and_causal_type",
+    "conditional_split_expansion_rank",
+    "conditional_split_shear_map_rank",
+    "conditional_split_twist_rank_and_integrability"
+  ],
+  "second_jet_axes": [
+    "arbitrary_10_component_Weyl_sector",
+    "arbitrary_10_component_Schouten_sector",
+    "curvature_operator_rank",
+    "Ricci_endomorphism_rank",
+    "Weyl_Petrov_type"
+  ],
+  "CSN_invariant": [
+    "metric_inertia_and_rank",
+    "dphi_zero_and_causal_type",
+    "conditional_split_shear_endomorphism_rank",
+    "conditional_split_twist_and_integrability",
+    "Weyl_tensor_zero_status_and_Petrov_type"
+  ],
+  "CSN_representative_dependent": [
+    "screen_expansion",
+    "Schouten_and_Ricci_tensor",
+    "scalar_curvature",
+    "full_Riemann_operator_rank"
+  ],
+  "undefined_without_regular_metric_or_supplied_split": [
+    "inverse_metric_causal_classification_at_det_g_zero",
+    "screen_deformation_at_det_q_zero",
+    "horizontal_vertical_alignment_without_split"
+  ],
+  "out_of_scope": [
+    "founded_constraint_application",
+    "action_or_EOM",
+    "global_boundary_or_topology",
+    "physical_time_evolution",
+    "branch_merit_or_comparison"
+  ]
+}

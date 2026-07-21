@@ -1,0 +1,107 @@
+{
+  "check_count": 21,
+  "checks": {
+    "CSN_Hessian_spans_10_component_Schouten_sector": "PASS",
+    "CSN_expansion_affine_not_invariant": "PASS",
+    "CSN_preserves_Weyl_while_shifting_Ricci": "PASS",
+    "CSN_shear_and_twist_rank_invariant": "PASS",
+    "all_12_expansion_shear_twist_rank_products": "PASS",
+    "all_15_metric_inertia_strata": "PASS",
+    "all_36_supplied_split_inertia_strata": "PASS",
+    "all_5_Ricci_endomorphism_ranks": "PASS",
+    "all_6_Petrov_types": "PASS",
+    "all_7_curvature_operator_ranks": "PASS",
+    "all_8_dphi_alignment_causal_strata": "PASS",
+    "arbitrary_continuous_second_jet_moduli_retained": "PASS",
+    "continuous_Weyl_moduli_retained": "PASS",
+    "exact_Petrov_invariant_and_Jordan_catches": "PASS",
+    "exact_Weyl_10_plus_Schouten_10_direct_sum": "PASS",
+    "exact_split_congruence_rank_and_determinant": "PASS",
+    "frobenius_integrability_iff_twist_zero": "PASS",
+    "global_raw_residual_gate": "PASS",
+    "normal_coordinate_two_jet_has_20_Riemann_components": "PASS",
+    "pre_scale_local_curvature_10_Weyl_components": "PASS",
+    "zero_dphi_separate_from_null": "PASS"
+  },
+  "counts": {
+    "Petrov_types": 6,
+    "Ricci_rank_strata": 5,
+    "curvature_operator_rank_strata": 7,
+    "discrete_registered_strata_total": 89,
+    "dphi_strata": 8,
+    "metric_inertia_strata": 15,
+    "second_jet_direct_sum_basis": 20,
+    "split_first_jet_rank_strata": 12,
+    "supplied_split_inertia_strata": 36
+  },
+  "dimension_contract": {
+    "generic_Weyl_mod_Lorentz_continuous": 4,
+    "local_CSN_quotient_Weyl": 10,
+    "normal_coordinate_Riemann_before_residual_Lorentz": 20,
+    "raw_metric_two_jet": 150
+  },
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "processor": "CPU_ONLY_EXACT_SYMBOLIC_PLUS_FIXED_FLOAT64_REGRESSION"
+  },
+  "maximum_conclusion": "LOCAL_KINEMATIC_SOLUTION_SPACE_CHARACTERIZED_WITHOUT_DYNAMICS",
+  "maximum_raw_residual": 2.220446049250313e-16,
+  "premise_stamps": {
+    "CSN": "PRE_SCALE_EQUIVALENCE_WITH_REPRESENTATIVE_DATA_SEPARATED",
+    "dynamics": "OPEN_NOT_EVALUATED",
+    "phi": "SIGNED_LOCAL_INDEPENDENT_FIELD_FOR_CLASSIFICATION_JOIN_OPEN",
+    "two_plus_two": "CONDITIONAL_SUPPLIED_SPLIT_NOT_SELECTED",
+    "whole_parent": "CONDITIONAL_4D_CONFORMAL_LORENTZIAN_LOCAL_TWO_JET",
+    "zero_jet_closure": "ALL_REAL_SYMMETRIC_INERTIA_CLASSES_RETAINED"
+  },
+  "raw_residuals": {
+    "CSN_Weyl_preservation": 2.220446049250313e-16,
+    "CSN_schouten_removal_Ricci": 2.7755575615628914e-17,
+    "curvature_rank_0": 0.0,
+    "curvature_rank_1": 0.0,
+    "curvature_rank_2": 0.0,
+    "curvature_rank_3": 0.0,
+    "curvature_rank_4": 0.0,
+    "curvature_rank_5": 0.0,
+    "curvature_rank_6": 0.0,
+    "petrov_D": 0.0,
+    "petrov_I": 0.0,
+    "petrov_II": 0.0,
+    "petrov_III": 0.0,
+    "petrov_N": 0.0,
+    "petrov_O": 0.0,
+    "ricci_rank_0": 0.0,
+    "ricci_rank_1": 0.0,
+    "ricci_rank_2": 0.0,
+    "ricci_rank_3": 0.0,
+    "ricci_rank_4": 2.220446049250313e-16
+  },
+  "schema": "udt-p02-law-neutral-local-jet-atlas-1.0",
+  "scope": {
+    "GPU_used": false,
+    "ODE_or_PDE_run": false,
+    "P03_launched": false,
+    "action_or_EOM_selected": false,
+    "comparison_or_merit_filter_used": false,
+    "continuous_moduli_retained": true,
+    "point_local_only": true,
+    "scientific_equation_solved": false
+  },
+  "status": "PASS",
+  "table_sha256": {
+    "CURVATURE_OPERATOR_RANK_STRATA.tsv": "52646f7557c0a0dc8cc2320389d79f50a912e8fb4537b08418cc770e770103cf",
+    "DPHI_FIRST_JET_STRATA.tsv": "250ec233f861aa9ba18d093e831c07dc6bda3c3885b872c0b650a7c47f1ee1b7",
+    "JET_QUOTIENT_DIMENSION_LEDGER.tsv": "8102af21d3678ccf16e2f93f40835f5fdc3e0a215cf814eccf7484bdad142759",
+    "PETROV_STRATA.tsv": "803a56d3fa3837048b07f6990422dd4fccdc0b1653bdc74ecf0124fa9f5ba31d",
+    "RICCI_ENDOMORPHISM_RANK_STRATA.tsv": "39640b391d52a333ea1402642688fc1e427fafa7931b39fe9fb0d7eec4359338",
+    "SECOND_JET_DIRECT_SUM_BASIS.tsv": "dd382902ce241ac030bd4668c897ab656bde525c13f2ba85be7a7229e270eefa",
+    "SPLIT_FIRST_JET_STRATA.tsv": "7a16604107c1c28d681a078a23d8363ecf7f58ca57582ec840c291254b8336c0",
+    "SPLIT_ZERO_JET_STRATA.tsv": "26da68afbf86ad12005916a121fefbd72a1de969b62027bf993fe50c0de1b6f8",
+    "ZERO_JET_INERTIA_STRATA.tsv": "e370bb97fd5c7a500e83aa24ae5cc2bcea4cb50639d6c0aeb657cbfb23e08367"
+  },
+  "versions": {
+    "numpy": "2.2.6",
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  }
+}

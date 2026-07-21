@@ -1,0 +1,16 @@
+id	layer	object	exact_discriminant_or_rank_condition	classification_status	what_it_does_not_mean
+D01	ZERO_JET	metric_degeneracy	det(g)=0	EXACT_TYPE_CHANGE_LOCUS	No inverse-dependent continuation or dynamics is supplied.
+D02	ZERO_JET	metric_inertia	n_negative+n_positive+n_zero=4	EXACT_15_CLASS_CENSUS	Non-Lorentzian classes are retained closures not UDT physical branches.
+D03	ZERO_JET	supplied_base_degeneracy	det(h)=0	EXACT_SPLIT_TYPE_CHANGE	The supplied base is not a selected reciprocal plane.
+D04	ZERO_JET	supplied_screen_degeneracy	det(q)=0	EXACT_SPLIT_TYPE_CHANGE	A degenerate screen has no canonical inverse deformation split.
+D05	ZERO_JET	positive_screen	q22>0 and det(q)>0	EXACT_SYLVESTER_CLASS	Positivity does not derive roundness topology or a carrier.
+D06	FIRST_JET	dphi_zero	all components dphi_a=0	EXACT_SEPARATE_STRATUM	It must not be merged with a nonzero null covector.
+D07	FIRST_JET	dphi_null	g_inverse(dphi,dphi)=0 with dphi nonzero	EXACT_CAUSAL_TYPE_CHANGE	Nullness is kinematics not an eikonal EOM.
+D08	FIRST_JET	horizontal_integrability	F^A_01=0 for both A	EXACT_FROBENIUS_CONDITION	Integrability does not select the distribution or global product structure.
+D09	FIRST_JET	shear_map_rank	all minors above retained rank vanish	EXACT_RANK_0_1_2	Zero shear is one stratum not a default.
+D10	FIRST_JET	expansion	no pre-scale zero discriminant because theta_i shifts by 2 H_i lnOmega	CSN_REPRESENTATIVE_DATA	Expansion zero or sign cannot rank pre-scale branches.
+D11	SECOND_JET	curvature_operator_rank	exact minors of R:Lambda2_to_Lambda2	EXACT_RANK_0_TO_6	Rank is representative-dependent under local CSN.
+D12	SECOND_JET	Ricci_endomorphism_rank	exact minors of g_inverse Ric	EXACT_RANK_0_TO_4	Ricci rank and scalar belong to the removable Schouten sector locally pre-scale.
+D13	SECOND_JET	Petrov_specialty	Delta=I^3-27J^2	EXACT_WEYL_ALGEBRAIC_LOCUS	Delta alone does not distinguish D from II or III from N.
+D14	SECOND_JET	Petrov_nilpotency	Q=0 Q^2=0 Q^3=0 and minimal-polynomial tests	EXACT_SIX_TYPE_CENSUS	A Petrov label retains continuous moduli and is not dynamics.
+D15	SECOND_JET	CSN_Schouten_orbit	P_prime=P-Hess(lnOmega) at zero gradient	EXACT_TEN_COMPONENT_AFFINE_ORBIT	Choosing P=0 at a point does not select a global physical representative.

@@ -1,0 +1,6 @@
+id	Ricci_endomorphism_rank	exact_mixed_Ricci	exact_scalar	Weyl	P01_max_residual	CSN_status
+C0	0	Matrix([[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0]])	0	ZERO	0	REPRESENTATIVE_DEPENDENT_SCHOUTEN_SECTOR
+C1	1	Matrix([[1, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0]])	1	ZERO	0	REPRESENTATIVE_DEPENDENT_SCHOUTEN_SECTOR
+C2	2	Matrix([[1, 0, 0, 0],[0, 2, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0]])	3	ZERO	0	REPRESENTATIVE_DEPENDENT_SCHOUTEN_SECTOR
+C3	3	Matrix([[1, 0, 0, 0],[0, 2, 0, 0],[0, 0, 3, 0],[0, 0, 0, 0]])	6	ZERO	0	REPRESENTATIVE_DEPENDENT_SCHOUTEN_SECTOR
+C4	4	Matrix([[1, 0, 0, 0],[0, 2, 0, 0],[0, 0, 3, 0],[0, 0, 0, 4]])	10	ZERO	2.2204460492503131e-16	REPRESENTATIVE_DEPENDENT_SCHOUTEN_SECTOR
