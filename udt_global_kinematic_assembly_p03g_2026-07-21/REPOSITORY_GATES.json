@@ -485,7 +485,7 @@
     "failed": 1,
     "failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
     "passed": 69,
-    "stdout_sha256": "71b0ca8871faca50f3fd5c0584222ae2f769ca13830b5932d2009cbc863dbee1",
+    "stdout_sha256": "bfcc021dd20513cc45f1e6486652327003db19c19e655713b9478def26b4996a",
     "xfailed": 1
   }
 }
