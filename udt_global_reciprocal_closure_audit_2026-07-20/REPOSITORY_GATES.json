@@ -364,6 +364,7 @@
     "udt_global_reciprocal_closure_audit_2026-07-20/OPEN_JOIN_LEDGER.tsv",
     "udt_global_reciprocal_closure_audit_2026-07-20/PACKAGE_VERIFICATION.json",
     "udt_global_reciprocal_closure_audit_2026-07-20/PREREGISTRATION.md",
+    "udt_global_reciprocal_closure_audit_2026-07-20/REPOSITORY_GATES.json",
     "udt_global_reciprocal_closure_audit_2026-07-20/SHA256SUMS.txt",
     "udt_global_reciprocal_closure_audit_2026-07-20/SOURCE_LINEAGE.tsv",
     "udt_global_reciprocal_closure_audit_2026-07-20/STATUS_LEDGER.tsv",
@@ -378,7 +379,7 @@
     "failed": 1,
     "failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
     "passed": 69,
-    "stdout_sha256": "22477566c147483b94f03e15363f8e325e06830e775640f0dc1f6d02c1cfe902",
+    "stdout_sha256": "635963eca5563c804bd4fa32e6d984ff8997ff7f512ddab71c6848427e0d72f5",
     "xfailed": 1
   }
 }
