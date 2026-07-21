@@ -1,0 +1,10 @@
+P04_DYNAMICS_BRANCH_RULING=PASS
+checks=19
+controlling_status=NO_DYNAMICS_DERIVED
+conditional_lanes=3
+derived_lanes=0
+field_realization_pairs=21/21
+global_axes_carried_free=12/12
+solve_authorizations=0
+P05=NOT_LAUNCHED
+maximum_conclusion=DYNAMICS_LANES_AUTHORIZED_OR_REMAIN_OPEN

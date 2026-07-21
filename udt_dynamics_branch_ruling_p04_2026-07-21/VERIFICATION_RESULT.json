@@ -1,0 +1,46 @@
+{
+  "catch_proof_count": 22,
+  "catch_proofs": {
+    "C2_promotion": "PASS",
+    "EH_promotion": "PASS",
+    "P05_launch": "PASS",
+    "anchor_promoted": "PASS",
+    "boundary_import": "PASS",
+    "bridge_operator_invention": "PASS",
+    "derived_control": "PASS",
+    "derived_count": "PASS",
+    "duplicate_lane": "PASS",
+    "duplicate_pair": "PASS",
+    "global_realization_promoted": "PASS",
+    "independent_phi_removed": "PASS",
+    "merit_import": "PASS",
+    "missing_global_axis": "PASS",
+    "missing_lane": "PASS",
+    "missing_pair": "PASS",
+    "schema": "PASS",
+    "solve_authority": "PASS",
+    "source_hash_drift": "PASS",
+    "source_import": "PASS",
+    "table_hash_drift": "PASS",
+    "topology_selected": "PASS"
+  },
+  "check_count": 6,
+  "checks": {
+    "deterministic_replay_and_contract": "PASS",
+    "independent_12_axis_identity_reconciliation": "PASS",
+    "independent_3x7_Cartesian_reconciliation": "PASS",
+    "owner_ruling_exact_three_lane_interpretation": "PASS",
+    "source_hash_replay": "PASS",
+    "zero_solve_authority": "PASS"
+  },
+  "main_result_sha256": "d524a993798ec8148421f5b2099358354025dae331fcef5388f6ad4c4c256039",
+  "main_transcript_sha256": "430da6d8e6827abc8e05e0cf5b9bc69e3557f6106494e512ce4e71979f062df6",
+  "schema": "udt-p04-dynamics-branch-ruling-verification-1.0",
+  "scope": {
+    "CPU_only": true,
+    "equations_or_solves": false,
+    "generator_imported": false,
+    "independent_implementation": true
+  },
+  "status": "PASS"
+}

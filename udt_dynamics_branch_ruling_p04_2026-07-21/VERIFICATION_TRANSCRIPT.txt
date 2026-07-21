@@ -1,0 +1,8 @@
+P04_INDEPENDENT_VERIFICATION=PASS
+checks=6
+catch_proofs=22
+lanes=3_conditional_0_derived
+field_pairs=21/21_none_removed
+global_axes=12/12_free
+solve_authority=0
+main_result_sha256=d524a993798ec8148421f5b2099358354025dae331fcef5388f6ad4c4c256039

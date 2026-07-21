@@ -1,0 +1,70 @@
+{
+  "check_count": 19,
+  "checks": {
+    "P05_separate": "PASS",
+    "all_12_global_axes": "PASS",
+    "all_21_pairs": "PASS",
+    "all_axes_free": "PASS",
+    "all_fields_retained": "PASS",
+    "boundary_open": "PASS",
+    "bridge_not_operator_ready": "PASS",
+    "no_derived_lane": "PASS",
+    "no_equation_or_solve_authority": "PASS",
+    "no_global_realization_claim": "PASS",
+    "premise_coverage": "PASS",
+    "source_COMPLETE_MAP_MANIFEST": "PASS",
+    "source_FINAL_ACTION_MANIFEST": "PASS",
+    "source_P03G_MANIFEST": "PASS",
+    "source_P03_MANIFEST": "PASS",
+    "source_SELECTOR_AUDIT": "PASS",
+    "source_SELECTOR_PREREG": "PASS",
+    "source_open": "PASS",
+    "three_lanes": "PASS"
+  },
+  "controlling_scientific_status": "NO_DYNAMICS_DERIVED",
+  "counts": {
+    "authorized_lanes": 3,
+    "derived_lanes": 0,
+    "field_realization_pairs": 21,
+    "field_realizations_removed": 0,
+    "global_axes_carried_free": 12,
+    "premise_rows": 18,
+    "solve_authorizations": 0
+  },
+  "evidence_grade": "OWNER_AUTHORIZED_CONDITIONAL_DISPATCH_VERIFIED",
+  "lane_rulings": {
+    "L01": "UNIQUE_CONDITIONAL_BULK_CLASS_NOT_COMPLETE_ACTION",
+    "L02": "CONDITIONAL_BULK_NOT_NATIVE_UDT_ACTION",
+    "L03": "OPEN_NO_ACTION_OPERATOR_OR_MATCHING_MAP"
+  },
+  "maximum_conclusion": "DYNAMICS_LANES_AUTHORIZED_OR_REMAIN_OPEN",
+  "schema": "udt-p04-dynamics-branch-ruling-1.0",
+  "scope": {
+    "CPU_only": true,
+    "GPU_used": false,
+    "ODE_or_PDE_run": false,
+    "P05_launched": false,
+    "canon_changed": false,
+    "comparison_loaded": false,
+    "equations_built": false,
+    "symbolic_variation_performed": false
+  },
+  "source_sha256": {
+    "COMPLETE_MAP_MANIFEST": "1778e4dcfcf9ac0bd3574fb3ff5248f2990265fa40d0822ff964ac67c434ae38",
+    "FINAL_ACTION_MANIFEST": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+    "P03G_MANIFEST": "62f9b3f33409b62fb841734e8a91e61d9b859247bf808c4a6cf3740b6a54b6c9",
+    "P03_MANIFEST": "b0ec5cbb2be404084e1b1ed4eca98d53c9712a62cf1af0a48eb340b64467c3be",
+    "SELECTOR_AUDIT": "db4a426b021e375fa4bca0d870aaf973de319de3b08072195d001a056630832d",
+    "SELECTOR_PREREG": "6a835388e8f7a82a4bb4b9496f99c4a5e4181f5e5ccb2637641a1b4346922cc6"
+  },
+  "status": "PASS",
+  "table_sha256": {
+    "AUTHORITY_AND_STOP_LEDGER.tsv": "1bd800b34b85bbe48d0b4c97f0e514c2e2ece57b57a9536bc1ec6be9a0eaf3ca",
+    "DYNAMICS_BRANCH_DISPATCH.tsv": "e48f252ba38e0cbcacccff59a5164f6cb108e7ab389316d112a9df777408c2bb",
+    "FIELD_REALIZATION_COMPATIBILITY.tsv": "6a70337be7691165211d1f5598d159b0b0eeaa4ad75be7bddba15cc848fce2a3",
+    "GLOBAL_AXIS_CARRYFORWARD.tsv": "14ce72c0fa92a585efeb7bed00c23538c0972490e8e1300ac97750479fbec0d9",
+    "LAW_PREMISE_MANIFEST.tsv": "dc6e9ca2ae00dca7785dd1ab30b48fd6d8ab92e47578e7c7b838ca286e29fcb3",
+    "P05_ENTRY_GATES.tsv": "3c114f6b9d297076ff3fc2b9685b2a74ffa10fdccd512e636f9d89e672cd4045",
+    "SOURCE_LINEAGE.tsv": "1eac04227acc90da11afff03fbb55e757a38f943b47ad9dc424d4eedff0a3892"
+  }
+}

@@ -1,0 +1,19 @@
+id	scope	premise_or_status	stamp	source	effect
+P01	ALL	No dynamics is presently derived	OWNER_RULING_AND_CURRENT_LEDGER	active_owner_ruling_2026-07-21; UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md	all lanes remain conditional
+P02	ALL	four-dimensional arena	INHERITED_NOT_DERIVED	UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md:selector_matrix	conditional arena for L01 and L02
+P03	ALL	dynamical field census	OPEN	udt_complete_metric_solution_space_map_2026-07-21/OFFSHELL_CONFIGURATION_BRANCHES.tsv	cross every lane with C01-C07
+P04	ALL	local diffeomorphism covariance	OPEN_FOUNDATION_ADDED_IN_L01_L02	UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md:selector_matrix	cannot be called derived UDT
+P05	ALL	locality	OPEN_FOUNDATION_ADDED_IN_L01_L02	UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md:selector_matrix	nonlocal and global laws not ruled out
+P06	L01	exact local CSN compatibility before scale	ADDED_CLASS_PREMISE	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv:S11-S13	conditional C2 bulk classification
+P07	L01	metric-only polynomial parity-even lowest curvature-square inventory	ADDED_CLASS_PREMISE	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv:S11	conditional uniqueness class only
+P08	L01	unrestricted variation before physical scale selection	ADDED_CLASS_PREMISE	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv:S13	conditional Bach equation at P05 if fully built
+P09	L02	physical representative and scale already selected	OPEN_INPUT_REQUIRED	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv:S14	EH cannot occupy pre-scale role
+P10	L02	metric-only unrestricted local 4D variation with at-most-second-order equations and Lovelock minimality	ADDED_CLASS_PREMISE	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv:S14	conditional EH bulk class
+P11	L03	pre-scale to post-scale selection and matching map	OPEN_NOT_SUPPLIED	UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md:possible_two_stage_bridge	no operator or P05 equation build yet
+P12	L03	dynamical order and degree-of-freedom reconciliation	OPEN_NOT_SUPPLIED	UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md:possible_two_stage_bridge	scale selection alone cannot turn Bach into EH
+P13	ALL	finite-cell differentiable boundary and corners	OPEN	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv:S24	no complete action in any lane
+P14	ALL	native matter source carrier charge and mass	OPEN_OR_CONDITIONAL_NOT_ADOPTED	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv:S15-S28	no source imported
+P15	ALL	P03G global assembly axes	FREE_AND_UNSELECTED	udt_global_kinematic_assembly_p03g_2026-07-21/GLOBAL_ASSEMBLY_DATA_SCHEMA.tsv	carry all 12 into later branch builds
+P16	ALL	observational c_E and G_obs	DOWNSTREAM_CALIBRATION_ONLY	udt_founded_constraint_atlas_p03_2026-07-21/CONSTRAINT_EFFECT_LEDGER.tsv:E23	not a pre-scale selector
+P17	ALL	comparison and merit targets	EXCLUDED	udt_founded_constraint_atlas_p03_2026-07-21/CONSTRAINT_EFFECT_LEDGER.tsv:E24	no GR particle cosmology or soliton score
+P18	ALL	solve authority	NONE_IN_P04	udt_complete_metric_solution_space_map_2026-07-21/FUTURE_ATLAS_PROTOCOL.tsv:P04	stop before P05 equations or numerical work
