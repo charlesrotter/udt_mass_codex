@@ -1,0 +1,10 @@
+UDT_FREE_GLOBAL_SEAL_TRANSVERSALITY_VERIFICATION=PASS
+independent_algebra_checks=22
+catch_proofs=67
+generator_imported=NO
+endpoint_counterfunctionals=4/4
+global_scale_realizations=6/6
+embedding_realizations=7/7
+field_pairs=21/21
+P06_ready_pairs=0
+main_result_sha256=3f97fd21d634fe965a1fa659c273b2bd650e5914c40cebfb6dc901e150beb416

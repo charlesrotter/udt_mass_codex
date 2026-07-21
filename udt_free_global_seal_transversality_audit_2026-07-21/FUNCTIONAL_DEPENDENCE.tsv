@@ -1,0 +1,9 @@
+id	object	bulk_equation	free_boundary_effect	removed_by_free_variation	status
+A01	boundary functional B	unchanged by boundary-only additions	changes field and position transversality	NO	PRIMARY_COUNTEREXAMPLE
+A02	Euler beta and its boundary completion	zero regular 4D metric bulk contribution	changes boundary/corner or topological completion bookkeeping	NO	OPEN
+A03	exact bulk divergence dY	unchanged	changes B-effective and shape response	NO	OPEN
+A04	Theta improvement deltaY+dZ	unchanged	changes boundary/corner representative	NO	OPEN
+A05	boundary Legendre transform	unchanged	changes field polarization and transversality coefficients	NO	OPEN
+A06	embedding counterterm or intrinsic boundary density	unchanged	changes local shape equation	NO	OPEN_NOT_ADOPTED
+A07	orientation reference generator and joints	unchanged	changes signs zero-points charges and corner response	NO	OPEN
+A08	overall action normalization	same zero set when nonzero	rescales momenta response and charge	NO	OPEN

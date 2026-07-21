@@ -1,0 +1,8 @@
+id	realization	strongest_equation	local_or_global	requires	redundancy	selector_result
+T01	GLOBAL_R_CELL	dS_on_shell/dR_cell=0	one integrated scalar	complete global action boundary functional fields and solution	not generically gauge	INSUFFICIENT_AND_NOT_EVALUABLE_YET
+T02	LOCAL_NORMAL_EMBEDDING	T_normal[g,B]=0 pointwise	one scalar function	selected B causal type and embedding-field split	may contain constraint/Noether pieces	FUNCTIONAL_DEPENDENT
+T03	RELATIONAL_PHI_ZERO	Delta_phi=0 plus projected combined field/shape response	one correlated scalar channel	time-live phi role and its independent or metric-induced variation	fixed delta_phi cannot also be imposed at regular moving seal	REDUCES_ONE_DIRECTION_NOT_COMPLETE
+T04	PURE_DIFFEO_DRAG	dJ_chi=-E.L_chi g	Noether identity/charge	covariant lane and declared corner primitive	gauge on unmarked boundary	NO_NEW_SELECTOR
+T05	NULL_SEAL	null shape/generator equation	OPEN	generator auxiliary null normalization B and joints	generator rescaling open	UNCLASSIFIED_NOT_SELECTED
+T06	TYPE_CHANGING_SEAL	NONE	OPEN	degenerate/type-transition variational calculus	OPEN	UNDEFINED_RETAINED
+T07	MIRROR_DOUBLE_INTERNAL_SEAM	jump of field momenta and normal shape response equals zero	two-sided matching	complete full-field soldering involution orientations B and corners	common seam motion may be quotient gauge	CONDITIONAL_CANCELLATION_NOT_CURRENTLY_EVALUABLE

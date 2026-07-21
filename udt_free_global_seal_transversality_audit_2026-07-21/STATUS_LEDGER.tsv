@@ -1,0 +1,17 @@
+id	claim	status	scope
+R01	free finite-cell seal position is varied	CHOSE_CONDITIONAL_OWNER_AUTHORIZED_TEST	not canonized by this audit
+R02	global R_cell equals X_max	NOT_DERIVED_FORBIDDEN_SILENT_JOIN	fold WRL endpoint and Xmax roles remain distinct/open
+R03	variable endpoint adds transversality	DERIVED	field and position endpoint coefficients
+R04	free endpoint selects its boundary functional	REFUTED_BY_TWO_PARAMETER_COUNTERFAMILY	same bulk equation different field and position transversality
+R05	one global cell modulus supplies local boundary polarization	REFUTED_BY_LOCALITY_AND_COUNT	one integrated equation versus local field functions
+R06	local embedding variation supplies one normal shape equation	DERIVED_CONDITIONAL_AFTER_B	three tangential embedding directions are reparameterizations
+R07	local shape equation is functional independent	REFUTED	B exact divergences and improvements change it
+R08	fixed delta_phi and free relational seal displacement coexist at regular slope	REFUTED	stacked rank-two constraints force chi_normal=0
+R09	moving relational seal replaces fixed variation by correlated Delta_phi=0	DERIVED_CONDITIONAL_KINEMATICS	time-live phi-zero level-set extension not canon
+R10	pure diffeomorphic boundary motion gives independent selector	NOT_DERIVED_NOETHER_REDUNDANCY_BRANCH	unmarked generally covariant boundary
+R11	free-boundary variation removes L01/L02 field-current channels	REFUTED	embedding term is independent of arbitrary h derivative-h and corner variations
+R12	free-boundary variation selects causal type	NOT_DERIVED	shape equation unavailable before B and solution; time-live causal branches survive
+R13	global R_cell stationarity can help determine size	CONDITIONAL_FUTURE_ROUTE	requires complete global on-shell functional and noncircular matter/volume data
+R14	free-boundary premise completes bootstrap	NOT_DERIVED	bootstrap remains on-shell and supplies no functional
+R15	P06 readiness	CLOSED_ZERO_OF_21_PAIRS	boundary functional field equations and global object incomplete
+R16	overall classification	FREE_BOUNDARY_ADDS_TRANSVERSALITY_BUT_REMAINS_FUNCTIONAL_DEPENDENT	owner-authorized conditional premise and current P05 lanes

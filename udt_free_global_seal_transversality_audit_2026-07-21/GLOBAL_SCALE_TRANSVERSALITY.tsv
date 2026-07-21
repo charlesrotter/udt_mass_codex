@@ -1,0 +1,7 @@
+id	realization	action_or_response	stationarity	exact_consequence	premises	selector_status
+G01	CONSTANT_HOMOTHETY_PRE_SCALE_L01	S=alpha*C2hat+beta*E4hat	dS/dR=0 identically	global common scale remains flat	fixed dimensionless shape regular 4D C2/Euler bulk	NO_SCALE_SELECTION
+G02	CONSTANT_HOMOTHETY_POST_SCALE_L02	S=kappa*(R^2*Ahat-2*Lambda*R^4*Vhat)+beta*E4hat	2*kappa*R*(Ahat-4*Lambda*R^2*Vhat)=0	R^2=Ahat/(4*Lambda*Vhat) only when the ratio is defined and positive	shape Lambda and boundary completion already supplied	CONDITIONAL_SCALE_EQUATION
+G03	L02_LAMBDA_ZERO_SUBCASE	S=kappa*R^2*Ahat+beta*E4hat	Ahat=0 for R>0	R remains unselected when stationarity is possible	Lambda=0	NO_GENERIC_SCALE_ROOT
+G04	BOUNDARY_SCALING_TERM	B=b*R^p	adds p*b*R^(p-1)	changes the global scale equation without changing the bulk metric equation	comparison counterfunctional not adopted	FUNCTIONAL_DEPENDENCE
+G05	MOVING_COORDINATE_ENDPOINT	boundary displacement samples local on-shell density and B response	endpoint/shape equation	not equivalent to a constant homothety without a derived global map	embedding realization separately declared	DISTINCT_REALIZATION
+G06	XMAX_OUTPUT_JOIN	Xmax=F(c_E,G_obs,M_total,rho_total,metric) remains unspecified	none supplied	neither homothety R nor endpoint R_cell is Xmax by definition	complete global mass volume and metric closure absent	OPEN

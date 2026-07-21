@@ -1,0 +1,4 @@
+id	lane	raw_field_channels	free_embedding_channel	corner_channel	after_one_seal_correlation	transversality_status
+L01	pre-scale C2	4 alpha C*nabla(h)-4 alpha nabla(C)*h plus Euler	i_chi L_C2 plus delta_X B	4 epsilon s_k C^{nijk} delta h_ij plus improvements	independent h K_TF and corner channels remain	ADDED_B_DEPENDENT_NOT_SELECTOR
+L02	post-scale EH	kappa(nabla_b h^ab-nabla^a h) plus Euler	i_chi L_EH plus delta_X B	depends on selected completion/joints	independent induced-metric and normal-jet channels remain	ADDED_B_DEPENDENT_NOT_SELECTOR
+L03	two-stage bridge	NONE	UNDEFINED	UNDEFINED	bridge functional and matching fields absent	OPEN_NO_OPERATOR

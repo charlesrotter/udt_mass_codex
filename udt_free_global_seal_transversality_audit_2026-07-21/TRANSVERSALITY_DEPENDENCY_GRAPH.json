@@ -1,0 +1,35 @@
+{
+  "authorized_conditional_premise": "finite-cell seal position is varied",
+  "dependencies": [
+    "bulk lane -> raw Theta and L",
+    "boundary functional B -> field polarization and shape response",
+    "embedding realization -> physical versus gauge displacement",
+    "relational seal definition -> correlation between delta_phi and chi",
+    "complete global solution -> evaluable dS_on_shell/dR_cell"
+  ],
+  "failed_implications": [
+    "free boundary -> B=0",
+    "free boundary -> unique natural polarization",
+    "one global stationarity equation -> local boundary conditions",
+    "fixed delta_phi=0 plus free regular level-set motion",
+    "diffeomorphism covariance -> new independent shape law",
+    "R_cell -> X_max",
+    "shape equation -> causal type before solution"
+  ],
+  "open": [
+    "complete boundary and corner functional",
+    "local versus global embedding realization",
+    "time-live seal relation to phi",
+    "fold WRL endpoint Xmax join",
+    "complete coframe and non-metric field variations",
+    "global on-shell bootstrap functional",
+    "native matter source total mass and proper volume"
+  ],
+  "question": "Does varying a free global finite-cell seal close the boundary selector?",
+  "realizations": {
+    "global_modulus": "one integrated stationarity equation",
+    "local_embedding": "one normal shape equation after tangential quotient",
+    "pure_diffeomorphism": "Noether identity/charge branch",
+    "relational_phi_level_set": "delta_phi+chi_normal*nabla_normal(phi)=0"
+  }
+}

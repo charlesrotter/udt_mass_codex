@@ -1,0 +1,7 @@
+id	object	identity	status	selector_limit
+C01	moving bulk domain	delta S_bulk=integral_M E.delta_g+integral_boundary(Theta(g,delta_g)+i_chi L)	DERIVED_STRUCTURAL_IDENTITY	i_chi L adds a displacement coefficient but does not cancel independent field-variation channels
+C02	boundary functional	delta S_boundary=delta_g B+delta_X B+corner_terms	STRUCTURAL_B_DEPENDENCE	transversality cannot be evaluated before B and corners are specified
+C03	diffeomorphism Noether current	J_chi=Theta(g,L_chi g)-i_chi L	DERIVED_CONDITIONAL_COVARIANT_LANES	pure dragged displacement can be gauge/charge data rather than a new field equation
+C04	Noether divergence	dJ_chi=-E.L_chi g	DERIVED_CONDITIONAL_COVARIANT_LANES	on shell closure is an identity; primitive normalization and corners remain open
+C05	normal physical shape mode	coefficient of chi_normal defines T_normal[g,B]=0	CONDITIONAL_AFTER_B_AND_EMBEDDING_CHOICE	T_normal changes when B or an exact divergence changes
+C06	global modulus	d S_on_shell/d R_cell=0	CONDITIONAL_AFTER_COMPLETE_GLOBAL_FUNCTIONAL	one integrated equation and no current S_on_shell(R_cell)

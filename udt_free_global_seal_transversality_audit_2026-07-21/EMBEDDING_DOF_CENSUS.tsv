@@ -1,0 +1,8 @@
+id	realization	raw_components	gauge_or_redundant	independent_shape_data	transversality_output	can_close_local_metric_polarization
+D01	ONE_GLOBAL_CELL_MODULUS	1 scalar	0	1 global number	one integrated scalar equation	NO
+D02	LOCAL_CODIMENSION_ONE_EMBEDDING_IN_4D	4 functions	3 tangential reparameterizations	1 normal function	one local scalar shape equation after B is specified	NO
+D03	PHI_LOCKED_LOCAL_EMBEDDING	delta_phi plus chi_normal	one level-set correlation	one correlated tangent	one combined scalar equation; independent phi equation absent in metric-only lanes	NO
+D04	PURE_TANGENTIAL_EMBEDDING_SHIFT	3 functions	3 boundary reparameterizations	0	Noether/reparameterization identity	NO
+D05	NULL_BOUNDARY_EMBEDDING	generator plus cross-section data	generator rescaling and tangential shifts unnormalized	OPEN	OPEN until null boundary functional and normalization supplied	NO
+D06	TYPE_CHANGING_OR_DEGENERATE_EMBEDDING	nonuniform	OPEN	OPEN	UNDEFINED in regular inverse-metric audit	NO
+D07	MIRROR_DOUBLE_INTERNAL_SEAM	two side embeddings tied by a soldering map	common seam relabeling versus relative displacement depends on quotient	OPEN	jump/matching equations; exact cancellation only after full field matching	NO

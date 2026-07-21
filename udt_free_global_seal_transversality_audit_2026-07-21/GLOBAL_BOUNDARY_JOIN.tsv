@@ -1,0 +1,6 @@
+id	object	current_status	may_equal	must_not_equal_silently	equations_available	closure
+X01	R_cell	CONDITIONAL_VARIATION_PARAMETER	unknown physical finite-cell size	X_max WRL endpoint static fold	dS_on_shell/dR_cell=0 only after complete functional	OPEN
+X02	X_max	OWNER_LOCKED_GLOBAL_OUTPUT_VALUE_OPEN	function of completed metric c_E G_obs and mass/density	local coordinate or freely chosen R_cell	none complete	OPEN
+X03	static phi_zero_fold	CANONIZED_SCOPED	one finite-cell seal branch	X_max or WRL endpoint	phi=0 delta_phi=0 normal derivative free at fixed static seal	OPEN_JOIN
+X04	WRL_endpoint	CONDITIONAL_ASYMPTOTIC_BOUNDARY_BRANCH	distinct optical horizon/end	static fold or X_max	branch-specific asymptotic identities	OPEN_JOIN
+X05	global_bootstrap	WORKING_ON_SHELL_ADMISSIBILITY	future selector on completed solution space	off-shell action	no varied global functional	OPEN

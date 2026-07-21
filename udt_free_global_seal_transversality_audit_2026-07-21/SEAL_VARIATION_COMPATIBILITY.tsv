@@ -1,0 +1,6 @@
+id	realization	allowed_relation	normal_slope	embedding_displacement	rank_or_effect	compatibility
+S01	FIXED_STATIC_SEAL	delta_phi=0	free possibly nonzero	chi_normal=0	one scalar field tangent removed	CANONIZED_SCOPED
+S02	MOVING_RELATIONAL_LEVEL_SET	Delta_phi=delta_phi+chi_normal*nabla_normal(phi)=0	regular nonzero	free only with correlated delta_phi	one relation on two variables	CONDITIONAL_EXTENSION
+S03	STACK_FIXED_DELTA_PHI_ON_FREE_LEVEL_SET	delta_phi=0 and Delta_phi=0	regular nonzero	forced chi_normal=0	rank two; no nonzero free-boundary tangent	INCOMPATIBLE_WITH_INTENDED_FREE_MOTION
+S04	ZERO_GRADIENT_PHI_ZERO	delta_phi=0; chi_normal algebraically free	zero	not constrained by phi	phi=0 fails to define a regular level surface when full gradient vanishes	DEGENERATE_NOT_SELECTOR
+S05	FREE_BOUNDARY_NOT_LOCKED_TO_PHI	none from phi	irrelevant	free	boundary/seal identity lost under variation	DISTINCT_OBJECT_BRANCH

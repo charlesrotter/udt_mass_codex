@@ -1,0 +1,5 @@
+id	boundary_functional	bulk_equation	field_transversality	position_transversality	same_bulk	status
+E01	B=0	m*qddot+k*q=0	p=0	H=0	YES	COMPARISON_WITNESS
+E02	B=lambda*q^2/2	m*qddot+k*q=0	p+lambda*q=0	H=0	YES	INEQUIVALENT_COMPARISON_WITNESS
+E03	B=mu*T	m*qddot+k*q=0	p=0	H=mu	YES	INEQUIVALENT_COMPARISON_WITNESS
+E04	B=lambda*q^2/2+mu*T	m*qddot+k*q=0	p+lambda*q=0	H=mu	YES	TWO_PARAMETER_COUNTERFAMILY

@@ -1,0 +1,20 @@
+{
+  "P06_ready_pairs": 0,
+  "R_cell_identified_with_Xmax": false,
+  "audit": "UDT_FREE_GLOBAL_SEAL_TRANSVERSALITY",
+  "base": "6c17a36e3693d21de73b18827324ef68923c285c",
+  "central_result": "Varying the seal adds one global or local-normal transversality equation only after a boundary functional and embedding realization are specified. It neither selects that functional nor supplies the remaining local field polarization. A moving phi-locked seal requires correlated total variation rather than stacking fixed delta_phi=0.",
+  "checks": 39,
+  "classification": "FREE_BOUNDARY_ADDS_TRANSVERSALITY_BUT_REMAINS_FUNCTIONAL_DEPENDENT",
+  "embedding_realizations": 7,
+  "endpoint_counterfunctionals": 4,
+  "epistemic_grade": "LEAD_PENDING_FRESH_ADVERSARIAL_REVIEW",
+  "field_lane_pairs": 21,
+  "functional_ambiguities": 8,
+  "global_scale_realizations": 6,
+  "gpu_used": false,
+  "maximum_conclusion": "FREE_GLOBAL_SEAL_TRANSVERSALITY_SELECTOR_STATUS_CLASSIFIED",
+  "owner_authorized_conditional_premise": true,
+  "premise_promoted_to_canon": false,
+  "solutions_run": 0
+}
