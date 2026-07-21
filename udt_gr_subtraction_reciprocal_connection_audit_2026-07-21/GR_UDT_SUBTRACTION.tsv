@@ -1,0 +1,9 @@
+layer	GR_reference_structure	UDT_replacement_or_addition	exact_consequence	status
+metric_object	one supplied nondegenerate metric g	CSN conformal class [g]	torsion-free conformal connections retain one arbitrary Weyl one-form A	DERIVED_MATHEMATICS
+connection_selector	torsion-free and nabla g=0	torsion-free and nabla g=-2A tensor g	Levi-Civita uniqueness becomes a four-component connection family	DERIVED_MATHEMATICS
+UDT_extra_structure	none in GR reference theorem	normalized reciprocal endomorphism L	preserving L removes all Weyl difference freedom when a solution exists	DERIVED_CONDITIONAL_ON_REALIZATION
+reciprocal_character	none	D(phi)=exp(phi L)	if L is parallel then D^-1 nabla D=dphi L; dilation is not frozen	DERIVED_CONDITIONAL
+angular_structure	unselected by reference theorem	direct-zero or full two-pair extension	existence distinguishes the two extensions	DERIVED_BOUNDED_CLASSIFICATION
+global_selector	initial boundary and field equations lie outside uniqueness theorem	finite cell seal and bootstrap	current sources add no bulk connection-existence equation	OPEN
+matter_diagnostic	matter supplied separately in GR dynamics	conditional Hopf metric/carrier correspondence	full two-pair weights match Hopf orbit block but cannot select the connection	CONDITIONAL_DIAGNOSTIC
+

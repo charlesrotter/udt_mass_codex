@@ -1,0 +1,10 @@
+case	generator_or_projector	compatibility_equations	connection	result	premise_limit
+J01	direct L=diag(-1,+1,0,0)	A_r=p;A_r=-h2;A_r=-h3;A_t=A_2=A_3=0	A=dphi in reciprocal representative	h2=h3=-p	conditional spacetime realization and exact L parallelism
+J02	direct P=L^2	h2=h3=h;A_r=-h;A_t=A_2=A_3=0	unique if compatible	p remains free	splitting preservation only
+J03	direct L with h2=h3=0 and p!=0	A_r=p and A_r=0	NONE	rank 4 augmented rank 5	local constant-transverse diagnostic
+J04	direct L with areal angular radius R	A_r=p=-dlogR	A=dphi	dlogR=-dphi	chosen static diagonal areal chart
+J05	full L+=diag(-1,+1,-1,+1)	A_r=p;h2=-p;h3 free	A=dphi	compatible family	conditional full two-pair realization
+J06	full L-=diag(-1,+1,+1,-1)	A_r=p;h3=-p;h2 free	A=dphi	compatible family	conditional exchanged full two-pair realization
+J07	full L+ plus angular determinant-one reciprocity	h2=-p;h2+h3=0	A=dphi	h2=-p;h3=+p	adds unselected angular reciprocal pair
+J08	full L- plus angular determinant-one reciprocity	h3=-p;h2+h3=0	A=dphi	h2=+p;h3=-p	discrete exchange/chirality alternative
+

@@ -1,0 +1,20 @@
+claim_id	claim	status	premise_or_limit
+R01	Torsion-free exact metric compatibility uniquely selects the Levi-Civita connection of a supplied representative	DERIVED_REFERENCE_MATHEMATICS	No GR field equation or UDT adoption
+R02	Torsion-free conformal compatibility leaves one arbitrary Weyl one-form	DERIVED_REFERENCE_MATHEMATICS	Applies after conditional conformal-Lorentzian readout
+R03	A torsion-free conformal connection preserving normalized direct L is unique if it exists	DERIVED_CONDITIONAL	L must first be realized as a spacetime endomorphism
+R04	Nonzero base-angular cross coupling restores connection-difference freedom	REFUTED_IN_REGISTERED_CLASS	All eight full witnesses have rank four difference maps
+R05	Recurrent normalized reciprocal transport is weaker than exact parallelism	REFUTED_IN_TESTED_CLASS	Fixed nonzero trace of L^2 forces recurrence one-form to zero
+R06	Preserving only reciprocal plane projector P preserves full reciprocal generator L	REFUTED_IN_TESTED_CLASS	P compatibility leaves p free and allows rotation within the plane
+R07	The direct transverse-zero extension generically admits exact reciprocal-compatible Weyl transport	REFUTED_IN_STATIC_JET_CLASS	Nonzero p with constant transverse block has rank four augmented rank five
+R08	The direct extension can be compatible when both transverse coframe rates equal the clock rate	DERIVED_CONDITIONAL	h2=h3=-p; this is not the founding areal angular readout generically
+R09	A nonzero angular reciprocal generator is available in every seal lift	REFUTED_IN_REGISTERED_CLASS	Only axis-reflection and Hopf-exchange angular seals anticommute with a full-rank normalized angular generator
+R10	A conditional full two-pair reciprocal extension admits unique compatible torsion-free Weyl transport in the tested static diagonal class	DERIVED_CONDITIONAL	Transverse spacetime realization and torsion-free premise remain unselected
+R11	Full two-pair compatibility plus angular determinant-one reciprocity yields the reciprocal Hopf orbit weights	DERIVED_CONDITIONAL	diag(exp(-2phi),exp(+2phi)) up to exchange and positive common scale
+R12	The prior Hopf correspondence is a random resemblance	REFUTED_CONDITIONAL	Independent connection-compatibility route reaches the same weight block after the same missing transverse-realization gate
+R13	The Hopf match derives the carrier action stability or matter source	NOT_DERIVED	Carrier L2+L4 boundary and stability premises remain separate
+R14	Finite-cell seal or current bootstrap selects direct versus full two-pair reciprocity	NOT_DERIVED	No bulk connection-existence or transverse-realization equation supplied
+R15	CSN plus Reciprocity already selects a unique unconditional native connection	NOT_DERIVED	Uniqueness is conditional on existence realization and torsion-free compatibility
+R16	The smallest missing structural choice is longitudinal-only versus complete two-pair reciprocal reduction	OPEN_SHARPENED_GATE	Direct faithful extension and conditional full extension remain inequivalent
+R17	A new torsion gauge field or action is required	NOT_DERIVED	Excluded alternatives; obstruction does not authorize a repair mechanism
+R18	Conditional Hopf structure can diagnose a derived connection without selecting it	SUPPORTED_METHOD_BOUNDARY	No soliton merit filter used in derivation
+
