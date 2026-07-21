@@ -1,0 +1,155 @@
+{
+  "edges": [
+    {
+      "from": "P04_L01",
+      "relation": "premise",
+      "to": "FULL_METRIC_VARIATION"
+    },
+    {
+      "from": "P04_L02",
+      "relation": "premise",
+      "to": "FULL_METRIC_VARIATION"
+    },
+    {
+      "from": "FULL_METRIC_VARIATION",
+      "relation": "L01_Euler_operator",
+      "to": "L01_BACH"
+    },
+    {
+      "from": "FULL_METRIC_VARIATION",
+      "relation": "L02_Euler_operator",
+      "to": "L02_EINSTEIN"
+    },
+    {
+      "from": "L01_BACH",
+      "relation": "same_variation",
+      "to": "RAW_BOUNDARY_CURRENT"
+    },
+    {
+      "from": "L02_EINSTEIN",
+      "relation": "same_variation",
+      "to": "RAW_BOUNDARY_CURRENT"
+    },
+    {
+      "from": "RAW_BOUNDARY_CURRENT",
+      "relation": "requires_choice_or_derivation",
+      "to": "BOUNDARY_POLARIZATION"
+    },
+    {
+      "from": "BOUNDARY_POLARIZATION",
+      "relation": "differentiability_join",
+      "to": "BOUNDARY_ACTION_CORNERS"
+    },
+    {
+      "from": "BOUNDARY_ACTION_CORNERS",
+      "relation": "required",
+      "to": "COMPLETE_P05_OPERATOR"
+    },
+    {
+      "from": "EXTRA_FIELD_EQUATIONS",
+      "relation": "required_on_non_C01_branches",
+      "to": "COMPLETE_P05_OPERATOR"
+    },
+    {
+      "from": "GLOBAL_AXES",
+      "relation": "retained_branch_data",
+      "to": "COMPLETE_P05_OPERATOR"
+    },
+    {
+      "from": "REDUCED_VARIATION",
+      "relation": "projection_not_equivalence",
+      "to": "L01_BACH"
+    },
+    {
+      "from": "REDUCED_VARIATION",
+      "relation": "projection_not_equivalence",
+      "to": "L02_EINSTEIN"
+    }
+  ],
+  "forbidden_edges": [
+    {
+      "from": "P04_L03",
+      "reason": "no bridge operator",
+      "to": "FULL_METRIC_VARIATION"
+    },
+    {
+      "from": "RAW_BOUNDARY_CURRENT",
+      "reason": "raw current is not a selected differentiable completion",
+      "to": "COMPLETE_P05_OPERATOR"
+    },
+    {
+      "from": "REDUCED_VARIATION",
+      "reason": "projected equations do not imply full equations",
+      "to": "COMPLETE_P05_OPERATOR"
+    },
+    {
+      "from": "L01_BACH",
+      "reason": "P05 stop gate open",
+      "to": "P06"
+    },
+    {
+      "from": "L02_EINSTEIN",
+      "reason": "P05 stop gate open",
+      "to": "P06"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "P04_L01",
+      "kind": "conditional_lane"
+    },
+    {
+      "id": "P04_L02",
+      "kind": "conditional_lane"
+    },
+    {
+      "id": "P04_L03",
+      "kind": "excluded_open_lane"
+    },
+    {
+      "id": "FULL_METRIC_VARIATION",
+      "kind": "added_premise"
+    },
+    {
+      "id": "L01_BACH",
+      "kind": "derived_conditional_bulk"
+    },
+    {
+      "id": "L02_EINSTEIN",
+      "kind": "derived_conditional_bulk"
+    },
+    {
+      "id": "RAW_BOUNDARY_CURRENT",
+      "kind": "derived_conditional"
+    },
+    {
+      "id": "BOUNDARY_POLARIZATION",
+      "kind": "open"
+    },
+    {
+      "id": "BOUNDARY_ACTION_CORNERS",
+      "kind": "open"
+    },
+    {
+      "id": "EXTRA_FIELD_EQUATIONS",
+      "kind": "open"
+    },
+    {
+      "id": "GLOBAL_AXES",
+      "kind": "open"
+    },
+    {
+      "id": "COMPLETE_P05_OPERATOR",
+      "kind": "not_achieved"
+    },
+    {
+      "id": "REDUCED_VARIATION",
+      "kind": "separate_conditional_branch"
+    },
+    {
+      "id": "P06",
+      "kind": "not_launched"
+    }
+  ],
+  "schema": "udt-p05-operator-dependency-graph-1.0"
+}

@@ -1,0 +1,6 @@
+id	object	equation	status	limit
+N01	diffeomorphism_identity	nabla^a*(G_ab+Lambda*g_ab)=0	OFF_SHELL_NOETHER_IDENTITY	Lambda constant symbolic
+N02	trace_equation	-R+4*Lambda=0	ON_SHELL_CONSEQUENCE_NOT_IDENTITY	regular 4D vacuum conditional lane
+N03	normal_normal_projection	n^a*n^b*(G_ab+Lambda*g_ab)=0	CONDITIONAL_PROJECTION_OF_FULL_EQUATION	normal and causal type unselected
+N04	normal_tangential_projection	q^a_i*n^b*(G_ab+Lambda*g_ab)=0	CONDITIONAL_PROJECTION_OF_FULL_EQUATION	foliation unselected
+N05	tangential_projection	q^a_i*q^b_j*(G_ab+Lambda*g_ab)=0	CONDITIONAL_PROJECTION_OF_FULL_EQUATION	not evolution until time split and boundary data supplied

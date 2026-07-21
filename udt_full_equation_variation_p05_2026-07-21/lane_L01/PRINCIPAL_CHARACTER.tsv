@@ -1,0 +1,3 @@
+id	arena	operator	ungauge_fixed	diagnostic_reduction	principal_factor	characteristic	claim_limit
+P01	regular_Lorentzian	Bach	DEGENERATE_DIFFEO_PLUS_WEYL	de_Donder_plus_trace_gauge	alpha*(g^ab*xi_a*xi_b)^2	metric_null_cone_double	no well_posedness or physical gauge selected
+P02	degenerate_or_type_changing	Bach	NOT_CLASSIFIED_BY_INVERSE_METRIC_SYMBOL	NONE	UNDEFINED	OPEN	P03G closure retained

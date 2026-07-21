@@ -1,0 +1,16 @@
+id	object	status	scope_or_limit
+S01	L01_metric_bulk_operator	DERIVED_IN_CONDITIONAL_LANE	-2 alpha B^ab under unrestricted covariant h_ab variation
+S02	L02_metric_bulk_operator	DERIVED_IN_CONDITIONAL_LANE	-kappa(G^ab+Lambda g^ab) after representative supplied
+S03	Euler_bulk	ZERO_REGULAR_4D_BULK_EQUATION_BOUNDARY_RETAINED	beta remains free and affects boundary/corners
+S04	raw_boundary_currents	DERIVED_COVARIANTLY	Theta exposed before polarization or boundary term
+S05	finite_cell_differentiability	OPEN_STOP	complete polarization boundary action and corners not selected
+S06	extra_field_equations	OPEN_OR_ABSENT	metric-only bulks do not govern C02-C07 extras
+S07	L01_principal_character	CONDITIONAL_DOUBLE_NULL_FACTOR_AFTER_DIAGNOSTIC_GAUGE_QUOTIENT	ungauge-fixed diffeo plus Weyl degenerate
+S08	L02_principal_character	CONDITIONAL_SIMPLE_NULL_FACTOR_AFTER_DIAGNOSTIC_HARMONIC_GAUGE	ungauge-fixed diffeo degenerate
+S09	constraint_projections	RECORDED_NOT_SEPARATELY_SELECTED	no preferred foliation normal or causal boundary
+S10	reduced_action_equivalence	REFUTED_AS_AUTOMATIC	exact tangent and EH primitive scars
+S11	all_21_field_pairs	ACCOUNTED_NONE_REMOVED	two metric-only bulk-complete rows still boundary/global open
+S12	all_12_global_axes	FREE_UNSELECTED_UNSOLVED	no global completion
+S13	protocol_maximum	NOT_EARNED	boundary and extra-field channels absent
+S14	banked_maximum	NAMED_BULK_OPERATORS_AND_VARIATION_OBSTRUCTIONS_CHARACTERIZED	bulk operators exact; complete actions and solutions open
+S15	P06_and_solves	NOT_LAUNCHED	new dispatch required

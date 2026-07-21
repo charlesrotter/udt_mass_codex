@@ -1,0 +1,6 @@
+id	object	equation	status	limit
+N01	trace_identity	g^ab*B_ab=0	OFF_SHELL_NOETHER_IDENTITY	four-dimensional conformal metric lane
+N02	diffeomorphism_identity	nabla^a*B_ab=0	OFF_SHELL_NOETHER_IDENTITY	regular Levi-Civita lane
+N03	normal_normal_projection	n^a*n^b*B_ab=0	CONDITIONAL_PROJECTION_OF_FULL_EQUATION	normal and causal type unselected
+N04	normal_tangential_projection	q^a_i*n^b*B_ab=0	CONDITIONAL_PROJECTION_OF_FULL_EQUATION	foliation unselected
+N05	tangential_projection	q^a_i*q^b_j*B_ab=0	CONDITIONAL_PROJECTION_OF_FULL_EQUATION	not evolution until time split and boundary data supplied

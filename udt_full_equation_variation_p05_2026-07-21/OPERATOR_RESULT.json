@@ -1,0 +1,115 @@
+{
+  "check_count": 32,
+  "checks": {
+    "C2_Euler_independent": "PASS",
+    "C2_principal_double_null_factor": "PASS",
+    "C2_weight_zero_in_4D": "PASS",
+    "EH_not_pre_scale_weight_zero": "PASS",
+    "EH_principal_simple_null_factor": "PASS",
+    "EH_raw_boundary_current_specialization": "PASS",
+    "Euler_quotient_one_C2_direction": "PASS",
+    "L03_excluded": "PASS",
+    "all_12_axes": "PASS",
+    "all_21_field_pairs": "PASS",
+    "axes_free": "PASS",
+    "both_boundary_stops_open": "PASS",
+    "both_lane_bulk_tables": "PASS",
+    "fallback_banked": "PASS",
+    "forbidden_edges_absent": "PASS",
+    "graph_endpoints": "PASS",
+    "hard_restriction_is_tangent_projection": "PASS",
+    "multiplier_elimination_is_tangent_projection": "PASS",
+    "no_boundary_complete": "PASS",
+    "no_field_removed": "PASS",
+    "no_global_existence": "PASS",
+    "normal_equation_survives": "PASS",
+    "projected_stationary_not_full_stationary": "PASS",
+    "protocol_max_not_earned": "PASS",
+    "raw_boundary_channels_present": "PASS",
+    "reciprocal_spherical_EH_is_boundary_primitive": "PASS",
+    "source_ARM_C_ACTION": "PASS",
+    "source_ARM_C_BOUNDARY": "PASS",
+    "source_ARM_C_MANIFEST": "PASS",
+    "source_ARM_C_VARIATION": "PASS",
+    "source_P04_MANIFEST": "PASS",
+    "source_P04_RESULT": "PASS"
+  },
+  "counts": {
+    "authorized_lanes_built": 2,
+    "bridge_lanes_excluded": 1,
+    "bulk_operator_rows": 14,
+    "field_pairs": 21,
+    "field_pairs_complete_actions": 0,
+    "global_axes_free": 12,
+    "raw_boundary_rows": 13,
+    "reduced_action_scars": 5,
+    "solutions_computed": 0,
+    "variation_domains": 6
+  },
+  "evidence_grade": "LEAD_PENDING_FRESH_ADVERSARIAL_REVIEW",
+  "exact_algebra": {
+    "C2_basis": [
+      "1",
+      "-2",
+      "1/3"
+    ],
+    "EH_radial_primitive": "-r**2*Derivative(A(r), r) - 2*r*A(r) + 2*r",
+    "Euler_basis": [
+      "1",
+      "-4",
+      "1"
+    ],
+    "normal_euler": "x*(aa - bb)",
+    "principal_factors": {
+      "L01_gauge_reduced": "alpha*q^2",
+      "L02_gauge_reduced": "kappa*q"
+    },
+    "tangent_euler": "aa*x + bb*x - 2*cc*x"
+  },
+  "lane_rulings": {
+    "L01": "BULK_METRIC_OPERATOR_DERIVED_CONDITIONAL_BOUNDARY_AND_EXTRA_FIELDS_OPEN",
+    "L02": "FORMAL_BULK_METRIC_OPERATOR_DERIVED_CONDITIONAL_REPRESENTATIVE_BOUNDARY_AND_EXTRA_FIELDS_OPEN",
+    "L03": "EXCLUDED_NO_OPERATOR_TO_VARY"
+  },
+  "maximum_conclusion": "NAMED_BULK_OPERATORS_AND_VARIATION_OBSTRUCTIONS_CHARACTERIZED",
+  "protocol_maximum": "NAMED_DYNAMICS_OPERATOR_COMPLETE_IN_EXACT_PREMISE_CLASS",
+  "protocol_maximum_earned": false,
+  "schema": "udt-p05-conditional-operator-builds-1.0",
+  "scope": {
+    "CPU_only": true,
+    "GPU_used": false,
+    "ODE_or_PDE_run": false,
+    "P06_launched": false,
+    "boundary_completion_selected": false,
+    "canon_changed": false,
+    "full_metric_varied_before_reduction": true,
+    "physical_representative_selected": false,
+    "source_or_carrier_loaded": false,
+    "symmetry_ansatz_used_for_operator_derivation": false
+  },
+  "source_sha256": {
+    "ARM_C_ACTION": "33e804e990fad69e49b3471adc8443f8037e7d4b5f617999dd1579286c3e430c",
+    "ARM_C_BOUNDARY": "e29f017a354275b62d415961365583d165bffc9637303b1a3ae9feb17510184d",
+    "ARM_C_MANIFEST": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+    "ARM_C_VARIATION": "084511961b6c69270278c64ae69f58942b044f106990e7071a5003f8535aee7e",
+    "P04_MANIFEST": "d01d65fc5abcc35078c961d0d3fc0eec7ad26e205735a77f7d83e2b45121de3f",
+    "P04_RESULT": "d524a993798ec8148421f5b2099358354025dae331fcef5388f6ad4c4c256039"
+  },
+  "status": "PASS",
+  "table_sha256": {
+    "FIELD_EQUATION_COMPLETENESS.tsv": "dcf7ea4d8722cf473ece98e54b1b3a43dfc70270fbf4d11072f33925403126c1",
+    "GLOBAL_AXIS_CARRYFORWARD.tsv": "0ed98d0670304140fc527e26c20611977110554434b11fabf24d3c446e3c69c7",
+    "REDUCED_ACTION_SCAR.tsv": "45a38c8b0bf28dfd98370d10ca83ba52371d79d3341dff91d1f1ecaa8a8f850f",
+    "SOURCE_LINEAGE.tsv": "408ee916c2056117eda145deebea42a6b6a12d8a07d8e5db2ec98cdbfcda85a6",
+    "STATUS_LEDGER.tsv": "e4ee44acee0e37a57490d14516e2f21a6752af874bdf8b16b46d719644943c9f",
+    "VARIATION_DOMAIN_MATRIX.tsv": "216d62af0e0dda12f1a08b436bee0b1dd07e1da956bb3aea9a3aa7861d95e50d",
+    "lane_L01/BOUNDARY_CURRENT.tsv": "1f0491e216210f53b7b0b7531a7b62caa92c63cc018c9a4ba80cebb7c1236b46",
+    "lane_L01/BULK_OPERATOR.tsv": "f5cd9405827d8e312e5e22a8f8cc43786aadfb9c5e06d084803d5cd95dd52d67",
+    "lane_L01/NOETHER_AND_CONSTRAINTS.tsv": "011c1c50a663d43847a692db9d54f8d4abe1ecd897728c2671701c1b2793771a",
+    "lane_L01/PRINCIPAL_CHARACTER.tsv": "01d2822e3e175c76d728dac48205a68a58bba64b069a310be9581221bfcab54f",
+    "lane_L02/BOUNDARY_CURRENT.tsv": "890718757db0e6826411f23bdee57c8f4f5f9eee136f3d1d3d44f5abd554599c",
+    "lane_L02/BULK_OPERATOR.tsv": "e4f09babd5d17335ceb98fec7030e77b3dcacbcb28b05219b772652b70d4127d",
+    "lane_L02/NOETHER_AND_CONSTRAINTS.tsv": "62484a457ed4630632f5e80175f65fa60052f440c6389e9534e9da0c0f726c5e",
+    "lane_L02/PRINCIPAL_CHARACTER.tsv": "45912f18e62275bae9ddefd29d2d8f6bbabe5b62e91b24432a662056032c23ee"
+  }
+}

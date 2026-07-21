@@ -1,0 +1,8 @@
+id	channel	formula	coefficient	status	open_completion
+B01	EH_derivative_h	kappa*n_a*(nabla_b(h^ab)-nabla^a(h))	free kappa	DERIVED_RAW_CURRENT	polarization boundary action corners
+B02	cosmological	no_derivative_boundary_current	free Lambda	EXACT	does not close EH current
+B03	Euler_boundary	2*beta*n_a*P_E^abcd*nabla_d(h_bc)	P_E^abcd=2*R^abcd-4*(g^a[c*R^d]b-g^b[c*R^d]a)+2*R*g^a[c*g^d]b	EXPOSED_DIVERGENCE_FREE_P_E	Euler boundary functional and corners
+B04	standard_Dirichlet_completion	not_adopted	NA	CONDITIONAL_COMPARISON_ONLY	UDT does not select GHY-like term or Dirichlet data
+B05	reference_orientation_normalization	not_selected	NA	OPEN	finite-cell generator and charge
+B06	static_scalar_seal	delta_phi=0 only	one scalar wire	INSUFFICIENT_FOR_METRIC_CURRENT	complete h normal_h and corner polarization
+B07	differentiability	not_selected	NA	OPEN_STOP	native finite-cell boundary action and all allowed variations

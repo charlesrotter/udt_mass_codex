@@ -1,0 +1,8 @@
+id	object	formula	status	scope_or_limit
+O01	bulk_density	L02=kappa*(R-2*Lambda)+beta*E4	CONDITIONAL_ACTION_FAMILY	kappa Lambda beta symbolic; post-scale metric-only local 4D class
+O02	Euler_density	E4=R_abcd*R^abcd-4*R_ab*R^ab+R^2	EXACT_DEFINITION	bulk topological only in regular 4D; boundary retained
+O03	Einstein_tensor	G_ab=R_ab-(1/2)*R*g_ab	EXACT_DEFINITION	selected regular physical representative required
+O04	covariant_metric_variation	delta S_bulk=integral sqrt_abs_g*(-kappa*(G^ab+Lambda*g^ab))*h_ab+boundary	DERIVED_IN_CONDITIONAL_LANE	h_ab=delta g_ab unrestricted before reduction
+O05	metric_Euler_equation	G_ab+Lambda*g_ab=0 when kappa_nonzero	CONDITIONAL_BULK_EQUATION	Lambda free including zero subcase; no source
+O06	differential_order	order_g=2	EXACT	principal degeneracy requires gauge quotient
+O07	Euler_bulk_variation	E_ab[E4]=0	DERIVED_REGULAR_4D	does not erase boundary or corners

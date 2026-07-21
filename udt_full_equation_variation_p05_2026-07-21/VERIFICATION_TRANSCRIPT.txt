@@ -1,0 +1,10 @@
+P05_INDEPENDENT_VERIFICATION=PASS
+checks=9
+catch_proofs=31
+generator_imported=NO
+lanes=L01,L02
+field_pairs=21/21
+complete_action_pairs=0
+global_axes=12/12_free
+protocol_maximum_earned=NO
+main_result_sha256=266a92253844ade86716d421f12831f7a44e8b377d5ebcfc0b1a0fee0b63aab3

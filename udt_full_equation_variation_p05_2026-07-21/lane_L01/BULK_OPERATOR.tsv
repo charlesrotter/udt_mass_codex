@@ -1,0 +1,8 @@
+id	object	formula	status	scope_or_limit
+O01	bulk_density	L01=alpha*C_abcd*C^abcd+beta*E4	CONDITIONAL_ACTION_FAMILY	alpha and beta symbolic; metric-only local 4D class
+O02	Euler_density	E4=R_abcd*R^abcd-4*R_ab*R^ab+R^2	EXACT_DEFINITION	bulk topological only in regular 4D; boundary retained
+O03	Bach_tensor	B_ab=(nabla^c*nabla^d+(1/2)*R^cd)*C_acbd	EXACT_CONVENTION	regular 4D Levi-Civita metric
+O04	covariant_metric_variation	delta S_bulk=integral sqrt_abs_g*(-2*alpha*B^ab)*h_ab+boundary	DERIVED_IN_CONDITIONAL_LANE	h_ab=delta g_ab unrestricted before reduction
+O05	metric_Euler_equation	B_ab=0 when alpha_nonzero	CONDITIONAL_BULK_EQUATION	beta supplies zero regular 4D bulk equation; no source
+O06	differential_order	order_g=4	EXACT	principal degeneracy requires gauge quotient
+O07	Euler_bulk_variation	E_ab[E4]=0	DERIVED_REGULAR_4D	does not erase boundary or corners

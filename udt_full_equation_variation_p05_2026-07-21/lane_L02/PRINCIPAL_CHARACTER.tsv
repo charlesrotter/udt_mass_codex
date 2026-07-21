@@ -1,0 +1,3 @@
+id	arena	operator	ungauge_fixed	diagnostic_reduction	principal_factor	characteristic	claim_limit
+P01	regular_Lorentzian	Einstein_Lambda	DEGENERATE_DIFFEO	harmonic_gauge	kappa*(g^ab*xi_a*xi_b)	metric_null_cone_simple	conditional hyperbolic diagnostic; no physical gauge selected
+P02	degenerate_or_type_changing	Einstein_Lambda	NOT_CLASSIFIED_BY_INVERSE_METRIC_SYMBOL	NONE	UNDEFINED	OPEN	P03G closure retained

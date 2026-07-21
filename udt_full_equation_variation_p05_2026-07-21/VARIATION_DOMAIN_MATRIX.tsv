@@ -1,0 +1,7 @@
+id	domain	equation	relation_to_full_operator	status	limit
+V01	unrestricted_then_optional_restrict	E_ab=0 then impose declared submanifold	FULL_EQUATION_RETAINED	L01_L02_CLASS_PREMISE	boundary variation still open
+V02	hard_restrict_then_vary	J^T*E=0	TANGENT_PROJECTION_ONLY	INEQUIVALENT_UNLESS_NORMAL_EQUATIONS_PROVED	can discard metric equations
+V03	multiplier_constraint	E+lambda*dC=0; C=0	TANGENT_PROJECTION_AFTER_LAMBDA_ELIMINATION	NOT_AUTOMATICALLY_FULL_EQUATION	constraint qualification and boundary data open
+V04	readout_only_restriction	evaluate full E_ab on declared configurations	NO_OFFSHELL_FIELD_REDUCTION	CONDITIONAL_DIAGNOSTIC	does not prove configurations solve E_ab=0
+V05	gauge_reduction_after_variation	full E_ab plus gauge condition	DIAGNOSTIC_IF_GAUGE_REACHABILITY_PROVED	NOT_PHYSICAL_SELECTION	global gauge and boundary compatibility open
+V06	boundary_fixed_variation	bulk E_ab plus declared vanishing boundary tangent	DEPENDS_ON_POLARIZATION	OPEN_IN_CURRENT_UDT	static delta_phi wire insufficient

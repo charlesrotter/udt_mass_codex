@@ -1,0 +1,6 @@
+id	lane	witness	observed	status	limit
+R01	GENERIC	L=aa*x^2/2+bb*y^2/2+cc*x*y with y=-x	reduced_EL=(E_x-E_y)|constraint while normal=(E_x+E_y)|constraint survives	EXACT_CHAIN_RULE_SCAR	finite-dimensional algebraic witness
+R02	GENERIC	L=x+y with y=-x	reduced action zero and tangent EL zero while full E=(1,1)	EXACT_FALSE_PASS_WITNESS	does not assert continuum realization
+R03	L02	ds2=-A(r)dt2+A(r)^-1dr2+r2dOmega2	r^2*R=d_r[-r^2*A'-2r*A+2r]	EXACT_REDUCED_EH_BOUNDARY_PRIMITIVE	one-function reciprocal spherical restriction; full Einstein equations not empty
+R04	L01	conformally_flat_metric_reduction	C2 action and Bach tensor both vanish	VACUOUS_SCAR_TEST_REJECTED	cannot certify reduced/full equivalence outside conformally flat branch
+R05	L01_L02	one-dimensional_ansatz_tangent_inside_ten_metric_components	projected scalar equation cannot imply all normal tensor equations without theorem	RANK_WARNING	pointwise chain-rule statement not PDE existence proof

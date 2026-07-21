@@ -1,0 +1,12 @@
+P05_CONDITIONAL_OPERATOR_BUILD=PASS
+checks=32
+lanes_built=L01,L02
+L03=EXCLUDED_NO_OPERATOR
+bulk_operator_rows=14
+raw_boundary_rows=13
+field_pairs=21/21
+complete_action_pairs=0
+global_axes_free=12/12
+solutions=0
+protocol_maximum_earned=NO
+maximum_conclusion=NAMED_BULK_OPERATORS_AND_VARIATION_OBSTRUCTIONS_CHARACTERIZED

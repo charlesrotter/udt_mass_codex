@@ -1,0 +1,7 @@
+id	channel	formula	coefficient	status	open_completion
+B01	general_raw_potential	Theta^a=2*P^abcd*nabla_d(h_bc)-2*nabla_d(P^abcd)*h_bc	P^abcd=2*alpha*C^abcd+beta*P_E^abcd	DERIVED_RAW_CURRENT	polarization boundary action corners
+B02	C2_derivative_h	4*alpha*n_a*C^abcd*nabla_d(h_bc)	free alpha	EXPOSED	normal/tangential decomposition and allowed derivative data
+B03	C2_h	-4*alpha*n_a*nabla_d(C^abcd)*h_bc	free alpha	EXPOSED	allowed h and tangential integrations
+B04	Euler_boundary	2*beta*n_a*P_E^abcd*nabla_d(h_bc)	P_E^abcd=2*R^abcd-4*(g^a[c*R^d]b-g^b[c*R^d]a)+2*R*g^a[c*g^d]b	EXPOSED_DIVERGENCE_FREE_P_E	Euler boundary functional and corners
+B05	static_scalar_seal	delta_phi=0 only	one scalar wire	INSUFFICIENT_FOR_METRIC_CURRENT	complete h normal_h and corner polarization
+B06	differentiability	not_selected	NA	OPEN_STOP	native finite-cell boundary action and all allowed variations
