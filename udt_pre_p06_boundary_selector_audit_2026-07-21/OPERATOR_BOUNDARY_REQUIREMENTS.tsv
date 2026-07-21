@@ -1,0 +1,12 @@
+id	lane	object	exact_form_or_slot	status	missing_selector
+R01	L01	bulk_equation	B_ab=0 for alpha_nonzero	DERIVED_IN_CONDITIONAL_LANE	lane selection source and global solution
+R02	L01	raw_covariant_potential	Theta^a=4alpha C^abcd nabla_d h_bc-4alpha nabla_d(C^abcd)h_bc+Euler	DERIVED_CONDITIONAL	allowed tangent and primitive
+R03	L01	non_null_normal_split	-8 epsilon alpha E^ij delta_Kij+Pi_h^ij delta_hij+corner	VERIFIED_WITH_CAVEATS_IN_PARENT	boundary type polarization and corner
+R04	L01	CSN_direction	bare C2 potential vanishes on delta_g=2sigma g	NULL_DIRECTION_DERIVED_CONDITIONAL	physical section and remaining tangents
+R05	L02	bulk_equation	G_ab+Lambda g_ab=0 for kappa_nonzero	DERIVED_IN_CONDITIONAL_LANE	representative lane selection source and global solution
+R06	L02	raw_covariant_potential	Theta^a=kappa(nabla_b h^ab-nabla^a h)+Euler	DERIVED_CONDITIONAL	allowed tangent and primitive
+R07	L02	Dirichlet_completion	orientation-dependent GHY-like term	CONDITIONAL_COMPARISON_ONLY	native UDT derivation and orientation
+R08	L01_L02	Euler_boundary	2 beta n_a P_E^abcd nabla_d h_bc plus corners	EXPOSED_BETA_FREE	beta topology primitive and corners
+R09	L01_L02	extra_fields	C02-C07 require independent variations or declared roles	OPEN_OR_ABSENT	complete action and field equations
+R10	L01_L02	null_moving_boundary	covariant raw current only	OPEN	boundary realization variables normalization and joints
+R11	L03	bridge_boundary_problem	NONE	EXCLUDED_NO_OPERATOR	bridge action matching fields and variation

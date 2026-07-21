@@ -1,0 +1,141 @@
+{
+  "check_count": 54,
+  "checks": {
+    "EH_current_component_0": "PASS",
+    "EH_current_component_1": "PASS",
+    "EH_current_component_2": "PASS",
+    "EH_current_component_3": "PASS",
+    "EH_rescale_same_zero_set": "PASS",
+    "Euler_beta_bulk_blind": "PASS",
+    "Euler_beta_changes_boundary": "PASS",
+    "P06_closed": "PASS",
+    "action_rescale_same_zero_set": "PASS",
+    "all_21_pairs": "PASS",
+    "all_lanes": "PASS",
+    "all_realizations": "PASS",
+    "angular_shear_survives_seal": "PASS",
+    "both_lanes_partial": "PASS",
+    "boundary_type_count": "PASS",
+    "common_scale_survives_seal": "PASS",
+    "family_not_diagonal_lorentz": "PASS",
+    "forbidden_edges_absent": "PASS",
+    "full_inverting_family": "PASS",
+    "functional_ambiguity_count": "PASS",
+    "graph_endpoints": "PASS",
+    "involution_family": "PASS",
+    "legendre_boundary_shift": "PASS",
+    "legendre_preserves_bulk_symplectic_form": "PASS",
+    "maximum_exact": "PASS",
+    "multiple_L01_witnesses": "PASS",
+    "multiple_L02_witnesses": "PASS",
+    "no_boundary_type_selected": "PASS",
+    "none_selected": "PASS",
+    "polarization_witness_count": "PASS",
+    "principle_count": "PASS",
+    "raw_swap_anti_isometry": "PASS",
+    "reciprocal_swap": "PASS",
+    "seal_removes_only_phi_tangent": "PASS",
+    "source_BOOTSTRAP": "PASS",
+    "source_C2_BOUNDARY_MANIFEST": "PASS",
+    "source_C2_BOUNDARY_RESULT": "PASS",
+    "source_CANON": "PASS",
+    "source_COFRAME_MANIFEST": "PASS",
+    "source_COFRAME_RESULT": "PASS",
+    "source_COLD_PACKET": "PASS",
+    "source_CSN": "PASS",
+    "source_GENERATOR_MANIFEST": "PASS",
+    "source_P05_FIELDS": "PASS",
+    "source_P05_MANIFEST": "PASS",
+    "source_P05_RESULT": "PASS",
+    "source_REPRESENTATIVE_MANIFEST": "PASS",
+    "source_SEAL_JOIN_MANIFEST": "PASS",
+    "source_SEAL_JOIN_RESULT": "PASS",
+    "source_SURFACE_MANIFEST": "PASS",
+    "source_XMAX": "PASS",
+    "three_independent_static_tangents": "PASS",
+    "unique_graph_nodes": "PASS",
+    "zero_P06_ready": "PASS"
+  },
+  "counts": {
+    "P06_ready_pairs": 0,
+    "boundary_type_branches": 5,
+    "field_lane_pairs": 21,
+    "functional_ambiguities": 8,
+    "polarization_rows": 10,
+    "principles_mapped": 10,
+    "solutions_computed": 0,
+    "source_files": 17
+  },
+  "evidence_grade": "LEAD_PENDING_FRESH_ADVERSARIAL_REVIEW",
+  "exact_algebra": {
+    "legendre_potential_after": [
+      "0",
+      "-q"
+    ],
+    "legendre_potential_before": [
+      "p",
+      "0"
+    ],
+    "raw_swap_eta_action": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        -1
+      ]
+    ],
+    "static_survivor_rank_after_delta_phi_zero": 2,
+    "static_tangent_rank_before_seal": 3
+  },
+  "lane_outcomes": {
+    "L01": "PARTIAL_NATIVE_DATA_MULTIPLE_COMPLETIONS",
+    "L02": "PARTIAL_NATIVE_DATA_MULTIPLE_COMPLETIONS",
+    "L03": "EXCLUDED_NO_BULK_OPERATOR"
+  },
+  "maximum_conclusion": "EXISTING_UDT_BOUNDARY_SELECTOR_STATUS_CLASSIFIED_FOR_P05_LANES",
+  "primary_result": "PARTIAL_NATIVE_DATA_ONLY_MULTIPLE_POLARIZATIONS_AND_FUNCTIONALS_REMAIN",
+  "schema": "udt-pre-p06-boundary-selector-result-1.0",
+  "scope": {
+    "CPU_only": true,
+    "GPU_used": false,
+    "ODE_or_PDE_run": false,
+    "P06_launched": false,
+    "boundary_functional_adopted": false,
+    "boundary_type_selected": false,
+    "canon_changed": false,
+    "carrier_or_source_loaded": false,
+    "startup_controls_changed": false
+  },
+  "source_sha256": {
+    "BOOTSTRAP": "ce14075bad1ff4b6ea9b41e35dc6b63dfc5a9ae13478bd57c80b1502f33fb540",
+    "C2_BOUNDARY_MANIFEST": "2be362cd50cc5102960cb6a1e8745196cad956799b851c3e71a212b01d70d83e",
+    "C2_BOUNDARY_RESULT": "2c3055c5905b49a6c5c42e1744ac1547eb2066a45e3255cbc6abf4344e2df7d0",
+    "CANON": "5d99c0ba09fcee0429a34ac6b3dda4faff489b7d214b622fcbd286deb3785314",
+    "COFRAME_MANIFEST": "87d43cb281d236111a8baec4fe7da5686a8043931e6ba0a2715228f7d61f483e",
+    "COFRAME_RESULT": "a0579b3785ff1bccef888a3ace186af8668a189aa802a238e9017adc8d72a3d0",
+    "COLD_PACKET": "d38232792ac78188687db433a3f60a08c775c46e9ecf5fc42ad7953dc89fadb0",
+    "CSN": "4bb0da9098da0a9970602e2449615eef151796b0d7fe7a9978f4b66145748a34",
+    "GENERATOR_MANIFEST": "39d335fbbc0367f206d77173f72d4b4485145dd0cb42aacc8c4491656e6d287c",
+    "P05_FIELDS": "dcf7ea4d8722cf473ece98e54b1b3a43dfc70270fbf4d11072f33925403126c1",
+    "P05_MANIFEST": "5c26d4eb97c4dc370e286469c63d662f182a71a94a6e6899131fd6706c4e7f2e",
+    "P05_RESULT": "266a92253844ade86716d421f12831f7a44e8b377d5ebcfc0b1a0fee0b63aab3",
+    "REPRESENTATIVE_MANIFEST": "6cd896586dda87b8e9794818c34ccb392a2f5a004e7d88ba8e288db57e50c6c3",
+    "SEAL_JOIN_MANIFEST": "704b084548a212eabcfb1ac051e89234a7fd91bbeaf7f70abcc28bf63edc7a3b",
+    "SEAL_JOIN_RESULT": "aa8139f6fe65bd7681786f17ad9d19bd166267d22b0dcfe7af0cbe5747e4e9ee",
+    "SURFACE_MANIFEST": "3841492810a553cc07ae3107cc10c3c5584547db5dcb87757e377ebcdb335afb",
+    "XMAX": "bd82e07c252fa3aa055e9e4029b964f8a4e415fd50097dd5cec8a6ba928850a1"
+  },
+  "status": "PASS",
+  "table_sha256": {
+    "BOUNDARY_TYPE_BRANCHES.tsv": "bb6cb2c8928177e7a684f0ad26aa0386f1d6db3b56e41199303b8316c06cdfd2",
+    "FIELD_LANE_CLOSURE.tsv": "922ced46c2bb3374c3ea9f7e10783a60f1c0b3da96a1856a54f03244028cdebd",
+    "FUNCTIONAL_AMBIGUITY.tsv": "64d8e8fe71eb900a41038de36369c5cbbf865e53c5295b85e34c01bf3ef274c0",
+    "LANE_POLARIZATION_MATRIX.tsv": "1630ff24c1dd06aee9c60f52a5bd9524bb1c09906d005be4360d17562c5be74c",
+    "OPERATOR_BOUNDARY_REQUIREMENTS.tsv": "b0d672dd3d3579edc3f4d56fd9139102e5c1d8114a2acf57680d2762ad3c780d",
+    "PRINCIPLE_TO_BOUNDARY_SLOT.tsv": "03ea37d5d57ec595698e3bd5d0d84afd6cf7dda284ab5405a29d1d1c23b1e7e8",
+    "SOURCE_LINEAGE.tsv": "ed58f862a95b5dcc6dcc132ebff5f17fed627aa479898f5c21bcf3a7f7b6d779",
+    "STATUS_LEDGER.tsv": "c16df09df2883e4a4a837b78e8076664e829f1cdfefc58d7f7c58e828a944c71"
+  }
+}

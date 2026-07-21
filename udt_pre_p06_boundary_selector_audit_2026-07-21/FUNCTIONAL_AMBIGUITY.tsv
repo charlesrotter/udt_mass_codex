@@ -1,0 +1,9 @@
+id	lane	ambiguity	bulk_equation_effect	boundary_effect	current_selector	consequence
+F01	L01_L02	overall_nonzero_action_rescaling	same zero set	rescales momenta currents and charges	NONE	normalization not derived
+F02	L01_L02	free_beta_times_E4	zero regular_4D bulk metric equation	changes Euler boundary and corner channel	NONE	continuum of boundary functionals with same named bulk equation
+F03	L01_L02	bulk_exact_divergence	unchanged	shifts boundary primitive and canonical momentum	NONE	bulk operator cannot select functional
+F04	L01_L02	symplectic_potential_improvement_theta_plus_deltaY_plus_dZ	unchanged	changes potential representative and corner flux	NONE	raw current is not unique physical generator
+F05	L01_L02	boundary_Legendre_transform	unchanged	exchanges fixed coordinate and momentum polarization	NONE	polarization requires independent UDT rule
+F06	L02	GHY_like_Dirichlet_completion	unchanged Einstein_Lambda	cancels normal derivative variation for fixed induced metric	COMPARISON_ONLY_NOT_UDT	existence does not imply adoption
+F07	L01_L02	reference_orientation_generator_choice	unchanged	changes sign zero and physical charge assignment	NONE	no normalized charge or mass
+F08	L01_L02	boundary_causal_type_and_joints	unchanged local bulk	changes boundary variables polarization and corner/joint terms	NONE	no universal functional across retained surface branches

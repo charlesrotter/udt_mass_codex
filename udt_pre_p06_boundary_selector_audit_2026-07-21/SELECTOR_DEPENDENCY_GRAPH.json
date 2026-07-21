@@ -1,0 +1,169 @@
+{
+  "edges": [
+    {
+      "from": "FINITE_CELL",
+      "relation": "scoped_domain_realization",
+      "to": "STATIC_SEAL"
+    },
+    {
+      "from": "RECIPROCITY",
+      "relation": "ratio_interpretation",
+      "to": "STATIC_SEAL"
+    },
+    {
+      "from": "STATIC_SEAL",
+      "relation": "fixes_one_scalar_tangent_only",
+      "to": "ALLOWED_TANGENTS"
+    },
+    {
+      "from": "CSN",
+      "relation": "retains_common_scale_null_direction_L01",
+      "to": "ALLOWED_TANGENTS"
+    },
+    {
+      "from": "COFRAME_INVOLUTION",
+      "relation": "multiple_extensions",
+      "to": "ALLOWED_TANGENTS"
+    },
+    {
+      "from": "BOUNDARY_TYPE",
+      "relation": "type_dependent_variables",
+      "to": "ALLOWED_TANGENTS"
+    },
+    {
+      "from": "L01_RAW_CURRENT",
+      "relation": "requires_polarization_and_primitive",
+      "to": "BOUNDARY_FUNCTIONAL"
+    },
+    {
+      "from": "L02_RAW_CURRENT",
+      "relation": "requires_polarization_and_primitive",
+      "to": "BOUNDARY_FUNCTIONAL"
+    },
+    {
+      "from": "ALLOWED_TANGENTS",
+      "relation": "required",
+      "to": "COMPLETE_OPERATOR"
+    },
+    {
+      "from": "BOUNDARY_FUNCTIONAL",
+      "relation": "required",
+      "to": "COMPLETE_OPERATOR"
+    },
+    {
+      "from": "EXTRA_FIELD_VARIATION",
+      "relation": "required_for_C02_C07",
+      "to": "COMPLETE_OPERATOR"
+    },
+    {
+      "from": "BOOTSTRAP",
+      "relation": "on_shell_only_no_offshell_edge",
+      "to": "COMPLETE_OPERATOR"
+    },
+    {
+      "from": "XMAX",
+      "relation": "global_local_join_open",
+      "to": "BOUNDARY_TYPE"
+    }
+  ],
+  "forbidden_edges": [
+    {
+      "from": "STATIC_SEAL",
+      "reason": "one scalar wire is insufficient",
+      "to": "COMPLETE_OPERATOR"
+    },
+    {
+      "from": "RECIPROCITY",
+      "reason": "kinematics supplies no functional",
+      "to": "BOUNDARY_FUNCTIONAL"
+    },
+    {
+      "from": "CSN",
+      "reason": "equivalence/nullness is not a primitive",
+      "to": "BOUNDARY_FUNCTIONAL"
+    },
+    {
+      "from": "BOOTSTRAP",
+      "reason": "varied bootstrap functional absent",
+      "to": "BOUNDARY_FUNCTIONAL"
+    },
+    {
+      "from": "L01_RAW_CURRENT",
+      "reason": "raw current not differentiable completion",
+      "to": "COMPLETE_OPERATOR"
+    },
+    {
+      "from": "L02_RAW_CURRENT",
+      "reason": "raw current not differentiable completion",
+      "to": "COMPLETE_OPERATOR"
+    },
+    {
+      "from": "COMPLETE_OPERATOR",
+      "reason": "complete operator not achieved",
+      "to": "P06"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "FINITE_CELL",
+      "kind": "founded_domain"
+    },
+    {
+      "id": "STATIC_SEAL",
+      "kind": "partial_boundary_data"
+    },
+    {
+      "id": "RECIPROCITY",
+      "kind": "founded_kinematics"
+    },
+    {
+      "id": "CSN",
+      "kind": "founded_equivalence"
+    },
+    {
+      "id": "BOOTSTRAP",
+      "kind": "working_on_shell"
+    },
+    {
+      "id": "XMAX",
+      "kind": "working_global_output"
+    },
+    {
+      "id": "COFRAME_INVOLUTION",
+      "kind": "multiple_completions"
+    },
+    {
+      "id": "BOUNDARY_TYPE",
+      "kind": "unselected_branch"
+    },
+    {
+      "id": "L01_RAW_CURRENT",
+      "kind": "conditional_operator"
+    },
+    {
+      "id": "L02_RAW_CURRENT",
+      "kind": "conditional_operator"
+    },
+    {
+      "id": "ALLOWED_TANGENTS",
+      "kind": "unselected"
+    },
+    {
+      "id": "BOUNDARY_FUNCTIONAL",
+      "kind": "unselected"
+    },
+    {
+      "id": "EXTRA_FIELD_VARIATION",
+      "kind": "open"
+    },
+    {
+      "id": "COMPLETE_OPERATOR",
+      "kind": "not_achieved"
+    },
+    {
+      "id": "P06",
+      "kind": "closed"
+    }
+  ],
+  "schema": "udt-pre-p06-boundary-selector-graph-1.0"
+}

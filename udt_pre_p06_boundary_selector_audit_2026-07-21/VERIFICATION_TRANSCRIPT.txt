@@ -1,0 +1,8 @@
+PRE_P06_BOUNDARY_SELECTOR_VERIFICATION=PASS
+checks=10
+catch_proofs=42
+generator_imported=NO
+boundary_types=5/5
+field_pairs=21/21
+P06_ready_pairs=0
+main_result_sha256=93a2c3d25a4cad2e64718404899004047766951f0a73b47ca3bc8e21f06569b8

@@ -1,0 +1,11 @@
+id	principle	authority	off_shell_status	surface_or_type	induced_or_coframe_tangent	normal_jet	extra_fields	corner	functional_or_normalization	classification
+P01	finite_cell	CANONIZED_BINDING	DOMAIN_ONTOLOGY_ONLY	boundary exists; local/global identity and causal type open	NONE_COMPLETE	NONE	NONE	NONE	NONE	PARTIAL_DOMAIN_ONLY
+P02	static_spatial_seal	CANONIZED_SCOPED	ONE_STATIC_PARITY_CONDITION	static seal sector	delta_phi=0 fixes one reciprocal ratio tangent	normal_phi_derivative_free	time_on angular connection open	NONE	NONE	PARTIAL_ONE_SCALAR_WIRE
+P03	Reciprocity	FOUNDING	KINEMATIC_RATIO_STRUCTURE	does not select surface	two_channel determinant_one ratio only	NONE	complete lift open	NONE	NONE	PARTIAL_RATIO_ONLY
+P04	CSN	FOUNDING_PRE_SCALE	EQUIVALENCE_NOT_SECTION	does not select surface	common_scale direction remains gauge/null in L01	not fixed	not fixed	NONE	forbids primitive local scale; selects no boundary functional	NULL_DIRECTION_NOT_POLARIZATION
+P05	co_presence	WORKING	WHOLE_SOLUTION_SEMANTICS	NONE	NONE	NONE	NONE	NONE	NONE	NO_OFFSHELL_JOIN
+P06	Xmax_reciprocity	CONDITIONAL_WORKING	DIMENSIONLESS_COMPATIBILITY	global Xmax/local seal join open	NONE_COMPLETE	NONE	NONE	NONE	value reference normalization open	NO_LOCAL_BOUNDARY_SELECTOR
+P07	bootstrap	WORKING_PRIMARY_ON_SHELL	COMPLETED_SOLUTION_ADMISSIBILITY	complete global domain required first	NONE	NONE	NONE	NONE	varied functional and representative map absent	NO_OFFSHELL_JOIN
+P08	complete_seal_involution	CURRENT_ADJUDICATED_EVIDENCE	MULTIPLE_COMPLETIONS	normal action partial	inequivalent angular and time lifts survive	not fixed	not fixed	NONE	NONE	DOES_NOT_SELECT_POLARIZATION
+P09	surface_lineage	CURRENT_ADJUDICATED_EVIDENCE	MULTIPLE_DISTINCT_SURFACES	non_null fold differs from null WRL horizon; terminality open	branch dependent	branch dependent	open	open	open	DOES_NOT_SELECT_BOUNDARY_TYPE
+P10	P05_conditional_actions	CONDITIONAL_L01_L02	RAW_CURRENTS_ONLY	all types retained	exposes variation slots	exposes variation slots	ungoverned on C02-C07	required/open	not selected	OPERATOR_NOT_SELECTOR

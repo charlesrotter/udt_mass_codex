@@ -1,0 +1,19 @@
+id	object	status	scope_or_reason
+S01	finite_cell_boundary_ontology	CANONIZED_DOMAIN_ONLY	requires an edge or fold but not its full off-shell data
+S02	static_seal_phi_and_variation	DERIVED_SCOPED_ONE_SCALAR_WIRE	phi=0 and parity-preserving delta_phi=0
+S03	static_seal_normal_phi_derivative	FREE_BY_CANON	cannot infer complete K=0 or clamped jet
+S04	Reciprocity_boundary_role	PARTIAL_RATIO_ONLY	complete coframe lift and boundary functional absent
+S05	CSN_boundary_role	NULL_DIRECTION_NOT_SECTION	pre-scale common Weyl direction survives; post-scale representative remains input
+S06	complete_seal_involution	MULTIPLE_COMPLETIONS_INHERITED	inequivalent angular/time-on lifts survive
+S07	boundary_causal_type_and_ontology	MULTIPLE_OPEN_BRANCHES	fold null horizon moving and quotient readings not unified or selected
+S08	L01_raw_boundary_phase_space	DERIVED_CONDITIONAL	h K momenta and corner exposed on non_null diagnostic
+S09	L02_raw_boundary_current	DERIVED_CONDITIONAL	GHY-like completion remains comparison only
+S10	Euler_beta_boundary_channel	FREE_UNSELECTED	same regular 4D bulk equations admit different beta boundary data
+S11	boundary_functional_uniqueness	REFUTED_FROM_CURRENT_INPUTS	rescaling Euler divergence improvement and Legendre ambiguities survive
+S12	L01_outcome	PARTIAL_NATIVE_DATA_MULTIPLE_COMPLETIONS	one seal ratio wire; multiple polarizations and functionals
+S13	L02_outcome	PARTIAL_NATIVE_DATA_MULTIPLE_COMPLETIONS	same seal wire conditionally maps to metric; multiple polarizations and functionals
+S14	L03_outcome	EXCLUDED_NO_BULK_OPERATOR	no bridge action to vary
+S15	all_21_field_pairs	ACCOUNTED_ZERO_P06_READY	boundary global and extra-field gates remain
+S16	normalized_charge_mass	OPEN_NOT_DERIVED	generator reference orientation integrability coefficient and source absent
+S17	P06_entry	CLOSED	P05 complete-operator maximum not earned
+S18	maximum_conclusion	EXISTING_UDT_BOUNDARY_SELECTOR_STATUS_CLASSIFIED_FOR_P05_LANES	selector status classified; no boundary action selected
