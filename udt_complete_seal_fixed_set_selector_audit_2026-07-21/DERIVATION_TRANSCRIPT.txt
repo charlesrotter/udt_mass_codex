@@ -1,0 +1,290 @@
+Script started on 2026-07-21 08:49:50-04:00 [<not executed on terminal>]
+{
+  "authority": {
+    "canonized": "phi is odd at the seal; phi=0 there; normal derivative is free",
+    "not_supplied": "pointwise full-metric fixation, complete angular/time-on action, induced metric parity, normal jet, orientation law, or angular quotient",
+    "ordinary_mirror_warning": "a pointwise metric mirror would force even tangential first jets and is not derivable from the current scalar fold wording"
+  },
+  "check_count": 117,
+  "checks": {
+    "AXIS_REFLECTION_MU4_Lorentz_base": "PASS",
+    "AXIS_REFLECTION_MU4_fixed_multiplicity_unchanged": "PASS",
+    "AXIS_REFLECTION_MU4_full_isometry": "PASS",
+    "AXIS_REFLECTION_MU4_orientation_unchanged": "PASS",
+    "AXIS_REFLECTION_MU4_positive_screen_determinant": "PASS",
+    "AXIS_REFLECTION_MU4_positive_screen_first_minor": "PASS",
+    "AXIS_REFLECTION_MU9_Lorentz_base": "PASS",
+    "AXIS_REFLECTION_MU9_fixed_multiplicity_unchanged": "PASS",
+    "AXIS_REFLECTION_MU9_full_isometry": "PASS",
+    "AXIS_REFLECTION_MU9_orientation_unchanged": "PASS",
+    "AXIS_REFLECTION_MU9_positive_screen_determinant": "PASS",
+    "AXIS_REFLECTION_MU9_positive_screen_first_minor": "PASS",
+    "AXIS_REFLECTION_anti_count": "PASS",
+    "AXIS_REFLECTION_canonical_isometry": "PASS",
+    "AXIS_REFLECTION_determinant": "PASS",
+    "AXIS_REFLECTION_determinant_from_anti": "PASS",
+    "AXIS_REFLECTION_dimension_partition": "PASS",
+    "AXIS_REFLECTION_even_metric_jet_dimension": "PASS",
+    "AXIS_REFLECTION_fixed_count": "PASS",
+    "AXIS_REFLECTION_involution": "PASS",
+    "AXIS_REFLECTION_odd_metric_jet_dimension": "PASS",
+    "AXIS_REFLECTION_radial_normal_reversed": "PASS",
+    "AXIS_REFLECTION_spatial_anti_count": "PASS",
+    "AXIS_REFLECTION_spatial_fixed_count": "PASS",
+    "AXIS_REFLECTION_symmetric_jet_complete": "PASS",
+    "AXIS_REFLECTION_time_orientation": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU4_Lorentz_base": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU4_fixed_multiplicity_unchanged": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU4_full_isometry": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU4_orientation_unchanged": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU4_positive_screen_determinant": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU4_positive_screen_first_minor": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU9_Lorentz_base": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU9_fixed_multiplicity_unchanged": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU9_full_isometry": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU9_orientation_unchanged": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU9_positive_screen_determinant": "PASS",
+    "HOPF_EXCHANGE_LOCAL_MU9_positive_screen_first_minor": "PASS",
+    "HOPF_EXCHANGE_LOCAL_anti_count": "PASS",
+    "HOPF_EXCHANGE_LOCAL_canonical_isometry": "PASS",
+    "HOPF_EXCHANGE_LOCAL_determinant": "PASS",
+    "HOPF_EXCHANGE_LOCAL_determinant_from_anti": "PASS",
+    "HOPF_EXCHANGE_LOCAL_dimension_partition": "PASS",
+    "HOPF_EXCHANGE_LOCAL_even_metric_jet_dimension": "PASS",
+    "HOPF_EXCHANGE_LOCAL_fixed_count": "PASS",
+    "HOPF_EXCHANGE_LOCAL_involution": "PASS",
+    "HOPF_EXCHANGE_LOCAL_odd_metric_jet_dimension": "PASS",
+    "HOPF_EXCHANGE_LOCAL_radial_normal_reversed": "PASS",
+    "HOPF_EXCHANGE_LOCAL_spatial_anti_count": "PASS",
+    "HOPF_EXCHANGE_LOCAL_spatial_fixed_count": "PASS",
+    "HOPF_EXCHANGE_LOCAL_symmetric_jet_complete": "PASS",
+    "HOPF_EXCHANGE_LOCAL_time_orientation": "PASS",
+    "MINUS_IDENTITY_MU4_Lorentz_base": "PASS",
+    "MINUS_IDENTITY_MU4_fixed_multiplicity_unchanged": "PASS",
+    "MINUS_IDENTITY_MU4_full_isometry": "PASS",
+    "MINUS_IDENTITY_MU4_orientation_unchanged": "PASS",
+    "MINUS_IDENTITY_MU4_positive_screen_determinant": "PASS",
+    "MINUS_IDENTITY_MU4_positive_screen_first_minor": "PASS",
+    "MINUS_IDENTITY_MU9_Lorentz_base": "PASS",
+    "MINUS_IDENTITY_MU9_fixed_multiplicity_unchanged": "PASS",
+    "MINUS_IDENTITY_MU9_full_isometry": "PASS",
+    "MINUS_IDENTITY_MU9_orientation_unchanged": "PASS",
+    "MINUS_IDENTITY_MU9_positive_screen_determinant": "PASS",
+    "MINUS_IDENTITY_MU9_positive_screen_first_minor": "PASS",
+    "MINUS_IDENTITY_anti_count": "PASS",
+    "MINUS_IDENTITY_canonical_isometry": "PASS",
+    "MINUS_IDENTITY_determinant": "PASS",
+    "MINUS_IDENTITY_determinant_from_anti": "PASS",
+    "MINUS_IDENTITY_dimension_partition": "PASS",
+    "MINUS_IDENTITY_even_metric_jet_dimension": "PASS",
+    "MINUS_IDENTITY_fixed_count": "PASS",
+    "MINUS_IDENTITY_involution": "PASS",
+    "MINUS_IDENTITY_odd_metric_jet_dimension": "PASS",
+    "MINUS_IDENTITY_radial_normal_reversed": "PASS",
+    "MINUS_IDENTITY_spatial_anti_count": "PASS",
+    "MINUS_IDENTITY_spatial_fixed_count": "PASS",
+    "MINUS_IDENTITY_symmetric_jet_complete": "PASS",
+    "MINUS_IDENTITY_time_orientation": "PASS",
+    "PLUS_IDENTITY_MU4_Lorentz_base": "PASS",
+    "PLUS_IDENTITY_MU4_fixed_multiplicity_unchanged": "PASS",
+    "PLUS_IDENTITY_MU4_full_isometry": "PASS",
+    "PLUS_IDENTITY_MU4_orientation_unchanged": "PASS",
+    "PLUS_IDENTITY_MU4_positive_screen_determinant": "PASS",
+    "PLUS_IDENTITY_MU4_positive_screen_first_minor": "PASS",
+    "PLUS_IDENTITY_MU9_Lorentz_base": "PASS",
+    "PLUS_IDENTITY_MU9_fixed_multiplicity_unchanged": "PASS",
+    "PLUS_IDENTITY_MU9_full_isometry": "PASS",
+    "PLUS_IDENTITY_MU9_orientation_unchanged": "PASS",
+    "PLUS_IDENTITY_MU9_positive_screen_determinant": "PASS",
+    "PLUS_IDENTITY_MU9_positive_screen_first_minor": "PASS",
+    "PLUS_IDENTITY_anti_count": "PASS",
+    "PLUS_IDENTITY_canonical_isometry": "PASS",
+    "PLUS_IDENTITY_determinant": "PASS",
+    "PLUS_IDENTITY_determinant_from_anti": "PASS",
+    "PLUS_IDENTITY_dimension_partition": "PASS",
+    "PLUS_IDENTITY_even_metric_jet_dimension": "PASS",
+    "PLUS_IDENTITY_fixed_count": "PASS",
+    "PLUS_IDENTITY_involution": "PASS",
+    "PLUS_IDENTITY_odd_metric_jet_dimension": "PASS",
+    "PLUS_IDENTITY_radial_normal_reversed": "PASS",
+    "PLUS_IDENTITY_spatial_anti_count": "PASS",
+    "PLUS_IDENTITY_spatial_fixed_count": "PASS",
+    "PLUS_IDENTITY_symmetric_jet_complete": "PASS",
+    "PLUS_IDENTITY_time_orientation": "PASS",
+    "axis_and_Hopf_exchange_are_orthogonally_conjugate": "PASS",
+    "free_nonzero_phi_slope_not_ordinary_even_tangential_metric": "PASS",
+    "ordinary_pointwise_mirror_forces_tangential_first_jet_zero": "PASS",
+    "orientation_preserving_leaves_two_reflection_lifts": "PASS",
+    "orientation_reversing_isometry_determinant": "PASS",
+    "orientation_reversing_isometry_exists_on_orientable_metric": "PASS",
+    "orientation_reversing_leaves_two_identity_lifts": "PASS",
+    "pointwise_codimension_one_selects_plus_identity": "PASS",
+    "reciprocal_clock_normal_derivative": "PASS",
+    "reciprocal_clock_value_at_seal": "PASS",
+    "reflection_lifts_not_identical_in_registered_basis": "PASS",
+    "single_reversed_spatial_normal_selects_plus_identity": "PASS",
+    "time_orientation_does_not_select": "PASS"
+  },
+  "conditional_rulings": {
+    "current_static_phi_odd_fold": "NO_COMPLETE_LIFT_SELECTION",
+    "orientation_preserving_involution": "AXIS_REFLECTION_OR_HOPF_EXCHANGE_LOCAL",
+    "orientation_reversing_involution": "PLUS_IDENTITY_OR_MINUS_IDENTITY",
+    "pointwise_codimension_one_fixed_hypersurface": "PLUS_IDENTITY_ONLY",
+    "time_orientation_preserving": "ALL_FOUR"
+  },
+  "lift_results": {
+    "AXIS_REFLECTION": {
+      "admits_seal_local_second_pair": true,
+      "anti": 2,
+      "det": 1,
+      "fixed": 2,
+      "fixed_set_codimension_if_pointwise_isometry": 2,
+      "radial_normal_reversed": true,
+      "spatial_anti": 2,
+      "spatial_fixed": 1,
+      "time_orientation_preserved": true
+    },
+    "HOPF_EXCHANGE_LOCAL": {
+      "admits_seal_local_second_pair": true,
+      "anti": 2,
+      "det": 1,
+      "fixed": 2,
+      "fixed_set_codimension_if_pointwise_isometry": 2,
+      "radial_normal_reversed": true,
+      "spatial_anti": 2,
+      "spatial_fixed": 1,
+      "time_orientation_preserved": true
+    },
+    "MINUS_IDENTITY": {
+      "admits_seal_local_second_pair": false,
+      "anti": 3,
+      "det": -1,
+      "fixed": 1,
+      "fixed_set_codimension_if_pointwise_isometry": 3,
+      "radial_normal_reversed": true,
+      "spatial_anti": 3,
+      "spatial_fixed": 0,
+      "time_orientation_preserved": true
+    },
+    "PLUS_IDENTITY": {
+      "admits_seal_local_second_pair": false,
+      "anti": 1,
+      "det": -1,
+      "fixed": 3,
+      "fixed_set_codimension_if_pointwise_isometry": 1,
+      "radial_normal_reversed": true,
+      "spatial_anti": 1,
+      "spatial_fixed": 2,
+      "time_orientation_preserved": true
+    }
+  },
+  "maximum_conclusion": "UDT_COMPLETE_SEAL_FIXED_SET_SELECTOR_STATUS_CHARACTERIZED",
+  "metric_jet_parity": {
+    "AXIS_REFLECTION": {
+      "even_symmetric_dimension": 6,
+      "odd_symmetric_dimension": 4
+    },
+    "HOPF_EXCHANGE_LOCAL": {
+      "even_symmetric_dimension": 6,
+      "odd_symmetric_dimension": 4
+    },
+    "MINUS_IDENTITY": {
+      "even_symmetric_dimension": 7,
+      "odd_symmetric_dimension": 3
+    },
+    "PLUS_IDENTITY": {
+      "even_symmetric_dimension": 7,
+      "odd_symmetric_dimension": 3
+    }
+  },
+  "nonzero_cross_witnesses": {
+    "AXIS_REFLECTION_MU4": {
+      "anti": 2,
+      "determinant": "-7599/2500",
+      "fixed": 2,
+      "orientation": 1,
+      "status": "EXACT_NONZERO_CROSS_LORENTZ_WITNESS"
+    },
+    "AXIS_REFLECTION_MU9": {
+      "anti": 2,
+      "determinant": "-20099/2500",
+      "fixed": 2,
+      "orientation": 1,
+      "status": "EXACT_NONZERO_CROSS_LORENTZ_WITNESS"
+    },
+    "HOPF_EXCHANGE_LOCAL_MU4": {
+      "anti": 2,
+      "determinant": "-78/25",
+      "fixed": 2,
+      "orientation": 1,
+      "status": "EXACT_NONZERO_CROSS_LORENTZ_WITNESS"
+    },
+    "HOPF_EXCHANGE_LOCAL_MU9": {
+      "anti": 2,
+      "determinant": "-204/25",
+      "fixed": 2,
+      "orientation": 1,
+      "status": "EXACT_NONZERO_CROSS_LORENTZ_WITNESS"
+    },
+    "MINUS_IDENTITY_MU4": {
+      "anti": 3,
+      "determinant": "-74/25",
+      "fixed": 1,
+      "orientation": -1,
+      "status": "EXACT_NONZERO_CROSS_LORENTZ_WITNESS"
+    },
+    "MINUS_IDENTITY_MU9": {
+      "anti": 3,
+      "determinant": "-198/25",
+      "fixed": 1,
+      "orientation": -1,
+      "status": "EXACT_NONZERO_CROSS_LORENTZ_WITNESS"
+    },
+    "PLUS_IDENTITY_MU4": {
+      "anti": 1,
+      "determinant": "-78/25",
+      "fixed": 3,
+      "orientation": -1,
+      "status": "EXACT_NONZERO_CROSS_LORENTZ_WITNESS"
+    },
+    "PLUS_IDENTITY_MU9": {
+      "anti": 1,
+      "determinant": "-204/25",
+      "fixed": 3,
+      "orientation": -1,
+      "status": "EXACT_NONZERO_CROSS_LORENTZ_WITNESS"
+    }
+  },
+  "outcomes": [
+    "COMPLETE_LIFT_REMAINS_OPEN_BECAUSE_SEAL_POINTWISE_ACTION_IS_UNDERDETERMINED",
+    "PLUS_IDENTITY_SELECTED_ONLY_IF_POINTWISE_CODIMENSION_ONE_METRIC_MIRROR_IS_ADDED",
+    "CURRENT_ODD_PHI_FOLD_DOES_NOT_SUPPLY_ORDINARY_POINTWISE_METRIC_MIRROR",
+    "ORIENTATION_PRESERVATION_IS_NOT_DERIVED_AND_WOULD_LEAVE_TWO_REFLECTION_LIFTS",
+    "TIME_ORIENTATION_PRESERVES_ALL_FOUR_LIFTS",
+    "AXIS_AND_HOPF_REFLECTIONS_ARE_LOCALLY_CONJUGATE",
+    "NONZERO_CROSS_COUPLING_DOES_NOT_CHANGE_FIXED_SET_CLASSIFICATION",
+    "REFLECTION_SEAL_TWO_PAIR_ROUTE_REMAINS_CONDITIONAL_ON_EXTRA_ANGULAR_IDENTIFICATION"
+  ],
+  "schema": "udt-complete-seal-fixed-set-selector-derivation-1.0",
+  "scope": {
+    "complete": "four registered constant angular lifts, their fixed-set/orientation classes, symmetric first-jet parity, and eight nonzero-cross witnesses",
+    "not_covered": [
+      "field-dependent angular seal actions",
+      "global quotient periods caps and topology",
+      "bulk transport holonomy or dynamics",
+      "boundary action polarization and charge",
+      "carrier source mass scale and canonization"
+    ]
+  },
+  "smallest_missing_join": {
+    "question": "Is the phi-odd finite-cell fold accompanied by a separately derived non-pointwise angular identification, and if so which one?",
+    "status": "OPEN"
+  },
+  "two_pair_consequence": {
+    "identity_lifts": "forbid a nonzero anticommuting angular pair",
+    "reflection_lifts": "admit the parent seal-local complementary pair",
+    "selection": "OPEN; the desired second pair cannot be used to select its own lift"
+  }
+}
+
+Script done on 2026-07-21 08:49:51-04:00 [COMMAND_EXIT_CODE="0"]

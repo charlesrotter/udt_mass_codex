@@ -1,0 +1,5 @@
+lift	angular_action	full_determinant	fixed_dimension	anti_fixed_dimension	spatial_fixed_dimension	spatial_anti_fixed_dimension	pointwise_fixed_set_if_isometry	seal_local_second_pair
+PLUS_IDENTITY	plus identity	-1	3	1	2	1	codimension one hypersurface	NO
+MINUS_IDENTITY	minus identity	-1	1	3	0	3	codimension three time-axis-type set	NO
+AXIS_REFLECTION	diag plus one minus one	+1	2	2	1	2	codimension two set	YES_CONDITIONAL
+HOPF_EXCHANGE_LOCAL	exchange reflection	+1	2	2	1	2	codimension two set	YES_CONDITIONAL

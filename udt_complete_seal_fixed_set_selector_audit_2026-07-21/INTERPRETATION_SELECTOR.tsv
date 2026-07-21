@@ -1,0 +1,10 @@
+interpretation_id	extra_premise	eligible_lifts	exact_reason	current_authority	result
+I01	pointwise fixed codimension-one full metric hypersurface	PLUS_IDENTITY	fixed dimension must be three and only the radial normal is reversed	NOT_SUPPLIED_AND_TOO_STRONG_FOR_CURRENT_FREE_PHI_SLOPE	CONDITIONAL_SELECTION_ONLY
+I02	pointwise fixed codimension-two involution	AXIS_REFLECTION;HOPF_EXCHANGE_LOCAL	fixed and anti-fixed dimensions are two/two	NOT_SUPPLIED	CLASS_SELECTION_ONLY
+I03	pointwise fixed codimension-three involution	MINUS_IDENTITY	fixed dimension one and all spatial directions reverse	NOT_SUPPLIED	CONDITIONAL_SELECTION_ONLY
+I04	four-dimensional orientation-preserving seal	AXIS_REFLECTION;HOPF_EXCHANGE_LOCAL	full determinant is plus one	NO_ORIENTATION_PRESERVING_SYMMETRY_LAW	CLASS_SELECTION_ONLY
+I05	four-dimensional orientation-reversing seal	PLUS_IDENTITY;MINUS_IDENTITY	full determinant is minus one	ORIENTABILITY_DOES_NOT_REQUIRE_EVERY_ISOMETRY_TO_PRESERVE_ORIENTATION	CLASS_SELECTION_ONLY
+I06	time-orientation preservation	ALL_FOUR	the derived timelike base line is fixed in every lift	CONDITIONAL_BASE_ONLY	NO_SELECTION
+I07	only one reversed spatial normal	PLUS_IDENTITY	spatial anti-fixed dimension is one	EQUIVALENT_TO_ADDING_ORDINARY_POINTWISE_MIRROR_MEANING	CONDITIONAL_SELECTION_ONLY
+I08	setwise invariant phi equals zero locus with unresolved angular action	ALL_FOUR	scalar parity does not specify pointwise action on angular coordinates	CURRENT_AUTHORITY	NO_SELECTION
+I09	seal must admit a second reciprocal pair	AXIS_REFLECTION;HOPF_EXCHANGE_LOCAL	the identity lifts have zero angular anticommutant	CIRCULAR_IF_USED_TO_DERIVE_FULL_TWO_PAIR	FORBIDDEN_SELECTOR

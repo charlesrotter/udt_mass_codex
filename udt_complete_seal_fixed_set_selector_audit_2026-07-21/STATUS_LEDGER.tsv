@@ -1,0 +1,19 @@
+claim_id	claim	status	premise_or_limit
+F01	Current finite-cell authority fixes phi odd parity phi equals zero at the seal and a free normal derivative	PINNED_BY_THEORY	Exact C0/C1 static phi sector only
+F02	Current finite-cell authority supplies a complete pointwise metric involution	NOT_DERIVED	Angular time-on induced-metric and normal-jet actions are explicitly open
+F03	The word mirror makes the seal an ordinary pointwise fixed hypersurface	REFUTED_AS_CURRENT_INFERENCE	Prior boundary audit preserves nonzero phi slope and rejects this shortcut
+F04	A supplied pointwise codimension-one metric mirror selects the plus-identity angular lift	DERIVED_CONDITIONAL	It is the unique 3/1 lift
+F05	The plus-identity lift admits the seal-local second reciprocal pair	REFUTED_IN_CLASS	Its angular anticommutant is zero
+F06	A supplied orientation-preserving seal selects the reflection conjugacy class	DERIVED_CONDITIONAL	Both axis and Hopf exchange remain
+F07	UDT requires the seal involution itself to preserve four-dimensional orientation	NOT_DERIVED	An orientable metric may have orientation-reversing isometries
+F08	Time-orientation preservation selects one complete lift	REFUTED_IN_REGISTERED_CLASS	All four fix the conditional timelike base line
+F09	Axis reflection and local Hopf exchange are distinct local fixed-set classes	REFUTED_LOCALLY	They are orthogonally conjugate reflections
+F10	Current local data distinguish axis reflection from Hopf exchange globally	NOT_DERIVED	Requires periods integral basis cover or other angular structure
+F11	Nonzero base-angular cross coupling changes lift orientation or fixed multiplicity	REFUTED_IN_EIGHT_WITNESSES	All exact witnesses retain their registered class
+F12	The scalar odd fold selects a complete lift	NOT_DERIVED	Setwise scalar invariance permits all four angular actions
+F13	Demanding a second pair can be used to select a reflection lift	FORBIDDEN_CIRCULARITY	The lift is the missing premise for that second pair
+F14	The boundary-seeded full two-pair route is derived	NOT_DERIVED	It requires a separately derived non-pointwise angular identification
+F15	The direct transverse-identity lift is unconditionally selected	NOT_DERIVED	It follows only from the stronger ordinary pointwise-mirror premise or a minimal-extension choice
+F16	The complete lift remains open under current UDT authority	OPEN_SHARPENED_GATE	Exact fixed-set interpretation of the scalar fold is underdetermined
+F17	A complete action boundary polarization or charge follows	NOT_DERIVED	No variation or boundary functional entered
+F18	Hopf topology or carrier stability selects the lift	NOT_DERIVED_AND_EXCLUDED	Downstream conditional diagnostic cannot select its premise

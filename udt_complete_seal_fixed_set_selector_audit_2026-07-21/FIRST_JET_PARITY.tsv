@@ -1,0 +1,5 @@
+lift	fixed_dimension	anti_fixed_dimension	even_symmetric_jet_dimension	odd_symmetric_jet_dimension	pointwise_metric_mirror_consequence
+PLUS_IDENTITY	3	1	7	3	all fixed-fixed tangential normal derivatives vanish; only fixed/normal mixed odd jets survive
+MINUS_IDENTITY	1	3	7	3	only time/anti-fixed mixed odd jets survive
+AXIS_REFLECTION	2	2	6	4	only fixed/anti-fixed mixed odd jets survive
+HOPF_EXCHANGE_LOCAL	2	2	6	4	only fixed/anti-fixed mixed odd jets survive in the conjugate basis
