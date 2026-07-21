@@ -1,0 +1,16 @@
+id	object	kind	status	why_not_removed
+U01	cover_chart_count_and_nerve	DISCRETE_COMBINATORIAL	UNCOUNTED	no cover supplied
+U02	overlap_transition_labels	DISCRETE_PLUS_CONTINUOUS	UNCOUNTED	group known but assignment absent
+U03	global_Z2_cocycle_class	DISCRETE_TOPOLOGICAL	UNCOUNTED	local parity is not global class
+U04	transition_moduli_and_sign_classes	CONTINUOUS_AND_DISCRETE	UNCOUNTED	conjugacy only partly identifies them
+U05	mixed_readout_mu	CONTINUOUS_DIMENSIONLESS	UNCOUNTED	mu=4 and mu=9 survive
+U06	full_4x4_soldering	FUNCTIONAL	UNCOUNTED	constant 2x2 audit is bounded
+U07	signed_phi_global_patching_and_zero_set	FUNCTIONAL_TOPOLOGICAL	UNCOUNTED	local signed field only
+U08	angular_lift_periods_and_integral_basis	DISCRETE_PLUS_CONTINUOUS	UNCOUNTED	local lifts unselected
+U09	caps_quotients_topology_and_no_cap	TOPOLOGICAL	UNCOUNTED	multiple witnesses and remainder survive
+U10	boundary_polarization_and_corner_data	FUNCTIONAL	UNCOUNTED	scalar seal wire is incomplete
+U11	normal_jets_and_degeneracy_loci	FUNCTIONAL_STRATIFIED	UNCOUNTED	normal phi jet free and other jets open
+U12	connection_torsion_and_holonomy	FUNCTIONAL_GEOMETRIC	UNCOUNTED	C07 remains independent branch
+U13	global_physical_representative_and_scale	GLOBAL_CONTINUOUS	UNCOUNTED	CSN does not choose a section
+U14	Xmax	GLOBAL_OUTPUT	NOT_EVALUABLE	functional and complete cell absent
+U15	mass_volume_density_bootstrap	MATTER_BEARING_GLOBAL_OUTPUT	NOT_EVALUABLE	native matter source and complete solution absent

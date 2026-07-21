@@ -1,0 +1,12 @@
+P03G_GLOBAL_KINEMATIC_ASSEMBLY=PASS
+checks=25
+axes=12/12
+local_branches_retained=7/7
+global_branches_selected=0
+globally_proved_local_branches=0
+globally_excluded_local_branches=0
+reciprocal_group=Z2_GRADED_G_F
+odd_reversal_identity_cocycles=EXCLUDED
+cover_global_cocycle_seal_lift_topology=OPEN
+dynamics=NOT_LOADED
+maximum_conclusion=CURRENT_GLOBAL_KINEMATIC_ASSEMBLY_CONDITIONS_AND_OPEN_BRANCHES_CHARACTERIZED

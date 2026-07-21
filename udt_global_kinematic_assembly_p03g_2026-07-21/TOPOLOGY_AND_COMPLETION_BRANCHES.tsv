@@ -1,0 +1,13 @@
+id	branch	kind	witness_parameter	status	selected	limit
+T01	finite_cell_with_uncapped_boundary	NO_CAP_OR_BOUNDARY_RETAINED	NA	OPEN	NO	finite ontology does not require a particular cap
+T02	primitive_toric_cap_p0	TORIC_WITNESS	p=0	CONDITIONAL_SURVIVOR	NO	cover and periods supplied only in witness
+T03	primitive_toric_cap_p1	S3_WITNESS	p=1	CONDITIONAL_SURVIVOR	NO	not selected without globally diagonal opposing-eigen-circle premises
+T04	primitive_toric_cap_p3	LENS_WITNESS	p=3	CONDITIONAL_SURVIVOR	NO	inequivalent to p1 and not excluded
+T05	primitive_toric_cap_p5	LENS_WITNESS	p=5	CONDITIONAL_SURVIVOR	NO	inequivalent to p1/p3 and not excluded
+T06	general_toric_or_lens_family	UNBOUNDED_PARAMETER_FAMILY	general_p	OPEN	NO	bounded examples do not exhaust family
+T07	other_non_toric_or_unenumerated_topology	OTHER_UNENUMERATED	NA	OPEN_REQUIRED_REMAINDER	NO	prevents false exhaustive claim
+T08	regular_non_degenerate_completion	REGULAR	NA	OPEN_GLOBAL_EXISTENCE	NO	local regularity is not global existence
+T09	degenerate_or_type_changing_completion	DEGENERATE_CLOSURE	NA	OPEN_PRESERVED	NO	inverse-metric diagnostics do not classify this closure
+T10	singular_or_stratified_completion	OTHER_UNENUMERATED	NA	OPEN_REQUIRED_REMAINDER	NO	admissibility rule absent
+T11	global_phi_scalar	TRIVIAL_SIGN_BUNDLE	NA	OPEN	NO	global existence and zero-set incidence unproved
+T12	phi_with_sign_holonomy_or_local_sections	NONTRIVIAL_SIGN_PATCHING	NA	OPEN	NO	must be reconciled with physical phi semantics

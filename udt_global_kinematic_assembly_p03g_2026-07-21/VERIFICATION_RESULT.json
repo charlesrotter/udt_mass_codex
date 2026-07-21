@@ -1,0 +1,51 @@
+{
+  "catch_proof_count": 24,
+  "catch_proofs": {
+    "CSN_selects_scale": "PASS",
+    "P04_launch": "PASS",
+    "Xmax_promoted": "PASS",
+    "action_import": "PASS",
+    "boundary_polarization_selected": "PASS",
+    "degeneracy_deleted": "PASS",
+    "duplicate_axis": "PASS",
+    "global_Z2_class_selected": "PASS",
+    "global_branch_promotion": "PASS",
+    "global_phi_promoted": "PASS",
+    "group_creates_cover": "PASS",
+    "local_group_promoted_global": "PASS",
+    "maximum_conclusion": "PASS",
+    "missing_axis": "PASS",
+    "missing_local_branch": "PASS",
+    "mixed_modulus_collapsed": "PASS",
+    "odd_parity_allowed": "PASS",
+    "parent_hash_drift": "PASS",
+    "scalar_seal_promoted": "PASS",
+    "schema": "PASS",
+    "sign_holonomy_deleted": "PASS",
+    "table_hash_drift": "PASS",
+    "topology_false_exhaustiveness": "PASS",
+    "topology_selected": "PASS"
+  },
+  "check_count": 8,
+  "checks": {
+    "deterministic_replay_and_full_contract": "PASS",
+    "independent_fraction_group_algebra": "PASS",
+    "independent_free_seal_normal_jet": "PASS",
+    "independent_local_branch_reconciliation": "PASS",
+    "independent_tangent_combinatorics": "PASS",
+    "independent_zero_selection_reconciliation": "PASS",
+    "main_exact_checks_reconciled": "PASS",
+    "parent_manifest_replay": "PASS"
+  },
+  "main_result_sha256": "8e57a958b7110866c34a9d05888f105b97fe7729f37ed3ecf35b8721ceb3ed9e",
+  "main_transcript_sha256": "d3458d83abe76d4dded608d38f6811a8dd51613f0975efca8997fe5864ff4ed8",
+  "schema": "udt-p03g-global-kinematic-assembly-verification-1.0",
+  "scope": {
+    "CPU_only": true,
+    "GPU_used": false,
+    "generator_imported": false,
+    "independent_implementation": true,
+    "stdlib_fraction_algebra": true
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,13 @@
+id	branch	exact_condition	assembly_status	selected	open_data
+C01	all_preserving_G	G_a G_d=G_ad	SURVIVES_CONDITIONALLY	NO	cover and overlap values
+C02	two_inverting_maps	F_b F_c=G_(b/c)	SURVIVES_CONDITIONALLY	NO	actual overlap labels
+C03	mixed_preserving_inverting	G_a F_b=F_(ab); F_b G_a=F_(b/a)	SURVIVES_CONDITIONALLY	NO	actual overlap labels
+C04	three_inverting_triple_overlap	F_b F_c F_d=F_(bd/c)!=I	EXCLUDED_BY_EXACT_COCYCLE	NO	none within declared constant two-channel class
+C05	two_inverting_one_preserving_triple	F_b F_c G_(c/b)=I	EXACT_LOCAL_COCYCLE_WITNESS	NO	global cover and bundle
+C06	closed_identity_product_odd_reversal_parity	Z2_sum=1 cannot equal identity component	EXCLUDED_BY_EXACT_COCYCLE	NO	none within declared group
+C07	closed_identity_product_even_reversal_parity	Z2_sum=0 is necessary	NECESSARY_NOT_SUFFICIENT	NO	continuous product cover and global class
+C08	global_Z2_class	transition grading is local cocycle data	OPEN_GLOBAL_CLASS	NO	cover gauge and cohomology class
+C09	continuous_transition_modulus	G_a F_b G_a^-1=F_(a^2 b)	IDENTIFIED_UP_TO_CONJUGACY_ONLY	NO	sign class physical readout and field-dependent extension
+C10	mixed_readout_modulus	mu=B^2/(A^2 b^2)>1 is CSN and diagonal-gauge invariant	MULTIPLE_VALUES_SURVIVE_CONDITIONALLY	NO	physical soldering and observer slicing
+C11	supplied_corner_incidence	commuting F_b,F_c gives c=+/-b; angular axes same or perpendicular	REDUCES_AFTER_INCIDENCE_SUPPLIED	NO	number order angle and incidence of corners
+C12	field_dependent_full_4x4_transition	not classified by constant two-channel audit	OPEN_UNENUMERATED	NO	complete coframe transition law

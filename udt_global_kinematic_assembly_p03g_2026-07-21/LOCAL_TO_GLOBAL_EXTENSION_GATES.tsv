@@ -1,0 +1,8 @@
+id	local_branch	branch_name	required_closure	currently_derived	current_ruling	missing_data
+G01	C01	CONFORMAL_METRIC_ONLY	metric atlas; CSN factors; topology; boundary	NO	LOCAL_BRANCH_RETAINED_GLOBAL_EXISTENCE_UNEVALUATED	global conformal metric and representative existence
+G02	C02	CONFORMAL_METRIC_PLUS_INDEPENDENT_PHI	C01 data plus phi patching	NO	LOCAL_BRANCH_RETAINED_GLOBAL_EXISTENCE_UNEVALUATED	global relation between phi and metric
+G03	C03	COFRAME_PLUS_RECIPROCAL_CHARACTER	full coframe soldering; G/F cocycle; angular lifts	NO	LOCAL_BRANCH_RETAINED_GLOBAL_EXISTENCE_UNEVALUATED	global coframe bundle and section
+G04	C04	METRIC_PLUS_SUPPLIED_PROJECTOR	global rank-two subbundle and transition preservation	NO	LOCAL_BRANCH_RETAINED_GLOBAL_EXISTENCE_UNEVALUATED	projector holonomy and seal action
+G05	C05	METRIC_PLUS_RECIPROCAL_CONSTRAINT	globally defined constraint and boundary compatibility	NO	LOCAL_BRANCH_RETAINED_GLOBAL_EXISTENCE_UNEVALUATED	off-shell enforcement belongs to unselected dynamics
+G06	C06	TWO_STAGE_PRE_POST_SCALE_BRIDGE	pre-scale object; global section; post-scale map	NO	LOCAL_BRANCH_RETAINED_GLOBAL_EXISTENCE_UNEVALUATED	bridge and scale selection
+G07	C07	INDEPENDENT_CONNECTION_OR_TORSION	connection bundle; transition law; torsion and boundary data	NO	LOCAL_BRANCH_RETAINED_GLOBAL_EXISTENCE_UNEVALUATED	global connection dynamics and relation to metric

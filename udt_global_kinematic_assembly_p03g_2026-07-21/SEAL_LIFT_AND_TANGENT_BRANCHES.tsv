@@ -1,0 +1,8 @@
+id	object	full_determinant	coframe_fixed_dim	coframe_antifixed_dim	metric_even_dim	metric_odd_dim	compatibility	status	limit
+L01	angular_plus_identity	-1	3	1	7	3	compatible with scalar odd phi rule	CONDITIONAL_UNSELECTED	ordinary codimension-one fixed mirror is extra premise
+L02	angular_minus_identity	-1	1	3	7	3	compatible with scalar odd phi rule	CONDITIONAL_UNSELECTED	codimension-three fixed-set interpretation unforced
+L03	angular_axis_reflection	+1	2	2	6	4	compatible with scalar odd phi rule	CONDITIONAL_UNSELECTED	axis and global period data unselected
+L04	local_Hopf_exchange	+1	2	2	6	4	locally conjugate to axis reflection	CONDITIONAL_UNSELECTED	global distinction requires integral basis periods cover or quotient
+L05	static_phi_rule_only	NA	NA	NA	9	1	phi=0 delta_phi=0 and free normal derivative	PINNED_SCOPED_NOT_COMPLETE_LIFT	does not select L01-L04
+L06	boundary_Dirichlet_witness	NA	NA	NA	NA	NA	preserves scalar seal wire	CONDITIONAL_VARIATION_WITNESS	not selected by kinematics
+L07	boundary_Neumann_or_mixed_witness	NA	NA	NA	NA	NA	preserves scalar seal wire with different transverse choices	CONDITIONAL_VARIATION_WITNESS	not selected by kinematics

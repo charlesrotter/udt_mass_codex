@@ -1,0 +1,9 @@
+P03G_INDEPENDENT_VERIFICATION=PASS
+checks=8
+catch_proofs=24
+implementation=stdlib_fraction_algebra_no_generator_import
+axes=12/12
+local_branches=7/7_retained_global_existence_unevaluated
+selected_global_branches=0
+parent_manifests=7/7
+main_result_sha256=8e57a958b7110866c34a9d05888f105b97fe7729f37ed3ecf35b8721ceb3ed9e

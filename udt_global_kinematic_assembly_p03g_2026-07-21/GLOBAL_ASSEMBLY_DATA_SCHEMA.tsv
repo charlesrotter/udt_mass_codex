@@ -1,0 +1,13 @@
+axis_id	object	local_input	required_global_data	founded_compatibility	status	bounded_exhaustiveness
+A01	local_field_realization	C01-C07	field bundle and transition law for every independent field	retain all seven branches	OPEN_EXTENSION	EXACT_FOR_REGISTERED_LOCAL_BRANCHES
+A02	cover_and_nerve	charts are local only	cover overlap triple-overlap corner and boundary incidence	finite cell requires completion	OPEN_DATA	SCHEMA_ONLY
+A03	reciprocal_transition_component	G_a and F_b	component and nonzero modulus on each overlap	exact G/F multiplication laws	PARTLY_DERIVED	COMPLETE_CONSTANT_REAL_TWO_CHANNEL_CLASS
+A04	closed_path_cocycle_and_reversal_class	Z2 grading	cocycle satisfying triple relations plus global class	closed identity products have even F parity	OPEN_GLOBAL_CLASS	LOCAL_ALGEBRA_EXACT_GLOBAL_BUNDLE_OPEN
+A05	CSN_representative_patching	positive local common scale	positive overlap factors and existence of any global representative	representatives identified not ranked	OPEN_GLOBAL_SECTION	SCHEMA_ONLY
+A06	signed_phi_patching	signed local phi	scalar or line-bundle law zero set and sign holonomy	do not identify sign with nonnegative distance	OPEN_GLOBAL_FIELD	SCHEMA_ONLY
+A07	full_coframe_soldering_and_angular_lift	conditional reciprocal two-plane	complete four-dimensional lift and angular transition	do not promote two-channel group to full coframe	OPEN_FULL_LIFT	FOUR_CONSTANT_SEAL_LIFTS_ONLY
+A08	seal_and_boundary_tangent	phi=0 delta_phi=0 normal_phi_jet_free	full involution boundary polarization corner and normal-jet rules	one scalar tangent removed only	OPEN_COMPLETION	SCALAR_RULE_EXACT_OTHER_FIELDS_OPEN
+A09	topology_caps_periods_quotient_no_cap	finite mirrored ontology	global topology cap cycles periods quotient and boundary count	p=0,1,3,5 and general alternatives survive	OPEN_TOPOLOGY	WITNESS_LIST_PLUS_OTHER_UNENUMERATED
+A10	regular_degenerate_type_changing_singular_completion	all P02 inertia closures	degeneracy locus chart transitions and admissibility rule	no local stratum removed	OPEN_COMPLETION	SCHEMA_ONLY
+A11	connection_and_torsion	metric or independent connection branch	global connection bundle holonomy torsion and boundary data	Levi-Civita only after regular representative supplied	OPEN_BRANCH	REGISTERED_BRANCH_SPLIT_ONLY
+A12	scale_Xmax_mass_volume_bootstrap	none point-locally	complete physical representative native matter mass volume stability and density	evaluate only after complete matter-bearing solution	NOT_EVALUABLE	DOWNSTREAM_OUTPUT_SCHEMA

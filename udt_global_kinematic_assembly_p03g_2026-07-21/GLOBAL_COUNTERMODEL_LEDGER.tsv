@@ -1,0 +1,13 @@
+id	challenged_inference	witness	preserved_inputs	varied_output	ruling
+M01	transition algebra supplies a cover	same G/F multiplication table can be assigned to different declared covers	local reciprocal group	cover nerve and overlap incidence	INFERENCE_FAILS
+M02	local cocycle witness selects a global bundle	F_b F_c G_(c/b)=I is valid before any global cover is specified	exact triple product	global cocycle class	INFERENCE_FAILS
+M03	seal closure selects mixed readout	mu=4 and mu=9 full Lorentzian mirror witnesses	reciprocity CSN phi visibility and seal isometry	dimensionless mixing modulus	INFERENCE_FAILS
+M04	scalar seal selects complete lift	L01-L04 all preserve the scalar odd phi rule	phi=0 delta_phi=0 free normal derivative	full coframe fixed/antifixed multiplicities	INFERENCE_FAILS
+M05	mirror selects boundary polarization	Dirichlet and Neumann/mixed full variation witnesses preserve the scalar seal	static phi seal wire	transverse and momentum variations	INFERENCE_FAILS
+M06	regular primitive caps select p=1	p=1 p=3 and p=5 primitive mirror-compatible cap witnesses	declared toric regularity and mirror compatibility	global topology	INFERENCE_FAILS
+M07	finite cell excludes no-cap or other topology	finite-domain statement supplies no cap period quotient or boundary count	finite mirrored ontology	cap and topology	INFERENCE_FAILS
+M08	static phi zero fixes normal jet	phi(n)=a*n for arbitrary a	odd phi and phi(0)=0	normal derivative a	INFERENCE_FAILS
+M09	regular local metric erases degenerate closures	P02 retains all fifteen zero-jet inertia strata	unconditional local parent atlas	rank and signature closure	INFERENCE_FAILS
+M10	CSN selects physical scale or representative	positive local rescalings remain an equivalence orbit	common-scale neutrality	representative scale and curvature representative data	INFERENCE_FAILS
+M11	one local field branch is globally forced	C01-C07 have different field content and all remain registered	current foundation census	metric coframe projector constraint bridge or connection realization	INFERENCE_FAILS
+M12	global kinematics determine Xmax mass volume or bootstrap	those quantities are undefined before physical representative and native matter-bearing solution	finite-cell ontology and local metric atlas	downstream global outputs	NOT_YET_EVALUABLE

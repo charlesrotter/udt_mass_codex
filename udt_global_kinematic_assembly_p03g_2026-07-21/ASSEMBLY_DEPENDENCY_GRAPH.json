@@ -1,0 +1,186 @@
+{
+  "edges": [
+    {
+      "from": "LOCAL_ATLAS",
+      "relation": "supplies_local_branches",
+      "to": "FIELD_REALIZATION"
+    },
+    {
+      "from": "GF_GROUP",
+      "relation": "constrains_overlap_products",
+      "to": "TRANSITION_COCYCLE"
+    },
+    {
+      "from": "COVER_NERVE",
+      "relation": "supplies_domain_and_incidence",
+      "to": "TRANSITION_COCYCLE"
+    },
+    {
+      "from": "FIELD_REALIZATION",
+      "relation": "determines_required_field_join",
+      "to": "FULL_COFRAME"
+    },
+    {
+      "from": "CSN_PATCHING",
+      "relation": "required_representative_equivalence",
+      "to": "GLOBAL_KINEMATIC_OBJECT"
+    },
+    {
+      "from": "SIGNED_PHI",
+      "relation": "required_field_patching",
+      "to": "GLOBAL_KINEMATIC_OBJECT"
+    },
+    {
+      "from": "FULL_COFRAME",
+      "relation": "required_soldering",
+      "to": "GLOBAL_KINEMATIC_OBJECT"
+    },
+    {
+      "from": "TRANSITION_COCYCLE",
+      "relation": "required_bundle_compatibility",
+      "to": "GLOBAL_KINEMATIC_OBJECT"
+    },
+    {
+      "from": "STATIC_SEAL_WIRE",
+      "relation": "constrains_but_does_not_select",
+      "to": "SEAL_LIFT"
+    },
+    {
+      "from": "SEAL_LIFT",
+      "relation": "required_boundary_identification",
+      "to": "GLOBAL_KINEMATIC_OBJECT"
+    },
+    {
+      "from": "BOUNDARY_TANGENT",
+      "relation": "required_if_variation_is_later_loaded",
+      "to": "GLOBAL_KINEMATIC_OBJECT"
+    },
+    {
+      "from": "TOPOLOGY_CAPS",
+      "relation": "required_global_completion",
+      "to": "GLOBAL_KINEMATIC_OBJECT"
+    },
+    {
+      "from": "DEGENERACY_COMPLETION",
+      "relation": "required_closure_choice",
+      "to": "GLOBAL_KINEMATIC_OBJECT"
+    },
+    {
+      "from": "CONNECTION_TORSION",
+      "relation": "required_on_C07_branch",
+      "to": "GLOBAL_KINEMATIC_OBJECT"
+    },
+    {
+      "from": "GLOBAL_KINEMATIC_OBJECT",
+      "relation": "necessary_not_sufficient",
+      "to": "PHYSICAL_SCALE_XMAX"
+    },
+    {
+      "from": "PHYSICAL_SCALE_XMAX",
+      "relation": "downstream_join_still_requires_matter",
+      "to": "MASS_BOOTSTRAP"
+    }
+  ],
+  "forbidden_edges": [
+    {
+      "from": "GF_GROUP",
+      "reason": "transition algebra does not create cover",
+      "to": "COVER_NERVE"
+    },
+    {
+      "from": "STATIC_SEAL_WIRE",
+      "reason": "scalar wire does not select a complete polarization",
+      "to": "BOUNDARY_TANGENT"
+    },
+    {
+      "from": "CSN_PATCHING",
+      "reason": "equivalence does not choose a section",
+      "to": "PHYSICAL_SCALE_XMAX"
+    },
+    {
+      "from": "LOCAL_ATLAS",
+      "reason": "configuration census does not select dynamics",
+      "to": "DYNAMICS"
+    },
+    {
+      "from": "GLOBAL_KINEMATIC_OBJECT",
+      "reason": "geometry alone does not yet define native matter",
+      "to": "MASS_BOOTSTRAP"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "LOCAL_ATLAS",
+      "kind": "frozen_input"
+    },
+    {
+      "id": "FIELD_REALIZATION",
+      "kind": "branch_axis"
+    },
+    {
+      "id": "COVER_NERVE",
+      "kind": "open_global_data"
+    },
+    {
+      "id": "GF_GROUP",
+      "kind": "derived_local_algebra"
+    },
+    {
+      "id": "TRANSITION_COCYCLE",
+      "kind": "open_global_data"
+    },
+    {
+      "id": "CSN_PATCHING",
+      "kind": "equivalence_data"
+    },
+    {
+      "id": "SIGNED_PHI",
+      "kind": "open_global_data"
+    },
+    {
+      "id": "FULL_COFRAME",
+      "kind": "open_global_data"
+    },
+    {
+      "id": "STATIC_SEAL_WIRE",
+      "kind": "scoped_input"
+    },
+    {
+      "id": "SEAL_LIFT",
+      "kind": "open_global_data"
+    },
+    {
+      "id": "BOUNDARY_TANGENT",
+      "kind": "open_global_data"
+    },
+    {
+      "id": "TOPOLOGY_CAPS",
+      "kind": "open_global_data"
+    },
+    {
+      "id": "DEGENERACY_COMPLETION",
+      "kind": "open_global_data"
+    },
+    {
+      "id": "CONNECTION_TORSION",
+      "kind": "open_global_data"
+    },
+    {
+      "id": "GLOBAL_KINEMATIC_OBJECT",
+      "kind": "not_constructed"
+    },
+    {
+      "id": "PHYSICAL_SCALE_XMAX",
+      "kind": "downstream_open"
+    },
+    {
+      "id": "MASS_BOOTSTRAP",
+      "kind": "downstream_open"
+    },
+    {
+      "id": "DYNAMICS",
+      "kind": "excluded"
+    }
+  ],
+  "schema": "udt-p03g-global-assembly-dependency-graph-1.0"
+}
