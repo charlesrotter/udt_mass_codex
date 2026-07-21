@@ -1,0 +1,19 @@
+command: python3 --version
+Python 3.10.12
+
+command: python3 -c 'import sympy; print(sympy.__version__)'
+1.13.1
+
+command: python3 udt_mixed_readout_anchor_soldering_audit_2026-07-20/derive_mixed_readout_anchor.py
+exit_code: 0
+maximum_conclusion: UDT_MIXED_READOUT_ANCHOR_SOLDERING_STATUS_CHARACTERIZED
+outcomes:
+  OBSERVATIONAL_ANCHOR_LEAVES_MU_OPEN
+  MU_IS_INVARIANT_OF_METRIC_RECIPROCITY_PAIR
+  FIXED_Q_AND_ORTHONORMALIZABLE_ANCHOR_BRANCHES_DIVERGE
+  TEMPORAL_MIRROR_COMPONENT_SOLDERING_REMAINS_OPEN
+  PHYSICAL_CLOCK_RULER_SOLDERING_RULE_ABSENT
+check_count: 45
+all_checks: PASS
+witness_mu4: determinant=-3 I=-10/3
+witness_mu9: determinant=-8 I=-5/2

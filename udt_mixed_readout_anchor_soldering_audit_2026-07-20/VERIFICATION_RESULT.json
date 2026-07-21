@@ -1,0 +1,71 @@
+{
+  "catch_proofs": {
+    "basis_artifact_promotion": "PASS",
+    "c_anchor_status_mutation": "PASS",
+    "collapsed_witness_invariants": "PASS",
+    "duplicate_status_object": "PASS",
+    "fixed_q_habit_promoted": "PASS",
+    "invariant_formula_mutation": "PASS",
+    "literal_equals_conjugated_temporal": "PASS",
+    "maximum_conclusion_overreach": "PASS",
+    "missing_current_source_ruling": "PASS",
+    "missing_invariant_outcome": "PASS",
+    "missing_source_lineage": "PASS",
+    "mu_status_promotion": "PASS",
+    "nonderived_slot_stamp_lost": "PASS",
+    "soldering_status_promotion": "PASS",
+    "temporal_status_promotion": "PASS",
+    "unconditional_rejection": "PASS",
+    "unique_mu_promotion": "PASS",
+    "weak_chart_made_soldering_theorem": "PASS",
+    "wrong_fixed_q_evenness": "PASS"
+  },
+  "caveats": [
+    "bounded constant symmetric 2x2 readout class",
+    "no physical observer transformation derived",
+    "no angular/global completion tested",
+    "no action, source, carrier, or mass conclusion"
+  ],
+  "counts": {
+    "catch_proofs": 19,
+    "derivation_checks": 45,
+    "independent_checks": 23
+  },
+  "hashes": {
+    "ANCHOR_BRANCH_CLASSIFICATION.tsv": "3af68e600c5a1f9d046c3469e1951dbc509b76c59991e1cee1f5f265ba007d01",
+    "AUDIT_REPORT.md": "40c6816792602176e0fb1ec3d2732e685cfb56ae84432c9c1a17919e6ad49407",
+    "DERIVATION_RESULT.json": "92a54bfda2191ff200ad3403eeb1048bb6bca6bb3fe343e2b2d62d571b148837",
+    "PAIR_INVARIANTS.tsv": "682df7a1fbd55b4ae83f173be87307ecdd5be64d5462bba1a778d78cade27e65",
+    "PREREGISTRATION.md": "127367a2fe90b2b6a71986bf8a9a3413406b5c270826fc23b92543f66990427d",
+    "SOURCE_LINEAGE.tsv": "df9d8d0c9ebd8c27be55e3964acb34e59a9b9a4993b48ef2d0cdcf3eb6627eaf",
+    "STATUS_LEDGER.tsv": "05e9f03384f32be6fea0f233a286da44b2554ebdaba53cacf8fbbb92ce74a24a"
+  },
+  "independent_checks": {
+    "all_derivation_checks_pass": "PASS",
+    "fixed_q_B0_definite": "PASS",
+    "fixed_q_null_odd_term_nonzero": "PASS",
+    "frontier_calibration_open": "PASS",
+    "general_rational_basis_mu4": "PASS",
+    "general_rational_basis_mu9": "PASS",
+    "hadamard_diagonalizes": "PASS",
+    "hadamard_metric_rescalable_to_eta": "PASS",
+    "inequivalent_witnesses": "PASS",
+    "literal_q_time_not_H4_isometry": "PASS",
+    "literal_time_non_diagonal_in_anchor": "PASS",
+    "mu4_invariant_exact": "PASS",
+    "mu4_reconstruction": "PASS",
+    "mu9_invariant_exact": "PASS",
+    "mu9_reconstruction": "PASS",
+    "orth_spatial_conjugates_to_F": "PASS",
+    "orth_temporal_conjugates_to_minus_F": "PASS",
+    "readout_stamp_present": "PASS",
+    "source_meaning_present": "PASS",
+    "spatial_reflection_standard_in_anchor": "PASS",
+    "spatial_seal_H4": "PASS",
+    "spatial_seal_H9": "PASS",
+    "witnesses_Lorentz": "PASS"
+  },
+  "maximum_conclusion": "UDT_MIXED_READOUT_ANCHOR_SOLDERING_STATUS_CHARACTERIZED",
+  "result": "PASS_VERIFIED_WITH_CAVEATS",
+  "schema": "udt-mixed-readout-anchor-independent-verification-1.0"
+}

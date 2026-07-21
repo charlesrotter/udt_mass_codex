@@ -1,0 +1,105 @@
+{
+  "anchor_branches": {
+    "FIXED_Q_ANCHOR": {
+      "reason": "symmetric q-chart c cone forces B=0, incompatible with Lorentzian spatial-seal family",
+      "status": "CONDITIONAL_REJECTION"
+    },
+    "ORTHONORMALIZABLE_ANCHOR": {
+      "reason": "exact orthonormal chart gives local null slopes +/-1 while reciprocity generator becomes non-diagonal",
+      "status": "CONDITIONAL_COMPATIBILITY"
+    }
+  },
+  "check_count": 45,
+  "checks": {
+    "MU4_Lorentz_signature": "PASS",
+    "MU4_mu": "PASS",
+    "MU4_pair_invariant": "PASS",
+    "MU9_Lorentz_signature": "PASS",
+    "MU9_mu": "PASS",
+    "MU9_pair_invariant": "PASS",
+    "conjugated_temporal_reflection_is_H4_isometry": "PASS",
+    "distinct_mu_witnesses_not_simultaneously_basis_equivalent": "PASS",
+    "fixed_q_B_zero_mirror_family_not_Lorentz": "PASS",
+    "fixed_q_cone_asymmetry": "PASS",
+    "fixed_q_exact_eta_requires_impossible_real_b_square": "PASS",
+    "fixed_q_null_polynomial": "PASS",
+    "fixed_q_symmetric_cone_forces_B_zero": "PASS",
+    "fixed_q_symmetric_cone_odd_coefficient": "PASS",
+    "literal_and_conjugated_temporal_reflections_differ": "PASS",
+    "literal_q_time_reversal_difference": "PASS",
+    "literal_q_time_reversal_rejects_nonzero_B_if_imposed_as_isometry": "PASS",
+    "metric_generator_anticommutator": "PASS",
+    "metric_generator_commutator": "PASS",
+    "mixed_family_constant_determinant": "PASS",
+    "mixed_q_witness_both_null_slopes_same_sign": "PASS",
+    "mixed_q_witness_null_polynomial": "PASS",
+    "mixed_q_witness_tilted_null_slopes": "PASS",
+    "orthonormal_anchor_exponential_closed_form": "PASS",
+    "orthonormal_anchor_generator_still_involution": "PASS",
+    "orthonormal_anchor_local_c_slopes": "PASS",
+    "orthonormal_anchor_metric": "PASS",
+    "orthonormal_anchor_null_polynomial": "PASS",
+    "orthonormal_anchor_reciprocal_generator": "PASS",
+    "orthonormal_anchor_seal_inverts_generator": "PASS",
+    "orthonormal_anchor_spatial_reflection": "PASS",
+    "orthonormal_spatial_reflection_in_q": "PASS",
+    "orthonormal_temporal_reflection_in_q": "PASS",
+    "orthonormal_temporal_reflection_is_eta_isometry": "PASS",
+    "pair_invariant_formula": "PASS",
+    "pair_invariant_reconstructs_mu": "PASS",
+    "pair_invariant_under_diagonal_reciprocal_gauge": "PASS",
+    "pair_invariant_under_general_simultaneous_GL2": "PASS",
+    "pair_invariant_under_positive_CSN": "PASS",
+    "physical_phi_visible_requires_A_nonzero": "PASS",
+    "pure_dual_pairing_limit_is_phi_invisible": "PASS",
+    "reciprocal_generator_involution": "PASS",
+    "spatial_seal_inverts_generator": "PASS",
+    "spatial_seal_involution": "PASS",
+    "spatial_seal_metric_isometry": "PASS"
+  },
+  "exclusions": [
+    "observer mechanics",
+    "action or field equation",
+    "angular topology",
+    "bootstrap or physical scale selection",
+    "carrier, source, mass, and boundary completion"
+  ],
+  "maximum_conclusion": "UDT_MIXED_READOUT_ANCHOR_SOLDERING_STATUS_CHARACTERIZED",
+  "outcomes": [
+    "OBSERVATIONAL_ANCHOR_LEAVES_MU_OPEN",
+    "MU_IS_INVARIANT_OF_METRIC_RECIPROCITY_PAIR",
+    "FIXED_Q_AND_ORTHONORMALIZABLE_ANCHOR_BRANCHES_DIVERGE",
+    "TEMPORAL_MIRROR_COMPONENT_SOLDERING_REMAINS_OPEN",
+    "PHYSICAL_CLOCK_RULER_SOLDERING_RULE_ABSENT"
+  ],
+  "owner_source_resolution": {
+    "c_anchor": "finite terrestrial/solar clock-length calibration",
+    "fixed_q_anchor": "pinned-by-HABIT, retained only as a conditional branch",
+    "orthonormalizable_anchor": "compatible with current source meaning but not a native soldering theorem",
+    "physical_observer_transform": "OPEN",
+    "q_pair": "dimension-matched reciprocal eigen-coframe; not currently declared operationally orthogonal"
+  },
+  "pair_invariant": {
+    "definition": "tr(H^-1 L^T H L)",
+    "implication": "mu is not removable by a simultaneous GL(2,R) basis transformation of (H,L)",
+    "inverse": "mu=(I-2)/(I+2)",
+    "value": "2*(1+mu)/(1-mu)"
+  },
+  "temporal_mirror": {
+    "current_udt_status": "component/basis soldering not supplied; no selection or rejection authorized",
+    "literal_q_chart": "would force B=0 if imposed as a metric isometry",
+    "orthonormal_chart": "exists and conjugates to -F in the exact witness"
+  },
+  "witnesses": {
+    "MU4": {
+      "determinant": -3,
+      "mu": 4,
+      "pair_invariant": "-10/3"
+    },
+    "MU9": {
+      "determinant": -8,
+      "mu": 9,
+      "pair_invariant": "-5/2"
+    }
+  }
+}

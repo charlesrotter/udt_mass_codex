@@ -1,0 +1,4 @@
+id	A	B	b	mu	I=tr(H^-1_L^T_H_L)	determinant	classification
+MU4	1	-2	1	4	-10/3	-3	LORENTZ_EXACT_SPATIAL_SEAL_WEAK_C_ANCHOR
+MU9	1	-3	1	9	-5/2	-8	LORENTZ_EXACT_SPATIAL_SEAL_WEAK_C_ANCHOR
+FORMULA	A	B	b	B^2/(A^2 b^2)	2(1+mu)/(1-mu)	A^2 b^2-B^2	MU_RECONSTRUCTED_BY_(I-2)/(I+2)

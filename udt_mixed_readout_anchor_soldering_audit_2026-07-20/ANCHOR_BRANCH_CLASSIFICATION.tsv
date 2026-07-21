@@ -1,0 +1,4 @@
+branch	additional_premise	exact_test	result	udt_status
+FIXED_Q_ANCHOR	q=(c dt,dr) are themselves the operational orthogonal clock/ruler axes and the q-chart cone is symmetric under v->-v	A+2 B v+A b^2 v^2 is even in v iff B=0; then det(H)=A^2 b^2>0	Mixed spatial-seal family cannot be Lorentzian	CONDITIONAL_REJECTION_PINNED_BY_HABIT
+ORTHONORMALIZABLE_ANCHOR	c calibrates an operational Lorentz frame but reciprocal eigen-directions may be oblique	For A=1 B=-2 b=1 an exact S gives S^T H S=diag(-1,1), null slopes +/-1, and non-diagonal S^-1 L S	Mixed family and measured local c coexist exactly	CONDITIONAL_COMPATIBILITY_NOT_A_SOLDERING_THEOREM
+CURRENT_SOURCE_RULING	Use exact current owner/repository meaning without adding orthogonality to q	Sources fix finite c calibration but keep readout, representative, slot, and observer mapping non-derived	Neither branch is selected; mu remains open	OBSERVATIONAL_ANCHOR_LEAVES_MU_OPEN

@@ -1,0 +1,6 @@
+command: python3 udt_mixed_readout_anchor_soldering_audit_2026-07-20/verify_mixed_readout_anchor.py
+exit_code: 0
+verification=PASS_VERIFIED_WITH_CAVEATS
+derivation_checks=45
+independent_checks=23
+catch_proofs=19
