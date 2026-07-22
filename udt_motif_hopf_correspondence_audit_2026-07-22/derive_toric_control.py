@@ -115,7 +115,10 @@ def main() -> None:
         "hopf_seed_exact_match": all(value == 0 for value in seed_difference),
         "hopfion_seed_source_sha256": digest(ROOT / "hopfion_arc_scripts_2026-07-05/fs_hopfion.py"),
         "noNull_energy_source_sha256": digest(ROOT / "noNull_energy.py"),
-        "construction_used_carrier_or_action": False,
+        "supplied_equal_weight_circle_action": True,
+        "circle_action_status": "SUPPLIED_CONDITIONAL_NOT_SELECTED_BY_PROJECTORS",
+        "construction_used_s2_matter_carrier": False,
+        "construction_used_l2_l4_action_functional": False,
         "global_premises_for_unit_class": [
             "two periodic spatial circle directions",
             "full phi range from minus infinity to plus infinity once",

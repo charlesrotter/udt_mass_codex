@@ -45,7 +45,9 @@ def validate_global_status(result):
 def validate_toric(toric):
     if toric["conditional_unit_q"] != "1": raise AssertionError("unit control")
     if toric["hopf_q_finite_endpoints"] != "f_minus - f_plus": raise AssertionError("finite endpoint law")
-    if toric["construction_used_carrier_or_action"] is not False: raise AssertionError("carrier/action import")
+    if toric["supplied_equal_weight_circle_action"] is not True: raise AssertionError("circle action disclosure")
+    if toric["construction_used_s2_matter_carrier"] is not False: raise AssertionError("S2 carrier import")
+    if toric["construction_used_l2_l4_action_functional"] is not False: raise AssertionError("L2+L4 import")
     if "selected free diagonal or anti-diagonal circle action" not in toric["global_premises_for_unit_class"]: raise AssertionError("circle action premise")
     if toric["maximum_conclusion"] == "NATIVE_RELAXED_HOPFION_DERIVED": raise AssertionError("seed/relaxed promotion")
 
@@ -101,8 +103,8 @@ def main():
     catch("K10_FORCED_FINITE_Q",lambda:validate_toric(bad_toric))
     bad_toric=dict(toric); bad_toric["global_premises_for_unit_class"]=[]
     catch("K11_OMITTED_ACTION_PREMISE",lambda:validate_toric(bad_toric))
-    bad_toric=dict(toric); bad_toric["construction_used_carrier_or_action"]=True
-    catch("K12_IMPORTED_CARRIER_ACTION",lambda:validate_toric(bad_toric))
+    bad_toric=dict(toric); bad_toric["construction_used_s2_matter_carrier"]=True
+    catch("K12_IMPORTED_S2_CARRIER",lambda:validate_toric(bad_toric))
     bad_toric=dict(toric); bad_toric["maximum_conclusion"]="NATIVE_RELAXED_HOPFION_DERIVED"
     catch("K13_FALSE_SEED_RELAXED_IDENTITY",lambda:validate_toric(bad_toric))
     with (HERE/"CATCH_PROOFS.tsv").open("w",encoding="utf-8",newline="") as handle:

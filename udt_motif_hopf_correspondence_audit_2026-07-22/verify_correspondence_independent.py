@@ -367,7 +367,12 @@ def main():
     toric_saved=json.loads((HERE/"TORIC_CONTROL_RESULT.json").read_text())
     catch("K09_OMITTED_CIRCLE_ACTION", "selected free diagonal or anti-diagonal circle action" in toric_saved["global_premises_for_unit_class"])
     catch("K10_FALSE_SEED_RELAXED_IDENTITY", toric_saved["maximum_conclusion"] != "NATIVE_RELAXED_HOPFION_DERIVED")
-    catch("K11_IMPORTED_CARRIER_ACTION", toric_saved["construction_used_carrier_or_action"] is False)
+    catch(
+        "K11_CONSTRUCTION_PROVENANCE_DISCLOSED",
+        toric_saved["supplied_equal_weight_circle_action"] is True
+        and toric_saved["construction_used_s2_matter_carrier"] is False
+        and toric_saved["construction_used_l2_l4_action_functional"] is False,
+    )
     with (HERE/"INDEPENDENT_CATCH_PROOFS.tsv").open("w",encoding="utf-8",newline="") as handle:
         writer=csv.DictWriter(handle,fieldnames=("catch_id","result"),delimiter="\t",lineterminator="\n"); writer.writeheader(); writer.writerows(catches)
     result={
