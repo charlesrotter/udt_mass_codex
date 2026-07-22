@@ -1,0 +1,9 @@
+date=2026-07-22
+python=3.10.12
+sympy=1.13.1
+compute=CPU_ONLY
+gpu_runs=0
+physics_solves=0
+base=14b06fdc1434301de1516cd2dbc226ad3fa1a3e1
+branch=codex/udt-reciprocal-subbundle-ownership-audit-2026-07-22
+original_dirty_checkout_contents_read=false

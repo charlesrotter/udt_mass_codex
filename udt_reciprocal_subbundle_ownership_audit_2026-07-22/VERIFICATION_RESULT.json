@@ -1,0 +1,31 @@
+{
+  "base": "14b06fdc1434301de1516cd2dbc226ad3fa1a3e1",
+  "catch_proofs": {
+    "passed": 18,
+    "total": 18
+  },
+  "changed_paths_observed": 22,
+  "claims_not_made": [
+    "future_no_go",
+    "complete_metric_solution",
+    "action",
+    "source",
+    "carrier",
+    "boundary_charge",
+    "mass",
+    "scale",
+    "physical_time",
+    "topology_selection"
+  ],
+  "grade_ceiling": "VERIFIED-WITH-CAVEATS_NO_FRESH_EXTERNAL_MODEL_SEMANTIC_REVIEW",
+  "independent_exact_checks": 22,
+  "maximum_conclusion": "CURRENT_REGISTERED_PREMISES_DO_NOT_DERIVE_E_S_OR_T",
+  "production_exact_checks": 27,
+  "schema": "udt-reciprocal-subbundle-ownership-verification-1.0",
+  "scope_only_package_changes": true,
+  "selector_rows": 21,
+  "sources": 15,
+  "status": "PASS",
+  "status_rows": 19,
+  "witness_rows": 12
+}

@@ -1,0 +1,11 @@
+step	input	operation_or_required_map	output	status	missing_or_conditional_object	sources
+D01	positive reciprocal comparison pair with dual Reciprocity and composition	construct regular one-parameter character	V_rec with D(phi)=diag(exp(-phi),exp(phi))	DERIVED_CONDITIONAL	sign/unit and regularity premises remain explicit	S01;S04
+D02	V_rec and positive pair	form one-half log ratio	dimensionless signed phi	DERIVED_EXACT_IN_PAIR	local observer-comparison map remains open	S01;S04
+D03	V_rec plus complete tangent/coframe bundle	seek rank-two physical subbundle E	no universal E follows from current data	NOT_DERIVED	spacetime subbundle ownership	S04;S08;S09;S10;S12
+D04	V_rec and a candidate E	seek soldering s from abstract reciprocal axes into E	multiple same-data boundary solderings survive	NOT_DERIVED	physical slot/coframe reduction	S01;S04;S05;S06
+D05	candidate soldering and CSN class	seek physical quadratic readout	phi-visible; phi-invisible; and continuous mixed readouts survive	NOT_DERIVED	physical readout and invariant modulus	S04;S05;S06
+D06	static phi seal and complete coframe	classify seal seed	plus-I/minus-I/reflection/Hopf-exchange lifts remain; only reflection class supplies complementary angular pair	DERIVED_CONDITIONAL_FAMILY_NOT_SELECTED	complete physical seal lift and orientation	S05;S06;S08;S14
+D07	supplied smooth projector family	apply universal metric-compatible Kato/projector transport	pathwise transported subbundle	DERIVED_UNIVERSAL_GEOMETRY_GIVEN_PROJECTOR	physical E and path/connection selection absent	S07;S11
+D08	boundary seed plus bulk connection	require path independence and global continuation	holonomy must preserve E	CONDITIONAL_INTEGRABILITY_REQUIREMENT	reduced holonomy; cover; seams; caps; degeneracies	S06;S07;S08;S11;S12;S13
+D09	registered bootstrap	inspect for E/s/T selection map	global solution admissibility only	NO_OPERATIONAL_MAP	no domain codomain response or uniqueness rule	S03;S04;S11;S15
+D10	combined current foundation	apply universal selection standard	abstract reciprocal kinematics survives while E s and T remain open	CURRENT_PREMISES_INSUFFICIENT	one new owner/derived configuration-space relation before dynamics	S01;S02;S03;S04;S15
