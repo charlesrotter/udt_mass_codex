@@ -1,0 +1,2576 @@
+Script started on 2026-07-22 12:49:50-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /tmp/udt_metric_review_T_Jh03Lq
+model: gpt-5.6-sol
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: medium
+reasoning summaries: none
+session id: 019f8abb-c935-7b42-98a8-def8257fab3b
+--------
+user
+This is an isolated cold audit of immutable commit 1a41c4b. The archive intentionally has no .git directory, so do not perform repository startup or edits. Read udt_metric_to_frontier_reference_2026-07-22/EXTERNAL_REVIEW_PACKET.md, execute the common task, and answer only Reviewer T (topology, holonomy, and global completion). Verify REFERENCE_FREEZE_MANIFEST.tsv before analysis. Inspect cited sources only as needed. Do not launch a long solve. Return a decisive PASS, PASS-WITH-CAVEATS, or FAIL, enumerate exact claim or join IDs challenged, distinguish universal mathematical structure from UDT-specific evidence, and give the requested bounded neutral next-audit contract.
+codex
+I’ll treat this as a read-only cold audit: first verify the freeze manifest, then follow the packet’s Reviewer T scope and inspect only load-bearing cited sources.
+exec
+/bin/bash -lc "sed -n '1,260p' udt_metric_to_frontier_reference_2026-07-22/EXTERNAL_REVIEW_PACKET.md" in /tmp/udt_metric_review_T_Jh03Lq
+ succeeded in 0ms:
+# External cold-review packet
+
+Date: 2026-07-22
+
+## Common task
+
+Read `REFERENCE.md`, `CLAIM_DEPENDENCY_LEDGER.tsv`, `OPEN_JOIN_LEDGER.tsv`, and
+`SOURCE_MANIFEST.tsv` first. Inspect only the exact cited sources needed to challenge a claim. Treat
+the reference as a fallible navigation synthesis, not authority over its sources.
+
+The July 1 provenance firewall applies: older material may expose a failure or counterexample but
+may not supply affirmative UDT physics. GR, quantum theory, standard matter models, and external
+classification results may be used only as comparison or mathematical tools with their premises
+disclosed.
+
+Do not improve UDT by adding a mechanism. Try to find:
+
+- status promotions not supported by source evidence;
+- a hidden premise shared by several open joins;
+- counterexamples satisfying the complete stated premises;
+- distinctions that have been conflated;
+- an existing metric-native construction the current synthesis overlooked;
+- whether the proposed next question is objective or secretly Hopf/action targeted.
+
+Return `PASS`, `PASS-WITH-CAVEATS`, or `FAIL` for the reference as a faithful synthesis. Then answer
+the role-specific questions below. Do not edit the archive or launch a long solve.
+
+## Reviewer G — differential geometry and exterior algebra
+
+1. Does tangent-space irreducibility leave meaningful metric-native structure on two-forms,
+   simple bivectors, Hodge-dual pairs, curvature forms, or their transported bundles?
+2. Which such structures are universal to every four-dimensional Lorentzian metric and therefore
+   cannot count as UDT-specific emergence?
+3. Is a complete exterior/bivector atlas the smallest objective next map, or is another intrinsic
+   representation mathematically prior?
+4. Give a fail-closed certification contract that cannot be passed merely by rediscovering the
+   universal Hodge structure.
+
+## Reviewer T — topology, holonomy, and global completion
+
+1. Does the present local-to-global chain omit a standard obstruction, characteristic class,
+   transition-cocycle, seam-consistency, or holonomy test that could rank completion families?
+2. Can Reciprocity plus the finite mirrored seal constrain full coframe monodromy without silently
+   assuming periodic circles, caps, orientation, or a quotient?
+3. Is the conditional Hopf correspondence stated at exactly the right strength?
+4. Identify the smallest global consistency audit that remains neutral among all retained
+   completions.
+
+## Reviewer V — realization principle, action, and variation
+
+1. Are we asking kinematic premises to select a realized metric without an operational solution
+   concept?
+2. Can the registered meaning of bootstrap already be formalized as a fixed point, boundary-value
+   problem, or variational problem, or would doing so invent a new premise?
+3. Is the pre-scale versus post-scale variation fork still the smallest action discriminator after
+   the motif/global-assembly results?
+4. State the minimum additional mathematical datum needed to turn the allowed metric class into a
+   well-posed realization problem, without choosing C2, EH, or a carrier.
+
+## Reviewer B — mass, scale, and density/bootstrap closure
+
+1. Is the dimensional rank-one ruling correct once every currently derived global geometric object
+   is included?
+2. Could a metric-native global eigenvalue, normalized topological quantity, or boundary spectrum
+   provide scale without assuming matter or a fitted density? Distinguish dimensionless branch
+   selection from absolute scale breaking.
+3. Is the simultaneous `rho=M_native/V_proper` architecture genuinely noncircular, and what exact
+   operator must exist before it becomes a calculation?
+4. Which upstream scientific join must close before further density or mass work is useful?
+
+## Maximum review conclusion
+
+Reviewers may recommend a bounded next audit or conclude that synthesis should stop. They may not
+derive or canonize a carrier, quotient, action, mass, density, scale, or physical-time law.
+
+exec
+/bin/bash -lc "sed -n '1,240p' udt_metric_to_frontier_reference_2026-07-22/REFERENCE_FREEZE_MANIFEST.tsv" in /tmp/udt_metric_review_T_Jh03Lq
+ succeeded in 0ms:
+path	sha256	size_bytes
+PREREGISTRATION.md	6df44e37879991cd301499938c208a9eca7c10b271aa36046ddd76d04071e02a	5814
+REFERENCE.md	a8b27cb298a95dc1f3eabc5c4ff78b2835041a4d3dcc3e184d8ff6be47ded1e7	18350
+CLAIM_DEPENDENCY_LEDGER.tsv	bc94d0b2e714030e17d54af5be92a8664999a0e0ea1f135182f31bf25b48cdba	8573
+OPEN_JOIN_LEDGER.tsv	74b2a71bbddb71fe325d78c5c83766ebb7427ba9bc73165d98ee8143b32426b3	4178
+SOURCE_MANIFEST.tsv	cd9bf09919cec5c7b9c4f8825bcd236631ee03b55ec47461ad89d36ce82e78ec	3160
+EXTERNAL_REVIEW_PACKET.md	ef5260c191d2aef3055b1ac42e0cb0315e54f572244c85bf4331d4914d25bb58	4015
+README.md	f7f4c0fbdcf86518ed04928dbe1b177f7541a97f38adf3adbbae477c0a2ff85d	628
+verify_reference_packet.py	e7ec1248f1a88bf7b7d3b7194eb3db7016bfccd353dfbd434b66839ed07f538a	11930
+CATCH_PROOFS.tsv	1e1053e502db10d965d82002d26572554183c9d21085353755c02940f6909f35	588
+VERIFICATION_RESULT.json	f4d86e7cb414cb40e044c8128da53ff774ac53256feb51b43d0d79056d3c4dcb	432
+INTERNAL_VERIFIER_TRANSCRIPT.txt	e5073a6e21ae78e099d4a45098cd21896f2bb37bd3716be777a592e63c0ad1bb	584
+build_reference_freeze_manifest.py	e22e98a1dedfc276c87fd8734b044c7b29dce3b0b0e61fe1be99d4c20f744735	1442
+verify_repository_gates.py	1e3f117fc7d8d94de47f868029474276b5e655dc4acfd75e327ea911818a11b1	9003
+
+exec
+/bin/bash -lc "set -euo pipefail
+packet_dir=udt_metric_to_frontier_reference_2026-07-22
+awk -F '\\t' 'NR>1 {print "'$2"  "$1}'"' \""'$packet_dir/REFERENCE_FREEZE_MANIFEST.tsv" | (cd "$packet_dir" && sha256sum -c -)
+awk -F '"'\\t' 'NR>1 {print "'$3"'"\\t\""'$1}'"' \""'$packet_dir/REFERENCE_FREEZE_MANIFEST.tsv" | while IFS=$'"'\\t' read -r expected path; do actual="'$(stat -c %s "$packet_dir/$path"); test "$actual" = "$expected" || { echo "SIZE FAIL $path expected=$expected actual=$actual"; exit 1; }; done
+echo '"'SIZE CHECK: PASS'" in /tmp/udt_metric_review_T_Jh03Lq
+ succeeded in 0ms:
+PREREGISTRATION.md: OK
+REFERENCE.md: OK
+CLAIM_DEPENDENCY_LEDGER.tsv: OK
+OPEN_JOIN_LEDGER.tsv: OK
+SOURCE_MANIFEST.tsv: OK
+EXTERNAL_REVIEW_PACKET.md: OK
+README.md: OK
+verify_reference_packet.py: OK
+CATCH_PROOFS.tsv: OK
+VERIFICATION_RESULT.json: OK
+INTERNAL_VERIFIER_TRANSCRIPT.txt: OK
+build_reference_freeze_manifest.py: OK
+verify_repository_gates.py: OK
+SIZE CHECK: PASS
+
+codex
+The freeze is intact: all 13 listed files match both SHA-256 and byte size. I’m now mapping Reviewer T’s questions to the exact claim/join IDs before opening any cited topology sources.
+exec
+/bin/bash -lc "sed -n '1,280p' REFERENCE.md
+sed -n '1,240p' CLAIM_DEPENDENCY_LEDGER.tsv
+sed -n '1,220p' OPEN_JOIN_LEDGER.tsv
+sed -n '1,220p' SOURCE_MANIFEST.tsv" in /tmp/udt_metric_review_T_Jh03Lq/udt_metric_to_frontier_reference_2026-07-22
+ succeeded in 0ms:
+# UDT from the reciprocal metric to the current frontier
+
+Date: 2026-07-22  
+Status: `REFERENCE_DRAFT__EVIDENCE_LINKED__NO_NEW_PHYSICS`  
+Authority: navigation and dependency synthesis only; cited evidence controls; Charles canonizes.
+
+## One-page orientation
+
+UDT currently has a strong kinematic beginning, a newly mapped geometric middle, and an open
+realization/matter ending.
+
+```text
+founding positional dilation + reciprocal-c + dual Reciprocity + CSN
+                              |
+                              v
+       reciprocal exponential comparison and conditional metric block
+                              |
+                              v
+       local metric/phi instruments form a small motif vocabulary
+                              |
+                              v
+          the generic interaction is a four-dimensional weave
+                              |
+                              v
+        motif projectors admit metric-compatible geometric transport
+                              |
+                              v
+     many finite global completions survive; none is currently selected
+                              |
+               +--------------+--------------+
+               |                             |
+               v                             v
+ conditional reciprocal-toric/Hopf     macro WR-L branch identities
+ compatibility and stable test branch  under separate scoped premises
+               |                             |
+               +--------------+--------------+
+                              v
+          carrier, action, source, boundary charge, mass and scale OPEN
+                              |
+                              v
+ future density may be M_native/V_proper from the same bootstrap solution
+```
+
+This diagram is a dependency map, not a claim that every lower layer follows from the one above.
+The missing arrows are recorded explicitly in `OPEN_JOIN_LEDGER.tsv`.
+
+The most important current contrast is:
+
+- an orderly cell-wide sampled `phi` foliation exists in the tested ensemble;
+- the full metric orchestra usually forms an irreducible four-dimensional weave;
+- a special reciprocal-toric commuting branch reproduces the Hopf seed exactly, but its circles,
+  caps, quotient, section, and matter action are separately supplied;
+- current UDT principles do not select that branch from the retained global alternatives.
+
+The honest frontier is therefore not “one equation short of a complete theory.” UDT still needs an
+operational rule that says which complete metric configuration is realized and how, if at all,
+matter, dynamics, and dimensional scale arise from it.
+
+## 1. Reading and status rules
+
+This reference follows the labels `DERIVED`, `CHOSE`, `WORKING`, `OPEN`, `CONDITIONAL`, `POSIT`, and
+`OBSERVED`. Compound source labels are retained where needed. A result can be exact mathematics and
+still be conditional on premises that UDT has not selected.
+
+The controlling source set and SHA-256 values are in `SOURCE_MANIFEST.tsv`. The mechanical claim map
+is `CLAIM_DEPENDENCY_LEDGER.tsv`. If this narrative disagrees with a cited source, the source wins.
+
+The macro WR-L lane and particle/carrier lane remain separate. Shared notation is not a derived
+coupling. Pre-July-1 material supplies failure provenance only, not affirmative physics.
+
+## 2. Founding and observational inputs
+
+The synchronized July 17 foundation records four central premises:
+
+1. Positional dilation is `FOUNDING`; under H2 it is not demoted by deriving its functional form.
+2. Reciprocal-c is `FOUNDING`: `c` and `c^{-1}` are coequal time-length conversion directions.
+3. Dual UDT Reciprocity is `FOUNDING`: in the supplied faithful pairing it acts contragrediently.
+4. Common-Scale Neutrality is `FOUNDING`: before material scale is selected, a common positive
+   local rescaling is calibration.
+
+The finite mirrored cell is binding for the registered static `phi` seal statement. Static `phi`
+is odd at the seal and vanishes there while its normal derivative remains free. That statement does
+not fix every field, a full coframe lift, topology, boundary action, or charge.
+
+Bootstrap is `WORKING`: realized matter-bearing universes are expected to be complete global
+solutions in a narrow total proper-density window. No density value, center, width, root operator,
+or selection functional has been derived.
+
+Measured ordinary-regime `c_E` and `G_obs` are observational anchors. They calibrate mass per length;
+they do not by themselves select an absolute length or mass.
+
+Exact basis: [cold dispatch](../UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md) and
+[cold packet](../UDT_NATIVE_ACTION_COLD_PACKET.md).
+
+## 3. Reciprocal kinematics
+
+For the dimension-matched comparison pair, the supplied faithful dual formulation is
+
+```text
+q = (c dt, dr),
+P = diag(u,v),
+P^T K P = K.
+```
+
+Dual Reciprocity gives `u v = 1`. Positive additive relative depth, consistent composition,
+reversal, and a regularity premise then give reciprocal exponentials. Up to a chosen sign and unit,
+
+```text
+P(phi) = diag(exp(-phi), exp(+phi)).
+```
+
+After choosing a CSN representative, a local Lorentzian quadratic readout, and the relevant slot
+identification, the clock/parallel block can be written
+
+```text
+g_tt = -exp(-2 phi) c^2,
+g_parallel_parallel = exp(+2 phi).
+```
+
+The inverse relation and exponential dependence are the derived core. The representative,
+Lorentzian readout, full transverse/angular block, sign/unit, observer mechanics, and universal
+identification of the parallel slot with `grad(phi)` are not all derived.
+
+The premise reset is important: physical distance is nonnegative, while `phi` is a signed local
+field. Earlier negative-distance and overextended `Xmax` observer interpretations are not inherited.
+See the [premise reset](../udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md).
+
+## 4. What the foundation does not yet select
+
+Cold independent arms and adversarial adjudication found that the foundation does not specify:
+
+- the complete off-shell field content;
+- locality or nonlocality;
+- full covariance class;
+- derivative order;
+- unrestricted versus reciprocal-restricted variation;
+- a complete finite-cell boundary functional;
+- a native carrier, source, charge, or mass normalization.
+
+The strongest action statements are conditional classifications:
+
+- `C^2`/Bach is `UNIQUE-CONDITIONAL` inside the explicitly named four-dimensional, exact-local-CSN,
+  metric-only, local-covariant, parity-even, curvature-square, unrestricted-variation class.
+- EH is `CONDITIONAL` after a physical representative and scale have been selected and the
+  metric-only/local/covariant/second-order/Lovelock premises are supplied.
+- No bridge from the pre-scale fourth-order class to a post-scale second-order class is derived.
+
+The complete action, variation domain, native source, differentiable boundary action, and normalized
+finite-cell mass remain `OPEN`. See the [final action adjudication](../native_action_final_adjudication_2026-07-18/FINAL_ADJUDICATION_REPORT.md)
+and [GR-to-UDT selector audit](../UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md).
+
+## 5. The local metric grammar
+
+The metric-led instrument atlas varied ten metric amplitudes and `phi`, then examined every nonempty
+combination of the registered Ricci, `phi`-Hessian, gradient-dyad, Ricci-gradient, and Weyl-gradient
+instruments. It found a small repeated vocabulary:
+
+- scalar or silent four-space;
+- a coupled Lorentzian pair plus two lines (`1+1+2`);
+- four separate lines;
+- one line plus a three-space (`1+3`);
+- a full irreducible four-dimensional weave.
+
+The strongest orchestra observation is that clean Ricci and `phi`-Hessian rank-two splits usually
+cross rather than coincide. In all 2,090 clean registered cases their planes shared no line and
+together generated the full weave. This is `OBSERVED_BOUNDED`, not an arbitrary-metric theorem or a
+physical matter identification.
+
+See the [instrument motif atlas](../udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md).
+
+## 6. Transport, distributions, and what survived across a cell
+
+For a smooth complete family of mutually annihilating metric-self-adjoint projectors `P_a`, define
+
+```text
+K = sum_a (nabla_T P_a) P_a.
+```
+
+Projector completeness and idempotence give metric skewness of `K` and
+
+```text
+[K,P_a] = nabla_T P_a.
+```
+
+This is a genuine metric-compatible geometric transport law for projector motifs. It transports
+configuration-space subspaces; it is not physical time evolution.
+
+In the frozen path atlas:
+
+- 95,232 identity/family paths were accounted for;
+- 93,920 have stable sampled motifs;
+- 1,312 contain transitions or uncertainty;
+- 83 deterministic populated-stratum anchors were densely integrated;
+- 76 pass all numerical gates and seven retain explicit derivative-level margins.
+
+The most orderly distribution family contains 1,536 midpoint-integrable `1+1+2` rows. All remain
+sampled-integrable at nine cell nodes. However, they are eight family presentations of only 192
+analytic identities with structural mask `M8`: only the `PHI_FIELD` ensemble is active. This is an
+orderly `phi` solo, not the full angular orchestra.
+
+See the [motif-to-Hopf audit](../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md) and
+[global assembly atlas](../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md).
+
+## 7. Global completion and holonomy
+
+The global assembly atlas retains twelve registered classes: physical-boundary intervals, one- and
+two-cap completions, determinant-zero and lens alternatives, `S3`, nonprimitive/singular caps,
+general `GL(2,Z)` torus bundles, mirror lifts, nonorientable gluing, stratified projector branches,
+nonintegrable distributions, and the conditional reciprocal-toric diagonal class.
+
+The atlas distinguishes four different objects:
+
+1. Kato transport of metric-derived projectors;
+2. Levi-Civita tangent holonomy of a complete metric;
+3. integral lattice monodromy and cap-cycle data;
+4. principal-circle characteristic data after a circle action is supplied.
+
+An open analytic path supplies transport, not holonomy. A local plane supplies neither periods nor a
+torus. Reciprocity, CSN, finite-cell structure, the static seal, and current bootstrap constrain the
+catalogue but do not select one global quotient.
+
+This is the current global stop: `GLOBAL_QUOTIENT_SELECTION_OPEN`.
+
+## 8. The conditional Hopf bridge
+
+The existing particle code is already a genuine three-dimensional Hopfion implementation. It uses
+a full `N x N x N` field, a degree-one Hopf seed, all three spatial derivatives, and a Whitehead/Hopf
+charge. Static stability is settled only inside the recorded round-`S2`, `L2+L4`, coefficient,
+finite-box, fixed-boundary, and discrete-operator premises.
+
+The metric supplies two narrower geometric leads:
+
+- after a conditional four-dimensional Lorentzian conformal readout, every projectivized null cone
+  has a celestial `S2` fiber;
+- in the separately supplied reciprocal-toric class, metric `phi` instruments recover the angular
+  axes, and with periodic circles, opposite primitive caps, a free diagonal or anti-diagonal action,
+  orientation, and normalization, the metric-dual quotient is exactly the degree-one historical
+  Hopf seed.
+
+Neither result derives the carrier. A fiber is not a section; a section is not a fixed round target;
+a quotient is not a deformable matter configuration space; and none of those objects supplies the
+`L2+L4` action.
+
+See the [native topology audit](../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md),
+[angular-toric audit](../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md), and
+[conditional particle decision](../stability_branch_follow_256_DECISION.md).
+
+## 9. The separate macro branch
+
+The WR-L static reciprocal metric has exact and useful identities. Within the supplied static
+spherical reciprocal-areal family, a clock-curvature equation selects the WR-L profile uniquely.
+The equation itself is not forced by the current foundation and is not locally CSN invariant before
+a physical representative is selected.
+
+The WR-L wall has finite proper reach, infinite optical reach, finite curvature, and a regular
+ingoing extension. It is a conditional causal horizon, not a metric-derived hard terminal edge.
+Its raw lapse flux is a real metric quantity but not a native mass without a boundary generator and
+normalization.
+
+The macro and particle lanes must not be joined merely because both use reciprocal language,
+`phi`, `c`, `G`, or a symbol `X`. A shared derived operator and controlled regime map are absent.
+
+See the [clock-curvature audit](../clock_curvature_selector_audit_2026-07-19/AUDIT_REPORT.md) and
+[boundary lineage audit](../asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md).
+
+## 10. Scale, mass, and density
+
+With only total mass `M_tot`, cell scale `Xmax`, measured `c_E`, measured `G_obs`, and dimensionless
+state data, dimensional analysis leaves one independent dimensionless group:
+
+```text
+G_obs M_tot / (c_E^2 Xmax).
+```
+
+Consequently current relations can select compactness or a dimensionless branch, not an absolute
+mass and length. Defining total density as `M_tot/V_tot` adds no independent equation when the same
+solution supplies a volume proportional to `Xmax^3`.
+
+The conditional Hopfion makes the same gap visible microscopically:
+
+claim_id	layer	claim	status	indispensable_premises	evidence_source	remaining_open_scope
+C001	FOUNDATION	Positional dilation is a founding UDT principle	FOUNDING	owner-stated H2 hierarchy	UDT_NATIVE_ACTION_COLD_PACKET.md	its existence is not rederived; observer/global realization remains separately scoped
+C002	FOUNDATION	c and inverse-c are coequal conversion directions	FOUNDING	owner-stated reciprocal-c identity	UDT_NATIVE_ACTION_COLD_PACKET.md	this alone does not force inverse dilation factors
+C003	FOUNDATION	Common positive local scale is calibrational before matter	FOUNDING	Common-Scale Neutrality	UDT_NATIVE_ACTION_COLD_PACKET.md	no physical representative or dimensional scale is selected
+C004	FOUNDATION	The native global arena is a finite mirrored cell rather than spatial infinity	CANONIZED_BINDING_STATIC_SCOPE	finite-cell canon and static phi seal statement	UDT_NATIVE_ACTION_COLD_PACKET.md	full time-live boundary data topology and boundary functional remain open
+C005	FOUNDATION	Realized matter-bearing solutions should close globally in a narrow proper-density window	WORKING	bootstrap statement with rho_tot and fractional width	UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md	no center width equation selection map or native density exists
+C010	KINEMATICS	Dual Reciprocity forces uv=1 in the supplied faithful pairing formalization	DERIVED	founding dual action and P-transpose K P equals K	UDT_NATIVE_ACTION_COLD_PACKET.md	pairing formalization and slot meanings remain explicit premises
+C011	KINEMATICS	Positive additive regular relative depth gives reciprocal exponentials	DERIVED_CONDITIONAL	composition reversal positivity and regularity plus uv=1	UDT_NATIVE_ACTION_COLD_PACKET.md	sign unit and physical phi interpretation are chosen or conditional
+C012	KINEMATICS	The displayed reciprocal Lorentzian clock-parallel metric block is available	CONDITIONAL	chosen CSN representative local Lorentzian readout and slot identification	UDT_NATIVE_ACTION_COLD_PACKET.md	full transverse block observer mechanics and time-live geometry are not derived
+C020	ACTION	C-squared with Bach bulk equations is unique inside the named pre-scale class	UNIQUE_CONDITIONAL	4D exact local CSN metric-only local covariant parity-even lowest curvature-square unrestricted variation	native_action_final_adjudication_2026-07-18/FINAL_ADJUDICATION_REPORT.md	complete action boundary source solution normalization and stability remain open
+C021	ACTION	Einstein-Hilbert is an allowed post-scale comparison route	CONDITIONAL	selected physical representative metric-only locality covariance second-order Lovelock premises	UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md	representative scale coefficient finite-cell boundary source and bridge remain open
+C022	ACTION	The complete native action and variation domain are not selected	OPEN	exact synchronized C0 C1 plus A B C adjudication	native_action_final_adjudication_2026-07-18/FINAL_ADJUDICATION_REPORT.md	fields locality derivative order boundary and source require a native selector
+C030	LOCAL_GEOMETRY	The tested complete local metric and phi instruments assemble into a small motif vocabulary	OBSERVED_BOUNDED	registered 3072 analytic identities and 31 instrument subsets	udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md	not an arbitrary-metric theorem or proof of UDT uniqueness
+C031	LOCAL_GEOMETRY	Ricci and phi-Hessian structures generically cross into a four-dimensional weave	OBSERVED_BOUNDED	clean joint rank-two cases in the registered ensemble	udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md	physical interpretation action and global persistence remain open
+C032	TRANSPORT	A complete smooth self-adjoint projector family has metric-compatible Kato transport	DERIVED_REGISTERED_GEOMETRIC_IDENTITY	fixed-rank complete projector algebra and metric compatibility	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	configuration-space transport is not physical time or closed-loop holonomy
+C033	TRANSPORT	93920 of 95232 registered paths have stable sampled motifs	OBSERVED_BOUNDED	17-node frozen analytic path ensemble	udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md	1312 transitions remain and sampling is not a continuous global theorem
+C034	LOCAL_GEOMETRY	All 1536 midpoint-integrable 1+1+2 candidates remain integrable at nine sampled nodes	OBSERVED_BOUNDED	frozen finite-cell path follow	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	all are phi-field-only presentations of 192 identities and not the full orchestra
+C040	GLOBAL_GEOMETRY	Twelve registered global completion families survive the current selector audit	OBSERVED_BOUNDED_TAXONOMY	registered cap boundary bundle seam and singular alternatives	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	not arbitrary four-manifold completeness and no family is selected
+C041	GLOBAL_GEOMETRY	Registered Reciprocity CSN finite-cell seal and bootstrap do not select one global quotient	OPEN_NOT_SELECTED	seven selector axes crossed with twelve registered completions	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	a future global law may add a selector
+C050	TOPOLOGY	Reciprocal-toric geometry can reproduce the historical degree-one Hopf seed	EXACT_CONDITIONAL	periodic transverse circles reciprocal toric coframe opposite primitive caps free circle action orientation normalization	udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md	UDT does not yet select those global premises or the carrier
+C051	TOPOLOGY	The conformal Lorentzian null-direction fiber is topologically S2	CONDITIONAL_DERIVED_FIBER	inherited 4D conditional Lorentzian readout and projectivized null cone	native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md	no selected section transport round target or carrier boundary follows
+C052	PARTICLE	The existing no-null implementation supports a full 3D static Hopfion branch	SETTLED_STATIC_FINITE_BOX_CONDITIONAL	round S2 carrier L2+L4 action coefficients boundary box and audited discrete operator	stability_branch_follow_256_DECISION.md	native carrier time-live persistence infinite-volume result and unconditional mass remain open
+C060	MACRO	WR-L clock-curvature relations select the WR-L profile if their equation is supplied	UNIQUE_CONDITIONAL	static spherical reciprocal areal family chosen representative and clock-curvature equation	clock_curvature_selector_audit_2026-07-19/AUDIT_REPORT.md	the equation and physical representative are not forced by current foundation
+C061	BOUNDARY	The WR-L wall is a finite-curvature causal horizon rather than a derived hard edge	DERIVED_CONDITIONAL	WR-L static metric family and regular ingoing extension	asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md	global terminality equality with Xmax and native boundary generator remain open
+C070	MASS_SCALE	Measured c_E and G_obs provide mass per length but no absolute mass or length	DERIVED_DIMENSIONAL_SCOPE	variables M_tot Xmax c_E G_obs and dimensionless state data	scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md	an independent dimensional datum or scale-breaking process is absent
+C071	MASS_SCALE	The conditional Hopfion size inherits the coefficient ruler sqrt(kappa over xi)	DERIVED_CONDITIONAL	posited round S2 L2+L4 static scaling family	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	coefficient origin native carrier absolute radius and mass remain open
+C072	MASS_SCALE	Observed density can be used only as external calibration or comparison	OBSERVED_OR_EXTERNAL_ANCHOR	supplied observed total proper density	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	it is not a native selector or derived source
+C073	MASS_SCALE	A noncircular native density route would solve M_native and V_proper in the same global fixed point	OPEN_POTENTIAL_FUTURE_SELECTOR	complete geometry native mass boundary scale and bootstrap response	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	native mass functional off-shell closure response map and scale breaking are missing
+C080	TIME	No native nonlinear physical-time evolution law has been selected	OPEN	global quotient action fields constraints and boundary flux absent	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	no time-live or GPU physics conclusion is authorized
+C090	SYNTHESIS	Metric-native two-form bivector and holonomy structure is a bounded next-question candidate	WORKING	metric Hodge exterior and curvature constructions only	udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md	no such UDT-specific persistent structure has yet been observed or derived
+join_id	upstream_object	downstream_object	current_bridge_evidence	missing_object	prohibited_shortcut	status	bounded_next_test
+J01	reciprocal clock-parallel block	complete time-live metric	conditional local block plus mapped metric amplitudes	transverse slots shifts global chart and native solution law	declaring a diagonal static or spherical ansatz universal	OPEN	formalize the complete configuration and admissibility problem before solving
+J02	local tangent-space weave	persistent global organization	Kato projector transport and sampled path atlas	closed global metric branch and invariant transported object	calling open-path transport physical holonomy	OPEN	map metric-native exterior and bivector structures without selecting a desired topology
+J03	full tangent weave	metric-native bivector or differential-form motif	universal metric Hodge and curvature constructions	UDT-specific simple closed or recurrent form beyond universal Lorentzian structure	identifying the universal Hodge split with matter	WORKING_NEXT_QUESTION	complete Lambda2 invariant-subspace simplicity closure and transport atlas
+J04	registered completion taxonomy	one realized global quotient	selector matrix retains multiple branches	operational global realization or ranking law	choosing S3 caps periodicity or smoothness because they resemble the Hopfion	OPEN	audit reciprocal holonomy and finite-seal consistency across every retained completion
+J05	conditional reciprocal-toric quotient	native S2 carrier	metric-dual connection and exact seed compatibility	selected quotient section target metric framing and boundary	calling a celestial S2 fiber the material carrier	OPEN	remain carrier-neutral until a global section is selected
+J06	carrier or quotient texture	native deformation action	conditional L2+L4 stability and conditional action classifications	variation domain invariant inventory coefficients and boundary completion	importing Faddeev-Skyrme or EH because it works	OPEN	test candidate actions only after the geometric configuration space is selected
+J07	complete action	native matter source	conditional stress identities depend on completion and variation	selected off-shell fields metric dependence and source normalization	varying a static energy as if it were a four-dimensional action	OPEN	derive source with the complete selected variation domain
+J08	native source	finite-cell boundary charge and mass	raw lapse flux and conditional GR readouts	boundary primitive reference orientation integrability and normalization	using Misner-Sharp ADM or asymptotic charge as native input	OPEN	derive a differentiable finite-cell generator before interpreting flux as mass
+J09	native mass and proper volume	bootstrap density fixed point	type-correct simultaneous relation rho equals M_native over V_proper	native mass functional varied global response and density target law	feeding observed density back as a native selector	OPEN	pose density only inside the same complete solution after J08
+J10	dimensionless compactness	absolute Xmax and total mass	c_E and G_obs fix mass per length	independent dimensional datum eigenvalue or homothety-breaking process	counting rho equals M over V as an independent equation	OPEN	reaudit scale only after a new native dimensional object is derived
+J11	static conditional Hopfion	time-live matter persistence	static finite-box stability and topology controls	native time law constraints flux physical boundary and topology propagation	relabeling relaxation as time evolution	OPEN	CPU anchors only after J04 through J07 close
+J12	pre-scale C2 Bach route	post-scale EH-like route	both are conditional action classes	physical representative selection and dynamical matching theorem	assuming scale selection turns fourth-order Bach into second-order EH	OPEN	define whether variation precedes or follows scale and prove any bridge separately
+J13	macro WR-L geometry	particle or mass sector	reciprocal metric language and possible shared finite-cell scale	common native action source boundary generator and controlled regime map	identifying matching symbols c G X or phi as a derived coupling	OPEN	keep lanes separate until a shared derived operator exists
+source_id	path	sha256	role	immutability_status
+S01	UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md	6e977717ca028cabaa198dd14a6a97b3b15740e45485d0ab735f3df0326df192	FOUNDING_STATUS_AND_DERIVATION_RULES	REFERENCE_PINNED_ROOT_SOURCE
+S02	UDT_NATIVE_ACTION_COLD_PACKET.md	d38232792ac78188687db433a3f60a08c775c46e9ecf5fc42ad7953dc89fadb0	EXACT_C0_C1_FOUNDATION_AND_RECIPROCAL_METRIC	REFERENCE_PINNED_ROOT_SOURCE
+S03	native_action_final_adjudication_2026-07-18/FINAL_ADJUDICATION_REPORT.md	71ed06c21c3ef683d0579f2a883584b4f612de4f1b09e16300702b204d437eda	ACTION_SOURCE_BOUNDARY_AND_MASS_ADJUDICATION	FROZEN_PACKAGE_SOURCE
+S04	UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md	db4a426b021e375fa4bca0d870aaf973de319de3b08072195d001a056630832d	GR_COMPARISON_AND_VARIATION_DOMAIN_FORK	REFERENCE_PINNED_ROOT_SOURCE
+S05	udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md	fc1c3d9edb7ce87415470da09c01cf2223ec4fa2022ee4565f32d77ccbc50ada	CORRECTED_OWNER_MEANINGS_AND_WITHDRAWN_FRAME_CLAIMS	FROZEN_PACKAGE_SOURCE
+S06	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	4e1178a7993a6f3f3e94713df27d0ab8c140b96ef613c5fa09099af72941cb8b	CONDITIONAL_S3_HOPF_AND_GLOBAL_TORIC_SELECTORS	FROZEN_PACKAGE_SOURCE
+S07	native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md	df0171eb83d75ad175727a8db541df8500b7826edf6059ae63a52f1a1ba15bea	NATIVE_TOPOLOGY_AND_CONDITIONAL_CARRIER_STATUS	FROZEN_PACKAGE_SOURCE
+S08	boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md	5b9fd3563e02ecd8907e0ac632412e3bb1784893c1a66ff2812724f23c71d25d	CSN_REPRESENTATIVE_AND_BOOTSTRAP_SELECTOR_LIMITS	FROZEN_PACKAGE_SOURCE
+S09	clock_curvature_selector_audit_2026-07-19/AUDIT_REPORT.md	4b41149cabf6ceb735c6a5b43847c0434572ecf19b8cd386d29ad12a7536de0a	WRL_CLOCK_CURVATURE_UNIQUE_CONDITIONAL_SELECTOR	FROZEN_PACKAGE_SOURCE
+S10	asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md	bf10dc2d525e26723ee2eb2eaacf368ad8546e76b0a8d3ba0d3baa0b9639d11d	FINITE_WALL_CAUSAL_BOUNDARY_AND_MASS_LIMITS	FROZEN_PACKAGE_SOURCE
+S11	scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md	f3cca19566a1ae3653e28e4e015039623c8be2ec7454b2e12a9859bcca45c67b	DIMENSIONAL_RANK_AND_ABSOLUTE_SCALE_NO_GO_SCOPE	FROZEN_PACKAGE_SOURCE
+S12	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	521f6b1e80ea7d7cd1a3993fe4873f4b8dc5e4eee7f586924a5813bad78ac966	CONDITIONAL_SOLITON_RULER_AND_NATIVE_MASS_GAP	FROZEN_PACKAGE_SOURCE
+S13	udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md	057e2a2a71c342523c7a27c6ed4ffd80b69eae7840ea360ca3d59340539f7306	LOCAL_METRIC_INSTRUMENT_AND_MOTIF_CENSUS	FROZEN_PACKAGE_SOURCE
+S14	udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md	d67c3b812e2fe8f6d31cf4a544b47d86a2d87c4b81ca2cc7aa81ea638d86ea82	PATH_FROBENIUS_AND_CONDITIONAL_HOPF_CORRESPONDENCE	FROZEN_PACKAGE_SOURCE
+S15	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	7a596530a78a75aec03bac6f35db31ebe534e0115ca51dda64acffd0c781844a	TRANSPORT_GLOBAL_COMPLETION_AND_DENSITY_BOOTSTRAP_ATLAS	FROZEN_PACKAGE_SOURCE
+S16	stability_branch_follow_256_DECISION.md	9806bc8f61b94109080699f00d8a758f1afc935db18a11f07dbe7365a61811d5	CONDITIONAL_STATIC_PARTICLE_STABILITY_SCOPE	REFERENCE_PINNED_ROOT_SOURCE
+
+exec
+/bin/bash -lc "wc -l REFERENCE.md CLAIM_DEPENDENCY_LEDGER.tsv OPEN_JOIN_LEDGER.tsv SOURCE_MANIFEST.tsv
+sed -n '215,360p' REFERENCE.md" in /tmp/udt_metric_review_T_Jh03Lq/udt_metric_to_frontier_reference_2026-07-22
+ succeeded in 0ms:
+  373 REFERENCE.md
+   30 CLAIM_DEPENDENCY_LEDGER.tsv
+   14 OPEN_JOIN_LEDGER.tsv
+   17 SOURCE_MANIFEST.tsv
+  434 total
+3. integral lattice monodromy and cap-cycle data;
+4. principal-circle characteristic data after a circle action is supplied.
+
+An open analytic path supplies transport, not holonomy. A local plane supplies neither periods nor a
+torus. Reciprocity, CSN, finite-cell structure, the static seal, and current bootstrap constrain the
+catalogue but do not select one global quotient.
+
+This is the current global stop: `GLOBAL_QUOTIENT_SELECTION_OPEN`.
+
+## 8. The conditional Hopf bridge
+
+The existing particle code is already a genuine three-dimensional Hopfion implementation. It uses
+a full `N x N x N` field, a degree-one Hopf seed, all three spatial derivatives, and a Whitehead/Hopf
+charge. Static stability is settled only inside the recorded round-`S2`, `L2+L4`, coefficient,
+finite-box, fixed-boundary, and discrete-operator premises.
+
+The metric supplies two narrower geometric leads:
+
+- after a conditional four-dimensional Lorentzian conformal readout, every projectivized null cone
+  has a celestial `S2` fiber;
+- in the separately supplied reciprocal-toric class, metric `phi` instruments recover the angular
+  axes, and with periodic circles, opposite primitive caps, a free diagonal or anti-diagonal action,
+  orientation, and normalization, the metric-dual quotient is exactly the degree-one historical
+  Hopf seed.
+
+Neither result derives the carrier. A fiber is not a section; a section is not a fixed round target;
+a quotient is not a deformable matter configuration space; and none of those objects supplies the
+`L2+L4` action.
+
+See the [native topology audit](../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md),
+[angular-toric audit](../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md), and
+[conditional particle decision](../stability_branch_follow_256_DECISION.md).
+
+## 9. The separate macro branch
+
+The WR-L static reciprocal metric has exact and useful identities. Within the supplied static
+spherical reciprocal-areal family, a clock-curvature equation selects the WR-L profile uniquely.
+The equation itself is not forced by the current foundation and is not locally CSN invariant before
+a physical representative is selected.
+
+The WR-L wall has finite proper reach, infinite optical reach, finite curvature, and a regular
+ingoing extension. It is a conditional causal horizon, not a metric-derived hard terminal edge.
+Its raw lapse flux is a real metric quantity but not a native mass without a boundary generator and
+normalization.
+
+The macro and particle lanes must not be joined merely because both use reciprocal language,
+`phi`, `c`, `G`, or a symbol `X`. A shared derived operator and controlled regime map are absent.
+
+See the [clock-curvature audit](../clock_curvature_selector_audit_2026-07-19/AUDIT_REPORT.md) and
+[boundary lineage audit](../asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md).
+
+## 10. Scale, mass, and density
+
+With only total mass `M_tot`, cell scale `Xmax`, measured `c_E`, measured `G_obs`, and dimensionless
+state data, dimensional analysis leaves one independent dimensionless group:
+
+```text
+G_obs M_tot / (c_E^2 Xmax).
+```
+
+Consequently current relations can select compactness or a dimensionless branch, not an absolute
+mass and length. Defining total density as `M_tot/V_tot` adds no independent equation when the same
+solution supplies a volume proportional to `Xmax^3`.
+
+The conditional Hopfion makes the same gap visible microscopically:
+
+```text
+E(R) = xi A R + kappa B/R,
+R_star = sqrt(kappa/xi) sqrt(B/A).
+```
+
+Its finite size inherits the coefficient ruler `sqrt(kappa/xi)`. Hopf charge is dimensionless and
+does not select that ruler.
+
+A future noncircular density architecture is logically possible:
+
+```text
+solve geometry, native matter/mass, boundary, volume and scale together;
+rho_solution = M_native[g,fields] / V_proper[g];
+require that rho_solution closes the same global bootstrap problem.
+```
+
+Here density is an output returned to the same fixed point, not an observed number inserted at the
+start. This remains `OPEN_POTENTIAL_FUTURE_SELECTOR` because UDT has no native mass functional,
+varied response map, density-center law, or homothety-breaking datum.
+
+See the [scale census](../scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md),
+[matter dimensional inventory](../matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md),
+and [global assembly density ledger](../udt_global_metric_assembly_atlas_2026-07-22/DENSITY_BOOTSTRAP_CIRCULARITY_LEDGER.tsv).
+
+## 11. A working whole-theory interpretation
+
+The following is `WORKING SYNTHESIS`, not a derived theorem:
+
+- `phi` supplies reciprocal depth and, in the mapped ensemble, an orderly foliation tendency.
+- Angular, curvature, gradient, and shift sectors normally cross it into a four-dimensional weave.
+- Matter-like structure may require a globally persistent organization of that weave rather than a
+  separate scalar lump or one privileged local eigendirection.
+- Bootstrap may eventually select complete finite-cell organizations rather than locally evolve a
+  preselected particle.
+- A deformation law, mass, and density would then belong downstream of the selected whole geometry.
+
+This interpretation fits the metric evidence without promoting any missing arrow. It can be wrong:
+UDT may require an independent carrier, the full weave may have no matter interpretation, or the
+realization rule may enter at a different layer.
+
+## 12. The proposed next metric-led map
+
+The full tangent-space weave motivates—but does not establish—a different representation to inspect.
+Twist, flux, holonomy, linking, and boundary charge are naturally expressed through oriented area
+elements and differential forms. The metric itself supplies wedge products, the Hodge operation,
+Levi-Civita curvature two-forms, and induced transport on bivectors.
+
+The bounded candidate question is:
+
+> When the registered tangent instruments are irreducible, does their complete metric-induced
+> action on two-forms preserve any recurring simple bivector, dual pair, closed/co-closed form,
+> contact seed, or restricted holonomy structure beyond the universal structure of an arbitrary
+> four-dimensional Lorentzian metric?
+
+This is `WORKING`, not evidence that such a structure exists. It must not target a Hopf answer. A
+valid atlas must retain every induced motif, explicitly separate real/complex Hodge structure,
+test bivector simplicity and closure, transport stable branches, and classify universal controls.
+Rediscovering only the universal Hodge split is a negative for UDT-specific emergence.
+
+An independent but related global question is whether full reciprocal coframe transport around a
+selected finite-cell seam could impose a monodromy consistency condition. That question cannot be
+posed physically until the seam/loop itself is selected or all retained completions are tested in
+parallel.
+
+## 13. Why a realization principle remains central
+
+The current premises define a class of allowed kinematics and global constraints. They do not yet
+define a complete mathematical solution concept. Bootstrap says that the realized universe closes
+self-consistently, but does not specify whether closure is:
+
+- a fixed point of a whole-solution map;
+- stationarity of a functional;
+- a two-ended boundary eigenproblem;
+- reciprocal transport/holonomy closure;
+- or another operation.
+
+Formalizing one of those without a source derivation would invent a premise. The next conceptual
+audit should therefore ask what operational content is already implicit in the registered word
+“bootstrap,” and where an additional datum is genuinely unavoidable.
+
+
+exec
+/bin/bash -lc "sed -n '360,430p' REFERENCE.md" in /tmp/udt_metric_review_T_Jh03Lq/udt_metric_to_frontier_reference_2026-07-22
+ succeeded in 0ms:
+
+## 14. Ranked next decisions
+
+1. **Now:** cold-audit this reference for hidden promotions and missing joins.
+2. **Most promising metric-led map if the audit survives:** a complete two-form/bivector and induced
+   holonomy atlas, with universal Lorentzian controls and no target topology.
+3. **Parallel conceptual audit:** determine whether registered bootstrap already defines any
+   operational realization map; do not choose an action to make it do so.
+4. **Only after global selection:** derive deformation space and test action candidates.
+5. **Only after native source/charge:** return to mass, scale, and simultaneous density closure.
+6. **Only after native nonlinear time law:** run bounded CPU time-live anchors, then consider GPU
+   exploration.
+
+No item after the cold audit is authorized merely by this reference.
+
+exec
+/bin/bash -lc "sha256sum -c <(awk -F '\\t' 'NR>1 {print "'$3"  ../"$2}'"' SOURCE_MANIFEST.tsv)
+rg -n \"holonomy|monodromy|cocycle|transition|seam|characteristic|Chern|Euler|Stiefel|spin|orient|cap|Reciprocity|mirror|Hopf|lens|GL\\(2|completion|quotient|seal\" ../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md ../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md ../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md ../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md ../UDT_NATIVE_ACTION_COLD_PACKET.md" in /tmp/udt_metric_review_T_Jh03Lq/udt_metric_to_frontier_reference_2026-07-22
+ succeeded in 0ms:
+../UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md: OK
+../UDT_NATIVE_ACTION_COLD_PACKET.md: OK
+../native_action_final_adjudication_2026-07-18/FINAL_ADJUDICATION_REPORT.md: OK
+../UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md: OK
+../udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md: OK
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md: OK
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md: OK
+../boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md: OK
+../clock_curvature_selector_audit_2026-07-19/AUDIT_REPORT.md: OK
+../asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md: OK
+../scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md: OK
+../matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md: OK
+../udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md: OK
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md: OK
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md: OK
+../stability_branch_follow_256_DECISION.md: OK
+../UDT_NATIVE_ACTION_COLD_PACKET.md:27:### 1.2 Reciprocal-c Identity and UDT Reciprocity
+../UDT_NATIVE_ACTION_COLD_PACKET.md:33:**FOUNDING**—provenance: synchronized by the governing dispatch. The UDT Reciprocity Principle acts dually on
+../UDT_NATIVE_ACTION_COLD_PACKET.md:51:to make positional action contragredient is the stated content of UDT Reciprocity and is not a
+../UDT_NATIVE_ACTION_COLD_PACKET.md:55:full synchronized ledger, where dual UDT Reciprocity is founding.
+../UDT_NATIVE_ACTION_COLD_PACKET.md:86:UDT Reciprocity, composition, and the explicit regularity premise put the *reciprocal exponential
+../UDT_NATIVE_ACTION_COLD_PACKET.md:132:- a matter carrier, four-dimensional matter completion, or coupling weight;
+../UDT_NATIVE_ACTION_COLD_PACKET.md:142:UDT's native global setting is a finite mirrored cell, not an asymptotically flat spatial infinity.
+../UDT_NATIVE_ACTION_COLD_PACKET.md:148:  C-2026-06-10-2 as clarified by C-2026-07-04-1. The spatial-depth mirror makes `phi` odd at the
+../UDT_NATIVE_ACTION_COLD_PACKET.md:149:  seal, so its value vanishes there while its normal derivative is free;
+../UDT_NATIVE_ACTION_COLD_PACKET.md:238:- measure, orientation, finite-cell boundary functional, and allowed boundary variations;
+../UDT_NATIVE_ACTION_COLD_PACKET.md:240:- every four-dimensional completion of the supplied static functional;
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:1:# Native Hopfion Topology Audit — Report
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:13:three-dimensional Hopfion. The July 5 H3 object and the later corrected no-null carrier are already
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:14:explicit full-3D Faddeev-Skyrme Hopfions: a unit three-vector field on a Cartesian `N x N x N` grid,
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:15:a degree-one Hopf seed, a toroidal seed, and a Whitehead/Hopf charge implementation. The corrected
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:21:test branch. Thus the repository has genuinely studied and stabilized a 3D Hopfion, but it has not
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:22:shown why the UDT metric must carry that Hopfion field.
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:30:- `hopf_seed` explicitly performs inverse stereographic `R3 -> S3` followed by the Hopf map
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:34:- `noNull_energy.py` uses all eight forward/backward orientations in three spatial dimensions;
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:36:  orientation-averaged Hopf charges.
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:39:in `pi3(S3)`. The current object is an `S3 -> S2` Hopf texture with linking charge in `pi3(S2)`.
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:55:1. The standard Hopf map built from an `S3` spinor lands exactly on `S2`.
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:56:2. In Hopf coordinates, the connection
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:59:3. A radial `S2` hedgehog has primary flux `4*pi`; it is not the zero-primary-flux localized Hopf
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:78:Quotienting the nonzero line scale leaves an `S2` of null directions. If a time orientation is
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:94:  intrinsic bundle-level Hopf construction; comparing directions between events likewise needs a
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:96:- current Reciprocity/CSN does not select a unique line, as the reciprocal-line audit already shows;
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:104:null-direction sphere. UDT would become distinctive only if Reciprocity, finite-cell structure, or
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:118:This makes the local Hopf sector mathematically legitimate without requiring the entire universe to
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:120:Exact C1 fixes the static `phi` parity at the finite-cell seal but explicitly leaves boundary data for
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:122:finite-cell carrier completion; the later boundary-virial audit also finds a non-negligible pinned-wall
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:125:Co-presence changes the interpretation, not this mathematical gate. A complete spacetime Hopf world
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:127:field law and boundary completion. Co-presence alone does not prevent unwinding, boundary escape, or
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:137:| Existing representation | `FULL_3D_HOPF_CAPABLE` | The active H3/no-null code is genuinely three-dimensional and directly measures Hopf charge. |
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:148:The next conceptual question is not whether Faddeev-Skyrme mathematics supports a Hopfion; that has
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:155:if the section, connection, or boundary is chosen merely to reproduce the existing Hopfion. Only if
+../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md:161:- No native carrier or Hopfion has been derived from C0/C1.
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:28:quotient, its weights must satisfy
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:34:That leaves diagonal and anti-diagonal actions and their orientation reversals, giving conditional
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:39:Beyond fixing the physical finite mirrored-cell, monotonic-domain, and no-spatial-infinity setting,
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:40:finite-cell canon's only toric-relevant field datum is static `phi` parity/value at the seal. CSN removes positive
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:41:common scale on the interior but does not provide a cap. Bootstrap is presently an on-shell
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:42:admissibility principle, not a topology-ranking or boundary-completion equation.
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:49:two circular directions used by a Hopf geometry. This audit asked what happens if those circles are
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:59:anti-diagonal Hopf rotations.
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:61:This greatly narrows where the missing idea can be. The problem is no longer the Hopf mathematics
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:84:controls the lattice quotient. In the standard orientable toric completion:
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:87:- `p>1` gives lens-space classes, with the additional gluing integer distinguishing `q`;
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:88:- `p=0` leaves a nontrivial free circle and gives `S2 x S1` in the standard orientable same-cycle
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:89:  completion;
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:94:Even if an angular exchange mirror is supplied by hand, it does not select `p=1`. For
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:114:These are exemplars rather than a complete mirror census. Thus even an angular interpretation of
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:115:Reciprocity as circle exchange is weaker than a global cap rule.
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:126:caps at the two reciprocal extremes. A diagonal coefficient can vanish only along its corresponding
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:132:It does not prove the premises. A general toric completion may rotate the collapsing cycle through
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:133:off-diagonal metric data or use multiple integral charts near a cap. C1 explicitly leaves the
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:134:transverse block and off-diagonal terms open. Primitive determinant-`p` lens alternatives therefore
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:138:The `p=3` and `p=5` rows are catch-proofs, not the whole lens family. The family ledger separately
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:139:retains every primitive `p>1` lens class with its admissible gluing integer `q`, as well as incomplete
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:143:## Finite mirror witnesses without caps
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:159:is an isometry. The scalar `phi=sin(sigma)` is odd and vanishes at the mirror seal, yet there are no
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:160:caps and the spatial topology is not `S3`.
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:164:double-cover/local-parity witness showing that oddness plus exchange contains no algebraic cap
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:169:foundation-compatible bounded no-cap family when a physical boundary is retained. The boundary
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:170:functional is currently open, so that family cannot be excluded by silently choosing a cap. This
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:188:Both are mirror-symmetric under `eta -> pi/2-eta` with circle exchange. Both have the same smooth
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:189:primitive cap slopes. More strongly, exact even/odd identities of `H`, the collapsing radius, and
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:190:the spectator radius at both endpoints establish analytic cap parity to all orders. Both have
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:201:does not select the round radial completion. An action or other field equation would be needed to
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:221:stabilizers. Their quotients are weighted/orbifold alternatives, not an ordinary principal
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:234:weight magnitudes, not the chirality and not the physical requirement that UDT possess this quotient.
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:238:### Reciprocity
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:240:Reciprocity supplies the determinant-one exponential comparison pair. Within the Hopf-coordinate
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:248:metric-dual connection. At a genuine cap, an orbit coefficient or determinant representative
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:249:degenerates. Smooth cap completion is additional global/boundary information, not a positive CSN
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:254:The binding canon fixes a monotone finite domain terminated by a physical mirrored boundary/fold,
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:256:`phi` condition: `phi` is odd at the seal, its value is zero, and its normal derivative remains free.
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:258:nothing about a transverse torus lattice, angular exchange, endpoint collapse cycles, or a quotient
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:267:operator that compares and ranks `T3`, `S3`, lens, boundary-cylinder, round, or non-round closures.
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:277:| Does angular exchange mirror select `S3`? | `NO` | Primitive mirror pairs realize multiple determinant classes. |
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:278:| Do global diagonal reciprocal eigen-caps select `S3`? | `YES, UNIQUE-CONDITIONAL` | Opposing primitive coordinate cycles have determinant one. |
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:279:| Does smoothness select the round completion? | `NO` | An explicit smooth non-round, non-conformal family shares the same orbit block and cap jets. |
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:280:| Does a free smooth circle quotient select the Hopf weights? | `YES, UNIQUE-CONDITIONAL` | Freeness at both exceptional circles requires `|m|=|n|=1`. |
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:282:| Does finite-cell canon supply toric caps? | `NO` | Beyond its physical finite mirrored/monotone/no-infinity setting, its toric-relevant datum is only static `phi` parity/value; no torus lattice, cap cycle, or boundary functional follows. |
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:284:| Is the carrier/action derived? | `NO / OPEN` | A canonical quotient witness is not `Map(S3,S2)` or its dynamics. |
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:301:two together produce a global diagonal two-torus with smooth opposing primitive eigen-caps, the rest
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:303:quotient reduces the circle weights to diagonal/anti-diagonal choices. If either gate produces a
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:304:different transverse block or boundary, the Hopf route may remain only a conditional control.
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:312:- domain: toric cohomogeneity one, including caps, finite boundaries, generic lens/gluing families,
+../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:324:- No global `S3`, `T3`, lens space, cap, or boundary was adopted.
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:51:The global taxonomy retains 12 parametric completion families, including physical boundaries,
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:52:one-cap boundaries, determinant-zero same-cycle caps, determinant-one `S3`, all determinant-`p>1`
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:53:lens families, nonprimitive/singular caps, general `GL(2,Z)` torus bundles, mirror lifts,
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:54:nonorientable gluing, projector strata, nonintegrable distributions, and the conditional globally
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:58:Registered Reciprocity, Common-Scale Neutrality, finite-cell/seal data, bootstrap, and the current
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:59:scale/matter inventory do not select one quotient class. Accordingly:
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:78:There are 93,920 stable sampled paths and 1,312 transition or uncertain paths. All appear exactly
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:109:proper subbundle. An open path supplies transport, not holonomy.
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:135:claim to be the missing angular/Hopf assembly.
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:138:reciprocal-toric axis/Hopf witness is consequently still a special conditional commuting stratum,
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:141:## Stage 3 — global completion catalogue
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:143:`COMPLETION_CLASS_REGISTRY.tsv` records 12 parametric families. Infinite cap and monodromy families
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:146:The cap witness census uses every canonical primitive vector with coefficients bounded by three,
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:153:| lens `p>1` | 182 |
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:155:These counts are arithmetic controls, not frequencies and not an exhaustion of the infinite cap
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:158:Eight explicit `GL(2,Z)` controls cover identity, finite elliptic, parabolic, hyperbolic, and
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:159:orientation-reversing mapping-torus classes. The parametric family is not reduced to those eight
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:162:two orientation-reversing witnesses.
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:164:Every one of seven motif/transition/control classes is crossed with every completion family in the
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:168:## Stage 4 — bundle and holonomy data
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:173:2. Levi-Civita tangent holonomy of a complete metric;
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:174:3. integral torus-lattice monodromy and cap-cycle data; and
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:175:4. principal-circle characteristic data after a free circle action is supplied.
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:178:holonomy. The completion registry supplies parametric data for object 3. Object 2 remains
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:180:reciprocal-toric control after periods, action, caps, orientation, and normalization are disclosed.
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:195:The 84-row selector matrix applies seven exact selector/status axes to all 12 completion families.
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:197:- Reciprocity constrains reciprocal ratios and transition parity. It does not supply a cover,
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:198:  periods, cap vectors, orientation, or a circle action.
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:201:- The finite-cell canon removes spatial infinity and supplies a physical mirrored-cell setting. It
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:202:  does not choose retained boundary versus cap, cap cycles, or a complete seal lift.
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:203:- The static seal statement constrains `phi`, while several complete coframe/angular lifts survive.
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:210:Multiple current-compatible or conditional branches therefore remain. `S3` and the free Hopf
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:211:action remain unique only inside their previously supplied toric eigencap premises.
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:237:The preregistered gate for Stage 6 requires one selected quotient together with its distribution,
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:238:gluing/periodicity, action, orientation status, and boundary completion. That gate fails because no
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:239:quotient is selected. No configuration space or metric-induced reduced action was invented.
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:252:- checks all cap determinants and all monodromy witnesses;
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:253:- verifies all 84 motif/completion and all 84 selector rows;
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:267:reproduced the corrected monodromy classes; every selector source was checked through the contents
+../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:281:   holonomy, phi-solo/orchestra, density-input/output, and Stage-6/7 boundaries.
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:1:# UDT Motif-to-Hopf Correspondence Audit
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:15:The overall motif-to-Hopf correspondence remains a `LEAD`.
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:19:The new motif vocabulary does connect to the Hopf program, but at two sharply different levels.
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:42:primitive caps are separately supplied, the metric-dual connection is independent of `Omega` and
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:43:has conditional unit Hopf class. Its quotient map is exactly the same degree-one Hopf map used by
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:46:This is a direct vocabulary-to-Hopf `LEAD`: the registered metric instruments exhibit local
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:48:axes into the exact Hopf seed geometry. It is a geometric precursor and conditional compatibility
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:78:The remaining 1,312 paths contain a motif transition or numerical margin. None was dropped. The
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:79:complete transition census is `FAMILY_TRANSITION_CENSUS.tsv`.
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:86:global continuation, or holonomy. Under the explicit zero-constant cubic polynomial maps defined by
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:89:unmatched transition edges. Of 67,456 point comparisons, 67,396 were classified on both sides, 33
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:109:  the gradient alone is not a generic Hopf carrier.
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:110:- Rank-one distributions are locally integrable by dimension, but remain unoriented lines.
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:112:Nonzero Frobenius obstruction is a local twist/anholonomy diagnostic. The tensor formula is valid,
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:114:full census is therefore certified only in that chart. It is not a Hopf integer. No local family was assigned a
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:115:compact domain, periodicity, cap, orientation lift, or global transition cocycle; therefore all
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:152:selected free diagonal/anti-diagonal action, orientation, and normalization give `|Q|=1`.
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:157:Arbitrary positive `A,Omega` do not inherit periodicity or cap regularity from the local projectors.
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:159:## Comparison with the existing Hopf soliton
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:161:The quotient map is
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:175:the degree-one Hopf map implemented by `hopf_seed` following inverse stereographic
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:198:3. the diagonal/anti-diagonal free circle action and orientation;
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:199:4. opposite regular caps or an equivalent finite-cell completion;
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:200:5. a configuration space allowing metric-derived quotient textures to deform; and
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:228:  unmatched transition edges;
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:231:  with the metric quotient to `1.3711254354120683e-14`; and
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:282:- every 1,312 transition/margin path, 22,304 more comparisons;
+../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:307:   and action functional; periodicity, caps, boundary, scale, source, and mass remain explicit.
+
+exec
+/bin/bash -lc "sed -n '1,330p' udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md
+sed -n '1,230p' udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md
+sed -n '1,330p' angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md" in /tmp/udt_metric_review_T_Jh03Lq
+ succeeded in 0ms:
+# UDT Global Metric-Assembly Atlas
+
+Date: 2026-07-22
+
+Status: `VERIFIED_WITH_REGISTERED_NUMERIC_MARGINS__FRESH_CORRECTION_REVIEW_PASS`
+
+Maximum conclusion:
+
+`BOUNDED_REGISTERED_GLOBAL_METRIC_ASSEMBLY_ATLAS_CHARACTERIZED__GLOBAL_QUOTIENT_SELECTION_OPEN`
+
+## Result first
+
+The atlas closes the first four requested mapping stages inside its preregistered registry, audits
+the fifth selector stage, and stops at the activation gates for Stages 6 and 7.
+
+The most important positive result is a metric-compatible continuous transport law for any smooth
+complete projector motif. For mutually annihilating metric-self-adjoint projectors `P_a`, define
+
+```text
+K = sum_a (nabla_T P_a) P_a,
+nabla_T U = K U.
+```
+
+Differentiating projector completeness and idempotence gives
+
+```text
+K is metric-skew,
+[K,P_a] = nabla_T P_a.
+```
+
+Therefore `U` preserves the endpoint metric and intertwines the projector subspaces. This is a
+native geometric connection for the motif bundles. It is not physical time evolution.
+
+Across all 83 populated stable `(motif,instrument-family)` strata, deterministic dense anchors were
+integrated at 33, 65, and 129 nodes. Seventy-six pass all preregistered transport gates. Seven retain
+strict derivative-level numerical margins; their endpoint intertwining, metric-isometry, and RK4
+refinement residuals remain small, but they are not promoted. Exact symbolic Lorentzian and
+reciprocal-toric controls pass, and a separate `DOP853` implementation independently reproduces one
+`FOUR_LINES`, one `LINE_PLUS_THREE`, and one `TWO_PLUS_TWO_LINES` transport anchor.
+
+The finite-cell-path follow-up also found a coherent subfamily. Every one of the 1,536 frozen
+midpoint-integrable `1+1+2` identity/family rows remains locally integrable on both complementary
+rank-two sides at all nine sampled path nodes. This is not a midpoint accident.
+
+Its provenance sharply limits the interpretation: all 1,536 rows come from structural mask `M8`,
+where only `PHI_FIELD` is active. They are eight instrument-family presentations of 192 analytic
+identities. Thus the coherent integrable branch is the orderly `phi`-field/Hessian solo already
+suspected to form nested surfaces. It is not a full metric-angular orchestra, not two commuting
+periodic generators, and not a metric-derived torus or carrier.
+
+The global taxonomy retains 12 parametric completion families, including physical boundaries,
+one-cap boundaries, determinant-zero same-cycle caps, determinant-one `S3`, all determinant-`p>1`
+lens families, nonprimitive/singular caps, general `GL(2,Z)` torus bundles, mirror lifts,
+nonorientable gluing, projector strata, nonintegrable distributions, and the conditional globally
+diagonal reciprocal-toric class. No family is removed for failing to resemble matter or the desired
+universe.
+
+Registered Reciprocity, Common-Scale Neutrality, finite-cell/seal data, bootstrap, and the current
+scale/matter inventory do not select one quotient class. Accordingly:
+
+- Stage 6: `NOT_ACTIVATED__GLOBAL_QUOTIENT_NOT_SELECTED`;
+- Stage 7: `NOT_ACTIVATED__NATIVE_DYNAMICS_UNDEFINED`;
+- CPU time-live evolution runs: `0`;
+- GPU runs: `0`.
+
+## Stage 1 — continuous projector transport
+
+The frozen atlas contains 95,232 identity/family paths:
+
+| stable motif | paths |
+|---|---:|
+| full irreducible four-dimensional weave | 70,812 |
+| scalar/silent | 11,328 |
+| `1+1+2` | 7,845 |
+| `1+3` | 2,880 |
+| four lines | 1,055 |
+
+There are 93,920 stable sampled paths and 1,312 transition or uncertain paths. All appear exactly
+once in `PATH_ASSEMBLY_CENSUS.tsv.gz`. Transition paths receive no invented fine bundle.
+
+The connection theorem follows directly from the complete projector algebra. With
+`sum_a P_a=I`, `P_a P_b=delta_ab P_a`, and metric compatibility:
+
+```text
+K^dagger = sum_a P_a nabla_T P_a = -K,
+[K,P_a] = nabla_T P_a.
+```
+
+The numerical equation in coordinates is
+
+```text
+dU/ds = (K-Gamma_T) U.
+```
+
+The dense-anchor census is:
+
+| status | anchors |
+|---|---:|
+| `DENSE_TRANSPORT_PASS` | 76 |
+| `DENSE_TRANSPORT_NUMERIC_MARGIN_RETAINED` | 7 |
+
+The seven margins are listed in `NUMERIC_MARGIN_LEDGER.tsv`. They arise in finite-difference checks
+of the exact metric-skew/commutator identities. The largest endpoint metric-isometry residual among
+them is about `2.26e-9`, and the largest 65-to-129-node transport refinement is about `1.39e-7`.
+The largest derivative identity residual is about `2.85e-6`, above the fixed `2e-7` gate. The exact
+theorem remains valid; those numerical rows remain unresolved at the registered threshold.
+
+Scalar and full-irreducible motifs transport the whole tangent space but supply no distinguished
+proper subbundle. An open path supplies transport, not holonomy.
+
+## Stage 2 — following the locally integrable candidates
+
+The frozen midpoint atlas contains:
+
+- 8,205 `1+1+2` identity/family rows;
+- 6,669 with nonintegrable Lorentz/two-line complementary planes at the midpoint;
+- 1,536 with both sides integrable there.
+
+All 1,536 candidate rows were followed at `t=j/8`, `j=0..8`, retaining the original two stencil
+steps and thresholds. The result is exactly 13,824 node rows, all
+`BOTH_SIDES_SAMPLED_INTEGRABLE`.
+
+The complete provenance is:
+
+```text
+structural mask: M8 = PHI_FIELD only
+unique analytic identities: 192
+instrument-family presentations per identity: 8
+identity/family rows: 1,536
+```
+
+The eight families all contain `H`; any listed `R`, `RG`, or `WG` operator is zero in this
+structural mask. This is why the rows must not be interpreted as 1,536 independent geometric
+mechanisms. The result strengthens the `phi`-foliation observation and simultaneously weakens its
+claim to be the missing angular/Hopf assembly.
+
+The generic full orchestra remains dominated by the irreducible four-dimensional weave. The exact
+reciprocal-toric axis/Hopf witness is consequently still a special conditional commuting stratum,
+not a branch selected or even reproduced by the `PHI_FIELD`-only integrable census.
+
+## Stage 3 — global completion catalogue
+
+`COMPLETION_CLASS_REGISTRY.tsv` records 12 parametric families. Infinite cap and monodromy families
+are represented by exact rules plus bounded arithmetic witnesses.
+
+The cap witness census uses every canonical primitive vector with coefficients bounded by three,
+giving 256 ordered pairs:
+
+| class | bounded witnesses |
+|---|---:|
+| dependent/same-cycle `p=0` | 16 |
+| determinant-one `S3` | 58 |
+| lens `p>1` | 182 |
+
+These counts are arithmetic controls, not frequencies and not an exhaustion of the infinite cap
+family. The exact general rule remains `p=|det(v_-,v_+)|`.
+
+Eight explicit `GL(2,Z)` controls cover identity, finite elliptic, parabolic, hyperbolic, and
+orientation-reversing mapping-torus classes. The parametric family is not reduced to those eight
+witnesses. Their corrected class census is three finite elliptic witnesses (including the exact
+order-two element `-I`), one nontrivial parabolic witness, one identity, one hyperbolic witness, and
+two orientation-reversing witnesses.
+
+Every one of seven motif/transition/control classes is crossed with every completion family in the
+84-row `MOTIF_COMPLETION_ATLAS.tsv`. A cross-row records compatibility requirements; it is not an
+assertion that the local analytic polynomial already supplies a complete global metric witness.
+
+## Stage 4 — bundle and holonomy data
+
+The atlas keeps four objects separate:
+
+1. Kato transport of metric-derived projector bundles;
+2. Levi-Civita tangent holonomy of a complete metric;
+3. integral torus-lattice monodromy and cap-cycle data; and
+4. principal-circle characteristic data after a free circle action is supplied.
+
+The local analytic paths provide object 1. They do not close into loops and therefore do not supply
+holonomy. The completion registry supplies parametric data for object 3. Object 2 remains
+profile-dependent until a complete metric is supplied. Object 4 exists only in the conditional
+reciprocal-toric control after periods, action, caps, orientation, and normalization are disclosed.
+
+In that control, the depth-path coordinate projectors are covariantly constant, so their Kato
+generator is zero. The metric-dual principal connection still has the separate normalized fraction
+
+```text
+f(phi)=1/(1+exp(4 phi)),
+Q_finite=f(phi_minus)-f(phi_plus).
+```
+
+Common angular scale cancels, but finite endpoints remain boundary-dependent. Unit class remains
+conditional on the full global premises.
+
+## Stage 5 — registered UDT selector audit
+
+The 84-row selector matrix applies seven exact selector/status axes to all 12 completion families.
+
+- Reciprocity constrains reciprocal ratios and transition parity. It does not supply a cover,
+  periods, cap vectors, orientation, or a circle action.
+- CSN removes positive common scale from normalized pre-material structure. It does not select a
+  topology; its cancellation from the toric connection is compatibility, not selection.
+- The finite-cell canon removes spatial infinity and supplies a physical mirrored-cell setting. It
+  does not choose retained boundary versus cap, cap cycles, or a complete seal lift.
+- The static seal statement constrains `phi`, while several complete coframe/angular lifts survive.
+- Current bootstrap is on-shell admissibility. It has no off-shell functional that ranks the atlas
+  branches.
+- Current scale/matter evidence supplies no native carrier, mass, source, normalized boundary
+  charge, or action coefficient that could close the selection loop.
+- Density cannot be a native selector while its mass numerator is undefined.
+
+Multiple current-compatible or conditional branches therefore remain. `S3` and the free Hopf
+action remain unique only inside their previously supplied toric eigencap premises.
+
+## Density/bootstrap chicken-and-egg audit
+
+The density issue has a type-correct possible resolution, but not yet an equation.
+
+The desired noncircular closure would solve the complete geometry, native matter fields, physical
+scale, boundary data, and bootstrap simultaneously, then define
+
+```text
+rho_solution = M_native[g,fields] / V_proper[g]
+```
+
+from that same solution. Requiring the resulting density to reproduce the branch that generated it
+could be a genuine fixed-point or eigenvalue condition. Density would be an output fed back in a
+simultaneous solve, not an observed number inserted at the start.
+
+The assembly atlas can supply branch-dependent candidate volume and boundary objects. It supplies no
+native mass functional. Current compactness relations also remain rank one: writing density as
+`M/V` does not create an independent scale equation when `V` scales as `X_max^3`.
+
+Accordingly the simultaneous density/bootstrap route is a `POTENTIAL_FUTURE_SELECTOR`, while its
+native mass, varied closure, response map, and independent scale breaking remain `OPEN`.
+
+## Stages 6 and 7
+
+The preregistered gate for Stage 6 requires one selected quotient together with its distribution,
+gluing/periodicity, action, orientation status, and boundary completion. That gate fails because no
+quotient is selected. No configuration space or metric-induced reduced action was invented.
+
+Stage 7 additionally requires a native nonlinear evolution law, constraints, boundary flux, and raw
+residual. Those objects are absent. No relaxation trajectory was relabeled as time, no CPU
+time-evolution solve was run, and GPU work was not launched.
+
+## Verification and fresh-review status
+
+The internal independent verifier:
+
+- reproduces all 95,232 path identities and 83 deterministic anchors;
+- independently reconstructs the exact 1,536-row candidate set and its `M8` provenance;
+- reruns three nontrivial transport anchors with a different integrator;
+- checks all cap determinants and all monodromy witnesses;
+- verifies all 84 motif/completion and all 84 selector rows;
+- exercises 20 corruption catches, including the exact `-I` class and pinned CSN source; and
+- reproduces both fail-closed stage gates.
+
+The first verifier output had a report-only motif-label reuse bug. Its result and transcript are
+preserved. The correction was separately preregistered and the full verifier rerun successfully.
+
+The preserved fresh zero-context review returned `PASS-WITH-CAVEATS`. It independently reproduced
+the load-bearing counts and algebra and found two bounded defects: `-I` was grouped with the
+parabolic witnesses, and the CSN matrix cited an unpinned dispatch instead of the already-frozen
+angular-toric audit. Correction scope was separately preregistered at commit `cab6ec6`. The package
+now classifies `-I` as finite elliptic, pins all CSN rows to the frozen source, and exercises explicit
+mutation catches for both failures. Internal deterministic regeneration and verifier replay pass.
+Fresh independent review of the applied correction returned `PASS`: exact finite-order arithmetic
+reproduced the corrected monodromy classes; every selector source was checked through the contents
+of its frozen manifest; C19 and C20 failed closed independently; all other result fields were
+unchanged; and verifier replay was byte-stable. The raw return and full transcript are preserved.
+
+## Four banking gates
+
+1. Preregistered: **YES**, commit `8bf1906`; verifier-label correction preregistered at `4700c68`;
+   fresh-review corrections preregistered at `cab6ec6`.
+2. Full space or bounded scope justified: **YES FOR THE REGISTERED TAXONOMY**, not arbitrary global
+   four-geometries, actions, or EOM solution space.
+3. Independently verified on the load-bearing premise: **YES**, with fresh review of the draft and a
+   separate fresh `PASS` review of the applied corrections. The three DOP853 anchors retain only the
+   limited independent-orchestration weight stated above.
+4. Every premise audited: **YES FOR THE DECLARED ATLAS**, including the local/global, transport/
+   holonomy, phi-solo/orchestra, density-input/output, and Stage-6/7 boundaries.
+
+Current bankable grade: `VERIFIED-WITH-CAVEATS`, where the caveats are the seven retained numerical
+margins and the explicitly bounded registered taxonomy—not an unresolved review defect.
+# UDT Motif-to-Hopf Correspondence Audit
+
+Date: 2026-07-22
+
+Status: `CORRECTED_VERIFIED_WITH_REGISTERED_SCOPE`
+
+Maximum conclusion:
+
+`OBSERVED_BOUNDED_REGISTERED-CHART_SAMPLED_MOTIF_AND_FROBENIUS_CENSUS`
+
+plus
+
+`EXACT_CONDITIONAL_RECIPROCAL-TORIC/HOPF-SEED_COMPATIBILITY_WITNESS`.
+
+The overall motif-to-Hopf correspondence remains a `LEAD`.
+
+## Result first
+
+The new motif vocabulary does connect to the Hopf program, but at two sharply different levels.
+
+First, the complete registered local analytic ensemble contains abundant sampled projector motifs
+and nonzero Frobenius obstruction in the registered chart. Of 95,232 instrument-family paths,
+93,920 have the same classified motif and matchable projector sets at all 17 sampled nodes. This is
+not a continuous-bundle theorem. At the path midpoints, 8,205 families carry the `1+1+2` motif. Its
+primitive Lorentzian rank-two plane is numerically nonintegrable in 6,669 cases and integrable in
+1,536 in that chart. The 1,395 four-line midpoints have three complementary rank-two splittings;
+all 8,370 tested split sides are numerically nonintegrable there.
+
+Second, in the already conditional reciprocal-toric class,
+
+```text
+g = -dt^2 + A(phi)^2 dphi^2
+    + Omega(phi)^2[exp(-2phi) dxi1^2 + exp(2phi) dxi2^2],
+```
+
+the metric `phi` Hessian plus the unnormalized gradient dyad generically recovers the four intrinsic
+axes `(t,phi,xi1,xi2)` without an `S2` carrier. The two angular Hessian eigenvalues differ exactly by
+`2/A^2`; the dyad distinguishes depth from time. Axis recovery fails only at disclosed degeneracies
+`Omega'/Omega=+/-1` unless another intrinsic instrument resolves them.
+
+Once periodic circles, a free diagonal/anti-diagonal action, full reciprocal range, and opposite
+primitive caps are separately supplied, the metric-dual connection is independent of `Omega` and
+has conditional unit Hopf class. Its quotient map is exactly the same degree-one Hopf map used by
+the historical `hopf_seed` code after `tan(eta)=exp(2phi)`.
+
+This is a direct vocabulary-to-Hopf `LEAD`: the registered metric instruments exhibit local
+twisting candidates, and the separately supplied reciprocal-toric specialization turns its angular
+axes into the exact Hopf seed geometry. It is a geometric precursor and conditional compatibility
+witness, not native carrier or matter emergence.
+
+## Complete sampled continuation census
+
+The scan used all
+
+```text
+4 banks * 48 carrier vectors * 16 structural masks = 3,072
+```
+
+analytic identities. Each identity was followed along its preregistered point pair at 17 affine
+nodes. Every one of the 31 nonempty subsets of `R,H,D,RG,WG` was classified at every node:
+
+```text
+52,224 metric/phi two-jets
+1,618,944 family classifications
+95,232 family paths
+```
+
+Same-motif, matchable-projector paths at all 17 nodes:
+
+| motif | stable paths |
+|---|---:|
+| full irreducible weave | 70,812 |
+| scalar/silent | 11,328 |
+| `1+1+2` | 7,845 |
+| `1+3` | 2,880 |
+| four lines | 1,055 |
+
+The remaining 1,312 paths contain a motif transition or numerical margin. None was dropped. The
+complete transition census is `FAMILY_TRANSITION_CENSUS.tsv`.
+
+The endpoints reproduce all 190,464 corresponding rows of the frozen pointwise motif atlas with
+zero classification disagreement.
+
+These paths are coherent analytic configurations, not EOM solutions or physical evolution. Their
+17 nodes establish sampled matching only. They do not establish a continuous projector bundle,
+global continuation, or holonomy. Under the explicit zero-constant cubic polynomial maps defined by
+the stored nonlinear jets, all `63,488` possible adjacent-edge cases were accounted for: `63,438`
+admitted assignments and had zero transport discordance, while 50 were retained as mutually
+unmatched transition edges. Of 67,456 point comparisons, 67,396 were classified on both sides, 33
+were uncertain on one side, and 27 were uncertain on both. The node-dependent projector-set
+covariance residual was at most `1.1807795359652391e-11`; the map inversion residual was at most
+`1.1102230246251565e-16`, and the minimum sampled absolute Jacobian determinant was
+`0.9643147372973677`.
+
+## Local distributions
+
+Every midpoint received complete `h=1e-4` and `h/2` four-coordinate stencils in the registered
+chart. The largest derivative
+convergence residual is `0.0031622520541422948`, below the preregistered `0.005` gate. Only 13
+identity/family stencils are retained as degenerate or numerically uncertain; independent replay
+reproduces all 13.
+
+The main distribution observations are:
+
+- `1+1+2`: 6,669 primitive Lorentzian planes locally nonintegrable; 1,536 integrable.
+- Four lines: 8,370 complementary rank-two split sides locally nonintegrable; zero integrable.
+- `1+3`: 2,879 rank-three complements locally integrable and one uncertain. This agrees with the
+  hypersurface-orthogonal character expected of the nonzero `phi`-gradient dyad and reinforces that
+  the gradient alone is not a generic Hopf carrier.
+- Rank-one distributions are locally integrable by dimension, but remain unoriented lines.
+
+Nonzero Frobenius obstruction is a local twist/anholonomy diagnostic. The tensor formula is valid,
+but its stored normalization and numerical thresholds use registered-chart component norms; the
+full census is therefore certified only in that chart. It is not a Hopf integer. No local family was assigned a
+compact domain, periodicity, cap, orientation lift, or global transition cocycle; therefore all
+3,072 receive `GLOBAL_DATA_ABSENT`, not `Q=0`.
+
+## Reciprocal-toric control
+
+For the conditional toric metric, the mixed Hessian and dyad eigenvalue pairs in the coordinate
+order `(t,phi,xi1,xi2)` are
+
+```text
+H: (0, -A'/A^3, (Omega'/Omega-1)/A^2, (Omega'/Omega+1)/A^2)
+D: (0,  1/A^2, 0, 0).
+```
+
+Thus `H+D` as a joint instrument family distinguishes the two angular axes identically and separates
+depth from time. This is generic inside that class, not universal over arbitrary positive `Omega`:
+one angular line becomes degenerate with time when `Omega'/Omega=+/-1`.
+
+The generic local ensemble supplies an important contrast. At its 3,072 `H+D` midpoints, 1,536 are
+scalar, 1,530 are stably full irreducible, six are uncertain/unstable, and zero have a four-line
+motif. The toric axis recovery is therefore a special commuting/cohomogeneity-one stratum, not a
+generic consequence of merely turning on `H` and `D`.
+
+With the equal-weight diagonal circle action separately supplied, the metric-dual connection is
+
+```text
+calA = f(phi) dxi1 + [1-f(phi)] dxi2,
+f(phi)=1/[1+exp(4phi)].
+```
+
+`Omega` cancels. For finite endpoints,
+
+```text
+Q = f(phi_minus)-f(phi_plus),
+```
+
+so the readout is continuous and boundary-dependent, not automatically integral. Only the full
+range `phi: -infinity -> +infinity`, two `2*pi` circles, opposite primitive smooth collapses,
+selected free diagonal/anti-diagonal action, orientation, and normalization give `|Q|=1`.
+
+At `phi=0` the circle fractions are equal. Reciprocal reflection exchanges the two angular
+coefficients; it is a metric isometry only when `A^2` and `Omega^2` are even and the global circle
+exchange is supplied. The round control has exact opposite collapse limits `(1,0)` and `(0,1)`.
+Arbitrary positive `A,Omega` do not inherit periodicity or cap regularity from the local projectors.
+
+## Comparison with the existing Hopf soliton
+
+The quotient map is
+
+```text
+n(phi,delta) = (sech(2phi) cos(delta),
+                sech(2phi) sin(delta),
+               -tanh(2phi)).
+```
+
+It has unit norm and, after `tan(eta)=exp(2phi)` and `delta=xi1-xi2`, is exactly
+
+```text
+(sin(2eta) cos(delta), sin(2eta) sin(delta), cos(2eta)),
+```
+
+the degree-one Hopf map implemented by `hopf_seed` following inverse stereographic
+compactification. This is exact seed-level equivalence.
+
+It is not equality to the relaxed no-null field. The existing soliton explores deformations in an
+independently posited internal `Map(S3,S2)` configuration space and is stabilized by the conditional
+`L2+L4` functional. The metric audit has not derived those degrees of freedom, that action, its
+coefficients, a source, time-live persistence, or mass.
+
+## Emergence ruling
+
+The corrected evidence supports:
+
+`OBSERVED_BOUNDED_REGISTERED-CHART_SAMPLED_MOTIF_AND_FROBENIUS_CENSUS` and
+`EXACT_CONDITIONAL_RECIPROCAL-TORIC/HOPF-SEED_COMPATIBILITY_WITNESS`.
+
+Their proposed correspondence is a `LEAD`, not a derived join.
+
+It does not support `NATIVE_CARRIER_EMERGENCE_DERIVED`.
+
+The remaining join is no longer simply “find an S2.” UDT would have to select or globally sustain:
+
+1. the reciprocal-toric commuting projector stratum rather than the generic full weave;
+2. periodic transverse circles and their global integral basis;
+3. the diagonal/anti-diagonal free circle action and orientation;
+4. opposite regular caps or an equivalent finite-cell completion;
+5. a configuration space allowing metric-derived quotient textures to deform; and
+6. a native reduced action/variation law whose stationary sector can be compared with the existing
+   conditional soliton.
+
+## Adversarial failures and corrections
+
+The first fresh adversarial review returned `FAIL` for the draft package grade. Its complete return
+and transcript are preserved. It identified an unexercised covariance gate, circular toric check,
+assertion-only catches, ambiguous action provenance, and continuous-bundle wording unsupported by
+17 samples. `ADVERSARIAL_REVIEW_CORRECTION_PREREGISTRATION.md` froze the repair contract before the
+correction implementation.
+
+The first correction added coordinate-covariance, symbolic metric, direct-seed, provenance, scope,
+and mutation checks. A second fresh review returned `FAIL` for that correction's certification while
+again accepting the scientific maximum. It exposed a fixed-J edge interpretation, omitted 60
+uncertainty-bearing points and 50 skipped edges, and six unguarded result fields. Its full return is
+preserved. `SECOND_REVIEW_CORRECTION_PREREGISTRATION.md` froze the next repair before mutation.
+
+The second correction then:
+
+- recomputed 67,456 all-family/node comparisons under the node-dependent cubic maps induced by both
+  stored nonlinear jet sets;
+- found zero non-uncertain classification discordances;
+- found maximum intrinsic-object covariance residual `1.031291787265127e-15` and maximum
+  projector-set covariance residual `1.1807795359652391e-11`;
+- retained a complete point-status census of 67,396 both-classified, 33 one-sided uncertain, and 27
+  both-uncertain cases;
+- accounted for all 63,488 possible edges as 63,438 matched with zero discordance plus 50 mutually
+  unmatched transition edges;
+- derived Christoffels, the phi Hessian/dyad, angular gap, and diagonal connection from the metric;
+- executed the frozen repository `hopf_seed` on 1,000 deterministic CPU float64 samples and agreed
+# Angular–Toric Closure Selector Audit — Report
+
+Date: 2026-07-19
+Base: `cc7b08381281fa104661df5b6af9fb030cabac95`
+Preregistration commit: `d8b964d`
+Mode: CPU-only, metric-led, bounded toric classification
+
+## Result
+
+`S3_AND_FREE_HOPF_ACTION_UNIQUE_CONDITIONAL_WITHIN_SUPPLIED_TORIC_CAP_PREMISES__RECIPROCITY_CSN_FINITE_CELL_AND_BOOTSTRAP_DO_NOT_SELECT_THOSE_PREMISES__FIRST_MISSING_GATE_TRANSVERSE_SPATIAL_RECIPROCAL_REALIZATION_AND_PERIODICITY__CONDITIONAL_SECOND_GATE_FINITE_CELL_CAP_COMPLETION_OPEN`
+
+The angular–`phi` sector contains a sharper conditional selection chain than the preceding audit
+could state, but its first link is still missing.
+
+If UDT were to supply all of the following:
+
+1. two periodic **spatial** directions carrying the reciprocal orbit block in one global integral
+   torus basis;
+2. a compact cohomogeneity-one interval whose two ends are smooth primitive circle collapses;
+3. the globally diagonal form all the way to those ends, so the two reciprocal eigen-circles are the
+   collapsing cycles;
+
+then the first circle must collapse at one end and the second at the other. Their integral-lattice
+determinant is one, and the completed three-geometry has `S3` topology. Within precisely that supplied
+class, `S3` is not an aesthetic choice: it is `UNIQUE-CONDITIONAL`.
+
+If one then additionally requires a free effective circle action with a smooth ordinary `S2`
+quotient, its weights must satisfy
+
+```text
+|m|=|n|=1.
+```
+
+That leaves diagonal and anti-diagonal actions and their orientation reversals, giving conditional
+unit classes `Q=+1` and `Q=-1`. This second result is also a genuine conditional uniqueness theorem.
+
+Registered UDT does not yet supply the premises of the first theorem. Exact C0/C1 does not place its
+founding temporal/parallel reciprocal comparison pair into two transverse periodic spatial slots.
+Beyond fixing the physical finite mirrored-cell, monotonic-domain, and no-spatial-infinity setting,
+finite-cell canon's only toric-relevant field datum is static `phi` parity/value at the seal. CSN removes positive
+common scale on the interior but does not provide a cap. Bootstrap is presently an on-shell
+admissibility principle, not a topology-ranking or boundary-completion equation.
+
+Therefore the strongest honest result is a conditional chain, not a selected universe or carrier.
+
+## Lay interpretation
+
+The earlier audit found that UDT's reciprocal stretching has exactly the right shape to describe the
+two circular directions used by a Hopf geometry. This audit asked what happens if those circles are
+followed all the way to the ends.
+
+There is a surprisingly simple answer. If the two circles really are spatial directions and the
+geometry closes smoothly, one circle closes at one end while the other closes at the opposite end.
+With the basic, untwisted identification, that construction is a three-sphere. No extra force or
+Skyrme-like mechanism is needed to obtain that topology. It follows from the way the circles close.
+
+Likewise, if we require the simultaneous rotation of those circles to have no hidden fixed or
+exceptional points, only equal-magnitude rotations survive. Those are exactly the diagonal and
+anti-diagonal Hopf rotations.
+
+This greatly narrows where the missing idea can be. The problem is no longer the Hopf mathematics
+after the angular geometry is supplied. There are two ordered missing gates. First: why UDT's
+reciprocal pair should be realized as two periodic transverse spatial directions at all. Only if
+that is derived does a second question arise: why the finite cell should close those directions by
+smooth opposing eigen-circle collapses rather than by another boundary or gluing.
+
+The current finite-cell and bootstrap statements do not yet say that. They allow other closures.
+
+## The toric closure classification
+
+Let a principal spatial orbit be a two-torus with primitive angular lattice `Z2`. At the two ends of
+an interval, suppose primitive cycles
+
+```text
+v_minus=(a,b),  v_plus=(c,d)
+```
+
+collapse. The integer
+
+```text
+p=|det(v_minus,v_plus)|=|a d-b c|
+```
+
+controls the lattice quotient. In the standard orientable toric completion:
+
+- `p=1` gives the determinant-one `S3` class;
+- `p>1` gives lens-space classes, with the additional gluing integer distinguishing `q`;
+- `p=0` leaves a nontrivial free circle and gives `S2 x S1` in the standard orientable same-cycle
+  completion;
+
+Primitivity of each endpoint cycle ensures local smooth-manifold collapse; it does not force their
+mutual determinant to one.
+
+Even if an angular exchange mirror is supplied by hand, it does not select `p=1`. For
+
+```text
+v_minus=(a,b),  v_plus=(b,a),
+```
+
+the determinant is `a^2-b^2`. Exact primitive examples include:
+
+| Pair | `p` |
+|---|---:|
+| `(1,1)` and `(1,1)` | 0 |
+| `(1,0)` and `(0,1)` | 1 |
+| `(2,1)` and `(1,2)` | 3 |
+| `(3,2)` and `(2,3)` | 5 |
+| `(4,3)` and `(3,4)` | 7 |
+| `(3,1)` and `(1,3)` | 8 |
+| `(5,4)` and `(4,5)` | 9 |
+| `(4,1)` and `(1,4)` | 15 |
+
+The exact script independently verifies the determinants, primitivity, and Smith normal forms.
+These are exemplars rather than a complete mirror census. Thus even an angular interpretation of
+Reciprocity as circle exchange is weaker than a global cap rule.
+
+### The conditional `S3` theorem
+
+Now restrict further to the exact globally diagonal candidate
+
+```text
+G=Omega(phi)^2 diag(exp(-2 phi),exp(2 phi))
+```
+
+in one fixed integral angular basis, with positive `Omega` on the principal region and smooth compact
+caps at the two reciprocal extremes. A diagonal coefficient can vanish only along its corresponding
+coordinate circle. If the two opposite eigen-circles collapse primitively at opposite ends, the
+cycles are `(1,0)` and `(0,1)`, whose determinant is one.
+
+That proves `S3_UNIQUE_CONDITIONAL_WITHIN_SUPPLIED_TORIC_CAP_PREMISES`.
+
+It does not prove the premises. A general toric completion may rotate the collapsing cycle through
+off-diagonal metric data or use multiple integral charts near a cap. C1 explicitly leaves the
+transverse block and off-diagonal terms open. Primitive determinant-`p` lens alternatives therefore
+remain admissible countermodels to a foundation-level uniqueness claim, even though they are outside
+the single-global-basis diagonal subfamily.
+
+The `p=3` and `p=5` rows are catch-proofs, not the whole lens family. The family ledger separately
+retains every primitive `p>1` lens class with its admissible gluing integer `q`, as well as incomplete
+or noncompact toric ends. Local reciprocal kinematics does not supply a completeness theorem that
+removes those alternatives.
+
+## Finite mirror witnesses without caps
+
+The algebraic parity statement and an angular exchange do not themselves require a circle to
+collapse. An exact compact double-cover/local-parity witness is
+
+```text
+h=d sigma^2 + exp[-2 sin(sigma)] dxi1^2 + exp[+2 sin(sigma)] dxi2^2
+```
+
+on `S1 x T2`. Its determinant is one, its orbit coefficients are positive everywhere, and
+
+```text
+sigma -> -sigma,
+xi1 <-> xi2
+```
+
+is an isometry. The scalar `phi=sin(sigma)` is odd and vanishes at the mirror seal, yet there are no
+caps and the spatial topology is not `S3`.
+
+This is not a direct countermodel to the complete physical finite-cell canon: its base is a
+boundaryless circle and `phi=sin(sigma)` is globally nonmonotone. It is retained only as an exact
+double-cover/local-parity witness showing that oddness plus exchange contains no algebraic cap
+condition. It is not proposed as the physical UDT universe, and its angular slot and exchange remain
+conditional.
+
+A finite interval times `T2` with monotone reciprocal depth and positive orbit coefficients is the
+foundation-compatible bounded no-cap family when a physical boundary is retained. The boundary
+functional is currently open, so that family cannot be excluded by silently choosing a cap. This
+interval family, rather than the periodic witness, carries the foundation-level nonselection result.
+
+## Smoothness does not choose the round metric
+
+The round witness is
+
+```text
+h_round=d eta^2 + cos(eta)^2 dxi1^2 + sin(eta)^2 dxi2^2.
+```
+
+The audit constructs the explicit non-round family member
+
+```text
+H(eta)=1+(1/3) sin(2 eta)^2,
+h_nonround=H(eta)^2 d eta^2 + cos(eta)^2 dxi1^2 + sin(eta)^2 dxi2^2.
+```
+
+Both are mirror-symmetric under `eta -> pi/2-eta` with circle exchange. Both have the same smooth
+primitive cap slopes. More strongly, exact even/odd identities of `H`, the collapsing radius, and
+the spectator radius at both endpoints establish analytic cap parity to all orders. Both have
+exactly the same independently normalized orbit block
+
+```text
+diag(cot eta,tan eta)
+=diag(exp(-2 phi),exp(2 phi)),
+tan eta=exp(2 phi).
+```
+
+They are not related by a positive full-metric conformal rescaling. Their scale-invariant
+radial/orbit ratio differs by `14/9` at `eta=pi/4`. Smoothness therefore constrains endpoint jets but
+does not select the round radial completion. An action or other field equation would be needed to
+rank the remaining functions.
+
+## Conditional circle-action uniqueness
+
+On the supplied `S3` witness, consider the effective weighted action
+
+```text
+exp(i theta):(z1,z2) -> (exp(i m theta) z1, exp(i n theta) z2).
+```
+
+At the circle where `z2=0`, the stabilizer is the finite root group `mu_|m|` when `m` is nonzero
+and the full `U(1)` when `m=0`; the analogous statement with `n` holds where `z1=0`. Consequently
+the action is free everywhere only when
+
+```text
+|m|=|n|=1.
+```
+
+Primitive weights such as `(1,2)`, `(2,1)`, and `(2,3)` are effective but have exceptional
+stabilizers. Their quotients are weighted/orbifold alternatives, not an ordinary principal
+circle bundle over a smooth `S2`. Zero-weight actions such as `(0,1)` or `(1,0)` have a fixed
+exceptional circle and are separately retained in the family census.
+
+For the four free sign choices, the normalized metric-dual connection is common-scale independent.
+The exact script obtains
+
+```text
+integral A wedge dA = -4 pi^2 m n,
+Q = m n.
+```
+
+Thus diagonal signs give `Q=+1`, anti-diagonal signs give `Q=-1`. Freeness conditionally selects the
+weight magnitudes, not the chirality and not the physical requirement that UDT possess this quotient.
+
+## What the registered UDT selectors actually do
+
+### Reciprocity
+
+Reciprocity supplies the determinant-one exponential comparison pair. Within the Hopf-coordinate
+witness, `phi -> -phi` exchanges the two orbit scale factors. It does not universally duplicate or
+reassign the founding temporal/parallel pair into a transverse spatial torus, declare those
+directions periodic, or specify their collapse lattice.
+
+### Common-Scale Neutrality
+
+CSN removes a positive common factor from the interior orbit block and from the normalized
+metric-dual connection. At a genuine cap, an orbit coefficient or determinant representative
+degenerates. Smooth cap completion is additional global/boundary information, not a positive CSN
+gauge transformation through zero.
+
+### Finite-cell structure
+
+The binding canon fixes a monotone finite domain terminated by a physical mirrored boundary/fold,
+with no spatial infinity. Within that setting, its only toric-relevant field datum is the static
+`phi` condition: `phi` is odd at the seal, its value is zero, and its normal derivative remains free.
+It expressly does not select the boundary functional or the boundary data of other fields. It says
+nothing about a transverse torus lattice, angular exchange, endpoint collapse cycles, or a quotient
+action.
+
+### Bootstrap
+
+The current bootstrap principle says the realized matter-bearing universe must be a complete
+self-consistent global solution in a narrow total-density window. The full time-live volume,
+physical boundary, equations, action, and stability gates remain open. The bootstrap-variation audit
+also finds no off-shell representative-selection or matching map. There is therefore no registered
+operator that compares and ranks `T3`, `S3`, lens, boundary-cylinder, round, or non-round closures.
+
+Bootstrap could eventually select among complete solutions after that missing law exists. It cannot
+presently be used as the missing law itself.
+
+## Mechanical adjudication
+
+| Question | Ruling | Reason |
+|---|---|---|
+| Does reciprocal angular form alone select topology? | `NO` | The determinant-normalized form is generic and local. |
+| Does angular exchange mirror select `S3`? | `NO` | Primitive mirror pairs realize multiple determinant classes. |
+| Do global diagonal reciprocal eigen-caps select `S3`? | `YES, UNIQUE-CONDITIONAL` | Opposing primitive coordinate cycles have determinant one. |
+| Does smoothness select the round completion? | `NO` | An explicit smooth non-round, non-conformal family shares the same orbit block and cap jets. |
+| Does a free smooth circle quotient select the Hopf weights? | `YES, UNIQUE-CONDITIONAL` | Freeness at both exceptional circles requires `|m|=|n|=1`. |
+| Does it choose chirality? | `NO` | Diagonal and anti-diagonal actions give opposite unit classes. |
+| Does finite-cell canon supply toric caps? | `NO` | Beyond its physical finite mirrored/monotone/no-infinity setting, its toric-relevant datum is only static `phi` parity/value; no torus lattice, cap cycle, or boundary functional follows. |
+| Does bootstrap currently rank closures? | `NO` | It supplies no off-shell or topology-selection map. |
+| Is the carrier/action derived? | `NO / OPEN` | A canonical quotient witness is not `Map(S3,S2)` or its dynamics. |
+
+The detailed eighteen-row classification is `STATUS_LEDGER.tsv`; the complete fifteen-family
+disposition is `CANDIDATE_FAMILY.tsv`.
+
+## Ordered missing selectors
+
+The missing objects should not be invented or named as new postulates. Descriptively, the first
+absent rule is:
+
+> a rule deriving how the reciprocal comparison representation enters the **transverse spatial
+> metric**, including whether its directions are periodic.
+
+Call this the `TRANSVERSE_SPATIAL_RECIPROCAL_REALIZATION_AND_PERIODICITY` gate only as a ledger
+description, not as an adopted principle.
+
+Only after that first gate passes does the separate `FINITE_CELL_CAP_COMPLETION` gate arise. If the
+two together produce a global diagonal two-torus with smooth opposing primitive eigen-caps, the rest
+of the topological chain is nearly automatic: `S3` follows, and a separately required free smooth
+quotient reduces the circle weights to diagonal/anti-diagonal choices. If either gate produces a
+different transverse block or boundary, the Hopf route may remain only a conditional control.
+
+## Completeness and exclusions
+
+This audit classifies one bounded toric spatial-geometry tile:
+
+- fields: only a candidate spatial three-metric orbit structure;
+- action/equations: absent and explicitly open;
+- domain: toric cohomogeneity one, including caps, finite boundaries, generic lens/gluing families,
+  incomplete/noncompact ends, and a periodic local-parity witness;
+- topology: determinant-zero, determinant-one, and determinant-`p` toric classes;
+- dynamics/stability/mass: not entered;
+- off-toric geometries: not classified and still live.
+
+No result here is a full metric solution-space theorem.
+
+## What is not claimed
+
+- No transverse spatial torus was derived from C0/C1.
+- No temporal direction was compactified or relabeled as an angular circle.
+- No global `S3`, `T3`, lens space, cap, or boundary was adopted.
+- No carrier, configuration space, action, source, mass, or time-live law was derived.
+- No existing soliton or particle evidence was used as a selection criterion.
+- No GPU work, canonization, repository reorganization, startup update, or `grok` integration was
+  performed.
+
+## Four evidence gates
+
+exec
+/bin/bash -lc "rg --files udt_global_metric_assembly_atlas_2026-07-22 | sort
+rg --files angular_toric_closure_selector_2026-07-19 | sort | sed -n '1,160p'" in /tmp/udt_metric_review_T_Jh03Lq
+ succeeded in 0ms:
+udt_global_metric_assembly_atlas_2026-07-22/ATLAS_RESULT.json
+udt_global_metric_assembly_atlas_2026-07-22/ATLAS_TRANSCRIPT.txt
+udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md
+udt_global_metric_assembly_atlas_2026-07-22/BUNDLE_HOLONOMY_ATLAS.tsv
+udt_global_metric_assembly_atlas_2026-07-22/CANDIDATE_PROVENANCE_CENSUS.tsv
+udt_global_metric_assembly_atlas_2026-07-22/CAP_PAIR_WITNESSES.tsv
+udt_global_metric_assembly_atlas_2026-07-22/CATCH_PROOFS.tsv
+udt_global_metric_assembly_atlas_2026-07-22/COMMANDS.md
+udt_global_metric_assembly_atlas_2026-07-22/COMPLETENESS_MAP.md
+udt_global_metric_assembly_atlas_2026-07-22/COMPLETION_CLASS_REGISTRY.tsv
+udt_global_metric_assembly_atlas_2026-07-22/DENSE_TRANSPORT_ATLAS.tsv
+udt_global_metric_assembly_atlas_2026-07-22/DENSITY_BOOTSTRAP_CIRCULARITY_LEDGER.tsv
+udt_global_metric_assembly_atlas_2026-07-22/ENVIRONMENT.txt
+udt_global_metric_assembly_atlas_2026-07-22/EXACT_TRANSPORT_CONTROL.json
+udt_global_metric_assembly_atlas_2026-07-22/FINITE_CELL_DISTRIBUTION_FOLLOW.tsv.gz
+udt_global_metric_assembly_atlas_2026-07-22/FINITE_CELL_DISTRIBUTION_SUMMARY.tsv
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_REQUEST.md
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_RAW.md
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_REQUEST.md
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_TRANSCRIPT.txt
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_CORRECTION_REVIEW_RAW.md
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_CORRECTION_REVIEW_REQUEST.md
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_CORRECTION_REVIEW_TRANSCRIPT.txt
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_REVIEW_CORRECTION_PREREGISTRATION.md
+udt_global_metric_assembly_atlas_2026-07-22/LAY_REPORT.md
+udt_global_metric_assembly_atlas_2026-07-22/MOTIF_COMPLETION_ATLAS.tsv
+udt_global_metric_assembly_atlas_2026-07-22/NEXT_DECISION.md
+udt_global_metric_assembly_atlas_2026-07-22/NUMERIC_MARGIN_LEDGER.tsv
+udt_global_metric_assembly_atlas_2026-07-22/PATH_ASSEMBLY_CENSUS.tsv.gz
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md
+udt_global_metric_assembly_atlas_2026-07-22/PRE_DENSITY_OVERLAY_ATLAS_TRANSCRIPT.txt
+udt_global_metric_assembly_atlas_2026-07-22/PRE_FRESH_CORRECTION_REVIEW_CLI_FAILURE.txt
+udt_global_metric_assembly_atlas_2026-07-22/PRE_REPOSITORY_GATES_LINK_CORRECTION_FAILURE.txt
+udt_global_metric_assembly_atlas_2026-07-22/PRE_THREAD_BOUND_RUN_FAILURE.txt
+udt_global_metric_assembly_atlas_2026-07-22/PRE_VERIFIER_LABEL_CORRECTION_RESULT.json
+udt_global_metric_assembly_atlas_2026-07-22/PRE_VERIFIER_LABEL_CORRECTION_TRANSCRIPT.txt
+udt_global_metric_assembly_atlas_2026-07-22/REPOSITORY_GATES.json
+udt_global_metric_assembly_atlas_2026-07-22/REPOSITORY_GATES_TRANSCRIPT.txt
+udt_global_metric_assembly_atlas_2026-07-22/REPOSITORY_GATE_LINK_CORRECTION_PREREGISTRATION.md
+udt_global_metric_assembly_atlas_2026-07-22/SELECTOR_MATRIX.tsv
+udt_global_metric_assembly_atlas_2026-07-22/SHA256SUMS.txt
+udt_global_metric_assembly_atlas_2026-07-22/SOURCE_LINEAGE.tsv
+udt_global_metric_assembly_atlas_2026-07-22/STAGE_GATE_LEDGER.tsv
+udt_global_metric_assembly_atlas_2026-07-22/STATUS_LEDGER.tsv
+udt_global_metric_assembly_atlas_2026-07-22/TEST_TRANSCRIPT.txt
+udt_global_metric_assembly_atlas_2026-07-22/TORUS_MONODROMY_REGISTRY.tsv
+udt_global_metric_assembly_atlas_2026-07-22/VERIFICATION_RESULT.json
+udt_global_metric_assembly_atlas_2026-07-22/VERIFICATION_TRANSCRIPT.txt
+udt_global_metric_assembly_atlas_2026-07-22/VERIFIER_LABEL_CORRECTION_PREREGISTRATION.md
+udt_global_metric_assembly_atlas_2026-07-22/VERIFIER_TRANSCRIPT.txt
+udt_global_metric_assembly_atlas_2026-07-22/build_global_assembly_atlas.py
+udt_global_metric_assembly_atlas_2026-07-22/build_manifest.py
+udt_global_metric_assembly_atlas_2026-07-22/requirements.txt
+udt_global_metric_assembly_atlas_2026-07-22/verify_global_assembly_atlas.py
+udt_global_metric_assembly_atlas_2026-07-22/verify_repository_gates.py
+angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md
+angular_toric_closure_selector_2026-07-19/CANDIDATE_FAMILY.tsv
+angular_toric_closure_selector_2026-07-19/DERIVATION_RESULT.json
+angular_toric_closure_selector_2026-07-19/DERIVATION_TRANSCRIPT.txt
+angular_toric_closure_selector_2026-07-19/EXTERNAL_ADVERSARIAL_REVIEW.md
+angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md
+angular_toric_closure_selector_2026-07-19/PREREGISTRATION.md
+angular_toric_closure_selector_2026-07-19/REPOSITORY_GATES.json
+angular_toric_closure_selector_2026-07-19/SHA256SUMS.txt
+angular_toric_closure_selector_2026-07-19/SOURCE_INVENTORY.tsv
+angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv
+angular_toric_closure_selector_2026-07-19/VERIFICATION_RESULT.json
+angular_toric_closure_selector_2026-07-19/VERIFICATION_TRANSCRIPT.txt
+angular_toric_closure_selector_2026-07-19/build_manifest.py
+angular_toric_closure_selector_2026-07-19/build_source_inventory.py
+angular_toric_closure_selector_2026-07-19/derive_angular_toric_selector.py
+angular_toric_closure_selector_2026-07-19/requirements.txt
+angular_toric_closure_selector_2026-07-19/verify_angular_toric_selector.py
+angular_toric_closure_selector_2026-07-19/verify_package_manifest.py
+
+exec
+/bin/bash -lc 'column -t -s $'"'\\t' udt_global_metric_assembly_atlas_2026-07-22/COMPLETION_CLASS_REGISTRY.tsv
+column -t -s "'$'"'\\t' udt_global_metric_assembly_atlas_2026-07-22/BUNDLE_HOLONOMY_ATLAS.tsv
+column -t -s "'$'"'\\t' udt_global_metric_assembly_atlas_2026-07-22/TORUS_MONODROMY_REGISTRY.tsv
+column -t -s "'$'"'\\t' udt_global_metric_assembly_atlas_2026-07-22/STATUS_LEDGER.tsv
+column -t -s "'$'"'\\t' udt_global_metric_assembly_atlas_2026-07-22/NEXT_DECISION.md 2>/dev/null || sed -n '1,220p' udt_global_metric_assembly_atlas_2026-07-22/NEXT_DECISION.md" in /tmp/udt_metric_review_T_Jh03Lq
+ succeeded in 0ms:
+completion_id                    base_completion              orbit_completion                                        regularity                                        topology_family                            infinite_family_rule                                             selection_status
+FC01_BOUNDARY_BOUNDARY           FINITE_INTERVAL              NO_CAP_TWO_PHYSICAL_BOUNDARIES                          REGULAR_WITH_BOUNDARY_IF_BOUNDARY_DATA_SUPPLIED   I_X_ORBIT                                  arbitrary compatible boundary geometries                         REGISTERED_ALTERNATIVE
+FC02_ONE_CAP_BOUNDARY            FINITE_INTERVAL              ONE_PRIMITIVE_CAP_ONE_PHYSICAL_BOUNDARY                 REGULAR_IF_PRIMITIVE_CAP_JETS_HOLD                SOLID_TORUS_WITH_BOUNDARY                  all primitive meridians and compatible profiles                  REGISTERED_ALTERNATIVE
+FC03_TWO_CAP_P0                  FINITE_INTERVAL              TWO_PRIMITIVE_SAME_DEPENDENT_CYCLES                     REGULAR_CAPS                                      S2_X_S1_STANDARD_OR_GENERAL_P0             all primitive determinant-zero ordered pairs                     REGISTERED_ALTERNATIVE
+FC04_TWO_CAP_P1                  FINITE_INTERVAL              TWO_PRIMITIVE_DETERMINANT_ONE_CYCLES                    REGULAR_CAPS                                      S3                                         all ordered unimodular primitive pairs                           UNIQUE_ONLY_INSIDE_SUPPLIED_OPPOSITE_EIGENCIRCLE_PREMISES
+FC05_TWO_CAP_P_GT1               FINITE_INTERVAL              TWO_PRIMITIVE_GENERAL_CYCLES                            REGULAR_CAPS                                      LENS_L_P_Q                                 all primitive pairs with determinant magnitude greater than one  REGISTERED_ALTERNATIVE
+FC06_NONPRIMITIVE_CAP            FINITE_INTERVAL              ONE_OR_TWO_NONPRIMITIVE_COLLAPSES                       ORBIFOLD_OR_SINGULAR                              SINGULAR_TORIC_COMPLETION                  all nonprimitive cap vectors                                     RETAINED_MATHEMATICAL_BRANCH
+FC07_PERIODIC_TORUS_BUNDLE       S1                           NO_CAP_GL2Z_MAPPING_TORUS                               REGULAR_IF_ENDPOINT_JETS_MATCH_MONODROMY          TORUS_BUNDLE_OVER_S1                       all GL(2,Z) monodromies                                          REGISTERED_GLOBAL_ALTERNATIVE_NOT_CURRENT_PHYSICAL_CELL_WITHOUT_EXTRA_JOIN
+FC08_MIRROR_DOUBLE               DOUBLED_INTERVAL             MIRROR_SEAL_WITH_REGISTERED_ANGULAR_LIFT                DEPENDS_ON_FIXED_SET_AND_JETS                     DOUBLE_OR_REFLECTION_QUOTIENT              reciprocal F_b and angular +I,-I,axis-reflection/exchange lifts  MULTIPLE_REGISTERED_LIFTS
+FC09_NONORIENTABLE_GLUE          S1_OR_QUOTIENT_INTERVAL      ORIENTATION_REVERSING_BUNDLE_GLUE                       REGULAR_BUNDLE_POSSIBLE                           NONORIENTABLE_ORIENTATION_TWISTED          all determinant-minus-one monodromies and line sign holonomies   REGISTERED_ALTERNATIVE_UNLESS_ORIENTATION_ADDED
+FC10_STRATIFIED_PROJECTOR        FINITE_OR_PERIODIC           PROJECTOR_RANK_MERGER_OR_SPLIT                          METRIC_MAY_BE_REGULAR_PROJECTOR_FINE_SPLIT_FAILS  STRATIFIED_DISTRIBUTION                    all retained motif transitions and degeneracies                  RETAINED_NOT_FILTERED
+FC11_NONINTEGRABLE_DISTRIBUTION  FINITE_OR_PERIODIC           ANHOLONOMIC_NO_ORBIT_SURFACE                            REGULAR_DISTRIBUTION                              NONINTEGRABLE_PLANE_FIELD                  all nonzero Frobenius branches                                   RETAINED_NOT_TORIC_ORBIT
+FC12_RECIPROCAL_TORIC_DIAGONAL   FINITE_INTERVAL_OPEN_OR_CAP  GLOBAL_FIXED_INTEGRAL_T2_BASIS_WITH_RECIPROCAL_WEIGHTS  PROFILE_AND_ENDPOINT_DEPENDENT                    BOUNDARY_P0_S3_LENS_OR_OTHER_PER_CAP_DATA  arbitrary positive A,Omega plus every disclosed endpoint class   CONDITIONAL_CONTROL_NOT_SELECTED
+completion_id                        projector_kato_transport                                               levi_civita_tangent_holonomy                            torus_lattice_or_cap_data                          principal_circle_characteristic_data                                              conflation_guard
+FC01_BOUNDARY_BOUNDARY               OPEN_PATH_TRANSPORT_ONLY                                               PROFILE_DEPENDENT_NOT_COMPUTED_WITHOUT_COMPLETE_METRIC  BOUNDARY_T2_BASIS_IF_SUPPLIED_NO_CLOSED_MONODROMY  NOT_DEFINED_WITHOUT_FREE_ACTION                                                   FOUR_NOTIONS_DISTINCT
+FC02_ONE_CAP_BOUNDARY                OPEN_PATH_TRANSPORT_ONLY                                               PROFILE_DEPENDENT_NOT_COMPUTED_WITHOUT_COMPLETE_METRIC  ONE_PRIMITIVE_MERIDIAN_CYCLE                       NOT_DEFINED_WITHOUT_FREE_ACTION                                                   FOUR_NOTIONS_DISTINCT
+FC03_TWO_CAP_P0                      INTERVAL_TRANSPORT_PLUS_CAP_EXTENSION_REQUIRED                         PROFILE_DEPENDENT_NOT_COMPUTED_WITHOUT_COMPLETE_METRIC  CAP_PAIR_DETERMINANT_P_AND_Q_CONVENTION            NOT_DEFINED_WITHOUT_FREE_ACTION                                                   FOUR_NOTIONS_DISTINCT
+FC04_TWO_CAP_P1                      INTERVAL_TRANSPORT_PLUS_CAP_EXTENSION_REQUIRED                         PROFILE_DEPENDENT_NOT_COMPUTED_WITHOUT_COMPLETE_METRIC  CAP_PAIR_DETERMINANT_P_AND_Q_CONVENTION            NOT_DEFINED_WITHOUT_FREE_ACTION                                                   FOUR_NOTIONS_DISTINCT
+FC05_TWO_CAP_P_GT1                   INTERVAL_TRANSPORT_PLUS_CAP_EXTENSION_REQUIRED                         PROFILE_DEPENDENT_NOT_COMPUTED_WITHOUT_COMPLETE_METRIC  CAP_PAIR_DETERMINANT_P_AND_Q_CONVENTION            NOT_DEFINED_WITHOUT_FREE_ACTION                                                   FOUR_NOTIONS_DISTINCT
+FC06_NONPRIMITIVE_CAP                OPEN_PATH_TRANSPORT_ONLY                                               PROFILE_DEPENDENT_NOT_COMPUTED_WITHOUT_COMPLETE_METRIC  NONPRIMITIVE_ISOTROPY_OR_SINGULAR_STABILIZER       NOT_DEFINED_WITHOUT_FREE_ACTION                                                   FOUR_NOTIONS_DISTINCT
+FC07_PERIODIC_TORUS_BUNDLE           CLOSED_ONLY_AFTER_ENDPOINT_GL2Z_GLUE                                   PROFILE_DEPENDENT_NOT_COMPUTED_WITHOUT_COMPLETE_METRIC  GENERAL_GL2Z_MONODROMY                             NOT_DEFINED_WITHOUT_FREE_ACTION                                                   FOUR_NOTIONS_DISTINCT
+FC08_MIRROR_DOUBLE                   Z2_GRADED_RECIPROCAL_GLUE_WITH_EVEN_REVERSAL_PARITY_ON_CLOSED_COCYCLE  PROFILE_DEPENDENT_NOT_COMPUTED_WITHOUT_COMPLETE_METRIC  ANGULAR_LIFT_DEPENDENT                             NOT_DEFINED_WITHOUT_FREE_ACTION                                                   FOUR_NOTIONS_DISTINCT
+FC09_NONORIENTABLE_GLUE              W1_NONZERO_SIGN_OR_PERMUTATION_HOLONOMY_ALLOWED                        PROFILE_DEPENDENT_NOT_COMPUTED_WITHOUT_COMPLETE_METRIC  DET_MINUS_ONE_GL2Z                                 NOT_DEFINED_WITHOUT_FREE_ACTION                                                   FOUR_NOTIONS_DISTINCT
+FC10_STRATIFIED_PROJECTOR            FINE_HOLONOMY_UNDEFINED_COARSE_STRATIFIED_TRANSPORT_ONLY               PROFILE_DEPENDENT_NOT_COMPUTED_WITHOUT_COMPLETE_METRIC  NONE_OR_OPEN                                       NOT_DEFINED_WITHOUT_FREE_ACTION                                                   FOUR_NOTIONS_DISTINCT
+FC11_NONINTEGRABLE_DISTRIBUTION      DISTRIBUTION_TRANSPORT_DEFINED_NO_LEAF_ORBIT_HOLONOMY                  PROFILE_DEPENDENT_NOT_COMPUTED_WITHOUT_COMPLETE_METRIC  NONE_OR_OPEN                                       NOT_DEFINED_WITHOUT_FREE_ACTION                                                   FOUR_NOTIONS_DISTINCT
+FC12_RECIPROCAL_TORIC_DIAGONAL       DEPTH_PATH_KATO_ZERO_IN_COORDINATE_PROJECTOR_FRAME                     PROFILE_DEPENDENT_NOT_COMPUTED_WITHOUT_COMPLETE_METRIC  SUPPLIED_INTEGRAL_T2_BASIS_AND_CAP_OR_GLUE_DATA    A=f dxi1+(1-f)dxi2; Q_FINITE=f_minus-f_plus; UNIT_ONLY_WITH_FULL_GLOBAL_PREMISES  FOUR_NOTIONS_DISTINCT
+FC07::M_IDENTITY                     CLOSED_ONLY_AFTER_THIS_EXPLICIT_GLUE                                   NOT_FIXED_BY_LATTICE_MONODROMY                          M=[[1,0],[0,1]];H1=Z+(Z^2)                         NOT_AUTOMATICALLY_DEFINED                                                         FOUR_NOTIONS_DISTINCT
+FC07::M_MINUS_IDENTITY               CLOSED_ONLY_AFTER_THIS_EXPLICIT_GLUE                                   NOT_FIXED_BY_LATTICE_MONODROMY                          M=[[-1,0],[0,-1]];H1=Z+(Z/2+Z/2)                   NOT_AUTOMATICALLY_DEFINED                                                         FOUR_NOTIONS_DISTINCT
+FC07::M_ORDER4_ROTATION              CLOSED_ONLY_AFTER_THIS_EXPLICIT_GLUE                                   NOT_FIXED_BY_LATTICE_MONODROMY                          M=[[0,-1],[1,0]];H1=Z+(Z/2)                        NOT_AUTOMATICALLY_DEFINED                                                         FOUR_NOTIONS_DISTINCT
+FC07::M_ORDER6_ELLIPTIC              CLOSED_ONLY_AFTER_THIS_EXPLICIT_GLUE                                   NOT_FIXED_BY_LATTICE_MONODROMY                          M=[[0,-1],[1,1]];H1=Z+(0)                          NOT_AUTOMATICALLY_DEFINED                                                         FOUR_NOTIONS_DISTINCT
+FC07::M_PARABOLIC                    CLOSED_ONLY_AFTER_THIS_EXPLICIT_GLUE                                   NOT_FIXED_BY_LATTICE_MONODROMY                          M=[[1,1],[0,1]];H1=Z+(Z)                           NOT_AUTOMATICALLY_DEFINED                                                         FOUR_NOTIONS_DISTINCT
+FC07::M_HYPERBOLIC                   CLOSED_ONLY_AFTER_THIS_EXPLICIT_GLUE                                   NOT_FIXED_BY_LATTICE_MONODROMY                          M=[[2,1],[1,1]];H1=Z+(0)                           NOT_AUTOMATICALLY_DEFINED                                                         FOUR_NOTIONS_DISTINCT
+FC07::M_EXCHANGE                     CLOSED_ONLY_AFTER_THIS_EXPLICIT_GLUE                                   NOT_FIXED_BY_LATTICE_MONODROMY                          M=[[0,1],[1,0]];H1=Z+(Z)                           NOT_AUTOMATICALLY_DEFINED                                                         FOUR_NOTIONS_DISTINCT
+FC07::M_ORIENTATION_REVERSING_GLIDE  CLOSED_ONLY_AFTER_THIS_EXPLICIT_GLUE                                   NOT_FIXED_BY_LATTICE_MONODROMY                          M=[[1,1],[0,-1]];H1=Z+(Z)                          NOT_AUTOMATICALLY_DEFINED                                                         FOUR_NOTIONS_DISTINCT
+monodromy_id                   matrix           determinant  trace  monodromy_class               fiber_coker_M_minus_I  mapping_torus_H1  coverage_status
+M_IDENTITY                     [[1,0],[0,1]]    1            2      IDENTITY                      Z^2                    Z+(Z^2)           PARAMETRIC_GL2Z_FAMILY_WITH_CLASS_WITNESS
+M_MINUS_IDENTITY               [[-1,0],[0,-1]]  1            -2     FINITE_ELLIPTIC               Z/2+Z/2                Z+(Z/2+Z/2)       PARAMETRIC_GL2Z_FAMILY_WITH_CLASS_WITNESS
+M_ORDER4_ROTATION              [[0,-1],[1,0]]   1            0      FINITE_ELLIPTIC               Z/2                    Z+(Z/2)           PARAMETRIC_GL2Z_FAMILY_WITH_CLASS_WITNESS
+M_ORDER6_ELLIPTIC              [[0,-1],[1,1]]   1            1      FINITE_ELLIPTIC               0                      Z+(0)             PARAMETRIC_GL2Z_FAMILY_WITH_CLASS_WITNESS
+M_PARABOLIC                    [[1,1],[0,1]]    1            2      PARABOLIC_OR_MINUS_PARABOLIC  Z                      Z+(Z)             PARAMETRIC_GL2Z_FAMILY_WITH_CLASS_WITNESS
+M_HYPERBOLIC                   [[2,1],[1,1]]    1            3      HYPERBOLIC                    0                      Z+(0)             PARAMETRIC_GL2Z_FAMILY_WITH_CLASS_WITNESS
+M_EXCHANGE                     [[0,1],[1,0]]    -1           0      ORIENTATION_REVERSING         Z                      Z+(Z)             PARAMETRIC_GL2Z_FAMILY_WITH_CLASS_WITNESS
+M_ORIENTATION_REVERSING_GLIDE  [[1,1],[0,-1]]   -1           0      ORIENTATION_REVERSING         Z                      Z+(Z)             PARAMETRIC_GL2Z_FAMILY_WITH_CLASS_WITNESS
+claim_id  object                                           status                                           basis                                                                                                        limit
+G01       metric-compatible projector connection           DERIVED_REGISTERED_GEOMETRIC_IDENTITY            K=sum(nabla_T P_a)P_a is metric-skew and commutator-transports every complete self-adjoint projector family  requires smooth fixed-rank projector family; not physical time
+G02       all frozen identity/family paths                 ACCOUNTED                                        95232 unique path identities; 93920 stable and 1312 transition/uncertain                                     17-node source remains sampled local analytic evidence
+G03       dense continuous transport anchors               OBSERVED_BOUNDED_76_PASS_7_NUMERIC_MARGINS       83 deterministic populated-stratum anchors at 33/65/129 nodes                                                seven derivative identity margins not promoted
+G04       midpoint-integrable 1+1+2 candidates             OBSERVED_ALL_1536_INTEGRABLE_AT_9_SAMPLED_NODES  13824 node rows reproduce both-side local integrability                                                      sampled path evidence not a continuous global foliation theorem
+G05       candidate provenance                             OBSERVED_PHI_FIELD_ONLY                          all 1536 rows are M8 PHI_FIELD-only; eight family presentations of 192 identities                            not full metric-angular orchestra or independent branch count
+G06       registered global completion taxonomy            CHARACTERIZED_BOUNDED_PARAMETRIC                 12 families; cap and GL2Z parametric rules plus bounded witnesses                                            not arbitrary four-manifold classification or complete metric witnesses
+G07       projector transport holonomy                     OPEN_WITHOUT_EXPLICIT_CLOSED_GLUE                open analytic paths supply transport only                                                                    endpoint gluing not supplied
+G08       reciprocal-toric principal connection            EXACT_CONDITIONAL                                common scale cancels and finite Q=f_minus-f_plus                                                             periods action caps orientation normalization supplied
+G09       global quotient selection                        OPEN_NOT_SELECTED                                all seven registered selector axes remain nonselecting across multiple branches                              future premise or native global law may change result
+G10       quotient deformation space/action                NOT_ACTIVATED                                    Stage 6 selection gate failed                                                                                no carrier or L2+L4 import allowed
+G11       time-live dynamics                               NOT_ACTIVATED                                    Stage 7 native evolution-law gate failed                                                                     zero CPU time-live and zero GPU runs
+G12       density as observed input                        OBSERVED_OR_EXTERNAL_ANCHOR                      can calibrate or compare without circularity                                                                 not a native selector
+G13       density as native simultaneous bootstrap output  OPEN_POTENTIAL_FUTURE_SELECTOR                   M_native/V_proper from same complete solution could enter fixed point                                        native mass functional varied closure response map and scale breaking absent
+# Next scientific decision
+No automatic continuation is authorized by this package.
+The atlas does not support another larger pointwise scan, a carrier time evolution, or GPU work.
+It also shows that “derive transport” was not the entire missing bridge: the only cell-wide sampled
+integrable candidate family is `PHI_FIELD`-only, while the full metric orchestra is generically a
+four-dimensional weave.
+The next bounded scientific question should therefore be:
+> Does a native global consistency law—built from a complete finite-cell metric, its varied boundary,
+> proper volume, and eventually a native mass functional—select an organized reciprocal-angular
+> quotient from the full metric weave without feeding an assumed density, carrier, or action into
+> the calculation?
+This is a two-part gate:
+1. **Geometry/boundary side:** determine what off-shell global functional or stationarity condition,
+   if any, UDT's registered metric, finite-cell, Reciprocity, CSN, and seal statements actually
+   provide across the completion classes. Do not choose a cap or torus action first.
+2. **Matter/density side:** only after a native mass measure exists, pose density as
+   `M_native/V_proper` from the same solution and test a simultaneous bootstrap fixed point. An
+   observed density may remain a comparison anchor but cannot provide native selection.
+If the first part remains underdetermined, the honest next move is a conceptual premise audit, not a
+time-live solve. If it supplies a unique quotient but no dynamics, derive the quotient deformation
+space next. Only a selected nonlinear evolution law would authorize bounded CPU time-live anchors;
+GPU work remains later.
+
+codex
+The source packages support the reference’s main nonselection result, but the “bundle and holonomy” layer is presently a registry of required data, not a completed obstruction audit. I’m checking whether that gap is merely declared scope or whether any claim overstates it.
+exec
+/bin/bash -lc "sed -n '130,165p' UDT_NATIVE_ACTION_COLD_PACKET.md
+sed -n '228,248p' UDT_NATIVE_ACTION_COLD_PACKET.md
+sed -n '45,115p' native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md
+sed -n '135,165p' udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md
+sed -n '1,220p' udt_global_metric_assembly_atlas_2026-07-22/SELECTOR_MATRIX.tsv" in /tmp/udt_metric_review_T_Jh03Lq
+ succeeded in 0ms:
+- an action, field equation, measure, locality class, or derivative order;
+- the finite-cell boundary functional or all admissible boundary variations;
+- a matter carrier, four-dimensional matter completion, or coupling weight;
+- stress/source normalization, gravitational charge, mass, or an absolute scale.
+
+The displayed representative identity is not invariant under a further common conformal rescaling;
+the variation ledger must distinguish the equivalence class from its chosen representative. Any
+uniqueness or underdetermination claim must attempt a distinct admissible countermodel under the same
+complete frozen ledger.
+
+## 3. FINITE-CELL CANON
+
+UDT's native global setting is a finite mirrored cell, not an asymptotically flat spatial infinity.
+Accordingly:
+
+- no spatial-infinity condition or asymptotic charge construction may enter as native input;
+- a private wall condition may not be selected merely to hold a configuration together;
+- **CANONIZED / BINDING INPUT** for the static `phi` sector—authority and evidence: `CANON.md`,
+  C-2026-06-10-2 as clarified by C-2026-07-04-1. The spatial-depth mirror makes `phi` odd at the
+  seal, so its value vanishes there while its normal derivative is free;
+- that parity statement does not select the action's boundary functional, the boundary data for
+  every other field, or a conserved charge;
+- a local large-cell or weak-field readout is allowed only after its finite-cell relation and error
+  are controlled.
+
+## 4. MATTER-CARRIER STATUS AND CONDITIONAL TEST BRANCH
+
+**WORKING / POSIT**—provenance: historical; presently reopened. The round `S^2` carrier is not fixed
+as fundamental UDT content. It may emerge from deeper positional dynamics, remain independently
+needed, or be replaced by another carrier. The arm must keep a carrier-agnostic branch alive.
+
+For Stage I, the round-$S^2$ model below is supplied solely as a **CONDITIONAL** test branch. No claim
+about the existence, outcome, or validity of any historical calculation is supplied. The model is
+
+\[
+\mathbf n:\mathbb R^3\to S^2,
+carrier.
+
+## 7. REQUIRED PREMISE LEDGER
+
+Before deriving, each arm must list at least:
+
+- how the H2 founding-hierarchy ruling enters and whether any result depends on that wording;
+- independent fields and the full off-shell configuration space;
+- how reciprocal kinematics and common-scale equivalence enter the variation domain;
+- locality, derivative order, covariance, foliation, parity, and time-reversal premises;
+- measure, orientation, finite-cell boundary functional, and allowed boundary variations;
+- carrier-agnostic versus conditional round-`S^2` branches;
+- every four-dimensional completion of the supplied static functional;
+- sign and normalization conventions;
+- the status and role of `X_max` and global-bootstrap data;
+- the finite-cell charge/mass definition and any controlled local readout.
+
+Tag every entry **FOUNDING / CANONIZED / DERIVED / CHOSE / WORKING / OPEN / CONDITIONAL / POSIT /
+OBSERVED / FREE / HABIT**, with a citation or explicit statement of non-derivation. A theorem may classify a
+chosen premise set; it cannot derive those premises from kinematics.
+
+the resolution ladder. The later no-null arc establishes static finite-box stability within the
+round-`S2`, `L2+L4`, fixed-boundary, discretization, and operator premises. This audit does not
+freshly replay the saved field charge: the large H3/no-null field checkpoints are not tracked in the
+clean checkout. It therefore retains the numerical configuration as `OBSERVED_CARRIER_CONDITIONAL`
+from banked evidence, not as a newly reproduced raw-field result.
+
+## Exact topology findings
+
+The CPU/SymPy script `derive_topology.py` independently checks:
+
+1. The standard Hopf map built from an `S3` spinor lands exactly on `S2`.
+2. In Hopf coordinates, the connection
+   `A = cos(eta)^2 d(xi1) + sin(eta)^2 d(xi2)` gives
+   `integral(A wedge dA) = -4*pi^2`, hence the registered convention gives `Q_H=1`.
+3. A radial `S2` hedgehog has primary flux `4*pi`; it is not the zero-primary-flux localized Hopf
+   texture and cannot be substituted for one.
+4. A normalized scalar gradient, where defined, satisfies the Frobenius restriction
+   `n-flat wedge d(n-flat)=0`; it is not a generic `S2` carrier and becomes undefined at gradient
+   zeros.
+
+These are topology controls. They do not derive the carrier, energy, boundary data, or stability.
+
+## The hidden-in-plain-sight metric structure
+
+There is a narrower conceptual lead that the prior carrier provenance audit did not state in this
+form. Once the conditional four-dimensional Lorentzian/conformal readout is accepted, every tangent
+space has a projective null-line cone:
+
+```text
+k = omega (e0 + n),  omega > 0,
+g(k,k)=0  iff  |n|=1.
+```
+
+Quotienting the nonzero line scale leaves an `S2` of null directions. If a time orientation is
+separately `CHOSE`, the positive rays in its future component are likewise an `S2`. A positive
+Common-Scale rescaling multiplies `g(k,k)` but does not change which lines are null, so this `S2`
+fiber is naturally compatible with CSN. The executable matrix calculation is an exact consistency
+check of that conformal fact, not independent evidence for the physical premises. In lay terms, the
+metric supplies a sphere of possible light/causal directions at every event.
+
+This is promising for the light/time/co-presence framing, but it is not yet a carrier derivation:
+
+- four-dimensionality is currently `INHERITED`, not derived by C0/C1;
+- the local Lorentzian readout is `POSIT / CHOSE` after representative selection;
+- this is a celestial topological/conformal `S2`, not automatically the carrier's fixed round-`S2`
+  target metric;
+- a sphere fiber is not a chosen field: UDT still needs a section selecting one direction at each
+  event;
+- turning a section over a spatial slice into a map `S3 -> S2` needs a frame/trivialization, or an
+  intrinsic bundle-level Hopf construction; comparing directions between events likewise needs a
+  connection or intrinsic transport law;
+- current Reciprocity/CSN does not select a unique line, as the reciprocal-line audit already shows;
+- no `L2+L4` action, time sector, source, or boundary rule follows merely from the null sphere.
+
+Accordingly the strongest honest new bridge candidate is:
+
+`WORKING_CANDIDATE: the reopened S2 carrier may be a section/texture of the conformally natural null-direction sphere bundle.`
+
+This is not UDT-unique yet. Every four-dimensional Lorentzian conformal geometry has the same local
+null-direction sphere. UDT would become distinctive only if Reciprocity, finite-cell structure, or
+bootstrap closure selected the section, its comparison law, and its admissible topology.
+
+## Boundary and co-presence audit
+
+Given the conditional carrier, a constant-exterior configuration supported in a contractible bulk
+cube or ball defines
+
+```text
+B3 / boundary(B3) = S3,
+S3 -> S2,
+Q_H in Z.
+generic consequence of merely turning on `H` and `D`.
+
+With the equal-weight diagonal circle action separately supplied, the metric-dual connection is
+
+```text
+calA = f(phi) dxi1 + [1-f(phi)] dxi2,
+f(phi)=1/[1+exp(4phi)].
+```
+
+`Omega` cancels. For finite endpoints,
+
+```text
+Q = f(phi_minus)-f(phi_plus),
+```
+
+so the readout is continuous and boundary-dependent, not automatically integral. Only the full
+range `phi: -infinity -> +infinity`, two `2*pi` circles, opposite primitive smooth collapses,
+selected free diagonal/anti-diagonal action, orientation, and normalization give `|Q|=1`.
+
+At `phi=0` the circle fractions are equal. Reciprocal reflection exchanges the two angular
+coefficients; it is a metric isometry only when `A^2` and `Omega^2` are even and the global circle
+exchange is supplied. The round control has exact opposite collapse limits `(1,0)` and `(0,1)`.
+Arbitrary positive `A,Omega` do not inherit periodicity or cap regularity from the local projectors.
+
+## Comparison with the existing Hopf soliton
+
+The quotient map is
+
+```text
+n(phi,delta) = (sech(2phi) cos(delta),
+                sech(2phi) sin(delta),
+selector_id	completion_id	exact_registered_consequence	branch_verdict	source	selection_power
+RECIPROCITY	FC01_BOUNDARY_BOUNDARY	reciprocal exponential comparison and Z2-graded transition algebra	NO_UNIQUE_BRANCH_DECISION	udt_global_coframe_cocycle_audit_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+RECIPROCITY	FC02_ONE_CAP_BOUNDARY	reciprocal exponential comparison and Z2-graded transition algebra	NO_UNIQUE_BRANCH_DECISION	udt_global_coframe_cocycle_audit_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+RECIPROCITY	FC03_TWO_CAP_P0	reciprocal exponential comparison and Z2-graded transition algebra	NO_UNIQUE_BRANCH_DECISION	udt_global_coframe_cocycle_audit_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+RECIPROCITY	FC04_TWO_CAP_P1	reciprocal exponential comparison and Z2-graded transition algebra	NO_UNIQUE_BRANCH_DECISION	udt_global_coframe_cocycle_audit_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+RECIPROCITY	FC05_TWO_CAP_P_GT1	reciprocal exponential comparison and Z2-graded transition algebra	NO_UNIQUE_BRANCH_DECISION	udt_global_coframe_cocycle_audit_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+RECIPROCITY	FC06_NONPRIMITIVE_CAP	reciprocal exponential comparison and Z2-graded transition algebra	NO_UNIQUE_BRANCH_DECISION	udt_global_coframe_cocycle_audit_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+RECIPROCITY	FC07_PERIODIC_TORUS_BUNDLE	reciprocal exponential comparison and Z2-graded transition algebra	NO_UNIQUE_BRANCH_DECISION	udt_global_coframe_cocycle_audit_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+RECIPROCITY	FC08_MIRROR_DOUBLE	reciprocal exponential comparison and Z2-graded transition algebra	CONSTRAINS_TRANSITION_PARITY_BUT_DOES_NOT_SELECT_LIFT_OR_COVER	udt_global_coframe_cocycle_audit_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+RECIPROCITY	FC09_NONORIENTABLE_GLUE	reciprocal exponential comparison and Z2-graded transition algebra	NO_UNIQUE_BRANCH_DECISION	udt_global_coframe_cocycle_audit_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+RECIPROCITY	FC10_STRATIFIED_PROJECTOR	reciprocal exponential comparison and Z2-graded transition algebra	NO_UNIQUE_BRANCH_DECISION	udt_global_coframe_cocycle_audit_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+RECIPROCITY	FC11_NONINTEGRABLE_DISTRIBUTION	reciprocal exponential comparison and Z2-graded transition algebra	NO_UNIQUE_BRANCH_DECISION	udt_global_coframe_cocycle_audit_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+RECIPROCITY	FC12_RECIPROCAL_TORIC_DIAGONAL	reciprocal exponential comparison and Z2-graded transition algebra	COMPATIBLE_RATIO_STRUCTURE_NOT_GLOBAL_SELECTION	udt_global_coframe_cocycle_audit_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+CSN	FC01_BOUNDARY_BOUNDARY	positive common scale is calibration before material scale selection	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+CSN	FC02_ONE_CAP_BOUNDARY	positive common scale is calibration before material scale selection	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+CSN	FC03_TWO_CAP_P0	positive common scale is calibration before material scale selection	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+CSN	FC04_TWO_CAP_P1	positive common scale is calibration before material scale selection	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+CSN	FC05_TWO_CAP_P_GT1	positive common scale is calibration before material scale selection	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+CSN	FC06_NONPRIMITIVE_CAP	positive common scale is calibration before material scale selection	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+CSN	FC07_PERIODIC_TORUS_BUNDLE	positive common scale is calibration before material scale selection	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+CSN	FC08_MIRROR_DOUBLE	positive common scale is calibration before material scale selection	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+CSN	FC09_NONORIENTABLE_GLUE	positive common scale is calibration before material scale selection	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+CSN	FC10_STRATIFIED_PROJECTOR	positive common scale is calibration before material scale selection	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+CSN	FC11_NONINTEGRABLE_DISTRIBUTION	positive common scale is calibration before material scale selection	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+CSN	FC12_RECIPROCAL_TORIC_DIAGONAL	positive common scale is calibration before material scale selection	REMOVES_COMMON_OMEGA_FROM_NORMALIZED_CONNECTION_NOT_PERIODS_CAPS_OR_ACTION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+FINITE_CELL	FC01_BOUNDARY_BOUNDARY	finite mirrored physical cell/no spatial infinity; boundary completion not specified	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+FINITE_CELL	FC02_ONE_CAP_BOUNDARY	finite mirrored physical cell/no spatial infinity; boundary completion not specified	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+FINITE_CELL	FC03_TWO_CAP_P0	finite mirrored physical cell/no spatial infinity; boundary completion not specified	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+FINITE_CELL	FC04_TWO_CAP_P1	finite mirrored physical cell/no spatial infinity; boundary completion not specified	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+FINITE_CELL	FC05_TWO_CAP_P_GT1	finite mirrored physical cell/no spatial infinity; boundary completion not specified	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+FINITE_CELL	FC06_NONPRIMITIVE_CAP	finite mirrored physical cell/no spatial infinity; boundary completion not specified	DOES_NOT_LICENSE_SINGULAR_PHYSICAL_METRIC	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+FINITE_CELL	FC07_PERIODIC_TORUS_BUNDLE	finite mirrored physical cell/no spatial infinity; boundary completion not specified	NOT_CURRENT_PHYSICAL_CELL_WITHOUT_EXTRA_QUOTIENT_JOIN	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+FINITE_CELL	FC08_MIRROR_DOUBLE	finite mirrored physical cell/no spatial infinity; boundary completion not specified	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+FINITE_CELL	FC09_NONORIENTABLE_GLUE	finite mirrored physical cell/no spatial infinity; boundary completion not specified	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+FINITE_CELL	FC10_STRATIFIED_PROJECTOR	finite mirrored physical cell/no spatial infinity; boundary completion not specified	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+FINITE_CELL	FC11_NONINTEGRABLE_DISTRIBUTION	finite mirrored physical cell/no spatial infinity; boundary completion not specified	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+FINITE_CELL	FC12_RECIPROCAL_TORIC_DIAGONAL	finite mirrored physical cell/no spatial infinity; boundary completion not specified	NO_UNIQUE_BRANCH_DECISION	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+STATIC_SEAL	FC01_BOUNDARY_BOUNDARY	static phi parity/value only; complete coframe lift and polarization open	NO_UNIQUE_BRANCH_DECISION	complete_coframe_seal_involution_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+STATIC_SEAL	FC02_ONE_CAP_BOUNDARY	static phi parity/value only; complete coframe lift and polarization open	NO_UNIQUE_BRANCH_DECISION	complete_coframe_seal_involution_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+STATIC_SEAL	FC03_TWO_CAP_P0	static phi parity/value only; complete coframe lift and polarization open	NO_UNIQUE_BRANCH_DECISION	complete_coframe_seal_involution_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+STATIC_SEAL	FC04_TWO_CAP_P1	static phi parity/value only; complete coframe lift and polarization open	NO_UNIQUE_BRANCH_DECISION	complete_coframe_seal_involution_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+STATIC_SEAL	FC05_TWO_CAP_P_GT1	static phi parity/value only; complete coframe lift and polarization open	NO_UNIQUE_BRANCH_DECISION	complete_coframe_seal_involution_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+STATIC_SEAL	FC06_NONPRIMITIVE_CAP	static phi parity/value only; complete coframe lift and polarization open	NO_UNIQUE_BRANCH_DECISION	complete_coframe_seal_involution_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+STATIC_SEAL	FC07_PERIODIC_TORUS_BUNDLE	static phi parity/value only; complete coframe lift and polarization open	NO_UNIQUE_BRANCH_DECISION	complete_coframe_seal_involution_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+STATIC_SEAL	FC08_MIRROR_DOUBLE	static phi parity/value only; complete coframe lift and polarization open	REQUIRES_A_SEAL_BUT_LEAVES_MULTIPLE_ANGULAR_LIFTS	complete_coframe_seal_involution_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+STATIC_SEAL	FC09_NONORIENTABLE_GLUE	static phi parity/value only; complete coframe lift and polarization open	NO_UNIQUE_BRANCH_DECISION	complete_coframe_seal_involution_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+STATIC_SEAL	FC10_STRATIFIED_PROJECTOR	static phi parity/value only; complete coframe lift and polarization open	NO_UNIQUE_BRANCH_DECISION	complete_coframe_seal_involution_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+STATIC_SEAL	FC11_NONINTEGRABLE_DISTRIBUTION	static phi parity/value only; complete coframe lift and polarization open	NO_UNIQUE_BRANCH_DECISION	complete_coframe_seal_involution_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+STATIC_SEAL	FC12_RECIPROCAL_TORIC_DIAGONAL	static phi parity/value only; complete coframe lift and polarization open	NO_UNIQUE_BRANCH_DECISION	complete_coframe_seal_involution_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+BOOTSTRAP	FC01_BOUNDARY_BOUNDARY	on-shell admissibility without off-shell ranking functional	NO_UNIQUE_BRANCH_DECISION	boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+BOOTSTRAP	FC02_ONE_CAP_BOUNDARY	on-shell admissibility without off-shell ranking functional	NO_UNIQUE_BRANCH_DECISION	boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+BOOTSTRAP	FC03_TWO_CAP_P0	on-shell admissibility without off-shell ranking functional	NO_UNIQUE_BRANCH_DECISION	boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+BOOTSTRAP	FC04_TWO_CAP_P1	on-shell admissibility without off-shell ranking functional	NO_UNIQUE_BRANCH_DECISION	boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+BOOTSTRAP	FC05_TWO_CAP_P_GT1	on-shell admissibility without off-shell ranking functional	NO_UNIQUE_BRANCH_DECISION	boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+BOOTSTRAP	FC06_NONPRIMITIVE_CAP	on-shell admissibility without off-shell ranking functional	NO_UNIQUE_BRANCH_DECISION	boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+BOOTSTRAP	FC07_PERIODIC_TORUS_BUNDLE	on-shell admissibility without off-shell ranking functional	NO_UNIQUE_BRANCH_DECISION	boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+BOOTSTRAP	FC08_MIRROR_DOUBLE	on-shell admissibility without off-shell ranking functional	NO_UNIQUE_BRANCH_DECISION	boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+BOOTSTRAP	FC09_NONORIENTABLE_GLUE	on-shell admissibility without off-shell ranking functional	NO_UNIQUE_BRANCH_DECISION	boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+BOOTSTRAP	FC10_STRATIFIED_PROJECTOR	on-shell admissibility without off-shell ranking functional	NO_UNIQUE_BRANCH_DECISION	boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+BOOTSTRAP	FC11_NONINTEGRABLE_DISTRIBUTION	on-shell admissibility without off-shell ranking functional	NO_UNIQUE_BRANCH_DECISION	boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+BOOTSTRAP	FC12_RECIPROCAL_TORIC_DIAGONAL	on-shell admissibility without off-shell ranking functional	NO_UNIQUE_BRANCH_DECISION	boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+SCALE_MATTER_INVENTORY	FC01_BOUNDARY_BOUNDARY	no native dimensional matter object/action coefficient/source/boundary charge	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+SCALE_MATTER_INVENTORY	FC02_ONE_CAP_BOUNDARY	no native dimensional matter object/action coefficient/source/boundary charge	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+SCALE_MATTER_INVENTORY	FC03_TWO_CAP_P0	no native dimensional matter object/action coefficient/source/boundary charge	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+SCALE_MATTER_INVENTORY	FC04_TWO_CAP_P1	no native dimensional matter object/action coefficient/source/boundary charge	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+SCALE_MATTER_INVENTORY	FC05_TWO_CAP_P_GT1	no native dimensional matter object/action coefficient/source/boundary charge	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+SCALE_MATTER_INVENTORY	FC06_NONPRIMITIVE_CAP	no native dimensional matter object/action coefficient/source/boundary charge	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+SCALE_MATTER_INVENTORY	FC07_PERIODIC_TORUS_BUNDLE	no native dimensional matter object/action coefficient/source/boundary charge	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+SCALE_MATTER_INVENTORY	FC08_MIRROR_DOUBLE	no native dimensional matter object/action coefficient/source/boundary charge	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+SCALE_MATTER_INVENTORY	FC09_NONORIENTABLE_GLUE	no native dimensional matter object/action coefficient/source/boundary charge	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+SCALE_MATTER_INVENTORY	FC10_STRATIFIED_PROJECTOR	no native dimensional matter object/action coefficient/source/boundary charge	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+SCALE_MATTER_INVENTORY	FC11_NONINTEGRABLE_DISTRIBUTION	no native dimensional matter object/action coefficient/source/boundary charge	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+SCALE_MATTER_INVENTORY	FC12_RECIPROCAL_TORIC_DIAGONAL	no native dimensional matter object/action coefficient/source/boundary charge	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+DENSITY_BOOTSTRAP	FC01_BOUNDARY_BOUNDARY	density may be a derived fixed-point output only after native mass and proper volume exist; it is not presently an independent selecting input	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+DENSITY_BOOTSTRAP	FC02_ONE_CAP_BOUNDARY	density may be a derived fixed-point output only after native mass and proper volume exist; it is not presently an independent selecting input	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+DENSITY_BOOTSTRAP	FC03_TWO_CAP_P0	density may be a derived fixed-point output only after native mass and proper volume exist; it is not presently an independent selecting input	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+DENSITY_BOOTSTRAP	FC04_TWO_CAP_P1	density may be a derived fixed-point output only after native mass and proper volume exist; it is not presently an independent selecting input	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+DENSITY_BOOTSTRAP	FC05_TWO_CAP_P_GT1	density may be a derived fixed-point output only after native mass and proper volume exist; it is not presently an independent selecting input	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+DENSITY_BOOTSTRAP	FC06_NONPRIMITIVE_CAP	density may be a derived fixed-point output only after native mass and proper volume exist; it is not presently an independent selecting input	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+DENSITY_BOOTSTRAP	FC07_PERIODIC_TORUS_BUNDLE	density may be a derived fixed-point output only after native mass and proper volume exist; it is not presently an independent selecting input	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+DENSITY_BOOTSTRAP	FC08_MIRROR_DOUBLE	density may be a derived fixed-point output only after native mass and proper volume exist; it is not presently an independent selecting input	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+DENSITY_BOOTSTRAP	FC09_NONORIENTABLE_GLUE	density may be a derived fixed-point output only after native mass and proper volume exist; it is not presently an independent selecting input	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+DENSITY_BOOTSTRAP	FC10_STRATIFIED_PROJECTOR	density may be a derived fixed-point output only after native mass and proper volume exist; it is not presently an independent selecting input	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+DENSITY_BOOTSTRAP	FC11_NONINTEGRABLE_DISTRIBUTION	density may be a derived fixed-point output only after native mass and proper volume exist; it is not presently an independent selecting input	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+DENSITY_BOOTSTRAP	FC12_RECIPROCAL_TORIC_DIAGONAL	density may be a derived fixed-point output only after native mass and proper volume exist; it is not presently an independent selecting input	NO_UNIQUE_BRANCH_DECISION	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	NONSELECTING_IN_CURRENT_REGISTRY
+
+exec
+/bin/bash -lc "rg -n \"udt_global_coframe|complete_coframe|path\\t|sha256|SOURCE\" udt_global_metric_assembly_atlas_2026-07-22/SOURCE_LINEAGE.tsv udt_global_metric_assembly_atlas_2026-07-22/SHA256SUMS.txt
+sed -n '1,260p' udt_global_coframe_cocycle_audit_2026-07-20/AUDIT_REPORT.md
+sed -n '1,260p' complete_coframe_seal_involution_2026-07-20/AUDIT_REPORT.md" in /tmp/udt_metric_review_T_Jh03Lq
+ succeeded in 0ms:
+udt_global_metric_assembly_atlas_2026-07-22/SHA256SUMS.txt:40:3d70c1cf2236bb37b1611643ee32c0adefea380797ca5f7ae385b891e979534a  SOURCE_LINEAGE.tsv
+udt_global_metric_assembly_atlas_2026-07-22/SOURCE_LINEAGE.tsv:1:path	sha256	role
+udt_global_metric_assembly_atlas_2026-07-22/SOURCE_LINEAGE.tsv:4:udt_global_coframe_cocycle_audit_2026-07-20/SHA256SUMS.txt	1297e8f6773f863f426d66f6c4915741a742c1ee13230abf2b066421de49b04b	FROZEN_TRANSITION_ALGEBRA
+udt_global_metric_assembly_atlas_2026-07-22/SOURCE_LINEAGE.tsv:5:complete_coframe_seal_involution_2026-07-20/SHA256SUMS.txt	87d43cb281d236111a8baec4fe7da5686a8043931e6ba0a2715228f7d61f483e	FROZEN_SEAL_LIFT_CLASSIFICATION
+# UDT global coframe cocycle and finite-cell tangent audit
+
+Date: 2026-07-20
+
+Base: `c8d337fb06b90126756483af86f105e2fbb4eabb`
+
+## Result first
+
+The global-completion lead does not yet close uniquely, but the derivation found a genuinely useful
+positive bridge that was hidden by an overly restrictive basis choice.
+
+The exact outcomes are:
+
+- `COCYCLE_CONSISTENCY_REDUCES_BUT_DOES_NOT_SELECT`;
+- `GLOBAL_COCYCLE_CANNOT_BE_POSED_WITHOUT_OPEN_TOPOLOGY_OR_COVER`;
+- `BOUNDARY_TANGENT_SPACE_REMAINS_POLARIZATION_DEPENDENT`;
+- `CURRENT_DATA_DEFINE_ONLY_LOCAL_OR_SECTORWISE_INVOLUTIONS`;
+- `MULTIPLE_GLOBAL_COMPLETIONS_SURVIVE_CONDITIONALLY`.
+
+The preregistered unique global coframe and tangent completion is not earned.
+
+However, the earlier apparent choice between a physically visible diagonal reciprocal metric and a
+mirror-compatible but `phi`-invisible dual metric was not exhaustive. The complete constant real
+symmetric `2x2` readout classification contains a mixed Lorentzian family that does both jobs.
+
+## The positive mixed-readout theorem
+
+Retain the exact reciprocal operator
+
+```text
+P(phi)=diag(exp(-phi),exp(phi))
+```
+
+and the complete real constant inverting involution
+
+```text
+F_b=[[0,b],[1/b,0]],       b nonzero.
+```
+
+Start with the general constant symmetric readout
+
+```text
+H0=[[A,B],[B,C]].
+```
+
+Require the physical metric block
+
+```text
+g(phi)=P(phi)^T H0 P(phi)
+```
+
+to close across the seal up to a positive common factor:
+
+```text
+F_b^T g(-phi) F_b = Omega^2 g(phi).
+```
+
+The exact component equations are
+
+```text
+C/b^2 = Omega^2 A,
+B     = Omega^2 B,
+A b^2 = Omega^2 C.
+```
+
+For a Lorentzian solution, `B` cannot vanish. Therefore `Omega^2=1` and
+
+```text
+C=A b^2.
+```
+
+The complete family in this declared class is consequently
+
+```text
+H0=[[A,B],[B,A b^2]],
+g(phi)=[[A exp(-2phi), B],
+        [B, A b^2 exp(2phi)]],
+B^2>A^2 b^2.
+```
+
+It obeys the exact mirror identity
+
+```text
+F_b^T g(-phi) F_b = g(phi),
+```
+
+has constant negative determinant `A^2 b^2-B^2`, and retains physical `phi` dependence whenever
+`A` is nonzero. The pure dual-pairing `K` readout is only the limiting case `A=0`, where `phi`
+disappears from the isolated metric block.
+
+This exposes the earlier mistake in geometric terms: diagonalizing the reciprocal operator and the
+Lorentz readout simultaneously was an additional restriction. They need not share an eigenbasis.
+
+### Explicit spatial-reflection witness
+
+For
+
+```text
+A=1, B=-2, b=1,
+H0=[[1,-2],[-2,1]],
+```
+
+the determinant is `-3`. In the balanced Hadamard basis,
+
+```text
+H0 -> diag(-1,3),
+F_1 -> diag(1,-1).
+```
+
+Thus the same exact candidate looks like an ordinary Lorentzian spatial reflection: it fixes the
+timelike line, reverses the spacelike line, keeps `phi` visible, and closes the seal.
+
+This is `DERIVED_CONDITIONAL`, not a selected UDT readout. The finite-cell canon does not yet declare
+the complete metric seal to be an isometry, the mixed time/radial soldering is not owner-locked, and
+the relationship of its anchor basis to the observed `c` clock/ruler frame remains open.
+
+### The remaining local modulus
+
+After common scale and diagonal reciprocal-frame changes, the dimensionless quantity
+
+```text
+mu = B^2/(A^2 b^2) > 1
+```
+
+is invariant. Exact full four-metric direct extensions with `mu=4` and `mu=9` both retain Lorentz
+signature, `phi` visibility, the same angular `+I` lift, and exact mirror closure. Current CSN,
+reciprocity, and involution rules therefore do not select `mu`.
+
+The positive theorem removes a false either/or but replaces it with a sharper question: what fixes
+the physical soldering, observer slicing, and invariant mixing modulus while retaining the measured
+`c` anchor?
+
+## The reciprocal transition-group theorem
+
+Define the preserving component
+
+```text
+G_a=diag(a,1/a)
+```
+
+and the inverting component `F_b` above. Exact multiplication gives
+
+```text
+G_a G_d = G_ad,
+F_b F_c = G_(b/c),
+G_a F_b = F_(ab),
+F_b G_a = F_(b/a).
+```
+
+This is a `Z2`-graded transition group: `G` maps preserve reciprocal depth orientation and `F` maps
+reverse it. Every closed transition cocycle has even reversal parity.
+
+In particular,
+
+```text
+F_b F_c F_d = F_(bd/c),
+```
+
+so three depth-inverting overlap maps cannot multiply to the identity. A valid three-chart witness
+is instead
+
+```text
+F_b F_c G_(c/b)=I.
+```
+
+This is real new structure: UDT's reciprocal data already determine the algebra that a global
+coframe bundle must use. But an algebra of transitions is not the chart cover on which they act.
+Current finite-cell authority does not supply that cover, its overlap incidence, or its global
+`Z2` class.
+
+Conjugation gives
+
+```text
+G_a F_b G_a^-1=F_(a^2 b).
+```
+
+Thus the magnitude of `b` is conjugate inside each real sign class. Its sign controls which
+conditional `K` eigenline is timelike, but even that interpretation presupposes the physical
+readout/slot choice.
+
+## Corner constraints reduce only after a corner is supplied
+
+For two declared seal generators, commuting base reflections require `c=+b` or `c=-b`. Angular axis
+reflections commute only when their axes are the same or perpendicular. More generally, a declared
+finite corner order `m` imposes
+
+```text
+b/c=1,
+```
+
+or `b/c=-1` for even `m`, and angular axes separated by `pi k/m`.
+
+These are exact reductions. They do not select `m`, a corner angle, the number of seals, or their
+incidence graph. Those are precisely the open global data the audit was forbidden to invent.
+
+## Full lifts and boundary tangents remain nonunique
+
+Combining the reciprocal reflection with angular `+I`, angular `-I`, or an angular axis reflection
+gives three invariantly distinct full local classes:
+
+| Angular lift | Full determinant | Coframe fixed/anti-fixed | Metric even/odd |
+|---|---:|---:|---:|
+| `+I` | `-1` | `3 / 1` | `7 / 3` |
+| `-I` | `-1` | `1 / 3` | `7 / 3` |
+| axis reflection | `+1` | `2 / 2` | `6 / 4` |
+
+Orientation would remove some rows only if the required orientation behavior were supplied. It is
+not. Treating the seal as an ordinary fixed hypersurface would select the `3/1` class, but that is
+also not present in the scoped canon and cannot be inserted retroactively.
+
+The static rule `delta phi=0` removes one scalar direction from the ten-dimensional symmetric
+metric tangent space, leaving nine. It is therefore not any of the complete `6`- or `7`-dimensional
+even tangent spaces above. Even after choosing an involution, the conditional bare-`C2` phase space
+still permits inequivalent `delta h`, `delta K`, momentum, mixed, and corner polarizations. Symmetry
+does not select the variational boundary class.
+
+## Regular caps do not select the topology
+
+Primitive mirror-compatible toric cap cycles retain determinant classes
+
+```text
+p=0, 1, 3, 5
+```
+
+in exact witnesses, with general lens classes beyond them. Smooth primitivity and angular exchange
+therefore do not select the `p=1` `S3` completion. That topology remains unique only after the
+previously registered globally diagonal opposing-eigen-circle cap premises are supplied.
+
+## Adjudication
+
+The possible `GLOBAL_COMPLETION_MAP` was not derived. The work did, however, replace a vague gap
+with two exact structures:
+
+1. a complete conditional mixed-readout family that reconciles physical reciprocal dilation with
+   Lorentzian mirror closure;
+2. the `Z2`-graded reciprocal transition algebra every future global completion must carry.
+
+Neither structure selects its invariant modulus, physical soldering, cover, caps, angular lift, or
+boundary polarization. The result is therefore a strong lead and a constraint on future answers,
+not global closure.
+
+No action, bootstrap selector, scale, `X_max`, topology, carrier, source, or mass has been promoted.
+
+## Evidence gates
+
+1. **Preregistered:** yes, commit `e88ef5c` predates candidate inspection and derivation.
+2. **Full space or bounded scope:** complete for constant real symmetric `2x2` readouts and the
+   declared full-block/angular/corner witness classes; not a classification of arbitrary
+   field-dependent `4x4` solderings or every global bundle.
+3. **Independent verification:** yes. A separate Python-standard-library implementation uses exact
+   rational matrices and independent rank calculations rather than the SymPy derivation code.
+4. **Premise audit:** yes. Every physical readout, topology, corner, orientation, polarization, and
+   matter/action premise remains visibly stamped.
+
+Grade: `VERIFIED_WITH_CAVEATS`.
+
+Maximum conclusion: `UDT_GLOBAL_COFRAME_COCYCLE_STATUS_CHARACTERIZED`.
+# Complete-Coframe Seal-Involution Audit
+
+Date: 2026-07-20
+
+Base: `5b1b57297bcceb5f8806b1ee238ac2ed2ccfcee3`
+
+Preregistration commit: `02bdf20`
+
+Mode: CPU-only exact real algebra, complete-sector extension census, and provenance audit
+
+## Result
+
+`MULTIPLE_COMPLETIONS`
+
+UDT's reciprocal character has an exact depth-reversing involution, but the current foundation does
+not derive one complete physical coframe action of the finite-cell seal.
+
+For every nonzero real `b`,
+
+```text
+F_b = [[0,b],[1/b,0]],
+F_b D(phi) F_b^-1 = D(-phi),
+F_b^2 = I.
+```
+
+This is the full constant real `2x2` family. In the conditionally chosen diagonal clock/radial
+readout `eta=diag(-1,1)`, however,
+
+```text
+F_b^T eta F_b = diag(1/b^2,-b^2),
+```
+
+which cannot equal `Omega^2 eta` for any positive real common-scale factor. The balanced raw swap is
+therefore an anti-isometry of that readout, not a physical Lorentz reflection.
+
+If the founded off-diagonal dual pairing `K=[[0,1],[1,0]]` is **additionally chosen** as a
+null-coordinate Lorentz metric, every `F_b` is an exact `O(1,1)` reflection. A Hadamard basis change
+makes the structure familiar: `K` becomes diagonal Lorentz form, `D(phi)` becomes a standard boost,
+and the balanced swap becomes a spatial reflection. The algebra is exact; the physical
+identification is not supplied by the source, which calls `K` a faithful dual-pairing
+formalization.
+
+Even after making that choice, the completion is nonunique. On an isotropic angular two-plane the
+identity, minus identity, and a continuous family of axis reflections are inequivalent coframe
+involutions. Conditional Hopf circle exchange is another witness but imports its already disclosed
+representation and topology premises. The temporal mirror supplies sector authority without an
+executable parity for all rotating/off-diagonal data. Positive Common-Scale Neutrality preserves a
+gauge direction; it does not select one extension.
+
+The canonical field-dependent map `T(phi)=D(-phi)D(phi)^-1` does match the two reciprocal
+representatives and obeys `T(-phi)T(phi)=I`. It is generically not conformal-Lorentzian in the
+diagonal readout, so it is a tautological transport identity rather than the missing physical
+symmetry.
+
+## What was learned
+
+- The earlier raw-swap obstruction was not an arithmetic accident; it extends to the full constant
+  real inverting family in the diagonal readout.
+- The reciprocal algebra already has the structure of a boost plus reflection in a null-basis
+  Lorentz realization. This is a strong conditional geometric clue.
+- The clue does not identify the reciprocal pairing as the physical metric, nor does it determine
+  the angular, normal, time-on, global, or boundary-tangent completion.
+- At least two inequivalent complete algebraic coframe witnesses survive, and in fact continuous
+  families survive. Native uniqueness is therefore unavailable from the registered premises.
+
+## Boundary consequence
+
+No complete fixed/anti-fixed tangent decomposition follows. The durable static conclusion remains
+only that the odd scalar depth has `phi=0` at the seal while its normal derivative is free. The
+audit does not pin `delta h`, `delta K`, corner data, boundary charge, or a physical polarization.
+
+## Evidence grade and limits
+
+The result is `VERIFIED-WITH-CAVEATS`: preregistered; full for the declared constant real block and
+isotropic angular involution classes; independently reconstructed with source/hash and mutation
+catches; all premises audited. No fresh different-model external review was authorized. The result
+does not select an action, carrier, boundary functional, topology, representative, `X_max`, total
+mass, or particle mass, and no nonlinear or GPU solve was run.
+
+The smallest genuinely missing object is a source-authorized physical quadratic readout/slot map
+together with a complete normal-angular-time-on lift of the seal involution. Global-solution
+admissibility may eventually select among the surviving conditional families, but that must be
+tested comparatively rather than assumed.
+
+exec
+/bin/bash -lc 'sha256sum -c SHA256SUMS.txt' in /tmp/udt_metric_review_T_Jh03Lq/udt_global_coframe_cocycle_audit_2026-07-20
+ succeeded in 0ms:
+AUDIT_REPORT.md: OK
+COCYCLE_CLASSIFICATION.tsv: OK
+COMMANDS.md: OK
+DERIVATION_RESULT.json: OK
+GLOBAL_WITNESSES.tsv: OK
+LAY_DECISION_TREE.md: OK
+NEXT_SCIENTIFIC_DECISION.md: OK
+PREREGISTRATION.md: OK
+SOURCE_LINEAGE.tsv: OK
+STATUS_LEDGER.tsv: OK
+TANGENT_CLASSIFICATION.tsv: OK
+VERIFICATION_RESULT.json: OK
+build_manifest.py: OK
+derive_global_coframe_cocycle.py: OK
+requirements.txt: OK
+verify_global_coframe_cocycle.py: OK
+verify_repository_gates.py: OK
+
+exec
+/bin/bash -lc 'sha256sum -c SHA256SUMS.txt' in /tmp/udt_metric_review_T_Jh03Lq/complete_coframe_seal_involution_2026-07-20
+ succeeded in 0ms:
+ADJUDICATION_TRANSCRIPT.txt: OK
+AUDIT_REPORT.md: OK
+BLOCK_REALIZATION_LEDGER.tsv: OK
+CATCH_PROOFS.tsv: OK
+CENSUS_TRANSCRIPT.txt: OK
+COMPLETENESS_SCOPE.tsv: OK
+COMPLETE_EXTENSION_WITNESSES.tsv: OK
+DERIVATION_RESULT.json: OK
+DERIVATION_TRANSCRIPT.txt: OK
+ENVIRONMENT.txt: OK
+EXECUTION_LEDGER.tsv: OK
+EXECUTION_RESULT.json: OK
+EXTENSION_FAMILY_LEDGER.tsv: OK
+EXTERNAL_REVIEW_STATUS.txt: OK
+ISOLATED_VERIFICATION_TRANSCRIPT.txt: OK
+LAY_DECISION_TREE.md: OK
+NEXT_SCIENTIFIC_DECISION.md: OK
+OUTCOME_BRANCH_LEDGER.tsv: OK
+PREREGISTRATION.md: OK
+REQUIREMENT_MATRIX.tsv: OK
+SOURCE_ADJUDICATION.tsv: OK
+SOURCE_CENSUS.tsv: OK
+STATUS_LEDGER.tsv: OK
+TEST_TRANSCRIPT.txt: OK
+VERIFICATION_RESULT.json: OK
+VERIFICATION_TRANSCRIPT.txt: OK
+build_manifest.py: OK
+build_source_adjudication.py: OK
+build_source_census.py: OK
+derive_complete_coframe_involution.py: OK
+requirements.txt: OK
+run_audit_replays.py: OK
+verify_complete_coframe_involution.py: OK
+verify_package_manifest.py: OK
+verify_repository_gates.py: OK
+
+codex
+## Reviewer T verdict: PASS-WITH-CAVEATS
+
+The reference is a faithful synthesis of the cited evidence and correctly leaves global quotient selection open. The freeze manifest passed: all 13 entries matched SHA-256 and byte size before analysis. All 16 source-manifest hashes and the two load-bearing coframe package manifests also passed.
+
+### Challenged IDs
+
+- **C040 — qualify.** The twelve registry rows are not twelve disjoint topological completion families. `FC12` overlaps several cap/boundary classes, while `FC10` and `FC11` describe distribution behavior rather than global topology. Call this a twelve-row registered completion/behavior taxonomy, not twelve mutually exclusive global completions.
+
+- **C050 — tighten.** The exact theorem is: after supplying a global integral `T²` basis with `2π` periods, full reciprocal range, smooth opposing primitive caps, an effective free diagonal/anti-diagonal circle action, orientation, and normalization, the resulting principal bundle has `|c₁|=1`, and its quotient map agrees with the historical Hopf seed up to orientation/chirality conventions. “Degree-one” requires conventions selecting `+1`; the anti-diagonal branch can give `-1`. This is seed-level bundle geometry, not carrier emergence.
+
+- **J04 — incomplete audit specification.** “Audit reciprocal holonomy and finite-seal consistency” is the correct join, but it must explicitly include full transition-cocycle, seam-jet, cap-extension, and connection-gluing tests.
+
+- **C090 — priority caveat.** A two-form/bivector atlas is objective if universal Lorentzian controls are enforced, but it is not mathematically prior to the smaller global cocycle/seam audit in the topology lane. It must not be used to prefer Hopf-like completions.
+
+No evidence supports rejecting **C041**: present UDT premises do not select a quotient.
+
+### Reviewer T findings
+
+1. **A standard obstruction layer remains unexecuted.**  
+   The atlas distinguishes Kato transport, Levi-Civita holonomy, lattice monodromy, and circle characteristic data correctly, but mostly records what would be required. It does not yet construct a cover and test:
+
+   - Čech cocycles on triple overlaps;
+   - extension of coframes/projectors across seams and caps;
+   - metric and first-jet matching at glued faces;
+   - Levi-Civita connection transformation and holonomy relations;
+   - characteristic classes such as `w₁`, `w₂`, Euler/Pontryagin classes, or `c₁` when a circle bundle is actually supplied.
+
+   These tests can reject internally inconsistent representatives. Different characteristic numbers classify branches but do not rank them without an additional UDT premise. Orientability, spin, smooth-manifold status, or a principal-circle action may not be silently imposed.
+
+2. **Reciprocity plus the mirrored seal cannot determine full coframe monodromy.**  
+   It supplies a genuine UDT-specific constraint: reciprocal transitions form a `Z₂`-graded group, closed cocycles have even reversal parity, and a declared seal involution obeys `F_b²=I`. Conditional corner relations can further restrict products. But the foundation supplies no cover, loop incidence, angular lift, complete coframe soldering, orientation, cap, quotient, or boundary identification. Consequently it constrains admissible monodromy representations but does not select one.
+
+3. **The conditional Hopf correspondence is essentially at the right strength.**  
+   It is an exact conditional principal-bundle/seed correspondence, not a native carrier theorem. The wording should preserve `|c₁|=1` until orientation and chirality conventions select the sign, and should list the full global integral-basis, periodicity, range, smooth-cap, freeness, effectiveness, orientation, and normalization premises.
+
+### Universal mathematics versus UDT evidence
+
+Universal mathematical structure includes cocycle identities, connection-gluing laws, characteristic classes, toric cap determinant classification, and the fact that a free `S³→S²` circle bundle has unit Chern class.
+
+UDT-specific evidence presently consists only of the reciprocal transition subgroup and its reversal parity, the static odd-`phi` seal condition, and the finite mirrored-cell setting. Those data do not furnish the global cover or full coframe lift needed to evaluate the universal obstruction machinery.
+
+### Bounded neutral next-audit contract
+
+Freeze, before inspection, one minimal cover/cell presentation for every registry row, including its declared boundary, cap, seam, or singular strata. Then:
+
+1. Verify transition maps and all double/triple-overlap cocycle equations.
+2. Verify seal involution and metric/coframe value plus first-jet matching.
+3. Where caps are claimed smooth, verify primitive isotropy and smooth extension.
+4. Verify Levi-Civita connection and curvature gluing; evaluate holonomy only on explicitly supplied closed loops.
+5. Compute only structure-defined characteristic classes: no orientation, spin structure, or circle `c₁` may be assumed.
+6. Treat absent covers, profiles, or lifts as `OPEN`, not failure.
+7. Exclude a branch only for mathematical inconsistency or violation of an already registered premise. Distinct invariant values classify but do not rank.
+8. Maximum conclusion: `CONSISTENT`, `INCONSISTENT`, or `UNDERDETERMINED` per row. No quotient, carrier, action, or Hopf branch may be selected unless all competitors fail under the same predeclared premises.
+tokens used
+66,689
+
+Script done on 2026-07-22 12:52:22-04:00 [COMMAND_EXIT_CODE="0"]

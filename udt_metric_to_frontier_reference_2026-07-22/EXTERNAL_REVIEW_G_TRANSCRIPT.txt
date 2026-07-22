@@ -1,0 +1,2174 @@
+Script started on 2026-07-22 12:49:50-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /tmp/udt_metric_review_G_yXaJNX
+model: gpt-5.6-sol
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: medium
+reasoning summaries: none
+session id: 019f8abb-c8f0-7e20-b025-dc38fde9539f
+--------
+user
+This is an isolated cold audit of immutable commit 1a41c4b. The archive intentionally has no .git directory, so do not perform repository startup or edits. Read udt_metric_to_frontier_reference_2026-07-22/EXTERNAL_REVIEW_PACKET.md, execute the common task, and answer only Reviewer G (differential geometry and exterior algebra). Verify REFERENCE_FREEZE_MANIFEST.tsv before analysis. Inspect cited sources only as needed. Do not launch a long solve. Return a decisive PASS, PASS-WITH-CAVEATS, or FAIL, enumerate exact claim or join IDs challenged, distinguish universal mathematical structure from UDT-specific evidence, and give the requested bounded neutral next-audit contract.
+codex
+I’ll verify the freeze manifest first, then read the review packet and only the sources needed for Reviewer G’s geometry/exterior-algebra checks. I’ll keep the audit read-only and bounded.
+exec
+/bin/bash -lc "sed -n '1,240p' udt_metric_to_frontier_reference_2026-07-22/EXTERNAL_REVIEW_PACKET.md && sed -n '1,240p' udt_metric_to_frontier_reference_2026-07-22/REFERENCE_FREEZE_MANIFEST.tsv" in /tmp/udt_metric_review_G_yXaJNX
+ succeeded in 0ms:
+# External cold-review packet
+
+Date: 2026-07-22
+
+## Common task
+
+Read `REFERENCE.md`, `CLAIM_DEPENDENCY_LEDGER.tsv`, `OPEN_JOIN_LEDGER.tsv`, and
+`SOURCE_MANIFEST.tsv` first. Inspect only the exact cited sources needed to challenge a claim. Treat
+the reference as a fallible navigation synthesis, not authority over its sources.
+
+The July 1 provenance firewall applies: older material may expose a failure or counterexample but
+may not supply affirmative UDT physics. GR, quantum theory, standard matter models, and external
+classification results may be used only as comparison or mathematical tools with their premises
+disclosed.
+
+Do not improve UDT by adding a mechanism. Try to find:
+
+- status promotions not supported by source evidence;
+- a hidden premise shared by several open joins;
+- counterexamples satisfying the complete stated premises;
+- distinctions that have been conflated;
+- an existing metric-native construction the current synthesis overlooked;
+- whether the proposed next question is objective or secretly Hopf/action targeted.
+
+Return `PASS`, `PASS-WITH-CAVEATS`, or `FAIL` for the reference as a faithful synthesis. Then answer
+the role-specific questions below. Do not edit the archive or launch a long solve.
+
+## Reviewer G — differential geometry and exterior algebra
+
+1. Does tangent-space irreducibility leave meaningful metric-native structure on two-forms,
+   simple bivectors, Hodge-dual pairs, curvature forms, or their transported bundles?
+2. Which such structures are universal to every four-dimensional Lorentzian metric and therefore
+   cannot count as UDT-specific emergence?
+3. Is a complete exterior/bivector atlas the smallest objective next map, or is another intrinsic
+   representation mathematically prior?
+4. Give a fail-closed certification contract that cannot be passed merely by rediscovering the
+   universal Hodge structure.
+
+## Reviewer T — topology, holonomy, and global completion
+
+1. Does the present local-to-global chain omit a standard obstruction, characteristic class,
+   transition-cocycle, seam-consistency, or holonomy test that could rank completion families?
+2. Can Reciprocity plus the finite mirrored seal constrain full coframe monodromy without silently
+   assuming periodic circles, caps, orientation, or a quotient?
+3. Is the conditional Hopf correspondence stated at exactly the right strength?
+4. Identify the smallest global consistency audit that remains neutral among all retained
+   completions.
+
+## Reviewer V — realization principle, action, and variation
+
+1. Are we asking kinematic premises to select a realized metric without an operational solution
+   concept?
+2. Can the registered meaning of bootstrap already be formalized as a fixed point, boundary-value
+   problem, or variational problem, or would doing so invent a new premise?
+3. Is the pre-scale versus post-scale variation fork still the smallest action discriminator after
+   the motif/global-assembly results?
+4. State the minimum additional mathematical datum needed to turn the allowed metric class into a
+   well-posed realization problem, without choosing C2, EH, or a carrier.
+
+## Reviewer B — mass, scale, and density/bootstrap closure
+
+1. Is the dimensional rank-one ruling correct once every currently derived global geometric object
+   is included?
+2. Could a metric-native global eigenvalue, normalized topological quantity, or boundary spectrum
+   provide scale without assuming matter or a fitted density? Distinguish dimensionless branch
+   selection from absolute scale breaking.
+3. Is the simultaneous `rho=M_native/V_proper` architecture genuinely noncircular, and what exact
+   operator must exist before it becomes a calculation?
+4. Which upstream scientific join must close before further density or mass work is useful?
+
+## Maximum review conclusion
+
+Reviewers may recommend a bounded next audit or conclude that synthesis should stop. They may not
+derive or canonize a carrier, quotient, action, mass, density, scale, or physical-time law.
+path	sha256	size_bytes
+PREREGISTRATION.md	6df44e37879991cd301499938c208a9eca7c10b271aa36046ddd76d04071e02a	5814
+REFERENCE.md	a8b27cb298a95dc1f3eabc5c4ff78b2835041a4d3dcc3e184d8ff6be47ded1e7	18350
+CLAIM_DEPENDENCY_LEDGER.tsv	bc94d0b2e714030e17d54af5be92a8664999a0e0ea1f135182f31bf25b48cdba	8573
+OPEN_JOIN_LEDGER.tsv	74b2a71bbddb71fe325d78c5c83766ebb7427ba9bc73165d98ee8143b32426b3	4178
+SOURCE_MANIFEST.tsv	cd9bf09919cec5c7b9c4f8825bcd236631ee03b55ec47461ad89d36ce82e78ec	3160
+EXTERNAL_REVIEW_PACKET.md	ef5260c191d2aef3055b1ac42e0cb0315e54f572244c85bf4331d4914d25bb58	4015
+README.md	f7f4c0fbdcf86518ed04928dbe1b177f7541a97f38adf3adbbae477c0a2ff85d	628
+verify_reference_packet.py	e7ec1248f1a88bf7b7d3b7194eb3db7016bfccd353dfbd434b66839ed07f538a	11930
+CATCH_PROOFS.tsv	1e1053e502db10d965d82002d26572554183c9d21085353755c02940f6909f35	588
+VERIFICATION_RESULT.json	f4d86e7cb414cb40e044c8128da53ff774ac53256feb51b43d0d79056d3c4dcb	432
+INTERNAL_VERIFIER_TRANSCRIPT.txt	e5073a6e21ae78e099d4a45098cd21896f2bb37bd3716be777a592e63c0ad1bb	584
+build_reference_freeze_manifest.py	e22e98a1dedfc276c87fd8734b044c7b29dce3b0b0e61fe1be99d4c20f744735	1442
+verify_repository_gates.py	1e3f117fc7d8d94de47f868029474276b5e655dc4acfd75e327ea911818a11b1	9003
+
+exec
+/bin/bash -lc "sha256sum -c <(awk -F '\\t' 'NR>1 {print "'$2 "  udt_metric_to_frontier_reference_2026-07-22/" $1}'"' udt_metric_to_frontier_reference_2026-07-22/REFERENCE_FREEZE_MANIFEST.tsv) && awk -F '\\t' 'NR>1 { cmd=\"stat -c %s udt_metric_to_frontier_reference_2026-07-22/\\\"\" "'$1 "'"\\\"\"; cmd | getline actual; close(cmd); if (actual "'!= $3) {print "SIZE FAIL " $1 " expected=" $3 " actual=" actual; bad=1} else print "SIZE OK " $1 } END {exit bad}'"' udt_metric_to_frontier_reference_2026-07-22/REFERENCE_FREEZE_MANIFEST.tsv" in /tmp/udt_metric_review_G_yXaJNX
+ succeeded in 0ms:
+udt_metric_to_frontier_reference_2026-07-22/PREREGISTRATION.md: OK
+udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md: OK
+udt_metric_to_frontier_reference_2026-07-22/CLAIM_DEPENDENCY_LEDGER.tsv: OK
+udt_metric_to_frontier_reference_2026-07-22/OPEN_JOIN_LEDGER.tsv: OK
+udt_metric_to_frontier_reference_2026-07-22/SOURCE_MANIFEST.tsv: OK
+udt_metric_to_frontier_reference_2026-07-22/EXTERNAL_REVIEW_PACKET.md: OK
+udt_metric_to_frontier_reference_2026-07-22/README.md: OK
+udt_metric_to_frontier_reference_2026-07-22/verify_reference_packet.py: OK
+udt_metric_to_frontier_reference_2026-07-22/CATCH_PROOFS.tsv: OK
+udt_metric_to_frontier_reference_2026-07-22/VERIFICATION_RESULT.json: OK
+udt_metric_to_frontier_reference_2026-07-22/INTERNAL_VERIFIER_TRANSCRIPT.txt: OK
+udt_metric_to_frontier_reference_2026-07-22/build_reference_freeze_manifest.py: OK
+udt_metric_to_frontier_reference_2026-07-22/verify_repository_gates.py: OK
+SIZE OK PREREGISTRATION.md
+SIZE OK REFERENCE.md
+SIZE OK CLAIM_DEPENDENCY_LEDGER.tsv
+SIZE OK OPEN_JOIN_LEDGER.tsv
+SIZE OK SOURCE_MANIFEST.tsv
+SIZE OK EXTERNAL_REVIEW_PACKET.md
+SIZE OK README.md
+SIZE OK verify_reference_packet.py
+SIZE OK CATCH_PROOFS.tsv
+SIZE OK VERIFICATION_RESULT.json
+SIZE OK INTERNAL_VERIFIER_TRANSCRIPT.txt
+SIZE OK build_reference_freeze_manifest.py
+SIZE OK verify_repository_gates.py
+
+codex
+The freeze is intact: every listed SHA-256 and byte size matches. I’m now tracing the reference’s two-form/bivector claims and the joins they support, with special attention to universal Lorentzian Hodge structure versus evidence peculiar to the registered metric.
+exec
+/bin/bash -lc "sed -n '1,260p' udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md" in /tmp/udt_metric_review_G_yXaJNX
+ succeeded in 0ms:
+# UDT from the reciprocal metric to the current frontier
+
+Date: 2026-07-22  
+Status: `REFERENCE_DRAFT__EVIDENCE_LINKED__NO_NEW_PHYSICS`  
+Authority: navigation and dependency synthesis only; cited evidence controls; Charles canonizes.
+
+## One-page orientation
+
+UDT currently has a strong kinematic beginning, a newly mapped geometric middle, and an open
+realization/matter ending.
+
+```text
+founding positional dilation + reciprocal-c + dual Reciprocity + CSN
+                              |
+                              v
+       reciprocal exponential comparison and conditional metric block
+                              |
+                              v
+       local metric/phi instruments form a small motif vocabulary
+                              |
+                              v
+          the generic interaction is a four-dimensional weave
+                              |
+                              v
+        motif projectors admit metric-compatible geometric transport
+                              |
+                              v
+     many finite global completions survive; none is currently selected
+                              |
+               +--------------+--------------+
+               |                             |
+               v                             v
+ conditional reciprocal-toric/Hopf     macro WR-L branch identities
+ compatibility and stable test branch  under separate scoped premises
+               |                             |
+               +--------------+--------------+
+                              v
+          carrier, action, source, boundary charge, mass and scale OPEN
+                              |
+                              v
+ future density may be M_native/V_proper from the same bootstrap solution
+```
+
+This diagram is a dependency map, not a claim that every lower layer follows from the one above.
+The missing arrows are recorded explicitly in `OPEN_JOIN_LEDGER.tsv`.
+
+The most important current contrast is:
+
+- an orderly cell-wide sampled `phi` foliation exists in the tested ensemble;
+- the full metric orchestra usually forms an irreducible four-dimensional weave;
+- a special reciprocal-toric commuting branch reproduces the Hopf seed exactly, but its circles,
+  caps, quotient, section, and matter action are separately supplied;
+- current UDT principles do not select that branch from the retained global alternatives.
+
+The honest frontier is therefore not “one equation short of a complete theory.” UDT still needs an
+operational rule that says which complete metric configuration is realized and how, if at all,
+matter, dynamics, and dimensional scale arise from it.
+
+## 1. Reading and status rules
+
+This reference follows the labels `DERIVED`, `CHOSE`, `WORKING`, `OPEN`, `CONDITIONAL`, `POSIT`, and
+`OBSERVED`. Compound source labels are retained where needed. A result can be exact mathematics and
+still be conditional on premises that UDT has not selected.
+
+The controlling source set and SHA-256 values are in `SOURCE_MANIFEST.tsv`. The mechanical claim map
+is `CLAIM_DEPENDENCY_LEDGER.tsv`. If this narrative disagrees with a cited source, the source wins.
+
+The macro WR-L lane and particle/carrier lane remain separate. Shared notation is not a derived
+coupling. Pre-July-1 material supplies failure provenance only, not affirmative physics.
+
+## 2. Founding and observational inputs
+
+The synchronized July 17 foundation records four central premises:
+
+1. Positional dilation is `FOUNDING`; under H2 it is not demoted by deriving its functional form.
+2. Reciprocal-c is `FOUNDING`: `c` and `c^{-1}` are coequal time-length conversion directions.
+3. Dual UDT Reciprocity is `FOUNDING`: in the supplied faithful pairing it acts contragrediently.
+4. Common-Scale Neutrality is `FOUNDING`: before material scale is selected, a common positive
+   local rescaling is calibration.
+
+The finite mirrored cell is binding for the registered static `phi` seal statement. Static `phi`
+is odd at the seal and vanishes there while its normal derivative remains free. That statement does
+not fix every field, a full coframe lift, topology, boundary action, or charge.
+
+Bootstrap is `WORKING`: realized matter-bearing universes are expected to be complete global
+solutions in a narrow total proper-density window. No density value, center, width, root operator,
+or selection functional has been derived.
+
+Measured ordinary-regime `c_E` and `G_obs` are observational anchors. They calibrate mass per length;
+they do not by themselves select an absolute length or mass.
+
+Exact basis: [cold dispatch](../UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md) and
+[cold packet](../UDT_NATIVE_ACTION_COLD_PACKET.md).
+
+## 3. Reciprocal kinematics
+
+For the dimension-matched comparison pair, the supplied faithful dual formulation is
+
+```text
+q = (c dt, dr),
+P = diag(u,v),
+P^T K P = K.
+```
+
+Dual Reciprocity gives `u v = 1`. Positive additive relative depth, consistent composition,
+reversal, and a regularity premise then give reciprocal exponentials. Up to a chosen sign and unit,
+
+```text
+P(phi) = diag(exp(-phi), exp(+phi)).
+```
+
+After choosing a CSN representative, a local Lorentzian quadratic readout, and the relevant slot
+identification, the clock/parallel block can be written
+
+```text
+g_tt = -exp(-2 phi) c^2,
+g_parallel_parallel = exp(+2 phi).
+```
+
+The inverse relation and exponential dependence are the derived core. The representative,
+Lorentzian readout, full transverse/angular block, sign/unit, observer mechanics, and universal
+identification of the parallel slot with `grad(phi)` are not all derived.
+
+The premise reset is important: physical distance is nonnegative, while `phi` is a signed local
+field. Earlier negative-distance and overextended `Xmax` observer interpretations are not inherited.
+See the [premise reset](../udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md).
+
+## 4. What the foundation does not yet select
+
+Cold independent arms and adversarial adjudication found that the foundation does not specify:
+
+- the complete off-shell field content;
+- locality or nonlocality;
+- full covariance class;
+- derivative order;
+- unrestricted versus reciprocal-restricted variation;
+- a complete finite-cell boundary functional;
+- a native carrier, source, charge, or mass normalization.
+
+The strongest action statements are conditional classifications:
+
+- `C^2`/Bach is `UNIQUE-CONDITIONAL` inside the explicitly named four-dimensional, exact-local-CSN,
+  metric-only, local-covariant, parity-even, curvature-square, unrestricted-variation class.
+- EH is `CONDITIONAL` after a physical representative and scale have been selected and the
+  metric-only/local/covariant/second-order/Lovelock premises are supplied.
+- No bridge from the pre-scale fourth-order class to a post-scale second-order class is derived.
+
+The complete action, variation domain, native source, differentiable boundary action, and normalized
+finite-cell mass remain `OPEN`. See the [final action adjudication](../native_action_final_adjudication_2026-07-18/FINAL_ADJUDICATION_REPORT.md)
+and [GR-to-UDT selector audit](../UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md).
+
+## 5. The local metric grammar
+
+The metric-led instrument atlas varied ten metric amplitudes and `phi`, then examined every nonempty
+combination of the registered Ricci, `phi`-Hessian, gradient-dyad, Ricci-gradient, and Weyl-gradient
+instruments. It found a small repeated vocabulary:
+
+- scalar or silent four-space;
+- a coupled Lorentzian pair plus two lines (`1+1+2`);
+- four separate lines;
+- one line plus a three-space (`1+3`);
+- a full irreducible four-dimensional weave.
+
+The strongest orchestra observation is that clean Ricci and `phi`-Hessian rank-two splits usually
+cross rather than coincide. In all 2,090 clean registered cases their planes shared no line and
+together generated the full weave. This is `OBSERVED_BOUNDED`, not an arbitrary-metric theorem or a
+physical matter identification.
+
+See the [instrument motif atlas](../udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md).
+
+## 6. Transport, distributions, and what survived across a cell
+
+For a smooth complete family of mutually annihilating metric-self-adjoint projectors `P_a`, define
+
+```text
+K = sum_a (nabla_T P_a) P_a.
+```
+
+Projector completeness and idempotence give metric skewness of `K` and
+
+```text
+[K,P_a] = nabla_T P_a.
+```
+
+This is a genuine metric-compatible geometric transport law for projector motifs. It transports
+configuration-space subspaces; it is not physical time evolution.
+
+In the frozen path atlas:
+
+- 95,232 identity/family paths were accounted for;
+- 93,920 have stable sampled motifs;
+- 1,312 contain transitions or uncertainty;
+- 83 deterministic populated-stratum anchors were densely integrated;
+- 76 pass all numerical gates and seven retain explicit derivative-level margins.
+
+The most orderly distribution family contains 1,536 midpoint-integrable `1+1+2` rows. All remain
+sampled-integrable at nine cell nodes. However, they are eight family presentations of only 192
+analytic identities with structural mask `M8`: only the `PHI_FIELD` ensemble is active. This is an
+orderly `phi` solo, not the full angular orchestra.
+
+See the [motif-to-Hopf audit](../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md) and
+[global assembly atlas](../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md).
+
+## 7. Global completion and holonomy
+
+The global assembly atlas retains twelve registered classes: physical-boundary intervals, one- and
+two-cap completions, determinant-zero and lens alternatives, `S3`, nonprimitive/singular caps,
+general `GL(2,Z)` torus bundles, mirror lifts, nonorientable gluing, stratified projector branches,
+nonintegrable distributions, and the conditional reciprocal-toric diagonal class.
+
+The atlas distinguishes four different objects:
+
+1. Kato transport of metric-derived projectors;
+2. Levi-Civita tangent holonomy of a complete metric;
+3. integral lattice monodromy and cap-cycle data;
+4. principal-circle characteristic data after a circle action is supplied.
+
+An open analytic path supplies transport, not holonomy. A local plane supplies neither periods nor a
+torus. Reciprocity, CSN, finite-cell structure, the static seal, and current bootstrap constrain the
+catalogue but do not select one global quotient.
+
+This is the current global stop: `GLOBAL_QUOTIENT_SELECTION_OPEN`.
+
+## 8. The conditional Hopf bridge
+
+The existing particle code is already a genuine three-dimensional Hopfion implementation. It uses
+a full `N x N x N` field, a degree-one Hopf seed, all three spatial derivatives, and a Whitehead/Hopf
+charge. Static stability is settled only inside the recorded round-`S2`, `L2+L4`, coefficient,
+finite-box, fixed-boundary, and discrete-operator premises.
+
+The metric supplies two narrower geometric leads:
+
+- after a conditional four-dimensional Lorentzian conformal readout, every projectivized null cone
+  has a celestial `S2` fiber;
+- in the separately supplied reciprocal-toric class, metric `phi` instruments recover the angular
+  axes, and with periodic circles, opposite primitive caps, a free diagonal or anti-diagonal action,
+  orientation, and normalization, the metric-dual quotient is exactly the degree-one historical
+  Hopf seed.
+
+Neither result derives the carrier. A fiber is not a section; a section is not a fixed round target;
+a quotient is not a deformable matter configuration space; and none of those objects supplies the
+`L2+L4` action.
+
+See the [native topology audit](../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md),
+[angular-toric audit](../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md), and
+[conditional particle decision](../stability_branch_follow_256_DECISION.md).
+
+## 9. The separate macro branch
+
+The WR-L static reciprocal metric has exact and useful identities. Within the supplied static
+spherical reciprocal-areal family, a clock-curvature equation selects the WR-L profile uniquely.
+The equation itself is not forced by the current foundation and is not locally CSN invariant before
+a physical representative is selected.
+
+The WR-L wall has finite proper reach, infinite optical reach, finite curvature, and a regular
+ingoing extension. It is a conditional causal horizon, not a metric-derived hard terminal edge.
+Its raw lapse flux is a real metric quantity but not a native mass without a boundary generator and
+normalization.
+
+The macro and particle lanes must not be joined merely because both use reciprocal language,
+
+exec
+/bin/bash -lc "sed -n '1,260p' udt_metric_to_frontier_reference_2026-07-22/CLAIM_DEPENDENCY_LEDGER.tsv" in /tmp/udt_metric_review_G_yXaJNX
+ succeeded in 0ms:
+claim_id	layer	claim	status	indispensable_premises	evidence_source	remaining_open_scope
+C001	FOUNDATION	Positional dilation is a founding UDT principle	FOUNDING	owner-stated H2 hierarchy	UDT_NATIVE_ACTION_COLD_PACKET.md	its existence is not rederived; observer/global realization remains separately scoped
+C002	FOUNDATION	c and inverse-c are coequal conversion directions	FOUNDING	owner-stated reciprocal-c identity	UDT_NATIVE_ACTION_COLD_PACKET.md	this alone does not force inverse dilation factors
+C003	FOUNDATION	Common positive local scale is calibrational before matter	FOUNDING	Common-Scale Neutrality	UDT_NATIVE_ACTION_COLD_PACKET.md	no physical representative or dimensional scale is selected
+C004	FOUNDATION	The native global arena is a finite mirrored cell rather than spatial infinity	CANONIZED_BINDING_STATIC_SCOPE	finite-cell canon and static phi seal statement	UDT_NATIVE_ACTION_COLD_PACKET.md	full time-live boundary data topology and boundary functional remain open
+C005	FOUNDATION	Realized matter-bearing solutions should close globally in a narrow proper-density window	WORKING	bootstrap statement with rho_tot and fractional width	UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md	no center width equation selection map or native density exists
+C010	KINEMATICS	Dual Reciprocity forces uv=1 in the supplied faithful pairing formalization	DERIVED	founding dual action and P-transpose K P equals K	UDT_NATIVE_ACTION_COLD_PACKET.md	pairing formalization and slot meanings remain explicit premises
+C011	KINEMATICS	Positive additive regular relative depth gives reciprocal exponentials	DERIVED_CONDITIONAL	composition reversal positivity and regularity plus uv=1	UDT_NATIVE_ACTION_COLD_PACKET.md	sign unit and physical phi interpretation are chosen or conditional
+C012	KINEMATICS	The displayed reciprocal Lorentzian clock-parallel metric block is available	CONDITIONAL	chosen CSN representative local Lorentzian readout and slot identification	UDT_NATIVE_ACTION_COLD_PACKET.md	full transverse block observer mechanics and time-live geometry are not derived
+C020	ACTION	C-squared with Bach bulk equations is unique inside the named pre-scale class	UNIQUE_CONDITIONAL	4D exact local CSN metric-only local covariant parity-even lowest curvature-square unrestricted variation	native_action_final_adjudication_2026-07-18/FINAL_ADJUDICATION_REPORT.md	complete action boundary source solution normalization and stability remain open
+C021	ACTION	Einstein-Hilbert is an allowed post-scale comparison route	CONDITIONAL	selected physical representative metric-only locality covariance second-order Lovelock premises	UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md	representative scale coefficient finite-cell boundary source and bridge remain open
+C022	ACTION	The complete native action and variation domain are not selected	OPEN	exact synchronized C0 C1 plus A B C adjudication	native_action_final_adjudication_2026-07-18/FINAL_ADJUDICATION_REPORT.md	fields locality derivative order boundary and source require a native selector
+C030	LOCAL_GEOMETRY	The tested complete local metric and phi instruments assemble into a small motif vocabulary	OBSERVED_BOUNDED	registered 3072 analytic identities and 31 instrument subsets	udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md	not an arbitrary-metric theorem or proof of UDT uniqueness
+C031	LOCAL_GEOMETRY	Ricci and phi-Hessian structures generically cross into a four-dimensional weave	OBSERVED_BOUNDED	clean joint rank-two cases in the registered ensemble	udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md	physical interpretation action and global persistence remain open
+C032	TRANSPORT	A complete smooth self-adjoint projector family has metric-compatible Kato transport	DERIVED_REGISTERED_GEOMETRIC_IDENTITY	fixed-rank complete projector algebra and metric compatibility	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	configuration-space transport is not physical time or closed-loop holonomy
+C033	TRANSPORT	93920 of 95232 registered paths have stable sampled motifs	OBSERVED_BOUNDED	17-node frozen analytic path ensemble	udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md	1312 transitions remain and sampling is not a continuous global theorem
+C034	LOCAL_GEOMETRY	All 1536 midpoint-integrable 1+1+2 candidates remain integrable at nine sampled nodes	OBSERVED_BOUNDED	frozen finite-cell path follow	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	all are phi-field-only presentations of 192 identities and not the full orchestra
+C040	GLOBAL_GEOMETRY	Twelve registered global completion families survive the current selector audit	OBSERVED_BOUNDED_TAXONOMY	registered cap boundary bundle seam and singular alternatives	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	not arbitrary four-manifold completeness and no family is selected
+C041	GLOBAL_GEOMETRY	Registered Reciprocity CSN finite-cell seal and bootstrap do not select one global quotient	OPEN_NOT_SELECTED	seven selector axes crossed with twelve registered completions	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	a future global law may add a selector
+C050	TOPOLOGY	Reciprocal-toric geometry can reproduce the historical degree-one Hopf seed	EXACT_CONDITIONAL	periodic transverse circles reciprocal toric coframe opposite primitive caps free circle action orientation normalization	udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md	UDT does not yet select those global premises or the carrier
+C051	TOPOLOGY	The conformal Lorentzian null-direction fiber is topologically S2	CONDITIONAL_DERIVED_FIBER	inherited 4D conditional Lorentzian readout and projectivized null cone	native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md	no selected section transport round target or carrier boundary follows
+C052	PARTICLE	The existing no-null implementation supports a full 3D static Hopfion branch	SETTLED_STATIC_FINITE_BOX_CONDITIONAL	round S2 carrier L2+L4 action coefficients boundary box and audited discrete operator	stability_branch_follow_256_DECISION.md	native carrier time-live persistence infinite-volume result and unconditional mass remain open
+C060	MACRO	WR-L clock-curvature relations select the WR-L profile if their equation is supplied	UNIQUE_CONDITIONAL	static spherical reciprocal areal family chosen representative and clock-curvature equation	clock_curvature_selector_audit_2026-07-19/AUDIT_REPORT.md	the equation and physical representative are not forced by current foundation
+C061	BOUNDARY	The WR-L wall is a finite-curvature causal horizon rather than a derived hard edge	DERIVED_CONDITIONAL	WR-L static metric family and regular ingoing extension	asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md	global terminality equality with Xmax and native boundary generator remain open
+C070	MASS_SCALE	Measured c_E and G_obs provide mass per length but no absolute mass or length	DERIVED_DIMENSIONAL_SCOPE	variables M_tot Xmax c_E G_obs and dimensionless state data	scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md	an independent dimensional datum or scale-breaking process is absent
+C071	MASS_SCALE	The conditional Hopfion size inherits the coefficient ruler sqrt(kappa over xi)	DERIVED_CONDITIONAL	posited round S2 L2+L4 static scaling family	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	coefficient origin native carrier absolute radius and mass remain open
+C072	MASS_SCALE	Observed density can be used only as external calibration or comparison	OBSERVED_OR_EXTERNAL_ANCHOR	supplied observed total proper density	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	it is not a native selector or derived source
+C073	MASS_SCALE	A noncircular native density route would solve M_native and V_proper in the same global fixed point	OPEN_POTENTIAL_FUTURE_SELECTOR	complete geometry native mass boundary scale and bootstrap response	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	native mass functional off-shell closure response map and scale breaking are missing
+C080	TIME	No native nonlinear physical-time evolution law has been selected	OPEN	global quotient action fields constraints and boundary flux absent	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	no time-live or GPU physics conclusion is authorized
+C090	SYNTHESIS	Metric-native two-form bivector and holonomy structure is a bounded next-question candidate	WORKING	metric Hodge exterior and curvature constructions only	udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md	no such UDT-specific persistent structure has yet been observed or derived
+
+exec
+/bin/bash -lc "sed -n '1,260p' udt_metric_to_frontier_reference_2026-07-22/OPEN_JOIN_LEDGER.tsv" in /tmp/udt_metric_review_G_yXaJNX
+ succeeded in 0ms:
+join_id	upstream_object	downstream_object	current_bridge_evidence	missing_object	prohibited_shortcut	status	bounded_next_test
+J01	reciprocal clock-parallel block	complete time-live metric	conditional local block plus mapped metric amplitudes	transverse slots shifts global chart and native solution law	declaring a diagonal static or spherical ansatz universal	OPEN	formalize the complete configuration and admissibility problem before solving
+J02	local tangent-space weave	persistent global organization	Kato projector transport and sampled path atlas	closed global metric branch and invariant transported object	calling open-path transport physical holonomy	OPEN	map metric-native exterior and bivector structures without selecting a desired topology
+J03	full tangent weave	metric-native bivector or differential-form motif	universal metric Hodge and curvature constructions	UDT-specific simple closed or recurrent form beyond universal Lorentzian structure	identifying the universal Hodge split with matter	WORKING_NEXT_QUESTION	complete Lambda2 invariant-subspace simplicity closure and transport atlas
+J04	registered completion taxonomy	one realized global quotient	selector matrix retains multiple branches	operational global realization or ranking law	choosing S3 caps periodicity or smoothness because they resemble the Hopfion	OPEN	audit reciprocal holonomy and finite-seal consistency across every retained completion
+J05	conditional reciprocal-toric quotient	native S2 carrier	metric-dual connection and exact seed compatibility	selected quotient section target metric framing and boundary	calling a celestial S2 fiber the material carrier	OPEN	remain carrier-neutral until a global section is selected
+J06	carrier or quotient texture	native deformation action	conditional L2+L4 stability and conditional action classifications	variation domain invariant inventory coefficients and boundary completion	importing Faddeev-Skyrme or EH because it works	OPEN	test candidate actions only after the geometric configuration space is selected
+J07	complete action	native matter source	conditional stress identities depend on completion and variation	selected off-shell fields metric dependence and source normalization	varying a static energy as if it were a four-dimensional action	OPEN	derive source with the complete selected variation domain
+J08	native source	finite-cell boundary charge and mass	raw lapse flux and conditional GR readouts	boundary primitive reference orientation integrability and normalization	using Misner-Sharp ADM or asymptotic charge as native input	OPEN	derive a differentiable finite-cell generator before interpreting flux as mass
+J09	native mass and proper volume	bootstrap density fixed point	type-correct simultaneous relation rho equals M_native over V_proper	native mass functional varied global response and density target law	feeding observed density back as a native selector	OPEN	pose density only inside the same complete solution after J08
+J10	dimensionless compactness	absolute Xmax and total mass	c_E and G_obs fix mass per length	independent dimensional datum eigenvalue or homothety-breaking process	counting rho equals M over V as an independent equation	OPEN	reaudit scale only after a new native dimensional object is derived
+J11	static conditional Hopfion	time-live matter persistence	static finite-box stability and topology controls	native time law constraints flux physical boundary and topology propagation	relabeling relaxation as time evolution	OPEN	CPU anchors only after J04 through J07 close
+J12	pre-scale C2 Bach route	post-scale EH-like route	both are conditional action classes	physical representative selection and dynamical matching theorem	assuming scale selection turns fourth-order Bach into second-order EH	OPEN	define whether variation precedes or follows scale and prove any bridge separately
+J13	macro WR-L geometry	particle or mass sector	reciprocal metric language and possible shared finite-cell scale	common native action source boundary generator and controlled regime map	identifying matching symbols c G X or phi as a derived coupling	OPEN	keep lanes separate until a shared derived operator exists
+
+exec
+/bin/bash -lc "sed -n '1,260p' udt_metric_to_frontier_reference_2026-07-22/SOURCE_MANIFEST.tsv" in /tmp/udt_metric_review_G_yXaJNX
+ succeeded in 0ms:
+source_id	path	sha256	role	immutability_status
+S01	UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md	6e977717ca028cabaa198dd14a6a97b3b15740e45485d0ab735f3df0326df192	FOUNDING_STATUS_AND_DERIVATION_RULES	REFERENCE_PINNED_ROOT_SOURCE
+S02	UDT_NATIVE_ACTION_COLD_PACKET.md	d38232792ac78188687db433a3f60a08c775c46e9ecf5fc42ad7953dc89fadb0	EXACT_C0_C1_FOUNDATION_AND_RECIPROCAL_METRIC	REFERENCE_PINNED_ROOT_SOURCE
+S03	native_action_final_adjudication_2026-07-18/FINAL_ADJUDICATION_REPORT.md	71ed06c21c3ef683d0579f2a883584b4f612de4f1b09e16300702b204d437eda	ACTION_SOURCE_BOUNDARY_AND_MASS_ADJUDICATION	FROZEN_PACKAGE_SOURCE
+S04	UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md	db4a426b021e375fa4bca0d870aaf973de319de3b08072195d001a056630832d	GR_COMPARISON_AND_VARIATION_DOMAIN_FORK	REFERENCE_PINNED_ROOT_SOURCE
+S05	udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md	fc1c3d9edb7ce87415470da09c01cf2223ec4fa2022ee4565f32d77ccbc50ada	CORRECTED_OWNER_MEANINGS_AND_WITHDRAWN_FRAME_CLAIMS	FROZEN_PACKAGE_SOURCE
+S06	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	4e1178a7993a6f3f3e94713df27d0ab8c140b96ef613c5fa09099af72941cb8b	CONDITIONAL_S3_HOPF_AND_GLOBAL_TORIC_SELECTORS	FROZEN_PACKAGE_SOURCE
+S07	native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md	df0171eb83d75ad175727a8db541df8500b7826edf6059ae63a52f1a1ba15bea	NATIVE_TOPOLOGY_AND_CONDITIONAL_CARRIER_STATUS	FROZEN_PACKAGE_SOURCE
+S08	boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md	5b9fd3563e02ecd8907e0ac632412e3bb1784893c1a66ff2812724f23c71d25d	CSN_REPRESENTATIVE_AND_BOOTSTRAP_SELECTOR_LIMITS	FROZEN_PACKAGE_SOURCE
+S09	clock_curvature_selector_audit_2026-07-19/AUDIT_REPORT.md	4b41149cabf6ceb735c6a5b43847c0434572ecf19b8cd386d29ad12a7536de0a	WRL_CLOCK_CURVATURE_UNIQUE_CONDITIONAL_SELECTOR	FROZEN_PACKAGE_SOURCE
+S10	asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md	bf10dc2d525e26723ee2eb2eaacf368ad8546e76b0a8d3ba0d3baa0b9639d11d	FINITE_WALL_CAUSAL_BOUNDARY_AND_MASS_LIMITS	FROZEN_PACKAGE_SOURCE
+S11	scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md	f3cca19566a1ae3653e28e4e015039623c8be2ec7454b2e12a9859bcca45c67b	DIMENSIONAL_RANK_AND_ABSOLUTE_SCALE_NO_GO_SCOPE	FROZEN_PACKAGE_SOURCE
+S12	matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md	521f6b1e80ea7d7cd1a3993fe4873f4b8dc5e4eee7f586924a5813bad78ac966	CONDITIONAL_SOLITON_RULER_AND_NATIVE_MASS_GAP	FROZEN_PACKAGE_SOURCE
+S13	udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md	057e2a2a71c342523c7a27c6ed4ffd80b69eae7840ea360ca3d59340539f7306	LOCAL_METRIC_INSTRUMENT_AND_MOTIF_CENSUS	FROZEN_PACKAGE_SOURCE
+S14	udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md	d67c3b812e2fe8f6d31cf4a544b47d86a2d87c4b81ca2cc7aa81ea638d86ea82	PATH_FROBENIUS_AND_CONDITIONAL_HOPF_CORRESPONDENCE	FROZEN_PACKAGE_SOURCE
+S15	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	7a596530a78a75aec03bac6f35db31ebe534e0115ca51dda64acffd0c781844a	TRANSPORT_GLOBAL_COMPLETION_AND_DENSITY_BOOTSTRAP_ATLAS	FROZEN_PACKAGE_SOURCE
+S16	stability_branch_follow_256_DECISION.md	9806bc8f61b94109080699f00d8a758f1afc935db18a11f07dbe7365a61811d5	CONDITIONAL_STATIC_PARTICLE_STABILITY_SCOPE	REFERENCE_PINNED_ROOT_SOURCE
+
+exec
+/bin/bash -lc "sed -n '180,420p' udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md; rg -n \"two-form|two form|bivector|Hodge|Lambda|exterior|irreduc|curvature form|C090|J02|J03|smallest|next\" udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md" in /tmp/udt_metric_review_G_yXaJNX
+ succeeded in 0ms:
+
+```text
+[K,P_a] = nabla_T P_a.
+```
+
+This is a genuine metric-compatible geometric transport law for projector motifs. It transports
+configuration-space subspaces; it is not physical time evolution.
+
+In the frozen path atlas:
+
+- 95,232 identity/family paths were accounted for;
+- 93,920 have stable sampled motifs;
+- 1,312 contain transitions or uncertainty;
+- 83 deterministic populated-stratum anchors were densely integrated;
+- 76 pass all numerical gates and seven retain explicit derivative-level margins.
+
+The most orderly distribution family contains 1,536 midpoint-integrable `1+1+2` rows. All remain
+sampled-integrable at nine cell nodes. However, they are eight family presentations of only 192
+analytic identities with structural mask `M8`: only the `PHI_FIELD` ensemble is active. This is an
+orderly `phi` solo, not the full angular orchestra.
+
+See the [motif-to-Hopf audit](../udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md) and
+[global assembly atlas](../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md).
+
+## 7. Global completion and holonomy
+
+The global assembly atlas retains twelve registered classes: physical-boundary intervals, one- and
+two-cap completions, determinant-zero and lens alternatives, `S3`, nonprimitive/singular caps,
+general `GL(2,Z)` torus bundles, mirror lifts, nonorientable gluing, stratified projector branches,
+nonintegrable distributions, and the conditional reciprocal-toric diagonal class.
+
+The atlas distinguishes four different objects:
+
+1. Kato transport of metric-derived projectors;
+2. Levi-Civita tangent holonomy of a complete metric;
+3. integral lattice monodromy and cap-cycle data;
+4. principal-circle characteristic data after a circle action is supplied.
+
+An open analytic path supplies transport, not holonomy. A local plane supplies neither periods nor a
+torus. Reciprocity, CSN, finite-cell structure, the static seal, and current bootstrap constrain the
+catalogue but do not select one global quotient.
+
+This is the current global stop: `GLOBAL_QUOTIENT_SELECTION_OPEN`.
+
+## 8. The conditional Hopf bridge
+
+The existing particle code is already a genuine three-dimensional Hopfion implementation. It uses
+a full `N x N x N` field, a degree-one Hopf seed, all three spatial derivatives, and a Whitehead/Hopf
+charge. Static stability is settled only inside the recorded round-`S2`, `L2+L4`, coefficient,
+finite-box, fixed-boundary, and discrete-operator premises.
+
+The metric supplies two narrower geometric leads:
+
+- after a conditional four-dimensional Lorentzian conformal readout, every projectivized null cone
+  has a celestial `S2` fiber;
+- in the separately supplied reciprocal-toric class, metric `phi` instruments recover the angular
+  axes, and with periodic circles, opposite primitive caps, a free diagonal or anti-diagonal action,
+  orientation, and normalization, the metric-dual quotient is exactly the degree-one historical
+  Hopf seed.
+
+Neither result derives the carrier. A fiber is not a section; a section is not a fixed round target;
+a quotient is not a deformable matter configuration space; and none of those objects supplies the
+`L2+L4` action.
+
+See the [native topology audit](../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md),
+[angular-toric audit](../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md), and
+[conditional particle decision](../stability_branch_follow_256_DECISION.md).
+
+## 9. The separate macro branch
+
+The WR-L static reciprocal metric has exact and useful identities. Within the supplied static
+spherical reciprocal-areal family, a clock-curvature equation selects the WR-L profile uniquely.
+The equation itself is not forced by the current foundation and is not locally CSN invariant before
+a physical representative is selected.
+
+The WR-L wall has finite proper reach, infinite optical reach, finite curvature, and a regular
+ingoing extension. It is a conditional causal horizon, not a metric-derived hard terminal edge.
+Its raw lapse flux is a real metric quantity but not a native mass without a boundary generator and
+normalization.
+
+The macro and particle lanes must not be joined merely because both use reciprocal language,
+`phi`, `c`, `G`, or a symbol `X`. A shared derived operator and controlled regime map are absent.
+
+See the [clock-curvature audit](../clock_curvature_selector_audit_2026-07-19/AUDIT_REPORT.md) and
+[boundary lineage audit](../asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md).
+
+## 10. Scale, mass, and density
+
+With only total mass `M_tot`, cell scale `Xmax`, measured `c_E`, measured `G_obs`, and dimensionless
+state data, dimensional analysis leaves one independent dimensionless group:
+
+```text
+G_obs M_tot / (c_E^2 Xmax).
+```
+
+Consequently current relations can select compactness or a dimensionless branch, not an absolute
+mass and length. Defining total density as `M_tot/V_tot` adds no independent equation when the same
+solution supplies a volume proportional to `Xmax^3`.
+
+The conditional Hopfion makes the same gap visible microscopically:
+
+```text
+E(R) = xi A R + kappa B/R,
+R_star = sqrt(kappa/xi) sqrt(B/A).
+```
+
+Its finite size inherits the coefficient ruler `sqrt(kappa/xi)`. Hopf charge is dimensionless and
+does not select that ruler.
+
+A future noncircular density architecture is logically possible:
+
+```text
+solve geometry, native matter/mass, boundary, volume and scale together;
+rho_solution = M_native[g,fields] / V_proper[g];
+require that rho_solution closes the same global bootstrap problem.
+```
+
+Here density is an output returned to the same fixed point, not an observed number inserted at the
+start. This remains `OPEN_POTENTIAL_FUTURE_SELECTOR` because UDT has no native mass functional,
+varied response map, density-center law, or homothety-breaking datum.
+
+See the [scale census](../scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md),
+[matter dimensional inventory](../matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md),
+and [global assembly density ledger](../udt_global_metric_assembly_atlas_2026-07-22/DENSITY_BOOTSTRAP_CIRCULARITY_LEDGER.tsv).
+
+## 11. A working whole-theory interpretation
+
+The following is `WORKING SYNTHESIS`, not a derived theorem:
+
+- `phi` supplies reciprocal depth and, in the mapped ensemble, an orderly foliation tendency.
+- Angular, curvature, gradient, and shift sectors normally cross it into a four-dimensional weave.
+- Matter-like structure may require a globally persistent organization of that weave rather than a
+  separate scalar lump or one privileged local eigendirection.
+- Bootstrap may eventually select complete finite-cell organizations rather than locally evolve a
+  preselected particle.
+- A deformation law, mass, and density would then belong downstream of the selected whole geometry.
+
+This interpretation fits the metric evidence without promoting any missing arrow. It can be wrong:
+UDT may require an independent carrier, the full weave may have no matter interpretation, or the
+realization rule may enter at a different layer.
+
+## 12. The proposed next metric-led map
+
+The full tangent-space weave motivates—but does not establish—a different representation to inspect.
+Twist, flux, holonomy, linking, and boundary charge are naturally expressed through oriented area
+elements and differential forms. The metric itself supplies wedge products, the Hodge operation,
+Levi-Civita curvature two-forms, and induced transport on bivectors.
+
+The bounded candidate question is:
+
+> When the registered tangent instruments are irreducible, does their complete metric-induced
+> action on two-forms preserve any recurring simple bivector, dual pair, closed/co-closed form,
+> contact seed, or restricted holonomy structure beyond the universal structure of an arbitrary
+> four-dimensional Lorentzian metric?
+
+This is `WORKING`, not evidence that such a structure exists. It must not target a Hopf answer. A
+valid atlas must retain every induced motif, explicitly separate real/complex Hodge structure,
+test bivector simplicity and closure, transport stable branches, and classify universal controls.
+Rediscovering only the universal Hodge split is a negative for UDT-specific emergence.
+
+An independent but related global question is whether full reciprocal coframe transport around a
+selected finite-cell seam could impose a monodromy consistency condition. That question cannot be
+posed physically until the seam/loop itself is selected or all retained completions are tested in
+parallel.
+
+## 13. Why a realization principle remains central
+
+The current premises define a class of allowed kinematics and global constraints. They do not yet
+define a complete mathematical solution concept. Bootstrap says that the realized universe closes
+self-consistently, but does not specify whether closure is:
+
+- a fixed point of a whole-solution map;
+- stationarity of a functional;
+- a two-ended boundary eigenproblem;
+- reciprocal transport/holonomy closure;
+- or another operation.
+
+Formalizing one of those without a source derivation would invent a premise. The next conceptual
+audit should therefore ask what operational content is already implicit in the registered word
+“bootstrap,” and where an additional datum is genuinely unavoidable.
+
+## 14. Ranked next decisions
+
+1. **Now:** cold-audit this reference for hidden promotions and missing joins.
+2. **Most promising metric-led map if the audit survives:** a complete two-form/bivector and induced
+   holonomy atlas, with universal Lorentzian controls and no target topology.
+3. **Parallel conceptual audit:** determine whether registered bootstrap already defines any
+   operational realization map; do not choose an action to make it do so.
+4. **Only after global selection:** derive deformation space and test action candidates.
+5. **Only after native source/charge:** return to mass, scale, and simultaneous density closure.
+6. **Only after native nonlinear time law:** run bounded CPU time-live anchors, then consider GPU
+   exploration.
+
+No item after the cold audit is authorized merely by this reference.
+udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:72:| full irreducible four-dimensional weave | 70,812 |
+udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:108:Scalar and full-irreducible motifs transport the whole tangent space but supply no distinguished
+udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md:137:The generic full orchestra remains dominated by the irreducible four-dimensional weave. The exact
+udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:72:| full irreducible weave | 70,812 |
+udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:133:scalar, 1,530 are stably full irreducible, six are uncertain/unstable, and zero have a four-line
+udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md:216:preserved. `SECOND_REVIEW_CORRECTION_PREREGISTRATION.md` froze the next repair before mutation.
+udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md:50:- the full metric orchestra usually forms an irreducible four-dimensional weave;
+udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md:162:- a full irreducible four-dimensional weave.
+udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md:321:## 12. The proposed next metric-led map
+udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md:325:elements and differential forms. The metric itself supplies wedge products, the Hodge operation,
+udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md:326:Levi-Civita curvature two-forms, and induced transport on bivectors.
+udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md:330:> When the registered tangent instruments are irreducible, does their complete metric-induced
+udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md:331:> action on two-forms preserve any recurring simple bivector, dual pair, closed/co-closed form,
+udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md:336:valid atlas must retain every induced motif, explicitly separate real/complex Hodge structure,
+udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md:337:test bivector simplicity and closure, transport stable branches, and classify universal controls.
+udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md:338:Rediscovering only the universal Hodge split is a negative for UDT-specific emergence.
+udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md:357:Formalizing one of those without a source derivation would invent a premise. The next conceptual
+udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md:361:## 14. Ranked next decisions
+udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md:364:2. **Most promising metric-led map if the audit survives:** a complete two-form/bivector and induced
+udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md:25:| full irreducible weave | `4` | Lorentzian four-space, no proper common invariant subspace | 142,836 |
+udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md:42:full-algebra irreducible in 5,376 configurations and scalar/silent in 768. Their matched subset
+udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md:77:When the gradient is nonzero, `H+D` is full irreducible in 3,067 rows with five retained margins.
+udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md:78:`R+H` is full irreducible in 2,688 rows while preserving simpler motifs elsewhere. On the complete
+
+exec
+/bin/bash -lc "sed -n '1,180p' udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md" in /tmp/udt_metric_review_G_yXaJNX
+ succeeded in 0ms:
+# UDT Instrument-Motif Atlas — Audit Report
+
+Date: 2026-07-21
+
+Status: `COMPLETE_VERIFIED_WITH_CAVEATS`
+
+Maximum conclusion:
+`BOUNDED_POINTWISE_INSTRUMENT_MOTIF_LATTICE_CHARACTERIZED`.
+
+## Result first
+
+The complete registered pointwise instrument lattice does not look like a search through millions
+of unrelated combinations. Its 190,464 family rows reduce to five recurring certified motif types,
+plus 17 retained numerical-margin rows. Only 14 complete 31-family motif fingerprints occur across
+all 6,144 configurations.
+
+The five certified building blocks are:
+
+| motif | primitive shape | metric signature structure | rows |
+|---|---:|---|---:|
+| scalar/silent | `4` | Lorentzian four-space, no proper subspace selected | 22,656 |
+| coupled plane plus two lines | `1+1+2` | one Lorentzian plane and two spacelike lines | 16,431 |
+| four lines | `1+1+1+1` | one timelike and three spacelike lines | 2,764 |
+| line plus three-space | `1+3` | gradient line and its metric-orthogonal complement | 5,760 |
+| full irreducible weave | `4` | Lorentzian four-space, no proper common invariant subspace | 142,836 |
+
+The recurring rank-two primitive block is always Lorentzian (`N1_P1_Z0`), while its two primitive
+rank-one companions are spacelike. It is the real primary block of a complex-conjugate Ricci or
+phi-Hessian spectrum. Thus the exact motif is `1+1+2`, not two primitive planes. Calling that block
+a reciprocal clock/ruler plane is an interesting possible interpretation, but remains `OPEN`.
+
+The strongest ensemble interaction is not rare alignment but generic crossing. In all 2,090 clean
+configurations where singleton Ricci and singleton phi Hessian each possess a unique split, their
+Lorentzian planes have zero pairwise intersection dimensions, commutator rank four, and a joint
+full-matrix algebra. They do not preserve the same partition; together they weave all four tangent
+directions. The unnormalized phi-gradient dyad contributes a different motif—a line plus an
+orthogonal three-space. There are 7,839 classified nonzero-gradient incidences in which a certified
+split crosses both sides, plus one retained uncertain split-across incidence. No registered
+incidence is classified as lying wholly in either side.
+
+The curvature-generator families are likewise simple at this resolution: Riemann and Weyl are each
+full-algebra irreducible in 5,376 configurations and scalar/silent in 768. Their matched subset
+families are motif/projector-equivalent throughout the ensemble, although this does **not** assert
+that the curvature operators themselves are equal. Adding Ricci to a curvature-containing family is
+also motif-redundant in this bounded atlas.
+
+These are reusable local building blocks and interaction rules. They are not a selected physical
+structure.
+
+## Complete bounded coverage
+
+- 6,144 immutable metric/phi pointwise two-jets;
+- all 31 nonempty subsets of five intrinsic groups: `R`, `H`, `D`, `RG`, `WG`;
+- 190,464 original family rows and 237,388 primitive-block rows;
+- all 75 directed one-instrument Hasse edges and 460,800 edge rows;
+- 12,288 nonlinear transformed configurations and 380,928 transformed family comparisons;
+- zero discarded configurations, families, edges, or numerical margins;
+- zero non-uncertain family, edge, or Ricci/Hessian-alignment discordances under the two chart probes;
+- 429 transformed edge-label differences, all inside 557 explicitly uncertain comparisons;
+- 145 transformed uncertain family rows, 162 numerical-margin ledger rows, and no promotion of a
+  margin to a certified result.
+
+The original preregistration's `80` edge count included five edges from the excluded empty subset.
+That arithmetic error was corrected and committed before any new motif outcome; the correct
+nonempty-lattice count is `75`. A later accounting correction preserved the first full return and
+separated uncertain from non-uncertain transformed edge differences without changing any scientific
+ledger bytes.
+
+## Instrument and interaction grammar
+
+Singleton Ricci yields 4,296 clean `1+1+2` rows, 1,078 four-line rows, 768 scalar rows, and two
+uncertain rows. Singleton Hessian yields 3,003 `1+1+2`, 69 four-line, and 3,072 scalar rows.
+Singleton dyad yields 3,072 `1+3` and 3,072 scalar rows. The parent ensemble contains 2,304
+spacelike, 768 timelike, and 3,072 zero gradients; it contains no null-gradient configuration, so
+this audit does not determine the dyad motif at a nonzero null gradient.
+
+When the gradient is nonzero, `H+D` is full irreducible in 3,067 rows with five retained margins.
+`R+H` is full irreducible in 2,688 rows while preserving simpler motifs elsewhere. On the complete
+one-instrument edge lattice, the assembly rules are:
+
+- full weave remains full: 313,692 edges;
+- primitive blocks remain exactly preserved: 57,596;
+- prior blocks mix into full algebra: 75,996;
+- ambiguity becomes a certified motif: 13,437;
+- numerical uncertainty: 79.
+
+`BUILDING_BLOCK_LEDGER.tsv` records the motif vocabulary and `INTERACTION_RULE_LEDGER.tsv` records
+the bounded grammar without ranking any outcome by physical resemblance.
+`ADDED_INSTRUMENT_TRANSITION_CENSUS.tsv` gives the same transition counts separately for each added
+instrument; every instrument occupies exactly 92,160 registered edges.
+
+The first package-contract replay caught a readout-only ordering error in its expected text string
+for the timelike `1+3` signature set. `CONTRACT_READOUT_CORRECTION.md` preserves the failure and
+clarifies that the census rank and signature strings are canonically sorted, not positional pairs.
+The building-block ledger now displays both `1+3` signature alternatives as unordered sets. No raw
+block, census, or scientific result changed.
+
+The fresh review's raw-row probe then decomposed the aggregate 7,840 split-across incidences into
+7,839 classified and one uncertain row. `GRADIENT_INCIDENCE_PRECISION_CORRECTION.md` records the
+wording correction. It changes no raw row or aggregate census.
+
+## Independent verification
+
+An independent verifier imports neither the production core nor builder. It independently rebuilt
+metric curvature, scalar Hessian, all five instrument groups, generated algebras, commutants,
+centers, real-primary projectors, block signatures, gradient incidence, Ricci/Hessian alignment,
+edge relations, and both nonlinear chart transformations.
+
+The anchor set was frozen by configuration-ID hash before saved classifications were read. On 384
+configurations it reproduced 11,904 original and 23,808 transformed classifications—35,712 saved
+comparisons—with zero discordance. Its worst saved-projector distance was
+`5.223932397768749e-12`; its worst nonlinear covariance residual was
+`1.9608027118610747e-16`. Omitting the nonlinear scalar-Hessian jet term produced the required
+nonzero catch residual `0.012773925363472115`.
+
+The first independent K09 implementation compared a valid alternate linear chart with the same
+pointwise Jacobian; the complete tensor transformation correctly gave zero rather than exposing an
+omitted nonlinear jet. That failed transcript is preserved. The corrected K09 keeps the transformed
+metric jets but deliberately omits the scalar-Hessian chain-rule term proportional to the inverse-map
+second jet, producing the nonzero residual above. `VERIFIER_IMPLEMENTATION_CORRECTION.md` records the
+correction; no atlas outcome or tolerance was changed.
+
+Because the blind anchors happened to include no uncertain original classifications, a separately
+preregistered post-outcome escalation targeted **every** unique identity in the complete 162-row
+margin ledger. It independently replayed 124 unique original identities and 248 transformed
+identities. It retained 156 uncertain classifications and found zero discordant identities. No row
+was selected by scientific appearance.
+
+All 12 production catches and 12 independent catches pass. `VERIFICATION_RESULT.json` and
+`MARGIN_ESCALATION_RESULT.json` are machine-readable records.
+
+Before final replay, an internal audit found that the edge and operator-count mutation catches used
+catch-local count predicates even though they rejected the intended corruptions. The issue was
+preregistered in `CATCH_VALIDATOR_STRENGTHENING.md`. The production replay now sends its real 75-edge
+registry and every real family operator list through reusable validators; the edge and dropped-
+operator mutations use those same validators. The independent implementation separately constructs
+the exact edge set and operator count and exercises its own validators. No classification, tolerance,
+input, or scientific ledger changed.
+
+A fresh isolated `gpt-5.6-sol` review of clean detached commit `5a9898a` returned `PASS`. It replayed
+the independent, all-margin, and package-contract verifiers on a temporary copy and left its target
+worktree clean. Its residual caveats match this report's bounded-scope caveats. The exact final
+message, normalized review, and provenance are preserved. The supervising post-review incidence
+precision correction only narrows 7,840 into 7,839 classified plus one uncertain row.
+
+## What is and is not learned
+
+- `OBSERVED`: a compact five-motif local algebraic vocabulary and a 14-fingerprint assembly grammar
+  within the complete registered two-jet lattice.
+- `OBSERVED`: the `1+1+2` motif is a Lorentzian primitive plane plus two spacelike primitive lines.
+- `OBSERVED`: unique Ricci and Hessian planes cross rather than align in every clean both-unique
+  configuration in this ensemble.
+- `OBSERVED`: the phi-gradient dyad supplies a line/three-space motif and crosses both sides of every
+  registered clean unique split with nonzero gradient.
+- `OPEN`: whether the Lorentzian primitive plane has observer, reciprocal, clock, ruler, or physical
+  angular meaning.
+- `OPEN`: transport, integrability, global compatibility, finite-cell completion, action, source,
+  carrier, boundary, scale, matter, and physical selection.
+
+No negative here applies to higher jets, time-live dynamics, transport, topology, or a global
+solution. Conversely, no attractive pointwise motif may be promoted into those structures.
+
+## Caveats and premise audit
+
+- The ensemble is exhaustive only for the immutable 6,144 pointwise two-jets and five registered
+  groups. It does not exhaust every differential concomitant or every possible metric jet.
+- No nonzero null-gradient configuration occurs; all dyad `1+3` statements are bounded to the
+  registered spacelike or timelike gradients.
+- Two nonlinear maps probe covariance but do not prove it over the diffeomorphism group.
+- Central reducing blocks are a strict algebraic diagnostic. They need not exhaust physically
+  meaningful noncentral or globally transported structures.
+- Rank tolerance `1e-9`, relative eigenvalue clustering `1e-8`, and uncertainty band
+  `1e-11..1e-7` are numerical choices pinned by habit; every observed margin is retained.
+- No action, EOM, source, carrier, section, boundary, physical value, observational anchor, or scale
+  was loaded.
+- No matched generic Lorentzian or GR ensemble was evaluated. The occurrence and interaction census
+  belongs to these UDT metric/phi instruments, but the abstract rank/signature motifs are not shown
+  to be unique to UDT.
+
+## Four banking gates
+
+exec
+/bin/bash -lc "sed -n '1,180p' udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md" in /tmp/udt_metric_review_G_yXaJNX
+ succeeded in 0ms:
+# UDT Global Metric-Assembly Atlas
+
+Date: 2026-07-22
+
+Status: `VERIFIED_WITH_REGISTERED_NUMERIC_MARGINS__FRESH_CORRECTION_REVIEW_PASS`
+
+Maximum conclusion:
+
+`BOUNDED_REGISTERED_GLOBAL_METRIC_ASSEMBLY_ATLAS_CHARACTERIZED__GLOBAL_QUOTIENT_SELECTION_OPEN`
+
+## Result first
+
+The atlas closes the first four requested mapping stages inside its preregistered registry, audits
+the fifth selector stage, and stops at the activation gates for Stages 6 and 7.
+
+The most important positive result is a metric-compatible continuous transport law for any smooth
+complete projector motif. For mutually annihilating metric-self-adjoint projectors `P_a`, define
+
+```text
+K = sum_a (nabla_T P_a) P_a,
+nabla_T U = K U.
+```
+
+Differentiating projector completeness and idempotence gives
+
+```text
+K is metric-skew,
+[K,P_a] = nabla_T P_a.
+```
+
+Therefore `U` preserves the endpoint metric and intertwines the projector subspaces. This is a
+native geometric connection for the motif bundles. It is not physical time evolution.
+
+Across all 83 populated stable `(motif,instrument-family)` strata, deterministic dense anchors were
+integrated at 33, 65, and 129 nodes. Seventy-six pass all preregistered transport gates. Seven retain
+strict derivative-level numerical margins; their endpoint intertwining, metric-isometry, and RK4
+refinement residuals remain small, but they are not promoted. Exact symbolic Lorentzian and
+reciprocal-toric controls pass, and a separate `DOP853` implementation independently reproduces one
+`FOUR_LINES`, one `LINE_PLUS_THREE`, and one `TWO_PLUS_TWO_LINES` transport anchor.
+
+The finite-cell-path follow-up also found a coherent subfamily. Every one of the 1,536 frozen
+midpoint-integrable `1+1+2` identity/family rows remains locally integrable on both complementary
+rank-two sides at all nine sampled path nodes. This is not a midpoint accident.
+
+Its provenance sharply limits the interpretation: all 1,536 rows come from structural mask `M8`,
+where only `PHI_FIELD` is active. They are eight instrument-family presentations of 192 analytic
+identities. Thus the coherent integrable branch is the orderly `phi`-field/Hessian solo already
+suspected to form nested surfaces. It is not a full metric-angular orchestra, not two commuting
+periodic generators, and not a metric-derived torus or carrier.
+
+The global taxonomy retains 12 parametric completion families, including physical boundaries,
+one-cap boundaries, determinant-zero same-cycle caps, determinant-one `S3`, all determinant-`p>1`
+lens families, nonprimitive/singular caps, general `GL(2,Z)` torus bundles, mirror lifts,
+nonorientable gluing, projector strata, nonintegrable distributions, and the conditional globally
+diagonal reciprocal-toric class. No family is removed for failing to resemble matter or the desired
+universe.
+
+Registered Reciprocity, Common-Scale Neutrality, finite-cell/seal data, bootstrap, and the current
+scale/matter inventory do not select one quotient class. Accordingly:
+
+- Stage 6: `NOT_ACTIVATED__GLOBAL_QUOTIENT_NOT_SELECTED`;
+- Stage 7: `NOT_ACTIVATED__NATIVE_DYNAMICS_UNDEFINED`;
+- CPU time-live evolution runs: `0`;
+- GPU runs: `0`.
+
+## Stage 1 — continuous projector transport
+
+The frozen atlas contains 95,232 identity/family paths:
+
+| stable motif | paths |
+|---|---:|
+| full irreducible four-dimensional weave | 70,812 |
+| scalar/silent | 11,328 |
+| `1+1+2` | 7,845 |
+| `1+3` | 2,880 |
+| four lines | 1,055 |
+
+There are 93,920 stable sampled paths and 1,312 transition or uncertain paths. All appear exactly
+once in `PATH_ASSEMBLY_CENSUS.tsv.gz`. Transition paths receive no invented fine bundle.
+
+The connection theorem follows directly from the complete projector algebra. With
+`sum_a P_a=I`, `P_a P_b=delta_ab P_a`, and metric compatibility:
+
+```text
+K^dagger = sum_a P_a nabla_T P_a = -K,
+[K,P_a] = nabla_T P_a.
+```
+
+The numerical equation in coordinates is
+
+```text
+dU/ds = (K-Gamma_T) U.
+```
+
+The dense-anchor census is:
+
+| status | anchors |
+|---|---:|
+| `DENSE_TRANSPORT_PASS` | 76 |
+| `DENSE_TRANSPORT_NUMERIC_MARGIN_RETAINED` | 7 |
+
+The seven margins are listed in `NUMERIC_MARGIN_LEDGER.tsv`. They arise in finite-difference checks
+of the exact metric-skew/commutator identities. The largest endpoint metric-isometry residual among
+them is about `2.26e-9`, and the largest 65-to-129-node transport refinement is about `1.39e-7`.
+The largest derivative identity residual is about `2.85e-6`, above the fixed `2e-7` gate. The exact
+theorem remains valid; those numerical rows remain unresolved at the registered threshold.
+
+Scalar and full-irreducible motifs transport the whole tangent space but supply no distinguished
+proper subbundle. An open path supplies transport, not holonomy.
+
+## Stage 2 — following the locally integrable candidates
+
+The frozen midpoint atlas contains:
+
+- 8,205 `1+1+2` identity/family rows;
+- 6,669 with nonintegrable Lorentz/two-line complementary planes at the midpoint;
+- 1,536 with both sides integrable there.
+
+All 1,536 candidate rows were followed at `t=j/8`, `j=0..8`, retaining the original two stencil
+steps and thresholds. The result is exactly 13,824 node rows, all
+`BOTH_SIDES_SAMPLED_INTEGRABLE`.
+
+The complete provenance is:
+
+```text
+structural mask: M8 = PHI_FIELD only
+unique analytic identities: 192
+instrument-family presentations per identity: 8
+identity/family rows: 1,536
+```
+
+The eight families all contain `H`; any listed `R`, `RG`, or `WG` operator is zero in this
+structural mask. This is why the rows must not be interpreted as 1,536 independent geometric
+mechanisms. The result strengthens the `phi`-foliation observation and simultaneously weakens its
+claim to be the missing angular/Hopf assembly.
+
+The generic full orchestra remains dominated by the irreducible four-dimensional weave. The exact
+reciprocal-toric axis/Hopf witness is consequently still a special conditional commuting stratum,
+not a branch selected or even reproduced by the `PHI_FIELD`-only integrable census.
+
+## Stage 3 — global completion catalogue
+
+`COMPLETION_CLASS_REGISTRY.tsv` records 12 parametric families. Infinite cap and monodromy families
+are represented by exact rules plus bounded arithmetic witnesses.
+
+The cap witness census uses every canonical primitive vector with coefficients bounded by three,
+giving 256 ordered pairs:
+
+| class | bounded witnesses |
+|---|---:|
+| dependent/same-cycle `p=0` | 16 |
+| determinant-one `S3` | 58 |
+| lens `p>1` | 182 |
+
+These counts are arithmetic controls, not frequencies and not an exhaustion of the infinite cap
+family. The exact general rule remains `p=|det(v_-,v_+)|`.
+
+Eight explicit `GL(2,Z)` controls cover identity, finite elliptic, parabolic, hyperbolic, and
+orientation-reversing mapping-torus classes. The parametric family is not reduced to those eight
+witnesses. Their corrected class census is three finite elliptic witnesses (including the exact
+order-two element `-I`), one nontrivial parabolic witness, one identity, one hyperbolic witness, and
+two orientation-reversing witnesses.
+
+Every one of seven motif/transition/control classes is crossed with every completion family in the
+84-row `MOTIF_COMPLETION_ATLAS.tsv`. A cross-row records compatibility requirements; it is not an
+assertion that the local analytic polynomial already supplies a complete global metric witness.
+
+## Stage 4 — bundle and holonomy data
+
+The atlas keeps four objects separate:
+
+1. Kato transport of metric-derived projector bundles;
+2. Levi-Civita tangent holonomy of a complete metric;
+3. integral torus-lattice monodromy and cap-cycle data; and
+4. principal-circle characteristic data after a free circle action is supplied.
+
+The local analytic paths provide object 1. They do not close into loops and therefore do not supply
+holonomy. The completion registry supplies parametric data for object 3. Object 2 remains
+profile-dependent until a complete metric is supplied. Object 4 exists only in the conditional
+reciprocal-toric control after periods, action, caps, orientation, and normalization are disclosed.
+
+exec
+/bin/bash -lc "sed -n '1,175p' udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md" in /tmp/udt_metric_review_G_yXaJNX
+ succeeded in 0ms:
+# UDT Motif-to-Hopf Correspondence Audit
+
+Date: 2026-07-22
+
+Status: `CORRECTED_VERIFIED_WITH_REGISTERED_SCOPE`
+
+Maximum conclusion:
+
+`OBSERVED_BOUNDED_REGISTERED-CHART_SAMPLED_MOTIF_AND_FROBENIUS_CENSUS`
+
+plus
+
+`EXACT_CONDITIONAL_RECIPROCAL-TORIC/HOPF-SEED_COMPATIBILITY_WITNESS`.
+
+The overall motif-to-Hopf correspondence remains a `LEAD`.
+
+## Result first
+
+The new motif vocabulary does connect to the Hopf program, but at two sharply different levels.
+
+First, the complete registered local analytic ensemble contains abundant sampled projector motifs
+and nonzero Frobenius obstruction in the registered chart. Of 95,232 instrument-family paths,
+93,920 have the same classified motif and matchable projector sets at all 17 sampled nodes. This is
+not a continuous-bundle theorem. At the path midpoints, 8,205 families carry the `1+1+2` motif. Its
+primitive Lorentzian rank-two plane is numerically nonintegrable in 6,669 cases and integrable in
+1,536 in that chart. The 1,395 four-line midpoints have three complementary rank-two splittings;
+all 8,370 tested split sides are numerically nonintegrable there.
+
+Second, in the already conditional reciprocal-toric class,
+
+```text
+g = -dt^2 + A(phi)^2 dphi^2
+    + Omega(phi)^2[exp(-2phi) dxi1^2 + exp(2phi) dxi2^2],
+```
+
+the metric `phi` Hessian plus the unnormalized gradient dyad generically recovers the four intrinsic
+axes `(t,phi,xi1,xi2)` without an `S2` carrier. The two angular Hessian eigenvalues differ exactly by
+`2/A^2`; the dyad distinguishes depth from time. Axis recovery fails only at disclosed degeneracies
+`Omega'/Omega=+/-1` unless another intrinsic instrument resolves them.
+
+Once periodic circles, a free diagonal/anti-diagonal action, full reciprocal range, and opposite
+primitive caps are separately supplied, the metric-dual connection is independent of `Omega` and
+has conditional unit Hopf class. Its quotient map is exactly the same degree-one Hopf map used by
+the historical `hopf_seed` code after `tan(eta)=exp(2phi)`.
+
+This is a direct vocabulary-to-Hopf `LEAD`: the registered metric instruments exhibit local
+twisting candidates, and the separately supplied reciprocal-toric specialization turns its angular
+axes into the exact Hopf seed geometry. It is a geometric precursor and conditional compatibility
+witness, not native carrier or matter emergence.
+
+## Complete sampled continuation census
+
+The scan used all
+
+```text
+4 banks * 48 carrier vectors * 16 structural masks = 3,072
+```
+
+analytic identities. Each identity was followed along its preregistered point pair at 17 affine
+nodes. Every one of the 31 nonempty subsets of `R,H,D,RG,WG` was classified at every node:
+
+```text
+52,224 metric/phi two-jets
+1,618,944 family classifications
+95,232 family paths
+```
+
+Same-motif, matchable-projector paths at all 17 nodes:
+
+| motif | stable paths |
+|---|---:|
+| full irreducible weave | 70,812 |
+| scalar/silent | 11,328 |
+| `1+1+2` | 7,845 |
+| `1+3` | 2,880 |
+| four lines | 1,055 |
+
+The remaining 1,312 paths contain a motif transition or numerical margin. None was dropped. The
+complete transition census is `FAMILY_TRANSITION_CENSUS.tsv`.
+
+The endpoints reproduce all 190,464 corresponding rows of the frozen pointwise motif atlas with
+zero classification disagreement.
+
+These paths are coherent analytic configurations, not EOM solutions or physical evolution. Their
+17 nodes establish sampled matching only. They do not establish a continuous projector bundle,
+global continuation, or holonomy. Under the explicit zero-constant cubic polynomial maps defined by
+the stored nonlinear jets, all `63,488` possible adjacent-edge cases were accounted for: `63,438`
+admitted assignments and had zero transport discordance, while 50 were retained as mutually
+unmatched transition edges. Of 67,456 point comparisons, 67,396 were classified on both sides, 33
+were uncertain on one side, and 27 were uncertain on both. The node-dependent projector-set
+covariance residual was at most `1.1807795359652391e-11`; the map inversion residual was at most
+`1.1102230246251565e-16`, and the minimum sampled absolute Jacobian determinant was
+`0.9643147372973677`.
+
+## Local distributions
+
+Every midpoint received complete `h=1e-4` and `h/2` four-coordinate stencils in the registered
+chart. The largest derivative
+convergence residual is `0.0031622520541422948`, below the preregistered `0.005` gate. Only 13
+identity/family stencils are retained as degenerate or numerically uncertain; independent replay
+reproduces all 13.
+
+The main distribution observations are:
+
+- `1+1+2`: 6,669 primitive Lorentzian planes locally nonintegrable; 1,536 integrable.
+- Four lines: 8,370 complementary rank-two split sides locally nonintegrable; zero integrable.
+- `1+3`: 2,879 rank-three complements locally integrable and one uncertain. This agrees with the
+  hypersurface-orthogonal character expected of the nonzero `phi`-gradient dyad and reinforces that
+  the gradient alone is not a generic Hopf carrier.
+- Rank-one distributions are locally integrable by dimension, but remain unoriented lines.
+
+Nonzero Frobenius obstruction is a local twist/anholonomy diagnostic. The tensor formula is valid,
+but its stored normalization and numerical thresholds use registered-chart component norms; the
+full census is therefore certified only in that chart. It is not a Hopf integer. No local family was assigned a
+compact domain, periodicity, cap, orientation lift, or global transition cocycle; therefore all
+3,072 receive `GLOBAL_DATA_ABSENT`, not `Q=0`.
+
+## Reciprocal-toric control
+
+For the conditional toric metric, the mixed Hessian and dyad eigenvalue pairs in the coordinate
+order `(t,phi,xi1,xi2)` are
+
+```text
+H: (0, -A'/A^3, (Omega'/Omega-1)/A^2, (Omega'/Omega+1)/A^2)
+D: (0,  1/A^2, 0, 0).
+```
+
+Thus `H+D` as a joint instrument family distinguishes the two angular axes identically and separates
+depth from time. This is generic inside that class, not universal over arbitrary positive `Omega`:
+one angular line becomes degenerate with time when `Omega'/Omega=+/-1`.
+
+The generic local ensemble supplies an important contrast. At its 3,072 `H+D` midpoints, 1,536 are
+scalar, 1,530 are stably full irreducible, six are uncertain/unstable, and zero have a four-line
+motif. The toric axis recovery is therefore a special commuting/cohomogeneity-one stratum, not a
+generic consequence of merely turning on `H` and `D`.
+
+With the equal-weight diagonal circle action separately supplied, the metric-dual connection is
+
+```text
+calA = f(phi) dxi1 + [1-f(phi)] dxi2,
+f(phi)=1/[1+exp(4phi)].
+```
+
+`Omega` cancels. For finite endpoints,
+
+```text
+Q = f(phi_minus)-f(phi_plus),
+```
+
+so the readout is continuous and boundary-dependent, not automatically integral. Only the full
+range `phi: -infinity -> +infinity`, two `2*pi` circles, opposite primitive smooth collapses,
+selected free diagonal/anti-diagonal action, orientation, and normalization give `|Q|=1`.
+
+At `phi=0` the circle fractions are equal. Reciprocal reflection exchanges the two angular
+coefficients; it is a metric isometry only when `A^2` and `Omega^2` are even and the global circle
+exchange is supplied. The round control has exact opposite collapse limits `(1,0)` and `(0,1)`.
+Arbitrary positive `A,Omega` do not inherit periodicity or cap regularity from the local projectors.
+
+## Comparison with the existing Hopf soliton
+
+The quotient map is
+
+```text
+n(phi,delta) = (sech(2phi) cos(delta),
+                sech(2phi) sin(delta),
+               -tanh(2phi)).
+```
+
+It has unit norm and, after `tan(eta)=exp(2phi)` and `delta=xi1-xi2`, is exactly
+
+```text
+(sin(2eta) cos(delta), sin(2eta) sin(delta), cos(2eta)),
+```
+
+the degree-one Hopf map implemented by `hopf_seed` following inverse stereographic
+
+exec
+/bin/bash -lc "sed -n '1,220p' udt_instrument_motif_atlas_2026-07-21/METHOD.md 2>/dev/null || true" in /tmp/udt_metric_review_G_yXaJNX
+ succeeded in 0ms:
+exec
+/bin/bash -lc 'rg -n "generated|algebra|invariant|projector|self-adjoint|degener|null|Lorentz|commut|criterion|closure" udt_instrument_motif_atlas_2026-07-21 udt_global_metric_assembly_atlas_2026-07-22 | head -220' in /tmp/udt_metric_review_G_yXaJNX
+ succeeded in 0ms:
+udt_global_metric_assembly_atlas_2026-07-22/DENSITY_BOOTSTRAP_CIRCULARITY_LEDGER.tsv:4:D03_NATIVE_SIMULTANEOUS_FIXED_POINT	rho_solution=M_native[g,fields]/V_proper[g] solved with geometry boundary and bootstrap	OPEN_NATIVE_OBJECT_REQUIRED	GLOBAL_COMPLETION_DEPENDENT_BUT_GEOMETRICALLY_DEFINABLE	DESIRED_NONCIRCULAR_SIMULTANEOUS_CLOSURE	POTENTIAL_FUTURE_EIGENVALUE_OR_BRANCH_SELECTOR	off-shell native mass functional plus varied global closure and response map
+udt_instrument_motif_atlas_2026-07-21/verify_package_contract.py:155:            "ambiguity_to_certified_motif", "primitive_blocks_preserved", "mixes_to_full_algebra",
+udt_instrument_motif_atlas_2026-07-21/verify_package_contract.py:156:            "full_algebra_remains_full", "numeric_uncertain",
+udt_instrument_motif_atlas_2026-07-21/PRE_EDGE_UNCERTAINTY_TRANSCRIPT.txt:2:{"block_rows": 237388, "catch_proofs_passed": 12, "configurations": 6144, "development_limit": null, "edge_rows": 460800, "family_rows": 190464, "maximum_conclusion": "BOUNDED_POINTWISE_INSTRUMENT_MOTIF_LATTICE_CHARACTERIZED", "maximum_projector_covariance_residual": 2.0154672007171406e-11, "maximum_projector_residual": 1.6370904631912708e-11, "motif_fingerprints": 14, "nonlinear_alignment_discordances": 0, "nonlinear_edge_discordances": 429, "nonlinear_family_rows": 380928, "nonlinear_nonuncertain_discordances": 0, "nonlinear_skipped": false, "nonlinear_uncertain_rows": 145, "numeric_margin_rows": 162, "physical_merit_evaluated": false, "schema": "udt-instrument-motif-atlas-1.0"}
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:4:This module imports neither build_motif_atlas nor motif_core nor the parent invariant-subspace core.
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:35:    "algebra_dimension", "commutant_dimension", "center_dimension",
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:170:def algebra_basis(values: list[np.ndarray]) -> tuple[list[np.ndarray], bool]:
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:180:def nullspace(matrix: np.ndarray) -> tuple[np.ndarray, bool]:
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:185:def commutant_basis(values: list[np.ndarray]) -> tuple[list[np.ndarray], bool]:
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:194:    kernel, uncertain = nullspace(constraint)
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:198:def center_basis(commutant: list[np.ndarray]) -> tuple[list[np.ndarray], bool]:
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:200:        np.column_stack([(item @ other - other @ item).reshape(-1, order="F") for item in commutant])
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:201:        for other in commutant
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:203:    kernel, uncertain = nullspace(np.vstack(blocks))
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:204:    return [sum(kernel[index, column] * commutant[index] for index in range(len(commutant)))
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:210:    kernel, uncertain = nullspace(constraint); inverse = np.linalg.inv(metric); output = []
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:217:def primary_projectors(value: np.ndarray) -> tuple[list[np.ndarray], bool]:
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:252:        projector = sum((coefficients[power] * powers[power] for power in range(len(powers))),
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:254:        if np.max(np.abs(projector.imag)) > TOL: return [], True
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:255:        output.append(projector.real)
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:265:def central_blocks(values: list[np.ndarray], metric: np.ndarray, commutant, selfcenter):
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:275:        projectors, uncertain = primary_projectors(value / norm)
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:278:        for projector in projectors:
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:279:            rank, rank_uncertain, _ = rank_info(projector)
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:280:            current = max(relmax(projector @ projector, projector), relmax(projector.T @ metric, metric @ projector),
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:281:                          max((relmax(projector @ op, op @ projector) for op in ops), default=0.0),
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:282:                          max((relmax(projector @ op, op @ projector) for op in commutant), default=0.0))
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:284:        residual = max(residual, relmax(sum(projectors, np.zeros((4, 4))), np.eye(4)),
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:285:                       max((relmax(projectors[i] @ projectors[j], np.zeros((4, 4)))
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:286:                            for i in range(len(projectors)) for j in range(i + 1, len(projectors))), default=0.0))
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:287:        if valid and residual <= TOL and sum(rank_info(projector)[0] for projector in projectors) == 4:
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:288:            candidates.append(projectors)
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:293:    ranks = sorted(rank_info(projector)[0] for projector in finalists[0])
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:302:def signature(projector: np.ndarray, metric: np.ndarray):
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:303:    u, _, _ = np.linalg.svd(projector); rank, uncertain, _ = rank_info(projector); basis = u[:, :rank]
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:312:def splits(projectors: list[np.ndarray]):
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:313:    ranks = [rank_info(projector)[0] for projector in projectors]; output = []
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:314:    for mask in range(1, 2 ** len(projectors) - 1):
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:316:        first = sum((projectors[index] for index in range(len(projectors)) if mask & (1 << index)), np.zeros((4, 4)))
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:340:def discriminant(operator: np.ndarray, projector: np.ndarray):
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:341:    rank, _, _, _, _, basis, _ = signature(projector, np.eye(4))
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:350:def motif_name(algebra_dimension, commutant_dimension, center_dimension, ranks, uncertain):
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:352:    if algebra_dimension == 16: return "FULL_IRREDUCIBLE_4"
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:358:        if algebra_dimension == 1: return "SCALAR_4_AMBIGUITY"
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:359:        if commutant_dimension > center_dimension: return "NONCENTRAL_AMBIGUITY_4"
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:365:    algebra, ua = algebra_basis(values); commutant, uc = commutant_basis(values); center, uz = center_basis(commutant); selfcenter, us = selfcenter_basis(center, metric)
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:366:    projectors, block_status, ub = central_blocks(values, metric, commutant, selfcenter)
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:368:    for projector in projectors:
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:369:        rank, sig, negative, positive, zero, _, current_uncertain = signature(projector, metric)
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:372:                _, current = discriminant(scalar[key], projector); current_uncertain |= current
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:375:                           "zero": zero, "projector": projector, "uncertain": current_uncertain})
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:376:    ranks = sorted(item["rank"] for item in block_data); split_pairs = splits(projectors); unique = split_pairs[0] if len(split_pairs) == 1 else None
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:380:        minimum = min(float(np.linalg.norm(projector @ gradient)) / float(np.linalg.norm(gradient)) for projector in unique)
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:385:    motif = motif_name(len(algebra), len(commutant), len(center), ranks, uncertain)
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:386:    if len(algebra) == 16: reducibility = "FULL_MATRIX_ALGEBRA_IRREDUCIBLE"
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:389:    elif len(commutant) > len(center): reducibility = "PROPER_ALGEBRA_NONCENTRAL_AMBIGUITY"
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:391:    plane_signatures = sorted(signature(projector, metric)[1] for projector in unique) if unique is not None else []
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:393:        "algebra_dimension": len(algebra), "commutant_dimension": len(commutant),
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:401:        "projectors": projectors, "blocks": block_data, "unique_pair": unique, "block_status": block_status,
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:502:    comparisons = 0; uncertain = 0; max_projector_saved = 0.0
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:507:        saved_projectors = [np.asarray(json.loads(row["projector_json"])) for row in block_saved[key]]
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:508:        distance = set_distance(current["projectors"], saved_projectors); max_projector_saved = max(max_projector_saved, distance)
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:509:        if distance > TOL: raise AssertionError(f"saved projector mismatch {key} {distance}")
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:562:    null_metric = np.diag((-1.0, 1.0, 1.0, 1.0)); null_covector = np.asarray((1.0, 1.0, 0.0, 0.0)); null_norm = float(null_covector @ np.linalg.inv(null_metric) @ null_covector)
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:563:    reject("K06_NORMALIZED_NULL_DYAD", abs(null_norm) <= TOL)
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:585:        "maximum_saved_projector_distance": max_projector_saved, "catch_proofs": len(catches),
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:591:                  f"parent_residual={parent_max:.17g} covariance_residual={covariance_max:.17g} saved_projector_distance={max_projector_saved:.17g}",
+udt_instrument_motif_atlas_2026-07-21/VERIFIER_ANCHOR_FREEZE.md:14:The anchor file itself is generated by `freeze_verifier_anchors.py`, committed before the verifier
+udt_instrument_motif_atlas_2026-07-21/ATLAS_RESULT.json:5:  "development_limit": null,
+udt_instrument_motif_atlas_2026-07-21/ATLAS_RESULT.json:9:  "maximum_projector_covariance_residual": 2.0154672007171406e-11,
+udt_instrument_motif_atlas_2026-07-21/ATLAS_RESULT.json:10:  "maximum_projector_residual": 1.6370904631912708e-11,
+udt_instrument_motif_atlas_2026-07-21/FRESH_ADVERSARIAL_REVIEW_RAW.txt:9:- No nonzero null gradients were tested ([COMPLETENESS_MAP.md](/tmp/udt_motif_fresh_review_20260721/udt_instrument_motif_atlas_2026-07-21/COMPLETENESS_MAP.md:22)).
+udt_instrument_motif_atlas_2026-07-21/FRESH_ADVERSARIAL_REVIEW_RAW.txt:12:- No generic Lorentzian/GR comparison supports UDT uniqueness ([STATUS_LEDGER.tsv](/tmp/udt_motif_fresh_review_20260721/udt_instrument_motif_atlas_2026-07-21/STATUS_LEDGER.tsv:16)).
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:43:| `udt_joint_invariant_subspace_atlas_2026-07-21/SHA256SUMS.txt` | `973dcc8bb297fad8358087318b24e5db9d1179e8b6a51a2535a0110e30c108c2` | corrected invariant-subspace algorithms and historical anchor |
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:50:exactly once in the subset registry. This deliberately retains algebraically redundant-looking
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:64:For each family retain the full algebra/commutant/center classification from the corrected parent
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:65:algorithm and additionally record every certified primitive metric-self-adjoint central block:
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:69:  pattern, noncentral ambiguity, full-algebra irreducibility, or numerical uncertainty;
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:74:  self-adjoint scalar instrument `R`, `H`, and `D` restricted to that block.
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:76:The words `plane`, `line`, and `block` describe tangent-space algebra at one point. They do not name
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:82:projector sets. Report without merit ranking:
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:86:- transition to full matrix algebra;
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:92:rank-two split, compare the two unordered projector pairs by similarity-invariant projector traces,
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:93:commutator rank, common-image intersection dimensions, and exact same/complementary/commuting-crossing/
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:94:noncommuting-crossing classification. No Euclidean coordinate angle may be called physical.
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:107:| four-dimensional Lorentzian metric plus scalar phi two-jet | `pinned-by-THEORY`, conditional realization | immutable structural ensemble |
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:112:| rank/projector tolerance `1e-9` | `pinned-by-HABIT` | numerical certification only |
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:118:parent two-jets are a finite algebraic tile, not solutions of an unspecified dynamics.
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:127:3. every retained block signature has rank equal to its projector rank, and the direct sum of block
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:128:   inertias reproduces total Lorentz signature `N1_P3_Z0`;
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:129:4. every projector passes idempotence, completeness, mutual annihilation, metric self-adjointness,
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:130:   centrality, and operator commutation at `1e-9`;
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:132:   projectors, without normalizing zero or null gradients;
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:136:8. an independent implementation recomputes every family and motif invariant on a frozen anchor
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:139:   supplied coordinate plane, normalized zero/null dyad, bad block signature, mutated gradient
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:151:The package may describe recurring algebraic building blocks and their interactions as `OBSERVED`
+udt_instrument_motif_atlas_2026-07-21/BUILDING_BLOCK_LEDGER.tsv:3:B02	TWO_PLUS_TWO_LINES	1;1;2	N0_P1_Z0;N0_P1_Z0;N1_P1_Z0	16431	One primitive Lorentzian rank-two block and two primitive spacelike lines; the rank-two block is the real primary block of a complex-conjugate R or H spectrum.	OPEN_ALGEBRAIC_CANDIDATE_ONLY
+udt_instrument_motif_atlas_2026-07-21/BUILDING_BLOCK_LEDGER.tsv:5:B04	LINE_PLUS_THREE	1;3	{N0_P1_Z0,N1_P2_Z0} OR {N1_P0_Z0,N0_P3_Z0} UNORDERED	5760	The registered nonzero nonnull phi-gradient dyad distinguishes its one-dimensional image and the metric-orthogonal three-dimensional complement; no nonzero null gradient occurs.	OPEN_NO_PHYSICAL_SELECTION
+udt_instrument_motif_atlas_2026-07-21/BUILDING_BLOCK_LEDGER.tsv:6:B05	FULL_IRREDUCIBLE_4	4	N1_P3_Z0	142836	The registered instruments jointly generate the full four-dimensional matrix algebra and preserve no proper common subspace.	OPEN_NO_PHYSICAL_SELECTION
+udt_instrument_motif_atlas_2026-07-21/ANTI_IMPOSITION_AUDIT.tsv:5:A04	Was a supplied angular plane projector or coordinate split used?	NO	Primitive blocks were reconstructed from the generated operator algebra and its center
+udt_instrument_motif_atlas_2026-07-21/ANTI_IMPOSITION_AUDIT.tsv:8:A07	Was RG/WG motif equivalence reported as operator equality?	NO	INTERACTION_RULE_LEDGER.tsv limits the statement to saved motif/projector classifications
+udt_instrument_motif_atlas_2026-07-21/ANTI_IMPOSITION_AUDIT.tsv:9:A08	Was the Lorentzian rank-two block called a physical reciprocal plane?	NO	STATUS_LEDGER.tsv marks that interpretation OPEN
+udt_instrument_motif_atlas_2026-07-21/ANTI_IMPOSITION_AUDIT.tsv:10:A09	Was full irreducibility called a negative theorem about global or time-live structure?	NO	The report limits it to common pointwise invariant subspaces of registered two-jet instruments
+udt_instrument_motif_atlas_2026-07-21/ANTI_IMPOSITION_AUDIT.tsv:12:A11	Does the atlas claim the abstract motif vocabulary is unique to UDT?	NO	STATUS_LEDGER.tsv leaves uniqueness OPEN because no matched generic Lorentzian comparison was run
+udt_global_metric_assembly_atlas_2026-07-22/COMPLETION_CLASS_REGISTRY.tsv:11:FC10_STRATIFIED_PROJECTOR	FINITE_OR_PERIODIC	PROJECTOR_RANK_MERGER_OR_SPLIT	METRIC_MAY_BE_REGULAR_PROJECTOR_FINE_SPLIT_FAILS	STRATIFIED_DISTRIBUTION	all retained motif transitions and degeneracies	RETAINED_NOT_FILTERED
+udt_instrument_motif_atlas_2026-07-21/PRE_EDGE_UNCERTAINTY_ATLAS_RESULT.json:5:  "development_limit": null,
+udt_instrument_motif_atlas_2026-07-21/PRE_EDGE_UNCERTAINTY_ATLAS_RESULT.json:9:  "maximum_projector_covariance_residual": 2.0154672007171406e-11,
+udt_instrument_motif_atlas_2026-07-21/PRE_EDGE_UNCERTAINTY_ATLAS_RESULT.json:10:  "maximum_projector_residual": 1.6370904631912708e-11,
+udt_instrument_motif_atlas_2026-07-21/FRESH_ADVERSARIAL_REVIEW_REQUEST.md:13:2. the primitive-block construction, Lorentz signatures, real-primary complex-pair handling,
+udt_instrument_motif_atlas_2026-07-21/FRESH_ADVERSARIAL_REVIEW_REQUEST.md:14:   semisimplicity/Jordan fail-closure, and `1+1+2` rather than `2+2` wording;
+udt_instrument_motif_atlas_2026-07-21/FRESH_ADVERSARIAL_REVIEW_REQUEST.md:17:4. whether RG/WG and Ricci-addition statements are limited to motif/projector equivalence rather
+udt_instrument_motif_atlas_2026-07-21/FRESH_ADVERSARIAL_REVIEW_REQUEST.md:27:9. whether the absence of nonzero null gradients and the absence of a matched generic Lorentzian/GR
+udt_instrument_motif_atlas_2026-07-21/FRESH_ADVERSARIAL_REVIEW_REQUEST.md:28:   ensemble are stated strongly enough to block null-dyad and UDT-uniqueness overclaims;
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_REQUEST.md:12:1. the exact complete-projector transport identity
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_REQUEST.md:25:6. the primitive-cap determinant controls, `GL(2,Z)` witnesses, and separation of projector/Kato
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_REQUEST.md:37:outputs. Use independent read-only algebra or code probes where needed. Return `PASS`,
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_REQUEST.md:46:density selector, scale closure, matter emergence, or canon.
+udt_instrument_motif_atlas_2026-07-21/EDGE_TRANSITION_CENSUS.tsv:1:source_family_id	destination_family_id	added_instrument	transition	projector_relation	numeric_status	configurations
+udt_instrument_motif_atlas_2026-07-21/VERIFICATION_RESULT.json:8:  "maximum_saved_projector_distance": 5.223932397768749e-12,
+udt_instrument_motif_atlas_2026-07-21/LAY_REPORT.md:19:line, failed to commute, and together wove all four directions. The phi-gradient direction likewise
+udt_instrument_motif_atlas_2026-07-21/LAY_REPORT.md:25:physical name. It has found the local algebraic shape only. It has not shown how the shape is
+udt_instrument_motif_atlas_2026-07-21/LAY_REPORT.md:29:generic grammar of four-dimensional Lorentzian geometry. What is specifically mapped here is how
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_RAW.md:11:   The classifier, generated tables/results, report text, and verifier expectations should be corrected.
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_RAW.md:13:2. All 12 CSN selector rows cite an unpinned dispatch ([selector matrix](/tmp/udt_global_assembly_completion.tOsoZ3/udt_global_metric_assembly_atlas_2026-07-22/SELECTOR_MATRIX.tsv:14)). Replace that citation with the already-frozen angular–toric report, which explicitly establishes that CSN removes common positive scale but supplies neither cap completion nor global selection ([source](/tmp/udt_global_assembly_completion.tOsoZ3/angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md:245)).
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_RAW.md:35:No carrier, torus action, quotient, dynamics, matter, mass, density selector, scale closure, or canon follows.
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:17:1. whether its intrinsic projector motifs admit continuous metric-compatible transport;
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:21:4. the distinct projector-bundle, lattice, tangent, and principal-circle holonomy data carried by
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:47:arbitrary Lorentzian four-geometries.
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:54:| `udt_instrument_motif_atlas_2026-07-21/SHA256SUMS.txt` | `97dac2c32317deb603a054cffd3d2162f537d8bc7806d2276fa7e8544dd22ed5` | motif/projector implementation |
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:55:| `udt_global_coframe_cocycle_audit_2026-07-20/SHA256SUMS.txt` | `1297e8f6773f863f426d66f6c4915741a742c1ee13230abf2b066421de49b04b` | reciprocal transition algebra and global nonselection |
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:57:| `angular_toric_closure_selector_2026-07-19/SHA256SUMS.txt` | `64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50` | toric cap/action classification |
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:59:| `scale_breaking_closure_census_2026-07-20/SHA256SUMS.txt` | `53996dfcc0fb9cef29422ff94908fe71aaed32703d49e70e2d6d7f01aa19fe84` | scale/`X_max` limits |
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:64:## Stage 1 — continuous projector transport
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:66:For a smooth complete family of mutually annihilating, metric-self-adjoint projectors `P_a` and a
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:79:Fine transport stops at rank/signature change or projector degeneracy. Coarse transport may survive
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:86:diagnostics are projector intertwining, endpoint metric isometry, ODE refinement, and exact
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:95:The frozen local distribution census contains 1,536 midpoint-integrable `1+1+2` Lorentz-plane /
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:106:degenerate/changes motif, or remains numerical-uncertain. Sampled integrability is necessary but not
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:107:sufficient for commuting periodic circle generators, a torus action, global orientation, or a cap.
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:137:1. projector/Kato transport along the metric path;
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:143:an explicit endpoint gluing. Local projector matching may never manufacture that gluing. Finite
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:151:- reciprocal exponential comparison and its `Z2`-graded transition algebra;
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:164:its projector distribution, periodicity/gluing, free action, orientation status, and boundary
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:174:fields, constraints, boundary flux, and raw residual. First run bounded CPU algebra/small-grid anchors.
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:186:| projector connection | `DERIVED CANDIDATE` | must pass exact and independent checks |
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:205:5. a degeneracy or motif transition is silently assigned a fine bundle;
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:208:8. a local integrable plane is promoted to commuting periodic circles;
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:211:11. projector, Levi-Civita, lattice, and principal-circle holonomies are conflated;
+udt_global_metric_assembly_atlas_2026-07-22/PREREGISTRATION.md:219:implementation must rederive the projector transport identities, reproduce the exact candidate set,
+udt_global_metric_assembly_atlas_2026-07-22/LAY_REPORT.md:18:an anholonomic twisting plane, or pass through points where the fine projector pattern changes.
+udt_instrument_motif_atlas_2026-07-21/REPOSITORY_GATES.json:92:        "package": "angular_toric_closure_selector_2026-07-19",
+udt_instrument_motif_atlas_2026-07-21/REPOSITORY_GATES.json:128:        "package": "null_section_hopfion_metric_audit_2026-07-19",
+udt_instrument_motif_atlas_2026-07-21/REPOSITORY_GATES.json:164:        "package": "reciprocal_metric_null_line_selector_2026-07-19",
+udt_instrument_motif_atlas_2026-07-21/REPOSITORY_GATES.json:236:        "package": "scale_breaking_closure_census_2026-07-20",
+udt_instrument_motif_atlas_2026-07-21/REPOSITORY_GATES.json:332:        "package": "c2_transverse_coframe_closure_2026-07-20",
+udt_instrument_motif_atlas_2026-07-21/REPOSITORY_GATES.json:338:        "package": "udt_global_reciprocal_closure_audit_2026-07-20",
+udt_instrument_motif_atlas_2026-07-21/REPOSITORY_GATES.json:362:        "package": "udt_complete_lift_mu_closure_audit_2026-07-20",
+udt_instrument_motif_atlas_2026-07-21/REPOSITORY_GATES.json:392:        "package": "udt_reciprocal_plane_projector_audit_2026-07-21",
+udt_instrument_motif_atlas_2026-07-21/REPOSITORY_GATES.json:494:        "package": "udt_joint_invariant_subspace_atlas_2026-07-21",
+udt_instrument_motif_atlas_2026-07-21/REPOSITORY_GATES.json:606:      "udt_joint_invariant_subspace_atlas_2026-07-21/SHA256SUMS.txt": "973dcc8bb297fad8358087318b24e5db9d1179e8b6a51a2535a0110e30c108c2",
+udt_instrument_motif_atlas_2026-07-21/FRESH_ADVERSARIAL_REVIEW.md:19:- No nonzero null gradients were tested ([completeness map](COMPLETENESS_MAP.md)).
+udt_instrument_motif_atlas_2026-07-21/FRESH_ADVERSARIAL_REVIEW.md:24:- No generic Lorentzian/GR comparison supports UDT uniqueness ([status ledger](STATUS_LEDGER.tsv)).
+udt_global_metric_assembly_atlas_2026-07-22/DENSE_TRANSPORT_ATLAS.tsv:1:identity_id	family_id	motif	selection_sha256	nodes_33_samples	nodes_65_samples	nodes_129_samples	intertwining_residual_129	metric_isometry_residual_129	kato_metric_skew_residual_129	kato_commutator_residual_129	refinement_33_65	refinement_65_129	transport_matrix_sha256	transport_status	error
+udt_global_metric_assembly_atlas_2026-07-22/EXACT_TRANSPORT_CONTROL.json:10:  "toric_depth_projectors_covariantly_constant": true,
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:54:4. `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`, then
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:55:   `angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv` — the compact current theorem,
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:58:5. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` only when the exact reciprocal
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:86:complete through angular–toric closure: the existing implementation is already full 3D Hopf-capable;
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:120:- The conditional conformal-Lorentzian null-direction fiber is a celestial topological/conformal
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:130:- Audit algebra, signs, boundary conditions, operator provenance, convergence, raw evidence, and code
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:193:- For corrected-carrier work, use the audited no-null `L2+L4` functional and its exact-HVP path; old
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:217:   `angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md` contains the required consequence.
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:296:1. the exact complete-projector transport identity
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:309:6. the primitive-cap determinant controls, `GL(2,Z)` witnesses, and separation of projector/Kato
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:321:outputs. Use independent read-only algebra or code probes where needed. Return `PASS`,
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:330:density selector, scale closure, matter emergence, or canon.
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:386:4. `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`, then
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:387:   `angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv` — the compact current theorem,
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:390:5. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` only when the exact reciprocal
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:418:complete through angular–toric closure: the existing implementation is already full 3D Hopf-capable;
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:452:- The conditional conformal-Lorentzian null-direction fiber is a celestial topological/conformal
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:462:- Audit algebra, signs, boundary conditions, operator provenance, convergence, raw evidence, and code
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:525:- For corrected-carrier work, use the audited no-null `L2+L4` functional and its exact-HVP path; old
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:546:1. the exact complete-projector transport identity
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:559:6. the primitive-cap determinant controls, `GL(2,Z)` witnesses, and separation of projector/Kato
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:571:outputs. Use independent read-only algebra or code probes where needed. Return `PASS`,
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:580:density selector, scale closure, matter emergence, or canon.
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:653:1. whether its intrinsic projector motifs admit continuous metric-compatible transport;
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:657:4. the distinct projector-bundle, lattice, tangent, and principal-circle holonomy data carried by
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:683:arbitrary Lorentzian four-geometries.
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:690:| `udt_instrument_motif_atlas_2026-07-21/SHA256SUMS.txt` | `97dac2c32317deb603a054cffd3d2162f537d8bc7806d2276fa7e8544dd22ed5` | motif/projector implementation |
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:691:| `udt_global_coframe_cocycle_audit_2026-07-20/SHA256SUMS.txt` | `1297e8f6773f863f426d66f6c4915741a742c1ee13230abf2b066421de49b04b` | reciprocal transition algebra and global nonselection |
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:693:| `angular_toric_closure_selector_2026-07-19/SHA256SUMS.txt` | `64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50` | toric cap/action classification |
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:695:| `scale_breaking_closure_census_2026-07-20/SHA256SUMS.txt` | `53996dfcc0fb9cef29422ff94908fe71aaed32703d49e70e2d6d7f01aa19fe84` | scale/`X_max` limits |
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:700:## Stage 1 — continuous projector transport
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:702:For a smooth complete family of mutually annihilating, metric-self-adjoint projectors `P_a` and a
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:715:Fine transport stops at rank/signature change or projector degeneracy. Coarse transport may survive
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:722:diagnostics are projector intertwining, endpoint metric isometry, ODE refinement, and exact
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:731:The frozen local distribution census contains 1,536 midpoint-integrable `1+1+2` Lorentz-plane /
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:742:degenerate/changes motif, or remains numerical-uncertain. Sampled integrability is necessary but not
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:743:sufficient for commuting periodic circle generators, a torus action, global orientation, or a cap.
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:773:1. projector/Kato transport along the metric path;
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:779:an explicit endpoint gluing. Local projector matching may never manufacture that gluing. Finite
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:787:- reciprocal exponential comparison and its `Z2`-graded transition algebra;
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:800:its projector distribution, periodicity/gluing, free action, orientation status, and boundary
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:810:fields, constraints, boundary flux, and raw residual. First run bounded CPU algebra/small-grid anchors.
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:822:| projector connection | `DERIVED CANDIDATE` | must pass exact and independent checks |
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:841:5. a degeneracy or motif transition is silently assigned a fine bundle;
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:844:8. a local integrable plane is promoted to commuting periodic circles;
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:847:11. projector, Levi-Civita, lattice, and principal-circle holonomies are conflated;
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:855:implementation must rederive the projector transport identities, reproduce the exact candidate set,
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:884:complete projector motif. For mutually annihilating metric-self-adjoint projectors `P_a`, define
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:891:Differentiating projector completeness and idempotence gives
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:898:Therefore `U` preserves the endpoint metric and intertwines the projector subspaces. This is a
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:904:refinement residuals remain small, but they are not promoted. Exact symbolic Lorentzian and
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:915:suspected to form nested surfaces. It is not a full metric-angular orchestra, not two commuting
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:921:nonorientable gluing, projector strata, nonintegrable distributions, and the conditional globally
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:933:## Stage 1 — continuous projector transport
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:948:The connection theorem follows directly from the complete projector algebra. With
+udt_global_metric_assembly_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW_COMPLETION_TRANSCRIPT.txt:970:of the exact metric-skew/commutator identities. The largest endpoint metric-isometry residual among
+
+exec
+/bin/bash -lc "sed -n '1,260p' udt_metric_to_frontier_reference_2026-07-22/PREREGISTRATION.md; rg -n \"full-matrix|algebra dimension|commutant|irreducible|curvature-generator|Riemann|Weyl\" udt_instrument_motif_atlas_2026-07-21/{PREREGISTRATION.md,COMPLETENESS_MAP.md,STATUS_LEDGER.tsv,BUILDING_BLOCK_LEDGER.tsv} 2>/dev/null" in /tmp/udt_metric_review_G_yXaJNX
+ succeeded in 0ms:
+# UDT metric-to-frontier reference preregistration
+
+Date: 2026-07-22  
+Base: `316114a67b52db547025888df132f89eb92bb6f1`  
+Branch: `codex/udt-metric-frontier-reference-2026-07-22`
+
+## Purpose
+
+Create an evidence-linked scientific spine from the registered UDT premises and reciprocal metric
+through the current motif/global-assembly results to the open carrier, action, mass, scale, and
+density/bootstrap joins. This is synthesis and external adversarial review, not new physics,
+canonization, or a repository content migration.
+
+## Mutation boundary
+
+Allowed additions are confined to this package. After package verification, lean current-pointer
+edits are allowed only in `LIVE.md`, `HANDOFF.md`, `INDEX.md`, `README.md`, `research/README.md`, and
+`AGENTS.md`. Those edits may point to the reference and record its status; they may not change a
+scientific verdict, equation, premise status, or historical record.
+
+Forbidden:
+
+- edits to `CANON.md`, research artifacts, frozen packages, data, scripts, manifests, or fixed
+  reorganization snapshots;
+- moves, renames, copies of research evidence, deletions, or repository reorganization;
+- adopting an action, carrier, section, topology, source, boundary law, mass, density, or scale;
+- CPU/GPU physics solves or a follow-on derivation.
+
+The original 54-path dirty checkout is metadata-only and must remain untouched.
+
+## Frozen scientific source set
+
+The reference may cite supporting material beyond this list for navigation, but every load-bearing
+claim must resolve to at least one of these frozen current sources:
+
+1. `UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md`
+2. `UDT_NATIVE_ACTION_COLD_PACKET.md`
+3. `native_action_final_adjudication_2026-07-18/FINAL_ADJUDICATION_REPORT.md`
+4. `UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md`
+5. `udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`
+6. `angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md`
+7. `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md`
+8. `boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md`
+9. `clock_curvature_selector_audit_2026-07-19/AUDIT_REPORT.md`
+10. `asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`
+11. `scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md`
+12. `matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`
+13. `udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md`
+14. `udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md`
+15. `udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md`
+16. `stability_branch_follow_256_DECISION.md`
+
+Their bytes and current package manifests must not change.
+
+## Required outputs
+
+- `REFERENCE.md`: concise premise-to-frontier narrative with exact status labels and evidence links.
+- `CLAIM_DEPENDENCY_LEDGER.tsv`: one row per load-bearing claim and every indispensable premise.
+- `OPEN_JOIN_LEDGER.tsv`: exact upstream/downstream joins, present evidence, missing object, and
+  prohibited shortcut.
+- `SOURCE_MANIFEST.tsv`: path, SHA-256, role, and frozen-manifest status.
+- `EXTERNAL_REVIEW_PACKET.md`: common firewall and four bounded reviewer assignments.
+- `verify_reference_packet.py` and machine-readable result.
+- four raw cold-review returns and full transcripts after the reference packet is frozen.
+- `REVIEW_AGREEMENT_DISAGREEMENT.tsv` and `PONDER_READOUT.md` after review.
+
+## Status and wording contract
+
+Allowed scientific labels are `DERIVED`, `CHOSE`, `WORKING`, `OPEN`, `CONDITIONAL`, `POSIT`, and
+`OBSERVED`, with scoped compound labels only where copied from source evidence. The reference must
+separate:
+
+- local kinematics from global completion;
+- tangent-projector structure from two-form/bivector possibilities;
+- configuration-space transport from physical time;
+- conditional Hopf compatibility from carrier emergence;
+- static finite-box stability from unconditional matter;
+- observed density from a future native simultaneous density output.
+
+The proposed metric-native two-form/bivector audit must be labeled a `WORKING` next-question
+candidate, not an observed structure or derived bridge.
+
+## External review design
+
+After a commit freezes the reference packet, create a clean immutable archive and launch four cold,
+isolated reviews. Each receives only this packet and its exact source manifest:
+
+1. differential geometry/exterior algebra;
+2. topology/holonomy/global completion;
+3. realization principle/action/variation domain;
+4. mass/scale/density/bootstrap closure.
+
+Reviewers must identify hidden assumptions, counterexamples, false joins, and the smallest honest
+next question. They may use GR or other mathematics only as comparison/readout, never affirmative
+UDT physics. They must not modify evidence. Agreement is not canonization.
+
+## Certification gates
+
+1. Every source exists and matches its registered SHA-256.
+2. Every claim and open join has exactly one row identity and resolves to existing evidence.
+3. No status promotion is introduced relative to its cited source.
+4. All internal Markdown links resolve.
+5. The reference explicitly retains every current premise and scope caveat.
+6. All prior frozen manifests, package identities, current paths, and frontier targets replay.
+7. Tests match the documented baseline: 69 passed, one known hygiene failure, one xfailed.
+8. The original dirty metadata remains 54 paths with SHA-256
+   `4bc96070c841a14c497b642ee7b93dcf9061372f770aee065d6b495ee4996f4c`.
+9. Fresh reviewers receive an immutable committed packet; raw returns and transcripts are preserved.
+
+## Maximum conclusion
+
+At most this work may produce an evidence-backed conceptual synthesis, an externally audited
+agreement/disagreement map, and a ranked bounded next-question recommendation. It may not close any
+scientific join or authorize a derivation, GPU work, canonization, or further reorganization.
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:15:`D`, the six Riemann curvature generators `RG`, and the six Weyl curvature generators `WG`.
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:51:Ricci/Riemann/Weyl combinations so redundancy itself can emerge as a property.
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:64:For each family retain the full algebra/commutant/center classification from the corrected parent
+
+exec
+/bin/bash -lc "sed -n '1,135p' udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md; sed -n '1,100p' udt_instrument_motif_atlas_2026-07-21/COMPLETENESS_MAP.md; sed -n '1,80p' udt_instrument_motif_atlas_2026-07-21/BUILDING_BLOCK_LEDGER.tsv; rg -n \"Riemann curvature generators|curvature generators|RG|WG\" udt_joint_invariant_subspace_atlas_2026-07-21 udt_instrument_motif_atlas_2026-07-21 --glob '*.md' --glob '*.py' | head -100" in /tmp/udt_metric_review_G_yXaJNX
+ succeeded in 0ms:
+# UDT Instrument-Motif Atlas — Preregistration
+
+Date: 2026-07-21
+
+Parent commit: `8e6b425b08889dd8e0b5f8d7b0ae3945dc1dcacf`
+
+## Observing question
+
+Across every retained pointwise metric/phi two-jet in the immutable 6,144-configuration structural
+ensemble, what primitive directional motifs are carried by every nonempty combination of the five
+available intrinsic instrument groups, and how do those motifs change when exactly one additional
+instrument joins?
+
+The five groups are mixed Ricci `R`, mixed covariant phi-Hessian `H`, unnormalized phi-gradient dyad
+`D`, the six Riemann curvature generators `RG`, and the six Weyl curvature generators `WG`.
+`INSTRUMENT_SUBSET_REGISTRY.tsv` freezes all 31 nonempty subsets. No combination may be dropped,
+promoted, or ranked after outcomes are inspected.
+
+This is metric-led building-block mapping. It does not ask which combination resembles matter, an
+angular sector, a carrier, a preferred universe, or a successful action. A rare configuration has
+the same ledger weight as a common one; neither is selected as physics.
+
+## Known anchors before this test
+
+The parent joint atlas already observed, for nine named families, recurring primitive ranks
+`1;1;2`, four-line ambiguity, a phi-dyad `1+3` tendency, and full mixing in the registered complete
+curvature-plus-phi families. A post-atlas readout also counted some Ricci/Hessian/dyad transition
+classes. Those are prior observations, not blind predictions from this preregistration.
+
+The new load-bearing questions are the complete 31-family subset lattice, the previously absent
+`R+D`, `H+D`, partial-curvature and dual-curvature combinations, primitive-block metric signatures,
+unique-plane/gradient incidence, Ricci-versus-Hessian split alignment, and all 80 one-instrument
+addition edges.
+
+## Immutable inputs
+
+The builder must hash-check these manifests before reading raw configurations or parent outcomes:
+
+| path | required SHA-256 | role |
+|---|---|---|
+| `udt_structural_ensemble_metric_atlas_2026-07-21/SHA256SUMS.txt` | `3d569ed31506f5f7ce44beac30e8419571f734b3973dcc34d6c474bf78636757` | 6,144 complete metric/phi two-jets |
+| `udt_canonical_geometry_evaluator_p01_2026-07-21/SHA256SUMS.txt` | `b7d8917cb27627c7ad7767fcffbd5b5d7a9dc6da2171b2d8fba329d04014ffad` | canonical two-jet geometry evaluator |
+| `udt_joint_invariant_subspace_atlas_2026-07-21/SHA256SUMS.txt` | `973dcc8bb297fad8358087318b24e5db9d1179e8b6a51a2535a0110e30c108c2` | corrected invariant-subspace algorithms and historical anchor |
+
+No input or prior package may be edited.
+
+## Complete subset and edge coverage
+
+Bits are frozen as `R=1`, `H=2`, `D=4`, `RG=8`, and `WG=16`. Every integer mask 1 through 31 occurs
+exactly once in the subset registry. This deliberately retains algebraically redundant-looking
+Ricci/Riemann/Weyl combinations so redundancy itself can emerge as a property.
+
+For each configuration, classify all 31 families. Also construct every directed Hasse edge
+`source -> source plus one absent bit`. There are exactly 80 registered edge types and therefore:
+
+- 6,144 configuration rows;
+- 190,464 original family rows;
+- 491,520 original one-instrument edge rows.
+
+No physical-merit filter or outcome-dependent compression is allowed.
+
+## Motif classification
+
+For each family retain the full algebra/commutant/center classification from the corrected parent
+algorithm and additionally record every certified primitive metric-self-adjoint central block:
+
+- rank and metric signature `Nn_Pp_Zz`;
+- whether the primitive rank pattern is `4`, `1+3`, `2+2`, `1+1+2`, `1+1+1+1`, another retained
+  pattern, noncentral ambiguity, full-algebra irreducibility, or numerical uncertainty;
+- for every unique complementary rank-two split, the unordered pair of plane signatures;
+- whether nonzero `grad(phi)` lies wholly in one plane, wholly in its complement, is split across
+  both, or is numerically unresolved;
+- for a primitive rank-two block, the real/complex/repeated discriminant class of every included
+  self-adjoint scalar instrument `R`, `H`, and `D` restricted to that block.
+
+The words `plane`, `line`, and `block` describe tangent-space algebra at one point. They do not name
+a spatial object, solution profile, foliation, or physical sector.
+
+## Interaction classifications
+
+For each one-bit addition edge, compare the complete source and destination classifications and
+projector sets. Report without merit ranking:
+
+- exact preservation of primitive blocks;
+- merging/coarsening of source blocks;
+- transition to full matrix algebra;
+- transition from scalar/noncentral ambiguity to a certified block motif;
+- continued or changed ambiguity;
+- numerical uncertainty.
+
+Separately, wherever both singleton Ricci and singleton Hessian possess a unique complementary
+rank-two split, compare the two unordered projector pairs by similarity-invariant projector traces,
+commutator rank, common-image intersection dimensions, and exact same/complementary/commuting-crossing/
+noncommuting-crossing classification. No Euclidean coordinate angle may be called physical.
+
+## Nonlinear chart probes
+
+The two nonlinear coordinate three-jets frozen by the parent joint atlas are replayed for every one
+of the 31 families. The transformed metric and scalar jets must use the complete chain rule. This
+adds 12,288 transformed configurations and 380,928 transformed family comparisons. It is a bounded
+two-map covariance probe, not a proof over the diffeomorphism group.
+
+## Premise ledger
+
+| choice | status | scope |
+|---|---|---|
+| four-dimensional Lorentzian metric plus scalar phi two-jet | `pinned-by-THEORY`, conditional realization | immutable structural ensemble |
+| all 6,144 configurations | `free-and-explored` | zero filtering |
+| all 31 nonempty subsets of five available groups | `free-and-explored` within bounded registry | exhaustive subset lattice |
+| five group definitions | `pinned-by-THEORY` with parent citation | metric/phi pointwise two-jet concomitants |
+| two nonlinear coordinate three-jets | `CHOSE` before new outcomes | inherited exact parent probes |
+| rank/projector tolerance `1e-9` | `pinned-by-HABIT` | numerical certification only |
+| eigenvalue clustering tolerance `1e-8` relative | `pinned-by-HABIT` | numerical classification only |
+| uncertainty band `1e-11..1e-7` | `pinned-by-HABIT` | retained, never promoted |
+| action, equations, source, carrier, section, boundary, scale | `OPEN` | absent |
+
+No ansatz, boundary condition, physical value, action, or field equation is introduced. The sampled
+parent two-jets are a finite algebraic tile, not solutions of an unspecified dynamics.
+
+## Certification and falsification contract
+
+A bounded verified grade requires:
+
+1. all immutable hashes and the 31-row exact subset registry match before computation;
+2. exact coverage counts above, zero discarded configurations/families/edges, and all primitive
+   block ranks sum to four;
+3. every retained block signature has rank equal to its projector rank, and the direct sum of block
+   inertias reproduces total Lorentz signature `N1_P3_Z0`;
+4. every projector passes idempotence, completeness, mutual annihilation, metric self-adjointness,
+   centrality, and operator commutation at `1e-9`;
+5. every unique-plane gradient-incidence label is reproduced directly from both complementary
+   projectors, without normalizing zero or null gradients;
+6. all 80 edge types occur 6,144 times and their source/destination masks differ by exactly one bit;
+7. all non-uncertain motif, signature, incidence, alignment, and transition classifications agree
+   under both nonlinear chart probes;
+# Completeness Map
+
+Date: 2026-07-21
+
+## Complete inside the registered box
+
+- all 6,144 immutable metric/phi pointwise two-jets;
+- all 31 nonempty subsets of `R`, `H`, `D`, `RG`, and `WG`;
+- all 190,464 original family rows;
+- all 75 directed one-instrument additions and 460,800 original edge rows;
+- primitive central blocks, metric signatures, scalar-instrument discriminants, gradient incidence,
+  Ricci/Hessian split alignment, and edge-transition labels;
+- both preregistered nonlinear coordinate three-jet probes for every family;
+- outcome-blind independent recomputation on 384 configurations and exhaustive independent replay of
+  every unique identity in the 162-row numerical-margin ledger.
+
+## Sampled but not group-exhaustive
+
+- covariance: two nonlinear chart probes, not the full diffeomorphism group;
+- numerical conditioning: the registered finite ensemble and all observed margins, not arbitrary
+  jets approaching every algebraic discriminant surface.
+- gradient causal class: zero, spacelike, and timelike gradients are present; nonzero null gradients
+  are absent.
+
+## Not present and therefore open
+
+- metric or scalar jets above second order;
+- variation, an action, field equations, source, or coupling law;
+- time evolution, characteristic propagation, transport, or holonomy along a path;
+- integrability of pointwise blocks into distributions or sections;
+- global topology, finite-cell seal, boundary polarization, or boundary functional;
+- physical scale, `c`, `G`, `X_max`, mass, density, or an observational anchor;
+- a native carrier, matter emergence, unconditional stability, or mass;
+- a unique physical branch, solution, universe, or observable prediction.
+
+The atlas is exhaustive over its finite pointwise instrument lattice. It is not a solution-space
+atlas for an action that has not been derived, and it supplies no permission to choose one motif as
+physical.
+block_id	motif	primitive_ranks	primitive_signatures	family_rows	bounded_observation	physical_status
+B01	SCALAR_4_AMBIGUITY	4	N1_P3_Z0	22656	All registered instruments in the family are scalar/silent at the point and distinguish no proper subspace.	OPEN_NO_PHYSICAL_SELECTION
+B02	TWO_PLUS_TWO_LINES	1;1;2	N0_P1_Z0;N0_P1_Z0;N1_P1_Z0	16431	One primitive Lorentzian rank-two block and two primitive spacelike lines; the rank-two block is the real primary block of a complex-conjugate R or H spectrum.	OPEN_ALGEBRAIC_CANDIDATE_ONLY
+B03	FOUR_LINES	1;1;1;1	N0_P1_Z0;N0_P1_Z0;N0_P1_Z0;N1_P0_Z0	2764	One primitive timelike line and three primitive spacelike lines.	OPEN_NO_PHYSICAL_SELECTION
+B04	LINE_PLUS_THREE	1;3	{N0_P1_Z0,N1_P2_Z0} OR {N1_P0_Z0,N0_P3_Z0} UNORDERED	5760	The registered nonzero nonnull phi-gradient dyad distinguishes its one-dimensional image and the metric-orthogonal three-dimensional complement; no nonzero null gradient occurs.	OPEN_NO_PHYSICAL_SELECTION
+B05	FULL_IRREDUCIBLE_4	4	N1_P3_Z0	142836	The registered instruments jointly generate the full four-dimensional matrix algebra and preserve no proper common subspace.	OPEN_NO_PHYSICAL_SELECTION
+B06	NUMERIC_UNCERTAIN	variable retained	retained not promoted	17	A numerical certification margin was encountered; the row remains in all counts and supports no motif claim.	NUMERIC_UNCERTAIN
+udt_instrument_motif_atlas_2026-07-21/verify_package_contract.py:36:    "RG": (0, 9984, 26875, 55284, 17),
+udt_instrument_motif_atlas_2026-07-21/verify_package_contract.py:37:    "WG": (0, 9984, 26875, 55284, 17),
+udt_instrument_motif_atlas_2026-07-21/verify_package_contract.py:172:    require(len(rows(HERE / "NUMERIC_MARGIN_LEDGER.tsv")) == 162, "margin ledger")
+udt_instrument_motif_atlas_2026-07-21/verify_package_contract.py:196:        require(equivalence.get(pair) == 6144, f"RG/WG motif equivalence {lower}")
+udt_instrument_motif_atlas_2026-07-21/verify_package_contract.py:210:    margins = json.loads((HERE / "MARGIN_ESCALATION_RESULT.json").read_text(encoding="utf-8"))
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:26:BITS = {"R": 1, "H": 2, "D": 4, "RG": 8, "WG": 16}
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:80:    expected = sum(6 if key in {"RG", "WG"} else 1 for key in keys)
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:135:        "RG": [np.asarray(geo["up"])[:, :, a, b] for a, b in PAIRS],
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:136:        "WG": [weyl_up[:, :, a, b] for a, b in PAIRS],
+udt_instrument_motif_atlas_2026-07-21/verify_motif_atlas.py:548:    full_keys = ("R","H","D","RG","WG")
+udt_instrument_motif_atlas_2026-07-21/VERIFIER_ANCHOR_FREEZE.md:12:comparison, labeling that second set `POST_OUTCOME_MARGIN_ESCALATION` rather than blind coverage.
+udt_joint_invariant_subspace_atlas_2026-07-21/ADVERSARIAL_REVIEW_REQUEST.md:12:2. the mixed-index curvature generators, algebra/commutant/center construction, real
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:15:`D`, the six Riemann curvature generators `RG`, and the six Weyl curvature generators `WG`.
+udt_instrument_motif_atlas_2026-07-21/PREREGISTRATION.md:49:Bits are frozen as `R=1`, `H=2`, `D=4`, `RG=8`, and `WG=16`. Every integer mask 1 through 31 occurs
+udt_instrument_motif_atlas_2026-07-21/CATCH_VALIDATOR_STRENGTHENING_RESULT.md:16:| `NUMERIC_MARGIN_LEDGER.tsv` | `9eb973bbfcb56502c451f89464b51229b3dab4a0d55ba8e201d44b9a39007971` |
+udt_instrument_motif_atlas_2026-07-21/EDGE_UNCERTAINTY_ACCOUNTING_CORRECTION.md:18:| `NUMERIC_MARGIN_LEDGER.tsv` | `9eb973bbfcb56502c451f89464b51229b3dab4a0d55ba8e201d44b9a39007971` |
+udt_instrument_motif_atlas_2026-07-21/MARGIN_ESCALATION_PREREGISTRATION.md:5:Status: `POST_OUTCOME_TARGET_SET_PREREGISTERED_BEFORE_REPLAY`
+udt_instrument_motif_atlas_2026-07-21/MARGIN_ESCALATION_PREREGISTRATION.md:10:162-row `NUMERIC_MARGIN_LEDGER.tsv`, regardless of probe, motif, family, or expected result.
+udt_instrument_motif_atlas_2026-07-21/MARGIN_ESCALATION_PREREGISTRATION.md:19:- `NUMERIC_MARGIN_LEDGER.tsv`: `9eb973bbfcb56502c451f89464b51229b3dab4a0d55ba8e201d44b9a39007971`
+udt_joint_invariant_subspace_atlas_2026-07-21/invariant_subspace_core.py:27:    ("F06_RIEMANN_GENERATORS", ("RG",)),
+udt_joint_invariant_subspace_atlas_2026-07-21/invariant_subspace_core.py:28:    ("F07_WEYL_GENERATORS", ("WG",)),
+udt_joint_invariant_subspace_atlas_2026-07-21/invariant_subspace_core.py:29:    ("F08_FULL_RIEMANN_JOINT", ("R", "H", "D", "RG")),
+udt_joint_invariant_subspace_atlas_2026-07-21/invariant_subspace_core.py:30:    ("F09_FULL_WEYL_JOINT", ("R", "H", "D", "WG")),
+udt_joint_invariant_subspace_atlas_2026-07-21/invariant_subspace_core.py:512:        "RG": riemann_generators,
+udt_joint_invariant_subspace_atlas_2026-07-21/invariant_subspace_core.py:513:        "WG": weyl_generators,
+udt_instrument_motif_atlas_2026-07-21/FRESH_ADVERSARIAL_REVIEW_REQUEST.md:17:4. whether RG/WG and Ricci-addition statements are limited to motif/projector equivalence rather
+udt_joint_invariant_subspace_atlas_2026-07-21/verify_joint_atlas.py:38:    ("F06_RIEMANN_GENERATORS", ("RG",)), ("F07_WEYL_GENERATORS", ("WG",)),
+udt_joint_invariant_subspace_atlas_2026-07-21/verify_joint_atlas.py:39:    ("F08_FULL_RIEMANN_JOINT", ("R", "H", "D", "RG")),
+udt_joint_invariant_subspace_atlas_2026-07-21/verify_joint_atlas.py:40:    ("F09_FULL_WEYL_JOINT", ("R", "H", "D", "WG")),
+udt_joint_invariant_subspace_atlas_2026-07-21/verify_joint_atlas.py:124:        "RG": [geometry["up"][:, :, a, b] for a, b in PAIRS],
+udt_joint_invariant_subspace_atlas_2026-07-21/verify_joint_atlas.py:125:        "WG": [weyl_up[:, :, a, b] for a, b in PAIRS],
+udt_joint_invariant_subspace_atlas_2026-07-21/verify_joint_atlas.py:535:    margin={(r["configuration_id"],r["probe"],r["object"]) for r in rows(HERE/"NUMERIC_MARGIN_LEDGER.tsv")}; expected_anchor_margin={x for x in margin if x[0].split("_M")[0] in ANCHOR_CARRIERS and int(x[0].split("_M")[1].split("_")[0],16) in ANCHOR_MASKS}
+udt_instrument_motif_atlas_2026-07-21/motif_core.py:40:GROUP_BITS = {"R": 1, "H": 2, "D": 4, "RG": 8, "WG": 16}
+udt_instrument_motif_atlas_2026-07-21/motif_core.py:334:        return "PRIMITIVE_BLOCKS_MERGED", relation
+udt_joint_invariant_subspace_atlas_2026-07-21/CLASSIFIER_CORRECTION.md:30:uncertain comparisons remain retained in `NUMERIC_MARGIN_LEDGER.tsv`.
+udt_instrument_motif_atlas_2026-07-21/verify_motif_margins.py:30:    "NUMERIC_MARGIN_LEDGER.tsv": "9eb973bbfcb56502c451f89464b51229b3dab4a0d55ba8e201d44b9a39007971",
+udt_instrument_motif_atlas_2026-07-21/verify_motif_margins.py:52:    margins = read_tsv(HERE / "NUMERIC_MARGIN_LEDGER.tsv")
+udt_instrument_motif_atlas_2026-07-21/verify_motif_margins.py:113:    write_tsv(HERE / "MARGIN_ESCALATION_COMPARISON.tsv",
+udt_instrument_motif_atlas_2026-07-21/verify_motif_margins.py:122:        "targeting": "POST_OUTCOME_ALL_MARGIN_IDENTITIES",
+udt_instrument_motif_atlas_2026-07-21/verify_motif_margins.py:124:    (HERE / "MARGIN_ESCALATION_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+udt_instrument_motif_atlas_2026-07-21/verify_motif_margins.py:125:    transcript = [f"UDT_MOTIF_MARGIN_ESCALATION={result['status']}",
+udt_instrument_motif_atlas_2026-07-21/verify_motif_margins.py:128:                  "targeting=POST_OUTCOME_ALL_MARGIN_IDENTITIES"]
+udt_instrument_motif_atlas_2026-07-21/verify_motif_margins.py:129:    (HERE / "MARGIN_ESCALATION_TRANSCRIPT.txt").write_text("\n".join(transcript) + "\n", encoding="utf-8")
+udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md:53:- all 31 nonempty subsets of five intrinsic groups: `R`, `H`, `D`, `RG`, `WG`;
+udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md:130:`MARGIN_ESCALATION_RESULT.json` are machine-readable records.
+udt_instrument_motif_atlas_2026-07-21/build_motif_atlas.py:206:    expected = sum(6 if key in {"RG", "WG"} else 1 for key in keys)
+udt_instrument_motif_atlas_2026-07-21/build_motif_atlas.py:586:                                            "detail": comparison["discordant_fields"] or "NUMERIC_MARGIN"})
+udt_instrument_motif_atlas_2026-07-21/build_motif_atlas.py:692:    write_tsv(output_dir / "NUMERIC_MARGIN_LEDGER.tsv",
+udt_joint_invariant_subspace_atlas_2026-07-21/build_joint_atlas.py:102:        for name in ("RG", "WG") for operator in objects[name]
+udt_joint_invariant_subspace_atlas_2026-07-21/build_joint_atlas.py:141:            relmax(transformed_objects["RG"][destination_index], expected_r),
+udt_joint_invariant_subspace_atlas_2026-07-21/build_joint_atlas.py:142:            relmax(transformed_objects["WG"][destination_index], expected_w),
+udt_joint_invariant_subspace_atlas_2026-07-21/build_joint_atlas.py:255:                        "status": "NUMERIC_UNCERTAIN", "detail": "BIVECTOR_SPECTRUM_OR_PLANE_MARGIN",
+udt_joint_invariant_subspace_atlas_2026-07-21/build_joint_atlas.py:348:    write_tsv("NUMERIC_MARGIN_LEDGER.tsv", ["configuration_id", "probe", "object", "status", "detail"], margin_rows)
+udt_instrument_motif_atlas_2026-07-21/verify_repository_gates.py:69:    margins = json.loads((HERE / "MARGIN_ESCALATION_RESULT.json").read_text(encoding="utf-8"))
+udt_instrument_motif_atlas_2026-07-21/verify_repository_gates.py:100:        "margin_result_sha256": digest(HERE / "MARGIN_ESCALATION_RESULT.json"),
+udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md:93:recorded in `NUMERIC_MARGIN_LEDGER.tsv`; none produces a unique split or supports a physical claim.
+udt_instrument_motif_atlas_2026-07-21/COMPLETENESS_MAP.md:8:- all 31 nonempty subsets of `R`, `H`, `D`, `RG`, and `WG`;
+udt_joint_invariant_subspace_atlas_2026-07-21/verify_repository_gates.py:54:    frontier=tsv(ROOT/"research/_registry/CURRENT_FRONTIER_TARGETS.tsv");targets={row["target_path"].rstrip("/") for row in frontier}
+udt_joint_invariant_subspace_atlas_2026-07-21/verify_repository_gates.py:106:    margins = tsv(HERE / "NUMERIC_MARGIN_LEDGER.tsv")
+udt_joint_invariant_subspace_atlas_2026-07-21/verify_repository_gates.py:172:        "margin_ledger_sha256": digest(HERE / "NUMERIC_MARGIN_LEDGER.tsv"),
+
+codex
+A load-bearing distinction has emerged: the current tangent classifier proves full associative matrix generation, but that alone does not specify which lift to two-forms is being audited. I’m checking the cited parent geometry work now because it appears to contain an earlier curvature-operator/bivector analysis that may make part of the proposed “next” atlas redundant.
+exec
+/bin/bash -lc "sed -n '1,220p' udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md; rg -n \"bivector|BIVECTOR|Hodge|simple|Plucker|curvature operator|Weyl operator|spectrum|plane\" udt_joint_invariant_subspace_atlas_2026-07-21 --glob '*.md' --glob '*.tsv' --glob '*.json' | head -240" in /tmp/udt_metric_review_G_yXaJNX
+ succeeded in 0ms:
+# Joint Invariant-Subspace Atlas — Audit Report
+
+Date: 2026-07-21
+
+Status: `COMPLETE_VERIFIED_WITH_CAVEATS`
+
+Maximum conclusion:
+`BOUNDED_POINTWISE_JOINT_INVARIANT_SUBSPACE_ATLAS_CHARACTERIZED`.
+
+## Result first
+
+The corrected atlas, complete only for its nine named pointwise families, finds a sharp hierarchy
+rather than a blanket negative.
+
+Smaller metric/phi families often **do** carry a unique real central `2+2` split: 11,983 family rows
+across 5,210 configurations. Each has primary-block ranks `1;1;2`; the rank-two block comes from a
+complex-conjugate spectral pair whose combined real plane is canonical. Another 2,225 rows have four
+real lines and therefore three competing `2+2` pairings.
+
+But none of those unique smaller-family splits survives the complete curvature orchestra. The full
+Riemann-plus-phi and Weyl-plus-phi families generate the full four-dimensional matrix algebra in
+5,760 of 6,144 configurations, including every configuration where a smaller family has a unique
+split. Their only common invariant subspaces are therefore zero and the full tangent space. In the
+remaining 384 configurations the joint algebra is scalar and supplies no distinguished plane.
+
+The gradient-generated orbit is never two-dimensional, and neither the Riemann nor Weyl bivector
+operator has an isolated real simple eigenbivector plane anywhere in the registered ensemble.
+
+The bounded observation is therefore:
+
+> Individual sections can organize themselves into a real `2+2` pattern, but the complete
+> pointwise two-jet orchestra does not preserve that partition.
+
+This does not rule out a distribution selected by transport, higher jets, global integrability,
+finite-cell completion, boundary data, or time-live dynamics. None of those entered this audit.
+
+## Complete bounded coverage
+
+- Parent configurations: 6,144 = 48 carriers x 16 masks x 8 contexts.
+- Registered operator families: nine.
+- Original family classifications: 55,296.
+- Nonlinear coordinate three-jet probes: two per configuration.
+- Transformed configurations: 12,288.
+- Nonlinear family comparisons: 110,592.
+- Discarded configurations or classifications: zero.
+- Non-uncertain nonlinear classification discordances: zero.
+- Retained uncertain nonlinear comparisons: 24.
+- Worst parent-tensor residual: zero.
+- Worst nonlinear covariance residual: `2.2204460492503131e-16`.
+
+The corrected independent verifier rebuilt the metric curvature, covariant phi-Hessian, nine named operator
+families, commutants, central blocks, gradient orbits, bivector tests, and nonlinear coordinate jets
+on 480 original and 960 transformed preregistered anchors. All 12,960 independent family
+classifications agree with the atlas. It computes every anchor before reading saved builder
+classifications and constructs real primary projectors by an independent Vandermonde/CRT method.
+Four anchor comparisons fall in the registered uncertainty band and are retained. All ten exercised
+catch-proofs reject their mutations.
+
+## Joint-family findings
+
+| family | generated-algebra dimensions | rank-two central result | gradient-orbit dimensions |
+|---|---|---|---|
+| Ricci | 1 on 768; 4 on 5,376 | unique on 4,298; three competing on 1,078 | 0/1/4 |
+| phi Hessian | 1 on 3,072; 4 on 3,072 | unique on 3,003; three competing on 69 | 0/4 |
+| phi dyad | 1 on 3,072; 2 on 3,072 | none | 0/1 |
+| Ricci + Hessian | 1 on 384; 4 on 3,072; 16 on 2,688 | unique on 2,533; three competing on 539 | 0/4 |
+| Ricci + Hessian + dyad | 1 on 384; 4 on 2,688; 16 on 3,072 | unique on 2,149; three competing on 539 | 0/4 |
+| Riemann generators | 1 on 768; 16 on 5,376 | none | 0/1/4 |
+| Weyl generators | 1 on 768; 16 on 5,376 | none | 0/1/4 |
+| full Riemann joint | 1 on 384; 16 on 5,760 | none | 0/4 |
+| full Weyl joint | 1 on 384; 16 on 5,760 | none | 0/4 |
+
+Across the nine named families there are 11,983 unique and 2,225 multiple central `2+2` rows, and
+zero two-dimensional gradient-generated orbits. The 11,983 unique rows occur in Ricci (4,298), phi
+Hessian (3,003), Ricci-plus-Hessian (2,533), and Ricci-plus-Hessian-plus-dyad (2,149). Every one maps
+to `FULL_MATRIX_ALGEBRA_IRREDUCIBLE` after either complete curvature family is added. The parent
+gradient is zero in 3,072 configurations, spacelike in 2,304, and timelike in 768; no null-gradient
+parent occurs in this ensemble.
+
+## Curvature-eigenbivector findings
+
+Both curvature operators yield zero isolated real simple eigenplanes in all 6,144 configurations.
+The Weyl operator has six isolated complex eigenvalues in 5,376 configurations and a sixfold
+repeated eigenvalue in 768. Riemann has a mixture of complex isolated spectra, 118 real but
+non-simple eigenbivector cases, and 768 sixfold-repeated cases. No vector was selected from a
+repeated eigenspace, and no non-simple bivector was misreported as a tangent plane.
+
+## Nonlinear chart audit
+
+Both registered nonlinear maps use the complete metric and scalar chain rule through coordinate
+three-jets. Every non-uncertain algebra dimension, commutant/center dimension, central-block class,
+gradient-orbit class, and bivector multiplicity is unchanged. The 24 near-threshold comparisons are
+recorded in `NUMERIC_MARGIN_LEDGER.tsv`; none produces a unique split or supports a physical claim.
+
+The first atlas pass is preserved. It produced 23,994 apparent nonlinear discordances because the
+classifier diagonalized an arbitrary numerical representative of a repeated scalar center. The
+resulting eigenspace basis was coordinate-dependent even though the invariant algebra was not.
+Replacing that diagnostic with exact scalar-identity handling and polynomial spectral projectors
+removed all non-uncertain discordances. `CLASSIFIER_CORRECTION.md` records the correction, and the
+failed result and transcript remain historical evidence.
+
+A second, more important correction was forced by the first fresh adversarial review. The corrected
+scalar-center classifier still rejected complex spectra, missing real primary planes made by
+complex-conjugate pairs and incorrectly supporting a zero-unique-split report. That failed review,
+result, transcript, and family census are preserved. The current builder uses real polynomial
+spectral projectors; the verifier uses a separately implemented Vandermonde/CRT construction. Both
+recover the adversarial rank pattern `1;1;2` and agree on all independent anchors.
+
+The second fresh review confirmed that census but found a further fail-closure defect: both
+implementations treated an exact Lorentzian self-adjoint nilpotent Jordan operator as classified.
+It also found that the implemented projector gate was `1e-7`, not the preregistered `1e-9`, and that
+several catches used catch-only predicates. That failed review is preserved. The current builder and
+independent verifier separately test semisimplicity of every primary cluster, mark the exact Jordan
+counterexample uncertain, enforce `1e-9` on projector acceptance and stability, and pass the saved
+registries, coverage, bivector census, uncertainty ledger, and result through the same validators
+used by their mutations. The full replay reproduces the prior census; a new fresh correction review
+is still required before final banking.
+
+The third fresh review independently reproduced the Jordan correction, census, full-family
+escalation, Riesz-contour conjugate projector, catches, manifests, navigation, and wording. It then
+found one remaining literal `1e-7` in the production bivector complementary-projector pairing test.
+No saved row depended on it because the ensemble has zero candidate bivector splits, but it violated
+the controlling `1e-9` contract. That failed review is preserved. The production gate now uses
+`RANK_TOL`; the full atlas and independent verifier again reproduced the same census. At that
+historical layer, a post-tolerance fresh review was still required before final banking.
+
+The final post-tolerance fresh review is `PASS`. It independently rechecked every projector
+threshold, both Jordan paths, the full saved census and escalation, a third Riesz-contour
+construction of the conjugate rank-two plane, all ten catches, compute-before-read ordering,
+manifests, navigation, and claim scope. It required no further correction.
+
+## What survives the audit
+
+- `OBSERVED`, bounded and independently verified: four smaller named families produce 11,983 unique
+  real central splits across 5,210 configurations.
+- `OBSERVED`, bounded and independently verified: the complete Riemann-plus-phi and Weyl-plus-phi
+  pointwise two-jet families are full-algebra irreducible on 5,760 configurations—including every
+  smaller-family unique-split case—and fully ambiguous on the remaining 384.
+- `OBSERVED`, bounded and independently verified: no registered gradient orbit or isolated real
+  simple curvature eigenbivector supplies a two-plane.
+- `OPEN`: whether transport, higher jets, integrability, global finite-cell closure, a boundary
+  functional, or time-live structure selects a distribution.
+- `OPEN`: any physical angular sector, action, source, carrier, boundary, scale, or bootstrap law.
+
+## Caveats and premise audit
+
+- This is complete only for the nine **named** preregistered pointwise families. Joint subsets such
+  as `{R,D}`, `{H,D}`, and partial curvature-plus-phi combinations were not registered. It is not
+  exhaustive over all subsets or all possible differential concomitants.
+- The two nonlinear coordinate maps are finite probes, not a proof over the full diffeomorphism
+  group.
+- Central reducing subspaces are a strict selector test. Noncentral invariant flags are retained as
+  ambiguity and are not promoted to preferred physical planes.
+- Rank tolerance `1e-9`, eigenvalue clustering `1e-8`, and the `1e-11..1e-7` uncertainty band are
+  numerical choices pinned by habit. All threshold-near rows are retained.
+- No action, field equation, source, carrier, section, boundary, physical scale, topology, or
+  evolution law was loaded.
+
+## Four banking gates
+
+1. Preregistered: **YES**, including the exact independently verified anchor set.
+2. Full space or bounded scope justified: **YES** for all 6,144 configurations, nine registered
+   families, and two nonlinear probes; not exhaustive beyond that pointwise two-jet scope.
+3. Independently verified: **YES** on 480 original and 960 nonlinear anchors with an independent
+   real-primary implementation and ten catches. Three fresh reviews failed and forced preserved
+   corrections; the final post-tolerance fresh review passed with no required correction.
+4. Every premise audited: **YES** in `PREMISE_STATUS_LEDGER.tsv`; the physical selector and all
+   dynamical/global structures remain `OPEN`.
+
+This is a bounded invariant-subspace atlas, not a physical section-selection theorem.
+udt_joint_invariant_subspace_atlas_2026-07-21/FRESH_ADVERSARIAL_REVIEW.md:8:  The real complex-conjugate primary plane has a polynomial spectral projector with:
+udt_joint_invariant_subspace_atlas_2026-07-21/FRESH_ADVERSARIAL_REVIEW.md:19:- Several catch-proofs are predicate checks rather than meaningful end-to-end mutations: notably the supplied-projector, non-simple-bivector, filtered-row, and conclusion-escalation catches.
+udt_joint_invariant_subspace_atlas_2026-07-21/PRE_JORDAN_FAIL_CLOSURE_REPOSITORY_GATES.json:394:        "package": "udt_reciprocal_plane_projector_audit_2026-07-21",
+udt_joint_invariant_subspace_atlas_2026-07-21/PRE_JORDAN_FAIL_CLOSURE_REPOSITORY_GATES.json:519:    "udt_joint_invariant_subspace_atlas_2026-07-21/BIVECTOR_CLASS_CENSUS.tsv",
+udt_joint_invariant_subspace_atlas_2026-07-21/PRE_JORDAN_FAIL_CLOSURE_REPOSITORY_GATES.json:520:    "udt_joint_invariant_subspace_atlas_2026-07-21/BIVECTOR_EIGENPLANE_ATLAS.tsv",
+udt_joint_invariant_subspace_atlas_2026-07-21/JORDAN_FAIL_CLOSURE_CORRECTION.md:37:6. Saved operator-family registry, saved bivector census, saved coverage, saved uncertainty ledger,
+udt_joint_invariant_subspace_atlas_2026-07-21/BIVECTOR_EIGENPLANE_ATLAS.tsv:1:configuration_id	candidate_id	tensor	eigenvalue_real	eigenvalue_gap	simplicity_residual	plane_signature	metric_margin	projector_json	numeric_status
+udt_joint_invariant_subspace_atlas_2026-07-21/ATLAS_RESULT.json:3:  "bivector_eigenplane_rows": 0,
+udt_joint_invariant_subspace_atlas_2026-07-21/ATLAS_RESULT.json:10:  "gradient_generated_plane_rows": 0,
+udt_joint_invariant_subspace_atlas_2026-07-21/ATLAS_RESULT.json:17:  "nondegenerate_gradient_generated_plane_rows": 0,
+udt_joint_invariant_subspace_atlas_2026-07-21/ATLAS_RESULT.json:27:  "unique_bivector_complementary_split_rows": 0,
+udt_joint_invariant_subspace_atlas_2026-07-21/ADVERSARIAL_REVIEW_REQUEST.md:15:4. the gradient-orbit and curvature-eigenbivector plane tests, including null, repeated, complex,
+udt_joint_invariant_subspace_atlas_2026-07-21/ADVERSARIAL_REVIEW_REQUEST.md:16:   non-simple, and numerically uncertain cases;
+udt_joint_invariant_subspace_atlas_2026-07-21/FRESH_ADVERSARIAL_POST_TOLERANCE_REQUEST.md:8:`FRESH_ADVERSARIAL_FINAL_REVIEW.md` and `BIVECTOR_TOLERANCE_CORRECTION.md`. Independently decide
+udt_joint_invariant_subspace_atlas_2026-07-21/FRESH_ADVERSARIAL_POST_TOLERANCE_REQUEST.md:13:1. Confirm the production bivector complementary-projector test now uses `RANK_TOL=1e-9`, and that
+udt_joint_invariant_subspace_atlas_2026-07-21/FRESH_ADVERSARIAL_POST_TOLERANCE_REQUEST.md:20:4. Independently reconstruct the `R00_1_M1_B0_P0/F01_RICCI` conjugate real rank-two primary plane
+udt_joint_invariant_subspace_atlas_2026-07-21/PRE_JORDAN_FAIL_CLOSURE_ATLAS_RESULT.json:3:  "bivector_eigenplane_rows": 0,
+udt_joint_invariant_subspace_atlas_2026-07-21/PRE_JORDAN_FAIL_CLOSURE_ATLAS_RESULT.json:10:  "gradient_generated_plane_rows": 0,
+udt_joint_invariant_subspace_atlas_2026-07-21/PRE_JORDAN_FAIL_CLOSURE_ATLAS_RESULT.json:17:  "nondegenerate_gradient_generated_plane_rows": 0,
+udt_joint_invariant_subspace_atlas_2026-07-21/PRE_JORDAN_FAIL_CLOSURE_ATLAS_RESULT.json:27:  "unique_bivector_complementary_split_rows": 0,
+udt_joint_invariant_subspace_atlas_2026-07-21/FRESH_ADVERSARIAL_FINAL_REQUEST.md:20:4. Reconstruct the `R00_1_M1_B0_P0/F01_RICCI` conjugate-spectrum counterexample by a method distinct
+udt_joint_invariant_subspace_atlas_2026-07-21/BIVECTOR_CLASS_CENSUS.tsv:1:tensor	isolated_real_simple_eigenplanes	nondegenerate_simple_eigenplanes	complementary_split_count	repeated_eigenvalue_multiplicity	complex_isolated_count	numeric_status	configurations
+udt_joint_invariant_subspace_atlas_2026-07-21/NEXT_DECISION.md:8:The next objective mapping question, if separately authorized, is no longer “which local plane looks
+udt_joint_invariant_subspace_atlas_2026-07-21/NEXT_DECISION.md:9:angular?” It is whether the smaller-family planes define a coherent **transported or global pattern**
+udt_joint_invariant_subspace_atlas_2026-07-21/CATCH_PROOFS.tsv:6:K05_NONSIMPLE_EIGENBIVECTOR_ACCEPTED	REJECTED_AS_REQUIRED
+udt_joint_invariant_subspace_atlas_2026-07-21/REAL_SPECTRAL_PROJECTOR_CORRECTION.md:16:plane and complement have rank two, with projector residuals between `7.6e-18` and `7.2e-15`.
+udt_joint_invariant_subspace_atlas_2026-07-21/REAL_SPECTRAL_PROJECTOR_CORRECTION.md:53:7. Replace registry, nonsimple-bivector, filtered-row, and conclusion catches with mutations that
+udt_joint_invariant_subspace_atlas_2026-07-21/STATUS_LEDGER.tsv:7:gradient_generated_two_plane	OPEN	zero observed rows in registered ensemble	other constructively generated distributions
+udt_joint_invariant_subspace_atlas_2026-07-21/STATUS_LEDGER.tsv:8:isolated_real_simple_curvature_eigenplane	OPEN	zero Riemann and Weyl rows	higher-order or transported curvature structure
+udt_joint_invariant_subspace_atlas_2026-07-21/BIVECTOR_TOLERANCE_CORRECTION.md:6:bivector complementary-projector pairing check retained one literal `1e-7` acceptance threshold.
+udt_joint_invariant_subspace_atlas_2026-07-21/BIVECTOR_TOLERANCE_CORRECTION.md:8:that value. The saved atlas contains zero candidate curvature-eigenbivector planes, so the defect is
+udt_joint_invariant_subspace_atlas_2026-07-21/PRE_JORDAN_FAIL_CLOSURE_CATCH_PROOFS.tsv:6:K05_NONSIMPLE_EIGENBIVECTOR_ACCEPTED	REJECTED_AS_REQUIRED
+udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md:17:complex-conjugate spectral pair whose combined real plane is canonical. Another 2,225 rows have four
+udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md:24:remaining 384 configurations the joint algebra is scalar and supplies no distinguished plane.
+udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md:26:The gradient-generated orbit is never two-dimensional, and neither the Riemann nor Weyl bivector
+udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md:27:operator has an isolated real simple eigenbivector plane anywhere in the registered ensemble.
+udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md:52:families, commutants, central blocks, gradient orbits, bivector tests, and nonlinear coordinate jets
+udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md:80:## Curvature-eigenbivector findings
+udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md:82:Both curvature operators yield zero isolated real simple eigenplanes in all 6,144 configurations.
+udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md:83:The Weyl operator has six isolated complex eigenvalues in 5,376 configurations and a sixfold
+udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md:85:non-simple eigenbivector cases, and 768 sixfold-repeated cases. No vector was selected from a
+udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md:86:repeated eigenspace, and no non-simple bivector was misreported as a tangent plane.
+udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md:92:gradient-orbit class, and bivector multiplicity is unchanged. The 24 near-threshold comparisons are
+udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md:103:scalar-center classifier still rejected complex spectra, missing real primary planes made by
+udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md:115:registries, coverage, bivector census, uncertainty ledger, and result through the same validators
+udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md:121:found one remaining literal `1e-7` in the production bivector complementary-projector pairing test.
+udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md:122:No saved row depended on it because the ensemble has zero candidate bivector splits, but it violated
+udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md:129:construction of the conjugate rank-two plane, all ten catches, compute-before-read ordering,
+udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md:140:  simple curvature eigenbivector supplies a two-plane.
+udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md:153:  ambiguity and are not promoted to preferred physical planes.
+udt_joint_invariant_subspace_atlas_2026-07-21/FRESH_ADVERSARIAL_FINAL_REVIEW.md:5:- The production bivector complementary-projector gate still accepts completeness/orthogonality residuals at `1e-7`, violating the preregistered controlling `1e-9` tolerance: [invariant_subspace_core.py](/tmp/udt_startup_rehearsal_20260719_h0zjlA/repo/udt_joint_invariant_subspace_atlas_2026-07-21/invariant_subspace_core.py:625). The independent verifier correctly uses `1e-9`. Zero saved candidate eigenplanes make this defect outcome-silent, but the frozen certification contract requires the production gate itself to be correct.
+udt_joint_invariant_subspace_atlas_2026-07-21/FRESH_ADVERSARIAL_FINAL_REVIEW.md:9:- The exact Lorentzian \(g\)-self-adjoint nilpotent Jordan example has \(J^2=0\ne J\) and spectrum \(\{0,0,0,0\}\). Both actual classifiers return `NUMERIC_UNCERTAIN_CENTRAL_BLOCKS / NUMERIC_UNCERTAIN`. Their implementations are separate modules with independent centralizer/projector paths.
+udt_joint_invariant_subspace_atlas_2026-07-21/FRESH_ADVERSARIAL_FINAL_REVIEW.md:11:- An independent Riesz-contour reconstruction of `R00_1_M1_B0_P0/F01_RICCI` gives spectrum
+udt_joint_invariant_subspace_atlas_2026-07-21/FRESH_ADVERSARIAL_FINAL_REVIEW.md:18:Required correction: replace the `1e-7` bivector complementary-projector threshold with the controlling `1e-9` constant, then rerun builder, independent verifier, manifest, repository gates, and fresh review.
+udt_joint_invariant_subspace_atlas_2026-07-21/FRESH_ADVERSARIAL_POST_TOLERANCE_REVIEW.md:14:- An independent 4,096-point Riesz-contour reconstruction of `R00_1_M1_B0_P0/F01_RICCI` recovered the conjugate spectrum and rank-two real primary plane plus rank-two complement. Projector idempotence, self-adjointness, commutation, completeness, and orthogonality residuals were \(7.8\times10^{-17}\)–\(4.7\times10^{-15}\).
+udt_joint_invariant_subspace_atlas_2026-07-21/FRESH_ADVERSARIAL_POST_TOLERANCE_REVIEW.md:15:- All ten catches exercise their applicable production/saved-record validators. K03 invokes the production dyad path; K05 includes an actual non-simple bivector classification; K09 and K10 invoke the real-primary and Jordan classifier paths. The verifier computes all 480 original and 960 transformed anchors before reading saved builder classifications.
+udt_joint_invariant_subspace_atlas_2026-07-21/PREREGISTRATION_CORRECTION.md:17:construction, algebra and gradient-orbit closure, bivector simplicity test, and nonlinear jet
+udt_joint_invariant_subspace_atlas_2026-07-21/VERIFIER_IMPLEMENTATION_CORRECTIONS.md:8:1. A diagnostic-only Riemann bivector construction supplied one inverse metric to an `einsum` that
+udt_joint_invariant_subspace_atlas_2026-07-21/VERIFIER_IMPLEMENTATION_CORRECTIONS.md:10:   independently implemented production bivector check.
+udt_joint_invariant_subspace_atlas_2026-07-21/VERIFIER_IMPLEMENTATION_CORRECTIONS.md:29:   bivector summaries, uncertainty identities, and the result contract now pass through reusable
+udt_joint_invariant_subspace_atlas_2026-07-21/VERIFIER_IMPLEMENTATION_CORRECTIONS.md:38:6. The builder's curvature-eigenbivector complementary-pair test still used a literal `1e-7` even
+udt_joint_invariant_subspace_atlas_2026-07-21/VERIFIER_IMPLEMENTATION_CORRECTIONS.md:39:   though all central projectors and the independent bivector test used `1e-9`. The saved ensemble
+udt_joint_invariant_subspace_atlas_2026-07-21/VERIFIER_IMPLEMENTATION_CORRECTIONS.md:40:   has zero candidate bivector planes, so no row changed. The gate now uses `RANK_TOL`, and the full
+udt_joint_invariant_subspace_atlas_2026-07-21/PRE_REAL_SPECTRAL_CORRECTION_ATLAS_RESULT.json:3:  "bivector_eigenplane_rows": 0,
+udt_joint_invariant_subspace_atlas_2026-07-21/PRE_REAL_SPECTRAL_CORRECTION_ATLAS_RESULT.json:10:  "gradient_generated_plane_rows": 0,
+udt_joint_invariant_subspace_atlas_2026-07-21/PRE_REAL_SPECTRAL_CORRECTION_ATLAS_RESULT.json:17:  "nondegenerate_gradient_generated_plane_rows": 0,
+udt_joint_invariant_subspace_atlas_2026-07-21/PRE_REAL_SPECTRAL_CORRECTION_ATLAS_RESULT.json:27:  "unique_bivector_complementary_split_rows": 0,
+udt_joint_invariant_subspace_atlas_2026-07-21/ANTI_IMPOSITION_AUDIT.tsv:3:A02	Was any plane ranked by physical resemblance?	NO
+udt_joint_invariant_subspace_atlas_2026-07-21/LAY_REPORT.md:13:their smaller combinations repeatedly divide the four directions into one real two-direction plane
+udt_joint_invariant_subspace_atlas_2026-07-21/LAY_REPORT.md:16:obstruction instead of combining it into a real plane.
+udt_joint_invariant_subspace_atlas_2026-07-21/LAY_REPORT.md:26:- Curvature never supplied one clean real plane through a unique simple eigen-pattern.
+udt_joint_invariant_subspace_atlas_2026-07-21/LAY_REPORT.md:42:subspace preserved by every local curvature operator. It may instead be a transported, averaged, or
+udt_joint_invariant_subspace_atlas_2026-07-21/REPOSITORY_GATES.json:394:        "package": "udt_reciprocal_plane_projector_audit_2026-07-21",
+udt_joint_invariant_subspace_atlas_2026-07-21/REPOSITORY_GATES.json:519:    "udt_joint_invariant_subspace_atlas_2026-07-21/BIVECTOR_CLASS_CENSUS.tsv",
+udt_joint_invariant_subspace_atlas_2026-07-21/REPOSITORY_GATES.json:520:    "udt_joint_invariant_subspace_atlas_2026-07-21/BIVECTOR_EIGENPLANE_ATLAS.tsv",
+udt_joint_invariant_subspace_atlas_2026-07-21/REPOSITORY_GATES.json:521:    "udt_joint_invariant_subspace_atlas_2026-07-21/BIVECTOR_TOLERANCE_CORRECTION.md",
+udt_joint_invariant_subspace_atlas_2026-07-21/PRECORRECTION_ATLAS_RESULT.json:3:  "bivector_eigenplane_rows": 0,
+udt_joint_invariant_subspace_atlas_2026-07-21/PRECORRECTION_ATLAS_RESULT.json:10:  "gradient_generated_plane_rows": 0,
+udt_joint_invariant_subspace_atlas_2026-07-21/PRECORRECTION_ATLAS_RESULT.json:17:  "nondegenerate_gradient_generated_plane_rows": 0,
+udt_joint_invariant_subspace_atlas_2026-07-21/PRECORRECTION_ATLAS_RESULT.json:27:  "unique_bivector_complementary_split_rows": 0,
+udt_joint_invariant_subspace_atlas_2026-07-21/FRESH_ADVERSARIAL_CORRECTION_REVIEW.md:6:  \(g=\begin{pmatrix}0&1\\1&0\end{pmatrix}\oplus I_2\) and \(g\)-self-adjoint nilpotent \(J_{01}=1\), with \(J^2=0\neq J\) and spectrum \(\{0,0,0,0\}\), both classifiers return `NO_NONTRIVIAL_CENTRAL_BLOCK / NUMERIC_CLASSIFIED`. The routines do not test semisimplicity before accepting the identity projector: [invariant_subspace_core.py](/tmp/udt_startup_rehearsal_20260719_h0zjlA/repo/udt_joint_invariant_subspace_atlas_2026-07-21/invariant_subspace_core.py:190) and [verify_joint_atlas.py](/tmp/udt_startup_rehearsal_20260719_h0zjlA/repo/udt_joint_invariant_subspace_atlas_2026-07-21/verify_joint_atlas.py:202). This violates the frozen requirement that unresolved Jordan cases become `NUMERIC_UNCERTAIN`.
+udt_joint_invariant_subspace_atlas_2026-07-21/FRESH_ADVERSARIAL_CORRECTION_REVIEW.md:21:- The nine catches do not meet the frozen end-to-end requirement. K01/K02 use a catch-only hardcoded registry validator never applied to the saved operator registry; K05 merely changes a summary count rather than feeding a non-simple bivector through the classifier; K07 removes one verifier anchor rather than a full-atlas saved row. See [verify_joint_atlas.py:437](/tmp/udt_startup_rehearsal_20260719_h0zjlA/repo/udt_joint_invariant_subspace_atlas_2026-07-21/verify_joint_atlas.py:437).
+udt_joint_invariant_subspace_atlas_2026-07-21/FRESH_ADVERSARIAL_CORRECTION_REVIEW.md:31:1. Detect non-semisimple/Jordan primary clusters and mark them uncertain; add the exact Lorentzian nilpotent example as an end-to-end catch.
+udt_joint_invariant_subspace_atlas_2026-07-21/PREREGISTRATION.md:10:what tangent lines, planes, reducing decompositions, and curvature-eigenbivector planes are selected
+udt_joint_invariant_subspace_atlas_2026-07-21/PREREGISTRATION.md:14:This is metric-led and observational. It does not ask for an angular plane, particle, action,
+udt_joint_invariant_subspace_atlas_2026-07-21/PREREGISTRATION.md:16:retained, including zero gradients, null or degenerate planes, non-real spectra, repeated spectra,
+udt_joint_invariant_subspace_atlas_2026-07-21/PREREGISTRATION.md:77:Separately diagonalize the Riemann and Weyl operators on bivectors. Inventory every isolated real
+udt_joint_invariant_subspace_atlas_2026-07-21/PREREGISTRATION.md:78:one-dimensional eigenspace whose bivector is simple, retain its plane signature, count complementary
+udt_joint_invariant_subspace_atlas_2026-07-21/PREREGISTRATION.md:79:unordered plane pairs, and mark all repeated/complex/near-threshold eigenspaces unresolved rather
+udt_joint_invariant_subspace_atlas_2026-07-21/PREREGISTRATION.md:83:plane by resemblance to the historical angular sector.
+udt_joint_invariant_subspace_atlas_2026-07-21/PREREGISTRATION.md:116:| orientation for bivector Hodge bookkeeping | `CHOSE` | coordinate orientation; plane is insensitive to sign reversal |
+udt_joint_invariant_subspace_atlas_2026-07-21/PREREGISTRATION.md:133:   bivector-plane multiplicities agree under both nonlinear probes;
+udt_joint_invariant_subspace_atlas_2026-07-21/PREREGISTRATION.md:137:   omitted nonlinear map jets, a non-simple eigenbivector accepted as a plane, a hidden uncertain
+udt_joint_invariant_subspace_atlas_2026-07-21/PREREGISTRATION.md:149:Even a repeated unique plane is only an `OBSERVED` metric-native local candidate inside this finite
+udt_joint_invariant_subspace_atlas_2026-07-21/PREREGISTRATION.md:152:plane is found, that negative is limited to the registered pointwise objects and two-jets; higher
+udt_joint_invariant_subspace_atlas_2026-07-21/CONFIGURATION_SUBSPACE_CENSUS.tsv:1:configuration_id	carrier_id	mask_id	bank	point_id	gradient_norm	gradient_class	parent_tensor_residual	selfadjoint_operator_residual	skew_operator_residual	riemann_isolated_real_simple_eigenplanes	riemann_nondegenerate_simple_eigenplanes	riemann_complementary_split_count	riemann_repeated_eigenvalue_multiplicity	riemann_complex_isolated_count	riemann_numeric_status	weyl_isolated_real_simple_eigenplanes	weyl_nondegenerate_simple_eigenplanes	weyl_complementary_split_count	weyl_repeated_eigenvalue_multiplicity	weyl_complex_isolated_count	weyl_numeric_status	retained	physical_merit
+udt_joint_invariant_subspace_atlas_2026-07-21/NONLINEAR_CONFIGURATION_ATLAS.tsv:1:configuration_id	transform_id	covariance_metric	covariance_gradient	covariance_ricci_operator	covariance_hessian_operator	covariance_phi_dyad	covariance_curvature_generators	covariance_maximum	riemann_isolated_real_simple_eigenplanes	riemann_nondegenerate_simple_eigenplanes	riemann_complementary_split_count	riemann_repeated_eigenvalue_multiplicity	riemann_complex_isolated_count	riemann_numeric_status	weyl_isolated_real_simple_eigenplanes	weyl_nondegenerate_simple_eigenplanes	weyl_complementary_split_count	weyl_repeated_eigenvalue_multiplicity	weyl_complex_isolated_count	weyl_numeric_status	riemann_summary_agreement	weyl_summary_agreement	retained
+
+codex
+**Reviewer G verdict: PASS-WITH-CAVEATS.**
+
+`REFERENCE_FREEZE_MANIFEST.tsv` verified completely: all 13 SHA-256 hashes and byte sizes match.
+
+The reference preserves the main scientific stop correctly, but the proposed two-form audit needs a narrower mathematical definition and must acknowledge a completed predecessor.
+
+### Exact IDs challenged
+
+- **C090 — caveat:** A two-form/bivector study is a legitimate `WORKING` question, but not wholly new. The prior joint invariant-subspace atlas already tested the Riemann and Weyl curvature operators on \(\Lambda^2\) for all 6,144 registered two-jets and found zero isolated real simple eigenbivector planes. A new atlas must reuse that bounded negative rather than repeat or obscure it.
+- **J03 — substantive revision needed:** “Complete \(\Lambda^2\) atlas” is underspecified. The derivation lift of tangent endomorphisms, the exterior-power lift of transport, and the curvature operator on bivectors are inequivalent representations. Closure/co-closure also requires derivative data beyond a pointwise two-jet; recurrence and holonomy require paths or loops.
+- **C032 — status qualification:** Kato projector transport is universal pseudo-Riemannian mathematics. The UDT-specific evidence is only that registered metric/\(\phi\) instruments instantiate particular projector families and sampled paths.
+- **J02 — status qualification:** The transport identity itself cannot bridge the weave to UDT-specific global organization. Only a non-universal transported invariant, demonstrated on a closed admissible branch, could do so.
+
+### Geometry finding
+
+Tangent-space full-matrix irreducibility does **not** exhaust meaningful structure on \(\Lambda^2T^*M\). It excludes proper common tangent subspaces for the tested operator algebra, but does not by itself classify:
+
+- invariant subspaces of a precisely specified induced representation;
+- curvature-operator algebraic types;
+- simple or null bivector cones;
+- parallel or recurrent forms;
+- reduced Levi-Civita holonomy;
+- closed/co-closed global representatives.
+
+However, most structure present before such additional tests is universal, not UDT emergence:
+
+- \(\dim\Lambda^2=6\);
+- the Plücker simplicity condition \(F\wedge F=0\);
+- the metric pairing on two-forms;
+- after choosing orientation, Lorentzian \(*^2=-1\) on real two-forms;
+- the complex \(\pm i\) Hodge eigenspaces;
+- Hodge-dual pairing and \(\nabla *=0\);
+- the Levi-Civita curvature as an \(\operatorname{End}(TM)\)-valued two-form and its Bianchi identity.
+
+Two corrections are therefore important: wedge product comes from exterior algebra, not the metric; and a global ordinary Hodge star requires orientation. For retained nonorientable completions it must be formulated using the orientation line bundle or only locally.
+
+Potentially non-universal evidence would be a repeated special curvature type, a simple invariant line in \(\Lambda^2\), a parallel/recurrent form, or reduced holonomy not forced by dimension, signature, orientation, conformal structure, or the chosen ansatz. None is presently established as UDT-specific. The existing curvature-eigenbivector test is instead a bounded negative.
+
+### Smallest objective next map
+
+A complete exterior atlas is not mathematically prior. The smaller neutral first step is a **typed representation audit**:
+
+1. Define separately the derivation lift \(A^{[2]}\), exterior-power transport \(\Lambda^2U\), and curvature operator \(\mathcal R:\Lambda^2\to\Lambda^2\).
+2. Determine their commutants and invariant linear subspaces symbolically under universal Lorentzian controls.
+3. Import the already-certified Riemann/Weyl eigenbivector census.
+4. Only then run the residual, nonduplicative \(\Lambda^2\) tests.
+
+For parallel or recurrent forms, the intrinsic object mathematically prior to a broad form census is the Levi-Civita curvature/holonomy algebra.
+
+### Bounded neutral next-audit contract
+
+- **Scope:** Existing 6,144 registered two-jets and already-saved analytic paths only; no solve, topology choice, carrier, action, or Hopf target.
+- **Frozen definitions:** Specify the three inequivalent bivector actions above before outcomes. Treat orientation as an explicit premise and use twisted forms where orientation is unavailable.
+- **Universal control ledger:** Predeclare Hodge complex structure, Plücker cone, induced metric, \(\nabla *=0\), curvature symmetries, and Bianchi identities as controls that earn no UDT-specific credit.
+- **Reuse gate:** Reproduce or hash-link the prior zero isolated-real-simple curvature-eigenbivector result; do not recount it as a new discovery.
+- **Derivative gate:** Test \(dF\), \(\delta F\), recurrence, or holonomy only where the required higher jets, smooth paths, or closed loops actually exist. Otherwise label them `NOT_TESTED`.
+- **Certification:** A positive result requires an intrinsic non-universal invariant, coordinate covariance, simplicity/closure as applicable, persistence away from degeneracy, comparison with matched generic Lorentzian controls, and independent recomputation.
+- **Fail-closed outcome:** Hodge \(\pm i\) sectors, dual pairs, the simple cone, Bianchi closure, or generic curvature forms alone yield `NO UDT-SPECIFIC EMERGENCE OBSERVED`.
+- **Maximum conclusion:** `OBSERVED_BOUNDED_NONUNIVERSAL_LAMBDA2_MOTIF`, never carrier, topology, charge, action, matter, or global selection.
+tokens used
+85,799
+
+Script done on 2026-07-22 12:52:28-04:00 [COMMAND_EXIT_CODE="0"]
