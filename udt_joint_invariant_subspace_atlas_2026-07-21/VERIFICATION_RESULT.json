@@ -1,0 +1,11 @@
+{
+  "anchor_uncertain_comparisons": 4,
+  "anchors": 480,
+  "catch_proofs": 10,
+  "family_classifications": 12960,
+  "max_nonlinear_covariance_residual": 2.220446049250313e-16,
+  "max_parent_tensor_residual": 0.0,
+  "maximum_conclusion": "BOUNDED_POINTWISE_JOINT_INVARIANT_SUBSPACE_ATLAS_CHARACTERIZED",
+  "nonlinear_anchors": 960,
+  "status": "PASS"
+}

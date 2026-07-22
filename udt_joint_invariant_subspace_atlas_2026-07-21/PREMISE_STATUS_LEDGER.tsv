@@ -1,0 +1,8 @@
+id	premise	status	scope
+P01	4D Lorentzian metric plus scalar phi two-jet	CONDITIONAL	immutable parent realization
+P02	nine named operator families	FREE_AND_EXPLORED	preregistered named bounded registry; other subsets open
+P03	two nonlinear coordinate three-jets	FREE_AND_EXPLORED	finite probes not full group
+P04	rank tolerance 1e-9	PINNED_BY_HABIT	all margins retained
+P05	eigen cluster tolerance 1e-8	PINNED_BY_HABIT	degeneracies retained
+P06	supplied 2+2 split	ABSENT	never loaded
+P07	action source carrier boundary scale	OPEN	never loaded

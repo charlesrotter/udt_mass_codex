@@ -1,0 +1,13 @@
+item	status	scope	remaining_open
+complete_registered_pointwise_atlas	OBSERVED	6144 configurations x nine operator families	unregistered differential concomitants
+full_riemann_joint_irreducibility	OBSERVED	full matrix algebra on 5760; scalar ambiguity on 384	transport and global compatibility
+full_weyl_joint_irreducibility	OBSERVED	full matrix algebra on 5760; scalar ambiguity on 384	transport and global compatibility
+unique_central_2plus2_split	OBSERVED	11983 rows in four smaller named families across 5210 configurations	not preserved by full curvature family; no physical selection
+multiple_central_2plus2_pairings	OBSERVED	2225 family rows; three pairings per row	no physical ranking supplied
+gradient_generated_two_plane	OPEN	zero observed rows in registered ensemble	other constructively generated distributions
+isolated_real_simple_curvature_eigenplane	OPEN	zero Riemann and Weyl rows	higher-order or transported curvature structure
+nonlinear_chart_classification_consistency	OBSERVED	12288 transformed configurations; zero non-uncertain discordances	full diffeomorphism group proof
+real_conjugate_primary_blocks	OBSERVED	independent product-polynomial and Vandermonde/CRT constructions	global transport or physical meaning
+numeric_uncertainty	CONDITIONAL	24 nonlinear comparisons retained; no original family rows uncertain	tolerance-independent exact classification
+physical_angular_section	OPEN	not selected	transport integrability finite-cell or time-live closure
+action_source_carrier_boundary_scale	OPEN	not loaded	complete UDT dynamics and matter

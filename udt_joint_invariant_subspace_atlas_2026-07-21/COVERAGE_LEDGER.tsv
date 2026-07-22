@@ -1,0 +1,6 @@
+id	object	observed	required	status
+C01	parent configurations	6144	6144	PASS
+C02	family classifications	55296	55296	PASS
+C03	nonlinear configurations	12288	12288	PASS
+C04	nonlinear family comparisons	110592	110592	PASS
+C05	discarded configurations	0	0	PASS

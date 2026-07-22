@@ -1,0 +1,8 @@
+tensor	isolated_real_simple_eigenplanes	nondegenerate_simple_eigenplanes	complementary_split_count	repeated_eigenvalue_multiplicity	complex_isolated_count	numeric_status	configurations
+riemann	0	0	0	0	0	NUMERIC_CLASSIFIED	118
+riemann	0	0	0	0	2	NUMERIC_CLASSIFIED	1436
+riemann	0	0	0	0	4	NUMERIC_CLASSIFIED	3114
+riemann	0	0	0	0	6	NUMERIC_CLASSIFIED	708
+riemann	0	0	0	6	0	NUMERIC_CLASSIFIED	768
+weyl	0	0	0	0	6	NUMERIC_CLASSIFIED	5376
+weyl	0	0	0	6	0	NUMERIC_CLASSIFIED	768
