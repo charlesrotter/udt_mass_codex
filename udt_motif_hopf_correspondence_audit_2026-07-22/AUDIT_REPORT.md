@@ -254,6 +254,12 @@ ten-source corrected lineage as its older eight-source table. That review is pre
 emits the exact current ten-row lineage, including the two direct production source manifests. No
 scientific result changed.
 
+The post-evidence fresh reviewer then audited only a clean archive of the fully frozen package and
+returned `PASS-WITH-CAVEATS`. It replayed all 71 manifest entries, the unchanged package verifier,
+the exact ten-row builder/current lineage identity, all 29 catches, the coordinated attack, raw
+ledger counts, metric algebra, and a fresh 2,048-point seed comparison at `8.23e-16`. The caveats are
+the registered scientific scope caveats below, not unresolved package defects.
+
 The supplied equal-weight circle action is now machine-recorded separately from the absent `S2`
 matter carrier and absent `L2+L4` action functional. The direct amplitude-family and
 invariant-subspace source manifests are explicitly pinned in `SOURCE_LINEAGE.tsv`.

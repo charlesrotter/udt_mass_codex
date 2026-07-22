@@ -1,0 +1,11 @@
+Script started on 2026-07-22 10:00:00-04:00 [<not executed on terminal>]
+Traceback (most recent call last):
+  File "/tmp/udt_motif_hopf_20260722_zpmwYU/repo/udt_motif_hopf_correspondence_audit_2026-07-22/verify_repository_gates.py", line 234, in <module>
+    main()
+  File "/tmp/udt_motif_hopf_20260722_zpmwYU/repo/udt_motif_hopf_correspondence_audit_2026-07-22/verify_repository_gates.py", line 161, in main
+    navigation = generic.validate_navigation(ROOT)
+  File "/tmp/udt_motif_hopf_20260722_zpmwYU/repo/bootstrap_csn_phi_angular_selector_2026-07-19/verify_repository_gates.py", line 161, in validate_navigation
+    raise GateError("NAVIGATION", "markdown-link")
+motif_hopf_generic.GateError: NAVIGATION: markdown-link
+
+Script done on 2026-07-22 10:00:01-04:00 [COMMAND_EXIT_CODE="1"]

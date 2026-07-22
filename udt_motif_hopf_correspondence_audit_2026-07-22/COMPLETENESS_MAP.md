@@ -19,7 +19,9 @@
 - 29 corrupted-record mutation catches, including coordinated point/edge-accounting corruption and
   every field found unguarded by the second and third reviews; and
 - complete committed raw/generated evidence with a ten-row builder/current lineage identity and
-  package SHA-256 manifest.
+  package SHA-256 manifest; and
+- a final fresh clean-archive `PASS-WITH-CAVEATS` that independently replayed package closure, raw
+  counts, attack rejection, and the exact conditional toric/seed witness.
 
 ## Present only as conditional controls
 
