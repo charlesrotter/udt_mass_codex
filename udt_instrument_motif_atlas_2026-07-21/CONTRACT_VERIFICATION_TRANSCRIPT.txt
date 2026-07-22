@@ -2,5 +2,5 @@ UDT_MOTIF_PACKAGE_CONTRACT=PASS
 configurations=6144 families=31 family_rows=190464
 edges=75 edge_rows=460800
 motif_types=5 uncertainty_class=1 fingerprints=14
-crossing_splits=2090 gradient_split_across=7840
+crossing_splits=2090 gradient_split_across=7840 classified=7839 uncertain=1
 sources=8 catches=5

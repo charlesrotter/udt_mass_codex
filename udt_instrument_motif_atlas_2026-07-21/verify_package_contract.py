@@ -180,6 +180,12 @@ def main() -> None:
     require(incidence["SPLIT_ACROSS_BOTH_PLANES"] == 7840, "gradient split count")
     require(incidence["WHOLLY_IN_ONE_PLANE"] == 0 and incidence["WHOLLY_IN_COMPLEMENT"] == 0,
             "gradient confinement")
+    split_status = Counter()
+    for row in gzip_rows(HERE / "FAMILY_MOTIF_ATLAS.tsv.gz"):
+        if row["gradient_incidence"] == "SPLIT_ACROSS_BOTH_PLANES":
+            split_status[row["numeric_status"]] += 1
+    require(split_status == Counter({"NUMERIC_CLASSIFIED": 7839, "NUMERIC_UNCERTAIN": 1}),
+            "gradient split numeric decomposition")
     family_by_mask = {int(row["mask"]): row["family_id"] for row in registry}
     equivalence = {
         tuple(sorted((row["first_family_id"], row["second_family_id"]))): int(row["configurations"])
@@ -241,6 +247,8 @@ def main() -> None:
         "transition_counts": dict(sorted(transition_counts.items())),
         "ricci_hessian_crossing_splits": 2090,
         "gradient_split_across_incidences": 7840,
+        "gradient_split_classified_incidences": 7839,
+        "gradient_split_uncertain_incidences": 1,
         "source_lineage_entries": len(sources),
         "catch_proofs": len(catches),
     }
@@ -252,7 +260,7 @@ def main() -> None:
         f"configurations=6144 families=31 family_rows={sum(motif_counts.values())}",
         f"edges={len(edges)} edge_rows={sum(transition_counts.values())}",
         f"motif_types={len(motif_counts) - 1} uncertainty_class=1 fingerprints=14",
-        f"crossing_splits=2090 gradient_split_across={incidence['SPLIT_ACROSS_BOTH_PLANES']}",
+        f"crossing_splits=2090 gradient_split_across={incidence['SPLIT_ACROSS_BOTH_PLANES']} classified=7839 uncertain=1",
         f"sources={len(sources)} catches={len(catches)}",
     ]
     (HERE / "CONTRACT_VERIFICATION_TRANSCRIPT.txt").write_text(

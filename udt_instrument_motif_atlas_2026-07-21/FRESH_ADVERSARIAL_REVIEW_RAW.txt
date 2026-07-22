@@ -1,0 +1,12 @@
+PASS
+
+No scientific, evidence, or wording/scope defects found. Independent verifier, margin escalation, and package-contract replays passed without modifying the worktree.
+
+Residual caveats:
+
+- Exhaustive only for the finite 6,144 two-jet ensemble and five registered instruments ([AUDIT_REPORT.md](/tmp/udt_motif_fresh_review_20260721/udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md:154)).
+- The 2,090 count is configurations; 7,840 is family-level gradient incidences, not independent configurations ([AUDIT_REPORT.md](/tmp/udt_motif_fresh_review_20260721/udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md:32)).
+- No nonzero null gradients were tested ([COMPLETENESS_MAP.md](/tmp/udt_motif_fresh_review_20260721/udt_instrument_motif_atlas_2026-07-21/COMPLETENESS_MAP.md:22)).
+- Two chart probes do not establish full diffeomorphism-group covariance; numerical tolerances remain habit-pinned ([AUDIT_REPORT.md](/tmp/udt_motif_fresh_review_20260721/udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md:158)).
+- Independent blind verification covers 384 configurations plus every saved margin identity, not all 6,144 independently ([AUDIT_REPORT.md](/tmp/udt_motif_fresh_review_20260721/udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md:176)).
+- No generic Lorentzian/GR comparison supports UDT uniqueness ([STATUS_LEDGER.tsv](/tmp/udt_motif_fresh_review_20260721/udt_instrument_motif_atlas_2026-07-21/STATUS_LEDGER.tsv:16)).

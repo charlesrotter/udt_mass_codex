@@ -34,8 +34,9 @@ configurations where singleton Ricci and singleton phi Hessian each possess a un
 Lorentzian planes have zero pairwise intersection dimensions, commutator rank four, and a joint
 full-matrix algebra. They do not preserve the same partition; together they weave all four tangent
 directions. The unnormalized phi-gradient dyad contributes a different motif—a line plus an
-orthogonal three-space—and in all 7,840 registered nonzero-gradient incidences with a certified
-split, that gradient crosses both sides of the split rather than lying wholly in either.
+orthogonal three-space. There are 7,839 classified nonzero-gradient incidences in which a certified
+split crosses both sides, plus one retained uncertain split-across incidence. No registered
+incidence is classified as lying wholly in either side.
 
 The curvature-generator families are likewise simple at this resolution: Riemann and Weyl are each
 full-algebra irreducible in 5,376 configurations and scalar/silent in 768. Their matched subset
@@ -94,6 +95,10 @@ clarifies that the census rank and signature strings are canonically sorted, not
 The building-block ledger now displays both `1+3` signature alternatives as unordered sets. No raw
 block, census, or scientific result changed.
 
+The fresh review's raw-row probe then decomposed the aggregate 7,840 split-across incidences into
+7,839 classified and one uncertain row. `GRADIENT_INCIDENCE_PRECISION_CORRECTION.md` records the
+wording correction. It changes no raw row or aggregate census.
+
 ## Independent verification
 
 An independent verifier imports neither the production core nor builder. It independently rebuilt
@@ -131,6 +136,12 @@ registry and every real family operator list through reusable validators; the ed
 operator mutations use those same validators. The independent implementation separately constructs
 the exact edge set and operator count and exercises its own validators. No classification, tolerance,
 input, or scientific ledger changed.
+
+A fresh isolated `gpt-5.6-sol` review of clean detached commit `5a9898a` returned `PASS`. It replayed
+the independent, all-margin, and package-contract verifiers on a temporary copy and left its target
+worktree clean. Its residual caveats match this report's bounded-scope caveats. The exact final
+message, normalized review, and provenance are preserved. The supervising post-review incidence
+precision correction only narrows 7,840 into 7,839 classified plus one uncertain row.
 
 ## What is and is not learned
 
@@ -174,7 +185,8 @@ solution. Conversely, no attractive pointwise motif may be promoted into those s
 2. Full space or bounded scope justified: **YES**, for every registered configuration, subset, edge,
    and nonlinear probe; scope outside this finite pointwise box remains explicitly open.
 3. Independently verified: **YES**, on 384 outcome-blind configurations plus every unique identity
-   in the full numerical-margin ledger, with independent algebra and nonlinear-jet implementations.
+   in the full numerical-margin ledger, with independent algebra and nonlinear-jet implementations;
+   the fresh isolated adversarial review also passed.
 4. Every premise audited: **YES**, in `ANTI_IMPOSITION_AUDIT.tsv`, `COMPLETENESS_MAP.md`, and
    `STATUS_LEDGER.tsv`. No physical interpretation is promoted.
 

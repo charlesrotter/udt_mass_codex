@@ -6,6 +6,8 @@
   "families": 31,
   "family_rows": 190464,
   "gradient_split_across_incidences": 7840,
+  "gradient_split_classified_incidences": 7839,
+  "gradient_split_uncertain_incidences": 1,
   "maximum_conclusion": "BOUNDED_POINTWISE_INSTRUMENT_MOTIF_LATTICE_CHARACTERIZED",
   "motif_counts": {
     "FOUR_LINES": 2764,
