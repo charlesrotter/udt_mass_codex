@@ -1,0 +1,14 @@
+{
+  "catch_count": 15,
+  "catch_pass_count": 15,
+  "external_structures_adopted": 0,
+  "family_count": 11,
+  "gpu_runs": 0,
+  "maximum_conclusion": "CENTURY_SCALE_COMPARATIVE_MATHEMATICS_ATLAS_CHARACTERIZED__NO_EXTERNAL_STRUCTURE_ADOPTED_AS_UDT",
+  "physics_solves_run": 0,
+  "preregistration_commit": "2ec56b637f7be873a26f0f2305c903fe6875b897",
+  "source_census_sha256": "f94c3dd690f4c6c97eba2090e27daa9ae09b702636d57dace476271d34f6a40f",
+  "source_count": 46,
+  "status": "PASS",
+  "survey_report_sha256": "18d865cb64d8ad503eef7ccbf26644f3b09f85bcd2687d392c978c010c210517"
+}

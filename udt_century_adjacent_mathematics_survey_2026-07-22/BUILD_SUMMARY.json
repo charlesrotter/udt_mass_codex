@@ -1,0 +1,36 @@
+{
+  "external_structures_adopted": 0,
+  "family_count": 11,
+  "gpu_runs": 0,
+  "join_counts": {
+    "J01": 1,
+    "J02": 6,
+    "J03": 6,
+    "J04": 4,
+    "J05": 2,
+    "J06": 7,
+    "J08": 4,
+    "J09": 3,
+    "J10": 2,
+    "J11": 6,
+    "J12": 5
+  },
+  "match_grade_counts": {
+    "ANALOGY_ONLY": 18,
+    "DIRECT_MATHEMATICAL_MATCH": 18,
+    "PARTIAL_HYPOTHESIS_MATCH": 10
+  },
+  "physics_solves_run": 0,
+  "role_counts": {
+    "APPLICABLE_THEOREM_IF_HYPOTHESES_PASS": 19,
+    "OBSTRUCTION_OR_COUNTEREXAMPLE": 8,
+    "QUESTION_GENERATOR": 4,
+    "UNIVERSAL_CONTROL": 14,
+    "VOCABULARY": 1
+  },
+  "source_count": 46,
+  "status": "CENTURY_SCALE_COMPARATIVE_MATHEMATICS_ATLAS_CHARACTERIZED__NO_EXTERNAL_STRUCTURE_ADOPTED_AS_UDT",
+  "top_ranked_question": "Q01_LOCAL_NATURAL_SELECTOR_EXHAUSTION",
+  "year_max": 2004,
+  "year_min": 1930
+}

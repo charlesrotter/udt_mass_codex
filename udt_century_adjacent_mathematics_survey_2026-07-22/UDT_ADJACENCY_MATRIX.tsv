@@ -1,0 +1,12 @@
+family	source_count	join_counts	joins_touched	udt_objects
+F01_NATURAL_OPERATORS	4	J03:3;J12:1	J03;J12	full tangent weave -> metric-native bivector or differential-form motif; pre-scale C2/Bach route -> post-scale EH-like route
+F02_HOLONOMY	5	J02:5	J02	local tangent-space weave -> persistent global organization
+F03_CONFORMAL_PROJECTIVE_SCALE	6	J01:1;J03:1;J12:4	J01;J03;J12	reciprocal clock-parallel block -> complete time-live metric; full tangent weave -> metric-native bivector or differential-form motif; pre-scale C2/Bach route -> post-scale EH-like route
+F04_EXTERIOR_CURVATURE_TOPOLOGY	4	J03:2;J05:1;J08:1	J03;J05;J08	full tangent weave -> metric-native bivector or differential-form motif; conditional reciprocal-toric quotient -> native S2 carrier; native source -> finite-cell boundary charge and mass
+F05_BUNDLES_GLUING	4	J02:1;J04:3	J02;J04	local tangent-space weave -> persistent global organization; completion taxonomy -> one realized global quotient
+F06_BOUNDARY_VARIATION_CHARGE	4	J08:3;J11:1	J08;J11	native source -> finite-cell boundary charge and mass; static conditional Hopfion -> time-live matter persistence
+F07_SPECTRAL_SCALE	3	J04:1;J10:2	J04;J10	completion taxonomy -> one realized global quotient; dimensionless compactness -> absolute Xmax and total mass
+F08_INVERSE_VARIATIONAL	4	J06:4	J06	carrier or quotient texture -> native deformation action
+F09_FIXED_POINT_BOOTSTRAP	3	J09:3	J09	native mass and proper volume -> bootstrap density fixed point
+F10_EVOLUTION_AND_CONSTRAINTS	4	J11:4	J11	static conditional Hopfion -> time-live matter persistence
+F11_HOPF_SOLITON_CONTROLS	5	J05:1;J06:3;J11:1	J05;J06;J11	conditional reciprocal-toric quotient -> native S2 carrier; carrier or quotient texture -> native deformation action; static conditional Hopfion -> time-live matter persistence

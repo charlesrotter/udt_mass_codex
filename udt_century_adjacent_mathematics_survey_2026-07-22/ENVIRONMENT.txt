@@ -1,0 +1,8 @@
+date=2026-07-22
+os=Linux 6.8.0-124-generic x86_64 GNU/Linux
+python=3.10.12
+git=2.34.1
+compute=CPU_TEXT_ONLY
+gpu_runs=0
+physics_solves=0
+web_source_policy=PRIMARY_OR_AUTHOR_ARCHIVE_ONLY
