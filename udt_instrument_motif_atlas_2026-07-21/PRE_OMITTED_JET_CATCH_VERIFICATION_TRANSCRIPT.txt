@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "verify_motif_atlas.py", line 565, in <module>
+    main()
+  File "verify_motif_atlas.py", line 536, in main
+    reject("K09_OMITTED_MAP_JETS", omitted_jet_max > TOL)
+  File "verify_motif_atlas.py", line 516, in reject
+    if not condition: raise AssertionError(f"catch failed {catch_id}")
+AssertionError: catch failed K09_OMITTED_MAP_JETS

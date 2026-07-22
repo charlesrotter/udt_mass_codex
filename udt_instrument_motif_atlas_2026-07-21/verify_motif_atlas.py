@@ -452,12 +452,13 @@ def main() -> None:
                 for transform_id, j, k, ell in transforms():
                     transformed = transform_jets(g, dg, ddg, raw["phi"]["value"], pf, ps, j, k, ell)
                     transformed_objects, _ = objects(transformed[0], transformed[1], transformed[2], transformed[4], transformed[5])
-                    omitted = transform_jets(g, dg, ddg, raw["phi"]["value"], pf, ps, j,
-                                             np.zeros_like(k), np.zeros_like(ell))
-                    omitted_objects, _ = objects(omitted[0], omitted[1], omitted[2], omitted[4], omitted[5])
-                    omitted_jet_max = max(omitted_jet_max,
-                                          relmax(omitted_objects["R"], transformed_objects["R"]),
-                                          relmax(omitted_objects["H"], transformed_objects["H"]))
+                    omitted_phi_second = np.einsum("rs,ra,sb->ab", ps, j, j)
+                    omitted_objects, _ = objects(
+                        transformed[0], transformed[1], transformed[2], transformed[4], omitted_phi_second
+                    )
+                    omitted_jet_max = max(
+                        omitted_jet_max, relmax(omitted_objects["H"], transformed_objects["H"])
+                    )
                     inverse_j = np.linalg.inv(j)
                     covariance_max = max(covariance_max, relmax(transformed_objects["metric"], j.T @ g @ j),
                                          relmax(transformed_objects["gradient"], inverse_j @ current["gradient"]),
