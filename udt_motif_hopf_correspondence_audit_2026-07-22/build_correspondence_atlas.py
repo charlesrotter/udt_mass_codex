@@ -52,6 +52,8 @@ FROBENIUS_INTEGRABLE = 1.0e-7
 FROBENIUS_NONINTEGRABLE = 1.0e-5
 PROJECTOR_GATE = 1.0e-9
 SOURCE_HASHES = {
+    "udt_amplitude_volume_metric_atlas_2026-07-21/SHA256SUMS.txt": "5182486f4a87080096532d9fe5ba999837ac79fac979c5694f216209ae41c112",
+    "udt_joint_invariant_subspace_atlas_2026-07-21/SHA256SUMS.txt": "973dcc8bb297fad8358087318b24e5db9d1179e8b6a51a2535a0110e30c108c2",
     "udt_instrument_motif_atlas_2026-07-21/SHA256SUMS.txt": "97dac2c32317deb603a054cffd3d2162f537d8bc7806d2276fa7e8544dd22ed5",
     "udt_structural_ensemble_metric_atlas_2026-07-21/SHA256SUMS.txt": "3d569ed31506f5f7ce44beac30e8419571f734b3973dcc34d6c474bf78636757",
     "udt_canonical_geometry_evaluator_p01_2026-07-21/SHA256SUMS.txt": "b7d8917cb27627c7ad7767fcffbd5b5d7a9dc6da2171b2d8fba329d04014ffad",
@@ -60,6 +62,10 @@ SOURCE_HASHES = {
     "native_hopfion_topology_audit_2026-07-19/SHA256SUMS.txt": "6f03f82d485d4a20c2d2bfc13dc8979c1b229bf92c53f0eb36831abf3d75febc",
     "noNull_energy.py": "53110844b3925b9b46bb48a3865f1bf9f60290efdd01a5830e0e388aeb477444",
     "noNull_resolve.py": "995df0c30e1595a83d1335050be8e3fbbfb22f02b6b5d6643787048cc2d7aa2b",
+}
+DIRECT_PRODUCTION_SOURCE_MANIFESTS = {
+    "udt_amplitude_volume_metric_atlas_2026-07-21/SHA256SUMS.txt",
+    "udt_joint_invariant_subspace_atlas_2026-07-21/SHA256SUMS.txt",
 }
 POINT_PAIRS = {0: ("P0", "P4"), 1: ("P1", "P5"), 2: ("P2", "P6"), 3: ("P3", "P7")}
 
@@ -105,6 +111,21 @@ def write_tsv(path: Path, fields, rows) -> None:
         writer = csv.DictWriter(handle, fieldnames=list(fields), delimiter="\t", lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
+
+
+def source_lineage_rows() -> list[dict[str, str]]:
+    return [
+        {
+            "path": source,
+            "sha256": expected,
+            "role": (
+                "DIRECT_PRODUCTION_SOURCE_MANIFEST"
+                if source in DIRECT_PRODUCTION_SOURCE_MANIFESTS
+                else "FROZEN_SOURCE"
+            ),
+        }
+        for source, expected in SOURCE_HASHES.items()
+    ]
 
 
 def family_registry() -> list[dict[str, object]]:
@@ -476,7 +497,7 @@ def build(workers: int) -> None:
         actual = digest(ROOT / source)
         if actual != expected:
             raise AssertionError(f"source hash mismatch {source} {actual}")
-    source_rows = [{"path": source, "sha256": expected, "role": "FROZEN_SOURCE"} for source, expected in SOURCE_HASHES.items()]
+    source_rows = source_lineage_rows()
     write_tsv(HERE / "SOURCE_LINEAGE.tsv", ("path", "sha256", "role"), source_rows)
 
     all_identities = identities()

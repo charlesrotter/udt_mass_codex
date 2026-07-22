@@ -1,0 +1,14 @@
+{
+  "compared_fields": [
+    "motif",
+    "primitive_block_ranks",
+    "primitive_block_signatures",
+    "algebra_dimension",
+    "central_split_count",
+    "numeric_status"
+  ],
+  "endpoint_family_rows": 190464,
+  "mismatches": 0,
+  "prior_atlas_sha256": "af8f4f68deb95fd7136f605d0a70989cad6b6a589695117086fc617942332926",
+  "status": "PASS"
+}

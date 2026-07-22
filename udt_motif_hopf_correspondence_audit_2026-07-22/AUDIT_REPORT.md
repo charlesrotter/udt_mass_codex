@@ -245,6 +245,15 @@ Because the reviewer had already probed the cubic-map outcome, the nonlinear-coo
 remains explicitly confirmatory rather than outcome-blind; no correction strengthens the scientific
 maximum.
 
+A fourth fresh review then reproduced the correction result and catches byte-for-byte, rejected the
+coordinated attack and every malformed-number/provenance probe, and independently reproduced the
+exact toric/seed witness. It nevertheless returned `FAIL` for immutable package closure: the raw
+generated evidence had not yet been committed, and the production builder still rewrote the
+ten-source corrected lineage as its older eight-source table. That review is preserved. Under
+`FOURTH_REVIEW_CORRECTION_PREREGISTRATION.md`, the raw ledgers/results are now frozen and the builder
+emits the exact current ten-row lineage, including the two direct production source manifests. No
+scientific result changed.
+
 The supplied equal-weight circle action is now machine-recorded separately from the absent `S2`
 matter carrier and absent `L2+L4` action functional. The direct amplitude-family and
 invariant-subspace source manifests are explicitly pinned in `SOURCE_LINEAGE.tsv`.
@@ -273,7 +282,8 @@ inputs of the toric positive control. The overall correspondence remains a `LEAD
 ## Four evidence gates
 
 1. Preregistered: **YES**, including the open-path correction, independent-anchor contract, and the
-   correction contract frozen after preserving the fresh review's `FAIL` and before repair.
+   successive correction contracts frozen after preserving each fresh review's `FAIL` and before
+   repair.
 2. Full space or bounded scope: **YES** for all 3,072 registered analytic identities, all 31
    families, all path nodes, and both stencils. Global metrics, dynamics, and arbitrary functions
    remain open.

@@ -1,0 +1,11 @@
+date=2026-07-22
+mode=CPU_ONLY
+logical_cpus=8
+python=3.10.12
+platform=Linux-6.8.0-124-generic-x86_64-with-glibc2.35
+numpy=2.2.6
+sympy=1.13.1
+torch=2.5.1+cu121
+torch_cuda_available=false
+implementation_head_before_result_banking=42f3fc4e6eac2185f5dd6d2287396de92b5649aa
+branch=codex/udt-motif-hopf-correspondence-2026-07-22

@@ -1,0 +1,47 @@
+Script started on 2026-07-22 08:39:02-04:00 [TERM="dumb" TTY="/dev/console" COLUMNS="80" LINES="24"]
+{
+  "construction_provenance": {
+    "imported_l2_l4_action_functional": false,
+    "imported_s2_matter_carrier": false,
+    "supplied_equal_weight_circle_action": true
+  },
+  "covariance": {
+    "all_family_node_comparisons": 67456,
+    "blind_identities": 64,
+    "matched_edge_transport_comparisons": 63438,
+    "matched_edge_transport_discordances": 0,
+    "maximum_intrinsic_object_covariance_residual": 3.437448359966573e-16,
+    "maximum_projector_set_covariance_residual": 1.0435681312643523e-11,
+    "nonuncertain_classification_discordances": 0,
+    "stored_nonlinear_transforms": 2
+  },
+  "direct_hopf_seed": {
+    "device": "cpu",
+    "dtype": "float64",
+    "function_executed": "hopf_seed",
+    "maximum_absolute_residual": 1.3711254354120683e-14,
+    "sample_points": 1000,
+    "sample_seed": 20260722,
+    "source_path": "hopfion_arc_scripts_2026-07-05/fs_hopfion.py",
+    "source_sha256": "7a9dcf021a23cd663bb484e435ee716084e38999f0629b294790aca77e15b748"
+  },
+  "exercised_mutation_catches": 13,
+  "frobenius_certification_scope": "REGISTERED_CHART_ONLY",
+  "maximum_conclusion": "OBSERVED_BOUNDED_REGISTERED-CHART_SAMPLED_MOTIF_AND_FROBENIUS_CENSUS+EXACT_CONDITIONAL_RECIPROCAL-TORIC/HOPF-SEED_COMPATIBILITY_WITNESS",
+  "overall_correspondence_status": "LEAD",
+  "sampled_path_status": "17_NODE_SAMPLED_MATCH_NOT_CONTINUOUS_BUNDLE_THEOREM",
+  "schema": "udt-motif-hopf-review-correction-1.0",
+  "status": "PASS_WITH_REGISTERED_SCOPE",
+  "symbolic_toric": {
+    "angular_gap": "2/A(phi)**2",
+    "christoffels_derived_from_metric": true,
+    "conditional_full_range_unit_limit": "1",
+    "connection_common_scale_cancelled": true,
+    "diagonal_connection_weight": "exp(-2*phi)/(2*cosh(2*phi))",
+    "gradient_dyad_derived_from_metric": true,
+    "mixed_hessian_derived_from_metric": true,
+    "quotient_norm_exact": true
+  }
+}
+
+Script done on 2026-07-22 08:41:54-04:00 [COMMAND_EXIT_CODE="0"]

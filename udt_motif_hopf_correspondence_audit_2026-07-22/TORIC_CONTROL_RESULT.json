@@ -1,0 +1,98 @@
+{
+  "angular_hessian_eigenvalue_gap": "2/A**2",
+  "axis_recovery_condition": "Omega_p/Omega != +1 and Omega_p/Omega != -1 on the open orbit region",
+  "axis_recovery_status": "GENERIC_CONDITIONAL_NOT_UNIVERSAL_FOR_ARBITRARY_POSITIVE_OMEGA",
+  "chern_simons_finite_endpoints": "4*pi^2*(f(phi_plus)-f(phi_minus))",
+  "circle_action_status": "SUPPLIED_CONDITIONAL_NOT_SELECTED_BY_PROJECTORS",
+  "collapse_status": "OPPOSITE_PRIMITIVE_COLLAPSES_IN_ROUND_CONTROL; OPEN_FOR_ARBITRARY_A_OMEGA",
+  "conditional_unit_q": "1",
+  "connection": "(1/(exp(4*phi) + 1)) dxi1 + (exp(4*phi)/(exp(4*phi) + 1)) dxi2",
+  "connection_common_scale_dependence": "NONE",
+  "connection_weight_selector": "OPEN_DIAGONAL_OR_ANTIDIAGONAL_ACTION_NOT_SELECTED_BY_PROJECTORS",
+  "construction_used_l2_l4_action_functional": false,
+  "construction_used_s2_matter_carrier": false,
+  "coordinates": [
+    "t",
+    "phi",
+    "xi1",
+    "xi2"
+  ],
+  "dyad_mixed_eigenvalues": [
+    "0",
+    "A**(-2)",
+    "0",
+    "0"
+  ],
+  "f": "1/(exp(4*phi) + 1)",
+  "f_minus_infinity": "1",
+  "f_plus_infinity": "0",
+  "f_prime": "-1/cosh(2*phi)**2",
+  "global_premises_for_unit_class": [
+    "two periodic spatial circle directions",
+    "full phi range from minus infinity to plus infinity once",
+    "opposite primitive smooth circle collapses",
+    "selected free diagonal or anti-diagonal circle action",
+    "orientation and normalization"
+  ],
+  "hessian_mixed_eigenvalues": [
+    "0",
+    "-Ap/A**3",
+    "(-1 + Omega_p/Omega)/A**2",
+    "(1 + Omega_p/Omega)/A**2"
+  ],
+  "hopf_q_finite_endpoints": "f_minus - f_plus",
+  "hopf_seed_difference": [
+    "0",
+    "0",
+    "0"
+  ],
+  "hopf_seed_exact_match": true,
+  "hopfion_seed_source_sha256": "7a9dcf021a23cd663bb484e435ee716084e38999f0629b294790aca77e15b748",
+  "joint_HD_eigenvalue_pairs": [
+    [
+      "0",
+      "0"
+    ],
+    [
+      "-Ap/A**3",
+      "A**(-2)"
+    ],
+    [
+      "(-Omega + Omega_p)/(A**2*Omega)",
+      "0"
+    ],
+    [
+      "(Omega + Omega_p)/(A**2*Omega)",
+      "0"
+    ]
+  ],
+  "maximum_conclusion": "CONDITIONAL_PROJECTOR_AXIS_RECOVERY_AND_UNIT_HOPF_COMPATIBILITY_WITNESS",
+  "metric": "-dt^2 + A(phi)^2 dphi^2 + Omega(phi)^2[exp(-2phi)dxi1^2+exp(2phi)dxi2^2]",
+  "noNull_energy_source_sha256": "53110844b3925b9b46bb48a3865f1bf9f60290efdd01a5830e0e388aeb477444",
+  "periodic_phi_closed_loop_q": "0 because integral df over a single-valued periodic f vanishes",
+  "periodicity_status": "SUPPLIED_GLOBAL_DATA_NOT_DERIVED_BY_LOCAL_PROJECTORS",
+  "projector_motif": "FOUR_LINES_FOR_H_PLUS_D_WHEN_AXIS_RECOVERY_CONDITION_HOLDS",
+  "projector_orientation": "UNORIENTED_LINES_ONLY",
+  "quotient_map": [
+    "cos(delta)*sech(2*phi)",
+    "sin(delta)*sech(2*phi)",
+    "-tanh(2*phi)"
+  ],
+  "quotient_norm_squared": "1",
+  "reciprocity_reflection": "phi -> -phi exchanges xi1 and xi2 coefficients",
+  "reflection_isometry_condition": "A(phi)^2 and Omega(phi)^2 even, with xi1<->xi2 exchange",
+  "reflection_status": "CONDITIONAL_NOT_FORCED_FOR_ARBITRARY_A_OMEGA",
+  "round_control_A": "sech(2*phi)",
+  "round_control_Omega_squared": "1/(2*cosh(2*phi))",
+  "round_control_b_squared": "exp(-2*phi)/(2*cosh(2*phi))",
+  "round_control_c_squared": "exp(2*phi)/(2*cosh(2*phi))",
+  "round_control_cap_limits": {
+    "b2_minus": "1",
+    "b2_plus": "0",
+    "c2_minus": "0",
+    "c2_plus": "1"
+  },
+  "schema": "udt-reciprocal-toric-control-1.0",
+  "seal_equal_scale_fraction": "1/2",
+  "supplied_equal_weight_circle_action": true
+}

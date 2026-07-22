@@ -1,0 +1,9 @@
+claim_id	object	status	basis	limit
+T01	H+D pointwise projector axes	GENERIC_CONDITIONAL_FOUR_LINES	joint eigenvalue pairs distinguish t,phi,xi1,xi2 when Omega'/Omega is not +/-1	arbitrary positive Omega can cross a degeneracy; lines are unoriented
+T02	transverse angular axes	RECOVERED_WITHIN_CONDITIONAL_TORIC_CLASS	H angular eigenvalues differ identically by 2/A^2	toric diagonal reciprocal class was supplied; periodicity is not local
+T03	diagonal circle generator	OPEN	projectors recover axes but do not choose weights or orientation	freeness selects abs-one weights only after S3 cap completion is supplied
+T03A	reciprocity reflection	CONDITIONAL_EXCHANGE_ISOMETRY	phi reversal exchanges the angular coefficients and phi=0 gives equal scales	requires even A^2 and Omega^2 plus the global circle exchange
+T03B	periodicity and opposite caps	ROUND_CONTROL_EXACT_GENERAL_OPEN	the round control has opposite primitive collapse limits 1/0 and 0/1	local projectors do not supply periods, cap cycles, or arbitrary-profile regularity
+T04	finite-endpoint Hopf readout	CONTINUOUS_BOUNDARY_DEPENDENT	Q=f(phi_minus)-f(phi_plus)	not topological or integral without global cap premises
+T05	unit Hopf class	CONDITIONAL_UNIT_CLASS	full reciprocal range and opposite primitive caps give f(-infinity)-f(+infinity)=1	periods, action, caps, orientation, and normalization are supplied premises
+T06	existing Hopf seed formula	EXACT_SEED_LEVEL_MATCH	standard Hopf coordinates with tan(eta)=exp(2phi) reproduce the code formula	not equality to relaxed field; no L2+L4 action or matter emergence follows

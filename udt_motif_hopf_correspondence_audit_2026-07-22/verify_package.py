@@ -12,6 +12,7 @@ from collections import Counter
 from pathlib import Path
 
 import verify_review_corrections as correction_verifier
+import build_correspondence_atlas as correspondence_builder
 
 
 HERE = Path(__file__).resolve().parent
@@ -34,6 +35,10 @@ def digest(path):
 
 def rows(path):
     with gzip.open(path,"rt",encoding="utf-8",newline="") as handle: yield from csv.DictReader(handle,delimiter="\t")
+
+
+def plain_rows(path):
+    with Path(path).open("rt",encoding="utf-8",newline="") as handle: return list(csv.DictReader(handle,delimiter="\t"))
 
 
 def validate_counts(identity_rows,path_count,summary_count):
@@ -64,6 +69,11 @@ def main():
     correction_verifier.validate_result(
         correction, correction_verifier.read_tsv(HERE/"SOURCE_LINEAGE.tsv")
     )
+    expected_lineage=correspondence_builder.source_lineage_rows()
+    actual_lineage=plain_rows(HERE/"SOURCE_LINEAGE.tsv")
+    if actual_lineage != expected_lineage: raise AssertionError("builder/current source lineage mismatch")
+    for row in expected_lineage:
+        if digest(ROOT/row["path"]) != row["sha256"]: raise AssertionError(f"builder source hash {row['path']}")
     identity_rows=sum(1 for _ in (HERE/"COHERENT_IDENTITY_REGISTRY.tsv").open())-1
     path_count=sum(1 for _ in rows(HERE/"PATH_FAMILY_ATLAS.tsv.gz")); summary_count=sum(1 for _ in rows(HERE/"PATH_CONTINUATION_SUMMARY.tsv.gz"))
     validate_counts(identity_rows,path_count,summary_count); validate_global_status(result); validate_toric(toric)

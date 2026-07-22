@@ -1,0 +1,25 @@
+{
+  "adverse_family_paths": 1312,
+  "adverse_path_family_comparisons": 22304,
+  "blind_anchor_identities": 64,
+  "blind_distribution_rows_compared": 3007,
+  "blind_path_family_comparisons": 33728,
+  "classification_mismatches": 0,
+  "independent_implementation": "frozen nonproduction motif algebra plus independent analytic Jet reconstruction",
+  "legacy_declaration_catches": 11,
+  "maximum_conclusion": "BOUNDED_ANALYTIC_PATH_AND_REGISTERED_CHART_DISTRIBUTION_REPLAY",
+  "status": "PASS_WITH_REGISTERED_SCOPE",
+  "toric_control_regression": {
+    "angular_gap": "2/A**2",
+    "conditional_unit_q": "1",
+    "quotient_norm": "1",
+    "round_caps": [
+      "1",
+      "0",
+      "0",
+      "1"
+    ]
+  },
+  "toric_independence_status": "REGRESSION_ONLY_SUPERSEDED_BY_REVIEW_CORRECTION",
+  "unstable_stencils_reproduced": 13
+}

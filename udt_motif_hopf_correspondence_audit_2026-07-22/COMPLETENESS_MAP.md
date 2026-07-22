@@ -15,9 +15,11 @@
 - all 63,488 possible edge cases accounted for: 63,438 covariant assignments and 50 retained
   unmatched transitions;
 - direct CPU execution of the frozen historical Hopf seed at 1,000 deterministic points;
-- outcome-blind and exhaustive adverse independent verification; and
+- outcome-blind and exhaustive adverse independent verification;
 - 29 corrupted-record mutation catches, including coordinated point/edge-accounting corruption and
-  every field found unguarded by the second and third reviews.
+  every field found unguarded by the second and third reviews; and
+- complete committed raw/generated evidence with a ten-row builder/current lineage identity and
+  package SHA-256 manifest.
 
 ## Present only as conditional controls
 

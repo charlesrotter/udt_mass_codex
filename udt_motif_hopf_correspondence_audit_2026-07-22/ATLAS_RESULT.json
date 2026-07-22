@@ -1,0 +1,48 @@
+{
+  "coherent_identities": 3072,
+  "distribution_class_census": {
+    "LOCALLY_INTEGRABLE_BY_RANK_ONE": 24870,
+    "NOT_CLASSIFIED": 13,
+    "NUMERICALLY_INTEGRABLE_LOCAL": 7487,
+    "NUMERICALLY_NONINTEGRABLE_LOCAL": 28377,
+    "NUMERIC_UNCERTAIN_OBSTRUCTION": 1,
+    "WHOLE_TANGENT_SPACE": 82739
+  },
+  "distribution_rows": 143487,
+  "global_hopf_eligible_local_identities": 0,
+  "global_status": "GLOBAL_DATA_ABSENT_FOR_ALL_LOCAL_ANALYTIC_IDENTITIES",
+  "holonomy_status": "NOT_TESTED_BY_OPEN_PATH",
+  "max_derivative_convergence_residual": 0.0031622520541422948,
+  "max_projector_validation_residual": 6.616041048346233e-11,
+  "maximum_conclusion": "BOUNDED_COHERENT_LOCAL_MOTIF_CONTINUATION_AND_DISTRIBUTIONS_CHARACTERIZED",
+  "metric_phi_twojets": 52224,
+  "motif_census": {
+    "FOUR_LINES": 23209,
+    "FULL_IRREDUCIBLE_4": 1213548,
+    "LINE_PLUS_THREE": 48960,
+    "NUMERIC_UNCERTAIN": 691,
+    "SCALAR_4_AMBIGUITY": 192576,
+    "TWO_PLUS_TWO_LINES": 139960
+  },
+  "motif_transition_count_census": {
+    "0": 93920,
+    "1": 613,
+    "2": 679,
+    "3": 9,
+    "4": 9,
+    "6": 2
+  },
+  "numeric_status_census": {
+    "NUMERIC_CLASSIFIED": 1618253,
+    "NUMERIC_UNCERTAIN": 691
+  },
+  "path_family_rows": 1618944,
+  "path_nodes": 17,
+  "path_summary_rows": 95232,
+  "schema": "udt-motif-hopf-correspondence-atlas-1.0",
+  "stable_projector_paths": 93920,
+  "stencil_status_census": {
+    "DEGENERATE_OR_UNCERTAIN_RETAINED": 13,
+    "STABLE_CLASSIFIED": 143474
+  }
+}
