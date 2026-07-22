@@ -1,0 +1,21 @@
+{
+  "block_rows": 237388,
+  "catch_proofs_passed": 12,
+  "configurations": 6144,
+  "development_limit": null,
+  "edge_rows": 460800,
+  "family_rows": 190464,
+  "maximum_conclusion": "BOUNDED_POINTWISE_INSTRUMENT_MOTIF_LATTICE_CHARACTERIZED",
+  "maximum_projector_covariance_residual": 2.0154672007171406e-11,
+  "maximum_projector_residual": 1.6370904631912708e-11,
+  "motif_fingerprints": 14,
+  "nonlinear_alignment_discordances": 0,
+  "nonlinear_edge_discordances": 429,
+  "nonlinear_family_rows": 380928,
+  "nonlinear_nonuncertain_discordances": 0,
+  "nonlinear_skipped": false,
+  "nonlinear_uncertain_rows": 145,
+  "numeric_margin_rows": 162,
+  "physical_merit_evaluated": false,
+  "schema": "udt-instrument-motif-atlas-1.0"
+}

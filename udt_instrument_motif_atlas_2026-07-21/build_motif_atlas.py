@@ -66,6 +66,7 @@ PREREG_HASHES = {
     "PREREGISTRATION.md": "52645cee5b259750834514eccfd2d34946b2b4fedc5e6286ac9f707f3cc9bd35",
     "INSTRUMENT_SUBSET_REGISTRY.tsv": "01a320a4ece35756ca1e9aee7ddf04f39db7c59688849cd19ea3270d9c7dd5e7",
     "PREREGISTRATION_CORRECTION.md": "8fa63a4a0e655d66451f5c38831305c96595495e6b8f8160c501489b6ac5f49c",
+    "EDGE_UNCERTAINTY_ACCOUNTING_CORRECTION.md": "0d9f1cc68dbf3f2d5716f2b80bccc11eed39777599a36a6ed2b3afd998818355",
 }
 COMPARISON_FIELDS = (
     "algebra_dimension", "commutant_dimension", "center_dimension",
@@ -275,7 +276,10 @@ def block_output_rows(configuration_id, registry_row, result):
 
 def alignment_output(configuration_id, transform_id, results):
     alignment = alignment_record(results[1], results[2])
-    numeric = "NUMERIC_UNCERTAIN" if alignment["commutator_uncertain"] else "NUMERIC_CLASSIFIED"
+    numeric = "NUMERIC_UNCERTAIN" if (
+        alignment["commutator_uncertain"]
+        or any(results[mask]["numeric_status"] != "NUMERIC_CLASSIFIED" for mask in (1, 2, 3))
+    ) else "NUMERIC_CLASSIFIED"
     return {
         "configuration_id": configuration_id,
         "transform_id": transform_id,
@@ -408,8 +412,13 @@ def main() -> None:
     nonlinear_rows = 0
     nonlinear_discordances = 0
     nonlinear_uncertain = 0
-    nonlinear_edge_discordances = 0
-    nonlinear_alignment_discordances = 0
+    nonlinear_edge_nonuncertain_discordances = 0
+    nonlinear_edge_uncertain_comparisons = 0
+    nonlinear_edge_uncertain_discordances = 0
+    nonlinear_edge_total_label_differences = 0
+    nonlinear_alignment_nonuncertain_discordances = 0
+    nonlinear_alignment_uncertain_comparisons = 0
+    nonlinear_alignment_uncertain_discordances = 0
     maximum_projector_residual = 0.0
     maximum_covariance_residual = 0.0
     seen = set()
@@ -557,14 +566,38 @@ def main() -> None:
                         transformed_edges[(edge["source_mask"], edge["destination_mask"])] = edge_transition(
                             transformed_results[int(edge["source_mask"])], transformed_results[int(edge["destination_mask"])]
                         )
-                    nonlinear_edge_discordances += sum(
-                        transformed_edges[key] != edge_lookup[key] for key in edge_lookup
-                    )
+                    for edge in edges:
+                        key = (edge["source_mask"], edge["destination_mask"])
+                        different = transformed_edges[key] != edge_lookup[key]
+                        uncertain_edge = any(
+                            current["numeric_status"] != "NUMERIC_CLASSIFIED"
+                            for current in (
+                                results[int(edge["source_mask"])], results[int(edge["destination_mask"])],
+                                transformed_results[int(edge["source_mask"])],
+                                transformed_results[int(edge["destination_mask"])],
+                            )
+                        )
+                        nonlinear_edge_total_label_differences += int(different)
+                        if uncertain_edge:
+                            nonlinear_edge_uncertain_comparisons += 1
+                            nonlinear_edge_uncertain_discordances += int(different)
+                        else:
+                            nonlinear_edge_nonuncertain_discordances += int(different)
                     transformed_alignment = alignment_output(configuration_id, transform["id"], transformed_results)
                     alignment_writer.writerow(transformed_alignment)
                     alignment_fields = ("alignment_class", "commutator_rank", "intersection_dimensions", "joint_motif")
-                    if any(transformed_alignment[field] != original_alignment[field] for field in alignment_fields):
-                        nonlinear_alignment_discordances += 1
+                    alignment_different = any(
+                        transformed_alignment[field] != original_alignment[field] for field in alignment_fields
+                    )
+                    alignment_uncertain = (
+                        original_alignment["numeric_status"] != "NUMERIC_CLASSIFIED"
+                        or transformed_alignment["numeric_status"] != "NUMERIC_CLASSIFIED"
+                    )
+                    if alignment_uncertain:
+                        nonlinear_alignment_uncertain_comparisons += 1
+                        nonlinear_alignment_uncertain_discordances += int(alignment_different)
+                    else:
+                        nonlinear_alignment_nonuncertain_discordances += int(alignment_different)
                     j = np.asarray(transform["J"])
                     naive_geometry = evaluate_metric_jets(MetricJets(
                         j.T @ metric @ j,
@@ -658,8 +691,13 @@ def main() -> None:
         "nonlinear_family_rows": nonlinear_rows,
         "nonlinear_nonuncertain_discordances": nonlinear_discordances,
         "nonlinear_uncertain_rows": nonlinear_uncertain,
-        "nonlinear_edge_discordances": nonlinear_edge_discordances,
-        "nonlinear_alignment_discordances": nonlinear_alignment_discordances,
+        "nonlinear_edge_nonuncertain_discordances": nonlinear_edge_nonuncertain_discordances,
+        "nonlinear_edge_uncertain_comparisons": nonlinear_edge_uncertain_comparisons,
+        "nonlinear_edge_uncertain_discordances": nonlinear_edge_uncertain_discordances,
+        "nonlinear_edge_total_label_differences": nonlinear_edge_total_label_differences,
+        "nonlinear_alignment_nonuncertain_discordances": nonlinear_alignment_nonuncertain_discordances,
+        "nonlinear_alignment_uncertain_comparisons": nonlinear_alignment_uncertain_comparisons,
+        "nonlinear_alignment_uncertain_discordances": nonlinear_alignment_uncertain_discordances,
         "maximum_projector_residual": maximum_projector_residual,
         "maximum_projector_covariance_residual": maximum_covariance_residual,
         "motif_fingerprints": len(fingerprint_census),

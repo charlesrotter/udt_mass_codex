@@ -1,0 +1,7 @@
+item	expected	actual	result
+configurations	6144	6144	PASS
+families	190464	190464	PASS
+edge rows	460800	460800	PASS
+nonlinear family comparisons	380928	380928	PASS
+catch proofs	12	12	PASS
+discarded rows	0	0	PASS

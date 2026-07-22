@@ -1,0 +1,13 @@
+catch_id	mutation	result
+K01	drop one subset	PASS
+K02	duplicate one subset	PASS
+K03	drop one edge	PASS
+K04	duplicate one edge	PASS
+K05	drop registered operator	PASS
+K06	supply coordinate target plane	PASS
+K07	replace zero dyad by normalized identity	PASS
+K08	mutate block signature	PASS
+K09	flip gradient incidence	PASS
+K10	omit nonlinear map jets	PASS
+K11	escalate uncertain row	PASS
+K12	false same-split alignment	PASS
