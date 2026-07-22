@@ -63,6 +63,25 @@ def write_tsv(path: Path, fields, rows) -> None:
         writer.writeheader(); writer.writerows(rows)
 
 
+def registered_edge_identities(registry: list[dict[str, str]]) -> set[tuple[int, int]]:
+    masks = {int(row["mask"]) for row in registry}
+    return {(source, source | bit) for source in masks for bit in BITS.values()
+            if not source & bit and source | bit in masks}
+
+
+def validate_edge_identities(edges: set[tuple[int, int]]) -> None:
+    expected = {(source, source | bit) for source in range(1, 32) for bit in BITS.values()
+                if not source & bit}
+    if edges != expected or len(edges) != 75:
+        raise AssertionError("edge identity set")
+
+
+def validate_operator_count(values: list[np.ndarray], keys: tuple[str, ...]) -> None:
+    expected = sum(6 if key in {"RG", "WG"} else 1 for key in keys)
+    if len(values) != expected:
+        raise AssertionError(f"operator count {len(values)} != {expected}")
+
+
 def relmax(actual, expected) -> float:
     a = np.asarray(actual, dtype=float); b = np.asarray(expected, dtype=float)
     return float(np.max(np.abs(a - b)) / max(1.0, float(np.max(np.abs(b)))))
@@ -518,10 +537,23 @@ def main() -> None:
         catches.append({"catch_id": catch_id, "result": "REJECTED_AS_REQUIRED"})
     reject("K01_MISSING_SUBSET", len(registry[:-1]) != 31)
     reject("K02_DUPLICATE_SUBSET", len({row["mask"] for row in [*registry[:-1], registry[-2]]}) != 31)
-    reject("K03_MISSING_EDGE", 74 != 75)
+    edge_identities = registered_edge_identities(registry)
+    validate_edge_identities(edge_identities)
+    missing_edges = set(edge_identities); missing_edges.pop()
+    try:
+        validate_edge_identities(missing_edges); missing_edge_rejected = False
+    except AssertionError:
+        missing_edge_rejected = True
+    reject("K03_MISSING_EDGE", missing_edge_rejected)
+    full_keys = ("R","H","D","RG","WG")
     full_values = operators(objects(np.eye(4), np.zeros((4,4,4)), np.zeros((4,4,4,4)),
-                                    np.zeros(4), np.zeros((4,4)))[0], ("R","H","D","RG","WG"))
-    reject("K04_DROPPED_OPERATOR", len(full_values[:-1]) != len(full_values))
+                                    np.zeros(4), np.zeros((4,4)))[0], full_keys)
+    validate_operator_count(full_values, full_keys)
+    try:
+        validate_operator_count(full_values[:-1], full_keys); dropped_operator_rejected = False
+    except AssertionError:
+        dropped_operator_rejected = True
+    reject("K04_DROPPED_OPERATOR", dropped_operator_rejected)
     try:
         classify([], np.zeros(4), np.eye(4), {"R":np.eye(4),"H":np.eye(4),"D":np.eye(4)}, ("R",), target_plane=np.eye(4)[:,:2])
         supplied_rejected = False

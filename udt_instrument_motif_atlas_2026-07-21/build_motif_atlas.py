@@ -67,6 +67,7 @@ PREREG_HASHES = {
     "INSTRUMENT_SUBSET_REGISTRY.tsv": "01a320a4ece35756ca1e9aee7ddf04f39db7c59688849cd19ea3270d9c7dd5e7",
     "PREREGISTRATION_CORRECTION.md": "8fa63a4a0e655d66451f5c38831305c96595495e6b8f8160c501489b6ac5f49c",
     "EDGE_UNCERTAINTY_ACCOUNTING_CORRECTION.md": "0d9f1cc68dbf3f2d5716f2b80bccc11eed39777599a36a6ed2b3afd998818355",
+    "CATCH_VALIDATOR_STRENGTHENING.md": "effeeb6ad75bab60997d73f1c13ccb2aee38d6ff904ad6b8a24d21d6e193de52",
 }
 COMPARISON_FIELDS = (
     "algebra_dimension", "commutant_dimension", "center_dimension",
@@ -177,12 +178,34 @@ def edge_registry(registry: list[dict[str, str]]) -> list[dict[str, object]]:
                 "destination_family_id": by_mask[destination_mask]["family_id"],
                 "added_instrument": key,
             })
-    if len(edges) != EXPECTED_EDGE_TYPES:
-        raise AssertionError(f"edge types {len(edges)}")
-    identities = {(edge["source_mask"], edge["destination_mask"]) for edge in edges}
-    if len(identities) != EXPECTED_EDGE_TYPES:
-        raise AssertionError("duplicate edge")
+    validate_edge_registry(registry, edges)
     return edges
+
+
+def validate_edge_registry(registry: list[dict[str, str]], edges: list[dict[str, object]]) -> None:
+    by_mask = {int(row["mask"]): row for row in registry}
+    expected = []
+    for source_mask in range(1, 32):
+        for key, bit in GROUP_BITS.items():
+            if source_mask & bit:
+                continue
+            destination_mask = source_mask | bit
+            expected.append((
+                f"E{source_mask:02d}_{destination_mask:02d}", source_mask, destination_mask,
+                by_mask[source_mask]["family_id"], by_mask[destination_mask]["family_id"], key,
+            ))
+    actual = [(
+        edge["edge_id"], int(edge["source_mask"]), int(edge["destination_mask"]),
+        edge["source_family_id"], edge["destination_family_id"], edge["added_instrument"],
+    ) for edge in edges]
+    if len(expected) != EXPECTED_EDGE_TYPES or actual != expected:
+        raise AssertionError("edge registry missing duplicate or mislabeled identity")
+
+
+def validate_operator_count(operators: list[np.ndarray], keys: tuple[str, ...]) -> None:
+    expected = sum(6 if key in {"RG", "WG"} else 1 for key in keys)
+    if len(operators) != expected:
+        raise AssertionError(f"operator count {len(operators)} != {expected} for {keys}")
 
 
 def check_sources(output_dir: Path) -> list[dict[str, str]]:
@@ -232,8 +255,10 @@ def classify_registry(objects: dict[str, object], registry: list[dict[str, str]]
     results = {}
     for row in registry:
         keys = tuple(row["operator_keys"].split(";"))
+        operators = family_operators(objects, keys)
+        validate_operator_count(operators, keys)
         results[int(row["mask"])] = classify_motif_family(
-            family_operators(objects, keys), np.asarray(objects["gradient"]),
+            operators, np.asarray(objects["gradient"]),
             np.asarray(objects["metric"]), scalar, keys,
         )
     return results
@@ -343,13 +368,13 @@ def run_catches(registry, edges, examples) -> list[dict[str, str]]:
 
     caught("K01", "drop one subset", lambda: validate_registry(registry[:-1]))
     caught("K02", "duplicate one subset", lambda: validate_registry([*registry[:-1], registry[-2]]))
-    caught("K03", "drop one edge", lambda: (_ for _ in ()).throw(AssertionError()) if len(edges[:-1]) != 75 else None)
+    caught("K03", "drop one edge", lambda: validate_edge_registry(registry, edges[:-1]))
     duplicate_edges = [*edges[:-1], edges[-2]]
-    caught("K04", "duplicate one edge", lambda: (_ for _ in ()).throw(AssertionError())
-           if len({(x["source_mask"], x["destination_mask"]) for x in duplicate_edges}) != 75 else None)
+    caught("K04", "duplicate one edge", lambda: validate_edge_registry(registry, duplicate_edges))
     family_example = examples["family"]
-    caught("K05", "drop registered operator", lambda: (_ for _ in ()).throw(AssertionError())
-           if family_example["actual_operator_count"] != family_example["expected_operator_count"] else None)
+    caught("K05", "drop registered operator", lambda: validate_operator_count(
+        family_example["operators"][:-1], family_example["keys"]
+    ))
     caught("K06", "supply coordinate target plane", lambda: classify_motif_family(
         family_example["operators"], family_example["gradient"], family_example["metric"],
         family_example["scalar"], family_example["keys"], target_plane=np.eye(4)[:, :2]))
@@ -514,8 +539,6 @@ def main() -> None:
                 keys = tuple(target_row["operator_keys"].split(";"))
                 operators = family_operators(objects, keys)
                 examples["family"] = {
-                    "actual_operator_count": len(operators) - 1,
-                    "expected_operator_count": len(operators),
                     "operators": operators,
                     "gradient": np.asarray(objects["gradient"]),
                     "metric": np.asarray(objects["metric"]),
