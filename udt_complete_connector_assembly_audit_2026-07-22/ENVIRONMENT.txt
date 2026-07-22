@@ -1,0 +1,7 @@
+date=2026-07-22
+python=Python 3.10.12
+kernel=Linux 6.8.0-124-generic x86_64 GNU/Linux
+git=git version 2.34.1
+compute=CPU_ONLY_STDLIB_EXACT_AUDIT
+gpu_runs=0
+physics_solves=0

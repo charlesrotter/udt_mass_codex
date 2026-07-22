@@ -1,0 +1,31 @@
+{
+  "assembled_cross_rows": 84,
+  "base": "5457a36f96e46424032899dcb1a1a0874f273c58",
+  "candidate_rows": 380,
+  "catch_proofs": 26,
+  "conditional_control_presentations": 12,
+  "independent_check_count": 18,
+  "independent_checks": {
+    "cf01_two_ended": true,
+    "cf02_cancelled": true,
+    "cf03_reversed": true,
+    "cf04_oscillatory": true,
+    "cf05_shift_oneway": true,
+    "cf05_shift_roundtrip": true,
+    "cf05_shift_timelike": true,
+    "cf06_uniform_path": true,
+    "cf07_nonuniform_path": true,
+    "cf08_bottleneck": true,
+    "direct_det_0": true,
+    "direct_det_1": true,
+    "direct_root_0_0": true,
+    "direct_root_0_1": true,
+    "direct_root_1_0": true,
+    "direct_root_1_1": true,
+    "direct_uniform_path": true,
+    "direct_weight_dependence": true
+  },
+  "status": "PASS",
+  "undefined_rows": 72,
+  "unique_conditional_metric_controls": 1
+}
