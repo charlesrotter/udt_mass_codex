@@ -1,0 +1,7 @@
+block_id	motif	primitive_ranks	primitive_signatures	family_rows	bounded_observation	physical_status
+B01	SCALAR_4_AMBIGUITY	4	N1_P3_Z0	22656	All registered instruments in the family are scalar/silent at the point and distinguish no proper subspace.	OPEN_NO_PHYSICAL_SELECTION
+B02	TWO_PLUS_TWO_LINES	1;1;2	N0_P1_Z0;N0_P1_Z0;N1_P1_Z0	16431	One primitive Lorentzian rank-two block and two primitive spacelike lines; the rank-two block is the real primary block of a complex-conjugate R or H spectrum.	OPEN_ALGEBRAIC_CANDIDATE_ONLY
+B03	FOUR_LINES	1;1;1;1	N0_P1_Z0;N0_P1_Z0;N0_P1_Z0;N1_P0_Z0	2764	One primitive timelike line and three primitive spacelike lines.	OPEN_NO_PHYSICAL_SELECTION
+B04	LINE_PLUS_THREE	1;3	{N0_P1_Z0,N1_P2_Z0} OR {N1_P0_Z0,N0_P3_Z0} UNORDERED	5760	The registered nonzero nonnull phi-gradient dyad distinguishes its one-dimensional image and the metric-orthogonal three-dimensional complement; no nonzero null gradient occurs.	OPEN_NO_PHYSICAL_SELECTION
+B05	FULL_IRREDUCIBLE_4	4	N1_P3_Z0	142836	The registered instruments jointly generate the full four-dimensional matrix algebra and preserve no proper common subspace.	OPEN_NO_PHYSICAL_SELECTION
+B06	NUMERIC_UNCERTAIN	variable retained	retained not promoted	17	A numerical certification margin was encountered; the row remains in all counts and supports no motif claim.	NUMERIC_UNCERTAIN

@@ -1,0 +1,4 @@
+UDT_MOTIF_MARGIN_ESCALATION=PASS
+ledger_rows=162 identities=124 original=124 transformed=248
+independent_uncertain=156 discordant_identities=0
+targeting=POST_OUTCOME_ALL_MARGIN_IDENTITIES

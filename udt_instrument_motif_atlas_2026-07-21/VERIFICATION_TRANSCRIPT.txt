@@ -1,0 +1,5 @@
+UDT_INSTRUMENT_MOTIF_ATLAS_VERIFICATION=PASS
+anchors=384 original=11904 transformed=23808 total=35712
+parent_residual=0 covariance_residual=1.9608027118610747e-16 saved_projector_distance=5.2239323977687491e-12
+uncertain=0 catch_proofs=12
+maximum_conclusion=BOUNDED_POINTWISE_INSTRUMENT_MOTIF_LATTICE_CHARACTERIZED

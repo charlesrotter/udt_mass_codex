@@ -1,0 +1,15 @@
+{
+  "blind_anchor_configurations": 384,
+  "catch_proofs": 12,
+  "independent_uncertain_classifications": 0,
+  "maximum_conclusion": "BOUNDED_POINTWISE_INSTRUMENT_MOTIF_LATTICE_CHARACTERIZED",
+  "maximum_nonlinear_covariance_residual": 1.9608027118610747e-16,
+  "maximum_parent_tensor_residual": 0.0,
+  "maximum_saved_projector_distance": 5.223932397768749e-12,
+  "omitted_nonlinear_jet_residual": 0.012773925363472115,
+  "original_family_classifications": 11904,
+  "saved_comparisons": 35712,
+  "status": "PASS",
+  "total_family_classifications": 35712,
+  "transformed_family_classifications": 23808
+}

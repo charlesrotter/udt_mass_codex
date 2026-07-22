@@ -1,0 +1,29 @@
+{
+  "catch_proofs": 5,
+  "configurations": 6144,
+  "edge_rows": 460800,
+  "edges": 75,
+  "families": 31,
+  "family_rows": 190464,
+  "gradient_split_across_incidences": 7840,
+  "maximum_conclusion": "BOUNDED_POINTWISE_INSTRUMENT_MOTIF_LATTICE_CHARACTERIZED",
+  "motif_counts": {
+    "FOUR_LINES": 2764,
+    "FULL_IRREDUCIBLE_4": 142836,
+    "LINE_PLUS_THREE": 5760,
+    "NUMERIC_UNCERTAIN": 17,
+    "SCALAR_4_AMBIGUITY": 22656,
+    "TWO_PLUS_TWO_LINES": 16431
+  },
+  "ricci_hessian_crossing_splits": 2090,
+  "schema": "udt-instrument-motif-package-contract-1.0",
+  "source_lineage_entries": 8,
+  "status": "PASS",
+  "transition_counts": {
+    "AMBIGUITY_TO_CERTIFIED_MOTIF": 13437,
+    "FULL_ALGEBRA_REMAINS_FULL": 313692,
+    "MIXES_TO_FULL_ALGEBRA": 75996,
+    "NUMERIC_UNCERTAIN": 79,
+    "PRIMITIVE_BLOCKS_PRESERVED": 57596
+  }
+}

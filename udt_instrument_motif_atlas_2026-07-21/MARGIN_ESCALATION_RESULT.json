@@ -1,0 +1,10 @@
+{
+  "discordant_identities": 0,
+  "independent_uncertain_classifications": 156,
+  "margin_ledger_rows": 162,
+  "original_classifications": 124,
+  "status": "PASS",
+  "targeting": "POST_OUTCOME_ALL_MARGIN_IDENTITIES",
+  "transformed_classifications": 248,
+  "unique_target_identities": 124
+}

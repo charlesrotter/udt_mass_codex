@@ -1,0 +1,12 @@
+id	question	answer	evidence
+A01	Was any action field equation source carrier boundary scale or physical target loaded?	NO	PREREGISTRATION.md premise ledger and SOURCE_LINEAGE.tsv
+A02	Was any instrument subset omitted or selected after outcomes?	NO	All 31 nonempty masks occur once in INSTRUMENT_SUBSET_REGISTRY.tsv and all have 6144 rows
+A03	Was any rare configuration promoted because it resembled desired physics?	NO	Every configuration has equal ledger weight and no physical-merit field was evaluated
+A04	Was a supplied angular plane projector or coordinate split used?	NO	Primitive blocks were reconstructed from the generated operator algebra and its center
+A05	Were zero or nonzero gradients normalized to force a direction?	NO	D is the unnormalized dyad and zero gradients retain scalar ambiguity
+A06	Were numerical margins discarded retuned or promoted?	NO	17 original uncertain family rows and every transformed uncertain comparison remain recorded; all-margin escalation was exhaustive
+A07	Was RG/WG motif equivalence reported as operator equality?	NO	INTERACTION_RULE_LEDGER.tsv limits the statement to saved motif/projector classifications
+A08	Was the Lorentzian rank-two block called a physical reciprocal plane?	NO	STATUS_LEDGER.tsv marks that interpretation OPEN
+A09	Was full irreducibility called a negative theorem about global or time-live structure?	NO	The report limits it to common pointwise invariant subspaces of registered two-jet instruments
+A10	Does the atlas claim completeness beyond five groups pointwise at two-jet order?	NO	COMPLETENESS_MAP.md lists higher jets transport dynamics topology and global completion as absent
+A11	Does the atlas claim the abstract motif vocabulary is unique to UDT?	NO	STATUS_LEDGER.tsv leaves uniqueness OPEN because no matched generic Lorentzian comparison was run
