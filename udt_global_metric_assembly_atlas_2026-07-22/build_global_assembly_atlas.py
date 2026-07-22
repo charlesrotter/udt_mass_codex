@@ -626,6 +626,8 @@ def monodromy_registry() -> list[dict[str, object]]:
             kind = "ORIENTATION_REVERSING"
         elif matrix.tolist() == [[1, 0], [0, 1]]:
             kind = "IDENTITY"
+        elif matrix.tolist() == [[-1, 0], [0, -1]]:
+            kind = "FINITE_ELLIPTIC"
         elif abs(trace) < 2:
             kind = "FINITE_ELLIPTIC"
         elif abs(trace) == 2:
@@ -751,7 +753,7 @@ def holonomy_registry(completions, monodromies, exact):
 def selector_matrix(completions):
     selectors = [
         ("RECIPROCITY", "reciprocal exponential comparison and Z2-graded transition algebra", "udt_global_coframe_cocycle_audit_2026-07-20/AUDIT_REPORT.md"),
-        ("CSN", "positive common scale is calibration before material scale selection", "UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md"),
+        ("CSN", "positive common scale is calibration before material scale selection", "angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md"),
         ("FINITE_CELL", "finite mirrored physical cell/no spatial infinity; boundary completion not specified", "angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md"),
         ("STATIC_SEAL", "static phi parity/value only; complete coframe lift and polarization open", "complete_coframe_seal_involution_2026-07-20/AUDIT_REPORT.md"),
         ("BOOTSTRAP", "on-shell admissibility without off-shell ranking functional", "boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md"),

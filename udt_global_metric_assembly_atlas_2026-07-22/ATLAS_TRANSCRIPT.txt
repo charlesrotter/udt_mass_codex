@@ -1,4 +1,4 @@
-Script started on 2026-07-22 10:44:57-04:00 [TERM="dumb" TTY="/dev/console" COLUMNS="80" LINES="24"]
+Script started on 2026-07-22 11:12:07-04:00 [<not executed on terminal>]
 {
   "bounded_cap_pair_topology_census": {
     "LENS_L_P_Q_CONVENTION": 182,
@@ -38,11 +38,11 @@ Script started on 2026-07-22 10:44:57-04:00 [TERM="dumb" TTY="/dev/console" COLU
   },
   "midpoint_integrable_unique_analytic_identities": 192,
   "monodromy_class_census": {
-    "FINITE_ELLIPTIC": 2,
+    "FINITE_ELLIPTIC": 3,
     "HYPERBOLIC": 1,
     "IDENTITY": 1,
     "ORIENTATION_REVERSING": 2,
-    "PARABOLIC_OR_MINUS_PARABOLIC": 2
+    "PARABOLIC_OR_MINUS_PARABOLIC": 1
   },
   "monodromy_witness_count": 8,
   "motif_completion_cross_rows": 84,
@@ -64,4 +64,4 @@ Script started on 2026-07-22 10:44:57-04:00 [TERM="dumb" TTY="/dev/console" COLU
   "unique_frozen_path_identities": 95232
 }
 
-Script done on 2026-07-22 10:50:18-04:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2026-07-22 11:18:32-04:00 [COMMAND_EXIT_CODE="0"]

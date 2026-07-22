@@ -17,3 +17,5 @@ C15	activate time-live before native dynamics	PASS_MUTATION_REJECTED
 C16	promote supplied density to native selector	PASS_MUTATION_REJECTED
 C17	mark native fixed point closed without mass	PASS_MUTATION_REJECTED
 C18	filter singular completion from registry	PASS_MUTATION_REJECTED
+C19	misclassify minus identity as parabolic	PASS_MUTATION_REJECTED
+C20	cite unpinned dispatch for CSN	PASS_MUTATION_REJECTED

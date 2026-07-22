@@ -2,7 +2,7 @@
 
 Date: 2026-07-22
 
-Status: `INTERNAL_VERIFIED_WITH_REGISTERED_NUMERIC_MARGINS__FRESH_EXTERNAL_REVIEW_PENDING`
+Status: `FRESH_REVIEW_CORRECTIONS_APPLIED__INTERNAL_REPLAY_PASS__FRESH_CORRECTION_REVIEW_PENDING`
 
 Maximum conclusion:
 
@@ -157,7 +157,9 @@ family. The exact general rule remains `p=|det(v_-,v_+)|`.
 
 Eight explicit `GL(2,Z)` controls cover identity, finite elliptic, parabolic, hyperbolic, and
 orientation-reversing mapping-torus classes. The parametric family is not reduced to those eight
-witnesses.
+witnesses. Their corrected class census is three finite elliptic witnesses (including the exact
+order-two element `-I`), one nontrivial parabolic witness, one identity, one hyperbolic witness, and
+two orientation-reversing witnesses.
 
 Every one of seven motif/transition/control classes is crossed with every completion family in the
 84-row `MOTIF_COMPLETION_ATLAS.tsv`. A cross-row records compatibility requirements; it is not an
@@ -240,7 +242,7 @@ Stage 7 additionally requires a native nonlinear evolution law, constraints, bou
 residual. Those objects are absent. No relaxation trajectory was relabeled as time, no CPU
 time-evolution solve was run, and GPU work was not launched.
 
-## Verification status before fresh external review
+## Verification and fresh-review status
 
 The internal independent verifier:
 
@@ -249,22 +251,29 @@ The internal independent verifier:
 - reruns three nontrivial transport anchors with a different integrator;
 - checks all cap determinants and all monodromy witnesses;
 - verifies all 84 motif/completion and all 84 selector rows;
-- exercises 18 corruption catches; and
+- exercises 20 corruption catches, including the exact `-I` class and pinned CSN source; and
 - reproduces both fail-closed stage gates.
 
 The first verifier output had a report-only motif-label reuse bug. Its result and transcript are
 preserved. The correction was separately preregistered and the full verifier rerun successfully.
 
-Fresh zero-context adversarial review remains pending at this report revision.
+The preserved fresh zero-context review returned `PASS-WITH-CAVEATS`. It independently reproduced
+the load-bearing counts and algebra and found two bounded defects: `-I` was grouped with the
+parabolic witnesses, and the CSN matrix cited an unpinned dispatch instead of the already-frozen
+angular-toric audit. Correction scope was separately preregistered at commit `cab6ec6`. The package
+now classifies `-I` as finite elliptic, pins all CSN rows to the frozen source, and exercises explicit
+mutation catches for both failures. Internal deterministic regeneration and verifier replay pass.
+Fresh independent review of the applied correction remains pending at this report revision.
 
 ## Four banking gates
 
-1. Preregistered: **YES**, commit `8bf1906`; verifier-label correction preregistered at `4700c68`.
+1. Preregistered: **YES**, commit `8bf1906`; verifier-label correction preregistered at `4700c68`;
+   fresh-review corrections preregistered at `cab6ec6`.
 2. Full space or bounded scope justified: **YES FOR THE REGISTERED TAXONOMY**, not arbitrary global
    four-geometries, actions, or EOM solution space.
-3. Independently verified on the load-bearing premise: **YES IN PACKAGE**, with fresh external review
-   still pending.
+3. Independently verified on the load-bearing premise: **YES IN PACKAGE**; the fresh reviewer
+   reproduced the principal claims, with independent correction replay still pending.
 4. Every premise audited: **YES FOR THE DECLARED ATLAS**, including the local/global, transport/
    holonomy, phi-solo/orchestra, density-input/output, and Stage-6/7 boundaries.
 
-Current bankable grade before external review: `LEAD / VERIFIED-WITH-CAVEATS PENDING FRESH REVIEW`.
+Current bankable grade: `VERIFIED-WITH-CAVEATS PENDING FRESH CORRECTION REVIEW`.

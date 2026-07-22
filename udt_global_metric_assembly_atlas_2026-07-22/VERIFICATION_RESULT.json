@@ -6,7 +6,7 @@
   ],
   "candidate_unique_analytic_identities": 192,
   "cap_witnesses": 256,
-  "catch_proofs": 18,
+  "catch_proofs": 20,
   "completion_classes": 12,
   "dense_transport_status_census": {
     "DENSE_TRANSPORT_NUMERIC_MARGIN_RETAINED": 7,

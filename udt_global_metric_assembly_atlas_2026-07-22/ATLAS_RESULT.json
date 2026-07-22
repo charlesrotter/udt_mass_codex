@@ -37,11 +37,11 @@
   },
   "midpoint_integrable_unique_analytic_identities": 192,
   "monodromy_class_census": {
-    "FINITE_ELLIPTIC": 2,
+    "FINITE_ELLIPTIC": 3,
     "HYPERBOLIC": 1,
     "IDENTITY": 1,
     "ORIENTATION_REVERSING": 2,
-    "PARABOLIC_OR_MINUS_PARABOLIC": 2
+    "PARABOLIC_OR_MINUS_PARABOLIC": 1
   },
   "monodromy_witness_count": 8,
   "motif_completion_cross_rows": 84,

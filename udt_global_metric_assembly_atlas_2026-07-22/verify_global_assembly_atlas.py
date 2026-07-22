@@ -148,6 +148,23 @@ def gcd_pair(text: str):
     return a, b
 
 
+def independent_monodromy_class(matrix: np.ndarray) -> str:
+    value = np.asarray(matrix, dtype=int)
+    determinant = int(round(np.linalg.det(value)))
+    trace = int(np.trace(value))
+    if determinant == -1:
+        return "ORIENTATION_REVERSING"
+    if value.tolist() == [[1, 0], [0, 1]]:
+        return "IDENTITY"
+    if value.tolist() == [[-1, 0], [0, -1]]:
+        return "FINITE_ELLIPTIC"
+    if abs(trace) < 2:
+        return "FINITE_ELLIPTIC"
+    if abs(trace) == 2:
+        return "PARABOLIC_OR_MINUS_PARABOLIC"
+    return "HYPERBOLIC"
+
+
 def completion_and_holonomy_checks():
     completions = rows(HERE / "COMPLETION_CLASS_REGISTRY.tsv")
     require(len(completions) == 12 and len({row["completion_id"] for row in completions}) == 12, "completion registry")
@@ -178,6 +195,15 @@ def completion_and_holonomy_checks():
         require(int(row["determinant"]) == int(round(np.linalg.det(matrix))), "monodromy determinant")
         require(abs(int(row["determinant"])) == 1, "monodromy GL2Z")
         require(int(row["trace"]) == int(np.trace(matrix)), "monodromy trace")
+        require(row["monodromy_class"] == independent_monodromy_class(matrix), "monodromy class")
+    monodromy_census = Counter(row["monodromy_class"] for row in monodromies)
+    require(monodromy_census == Counter({
+        "FINITE_ELLIPTIC": 3,
+        "ORIENTATION_REVERSING": 2,
+        "IDENTITY": 1,
+        "PARABOLIC_OR_MINUS_PARABOLIC": 1,
+        "HYPERBOLIC": 1,
+    }), "monodromy class census")
 
     holonomy = rows(HERE / "BUNDLE_HOLONOMY_ATLAS.tsv")
     require(len(holonomy) == 20, "holonomy row count")
@@ -191,6 +217,11 @@ def selector_and_stage_checks(completions):
     require(len(selectors) == 7 * len(completions), "selector matrix cross")
     require(all(row["selection_power"] == "NONSELECTING_IN_CURRENT_REGISTRY" for row in selectors), "selector power")
     require({row["selector_id"] for row in selectors} == {"RECIPROCITY", "CSN", "FINITE_CELL", "STATIC_SEAL", "BOOTSTRAP", "SCALE_MATTER_INVENTORY", "DENSITY_BOOTSTRAP"}, "selector identities")
+    frozen_roots = {Path(row["path"]).parent.as_posix() for row in rows(HERE / "SOURCE_LINEAGE.tsv")}
+    require(all(Path(row["source"]).parent.as_posix() in frozen_roots for row in selectors), "selector source frozen")
+    require(all((ROOT / row["source"]).is_file() for row in selectors), "selector source resolves")
+    csn_source = "angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md"
+    require(all(row["source"] == csn_source for row in selectors if row["selector_id"] == "CSN"), "CSN source")
     density = rows(HERE / "DENSITY_BOOTSTRAP_CIRCULARITY_LEDGER.tsv")
     require(len(density) == 5, "density routes")
     desired = next(row for row in density if row["route_id"] == "D03_NATIVE_SIMULTANEOUS_FIXED_POINT")
@@ -315,7 +346,7 @@ def exact_connection_control():
     return {"metric_skew_residual": relmax(kato.T @ eta + eta @ kato, np.zeros((4, 4))), "kato_generator_residual": relmax(kato, generator)}
 
 
-def run_catches(path_census, transport, summaries, follow, provenance, completions, assembly, caps, holonomy, selectors, density, stages):
+def run_catches(path_census, transport, summaries, follow, provenance, completions, assembly, caps, monodromies, holonomy, selectors, density, stages):
     catches = []
 
     def exercise(catch_id, description, mutator, validator):
@@ -346,6 +377,8 @@ def run_catches(path_census, transport, summaries, follow, provenance, completio
     exercise("C16", "promote supplied density to native selector", lambda: [{**r, "selection_authority": "NATIVE_SELECTOR"} if r["route_id"] == "D01_OBSERVED_DENSITY_INPUT" else r for r in density], lambda value: require(next(r for r in value if r["route_id"] == "D01_OBSERVED_DENSITY_INPUT")["selection_authority"] == "COMPARISON_OR_CALIBRATION_ONLY", "density input promotion"))
     exercise("C17", "mark native fixed point closed without mass", lambda: [{**r, "mass_status": "DERIVED"} if r["route_id"] == "D03_NATIVE_SIMULTANEOUS_FIXED_POINT" else r for r in density], lambda value: require(next(r for r in value if r["route_id"] == "D03_NATIVE_SIMULTANEOUS_FIXED_POINT")["mass_status"] == "OPEN_NATIVE_OBJECT_REQUIRED", "mass chicken egg"))
     exercise("C18", "filter singular completion from registry", lambda: [r for r in completions if r["completion_id"] != "FC06_NONPRIMITIVE_CAP"], lambda value: require(len(value) == 12, "merit filtering"))
+    exercise("C19", "misclassify minus identity as parabolic", lambda: [{**r, "monodromy_class": "PARABOLIC_OR_MINUS_PARABOLIC"} if r["monodromy_id"] == "M_MINUS_IDENTITY" else r for r in monodromies], lambda value: require(all(r["monodromy_class"] == independent_monodromy_class(np.asarray(json.loads(r["matrix"]), dtype=int)) for r in value), "minus identity class"))
+    exercise("C20", "cite unpinned dispatch for CSN", lambda: [{**r, "source": "UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md"} if r["selector_id"] == "CSN" else r for r in selectors], lambda value: require(all(r["source"] == "angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md" for r in value if r["selector_id"] == "CSN"), "unpinned CSN source"))
     return catches
 
 
@@ -358,7 +391,7 @@ def main():
     independent_exact = exact_connection_control()
     independent_anchors = independent_transport_anchors(transport)
     path_census = rows(HERE / "PATH_ASSEMBLY_CENSUS.tsv.gz")
-    catches = run_catches(path_census, transport, summaries, follow, provenance, completions, assembly, caps, holonomy, selectors, density, stages)
+    catches = run_catches(path_census, transport, summaries, follow, provenance, completions, assembly, caps, monodromies, holonomy, selectors, density, stages)
     with (HERE / "CATCH_PROOFS.tsv").open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(catches[0]), delimiter="\t", lineterminator="\n")
         writer.writeheader()
