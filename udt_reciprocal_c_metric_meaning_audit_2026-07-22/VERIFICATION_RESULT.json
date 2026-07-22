@@ -1,0 +1,113 @@
+{
+  "agreement": {
+    "general_3plus1_assembly": "UNDERDETERMINED",
+    "observer_covariance": "PASS",
+    "prior_subbundle_regrade": "PASS",
+    "reciprocal_block": "PASS",
+    "static_spherical_control": "PASS",
+    "unchanged_components_candidate": "REFUTED_NONTRIVIAL"
+  },
+  "base": "f5f30018dda111f4bf131a5675f8480ca605a268",
+  "catch_proofs": {
+    "details": {
+      "broken_passive_covariance_rejected": "PASS",
+      "broken_reciprocal_pairing_rejected": "PASS",
+      "direction_independence_without_selector_rejected": "PASS",
+      "duplicate_status_row_rejected": "PASS",
+      "gr_dynamics_import_rejected": "PASS",
+      "micro_frame_inheritance_rejected": "PASS",
+      "missing_status_row_rejected": "PASS",
+      "naive_isotropic_det_one_claim_rejected": "PASS",
+      "overstated_realization_status_rejected": "PASS",
+      "preferred_frame_inferred_from_solution_field_rejected": "PASS",
+      "prior_exact_stabilizer_deletion_rejected": "PASS",
+      "production_false_check_rejected": "PASS",
+      "reciprocal_c_alone_uv_claim_rejected": "PASS",
+      "source_hash_corruption_rejected": "PASS",
+      "unchanged_diagonal_nonzero_frame_claim_rejected": "PASS",
+      "unconditional_complete_metric_ruling_rejected": "PASS",
+      "unique_spatial_weight_claim_rejected": "PASS",
+      "wrong_prereg_base_rejected": "PASS"
+    },
+    "passed": 18,
+    "total": 18
+  },
+  "caveat": "NO_FRESH_EXTERNAL_MODEL_SEMANTIC_REVIEW_AUTHORIZED",
+  "grade": "VERIFIED-WITH-CAVEATS",
+  "independent_algebra": {
+    "checks": {
+      "boost_inverse": true,
+      "boost_is_lorentz": true,
+      "directional_determinants_one": true,
+      "directional_metrics_differ": true,
+      "naive_one_plus_three_not_det_one": true,
+      "nontrivial_fixed_diagonal_fails": true,
+      "one_plus_one_determinant": true,
+      "one_plus_one_metric": true,
+      "passive_covariance": true,
+      "reciprocal_pairing": true,
+      "solution_specific_structure_covariant": true,
+      "static_four_volume_factor_unchanged": true,
+      "static_spherical_control": true,
+      "trivial_character_is_frame_compatible": true,
+      "two_volume_normalized_weights": true,
+      "two_way_conversion": true,
+      "volume_normalized_weights_inequivalent": true
+    },
+    "exact_checks": 17,
+    "rational_control": {
+      "boost": [
+        [
+          "5/3",
+          "4/3"
+        ],
+        [
+          "4/3",
+          "5/3"
+        ]
+      ],
+      "c": "3",
+      "inverse_c": "1/3",
+      "reciprocal_D": [
+        "1/2",
+        "2"
+      ],
+      "static_metric": [
+        "-9/4",
+        "4",
+        "25",
+        "9"
+      ]
+    }
+  },
+  "preregistration": {
+    "base": "f5f30018dda111f4bf131a5675f8480ca605a268",
+    "commit": "c5913a551402286d0a372916da475e1eda52017c",
+    "result": "PASS"
+  },
+  "production": {
+    "exact_checks": 20,
+    "status": "PASS",
+    "sympy_version": "1.13.1"
+  },
+  "schema": "udt-reciprocal-c-metric-meaning-independent-verification-1.0",
+  "semantic_stop_lines": {
+    "gr_dynamics_imported": false,
+    "law_preferred_observer_inferred": false,
+    "micro_frame_theorem_inferred": false,
+    "prior_exact_stabilizer_deleted": false
+  },
+  "sources": {
+    "base": "f5f30018dda111f4bf131a5675f8480ca605a268",
+    "result": "PASS",
+    "sources": 12
+  },
+  "status": "PASS",
+  "tables": {
+    "DEDUCTIVE_SPINE.tsv": 9,
+    "POSTULATE_TO_METRIC_LEDGER.tsv": 10,
+    "PRIOR_WORK_REGRADE.tsv": 8,
+    "REALIZATION_CLASS_LEDGER.tsv": 9,
+    "STATUS_LEDGER.tsv": 13
+  }
+}

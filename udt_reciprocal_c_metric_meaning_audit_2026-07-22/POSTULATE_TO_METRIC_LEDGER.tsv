@@ -1,0 +1,11 @@
+id	input	status	derived_content	not_derived
+P01	Reciprocal-c Identity: c_E and 1/c_E are coequal reversible clock-length conversion directions	FOUNDING_OWNER	A dimension-matched clock-length comparison pair	Inverse dilation; metric signature; observer transformation; action
+P02	UDT Positional Reciprocity acts contragrediently on the pair	FOUNDING_OWNER	P^T K P=K and uv=1 in the registered faithful diagonal formalization	Exponential dependence; nontriviality; slot choice; transverse sector
+P03	Relative positional comparisons compose regularly and reverse	POSIT	u=exp(-phi) and v=exp(phi), up to the recorded sign and unit	Observed nonzero phi; profile; dynamics
+P04	Realized universe has nonzero positional dilation	OBSERVED	The nontrivial representation is physically relevant while phi=0 remains mathematical	A field equation or profile
+P05	Local Lorentzian quadratic interval	POSIT_CHOSE_DECLARED_READOUT	The reciprocal 1+1 block diag(-exp(-2phi),exp(2phi)) in the dimension-matched coframe	The complete 3+1 coframe or dynamics
+P06	Common-Scale Neutrality	FOUNDING_OWNER	Common positive calibration is quotiented; reciprocal ratio and determinant-one character survive	A representative; direction; action; physical scale
+P07	GR-like reciprocity of observational frames at macro scales	OWNER_CLARIFIED_FOR_AUDIT	No law-observer is preferred; the geometric relation must transform covariantly	Einstein equations; EH action; equivalence principle; identical components; micro theorem
+P08	Temporal/radial coframe and spherical areal angular sector	DECLARED_STATIC_SPHERICAL_REALIZATION	The recorded static spherical metric is reproduced exactly	A universal radial direction; nonspherical or time-live extension
+P09	A solution-specific clock/depth structure	CONDITIONAL	May transform covariantly between observers without privileging a law-frame	Its universal existence or selection
+P10	Complete nonspherical/time-live/micro assembly	OPEN	None	How the reciprocal pair is soldered into the full coframe with angular and shift sectors

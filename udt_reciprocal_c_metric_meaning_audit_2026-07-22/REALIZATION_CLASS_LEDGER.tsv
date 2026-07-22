@@ -1,0 +1,10 @@
+id	realization	algebraic_result	udt_status	reason
+R01	PAIR_RELATIONAL	CONSISTENT_FOR_1PLUS1	DERIVED_CONDITIONAL	The two founding postulates plus registered composition and readout define the clock-displacement comparison block without a universal fixed plane
+R02	SOLUTION_SOLDERED	COVARIANT	CONDITIONAL	A supplied solution clock/depth span transforms as geometry and need not privilege an observer in the laws
+R03	ALL_OBSERVERS_SAME_DIAGONAL_RULE	TRIVIAL_ONLY	REFUTED_FOR_NONZERO_PHI	A fixed nontrivial diagonal D does not commute with an ordinary-regime Lorentz boost; demanding unchanged components forces phi=0
+R04	ONE_PLUS_THREE_ISOTROPIC	NONUNIQUE_WEIGHTING	NOT_DERIVED	It requires a supplied clock split and a rule distributing reciprocal weight over three spatial directions
+R05	STATIC_SPHERICAL_CONTROL	EXACT_MATCH	DERIVED_CONDITIONAL	The recorded metric follows with the declared temporal/radial slots, Lorentzian readout, transverse completion, and areal angular coframe
+R06	UNIVERSAL_PREFERRED_RANK_TWO_PLANE	NOT_REQUIRED	WITHDRAWN_AS_NECESSARY_INTERPRETATION	Pair-relational meaning does not require one law-fixed plane; the prior stabilizer obstruction remains exact against that stronger candidate
+R07	ARBITRARY_DIRECTIONAL_1PLUS3	DIRECTION_DEPENDENT	INCOMPLETE_AS_FOUR_METRIC	Choosing x versus y produces different complete tensors for nonzero phi unless the solution supplies the direction
+R08	BROADER_SPATIAL_WEIGHTING	MULTIPLE_DET_ONE_REALIZATIONS	OPEN	At least two inequivalent determinant-one 1+3 weight assignments exist at the same phi
+R09	GENERAL_NONSHPERICAL_TIME_LIVE_METRIC	NOT_TESTED	OPEN	The current postulates do not yet state the covariant clock-depth-angular-shift assembly rule

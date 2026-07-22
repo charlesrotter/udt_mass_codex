@@ -1,0 +1,10 @@
+step	premises	operation	result	status	remaining_join
+D01	Reciprocal-c Identity	Type c_E and 1/c_E as reversible maps between temporal and spatial measure	Clock-length conversion pair	FOUNDING	None at the type level
+D02	D01 plus dual Positional Reciprocity	Preserve K under positive diagonal positional comparison	uv=1	DERIVED_IN_REGISTERED_FORMALIZATION	Alternative formalizations require their own audit
+D03	D02 plus regular additive composition and sign/unit convention	Classify positive one-parameter characters	D(phi)=diag(exp(-phi),exp(phi))	DERIVED_CONDITIONAL	Nontriviality remains OBSERVED
+D04	D03 plus local Lorentzian quadratic readout	Pull back diag(-1,1)	Reciprocal 1+1 metric block	DERIVED_CONDITIONAL	Complete spatial assembly
+D05	D04 plus macro observational-frame reciprocity	Conjugate D and transform the metric tensorially	Same geometric relation for Lorentz-related ordinary-regime observers	OWNER_PREMISE_EXACTLY_COMPATIBLE	Native extreme-regime observer group and micro inheritance
+D06	D04 plus declared temporal/radial slots and areal spherical transverse coframe	Assemble coordinate coframe	Recorded static spherical UDT metric and phi-independent four-volume	DERIVED_CONDITIONAL	Profile, action, nonspherical/time-live extension
+D07	D04 without a supplied spatial direction	Compare x-directed and y-directed assemblies	Distinct four-metrics for nonzero phi	EXACT_UNDERDETERMINATION	A metric-native general assembly/soldering rule
+D08	D04 with one clock and three spatial directions	Census determinant-one weight assignments	Multiple inequivalent assignments	EXACT_UNDERDETERMINATION	Relative spatial weights
+D09	D01-D08	Regrade prior selector question	Universal preferred plane is not required; exact no-selector theorem survives against that candidate	VERIFIED_WITH_CAVEATS	General 3+1 assembly, not rediscovery of reciprocal c

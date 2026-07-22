@@ -1,0 +1,50 @@
+{
+  "additional_static_spherical_readout_choices": [
+    "LOCAL_LORENTZIAN_QUADRATIC_READOUT",
+    "CLOCK_AND_POSITIONAL_DEPTH_COFRAME_SLOTS",
+    "DIAGONAL_TRANSVERSE_COMPLETION",
+    "SPHERICAL_AREAL_ANGULAR_COFRAME"
+  ],
+  "checks": {
+    "c_and_inverse_are_two_way_conversion": true,
+    "directional_realization_has_det_one_distortion": true,
+    "dual_pairing_requires_uv_one": true,
+    "naive_one_plus_three_scaling_not_det_one": true,
+    "nontrivial_D_not_same_diagonal_in_every_boosted_frame": true,
+    "one_plus_one_determinant_fixed": true,
+    "one_plus_one_metric_recovered": true,
+    "one_plus_three_metric_depends_on_supplied_clock_split": true,
+    "ordinary_covariance_v_equals_u_is_distinct": true,
+    "pair_direction_changes_four_metric_when_phi_nonzero": true,
+    "passive_boost_covariance": true,
+    "reciprocal_character_preserves_K": true,
+    "same_diagonal_all_frames_forces_trivial_character": true,
+    "solution_specific_directional_structure_is_covariant": true,
+    "static_spherical_distortion_det_one": true,
+    "static_spherical_four_volume_phi_independent": true,
+    "static_spherical_metric_exactly_reproduced": true,
+    "volume_normalized_candidates_inequivalent_at_same_phi": true,
+    "volume_normalized_phi_candidate_det_one": true,
+    "volume_normalized_psi_candidate_det_one": true
+  },
+  "counts": {
+    "additional_static_spherical_readout_choices": 4,
+    "determinant_one_one_plus_three_weightings_exhibited": 2,
+    "exact_checks": 20,
+    "founding_postulates": 2
+  },
+  "exact_outputs": {
+    "boost_commutator": "[[0, 2*sinh(beta)*sinh(phi)], [-exp(phi)*sinh(beta) + exp(-phi)*sinh(beta), 0]]",
+    "directional_x_metric": "[[-exp(-2*phi), 0, 0, 0], [0, exp(2*phi), 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]",
+    "directional_y_metric": "[[-exp(-2*phi), 0, 0, 0], [0, 1, 0, 0], [0, 0, exp(2*phi), 0], [0, 0, 0, 1]]",
+    "naive_1plus3_distortion_determinant": "exp(2*phi)",
+    "reciprocal_1plus1_metric": "[[-exp(-2*phi), 0], [0, exp(2*phi)]]",
+    "static_spherical_coordinate_metric": "[[-c**2*exp(-2*phi), 0, 0, 0], [0, exp(2*phi), 0, 0], [0, 0, r**2, 0], [0, 0, 0, r**2*sin(theta)**2]]"
+  },
+  "primary_ruling": "TWO_POSTULATES_DERIVE_RECIPROCAL_MEASUREMENT_BLOCK__COMPLETE_3PLUS1_ASSEMBLY_REMAINS_CONDITIONAL",
+  "prior_audit_regrade": "RANK_TWO_UNIVERSAL_SELECTOR_NOT_REQUIRED_BY_PAIR_RELATIONAL_MEANING__EXACT_STABILIZER_RESULT_RETAINED",
+  "schema": "udt-reciprocal-c-metric-meaning-algebra-1.0",
+  "scope": "KINEMATIC_MEASUREMENT_AND_METRIC_ASSEMBLY_ONLY",
+  "status": "PASS",
+  "sympy_version": "1.13.1"
+}
