@@ -7,6 +7,7 @@ import argparse
 import csv
 import gzip
 import hashlib
+import io
 import itertools
 import json
 import math
@@ -451,15 +452,23 @@ def process_identity(identity):
     return path_rows, summary_rows, distribution_rows
 
 
-def write_header(path: Path, fields) -> None:
-    with gzip.open(path, "wt", encoding="utf-8", newline="") as handle:
-        csv.DictWriter(handle, fieldnames=list(fields), delimiter="\t", lineterminator="\n").writeheader()
+class DeterministicGzipTsvWriter:
+    def __init__(self, path: Path, fields) -> None:
+        self.raw = path.open("wb")
+        self.compressed = gzip.GzipFile(filename="", mode="wb", fileobj=self.raw, mtime=0)
+        self.text = io.TextIOWrapper(self.compressed, encoding="utf-8", newline="")
+        self.writer = csv.DictWriter(
+            self.text, fieldnames=list(fields), delimiter="\t", lineterminator="\n"
+        )
+        self.writer.writeheader()
 
+    def writerows(self, rows) -> None:
+        self.writer.writerows(rows)
 
-def append_rows(path: Path, fields, rows) -> None:
-    with gzip.open(path, "at", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(fields), delimiter="\t", lineterminator="\n")
-        writer.writerows(rows)
+    def close(self) -> None:
+        self.text.flush()
+        self.text.close()
+        self.raw.close()
 
 
 def build(workers: int) -> None:
@@ -488,19 +497,25 @@ def build(workers: int) -> None:
     path_file = HERE / "PATH_FAMILY_ATLAS.tsv.gz"
     summary_file = HERE / "PATH_CONTINUATION_SUMMARY.tsv.gz"
     distribution_file = HERE / "DISTRIBUTION_ATLAS.tsv.gz"
-    for path, fields in ((path_file, PATH_FIELDS), (summary_file, SUMMARY_FIELDS), (distribution_file, DISTRIBUTION_FIELDS)):
-        write_header(path, fields)
+    path_writer = DeterministicGzipTsvWriter(path_file, PATH_FIELDS)
+    summary_writer = DeterministicGzipTsvWriter(summary_file, SUMMARY_FIELDS)
+    distribution_writer = DeterministicGzipTsvWriter(distribution_file, DISTRIBUTION_FIELDS)
 
     context = mp.get_context("fork")
     completed = 0
-    with context.Pool(processes=workers) as pool:
-        for path_rows, summary_rows, distribution_rows in pool.imap(process_identity, all_identities, chunksize=1):
-            append_rows(path_file, PATH_FIELDS, path_rows)
-            append_rows(summary_file, SUMMARY_FIELDS, summary_rows)
-            append_rows(distribution_file, DISTRIBUTION_FIELDS, distribution_rows)
-            completed += 1
-            if completed % 32 == 0 or completed == len(all_identities):
-                print(f"completed {completed}/{len(all_identities)}", flush=True)
+    try:
+        with context.Pool(processes=workers) as pool:
+            for path_rows, summary_rows, distribution_rows in pool.imap(process_identity, all_identities, chunksize=1):
+                path_writer.writerows(path_rows)
+                summary_writer.writerows(summary_rows)
+                distribution_writer.writerows(distribution_rows)
+                completed += 1
+                if completed % 32 == 0 or completed == len(all_identities):
+                    print(f"completed {completed}/{len(all_identities)}", flush=True)
+    finally:
+        path_writer.close()
+        summary_writer.close()
+        distribution_writer.close()
 
     result = summarize_outputs()
     (HERE / "ATLAS_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
