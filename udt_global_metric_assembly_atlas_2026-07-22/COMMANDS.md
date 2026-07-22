@@ -16,3 +16,7 @@ ledger/provenance-summary overlay is preserved as `PRE_DENSITY_OVERLAY_ATLAS_TRA
 
 The first independent verifier return contained the separately preregistered output-label bug and is
 preserved under `PRE_VERIFIER_LABEL_CORRECTION_*`.
+
+The first fresh adversarial review, its completion review, the separately preregistered corrections,
+and the final fresh correction-review `PASS` are preserved under `FRESH_*`. The initial correction-
+review CLI option-order failure is retained as `PRE_FRESH_CORRECTION_REVIEW_CLI_FAILURE.txt`.

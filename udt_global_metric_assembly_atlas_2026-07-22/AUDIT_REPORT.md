@@ -2,7 +2,7 @@
 
 Date: 2026-07-22
 
-Status: `FRESH_REVIEW_CORRECTIONS_APPLIED__INTERNAL_REPLAY_PASS__FRESH_CORRECTION_REVIEW_PENDING`
+Status: `VERIFIED_WITH_REGISTERED_NUMERIC_MARGINS__FRESH_CORRECTION_REVIEW_PASS`
 
 Maximum conclusion:
 
@@ -263,7 +263,10 @@ parabolic witnesses, and the CSN matrix cited an unpinned dispatch instead of th
 angular-toric audit. Correction scope was separately preregistered at commit `cab6ec6`. The package
 now classifies `-I` as finite elliptic, pins all CSN rows to the frozen source, and exercises explicit
 mutation catches for both failures. Internal deterministic regeneration and verifier replay pass.
-Fresh independent review of the applied correction remains pending at this report revision.
+Fresh independent review of the applied correction returned `PASS`: exact finite-order arithmetic
+reproduced the corrected monodromy classes; every selector source was checked through the contents
+of its frozen manifest; C19 and C20 failed closed independently; all other result fields were
+unchanged; and verifier replay was byte-stable. The raw return and full transcript are preserved.
 
 ## Four banking gates
 
@@ -271,9 +274,11 @@ Fresh independent review of the applied correction remains pending at this repor
    fresh-review corrections preregistered at `cab6ec6`.
 2. Full space or bounded scope justified: **YES FOR THE REGISTERED TAXONOMY**, not arbitrary global
    four-geometries, actions, or EOM solution space.
-3. Independently verified on the load-bearing premise: **YES IN PACKAGE**; the fresh reviewer
-   reproduced the principal claims, with independent correction replay still pending.
+3. Independently verified on the load-bearing premise: **YES**, with fresh review of the draft and a
+   separate fresh `PASS` review of the applied corrections. The three DOP853 anchors retain only the
+   limited independent-orchestration weight stated above.
 4. Every premise audited: **YES FOR THE DECLARED ATLAS**, including the local/global, transport/
    holonomy, phi-solo/orchestra, density-input/output, and Stage-6/7 boundaries.
 
-Current bankable grade: `VERIFIED-WITH-CAVEATS PENDING FRESH CORRECTION REVIEW`.
+Current bankable grade: `VERIFIED-WITH-CAVEATS`, where the caveats are the seven retained numerical
+margins and the explicitly bounded registered taxonomy—not an unresolved review defect.
