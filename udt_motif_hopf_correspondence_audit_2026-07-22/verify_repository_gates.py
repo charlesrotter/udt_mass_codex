@@ -69,7 +69,15 @@ def scientific_results() -> dict[str, object]:
         and correction["covariance"]["all_family_node_comparisons"] == 67456
         and correction["covariance"]["nonuncertain_classification_discordances"] == 0
         and correction["covariance"]["matched_edge_transport_discordances"] == 0
-        and correction["exercised_mutation_catches"] == 23
+        and correction["exercised_mutation_catches"] == 29
+        and correction["covariance"]["point_status_census"] == {
+            "BOTH_CLASSIFIED": 67396,
+            "ONE_SIDED_UNCERTAIN": 33,
+            "BOTH_UNCERTAIN": 27,
+        }
+        and correction["covariance"]["skipped_edge_reason_census"] == {
+            "ORIGINAL_EDGE_UNMATCHED+TRANSFORMED_EDGE_UNMATCHED": 50,
+        }
         and correction["covariance"]["coordinate_map_interpretation"]
             == "ZERO_CONSTANT_CUBIC_GLOBAL_POLYNOMIAL_FROM_REGISTERED_JETS"
         and correction["covariance"]["possible_edge_transport_comparisons"] == 63488

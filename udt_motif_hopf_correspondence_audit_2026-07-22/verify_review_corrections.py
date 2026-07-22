@@ -45,8 +45,20 @@ DIRECT_SOURCES = {
         "973dcc8bb297fad8358087318b24e5db9d1179e8b6a51a2535a0110e30c108c2",
 }
 HOPF_SEED_SHA256 = "7a9dcf021a23cd663bb484e435ee716084e38999f0629b294790aca77e15b748"
+HOPF_SEED_PATH = "hopfion_arc_scripts_2026-07-05/fs_hopfion.py"
 MAP_INTERPRETATION = "ZERO_CONSTANT_CUBIC_GLOBAL_POLYNOMIAL_FROM_REGISTERED_JETS"
 SAMPLED_STATUS = "17_NODE_SAMPLED_MATCH_NOT_CONTINUOUS_BUNDLE_THEOREM"
+EXPECTED_POINT_STATUS = {
+    "BOTH_CLASSIFIED": 67396,
+    "ONE_SIDED_UNCERTAIN": 33,
+    "BOTH_UNCERTAIN": 27,
+}
+EXPECTED_POSSIBLE_EDGES = 63488
+EXPECTED_MATCHED_EDGES = 63438
+EXPECTED_SKIPPED_EDGES = 50
+EXPECTED_SKIP_REASONS = {
+    "ORIGINAL_EDGE_UNMATCHED+TRANSFORMED_EDGE_UNMATCHED": 50,
+}
 
 
 def digest(path: Path) -> str:
@@ -482,8 +494,10 @@ def validate_result(result: dict[str, object], lineage: list[dict[str, str]]) ->
     if covariance["all_family_node_comparisons"] != 64 * 17 * 31 * 2:
         raise AssertionError("covariance family/node coverage")
     point_status = covariance["point_status_census"]
-    if set(point_status) != {"BOTH_CLASSIFIED", "ONE_SIDED_UNCERTAIN", "BOTH_UNCERTAIN"}:
-        raise AssertionError("point status classes")
+    if point_status != EXPECTED_POINT_STATUS:
+        raise AssertionError("exact point status census")
+    if any(not isinstance(value, int) or value < 0 for value in point_status.values()):
+        raise AssertionError("nonnegative integer point status counts")
     if sum(point_status.values()) != covariance["all_family_node_comparisons"]:
         raise AssertionError("point status completeness")
     if covariance["uncertainty_bearing_point_comparisons"] != (
@@ -496,18 +510,30 @@ def validate_result(result: dict[str, object], lineage: list[dict[str, str]]) ->
         raise AssertionError("node-dependent nonlinear coordinate map")
     if covariance["coordinate_map_evidence_status"] != "CONFIRMATORY_POST_SECOND_REVIEW_REPAIR":
         raise AssertionError("coordinate map evidence provenance")
-    if covariance["maximum_inverse_map_residual"] > 1.0e-11:
+    if not math.isfinite(covariance["maximum_inverse_map_residual"]) or not (
+        0 <= covariance["maximum_inverse_map_residual"] <= 1.0e-11
+    ):
         raise AssertionError("coordinate map inverse residual")
-    if covariance["minimum_absolute_jacobian_determinant"] <= 1.0e-6:
+    if not math.isfinite(covariance["minimum_absolute_jacobian_determinant"]) or (
+        covariance["minimum_absolute_jacobian_determinant"] <= 1.0e-6
+    ):
         raise AssertionError("coordinate map Jacobian degeneracy")
-    if covariance["maximum_intrinsic_object_covariance_residual"] > COVARIANCE_TOLERANCE:
+    if not math.isfinite(covariance["maximum_intrinsic_object_covariance_residual"]) or not (
+        0 <= covariance["maximum_intrinsic_object_covariance_residual"] <= COVARIANCE_TOLERANCE
+    ):
         raise AssertionError("intrinsic object covariance residual")
-    if covariance["maximum_projector_set_covariance_residual"] > COVARIANCE_TOLERANCE:
+    if not math.isfinite(covariance["maximum_projector_set_covariance_residual"]) or not (
+        0 <= covariance["maximum_projector_set_covariance_residual"] <= COVARIANCE_TOLERANCE
+    ):
         raise AssertionError("projector covariance residual")
-    if covariance["possible_edge_transport_comparisons"] != 64 * 16 * 31 * 2:
+    if covariance["possible_edge_transport_comparisons"] != EXPECTED_POSSIBLE_EDGES:
         raise AssertionError("possible edge coverage")
-    if covariance["matched_edge_transport_comparisons"] <= 0:
-        raise AssertionError("missing matched edge coverage")
+    if covariance["matched_edge_transport_comparisons"] != EXPECTED_MATCHED_EDGES:
+        raise AssertionError("exact matched edge coverage")
+    if covariance["skipped_edge_transport_comparisons"] != EXPECTED_SKIPPED_EDGES:
+        raise AssertionError("exact skipped edge coverage")
+    if covariance["skipped_edge_reason_census"] != EXPECTED_SKIP_REASONS:
+        raise AssertionError("exact skipped edge reason census")
     if covariance["matched_edge_transport_comparisons"] + covariance["skipped_edge_transport_comparisons"] != covariance["possible_edge_transport_comparisons"]:
         raise AssertionError("edge comparison accounting")
     if sum(covariance["skipped_edge_reason_census"].values()) != covariance["skipped_edge_transport_comparisons"]:
@@ -529,13 +555,17 @@ def validate_result(result: dict[str, object], lineage: list[dict[str, str]]) ->
         raise AssertionError("symbolic connection weight")
     if symbolic["conditional_full_range_unit_limit"] != "1":
         raise AssertionError("symbolic unit limit")
+    if seed["source_path"] != HOPF_SEED_PATH:
+        raise AssertionError("direct seed source path")
     if seed["function_executed"] != "hopf_seed" or seed["device"] != "cpu":
         raise AssertionError("direct seed execution")
     if seed["source_sha256"] != HOPF_SEED_SHA256:
         raise AssertionError("direct seed source identity")
     if seed["dtype"] != "float64" or seed["sample_points"] != 1000 or seed["sample_seed"] != 20260722:
         raise AssertionError("direct seed sample contract")
-    if seed["maximum_absolute_residual"] > SEED_TOLERANCE:
+    if not math.isfinite(seed["maximum_absolute_residual"]) or not (
+        0 <= seed["maximum_absolute_residual"] <= SEED_TOLERANCE
+    ):
         raise AssertionError("direct seed residual")
     if provenance != {
         "supplied_equal_weight_circle_action": True,
@@ -636,6 +666,38 @@ def mutation_catches(
     ))
     add("K23_SYMBOLIC_CONNECTION_MUTATION", lambda item, _rows: item["symbolic_toric"].__setitem__(
         "diagonal_connection_weight", "nonsense"
+    ))
+    def redistribute_point_status(item, _rows):
+        item["covariance"]["point_status_census"] = {
+            "BOTH_CLASSIFIED": 67395,
+            "ONE_SIDED_UNCERTAIN": 34,
+            "BOTH_UNCERTAIN": 27,
+        }
+        item["covariance"]["uncertainty_bearing_point_comparisons"] = 61
+
+    add("K24_COORDINATED_POINT_CENSUS_REDISTRIBUTION", redistribute_point_status)
+
+    def replace_edge_split(item, _rows):
+        item["covariance"]["matched_edge_transport_comparisons"] = 1
+        item["covariance"]["skipped_edge_transport_comparisons"] = 63487
+        item["covariance"]["skipped_edge_reason_census"] = {"FABRICATED_REASON": 63487}
+
+    add("K25_COORDINATED_EDGE_SPLIT_AND_REASON_REPLACEMENT", replace_edge_split)
+    add("K26_NEGATIVE_RESIDUAL", lambda item, _rows: item["covariance"].__setitem__(
+        "maximum_intrinsic_object_covariance_residual", -1.0
+    ))
+    add("K27_FABRICATED_SEED_SOURCE_PATH", lambda item, _rows: item["direct_hopf_seed"].__setitem__(
+        "source_path", "fabricated.py"
+    ))
+    add("K28_NEGATIVE_POINT_STATUS_COUNT", lambda item, _rows: item["covariance"].__setitem__(
+        "point_status_census", {
+            "BOTH_CLASSIFIED": 67457,
+            "ONE_SIDED_UNCERTAIN": -1,
+            "BOTH_UNCERTAIN": 0,
+        }
+    ))
+    add("K29_NONFINITE_JACOBIAN_DETERMINANT", lambda item, _rows: item["covariance"].__setitem__(
+        "minimum_absolute_jacobian_determinant", math.inf
     ))
     return mutations
 

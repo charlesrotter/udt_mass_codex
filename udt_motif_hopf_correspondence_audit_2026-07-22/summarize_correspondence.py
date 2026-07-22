@@ -25,6 +25,7 @@ def write(name, fields, values):
 
 
 def main():
+    correction = json.loads((HERE / "REVIEW_CORRECTION_RESULT.json").read_text(encoding="utf-8"))
     persistence = Counter(); transition_families = Counter(); transition_total = 0
     for row in rows(HERE / "PATH_CONTINUATION_SUMMARY.tsv.gz"):
         persistence[(row["distinct_motifs"], row["stable_projector_path"])] += 1
@@ -96,6 +97,17 @@ def main():
         "frobenius_certification_scope": "REGISTERED_CHART_ONLY",
         "path_certification_scope": "17_NODE_SAMPLED_MATCH_NOT_CONTINUOUS_BUNDLE_THEOREM",
         "overall_correspondence_status": "LEAD",
+        "correction_verification": {
+            "coordinate_map_interpretation": correction["covariance"]["coordinate_map_interpretation"],
+            "point_status_census": correction["covariance"]["point_status_census"],
+            "uncertainty_bearing_point_comparisons": correction["covariance"]["uncertainty_bearing_point_comparisons"],
+            "possible_edge_transport_comparisons": correction["covariance"]["possible_edge_transport_comparisons"],
+            "eligible_edge_transport_comparisons": correction["covariance"]["matched_edge_transport_comparisons"],
+            "skipped_edge_transport_comparisons": correction["covariance"]["skipped_edge_transport_comparisons"],
+            "edge_transport_discordances": correction["covariance"]["matched_edge_transport_discordances"],
+            "mutation_catches": correction["exercised_mutation_catches"],
+            "evidence_status": correction["covariance"]["coordinate_map_evidence_status"],
+        },
         "carrier_emergence": "OPEN",
         "maximum_conclusion": (
             "OBSERVED_BOUNDED_REGISTERED-CHART_SAMPLED_MOTIF_AND_FROBENIUS_CENSUS"

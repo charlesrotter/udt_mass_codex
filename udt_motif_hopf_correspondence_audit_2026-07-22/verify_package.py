@@ -19,6 +19,7 @@ ROOT = HERE.parent
 MOTIF = ROOT / "udt_instrument_motif_atlas_2026-07-21"
 FIELDS = ("motif", "primitive_block_ranks", "primitive_block_signatures", "algebra_dimension", "central_split_count", "numeric_status")
 EXPECTED = {"identities":3072,"nodes":17,"families":31,"path_rows":1618944,"summaries":95232,"unstable_stencils":13}
+EXPECTED_POINT_STATUS = {"BOTH_CLASSIFIED":67396,"ONE_SIDED_UNCERTAIN":33,"BOTH_UNCERTAIN":27}
 POINT_PAIRS = {0:("P0","P4"),1:("P1","P5"),2:("P2","P6"),3:("P3","P7")}
 MAXIMUM = ("OBSERVED_BOUNDED_REGISTERED-CHART_SAMPLED_MOTIF_AND_FROBENIUS_CENSUS"
            "+EXACT_CONDITIONAL_RECIPROCAL-TORIC/HOPF-SEED_COMPATIBILITY_WITNESS")
@@ -72,7 +73,14 @@ def main():
     if correction["covariance"]["nonuncertain_classification_discordances"] != 0: raise AssertionError("covariance classification")
     if correction["covariance"]["matched_edge_transport_discordances"] != 0: raise AssertionError("edge transport covariance")
     if correction["frobenius_certification_scope"] != "REGISTERED_CHART_ONLY": raise AssertionError("Frobenius scope")
-    if correction["exercised_mutation_catches"] != 23: raise AssertionError("correction catches")
+    if correction["exercised_mutation_catches"] != 29: raise AssertionError("correction catches")
+    covariance=correction["covariance"]
+    if covariance["point_status_census"] != EXPECTED_POINT_STATUS: raise AssertionError("exact covariance point census")
+    if covariance["uncertainty_bearing_point_comparisons"] != 60: raise AssertionError("exact covariance uncertainty census")
+    if covariance["possible_edge_transport_comparisons"] != 63488: raise AssertionError("exact possible edge census")
+    if covariance["matched_edge_transport_comparisons"] != 63438: raise AssertionError("exact eligible edge census")
+    if covariance["skipped_edge_transport_comparisons"] != 50: raise AssertionError("exact skipped edge census")
+    if covariance["skipped_edge_reason_census"] != {"ORIGINAL_EDGE_UNMATCHED+TRANSFORMED_EDGE_UNMATCHED":50}: raise AssertionError("exact skipped edge reason census")
     for name in ("PATH_FAMILY_ATLAS.tsv.gz","PATH_CONTINUATION_SUMMARY.tsv.gz","DISTRIBUTION_ATLAS.tsv.gz"):
         with (HERE/name).open("rb") as handle: header=handle.read(10)
         if struct.unpack("<I",header[4:8])[0] != 0: raise AssertionError(f"nondeterministic gzip {name}")
