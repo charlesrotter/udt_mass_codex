@@ -2,11 +2,32 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-**⚠ BRANCH: work is on `grok` (2026-07-20).** If not on it: `git checkout grok`. `main` is stale for this arc.
+**⚠ BRANCH: work is on `grok` (2026-07-22).** If not on it: `git checkout grok`. `main` is stale for this arc.
 **The CURRENT STATE block below is the only current frontier** — read it and stop.
 Stale historical frontier layers live under `archive/LIVE_historical_frontier_through_2026-07-08.md`
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
+**⚠ CURRENT SCIENTIFIC FRONTIER (2026-07-22):** read
+`udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
+`CLAIM_DEPENDENCY_LEDGER.tsv`, `OPEN_JOIN_LEDGER.tsv`, and `SOURCE_MANIFEST.tsv`. It is an
+evidence-linked navigation synthesis, not a new authority over its sources. Next read
+`udt_global_metric_assembly_atlas_2026-07-22/LAY_REPORT.md`, `AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
+and `NEXT_DECISION.md`. Expand to the motif/Hopf, action, macro, particle, scale, or boundary source
+named by the reference only when the task makes that layer load-bearing. The older July 20 chain
+below remains durable source evidence, not the top navigation layer.
+
+## ============ CURRENT STATE (2026-07-22 — METRIC-TO-FRONTIER SYNTHESIS PREPARED AND INTERNALLY VERIFIED; FOUR COLD EXTERNAL REVIEWS PENDING. THE CURRENT STRUCTURE IS: RECIPROCAL KINEMATICS DERIVED WITH PREMISE STAMPS; LOCAL METRIC MOTIF GRAMMAR AND GENERIC FOUR-DIMENSIONAL WEAVE OBSERVED IN THE BOUNDED REGISTERED ENSEMBLE; COMPLETE PROJECTOR TRANSPORT DERIVED AS GEOMETRIC CONFIGURATION-SPACE TRANSPORT, NOT PHYSICAL TIME; TWELVE REGISTERED GLOBAL COMPLETIONS RETAINED WITH NO SELECTED QUOTIENT; RECIPROCAL-TORIC/HOPF SEED EXACT-CONDITIONAL; STATIC HOPFION SETTLED ONLY IN ITS POSITED CARRIER/ACTION/FINITE-BOX BRANCH; COMPLETE ACTION, CARRIER, SOURCE, BOUNDARY CHARGE, MASS, ABSOLUTE SCALE, AND TIME-LIVE LAW OPEN. DENSITY MAY ENTER ONLY AS A FUTURE SIMULTANEOUS M_NATIVE/V_PROPER BOOTSTRAP OUTPUT. A METRIC-NATIVE TWO-FORM/BIVECTOR AND INDUCED-HOLONOMY ATLAS IS A WORKING NEXT-QUESTION CANDIDATE, NOT A DERIVED BRIDGE. NO FOLLOW-ON DERIVATION, GPU WORK, CANONIZATION, ARTIFACT MOVE, OR REORGANIZATION IS AUTHORIZED.) ============
+
+- **REFERENCE:** `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`.
+- **MECHANICAL DEPENDENCIES:** `CLAIM_DEPENDENCY_LEDGER.tsv` and `OPEN_JOIN_LEDGER.tsv` in that package.
+- **GLOBAL ASSEMBLY EVIDENCE:** 95,232 paths; 93,920 stable; 1,312 transition/uncertain; 83 dense
+  anchors with 76 passes and seven retained numerical margins; 1,536 sampled cell-wide integrable
+  presentations reducing to 192 `PHI_FIELD`-only identities; 12 completion classes; no selected
+  quotient; Stage 6/7 unactivated; zero time-live and GPU work.
+- **EXTERNAL STATUS:** the reference is internally fail-closed verified; four role-separated cold
+  reviews remain pending and cannot promote a claim or authorize the proposed next map.
+- **REORGANIZATION:** remains paused at R1H. This synthesis adds navigation only and moves nothing.
+
 **⚠ CURRENT SCIENTIFIC FRONTIER (2026-07-20):** after this CURRENT STATE block read
 `matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
 `LAY_DECISION_TREE.md`, `DIMENSIONAL_OBJECT_LEDGER.tsv`, and `NEXT_SCIENTIFIC_DECISION.md`. Next read

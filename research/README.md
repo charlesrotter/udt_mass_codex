@@ -2,6 +2,15 @@
 
 This directory is an additions-only navigation layer. It points to artifacts at their existing repository paths; it contains no copied research artifact and creates no new scientific authority. [`LIVE.md`](../LIVE.md) remains the current-frontier authority, followed by [`HANDOFF.md`](../HANDOFF.md). Claim labels below are reproduced from those current records and the accepted final native-action ledger.
 
+## Current scientific spine — July 22
+
+Start with the [metric-to-frontier reference](../udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md),
+then its [claim dependency ledger](../udt_metric_to_frontier_reference_2026-07-22/CLAIM_DEPENDENCY_LEDGER.tsv),
+[open-join ledger](../udt_metric_to_frontier_reference_2026-07-22/OPEN_JOIN_LEDGER.tsv), and the
+[global assembly atlas](../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md). These are
+navigation and bounded evidence, not canon. The current cold external review is pending; no
+two-form/bivector derivation, time-live solve, GPU work, or reorganization follows automatically.
+
 ## Lanes
 
 - [Foundations](foundations/README.md) — founding postulates, selectors, and derivation provenance.

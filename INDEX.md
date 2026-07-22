@@ -1,8 +1,19 @@
-# INDEX — Repo Map (2026-07-20 lean)
+# INDEX — Repo Map (2026-07-22 lean)
 
-**⚠ BRANCH: `grok` (2026-07-20)** — `main` is stale for this arc; `git checkout grok`.
+**⚠ BRANCH: `grok` (2026-07-22)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
 **➤ CURRENT SCIENTIFIC FRONTIER:**
+`udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
+`CLAIM_DEPENDENCY_LEDGER.tsv`, `OPEN_JOIN_LEDGER.tsv`, and `SOURCE_MANIFEST.tsv`; next
+`udt_global_metric_assembly_atlas_2026-07-22/LAY_REPORT.md`, `AUDIT_REPORT.md`,
+`STATUS_LEDGER.tsv`, and `NEXT_DECISION.md`. The reference is a dependency/navigation synthesis,
+not a new scientific authority. It records the derived reciprocal core, bounded motif/weave map,
+derived geometric projector transport, retained global completion alternatives, conditional Hopf
+bridge, separate macro and particle lanes, and open realization/action/mass/scale joins. Four cold
+external reviews are pending. The metric-native two-form/bivector audit is a `WORKING` candidate,
+not an authorized or derived next step. Repository reorganization remains paused.
+
+**➤ PRIOR JULY 20 SOURCE FRONTIER:**
 `matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
 `LAY_DECISION_TREE.md`, `DIMENSIONAL_OBJECT_LEDGER.tsv`, and `NEXT_SCIENTIFIC_DECISION.md`. The
 conditional static soliton has exact scale law `E(R)=xi*A*R+kappa*B/R` and therefore

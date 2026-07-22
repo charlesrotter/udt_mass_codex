@@ -29,25 +29,29 @@ after the user's actual task makes them load-bearing.
    `CURRENT STATE` overrides every other status description. Do not read the remaining historical
    layers at startup.
 2. `HANDOFF.md` — read only its `STARTUP_CURRENT_BEGIN` / `STARTUP_CURRENT_END` range.
-3. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — initially read only `Current honest result`, `Current
-   open discriminator`, and `Authority boundary`.
-4. `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`, then
-   `angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv` — the compact current theorem,
-   counterfamily boundary, and two ordered gates. Read the full package `AUDIT_REPORT.md` only when
-   the task requires its derivation or provenance.
-5. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` only when the exact reciprocal
+3. `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
+   `CLAIM_DEPENDENCY_LEDGER.tsv` and `OPEN_JOIN_LEDGER.tsv`. This is the current dependency spine,
+   not authority over its cited evidence.
+4. `udt_global_metric_assembly_atlas_2026-07-22/LAY_REPORT.md`, then `AUDIT_REPORT.md`,
+   `STATUS_LEDGER.tsv`, and `NEXT_DECISION.md` when the map or proposed next question is relevant.
+5. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` and the July 19/20 source package named by the reference
+   only when the task requires that layer's derivation or provenance.
+6. `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`, then
+   `angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv` when the conditional global Hopf
+   theorem is relevant.
+7. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` only when the exact reciprocal
    Hopf-orbit witness or its provenance becomes load-bearing, then
    `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` for the preceding carrier/topology
    classification only when that layer is relevant.
-6. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task; none are
+8. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task; none are
    part of generic startup orientation.
-7. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
+9. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
    is durable lane evidence, not the global frontier.
-8. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline only; do not dump the
+10. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline only; do not dump the
    whole charter at startup.
-9. Only the specific full protocol under `.claude/skills/*/SKILL.md` triggered by the actual task;
+11. Only the specific full protocol under `.claude/skills/*/SKILL.md` triggered by the actual task;
    do not preload every skill.
-10. The top/current summary in `INDEX.md` and `MEMORY.md`'s `TOP — CURRENT POINTER` for pointers only;
+12. The top/current summary in `INDEX.md` and `MEMORY.md`'s `TOP — CURRENT POINTER` for pointers only;
     neither can overrule `LIVE.md`.
 
 For the 1,114 fixed-base artifact identities, use
@@ -62,15 +66,15 @@ Then give Charles a short orientation report: actual HEAD and dirt, the current 
 premise stamps, the open gate, and the proposed bounded next action. Do not mutate files or launch a
 long solve until that orientation is complete.
 
-The bootstrap/stable-matter interpretation remains a working hypothesis. The bounded audit chain is
-complete through angular–toric closure: the existing implementation is already full 3D Hopf-capable;
-the reciprocal metric has an exact conditional Hopf-orbit-block witness; and `S3` plus free
-diagonal/anti-diagonal Hopf actions are unique only after global toric eigencap premises are supplied.
-Registered UDT does not yet derive the first missing gate—transverse spatial reciprocal realization
-and periodicity—or the conditional second gate of finite-cell cap completion. Do not silently turn
-either conditional theorem, the earlier celestial fiber, or the time-live proposal into authority to
-adopt a carrier, section, torus, cap, framing, boundary, dynamical completion, run GPU work, or claim
-a bootstrap parameter-selection theorem.
+The bootstrap/stable-matter interpretation remains a working hypothesis. The current bounded chain
+adds a metric-motif and global-assembly map: the generic registered coupled structure is a
+four-dimensional weave; projector transport is geometric configuration-space transport, not
+physical time; the only sampled cell-wide integrable `1+1+2` family is `PHI_FIELD`-only; twelve
+global completion families remain; and no quotient is selected. The existing implementation is
+full 3D Hopf-capable only in its conditional carrier branch, while reciprocal-toric/Hopf geometry
+still requires supplied global premises. Do not silently turn the proposed two-form/bivector audit,
+conditional Hopf theorem, celestial fiber, or time-live proposal into authority to adopt a carrier,
+section, torus, cap, framing, boundary, action, mass law, run GPU work, or claim bootstrap selection.
 
 ## Codex/Claude compatibility
 

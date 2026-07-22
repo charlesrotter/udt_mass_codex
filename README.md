@@ -3,10 +3,11 @@
 This root is the control and navigation surface for the UDT research record.
 After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
-[`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md)
-→ the angular audit's [`lay decision tree`](angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md)
-and [`status ledger`](angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv) → the exact
-evidence named by those files only when required by the active task → the targeted `CLAUDE.md`
+the [metric-to-frontier reference](udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md) → its
+[`claim ledger`](udt_metric_to_frontier_reference_2026-07-22/CLAIM_DEPENDENCY_LEDGER.tsv) and
+[`open-join ledger`](udt_metric_to_frontier_reference_2026-07-22/OPEN_JOIN_LEDGER.tsv) → the
+[global metric-assembly atlas](udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md) → the
+exact evidence named by those files only when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
 `MEMORY.md` top/current pointer. `AGENTS.md`
 supplies operational instructions and binding research discipline, but it
@@ -20,7 +21,22 @@ particle-lane evidence, not the global scientific frontier.
 [`NEGATIVES_REGISTRY.md`](NEGATIVES_REGISTRY.md), and
 [`PROVENANCE.md`](PROVENANCE.md) are the main status and evidence ledgers.
 
-## Scientific checkpoint — July 19, 2026
+## Scientific checkpoint — July 22, 2026
+
+The [metric-to-frontier reference](udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md) is the
+current evidence-linked scientific spine. It records reciprocal kinematics as derived with premise
+stamps; the bounded motif vocabulary and generic four-dimensional weave as observed; geometric
+projector transport as derived but not physical time; twelve retained global completion families
+with no selected quotient; conditional reciprocal-toric/Hopf compatibility; and the still-open
+carrier, action, source, boundary charge, mass, absolute-scale, and time-live joins. It introduces no
+new physics authority. Four cold external reviews are pending. Repository reorganization remains
+paused and no further content migration is authorized.
+
+The [global assembly atlas](udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md) is the
+load-bearing current metric map. Its proposed two-form/bivector follow-up is a `WORKING` candidate
+question only; no solve or GPU work follows automatically.
+
+## Prior scientific checkpoint — July 19, 2026
 
 The verified bootstrap, Reciprocity, infinite-c, optical-flow, co-presence, and GR-constraint
 selector chain is summarized in

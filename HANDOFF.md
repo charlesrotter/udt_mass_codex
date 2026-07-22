@@ -5,7 +5,32 @@
 > **READ `LIVE.md` FIRST** — only guaranteed-current frontier + next action.
 > If this file disagrees with LIVE.md, **LIVE.md wins.**
 >
-> **⚠ BRANCH: work is on `grok` (2026-07-20).** If not on it: `git checkout grok`. `main` is stale for this arc.
+> **⚠ BRANCH: work is on `grok` (2026-07-22).** If not on it: `git checkout grok`. `main` is stale for this arc.
+
+## CURRENT (2026-07-22 — metric-to-frontier synthesis internally verified; external cold review pending)
+
+Read `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then
+`CLAIM_DEPENDENCY_LEDGER.tsv`, `OPEN_JOIN_LEDGER.tsv`, and `SOURCE_MANIFEST.tsv`. The reference is a
+navigation/dependency synthesis and cannot overrule its cited evidence. Next read
+`udt_global_metric_assembly_atlas_2026-07-22/LAY_REPORT.md`, `AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
+and `NEXT_DECISION.md`.
+
+Current honest structure:
+
+- reciprocal kinematics is derived with its exact premise stamps;
+- the bounded metric atlas observes a small motif vocabulary whose generic coupled state is a
+  four-dimensional weave;
+- complete projector transport is derived geometric transport, not physical time;
+- the only sampled cell-wide integrable `1+1+2` family is `PHI_FIELD`-only, not the full orchestra;
+- twelve registered global completion families survive and no quotient is selected;
+- reciprocal-toric/Hopf compatibility is exact only within separately supplied global premises;
+- complete carrier, action, source, boundary charge, mass, scale, and time-live law remain open;
+- a simultaneous native density route must compute `M_native/V_proper` from the same complete
+  solution and is presently open;
+- a metric-native two-form/bivector atlas is a `WORKING` candidate next question only.
+
+Four cold role-separated reviews of the synthesis are pending. No derivation, GPU work,
+canonization, repository reorganization, or artifact relocation is authorized by this handoff.
 
 ## CURRENT (2026-07-20 — matter dimensional inventory complete; verified with caveats; no follow-on launched)
 

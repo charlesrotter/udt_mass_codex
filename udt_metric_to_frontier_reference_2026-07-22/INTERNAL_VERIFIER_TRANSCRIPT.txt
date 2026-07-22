@@ -1,0 +1,16 @@
+Script started on 2026-07-22 12:42:56-04:00 [<not executed on terminal>]
+{
+  "catch_proofs": 10,
+  "claim_rows": 29,
+  "external_reviews": "PENDING_AFTER_IMMUTABLE_REFERENCE_COMMIT",
+  "markdown_links": 16,
+  "maximum_conclusion": "EVIDENCE_BACKED_SYNTHESIS_AND_RANKED_NEXT_QUESTIONS_ONLY",
+  "navigation_files": 6,
+  "open_join_rows": 13,
+  "schema": "udt-metric-to-frontier-reference-verification-1.0",
+  "scientific_changes": 0,
+  "source_rows": 16,
+  "status": "PASS_INTERNAL_REFERENCE_CONSISTENCY"
+}
+
+Script done on 2026-07-22 12:42:56-04:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,11 @@
+catch_id	mutation	result
+C01	corrupt one source hash	PASS_MUTATION_REJECTED
+C02	duplicate a claim identity	PASS_MUTATION_REJECTED
+C03	promote conditional Hopf compatibility	PASS_MUTATION_REJECTED
+C04	erase particle premise scope	PASS_MUTATION_REJECTED
+C05	remove transport evidence target	PASS_MUTATION_REJECTED
+C06	drop one open join	PASS_MUTATION_REJECTED
+C07	promote quotient to carrier join	PASS_MUTATION_REJECTED
+C08	remove physical-time guard	PASS_MUTATION_REJECTED
+C09	remove universal-Hodge falsifier	PASS_MUTATION_REJECTED
+C10	promote density architecture	PASS_MUTATION_REJECTED
