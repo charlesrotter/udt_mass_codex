@@ -1,0 +1,22 @@
+Script started on 2026-07-22 10:34:14-04:00 [TERM="dumb" TTY="/dev/console" COLUMNS="80" LINES="24"]
+^CTraceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/pool.py", line 856, in next
+    item = self._items.popleft()
+IndexError: pop from an empty deque
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/udt_global_metric_assembly_20260722/udt_global_metric_assembly_atlas_2026-07-22/build_global_assembly_atlas.py", line 968, in <module>
+    main()
+  File "/tmp/udt_global_metric_assembly_20260722/udt_global_metric_assembly_atlas_2026-07-22/build_global_assembly_atlas.py", line 964, in main
+    build(max(1, args.workers))
+  File "/tmp/udt_global_metric_assembly_20260722/udt_global_metric_assembly_atlas_2026-07-22/build_global_assembly_atlas.py", line 875, in build
+    transport_rows = list(pool.imap(transport_worker, anchor_tasks, chunksize=1))
+  File "/usr/lib/python3.10/multiprocessing/pool.py", line 861, in next
+    self._cond.wait(timeout)
+  File "/usr/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+Script done on 2026-07-22 10:37:32-04:00 [COMMAND_EXIT_CODE="130"]

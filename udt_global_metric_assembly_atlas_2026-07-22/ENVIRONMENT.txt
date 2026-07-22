@@ -1,0 +1,14 @@
+date=2026-07-22
+python=3.10.12
+python_build=main Jun 22 2026 18:55:27 GCC 11.4.0
+numpy=2.2.6
+scipy=1.15.3
+sympy=1.13.1
+pytest=9.1.1
+platform=Linux-6.8.0-124-generic-x86_64-with-glibc2.35
+compute=CPU_ONLY
+openblas_threads_per_worker=1
+omp_threads_per_worker=1
+mkl_threads_per_worker=1
+production_workers=8
+gpu_runs=0

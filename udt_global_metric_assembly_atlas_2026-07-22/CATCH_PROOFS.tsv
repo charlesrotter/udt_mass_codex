@@ -1,0 +1,19 @@
+catch_id	mutation	result
+C01	remove one path	PASS_MUTATION_REJECTED
+C02	duplicate one path identity	PASS_MUTATION_REJECTED
+C03	remove one dense stratum anchor	PASS_MUTATION_REJECTED
+C04	promote a numeric-margin transport row	PASS_MUTATION_REJECTED
+C05	remove one 1536-set identity	PASS_MUTATION_REJECTED
+C06	drop one candidate path node	PASS_MUTATION_REJECTED
+C07	promote midpoint-only evidence to all-node	PASS_MUTATION_REJECTED
+C08	erase phi-only candidate provenance	PASS_MUTATION_REJECTED
+C09	claim bounded cap witnesses exhaust the family	PASS_MUTATION_REJECTED
+C10	call open interval transport closed holonomy	PASS_MUTATION_REJECTED
+C11	conflate holonomy notions	PASS_MUTATION_REJECTED
+C12	select a local motif completion	PASS_MUTATION_REJECTED
+C13	grant one selector unique power	PASS_MUTATION_REJECTED
+C14	activate deformation before quotient selection	PASS_MUTATION_REJECTED
+C15	activate time-live before native dynamics	PASS_MUTATION_REJECTED
+C16	promote supplied density to native selector	PASS_MUTATION_REJECTED
+C17	mark native fixed point closed without mass	PASS_MUTATION_REJECTED
+C18	filter singular completion from registry	PASS_MUTATION_REJECTED

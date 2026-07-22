@@ -1,0 +1,13 @@
+{
+  "finite_endpoint_q": "f(phi_minus)-f(phi_plus)",
+  "full_range_conditional_q": "1",
+  "kato_equals_generator_for_four_lines": true,
+  "lorentz_generator_metric_skew": true,
+  "schema": "udt-global-assembly-exact-controls-1.0",
+  "toric_connection_common_scale_dependence": "NONE",
+  "toric_connection_fraction": "1/(exp(4*phi) + 1)",
+  "toric_depth_kato_generator": "ZERO",
+  "toric_depth_projectors_covariantly_constant": true,
+  "transport_intertwining_identities": true,
+  "transport_solution_metric_isometry": true
+}

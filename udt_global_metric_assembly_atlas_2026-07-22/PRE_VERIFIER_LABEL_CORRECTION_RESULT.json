@@ -1,0 +1,65 @@
+{
+  "candidate_nodes": 13824,
+  "candidate_paths": 1536,
+  "candidate_structural_masks": [
+    "M8"
+  ],
+  "candidate_unique_analytic_identities": 192,
+  "cap_witnesses": 256,
+  "catch_proofs": 18,
+  "completion_classes": 12,
+  "dense_transport_status_census": {
+    "DENSE_TRANSPORT_NUMERIC_MARGIN_RETAINED": 7,
+    "DENSE_TRANSPORT_PASS": 76
+  },
+  "density_bootstrap_routes": 5,
+  "independent_exact_connection_control": {
+    "kato_generator_residual": 0.0,
+    "metric_skew_residual": 0.0
+  },
+  "independent_transport_anchors": [
+    {
+      "family_id": "M05_R_D",
+      "function_evaluations": 86,
+      "identity_id": "B2_R08_1_M1",
+      "intertwining_residual": 1.1303596669787197e-09,
+      "method": "SCIPY_DOP853_INDEPENDENT_ORCHESTRATION",
+      "metric_isometry_residual": 2.4735894688108334e-09,
+      "motif": "TWO_PLUS_TWO_LINES"
+    },
+    {
+      "family_id": "M04_D",
+      "function_evaluations": 74,
+      "identity_id": "B1_V003_MF",
+      "intertwining_residual": 3.4125102743587377e-10,
+      "method": "SCIPY_DOP853_INDEPENDENT_ORCHESTRATION",
+      "metric_isometry_residual": 5.072689020966577e-10,
+      "motif": "TWO_PLUS_TWO_LINES"
+    },
+    {
+      "family_id": "M01_R",
+      "function_evaluations": 122,
+      "identity_id": "B3_R02_1_M4",
+      "intertwining_residual": 1.5772039230199653e-10,
+      "method": "SCIPY_DOP853_INDEPENDENT_ORCHESTRATION",
+      "metric_isometry_residual": 4.710305217326582e-10,
+      "motif": "TWO_PLUS_TWO_LINES"
+    }
+  ],
+  "maximum_conclusion": "BOUNDED_REGISTERED_GLOBAL_METRIC_ASSEMBLY_ATLAS_CHARACTERIZED__GLOBAL_QUOTIENT_SELECTION_OPEN",
+  "monodromy_witnesses": 8,
+  "path_identities": 95232,
+  "schema": "udt-global-metric-assembly-verification-1.0",
+  "selector_rows": 84,
+  "source_hashes": "PASS",
+  "stable_motif_census": {
+    "FOUR_LINES": 1055,
+    "FULL_IRREDUCIBLE_4": 70812,
+    "LINE_PLUS_THREE": 2880,
+    "SCALAR_4_AMBIGUITY": 11328,
+    "TWO_PLUS_TWO_LINES": 7845
+  },
+  "stage_6_status": "NOT_ACTIVATED__GLOBAL_QUOTIENT_NOT_SELECTED",
+  "stage_7_status": "NOT_ACTIVATED__NATIVE_DYNAMICS_UNDEFINED",
+  "status": "PASS_WITH_REGISTERED_NUMERIC_MARGINS"
+}

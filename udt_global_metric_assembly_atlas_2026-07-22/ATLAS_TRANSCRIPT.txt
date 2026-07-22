@@ -1,0 +1,67 @@
+Script started on 2026-07-22 10:44:57-04:00 [TERM="dumb" TTY="/dev/console" COLUMNS="80" LINES="24"]
+{
+  "bounded_cap_pair_topology_census": {
+    "LENS_L_P_Q_CONVENTION": 182,
+    "P0_DEPENDENT_CYCLES": 16,
+    "S3_DETERMINANT_ONE": 58
+  },
+  "bounded_cap_pair_witness_count": 256,
+  "completion_class_count": 12,
+  "cpu_time_live_runs": 0,
+  "dense_transport_anchor_count": 83,
+  "dense_transport_status_census": {
+    "DENSE_TRANSPORT_NUMERIC_MARGIN_RETAINED": 7,
+    "DENSE_TRANSPORT_PASS": 76
+  },
+  "density_bootstrap_routes": 5,
+  "finite_cell_follow_nodes_per_candidate": 9,
+  "finite_cell_follow_status_census": {
+    "SAMPLED_ALL_9_NODES_INTEGRABLE_CANDIDATE": 1536
+  },
+  "frozen_path_identities": 95232,
+  "gpu_runs": 0,
+  "holonomy_registry_rows": 20,
+  "maximum_conclusion": "BOUNDED_REGISTERED_GLOBAL_METRIC_ASSEMBLY_ATLAS_CHARACTERIZED__GLOBAL_QUOTIENT_SELECTION_OPEN",
+  "midpoint_integrable_candidate_identities": 1536,
+  "midpoint_integrable_instrument_family_census": {
+    "M02_H": 192,
+    "M03_R_H": 192,
+    "M10_H_RG": 192,
+    "M11_R_H_RG": 192,
+    "M18_H_WG": 192,
+    "M19_R_H_WG": 192,
+    "M26_H_RG_WG": 192,
+    "M27_R_H_RG_WG": 192
+  },
+  "midpoint_integrable_structural_mask_census": {
+    "M8": 1536
+  },
+  "midpoint_integrable_unique_analytic_identities": 192,
+  "monodromy_class_census": {
+    "FINITE_ELLIPTIC": 2,
+    "HYPERBOLIC": 1,
+    "IDENTITY": 1,
+    "ORIENTATION_REVERSING": 2,
+    "PARABOLIC_OR_MINUS_PARABOLIC": 2
+  },
+  "monodromy_witness_count": 8,
+  "motif_completion_cross_rows": 84,
+  "populated_motif_family_strata": 83,
+  "schema": "udt-global-metric-assembly-atlas-1.0",
+  "selected_global_quotient_classes": [],
+  "selector_matrix_rows": 84,
+  "stable_motif_census": {
+    "FOUR_LINES": 1055,
+    "FULL_IRREDUCIBLE_4": 70812,
+    "LINE_PLUS_THREE": 2880,
+    "SCALAR_4_AMBIGUITY": 11328,
+    "TWO_PLUS_TWO_LINES": 7845
+  },
+  "stable_path_count": 93920,
+  "stage_6_status": "NOT_ACTIVATED__GLOBAL_QUOTIENT_NOT_SELECTED",
+  "stage_7_status": "NOT_ACTIVATED__NATIVE_DYNAMICS_UNDEFINED",
+  "transition_or_unstable_path_count": 1312,
+  "unique_frozen_path_identities": 95232
+}
+
+Script done on 2026-07-22 10:50:18-04:00 [COMMAND_EXIT_CODE="0"]
