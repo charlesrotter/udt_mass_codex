@@ -1,0 +1,16 @@
+{
+  "agreement_rows": 15,
+  "catch_proofs": 11,
+  "frozen_claim_status_changes": 0,
+  "frozen_reference_commit": "1a41c4b",
+  "maximum_conclusion": "EXTERNALLY_AUDITED_REFERENCE_WITH_APPEND_ONLY_QUALIFICATIONS_AND_RANKED_NEXT_QUESTIONS",
+  "new_physics_claims": 0,
+  "ranked_first_question": "REGISTERED_BOOTSTRAP_REALIZATION_OPERATOR_AUDIT",
+  "reference_freeze_manifest_sha256": "48bfee46f7d075bb6e0d19ab61dd148e2e1d38536f0863653d46f1e2bdb8cd90",
+  "review_evidence_files": 8,
+  "review_verdict_census": {
+    "PASS-WITH-CAVEATS": 4
+  },
+  "schema": "udt-metric-to-frontier-external-adjudication-1.0",
+  "status": "PASS_WITH_APPEND_ONLY_QUALIFICATIONS"
+}

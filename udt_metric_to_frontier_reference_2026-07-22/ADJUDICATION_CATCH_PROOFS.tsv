@@ -1,0 +1,12 @@
+catch_id	mutation	result
+A01	corrupt frozen reference input	PASS_MUTATION_REJECTED
+A02	corrupt raw reviewer evidence	PASS_MUTATION_REJECTED
+A03	drop one agreement issue	PASS_MUTATION_REJECTED
+A04	duplicate an agreement identity	PASS_MUTATION_REJECTED
+A05	erase prior curvature-bivector negative	PASS_MUTATION_REJECTED
+A06	erase orientation/exterior-algebra distinction	PASS_MUTATION_REJECTED
+A07	erase Hopf sign qualification	PASS_MUTATION_REJECTED
+A08	promote simultaneous density to automatic closure	PASS_MUTATION_REJECTED
+A09	erase realization priority guard	PASS_MUTATION_REJECTED
+A10	authorize GPU continuation	PASS_MUTATION_REJECTED
+A11	erase lay stop boundary	PASS_MUTATION_REJECTED

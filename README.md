@@ -5,7 +5,9 @@ After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 the [metric-to-frontier reference](udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md) → its
 [`claim ledger`](udt_metric_to_frontier_reference_2026-07-22/CLAIM_DEPENDENCY_LEDGER.tsv) and
-[`open-join ledger`](udt_metric_to_frontier_reference_2026-07-22/OPEN_JOIN_LEDGER.tsv) → the
+[`open-join ledger`](udt_metric_to_frontier_reference_2026-07-22/OPEN_JOIN_LEDGER.tsv) → its
+[`cold-review correction layer`](udt_metric_to_frontier_reference_2026-07-22/REFERENCE_CORRECTION_LAYER.md)
+and [lay ponder readout](udt_metric_to_frontier_reference_2026-07-22/PONDER_READOUT.md) → the
 [global metric-assembly atlas](udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md) → the
 exact evidence named by those files only when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
@@ -29,12 +31,17 @@ stamps; the bounded motif vocabulary and generic four-dimensional weave as obser
 projector transport as derived but not physical time; twelve retained global completion families
 with no selected quotient; conditional reciprocal-toric/Hopf compatibility; and the still-open
 carrier, action, source, boundary charge, mass, absolute-scale, and time-live joins. It introduces no
-new physics authority. Four cold external reviews are pending. Repository reorganization remains
-paused and no further content migration is authorized.
+new physics authority. Four cold external reviews returned `PASS-WITH-CAVEATS`; their append-only
+layer changes no frozen claim status. It records that the twelve global rows overlap, the Hopf sign
+remains conventional, simultaneity alone does not make density noncircular, and realization is
+mathematically prior to the action fork. Repository reorganization remains paused and no further
+content migration is authorized.
 
 The [global assembly atlas](udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md) is the
-load-bearing current metric map. Its proposed two-form/bivector follow-up is a `WORKING` candidate
-question only; no solve or GPU work follows automatically.
+load-bearing current metric map. The leading recommended question is now a source-only audit of
+whether bootstrap supplies an operational realization relation; a typed, nonduplicative bivector
+representation audit and a neutral cocycle/seam audit follow. No audit, solve, or GPU work follows
+automatically.
 
 ## Prior scientific checkpoint — July 19, 2026
 

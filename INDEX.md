@@ -4,14 +4,19 @@
 **Frontier authority:** `LIVE.md` (wins on conflict).  
 **➤ CURRENT SCIENTIFIC FRONTIER:**
 `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
-`CLAIM_DEPENDENCY_LEDGER.tsv`, `OPEN_JOIN_LEDGER.tsv`, and `SOURCE_MANIFEST.tsv`; next
+`CLAIM_DEPENDENCY_LEDGER.tsv`, `OPEN_JOIN_LEDGER.tsv`, and `SOURCE_MANIFEST.tsv`; then its
+`REFERENCE_CORRECTION_LAYER.md`, `REVIEW_AGREEMENT_DISAGREEMENT.tsv`, and `PONDER_READOUT.md`; next
 `udt_global_metric_assembly_atlas_2026-07-22/LAY_REPORT.md`, `AUDIT_REPORT.md`,
 `STATUS_LEDGER.tsv`, and `NEXT_DECISION.md`. The reference is a dependency/navigation synthesis,
 not a new scientific authority. It records the derived reciprocal core, bounded motif/weave map,
 derived geometric projector transport, retained global completion alternatives, conditional Hopf
 bridge, separate macro and particle lanes, and open realization/action/mass/scale joins. Four cold
-external reviews are pending. The metric-native two-form/bivector audit is a `WORKING` candidate,
-not an authorized or derived next step. Repository reorganization remains paused.
+external reviews returned `PASS-WITH-CAVEATS`. They leave all frozen statuses unchanged but qualify
+the twelve rows as an overlapping taxonomy, the conditional Hopf class as `|c1|=1` before a sign
+convention, and simultaneous density as only potentially noncircular. The leading bounded question
+is a source-only audit of whether registered bootstrap supplies a realization relation. A typed
+bivector-representation audit and neutral cocycle/seam audit rank next; none is authorized or
+derived. Repository reorganization remains paused.
 
 **➤ PRIOR JULY 20 SOURCE FRONTIER:**
 `matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,

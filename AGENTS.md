@@ -30,8 +30,10 @@ after the user's actual task makes them load-bearing.
    layers at startup.
 2. `HANDOFF.md` — read only its `STARTUP_CURRENT_BEGIN` / `STARTUP_CURRENT_END` range.
 3. `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
-   `CLAIM_DEPENDENCY_LEDGER.tsv` and `OPEN_JOIN_LEDGER.tsv`. This is the current dependency spine,
-   not authority over its cited evidence.
+   `CLAIM_DEPENDENCY_LEDGER.tsv` and `OPEN_JOIN_LEDGER.tsv`, then
+   `REFERENCE_CORRECTION_LAYER.md`, `REVIEW_AGREEMENT_DISAGREEMENT.tsv`, and `PONDER_READOUT.md`.
+   The frozen reference plus append-only cold-review layer is the current dependency spine, not
+   authority over its cited evidence.
 4. `udt_global_metric_assembly_atlas_2026-07-22/LAY_REPORT.md`, then `AUDIT_REPORT.md`,
    `STATUS_LEDGER.tsv`, and `NEXT_DECISION.md` when the map or proposed next question is relevant.
 5. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` and the July 19/20 source package named by the reference
@@ -70,9 +72,12 @@ The bootstrap/stable-matter interpretation remains a working hypothesis. The cur
 adds a metric-motif and global-assembly map: the generic registered coupled structure is a
 four-dimensional weave; projector transport is geometric configuration-space transport, not
 physical time; the only sampled cell-wide integrable `1+1+2` family is `PHI_FIELD`-only; twelve
-global completion families remain; and no quotient is selected. The existing implementation is
+global taxonomy rows remain, overlapping completion and behavior classes; and no quotient is
+selected. The existing implementation is
 full 3D Hopf-capable only in its conditional carrier branch, while reciprocal-toric/Hopf geometry
-still requires supplied global premises. Do not silently turn the proposed two-form/bivector audit,
+still requires supplied global premises. Four cold reviews leave the frozen statuses unchanged and
+rank a realization-operator audit before the variational fork; the broad bivector proposal is now a
+typed, nonduplicative question with universal controls. Do not silently turn either proposed audit,
 conditional Hopf theorem, celestial fiber, or time-live proposal into authority to adopt a carrier,
 section, torus, cap, framing, boundary, action, mass law, run GPU work, or claim bootstrap selection.
 

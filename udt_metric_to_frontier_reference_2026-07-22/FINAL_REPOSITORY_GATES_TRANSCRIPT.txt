@@ -1,0 +1,11 @@
+Script started on 2026-07-22 12:58:14-04:00 [TERM="dumb" TTY="/dev/console" COLUMNS="80" LINES="24"]
+final_repository_gates=PASS
+reference_freeze=48bfee46f7d075bb6e0d19ab61dd148e2e1d38536f0863653d46f1e2bdb8cd90 entries=13
+review_verdicts={'PASS-WITH-CAVEATS': 4}
+frozen_manifests=6 entries=127 paths=133
+prior_packages=71 entries=1994
+tests=69 passed/1 known failed/1 xfailed
+dirty_metadata_paths=54 hash=4bc96070c841a14c497b642ee7b93dcf9061372f770aee065d6b495ee4996f4c
+package_manifest=a5043db372a42c45afa0a922bc67c03431598a85c997cafd7b5c2e40a0d7d4c5 entries=35
+
+Script done on 2026-07-22 12:58:18-04:00 [COMMAND_EXIT_CODE="0"]

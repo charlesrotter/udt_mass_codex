@@ -6,10 +6,13 @@ This directory is an additions-only navigation layer. It points to artifacts at 
 
 Start with the [metric-to-frontier reference](../udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md),
 then its [claim dependency ledger](../udt_metric_to_frontier_reference_2026-07-22/CLAIM_DEPENDENCY_LEDGER.tsv),
-[open-join ledger](../udt_metric_to_frontier_reference_2026-07-22/OPEN_JOIN_LEDGER.tsv), and the
+[open-join ledger](../udt_metric_to_frontier_reference_2026-07-22/OPEN_JOIN_LEDGER.tsv),
+[cold-review correction layer](../udt_metric_to_frontier_reference_2026-07-22/REFERENCE_CORRECTION_LAYER.md),
+and [ponder readout](../udt_metric_to_frontier_reference_2026-07-22/PONDER_READOUT.md), then the
 [global assembly atlas](../udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md). These are
-navigation and bounded evidence, not canon. The current cold external review is pending; no
-two-form/bivector derivation, time-live solve, GPU work, or reorganization follows automatically.
+navigation and bounded evidence, not canon. Four cold roles returned `PASS-WITH-CAVEATS`; no frozen
+claim status changed. Realization-operator, typed-representation, and cocycle/seam audits are ranked
+questions only; no derivation, time-live solve, GPU work, or reorganization follows automatically.
 
 ## Lanes
 

@@ -9,23 +9,30 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
 **⚠ CURRENT SCIENTIFIC FRONTIER (2026-07-22):** read
 `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
-`CLAIM_DEPENDENCY_LEDGER.tsv`, `OPEN_JOIN_LEDGER.tsv`, and `SOURCE_MANIFEST.tsv`. It is an
-evidence-linked navigation synthesis, not a new authority over its sources. Next read
+`CLAIM_DEPENDENCY_LEDGER.tsv`, `OPEN_JOIN_LEDGER.tsv`, and `SOURCE_MANIFEST.tsv`; then read its
+`REFERENCE_CORRECTION_LAYER.md`, `REVIEW_AGREEMENT_DISAGREEMENT.tsv`, and `PONDER_READOUT.md`. The
+frozen reference is an evidence-linked navigation synthesis, not a new authority over its sources;
+the append-only layer records the completed cold-review qualifications. Next read
 `udt_global_metric_assembly_atlas_2026-07-22/LAY_REPORT.md`, `AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
 and `NEXT_DECISION.md`. Expand to the motif/Hopf, action, macro, particle, scale, or boundary source
 named by the reference only when the task makes that layer load-bearing. The older July 20 chain
 below remains durable source evidence, not the top navigation layer.
 
-## ============ CURRENT STATE (2026-07-22 — METRIC-TO-FRONTIER SYNTHESIS PREPARED AND INTERNALLY VERIFIED; FOUR COLD EXTERNAL REVIEWS PENDING. THE CURRENT STRUCTURE IS: RECIPROCAL KINEMATICS DERIVED WITH PREMISE STAMPS; LOCAL METRIC MOTIF GRAMMAR AND GENERIC FOUR-DIMENSIONAL WEAVE OBSERVED IN THE BOUNDED REGISTERED ENSEMBLE; COMPLETE PROJECTOR TRANSPORT DERIVED AS GEOMETRIC CONFIGURATION-SPACE TRANSPORT, NOT PHYSICAL TIME; TWELVE REGISTERED GLOBAL COMPLETIONS RETAINED WITH NO SELECTED QUOTIENT; RECIPROCAL-TORIC/HOPF SEED EXACT-CONDITIONAL; STATIC HOPFION SETTLED ONLY IN ITS POSITED CARRIER/ACTION/FINITE-BOX BRANCH; COMPLETE ACTION, CARRIER, SOURCE, BOUNDARY CHARGE, MASS, ABSOLUTE SCALE, AND TIME-LIVE LAW OPEN. DENSITY MAY ENTER ONLY AS A FUTURE SIMULTANEOUS M_NATIVE/V_PROPER BOOTSTRAP OUTPUT. A METRIC-NATIVE TWO-FORM/BIVECTOR AND INDUCED-HOLONOMY ATLAS IS A WORKING NEXT-QUESTION CANDIDATE, NOT A DERIVED BRIDGE. NO FOLLOW-ON DERIVATION, GPU WORK, CANONIZATION, ARTIFACT MOVE, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-22 — METRIC-TO-FRONTIER SYNTHESIS FROZEN, INTERNALLY VERIFIED, AND EXTERNALLY AUDITED. FOUR COLD EXTERNAL REVIEWS COMPLETE: 4 PASS-WITH-CAVEATS. RECIPROCAL KINEMATICS REMAINS DERIVED WITH PREMISE STAMPS; LOCAL MOTIF GRAMMAR AND THE GENERIC FOUR-DIMENSIONAL WEAVE REMAIN BOUNDED OBSERVATIONS; PROJECTOR TRANSPORT IS A UNIVERSAL GEOMETRIC IDENTITY INSTANTIATED BY THE UDT METRIC PATHS, NOT PHYSICAL TIME; THE TWELVE GLOBAL ROWS ARE AN OVERLAPPING COMPLETION/BEHAVIOR TAXONOMY, NOT TWELVE DISJOINT TOPOLOGIES, AND NO QUOTIENT IS SELECTED; THE RECIPROCAL-TORIC/HOPF RESULT IS EXACT-CONDITIONAL WITH |c1|=1 BEFORE ORIENTATION/CHIRALITY CHOOSES A SIGN. COMPLETE ACTION, CARRIER, SOURCE, BOUNDARY CHARGE, MASS, ABSOLUTE SCALE, AND TIME-LIVE LAW REMAIN OPEN. SIMULTANEOUS DENSITY IS ONLY POTENTIALLY NONCIRCULAR. THE LEADING BOUNDED QUESTION IS WHETHER REGISTERED BOOTSTRAP SUPPLIES ANY OPERATIONAL REALIZATION RELATION; A TYPED, NONDUPLICATIVE BIVECTOR-REPRESENTATION AUDIT AND A NEUTRAL COCYCLE/SEAM AUDIT FOLLOW IN PRIORITY. NO FOLLOW-ON DERIVATION, GPU WORK, CANONIZATION, ARTIFACT MOVE, OR REORGANIZATION IS AUTHORIZED.) ============
 
 - **REFERENCE:** `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`.
 - **MECHANICAL DEPENDENCIES:** `CLAIM_DEPENDENCY_LEDGER.tsv` and `OPEN_JOIN_LEDGER.tsv` in that package.
+- **COLD-REVIEW OVERLAY:** `REFERENCE_CORRECTION_LAYER.md`,
+  `REVIEW_AGREEMENT_DISAGREEMENT.tsv`, and `PONDER_READOUT.md` in that package; all frozen claim
+  statuses remain unchanged.
 - **GLOBAL ASSEMBLY EVIDENCE:** 95,232 paths; 93,920 stable; 1,312 transition/uncertain; 83 dense
   anchors with 76 passes and seven retained numerical margins; 1,536 sampled cell-wide integrable
   presentations reducing to 192 `PHI_FIELD`-only identities; 12 completion classes; no selected
-  quotient; Stage 6/7 unactivated; zero time-live and GPU work.
-- **EXTERNAL STATUS:** the reference is internally fail-closed verified; four role-separated cold
-  reviews remain pending and cannot promote a claim or authorize the proposed next map.
+  quotient; Stage 6/7 unactivated; zero time-live and GPU work. The twelve rows overlap and include
+  behavior classes; they are not twelve mutually exclusive topologies.
+- **EXTERNAL STATUS:** four isolated roles returned `PASS-WITH-CAVEATS`. The leading qualification
+  is that admissibility is not yet realization; registered bootstrap supplies no operational
+  relation yet. No review promotes a claim or authorizes the ranked follow-up audits.
 - **REORGANIZATION:** remains paused at R1H. This synthesis adds navigation only and moves nothing.
 
 **⚠ CURRENT SCIENTIFIC FRONTIER (2026-07-20):** after this CURRENT STATE block read

@@ -7,11 +7,13 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-22).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-22 — metric-to-frontier synthesis internally verified; external cold review pending)
+## CURRENT (2026-07-22 — metric-to-frontier synthesis externally audited; four PASS-WITH-CAVEATS)
 
 Read `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then
-`CLAIM_DEPENDENCY_LEDGER.tsv`, `OPEN_JOIN_LEDGER.tsv`, and `SOURCE_MANIFEST.tsv`. The reference is a
-navigation/dependency synthesis and cannot overrule its cited evidence. Next read
+`CLAIM_DEPENDENCY_LEDGER.tsv`, `OPEN_JOIN_LEDGER.tsv`, and `SOURCE_MANIFEST.tsv`; then read
+`REFERENCE_CORRECTION_LAYER.md`, `REVIEW_AGREEMENT_DISAGREEMENT.tsv`, and `PONDER_READOUT.md`. The
+frozen reference and append-only review overlay are navigation/dependency synthesis and cannot
+overrule cited evidence. Next read
 `udt_global_metric_assembly_atlas_2026-07-22/LAY_REPORT.md`, `AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
 and `NEXT_DECISION.md`.
 
@@ -22,15 +24,18 @@ Current honest structure:
   four-dimensional weave;
 - complete projector transport is derived geometric transport, not physical time;
 - the only sampled cell-wide integrable `1+1+2` family is `PHI_FIELD`-only, not the full orchestra;
-- twelve registered global completion families survive and no quotient is selected;
+- the twelve global rows form an overlapping completion/behavior taxonomy and no quotient is selected;
 - reciprocal-toric/Hopf compatibility is exact only within separately supplied global premises;
+  its bundle class is `|c1|=1` before orientation/chirality conventions choose the sign;
 - complete carrier, action, source, boundary charge, mass, scale, and time-live law remain open;
-- a simultaneous native density route must compute `M_native/V_proper` from the same complete
-  solution and is presently open;
-- a metric-native two-form/bivector atlas is a `WORKING` candidate next question only.
+- a simultaneous native density route is only potentially noncircular and remains open;
+- the prior broad two-form proposal is refined to a typed, nonduplicative representation audit;
+- the leading bounded question is whether registered bootstrap already supplies any operational
+  realization relation. Admissibility alone is not realization.
 
-Four cold role-separated reviews of the synthesis are pending. No derivation, GPU work,
-canonization, repository reorganization, or artifact relocation is authorized by this handoff.
+Four cold role-separated reviews returned `PASS-WITH-CAVEATS`; frozen claim statuses did not change.
+No ranked follow-up audit, derivation, GPU work, canonization, repository reorganization, or artifact
+relocation is authorized by this handoff.
 
 ## CURRENT (2026-07-20 — matter dimensional inventory complete; verified with caveats; no follow-on launched)
 
