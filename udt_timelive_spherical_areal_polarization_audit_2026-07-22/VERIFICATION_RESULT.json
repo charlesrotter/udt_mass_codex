@@ -1,0 +1,107 @@
+{
+  "agreement": {
+    "causal_role_exchange": "PASS",
+    "full_signature_nonflip": "PASS",
+    "local_CSN_scope": "PASS",
+    "physical_micro_identification": "OPEN",
+    "regular_center": "PASS",
+    "same_X_threading_underdetermination": "PASS",
+    "shift_complete_areal_scalar": "PASS",
+    "warped_curvature": "PASS"
+  },
+  "base": "066d1ee05c3ad144d28b096b4a4728cca06941fa",
+  "catch_proofs": {
+    "details": {
+      "angular_curvature_mutation_rejected": "PASS",
+      "causal_branch_mutation_rejected": "PASS",
+      "clock_threading_countermodel_loss_rejected": "PASS",
+      "dual_norm_mutation_rejected": "PASS",
+      "duplicate_ledger_row_rejected": "PASS",
+      "event_horizon_promotion_rejected": "PASS",
+      "full_signature_flip_promotion_rejected": "PASS",
+      "local_CSN_promotion_rejected": "PASS",
+      "maximum_conclusion_inflation_rejected": "PASS",
+      "micro_transition_promotion_rejected": "PASS",
+      "missing_ledger_row_rejected": "PASS",
+      "mixed_curvature_mutation_rejected": "PASS",
+      "production_false_check_rejected": "PASS",
+      "regular_center_mutation_rejected": "PASS",
+      "source_anchor_mutation_rejected": "PASS",
+      "source_hash_mutation_rejected": "PASS",
+      "unconditional_phi_promotion_rejected": "PASS",
+      "wrong_prereg_base_rejected": "PASS"
+    },
+    "passed": 18,
+    "total": 18
+  },
+  "caveat": "NO_FRESH_EXTERNAL_MODEL_SEMANTIC_REVIEW_AUTHORIZED",
+  "grade": "VERIFIED-WITH-CAVEATS",
+  "independent_algebra": {
+    "checks": {
+      "angular_warped_curvature": true,
+      "areal_dual_opposite_norm": true,
+      "areal_dual_orthogonal": true,
+      "constant_CSN_preserves_areal_X": true,
+      "full_lorentzian_base_across_branches": true,
+      "gradient_norm_is_X": true,
+      "linear_center_diverges": true,
+      "local_CSN_changes_areal_X": true,
+      "mixed_rr_warped_curvature": true,
+      "mixed_tr_warped_curvature": true,
+      "mixed_tt_warped_curvature": true,
+      "null_expansion_product": true,
+      "regular_center_finite_coefficient": true,
+      "same_X_curvatures_differ": true,
+      "same_X_curved_threading_control": true,
+      "same_X_flat_threading_control": true,
+      "shift_complete_X": true,
+      "shift_metric_determinant": true,
+      "static_recovery_control": true,
+      "three_branch_X_controls": true,
+      "three_branch_opposite_K_norms": true,
+      "unbalanced_center_diverges": true
+    },
+    "controls": {
+      "angular_section": "-464/5625",
+      "local_scaled_X": "88/25",
+      "shift_X": "-1001/5184",
+      "threading_curved_R": "-8/9",
+      "threading_flat_R": "0",
+      "warped_X": "341/225"
+    },
+    "exact_checks": 22
+  },
+  "preregistration": {
+    "base": "066d1ee05c3ad144d28b096b4a4728cca06941fa",
+    "commit": "90217f71e27769686ab13b9cc460772c88ec5cb1",
+    "result": "PASS"
+  },
+  "production": {
+    "checks": 23,
+    "status": "PASS",
+    "sympy_version": "1.13.1"
+  },
+  "schema": "udt-timelive-spherical-areal-polarization-independent-verification-1.0",
+  "sources": {
+    "base": "066d1ee05c3ad144d28b096b4a4728cca06941fa",
+    "result": "PASS",
+    "sources": 11
+  },
+  "status": "PASS",
+  "stop_lines": {
+    "action_or_eom_imported": false,
+    "carrier_identified_with_spacetime_sphere": false,
+    "event_horizon_claimed": false,
+    "full_signature_flip_claimed": false,
+    "micro_transition_claimed": false,
+    "threading_selected": false
+  },
+  "tables": {
+    "AREAL_POLARIZATION_ATLAS.tsv": 7,
+    "DEDUCTIVE_SPINE.tsv": 13,
+    "FRAME_STATUS_LEDGER.tsv": 9,
+    "PRIOR_WORK_REGRADE.tsv": 9,
+    "STATUS_LEDGER.tsv": 20,
+    "TIME_LIVE_ASSEMBLY_LEDGER.tsv": 15
+  }
+}

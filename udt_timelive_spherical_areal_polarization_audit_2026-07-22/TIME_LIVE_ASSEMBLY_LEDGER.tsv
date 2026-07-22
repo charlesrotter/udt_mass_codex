@@ -1,0 +1,16 @@
+id	object	exact_result	status	not_derived
+T01	general orbit metric h=-N^2dT^2+L^2(dr+beta dT)^2	det(h)=-N^2L^2 and shift retained	DECLARED_COMPLETE_SPHERICAL_KINEMATIC_FAMILY	field equation or preferred coordinates
+T02	areal scalar R	square root of sphere area divided by 4pi in a physical representative	DERIVED_CONDITIONAL_SPHERICAL_REPRESENTATIVE	pre-scale local-CSN invariant
+T03	X=h^-1(dR,dR)	R_r^2/L^2-(R_T-beta R_r)^2/N^2	DERIVED_SCALAR	profile or sign
+T04	areal dual K=epsilon^-1(dR)	K.gradR=0 and K^2=-X	DERIVED_CONDITIONAL_ORIENTATION	future sign and global completeness
+T05	null expansions	theta_plus*theta_minus=-2X/R^2 for l.k=-1	DERIVED_KINEMATICS	matter propagation or horizon dynamics
+T06	angular sectional curvature	(1-X)/R^2	DERIVED_WARPED_PRODUCT_GEOMETRY	EOM/source
+T07	mixed angular-base curvature	-(nabla_a nabla_b R)/R	DERIVED_WARPED_PRODUCT_GEOMETRY	EOM/source
+T08	bounded regular-center curvature	X=1+O(R^2) and Hessian(R)=O(R), with bounded base curvature	DERIVED_CONDITIONAL_CENTER_CLASS	full topology or matter center
+T09	areal phi candidate	phi_areal=-log(X)/2 is a scalar on X>0 and exactly recovers static phi	DERIVED_CONDITIONAL_ON_IDENTIFICATION	owner selection as universal time-live phi
+T10	X=0 behavior	phi_areal diverges and normalized clock/radial lines collapse	DERIVED_DOMAIN_BOUNDARY	event horizon or terminal boundary
+T11	X<0 continuation	real logarithmic magnitude needs phi_abs=-log(abs(X))/2 plus sign(X) branch data	NOT_THE_ORIGINAL_POSITIVE_CHARACTER_ALONE	adoption of a signed extension
+T12	orthogonal areal form	h=-F(T,R)^2 X dT^2+X^-1 dR^2 on X>0 locally	DERIVED_LOCAL_FORM	F selection and global chart
+T13	clock threading factor F	arbitrary positive function; same X=1 has flat F=1 and curved F=exp(qR)	NOT_SELECTED_BY_X_OR_LOCAL_RECIPROCAL_AMPLITUDE	action bootstrap or boundary choice
+T14	local normalized clock line	u=K/sqrt(X) on X>0	DERIVED_CONDITIONAL_PHYSICAL_REPRESENTATIVE	cross-cell synchronization or response law
+T15	complete time-live reciprocal metric	areal directions and amplitude candidate do not fix F	OPEN	unique dynamics global stitching and time normalization

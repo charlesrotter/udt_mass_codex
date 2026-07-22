@@ -1,0 +1,14 @@
+step	premises	operation	result	status	remaining_join
+D01	Lorentzian two-base h; spherical areal scalar R	Form X=h^-1(dR,dR)	coordinate scalar retaining lapse radial factor shift and time dependence	DERIVED	physical representative required
+D02	D01 plus base orientation	Hodge-dual dR	K.gradR=0 and K^2=-X	DERIVED_CONDITIONAL_ORIENTATION	future sign
+D03	D02	Classify sign of X	spatial/timelike lines for X>0; one null line at X=0; causal roles exchanged for X<0	DERIVED	branch selection
+D04	D01 plus normalized base null pair	Contract dR with null directions	theta_plus theta_minus=-2X/R^2	DERIVED_KINEMATICS	global horizon meaning
+D05	Warped-product metric geometry	Compute angular/mixed Riemann blocks	(1-X)/R^2 and -Hess(R)/R	DERIVED_PER_REPRESENTATIVE	field equation
+D06	D05 plus bounded orthonormal curvature at R->0	Take center limits	X=1+O(R^2); Hess(R)=O(R)	DERIVED_CONDITIONAL_CENTER	global smoothness/topology
+D07	Static R=r reciprocal metric	Evaluate X	X=A=exp(-2phi) and phi=-log(X)/2	DERIVED_CONDITIONAL_CONTROL	time-live identification
+D08	D01-D07; X>0	Define phi_areal=-log(X)/2	coordinate-invariant candidate exactly matching static phi	DERIVED_CONDITIONAL_ON_IDENTIFICATION	X<=0 and owner selection
+D09	D08; X crosses zero	Inspect log domain and causal lines	phi_areal diverges; real continuation requires sign branch; areal roles exchange	DERIVED_DOMAIN_LIMIT	physical transition meaning
+D10	X>0 orthogonal areal coordinates	Write most general diagonal base with h^RR=X	h=-F^2 X dT^2+X^-1dR^2	DERIVED_LOCAL_FORM	F remains
+D11	D10; X=1; F=1 versus F=exp(qR)	Compare full scalar curvature	same X and phi_areal but different curvature	EXACT_UNDERDETERMINATION	clock threading law
+D12	Full local CSN transformation with R->Omega R	Transform X	constant Omega preserves X; local Omega adds gradient terms	DERIVED_TRANSFORMATION	pre-scale representative selection
+D13	D01-D12	Adjudicate time-live extension	metric derives areal polarization and role exchange but not complete reciprocal time threading	VERIFIED_WITH_CAVEATS	nonspherical branch dynamics scale and physical micro map

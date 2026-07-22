@@ -1,0 +1,21 @@
+id	object	status	exact_scope_or_premises	not_claimed
+S01	Complete spherically symmetric time-live kinematic family	DECLARED_BOUNDED_FAMILY	arbitrary Lorentzian h plus areal R and round symmetry orbits	selected UDT solution or matter carrier
+S02	Areal scalar X	DERIVED_CONDITIONAL	physical spherical representative	pre-scale local-CSN invariant
+S03	Areal dual line K	DERIVED_CONDITIONAL	S02 plus local base orientation	preferred law observer
+S04	Orthogonality and opposite norms	DERIVED	K.gradR=0; K^2=-X	field equation
+S05	X-positive clock/radial lines	DERIVED_CONDITIONAL	regular spherical physical representative and time orientation	material clocks or global synchronization
+S06	X-zero null collapse	DERIVED_CONDITIONAL	regular X=0 point	global/event horizon
+S07	X-negative causal-role exchange	DERIVED_CONDITIONAL	regular X<0 point	full metric signature flip
+S08	Full metric signature flip at X=0	REFUTED	Lorentzian base plus positive angular orbit remains (-,+,+,+)	degenerate metrics outside family
+S09	Null expansion product -2X/R^2	DERIVED_CONDITIONAL	null normalization l.k=-1	trapping dynamics
+S10	Warped angular and mixed curvature motifs	DERIVED_PER_REPRESENTATIVE	spherical warped product	EOM or source
+S11	Regular-center X behavior	DERIVED_CONDITIONAL	bounded orthonormal warped curvature and bounded base curvature	all topology or matter centers
+S12	Static identity X=A=exp(-2phi)	DERIVED_CONDITIONAL	founded static spherical reciprocal metric	general time-live identity
+S13	phi_areal=-log(X)/2	DERIVED_CONDITIONAL_ON_IDENTIFICATION	coordinate scalar on X>0 and exact static recovery	universal owner-selected phi ontology
+S14	Real phi_areal continuation through X=0	NOT_DERIVED	positive reciprocal character alone lacks sign branch	no continuation exists under future structure
+S15	Clock threading F(T,R)	OPEN_NOT_SELECTED	arbitrary positive factor survives at fixed X	physically free after future action/bootstrap
+S16	Complete time-live reciprocal metric	OPEN	areal lines and X do not fix F or dynamics	failure of founded local reciprocity
+S17	Local-CSN invariance of physical areal X	REFUTED	R transforms with local Omega and gradient terms enter	constant common scaling does preserve X
+S18	Physical micro association of causal-role exchange	OPEN	no derived micro scale or selected solution	macro premise imposed on micro
+S19	Action source carrier boundary mass X_max scale	UNCHANGED_OPEN_OR_PREMISE_SCOPED	outside kinematic audit	closure
+S20	Audit grade	VERIFIED_WITH_CAVEATS	production and independent exact algebra repository gates no fresh external semantic review	canon or settled complete theory

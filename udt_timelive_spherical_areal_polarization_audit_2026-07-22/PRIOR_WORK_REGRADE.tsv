@@ -1,0 +1,10 @@
+id	prior_object	retained_content	new_information_or_regrade	status
+G01	Static reciprocal frame-regime/angular-center audit	finite-phi frame type; center A->1; WR-L horizon and negative-phi singular endpoint	X=A in the static branch; center condition becomes invariant X->1; WR-L wall is an X=0 areal-polarization boundary	RETAINED_AND_COVARIANTLY_EXTENDED
+G02	Reciprocal-c metric-meaning audit	local reciprocal measurement block and observer covariance	angular areal geometry supplies solution-specific lines without a law-fixed plane	RETAINED_AND_SHARPENED
+G03	Reciprocal-subbundle ownership audit	no universal law-fixed rank-two subbundle	no conflict: the areal lines exist only in a supplied spherical solution and change causal branch	RETAINED
+G04	Full time-live characteristic/flux audit	metric cone branches and boundary nonselection	areal X=0 is a separate metric-kinematic surface classification and still selects no action boundary polarization or functional	RETAINED_DISTINCT_SCOPE
+G05	Metric-wide Cartan/holonomy audit	warped mixed and angular sectors carry derived curvature per representative	exact spherical warped motifs now identify areal polarization and center conditions	RETAINED_BOUNDED_NEW_DERIVATION
+G06	Invariant causal-flow audit	static normalized local null speed and WR-L crossing	areal role exchange explains why the static reciprocal chart ends at X=0 without changing full signature	RETAINED_AND_EXTENDED
+G07	Phi ontology audit	phi is logarithmic reciprocal imbalance; complete ownership open	phi_areal is an invariant spherical post-scale candidate on X>0 but not a unique all-branch time-live ontology	PARTIALLY_ADVANCED_STILL_CONDITIONAL
+G08	Common-Scale Neutrality	positive local common scale is pre-material calibration	physical areal X is constant-scale invariant but acquires derivative terms under local Omega; no pre-scale promotion	RETAINED
+G09	Action matter boundary mass X_max ledgers	open or conditional statuses	unchanged	UNCHANGED

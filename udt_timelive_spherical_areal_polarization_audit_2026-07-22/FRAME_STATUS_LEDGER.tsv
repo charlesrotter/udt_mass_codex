@@ -1,0 +1,10 @@
+id	question	ruling	status	scope_or_gate
+F01	Do macro laws privilege an observational frame?	No by owner clarification	OWNER_FOUNDING_CLARIFICATION	No GR EOM or equivalence principle imported
+F02	Does spherical angular geometry select solution-specific lines?	Yes where dR is non-null: grad R and its Hodge dual	DERIVED_CONDITIONAL_SPHERICAL_REPRESENTATIVE	This is not a preferred law-observer
+F03	Does the areal polarization exchange causal roles?	Yes when scalar X changes sign through X=0	DERIVED_KINEMATIC_BRANCH_CLASSIFICATION	Existence/location of such a surface is not selected
+F04	Does the full metric signature flip at X=0?	No; h remains Lorentzian and the sphere positive at every regular point	REFUTED	Degenerate or signature-changing metrics outside family
+F05	Does X=0 prove a horizon or physical transition?	No	NOT_DERIVED	Requires global causal domain dynamics and solution
+F06	Does the metric supply a local unit clock direction on X>0?	Yes u=K/sqrt(X), up to time orientation	DERIVED_CONDITIONAL_PHYSICAL_REPRESENTATIVE	Material clocks and synchronization not derived
+F07	Does that local line fix clock threading between spheres?	No; F(T,R) survives and changes curvature	REFUTED_AS_COMPLETE_SELECTION	A future native law may constrain F
+F08	Is the role exchange a micro flip?	Not presently	OPEN_PHYSICAL_IDENTIFICATION	No derived micro scale maps a physical regime to X=0 or X<0
+F09	Can future nonspherical geometry differ?	Yes; the areal construction relies on spherical orbit structure	OPEN	No extrapolation

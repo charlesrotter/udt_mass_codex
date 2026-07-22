@@ -1,0 +1,8 @@
+id	branch	condition	grad_R_character	areal_dual_character	complete_metric_signature	geometric_meaning	status	limit
+P01	UNTRAPPED_LABEL_FREE	X>0	spacelike	timelike	Lorentzian (-,+,+,+)	angular sector supplies orthogonal solution-specific clock and radial lines	DERIVED_CONDITIONAL_SPHERICAL_REPRESENTATIVE	name does not import GR dynamics or global horizon status
+P02	AREAL_NULL	X=0	null	null and collinear with grad_R	Lorentzian (-,+,+,+) at a regular point	normalized areal polarization collapses to one null line	DERIVED_CONDITIONAL_SPHERICAL_REPRESENTATIVE	not automatically event horizon boundary CMB or micro transition
+P03	CAUSAL_ROLE_EXCHANGED	X<0	timelike	spacelike	Lorentzian (-,+,+,+)	areal radius is time-directed and its dual is space-directed	DERIVED_CONDITIONAL_SPHERICAL_REPRESENTATIVE	no full metric signature flip
+P04	REGULAR_CENTER	R->0 with bounded angular and mixed orthonormal curvature	spacelike with X=1+O(R^2)	timelike	Lorentzian regular-center candidate	areal polarization returns to balanced static value	DERIVED_CONDITIONAL_WARPED_PRODUCT	base curvature and Hessian conditions also required
+P05	STATIC_RECIPROCAL	R=r; h=diag(-A,A^-1); A=exp(-2phi)>0	spacelike X=A	timelike	Lorentzian	recovers phi=-log(X)/2 exactly	DERIVED_CONDITIONAL_CONTROL	static chart only
+P06	LOCAL_CSN_RESCALED	g->Omega^2g; R->Omega R with dOmega nonzero	X gains gradient-Omega terms	dual line may change	Lorentzian for Omega>0	areal polarization belongs to a selected physical representative	DERIVED_TRANSFORMATION	constant Omega preserves X; general local CSN does not
+P07	NONSHPERICAL	no sphere-orbit areal scalar supplied	not defined	not defined	unclassified by this audit	areal selector unavailable	OPEN	complete metric may supply another structure
