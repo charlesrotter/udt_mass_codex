@@ -1,0 +1,10 @@
+id	frame_question	ruling	status	scope_or_gate
+F01	Are macro observational frames reciprocal?	Yes as owner-directed law meaning: no macro observer is privileged and tensor components transform	OWNER_FOUNDING_CLARIFICATION	No GR EOM, EH action, or universal equivalence principle imported
+F02	Does every regular finite-phi static spherical point retain Lorentzian frame type?	Yes; positive coframe factors map the metric to diag(-1,1,1,1)	DERIVED_CONDITIONAL_STATIC_SPHERICAL	Local frame type is not global solution symmetry
+F03	Must every observer see identical diagonal reciprocal components?	No; that would force trivial dilation	REFUTED_BY_PRIOR_EXACT_AUDIT	Covariant components may change
+F04	Does curvature select a solution-specific frame?	It may distinguish eigenvectors or static congruences on particular strata	CONDITIONAL_SOLUTION_STRUCTURE	Does not privilege an observer in the laws
+F05	Does the WR-L wall flip the local frame law?	No in the verified crossing extension; the static observer chart/congruence terminates at a regular horizon	DERIVED_CONDITIONAL_CONTROL	Global boundary selection and matter crossing remain open
+F06	Does A->infinity at finite areal radius yield another regular frame regime?	No in this static spherical class; angular curvature diverges	REFUTED_AS_REGULAR_ENDPOINT_IN_CLASS	A correlated infinite-radius or different complete metric is not covered
+F07	Does a regular areal center inherit ordinary reciprocal balance?	Yes in the C2 Taylor static spherical class: A->1 and phi->0 with first derivatives zero	DERIVED_CONDITIONAL	Not a physical definition of micro UDT
+F08	Has micro frame reciprocity or a micro flip been derived?	No	OPEN	Requires a scale/solution map and a derived nonspherical/time-live micro geometry
+F09	What would certify a future flip?	Invariant rank, signature, causal-cone type, orientation class, or stabilizer-type change	CERTIFICATION_RULE	Coordinate slope, lapse, or component divergence is insufficient

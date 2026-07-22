@@ -1,0 +1,10 @@
+id	metric_object	exact_contribution	meaning	status	not_claimed
+A01	clock-depth sectional motif	A_second/2	curvature from radial change of reciprocal block	DERIVED_PER_REPRESENTATIVE	source or EOM
+A02	clock-angular pair motif	A_prime/(2r)	clock dilation couples to sphere-size change	DERIVED_PER_REPRESENTATIVE	matter coupling
+A03	depth-angular pair motif	-A_prime/(2r)	reciprocal radial ruler couples oppositely to sphere-size change	DERIVED_PER_REPRESENTATIVE	independent cancellation in invariants
+A04	intrinsic angular motif	(1-A)/r^2	areal sphere detects mismatch between radial ruler and angular circumference	DERIVED_PER_REPRESENTATIVE	round-S2 matter carrier
+A05	complete Kretschmann	A_second^2+4*A_prime^2/r^2+4*(1-A)^2/r^4	four nonnegative motif-square contributions with degeneracies counted	DERIVED_STATIC_SPHERICAL	general Lorentzian K is not always positive
+A06	constant reciprocal block in 1+1	zero curvature after constant coordinate rescaling	clock-radial pair alone cannot see constant imbalance	DERIVED_CONTROL	complete four-metric flatness
+A07	constant reciprocal block plus areal sphere	K=4*(1-A)^2/r^4	angular completion makes constant nonzero imbalance geometrically observable	DERIVED_CONDITIONAL_STATIC_SPHERICAL	profile selection
+A08	regular center join	A(0)=1; A_prime(0)=0	angular motif and mixed motifs force reciprocal balance and even leading center behavior	DERIVED_CONDITIONAL_C2_TAYLOR_CLASS	micro scale, matter core, or dynamics
+A09	reciprocal reversal	A versus 1/A with same areal r	angular scalar curvature differs generically	NOT_A_GENERIC_COMPLETE_METRIC_SYMMETRY	reciprocal measurement duality is not withdrawn

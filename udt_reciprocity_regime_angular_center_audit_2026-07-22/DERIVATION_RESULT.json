@@ -1,0 +1,91 @@
+{
+  "checks": {
+    "angular_term_is_exact_nonnegative_K_lower_bound": true,
+    "coframe_rebuilds_metric": true,
+    "constant_imbalance_curved_unless_balanced": true,
+    "constant_phi_reversal_not_generic_symmetry": true,
+    "coordinate_null_slope": true,
+    "determinant_phi_independent": true,
+    "finite_A_signature_lorentzian": true,
+    "flat_control": true,
+    "inverse_exact": true,
+    "kretschmann_formula": true,
+    "linear_center_singular": true,
+    "local_normalized_null_speed": true,
+    "regular_center_taylor_limit": true,
+    "regular_quadratic_center_finite": true,
+    "scalar_formula": true,
+    "weyl_formula": true,
+    "wrl_control": true,
+    "wrl_wall_invariants_finite": true
+  },
+  "controls": {
+    "constant": {
+      "C2": "4*(a - 1)**2/(3*r**4)",
+      "K": "4*(a - 1)**2/r**4",
+      "R": "-2*(a - 1)/r**2",
+      "Ricci2": "2*(a - 1)**2/r**4"
+    },
+    "flat": {
+      "C2": "0",
+      "K": "0",
+      "R": "0",
+      "Ricci2": "0"
+    },
+    "linear_center": {
+      "C2": "0",
+      "K": "8*b**2/r**2",
+      "R": "-6*b/r",
+      "Ricci2": "10*b**2/r**2"
+    },
+    "regular_quadratic": {
+      "C2": "0",
+      "K": "24*a**2",
+      "R": "-12*a",
+      "Ricci2": "36*a**2"
+    },
+    "wrl": {
+      "C2": "0",
+      "K": "8/(X**2*r**2)",
+      "R": "6/(X*r)",
+      "Ricci2": "10/(X**2*r**2)"
+    }
+  },
+  "counts": {
+    "exact_checks": 18,
+    "profile_controls": 5
+  },
+  "general_formulas": {
+    "C2": "(r**2*Derivative(A(r), (r, 2)) - 2*r*Derivative(A(r), r) + 2*A(r) - 2)**2/(3*r**4)",
+    "K": "(r**4*Derivative(A(r), (r, 2))**2 + 4*r**2*Derivative(A(r), r)**2 + 4*A(r)**2 - 8*A(r) + 4)/r**4",
+    "R": "-(r**2*Derivative(A(r), (r, 2)) + 4*r*Derivative(A(r), r) + 2*A(r) - 2)/r**2",
+    "Ricci2": "(r**4*Derivative(A(r), (r, 2))**2 + 4*r**3*Derivative(A(r), r)*Derivative(A(r), (r, 2)) + 8*r**2*Derivative(A(r), r)**2 + 8*r*A(r)*Derivative(A(r), r) - 8*r*Derivative(A(r), r) + 4*A(r)**2 - 8*A(r) + 4)/(2*r**4)",
+    "coordinate_radial_null_speed_squared": "c**2*A(r)**2",
+    "det_g": "-c**2*r**4*sin(theta)**2",
+    "local_radial_null_speed_squared": "c**2"
+  },
+  "maximum_conclusion": "NO_INVARIANT_FINITE_PHI_FRAME_FLIP_IN_STATIC_SPHERICAL_CLASS__ANGULAR_SECTOR_FORCES_RECIPROCAL_BALANCE_AT_A_REGULAR_AREAL_CENTER__TIME_LIVE_AND_MICRO_SCALE_REMAIN_OPEN",
+  "orthonormal_curvature_motifs_up_to_convention": {
+    "angular_intrinsic": "(1-A)/r^2",
+    "clock_angular_pair": "A'/(2r)",
+    "clock_depth": "A''/2",
+    "depth_angular_pair": "-A'/(2r)"
+  },
+  "regime_rulings": {
+    "A_to_infinity_finite_radius": "CURVATURE_SINGULAR_FROM_ANGULAR_TERM",
+    "A_to_zero_finite_radius": "STATIC_CHART_LIMIT__REGULARITY_DEPENDS_ON_DERIVATIVES_AND_EXTENSION",
+    "areal_center": "REGULARITY_FORCES_A_TO_ONE_AND_PHI_TO_ZERO_IN_STATED_CLASS",
+    "finite_phi_A_positive": "LORENTZIAN_NONDEGENERATE__LOCAL_FRAME_TYPE_UNCHANGED",
+    "phi_reversal": "NOT_A_GENERIC_SYMMETRY_OF_COMPLETE_STATIC_SPHERICAL_METRIC",
+    "wrl_A_to_zero": "REGULAR_HORIZON_CONTROL__STATIC_OBSERVER_FRAME_TERMINATES__LOCAL_LORENTZIAN_EXTENSION_EXISTS"
+  },
+  "regular_center": {
+    "K_limit": "6*A2**2",
+    "class": "C2_TAYLOR_STATIC_SPHERICAL_AREAL",
+    "necessary_and_sufficient_for_bounded_K": "A(0)=1 AND A'(0)=0 WITH FINITE A''(0)",
+    "phi_translation": "phi(0)=0 AND phi'(0)=0; phi=O(r^2)"
+  },
+  "schema": "udt-reciprocity-regime-angular-center-production-1.0",
+  "status": "PASS",
+  "sympy_version": "1.13.1"
+}

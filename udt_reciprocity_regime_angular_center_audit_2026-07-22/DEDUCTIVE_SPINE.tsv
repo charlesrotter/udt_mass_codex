@@ -1,0 +1,11 @@
+step	premises	operation	result	status	remaining_scope
+D01	Founded static spherical reciprocal metric; A=exp(-2phi)>0	Construct orthonormal coframe (c*sqrt(A)dt,dr/sqrt(A),r dtheta,r sin(theta)dvarphi)	Metric is locally diag(-1,1,1,1) at every regular finite-phi point	DERIVED_CONDITIONAL	Material observer dynamics absent
+D02	D01	Set ds^2=0 radially and normalize static proper time/length	coordinate slope is c_E*A while local normalized metric-null speed is c_E	DERIVED_CONDITIONAL	Universal matter/light coupling absent
+D03	D01; arbitrary C2 A(r)	Direct Christoffel-Riemann contraction	Exact R,Ricci2,K,C2 formulas and four curvature motifs	DERIVED_PER_REPRESENTATIVE	No EOM/profile selection
+D04	D03; A constant	Compare 1+1 block with complete areal angular metric	1+1 block is flat but complete metric has K=4(1-A)^2/r^4 unless A=1	DERIVED_CONDITIONAL	Static spherical realization only
+D05	D03; C2 Taylor areal center; bounded K	Inspect independent nonnegative K terms	A(0)=1; A_prime(0)=0; phi(0)=phi_prime(0)=0	DERIVED_CONDITIONAL	No physical micro scale or matter center
+D06	D03; A->infinity at fixed finite r	Use angular K lower bound	curvature diverges	DERIVED_CONDITIONAL	Correlated r->infinity and other metrics open
+D07	D03; A->0 at finite r	Separate angular and derivative terms	regularity is profile/extension dependent	UNDERDETERMINED_ENDPOINT	No universal horizon theorem
+D08	D07; WR-L A=1-r/X	Evaluate invariants and reuse verified ingoing extension	finite-curvature horizon; static observer frame terminates but local Lorentzian geometry extends	DERIVED_CONDITIONAL_CONTROL	Not selected boundary or X_max
+D09	D03; A versus 1/A at constant nonunit A	Compare scalar curvature	phi reversal is not a generic symmetry of the complete angular metric	REFUTED_UNIVERSAL_SYMMETRY	Dual measurement Reciprocity retained
+D10	D01-D09	Classify invariant frame behavior	no finite-phi frame flip in the static spherical class; extreme endpoints are horizon/profile-dependent or singular	VERIFIED_WITH_CAVEATS	Nonspherical/time-live micro geometry remains open

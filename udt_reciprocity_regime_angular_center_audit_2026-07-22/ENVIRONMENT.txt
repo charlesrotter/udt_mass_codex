@@ -1,0 +1,10 @@
+date=2026-07-22
+compute=CPU_ONLY
+gpu_runs=0
+ode_pde_solves=0
+python=3.10.12
+sympy=1.13.1
+git=2.34.1
+kernel=Linux 6.8.0-124-generic x86_64 GNU/Linux
+production_method=direct SymPy Christoffel Riemann and invariant contraction
+independent_method=Python standard-library Fraction metric-two-jet and direct coordinate Riemann contraction

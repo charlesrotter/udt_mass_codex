@@ -1,0 +1,17 @@
+id	object	status	exact_scope_or_premises	not_claimed
+S01	Static spherical reciprocal metric	DERIVED_CONDITIONAL	Founding pair plus composition, readout, time/radial slots, and areal angular completion	Universal nonspherical or time-live metric
+S02	Finite-phi metric rank/signature	DERIVED_CONDITIONAL	A=exp(-2phi)>0 at regular r>0	Material observer dynamics
+S03	Finite-phi local frame-type persistence	DERIVED_CONDITIONAL	Positive orthonormal coframe in static spherical realization	Global isometry or micro theorem
+S04	Radial coordinate null slope c_E*A	DERIVED_CONDITIONAL	Static chart	Scalar varying local c
+S05	Locally normalized metric-null speed c_E	DERIVED_CONDITIONAL	Static orthonormal readout	Universal matter/light coupling
+S06	Angular sector detects constant imbalance	DERIVED_CONDITIONAL	Areal spherical completion; constant A	Action or source
+S07	Regular-center condition A(0)=1 and A_prime(0)=0	DERIVED_CONDITIONAL	C2 Taylor static spherical areal class; bounded Kretschmann	Every topology, nonspherical center, or matter core
+S08	Regular-center phi behavior phi(0)=0 and phi_prime(0)=0	DERIVED_CONDITIONAL	S07 plus A=exp(-2phi)>0	Absolute micro clock law
+S09	Generic phi-to-minus-phi complete-metric symmetry	REFUTED	Constant-A scalar-curvature witness with angular block fixed	Dual Positional Reciprocity remains founded
+S10	WR-L wall local frame flip	REFUTED_IN_CONTROL	Previously verified regular ingoing extension	Static observer chart remains valid at wall
+S11	WR-L static observer frame termination	DERIVED_CONDITIONAL	A->0 simple-zero profile	Hard universe edge
+S12	A->infinity regular endpoint at finite areal radius	REFUTED_IN_CLASS	Exact nonnegative angular Kretschmann term	Correlated infinite-radius or different metric branch
+S13	Micro observer-frame reciprocity or flip	OPEN	No derived micro scale or complete micro geometry	No macro premise silently inherited
+S14	General time-live/nonspherical behavior	OPEN	Static spherical audit only	No extrapolation from this result
+S15	Action, matter, mass, boundary charge, scale, X_max	UNCHANGED_OPEN_OR_PREMISE_SCOPED	Excluded from audit	No closure claimed
+S16	Audit grade	VERIFIED_WITH_CAVEATS	Exact production plus independent direct-coordinate rational verification and repository gates	No fresh external-model semantic review
