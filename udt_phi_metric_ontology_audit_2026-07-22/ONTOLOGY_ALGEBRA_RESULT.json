@@ -1,0 +1,22 @@
+{
+  "all_pass": true,
+  "checks": {
+    "K_readout_phi_invisible": true,
+    "common_scale_phi_invariance": true,
+    "diagonal_block_phi_reconstruction": true,
+    "diagonal_reconstruction_CSN_independent": true,
+    "dual_pairing_invariance": true,
+    "mixed_family_continuous_parameter_retained": true,
+    "mixed_readout_phi_visible": true,
+    "mixed_readout_seal_identity": true,
+    "positive_pair_decomposition": true
+  },
+  "formulas": {
+    "conditional_diagonal_reconstruction": "p",
+    "dual_pairing_readout": "Matrix([[0, 1], [1, 0]])",
+    "mixed_readout": "Matrix([[A*exp(-2*p), B], [B, A*b**2*exp(2*p)]])",
+    "phi_ratio": "log(v/u)/2"
+  },
+  "scope": "exact algebra for registered positive reciprocal pairs and named conditional 2x2 readouts; not a field equation or a physical readout selector",
+  "sympy_version": "1.13.1"
+}

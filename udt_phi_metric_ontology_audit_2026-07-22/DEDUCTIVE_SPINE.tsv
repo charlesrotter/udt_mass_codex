@@ -1,0 +1,11 @@
+step	input	operation	output	status	premise_or_gap	sources
+D01	positive dimension-matched pair (u,v)	algebraic factorization	common factor sqrt(uv) and reciprocal ratio phi=one-half log(v/u)	DERIVED_EXACT	positivity and dimension matching	S01;S02
+D02	common rescaling (u,v) to (Omega u,Omega v)	take ratio v/u	phi unchanged	DERIVED_EXACT	Omega positive	S01;S02
+D03	dual reciprocal pairing P^T K P=K	take determinant-one diagonal realization	uv=1	DERIVED_IN_SUPPLIED_FORMALIZATION	faithful contragredient pairing is FOUNDING	S01;S03
+D04	additive relative depth and composition	solve regular one-dimensional character equation	u=exp(-phi); v=exp(phi)	DERIVED_CONDITIONAL	continuity/measurability/monotonicity regularity and sign/unit choice	S01;S03
+D05	reciprocal character plus selected local readout	apply P to selected clock/parallel coframe	g_tt=-Omega^2 exp(-2phi)c_E^2 and g_parallel=Omega^2 exp(2phi)	CONDITIONAL_EXACT	Lorentzian diagonal readout; slots; coframe normalization	S01;S03
+D06	conditional diagonal block	form component ratio	phi=one-quarter log[g_parallel/(-g_tt/c_E^2)]	CONDITIONAL_EXACT	selected slots; diagonal basis; c_E; sign/unit; ratio positive	S01;S03
+D07	arbitrary complete metric	attempt to identify reciprocal pair and readout	no unique map to phi in current foundation	OPEN_JOIN	readout family; coframe; transverse completion; internal-frame reduction unselected	S06;S07;S09;S10;S15;S18
+D08	owner field meaning plus static mirror	apply odd parity	phi=0 at fixed seal; normal derivative free	CANONIZED_BINDING_STATIC_SCOPE	static phi sector only	S01;S04;S09
+D09	registered bootstrap	inspect for operational map	global admissibility only; no phi-metric operator	NOT_PRESENT_CURRENTLY	no domain/codomain/operator/acceptance rule	S14;S17
+D10	current field and boundary inventory	well-posedness audit	no native static or time-live solution operator yet	OPEN_BLOCKED_BY_MISSING_RELATION	field census; equations; constraints; boundary completion; physical time all open	S06;S07;S14;S17;S18

@@ -1,0 +1,17 @@
+{
+  "base": "e06fb57b3e13a398289ec687a89cfd46b3728635",
+  "candidate_files": 3052,
+  "generated_records_excluded_from_selection": true,
+  "literal_token_occurrences": 119182,
+  "load_bearing_sources": 19,
+  "routing_counts": {
+    "CODE_OR_VERIFIER": 812,
+    "CURRENT_CONTROL_OR_NAVIGATION": 6,
+    "HISTORICAL_OR_LEGACY": 945,
+    "LOAD_BEARING": 19,
+    "OTHER_LITERAL_CANDIDATE": 480,
+    "POST_FIREWALL_EVIDENCE_CANDIDATE": 695,
+    "TRANSCRIPT_OR_RAW_EVIDENCE": 95
+  },
+  "token_regex": "(?<![A-Za-z])phi(?![A-Za-z])|\u03c6"
+}

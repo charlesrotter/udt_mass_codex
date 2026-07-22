@@ -1,0 +1,33 @@
+{
+  "algebra": {
+    "independent_checks": 7,
+    "production_checks": 9
+  },
+  "base": "e06fb57b3e13a398289ec687a89cfd46b3728635",
+  "catch_proofs": {
+    "passed": 17,
+    "total": 17
+  },
+  "census": {
+    "candidate_files": 3052,
+    "literal_token_occurrences": 119182
+  },
+  "changed_paths_observed": 27,
+  "claims_not_made": [
+    "complete_metric_to_phi_map",
+    "independent_off_shell_phi",
+    "native_action",
+    "time_live_law",
+    "Planck_endpoint",
+    "matter",
+    "mass",
+    "scale",
+    "topology_selection"
+  ],
+  "configuration_models": 5,
+  "grade_ceiling": "VERIFIED-WITH-CAVEATS_NO_FRESH_EXTERNAL_SEMANTIC_REVIEW",
+  "load_bearing_sources": 19,
+  "ontology_rows": 23,
+  "scope_only_package_changes": true,
+  "status": "PASS"
+}

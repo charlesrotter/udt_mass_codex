@@ -1,0 +1,17 @@
+Command:
+python3 udt_phi_metric_ontology_audit_2026-07-22/verify_ontology_audit.py
+
+Exit: 1
+
+Failure:
+ContractError: model_limit:CM2_SCALAR_PARAMETERIZED_RESTRICTED_METRIC
+
+Disposition:
+Verifier wording defect only. The CM2 row explicitly says that no native action or equation is
+supplied, but the initial verifier accepted only the phrases "not a complete" or "not a selected".
+The verifier was broadened to recognize the equally fail-closed "no native" limitation. No
+scientific row, source, or conclusion changed.
+
+Second run: the same wording defect rejected CM4, whose limit says the physical readout is
+"unselected" and a "conditional control only." The predicate was generalized to require any one
+of the explicit nonpromotion markers used by the five registered model rows.
