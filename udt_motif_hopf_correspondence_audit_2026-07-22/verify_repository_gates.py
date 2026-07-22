@@ -7,7 +7,9 @@ import csv
 import hashlib
 import importlib.util
 import json
+import re
 from pathlib import Path
+from urllib.parse import unquote
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -42,6 +44,54 @@ def digest(path: Path) -> str:
 def rows(path: Path) -> list[dict[str, str]]:
     with path.open(encoding="utf-8", newline="") as handle:
         return list(csv.DictReader(handle, delimiter="\t"))
+
+
+def validate_navigation(generic, corrupt: str | None = None) -> dict[str, int]:
+    current = rows(ROOT / "research/_registry/CURRENT_ARTIFACT_PATHS.tsv")
+    current_paths = [row["current_path"] for row in current]
+    if corrupt == "current":
+        current_paths = current_paths[:-1]
+    if len(current) != 1114 or len(current_paths) != 1114 or len(set(current_paths)) != 1114:
+        raise generic.GateError("NAVIGATION", "current-count")
+    if not all((ROOT / path).exists() for path in current_paths):
+        raise generic.GateError("NAVIGATION", "current-target")
+
+    frontier = rows(ROOT / "research/_registry/CURRENT_FRONTIER_TARGETS.tsv")
+    targets = {row["target_path"].rstrip("/") for row in frontier}
+    if corrupt == "frontier":
+        targets.pop()
+    if len(frontier) != 306 or len(targets) != 101:
+        raise generic.GateError("NAVIGATION", "frontier-count")
+    if not all((ROOT / path).exists() for path in targets):
+        raise generic.GateError("NAVIGATION", "frontier-target")
+
+    link_pattern = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
+    links: list[Path] = []
+    archival_citations = 0
+    for source in sorted((ROOT / PACKAGE).glob("*.md")):
+        for raw in link_pattern.findall(source.read_text(encoding="utf-8")):
+            target = raw.strip().strip("<>")
+            if target.startswith(("http://", "https://", "mailto:", "#")):
+                continue
+            target = unquote(target.split("#", 1)[0])
+            if target.startswith("/tmp/") and "/repo/" in target:
+                relative = target.split("/repo/", 1)[1]
+                relative = re.sub(r":\d+$", "", relative)
+                links.append((ROOT / relative).resolve())
+                archival_citations += 1
+            else:
+                links.append(source.parent.joinpath(target).resolve())
+    if corrupt == "archival":
+        links.append(ROOT / "NONEXISTENT_ARCHIVAL_CITATION_TARGET")
+    if not all(path.exists() for path in links):
+        raise generic.GateError("NAVIGATION", "markdown-link")
+    return {
+        "current_paths": len(current),
+        "frontier_rows": len(frontier),
+        "frontier_targets": len(targets),
+        "package_links": len(links),
+        "archival_tmp_citations_mapped": archival_citations,
+    }
 
 
 def scientific_results() -> dict[str, object]:
@@ -158,7 +208,7 @@ def main() -> None:
     replay = generic.replay_packages(ROOT, prior, "PRIOR")
     if len(prior) != 69 or replay["entries"] != 1864:
         raise generic.GateError("PRIOR", f"{len(prior)}:{replay['entries']}")
-    navigation = generic.validate_navigation(ROOT)
+    navigation = validate_navigation(generic)
     dirty = generic.validate_dirty(ROOT, DIRTY)
     tests = generic.validate_tests(ROOT)
     tests.pop("stdout_sha256", None)
@@ -171,11 +221,10 @@ def main() -> None:
         "prior": generic.expect(
             "PRIOR", lambda: generic.replay_packages(ROOT, prior, "PRIOR", True)
         ),
-        "current": generic.expect(
-            "NAVIGATION", lambda: generic.validate_navigation(ROOT, "current")
-        ),
-        "frontier": generic.expect(
-            "NAVIGATION", lambda: generic.validate_navigation(ROOT, "frontier")
+        "current": generic.expect("NAVIGATION", lambda: validate_navigation(generic, "current")),
+        "frontier": generic.expect("NAVIGATION", lambda: validate_navigation(generic, "frontier")),
+        "archival_link": generic.expect(
+            "NAVIGATION", lambda: validate_navigation(generic, "archival")
         ),
         "dirty": generic.expect("DIRTY", lambda: generic.validate_dirty(ROOT, DIRTY, True)),
         "package": generic.expect(

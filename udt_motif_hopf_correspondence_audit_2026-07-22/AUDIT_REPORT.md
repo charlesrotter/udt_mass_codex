@@ -260,6 +260,13 @@ the exact ten-row builder/current lineage identity, all 29 catches, the coordina
 ledger counts, metric algebra, and a fresh 2,048-point seed comparison at `8.23e-16`. The caveats are
 the registered scientific scope caveats below, not unresolved package defects.
 
+The first repository-wide gate replay then rejected the external reviewers' absolute temporary
+worktree citations as missing current links. Their raw returns were preserved byte-for-byte. A
+preregistered package-local resolver now maps only `/tmp/.../repo/<path>:<line>` provenance
+citations to their repository-relative targets and fails if those targets are absent. The corrected
+repository gate passes, including its archival-link catch, frozen/prior manifests, navigation,
+tests, package manifest, and unchanged dirty-checkout metadata.
+
 The supplied equal-weight circle action is now machine-recorded separately from the absent `S2`
 matter carrier and absent `L2+L4` action functional. The direct amplitude-family and
 invariant-subspace source manifests are explicitly pinned in `SOURCE_LINEAGE.tsv`.
