@@ -1,0 +1,13 @@
+id	geometric_limit	asymptotic_data	clock_factor_FsqrtX	coordinate_slope_over_c_FX	curvature_or_regular_status	classification
+E01	ordinary calibrated point	X approximately 1; F approximately 1	finite baseline	finite baseline	regular observed regime	OBSERVED_CALIBRATION
+E02	outer generic freeze	delta->0; X~delta^p p>0; F~delta^q q>-p/2	zero	zero	derivatives and complete geometry still decide	CONDITIONAL_ASYMPTOTIC_CLASS
+E03	outer finite clock boundary	p>0; q=-p/2	finite nonzero	zero	F diverges; curvature must be checked	CONDITIONAL_ASYMPTOTIC_CLASS
+E04	outer slope-only freeze	p>0; -p<q<-p/2	infinity	zero	clock and coordinate interpretations separate	CONDITIONAL_ASYMPTOTIC_CLASS
+E05	outer finite coordinate slope	p>0; q=-p	infinity	finite nonzero	strong F divergence; curvature must be checked	CONDITIONAL_ASYMPTOTIC_CLASS
+E06	WR-L static wall	X=1-R/X_max; F=1	zero	zero	finite-curvature horizon in recorded control	DERIVED_CONDITIONAL_CONTROL
+E07	regular spherical areal center	X=1+O(R^2); N=F*sqrt(X)=N0+O(R^2), 0<N0<infinity	finite	finite	bounded four orthonormal curvature motifs	DERIVED_CONDITIONAL_CENTER
+E08	inner X divergence at areal center	X~R^-p p>0; F bounded	infinity	infinity	angular K contribution 4(1-X)^2/R^4 diverges	SINGULAR_BRANCH_CATALOGUED
+E09	inner F divergence at balanced areal center	X=1; F~R^-q q>0	infinity	infinity	K=4q^2(q^2+2q+3)/R^4 diverges	SINGULAR_BRANCH_CATALOGUED
+E10	time-only F normalization	F multiplied by positive a(t)	coordinate dependent	coordinate dependent	removable locally by time relabeling; no radial physical infinity	GAUGE_LOCAL
+E11	noncentral nonspherical toric or Hopf micro geometry	no spherical areal center assumed	unclassified	unclassified	not tested by spherical endpoint theorem	OPEN
+E12	physical subnuclear separation to zero	regime-to-geometry map absent	unclassified	unclassified	cannot identify with E07 E08 or E09 yet	OPEN

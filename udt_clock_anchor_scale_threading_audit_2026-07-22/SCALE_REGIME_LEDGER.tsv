@@ -1,0 +1,13 @@
+id	object	dimensional_or_metric_fact	status	missing_join
+R01	c_E	dimensions length/time; converts local clocks and rulers	OWNER_LOCKED_OBSERVATIONAL_ANCHOR	no absolute length from c_E alone
+R02	G_obs	dimensions length^3/(mass*time^2)	OWNER_LOCKED_OBSERVATIONAL_ANCHOR	native placement in complete theory
+R03	c_E and G_obs together	c_E^2/G_obs has dimensions mass/length	DERIVED_DIMENSION_COUNT	cannot form an absolute length or mass
+R04	M X c_E G dimensional family	rank three with sole group G*M/(c_E^2*X)	DERIVED_DIMENSION_COUNT	independent homothety-breaking datum
+R05	X_max	global shared limit and possible metric/mass output	OWNER_LOCKED_TARGET_VALUE_OPEN	complete mass boundary bootstrap closure
+R06	ordinary regime	terrestrial and solar observations calibrate finite c_E and near-baseline clock/ruler behavior	OBSERVED_REGIME	metric-derived map or tolerance in dimensionless depth
+R07	outer cosmological regime	X->0 with sufficiently nondivergent F makes relative clock factor and coordinate slope vanish	CONDITIONAL_ASYMPTOTIC_CLASS	selected solution X_max and F behavior
+R08	subnuclear regime	physical separation approaching zero is not yet identified with spherical areal R->0	OPEN_SCALE_AND_GEOMETRY_MAP	native matter geometry and dimensional ruler
+R09	electron mass charge or hbar	possible future observational anchor previously discussed but not adopted in this audit	OPEN_NOT_INSERTED	owner choice and native placement
+R10	total density	M_native/V_proper only after both arise from one complete solution	WORKING_FUTURE_ROUTE	native mass volume response and density target
+R11	co-presence	whole-solution ontology has no dimensional exponent	NO_SCALE_SELECTION	operational realization relation
+R12	absolute regime map	function mapping physical lengths or depths to X F and metric branch	OPEN	new dimensional datum or native scale-breaking closure

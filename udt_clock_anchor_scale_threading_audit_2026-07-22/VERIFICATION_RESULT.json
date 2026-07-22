@@ -1,0 +1,109 @@
+{
+  "agreement": {
+    "coordinate_remote_factors": "PASS",
+    "endpoint_flat_counterfamily": "PASS",
+    "explicit_c_anchor": "PASS",
+    "nonspherical_micro_reflection": "OPEN",
+    "outer_freeze": "CONDITIONAL_CLASSIFIED",
+    "regular_spherical_center": "PASS",
+    "scale_rank": "PASS",
+    "threading_nonselection": "PASS"
+  },
+  "base": "e4075a05e6f64714e732f375641bd73447d3559c",
+  "catch_proofs": {
+    "details": {
+      "F_selection_promotion_rejected": "PASS",
+      "curvature_motif_mutation_rejected": "PASS",
+      "dimensional_null_mutation_rejected": "PASS",
+      "duplicate_ledger_row_rejected": "PASS",
+      "endpoint_jet_loss_rejected": "PASS",
+      "inner_F_regularization_rejected": "PASS",
+      "inner_X_regularization_rejected": "PASS",
+      "inner_regular_promotion_rejected": "PASS",
+      "instant_access_promotion_rejected": "PASS",
+      "kretschmann_mutation_rejected": "PASS",
+      "local_c_anchor_mutation_rejected": "PASS",
+      "maximum_conclusion_inflation_rejected": "PASS",
+      "missing_ledger_row_rejected": "PASS",
+      "nonspherical_exclusion_rejected": "PASS",
+      "production_false_check_rejected": "PASS",
+      "regular_center_mutation_rejected": "PASS",
+      "source_hash_mutation_rejected": "PASS",
+      "wrong_prereg_base_rejected": "PASS"
+    },
+    "passed": 18,
+    "total": 18
+  },
+  "caveat": "NO_FRESH_EXTERNAL_MODEL_SEMANTIC_REVIEW_AUTHORIZED",
+  "grade": "VERIFIED-WITH-CAVEATS",
+  "independent_algebra": {
+    "checks": {
+      "block_determinant_contains_F": true,
+      "c_G_submatrix_rank_two": true,
+      "clock_factor_control": true,
+      "coordinate_slope_control": true,
+      "dimension_matrix_rank_three": true,
+      "endpoint_F_second_jets_preserved": true,
+      "endpoint_flat_interior_curvature_changes": true,
+      "generic_direct_K_matches_motifs": true,
+      "generic_four_curvature_motifs": true,
+      "inner_X_angular_lower_bound_positive": true,
+      "inner_radial_F_divergence_has_positive_K": true,
+      "local_proper_anchor_is_c_E": true,
+      "outer_exponent_clock_condition_stronger": true,
+      "reciprocal_X_product": true,
+      "regular_center_limits": true,
+      "ruler_factor_control": true,
+      "sole_dimensionless_null_vector": true,
+      "time_relabel_changes_coordinate_determinant": true
+    },
+    "controls": {
+      "endpoint_deformation_difference": "-3/128",
+      "generic_K": "1979/900",
+      "generic_motifs": [
+        "-17/45",
+        "4/9",
+        "-1/20",
+        "-1/12"
+      ],
+      "inner_F_K": "176/81",
+      "inner_X_angular_K_lower": "576",
+      "proper_anchor": "5"
+    },
+    "exact_checks": 18
+  },
+  "preregistration": {
+    "base": "e4075a05e6f64714e732f375641bd73447d3559c",
+    "commit": "c0da3e7bd847de458ed25fbd4e7f6afb3cd11047",
+    "result": "PASS"
+  },
+  "production": {
+    "checks": 24,
+    "status": "PASS",
+    "sympy_version": "1.13.1"
+  },
+  "schema": "udt-clock-anchor-scale-threading-independent-verification-1.0",
+  "sources": {
+    "base": "e4075a05e6f64714e732f375641bd73447d3559c",
+    "result": "PASS",
+    "sources": 15
+  },
+  "status": "PASS",
+  "stop_lines": {
+    "F_selected_claimed": false,
+    "absolute_scale_selected": false,
+    "instantaneous_operational_access_claimed": false,
+    "matter_signal_law_claimed": false,
+    "micro_equals_areal_center_claimed": false,
+    "nonspherical_inner_branch_excluded": false
+  },
+  "tables": {
+    "CLOCK_ANCHOR_LEDGER.tsv": 10,
+    "DEDUCTIVE_SPINE.tsv": 12,
+    "ENDPOINT_ATLAS.tsv": 12,
+    "PRIOR_WORK_REGRADE.tsv": 9,
+    "SCALE_REGIME_LEDGER.tsv": 12,
+    "STATUS_LEDGER.tsv": 19,
+    "THREADING_SELECTOR_LEDGER.tsv": 13
+  }
+}

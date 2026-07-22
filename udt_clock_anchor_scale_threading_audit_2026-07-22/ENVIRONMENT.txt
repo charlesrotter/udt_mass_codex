@@ -1,0 +1,10 @@
+date=2026-07-22
+mode=CPU_ONLY_EXACT_ALGEBRA_AND_SOURCE_AUDIT
+python=3.10.12
+sympy=1.13.1
+git=2.34.1
+kernel=Linux 6.8.0-124-generic x86_64 GNU/Linux
+production=SymPy exact metric and curvature algebra
+independent=Python standard-library Fraction coordinate-Riemann reconstruction
+physics_solves=0
+gpu_runs=0

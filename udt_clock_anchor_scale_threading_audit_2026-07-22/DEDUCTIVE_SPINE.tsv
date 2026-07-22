@@ -1,0 +1,13 @@
+step	premises	operation	result	status	remaining_join
+D01	explicit c_E; positive X orthogonal areal metric	compute stationary clock radial ruler and null slope	dtau/dt=F sqrt(X); dell/dR=1/sqrt(X); abs(dR/dt)=c_E F X	DERIVED_CONDITIONAL	material clocks and global chart
+D02	D01 metric-null relation	compare local orthonormal spatial and stationary-clock components	dell/dtau_ref=c_E exactly; F and X cancel; null-curve proper time remains zero	DERIVED_CONDITIONAL_LOCAL_METRIC_NULL	matter propagation and response
+D03	founded reciprocal modulation	multiply sqrt(X) and inverse sqrt(X)	unit reciprocal product; F remains outside the pair	DERIVED_ALGEBRA	threading ownership
+D04	D01 plus passive t relabeling	transform F and block determinant	determinant normalization is coordinate dependent; radial log-F gradient survives	DERIVED_TRANSFORMATION	global time chart
+D05	arbitrary static N and X spherical metric	compute complete orthonormal Riemann motifs	four exact clock-radial clock-angular radial-angular and angular motifs	DERIVED_STATIC_SPHERICAL	general time-live curvature
+D06	D05 plus C2 center Taylor class and bounded curvature	take R->0 limits	X0=1 X1=0 N0 finite positive N1=0	DERIVED_CONDITIONAL_CENTER	nonspherical/noncentral micro geometry
+D07	D05; X=1; F~R^-q	compute K	positive q gives R^-4 curvature divergence	DERIVED_EXACT_CONTROL	other noncentral branches
+D08	D05; X~R^-p	use angular K term	positive p gives stronger areal-center divergence	DERIVED_EXACT_CONTROL	other topology or scale map
+D09	finite cell supplied; endpoint F jets held fixed	apply positive endpoint-flat F bump	interior curvature changes while endpoints through second jet agree	EXACT_COUNTERMODEL	interior EOM or selector
+D10	c_E G_obs M L dimensions	compute rank/nullspace	only G_obs*M/(c_E^2*L) is dimensionless; no absolute scale	DERIVED_DIMENSION_COUNT	new dimensional datum
+D11	registered Reciprocity CSN finite cell seal bootstrap wording	audit operational ownership	none supplies a covariant interior F equation or regime map	SOURCE_LEDGER_RULING	future realization operator
+D12	D01-D11	classify requested reflection	outer freeze is combined-asymptotics conditional; inner infinity is singular at a regular spherical center but open in noncentral geometry	VERIFIED_WITH_CAVEATS	complete micro geometry and native scale map

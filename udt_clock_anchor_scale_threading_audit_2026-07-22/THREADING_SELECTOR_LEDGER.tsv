@@ -1,0 +1,14 @@
+id	candidate	exact_test	ruling	status
+T01	pair Reciprocity	fixes reciprocal sqrt(X) and 1/sqrt(X) modulation while their product is one; F multiplies the clock threading separately	does not fix F	NOT_SELECTED
+T02	constant coordinate-block determinant	det(h_tR)=-c_E^2*F^2; setting it to -c_E^2 forces F=1	would fix F only by adding an areal-coordinate synchronization condition	CHOSE_IF_IMPOSED_NOT_DERIVED
+T03	passive time reparameterization	dt=s(t)dt_new sends F to s(t)F and determinant to s(t)^2 times itself	coordinate determinant is not an observer-covariant selector	DERIVED_TRANSFORMATION
+T04	time-only factor in F	F=a(t)F_bar(t,R) can absorb a nonzero time-only multiplier locally by relabeling time	pure time normalization is gauge-local	DERIVED_CONDITIONAL_LOCAL
+T05	radial threading gradient	a_R=partial_R log(F*sqrt(X)); partial_R log F survives time-only relabeling	genuine radial lapse/threading geometry remains	DERIVED_STATIC_AREAL_CONGRUENCE
+T06	same-X metrics	X=1 with F=1 is flat while radial F gives nonzero curvature	F is not wholly coordinate-only	EXACT_COUNTERMODEL
+T07	macro observational-frame reciprocity	tensor covariance permits component changes under passive frames	no identical-F component rule	NOT_SELECTED
+T08	Common-Scale Neutrality	pre-scale common calibration preserves cones but does not choose a physical areal representative	no F selector	NOT_SELECTED
+T09	finite cell and seal endpoint data	F_epsilon=exp[epsilon*y^3*(1-y)^3] preserves F and its first two jets at both endpoints but changes interior clock-radial curvature	endpoint data do not fix interior F	REFUTED_IN_BOUNDED_ENDPOINT_CLASS
+T10	registered bootstrap	current wording supplies on-shell admissibility without an input operation boundary response or output equation	no operational F relation supplied	OPEN_NOT_SUPPLIED
+T11	static WR-L realization	declared simple metric has F=1	valid scoped representative not a time-live derivation	DERIVED_CONDITIONAL_STATIC_CONTROL
+T12	clock-curvature equation	conditional supplied equation could constrain lapse/threading after representative selection	not forced by current UDT premises	CONDITIONAL_LEAD_NOT_AUTHORITY
+T13	action or boundary functional	could constrain F through an EOM or transversality law	complete native object absent	OPEN
