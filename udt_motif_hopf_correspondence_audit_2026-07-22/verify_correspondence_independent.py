@@ -376,14 +376,16 @@ def main():
     with (HERE/"INDEPENDENT_CATCH_PROOFS.tsv").open("w",encoding="utf-8",newline="") as handle:
         writer=csv.DictWriter(handle,fieldnames=("catch_id","result"),delimiter="\t",lineterminator="\n"); writer.writeheader(); writer.writerows(catches)
     result={
-        "status":"PASS_WITH_CAVEATS", "blind_anchor_identities":64,
+        "status":"PASS_WITH_REGISTERED_SCOPE", "blind_anchor_identities":64,
         "blind_path_family_comparisons":len(blind), "adverse_path_family_comparisons":len(adverse_results),
         "adverse_family_paths":len(adverse), "classification_mismatches":0,
         "blind_distribution_rows_compared":distribution_comparisons,
-        "unstable_stencils_reproduced":unstable_reproduced, "toric_control":toric,
-        "catch_proofs":len(catches),
+        "unstable_stencils_reproduced":unstable_reproduced,
+        "toric_control_regression":toric,
+        "toric_independence_status":"REGRESSION_ONLY_SUPERSEDED_BY_REVIEW_CORRECTION",
+        "legacy_declaration_catches":len(catches),
         "independent_implementation":"frozen nonproduction motif algebra plus independent analytic Jet reconstruction",
-        "maximum_conclusion":"BOUNDED_METRIC_MOTIF_TO_HOPF_CORRESPONDENCE_VERIFIED_WITH_CAVEATS",
+        "maximum_conclusion":"BOUNDED_ANALYTIC_PATH_AND_REGISTERED_CHART_DISTRIBUTION_REPLAY",
     }
     (HERE/"INDEPENDENT_VERIFICATION_RESULT.json").write_text(json.dumps(result,indent=2,sort_keys=True)+"\n",encoding="utf-8")
     print(json.dumps(result,indent=2,sort_keys=True))

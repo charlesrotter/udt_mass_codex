@@ -18,6 +18,8 @@ MOTIF = ROOT / "udt_instrument_motif_atlas_2026-07-21"
 FIELDS = ("motif", "primitive_block_ranks", "primitive_block_signatures", "algebra_dimension", "central_split_count", "numeric_status")
 EXPECTED = {"identities":3072,"nodes":17,"families":31,"path_rows":1618944,"summaries":95232,"unstable_stencils":13}
 POINT_PAIRS = {0:("P0","P4"),1:("P1","P5"),2:("P2","P6"),3:("P3","P7")}
+MAXIMUM = ("OBSERVED_BOUNDED_REGISTERED-CHART_SAMPLED_MOTIF_AND_FROBENIUS_CENSUS"
+           "+EXACT_CONDITIONAL_RECIPROCAL-TORIC/HOPF-SEED_COMPATIBILITY_WITNESS")
 
 
 def digest(path):
@@ -55,10 +57,17 @@ def validate_toric(toric):
 def main():
     result=json.loads((HERE/"ATLAS_RESULT.json").read_text()); toric=json.loads((HERE/"TORIC_CONTROL_RESULT.json").read_text())
     independent=json.loads((HERE/"INDEPENDENT_VERIFICATION_RESULT.json").read_text())
+    correction=json.loads((HERE/"REVIEW_CORRECTION_RESULT.json").read_text())
     identity_rows=sum(1 for _ in (HERE/"COHERENT_IDENTITY_REGISTRY.tsv").open())-1
     path_count=sum(1 for _ in rows(HERE/"PATH_FAMILY_ATLAS.tsv.gz")); summary_count=sum(1 for _ in rows(HERE/"PATH_CONTINUATION_SUMMARY.tsv.gz"))
     validate_counts(identity_rows,path_count,summary_count); validate_global_status(result); validate_toric(toric)
-    if independent["status"] != "PASS_WITH_CAVEATS" or independent["classification_mismatches"] != 0: raise AssertionError("independent verifier")
+    if independent["status"] != "PASS_WITH_REGISTERED_SCOPE" or independent["classification_mismatches"] != 0: raise AssertionError("independent verifier")
+    if correction["status"] != "PASS_WITH_REGISTERED_SCOPE" or correction["maximum_conclusion"] != MAXIMUM: raise AssertionError("review correction")
+    if correction["covariance"]["all_family_node_comparisons"] != 67456: raise AssertionError("covariance coverage")
+    if correction["covariance"]["nonuncertain_classification_discordances"] != 0: raise AssertionError("covariance classification")
+    if correction["covariance"]["matched_edge_transport_discordances"] != 0: raise AssertionError("edge transport covariance")
+    if correction["frobenius_certification_scope"] != "REGISTERED_CHART_ONLY": raise AssertionError("Frobenius scope")
+    if correction["exercised_mutation_catches"] != 13: raise AssertionError("correction catches")
     for name in ("PATH_FAMILY_ATLAS.tsv.gz","PATH_CONTINUATION_SUMMARY.tsv.gz","DISTRIBUTION_ATLAS.tsv.gz"):
         with (HERE/name).open("rb") as handle: header=handle.read(10)
         if struct.unpack("<I",header[4:8])[0] != 0: raise AssertionError(f"nondeterministic gzip {name}")
@@ -110,13 +119,17 @@ def main():
     with (HERE/"CATCH_PROOFS.tsv").open("w",encoding="utf-8",newline="") as handle:
         writer=csv.DictWriter(handle,fieldnames=("catch_id","result"),delimiter="\t",lineterminator="\n"); writer.writeheader(); writer.writerows(catches)
     output={
-        "status":"PASS_WITH_CAVEATS","identity_rows":identity_rows,"path_rows":path_count,"summary_rows":summary_count,
+        "status":"PASS_WITH_REGISTERED_SCOPE","identity_rows":identity_rows,"path_rows":path_count,"summary_rows":summary_count,
         "endpoint_rows_compared":compared,"endpoint_mismatches":0,"unstable_stencils":unstable,
         "max_projector_validation_residual":result["max_projector_validation_residual"],
         "max_derivative_convergence_residual":result["max_derivative_convergence_residual"],
         "independent_blind_path_comparisons":independent["blind_path_family_comparisons"],
         "independent_adverse_path_comparisons":independent["adverse_path_family_comparisons"],
-        "catch_proofs":len(catches),"maximum_conclusion":"BOUNDED_METRIC_MOTIF_TO_HOPF_CORRESPONDENCE_CHARACTERIZED",
+        "legacy_declaration_catches":len(catches),
+        "correction_mutation_catches":correction["exercised_mutation_catches"],
+        "frobenius_certification_scope":correction["frobenius_certification_scope"],
+        "overall_correspondence_status":"LEAD",
+        "maximum_conclusion":MAXIMUM,
     }
     (HERE/"VERIFICATION_RESULT.json").write_text(json.dumps(output,indent=2,sort_keys=True)+"\n",encoding="utf-8")
     print(json.dumps(output,indent=2,sort_keys=True))

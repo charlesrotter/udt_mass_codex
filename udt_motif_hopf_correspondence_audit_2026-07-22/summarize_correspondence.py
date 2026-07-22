@@ -85,15 +85,22 @@ def main():
         },
         "HD_midpoint_contrast": {
             "scalar_rows": sum(value for (motif, _stencil, _frob), value in hd.items() if motif == "SCALAR_4_AMBIGUITY"),
-            "full_irreducible_rows": sum(value for (motif, _stencil, _frob), value in hd.items() if motif == "FULL_IRREDUCIBLE_4"),
+            "stable_full_irreducible_rows": sum(value for (motif, stencil, _frob), value in hd.items()
+                                                       if motif == "FULL_IRREDUCIBLE_4" and stencil == "STABLE_CLASSIFIED"),
             "uncertain_rows": sum(value for (_motif, stencil, _frob), value in hd.items() if stencil != "STABLE_CLASSIFIED"),
             "four_line_rows": sum(value for (motif, _stencil, _frob), value in hd.items() if motif == "FOUR_LINES"),
         },
         "global_hopf_eligible_local_identities": 0,
         "toric_control_axis_recovery": "GENERIC_CONDITIONAL",
         "toric_control_seed_match": "EXACT",
+        "frobenius_certification_scope": "REGISTERED_CHART_ONLY",
+        "path_certification_scope": "17_NODE_SAMPLED_MATCH_NOT_CONTINUOUS_BUNDLE_THEOREM",
+        "overall_correspondence_status": "LEAD",
         "carrier_emergence": "OPEN",
-        "maximum_conclusion": "LOCAL_TWISTING_PROJECTOR_PRECURSOR_PLUS_CONDITIONAL_EXACT_HOPF_SEED_BRIDGE",
+        "maximum_conclusion": (
+            "OBSERVED_BOUNDED_REGISTERED-CHART_SAMPLED_MOTIF_AND_FROBENIUS_CENSUS"
+            "+EXACT_CONDITIONAL_RECIPROCAL-TORIC/HOPF-SEED_COMPATIBILITY_WITNESS"
+        ),
     }
     (HERE / "SCIENTIFIC_SUMMARY.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
