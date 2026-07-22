@@ -32,7 +32,7 @@ def main():
             transition_families[row["family_id"]] += 1
             transition_total += 1
     persistence_rows = [
-        {"motif_word": key[0], "stable_projector_path": key[1], "family_paths": value}
+        {"motif_word": key[0], "sampled_all_node_match_17_nodes": key[1], "family_paths": value}
         for key, value in sorted(persistence.items())
     ]
     write("PATH_MOTIF_PERSISTENCE.tsv", list(persistence_rows[0]), persistence_rows)
@@ -62,7 +62,7 @@ def main():
     write("HD_CONTRAST_CENSUS.tsv", list(hd_rows[0]), hd_rows)
 
     result = {
-        "stable_path_census": {
+        "sampled_all_node_match_census": {
             "full_irreducible": persistence[("FULL_IRREDUCIBLE_4", "YES")],
             "scalar": persistence[("SCALAR_4_AMBIGUITY", "YES")],
             "one_one_two": persistence[("TWO_PLUS_TWO_LINES", "YES")],
