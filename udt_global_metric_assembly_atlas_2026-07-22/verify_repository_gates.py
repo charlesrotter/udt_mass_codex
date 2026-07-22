@@ -74,9 +74,14 @@ def validate_navigation(generic, corrupt: str | None = None) -> dict[str, int]:
             if target.startswith(("http://", "https://", "mailto:", "#")):
                 continue
             target = unquote(target.split("#", 1)[0])
-            if target.startswith("/tmp/") and "/repo/" in target:
-                relative = re.sub(r":\d+$", "", target.split("/repo/", 1)[1])
-                links.append((ROOT / relative).resolve())
+            if target.startswith("/tmp/"):
+                archived = Path(re.sub(r":\d+$", "", target))
+                relative_parts = list(archived.parts[3:])
+                if relative_parts and relative_parts[0] == "repo":
+                    relative_parts = relative_parts[1:]
+                if not relative_parts:
+                    raise generic.GateError("NAVIGATION", "empty-archival-citation")
+                links.append(ROOT.joinpath(*relative_parts).resolve())
                 archival_citations += 1
             else:
                 links.append(source.parent.joinpath(target).resolve())

@@ -1,0 +1,10 @@
+Script started on 2026-07-22 11:26:46-04:00 [<not executed on terminal>]
+repository_gates=PASS
+scientific=95232 paths/83 transport anchors/13824 candidate nodes
+frozen_manifests=6 entries=127 paths=133
+prior_packages=70 entries=1941
+tests=69 passed/1 known failed/1 xfailed
+dirty_metadata_paths=54 hash=4bc96070c841a14c497b642ee7b93dcf9061372f770aee065d6b495ee4996f4c
+package_manifest=d4c7e7e16e38496343bbfbc8ef0867de45657ea2e25a724b44b653ff1b276374 entries=53
+
+Script done on 2026-07-22 11:26:50-04:00 [COMMAND_EXIT_CODE="0"]
