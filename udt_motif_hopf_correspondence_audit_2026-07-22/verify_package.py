@@ -11,6 +11,8 @@ import struct
 from collections import Counter
 from pathlib import Path
 
+import verify_review_corrections as correction_verifier
+
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
@@ -58,6 +60,9 @@ def main():
     result=json.loads((HERE/"ATLAS_RESULT.json").read_text()); toric=json.loads((HERE/"TORIC_CONTROL_RESULT.json").read_text())
     independent=json.loads((HERE/"INDEPENDENT_VERIFICATION_RESULT.json").read_text())
     correction=json.loads((HERE/"REVIEW_CORRECTION_RESULT.json").read_text())
+    correction_verifier.validate_result(
+        correction, correction_verifier.read_tsv(HERE/"SOURCE_LINEAGE.tsv")
+    )
     identity_rows=sum(1 for _ in (HERE/"COHERENT_IDENTITY_REGISTRY.tsv").open())-1
     path_count=sum(1 for _ in rows(HERE/"PATH_FAMILY_ATLAS.tsv.gz")); summary_count=sum(1 for _ in rows(HERE/"PATH_CONTINUATION_SUMMARY.tsv.gz"))
     validate_counts(identity_rows,path_count,summary_count); validate_global_status(result); validate_toric(toric)
@@ -67,7 +72,7 @@ def main():
     if correction["covariance"]["nonuncertain_classification_discordances"] != 0: raise AssertionError("covariance classification")
     if correction["covariance"]["matched_edge_transport_discordances"] != 0: raise AssertionError("edge transport covariance")
     if correction["frobenius_certification_scope"] != "REGISTERED_CHART_ONLY": raise AssertionError("Frobenius scope")
-    if correction["exercised_mutation_catches"] != 13: raise AssertionError("correction catches")
+    if correction["exercised_mutation_catches"] != 23: raise AssertionError("correction catches")
     for name in ("PATH_FAMILY_ATLAS.tsv.gz","PATH_CONTINUATION_SUMMARY.tsv.gz","DISTRIBUTION_ATLAS.tsv.gz"):
         with (HERE/name).open("rb") as handle: header=handle.read(10)
         if struct.unpack("<I",header[4:8])[0] != 0: raise AssertionError(f"nondeterministic gzip {name}")
@@ -127,6 +132,12 @@ def main():
         "independent_adverse_path_comparisons":independent["adverse_path_family_comparisons"],
         "legacy_declaration_catches":len(catches),
         "correction_mutation_catches":correction["exercised_mutation_catches"],
+        "covariance_point_status_census":correction["covariance"]["point_status_census"],
+        "uncertainty_bearing_covariance_points":correction["covariance"]["uncertainty_bearing_point_comparisons"],
+        "possible_edge_transport_comparisons":correction["covariance"]["possible_edge_transport_comparisons"],
+        "eligible_edge_transport_comparisons":correction["covariance"]["matched_edge_transport_comparisons"],
+        "skipped_edge_transport_comparisons":correction["covariance"]["skipped_edge_transport_comparisons"],
+        "coordinate_map_interpretation":correction["covariance"]["coordinate_map_interpretation"],
         "frobenius_certification_scope":correction["frobenius_certification_scope"],
         "overall_correspondence_status":"LEAD",
         "maximum_conclusion":MAXIMUM,

@@ -44,6 +44,9 @@ DIRECT_SOURCES = {
     "udt_joint_invariant_subspace_atlas_2026-07-21/SHA256SUMS.txt":
         "973dcc8bb297fad8358087318b24e5db9d1179e8b6a51a2535a0110e30c108c2",
 }
+HOPF_SEED_SHA256 = "7a9dcf021a23cd663bb484e435ee716084e38999f0629b294790aca77e15b748"
+MAP_INTERPRETATION = "ZERO_CONSTANT_CUBIC_GLOBAL_POLYNOMIAL_FROM_REGISTERED_JETS"
+SAMPLED_STATUS = "17_NODE_SAMPLED_MATCH_NOT_CONTINUOUS_BUNDLE_THEOREM"
 
 
 def digest(path: Path) -> str:
@@ -102,6 +105,60 @@ def assignment(
     return best
 
 
+def polynomial_map_value(
+    jacobian: np.ndarray,
+    jacobian_first: np.ndarray,
+    jacobian_second: np.ndarray,
+    point: np.ndarray,
+) -> np.ndarray:
+    return (
+        jacobian @ point
+        + 0.5 * np.einsum("mab,a,b->m", jacobian_first, point, point)
+        + (1.0 / 6.0) * np.einsum("mabc,a,b,c->m", jacobian_second, point, point, point)
+    )
+
+
+def polynomial_map_local_jets(
+    jacobian: np.ndarray,
+    jacobian_first: np.ndarray,
+    jacobian_second: np.ndarray,
+    point: np.ndarray,
+) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+    local_jacobian = (
+        jacobian
+        + np.einsum("mab,b->ma", jacobian_first, point)
+        + 0.5 * np.einsum("mabc,b,c->ma", jacobian_second, point, point)
+    )
+    local_first = jacobian_first + np.einsum("mabc,c->mab", jacobian_second, point)
+    return local_jacobian, local_first, jacobian_second
+
+
+def invert_polynomial_map(
+    jacobian: np.ndarray,
+    jacobian_first: np.ndarray,
+    jacobian_second: np.ndarray,
+    target: np.ndarray,
+) -> tuple[np.ndarray, float]:
+    point = np.linalg.solve(jacobian, target)
+    for _iteration in range(30):
+        local_jacobian, _local_first, _local_second = polynomial_map_local_jets(
+            jacobian, jacobian_first, jacobian_second, point
+        )
+        residual = polynomial_map_value(
+            jacobian, jacobian_first, jacobian_second, point
+        ) - target
+        step = np.linalg.solve(local_jacobian, residual)
+        point -= step
+        if float(np.max(np.abs(step))) < 1.0e-14:
+            break
+    residual = float(np.max(np.abs(
+        polynomial_map_value(jacobian, jacobian_first, jacobian_second, point) - target
+    )))
+    if residual > 1.0e-11:
+        raise AssertionError(f"polynomial map inversion {residual}")
+    return point, residual
+
+
 def covariance_audit() -> dict[str, object]:
     lookup = reconstructed.identity_data()
     identities = sorted(
@@ -115,8 +172,13 @@ def covariance_audit() -> dict[str, object]:
     nonuncertain_discordances = 0
     maximum_object_residual = 0.0
     maximum_projector_residual = 0.0
+    maximum_inverse_map_residual = 0.0
+    minimum_absolute_jacobian_determinant = math.inf
+    point_status_census: Counter[str] = Counter()
     edge_comparisons = 0
     edge_discordances = 0
+    edge_total = 0
+    edge_skips: Counter[str] = Counter()
 
     for identity_id in identities:
         bank, amplitudes = lookup[identity_id]
@@ -138,7 +200,20 @@ def covariance_audit() -> dict[str, object]:
             originals = family_results(objects, g)
             original_nodes.append(originals)
 
-            for transform_id, jacobian, jacobian_first, jacobian_second in transforms:
+            for transform_id, registered_jacobian, registered_first, registered_second in transforms:
+                mapped_point, inverse_residual = invert_polynomial_map(
+                    registered_jacobian, registered_first, registered_second, point
+                )
+                jacobian, jacobian_first, jacobian_second = polynomial_map_local_jets(
+                    registered_jacobian, registered_first, registered_second, mapped_point
+                )
+                determinant = abs(float(np.linalg.det(jacobian)))
+                minimum_absolute_jacobian_determinant = min(
+                    minimum_absolute_jacobian_determinant, determinant
+                )
+                maximum_inverse_map_residual = max(
+                    maximum_inverse_map_residual, inverse_residual
+                )
                 transformed = reconstructed.independent.transform_jets(
                     g, dg, ddg, 0.0, phi_first, phi_second,
                     jacobian, jacobian_first, jacobian_second,
@@ -168,6 +243,16 @@ def covariance_audit() -> dict[str, object]:
                         original["numeric_status"] == "NUMERIC_CLASSIFIED"
                         and current["numeric_status"] == "NUMERIC_CLASSIFIED"
                     )
+                    if both_classified:
+                        point_status_census["BOTH_CLASSIFIED"] += 1
+                    elif (
+                        original["numeric_status"] == "NUMERIC_CLASSIFIED"
+                    ) != (
+                        current["numeric_status"] == "NUMERIC_CLASSIFIED"
+                    ):
+                        point_status_census["ONE_SIDED_UNCERTAIN"] += 1
+                    else:
+                        point_status_census["BOTH_UNCERTAIN"] += 1
                     if both_classified and discordant:
                         nonuncertain_discordances += 1
                     predicted = [inverse @ np.asarray(item) @ jacobian for item in original["projectors"]]
@@ -195,7 +280,18 @@ def covariance_audit() -> dict[str, object]:
                     transformed_edge = assignment(transformed_left, transformed_right)
                     left_map = maps[node][mask]
                     right_map = maps[node + 1][mask]
+                    edge_total += 1
                     if None in (original_edge, transformed_edge, left_map, right_map):
+                        reasons = []
+                        if original_edge is None:
+                            reasons.append("ORIGINAL_EDGE_UNMATCHED")
+                        if transformed_edge is None:
+                            reasons.append("TRANSFORMED_EDGE_UNMATCHED")
+                        if left_map is None:
+                            reasons.append("LEFT_POINT_COVARIANCE_MAP_UNMATCHED")
+                        if right_map is None:
+                            reasons.append("RIGHT_POINT_COVARIANCE_MAP_UNMATCHED")
+                        edge_skips["+".join(reasons)] += 1
                         continue
                     predicted = [None] * len(left_map)
                     for original_left, transformed_left_index in enumerate(left_map):
@@ -206,13 +302,25 @@ def covariance_audit() -> dict[str, object]:
                         edge_discordances += 1
 
     return {
+        "coordinate_map_interpretation": MAP_INTERPRETATION,
+        "coordinate_map_evidence_status": "CONFIRMATORY_POST_SECOND_REVIEW_REPAIR",
         "blind_identities": len(identities),
         "stored_nonlinear_transforms": len(transforms),
         "all_family_node_comparisons": comparisons,
         "nonuncertain_classification_discordances": nonuncertain_discordances,
         "maximum_intrinsic_object_covariance_residual": maximum_object_residual,
         "maximum_projector_set_covariance_residual": maximum_projector_residual,
+        "maximum_inverse_map_residual": maximum_inverse_map_residual,
+        "minimum_absolute_jacobian_determinant": minimum_absolute_jacobian_determinant,
+        "point_status_census": dict(sorted(point_status_census.items())),
+        "uncertainty_bearing_point_comparisons": (
+            point_status_census["ONE_SIDED_UNCERTAIN"]
+            + point_status_census["BOTH_UNCERTAIN"]
+        ),
+        "possible_edge_transport_comparisons": edge_total,
         "matched_edge_transport_comparisons": edge_comparisons,
+        "skipped_edge_transport_comparisons": sum(edge_skips.values()),
+        "skipped_edge_reason_census": dict(sorted(edge_skips.items())),
         "matched_edge_transport_discordances": edge_discordances,
     }
 
@@ -347,6 +455,8 @@ def direct_hopf_seed_audit() -> dict[str, object]:
 
 
 def validate_source_lineage(rows: list[dict[str, str]]) -> None:
+    if len(rows) != 10 or len({row["path"] for row in rows}) != 10:
+        raise AssertionError("complete source lineage")
     indexed = {row["path"]: row["sha256"] for row in rows}
     for relative, expected in DIRECT_SOURCES.items():
         if indexed.get(relative) != expected:
@@ -371,10 +481,37 @@ def validate_result(result: dict[str, object], lineage: list[dict[str, str]]) ->
         raise AssertionError("covariance anchor coverage")
     if covariance["all_family_node_comparisons"] != 64 * 17 * 31 * 2:
         raise AssertionError("covariance family/node coverage")
+    point_status = covariance["point_status_census"]
+    if set(point_status) != {"BOTH_CLASSIFIED", "ONE_SIDED_UNCERTAIN", "BOTH_UNCERTAIN"}:
+        raise AssertionError("point status classes")
+    if sum(point_status.values()) != covariance["all_family_node_comparisons"]:
+        raise AssertionError("point status completeness")
+    if covariance["uncertainty_bearing_point_comparisons"] != (
+        point_status["ONE_SIDED_UNCERTAIN"] + point_status["BOTH_UNCERTAIN"]
+    ):
+        raise AssertionError("uncertainty accounting")
     if covariance["nonuncertain_classification_discordances"] != 0:
         raise AssertionError("coordinate classification discordance")
+    if covariance["coordinate_map_interpretation"] != MAP_INTERPRETATION:
+        raise AssertionError("node-dependent nonlinear coordinate map")
+    if covariance["coordinate_map_evidence_status"] != "CONFIRMATORY_POST_SECOND_REVIEW_REPAIR":
+        raise AssertionError("coordinate map evidence provenance")
+    if covariance["maximum_inverse_map_residual"] > 1.0e-11:
+        raise AssertionError("coordinate map inverse residual")
+    if covariance["minimum_absolute_jacobian_determinant"] <= 1.0e-6:
+        raise AssertionError("coordinate map Jacobian degeneracy")
+    if covariance["maximum_intrinsic_object_covariance_residual"] > COVARIANCE_TOLERANCE:
+        raise AssertionError("intrinsic object covariance residual")
     if covariance["maximum_projector_set_covariance_residual"] > COVARIANCE_TOLERANCE:
         raise AssertionError("projector covariance residual")
+    if covariance["possible_edge_transport_comparisons"] != 64 * 16 * 31 * 2:
+        raise AssertionError("possible edge coverage")
+    if covariance["matched_edge_transport_comparisons"] <= 0:
+        raise AssertionError("missing matched edge coverage")
+    if covariance["matched_edge_transport_comparisons"] + covariance["skipped_edge_transport_comparisons"] != covariance["possible_edge_transport_comparisons"]:
+        raise AssertionError("edge comparison accounting")
+    if sum(covariance["skipped_edge_reason_census"].values()) != covariance["skipped_edge_transport_comparisons"]:
+        raise AssertionError("skipped edge reason accounting")
     if covariance["matched_edge_transport_discordances"] != 0:
         raise AssertionError("path matching covariance")
     if result["frobenius_certification_scope"] != "REGISTERED_CHART_ONLY":
@@ -386,8 +523,18 @@ def validate_result(result: dict[str, object], lineage: list[dict[str, str]]) ->
     )
     if not all(symbolic[key] is True for key in required_symbolic):
         raise AssertionError("symbolic toric derivation")
+    if symbolic["angular_gap"] != "2/A(phi)**2":
+        raise AssertionError("symbolic angular gap")
+    if symbolic["diagonal_connection_weight"] != "exp(-2*phi)/(2*cosh(2*phi))":
+        raise AssertionError("symbolic connection weight")
+    if symbolic["conditional_full_range_unit_limit"] != "1":
+        raise AssertionError("symbolic unit limit")
     if seed["function_executed"] != "hopf_seed" or seed["device"] != "cpu":
         raise AssertionError("direct seed execution")
+    if seed["source_sha256"] != HOPF_SEED_SHA256:
+        raise AssertionError("direct seed source identity")
+    if seed["dtype"] != "float64" or seed["sample_points"] != 1000 or seed["sample_seed"] != 20260722:
+        raise AssertionError("direct seed sample contract")
     if seed["maximum_absolute_residual"] > SEED_TOLERANCE:
         raise AssertionError("direct seed residual")
     if provenance != {
@@ -398,6 +545,8 @@ def validate_result(result: dict[str, object], lineage: list[dict[str, str]]) ->
         raise AssertionError("construction provenance")
     if result["overall_correspondence_status"] != "LEAD":
         raise AssertionError("correspondence promotion")
+    if result["sampled_path_status"] != SAMPLED_STATUS:
+        raise AssertionError("sampled path promotion")
     if result["maximum_conclusion"] != MAXIMUM:
         raise AssertionError("maximum conclusion")
     validate_source_lineage(lineage)
@@ -458,6 +607,36 @@ def mutation_catches(
     add("K13_MISSING_DIRECT_SOURCE_LINEAGE", lambda _item, rows: rows.__setitem__(
         slice(None), [row for row in rows if row["path"] not in DIRECT_SOURCES]
     ))
+    add("K14_MISSING_EDGE_COMPARISONS", lambda item, _rows: item["covariance"].__setitem__(
+        "matched_edge_transport_comparisons", 0
+    ))
+    add("K15_INTRINSIC_COVARIANCE_FAILURE", lambda item, _rows: item["covariance"].__setitem__(
+        "maximum_intrinsic_object_covariance_residual", 1.0e9
+    ))
+    add("K16_CONTINUOUS_BUNDLE_PROMOTION", lambda item, _rows: item.__setitem__(
+        "sampled_path_status", "CONTINUOUS_BUNDLE_THEOREM"
+    ))
+    add("K17_SYMBOLIC_ANGULAR_GAP_MUTATION", lambda item, _rows: item["symbolic_toric"].__setitem__(
+        "angular_gap", "nonsense"
+    ))
+    add("K18_HOPF_SEED_SOURCE_MUTATION", lambda item, _rows: item["direct_hopf_seed"].__setitem__(
+        "source_sha256", "0" * 64
+    ))
+    add("K19_HOPF_SEED_SAMPLE_COUNT_MUTATION", lambda item, _rows: item["direct_hopf_seed"].__setitem__(
+        "sample_points", 1
+    ))
+    add("K20_UNCERTAINTY_ACCOUNTING_LOSS", lambda item, _rows: item["covariance"].__setitem__(
+        "uncertainty_bearing_point_comparisons", 0
+    ))
+    add("K21_SKIPPED_EDGE_ACCOUNTING_LOSS", lambda item, _rows: item["covariance"].__setitem__(
+        "skipped_edge_transport_comparisons", 0
+    ))
+    add("K22_FIXED_JACOBIAN_SUBSTITUTION", lambda item, _rows: item["covariance"].__setitem__(
+        "coordinate_map_interpretation", "FIXED_JACOBIAN"
+    ))
+    add("K23_SYMBOLIC_CONNECTION_MUTATION", lambda item, _rows: item["symbolic_toric"].__setitem__(
+        "diagonal_connection_weight", "nonsense"
+    ))
     return mutations
 
 
@@ -477,7 +656,7 @@ def main() -> None:
             "imported_s2_matter_carrier": False,
             "imported_l2_l4_action_functional": False,
         },
-        "sampled_path_status": "17_NODE_SAMPLED_MATCH_NOT_CONTINUOUS_BUNDLE_THEOREM",
+        "sampled_path_status": SAMPLED_STATUS,
         "overall_correspondence_status": "LEAD",
         "maximum_conclusion": MAXIMUM,
     }

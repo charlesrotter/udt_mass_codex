@@ -69,7 +69,13 @@ def scientific_results() -> dict[str, object]:
         and correction["covariance"]["all_family_node_comparisons"] == 67456
         and correction["covariance"]["nonuncertain_classification_discordances"] == 0
         and correction["covariance"]["matched_edge_transport_discordances"] == 0
-        and correction["exercised_mutation_catches"] == 13
+        and correction["exercised_mutation_catches"] == 23
+        and correction["covariance"]["coordinate_map_interpretation"]
+            == "ZERO_CONSTANT_CUBIC_GLOBAL_POLYNOMIAL_FROM_REGISTERED_JETS"
+        and correction["covariance"]["possible_edge_transport_comparisons"] == 63488
+        and correction["covariance"]["matched_edge_transport_comparisons"] == 63438
+        and correction["covariance"]["skipped_edge_transport_comparisons"] == 50
+        and correction["covariance"]["uncertainty_bearing_point_comparisons"] == 60
         and correction["frobenius_certification_scope"] == "REGISTERED_CHART_ONLY"
         and correction["overall_correspondence_status"] == "LEAD"
         and package["status"] == "PASS_WITH_REGISTERED_SCOPE"
@@ -89,6 +95,8 @@ def scientific_results() -> dict[str, object]:
         "adverse_path_comparisons": independent["adverse_path_family_comparisons"],
         "covariance_comparisons": correction["covariance"]["all_family_node_comparisons"],
         "edge_transport_comparisons": correction["covariance"]["matched_edge_transport_comparisons"],
+        "edge_transport_skipped": correction["covariance"]["skipped_edge_transport_comparisons"],
+        "uncertainty_bearing_covariance_points": correction["covariance"]["uncertainty_bearing_point_comparisons"],
         "correction_mutation_catches": correction["exercised_mutation_catches"],
         "frobenius_certification_scope": correction["frobenius_certification_scope"],
         "overall_correspondence_status": "LEAD",
@@ -216,4 +224,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
