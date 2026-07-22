@@ -1,0 +1,14 @@
+Command:
+python3 udt_local_selector_holonomy_closure_2026-07-22/verify_atlas.py
+
+Exit code: 1
+
+Failure:
+AssertionError: catch did not fail: C14_PHI_ONLY_FLAT_DISCLOSURE_LOST
+
+Adjudication:
+The independent verifier recomputed exact flatness correctly but did not compare that value with the
+saved `flat_exact` field. Mutating the disclosure therefore passed while the final-class check still
+used the independent value. The result census was unaffected; the catch exposed a real fail-closure
+gap. `validate_atlas` now requires the saved flatness disclosure to match the independent value.
+

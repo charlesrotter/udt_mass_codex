@@ -1,0 +1,10 @@
+date=2026-07-22
+compute=CPU_ONLY
+gpu_runs=0
+physics_solves=0
+python=3.10.12
+numpy=2.2.6
+sympy=1.13.1
+git=2.34.1
+platform=Linux_x86_64
+

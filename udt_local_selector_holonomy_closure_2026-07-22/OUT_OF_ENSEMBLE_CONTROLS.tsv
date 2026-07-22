@@ -1,0 +1,4 @@
+control_id	object	current_evidence	why_not_promoted	status
+C01_RECIPROCAL_TORIC	conditional diagonal reciprocal-toric metric	depth-path coordinate projectors are covariantly constant in the separately supplied class	full curvature-jet algebra across every direction and native branch selection were not part of the 6144-row ensemble	EXACT_CONDITIONAL_CONTROL_UNCHANGED
+C02_SEAL_REFLECTION	seal-local complementary reciprocal pair	M equals Jq R is exact after an angular reflection lift is supplied	seal lift and bulk holonomy reduction remain unselected	CONDITIONAL_SEAL_LOCAL_UNCHANGED
+C03_GLOBAL_COMPLETIONS	12-row overlapping completion/behavior taxonomy	local transport and parametric cocycle data exist	no complete metric profile and closed loop is selected for Levi-Civita holonomy	GLOBAL_HOLONOMY_OPEN

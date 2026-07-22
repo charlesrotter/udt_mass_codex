@@ -1,0 +1,14 @@
+Command:
+python3 udt_local_selector_holonomy_closure_2026-07-22/verify_repository_gates.py
+
+Exit code: 1
+
+Failure:
+FileNotFoundError: udt_century_adjacent_mathematics_survey_2026-07-22/SHA256SUMS.txt
+
+Adjudication:
+The generic historical-package replayer assumes the manifest name `SHA256SUMS.txt`. The frozen
+century survey uses `MANIFEST.sha256`. The survey is not renamed or changed. The gate now replays the
+72 conventionally named prior manifests with the generic function and separately hash-checks and
+replays the survey's frozen `MANIFEST.sha256`, then combines the counts.
+

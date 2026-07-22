@@ -1,0 +1,16 @@
+catch_id	status	detail
+C01_MISSING_CONFIGURATION	PASS	AssertionError:atlas row count
+C02_DUPLICATE_CONFIGURATION	PASS	AssertionError:atlas row count
+C03_FALSE_PROPER_REDUCTION	PASS	AssertionError:classification R00_1_M1_B0_P0
+C04_FLAT_ROW_PROMOTED	PASS	AssertionError:classification R00_1_M0_B0_P0
+C05_UNTYPED_SELECTOR_PROMOTED	PASS	AssertionError:untyped exhaustion promoted
+C06_FRAME_LABEL_PROMOTED	PASS	AssertionError:coframe row promoted
+C07_HIGHER_JETS_FALSELY_CLOSED	PASS	AssertionError:higher jets closed
+C08_PHI_INSERTED_IN_HOLONOMY	PASS	AssertionError:non-curvature operator inserted into Levi-Civita holonomy
+C09_CURVATURE_GENERATORS_OMITTED	PASS	AssertionError:omitted generator changes dimension
+C10_DERIVATIVE_ALGEBRA_MISMATCH	PASS	AssertionError:anchor algebra disagreement
+C11_DERIVATIVE_RESIDUAL_FAILURE	PASS	AssertionError:anchor gate R00_1_M0_B0_P0
+C12_GLOBAL_HOLONOMY_OVERCLAIM	PASS	AssertionError:global holonomy overclaim
+C13_RAW_IDENTITY_LOSS	PASS	AssertionError:configuration identity coverage
+C14_PHI_ONLY_FLAT_DISCLOSURE_LOST	PASS	AssertionError:flat disclosure R00_1_M8_B0_P0
+C15_CONDITIONAL_CONTROL_DROPPED	PASS	AssertionError:out-of-ensemble controls

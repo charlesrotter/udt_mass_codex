@@ -1,0 +1,22 @@
+{
+  "anchor_rows": 32,
+  "atlas_sha256": "b9b9e6761a62d19dd0c3778ecdae564cfeba34dee212c12083286f487a1b20df",
+  "catch_passes": 15,
+  "catch_proofs": 15,
+  "fresh_external_model_review": "NOT_RUN__NO_SUBAGENT_AUTHORITY_IN_CURRENT_EXECUTION_CONTEXT",
+  "independent_class_counts": {
+    "FLAT_AMBIGUOUS": 768,
+    "FULL_IRREDUCIBLE": 5376
+  },
+  "independent_configurations": 6144,
+  "independent_method": "raw Riemann tensors plus modified-Gram-Schmidt word closure",
+  "largest_independent_rejected_basis_residual": 5.525281872306656e-10,
+  "q01_rows": 16,
+  "q01_sha256": "f403651cfeda942ab55dc922a50b2097ddc5a1c00f277034ac5a3612dc8bc37f",
+  "report_sha256": "245b2d40d795a413252265e07500f275c8c0892b7df8848a554da91a176715f6",
+  "schema": "udt-local-selector-holonomy-verification-1.0",
+  "smallest_full_length_two_word_span_configuration": "R12_1_M4_B2_P2",
+  "smallest_full_length_two_word_span_singular_ratio": 0.0031273654923097264,
+  "smallest_incremental_added_basis_residual_diagnostic_only": 1.5521343880052345e-09,
+  "verdict": "PASS_WITH_CAVEAT_NO_FRESH_EXTERNAL_MODEL_REVIEW"
+}

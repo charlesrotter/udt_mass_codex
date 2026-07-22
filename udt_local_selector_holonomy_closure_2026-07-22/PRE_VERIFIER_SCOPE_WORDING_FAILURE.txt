@@ -1,0 +1,20 @@
+Command:
+python3 udt_local_selector_holonomy_closure_2026-07-22/verify_atlas.py
+
+Exit code: 1
+
+Traceback (most recent call last):
+  File "udt_local_selector_holonomy_closure_2026-07-22/verify_atlas.py", line 328, in <module>
+    main()
+  File "udt_local_selector_holonomy_closure_2026-07-22/verify_atlas.py", line 243, in main
+    validate_scope(result, report, controls)
+  File "udt_local_selector_holonomy_closure_2026-07-22/verify_atlas.py", line 180, in validate_scope
+    raise AssertionError("report scope language")
+AssertionError: report scope language
+
+Adjudication:
+The report contains the required phrase split across a Markdown line wrap:
+"not arbitrary" followed by "four-metrics" on the next line. The verifier compared raw text rather
+than normalized whitespace. The scientific tables and independent 6,144-row replay had already
+passed. The verifier is corrected to normalize whitespace before testing required scope language.
+

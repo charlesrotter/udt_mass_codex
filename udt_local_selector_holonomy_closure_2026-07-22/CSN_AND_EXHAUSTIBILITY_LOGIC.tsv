@@ -1,0 +1,5 @@
+logic_id	premise	deduction	conclusion	status
+L01_CSN_ORBIT_CONSTANCY	S[Omega^2 g,phi]=S[g,phi] for every positive local Omega	S has the same value on every member of one CSN orbit	S cannot distinguish or select a representative inside that orbit	DERIVED_EXACT
+L02_COFRAME_GAUGE	internal coframe changes preserve g while mixing row labels	an uncontracted row/slot output changes while metric geometry does not	coframe labels require a separately derived frame reduction	DERIVED_EXACT_GIVEN_LOCAL_FRAME_EQUIVALENCE
+L03_UNTYPED_INFINITY	phi is a natural scalar and F may be any smooth real function	already at order zero there are infinitely many scalar natural outputs F(phi)	all finite-jet outputs cannot be finitely enumerated without a codomain and functional class	DERIVED_EXACT
+L04_ALGEBRA_MONOTONICITY	a common invariant subspace must be invariant under every generator	adding generators can only preserve or shrink the common invariant-subspace lattice	once curvature generates M4(R), higher curvature jets cannot restore a parallel proper subspace	DERIVED_EXACT
