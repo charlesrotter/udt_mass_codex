@@ -1,0 +1,18 @@
+id	object	exact_meaning	status	not_the_same_as
+R01	D=exp(-phi)	positive reciprocal clock character in the selected diagonal readout	DERIVED_CONDITIONAL	nonnegative physical distance or physical scale
+R02	ordinary anchor	stationary reference with N0 normalized to the observed c_E regime	OBSERVATIONAL_ANCHOR_PLUS_CHOSEN_PROTOCOL	preferred fundamental frame
+R03	local orthonormal rate	metric-null clock/ruler component ratio equals c_E	DERIVED_CONDITIONAL_LOCAL_METRIC_IDENTITY	cross-regime anchor-time accessibility
+R04	selected-chart rate	c_E*(-B+/-N/H); reciprocal zero-shift control c_E*F*D^2	DERIVED_CONDITIONAL	invariant local material speed
+R05	proper-distance anchor-time rate	L/[c_E*Delta t_anchor]=L/integral(dell/N); equals N for a uniform zero-shift connector	DERIVED_CONDITIONAL	coordinate slope
+R06	mutual equal-regime clock ratio	N_A/N_B=1 when N_A=N_B in the static zero-shift stationary-clock protocol	DERIVED_CONDITIONAL	rate relative to an ordinary anchor or a shifted coordinate-static observer
+R07	joint microscopic regime	both endpoints and the complete connector share the asymptotic large-N class	OWNER_HYPOTHESIS_FORMALIZED	endpoint labels alone
+R08	adjacency limit	L_AB=lambda*sigma with finite nonzero lambda as sigma->0	FREE_AND_EXPLORED_FAMILY_CONTROL	spherical areal R->0
+R09	micro effective accessibility	proper-distance rate relative to ordinary-anchor time diverges	EXACT_CONDITIONAL_CLASS_FOR_F~D^alpha_ALPHA_GT_MINUS_ONE	actual information transfer
+R10	outer effective accessibility	proper-distance rate relative to ordinary-anchor time vanishes	EXACT_CONDITIONAL_CLASS_FOR_F~D^alpha_ALPHA_GT_MINUS_ONE	selected cosmological solution
+R11	observer reversal	zero shift gives equal opposite directions; shift swaps the one-way branches	DERIVED_CONDITIONAL	identical coordinate components in every frame
+R12	angular sector	enters H and path choice; cancels from the uniform-N proper-rate ratio but weights nonuniform connectors	DERIVED_CONDITIONAL_PATH_ALGEBRA	a spectator or a selected round geometry
+R13	shift sector	changes one-way and roundtrip anchor rates while leaving the local orthonormal null ratio at c_E	DERIVED_CONDITIONAL	GR field equations or observer mechanics
+R14	co-presence	whole-solution ontology compatible with metric causal relations	WORKING_OWNER_INTERPRETATION	instantaneous operational access
+R15	information transfer	requires a material source response and operational coupling beyond the metric causal diagnostic	OPEN_NOT_TESTED	metric causal accessibility
+R16	physical micro assignment	map from intrinsic characteristic scale sigma to phi/F/shift/full coframe	OPEN_SCALE_AND_REALIZATION_JOIN	formal D->infinity wing
+R17	observer choice with shift	Eulerian slicing uses lapse N; coordinate-static clock uses sqrt(N^2-H^2*B^2) when timelike	DERIVED_CONDITIONAL_METRIC_ALGEBRA	a selected UDT observer mechanics

@@ -1,0 +1,15 @@
+id	input	operation	output	status	open_join
+D01	stationary connector metric	set ds^2=0	dlambda/dt=c_E*(-B+/-N/H)	DERIVED_METRIC_IDENTITY	complete UDT connector
+D02	null roots and orthogonal frame	form H*(dlambda/(c_E dt)+B)/N	+/-1	DERIVED_METRIC_IDENTITY	material signal interpretation
+D03	reciprocal control D=exp(-phi);N=F*D;H=1/D	insert into roots	coordinate rate/c_E=F*D^2; proper uniform rate/c_E=F*D	DERIVED_CONDITIONAL	F and representative selection
+D04	ordinary anchor N0 and two equal-regime frames	compare stationary clock norms	N_A/N_B=1 while N/N0 may diverge	DERIVED_CONDITIONAL	general time-live comparison
+D05	static zero-shift variable connector	integrate dt=dell/(c_E*N)	chi=L/integral(dell/N)	DERIVED_CONDITIONAL	connector realization
+D06	micro endpoint caps plus ordinary middle	take D->infinity	effective chi remains finite	DERIVED_CONDITIONAL_COUNTEREXAMPLE	full micro connector
+D07	uniform connector with infimum N->infinity	bound harmonic mean	chi->infinity	DERIVED_CONDITIONAL_PATH_THEOREM	physical sigma map
+D08	F~D^alpha	compare powers	proper threshold alpha=-1; coordinate threshold alpha=-2	DERIVED_CONDITIONAL_ASYMPTOTIC_ATLAS	threading selector
+D09	shift fraction s=H*B/N	combine opposite one-way times	chi_round=N*(1-s^2)	DERIVED_CONDITIONAL	shift selector
+D10	planar A=D^2 metric	reconstruct curvature	R=-A'';K=(A'')^2; constant D flat	DERIVED_CONDITIONAL_CONTROL	global transition
+D11	smooth cubic transition	vary independent width w	K_endpoint=36*(D^2-1)^2/w^4	DERIVED_CONDITIONAL_CLASSIFICATION	width and complete angular geometry
+D12	current source authority	audit F shift angular scale bootstrap ownership	no selected physical two-ended law	OPEN_SCALE_OR_REALIZATION_JOIN	complete native realization
+D13	proper-coordinate planar metric ds^2=-c_E^2*n(x)^2dt^2+dx^2	reconstruct Ricci	R=-2*n_xx/n;F=1/D makes n=1 and R=0 for arbitrary D	DERIVED_CONDITIONAL_CONTROL	global limiting representative
+D14	positive oscillatory F=D^-1*(2+sin(log D))	take distinct log-D subsequences	proper rate has no wing limit	DERIVED_CONDITIONAL_COUNTERCLASS	threading realization

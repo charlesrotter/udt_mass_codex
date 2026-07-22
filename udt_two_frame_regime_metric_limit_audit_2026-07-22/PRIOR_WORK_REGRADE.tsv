@@ -1,0 +1,7 @@
+id	prior_object	retained_result	correction_or_new_scope	status
+G01	clock-anchor scale-threading audit	c_E local clock/ruler cancellation; F and X readouts; scale map open	its spherical-center inner test does not test characteristic regime sigma->0	RETAINED_WITH_SCOPE_CORRECTION
+G02	reciprocity regime angular-center audit	bounded-curvature spherical areal center requires finite lapse and X->1	remains a valid separate geometry class only	RETAINED_NOT_APPLICABLE_TO_MICRO_REGIME_LIMIT
+G03	reciprocal-c metric-meaning audit	selected diagonal block gives c_E*exp(-2phi) coordinate slope	its general micro 3+1 assembly remains open	RETAINED_AND_EXTENDED_CONDITIONALLY
+G04	phi ontology audit	phi is signed logarithmic reciprocal imbalance; ownership by complete geometry open	D->infinity is a formal phi->-infinity wing not a selected sub-quark map	RETAINED
+G05	time-live characteristic audit	conditional principal cone is the metric cone; angular channels remain live	no material signal or full time-live realization is inferred	RETAINED
+G06	co-presence causal-access audit	co-presence does not make all events mutually accessible	metric-limit accessibility must be calculated and remains protocol-scoped	RETAINED

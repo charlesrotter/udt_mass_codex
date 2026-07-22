@@ -1,0 +1,12 @@
+date=2026-07-22
+base=73b33e2c9f11e897976d571810a8e98dc3a2e644
+preregistration=e14bd4a
+preregistration_scope_correction_1=b45e318
+preregistration_scope_correction_2=2407cb2
+python=3.10.12
+sympy=1.13.1
+compute=CPU_EXACT_ONLY
+gpu_runs=0
+physics_solves=0
+navigation_edits=0
+canon_edits=0
