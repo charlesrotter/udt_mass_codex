@@ -264,7 +264,7 @@ def symbolic_toric_audit() -> dict[str, object]:
     connection = [sp.simplify(value / generator_norm) for value in generator_flat]
     weight = sp.simplify(connection[2])
     expected_weight = sp.simplify(1 / (1 + sp.exp(4 * phi)))
-    connection_residual = sp.simplify(weight - expected_weight)
+    connection_residual = sp.simplify((weight - expected_weight).rewrite(sp.exp))
     quotient = sp.Matrix((
         sp.sech(2 * phi) * sp.cos(xi1 - xi2),
         sp.sech(2 * phi) * sp.sin(xi1 - xi2),
@@ -501,4 +501,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
