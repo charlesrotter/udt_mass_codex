@@ -49,6 +49,18 @@ def main() -> None:
         -sp.tanh(2 * phi),
     )
     quotient_norm = sp.simplify(sum(value**2 for value in quotient).rewrite(sp.exp))
+    seal_f = sp.simplify(f.subs(phi, 0))
+
+    round_A = sp.sech(2 * phi)
+    round_omega_squared = 1 / (2 * sp.cosh(2 * phi))
+    round_b_squared = sp.simplify(round_omega_squared * sp.exp(-2 * phi))
+    round_c_squared = sp.simplify(round_omega_squared * sp.exp(2 * phi))
+    round_limits = {
+        "b2_minus": sp.limit(round_b_squared, phi, -sp.oo),
+        "b2_plus": sp.limit(round_b_squared, phi, sp.oo),
+        "c2_minus": sp.limit(round_c_squared, phi, -sp.oo),
+        "c2_plus": sp.limit(round_c_squared, phi, sp.oo),
+    }
 
     eta, xi1, xi2 = sp.symbols("eta xi1 xi2", real=True)
     seed = (
@@ -86,6 +98,17 @@ def main() -> None:
         "f_plus_infinity": str(plus_limit),
         "conditional_unit_q": str(unit_q),
         "periodic_phi_closed_loop_q": "0 because integral df over a single-valued periodic f vanishes",
+        "periodicity_status": "SUPPLIED_GLOBAL_DATA_NOT_DERIVED_BY_LOCAL_PROJECTORS",
+        "seal_equal_scale_fraction": str(seal_f),
+        "reciprocity_reflection": "phi -> -phi exchanges xi1 and xi2 coefficients",
+        "reflection_isometry_condition": "A(phi)^2 and Omega(phi)^2 even, with xi1<->xi2 exchange",
+        "reflection_status": "CONDITIONAL_NOT_FORCED_FOR_ARBITRARY_A_OMEGA",
+        "round_control_A": str(round_A),
+        "round_control_Omega_squared": str(round_omega_squared),
+        "round_control_b_squared": str(round_b_squared),
+        "round_control_c_squared": str(round_c_squared),
+        "round_control_cap_limits": {key: str(value) for key, value in round_limits.items()},
+        "collapse_status": "OPPOSITE_PRIMITIVE_COLLAPSES_IN_ROUND_CONTROL; OPEN_FOR_ARBITRARY_A_OMEGA",
         "quotient_map": [str(value) for value in quotient],
         "quotient_norm_squared": str(quotient_norm),
         "hopf_seed_difference": [str(value) for value in seed_difference],
@@ -108,6 +131,10 @@ def main() -> None:
         raise AssertionError("Hopf seed mismatch")
     if unit_q != 1:
         raise AssertionError("unit Q limit")
+    if seal_f != sp.Rational(1, 2):
+        raise AssertionError("seal equal scale")
+    if round_limits != {"b2_minus": 1, "b2_plus": 0, "c2_minus": 0, "c2_plus": 1}:
+        raise AssertionError(f"round cap limits {round_limits}")
     if sp.simplify(angular_gap - 2 / A**2) != 0:
         raise AssertionError("angular gap")
     (HERE / "TORIC_CONTROL_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
@@ -130,6 +157,18 @@ def main() -> None:
             "status": "OPEN",
             "basis": "projectors recover axes but do not choose weights or orientation",
             "limit": "freeness selects abs-one weights only after S3 cap completion is supplied",
+        },
+        {
+            "claim_id": "T03A", "object": "reciprocity reflection",
+            "status": "CONDITIONAL_EXCHANGE_ISOMETRY",
+            "basis": "phi reversal exchanges the angular coefficients and phi=0 gives equal scales",
+            "limit": "requires even A^2 and Omega^2 plus the global circle exchange",
+        },
+        {
+            "claim_id": "T03B", "object": "periodicity and opposite caps",
+            "status": "ROUND_CONTROL_EXACT_GENERAL_OPEN",
+            "basis": "the round control has opposite primitive collapse limits 1/0 and 0/1",
+            "limit": "local projectors do not supply periods, cap cycles, or arbitrary-profile regularity",
         },
         {
             "claim_id": "T04", "object": "finite-endpoint Hopf readout",
