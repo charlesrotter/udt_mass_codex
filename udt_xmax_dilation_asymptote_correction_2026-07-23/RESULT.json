@@ -1,0 +1,55 @@
+{
+  "catch_count": 11,
+  "catch_pass_count": 11,
+  "corrections": {
+    "hyperbolic_tanh": "CONDITIONAL_PROJECTIVE_DISPLAY_NOT_NATIVE_POSITION_LAW",
+    "mass_dilation": "WORKING_OPEN",
+    "readouts": "DOWNSTREAM_NOT_DEFINITIONS_OF_XMAX",
+    "strongest_profile": "WRL_DERIVED_CONDITIONAL_R_OVER_X_EQUALS_ONE_MINUS_EXP_MINUS_TWO_PHI",
+    "xmax_semantics": "OWNER_DEFINED_INVARIANT_POSITIONAL_DILATION_ASYMPTOTE"
+  },
+  "grade": "VERIFIED-WITH-CAVEATS",
+  "maximum_conclusion": "XMAX_IS_OWNER_DEFINED_AS_THE_INVARIANT_POSITIONAL_SCALE_OF_THE_UDT_DILATION_ASYMPTOTE;THE_RECORDED_WRL_BRANCH_DERIVES_R_OVER_X_EQUALS_ONE_MINUS_EXP_MINUS_TWO_PHI_CONDITIONAL_ON_RESIDUAL_RECENTERING_AND_THE_ACCEPTED_WALL_REGULARITY_PACKAGE;PANTHEON_OBSERVATION_FAVORS_THAT_LINEAR_CEILING_OVER_THE_HYPERBOLIC_J1_DISPLAY_BUT_DOES_NOT_DERIVE_IT;GLOBAL_BRANCH_SELECTION_XMAX_VALUE_AND_NATIVE_MASS_REMAIN_OPEN",
+  "parent_manifest_sha256": "8798461fbd59891c1eff90c36311e38a29a3753dd4066d75360a813a859955c0",
+  "parent_package": "udt_invariant_xmax_asymptotic_boundary_audit_2026-07-23",
+  "parent_package_unchanged": true,
+  "preregistration_commit": "94c6ee3eae92cc67a8e3f370c98e93d75da4d4f8",
+  "profile": {
+    "asymptote": {
+      "A": "0 from above",
+      "clock_factor": "0 from above",
+      "phi": "+infinity",
+      "r_over_X": "1 from below"
+    },
+    "clock_factor": "exp(-phi)=sqrt(1-r/X)",
+    "full_light_identity": "dL/X=z(z+2)",
+    "inverse_profile": "phi=-log(1-r/X)/2",
+    "metric_identity": "A=exp(-2phi)",
+    "wrl_profile": "r/X=1-exp(-2phi)"
+  },
+  "result": "PASS",
+  "schema": "udt-xmax-dilation-asymptote-correction-1.0",
+  "sne": {
+    "best_scanned_power": 1.0,
+    "derives_profile": false,
+    "epistemic_status": "OBSERVED_SHAPE_CONTRAST",
+    "hyperbolic_J1_chi2_dof": 2.166501637078457,
+    "hyperbolic_J1_rms_mag": 0.30740259169961603,
+    "linear_ceiling_chi2_dof": 0.9098574003059215,
+    "linear_ceiling_rms_mag": 0.1581642243395007,
+    "sample_count": 1580
+  },
+  "source_hash_checks": 23,
+  "wrl_selector": {
+    "family": "A=(1-r/X)^alpha",
+    "not_status": "DERIVED_FROM_BARE_LINE_ELEMENT",
+    "premises": [
+      "residual composition and affine areal recentering",
+      "finite proper reach",
+      "infinite optical reach",
+      "finite wall angular-curvature readout"
+    ],
+    "status": "DERIVED_CONDITIONAL_WRL",
+    "survivor": "alpha=1"
+  }
+}

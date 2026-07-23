@@ -1,0 +1,12 @@
+{
+  "all_checks_pass": true,
+  "catch_count": 12,
+  "catch_pass_count": 12,
+  "check_count": 80,
+  "fresh_semantic_agent": "NOT_RUN",
+  "grade": "VERIFIED-WITH-CAVEATS",
+  "method": "fresh_standard_library_algebra_and_source_table_audit",
+  "result": "PASS",
+  "schema": "udt-xmax-dilation-asymptote-independent-1.0",
+  "source_hash_checks": 23
+}
