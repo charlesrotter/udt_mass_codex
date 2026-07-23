@@ -1,0 +1,192 @@
+{
+  "angular_shift_effect_probe": 7.105081822443983e-07,
+  "high_precision_matrix_anchor_count": 12,
+  "high_precision_matrix_anchors": [
+    {
+      "bank_pair": "B0-B1",
+      "certified_subboxes": 1,
+      "chart": "J1_GENERATOR_COEFFICIENT_JOIN",
+      "matrix_determinant_hi": -1.3777673982039564,
+      "matrix_partial_lambda_s_hi": 7.115900187564754e-06,
+      "matrix_partial_lambda_s_lo": -1.2902282632329349e-05,
+      "matrix_s_hi": 3.873001400706145e-06,
+      "matrix_s_lo": 5.629186449253405e-08,
+      "pair_type": "SAME_SIGN_CONTROL",
+      "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+    },
+    {
+      "bank_pair": "B0-B2",
+      "certified_subboxes": 1,
+      "chart": "J1_GENERATOR_COEFFICIENT_JOIN",
+      "matrix_determinant_hi": -1.4317615073843142,
+      "matrix_partial_lambda_s_hi": 1.1111702627178073e-05,
+      "matrix_partial_lambda_s_lo": -1.3888606922662995e-05,
+      "matrix_s_hi": 6.946914803091159e-06,
+      "matrix_s_lo": 1.698758885397142e-06,
+      "pair_type": "SAME_SIGN_CONTROL",
+      "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+    },
+    {
+      "bank_pair": "B0-B3",
+      "certified_subboxes": 1,
+      "chart": "J1_GENERATOR_COEFFICIENT_JOIN",
+      "matrix_determinant_hi": -1.4627819591523683,
+      "matrix_partial_lambda_s_hi": -3.2017150339124574e-05,
+      "matrix_partial_lambda_s_lo": -6.525487847851806e-05,
+      "matrix_s_hi": 9.905573714863939e-06,
+      "matrix_s_lo": 4.848427331352286e-06,
+      "pair_type": "CROSS_SECTOR",
+      "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+    },
+    {
+      "bank_pair": "B1-B2",
+      "certified_subboxes": 1,
+      "chart": "J1_GENERATOR_COEFFICIENT_JOIN",
+      "matrix_determinant_hi": -1.4570913519263378,
+      "matrix_partial_lambda_s_hi": 1.573210039267091e-05,
+      "matrix_partial_lambda_s_lo": -1.0571891789958004e-05,
+      "matrix_s_hi": 4.237380443944205e-06,
+      "matrix_s_lo": 1.2960497362841666e-06,
+      "pair_type": "SAME_SIGN_CONTROL",
+      "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+    },
+    {
+      "bank_pair": "B1-B3",
+      "certified_subboxes": 1,
+      "chart": "J1_GENERATOR_COEFFICIENT_JOIN",
+      "matrix_determinant_hi": -1.5153981774394998,
+      "matrix_partial_lambda_s_hi": -1.610210611743384e-05,
+      "matrix_partial_lambda_s_lo": -3.141901771221054e-05,
+      "matrix_s_hi": -2.550771446855209e-06,
+      "matrix_s_lo": -4.557570631260874e-06,
+      "pair_type": "CROSS_SECTOR",
+      "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+    },
+    {
+      "bank_pair": "B2-B3",
+      "certified_subboxes": 1,
+      "chart": "J1_GENERATOR_COEFFICIENT_JOIN",
+      "matrix_determinant_hi": -1.3727811210311578,
+      "matrix_partial_lambda_s_hi": -1.7194517595227297e-05,
+      "matrix_partial_lambda_s_lo": -4.773060537593154e-05,
+      "matrix_s_hi": -1.4952613342376476e-06,
+      "matrix_s_lo": -6.846751828254355e-06,
+      "pair_type": "CROSS_SECTOR",
+      "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+    },
+    {
+      "bank_pair": "B0-B1",
+      "certified_subboxes": 1,
+      "chart": "J2_EVALUATED_COFIELD_JOIN",
+      "matrix_determinant_hi": -1.3982250399649927,
+      "matrix_partial_lambda_s_hi": 8.148085749920188e-06,
+      "matrix_partial_lambda_s_lo": -9.953278374870213e-06,
+      "matrix_s_hi": 4.444302373008074e-06,
+      "matrix_s_lo": 5.306007071229719e-07,
+      "pair_type": "SAME_SIGN_CONTROL",
+      "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+    },
+    {
+      "bank_pair": "B0-B2",
+      "certified_subboxes": 1,
+      "chart": "J2_EVALUATED_COFIELD_JOIN",
+      "matrix_determinant_hi": -1.3846112452534596,
+      "matrix_partial_lambda_s_hi": 6.801284304215714e-06,
+      "matrix_partial_lambda_s_lo": -1.0964185877740119e-05,
+      "matrix_s_hi": 5.255427494381074e-06,
+      "matrix_s_lo": 1.717882668257655e-06,
+      "pair_type": "SAME_SIGN_CONTROL",
+      "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+    },
+    {
+      "bank_pair": "B0-B3",
+      "certified_subboxes": 1,
+      "chart": "J2_EVALUATED_COFIELD_JOIN",
+      "matrix_determinant_hi": -1.4134006147525513,
+      "matrix_partial_lambda_s_hi": -3.305207299479968e-05,
+      "matrix_partial_lambda_s_lo": -5.252668154898491e-05,
+      "matrix_s_hi": 8.210771414233247e-06,
+      "matrix_s_lo": 3.929134388687976e-06,
+      "pair_type": "CROSS_SECTOR",
+      "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+    },
+    {
+      "bank_pair": "B1-B2",
+      "certified_subboxes": 2,
+      "chart": "J2_EVALUATED_COFIELD_JOIN",
+      "matrix_determinant_hi": -1.4524339471403778,
+      "matrix_partial_lambda_s_hi": 1.1799912019151833e-05,
+      "matrix_partial_lambda_s_lo": -6.529442099039327e-07,
+      "matrix_s_hi": 1.8263115124404618e-06,
+      "matrix_s_lo": 1.7544165256426153e-07,
+      "pair_type": "SAME_SIGN_CONTROL",
+      "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+    },
+    {
+      "bank_pair": "B1-B3",
+      "certified_subboxes": 1,
+      "chart": "J2_EVALUATED_COFIELD_JOIN",
+      "matrix_determinant_hi": -1.3771757967976181,
+      "matrix_partial_lambda_s_hi": -2.4024854786427315e-05,
+      "matrix_partial_lambda_s_lo": -4.4883870372494e-05,
+      "matrix_s_hi": -3.353271786662708e-06,
+      "matrix_s_lo": -6.343513743210659e-06,
+      "pair_type": "CROSS_SECTOR",
+      "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+    },
+    {
+      "bank_pair": "B2-B3",
+      "certified_subboxes": 1,
+      "chart": "J2_EVALUATED_COFIELD_JOIN",
+      "matrix_determinant_hi": -1.3515603295553331,
+      "matrix_partial_lambda_s_hi": -1.5904618707204084e-05,
+      "matrix_partial_lambda_s_lo": -4.395526228931592e-05,
+      "matrix_s_hi": -9.893273777671038e-07,
+      "matrix_s_lo": -7.162895846885216e-06,
+      "pair_type": "CROSS_SECTOR",
+      "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+    }
+  ],
+  "maximum_conclusion": "INDEPENDENT_SUPPORT_FOR_BOUNDED_REGISTERED_ADJACENCY_CENSUS",
+  "maximum_sampled_crossing_derivative": -3.3542998412673044e-05,
+  "method": "INDEPENDENT_FULL_4X4_MATRIX_INVERSION_PLUS_80D_ADJUGATE_INTERVAL_ANCHORS",
+  "minimum_sampled_negative_determinant_gap": 0.8790512861005826,
+  "minimum_sampled_same_sign_s": 7.785976792806188e-07,
+  "mutation_catches": [
+    {
+      "catch_id": "I01_MISSING_SHEET",
+      "reason": "missing sheet rejected",
+      "result": "MUTATION_REJECTED"
+    },
+    {
+      "catch_id": "I02_DUPLICATE_SHEET",
+      "reason": "duplicate sheet rejected",
+      "result": "MUTATION_REJECTED"
+    },
+    {
+      "catch_id": "I03_FLIPPED_CLASS",
+      "reason": "class mutation rejected",
+      "result": "MUTATION_REJECTED"
+    },
+    {
+      "catch_id": "I04_LOST_MATRIX_ANCHOR",
+      "reason": "matrix-anchor loss rejected",
+      "result": "MUTATION_REJECTED"
+    },
+    {
+      "catch_id": "I05_OMITTED_ANGULAR_SHIFT",
+      "reason": "angular/shift omission rejected",
+      "result": "MUTATION_REJECTED"
+    }
+  ],
+  "production_builder_imported": false,
+  "sampled_cross_sector_matrix_roots": 11520,
+  "sampled_same_sign_matrix_values": 195840,
+  "sheet_census": {
+    "FORCED_SINGLE_REGULAR_NULL_GRAPH": 2304,
+    "UNIFORMLY_SPACELIKE_SHEET": 2304
+  },
+  "sheet_count": 4608,
+  "sheet_unique": 4608,
+  "status": "PASS_WITH_REGISTERED_SCOPE"
+}

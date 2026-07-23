@@ -1,0 +1,49 @@
+{
+  "independent_catches_passed": 5,
+  "independent_method": "INDEPENDENT_FULL_4X4_MATRIX_INVERSION_PLUS_80D_ADJUGATE_INTERVAL_ANCHORS",
+  "maximum_conclusion": "BOUNDED_REGISTERED_CONFIGURATION-SPACE_BANK-EDGE_ADJACENCY_CHARACTERIZED",
+  "package_catches_passed": 20,
+  "state": {
+    "actions_loaded": 0,
+    "chart_comparisons": 1152,
+    "chart_counts": {
+      "J1_GENERATOR_COEFFICIENT_JOIN": 2304,
+      "J2_EVALUATED_COFIELD_JOIN": 2304
+    },
+    "chart_separator_agreement": 1152,
+    "endpoint_pair_types": {
+      "CROSS_SECTOR": 1152,
+      "SAME_SIGN_CONTROL": 1152
+    },
+    "endpoint_pair_unique": 2304,
+    "endpoint_pairs": 2304,
+    "gpu_runs": 0,
+    "high_precision_anchors": 12,
+    "independent_builder_imported": false,
+    "independent_catches": 5,
+    "independent_cross_roots": 11520,
+    "independent_matrix_anchors": 12,
+    "independent_same_probes": 195840,
+    "matched_groups": 384,
+    "matter_carriers_loaded": 0,
+    "null_graph_bounds_in_domain": 2304,
+    "null_graph_certificates": 2304,
+    "null_graph_complete": 2304,
+    "physical_labels": 0,
+    "premise_rows": 20,
+    "report_guards": true,
+    "same_sign_certificates": 2304,
+    "same_sign_strict": 2304,
+    "sheet_classes": {
+      "FORCED_SINGLE_REGULAR_NULL_GRAPH": 2304,
+      "UNIFORMLY_SPACELIKE_SHEET": 2304
+    },
+    "sheet_unique": 4608,
+    "sheets": 4608,
+    "simplex_interiors": 0,
+    "source_integrity": true,
+    "status_rows": 15,
+    "unresolved_rows": 0
+  },
+  "status": "PASS_WITH_REGISTERED_SCOPE"
+}

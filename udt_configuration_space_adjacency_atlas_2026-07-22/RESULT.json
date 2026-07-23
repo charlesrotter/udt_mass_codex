@@ -1,0 +1,25 @@
+{
+  "actions_loaded": 0,
+  "atlas_deformation_vectors_loaded": 48,
+  "base": "adf8f92d95c387cc647f04b16f1f3b17e1e670d2",
+  "chart_sheet_presentations": 4608,
+  "cross_sector_endpoint_pairs": 1152,
+  "endpoint_pairs": 2304,
+  "gpu_runs": 0,
+  "matched_carrier_mask_groups": 384,
+  "matter_carriers_loaded": 0,
+  "maximum_conclusion": "BOUNDED_REGISTERED_CONFIGURATION-SPACE_BANK-EDGE_ADJACENCY_CHARACTERIZED",
+  "metric_degeneracies": 0,
+  "null_graph_segments": 2304,
+  "physical_regime_labels_assigned": 0,
+  "positive_certificate_boxes": 2304,
+  "same_sign_endpoint_pairs": 1152,
+  "sheet_class_census": {
+    "FORCED_SINGLE_REGULAR_NULL_GRAPH": 2304,
+    "UNIFORMLY_SPACELIKE_SHEET": 2304
+  },
+  "signature_transitions": 0,
+  "simplex_interiors_covered": 0,
+  "status": "PASS_WITH_REGISTERED_SCOPE",
+  "unresolved_boxes": 0
+}

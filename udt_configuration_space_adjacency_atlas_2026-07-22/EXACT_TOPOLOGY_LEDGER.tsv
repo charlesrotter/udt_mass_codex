@@ -1,0 +1,5 @@
+identity	status	statement	scope
+E01_CONTINUOUS_CAUSAL_SEPARATOR	DERIVED_EXACT	continuous s with opposite endpoint signs has at least one zero	ANY_CONTINUOUS_NONDEGENERATE_LORENTZIAN_CONFIGURATION_PATH
+E02_COFRAME_NONDEGENERACY	DERIVED_EXACT	det(g)=-exp(2*(a+c+d+f))<0	J1_AND_J2_ALL_FINITE_CONFIGURATION_POINTS
+E03_NULL_DYAD	DERIVED_EXACT	at regular s=0 with dphi nonzero, D is nonzero rank-one and D^2=0	CERTIFIED_REGULAR_NULL_GRAPH
+E04_CSN_SEPARATOR	DERIVED_EXACT	positive common scale preserves sign and zero set of s	POSITIVE_COMMON_SCALE_TRANSFORMATIONS

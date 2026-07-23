@@ -1,0 +1,16 @@
+claim_id	status	statement	scope
+S01	DERIVED	Every finite point in both registered charts has det(g)=-exp(2(a+c+d+f))<0	J1/J2 complete exponential triangular coframe
+S02	DERIVED	Opposite endpoint signs force at least one s=0 point on every continuous cross-sector fiber	registered continuous lambda fibers
+S03	DERIVED	At regular s=0 with dphi nonzero, D is nonzero rank-one and D^2=0	conditional Lorentzian representative
+S04	DERIVED	Positive common scale preserves the sign and zero set of s	positive Common-Scale transformations
+S05	OBSERVED	All 2,304 same-sector chart sheets are uniformly spacelike	384 matched groups; three spacelike bank pairs; J1 and J2
+S06	OBSERVED	All 2,304 cross-sector chart sheets contain exactly one regular null graph	384 matched groups; three B0/B1/B2-to-B3 pairs; J1 and J2
+S07	OBSERVED	No registered sheet contains a causal pocket, tangency, zero-gradient interface, degeneracy, or unresolved cell	bounded registered bank-edge atlas
+S08	OBSERVED	J1 and J2 agree on separator existence and multiplicity but not its lambda shape	1,152 cross-sector endpoint pairs
+S09	OBSERVED	The angular/shift sector is retained and non-vacuous in an independent matrix probe	one exercised mutation plus complete use in every production sheet
+S10	CONDITIONAL	The three spacelike banks are constructively connected through the registered matched-edge charts	conditional on the chosen J1/J2 configuration charts
+S11	OPEN	Connectedness of the full bank simplex or arbitrary metric configuration space	not covered by bank edges
+S12	OPEN	Whether a native UDT equation, bootstrap, or boundary selects either chart or any path	no action/EOM/boundary loaded
+S13	OPEN	Whether either causal sector or its null separator has particle, force, clock, or cosmic meaning	no physical labels or empirical anchor loaded
+S14	OPEN	A complete finite-cell global solution crossing or avoiding the separator	no global completion constructed
+S15	OPEN	A native action, matter source, carrier emergence, scale, and mass law	outside atlas scope
