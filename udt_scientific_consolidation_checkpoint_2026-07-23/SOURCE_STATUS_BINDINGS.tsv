@@ -14,8 +14,8 @@ B12	C11	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv	id	S
 B13	C12	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv	id	S22	status	OPEN	native_source
 B14	C13	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv	id	S25	status	OPEN	normalized_boundary_charge_mass
 B15	C14	udt_finite_cell_cartan_transport_atlas_2026-07-23/STATUS_LEDGER.tsv	id	S20	status	REJECTED	CSN_does_not_fix_LC_mixing_profile
-B16	C15	matter_bootstrap_dimensional_inventory_2026-07-20/STATUS_LEDGER.tsv	id	S05	status	REFUTED_AS_SUFFICIENT	c_E_and_G_obs_do_not_supply_both_coefficient_dimensions
-B17	C15	matter_bootstrap_dimensional_inventory_2026-07-20/STATUS_LEDGER.tsv	id	S13	status	OPEN_NOT_FOUND	no_native_dimensional_matter_source_object
+B16	C15	scale_breaking_closure_census_2026-07-20/STATUS_LEDGER.tsv	id	S04	status	REFUTED_BY_DIMENSION_AND_RANK	c_E_and_G_obs_supply_mass_per_length_but_no_absolute_length
+B17	C15	scale_breaking_closure_census_2026-07-20/STATUS_LEDGER.tsv	id	S14	status	NOT_FOUND_IN_AUDITED_CURRENT_FOUNDATION	no_noncircular_scale_breaker_in_the_audited_foundation
 B18	C16	copresence_causal_accessibility_selector_2026-07-19/STATUS_LEDGER.tsv	claim_id	C19	status	REJECTED_AS_INFERENCE	unique_two_stage_bridge_not_derived
 B19	C17	native_hopfion_topology_audit_2026-07-19/TOPOLOGY_STATUS_LEDGER.tsv	claim_id	T04	status	OPEN	null_direction_section_and_carrier_emergence
 B20	C18	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv	id	S28	status	CONDITIONAL / OPEN	unconditional_mass_limit_not_closed
@@ -28,3 +28,4 @@ B26	C22	udt_frame_bivector_equivariance_audit_2026-07-23/STATUS_LEDGER.tsv	id	Q2
 B27	C23	udt_finite_cell_cartan_transport_atlas_2026-07-23/STATUS_LEDGER.tsv	id	S33	status	OBSERVED	zero_complete_onshell_branches
 B28	C23	udt_finite_cell_cartan_transport_atlas_2026-07-23/STATUS_LEDGER.tsv	id	S34	status	OPEN	no_finite_cell_branch_selection
 B29	C24	udt_finite_cell_cartan_transport_atlas_2026-07-23/STATUS_LEDGER.tsv	id	S35	status	OPEN	connection_physicality_and_representative_seam
+B30	C15	scale_breaking_closure_census_2026-07-20/STATUS_LEDGER.tsv	id	S15	status	OPEN	physical_Xmax_and_unconditional_mass_remain_open

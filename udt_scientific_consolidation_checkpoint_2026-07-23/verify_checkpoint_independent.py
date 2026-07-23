@@ -69,6 +69,10 @@ def validate(
     for item, grade in EXPECTED_STATUS.items():
         if status_map.get(item, {}).get("status") != grade:
             errors.append(f"status:{item}")
+    if status_map.get("C15", {}).get("evidence_path") != (
+        "scale_breaking_closure_census_2026-07-20/STATUS_LEDGER.tsv"
+    ):
+        errors.append("status:C15_evidence")
     if len(guards) != 15 or len({row["id"] for row in guards}) != 15:
         errors.append("guard_identity_coverage")
     for path in CONTROLS:
@@ -107,11 +111,25 @@ def validate_source_bindings(
 ) -> list[str]:
     errors: list[str] = []
     binding_ids = [row.get("binding_id", "") for row in bindings]
-    if len(bindings) != 29 or len(set(binding_ids)) != 29:
+    if len(bindings) != 30 or len(set(binding_ids)) != 30:
         errors.append("source_binding_identity_coverage")
     covered = {row.get("current_id", "") for row in bindings}
     if covered != status_ids:
         errors.append("source_binding_current_coverage")
+    scale_expected = {
+        ("S04", "REFUTED_BY_DIMENSION_AND_RANK"),
+        ("S14", "NOT_FOUND_IN_AUDITED_CURRENT_FOUNDATION"),
+        ("S15", "OPEN"),
+    }
+    scale_actual = {
+        (row.get("key_value", ""), row.get("expected_value", ""))
+        for row in bindings
+        if row.get("current_id") == "C15"
+        and row.get("source_path")
+        == "scale_breaking_closure_census_2026-07-20/STATUS_LEDGER.tsv"
+    }
+    if scale_actual != scale_expected:
+        errors.append("absolute_scale_binding_exactness")
     cache: dict[str, list[dict[str, str]]] = {}
     for binding in bindings:
         source = binding.get("source_path", "")
@@ -130,6 +148,44 @@ def validate_source_bindings(
         field = binding.get("field", "")
         if matches[0].get(field) != binding.get("expected_value", ""):
             errors.append(f"source_binding_value:{binding.get('binding_id', '')}")
+    return errors
+
+
+def validate_source_additions(
+    additions: list[dict[str, str]],
+) -> list[str]:
+    expected = {
+        "id": "S26",
+        "path": "scale_breaking_closure_census_2026-07-20/STATUS_LEDGER.tsv",
+        "role": "absolute_scale_status_and_dimensional_theorem",
+    }
+    if additions != [expected]:
+        return ["second_pass_source_addition"]
+    if not ROOT.joinpath(expected["path"]).exists():
+        return ["second_pass_source_addition_missing"]
+    return []
+
+
+def validate_rehearsal(rehearsal: dict[str, object]) -> list[str]:
+    errors: list[str] = []
+    checks = rehearsal.get("checks", {})
+    context = rehearsal.get("repository_context", {})
+    if rehearsal.get("all_checks_pass") is not True:
+        errors.append("rehearsal_checks")
+    if not isinstance(checks, dict) or len(checks) != 17:
+        errors.append("rehearsal_check_count")
+    if rehearsal.get("method") != (
+        "deterministic_parser_no_conversational_context_no_external_model"
+    ):
+        errors.append("rehearsal_method")
+    if "head" in rehearsal or "worktree_status" in rehearsal:
+        errors.append("volatile_git_metadata")
+    if not isinstance(context, dict) or context != {
+        "git_state_verified_by": "verify_repository_gates.py",
+        "required_branch": "grok",
+        "volatile_git_metadata_embedded": False,
+    }:
+        errors.append("rehearsal_repository_context")
     return errors
 
 
@@ -172,7 +228,12 @@ def main() -> None:
     )
 
     lineage = read_tsv(HERE / "SOURCE_LINEAGE.tsv")
-    check("source_lineage_count", len(lineage) == 25 and len({row["id"] for row in lineage}) == 25)
+    check(
+        "source_lineage_count",
+        len(lineage) == 26
+        and len({row["id"] for row in lineage}) == 26
+        and len({row["path"] for row in lineage}) == 26,
+    )
     lineage_ok = all(
         ROOT.joinpath(row["path"]).exists()
         and len(ROOT.joinpath(row["path"]).read_bytes()) == int(row["bytes"])
@@ -217,15 +278,21 @@ def main() -> None:
         and corrected_map["S21"]
         == "native_hopfion_topology_audit_2026-07-19/TOPOLOGY_STATUS_LEDGER.tsv",
     )
+    additions = read_tsv(HERE / "SECOND_PASS_SOURCE_ADDITIONS.tsv")
+    addition_errors = validate_source_additions(additions)
+    check(
+        "second_pass_source_addition",
+        not addition_errors,
+        addition_errors,
+    )
     rehearsal = json.loads(
         HERE.joinpath("ZERO_STATE_REHEARSAL_RESULT.json").read_text(encoding="utf-8")
     )
+    rehearsal_errors = validate_rehearsal(rehearsal)
     check(
         "zero_state_rehearsal",
-        rehearsal["all_checks_pass"] is True
-        and len(rehearsal["checks"]) == 16
-        and rehearsal["method"]
-        == "deterministic_parser_no_conversational_context_no_external_model",
+        not rehearsal_errors,
+        rehearsal_errors,
     )
 
     catches: list[dict[str, object]] = []
@@ -247,6 +314,13 @@ def main() -> None:
     catch("reject_Kato_physical_time", lambda s, c, g: s[index["C20"]].__setitem__("status", "DERIVED-PHYSICAL-TIME"))
     catch("reject_C10_unconditional_promotion", lambda s, c, g: s[index["C10"]].__setitem__("status", "DERIVED"))
     catch("reject_C22_identity_promotion", lambda s, c, g: s[index["C22"]].__setitem__("status", "DERIVED_IDENTITY"))
+    catch(
+        "reject_stale_C15_evidence",
+        lambda s, c, g: s[index["C15"]].__setitem__(
+            "evidence_path",
+            "matter_bootstrap_dimensional_inventory_2026-07-20/STATUS_LEDGER.tsv",
+        ),
+    )
     catch("reject_missing_regression_guard", lambda s, c, g: g.pop())
     catch("reject_stale_LIVE_pointer", lambda s, c, g: c.__setitem__("LIVE.md", c["LIVE.md"].replace(CHECKPOINT, "stale_checkpoint")))
     catch("reject_stale_HANDOFF_pointer", lambda s, c, g: c.__setitem__("HANDOFF.md", c["HANDOFF.md"].replace(CHECKPOINT, "stale_checkpoint")))
@@ -274,6 +348,24 @@ def main() -> None:
         row for row in deepcopy(bindings) if row["current_id"] != "C24"
     ]
     source_catch("reject_unbound_current_identity", source_identity_loss)
+    source_scale_loss = [
+        row for row in deepcopy(bindings) if row["current_id"] != "C15"
+    ]
+    source_catch("reject_missing_scale_binding", source_scale_loss)
+    catches.append(
+        {
+            "name": "reject_missing_source_addition",
+            "pass": bool(validate_source_additions([])),
+        }
+    )
+    volatile_rehearsal = deepcopy(rehearsal)
+    volatile_rehearsal["head"] = "0" * 40
+    catches.append(
+        {
+            "name": "reject_volatile_rehearsal_metadata",
+            "pass": bool(validate_rehearsal(volatile_rehearsal)),
+        }
+    )
     check("all_exercised_catches_pass", all(row["pass"] for row in catches), catches)
 
     output = {

@@ -1,7 +1,7 @@
 {
   "all_catches_pass": true,
   "all_checks_pass": true,
-  "catch_count": 20,
+  "catch_count": 24,
   "catches": [
     {
       "name": "reject_missing_status",
@@ -48,6 +48,10 @@
       "pass": true
     },
     {
+      "name": "reject_stale_C15_evidence",
+      "pass": true
+    },
+    {
       "name": "reject_missing_regression_guard",
       "pass": true
     },
@@ -82,9 +86,21 @@
     {
       "name": "reject_unbound_current_identity",
       "pass": true
+    },
+    {
+      "name": "reject_missing_scale_binding",
+      "pass": true
+    },
+    {
+      "name": "reject_missing_source_addition",
+      "pass": true
+    },
+    {
+      "name": "reject_volatile_rehearsal_metadata",
+      "pass": true
     }
   ],
-  "check_count": 15,
+  "check_count": 16,
   "checks": [
     {
       "detail": [],
@@ -177,7 +193,12 @@
       "pass": true
     },
     {
-      "detail": "",
+      "detail": [],
+      "name": "second_pass_source_addition",
+      "pass": true
+    },
+    {
+      "detail": [],
       "name": "zero_state_rehearsal",
       "pass": true
     },
@@ -228,6 +249,10 @@
           "pass": true
         },
         {
+          "name": "reject_stale_C15_evidence",
+          "pass": true
+        },
+        {
           "name": "reject_missing_regression_guard",
           "pass": true
         },
@@ -261,6 +286,18 @@
         },
         {
           "name": "reject_unbound_current_identity",
+          "pass": true
+        },
+        {
+          "name": "reject_missing_scale_binding",
+          "pass": true
+        },
+        {
+          "name": "reject_missing_source_addition",
+          "pass": true
+        },
+        {
+          "name": "reject_volatile_rehearsal_metadata",
           "pass": true
         }
       ],

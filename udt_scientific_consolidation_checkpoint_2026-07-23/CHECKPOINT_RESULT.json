@@ -12,7 +12,8 @@
   "python": "3.10.12",
   "regression_guard_count": 15,
   "schema": "udt-scientific-consolidation-checkpoint-1.0",
-  "source_count": 25,
+  "source_addition_count": 1,
+  "source_count": 26,
   "source_paths_resolve": true,
   "status_contract_matches": true,
   "status_count": 24

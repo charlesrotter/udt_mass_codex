@@ -18,6 +18,10 @@ Deterministic zero-state startup rehearsal:
 PYTHONDONTWRITEBYTECODE=1 python3 -s rehearse_startup_zero_state.py
 ```
 
+This command is manifested-output safe: from a clean checkout it must leave
+the worktree clean. Volatile branch/HEAD/dirt facts are checked by the full
+repository gate rather than embedded in the rehearsal outputs.
+
 Full repository test:
 
 ```bash

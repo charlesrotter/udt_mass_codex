@@ -33,8 +33,16 @@ def normalize(value: str) -> str:
 
 
 def main() -> None:
-    sources = read_tsv(HERE / "CORRECTED_SOURCE_UNIVERSE.tsv")
-    if len(sources) != 25 or len({row["id"] for row in sources}) != 25:
+    historical_sources = read_tsv(HERE / "CORRECTED_SOURCE_UNIVERSE.tsv")
+    source_additions = read_tsv(HERE / "SECOND_PASS_SOURCE_ADDITIONS.tsv")
+    sources = historical_sources + source_additions
+    if (
+        len(historical_sources) != 25
+        or len(source_additions) != 1
+        or len(sources) != 26
+        or len({row["id"] for row in sources}) != 26
+        or len({row["path"] for row in sources}) != 26
+    ):
         raise AssertionError("source universe coverage")
     lineage = []
     for row in sources:
@@ -94,6 +102,7 @@ def main() -> None:
         "preregistration_commit": "b200b0a",
         "preregistration_correction_commit": "7995470",
         "source_count": len(lineage),
+        "source_addition_count": len(source_additions),
         "status_count": len(statuses),
         "post_commit_status_correction_count": len(corrections),
         "frontier_map_count": len(maps),

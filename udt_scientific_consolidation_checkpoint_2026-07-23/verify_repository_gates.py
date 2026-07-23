@@ -232,7 +232,8 @@ def validate_science(mutation: str = "") -> dict[str, object]:
     guards = read_tsv(HERE / "REGRESSION_GUARD_LEDGER.tsv")
     if (
         result["maximum_conclusion"] != MAXIMUM
-        or result["source_count"] != 25
+        or result["source_count"] != 26
+        or result["source_addition_count"] != 1
         or result["status_count"] != 24
         or result["post_commit_status_correction_count"] != 2
         or result["frontier_map_count"] != 13
@@ -240,11 +241,13 @@ def validate_science(mutation: str = "") -> dict[str, object]:
         or result["physics_derivation_performed"] is not False
         or result["artifact_move_performed"] is not False
         or independent["all_checks_pass"] is not True
-        or independent["check_count"] != 15
+        or independent["check_count"] != 16
         or independent["all_catches_pass"] is not True
-        or independent["catch_count"] != 20
+        or independent["catch_count"] != 24
         or rehearsal["all_checks_pass"] is not True
-        or len(rehearsal["checks"]) != 16
+        or len(rehearsal["checks"]) != 17
+        or "head" in rehearsal
+        or "worktree_status" in rehearsal
         or rehearsal["method"]
         != "deterministic_parser_no_conversational_context_no_external_model"
         or len(statuses) != 24
@@ -254,20 +257,20 @@ def validate_science(mutation: str = "") -> dict[str, object]:
         or status_map.get("C10")
         != "SETTLED_STATIC_FINITE_BOX_CONDITIONAL"
         or status_map.get("C22") != "OPEN_NOT_JOINED"
-        or len(lineage) != 25
+        or len(lineage) != 26
         or len(maps) != 13
         or len(guards) != 15
     ):
         raise AssertionError("checkpoint science contract")
     return {
         "grade": "NAVIGATION-VERIFIED",
-        "sources": 25,
+        "sources": 26,
         "statuses": 24,
         "frontier_map_rows": 13,
         "regression_guards": 15,
-        "independent_checks": 15,
-        "independent_catches": 20,
-        "zero_state_checks": 16,
+        "independent_checks": 16,
+        "independent_catches": 24,
+        "zero_state_checks": 17,
         "external_model_review": "NOT_PERFORMED_NO_DISCLOSURE_GRANT",
         "result": "PASS",
     }

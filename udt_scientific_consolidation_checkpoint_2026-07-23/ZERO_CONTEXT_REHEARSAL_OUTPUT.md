@@ -1,9 +1,9 @@
 # Zero-state startup rehearsal output
 
 - Method: `deterministic_parser_no_conversational_context_no_external_model`
-- Branch: `grok`
-- HEAD at rehearsal: `67d5b1dee23e471cadc2cbbfd7244165edb96b6e`
-- Checks: `16/16`
+- Required branch: `grok`
+- Volatile Git metadata embedded: `no`
+- Checks: `17/17`
 - LIVE bounded lines: `36`
 - HANDOFF bounded lines: `42`
 

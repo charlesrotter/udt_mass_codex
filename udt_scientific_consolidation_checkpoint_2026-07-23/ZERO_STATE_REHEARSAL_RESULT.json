@@ -4,10 +4,10 @@
     "HANDOFF.md": 42,
     "LIVE.md": 36
   },
-  "branch": "grok",
   "checks": {
     "AGENTS_orders_LIVE_before_HANDOFF": true,
     "AGENTS_orders_checkpoint_after_HANDOFF": true,
+    "AGENTS_requires_grok": true,
     "HANDOFF_is_bounded": true,
     "HANDOFF_points_to_checkpoint": true,
     "LIVE_is_bounded": true,
@@ -23,7 +23,6 @@
     "scale_status": true,
     "status_count": true
   },
-  "head": "67d5b1dee23e471cadc2cbbfd7244165edb96b6e",
   "method": "deterministic_parser_no_conversational_context_no_external_model",
   "orientation": {
     "authority_boundary": "no finite-cell branch, representative, action, carrier, scale, or matter law is selected",
@@ -60,6 +59,10 @@
     }
   },
   "python": "3.10.12",
-  "schema": "udt-zero-state-startup-rehearsal-1.0",
-  "worktree_status": "M MEMORY.md\n M udt_scientific_consolidation_checkpoint_2026-07-23/CHECKPOINT_RESULT.json\n M udt_scientific_consolidation_checkpoint_2026-07-23/CURRENT_STATUS_LEDGER.tsv\n M udt_scientific_consolidation_checkpoint_2026-07-23/INDEPENDENT_VERIFICATION.json\n M udt_scientific_consolidation_checkpoint_2026-07-23/METRIC_TO_FRONTIER_MAP.tsv\n M udt_scientific_consolidation_checkpoint_2026-07-23/REPOSITORY_GATES.json\n M udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md\n M udt_scientific_consolidation_checkpoint_2026-07-23/build_checkpoint_evidence.py\n M udt_scientific_consolidation_checkpoint_2026-07-23/verify_checkpoint_independent.py\n M udt_scientific_consolidation_checkpoint_2026-07-23/verify_repository_gates.py\n?? udt_scientific_consolidation_checkpoint_2026-07-23/POST_COMMIT_STATUS_CORRECTIONS.tsv\n?? udt_scientific_consolidation_checkpoint_2026-07-23/SOURCE_STATUS_BINDINGS.tsv"
+  "repository_context": {
+    "git_state_verified_by": "verify_repository_gates.py",
+    "required_branch": "grok",
+    "volatile_git_metadata_embedded": false
+  },
+  "schema": "udt-zero-state-startup-rehearsal-1.0"
 }

@@ -75,8 +75,8 @@
     "package_links": 0
   },
   "package_manifest": {
-    "entries": 29,
-    "manifest_sha256": "a2cb404efb2be52e2b30adb8889716d5c93c839803155d6202ad223c6659e457",
+    "entries": 32,
+    "manifest_sha256": "37b80dedf0f1d3574f4c477e70f4121e6738dfa0ae3c250fdb97731188e66231",
     "result": "PASS"
   },
   "prior_scientific_packages": {
@@ -833,13 +833,13 @@
     "external_model_review": "NOT_PERFORMED_NO_DISCLOSURE_GRANT",
     "frontier_map_rows": 13,
     "grade": "NAVIGATION-VERIFIED",
-    "independent_catches": 20,
-    "independent_checks": 15,
+    "independent_catches": 24,
+    "independent_checks": 16,
     "regression_guards": 15,
     "result": "PASS",
-    "sources": 25,
+    "sources": 26,
     "statuses": 24,
-    "zero_state_checks": 16
+    "zero_state_checks": 17
   },
   "scope_paths": [
     "AGENTS.md",
@@ -864,6 +864,9 @@
     "udt_scientific_consolidation_checkpoint_2026-07-23/REGRESSION_GUARD_LEDGER.tsv",
     "udt_scientific_consolidation_checkpoint_2026-07-23/REHEARSAL_METHOD.md",
     "udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md",
+    "udt_scientific_consolidation_checkpoint_2026-07-23/SECOND_PASS_AUDIT_PREREGISTRATION.md",
+    "udt_scientific_consolidation_checkpoint_2026-07-23/SECOND_PASS_AUDIT_REPORT.md",
+    "udt_scientific_consolidation_checkpoint_2026-07-23/SECOND_PASS_SOURCE_ADDITIONS.tsv",
     "udt_scientific_consolidation_checkpoint_2026-07-23/SOURCE_LINEAGE.tsv",
     "udt_scientific_consolidation_checkpoint_2026-07-23/SOURCE_STATUS_BINDINGS.tsv",
     "udt_scientific_consolidation_checkpoint_2026-07-23/STARTUP_READ_ORDER.md",

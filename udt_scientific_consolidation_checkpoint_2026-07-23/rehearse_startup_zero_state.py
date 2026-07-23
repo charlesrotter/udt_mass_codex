@@ -9,7 +9,6 @@ from __future__ import annotations
 
 import csv
 import json
-import subprocess
 import sys
 from pathlib import Path
 
@@ -32,18 +31,6 @@ def bounded(path: Path) -> str:
     return text.split(begin, 1)[1].split(end, 1)[0]
 
 
-def git(*arguments: str) -> str:
-    completed = subprocess.run(
-        ["git", *arguments],
-        cwd=ROOT,
-        text=True,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-        check=True,
-    )
-    return completed.stdout.strip()
-
-
 def main() -> None:
     agents = ROOT.joinpath("AGENTS.md").read_text(encoding="utf-8")
     live = bounded(ROOT / "LIVE.md")
@@ -58,6 +45,7 @@ def main() -> None:
         "AGENTS_orders_LIVE_before_HANDOFF": agents.find("`LIVE.md`") < agents.find("`HANDOFF.md`"),
         "AGENTS_orders_checkpoint_after_HANDOFF": agents.find("`HANDOFF.md`")
         < agents.find("udt_scientific_consolidation_checkpoint_2026-07-23"),
+        "AGENTS_requires_grok": "Work on branch `grok`" in agents,
         "LIVE_is_bounded": len(live.splitlines()) <= 60,
         "HANDOFF_is_bounded": len(handoff.splitlines()) <= 60,
         "LIVE_points_to_checkpoint": "udt_scientific_consolidation_checkpoint_2026-07-23"
@@ -81,9 +69,11 @@ def main() -> None:
         "schema": "udt-zero-state-startup-rehearsal-1.0",
         "method": "deterministic_parser_no_conversational_context_no_external_model",
         "python": sys.version.split()[0],
-        "branch": git("branch", "--show-current"),
-        "head": git("rev-parse", "HEAD"),
-        "worktree_status": git("status", "--short"),
+        "repository_context": {
+            "required_branch": "grok",
+            "volatile_git_metadata_embedded": False,
+            "git_state_verified_by": "verify_repository_gates.py",
+        },
         "bounded_lines": {
             "LIVE.md": len(live.splitlines()),
             "HANDOFF.md": len(handoff.splitlines()),
@@ -142,8 +132,8 @@ def main() -> None:
         "# Zero-state startup rehearsal output",
         "",
         f"- Method: `{output['method']}`",
-        f"- Branch: `{output['branch']}`",
-        f"- HEAD at rehearsal: `{output['head']}`",
+        f"- Required branch: `{output['repository_context']['required_branch']}`",
+        "- Volatile Git metadata embedded: `no`",
         f"- Checks: `{sum(checks.values())}/{len(checks)}`",
         f"- LIVE bounded lines: `{output['bounded_lines']['LIVE.md']}`",
         f"- HANDOFF bounded lines: `{output['bounded_lines']['HANDOFF.md']}`",
@@ -167,8 +157,10 @@ def main() -> None:
     print(json.dumps({
         "all_checks_pass": output["all_checks_pass"],
         "check_count": len(checks),
-        "branch": output["branch"],
-        "head": output["head"],
+        "required_branch": output["repository_context"]["required_branch"],
+        "volatile_git_metadata_embedded": output["repository_context"][
+            "volatile_git_metadata_embedded"
+        ],
     }, indent=2, sort_keys=True))
     raise SystemExit(0 if output["all_checks_pass"] else 1)
 
