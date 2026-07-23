@@ -1,0 +1,12 @@
+{
+  "c_in_complete_reciprocal_metric": true,
+  "c_in_dimensionless_diagnostic_values": false,
+  "full_csn_area_invariant": true,
+  "full_csn_shape_invariant": true,
+  "joint_target": "w_p=0 AND S_shape=1",
+  "reciprocal_generator": "diag(-1,+1)",
+  "relative_area_rate": "A_rel=w_p",
+  "relative_area_ratio_formula": "A_rel=(1/4)T log(det(q)/abs(det(h)))",
+  "schema": "udt-relative-angular-diagnostics-1.0",
+  "shape_speed_squared": "S_shape=u_p**2+theta_p**2*sinh(2*u)**2"
+}

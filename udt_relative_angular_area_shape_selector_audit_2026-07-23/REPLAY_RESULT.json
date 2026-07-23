@@ -1,0 +1,19 @@
+{
+  "python": "3.10.12",
+  "result": "PASS",
+  "runs": [
+    {
+      "returncode": 0,
+      "script": "derive_relative_angular_area_shape_selector.py",
+      "stderr_bytes": 0,
+      "stdout_bytes": 0
+    },
+    {
+      "returncode": 0,
+      "script": "verify_relative_angular_area_shape_selector_independent.py",
+      "stderr_bytes": 0,
+      "stdout_bytes": 1065
+    }
+  ],
+  "schema": "udt-relative-angular-area-shape-selector-replay-1.0"
+}

@@ -1,0 +1,12 @@
+{
+  "complete_split": "G=[[h,C],[C^T,Q]]",
+  "cross_terms_retained": true,
+  "determinant_identity": "det(G)=det(h)*det(q)",
+  "full_csn_schur_covariance": "q_tilde=lambda^2*q",
+  "orthogonal_angular_metric": "q=Q-C^T*h^-1*C",
+  "raw_Q_is_invariant_angular_metric": false,
+  "relative_determinant_ratio": "det(q)/abs(det(h))",
+  "relative_ratio_full_csn_invariant": true,
+  "schema": "udt-relative-angular-nonblock-formula-1.0",
+  "signature_identity": "inertia(G)=inertia(h)+inertia(q)"
+}

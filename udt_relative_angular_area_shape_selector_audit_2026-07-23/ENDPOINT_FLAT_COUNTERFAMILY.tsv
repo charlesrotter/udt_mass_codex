@@ -1,0 +1,8 @@
+control_id	profiles	endpoint_jets_through_2	relative_area	shape_speed	role
+E01_BASE_MATCHED	w=0;u=y;theta=0	BASE	0	1	MATCHED_CONTROL_NOT_SELECTED_UNIVERSE
+E02_AREA_ONLY	w=alpha*p(y);u=y;theta=0	IDENTICAL_TO_BASE	3*alpha*y**2*(1 - 2*y)*(y - 1)**2	1	INDEPENDENT_AREA_COUNTERDEFORMATION
+E03_SHEAR_ONLY	w=0;u=y+beta*p(y);theta=0	IDENTICAL_TO_BASE	0	(6*beta*y**5 - 15*beta*y**4 + 12*beta*y**3 - 3*beta*y**2 - 1)**2	INDEPENDENT_SHAPE_COUNTERDEFORMATION
+E04_ROTATION_ONLY	w=0;u=y;theta=kappa*p(y)	IDENTICAL_TO_BASE	0	36*kappa**2*y**10*sinh(2*y)**2 - 180*kappa**2*y**9*sinh(2*y)**2 + 369*kappa**2*y**8*sinh(2*y)**2 - 396*kappa**2*y**7*sinh(2*y)**2 + 234*kappa**2*y**6*sinh(2*y)**2 - 72*kappa**2*y**5*sinh(2*y)**2 + 9*kappa**2*y**4*sinh(2*y)**2 + 1	INDEPENDENT_ROTATING_AXIS_COUNTERDEFORMATION
+E05_THREE_KNOB	w=alpha*p(y);u=y+beta*p(y);theta=kappa*p(y)	IDENTICAL_TO_BASE	3*alpha*y**2*(1 - 2*y)*(y - 1)**2	9*kappa**2*y**4*(y - 1)**4*(2*y - 1)**2*sinh(2*y*(beta*y**2*(y - 1)**3 - 1))**2 + (3*beta*y**3*(y - 1)**2 + 3*beta*y**2*(y - 1)**3 - 1)**2	INDEPENDENT_BULK_FREEDOM
+E06_NONBLOCK_EXTENSION	Q=q+C^T*h^-1*C with any smooth nonzero C	INHERITS_SELECTED_C_JETS	UNCHANGED_SCHUR_DIAGNOSTIC	UNCHANGED_SCHUR_DIAGNOSTIC	CROSS_TERMS_DO_NOT_REMOVE_COUNTERFAMILY
+E07_EXACT_INTERIOR_SAMPLE	y=1/4	NOT_ENDPOINT	27*alpha/512	729*kappa**2*sinh(27*beta/2048 + 1/2)**2/262144 + (27*beta + 512)**2/262144	NONZERO_P_PRIME_PROVES_INDEPENDENT_INTERIOR_RESPONSE

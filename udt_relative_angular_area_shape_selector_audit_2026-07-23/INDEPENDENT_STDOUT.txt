@@ -1,0 +1,21 @@
+{
+  "endpoint_flat_exact_checks": 6,
+  "finite_difference_diagnostic_controls": 3,
+  "implementation": "stdlib_fraction_schur_determinants_mirror_ranks_and_independent_finite_differences",
+  "max_formula_residual": 1.213429356994311e-10,
+  "max_full_csn_residual": 7.494094234061777e-11,
+  "maximum_conclusion": "THE_COMPLETE_NONBLOCK_METRIC_DEFINES_EXACT_FULL_CSN_INVARIANT_RELATIVE_ANGULAR_AREA_AND_SHAPE_SPEED_DIAGNOSTICS_BUT_CURRENT_METRIC_ALGEBRA_RECIPROCITY_CSN_FINITE_CELL_TOPOLOGY_CARTAN_IDENTITIES_BOOTSTRAP_AND_C_DO_NOT_FIX_THEIR_GLOBAL_TARGET_VALUES__A_REGULAR_MIRROR_SEAL_FORCES_ZERO_RELATIVE_AREA_RATE_AT_ITS_FIXED_POINT_BUT_LEAVES_SHAPE_SPEED_AMPLITUDE_AND_BULK_PERSISTENCE_UNSELECTED",
+  "mirror_dimensions": {
+    "ANGULAR_MINUS_I": 0,
+    "ANGULAR_PLUS_I": 0,
+    "AXIS_EXCHANGE": 1,
+    "AXIS_REFLECTION": 1
+  },
+  "mutation_catches": 24,
+  "rational_nonblock_controls": 3,
+  "schema": "udt-relative-angular-selector-independent-1.0",
+  "selectors": 11,
+  "source_hashes_replayed": 17,
+  "status": "PASS",
+  "three_independent_bulk_knobs": true
+}
