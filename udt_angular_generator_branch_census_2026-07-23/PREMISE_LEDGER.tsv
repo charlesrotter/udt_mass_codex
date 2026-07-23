@@ -1,0 +1,17 @@
+premise_id	object	status	use_in_audit	not_allowed_inference
+P01	complete_branch_universe	PINNED_BY_REGISTERED_EVIDENCE	exact twelve completion families	selected universe
+P02	reciprocal_parameter	FOUNDING_PLUS_DERIVED	phi is dimensionless reciprocal depth	phi dynamics or source
+P03	c_anchor	OBSERVED_FOUNDING_RETAINED	raw complete metric keeps c explicit	angular radius or mixing fixed by c
+P04	angular_bundle	FREE_AND_EXPLORED_OR_UNDEFINED	record per branch	no universal round S2 or torus
+P05	angular_metric_q	PINNED_ONLY_WHERE_BRANCH_SUPPLIES_IT	positive rank-two regular-stratum metric	no invented profile
+P06	depth_flow_T	PINNED_ONLY_WHERE_T_phi_EQUALS_ONE_IS_DEFINED	normalize generator to phi	no value across dphi zero
+P07	fiber_identification	PINNED_ONLY_WHERE_BRANCH_SUPPLIES_TRANSPORT	separate strain from frame rotation	no metric-derived skew generator
+P08	raw_generator_H	DERIVED_CONDITIONAL	H=(1/2)q^-1 Lie_T q	full coframe representation without transport
+P09	CSN_generator_J	DERIVED_CONDITIONAL	remove half-trace from H	physical scale or representative selection
+P10	reciprocal_pattern	PREREGISTERED_TEST	J squared equals I and det J equals -1	selection from compatibility
+P11	mirror_lifts	PINNED_BY_REGISTERED_EVIDENCE	test each lift separately	unique lift
+P12	monodromy	PINNED_AS_FULL_PARAMETRIC_FAMILY	test general compatibility	identity-only replacement
+P13	cap_or_rank_degeneracy	FREE_AND_RETAINED	mark generator undefined when q rank drops	smooth rank-two extension
+P14	CSN	PINNED_BY_THEORY	common angular scale is removed only in J	constant common scale
+P15	bootstrap	OPEN_NONSELECTING_NOT_USED	no branch ranking	selection theorem
+P16	action_source_carrier	OPEN_NOT_USED	no dynamics or matter inference	native action or emergence
