@@ -1,0 +1,13 @@
+{
+  "all_checks_pass": true,
+  "catch_count": 12,
+  "catch_pass_count": 12,
+  "check_count": 89,
+  "fresh_semantic_agent": "NOT_RUN",
+  "grade": "VERIFIED-WITH-CAVEATS",
+  "imports_production_module": false,
+  "method": "standard_library_fraction_matrix_and_direct_source_audit",
+  "result": "PASS",
+  "schema": "udt-wrl-xmax-lightcone-frame-independent-1.0",
+  "source_hash_checks": 14
+}

@@ -1,0 +1,72 @@
+{
+  "authority_boundary": {
+    "maximum_conclusion": "THE_WRL_METRIC_DERIVES_A_FRAME_INVARIANT_NULL_SURFACE_AND_LOCAL_LORENTZIAN_OBSERVER_RECIPROCITY;STATIC_CLOCK_AND_OPTICAL_UNATTAINABILITY_ARE_EXACT;THE_REGULAR_INGOING_CHART_ADMITS_CROSSING_CURVES;THE_CONSTANT_DEPTH_RECENTERING_OF_THE_OLDER_PROJECTIVE_FRAME_FAILS_AS_A_FULL_WRL_METRIC_HOMOTHETY_IN_THE_AREAL_ANGULAR_SECTOR;UNIVERSAL_UNCROSSABILITY_AND_GLOBAL_OBSERVER_RECIPROCITY_REQUIRE_ADDITIONAL_COMPLETE_METRIC_OR_BOUNDARY_CONTENT",
+    "preregistration_base": "44ebe4c"
+  },
+  "catch_gates": {
+    "current_paths": "PASS",
+    "dirty_checkout": "PASS",
+    "frontier": "PASS",
+    "frozen_manifests": "PASS",
+    "package_manifest": "PASS",
+    "parent_package": "PASS",
+    "scope": "PASS"
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false
+  },
+  "dirty_checkout": {
+    "branch": "grok",
+    "contents_read": false,
+    "head": "adf8f92d95c387cc647f04b16f1f3b17e1e670d2",
+    "metadata_sha256": "4bc96070c841a14c497b642ee7b93dcf9061372f770aee065d6b495ee4996f4c",
+    "path_count": 54,
+    "unchanged": true
+  },
+  "frozen_evidence": {
+    "manifest_count": 6,
+    "manifest_entry_count": 127,
+    "tracked_path_count": 133,
+    "unchanged": true
+  },
+  "navigation": {
+    "current_artifact_identity_count": 1114,
+    "frontier_row_count": 306,
+    "frontier_target_count": 101,
+    "package_markdown_link_count": 0,
+    "resolved": true
+  },
+  "package_manifest": {
+    "entry_count": 23,
+    "manifest_sha256": "1401fe8da653c6e8016b915f5c13d2c0660bd199f7d6b1b32acabb1dd3fdfaee",
+    "verified": true
+  },
+  "prior_scientific_evidence": {
+    "package_count": 101,
+    "manifest_entry_count": 2950,
+    "verified": true
+  },
+  "parent_package": {
+    "entry_count": 22,
+    "manifest_sha256": "44bac08d6cc37d1326193d357a91823c15da5de025eddba4dbef86882318cc6a",
+    "verified": true
+  },
+  "science": {
+    "independent_check_count": 89,
+    "independent_catch_count": 12,
+    "independent_imports_production_module": false,
+    "prior_regrade_count": 11,
+    "production_check_count": 67,
+    "production_catch_count": 20,
+    "source_hash_count": 14,
+    "status_count": 22
+  },
+  "tests": {
+    "failed": 0,
+    "passed": 70,
+    "status": "PASS",
+    "stdout_sha256": "c36690151961996b703ac1948f436672a99f1cb6fcc54f067e684744f11be9a3",
+    "xfailed": 1
+  }
+}

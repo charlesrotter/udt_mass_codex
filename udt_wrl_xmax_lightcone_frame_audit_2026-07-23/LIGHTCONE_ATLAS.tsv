@@ -1,0 +1,10 @@
+view	coordinates	exact_metric_or_rule	derived_observation	scope
+STATIC_COORDINATE	t_r	ds2=-A*c_E2*dt2+A^-1*dr2	dr_dt=plus_or_minus_c_E*A	0_less_r_less_X
+STATIC_ORTHONORMAL	tau_ell	dtau=sqrt(A)dt;dell=dr/sqrt(A)	dell_dtau=plus_or_minus_c_E	static_observer_inside_A_positive
+OPTICAL	t_rstar	rstar=-X*log(1-r/X)=2X*phi	ds2_rad=A*(-d(ct)2+drstar2);X_at_infinite_rstar	static_patch
+NULL	u_v	u=c_E*t-rstar;v=c_E*t+rstar	null_characteristics	u_v_on_static_patch
+INGOING	v_r	ds2_rad=-A*dv2+2*dv*dr	determinant_minus_one_at_X;crossing_curves_exist	local_regular_extension
+OUTGOING	u_r	ds2_rad=-A*du2-2*du*dr	determinant_minus_one_at_X;crossing_curves_exist	local_regular_extension
+LOCAL_BOOSTED	theta_prime	Lambda(eta)_T*diag(-1,1)*Lambda(eta)=diag(-1,1)	null_lines_scale_by_exp(plus_or_minus_eta)	any_finite_local_eta_inside_Lorentzian_region
+VARIABLE_BOOSTED	eta_of_t_r	omega_prime=omega-deta;curvature_prime=curvature	d_squared_eta_zero;no_frame_generated_curvature	kinematic_frame_only
+GLOBAL_DEPTH_SHIFT	phi_prime=phi-beta	radial_time_ratio=exp(2beta);angular_ratio_position_dependent	not_full_WRL_homothety_with_fixed_angles	restricted_constant_shift_test

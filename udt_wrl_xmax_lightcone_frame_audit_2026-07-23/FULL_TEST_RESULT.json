@@ -1,0 +1,11 @@
+{
+  "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest -q tests/",
+  "failed": 0,
+  "passed": 70,
+  "result": "PASS",
+  "returncode": 0,
+  "schema": "udt-wrl-xmax-lightcone-frame-tests-1.0",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "c36690151961996b703ac1948f436672a99f1cb6fcc54f067e684744f11be9a3",
+  "xfailed": 1
+}
