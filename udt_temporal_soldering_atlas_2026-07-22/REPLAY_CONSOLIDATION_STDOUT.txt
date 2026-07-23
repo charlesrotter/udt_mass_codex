@@ -1,0 +1,24 @@
+{
+  "initial_class_conflicts": 2,
+  "line_paths": 1775,
+  "maximum_conclusion": "BOUNDED_CONSOLIDATED_TEMPORAL_SOLDERING_CENSUS__GLOBAL_THREADING_OPEN",
+  "motif_path_status_census": {
+    "FOUR_LINES|NONINTEGRABILITY_OBSERVED_AT_ONE_OR_MORE_NODES": 1055,
+    "LINE_PLUS_THREE|ALL_17_NODES_CONSOLIDATED_INTEGRABLE": 720
+  },
+  "node_class_census": {
+    "NUMERICALLY_INTEGRABLE_LOCAL": 12238,
+    "NUMERICALLY_INTEGRABLE_LOCAL__REFINED_TWO_ROUTE": 2,
+    "NUMERICALLY_NONINTEGRABLE_LOCAL": 17925,
+    "NUMERIC_UNCERTAIN_DERIVATIVE": 10
+  },
+  "node_rows": 30175,
+  "original_production_atlas_modified": false,
+  "path_status_census": {
+    "ALL_17_NODES_CONSOLIDATED_INTEGRABLE": 720,
+    "NONINTEGRABILITY_OBSERVED_AT_ONE_OR_MORE_NODES": 1055
+  },
+  "refined_integrable_conflicts": 2,
+  "refined_nonintegrable_conflicts": 0,
+  "unresolved_conflicts": 0
+}

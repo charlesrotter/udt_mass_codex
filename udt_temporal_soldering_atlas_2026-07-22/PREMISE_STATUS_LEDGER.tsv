@@ -1,0 +1,21 @@
+premise_id	premise	status	role	consequence_or_limit
+P01	full retained metric-amplitude/jet registry	pinned-by-THEORY_AND_FROZEN_EVIDENCE	candidate geometry	bounded atlas; not all possible metrics
+P02	conditional Lorentzian metric representative	CHOSE_CONDITIONAL	signature and null-cone readout	all temporal language is representative-scoped
+P03	phi is a globally named scalar in the analytic registry	pinned-by-THEORY	native gradient and exact level sets	physical meaning of phi not selected by this audit
+P04	D=grad(phi) tensor dphi	DERIVED_FROM_METRIC_AND_PHI	native gradient dyad	D squared equals s D
+P05	31 nonempty instrument-family subsets	free-and-explored	presentation registry	families are not independent universes or physical laws
+P06	17 affine path nodes	CHOSE_NUMERICAL	sampled continuation	no continuous interval theorem follows from samples alone
+P07	finite-difference steps 1e-4 and 5e-5	CHOSE_NUMERICAL	production Frobenius census	two threshold conflicts required preregistered refinement
+P08	refinement steps 2.5e-5 and 1.25e-5	CHOSE_PREREGISTERED_CORRECTION	two frozen conflict rows only	no other row retuned
+P09	coordinate named t	FORBIDDEN_AS_SELECTOR	none	no component label selects time
+P10	registered 7 coordinate and 5 coframe transformations	free-and-explored	bounded covariance controls	not exhaustive over all diffeomorphisms/coframes
+P11	Reciprocity	pinned-by-THEORY	constraint audit	does not select a negative line or future direction
+P12	Common-Scale Neutrality	pinned-by-THEORY	positive common-scale constraint	preserves signatures; no temporal selection
+P13	finite-cell/seal structure	pinned-by-THEORY_WITH_OPEN_LIFT	global constraint audit	no projector-line cocycle or unique lift
+P14	bootstrap	WORKING_ON_SHELL_ADMISSIBILITY	selector audit	no off-shell functional currently ranks temporal branches
+P15	terrestrial/solar c_E	OBSERVED_NOT_USED	possible later normalization	cannot select the local line in this audit
+P16	physical future direction	OPEN	orientation	grad(phi) gives a mathematical orientation only on timelike-dphi branch
+P17	tau=phi normal-flow chart	CHOSE_CONDITIONAL	local reconstruction	gives N_phi and zero adapted shift; not universal coordinates
+P18	static spatial-depth physical branch	WORKING_NOT_SELECTED	interpretive comparison	cannot reject timelike-dphi branch or privilege spacelike-dphi branch in atlas
+P19	action/EOM/source/carrier	NOT_LOADED	none	paths are analytic metric configurations, not dynamical solutions
+P20	co-present information interpretation	NOT_TESTED	none	no information-transfer conclusion

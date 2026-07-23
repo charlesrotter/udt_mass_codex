@@ -1,0 +1,44 @@
+{
+  "all_families_contain_D": true,
+  "all_nodes_s_negative": true,
+  "continuous_sign_between_17_nodes_certified": false,
+  "exact_local_theorem": {
+    "adapted_lapse": "N_phi=1/sqrt(-s) for tau=phi",
+    "adapted_shift": "zero only for the chosen normal-flow congruence",
+    "dyad": "D=grad(phi) tensor dphi",
+    "frobenius": "ker(dphi) integrable because d(dphi)=0",
+    "minimal_polynomial": "D^2=sD",
+    "spatial_projector": "Q_phi=I-P_phi projects onto ker(dphi)",
+    "timelike_projector": "P_phi=D/s for s=g_inverse(dphi,dphi)<0"
+  },
+  "family_presentation_census": {
+    "M04_D": 384,
+    "M05_R_D": 48,
+    "M12_D_RG": 48,
+    "M13_R_D_RG": 48,
+    "M20_D_WG": 48,
+    "M21_R_D_WG": 48,
+    "M28_D_RG_WG": 48,
+    "M29_R_D_RG_WG": 48
+  },
+  "global_time_function_derived": false,
+  "lapse_phi_max": 314.94205168233503,
+  "lapse_phi_min": 9.765892693706377,
+  "max_residuals": {
+    "covector_annihilation": 9.020562075079397e-17,
+    "dyad_minimal_polynomial": 1.3552527156068805e-19,
+    "gradient_annihilation": 7.979727989493313e-17,
+    "metric_self_adjoint": 5.455334998358416e-16,
+    "projector_idempotence": 1.0219214696969987e-15,
+    "projector_join": 1.2760030334365347e-11
+  },
+  "maximum_conclusion": "EXACT_LOCAL_CONDITIONAL_PHI_GRADIENT_SOLDERING_THEOREM_ON_TIMELIKE_DPHI_BRANCH",
+  "node_presentations": 12240,
+  "path_presentations": 720,
+  "physical_clock_scale_derived": false,
+  "physical_future_selected": false,
+  "s_closest_to_zero": -1.0081814334879448e-05,
+  "s_most_negative": -0.010485185155779297,
+  "status": "PASS_WITH_REGISTERED_SCOPE",
+  "unique_analytic_identities": 384
+}

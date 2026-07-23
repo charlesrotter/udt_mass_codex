@@ -1,0 +1,30 @@
+{
+  "schema": "udt-temporal-soldering-atlas-1.0",
+  "authoritative_result_layers": [
+    "PATH_TEMPORAL_CLASSIFICATION.tsv.gz",
+    "CROSS_IMPLEMENTATION_COMPLEMENT_CLASSIFICATION.tsv.gz",
+    "CROSS_IMPLEMENTATION_LINE_COMPLETION.tsv",
+    "CONSOLIDATED_COMPLETION_LADDER.tsv",
+    "CONSOLIDATED_INVARIANT_RECONSTRUCTION_LEDGER.tsv",
+    "STATUS_LEDGER.tsv"
+  ],
+  "preserved_pre_correction_layers": [
+    "ORTHOGONAL_COMPLEMENT_ATLAS.tsv.gz",
+    "LINE_COMPLETION_ATLAS.tsv",
+    "COMPLETION_LADDER.tsv",
+    "VERIFICATION_RESULT.json"
+  ],
+  "exact_branch_theorems": [
+    "PHI_GRADIENT_SOLDERING_RESULT.json",
+    "PHI_GRADIENT_SPACELIKE_BRANCH_RESULT.json"
+  ],
+  "independent_verification": "INDEPENDENT_VERIFICATION_RESULT.json",
+  "corruption_catch_semantics": "each reported catch mutates a valid in-memory evidence state and passes only when the fail-closed state validator rejects it",
+  "frozen_source_ledger": "FROZEN_SOURCE_LEDGER.tsv",
+  "row_identity": {
+    "path": ["identity_id", "family_id"],
+    "node": ["identity_id", "family_id", "path_node"]
+  },
+  "counting_guard": "instrument-family path presentations are not physical universes or independent mechanisms",
+  "correction_semantics": "consolidated files supersede classifications only for current interpretation; original production files remain immutable evidence"
+}

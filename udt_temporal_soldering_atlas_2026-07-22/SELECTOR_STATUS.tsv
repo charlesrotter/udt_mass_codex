@@ -1,0 +1,7 @@
+selector	line_selection	orientation	slicing	global_glue	reason
+COMPLETE_METRIC_PLUS_REGISTERED_NATIVE_INSTRUMENTS	SELECTS_ON_1775_OF_95232_PATH_PRESENTATIONS	SILENT	CONSTRAINS_NOT_SELECTS	OPEN	a simple negative invariant block occurs only on the registered subset
+RECIPROCITY	CONSTRAINS_NOT_SELECTS	SILENT	SILENT	CONSTRAINS_NOT_SELECTS	ratio and transition parity do not identify a negative projector image
+COMMON_SCALE_NEUTRALITY	SILENT	SILENT	SILENT	SILENT	positive common scale preserves signature and projector images
+FINITE_CELL	SILENT	SILENT	SILENT	CONSTRAINS_NOT_SELECTS	finite domain does not choose boundary/cap/quotient or line transition functions
+STATIC_SEAL	CONDITIONAL_BASE_CONTROL_ONLY	NO_SELECTION	CONSTRAINS_NOT_SELECTS	CONSTRAINS_NOT_SELECTS	all four existing lifts fix an already conditional base timelike line; no lift is selected
+BOOTSTRAP	OPEN	OPEN	OPEN	OPEN	current bootstrap is on-shell admissibility without an off-shell ranking functional

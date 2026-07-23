@@ -1,0 +1,14 @@
+{
+  "complement_nodes_verified": 30175,
+  "frozen_source_files_verified": 44,
+  "global_connectors_derived": 0,
+  "independent_catches": 20,
+  "line_paths_verified": 1775,
+  "maximum_conclusion": "CORRECTED_BOUNDED_TEMPORAL_SOLDERING_ATLAS_VERIFIED__GLOBAL_PHYSICAL_THREADING_OPEN",
+  "package_catches": 20,
+  "path_nodes_accounted": 1618944,
+  "path_presentations_verified": 95232,
+  "spacelike_phi_nodes_verified": 36720,
+  "status": "PASS_WITH_REGISTERED_SCOPE",
+  "timelike_phi_nodes_verified": 12240
+}

@@ -1,0 +1,32 @@
+{
+  "catch_proofs_passed": 20,
+  "chart_coframe_numeric_anchor_comparisons": 48,
+  "consolidated_four_line_nonintegrable_paths": 1055,
+  "consolidated_line_plus_three_all_node_integrable_paths": 720,
+  "global_holonomy_rows_checked": 20,
+  "independent_route": "FROZEN_NONPRODUCTION_MOTIF_ALGEBRA_PLUS_SEPARATE_ANALYTIC_JET_RECONSTRUCTION",
+  "initial_threshold_class_conflicts": 2,
+  "maximum_chart_projector_residual": 1.9226844506944154e-14,
+  "maximum_conclusion": "BOUNDED_REGISTERED_TEMPORAL_SOLDERING_ATLAS_INDEPENDENTLY_REPRODUCED",
+  "maximum_independent_numeric_difference": 2.703188856880014e-07,
+  "numeric_value_comparison_tolerance": 1e-06,
+  "orthogonal_complement_class_census": {
+    "NUMERICALLY_INTEGRABLE_LOCAL": 12239,
+    "NUMERICALLY_NONINTEGRABLE_LOCAL": 17925,
+    "NUMERIC_UNCERTAIN_DERIVATIVE": 10,
+    "NUMERIC_UNCERTAIN_OBSTRUCTION": 1
+  },
+  "orthogonal_complement_nodes_independently_recomputed": 30175,
+  "path_class_census": {
+    "LORENTZ_TWO_PLANE_ONLY": 7845,
+    "NO_PROPER_INTRINSIC_TEMPORAL_SUBSPACE": 82140,
+    "RANK_ONE_LINE_SPACELIKE__LORENTZ_COMPLEMENT": 2160,
+    "TRANSITION_OR_NUMERICALLY_UNCERTAIN": 1312,
+    "UNIQUE_LOCAL_UNORIENTED_TIMELIKE_LINE": 1775
+  },
+  "path_nodes_reclassified_from_source": 1618944,
+  "path_presentations_reclassified": 95232,
+  "production_builder_imported": false,
+  "status": "PASS_WITH_REGISTERED_SCOPE",
+  "threshold_conflicts_refined_integrable": 2
+}

@@ -1,0 +1,18 @@
+claim_id	object	status	scope	evidence	remaining_open
+T01	complete retained temporal-class census	OBSERVED	95232 instrument-family path presentations; 1618944 sampled nodes	PATH_TEMPORAL_CLASSIFICATION.tsv.gz; TEMPORAL_CLASS_CENSUS.tsv	unregistered metrics and continuous path intervals
+T02	unique local unoriented timelike line	OBSERVED	1775 path presentations across 772 analytic identities at all 17 sampled nodes	PATH_TEMPORAL_CLASSIFICATION.tsv.gz	physical branch and interval-wide persistence
+T03	four-line timelike-line complement nonintegrability	OBSERVED	1055 paths; 17925 nonintegrable nodes plus 10 derivative-margin nodes; every path contains robust nonintegrability	CROSS_IMPLEMENTATION_COMPLEMENT_CLASSIFICATION.tsv.gz; CROSS_IMPLEMENTATION_LINE_COMPLETION.tsv	global completion and physical interpretation
+T04	line-plus-three timelike complement integrability	OBSERVED	720 paths; 12240 nodes after two-route refinement	THRESHOLD_CONFLICT_REFINEMENT.tsv; CROSS_IMPLEMENTATION_LINE_COMPLETION.tsv	continuous sign between nodes and physical branch selection
+T05	timelike phi-gradient projector join	DERIVED	local theorem on any open region with s=g_inverse(dphi,dphi)<0; verified on 720 presentations/12240 nodes	PHI_GRADIENT_SOLDERING_RESULT.json	whether physical UDT selects timelike dphi
+T06	phi-clock level-set foliation	DERIVED	conditional local timelike-dphi branch: P_phi=D/s; ker(dphi) positive and integrable	PHI_GRADIENT_SOLDERING_RESULT.json	global time function and physical future
+T07	adapted phi lapse and shift	CONDITIONAL	N_phi=1/sqrt(-s) for tau=phi; zero shift only in chosen normal-flow chart	CONSOLIDATED_INVARIANT_RECONSTRUCTION_LEDGER.tsv	physical clock scale; reparameterization; native congruence
+T08	spacelike phi-gradient depth foliation	DERIVED	local theorem on s>0; verified on 2160 presentations/36720 nodes	PHI_GRADIENT_SPACELIKE_BRANCH_RESULT.json	physical branch selection and global completion
+T09	intra-leaf time on spacelike-dphi branch	OPEN	Q_phi has N1_P2_Z0 signature with no selected timelike line	PHI_GRADIENT_SPACELIKE_BRANCH_RESULT.json	native rank-one projector/section within ker(dphi)
+T10	registered chart/coframe temporal-class invariance	DERIVED	projector similarity plus metric congruence; 1142784 path-transform presentations and 48 independent anchors	CHART_COFRAME_TEMPORAL_INVARIANCE.tsv; INDEPENDENT_VERIFICATION_RESULT.json	full diffeomorphism/coframe group exhaustiveness
+T11	global timelike line bundle	OPEN	no projector-line transition cocycle or complete metric glue	CONSOLIDATED_COMPLETION_LADDER.tsv	global transition functions and interval/cap extension
+T12	global time orientation	OPEN	conditional seal lifts fix a supplied base line but select no lift/future direction	SELECTOR_STATUS.tsv	physical sign section
+T13	complete lapse/shift	OPEN	no globally selected slicing or threading outside the conditional adapted phi chart	CONSOLIDATED_INVARIANT_RECONSTRUCTION_LEDGER.tsv	native global time function and congruence
+T14	full optical/co-present connector	OPEN	zero complete connectors derived	CONSOLIDATED_COMPLETION_LADDER.tsv	global threading; scale; curve; endpoint soldering; information law
+T15	Reciprocity/CSN/finite-cell/bootstrap selection	OPEN	constraints do not select a temporal branch or global line	SELECTOR_STATUS.tsv	smallest selector joining spatial-depth leaves to a timelike line
+T16	SNe results	UNCHANGED_NOT_RETESTED	no SNe data or fitting loaded in this audit	VERIFICATION_RESULT.json	separate macro-lane comparison only
+T17	action/carrier/source	OPEN_NOT_LOADED	zero actions and zero carriers loaded	VERIFICATION_RESULT.json	complete native dynamics and matter

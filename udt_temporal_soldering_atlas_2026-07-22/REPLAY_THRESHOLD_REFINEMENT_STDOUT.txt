@@ -1,0 +1,28 @@
+{
+  "candidate_rows": 2,
+  "cases": [
+    {
+      "consolidated_class": "REFINED_INTEGRABLE",
+      "family_id": "M04_D",
+      "identity_id": "B3_R13_3_MB",
+      "path_node": 0
+    },
+    {
+      "consolidated_class": "REFINED_INTEGRABLE",
+      "family_id": "M04_D",
+      "identity_id": "B3_V007_MF",
+      "path_node": 16
+    }
+  ],
+  "derivative_gate": 0.005,
+  "integrable_gate": 1e-07,
+  "nonintegrable_gate": 1e-05,
+  "retuning_outside_frozen_candidates": 0,
+  "routes": 2,
+  "steps": [
+    0.0001,
+    5e-05,
+    2.5e-05,
+    1.25e-05
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "actions_loaded": 0,
+  "base": "d7a2469ae3a76a099e78656c9357710bf8645843",
+  "carriers_loaded": 0,
+  "cpu_only": true,
+  "frobenius_node_census": {
+    "NUMERICALLY_INTEGRABLE_LOCAL": 12239,
+    "NUMERICALLY_NONINTEGRABLE_LOCAL": 17925,
+    "NUMERIC_UNCERTAIN_DERIVATIVE": 10,
+    "NUMERIC_UNCERTAIN_OBSTRUCTION": 1
+  },
+  "frozen_source_files": 44,
+  "full_optical_connectors_derived": 0,
+  "global_line_bundles_derived": 0,
+  "gpu_runs": 0,
+  "highest_unconditional_completion_rung": 1,
+  "lapses_derived": 0,
+  "line_path_completion_census": {
+    "ALL_17_NODES_SAMPLED_INTEGRABLE": 719,
+    "NONINTEGRABILITY_OBSERVED_AT_ONE_OR_MORE_NODES": 1055,
+    "NUMERICALLY_UNCERTAIN_AT_ONE_OR_MORE_NODES": 1
+  },
+  "local_temporal_class_census": {
+    "LORENTZ_TWO_PLANE_ONLY": 7845,
+    "NO_PROPER_INTRINSIC_TEMPORAL_SUBSPACE": 82140,
+    "RANK_ONE_LINE_SPACELIKE__LORENTZ_COMPLEMENT": 2160,
+    "TRANSITION_OR_NUMERICALLY_UNCERTAIN": 1312,
+    "UNIQUE_LOCAL_UNORIENTED_TIMELIKE_LINE": 1775
+  },
+  "maximum_conclusion": "BOUNDED_REGISTERED_TEMPORAL_SOLDERING_ATLAS_CHARACTERIZED__GLOBAL_THREADING_AND_FULL_CONNECTOR_OPEN",
+  "orthogonal_complement_node_rows": 30175,
+  "path_nodes": 1618944,
+  "path_presentations": 95232,
+  "path_transform_presentations": 1142784,
+  "registered_transformations": 12,
+  "schema": "udt-temporal-soldering-atlas-1.0",
+  "shifts_derived": 0,
+  "sne_fits": 0,
+  "time_orientations_derived": 0,
+  "unique_analytic_identities": 3072,
+  "unique_line_analytic_identities": 772,
+  "unique_line_path_presentations": 1775
+}

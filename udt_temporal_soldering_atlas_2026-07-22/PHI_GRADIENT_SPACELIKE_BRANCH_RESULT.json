@@ -1,0 +1,39 @@
+{
+  "all_families_contain_D": true,
+  "all_nodes_s_positive": true,
+  "exact_local_theorem": {
+    "frobenius": "ker(dphi) integrable because d(dphi)=0",
+    "lorentzian_leaf_projector": "Q_phi=I-P_phi projects onto ker(dphi)",
+    "remaining_time_problem": "Q_phi has signature N1_P2_Z0 and contains no selected timelike line",
+    "spatial_projector": "P_phi=D/s for s>0"
+  },
+  "family_presentation_census": {
+    "M04_D": 1152,
+    "M05_R_D": 144,
+    "M12_D_RG": 144,
+    "M13_R_D_RG": 144,
+    "M20_D_WG": 144,
+    "M21_R_D_WG": 144,
+    "M28_D_RG_WG": 144,
+    "M29_R_D_RG_WG": 144
+  },
+  "global_time_orientation_derived": false,
+  "lapse_shift_derived": false,
+  "max_residuals": {
+    "covector_annihilation": 1.1102230246251565e-16,
+    "dyad_minimal_polynomial": 2.168404344971009e-19,
+    "gradient_annihilation": 1.1102230246251565e-16,
+    "metric_self_adjoint": 6.8787307223356165e-16,
+    "projector_idempotence": 1.5014890577170111e-15,
+    "projector_join": 7.720140007218205e-11
+  },
+  "maximum_conclusion": "EXACT_LOCAL_CONDITIONAL_PHI_DEPTH_FOLIATION_ON_SPACELIKE_DPHI_BRANCH__INTRALEAF_TIME_OPEN",
+  "node_presentations": 36720,
+  "path_presentations": 2160,
+  "physical_branch_selected": false,
+  "s_closest_to_zero": 5.275361782660205e-06,
+  "s_largest": 0.04188812354899592,
+  "status": "PASS_WITH_REGISTERED_SCOPE",
+  "timelike_line_within_leaf_derived": false,
+  "unique_analytic_identities": 1152
+}

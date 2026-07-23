@@ -1,0 +1,186 @@
+{
+  "all_exit_zero": true,
+  "all_outputs_byte_identical": true,
+  "cpu_only": true,
+  "environment": {
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "numpy": "2.2.6",
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]"
+  },
+  "gpu_runs": 0,
+  "status": "PASS",
+  "steps": [
+    {
+      "byte_identical_replay": true,
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/udt_phi_ontology_XvSL3D/repo/udt_temporal_soldering_atlas_2026-07-22/build_temporal_soldering_atlas.py",
+        "--jobs",
+        "12"
+      ],
+      "exit_code": 0,
+      "output_hashes_after": {
+        "CHART_COFRAME_TEMPORAL_INVARIANCE.tsv": "903dc603e9d5ec3a1b67731282b35a119b84a39747056d6e0586ad31115eb69b",
+        "COMPLETION_LADDER.tsv": "eca922b9e49288cb51c410f83a398f815a99988403b7a588ddc0f985cb8dfc3e",
+        "FROZEN_SOURCE_LEDGER.tsv": "9df72139143c919905c07717ee7228517b7e117d538f94ceb50ab8a1462ce30d",
+        "INVARIANT_RECONSTRUCTION_LEDGER.tsv": "7a6364df668a1c73421f06eac297d8dd656af69458ff5aa0d0d6e6317417956d",
+        "LINE_COMPLETION_ATLAS.tsv": "9548038b5bd0129743eb24be72bd92a2c48802b2b8a47f5d5eaf98b5f42fcd15",
+        "ORTHOGONAL_COMPLEMENT_ATLAS.tsv.gz": "96774a1307ce4068cece2419e0f7e3ee999968e20b553fa18a7e10248077778b",
+        "PATH_TEMPORAL_CLASSIFICATION.tsv.gz": "151980e7077684bd5c728bc4a94c39af3bd96e36a6684eeb5bbdaf6f69ab0005",
+        "SELECTOR_STATUS.tsv": "5d6cb08d9cb6397daacd0c4aba7898f1bf568cf516853ea3af586a0e91424c64",
+        "TEMPORAL_CLASS_CENSUS.tsv": "441c77131c719bb9b585a72680795d9af6ab508971c510dd69cb73e0e8b5b953",
+        "VERIFICATION_RESULT.json": "8021462ad84846d6f700a50b569c7615ff59e2c647636365400e297e7cb8332b"
+      },
+      "output_hashes_before": {
+        "CHART_COFRAME_TEMPORAL_INVARIANCE.tsv": "903dc603e9d5ec3a1b67731282b35a119b84a39747056d6e0586ad31115eb69b",
+        "COMPLETION_LADDER.tsv": "eca922b9e49288cb51c410f83a398f815a99988403b7a588ddc0f985cb8dfc3e",
+        "FROZEN_SOURCE_LEDGER.tsv": "9df72139143c919905c07717ee7228517b7e117d538f94ceb50ab8a1462ce30d",
+        "INVARIANT_RECONSTRUCTION_LEDGER.tsv": "7a6364df668a1c73421f06eac297d8dd656af69458ff5aa0d0d6e6317417956d",
+        "LINE_COMPLETION_ATLAS.tsv": "9548038b5bd0129743eb24be72bd92a2c48802b2b8a47f5d5eaf98b5f42fcd15",
+        "ORTHOGONAL_COMPLEMENT_ATLAS.tsv.gz": "96774a1307ce4068cece2419e0f7e3ee999968e20b553fa18a7e10248077778b",
+        "PATH_TEMPORAL_CLASSIFICATION.tsv.gz": "151980e7077684bd5c728bc4a94c39af3bd96e36a6684eeb5bbdaf6f69ab0005",
+        "SELECTOR_STATUS.tsv": "5d6cb08d9cb6397daacd0c4aba7898f1bf568cf516853ea3af586a0e91424c64",
+        "TEMPORAL_CLASS_CENSUS.tsv": "441c77131c719bb9b585a72680795d9af6ab508971c510dd69cb73e0e8b5b953",
+        "VERIFICATION_RESULT.json": "8021462ad84846d6f700a50b569c7615ff59e2c647636365400e297e7cb8332b"
+      },
+      "stderr_path": "REPLAY_PRODUCTION_STDERR.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_path": "REPLAY_PRODUCTION_STDOUT.txt",
+      "stdout_sha256": "8021462ad84846d6f700a50b569c7615ff59e2c647636365400e297e7cb8332b",
+      "step_id": "production"
+    },
+    {
+      "byte_identical_replay": true,
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/udt_phi_ontology_XvSL3D/repo/udt_temporal_soldering_atlas_2026-07-22/refine_threshold_conflicts.py"
+      ],
+      "exit_code": 0,
+      "output_hashes_after": {
+        "THRESHOLD_CONFLICT_REFINEMENT.tsv": "0aa8f2b317f2c2e56e9477b72fa6ea44adb3edbac760c8f908858ab1a465c3b3",
+        "THRESHOLD_CONFLICT_REFINEMENT_RESULT.json": "2c2f76702c6ec0b7a312f63467ee4a33646ba25aede3f39a1b0211760ac48dbc"
+      },
+      "output_hashes_before": {
+        "THRESHOLD_CONFLICT_REFINEMENT.tsv": "0aa8f2b317f2c2e56e9477b72fa6ea44adb3edbac760c8f908858ab1a465c3b3",
+        "THRESHOLD_CONFLICT_REFINEMENT_RESULT.json": "2c2f76702c6ec0b7a312f63467ee4a33646ba25aede3f39a1b0211760ac48dbc"
+      },
+      "stderr_path": "REPLAY_THRESHOLD_REFINEMENT_STDERR.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_path": "REPLAY_THRESHOLD_REFINEMENT_STDOUT.txt",
+      "stdout_sha256": "2c2f76702c6ec0b7a312f63467ee4a33646ba25aede3f39a1b0211760ac48dbc",
+      "step_id": "threshold_refinement"
+    },
+    {
+      "byte_identical_replay": true,
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/udt_phi_ontology_XvSL3D/repo/udt_temporal_soldering_atlas_2026-07-22/consolidate_temporal_results.py"
+      ],
+      "exit_code": 0,
+      "output_hashes_after": {
+        "CONSOLIDATED_COMPLETION_LADDER.tsv": "4e39df1258ced01736079499deb720a8a38b58ba3c7135bb917e7f21be52a609",
+        "CONSOLIDATED_INVARIANT_RECONSTRUCTION_LEDGER.tsv": "fa9811e21f54cdef0bdb3f1c11bcf091331bf63d02f36d0941edb736933a87e6",
+        "CONSOLIDATED_RESULT.json": "be265a930800a7c97487d24fef40731055b2ecb80cbcd72d01d14abe05c3de99",
+        "CROSS_IMPLEMENTATION_COMPLEMENT_CLASSIFICATION.tsv.gz": "fce886ec0109e9273ac04d80f53fe7d2e80d7d52b8452504f285691f95ffaac7",
+        "CROSS_IMPLEMENTATION_LINE_COMPLETION.tsv": "ade61dfc39a8d0261cea9ae0514e15817f93e51f011f139a6942a65ca2eba8d5"
+      },
+      "output_hashes_before": {
+        "CONSOLIDATED_COMPLETION_LADDER.tsv": "4e39df1258ced01736079499deb720a8a38b58ba3c7135bb917e7f21be52a609",
+        "CONSOLIDATED_INVARIANT_RECONSTRUCTION_LEDGER.tsv": "fa9811e21f54cdef0bdb3f1c11bcf091331bf63d02f36d0941edb736933a87e6",
+        "CONSOLIDATED_RESULT.json": "be265a930800a7c97487d24fef40731055b2ecb80cbcd72d01d14abe05c3de99",
+        "CROSS_IMPLEMENTATION_COMPLEMENT_CLASSIFICATION.tsv.gz": "fce886ec0109e9273ac04d80f53fe7d2e80d7d52b8452504f285691f95ffaac7",
+        "CROSS_IMPLEMENTATION_LINE_COMPLETION.tsv": "ade61dfc39a8d0261cea9ae0514e15817f93e51f011f139a6942a65ca2eba8d5"
+      },
+      "stderr_path": "REPLAY_CONSOLIDATION_STDERR.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_path": "REPLAY_CONSOLIDATION_STDOUT.txt",
+      "stdout_sha256": "be265a930800a7c97487d24fef40731055b2ecb80cbcd72d01d14abe05c3de99",
+      "step_id": "consolidation"
+    },
+    {
+      "byte_identical_replay": true,
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/udt_phi_ontology_XvSL3D/repo/udt_temporal_soldering_atlas_2026-07-22/verify_temporal_soldering_independent.py",
+        "--jobs",
+        "12"
+      ],
+      "exit_code": 0,
+      "output_hashes_after": {
+        "INDEPENDENT_CATCH_PROOFS.tsv": "66fb24833cc6fa775ef070ee9474b96c2c59aee20c5e6538a4188c4fdb193493",
+        "INDEPENDENT_VERIFICATION_RESULT.json": "879654c9dc639c9e866ab21b7db3d44b3fd9beed9d56e34aa2d7d80d3d02b667"
+      },
+      "output_hashes_before": {
+        "INDEPENDENT_CATCH_PROOFS.tsv": "66fb24833cc6fa775ef070ee9474b96c2c59aee20c5e6538a4188c4fdb193493",
+        "INDEPENDENT_VERIFICATION_RESULT.json": "879654c9dc639c9e866ab21b7db3d44b3fd9beed9d56e34aa2d7d80d3d02b667"
+      },
+      "stderr_path": "REPLAY_INDEPENDENT_STDERR.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_path": "REPLAY_INDEPENDENT_STDOUT.txt",
+      "stdout_sha256": "879654c9dc639c9e866ab21b7db3d44b3fd9beed9d56e34aa2d7d80d3d02b667",
+      "step_id": "independent"
+    },
+    {
+      "byte_identical_replay": true,
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/udt_phi_ontology_XvSL3D/repo/udt_temporal_soldering_atlas_2026-07-22/verify_phi_gradient_soldering.py"
+      ],
+      "exit_code": 0,
+      "output_hashes_after": {
+        "PHI_GRADIENT_SOLDERING_RESULT.json": "52be8807a5242e058231239156cce3136fa0a20cd1f134f6f62cab54b4311191"
+      },
+      "output_hashes_before": {
+        "PHI_GRADIENT_SOLDERING_RESULT.json": "52be8807a5242e058231239156cce3136fa0a20cd1f134f6f62cab54b4311191"
+      },
+      "stderr_path": "REPLAY_TIMELIKE_PHI_JOIN_STDERR.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_path": "REPLAY_TIMELIKE_PHI_JOIN_STDOUT.txt",
+      "stdout_sha256": "52be8807a5242e058231239156cce3136fa0a20cd1f134f6f62cab54b4311191",
+      "step_id": "timelike_phi_join"
+    },
+    {
+      "byte_identical_replay": true,
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/udt_phi_ontology_XvSL3D/repo/udt_temporal_soldering_atlas_2026-07-22/verify_phi_gradient_spacelike_branch.py"
+      ],
+      "exit_code": 0,
+      "output_hashes_after": {
+        "PHI_GRADIENT_SPACELIKE_BRANCH_RESULT.json": "1f054ad1bb97417c5c87986315557e072a0fadeaee1a942c5173e29b6d0c0ab8"
+      },
+      "output_hashes_before": {
+        "PHI_GRADIENT_SPACELIKE_BRANCH_RESULT.json": "1f054ad1bb97417c5c87986315557e072a0fadeaee1a942c5173e29b6d0c0ab8"
+      },
+      "stderr_path": "REPLAY_SPACELIKE_PHI_JOIN_STDERR.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_path": "REPLAY_SPACELIKE_PHI_JOIN_STDOUT.txt",
+      "stdout_sha256": "1f054ad1bb97417c5c87986315557e072a0fadeaee1a942c5173e29b6d0c0ab8",
+      "step_id": "spacelike_phi_join"
+    },
+    {
+      "byte_identical_replay": true,
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/udt_phi_ontology_XvSL3D/repo/udt_temporal_soldering_atlas_2026-07-22/verify_package.py"
+      ],
+      "exit_code": 0,
+      "output_hashes_after": {
+        "PACKAGE_CATCH_PROOFS.tsv": "eb0f5ba95b1f07ee0e5a5c2bd4182da2ae38ed0c9b34f7a290698ce64412540f",
+        "PACKAGE_VERIFICATION_RESULT.json": "f3c89ce65cd2892c39a541a5e2dfa3491909a4dcb41f4d1478a3bf84c6b7b3cb"
+      },
+      "output_hashes_before": {
+        "PACKAGE_CATCH_PROOFS.tsv": "eb0f5ba95b1f07ee0e5a5c2bd4182da2ae38ed0c9b34f7a290698ce64412540f",
+        "PACKAGE_VERIFICATION_RESULT.json": "f3c89ce65cd2892c39a541a5e2dfa3491909a4dcb41f4d1478a3bf84c6b7b3cb"
+      },
+      "stderr_path": "REPLAY_PACKAGE_VERIFICATION_STDERR.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_path": "REPLAY_PACKAGE_VERIFICATION_STDOUT.txt",
+      "stdout_sha256": "f3c89ce65cd2892c39a541a5e2dfa3491909a4dcb41f4d1478a3bf84c6b7b3cb",
+      "step_id": "package_verification"
+    }
+  ]
+}
