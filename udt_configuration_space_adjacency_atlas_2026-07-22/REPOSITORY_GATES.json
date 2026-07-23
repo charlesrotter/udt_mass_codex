@@ -1,0 +1,1056 @@
+{
+  "authority_boundary": "CONFIGURATION_ADJACENCY_ATLAS_ONLY__NO_SIMPLEX_GLOBAL_SOLUTION_PHYSICAL_REGIME_ACTION_CARRIER_OR_NAVIGATION_EDIT",
+  "base": "adf8f92d95c387cc647f04b16f1f3b17e1e670d2",
+  "catch_proofs": {
+    "current_path_loss_rejected": "PASS",
+    "dirty_metadata_loss_rejected": "PASS",
+    "frontier_loss_rejected": "PASS",
+    "frozen_corruption_rejected": "PASS",
+    "package_corruption_rejected": "PASS",
+    "prior_corruption_rejected": "PASS",
+    "scope_rejects_live_edit": "PASS"
+  },
+  "compute": {
+    "cpu_independent_matrix_passes": 2,
+    "cpu_production_interval_passes": 2,
+    "gpu_runs": 0,
+    "physics_solves": 0,
+    "sne_fits": 0
+  },
+  "deterministic_replay": {
+    "all_exit_zero": true,
+    "all_outputs_byte_identical": true,
+    "exit_codes": {
+      "independent": 0,
+      "package": 0,
+      "production": 0
+    },
+    "output_sha256": {
+      "ADJACENCY_COMPONENT_GRAPH.tsv": "e2202199e6fba60446f923ff63e0474256e25b18901b1813c210dd7864c1e42b",
+      "CHART_COMPARISON.tsv": "3e3c479925272ff68820d7d51772bb95a03f3430d11efc8b2e59cfa452310e31",
+      "ENDPOINT_PAIR_REGISTRY.tsv": "bab9c0b7e5ba1966a9521cecd3aff5a576b0e83bb97bbf0e100065d661038ac7",
+      "EXACT_TOPOLOGY_LEDGER.tsv": "e74224efa91e9eb7a4f403fdf4019f1484beb5cfbe5a0d71fc6d5a835419df29",
+      "HIGH_PRECISION_ANCHORS.tsv": "607b3f9befe7fa9165cb5c132d70519abb050a2c5285296317265a033a8e585c",
+      "INDEPENDENT_FULL_MATRIX_INTERVAL_CERTIFICATES.tsv": "3f69bef604650a192a4c208dfed4c5a1827ee1de05aa81dad32c43183fed9862",
+      "INDEPENDENT_MATRIX_PROBES.tsv": "33689251bd1bea9daa8b45203057aa454b9746cdd45b8a6ea6c7cc5fc3d89c22",
+      "INDEPENDENT_VERIFICATION.json": "c7b9d0e0cafea0384e611c6825385efde2dc65a900816f4c17574d582b4fe7e4",
+      "NULL_GRAPH_CERTIFICATES.tsv.gz": "36ecf533bd71181bdb440be63c3b1e53603bf5af48cd3cc345109b1be3d7c1b3",
+      "PACKAGE_CATCH_PROOFS.tsv": "81171be816a170fc2473dc9dd978e621f749fc63c26d41723ee3ac070d070742",
+      "PACKAGE_VERIFICATION.json": "fb81e211d327a10c24e4cb55e62bd9862df06b5779a4c47e847dcde2d0184b32",
+      "RESULT.json": "a7a16199edad59c1b1e499b17ff7e5244c8e52546a6743970b5dc1489a5b3528",
+      "SAME_SIGN_BOX_CERTIFICATES.tsv.gz": "d45b882f38ec3794e64d81fd8744beab8c15536bfb0716b3c3fdc9961eced3fa",
+      "SHEET_CLASSIFICATION.tsv": "3d5a01c86ee7576a4a6c13917b5bed3315373c731bd8fa8fc9603e2d9e4041ca",
+      "SOURCE_LEDGER.tsv": "c94e12af654aa2c5c7afdb038c70fc3d85a352de2e2ad38433b4c2ee5211984b",
+      "UNRESOLVED_BOXES.tsv": "123209b52c2a7565571b52e0ba53dc9d160397e0f5fdb20881155c4c4236386d"
+    },
+    "outputs": 16,
+    "status": "PASS"
+  },
+  "dirty_checkout": {
+    "branch": "grok",
+    "contents_read": false,
+    "head": "adf8f92d95c387cc647f04b16f1f3b17e1e670d2",
+    "metadata_sha256": "4bc96070c841a14c497b642ee7b93dcf9061372f770aee065d6b495ee4996f4c",
+    "paths": 54
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "independent_verification": {
+    "binary64_transcendental_scope": "PLATFORM_SCOPED_NUMERICAL_ENCLOSURE__80D_WORST_CLASS_ANCHORS",
+    "full_matrix_closed_domain_partitions": 4608,
+    "full_matrix_dphi_nonzero_root_sheets": 2304,
+    "full_matrix_interval_boxes": 7735296,
+    "full_matrix_interval_sheets": 4608,
+    "high_precision_matrix_anchor_count": 12,
+    "high_precision_matrix_anchors": [
+      {
+        "bank_pair": "B0-B1",
+        "certified_subboxes": 1,
+        "chart": "J1_GENERATOR_COEFFICIENT_JOIN",
+        "matrix_determinant_hi": -1.3777673982039564,
+        "matrix_partial_lambda_s_hi": 7.115900187564754e-06,
+        "matrix_partial_lambda_s_lo": -1.2902282632329349e-05,
+        "matrix_s_hi": 3.873001400706145e-06,
+        "matrix_s_lo": 5.629186449253405e-08,
+        "pair_type": "SAME_SIGN_CONTROL",
+        "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+      },
+      {
+        "bank_pair": "B0-B2",
+        "certified_subboxes": 1,
+        "chart": "J1_GENERATOR_COEFFICIENT_JOIN",
+        "matrix_determinant_hi": -1.4317615073843142,
+        "matrix_partial_lambda_s_hi": 1.1111702627178073e-05,
+        "matrix_partial_lambda_s_lo": -1.3888606922662995e-05,
+        "matrix_s_hi": 6.946914803091159e-06,
+        "matrix_s_lo": 1.698758885397142e-06,
+        "pair_type": "SAME_SIGN_CONTROL",
+        "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+      },
+      {
+        "bank_pair": "B0-B3",
+        "certified_subboxes": 1,
+        "chart": "J1_GENERATOR_COEFFICIENT_JOIN",
+        "matrix_determinant_hi": -1.4627819591523683,
+        "matrix_partial_lambda_s_hi": -3.2017150339124574e-05,
+        "matrix_partial_lambda_s_lo": -6.525487847851806e-05,
+        "matrix_s_hi": 9.905573714863939e-06,
+        "matrix_s_lo": 4.848427331352286e-06,
+        "pair_type": "CROSS_SECTOR",
+        "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+      },
+      {
+        "bank_pair": "B1-B2",
+        "certified_subboxes": 1,
+        "chart": "J1_GENERATOR_COEFFICIENT_JOIN",
+        "matrix_determinant_hi": -1.4570913519263378,
+        "matrix_partial_lambda_s_hi": 1.573210039267091e-05,
+        "matrix_partial_lambda_s_lo": -1.0571891789958004e-05,
+        "matrix_s_hi": 4.237380443944205e-06,
+        "matrix_s_lo": 1.2960497362841666e-06,
+        "pair_type": "SAME_SIGN_CONTROL",
+        "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+      },
+      {
+        "bank_pair": "B1-B3",
+        "certified_subboxes": 1,
+        "chart": "J1_GENERATOR_COEFFICIENT_JOIN",
+        "matrix_determinant_hi": -1.5153981774394998,
+        "matrix_partial_lambda_s_hi": -1.610210611743384e-05,
+        "matrix_partial_lambda_s_lo": -3.141901771221054e-05,
+        "matrix_s_hi": -2.550771446855209e-06,
+        "matrix_s_lo": -4.557570631260874e-06,
+        "pair_type": "CROSS_SECTOR",
+        "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+      },
+      {
+        "bank_pair": "B2-B3",
+        "certified_subboxes": 1,
+        "chart": "J1_GENERATOR_COEFFICIENT_JOIN",
+        "matrix_determinant_hi": -1.3727811210311578,
+        "matrix_partial_lambda_s_hi": -1.7194517595227297e-05,
+        "matrix_partial_lambda_s_lo": -4.773060537593154e-05,
+        "matrix_s_hi": -1.4952613342376476e-06,
+        "matrix_s_lo": -6.846751828254355e-06,
+        "pair_type": "CROSS_SECTOR",
+        "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+      },
+      {
+        "bank_pair": "B0-B1",
+        "certified_subboxes": 1,
+        "chart": "J2_EVALUATED_COFIELD_JOIN",
+        "matrix_determinant_hi": -1.3982250399649927,
+        "matrix_partial_lambda_s_hi": 8.148085749920188e-06,
+        "matrix_partial_lambda_s_lo": -9.953278374870213e-06,
+        "matrix_s_hi": 4.444302373008074e-06,
+        "matrix_s_lo": 5.306007071229719e-07,
+        "pair_type": "SAME_SIGN_CONTROL",
+        "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+      },
+      {
+        "bank_pair": "B0-B2",
+        "certified_subboxes": 1,
+        "chart": "J2_EVALUATED_COFIELD_JOIN",
+        "matrix_determinant_hi": -1.3846112452534596,
+        "matrix_partial_lambda_s_hi": 6.801284304215714e-06,
+        "matrix_partial_lambda_s_lo": -1.0964185877740119e-05,
+        "matrix_s_hi": 5.255427494381074e-06,
+        "matrix_s_lo": 1.717882668257655e-06,
+        "pair_type": "SAME_SIGN_CONTROL",
+        "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+      },
+      {
+        "bank_pair": "B0-B3",
+        "certified_subboxes": 1,
+        "chart": "J2_EVALUATED_COFIELD_JOIN",
+        "matrix_determinant_hi": -1.4134006147525513,
+        "matrix_partial_lambda_s_hi": -3.305207299479968e-05,
+        "matrix_partial_lambda_s_lo": -5.252668154898491e-05,
+        "matrix_s_hi": 8.210771414233247e-06,
+        "matrix_s_lo": 3.929134388687976e-06,
+        "pair_type": "CROSS_SECTOR",
+        "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+      },
+      {
+        "bank_pair": "B1-B2",
+        "certified_subboxes": 2,
+        "chart": "J2_EVALUATED_COFIELD_JOIN",
+        "matrix_determinant_hi": -1.4524339471403778,
+        "matrix_partial_lambda_s_hi": 1.1799912019151833e-05,
+        "matrix_partial_lambda_s_lo": -6.529442099039327e-07,
+        "matrix_s_hi": 1.8263115124404618e-06,
+        "matrix_s_lo": 1.7544165256426153e-07,
+        "pair_type": "SAME_SIGN_CONTROL",
+        "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+      },
+      {
+        "bank_pair": "B1-B3",
+        "certified_subboxes": 1,
+        "chart": "J2_EVALUATED_COFIELD_JOIN",
+        "matrix_determinant_hi": -1.3771757967976181,
+        "matrix_partial_lambda_s_hi": -2.4024854786427315e-05,
+        "matrix_partial_lambda_s_lo": -4.4883870372494e-05,
+        "matrix_s_hi": -3.353271786662708e-06,
+        "matrix_s_lo": -6.343513743210659e-06,
+        "pair_type": "CROSS_SECTOR",
+        "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+      },
+      {
+        "bank_pair": "B2-B3",
+        "certified_subboxes": 1,
+        "chart": "J2_EVALUATED_COFIELD_JOIN",
+        "matrix_determinant_hi": -1.3515603295553331,
+        "matrix_partial_lambda_s_hi": -1.5904618707204084e-05,
+        "matrix_partial_lambda_s_lo": -4.395526228931592e-05,
+        "matrix_s_hi": -9.893273777671038e-07,
+        "matrix_s_lo": -7.162895846885216e-06,
+        "pair_type": "CROSS_SECTOR",
+        "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
+      }
+    ],
+    "individual_angular_shift_effect_probes": {
+      "a20": 2.653316514661709e-07,
+      "a21": 2.8323971087916297e-07,
+      "a30": 9.726268985452281e-08,
+      "a31": 1.3690579815560798e-07,
+      "d": 2.3192784026995884e-06,
+      "e": 1.1381897471406462e-06,
+      "f": 5.555504221331758e-07
+    },
+    "maximum_conclusion": "INDEPENDENT_SUPPORT_FOR_BOUNDED_REGISTERED_ADJACENCY_CENSUS",
+    "maximum_full_matrix_negative_s_upper": -2.0570920753792295e-07,
+    "maximum_full_matrix_partial_lambda_s_upper": -1.620465338980708e-05,
+    "method": "INDEPENDENT_COMPLETE_FULL_4X4_MATRIX_ADJUGATE_INTERVAL_COVER_PLUS_80D_ANCHORS",
+    "minimum_full_matrix_positive_s_lower": 1.3720483481001054e-08,
+    "mutation_catches": [
+      {
+        "catch_id": "I01_MISSING_SHEET",
+        "reason": "missing sheet rejected",
+        "result": "MUTATION_REJECTED"
+      },
+      {
+        "catch_id": "I02_DUPLICATE_SHEET",
+        "reason": "duplicate sheet rejected",
+        "result": "MUTATION_REJECTED"
+      },
+      {
+        "catch_id": "I03_FLIPPED_CLASS",
+        "reason": "class mutation rejected",
+        "result": "MUTATION_REJECTED"
+      },
+      {
+        "catch_id": "I04_LOST_FULL_MATRIX_SHEET",
+        "reason": "full-matrix sheet loss rejected",
+        "result": "MUTATION_REJECTED"
+      },
+      {
+        "catch_id": "I05_INTERIOR_SAME_SIGN_POCKET",
+        "reason": "interior same-sign pocket rejected",
+        "result": "MUTATION_REJECTED"
+      },
+      {
+        "catch_id": "I06_THREE_CROSS_SECTOR_ROOTS",
+        "reason": "multiple root rejected",
+        "result": "MUTATION_REJECTED"
+      },
+      {
+        "catch_id": "I07_NULL_TANGENCY",
+        "reason": "null tangency rejected",
+        "result": "MUTATION_REJECTED"
+      },
+      {
+        "catch_id": "I08_ZERO_DPHI",
+        "reason": "zero-gradient interface rejected",
+        "result": "MUTATION_REJECTED"
+      },
+      {
+        "catch_id": "I09_SINGULAR_COFRAME",
+        "reason": "singular or non-Lorentzian coframe rejected",
+        "result": "MUTATION_REJECTED"
+      },
+      {
+        "catch_id": "I10_PARTITION_GAP",
+        "reason": "partition gap rejected",
+        "result": "MUTATION_REJECTED"
+      },
+      {
+        "catch_id": "I11_PARTITION_OUT_OF_DOMAIN",
+        "reason": "partition domain rejected",
+        "result": "MUTATION_REJECTED"
+      },
+      {
+        "catch_id": "I12_DIVISION_BY_S",
+        "reason": "division by s at null interface rejected",
+        "result": "MUTATION_REJECTED"
+      },
+      {
+        "catch_id": "I13_OMIT_INDIVIDUAL_ANGULAR_SHIFT",
+        "reason": "individual angular/shift omission rejected",
+        "result": "MUTATION_REJECTED"
+      }
+    ],
+    "production_builder_imported": false,
+    "sheet_census": {
+      "FORCED_SINGLE_REGULAR_NULL_GRAPH": 2304,
+      "UNIFORMLY_SPACELIKE_SHEET": 2304
+    },
+    "sheet_count": 4608,
+    "sheet_unique": 4608,
+    "status": "PASS_WITH_REGISTERED_SCOPE"
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 40,
+    "result": "PASS",
+    "sha256": "88a7b5336f5c133ce329af18e9d328b6d0618f0c909a9976d016955074bcaad6"
+  },
+  "prior_scientific_packages": {
+    "entries": 2378,
+    "packages": [
+      {
+        "entries": 18,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50",
+        "package": "angular_toric_closure_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "1a48e574835ee3838514294a7badd2415a74cdb0d10cf0545c30d3698ab022d2",
+        "package": "bootstrap_csn_phi_angular_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 16,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "14e13dd27aa7036a6fef7db9208681459b86c06186bfffc7990ee877947d8356",
+        "package": "copresence_causal_accessibility_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "022f3c97916e38f29260812c14ad0136574d1908c70aabc7d4e56ae99d78f7bc",
+        "package": "copresence_gr_constraint_regrade_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "0e630938c516a0e70cfdb97924ebd6501bd4a97223909b038a22c341a653f1f7",
+        "package": "metric_cartan_holonomy_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 14,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "6f03f82d485d4a20c2d2bfc13dc8979c1b229bf92c53f0eb36831abf3d75febc",
+        "package": "native_hopfion_topology_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 16,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "e195d14349407c23e4a050628ec84298d3d35e23e2c25b5cf285a5c81f8e989b",
+        "package": "null_section_hopfion_metric_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "377eaa791ab93845f50c19d6eb30dadb0b10322ac0cbe405db55ca0a37ad3dfb",
+        "package": "projective_position_direction_magnitude_correction_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "bde786c168a2bf552a9720afa66a3615e66c0d63ffcfb78af680c88813198a84",
+        "package": "projective_position_join_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "32e523d44142cd36904a66f385890c5c417d9b827d0ac3cf956bdb48a838004b",
+        "package": "projective_transport_section_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "ac38f2b58cf41e0965950ddceb615e8b1edda6f419cecf282c0a98a55f58ce85",
+        "package": "reciprocal_c_clock_channel_correction_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 14,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "d4ce35881bfd79952083da84bd5bd7f80b6d21b0e69d698059e1695c6f90ba6d",
+        "package": "reciprocal_clock_optical_scale_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "01ed5557bb94a1df99209d37b1eb5e4eefae4486978be34ab09dafb73aeac17b",
+        "package": "reciprocal_metric_null_line_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "5121270039c91c654bcd9bb5667cb06c31a5b91dec3747ddf015df0129081812",
+        "package": "rung2_weld_postjuly_regrade_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "9c074cc83b0815607c1a4a36f8dffeac09bf79c9d0f5aee74a356b21e87bf470",
+        "package": "transverse_reciprocal_realization_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "c36c5b9e58c4305c91dd52ccbcae42cbd77548f0d4d10d36eda85529e6eb754f",
+        "package": "xmax_accelerating_finite_cell_cartan_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "dfd3c1b7497ee0b24e82e4277afe700ae17629f1912dfa39bcfa15db501f34db",
+        "package": "xmax_dynamic_observer_frame_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "9b986d647b56283ba20dd25d4ae118bc42e775912656da70ef6237f1fbc83b5d",
+        "package": "xmax_full_frame_realization_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "9b1dbd9a38176f9cc4996771485b3d459d83b425e64cd3ac63454350914c2fb3",
+        "package": "xmax_reciprocity_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 22,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "6123253b9370bce674c626a863dc595c773da3905cb155a7fe2b77c4667fd3a7",
+        "package": "udt_premise_reset_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 37,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "3841492810a553cc07ae3107cc10c3c5584547db5dcb87757e377ebcdb335afb",
+        "package": "asymptotic_boundary_lineage_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 31,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "39d335fbbc0367f206d77173f72d4b4485145dd0cb42aacc8c4491656e6d287c",
+        "package": "native_boundary_generator_scale_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "62dd9fa82d19af1a065ffd45529b8cb0d7c4a814db66ea75759f1d19f159ea04",
+        "package": "clock_curvature_selector_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 25,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "6cd896586dda87b8e9794818c34ccb392a2f5a004e7d88ba8e288db57e50c6c3",
+        "package": "boundary_bootstrap_representative_selector_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 28,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "53996dfcc0fb9cef29422ff94908fe71aaed32703d49e70e2d6d7f01aa19fe84",
+        "package": "scale_breaking_closure_census_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 31,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "716c2ad9c071a49f75b4c340d6d980d75cfc0a48b0923c39e0cf3d100759ae77",
+        "package": "matter_bootstrap_dimensional_inventory_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 32,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "bff22ac4ff488c4a426f87afdfbce3d06d8a23659552f19284da1eda3b98c8ff",
+        "package": "angular_derivative_weight_selector_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 32,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "98581e8f4da61692262b063650a281ffa0fb83739d16c3edd7afdbeaeaa83295",
+        "package": "c2_angular_reduction_selector_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 32,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "28009a732ef6b07e74fd20764e5481d7e866a43812fa40f47162e53d60e557ae",
+        "package": "c2_variable_lapse_selector_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 32,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "7decd015d987d50c1d120d32eb9111b5a6ca07b538c9c3db83bb7420bcd23fee",
+        "package": "c2_time_fiber_shift_jacobi_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 34,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "848db01c3524a45f15854228549d45dac4ac7b10cd07aa06924dffd406b3c9d4",
+        "package": "c2_rigidity_three_route_zoomout_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 34,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "2be362cd50cc5102960cb6a1e8745196cad956799b851c3e71a212b01d70d83e",
+        "package": "c2_finite_cell_boundary_variation_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 35,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "704b084548a212eabcfb1ac051e89234a7fd91bbeaf7f70abcc28bf63edc7a3b",
+        "package": "finite_cell_seal_boundary_phase_join_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 35,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "87d43cb281d236111a8baec4fe7da5686a8043931e6ba0a2715228f7d61f483e",
+        "package": "complete_coframe_seal_involution_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 39,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "feb8d68bc8d52bbe7743146b4f081fbe33b2b02f3d971fa6b7626cd2859c6a10",
+        "package": "c2_nonlinear_stationary_solution_space_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 43,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "113fa557c2a8e0b3267974276809ebebfd41b18a5ec4c5fe7afa93b875367a95",
+        "package": "c2_failed_basin_homotopy_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 37,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "e130b3e01583ac317643f7e3050979a8084cbf06f2700e190690f96957008c4d",
+        "package": "c2_open_path_checkpoint_continuation_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 22,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "73a53266bd49b16593e0e55c05f65940b69687c9ca2a211c060bf5b9eafa9b0b",
+        "package": "c2_reciprocal_transverse_twist_jacobi_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "3fa442d93c4f69322f90504dd92dbbba5e8028195076e57e44c1bcf3b1347aa8",
+        "package": "c2_coupled_reciprocal_twist_onshell_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 26,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "8b3a011bbb6c7821405ba1113d51238b72ddd8dc2d773f1e92a88f469ffb9e65",
+        "package": "c2_intrinsic_angular_product_selector_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 29,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "21a72d4e2f1afdb582042b0378bb6e3006277b832fd1daec0ddcf11df2b75d2a",
+        "package": "c2_transverse_coframe_closure_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "e11985e9afd9cefbb818e75aa1afe90acec48d60b2170e26c2fe712287742d48",
+        "package": "udt_global_reciprocal_closure_audit_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 17,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "1297e8f6773f863f426d66f6c4915741a742c1ee13230abf2b066421de49b04b",
+        "package": "udt_global_coframe_cocycle_audit_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "6b190e97202755ce79e0b394a7fbd6a1e06d1199cecea4c193400ef9c9ec3798",
+        "package": "udt_mixed_readout_anchor_soldering_audit_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "48ecfbdd78ec44308a7d93309e68cc13b4293fd2d051a6dff11c832e0bc60450",
+        "package": "udt_clock_ruler_soldering_selector_audit_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "15972da297739e299c6d1173e8b2989b98eb8416c067fdba9eb8d74c0697455e",
+        "package": "udt_complete_lift_mu_closure_audit_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "a937bcf290cb7964d54f8e358a56489a6c4015a0264fcb949103a2a6af31c72c",
+        "package": "udt_time_extendability_constraint_audit_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "6842b5f03d94ede4c880d565738a77905f53a6f221f5910be15d2dfa4f4d19a4",
+        "package": "udt_gr_subtraction_reciprocal_connection_audit_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "d800a5c1f6ec6deaa695d00728809de4fe81129651a8d9194a814637950ccdef",
+        "package": "udt_metric_native_two_pair_selector_audit_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "3a6cc83e40fe95951b19f37b68b1167a3683cf4f02c0fbf1f52f54d95db99b66",
+        "package": "udt_complete_seal_fixed_set_selector_audit_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "7d14a1cfda1135e3f34af48796d0ea3ea46930f2c94a1fb6ef80d2006c042ee6",
+        "package": "udt_reciprocal_plane_projector_audit_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 25,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "1778e4dcfcf9ac0bd3574fb3ff5248f2990265fa40d0822ff964ac67c434ae38",
+        "package": "udt_complete_metric_solution_space_map_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 24,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "b7d8917cb27627c7ad7767fcffbd5b5d7a9dc6da2171b2d8fba329d04014ffad",
+        "package": "udt_canonical_geometry_evaluator_p01_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 33,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "c56390eb26b80c54a3c3a09f4800086c8dbc00b5bfd40b2038e264e85bec8938",
+        "package": "udt_local_jet_atlas_p02_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 30,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "b0ec5cbb2be404084e1b1ed4eca98d53c9712a62cf1af0a48eb340b64467c3be",
+        "package": "udt_founded_constraint_atlas_p03_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 28,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "62f9b3f33409b62fb841734e8a91e61d9b859247bf808c4a6cf3740b6a54b6c9",
+        "package": "udt_global_kinematic_assembly_p03g_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "d01d65fc5abcc35078c961d0d3fc0eec7ad26e205735a77f7d83e2b45121de3f",
+        "package": "udt_dynamics_branch_ruling_p04_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 32,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "5c26d4eb97c4dc370e286469c63d662f182a71a94a6e6899131fd6706c4e7f2e",
+        "package": "udt_full_equation_variation_p05_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 25,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "45c239639d999c26f2e574592fafc392fbb7c1e6f20ea92e1d260b4784e00e51",
+        "package": "udt_pre_p06_boundary_selector_audit_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 27,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "3089e66d65f85753d45e9e78596dba9ae2b962a015857c969ff6a0492d442f12",
+        "package": "udt_time_live_characteristic_flux_audit_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 28,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "5198a69a1b8a3026af529bccd4d47639d718a21fc1153947b3ebfab8720502d8",
+        "package": "udt_free_global_seal_transversality_audit_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 35,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "56c5f36455ae1f89811f3b86db9455a39482510415e6a7f770d2e5ffaa4ed0c7",
+        "package": "udt_finite_cell_completion_atlas_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 33,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "c851721f3e8e15768f8f4945151c0d78bde6f1186bbadcfce5066b939a645370",
+        "package": "udt_constructive_metric_family_atlas_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 32,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "8b7ad5fab519c6ed0d0e83a590869356d3bcffc097681997a591d7d793500aa4",
+        "package": "udt_independent_amplitude_metric_atlas_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 31,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "5182486f4a87080096532d9fe5ba999837ac79fac979c5694f216209ae41c112",
+        "package": "udt_amplitude_volume_metric_atlas_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 42,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "3d569ed31506f5f7ce44beac30e8419571f734b3973dcc34d6c474bf78636757",
+        "package": "udt_structural_ensemble_metric_atlas_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 66,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "082c41bea96e99611d3fc89a135692058e346665b4b1520d7f6d790788a0cf09",
+        "package": "udt_chart_coframe_invariance_atlas_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 64,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "973dcc8bb297fad8358087318b24e5db9d1179e8b6a51a2535a0110e30c108c2",
+        "package": "udt_joint_invariant_subspace_atlas_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 69,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "97dac2c32317deb603a054cffd3d2162f537d8bc7806d2276fa7e8544dd22ed5",
+        "package": "udt_instrument_motif_atlas_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 77,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "b9dca9e1baca68b82118e1a008829196d9bb834dae69cfa5d82f0ae771902164",
+        "package": "udt_motif_hopf_correspondence_audit_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 53,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "d4c7e7e16e38496343bbfbc8ef0867de45657ea2e25a724b44b653ff1b276374",
+        "package": "udt_global_metric_assembly_atlas_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 35,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "a5043db372a42c45afa0a922bc67c03431598a85c997cafd7b5c2e40a0d7d4c5",
+        "package": "udt_metric_to_frontier_reference_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "66f1915965a5bd0ee8ff09b54b0ad1275578bfad447b7cb78b0a16e87b3e96f3",
+        "package": "udt_century_adjacent_mathematics_survey_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 28,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "948f96ddffae51ed4811cc96dd6dd9abdc81bdabc1b2f9e27bec70b14afbee71",
+        "package": "udt_local_selector_holonomy_closure_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 26,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "f044fec06cbac85c48b5c096cd397f160775368bdb48d40abb185c9c49befcf0",
+        "package": "udt_phi_metric_ontology_audit_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "59cfa92aef9990478fa266632c339e3ff1da355a80358410fda04cb7027e3958",
+        "package": "udt_reciprocal_subbundle_ownership_audit_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 23,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "422c12b6d98e4c0559602b1979e3835d133159b1919a05812ffd1dc3fe855d7b",
+        "package": "udt_reciprocal_c_metric_meaning_audit_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 23,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "0130af1abbff23f86c93755368cb79e6f6b1cfad09a959cf34e0b17e610ab39d",
+        "package": "udt_reciprocity_regime_angular_center_audit_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 23,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "0f2ff7c5621021d3ebd43b230fd525efcf721f297e9c56646d8347857a14cca8",
+        "package": "udt_timelive_spherical_areal_polarization_audit_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 24,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "f7bbb99fb6e9c114638ec5e0f9a89b875cd03995570ddf3160ee911541112f24",
+        "package": "udt_clock_anchor_scale_threading_audit_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 28,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "e631f0b4c9b21c86f893b8ae15bf32931194918efc559196722ac1f129b844c4",
+        "package": "udt_two_frame_regime_metric_limit_audit_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 32,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "a6527bdb8a808fb85f95371e505e1c9412b3c28a1a2f5d70c11b00a46dc5645e",
+        "package": "udt_complete_connector_assembly_audit_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 64,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "11d67cb7c09188a69e38dcc4e6b0370faa15c0ec7d72bf616e70c8c2bf21def8",
+        "package": "udt_temporal_soldering_atlas_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 37,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "32b45c385cf31119cb83e4a20269389257833e1c0f09768b57862b09049a9c5c",
+        "package": "udt_phi_causal_interface_atlas_2026-07-22",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS"
+  },
+  "result": "PASS",
+  "schema": "udt-configuration-space-adjacency-repository-gates-1.0",
+  "scientific_verification": {
+    "independent_catches_passed": 13,
+    "independent_method": "INDEPENDENT_COMPLETE_FULL_4X4_MATRIX_ADJUGATE_INTERVAL_COVER_PLUS_80D_ANCHORS",
+    "maximum_conclusion": "BOUNDED_REGISTERED_CONFIGURATION-SPACE_BANK-EDGE_ADJACENCY_CHARACTERIZED",
+    "package_catches_passed": 20,
+    "state": {
+      "actions_loaded": 0,
+      "chart_comparisons": 1152,
+      "chart_counts": {
+        "J1_GENERATOR_COEFFICIENT_JOIN": 2304,
+        "J2_EVALUATED_COFIELD_JOIN": 2304
+      },
+      "chart_separator_agreement": 1152,
+      "endpoint_pair_types": {
+        "CROSS_SECTOR": 1152,
+        "SAME_SIGN_CONTROL": 1152
+      },
+      "endpoint_pair_unique": 2304,
+      "endpoint_pairs": 2304,
+      "exact_certificate_partition": true,
+      "exact_endpoint_identity_set": true,
+      "exact_sheet_identity_set": true,
+      "gpu_runs": 0,
+      "high_precision_anchors": 12,
+      "independent_builder_imported": false,
+      "independent_catches": 13,
+      "independent_closed_partitions": 4608,
+      "independent_full_boxes": 7735296,
+      "independent_full_sheets": 4608,
+      "independent_matrix_anchors": 12,
+      "independent_nonzero_root_sheets": 2304,
+      "independent_relational_match": true,
+      "matched_groups": 384,
+      "matter_carriers_loaded": 0,
+      "null_graph_bounds_in_domain": 2304,
+      "null_graph_certificates": 2304,
+      "null_graph_complete": 2304,
+      "physical_labels": 0,
+      "premise_rows": 20,
+      "report_guards": true,
+      "same_sign_certificates": 2304,
+      "same_sign_strict": 2304,
+      "sheet_classes": {
+        "FORCED_SINGLE_REGULAR_NULL_GRAPH": 2304,
+        "UNIFORMLY_SPACELIKE_SHEET": 2304
+      },
+      "sheet_unique": 4608,
+      "sheets": 4608,
+      "simplex_interiors": 0,
+      "source_integrity": true,
+      "status_rows": 15,
+      "unresolved_rows": 0
+    },
+    "status": "PASS_WITH_REGISTERED_SCOPE"
+  },
+  "scope_paths": [
+    "udt_configuration_space_adjacency_atlas_2026-07-22/ADJACENCY_COMPONENT_GRAPH.tsv",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/ADVERSARIAL_CORRECTION_RECORD.md",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/AUDIT_REPORT.md",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/CHART_COMPARISON.tsv",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/COMMANDS.md",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/DOMAIN_BOUNDARY_IMPLEMENTATION_CORRECTION.md",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/ENDPOINT_PAIR_REGISTRY.tsv",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/ENVIRONMENT.json",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/EXACT_TOPOLOGY_LEDGER.tsv",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/FRESH_ADVERSARIAL_REVIEW.md",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/HIGH_PRECISION_ANCHORS.tsv",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/INDEPENDENT_FULL_MATRIX_INTERVAL_CERTIFICATES.tsv",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/INDEPENDENT_MATRIX_PROBES.tsv",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/INDEPENDENT_VERIFICATION.json",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/MANIFEST.sha256",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/NULL_GRAPH_CERTIFICATES.tsv.gz",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/NUMERIC_METHOD_SCOPE_CORRECTION.md",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/PACKAGE_CATCH_PROOFS.tsv",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/PACKAGE_VERIFICATION.json",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/PREMISE_STATUS_LEDGER.tsv",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/PREREGISTRATION.md",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/REPLAY_INDEPENDENT_STDERR.txt",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/REPLAY_INDEPENDENT_STDOUT.txt",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/REPLAY_PACKAGE_STDERR.txt",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/REPLAY_PACKAGE_STDOUT.txt",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/REPLAY_PRODUCTION_STDERR.txt",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/REPLAY_PRODUCTION_STDOUT.txt",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/REPLAY_RESULT.json",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/RESULT.json",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/SAME_SIGN_BOX_CERTIFICATES.tsv.gz",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/SHEET_CLASSIFICATION.tsv",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/SOURCE_LEDGER.tsv",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/STATUS_LEDGER.tsv",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/UNRESOLVED_BOXES.tsv",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/build_configuration_adjacency_atlas.py",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/build_manifest.py",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/replay_and_capture.py",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/requirements.txt",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/verify_adjacency_independent.py",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/verify_package.py",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/verify_repository_gates.py"
+  ],
+  "tests": {
+    "baseline_match": true,
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest tests/",
+    "failed": 1,
+    "failure": "tests/test_hygiene_header.py::test_covered_results_have_hygiene_header",
+    "passed": 69,
+    "stdout_sha256": "aeeb5d0cb52dd7fc252e98a1b9900a1663e67c9fee2bc0a6dd0cf1674a3cf026",
+    "xfailed": 1
+  }
+}

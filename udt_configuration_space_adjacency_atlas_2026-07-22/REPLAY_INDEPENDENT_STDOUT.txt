@@ -1,5 +1,9 @@
 {
-  "angular_shift_effect_probe": 7.105081822443983e-07,
+  "binary64_transcendental_scope": "PLATFORM_SCOPED_NUMERICAL_ENCLOSURE__80D_WORST_CLASS_ANCHORS",
+  "full_matrix_closed_domain_partitions": 4608,
+  "full_matrix_dphi_nonzero_root_sheets": 2304,
+  "full_matrix_interval_boxes": 7735296,
+  "full_matrix_interval_sheets": 4608,
   "high_precision_matrix_anchor_count": 12,
   "high_precision_matrix_anchors": [
     {
@@ -147,11 +151,20 @@
       "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS"
     }
   ],
+  "individual_angular_shift_effect_probes": {
+    "a20": 2.653316514661709e-07,
+    "a21": 2.8323971087916297e-07,
+    "a30": 9.726268985452281e-08,
+    "a31": 1.3690579815560798e-07,
+    "d": 2.3192784026995884e-06,
+    "e": 1.1381897471406462e-06,
+    "f": 5.555504221331758e-07
+  },
   "maximum_conclusion": "INDEPENDENT_SUPPORT_FOR_BOUNDED_REGISTERED_ADJACENCY_CENSUS",
-  "maximum_sampled_crossing_derivative": -3.3542998412673044e-05,
-  "method": "INDEPENDENT_FULL_4X4_MATRIX_INVERSION_PLUS_80D_ADJUGATE_INTERVAL_ANCHORS",
-  "minimum_sampled_negative_determinant_gap": 0.8790512861005826,
-  "minimum_sampled_same_sign_s": 7.785976792806188e-07,
+  "maximum_full_matrix_negative_s_upper": -2.0570920753792295e-07,
+  "maximum_full_matrix_partial_lambda_s_upper": -1.620465338980708e-05,
+  "method": "INDEPENDENT_COMPLETE_FULL_4X4_MATRIX_ADJUGATE_INTERVAL_COVER_PLUS_80D_ANCHORS",
+  "minimum_full_matrix_positive_s_lower": 1.3720483481001054e-08,
   "mutation_catches": [
     {
       "catch_id": "I01_MISSING_SHEET",
@@ -169,19 +182,57 @@
       "result": "MUTATION_REJECTED"
     },
     {
-      "catch_id": "I04_LOST_MATRIX_ANCHOR",
-      "reason": "matrix-anchor loss rejected",
+      "catch_id": "I04_LOST_FULL_MATRIX_SHEET",
+      "reason": "full-matrix sheet loss rejected",
       "result": "MUTATION_REJECTED"
     },
     {
-      "catch_id": "I05_OMITTED_ANGULAR_SHIFT",
-      "reason": "angular/shift omission rejected",
+      "catch_id": "I05_INTERIOR_SAME_SIGN_POCKET",
+      "reason": "interior same-sign pocket rejected",
+      "result": "MUTATION_REJECTED"
+    },
+    {
+      "catch_id": "I06_THREE_CROSS_SECTOR_ROOTS",
+      "reason": "multiple root rejected",
+      "result": "MUTATION_REJECTED"
+    },
+    {
+      "catch_id": "I07_NULL_TANGENCY",
+      "reason": "null tangency rejected",
+      "result": "MUTATION_REJECTED"
+    },
+    {
+      "catch_id": "I08_ZERO_DPHI",
+      "reason": "zero-gradient interface rejected",
+      "result": "MUTATION_REJECTED"
+    },
+    {
+      "catch_id": "I09_SINGULAR_COFRAME",
+      "reason": "singular or non-Lorentzian coframe rejected",
+      "result": "MUTATION_REJECTED"
+    },
+    {
+      "catch_id": "I10_PARTITION_GAP",
+      "reason": "partition gap rejected",
+      "result": "MUTATION_REJECTED"
+    },
+    {
+      "catch_id": "I11_PARTITION_OUT_OF_DOMAIN",
+      "reason": "partition domain rejected",
+      "result": "MUTATION_REJECTED"
+    },
+    {
+      "catch_id": "I12_DIVISION_BY_S",
+      "reason": "division by s at null interface rejected",
+      "result": "MUTATION_REJECTED"
+    },
+    {
+      "catch_id": "I13_OMIT_INDIVIDUAL_ANGULAR_SHIFT",
+      "reason": "individual angular/shift omission rejected",
       "result": "MUTATION_REJECTED"
     }
   ],
   "production_builder_imported": false,
-  "sampled_cross_sector_matrix_roots": 11520,
-  "sampled_same_sign_matrix_values": 195840,
   "sheet_census": {
     "FORCED_SINGLE_REGULAR_NULL_GRAPH": 2304,
     "UNIFORMLY_SPACELIKE_SHEET": 2304
