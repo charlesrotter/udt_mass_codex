@@ -1,0 +1,39 @@
+{
+  "all_checks_passed": 27,
+  "assertion_checks": 17,
+  "boundary_edge_replay": {
+    "boundary_failures": 0,
+    "cross_sector_boundary_fibers_checked": 59904,
+    "prior_adjacency_status": "REPRODUCED",
+    "prior_class_counts": {
+      "FORCED_SINGLE_REGULAR_NULL_GRAPH": 2304,
+      "UNIFORMLY_SPACELIKE_SHEET": 2304
+    },
+    "prior_sheet_rows": 4608,
+    "same_sign_boundary_nodes_checked": 792576
+  },
+  "environment": {
+    "mpmath_iv_dps": 80,
+    "numpy": "2.2.6",
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12"
+  },
+  "high_precision_anchor_status_counts": {
+    "HIGH_PRECISION_INTERVAL_SIGN_AND_DETERMINANT_AGREE": 34
+  },
+  "high_precision_full_matrix_anchors": 34,
+  "independent_method": "COMPLETE_H_Q_SHIFT_BLOCK_RECONSTRUCTION_WITH_SCHUR_INVERSE_PLUS_MPMATH80_FULL_4X4_ADJUGATE_ANCHORS",
+  "input_hashes": {
+    "CARRIER_VECTOR_REGISTRY.tsv": "b1251073a9f8e916259d29ebcae71a9b86a5f8235c3b0b581430967d6aeadbe8",
+    "LATTICE_COORDINATES.json": "e555e86e08060567a9af71c4c907b581336331c19c6787df9d03269daafcb0e4",
+    "LATTICE_SHEET_CENSUS.tsv": "838e76c91255985308ed0138e56391850778aaa1517753161aea5129ec86c3d6",
+    "RESULT.json": "5d810effc89bdcab44b91d84bae30c0328cedec99627b3f04618914b6dead927"
+  },
+  "mutation_catch_proofs": 10,
+  "node_sign_mismatches": 0,
+  "node_signs_checked": 277903872,
+  "nonnegative_metric_determinants": 0,
+  "schema": "udt-bank-simplex-independent-verification-1.0",
+  "transition_count_mismatches": 0,
+  "verdict": "PASS"
+}

@@ -1,0 +1,36 @@
+{
+  "groups": 384,
+  "high_precision_anchors": 34,
+  "independent_node_signs": 277903872,
+  "l2_class_counts": {
+    "ONE_OR_TWO_TRANSITION_FAMILIES__TWO_SAMPLED_NULL_COMPONENTS": 384,
+    "ONE_TRANSITION_FAMILY__ONE_SAMPLED_NULL_COMPONENT": 384
+  },
+  "l2_sheets": 768,
+  "lattice_rows": 1536,
+  "maximum_conclusion": "BOUNDED_REGISTERED_COMPLETE_BANK-SIMPLEX_LATTICE_ATLAS_WITH_INTERVAL_AND_MATRIX_CHECKS",
+  "numerically_zero_nodes": 0,
+  "package_assertion_checks": 21,
+  "package_assertion_checks_passed": 21,
+  "raw_sign_shapes": {
+    "RAW_SIGNS_L1_J1.npy.gz": [
+      384,
+      26325
+    ],
+    "RAW_SIGNS_L1_J2.npy.gz": [
+      384,
+      26325
+    ],
+    "RAW_SIGNS_L2_J1.npy.gz": [
+      384,
+      335529
+    ],
+    "RAW_SIGNS_L2_J2.npy.gz": [
+      384,
+      335529
+    ]
+  },
+  "resolution_agreement_rows": 1536,
+  "schema": "udt-bank-simplex-package-verification-1.0",
+  "status": "PASS_WITH_REGISTERED_LATTICE_SCOPE"
+}

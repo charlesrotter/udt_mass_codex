@@ -1,0 +1,28 @@
+{
+  "all_exit_zero": true,
+  "all_outputs_byte_identical": true,
+  "exit_codes": {
+    "independent": 0,
+    "package": 0,
+    "production": 0
+  },
+  "output_sha256": {
+    "CATCH_PROOFS.tsv": "78a31299dd377abedacb5129943b81a65883a622f20d7a76cd1f279a70c06eaf",
+    "COARSE_INTERVAL_CENSUS.tsv.gz": "7ef0a7b38d1c63198a8d352051265556f29217e04920c4a9cf175af3538e893f",
+    "GROUP_REGISTRY.tsv": "77dacfc8c88469fff40ab2e12102bd887f20cefb101b170c6bd63e73149e394c",
+    "HIGH_PRECISION_FULL_MATRIX_ANCHORS.tsv": "d89450f7441d1a9c65c0ed54c5018b40969f938974837c475283c9c7a6df3e40",
+    "INDEPENDENT_NODE_REPLAY.tsv": "1d2b9cdac8b6d33ee89e797fcb6b90d8b700cb535e441c8904f5339ec7a4c489",
+    "INDEPENDENT_VERIFICATION.json": "3805242b3ea474db428873800dbcf186f3d9622f6269497e40c027fe2c1c7173",
+    "LATTICE_COORDINATES.json": "e555e86e08060567a9af71c4c907b581336331c19c6787df9d03269daafcb0e4",
+    "LATTICE_SHEET_CENSUS.tsv": "838e76c91255985308ed0138e56391850778aaa1517753161aea5129ec86c3d6",
+    "PACKAGE_ASSERTION_CHECKS.tsv": "e5dfe677a0ed165df163e2afc8c96f6728e2fdd9997e76ffff0f0b760fc5f6b4",
+    "PACKAGE_VERIFICATION.json": "8f77a957dd8f4dd8bd72521927cc0307eff3895e751619bbd5066ca8122ef500",
+    "RAW_SIGNS_L1_J1.npy.gz": "2dd6fa25c2c425327abbe9eeeced866e5e7d1f78f20f4fd0b1e1916061d1fe1f",
+    "RAW_SIGNS_L1_J2.npy.gz": "2e601d09f577ab844da767451b7e357da95c64c3929c8edf1bd4c5bdac98936b",
+    "RAW_SIGNS_L2_J1.npy.gz": "3c5997d41276432605bce7a047fe929b290837e738c64dd0958fef488cd67fbb",
+    "RAW_SIGNS_L2_J2.npy.gz": "06d95628f289d8e11690c38012862e2c581d86ac31e5fbb46b22a31de42e0ede",
+    "RESULT.json": "5d810effc89bdcab44b91d84bae30c0328cedec99627b3f04618914b6dead927"
+  },
+  "outputs": 15,
+  "schema": "udt-bank-simplex-deterministic-replay-1.0"
+}

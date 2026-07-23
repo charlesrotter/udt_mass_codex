@@ -1,0 +1,26 @@
+{
+  "agent": "simplex_adversary",
+  "corrections": {
+    "bounded_null_family_wording": "APPLIED_AND_REVERIFIED",
+    "exercised_end_to_end_mutation_catches": "APPLIED_AND_REVERIFIED",
+    "global_narrowest_node_anchors": "APPLIED_AND_REVERIFIED",
+    "source_hash_gates": "APPLIED_AND_REVERIFIED"
+  },
+  "date": "2026-07-23",
+  "independent_findings": {
+    "all_base_edges_positive": true,
+    "all_groups_and_levels_reproduced": true,
+    "full_lattice_sign_components_reproduced": true,
+    "global_narrowest_nodes_identified": 2,
+    "metric_determinant_reproduced": "-A^2*C^2*D^2*F^2",
+    "physical_filters_detected": 0,
+    "source_hashes_reproduced": true
+  },
+  "remaining_caveats": [
+    "CONTINUOUS_NULL_CONNECTIVITY_OPEN",
+    "NATIVE_COFIELD_COMPOSITION_CHART_OPEN"
+  ],
+  "repository_modified_by_reviewer": false,
+  "schema": "udt-bank-simplex-fresh-adversarial-review-1.0",
+  "verdict": "PASS_WITH_CAVEATS"
+}

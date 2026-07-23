@@ -1,0 +1,64 @@
+{
+  "actions_or_eom_loaded": 0,
+  "all_angular_and_shift_fields_retained": true,
+  "base": "6597f3a50584d17b2a5248348e9a6ca471e1d179",
+  "carrier_interpretations_loaded": 0,
+  "chart_group_sheets": 768,
+  "charts": 2,
+  "coarse_derivative_indeterminate_boxes": 5140116,
+  "coarse_face_indeterminate_boxes": 342811,
+  "coarse_initial_domain_boxes": 6291456,
+  "coarse_interval_cell_stream_sha256": {
+    "J1_GENERATOR_COEFFICIENT_BARYCENTRIC": "94ac45aba1c4cfdd9c728d40b3d34ba43cdb32202b2482d014fb762a7d425278",
+    "J2_EVALUATED_COFIELD_BARYCENTRIC": "176b7de97aa8f316d33d7cce06bd72479e1e1707a22d1f91659532de0910d293"
+  },
+  "coarse_interval_rows": 768,
+  "coarse_vertex_indeterminate_boxes": 0,
+  "cross_resolution_counts": {
+    "QUALITATIVE_CLASS_REPRODUCED": 768
+  },
+  "environment": {
+    "byteorder": "little",
+    "numpy": "2.2.6",
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12"
+  },
+  "gpu_runs": 0,
+  "groups": 384,
+  "l2_primary_class_counts": {
+    "ONE_OR_TWO_TRANSITION_FAMILIES__TWO_SAMPLED_NULL_COMPONENTS": 384,
+    "ONE_TRANSITION_FAMILY__ONE_SAMPLED_NULL_COMPONENT": 384
+  },
+  "lattice_levels": {
+    "L1": {
+      "nq": 8,
+      "nt": 65,
+      "nu": 9
+    },
+    "L2": {
+      "nq": 16,
+      "nt": 129,
+      "nu": 17
+    }
+  },
+  "lattice_rows": 1536,
+  "maximum_conclusion": "BOUNDED_REGISTERED_COMPLETE_BANK-SIMPLEX_LATTICE_ATLAS_WITH_INTERVAL_AND_MATRIX_CHECKS",
+  "metric_determinant_status": "EXACTLY_NEGATIVE_FOR_FINITE_LATENT_FIELDS",
+  "physical_regime_labels_used": 0,
+  "raw_sign_files": {
+    "RAW_SIGNS_L1_J1.npy.gz": "2dd6fa25c2c425327abbe9eeeced866e5e7d1f78f20f4fd0b1e1916061d1fe1f",
+    "RAW_SIGNS_L1_J2.npy.gz": "2e601d09f577ab844da767451b7e357da95c64c3929c8edf1bd4c5bdac98936b",
+    "RAW_SIGNS_L2_J1.npy.gz": "3c5997d41276432605bce7a047fe929b290837e738c64dd0958fef488cd67fbb",
+    "RAW_SIGNS_L2_J2.npy.gz": "06d95628f289d8e11690c38012862e2c581d86ac31e5fbb46b22a31de42e0ede"
+  },
+  "schema": "udt-bank-simplex-interior-atlas-2.0",
+  "source_hashes": {
+    "udt_configuration_space_adjacency_atlas_2026-07-22/ENDPOINT_PAIR_REGISTRY.tsv": "bab9c0b7e5ba1966a9521cecd3aff5a576b0e83bb97bbf0e100065d661038ac7",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/RESULT.json": "a7a16199edad59c1b1e499b17ff7e5244c8e52546a6743970b5dc1489a5b3528",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/SHEET_CLASSIFICATION.tsv": "3d5a01c86ee7576a4a6c13917b5bed3315373c731bd8fa8fc9603e2d9e4041ca",
+    "udt_configuration_space_adjacency_atlas_2026-07-22/build_configuration_adjacency_atlas.py": "121148082560c9ee17efeac7db942d00130e528db8d6a6155f8df85cefc92ec4",
+    "udt_motif_hopf_correspondence_audit_2026-07-22/COHERENT_IDENTITY_REGISTRY.tsv": "ffb624d1a4e01e181639e86993a550a3030b2050c547f6e563c14a462abfe45f",
+    "udt_phi_causal_interface_atlas_2026-07-22/IDENTITY_CAUSAL_CERTIFICATES.tsv": "b1ff6dc3f63cc7d052b66ee1fea2cf0088e119965a04c089b5cb3aa106466189",
+    "udt_structural_ensemble_metric_atlas_2026-07-21/CARRIER_VECTOR_REGISTRY.tsv": "b1251073a9f8e916259d29ebcae71a9b86a5f8235c3b0b581430967d6aeadbe8"
+  }
+}
