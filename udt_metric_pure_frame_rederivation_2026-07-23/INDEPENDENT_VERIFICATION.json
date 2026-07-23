@@ -1,0 +1,12 @@
+{
+  "all_checks_pass": true,
+  "catch_count": 22,
+  "check_count": 82,
+  "failed_checks": [],
+  "grade": "VERIFIED-WITH-CAVEATS",
+  "imports_production_module": false,
+  "method": "stdlib_fraction_Lorentz_group_reduction_and_semantic_audit",
+  "parent_manifest_entries": 22,
+  "schema": "udt-metric-pure-frame-independent-1.0",
+  "source_hash_checks": 18
+}

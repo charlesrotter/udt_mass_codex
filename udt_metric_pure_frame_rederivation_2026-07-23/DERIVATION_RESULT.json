@@ -1,0 +1,465 @@
+{
+  "all_checks_pass": true,
+  "check_count": 69,
+  "checks": [
+    {
+      "detail": "Lambda^T eta Lambda=eta",
+      "name": "Bx_metric",
+      "pass": true
+    },
+    {
+      "detail": "1",
+      "name": "Bx_det",
+      "pass": true
+    },
+    {
+      "detail": "5/4",
+      "name": "Bx_future",
+      "pass": true
+    },
+    {
+      "detail": "Lambda^T eta Lambda=eta",
+      "name": "By_metric",
+      "pass": true
+    },
+    {
+      "detail": "1",
+      "name": "By_det",
+      "pass": true
+    },
+    {
+      "detail": "5/4",
+      "name": "By_future",
+      "pass": true
+    },
+    {
+      "detail": "Lambda^T eta Lambda=eta",
+      "name": "Bz_metric",
+      "pass": true
+    },
+    {
+      "detail": "1",
+      "name": "Bz_det",
+      "pass": true
+    },
+    {
+      "detail": "5/4",
+      "name": "Bz_future",
+      "pass": true
+    },
+    {
+      "detail": "4",
+      "name": "fixed_system_rank",
+      "pass": true
+    },
+    {
+      "detail": "[]",
+      "name": "no_nonzero_fixed_vector",
+      "pass": true
+    },
+    {
+      "detail": "-1",
+      "name": "u_unit",
+      "pass": true
+    },
+    {
+      "detail": "-1",
+      "name": "v_unit",
+      "pass": true
+    },
+    {
+      "detail": "1/sqrt(1 - beta**2)",
+      "name": "gamma_inner",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, 1, 0, 0]])",
+      "name": "relative_n",
+      "pass": true
+    },
+    {
+      "detail": "1",
+      "name": "n_unit",
+      "pass": true
+    },
+    {
+      "detail": "0",
+      "name": "u_n_orthogonal",
+      "pass": true
+    },
+    {
+      "detail": "v=gamma(u+beta n)",
+      "name": "v_decomposition",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[1/sqrt(1 - beta**2), -beta/sqrt(1 - beta**2), 0, 0]])",
+      "name": "reciprocal_view",
+      "pass": true
+    },
+    {
+      "detail": "metric symmetry",
+      "name": "gamma_symmetric",
+      "pass": true
+    },
+    {
+      "detail": "null",
+      "name": "kplus_null",
+      "pass": true
+    },
+    {
+      "detail": "null",
+      "name": "kminus_null",
+      "pass": true
+    },
+    {
+      "detail": "null",
+      "name": "boost_preserves_plus_null",
+      "pass": true
+    },
+    {
+      "detail": "null",
+      "name": "boost_preserves_minus_null",
+      "pass": true
+    },
+    {
+      "detail": "B(x)B(y)=B(x+y)",
+      "name": "collinear_rapidity_adds",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, -3/16, 3/16, 0], [3/16, 0, 9/16, 0], [-3/16, -9/16, 0, 0], [0, 0, 0, 0]])",
+      "name": "noncollinear_noncommutative",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[25/16, 15/16, 3/4, 0]])",
+      "name": "composed_observer_unit",
+      "pass": true
+    },
+    {
+      "detail": "25/16",
+      "name": "composed_gamma",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[3/5, 12/25, 0]])",
+      "name": "composed_beta",
+      "pass": true
+    },
+    {
+      "detail": "metric",
+      "name": "unique_boost_metric",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[1, 0, 0, 0], [0, 40/41, 9/41, 0], [0, -9/41, 40/41, 0], [0, 0, 0, 1]])",
+      "name": "screen_rotation_exact",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[1, 0, 0, 0]])",
+      "name": "screen_rotation_fixes_observer",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[40/41, 9/41, 0], [-9/41, 40/41, 0], [0, 0, 1]])",
+      "name": "screen_rotation_orthogonal",
+      "pass": true
+    },
+    {
+      "detail": "1",
+      "name": "screen_rotation_det",
+      "pass": true
+    },
+    {
+      "detail": "9/41",
+      "name": "screen_rotation_nontrivial",
+      "pass": true
+    },
+    {
+      "detail": "-1",
+      "name": "CSN_u_unit",
+      "pass": true
+    },
+    {
+      "detail": "-1",
+      "name": "CSN_v_unit",
+      "pass": true
+    },
+    {
+      "detail": "1/sqrt(1 - beta**2)",
+      "name": "CSN_gamma_invariant",
+      "pass": true
+    },
+    {
+      "detail": "positive scale preserves null",
+      "name": "CSN_null_cone",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[-A*c**2, 0, 0, 0], [0, 1/A, 0, 0], [0, 0, r**2, 0], [0, 0, 0, r**2*sin(theta)**2]])",
+      "name": "WRL_2plus2_reconstruction",
+      "pass": true
+    },
+    {
+      "detail": "-c**2*r**4*sin(theta)**2",
+      "name": "WRL_determinant",
+      "pass": true
+    },
+    {
+      "detail": "3 base + 3 screen + 4 shifts",
+      "name": "complete_metric_slots",
+      "pass": true
+    },
+    {
+      "detail": "only A(r)",
+      "name": "WRL_independent_function_count",
+      "pass": true
+    },
+    {
+      "detail": "nine independent slot directions frozen or tied",
+      "name": "WRL_frozen_slot_count",
+      "pass": true
+    },
+    {
+      "detail": "b*(A**2 - 1)/(A*(b**2 - 1))",
+      "name": "mixed_cross_component",
+      "pass": true
+    },
+    {
+      "detail": "45/32",
+      "name": "mixed_cross_witness",
+      "pass": true
+    },
+    {
+      "detail": "A=1",
+      "name": "flat_anchor_cross_zero",
+      "pass": true
+    },
+    {
+      "detail": "-1",
+      "name": "accelerated_u_unit",
+      "pass": true
+    },
+    {
+      "detail": "0",
+      "name": "accelerated_a_orthogonal",
+      "pass": true
+    },
+    {
+      "detail": "acceleration**2",
+      "name": "accelerated_a_norm",
+      "pass": true
+    },
+    {
+      "detail": "eta is constant while chosen u(tau) accelerates",
+      "name": "flat_metric_curvature_control",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_WRL_as_complete_metric_parent",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_pointwise_no_preferred_vector_as_global_homogeneity",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_local_Lorentz_transitivity_as_global_recenter_isometry",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_relative_rapidity_as_metric_phi",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_collinear_additive_law_as_full_SO_plus_1_3_composition",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_screen_rotation_as_curvature_or_force",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_screen_rotation_as_Hopf_carrier",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_positive_CSN_scale_as_physical_representative",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_2plus2_split_as_intrinsically_selected",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_WRL_diagonal_chart_as_closed_under_generic_observer_change",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_zero_shift_as_metric_pure_result",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_round_areal_screen_as_complete_angular_geometry",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_staticity_as_complete_metric_theorem",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_accelerated_coframe_as_changed_metric",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_acceleration_as_GR_equivalence",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_SNe_readout_as_complete_metric_selection",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_common_Xmax_as_derived_scale",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_native_mass_or_boundary_closure",
+      "pass": true
+    }
+  ],
+  "exact": {
+    "WRL_metric": "Matrix([[-A*c**2, 0, 0, 0], [0, 1/A, 0, 0], [0, 0, r**2, 0], [0, 0, 0, r**2*sin(theta)**2]])",
+    "composed_observer": "Matrix([[25/16, 15/16, 3/4, 0]])",
+    "composed_screen_rotation": "Matrix([[1, 0, 0, 0], [0, 40/41, 9/41, 0], [0, -9/41, 40/41, 0], [0, 0, 0, 1]])",
+    "fixed_vector_system_rank": 4,
+    "mixed_WRL_base_metric": "Matrix([[(A**2 - b**2)/(A*(b**2 - 1)), b*(A**2 - 1)/(A*(b**2 - 1))], [b*(A**2 - 1)/(A*(b**2 - 1)), (A**2*b**2 - 1)/(A*(b**2 - 1))]])",
+    "mixed_cross_component": "b*(A**2 - 1)/(A*(b**2 - 1))",
+    "noncollinear_commutator_difference": "Matrix([[0, -3/16, 3/16, 0], [3/16, 0, 9/16, 0], [-3/16, -9/16, 0, 0], [0, 0, 0, 0]])",
+    "observer_gamma": "1/sqrt(1 - beta**2)",
+    "observer_relative_direction": "Matrix([[0, 1, 0, 0]])"
+  },
+  "grade": "VERIFIED-WITH-CAVEATS",
+  "maximum_conclusion": "THE_METRIC_PURE_PARENT_IS_THE_FOUR_DIMENSIONAL_CONFORMAL_LORENTZIAN_METRIC_COFRAME_CLASS_NOT_WRL;IT_DERIVES_NO_PREFERRED_LOCAL_TIMELIKE_OBSERVER_AND_EXACT_LOCAL_SO_PLUS_1_3_FRAME_RECIPROCITY_WITH_A_COMMON_NULL_CONE;IT_DOES_NOT_DERIVE_GLOBAL_ISOMETRIC_RECENTERING_OR_AN_OBSERVER_INDEXED_PAIR_METRIC;WRL_IS_A_ONE_FUNCTION_STATIC_SPHERICAL_DIAGONAL_AREAL_ZERO_SHIFT_REDUCTION_NOT_CLOSED_AS_A_COMPLETE_FRAME_RECIPROCAL_CONFIGURATION_SPACE;ITS_PROFILE_ASYMPTOTE_AND_SNE_READOUT_SURVIVE_ONLY_IN_THAT_REDUCTION;PHYSICAL_ACCELERATION_INDUCED_METRIC_WARPING_REMAINS_OPEN",
+  "reduction": {
+    "WRL_coordinate_dependence": "r_only",
+    "WRL_independent_functions": 1,
+    "complete_metric_slots": 10,
+    "complete_parent_dependence": "all_four_coordinates",
+    "frozen_or_tied_slot_directions": 9
+  },
+  "schema": "udt-metric-pure-frame-rederivation-1.0",
+  "semantic_catch_count": 18,
+  "source_hashes": [
+    {
+      "bytes": 11819,
+      "path": "AGENTS.md",
+      "sha256": "e74024f82f6adf4aaed8ea15eb61d176a330abc574bc5495b43415335b3b25db"
+    },
+    {
+      "bytes": 8203,
+      "path": "udt_complete_metric_solution_space_map_2026-07-21/AUDIT_REPORT.md",
+      "sha256": "890d074276533d6ffb035584406fe249ca68d50cd838f2aa9f6fa85d1b78cde4"
+    },
+    {
+      "bytes": 5202,
+      "path": "udt_complete_metric_solution_space_map_2026-07-21/COMPLETE_METRIC_DOF_LEDGER.tsv",
+      "sha256": "91a3749c65a21cadd0a63f07ea45463f9aa8d48499421e8c746a921748eedc04"
+    },
+    {
+      "bytes": 9476,
+      "path": "udt_complete_metric_solution_space_map_2026-07-21/PREMISE_AND_REDUCTION_LEDGER.tsv",
+      "sha256": "fb94f3d843c134cb8122c25d263d23cde3eea8db036f1473f78c90887a63352d"
+    },
+    {
+      "bytes": 2620,
+      "path": "udt_canonical_geometry_evaluator_p01_2026-07-21/FORMULAE_AND_INDEX_CONVENTIONS.md",
+      "sha256": "7ece2ad8a0d086f0bacdc049ed42b27c5d9a25d2318841c520885ac0def6f259"
+    },
+    {
+      "bytes": 5805,
+      "path": "udt_canonical_geometry_evaluator_p01_2026-07-21/AUDIT_REPORT.md",
+      "sha256": "32d173e755f4b9b0bc6add8971562f5e7202fa75abd7b84964f1a0fe695c4f72"
+    },
+    {
+      "bytes": 12718,
+      "path": "udt_native_coframe_composition_law_audit_2026-07-23/AUDIT_REPORT.md",
+      "sha256": "b6f484a77b202b695ac76306e8d0ebf66b14f73b7eb671431c4821259a719ce8"
+    },
+    {
+      "bytes": 10724,
+      "path": "udt_complete_metric_realization_zoomout_2026-07-23/AUDIT_REPORT.md",
+      "sha256": "920201892b7902f8a84de8096b3c0c05ba9457404e3f7445915ac4ab016f1b6f"
+    },
+    {
+      "bytes": 11332,
+      "path": "udt_complete_metric_intrinsic_object_audit_2026-07-23/AUDIT_REPORT.md",
+      "sha256": "923e6e4e7d9b6478f8b281f7d48f4fd46cd194c292a01540c46509ee6fc89776"
+    },
+    {
+      "bytes": 7649,
+      "path": "udt_reciprocal_c_metric_meaning_audit_2026-07-22/AUDIT_REPORT.md",
+      "sha256": "1e63d4fcc03c793e895d9771b925a9e8a295f9e573e55ded62302693c173bc21"
+    },
+    {
+      "bytes": 10753,
+      "path": "udt_phi_metric_ontology_audit_2026-07-22/AUDIT_REPORT.md",
+      "sha256": "f762051c7af6559556e6f2f68a6f85f3d4038dc9350822878619eb834ba30fee"
+    },
+    {
+      "bytes": 4973,
+      "path": "SIMPLE_METRIC_MACRO.md",
+      "sha256": "f0c045abf9810dc327d249d0df385cd7e8d6914eedfaf5b31c78d186eaa13d44"
+    },
+    {
+      "bytes": 8784,
+      "path": "simple_metric_WR_L_center_nogo_atlas_results.md",
+      "sha256": "ddb9b5753b25d94a5af015c96b871c55d8d62b0e9eeccd6af7b18214e0f0d7cb"
+    },
+    {
+      "bytes": 5562,
+      "path": "simple_metric_L_principle_closure_attack_results.md",
+      "sha256": "bb65f7e621c6e6f51c13c19af60dc0727d14e50fbc2a1a1522f10e03e8cf2862"
+    },
+    {
+      "bytes": 6959,
+      "path": "udt_xmax_dilation_asymptote_correction_2026-07-23/AUDIT_REPORT.md",
+      "sha256": "fd3d99c357d158021151e12013158da13b0a4c30940bcec4c60f3cc7b7277164"
+    },
+    {
+      "bytes": 7574,
+      "path": "udt_observer_centered_xmax_frame_correction_2026-07-23/AUDIT_REPORT.md",
+      "sha256": "91328e4fca88980cc37621b0e9d4e7f1162c079c0a1780adac853b205c945cb1"
+    },
+    {
+      "bytes": 18350,
+      "path": "udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md",
+      "sha256": "a8b27cb298a95dc1f3eabc5c4ff78b2835041a4d3dcc3e184d8ff6be47ded1e7"
+    },
+    {
+      "bytes": 35011,
+      "path": "CANON.md",
+      "sha256": "5d99c0ba09fcee0429a34ac6b3dda4faff489b7d214b622fcbd286deb3785314"
+    }
+  ]
+}
