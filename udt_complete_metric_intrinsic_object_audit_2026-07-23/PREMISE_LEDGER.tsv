@@ -1,0 +1,21 @@
+id	premise_or_choice	provenance_tag	status_at_preregistration	role_or_limit
+P01	metric_is_the_theory	pinned-by-THEORY	REGISTERED_BINDING	project is metric-led
+P02	reciprocal_abstract_character	pinned-by-THEORY	DERIVED_WITH_EXACT_PREMISES	abstract representation is not yet a physical subbundle
+P03	four_dimensional_spacetime	pinned-by-THEORY	INHERITED	not derived from C0/C1
+P04	Lorentzian_metric_representative	pinned-by-THEORY	CONDITIONAL_POST_SCALE	physical representative remains open
+P05	conformal_metric_class_under_CSN	pinned-by-THEORY	REGISTERED_PRE_SCALE	null structure survives; common ruler does not
+P06	spacetime_orientation	free-and-explored	NOT_UNIVERSALLY_SUPPLIED	evaluate with and without
+P07	time_orientation	free-and-explored	NOT_UNIVERSALLY_SUPPLIED	evaluate with and without
+P08	signed_local_phi	pinned-by-THEORY	REGISTERED	independent-versus-metric-dependent ontology remains open
+P09	dphi_causal_type_and_nonvanishing	free-and-explored	ALL_STRATA_INCLUDED	zero spacelike timelike null and type-changing strata retained
+P10	coframe_or_named_reciprocal_plane	pinned-by-HABIT	NOT_ADOPTED	candidate must descend without this choice
+P11	celestial_null_direction_bundle	pinned-by-THEORY	DERIVED_CONDITIONAL	whole S2 fiber is not a selected section
+P12	finite_cell_and_static_phi_seal	pinned-by-THEORY	REGISTERED_BOUNDED	complete lift topology and other-field boundary data open
+P13	global_completion_or_quotient	free-and-explored	TWELVE_REGISTERED_FAMILIES	no branch privileged
+P14	toric_periods_circle_action_caps_orientation	pinned-by-HABIT	NOT_ADOPTED	allowed only in explicitly conditional controls
+P15	S2_carrier_and_L2_plus_L4_action	pinned-by-HABIT	NOT_ADOPTED	existing particle branch remains separate and conditional
+P16	Levi_Civita_connection	pinned-by-THEORY	INTRINSIC_TO_SUPPLIED_METRIC_REPRESENTATIVE	not pre-scale CSN invariant as a connection
+P17	higher_jet_or_nonlocal_selector	free-and-explored	EXPLICITLY_OPEN	type census only beyond registered second-jet/global classes
+P18	bootstrap_realization_operator	pinned-by-THEORY	NOT_PRESENT	current bootstrap is admissibility language only
+P19	numerical_values_or_tolerances	free-and-explored	NONE_PHYSICAL	exact algebra preferred; numeric controls are verification-only
+P20	target_Hopfion_particle_or_mass	pinned-by-HABIT	NOT_USED	audit characterizes objects and does not filter for desired physics
