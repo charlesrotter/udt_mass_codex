@@ -1,0 +1,83 @@
+{
+  "base_commit": "67553529e79514aa79607dee859ae7d084ea37d6",
+  "counts": {
+    "complete_g_phi_field_witnesses": 0,
+    "conditional_controls": 1,
+    "density_numeric_runs": 0,
+    "density_source_routes": 5,
+    "global_theorems": 12,
+    "mirror_fixed_seam_rows_with_static_normal_obstruction": 1,
+    "parametric_type_only": 11,
+    "registered_completion_families": 12,
+    "static_compact_completion_rows_obstructed": 4
+  },
+  "density_interface_gate": {
+    "branch_map_dependence": "CONSTANT_ONLY_BECAUSE_RHO_TOT_IS_ABSENT_FROM_CURRENT_BRANCH_SYSTEM",
+    "formal_bracket": "rho_tot in [0,infinity)",
+    "gate_pass": false,
+    "maximum_conclusion": "NO_DENSITY_DRIVEN_BRANCH_CHANGE_IS_DEFINED_IN_CURRENT_GEOMETRY_ONLY_SYSTEM",
+    "native_route_missing_object": "off-shell native mass functional plus varied global closure and response map",
+    "native_route_status": "OPEN_NATIVE_OBJECT_REQUIRED",
+    "numeric_density_sweep_run": false,
+    "source_route_count": 5
+  },
+  "exact_controls": {
+    "examples": {
+      "boundary_spacelike_phi_x_norm": "1",
+      "boundary_timelike_phi_t_norm": "-1",
+      "causal_transition_null_locus": "t=+/-x",
+      "causal_transition_phi_tx_norm": "t**2 - x**2",
+      "even_mirror_critical_location": "x=0",
+      "even_mirror_phi_x2_norm": "4*x**2",
+      "odd_double_descends_as_ordinary_scalar_to_reflection_quotient": false,
+      "odd_double_phi_x_norm": "1",
+      "periodic_critical_locations": "x=pi/2+k*pi",
+      "periodic_phi_sin_x_norm": "cos(x)**2",
+      "retained_boundary_critical_location": "x=1/2",
+      "retained_boundary_critical_phi_x1mx_norm": "(1 - 2*x)**2"
+    },
+    "null": {
+      "norm": "0",
+      "tangent_nilpotent": true,
+      "tangent_nonzero": true,
+      "tangent_rank": 1,
+      "two_form_nilpotent": true,
+      "two_form_nonzero": true,
+      "two_form_rank": 2
+    },
+    "ranks": {
+      "spacelike": {
+        "complementary": true,
+        "norm": "1",
+        "parallel_idempotent": true,
+        "tangent_idempotent": true,
+        "tangent_rank": 1,
+        "transverse_idempotent": true,
+        "two_form_parallel_rank": 3,
+        "two_form_transverse_rank": 3
+      },
+      "timelike": {
+        "complementary": true,
+        "norm": "-1",
+        "parallel_idempotent": true,
+        "tangent_idempotent": true,
+        "tangent_rank": 1,
+        "transverse_idempotent": true,
+        "two_form_parallel_rank": 3,
+        "two_form_transverse_rank": 3
+      }
+    },
+    "zero": {
+      "covector_rank": 0,
+      "normalized_projector_defined": false
+    }
+  },
+  "geometry_stopping_gate": {
+    "reason": "REGISTERED_GLOBAL_ROWS_SUPPLY_COMPLETION_TYPES_BUT_NO_COMPLETE_G_PHI_FIELD_WITNESSES_OR_FIELD_EQUATIONS",
+    "remaining_free_data": "GLOBAL_G_PHI_PROFILE__BOUNDARY_CAP_GLUE__STATIC_OR_TIME_LIVE_BRANCH__ACTION_AND_SOURCE",
+    "status": "REACHED"
+  },
+  "maximum_conclusion": "FINITE_CELL_SURVIVAL_CRITERION_DERIVED_AND_COMPLETION_TYPES_CLASSIFIED__GEOMETRY_STOPS_AT_UNSUPPLIED_GLOBAL_FIELD_PROFILES__DENSITY_RESPONSE_UNDEFINED_WITHOUT_NATIVE_INTERFACE",
+  "schema": "udt-finite-cell-reciprocal-survival-density-1.0",
+  "sympy_version": "1.14.0"
+}

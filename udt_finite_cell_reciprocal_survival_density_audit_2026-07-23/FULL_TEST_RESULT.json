@@ -1,0 +1,9 @@
+{
+  "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest -q tests/",
+  "failed": 0,
+  "passed": 70,
+  "result": "PASS",
+  "returncode": 0,
+  "schema": "udt-finite-cell-full-tests-1.0",
+  "xfailed": 1
+}

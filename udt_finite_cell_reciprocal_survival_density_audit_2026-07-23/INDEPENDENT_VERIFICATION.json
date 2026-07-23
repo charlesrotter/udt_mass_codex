@@ -1,0 +1,40 @@
+{
+  "catch_proofs": {
+    "all_caught": true,
+    "caught": 20,
+    "expected": 20
+  },
+  "completion_rows": 12,
+  "density_bracket_rows": 4,
+  "global_theorem_rows": 12,
+  "independent_algebra": {
+    "null": {
+      "norm": "0",
+      "tangent_nilpotent": true,
+      "tangent_rank": 1,
+      "two_form_nilpotent": true,
+      "two_form_rank": 2
+    },
+    "spacelike": {
+      "complementary": true,
+      "idempotent": true,
+      "norm": "1",
+      "parallel_rank": 3,
+      "tangent_rank": 1,
+      "transverse_rank": 3
+    },
+    "timelike": {
+      "complementary": true,
+      "idempotent": true,
+      "norm": "-1",
+      "parallel_rank": 3,
+      "tangent_rank": 1,
+      "transverse_rank": 3
+    }
+  },
+  "schema": "udt-finite-cell-reciprocal-survival-density-independent-1.0",
+  "source_rows_replayed": 14,
+  "status": "PASS",
+  "sympy_version": "1.14.0",
+  "verdict": "VERIFIED_BOUNDED__NO_COMPLETE_FIELD_WITNESSES_AND_NO_NATIVE_DENSITY_RESPONSE_INTERFACE"
+}
