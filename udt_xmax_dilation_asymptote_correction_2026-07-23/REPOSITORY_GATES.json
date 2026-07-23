@@ -35,7 +35,7 @@
   },
   "package_manifest": {
     "entries": 22,
-    "manifest_sha256": "dbc7bce1c16001f04adae4a141e468d55b0caffc7729871d80d15d3e21a73a22",
+    "manifest_sha256": "44bac08d6cc37d1326193d357a91823c15da5de025eddba4dbef86882318cc6a",
     "result": "PASS"
   },
   "prior_scientific_packages": {

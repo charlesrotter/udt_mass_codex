@@ -17,15 +17,18 @@ geometrical argument, called WR-L, then says how that clock factor changes
 with position:
 
 ```text
-fraction of the way to Xmax = 1 - the clock/lapse factor.
+fraction of the way to Xmax = 1 - the lapse coefficient.
 ```
 
 In less compressed language:
 
 - here, the clock factor is normal;
-- moving deeper, the remaining fraction of room and the clock factor fall
-  together;
-- at `Xmax`, both have fallen toward zero;
+- moving deeper, the remaining fraction of room and the lapse coefficient
+  fall together;
+- the actual static clock rate is the square root of that coefficient, so
+  it also slows toward zero;
+- at `Xmax`, the remaining room, lapse, and static clock rate have all
+  fallen toward zero;
 - reaching the final point would require infinite optical/clock depth.
 
 That is a real derivation inside the recorded static metric branch. It uses
