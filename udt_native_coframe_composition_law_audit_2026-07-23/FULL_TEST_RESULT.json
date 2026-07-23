@@ -1,0 +1,11 @@
+{
+  "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest tests/",
+  "exit_code": 0,
+  "failed": 0,
+  "passed": 70,
+  "result": "PASS",
+  "schema": "udt-native-coframe-composition-test-baseline-v1",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "f013415c4b0f9b7047498460a7984d61f7c39b1b3b6f4c78e197dec37e1d8900",
+  "xfailed": 1
+}

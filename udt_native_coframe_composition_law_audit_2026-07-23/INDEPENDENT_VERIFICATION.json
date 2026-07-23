@@ -1,0 +1,41 @@
+{
+  "candidate_rows": 10,
+  "catch_proof_scope": "RECORD_INTEGRITY_MUTATIONS; LOAD_BEARING_ALGEBRA_AND_SOURCE_BEHAVIOR_RECOMPUTED_SEPARATELY",
+  "catch_proofs": {
+    "passed": 16,
+    "total": 16
+  },
+  "independent_algebra": {
+    "edge_checks": 6,
+    "face_checks": 4,
+    "gauge_midpoint_determinant": "0",
+    "gauge_midpoint_rank": 2,
+    "metric_midpoint_determinant": "0",
+    "metric_midpoint_rank": 3,
+    "reciprocal_norm": "-(q - 1)*(q + 1)*(q**2 + 1)/q**2",
+    "reciprocal_norm_q2": "-15/4",
+    "reciprocal_norm_qhalf": "15/4",
+    "relative_eigenvalue_multiplicities": {
+      "-1": 2,
+      "1": 2
+    },
+    "relative_negative_eigenspace_dimension": 1,
+    "toy_difference": "lambda*(lambda - 1)",
+    "triangular_group_anchors": 2,
+    "triangular_group_gauge_residual": "[[0, 2, 0, 0], [2, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]"
+  },
+  "independent_source_behavior": {
+    "anchors": 2,
+    "chart_checks": 4,
+    "fields_per_coframe": 10,
+    "matrix_checks": 4,
+    "max_feature_residual": 1.3877787807814457e-17,
+    "max_scalar_residual": 4.336808689942018e-19
+  },
+  "premise_rows": 8,
+  "requirement_rows": 11,
+  "result_sha256": "c0ac1742e375b711bf7330dc8072e9188a320bb1411245fe611d1bc79d48d150",
+  "schema": "udt-native-coframe-composition-independent-v1",
+  "sources_checked": 18,
+  "status": "PASS"
+}

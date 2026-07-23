@@ -1,0 +1,20 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-9.1.1, pluggy-1.6.0
+rootdir: /tmp/udt_phi_ontology_XvSL3D/repo
+configfile: pytest.ini
+collected 71 items
+
+tests/test_branch_operator.py .......                                    [  9%]
+tests/test_hygiene_header.py ...                                         [ 14%]
+tests/test_n5d_offround.py ......                                        [ 22%]
+tests/test_n5d_pullback.py .......                                       [ 32%]
+tests/test_n5d_roundlimit.py ......                                      [ 40%]
+tests/test_n5d_signgate.py ....                                          [ 46%]
+tests/test_n5d_stage2.py ............                                    [ 63%]
+tests/test_operator_from_action.py .......                               [ 73%]
+tests/test_solution_space_gate.py .....x                                 [ 81%]
+tests/test_solver_integrity.py .............                             [100%]
+
+=========================== short test summary info ============================
+XFAIL tests/test_solution_space_gate.py::test_no_habit_pins - known HABIT pins (silent G/P fork; charge-1 core pin) are not yet freed or justified to THEORY; XPASSes when the matter sector is freed.
+======================== 70 passed, 1 xfailed in 1.50s =========================

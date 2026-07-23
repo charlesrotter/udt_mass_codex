@@ -1,0 +1,9 @@
+premise	mathematical_type	exact_scope	multi_input_composition	ruling
+metric_from_complete_coframe	UNARY_ALGEBRAIC_CONSTRUCTION	g=eta_ab e^a tensor e^b for one supplied coframe	NO	CONSTRAINS_OUTPUT_NOT_JOIN
+positional_comparison_composition	ONE_PARAMETER_GROUP_LAW	P(Delta1+Delta2)=P(Delta1)P(Delta2)	RECIPROCAL_DEPTH_SUBGROUP_ONLY	PARTIAL_NATIVE_LAW
+dual_reciprocity	GROUP_ACTION_AND_PAIRING_PRESERVATION	P^T K P=K and det(P)=1 in reciprocal pair	NO_COMPLETE_COFRAME_MAP	CONSTRAINS_RECIPROCAL_FACTOR
+common_scale_neutrality	POSITIVE_SCALE_EQUIVALENCE_RELATION	g equivalent to Omega^2 g	NO	QUOTIENT_NOT_CONNECTION_OR_BARYCENTER
+finite_cell_seal	CONDITIONAL_LOCAL_INVOLUTION_AND_GLUE	seal-local reciprocal parity/sign with incomplete lift	NO	BOUNDARY_COMPATIBILITY_ONLY
+reciprocal_cocycle	TRANSITION_FUNCTION_COMPATIBILITY	Z2-graded products on an already supplied cover	NO	GLUES_CHARTS_DOES_NOT_AVERAGE_CONFIGURATIONS
+cartan_geometry	CONNECTION_DERIVED_FROM_ONE_SUPPLIED_GEOMETRY	transport and curvature after coframe choice	NO_CONFIGURATION_SPACE_CONNECTION	DIAGNOSTIC_NOT_SELECTOR
+current_bootstrap	ON_SHELL_ADMISSIBILITY_PREDICATE	tests completed solutions without a varied functional or section	NO	FILTER_NOT_MAP

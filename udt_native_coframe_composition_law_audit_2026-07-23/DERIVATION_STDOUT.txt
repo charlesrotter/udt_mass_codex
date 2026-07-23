@@ -1,0 +1,116 @@
+{
+  "algebra": {
+    "bubbles": {
+      "base_barycenter_value": "1/27",
+      "base_edge_preserving": "w0*w1*w2",
+      "coframe_determinant": "1",
+      "delta_minus_log2": "15/4",
+      "delta_plus_log2": "-15/4",
+      "edge_checks": 6,
+      "face_checks": 4,
+      "metric_determinant": "-1",
+      "scalar_norm": "-2*sinh(2*delta)",
+      "vertex_checks": 4,
+      "volume_face_preserving": "w0*w1*w2*w3"
+    },
+    "complete_triangular_chart_group": {
+      "closure_residual": "ZERO_4X4",
+      "coframe_form": "E(A,D,S)=[[A,0],[D*S,D]]",
+      "common_scale": "CENTRAL",
+      "independent_gauge_descent": "FAILS_WITHOUT_SELECTED_SECTION",
+      "independent_second_input_gauge_metric_residual": "[[0, 2, 0, 0], [2, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]",
+      "inverse_A": "A^-1",
+      "inverse_D": "D^-1",
+      "inverse_S": "-D*S*A^-1",
+      "inverse_residual": "ZERO_4X4",
+      "physical_scope": "CHOSEN_COORDINATE_INTERNAL_TRIVIALIZATION",
+      "product_A": "A1*A2",
+      "product_D": "D1*D2",
+      "product_S": "D2^-1*S1*A2+S2"
+    },
+    "lorentz_gauge": {
+      "affine_midpoint_determinant": "0",
+      "affine_midpoint_rank": 2,
+      "determinant": "1",
+      "matrix": "[[1, 0, 0, 0], [0, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, 1]]",
+      "metric_residual": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+      "time_entry": "1"
+    },
+    "metric_affine": {
+      "common_time_entries": [
+        "-1",
+        "-1"
+      ],
+      "endpoint_determinants": [
+        "-1",
+        "-1"
+      ],
+      "midpoint_determinant": "0"
+    },
+    "reciprocal_subgroup": {
+      "composition": "P(x)P(y)=P(x+y)",
+      "csn_invariant_depth": "(c-a)/2",
+      "csn_variant_common_scale": "(c+a)/2 -> (c+a)/2+sigma",
+      "determinant": "1",
+      "pairing_preserved": true
+    },
+    "relative_metric_log_obstruction": {
+      "eigenvalue_multiplicities": {
+        "-1": 2,
+        "1": 2
+      },
+      "negative_eigenspace_dimension": 1,
+      "negative_jordan_blocks": "one size-two block",
+      "real_logarithm": "DOES_NOT_EXIST",
+      "reason": "a real invertible matrix has a real logarithm only when negative-real Jordan blocks of each size occur in pairs",
+      "relative_map": "[[1, -2, 0, 0], [2, -3, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]"
+    },
+    "toy_chart_difference": {
+      "J1": "lambda**2",
+      "J2": "lambda",
+      "difference": "lambda*(lambda - 1)",
+      "endpoint_agreement": true
+    }
+  },
+  "counts": {
+    "candidate_complete_native_laws": 0,
+    "candidate_operations": 10,
+    "partial_native_reciprocal_laws": 1,
+    "premises_typed": 8,
+    "premises_with_complete_multi_input_map": 0,
+    "requirements": 11
+  },
+  "maximum_conclusion": "CURRENT_UDT_PREMISES_SUPPLY_CONDITIONAL_RECIPROCAL_ONE_PARAMETER_COMPOSITION_BUT_NOT_A_WEIGHTED_MULTI_CONFIGURATION_MEAN_OR_NATIVE_COMPLETE_COFRAME_COMPOSITION",
+  "rulings": {
+    "J1": "CHOSE_ANALYTIC_CONFIGURATION_CHART",
+    "J2": "CHOSE_LOCAL_COFIELD_CHART",
+    "bank_simplex_pocket": "OBSERVED_BOUNDED_J1_CHART_NOT_COMPOSITION_INVARIANT",
+    "invariant_remainder": [
+      "ENDPOINT_AND_REGISTERED_EDGE_CLASSES",
+      "LORENTZIAN_NONDEGENERACY_WITHIN_EXPONENTIAL_TRIANGULAR_CHARTS",
+      "AT_LEAST_ONE_ZERO_ON_ANY_SUPPLIED_CONTINUOUS_OPPOSITE_SIGN_JOIN"
+    ],
+    "join_dependent": [
+      "BASE_INTERIOR_POCKET",
+      "TRANSITION_MULTIPLICITY",
+      "NEGATIVE_COMPONENT_COUNT",
+      "INTERFACE_LOCATION_AND_SHAPE"
+    ],
+    "native_complete_coframe_composition": "OPEN_NOT_SUPPLIED_BY_CURRENT_REGISTERED_PREMISES",
+    "reciprocal_depth_composition": "DERIVED_CONDITIONAL_PAIRWISE_ONE_PARAMETER_RECIPROCAL_SUBGROUP",
+    "reciprocal_weighted_mean": "DERIVED_ALGEBRAIC_IDENTITY_GIVEN_CHOSEN_WEIGHTS_AND_ALIGNED_LOG_COORDINATE; NOT_SELECTED_BY_CURRENT_UDT_PREMISES",
+    "smallest_missing_object": "TYPE_CORRECT_RELATIVE_BASE_INTERNAL_IDENTIFICATION_PLUS_EITHER_A_SELECTED_REPRESENTATIVE_SECTION_OR_LOCAL_LORENTZ_EQUIVARIANT_QUOTIENT_OPERATION_PLUS_A_SELECTED_WEIGHTED_MULTI_INPUT_RULE_AND_COMPATIBLE_PHI_DPHI_RULE",
+    "triangular_complete_chart_group": "DERIVED_ALGEBRAIC_CLOSURE_IN_CHOSEN_TRIVIALIZATION_NOT_NATIVE_PHYSICAL_COMPOSITION"
+  },
+  "schema": "udt-native-coframe-composition-audit-v1",
+  "source_behavioral_reconstruction": {
+    "anchors": 3,
+    "chart_checks": 6,
+    "chart_differences": 3,
+    "coframe_checks": 6,
+    "fields_per_coframe": 10,
+    "max_scalar_residual": 2.710505431213761e-20,
+    "transitive_source_sha256": "121148082560c9ee17efeac7db942d00130e528db8d6a6155f8df85cefc92ec4"
+  },
+  "source_count": 18
+}

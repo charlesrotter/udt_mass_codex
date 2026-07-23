@@ -1,0 +1,28 @@
+{
+  "all_exit_zero": true,
+  "derivation": {
+    "command": "/usr/bin/python3 /tmp/udt_phi_ontology_XvSL3D/repo/udt_native_coframe_composition_law_audit_2026-07-23/derive_composition_audit.py",
+    "exit_code": 0,
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_bytes": 4573,
+    "stdout_sha256": "c0ac1742e375b711bf7330dc8072e9188a320bb1411245fe611d1bc79d48d150"
+  },
+  "environment": {
+    "cpu_only": true,
+    "gpu_work_performed": false,
+    "numpy": "2.2.6",
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "independent": {
+    "command": "/usr/bin/python3 /tmp/udt_phi_ontology_XvSL3D/repo/udt_native_coframe_composition_law_audit_2026-07-23/verify_composition_independent.py",
+    "exit_code": 0,
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_bytes": 1332,
+    "stdout_sha256": "8775a4d94b02597834355c2a00aded03aba27929dd63e9daa26874a323f14848"
+  },
+  "schema": "udt-native-coframe-composition-replay-v1"
+}

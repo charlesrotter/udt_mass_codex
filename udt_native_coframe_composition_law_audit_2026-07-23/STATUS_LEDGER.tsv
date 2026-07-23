@@ -1,0 +1,16 @@
+status_id	status	statement	scope
+S01	DERIVED_CONDITIONAL	Reciprocal comparisons form the one-parameter group P(phi1)P(phi2)=P(phi1+phi2).	Aligned reciprocal clock/ruler subgroup with registered sign/unit and common-domain qualifications.
+S02	DERIVED_ALGEBRAIC_IDENTITY_GIVEN_CHOSEN_WEIGHTS_AND_AN_ALIGNED_LOG_COORDINATE	The weighted logarithmic expression is P(sum_i w_i phi_i).	UDT supplies the pairwise subgroup law but does not select simplex weights or a weighted mean of distinct configurations.
+S03	DERIVED	The complete ten-field triangular coframe chart is closed under exact matrix multiplication and inversion.	Chosen coordinate/internal trivialization and triangular section.
+S04	DERIVED	Common coframe scale is central in the complete triangular chart group.	Chart group; physical CSN representative remains unselected.
+S05	OPEN	The triangular chart group is not a native physical composition law.	Independent local-Lorentz representative descent fails. Relative index identification is necessary but insufficient; descent additionally requires a selected representative section or a genuinely local-Lorentz-equivariant quotient operation.
+S06	REFUTED_AS_SUFFICIENT	Raw affine coframe averaging is representative-independent and nondegeneracy-preserving.	Exact proper-orthochronous gauge counterexample.
+S07	REFUTED_AS_SUFFICIENT	Unrestricted affine metric averaging preserves the Lorentzian domain.	Exact two-metric counterexample with common coordinate time timelike.
+S08	REFUTED_AS_GLOBAL	A relative-metric real-log geodesic exists for every Lorentzian pair.	Exact negative Jordan-block obstruction.
+S09	DERIVED	Vertex/edge and even complete-face agreement do not determine simplex interiors.	Exact weight-space base and volume bubbles; physical finite-cell seal preservation not claimed.
+S10	CHOSE	J1 is an analytic generator/coefficient configuration chart.	Frozen polynomial bank family.
+S11	CHOSE	J2 is a local evaluated-cofield configuration chart.	Frozen ten-field plus dphi bank family.
+S12	OBSERVED_BOUNDED_LATTICE	The J1 B0-B1-B2 negative pocket exists in the registered lattice.	Not composition-invariant or selected physical structure.
+S13	DERIVED	Any supplied continuous opposite-sign join contains at least one zero of g^-1(dphi,dphi).	Continuity only; no uniqueness, topology, or dynamics.
+S14	OPEN	Type-correct relative base/internal identification plus a representative section or Lorentz-equivariant quotient operation plus weighted and scalar rules select physical composition.	None of this complete data package is supplied by current seal, CSN, cocycle, Cartan, or bootstrap records.
+S15	OPEN	A compatible scalar phi/dphi composition follows from the ten-field coframe group.	The scalar is outside the ten-field coframe group.
