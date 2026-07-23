@@ -1,0 +1,32 @@
+{
+  "angular_ruling": "ARBITRARY_ANGULAR_TRANSITION_CANCELS_BLOCKWISE__DESCENT_DOES_NOT_SELECT_RECIPROCAL_ANGULAR_SOLDERING",
+  "base_commit": "67ac641e3bf764c2d4b43ddf79df7ef24a1ff429",
+  "counts": {
+    "complete_g_phi_witnesses": 0,
+    "completion_rows": 12,
+    "conditional_control_rows": 1,
+    "critical_dphi_mirror_profiles": 1,
+    "global_theorems": 12,
+    "joins": 7,
+    "mirror_profiles": 3,
+    "mirror_profiles_value_first_second_jet_pass": 3,
+    "parametric_type_rows": 11,
+    "selected_completions": 0,
+    "sources": 22
+  },
+  "exact_algebra": {
+    "D_zero": "[[1, 0], [0, 1]]",
+    "F_inverts_D": true,
+    "F_squared": true,
+    "G_preserves_D": true,
+    "angular_symbol": "A",
+    "arbitrary_angular_factor_cancels_blockwise": true,
+    "block_conjugation_with_angular_identity": true,
+    "det_D": "1",
+    "normalizer_result_replayed_not_new_credit": true
+  },
+  "maximum_conclusion": "RECIPROCAL_VALUE_CHARACTER_HAS_EXACT_Z2_GRADED_SEAM_DESCENT_AND_CAN_SURVIVE_DPHI_DEGENERATION__COMPLETE_PHYSICAL_GLUE_STILL_REQUIRES_UNSUPPLIED_COVER_EQUIVARIANCE_ANGULAR_SOLDERING_METRIC_JETS_AND_CONNECTION_DATA__NO_REALIZATION_RELATION_OR_COMPLETION_SELECTOR_DERIVED",
+  "new_positive_result": "STATIC_ODD_PHI_PLUS_RECIPROCAL_INVERTING_TRANSITION_GIVES_EXACT_VALUE_AND_JET_SEAM_DESCENT_EVEN_WHEN_DPHI_VANISHES",
+  "schema": "udt-reciprocal-seam-descent-1.0",
+  "sympy_version": "1.14.0"
+}

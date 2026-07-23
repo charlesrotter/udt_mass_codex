@@ -1,0 +1,4 @@
+profile_id	phi	odd	phi_at_seal	dphi_at_seal	D_at_seal	J_at_seal	value_pullback_match	first_jet_pullback_match	second_jet_pullback_match	derivative_3plus3_available_at_seal	scope
+M01_LINEAR	x	True	0	1	[[1, 0], [0, 1]]	[[-1, 0], [0, 1]]	True	True	True	True	STATIC_MIRROR_CONTROL_NOT_COMPLETE_FIELD_SOLUTION
+M02_CUBIC_CRITICAL	x**3	True	0	0	[[1, 0], [0, 1]]	[[0, 0], [0, 0]]	True	True	True	False	STATIC_MIRROR_CONTROL_NOT_COMPLETE_FIELD_SOLUTION
+M03_MIXED_ODD	x**3 + x	True	0	1	[[1, 0], [0, 1]]	[[-1, 0], [0, 1]]	True	True	True	True	STATIC_MIRROR_CONTROL_NOT_COMPLETE_FIELD_SOLUTION

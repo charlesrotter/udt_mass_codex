@@ -1,0 +1,19 @@
+{
+  "python": "3.10.12",
+  "result": "PASS",
+  "runs": [
+    {
+      "returncode": 0,
+      "script": "derive_reciprocal_seam_descent.py",
+      "stderr_bytes": 0,
+      "stdout_bytes": 0
+    },
+    {
+      "returncode": 0,
+      "script": "verify_reciprocal_seam_descent_independent.py",
+      "stderr_bytes": 0,
+      "stdout_bytes": 1351
+    }
+  ],
+  "schema": "udt-reciprocal-seam-descent-replay-1.0"
+}

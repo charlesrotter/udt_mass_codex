@@ -1,0 +1,44 @@
+{
+  "catch_proofs": 25,
+  "catch_proofs_passed": 25,
+  "completion_rows": 12,
+  "independent_algebra": {
+    "F_inverts_D": true,
+    "F_squared": true,
+    "G_preserves_D": true,
+    "angular_controls_pass": true,
+    "det_D": "1",
+    "profiles": {
+      "cubic": {
+        "D_at_seal": "[[1, 0], [0, 1]]",
+        "dphi_at_seal": "0",
+        "first_match": true,
+        "odd": true,
+        "second_match": true,
+        "value_match": true
+      },
+      "linear": {
+        "D_at_seal": "[[1, 0], [0, 1]]",
+        "dphi_at_seal": "1",
+        "first_match": true,
+        "odd": true,
+        "second_match": true,
+        "value_match": true
+      },
+      "mixed": {
+        "D_at_seal": "[[1, 0], [0, 1]]",
+        "dphi_at_seal": "1",
+        "first_match": true,
+        "odd": true,
+        "second_match": true,
+        "value_match": true
+      }
+    },
+    "two_distinct_angular_controls": 2
+  },
+  "maximum_conclusion": "RECIPROCAL_VALUE_CHARACTER_HAS_EXACT_Z2_GRADED_SEAM_DESCENT_AND_CAN_SURVIVE_DPHI_DEGENERATION__COMPLETE_PHYSICAL_GLUE_STILL_REQUIRES_UNSUPPLIED_COVER_EQUIVARIANCE_ANGULAR_SOLDERING_METRIC_JETS_AND_CONNECTION_DATA__NO_REALIZATION_RELATION_OR_COMPLETION_SELECTOR_DERIVED",
+  "schema": "udt-reciprocal-seam-descent-independent-1.0",
+  "source_hashes_replayed": 22,
+  "status": "PASS",
+  "sympy_version": "1.14.0"
+}
