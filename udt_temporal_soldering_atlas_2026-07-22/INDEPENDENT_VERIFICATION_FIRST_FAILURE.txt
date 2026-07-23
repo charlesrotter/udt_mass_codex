@@ -1,0 +1,11 @@
+command: env OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 python3 udt_temporal_soldering_atlas_2026-07-22/verify_temporal_soldering_independent.py --jobs 12
+exit_code: 1
+
+Traceback (most recent call last):
+  File "udt_temporal_soldering_atlas_2026-07-22/verify_temporal_soldering_independent.py", line 307, in <module>
+    main()
+  File "udt_temporal_soldering_atlas_2026-07-22/verify_temporal_soldering_independent.py", line 279, in main
+    complement_rows, complement_census, max_difference = verify_complements(args.jobs)
+  File "udt_temporal_soldering_atlas_2026-07-22/verify_temporal_soldering_independent.py", line 186, in verify_complements
+    raise AssertionError(f"independent complement mismatches {mismatches[:5]}")
+AssertionError: independent complement mismatches [('B0_R01_1_M3', 1, 3, 'convergence', 3.152875216508865e-08, 8.513893137697936e-09, 2.3014859027390716e-08), ('B0_R01_1_M3', 3, 3, 'convergence', 3.152875216508865e-08, 8.513893137697936e-09, 2.3014859027390716e-08), ('B0_R01_1_M3', 5, 3, 'convergence', 3.152875216508865e-08, 8.513893137697936e-09, 2.3014859027390716e-08), ('B0_R01_1_M3', 7, 3, 'convergence', 3.152875216508865e-08, 8.513893137697936e-09, 2.3014859027390716e-08), ('B0_R01_1_M6', 1, 0, 'convergence', 6.647775697446192e-08, 2.7343242461560723e-08, 3.91345145129012e-08)]
