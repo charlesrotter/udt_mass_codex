@@ -1,0 +1,34 @@
+{
+  "base_commit": "863c2c879e7d1aad351ffc0e456dafcb93a97e98",
+  "branch_ruling_counts": {
+    "ALLOWED_NOT_FORCED": 4,
+    "INSUFFICIENT_METRIC_DATA": 1,
+    "UNDEFINED_AT_REQUIRED_STRATUM": 7
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_work_performed": false
+  },
+  "counts": {
+    "catch_proofs": 20,
+    "complete_on_shell_g_phi_branches": 0,
+    "completion_families": 12,
+    "conditional_persistent_regular_families": 0,
+    "forced_persistent_unconditional_families": 0,
+    "joins": 9,
+    "mirror_lifts": 5,
+    "monodromy_controls": 9,
+    "pointwise_controls": 10,
+    "sources": 15
+  },
+  "formula": {
+    "complete_metric_determinant": "-c**2*exp(4*w)",
+    "raw_trace": "2*w_p",
+    "reciprocal_predicate": "w_p=0 AND sigma_squared=1",
+    "sigma_squared": "theta_p**2*sinh(2*u)**2 + u_p**2"
+  },
+  "maximum_conclusion": "THE_FULL_METRIC_ANGULAR_STRAIN_MATCHES_THE_RECIPROCAL_MINUS1_PLUS1_SPECTRUM_IFF_ITS_RELATIVE_MEAN_SCALE_RATE_VANISHES_AND_ITS_CSN_SHAPE_SPEED_HAS_UNIT_MAGNITUDE__THE_REGISTERED_FC12_PROFILE_SUPPLIES_AN_EXACT_CONSTANT_RELATIVE_SCALE_SUBFAMILY_BUT_ARBITRARY_OMEGA_TOPOLOGY_SEAL_MONODROMY_AND_CURRENT_BOOTSTRAP_DO_NOT_FORCE_OR_SELECT_IT",
+  "schema": "udt-angular-generator-branch-census-1.0",
+  "selection_ruling": "FC12_HAS_AN_EXACT_CONSTANT_RELATIVE_OMEGA_MATCHED_SUBFAMILY_BUT_ITS_ARBITRARY_POSITIVE_OMEGA_FAMILY_IS_NOT_FORCED_RECIPROCAL__NO_REGISTERED_COMPLETION_OR_BOOTSTRAP_SELECTS_IT",
+  "sympy_version": "1.14.0"
+}

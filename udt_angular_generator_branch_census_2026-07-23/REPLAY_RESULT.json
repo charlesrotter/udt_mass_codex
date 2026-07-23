@@ -1,0 +1,19 @@
+{
+  "python": "3.10.12",
+  "result": "PASS",
+  "runs": [
+    {
+      "returncode": 0,
+      "script": "derive_angular_generator_branch_census.py",
+      "stderr_bytes": 0,
+      "stdout_bytes": 0
+    },
+    {
+      "returncode": 0,
+      "script": "verify_angular_generator_branch_census_independent.py",
+      "stderr_bytes": 0,
+      "stdout_bytes": 1200
+    }
+  ],
+  "schema": "udt-angular-generator-branch-census-replay-1.0"
+}

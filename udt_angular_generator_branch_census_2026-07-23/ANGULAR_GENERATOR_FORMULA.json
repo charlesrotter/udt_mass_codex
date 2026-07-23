@@ -1,0 +1,20 @@
+{
+  "angular_metric_determinant": "(sin(theta)**2 + cos(theta)**2)**2*exp(4*w)",
+  "angular_metric_parameterization": "q=exp(2w) R(theta)^T diag(exp(-2u),exp(2u)) R(theta)",
+  "c_in_complete_metric": true,
+  "c_in_generator": false,
+  "complete_metric_determinant": "-c**2*exp(4*w)",
+  "csn_reduced_theta_zero_matrix": "Matrix([[-u_p, theta_p*(exp(4*u) - 1)/2], [theta_p/2 - theta_p*exp(-4*u)/2, u_p]])",
+  "csn_shape_generator": "J=H-(trace(H)/2)I",
+  "full_symmetric_generator_eigenvalues": "w_p-sigma,w_p+sigma",
+  "raw_generator": "H=(1/2)q^-1 Lie_T(q), T(phi)=1",
+  "raw_trace": "2*w_p",
+  "reciprocal_eigenvalues": "(-1,+1) only under both gates",
+  "reciprocal_predicate": "w_p=0 AND sigma_squared=1",
+  "reduced_determinant": "-(theta_p**2*sinh(2*u)**2 + u_p**2)",
+  "reduced_square": "J^2=sigma_squared I",
+  "relative_mean_rate_vs_reciprocal_block": "w_p",
+  "schema": "udt-angular-generator-formula-1.0",
+  "sigma_squared": "theta_p**2*sinh(2*u)**2 + u_p**2",
+  "skew_frame_rotation_from_metric_alone": "NOT_DETERMINED"
+}
