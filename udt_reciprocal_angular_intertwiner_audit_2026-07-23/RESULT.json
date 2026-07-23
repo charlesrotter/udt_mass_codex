@@ -1,0 +1,37 @@
+{
+  "base_commit": "0d7b06d3e175cfd0a39cce79ebf5f1eef06c50ca",
+  "c_anchor": {
+    "changes_intertwiner_rank": false,
+    "commutes_with_D": true,
+    "dimension_matched_coframe": "(c*dt,dx_parallel)",
+    "fixes_angular_normalization": false,
+    "raw_metric": "[[-c**2*exp(-2*phi), 0], [0, exp(2*phi)]]"
+  },
+  "conditional_positive": "MATCHED_OR_DUAL_RECIPROCAL_CONTINUOUS_PLUS_SEAL_REPRESENTATIONS_ADMIT_AN_INVERTIBLE_MAP_OR_BILINEAR_CROSS_INVARIANT_UNIQUE_UP_TO_RELATIVE_SCALE",
+  "counts": {
+    "bilinear_cross_cases": 10,
+    "catch_proofs": 29,
+    "combined_bilinear_pair_cases": 5,
+    "combined_pair_cases": 5,
+    "complete_g_phi_witnesses": 0,
+    "completion_rows": 12,
+    "conditional_complete_metric_witnesses": 3,
+    "continuous_generator_cases": 10,
+    "joins": 8,
+    "naturality_candidates": 9,
+    "seal_cases": 5,
+    "selected_completions": 0,
+    "sources": 25
+  },
+  "exact_lorentz_witness_determinant": "c**2*(epsilon - 1)*(epsilon + 1)*(epsilon**2 + 1)",
+  "general_theorem": {
+    "coefficient_determinant": "(p*z - p - q*r - z + 1)*(p*z + p - q*r + z + 1)",
+    "equation": "L*S=S*B",
+    "invertible_iff": "B_IS_SIMILAR_TO_DIAG_MINUS1_PLUS1_EQUIVALENTLY_TRACE_ZERO_DET_MINUS1",
+    "universal_natural_map_without_representation_match": "ZERO_ONLY"
+  },
+  "maximum_conclusion": "NONBLOCK_RECIPROCAL_ANGULAR_INTERTWINERS_EXIST_EXACTLY_FOR_MATCHED_REPRESENTATIONS_BUT_THE_COMPLETE_METRIC_RECIPROCITY_CSN_C_ANCHOR_SEAL_AND_FINITE_CELL_DO_NOT_SELECT_THE_MATCH__C_FIXES_CLOCK_RULER_CONVERSION_NOT_ANGULAR_NORMALIZATION",
+  "schema": "udt-reciprocal-angular-intertwiner-1.0",
+  "selection_ruling": "MATCHED_ANGULAR_REPRESENTATION_AND_RELATIVE_ANGULAR_NORMALIZATION_REMAIN_UNSUPPLIED",
+  "sympy_version": "1.14.0"
+}

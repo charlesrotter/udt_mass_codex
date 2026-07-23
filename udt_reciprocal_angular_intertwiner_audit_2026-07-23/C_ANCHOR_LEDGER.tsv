@@ -1,0 +1,6 @@
+control_id	exact_object	result	selection_ruling
+A01_DIMENSION_MATCH	theta_rec=(c_dt,dx_parallel)	TIME_AND_LENGTH_COFRAME_SLOTS_HAVE_LENGTH_UNITS	C_ANCHOR_RETAINED
+A02_COMMUTATION	C_c_D_equals_D_C_c	True	C_DOES_NOT_CHANGE_RECIPROCAL_WEIGHTS
+A03_RAW_METRIC	[[-c**2*exp(-2*phi), 0], [0, exp(2*phi)]]	TEMPORAL_COEFFICIENT_MINUS_C2_EXP_MINUS_2PHI	OBSERVATIONAL_SCALE_EXPLICIT
+A04_KERNEL_RANK	L_S_equals_S_B_independent_of_positive_c	INTERTWINER_EXISTENCE_AND_RANK_UNCHANGED	C_IS_NOT_ANGULAR_REPRESENTATION_SELECTOR
+A05_ANGULAR_NORMALIZATION	theta_ang=angular_radius_times_dimensionless_angle_coframe	angular_radius_remains_independent_symbol	C_DOES_NOT_FIX_ANGULAR_RADIUS

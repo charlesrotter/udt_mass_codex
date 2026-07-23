@@ -1,0 +1,19 @@
+{
+  "python": "3.10.12",
+  "result": "PASS",
+  "runs": [
+    {
+      "returncode": 0,
+      "script": "derive_reciprocal_angular_intertwiner.py",
+      "stderr_bytes": 0,
+      "stdout_bytes": 0
+    },
+    {
+      "returncode": 0,
+      "script": "verify_reciprocal_angular_intertwiner_independent.py",
+      "stderr_bytes": 0,
+      "stdout_bytes": 921
+    }
+  ],
+  "schema": "udt-reciprocal-angular-intertwiner-replay-1.0"
+}

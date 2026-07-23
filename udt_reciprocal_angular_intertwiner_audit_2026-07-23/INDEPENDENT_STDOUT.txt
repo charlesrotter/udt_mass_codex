@@ -1,0 +1,24 @@
+{
+  "bilinear_cross_cases": 10,
+  "c_anchor_values_checked": [
+    "2",
+    "3",
+    "299792458"
+  ],
+  "combined_bilinear_pair_cases": 5,
+  "combined_pair_cases": 5,
+  "completion_rows": 12,
+  "conditional_complete_metric_witnesses": 3,
+  "conditional_lorentz_witness_controls": 2,
+  "continuous_cases": 10,
+  "cross_chart_control": "PASS",
+  "general_determinant_controls": 6,
+  "implementation": "stdlib_fraction_row_reduction_no_sympy_no_production_import",
+  "maximum_conclusion": "NONBLOCK_RECIPROCAL_ANGULAR_INTERTWINERS_EXIST_EXACTLY_FOR_MATCHED_REPRESENTATIONS_BUT_THE_COMPLETE_METRIC_RECIPROCITY_CSN_C_ANCHOR_SEAL_AND_FINITE_CELL_DO_NOT_SELECT_THE_MATCH__C_FIXES_CLOCK_RULER_CONVERSION_NOT_ANGULAR_NORMALIZATION",
+  "mutation_catches": 29,
+  "mutation_catches_passed": 29,
+  "schema": "udt-reciprocal-angular-intertwiner-independent-1.0",
+  "seal_cases": 5,
+  "source_hashes_replayed": 25,
+  "status": "PASS"
+}
