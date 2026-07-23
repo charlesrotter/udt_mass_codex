@@ -1,0 +1,21 @@
+{
+  "clock_coframe_factor": "exp(-phi)->0",
+  "coordinate_map": "r/X=1-exp(-2phi)",
+  "coordinate_reach": "X",
+  "curvature_boundary_status": "FINITE_INVARIANTS_IN_RECORDED_WRL_CONTROL",
+  "global_terminal_boundary_status": "NOT_DERIVED",
+  "metric_control": "ds2=-A*c_E^2*dt2+A^-1*dr2+angular;A=1-r/X=exp(-2phi)",
+  "metric_time_coefficient": "A=exp(-2phi)->0",
+  "optical_map": "r_star/(2X)=phi",
+  "optical_reach": "INFINITE",
+  "proper_map": "ell/(2X)=1-exp(-phi)",
+  "proper_reach": "2X",
+  "schema": "udt-wrl-operational-distance-map-1.0",
+  "three_readouts_equal": false,
+  "witness": {
+    "coordinate_fraction": "3/4",
+    "projective_tanh": "3/5",
+    "proper_fraction": "1/2"
+  },
+  "witness_phi": "log(2)"
+}

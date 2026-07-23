@@ -1,0 +1,23 @@
+{
+  "python": "3.10.12",
+  "result": "PASS",
+  "runs": [
+    {
+      "returncode": 0,
+      "script": "derive_invariant_xmax_boundary.py",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1873,
+      "stdout_sha256": "3871a896664aa413c94febc3b156cd4e5a636952dee37646c29d93ecf4054287"
+    },
+    {
+      "returncode": 0,
+      "script": "verify_invariant_xmax_boundary_independent.py",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 466,
+      "stdout_sha256": "b0132a1205618e675d493f19b68d8c3e960a17bce0dba1540909591d78d5ffd6"
+    }
+  ],
+  "schema": "udt-invariant-xmax-boundary-replay-1.0"
+}

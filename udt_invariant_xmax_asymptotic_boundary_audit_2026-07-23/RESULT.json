@@ -1,0 +1,47 @@
+{
+  "base_commit": "4b85bb2d4b17f146585b3f32d9f0f570f9966492",
+  "boundary_regrade": {
+    "replacement": "ONE_ASYMPTOTIC_DIRECTION_LABELLED_OUTER_LIMIT",
+    "status": "WORKING_INTERPRETATION_PLUS_OPEN_INTERVAL_GEOMETRY",
+    "two_regular_Xmax_seals": "WITHDRAWN_IN_THIS_FRAMING"
+  },
+  "catch_count": 20,
+  "catch_pass_count": 20,
+  "cpu_only": true,
+  "dimensional_scales": {
+    "density": "c_E^2/(G_obs*Xmax^2)",
+    "dimensionless_coefficients": "OPEN",
+    "mass": "c_E^2*Xmax/G_obs",
+    "time": "Xmax/c_E"
+  },
+  "lambda_closed": false,
+  "lambda_result": {
+    "added_area_neutrality": "s^2=lambda^2",
+    "lambda_equals_one": "OPEN",
+    "one_boundary_unattainability": "DOES_NOT_SELECT"
+  },
+  "maximum_conclusion": "UNIVERSAL_UNATTAINABLE_XMAX_IS_A_COHERENT_UDT_WORKING_POSITIONAL_LIMIT_AND_REPLACES_THE_TWO_REGULAR_SEAL_PICTURE;THE_DECLARED_OBSERVER_ACTIONS_ARE_ALL_TRANSLATION_CONJUGATES;TANH_IS_UNIQUE_ONLY_IN_THE_ADDED_ANCHORED_FIRST_DEGREE_PROJECTIVE_CLASS;THE_METRIC_DISTINGUISHES_COORDINATE_PROPER_AND_OPTICAL_REACH_BUT_DOES_NOT_YET_SELECT_THE_POSITION_READOUT_OR_LAMBDA",
+  "metric_led": true,
+  "native_position_law_closed": false,
+  "observer_action_result": {
+    "family": "T_beta(xi)=H(H^-1(xi)-beta),H:R_to_(-1,1)_smooth_increasing_bijection",
+    "status": "CLASSIFIED_IN_DECLARED_1D_CLASS",
+    "unique_tanh": false
+  },
+  "owner_working_premise": "one_universal_unattainable_Xmax_shared_by_ordinary_frames",
+  "position_phi_result": {
+    "metric_controls": [
+      "tanh(phi)",
+      "1-exp(-2phi)",
+      "1-exp(-phi)",
+      "unbounded_phi"
+    ],
+    "physical_projective_join": "OPEN",
+    "tanh": "DERIVED_CONDITIONAL_IN_FIRST_DEGREE_PROJECTIVE_CLASS",
+    "unique_operational_position": "NOT_DERIVED"
+  },
+  "readout_count": 5,
+  "route_count": 16,
+  "schema": "udt-invariant-xmax-asymptotic-boundary-audit-1.0",
+  "source_count": 20
+}

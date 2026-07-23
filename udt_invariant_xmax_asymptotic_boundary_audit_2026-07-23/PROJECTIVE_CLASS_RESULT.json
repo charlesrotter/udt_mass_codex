@@ -1,0 +1,15 @@
+{
+  "anchors": [
+    "F(0)=-1",
+    "F(1)=0",
+    "F(infinity)=+1"
+  ],
+  "physical_readout_premise": "OPEN_NOT_DERIVED",
+  "ratio": "r=v/u=exp(2phi)",
+  "ray": "[u:v]=[exp(-phi):exp(+phi)]",
+  "readout_class": "(a*r+b)/(c*r+d)",
+  "schema": "udt-anchored-projective-position-class-1.0",
+  "status": "DERIVED_CONDITIONAL_ON_FIRST_DEGREE_PROJECTIVE_READOUT",
+  "unique_coefficients_up_to_common_scale": "a=c=d=1;b=-1",
+  "unique_readout": "(r-1)/(r+1)=tanh(phi)"
+}

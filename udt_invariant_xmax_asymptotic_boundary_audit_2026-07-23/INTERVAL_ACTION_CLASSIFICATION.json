@@ -1,0 +1,48 @@
+{
+  "bound_fixed_as_limit": true,
+  "classification": "T_beta(xi)=H(H^-1(xi)-beta),H:R_to_(-1,1)_smooth_increasing_bijection",
+  "compactifications": [
+    {
+      "formula": "tanh(u)",
+      "id": "H_PROJECTIVE",
+      "neutral_slope": "1"
+    },
+    {
+      "formula": "u/sqrt(1+u^2)",
+      "id": "H_ALGEBRAIC",
+      "neutral_slope": "1"
+    },
+    {
+      "formula": "(2/pi)*atan(pi*u/2)",
+      "id": "H_ARCTANGENT",
+      "neutral_slope": "1"
+    },
+    {
+      "epsilon_range_proved_in_parent": "-1<epsilon<1/2",
+      "exact_witness": "epsilon=1/4",
+      "formula": "g_epsilon(tanh(u));g_epsilon(x)=x+epsilon*x^3*(1-x^2)",
+      "id": "H_EPSILON",
+      "neutral_slope": "1"
+    }
+  ],
+  "declared_class": "smooth_effective_complete_transitive_orientation_preserving_one_parameter_actions_on_open_interval_with_reversal",
+  "endpoints_in_domain": false,
+  "group_composition_residual": "EXACT_ZERO_IN_FLOW_COORDINATE",
+  "inverse_residual": "EXACT_ZERO",
+  "oriented_coordinate_signed": true,
+  "physical_distance_signed": false,
+  "proof_coordinate": "for_nonvanishing_complete_generator_v,F(xi)=integral_dxi/v_maps_orbit_to_R_and_F(T_beta)=F-beta",
+  "reversal_residual": "EXACT_ZERO",
+  "schema": "udt-invariant-bound-action-classification-1.0",
+  "slope_matched_witness": {
+    "actual_shifted": "2413/16807",
+    "base_projective_alpha": "1/5",
+    "base_projective_xi": "1/3",
+    "displayed_alpha": "631/3125",
+    "displayed_xi": "83/243",
+    "false_mobius_shifted": "53021/353501",
+    "mismatch": "-38126034/5941291307",
+    "underlying_shifted": "1/7"
+  },
+  "tanh_unique_from_invariant_bound_group_reversal_slope": false
+}

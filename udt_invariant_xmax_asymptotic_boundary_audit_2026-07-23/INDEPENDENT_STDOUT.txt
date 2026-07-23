@@ -1,0 +1,17 @@
+{
+  "all_checks_pass": true,
+  "catch_count": 20,
+  "catch_pass_count": 20,
+  "coframe_checks": 6,
+  "interval_action_checks": 13,
+  "interval_mismatch": "-38126034/5941291307",
+  "lambda_checks": 40,
+  "method": "stdlib_Fraction_no_production_import",
+  "projective_checks": 4,
+  "readout_checks": 5,
+  "route_checks": 16,
+  "schema": "udt-invariant-xmax-independent-verification-1.0",
+  "source_hash_checks": 20,
+  "status_checks": 16,
+  "wrl_readout_checks": 6
+}

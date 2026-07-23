@@ -1,0 +1,11 @@
+{
+  "coframe_selects_H": false,
+  "display": "X=Xmax*H(phi)",
+  "exact_residual": "ZERO",
+  "fundamental_coframe": "L*dphi=L*dX/(Xmax*Hprime(phi))",
+  "jacobian": "dX=Xmax*Hprime(phi)*dphi",
+  "metric_rule": "Q(phi)*dphi^2=Q(phi)*dX^2/(Xmax^2*Hprime(phi)^2)",
+  "regularity_selects_coordinate_chart": false,
+  "schema": "udt-bounded-display-coframe-reparametrization-1.0",
+  "selection_requires": "independently_derived_operational_definition_of_X"
+}

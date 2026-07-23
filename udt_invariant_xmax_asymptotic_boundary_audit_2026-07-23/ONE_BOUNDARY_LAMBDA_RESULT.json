@@ -1,0 +1,84 @@
+{
+  "asymptotic_area_neutrality_if_added": "forces_s^2=lambda^2",
+  "asymptotic_unattainability_alone": "does_not_force_s_or_lambda",
+  "display_H_enters_equations": false,
+  "generic_s_less_lambda_boundary": {
+    "A_rel": "lambda",
+    "S_shape": "0"
+  },
+  "global_nonsingular_range": "0<=s<=lambda",
+  "lambda_one_selected": false,
+  "matched_s_equals_lambda_branch": {
+    "A_rel": "0",
+    "S_shape": "lambda^2"
+  },
+  "schema": "udt-one-asymptotic-boundary-lambda-control-1.0",
+  "scope": "conditional_constant_central_source_Riccati_flow",
+  "t": "tanh(lambda*Delta_phi)",
+  "witnesses": [
+    {
+      "A_rel": "9/35",
+      "S_shape": "256/1225",
+      "denominator": "35/36",
+      "lambda": "1",
+      "s": "1/2",
+      "t": "1/3"
+    },
+    {
+      "A_rel": "270/319",
+      "S_shape": "1444/101761",
+      "denominator": "319/400",
+      "lambda": "1",
+      "s": "1/2",
+      "t": "9/10"
+    },
+    {
+      "A_rel": "18/35",
+      "S_shape": "1024/1225",
+      "denominator": "35/9",
+      "lambda": "2",
+      "s": "1",
+      "t": "1/3"
+    },
+    {
+      "A_rel": "540/319",
+      "S_shape": "5776/101761",
+      "denominator": "319/100",
+      "lambda": "2",
+      "s": "1",
+      "t": "9/10"
+    },
+    {
+      "A_rel": "0",
+      "S_shape": "4",
+      "denominator": "32/9",
+      "lambda": "2",
+      "s": "2",
+      "t": "1/3"
+    },
+    {
+      "A_rel": "0",
+      "S_shape": "4",
+      "denominator": "19/25",
+      "lambda": "2",
+      "s": "2",
+      "t": "9/10"
+    },
+    {
+      "A_rel": "0",
+      "S_shape": "9",
+      "denominator": "8",
+      "lambda": "3",
+      "s": "3",
+      "t": "1/3"
+    },
+    {
+      "A_rel": "0",
+      "S_shape": "9",
+      "denominator": "171/100",
+      "lambda": "3",
+      "s": "3",
+      "t": "9/10"
+    }
+  ]
+}
