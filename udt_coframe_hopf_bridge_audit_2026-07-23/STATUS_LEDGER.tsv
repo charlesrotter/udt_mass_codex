@@ -1,0 +1,15 @@
+id	status	claim	scope
+S01	DERIVED	The complete triangular chart group has independent additive base and angular diagonal-depth characters.	Chosen positive triangular coordinate/internal section; characters survive shear algebraically.
+S02	OPEN	Current UDT selects which chart character, if either, physically owns positional phi.	Controlling reciprocal-subbundle ownership audit remains unchanged.
+S03	DERIVED_CONDITIONAL	Common-scale times reciprocal-diagonal angular coframes form a commutative subgroup.	Aligned diagonal angular axes in the chosen chart.
+S04	DERIVED	The diagonal Hopf-compatible angular subgroup is not normal under the full upper-triangular angular group.	Exact shear conjugation; no claim about a future physical quotient.
+S05	DERIVED_CONDITIONAL_CHART_IDENTITY	Within the toric identification, chosen chart multiplication induces exact logistic connection-weight and hyperbolic Hopf-latitude formulas.	Chosen triangular trivialization, chosen chart composition, aligned axes, common domain, and phiD=scalar phi are supplied.
+S06	OPEN	The coframe group selects or composes the transverse phase delta.	Delta is coordinate/global circle data absent from the pointwise group law.
+S07	CONDITIONAL	The reciprocal-toric quotient is a unit S2 field and a null-direction section.	Requires toric phi/delta and a chosen Lorentzian coframe representative.
+S08	DERIVED	CSN removes common angular scale from the toric connection weight.	It does not select axes, section, phase, or physical reciprocal subbundle.
+S09	DERIVED	The composed finite-endpoint readout does not factor through the two separate endpoint-readout values, so no binary operation on Q alone is induced.	Exact same-input-readout counterexample; no target operation is presumed and global full-range topology remains conditional.
+S10	CONDITIONAL	Full reciprocal range plus supplied periods, circle action, caps, orientation, and normalization gives unit Hopf class.	Existing reciprocal-toric control; none of the global data is newly derived.
+S11	EXACT_CONDITIONAL	The toric quotient formula exactly matches the existing degree-one Hopf seed.	Exact seed-level correspondence, not equality to the relaxed field.
+S12	POSIT	The relaxed Hopfion lives in an independent round-S2 carrier configuration space.	Carrier emergence remains open.
+S13	CONDITIONAL	Existing Hopfion stability remains settled in its static finite-box carrier/action premises.	No time-live, boundary, source, mass, or native-emergence upgrade.
+S14	OPEN	A native coframe-to-Hopf carrier bridge is derived.	Missing physical ownership/gauge descent, phase, global completion, deformation space, and action.

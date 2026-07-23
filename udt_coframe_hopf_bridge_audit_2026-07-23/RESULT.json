@@ -1,0 +1,70 @@
+{
+  "algebra": {
+    "complete_chart_group": {
+      "angular_factor_independent_of_base_and_shift": true,
+      "inverse_residual": "ZERO_4X4",
+      "product_residual": "ZERO_4X4",
+      "zero_shift_subset_closed": true
+    },
+    "conditional_null_section": {
+      "csn_scaled_null_lift_norm": "0",
+      "null_lift_norm": "0",
+      "quotient_norm": "1",
+      "status": "EXACT_AFTER_TORIC_PHI_DELTA_AND_A_COFRAME_REPRESENTATIVE_ARE_SUPPLIED"
+    },
+    "conditional_toric_composition": {
+      "associative": true,
+      "identity": "1/2",
+      "inverse": "1-f",
+      "latitude": "z=2*f-1=-tanh(2*phiD)",
+      "latitude_operation": "(z1 + z2)/(z1*z2 + 1)",
+      "phase_delta_composition": "NOT_PRESENT_IN_POINTWISE_COFRAME_GROUP",
+      "scalar_dphi_rule": "dphi12=dphi1+dphi2 ONLY_IF scalar phi is CHOSEN to equal the angular depth character",
+      "transverse_amplitude": "rho12=rho1*rho2/(1+z1*z2)",
+      "weight": "f=1/(1+exp(4*phiD))",
+      "weight_operation": "f1*f2/(f1*f2+(1-f1)*(1-f2))"
+    },
+    "finite_endpoint_readout": {
+      "pointwise_group_law_is_hopf_charge_homomorphism": false,
+      "q_composed_a": "4/5",
+      "q_composed_b": "89/112",
+      "q_first": "1/2",
+      "q_second_a": "1/2",
+      "q_second_b": "1/2",
+      "same_input_q_different_composed_q": true
+    },
+    "reciprocal_angular_subgroup": {
+      "common_scale_cancels_from_ratio": true,
+      "diagonal_subset_is_normal_in_upper_triangular_group": false,
+      "diagonal_subset_is_subgroup": true,
+      "inverse": "D(Omega,phi)^-1=D(Omega^-1,-phi)",
+      "product": "D(Omega1,phi1)D(Omega2,phi2)=D(Omega1*Omega2,phi1+phi2)",
+      "shear_conjugate_off_diagonal": "shear*exp(phi1) - shear*exp(-phi1)"
+    },
+    "upper_triangular_characters": {
+      "angular_depth": "phiD12=phiD1+phiD2",
+      "angular_scale": "sigmaD12=sigmaD1+sigmaD2",
+      "base_depth": "alpha12=alpha1+alpha2",
+      "base_scale": "sigmaA12=sigmaA1+sigmaA2",
+      "physical_owner_selected": false,
+      "scalar_phi_identification_selected": false,
+      "survive_shear": true
+    }
+  },
+  "counts": {
+    "bridge_dependencies": 11,
+    "exact_conditional_seed_bridges": 1,
+    "independent_additive_chart_depth_characters": 2,
+    "native_carrier_bridges_derived": 0,
+    "registered_candidates": 8,
+    "status_rows": 14
+  },
+  "maximum_conclusion": "EXACT_CONDITIONAL_CHART_LEVEL_ANGULAR_CHARACTER_TO_HOPF_WEIGHT_AND_LATITUDE_CROSSWALK_IDENTIFIED__FRAME_INDEPENDENT_KINEMATIC_LAW_NATIVE_CARRIER_AND_HOPFION_EMERGENCE_REMAIN_OPEN",
+  "rulings": {
+    "hopfion_status": "EXISTING_FULL_3D_HOPFION_REMAINS_STATIC_FINITE_BOX_CARRIER_AND_ACTION_CONDITIONAL",
+    "new_exact_structure": "THE_CHOSEN_COMPLETE_TRIANGULAR_CHART_GROUP_CARRIES_AN_ANGULAR_RECIPROCAL_DEPTH_CHARACTER_WHOSE_ALIGNED_TORIC_SUBGROUP_INDUCES_EXACT_HOPF_CONNECTION_WEIGHT_AND_LATITUDE_FORMULAS",
+    "physical_limit": "CURRENT_UDT_DOES_NOT_SELECT_THE_CHARACTERS_PHYSICAL_OWNER_TORIC_AXES_PHASE_GLOBAL_COMPLETION_DEFORMATION_SPACE_OR_ACTION"
+  },
+  "schema": "udt-coframe-hopf-bridge-audit-v1",
+  "source_count": 25
+}

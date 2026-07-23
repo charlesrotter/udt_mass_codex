@@ -1,0 +1,32 @@
+{
+  "independent_algebra": {
+    "complete_group_inverse_anchors": 1,
+    "complete_group_product_anchors": 1,
+    "diagonal_character_checks": 2,
+    "finite_readout_composites": [
+      "4/5",
+      "89/112"
+    ],
+    "latitude_anchor": "-35/37",
+    "logistic_weight_anchor": "1/37",
+    "nonnormal_conjugate_off_diagonal": "3/2",
+    "null_section_anchor": [
+      "12/25",
+      "16/25",
+      "-3/5"
+    ]
+  },
+  "mutation_catches": {
+    "passed": 16,
+    "total": 16
+  },
+  "record_counts": {
+    "dependencies": 11,
+    "statuses": 14,
+    "subgroups": 8
+  },
+  "result_sha256": "038085ce59e987b16a63398c54e280ed7282a5bca479ae42be79dd48fff36435",
+  "schema": "udt-coframe-hopf-bridge-independent-v1",
+  "sources_checked": 25,
+  "status": "PASS"
+}

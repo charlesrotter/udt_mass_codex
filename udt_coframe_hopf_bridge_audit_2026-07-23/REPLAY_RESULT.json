@@ -1,0 +1,26 @@
+{
+  "all_exit_zero": true,
+  "environment": {
+    "cpu_only": true,
+    "gpu_work_performed": false,
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "independent": {
+    "command": "/usr/bin/python3 /tmp/udt_phi_ontology_XvSL3D/repo/udt_coframe_hopf_bridge_audit_2026-07-23/verify_bridge_independent.py",
+    "exit_code": 0,
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_bytes": 757,
+    "stdout_sha256": "93d954afc6d3c32a81bd041e885817da0b617f1444c9bde690445d7679d5ac18"
+  },
+  "production": {
+    "command": "/usr/bin/python3 /tmp/udt_phi_ontology_XvSL3D/repo/udt_coframe_hopf_bridge_audit_2026-07-23/derive_bridge.py",
+    "exit_code": 0,
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_bytes": 3065,
+    "stdout_sha256": "038085ce59e987b16a63398c54e280ed7282a5bca479ae42be79dd48fff36435"
+  },
+  "schema": "udt-coframe-hopf-bridge-replay-v1"
+}
