@@ -1,0 +1,17 @@
+{
+  "bulk_result_when_selected": "B_is_constant_J0_and_A_rel=0_S_shape=1_throughout",
+  "conditional_transport": "D_T(B)+B^2-I=0",
+  "first_seal_data": "B0=J0; tr(J0)=0; J0^2=s^2*I",
+  "missing_join": "Delta_K=K_eff_angular-K_rec=0",
+  "missing_join_status": "UNREGISTERED_NOT_DERIVED",
+  "native_status": "NOT_A_CURRENT_UDT_DERIVATION",
+  "parallel_screen_solution": "B(t)=(B0+t*I)*(I+t*B0)^-1; t=tanh(Delta_phi)",
+  "reciprocal_effective_source": "K_rec=-L^2=-I",
+  "reciprocal_generator": "L=diag(-1,+1)",
+  "relative_area": "t*(s - 1)*(s + 1)/((s*t - 1)*(s*t + 1))",
+  "schema": "udt-reciprocal-source-two-seal-conditional-1.0",
+  "scope": "CONDITIONAL_ON_UNREGISTERED_SOURCE_EQUALITY_TWO_REGULAR_SEALS_PARALLEL_SCREEN_AND_NONSINGULAR_FLOW",
+  "second_seal_result": "for_nonzero_finite_nonsingular_cell_A_rel_second=0_iff_s^2=1",
+  "shape_speed": "s**2*(t - 1)**2*(t + 1)**2/((s*t - 1)**2*(s*t + 1)**2)",
+  "transport_residual": "EXACT_ZERO"
+}

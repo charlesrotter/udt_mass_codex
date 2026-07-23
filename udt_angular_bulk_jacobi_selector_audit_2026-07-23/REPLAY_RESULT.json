@@ -1,0 +1,19 @@
+{
+  "python": "3.10.12",
+  "result": "PASS",
+  "runs": [
+    {
+      "returncode": 0,
+      "script": "derive_angular_bulk_jacobi_selector.py",
+      "stderr_bytes": 0,
+      "stdout_bytes": 0
+    },
+    {
+      "returncode": 0,
+      "script": "verify_angular_bulk_jacobi_selector_independent.py",
+      "stderr_bytes": 0,
+      "stdout_bytes": 941
+    }
+  ],
+  "schema": "udt-angular-bulk-jacobi-selector-replay-1.0"
+}

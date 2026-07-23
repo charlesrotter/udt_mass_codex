@@ -1,0 +1,21 @@
+{
+  "acceleration": "a=nabla_T(T)",
+  "complement_projector": "Q=I-P",
+  "curvature_convention": "R_T(X)=R(X,T)T",
+  "effective_source": "K_eff=P*R_T*P+X*Y-U*Y-X*V-P*nabla(a)*P",
+  "full_flow_endomorphism": "M(X)=nabla_X(T)",
+  "full_identity": "nabla_T(M)+M^2+R_T-nabla(a)=0",
+  "leakage": {
+    "U": "P*(nabla_T P)*Q",
+    "V": "Q*(nabla_T P)*P",
+    "X": "P*M*Q",
+    "Y": "Q*M*P"
+  },
+  "nonblock_terms_retained": true,
+  "projected_identity": "D_T(B)+B^2+K_eff=0",
+  "schema": "udt-complete-projected-jacobi-1.0",
+  "screen_deformation": "B=P*M*P",
+  "screen_projector": "P",
+  "screen_transport": "D_T(B)=P*nabla_T(P*M*P)*P",
+  "status": "DERIVED_EXACT_IDENTITY_NOT_INDEPENDENT_FIELD_EQUATION"
+}

@@ -1,0 +1,10 @@
+{
+  "B": "(1/2)q^-1*q_p",
+  "B_p": "(1/2)(-q^-1*q_p*q^-1*q_p+q^-1*q_pp)",
+  "identity_residual": "EXACT_ZERO",
+  "phi_coordinate_tidal": "R_T=-B_p+kappa*B-B^2",
+  "q": "generic_positive_symmetric_2x2",
+  "q_self_adjoint": true,
+  "reduced_identity": "B_p-kappa*B+B^2+R_T=0",
+  "same_q_qp_arbitrary_qpp_tidal_rank": 3
+}

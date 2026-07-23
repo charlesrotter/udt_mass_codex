@@ -1,0 +1,37 @@
+{
+  "base_commit": "1844bdf884b2cbeb8be7dda0aa81689c249cbc68",
+  "compute": {
+    "cpu_only": true,
+    "gpu_work_performed": false
+  },
+  "counts": {
+    "boundary_rows": 7,
+    "catch_proofs": 27,
+    "complete_on_shell_g_phi_branches": 0,
+    "conditional_bulk_law_derivations": 0,
+    "controls": 19,
+    "joins": 11,
+    "native_bulk_law_derivations": 0,
+    "nonblock_controls": 3,
+    "q_second_jet_tidal_rank": 3,
+    "routes": 12,
+    "source_freedoms": 10,
+    "sources": 20,
+    "unregistered_conditional_closure_theorems": 1
+  },
+  "derived_object": "D_T(B)+B^2+K_eff=0_with_complete_projected_source",
+  "effective_source": "K_eff=P*R_T*P+X*Y-U*Y-X*V-P*nabla(a)*P",
+  "maximum_conclusion": "COMPLETE_METRIC_DERIVES_THE_COVARIANT_ANGULAR_JACOBI_TRANSPORT_OBJECT_BUT_CURRENT_UDT_PREMISES_DO_NOT_SUPPLY_ITS_INDEPENDENT_CURVATURE_CLOSURE",
+  "schema": "udt-angular-bulk-jacobi-selector-1.0",
+  "selection_ruling": "TRANSPORT_OBJECT_DERIVED__INDEPENDENT_CURVATURE_CLOSURE_OPEN__TARGET_PAIR_NOT_FORCED",
+  "smallest_missing_join": "Delta_K=K_eff_angular-K_rec=0",
+  "strongest_conditional_closure": "for_nonzero_finite_nonsingular_cell_A_rel_second=0_iff_s^2=1",
+  "sympy_version": "1.14.0",
+  "target_source_equivalence": {
+    "constant_unit_norm": "tr(J*SymTF(K_eff))=0",
+    "diagnostics": "A_rel=0 AND S_shape=1",
+    "shape_transport": "D_T(J)+SymTF(K_eff)=0",
+    "trace_source": "tr(K_eff)=-2+2*omega^2",
+    "twistfree_trace_source": "tr(K_eff)=-2"
+  }
+}

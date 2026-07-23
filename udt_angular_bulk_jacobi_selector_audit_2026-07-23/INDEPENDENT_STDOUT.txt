@@ -1,0 +1,30 @@
+{
+  "conditional_two_seal_controls": 4,
+  "csn_c_controls": 3,
+  "endpoint_flat_exact_checks": 6,
+  "implementation": "stdlib_Fraction_full_projection_reduced_jets_nonblock_congruence_CSN_controls_and_exercised_mutations",
+  "maximum_conclusion": "COMPLETE_METRIC_DERIVES_THE_COVARIANT_ANGULAR_JACOBI_TRANSPORT_OBJECT_BUT_CURRENT_UDT_PREMISES_DO_NOT_SUPPLY_ITS_INDEPENDENT_CURVATURE_CLOSURE",
+  "mutation_catches": 27,
+  "projected_identity_checks": 2,
+  "q_second_jet_tidal_rank": 3,
+  "rational_nonblock_controls": 3,
+  "rational_reduced_controls": 3,
+  "schema": "udt-angular-bulk-jacobi-independent-1.0",
+  "source_hashes_replayed": 20,
+  "status": "PASS",
+  "target_nonaffinity_controls": {
+    "-3": {
+      "trace": "-2",
+      "tracefree": "kappa*J"
+    },
+    "0": {
+      "trace": "-2",
+      "tracefree": "kappa*J"
+    },
+    "2": {
+      "trace": "-2",
+      "tracefree": "kappa*J"
+    }
+  },
+  "trace_shape_twist_controls": 3
+}

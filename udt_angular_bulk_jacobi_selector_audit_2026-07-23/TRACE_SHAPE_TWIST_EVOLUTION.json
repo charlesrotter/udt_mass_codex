@@ -1,0 +1,24 @@
+{
+  "J_properties": "q_self_adjoint_tracefree",
+  "W_properties": "q_skew",
+  "decomposition": "B=A_rel*I+J+W",
+  "nonaffine_twistfree_projectable_control": {
+    "K_eff": "R_T-kappa*B",
+    "fixed_axis_target_R_tf": "kappa*J",
+    "fixed_axis_target_R_trace": "-2"
+  },
+  "schema": "udt-angular-trace-shape-twist-1.0",
+  "shape_equation": "D_T(J)+2*A_rel*J+SymTF(K_eff)=0",
+  "shape_speed": "S_shape=(1/2)tr(J^2)",
+  "target_requires": {
+    "constant_unit_norm": "tr(J*SymTF(K_eff))=0",
+    "diagnostics": "A_rel=0 AND S_shape=1",
+    "shape_transport": "D_T(J)+SymTF(K_eff)=0",
+    "trace_source": "tr(K_eff)=-2+2*omega^2",
+    "twistfree_trace_source": "tr(K_eff)=-2"
+  },
+  "trace_equation": "D_T(A_rel)+A_rel^2+S_shape-omega^2+(1/2)tr(K_eff)=0",
+  "twist_equation": "D_T(W)+2*A_rel*W+Skew(K_eff)=0",
+  "twist_speed": "omega^2=-(1/2)tr(W^2)",
+  "two_dimensional_square": "B^2=(A_rel^2+S_shape-omega^2)I+2*A_rel*J+2*A_rel*W"
+}

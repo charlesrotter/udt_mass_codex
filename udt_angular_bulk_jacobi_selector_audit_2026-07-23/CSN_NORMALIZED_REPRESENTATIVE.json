@@ -1,0 +1,26 @@
+{
+  "angular_mean_in_star": "A_rel",
+  "c_controls": [
+    {
+      "c": "2",
+      "minus_det_h_star": "4"
+    },
+    {
+      "c": "3",
+      "minus_det_h_star": "9"
+    },
+    {
+      "c": "299792458",
+      "minus_det_h_star": "89875517873681764"
+    }
+  ],
+  "common_scale_rule": "G->lambda^2*G; Omega_h->lambda*Omega_h; G_star_unchanged",
+  "conditional_on": "supplied_regular_reciprocal_2plane",
+  "connection_curvature": "Levi_Civita(G_star)_and_projected_Jacobi_object",
+  "normalizer": "Omega_h=(abs(det(h))/c^2)^(1/4)",
+  "reciprocal_determinant": "det(h_star)=-c^2",
+  "representative": "G_star=Omega_h^-2*G",
+  "schema": "udt-csn-normalized-representative-1.0",
+  "status": "DERIVED_CSN_INVARIANT_DIAGNOSTIC_REPRESENTATIVE_NOT_SELECTED_DYNAMICS",
+  "symbolic_scaling_residual": "0"
+}
