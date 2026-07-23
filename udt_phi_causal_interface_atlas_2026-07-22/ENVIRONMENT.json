@@ -1,0 +1,10 @@
+{
+  "base_commit": "03e0e9407c756ad4cae2fbf4a4814c820aeaf5fc",
+  "cpu_only": true,
+  "git": "2.34.1",
+  "gpu_runs": 0,
+  "interval_decimal_precision": 80,
+  "maximum_interval_depth": 22,
+  "mpmath": "1.3.0",
+  "python": "3.10.12"
+}

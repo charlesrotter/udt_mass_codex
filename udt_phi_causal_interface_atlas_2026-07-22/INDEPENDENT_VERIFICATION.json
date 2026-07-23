@@ -1,0 +1,72 @@
+{
+  "completion_rows_verified": 36,
+  "frozen_generator_crosscheck": {
+    "active_identity_probes": 13824,
+    "causal_mismatches": 0,
+    "method": "DIRECT_IMPORT_OF_FROZEN_GENERATOR_FULL_MATRIX_SOLVE",
+    "minimum_abs_s": 5.431940626410886e-06,
+    "probe_parameters": [
+      "1/37",
+      "5/37",
+      "9/37",
+      "13/37",
+      "17/37",
+      "21/37",
+      "25/37",
+      "29/37",
+      "33/37"
+    ]
+  },
+  "identity_causal_census": {
+    "IDENTICALLY_ZERO_DPHI_INTERVAL": 1536,
+    "UNIFORMLY_SPACELIKE": 1152,
+    "UNIFORMLY_TIMELIKE": 384
+  },
+  "identity_rows_verified": 3072,
+  "independent_subdivision_depth_census": {
+    "0": 1776,
+    "1": 667,
+    "2": 586,
+    "3": 43
+  },
+  "method": "INDEPENDENT_FULL_4X4_INTERVAL_MATRIX_ADJUGATE_OVER_DETERMINANT",
+  "mutation_catches": {
+    "DUPLICATE_IDENTITY": "PASS_REJECTED",
+    "FALSE_CONTINUOUS_MOTIF_CLASSIFICATION": "PASS_REJECTED",
+    "FLIPPED_CAUSAL_STATUS": "PASS_REJECTED",
+    "MISSING_IDENTITY": "PASS_REJECTED",
+    "OMITTED_SHIFT_SECTOR": "PASS_REJECTED",
+    "OVERCLAIMED_GLOBAL_COMPLETION": "PASS_REJECTED",
+    "STALE_PATH_PRESENTATION_JOIN": "PASS_REJECTED",
+    "STALE_PHI_PROJECTOR_JOIN": "PASS_REJECTED"
+  },
+  "path_presentation_census": {
+    "IDENTICALLY_ZERO_DPHI_INTERVAL": 47616,
+    "UNIFORMLY_SPACELIKE": 35712,
+    "UNIFORMLY_TIMELIKE": 11904
+  },
+  "path_presentations_verified": 95232,
+  "phi_projector_join_verification": {
+    "continuous_complete_motif_classification_certified": false,
+    "continuous_s_sign_certified": true,
+    "spacelike_node_evidence": 36720,
+    "spacelike_path_presentations": 2160,
+    "timelike_node_evidence": 12240,
+    "timelike_path_presentations": 720
+  },
+  "shift_mutation_witness": {
+    "full_s_mid": 0.0003627319158956679,
+    "identity_id": "B0_R00_1_M8",
+    "shift_omitted_s_mid": 0.000602871770347319
+  },
+  "status": "PASS",
+  "verified_artifact_sha256": {
+    "COMPLETION_CAUSAL_COMPATIBILITY.tsv": "e420a78857e8000506f0e34f67d8e6a70af58cf06b998b499c2d970d9746ac2e",
+    "IDENTITY_CAUSAL_CERTIFICATES.tsv": "b1ff6dc3f63cc7d052b66ee1fea2cf0088e119965a04c089b5cb3aa106466189",
+    "INTERFACE_ATLAS.tsv": "5b00337105ac69d2a712d60b93f3c23b5c8091c67be169410b3e11c18f35058d",
+    "INTERVAL_SIGN_CERTIFICATES.tsv.gz": "f7bf3ef107eaaac79b5999537281c0e29be386bfbc9d3f1d244684ab403686d6",
+    "PATH_PRESENTATION_CAUSAL_ATLAS.tsv.gz": "a6ae74f2cbffcbc990037084a067312f8ae782d5de5ac6d9c4d252131d4dc96c",
+    "REGISTERED_BANK_CAUSAL_PARTITION.tsv": "6d4374402c3a5b6a889b095a771f5aa7fd68d9fd82f4184c48cb968c9c24c248",
+    "RESULT.json": "8b2ebce0ab8c4b192abacf1f373811dd4702f7b57a5b5be06f2c9a7022cd83c9"
+  }
+}

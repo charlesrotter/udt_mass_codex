@@ -1,0 +1,46 @@
+{
+  "independent_catches_passed": 8,
+  "independent_method": "INDEPENDENT_FULL_4X4_INTERVAL_MATRIX_ADJUGATE_OVER_DETERMINANT",
+  "maximum_conclusion": "BOUNDED_REGISTERED_PHI_CAUSAL_INTERFACE_AND_REGIME_ASSEMBLY_ATLAS_CHARACTERIZED",
+  "package_catches_passed": 20,
+  "state": {
+    "actions_loaded": 0,
+    "atlas_deformation_vectors_loaded": 48,
+    "bank_partition": {
+      "B0": "UNIFORMLY_SPACELIKE",
+      "B1": "UNIFORMLY_SPACELIKE",
+      "B2": "UNIFORMLY_SPACELIKE",
+      "B3": "UNIFORMLY_TIMELIKE"
+    },
+    "bank_physical_labels": 0,
+    "carrier_key_meaning": "MATTER_CARRIERS_SELECTED",
+    "completion_rows": 36,
+    "continuous_complete_motif_claim": false,
+    "exact_spacelike_joins": 2160,
+    "exact_timelike_joins": 720,
+    "frozen_generator_probes": 13824,
+    "full_interval_boxes": 1536,
+    "identity_census": {
+      "IDENTICALLY_ZERO_DPHI_INTERVAL": 1536,
+      "UNIFORMLY_SPACELIKE": 1152,
+      "UNIFORMLY_TIMELIKE": 384
+    },
+    "identity_count": 3072,
+    "identity_unique": 3072,
+    "independent_catches": 8,
+    "independent_pass": true,
+    "independent_spacelike_joins": 2160,
+    "independent_timelike_joins": 720,
+    "interface_rows": 0,
+    "interval_rows": 1536,
+    "matter_carriers_loaded": 0,
+    "metric_degeneracies": 0,
+    "path_count": 95232,
+    "path_unique": 95232,
+    "physical_labels": 0,
+    "report_guards": true,
+    "selected_completions": 0,
+    "source_integrity": true
+  },
+  "status": "PASS_WITH_REGISTERED_SCOPE"
+}

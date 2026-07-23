@@ -1,0 +1,37 @@
+{
+  "actions_loaded": 0,
+  "analytic_identities": 3072,
+  "atlas_deformation_vectors_loaded": 48,
+  "base": "03e0e9407c756ad4cae2fbf4a4814c820aeaf5fc",
+  "carriers_loaded": 0,
+  "carriers_loaded_meaning": "MATTER_CARRIERS_SELECTED",
+  "certified_interfaces": 0,
+  "completion_cross_rows": 36,
+  "completion_taxonomy_rows": 12,
+  "gpu_runs": 0,
+  "identity_causal_census": {
+    "IDENTICALLY_ZERO_DPHI_INTERVAL": 1536,
+    "UNIFORMLY_SPACELIKE": 1152,
+    "UNIFORMLY_TIMELIKE": 384
+  },
+  "interval_certificate_boxes": 1536,
+  "maximum_conclusion": "BOUNDED_REGISTERED_PHI_CAUSAL_INTERFACE_AND_REGIME_ASSEMBLY_ATLAS_CHARACTERIZED",
+  "metric_degeneracies": 0,
+  "path_presentations": 95232,
+  "physical_regime_labels_assigned": 0,
+  "presentation_causal_census": {
+    "IDENTICALLY_ZERO_DPHI_INTERVAL": 47616,
+    "UNIFORMLY_SPACELIKE": 35712,
+    "UNIFORMLY_TIMELIKE": 11904
+  },
+  "registered_bank_partition": {
+    "B0": "UNIFORMLY_SPACELIKE",
+    "B1": "UNIFORMLY_SPACELIKE",
+    "B2": "UNIFORMLY_SPACELIKE",
+    "B3": "UNIFORMLY_TIMELIKE"
+  },
+  "signature_transitions": 0,
+  "source_path_nodes_accounted": 1618944,
+  "status": "PASS_WITH_REGISTERED_SCOPE",
+  "unresolved_interface_boxes": 0
+}

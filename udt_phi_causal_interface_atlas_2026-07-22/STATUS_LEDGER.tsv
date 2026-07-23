@@ -1,0 +1,17 @@
+status_id	object	status	scope	evidence	remaining_open
+S01	full_coframe_metric	DERIVED	finite registered analytic points	EXACT_IDENTITY_LEDGER.tsv:E01	global solution and physical branch
+S02	metric_determinant	DERIVED	det(g)=-exp(2*(a+c+d+f))	EXACT_IDENTITY_LEDGER.tsv:E02	none within stated coframe
+S03	phi_dyad_identity	DERIVED	D^2=sD	EXACT_IDENTITY_LEDGER.tsv:E03	null-interface continuation and physical interpretation
+S04	CSN_causal_invariance	DERIVED	positive common-scale transformations	EXACT_IDENTITY_LEDGER.tsv:E04	scale selection
+S05	phi_silent_intervals	OBSERVED	1536 registered analytic identities over full chords	IDENTITY_CAUSAL_CERTIFICATES.tsv	physical relevance
+S06	spacelike_phi_intervals	OBSERVED	1152 registered analytic identities over full chords	IDENTITY_CAUSAL_CERTIFICATES.tsv	physical selection and global completion
+S07	timelike_phi_intervals	OBSERVED	384 registered analytic identities over full chords	IDENTITY_CAUSAL_CERTIFICATES.tsv	physical selection orientation and global completion
+S08	registered_null_interfaces	OBSERVED	zero across the retained chords	INTERFACE_ATLAS.tsv	interfaces outside the registered path universe
+S09	registered_bank_partition	OBSERVED	B0-B2 spacelike and B3 timelike for all active registered deformations	REGISTERED_BANK_CAUSAL_PARTITION.tsv	relation between banks
+S10	angular_shift_included_nonvacuous	OBSERVED	independent full-matrix route and exercised omission mutation	INDEPENDENT_VERIFICATION.json	no causal-class change established by the mutation
+S11	exact_spacelike_phi_projector_join	OBSERVED	2160 presentations at all 17 frozen nodes plus continuous positive s	MOTIF_CAUSAL_JOIN_CENSUS.tsv;INDEPENDENT_VERIFICATION.json	continuous full-motif persistence global depth and intra-leaf time
+S12	exact_timelike_phi_projector_join	OBSERVED	720 presentations at all 17 frozen nodes plus continuous negative s	MOTIF_CAUSAL_JOIN_CENSUS.tsv;INDEPENDENT_VERIFICATION.json	continuous full-motif persistence global orientation and clock scale
+S13	completion_cross	OBSERVED	three causal classes crossed with twelve completion families	COMPLETION_CAUSAL_COMPATIBILITY.tsv	complete witnesses and selection
+S14	physical_regime_assignment	OPEN	no distance density mass or empirical scale loaded	AUDIT_REPORT.md	particle force cosmic or ordinary-clock interpretation
+S15	whole_solution_sector_join	OPEN	banks are separate registered analytic constructions	AUDIT_REPORT.md	continuous configuration-space or solution-space bridge
+S16	complete_action_matter_source_carrier	OPEN	outside audit scope	PREMISE_STATUS_LEDGER.tsv	native action source carrier and scale

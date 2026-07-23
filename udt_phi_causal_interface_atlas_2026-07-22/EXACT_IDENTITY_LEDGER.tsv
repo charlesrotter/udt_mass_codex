@@ -1,0 +1,6 @@
+identity	status	statement	consequence
+E01_METRIC_COFRAME	DERIVED_EXACT	g is congruent to diag(-1,+1,+1,+1) through an everywhere-invertible exponential triangular coframe	registered analytic metrics are Lorentzian and nondegenerate on every finite path point
+E02_METRIC_DETERMINANT	DERIVED_EXACT	det(g)=-exp(2*(a+c+d+f))	det(g) is strictly negative; a null dphi event is not metric degeneracy
+E03_PHI_DYAD	DERIVED_EXACT	D=grad(phi) tensor dphi and D^2=s*D	D/s is a projector only where s is nonzero; at a regular null event D is rank-one nilpotent
+E04_CSN_CAUSAL_TYPE	DERIVED_EXACT	under g->Omega^2*g with Omega>0, s->Omega^-2*s	the sign and zero set of s are Common-Scale invariant
+E05_COFRAME_NORM	DERIVED_EXACT	s=-(A/u)^2+((B-b*A/u)/w)^2+(p2/r)^2+((p3-e*p2/r)/t)^2 after shift adjustment	interval certification evaluates the full metric including angular and shift sectors

@@ -1,0 +1,21 @@
+premise_id	premise	status	classification	evidence_or_source	consequence
+P01	base_repository_state	exact commit 03e0e9407c756ad4cae2fbf4a4814c820aeaf5fc	pinned-by-THEORY	PREREGISTRATION.md	source universe frozen before outcome
+P02	analytic_identity_universe	3072 retained identities	CHOSE	COHERENT_IDENTITY_REGISTRY.tsv	bounded atlas not all possible metrics
+P03	path_presentation_universe	95232 identity-family presentations and 1618944 source nodes	CHOSE	PATH_FAMILY_ATLAS.tsv.gz	presentations are not separate universes
+P04	coordinate_chords	four rational point pairs over u in [0,1]	CHOSE	PREREGISTRATION.md	local analytic chords not complete finite cells
+P05	full_metric_coframe	base angular and all four shifts retained	pinned-by-THEORY	EXACT_IDENTITY_LEDGER.tsv	no frozen angular or shift sector
+P06	phi_scalar	registered beta-weighted analytic scalar gradient	CHOSE	verify_correspondence_independent.py	no field equation or physical phi branch assumed
+P07	phi_off_masks	beta exactly zero for masks M0-M7	DERIVED	IDENTITY_CAUSAL_CERTIFICATES.tsv	counted as identically-zero intervals
+P08	causal_scalar	s=g^-1(dphi,dphi)	DERIVED	EXACT_IDENTITY_LEDGER.tsv	sign class is metric-native
+P09	null_projector_handling	D remains defined while D/s is forbidden at s=0	DERIVED	EXACT_IDENTITY_LEDGER.tsv	no artificial normalization across a null event
+P10	interval_certification	80-decimal outward interval arithmetic with max depth 22	CHOSE	requirements.txt;build_phi_causal_interface_atlas.py	unresolved boxes would remain open
+P11	independent_routes	full 4x4 matrix adjugate over determinant plus frozen-generator probe	CHOSE	verify_phi_causal_interface_independent.py	does not import production builder; common frozen source is explicit
+P12	common_scale	positive common rescaling only	pinned-by-THEORY	EXACT_IDENTITY_LEDGER.tsv	sign and zero set preserved
+P13	global_completion	twelve existing completion classes crossed as requirements	CHOSE	COMPLETION_CAUSAL_COMPATIBILITY.tsv	no complete witness inferred
+P14	physical_regime_labels	none assigned	OPEN	RESULT.json	banks cannot be called particle or cosmic regimes
+P15	action	none loaded	OPEN	RESULT.json	no EOM or dynamics conclusion
+P16	matter_carrier	none loaded; 48 atlas deformation vectors loaded	OPEN	RESULT.json	parameter-vector registry is not an S2 matter carrier
+P17	source_and_density	none loaded	OPEN	AUDIT_REPORT.md	no mass-density or bootstrap calibration conclusion
+P18	observational_anchors	none loaded	OPEN	AUDIT_REPORT.md	no c G electron mass SNe or CMB calibration
+P19	global_solution	no bank-to-bank whole-metric solution supplied	OPEN	AUDIT_REPORT.md	coexistence in one universe not derived
+P20	computation	CPU interval algebra only	CHOSE	COMMANDS.md	no GPU solve or time evolution

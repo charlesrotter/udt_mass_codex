@@ -1,0 +1,23 @@
+{
+  "all_exit_zero": true,
+  "all_outputs_byte_identical": true,
+  "exit_codes": {
+    "independent": 0,
+    "production": 0
+  },
+  "output_sha256": {
+    "COMPLETION_CAUSAL_COMPATIBILITY.tsv": "e420a78857e8000506f0e34f67d8e6a70af58cf06b998b499c2d970d9746ac2e",
+    "EXACT_IDENTITY_LEDGER.tsv": "b1f59f746f58dfa3a90957ec1e4770776d4fdb614d77473b6c639f1ed7430f7f",
+    "IDENTITY_CAUSAL_CERTIFICATES.tsv": "b1ff6dc3f63cc7d052b66ee1fea2cf0088e119965a04c089b5cb3aa106466189",
+    "INDEPENDENT_VERIFICATION.json": "3e0b8593188889afed0605b7d6e6e8faa2a29b794a7a5c35f59f57e6215db94e",
+    "INTERFACE_ATLAS.tsv": "5b00337105ac69d2a712d60b93f3c23b5c8091c67be169410b3e11c18f35058d",
+    "INTERVAL_SIGN_CERTIFICATES.tsv.gz": "f7bf3ef107eaaac79b5999537281c0e29be386bfbc9d3f1d244684ab403686d6",
+    "MOTIF_CAUSAL_JOIN_CENSUS.tsv": "e9d64ac5f9f85650c4f7f3e92b49333d8c9d09f2563f6df5acd616ee163bb7b7",
+    "PATH_PRESENTATION_CAUSAL_ATLAS.tsv.gz": "a6ae74f2cbffcbc990037084a067312f8ae782d5de5ac6d9c4d252131d4dc96c",
+    "REGISTERED_BANK_CAUSAL_PARTITION.tsv": "6d4374402c3a5b6a889b095a771f5aa7fd68d9fd82f4184c48cb968c9c24c248",
+    "RESULT.json": "8b2ebce0ab8c4b192abacf1f373811dd4702f7b57a5b5be06f2c9a7022cd83c9",
+    "SOURCE_LEDGER.tsv": "ee2e78ab3f1920ff51ab2da6f869c1ddb7b34f482bf01de421ed8464460828d3"
+  },
+  "outputs": 11,
+  "status": "PASS"
+}
