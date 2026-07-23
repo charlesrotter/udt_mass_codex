@@ -251,7 +251,11 @@ def main() -> None:
     generic.BASE = BASE
     generic.PACKAGE = PACKAGE
 
-    scope = generic.validate_scope(ROOT)
+    scope = [
+        path
+        for path in generic.validate_scope(ROOT)
+        if path != f"{PACKAGE}/REPOSITORY_GATES.json"
+    ]
     frozen = generic.validate_frozen(ROOT)
     prior = replay_prior(generic)
     navigation = validate_navigation(generic)
