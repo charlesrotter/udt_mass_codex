@@ -1,0 +1,72 @@
+{
+  "authority_boundary": "THE_WRL_ALGEBRA_DERIVES_A_CENTERED_RELATIONAL_CLOCK_RULER_ASYMPTOTE_AT_A_ZERO_AND_NO_ADMISSIBLE_CONTINUATION_PRESERVING_THE_SAME_CLOCK_RULER_POLARIZATION;THE_REGULAR_INGOING_EXTENSION_PROVES_ONLY_MANIFOLD_EXTENDIBILITY_NOT_A_PHYSICAL_OBSERVER_CROSSING;DISTINCT_OBSERVER_CENTERS_CANNOT_BE_STANDARD_OVERLAPPING_COORDINATE_CHARTS_OF_THE_SAME_NONHOMOGENEOUS_WRL_TENSOR_GEOMETRY;LOCAL_INERTIAL_FRAME_EQUIVALENCE_IS_DERIVED_BUT_GLOBAL_OBSERVER_RECENTERING_AND_COMMON_XMAX_REQUIRE_AN_OBSERVER_INDEXED_COMPOSITION_LAW_OR_COMPLETE_METRIC_NOT_YET_DERIVED;A_VARYING_COFRAME_CHANGES_CONNECTION_COMPONENTS_BUT_NOT_INVARIANT_CURVATURE_OR_CONES_WITHOUT_A_PHYSICAL_METRIC_RESPONSE_LAW",
+  "base": "2ffafce",
+  "catch_proofs": {
+    "current_paths": "PASS",
+    "dirty_checkout": "PASS",
+    "frontier": "PASS",
+    "frozen_manifests": "PASS",
+    "package_manifest": "PASS",
+    "parent_package": "PASS",
+    "physical_crossing_promotion": "PASS",
+    "scope": "PASS"
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_used": false
+  },
+  "dirty_checkout": {
+    "branch": "grok",
+    "contents_read": false,
+    "head": "adf8f92d95c387cc647f04b16f1f3b17e1e670d2",
+    "metadata_sha256": "4bc96070c841a14c497b642ee7b93dcf9061372f770aee065d6b495ee4996f4c",
+    "path_count": 54,
+    "unchanged": true
+  },
+  "frozen_evidence": {
+    "manifest_count": 6,
+    "manifest_entry_count": 127,
+    "tracked_path_count": 133,
+    "unchanged": true
+  },
+  "navigation": {
+    "current_artifact_identity_count": 1114,
+    "frontier_row_count": 306,
+    "frontier_target_count": 101,
+    "resolved": true
+  },
+  "package_manifest": {
+    "entry_count": 22,
+    "manifest_sha256": "024e32b90f0ba6fe7ef56b957f04cc88d375a9325597832d60d887768b7ab57b",
+    "verified": true
+  },
+  "parent_package": {
+    "entry_count": 23,
+    "manifest_sha256": "1401fe8da653c6e8016b915f5c13d2c0660bd199f7d6b1b32acabb1dd3fdfaee",
+    "unchanged": true
+  },
+  "prior_scientific_evidence": {
+    "manifest_entry_count": 2973,
+    "package_count": 102,
+    "verified": true
+  },
+  "science": {
+    "acceleration_rows": 10,
+    "center_compatibility_rows": 12,
+    "independent_catch_count": 18,
+    "independent_check_count": 72,
+    "independent_imports_production_module": false,
+    "parent_regrades": 15,
+    "production_check_count": 48,
+    "production_semantic_catch_count": 14,
+    "source_hash_count": 16,
+    "status_count": 30
+  },
+  "tests": {
+    "failed": 0,
+    "passed": 70,
+    "status": "PASS",
+    "stdout_sha256": "cfb874bc4005f07c4d1dcb5187bc5299ed8527c9f5b9b83c90385cf32cfda522",
+    "xfailed": 1
+  }
+}

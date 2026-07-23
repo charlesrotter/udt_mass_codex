@@ -1,0 +1,352 @@
+{
+  "all_checks_pass": true,
+  "check_count": 48,
+  "checks": [
+    {
+      "detail": "6/(X*r)",
+      "name": "ricci_scalar",
+      "pass": true
+    },
+    {
+      "detail": "8/(X**2*r**2)",
+      "name": "kretschmann_scalar",
+      "pass": true
+    },
+    {
+      "detail": "-log(1 - r/X)/2",
+      "name": "A_phi_relation",
+      "pass": true
+    },
+    {
+      "detail": "-X*log(1 - r/X)",
+      "name": "rstar_phi_relation",
+      "pass": true
+    },
+    {
+      "detail": "sqrt(A)->0",
+      "name": "clock_limit",
+      "pass": true
+    },
+    {
+      "detail": "phi->+infinity",
+      "name": "phi_limit",
+      "pass": true
+    },
+    {
+      "detail": "conditional e^phi readout only",
+      "name": "observational_mass_factor_limit",
+      "pass": true
+    },
+    {
+      "detail": "2*X",
+      "name": "proper_reach",
+      "pass": true
+    },
+    {
+      "detail": "infinite",
+      "name": "optical_reach",
+      "pass": true
+    },
+    {
+      "detail": "dr/dt=+-c*A",
+      "name": "radial_null_slope",
+      "pass": true
+    },
+    {
+      "detail": "-c**2/2",
+      "name": "inside_clock_timelike",
+      "pass": true
+    },
+    {
+      "detail": "2",
+      "name": "inside_ruler_spacelike",
+      "pass": true
+    },
+    {
+      "detail": "c**2/2",
+      "name": "outside_t_spacelike",
+      "pass": true
+    },
+    {
+      "detail": "-2",
+      "name": "outside_r_timelike",
+      "pass": true
+    },
+    {
+      "detail": "yes",
+      "name": "clock_role_changes_sign",
+      "pass": true
+    },
+    {
+      "detail": "yes",
+      "name": "ruler_role_changes_sign",
+      "pass": true
+    },
+    {
+      "detail": "-1",
+      "name": "ingoing_determinant",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, 1], [1, (X - r)/X]])",
+      "name": "ingoing_inverse",
+      "pass": true
+    },
+    {
+      "detail": "-2*kappa - 1 + r/X",
+      "name": "mathematical_timelike_curve_at_A0",
+      "pass": true
+    },
+    {
+      "detail": "dv=0 gives ds2=0",
+      "name": "mathematical_null_curve",
+      "pass": true
+    },
+    {
+      "detail": "-6*(r1 - r2)/(X*r1*r2)",
+      "name": "ricci_recenter_factor",
+      "pass": true
+    },
+    {
+      "detail": "[r1]",
+      "name": "ricci_equality_forces_same_radius",
+      "pass": true
+    },
+    {
+      "detail": "[r1]",
+      "name": "kretschmann_equality_positive_radius",
+      "pass": true
+    },
+    {
+      "detail": "R diverges",
+      "name": "center_curvature_distinguished",
+      "pass": true
+    },
+    {
+      "detail": "both vary monotonically for positive radius",
+      "name": "invariants_injective_in_radius",
+      "pass": true
+    },
+    {
+      "detail": "SO+(1,1)",
+      "name": "boost_preserves_metric",
+      "pass": true
+    },
+    {
+      "detail": "-sinh(eta)**2 + cosh(eta)**2",
+      "name": "boost_determinant",
+      "pass": true
+    },
+    {
+      "detail": "e^eta",
+      "name": "plus_null_scaled",
+      "pass": true
+    },
+    {
+      "detail": "e^-eta",
+      "name": "minus_null_scaled",
+      "pass": true
+    },
+    {
+      "detail": "mixed derivatives cancel",
+      "name": "varying_frame_curvature_unchanged",
+      "pass": true
+    },
+    {
+      "detail": "d beta=0",
+      "name": "constant_eta_connection_unchanged",
+      "pass": true
+    },
+    {
+      "detail": "2",
+      "name": "old_depth_shift_radial_witness",
+      "pass": true
+    },
+    {
+      "detail": "4/9",
+      "name": "old_depth_shift_angular_witness",
+      "pass": true
+    },
+    {
+      "detail": "candidate fails complete metric",
+      "name": "old_depth_shift_not_full_recenter",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_crossing_curve_as_physical_observer",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_fixed_WRL_center_as_preferred_cosmic_frame",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_local_boost_as_global_observer_recenter",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_regular_extension_as_proof_of_physical_crossability",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_manifold_extendibility_as_selected_global_completion",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_common_Xmax_as_derived_numerical_scale",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_observational_mass_factor_as_native_invariant_mass",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_varying_coframe_as_new_curvature",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_acceleration_as_imported_GR_equivalence",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_A_negative_as_same_clock_ruler_polarization",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_center_no_go_as_no_go_for_all_relational_metrics",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_angular_shift_failure_as_refutation_of_frame_reciprocity",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_r_as_signed_absolute_position",
+      "pass": true
+    },
+    {
+      "detail": "fail-closed semantic contract",
+      "name": "reject_uniform_motion_as_physical_cone_warp",
+      "pass": true
+    }
+  ],
+  "exact": {
+    "A": "1 - r/X",
+    "angular_shift_ratio": "(1 - exp(2*beta - 2*ph))**2*exp(4*ph)/(1 - exp(2*ph))**2",
+    "ingoing_determinant": "-1",
+    "ingoing_metric": "Matrix([[-1 + r/X, 1], [1, 0]])",
+    "kretschmann_scalar": "8/(X**2*r**2)",
+    "phi": "-log(1 - r/X)/2",
+    "recenter_scalar_difference": "-6*(r1 - r2)/(X*r1*r2)",
+    "ricci_scalar": "6/(X*r)",
+    "rstar": "-X*log(1 - r/X)",
+    "timelike_curve_norm": "-2*kappa - 1 + r/X"
+  },
+  "grade": "VERIFIED-WITH-CAVEATS",
+  "maximum_conclusion": "THE_WRL_ALGEBRA_DERIVES_A_CENTERED_RELATIONAL_CLOCK_RULER_ASYMPTOTE_AT_A_ZERO_AND_NO_ADMISSIBLE_CONTINUATION_PRESERVING_THE_SAME_CLOCK_RULER_POLARIZATION;THE_REGULAR_INGOING_EXTENSION_PROVES_ONLY_MANIFOLD_EXTENDIBILITY_NOT_A_PHYSICAL_OBSERVER_CROSSING;DISTINCT_OBSERVER_CENTERS_CANNOT_BE_STANDARD_OVERLAPPING_COORDINATE_CHARTS_OF_THE_SAME_NONHOMOGENEOUS_WRL_TENSOR_GEOMETRY;LOCAL_INERTIAL_FRAME_EQUIVALENCE_IS_DERIVED_BUT_GLOBAL_OBSERVER_RECENTERING_AND_COMMON_XMAX_REQUIRE_AN_OBSERVER_INDEXED_COMPOSITION_LAW_OR_COMPLETE_METRIC_NOT_YET_DERIVED;A_VARYING_COFRAME_CHANGES_CONNECTION_COMPONENTS_BUT_NOT_INVARIANT_CURVATURE_OR_CONES_WITHOUT_A_PHYSICAL_METRIC_RESPONSE_LAW",
+  "schema": "udt-observer-centered-xmax-correction-1.0",
+  "semantic_catch_count": 14,
+  "source_hashes": [
+    {
+      "bytes": 11819,
+      "path": "AGENTS.md",
+      "sha256": "e74024f82f6adf4aaed8ea15eb61d176a330abc574bc5495b43415335b3b25db"
+    },
+    {
+      "bytes": 35011,
+      "path": "CANON.md",
+      "sha256": "5d99c0ba09fcee0429a34ac6b3dda4faff489b7d214b622fcbd286deb3785314"
+    },
+    {
+      "bytes": 3638,
+      "path": "udt_premise_reset_audit_2026-07-19/OWNER_MEANING_LEDGER.tsv",
+      "sha256": "393889c25975e8c9bded1f9e5aac90b285273c80e40914f1492159b61ae093d5"
+    },
+    {
+      "bytes": 4600,
+      "path": "udt_premise_reset_audit_2026-07-19/SEMANTIC_CONFLICT_LEDGER.tsv",
+      "sha256": "1ccec456049e1783848d802ed042c37faf36a6c48fde65caab35d820ce5205fa"
+    },
+    {
+      "bytes": 1952,
+      "path": "udt_reciprocal_c_metric_meaning_audit_2026-07-22/PREREGISTRATION_OWNER_CLARIFICATION.md",
+      "sha256": "c8cde9e7a4496a9d467b4335665b1fc1b2cfa7aa155b7c99a653c7d04d2049ba"
+    },
+    {
+      "bytes": 6658,
+      "path": "udt_reciprocity_regime_angular_center_audit_2026-07-22/PREREGISTRATION.md",
+      "sha256": "30ac0f94b59bf809bd6e8abd375a672884db838361c4308b49596ed8a6c81b41"
+    },
+    {
+      "bytes": 7381,
+      "path": "udt_three_reciprocity_delta_k_audit_2026-07-23/PREREGISTRATION.md",
+      "sha256": "7bdeb2eb4f8ac2502e1f248645d045c57f4eb3de41a80a9941d2794ede0acbfa"
+    },
+    {
+      "bytes": 6959,
+      "path": "udt_xmax_dilation_asymptote_correction_2026-07-23/AUDIT_REPORT.md",
+      "sha256": "fd3d99c357d158021151e12013158da13b0a4c30940bcec4c60f3cc7b7277164"
+    },
+    {
+      "bytes": 1732,
+      "path": "udt_xmax_dilation_asymptote_correction_2026-07-23/STATUS_LEDGER.tsv",
+      "sha256": "97d51fcc3db1e2521332f1c8476f65111865903991cc1a109c02a3d15c8984cd"
+    },
+    {
+      "bytes": 8818,
+      "path": "udt_wrl_xmax_lightcone_frame_audit_2026-07-23/AUDIT_REPORT.md",
+      "sha256": "2744eaf8cd99948804e34f22f6d496a9f1a8d6f0b1867d29e6d82f920248cb35"
+    },
+    {
+      "bytes": 2168,
+      "path": "udt_wrl_xmax_lightcone_frame_audit_2026-07-23/STATUS_LEDGER.tsv",
+      "sha256": "b413dc304ad5485e8f78ae9a9f89169415fe3ac4986db5f6f8d9212567b66db9"
+    },
+    {
+      "bytes": 6534,
+      "path": "udt_wrl_xmax_lightcone_frame_audit_2026-07-23/DERIVATION_RESULT.json",
+      "sha256": "f108a42fe020e72858d38d56f167548a25ec499769cd3085c3ebe43a1ada61f6"
+    },
+    {
+      "bytes": 1853,
+      "path": "udt_wrl_xmax_lightcone_frame_audit_2026-07-23/PRIOR_WORK_REGRADE.tsv",
+      "sha256": "609961f97adde4b9965cacaf2ce33a733ee591bc61c6377e9c049271d06d30dd"
+    },
+    {
+      "bytes": 18350,
+      "path": "udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md",
+      "sha256": "a8b27cb298a95dc1f3eabc5c4ff78b2835041a4d3dcc3e184d8ff6be47ded1e7"
+    },
+    {
+      "bytes": 8327,
+      "path": "asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md",
+      "sha256": "bf10dc2d525e26723ee2eb2eaacf368ad8546e76b0a8d3ba0d3baa0b9639d11d"
+    },
+    {
+      "bytes": 12603,
+      "path": "xmax_accelerating_finite_cell_cartan_2026-07-19/AUDIT_REPORT.md",
+      "sha256": "bfcaaa7bfa0b9455c32f39ebbed38f8f166c097fd375e4c265f956e5df6799e8"
+    }
+  ],
+  "status_counts": {
+    "DERIVED": 8,
+    "DERIVED_CONDITIONAL_WRL": 7,
+    "OPEN": 8,
+    "OWNER_LOCKED": 5,
+    "OWNER_WORKING_POSTULATE": 3,
+    "WITHDRAWN_INTERPRETATION": 7
+  }
+}
