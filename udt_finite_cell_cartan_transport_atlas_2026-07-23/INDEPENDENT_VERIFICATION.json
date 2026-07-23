@@ -1,0 +1,401 @@
+{
+  "all_catches_pass": true,
+  "all_checks_pass": true,
+  "catch_count": 22,
+  "catches": [
+    {
+      "name": "reject_missing_completion",
+      "pass": true
+    },
+    {
+      "name": "reject_duplicate_completion",
+      "pass": true
+    },
+    {
+      "name": "reject_missing_causal_cross",
+      "pass": true
+    },
+    {
+      "name": "reject_duplicate_causal_cross",
+      "pass": true
+    },
+    {
+      "name": "reject_missing_connection_domain",
+      "pass": true
+    },
+    {
+      "name": "reject_missing_transition",
+      "pass": true
+    },
+    {
+      "name": "reject_selected_unsolved_branch",
+      "pass": true
+    },
+    {
+      "name": "reject_complete_witness_invention",
+      "pass": true
+    },
+    {
+      "name": "reject_nonnull_kato_loss",
+      "pass": true
+    },
+    {
+      "name": "reject_null_semisimple_continuation",
+      "pass": true
+    },
+    {
+      "name": "reject_zero_intrinsic_continuation",
+      "pass": true
+    },
+    {
+      "name": "reject_spacelike_observer_split",
+      "pass": true
+    },
+    {
+      "name": "reject_null_3plus3",
+      "pass": true
+    },
+    {
+      "name": "reject_phi_zero_gradient_confusion",
+      "pass": true
+    },
+    {
+      "name": "reject_Kato_physical_time",
+      "pass": true
+    },
+    {
+      "name": "reject_CSN_LC_invariance",
+      "pass": true
+    },
+    {
+      "name": "reject_static_compact_nonnull_claim",
+      "pass": true
+    },
+    {
+      "name": "reject_timelive_theorem_claim",
+      "pass": true
+    },
+    {
+      "name": "reject_singularity_extension",
+      "pass": true
+    },
+    {
+      "name": "reject_cross_branch_selection",
+      "pass": true
+    },
+    {
+      "name": "reject_complete_solution_claim",
+      "pass": true
+    },
+    {
+      "name": "reject_matter_import",
+      "pass": true
+    }
+  ],
+  "check_count": 26,
+  "checks": [
+    {
+      "detail": [
+        [
+          "0",
+          "7",
+          "11",
+          "13"
+        ],
+        [
+          "7",
+          "0",
+          "5",
+          "-3"
+        ],
+        [
+          "11",
+          "-5",
+          "0",
+          "2"
+        ],
+        [
+          "13",
+          "3",
+          "-2",
+          "0"
+        ]
+      ],
+      "name": "independent_vector_connection_lorentz",
+      "pass": true
+    },
+    {
+      "detail": [
+        [
+          "0",
+          "5",
+          "-3",
+          "-11",
+          "-13",
+          "0"
+        ],
+        [
+          "-5",
+          "0",
+          "2",
+          "7",
+          "0",
+          "-13"
+        ],
+        [
+          "3",
+          "-2",
+          "0",
+          "0",
+          "7",
+          "11"
+        ],
+        [
+          "-11",
+          "7",
+          "0",
+          "0",
+          "2",
+          "3"
+        ],
+        [
+          "-13",
+          "0",
+          "7",
+          "-2",
+          "0",
+          "5"
+        ],
+        [
+          "0",
+          "-13",
+          "11",
+          "-3",
+          "-5",
+          "0"
+        ]
+      ],
+      "name": "independent_bivector_connection_metric_skew",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "independent_rotations_preserve_timelike_split",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "independent_boosts_mix_timelike_split",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "independent_timelike_cross_block_ranks",
+      "pass": true
+    },
+    {
+      "detail": 4,
+      "name": "independent_timelike_total_mix_rank",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "independent_timelike_kato_identity",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "independent_timelike_corrected_preserves",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "independent_timelike_kato_metric_skew",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "independent_SO12_preserves_spacelike_split",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "independent_SO12_complement_mixes",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "independent_spacelike_kato_identity",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "independent_spacelike_corrected_preserves",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "independent_null_parent_rank_one",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "independent_null_parent_nilpotent",
+      "pass": true
+    },
+    {
+      "detail": 2,
+      "name": "independent_null_Lambda2_rank_two",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "independent_null_Lambda2_nilpotent",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "independent_zero_limits_nonunique",
+      "pass": true
+    },
+    {
+      "detail": [],
+      "name": "independent_table_contract",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "production_all_checks_pass",
+      "pass": true
+    },
+    {
+      "detail": 46,
+      "name": "production_check_count",
+      "pass": true
+    },
+    {
+      "detail": {
+        "causal_classes": 5,
+        "complete_onshell_g_phi_branches": 0,
+        "completion_causal_cross": 60,
+        "completion_families": 12,
+        "connection_domains": 4,
+        "transition_witnesses": 8
+      },
+      "name": "production_count_contract",
+      "pass": true
+    },
+    {
+      "detail": 22,
+      "name": "source_lineage_exact_count",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "source_lineage_matches_production",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "source_lineage_current_bytes",
+      "pass": true
+    },
+    {
+      "detail": [
+        {
+          "name": "reject_missing_completion",
+          "pass": true
+        },
+        {
+          "name": "reject_duplicate_completion",
+          "pass": true
+        },
+        {
+          "name": "reject_missing_causal_cross",
+          "pass": true
+        },
+        {
+          "name": "reject_duplicate_causal_cross",
+          "pass": true
+        },
+        {
+          "name": "reject_missing_connection_domain",
+          "pass": true
+        },
+        {
+          "name": "reject_missing_transition",
+          "pass": true
+        },
+        {
+          "name": "reject_selected_unsolved_branch",
+          "pass": true
+        },
+        {
+          "name": "reject_complete_witness_invention",
+          "pass": true
+        },
+        {
+          "name": "reject_nonnull_kato_loss",
+          "pass": true
+        },
+        {
+          "name": "reject_null_semisimple_continuation",
+          "pass": true
+        },
+        {
+          "name": "reject_zero_intrinsic_continuation",
+          "pass": true
+        },
+        {
+          "name": "reject_spacelike_observer_split",
+          "pass": true
+        },
+        {
+          "name": "reject_null_3plus3",
+          "pass": true
+        },
+        {
+          "name": "reject_phi_zero_gradient_confusion",
+          "pass": true
+        },
+        {
+          "name": "reject_Kato_physical_time",
+          "pass": true
+        },
+        {
+          "name": "reject_CSN_LC_invariance",
+          "pass": true
+        },
+        {
+          "name": "reject_static_compact_nonnull_claim",
+          "pass": true
+        },
+        {
+          "name": "reject_timelive_theorem_claim",
+          "pass": true
+        },
+        {
+          "name": "reject_singularity_extension",
+          "pass": true
+        },
+        {
+          "name": "reject_cross_branch_selection",
+          "pass": true
+        },
+        {
+          "name": "reject_complete_solution_claim",
+          "pass": true
+        },
+        {
+          "name": "reject_matter_import",
+          "pass": true
+        }
+      ],
+      "name": "all_exercised_catches_pass",
+      "pass": true
+    }
+  ],
+  "implementation": "stdlib_Fraction_no_SymPy_no_production_import",
+  "python": "3.10.12",
+  "schema": "udt-finite-cell-Cartan-independent-1.0"
+}

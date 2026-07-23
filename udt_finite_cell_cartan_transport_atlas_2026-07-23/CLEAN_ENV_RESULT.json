@@ -1,0 +1,9 @@
+{
+  "command": "PYTHONNOUSERSITE=1 PYTHONPATH=/tmp/udt_cartan_env.HvBxWV/site-packages PYTHONDONTWRITEBYTECODE=1 python3 -s derive_finite_cell_cartan_transport.py",
+  "dependency_source": "isolated copied package tree with user site disabled",
+  "python": "3.10.12",
+  "requirements_sha256": "630f8ff6a2a97d3ca8c5791a950e5b45988b3e30b9388e64dea40b5681d2aed7",
+  "returncode": 0,
+  "stdout_sha256": "9f964262fe361e8f93c0d96ce662212e84067ed1c898408ab280587c8df08cd5",
+  "sympy": "1.13.1"
+}

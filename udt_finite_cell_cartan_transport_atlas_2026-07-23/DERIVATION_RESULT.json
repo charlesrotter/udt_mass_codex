@@ -1,0 +1,428 @@
+{
+  "all_checks_pass": true,
+  "causal_rulings": {
+    "null": "NILPOTENT_RANK2_LAMBDA2_FILTRATION_NOT_SEMISIMPLE_3PLUS3",
+    "spacelike": "SO_PLUS_1_2_SYMMETRIC_PAIR_3PLUS3_NOT_OBSERVER_SPLIT",
+    "timelike": "BOOST_ROTATION_CARTAN_3PLUS3",
+    "type_change": "PIECEWISE_REGIONS_SEPARATED_BY_NULL_OR_ZERO_DEGENERATION",
+    "zero": "NO_INTRINSIC_REDUCTION_NONUNIQUE_LIMIT"
+  },
+  "check_count": 46,
+  "checks": [
+    {
+      "detail": "Matrix([[0, b1, b2, b3], [b1, 0, r3, -r2], [b2, -r3, 0, r1], [b3, r2, -r1, 0]])",
+      "name": "general_connection_is_Lorentz_algebra",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, r3, -r2, -b2, -b3, 0], [-r3, 0, r1, b1, 0, -b3], [r2, -r1, 0, 0, b1, b2], [-b2, b1, 0, 0, r1, r2], [-b3, 0, b1, -r1, 0, r3], [0, -b3, b2, -r2, -r3, 0]])",
+      "name": "induced_connection_is_bivector_metric_skew",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, r3, -r2, 0, 0, 0], [-r3, 0, r1, 0, 0, 0], [r2, -r1, 0, 0, 0, 0], [0, 0, 0, 0, r1, r2], [0, 0, 0, -r1, 0, r3], [0, 0, 0, -r2, -r3, 0]])",
+      "name": "rotation_connection_preserves_timelike_split",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, 0, 0, -b2, -b3, 0], [0, 0, 0, b1, 0, -b3], [0, 0, 0, 0, b1, b2], [-b2, b1, 0, 0, 0, 0], [-b3, 0, b1, 0, 0, 0], [0, -b3, b2, 0, 0, 0]])",
+      "name": "boost_connection_mixes_timelike_split",
+      "pass": true
+    },
+    {
+      "detail": "diagonal SO3 action",
+      "name": "timelike_diagonal_blocks_depend_only_on_rotation",
+      "pass": true
+    },
+    {
+      "detail": "boost/extrinsic mixing",
+      "name": "timelike_offdiagonal_blocks_depend_only_on_boost",
+      "pass": true
+    },
+    {
+      "detail": [
+        2,
+        2
+      ],
+      "name": "single_direction_timelike_mixing_block_ranks",
+      "pass": true
+    },
+    {
+      "detail": 4,
+      "name": "single_direction_timelike_total_mixing_rank",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, 0, 0, -b2, -b3, 0], [0, 0, 0, b1, 0, -b3], [0, 0, 0, 0, b1, b2], [-b2, b1, 0, 0, 0, 0], [-b3, 0, b1, 0, 0, 0], [0, -b3, b2, 0, 0, 0]])",
+      "name": "timelike_Kato_commutator_identity",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, 0, 0, -b2, -b3, 0], [0, 0, 0, b1, 0, -b3], [0, 0, 0, 0, b1, b2], [-b2, b1, 0, 0, 0, 0], [-b3, 0, b1, 0, 0, 0], [0, -b3, b2, 0, 0, 0]])",
+      "name": "timelike_Kato_is_bivector_metric_skew",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, r3, -r2, 0, 0, 0], [-r3, 0, r1, 0, 0, 0], [r2, -r1, 0, 0, 0, 0], [0, 0, 0, 0, r1, r2], [0, 0, 0, -r1, 0, r3], [0, 0, 0, -r2, -r3, 0]])",
+      "name": "timelike_corrected_connection_preserves_split",
+      "pass": true
+    },
+    {
+      "detail": "b=0",
+      "name": "timelike_LC_preserves_iff_boost_part_zero_forward",
+      "pass": true
+    },
+    {
+      "detail": "nonzero b gives mixing",
+      "name": "timelike_LC_preserves_iff_boost_part_zero_reverse",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, 0, 0, 0, 0, -1], [0, 0, 0, 0, 1, 0], [0, 0, 0, -1, 0, 0], [0, 0, 1, 0, 0, 0], [0, -1, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0]])",
+      "name": "Hodge_squares_minus_identity",
+      "pass": true
+    },
+    {
+      "detail": "star Pi star^-1=barPi",
+      "name": "Hodge_exchanges_timelike_sectors",
+      "pass": true
+    },
+    {
+      "detail": "oriented Lorentz connection",
+      "name": "LC_connection_commutes_with_Hodge",
+      "pass": true
+    },
+    {
+      "detail": "paired projector transport",
+      "name": "Kato_connection_commutes_with_Hodge",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, 0, 0, -b2, -b3, 0], [0, 0, r1, 0, 0, -b3], [0, -r1, 0, 0, 0, b2], [-b2, 0, 0, 0, r1, 0], [-b3, 0, 0, -r1, 0, 0], [0, -b3, b2, 0, 0, 0]])",
+      "name": "SO12_stabilizer_preserves_spacelike_split",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, r3, -r2, 0, 0, 0], [-r3, 0, 0, b1, 0, 0], [r2, 0, 0, 0, b1, 0], [0, b1, 0, 0, 0, r2], [0, 0, b1, 0, 0, r3], [0, 0, 0, -r2, -r3, 0]])",
+      "name": "spacelike_complement_mixes_split",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, r3, -r2, 0, 0, 0], [-r3, 0, 0, b1, 0, 0], [r2, 0, 0, 0, b1, 0], [0, b1, 0, 0, 0, r2], [0, 0, b1, 0, 0, r3], [0, 0, 0, -r2, -r3, 0]])",
+      "name": "spacelike_Kato_commutator_identity",
+      "pass": true
+    },
+    {
+      "detail": "corrected",
+      "name": "spacelike_corrected_connection_preserves_split",
+      "pass": true
+    },
+    {
+      "detail": "star",
+      "name": "Hodge_exchanges_spacelike_sectors",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[1, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+      "name": "CSN_line_projector_invariant",
+      "pass": true
+    },
+    {
+      "detail": "-1/Omega**2",
+      "name": "CSN_gradient_norm_weight",
+      "pass": true
+    },
+    {
+      "detail": "lambda**2 - 1",
+      "name": "causal_change_scalar",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[-1/(lambda**2 - 1), -lambda/(lambda**2 - 1), 0, 0], [lambda/(lambda**2 - 1), lambda**2/(lambda**2 - 1), 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+      "name": "causal_change_projector_singular_at_null",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[1, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+      "name": "causal_change_has_timelike_side",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[-1/3, -2/3, 0, 0], [2/3, 4/3, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+      "name": "causal_change_has_spacelike_side",
+      "pass": true
+    },
+    {
+      "detail": 1,
+      "name": "null_line_map_rank1",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+      "name": "null_line_map_nilpotent",
+      "pass": true
+    },
+    {
+      "detail": 2,
+      "name": "null_Lambda2_map_rank2",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0]])",
+      "name": "null_Lambda2_map_nilpotent",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[1, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+      "name": "zero_approach_timelike_limit_exists_along_one_path",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, 0, 0, 0], [0, 1, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+      "name": "zero_approach_spacelike_limit_exists_along_other_path",
+      "pass": true
+    },
+    {
+      "detail": "direction-dependent limit",
+      "name": "zero_gradient_continuation_is_nonunique",
+      "pass": true
+    },
+    {
+      "detail": "phi=t at t=0 has dphi=dt and s=-1",
+      "name": "phi_zero_does_not_force_dphi_zero",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0], [0], [0], [0]])",
+      "name": "flat_constant_dphi_LC_mixing_zero",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0], [sigma], [0], [0]])",
+      "name": "local_CSN_can_create_LC_mixing",
+      "pass": true
+    },
+    {
+      "detail": "g'=exp(2 sigma t)g gives Q nabla'_{e1} n'=sigma e1 at the anchor",
+      "name": "LC_preservation_not_pre_scale_CSN_invariant",
+      "pass": true
+    },
+    {
+      "detail": 12,
+      "name": "registered_completion_count",
+      "pass": true
+    },
+    {
+      "detail": [
+        "FC01_BOUNDARY_BOUNDARY",
+        "FC02_ONE_CAP_BOUNDARY",
+        "FC03_TWO_CAP_P0",
+        "FC04_TWO_CAP_P1",
+        "FC05_TWO_CAP_P_GT1",
+        "FC06_NONPRIMITIVE_CAP",
+        "FC07_PERIODIC_TORUS_BUNDLE",
+        "FC08_MIRROR_DOUBLE",
+        "FC09_NONORIENTABLE_GLUE",
+        "FC10_STRATIFIED_PROJECTOR",
+        "FC11_NONINTEGRABLE_DISTRIBUTION",
+        "FC12_RECIPROCAL_TORIC_DIAGONAL"
+      ],
+      "name": "registered_completion_unique",
+      "pass": true
+    },
+    {
+      "detail": [
+        "FC01_BOUNDARY_BOUNDARY",
+        "FC02_ONE_CAP_BOUNDARY",
+        "FC03_TWO_CAP_P0",
+        "FC04_TWO_CAP_P1",
+        "FC05_TWO_CAP_P_GT1",
+        "FC06_NONPRIMITIVE_CAP",
+        "FC07_PERIODIC_TORUS_BUNDLE",
+        "FC08_MIRROR_DOUBLE",
+        "FC09_NONORIENTABLE_GLUE",
+        "FC10_STRATIFIED_PROJECTOR",
+        "FC11_NONINTEGRABLE_DISTRIBUTION",
+        "FC12_RECIPROCAL_TORIC_DIAGONAL"
+      ],
+      "name": "registered_completion_exact_FC01_FC12",
+      "pass": true
+    },
+    {
+      "detail": [
+        "PARAMETRIC_COMPLETION_TYPE_NO_COMPLETE_G_PHI_FIELD_WITNESS",
+        "PARAMETRIC_COMPLETION_TYPE_NO_COMPLETE_G_PHI_FIELD_WITNESS",
+        "PARAMETRIC_COMPLETION_TYPE_NO_COMPLETE_G_PHI_FIELD_WITNESS",
+        "PARAMETRIC_COMPLETION_TYPE_NO_COMPLETE_G_PHI_FIELD_WITNESS",
+        "PARAMETRIC_COMPLETION_TYPE_NO_COMPLETE_G_PHI_FIELD_WITNESS",
+        "PARAMETRIC_COMPLETION_TYPE_NO_COMPLETE_G_PHI_FIELD_WITNESS",
+        "PARAMETRIC_COMPLETION_TYPE_NO_COMPLETE_G_PHI_FIELD_WITNESS",
+        "PARAMETRIC_COMPLETION_TYPE_NO_COMPLETE_G_PHI_FIELD_WITNESS",
+        "PARAMETRIC_COMPLETION_TYPE_NO_COMPLETE_G_PHI_FIELD_WITNESS",
+        "PARAMETRIC_COMPLETION_TYPE_NO_COMPLETE_G_PHI_FIELD_WITNESS",
+        "PARAMETRIC_COMPLETION_TYPE_NO_COMPLETE_G_PHI_FIELD_WITNESS",
+        "CONDITIONAL_CONTROL_NO_COMPLETE_PROFILE_OR_ENDPOINT_SOLUTION"
+      ],
+      "name": "zero_complete_onshell_parent_witnesses",
+      "pass": true
+    },
+    {
+      "detail": 12,
+      "name": "branch_table_count",
+      "pass": true
+    },
+    {
+      "detail": 60,
+      "name": "causal_cross_count",
+      "pass": true
+    },
+    {
+      "detail": "12x5",
+      "name": "causal_cross_complete_once",
+      "pass": true
+    }
+  ],
+  "compute": {
+    "cpu_only": true,
+    "gpu_work_performed": false
+  },
+  "connection": {
+    "Kato": "EXACT_INTERTWINER_ON_SMOOTH_FIXED_RANK_REGIONS",
+    "LC_CSN": "REPRESENTATIVE_DEPENDENT_NOT_PRE_SCALE_INVARIANT",
+    "general_Lambda2_connection": "Matrix([[0, r3, -r2, -b2, -b3, 0], [-r3, 0, r1, b1, 0, -b3], [r2, -r1, 0, 0, b1, b2], [-b2, b1, 0, 0, r1, r2], [-b3, 0, b1, -r1, 0, r3], [0, -b3, b2, -r2, -r3, 0]])",
+    "general_vector_connection": "Matrix([[0, b1, b2, b3], [b1, 0, r3, -r2], [b2, -r3, 0, r1], [b3, r2, -r1, 0]])",
+    "spacelike_preservation": "NABLA_T_P_EQUALS_ZERO_EQUIVALENT_SO12_COMPLEMENT_PART_ZERO",
+    "timelike_mixing_lower_rank_single_tangent": 2,
+    "timelike_mixing_upper_rank_single_tangent": 2,
+    "timelike_preservation": "NABLA_T_P_EQUALS_ZERO_EQUIVALENT_OFF_STABILIZER_BOOST_EXTRINSIC_PART_ZERO",
+    "timelike_total_mixing_rank_single_tangent": 4
+  },
+  "counts": {
+    "causal_classes": 5,
+    "complete_onshell_g_phi_branches": 0,
+    "completion_causal_cross": 60,
+    "completion_families": 12,
+    "connection_domains": 4,
+    "transition_witnesses": 8
+  },
+  "maximum_conclusion": "EXACT_LOCAL_PERSISTENCE_MIXING_KATO_TRANSPORT_AND_CAUSAL_DEGENERATION_RULES_FOR_THE_DPHI_ASSISTED_3PLUS3_REDUCTION_CROSSED_WITH_ALL_TWELVE_REGISTERED_FINITE_CELL_COMPLETION_FAMILIES__ZERO_COMPLETE_ONSHELL_BRANCHES_AND_NO_PHYSICAL_SELECTION",
+  "parent_data_levels": {
+    "CONDITIONAL_CONTROL_NO_COMPLETE_PROFILE_OR_ENDPOINT_SOLUTION": 1,
+    "PARAMETRIC_COMPLETION_TYPE_NO_COMPLETE_G_PHI_FIELD_WITNESS": 11
+  },
+  "python": "3.10.12",
+  "schema": "udt-finite-cell-Cartan-transport-1.0",
+  "source_hashes": [
+    {
+      "bytes": 11819,
+      "path": "AGENTS.md",
+      "sha256": "e74024f82f6adf4aaed8ea15eb61d176a330abc574bc5495b43415335b3b25db"
+    },
+    {
+      "bytes": 35011,
+      "path": "CANON.md",
+      "sha256": "5d99c0ba09fcee0429a34ac6b3dda4faff489b7d214b622fcbd286deb3785314"
+    },
+    {
+      "bytes": 30848,
+      "path": "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
+      "sha256": "af6bcc49535fd9cf4c8a60e997935d10619f2d52d146482ee40ad9d968f76810"
+    },
+    {
+      "bytes": 2886,
+      "path": "UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md",
+      "sha256": "4bb0da9098da0a9970602e2449615eef151796b0d7fe7a9978f4b66145748a34"
+    },
+    {
+      "bytes": 9009,
+      "path": "udt_frame_bivector_equivariance_audit_2026-07-23/AUDIT_REPORT.md",
+      "sha256": "030812cf6903a41bac26005326e1104c5dfeb54c5995194de1474bb33b4afa28"
+    },
+    {
+      "bytes": 20339,
+      "path": "udt_frame_bivector_equivariance_audit_2026-07-23/DERIVATION_RESULT.json",
+      "sha256": "ead7e6249f36e42adceadc8581d4c1175a7ec28d434c7015c4b2d9a7ee9903e0"
+    },
+    {
+      "bytes": 1935,
+      "path": "udt_frame_bivector_equivariance_audit_2026-07-23/MANIFEST.sha256",
+      "sha256": "1fcfc5f1a5c6a3171123ed6f0022fce797e612478b805a998fbc327009633ecc"
+    },
+    {
+      "bytes": 9994,
+      "path": "udt_finite_cell_reciprocal_survival_density_audit_2026-07-23/AUDIT_REPORT.md",
+      "sha256": "25e6b85882d27e746826d124baf61235a22360ccc28ae4f545bd24d6da48c433"
+    },
+    {
+      "bytes": 6710,
+      "path": "udt_finite_cell_reciprocal_survival_density_audit_2026-07-23/FINITE_CELL_BRANCH_ATLAS.tsv",
+      "sha256": "ff176ddad8eb3822d95faa27e840d8f1f2e91d33e6e340f6c98ada49d77f2c77"
+    },
+    {
+      "bytes": 2278,
+      "path": "udt_finite_cell_reciprocal_survival_density_audit_2026-07-23/GLOBAL_SURVIVAL_THEOREMS.tsv",
+      "sha256": "a72805a035f0da3ecd6eebfb774891670e1e6bf7df2cf5b25c016fa6d3f6f9e9"
+    },
+    {
+      "bytes": 2313,
+      "path": "udt_finite_cell_reciprocal_survival_density_audit_2026-07-23/MANIFEST.sha256",
+      "sha256": "72fc872ae3ab2eb21dd0a1a5bdeebe9d7b20db77472b33536f79c7a6d6ea9003"
+    },
+    {
+      "bytes": 14055,
+      "path": "udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md",
+      "sha256": "7a596530a78a75aec03bac6f35db31ebe534e0115ca51dda64acffd0c781844a"
+    },
+    {
+      "bytes": 2608,
+      "path": "udt_global_metric_assembly_atlas_2026-07-22/COMPLETION_CLASS_REGISTRY.tsv",
+      "sha256": "73d9f21e31d74c174dc173e03ddd27f8689c376170959d8419004f225bed73e6"
+    },
+    {
+      "bytes": 4019,
+      "path": "udt_global_metric_assembly_atlas_2026-07-22/BUNDLE_HOLONOMY_ATLAS.tsv",
+      "sha256": "8337c04d5b5b5aac858e980baa937771060bced8db4eecf8362b630d7815f4df"
+    },
+    {
+      "bytes": 525,
+      "path": "udt_global_metric_assembly_atlas_2026-07-22/EXACT_TRANSPORT_CONTROL.json",
+      "sha256": "86eaaa5774ee67498ad752981aab350d6505ce1be5b6c0112410903c6e0d6362"
+    },
+    {
+      "bytes": 5066,
+      "path": "udt_global_metric_assembly_atlas_2026-07-22/SHA256SUMS.txt",
+      "sha256": "d4c7e7e16e38496343bbfbc8ef0867de45657ea2e25a724b44b653ff1b276374"
+    },
+    {
+      "bytes": 11332,
+      "path": "udt_complete_metric_intrinsic_object_audit_2026-07-23/AUDIT_REPORT.md",
+      "sha256": "923e6e4e7d9b6478f8b281f7d48f4fd46cd194c292a01540c46509ee6fc89776"
+    },
+    {
+      "bytes": 2092,
+      "path": "udt_complete_metric_intrinsic_object_audit_2026-07-23/DOMAIN_TRANSITION_LEDGER.tsv",
+      "sha256": "0f92b9f61b7cfe9991e668d965d792c5e261760634d1a93fe3c93c9591521fb8"
+    },
+    {
+      "bytes": 3353,
+      "path": "udt_complete_metric_intrinsic_object_audit_2026-07-23/MANIFEST.sha256",
+      "sha256": "1857bde1fff72829487f56ddd9fb461a2d9cad7b777a51baa125529713c8bfd4"
+    },
+    {
+      "bytes": 7446,
+      "path": "udt_finite_cell_completion_atlas_2026-07-21/AUDIT_REPORT.md",
+      "sha256": "354047b6cac9406c75b700912e2a3aab402f7dd1c32a73adc229ee2054a1502e"
+    },
+    {
+      "bytes": 976,
+      "path": "udt_finite_cell_completion_atlas_2026-07-21/CAUSAL_TIME_LIVE_ATLAS.tsv",
+      "sha256": "478fb8458f03d9078386e734ea0e0da6aebc8c2c2d69bcb68fe1925c0ab7864b"
+    },
+    {
+      "bytes": 3151,
+      "path": "udt_finite_cell_completion_atlas_2026-07-21/SHA256SUMS.txt",
+      "sha256": "56c5f36455ae1f89811f3b86db9455a39482510415e6a7f770d2e5ffaa4ed0c7"
+    }
+  ],
+  "sympy": "1.13.1"
+}

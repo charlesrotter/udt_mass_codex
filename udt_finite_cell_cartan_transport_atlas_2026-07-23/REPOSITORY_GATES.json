@@ -1,0 +1,869 @@
+{
+  "authority_boundary": "EXACT_LOCAL_PERSISTENCE_MIXING_KATO_TRANSPORT_AND_CAUSAL_DEGENERATION_RULES_FOR_THE_DPHI_ASSISTED_3PLUS3_REDUCTION_CROSSED_WITH_ALL_TWELVE_REGISTERED_FINITE_CELL_COMPLETION_FAMILIES__ZERO_COMPLETE_ONSHELL_BRANCHES_AND_NO_PHYSICAL_SELECTION",
+  "base": "2a0a199",
+  "catch_proofs": {
+    "current_paths": "PASS",
+    "dirty": "PASS",
+    "frontier": "PASS",
+    "frozen": "PASS",
+    "package": "PASS",
+    "parent": "PASS",
+    "science": "PASS",
+    "scope": "PASS"
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_work_performed": false
+  },
+  "dirty_checkout": {
+    "branch": "grok",
+    "contents_read": false,
+    "head": "adf8f92d95c387cc647f04b16f1f3b17e1e670d2",
+    "metadata_sha256": "4bc96070c841a14c497b642ee7b93dcf9061372f770aee065d6b495ee4996f4c",
+    "paths": 54
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 25,
+    "manifest_sha256": "f70ec5f8bad2fc648ff4d9d983628bd7a450374db2fd3fc766a88c6ae67e7c5e",
+    "result": "PASS"
+  },
+  "prior_scientific_packages": {
+    "entries": 3040,
+    "packages": [
+      {
+        "entries": 18,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50",
+        "package": "angular_toric_closure_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "1a48e574835ee3838514294a7badd2415a74cdb0d10cf0545c30d3698ab022d2",
+        "package": "bootstrap_csn_phi_angular_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 16,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "14e13dd27aa7036a6fef7db9208681459b86c06186bfffc7990ee877947d8356",
+        "package": "copresence_causal_accessibility_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "022f3c97916e38f29260812c14ad0136574d1908c70aabc7d4e56ae99d78f7bc",
+        "package": "copresence_gr_constraint_regrade_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "0e630938c516a0e70cfdb97924ebd6501bd4a97223909b038a22c341a653f1f7",
+        "package": "metric_cartan_holonomy_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 14,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "6f03f82d485d4a20c2d2bfc13dc8979c1b229bf92c53f0eb36831abf3d75febc",
+        "package": "native_hopfion_topology_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 16,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "e195d14349407c23e4a050628ec84298d3d35e23e2c25b5cf285a5c81f8e989b",
+        "package": "null_section_hopfion_metric_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "377eaa791ab93845f50c19d6eb30dadb0b10322ac0cbe405db55ca0a37ad3dfb",
+        "package": "projective_position_direction_magnitude_correction_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "bde786c168a2bf552a9720afa66a3615e66c0d63ffcfb78af680c88813198a84",
+        "package": "projective_position_join_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "32e523d44142cd36904a66f385890c5c417d9b827d0ac3cf956bdb48a838004b",
+        "package": "projective_transport_section_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "ac38f2b58cf41e0965950ddceb615e8b1edda6f419cecf282c0a98a55f58ce85",
+        "package": "reciprocal_c_clock_channel_correction_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 14,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "d4ce35881bfd79952083da84bd5bd7f80b6d21b0e69d698059e1695c6f90ba6d",
+        "package": "reciprocal_clock_optical_scale_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "01ed5557bb94a1df99209d37b1eb5e4eefae4486978be34ab09dafb73aeac17b",
+        "package": "reciprocal_metric_null_line_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "5121270039c91c654bcd9bb5667cb06c31a5b91dec3747ddf015df0129081812",
+        "package": "rung2_weld_postjuly_regrade_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "9c074cc83b0815607c1a4a36f8dffeac09bf79c9d0f5aee74a356b21e87bf470",
+        "package": "transverse_reciprocal_realization_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "c36c5b9e58c4305c91dd52ccbcae42cbd77548f0d4d10d36eda85529e6eb754f",
+        "package": "xmax_accelerating_finite_cell_cartan_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "dfd3c1b7497ee0b24e82e4277afe700ae17629f1912dfa39bcfa15db501f34db",
+        "package": "xmax_dynamic_observer_frame_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "9b986d647b56283ba20dd25d4ae118bc42e775912656da70ef6237f1fbc83b5d",
+        "package": "xmax_full_frame_realization_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "9b1dbd9a38176f9cc4996771485b3d459d83b425e64cd3ac63454350914c2fb3",
+        "package": "xmax_reciprocity_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 22,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "6123253b9370bce674c626a863dc595c773da3905cb155a7fe2b77c4667fd3a7",
+        "package": "udt_premise_reset_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 37,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "3841492810a553cc07ae3107cc10c3c5584547db5dcb87757e377ebcdb335afb",
+        "package": "asymptotic_boundary_lineage_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 31,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "39d335fbbc0367f206d77173f72d4b4485145dd0cb42aacc8c4491656e6d287c",
+        "package": "native_boundary_generator_scale_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "62dd9fa82d19af1a065ffd45529b8cb0d7c4a814db66ea75759f1d19f159ea04",
+        "package": "clock_curvature_selector_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 25,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "6cd896586dda87b8e9794818c34ccb392a2f5a004e7d88ba8e288db57e50c6c3",
+        "package": "boundary_bootstrap_representative_selector_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 28,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "53996dfcc0fb9cef29422ff94908fe71aaed32703d49e70e2d6d7f01aa19fe84",
+        "package": "scale_breaking_closure_census_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 31,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "716c2ad9c071a49f75b4c340d6d980d75cfc0a48b0923c39e0cf3d100759ae77",
+        "package": "matter_bootstrap_dimensional_inventory_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 32,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "bff22ac4ff488c4a426f87afdfbce3d06d8a23659552f19284da1eda3b98c8ff",
+        "package": "angular_derivative_weight_selector_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 32,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "98581e8f4da61692262b063650a281ffa0fb83739d16c3edd7afdbeaeaa83295",
+        "package": "c2_angular_reduction_selector_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 32,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "28009a732ef6b07e74fd20764e5481d7e866a43812fa40f47162e53d60e557ae",
+        "package": "c2_variable_lapse_selector_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 32,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "7decd015d987d50c1d120d32eb9111b5a6ca07b538c9c3db83bb7420bcd23fee",
+        "package": "c2_time_fiber_shift_jacobi_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 34,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "848db01c3524a45f15854228549d45dac4ac7b10cd07aa06924dffd406b3c9d4",
+        "package": "c2_rigidity_three_route_zoomout_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 34,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "2be362cd50cc5102960cb6a1e8745196cad956799b851c3e71a212b01d70d83e",
+        "package": "c2_finite_cell_boundary_variation_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 35,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "704b084548a212eabcfb1ac051e89234a7fd91bbeaf7f70abcc28bf63edc7a3b",
+        "package": "finite_cell_seal_boundary_phase_join_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 35,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "87d43cb281d236111a8baec4fe7da5686a8043931e6ba0a2715228f7d61f483e",
+        "package": "complete_coframe_seal_involution_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 39,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "feb8d68bc8d52bbe7743146b4f081fbe33b2b02f3d971fa6b7626cd2859c6a10",
+        "package": "c2_nonlinear_stationary_solution_space_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 43,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "113fa557c2a8e0b3267974276809ebebfd41b18a5ec4c5fe7afa93b875367a95",
+        "package": "c2_failed_basin_homotopy_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 37,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "e130b3e01583ac317643f7e3050979a8084cbf06f2700e190690f96957008c4d",
+        "package": "c2_open_path_checkpoint_continuation_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 22,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "73a53266bd49b16593e0e55c05f65940b69687c9ca2a211c060bf5b9eafa9b0b",
+        "package": "c2_reciprocal_transverse_twist_jacobi_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "3fa442d93c4f69322f90504dd92dbbba5e8028195076e57e44c1bcf3b1347aa8",
+        "package": "c2_coupled_reciprocal_twist_onshell_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 26,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "8b3a011bbb6c7821405ba1113d51238b72ddd8dc2d773f1e92a88f469ffb9e65",
+        "package": "c2_intrinsic_angular_product_selector_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 29,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "21a72d4e2f1afdb582042b0378bb6e3006277b832fd1daec0ddcf11df2b75d2a",
+        "package": "c2_transverse_coframe_closure_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "e11985e9afd9cefbb818e75aa1afe90acec48d60b2170e26c2fe712287742d48",
+        "package": "udt_global_reciprocal_closure_audit_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 17,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "1297e8f6773f863f426d66f6c4915741a742c1ee13230abf2b066421de49b04b",
+        "package": "udt_global_coframe_cocycle_audit_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "6b190e97202755ce79e0b394a7fbd6a1e06d1199cecea4c193400ef9c9ec3798",
+        "package": "udt_mixed_readout_anchor_soldering_audit_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "48ecfbdd78ec44308a7d93309e68cc13b4293fd2d051a6dff11c832e0bc60450",
+        "package": "udt_clock_ruler_soldering_selector_audit_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 19,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "15972da297739e299c6d1173e8b2989b98eb8416c067fdba9eb8d74c0697455e",
+        "package": "udt_complete_lift_mu_closure_audit_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "a937bcf290cb7964d54f8e358a56489a6c4015a0264fcb949103a2a6af31c72c",
+        "package": "udt_time_extendability_constraint_audit_2026-07-20",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "6842b5f03d94ede4c880d565738a77905f53a6f221f5910be15d2dfa4f4d19a4",
+        "package": "udt_gr_subtraction_reciprocal_connection_audit_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "d800a5c1f6ec6deaa695d00728809de4fe81129651a8d9194a814637950ccdef",
+        "package": "udt_metric_native_two_pair_selector_audit_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "3a6cc83e40fe95951b19f37b68b1167a3683cf4f02c0fbf1f52f54d95db99b66",
+        "package": "udt_complete_seal_fixed_set_selector_audit_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "7d14a1cfda1135e3f34af48796d0ea3ea46930f2c94a1fb6ef80d2006c042ee6",
+        "package": "udt_reciprocal_plane_projector_audit_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 25,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "1778e4dcfcf9ac0bd3574fb3ff5248f2990265fa40d0822ff964ac67c434ae38",
+        "package": "udt_complete_metric_solution_space_map_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 24,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "b7d8917cb27627c7ad7767fcffbd5b5d7a9dc6da2171b2d8fba329d04014ffad",
+        "package": "udt_canonical_geometry_evaluator_p01_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 33,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "c56390eb26b80c54a3c3a09f4800086c8dbc00b5bfd40b2038e264e85bec8938",
+        "package": "udt_local_jet_atlas_p02_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 30,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "b0ec5cbb2be404084e1b1ed4eca98d53c9712a62cf1af0a48eb340b64467c3be",
+        "package": "udt_founded_constraint_atlas_p03_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 28,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "62f9b3f33409b62fb841734e8a91e61d9b859247bf808c4a6cf3740b6a54b6c9",
+        "package": "udt_global_kinematic_assembly_p03g_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "d01d65fc5abcc35078c961d0d3fc0eec7ad26e205735a77f7d83e2b45121de3f",
+        "package": "udt_dynamics_branch_ruling_p04_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 32,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "5c26d4eb97c4dc370e286469c63d662f182a71a94a6e6899131fd6706c4e7f2e",
+        "package": "udt_full_equation_variation_p05_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 25,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "45c239639d999c26f2e574592fafc392fbb7c1e6f20ea92e1d260b4784e00e51",
+        "package": "udt_pre_p06_boundary_selector_audit_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 27,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "3089e66d65f85753d45e9e78596dba9ae2b962a015857c969ff6a0492d442f12",
+        "package": "udt_time_live_characteristic_flux_audit_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 28,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "5198a69a1b8a3026af529bccd4d47639d718a21fc1153947b3ebfab8720502d8",
+        "package": "udt_free_global_seal_transversality_audit_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 35,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "56c5f36455ae1f89811f3b86db9455a39482510415e6a7f770d2e5ffaa4ed0c7",
+        "package": "udt_finite_cell_completion_atlas_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 33,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "c851721f3e8e15768f8f4945151c0d78bde6f1186bbadcfce5066b939a645370",
+        "package": "udt_constructive_metric_family_atlas_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 32,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "8b7ad5fab519c6ed0d0e83a590869356d3bcffc097681997a591d7d793500aa4",
+        "package": "udt_independent_amplitude_metric_atlas_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 31,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "5182486f4a87080096532d9fe5ba999837ac79fac979c5694f216209ae41c112",
+        "package": "udt_amplitude_volume_metric_atlas_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 42,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "3d569ed31506f5f7ce44beac30e8419571f734b3973dcc34d6c474bf78636757",
+        "package": "udt_structural_ensemble_metric_atlas_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 66,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "082c41bea96e99611d3fc89a135692058e346665b4b1520d7f6d790788a0cf09",
+        "package": "udt_chart_coframe_invariance_atlas_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 64,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "973dcc8bb297fad8358087318b24e5db9d1179e8b6a51a2535a0110e30c108c2",
+        "package": "udt_joint_invariant_subspace_atlas_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 69,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "97dac2c32317deb603a054cffd3d2162f537d8bc7806d2276fa7e8544dd22ed5",
+        "package": "udt_instrument_motif_atlas_2026-07-21",
+        "result": "PASS"
+      },
+      {
+        "entries": 77,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "b9dca9e1baca68b82118e1a008829196d9bb834dae69cfa5d82f0ae771902164",
+        "package": "udt_motif_hopf_correspondence_audit_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 53,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "d4c7e7e16e38496343bbfbc8ef0867de45657ea2e25a724b44b653ff1b276374",
+        "package": "udt_global_metric_assembly_atlas_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 35,
+        "manifest": "SHA256SUMS.txt",
+        "manifest_sha256": "a5043db372a42c45afa0a922bc67c03431598a85c997cafd7b5c2e40a0d7d4c5",
+        "package": "udt_metric_to_frontier_reference_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 20,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "66f1915965a5bd0ee8ff09b54b0ad1275578bfad447b7cb78b0a16e87b3e96f3",
+        "package": "udt_century_adjacent_mathematics_survey_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 28,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "948f96ddffae51ed4811cc96dd6dd9abdc81bdabc1b2f9e27bec70b14afbee71",
+        "package": "udt_local_selector_holonomy_closure_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 26,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "f044fec06cbac85c48b5c096cd397f160775368bdb48d40abb185c9c49befcf0",
+        "package": "udt_phi_metric_ontology_audit_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "59cfa92aef9990478fa266632c339e3ff1da355a80358410fda04cb7027e3958",
+        "package": "udt_reciprocal_subbundle_ownership_audit_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 23,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "422c12b6d98e4c0559602b1979e3835d133159b1919a05812ffd1dc3fe855d7b",
+        "package": "udt_reciprocal_c_metric_meaning_audit_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 23,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "0130af1abbff23f86c93755368cb79e6f6b1cfad09a959cf34e0b17e610ab39d",
+        "package": "udt_reciprocity_regime_angular_center_audit_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 23,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "0f2ff7c5621021d3ebd43b230fd525efcf721f297e9c56646d8347857a14cca8",
+        "package": "udt_timelive_spherical_areal_polarization_audit_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 24,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "f7bbb99fb6e9c114638ec5e0f9a89b875cd03995570ddf3160ee911541112f24",
+        "package": "udt_clock_anchor_scale_threading_audit_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 28,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "e631f0b4c9b21c86f893b8ae15bf32931194918efc559196722ac1f129b844c4",
+        "package": "udt_two_frame_regime_metric_limit_audit_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 32,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "a6527bdb8a808fb85f95371e505e1c9412b3c28a1a2f5d70c11b00a46dc5645e",
+        "package": "udt_complete_connector_assembly_audit_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 64,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "11d67cb7c09188a69e38dcc4e6b0370faa15c0ec7d72bf616e70c8c2bf21def8",
+        "package": "udt_temporal_soldering_atlas_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 37,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "32b45c385cf31119cb83e4a20269389257833e1c0f09768b57862b09049a9c5c",
+        "package": "udt_phi_causal_interface_atlas_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 40,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "88a7b5336f5c133ce329af18e9d328b6d0618f0c909a9976d016955074bcaad6",
+        "package": "udt_configuration_space_adjacency_atlas_2026-07-22",
+        "result": "PASS"
+      },
+      {
+        "entries": 41,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "75ac459c9eb978c88272b7115da2a723f4d7a009b4f72f7d7972dc525437a1f1",
+        "package": "udt_bank_simplex_interior_atlas_2026-07-23",
+        "result": "PASS"
+      },
+      {
+        "entries": 16,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "1660a94a039194c8143691a50862f07ec51bcc17126fa95880b4da0b4e41a4e7",
+        "package": "hygiene_baseline_correction_2026-07-23",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "3b9508709ca78c214ce2d07c651ab827d3431a96aa7096347a9420ba6d29c42c",
+        "package": "udt_native_coframe_composition_law_audit_2026-07-23",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "ee35787b41fbca774031080c1c12a4c0fe01dc820abdeb444e1977d58bbb0b1b",
+        "package": "udt_coframe_hopf_bridge_audit_2026-07-23",
+        "result": "PASS"
+      },
+      {
+        "entries": 38,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "3b982757e453014d9249f320583ea3adcbcfeff750b22e0ea5fdc05e7efc7f23",
+        "package": "udt_complete_metric_realization_zoomout_2026-07-23",
+        "result": "PASS"
+      },
+      {
+        "entries": 37,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "1857bde1fff72829487f56ddd9fb461a2d9cad7b777a51baa125529713c8bfd4",
+        "package": "udt_complete_metric_intrinsic_object_audit_2026-07-23",
+        "result": "PASS"
+      },
+      {
+        "entries": 26,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "72fc872ae3ab2eb21dd0a1a5bdeebe9d7b20db77472b33536f79c7a6d6ea9003",
+        "package": "udt_finite_cell_reciprocal_survival_density_audit_2026-07-23",
+        "result": "PASS"
+      },
+      {
+        "entries": 32,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "4d1e70a28191a4cc25f39b3d24d41bb48b2c0de1b6151c15e354a4a2dfc82624",
+        "package": "udt_global_reciprocal_persistence_selector_audit_2026-07-23",
+        "result": "PASS"
+      },
+      {
+        "entries": 33,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "edb261f17ba31ecbd53cc75bdf78092ff120c18e864694f41af0167a942bbc2d",
+        "package": "udt_reciprocal_seam_descent_audit_2026-07-23",
+        "result": "PASS"
+      },
+      {
+        "entries": 39,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "604f382c42324b05e31c555c35bf57ab7f22b45bbc654ae6552f9f85844028cb",
+        "package": "udt_reciprocal_angular_intertwiner_audit_2026-07-23",
+        "result": "PASS"
+      },
+      {
+        "entries": 35,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "8fbdc3cff3cc347a76466721311c5a4be6ad10ee2767127a4a850c06a78c7ccc",
+        "package": "udt_angular_generator_branch_census_2026-07-23",
+        "result": "PASS"
+      },
+      {
+        "entries": 33,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "2c72943cfaba0df88f96182c796a51fc3653fec6cbddb7198897d104470d7db8",
+        "package": "udt_relative_angular_area_shape_selector_audit_2026-07-23",
+        "result": "PASS"
+      },
+      {
+        "entries": 39,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "b348e768e4c11b2cef951d8ded26f770391a06178a12b9d0d75386d71214b9ff",
+        "package": "udt_angular_bulk_jacobi_selector_audit_2026-07-23",
+        "result": "PASS"
+      },
+      {
+        "entries": 34,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "5e96426627e86abdb27fab0399e2461358dda273e22c18034e54d86f1eaa95e8",
+        "package": "udt_three_reciprocity_delta_k_audit_2026-07-23",
+        "result": "PASS"
+      },
+      {
+        "entries": 35,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "8798461fbd59891c1eff90c36311e38a29a3753dd4066d75360a813a859955c0",
+        "package": "udt_invariant_xmax_asymptotic_boundary_audit_2026-07-23",
+        "result": "PASS"
+      },
+      {
+        "entries": 22,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "44bac08d6cc37d1326193d357a91823c15da5de025eddba4dbef86882318cc6a",
+        "package": "udt_xmax_dilation_asymptote_correction_2026-07-23",
+        "result": "PASS"
+      },
+      {
+        "entries": 23,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "1401fe8da653c6e8016b915f5c13d2c0660bd199f7d6b1b32acabb1dd3fdfaee",
+        "package": "udt_wrl_xmax_lightcone_frame_audit_2026-07-23",
+        "result": "PASS"
+      },
+      {
+        "entries": 22,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "024e32b90f0ba6fe7ef56b957f04cc88d375a9325597832d60d887768b7ab57b",
+        "package": "udt_observer_centered_xmax_frame_correction_2026-07-23",
+        "result": "PASS"
+      },
+      {
+        "entries": 23,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "dd3b401794240c33a5af00f6004b76baca43d0148f7905fd904129cbd2684cb0",
+        "package": "udt_metric_pure_frame_rederivation_2026-07-23",
+        "result": "PASS"
+      },
+      {
+        "entries": 22,
+        "manifest": "MANIFEST.sha256",
+        "manifest_sha256": "1fcfc5f1a5c6a3171123ed6f0022fce797e612478b805a998fbc327009633ecc",
+        "package": "udt_frame_bivector_equivariance_audit_2026-07-23",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS"
+  },
+  "result": "PASS",
+  "schema": "udt-finite-cell-Cartan-repository-gates-1.0",
+  "science": {
+    "causal_cross_rows": 60,
+    "clean_environment": "PASS",
+    "complete_onshell_branches": 0,
+    "completion_families": 12,
+    "grade": "VERIFIED-WITH-CAVEATS",
+    "independent_catches": 22,
+    "independent_checks": 26,
+    "production_checks": 46,
+    "result": "PASS",
+    "sources": 22,
+    "statuses": 36
+  },
+  "scope_paths": [
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/AUDIT_REPORT.md",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/CATCH_PROOFS.tsv",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/CAUSAL_TRANSITION_ATLAS.tsv",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/CLEAN_ENV_RESULT.json",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/CLEAN_ENV_STDOUT.txt",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/COMMANDS.md",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/COMPLETION_CAUSAL_CROSS.tsv",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/CONNECTION_BLOCK_ATLAS.tsv",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/DERIVATION_RESULT.json",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/FINITE_CELL_CARTAN_TRANSPORT_ATLAS.tsv",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/FULL_TEST_RESULT.json",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/FULL_TEST_STDOUT.txt",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/INDEPENDENT_VERIFICATION.json",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/LAY_REPORT.md",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/MANIFEST.sha256",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/NEXT_STEP.md",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/SOURCE_LINEAGE.tsv",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/STATUS_LEDGER.tsv",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/build_manifest.py",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/derive_finite_cell_cartan_transport.py",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/requirements.txt",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/verify_finite_cell_cartan_independent.py",
+    "udt_finite_cell_cartan_transport_atlas_2026-07-23/verify_repository_gates.py"
+  ],
+  "tests": {
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest -q tests/",
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "returncode": 0,
+    "stdout_sha256": "56576715f029c5f0aab4339a85104d62bab18b65bd2272639055eba49919293c",
+    "xfailed": 1
+  }
+}
