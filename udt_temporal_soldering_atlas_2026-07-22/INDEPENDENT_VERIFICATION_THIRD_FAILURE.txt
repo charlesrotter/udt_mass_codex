@@ -1,0 +1,11 @@
+command: env OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 python3 udt_temporal_soldering_atlas_2026-07-22/verify_temporal_soldering_independent.py --jobs 12
+exit_code: 1
+
+Traceback (most recent call last):
+  File "udt_temporal_soldering_atlas_2026-07-22/verify_temporal_soldering_independent.py", line 325, in <module>
+    main()
+  File "udt_temporal_soldering_atlas_2026-07-22/verify_temporal_soldering_independent.py", line 294, in main
+    holonomy_rows = verify_global_open_status()
+  File "udt_temporal_soldering_atlas_2026-07-22/verify_temporal_soldering_independent.py", line 252, in verify_global_open_status
+    raise AssertionError("Levi-Civita holonomy overclaim")
+AssertionError: Levi-Civita holonomy overclaim
