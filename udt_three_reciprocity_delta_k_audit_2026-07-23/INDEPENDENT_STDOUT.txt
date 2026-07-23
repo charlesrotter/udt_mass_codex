@@ -1,0 +1,14 @@
+{
+  "all_checks_pass": true,
+  "catch_count": 18,
+  "catch_pass_count": 18,
+  "counterfamily_checks": 4,
+  "covariance_checks": 6,
+  "lambda_flow_checks": 32,
+  "method": "stdlib_Fraction_no_production_import",
+  "route_checks": 14,
+  "schema": "udt-three-reciprocity-independent-verification-1.0",
+  "source_hash_checks": 20,
+  "status_checks": 14,
+  "xmax_group_checks": 13
+}

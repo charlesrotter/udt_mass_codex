@@ -1,0 +1,19 @@
+{
+  "additive_coordinate": "phi=atanh(xi)",
+  "associativity_residual": "EXACT_ZERO",
+  "character_residual": "EXACT_ZERO",
+  "composition": "(xi+eta)/(1+xi*eta)",
+  "domain": "open_interval_-1_lt_xi_lt_1",
+  "endpoints_are_regular_mirror_seals": false,
+  "identity": 0,
+  "inverse": "-xi",
+  "multiplicative_character": "(1-xi)/(1+xi)",
+  "negative_endpoint": "LIMIT_NOT_GROUP_ELEMENT",
+  "opposite_endpoints_composable": false,
+  "plus_one_compose_minus_one_denominator": 0,
+  "position_field_join": "OPEN_NOT_CERTIFIED",
+  "positive_endpoint": "LIMIT_NOT_GROUP_ELEMENT",
+  "same_endpoint_formal_limit": "1",
+  "schema": "udt-conditional-xmax-group-1.0",
+  "status": "CHOSE_CONDITIONAL_NOT_UNIQUE"
+}

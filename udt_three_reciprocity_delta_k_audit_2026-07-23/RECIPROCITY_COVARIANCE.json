@@ -1,0 +1,18 @@
+{
+  "c_retained_symbolically": true,
+  "central_survivor": "Delta_K=mu*I",
+  "central_survivor_nonzero_for_mu_nonzero": true,
+  "covariance_residual": "EXACT_ZERO",
+  "endpoint_flat_survivor": "mu*(1-xi^2)^2*I",
+  "mirror_action": "L->-L;K_rec->K_rec",
+  "observer_law": "Delta_K_prime=S*Delta_K*S^-1",
+  "pair_generator": "L=diag(-1,+1)",
+  "reciprocal_pair": "diag(exp(-phi)/c_E,c_E*exp(phi))",
+  "reference_source": "K_rec=-L^2=-I",
+  "reversal_even_anisotropic_survivor": "nu*xi*(1-xi^2)^2*L",
+  "reversal_even_central_survivor": "mu*I",
+  "ruling": "MAKES_COVARIANT_NOT_NECESSARY",
+  "schema": "udt-three-reciprocity-covariance-1.0",
+  "zero_is_forced_by_covariance": false,
+  "zero_is_frame_invariant": true
+}

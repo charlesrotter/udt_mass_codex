@@ -1,0 +1,23 @@
+{
+  "python": "3.10.12",
+  "result": "PASS",
+  "runs": [
+    {
+      "returncode": 0,
+      "script": "derive_three_reciprocity_delta_k.py",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 2046,
+      "stdout_sha256": "061bd6196a66ebef7bfb41a002959c13f4f24dfdfaebcd956a827b8a4f149d39"
+    },
+    {
+      "returncode": 0,
+      "script": "verify_three_reciprocity_delta_k_independent.py",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 378,
+      "stdout_sha256": "db3452c3098e1959275c511ac966a9a03229cbc7a371204054903d1e6c374bd3"
+    }
+  ],
+  "schema": "udt-three-reciprocity-replay-1.0"
+}

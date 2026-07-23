@@ -1,0 +1,74 @@
+{
+  "added_control_premises": [
+    "supplied_regular_screen",
+    "central_angular_source",
+    "phi_translation_homogeneity",
+    "negative_constant_source_sign",
+    "parallel_screen",
+    "nonsingular_flow"
+  ],
+  "area": "lambda*t*(lambda^2-s^2)/(lambda^2-s^2*t^2)",
+  "eigen_solution": "b_u=lambda*(u+lambda*t)/(lambda+u*t)",
+  "equation": "B_p+B^2-lambda^2*I=0",
+  "first_seal": "B0=J0;J0^2=s^2*I;A_rel(0)=0",
+  "matched_flow_area": "0",
+  "matched_flow_shape": "lambda^2",
+  "matrix_solution": "B=lambda*(B0+lambda*t*I)*(lambda*I+t*B0)^-1",
+  "riccati_residual": "EXACT_ZERO",
+  "schema": "udt-constant-lambda-riccati-1.0",
+  "second_nontrivial_area_seal_condition": "s^2=lambda^2",
+  "shape": "lambda^4*s^2*(1-t^2)^2/(lambda^2-s^2*t^2)^2",
+  "source": "K_eff=-lambda^2*I",
+  "t": "tanh(lambda*Delta_phi)",
+  "two_seals_force_lambda_one": false,
+  "witnesses": [
+    {
+      "A_rel": "0",
+      "S_shape": "1",
+      "lambda": "1",
+      "s": "1",
+      "t": "1/3",
+      "unit_shape": true
+    },
+    {
+      "A_rel": "0",
+      "S_shape": "1",
+      "lambda": "1",
+      "s": "1",
+      "t": "2/5",
+      "unit_shape": true
+    },
+    {
+      "A_rel": "0",
+      "S_shape": "4",
+      "lambda": "2",
+      "s": "2",
+      "t": "1/3",
+      "unit_shape": false
+    },
+    {
+      "A_rel": "0",
+      "S_shape": "4",
+      "lambda": "2",
+      "s": "2",
+      "t": "2/5",
+      "unit_shape": false
+    },
+    {
+      "A_rel": "0",
+      "S_shape": "9",
+      "lambda": "3",
+      "s": "3",
+      "t": "1/3",
+      "unit_shape": false
+    },
+    {
+      "A_rel": "0",
+      "S_shape": "9",
+      "lambda": "3",
+      "s": "3",
+      "t": "2/5",
+      "unit_shape": false
+    }
+  ]
+}

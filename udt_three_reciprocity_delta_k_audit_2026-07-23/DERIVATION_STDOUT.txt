@@ -1,0 +1,61 @@
+{
+  "base_commit": "51a355a746fab82baa9760ceaf564f20ab2e1099",
+  "catch_count": 18,
+  "catch_pass_count": 18,
+  "counterfamily_count": 4,
+  "cpu_only": true,
+  "current_registered_composition": {
+    "Delta_K_zero": "NOT_DERIVED",
+    "reason": [
+      "covariance_preserves_optional_zero_but_does_not_force_it",
+      "central_and_anisotropic_covariant_counterfamilies_survive",
+      "Xmax_position_field_join_is_open",
+      "Xmax_endpoints_are_limits_not_regular_seals"
+    ],
+    "two_regular_mirror_seals": "NOT_DERIVED"
+  },
+  "founded_vs_open": {
+    "founded": [
+      "reciprocal_c_pair",
+      "abstract_exponential_character",
+      "ordinary_regime_observer_covariance"
+    ],
+    "open": [
+      "Xmax_position_field_join",
+      "absolute_relative_phi_join",
+      "complete_angular_source",
+      "two_regular_seals",
+      "lambda_equals_one"
+    ],
+    "working_or_chosen": [
+      "one_global_Xmax",
+      "fractional_linear_Xmax_group"
+    ]
+  },
+  "maximum_conclusion": "CURRENT_RECIPROCITIES_SUPPLY_A_REFERENCE_SOURCE_AND_COVARIANT_OBSTRUCTION;UNDER_ADDED_HOMOGENEITY_CENTRALITY_AND_TWO_SEAL_PREMISES_THE_OPEN_TENSOR_SEAM_REDUCES_TO_ONE_DIMENSIONLESS_SCALAR_LAMBDA_BUT_LAMBDA_EQUALS_ONE_REMAINS_OPEN",
+  "metric_led": true,
+  "native_closure": false,
+  "route_count": 14,
+  "schema": "udt-three-reciprocity-delta-k-audit-1.0",
+  "source_count": 20,
+  "strongest_charitable_composition": {
+    "additional_premises": [
+      "supplied_regular_screen",
+      "central_angular_source",
+      "phi_translation_homogeneity",
+      "negative_constant_source_sign",
+      "parallel_screen",
+      "nonsingular_flow"
+    ],
+    "bulk_result": "A_rel=0;S_shape=lambda^2",
+    "reduction": "K_eff=-lambda^2*I",
+    "remaining_seam": "lambda=1",
+    "status": "CONDITIONAL",
+    "two_seal_result": "s^2=lambda^2"
+  },
+  "three_reciprocity_roles": {
+    "Xmax": "CONDITIONALLY_SUPPLIES_GLOBAL_GROUP_AND_REVERSAL",
+    "observer_frame": "MAKES_DELTA_K_A_COVARIANT_OBSTRUCTION",
+    "reciprocal_c": "SUPPLIES_L_AND_REFERENCE_K_rec"
+  }
+}
