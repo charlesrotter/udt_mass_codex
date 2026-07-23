@@ -1,0 +1,678 @@
+{
+  "all_checks_pass": true,
+  "check_count": 79,
+  "checks": [
+    {
+      "detail": "Matrix([[5/4, 3/4, 0, 0], [3/4, 5/4, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]])",
+      "name": "Bx_is_Lorentz",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[5/4, 0, 3/4, 0], [0, 1, 0, 0], [3/4, 0, 5/4, 0], [0, 0, 0, 1]])",
+      "name": "By_is_Lorentz",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[1, 0, 0, 0], [0, 40/41, 9/41, 0], [0, -9/41, 40/41, 0], [0, 0, 0, 1]])",
+      "name": "screen_R_is_Lorentz",
+      "pass": true
+    },
+    {
+      "detail": "1",
+      "name": "screen_R_is_proper",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[1], [0], [0], [0]])",
+      "name": "screen_R_fixes_reference_observer",
+      "pass": true
+    },
+    {
+      "detail": "BxBy!=ByBx",
+      "name": "noncollinear_boosts_do_not_commute",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[2], [2], [0], [0]])",
+      "name": "collinear_plus_null_weight",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[1/2], [-1/2], [0], [0]])",
+      "name": "collinear_minus_null_weight",
+      "pass": true
+    },
+    {
+      "detail": {
+        "1": 2,
+        "1/2": 2,
+        "2": 2
+      },
+      "name": "collinear_bivector_weights",
+      "pass": true
+    },
+    {
+      "detail": {
+        "1": 2,
+        "1/2": 2,
+        "2": 2
+      },
+      "name": "collinear_bivector_structure_is_2plus2plus2",
+      "pass": true
+    },
+    {
+      "detail": {
+        "1": 2,
+        "1/2": 2,
+        "2": 2
+      },
+      "name": "collinear_bivector_not_dphi_3plus3_by_multiplicity",
+      "pass": true
+    },
+    {
+      "detail": 2,
+      "name": "collinear_plus_weight_projector_rank",
+      "pass": true
+    },
+    {
+      "detail": "Lambda2(By) does not preserve the Bx e^chi sector",
+      "name": "noncollinear_change_mixes_collinear_weight_space",
+      "pass": true
+    },
+    {
+      "detail": 6,
+      "name": "Lorentz_algebra_basis_rank",
+      "pass": true
+    },
+    {
+      "detail": 6,
+      "name": "Lorentz_algebra_commutator_span_rank",
+      "pass": true
+    },
+    {
+      "detail": "so(1,3)=[so(1,3),so(1,3)]; character differential is zero",
+      "name": "full_connected_group_has_no_nontrivial_continuous_real_character",
+      "pass": true
+    },
+    {
+      "detail": "[J,J] spans J",
+      "name": "rotation_rotation_brackets_close_in_rotation_sector",
+      "pass": true
+    },
+    {
+      "detail": "[J,K] spans K",
+      "name": "rotation_boost_brackets_close_in_boost_sector",
+      "pass": true
+    },
+    {
+      "detail": "[K,K] spans J",
+      "name": "boost_boost_brackets_generate_rotation_sector",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, 0, 0, 0], [0, 0, 1, 0], [0, -1, 0, 0], [0, 0, 0, 0]])",
+      "name": "exact_Kx_Ky_commutator_is_Jz",
+      "pass": true
+    },
+    {
+      "detail": "D[Kx,Ky]=1/2 Jz but [DKx,DKy]=4 Jz",
+      "name": "reciprocal_3plus3_weighting_is_not_Lorentz_algebra_automorphism",
+      "pass": true
+    },
+    {
+      "detail": "for K weight q and J weight q^-1, q^-1=q^2; positive real q gives q=1",
+      "name": "only_trivial_positive_reciprocal_weight_preserves_KK_bracket",
+      "pass": true
+    },
+    {
+      "detail": "-1",
+      "name": "timelike_dphi_norm",
+      "pass": true
+    },
+    {
+      "detail": 1,
+      "name": "timelike_line_projector_rank",
+      "pass": true
+    },
+    {
+      "detail": 3,
+      "name": "timelike_parallel_projector_rank",
+      "pass": true
+    },
+    {
+      "detail": 3,
+      "name": "timelike_transverse_projector_rank",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[1, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0]])",
+      "name": "timelike_parallel_projector_idempotent",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 1]])",
+      "name": "timelike_transverse_projector_idempotent",
+      "pass": true
+    },
+    {
+      "detail": "Pi Q=0",
+      "name": "timelike_projectors_complementary",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, 0, 0, 0, 0, -1], [0, 0, 0, 0, 1, 0], [0, 0, 0, -1, 0, 0], [0, 0, 1, 0, 0, 0], [0, -1, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0]])",
+      "name": "Lorentzian_Hodge_squares_minus_identity",
+      "pass": true
+    },
+    {
+      "detail": "star Pi_parallel star^-1=Pi_transverse",
+      "name": "Hodge_exchanges_timelike_3plus3_sectors",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+      "name": "screen_rotation_preserves_timelike_line",
+      "pass": true
+    },
+    {
+      "detail": "Lambda2(R) commutes with Pi",
+      "name": "screen_rotation_preserves_timelike_3plus3_split",
+      "pass": true
+    },
+    {
+      "detail": "proper Lorentz intertwiner",
+      "name": "screen_rotation_commutes_with_Hodge",
+      "pass": true
+    },
+    {
+      "detail": "proper Lorentz intertwiner",
+      "name": "collinear_boost_commutes_with_Hodge",
+      "pass": true
+    },
+    {
+      "detail": {
+        "intertwiner": "Matrix([[0, 0, 1], [0, -1, 0], [1, 0, 0]])",
+        "parallel": "Matrix([[40/41, 9/41, 0], [-9/41, 40/41, 0], [0, 0, 1]])",
+        "transverse": "Matrix([[1, 0, 0], [0, 40/41, 9/41], [0, -9/41, 40/41]])"
+      },
+      "name": "screen_rotation_actions_are_Hodge_intertwined",
+      "pass": true
+    },
+    {
+      "detail": "D(log2)D(log3)=D(log6) on a fixed dphi split",
+      "name": "dphi_reciprocal_weights_form_additive_scalar_flow",
+      "pass": true
+    },
+    {
+      "detail": "D=2 Pi+ + 1/2 Pi-",
+      "name": "screen_rotation_commutes_with_dphi_reciprocal_operator",
+      "pass": true
+    },
+    {
+      "detail": "R depends on frame composition; D depends on phi,dphi",
+      "name": "nontrivial_screen_rotation_not_identical_to_dphi_operator",
+      "pass": true
+    },
+    {
+      "detail": "D_phi=I at phi=0 while exact R is nontrivial",
+      "name": "phi_zero_identity_countermodel_separates_structures",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, 0, 0, 0, 0, 0], [0, 0, 0, -3/4, 0, 0], [0, 0, 0, 0, -3/4, 0], [0, 3/4, 0, 0, 0, 0], [0, 0, 3/4, 0, 0, 0], [0, 0, 0, 0, 0, 0]])",
+      "name": "generic_boost_does_not_preserve_fixed_timelike_split",
+      "pass": true
+    },
+    {
+      "detail": "-1",
+      "name": "boosted_dphi_remains_timelike",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[25/16, -15/16, 0, 0], [15/16, -9/16, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+      "name": "dphi_line_projector_is_Lorentz_equivariant",
+      "pass": true
+    },
+    {
+      "detail": "Pi(Lambda alpha)=Lambda2 Pi(alpha) Lambda2^-1",
+      "name": "dphi_3plus3_family_is_Lorentz_equivariant",
+      "pass": true
+    },
+    {
+      "detail": "D transported with dphi",
+      "name": "dphi_reciprocal_operator_family_is_Lorentz_equivariant",
+      "pass": true
+    },
+    {
+      "detail": "transported split differs from fixed split",
+      "name": "equivariance_is_not_fixed_split_invariance",
+      "pass": true
+    },
+    {
+      "detail": "-1/9",
+      "name": "CSN_norm_weight",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[1, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+      "name": "CSN_line_projector_invariant",
+      "pass": true
+    },
+    {
+      "detail": "rank3+rank3 unchanged",
+      "name": "CSN_two_form_split_invariant",
+      "pass": true
+    },
+    {
+      "detail": "star on middle-degree forms has conformal weight zero in four dimensions",
+      "name": "CSN_four_dimensional_two_form_Hodge_invariant",
+      "pass": true
+    },
+    {
+      "detail": "SO+(1,3) conformal frame relation unchanged after renormalization",
+      "name": "CSN_dimensionless_screen_rotation_invariant",
+      "pass": true
+    },
+    {
+      "detail": [
+        "Jx",
+        "Jy",
+        "Jz"
+      ],
+      "name": "timelike_dphi_stabilizer_generators",
+      "pass": true
+    },
+    {
+      "detail": "stabilizer SO(3)",
+      "name": "timelike_dphi_selects_conditional_observer_rest_space",
+      "pass": true
+    },
+    {
+      "detail": "parallel=e0i boost sector; transverse=eij rotation sector",
+      "name": "timelike_dphi_3plus3_is_frame_algebra_Cartan_split",
+      "pass": true
+    },
+    {
+      "detail": "Bx/By composition leaves a Jz screen rotation",
+      "name": "screen_rotation_axis_matches_noncollinear_boost_commutator",
+      "pass": true
+    },
+    {
+      "detail": "1",
+      "name": "spacelike_dphi_norm",
+      "pass": true
+    },
+    {
+      "detail": 3,
+      "name": "spacelike_parallel_projector_rank",
+      "pass": true
+    },
+    {
+      "detail": "same real reciprocal pair with noncompact stabilizer",
+      "name": "Hodge_exchanges_spacelike_3plus3_sectors",
+      "pass": true
+    },
+    {
+      "detail": [
+        "Jx",
+        "Ky",
+        "Kz"
+      ],
+      "name": "spacelike_dphi_stabilizer_generators",
+      "pass": true
+    },
+    {
+      "detail": [
+        "Jx",
+        "Ky",
+        "Kz"
+      ],
+      "name": "spacelike_stabilizer_is_noncompact_SO_plus_1_2",
+      "pass": true
+    },
+    {
+      "detail": "orthogonal complement has Lorentzian signature (1,2)",
+      "name": "spacelike_dphi_does_not_select_observer",
+      "pass": true
+    },
+    {
+      "detail": "0",
+      "name": "null_dphi_norm",
+      "pass": true
+    },
+    {
+      "detail": 1,
+      "name": "null_endomorphism_rank",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+      "name": "null_endomorphism_is_nilpotent",
+      "pass": true
+    },
+    {
+      "detail": 2,
+      "name": "null_induced_map_rank",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0]])",
+      "name": "null_induced_map_is_nilpotent",
+      "pass": true
+    },
+    {
+      "detail": "little-group screen quotient exists but 3+3 split degenerates",
+      "name": "null_dphi_has_no_semisimple_3plus3_projector",
+      "pass": true
+    },
+    {
+      "detail": 0,
+      "name": "zero_dphi_supplies_no_line",
+      "pass": true
+    },
+    {
+      "detail": "all Lorentz transformations fix zero",
+      "name": "zero_dphi_stabilizer_is_full_frame_group",
+      "pass": true
+    },
+    {
+      "detail": "epsilon**2 + 2*epsilon",
+      "name": "type_change_norm_crosses_zero",
+      "pass": true
+    },
+    {
+      "detail": "Matrix([[-1/(epsilon*(epsilon + 2)), (-epsilon - 1)/(epsilon*(epsilon + 2)), 0, 0], [(epsilon + 1)/(epsilon*(epsilon + 2)), (epsilon + 1)**2/(epsilon*(epsilon + 2)), 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+      "name": "type_change_projector_is_singular",
+      "pass": true
+    },
+    {
+      "detail": "finite SO+(1,3) composition at one event uses no spacetime derivatives",
+      "name": "frame_group_rotation_is_not_spacetime_curvature",
+      "pass": true
+    },
+    {
+      "detail": "conditional on a smooth timelike nonzero dphi field; connection values require derivatives",
+      "name": "timelike_dphi_reduction_allows_induced_SO3_connection_definition",
+      "pass": true
+    },
+    {
+      "detail": "n=f dphi implies n wedge dn=f dphi wedge df wedge dphi=0",
+      "name": "normalized_timelike_dphi_congruence_is_hypersurface_orthogonal",
+      "pass": true
+    },
+    {
+      "detail": "frame-group closure can rotate while the exact-gradient congruence has zero Frobenius twist",
+      "name": "screen_rotation_is_not_dphi_congruence_vorticity",
+      "pass": true
+    },
+    {
+      "detail": "full preservation requires nabla P=0; otherwise rotation and boost/extrinsic pieces mix",
+      "name": "Levi_Civita_connection_preserves_reduction_only_if_dphi_direction_parallel",
+      "pass": true
+    },
+    {
+      "detail": "requires a smooth branch, representative connection, loops, and curvature",
+      "name": "projected_screen_holonomy_not_derived_pointwise",
+      "pass": true
+    },
+    {
+      "detail": "different input spaces and exact countermodel at phi=0",
+      "name": "observer_rapidity_metric_phi_join_remains_open",
+      "pass": true
+    },
+    {
+      "detail": "local representation result only",
+      "name": "no_carrier_Hopf_action_source_boundary_or_scale_promoted",
+      "pass": true
+    }
+  ],
+  "classifications": {
+    "angular_generation": "BOOST_SECTOR_COMMUTATORS_SPAN_ROTATION_SECTOR",
+    "collinear_reciprocal_character": "EXACT_ON_SO_PLUS_1_1_SUBGROUP",
+    "connection": "CONDITIONAL_DEFINITION_VALUES_AND_HOLONOMY_OPEN",
+    "fixed_dphi_split_under_full_group": "NOT_INVARIANT",
+    "full_bivector_representation": "EXACT_2PLUS2PLUS2_COLLINEAR_WEIGHTS_NOT_DPHI_3PLUS3",
+    "full_group_scalar_extension": "OBSTRUCTED_NONTRIVIAL_CHARACTER",
+    "nonnull_dphi_split": "LORENTZ_AND_CSN_EQUIVARIANT_FAMILY",
+    "null_zero_typechange": "DEGENERATE_OR_UNAVAILABLE",
+    "physical_promotion": "NONE",
+    "rapidity_phi": "OPEN_NOT_IDENTIFIED",
+    "reciprocal_weight_automorphism": "OBSTRUCTED_EXCEPT_TRIVIAL_WEIGHT",
+    "spacelike_dphi_screen_join": "NO_CANONICAL_SO3_JOIN",
+    "timelike_dphi_algebra_join": "EXACT_CARTAN_3PLUS3_BOOST_ROTATION_DECOMPOSITION",
+    "timelike_dphi_congruence": "HYPERSURFACE_ORTHOGONAL_ZERO_FROBENIUS_TWIST",
+    "timelike_dphi_screen_join": "EXACT_STABILIZER_COMPATIBILITY_NOT_IDENTITY"
+  },
+  "commutator_span": {
+    "algebra_rank": 6,
+    "commutator_rank": 6,
+    "continuous_real_character": "TRIVIAL_ONLY"
+  },
+  "compute": {
+    "cpu_only": true,
+    "gpu_work_performed": false
+  },
+  "exact_screen_rotation": [
+    [
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "40/41",
+      "9/41",
+      "0"
+    ],
+    [
+      "0",
+      "-9/41",
+      "40/41",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "maximum_conclusion": "THE_COLLINEAR_RECIPROCAL_EXPONENTIAL_IS_AN_EXACT_SO_PLUS_1_1_NULL_WEIGHT_BUT_HAS_NO_NONTRIVIAL_CONTINUOUS_SCALAR_CHARACTER_EXTENSION_TO_SO_PLUS_1_3;THE_FULL_REAL_BIVECTOR_REPRESENTATION_HAS_EXACT_COLLINEAR_WEIGHT_MULTIPLICITIES_2PLUS2PLUS2_NOT_THE_DPHI_3PLUS3_SPLIT;THE_NONNULL_DPHI_SPLIT_IS_A_LORENTZ_AND_CSN_EQUIVARIANT_FAMILY_NOT_A_FIXED_FULL_GROUP_INVARIANT;ON_TIMELIKE_DPHI_THE_SPLIT_IS_EXACTLY_THE_CARTAN_BOOST3_PLUS_ROTATION3_DECOMPOSITION_AND_BOOST_BOOST_COMMUTATORS_GENERATE_THE_ROTATION_SECTOR;ITS_SO3_STABILIZER_CARRIES_THE_EXACT_NONCOLLINEAR_SCREEN_ROTATION_ON_BOTH_HODGE_EXCHANGED_RANK3_SECTORS;THE_SECTOR_JOIN_IS_EXACT_BUT_NONTRIVIAL_RECIPROCAL_WEIGHTING_IS_NOT_A_LORENTZ_ALGEBRA_AUTOMORPHISM_OR_A_RAPIDITY_PHI_IDENTITY;SPACELIKE_NULL_ZERO_TYPECHANGE_CONNECTION_HOLONOMY_GLOBAL_AND_PHYSICAL_JOINS_REMAIN_SCOPED_OPEN_OR_DEGENERATE",
+  "premise_status_counts": {
+    "DEGENERATE_OR_OPEN": 3,
+    "PINNED_OR_PARENT": 2
+  },
+  "python": "3.10.12",
+  "schema": "udt-frame-bivector-equivariance-1.0",
+  "source_hashes": [
+    {
+      "bytes": 11819,
+      "path": "AGENTS.md",
+      "sha256": "e74024f82f6adf4aaed8ea15eb61d176a330abc574bc5495b43415335b3b25db"
+    },
+    {
+      "bytes": 35011,
+      "path": "CANON.md",
+      "sha256": "5d99c0ba09fcee0429a34ac6b3dda4faff489b7d214b622fcbd286deb3785314"
+    },
+    {
+      "bytes": 30848,
+      "path": "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
+      "sha256": "af6bcc49535fd9cf4c8a60e997935d10619f2d52d146482ee40ad9d968f76810"
+    },
+    {
+      "bytes": 2886,
+      "path": "UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md",
+      "sha256": "4bb0da9098da0a9970602e2449615eef151796b0d7fe7a9978f4b66145748a34"
+    },
+    {
+      "bytes": 11418,
+      "path": "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+      "sha256": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003"
+    },
+    {
+      "bytes": 8668,
+      "path": "udt_metric_pure_frame_rederivation_2026-07-23/AUDIT_REPORT.md",
+      "sha256": "e616102b06e32fbbbc36d189cbc12ff75bec0f4b0341e74192781dd775c81294"
+    },
+    {
+      "bytes": 13244,
+      "path": "udt_metric_pure_frame_rederivation_2026-07-23/DERIVATION_RESULT.json",
+      "sha256": "80b5eceb386005905ad647cef186afc367948fd15c10127038fa6bbd68178691"
+    },
+    {
+      "bytes": 2188,
+      "path": "udt_metric_pure_frame_rederivation_2026-07-23/FRAME_RECIPROCITY_LEDGER.tsv",
+      "sha256": "1afaac76df05e3429fe6005cd82ea759afb4f04af0d96382da18452aa04f37d9"
+    },
+    {
+      "bytes": 2016,
+      "path": "udt_metric_pure_frame_rederivation_2026-07-23/MANIFEST.sha256",
+      "sha256": "dd3b401794240c33a5af00f6004b76baca43d0148f7905fd904129cbd2684cb0"
+    },
+    {
+      "bytes": 1341,
+      "path": "udt_metric_pure_frame_rederivation_2026-07-23/NEXT_STEP.md",
+      "sha256": "3fb1972c4a7735870c9ba088542f01375be48d88cc9b8a3f95e2de461e3be459"
+    },
+    {
+      "bytes": 11332,
+      "path": "udt_complete_metric_intrinsic_object_audit_2026-07-23/AUDIT_REPORT.md",
+      "sha256": "923e6e4e7d9b6478f8b281f7d48f4fd46cd194c292a01540c46509ee6fc89776"
+    },
+    {
+      "bytes": 8217,
+      "path": "udt_complete_metric_intrinsic_object_audit_2026-07-23/INTRINSIC_OBJECT_CENSUS.tsv",
+      "sha256": "83c56a85f481f24928109e855afe87fa85a0d41db440e0a5c96f086ec45acb50"
+    },
+    {
+      "bytes": 2092,
+      "path": "udt_complete_metric_intrinsic_object_audit_2026-07-23/DOMAIN_TRANSITION_LEDGER.tsv",
+      "sha256": "0f92b9f61b7cfe9991e668d965d792c5e261760634d1a93fe3c93c9591521fb8"
+    },
+    {
+      "bytes": 3353,
+      "path": "udt_complete_metric_intrinsic_object_audit_2026-07-23/MANIFEST.sha256",
+      "sha256": "1857bde1fff72829487f56ddd9fb461a2d9cad7b777a51baa125529713c8bfd4"
+    }
+  ],
+  "stabilizer_generators": {
+    "spacelike": [
+      "Jx",
+      "Ky",
+      "Kz"
+    ],
+    "timelike": [
+      "Jx",
+      "Jy",
+      "Jz"
+    ]
+  },
+  "strata": [
+    {
+      "global_status": "OPEN",
+      "line_reduction": "SEMISIMPLE_RANK1",
+      "observer_status": "CONDITIONAL_OBSERVER_DIRECTION_SELECTED_BY_DPHI",
+      "screen_join": "EXACT_COMPATIBILITY_ON_STABILIZER",
+      "stabilizer": "SO(3)",
+      "stratum": "TIMELIKE_NONNULL_DPHI",
+      "two_form_structure": "REAL_3PLUS3_HODGE_EXCHANGED"
+    },
+    {
+      "global_status": "OPEN",
+      "line_reduction": "SEMISIMPLE_RANK1",
+      "observer_status": "NO_OBSERVER_SELECTED",
+      "screen_join": "NO_CANONICAL_SO3_OBSERVER_SCREEN",
+      "stabilizer": "SO_PLUS(1,2)",
+      "stratum": "SPACELIKE_NONNULL_DPHI",
+      "two_form_structure": "REAL_3PLUS3_HODGE_EXCHANGED"
+    },
+    {
+      "global_status": "DEGENERATE",
+      "line_reduction": "NILPOTENT_RANK1_UNNORMALIZED",
+      "observer_status": "NO_UNIT_OBSERVER_SELECTED",
+      "screen_join": "TWO_DIMENSIONAL_NULL_SCREEN_QUOTIENT_ONLY",
+      "stabilizer": "E(2)_FOR_FIXED_COVECTOR;SIM(2)_FOR_RAY",
+      "stratum": "NULL_NONNULL_DPHI",
+      "two_form_structure": "NILPOTENT_RANK2_NOT_3PLUS3"
+    },
+    {
+      "global_status": "UNAVAILABLE",
+      "line_reduction": "NONE",
+      "observer_status": "NO_OBSERVER_SELECTED",
+      "screen_join": "NONE_FROM_DPHI",
+      "stabilizer": "SO_PLUS(1,3)",
+      "stratum": "ZERO_DPHI",
+      "two_form_structure": "NONE_FROM_DPHI"
+    },
+    {
+      "global_status": "OBSTRUCTED_WITHOUT_ADDITIONAL_BRANCH_DATA",
+      "line_reduction": "SINGULAR_AT_NULL_OR_ZERO_INTERFACE",
+      "observer_status": "NO_SMOOTH_UNIVERSAL_OBSERVER_REDUCTION",
+      "screen_join": "CANNOT_PROMOTE_TIMELIKE_JOIN_ACROSS_INTERFACE",
+      "stabilizer": "CHANGES_TYPE",
+      "stratum": "TYPE_CHANGING_DPHI",
+      "two_form_structure": "3PLUS3_DEGENERATES"
+    }
+  ],
+  "sympy": "1.13.1",
+  "timelike_sector_actions": {
+    "hodge_intertwiner": [
+      [
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "-1",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0"
+      ]
+    ],
+    "parallel": [
+      [
+        "40/41",
+        "9/41",
+        "0"
+      ],
+      [
+        "-9/41",
+        "40/41",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "transverse": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "40/41",
+        "9/41"
+      ],
+      [
+        "0",
+        "-9/41",
+        "40/41"
+      ]
+    ]
+  },
+  "weight_multiplicities": {
+    "1": 2,
+    "1/2": 2,
+    "2": 2
+  }
+}

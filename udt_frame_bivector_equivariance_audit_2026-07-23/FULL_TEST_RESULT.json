@@ -1,0 +1,9 @@
+{
+  "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest -q tests/",
+  "failed": 0,
+  "passed": 70,
+  "result": "PASS",
+  "returncode": 0,
+  "stdout_sha256": "c23f7adf1839529c0276bfad3406ca321f681211429a0c98c7592269e9a31b01",
+  "xfailed": 1
+}
