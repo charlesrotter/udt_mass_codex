@@ -33,7 +33,9 @@ The current evidence supports a coherent geometric spine:
 6. When `dphi` is spacelike and nonzero, a real `3+3` survives with
    `SO+(1,2)` stabilizer, but it is not an observer boost/rotation split. At
    null `dphi`, the semisimple split degenerates to a rank-two nilpotent
-   filtration. At `dphi=0`, no intrinsic line or split remains.
+   filtration. At `dphi=0`, `dphi` itself supplies no intrinsic line or split;
+   that exact negative does not rule out a replacement requiring additional
+   structure, which remains `OPEN`.
 7. These exact local rules have been crossed with all twelve registered
    finite-cell completion families and five causal classes. The 60-row cross
    is complete for the registered taxonomy, while the number of supplied
@@ -50,7 +52,8 @@ This is real structural progress. It is not yet complete physics.
 - Reciprocal kinematics: `DERIVED` with premise stamps.
 - Timelike nonzero-`dphi` boost/rotation `3+3`: `DERIVED`.
 - Spacelike nonzero-`dphi` real `3+3`: `DERIVED`, without observer meaning.
-- Null/zero degeneration rules: `DERIVED`.
+- Null degeneration and the failure of a `dphi`-supplied zero-stratum
+  reduction: `DERIVED`; any extra-structure replacement at `dphi=0`: `OPEN`.
 - Finite-cell 12-by-5 causal cross: `VERIFIED-WITH-CAVEATS`; no solved branch
   and no selected completion.
 - `C2`/Bach bulk action: `UNIQUE-CONDITIONAL` only when variation precedes
@@ -59,8 +62,10 @@ This is real structural progress. It is not yet complete physics.
   representative.
 - Round `S2` carrier: `POSIT`; the celestial null-direction `S2` fiber does
   not derive its section, target geometry, transport, action, or boundary.
-- Particle stability: retained only inside the recorded finite-box,
-  corrected no-null `L2+L4`, coefficient, boundary, and carrier premises.
+- Particle stability: `SETTLED_STATIC_FINITE_BOX_CONDITIONAL` inside the
+  recorded corrected no-null `L2+L4`, coefficient, boundary, box, staticity,
+  operator, and carrier premises; time-live and unconditional matter remain
+  open.
 - Complete action, native source, differentiable boundary functional,
   normalized charge, physical representative, absolute scale, pre/post-scale
   bridge, carrier emergence, time-live matter law, and unconditional mass:

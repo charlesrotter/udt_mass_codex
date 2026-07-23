@@ -1,7 +1,7 @@
 {
   "all_catches_pass": true,
   "all_checks_pass": true,
-  "catch_count": 14,
+  "catch_count": 20,
   "catches": [
     {
       "name": "reject_missing_status",
@@ -40,6 +40,14 @@
       "pass": true
     },
     {
+      "name": "reject_C10_unconditional_promotion",
+      "pass": true
+    },
+    {
+      "name": "reject_C22_identity_promotion",
+      "pass": true
+    },
+    {
       "name": "reject_missing_regression_guard",
       "pass": true
     },
@@ -58,13 +66,59 @@
     {
       "name": "reject_nonlean_HANDOFF",
       "pass": true
+    },
+    {
+      "name": "reject_missing_source_binding",
+      "pass": true
+    },
+    {
+      "name": "reject_duplicate_source_binding",
+      "pass": true
+    },
+    {
+      "name": "reject_wrong_parent_status",
+      "pass": true
+    },
+    {
+      "name": "reject_unbound_current_identity",
+      "pass": true
     }
   ],
-  "check_count": 12,
+  "check_count": 15,
   "checks": [
     {
       "detail": [],
       "name": "checkpoint_contract",
+      "pass": true
+    },
+    {
+      "detail": {
+        "C10": {
+          "corrected_current_status": "SETTLED_STATIC_FINITE_BOX_CONDITIONAL",
+          "exact_source": "native_hopfion_topology_audit_2026-07-19/TOPOLOGY_STATUS_LEDGER.tsv:T10",
+          "historical_contract_status": "CONDITIONAL",
+          "id": "C10",
+          "reason": "preserve_the_verified_scoped_gain_without_promoting_to_unconditional_matter"
+        },
+        "C22": {
+          "corrected_current_status": "OPEN_NOT_JOINED",
+          "exact_source": "udt_frame_bivector_equivariance_audit_2026-07-23/STATUS_LEDGER.tsv:Q20",
+          "historical_contract_status": "NOT_IDENTIFIED",
+          "id": "C22",
+          "reason": "reproduce_the_parent_ledger_status_exactly"
+        }
+      },
+      "name": "post_commit_status_corrections",
+      "pass": true
+    },
+    {
+      "detail": [],
+      "name": "source_status_bindings",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "source_binding_lineage_coverage",
       "pass": true
     },
     {
@@ -166,6 +220,14 @@
           "pass": true
         },
         {
+          "name": "reject_C10_unconditional_promotion",
+          "pass": true
+        },
+        {
+          "name": "reject_C22_identity_promotion",
+          "pass": true
+        },
+        {
           "name": "reject_missing_regression_guard",
           "pass": true
         },
@@ -183,6 +245,22 @@
         },
         {
           "name": "reject_nonlean_HANDOFF",
+          "pass": true
+        },
+        {
+          "name": "reject_missing_source_binding",
+          "pass": true
+        },
+        {
+          "name": "reject_duplicate_source_binding",
+          "pass": true
+        },
+        {
+          "name": "reject_wrong_parent_status",
+          "pass": true
+        },
+        {
+          "name": "reject_unbound_current_identity",
           "pass": true
         }
       ],

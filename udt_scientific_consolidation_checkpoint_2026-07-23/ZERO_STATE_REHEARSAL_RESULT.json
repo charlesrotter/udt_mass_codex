@@ -23,7 +23,7 @@
     "scale_status": true,
     "status_count": true
   },
-  "head": "7995470931fa0e575f77e93e0137e9d8062c5564",
+  "head": "67d5b1dee23e471cadc2cbbfd7244165edb96b6e",
   "method": "deterministic_parser_no_conversational_context_no_external_model",
   "orientation": {
     "authority_boundary": "no finite-cell branch, representative, action, carrier, scale, or matter law is selected",
@@ -51,7 +51,7 @@
       "finite_cell_completion_cross": "VERIFIED-WITH-CAVEATS",
       "native_source": "OPEN",
       "null_dphi_filtration": "DERIVED",
-      "particle_stability": "CONDITIONAL",
+      "particle_stability": "SETTLED_STATIC_FINITE_BOX_CONDITIONAL",
       "reciprocal_kinematics": "DERIVED",
       "spacelike_dphi_3plus3": "DERIVED",
       "timelike_dphi_3plus3": "DERIVED",
@@ -61,5 +61,5 @@
   },
   "python": "3.10.12",
   "schema": "udt-zero-state-startup-rehearsal-1.0",
-  "worktree_status": "M AGENTS.md\n M HANDOFF.md\n M INDEX.md\n M LIVE.md\n M README.md\n M UDT_SCIENTIFIC_FRONTIER_2026-07-19.md\n M research/README.md\n?? udt_scientific_consolidation_checkpoint_2026-07-23/CHECKPOINT_RESULT.json\n?? udt_scientific_consolidation_checkpoint_2026-07-23/CURRENT_STATUS_LEDGER.tsv\n?? udt_scientific_consolidation_checkpoint_2026-07-23/INDEPENDENT_VERIFICATION.json\n?? udt_scientific_consolidation_checkpoint_2026-07-23/METRIC_TO_FRONTIER_MAP.tsv\n?? udt_scientific_consolidation_checkpoint_2026-07-23/REGRESSION_GUARD_LEDGER.tsv\n?? udt_scientific_consolidation_checkpoint_2026-07-23/REHEARSAL_METHOD.md\n?? udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md\n?? udt_scientific_consolidation_checkpoint_2026-07-23/SOURCE_LINEAGE.tsv\n?? udt_scientific_consolidation_checkpoint_2026-07-23/STARTUP_READ_ORDER.md\n?? udt_scientific_consolidation_checkpoint_2026-07-23/ZERO_CONTEXT_REHEARSAL_OUTPUT.md\n?? udt_scientific_consolidation_checkpoint_2026-07-23/ZERO_CONTEXT_REHEARSAL_PROMPT.md\n?? udt_scientific_consolidation_checkpoint_2026-07-23/ZERO_STATE_REHEARSAL_RESULT.json\n?? udt_scientific_consolidation_checkpoint_2026-07-23/build_checkpoint_evidence.py\n?? udt_scientific_consolidation_checkpoint_2026-07-23/rehearse_startup_zero_state.py\n?? udt_scientific_consolidation_checkpoint_2026-07-23/verify_checkpoint_independent.py"
+  "worktree_status": "M MEMORY.md\n M udt_scientific_consolidation_checkpoint_2026-07-23/CHECKPOINT_RESULT.json\n M udt_scientific_consolidation_checkpoint_2026-07-23/CURRENT_STATUS_LEDGER.tsv\n M udt_scientific_consolidation_checkpoint_2026-07-23/INDEPENDENT_VERIFICATION.json\n M udt_scientific_consolidation_checkpoint_2026-07-23/METRIC_TO_FRONTIER_MAP.tsv\n M udt_scientific_consolidation_checkpoint_2026-07-23/REPOSITORY_GATES.json\n M udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md\n M udt_scientific_consolidation_checkpoint_2026-07-23/build_checkpoint_evidence.py\n M udt_scientific_consolidation_checkpoint_2026-07-23/verify_checkpoint_independent.py\n M udt_scientific_consolidation_checkpoint_2026-07-23/verify_repository_gates.py\n?? udt_scientific_consolidation_checkpoint_2026-07-23/POST_COMMIT_STATUS_CORRECTIONS.tsv\n?? udt_scientific_consolidation_checkpoint_2026-07-23/SOURCE_STATUS_BINDINGS.tsv"
 }

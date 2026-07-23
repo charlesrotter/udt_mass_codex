@@ -21,6 +21,7 @@ CONTROLS = (
     "AGENTS.md",
     "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
     "research/README.md",
+    "MEMORY.md",
 )
 CHECKPOINT = "udt_scientific_consolidation_checkpoint_2026-07-23"
 EXPECTED_STATUS = {
@@ -33,7 +34,7 @@ EXPECTED_STATUS = {
     "C07": "UNIQUE-CONDITIONAL",
     "C08": "CONDITIONAL",
     "C09": "POSIT",
-    "C10": "CONDITIONAL",
+    "C10": "SETTLED_STATIC_FINITE_BOX_CONDITIONAL",
     "C11": "OPEN",
     "C12": "OPEN",
     "C13": "OPEN",
@@ -45,7 +46,7 @@ EXPECTED_STATUS = {
     "C19": "WORKING",
     "C20": "DERIVED-GEOMETRIC",
     "C21": "CONDITIONAL-STATIC-SLICE",
-    "C22": "NOT-IDENTIFIED",
+    "C22": "OPEN_NOT_JOINED",
     "C23": "OPEN",
     "C24": "OPEN",
 }
@@ -100,6 +101,38 @@ def validate(
     return errors
 
 
+def validate_source_bindings(
+    bindings: list[dict[str, str]],
+    status_ids: set[str],
+) -> list[str]:
+    errors: list[str] = []
+    binding_ids = [row.get("binding_id", "") for row in bindings]
+    if len(bindings) != 29 or len(set(binding_ids)) != 29:
+        errors.append("source_binding_identity_coverage")
+    covered = {row.get("current_id", "") for row in bindings}
+    if covered != status_ids:
+        errors.append("source_binding_current_coverage")
+    cache: dict[str, list[dict[str, str]]] = {}
+    for binding in bindings:
+        source = binding.get("source_path", "")
+        path = ROOT / source
+        if not path.exists():
+            errors.append(f"source_binding_missing:{binding.get('binding_id', '')}")
+            continue
+        if source not in cache:
+            cache[source] = read_tsv(path)
+        key = binding.get("key_column", "")
+        value = binding.get("key_value", "")
+        matches = [row for row in cache[source] if row.get(key) == value]
+        if len(matches) != 1:
+            errors.append(f"source_binding_row:{binding.get('binding_id', '')}")
+            continue
+        field = binding.get("field", "")
+        if matches[0].get(field) != binding.get("expected_value", ""):
+            errors.append(f"source_binding_value:{binding.get('binding_id', '')}")
+    return errors
+
+
 def main() -> None:
     checks: list[dict[str, object]] = []
 
@@ -107,11 +140,36 @@ def main() -> None:
         checks.append({"name": name, "pass": bool(condition), "detail": detail})
 
     statuses = read_tsv(HERE / "CURRENT_STATUS_LEDGER.tsv")
+    status_ids = {row["id"] for row in statuses}
     guards = read_tsv(HERE / "REGRESSION_GUARD_LEDGER.tsv")
     maps = read_tsv(HERE / "METRIC_TO_FRONTIER_MAP.tsv")
     controls = {path: ROOT.joinpath(path).read_text(encoding="utf-8") for path in CONTROLS}
     errors = validate(statuses, controls, guards)
     check("checkpoint_contract", not errors, errors)
+
+    corrections = read_tsv(HERE / "POST_COMMIT_STATUS_CORRECTIONS.tsv")
+    correction_map = {row["id"]: row for row in corrections}
+    check(
+        "post_commit_status_corrections",
+        len(corrections) == 2
+        and len(correction_map) == 2
+        and correction_map.get("C10", {}).get("corrected_current_status")
+        == "SETTLED_STATIC_FINITE_BOX_CONDITIONAL"
+        and correction_map.get("C22", {}).get("corrected_current_status")
+        == "OPEN_NOT_JOINED",
+        correction_map,
+    )
+
+    bindings = read_tsv(HERE / "SOURCE_STATUS_BINDINGS.tsv")
+    binding_errors = validate_source_bindings(bindings, status_ids)
+    check("source_status_bindings", not binding_errors, binding_errors)
+    lineage_paths = {
+        row["path"] for row in read_tsv(HERE / "SOURCE_LINEAGE.tsv")
+    }
+    check(
+        "source_binding_lineage_coverage",
+        all(row["source_path"] in lineage_paths for row in bindings),
+    )
 
     lineage = read_tsv(HERE / "SOURCE_LINEAGE.tsv")
     check("source_lineage_count", len(lineage) == 25 and len({row["id"] for row in lineage}) == 25)
@@ -187,11 +245,35 @@ def main() -> None:
     catch("reject_spacelike_observer_promotion", lambda s, c, g: s[index["C03"]].__setitem__("status", "DERIVED-OBSERVER"))
     catch("reject_null_semisimple_promotion", lambda s, c, g: s[index["C04"]].__setitem__("status", "DERIVED-SEMISIMPLE"))
     catch("reject_Kato_physical_time", lambda s, c, g: s[index["C20"]].__setitem__("status", "DERIVED-PHYSICAL-TIME"))
+    catch("reject_C10_unconditional_promotion", lambda s, c, g: s[index["C10"]].__setitem__("status", "DERIVED"))
+    catch("reject_C22_identity_promotion", lambda s, c, g: s[index["C22"]].__setitem__("status", "DERIVED_IDENTITY"))
     catch("reject_missing_regression_guard", lambda s, c, g: g.pop())
     catch("reject_stale_LIVE_pointer", lambda s, c, g: c.__setitem__("LIVE.md", c["LIVE.md"].replace(CHECKPOINT, "stale_checkpoint")))
     catch("reject_stale_HANDOFF_pointer", lambda s, c, g: c.__setitem__("HANDOFF.md", c["HANDOFF.md"].replace(CHECKPOINT, "stale_checkpoint")))
     catch("reject_duplicate_LIVE_marker", lambda s, c, g: c.__setitem__("LIVE.md", c["LIVE.md"] + "\nSTARTUP_CURRENT_BEGIN\n"))
     catch("reject_nonlean_HANDOFF", lambda s, c, g: c.__setitem__("HANDOFF.md", c["HANDOFF.md"].replace("STARTUP_CURRENT_END", "\n".join(["padding"] * 70) + "\nSTARTUP_CURRENT_END")))
+
+    def source_catch(name: str, mutated: list[dict[str, str]]) -> None:
+        catches.append(
+            {
+                "name": name,
+                "pass": bool(validate_source_bindings(mutated, status_ids)),
+            }
+        )
+
+    source_missing = deepcopy(bindings)
+    source_missing.pop()
+    source_catch("reject_missing_source_binding", source_missing)
+    source_duplicate = deepcopy(bindings)
+    source_duplicate[1]["binding_id"] = source_duplicate[0]["binding_id"]
+    source_catch("reject_duplicate_source_binding", source_duplicate)
+    source_wrong = deepcopy(bindings)
+    source_wrong[0]["expected_value"] = "PROMOTED"
+    source_catch("reject_wrong_parent_status", source_wrong)
+    source_identity_loss = [
+        row for row in deepcopy(bindings) if row["current_id"] != "C24"
+    ]
+    source_catch("reject_unbound_current_identity", source_identity_loss)
     check("all_exercised_catches_pass", all(row["pass"] for row in catches), catches)
 
     output = {

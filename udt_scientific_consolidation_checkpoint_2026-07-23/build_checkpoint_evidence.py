@@ -52,19 +52,27 @@ def main() -> None:
     write_tsv(HERE / "SOURCE_LINEAGE.tsv", lineage)
 
     contract = read_tsv(HERE / "PREREGISTERED_STATUS_CONTRACT.tsv")
+    corrections = read_tsv(HERE / "POST_COMMIT_STATUS_CORRECTIONS.tsv")
     statuses = read_tsv(HERE / "CURRENT_STATUS_LEDGER.tsv")
     maps = read_tsv(HERE / "METRIC_TO_FRONTIER_MAP.tsv")
     guards = read_tsv(HERE / "REGRESSION_GUARD_LEDGER.tsv")
     contract_map = {row["id"]: row for row in contract}
+    correction_map = {row["id"]: row for row in corrections}
     status_map = {row["id"]: row for row in statuses}
     if len(contract_map) != 24 or len(status_map) != 24:
         raise AssertionError("status identity coverage")
+    if len(corrections) != 2 or len(correction_map) != 2:
+        raise AssertionError("status correction coverage")
     for item in contract_map:
         if contract_map[item]["object"] != status_map[item]["object"]:
             raise AssertionError(f"status object mismatch {item}")
-        if normalize(contract_map[item]["required_status"]) != normalize(
-            status_map[item]["status"]
-        ):
+        historical = normalize(contract_map[item]["required_status"])
+        expected = historical
+        if item in correction_map:
+            if normalize(correction_map[item]["historical_contract_status"]) != historical:
+                raise AssertionError(f"historical correction mismatch {item}")
+            expected = normalize(correction_map[item]["corrected_current_status"])
+        if expected != normalize(status_map[item]["status"]):
             raise AssertionError(f"status grade mismatch {item}")
         if not ROOT.joinpath(status_map[item]["evidence_path"]).exists():
             raise AssertionError(f"missing status evidence {item}")
@@ -87,6 +95,7 @@ def main() -> None:
         "preregistration_correction_commit": "7995470",
         "source_count": len(lineage),
         "status_count": len(statuses),
+        "post_commit_status_correction_count": len(corrections),
         "frontier_map_count": len(maps),
         "regression_guard_count": len(guards),
         "source_paths_resolve": True,

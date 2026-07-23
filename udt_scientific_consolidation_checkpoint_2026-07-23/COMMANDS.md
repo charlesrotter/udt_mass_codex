@@ -24,5 +24,20 @@ Full repository test:
 CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest -q tests/
 ```
 
+Full repository and checkpoint gates:
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 python3 -s verify_repository_gates.py
+```
+
+Determinism check after committing the correction:
+
+```bash
+sha256sum REPOSITORY_GATES.json
+PYTHONDONTWRITEBYTECODE=1 python3 -s verify_repository_gates.py
+sha256sum REPOSITORY_GATES.json
+git status --short --branch
+```
+
 An external ephemeral-model rehearsal was not performed because no
 task-specific external repository-disclosure grant was available.

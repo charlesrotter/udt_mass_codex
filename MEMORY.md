@@ -4,47 +4,28 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-07-19)
+## TOP — CURRENT POINTER (2026-07-23)
 
-**LIVE.md CURRENT STATE is authoritative.** Read `HANDOFF.md`, then
-`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md` and
-`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`; use the full angular report and
-`null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` and
-`native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` only for task-specific derivation or
-provenance. The verified July 18–19 selector chain
-extends the frozen native-action adjudication through bootstrap variation-domain underdetermination,
-paired field-census trials, Reciprocity/off-shell and spacetime-line selectors, infinite-c
-adjudication, invariant optical flow, reciprocal clock/ruler/optical linkage, co-presence causal
-accessibility, and the final GR-constraint regrade. The subsequent bounded topology audit establishes
-that the existing H3/no-null particle implementation is already full-3D Hopf-capable; the overlooked
-layer is upstream carrier emergence, not missing 3D Hopfion mathematics. The next two metric audits
-find an exact reciprocal Hopf torus orbit-block witness and prove `S3` plus free
-diagonal/anti-diagonal Hopf actions unique only within explicitly supplied global toric eigencap
-premises.
+**LIVE.md CURRENT STATE is authoritative.** Read its marked current block,
+then the marked current block in `HANDOFF.md`, then
+`udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`
+and its three compact ledgers. Expand only to the exact cited evidence made
+load-bearing by the active task.
 
-Current honest status: reciprocal kinematics remain derived under exact premises; C²/Bach remains
-unique-conditional; EH/S²/present mass remains conditional; complete action, native source,
-finite-cell differentiable boundary completion, normalized charge, representative selection,
-carrier emergence, unconditional mass, and the bridge remain open. Co-presence means whole-solution
-event-domain membership, not instantaneous propagation. Existing bootstrap is on-shell
-closure/admissibility and does not yet select variation placement, fields, action, or a bridge. Prior
-constraint algebra survives, but no native ADM constraint or lapse/shift ontology is selected. The
-conditional conformal-Lorentzian metric supplies a CSN-invariant celestial `S2` null-direction fiber;
-it does not select a carrier section, fixed round target, frame/transport, physical finite-cell
-boundary, dynamics, or topology-propagation law. Registered UDT also does not yet derive the first
-toric gate—transverse spatial reciprocal realization and periodicity—or the distinct conditional
-second gate of finite-cell cap completion. Smoothness alone does not select the round metric. The
-carrier remains `POSIT` / `CONDITIONAL`.
+Current honest status: reciprocal kinematics and the scoped local
+nonzero-`dphi` structures are derived with their premises; the 12-by-5
+finite-cell cross is verified with caveats but supplies zero complete on-shell
+`(g,phi)` branches and selects none. `C2`/Bach remains
+`UNIQUE-CONDITIONAL`; EH is `CONDITIONAL`; the round `S2` carrier is `POSIT`;
+particle stability is `SETTLED_STATIC_FINITE_BOX_CONDITIONAL`. Complete
+action, native source, boundary charge, physical representative, absolute
+scale, bridge, carrier emergence, time-live matter law, and unconditional
+mass remain `OPEN`.
 
-`WORKING_HYPOTHESIS`: bootstrap may select law/parameter/solution combinations that sustain stable
-matter in a complete time-live finite universe. The earlier CPU-only comparison of minimal time-live
-completions remains only a possible later study. No new transverse-realization or cap-completion
-audit, time-live solve, carrier adoption, GPU work, canonization, or repository reorganization is
-authorized by this pointer.
-
-The H3 particle-mass arc remains complete in its static finite-box/carrier scope. Its operator history
-is in `stability_branch_follow_256_DECISION.md`; it is not a full time-live matter theorem.
+The current bounded seam is conformally natural pre-scale transport versus
+bootstrap selection of a physical metric representative. This pointer
+authorizes no follow-on solve, GPU work, canonization, artifact move, or
+repository reorganization.
 
 ## DURABLE PRIOR MACRO FRONTIER (2026-07-09 simple metric + WR-L canon)
 

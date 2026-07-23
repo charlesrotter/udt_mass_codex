@@ -30,6 +30,7 @@ CONTROLS = {
     "AGENTS.md",
     "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
     "research/README.md",
+    "MEMORY.md",
 }
 MAXIMUM = (
     "CURRENT_EVIDENCE_LINKED_NAVIGATION_AND_STATUS_CHECKPOINT_"
@@ -66,6 +67,10 @@ def validate_scope(generic, injected: str = "") -> list[str]:
             )
         ).splitlines()
     )
+    # This generated report is an output, not an input to its own scope.
+    # Excluding it makes the first run and every clean committed replay
+    # byte-identical.
+    changed.discard(f"{PACKAGE}/REPOSITORY_GATES.json")
     if injected:
         changed.add(injected)
     invalid = sorted(
@@ -229,14 +234,15 @@ def validate_science(mutation: str = "") -> dict[str, object]:
         result["maximum_conclusion"] != MAXIMUM
         or result["source_count"] != 25
         or result["status_count"] != 24
+        or result["post_commit_status_correction_count"] != 2
         or result["frontier_map_count"] != 13
         or result["regression_guard_count"] != 15
         or result["physics_derivation_performed"] is not False
         or result["artifact_move_performed"] is not False
         or independent["all_checks_pass"] is not True
-        or independent["check_count"] != 12
+        or independent["check_count"] != 15
         or independent["all_catches_pass"] is not True
-        or independent["catch_count"] != 14
+        or independent["catch_count"] != 20
         or rehearsal["all_checks_pass"] is not True
         or len(rehearsal["checks"]) != 16
         or rehearsal["method"]
@@ -245,6 +251,9 @@ def validate_science(mutation: str = "") -> dict[str, object]:
         or status_map.get("C11") != "OPEN"
         or status_map.get("C14") != "OPEN"
         or status_map.get("C23") != "OPEN"
+        or status_map.get("C10")
+        != "SETTLED_STATIC_FINITE_BOX_CONDITIONAL"
+        or status_map.get("C22") != "OPEN_NOT_JOINED"
         or len(lineage) != 25
         or len(maps) != 13
         or len(guards) != 15
@@ -256,8 +265,8 @@ def validate_science(mutation: str = "") -> dict[str, object]:
         "statuses": 24,
         "frontier_map_rows": 13,
         "regression_guards": 15,
-        "independent_checks": 12,
-        "independent_catches": 14,
+        "independent_checks": 15,
+        "independent_catches": 20,
         "zero_state_checks": 16,
         "external_model_review": "NOT_PERFORMED_NO_DISCLOSURE_GRANT",
         "result": "PASS",
