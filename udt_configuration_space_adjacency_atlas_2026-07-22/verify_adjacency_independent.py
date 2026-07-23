@@ -16,6 +16,7 @@ import math
 from collections import Counter
 from dataclasses import dataclass
 from fractions import Fraction
+from functools import lru_cache
 from pathlib import Path
 
 from mpmath import iv
@@ -69,6 +70,8 @@ COEFFICIENTS = tuple(
     tuple(tuple(coefficient(bank, field, term) for term in range(14)) for field in range(11))
     for bank in range(4)
 )
+FLOAT_COEFFICIENTS = np.asarray(COEFFICIENTS, dtype=np.float64)
+FLOAT_BASE_VALUES = np.asarray(BASE_VALUES, dtype=np.float64)
 
 
 def amplitude_vector(carrier, mask):
@@ -151,8 +154,15 @@ def configured(chart, bank_a, bank_b, amplitudes, parameter_u, parameter_lambda)
     return latent, gradient
 
 
-def full_metric(latent, omit_angular_shift=False):
-    a, b, c, d, e, f, a20, a30, a21, a31 = latent
+def full_metric(latent, omit_angular_shift=False, omit_field=None):
+    values = np.asarray(latent, dtype=np.float64).copy()
+    field_index = {
+        "d": 3, "e": 4, "f": 5,
+        "a20": 6, "a30": 7, "a21": 8, "a31": 9,
+    }
+    if omit_field is not None:
+        values[field_index[omit_field]] = 0.0
+    a, b, c, d, e, f, a20, a30, a21, a31 = values
     if omit_angular_shift:
         a20 = a30 = a21 = a31 = 0.0
     u, w, r, t = math.exp(a), math.exp(c), math.exp(d), math.exp(f)
@@ -172,6 +182,132 @@ def scalar_matrix(chart, bank_a, bank_b, amplitudes, u, lam, omit_angular_shift=
     determinant = float(np.linalg.det(metric))
     scalar = float(gradient @ np.linalg.solve(metric, gradient))
     return scalar, determinant, float(np.linalg.norm(gradient))
+
+
+def batch_bank_coordinate(bank, parameter_u):
+    first, second = (np.asarray(POINTS[name], dtype=np.float64) for name in POINT_PAIRS[bank])
+    return first.reshape(1, -1, 4) + parameter_u.reshape(1, -1, 1) * (
+        second - first
+    ).reshape(1, 1, 4)
+
+
+def batch_field_values(coefficients, coordinate):
+    # coefficients: N x U x fields x 14; coordinate: N x U x 4
+    linear = np.sum(coefficients[..., :4] * coordinate[..., None, :], axis=-1)
+    quadratic = np.sum(
+        coefficients[..., 4:8] * coordinate[..., None, :] ** 2 / 2.0, axis=-1
+    )
+    cross = np.zeros_like(linear)
+    for pair_index, (first, second) in enumerate(PAIRS):
+        cross += (
+            coefficients[..., 8 + pair_index]
+            * coordinate[..., first, None]
+            * coordinate[..., second, None]
+        )
+    return linear + quadratic + cross
+
+
+def batch_field_gradient(coefficients, coordinate):
+    # coefficients: N x U x 14; coordinate: N x U x 4
+    output = []
+    for index in range(4):
+        value = coefficients[..., index] + coefficients[..., 4 + index] * coordinate[..., index]
+        for pair_index, (first, second) in enumerate(PAIRS):
+            if index == first:
+                value += coefficients[..., 8 + pair_index] * coordinate[..., second]
+            elif index == second:
+                value += coefficients[..., 8 + pair_index] * coordinate[..., first]
+        output.append(value)
+    return np.stack(output, axis=-1)
+
+
+def batch_endpoint(bank, amplitudes, parameter_u):
+    coordinate = batch_bank_coordinate(bank, parameter_u)
+    count = amplitudes.shape[0]
+    coordinates = np.broadcast_to(coordinate, (count, coordinate.shape[1], 4))
+    coefficients = np.broadcast_to(
+        FLOAT_COEFFICIENTS[bank].reshape(1, 1, 11, 14),
+        (count, coordinate.shape[1], 11, 14),
+    )
+    values = batch_field_values(coefficients, coordinates)
+    latent = FLOAT_BASE_VALUES[:10].reshape(1, 1, 10) + (
+        amplitudes[:, None, :10] * values[..., :10]
+    )
+    gradient = (
+        amplitudes[:, None, 10, None]
+        * batch_field_gradient(coefficients[..., 10, :], coordinates)
+    )
+    return latent, gradient
+
+
+def batch_scalar_matrix(chart, bank_a, bank_b, amplitudes, parameter_u, parameter_lambda):
+    count, u_count = parameter_lambda.shape
+    if chart == CHARTS[1]:
+        latent_a, gradient_a = batch_endpoint(bank_a, amplitudes, parameter_u)
+        latent_b, gradient_b = batch_endpoint(bank_b, amplitudes, parameter_u)
+        latent = (
+            (1.0 - parameter_lambda[..., None]) * latent_a
+            + parameter_lambda[..., None] * latent_b
+        )
+        gradient = (
+            (1.0 - parameter_lambda[..., None]) * gradient_a
+            + parameter_lambda[..., None] * gradient_b
+        )
+    else:
+        coordinate_a = batch_bank_coordinate(bank_a, parameter_u)
+        coordinate_b = batch_bank_coordinate(bank_b, parameter_u)
+        coordinate = (
+            (1.0 - parameter_lambda[..., None]) * coordinate_a
+            + parameter_lambda[..., None] * coordinate_b
+        )
+        coefficients = (
+            (1.0 - parameter_lambda[..., None, None])
+            * FLOAT_COEFFICIENTS[bank_a].reshape(1, 1, 11, 14)
+            + parameter_lambda[..., None, None]
+            * FLOAT_COEFFICIENTS[bank_b].reshape(1, 1, 11, 14)
+        )
+        values = batch_field_values(coefficients, coordinate)
+        latent = FLOAT_BASE_VALUES[:10].reshape(1, 1, 10) + (
+            amplitudes[:, None, :10] * values[..., :10]
+        )
+        gradient = (
+            amplitudes[:, None, 10, None]
+            * batch_field_gradient(coefficients[..., 10, :], coordinate)
+        )
+    a, b, c, d, e, f, a20, a30, a21, a31 = np.moveaxis(latent, -1, 0)
+    u, w, r, t = np.exp(a), np.exp(c), np.exp(d), np.exp(f)
+    coframe = np.zeros((count, u_count, 4, 4))
+    coframe[..., 0, 0] = u
+    coframe[..., 0, 1] = b
+    coframe[..., 1, 1] = w
+    coframe[..., 2, 0] = r * a20 + e * a30
+    coframe[..., 2, 1] = r * a21 + e * a31
+    coframe[..., 2, 2] = r
+    coframe[..., 2, 3] = e
+    coframe[..., 3, 0] = t * a30
+    coframe[..., 3, 1] = t * a31
+    coframe[..., 3, 3] = t
+    signed = coframe.copy()
+    signed[..., 0, :] *= -1.0
+    metric = np.swapaxes(coframe, -1, -2) @ signed
+    solved = np.linalg.solve(metric, gradient[..., None])[..., 0]
+    return np.sum(gradient * solved, axis=-1)
+
+
+def batch_roots(chart, bank_a, bank_b, amplitude_rows, u_points):
+    amplitudes = np.asarray(amplitude_rows, dtype=np.float64)
+    parameter_u = np.asarray(u_points, dtype=np.float64)
+    lo = np.zeros((len(amplitudes), len(parameter_u)))
+    hi = np.ones_like(lo)
+    for _ in range(58):
+        midpoint = (lo + hi) / 2.0
+        values = batch_scalar_matrix(
+            chart, bank_a, bank_b, amplitudes, parameter_u, midpoint
+        )
+        positive = values > 0.0
+        lo = np.where(positive, midpoint, lo)
+        hi = np.where(positive, hi, midpoint)
+    return (lo + hi) / 2.0
 
 
 def root(chart, bank_a, bank_b, amplitudes, parameter_u):
@@ -202,6 +338,539 @@ def interval(lo, hi):
 
 def bounds(value):
     return float(value.a), float(value.b)
+
+
+def _down(value):
+    return np.nextafter(value, -np.inf)
+
+
+def _up(value):
+    return np.nextafter(value, np.inf)
+
+
+@dataclass(frozen=True)
+class BInterval:
+    """Independent vector directed interval used only by the matrix route."""
+
+    lo: np.ndarray
+    hi: np.ndarray
+
+    @classmethod
+    def point(cls, value):
+        current = np.asarray(value, dtype=np.float64)
+        return cls(current, current)
+
+    @classmethod
+    def rational(cls, value):
+        if isinstance(value, (list, tuple)):
+            current = np.asarray([float(Fraction(item)) for item in value], dtype=np.float64)
+        else:
+            current = np.asarray(float(Fraction(value)), dtype=np.float64)
+        return cls(_down(current), _up(current))
+
+    @classmethod
+    def limits(cls, lo, hi):
+        return cls(np.asarray(lo, dtype=np.float64), np.asarray(hi, dtype=np.float64))
+
+    def __add__(self, other):
+        rhs = other if isinstance(other, BInterval) else BInterval.point(other)
+        return BInterval(_down(self.lo + rhs.lo), _up(self.hi + rhs.hi))
+
+    __radd__ = __add__
+
+    def __neg__(self):
+        return BInterval(-self.hi, -self.lo)
+
+    def __sub__(self, other):
+        return self + (-other if isinstance(other, BInterval) else -BInterval.point(other))
+
+    def __rsub__(self, other):
+        return BInterval.point(other) - self
+
+    def __mul__(self, other):
+        rhs = other if isinstance(other, BInterval) else BInterval.point(other)
+        products = np.stack((
+            self.lo * rhs.lo,
+            self.lo * rhs.hi,
+            self.hi * rhs.lo,
+            self.hi * rhs.hi,
+        ))
+        return BInterval(_down(np.min(products, axis=0)), _up(np.max(products, axis=0)))
+
+    __rmul__ = __mul__
+
+    def reciprocal(self):
+        if np.any((self.lo <= 0.0) & (self.hi >= 0.0)):
+            raise ZeroDivisionError("matrix interval contains zero")
+        values = np.stack((1.0 / self.lo, 1.0 / self.hi))
+        return BInterval(_down(np.min(values, axis=0)), _up(np.max(values, axis=0)))
+
+    def __truediv__(self, other):
+        rhs = other if isinstance(other, BInterval) else BInterval.point(other)
+        return self * rhs.reciprocal()
+
+    def __rtruediv__(self, other):
+        return BInterval.point(other) / self
+
+    def exp(self):
+        return BInterval(_down(np.exp(self.lo)), _up(np.exp(self.hi)))
+
+
+@dataclass(frozen=True)
+class BDual:
+    value: BInterval
+    derivative: BInterval
+
+    @classmethod
+    def constant(cls, value):
+        current = value if isinstance(value, BInterval) else BInterval.point(value)
+        return cls(current, BInterval.point(0.0))
+
+    def __add__(self, other):
+        rhs = other if isinstance(other, BDual) else BDual.constant(other)
+        return BDual(self.value + rhs.value, self.derivative + rhs.derivative)
+
+    __radd__ = __add__
+
+    def __neg__(self):
+        return BDual(-self.value, -self.derivative)
+
+    def __sub__(self, other):
+        return self + (-other if isinstance(other, BDual) else -BDual.constant(other))
+
+    def __rsub__(self, other):
+        return BDual.constant(other) - self
+
+    def __mul__(self, other):
+        rhs = other if isinstance(other, BDual) else BDual.constant(other)
+        return BDual(
+            self.value * rhs.value,
+            self.derivative * rhs.value + self.value * rhs.derivative,
+        )
+
+    __rmul__ = __mul__
+
+    def __truediv__(self, other):
+        rhs = other if isinstance(other, BDual) else BDual.constant(other)
+        return BDual(
+            self.value / rhs.value,
+            (self.derivative * rhs.value - self.value * rhs.derivative)
+            / (rhs.value * rhs.value),
+        )
+
+    def __rtruediv__(self, other):
+        return BDual.constant(other) / self
+
+
+def bexp(value):
+    current = value.value.exp()
+    return BDual(current, current * value.derivative)
+
+
+@lru_cache(maxsize=None)
+def brational(value):
+    return BInterval.rational(value)
+
+
+def b_lerp(first, second, parameter):
+    return (BDual.constant(BInterval.point(1.0)) - parameter) * first + parameter * second
+
+
+def b_amplitudes(amplitudes):
+    return tuple(
+        BInterval.rational([row[field] for row in amplitudes])
+        for field in range(11)
+    )
+
+
+def b_columns(amplitudes):
+    return tuple(
+        BInterval(value.lo.reshape(-1, 1), value.hi.reshape(-1, 1))
+        for value in amplitudes
+    )
+
+
+def b_take(amplitudes, indices):
+    return tuple(BInterval(value.lo[indices], value.hi[indices]) for value in amplitudes)
+
+
+def b_bank_coordinate(bank, parameter_u):
+    first, second = (POINTS[name] for name in POINT_PAIRS[bank])
+    return tuple(
+        brational(first[index])
+        + parameter_u * brational(second[index] - first[index])
+        for index in range(4)
+    )
+
+
+def b_field_value(coefficients, coordinate):
+    value = BDual.constant(BInterval.point(0.0))
+    for index in range(4):
+        value += coefficients[index] * coordinate[index]
+    for index in range(4):
+        value += (
+            coefficients[4 + index]
+            * coordinate[index]
+            * coordinate[index]
+            / BInterval.point(2.0)
+        )
+    for pair_index, (first, second) in enumerate(PAIRS):
+        value += coefficients[8 + pair_index] * coordinate[first] * coordinate[second]
+    return value
+
+
+def b_field_gradient(coefficients, coordinate):
+    output = []
+    for index in range(4):
+        value = coefficients[index] + coefficients[4 + index] * coordinate[index]
+        for pair_index, (first, second) in enumerate(PAIRS):
+            if index == first:
+                value += coefficients[8 + pair_index] * coordinate[second]
+            elif index == second:
+                value += coefficients[8 + pair_index] * coordinate[first]
+        output.append(value)
+    return tuple(output)
+
+
+def b_endpoint(bank, amplitudes, parameter_u):
+    coordinate = tuple(BDual.constant(item) for item in b_bank_coordinate(bank, parameter_u))
+    latent = []
+    for field in range(10):
+        coefficients = tuple(BDual.constant(brational(item)) for item in COEFFICIENTS[bank][field])
+        latent.append(
+            BDual.constant(brational(BASE_VALUES[field]))
+            + b_field_value(coefficients, coordinate) * amplitudes[field]
+        )
+    coefficients = tuple(BDual.constant(brational(item)) for item in COEFFICIENTS[bank][10])
+    gradient = tuple(
+        value * amplitudes[10]
+        for value in b_field_gradient(coefficients, coordinate)
+    )
+    return tuple(latent), gradient
+
+
+def b_configured(chart, bank_a, bank_b, amplitudes, u_lo, u_hi, l_lo, l_hi):
+    parameter_u = BInterval.limits(u_lo, u_hi)
+    parameter_lambda = BDual(BInterval.limits(l_lo, l_hi), BInterval.point(1.0))
+    if chart == CHARTS[1]:
+        latent_a, gradient_a = b_endpoint(bank_a, amplitudes, parameter_u)
+        latent_b, gradient_b = b_endpoint(bank_b, amplitudes, parameter_u)
+        return (
+            tuple(b_lerp(latent_a[i], latent_b[i], parameter_lambda) for i in range(10)),
+            tuple(b_lerp(gradient_a[i], gradient_b[i], parameter_lambda) for i in range(4)),
+        )
+    coordinate_a = b_bank_coordinate(bank_a, parameter_u)
+    coordinate_b = b_bank_coordinate(bank_b, parameter_u)
+    coordinate = tuple(
+        b_lerp(BDual.constant(coordinate_a[i]), BDual.constant(coordinate_b[i]), parameter_lambda)
+        for i in range(4)
+    )
+    latent = []
+    for field in range(10):
+        coefficients = tuple(
+            b_lerp(
+                BDual.constant(brational(COEFFICIENTS[bank_a][field][term])),
+                BDual.constant(brational(COEFFICIENTS[bank_b][field][term])),
+                parameter_lambda,
+            )
+            for term in range(14)
+        )
+        latent.append(
+            BDual.constant(brational(BASE_VALUES[field]))
+            + b_field_value(coefficients, coordinate) * amplitudes[field]
+        )
+    coefficients = tuple(
+        b_lerp(
+            BDual.constant(brational(COEFFICIENTS[bank_a][10][term])),
+            BDual.constant(brational(COEFFICIENTS[bank_b][10][term])),
+            parameter_lambda,
+        )
+        for term in range(14)
+    )
+    gradient = tuple(
+        value * amplitudes[10]
+        for value in b_field_gradient(coefficients, coordinate)
+    )
+    return tuple(latent), gradient
+
+
+def b_det3(matrix):
+    return (
+        matrix[0][0] * matrix[1][1] * matrix[2][2]
+        + matrix[0][1] * matrix[1][2] * matrix[2][0]
+        + matrix[0][2] * matrix[1][0] * matrix[2][1]
+        - matrix[0][2] * matrix[1][1] * matrix[2][0]
+        - matrix[0][1] * matrix[1][0] * matrix[2][2]
+        - matrix[0][0] * matrix[1][2] * matrix[2][1]
+    )
+
+
+def b_cofactor(matrix, row, column):
+    reduced = [
+        [matrix[i][j] for j in range(4) if j != column]
+        for i in range(4) if i != row
+    ]
+    value = b_det3(reduced)
+    return -value if (row + column) % 2 else value
+
+
+def b_matrix_scalar(chart, bank_a, bank_b, amplitudes, u_lo, u_hi, l_lo, l_hi):
+    latent, gradient = b_configured(
+        chart, bank_a, bank_b, amplitudes, u_lo, u_hi, l_lo, l_hi
+    )
+    a, b, c, d, e, f, a20, a30, a21, a31 = latent
+    u, w, r, t = bexp(a), bexp(c), bexp(d), bexp(f)
+    zero = BDual.constant(BInterval.point(0.0))
+    coframe = [
+        [u, b, zero, zero],
+        [zero, w, zero, zero],
+        [r * a20 + e * a30, r * a21 + e * a31, r, e],
+        [t * a30, t * a31, zero, t],
+    ]
+    signs = (-1.0, 1.0, 1.0, 1.0)
+    metric = [[BDual.constant(BInterval.point(0.0)) for _ in range(4)] for _ in range(4)]
+    for row in range(4):
+        for column in range(4):
+            for frame in range(4):
+                metric[row][column] += (
+                    BDual.constant(BInterval.point(signs[frame]))
+                    * coframe[frame][row]
+                    * coframe[frame][column]
+                )
+    numerator = BDual.constant(BInterval.point(0.0))
+    for first in range(4):
+        for second in range(4):
+            numerator += (
+                gradient[first]
+                * b_cofactor(metric, second, first)
+                * gradient[second]
+            )
+    exact_determinant = -(bexp(BDual.constant(BInterval.point(2.0)) * (a + c + d + f)))
+    return numerator / exact_determinant, gradient
+
+
+def b_partition_certificate(
+    chart, bank_a, bank_b, amplitudes, pair_type, nu, nl,
+    root_lo=None, root_hi=None,
+):
+    columns = b_columns(amplitudes)
+    size = columns[0].lo.shape[0]
+    passed = np.ones(size, dtype=bool)
+    minimum_scalar_lo = np.full(size, np.inf)
+    maximum_right_scalar_hi = np.full(size, -np.inf)
+    maximum_derivative_hi = np.full(size, -np.inf)
+    gradient_nonzero = np.ones(size, dtype=bool)
+    partition_valid = np.ones(size, dtype=bool)
+    batch_size = 8
+    cells = []
+    if pair_type == "SAME_SIGN_CONTROL":
+        for u_index in range(nu):
+            for lambda_index in range(nl):
+                cells.append((
+                    "SAME", u_index,
+                    np.full(size, lambda_index / nl),
+                    np.full(size, (lambda_index + 1) / nl),
+                ))
+    else:
+        if root_lo is None or root_hi is None:
+            raise AssertionError("matrix cross route requires a saved proof envelope")
+        partition_valid &= (
+            np.all(root_lo >= 0.0, axis=1)
+            & np.all(root_hi <= 1.0, axis=1)
+            & np.all(root_lo <= root_hi, axis=1)
+        )
+        side_bins, root_bins = nl // 4, nl // 2
+        for u_index in range(nu):
+            strip_lo = root_lo[:, u_index]
+            strip_hi = root_hi[:, u_index]
+            for lambda_index in range(side_bins):
+                fraction_lo = lambda_index / side_bins
+                fraction_hi = (lambda_index + 1) / side_bins
+                cells.append((
+                    "LEFT", u_index,
+                    strip_lo * fraction_lo,
+                    strip_lo * fraction_hi,
+                ))
+                cells.append((
+                    "RIGHT", u_index,
+                    strip_hi + (1.0 - strip_hi) * fraction_lo,
+                    strip_hi + (1.0 - strip_hi) * fraction_hi,
+                ))
+            for lambda_index in range(root_bins):
+                fraction_lo = lambda_index / root_bins
+                fraction_hi = (lambda_index + 1) / root_bins
+                cells.append((
+                    "ROOT", u_index,
+                    strip_lo + (strip_hi - strip_lo) * fraction_lo,
+                    strip_lo + (strip_hi - strip_lo) * fraction_hi,
+                ))
+    for start in range(0, len(cells), batch_size):
+        current = cells[start:start + batch_size]
+        labels = [item[0] for item in current]
+        u_indices = np.asarray([item[1] for item in current])
+        lambda_lo = np.stack([item[2] for item in current], axis=1)
+        lambda_hi = np.stack([item[3] for item in current], axis=1)
+        scalar, gradient = b_matrix_scalar(
+            chart, bank_a, bank_b, columns,
+            (u_indices / nu).reshape(1, -1),
+            ((u_indices + 1) / nu).reshape(1, -1),
+            np.maximum(0.0, _down(lambda_lo)),
+            np.minimum(1.0, _up(lambda_hi)),
+        )
+        for index, label in enumerate(labels):
+            if label in {"SAME", "LEFT"}:
+                passed &= scalar.value.lo[:, index] > 0.0
+                minimum_scalar_lo = np.minimum(minimum_scalar_lo, scalar.value.lo[:, index])
+            elif label == "RIGHT":
+                passed &= scalar.value.hi[:, index] < 0.0
+                maximum_right_scalar_hi = np.maximum(
+                    maximum_right_scalar_hi, scalar.value.hi[:, index]
+                )
+            else:
+                passed &= scalar.derivative.hi[:, index] < 0.0
+                maximum_derivative_hi = np.maximum(
+                    maximum_derivative_hi, scalar.derivative.hi[:, index]
+                )
+                local_nonzero = np.zeros(size, dtype=bool)
+                for component in gradient:
+                    local_nonzero |= (
+                        (component.value.lo[:, index] > 0.0)
+                        | (component.value.hi[:, index] < 0.0)
+                    )
+                gradient_nonzero &= local_nonzero
+    if pair_type == "CROSS_SECTOR":
+        passed &= gradient_nonzero & partition_valid
+    return {
+        "passed": passed,
+        "minimum_scalar_lo": minimum_scalar_lo,
+        "maximum_right_scalar_hi": maximum_right_scalar_hi,
+        "maximum_derivative_hi": maximum_derivative_hi,
+        "gradient_nonzero": gradient_nonzero,
+        "partition_valid": partition_valid,
+        "covered_boxes": nu * nl,
+    }
+
+
+def full_matrix_interval_census(groups, saved_sheets):
+    amplitude_rows = [row[2] for row in groups]
+    amplitudes_float = np.asarray(amplitude_rows, dtype=np.float64)
+    saved_lookup = {row["sheet_id"]: row for row in saved_sheets}
+    output = []
+    total_boxes = 0
+    for chart in CHARTS:
+        chart_id = "J1" if chart == CHARTS[0] else "J2"
+        for bank_a, bank_b in BANK_PAIRS:
+            midpoint_u = np.asarray([0.5])
+            left = batch_scalar_matrix(
+                chart, bank_a, bank_b, amplitudes_float,
+                midpoint_u, np.zeros((len(groups), 1)),
+            )[:, 0]
+            right = batch_scalar_matrix(
+                chart, bank_a, bank_b, amplitudes_float,
+                midpoint_u, np.ones((len(groups), 1)),
+            )[:, 0]
+            routed_same = np.flatnonzero((left > 0.0) & (right > 0.0))
+            routed_cross = np.flatnonzero((left > 0.0) & (right < 0.0))
+            if len(routed_same) + len(routed_cross) != len(groups):
+                raise AssertionError("independent endpoint routing is incomplete")
+
+            for pair_type, initial_indices in (
+                ("SAME_SIGN_CONTROL", routed_same),
+                ("CROSS_SECTOR", routed_cross),
+            ):
+                remaining = initial_indices.copy()
+                for nu, nl in ((16, 64), (32, 128), (64, 256)):
+                    if not len(remaining):
+                        break
+                    selected_rows = [amplitude_rows[index] for index in remaining]
+                    selected_amplitudes = b_amplitudes(selected_rows)
+                    root_lo = root_hi = None
+                    if pair_type == "CROSS_SECTOR":
+                        roots = batch_roots(
+                            chart, bank_a, bank_b, selected_rows,
+                            [index / nu for index in range(nu + 1)],
+                        )
+                        root_lo = np.maximum(
+                            0.0,
+                            _down(np.minimum(roots[:, :-1], roots[:, 1:]) - 0.125),
+                        )
+                        root_hi = np.minimum(
+                            1.0,
+                            _up(np.maximum(roots[:, :-1], roots[:, 1:]) + 0.125),
+                        )
+                    certificate = b_partition_certificate(
+                        chart, bank_a, bank_b, selected_amplitudes,
+                        pair_type, nu, nl, root_lo, root_hi,
+                    )
+                    passed = certificate["passed"]
+                    for local_index in np.flatnonzero(passed):
+                        global_index = int(remaining[local_index])
+                        carrier_id, mask, _amplitude = groups[global_index]
+                        sheet_id = f"{carrier_id}_M{mask:X}_B{bank_a}B{bank_b}_{chart_id}"
+                        derived_class = (
+                            "UNIFORMLY_SPACELIKE_SHEET"
+                            if pair_type == "SAME_SIGN_CONTROL"
+                            else "FORCED_SINGLE_REGULAR_NULL_GRAPH"
+                        )
+                        if saved_lookup[sheet_id]["primary_class"] != derived_class:
+                            raise AssertionError(f"independent full-sheet class mismatch {sheet_id}")
+                        total_boxes += nu * nl
+                        output.append({
+                            "sheet_id": sheet_id,
+                            "chart": chart,
+                            "bank_pair": f"B{bank_a}-B{bank_b}",
+                            "carrier_id": carrier_id,
+                            "mask_id": f"M{mask:X}",
+                            "endpoint_route": pair_type,
+                            "derived_class": derived_class,
+                            "resolution_u": nu,
+                            "resolution_lambda": nl,
+                            "covered_boxes": nu * nl,
+                            "minimum_positive_s_lower": (
+                                f"{certificate['minimum_scalar_lo'][local_index]:.17g}"
+                            ),
+                            "maximum_negative_s_upper": (
+                                f"{certificate['maximum_right_scalar_hi'][local_index]:.17g}"
+                                if pair_type == "CROSS_SECTOR" else ""
+                            ),
+                            "maximum_partial_lambda_s_upper": (
+                                f"{certificate['maximum_derivative_hi'][local_index]:.17g}"
+                                if pair_type == "CROSS_SECTOR" else ""
+                            ),
+                            "root_envelope_minimum": (
+                                f"{np.min(root_lo[local_index]):.17g}"
+                                if pair_type == "CROSS_SECTOR" else ""
+                            ),
+                            "root_envelope_maximum": (
+                                f"{np.max(root_hi[local_index]):.17g}"
+                                if pair_type == "CROSS_SECTOR" else ""
+                            ),
+                            "partition_status": (
+                                "CLOSED_DOMAIN_EXACT_COVER"
+                                if certificate["partition_valid"][local_index]
+                                else "INVALID"
+                            ),
+                            "dphi_status": (
+                                "NONZERO_COMPONENT_EVERY_ROOT_BOX"
+                                if pair_type == "CROSS_SECTOR"
+                                and certificate["gradient_nonzero"][local_index]
+                                else "NOT_APPLICABLE"
+                            ),
+                            "arithmetic": "INDEPENDENT_FULL_MATRIX_BINARY64_DIRECTED_INTERVAL",
+                            "status": "PASS",
+                        })
+                    remaining = remaining[~passed]
+                if len(remaining):
+                    raise AssertionError(
+                        f"independent full-matrix interval unresolved {chart} B{bank_a}-B{bank_b} "
+                        f"{pair_type} count={len(remaining)}"
+                    )
+    output.sort(key=lambda row: row["sheet_id"])
+    if len(output) != 4_608 or len({row["sheet_id"] for row in output}) != 4_608:
+        raise AssertionError("independent full-matrix sheet coverage")
+    if set(row["sheet_id"] for row in output) != set(saved_lookup):
+        raise AssertionError("independent/saved sheet identity set")
+    return output, total_boxes
 
 
 @dataclass(frozen=True)
@@ -478,6 +1147,40 @@ def expect_failure(catch_id, operation, catches):
         raise AssertionError(f"mutation escaped {catch_id}")
 
 
+def require_uniform_same(values):
+    if not all(value > 0.0 for value in values):
+        raise AssertionError("interior same-sign pocket rejected")
+
+
+def require_single_regular_root(roots, derivatives, gradient_nonzero):
+    if len(roots) != 1:
+        raise AssertionError("multiple root rejected")
+    if not derivatives[0] < 0.0:
+        raise AssertionError("null tangency rejected")
+    if not gradient_nonzero:
+        raise AssertionError("zero-gradient interface rejected")
+
+
+def require_nondegenerate(determinant_value):
+    if not determinant_value < 0.0:
+        raise AssertionError("singular or non-Lorentzian coframe rejected")
+
+
+def require_partition(intervals):
+    if not intervals or intervals[0][0] != 0.0 or intervals[-1][1] != 1.0:
+        raise AssertionError("partition domain rejected")
+    if any(lo < 0.0 or hi > 1.0 or lo > hi for lo, hi in intervals):
+        raise AssertionError("partition out-of-domain rejected")
+    if any(intervals[index][1] != intervals[index + 1][0] for index in range(len(intervals) - 1)):
+        raise AssertionError("partition gap rejected")
+
+
+def safe_projector_divide(value):
+    if value == 0.0:
+        raise AssertionError("division by s at null interface rejected")
+    return 1.0 / value
+
+
 def main():
     carrier_rows = rows(ROOT / "udt_structural_ensemble_metric_atlas_2026-07-21/CARRIER_VECTOR_REGISTRY.tsv")
     carriers = {
@@ -494,95 +1197,70 @@ def main():
     if len(sheets) != 4_608 or len(sheet_lookup) != 4_608:
         raise AssertionError("complete unique sheet census")
 
-    sampled_same_values = 0
-    sampled_cross_roots = 0
-    minimum_same = math.inf
-    maximum_cross_derivative = -math.inf
-    minimum_determinant_gap = math.inf
-    maximum_matrix_formula_disagreement = 0.0
+    full_interval_rows, full_interval_boxes = full_matrix_interval_census(groups, sheets)
+    with (HERE / "INDEPENDENT_FULL_MATRIX_INTERVAL_CERTIFICATES.tsv").open(
+        "w", encoding="utf-8", newline=""
+    ) as handle:
+        writer = csv.DictWriter(
+            handle, fieldnames=list(full_interval_rows[0]),
+            delimiter="\t", lineterminator="\n",
+        )
+        writer.writeheader()
+        writer.writerows(full_interval_rows)
+
     probe_rows = []
-    selected_shift_effect = 0.0
     for chart in CHARTS:
-        chart_id = "J1" if chart == CHARTS[0] else "J2"
         for bank_a, bank_b in BANK_PAIRS:
-            pair_type = "CROSS_SECTOR" if bank_b == 3 else "SAME_SIGN_CONTROL"
-            local_minimum = math.inf
-            local_maximum_derivative = -math.inf
-            for carrier_id, mask, amplitudes in groups:
-                sheet_id = f"{carrier_id}_M{mask:X}_B{bank_a}B{bank_b}_{chart_id}"
-                expected = (
-                    "FORCED_SINGLE_REGULAR_NULL_GRAPH"
-                    if pair_type == "CROSS_SECTOR"
-                    else "UNIFORMLY_SPACELIKE_SHEET"
-                )
-                if sheet_lookup[sheet_id]["primary_class"] != expected:
-                    raise AssertionError(f"saved class mismatch {sheet_id}")
-                if pair_type == "SAME_SIGN_CONTROL":
-                    for parameter_u in (0.0, 0.25, 0.5, 0.75, 1.0):
-                        for parameter_lambda in np.linspace(0.0, 1.0, 17):
-                            scalar, determinant_value, _ = scalar_matrix(
-                                chart, bank_a, bank_b, amplitudes,
-                                parameter_u, float(parameter_lambda),
-                            )
-                            if not scalar > 0.0 or not determinant_value < 0.0:
-                                raise AssertionError("independent same-sign probe")
-                            sampled_same_values += 1
-                            minimum_same = min(minimum_same, scalar)
-                            local_minimum = min(local_minimum, scalar)
-                            minimum_determinant_gap = min(minimum_determinant_gap, -determinant_value)
-                else:
-                    for parameter_u in (0.0, 0.25, 0.5, 0.75, 1.0):
-                        current_root = root(chart, bank_a, bank_b, amplitudes, parameter_u)
-                        scalar, determinant_value, gradient_norm = scalar_matrix(
-                            chart, bank_a, bank_b, amplitudes, parameter_u, current_root
-                        )
-                        step = 1e-6
-                        left = scalar_matrix(
-                            chart, bank_a, bank_b, amplitudes,
-                            parameter_u, max(0.0, current_root - step),
-                        )[0]
-                        right = scalar_matrix(
-                            chart, bank_a, bank_b, amplitudes,
-                            parameter_u, min(1.0, current_root + step),
-                        )[0]
-                        derivative = (right - left) / (
-                            min(1.0, current_root + step) - max(0.0, current_root - step)
-                        )
-                        if abs(scalar) > 2e-12 or not derivative < 0.0:
-                            raise AssertionError("independent regular crossing probe")
-                        if not determinant_value < 0.0 or not gradient_norm > 0.0:
-                            raise AssertionError("independent metric/gradient probe")
-                        sampled_cross_roots += 1
-                        maximum_cross_derivative = max(maximum_cross_derivative, derivative)
-                        local_maximum_derivative = max(local_maximum_derivative, derivative)
-                        minimum_determinant_gap = min(minimum_determinant_gap, -determinant_value)
-                if (
-                    chart == CHARTS[0] and bank_a == 0 and bank_b == 3
-                    and carrier_id == groups[-1][0] and mask == 15
-                ):
-                    ordinary = scalar_matrix(chart, bank_a, bank_b, amplitudes, 0.5, 0.5)[0]
-                    omitted = scalar_matrix(
-                        chart, bank_a, bank_b, amplitudes, 0.5, 0.5,
-                        omit_angular_shift=True,
-                    )[0]
-                    selected_shift_effect = abs(ordinary - omitted)
+            current = [
+                row for row in full_interval_rows
+                if row["chart"] == chart and row["bank_pair"] == f"B{bank_a}-B{bank_b}"
+            ]
+            classes = Counter(row["derived_class"] for row in current)
             probe_rows.append({
                 "chart": chart,
                 "bank_pair": f"B{bank_a}-B{bank_b}",
-                "pair_type": pair_type,
-                "matched_sheets": len(groups),
-                "sampled_scalar_values": (
-                    len(groups) * 5 * 17 if pair_type == "SAME_SIGN_CONTROL" else ""
+                "matched_sheets": len(current),
+                "derived_class_census": json.dumps(dict(sorted(classes.items())), sort_keys=True),
+                "covered_boxes": sum(int(row["covered_boxes"]) for row in current),
+                "minimum_positive_s_lower": min(
+                    float(row["minimum_positive_s_lower"]) for row in current
                 ),
-                "sampled_roots": len(groups) * 5 if pair_type == "CROSS_SECTOR" else "",
-                "minimum_same_sign_s": (
-                    f"{local_minimum:.17g}" if pair_type == "SAME_SIGN_CONTROL" else ""
+                "maximum_negative_s_upper": max(
+                    (
+                        float(row["maximum_negative_s_upper"])
+                        for row in current if row["maximum_negative_s_upper"]
+                    ),
+                    default="",
                 ),
-                "maximum_crossing_derivative": (
-                    f"{local_maximum_derivative:.17g}" if pair_type == "CROSS_SECTOR" else ""
+                "maximum_partial_lambda_s_upper": max(
+                    (
+                        float(row["maximum_partial_lambda_s_upper"])
+                        for row in current if row["maximum_partial_lambda_s_upper"]
+                    ),
+                    default="",
                 ),
-                "status": "INDEPENDENT_FULL_MATRIX_PROBES_PASS",
+                "status": "INDEPENDENT_FULL_MATRIX_COMPLETE_COVER_PASS",
             })
+
+    representative_amplitudes = groups[-1][2]
+    representative_latent, representative_gradient = configured(
+        CHARTS[0], 0, 3, representative_amplitudes, 0.5, 0.5
+    )
+    ordinary_metric = full_metric(representative_latent)
+    ordinary_scalar = float(
+        representative_gradient
+        @ np.linalg.solve(ordinary_metric, representative_gradient)
+    )
+    individual_field_effects = {}
+    for field in ("d", "e", "f", "a20", "a30", "a21", "a31"):
+        modified_metric = full_metric(representative_latent, omit_field=field)
+        modified_scalar = float(
+            representative_gradient
+            @ np.linalg.solve(modified_metric, representative_gradient)
+        )
+        individual_field_effects[field] = abs(ordinary_scalar - modified_scalar)
+    if not all(value > 1e-14 for value in individual_field_effects.values()):
+        raise AssertionError("individual angular/shift field is vacuous in mutation probe")
 
     anchor_rows = rows(HERE / "HIGH_PRECISION_ANCHORS.tsv")
     if len(anchor_rows) != 12:
@@ -605,9 +1283,6 @@ def main():
             "status": "FULL_MATRIX_ADJUGATE_INTERVAL_PASS",
         })
 
-    if not selected_shift_effect > 1e-12:
-        raise AssertionError("angular/shift sectors are not a vacuous reconstruction")
-
     def require_count(value):
         if value != 4_608:
             raise AssertionError("missing sheet rejected")
@@ -621,12 +1296,14 @@ def main():
             raise AssertionError("class mutation rejected")
 
     def require_matrix_route(value):
-        if value != 12:
-            raise AssertionError("matrix-anchor loss rejected")
+        if value != 4_608:
+            raise AssertionError("full-matrix sheet loss rejected")
 
-    def require_shift(value):
-        if not value > 1e-12:
-            raise AssertionError("angular/shift omission rejected")
+    def require_fields(values):
+        if set(values) != {"d", "e", "f", "a20", "a30", "a21", "a31"}:
+            raise AssertionError("individual angular/shift omission rejected")
+        if not all(value > 1e-14 for value in values.values()):
+            raise AssertionError("individual angular/shift omission rejected")
 
     catches = []
     expect_failure("I01_MISSING_SHEET", lambda: require_count(4_607), catches)
@@ -636,8 +1313,46 @@ def main():
         lambda: require_class({"FORCED_SINGLE_REGULAR_NULL_GRAPH": 2_303, "UNIFORMLY_SPACELIKE_SHEET": 2_305}),
         catches,
     )
-    expect_failure("I04_LOST_MATRIX_ANCHOR", lambda: require_matrix_route(11), catches)
-    expect_failure("I05_OMITTED_ANGULAR_SHIFT", lambda: require_shift(0.0), catches)
+    expect_failure("I04_LOST_FULL_MATRIX_SHEET", lambda: require_matrix_route(4_607), catches)
+    expect_failure(
+        "I05_INTERIOR_SAME_SIGN_POCKET",
+        lambda: require_uniform_same((0.15, -0.05, 0.12)),
+        catches,
+    )
+    expect_failure(
+        "I06_THREE_CROSS_SECTOR_ROOTS",
+        lambda: require_single_regular_root((0.2, 0.5, 0.8), (-1.0, -1.0, -1.0), True),
+        catches,
+    )
+    expect_failure(
+        "I07_NULL_TANGENCY",
+        lambda: require_single_regular_root((0.5,), (0.0,), True),
+        catches,
+    )
+    expect_failure(
+        "I08_ZERO_DPHI",
+        lambda: require_single_regular_root((0.5,), (-1.0,), False),
+        catches,
+    )
+    expect_failure("I09_SINGULAR_COFRAME", lambda: require_nondegenerate(0.0), catches)
+    expect_failure(
+        "I10_PARTITION_GAP",
+        lambda: require_partition(((0.0, 0.4), (0.5, 1.0))),
+        catches,
+    )
+    expect_failure(
+        "I11_PARTITION_OUT_OF_DOMAIN",
+        lambda: require_partition(((-0.01, 0.5), (0.5, 1.0))),
+        catches,
+    )
+    expect_failure("I12_DIVISION_BY_S", lambda: safe_projector_divide(0.0), catches)
+    corrupted_effects = dict(individual_field_effects)
+    corrupted_effects["a31"] = 0.0
+    expect_failure(
+        "I13_OMIT_INDIVIDUAL_ANGULAR_SHIFT",
+        lambda: require_fields(corrupted_effects),
+        catches,
+    )
 
     output_fields = list(probe_rows[0])
     with (HERE / "INDEPENDENT_MATRIX_PROBES.tsv").open("w", encoding="utf-8", newline="") as handle:
@@ -647,20 +1362,42 @@ def main():
 
     result = {
         "status": "PASS_WITH_REGISTERED_SCOPE",
-        "method": "INDEPENDENT_FULL_4X4_MATRIX_INVERSION_PLUS_80D_ADJUGATE_INTERVAL_ANCHORS",
+        "method": (
+            "INDEPENDENT_COMPLETE_FULL_4X4_MATRIX_ADJUGATE_INTERVAL_COVER_"
+            "PLUS_80D_ANCHORS"
+        ),
         "sheet_count": len(sheets),
         "sheet_unique": len(sheet_lookup),
-        "sheet_census": dict(sorted(Counter(row["primary_class"] for row in sheets).items())),
-        "sampled_same_sign_matrix_values": sampled_same_values,
-        "sampled_cross_sector_matrix_roots": sampled_cross_roots,
-        "minimum_sampled_same_sign_s": minimum_same,
-        "maximum_sampled_crossing_derivative": maximum_cross_derivative,
-        "minimum_sampled_negative_determinant_gap": minimum_determinant_gap,
+        "sheet_census": dict(sorted(Counter(row["derived_class"] for row in full_interval_rows).items())),
+        "full_matrix_interval_sheets": len(full_interval_rows),
+        "full_matrix_interval_boxes": full_interval_boxes,
+        "minimum_full_matrix_positive_s_lower": min(
+            float(row["minimum_positive_s_lower"]) for row in full_interval_rows
+        ),
+        "maximum_full_matrix_negative_s_upper": max(
+            float(row["maximum_negative_s_upper"])
+            for row in full_interval_rows if row["maximum_negative_s_upper"]
+        ),
+        "maximum_full_matrix_partial_lambda_s_upper": max(
+            float(row["maximum_partial_lambda_s_upper"])
+            for row in full_interval_rows if row["maximum_partial_lambda_s_upper"]
+        ),
+        "full_matrix_closed_domain_partitions": sum(
+            row["partition_status"] == "CLOSED_DOMAIN_EXACT_COVER"
+            for row in full_interval_rows
+        ),
+        "full_matrix_dphi_nonzero_root_sheets": sum(
+            row["dphi_status"] == "NONZERO_COMPONENT_EVERY_ROOT_BOX"
+            for row in full_interval_rows
+        ),
         "high_precision_matrix_anchors": high_precision,
         "high_precision_matrix_anchor_count": len(high_precision),
-        "angular_shift_effect_probe": selected_shift_effect,
+        "individual_angular_shift_effect_probes": individual_field_effects,
         "mutation_catches": catches,
         "production_builder_imported": False,
+        "binary64_transcendental_scope": (
+            "PLATFORM_SCOPED_NUMERICAL_ENCLOSURE__80D_WORST_CLASS_ANCHORS"
+        ),
         "maximum_conclusion": "INDEPENDENT_SUPPORT_FOR_BOUNDED_REGISTERED_ADJACENCY_CENSUS",
     }
     (HERE / "INDEPENDENT_VERIFICATION.json").write_text(

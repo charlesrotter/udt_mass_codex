@@ -7,8 +7,8 @@ S05	OBSERVED	All 2,304 same-sector chart sheets are uniformly spacelike	384 matc
 S06	OBSERVED	All 2,304 cross-sector chart sheets contain exactly one regular null graph	384 matched groups; three B0/B1/B2-to-B3 pairs; J1 and J2
 S07	OBSERVED	No registered sheet contains a causal pocket, tangency, zero-gradient interface, degeneracy, or unresolved cell	bounded registered bank-edge atlas
 S08	OBSERVED	J1 and J2 agree on separator existence and multiplicity but not its lambda shape	1,152 cross-sector endpoint pairs
-S09	OBSERVED	The angular/shift sector is retained and non-vacuous in an independent matrix probe	one exercised mutation plus complete use in every production sheet
-S10	CONDITIONAL	The three spacelike banks are constructively connected through the registered matched-edge charts	conditional on the chosen J1/J2 configuration charts
+S09	OBSERVED	The angular/shift sector is retained and each of d/e/f/a20/a30/a21/a31 is non-vacuous in an independent matrix probe	seven exercised mutations plus complete use in every sheet
+S10	CONDITIONAL	The three spacelike banks are constructively connected through the registered matched-edge charts	conditional on the chosen J1 generator-plus-marked-point and J2 local cofield charts; not unrestricted global field-configuration space
 S11	OPEN	Connectedness of the full bank simplex or arbitrary metric configuration space	not covered by bank edges
 S12	OPEN	Whether a native UDT equation, bootstrap, or boundary selects either chart or any path	no action/EOM/boundary loaded
 S13	OPEN	Whether either causal sector or its null separator has particle, force, clock, or cosmic meaning	no physical labels or empirical anchor loaded

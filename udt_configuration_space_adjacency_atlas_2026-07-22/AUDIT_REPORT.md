@@ -11,7 +11,7 @@ Maximum conclusion:
 ## Result first
 
 The causal sectors found in the preceding phi atlas are adjacent—not disconnected—inside both
-registered complete-coframe configuration charts.
+registered generator-plus-marked-point/cofield complete-coframe charts.
 
 The full census is:
 
@@ -35,8 +35,10 @@ s = g^-1(dphi,dphi).
 ```
 
 Thus the earlier absence of a null point on any individual bank chord did not mean that the two
-causal types occupy disconnected configuration components. A complete continuous coframe path can
-join them, and on every registered cross-sector path the null separator is unavoidable.
+causal types are disconnected inside these registered charts. A complete continuous coframe path
+in each bounded chart can join them, and on every registered cross-sector path the null separator
+is unavoidable. This is not a claim about unrestricted global field-configuration space: J1 also
+moves the marked coordinate chord, while J2 is expressly a local, non-integrated cofield chart.
 
 This is configuration geometry, not a time evolution or a selected universe.
 
@@ -85,9 +87,10 @@ The frozen universe contains:
 - 4,608 complete sheet presentations.
 
 All were retained. The directed binary64 interval pass used outward `nextafter` rounding after every
-elementary operation and the preregistered dyadic refinement ladder. The final census has zero
-unresolved cells. The most adverse cell in every chart/bank-pair class was replayed at 80 decimal
-digits.
+elementary operation and the preregistered dyadic refinement ladder. This is a platform-scoped
+numerical interval enclosure: NumPy/libm's transcendental implementation is not promoted to a
+portable formally directed transcendental theorem. The final census has zero unresolved cells.
+The most adverse cell in every chart/bank-pair class was replayed at 80 decimal digits.
 
 A domain-boundary defect in the first unbanked implementation pass was caught: outward rounding had
 been applied after clipping and could nudge a bound just outside `[0,1]`. The correction was recorded
@@ -96,8 +99,9 @@ clamped to the registered closed sheet.
 
 ## Independent full-matrix route
 
-The independent verifier does not import the production builder or reuse its inverse-coframe norm
-formula. It builds the complete 4-by-4 coframe matrix, forms
+The corrected independent verifier does not import the production builder or reuse its
+inverse-coframe norm formula. It derives the endpoint route for each sheet, reconstructs its own
+per-`u` root envelopes, builds the complete 4-by-4 coframe matrix, forms
 
 ```text
 g = E^T diag(-1,1,1,1) E,
@@ -105,24 +109,29 @@ g = E^T diag(-1,1,1,1) E,
 
 and evaluates `dphi^T g^-1 dphi`.
 
-It independently checked:
+It independently covered all 4,608 sheets through 7,735,296 full-matrix interval boxes, deriving
+the same 2,304/2,304 class census without hard-coding a bank-pair outcome. Its tightest margins were:
 
-- 195,840 same-sector matrix values;
-- 11,520 cross-sector matrix roots and crossing derivatives;
-- all 4,608 saved classifications;
-- twelve worst-class 80-digit interval cells through
-  `dphi^T adj(g) dphi / det(g)`.
+- minimum positive lower bound: `1.3720483481001054e-08`;
+- maximum negative outer-region upper bound: `-2.0570920753792295e-07`;
+- maximum separator-derivative upper bound: `-1.620465338980708e-05`.
 
-Eleven high-precision cells certified directly. The exceptionally tight J2 `B1-B2` same-sector
-cell certified after a complete two-box subdivision. An exercised shift-sector omission changes a
-matrix probe by `7.105081822443983e-07` and is rejected; the angular/shift orchestra is therefore
-present and non-vacuous.
+All 4,608 independent partitions cover the exact closed domain without gaps or overruns, and all
+2,304 independently derived root sheets exclude zero from at least one `dphi` component in every
+root box. Twelve worst-class cells were additionally replayed at 80 digits through
+`dphi^T adj(g) dphi / det(g)`. Eleven certified directly; the exceptionally tight J2 `B1-B2`
+same-sector cell certified after a complete two-box subdivision.
+
+Individual mutation probes for `d`, `e`, `f`, `a20`, `a30`, `a21`, and `a31` all change the matrix
+scalar and are required. Thirteen substantive catches reject an interior same-sign pocket, three
+cross-sector roots, tangency, zero `dphi`, a singular coframe, partition gaps and overruns, division
+by `s`, missing sheets/classes, and individual angular/shift omission.
 
 ## Structural meaning
 
 What was learned is modest but real:
 
-1. The registered spacelike banks are not isolated islands.
+1. The registered spacelike banks are not isolated islands inside these two bounded charts.
 2. The registered timelike bank is not separated by metric failure.
 3. In two substantially different configuration charts, the causal change occurs through a simple
    transverse null interface rather than a pocket, tangency, branching event, or degeneracy.
@@ -153,8 +162,9 @@ GPU runs: zero.
 2. Full space or bounded scope justified: **YES** for every matched registered bank edge in both
    charts; not exhaustive outside the frozen analytic atlas or inside the bank simplex.
 3. Independently verified: **YES WITH CLAIM-SPECIFIC SCOPE** through a separately written complete
-   4-by-4 matrix route, 207,360 matrix probes/roots, twelve 80-digit adjugate anchors, and exercised
-   corruption catches.
+   4-by-4 matrix route covering 7,735,296 boxes on all 4,608 sheets, twelve 80-digit adjugate
+   anchors, exact identity-set joins, and thirteen substantive corruption catches. Binary64
+   transcendental enclosure remains platform-scoped rather than a portable formal proof.
 4. Every premise audited: **YES** in `PREMISE_STATUS_LEDGER.tsv`; no physical selector or global
    solution is claimed.
 

@@ -7,6 +7,7 @@ import copy
 import csv
 import gzip
 import hashlib
+import itertools
 import json
 import subprocess
 from collections import Counter
@@ -65,10 +66,16 @@ def validate_state(state):
     require(state["chart_separator_agreement"] == 1_152, "chart separator agreement")
     require(state["high_precision_anchors"] == 12, "production high-precision anchors")
     require(state["independent_matrix_anchors"] == 12, "independent matrix anchors")
-    require(state["independent_same_probes"] == 195_840, "independent same probes")
-    require(state["independent_cross_roots"] == 11_520, "independent cross roots")
+    require(state["independent_full_sheets"] == 4_608, "independent full-sheet count")
+    require(state["independent_full_boxes"] == 7_735_296, "independent full-box count")
+    require(state["independent_closed_partitions"] == 4_608, "independent closed partitions")
+    require(state["independent_nonzero_root_sheets"] == 2_304, "independent root gradients")
     require(state["independent_builder_imported"] is False, "independent builder import")
-    require(state["independent_catches"] == 5, "independent catches")
+    require(state["independent_catches"] == 13, "independent catches")
+    require(state["exact_endpoint_identity_set"] is True, "exact endpoint identity set")
+    require(state["exact_sheet_identity_set"] is True, "exact sheet identity set")
+    require(state["exact_certificate_partition"] is True, "exact certificate partition")
+    require(state["independent_relational_match"] is True, "independent relational match")
     require(state["source_integrity"] is True, "source integrity")
     require(state["status_rows"] == 15, "status ledger")
     require(state["premise_rows"] == 20, "premise ledger")
@@ -151,7 +158,29 @@ def main():
     premises = rows(HERE / "PREMISE_STATUS_LEDGER.tsv")
     result = json.loads((HERE / "RESULT.json").read_text())
     independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text())
+    independent_rows = rows(HERE / "INDEPENDENT_FULL_MATRIX_INTERVAL_CERTIFICATES.tsv")
     report = (HERE / "AUDIT_REPORT.md").read_text()
+
+    carrier_rows = rows(
+        ROOT / "udt_structural_ensemble_metric_atlas_2026-07-21/CARRIER_VECTOR_REGISTRY.tsv"
+    )
+    expected_endpoint_ids = {
+        f"{row['carrier_id']}_M{mask:X}_B{bank_a}B{bank_b}"
+        for row in carrier_rows
+        for mask in range(8, 16)
+        for bank_a, bank_b in itertools.combinations(range(4), 2)
+    }
+    expected_sheet_ids = {
+        f"{endpoint_id}_{chart}"
+        for endpoint_id in expected_endpoint_ids
+        for chart in ("J1", "J2")
+    }
+    saved_class = {row["sheet_id"]: row["primary_class"] for row in sheets}
+    same_ids = {row["sheet_id"] for row in same}
+    null_ids = {row["sheet_id"] for row in null}
+    independent_class = {
+        row["sheet_id"]: row["derived_class"] for row in independent_rows
+    }
 
     null_complete = sum(
         row["endpoint_signs"] == "CERTIFIED"
@@ -175,6 +204,7 @@ def main():
         "chart-dependent",
         "not measurements of a",
         "not canonization",
+        "platform-scoped",
     )
     state = {
         "endpoint_pairs": len(endpoints),
@@ -205,10 +235,37 @@ def main():
             row["status"] == "HIGH_PRECISION_SIGN_AGREEMENT" for row in anchors
         ),
         "independent_matrix_anchors": independent["high_precision_matrix_anchor_count"],
-        "independent_same_probes": independent["sampled_same_sign_matrix_values"],
-        "independent_cross_roots": independent["sampled_cross_sector_matrix_roots"],
+        "independent_full_sheets": independent["full_matrix_interval_sheets"],
+        "independent_full_boxes": independent["full_matrix_interval_boxes"],
+        "independent_closed_partitions": independent["full_matrix_closed_domain_partitions"],
+        "independent_nonzero_root_sheets": independent["full_matrix_dphi_nonzero_root_sheets"],
         "independent_builder_imported": independent["production_builder_imported"],
         "independent_catches": len(independent["mutation_catches"]),
+        "exact_endpoint_identity_set": (
+            len(expected_endpoint_ids) == 2_304
+            and {row["endpoint_pair_id"] for row in endpoints} == expected_endpoint_ids
+        ),
+        "exact_sheet_identity_set": (
+            len(expected_sheet_ids) == 4_608
+            and {row["sheet_id"] for row in sheets} == expected_sheet_ids
+        ),
+        "exact_certificate_partition": (
+            not (same_ids & null_ids)
+            and same_ids | null_ids == expected_sheet_ids
+            and same_ids == {
+                sheet_id for sheet_id, value in saved_class.items()
+                if value == "UNIFORMLY_SPACELIKE_SHEET"
+            }
+            and null_ids == {
+                sheet_id for sheet_id, value in saved_class.items()
+                if value == "FORCED_SINGLE_REGULAR_NULL_GRAPH"
+            }
+        ),
+        "independent_relational_match": (
+            len(independent_rows) == 4_608
+            and len(independent_class) == 4_608
+            and independent_class == saved_class
+        ),
         "source_integrity": source_integrity,
         "status_rows": len(status),
         "premise_rows": len(premises),
