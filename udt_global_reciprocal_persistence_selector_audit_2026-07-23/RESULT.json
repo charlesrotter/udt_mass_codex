@@ -1,0 +1,37 @@
+{
+  "algebra": {
+    "csn": {
+      "norm_transform": "s/omega**2",
+      "positive_scale_cannot_select_nonzero": true,
+      "positive_scale_preserves_zero": true
+    },
+    "group": {
+      "composition": true,
+      "determinant_one": true,
+      "reversal": true
+    }
+  },
+  "base_commit": "2f0853e070529925d38f5e8e9be99ce0c27684c8",
+  "counts": {
+    "counterconfigurations": 3,
+    "forcing_selectors": 0,
+    "implication_edges": 8,
+    "nontrivial_counterconfigurations_with_critical_seal": 1,
+    "selectors": 12,
+    "sources": 16
+  },
+  "decisive_counterconfiguration": {
+    "D_defined_at_seal": true,
+    "dphi_zero_at_seal": true,
+    "logical_role": "DEFEATS_DIRECT_IMPLICATION_FROM_REGISTERED_FOUNDATION",
+    "nontrivial": true,
+    "on_shell_complete_universe_claimed": false,
+    "profile": "phi=x^3",
+    "satisfies_static_odd_seal": true,
+    "satisfies_value_level_reciprocal_character": true
+  },
+  "maximum_conclusion_respected": true,
+  "schema": "udt-global-reciprocal-persistence-selector-1.0",
+  "selector_ruling": "FOUNDING_RECIPROCITY_IS_VALUE_LEVEL_AND_DOES_NOT_FORCE_GLOBAL_DERIVATIVE_BASED_3PLUS3_PERSISTENCE__PERSISTENCE_REQUIRES_A_FUTURE_NATIVE_EQUATION_OR_AN_ADDITIONAL_PREMISE",
+  "sympy_version": "1.14.0"
+}

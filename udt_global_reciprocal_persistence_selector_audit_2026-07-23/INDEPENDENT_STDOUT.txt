@@ -1,0 +1,29 @@
+{
+  "catch_proofs": 23,
+  "catch_proofs_passed": 23,
+  "independent_algebra": {
+    "compose": true,
+    "cubic_current_at_seal": "[[0, 0], [0, 0]]",
+    "cubic_derivative_at_seal": "0",
+    "cubic_is_nonconstant": true,
+    "cubic_is_odd": true,
+    "cubic_norm": "9*x**4",
+    "cubic_rep_at_seal": "[[1, 0], [0, 1]]",
+    "cubic_value_at_seal": "0",
+    "det": true,
+    "reverse": true
+  },
+  "ruling": "FOUNDING_RECIPROCITY_IS_VALUE_LEVEL_AND_DOES_NOT_FORCE_GLOBAL_DERIVATIVE_BASED_3PLUS3_PERSISTENCE__PERSISTENCE_REQUIRES_A_FUTURE_NATIVE_EQUATION_OR_AN_ADDITIONAL_PREMISE",
+  "schema": "udt-global-reciprocal-persistence-independent-verification-1.0",
+  "selector_counts": {
+    "COMPATIBLE_BUT_NONSELECTING": 3,
+    "CONDITIONAL_FUTURE_ROUTE": 3,
+    "EXPLICITLY_LEAVES_DERIVATIVE_FREE": 1,
+    "OBSERVED_NONTRIVIALITY_ONLY": 1,
+    "ON_SHELL_ADMISSIBILITY_NO_OPERATION": 1,
+    "VALUE_LEVEL_ONLY": 3
+  },
+  "source_hashes_replayed": 16,
+  "status": "PASS",
+  "sympy_version": "1.14.0"
+}
