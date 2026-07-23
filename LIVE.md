@@ -2,11 +2,42 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-**⚠ BRANCH: work is on `grok` (2026-07-22).** If not on it: `git checkout grok`. `main` is stale for this arc.
+**⚠ BRANCH: work is on `grok` (2026-07-23).** If not on it: `git checkout grok`. `main` is stale for this arc.
 **The CURRENT STATE block below is the only current frontier** — read it and stop.
 Stale historical frontier layers live under `archive/LIVE_historical_frontier_through_2026-07-08.md`
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
+
+## ============ CURRENT STATE (2026-07-23 — SCIENTIFIC CONSOLIDATION CHECKPOINT COMPLETE. RECIPROCAL KINEMATICS AND THE LOCAL TIMELIKE NONZERO-DPHI BOOST3+ROTATION3 CARTAN JOIN ARE DERIVED WITH THEIR EXACT PREMISE STAMPS. SPACELIKE NONZERO-DPHI RETAINS A REAL SO+(1,2) 3+3 BUT NOT OBSERVER MEANING; NULL DPHI DEGENERATES TO A NILPOTENT FILTRATION; ZERO DPHI HAS NO INTRINSIC REDUCTION. THE EXACT CONNECTION MIXES THE TIMELIKE SECTORS THROUGH ITS BOOST/EXTRINSIC BLOCK; KATO TRANSPORT IS GEOMETRIC, NOT PHYSICAL TIME. ALL TWELVE REGISTERED FINITE-CELL COMPLETION FAMILIES HAVE BEEN CROSSED WITH FIVE CAUSAL CLASSES, BUT ZERO COMPLETE ONSHELL (g,phi) BRANCHES ARE SUPPLIED AND NO COMPLETION IS SELECTED. CSN PRESERVES THE SPLIT BUT NOT ITS LEVI-CIVITA MIXING PROFILE. C2/BACH REMAINS UNIQUE-CONDITIONAL; EH, S2, STABILITY, AND MASS ROUTES REMAIN CONDITIONAL OR POSIT AS RECORDED. COMPLETE ACTION, SOURCE, BOUNDARY CHARGE, PHYSICAL REPRESENTATIVE, ABSOLUTE SCALE, BRIDGE, CARRIER EMERGENCE, TIME-LIVE MATTER LAW, AND UNCONDITIONAL MASS REMAIN OPEN. NEXT BOUNDED SEAM: CONFORMALLY NATURAL PRE-SCALE TRANSPORT VERSUS BOOTSTRAP SELECTION OF A PHYSICAL METRIC REPRESENTATIVE. NO FOLLOW-ON SOLVE, GPU WORK, CANONIZATION, ARTIFACT MOVE, OR REORGANIZATION IS AUTHORIZED.) ============
+
+**READ NEXT, IN ORDER:**
+
+1. `HANDOFF.md` current marked block.
+2. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`.
+3. Its `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and
+   `REGRESSION_GUARD_LEDGER.tsv`.
+4. The exact immutable evidence cited there only when the active task makes it load-bearing.
+
+**CURRENT HONEST CLAIM:**
+
+- the complete-metric local frame rederivation, timelike Cartan `3+3`, exact connection mixing, and
+  causal degeneration rules are derived only in their recorded local/nonzero-`dphi` regimes;
+- the finite-cell result is a complete cross of the registered taxonomy, not a set of solved
+  universes;
+- the physical mixing profile remains representative-dependent before the scale/representative
+  selector is known;
+- no action, source, carrier, boundary, scale, matter, or finite-cell branch is selected.
+
+**REGRESSION GUARD:** do not restore negative physical distance, identify `phi` with observer
+rapidity, treat WR-L as the complete frame metric, call co-presence instantaneous signaling, call
+Kato transport physical evolution, turn the celestial `S2` fiber into the carrier, or promote a
+completion family to an on-shell universe.
+
+**REORGANIZATION:** R0--R1H remains paused. This checkpoint changes navigation and synthesis only;
+all evidence packages and historical records remain immutable.
+
+<!-- STARTUP_CURRENT_END -->
+
 **⚠ CURRENT SCIENTIFIC FRONTIER (2026-07-22):** read
 `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
 `CLAIM_DEPENDENCY_LEDGER.tsv`, `OPEN_JOIN_LEDGER.tsv`, and `SOURCE_MANIFEST.tsv`; then read its
@@ -291,8 +322,6 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
   `64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50`;
   `null_section_hopfion_metric_audit_2026-07-19/` manifest SHA-256
   `e195d14349407c23e4a050628ec84298d3d35e23e2c25b5cf285a5c81f8e989b`.
-
-<!-- STARTUP_CURRENT_END -->
 
 ## Binding method (never skip)
 - CLAUDE.md "How we work": MAP / OBSERVE / PONDER are primary, DERIVE is gated. Let structure

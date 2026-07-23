@@ -3,12 +3,11 @@
 This root is the control and navigation surface for the UDT research record.
 After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
-the [metric-to-frontier reference](udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md) → its
-[`claim ledger`](udt_metric_to_frontier_reference_2026-07-22/CLAIM_DEPENDENCY_LEDGER.tsv) and
-[`open-join ledger`](udt_metric_to_frontier_reference_2026-07-22/OPEN_JOIN_LEDGER.tsv) → its
-[`cold-review correction layer`](udt_metric_to_frontier_reference_2026-07-22/REFERENCE_CORRECTION_LAYER.md)
-and [lay ponder readout](udt_metric_to_frontier_reference_2026-07-22/PONDER_READOUT.md) → the
-[global metric-assembly atlas](udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md) → the
+the [current scientific checkpoint](udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md)
+→ its [`status ledger`](udt_scientific_consolidation_checkpoint_2026-07-23/CURRENT_STATUS_LEDGER.tsv),
+[`metric-to-frontier map`](udt_scientific_consolidation_checkpoint_2026-07-23/METRIC_TO_FRONTIER_MAP.tsv),
+and [`regression guards`](udt_scientific_consolidation_checkpoint_2026-07-23/REGRESSION_GUARD_LEDGER.tsv)
+→ the
 exact evidence named by those files only when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
 `MEMORY.md` top/current pointer. `AGENTS.md`
@@ -23,10 +22,24 @@ particle-lane evidence, not the global scientific frontier.
 [`NEGATIVES_REGISTRY.md`](NEGATIVES_REGISTRY.md), and
 [`PROVENANCE.md`](PROVENANCE.md) are the main status and evidence ledgers.
 
-## Scientific checkpoint — July 22, 2026
+## Scientific checkpoint — July 23, 2026
 
-The [metric-to-frontier reference](udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md) is the
-current evidence-linked scientific spine. It records reciprocal kinematics as derived with premise
+The [current scientific checkpoint](udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md)
+is the lean evidence-linked spine. It records the exact complete-metric frame rederivation,
+timelike boost/rotation `3+3`, general connection mixing, spacelike/null/zero causal changes, and
+the 12-by-5 finite-cell completion/causal cross. It also records the decisive limitation: no
+complete on-shell `(g,phi)` finite-cell branch has been supplied or selected.
+
+Common-Scale rescaling preserves the intrinsic `dphi` split but not its Levi-Civita mixing profile.
+The current bounded seam is therefore conformally natural pre-scale transport versus bootstrap
+selection of a physical metric representative. Complete action, source, boundary charge,
+representative, scale, bridge, carrier emergence, time-live matter law, and unconditional mass
+remain open. No follow-on work is automatic.
+
+## Prior scientific checkpoint — July 22, 2026
+
+The [metric-to-frontier reference](udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md) was the
+July 22 evidence-linked scientific spine. It records reciprocal kinematics as derived with premise
 stamps; the bounded motif vocabulary and generic four-dimensional weave as observed; geometric
 projector transport as derived but not physical time; twelve retained global completion families
 with no selected quotient; conditional reciprocal-toric/Hopf compatibility; and the still-open
@@ -37,8 +50,8 @@ remains conventional, simultaneity alone does not make density noncircular, and 
 mathematically prior to the action fork. Repository reorganization remains paused and no further
 content migration is authorized.
 
-The [global assembly atlas](udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md) is the
-load-bearing current metric map. The leading recommended question is now a source-only audit of
+The [global assembly atlas](udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md) remains a
+load-bearing prior metric map. Its then-leading recommended question was a source-only audit of
 whether bootstrap supplies an operational realization relation; a typed, nonduplicative bivector
 representation audit and a neutral cocycle/seam audit follow. No audit, solve, or GPU work follows
 automatically.

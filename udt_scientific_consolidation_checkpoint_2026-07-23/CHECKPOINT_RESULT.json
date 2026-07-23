@@ -1,0 +1,18 @@
+{
+  "artifact_move_performed": false,
+  "base": "e0c6958f9cae7766757ec6466a9659bba1a55f0d",
+  "evidence_paths_resolve": true,
+  "frontier_map_count": 13,
+  "gpu_work_performed": false,
+  "maximum_conclusion": "CURRENT_EVIDENCE_LINKED_NAVIGATION_AND_STATUS_CHECKPOINT_VERIFIED_WITHOUT_NEW_PHYSICS_OR_ARTIFACT_REORGANIZATION",
+  "physics_derivation_performed": false,
+  "preregistration_commit": "b200b0a",
+  "preregistration_correction_commit": "7995470",
+  "python": "3.10.12",
+  "regression_guard_count": 15,
+  "schema": "udt-scientific-consolidation-checkpoint-1.0",
+  "source_count": 25,
+  "source_paths_resolve": true,
+  "status_contract_matches": true,
+  "status_count": 24
+}

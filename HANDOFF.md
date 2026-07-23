@@ -5,9 +5,46 @@
 > **READ `LIVE.md` FIRST** — only guaranteed-current frontier + next action.
 > If this file disagrees with LIVE.md, **LIVE.md wins.**
 >
-> **⚠ BRANCH: work is on `grok` (2026-07-22).** If not on it: `git checkout grok`. `main` is stale for this arc.
+> **⚠ BRANCH: work is on `grok` (2026-07-23).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-22 — metric-to-frontier synthesis externally audited; four PASS-WITH-CAVEATS)
+## CURRENT (2026-07-23 — scientific consolidation checkpoint)
+
+Read `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
+`CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and
+`REGRESSION_GUARD_LEDGER.tsv`. They are evidence-linked navigation and cannot overrule their cited
+immutable sources.
+
+Current honest structure:
+
+- reciprocal kinematics remains `DERIVED` with its exact premise stamps;
+- complete-metric local frame reciprocity gives `SO+(1,3)`; WR-L is a conditional static spherical
+  one-function slice, not the complete frame metric;
+- timelike nonzero `dphi` gives the exact boost-three plus rotation-three Cartan split;
+- spacelike nonzero `dphi` retains a real `SO+(1,2)` `3+3`, without observer interpretation;
+- null `dphi` gives a rank-two nilpotent filtration and zero `dphi` gives no intrinsic reduction;
+- the full connection preserves the timelike split iff its boost/extrinsic block vanishes;
+  otherwise the two rank-three sectors mix;
+- Kato transport follows the moving subbundles geometrically and is not physical time evolution;
+- all 12 registered completion families are crossed with all five causal classes, but no complete
+  on-shell `(g,phi)` finite-cell branch is supplied or selected;
+- CSN preserves the intrinsic split but not its Levi-Civita mixing profile;
+- `C2`/Bach remains `UNIQUE-CONDITIONAL`; EH and all present mass routes remain `CONDITIONAL`; the
+  carrier remains `POSIT`;
+- complete action, source, boundary charge, physical representative, absolute scale, bridge,
+  carrier emergence, time-live matter law, and unconditional mass remain `OPEN`.
+
+Current bounded seam:
+
+> Determine whether pre-scale UDT supplies a conformally natural connection/transport law for the
+> intrinsic `dphi` reduction, or bootstrap must first select a physical metric representative
+> before Levi-Civita mixing can be physical.
+
+No solve, derivation, GPU work, carrier/action adoption, canonization, repository reorganization,
+or artifact relocation follows automatically. R0--R1H remains paused.
+
+<!-- STARTUP_CURRENT_END -->
+
+## PRIOR CURRENT (2026-07-22 — metric-to-frontier synthesis externally audited; four PASS-WITH-CAVEATS)
 
 Read `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then
 `CLAIM_DEPENDENCY_LEDGER.tsv`, `OPEN_JOIN_LEDGER.tsv`, and `SOURCE_MANIFEST.tsv`; then read
@@ -269,8 +306,6 @@ Packages:
   `64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50`;
 - `null_section_hopfion_metric_audit_2026-07-19/`; manifest
   `e195d14349407c23e4a050628ec84298d3d35e23e2c25b5cf285a5c81f8e989b`.
-
-<!-- STARTUP_CURRENT_END -->
 
 The preceding native Hopfion topology audit remains intact:
 

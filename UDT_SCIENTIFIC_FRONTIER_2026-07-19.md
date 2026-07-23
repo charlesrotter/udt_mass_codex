@@ -4,6 +4,38 @@ Date: 2026-07-20
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## July 23 scientific-consolidation overlay — current authority
+
+Read `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
+`CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and
+`REGRESSION_GUARD_LEDGER.tsv` before the older layers below.
+
+The complete-metric frame rederivation and bivector audit identify the timelike nonzero-`dphi`
+rank-three pair exactly with the local Lorentz boost and rotation sectors. The general induced
+connection contains three within-sector rotation components and three boost/extrinsic mixing
+components. On smooth fixed-rank regions, Kato's corrected connection transports the moving
+subbundles exactly; this is geometric transport and not a physical time law.
+
+The causal extension is now explicit. Spacelike nonzero `dphi` retains a real `3+3` with
+`SO+(1,2)` stabilizer but not observer boost/rotation meaning. Null nonzero `dphi` degenerates to a
+rank-two nilpotent two-form filtration. At `dphi=0`, different approach directions give different
+limiting projectors, so no intrinsic reduction remains.
+
+All twelve registered finite-cell completion families have been crossed with all five causal
+classes. This gives 60 unique taxonomy rows but zero supplied complete on-shell `(g,phi)` branches;
+no completion or causal history is selected. Static compact real-scalar families force a critical
+point, while time dependence may evade that theorem but is not forced by a current UDT equation.
+
+Positive Common-Scale rescaling preserves the intrinsic reduction but can change its Levi-Civita
+mixing. The current bounded seam is therefore whether pre-scale UDT supplies a conformally natural
+connection/transport law, or bootstrap must first select a physical metric representative.
+
+Reciprocal kinematics remains `DERIVED`; `C2`/Bach remains `UNIQUE-CONDITIONAL`; EH and present mass
+routes remain `CONDITIONAL`; the round `S2` carrier remains `POSIT`. Complete action, source,
+boundary charge, physical representative, absolute scale, bridge, carrier emergence, time-live
+matter law, and unconditional mass remain `OPEN`. No solve, GPU work, canonization, carrier/action
+adoption, artifact move, or repository reorganization follows.
+
 ## July 20 matter/bootstrap dimensional-inventory overlay — current authority
 
 Read `matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`, then its

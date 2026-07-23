@@ -1,0 +1,65 @@
+{
+  "all_checks_pass": true,
+  "bounded_lines": {
+    "HANDOFF.md": 42,
+    "LIVE.md": 36
+  },
+  "branch": "grok",
+  "checks": {
+    "AGENTS_orders_LIVE_before_HANDOFF": true,
+    "AGENTS_orders_checkpoint_after_HANDOFF": true,
+    "HANDOFF_is_bounded": true,
+    "HANDOFF_points_to_checkpoint": true,
+    "LIVE_is_bounded": true,
+    "LIVE_points_to_checkpoint": true,
+    "action_status": true,
+    "carrier_status": true,
+    "current_seam_present": true,
+    "finite_cell_not_solved": true,
+    "guard_count": true,
+    "map_count": true,
+    "no_follow_on_authorized": true,
+    "reciprocal_status": true,
+    "scale_status": true,
+    "status_count": true
+  },
+  "head": "7995470931fa0e575f77e93e0137e9d8062c5564",
+  "method": "deterministic_parser_no_conversational_context_no_external_model",
+  "orientation": {
+    "authority_boundary": "no finite-cell branch, representative, action, carrier, scale, or matter law is selected",
+    "honest_claim": "reciprocal kinematics and the scoped local causal 3plus3 geometry are derived; the finite-cell taxonomy is crossed but no complete on-shell branch is supplied",
+    "open_seam": "conformally natural pre-scale transport versus bootstrap selection of a physical metric representative",
+    "premise_stamps": "exact C0/C1 plus registered regularity/nontriviality/sign/unit; timelike observer meaning requires nonzero timelike dphi and recorded time orientation",
+    "regression_guards": [
+      "physical_distance_is_nonnegative_while_local_phi_may_be_signed",
+      "no_identity_between_metric_phi_and_observer_rapidity_is_derived",
+      "WRL_is_a_conditional_static_spherical_one_function_slice",
+      "global_frame_shared_Xmax_is_an_open_output_of_complete_metric_bootstrap",
+      "metric_normalized_local_null_speed_uses_measured_c_E_anchor_and_endpoint_language_is_relational",
+      "copresence_is_whole_solution_membership_not_zero_duration_signaling",
+      "Kato_is_geometric_transport_of_moving_subbundles",
+      "spacelike_dphi_has_a_real_SO_plus_1_2_symmetric_pair_not_an_observer_split"
+    ],
+    "status_excerpt": {
+      "C2_Bach_bulk_action": "UNIQUE-CONDITIONAL",
+      "EH_route": "CONDITIONAL",
+      "S2_carrier": "POSIT",
+      "absolute_scale": "OPEN",
+      "boundary_charge": "OPEN",
+      "bridge": "OPEN",
+      "complete_action": "OPEN",
+      "finite_cell_completion_cross": "VERIFIED-WITH-CAVEATS",
+      "native_source": "OPEN",
+      "null_dphi_filtration": "DERIVED",
+      "particle_stability": "CONDITIONAL",
+      "reciprocal_kinematics": "DERIVED",
+      "spacelike_dphi_3plus3": "DERIVED",
+      "timelike_dphi_3plus3": "DERIVED",
+      "unconditional_mass": "OPEN",
+      "zero_dphi_reduction": "OPEN"
+    }
+  },
+  "python": "3.10.12",
+  "schema": "udt-zero-state-startup-rehearsal-1.0",
+  "worktree_status": "M AGENTS.md\n M HANDOFF.md\n M INDEX.md\n M LIVE.md\n M README.md\n M UDT_SCIENTIFIC_FRONTIER_2026-07-19.md\n M research/README.md\n?? udt_scientific_consolidation_checkpoint_2026-07-23/CHECKPOINT_RESULT.json\n?? udt_scientific_consolidation_checkpoint_2026-07-23/CURRENT_STATUS_LEDGER.tsv\n?? udt_scientific_consolidation_checkpoint_2026-07-23/INDEPENDENT_VERIFICATION.json\n?? udt_scientific_consolidation_checkpoint_2026-07-23/METRIC_TO_FRONTIER_MAP.tsv\n?? udt_scientific_consolidation_checkpoint_2026-07-23/REGRESSION_GUARD_LEDGER.tsv\n?? udt_scientific_consolidation_checkpoint_2026-07-23/REHEARSAL_METHOD.md\n?? udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md\n?? udt_scientific_consolidation_checkpoint_2026-07-23/SOURCE_LINEAGE.tsv\n?? udt_scientific_consolidation_checkpoint_2026-07-23/STARTUP_READ_ORDER.md\n?? udt_scientific_consolidation_checkpoint_2026-07-23/ZERO_CONTEXT_REHEARSAL_OUTPUT.md\n?? udt_scientific_consolidation_checkpoint_2026-07-23/ZERO_CONTEXT_REHEARSAL_PROMPT.md\n?? udt_scientific_consolidation_checkpoint_2026-07-23/ZERO_STATE_REHEARSAL_RESULT.json\n?? udt_scientific_consolidation_checkpoint_2026-07-23/build_checkpoint_evidence.py\n?? udt_scientific_consolidation_checkpoint_2026-07-23/rehearse_startup_zero_state.py\n?? udt_scientific_consolidation_checkpoint_2026-07-23/verify_checkpoint_independent.py"
+}

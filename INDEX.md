@@ -1,8 +1,22 @@
-# INDEX — Repo Map (2026-07-22 lean)
+# INDEX — Repo Map (2026-07-23 lean)
 
-**⚠ BRANCH: `grok` (2026-07-22)** — `main` is stale for this arc; `git checkout grok`.
+**⚠ BRANCH: `grok` (2026-07-23)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
 **➤ CURRENT SCIENTIFIC FRONTIER:**
+`udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
+`CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and `REGRESSION_GUARD_LEDGER.tsv`.
+The checkpoint is navigation, not new physics authority. Current exact structure: reciprocal
+kinematics remains derived with premise stamps; timelike nonzero `dphi` gives the local Lorentz
+boost/rotation `3+3`; the full connection has exact within-sector and mixing blocks; spacelike
+nonnull `dphi` retains a non-observer `SO+(1,2)` `3+3`; null `dphi` gives a nilpotent filtration;
+zero `dphi` gives no intrinsic reduction. The 12 registered completion families have been crossed
+with five causal classes, but zero complete on-shell `(g,phi)` branches are supplied and none is
+selected. CSN preserves the split but not its Levi-Civita mixing. The next bounded seam is
+conformally natural pre-scale transport versus bootstrap selection of a physical representative.
+Complete action, source, boundary charge, scale, bridge, carrier emergence, time-live matter, and
+unconditional mass remain open. Repository reorganization remains paused.
+
+**➤ PRIOR JULY 22 SCIENTIFIC FRONTIER:**
 `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
 `CLAIM_DEPENDENCY_LEDGER.tsv`, `OPEN_JOIN_LEDGER.tsv`, and `SOURCE_MANIFEST.tsv`; then its
 `REFERENCE_CORRECTION_LAYER.md`, `REVIEW_AGREEMENT_DISAGREEMENT.tsv`, and `PONDER_READOUT.md`; next

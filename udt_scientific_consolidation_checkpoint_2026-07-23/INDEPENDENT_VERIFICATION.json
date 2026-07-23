@@ -1,0 +1,196 @@
+{
+  "all_catches_pass": true,
+  "all_checks_pass": true,
+  "catch_count": 14,
+  "catches": [
+    {
+      "name": "reject_missing_status",
+      "pass": true
+    },
+    {
+      "name": "reject_duplicate_status",
+      "pass": true
+    },
+    {
+      "name": "reject_action_promotion",
+      "pass": true
+    },
+    {
+      "name": "reject_representative_promotion",
+      "pass": true
+    },
+    {
+      "name": "reject_carrier_promotion",
+      "pass": true
+    },
+    {
+      "name": "reject_solved_branch_promotion",
+      "pass": true
+    },
+    {
+      "name": "reject_spacelike_observer_promotion",
+      "pass": true
+    },
+    {
+      "name": "reject_null_semisimple_promotion",
+      "pass": true
+    },
+    {
+      "name": "reject_Kato_physical_time",
+      "pass": true
+    },
+    {
+      "name": "reject_missing_regression_guard",
+      "pass": true
+    },
+    {
+      "name": "reject_stale_LIVE_pointer",
+      "pass": true
+    },
+    {
+      "name": "reject_stale_HANDOFF_pointer",
+      "pass": true
+    },
+    {
+      "name": "reject_duplicate_LIVE_marker",
+      "pass": true
+    },
+    {
+      "name": "reject_nonlean_HANDOFF",
+      "pass": true
+    }
+  ],
+  "check_count": 12,
+  "checks": [
+    {
+      "detail": [],
+      "name": "checkpoint_contract",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "source_lineage_count",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "source_lineage_exact_bytes",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "status_evidence_resolves",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "map_evidence_resolves",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "guard_evidence_resolves",
+      "pass": true
+    },
+    {
+      "detail": {
+        "causal_classes": 5,
+        "complete_onshell_g_phi_branches": 0,
+        "completion_causal_cross": 60,
+        "completion_families": 12,
+        "connection_domains": 4,
+        "transition_witnesses": 8
+      },
+      "name": "finite_cell_counts",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "finite_cell_cross_unique",
+      "pass": true
+    },
+    {
+      "detail": [
+        1114,
+        1114
+      ],
+      "name": "fixed_identity_counts",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "preregistration_correction_exact",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "zero_state_rehearsal",
+      "pass": true
+    },
+    {
+      "detail": [
+        {
+          "name": "reject_missing_status",
+          "pass": true
+        },
+        {
+          "name": "reject_duplicate_status",
+          "pass": true
+        },
+        {
+          "name": "reject_action_promotion",
+          "pass": true
+        },
+        {
+          "name": "reject_representative_promotion",
+          "pass": true
+        },
+        {
+          "name": "reject_carrier_promotion",
+          "pass": true
+        },
+        {
+          "name": "reject_solved_branch_promotion",
+          "pass": true
+        },
+        {
+          "name": "reject_spacelike_observer_promotion",
+          "pass": true
+        },
+        {
+          "name": "reject_null_semisimple_promotion",
+          "pass": true
+        },
+        {
+          "name": "reject_Kato_physical_time",
+          "pass": true
+        },
+        {
+          "name": "reject_missing_regression_guard",
+          "pass": true
+        },
+        {
+          "name": "reject_stale_LIVE_pointer",
+          "pass": true
+        },
+        {
+          "name": "reject_stale_HANDOFF_pointer",
+          "pass": true
+        },
+        {
+          "name": "reject_duplicate_LIVE_marker",
+          "pass": true
+        },
+        {
+          "name": "reject_nonlean_HANDOFF",
+          "pass": true
+        }
+      ],
+      "name": "all_exercised_catches_pass",
+      "pass": true
+    }
+  ],
+  "implementation": "stdlib_independent_no_builder_import",
+  "python": "3.10.12",
+  "schema": "udt-scientific-consolidation-independent-1.0"
+}

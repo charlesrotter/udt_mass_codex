@@ -2,7 +2,20 @@
 
 This directory is an additions-only navigation layer. It points to artifacts at their existing repository paths; it contains no copied research artifact and creates no new scientific authority. [`LIVE.md`](../LIVE.md) remains the current-frontier authority, followed by [`HANDOFF.md`](../HANDOFF.md). Claim labels below are reproduced from those current records and the accepted final native-action ledger.
 
-## Current scientific spine — July 22
+## Current scientific spine — July 23
+
+Start with the
+[scientific checkpoint](../udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md),
+then its
+[current status ledger](../udt_scientific_consolidation_checkpoint_2026-07-23/CURRENT_STATUS_LEDGER.tsv),
+[metric-to-frontier map](../udt_scientific_consolidation_checkpoint_2026-07-23/METRIC_TO_FRONTIER_MAP.tsv),
+and
+[regression guards](../udt_scientific_consolidation_checkpoint_2026-07-23/REGRESSION_GUARD_LEDGER.tsv).
+This is an evidence-linked routing layer. It moves no artifact, changes no evidence, and creates no
+new physics authority. The current open seam is conformally natural pre-scale transport versus
+bootstrap selection of a physical metric representative.
+
+## Prior scientific spine — July 22
 
 Start with the [metric-to-frontier reference](../udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md),
 then its [claim dependency ledger](../udt_metric_to_frontier_reference_2026-07-22/CLAIM_DEPENDENCY_LEDGER.tsv),
