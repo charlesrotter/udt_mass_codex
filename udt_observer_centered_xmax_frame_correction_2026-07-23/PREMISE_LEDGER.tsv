@@ -1,0 +1,19 @@
+premise_id	object	statement	status	source_or_reason	excluded_promotion
+P01	metric_theory	The metric is the theory	OWNER_LOCKED	AGENTS.md	no_external_dynamics
+P02	c_E	Measured Einsteinian c is the ordinary terrestrial/solar clock-length anchor	OBSERVED_FOUNDING_ANCHOR	udt_premise_reset_audit_2026-07-19/OWNER_MEANING_LEDGER.tsv	no_foundational_signal_speed_claim
+P03	observer_frames	No preferred macroscopic inertial observational frame	OWNER_LOCKED	Charles_correction_2026-07-23	no_absolute_cosmic_center
+P04	centered_chart	Each inertial observer owns an equivalent centered observational chart	OWNER_LOCKED	Charles_correction_2026-07-23	no_single_fixed_center_interpretation
+P05	r	r is nonnegative observer-centered separation/depth not signed absolute position	OWNER_LOCKED	Charles_correction_plus_premise_reset	no_inward_outward_absolute_observer
+P06	inertial_cone	Uniform relative frame change preserves the invariant light cone	OWNER_LOCKED_ORDINARY_REGIME	Charles_correction_2026-07-23	no_motion_induced_physical_warp
+P07	acceleration	Acceleration is the only presently admitted trigger for changed within-frame connection/light-cone presentation	OWNER_WORKING_POSTULATE	Charles_correction_2026-07-23	no_GR_equivalence_principle
+P08	Xmax_common	Xmax is intended to be common to all observational frames	OWNER_LOCKED_CONDITIONAL_CONSISTENCY	udt_xmax_dilation_asymptote_correction_2026-07-23	no_derived_numerical_scale
+P09	Xmax_meaning	Xmax is the positional dilation asymptote	OWNER_WORKING_POSTULATE	udt_xmax_dilation_asymptote_correction_2026-07-23	no_mass_closure
+P10	WRL_profile	A=exp(-2phi)=1-r/X	DERIVED_CONDITIONAL_WRL	udt_xmax_dilation_asymptote_correction_2026-07-23	no_complete_global_branch_selection
+P11	domain	The tested centered WRL clock/ruler chart has 0<r<X and A>0	PINNED_BY_TESTED_BRANCH	WRL_recorded_branch	no_assumed_global_terminal_manifold
+P12	angular_sector	The tested branch uses the round areal block r^2 dOmega^2	PINNED_BY_TESTED_BRANCH	recorded_WRL_metric	no_carrier_or_global_angular_completion
+P13	mass	Native invariant matter mass at the asymptote is open	OPEN	complete_native_matter_functional_missing	no_mass_infinity_as_barrier
+P14	frame_change	Local orthonormal coframe transformations preserve the fixed metric	PINNED_BY_GEOMETRY	exact_metric_preservation	no_physical_observer_composition
+P15	acceleration_response	A law by which acceleration changes the physical metric is absent	OPEN	current_metric_only_scope	no_equivalence_principle
+P16	extension	A regular coordinate extension is tested as manifold geometry only	FREE_AND_EXPLORED	correction_scope	no_physical_crossing_inference
+P17	global_completion	Boundary quotient seam second cell and beyond-X ontology are open	OPEN	current_frontier	no_selected_completion
+P18	compute	CPU-only exact algebra	PINNED_BY_SCOPE	user_sequence	no_GPU
