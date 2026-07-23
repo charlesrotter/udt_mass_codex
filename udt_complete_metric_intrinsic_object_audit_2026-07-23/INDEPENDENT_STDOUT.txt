@@ -1,0 +1,71 @@
+{
+  "counts": {
+    "frozen_dphi_causal_classes": {
+      "SPACELIKE": 2304,
+      "TIMELIKE": 768,
+      "ZERO": 3072
+    },
+    "full_orientation_reversing_Lorentz_two_form_commutant_dimension": 1,
+    "independent_exact_checks": 29,
+    "invariant_two_form_dimension": 0,
+    "invariant_vector_dimension": 0,
+    "mutation_catches": 25,
+    "object_rows": 30,
+    "seal_commutant_dimension": 2,
+    "source_files": 60,
+    "spatial_fixed_dimension": 0,
+    "tangent_commutant_dimension": 1,
+    "two_form_commutant_dimension": 2
+  },
+  "exact_checks": {
+    "Hodge_exchange_conjugates_reciprocal_to_inverse": true,
+    "boost_moves_named_leg": true,
+    "complex_reciprocal_fails_real_descent": true,
+    "connected_orientation_preserving_two_form_commutant_dimension": true,
+    "connected_orientation_preserving_two_form_commutant_spanned_by_I_and_star": true,
+    "formal_complex_projector_ranks": true,
+    "formal_i_hodge_involution": true,
+    "full_gradient_reciprocal_operator_CSN_invariant": true,
+    "full_orientation_reversing_Lorentz_two_form_commutant_is_scalar": true,
+    "gradient_projector_CSN_invariant": true,
+    "hodge_anticommutes_with_orientation_reversal": true,
+    "hodge_commutes": true,
+    "hodge_square_minus_identity": true,
+    "invariant_two_form_dimension": true,
+    "invariant_vector_dimension": true,
+    "lorentz_generators_metric_skew": true,
+    "nonnull_gradient_Hodge_exchange": true,
+    "nonnull_gradient_rank3_plus_rank3": true,
+    "nonnull_gradient_real_involution": true,
+    "null_gradient_induced_two_form_map_is_rank2_nilpotent": true,
+    "null_gradient_is_nonzero_nilpotent_not_projector": true,
+    "real_equivariant_two_form_maps_no_real_reciprocal_split": true,
+    "same_metric_boost": true,
+    "seal_commutant_dimension": true,
+    "seal_projector_basis_commutes": true,
+    "seal_projector_rank_pattern": true,
+    "spacelike_gradient_same_Hodge_pair": true,
+    "spatial_fixed_dimension": true,
+    "tangent_commutant_dimension": true
+  },
+  "frozen_evidence_replay": {
+    "configurations": 6144,
+    "dphi_causal_classes": {
+      "SPACELIKE": 2304,
+      "TIMELIKE": 768,
+      "ZERO": 3072
+    },
+    "flat_ambiguous": 768,
+    "global_completion_families": 12,
+    "isolated_real_simple_curvature_eigenplanes": 0,
+    "metric_active_full_irreducible": 5376,
+    "selected_global_quotient_classes": []
+  },
+  "implementation": "stdlib_Fraction_no_production_import_no_SymPy__local_linear_algebra_independently_recomputed__frozen_atlas_taxonomies_directly_parsed_and_hash_checked_not_rederived",
+  "object_census_sha256": "83c56a85f481f24928109e855afe87fa85a0d41db440e0a5c96f086ec45acb50",
+  "python_version": "3.10.12",
+  "result_sha256": "375d8118151003802ffd85e1db902959b246b498940314f6b05b7ca67ea32189",
+  "schema": "udt-complete-metric-intrinsic-object-independent-verification-1.0",
+  "source_manifest_sha256": "cc087f7c1ccfcfa6eb08e42764576e1a9f16ef6534f6434f91d4164f3a718ab2",
+  "status": "PASS"
+}

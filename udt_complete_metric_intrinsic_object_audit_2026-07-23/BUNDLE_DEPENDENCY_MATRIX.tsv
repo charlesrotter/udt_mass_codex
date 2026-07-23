@@ -1,0 +1,11 @@
+object	minimum_inputs	intrinsic_output	reciprocal_role	Hopf_role	missing_join
+celestial_null_direction_bundle	4D conformal Lorentzian structure; time component for future rays	projective null-ray S2 bundle	none selected	S2 fiber only	section transport boundary framing
+oriented_Hodge_structure	4D Lorentzian metric plus orientation	real complex structure star on Lambda2	complex chiral near realization	none	real physical reciprocal owner
+nonnull_dphi_two_form_split	metric plus signed phi with dphi nonzero nonnull	real rank3 plus rank3 Lambda2 reduction	D and D inverse are equally compatible e^phi/e^-phi solderings	possible S2-like unit fiber on timelike stratum	global nondegeneracy physical sector ownership selected section
+null_dphi_ray	metric plus nonzero null dphi	local celestial ray section	phi-related	none	global causal-type theorem and Hopf data
+curvature_spectral_data	metric jets and nondegenerate spectra	unordered or stratum-specific lines/planes	no registered priority	none	degeneracy ordering and global continuation
+Levi_Civita_holonomy	supplied metric representative loops and basepoint	holonomy conjugacy class	may preserve a supplied reduction	no automatic Hopf class	selected completion and reduced branch
+tangent_or_celestial_characteristic_data	supplied global manifold/bundle and orientation as required	primary characteristic classes	none	not a selected S3-to-S2 secondary invariant	selected topology section/map and boundary
+reciprocal_toric_principal_circle_bundle	two periodic axes circle action primitive opposing caps orientation quotient normalization	c1 with absolute value one and normalized connection	exact angular reciprocal ratio	exact conditional Hopf bundle class	all global toric inputs remain unselected
+Hopf_secondary_invariant	closed or boundary-compactified 3-domain; selected S2 map/section; framing and normalization	Hopf number or equivalent secondary class	possible only after representation join	actual target output	map/section and physical boundary absent
+bootstrap_realization	current qualitative global admissibility wording	none operational	none	none	domain codomain operation existence and uniqueness

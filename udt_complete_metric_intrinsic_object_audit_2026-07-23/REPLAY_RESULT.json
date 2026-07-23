@@ -1,0 +1,16 @@
+{
+  "all_exit_zero": true,
+  "independent": {
+    "command": "/usr/bin/python3 /tmp/udt_phi_ontology_XvSL3D/repo/udt_complete_metric_intrinsic_object_audit_2026-07-23/verify_intrinsic_objects_independent.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "f096da53406c5f3c1e0ad9f204ada8c8e938780dad8881bb8fa886f2209ac3df"
+  },
+  "production": {
+    "command": "/usr/bin/python3 /tmp/udt_phi_ontology_XvSL3D/repo/udt_complete_metric_intrinsic_object_audit_2026-07-23/derive_intrinsic_objects.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "375d8118151003802ffd85e1db902959b246b498940314f6b05b7ca67ea32189"
+  },
+  "schema": "udt-complete-metric-intrinsic-object-replay-1.0"
+}

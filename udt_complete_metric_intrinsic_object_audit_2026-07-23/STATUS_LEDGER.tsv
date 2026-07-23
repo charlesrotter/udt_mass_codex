@@ -1,0 +1,19 @@
+id	claim	status	scope_or_limit
+S01	abstract_reciprocal_character	DERIVED_WITH_EXACT_PREMISES	abstract V_rec; physical soldering remains open
+S02	conformal_null_cone_and_celestial_S2_bundle	DERIVED_CONDITIONAL_GEOMETRY	inherited 4D conformal-Lorentzian layer; fiber is not a section
+S03	metric_only_universal_real_tangent_reduction	NOT_FOUND_EXACT_CONNECTED_STABILIZER	obstruction is pointwise and bounded to registered object types; future nonlocal law open
+S04	oriented_Lorentzian_Hodge_star_on_real_two_forms	DERIVED_CONDITIONAL_GEOMETRY	requires orientation; CSN invariant in 4D; star squared equals minus identity
+S05	complex_Hodge_chiral_reciprocal_pair	EXACT_INTRINSIC_COMPLEX_CONSTRUCTION	i-star gives complex rank3 plus rank3 and exact reciprocal weights; unequal weights fail real descent
+S06	nonnull_dphi_line_projector	DERIVED_LOCAL_STRATUM_FROM_G_AND_PHI	requires dphi nonzero and nonnull; rank1 only
+S07	nonnull_dphi_real_two_form_reduction	EXACT_FIELD_ASSISTED_LOCAL_STRATUM_GEOMETRY	real rank3 plus rank3 split on Lambda2; timelike and spacelike controls pass
+S08	reciprocal_weighting_of_dphi_two_form_sectors	EXACT_COMPATIBILITY	D and D inverse are equally compatible reciprocal solderings after the split; physical sector ownership is not selected
+S09	Hodge_exchange_of_dphi_two_form_sectors	DERIVED_LOCAL_STRATUM_GEOMETRY	Hodge conjugates the reciprocal operator to its inverse
+S10	null_or_zero_dphi_extension	BLOCKED_EXACTLY	null dphi gives a rank1 tangent nilpotent and an induced rank2 two-form nilpotent rather than a semisimple projector split; zero dphi gives no line
+S11	global_finite_cell_extension_of_dphi_reduction	OPEN	requires dphi everywhere nonzero nonnull with compatible gluing; current premises do not force it
+S12	timelike_dphi_associated_round_S2_fiber	DERIVED_CONDITIONAL_FIBER	unit directions in the orthogonal spatial rank3 bundle; no section or fixed target selected
+S13	Hopf_map_section_or_secondary_class_from_new_reduction	OPEN	no selected unit two-form direction map boundary framing or principal circle data
+S14	complete_curvature_selector	ABSENT_IN_REGISTERED_TWO_JET_ENSEMBLE	5376 metric-active full-irreducible and 768 flat-ambiguous rows
+S15	holonomy_and_characteristic_data	INTRINSIC_PER_SUPPLIED_COMPLETION	not a selector of the completion; representative/topology/loops required
+S16	reciprocal_toric_c1_Hopf_class	EXACT_CONDITIONAL_GLOBAL	periods circle action caps orientation quotient and normalization remain supplied
+S17	native_real_frame_independent_global_reciprocal_Hopf_object	OPEN_NOT_DERIVED	local dphi reduction is not global or Hopf-bearing; conditional toric class is not selected
+S18	complete_action_carrier_source_boundary_charge_scale_mass_and_time_live_law	OPEN_UNCHANGED	not tested or derived by this audit
