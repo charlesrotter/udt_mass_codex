@@ -1,0 +1,34 @@
+{
+  "agent": "hygiene_adversary",
+  "backlog_sha256": "a93c4148808d78cfba3171ee1ad00ff440e0909cbdcca00c2c07e47b27776312",
+  "combined_ordered_path_hash_sha256": "7a1b9fece4c6aed810e7f29ac703e021ab22310097932092038109bd0fdc381a",
+  "counts": {
+    "compliant_documents": 33,
+    "covered_documents": 70,
+    "full_test_failed": 0,
+    "full_test_passed": 70,
+    "full_test_xfailed": 1,
+    "registered_backlog_documents": 37,
+    "registered_omissions": 88
+  },
+  "date": "2026-07-23",
+  "mutation_results": {
+    "changed_registered_document": "REJECTED",
+    "duplicate_backlog_row": "REJECTED",
+    "enlarged_backlog": "REJECTED",
+    "new_unregistered_bad_document": "REJECTED",
+    "stale_corrected_document_exemption": "REJECTED"
+  },
+  "repository_modified_by_reviewer": false,
+  "required_prebank_actions": {
+    "final_manifest_and_repository_gates": "REQUIRED",
+    "freeze_final_test_hash_or_limit_fail_closed_wording": "APPLIED_BY_CONTROL_HASH_GATE_AND_BOUNDED_WORDING"
+  },
+  "schema": "udt-hygiene-baseline-fresh-review-1.0",
+  "scope_caveats": [
+    "DELIBERATE_COEDIT_OF_TEST_AND_ALL_GUARD_CONSTANTS_REQUIRES_CODE_REVIEW",
+    "FILES_OUTSIDE_DECLARED_ROOT_GLOBS_ARE_OUT_OF_SCOPE",
+    "COMPLIANT_DOCUMENT_CONTENT_IS_NOT_FROZEN_BY_THIS_HYGIENE_TEST"
+  ],
+  "verdict": "VERIFIED_WITH_CAVEATS"
+}

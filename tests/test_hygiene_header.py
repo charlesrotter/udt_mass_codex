@@ -4,17 +4,30 @@ Physics-blind: only checks that required section markers exist.
 Does NOT judge correctness of tags or physics merit.
 
 Coverage: paths matching HYGIENE_COVERED_GLOBS (macro/hyp trail + template).
-Historical results outside the globs are not failed (gradual adoption).
+Historical results outside the globs are not failed (gradual adoption). The exact hashed legacy
+backlog is accepted but cannot grow or change silently.
 Protocol: STRUCTURE_HYGIENE.md · template: HYGIENE_HEADER_TEMPLATE.md
 """
 from __future__ import annotations
 
+import csv
+import hashlib
 import re
 from pathlib import Path
 
 import pytest
 
 REPO = Path(__file__).resolve().parents[1]
+BACKLOG = (
+    REPO
+    / "hygiene_baseline_correction_2026-07-23"
+    / "HYGIENE_LEGACY_BACKLOG.tsv"
+)
+EXPECTED_BACKLOG_SHA256 = (
+    "a93c4148808d78cfba3171ee1ad00ff440e0909cbdcca00c2c07e47b27776312"
+)
+EXPECTED_BACKLOG_ROWS = 37
+EXPECTED_BACKLOG_OMISSIONS = 88
 
 # Gradual adoption: enforce on this arc's results trail + any new simple_metric results.
 HYGIENE_COVERED_GLOBS = [
@@ -32,14 +45,15 @@ HYGIENE_COVERED_GLOBS = [
     "simple_metric_xmax_POSTULATE.md",
 ]
 
-REQUIRED_MARKERS = [
-    r"##\s+HYGIENE HEADER",
-    r"Build-on grade",
-    r"Premise ledger",
-    r"Observing or targeting",
-    r"Verifier status",
-    r"NOT claimed",
-]
+REQUIREMENT_PATTERNS = {
+    "HYGIENE_HEADER": r"##\s+HYGIENE HEADER",
+    "BUILD_ON_GRADE_MARKER": r"Build-on grade",
+    "PREMISE_LEDGER": r"Premise ledger",
+    "OBSERVING_OR_TARGETING": r"Observing or targeting",
+    "VERIFIER_STATUS": r"Verifier status",
+    "NOT_CLAIMED": r"NOT claimed",
+}
+REQUIRED_MARKERS = list(REQUIREMENT_PATTERNS.values())
 
 # At least one build-on grade token must appear (value filled)
 GRADE_TOKEN = re.compile(
@@ -57,6 +71,50 @@ def _covered_files() -> list[Path]:
     return sorted(found)
 
 
+def _sha256(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def _issues(text: str) -> list[str]:
+    missing = [
+        name
+        for name, pattern in REQUIREMENT_PATTERNS.items()
+        if not re.search(pattern, text, re.IGNORECASE)
+    ]
+    if not GRADE_TOKEN.search(text):
+        missing.append("BUILD_ON_GRADE_ALLOWED_VALUE")
+    return missing
+
+
+def _registered_backlog() -> dict[str, dict[str, str]]:
+    assert BACKLOG.is_file(), f"legacy backlog missing: {BACKLOG.relative_to(REPO)}"
+    assert _sha256(BACKLOG) == EXPECTED_BACKLOG_SHA256, (
+        "legacy backlog changed; preregister and independently review any correction"
+    )
+    with BACKLOG.open(encoding="utf-8", newline="") as handle:
+        reader = csv.DictReader(handle, delimiter="\t")
+        expected_fields = [
+            "path",
+            "sha256",
+            "missing_requirements",
+            "introducing_commit",
+            "introducing_commit_time",
+            "fixed_snapshot_status",
+        ]
+        assert reader.fieldnames == expected_fields, "legacy backlog schema changed"
+        rows = list(reader)
+    paths = [row["path"] for row in rows]
+    assert len(rows) == EXPECTED_BACKLOG_ROWS, "legacy backlog row count changed"
+    assert len(paths) == len(set(paths)), "duplicate legacy backlog path"
+    omissions = sum(
+        len(row["missing_requirements"].split(";")) for row in rows
+    )
+    assert omissions == EXPECTED_BACKLOG_OMISSIONS, (
+        "legacy backlog omission count changed"
+    )
+    return {row["path"]: row for row in rows}
+
+
 def test_hygiene_template_exists_and_complete():
     tmpl = REPO / "HYGIENE_HEADER_TEMPLATE.md"
     assert tmpl.is_file(), "HYGIENE_HEADER_TEMPLATE.md missing"
@@ -69,16 +127,29 @@ def test_hygiene_template_exists_and_complete():
 def test_covered_results_have_hygiene_header():
     files = _covered_files()
     assert files, "no covered results files found — check globs"
-    missing: list[str] = []
+    covered = {path.relative_to(REPO).as_posix(): path for path in files}
+    backlog = _registered_backlog()
+    failures: list[str] = []
+    for rel in sorted(set(backlog) - set(covered)):
+        failures.append(f"{rel}: registered backlog path is not covered")
     for path in files:
         text = path.read_text(encoding="utf-8", errors="replace")
-        rel = path.relative_to(REPO)
-        for pat in REQUIRED_MARKERS:
-            if not re.search(pat, text, re.IGNORECASE):
-                missing.append(f"{rel}: missing /{pat}/")
-        if not GRADE_TOKEN.search(text):
-            missing.append(f"{rel}: Build-on grade value not one of DEMO|LEAD|CONDITIONAL|BANKED-FOR-STRUCTURE")
-    assert not missing, "Hygiene header gaps:\n  " + "\n  ".join(missing)
+        rel = path.relative_to(REPO).as_posix()
+        actual_issues = _issues(text)
+        if rel not in backlog:
+            for issue in actual_issues:
+                failures.append(f"{rel}: unregistered missing requirement {issue}")
+            continue
+        row = backlog[rel]
+        if _sha256(path) != row["sha256"]:
+            failures.append(f"{rel}: registered bytes changed")
+        expected_issues = row["missing_requirements"].split(";")
+        if actual_issues != expected_issues:
+            failures.append(
+                f"{rel}: registered omissions changed "
+                f"{expected_issues!r} -> {actual_issues!r}"
+            )
+    assert not failures, "Hygiene contract violations:\n  " + "\n  ".join(failures)
 
 
 def test_hygiene_globs_documented():

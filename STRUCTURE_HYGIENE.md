@@ -56,6 +56,13 @@ Register macro observe scripts in a small allowlist + require a `# PREMISE_LEDGE
 **Machine gate:** `tests/test_hygiene_header.py` (run: `python3 -m pytest tests/test_hygiene_header.py`)  
 Covered globs are listed in that test (macro/hyp trail first; expand as other domains adopt).
 
+The exact 2026-07-09 legacy backlog is frozen in
+`hygiene_baseline_correction_2026-07-23/HYGIENE_LEGACY_BACKLOG.tsv`. Those 37 evidence documents
+remain byte-identical and are not retroactively graded. The test independently requires their exact
+paths, hashes, and 88 recorded omissions while remaining strict for every other covered document.
+Changing, enlarging, or repairing that backlog requires an explicit preregistered review; a new
+document cannot enter it silently.
+
 **No result is “banked” for later building unless the file has this header (or equivalent section):**
 
 ```markdown

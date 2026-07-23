@@ -300,8 +300,10 @@ Prior cell / Thread-A/B / macro-native pivots: **history** — see `archive/LIVE
 - Discipline skills (`.claude/skills/`): a compatible Claude runtime may auto-load them; Codex must
   manually read only the protocol triggered by the actual task. Core protocols are **solver-first**,
   **verifier-before-record** (incl. cross-model escalation), **no-shortcuts** (run `python3 -m pytest
-  tests/` — **expect 1 FAILED** = the known hygiene-header doc backlog on 36 `simple_metric_*` result
-  docs, NOT a code failure; ~69 passed / 1 xfailed otherwise), and **completeness-map**.
+  tests/` — **expect 70 passed / 1 xfailed / 0 failed**; the exact 37-document/88-omission legacy
+  hygiene backlog is hash-guarded by
+  `hygiene_baseline_correction_2026-07-23/HYGIENE_LEGACY_BACKLOG.tsv` and new omissions remain hard
+  failures), and **completeness-map**.
 - **DRIVER TRIGGERS (CLAUDE.md) + harness HOOKS** (`.claude/hooks/corral_trigger.py`, fires on
   Task/Bash/git-commit) are binding method. In a compatible Claude runtime the hooks make the corral
   fire without being challenged; Codex must not assume the hooks or banner are active and must apply

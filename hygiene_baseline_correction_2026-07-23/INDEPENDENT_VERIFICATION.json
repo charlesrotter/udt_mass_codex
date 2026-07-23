@@ -1,0 +1,22 @@
+{
+  "backlog_sha256": "a93c4148808d78cfba3171ee1ad00ff440e0909cbdcca00c2c07e47b27776312",
+  "compliant_documents": 33,
+  "covered_documents": 70,
+  "fixed_classifications_reproduced": 37,
+  "isolated_pytest": {
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "bf22e88f0e3a0e89eddb09d252b1661a48c9dfc4bd5aa177b5efca41f2700a18",
+    "summary": "3 passed"
+  },
+  "mutation_catch_proofs": 4,
+  "post_test_introductions": 37,
+  "registered_backlog_documents": 37,
+  "registered_omissions": 88,
+  "repository_files_modified_by_verifier": [
+    "CATCH_PROOFS.tsv",
+    "INDEPENDENT_VERIFICATION.json"
+  ],
+  "result": "PASS",
+  "schema": "udt-hygiene-baseline-independent-verification-1.0"
+}
