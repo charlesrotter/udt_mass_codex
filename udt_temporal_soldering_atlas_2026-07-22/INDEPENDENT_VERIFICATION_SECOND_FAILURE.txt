@@ -1,0 +1,11 @@
+command: env OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 python3 udt_temporal_soldering_atlas_2026-07-22/verify_temporal_soldering_independent.py --jobs 12
+exit_code: 1
+
+Traceback (most recent call last):
+  File "udt_temporal_soldering_atlas_2026-07-22/verify_temporal_soldering_independent.py", line 309, in <module>
+    main()
+  File "udt_temporal_soldering_atlas_2026-07-22/verify_temporal_soldering_independent.py", line 280, in main
+    complement_rows, complement_census, max_difference = verify_complements(args.jobs)
+  File "udt_temporal_soldering_atlas_2026-07-22/verify_temporal_soldering_independent.py", line 187, in verify_complements
+    raise AssertionError(f"independent complement mismatches {mismatches[:5]}")
+AssertionError: independent complement mismatches [('B3_R13_3_MB', 4, 0, 'class', 'NUMERIC_UNCERTAIN_OBSTRUCTION', 'NUMERICALLY_INTEGRABLE_LOCAL'), ('B3_V007_MF', 4, 16, 'class', 'NUMERICALLY_INTEGRABLE_LOCAL', 'NUMERIC_UNCERTAIN_OBSTRUCTION')]
