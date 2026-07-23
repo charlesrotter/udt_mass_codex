@@ -1,0 +1,15 @@
+source_id	path	role
+S01	SIMPLE_METRIC_MACRO.md	reciprocal_metric_definition
+S02	CANON.md	WRL_status_and_scope
+S03	UDT_SCIENTIFIC_FRONTIER_2026-07-19.md	current_WRL_scope
+S04	asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md	regular_horizon_lineage
+S05	udt_xmax_dilation_asymptote_correction_2026-07-23/AUDIT_REPORT.md	corrected_Xmax_semantics
+S06	udt_xmax_dilation_asymptote_correction_2026-07-23/STATUS_LEDGER.tsv	corrected_statuses
+S07	xmax_full_frame_realization_2026-07-19/AUDIT_REPORT.md	prior_static_frame_claim
+S08	xmax_dynamic_observer_frame_2026-07-19/AUDIT_REPORT.md	prior_dynamic_frame_claim
+S09	xmax_accelerating_finite_cell_cartan_2026-07-19/AUDIT_REPORT.md	prior_accelerating_frame_claim
+S10	copresence_causal_accessibility_selector_2026-07-19/DERIVATION_REPORT.md	prior_causal_selector
+S11	udt_two_frame_regime_metric_limit_audit_2026-07-22/AUDIT_REPORT.md	prior_two_frame_limit
+S12	udt_temporal_soldering_atlas_2026-07-22/AUDIT_REPORT.md	temporal_coframe_atlas
+S13	udt_phi_causal_interface_atlas_2026-07-22/AUDIT_REPORT.md	phi_causal_interface
+S14	metric_cartan_holonomy_audit_2026-07-19/AUDIT_REPORT.md	metric_Cartan_baseline
