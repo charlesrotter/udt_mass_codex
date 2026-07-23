@@ -1,0 +1,26 @@
+{
+  "all_exit_zero": true,
+  "environment": {
+    "cpu_only": true,
+    "gpu_work_performed": false,
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "independent": {
+    "command": "/usr/bin/python3 /tmp/udt_phi_ontology_XvSL3D/repo/udt_complete_metric_realization_zoomout_2026-07-23/verify_realization_zoomout_independent.py",
+    "exit_code": 0,
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_bytes": 1549,
+    "stdout_sha256": "615f8eddf0bb56888fd679467edcc1c75ca021384a152704948952c4f635cdd2"
+  },
+  "production": {
+    "command": "/usr/bin/python3 /tmp/udt_phi_ontology_XvSL3D/repo/udt_complete_metric_realization_zoomout_2026-07-23/derive_realization_zoomout.py",
+    "exit_code": 0,
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_bytes": 2509,
+    "stdout_sha256": "7ca778c2cde8030daa404b07a2b5335f64490fef237687ba7763b5d0712e0a9f"
+  },
+  "schema": "udt-complete-metric-realization-replay-v1"
+}

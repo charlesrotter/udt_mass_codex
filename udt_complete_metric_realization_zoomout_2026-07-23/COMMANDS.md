@@ -1,0 +1,13 @@
+# Commands
+
+All commands are run from repository root and use CPU only.
+
+```bash
+python3 udt_complete_metric_realization_zoomout_2026-07-23/build_source_manifest.py
+python3 udt_complete_metric_realization_zoomout_2026-07-23/derive_realization_zoomout.py
+python3 udt_complete_metric_realization_zoomout_2026-07-23/verify_realization_zoomout_independent.py
+python3 udt_complete_metric_realization_zoomout_2026-07-23/replay_and_capture.py
+python3 udt_complete_metric_realization_zoomout_2026-07-23/run_full_tests.py
+python3 udt_complete_metric_realization_zoomout_2026-07-23/build_manifest.py
+python3 udt_complete_metric_realization_zoomout_2026-07-23/verify_repository_gates.py
+```

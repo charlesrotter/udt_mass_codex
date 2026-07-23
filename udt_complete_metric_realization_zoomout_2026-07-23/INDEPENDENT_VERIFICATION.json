@@ -1,0 +1,40 @@
+{
+  "direct_source_semantic_replay": {
+    "checks": {
+      "bootstrap_representative_not_supplied": true,
+      "celestial_fiber_conditional": true,
+      "chart_bridge_not_native_carrier": true,
+      "component_hopf_not_frame_invariant": true,
+      "conditional_toric_completion_only": true,
+      "fiber_does_not_select_section": true,
+      "global_quotient_not_selected": true,
+      "hopfion_only_conditional_static": true,
+      "native_action_source_mass_open": true,
+      "realization_operation_absent": true,
+      "reciprocal_subbundle_not_selected": true
+    },
+    "method": "DIRECT_FROZEN_SOURCE_LEDGER_AND_REPORT_REPLAY",
+    "passed": 11,
+    "total": 11
+  },
+  "independent_controls": {
+    "celestial_rational_points": 3,
+    "hopf_polynomial_samples": 3,
+    "labeled_leg_changes": true,
+    "lorentz_metric_anchor": "PASS"
+  },
+  "maximum_conclusion_confirmed": "REGISTERED_COMPLETE_METRIC_REALIZATION_LAYERS_MAPPED__ANY_EXISTING_NATIVE_JOIN_IDENTIFIED_WITH_EXACT_SCOPE__MISSING_JOINS_REMAIN_OPEN",
+  "mutation_catches": {
+    "passed": 21,
+    "total": 21
+  },
+  "row_digests": {
+    "bootstrap": "8566e4fb272fb328a7dfd8222c4e85ef1f255c1545a483a03211547951a189a7",
+    "joins": "c28b16de58f401e5f5839ae3adddf2e6b528a859e508d314cde12c1d8ea113cc",
+    "layers": "b34f26a5b48ff6a17a66114731f28f0e89ac8cb31999d27d88f0d82395e36dc5",
+    "statuses": "45b2398e02f32ef410e4172368d4e3d850142da8e6b1b3142dbb7486c762c473"
+  },
+  "schema": "udt-complete-metric-realization-independent-v1",
+  "sources_checked": 47,
+  "status": "PASS"
+}

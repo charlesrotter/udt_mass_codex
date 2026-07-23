@@ -1,0 +1,8 @@
+{
+  "command": "/usr/bin/python3 -m pytest -q",
+  "exit_code": 0,
+  "failed": 0,
+  "passed": 70,
+  "schema": "udt-full-test-result-v1",
+  "xfailed": 1
+}

@@ -1,0 +1,78 @@
+{
+  "controls": {
+    "celestial_fiber": {
+      "conformal_null_form": "Omega**2*n1**2 + Omega**2*n2**2 + Omega**2*n3**2 - Omega**2",
+      "null_form": "n1**2 + n2**2 + n3**2 - 1",
+      "preferred_ray_selected": false,
+      "projectivized_future_null_rays": "S2_CONDITIONAL_ON_4D_LORENTZIAN_READOUT"
+    },
+    "lorentz_descent": {
+      "metric_residual": "ZERO_4X4",
+      "same_metric_different_labeled_leg": true,
+      "selected_leg_tensor_residual": [
+        [
+          "9/16",
+          "15/16",
+          "0",
+          "0"
+        ],
+        [
+          "15/16",
+          "9/16",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "winding_frame_control": {
+      "constant_components_can_acquire_hopf_map_under_winding_frame": true,
+      "hopf_norm_residual": "0",
+      "new_udt_physics_claimed": false
+    }
+  },
+  "counts": {
+    "bootstrap_ingredients": 8,
+    "joins": 12,
+    "layers": 12,
+    "native_end_to_end_bridges": 0,
+    "open_or_obstructed_joins": 7,
+    "status_rows": 14
+  },
+  "cpu_only": true,
+  "dependency_layers": [
+    "REPRESENTATION_DESCENT",
+    "GLOBAL_COMPLETION",
+    "REALIZATION",
+    "DEFORMATION_DYNAMICS_AND_MATTER"
+  ],
+  "maximum_conclusion": "REGISTERED_COMPLETE_METRIC_REALIZATION_LAYERS_MAPPED__ANY_EXISTING_NATIVE_JOIN_IDENTIFIED_WITH_EXACT_SCOPE__MISSING_JOINS_REMAIN_OPEN",
+  "new_physical_premises": 0,
+  "next_bounded_metric_representation_question": "Does the complete metric define an intrinsic frame-independent reduction, section, or bundle invariant carrying reciprocal/Hopf data, without choosing a coframe or carrier?",
+  "ordering_ruling": {
+    "controlling_first_conceptual_priority": "SOURCE_ONLY_REALIZATION_OPERATOR_AUDIT",
+    "different_mathematical_types": true,
+    "one_future_law_may_close_multiple_joins_jointly": true,
+    "strict_total_order_derived": false,
+    "this_package_completed_that_source_census": true
+  },
+  "schema": "udt-complete-metric-realization-zoomout-v1",
+  "source_count": 47,
+  "unification_tests": {
+    "reason_one": "global_completion_realization_and_dynamics_require_independent_typed_data",
+    "reason_two": "registered_bootstrap_has_no operation_output_existence_or_uniqueness",
+    "single_frame_independent_reciprocal_object_supplies_all_joins": false,
+    "single_registered_realization_rule_supplies_all_joins": false
+  }
+}
