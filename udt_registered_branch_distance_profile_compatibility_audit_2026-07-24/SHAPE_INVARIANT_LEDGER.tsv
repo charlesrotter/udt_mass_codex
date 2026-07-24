@@ -1,0 +1,4 @@
+profile	J2_equals_D2_over_D1_squared	J3_equals_D3_over_D1_cubed	constant_depth_rescaling_dependence
+PROJECTIVE_TANH	0	-2	NONE
+WRL_EXPONENTIAL	-1	1	NONE
+B19_ROUND_ALL_POSITIVE_KAPPA	0	-pi^2/4	NONE

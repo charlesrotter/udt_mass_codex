@@ -1,0 +1,4 @@
+registry	expected	observed	complete_clock_soldered_global_pair_witnesses	status
+finite_cell_completion_rows	12	12	0	REPLAYED_UNCHANGED
+equation_evidence_families	28	28	0	REPLAYED_UNCHANGED
+calculated_transnormal_controls	3	3	0	PROFILE_OVERLAY_COMPLETE

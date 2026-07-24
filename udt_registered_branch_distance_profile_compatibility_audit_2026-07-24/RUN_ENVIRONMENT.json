@@ -1,0 +1,21 @@
+{
+  "compute": "CPU_ONLY",
+  "cuda_visible_devices": "",
+  "independent": {
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 verify_profile_compatibility_independent.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "9b67e734ecc682a783563ad71cccfa00f5f064f338aa814533221a0561bc9299"
+  },
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "production": {
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 derive_profile_compatibility.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "4d6e2e96c8bd6a2aa40b646c7928443517deae9599f856f3eb556254bcc0d1b5"
+  },
+  "python": "3.10.12",
+  "python_executable": "/usr/bin/python3",
+  "schema": "udt-registered-branch-profile-compatibility-run-environment-1.0",
+  "sympy": "1.13.1"
+}

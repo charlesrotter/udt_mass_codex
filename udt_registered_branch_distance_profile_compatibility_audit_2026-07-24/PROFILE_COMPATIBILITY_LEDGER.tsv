@@ -1,0 +1,7 @@
+profile	normalized_D	B	origin_jet_1_2_3	endpoint_gap	phi_role	branch_match	ruling
+PROJECTIVE_TANH	tanh(phi)	cosh(phi)^4/Dmax^2	1;0;-2	2/(exp(2phi)+1)	projective reciprocal depth	NO_SELECTED_COMPLETE_BRANCH	AVAILABLE_PROJECTIVE_PHYSICAL_SOLDER_OPEN
+WRL_EXPONENTIAL	1-exp(-phi)	exp(2phi)/Dmax^2	1;-1;1	exp(-phi)	reciprocal clock depth	C_WRL_EXACT_LOCAL	CONDITIONAL_LOCAL_NOT_GLOBAL_PAIR_DIAMETER
+B19_ROUND_KAPPA_ONE	(2/pi)atan(sinh(2phi))	cosh(2phi)^2/b^2	4/pi;0;-16/pi	(4/pi)atan(exp(-2phi))	angular reciprocal depth	C_B19_ROUND_EXACT_CONDITIONAL	THIRD_DISTINCT_BOUNDED_PROFILE_CLOCK_UNSOLDERED
+FC12_OPEN	integral A(phi)dphi	1/A(phi)^2	PROFILE_DEPENDENT	PROFILE_DEPENDENT	angular reciprocal depth	COMPATIBLE_WITH_ANY_LISTED_PROFILE_BY_CHOOSING_A	CHOICE_COMPATIBILITY_NOT_SELECTION
+LINEAR_UNBOUNDED	not_bounded	1/L^2	1;0;0_after_L_normalization	none	control	NO_SELECTED_BRANCH	ADMISSIBLE_CONTROL
+FULLFRAME_UNBOUNDED	not_bounded	exp(-2phi)/L^2	1;1;1_after_L_normalization	none	conditional fullframe radial control	CONDITIONAL_CONTROL	UNBOUNDED_NOT_SELECTED
