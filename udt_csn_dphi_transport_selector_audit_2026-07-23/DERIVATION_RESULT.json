@@ -1,0 +1,97 @@
+{
+  "canonical_payload_sha256": "e9954e6f34bc11c2667534f4e71c58bb5ef26d4d2f1a0eb52cc5709bd000da65",
+  "checks_failed": [],
+  "checks_passed": 38,
+  "checks_total": 38,
+  "counterfamily": {
+    "connection_difference_between_lambda1_lambda2_nonzero_components": 10,
+    "connection_difference_nonzero_components_lambda1": 10,
+    "even_seal_normalized_witness": "f_lambda(phi)=lambda*phi^2",
+    "family": "h_f=exp(2 f(phi)) |s| g"
+  },
+  "date": "2026-07-23",
+  "interface": {
+    "nonnull": "h0 and A0 defined on each fixed-sign component",
+    "null": "h0 degenerate; A0 and normalized projector undefined",
+    "type_change": "must cross null or zero interface",
+    "zero_dphi": "no line; h0 zero"
+  },
+  "line_preservation": [
+    {
+      "coefficient_rank": 4,
+      "condition": "screen_shape_operator_is_scalar",
+      "epsilon": -1,
+      "shear_augmented_rank": 5,
+      "umbilic_augmented_rank": 4,
+      "umbilic_solution_B_cov": [
+        3,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "coefficient_rank": 4,
+      "condition": "screen_shape_operator_is_scalar",
+      "epsilon": 1,
+      "shear_augmented_rank": 5,
+      "umbilic_augmented_rank": 4,
+      "umbilic_solution_B_cov": [
+        -3,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "maximum_ruling_if_all_pass": "LOCAL_CSN_INVARIANT_CONNECTION_EXISTS_ON_NONNULL_DPHI; TORSION_FREE_SPLIT_PRESERVATION_IFF_UMBILIC; PROJECTED_METRIC_SPLIT_TRANSPORT_EXISTS_WITH_GENERIC_TORSION; NATURAL_AND_STABILIZER_FAMILIES_PREVENT_PHYSICAL_UNIQUENESS; NULL_ZERO_GLOBAL_EXTENSION_OPEN",
+  "projected_transport": [
+    {
+      "checks": {
+        "K_commutator": true,
+        "K_metric_skew": true,
+        "P_h_self_adjoint": true,
+        "P_idempotent": true,
+        "corrected_DP_zero": true,
+        "generic_torsion_nonzero": true,
+        "induced_3plus3_preserved": true,
+        "projector_derivative_identity": true,
+        "stabilizer_dimension_three": true
+      },
+      "epsilon": -1,
+      "screen_signature": [
+        1,
+        1,
+        1
+      ],
+      "stabilizer_connection_freedom_total": 12,
+      "stabilizer_dimension_per_tangent_direction": 3,
+      "torsion_nonzero_components": 14
+    },
+    {
+      "checks": {
+        "K_commutator": true,
+        "K_metric_skew": true,
+        "P_h_self_adjoint": true,
+        "P_idempotent": true,
+        "corrected_DP_zero": true,
+        "generic_torsion_nonzero": true,
+        "induced_3plus3_preserved": true,
+        "projector_derivative_identity": true,
+        "stabilizer_dimension_three": true
+      },
+      "epsilon": 1,
+      "screen_signature": [
+        -1,
+        1,
+        1
+      ],
+      "stabilizer_connection_freedom_total": 12,
+      "stabilizer_dimension_per_tangent_direction": 3,
+      "torsion_nonzero_components": 14
+    }
+  ],
+  "python": "3.10.12",
+  "schema": "udt-csn-dphi-transport-result-v1",
+  "sympy": "1.13.1"
+}

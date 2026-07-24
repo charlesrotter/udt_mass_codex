@@ -1,0 +1,86 @@
+{
+  "canonical_payload_sha256": "b8a2e9ff8a14c874ec73be39707b66de82d56a13ea2a20a2667cdd9d267d51e1",
+  "catch_proofs": {
+    "reject_deleted_counterfamily": true,
+    "reject_deleted_stabilizer_freedom": true,
+    "reject_failed_projected_transport": true,
+    "reject_incomplete_causal_census": true,
+    "reject_missing_h0_invariance": true,
+    "reject_nonunit_compensator": true,
+    "reject_physical_promotion": true,
+    "reject_shear_as_compatible": true,
+    "reject_silenced_torsion": true,
+    "reject_smooth_null_extension": true,
+    "reject_tractor_tangent_collapse": true,
+    "reject_wrong_Weyl_shift": true
+  },
+  "catch_proofs_failed": [],
+  "catch_proofs_passed": 12,
+  "catch_proofs_total": 12,
+  "checks": {
+    "affine_invariant": true,
+    "base_contract": true,
+    "counterfamily_inequivalent": true,
+    "h0_invariant": true,
+    "h0_unit": true,
+    "h_f_invariant": true,
+    "null_h0_degenerate": true,
+    "production_all_checks_pass": true,
+    "production_line_ranks_match": true,
+    "production_projected_counts_match": true,
+    "projected_induced_-1": true,
+    "projected_induced_1": true,
+    "projected_kato_-1": true,
+    "projected_kato_1": true,
+    "projected_metric_-1": true,
+    "projected_metric_1": true,
+    "projected_torsion_-1": true,
+    "projected_torsion_1": true,
+    "shear_obstructed_-1": true,
+    "shear_obstructed_1": true,
+    "stabilizer_-1": true,
+    "stabilizer_1": true,
+    "umbilic_exists_-1": true,
+    "umbilic_exists_1": true,
+    "unit_gradient_geodesic": true
+  },
+  "checks_failed": [],
+  "checks_passed": 25,
+  "checks_total": 25,
+  "date": "2026-07-23",
+  "implementation": "stdlib_fractions_no_production_import",
+  "independent_ruling": "EXISTENCE_OF_LOCAL_CSN_INVARIANT_NONNULL_CONNECTION_CONFIRMED; UMBILIC_TORSION_FREE_SPLIT_GATE_CONFIRMED; TORSIONFUL_PROJECTED_TRANSPORT_AND_RESIDUAL_FREEDOM_CONFIRMED; NO_UNIQUE_PHYSICAL_OR_INTERFACE_COMPLETE_TRANSPORT",
+  "line_preservation": [
+    {
+      "epsilon": -1,
+      "rank": 4,
+      "shear_augmented_rank": 5,
+      "umbilic_augmented_rank": 4
+    },
+    {
+      "epsilon": 1,
+      "rank": 4,
+      "shear_augmented_rank": 5,
+      "umbilic_augmented_rank": 4
+    }
+  ],
+  "production_result_sha256": "a4590dfb7f5ce931df750830518014939fcd6c6b8df6f44349fbfc9c844ee8ad",
+  "projected_transport": [
+    {
+      "induced_ok": true,
+      "kato_ok": true,
+      "metric_skew_ok": true,
+      "stabilizer_dim": 3,
+      "torsion_nonzero": 14
+    },
+    {
+      "induced_ok": true,
+      "kato_ok": true,
+      "metric_skew_ok": true,
+      "stabilizer_dim": 3,
+      "torsion_nonzero": 14
+    }
+  ],
+  "python": "3.10.12",
+  "schema": "udt-csn-dphi-independent-verification-v1"
+}
