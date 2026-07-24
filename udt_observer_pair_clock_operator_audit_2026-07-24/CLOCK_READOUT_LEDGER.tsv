@@ -1,0 +1,6 @@
+id	readout	formula	status	warning
+R01	named time-per-length channel	T(rho)=exp(-rho), rho>=0	DERIVED_CONDITIONAL_CHANNEL_CHARACTER	nonnegative radial/depth channel; not a signed endpoint-field theorem
+R02	reversal-even half trace	Gamma(delta)=Tr S(delta)/2=cosh(delta)	DERIVED_DIAGNOSTIC_INVARIANT	not a multiplicative channel and not invariant under independent endpoint frame choices
+R03	balanced-basis mutual slow factor	sech(delta)	CONDITIONAL_ON_PHYSICAL_K_READOUT_AND_ENDPOINT_OBSERVER_FRAMES	cannot replace the founding named temporal character
+R04	stationary lapse ratio	N(q)/N(p)=exp(-(phi_q-phi_p))	CONDITIONAL_ON_COMMON_STATIC_SLICING_AND_LOCAL_FIELD_JOIN	ordered ratio; one direction is inverse of the other, not mutual slowdown
+R05	coordinate covector transport	diag(exp(-Delta phi),exp(Delta phi))	DERIVED_IN_STATIC_DIAGONAL_CONTROL	physical orthonormal frame comparison is identity along the same spatial curve

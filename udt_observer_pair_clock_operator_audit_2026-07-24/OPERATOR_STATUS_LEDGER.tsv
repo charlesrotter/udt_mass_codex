@@ -1,0 +1,8 @@
+id	object	exact_result	status	remaining_gate
+O01	abstract ordered reciprocal pair operator	S(delta)=diag(exp(-delta),exp(delta)); K preserving; determinant one; composition and inverse exact	DERIVED_CONDITIONAL_WITH_FOUNDING_PREMISE_STAMPS	map an actual complete observer pair to additive depth
+O02	balanced-basis form	H^T S(delta) H=[[cosh(delta),-sinh(delta)],[-sinh(delta),cosh(delta)]]	DERIVED_ALGEBRAIC_O11_BOOST	K as physical observer interval readout is OPEN
+O03	endpoint local-field factorization	S(phi_p)^-1 S(phi_q)=S(phi_q-phi_p) and obeys the pair-groupoid cocycle	DERIVED_IDENTITY_GIVEN_OPEN_PAIR_TO_LOCAL_FIELD_JOIN	current ontology labels delta(p,q)=phi(q)-phi(p) OPEN
+O04	metric covector transport in static diagonal reciprocal control	spatial coordinate-covector transport equals S(phi_q-phi_p)	DERIVED_IN_EXACT_CONTROL	coordinate covector scaling is not automatically observer clock readout
+O05	physical orthonormal coframe under the same spatial transport	the transported endpoint coframe equals the local endpoint coframe; relative orthonormal transform is identity	DERIVED_IN_EXACT_CONTROL	clock comparison requires declared slicing/event pairing or another physical readout
+O06	complete metric path transporter	Levi-Civita transport exists for each supplied path and reverses by inversion	DERIVED_PER_METRIC_AND_PATH	complete branch reciprocal subbundle path family and endpoint frames
+O07	global physical observer-pair clock operator	not evaluable from current complete-branch census	OPEN_TYPED_GLOBAL_JOIN	pair depth plus event pairing and full angular/holonomy treatment

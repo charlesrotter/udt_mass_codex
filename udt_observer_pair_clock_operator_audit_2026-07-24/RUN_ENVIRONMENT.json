@@ -1,0 +1,21 @@
+{
+  "compute": "CPU_ONLY",
+  "cuda_visible_devices": "",
+  "independent": {
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 verify_observer_pair_clock_operator_independent.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "3297842b584c9cf351ffe94fe2f93df98d1940f873a6bdf5574f1304b152d6ec"
+  },
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "production": {
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 derive_observer_pair_clock_operator.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "16dd9060b5a8d82d13316d12a92985695942ba8b98115762ee10647f2776f7ac"
+  },
+  "python": "3.10.12",
+  "python_executable": "/usr/bin/python3",
+  "schema": "udt-observer-pair-clock-operator-run-environment-1.0",
+  "sympy": "1.13.1"
+}

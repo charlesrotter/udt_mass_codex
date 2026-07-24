@@ -1,0 +1,6 @@
+id	representation	spatial_transport	physical_meaning	ruling
+T01	coordinate vectors	diag(exp(Delta phi),exp(-Delta phi))	inverse dual of covector transport	NOT_THE_FOUNDING_COVECTOR_OPERATOR
+T02	coordinate covectors	diag(exp(-Delta phi),exp(Delta phi))	matches the founding reciprocal matrix in the exact control	TYPE_MATCHED_CONTROL_EQUALITY
+T03	orthonormal physical coframe	identity	endpoint physical coframes are parallel along the rest-slice path	NO_SPATIAL_BOOST_IN_EXACT_CONTROL
+T04	stationary lapse comparison	not a parallel-transport observable	proper-clock ratio relative to a common coordinate slicing	SEPARATE_CONDITIONAL_READOUT
+T05	generic complete coframe	path-ordered full connection with boost and rotation mixing	metric-derived per path	PATH_AND_ENDPOINT_FRAME_DEPENDENT

@@ -1,0 +1,8 @@
+gate	result	basis
+founding reciprocal operator	PASS	C0/C1 pair algebra
+local phi endpoint realization	OPEN	O07 in current phi ontology ledger
+static diagonal metric covector match	PASS_BOUNDED_CONTROL	exact Christoffel and dual transport
+physical orthonormal spatial boost	NO_IN_CONTROL	spin-connection pullback vanishes
+unique scalar mutual clock readout	OPEN	named channel and balanced invariant have different types
+global path-independent full operator	OPEN	complete branch subbundle holonomy and cut-locus joins absent
+physical Xmax mass or CMB	NOT_IN_SCOPE	no promotion
