@@ -1,0 +1,148 @@
+{
+  "angular_countercontrol": {
+    "common_clock_law": "exp(phi)=1/(1-ell/L)",
+    "completion_one_diameter_squared": "L**2*(1 + 2*pi**2)",
+    "completion_two_diameter_squared": "L**2*(1 + 5*pi**2)",
+    "difference": "3*pi**2*L**2"
+  },
+  "check_count": 39,
+  "checks": {
+    "angular_completion_changes_diameter": "PASS",
+    "boost_gamma_identity": "PASS",
+    "boosted_clock_horizontal_span": "PASS",
+    "bounded_exponential_local_slope": "PASS",
+    "bounded_exponential_origin": "PASS",
+    "bounded_exponential_proper_pullback": "PASS",
+    "bounded_profile_controls_are_distinct": "PASS",
+    "bounded_tanh_local_slope": "PASS",
+    "bounded_tanh_origin": "PASS",
+    "bounded_tanh_proper_pullback": "PASS",
+    "complete_horizontal_pullback_00": "PASS",
+    "complete_horizontal_pullback_01": "PASS",
+    "complete_horizontal_pullback_02": "PASS",
+    "complete_horizontal_pullback_10": "PASS",
+    "complete_horizontal_pullback_11": "PASS",
+    "complete_horizontal_pullback_12": "PASS",
+    "complete_horizontal_pullback_20": "PASS",
+    "complete_horizontal_pullback_21": "PASS",
+    "complete_horizontal_pullback_22": "PASS",
+    "constant_common_scale_changes_distance": "PASS",
+    "finite_asymptote_not_forced_by_reciprocal_block": "PASS",
+    "fixed_metric_four_readings_distinct": "PASS",
+    "horizontal_depth_norm_inverse_metric": "PASS",
+    "horizontal_metric_determinant": "PASS",
+    "positive_power_depth_endpoint": "PASS",
+    "projective_from_clock": "PASS",
+    "same_local_calibration_different_bounded_shapes": "PASS",
+    "unbounded_linear_local_slope": "PASS",
+    "unbounded_linear_origin": "PASS",
+    "unbounded_linear_proper_pullback": "PASS",
+    "unit_eikonal_from_transnormal_norm": "PASS",
+    "wrl_coordinate_from_A": "PASS",
+    "wrl_metric_distance": "PASS",
+    "wrl_metric_distance_derivative": "PASS",
+    "wrl_metric_distance_endpoint": "PASS",
+    "wrl_metric_distance_not_projective_tanh": "PASS",
+    "wrl_optical_from_A": "PASS",
+    "wrl_proper_from_A": "PASS",
+    "wrl_spatial_depth_norm": "PASS"
+  },
+  "complete_horizontal_metric": {
+    "depth_norm_B": "(Q**2*R**2*U**2*a21**2*p2**2 + 2*Q**2*R**2*U**2*a21*a31*p2*p3 - 2*Q**2*R**2*U**2*a21*p1*p2 + Q**2*R**2*U**2*a31**2*p3**2 - 2*Q**2*R**2*U**2*a31*p1*p3 + Q**2*R**2*U**2*p1**2 - 2*Q**2*R**2*U*a20*a21*b*p2**2 - 2*Q**2*R**2*U*a20*a31*b*p2*p3 + 2*Q**2*R**2*U*a20*b*p1*p2 - 2*Q**2*R**2*U*a21*a30*b*p2*p3 + 2*Q**2*R**2*U*a21*b*p0*p2 - 2*Q**2*R**2*U*a30*a31*b*p3**2 + 2*Q**2*R**2*U*a30*b*p1*p3 + 2*Q**2*R**2*U*a31*b*p0*p3 - 2*Q**2*R**2*U*b*p0*p1 + Q**2*R**2*a20**2*b**2*p2**2 + 2*Q**2*R**2*a20*a30*b**2*p2*p3 - 2*Q**2*R**2*a20*b**2*p0*p2 + Q**2*R**2*a30**2*b**2*p3**2 - 2*Q**2*R**2*a30*b**2*p0*p3 + Q**2*R**2*b**2*p0**2 + Q**2*U**2*W**2*p2**2 + R**2*U**2*W**2*p3**2 - 2*R*U**2*W**2*e*p2*p3 + U**2*W**2*e**2*p2**2)/(Q**2*R**2*U**2*W**2)",
+    "determinant": "Q**2*R**2*W**2",
+    "k2": "-(-R*U*a21 + R*a20*b - U*a31*e + a30*b*e)/U",
+    "k3": "-Q*(-U*a31 + a30*b)/U",
+    "metric": [
+      [
+        "(Q**2*U**2*a31**2 - 2*Q**2*U*a30*a31*b + Q**2*a30**2*b**2 + R**2*U**2*a21**2 - 2*R**2*U*a20*a21*b + R**2*a20**2*b**2 + 2*R*U**2*a21*a31*e - 2*R*U*a20*a31*b*e - 2*R*U*a21*a30*b*e + 2*R*a20*a30*b**2*e + U**2*W**2 + U**2*a31**2*e**2 - 2*U*a30*a31*b*e**2 + a30**2*b**2*e**2)/U**2",
+        "-R*(-R*U*a21 + R*a20*b - U*a31*e + a30*b*e)/U",
+        "-(-Q**2*U*a31 + Q**2*a30*b - R*U*a21*e + R*a20*b*e - U*a31*e**2 + a30*b*e**2)/U"
+      ],
+      [
+        "-R*(-R*U*a21 + R*a20*b - U*a31*e + a30*b*e)/U",
+        "R**2",
+        "R*e"
+      ],
+      [
+        "-(-Q**2*U*a31 + Q**2*a30*b - R*U*a21*e + R*a20*b*e - U*a31*e**2 + a30*b*e**2)/U",
+        "R*e",
+        "Q**2 + e**2"
+      ]
+    ],
+    "spatial_coframe": [
+      [
+        "W",
+        "0",
+        "0"
+      ],
+      [
+        "-(-R*U*a21 + R*a20*b - U*a31*e + a30*b*e)/U",
+        "R",
+        "e"
+      ],
+      [
+        "-Q*(-U*a31 + a30*b)/U",
+        "0",
+        "Q"
+      ]
+    ]
+  },
+  "maximum_conclusion": "THE_COMPLETE_COFRAME_DERIVES_AN_EXACT_TRANSNORMAL_DISTANCE_AND_ASYMPTOTE_TEST;THE_CURRENT_CONFIGURATION_PARENT_DOES_NOT_SELECT_THE_REQUIRED_COMPLETE_BRANCH,CLOCK_LEG,EVENT_PAIRING,OR_GLOBAL_DIAMETER_JOIN",
+  "observer_and_scale_controls": {
+    "beta": "3/5",
+    "boosted_horizontal_span": "4*L/5",
+    "constant_common_scale": "D -> Omega D",
+    "gamma": "5/4",
+    "original_horizontal_span": "L"
+  },
+  "profile_family": {
+    "bounded_exponential": {
+      "D_over_X": "1 - exp(-phi)",
+      "dr_dphi_over_X": "exp(-2*phi)",
+      "endpoint_D_over_X": "1"
+    },
+    "bounded_tanh": {
+      "D_over_X": "tanh(phi)",
+      "dr_dphi_over_X": "exp(-phi)/cosh(phi)**2",
+      "endpoint_D_over_X": "1"
+    },
+    "unbounded_linear": {
+      "D_over_X": "phi",
+      "dr_dphi_over_X": "exp(-phi)",
+      "endpoint_D_over_X": "oo"
+    }
+  },
+  "schema": "udt-metric-native-observer-separation-asymptote-1.0",
+  "sympy_version": "1.13.1",
+  "transnormal_distance": {
+    "asymptote": "X_phi=int_phi0^infinity dphi/sqrt(B(phi))",
+    "criterion": "B=h_u^{-1}(dphi,dphi)=B(phi)>0",
+    "law": "dD/dphi=1/sqrt(B(phi))",
+    "power_control": "B=C^2*exp(2*alpha*phi), alpha>0 => X_phi=1/(C*alpha)",
+    "wrl_B": "exp(2*phi)/(4*X**2)",
+    "wrl_D": "2*X - 2*X*exp(-phi)",
+    "wrl_endpoint": "2*X"
+  },
+  "wrl_readings": {
+    "coordinate_areal_r": {
+      "endpoint_over_X": "1",
+      "expression": "X*(1 - exp(-2*phi))",
+      "value_over_X_at_T_equal_2": "3/4"
+    },
+    "optical_depth": {
+      "endpoint_over_X": "oo",
+      "expression": "2*X*phi",
+      "value_over_X_at_T_equal_2": "log(4)"
+    },
+    "projective_tanh": {
+      "endpoint_over_X": "1",
+      "expression": "X*tanh(phi)",
+      "value_over_X_at_T_equal_2": "tanh(log(2))"
+    },
+    "slice_proper_ell": {
+      "endpoint_over_X": "2",
+      "expression": "2*X*(1 - exp(-phi))",
+      "value_over_X_at_T_equal_2": "1"
+    }
+  }
+}
