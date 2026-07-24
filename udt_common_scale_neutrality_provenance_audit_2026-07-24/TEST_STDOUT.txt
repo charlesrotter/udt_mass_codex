@@ -1,0 +1,4 @@
+.........................................................x.............  [100%]
+=========================== short test summary info ============================
+XFAIL tests/test_solution_space_gate.py::test_no_habit_pins - known HABIT pins (silent G/P fork; charge-1 core pin) are not yet freed or justified to THEORY; XPASSes when the matter sector is freed.
+70 passed, 1 xfailed in 1.63s

@@ -1,0 +1,48 @@
+{
+  "catch_count": 10,
+  "catches": [
+    {
+      "catch": "postulate_promoted_to_derived",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch": "fixed_K_allows_arbitrary_A",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch": "c_claimed_to_select_length",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch": "representative_claimed_selected",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch": "C2_premise_dropped",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch": "EH_promoted",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch": "source_check_removed",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch": "production_count_corrupted",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch": "strong_CSN_left_unchallenged",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch": "common_factor_called_gauge_derived",
+      "result": "PASS_REJECTED"
+    }
+  ],
+  "independent_method": "stdlib fixed-number matrix and dimensional reconstruction",
+  "production_result_sha256": "1c086c12110025e54d9e0b471155285d7e1d7006f86f746de89e478650c7abc1",
+  "status": "PASS"
+}

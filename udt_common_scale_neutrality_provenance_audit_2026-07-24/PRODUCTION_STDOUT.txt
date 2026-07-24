@@ -1,0 +1,56 @@
+{
+  "algebra": {
+    "P": "A*diag(exp(-phi),exp(phi))",
+    "P_transpose_K_P": "A^2*K",
+    "clock_length_ratio_under_common_rescaling": "unchanged",
+    "constant_Omega_C2_density_weight": "1",
+    "constant_Omega_EH_density_weight": "Omega^2",
+    "det_P": "A^2",
+    "fixed_K_positive_A": "1",
+    "length_from_c_and_G_alone": "NO_MONOMIAL_SOLUTION",
+    "metric_block": "A^2*diag(-exp(-2phi),exp(2phi))",
+    "nonconstant_flat_control_R_tilde": "-6*k^2*exp(-2*k*x)"
+  },
+  "environment": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "maximum_conclusion": "STRONG_LOCAL_CSN_IS_AN_EXPLICIT_OWNER_POSTULATE_NOT_A_RECIPROCITY_THEOREM;OBSERVED_C_PRESERVES_THE_RATIO_BUT_DOES_NOT_ALONE_SELECT_THE_COMMON_FACTOR;CSN_DEPENDENT_RESULTS_REQUIRE_REGRADING_IF_THE_POSTULATE_IS_WITHDRAWN_OR_WEAKENED",
+  "production_check_count": 20,
+  "production_checks": {
+    "R01_reciprocal_D_preserves_fixed_K": true,
+    "R02_general_common_factor_scales_K": true,
+    "R03_fixed_K_positive_solution_is_A1": true,
+    "R04_common_factor_changes_metric": true,
+    "R05_common_factor_changes_determinant": true,
+    "R06_common_rescaling_preserves_clock_length_ratio": true,
+    "R07_volume_weight_is_Omega4": true,
+    "R08_scalar_curvature_constant_weight_is_Omega_minus2": true,
+    "R09_EH_density_has_constant_weight_two": true,
+    "R10_C2_density_has_constant_weight_zero": true,
+    "R11_nonconstant_Omega_changes_flat_scalar_curvature": true,
+    "R12_c_and_G_alone_supply_no_length_monomial": true,
+    "S01_CSN_is_explicitly_a_postulate": true,
+    "S02_CSN_declares_factor_calibrational": true,
+    "S03_CSN_scope_is_local_Omega_x": true,
+    "S04_reciprocity_derives_uv1": true,
+    "S05_reciprocity_does_not_derive_scale_X": true,
+    "S06_cold_packet_keeps_CSN_founding": true,
+    "S07_cold_packet_uses_declaration_not_derivation": true,
+    "S08_no_current_representative_selector": true
+  },
+  "rulings": {
+    "C2_Bach": "UNIQUE_CONDITIONAL_IF_STRONG_LOCAL_CSN_IS_RETAINED",
+    "EH": "CONDITIONAL_NOT_SELECTED",
+    "c_absolute_length_selection": "NOT_DERIVED",
+    "common_factor_from_reciprocity": "FIXED_IN_EXACT_K_PRESERVING_COMPARISON_NOT_GAUGE_DERIVED",
+    "observed_c": "OBSERVED_TIME_LENGTH_CONVERSION_ANCHOR",
+    "physical_representative": "OPEN_SELECTOR",
+    "reciprocity": "FOUNDING_WITH_DETERMINANT_ONE_COMPARISON_DERIVED",
+    "scale_free_UDT_core": "CONDITIONAL_ON_STRONG_LOCAL_CSN",
+    "strong_local_CSN": "OWNER_POSTULATE_NOT_DERIVED_FROM_RECIPROCITY_CURRENTLY_CHALLENGED",
+    "weak_unit_freedom": "CALIBRATIONAL"
+  },
+  "status": "PASS"
+}
+results_sha256=1c086c12110025e54d9e0b471155285d7e1d7006f86f746de89e478650c7abc1

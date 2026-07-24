@@ -1,0 +1,11 @@
+catch	result
+postulate_promoted_to_derived	PASS_REJECTED
+fixed_K_allows_arbitrary_A	PASS_REJECTED
+c_claimed_to_select_length	PASS_REJECTED
+representative_claimed_selected	PASS_REJECTED
+C2_premise_dropped	PASS_REJECTED
+EH_promoted	PASS_REJECTED
+source_check_removed	PASS_REJECTED
+production_count_corrupted	PASS_REJECTED
+strong_CSN_left_unchallenged	PASS_REJECTED
+common_factor_called_gauge_derived	PASS_REJECTED

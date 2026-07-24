@@ -1,0 +1,10 @@
+{
+  "base": "c171b052ad321df7d71832cfa35403f07108d61e",
+  "compute": "CPU_ONLY",
+  "gpu_used": false,
+  "platform": "Linux",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "sympy_dependency": "sympy==1.13.1",
+  "worktree": "/tmp/udt_phi_ontology_XvSL3D/repo"
+}

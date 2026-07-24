@@ -1,0 +1,5 @@
+base=c171b052ad321df7d71832cfa35403f07108d61e
+source_count=1421
+mandatory_count=29
+load_bearing_count=29
+total_query_hits=18612

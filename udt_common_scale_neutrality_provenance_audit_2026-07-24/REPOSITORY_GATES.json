@@ -1,0 +1,146 @@
+{
+  "authority_boundary": {
+    "action_selected": false,
+    "canon_changed": false,
+    "carrier_or_source_selected": false,
+    "density_or_mass_solve": false,
+    "gpu_work": false,
+    "historical_or_frozen_changed": false,
+    "physical_metric_selected": false,
+    "repository_reorganization": false,
+    "startup_controls_changed": false
+  },
+  "base": "c171b052ad321df7d71832cfa35403f07108d61e",
+  "catch_proofs": {
+    "current_paths": "PASS",
+    "dirty": "PASS",
+    "frontier": "PASS",
+    "frozen": "PASS",
+    "package": "PASS",
+    "science_c2": "PASS",
+    "science_csn": "PASS",
+    "science_source": "PASS",
+    "scope": "PASS"
+  },
+  "dirty_checkout": {
+    "branch": "grok",
+    "contents_read": false,
+    "head": "adf8f92d95c387cc647f04b16f1f3b17e1e670d2",
+    "metadata_sha256": "4bc96070c841a14c497b642ee7b93dcf9061372f770aee065d6b495ee4996f4c",
+    "paths": 54,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 33,
+    "manifest_sha256": "48a4802452a956f8a6e5928350388663f2f1ba5cb2646a881e7ef8f6bcd26c85",
+    "result": "PASS"
+  },
+  "result": "PASS",
+  "schema": "udt-common-scale-neutrality-provenance-repository-gates-v1",
+  "science": {
+    "deterministic_replay": "BYTE_IDENTICAL",
+    "independent_catches": 10,
+    "independent_stdout_sha256": "9b0405e44ba12b1c5bfa69a093be225a793d27eb823528402cd728b58f8ee9e7",
+    "load_bearing_claim_rows": 23,
+    "mandatory_load_bearing_paths": 29,
+    "production_checks": 20,
+    "production_stdout_sha256": "e0d957da33dc28eaf651991e63579e51d2cd8799f213ca518688f45f01a36b68",
+    "query_hits": 18612,
+    "result": "PASS",
+    "sources": 1421
+  },
+  "scope_paths": [
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/AUDIT_REPORT.md",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/CATCH_PROOF_RESULTS.tsv",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/COMMANDS.txt",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/DOWNSTREAM_IMPACT_LEDGER.tsv",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/EXACT_DERIVATION.md",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/FALSIFICATION_CONTRACT.tsv",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/FOUR_GATES.md",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/INDEPENDENT_RESULTS.json",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/INDEPENDENT_STDERR.txt",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/INDEPENDENT_STDOUT.txt",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/LAY_REPORT.md",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/LOAD_BEARING_SOURCE_LEDGER.tsv",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/NEXT_STEP.md",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/OWNER_CORRECTION_RECORD.md",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/PREMISE_LEDGER.tsv",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/PREREGISTRATION.md",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/PRODUCTION_STDERR.txt",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/PRODUCTION_STDOUT.txt",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/REPOSITORY_GATES.json",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/RESULTS.json",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/RUN_ENVIRONMENT.json",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/SHA256SUMS.txt",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/SOURCE_CENSUS.tsv",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/SOURCE_CENSUS_STDOUT.txt",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/SOURCE_MANIFEST.tsv",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/STATUS_LEDGER.tsv",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/TEST_STDERR.txt",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/TEST_STDOUT.txt",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/VERIFICATION_REPORT.md",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/build_manifest.py",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/build_source_census.py",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/derive_csn_provenance.py",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/requirements.txt",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/verify_csn_provenance_independent.py",
+    "udt_common_scale_neutrality_provenance_audit_2026-07-24/verify_repository_gates.py"
+  ],
+  "tests": {
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest -q tests/",
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "stdout_sha256": "445101fb74f1621482e36058b52ec3aec0e5335d38e69f0d790c6ea1539d8028",
+    "xfailed": 1
+  }
+}

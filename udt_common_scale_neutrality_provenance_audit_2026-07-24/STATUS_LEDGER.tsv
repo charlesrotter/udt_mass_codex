@@ -1,0 +1,25 @@
+id	object	prior_status	current_audit_status	reason
+S01	Reciprocal-c Identity	FOUNDING	FOUNDING_RETAINED	Owner challenge concerns common scale not the coequal c and c^-1 conversion directions
+S02	Dual UDT Reciprocity	FOUNDING	FOUNDING_RETAINED	Exact K-pairing premise retained
+S03	uv=1 for exact reciprocal comparison	DERIVED	DERIVED_RETAINED	P transpose K P equals K
+S04	Reciprocal exponential characters	DERIVED_CONDITIONAL	DERIVED_CONDITIONAL_RETAINED	Composition regularity nontriviality and sign/unit premises unchanged
+S05	Observed c_E	OBSERVED_ANCHOR	OBSERVED_ANCHOR_RETAINED	Physical time-length conversion; not an absolute length by itself
+S06	Observed G_obs	OBSERVED_ANCHOR	OBSERVED_ANCHOR_RETAINED	Physical gravitational normalization; placement in native law open
+S07	Weak global unit freedom	CALIBRATIONAL	CALIBRATIONAL_RETAINED	Changing measurement units is not a local Weyl gauge theorem
+S08	Strong local CSN	FOUNDING_OWNER_LOCKED	CHALLENGED_OWNER_POSTULATE_NOT_DERIVED	Exact source says declares; reciprocal derivation does not derive Omega(x) equivalence
+S09	Scale-free physical UDT core	FOUNDING_LAYER	CONDITIONAL_ON_STRONG_LOCAL_CSN	No independent theorem establishes the layer
+S10	Physical metric representative	OPEN_SELECTOR	OPEN_ON_STRONG_CSN_BRANCH_OR_PRIMARY_IF_CSN_WITHDRAWN	A selector is required only if strong CSN is retained as physical equivalence
+S11	Calibrated ordinary-regime metric	WORKING_OBSERVATIONAL_LAYER	OBSERVED_WORKING_NOT_FULLY_DERIVED	c_E and G_obs calibrate readings but complete UDT-to-GR reduction is open
+S12	C2/Bach physical action route	UNIQUE_CONDITIONAL	UNIQUE_CONDITIONAL_ONLY_IF_STRONG_CSN_RETAINED	Class theorem survives; physical applicability loses its founding premise
+S13	EH physical action route	CONDITIONAL	CONDITIONAL_NOT_SELECTED	Removing strong CSN removes the representative-first blocker but does not derive EH
+S14	Two-stage C2-to-EH bridge	OPEN	OPEN_AND_POSSIBLY_SUPERFLUOUS_IF_NO_PRE_SCALE_STAGE	Derivative-order matching remains open if route retained
+S15	Current bootstrap representative map	OPEN_NOT_SUPPLIED	OPEN_NOT_SUPPLIED	No map found; may cease to be required if physical metric is primary
+S16	c_E and G_obs determine absolute size	NOT_DERIVED	NOT_DERIVED	Need native mass density curvature boundary or another scale-bearing output
+S17	Conformal causal cones	DERIVED_CONDITIONAL	DERIVED_MATHEMATICAL_INVARIANCE	Conformal rescaling preserves cones but not proper intervals
+S18	CSN-normalized h0 transport	DERIVED_CONDITIONAL	CONDITIONAL_NORMALIZATION_CONSTRUCTION	Exact algebra survives; physical pre-scale status depends on strong CSN
+S19	Intrinsic dphi reciprocal 3+3 split	DERIVED_NONNULL_DPHI	DERIVED_NONNULL_DPHI_RETAINED	Can be formed from one physical metric and dphi without quotienting scale
+S20	Normalized angular shape and dual systole	DERIVED_WHERE_TORIC	DERIVED_GEOMETRIC_SHAPE_RETAINED	Common-factor cancellation is an identity not proof that factor is gauge
+S21	Conditional toric/Hopf topology	CONDITIONAL	CONDITIONAL_RETAINED	Topological class is scale-insensitive; endpoint regularity and dynamics still need physical scale
+S22	WR-L/SNe scoped readout	OBSERVED_CONDITIONAL	OBSERVED_CONDITIONAL_RETAINED	Uses a supplied physical representative; no reliance on physical equivalence of its conformal orbit
+S23	Static finite-box Hopfion	SETTLED_STATIC_FINITE_BOX_CONDITIONAL	SETTLED_STATIC_FINITE_BOX_CONDITIONAL_RETAINED	Carrier action box and scale premises already explicit
+S24	Complete action/source/boundary/mass	OPEN	OPEN	No closure follows from CSN correction
