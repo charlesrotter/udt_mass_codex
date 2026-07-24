@@ -1,0 +1,21 @@
+{
+  "compute": "CPU_ONLY",
+  "cuda_visible_devices": "",
+  "independent": {
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 verify_clock_angular_solder_independent.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "db795518a9d7a63156def1999ee3ca62ed2acddf50cf88023f80ebe26611dc33"
+  },
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "production": {
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 derive_clock_angular_solder.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "a87f91c720af61f897646a8b7aa902c04772f48b1411139962870d65877f0513"
+  },
+  "python": "3.10.12",
+  "python_executable": "/usr/bin/python3",
+  "schema": "udt-clock-angular-solder-run-environment-1.0",
+  "sympy": "1.13.1"
+}

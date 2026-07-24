@@ -1,0 +1,6 @@
+quantity	exact_law	selected	consequence
+lapse	N=C(phi)*exp(-phi)	NO	clock_dilation_requires_endpoint_limit_of_C_exp_minus_phi
+depth_coframe	A=ell*C(phi)*exp(phi)	NO	Dprime=A
+clock_depth_ratio	A/N=ell*exp(2phi)	YES_CONDITIONAL_FIXED_PAIRING	profile_C_cancels_from_ratio
+finite_positive_endpoint	integral_phi0_to_infinity ell*C(phi)*exp(phi)dphi	NO	finite_only_for_integrable_weight
+angular_global_diameter	requires_R_caps_lattice_and_event_pairing	NO	cannot_promote_depth_endpoint_to_Xmax

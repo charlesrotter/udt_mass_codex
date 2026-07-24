@@ -1,0 +1,6 @@
+family_id	cap	lapse_power_in_proper_cap_radius	leading_DeltaN_over_N	leading_scalar_curvature_pole	regularity
+F01	PHI_TO_MINUS_INFINITY_ETA_TO_ZERO	-1/(2*kappa)	1/(4*kappa^2*rho^2)	-1/(2*kappa^2*rho^2)	CURVATURE_SINGULAR_ALL_FINITE_KAPPA_POSITIVE
+F01	PHI_TO_PLUS_INFINITY_ETA_TO_PI_OVER_2	+1/(2*kappa)	1/(4*kappa^2*rho^2)	-1/(2*kappa^2*rho^2)	CURVATURE_SINGULAR_ALL_FINITE_KAPPA_POSITIVE
+F02	PHI_TO_MINUS_INFINITY_ETA_TO_ZERO	1-1/kappa	(1-1/kappa)^2/rho^2	-2*(1-1/kappa)^2/rho^2	REGULAR_LAPSE_POWER_ONLY_AT_KAPPA_ONE_OTHERWISE_SINGULAR
+F02	PHI_TO_PLUS_INFINITY_ETA_TO_PI_OVER_2	1+1/kappa	(1+1/kappa)^2/rho^2	-2*(1+1/kappa)^2/rho^2	CURVATURE_SINGULAR_ALL_FINITE_KAPPA_POSITIVE
+F03	BOTH_ORIGINAL_ROUND_CAPS	F01_power_unchanged_by_smooth_positive_nonzero_Omega	F01_pole_plus_finite_conformal_terms	Omega_cap^-2_times_F01_pole	CURVATURE_SINGULAR_IF_PHYSICAL_METRIC_RETAINS_BOTH_CAPS

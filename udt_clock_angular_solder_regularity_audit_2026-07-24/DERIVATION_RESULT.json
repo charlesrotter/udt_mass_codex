@@ -1,0 +1,102 @@
+{
+  "F01": {
+    "N": "tan(eta)^(-1/(2*kappa))",
+    "minus_cap_power": "-1/(2*kappa)",
+    "plus_cap_power": "1/(2*kappa)",
+    "scalar_curvature": "6/b^2-2/(b^2*kappa^2*sin(2eta)^2)",
+    "two_cap_regular": false
+  },
+  "F02": {
+    "C": "sech(2*kappa*phi)*exp(-phi)",
+    "N": "sech(2*kappa*phi)*exp(-2phi)",
+    "minus_cap_power": "(kappa - 1)/kappa",
+    "minus_regular_kappa": "1",
+    "plus_cap_power": "(kappa + 1)/kappa",
+    "plus_regular_kappa": "NONE_FINITE_POSITIVE",
+    "scalar_curvature": "2*(3*kappa**2*sin(2*eta)**2 - 4*kappa**2*cos(4*eta) + 8*kappa*cos(2*eta) - 4)/(b**2*kappa**2*sin(2*eta)**2)",
+    "two_cap_regular": false
+  },
+  "F03": {
+    "factor_zero_or_pole": "CHANGES_COMPLETION_OPEN",
+    "smooth_positive_nonzero_common_factor": "LEADING_F01_POLE_PERSISTS"
+  },
+  "F04": {
+    "A_over_N": "ell*exp(2phi)",
+    "B": "exp(-2phi)/(ell^2*C(phi)^2)",
+    "Dprime": "ell*C(phi)*exp(phi)",
+    "global_diameter": "OPEN"
+  },
+  "check_count": 37,
+  "checks": {
+    "F01_laplacian_ratio": "PASS",
+    "F01_minus_p_nonzero": "PASS",
+    "F01_plus_p_nonzero": "PASS",
+    "F01_scalar_curvature": "PASS",
+    "F02_common_amplitude": "PASS",
+    "F02_kappa_one_lapse_eta": "PASS",
+    "F02_kappa_one_neutral_lapse": "PASS",
+    "F02_laplacian_ratio": "PASS",
+    "F02_lapse_phi": "PASS",
+    "F02_log_derivative": "PASS",
+    "F02_minus_regular_only_kappa_one": "PASS",
+    "F02_plus_never_regular": "PASS",
+    "F04_depth_clock_ratio": "PASS",
+    "F04_distance_derivative_positive_branch": "PASS",
+    "F04_pair_volume_character_cancels": "PASS",
+    "F04_transnormal_B": "PASS",
+    "angular_pair_character_cancels": "PASS",
+    "complete_character_determinant_one": "PASS",
+    "family_ids_exact": "PASS",
+    "fixed_K_opposite_characters": "PASS",
+    "fixed_K_same_sign_rejected": "PASS",
+    "generic_pair_edges": "PASS",
+    "kappa_one_pairing_degeneracy": "PASS",
+    "ordinary_round_neutral_A": "PASS",
+    "ordinary_round_neutral_eta": "PASS",
+    "round_depth_derivative": "PASS",
+    "round_first_angular_leg": "PASS",
+    "round_second_angular_leg": "PASS",
+    "six_registered_families": "PASS",
+    "source_S01_identity": "PASS",
+    "source_S02_identity": "PASS",
+    "source_S03_identity": "PASS",
+    "source_S04_identity": "PASS",
+    "source_S05_identity": "PASS",
+    "source_S06_identity": "PASS",
+    "source_S07_identity": "PASS",
+    "source_S08_identity": "PASS"
+  },
+  "compact_same_scalar_pass_count": 0,
+  "family_count": 6,
+  "global_ruling": "NO_REGULAR_TWO_PRIMITIVE_CAP_SAME_SCALAR_SOLDER_IN_BOUNDED_STATIC_DIAGONAL_FIXED_PAIRING_CLASS;OPEN_AND_F06_REALIZATIONS_REMAIN_OPEN",
+  "pairing": {
+    "generic_fixed_pairing_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "generic_weights": "-1,+1,-kappa,+kappa",
+    "kappa_one_extra_pairing_edges": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "round_control": {
+    "A": "b*kappa*sech(2*kappa*phi)",
+    "R": "b/sqrt(2*cosh(2*kappa*phi))",
+    "coordinate": "tan(eta)=exp(2*kappa*phi)"
+  },
+  "schema": "udt-clock-angular-solder-regularity-1.0",
+  "sympy_version": "1.13.1"
+}

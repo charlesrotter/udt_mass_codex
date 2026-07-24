@@ -1,0 +1,5 @@
+sympy=1.13.1
+checks=37
+families=6
+compact_same_scalar_pass_count=0
+derivation_sha256=dbcf240fdf6b952cb51bc06ed08321da1b18d90f304860c45e7ecbd09dea5fed

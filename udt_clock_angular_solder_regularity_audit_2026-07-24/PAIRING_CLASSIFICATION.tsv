@@ -1,0 +1,4 @@
+case	weights	allowed_fixed_K_pairing	metric_family_effect	ruling
+GENERIC_KAPPA_NOT_ONE	-1;+1;-kappa;+kappa	(clock,depth);(angular_minus,angular_plus)	F02	UNIQUE_BLOCK_PAIRING_UP_TO_PAIR_ORDER_AND_AXIS_EXCHANGE
+KAPPA_EQUALS_ONE	-1;+1;-1;+1	any_nondegenerate_pairing_between_minus_and_plus_weight_planes	same_diagonal_metric_or_constrained_F02_subfamily	COFRAME_PAIRING_DEGENERACY_NO_NEW_DIAGONAL_METRIC_FAMILY
+SAME_SIGN_PROPOSED_PAIR	a;a	none_nontrivial	excluded	FAILS_FIXED_K_INVARIANCE
