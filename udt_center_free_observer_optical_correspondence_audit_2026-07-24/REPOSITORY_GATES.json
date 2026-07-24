@@ -1,0 +1,162 @@
+{
+  "authority_boundary": {
+    "WRL_promoted_global": false,
+    "action_source_carrier_selected": false,
+    "branch_spliced": false,
+    "canon_changed": false,
+    "gpu_work": false,
+    "null_or_rest_pairing_selected": false,
+    "observational_claim_added": false,
+    "physical_Xmax_promoted": false,
+    "physical_signal_law_claimed": false,
+    "repository_reorganization": false,
+    "startup_controls_changed": false
+  },
+  "base": "c67c0c1bcd94af6364d93f21fd9dd3a2194f5d3b",
+  "catch_proofs": {
+    "current_paths": "PASS",
+    "dirty": "PASS",
+    "frontier": "PASS",
+    "frozen": "PASS",
+    "package": "PASS",
+    "science_branches": "PASS",
+    "science_completions": "PASS",
+    "science_equations": "PASS",
+    "science_null_rest": "PASS",
+    "science_object": "PASS",
+    "science_round_clock": "PASS",
+    "science_sne": "PASS",
+    "science_sources": "PASS",
+    "science_types": "PASS",
+    "science_universal": "PASS",
+    "science_wrl_global": "PASS",
+    "science_xmax": "PASS",
+    "scope": "PASS"
+  },
+  "dirty_checkout": {
+    "branch": "grok",
+    "contents_read": false,
+    "head": "adf8f92d95c387cc647f04b16f1f3b17e1e670d2",
+    "metadata_sha256": "4bc96070c841a14c497b642ee7b93dcf9061372f770aee065d6b495ee4996f4c",
+    "paths": 54,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 35,
+    "manifest_sha256": "e77b9c2e76b914906e7109cc68692e493513f0e07902c34fd6ab068933ff05b5",
+    "result": "PASS"
+  },
+  "result": "PASS",
+  "schema": "udt-center-free-optical-repository-gates-1.0",
+  "science": {
+    "branches": 6,
+    "derived_object": "SET_VALUED_OBSERVER_OPTICAL_CORRESPONDENCE",
+    "deterministic_replay": "BYTE_IDENTICAL",
+    "equation_families": 28,
+    "finite_cell_completions": 12,
+    "independent_catches": 14,
+    "independent_checks": 72,
+    "independent_sha256": "805daeeeeff43649343f6c26c4b421efb08108ea9943e69e35deb6dce2eb9106",
+    "optical_types": 8,
+    "physical_Xmax": "OPEN",
+    "production_checks": 84,
+    "production_sha256": "25bfa6b56eff525d7c5fe37cd303b53a08992e3919d532ef64ec4326e1fbf843",
+    "result": "PASS",
+    "source_identities": 19,
+    "universal_operator": "OPEN"
+  },
+  "scope_paths": [
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/ADVERSARIAL_REVIEW.md",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/AUDIT_REPORT.md",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/BRANCH_OPTICAL_ATLAS.tsv",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/CANDIDATE_REGISTRY.tsv",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/COMMANDS.txt",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/COMPLETENESS_MAP.md",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/COMPLETION_OPTICAL_ATLAS.tsv",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/DERIVATION_RESULT.json",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/EQUATION_FAMILY_OPTICAL_SCREEN.tsv",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/EXACT_DERIVATION.md",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/FALSIFICATION_CONTRACT.tsv",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/FOUR_GATES.md",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/INDEPENDENT_STDERR.txt",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/INDEPENDENT_STDOUT.txt",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/INDEPENDENT_VERIFICATION.json",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/LAY_REPORT.md",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/NEXT_STEP.md",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/OPTICAL_TYPE_LEDGER.tsv",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/PREMISE_LEDGER.tsv",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/PREREGISTRATION.md",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/PRODUCTION_STDERR.txt",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/PRODUCTION_STDOUT.txt",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/RUN_ENVIRONMENT.json",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/SHA256SUMS.txt",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/SOURCE_ADDENDUM.md",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/SOURCE_LINEAGE.tsv",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/STATUS_LEDGER.tsv",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/TEST_STDERR.txt",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/TEST_STDOUT.txt",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/build_manifest.py",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/capture_tests.py",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/derive_optical_correspondence.py",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/replay_and_capture.py",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/requirements.txt",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/verify_optical_independent.py",
+    "udt_center_free_observer_optical_correspondence_audit_2026-07-24/verify_repository_gates.py"
+  ],
+  "tests": {
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "stdout_sha256": "f13460578141fdc251baa9dd023d9bb304aabdbeb7c0b1bd93c741b3a5e90249",
+    "xfailed": 1
+  }
+}
