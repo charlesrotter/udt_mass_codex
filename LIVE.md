@@ -8,30 +8,33 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
 
-## ============ CURRENT STATE (2026-07-24 — PRE-DENSITY SUBSTRATE-RESPONSE ATLAS COMPLETE, VERIFIED-WITH-CAVEATS. ON EVERY GENUINELY TORIC ANGULAR BRANCH, THE COMPLETE COFRAME THETA_ANG=D(DXI+S DX) SUPPLIES A JOINT INTEGRAL T2 FIBER METRIC H AND T2 CONNECTION S. THE CHART SPIN-TWO EIGENAXIS DOES NOT DIRECTLY DESCEND TO A PHASE: IT IS NOT INTRINSIC UNDER UNRESTRICTED GL2 AND DELTA=2 ALPHA FAILS TORUS-TRANSLATION EQUIVARIANCE. THE METRIC PLUS THE FINITE TORUS LATTICE DOES, HOWEVER, DEFINE THE CANONICAL SET OF SHORTEST PRIMITIVE DUAL CHARACTERS ARGMIN W^T H^-1 W. WHERE THAT SET IS UNIQUE MODULO SIGN, A BRANCHWISE INTEGRAL U1 CHARACTER LINE AND PROJECTED CONNECTION B_STAR=W_STAR^T S ARE GEOMETRICALLY AVAILABLE. THE FROZEN 25-POINT PHI/SHEAR ATLAS HAS 22 UNIQUE CASES AND 3 TIE CASES; THESE ARE BOUNDED OBSERVATIONS, NOT A CONTINUOUS-MODULI THEOREM. ON THE SHEAR-FREE FAMILY THE RECIPROCAL SWAP IS EXACT: W=(1,0) FOR PHI<0, A TWO-WAY TIE AT PHI=0, AND W=(0,1) FOR PHI>0. ALL TWELVE REGISTERED COMPLETIONS RETAIN CAP, MONODROMY, MIRROR, ORIENTATION, STRATUM, OR TORIC-EXISTENCE CONDITIONS. THE SUPPLIED ROUND-S2 L2+L4 PROBE RESPONDS EXACTLY TO COMMON SCALE, ANISOTROPY, AND A SUPPLIED CHARACTER CONNECTION, BUT REMAINS CONDITIONAL. PHYSICAL SELECTION OF THE SHORTEST CHARACTER, ITS SIGN, A PHASE SECTION, CARRIER, ACTION, SOURCE, BOUNDARY, DENSITY-TO-GEOMETRY LAW, AND BOOTSTRAP FIXED POINT REMAIN OPEN. NO DENSITY VALUE OR WINDOW WAS COMPUTED. NEXT: MAP THE CONTINUOUS DUAL-SYSTOLE WALLS AND FOLLOW THE SET-VALUED CHARACTER INVARIANT THROUGH COMPLETE TORIC BRANCHES, WITHOUT ADOPTING IT AS PHYSICS. NO MATTER SOLVE, TIME-LIVE SOLVE, GPU WORK, CANONIZATION, ARTIFACT MOVE, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-24 — DUAL-SYSTOLE GLOBAL TRANSPORT AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. THE POSITIVE TRIANGULAR ANGULAR COFRAME COVERS THE COMPLETE LOCAL POSITIVE DETERMINANT-ONE TWO-METRIC MODULI. WHERE A GENUINE INTEGRAL TORUS LATTICE EXISTS, THE METRIC DERIVES THE SET OF SHORTEST PRIMITIVE DUAL CHARACTERS W_MIN. EVERY INDEPENDENT CO-SHORTEST PAIR IS UNIMODULAR; EVERY WALL IS A GL2Z IMAGE OF ONE STANDARD SEGMENT; WALL INTERIORS HAVE TWO TIED UNORIENTED LINES, VERTICES HAVE THREE, AND THREE IS MAXIMAL. W_MIN IS A GLOBAL SET-VALUED INVARIANT ON TORIC LOCAL SYSTEMS. A UNIQUE UNORIENTED CHARACTER LINE AND PROJECTED CONNECTION EXIST ONLY ON GLOBALLY TIE-FREE, MONODROMY-COMPATIBLE BRANCHES. THE SHEAR-FREE RECIPROCAL DIAGONAL NECESSARILY SWAPS (1,0) TO (0,1) THROUGH A TWO-WAY TIE AT PHI=0, SO THE METRIC DOES NOT SUPPLY A UNIQUE PHASE CONTINUATION THERE. ALL TWELVE REGISTERED COMPLETIONS WERE CLASSIFIED WITHOUT PREFERENCE; CAP, QUOTIENT, MONODROMY, MIRROR, ORIENTATION, RANK, AND TORIC-EXISTENCE CONDITIONS REMAIN EXPLICIT. SIGN, PHASE SECTION, PHYSICAL CHARACTER SELECTION, CARRIER, ACTION, SOURCE, BOUNDARY, DENSITY-TO-GEOMETRY LAW, AND BOOTSTRAP FIXED POINT REMAIN OPEN. NO DENSITY VALUE OR WINDOW WAS COMPUTED. NEXT BOUNDED QUESTION: WHETHER ALREADY REGISTERED FINITE-CELL, RECIPROCITY, CSN, OR BOOTSTRAP STRUCTURE SUPPLIES A NATIVE WALL-CROSSING RULE; DO NOT INVENT ONE. NO MATTER SOLVE, TIME-LIVE SOLVE, GPU WORK, CANONIZATION, ARTIFACT MOVE, OR REORGANIZATION IS AUTHORIZED.) ============
 
 **READ NEXT, IN ORDER:**
 
 1. `HANDOFF.md` current marked block.
-2. `udt_pre_density_substrate_response_atlas_2026-07-24/AUDIT_REPORT.md`, then its
+2. `udt_dual_systole_global_transport_audit_2026-07-24/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `CONTINUOUS_WALL_ATLAS.tsv`, `GLOBAL_TRANSPORT_ATLAS.tsv`,
+   `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+3. `udt_pre_density_substrate_response_atlas_2026-07-24/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `TORUS_LATTICE_SELECTOR_ATLAS.tsv`,
    `GLOBAL_DESCENT_ATLAS.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
-3. `udt_bootstrap_substrate_micro_closure_audit_2026-07-23/AUDIT_REPORT.md`, then its
+4. `udt_bootstrap_substrate_micro_closure_audit_2026-07-23/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `CHANNEL_OUTCOMES.tsv`, `PRIOR_RESULT_REGRADE.tsv`,
    `FIXED_POINT_OUTCOMES.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
-4. `udt_hopf_realization_deformation_audit_2026-07-23/AUDIT_REPORT.md`, then its
+5. `udt_hopf_realization_deformation_audit_2026-07-23/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `DEFORMATION_OUTCOMES.tsv`, `GLOBAL_COMPLETION_OUTCOMES.tsv`,
    `LAY_REPORT.md`, and `NEXT_STEP.md`.
-5. `udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/AUDIT_REPORT.md`, then its
+6. `udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `DEPENDENCY_MATRIX.tsv`, and `NEXT_STEP.md`.
-6. `udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
+7. `udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv` and `NEXT_STEP.md`.
-7. `udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
+8. `udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv` and `NEXT_STEP.md`.
-8. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
+9. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
    `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and
    `REGRESSION_GUARD_LEDGER.tsv`.
-9. The exact immutable evidence cited by those packages only when the active task makes it
+10. The exact immutable evidence cited by those packages only when the active task makes it
    load-bearing.
 
 **CURRENT HONEST CLAIM:**
@@ -51,8 +54,14 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 - the metric plus torus lattice derives the set of shortest primitive dual characters. Where that
   set is unique modulo sign, a canonical rank-one character line and projected connection
   `b_star=w_star^T S` are geometrically available, but not physically selected;
-- the frozen 25-point atlas observes 22 unique dual-character lines and three tie points. On the
-  shear-free family the reciprocal character swap across `phi=0` is exact;
+- the complete continuous local angular-metric moduli decompose into exact shortest-character
+  chambers. Independent co-shortest pairs are unimodular; wall interiors have two tied lines,
+  vertices have three, and three is maximal;
+- the earlier frozen 25-point atlas remains a bounded control with 22 unique lines and three ties.
+  On the shear-free family the reciprocal character swap across `phi=0` is exact and necessarily
+  crosses a two-way tie;
+- the set-valued shortest-character invariant transports globally wherever a torus lattice local
+  system exists. A unique line requires a tie-free, monodromy-compatible branch;
 - the supplied `L2+L4` branch responds exactly to nonuniform and anisotropic physical backgrounds,
   but every carrier/action/coefficient/domain/representative premise travels with that statement;
 - a pure constant homothety does not remove the conditional coefficient ruler;
@@ -66,8 +75,9 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 - the intrinsic `S2` fiber and its rank-two vertical tangent space do not derive a section or the
   round internal carrier;
 - all twelve registered completion classes retain their boundary, quotient, monodromy,
-  orientation, regularity, or chart dependencies; FC04 is an exact conditional seed, not native
-  carrier emergence;
+  orientation, regularity, rank, or toric-existence dependencies; no completion converts the
+  shortest set into a physical phase, and FC04 remains an exact conditional seed rather than
+  native carrier emergence;
 - physical affine transport remains `OPEN_SELECTOR`; the supplied Hopf topological core remains
   transport independent in its declared carrier and domain;
 - a Hodge-selected primitive and the conditional `L2+L4` energy remain metric dependent;
@@ -97,9 +107,11 @@ metric-induced image rank, call the shear eigenaxis a descended phase, or identi
 connection with a selected scalar phase. Do not identify density with curvature through GR, insert
 global average density into a local action, call a pre-density geometric bracket a density scan,
 or discard fixed-background results merely because they do not cover joint bootstrap closure. Do
-not call the shortest dual character physically selected, turn the 22/3 frozen-grid count into a
-continuous-moduli theorem, silently choose a sign at a systolic tie, or assume every completion
-has a global torus lattice.
+not call the shortest dual character physically selected, erase the distinction between its
+set-valued invariant and a unique line, silently choose a continuation or sign at a systolic tie,
+or assume every completion has a global torus lattice. The continuous theorem supersedes the
+earlier 22/3 count only as local-moduli classification; the sampled count remains its bounded
+control.
 
 **REORGANIZATION:** R0--R1H remains paused. This checkpoint changes navigation and synthesis only;
 all evidence packages and historical records remain immutable.

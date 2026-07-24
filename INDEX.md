@@ -1,21 +1,27 @@
 # INDEX — Repo Map (2026-07-24 lean)
 
 **⚠ BRANCH: `grok` (2026-07-24)** — `main` is stale for this arc; `git checkout grok`.
-**Frontier authority:** `LIVE.md` (wins on conflict).  
+**Frontier authority:** `LIVE.md` (wins on conflict).
+
 **➤ CURRENT SCIENTIFIC FRONTIER:**
-`udt_pre_density_substrate_response_atlas_2026-07-24/AUDIT_REPORT.md`, then its
+`udt_dual_systole_global_transport_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `CONTINUOUS_WALL_ATLAS.tsv`, `GLOBAL_TRANSPORT_ATLAS.tsv`,
+`EXACT_DERIVATION.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`; next read
+`udt_pre_density_substrate_response_atlas_2026-07-24/AUDIT_REPORT.md` and its
 `STATUS_LEDGER.tsv`, `TORUS_LATTICE_SELECTOR_ATLAS.tsv`, `GLOBAL_DESCENT_ATLAS.tsv`,
 `LAY_REPORT.md`, and `NEXT_STEP.md`; next read the July 23 substrate and Hopf-realization packages
 listed below. On toric angular branches the complete coframe supplies a joint normalized `T2`
 fiber metric and `T2` connection. The direct chart-eigenaxis/phase identification remains open,
 but the metric plus integer torus lattice derives a canonical shortest primitive dual-character
-set. Where unique modulo sign, that set makes a rank-one character line and projected connection
-available without selecting a physical phase. The frozen 25-point atlas observes 22 unique cases
-and three ties; on the shear-free family the reciprocal character swap across `phi=0` is exact.
-All twelve completions retain their global conditions. Physical selection, sign, tie-wall
-continuation, phase section, carrier, action, source, boundary, density map, and matter closure
-remain open. Next: map the continuous shortest-character walls and global branch transport. No
-GPU/time-live work, migration, reorganization, or canonization is authorized.
+set. The complete continuous local moduli are now classified: all co-shortest independent pairs
+are unimodular, all walls are modular images of one standard segment, interiors tie two lines,
+vertices tie three, and three is maximal. The set is globally covariant on toric local systems;
+a unique line requires a tie-free, monodromy-compatible branch. The shear-free reciprocal swap
+necessarily crosses a two-way tie at `phi=0`. All twelve completions retain their global
+conditions. Physical selection, sign, tie-wall continuation, phase section, carrier, action,
+source, boundary, density map, and matter closure remain open. Next: audit whether registered UDT
+premises supply a native wall-crossing rule. No GPU/time-live work, migration, reorganization, or
+canonization is authorized.
 
 **➤ PRIOR JULY 23 SCIENTIFIC FRONTIER:**
 `udt_bootstrap_substrate_micro_closure_audit_2026-07-23/AUDIT_REPORT.md`, then its

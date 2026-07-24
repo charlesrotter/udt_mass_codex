@@ -7,9 +7,12 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-24).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-24 — pre-density substrate-response atlas)
+## CURRENT (2026-07-24 — dual-systole global transport audit)
 
-Read `udt_pre_density_substrate_response_atlas_2026-07-24/AUDIT_REPORT.md`, then its
+Read `udt_dual_systole_global_transport_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `CONTINUOUS_WALL_ATLAS.tsv`, `GLOBAL_TRANSPORT_ATLAS.tsv`,
+`EXACT_DERIVATION.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`. Then read
+`udt_pre_density_substrate_response_atlas_2026-07-24/AUDIT_REPORT.md` and its
 `STATUS_LEDGER.tsv`, `TORUS_LATTICE_SELECTOR_ATLAS.tsv`, `GLOBAL_DESCENT_ATLAS.tsv`,
 `LAY_REPORT.md`, and `NEXT_STEP.md`. Then read
 `udt_bootstrap_substrate_micro_closure_audit_2026-07-23/AUDIT_REPORT.md` and its
@@ -37,10 +40,14 @@ Current honest structure:
 - the metric plus torus lattice defines the canonical set of shortest primitive dual characters
   `argmin w^T H^-1 w`. Where it is unique modulo sign, it makes a rank-one character line and
   projected connection `b_star=w_star^T S` geometrically available;
+- the complete continuous local angular-metric moduli are now classified: independent co-shortest
+  characters are unimodular, every wall is a `GL(2,Z)` image of one standard segment, wall
+  interiors have two tied lines, vertices have three, and three is maximal;
+- the shortest-character **set** transports globally on toric local systems. A unique line
+  requires a globally tie-free, monodromy-compatible branch;
 - physical use of that shortest character is not derived. Its sign, tie-wall continuation, phase
   section, carrier, and action remain open;
-- the frozen 25-point `phi`/shear atlas has 22 unique cases and 3 ties. This is a bounded
-  observation, not the full continuous torus-moduli census;
+- the frozen 25-point `phi`/shear atlas remains a bounded control with 22 unique cases and 3 ties;
 - on the shear-free family, the reciprocal swap is exact: `(1,0)` for `phi<0`, a two-way tie at
   `phi=0`, and `(0,1)` for `phi>0`;
 - reciprocal kinematics remains `DERIVED` with its exact premise stamps;
@@ -106,15 +113,15 @@ Current honest structure:
 
 Current bounded seam:
 
-> Map the continuous shortest-dual-character walls and follow the set-valued invariant through
-> complete toric branches. Test caps, mirrors, monodromy, sign/conjugation, and connection holonomy
-> without assuming that the canonical geometric candidate is physically selected.
+> Determine whether the already registered finite-cell, Reciprocity, CSN, or bootstrap structure
+> supplies a native wall-crossing rule for the now-complete dual-systole set, or leaves the tie
+> genuinely set-valued. Do not invent a rule or assume the geometric candidate is physical.
 
-The atlas closes with `JOINT_T2_METRIC_CONNECTION_OBJECT_DERIVED` and
-`BRANCHWISE_CANONICAL_METRIC_LATTICE_U1_REDUCTION_AVAILABLE__PHYSICAL_SELECTION_AND_PHASE_SECTION_OPEN`.
-Production and independent replays pass; selector counts are 22 unique/3 ties, `GL(2,Z)`
-covariance is 6/6, and catch-proofs are 16/16. The full tests remain 70 passed/1 xfailed. No fresh
-external model review was authorized, so the package grade remains `VERIFIED-WITH-CAVEATS`.
+The audit closes with `SET_VALUED_INVARIANT_GLOBAL_WHERE_TORIC` and
+`UNIQUE_LINE_ONLY_ON_TIE_FREE_BRANCHES`. Production and independent replays pass; the continuous
+wall theorem has two-way interiors, three-way vertices, and maximum tie three; `GL(2,Z)`
+covariance is 6/6 and catch-proofs are 16/16. The full tests remain 70 passed/1 xfailed. No fresh
+external model review was performed, so the package grade remains `VERIFIED-WITH-CAVEATS`.
 No density value, density-to-geometry law, carrier, action, physical phase, or matter solution was
 supplied. No GPU work, time-live solve, canonization, repository reorganization, or artifact
 relocation follows automatically. R0--R1H remains paused.

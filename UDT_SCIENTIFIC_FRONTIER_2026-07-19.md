@@ -4,6 +4,48 @@ Date: 2026-07-24
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## July 24 dual-systole global transport overlay — current authority
+
+Read `udt_dual_systole_global_transport_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `CONTINUOUS_WALL_ATLAS.tsv`, `GLOBAL_TRANSPORT_ATLAS.tsv`,
+`EXACT_DERIVATION.md`, `LAY_REPORT.md`, and `NEXT_STEP.md` before the earlier layers below.
+
+The parent atlas's shortest-character candidate is now classified on the complete continuous
+positive determinant-one angular-metric shape space. For an integral torus character lattice,
+
+```text
+W_min(H)=argmin {w^T H^-1 w : primitive w in Z^2}/(w~-w)
+```
+
+has an exact modular chamber complex. Every independent co-shortest pair is unimodular. Every
+admissible wall is a `GL(2,Z)` image of one reduced standard segment. Wall interiors have two
+tied unoriented lines; vertices have three; no higher tie exists.
+
+The whole shortest set is a global covariant invariant wherever `H` and the torus lattice form a
+global local system. A unique unoriented line exists only on a tie-free branch preserved by
+monodromy. For a supplied line, `b_w=w^T S` is a covariant projected connection. Neither the line
+nor the connection supplies a sign or phase section.
+
+On the shear-free reciprocal diagonal, the shortest direction is `(1,0)` for `phi<0`, the two
+directions tie at `phi=0`, and `(0,1)` is shortest for `phi>0`. The swap therefore necessarily
+crosses a selector wall, and the metric supplies no unique phase continuation at the tie.
+
+All twelve registered completions were classified without preference. Cap collapse, quotient
+congruence, orbifold stabilizers, monodromy, mirrors, nonorientation, rank loss, and loss of a
+global toric lattice remain explicit obstructions or conditions.
+
+Status: `CONTINUOUS_DUAL_SYSTOLE_CHAMBER_COMPLEX_DERIVED`;
+`SET_VALUED_INVARIANT_GLOBAL_WHERE_TORIC`;
+`UNIQUE_UNORIENTED_LINE_CONDITIONAL_ON_TIE_FREE_MONODROMY_COMPATIBLE_BRANCH`;
+`PHYSICAL_SELECTION_SIGN_AND_PHASE_SECTION_OPEN`; `VERIFIED-WITH-CAVEATS`.
+Production and independent replays pass, `GL(2,Z)` controls are 6/6, completion coverage is
+12/12, catch-proofs are 16/16, and tests are 70 passed/1 xfailed.
+
+The next bounded question is whether already registered finite-cell, Reciprocity, CSN, or
+bootstrap structure supplies a native wall-crossing rule. This is not authority to invent one,
+adopt a carrier or action, scan density, launch a matter/time-live/GPU solve, canonize, move
+artifacts, or resume repository reorganization.
+
 ## July 24 pre-density substrate-response atlas — current authority
 
 Read `udt_pre_density_substrate_response_atlas_2026-07-24/AUDIT_REPORT.md`, then its
@@ -52,10 +94,10 @@ Status: `JOINT_T2_METRIC_CONNECTION_OBJECT_DERIVED`;
 replays pass, `GL(2,Z)` covariance is 6/6, catch-proofs are 16/16, and tests are
 70 passed/1 xfailed.
 
-The next bounded step is to map the continuous dual-systole walls and transport the set-valued
-character invariant through complete toric branches. This is not authority to select its physical
-sign or role, adopt a carrier or action, scan density, launch time-live/GPU work, canonize, move
-artifacts, or resume repository reorganization.
+That bounded step is completed by the dual-systole global transport overlay above. The parent
+package remains immutable evidence and does not authorize a physical sign or role, carrier,
+action, density scan, time-live/GPU work, canonization, artifact move, or repository
+reorganization.
 
 ## July 23 bootstrap substrate-to-micro closure overlay — current authority
 
