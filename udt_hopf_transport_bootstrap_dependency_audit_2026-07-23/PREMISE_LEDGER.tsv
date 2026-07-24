@@ -1,0 +1,21 @@
+id	premise	status	authority_or_role	exclusion
+P01	round_S2_internal_carrier	WORKING_POSIT_REOPENED	UDT_NATIVE_ACTION_COLD_PACKET.md and owner clarification	not metric-derived
+P02	full_3D_Hopf_capable_implementation	VERIFIED_CONDITIONAL	native_hopfion_topology_audit_2026-07-19	not fresh raw-field replay
+P03	constant_exterior_compactified_domain	CONDITIONAL	native Hopf topology T06	physical finite-cell boundary open
+P04	pullback_and_exterior_derivative	STANDARD_EXACT_MATHEMATICS	bounded algebra target	not a native action
+P05	conditional_reciprocal_toric_unit_class	EXACT_CONDITIONAL	angular toric and motif/Hopf packages	periods action caps orientation quotient supplied
+P06	coframe_to_Hopf_seed_crosswalk	EXACT_CONDITIONAL_CHART_LEVEL	udt_coframe_hopf_bridge_audit_2026-07-23	phase ownership and gauge descent open
+P07	nonnull_dphi_real_3plus3	DERIVED_LOCAL_STRATUM	complete metric intrinsic object audit	no global section or Hopf class
+P08	Gamma_f_family	DERIVED_COUNTERFAMILY	reciprocal transport naturality audit	no physical member selected
+P09	projected_Kato_transport	DERIVED_GEOMETRIC_TORSIONFUL	parent CSN-dphi transport audit	not physical evolution
+P10	split_stabilizer_freedom	DERIVED_AFFINE_NONUNIQUENESS	parent CSN-dphi transport audit	no zero-minimality rule
+P11	normal_conformal_tractor	CONDITIONAL_REPRESENTATION_TRANSPORT	projective and CSN-dphi audits	not a tangent section selector
+P12	existing_L2_plus_L4	CONDITIONAL_CHOSE_BRANCH	C1 and noNull_energy.py	no native coefficient or time sector
+P13	static_finite_box_stability	SETTLED_STATIC_FINITE_BOX_CONDITIONAL	current particle lane	no time-live or branch export
+P14	current_bootstrap	WORKING_AFTER_SOLUTION_ADMISSIBILITY	C1 sec 6 and bootstrap selector audit	not local operator
+P15	bootstrap_density_window	WORKING_GLOBAL_WINDOW	C1 sec 6	total mass volume action and solutions required first
+P16	future_Sigma_or_B	OPEN_CONDITIONAL_FORM	bootstrap selector audit	no object supplied
+P17	physical_boundary_and_framing	OPEN	native Hopf and toric audits	solver wall not physical derivation
+P18	physical_time_evolution	OPEN_NOT_USED	current frontier	no relaxation-as-time
+P19	complete_action_source_mass_scale	OPEN_NOT_ACTIVATED	current frontier	no downstream promotion
+P20	Hopf_principal_connection	TYPED_CONDITIONAL_BUNDLE_OBJECT	reciprocal toric witness	not affine tangent connection
