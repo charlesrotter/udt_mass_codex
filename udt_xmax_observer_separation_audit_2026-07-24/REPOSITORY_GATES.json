@@ -1,0 +1,146 @@
+{
+  "authority_boundary": {
+    "action_source_boundary_mass_adopted": false,
+    "canon_changed": false,
+    "edge_or_topology_selected": false,
+    "gpu_work": false,
+    "historical_or_frozen_evidence_changed": false,
+    "local_WRL_X_identified_with_global_Xmax": false,
+    "matter_or_time_live_solve": false,
+    "pair_separation_functional_claimed_derived": false,
+    "repository_reorganization": false,
+    "startup_controls_changed": false
+  },
+  "base": "696cf401c441fdd3aefea6f3de188e6425ae5636",
+  "catch_proofs": {
+    "current_paths": "PASS",
+    "dirty": "PASS",
+    "frontier": "PASS",
+    "frozen": "PASS",
+    "package": "PASS",
+    "science_authority": "PASS",
+    "scope": "PASS"
+  },
+  "dirty_checkout": {
+    "branch": "grok",
+    "contents_read": false,
+    "head": "adf8f92d95c387cc647f04b16f1f3b17e1e670d2",
+    "metadata_sha256": "4bc96070c841a14c497b642ee7b93dcf9061372f770aee065d6b495ee4996f4c",
+    "paths": 54,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 35,
+    "manifest_sha256": "d29eef41703f1d9c498df2c20a9546bedd301ebd075fb3db5d366863223d7b0f",
+    "result": "PASS"
+  },
+  "result": "PASS",
+  "schema": "udt-xmax-observer-separation-repository-gates-v1",
+  "science": {
+    "candidate_paths": 907,
+    "catch_proofs": 16,
+    "claim_regrades": 34,
+    "deterministic_replay": "BYTE_IDENTICAL",
+    "external_fresh_context": "NOT_PERFORMED_CAVEAT",
+    "independent_stdout_sha256": "42de8c565342b414a3af65292efb80585240b27e33048e660e5c60063d045b07",
+    "load_bearing_sources": 61,
+    "production_stdout_sha256": "ab04e43db095ed4e48863567d726dfc0d9a9cfc91a9dee7728b939eef0d6a864",
+    "result": "PASS"
+  },
+  "scope_paths": [
+    "udt_xmax_observer_separation_audit_2026-07-24/AUDIT_REPORT.md",
+    "udt_xmax_observer_separation_audit_2026-07-24/CANDIDATE_UNIVERSE.tsv",
+    "udt_xmax_observer_separation_audit_2026-07-24/CATCH_PROOF_RESULTS.tsv",
+    "udt_xmax_observer_separation_audit_2026-07-24/CLAIM_REGRADE.tsv",
+    "udt_xmax_observer_separation_audit_2026-07-24/CLASSIFICATION_SCHEMA.tsv",
+    "udt_xmax_observer_separation_audit_2026-07-24/COMMANDS.txt",
+    "udt_xmax_observer_separation_audit_2026-07-24/COMPLETENESS_MAP.md",
+    "udt_xmax_observer_separation_audit_2026-07-24/COUNTERMODEL_ATLAS.tsv",
+    "udt_xmax_observer_separation_audit_2026-07-24/DEPENDENCY_IMPACT.tsv",
+    "udt_xmax_observer_separation_audit_2026-07-24/DERIVATION_STDOUT.txt",
+    "udt_xmax_observer_separation_audit_2026-07-24/EXACT_DERIVATION.md",
+    "udt_xmax_observer_separation_audit_2026-07-24/FALSIFICATION_CONTRACT.tsv",
+    "udt_xmax_observer_separation_audit_2026-07-24/FAMILY_RULINGS.tsv",
+    "udt_xmax_observer_separation_audit_2026-07-24/FOUR_GATES.md",
+    "udt_xmax_observer_separation_audit_2026-07-24/INDEPENDENT_RESULTS.json",
+    "udt_xmax_observer_separation_audit_2026-07-24/LAY_REPORT.md",
+    "udt_xmax_observer_separation_audit_2026-07-24/LOAD_BEARING_SOURCE_REGISTRY.tsv",
+    "udt_xmax_observer_separation_audit_2026-07-24/NEGATIVE_REGRADE.tsv",
+    "udt_xmax_observer_separation_audit_2026-07-24/NEXT_STEP.md",
+    "udt_xmax_observer_separation_audit_2026-07-24/PATH_DISPOSITION.tsv",
+    "udt_xmax_observer_separation_audit_2026-07-24/PREMISE_AUDIT.tsv",
+    "udt_xmax_observer_separation_audit_2026-07-24/PREMISE_LEDGER.tsv",
+    "udt_xmax_observer_separation_audit_2026-07-24/PREREGISTRATION.md",
+    "udt_xmax_observer_separation_audit_2026-07-24/PREREGISTRATION_CORRECTION.md",
+    "udt_xmax_observer_separation_audit_2026-07-24/RELATIONAL_DEFINITION_LEDGER.tsv",
+    "udt_xmax_observer_separation_audit_2026-07-24/RESULTS.json",
+    "udt_xmax_observer_separation_audit_2026-07-24/RUN_ENVIRONMENT.tsv",
+    "udt_xmax_observer_separation_audit_2026-07-24/SHA256SUMS.txt",
+    "udt_xmax_observer_separation_audit_2026-07-24/STATUS_LEDGER.tsv",
+    "udt_xmax_observer_separation_audit_2026-07-24/VERIFICATION_REPORT.md",
+    "udt_xmax_observer_separation_audit_2026-07-24/VERIFICATION_STDOUT.txt",
+    "udt_xmax_observer_separation_audit_2026-07-24/build_manifest.py",
+    "udt_xmax_observer_separation_audit_2026-07-24/build_preregistered_census.py",
+    "udt_xmax_observer_separation_audit_2026-07-24/derive_relational_xmax.py",
+    "udt_xmax_observer_separation_audit_2026-07-24/verify_relational_xmax.py",
+    "udt_xmax_observer_separation_audit_2026-07-24/verify_repository_gates.py"
+  ],
+  "tests": {
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest -q tests/",
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "returncode": 0,
+    "stdout_sha256": "445101fb74f1621482e36058b52ec3aec0e5335d38e69f0d790c6ea1539d8028",
+    "xfailed": 1
+  }
+}

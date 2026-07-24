@@ -1,0 +1,10 @@
+field	value
+date	2026-07-24
+base	696cf401c441fdd3aefea6f3de188e6425ae5636
+mode	CPU_ONLY
+python	3.10.12
+sympy	1.13.1
+gpu_used	NO
+matter_solve	NO
+time_live_solve	NO
+external_model_context	NOT_PERFORMED_CAVEAT

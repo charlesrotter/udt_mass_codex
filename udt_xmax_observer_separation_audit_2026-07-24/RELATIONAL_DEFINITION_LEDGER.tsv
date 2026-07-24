@@ -1,0 +1,13 @@
+object_id	object	definition_or_requirement	status	why
+R01	admissible_observer_set_O	domain of observer histories or observational frames	OPEN	complete metric has not selected an observer class
+R02	comparison_relation_Cg	which event on observer A is compared with which event on observer B	OPEN	no native simultaneity co-presence radar or quotient rule is derived
+R03	pair_separation_Dg	Dg(A,B)>=0 on admissibly paired observer events	OPEN	Lorentzian metric alone does not supply a unique nonnegative worldline distance
+R04	pair_exchange	Dg(A,B)=Dg(B,A)	WORKING_REQUIRED_SYMMETRY	distance meaning and no preferred member of a pair
+R05	coincidence	Dg(A,A)=0	WORKING_REQUIRED_DISTANCE_AXIOM	observer separation rather than signed displacement
+R06	global_pair_diameter	Xmax=sup{Dg(A,B):A,B in O and Cg(A,B)}	WORKING_OWNER_MEANING	correct relational type; functional and domain remain open
+R07	attained_maximum	there exist A,B with Dg(A,B)=Xmax	OPEN	requires compactness/completeness or a separate existence theorem
+R08	per_observer_reach	sup_B Dg(A,B)=Xmax for every A	OPEN_STRONGER_THAN_GLOBAL_DIAMETER	requires transitivity/homogeneity or equivalent global structure
+R09	edge_or_boundary	a codimension-one terminal surface at Xmax	NOT_IMPLIED	finite-diameter boundaryless countermodels exist
+R10	local_WRL_join	recorded static radial X equals global observer-pair Xmax	OPEN	radius-to-diameter coefficient and complete angular/global completion absent
+R11	three_observer_composition	Dg(A,C) determined only from Dg(A,B),Dg(B,C)	REFUTED_IN_GENERAL	angle/holonomy/curvature data are load-bearing
+R12	smallest_missing_selector	native complete-metric two-point observer separation functional including event pairing and angular/global completion	OPEN	needed before Xmax becomes metric-derived

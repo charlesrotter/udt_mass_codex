@@ -1,0 +1,50 @@
+{
+  "base": "696cf401c441fdd3aefea6f3de188e6425ae5636",
+  "candidate_path_identity_sha256": "c529f8677c7556294d79fca40be8876e0c7dda2fd7aa5678982fb7eaccd2c8a6",
+  "candidate_paths": 907,
+  "canon_changed": false,
+  "claim_regrades": 34,
+  "classification_counts": {
+    "ASYMPTOTIC_LIMIT_COMPATIBLE": 90,
+    "BOUNDARY_DEPENDENT": 72,
+    "EDGE_CONFLATION": 23,
+    "FROZEN_EVIDENCE": 28,
+    "GENERATED_AUDIT_RECORD": 421,
+    "HISTORICAL_SNAPSHOT": 71,
+    "LOCAL_X_DISTINCT": 126,
+    "RELATIONAL_COMPATIBLE": 40,
+    "SCALE_ONLY_UNAFFECTED": 36
+  },
+  "countermodels": 8,
+  "dependency_families": 15,
+  "exact_controls": {
+    "constant_CSN_ratio": "a/X",
+    "interval_diameter_over_radius_control": "2",
+    "projective_addition_formula_residual": "0",
+    "sphere_diameter_over_radius_control": "pi",
+    "triangle_angle_dependence_derivative": "-2*a*b*sin(theta)",
+    "triangle_distance_squared": "a**2 + 2*a*b*cos(theta) + b**2"
+  },
+  "family_ruling_rows": 246,
+  "gpu_used": false,
+  "historical_or_frozen_source_changed": false,
+  "load_bearing_sources": 61,
+  "matter_or_time_live_solve": false,
+  "negative_regrades": 4,
+  "relational_objects": 12,
+  "rulings": {
+    "WRL_local_math_and_SNe_score": "RETAINED_SCOPED",
+    "complete_action_source_boundary_mass": "OPEN_UNCHANGED",
+    "edge_from_Xmax": "NOT_DERIVED",
+    "general_fractional_pair_distance_composition": "REFUTED_IN_GENERAL",
+    "local_WRL_X_equals_global_Xmax": "OPEN_DIAMETER_RADIUS_JOIN",
+    "maximum_attainment": "OPEN_USE_SUPREMUM",
+    "metric_derived_pair_separation": "OPEN_SELECTOR",
+    "owner_meaning": "WORKING_OWNER_MEANING",
+    "preferred_center_from_Xmax": "REFUTED_AS_LOGICAL_INFERENCE",
+    "projective_1D_math": "RETAINED_UNIQUE_CONDITIONAL",
+    "scale_dimensional_theorem": "RETAINED_SCOPED"
+  },
+  "schema": "udt-xmax-observer-separation-audit-v1",
+  "smallest_missing_object": "native complete-metric two-point observer separation functional including observer domain, event pairing, and angular/global completion"
+}

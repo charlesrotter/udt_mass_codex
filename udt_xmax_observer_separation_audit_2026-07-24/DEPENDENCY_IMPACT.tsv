@@ -1,0 +1,16 @@
+dependency_id	family	dependency_on_Xmax	effect	reason
+D01	founding_reciprocal_c	none	UNCHANGED	clock_ruler anchor uses c_E not global spatial diameter
+D02	local_Lorentz_3plus3_frame_geometry	none_or_contextual	UNCHANGED	pointwise metric frame structure
+D03	WRL_static_profile	local_X_only	RETAIN_LOCAL_X_DISTINCT	exact local algebra survives
+D04	SNe_WRL_score	fitted_local_profile_scale	RETAIN_OBSERVED_RELABELED	does_not define global diameter
+D05	projective_fractional_frame_math	1D_oriented_bound	RETAIN_UNIQUE_CONDITIONAL	not a general distance composition law
+D06	accelerating_Cartan_frame_math	supplied_projective_profile	RETAIN_CONDITIONAL_MATH	physical frame interpretation remains withdrawn
+D07	invariant_Xmax_1D_action_classification	interval_endpoint	EXACT_MATH_RETAINED_INTERPRETATION_WITHDRAWN	pair diameter does_not imply one radial boundary
+D08	finite_cell_boundary_and_seal	possible_boundary_identification	OPEN_JOIN	diameter is not a surface or seal
+D09	boundary_action_charge_flux	local_surface_scale	OPEN_UNCHANGED	requires selected surface action and normalization
+D10	scale_breaking_dimensional_theorem	length_dimension_only	UNCHANGED	compactness rank theorem is type-stable
+D11	matter_coefficient_scale	hypothetical_ratio	UNCHANGED_CONDITIONAL	future kappa_over_xi relation remains unproved
+D12	bootstrap_density_mass	global_complete_solution	OPEN_UNCHANGED	native density-to-geometry and mass laws absent
+D13	Hopf_carrier_and_dual_systole	none_load_bearing	UNCHANGED	topology and toric transport results retain own premises
+D14	complete_metric_solution_space	future_global_pair_functional	NEW_EXPLICIT_GATE	must derive observer domain comparison and angular/global distance
+D15	native_action_source_mass	not_closed	OPEN_UNCHANGED	audit supplies no dynamics
