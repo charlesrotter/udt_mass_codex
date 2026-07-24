@@ -110,6 +110,11 @@ or source-dependent constructions remain outside the maximum conclusion.
 
 The machine-readable version is `PREMISE_LEDGER.tsv`.
 
+The meaning of the generator-similarity gate and falsifier F07 is narrowed
+by `POST_PREREG_GENERATOR_SCOPE_CLARIFICATION.md`. It concerns a pointwise
+connection-preserving map in the natural parallel screen frame, not an
+arbitrary path-dependent basis manufactured from already known propagators.
+
 ## Falsification/certification
 
 Certification requires:
