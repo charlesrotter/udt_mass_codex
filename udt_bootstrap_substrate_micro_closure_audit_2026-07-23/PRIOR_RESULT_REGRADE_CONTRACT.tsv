@@ -1,0 +1,16 @@
+id	current_scope	regrade_question	allowed_disposition
+R01_RECIPROCAL_KINEMATICS	derived with exact premises	Does substrate audit alter algebraic kinematics?	UNCHANGED
+R02_COMPLETE_COFRAME_GEOMETRY	exact registered kinematics	Does global-to-local channel use rather than alter it?	UNCHANGED_OR_USED_AS_CHANNEL
+R03_HOPF_TOPOLOGICAL_CORE	conditional on supplied carrier map/domain	Does substrate alter topological definition?	UNCHANGED_CONDITIONAL
+R04_CARRIER_STATUS	round S2 is POSIT	Does substrate channel derive carrier?	UNCHANGED_POSIT_UNLESS_EXACT_DERIVATION
+R05_STATIC_STABILITY	finite box fixed carrier action metric coefficients operator	Was the metric/background frozen?	UNCHANGED_FIXED_BACKGROUND_SCOPE
+R06_TIME_LIVE_STABILITY	open	Does this audit solve time evolution?	UNCHANGED_OPEN
+R07_ACTION_STATUS	C2 unique-conditional EH conditional complete action open	Does substrate channel select action?	UNCHANGED_UNLESS_EXACT_SELECTION
+R08_MASS_STATUS	present routes conditional unconditional mass open	Does this audit derive native mass/source?	UNCHANGED_OPEN_OR_CONDITIONAL
+R09_BOOTSTRAP_AFTER_SOLUTION	current explicit implementation is outer admissibility	Is this the only owner-authorized reading?	QUALIFY_PRIMARY_ROLE_AND_RETAIN_STRONGER_FORK
+R10_NO_DENSITY_SCAN	density not operational before full closure	Can geometric substrate parameters be explored without calling them density?	UNCHANGED_DENSITY_GATE_WITH_PRE_DENSITY_GEOMETRIC_BRACKETING
+R11_SELECTOR_NEGATIVES	scoped searches found no selector	Were global substrate degrees frozen or absent?	RETAIN_SCOPED_NEGATIVE_AND_OPEN_JOINT_BOOTSTRAP
+R12_DIMENSIONAL_RULER	conditional coefficient ruler remains	Can uniform global scale alone remove it?	RETAIN_UNLESS_NONCIRCULAR_SCALE_BREAKER
+R13_COMPLETION_CENSUS	twelve overlapping classes none selected	Does substrate audit select a class?	UNCHANGED_TAXONOMY
+R14_HOPF_DEFORMATION	rank-one bridge local shear candidate shift connection no section	Can global substrate constrain compatibility?	RETAIN_LOCAL_RESULT_AND_TEST_GLOBAL_CHANNEL
+R15_XMAX_STATUS	global asymptotic/scale selection open	Is bootstrap only an Xmax calculator?	EXPLICITLY_NO

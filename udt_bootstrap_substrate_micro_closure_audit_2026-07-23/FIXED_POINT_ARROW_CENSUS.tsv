@@ -1,0 +1,15 @@
+arrow_id	from_object	to_object	current_status	allowed_source	missing_definition
+F01	GLOBAL_METRIC_BRANCH	INDUCED_LOCAL_METRIC	EXACT_KINEMATIC	pullback of complete metric	preferred embedding remains free
+F02	GLOBAL_COFRAME_SHIFTS	LOCAL_PHASE_CONNECTION	EXACT_IN_CHART	theta_ang=D(dxi+Sdx)	physical section and connection authority
+F03	GLOBAL_COMPLETION	SECTION_COMPATIBILITY	CONDITIONAL_CLASSIFICATION	caps monodromy holonomy orientation	selected completion and descent theorem
+F04	INDUCED_LOCAL_METRIC	CONDITIONAL_L2L4_OPERATOR	EXACT_CONDITIONAL	metric dependence of supplied action	native carrier and action
+F05	LOCAL_GEOMETRIC_DATA	NATIVE_MATTER_OPERATOR	OPEN	complete UDT metric/action derivation	operator and fields
+F06	NATIVE_MATTER_OPERATOR	STABLE_LOCALIZED_SOLUTIONS	OPEN	full nonlinear solve and stability	complete operator boundary and time law
+F07	STABLE_LOCALIZED_SOLUTIONS	NATIVE_MASS_SOURCE	OPEN	native varied source and charge	action source normalization boundary
+F08	NATIVE_MASS_SOURCE	TOTAL_MASS_LEDGER	OPEN	all derived ledger sectors	complete sectors and conservation
+F09	GLOBAL_METRIC_BRANCH	PROPER_GLOBAL_VOLUME	GEOMETRICALLY_DEFINABLE_AFTER_COMPLETION	induced proper measure	selected slice boundary and representative
+F10	TOTAL_MASS_AND_VOLUME	TOTAL_PROPER_DENSITY	TYPED_DEFINITION	M_tot/V_proper	F08 and F09
+F11	TOTAL_PROPER_DENSITY	MATTER_EXISTENCE_WINDOW	OWNER_STATED_WORKING	full theory branch census	center width and equations
+F12	MATTER_BEARING_GLOBAL_STATE	GLOBAL_METRIC_BRANCH	OPEN_FIXED_POINT	derived global variational/closure law	complete action source boundary bootstrap placement
+F13	OBSERVED_C_AND_G	PHYSICAL_CALIBRATION	OBSERVATIONAL_ANCHORS	owner accepted anchors	native mass structure and independent scale breaker
+F14	TOTAL_DENSITY	LOCAL_ACTION	REJECTED_DIRECT_INSERTION	none	forbidden unless separately derived global variational law

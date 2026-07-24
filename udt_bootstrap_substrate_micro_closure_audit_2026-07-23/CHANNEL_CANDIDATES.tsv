@@ -1,0 +1,25 @@
+id	channel	origin	test_scope	possible_status	forbidden_promotion
+C01_PULLBACK_METRIC	global g to induced h=iota*g	complete metric and arbitrary embedding	exact variation and exceptions	METRIC_NATIVE_KINEMATIC_CHANNEL	matter dynamics
+C02_PULLBACK_VOLUME	global g to local and global proper measure	complete metric and completion	exact determinant dependence	METRIC_NATIVE_KINEMATIC_CHANNEL	native density before mass
+C03_ANGULAR_DEPTH	global phi/angular depth to local angular metric	complete angular coframe	exact D dependence	METRIC_NATIVE_KINEMATIC_CHANNEL	carrier latitude selection
+C04_ANGULAR_SHEAR	global angular shear to spin-two axis	complete angular coframe	local nonisotropic chart response	LOCAL_CHART_CHANNEL	global physical phase
+C05_SHIFT_CONNECTION	global shifts to phase comparison	complete coframe	exact b transformation	CONNECTION_CHANNEL	selected phase
+C06_SHIFT_CURVATURE	global shift jets to db	complete coframe	exact gauge invariance	METRIC_NATIVE_KINEMATIC_CHANNEL	physical force or source
+C07_SHIFT_HOLONOMY	global completion to period of b	periodic or noncontractible base	global obstruction classification	GLOBAL_COMPATIBILITY_CHANNEL	selected section
+C08_COMPLETION_CAPS	global endpoint completion to allowed sections	all twelve registered classes	retain class dependence	CONDITIONAL_GLOBAL_CHANNEL	preferred particle branch
+C09_COMPLETION_MONODROMY	torus gluing to phase descent	all twelve registered classes	retain class dependence	CONDITIONAL_GLOBAL_CHANNEL	selected quotient
+C10_COMMON_CONSTANT_SCALE	constant q homothety to conditional micro energy	conditional L2+L4 and scaled shapes	exact control	CSN_OR_POSTSCALE_DEPENDENT	absolute scale selection
+C11_NONCONSTANT_SCALE_PROFILE	q(x) profile to conditional energy density	conditional L2+L4	pointwise exact weights	CONDITIONAL_MICRO_RESPONSE	native local coupling
+C12_SCALE_GRADIENT_OPERATOR	grad q to local Euler operator	minimal scalar and conditional carrier analogy	exact conformal Laplacian witness	CONDITIONAL_MICRO_RESPONSE	complete carrier equation
+C13_ANISOTROPIC_METRIC_RESPONSE	delta h to E2 stress response	conditional L2	exact first variation	CONDITIONAL_MICRO_RESPONSE	native action
+C14_FOUR_DERIVATIVE_METRIC_RESPONSE	delta h to E4 stress response	conditional L4	exact first variation	CONDITIONAL_MICRO_RESPONSE	native action
+C15_BOUNDARY_TO_STABILITY	global cell size/shape to finite-box branch	existing fixed-box result	premise audit	BACKGROUND_SCOPE_DEPENDENCE	infinite-volume theorem
+C16_GLOBAL_CURVATURE_TO_MICRO	global curvature invariants to local operator	metric only unless operator derived	type audit	OPEN_CHANNEL	GR coupling
+C17_PHI_PROFILE_TO_MICRO	global phi profile to local geometry	complete metric	exact pullback route	METRIC_NATIVE_KINEMATIC_CHANNEL	native matter equation
+C18_AFTER_SOLUTION_WINDOW	rho window filters complete solutions	owner primary reading	logical role	WORKING_OUTER_ADMISSIBILITY	local stability law
+C19_STRONG_LOCAL_WINDOW	rho-correlated substrate changes local stability	owner stronger fork	channel existence audit	WORKING_HYPOTHESIS_DIRECT_MICRO	matter window derived
+C20_SIMULTANEOUS_FIXED_POINT	global geometry matter mass volume density solved together	typed future closure	arrow census	OPEN_NATIVE_CLOSURE	equation by diagram
+C21_VARIED_GLOBAL_CONSTRAINT	bootstrap functional contributes to variation	future B functional	type audit	OPEN_CONDITIONAL_FORM	invented functional
+C22_SELECTION_MAP	bootstrap selects representative/section	future Sigma	type audit	OPEN_CONDITIONAL_FORM	claim it exists now
+C23_DIRECT_DENSITY_COUPLING	rho_tot inserted into local action	forbidden candidate	catch-proof	REJECTED_BY_OWNER_RULE	UDT mechanism
+C24_GR_DENSITY_CURVATURE	Einstein relation supplies substrate response	comparison only	catch-proof	REJECTED_AS_UDT_DERIVATION	native field equation
