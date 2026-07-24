@@ -29,39 +29,43 @@ after the user's actual task makes them load-bearing.
    `CURRENT STATE` overrides every other status description. Do not read the remaining historical
    layers at startup.
 2. `HANDOFF.md` — read only its `STARTUP_CURRENT_BEGIN` / `STARTUP_CURRENT_END` range.
-3. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
+3. `udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `LAY_READOUT.md`, and `NEXT_STEP.md`. This is the current bounded result:
+   a nonnull local CSN-invariant connection candidate exists, while physical selection and
+   null/zero global continuation remain open.
+4. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
    `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and `REGRESSION_GUARD_LEDGER.tsv`.
    This is the current evidence-linked routing layer, not authority over its cited evidence.
-4. `udt_finite_cell_cartan_transport_atlas_2026-07-23/AUDIT_REPORT.md`, then its
+5. `udt_finite_cell_cartan_transport_atlas_2026-07-23/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `FINITE_CELL_CARTAN_TRANSPORT_ATLAS.tsv`, and
    `COMPLETION_CAUSAL_CROSS.tsv` when the causal `dphi` structure or current open seam is relevant.
    Read the frame/bivector and metric-pure parent reports only when their exact algebra or lineage
    becomes load-bearing.
-5. `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
+6. `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
    `CLAIM_DEPENDENCY_LEDGER.tsv` and `OPEN_JOIN_LEDGER.tsv`, then
    `REFERENCE_CORRECTION_LAYER.md`, `REVIEW_AGREEMENT_DISAGREEMENT.tsv`, and `PONDER_READOUT.md`.
    The frozen reference plus append-only cold-review layer is a prior dependency spine, not
    authority over its cited evidence.
-6. `udt_global_metric_assembly_atlas_2026-07-22/LAY_REPORT.md`, then `AUDIT_REPORT.md`,
+7. `udt_global_metric_assembly_atlas_2026-07-22/LAY_REPORT.md`, then `AUDIT_REPORT.md`,
    `STATUS_LEDGER.tsv`, and `NEXT_DECISION.md` when the map or proposed next question is relevant.
-7. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` and the July 19/20 source package named by the reference
+8. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` and the July 19/20 source package named by the reference
    only when the task requires that layer's derivation or provenance.
-8. `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`, then
+9. `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`, then
    `angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv` when the conditional global Hopf
    theorem is relevant.
-9. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` only when the exact reciprocal
+10. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` only when the exact reciprocal
    Hopf-orbit witness or its provenance becomes load-bearing, then
    `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` for the preceding carrier/topology
    classification only when that layer is relevant.
-10. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task; none are
+11. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task; none are
    part of generic startup orientation.
-11. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
+12. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
    is durable lane evidence, not the global frontier.
-12. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline only; do not dump the
+13. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline only; do not dump the
    whole charter at startup.
-13. Only the specific full protocol under `.claude/skills/*/SKILL.md` triggered by the actual task;
+14. Only the specific full protocol under `.claude/skills/*/SKILL.md` triggered by the actual task;
    do not preload every skill.
-14. The top/current summary in `INDEX.md` and `MEMORY.md`'s `TOP — CURRENT POINTER` for pointers only;
+15. The top/current summary in `INDEX.md` and `MEMORY.md`'s `TOP — CURRENT POINTER` for pointers only;
     neither can overrule `LIVE.md`.
 
 For the 1,114 fixed-base artifact identities, use
@@ -78,12 +82,16 @@ long solve until that orientation is complete.
 
 The bootstrap/stable-matter interpretation remains a working hypothesis. The current bounded chain
 adds the complete-metric frame rederivation, exact timelike boost/rotation `3+3`, full connection
-mixing, spacelike/null/zero causal classification, and the 12-by-5 completion-family cross. Kato
-transport is geometric and not physical time; the registered completion families are not solved
-universes; and no branch is selected. CSN preserves the intrinsic split but not its Levi-Civita
-mixing profile. Do not silently turn the Cartan join, Kato transport, conditional Hopf theorem,
-celestial fiber, completion family, or time-live proposal into authority to adopt a carrier,
-section, torus, cap, framing, boundary, action, mass law, run GPU work, or claim bootstrap selection.
+mixing, spacelike/null/zero causal classification, and the 12-by-5 completion-family cross. It now
+also supplies `h0=|g^{-1}(dphi,dphi)|g` and `LC(h0)` as exact local CSN-invariant geometric
+candidates on smooth nonnull-`dphi` branches. The `h_f` and stabilizer families leave physical
+connection selection open, torsion-free split preservation is conditional on an umbilical screen,
+and the construction does not cross null/zero strata. Kato transport remains geometric and not
+physical time; the registered completion families are not solved universes; and no branch is
+selected. Do not silently turn `h0`, its connection, the Cartan join, Kato transport, conditional
+Hopf theorem, celestial fiber, completion family, or time-live proposal into authority to adopt a
+physical connection, carrier, section, torus, cap, framing, boundary, action, mass law, run GPU
+work, or claim bootstrap selection.
 
 ## Codex/Claude compatibility
 

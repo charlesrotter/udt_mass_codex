@@ -3,6 +3,8 @@
 This root is the control and navigation surface for the UDT research record.
 After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
+the [current CSN–`dphi` transport audit](udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md)
+→
 the [current scientific checkpoint](udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md)
 → its [`status ledger`](udt_scientific_consolidation_checkpoint_2026-07-23/CURRENT_STATUS_LEDGER.tsv),
 [`metric-to-frontier map`](udt_scientific_consolidation_checkpoint_2026-07-23/METRIC_TO_FRONTIER_MAP.tsv),
@@ -13,6 +15,13 @@ method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/c
 `MEMORY.md` top/current pointer. `AGENTS.md`
 supplies operational instructions and binding research discipline, but it
 cannot overrule the topmost current-state block in `LIVE.md`.
+
+The latest bounded scientific result is the
+[CSN–`dphi` transport-selector audit](udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md).
+Read its `STATUS_LEDGER.tsv`, `LAY_READOUT.md`, and `NEXT_STEP.md` before the consolidation
+checkpoint when connection, transport, bootstrap, or the current open seam is relevant. It derives
+a local CSN-invariant nonnull-`dphi` connection candidate, not a physical connection or global
+finite-cell law.
 
 For particle operator history after current orientation, consult
 [`stability_branch_follow_256_DECISION.md`](stability_branch_follow_256_DECISION.md). It is durable
@@ -31,8 +40,11 @@ the 12-by-5 finite-cell completion/causal cross. It also records the decisive li
 complete on-shell `(g,phi)` finite-cell branch has been supplied or selected.
 
 Common-Scale rescaling preserves the intrinsic `dphi` split but not its Levi-Civita mixing profile.
-The current bounded seam is therefore conformally natural pre-scale transport versus bootstrap
-selection of a physical metric representative. Complete action, source, boundary charge,
+The subsequent transport audit finds that a local CSN-invariant connection exists on nonnull
+`dphi`, while exact natural and stabilizer families prevent physical uniqueness and the
+construction degenerates at null/zero strata. The current bounded seam is therefore whether
+registered reciprocal/reversal/seal naturality selects one connection without an invented
+minimality premise. Complete action, source, boundary charge,
 representative, scale, bridge, carrier emergence, time-live matter law, and unconditional mass
 remain open. No follow-on work is automatic.
 

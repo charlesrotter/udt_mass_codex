@@ -5,6 +5,15 @@ This directory is an additions-only navigation layer. It points to artifacts at 
 ## Current scientific spine — July 23
 
 Start with the
+[CSN–`dphi` transport-selector audit](../udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md),
+then its
+[status ledger](../udt_csn_dphi_transport_selector_audit_2026-07-23/STATUS_LEDGER.tsv),
+[lay readout](../udt_csn_dphi_transport_selector_audit_2026-07-23/LAY_READOUT.md), and
+[next step](../udt_csn_dphi_transport_selector_audit_2026-07-23/NEXT_STEP.md). It derives a local
+CSN-invariant connection candidate on smooth nonnull-`dphi` branches, while retaining exact natural
+and stabilizer families, torsion/interface gates, and physical selection as open.
+
+Next retain the parent
 [scientific checkpoint](../udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md),
 then its
 [current status ledger](../udt_scientific_consolidation_checkpoint_2026-07-23/CURRENT_STATUS_LEDGER.tsv),
@@ -13,7 +22,8 @@ and
 [regression guards](../udt_scientific_consolidation_checkpoint_2026-07-23/REGRESSION_GUARD_LEDGER.tsv).
 This is an evidence-linked routing layer. It moves no artifact, changes no evidence, and creates no
 new physics authority. The current open seam is conformally natural pre-scale transport versus
-bootstrap selection of a physical metric representative.
+bootstrap selection of a physical metric representative; the newer audit refines that seam to
+selection among already available local candidates and their null/zero global completion.
 
 ## Prior scientific spine — July 22
 

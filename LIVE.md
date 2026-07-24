@@ -8,30 +8,37 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
 
-## ============ CURRENT STATE (2026-07-23 — SCIENTIFIC CONSOLIDATION CHECKPOINT COMPLETE. RECIPROCAL KINEMATICS AND THE LOCAL TIMELIKE NONZERO-DPHI BOOST3+ROTATION3 CARTAN JOIN ARE DERIVED WITH THEIR EXACT PREMISE STAMPS. SPACELIKE NONZERO-DPHI RETAINS A REAL SO+(1,2) 3+3 BUT NOT OBSERVER MEANING; NULL DPHI DEGENERATES TO A NILPOTENT FILTRATION; ZERO DPHI HAS NO INTRINSIC REDUCTION. THE EXACT CONNECTION MIXES THE TIMELIKE SECTORS THROUGH ITS BOOST/EXTRINSIC BLOCK; KATO TRANSPORT IS GEOMETRIC, NOT PHYSICAL TIME. ALL TWELVE REGISTERED FINITE-CELL COMPLETION FAMILIES HAVE BEEN CROSSED WITH FIVE CAUSAL CLASSES, BUT ZERO COMPLETE ONSHELL (g,phi) BRANCHES ARE SUPPLIED AND NO COMPLETION IS SELECTED. CSN PRESERVES THE SPLIT BUT NOT ITS LEVI-CIVITA MIXING PROFILE. C2/BACH REMAINS UNIQUE-CONDITIONAL; EH, S2, STABILITY, AND MASS ROUTES REMAIN CONDITIONAL OR POSIT AS RECORDED. COMPLETE ACTION, SOURCE, BOUNDARY CHARGE, PHYSICAL REPRESENTATIVE, ABSOLUTE SCALE, BRIDGE, CARRIER EMERGENCE, TIME-LIVE MATTER LAW, AND UNCONDITIONAL MASS REMAIN OPEN. NEXT BOUNDED SEAM: CONFORMALLY NATURAL PRE-SCALE TRANSPORT VERSUS BOOTSTRAP SELECTION OF A PHYSICAL METRIC REPRESENTATIVE. NO FOLLOW-ON SOLVE, GPU WORK, CANONIZATION, ARTIFACT MOVE, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-23 — CSN–DPHI TRANSPORT-SELECTOR AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. ON EVERY SMOOTH NONNULL-DPHI REGION THE EXACT COMBINATION h0=|g^-1(dphi,dphi)|g IS CSN-INVARIANT, MAKES dphi UNIT TIMELIKE OR SPACELIKE, AND SUPPLIES A LOCAL PRE-SCALE LEVI-CIVITA/WEYL CONNECTION. BOOTSTRAP IS NOT NEEDED MERELY FOR LOCAL CONNECTION EXISTENCE. THIS DOES NOT SELECT A PHYSICAL CONNECTION: THE EXACT h_f=exp(2f(phi))h0 FAMILY SURVIVES CSN, AND EVEN f=lambda*phi^2 SURVIVES RECIPROCAL REVERSAL AND THE STATIC SEAL. A TORSION-FREE WEYL CONNECTION PRESERVES THE DPHI SPLIT UNIQUELY IFF THE ORTHOGONAL SCREEN IS UMBILICAL; GENERIC SHEAR IS OBSTRUCTED. PROJECTED/KATO SPLIT TRANSPORT ALWAYS EXISTS LOCALLY BUT IS GENERICALLY TORSIONFUL AND RETAINS TWELVE POINTWISE STABILIZER-CONNECTION COMPONENTS. h0 DEGENERATES AT NULL DPHI AND VANISHES AT ZERO DPHI, SO GLOBAL INTERFACE CLOSURE REMAINS OPEN. NO CONNECTION IS ADOPTED AS PHYSICAL. C2/BACH REMAINS UNIQUE-CONDITIONAL; EH, S2, STABILITY, AND MASS ROUTES REMAIN CONDITIONAL OR POSIT AS RECORDED. COMPLETE ACTION, SOURCE, BOUNDARY CHARGE, PHYSICAL REPRESENTATIVE, ABSOLUTE SCALE, BRIDGE, CARRIER EMERGENCE, TIME-LIVE MATTER LAW, AND UNCONDITIONAL MASS REMAIN OPEN. NEXT BOUNDED SEAM: WHETHER REGISTERED RECIPROCAL/REVERSAL/SEAL NATURALITY SELECTS ONE CONNECTION WITHOUT ADDING A MINIMALITY PREMISE. NO FOLLOW-ON SOLVE, GPU WORK, CANONIZATION, ARTIFACT MOVE, OR REORGANIZATION IS AUTHORIZED.) ============
 
 **READ NEXT, IN ORDER:**
 
 1. `HANDOFF.md` current marked block.
-2. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`.
-3. Its `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and
+2. `udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `LAY_READOUT.md`, and `NEXT_STEP.md`.
+3. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`.
+4. Its `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and
    `REGRESSION_GUARD_LEDGER.tsv`.
-4. The exact immutable evidence cited there only when the active task makes it load-bearing.
+5. The exact immutable evidence cited there only when the active task makes it load-bearing.
 
 **CURRENT HONEST CLAIM:**
 
-- the complete-metric local frame rederivation, timelike Cartan `3+3`, exact connection mixing, and
-  causal degeneration rules are derived only in their recorded local/nonzero-`dphi` regimes;
+- the complete-metric local frame rederivation, Cartan `3+3`, and causal degeneration rules retain
+  their exact premise stamps;
+- `h0=|g^{-1}(dphi,dphi)|g` and `LC(h0)` are derived geometric candidates only on smooth nonnull
+  `dphi` configuration branches; they are not an adopted physical metric or connection;
+- torsion-free split preservation is unique only when the orthogonal screen is umbilical, while
+  projected split transport is geometric, generally torsionful, and nonunique;
 - the finite-cell result is a complete cross of the registered taxonomy, not a set of solved
   universes;
-- the physical mixing profile remains representative-dependent before the scale/representative
-  selector is known;
+- the prior arbitrary-representative mixing problem has a local CSN-invariant candidate, but the
+  `h_f` and stabilizer families leave physical selection and null/zero continuation open;
 - no action, source, carrier, boundary, scale, matter, or finite-cell branch is selected.
 
 **REGRESSION GUARD:** do not restore negative physical distance, identify `phi` with observer
 rapidity, treat WR-L as the complete frame metric, call co-presence instantaneous signaling, call
 Kato transport physical evolution, turn the celestial `S2` fiber into the carrier, or promote a
-completion family to an on-shell universe.
+completion family to an on-shell universe. Do not promote `h0`, its Levi-Civita connection, or the
+minimal projected connection to physical authority merely because the formulas are natural.
 
 **REORGANIZATION:** R0--R1H remains paused. This checkpoint changes navigation and synthesis only;
 all evidence packages and historical records remain immutable.

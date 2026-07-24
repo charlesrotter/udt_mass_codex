@@ -7,9 +7,11 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-23).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-23 — scientific consolidation checkpoint)
+## CURRENT (2026-07-23 — CSN–`dphi` transport selector)
 
-Read `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
+Read `udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `LAY_READOUT.md`, and `NEXT_STEP.md`. Next retain the consolidated parent
+context from `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
 `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and
 `REGRESSION_GUARD_LEDGER.tsv`. They are evidence-linked navigation and cannot overrule their cited
 immutable sources.
@@ -27,7 +29,17 @@ Current honest structure:
 - Kato transport follows the moving subbundles geometrically and is not physical time evolution;
 - all 12 registered completion families are crossed with all five causal classes, but no complete
   on-shell `(g,phi)` finite-cell branch is supplied or selected;
-- CSN preserves the intrinsic split but not its Levi-Civita mixing profile;
+- on smooth nonnull-`dphi` regions,
+  `h0=|g^{-1}(dphi,dphi)|g` is exactly CSN invariant, makes `dphi` unit, and supplies a local
+  pre-scale Levi-Civita/Weyl connection;
+- this is a `DERIVED_GEOMETRIC_CANDIDATE`, not a physical connection: the exact
+  `h_f=exp(2f(phi))h0` family survives, including nontrivial reversal-even, seal-normalized members;
+- torsion-free split preservation is `UNIQUE_CONDITIONAL` exactly on umbilical screens; generic
+  trace-free shear obstructs it;
+- projected metric split transport exists on every smooth nonnull region but is generally
+  torsionful and retains twelve pointwise stabilizer-connection components;
+- `h0` degenerates at null `dphi` and vanishes at zero `dphi`; interface/global continuation is
+  open;
 - `C2`/Bach remains `UNIQUE-CONDITIONAL`; EH and all present mass routes remain `CONDITIONAL`; the
   carrier remains `POSIT`;
 - complete action, source, boundary charge, physical representative, absolute scale, bridge,
@@ -35,12 +47,14 @@ Current honest structure:
 
 Current bounded seam:
 
-> Determine whether pre-scale UDT supplies a conformally natural connection/transport law for the
-> intrinsic `dphi` reduction, or bootstrap must first select a physical metric representative
-> before Levi-Civita mixing can be physical.
+> Determine whether the already registered reciprocal character, reversal/seal structure, and
+> intrinsic normalized `dphi` reduction select one connection from the `h_f` and stabilizer
+> families without inventing a minimality premise.
 
-No solve, derivation, GPU work, carrier/action adoption, canonization, repository reorganization,
-or artifact relocation follows automatically. R0--R1H remains paused.
+Bootstrap is not needed merely for local connection existence; a bootstrap or equivalent native
+selector is still needed for physical/global authority unless the bounded naturality audit closes
+that gate. No solve, GPU work, carrier/action adoption, canonization, repository reorganization, or
+artifact relocation follows automatically. R0--R1H remains paused.
 
 <!-- STARTUP_CURRENT_END -->
 
