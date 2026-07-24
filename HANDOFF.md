@@ -7,7 +7,52 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-24).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-24 — dual-systole global transport audit)
+## CURRENT (2026-07-24 — X_max observer-separation framing audit)
+
+Read `udt_xmax_observer_separation_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `RELATIONAL_DEFINITION_LEDGER.tsv`, `EXACT_DERIVATION.md`,
+`CLAIM_REGRADE.tsv`, `DEPENDENCY_IMPACT.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+Read the prior dual-systole package afterward only when the angular/Hopf frontier is relevant.
+
+Current ruling:
+
+- Charles's `WORKING` meaning is that `X_max` is the maximum possible separation between two
+  observers, not the edge of the universe;
+- the honest schema is a global supremum of a symmetric, nonnegative observer-pair separation;
+  the admissible observer set, event-pairing/comparison rule, and native complete-metric separation
+  functional remain `OPEN`;
+- finite pair diameter does not imply an edge, boundary, preferred center, radial direction,
+  topology, horizon, seal, quotient, attainment, or boundary functional;
+- global diameter is one scalar once the pair functional exists. The stronger claim that every
+  observer has the same limiting reach is separately `OPEN`;
+- the recorded WR-L `X` is a local radial profile scale, not automatically the global pair
+  diameter. Their equality is an `OPEN_DIAMETER_RADIUS_JOIN`;
+- exact conditional local WR-L profile/clock/optical/horizon algebra survives, and its SNe score
+  remains `OBSERVED` for the supplied local profile;
+- fractional composition and `atanh` remain exact `UNIQUE-CONDITIONAL` mathematics in the supplied
+  one-dimensional oriented projective class, not a general three-observer distance law;
+- full angular/global geometry is load-bearing because two adjacent pair distances do not determine
+  a third without angle/path/holonomy data;
+- scale, local frame, Hopf/dual-systole, and particle results retain their previous premise stamps;
+- finite-cell seal, boundary charge, numerical `X_max`, bootstrap density/mass selection, complete
+  action/source/carrier, and unconditional mass remain `OPEN`.
+
+Evidence: 907/907 base paths classified; 61 load-bearing sources; 34 claim regrades; independent
+same-session implementation and 16/16 catch-proofs pass; tests remain 70 passed/1 xfailed; all six
+frozen packages and the original 54-path dirty checkout are unchanged. Grade
+`VERIFIED-WITH-CAVEATS` because no fresh external model context was used.
+
+Next bounded seam:
+
+> Determine whether the complete metric and already registered finite-cell, Reciprocity, CSN,
+> seal, and bootstrap structure derive the missing two-point observer-separation object, including
+> its observer domain, event pairing, and angular/global completion. Do not invent an edge, signal
+> law, or topology.
+
+No matter or time-live solve, GPU work, canonization, repository reorganization, or artifact
+relocation follows.
+
+## PRIOR CURRENT (2026-07-24 — dual-systole global transport audit)
 
 Read `udt_dual_systole_global_transport_audit_2026-07-24/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `CONTINUOUS_WALL_ATLAS.tsv`, `GLOBAL_TRANSPORT_ATLAS.tsv`,

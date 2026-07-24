@@ -4,6 +4,21 @@
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
 **➤ CURRENT SCIENTIFIC FRONTIER:**
+`udt_xmax_observer_separation_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `RELATIONAL_DEFINITION_LEDGER.tsv`, `EXACT_DERIVATION.md`,
+`CLAIM_REGRADE.tsv`, `DEPENDENCY_IMPACT.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+`X_max` is now typed as Charles's `WORKING` maximum possible observer-pair separation—a global
+diameter schema, not an edge or radius. The metric-native observer domain, event-pairing rule, and
+nonnegative complete-metric separation functional remain `OPEN`. Finite diameter does not select
+boundary, center, topology, attainment, seal, or boundary functional. Local WR-L `X` remains
+distinct from global `X_max` pending an `OPEN_DIAMETER_RADIUS_JOIN`; its exact conditional local
+algebra and observed SNe score survive. Fractional/`atanh` composition remains
+`UNIQUE-CONDITIONAL` in its one-dimensional oriented projective class and is not a general
+three-observer distance law. The next bounded question is whether existing complete-metric and UDT
+structure derives the missing two-point object. No GPU, time-live work, matter solve, edge law,
+topology choice, reorganization, or canonization is authorized.
+
+**➤ PRIOR JULY 24 SCIENTIFIC FRONTIER:**
 `udt_dual_systole_global_transport_audit_2026-07-24/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `CONTINUOUS_WALL_ATLAS.tsv`, `GLOBAL_TRANSPORT_ATLAS.tsv`,
 `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`; next read

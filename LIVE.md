@@ -8,6 +8,53 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
 
+## ============ CURRENT STATE (2026-07-24 — X_MAX OBSERVER-SEPARATION FRAMING AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. X_MAX IS THE WORKING MAXIMUM POSSIBLE SEPARATION BETWEEN TWO OBSERVERS: A GLOBAL PAIR-DIAMETER SCHEMA, NOT AN EDGE OR RADIUS. THE NATIVE OBSERVER DOMAIN, EVENT-PAIRING RULE, AND NONNEGATIVE COMPLETE-METRIC SEPARATION FUNCTIONAL REMAIN OPEN. FINITE DIAMETER DOES NOT IMPLY A BOUNDARY, PREFERRED CENTER, TOPOLOGY, ATTAINMENT, SEAL, OR BOUNDARY FUNCTIONAL. LOCAL WR-L X IS NOT YET GLOBAL X_MAX; THE DIAMETER/RADIUS JOIN IS OPEN. EXACT LOCAL WR-L CLOCK/OPTICAL/HORIZON ALGEBRA AND ITS OBSERVED SNE SCORE SURVIVE SCOPED. FRACTIONAL/ATANH COMPOSITION IS UNIQUE-CONDITIONAL ONLY IN ITS ONE-DIMENSIONAL ORIENTED PROJECTIVE CLASS, NOT A GENERAL THREE-OBSERVER DISTANCE LAW; FULL ANGULAR/GLOBAL GEOMETRY IS LOAD-BEARING. SCALE, HOPF/DUAL-SYSTOLE, AND PARTICLE RESULTS RETAIN THEIR PRIOR STAMPS. COMPLETE ACTION, SOURCE, BOUNDARY, CARRIER, MASS, DENSITY CLOSURE, AND NUMERICAL X_MAX REMAIN OPEN. NEXT BOUNDED QUESTION: WHETHER THE COMPLETE METRIC AND ALREADY REGISTERED UDT PREMISES SUPPLY THE MISSING TWO-POINT OBSERVER-SEPARATION OBJECT. NO EDGE LAW, SIGNAL RULE, TOPOLOGY, ACTION, MATTER/TIME-LIVE SOLVE, GPU WORK, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+
+**READ NEXT, IN ORDER:**
+
+1. `HANDOFF.md` current marked block.
+2. `udt_xmax_observer_separation_audit_2026-07-24/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `RELATIONAL_DEFINITION_LEDGER.tsv`, `EXACT_DERIVATION.md`,
+   `CLAIM_REGRADE.tsv`, `DEPENDENCY_IMPACT.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+3. `udt_dual_systole_global_transport_audit_2026-07-24/AUDIT_REPORT.md` and its
+   load-bearing evidence when the prior angular/Hopf frontier is relevant.
+
+**CURRENT HONEST CLAIM:**
+
+- the owner meaning of `X_max` is `WORKING`: the maximum possible separation between two
+  observers;
+- the exact type is a global supremum of a symmetric nonnegative observer-pair separation, but the
+  complete metric has not yet selected the observer domain, event comparison, or separation
+  functional;
+- a global diameter is not a radius or edge. Boundaryless homogeneous controls prove that finite
+  `X_max` does not select a boundary, center, topology, horizon, seam, quotient, or attainment;
+- the stronger statement that every observer has a partner at limiting separation is separately
+  `OPEN` and requires global transitivity or an equivalent theorem;
+- the recorded WR-L `X` is a local radial profile parameter. Its equality to global observer-pair
+  `X_max` is an `OPEN_DIAMETER_RADIUS_JOIN`; no coefficient is supplied;
+- exact conditional WR-L profile, clock, optical, curvature, and regular-null-surface algebra
+  remains valid, and the SNe score remains `OBSERVED` for that supplied local profile;
+- fractional `X_max` composition and the `atanh` coordinate remain exact and
+  `UNIQUE-CONDITIONAL` in the supplied one-dimensional oriented projective class. They are not a
+  general composition rule for nonnegative pair distances;
+- three-observer separation depends on angular/global data, so the complete angular sector is
+  load-bearing for the missing relational object;
+- the scale-breaking rank theorem, local Lorentz/frame reciprocity, Hopf/dual-systole results, and
+  particle evidence retain their prior premise stamps;
+- finite-cell seal, boundary variation/charge, native mass divergence, density/bootstrap
+  selection, numerical `X_max`, complete action, source, carrier, and unconditional mass remain
+  `OPEN`.
+
+**NEXT:** audit whether the complete metric plus already registered finite-cell, Reciprocity, CSN,
+seal, and bootstrap structure derives a chart/coframe-invariant two-point observer-separation
+functional with its observer domain and event-pairing rule. Do not invent a signal law or select a
+topology.
+
+**EVIDENCE:** exact 907-path base census; 61 load-bearing sources; 34 claim regrades; eight
+countermodels; deterministic production replay; independent same-session implementation; 16/16
+catch-proofs; tests 70 passed/1 xfailed; six frozen packages and original 54-path dirty checkout
+unchanged. Grade `VERIFIED-WITH-CAVEATS` because no fresh external model context was used.
+
 ## ============ CURRENT STATE (2026-07-24 — DUAL-SYSTOLE GLOBAL TRANSPORT AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. THE POSITIVE TRIANGULAR ANGULAR COFRAME COVERS THE COMPLETE LOCAL POSITIVE DETERMINANT-ONE TWO-METRIC MODULI. WHERE A GENUINE INTEGRAL TORUS LATTICE EXISTS, THE METRIC DERIVES THE SET OF SHORTEST PRIMITIVE DUAL CHARACTERS W_MIN. EVERY INDEPENDENT CO-SHORTEST PAIR IS UNIMODULAR; EVERY WALL IS A GL2Z IMAGE OF ONE STANDARD SEGMENT; WALL INTERIORS HAVE TWO TIED UNORIENTED LINES, VERTICES HAVE THREE, AND THREE IS MAXIMAL. W_MIN IS A GLOBAL SET-VALUED INVARIANT ON TORIC LOCAL SYSTEMS. A UNIQUE UNORIENTED CHARACTER LINE AND PROJECTED CONNECTION EXIST ONLY ON GLOBALLY TIE-FREE, MONODROMY-COMPATIBLE BRANCHES. THE SHEAR-FREE RECIPROCAL DIAGONAL NECESSARILY SWAPS (1,0) TO (0,1) THROUGH A TWO-WAY TIE AT PHI=0, SO THE METRIC DOES NOT SUPPLY A UNIQUE PHASE CONTINUATION THERE. ALL TWELVE REGISTERED COMPLETIONS WERE CLASSIFIED WITHOUT PREFERENCE; CAP, QUOTIENT, MONODROMY, MIRROR, ORIENTATION, RANK, AND TORIC-EXISTENCE CONDITIONS REMAIN EXPLICIT. SIGN, PHASE SECTION, PHYSICAL CHARACTER SELECTION, CARRIER, ACTION, SOURCE, BOUNDARY, DENSITY-TO-GEOMETRY LAW, AND BOOTSTRAP FIXED POINT REMAIN OPEN. NO DENSITY VALUE OR WINDOW WAS COMPUTED. NEXT BOUNDED QUESTION: WHETHER ALREADY REGISTERED FINITE-CELL, RECIPROCITY, CSN, OR BOOTSTRAP STRUCTURE SUPPLIES A NATIVE WALL-CROSSING RULE; DO NOT INVENT ONE. NO MATTER SOLVE, TIME-LIVE SOLVE, GPU WORK, CANONIZATION, ARTIFACT MOVE, OR REORGANIZATION IS AUTHORIZED.) ============
 
 **READ NEXT, IN ORDER:**
