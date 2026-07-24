@@ -25,4 +25,9 @@ udt_hopf_realization_deformation_audit_2026-07-23/GLOBAL_COMPLETION_OUTCOMES.tsv
 udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/SHA256SUMS.txt
 matter_bootstrap_dimensional_inventory_2026-07-20/SHA256SUMS.txt
 native_hopfion_topology_audit_2026-07-19/SHA256SUMS.txt
-
+UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md
+udt_three_reciprocity_delta_k_audit_2026-07-23/MANIFEST.sha256
+udt_three_reciprocity_delta_k_audit_2026-07-23/AUDIT_REPORT.md
+udt_three_reciprocity_delta_k_audit_2026-07-23/STATUS_LEDGER.tsv
+udt_three_reciprocity_delta_k_audit_2026-07-23/THREE_RECIPROCITY_ROLE_MAP.tsv
