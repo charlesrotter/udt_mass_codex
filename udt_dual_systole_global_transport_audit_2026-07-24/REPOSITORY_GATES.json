@@ -1,0 +1,148 @@
+{
+  "authority_boundary": {
+    "canon_changed": false,
+    "carrier_or_action_adopted": false,
+    "density_geometry_law_adopted": false,
+    "density_scan_performed": false,
+    "gpu_work_performed": false,
+    "matter_solve_performed": false,
+    "phase_section_adopted": false,
+    "physical_character_adopted": false,
+    "repository_reorganization_performed": false,
+    "startup_controls_changed": false
+  },
+  "base": "7feec2b301de9c9626aaac4b513268e7c8ec165a",
+  "catch_proofs": {
+    "current_paths": "PASS",
+    "dirty": "PASS",
+    "dirty_head": "PASS",
+    "frontier": "PASS",
+    "frozen": "PASS",
+    "package": "PASS",
+    "science_authority": "PASS",
+    "scope": "PASS"
+  },
+  "date": "2026-07-24",
+  "dirty_checkout": {
+    "branch": "grok",
+    "contents_read": false,
+    "head": "adf8f92d95c387cc647f04b16f1f3b17e1e670d2",
+    "metadata_sha256": "4bc96070c841a14c497b642ee7b93dcf9061372f770aee065d6b495ee4996f4c",
+    "paths": 54
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 36,
+    "manifest_sha256": "f26f1b1a126adb36b27b3b9dc31b01cb4ddd8f0729fff9adf9a415fd4fc1340d",
+    "result": "PASS"
+  },
+  "result": "PASS",
+  "schema": "udt-dual-systole-global-transport-repository-gates-v1",
+  "science": {
+    "GL2Z_controls": 6,
+    "completions": 12,
+    "continuous_objects": 14,
+    "deterministic_replay": "BYTE_IDENTICAL",
+    "external_model_review": "NOT_PERFORMED_CAVEAT",
+    "independent_catches": 16,
+    "independent_stdout_sha256": "0af7f8f86f8a3826a185cbe08c748952c2b30f3af65647e406a37af403f2e230",
+    "maximum_tie": 3,
+    "production_stdout_sha256": "59e37d5637028aa3ffcf9d7cbf7a21cd988f8a4817603a71beaf82c76aaf3135",
+    "result": "PASS",
+    "wall_controls": 5
+  },
+  "scope_paths": [
+    "udt_dual_systole_global_transport_audit_2026-07-24/ANALYTIC_OBJECT_REGISTRY.tsv",
+    "udt_dual_systole_global_transport_audit_2026-07-24/AUDIT_REPORT.md",
+    "udt_dual_systole_global_transport_audit_2026-07-24/CATCH_PROOF_RESULTS.tsv",
+    "udt_dual_systole_global_transport_audit_2026-07-24/COMMANDS.txt",
+    "udt_dual_systole_global_transport_audit_2026-07-24/COMPLETENESS_MAP.md",
+    "udt_dual_systole_global_transport_audit_2026-07-24/COMPLETION_COVERAGE.tsv",
+    "udt_dual_systole_global_transport_audit_2026-07-24/COMPLETION_TEST_REGISTRY.tsv",
+    "udt_dual_systole_global_transport_audit_2026-07-24/CONTINUOUS_WALL_ATLAS.tsv",
+    "udt_dual_systole_global_transport_audit_2026-07-24/DIAGONAL_PATH_ATLAS.tsv",
+    "udt_dual_systole_global_transport_audit_2026-07-24/DIRTY_CHECKOUT_METADATA.tsv",
+    "udt_dual_systole_global_transport_audit_2026-07-24/EXACT_DERIVATION.md",
+    "udt_dual_systole_global_transport_audit_2026-07-24/FALSIFICATION_CONTRACT.tsv",
+    "udt_dual_systole_global_transport_audit_2026-07-24/FOUR_GATES.md",
+    "udt_dual_systole_global_transport_audit_2026-07-24/FROZEN_MANIFEST_REPLAY.tsv",
+    "udt_dual_systole_global_transport_audit_2026-07-24/GL2Z_COVARIANCE.tsv",
+    "udt_dual_systole_global_transport_audit_2026-07-24/GLOBAL_TRANSPORT_ATLAS.tsv",
+    "udt_dual_systole_global_transport_audit_2026-07-24/INDEPENDENT_RESULTS.json",
+    "udt_dual_systole_global_transport_audit_2026-07-24/LAY_REPORT.md",
+    "udt_dual_systole_global_transport_audit_2026-07-24/NEXT_STEP.md",
+    "udt_dual_systole_global_transport_audit_2026-07-24/PREMISE_AUDIT.tsv",
+    "udt_dual_systole_global_transport_audit_2026-07-24/PREMISE_LEDGER.tsv",
+    "udt_dual_systole_global_transport_audit_2026-07-24/PREREGISTRATION.md",
+    "udt_dual_systole_global_transport_audit_2026-07-24/REPOSITORY_GATES.json",
+    "udt_dual_systole_global_transport_audit_2026-07-24/RESULTS.json",
+    "udt_dual_systole_global_transport_audit_2026-07-24/RUN_ENVIRONMENT.tsv",
+    "udt_dual_systole_global_transport_audit_2026-07-24/SHA256SUMS.txt",
+    "udt_dual_systole_global_transport_audit_2026-07-24/SOURCE_MANIFEST.tsv",
+    "udt_dual_systole_global_transport_audit_2026-07-24/SOURCE_VERIFICATION.tsv",
+    "udt_dual_systole_global_transport_audit_2026-07-24/STANDARD_WALL_CONTROLS.tsv",
+    "udt_dual_systole_global_transport_audit_2026-07-24/STATUS_LEDGER.tsv",
+    "udt_dual_systole_global_transport_audit_2026-07-24/VERIFICATION_REPORT.md",
+    "udt_dual_systole_global_transport_audit_2026-07-24/build_manifest.py",
+    "udt_dual_systole_global_transport_audit_2026-07-24/derive_dual_systole_global_transport.py",
+    "udt_dual_systole_global_transport_audit_2026-07-24/verify_dual_systole_global_transport.py",
+    "udt_dual_systole_global_transport_audit_2026-07-24/verify_repository_gates.py"
+  ],
+  "tests": {
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest -q tests/",
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "returncode": 0,
+    "stdout_sha256": "4b2adcf0449d1b6d7bdea2aa15b566474f634070c63419f0399899ca46adfaaa",
+    "xfailed": 1
+  }
+}

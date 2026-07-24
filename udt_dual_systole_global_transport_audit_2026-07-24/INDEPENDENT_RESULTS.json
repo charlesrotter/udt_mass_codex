@@ -1,0 +1,41 @@
+{
+  "catch_proof_pass_count": 16,
+  "density_scan": false,
+  "diagonal_ruling": "RECIPROCAL_CHARACTER_SWAP_REQUIRES_TIE_CROSSING",
+  "gpu_used": false,
+  "matter_solve": false,
+  "maximum_tie_multiplicity": 3,
+  "method": "stdlib_independent_lattice_enumeration_plus_exact_integer_and_fraction_controls",
+  "overall": "PASS",
+  "phase_section": "OPEN",
+  "physical_selection": "OPEN_NOT_SELECTED",
+  "production_module_imported": false,
+  "schema": "udt_dual_systole_global_transport_independent_v1",
+  "verification": {
+    "chart": {
+      "chart_residual_max": 1.4210854715202004e-14,
+      "chart_samples": 35,
+      "diagonal_segments": 3,
+      "diagonal_tie_count_at_zero": 2
+    },
+    "completions": {
+      "classified_completions": 12,
+      "physically_selected": 0,
+      "preferred_or_filtered": 0,
+      "registered_completions": 12
+    },
+    "covariance": {
+      "GL2Z_controls": 6,
+      "connection_residual": "EXACT_FRACTION_ZERO",
+      "norm_residual_max": 1.1102230246251565e-16
+    },
+    "wall": {
+      "Hermite_bound": 1.1547005383792517,
+      "independent_wall_samples": 9,
+      "maximum_numeric_residual": 0.0,
+      "maximum_tie_multiplicity_observed": 3,
+      "standard_wall_controls": 5
+    }
+  },
+  "wall_pair_ruling": "UNIMODULAR"
+}

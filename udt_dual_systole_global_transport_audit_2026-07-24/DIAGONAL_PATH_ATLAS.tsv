@@ -1,0 +1,4 @@
+segment_id	domain	Q	W_min_mod_sign	multiplicity	connection_candidate	global_continuation
+D01	phi<0;shear=0	diag(exp(2phi),exp(-2phi))	(1,0)	1	first_shift_character	UNIQUE_WITHIN_SEGMENT
+D02	phi=0;shear=0	identity	(1,0);(0,1)	2	SET_VALUED	TIE_NO_METRIC_TIE_BREAK
+D03	phi>0;shear=0	diag(exp(2phi),exp(-2phi))	(0,1)	1	second_shift_character	UNIQUE_WITHIN_SEGMENT

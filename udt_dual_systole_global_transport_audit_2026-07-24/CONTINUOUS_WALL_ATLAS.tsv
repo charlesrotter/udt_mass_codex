@@ -1,0 +1,15 @@
+item_id	object	exact_statement	status	scope_or_obstruction
+W01	full_metric_chart	tau=shear*exp(phi)+i*exp(2phi) bijects R2 with upper_half_plane	DERIVED	positive_det_one_angular_metrics
+W02	character_norm	L_(p,q)=abs(p*tau-q)^2/Im(tau)=w^T H^-1 w	DERIVED	primitive_integral_character_required
+W03	unique_chamber	C_w={tau:L_w<L_v_for_all_primitive_v_not_plusminus_w}	DERIVED_DEFINITION	infinite_inequality_is_locally_finite
+W04	general_equality_locus	(p2-r2)(x2+y2)-2x(pq-ru)+(q2-u2)=0	DERIVED	only_admissible_segment_is_shortest_wall
+W05	co_shortest_pair	independent_shortest_primitive_w_v_imply_abs(det(w,v))=1	DERIVED	uses_two_dimensional_Hermite_bound_derived_from_reduced_basis
+W06	standard_reduced_wall	Q_basis=[[L,B],[B,L]];L2-B2=1;abs(B)<=L/2	DERIVED	all_walls_are_GL2Z_images
+W07	wall_parameter	ratio=B/L_in_[-1/2,1/2];L=1/sqrt(1-ratio2)	DERIVED	interior_has_two_shortest_lines
+W08	triple_vertices	ratio=-1/2_adds_w+v;ratio=+1/2_adds_w-v	DERIVED	three_unoriented_lines
+W09	maximum_tie_multiplicity	at_most_three_unoriented_primitive_shortest_lines	DERIVED	two_dimensions_and_positive_det_one
+W10	standard_upper_half_plane_wall	x2+y2=1;abs(x)<=1/2;y>0	DERIVED	tie_between_(1,0)_and_(0,1)
+W11	local_constancy	unique_W_min_is_locally_constant_in_lattice_trivialization_off_wall_set	DERIVED	discrete_line_changes_only_at_tie
+W12	wall_crossing	transverse_crossing_exchanges_unique_minimizer_and_metric_leaves_tie_unoriented	DERIVED	continuation_requires_extra_rule
+W13	projected_connection	b_w=w^T S_is_GL2Z_covariant_for_supplied_w	DERIVED	does_not_supply_phase_section
+W14	physical_selection	no_registered_UDT_premise_selects_shortest_character_as_physical	OPEN	canonicity_is_not_dynamics_or_ontology

@@ -1,0 +1,7 @@
+matrix_id	matrix	base_shortest	predicted_shortest_mod_sign	observed_shortest_mod_sign	norm_residual	connection_covariance	status
+M01	((1, 0), (0, 1))	(0,1)	(0,1)	(0,1)	0	EXACT_SYMBOLIC	PASS
+M02	((0, 1), (1, 0))	(0,1)	(1,0)	(1,0)	0	EXACT_SYMBOLIC	PASS
+M03	((1, 1), (0, 1))	(0,1)	(0,1)	(0,1)	0	EXACT_SYMBOLIC	PASS
+M04	((0, -1), (1, 0))	(0,1)	(1,0)	(1,0)	0	EXACT_SYMBOLIC	PASS
+M05	((-1, 0), (0, -1))	(0,1)	(0,1)	(0,1)	0	EXACT_SYMBOLIC	PASS
+M06	((1, 0), (1, 1))	(0,1)	(1,-1)	(1,-1)	1.1102230246251565e-16	EXACT_SYMBOLIC	PASS

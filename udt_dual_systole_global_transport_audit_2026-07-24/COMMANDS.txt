@@ -1,0 +1,7 @@
+python3 -m py_compile udt_dual_systole_global_transport_audit_2026-07-24/derive_dual_systole_global_transport.py
+python3 udt_dual_systole_global_transport_audit_2026-07-24/derive_dual_systole_global_transport.py
+python3 -m py_compile udt_dual_systole_global_transport_audit_2026-07-24/verify_dual_systole_global_transport.py
+python3 udt_dual_systole_global_transport_audit_2026-07-24/verify_dual_systole_global_transport.py
+CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest -q tests/
+python3 udt_dual_systole_global_transport_audit_2026-07-24/build_manifest.py
+CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 udt_dual_systole_global_transport_audit_2026-07-24/verify_repository_gates.py

@@ -1,0 +1,98 @@
+{
+  "GL2Z_control_count": 6,
+  "base_commit": "7feec2b301de9c9626aaac4b513268e7c8ec165a",
+  "completion_count": 12,
+  "continuous_object_count": 14,
+  "density_to_geometry": "OPEN_NOT_SAMPLED",
+  "diagonal_path_ruling": "RECIPROCAL_CHARACTER_SWAP_REQUIRES_TIE_CROSSING",
+  "diagonal_segment_count": 3,
+  "exact": {
+    "D": [
+      [
+        "exp(-phi)",
+        "shear"
+      ],
+      [
+        "0",
+        "exp(phi)"
+      ]
+    ],
+    "H": [
+      [
+        "exp(-2*phi)",
+        "shear*exp(-phi)"
+      ],
+      [
+        "shear*exp(-phi)",
+        "shear**2 + exp(2*phi)"
+      ]
+    ],
+    "Q": [
+      [
+        "shear**2 + exp(2*phi)",
+        "-shear*exp(-phi)"
+      ],
+      [
+        "-shear*exp(-phi)",
+        "exp(-2*phi)"
+      ]
+    ],
+    "character_norm_phi": "p**2*shear**2 + p**2*exp(2*phi) - 2*p*q*shear*exp(-phi) + q**2*exp(-2*phi)",
+    "character_norm_upper": "p**2*x**2/y + p**2*y - 2*p*q*x/y + q**2/y",
+    "general_equality_phi": "(p**2*shear**2*exp(2*phi) + p**2*exp(4*phi) - 2*p*q*shear*exp(phi) + q**2 - r**2*shear**2*exp(2*phi) - r**2*exp(4*phi) + 2*r*shear*u*exp(phi) - u**2)*exp(-2*phi)",
+    "general_equality_upper": "p**2*x**2 + p**2*y**2 - 2*p*q*x + q**2 - r**2*x**2 - r**2*y**2 + 2*r*u*x - u**2",
+    "reduced_gram_determinant": "-B**2 + L**2",
+    "reduced_wall_parameter": "B=ratio*L;abs(ratio)<=1/2;L=1/sqrt(1-ratio^2)",
+    "residuals": {
+      "GL2_norm_covariance_residual": "0",
+      "H_upper_half_plane_residual": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "character_norm_residual": "0",
+      "det_H_minus_one": "0",
+      "projected_connection_covariance_residual": "0",
+      "reduced_wall_det_residual": "0",
+      "triple_minus_residual": "0",
+      "triple_plus_residual": "0",
+      "vertex_x_residual": "0",
+      "vertex_y_residual": "0",
+      "x_roundtrip": "0",
+      "y_roundtrip": "0"
+    },
+    "standard_wall_phi": "(shear**2*exp(2*phi) + exp(4*phi) - 1)*exp(-2*phi)",
+    "standard_wall_segment": "x^2+y^2=1;abs(x)<=1/2;y>0",
+    "standard_wall_upper": "x**2 + y**2 - 1",
+    "standard_wall_vertices": {
+      "phi": "log(sqrt(3)/2)/2",
+      "shear_magnitude": "sqrt(2)*3**(3/4)/6",
+      "upper": "x=plus_or_minus_1/2;y=sqrt(3)/2"
+    },
+    "tau_inverse": "phi=log(y)/2;shear=x/sqrt(y)",
+    "tau_map": "x=shear*exp(phi);y=exp(2*phi)"
+  },
+  "global_ruling": "SET_VALUED_INVARIANT_GLOBAL_WHERE_TORIC__UNIQUE_LINE_ONLY_ON_TIE_FREE_BRANCHES",
+  "gpu_used": false,
+  "matter_solve_launched": false,
+  "phase_section": "OPEN",
+  "physical_ruling": "CANONICAL_GEOMETRIC_CHARACTER_NOT_PHYSICALLY_SELECTED",
+  "preregistration_commit": "a99096e34ed5df16873d9a5b7f5a4e4cc8429652",
+  "schema": "udt_dual_systole_global_transport_v1",
+  "source_count": 16,
+  "wall_control_count": 5,
+  "wall_theorem": {
+    "determinant_relation": "L^2-B^2=1",
+    "independent_co_shortest_pair": "UNIMODULAR",
+    "interior_tie_multiplicity": 2,
+    "maximum_unoriented_tie_multiplicity": 3,
+    "reduction_range": "abs(B)<=L/2",
+    "standard_gram": "[[L,B],[B,L]]",
+    "vertex_tie_multiplicity": 3
+  }
+}

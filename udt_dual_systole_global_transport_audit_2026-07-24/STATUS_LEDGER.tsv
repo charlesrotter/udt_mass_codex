@@ -1,0 +1,19 @@
+id	status	claim	exact_scope	remaining_open
+S01	DERIVED	The positive triangular angular coframe covers every positive determinant-one angular two-metric.	local real phi and shear; exact Cholesky/upper-half-plane bijection	global completion and physical representative
+S02	DERIVED	The primitive character norm is L_(p,q)=abs(p*tau-q)^2/Im(tau).	integral torus character lattice and positive H	no torus lattice is inferred on nontoric branches
+S03	DERIVED	Every character equality locus is an explicit circle or line in the upper-half-plane chart.	all primitive pairs	only its no-shorter subsegment is an admissible wall
+S04	DERIVED	Every independent co-shortest primitive pair is unimodular.	positive determinant-one dual metric in two dimensions	depends on the supplied integral lattice
+S05	DERIVED	Every admissible wall is a GL2Z image of one reduced standard segment.	ratio B/L in [-1/2,1/2]	global monodromy can identify or exchange segments
+S06	DERIVED	Wall interiors have two shortest unoriented lines and vertices have exactly three; three is maximal.	full continuous local metric moduli	sign and physical choice are not included
+S07	DERIVED	The shortest-character set is GL2Z covariant.	joint transformation of metric and character lattice	covariance is not physical selection
+S08	DERIVED	A unique shortest line is locally constant along any tie-free path in a fixed lattice trivialization.	local tie-free toric region	global sign and monodromy remain branch-dependent
+S09	DERIVED	For a supplied character the projected connection b_w=w^T S is GL2Z covariant.	toric chart with the complete shift pair	a connection is not a phase section
+S10	DERIVED	The shortest-character set is a global set-valued invariant wherever H and the torus lattice form a global local system.	toric completions and their GL2Z transitions	it ceases to be defined where the lattice/rank is lost
+S11	CONDITIONAL	A unique unoriented character sub-local-system exists on a globally tie-free branch.	requires tie avoidance and monodromy preservation	sign and phase section remain open
+S12	OPEN	A character sign or orientation is selected.	shortest lines are identified modulo sign	no registered premise supplies the lift
+S13	OPEN	A global phase section is selected.	projected connection may have curvature or holonomy	boundary framing and section selection
+S14	DERIVED	The shear-free reciprocal diagonal swaps shortest characters through a two-way tie at phi=0.	exact supplied toric control family	no metric-only unique continuation at the tie
+S15	OBSERVED	All twelve registered finite-cell completion classes were classified exactly once without preference.	inherited bounded completion taxonomy	not a claim of all possible global four-geometries
+S16	OPEN	The shortest character is physically operative in UDT.	canonical geometric candidate only	Reciprocity CSN finite-cell and bootstrap supply no present selector rule
+S17	OPEN	Total proper density selects a chamber line completion or scale.	no density scan or density-to-geometry law used	bootstrap relation remains missing
+S18	OPEN	A native carrier action source boundary completion mass or matter solution follows.	outside this audit	no scientific closure claimed

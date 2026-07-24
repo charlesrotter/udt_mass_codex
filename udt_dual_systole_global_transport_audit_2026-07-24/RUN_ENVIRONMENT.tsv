@@ -1,0 +1,10 @@
+key	value
+date	2026-07-24
+os	Linux-6.8.0-124-generic-x86_64-with-glibc2.35
+python_version	3.10.12
+python_executable	/usr/bin/python3
+sympy_version	1.13.1
+device	CPU_ONLY
+CUDA_VISIBLE_DEVICES	EMPTY_FOR_GATES
+base_commit	7feec2b301de9c9626aaac4b513268e7c8ec165a
+preregistration_commit	a99096e34ed5df16873d9a5b7f5a4e4cc8429652

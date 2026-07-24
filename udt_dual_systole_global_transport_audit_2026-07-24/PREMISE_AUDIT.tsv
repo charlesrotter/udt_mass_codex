@@ -1,0 +1,24 @@
+premise_id	registered_stamp	use_in_audit	audit_outcome	final_grade
+P01	DERIVED	load-bearing local chart	positive triangular coframe retained	CONFIRMED_IN_SCOPE
+P02	DERIVED	load-bearing metric identity	H and Q recomputed exactly with determinant one	CONFIRMED_IN_SCOPE
+P03	free-and-explored	full continuous real axis	upper-half-plane map covers all phi values	COMPLETE_LOCAL_AXIS
+P04	free-and-explored	full continuous real axis	upper-half-plane map covers all shear values	COMPLETE_LOCAL_AXIS
+P05	CONDITIONAL	load-bearing lattice input	used only on genuinely toric regions	CONDITIONAL_RETAINED
+P06	CHOSE	unoriented mathematical convention	all shortest directions kept modulo sign	SIGN_REMAINS_OPEN
+P07	DERIVED_GEOMETRIC_INVARIANT	parent object	continuous chamber complex derived	CONFIRMED_IN_SCOPE
+P08	DERIVED_IN_TORIC_CHART	projected connection	exact joint covariance verified	DOES_NOT_SUPPLY_SECTION
+P09	free-and-explored	all twelve completion rows	every registered class classified once	COMPLETE_REGISTERED_TAXONOMY
+P10	CONDITIONAL	cap subcases	annihilation or vanishing-amplitude condition retained	NO_CAP_INVENTED
+P11	CONDITIONAL	covariance and monodromy	GL2Z basis changes tested exactly	BASIS_CHANGE_NOT_PHYSICS
+P12	free-and-explored	mirror and orientation cases	preserve exchange and conjugate cases separated	NO_LIFT_SELECTED
+P13	WORKING	invariance discipline	common-scale-neutral H is compatible but selects no line	NOT_A_PHYSICAL_SELECTOR
+P14	WORKING	structural discipline	no reciprocity rule used to break a tie	NOT_A_PHYSICAL_SELECTOR
+P15	WORKING	global taxonomy	finite cell does not universally imply a torus or section	NO_COMPLETION_SELECTED
+P16	WORKING	later admissibility	not operationalized in this audit	OPEN
+P17	OPEN	authority gate	no physical character promoted	OPEN
+P18	OPEN	authority gate	unoriented line never promoted to sign	OPEN
+P19	OPEN	authority gate	connection never promoted to phase section	OPEN
+P20	POSIT	comparison only	not used in primary derivation	UNCHANGED_POSIT
+P21	CONDITIONAL	outside primary derivation	not used to select a line	UNCHANGED_CONDITIONAL
+P22	OPEN	outside scope	no density axis or scan introduced	UNTESTED
+P23	REJECTED_AS_DERIVATION	provenance firewall	no external field equation imported	PASS
