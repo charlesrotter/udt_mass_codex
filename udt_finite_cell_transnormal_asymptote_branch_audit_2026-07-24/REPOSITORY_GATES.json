@@ -1,0 +1,145 @@
+{
+  "authority_boundary": {
+    "action_or_source_selected": false,
+    "canon_changed": false,
+    "carrier_selected": false,
+    "global_Xmax_promoted": false,
+    "gpu_work": false,
+    "historical_or_frozen_changed": false,
+    "mass_density_or_boundary_solve": false,
+    "repository_reorganization": false,
+    "startup_controls_changed": false
+  },
+  "base": "e0c3015",
+  "catch_proofs": {
+    "current_paths": "PASS",
+    "dirty": "PASS",
+    "frontier": "PASS",
+    "frozen": "PASS",
+    "package": "PASS",
+    "science_B19_clock": "PASS",
+    "science_FC12_witness": "PASS",
+    "science_WRL_global": "PASS",
+    "science_control": "PASS",
+    "science_critical_point": "PASS",
+    "science_global": "PASS",
+    "scope": "PASS"
+  },
+  "dirty_checkout": {
+    "branch": "grok",
+    "contents_read": false,
+    "head": "adf8f92d95c387cc647f04b16f1f3b17e1e670d2",
+    "metadata_sha256": "4bc96070c841a14c497b642ee7b93dcf9061372f770aee065d6b495ee4996f4c",
+    "paths": 54,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 31,
+    "manifest_sha256": "dfdbb8ac0c938c4e8472d761edd38d8f657513181893a368f4b155ddae99d539",
+    "result": "PASS"
+  },
+  "result": "PASS",
+  "schema": "udt-finite-cell-transnormal-repository-gates-1.0",
+  "science": {
+    "deterministic_replay": "BYTE_IDENTICAL",
+    "equation_family_rows": 28,
+    "finite_cell_rows": 12,
+    "full_global_Xmax_passes": 0,
+    "independent_catches": 12,
+    "independent_checks": 17,
+    "independent_sha256": "8f62de231727a647fb7313c81d5473cf1fc2bbf8158e994929028ef80859dc90",
+    "production_checks": 20,
+    "result": "PASS",
+    "result_sha256": "f72080d210255d5c106a70a2fdb996f8ee1e865278671ba0087b7c2cb625c0f0",
+    "source_identities": 15
+  },
+  "scope_paths": [
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/ADVERSARIAL_REVIEW.md",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/AUDIT_REPORT.md",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/CALCULABLE_CONTROL_LEDGER.tsv",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/COMMANDS.txt",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/CONTROL_GATE_MATRIX.tsv",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/DERIVATION_RESULT.json",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/EQUATION_FAMILY_SCREEN.tsv",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/EXACT_DERIVATION.md",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/FINITE_CELL_TRANSNORMAL_LEDGER.tsv",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/FOUR_GATES.md",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/INDEPENDENT_STDERR.txt",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/INDEPENDENT_STDOUT.txt",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/INDEPENDENT_VERIFICATION.json",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/LAY_REPORT.md",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/NEXT_STEP.md",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/PRODUCTION_STDERR.txt",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/PRODUCTION_STDOUT.txt",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/REPOSITORY_GATES.json",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/RUN_ENVIRONMENT.json",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/SHA256SUMS.txt",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/STATUS_LEDGER.tsv",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/TEST_STDERR.txt",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/TEST_STDOUT.txt",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/build_manifest.py",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/capture_tests.py",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/derive_branch_transnormal_map.py",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/replay_and_capture.py",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/requirements.txt",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/verify_branch_transnormal_independent.py",
+    "udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/verify_repository_gates.py"
+  ],
+  "tests": {
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest -q tests/",
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "stdout_sha256": "445101fb74f1621482e36058b52ec3aec0e5335d38e69f0d790c6ea1539d8028",
+    "xfailed": 1
+  }
+}

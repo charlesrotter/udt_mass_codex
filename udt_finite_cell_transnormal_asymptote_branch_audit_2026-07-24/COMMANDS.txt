@@ -1,0 +1,4 @@
+python3 udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/replay_and_capture.py
+python3 udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/capture_tests.py
+python3 udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/build_manifest.py
+python3 udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24/verify_repository_gates.py

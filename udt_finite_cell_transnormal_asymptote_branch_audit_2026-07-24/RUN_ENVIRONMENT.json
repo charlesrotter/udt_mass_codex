@@ -1,0 +1,21 @@
+{
+  "compute": "CPU_ONLY",
+  "cuda_visible_devices": "",
+  "independent": {
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 verify_branch_transnormal_independent.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "a08a45c6dc4fe6f584d54e077bbfdb3250509aa0cb8da1ef923359edd150dfda"
+  },
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "production": {
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 derive_branch_transnormal_map.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "e44fc32ece8c8c40a4b50d4526af69bf7a06d043994541338e8d71362b5957d2"
+  },
+  "python": "3.10.12",
+  "python_executable": "/usr/bin/python3",
+  "schema": "udt-finite-cell-transnormal-run-environment-1.0",
+  "sympy": "1.13.1"
+}

@@ -1,0 +1,62 @@
+{
+  "check_count": 20,
+  "checks": {
+    "B19_D_derivative": "PASS",
+    "B19_Dprime": "PASS",
+    "B19_diameter_to_one_sided_depth_ratio": "PASS",
+    "B19_dphi_deta": "PASS",
+    "B19_eta_phi_identity": "PASS",
+    "B19_neutral_value": "PASS",
+    "B19_one_sided_cap_depth": "PASS",
+    "FC12_Dprime": "PASS",
+    "FC_output_one_row_each": "PASS",
+    "WRL_D": "PASS",
+    "WRL_Dprime": "PASS",
+    "WRL_endpoint": "PASS",
+    "family_output_one_row_each": "PASS",
+    "interval_turning_control_B_zero": "PASS",
+    "mirror_static_control_B_zero": "PASS",
+    "periodic_static_control_B_zero": "PASS",
+    "pure_time_phi_has_zero_spatial_B": "PASS",
+    "three_control_gate_rows": "PASS",
+    "twelve_FC_rows_exact_order": "PASS",
+    "twenty_eight_family_rows_exact_order": "PASS"
+  },
+  "control_count": 3,
+  "exact_controls": {
+    "B19_round": {
+      "B": "cosh(2*phi)**2/b**2",
+      "D": "b*atan(sinh(2*phi))/2",
+      "diameter_to_depth_ratio": "4",
+      "global_spatial_diameter": "pi*b",
+      "one_sided_endpoint": "pi*b/4"
+    },
+    "FC12": {
+      "B": "A(phi)^(-2)",
+      "Dprime": "A(phi)",
+      "endpoint": "integral_0^infinity A(phi)dphi"
+    },
+    "WRL": {
+      "B": "exp(2*phi)/(4*X**2)",
+      "D": "2*X - 2*X*exp(-phi)",
+      "endpoint": "2*X"
+    }
+  },
+  "family_classification_counts": {
+    "CONDITIONAL_DEPTH_EVALUABLE_NOT_CLOCK_SOLDERED": 1,
+    "INELIGIBLE_NO_COMMON_WITNESS": 24,
+    "LOCAL_CLOCK_DEPTH_ONLY_NO_GLOBAL_COMPLETION": 1,
+    "TOPOLOGY_ONLY_NO_COMPLETE_G_PHI_WITNESS": 2
+  },
+  "family_rows": 28,
+  "fc_classification_counts": {
+    "FORMULA_ONLY_PROFILE_OR_ENDPOINT_OPEN": 1,
+    "OBSTRUCTED_SMOOTH_GLOBAL_TRANSNORMAL_CLOCK_DEPTH": 5,
+    "TOPOLOGY_ONLY_NO_COMPLETE_G_PHI_WITNESS": 6
+  },
+  "fc_rows": 12,
+  "full_global_Xmax_pass_count": 0,
+  "global_ruling": "NO_REGISTERED_COMPLETE_CLOCK_SOLDERED_FINITE_CELL_PAIR_DISTANCE_BRANCH;GLOBAL_XMAX_REMAINS_OPEN",
+  "schema": "udt-finite-cell-transnormal-asymptote-branch-audit-1.0",
+  "sympy_version": "1.13.1"
+}

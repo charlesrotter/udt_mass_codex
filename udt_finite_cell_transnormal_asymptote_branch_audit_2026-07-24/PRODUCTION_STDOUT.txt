@@ -1,0 +1,6 @@
+SymPy 1.13.1
+exact_checks=20
+FC_rows=12
+family_rows=28
+payload_sha256=46df1d47e4a458c24fe00c298dda0217c9b42f62009a359d828a795808777f9f
+status=PASS
