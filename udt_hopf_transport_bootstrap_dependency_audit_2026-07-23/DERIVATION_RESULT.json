@@ -1,0 +1,317 @@
+{
+  "all_checks_pass": true,
+  "bootstrap_adjudication": {
+    "B0": "topological dependency classification needs no bootstrap",
+    "B1": "current bootstrap may only filter already complete matter-bearing global solutions",
+    "B2": "a future derived Sigma could select a representative section or branch; none is supplied",
+    "B3": "a future derived varied functional B could modify equations; none is supplied",
+    "density_window_now": "not operational before native action source total mass proper volume boundary and complete solutions",
+    "topological_role_later": "could bracket admissible complete topological sectors without changing the definition of Q"
+  },
+  "checks": {
+    "E2_conformal_weight_q": true,
+    "E4_conformal_weight_inverse_q": true,
+    "Hodge_primitive_metric_sensitive": true,
+    "Hopf_integral_metric_weight_zero": true,
+    "energy_noninvariance_witness": true,
+    "generic_torsion_identity_pass": true,
+    "primitive_gauge_exact_difference": true,
+    "source_authority_pass": true,
+    "source_hashes_and_manifests_pass": true,
+    "torsion_free_reduction_pass": true,
+    "torsionful_corrected_rewrite_passes": true,
+    "torsionful_naive_rewrite_fails": true
+  },
+  "conformal_action_weights": {
+    "E2_weight": "q",
+    "E4_weight": "1/q",
+    "Hodge_star_on_two_forms_in_three_dimensions_weight": "q^-1",
+    "Hopf_form_integral_metric_weight": 0,
+    "hbar": "q^2 h",
+    "hf_specialization": "q=exp(f(phi)); E2 gets exp(f), E4 gets exp(-f)",
+    "noninvariance_witness": {
+      "E2": 3,
+      "E4": 5,
+      "different": true,
+      "original": "8",
+      "q": 2,
+      "transformed": "17/2"
+    },
+    "spatial_dimension": 3,
+    "transformed_energy": "E2*q + E4/q",
+    "volume_weight": "q^3"
+  },
+  "dependency_rulings": {
+    "Hodge_or_Coulomb_primitive": "METRIC_BOUNDARY_AND_GAUGE_DEPENDENT_REPRESENTATIVE",
+    "conditional_toric_unit_class": "AFFINE_TRANSPORT_INDEPENDENT_BUT_GLOBAL_TORIC_PREMISES_SUPPLIED",
+    "emergent_native_Hopf_realization": "DEPENDS_ON_OPEN_SECTION_TRANSPORT_TRIVIALIZATION_GLOBAL_COMPLETION_AND_DYNAMICS",
+    "internal_target_L2_plus_L4": "DIRECT_AFFINE_CONNECTION_INDEPENDENT_BUT_METRIC_MEASURE_COEFFICIENT_CARRIER_AND_BOUNDARY_DEPENDENT",
+    "static_stability": "RETAINS_EXACT_EXISTING_METRIC_ACTION_CARRIER_BOX_OPERATOR_PREMISES",
+    "tangent_or_null_section_action": "REQUIRES_SELECTED_BUNDLE_CONNECTION_OR_INTRINSIC_DERIVATIVE_AND_IS_OPEN",
+    "time_live_persistence": "OPEN_REQUIRES_DYNAMICS_REGULARITY_AND_PHYSICAL_BOUNDARY",
+    "topological_core": "TRANSPORT_INDEPENDENT_CONDITIONAL_ON_SUPPLIED_MAP_DOMAIN_ORIENTATION_NORMALIZATION_AND_BOUNDARY_CLASS"
+  },
+  "maximum_conclusion": [
+    "TOPOLOGICAL_CORE_TRANSPORT_INDEPENDENT_IN_DECLARED_CARRIER_DOMAIN",
+    "EMERGENT_HOPF_REALIZATION_DEPENDS_ON_OPEN_SECTION_TRANSPORT_BOUNDARY_OR_DYNAMICS",
+    "CURRENT_BOOTSTRAP_IS_OUTER_ADMISSIBILITY_ONLY"
+  ],
+  "not_claimed": [
+    "native carrier",
+    "selected Hopf section",
+    "physical affine connection",
+    "native L2+L4 action",
+    "physical boundary",
+    "time-live persistence",
+    "bootstrap selector operator",
+    "mass or scale",
+    "carrier emergence"
+  ],
+  "primitive_gauge_identity": {
+    "boundary_form_derivative": "chi*dF012 + chi0*f12 - chi1*f02 + chi2*f01",
+    "closed_form_exact_difference": true,
+    "integral_invariant_when_boundary_term_vanishes": true,
+    "integrand_change": "chi0*f12 - chi1*f02 + chi2*f01",
+    "required_boundary_scope": "closed domain or fixed/constant boundary class"
+  },
+  "python": "3.10.12",
+  "schema": "udt-hopf-transport-bootstrap-dependency-v1",
+  "source_authority": {
+    "all_checks_pass": true,
+    "checks": {
+      "bootstrap_placement_underdetermined": true,
+      "carrier_is_posit": true,
+      "coframe_native_bridge_open": true,
+      "complete_matter_action_open": true,
+      "conditional_Hopf_domain": true,
+      "current_bootstrap_after_solution": true,
+      "current_bootstrap_no_local_operator": true,
+      "density_not_pointwise_operator": true,
+      "future_B_only_conditional": true,
+      "future_Sigma_only_conditional": true,
+      "global_real_Hopf_object_open": true,
+      "intrinsic_Hopf_section_open": true,
+      "physical_affine_selector_open": true,
+      "physical_carrier_boundary_open": true,
+      "projected_transport_torsionful": true,
+      "split_connection_nonunique": true,
+      "static_stability_scoped": true,
+      "time_live_persistence_open": true,
+      "toric_bootstrap_no_ranking": true
+    },
+    "current_bootstrap": "AFTER_SOLUTION_GLOBAL_ADMISSIBILITY_ONLY",
+    "future_bootstrap_forms": [
+      "Sigma map",
+      "varied global functional B"
+    ],
+    "future_forms_current_status": "OPEN_CONDITIONAL_FORM_NOT_SUPPLIED"
+  },
+  "source_manifest": [
+    {
+      "actual_sha256": "6f03f82d485d4a20c2d2bfc13dc8979c1b229bf92c53f0eb36831abf3d75febc",
+      "expected_sha256": "6f03f82d485d4a20c2d2bfc13dc8979c1b229bf92c53f0eb36831abf3d75febc",
+      "hash_match": true,
+      "package_manifest": true,
+      "package_replay": true,
+      "path": "native_hopfion_topology_audit_2026-07-19/SHA256SUMS.txt",
+      "replay_stdout_sha256": "d36329b79a95772f8a37eae4f5d6f1e82ca49c719e5d59594287a0e1df4bc73b"
+    },
+    {
+      "actual_sha256": "e3a13c9eb28adec4948ac29d42dc554e9f9b37b8a8ba9953095dfbeac155a0d5",
+      "expected_sha256": "e3a13c9eb28adec4948ac29d42dc554e9f9b37b8a8ba9953095dfbeac155a0d5",
+      "hash_match": true,
+      "package_manifest": true,
+      "package_replay": true,
+      "path": "udt_reciprocal_transport_naturality_selector_audit_2026-07-23/SHA256SUMS.txt",
+      "replay_stdout_sha256": "c6cf9872cb2f6667b57cb5e966dae9eee330b30c64d83ee1e922c61af2a66283"
+    },
+    {
+      "actual_sha256": "bb42e8787920a2c600d76b24f66021e7b473a2c82452eb1a15a0530132407c05",
+      "expected_sha256": "bb42e8787920a2c600d76b24f66021e7b473a2c82452eb1a15a0530132407c05",
+      "hash_match": true,
+      "package_manifest": true,
+      "package_replay": true,
+      "path": "udt_csn_dphi_transport_selector_audit_2026-07-23/SHA256SUMS.txt",
+      "replay_stdout_sha256": "f628c73fc3d1c1a414fbe11617c25aeadeffe5e8661ff3cffa9da82e495bdfec"
+    },
+    {
+      "actual_sha256": "1857bde1fff72829487f56ddd9fb461a2d9cad7b777a51baa125529713c8bfd4",
+      "expected_sha256": "1857bde1fff72829487f56ddd9fb461a2d9cad7b777a51baa125529713c8bfd4",
+      "hash_match": true,
+      "package_manifest": true,
+      "package_replay": true,
+      "path": "udt_complete_metric_intrinsic_object_audit_2026-07-23/MANIFEST.sha256",
+      "replay_stdout_sha256": "328ab4bb24f14c4e49c16a971fe72aa913614b6ddad2b35bf01d20c253b6bdeb"
+    },
+    {
+      "actual_sha256": "ee35787b41fbca774031080c1c12a4c0fe01dc820abdeb444e1977d58bbb0b1b",
+      "expected_sha256": "ee35787b41fbca774031080c1c12a4c0fe01dc820abdeb444e1977d58bbb0b1b",
+      "hash_match": true,
+      "package_manifest": true,
+      "package_replay": true,
+      "path": "udt_coframe_hopf_bridge_audit_2026-07-23/MANIFEST.sha256",
+      "replay_stdout_sha256": "f5cd960546caa40c00e497aebd648397b581a03705a42f5eb06e0112058a0108"
+    },
+    {
+      "actual_sha256": "b9dca9e1baca68b82118e1a008829196d9bb834dae69cfa5d82f0ae771902164",
+      "expected_sha256": "b9dca9e1baca68b82118e1a008829196d9bb834dae69cfa5d82f0ae771902164",
+      "hash_match": true,
+      "package_manifest": true,
+      "package_replay": true,
+      "path": "udt_motif_hopf_correspondence_audit_2026-07-22/SHA256SUMS.txt",
+      "replay_stdout_sha256": "52c097898eccf83ecb9815a7a624cacfb27777b318b90a1d7f01d9b4c951b2e4"
+    },
+    {
+      "actual_sha256": "64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50",
+      "expected_sha256": "64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50",
+      "hash_match": true,
+      "package_manifest": true,
+      "package_replay": true,
+      "path": "angular_toric_closure_selector_2026-07-19/SHA256SUMS.txt",
+      "replay_stdout_sha256": "5073207437e7b43a2e7def4456ab23e7eb2834df7dc42674bfc0c421a1a1748a"
+    },
+    {
+      "actual_sha256": "e195d14349407c23e4a050628ec84298d3d35e23e2c25b5cf285a5c81f8e989b",
+      "expected_sha256": "e195d14349407c23e4a050628ec84298d3d35e23e2c25b5cf285a5c81f8e989b",
+      "hash_match": true,
+      "package_manifest": true,
+      "package_replay": true,
+      "path": "null_section_hopfion_metric_audit_2026-07-19/SHA256SUMS.txt",
+      "replay_stdout_sha256": "22569a6d8327d8ecb3ab1bc87c0baa5e463509def9c7758d2e7d5872add3cc93"
+    },
+    {
+      "actual_sha256": "32e523d44142cd36904a66f385890c5c417d9b827d0ac3cf956bdb48a838004b",
+      "expected_sha256": "32e523d44142cd36904a66f385890c5c417d9b827d0ac3cf956bdb48a838004b",
+      "hash_match": true,
+      "package_manifest": true,
+      "package_replay": true,
+      "path": "projective_transport_section_selector_2026-07-19/SHA256SUMS.txt",
+      "replay_stdout_sha256": "d2a6e5fd4beb2a0492bd407eb116803529bd8fc172a19f21596457e7418ffc13"
+    },
+    {
+      "actual_sha256": "1a48e574835ee3838514294a7badd2415a74cdb0d10cf0545c30d3698ab022d2",
+      "expected_sha256": "1a48e574835ee3838514294a7badd2415a74cdb0d10cf0545c30d3698ab022d2",
+      "hash_match": true,
+      "package_manifest": true,
+      "package_replay": true,
+      "path": "bootstrap_csn_phi_angular_selector_2026-07-19/SHA256SUMS.txt",
+      "replay_stdout_sha256": "8a5aa1548ea2a1c1b18356781c6cc46c0a6df23247870a8ca0388d9c411dda91"
+    },
+    {
+      "actual_sha256": "716c2ad9c071a49f75b4c340d6d980d75cfc0a48b0923c39e0cf3d100759ae77",
+      "expected_sha256": "716c2ad9c071a49f75b4c340d6d980d75cfc0a48b0923c39e0cf3d100759ae77",
+      "hash_match": true,
+      "package_manifest": true,
+      "package_replay": true,
+      "path": "matter_bootstrap_dimensional_inventory_2026-07-20/SHA256SUMS.txt",
+      "replay_stdout_sha256": "b87fbf9cd637b27fccf90c46ee16c96c3098e6cd2cc70fb942db5093bdd44789"
+    },
+    {
+      "actual_sha256": "d38232792ac78188687db433a3f60a08c775c46e9ecf5fc42ad7953dc89fadb0",
+      "expected_sha256": "d38232792ac78188687db433a3f60a08c775c46e9ecf5fc42ad7953dc89fadb0",
+      "hash_match": true,
+      "package_manifest": false,
+      "package_replay": true,
+      "path": "UDT_NATIVE_ACTION_COLD_PACKET.md",
+      "replay_stdout_sha256": ""
+    },
+    {
+      "actual_sha256": "afeecd68e220074f9609a9488b11cf91532cf708785510a492d0e9814fe4eee1",
+      "expected_sha256": "afeecd68e220074f9609a9488b11cf91532cf708785510a492d0e9814fe4eee1",
+      "hash_match": true,
+      "package_manifest": false,
+      "package_replay": true,
+      "path": "UDT_S2_CARRIER_STATUS_CLARIFICATION_2026-07-15.md",
+      "replay_stdout_sha256": ""
+    },
+    {
+      "actual_sha256": "53110844b3925b9b46bb48a3865f1bf9f60290efdd01a5830e0e388aeb477444",
+      "expected_sha256": "53110844b3925b9b46bb48a3865f1bf9f60290efdd01a5830e0e388aeb477444",
+      "hash_match": true,
+      "package_manifest": false,
+      "package_replay": true,
+      "path": "noNull_energy.py",
+      "replay_stdout_sha256": ""
+    },
+    {
+      "actual_sha256": "995df0c30e1595a83d1335050be8e3fbbfb22f02b6b5d6643787048cc2d7aa2b",
+      "expected_sha256": "995df0c30e1595a83d1335050be8e3fbbfb22f02b6b5d6643787048cc2d7aa2b",
+      "hash_match": true,
+      "package_manifest": false,
+      "package_replay": true,
+      "path": "noNull_resolve.py",
+      "replay_stdout_sha256": ""
+    },
+    {
+      "actual_sha256": "7a9dcf021a23cd663bb484e435ee716084e38999f0629b294790aca77e15b748",
+      "expected_sha256": "7a9dcf021a23cd663bb484e435ee716084e38999f0629b294790aca77e15b748",
+      "hash_match": true,
+      "package_manifest": false,
+      "package_replay": true,
+      "path": "hopfion_arc_scripts_2026-07-05/fs_hopfion.py",
+      "replay_stdout_sha256": ""
+    },
+    {
+      "actual_sha256": "9806bc8f61b94109080699f00d8a758f1afc935db18a11f07dbe7365a61811d5",
+      "expected_sha256": "9806bc8f61b94109080699f00d8a758f1afc935db18a11f07dbe7365a61811d5",
+      "hash_match": true,
+      "package_manifest": false,
+      "package_replay": true,
+      "path": "stability_branch_follow_256_DECISION.md",
+      "replay_stdout_sha256": ""
+    },
+    {
+      "actual_sha256": "57f5e251124b194fcb98e6c92490c238c54f7aeb38adc83fefab27e46104eab4",
+      "expected_sha256": "57f5e251124b194fcb98e6c92490c238c54f7aeb38adc83fefab27e46104eab4",
+      "hash_match": true,
+      "package_manifest": false,
+      "package_replay": true,
+      "path": "noNull_schur_inertia_ALL.json",
+      "replay_stdout_sha256": ""
+    },
+    {
+      "actual_sha256": "ea4e522cef2a04973806ac1aed714c0a2f20badd1766c656d108594298d1c98d",
+      "expected_sha256": "ea4e522cef2a04973806ac1aed714c0a2f20badd1766c656d108594298d1c98d",
+      "hash_match": true,
+      "package_manifest": false,
+      "package_replay": true,
+      "path": "noNull_behavioral_F_results.md",
+      "replay_stdout_sha256": ""
+    }
+  ],
+  "sympy": "1.13.1",
+  "torsion_identity": {
+    "generic_identity_pass": true,
+    "generic_residual": "0",
+    "identity": "dF_abc=3*nabla_[a F_bc]+T^d_ab F_dc+T^d_bc F_da+T^d_ca F_db",
+    "torsion_free_reduction_pass": true,
+    "torsionful_witness": {
+      "corrected_rewrite_passes": true,
+      "dF": "0",
+      "naive_covariant_antisymmetrization": "-2",
+      "naive_rewrite_fails": true,
+      "torsion_correction": "2"
+    }
+  },
+  "transport_adjudication": {
+    "A0_plus_lambda_dphi_torsion_free": "true exterior closure equals covariant antisymmetrization",
+    "Gamma_f_torsion_free": "true exterior closure equals covariant antisymmetrization",
+    "no_affine_connection": "sufficient for pullback, dF, primitive class, and form integral once map/domain data are supplied",
+    "normal_conformal_tractor": "different representation transport; not needed by supplied de Rham Hopf core",
+    "projected_Kato_torsionful": "true exterior closure requires torsion correction",
+    "projected_plus_stabilizer": "true d remains independent; covariant rewrite follows actual torsion"
+  },
+  "typed_connections": {
+    "Hopf_principal_connection": {
+      "bundle": "principal U1 bundle P -> S2",
+      "operator": "U1-valued vertical-normalized one-form on P",
+      "role": "horizontal lift and first Chern/Hopf readout in supplied bundle"
+    },
+    "affine_tangent_connection": {
+      "bundle": "TM",
+      "operator": "nabla: sections(TM) -> Omega1(M,TM)",
+      "role": "compare tangent/screen data"
+    },
+    "same_type": false
+  }
+}

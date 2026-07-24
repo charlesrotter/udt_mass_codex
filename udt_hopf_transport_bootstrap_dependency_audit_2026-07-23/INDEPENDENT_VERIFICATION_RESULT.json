@@ -1,0 +1,55 @@
+{
+  "agreement": {
+    "bootstrap_is_outer_bracket": true,
+    "emergent_realization_remains_open_join": true,
+    "production_all_checks_pass": true,
+    "production_three_maximum_conclusions": true,
+    "topological_core_scoped_to_supplied_domain": true
+  },
+  "all_checks_pass": true,
+  "catches": {
+    "reject_Gamma_dependent_fixed_map_Hopf_number": true,
+    "reject_carrier_posit_promotion": true,
+    "reject_complete_matter_action": true,
+    "reject_current_bootstrap_local_selector": true,
+    "reject_fiber_to_section_promotion": true,
+    "reject_hf_invariant_L2L4": true,
+    "reject_local_density_insertion": true,
+    "reject_metric_free_Hodge_primitive": true,
+    "reject_naive_torsionful_covariant_closure": true,
+    "reject_principal_affine_type_conflation": true,
+    "reject_static_stability_export": true,
+    "reject_time_live_persistence": true,
+    "reject_topology_to_energy_independence_leap": true
+  },
+  "counts": {
+    "agreement_passed": 5,
+    "agreement_total": 5,
+    "catches_passed": 13,
+    "catches_total": 13,
+    "exact_checks_passed": 9,
+    "exact_checks_total": 9
+  },
+  "exact_checks": {
+    "E2_weight_is_q": true,
+    "E4_weight_is_inverse_q": true,
+    "closed_gauge_change_is_exact": true,
+    "energy_changes_under_nonunit_q": true,
+    "form_Hopf_integral_has_no_affine_input": true,
+    "principal_and_affine_connections_have_different_bundles": true,
+    "source_hashes_match": true,
+    "torsion_corrected_identity_passes": true,
+    "torsionful_naive_rewrite_fails": true
+  },
+  "method": "Python stdlib and exact Fraction arithmetic; no SymPy and no controller import",
+  "schema": "udt-hopf-transport-bootstrap-independent-v1",
+  "torsion_control": {
+    "corrected_passes": true,
+    "correction": "-5827/30030",
+    "dF": "1/6",
+    "independent_exact_cases": 17,
+    "naive": "5416/15015",
+    "naive_fails": true,
+    "naive_failures": 16
+  }
+}
