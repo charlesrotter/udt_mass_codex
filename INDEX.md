@@ -22,6 +22,15 @@ non-collinear composition. Next: determine whether founding observer reciprocity
 coframe derives the transition law between observer-indexed depth-and-angle charts. No action,
 density, matter/time-live/GPU work, canonization, or reorganization is authorized.
 
+**➤ SUPPORTING HISTORICAL `PHI`-EQUATION SALVAGE:**
+`udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`CLAIM_LEDGER.tsv`, `EXACT_DERIVATION.md`, `PREMISE_LEDGER.tsv`, and `LAY_REPORT.md`.
+The historical static metric determinant and scalar d'Alembertian survive as exact controls.
+The screened equation survives only for an independent scalar varied on a fixed metric; it is not
+the self-gravitating equation for the same `phi` inside `g[phi]`. The chosen quadratic action,
+screening scale, arbitrary source, linear `sinh` profile, and universal-law interpretation are not
+native UDT results. This supporting correction does not change the current bilocal frontier.
+
 **➤ PRIOR JULY 24 RECIPROCAL-PAIR GLOBAL-MODULE FRONTIER:**
 `udt_reciprocal_pair_global_module_audit_2026-07-24/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `LOCAL_MODULE_CENSUS.tsv`,

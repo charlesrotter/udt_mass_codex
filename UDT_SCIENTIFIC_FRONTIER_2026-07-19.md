@@ -71,6 +71,36 @@ local identity at every observer. This is not authority to select `F`, import SR
 mechanics, promote a projective display, insert density, launch matter/time-live/GPU work, select
 an action or carrier, canonize, move artifacts, or resume repository reorganization.
 
+## July 24 historical phi-equation salvage overlay — supporting guard
+
+Read `udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`CLAIM_LEDGER.tsv`, `EXACT_DERIVATION.md`, `PREMISE_LEDGER.tsv`, and `LAY_REPORT.md` whenever a
+scalar `phi` equation, screening scale, source, or profile is proposed.
+
+The historical static reciprocal metric supplies exact controls:
+
+```text
+sqrt(-g)=c r^2 sin(theta),
+Box_g f=r^-2 d_r[r^2 exp(-2phi) f'],
+Box_g phi=-G^theta_theta.
+```
+
+The last equation is a geometric identity, not by itself an equation of motion. The historical
+screened equation `(Box_g-mu^2)phi=-S` is the Euler-Lagrange equation only when the varied scalar is
+independent and the metric is held fixed. When the same `phi` determines `g[phi]`, self-consistent
+variation changes the operator by exactly `exp(-2phi)(phi')^2`.
+
+Status: exact scalar geometry `SALVAGED_AS_STATIC_CONTROL`; screened equation
+`CONDITIONAL_PROBE_ONLY`; quadratic action, `mu`, native source, linear `sinh` profile as universal,
+and universal-law claim `REJECTED_AS_NATIVE_DERIVATION`. For WR-L,
+`Box_g phi_WRL=1/(Xr)`, so the historical zero-source screened equation does not select that
+profile.
+
+The old equation contains no observer event pairing, recentering cocycle, angular screen/Jacobi
+map, cut-locus path family, or finite-cell descent. It therefore does not close or replace the
+current bilocal observer-transition question. The original untracked historical file remains
+unmodified; its reusable mathematics is reproduced in tracked evidence.
+
 ## July 24 dual-systole global transport overlay — prior authority
 
 Read `udt_dual_systole_global_transport_audit_2026-07-24/AUDIT_REPORT.md`, then its

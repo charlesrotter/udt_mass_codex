@@ -29,6 +29,13 @@ signed lift, chart transitions, and physical readout. Angular data is required f
 composition. The next bounded question is whether founding observer reciprocity plus the complete
 coframe derives the transition law between those depth-and-angle charts.
 
+Supporting historical guard: the
+[phi-equation salvage audit](../udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md)
+retains the exact static reciprocal-metric scalar operator and the
+fixed-background/self-consistent variation distinction. It does not adopt the old quadratic
+screened action, source, scale, linear profile, or universal-law claim and does not change the
+current bilocal seam.
+
 ## Prior scientific spine — July 23
 
 Start with the

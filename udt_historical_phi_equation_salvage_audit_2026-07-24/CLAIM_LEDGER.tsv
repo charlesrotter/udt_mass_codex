@@ -1,0 +1,14 @@
+claim_id	historical_claim	primary_class	exact_scope	current_disposition	reason
+H01	sqrt(-g)=c*r^2*sin(theta) is phi-independent	SALVAGE_EXACT_METRIC_IDENTITY	static spherical diagonal reciprocal metric	INCORPORATE_AS_CONTROL	temporal and radial reciprocal factors cancel exactly
+H02	Box_g f=r^-2*d_r(r^2*exp(-2phi)*f_r)	SALVAGE_EXACT_METRIC_IDENTITY	static spherical scalar f	INCORPORATE_AS_CONTROL	exact scalar operator on the supplied metric
+H03	Box_g phi=-G^theta_theta	ALREADY_SUBSUMED_CURRENT_EVIDENCE	static spherical diagonal reciprocal metric	INCORPORATE_AS_IDENTITY_NOT_EOM	exact identity already independently verified in June evidence
+H04	the quadratic screened action is minimal and UDT-pure	REJECT_AS_NATIVE_UDT_LAW	chosen fixed-background scalar template	REJECT_NATIVE_STATUS	metric does not select the action or exclude alternatives
+H05	(Box_g-mu^2)phi=-S follows by variation	SALVAGE_CONDITIONAL_PROBE_RESULT	independent probe scalar with g held fixed	KEEP_CONDITIONAL	the displayed EL is correct only in the fixed-background variation domain
+H06	the same screened equation governs metric-determining phi everywhere	REJECT_AS_NATIVE_UDT_LAW	claimed macro/micro universality	REJECT	self-consistent g[phi] variation differs by exp(-2phi)*(phi')^2
+H07	mu_g is the unique metric screening invariant	REJECT_AS_NATIVE_UDT_LAW	chosen quadratic potential coefficient	REJECT	mu_g is introduced rather than selected by the metric identity
+H08	S(r) is the native phi source	REJECT_AS_NATIVE_UDT_LAW	unspecified source slot	REJECT	source is deliberately left arbitrary
+H09	linearization is reliable throughout microphysics	REJECT_AS_NATIVE_UDT_LAW	small-|phi| static spherical approximation	REJECT_GENERALITY	valid only where |phi|<<1; historical project depths violate that condition
+H10	phi=C*sinh(mu*r)/(mu*r) is the universal regular profile	SALVAGE_CONDITIONAL_PROBE_RESULT	linear fixed-background zero-source centered branch	KEEP_AS_TEXTBOOK_CONTROL	exact solution of the conditional Helmholtz problem only
+H11	the nonlinear equation directly supplies WR-L phi	REJECT_AS_NATIVE_UDT_LAW	static WR-L profile	REFUTED_AS_ZERO_SOURCE_JOIN	Box_g phi=1/(X*r), so a nonzero singular source would be required
+H12	the historical equation supplies observer recentering or angular-screen composition	OUT_OF_SCOPE_FOR_CURRENT_BILOCAL_GATE	centered static spherical scalar equation	NO_HELP_ON_OPEN_GATE	no endpoint event pairing, recentering cocycle, path family, or transverse screen law
+H13	the old untracked document is required as active authority	ALREADY_SUBSUMED_CURRENT_EVIDENCE	historical provenance only	DO_NOT_PROMOTE_OR_COPY	all reusable mathematics is reproduced in tracked evidence and this correction layer

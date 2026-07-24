@@ -1,0 +1,17 @@
+premise	status	impact
+static_spherical_diagonal_areal_r	CHOSE	bounded control; not the complete observer-pair geometry
+reciprocal_metric_coefficients	PINNED_BY_THEORY_FOR_CONTROL	supplies exact determinant and scalar-operator identities
+scalar_f_independent_of_metric_field	FREE_AND_EXPLICIT	defines the valid probe variation domain
+identify_f_with_metric_phi_after_fixed_metric_variation	CONDITIONAL_PROBE_ONLY	does not become a self-gravitating metric equation
+vary_metric_dependence_g_of_phi	SELF_CONSISTENT_ALTERNATIVE	adds exp(-2phi)*(phi_prime)^2 relative to the probe operator
+quadratic_kinetic_action	CHOSE	not selected by the metric
+mass_screening_term_mu_squared_phi_squared	CHOSE	not selected by the metric
+mu_value	FREE_UNSUPPLIED	no native scale follows
+source_S	FREE_UNSUPPLIED	no native source follows
+S_equals_zero	CHOSE_CONDITIONAL	defines only the vacuum probe control
+small_phi	CHOSE_APPROXIMATION	linear result applies only where independently controlled
+regular_center	CHOSE_BOUNDARY_CONDITION	excludes nonregular and center-free branches
+time_independence	CHOSE	drops the time-live sector
+round_angular_sector	CHOSE	drops general angular shape, twist, and shifts
+observer_event_pairing	OPEN	not supplied by the old equation
+path_family_and_chart_transition	OPEN	not supplied by the old equation

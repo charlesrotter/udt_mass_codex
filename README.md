@@ -23,6 +23,12 @@ the abstract ordered reciprocal pair operator and its exact balanced `O(1,1)` re
 Neither audit selects a physical mutual-clock readout, `X_max`, action, source, carrier, mass,
 density law, or time-live dynamics.
 
+When a scalar `phi` equation or profile is proposed, consult the
+[historical phi-equation salvage audit](udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md).
+It retains the old document's exact static metric identities and conditional probe mathematics,
+while rejecting its screened action, scale, source, and universal-profile claims as native UDT.
+It is a supporting regression guard, not a new frontier or physics authority.
+
 For particle operator history after current orientation, consult
 [`stability_branch_follow_256_DECISION.md`](stability_branch_follow_256_DECISION.md). It is durable
 particle-lane evidence, not the global scientific frontier.

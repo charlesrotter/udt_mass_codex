@@ -1,0 +1,10 @@
+{
+  "cpu_only": true,
+  "gpu_work_performed": false,
+  "platform": "Linux",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "source_checkout": "/tmp/udt_phi_ontology_XvSL3D/repo",
+  "source_branch": "grok",
+  "base_commit": "d000d9caace162723084941816077aa97dbf3c78"
+}

@@ -1,0 +1,24 @@
+{
+  "all_pass": true,
+  "check_count": 4,
+  "checks": {
+    "WRL_direct_tensor_box": true,
+    "direct_tensor_box_equals_minus_Gtheta": true,
+    "metric_determinant": true,
+    "self_variation_differs_from_fixed_metric_by_gradient_square": true
+  },
+  "environment": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "expressions": {
+    "Gtheta_mixed": "(2*r*Derivative(p(r), r)**2 - r*Derivative(p(r), (r, 2)) - 2*Derivative(p(r), r))*exp(-2*p(r))/r",
+    "WRL_box_phi": "1/(X*r)",
+    "box_phi": "(r*(-2*Derivative(p(r), r)**2 + Derivative(p(r), (r, 2))) + 2*Derivative(p(r), r))*exp(-2*p(r))/r",
+    "det_g": "-r**4*sin(theta)**2",
+    "fixed_metric_equation": "(-mu**2*r*p(r)*exp(2*p(r)) - r*(2*Derivative(p(r), r)**2 - Derivative(p(r), (r, 2))) + 2*Derivative(p(r), r))*exp(-2*p(r))/r",
+    "self_variation_equation": "(-mu**2*r*p(r)*exp(2*p(r)) - r*Derivative(p(r), r)**2 + r*Derivative(p(r), (r, 2)) + 2*Derivative(p(r), r))*exp(-2*p(r))/r"
+  },
+  "method": "direct_4d_christoffel_ricci_einstein_plus_independent_EL",
+  "pass_count": 4
+}

@@ -55,6 +55,15 @@ Next bounded seam:
 Do not select `F`, import SR/GR observer mechanics, promote a projective display, insert density,
 launch matter/time-live/GPU work, select an action or carrier, canonize, or reorganize.
 
+Historical `phi`-equation guard: read
+`udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md` when a scalar equation,
+screening scale, source, or profile is proposed. The static reciprocal metric's determinant,
+radial scalar d'Alembertian, and `Box_g phi=-G^theta_theta` are exact controls. The old
+`(Box_g-mu^2)phi=-S` equation is valid only as a fixed-background probe equation: varying the same
+`phi` inside `g[phi]` changes the operator by `exp(-2phi)(phi')^2`. Its action, `mu`, source,
+linear `sinh` profile, and claimed universal status are not incorporated. It supplies no bilocal
+observer transition and does not alter the next bounded seam.
+
 <!-- STARTUP_CURRENT_END -->
 
 ## PRIOR CURRENT (2026-07-24 — reciprocal-pair global-module audit)

@@ -1,0 +1,32 @@
+{
+  "all_pass": true,
+  "check_count": 8,
+  "checks": {
+    "WRL_box_exact": true,
+    "WRL_not_zero_source_screened_for_finite_constant_mu": true,
+    "box_phi_equals_minus_Gtheta": true,
+    "linear_vacuum_sinh_solution": true,
+    "probe_EL_matches_fixed_background_screened_equation": true,
+    "radial_box_expansion": true,
+    "self_EL_matches_self_consistent_equation": true,
+    "self_minus_probe_operator": true
+  },
+  "environment": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "expressions": {
+    "Gtheta_mixed": "(-r*(-2*Derivative(phi(r), r)**2 + Derivative(phi(r), (r, 2))) - 2*Derivative(phi(r), r))*exp(-2*phi(r))/r",
+    "WRL_box_phi": "1/(X*r)",
+    "WRL_screened_zero_source_residual": "mu**2*log(1 - r/X)/2 + 1/(X*r)",
+    "box_phi": "(r*(-2*Derivative(phi(r), r)**2 + Derivative(phi(r), (r, 2))) + 2*Derivative(phi(r), r))*exp(-2*phi(r))/r",
+    "linear_vacuum_solution": "C*sinh(mu*r)/(mu*r)",
+    "probe_phi_lhs": "(-mu**2*r*phi(r)*exp(2*phi(r)) - 2*r*Derivative(phi(r), r)**2 + r*Derivative(phi(r), (r, 2)) + 2*Derivative(phi(r), r))*exp(-2*phi(r))/r",
+    "self_minus_probe": "exp(-2*phi(r))*Derivative(phi(r), r)**2",
+    "self_phi_lhs": "(-mu**2*r*phi(r)*exp(2*phi(r)) + r*(-Derivative(phi(r), r)**2 + Derivative(phi(r), (r, 2))) + 2*Derivative(phi(r), r))*exp(-2*phi(r))/r",
+    "sqrt_minus_g_without_angular_factor": "c*r**2"
+  },
+  "maximum_conclusion": "exact metric identities plus conditional fixed-background probe mathematics only; no native action, source, screening scale, universal phi law, or bilocal observer transition is derived",
+  "pass_count": 8,
+  "scope": "static_spherical_diagonal_areal_radius_control"
+}
