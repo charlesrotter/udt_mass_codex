@@ -1,8 +1,23 @@
-# INDEX — Repo Map (2026-07-23 lean)
+# INDEX — Repo Map (2026-07-24 lean)
 
-**⚠ BRANCH: `grok` (2026-07-23)** — `main` is stale for this arc; `git checkout grok`.
+**⚠ BRANCH: `grok` (2026-07-24)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
 **➤ CURRENT SCIENTIFIC FRONTIER:**
+`udt_pre_density_substrate_response_atlas_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `TORUS_LATTICE_SELECTOR_ATLAS.tsv`, `GLOBAL_DESCENT_ATLAS.tsv`,
+`LAY_REPORT.md`, and `NEXT_STEP.md`; next read the July 23 substrate and Hopf-realization packages
+listed below. On toric angular branches the complete coframe supplies a joint normalized `T2`
+fiber metric and `T2` connection. The direct chart-eigenaxis/phase identification remains open,
+but the metric plus integer torus lattice derives a canonical shortest primitive dual-character
+set. Where unique modulo sign, that set makes a rank-one character line and projected connection
+available without selecting a physical phase. The frozen 25-point atlas observes 22 unique cases
+and three ties; on the shear-free family the reciprocal character swap across `phi=0` is exact.
+All twelve completions retain their global conditions. Physical selection, sign, tie-wall
+continuation, phase section, carrier, action, source, boundary, density map, and matter closure
+remain open. Next: map the continuous shortest-character walls and global branch transport. No
+GPU/time-live work, migration, reorganization, or canonization is authorized.
+
+**➤ PRIOR JULY 23 SCIENTIFIC FRONTIER:**
 `udt_bootstrap_substrate_micro_closure_audit_2026-07-23/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `CHANNEL_OUTCOMES.tsv`, `PRIOR_RESULT_REGRADE.tsv`,
 `FIXED_POINT_OUTCOMES.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`; next read

@@ -1,8 +1,61 @@
 # UDT Scientific Frontier — Co-Presence, Bootstrap, and Angular–Toric Hopf Closure
 
-Date: 2026-07-20
+Date: 2026-07-24
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
+
+## July 24 pre-density substrate-response atlas — current authority
+
+Read `udt_pre_density_substrate_response_atlas_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `TORUS_LATTICE_SELECTOR_ATLAS.tsv`, `GLOBAL_DESCENT_ATLAS.tsv`,
+`LAY_REPORT.md`, and `NEXT_STEP.md` before the July 23 layers below.
+
+On every branch with a genuine integral torus fiber, the complete angular coframe
+
+```text
+theta_ang=D(dxi+S dx)
+```
+
+supplies a joint geometric object: a normalized torus metric `H` and a `T2` connection `S`.
+
+The direct spin-two-eigenaxis route does not close. The matrix eigenaxis is only intrinsic after
+an `SO(2)` reference is supplied, and `delta=2 alpha` fails relative torus-translation
+equivariance.
+
+The metric plus finite-cell lattice supplies a different, stronger object:
+
+```text
+W_min(H)=argmin {w^T H^-1 w : w in Z^2 primitive}, with w identified with -w.
+```
+
+This shortest primitive dual-character set is integral, CSN neutral, and `GL(2,Z)` covariant.
+Where it contains one line, the geometry makes the rank-one character and projected connection
+
+```text
+b_star=w_star^T S
+```
+
+canonically available. This is a geometric candidate, not yet a physically selected `U1`.
+
+The frozen `5 x 5` `phi`/shear atlas has 22 unique cases and 3 ties. Those counts are bounded
+observations. On the shear-free family the reciprocal swap is exact because
+`H^-1=diag(exp(2phi),exp(-2phi))`: `(1,0)` for `phi<0`, a two-character tie at `phi=0`, and
+`(0,1)` for `phi>0`.
+
+All twelve registered completions retain their cap, monodromy, mirror, orientation, stratum, or
+toric-existence conditions. The conditional round-`S2` `L2+L4` probe responds exactly to common
+scale, anisotropy, and a supplied character connection, but it remains conditional.
+
+Status: `JOINT_T2_METRIC_CONNECTION_OBJECT_DERIVED`;
+`BRANCHWISE_CANONICAL_METRIC_LATTICE_U1_REDUCTION_AVAILABLE`;
+`PHYSICAL_SELECTION_AND_PHASE_SECTION_OPEN`; `VERIFIED-WITH-CAVEATS`. Production and independent
+replays pass, `GL(2,Z)` covariance is 6/6, catch-proofs are 16/16, and tests are
+70 passed/1 xfailed.
+
+The next bounded step is to map the continuous dual-systole walls and transport the set-valued
+character invariant through complete toric branches. This is not authority to select its physical
+sign or role, adopt a carrier or action, scan density, launch time-live/GPU work, canonize, move
+artifacts, or resume repository reorganization.
 
 ## July 23 bootstrap substrate-to-micro closure overlay — current authority
 

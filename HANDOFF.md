@@ -5,11 +5,14 @@
 > **READ `LIVE.md` FIRST** — only guaranteed-current frontier + next action.
 > If this file disagrees with LIVE.md, **LIVE.md wins.**
 >
-> **⚠ BRANCH: work is on `grok` (2026-07-23).** If not on it: `git checkout grok`. `main` is stale for this arc.
+> **⚠ BRANCH: work is on `grok` (2026-07-24).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-23 — bootstrap substrate-to-micro closure audit)
+## CURRENT (2026-07-24 — pre-density substrate-response atlas)
 
-Read `udt_bootstrap_substrate_micro_closure_audit_2026-07-23/AUDIT_REPORT.md`, then its
+Read `udt_pre_density_substrate_response_atlas_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `TORUS_LATTICE_SELECTOR_ATLAS.tsv`, `GLOBAL_DESCENT_ATLAS.tsv`,
+`LAY_REPORT.md`, and `NEXT_STEP.md`. Then read
+`udt_bootstrap_substrate_micro_closure_audit_2026-07-23/AUDIT_REPORT.md` and its
 `STATUS_LEDGER.tsv`, `CHANNEL_OUTCOMES.tsv`, `PRIOR_RESULT_REGRADE.tsv`,
 `FIXED_POINT_OUTCOMES.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`. Next read
 `udt_hopf_realization_deformation_audit_2026-07-23/AUDIT_REPORT.md` and its
@@ -27,6 +30,19 @@ immutable sources.
 
 Current honest structure:
 
+- wherever a genuine integral torus fiber exists, the complete angular coframe supplies a joint
+  `T2` metric-connection object `(H,S)`;
+- the local matrix eigenaxis is only an `SO(2)`-reference object and does not directly descend to a
+  torus phase under unrestricted chart/lattice changes;
+- the metric plus torus lattice defines the canonical set of shortest primitive dual characters
+  `argmin w^T H^-1 w`. Where it is unique modulo sign, it makes a rank-one character line and
+  projected connection `b_star=w_star^T S` geometrically available;
+- physical use of that shortest character is not derived. Its sign, tie-wall continuation, phase
+  section, carrier, and action remain open;
+- the frozen 25-point `phi`/shear atlas has 22 unique cases and 3 ties. This is a bounded
+  observation, not the full continuous torus-moduli census;
+- on the shear-free family, the reciprocal swap is exact: `(1,0)` for `phi<0`, a two-way tie at
+  `phi=0`, and `(0,1)` for `phi>0`;
 - reciprocal kinematics remains `DERIVED` with its exact premise stamps;
 - complete-metric local frame reciprocity gives `SO+(1,3)`; WR-L is a conditional static spherical
   one-function slice, not the complete frame metric;
@@ -57,10 +73,9 @@ Current honest structure:
   independent phase `delta` are both supplied;
 - the actually established aligned complete-coframe bridge has rank one: it supplies latitude,
   not a full carrier deformation space;
-- angular shear supplies a local spin-two eigenaxis angle away from isotropy, but it is chart
-  dependent, undefined at the isotropic zero, and not descended to a physical phase section;
-- the four shifts supply a phase connection: its curvature and global holonomy are invariant data,
-  but the connection does not choose a scalar phase;
+- angular shear supplies local shape data; the four shifts supply a `T2` connection. The
+  metric-lattice shortest-character construction is the first branchwise integral reduction
+  candidate tying those channels together, but it does not choose a scalar phase;
 - the intrinsic sphere has rank-two vertical tangent spaces but remains a fiber, not a selected
   carrier section;
 - none of the twelve registered finite-cell completion classes supplies a native full carrier
@@ -91,21 +106,18 @@ Current honest structure:
 
 Current bounded seam:
 
-> Build a pre-density substrate-response atlas over normalized angular shape, `phi` profiles, shift
-> curvature/holonomy, all completion classes, and representative status. Test metric-native
-> section/descent compatibility first; use the supplied `L2+L4` matter branch only afterward as an
-> explicitly conditional response probe.
+> Map the continuous shortest-dual-character walls and follow the set-valued invariant through
+> complete toric branches. Test caps, mirrors, monodromy, sign/conjugation, and connection holonomy
+> without assuming that the canonical geometric candidate is physically selected.
 
-The substrate audit closes with
-`GLOBAL_SUBSTRATE_TO_MICRO_GEOMETRY_CHANNELS_DERIVED`,
-`CONDITIONAL_HOPF_OPERATOR_BACKGROUND_SENSITIVE`, and
-`SIMULTANEOUS_DENSITY_MATTER_CLOSURE_REMAINS_OPEN`. Production algebra 12/12, source checks 17/17,
-independent exact 11/11, agreement 13/13, and catch-proofs 11/11 pass. No fresh zero-context model
-review was authorized, so the grade remains `VERIFIED-WITH-CAVEATS`. No density value, window, or
-density-curvature law was supplied. This is not authority to adopt the round `S2`, a local density
-coupling, an action, a physical representative, or a completion. No GPU work, time-live solve,
-canonization, repository reorganization, or artifact relocation follows automatically. R0--R1H
-remains paused.
+The atlas closes with `JOINT_T2_METRIC_CONNECTION_OBJECT_DERIVED` and
+`BRANCHWISE_CANONICAL_METRIC_LATTICE_U1_REDUCTION_AVAILABLE__PHYSICAL_SELECTION_AND_PHASE_SECTION_OPEN`.
+Production and independent replays pass; selector counts are 22 unique/3 ties, `GL(2,Z)`
+covariance is 6/6, and catch-proofs are 16/16. The full tests remain 70 passed/1 xfailed. No fresh
+external model review was authorized, so the package grade remains `VERIFIED-WITH-CAVEATS`.
+No density value, density-to-geometry law, carrier, action, physical phase, or matter solution was
+supplied. No GPU work, time-live solve, canonization, repository reorganization, or artifact
+relocation follows automatically. R0--R1H remains paused.
 
 <!-- STARTUP_CURRENT_END -->
 
