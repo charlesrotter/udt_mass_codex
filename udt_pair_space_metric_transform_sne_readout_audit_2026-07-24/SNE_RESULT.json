@@ -1,0 +1,35 @@
+{
+  "additive_offsets_fit": 1,
+  "adjudication": {
+    "observed_preference": "WRL_AREAL_OPTICAL_OVER_PROJECTIVE_AREAL_J1",
+    "reason": "WRL score uses areal radius plus clock and optics; it is not the WRL proper-distance pair transform",
+    "selects_pair_metric_profile": false
+  },
+  "cut": "IS_CALIBRATOR==0 and zHD>0.01",
+  "method": "scipy_cholesky",
+  "result": "PASS",
+  "schema": "udt-sne-readout-replay-1.0",
+  "scores": {
+    "PROJECTIVE_AREAL_J1": {
+      "N": 1580,
+      "chi2": 3420.9060849468838,
+      "chi2_dof": 2.166501637078457,
+      "dof": 1579,
+      "formula": "u^2*(u^2-1)/(u^2+1);u=1+z",
+      "offset": 23.529203067839596,
+      "offset_count": 1,
+      "rms_mag": 0.3074025916996164
+    },
+    "WRL_AREAL_OPTICAL": {
+      "N": 1580,
+      "chi2": 1436.6648350830496,
+      "chi2_dof": 0.9098574003059212,
+      "dof": 1579,
+      "formula": "z*(z+2)",
+      "offset": 22.356530447388074,
+      "offset_count": 1,
+      "rms_mag": 0.15816422433950028
+    }
+  },
+  "shape_parameters_fit": 0
+}

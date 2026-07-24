@@ -1,0 +1,160 @@
+{
+  "authority_boundary": {
+    "BAO_CMB_black_hole_claimed": false,
+    "action_source_carrier_selected": false,
+    "canon_changed": false,
+    "gpu_work": false,
+    "pair_metric_identified_with_optical_distance": false,
+    "physical_Xmax_promoted": false,
+    "profile_selected": false,
+    "repository_reorganization": false,
+    "startup_controls_changed": false
+  },
+  "base": "148f84ea467d9716f8706c161efd45d0a381ecaa",
+  "catch_proofs": {
+    "current_paths": "PASS",
+    "dirty": "PASS",
+    "frontier": "PASS",
+    "frozen": "PASS",
+    "package": "PASS",
+    "science_b19": "PASS",
+    "science_count": "PASS",
+    "science_fc12": "PASS",
+    "science_j1_score": "PASS",
+    "science_pell": "PASS",
+    "science_proper": "PASS",
+    "science_select": "PASS",
+    "science_sne_select": "PASS",
+    "science_wrl_score": "PASS",
+    "science_xmax": "PASS",
+    "scope": "PASS"
+  },
+  "dirty_checkout": {
+    "branch": "grok",
+    "contents_read": false,
+    "head": "adf8f92d95c387cc647f04b16f1f3b17e1e670d2",
+    "metadata_sha256": "4bc96070c841a14c497b642ee7b93dcf9061372f770aee065d6b495ee4996f4c",
+    "paths": 54,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 38,
+    "manifest_sha256": "c1e6c9f199d83698191dcbe35c04ba6e268ca2b7f2aa8cc1a29882be42931527",
+    "result": "PASS"
+  },
+  "result": "PASS",
+  "schema": "udt-pair-space-sne-repository-gates-1.0",
+  "science": {
+    "SNe_evaluable_readouts": 2,
+    "SNe_pair_profile_selection": false,
+    "SNe_sha256": "70de74ba04e310e1dfeb03a756fd86e910ee366e6661ef31b26e9594fb527160",
+    "derivation_sha256": "c25ee5fe360725fb15d9bc4a2ddfdb8d4c236875aef281dee9e0e6c4db9c0dec",
+    "deterministic_replay": "BYTE_IDENTICAL",
+    "global_Xmax": "OPEN",
+    "independent_catches": 9,
+    "independent_checks": 107,
+    "independent_sha256": "53c4effb43a952bdd3b165530947a23781f1c5555778a716ff2f39720bb41bbc",
+    "production_checks": 84,
+    "result": "PASS",
+    "selected_profile": "NONE",
+    "source_identities": 23,
+    "valid_pair_transforms": 3
+  },
+  "scope_paths": [
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/ADVERSARIAL_REVIEW.md",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/AUDIT_REPORT.md",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/CANDIDATE_REGISTRY.tsv",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/COMMANDS.txt",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/COMPOSITION_LEDGER.tsv",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/DERIVATION_RESULT.json",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/EXACT_DERIVATION.md",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/FALSIFICATION_CONTRACT.tsv",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/FOUR_GATES.md",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/INDEPENDENT_STDERR.txt",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/INDEPENDENT_STDOUT.txt",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/INDEPENDENT_VERIFICATION.json",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/LAY_REPORT.md",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/NEXT_STEP.md",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/PAIR_METRIC_LEDGER.tsv",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/PREMISE_LEDGER.tsv",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/PREREGISTRATION.md",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/PREREGISTRATION_CORRECTION.md",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/PRODUCTION_STDERR.txt",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/PRODUCTION_STDOUT.txt",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/READOUT_DISPOSITION.tsv",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/RUN_ENVIRONMENT.json",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/SHA256SUMS.txt",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/SNE_READOUT_LEDGER.tsv",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/SNE_RESULT.json",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/SNE_STDERR.txt",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/SNE_STDOUT.txt",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/SOURCE_LINEAGE.tsv",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/STATUS_LEDGER.tsv",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/TEST_STDERR.txt",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/TEST_STDOUT.txt",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/build_manifest.py",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/capture_tests.py",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/derive_pair_space_metrics.py",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/replay_and_capture.py",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/replay_sne_readouts.py",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/requirements.txt",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/verify_independent.py",
+    "udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/verify_repository_gates.py"
+  ],
+  "tests": {
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "stdout_sha256": "cfb874bc4005f07c4d1dcb5187bc5299ed8527c9f5b9b83c90385cf32cfda522",
+    "xfailed": 1
+  }
+}

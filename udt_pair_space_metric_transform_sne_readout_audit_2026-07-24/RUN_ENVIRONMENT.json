@@ -1,0 +1,30 @@
+{
+  "SNe": {
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 replay_sne_readouts.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "70de74ba04e310e1dfeb03a756fd86e910ee366e6661ef31b26e9594fb527160"
+  },
+  "compute": "CPU_ONLY",
+  "cuda_visible_devices": "",
+  "gpu_work_performed": false,
+  "independent": {
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 verify_independent.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "53c4effb43a952bdd3b165530947a23781f1c5555778a716ff2f39720bb41bbc"
+  },
+  "numpy": "2.2.6",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "production": {
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 derive_pair_space_metrics.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "c25ee5fe360725fb15d9bc4a2ddfdb8d4c236875aef281dee9e0e6c4db9c0dec"
+  },
+  "python": "3.10.12",
+  "python_executable": "/usr/bin/python3",
+  "schema": "udt-pair-space-sne-run-environment-1.0",
+  "scipy": "1.15.3",
+  "sympy": "1.13.1"
+}

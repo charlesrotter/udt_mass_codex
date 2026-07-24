@@ -1,0 +1,8 @@
+readout	formula	N	offsets	chi2	dof	chi2_dof	rms_mag	status	interpretation
+WRL_AREAL_OPTICAL	dL/X=z*(z+2)	1580	1	1436.6648350830496	1579	0.9098574003059212	0.15816422433950028	OBSERVED_REGISTERED_CONDITIONAL_NEAR_DATA	clock_plus_areal_radius_plus_static_optics;not_WRL_proper_distance
+PROJECTIVE_AREAL_J1	dL/X=u^2*(u^2-1)/(u^2+1)	1580	1	3420.9060849468838	1579	2.166501637078457	0.3074025916996164	OBSERVED_REGISTERED_CONDITIONAL_SHAPE_FAIL	projective_areal_join_plus_same_static_optics
+WRL_PROPER_PAIR_TRANSFORM	none	-	-	-	-	-	-	NOT_SCORED	missing_identification_with_D_A_or_other_optical_join
+B19_ROUND_PAIR_TRANSFORM	none	-	-	-	-	-	-	NOT_SCORED	constant_lapse_and_clock_angular_optical_solder_open
+FC12_OPEN	none	-	-	-	-	-	-	NOT_SCORED	free_profile_and_readout_open
+TEMPORAL_PHI_SEPARATION_FAMILY	none	-	-	-	-	-	-	NOT_SCORED	representative_global_branch_redshift_and_optics_open
+RETIRED_P_ELL	none	-	-	-	-	-	-	PROHIBITED_RETIRED	imposed_join_not_a_survivor
