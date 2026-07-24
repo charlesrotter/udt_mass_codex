@@ -1,0 +1,7 @@
+gate	round_B19	WRL	full_physical_pass
+complete_observer_rest_spatial_metric	YES_CONDITIONAL	NO_GLOBAL	NO
+no_center_two_point_distance	YES	NOT_TESTABLE_GLOBALLY	NO
+observer_frame_equivalence	YES_ROUND_ISOMETRY	NOT_DERIVED_GLOBALLY	NO
+founding_clock_dilation_solder	NO_CONSTANT_LAPSE	YES_LOCAL	NO
+pairwise_infinite_dilation_at_diameter	NO	NO_GLOBAL_DIAMETER	NO
+nonround_directional_band	ZERO	NOT_EVALUABLE	NO

@@ -1,0 +1,7 @@
+status=PASS
+checks=172
+catches=14
+FC_rows=12
+equation_family_rows=28
+solder_family_rows=6
+independent_sha256=b57f633e9b0135351fef3223488e69fca0caa72238ebbce72b007de09bf651cd

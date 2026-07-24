@@ -1,0 +1,7 @@
+quantity	exact_result	status	physical_limit
+metric	h_sigma=b^2[e1^2+e2^2+sigma^2*alpha^2]	COMPLETE_POSITIVE_SMOOTH_FOR_SIGMA_POSITIVE	OFF_SHELL_CONTROL
+homogeneity	U2_preserves_h_round_and_alpha_and_acts_transitively	NO_PRIVILEGED_POINT	DIRECTION_ISOTROPY_NOT_IMPLIED
+Hopf_fiber_closed_geodesic	length=2*pi*b*sigma	DERIVED	CUT_TIME_NOT_DERIVED
+horizontal_great_circle	length=2*pi*b	DERIVED	CUT_TIME_NOT_DERIVED
+antipode_distance_bound	d(p,-p)<=pi*b*min(sigma,1)	DERIVED_BOUND	NOT_EXACT_DIAMETER
+directional_cut_band	not_evaluated	OPEN	REQUIRES_FULL_GEODESIC_CUT_LOCUS

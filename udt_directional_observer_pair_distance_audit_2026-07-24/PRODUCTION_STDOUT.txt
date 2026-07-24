@@ -1,0 +1,9 @@
+sympy=1.13.1
+checks=50
+FC_rows=12
+equation_family_rows=28
+solder_family_rows=6
+complete_nonround_off_shell_control_families=1
+complete_nonround_clock_soldered_witnesses=0
+physical_Xmax_pass_count=0
+derivation_sha256=f53367ea3be913725271b99e8ca4246cf5ab83ee78ce077e5978b9665aa06559
