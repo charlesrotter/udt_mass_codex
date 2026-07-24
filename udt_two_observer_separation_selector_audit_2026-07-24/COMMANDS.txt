@@ -1,0 +1,6 @@
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 derive_observer_separation_selector.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 verify_observer_separation_independent.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 -m pytest -q tests/
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 build_manifest.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 verify_repository_gates.py
+sha256sum --check SHA256SUMS.txt

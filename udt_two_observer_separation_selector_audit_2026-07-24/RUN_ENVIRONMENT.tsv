@@ -1,0 +1,10 @@
+field	value
+date	2026-07-24
+base	566686f0d05b149792b4e266e78d112830a77579
+mode	CPU_ONLY
+python	3.10.12
+sympy	1.13.1
+independent_implementation	STANDARD_LIBRARY_NO_PRODUCTION_IMPORT
+external_fresh_context	NOT_PERFORMED_CAVEAT
+gpu_used	NO
+matter_or_time_live_solve	NO

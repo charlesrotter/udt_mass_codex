@@ -1,0 +1,64 @@
+{
+  "authority_boundary": {
+    "canon_changed": false,
+    "external_mechanics_imported": false,
+    "gpu_used": false,
+    "historical_or_frozen_changed": false,
+    "matter_or_time_live_solve": false,
+    "physical_observer_selected": false,
+    "physical_representative_selected": false,
+    "signal_law_adopted": false,
+    "topology_selected": false
+  },
+  "base": "566686f0d05b149792b4e266e78d112830a77579",
+  "candidate_count": 24,
+  "causal_class_count": 5,
+  "completion_count": 12,
+  "downstream": {
+    "WRL_X_to_global_Xmax_join": "NOT_EVALUATED_GATE_NOT_PASSED",
+    "action_source_boundary_mass": "OPEN_UNCHANGED",
+    "global_diameter": "NOT_EVALUATED_GATE_NOT_PASSED",
+    "numerical_Xmax": "OPEN_UNCHANGED"
+  },
+  "exact_controls": {
+    "Minkowski_signature": [
+      -1,
+      1,
+      1,
+      1
+    ],
+    "beta_3_over_5_distance_ratio": "4/5",
+    "boosted_pairing_slice_distance": "L*sqrt(1 - beta**2)",
+    "constant_CSN_distance_fraction": "L/X",
+    "h_f_slice_distance_scale": "exp(lambda*phi0**2)",
+    "lab_slice_distance": "L",
+    "noncoincident_null_interval": "0",
+    "null_dphi_s": "0",
+    "same_phi_distinct_point_difference": "0",
+    "same_radius_angular_chord": "2*L*sin(theta/2)",
+    "spacelike_dphi_s": "1",
+    "straight_vs_L_path_lengths": [
+      "sqrt(2)",
+      "2"
+    ],
+    "timelike_dphi_s": "-1",
+    "timelike_h0": "[[-1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]",
+    "timelike_n": "[[-1, 0, 0, 0]]",
+    "timelike_n_phi": "-1",
+    "timelike_slice_q": "[[0, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]"
+  },
+  "maximum_ruling": "OPEN_SELECTOR",
+  "principle_count": 12,
+  "schema": "udt-two-observer-separation-selector-audit-v1",
+  "scoped_no_go": "NO_REGISTERED_CANDIDATE_DEFINES_ONE_UNIVERSAL_PHYSICAL_TWO_OBSERVER_SEPARATION_ACROSS_ALL_CAUSAL_AND_COMPLETION_CLASSES",
+  "smallest_missing_object": "native selection of a complete globally temporal phi branch with physical spatial representative, or an equivalent threading and pairing rule on the other causal branches",
+  "source_count": 50,
+  "source_identity_sha256": "3716e34257675453abaeb57f513a5697c40a62baf49b6bbf2fc986efaffe44b6",
+  "strongest_candidate": {
+    "candidate_id": "C08",
+    "derived_geometry": "on_timelike_nonnull_dphi_regions_phi_is_temporal_equal_phi_pairs_future_observer_histories_and_level_sets_are_Riemannian",
+    "open_physics": "global_temporal_phi_branch_common_range_physical_representative_hf_selection_null_zero_interface_and_complete_global_descent",
+    "ruling": "DERIVED_CONDITIONAL_TEMPORAL_PHI_SEPARATION_FAMILY__NOT_UNIVERSAL_PHYSICAL_DG"
+  },
+  "universal_candidate_count": 0
+}

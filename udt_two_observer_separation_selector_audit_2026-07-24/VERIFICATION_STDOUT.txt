@@ -1,0 +1,29 @@
+{
+  "candidate_count": 24,
+  "catch_proof_passes": 19,
+  "catch_proofs": 19,
+  "causal_class_count": 5,
+  "completion_count": 12,
+  "exact_controls": {
+    "beta_3_over_5_distance_ratio_squared": "16/25",
+    "constant_CSN_fraction_invariant": true,
+    "hf_nontrivial_slice_scale": "9/4",
+    "null_dphi_norm": 0,
+    "null_noncoincident_interval": 0,
+    "opposite_angle_chord_for_radius_7_over_3": "14/3",
+    "same_phi_noncoincident_difference": 0,
+    "spacelike_dphi_norm": 1,
+    "spacelike_level_signature": "-++",
+    "timelike_dphi_norm": -1,
+    "timelike_slice_signature": "+++"
+  },
+  "external_fresh_context": "NOT_PERFORMED_CAVEAT",
+  "independence": "STANDARD_LIBRARY_NO_PRODUCTION_OR_SYMPY_IMPORT",
+  "overall": "PASS",
+  "principle_count": 12,
+  "schema": "udt-two-observer-separation-independent-verification-v1",
+  "sources": {
+    "count": 50,
+    "path_identity_sha256": "3716e34257675453abaeb57f513a5697c40a62baf49b6bbf2fc986efaffe44b6"
+  }
+}
