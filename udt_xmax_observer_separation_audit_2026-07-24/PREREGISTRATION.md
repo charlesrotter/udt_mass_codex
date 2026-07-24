@@ -46,6 +46,10 @@ The resulting exact path set, Git blob, SHA-256, size, and matching-line
 count are frozen in `CANDIDATE_UNIVERSE.tsv`. Generated audit records do not
 enter their own candidate universe.
 
+`PREREGISTRATION_CORRECTION.md` expands this matcher to lowercase LaTeX and
+freezes the census explicitly against the base commit. That correction was
+registered before semantic classification continued.
+
 Every candidate will receive exactly one provenance/lifecycle disposition.
 Family-level evidence is allowed for repeated generated records, but every
 path remains individually accounted for.

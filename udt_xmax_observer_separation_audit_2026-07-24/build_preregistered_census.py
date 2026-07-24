@@ -7,14 +7,15 @@ import csv
 import hashlib
 import re
 import subprocess
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 
 
 ROOT = Path(__file__).resolve().parents[1]
 HERE = Path(__file__).resolve().parent
+BASE = "696cf401c441fdd3aefea6f3de188e6425ae5636"
 ALLOWED_SUFFIXES = {".md", ".tsv", ".json", ".py", ".txt", ".tex"}
-TOKEN = re.compile(r"X_max|Xmax|x_max|xmax|X_MAX|X_\{\\max\}")
-EXPECTED_COUNT = 854
+TOKEN = re.compile(r"x_?max|x_\{\\max\}|x_\{max\}", re.IGNORECASE)
+EXPECTED_COUNT = 907
 
 
 def git(*arguments: str) -> bytes:
@@ -32,14 +33,13 @@ def git(*arguments: str) -> bytes:
 
 def main() -> None:
     candidates = []
-    for raw in git("ls-files", "-z").split(b"\0"):
+    for raw in git("ls-tree", "-r", "-z", "--name-only", BASE).split(b"\0"):
         if not raw:
             continue
         relative = raw.decode("utf-8", "surrogateescape")
-        path = ROOT / relative
-        if path.suffix.lower() not in ALLOWED_SUFFIXES or not path.is_file():
+        if PurePosixPath(relative).suffix.lower() not in ALLOWED_SUFFIXES:
             continue
-        payload = path.read_bytes()
+        payload = git("show", f"{BASE}:{relative}")
         try:
             text = payload.decode("utf-8")
         except UnicodeDecodeError:
@@ -47,7 +47,7 @@ def main() -> None:
         matching_lines = sum(1 for line in text.splitlines() if TOKEN.search(line))
         if not matching_lines:
             continue
-        blob = git("rev-parse", f"HEAD:{relative}").decode().strip()
+        blob = git("rev-parse", f"{BASE}:{relative}").decode().strip()
         candidates.append(
             {
                 "candidate_id": f"X{len(candidates) + 1:04d}",
