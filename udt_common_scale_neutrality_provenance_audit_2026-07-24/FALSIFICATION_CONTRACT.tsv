@@ -1,0 +1,11 @@
+test_id	test	pass_condition	failure_meaning	maximum_inference
+F01	Reciprocal pair with explicit A	Algebra states exactly what fixed-K preservation determines	Implicit A=1 or gauge claim without proof	Algebraic scope only
+F02	Undetermined versus equivalent	Every source claim distinguishes lack of determination from physical gauge equivalence	Any inference from not-fixed to unphysical is uncited	Strong CSN not derived by that inference
+F03	Constant versus local rescaling	Every CSN authority states whether Omega is constant or position dependent	Scope remains ambiguous	CSN scope OPEN
+F04	c dimensional control	Independent unit rescaling preserves c while changing absolute numerical scales	c is claimed to fix an absolute length by itself	c supplies conversion but not absolute size
+F05	Nonconstant conformal control	At least one exact geometric object distinguishes g from Omega(x)^2 g unless extra conformal gauge authority is supplied	Conformal equivalence inferred only from null-cone preservation	Strong CSN requires a premise
+F06	Physical representative selector	Any claimed physical representative has an explicit registered selector	No selector exists	Physical scale/representative OPEN
+F07	C2 premise retention	Every C2/Bach uniqueness statement retains pre-scale/CSN variation premise	Premise is dropped	Route must be regraded
+F08	EH premise retention	Every EH statement retains post-scale/minimality premise	Premise is dropped	Route must be regraded
+F09	Downstream impact completeness	Every load-bearing CSN-dependent current family is classified	A known family is omitted	Impact audit incomplete
+F10	No overreach	Report does not infer action, matter, boundary, density, or scale closure	Any such claim appears	Audit fails
