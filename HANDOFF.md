@@ -7,11 +7,13 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-23).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-23 — Hopf-realization deformation audit)
+## CURRENT (2026-07-23 — bootstrap substrate-to-micro closure audit)
 
-Read `udt_hopf_realization_deformation_audit_2026-07-23/AUDIT_REPORT.md`, then its
-`STATUS_LEDGER.tsv`, `DEFORMATION_OUTCOMES.tsv`, `GLOBAL_COMPLETION_OUTCOMES.tsv`, `LAY_REPORT.md`,
-and `NEXT_STEP.md`. Next read
+Read `udt_bootstrap_substrate_micro_closure_audit_2026-07-23/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `CHANNEL_OUTCOMES.tsv`, `PRIOR_RESULT_REGRADE.tsv`,
+`FIXED_POINT_OUTCOMES.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`. Next read
+`udt_hopf_realization_deformation_audit_2026-07-23/AUDIT_REPORT.md` and its
+`STATUS_LEDGER.tsv`, `DEFORMATION_OUTCOMES.tsv`, and `GLOBAL_COMPLETION_OUTCOMES.tsv`. Then read
 `udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/AUDIT_REPORT.md` and its
 `STATUS_LEDGER.tsv` and `DEPENDENCY_MATRIX.tsv`, then
 `udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md` and its
@@ -38,6 +40,19 @@ Current honest structure:
   on-shell `(g,phi)` finite-cell branch is supplied or selected;
 - physical affine transport remains `OPEN_SELECTOR`; the `Gamma_f`, derivative-only, projected,
   and stabilizer families retain their exact prior statuses;
+- the owner bootstrap source explicitly retains both primary global admissibility and a separate
+  stronger local matter-existence fork. The former is the only current implementation, not the
+  exhaustive working hypothesis;
+- for a fixed embedding, `delta h=E^T delta g E`, so the complete global metric has an exact
+  kinematic channel into local micro geometry;
+- reciprocal angular depth, shear, the `phi` profile, shifts, curvature, holonomy, and completion
+  all supply substrate-sensitive local or global compatibility data with their exact prior scopes;
+- the conditional round-`S2` `L2+L4` functional has exact pointwise weights `q` and `q^-1` under
+  `h=q(x)^2 h0`; nonconstant and anisotropic backgrounds therefore change its local operator;
+- constant common homothety leaves the physical stationary size proportional to
+  `sqrt(kappa/xi)` and does not derive the missing ruler;
+- the current soliton code uses a fixed flat finite box and supplied coefficients. Its static
+  result remains valid there but does not test substrate-varying stability;
 - the supplied round-`S2` map has a rank-two tangent plane if reciprocal depth `phi` and an
   independent phase `delta` are both supplied;
 - the actually established aligned complete-coframe bridge has rank one: it supplies latitude,
@@ -76,19 +91,21 @@ Current honest structure:
 
 Current bounded seam:
 
-> Determine whether the angular spin-two eigenaxis and shift-sector phase connection have
-> compatible transition laws that define a global associated-bundle section without choosing an
-> angular chart, torus gauge, carrier, action, or boundary framing.
+> Build a pre-density substrate-response atlas over normalized angular shape, `phi` profiles, shift
+> curvature/holonomy, all completion classes, and representative status. Test metric-native
+> section/descent compatibility first; use the supplied `L2+L4` matter branch only afterward as an
+> explicitly conditional response probe.
 
-The deformation audit closes with
-`RESTRICTED_CONDITIONAL_SEED_DEFORMATION_ONLY` and
-`GLOBAL_REALIZATION_REMAINS_COMPLETION_AND_SECTION_DEPENDENT`. Production 15/15, independent exact
-11/11, adversarial catch 15/15, and cross-implementation agreement 6/6 checks pass. No fresh
-zero-context model review was authorized, so the grade remains `VERIFIED-WITH-CAVEATS`.
-Bootstrap was retained only as future global admissibility; no density scan was run. This is not
-authority to adopt the round `S2`, identify a fiber with a section, choose an action, launch
-dynamics, or scan density. No solve, GPU work, carrier/action adoption, canonization, repository
-reorganization, or artifact relocation follows automatically. R0--R1H remains paused.
+The substrate audit closes with
+`GLOBAL_SUBSTRATE_TO_MICRO_GEOMETRY_CHANNELS_DERIVED`,
+`CONDITIONAL_HOPF_OPERATOR_BACKGROUND_SENSITIVE`, and
+`SIMULTANEOUS_DENSITY_MATTER_CLOSURE_REMAINS_OPEN`. Production algebra 12/12, source checks 17/17,
+independent exact 11/11, agreement 13/13, and catch-proofs 11/11 pass. No fresh zero-context model
+review was authorized, so the grade remains `VERIFIED-WITH-CAVEATS`. No density value, window, or
+density-curvature law was supplied. This is not authority to adopt the round `S2`, a local density
+coupling, an action, a physical representative, or a completion. No GPU work, time-live solve,
+canonization, repository reorganization, or artifact relocation follows automatically. R0--R1H
+remains paused.
 
 <!-- STARTUP_CURRENT_END -->
 

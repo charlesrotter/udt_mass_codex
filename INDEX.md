@@ -3,6 +3,9 @@
 **⚠ BRANCH: `grok` (2026-07-23)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
 **➤ CURRENT SCIENTIFIC FRONTIER:**
+`udt_bootstrap_substrate_micro_closure_audit_2026-07-23/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `CHANNEL_OUTCOMES.tsv`, `PRIOR_RESULT_REGRADE.tsv`,
+`FIXED_POINT_OUTCOMES.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`; next read
 `udt_hopf_realization_deformation_audit_2026-07-23/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `DEFORMATION_OUTCOMES.tsv`, `GLOBAL_COMPLETION_OUTCOMES.tsv`, `LAY_REPORT.md`,
 and `NEXT_STEP.md`; next read
@@ -14,17 +17,20 @@ and `NEXT_STEP.md`; next read
 `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
 `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and `REGRESSION_GUARD_LEDGER.tsv`.
 The consolidation checkpoint is navigation, not new physics authority. Current exact structure:
-the supplied `(phi,delta)` round-`S2` seed has local rank two, but the established aligned
-complete-coframe bridge has only a rank-one latitude image. Angular shear supplies a local
-spin-two eigenaxis angle, while the four shifts supply a phase connection with invariant curvature
-and holonomy. Neither currently selects a globally descended phase section. The intrinsic `S2`
-remains a fiber rather than the round carrier. None of the twelve registered completion classes
-supplies a native full carrier deformation space; FC04 supplies only the exact conditional seed
-after its global premises and phase are supplied. The supplied Hopf topological core remains
-affine-transport independent in its declared carrier/domain, while energy and stability remain
-metric and premise dependent. Current bootstrap is outer after-solution admissibility, not a local
-assembly rule, and no density scan was run. The next bounded seam is whether the shear eigenaxis
-and shift connection have compatible transition laws defining a global associated-bundle section.
+the owner bootstrap source retains both primary global admissibility and a separate stronger local
+matter-existence fork. Outer admissibility is the current implementation, not the exhaustive
+hypothesis. The complete metric has exact global-to-micro geometric channels through pullback
+geometry, normalized angular shape, `phi`, shifts, curvature, holonomy, and completion. The
+conditional round-`S2` `L2+L4` operator responds exactly to nonconstant and anisotropic selected
+backgrounds, while a pure homothety does not remove its hidden coefficient ruler. Existing static
+stability remains valid in its fixed flat finite box and does not test substrate-varying
+stability. Fixed-background negatives do not rule out a simultaneous universe-plus-matter
+bootstrap. The supplied `(phi,delta)` seed remains rank two only when both fields are supplied; the
+metric bridge remains rank one, shear remains a local phase candidate, and shifts remain a phase
+connection rather than a selected section. No density-to-geometry law, native matter operator,
+native mass/source, physical representative, completion, or fixed-point feedback is derived. The
+next bounded seam is a pre-density substrate-response atlas, metric-native section/descent first
+and the supplied matter branch only as a conditional probe.
 Complete action, source, boundary charge, scale, bridge, carrier emergence, time-live matter, and
 unconditional mass remain open. Repository reorganization remains paused.
 

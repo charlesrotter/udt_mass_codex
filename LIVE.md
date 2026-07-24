@@ -8,30 +8,43 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
 
-## ============ CURRENT STATE (2026-07-23 — HOPF-REALIZATION DEFORMATION AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. THE SUPPLIED ROUND-S2 MAP HAS A RANK-TWO TANGENT PLANE WHEN BOTH RECIPROCAL DEPTH AND AN INDEPENDENT PHASE ARE SUPPLIED. THE ACTUALLY ESTABLISHED ALIGNED COFRAME BRIDGE HAS ONLY A RANK-ONE LATITUDE IMAGE. ANGULAR SHEAR SUPPLIES A LOCAL SPIN-TWO EIGENAXIS ANGLE AWAY FROM ISOTROPY, BUT IT IS CHART DEPENDENT, UNDEFINED AT THE ISOTROPIC ZERO, AND NOT A DESCENDED PHYSICAL PHASE. THE FOUR BASE-ANGULAR SHIFTS SUPPLY A PHASE CONNECTION WITH GAUGE-INVARIANT CURVATURE AND GLOBAL HOLONOMY, BUT A CONNECTION DOES NOT SELECT A PHASE SECTION. THE INTRINSIC S2 HAS A TWO-DIMENSIONAL VERTICAL TANGENT SPACE BUT REMAINS A FIBER, NOT A METRIC-SELECTED CARRIER. NONE OF THE TWELVE REGISTERED FINITE-CELL COMPLETION CLASSES SUPPLIES A NATIVE FULL CARRIER DEFORMATION SPACE; FC04 SUPPLIES ONLY THE EXACT CONDITIONAL SEED AFTER CAPS, QUOTIENT, ORIENTATION, FULL RANGE, AND PHASE ARE PROVIDED. CURRENT BOOTSTRAP REMAINS OUTER AFTER-SOLUTION ADMISSIBILITY; NO DENSITY SCAN WAS RUN. THE NARROW NEXT QUESTION IS WHETHER THE SPIN-TWO ANGULAR EIGENAXIS AND SHIFT PHASE CONNECTION HAVE COMPATIBLE TRANSITION LAWS THAT DEFINE A GLOBAL ASSOCIATED-BUNDLE SECTION WITHOUT CHOOSING A CHART, GAUGE, CARRIER, ACTION, OR BOUNDARY FRAMING. NO ACTION, CARRIER, SECTION, SOURCE, BOUNDARY, DENSITY SCAN, TIME-LIVE SOLVE, GPU WORK, CANONIZATION, ARTIFACT MOVE, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-23 — BOOTSTRAP SUBSTRATE-TO-MICRO CLOSURE AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. THE OWNER BOOTSTRAP SOURCE EXPLICITLY RETAINS BOTH A PRIMARY GLOBAL ADMISSIBILITY READING AND A SEPARATE STRONGER LOCAL FORK IN WHICH STABLE LOCALIZED MATTER MAY EXIST ONLY INSIDE THE GLOBAL DENSITY WINDOW. OUTER AFTER-SOLUTION ADMISSIBILITY REMAINS THE ONLY CURRENTLY IMPLEMENTED MATHEMATICAL ROLE; IT IS NOT EXHAUSTIVE OF THE OWNER WORKING HYPOTHESIS. THE COMPLETE METRIC SUPPLIES EXACT GLOBAL-TO-MICRO KINEMATIC CHANNELS THROUGH THE INDUCED METRIC, NORMALIZED ANGULAR SHAPE, PHI PROFILE, SHIFT CONNECTION/CURVATURE/HOLONOMY, AND FINITE-CELL COMPLETION DATA. THE SUPPLIED ROUND-S2 L2+L4 OPERATOR IS EXACTLY BACKGROUND SENSITIVE AFTER ITS CARRIER, ACTION, COEFFICIENTS, DOMAIN, AND PHYSICAL METRIC REPRESENTATIVE ARE SUPPLIED. A NONCONSTANT CONFORMAL PROFILE ENTERS ITS LOCAL OPERATOR; ANISOTROPIC METRIC VARIATIONS CHANGE BOTH ENERGY TERMS. A PURE CONSTANT HOMOTHETY DOES NOT REMOVE THE HIDDEN sqrt(kappa/xi) RULER. THE EXISTING STATIC SOLITON RESULT REMAINS SETTLED ONLY IN ITS FIXED FLAT FINITE-BOX PREMISES; IT DID NOT TEST SUBSTRATE-VARYING STABILITY. FIXED-BACKGROUND OR LOCAL SELECTOR NEGATIVES DO NOT RULE OUT A SIMULTANEOUS UNIVERSE-PLUS-MATTER BOOTSTRAP. THE DENSITY-TO-GEOMETRY LAW, NATIVE MATTER OPERATOR, NATIVE MASS/SOURCE, PHYSICAL REPRESENTATIVE, AND FIXED-POINT FEEDBACK REMAIN OPEN. NO DENSITY VALUE OR WINDOW WAS COMPUTED. NEXT: A PRE-DENSITY SUBSTRATE-RESPONSE ATLAS OVER METRIC-NATIVE GLOBAL VARIABLES, WITH THE CONDITIONAL MATTER BRANCH USED ONLY AFTER METRIC-NATIVE SECTION/DESCENT TESTS. NO ACTION, CARRIER, DENSITY COUPLING, SOURCE, BOUNDARY, TIME-LIVE SOLVE, GPU WORK, CANONIZATION, ARTIFACT MOVE, OR REORGANIZATION IS AUTHORIZED.) ============
 
 **READ NEXT, IN ORDER:**
 
 1. `HANDOFF.md` current marked block.
-2. `udt_hopf_realization_deformation_audit_2026-07-23/AUDIT_REPORT.md`, then its
+2. `udt_bootstrap_substrate_micro_closure_audit_2026-07-23/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `CHANNEL_OUTCOMES.tsv`, `PRIOR_RESULT_REGRADE.tsv`,
+   `FIXED_POINT_OUTCOMES.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+3. `udt_hopf_realization_deformation_audit_2026-07-23/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `DEFORMATION_OUTCOMES.tsv`, `GLOBAL_COMPLETION_OUTCOMES.tsv`,
    `LAY_REPORT.md`, and `NEXT_STEP.md`.
-3. `udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/AUDIT_REPORT.md`, then its
+4. `udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `DEPENDENCY_MATRIX.tsv`, and `NEXT_STEP.md`.
-4. `udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
+5. `udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv` and `NEXT_STEP.md`.
-5. `udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
+6. `udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv` and `NEXT_STEP.md`.
-6. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
+7. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
    `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and
    `REGRESSION_GUARD_LEDGER.tsv`.
-7. The exact immutable evidence cited by those packages only when the active task makes it
+8. The exact immutable evidence cited by those packages only when the active task makes it
    load-bearing.
 
 **CURRENT HONEST CLAIM:**
 
 - reciprocal kinematics and the complete-metric local `3+3`/causal-stratum results retain their
   exact premise stamps;
+- the owner bootstrap principle contains a primary global reading and a separately retained
+  stronger local matter-existence fork; current outer admissibility is the implemented role, not
+  the exhaustive hypothesis;
+- the complete metric supplies exact global-to-micro geometric channels through pullback geometry,
+  angular shape, `phi`, shifts, curvature, holonomy, and completion;
+- the supplied `L2+L4` branch responds exactly to nonuniform and anisotropic physical backgrounds,
+  but every carrier/action/coefficient/domain/representative premise travels with that statement;
+- a pure constant homothety does not remove the conditional coefficient ruler;
+- the static soliton evidence remains valid in its fixed flat finite-box scope and does not test
+  substrate-varying or time-live stability;
 - the supplied `(phi,delta)` round-`S2` seed has local rank two only when both fields are supplied;
   the established aligned metric/coframe bridge has rank one;
 - angular shear supplies a local spin-two phase candidate, while the shifts supply a phase
@@ -48,9 +61,11 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
   while time-live persistence remains open;
 - the round internal `S2` is still `POSIT`; the metric-derived sphere fiber does not select a
   section or derive carrier emergence;
-- current bootstrap is after-solution global admissibility, not a local section or assembly rule.
-  A density bracket becomes operational only after complete action, source, mass, volume, boundary,
-  and global solutions exist;
+- metric-native substrate variables may be bracketed before density exists, but they must not be
+  labeled `rho_tot`; density becomes operational only after complete action, source, mass, physical
+  volume, boundary, and global solutions exist;
+- the simultaneous density–matter fixed point is type-correct but missing the native matter
+  operator, stable-solution map, native mass/source, and global feedback law;
 - no complete action, source, carrier, boundary, scale, matter law, or finite-cell solution is
   selected.
 
@@ -65,7 +80,9 @@ antisymmetrization equal to `d` without its torsion correction, identify a princ
 connection with affine transport, export the static Hessian to another metric or to physical time,
 turn bootstrap's future density bracket into a present local mechanism, count fiber dimension as
 metric-induced image rank, call the shear eigenaxis a descended phase, or identify the shift
-connection with a selected scalar phase.
+connection with a selected scalar phase. Do not identify density with curvature through GR, insert
+global average density into a local action, call a pre-density geometric bracket a density scan,
+or discard fixed-background results merely because they do not cover joint bootstrap closure.
 
 **REORGANIZATION:** R0--R1H remains paused. This checkpoint changes navigation and synthesis only;
 all evidence packages and historical records remain immutable.

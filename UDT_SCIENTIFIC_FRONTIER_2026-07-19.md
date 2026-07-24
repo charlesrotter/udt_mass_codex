@@ -4,6 +4,74 @@ Date: 2026-07-20
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## July 23 bootstrap substrate-to-micro closure overlay — current authority
+
+Read `udt_bootstrap_substrate_micro_closure_audit_2026-07-23/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `CHANNEL_OUTCOMES.tsv`, `PRIOR_RESULT_REGRADE.tsv`,
+`FIXED_POINT_OUTCOMES.tsv`, `COMPLETION_CHANNEL_MATRIX.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`
+before the earlier July 23 layers below.
+
+The July-15 owner bootstrap source explicitly contains both a primary global reading and a
+separately retained stronger local fork in which no stable localized carrier may exist outside the
+global density window. The recent “outer after-solution admissibility” ruling remains correct for
+the only presently explicit implementation. It is not exhaustive of the owner-stated working
+hypothesis.
+
+For a fixed embedding, the exact pullback identity
+
+```text
+h=E^T g E,
+delta h=E^T delta g E
+```
+
+gives a kinematic channel from complete global metric data to local micro geometry. The complete
+angular coframe further makes reciprocal depth, shear, the `phi` profile, and shifts part of the
+induced local geometry. The shift difference combines with relative phase as `d delta+b`; its
+curvature `db` and global periods carry gauge-invariant curvature and holonomy data. These objects
+can constrain section compatibility across caps, mirrors, monodromy, orientation, and boundaries
+without selecting a physical phase or completion.
+
+Inside the supplied round-`S2` `L2+L4` branch only, `h=q(x)^2 h0` gives pointwise energy weights
+`q` and `q^-1`. A nonconstant profile enters the local scalar response operator as
+
+```text
+Delta_h u=q^-2[Delta_0 u+grad(log q).grad(u)]
+```
+
+in three spatial dimensions, and the exact metric variations of both energy terms are generically
+nonzero. Thus the conditional matter probe is background sensitive after its carrier, action,
+coefficients, domain, and physical representative are supplied.
+
+A constant homothety control gives
+
+```text
+E(R;q)=xi q A R+kappa q^-1 B/R,
+R_phys_star=sqrt(kappa/xi)sqrt(B/A).
+```
+
+Uniform common scale does not remove the hidden coefficient ruler. The existing soliton
+calculation used a fixed flat finite box and supplied `xi=kappa=1`; its static result remains valid
+in that exact scope and does not test substrate-varying stability.
+
+Fixed-background or local selector negatives therefore do not rule out a simultaneous
+universe-plus-matter bootstrap. The simultaneous loop is type-correct, but the native matter
+operator, stable-solution map on varying backgrounds, native mass/source, total ledger, physical
+volume/representative, and feedback to the global branch remain open. Direct density insertion is
+forbidden, and a GR density-curvature equation remains comparison-only. No density value or window
+was computed.
+
+Status: `GLOBAL_SUBSTRATE_TO_MICRO_GEOMETRY_CHANNELS_DERIVED`;
+`CONDITIONAL_HOPF_OPERATOR_BACKGROUND_SENSITIVE`;
+`SIMULTANEOUS_DENSITY_MATTER_CLOSURE_REMAINS_OPEN`; `VERIFIED-WITH-CAVEATS`. Production algebra
+12/12, source checks 17/17, independent exact 11/11, agreement 13/13, and catch-proofs 11/11 pass.
+
+The next bounded step is a pre-density substrate-response atlas over normalized angular shape,
+`phi` profiles, shift curvature/holonomy, all completion classes, and representative status.
+Metric-native section/descent compatibility comes first; the supplied matter branch may then serve
+only as a conditional diagnostic. This is not authority to call geometric brackets density,
+select a carrier/action/completion, launch time-live or GPU work, canonize, move artifacts, or
+resume repository reorganization.
+
 ## July 23 Hopf-realization deformation overlay — current authority
 
 Read `udt_hopf_realization_deformation_audit_2026-07-23/AUDIT_REPORT.md`, then its
