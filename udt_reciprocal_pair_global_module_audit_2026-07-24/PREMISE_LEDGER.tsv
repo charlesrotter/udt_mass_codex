@@ -1,0 +1,27 @@
+premise_id	object	status	basis	scope_or_warning
+P01	complete angular coframe theta_ang=D(dxi+Sdx)	pinned-by-THEORY	registered complete-coframe audits	positive triangular chart; not a selected physical section
+P02	normalized angular metric H with det H=1	pinned-by-THEORY	complete coframe plus CSN	common physical representative remains open
+P03	integral rank-two torus lattice	free-and-explored	conditional toric regions only	not present on every completion
+P04	dual metric Q=H^-1	pinned-by-THEORY	where P02 and P03 hold	character lengths are geometric, not automatically physical
+P05	shortest primitive dual-character set	pinned-by-THEORY	parent continuous dual-systole theorem	set-valued on walls and vertices
+P06	two-way co-shortest pair is unimodular	pinned-by-THEORY	parent determinant theorem	applies to generic wall interiors
+P07	unoriented line quotient w~-w	mathematical-convention	parent audit	not a physical sign or phase selection
+P08	full GL2Z covariance	pinned-by-THEORY	integral lattice charts	does not preserve a chosen splitting automatically
+P09	Reciprocity exchange J on symmetric control	pinned-by-THEORY-with-scope	exact local reciprocal control	global angular lift not selected
+P10	exact C1 odd scalar phi seal	pinned-by-THEORY	C1 cold packet	does not select transverse angular lift
+P11	Common-Scale Neutrality	pinned-by-THEORY	owner postulate	preserves character ordering and ties
+P12	shift connection doublet S	pinned-by-THEORY-in-chart	complete angular coframe	global descent follows torus cocycle
+P13	twelve completion families	pinned-by-REGISTERED-CENSUS	global metric assembly taxonomy	overlapping classes; none selected
+P14	signed-permutation pair stabilizer	free-and-explored	to be reconstructed	no assumed global reduction
+P15	exchange lift sign/order	free-and-explored	J,-J,and order-four lifts	must not be collapsed into one case
+P16	cap cycles and periods	free-and-explored	toric completion data	not derived by scalar seal parity
+P17	FC04 independent primitive caps	free-and-explored	conditional S3 witness	not selected
+P18	free circle action and quotient	free-and-explored	conditional Hopf witness	must be proved free for each action
+P19	orientation and Hopf sign	free-and-explored	global data	maximum invariant may be absolute class only
+P20	round S2 carrier	pinned-by-HABIT	POSIT comparison only	not a metric-derived section
+P21	L2+L4 action and coefficients	pinned-by-HABIT	conditional prior particle branch	excluded from module derivation
+P22	bootstrap	pinned-by-THEORY-with-open-realization	current outer admissibility plus stronger retained fork	no present local module selector
+P23	total proper density	free-and-explored	OPEN	not operational in this audit
+P24	native source,mass,scale,boundary completion	free-and-explored	OPEN	not inferred from topology
+P25	CPU exact algebra	pinned-by-PROTOCOL	bounded rational/integer calculations	no GPU or PDE
+P26	external fresh-context review	free-and-explored	not authorized	absence caps grade at VERIFIED-WITH-CAVEATS
