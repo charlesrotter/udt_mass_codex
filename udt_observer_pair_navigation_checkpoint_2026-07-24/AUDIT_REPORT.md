@@ -61,8 +61,10 @@ depth-and-angle charts while preserving a neutral local identity.
 - `LIVE.md` current marker range: 65 lines;
 - `HANDOFF.md` current marker range: 55 lines;
 - 81 Markdown links and 15 explicit load-bearing targets resolve;
-- independent startup checker: 13/13 checks and 4/4 catches;
-- primary verifier: 13/13 catch-proofs;
+- independent startup checker: 14/14 checks and 5/5 catches;
+- primary verifier: 14/14 catch-proofs;
+- exactly one scientific-frontier authority heading contains `current
+  authority`; every older overlay is labeled only `prior authority`;
 - six frozen packages: 127 manifest entries and 133 tracked paths unchanged;
 - current navigation: 1,114 unique current paths;
 - frontier registry: 306 rows / 101 unique targets;

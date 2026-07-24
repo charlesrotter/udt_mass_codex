@@ -13,6 +13,7 @@
   },
   "base": "f1c6cb4",
   "catch_proofs": {
+    "ambiguous_prior_current_authority_rejected": "PASS",
     "current_path_loss_rejected": "PASS",
     "dirty_metadata_mutation_rejected": "PASS",
     "duplicate_startup_marker_rejected": "PASS",
@@ -104,6 +105,8 @@
     "udt_observer_pair_navigation_checkpoint_2026-07-24/COMMANDS.txt",
     "udt_observer_pair_navigation_checkpoint_2026-07-24/FOUR_GATES.md",
     "udt_observer_pair_navigation_checkpoint_2026-07-24/INDEPENDENT_VERIFICATION.json",
+    "udt_observer_pair_navigation_checkpoint_2026-07-24/POSTCHECK_CORRECTION_PREREGISTRATION.md",
+    "udt_observer_pair_navigation_checkpoint_2026-07-24/SHA256SUMS.txt",
     "udt_observer_pair_navigation_checkpoint_2026-07-24/TEST_STDERR.txt",
     "udt_observer_pair_navigation_checkpoint_2026-07-24/TEST_STDOUT.txt",
     "udt_observer_pair_navigation_checkpoint_2026-07-24/VERIFICATION.json",
@@ -139,7 +142,7 @@
     "passed": 70,
     "result": "PASS",
     "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "stdout_sha256": "69889d8fe6812cf9d4f5b560e10fd85c1fc79aa058f4f54ee4f555fd375df6ae",
+    "stdout_sha256": "7a2d1c7cf276d154545220ec9bb5691ce255e0c2fd462deefc5f9752a0c06545",
     "xfailed": 1
   }
 }

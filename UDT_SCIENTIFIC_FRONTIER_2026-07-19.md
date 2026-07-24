@@ -477,7 +477,7 @@ Complete action, source, carrier, boundary action, normalized charge, physical `
 unconditional mass, and global-to-local coframe join remain open. No follow-on audit, GPU work,
 canonization, or reorganization follows.
 
-## July 19 boundary/bootstrap representative-selection overlay — prior current authority
+## July 19 boundary/bootstrap representative-selection overlay — prior authority
 
 Read `boundary_bootstrap_representative_selector_audit_2026-07-19/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, `SELECTOR_REQUIREMENT_MATRIX.tsv`, and
@@ -514,7 +514,7 @@ Status: `SELECTOR_NOT_FOUND_IN_CURRENT_FOUNDATION`, `VERIFIED-WITH-CAVEATS`; exa
 pass. Complete action, source, carrier, boundary action, normalized charge, physical `X_max`, and
 mass remain open. No GPU work, canonization, or reorganization follows.
 
-## July 19 clock–curvature selector overlay — prior current authority
+## July 19 clock–curvature selector overlay — prior authority
 
 Read `clock_curvature_selector_audit_2026-07-19/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, `PROFILE_FAMILY_LEDGER.tsv`, and
@@ -548,7 +548,7 @@ it. Status: `VERIFIED-WITH-CAVEATS`; exact 23/23 derivation and independent dire
 source, carrier, boundary action, charge, `X_max`, mass, GPU work, canonization, or reorganization
 follows.
 
-## July 19 native boundary-generator and scale-selection overlay — prior current authority
+## July 19 native boundary-generator and scale-selection overlay — prior authority
 
 Read `native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, `CHARGE_REQUIREMENT_LEDGER.tsv`,

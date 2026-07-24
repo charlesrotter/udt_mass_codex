@@ -1,16 +1,18 @@
 {
-  "catch_count": 4,
+  "catch_count": 5,
   "catches": {
+    "ambiguous_prior_current_authority": true,
     "local_neutrality_loss": true,
     "operator_route_loss": true,
     "relational_route_loss": true,
     "three_observer_overstatement": true
   },
-  "check_count": 13,
+  "check_count": 14,
   "checks": {
     "all_controls_route_operator": true,
     "all_controls_route_relational": true,
     "frontier_current": true,
+    "frontier_unique_current": true,
     "handoff_local_neutral": true,
     "handoff_next_transition": true,
     "handoff_three_observer_scoped": true,

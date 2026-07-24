@@ -34,6 +34,11 @@ def current_slice(text: str) -> str:
 def evaluate(texts: dict[str, str]) -> dict[str, bool]:
     live = current_slice(texts["LIVE.md"])
     handoff = current_slice(texts["HANDOFF.md"])
+    authority_headings = [
+        line
+        for line in texts["UDT_SCIENTIFIC_FRONTIER_2026-07-19.md"].splitlines()
+        if line.startswith("## ") and "authority" in line
+    ]
     return {
         "all_controls_route_relational": all(RELATIONAL in texts[path] for path in FILES),
         "all_controls_route_operator": all(OPERATOR in texts[path] for path in FILES),
@@ -52,6 +57,8 @@ def evaluate(texts: dict[str, str]) -> dict[str, bool]:
         "frontier_current":
             "## July 24 observer-pair clock and relational-depth overlay — current authority"
             in texts["UDT_SCIENTIFIC_FRONTIER_2026-07-19.md"],
+        "frontier_unique_current":
+            sum("current authority" in line for line in authority_headings) == 1,
     }
 
 
@@ -91,6 +98,12 @@ def main() -> None:
             "LIVE.md",
             "THE THREE-OBSERVER CONTROL DOES NOT REFUTE PAIR DILATION",
             "THE THREE-OBSERVER CONTROL REFUTES PAIR DILATION",
+        ),
+        "ambiguous_prior_current_authority": expect_rejection(
+            texts,
+            "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
+            "— prior authority",
+            "— prior current authority",
         ),
     }
     assert all(checks.values())

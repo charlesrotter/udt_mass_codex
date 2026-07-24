@@ -134,6 +134,10 @@ def validate_startup(corrupt: str = "") -> dict[str, object]:
         )
     elif corrupt == "duplicate_marker":
         texts["LIVE.md"] += "\n<!-- STARTUP_CURRENT_BEGIN -->\n"
+    elif corrupt == "duplicate_authority":
+        texts["UDT_SCIENTIFIC_FRONTIER_2026-07-19.md"] = texts[
+            "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md"
+        ].replace("— prior authority", "— prior current authority", 1)
 
     live = marked(texts["LIVE.md"], "<!-- STARTUP_CURRENT_BEGIN -->", "<!-- STARTUP_CURRENT_END -->")
     handoff = marked(
@@ -172,7 +176,12 @@ def validate_startup(corrupt: str = "") -> dict[str, object]:
         for line in texts["UDT_SCIENTIFIC_FRONTIER_2026-07-19.md"].splitlines()
         if line.startswith("## ") and "authority" in line
     ]
-    if not frontier_lines or "observer-pair" not in frontier_lines[0] or "current authority" not in frontier_lines[0]:
+    if (
+        not frontier_lines
+        or "observer-pair" not in frontier_lines[0]
+        or "current authority" not in frontier_lines[0]
+        or sum("current authority" in line for line in frontier_lines) != 1
+    ):
         raise AssertionError("frontier-overlay-order")
     return {
         "control_files": len(CONTROLS),
@@ -357,6 +366,9 @@ def main() -> None:
         "wrong_next_seam_rejected": expect_failure(lambda: validate_startup("next")),
         "duplicate_startup_marker_rejected": expect_failure(
             lambda: validate_startup("duplicate_marker")
+        ),
+        "ambiguous_prior_current_authority_rejected": expect_failure(
+            lambda: validate_startup("duplicate_authority")
         ),
         "missing_link_target_rejected": expect_failure(lambda: validate_links(True)),
         "source_manifest_mutation_rejected": expect_failure(
