@@ -1,0 +1,8 @@
+quantity	exact_result	consequence
+pair distance	d(p,q)=b*acos(p_dot_q/b^2)	bilocal centerless scalar
+observer radial family	rho_p(q)=F(d(p,q))	every p has equivalent chart; no global center
+three equal-radius directions	p_dot_qi/b^2=1/2; qi_dot_qj/b^2=1/4	global scalar-difference universal isotropic representation impossible
+noncollinear pair law	requires direction dot product	angular sector participates in composition
+antipodal distance	pi*b for every minimizing semicircle	scalar distance unique at cut
+antipodal frame transport	different exact isometries for different great semicircles	full transport path-family at cut
+round clock solder	constant lapse	no physical Xmax promotion

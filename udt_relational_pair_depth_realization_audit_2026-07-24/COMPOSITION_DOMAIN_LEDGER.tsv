@@ -1,0 +1,7 @@
+domain	law	result	failure_outside_domain
+abstract additive depth parameters	delta12+delta23=delta13	DERIVED_WHEN_INTERMEDIATE_LIES_IN_DECLARED_ORDERED_DEPTH_CHAIN	no arbitrary-triple metric claim
+proper metric subsegments on one minimizing geodesic	d13=d12+d23	DERIVED_BEFORE_CUT_WHEN_Q_IS_BETWEEN_P_AND_R	triangle inequality is generally strict
+universal continuous F of proper distance	F(d1+d2)=F(d1)+F(d2)	FORCES_F_EQUAL_KAPPA_D	nonlinear asymptotic F fails ordinary subsegment additivity
+observer-indexed nonlinear chart	rho_p(r)=rho_p(q)+[rho_p(r)-rho_p(q)]	TELESCOPES_IN_ONE_BASE_CHART	bracket is not generally rho_q(r)
+noncollinear round triples	cos d_qr/b=cos a cos b+sin a sin b n_dot_m	ANGULAR_DATUM_REQUIRED	two radial depths do not determine third pair
+cut locus	scalar d remains infimum; full transport indexed by minimizing paths	SCALAR_SINGLE_FULL_TRANSPORT_FAMILY	no unique full transport without holonomy/path readout

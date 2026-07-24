@@ -1,0 +1,5 @@
+object	dimension	available_anchor	missing_for_dimensionless_depth	status
+metric distance d	length	complete physical metric representative	inverse-length normalization or selected profile	DERIVED_PER_METRIC
+c and inverse-c	length/time and time/length	clock-length conversion	a time or length normalization	FOUNDING_SCALE_CONVERSION_NOT_DEPTH_NORMALIZATION_ALONE
+linear depth kappa*d	dimensionless	kappa has inverse-length dimension	native kappa	FORM_SELECTED_BY_ORDINARY_ADDITIVITY_SCALE_OPEN
+projective depth atanh(d/D)	dimensionless	finite length D	derivation of D and display join	CONDITIONAL_NONLINEAR_DISPLAY
