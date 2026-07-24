@@ -1,0 +1,12 @@
+classification	meaning	current_authority_effect
+RELATIONAL_COMPATIBLE	already treats Xmax as observer-pair maximum or symmetric relational limit	RETAIN_WITH_PREMISE_STAMP
+SCALE_ONLY_UNAFFECTED	uses only the dimensions or common scaling of Xmax	RETAIN_UNCHANGED
+LOCAL_X_DISTINCT	uses a local radial/chart/finite-cell scale X not yet joined to global Xmax	RETAIN_LOCAL_RESULT_SEPARATE_GLOBAL_ID_OPEN
+EDGE_CONFLATION	an edge center or radial universe is inferred from Xmax alone	CORRECT_OR_REGRADE
+BOUNDARY_DEPENDENT	a result needs a real boundary surface or boundary variation beyond pairwise maximum	CONDITIONS_CHANGED_IF_XMAX_WAS_SOLE_BOUNDARY_SOURCE
+ASYMPTOTIC_LIMIT_COMPATIBLE	uses an endpoint limit that can be relational but still needs a complete metric realization	RETAIN_CONDITIONAL
+HISTORICAL_SNAPSHOT	superseded or forensic record containing old language	PRESERVE_WITH_OVERLAY
+FROZEN_EVIDENCE	immutable package or manifest-bound source	PRESERVE_WITH_OVERLAY
+GENERATED_AUDIT_RECORD	mechanical record repeating another source claim	FAMILY_ADJUDICATION_ALLOWED
+UNRELATED_TOKEN	token is code variable test fixture citation or incidental usage	NO_SCIENTIFIC_EFFECT
+UNKNOWN_BLOCKED	insufficient evidence for a safe ruling	NO_PROMOTION
