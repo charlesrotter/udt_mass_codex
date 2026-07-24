@@ -1,0 +1,20 @@
+{
+  "cuda_visible_devices": "",
+  "executable": "/usr/bin/python3",
+  "external_dependencies": [],
+  "independent": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 verify_branch_availability_independent.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "d0fc5fb1394fb345746ac8dd8691337d784fc8c4f009c29a3c798a4dcbb9260b"
+  },
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "production": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 derive_branch_availability.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "895b498eb0a053755b032347b3526ac4deae63fb022291b3be7ffb0d4ded385e"
+  },
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "schema": "udt-involutive-exchange-branch-run-environment-v1"
+}

@@ -1,0 +1,51 @@
+{
+  "authority_boundary": {
+    "canonization": false,
+    "completion_selected": false,
+    "cross_family_splice_used": false,
+    "density_or_mass_solve": false,
+    "gpu_work": false,
+    "lift_selected": false,
+    "new_action": false,
+    "new_carrier": false,
+    "repository_reorganization": false
+  },
+  "catch_proofs": 12,
+  "families": 28,
+  "intersection_census": {
+    "report_level": 14,
+    "report_level_directly_represented": 14,
+    "total": 206
+  },
+  "lifts": {
+    "involutive": 2,
+    "order_four": 2,
+    "selected": 0,
+    "total": 4
+  },
+  "maximum_ruling": "PRESENT_SELECTOR_BOUNDARY_VERIFIED_WITH_CAVEATS",
+  "native_action_gate_yes": 0,
+  "native_complete_on_shell_gate_yes": 0,
+  "passing_families": [],
+  "result": "PASS",
+  "schema": "udt-involutive-exchange-branch-availability-v1",
+  "sources": 150,
+  "strongest_near_pass": {
+    "conditional": 6,
+    "family_id": "B19",
+    "missing_decisive_gates": [
+      "G02",
+      "G03",
+      "G05",
+      "G07",
+      "G09"
+    ],
+    "no": 0,
+    "open": 3,
+    "yes": 3
+  },
+  "witnesses": {
+    "native_on_shell_complete": 0,
+    "total": 7
+  }
+}

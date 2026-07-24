@@ -1,0 +1,5 @@
+lift_id	matrix_symbol	matrix_description	order	square	fixed_lattice_rank	involutive_exchange	selected_by_current_udt
+L01	J	swap	2	PLUS_IDENTITY	1	YES	NO
+L02	MINUS_J	negative_swap	2	PLUS_IDENTITY	1	YES	NO
+L03	K_PLUS	quarter_turn_swap	4	MINUS_IDENTITY	0	NO	NO
+L04	K_MINUS	negative_quarter_turn_swap	4	MINUS_IDENTITY	0	NO	NO

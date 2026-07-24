@@ -1,0 +1,12 @@
+git status --short --branch
+git rev-parse HEAD
+git rev-parse origin/grok
+python3 udt_involutive_exchange_branch_availability_audit_2026-07-24/freeze_sources.py
+python3 udt_involutive_exchange_branch_availability_audit_2026-07-24/freeze_correction_sources.py
+python3 udt_involutive_exchange_branch_availability_audit_2026-07-24/freeze_correction_sources_02.py
+python3 udt_involutive_exchange_branch_availability_audit_2026-07-24/freeze_correction_sources_03.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 derive_branch_availability.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 verify_branch_availability_independent.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 verify_repository_gates.py
+python3 build_manifest.py
+sha256sum --check SHA256SUMS.txt

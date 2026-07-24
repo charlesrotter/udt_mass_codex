@@ -1,0 +1,22 @@
+{
+  "agreement": {
+    "authority_boundary": true,
+    "lift_classification": true,
+    "no_complete_witness": true,
+    "source_universe": true,
+    "strongest_near_pass": true
+  },
+  "catch_proofs": 12,
+  "families": 28,
+  "imports_production_module": false,
+  "imports_sympy": false,
+  "involutive_lifts": 2,
+  "native_action_gate_yes": 0,
+  "native_complete_on_shell_gate_yes": 0,
+  "passing_families": [],
+  "result": "PASS",
+  "schema": "udt-involutive-exchange-branch-independent-v1",
+  "selected_lifts": 0,
+  "sources": 150,
+  "strongest_near_pass": "B19"
+}

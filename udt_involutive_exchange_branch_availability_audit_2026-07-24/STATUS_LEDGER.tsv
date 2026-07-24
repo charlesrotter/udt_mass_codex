@@ -1,0 +1,13 @@
+id	object	status	exact_scope
+S01	effective_source_universe	150_TRACKED_PATHS_FROZEN	97+4+35+14 disjoint source identities
+S02	registered_evidence_families	28_COMPLETE_BOUNDED_CENSUS	One row per preregistered family
+S03	native_action_or_equation_authority	ABSENT	Zero rows have G02 YES
+S04	native_complete_on_shell_branch	ABSENT	Zero rows have G03 YES
+S05	global_involutive_angular_exchange	CONDITIONAL_OR_OPEN	No selected lift in any on-shell family
+S06	compatible_cap_isotropy_completion	CONDITIONAL_OR_OPEN	FC04 and other caps remain supplied or unselected
+S07	strongest_near_pass	B19_CONDITIONAL_C2_ROUND_BRANCH	Full Bach pass conditional; metric blind to coframe lift; physical boundary open
+S08	cross_family_assembly	FORBIDDEN_AS_PROOF	Conditional action and conditional toric data cannot be silently spliced
+S09	selector_boundary	PRESENT_SELECTOR_BOUNDARY_VERIFIED_WITH_CAVEATS	No coherent family passes all twelve gates
+S10	fresh_external_semantic_review	NOT_PERFORMED_CAVEAT	Independent verification is mechanical and source-identity based
+S11	action_carrier_source_mass_scale	OPEN_OR_CONDITIONAL_UNCHANGED	No downstream promotion
+S12	next_scientific_action	PONDER_OR_NEW_PREMISE_DISCOVERY_BEFORE_MORE_SELECTOR_DRILLING	Existing branch inventory is exhausted at this conjunction

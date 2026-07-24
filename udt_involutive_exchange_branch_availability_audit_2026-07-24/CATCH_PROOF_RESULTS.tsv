@@ -1,0 +1,13 @@
+catch_id	result
+missing_family	PASS:AssertionError
+duplicate_family	PASS:AssertionError
+invalid_gate_value	PASS:AssertionError
+synthetic_pass	PASS:AssertionError
+cross_family_splice	PASS:AssertionError
+order_four_as_involution	PASS:AssertionError
+off_shell_as_on_shell	PASS:AssertionError
+posit_as_native	PASS:AssertionError
+pre_july_affirmative	PASS:AssertionError
+source_count	PASS:AssertionError
+conditional_as_pass	PASS:AssertionError
+strongest_witness_lift_promotion	PASS:AssertionError
