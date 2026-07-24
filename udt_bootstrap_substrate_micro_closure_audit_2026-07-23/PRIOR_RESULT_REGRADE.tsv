@@ -1,0 +1,16 @@
+id	prior_scope	disposition	reason
+R01_RECIPROCAL_KINEMATICS	derived with exact premises	UNCHANGED	The audit uses but does not alter the exact kinematic derivation.
+R02_COMPLETE_COFRAME_GEOMETRY	exact registered kinematics	UNCHANGED_AND_USED_AS_CHANNEL	The complete coframe supplies the substrate-to-local geometric interface.
+R03_HOPF_TOPOLOGICAL_CORE	conditional on supplied carrier map/domain	UNCHANGED_CONDITIONAL	The topological definition remains conditional on supplied carrier and domain data.
+R04_CARRIER_STATUS	round S2 is POSIT	UNCHANGED_POSIT	No global substrate channel by itself derives the round S2 carrier.
+R05_STATIC_STABILITY	finite box fixed carrier action metric coefficients operator	UNCHANGED_FIXED_BACKGROUND_SCOPE	The result remains valid but does not cover substrate-varying backgrounds.
+R06_TIME_LIVE_STABILITY	open	UNCHANGED_OPEN	No physical time evolution is solved.
+R07_ACTION_STATUS	C2 unique-conditional EH conditional complete action open	UNCHANGED	No action is selected by the channel audit.
+R08_MASS_STATUS	present routes conditional unconditional mass open	UNCHANGED_OPEN_OR_CONDITIONAL	No native source or unconditional mass is derived.
+R09_BOOTSTRAP_AFTER_SOLUTION	current explicit implementation is outer admissibility	QUALIFIED_CURRENT_ROLE_NOT_EXHAUSTIVE_OWNER_HYPOTHESIS	Outer admissibility is the current explicit role; the owner source separately retains the stronger local fork.
+R10_NO_DENSITY_SCAN	density not operational before full closure	UNCHANGED_DENSITY_GATE_PRE_DENSITY_GEOMETRIC_BRACKETING_ALLOWED	Metric backgrounds may be bracketed before native density exists, but must not be labeled density values.
+R11_SELECTOR_NEGATIVES	scoped searches found no selector	RETAIN_SCOPED_NEGATIVES_JOINT_BOOTSTRAP_UNTESTED	Fixed-background or local candidate failures do not test a complete simultaneous universe-plus-matter solve.
+R12_DIMENSIONAL_RULER	conditional coefficient ruler remains	RETAINED_UNIFORM_SCALE_INSUFFICIENT	Constant homothety does not remove sqrt(kappa/xi) or derive its value.
+R13_COMPLETION_CENSUS	twelve overlapping classes none selected	UNCHANGED_TAXONOMY	No completion class is selected.
+R14_HOPF_DEFORMATION	rank-one bridge local shear candidate shift connection no section	LOCAL_RESULT_RETAINED_GLOBAL_COMPATIBILITY_CHANNEL_ADDED	Shear and shift conclusions remain; completion and holonomy can constrain but do not select a section.
+R15_XMAX_STATUS	global asymptotic/scale selection open	BOOTSTRAP_EXPLICITLY_BROADER_THAN_XMAX_SELECTION	The owner principle concerns matter-bearing self-consistency and may constrain micro existence as well as global scale.

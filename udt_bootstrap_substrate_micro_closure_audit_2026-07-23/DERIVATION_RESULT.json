@@ -1,0 +1,217 @@
+{
+  "algebra": {
+    "all_pass": true,
+    "checks": [
+      {
+        "name": "fixed_embedding_pullback_variation",
+        "passed": true,
+        "value": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+      },
+      {
+        "name": "e2_conformal_weight",
+        "passed": true,
+        "value": "0"
+      },
+      {
+        "name": "e4_conformal_weight",
+        "passed": true,
+        "value": "0"
+      },
+      {
+        "name": "weighted_scalar_euler_identity",
+        "passed": true,
+        "value": "0"
+      },
+      {
+        "name": "conformal_laplacian_d3_identity",
+        "passed": true,
+        "value": "0"
+      },
+      {
+        "name": "constant_q_stationarity",
+        "passed": true,
+        "value": "0"
+      },
+      {
+        "name": "constant_q_physical_radius_independent",
+        "passed": true,
+        "value": "0"
+      },
+      {
+        "name": "constant_q_optimum_energy",
+        "passed": true,
+        "value": "0"
+      },
+      {
+        "name": "e2_metric_variation_trace_d3",
+        "passed": true,
+        "value": "0"
+      },
+      {
+        "name": "e4_metric_variation_trace_d3",
+        "passed": true,
+        "value": "0"
+      },
+      {
+        "name": "phase_covariant_derivative_invariant",
+        "passed": true,
+        "value": "0"
+      },
+      {
+        "name": "shift_curvature_invariant",
+        "passed": true,
+        "value": "0"
+      }
+    ],
+    "expressions": {
+      "coordinate_radius_star": "sqrt(B)*sqrt(kappa)/(sqrt(A)*q*sqrt(xi))",
+      "e2_metric_variation": "(xi/2) int sqrt(h) [(1/2)h^(ab)h^(ij)G_ij-h^(ia)h^(jb)G_ij] delta h_ab",
+      "e4_metric_variation": "kappa int sqrt(h) [(1/8)h^(ab)F^2-(1/2)F^a_c F^(bc)] delta h_ab",
+      "optimum_energy": "2*sqrt(A)*sqrt(B)*sqrt(kappa)*sqrt(xi)",
+      "physical_radius_star": "sqrt(B)*sqrt(kappa)/(sqrt(A)*sqrt(xi))",
+      "scaled_energy": "A*R*q*xi + B*kappa/(R*q)"
+    },
+    "passed": 12,
+    "total": 12
+  },
+  "all_checks_pass": true,
+  "authority_boundary": {
+    "action_derived": false,
+    "carrier_derived": false,
+    "completion_selected": false,
+    "density_curvature_law_derived": false,
+    "density_window_computed": false,
+    "gpu_used": false,
+    "native_mass_or_source_derived": false,
+    "physical_representative_selected": false
+  },
+  "base": "3e3237b",
+  "counts": {
+    "channel_candidates": 24,
+    "completion_rows": 12,
+    "conditional_response_rows": 4,
+    "exact_or_geometric_channel_rows": 5,
+    "fixed_point_arrows": 14,
+    "open_fixed_point_arrows": 5,
+    "open_or_working_rows": 6,
+    "regrade_rows": 15,
+    "rejected_rows": 2
+  },
+  "date": "2026-07-23",
+  "maximum_conclusion": "GLOBAL_SUBSTRATE_TO_MICRO_GEOMETRY_CHANNELS_DERIVED__CONDITIONAL_HOPF_OPERATOR_BACKGROUND_SENSITIVE__SIMULTANEOUS_DENSITY_MATTER_CLOSURE_REMAINS_OPEN",
+  "mode": "CPU_ONLY_EXACT_AND_TYPED_AUDIT",
+  "rulings": {
+    "conditional_hopf_action": "BACKGROUND_SENSITIVE_AFTER_CARRIER_ACTION_AND_REPRESENTATIVE",
+    "constant_homothety": "DOES_NOT_REMOVE_CONDITIONAL_COEFFICIENT_RULER",
+    "density_scan": "NOT_PERFORMED",
+    "global_to_micro_geometry": "DERIVED_KINEMATIC_CHANNELS_WITH_EMBEDDING_REPRESENTATIVE_SCOPE",
+    "owner_bootstrap": "PRIMARY_GLOBAL_ADMISSIBILITY_PLUS_SEPARATE_STRONGER_LOCAL_FORK",
+    "simultaneous_density_matter_closure": "OPEN_MISSING_NATIVE_ARROWS",
+    "strong_local_bootstrap": "WORKING_HYPOTHESIS_CHANNEL_ARCHITECTURE_EXISTS_DEPENDENCE_OPEN"
+  },
+  "schema": "udt-bootstrap-substrate-micro-closure-v1",
+  "source_checks": [
+    {
+      "expected": "ce14075bad1ff4b6ea9b41e35dc6b63dfc5a9ae13478bd57c80b1502f33fb540",
+      "observed": "ce14075bad1ff4b6ea9b41e35dc6b63dfc5a9ae13478bd57c80b1502f33fb540",
+      "passed": true,
+      "source_path": "UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md"
+    },
+    {
+      "expected": "cad3c4f0dccc1599c5b4ff48c6adafa32fb64b590e4ef4f0f6e20e5e96de9bed",
+      "observed": "cad3c4f0dccc1599c5b4ff48c6adafa32fb64b590e4ef4f0f6e20e5e96de9bed",
+      "passed": true,
+      "source_path": "bootstrap_variation_selector_2026-07-18/SHA256SUMS.txt"
+    },
+    {
+      "expected": "716c2ad9c071a49f75b4c340d6d980d75cfc0a48b0923c39e0cf3d100759ae77",
+      "observed": "716c2ad9c071a49f75b4c340d6d980d75cfc0a48b0923c39e0cf3d100759ae77",
+      "passed": true,
+      "source_path": "matter_bootstrap_dimensional_inventory_2026-07-20/SHA256SUMS.txt"
+    },
+    {
+      "expected": "53996dfcc0fb9cef29422ff94908fe71aaed32703d49e70e2d6d7f01aa19fe84",
+      "observed": "53996dfcc0fb9cef29422ff94908fe71aaed32703d49e70e2d6d7f01aa19fe84",
+      "passed": true,
+      "source_path": "scale_breaking_closure_census_2026-07-20/SHA256SUMS.txt"
+    },
+    {
+      "expected": "d4c7e7e16e38496343bbfbc8ef0867de45657ea2e25a724b44b653ff1b276374",
+      "observed": "d4c7e7e16e38496343bbfbc8ef0867de45657ea2e25a724b44b653ff1b276374",
+      "passed": true,
+      "source_path": "udt_global_metric_assembly_atlas_2026-07-22/SHA256SUMS.txt"
+    },
+    {
+      "expected": "ee35787b41fbca774031080c1c12a4c0fe01dc820abdeb444e1977d58bbb0b1b",
+      "observed": "ee35787b41fbca774031080c1c12a4c0fe01dc820abdeb444e1977d58bbb0b1b",
+      "passed": true,
+      "source_path": "udt_coframe_hopf_bridge_audit_2026-07-23/MANIFEST.sha256"
+    },
+    {
+      "expected": "95b69c6400aa60923126b1be4e84511876475791b49ba47a08d57db115078360",
+      "observed": "95b69c6400aa60923126b1be4e84511876475791b49ba47a08d57db115078360",
+      "passed": true,
+      "source_path": "udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/SHA256SUMS.txt"
+    },
+    {
+      "expected": "b1b69eb7a1aa1bfbc747f85d51c59cb835d1206c77a5be81d3eac993ee910e2b",
+      "observed": "b1b69eb7a1aa1bfbc747f85d51c59cb835d1206c77a5be81d3eac993ee910e2b",
+      "passed": true,
+      "source_path": "udt_hopf_realization_deformation_audit_2026-07-23/SHA256SUMS.txt"
+    },
+    {
+      "expected": "6f03f82d485d4a20c2d2bfc13dc8979c1b229bf92c53f0eb36831abf3d75febc",
+      "observed": "6f03f82d485d4a20c2d2bfc13dc8979c1b229bf92c53f0eb36831abf3d75febc",
+      "passed": true,
+      "source_path": "native_hopfion_topology_audit_2026-07-19/SHA256SUMS.txt"
+    },
+    {
+      "expected": "9806bc8f61b94109080699f00d8a758f1afc935db18a11f07dbe7365a61811d5",
+      "observed": "9806bc8f61b94109080699f00d8a758f1afc935db18a11f07dbe7365a61811d5",
+      "passed": true,
+      "source_path": "stability_branch_follow_256_DECISION.md"
+    },
+    {
+      "expected": "53110844b3925b9b46bb48a3865f1bf9f60290efdd01a5830e0e388aeb477444",
+      "observed": "53110844b3925b9b46bb48a3865f1bf9f60290efdd01a5830e0e388aeb477444",
+      "passed": true,
+      "source_path": "noNull_energy.py"
+    },
+    {
+      "expected": "ea4e522cef2a04973806ac1aed714c0a2f20badd1766c656d108594298d1c98d",
+      "observed": "ea4e522cef2a04973806ac1aed714c0a2f20badd1766c656d108594298d1c98d",
+      "passed": true,
+      "source_path": "noNull_behavioral_F_results.md"
+    },
+    {
+      "expected": "present",
+      "observed": "present",
+      "passed": true,
+      "source_path": "owner_primary_global_reading"
+    },
+    {
+      "expected": "present",
+      "observed": "present",
+      "passed": true,
+      "source_path": "owner_stronger_local_reading"
+    },
+    {
+      "expected": "present",
+      "observed": "present",
+      "passed": true,
+      "source_path": "owner_no_nonlocal_insertion"
+    },
+    {
+      "expected": "present",
+      "observed": "present",
+      "passed": true,
+      "source_path": "coframe_complete_angular_form"
+    },
+    {
+      "expected": "present",
+      "observed": "present",
+      "passed": true,
+      "source_path": "conditional_continuum_functional"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+id	fixture	expected	result
+K01	missing one channel	reject 23-row universe	PASS
+K02	duplicate one channel	reject duplicate identity	PASS
+K03	promote direct density insertion	reject non-owner-compliant local coupling	PASS
+K04	promote stronger local fork to derived window	reject hypothesis promotion	PASS
+K05	missing one prior regrade	reject 14-row universe	PASS
+K06	missing one fixed-point arrow	reject 13-row loop	PASS
+K07	missing one completion	reject 11-row taxonomy	PASS
+K08	promote one completion to matter closure	reject completion promotion	PASS
+K09	claim density-curvature law derived	reject authority-boundary mutation	PASS
+K10	claim constant homothety selects ruler	reject scale promotion	PASS
+K11	set production checks false	reject failed production package	PASS

@@ -1,0 +1,190 @@
+{
+  "all_checks_pass": true,
+  "artifact_sha256": {
+    "channels": "2c09773fec571c39ba5daeebe155f1467cd20df1d3ef74bcc319432340133e4c",
+    "completions": "99040cb55b205da60ea70800bddfa784260239f057924338280a98f450a2b236",
+    "fixed_point": "1d19ffc48b456227bde12b0f693258933b240e5f4027d49359771a0618bbe38c",
+    "production": "b2cd971b8978b3114619e611b520de70dcff77217e9eac6241befd64ff822f62",
+    "regrades": "ae232595f04c1c159174ac1535730e28283eae95df0eb0ad36715740d4177c6c"
+  },
+  "catch_proofs": [
+    {
+      "name": "missing_channel_rejected",
+      "passed": true
+    },
+    {
+      "name": "duplicate_channel_rejected",
+      "passed": true
+    },
+    {
+      "name": "density_insertion_promotion_rejected",
+      "passed": true
+    },
+    {
+      "name": "strong_local_promotion_rejected",
+      "passed": true
+    },
+    {
+      "name": "missing_regrade_rejected",
+      "passed": true
+    },
+    {
+      "name": "missing_fixed_arrow_rejected",
+      "passed": true
+    },
+    {
+      "name": "missing_completion_rejected",
+      "passed": true
+    },
+    {
+      "name": "completion_matter_promotion_rejected",
+      "passed": true
+    },
+    {
+      "name": "density_curvature_claim_rejected",
+      "passed": true
+    },
+    {
+      "name": "homothety_scale_promotion_rejected",
+      "passed": true
+    },
+    {
+      "name": "production_failure_rejected",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "agreement_passed": 13,
+    "agreement_total": 13,
+    "catches_passed": 11,
+    "catches_total": 11,
+    "exact_passed": 11,
+    "exact_total": 11
+  },
+  "exact_checks": [
+    {
+      "detail": "True",
+      "name": "pullback_variation_fraction",
+      "passed": true
+    },
+    {
+      "detail": "5/3",
+      "name": "e2_weight_fraction",
+      "passed": true
+    },
+    {
+      "detail": "3/5",
+      "name": "e4_weight_fraction",
+      "passed": true
+    },
+    {
+      "detail": "76375/46656",
+      "name": "conformal_laplacian_fraction",
+      "passed": true
+    },
+    {
+      "detail": "2",
+      "name": "positive_ratio_control",
+      "passed": true
+    },
+    {
+      "detail": "0",
+      "name": "constant_q_stationarity_fraction",
+      "passed": true
+    },
+    {
+      "detail": "8",
+      "name": "constant_q_physical_radius_fraction",
+      "passed": true
+    },
+    {
+      "detail": "7/11",
+      "name": "e2_trace_weight_fraction",
+      "passed": true
+    },
+    {
+      "detail": "-7/11",
+      "name": "e4_trace_weight_fraction",
+      "passed": true
+    },
+    {
+      "detail": "10",
+      "name": "phase_connection_fraction",
+      "passed": true
+    },
+    {
+      "detail": "108",
+      "name": "curvature_gauge_cancellation_fraction",
+      "passed": true
+    }
+  ],
+  "method": "PYTHON_STDLIB_FRACTION_NO_SYMPY_NO_CONTROLLER_IMPORT",
+  "schema": "udt-bootstrap-substrate-micro-independent-v1",
+  "table_agreement_checks": [
+    {
+      "detail": "24",
+      "name": "channel_count",
+      "passed": true
+    },
+    {
+      "detail": "24",
+      "name": "channel_unique",
+      "passed": true
+    },
+    {
+      "detail": "15",
+      "name": "regrade_count",
+      "passed": true
+    },
+    {
+      "detail": "14",
+      "name": "fixed_arrow_count",
+      "passed": true
+    },
+    {
+      "detail": "12",
+      "name": "completion_count",
+      "passed": true
+    },
+    {
+      "detail": "all",
+      "name": "all_completion_matter_open",
+      "passed": true
+    },
+    {
+      "detail": "REJECTED_DIRECT_INSERTION",
+      "name": "direct_density_rejected",
+      "passed": true
+    },
+    {
+      "detail": "REJECTED_AS_UDT_DERIVATION",
+      "name": "gr_route_rejected",
+      "passed": true
+    },
+    {
+      "detail": "WORKING_HYPOTHESIS_CHANNEL_ARCHITECTURE_EXISTS_DEPENDENCE_OPEN",
+      "name": "strong_local_not_promoted",
+      "passed": true
+    },
+    {
+      "detail": "UNCHANGED_FIXED_BACKGROUND_SCOPE",
+      "name": "fixed_background_scope_retained",
+      "passed": true
+    },
+    {
+      "detail": "QUALIFIED_CURRENT_ROLE_NOT_EXHAUSTIVE_OWNER_HYPOTHESIS",
+      "name": "outer_role_qualified",
+      "passed": true
+    },
+    {
+      "detail": "OPEN_MISSING_NATIVE_ARROWS",
+      "name": "density_closure_open",
+      "passed": true
+    },
+    {
+      "detail": "{'action_derived': False, 'carrier_derived': False, 'completion_selected': False, 'density_curvature_law_derived': False, 'density_window_computed': False, 'gpu_used': False, 'native_mass_or_source_derived': False, 'physical_representative_selected': False}",
+      "name": "no_physics_promotions",
+      "passed": true
+    }
+  ]
+}
