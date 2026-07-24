@@ -1,0 +1,19 @@
+id	object	treatment	source_or_reason	excluded_promotion
+P01	four_dimensional_conformal_Lorentzian_parent	pinned-by-THEORY	UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md and current checkpoint	no complete physical metric
+P02	local_common_scale_equivalence	pinned-by-THEORY	g maps to Omega squared g for arbitrary smooth positive Omega	no selected representative
+P03	phi_dimensionless_log_reciprocal_imbalance	DERIVED_WITH_RECORDED_PREMISES	udt_phi_metric_ontology_audit_2026-07-22/PHI_ONTOLOGY_LEDGER.tsv	no complete metric ownership
+P04	phi_CSN_weight_zero	DERIVED_EXACT	invariant positive-pair ratio	no additive-shift gauge
+P05	alpha_equals_dphi	pinned-by-current-metric-atlas	current finite-cell Cartan transport frontier	no native equation for phi
+P06	alpha_causal_type	free-and-explored	timelike spacelike null zero and transitions all retained	no preferred universe
+P07	nonnull_normalized_line_and_projectors	PARENT_DERIVED_CONDITIONAL	udt_finite_cell_cartan_transport_atlas_2026-07-23	no interface continuation
+P08	Levi_Civita_of_supplied_metric	pinned-by-GEOMETRY	unique after one metric is supplied	no pre-scale physical authority
+P09	torsion_free_Weyl_class	free-and-explored	complete declared comparison class	not silently adopted from GR
+P10	torsionful_metric_connections	free-and-explored	required to census projected/Kato transport	no physical torsion claim
+P11	unit_dphi_compensator	free-and-explored	natural candidate h0 equals abs(s)g	not a registered selector premise
+P12	functions_of_phi_invariant_factor	free-and-explored	phi is CSN-neutral and additive shifts are not a derived gauge	no preferred function
+P13	reciprocal_reversal_and_static_seal	pinned-by-recorded-static-scope	phi maps to minus phi and static seal has phi zero	no bulk connection selection
+P14	normal_conformal_Cartan_tractor	connection-type control	projective_transport_section_selector_2026-07-19	no tangent-null section or scale
+P15	finite_cell_completion	pinned-by-registered-taxonomy	twelve parametric families and zero complete on-shell g-phi solutions	no selected topology or branch
+P16	bootstrap	OPEN_OPERATOR	current checkpoint and ontology audit	no off-shell realization or representative map
+P17	action_source_boundary_carrier_density_scale	OPEN_NOT_USED	binding research scope	no downstream physics inference
+P18	physical_time_evolution	OPEN_NOT_USED	connection transport is geometric	no Kato-as-dynamics promotion
