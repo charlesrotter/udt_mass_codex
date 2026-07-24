@@ -1,0 +1,27 @@
+id	item	status	use_or_limit
+P01	c_E	OBSERVED_FOUNDING	calibrated clock-length conversion retained
+P02	Lorentzian_metric	CONDITIONAL_SUPPLIED_BRANCH	required for screen curvature Hodge and coframe transport
+P03	Levi_Civita_connection	DERIVED_FROM_SUPPLIED_METRIC	no field equation imported
+P04	endpoint_observers_and_events	FREE_TYPED_INPUT	no native matter law selects them
+P05	path_type	FREE_CANDIDATE	null and co-present/rest constructions remain separate
+P06	path_family	FREE_AND_ALL_RETAINED	cut-locus and lens multiplicity preserved
+P07	affine_normalization	GAUGE	must be matched in any generator comparison
+P08	screen_basis	SO2_GAUGE	no preferred screen vector inserted
+P09	orientation	EXPLICIT_CONDITIONAL_INPUT	ordinary Hodge star global only when oriented
+P10	time_orientation	EXPLICIT_CONDITIONAL_INPUT	required for signed observer line
+P11	foundational_reciprocal_operator	DERIVED_WITH_PREMISE_STAMPS	abstract rank-two representation
+P12	delta_equals_log_Q	CONDITIONAL	not an all-observer theorem
+P13	full_transverse_propagator	DERIVED_GIVEN_METRIC_PATH	symplectic path cocycle
+P14	vertex_Jacobi_map	DERIVED_PROJECTED_READOUT	not a path cocycle
+P15	nonnull_dphi_split	DERIVED_ON_DOMAIN	real rank3_plus_rank3 two-form reduction
+P16	null_or_zero_dphi	DEGENERATE_DOMAIN	no semisimple split
+P17	angular_reciprocal_representation	CONDITIONAL_INPUT_IN_PRIOR_THEOREM	not selected by complete metric
+P18	round_b	POSITIVE_FREE_SYMBOL	conditional B19 scale
+P19	WRL_X	POSITIVE_FREE_SYMBOL	local residual scale not physical Xmax
+P20	all_12_completions	FIXED_REGISTRY	no completion selected
+P21	all_28_equation_families	FIXED_REGISTRY	no family omitted or promoted
+P22	action_source_carrier_boundary	OPEN_EXCLUDED	cannot select solder
+P23	density_mass_bootstrap	OPEN_EXCLUDED	no feedback law or value
+P24	physical_Xmax	OPEN_OUTPUT	not inferred from local curvature
+P25	observational_data	EXCLUDED	no profile or branch fit
+P26	GPU_or_time_live	EXCLUDED	not authorized or needed

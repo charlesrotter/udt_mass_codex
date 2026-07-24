@@ -1,0 +1,18 @@
+id	claim	falsifier	required_response
+F01	Hodge_area_duality_is_type_distinct_from_Jacobi_phase_transport	a canonical type-correct equality maps spacetime area bivectors to V_J states	regrade type ruling
+F02	no_nonzero_SO2_equivariant_linear_clock_to_screen_vector_map	a nonzero map survives arbitrary endpoint screen rotation	reject gauge obstruction
+F03	invariant_phase_line_requires_parallel_screen_line_and_tidal_invariance	a counterexample preserves L_direct_sum_L without both conditions	regrade theorem
+F04	scalar_Jacobi_and_reciprocal_generators_match_only_if_K_equals_minus_a_squared	a real similarity exists with unequal determinant or characteristic polynomial	reject generator condition
+F05	positive_screen_curvature_obstructs_nontrivial_hyperbolic_match	a positive-K real generator is similar to nonzero diag_minus_a_plus_a	reject signature obstruction
+F06	B19_does_not_supply_nontrivial_solder	Q_nontrivial and matched transverse reciprocal transport derived in the same branch	regrade branch
+F07	WRL_does_not_supply_linear_transport_solder	its positive radial K generator is similar to its nonzero clock generator	regrade branch
+F08	WRL_profile_relation_is_not_transport_solder	the scalar relation supplies an equivariant bundle map with connection compatibility	regrade type
+F09	mixed_connection_blocks_obstruct_fixed_split_preservation	nabla_Pi vanishes with nonzero off_stabilizer connection	reject preservation condition
+F10	dphi_3plus3_is_not_clock_to_Jacobi_solder	a canonical rank2 Jacobi phase subbundle and map follow without another reduction	regrade prior result
+F11	null_zero_dphi_do_not_carry_semisimple_split	a regular continuation independent of approach exists	regrade domain
+F12	prior_matched_angular_intertwiner_remains_conditional	the metric selects B_similar_to_L plus mirror and normalization in a complete branch	report witness
+F13	no_cross_branch_splice	B19 completeness and WRL clock are combined	invalidate audit
+F14	universal_complete_solder_remains_open	a registered complete nontrivial all-observer branch satisfies every gate	report witness
+F15	physical_Xmax_remains_open	a local generator or curvature is promoted to global pair diameter	reject conclusion
+F16	registry_coverage	any causal class completion equation family or branch is omitted	stop
+F17	repository_gates	any source hash manifest navigation test or dirty metadata gate fails	stop
