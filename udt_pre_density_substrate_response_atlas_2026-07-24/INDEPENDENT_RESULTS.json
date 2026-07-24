@@ -1,0 +1,27 @@
+{
+  "catch_proof_count": 16,
+  "catch_proof_pass_count": 16,
+  "implementation": "python_standard_library_no_production_import",
+  "independent": {
+    "anisotropy_five_point_residual_max": 5.297096095091547e-12,
+    "completion_count": 12,
+    "conditional_probe_count": 10,
+    "conformal_five_point_residual_max": 1.3926637620897964e-12,
+    "join_ruling": "BRANCHWISE_CANONICAL_METRIC_LATTICE_U1_REDUCTION_AVAILABLE__PHYSICAL_SELECTION_AND_PHASE_SECTION_OPEN",
+    "monodromy_class_counts": {
+      "MIXED_WITH_OTHER_CHARACTER": 3,
+      "PRESERVED": 1,
+      "REVERSED_OR_CONJUGATED": 2
+    },
+    "selector_covariance_count": 6,
+    "selector_residual_max": 3.552713678800501e-15,
+    "selector_tie_count": 3,
+    "selector_unique_count": 22,
+    "shape_isotropic_count": 1,
+    "shape_residual_max": 1.7763568394002505e-15,
+    "source_count": 20,
+    "translation_non_equivariance_witness": 0.9999999999999999
+  },
+  "overall": "PASS",
+  "schema": "udt_pre_density_substrate_response_independent_v1"
+}

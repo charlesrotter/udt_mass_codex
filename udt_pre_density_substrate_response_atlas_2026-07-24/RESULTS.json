@@ -1,0 +1,123 @@
+{
+  "base_commit": "929106194476d7ef2dd062de8f303c7ea17ae903",
+  "cap_lattice_controls": {
+    "V00": {
+      "determinant": 0,
+      "primitive_v0": true,
+      "primitive_v1": true,
+      "w_dot_v0": 1,
+      "w_dot_v1": 1
+    },
+    "V01": {
+      "determinant": 1,
+      "primitive_v0": true,
+      "primitive_v1": true,
+      "w_dot_v0": 1,
+      "w_dot_v1": -1
+    },
+    "V02": {
+      "determinant": 2,
+      "primitive_v0": true,
+      "primitive_v1": true,
+      "w_dot_v0": 1,
+      "w_dot_v1": -1
+    },
+    "V03": {
+      "determinant": 2,
+      "primitive_v0": false,
+      "primitive_v1": true,
+      "w_dot_v0": 2,
+      "w_dot_v1": -1
+    }
+  },
+  "compatibility_test_count": 12,
+  "completion_count": 12,
+  "conditional_exact": {
+    "anisotropy": {
+      "K1_L2_residual": "0",
+      "K1_L4_residual": "0",
+      "K2_L2_residual": "0",
+      "K2_L4_residual": "0"
+    },
+    "conformal_nonconstant_effect_max": 2.473081906050192,
+    "conformal_numeric_residual_max": 8.881784197001252e-16,
+    "conformal_operator": "-a*(2*x + y)*exp(a*x) - 6*exp(a*x)",
+    "conformal_operator_expected": "-(a*(2*x + y) + 6)*exp(a*x)",
+    "conformal_symbolic_residual": "0",
+    "constant_scale_stationarity_residual": "0",
+    "constant_scale_stationary_q": "sqrt(E4)/sqrt(E2)",
+    "constant_scale_total": "E2*q + E4/q",
+    "phase_gradient_gauge_residual": "0"
+  },
+  "conditional_probe_count": 10,
+  "conditional_ruling": "SUPPLIED_L2_PLUS_L4_RESPONDS_TO_SCALE_ANISOTROPY_AND_PHASE_CONNECTION",
+  "density_to_geometry": "OPEN_NOT_SAMPLED",
+  "diagonal_dual_selector_exact": {
+    "phi_negative": "(1,0)_mod_sign",
+    "phi_positive": "(0,1)_mod_sign",
+    "phi_zero": "(1,0)_and_(0,1)_tie",
+    "reason": "H_inverse=diag(exp(2phi),exp(-2phi))"
+  },
+  "direct_eigenaxis_phase_ruling": "TYPED_CHANNELS_DISTINCT__DIRECT_SOLDERING_OPEN",
+  "dual_selector_covariance_count": 6,
+  "dual_selector_tie_count": 3,
+  "dual_selector_unique_count": 22,
+  "gpu_used": false,
+  "join_ruling": "BRANCHWISE_CANONICAL_METRIC_LATTICE_U1_REDUCTION_AVAILABLE__PHYSICAL_SELECTION_AND_PHASE_SECTION_OPEN",
+  "local_exact": {
+    "D": [
+      [
+        "exp(-phi)",
+        "shear"
+      ],
+      [
+        "0",
+        "exp(phi)"
+      ]
+    ],
+    "H": [
+      [
+        "exp(-2*phi)",
+        "shear*exp(-phi)"
+      ],
+      [
+        "shear*exp(-phi)",
+        "shear**2 + exp(2*phi)"
+      ]
+    ],
+    "X": "-shear**2 - exp(2*phi) + exp(-2*phi)",
+    "Y": "2*shear*exp(-phi)",
+    "anisotropy_squared": "shear**4 + 2*shear**2*exp(2*phi) + 2*shear**2*exp(-2*phi) + exp(4*phi) - 2 + exp(-4*phi)",
+    "isotropic_control": true,
+    "spin_norm_residual": "0",
+    "spin_x_residual": "0",
+    "spin_y_residual": "0"
+  },
+  "local_object_count": 15,
+  "matter_solve_launched": false,
+  "maximum_conclusion_respected": true,
+  "metric_native_ruling": "JOINT_T2_METRIC_CONNECTION_OBJECT_DERIVED",
+  "monodromy_class_counts": {
+    "MIXED_WITH_OTHER_CHARACTER": 3,
+    "PRESERVED": 1,
+    "REVERSED_OR_CONJUGATED": 2
+  },
+  "monodromy_count": 6,
+  "preregistration_commits": [
+    "2fe47fd19722c3e815e32408cce54c8f2bcc8af7",
+    "223d4608a38ef41ba378abf650765a7f45a870bc"
+  ],
+  "registry_counts": {
+    "COMPLETION_TEST_REGISTRY.tsv": 12,
+    "CONDITIONAL_PROBE_REGISTRY.tsv": 10,
+    "SAMPLE_GRID.tsv": 12,
+    "SUBSTRATE_AXIS_REGISTRY.tsv": 20,
+    "TRANSFORMATION_GROUP_REGISTRY.tsv": 10
+  },
+  "schema": "udt_pre_density_substrate_response_atlas_v1",
+  "shape_grid_count": 25,
+  "shape_grid_determinant_error_max": 8.881784197001252e-16,
+  "shape_grid_isotropic_count": 1,
+  "source_count": 20,
+  "transformation_count": 10
+}

@@ -1,0 +1,4 @@
+python3 -m py_compile udt_pre_density_substrate_response_atlas_2026-07-24/derive_pre_density_substrate_atlas.py udt_pre_density_substrate_response_atlas_2026-07-24/verify_pre_density_substrate_atlas.py
+python3 udt_pre_density_substrate_response_atlas_2026-07-24/derive_pre_density_substrate_atlas.py
+python3 udt_pre_density_substrate_response_atlas_2026-07-24/verify_pre_density_substrate_atlas.py
+

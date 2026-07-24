@@ -1,0 +1,10 @@
+item	value
+python	3.10.12
+sympy	1.13.1
+backend	CPU
+production_implementation	SymPy_plus_standard_library
+independent_implementation	Python_standard_library_no_production_import
+GPU_used	NO
+matter_solve_launched	NO
+density_axis_sampled	NO
+

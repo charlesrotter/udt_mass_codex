@@ -1,0 +1,11 @@
+probe_id	probe	result	status	residual_or_gate	scope
+CP01	constant_common_scale_control	E(q)=q*E2+q^-1*E4	EXACT_CONDITIONAL	0	stationary_q=sqrt(E4)/sqrt(E2);not_scale_selection
+CP02	nonconstant_conformal_response	-div(q grad u)=-q*(laplacian(u)+a*u_x)	EXACT_CONDITIONAL	8.8817841970012523e-16	manufactured_effect_max=2.4730819060501918;not_matter_solve
+CP03	angular_anisotropy_L2_response	delta[sqrt(h)h^ij A_ij]=-K^ij A_ij_for_tracefree_K	EXACT_CONDITIONAL	K1=0;K2=0	first_variation_of_supplied_L2_term
+CP04	angular_anisotropy_L4_response	delta[sqrt(h)h^ik h^jl F_ij F_kl]=-2 K^ik F_ij F_kj	EXACT_CONDITIONAL	K1=0;K2=0	first_variation_of_supplied_L4_term
+CP05	relative_phase_connection_response	d_delta+b_is_gauge_invariant	EXACT_CONDITIONAL	0	requires_supplied_phase_section_and_carrier
+CP06	curvature_and_holonomy_obstruction	b=dchi_has_db=0;b=(0,x)_has_db=dx_wedge_dy;circle_holonomy=exp(i2pi k)	EXACT	exact=0;curved=1;k=-1,0,1_integral;k=1/2_nonintegral	parallel_section_conditions_not_ordinary_section_existence
+CP07	isotropic_zero_control	X=Y=0_at_phi=0_shear=0	EXACT	0	eigenaxis_undefined
+CP08	nonaligned_shape_control	25_of_25_cartesian_points_retained;one_isotropic	OBSERVED_BOUNDED_GRID	determinant_max_error_below_1e-11	local_shape_catalog_not_solution_space_exhaustion
+CP09	flat_box_existing_hopfion_provenance	noNull_energy_source_hash_verified	CONDITIONAL_REFERENCE_ONLY	source_manifest_PASS	no_field_or_result_imported
+CP10	no_matter_solve_guard	no_relaxation_time_live_GPU_or_density_scan	PASS	zero_solve_commands	atlas_only

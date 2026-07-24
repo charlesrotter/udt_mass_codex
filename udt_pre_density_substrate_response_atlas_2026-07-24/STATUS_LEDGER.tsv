@@ -1,0 +1,18 @@
+id	status	claim	exact_scope	remaining_open
+S01	DERIVED	The complete toric angular coframe supplies a joint T2 fiber metric and T2 connection.	theta_ang=D(dxi+Sdx) wherever an integral toric fiber exists	global toric completion may fail or degenerate
+S02	DERIVED	The determinant-normalized angular metric H carries scale-neutral torus-shape data.	positive triangular chart with tensorial H	common physical representative remains open
+S03	DERIVED	The traceless pair X,Y transforms with spin two under an SO2 angular basis change.	local SO2 reference frame away from isotropy	matrix eigenaxis is not intrinsic under unrestricted GL2
+S04	DERIVED	The shift rows supply a T2 connection; each supplied integral character w gives b_w=w^T S.	toric chart and integral character lattice	a character or physical phase is not thereby selected
+S05	DERIVED	The metric and torus lattice define the set of shortest primitive dual characters argmin w^T H^-1 w.	toric fibers with positive H	set may contain multiple characters
+S06	OBSERVED	The frozen 25-point phi/shear atlas has 22 unique shortest dual-character lines and 3 tie points.	SG01 cross SG02 only	not a census of the continuous moduli space
+S07	DERIVED	The shortest-dual-character set is covariant under GL2Z change of torus basis.	exact norm law; six registered matrices independently checked	global monodromy and tie-wall transport remain branchwise
+S08	DERIVED	A unique shortest dual character makes a canonical rank-one U1 connection candidate b_star=w_star^T S available.	unique-dual-systole toric subbranches; sign understood modulo conjugation	physical selection phase section and tie-wall continuation remain open
+S09	DERIVED	On the shear-free diagonal family the candidate swaps reciprocally: w=(1,0) for phi<0, a two-way tie at phi=0, and w=(0,1) for phi>0.	H^-1=diag(exp(2phi),exp(-2phi))	this does not select a physical carrier
+S10	OPEN	The chart spin-two eigenaxis is directly soldered to the relative torus phase.	direct delta=2alpha fails torus-translation equivariance	the metric-lattice dual-systole route bypasses rather than proves this join
+S11	OPEN	The shortest dual character is the physically selected U1 direction.	a canonical geometric candidate is available	UDT selection or bootstrap ownership is not derived
+S12	OPEN	A phase section is selected or parallel globally.	connection may be curved or have nontrivial holonomy	section boundary framing and holonomy selection remain open
+S13	OBSERVED	All twelve registered finite-cell completions were classified without preference.	bounded inherited completion taxonomy	no claim of all possible global four-geometries
+S14	CONDITIONAL	The supplied round-S2 L2+L4 diagnostic responds to nonconstant scale anisotropy and a supplied character connection.	exact first variations and manufactured CPU anchors	carrier and action remain POSIT/CONDITIONAL
+S15	OPEN	Total proper density determines H S common scale holonomy or completion.	no density axis was sampled	density-to-geometry and bootstrap fixed point remain missing
+S16	OPEN	Complete native matter action source boundary mass and carrier emergence.	not addressed by this atlas	no scientific closure claimed
+

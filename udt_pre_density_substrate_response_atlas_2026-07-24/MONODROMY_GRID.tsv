@@ -1,0 +1,7 @@
+sample_id	matrix	determinant	w_transformed	relative_character_status
+M01	((1, 0), (0, 1))	1	(1,-1)	PRESERVED
+M02	((0, 1), (1, 0))	-1	(-1,1)	REVERSED_OR_CONJUGATED
+M03	((1, 1), (0, 1))	1	(1,0)	MIXED_WITH_OTHER_CHARACTER
+M04	((0, -1), (1, 0))	1	(-1,-1)	MIXED_WITH_OTHER_CHARACTER
+M05	((-1, 0), (0, -1))	1	(-1,1)	REVERSED_OR_CONJUGATED
+M06	((1, 0), (1, 1))	1	(0,-1)	MIXED_WITH_OTHER_CHARACTER

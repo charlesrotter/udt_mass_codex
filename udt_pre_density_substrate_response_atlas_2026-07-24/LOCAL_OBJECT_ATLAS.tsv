@@ -1,0 +1,18 @@
+object_id	object	formula	transformation_type	status	obstruction_or_scope
+L01	complete_angular_coframe	theta_ang=D(dxi+S dx)	coframe_with_torus_connection	DERIVED	positive_triangular_chart_only
+L02	normalized_angular_metric	"H=Matrix([
+[    exp(-2*phi),       shear*exp(-phi)],
+[shear*exp(-phi), shear**2 + exp(2*phi)]])"	symmetric_positive_det_one_tensor	DERIVED	physical_common_scale_removed
+L03	traceless_spin_two_pair	X=-shear**2 - exp(2*phi) + exp(-2*phi);Y=2*shear*exp(-phi)	weight_minus_two_under_angular_SO2_chart_rotation	DERIVED	basis_components_not_scalars
+L04	angular_anisotropy_norm	A2=shear**4 + 2*shear**2*exp(2*phi) + 2*shear**2*exp(-2*phi) + exp(4*phi) - 2 + exp(-4*phi)	angular_SO2_scalar	DERIVED	vanishes_at_isotropy
+L05	angular_eigenaxis_line	alpha=atan2(Y,X)/2 mod pi	unoriented_line_alpha_to_alpha_minus_theta	DERIVED_AWAY_FROM_ISOTROPY	undefined_at_phi_zero_shear_zero
+L06	relative_torus_character	delta=w^T xi;w=(1,-1)	nontrivial_relative_U1_translation_character	CONDITIONAL_COORDINATE_CHARACTER	w_may_mix_under_GL2Z_gluing
+L07	relative_shift_connection	b=(S_row1-S_row2)_a dx^a	b_to_b-d(lambda1-lambda2)	DERIVED_IN_TORIC_CHART	not_a_selected_phase_section
+L08	covariant_relative_phase_gradient	d(delta)+b	torus_translation_gauge_invariant	DERIVED_IF_DELTA_COORDINATE_SUPPLIED	coordinate_character_not_physical_carrier
+L09	relative_connection_curvature	F_b=db	gauge_invariant_two_form	DERIVED	nonzero_value_blocks_parallel_local_phase
+L10	relative_connection_holonomy	Hol_b(gamma)=exp(i integral_gamma b)	global_U1_conjugacy_data	DERIVED_WHERE_CIRCLE_BUNDLE_IS_SUPPLIED	parallel_global_phase_requires_trivial_holonomy
+L11	torus_metric_connection_pair	(H,S)_on_integral_T2_fiber	joint_GL2Z_covariant_fiber_metric_and_connection	DERIVED_WHERE_TORIC_LATTICE_EXISTS	not_yet_a_rank_one_character_or_section
+L12	shortest_primitive_dual_character	argmin_primitive_w_in_Z2_of_w^T_H_inverse_w	GL2Z_covariant_set_of_integral_characters	DERIVED_SET_VALUED_WHERE_TORIC_LATTICE_EXISTS	unique_only_off_systolic_tie_walls
+L13	metric_lattice_selected_U1_connection	b_w=w_star^T_S_dx	relative_U1_connection_for_unique_w_star_mod_sign	DERIVED_GEOMETRIC_CANDIDATE_ON_UNIQUE_DUAL_SYSTOLE_SUBBRANCH	physical_selection_sign_phase_section_and_tie_wall_transport_open
+L14	eigenaxis_phase_soldering	no_metric_supplied_direct_map	would_require_identification_of_distinct_principal_actions	OPEN	chart_eigenaxis_is_not_the_integral_dual_systole
+L15	common_scale_neutral_shape	H_invariant_under_D_to_qD	CSN_neutral	DERIVED	energy_measure_and_physical_representative_not_neutral

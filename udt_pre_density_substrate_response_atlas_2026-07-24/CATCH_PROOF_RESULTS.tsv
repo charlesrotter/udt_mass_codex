@@ -1,0 +1,17 @@
+catch_id	mutation	expected	observed	status	caught_reason
+C01	remove_registered_axis	REJECT	REJECT	PASS	axes: expected 20, found 19
+C02	duplicate_registered_axis	REJECT	REJECT	PASS	axes: expected 20, found 21
+C03	remove_completion	REJECT	REJECT	PASS	global: expected 12, found 11
+C04	assert_unregistered_group_join	REJECT	REJECT	PASS	group compatibility ruling
+C05	relabel_axis_as_density	REJECT	REJECT	PASS	density relabeled as primary axis
+C06	conflate_parallel_and_ordinary_section	REJECT	REJECT	PASS	parallel versus ordinary section conflated
+C07	promote_conditional_carrier	REJECT	REJECT	PASS	conditional carrier promoted
+C08	prefer_completion_after_outcome	REJECT	REJECT	PASS	completion preferred, missing, or repeated
+C09	corrupt_mixed_monodromy	REJECT	REJECT	PASS	monodromy row M03
+C10	corrupt_source_hash	REJECT	REJECT	PASS	source changed: S20
+C11	erase_isotropic_degeneracy	REJECT	REJECT	PASS	isotropic row corrupted
+C12	claim_matter_solve	REJECT	REJECT	PASS	unauthorized solve or GPU
+C13	corrupt_metric_lattice_character	REJECT	REJECT	PASS	dual selector ('-0.5', '-1.0')
+C14	promote_systolic_tie_to_unique	REJECT	REJECT	PASS	dual uniqueness ('0.0', '0.0')
+C15	remove_selector_covariance_case	REJECT	REJECT	PASS	selector_covariance: expected 6, found 5
+C16	promote_character_connection_to_phase_section	REJECT	REJECT	PASS	phase section promoted

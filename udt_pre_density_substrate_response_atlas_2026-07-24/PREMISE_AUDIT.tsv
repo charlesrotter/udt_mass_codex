@@ -1,0 +1,24 @@
+premise_id	registered_stamp	use_in_audit	audit_outcome	final_grade
+P01	DERIVED	load_bearing	complete coframe composition retained	CONFIRMED_IN_SCOPE
+P02	DERIVED	load_bearing	H recomputed exactly with determinant one	CONFIRMED_IN_SCOPE
+P03	free-and-explored	exact plus SG01	all five frozen anchors retained	BOUNDED_NOT_EXHAUSTIVE
+P04	free-and-explored	exact plus SG02	all five frozen anchors retained	BOUNDED_NOT_EXHAUSTIVE
+P05	free-and-explored	exact connection algebra	zero exact curved and holonomy cases separated	CONFIRMED_IN_SCOPE
+P06	free-and-explored	all twelve rows	each completion classified exactly once	COMPLETE_REGISTERED_TAXONOMY
+P07	WORKING	invariance test	H and dual-systole set are common-scale neutral	DOES_NOT_SELECT_PHYSICAL_REPRESENTATIVE
+P08	WORKING	structural constraint	no reciprocity rule was used to force a character	NOT_A_SELECTOR_IN_THIS_AUDIT
+P09	WORKING	global taxonomy	cap and boundary implications recorded	BOUNDARY_FUNCTIONAL_OPEN
+P10	WORKING	later admissibility	not used to choose an outcome	OPEN
+P11	WORKING	outside primary atlas	no density label or scan introduced	UNTESTED
+P12	POSIT	conditional stage only	no carrier promoted	UNCHANGED_POSIT
+P13	CONDITIONAL	conditional stage only	exact response identities verified	UNCHANGED_CONDITIONAL
+P14	CONDITIONAL	source provenance only	no flat-box field imported or solved	UNCHANGED_CONTROL
+P15	OPEN	scale-response distinction	common scale affects conditional energy weights	OPEN
+P16	TO_DERIVE	local chart test	spin-two pair derived but eigenaxis is SO2-reference-scoped	PARTLY_DERIVED_CHART_LEVEL
+P17	DERIVED_IN_CHART	exact connection test	gauge law curvature and holonomy retained	CONFIRMED_IN_SCOPE
+P18	OPEN	strongest join test	direct eigenaxis join fails but metric-lattice U1 candidate is available	RECAST_NOT_CLOSED
+P19	free-and-explored	exact and curved witnesses	parallel-section condition correctly scoped	CONFIRMED_IN_SCOPE
+P20	free-and-explored	periodic witnesses	integral and nonintegral holonomy separated	CONFIRMED_IN_SCOPE
+P21	OBSERVED	not used	no c or G numerical tuning entered	UNCHANGED_OUTSIDE_ATLAS
+P22	REJECTED_AS_DERIVATION	provenance gate	no external field equation imported	PASS
+
