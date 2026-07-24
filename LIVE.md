@@ -8,17 +8,20 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
 
-## ============ CURRENT STATE (2026-07-23 — CSN–DPHI TRANSPORT-SELECTOR AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. ON EVERY SMOOTH NONNULL-DPHI REGION THE EXACT COMBINATION h0=|g^-1(dphi,dphi)|g IS CSN-INVARIANT, MAKES dphi UNIT TIMELIKE OR SPACELIKE, AND SUPPLIES A LOCAL PRE-SCALE LEVI-CIVITA/WEYL CONNECTION. BOOTSTRAP IS NOT NEEDED MERELY FOR LOCAL CONNECTION EXISTENCE. THIS DOES NOT SELECT A PHYSICAL CONNECTION: THE EXACT h_f=exp(2f(phi))h0 FAMILY SURVIVES CSN, AND EVEN f=lambda*phi^2 SURVIVES RECIPROCAL REVERSAL AND THE STATIC SEAL. A TORSION-FREE WEYL CONNECTION PRESERVES THE DPHI SPLIT UNIQUELY IFF THE ORTHOGONAL SCREEN IS UMBILICAL; GENERIC SHEAR IS OBSTRUCTED. PROJECTED/KATO SPLIT TRANSPORT ALWAYS EXISTS LOCALLY BUT IS GENERICALLY TORSIONFUL AND RETAINS TWELVE POINTWISE STABILIZER-CONNECTION COMPONENTS. h0 DEGENERATES AT NULL DPHI AND VANISHES AT ZERO DPHI, SO GLOBAL INTERFACE CLOSURE REMAINS OPEN. NO CONNECTION IS ADOPTED AS PHYSICAL. C2/BACH REMAINS UNIQUE-CONDITIONAL; EH, S2, STABILITY, AND MASS ROUTES REMAIN CONDITIONAL OR POSIT AS RECORDED. COMPLETE ACTION, SOURCE, BOUNDARY CHARGE, PHYSICAL REPRESENTATIVE, ABSOLUTE SCALE, BRIDGE, CARRIER EMERGENCE, TIME-LIVE MATTER LAW, AND UNCONDITIONAL MASS REMAIN OPEN. NEXT BOUNDED SEAM: WHETHER REGISTERED RECIPROCAL/REVERSAL/SEAL NATURALITY SELECTS ONE CONNECTION WITHOUT ADDING A MINIMALITY PREMISE. NO FOLLOW-ON SOLVE, GPU WORK, CANONIZATION, ARTIFACT MOVE, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-23 — RECIPROCAL-TRANSPORT NATURALITY SELECTOR AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. THE REGISTERED UDT PREMISES DO NOT SELECT A UNIQUE PHYSICAL AFFINE CONNECTION. h0=|g^-1(dphi,dphi)|g AND Gamma0=LC(h0) REMAIN EXACT CSN-INVARIANT GEOMETRIC CANDIDATES ON SMOOTH NONNULL-DPHI REGIONS. HOWEVER EVERY Gamma_f=LC(exp(2f(phi))h0) IS CSN-INVARIANT; STRICT RECIPROCAL REVERSAL LEAVES EVERY EVEN f, INCLUDING f=lambda*phi^2, AND THESE COUNTERMODELS AGREE WITH Gamma0 AT THE STATIC phi=0 SEAL WHILE DIFFERING IN THE BULK. POSITIONAL COMPOSITION DERIVES THE ADDITIVE COMPARISON GROUP BUT NOT A LOCAL phi(x)->phi(x)+a GAUGE. ADDING THAT SHIFT INVARIANCE AND STRICT CONNECTION INVARIANCE UNDER REVERSAL WOULD SELECT Gamma0 ONLY WITHIN THE DECLARED Gamma_f FAMILY: UNIQUE-CONDITIONAL. THE DERIVATIVE-ONLY FAMILY A_lambda=A0+lambda*dphi ALSO SURVIVES UNDER REVERSAL COVARIANCE, AND THE ORIENTED OR UNORIENTED DPHI PROJECTOR ALONE DOES NOT DETERMINE A0. TORSION FREEDOM, ZERO STABILIZER ADDITION, AND A BOOTSTRAP LOCAL CONNECTION OPERATOR ARE NOT REGISTERED UDT LAWS. PHYSICAL TRANSPORT IS OPEN_SELECTOR; NULL/ZERO-DPHI AND GLOBAL INTERFACE CLOSURE REMAIN OPEN. STOP CONNECTION DRILLING. THE NEXT BOUNDED SCIENTIFIC QUESTION IS WHETHER THE ALREADY VERIFIED HOPF/TOPOLOGY OBJECTS ARE INDEPENDENT OF THIS OPEN TRANSPORT CHOICE OR REQUIRE A SELECTED SECTION, CARRIER, CONNECTION, OR DYNAMICAL COMPLETION. NO HOPFION RESULT, ACTION, CARRIER, SOURCE, SCALE, OR PHYSICAL TIME LAW IS PROMOTED. NO FOLLOW-ON SOLVE, GPU WORK, CANONIZATION, ARTIFACT MOVE, OR REORGANIZATION IS AUTHORIZED.) ============
 
 **READ NEXT, IN ORDER:**
 
 1. `HANDOFF.md` current marked block.
-2. `udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
+2. `udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `LAY_READOUT.md`, and `NEXT_STEP.md`.
-3. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`.
-4. Its `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and
+3. `udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv` and `NEXT_STEP.md`.
+4. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
+   `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and
    `REGRESSION_GUARD_LEDGER.tsv`.
-5. The exact immutable evidence cited there only when the active task makes it load-bearing.
+5. The exact immutable evidence cited by those packages only when the active task makes it
+   load-bearing.
 
 **CURRENT HONEST CLAIM:**
 
@@ -26,6 +29,12 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
   their exact premise stamps;
 - `h0=|g^{-1}(dphi,dphi)|g` and `LC(h0)` are derived geometric candidates only on smooth nonnull
   `dphi` configuration branches; they are not an adopted physical metric or connection;
+- CSN, reciprocal reversal, and the static seal leave an exact infinite even-`f` bulk connection
+  family; positional composition does not supply the missing local-shift gauge;
+- `Gamma0` is unique only conditionally within the declared `Gamma_f` family if both local-shift
+  invariance and strict reversal invariance of the connection are added;
+- derivative-only and projector-only naturality do not close the selector, and neither torsion
+  freedom nor zero stabilizer addition is present UDT authority;
 - torsion-free split preservation is unique only when the orthogonal screen is umbilical, while
   projected split transport is geometric, generally torsionful, and nonunique;
 - the finite-cell result is a complete cross of the registered taxonomy, not a set of solved
@@ -38,7 +47,9 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 rapidity, treat WR-L as the complete frame metric, call co-presence instantaneous signaling, call
 Kato transport physical evolution, turn the celestial `S2` fiber into the carrier, or promote a
 completion family to an on-shell universe. Do not promote `h0`, its Levi-Civita connection, or the
-minimal projected connection to physical authority merely because the formulas are natural.
+minimal projected connection to physical authority merely because the formulas are natural. Do not
+turn comparison-group composition into a local additive `phi` gauge, and do not call covariance of
+the connection family strict physical invariance.
 
 **REORGANIZATION:** R0--R1H remains paused. This checkpoint changes navigation and synthesis only;
 all evidence packages and historical records remain immutable.

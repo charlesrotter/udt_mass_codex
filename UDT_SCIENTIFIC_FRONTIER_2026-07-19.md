@@ -4,6 +4,47 @@ Date: 2026-07-20
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## July 23 reciprocal-transport naturality overlay — current authority
+
+Read `udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `LAY_READOUT.md`, and `NEXT_STEP.md` before the earlier July 23 layers below.
+
+On every smooth nonnull-`dphi` region, the parent construction
+
+```text
+h0=|g^-1(dphi,dphi)|g,
+Gamma0=LC(h0)
+```
+
+remains an exact CSN-invariant geometric candidate. The current audit asked whether already
+registered Reciprocity, composition, reversal, the static seal, CSN, or bootstrap makes it the
+physical connection.
+
+They do not. Every `Gamma_f=LC(exp(2f(phi))h0)` is CSN invariant. Strict reciprocal reversal
+requires `f` to be even up to a constant, so the exact nontrivial family
+`f=lambda*phi^2+mu*phi^4+...` survives. Its connection difference vanishes at the static `phi=0`
+seal but is nonzero in the bulk. Thus reversal and seal matching do not select `Gamma0`.
+
+Positional composition derives the additive one-parameter comparison character. The current
+ontology and conflict ledgers explicitly do not derive a local field gauge
+`phi(x)->phi(x)+a`. If that shift invariance and strict affine-connection invariance under reversal
+are both additionally imposed, exact algebra selects `Gamma0` within the declared `Gamma_f`
+family. This is `UNIQUE_CONDITIONAL`, not current UDT authority, and it does not remove independent
+split-stabilizer connection data.
+
+Restricting to `dphi` leaves `A_lambda=A0+lambda*dphi`; reversal covariance maps `lambda` to
+`-lambda`. Restricting further to the line/projector does not determine `A0`: the exact monotone
+reparameterization `F'(phi)=exp(kappa phi)` preserves the projector while shifting
+`A0` by `kappa*dphi`. Torsion freedom, zero stabilizer addition, and a bootstrap local connection
+operator remain unregistered.
+
+Status: `OPEN_SELECTOR`, `VERIFIED-WITH-CAVEATS`; production 16/16, independent exact 9/9,
+catch-proof 12/12, and cross-result 5/5 checks pass. The next bounded question is a dependency audit
+of the completed native Hopfion topology evidence: determine which topological objects are
+transport-independent and which require the still-open section/carrier/connection/dynamics joins.
+No action, carrier, Hopfion physics, source, boundary charge, scale, time-live law, GPU work,
+canonization, artifact move, or reorganization follows.
+
 ## July 23 scientific-consolidation overlay — current authority
 
 Read `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its

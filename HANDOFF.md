@@ -7,11 +7,13 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-23).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-23 — CSN–`dphi` transport selector)
+## CURRENT (2026-07-23 — reciprocal-transport naturality selector)
 
-Read `udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
-`STATUS_LEDGER.tsv`, `LAY_READOUT.md`, and `NEXT_STEP.md`. Next retain the consolidated parent
-context from `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
+Read `udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `LAY_READOUT.md`, and `NEXT_STEP.md`. Next read the parent
+`udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md` and `STATUS_LEDGER.tsv`.
+Retain the consolidated context from
+`udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
 `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and
 `REGRESSION_GUARD_LEDGER.tsv`. They are evidence-linked navigation and cannot overrule their cited
 immutable sources.
@@ -34,6 +36,14 @@ Current honest structure:
   pre-scale Levi-Civita/Weyl connection;
 - this is a `DERIVED_GEOMETRIC_CANDIDATE`, not a physical connection: the exact
   `h_f=exp(2f(phi))h0` family survives, including nontrivial reversal-even, seal-normalized members;
+- every `Gamma_f=LC(h_f)` is CSN invariant; strict reciprocal reversal still leaves every even
+  `f`, including `lambda*phi^2`, and those members agree at the static seal while differing in the
+  bulk;
+- comparison-group composition does not derive a local additive shift gauge for `phi(x)`;
+- adding local-shift invariance and strict connection invariance under reversal selects `Gamma0`
+  only conditionally within the declared `Gamma_f` family;
+- the derivative-only `A0+lambda*dphi` family remains covariant under reversal, and the
+  line/projector alone cannot determine `A0`;
 - torsion-free split preservation is `UNIQUE_CONDITIONAL` exactly on umbilical screens; generic
   trace-free shear obstructs it;
 - projected metric split transport exists on every smooth nonnull region but is generally
@@ -47,14 +57,15 @@ Current honest structure:
 
 Current bounded seam:
 
-> Determine whether the already registered reciprocal character, reversal/seal structure, and
-> intrinsic normalized `dphi` reduction select one connection from the `h_f` and stabilizer
-> families without inventing a minimality premise.
+> Determine which load-bearing objects in the already completed native Hopfion topology audit are
+> independent of the unresolved affine-transport choice, and which require a selected section,
+> carrier, connection, or dynamical completion.
 
-Bootstrap is not needed merely for local connection existence; a bootstrap or equivalent native
-selector is still needed for physical/global authority unless the bounded naturality audit closes
-that gate. No solve, GPU work, carrier/action adoption, canonization, repository reorganization, or
-artifact relocation follows automatically. R0--R1H remains paused.
+The transport audit closes with `OPEN_SELECTOR`, not with an adopted connection. The proposed Hopf
+interface audit is a dependency audit, not authority to adopt the round `S2` carrier, identify the
+celestial fiber with a section, launch a relaxation, or infer matter emergence. No solve, GPU work,
+carrier/action adoption, canonization, repository reorganization, or artifact relocation follows
+automatically. R0--R1H remains paused.
 
 <!-- STARTUP_CURRENT_END -->
 
