@@ -1,0 +1,21 @@
+id	claim_or_guard	falsifier	required_response
+F01	source_universe_complete_for_registered_scope	a current registered equation or completion family is omitted	stop_and_expand_census
+F02	screen_simple_spectrum_condition	isotropic_or_repeated spectrum yields a unique metric-selected line	reject_selection_condition
+F03	spectral_projector_basis_independent	projector formula changes under SO2 conjugation	reject_projector_claim
+F04	parallel_eigenline_condition	DP=0 is not equivalent to the preregistered invariant commutator condition on the simple-spectrum domain	regrade_transport_condition
+F05	clock_match_invariant_form	det(T+a_squared_I)=0 does not exactly express existence of eigenvalue_minus_a_squared	reject_match_condition
+F06	after_solution_predicate_adds_no_EOM	the registered predicate supplies an off_shell local variation	report_the_operator
+F07	scalar_density_alone_cannot_select_screen_line	a scalar SO2_invariant density produces a nonzero equivariant vector or unique line without anisotropic local response	reject_symmetry_ruling
+F08	single_global_constraint_not_complete_local_closure	a registered varied scalar constraint supplies all local metric_matter_boundary equations	report_complete_variation
+F09	rho_first_variation_requires_delta_M	delta_rho can be evaluated from volume variation with no native mass variation	reject_interface_formula
+F10	complete_bootstrap_could_change_source_free_curvature	a theorem makes screen curvature source_independent for every admissible complete UDT action	regrade_prior_negative_scope
+F11	current_source_set_has_no_complete_gate_witness	one compatible registered branch enforces all five gates without open premises	report_witness
+F12	no_cross_branch_splice	a gate is borrowed from an incompatible action completion path or topology	invalidate_row
+F13	no_density_value_inserted	any center width normalization or fitted response appears	stop
+F14	no_carrier_action_or_boundary_adopted	a conditional object is used as unconditional native input	stop
+F15	prior_negative_regrading	B19_or_WRL_local_failure is promoted to universal matter_filled_no_go	reject_conclusion
+F16	registered_density_semantics	after_solution and varied_simultaneous placements are conflated	reject_bootstrap_classification
+F17	global_descent_retained	local eigenline is called a global solder without holonomy_or_gluing gate	reject_global_claim
+F18	inherited_unreviewed_not_newly_verified	a source not algebraically audited is labeled newly derived	regrade_to_source_classification
+F19	repository_integrity	manifest tests frozen packages navigation frontier or dirty metadata fail	stop
+F20	maximum_conclusion	no complete action matter emergence density window scale or mass is claimed	stop

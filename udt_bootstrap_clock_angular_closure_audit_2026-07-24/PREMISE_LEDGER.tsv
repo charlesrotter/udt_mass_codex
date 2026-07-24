@@ -1,0 +1,23 @@
+id	item	status	treatment
+P01	UDT_metric	FOUNDING_THEORY	all conclusions traced to metric invariants or explicitly conditional variations
+P02	c_E	OBSERVED_ANCHOR	retained but no new equation inferred
+P03	G_obs	OBSERVED_ANCHOR	retained but no new equation inferred
+P04	global_bootstrap_narrow_window	OWNER_STATED_WORKING	test both registered semantic placements without supplying center or width
+P05	rho_tot_definition	WORKING_TOTAL_PROPER_DENSITY	M_native divided by same-solution V_proper only
+P06	native_mass_functional	OPEN_NOT_SUPPLIED	must not be invented
+P07	complete_native_action	OPEN_NOT_SUPPLIED	conditional C2 and EH classes remain separately stamped
+P08	carrier_or_matter_fields	OPEN_NOT_SUPPLIED	no S2 or other carrier adopted
+P09	finite_cell_boundary_functional	OPEN_NOT_SUPPLIED	seal value alone not promoted
+P10	observer_path_and_affine_parameter	FREE_TYPED_INPUT	path families and affine gauge retained
+P11	screen_basis	SO2_GAUGE	no direction inserted
+P12	screen_tidal_operator	DERIVED_GIVEN_METRIC_AND_PATH	full symmetric two-dimensional operator retained
+P13	clock_rate_a	CONDITIONAL_OBSERVER_CLOCK_CHANNEL	a=d_delta/d_lambda with prior premise stamps
+P14	density_value_or_window_center	FREE_AND_UNASSIGNED	no numerical density sweep
+P15	static_or_time_live	FREE_AND_BOTH_RETAINED	no static result promoted globally
+P16	finite_cell_completion	FREE_ACROSS_12_REGISTERED_FAMILIES	no topology selected
+P17	equation_source_family	FREE_ACROSS_28_REGISTERED_FAMILIES	no branch splice
+P18	local_source_response	OPEN_OUTPUT	a complete bootstrap would have to derive it
+P19	observational_fit	EXCLUDED	no SNe CMB particle or mass target
+P20	GPU_PDE_or_relaxation	EXCLUDED	no governing density-response system presently registered
+P21	pre_July_material	NEGATIVE_OR_FAILURE_USE_ONLY	July_1_provenance_firewall
+P22	CANON	UNCHANGED	Charles canonizes
