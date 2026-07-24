@@ -1,0 +1,14 @@
+id	object	form	question	initial_status
+C01	reciprocal projective ray	xi=(v-u)/(v+u)=tanh(rho)	do CSN plus the three registered anchors derive this coordinate	TO_TEST
+C02	radial fractional transition	xi'=(xi-alpha)/(1-alpha*xi)	does reciprocal-ray composition derive the observer-chart law	TO_TEST
+C03	projective physical-distance join	D=Xmax*abs(xi)	does the complete metric identify projective display with nonnegative physical separation	OPEN_TO_TEST
+C04	exponential-saturation profile	D=Dmax*(1-exp(-rho))	does the metric select this simple exponential endpoint law	OPEN_TO_TEST
+C05	tanh-saturation profile	D=Dmax*tanh(rho)	does the metric select the projective endpoint law as proper separation	OPEN_TO_TEST
+C06	linear profile	D=L*rho	does the metric admit an unbounded proper-distance law under the same reciprocal response	OPEN_TO_TEST
+C07	transnormal profile family	D=int d rho/sqrt(B(rho))	what profile is forced by each supplied complete metric branch	DERIVED_EVALUATOR_TO_APPLY
+C08	round depth-angle transition	unit-quaternion/S3 relative element	does exact observer composition require dot and cross angular data	TO_TEST
+C09	squashed homogeneous transition	left-invariant relative group element	which group transition survives and which radial isotropies fail	TO_TEST
+C10	local Lorentz boost composition	SO+(1,3) boost plus screen rotation	can it solder reciprocal depth to general observer changes without an extra premise	COMPARISON_ONLY
+C11	complete triangular coframe product	E1*E2	does chosen-chart closure descend to observer-frame physical composition	KNOWN_GAUGE_GATE_TO_RETEST
+C12	cut-locus transition	set/path family	do scalar radial value and complete angular transport have different multiplicities	TO_TEST
+C13	arbitrary monotone bounded profile	D=Dmax*f(rho)	do present principles eliminate nonprojective/nonexponential alternatives	COUNTERFAMILY

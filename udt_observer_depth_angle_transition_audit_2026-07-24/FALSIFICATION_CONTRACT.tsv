@@ -1,0 +1,17 @@
+id	candidate_or_claim	required_test	failure_condition	maximum_failure_wording
+F01	C01 projective coordinate	solve the three anchored Mobius conditions and verify CSN/reversal	nonunique or failed anchor/invariance	PROJECTIVE_COORDINATE_NOT_DERIVED
+F02	C02 fractional transition	derive from reciprocal ratio multiplication and verify identity inverse associativity	any exact residual nonzero	FRACTIONAL_TRANSITION_REFUTED
+F03	nonnegative distance typing	separate radial magnitude from oriented direction/sign	any negative physical distance used	TYPE_ERROR_INVALIDATES_RESULT
+F04	C03 physical projective join	compare required transnormal B with every supplied metric control	no source branch supplies matching B	PROJECTIVE_POSITION_JOIN_REMAINS_OPEN
+F05	C04 exponential saturation	derive its exact B and compare with registered controls	matches no selected complete physical branch	EXPONENTIAL_PROFILE_AVAILABLE_NOT_SELECTED
+F06	C05 tanh saturation	derive its exact B and compare with registered controls	matches no selected complete physical branch	TANH_PROFILE_AVAILABLE_NOT_SELECTED
+F07	C06 linear profile	derive its exact B and compare with registered controls	ruled out only under explicit finite-diameter branch	LINEAR_PROFILE_BRANCH_DEPENDENT
+F08	C08 round angular law	verify quaternion product inverse and round cosine law	scalar radii alone determine noncollinear result	ANGULAR_REQUIREMENT_REFUTED
+F09	C09 squashed transition	distinguish group-relative transition from isotropic radial distance	left-invariance falsely treated as radial isotropy	SQUASHED_CONTROL_INVALID
+F10	C10 Lorentz comparison	enforce prior bracket/character no-solder rulings	reciprocal rho identified with rapidity without native map	IMPORTED_OBSERVER_MECHANICS_INVALID
+F11	C11 coframe product	replay independent endpoint coframe gauge counterexample	product descends despite independent equivalent representatives	COFRAME_GAUGE_GATE_REFUTED
+F12	C12 cut locus	compare scalar distance multiplicity with complete transport multiplicity	path dependence inserted into scalar without need	CUT_LOCUS_TYPING_INVALID
+F13	C13 profile nonuniqueness	exhibit at least two smooth calibrated profiles satisfying shared endpoint/ordinary conditions	present principles uniquely select one	PROFILE_UNIQUENESS_DERIVED
+F14	c scale role	dimensional audit of exponent and physical clock conversion	c alone supplies dimensionless rho per length without another scale	SCALE_PROMOTION_INVALID
+F15	global Xmax	no-center global diameter and physical branch gate missing/local joins	coordinate or radial endpoint promoted to global physical Xmax	XMAX_REMAINS_OPEN
+F16	local physics	owner-frame check rho_p(p)=0 for every chart	pair dilation modifies local physics	OWNER_MEANING_VIOLATED
