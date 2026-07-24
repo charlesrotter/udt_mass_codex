@@ -4,6 +4,20 @@
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
 **➤ CURRENT SCIENTIFIC FRONTIER:**
+`udt_two_observer_separation_selector_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `CANDIDATE_OUTCOMES.tsv`,
+`DPHI_CAUSAL_DISTANCE_ATLAS.tsv`, `COMPLETION_DESCENT_ATLAS.tsv`, `LAY_REPORT.md`, and
+`NEXT_STEP.md`. No universal physical `D_g` is selected across all causal/completion classes.
+However, an everywhere-timelike nonzero `dphi` makes `phi` temporal: equal-`phi` pairs events on all
+future-timelike histories, and the CSN-invariant `h0=|g^-1(dphi,dphi)|g` induces a complete
+Riemannian distance on each level. This is `DERIVED_CONDITIONAL` geometry without a preferred
+observer. Static WR-L has spacelike `dphi`; null/zero strata and global descent remain open, as does
+the physical ruler because of the `h_f` family. The diameter and WR-L/global-`X_max` join were not
+evaluated. Next: source/equation audit for selection or exclusion of a complete temporal-`phi`
+branch and representative. No PDE/GPU, matter, density, action, topology, reorganization, or
+canonization is authorized.
+
+**➤ PRIOR JULY 24 X_MAX FRONTIER:**
 `udt_xmax_observer_separation_audit_2026-07-24/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `RELATIONAL_DEFINITION_LEDGER.tsv`, `EXACT_DERIVATION.md`,
 `CLAIM_REGRADE.tsv`, `DEPENDENCY_IMPACT.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.

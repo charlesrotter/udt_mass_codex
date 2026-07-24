@@ -8,6 +8,50 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
 
+## ============ CURRENT STATE (2026-07-24 — COMPLETE-METRIC TWO-OBSERVER SEPARATION SELECTOR AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. ZERO OF 24 CANDIDATES DEFINES ONE UNIVERSAL PHYSICAL D_G ACROSS ALL FIVE DPHI CAUSAL CLASSES AND TWELVE COMPLETIONS, SO THE UNIVERSAL STATUS IS OPEN_SELECTOR. A GENUINE POSITIVE CONDITIONAL CONSTRUCTION WAS DERIVED: ON AN EVERYWHERE-TIMELIKE NONZERO DPHI BRANCH, PHI IS TEMPORAL, EQUAL-PHI PAIRS EVENTS ON EVERY FUTURE-TIMELIKE OBSERVER HISTORY WITHOUT SELECTING A PREFERRED OBSERVER, H0=|G^-1(DPHI,DPHI)|G IS CSN-INVARIANT, AND Q0=H0+DPHI⊗DPHI GIVES EACH PHI LEVEL A COMPLETE INDUCED RIEMANNIAN GEOMETRY AND INTRINSIC OBSERVER SEPARATION. THIS DOES NOT COVER STATIC WR-L, WHOSE DPHI IS SPACELIKE; NULL/ZERO DPHI BLOCK THE CONSTRUCTION AND TYPE CHANGE NEEDS AN INTERFACE RULE. NO COMPLETE TEMPORAL-PHI FINITE-CELL BRANCH, COMMON OBSERVER RANGE, GLOBAL DESCENT, OR PHYSICAL CSN RULER IS SELECTED. THE HF FAMILY BLOCKS PHYSICAL-RULER UNIQUENESS. GLOBAL DIAMETER AND THE WR-L-X/GLOBAL-XMAX JOIN WERE NOT EVALUATED. NEXT BOUNDED QUESTION: WHETHER REGISTERED UDT STRUCTURE SELECTS OR FORBIDS A COMPLETE GLOBALLY TEMPORAL-PHI BRANCH AND ITS PHYSICAL SPATIAL REPRESENTATIVE. NO PDE/GPU, MATTER, DENSITY, ACTION, TOPOLOGY, SIGNAL LAW, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+
+**READ NEXT, IN ORDER:**
+
+1. `HANDOFF.md` current marked block.
+2. `udt_two_observer_separation_selector_audit_2026-07-24/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `CANDIDATE_OUTCOMES.tsv`,
+   `DPHI_CAUSAL_DISTANCE_ATLAS.tsv`, `COMPLETION_DESCENT_ATLAS.tsv`, `LAY_REPORT.md`, and
+   `NEXT_STEP.md`.
+3. `udt_xmax_observer_separation_audit_2026-07-24/AUDIT_REPORT.md` for the controlling diameter
+   type correction.
+
+**CURRENT HONEST CLAIM:**
+
+- a complete globally temporal `phi` branch would supply a metric-native observer comparison:
+  equal `phi` pairs events on all future-timelike histories, with no preferred observer;
+- `h0=|g^-1(dphi,dphi)|g` is exactly CSN-invariant and makes `dphi` unit timelike;
+  `q0=h0+dphi⊗dphi` is positive on each `phi` level and its intrinsic distance contains the full
+  induced base, angular, shift, and path geometry;
+- this separation is `DERIVED_CONDITIONAL` geometry, not the universal physical `D_g`;
+- static WR-L lies in the spacelike-`dphi` class and is not closed by this temporal construction;
+- spacelike `dphi` gives Lorentzian levels, null `dphi` degenerates `h0`, zero `dphi` selects no
+  foliation, and type change needs an unsupplied interface rule;
+- no current complete finite-cell solution selects an everywhere-temporal `phi`, common range,
+  connected/complete levels, global gluing, or physical CSN representative;
+- the invariant `h_f=exp(2f(phi))h0` family changes inter-slice scale and blocks unconditional
+  physical-ruler uniqueness;
+- projective/`atanh`, WR-L radial proper/optical, angular-fiber, dual-systole, causal, and
+  principle-only candidates retain their exact conditional/type-mismatch/nonselector grades;
+- the global diameter and `X_WRL=X_max` join were not evaluated because the universal distance gate
+  did not pass;
+- complete action, source, boundary, carrier, mass, density law, numerical `X_max`, and matter
+  dynamics remain `OPEN`.
+
+**NEXT:** source/equation-availability audit of whether registered complete-metric, finite-cell,
+Reciprocity, CSN, seal, or bootstrap structure selects or forbids a complete globally temporal
+`phi` branch and a physical spatial representative. Do not launch a PDE or GPU solve unless native
+equations and a boundary problem first exist.
+
+**EVIDENCE:** 24 candidates, 50 exact sources, five causal classes, twelve completions, twelve
+principle roles, deterministic production replay, independent standard-library reconstruction,
+19/19 catches, tests 70 passed/1 xfailed, frozen packages and original 54-path dirty checkout
+unchanged. Grade `VERIFIED-WITH-CAVEATS` because no fresh external model context was used.
+
 ## ============ CURRENT STATE (2026-07-24 — X_MAX OBSERVER-SEPARATION FRAMING AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. X_MAX IS THE WORKING MAXIMUM POSSIBLE SEPARATION BETWEEN TWO OBSERVERS: A GLOBAL PAIR-DIAMETER SCHEMA, NOT AN EDGE OR RADIUS. THE NATIVE OBSERVER DOMAIN, EVENT-PAIRING RULE, AND NONNEGATIVE COMPLETE-METRIC SEPARATION FUNCTIONAL REMAIN OPEN. FINITE DIAMETER DOES NOT IMPLY A BOUNDARY, PREFERRED CENTER, TOPOLOGY, ATTAINMENT, SEAL, OR BOUNDARY FUNCTIONAL. LOCAL WR-L X IS NOT YET GLOBAL X_MAX; THE DIAMETER/RADIUS JOIN IS OPEN. EXACT LOCAL WR-L CLOCK/OPTICAL/HORIZON ALGEBRA AND ITS OBSERVED SNE SCORE SURVIVE SCOPED. FRACTIONAL/ATANH COMPOSITION IS UNIQUE-CONDITIONAL ONLY IN ITS ONE-DIMENSIONAL ORIENTED PROJECTIVE CLASS, NOT A GENERAL THREE-OBSERVER DISTANCE LAW; FULL ANGULAR/GLOBAL GEOMETRY IS LOAD-BEARING. SCALE, HOPF/DUAL-SYSTOLE, AND PARTICLE RESULTS RETAIN THEIR PRIOR STAMPS. COMPLETE ACTION, SOURCE, BOUNDARY, CARRIER, MASS, DENSITY CLOSURE, AND NUMERICAL X_MAX REMAIN OPEN. NEXT BOUNDED QUESTION: WHETHER THE COMPLETE METRIC AND ALREADY REGISTERED UDT PREMISES SUPPLY THE MISSING TWO-POINT OBSERVER-SEPARATION OBJECT. NO EDGE LAW, SIGNAL RULE, TOPOLOGY, ACTION, MATTER/TIME-LIVE SOLVE, GPU WORK, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
 
 **READ NEXT, IN ORDER:**

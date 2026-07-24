@@ -7,7 +7,50 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-24).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-24 — X_max observer-separation framing audit)
+## CURRENT (2026-07-24 — complete-metric observer-separation selector audit)
+
+Read `udt_two_observer_separation_selector_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `CANDIDATE_OUTCOMES.tsv`,
+`DPHI_CAUSAL_DISTANCE_ATLAS.tsv`, `COMPLETION_DESCENT_ATLAS.tsv`, `LAY_REPORT.md`, and
+`NEXT_STEP.md`. Then use the prior `X_max` framing audit for its controlling diameter correction.
+
+Current ruling:
+
+- zero of 24 candidates supplies one universal physical observer distance, so the universal status
+  remains `OPEN_SELECTOR`;
+- a real conditional construction is derived: if `dphi` is everywhere timelike and nonzero, `phi`
+  is temporal and equal-`phi` pairs events on all future-timelike observer histories without
+  preferring one observer;
+- `h0=|g^-1(dphi,dphi)|g` is CSN-invariant, and
+  `q0=h0+dphi⊗dphi` gives each `phi` level its complete induced Riemannian distance, including
+  angular, shift, and path geometry;
+- static WR-L has spacelike `dphi`, so this construction does not close its observer distance;
+- null and zero `dphi` block the construction; causal type change needs an interface rule;
+- no complete finite-cell branch selects globally temporal `phi`, a common observer range,
+  complete connected levels, global descent, or the physical CSN ruler;
+- the `h_f=exp(2f(phi))h0` family blocks physical-ruler uniqueness even though `h0` is the canonical
+  unit-gradient pre-scale metric;
+- projective, WR-L radial, coframe-path, finite-cell, fiber, dual-systole, curvature, causal, and
+  principle-only alternatives remain conditional, incomplete, type-mismatched, or nonselecting;
+- the global diameter and local-WR-L/global-`X_max` join were not evaluated;
+- action, source, boundary, carrier, mass, density, numerical `X_max`, and matter dynamics remain
+  open.
+
+Evidence: 24 candidates, 50 source identities, five causal classes, twelve completions, twelve
+principle roles, independent standard-library verification, 19/19 catches, 70 tests passed/1
+xfailed, six frozen packages unchanged, original 54-path dirty checkout unchanged. Grade
+`VERIFIED-WITH-CAVEATS`.
+
+Next bounded seam:
+
+> Determine from registered sources/equations whether UDT selects or forbids a complete globally
+> temporal-`phi` branch and physical spatial representative. Do not launch PDE/GPU work until a
+> native equation and boundary problem are identified.
+
+No matter solve, density bracket, signal law, topology choice, canonization, reorganization, or
+artifact relocation follows.
+
+## PRIOR CURRENT (2026-07-24 — X_max observer-separation framing audit)
 
 Read `udt_xmax_observer_separation_audit_2026-07-24/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `RELATIONAL_DEFINITION_LEDGER.tsv`, `EXACT_DERIVATION.md`,
