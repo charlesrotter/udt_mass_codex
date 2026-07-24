@@ -1,0 +1,15 @@
+id	premise	status	use	what_is_not_supplied
+P01	c and inverse-c are coequal clock-length conversion directions	pinned-by-THEORY	names the reciprocal channels	no finite observer mechanics
+P02	UDT Reciprocity acts contragrediently on the named pair	pinned-by-THEORY	K-preserving dual action	no physical quadratic readout by itself
+P03	relative positional comparisons compose with difference composition reversal and regularity	pinned-by-THEORY/explicit POSIT	one-parameter character theorem	no map from a complete observer pair to depth
+P04	nontrivial dilation occurs in the realized universe	OBSERVED	excludes only the realized trivial representation	no profile or global branch
+P05	sign and unit of reciprocal depth	CHOSE	fixes displayed exponential convention	no physical length scale
+P06	local Lorentzian quadratic readout and CSN representative	CONDITIONAL	converts coframe weights to local metric coefficients	no unique complete physical representative
+P07	physical distance is nonnegative; local phi may be signed	pinned-by-owner	current ontology and direction correction	no equality between distance and phi
+P08	no observer is privileged by the laws	pinned-by-owner	covariance and frame-exchange gate	no identical components in every frame
+P09	endpoint comparison equals S(phi(p)) inverse S(phi(q))	OPEN	candidate C02	not silently assumed
+P10	Levi-Civita connection of a supplied nondegenerate metric	DERIVED_PER_REPRESENTATIVE	candidate C03 transport	no field equation or selected path
+P11	minimizing geodesic is the physical comparison path	pinned-by-HABIT	unselected candidate control	no authority to average or select at a cut locus
+P12	K is itself the physical observer interval readout	OPEN	candidate C04 balanced-basis readout	K is registered first as a faithful dual pairing
+P13	named temporal channel exp(-rho)	DERIVED_CONDITIONAL	clock-channel identity on nonnegative depth	not a generic reversal-even observer scalar
+P14	asymptotic mass; action; source; carrier; density; CMB	OPEN	excluded from audit	no observational promotion
