@@ -1,0 +1,9 @@
+id	object	formula_or_source	preregistered_test	SNe_disposition
+C01	PROJECTIVE_PAIR_TRANSFORM	X*tanh(kappa*d)	metric_axioms; composition; path-length distinction	NO_SCORE_PAIR_LAW_NOT_OPTICAL_JOIN
+C02	WRL_PROPER_PAIR_TRANSFORM	X*(1-exp(-kappa*d))	metric_axioms; composition; path-length distinction	NO_SCORE_PROPER_DISTANCE_NOT_D_A
+C03	B19_ROUND_PAIR_TRANSFORM	X*(2/pi)*atan(sinh(2*kappa*d))	metric_axioms; composition; path-length distinction	NO_SCORE_CONSTANT_LAPSE_AND_NO_CLOCK_OPTICAL_SOLDER
+C04	FC12_OPEN_PAIR_PROFILE	X*integral(A(phi),phi)	free-profile disposition	NO_SCORE_FREE_PROFILE
+C05	TEMPORAL_PHI_SEPARATION_FAMILY	h_f induced equal-phi distance	conditional-family disposition	NO_SCORE_REPRESENTATIVE_AND_GLOBAL_READOUT_OPEN
+C06	WRL_AREAL_OPTICAL_READOUT	d_L/X=z*(z+2)	replay fixed full-covariance score	EVALUABLE_EXISTING_READOUT
+C07	PROJECTIVE_AREAL_J1_READOUT	u^2*(u^2-1)/(u^2+1)	replay fixed full-covariance score	EVALUABLE_EXISTING_COMPARATOR
+C08	RETIRED_P_ELL	imposed	ensure excluded	PROHIBITED

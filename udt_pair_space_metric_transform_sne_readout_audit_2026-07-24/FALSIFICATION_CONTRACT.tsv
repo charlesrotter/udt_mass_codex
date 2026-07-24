@@ -1,0 +1,19 @@
+id	claim	falsifier	required_response
+F01	each accepted f is increasing	negative derivative at any s>=0	reject that transform
+F02	each accepted f is concave	positive second derivative at any s>=0	reject concavity proof and metric theorem route
+F03	concavity supplies subadditivity	counterexample f(x+y)>f(x)+f(y) for x,y>=0	reject transformed metric
+F04	D_f is a metric	failure of nonnegativity identity symmetry or triangle inequality	reject candidate
+F05	D_f is generally not path length	a nonaffine accepted f with exact equality under every positive subdivision	regrade distinction
+F06	collinear composition is associative	exact three-input associator nonzero	reject composition formula
+F07	bounded diameter statement holds	infinite-base branch exceeds X or finite-base formula disagrees	reject endpoint statement
+F08	SNe firewall holds	a missing-join candidate receives a score	invalidate audit
+F09	WR-L score is areal-optical	the scored formula uses WR-L proper distance	invalidate interpretation
+F10	no retuning	any fitted shape exponent profile coefficient or extra nuisance parameter	invalidate SNe replay
+F11	existing score reproduced	chi2/dof or RMS differs beyond registered numerical tolerance	investigate implementation or source drift
+F12	no universal selection	result promotes one profile from metric-transform validity or SNe contrast	invalidate status
+F13	FC12 remains open	free A represented as selected	reject classification
+F14	B19 remains conditional and clock-unsoldered	B19 promoted to SNe clock law	reject classification
+F15	global Xmax remains open	pair transform promoted to derived physical Xmax	reject conclusion
+F16	retired P_ell remains excluded	P_ell is scored or cited as survivor	invalidate SNe stage
+F17	source universe fixed	any pinned source hash drifts	stop
+F18	repository gates preserved	frozen manifest current-path link frontier test or dirty-metadata gate fails	stop

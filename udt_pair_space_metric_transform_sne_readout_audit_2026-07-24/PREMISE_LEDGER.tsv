@@ -1,0 +1,23 @@
+id	premise	classification	scope_or_source
+P01	base pair distance d	PINNED_BY_CONDITIONAL_INPUT	any supplied metric space; not derived here
+P02	event pairing	PINNED_BY_CONDITIONAL_INPUT	required before d has observer meaning; not selected here
+P03	X	POSITIVE_FREE_SYMBOL	scale of transformed bounded distance; no numerical value
+P04	kappa	POSITIVE_FREE_SYMBOL	depth conversion; no numerical value
+P05	projective profile	PINNED_BY_REGISTERED_DERIVATION	f_T(s)=tanh(s)
+P06	WR-L proper profile	PINNED_BY_REGISTERED_DERIVATION	f_E(s)=1-exp(-s)
+P07	B19 round profile	PINNED_BY_CONDITIONAL_C2_CONTROL	f_R(s)=(2/pi)atan(sinh(2s)); angular depth, not clock-soldered
+P08	FC12 profile	OPEN	A(phi) free; can mimic profiles only by choice
+P09	pair transform	WORKING_MATHEMATICAL_TEST	D_f(p,q)=X f(kappa d(p,q))
+P10	local path length	OPEN	D_f is not assumed to be induced by a local coframe
+P11	cut-locus transport	OPEN	base scalar distance may survive while angular transport is multivalued
+P12	WR-L SNe clock	PINNED_BY_CONDITIONAL_STATIC_BRANCH	1+z=exp(phi)
+P13	WR-L SNe areal radius	PINNED_BY_CONDITIONAL_WRL_BRANCH	r/X=1-exp(-2phi)
+P14	WR-L SNe optics	PINNED_BY_REGISTERED_STATIC_OPTICS	d_L=(1+z)^2 D_A and D_A=r
+P15	projective J1 SNe readout	PINNED_BY_REGISTERED_COMPARATOR	r/X=tanh(phi) with same registered n=2 full-light readout
+P16	SNe nuisance freedom	PINNED_BY_EXISTING_PROTOCOL	exactly one additive magnitude offset
+P17	SNe data	PINNED_BY_HASH	Pantheon+SH0ES; 1580-object noncalibrator zHD>0.01 cut
+P18	P_ell	REJECTED_RETIRED	imposed readout excluded
+P19	c	OBSERVATIONAL_ANCHOR	retained in physical interpretation; cancels from dimensionless shape score
+P20	global X_max	OPEN	no global branch, value, or universal diameter selected
+P21	action_source_carrier_boundary	OPEN	out of scope
+P22	BAO_CMB_black_holes	OPEN	out of scope; no inference from SNe alone
