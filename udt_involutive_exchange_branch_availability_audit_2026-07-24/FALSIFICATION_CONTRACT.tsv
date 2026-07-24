@@ -1,0 +1,11 @@
+contract_id	trigger	required_outcome
+F01	Any coherent registered family passes G01-G12	Report EXISTING_COMPLETE_WITNESS_IDENTIFIED and stop before new derivation.
+F02	No coherent registered family passes G01-G12	Report PRESENT_SELECTOR_BOUNDARY_VERIFIED_WITH_CAVEATS.
+F03	A pass requires rows from incompatible families or branches	Reject as cross-family branch splicing.
+F04	The exchange lift has square minus identity or is identity	Reject G06.
+F05	The witness is off-shell, kinematic, local, or conditional	Reject G02 and/or G03 as documented.
+F06	The cap cycles or cocycle are assumed rather than branch data	Reject G07-G10 as applicable.
+F07	A POSIT/import/comparison supplies affirmative native authority	Reject G02 or G12.
+F08	Pre-July evidence is used affirmatively	Reject G11.
+F09	The frozen family census is incomplete or duplicated	No scientific conclusion; repair the census under an explicit correction layer.
+F10	Independent reconstruction disagrees with the production pass set	No scientific conclusion; adjudicate the disagreement.

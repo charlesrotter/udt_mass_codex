@@ -1,0 +1,13 @@
+gate_id	gate_name	requirement	pass_condition
+G01	complete_field_operator_census	REQUIRED	Family fixes the complete field/operator content used by the claimed branch.
+G02	native_action_variation	REQUIRED	Family has a native UDT action/variation or other native equation authority, not a conditional/imported/posited law.
+G03	full_on_shell_branch	REQUIRED	Family supplies a solution of its complete native equations, not only an off-shell metric witness, local jet, ansatz, or kinematic atlas.
+G04	integral_toric_angular_region	REQUIRED	Family supplies a global integral rank-two angular torus where the exchange is claimed, with periods and lattice identified.
+G05	global_angular_exchange_lift	REQUIRED	Family specifies one global exchange lift on the actual angular/coframe data.
+G06	involutive_exchange	REQUIRED	The specified exchange squares to identity; identity and order-four lifts do not pass.
+G07	cocycle_monodromy_compatibility	REQUIRED	The exchange is preserved by the actual branch cocycle/monodromy, not merely by a local chart.
+G08	primitive_cap_isotropy_data	REQUIRED	Family supplies the branch's actual primitive cap/isotropy cycles or an exact equivalent.
+G09	exchange_cap_compatibility	REQUIRED	The involution preserves or compatibly exchanges the actual cap/isotropy data; if Hopf completion is claimed the registered FC04 determinant condition is met.
+G10	boundary_regular_completion	REQUIRED	Family supplies a complete regular finite-cell boundary/seal/cap completion.
+G11	post_July_affirmative_provenance	REQUIRED	Affirmative physics authority descends from the July-1 native metric foundation.
+G12	no_posit_or_import_as_native	REQUIRED	No carrier posit, GR comparison, conventional action, or other imported premise is relabeled native.

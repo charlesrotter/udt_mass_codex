@@ -1,0 +1,29 @@
+family_id	family_label	primary_scope	preregistered_source_group
+B01	Exact_C0_C1_foundation	foundational metric and reciprocal/CSN/bootstrap premises	FOUNDATION
+B02	Final_native_action_adjudication	action uniqueness, EH/C2 status, source and boundary status	ACTION_FINAL
+B03	P01_canonical_geometry_evaluator	complete metric local geometry evaluator	P01
+B04	P02_local_jet_atlas	unconstrained local jet solution-space atlas	P02
+B05	P03_founded_constraint_atlas	effects of registered UDT constraints on local strata	P03
+B06	P03G_global_kinematic_assembly	local-to-global kinematic completions and moduli	P03G
+B07	P04_dynamics_branch_ruling	authorized conditional dynamics branches	P04
+B08	P05_full_equation_variation	full nonlinear field equations for registered conditional actions	P05
+B09	Time_live_characteristic_flux	time-live characteristics, polarization, and boundary flux	TIME_LIVE
+B10	Free_global_seal_transversality	varied seal embeddings and transversality	SEAL_FREE
+B11	Finite_cell_completion_atlas	global finite-cell completion axes and witnesses	FC_ATLAS
+B12	Complete_seal_fixed_set_selector	complete lift and fixed-set possibilities	SEAL_FIXED
+B13	Complete_coframe_seal_involution	coframe-level involutive seal candidates	COFRAME_INVOLUTION
+B14	Complete_lift_mu_closure	complete lift and mu closure possibilities	LIFT_MU
+B15	Global_coframe_cocycle	global coframe transition and cocycle possibilities	COFRAME_COCYCLE
+B16	Global_metric_assembly_atlas	complete metric branch assembly and completions	GLOBAL_ASSEMBLY
+B17	Complete_connector_assembly	connection/connector completion possibilities	CONNECTOR
+B18	Angular_toric_closure	toric angular closures and candidate families	TORIC
+B19	Conditional_C2_Bach_route	pre-scale conditional unique C2/Bach dynamics	C2_BACH
+B20	Conditional_EH_route	post-scale conditional EH dynamics	EH
+B21	Macro_WRL_SNe_branch	macro supplied-profile metric/SNe evidence	MACRO
+B22	Conditional_particle_Hopfion	finite-box carrier-posit Hopfion evidence	PARTICLE_HOPF
+B23	Bootstrap_selector_family	CSN/bootstrap/boundary representative selector tests	BOOTSTRAP
+B24	Reciprocal_pair_wall_module	dual-systole wall and global pair-module geometry	PAIR_MODULE
+B25	Time_live_spherical_numerical_branches	time-live/spherical numerical solution families	NUMERICAL_TIME_LIVE
+B26	Legacy_pre_July_branches	historical comparison, failure, and counterexample material	LEGACY
+B27	Intrinsic_object_Cartan_transport	intrinsic metric objects and finite-cell Cartan transport	CARTAN
+B28	Global_reciprocal_and_Hopf_realization	global reciprocal closure and conditional Hopf realization deformations	HOPF_REALIZATION
