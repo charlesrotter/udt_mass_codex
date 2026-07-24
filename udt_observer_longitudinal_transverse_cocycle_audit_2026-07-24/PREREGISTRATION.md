@@ -29,7 +29,7 @@ adding an action, matter source, carrier, topology, or empirical target.
 
 ## Fixed candidate constructions
 
-- `Q_gamma = omega_start / omega_end`, where
+- `Q_gamma = omega_end / omega_start`, where
   `omega = -g(u,k)` for supplied endpoint observer tangents and a supplied
   null path; for static rest observers this reduces to a lapse ratio.
 - `delta_gamma = log Q_gamma` and
@@ -106,6 +106,9 @@ does not satisfy that stronger requirement.
   bootstrap, physical `X_max`, and observational fit: `OPEN/EXCLUDED`.
 
 The complete machine-readable ledger is `PREMISE_LEDGER.tsv`.
+
+The ratio-order wording above is governed by the preregistered, pre-result
+correction in `POST_PREREG_RATIO_CONVENTION_CLARIFICATION.md`.
 
 ## Falsification and certification
 
