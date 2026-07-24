@@ -1,0 +1,17 @@
+id	premise	status	use	what_is_not_supplied
+P01	reciprocal ordered-pair operator S(delta)	DERIVED_CONDITIONAL	input expects additive ordered depth	no actual pair-to-depth map
+P02	named clock channel exp(-rho) for nonnegative depth	DERIVED_CONDITIONAL	physical channel gate	no equality rho=absolute_delta or metric distance
+P03	physical observer separation is nonnegative	pinned-by-owner	sign/type gate	no signed physical distance
+P04	no observer is globally privileged	pinned-by-owner	centerless covariance gate	no global homogeneity theorem
+P05	complete metric distance d_h(p,q)	DERIVED_PER_SUPPLIED_COMPLETE_SPATIAL_METRIC	bilocal scalar control	no clock-depth response function
+P06	round S3_b branch	DERIVED_CONDITIONAL_COMPLETE_SPATIAL_CONTROL	exact no-center and cut-locus control	constant lapse; no physical UDT Xmax
+P07	squashed S3_sigma	OFF_SHELL_COMPLETE_METRIC_CONTROL	no-center directional control	not on-shell or clock-soldered
+P08	local signed phi field	pinned-by-owner/current ontology	current-integral candidate	no global pair map
+P09	delta(p,q)=phi(q)-phi(p)	OPEN_RELATION	candidate D03	not silently assumed
+P10	reciprocal current J=S^-1 dS	DERIVED_LOCAL_ALGEBRA	line-integral candidate	no global exactness or physical section
+P11	depth is a function F of metric distance	FREE_AND_EXPLORED	candidate D05	F unselected
+P12	depth adds for arbitrary observer triples	pinned-by-HABIT	rejected unless domain proved	metric distances do not generally add
+P13	depth adds along one ordered minimizing geodesic	pinned-by-THEORY_INTERPRETATION_TO_TEST	legitimate composition candidate	must stop or branch at cut point
+P14	tanh or another bounded display	OPEN/CONDITIONAL	countercontrol	not proper metric distance by declaration
+P15	c alone fixes dimensionless depth per unit length	OPEN_SCALE_JOIN	dimensional gate	c converts length and time but supplies no dimensionless normalization alone
+P16	action source carrier mass density CMB	OPEN	excluded	no closure by observational target
