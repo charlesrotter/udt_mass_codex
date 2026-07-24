@@ -7,7 +7,49 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-24).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-24 — complete-metric observer-separation selector audit)
+## CURRENT (2026-07-24 — dual-systole wall-crossing selector audit)
+
+Read `udt_dual_systole_wall_crossing_selector_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `CANDIDATE_OUTCOMES.tsv`,
+`PRINCIPLE_CAPABILITY_MATRIX.tsv`, `COMPLETION_WALL_CROSSING_ATLAS.tsv`, `LAY_REPORT.md`, and
+`NEXT_STEP.md`. Use the parent global-transport audit for the complete continuous wall theorem.
+
+Current ruling:
+
+- at the reciprocal `phi=0` tie, the shortest primitive angular-character object is the full
+  exchanged pair `{[e1],[e2]}`;
+- Reciprocity preserves that pair but swaps its members. Neither shortest line is fixed;
+- consequently no single-valued shortest-line selector can be defined at the symmetric seal while
+  remaining Reciprocity-equivariant;
+- identity gluing fails to continue shortestness. Swap gluing works only conditionally after an
+  angular lattice lift/transition is supplied;
+- exact C1 selects the odd scalar-`phi` seal condition, not that angular lift;
+- CSN leaves the tie unchanged, while connection, curvature, holonomy, caps, and present bootstrap
+  constrain supplied choices without selecting one;
+- all 32 candidate rules, 15 registered principle/object types, and 12 completion families were
+  classified without inventing a tie-break;
+- the pair is a positive metric-derived geometric object, but its physical role remains open. It
+  is not yet a carrier, phase section, matter source, or mass law;
+- the existing stable Hopfion remains conditional on its supplied `S2` carrier, `L2+L4` action,
+  coefficients, background, boundary, and finite box;
+- native action/source/boundary, carrier emergence, density feedback, scale, and unconditional mass
+  remain open.
+
+Evidence: exact 35-source freeze, 20/20 exact controls, independent standard-library
+reconstruction, 20/20 catch-proofs, 70 tests passed/1 xfailed, six frozen packages unchanged,
+current navigation intact, and the original 54-path dirty checkout unchanged. Grade
+`VERIFIED-WITH-CAVEATS`.
+
+Next bounded seam:
+
+> Treat the reciprocal pair—not either member—as the object to audit. Determine whether the full
+> two-character module has a metric-native global realization, transition law, and completion
+> invariants. Only afterward compare it conditionally with the supplied Hopf branch.
+
+Do not choose a tie-break, insert density, launch a matter/GPU solve, select an action or carrier,
+canonize, or resume repository reorganization.
+
+## PRIOR CURRENT (2026-07-24 — complete-metric observer-separation selector audit)
 
 Read `udt_two_observer_separation_selector_audit_2026-07-24/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `CANDIDATE_OUTCOMES.tsv`,

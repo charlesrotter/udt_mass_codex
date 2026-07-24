@@ -4,6 +4,20 @@
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
 **➤ CURRENT SCIENTIFIC FRONTIER:**
+`udt_dual_systole_wall_crossing_selector_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `CANDIDATE_OUTCOMES.tsv`,
+`PRINCIPLE_CAPABILITY_MATRIX.tsv`, `COMPLETION_WALL_CROSSING_ATLAS.tsv`, `LAY_REPORT.md`, and
+`NEXT_STEP.md`. At the reciprocal `phi=0` tie, the metric derives the full exchanged pair of
+shortest primitive angular-character lines. Reciprocity preserves the pair but fixes neither
+member, so no single shortest-line selector can exist at the symmetric seal and remain
+Reciprocity-equivariant. Identity gluing fails; reciprocal-swap gluing is conditional on an
+unselected global angular lift. Exact C1 fixes the odd scalar-`phi` seal, not that lift. The pair is
+a positive geometric result but is not yet a carrier, phase, source, or mass law. Next: audit the
+global two-character module and only then compare it conditionally with the Hopf branch. No
+single-character tie-break, density insertion, matter/GPU solve, action selection, reorganization,
+or canonization is authorized.
+
+**➤ PRIOR JULY 24 OBSERVER-SEPARATION FRONTIER:**
 `udt_two_observer_separation_selector_audit_2026-07-24/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `CANDIDATE_OUTCOMES.tsv`,
 `DPHI_CAUSAL_DISTANCE_ATLAS.tsv`, `COMPLETION_DESCENT_ATLAS.tsv`, `LAY_REPORT.md`, and

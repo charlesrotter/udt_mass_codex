@@ -3,12 +3,63 @@
 <!-- STARTUP_CURRENT_BEGIN -->
 
 **⚠ BRANCH: work is on `grok` (2026-07-24).** If not on it: `git checkout grok`. `main` is stale for this arc.
-**The CURRENT STATE block below is the only current frontier** — read it and stop.
+**The topmost CURRENT STATE block below is the only current frontier** — read it and stop.
 Stale historical frontier layers live under `archive/LIVE_historical_frontier_through_2026-07-08.md`
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
-**If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
+**If anything disagrees with this file's topmost CURRENT STATE block, that block wins.**
 
-## ============ CURRENT STATE (2026-07-24 — COMPLETE-METRIC TWO-OBSERVER SEPARATION SELECTOR AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. ZERO OF 24 CANDIDATES DEFINES ONE UNIVERSAL PHYSICAL D_G ACROSS ALL FIVE DPHI CAUSAL CLASSES AND TWELVE COMPLETIONS, SO THE UNIVERSAL STATUS IS OPEN_SELECTOR. A GENUINE POSITIVE CONDITIONAL CONSTRUCTION WAS DERIVED: ON AN EVERYWHERE-TIMELIKE NONZERO DPHI BRANCH, PHI IS TEMPORAL, EQUAL-PHI PAIRS EVENTS ON EVERY FUTURE-TIMELIKE OBSERVER HISTORY WITHOUT SELECTING A PREFERRED OBSERVER, H0=|G^-1(DPHI,DPHI)|G IS CSN-INVARIANT, AND Q0=H0+DPHI⊗DPHI GIVES EACH PHI LEVEL A COMPLETE INDUCED RIEMANNIAN GEOMETRY AND INTRINSIC OBSERVER SEPARATION. THIS DOES NOT COVER STATIC WR-L, WHOSE DPHI IS SPACELIKE; NULL/ZERO DPHI BLOCK THE CONSTRUCTION AND TYPE CHANGE NEEDS AN INTERFACE RULE. NO COMPLETE TEMPORAL-PHI FINITE-CELL BRANCH, COMMON OBSERVER RANGE, GLOBAL DESCENT, OR PHYSICAL CSN RULER IS SELECTED. THE HF FAMILY BLOCKS PHYSICAL-RULER UNIQUENESS. GLOBAL DIAMETER AND THE WR-L-X/GLOBAL-XMAX JOIN WERE NOT EVALUATED. NEXT BOUNDED QUESTION: WHETHER REGISTERED UDT STRUCTURE SELECTS OR FORBIDS A COMPLETE GLOBALLY TEMPORAL-PHI BRANCH AND ITS PHYSICAL SPATIAL REPRESENTATIVE. NO PDE/GPU, MATTER, DENSITY, ACTION, TOPOLOGY, SIGNAL LAW, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-24 — DUAL-SYSTOLE WALL-CROSSING SELECTOR AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. AT THE RECIPROCAL PHI=0 TIE, THE METRIC AND TORUS LATTICE DERIVE THE FULL EXCHANGED PAIR OF SHORTEST PRIMITIVE CHARACTER LINES. RECIPROCITY PRESERVES THAT PAIR BUT FIXES NEITHER MEMBER, SO NO SINGLE-VALUED SHORTEST-LINE SELECTOR CAN BOTH EXIST AT THE SYMMETRIC SEAL AND BE RECIPROCITY-EQUIVARIANT. IDENTITY GLUING FAILS SHORTESTNESS; RECIPROCAL-SWAP GLUING CAN CONTINUE A LINE ONLY CONDITIONAL ON AN UNSELECTED GLOBAL ANGULAR LIFT. EXACT C1 FIXES THE ODD SCALAR-PHI SEAL, NOT THE TRANSVERSE ANGULAR LIFT. ALL 32 REGISTERED RULES, 15 PRINCIPLE/OBJECT TYPES, AND 12 COMPLETION FAMILIES WERE CLASSIFIED. THE SYMMETRY-RESPECTING TWO-CHARACTER OBJECT IS DERIVED GEOMETRY BUT IS NOT YET A CARRIER, PHASE SECTION, MATTER SOURCE, OR MASS LAW. NEXT BOUNDED QUESTION: WHETHER THE FULL RECIPROCAL TWO-CHARACTER MODULE HAS A METRIC-NATIVE GLOBAL REALIZATION AND WHETHER, ONLY AFTER THAT, IT HAS A CONDITIONAL RELATION TO THE EXISTING HOPF BRANCH. NO SINGLE-CHARACTER TIE-BREAK, DENSITY INSERTION, MATTER/GPU SOLVE, ACTION SELECTION, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+
+**READ NEXT, IN ORDER:**
+
+1. `HANDOFF.md` current marked block.
+2. `udt_dual_systole_wall_crossing_selector_audit_2026-07-24/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `CANDIDATE_OUTCOMES.tsv`,
+   `PRINCIPLE_CAPABILITY_MATRIX.tsv`, `COMPLETION_WALL_CROSSING_ATLAS.tsv`, `LAY_REPORT.md`, and
+   `NEXT_STEP.md`.
+3. `udt_dual_systole_global_transport_audit_2026-07-24/AUDIT_REPORT.md` for the parent continuous
+   shortest-character theorem.
+4. `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` only when the conditional carrier
+   comparison becomes load-bearing.
+
+**CURRENT HONEST CLAIM:**
+
+- on the shear-free reciprocal control, the unique shortest line is `[e1]` for `phi<0`, both
+  `[e1]` and `[e2]` are tied at `phi=0`, and `[e2]` is unique for `phi>0`;
+- the reciprocal exchange swaps the two lines and preserves the full tied set, but fixes neither
+  shortest member;
+- therefore a single shortest-line choice at the symmetric seal cannot be both defined and
+  Reciprocity-equivariant;
+- the exchange-fixed diagonal lines are not shortest, and a lexicographic tie-break is not
+  `GL(2,Z)`-covariant;
+- identity gluing does not continue shortestness. Reciprocal-swap gluing can globalize a line only
+  after a global angular transition/lift is supplied;
+- exact C1 makes scalar `phi` odd at the mirrored seal and leaves its normal derivative free; it
+  does not select the transverse angular block, lift, boundary functional, or field-slot
+  identification;
+- CSN preserves the tie; connection, curvature, holonomy, cap, and primary-bootstrap data constrain
+  supplied choices but do not select one;
+- the full exchanged pair/set is the metric-derived symmetry-respecting object. Its physical role
+  is `OPEN`, and it must not yet be called the `S2` carrier or a matter field;
+- the conditional stable Hopfion result remains valid in its stated supplied-carrier/action,
+  fixed-background, finite-box scope;
+- complete action, native source, boundary completion, carrier emergence, density feedback,
+  unconditional mass, and physical scale remain `OPEN`.
+
+**NEXT:** audit the full reciprocal two-character module as a global geometric object, without
+choosing one member at the tie. Determine its transition law, completion behavior, and available
+metric-native invariants. Compare it with the supplied Hopf structure only afterward and only
+conditionally. Do not insert `rho_tot` until a native density-to-geometry law exists.
+
+**EVIDENCE:** exact 35-source freeze; 32/32 candidate rules, 15/15 principle/object types, and
+12/12 completion families classified; 20/20 production controls and 20/20 adversarial catches;
+independent standard-library reconstruction; tests 70 passed/1 xfailed; all six frozen packages,
+1,114 current-path identities, frontier targets, and the original 54-path dirty checkout unchanged.
+Grade `VERIFIED-WITH-CAVEATS` because no fresh external model context was used.
+
+## PRIOR CURRENT (2026-07-24 — complete-metric two-observer separation selector audit)
+
+## ============ PRIOR CURRENT STATE (2026-07-24 — COMPLETE-METRIC TWO-OBSERVER SEPARATION SELECTOR AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. ZERO OF 24 CANDIDATES DEFINES ONE UNIVERSAL PHYSICAL D_G ACROSS ALL FIVE DPHI CAUSAL CLASSES AND TWELVE COMPLETIONS, SO THE UNIVERSAL STATUS IS OPEN_SELECTOR. A GENUINE POSITIVE CONDITIONAL CONSTRUCTION WAS DERIVED: ON AN EVERYWHERE-TIMELIKE NONZERO DPHI BRANCH, PHI IS TEMPORAL, EQUAL-PHI PAIRS EVENTS ON EVERY FUTURE-TIMELIKE OBSERVER HISTORY WITHOUT SELECTING A PREFERRED OBSERVER, H0=|G^-1(DPHI,DPHI)|G IS CSN-INVARIANT, AND Q0=H0+DPHI⊗DPHI GIVES EACH PHI LEVEL A COMPLETE INDUCED RIEMANNIAN GEOMETRY AND INTRINSIC OBSERVER SEPARATION. THIS DOES NOT COVER STATIC WR-L, WHOSE DPHI IS SPACELIKE; NULL/ZERO DPHI BLOCK THE CONSTRUCTION AND TYPE CHANGE NEEDS AN INTERFACE RULE. NO COMPLETE TEMPORAL-PHI FINITE-CELL BRANCH, COMMON OBSERVER RANGE, GLOBAL DESCENT, OR PHYSICAL CSN RULER IS SELECTED. THE HF FAMILY BLOCKS PHYSICAL-RULER UNIQUENESS. GLOBAL DIAMETER AND THE WR-L-X/GLOBAL-XMAX JOIN WERE NOT EVALUATED. NEXT BOUNDED QUESTION: WHETHER REGISTERED UDT STRUCTURE SELECTS OR FORBIDS A COMPLETE GLOBALLY TEMPORAL-PHI BRANCH AND ITS PHYSICAL SPATIAL REPRESENTATIVE. NO PDE/GPU, MATTER, DENSITY, ACTION, TOPOLOGY, SIGNAL LAW, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
 
 **READ NEXT, IN ORDER:**
 
