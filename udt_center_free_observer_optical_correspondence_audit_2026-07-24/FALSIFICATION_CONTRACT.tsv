@@ -1,0 +1,19 @@
+id	claim	falsifier	required_response
+F01	screen determinant is basis independent	orthogonal screen change alters absolute determinant	reject scalar area construction
+F02	round spatial Jacobi radius is b*sin(D/b)	exact Jacobi ODE or initial data fail	reject round witness
+F03	round null and spatial screens coincide in ultrastatic product	null tidal matrix differs after matched normalization	reject coincidence
+F04	round antipode is an optical caustic	nonzero Jacobi determinant at D=pi*b	reject caustic claim
+F05	WRL central transverse radius is R(D)	warped Jacobi equation fails for R	reject centered area readout
+F06	WRL R(D)=D-D^2/(4X)	profile inversion disagrees	reject substitution
+F07	WRL spatial curvature is anisotropic	K_rad=K_tan on open r>0 interval	reject non-recenterability route
+F08	all-observer isotropic recenterability implies constant spatial curvature	counterexample within smooth connected 3D isotropic-everywhere premise	regrade theorem
+F09	WRL centered readout is not global center-free	registered global recentering isometry with identical curvature exists	regrade limitation
+F10	null and spatial correspondence are universally identical	generic supplied metric countercontrol gives identical laws only by theorem	reject distinction
+F11	metric alone selects event pairing	unique pairing follows without observer congruence or ordered event	report derivation
+F12	bounded pair transform supplies area transport	Jacobi determinant follows from scalar transform alone	report missing theorem
+F13	round B19 closes physical clock	readout has nonconstant reciprocal lapse	regrade branch
+F14	WRL closes global pair geometry	complete center-free metric and cut locus supplied	regrade branch
+F15	SNe may not select missing joins	data used to choose pairing path or area map	invalidate audit
+F16	physical Xmax remains open	any local radial area or caustic promoted to global observer diameter	reject conclusion
+F17	complete registry coverage	12 completion or 28 family accounting drifts	stop
+F18	source and repository gates hold	any hash manifest navigation test or dirty metadata gate fails	stop

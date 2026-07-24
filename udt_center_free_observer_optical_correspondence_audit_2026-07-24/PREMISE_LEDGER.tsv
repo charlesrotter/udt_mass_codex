@@ -1,0 +1,23 @@
+id	item	status	use_or_limit
+P01	c_E	OBSERVED_FOUNDING	calibrated clock-length conversion
+P02	complete Lorentzian metric	CONDITIONAL_SUPPLIED_BRANCH	required for spacetime paths curvature and screen transport
+P03	Levi-Civita connection	DERIVED_FROM_SUPPLIED_METRIC	no field equation imported
+P04	observer histories and unit tangents	FREE_INPUT	physical realization needs native matter law
+P05	null event pairing	FREE_CANDIDATE	metric defines null relation but co-presence does not select its observational role
+P06	observer-rest simultaneous pairing	FREE_CANDIDATE	needs congruence temporal function or slice
+P07	path family	FREE_AND_ALL_RETAINED	multiple geodesics caustics and cut paths characterized
+P08	screen basis	GAUGE	determinant magnitude and conjugacy data only
+P09	spatial pair distance	DERIVED_GIVEN_POSITIVE_COMPLETE_SLICE	intrinsic infimum
+P10	bounded pair transform	DERIVED_CONDITIONAL_FAMILY	does not create transverse area law
+P11	round b	POSITIVE_FREE_SYMBOL	conditional B19 control scale
+P12	WRL X	POSITIVE_FREE_SYMBOL	local residual scale not global Xmax
+P13	squashing sigma	POSITIVE_FREE_SYMBOL	off-shell homogeneous control
+P14	co-presence	WORKING_INTERPRETATION	no propagation or pairing equation inserted
+P15	luminosity reciprocity	PINNED_BY_REGISTERED_READOUT	not rederived from metric alone
+P16	SNe_result	OBSERVED_EXISTING_FIREWALLED	type reclassification only after geometry
+P17	all_12_completions	FIXED_REGISTRY	no topology chosen
+P18	all_28_equation_families	FIXED_REGISTRY	no family omitted or promoted
+P19	action_source_carrier_boundary	OPEN_EXCLUDED	cannot select optical correspondence
+P20	density_mass_bootstrap	OPEN_EXCLUDED	no values or feedback law
+P21	physical_Xmax	OPEN_OUTPUT	not equated to radial or optical endpoint
+P22	GPU_or_time_live	EXCLUDED	not authorized or needed
