@@ -5,22 +5,23 @@ This directory is an additions-only navigation layer. It points to artifacts at 
 ## Current scientific spine — July 24
 
 Start with the
-[intrinsic clock/transverse solder audit](../udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md),
+[bootstrap-aware clock/angular closure audit](../udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md),
 then its
-[status ledger](../udt_intrinsic_clock_transverse_solder_audit_2026-07-24/STATUS_LEDGER.tsv),
-[solder-type ledger](../udt_intrinsic_clock_transverse_solder_audit_2026-07-24/SOLDER_TYPE_LEDGER.tsv),
-[generator atlas](../udt_intrinsic_clock_transverse_solder_audit_2026-07-24/GENERATOR_MATCH_ATLAS.tsv),
-[branch atlas](../udt_intrinsic_clock_transverse_solder_audit_2026-07-24/BRANCH_SOLDER_ATLAS.tsv),
-[exact derivation](../udt_intrinsic_clock_transverse_solder_audit_2026-07-24/EXACT_DERIVATION.md),
-[lay report](../udt_intrinsic_clock_transverse_solder_audit_2026-07-24/LAY_REPORT.md), and
-[next step](../udt_intrinsic_clock_transverse_solder_audit_2026-07-24/NEXT_STEP.md).
+[status ledger](../udt_bootstrap_clock_angular_closure_audit_2026-07-24/STATUS_LEDGER.tsv),
+[bootstrap-route ledger](../udt_bootstrap_clock_angular_closure_audit_2026-07-24/BOOTSTRAP_ROUTE_LEDGER.tsv),
+[equation-family matrix](../udt_bootstrap_clock_angular_closure_audit_2026-07-24/EQUATION_FAMILY_GATE_MATRIX.tsv),
+[completion atlas](../udt_bootstrap_clock_angular_closure_audit_2026-07-24/COMPLETION_BOOTSTRAP_ATLAS.tsv),
+[exact derivation](../udt_bootstrap_clock_angular_closure_audit_2026-07-24/EXACT_DERIVATION.md),
+[lay report](../udt_bootstrap_clock_angular_closure_audit_2026-07-24/LAY_REPORT.md), and
+[next step](../udt_bootstrap_clock_angular_closure_audit_2026-07-24/NEXT_STEP.md).
 
-Hodge gives an exact oriented normal/screen area duality but not the clock/Jacobi solder. A
-preserved scalar screen mode requires a parallel tidal-invariant line; its nontrivial pointwise
-natural-frame match to the reciprocal clock requires
-`K_screen=-(d delta/d lambda)^2`. Neither B19 nor WR-L realizes this, although WR-L retains an
-exact local scalar clock/area relation. The intrinsic irreducible solder remains open and the
-reducible same-path direct sum remains the strongest current assembly.
+Simple screen tidal spectrum plus `det(T+a^2 I)=0` intrinsically selects the clock-matched line;
+parallelism, global descent, and path-connection compatibility remain separate. Matter-filled
+bootstrap can in principle change the source-free curvature, but the current density principle is
+after-solution admissibility and supplies no native off-shell mass/source response. Zero of 28
+equation families and zero of 12 completions supplies a complete simultaneous bootstrap witness.
+The intrinsic irreducible solder remains open and the reducible same-path direct sum remains the
+strongest current assembly.
 
 Supporting historical guard: the
 [phi-equation salvage audit](../udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md)
@@ -87,6 +88,9 @@ The complete frozen root universe has 1,114 paths. Each has exactly one fixed-ba
   `FALSE_TYPE` as clock/Jacobi solder; parallel tidal-line and pointwise generator-match
   conditions: `DERIVED_IFF` / `UNIQUE_CONDITION_CHARACTERIZED`; intrinsic irreducible solder:
   `OPEN_NO_REGISTERED_WITNESS`.
+- Bootstrap-aware screen selection: simple tidal spectrum plus `det(T+a^2 I)=0`
+  `DERIVES_CONDITIONAL_INTRINSIC_P_CLOCK`; present bootstrap response:
+  `OPEN_ABSENT`; B19/WR-L negatives: `EXACT_SCOPED_NOT_UNIVERSAL_MATTER_FILLED_NO_GO`.
 - Observer-frame dilation: `RELATIONAL_ONLY_LOCAL_NEUTRAL`; universal absolute-scalar-difference
   encoding: `REFUTED_AS_ABSOLUTE_REPRESENTATION_IN_COMPLETE_ROUND_CONTROL`; observer-indexed
   bilocal depth family: `SMALLEST_SURVIVING_TYPE_GIVEN_F`.

@@ -4,21 +4,23 @@
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
 **➤ CURRENT SCIENTIFIC FRONTIER:**
-`udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md`, then its
-`STATUS_LEDGER.tsv`, `SOLDER_TYPE_LEDGER.tsv`, `GENERATOR_MATCH_ATLAS.tsv`,
-`BRANCH_SOLDER_ATLAS.tsv`, `CAUSAL_SOLDER_ATLAS.tsv`, `COMPLETION_SOLDER_ATLAS.tsv`,
+`udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `BOOTSTRAP_ROUTE_LEDGER.tsv`, `EQUATION_FAMILY_GATE_MATRIX.tsv`,
+`COMPLETION_BOOTSTRAP_ATLAS.tsv`,
 `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
 
-Hodge exactly relates oriented longitudinal and screen areas but is not a clock/Jacobi solder: it
-loses reciprocal depth and maps the wrong bundle. Endpoint screen gauge blocks every nonzero
-linear clock-to-phase map until a screen reduction is supplied. A preserved scalar phase mode
-requires a parallel tidal-invariant screen line; its pointwise natural-frame generator matches
-the reciprocal clock only when `K_screen=-(d delta/d lambda)^2`. Neither B19 nor WR-L passes;
-WR-L does retain `R=X(1-Q^-2)` as a local scalar profile identity. No complete branch supplies the
-intrinsic irreducible solder, so the reducible same-path direct sum remains the strongest current
-assembly. Next: audit whether existing native equations can enforce the exact four solder gates.
-No new postulate, profile, screen direction, action, density, matter/time-live/GPU work,
-canonization, or reorganization is authorized.
+The source-free B19 and local WR-L failures remain exact in scope but are not universal
+matter-filled no-go results. A complete native matter variation could change the screen tidal
+operator. If its discriminant is positive and `det(T+a^2 I)=0`, the metric itself selects the
+unique clock-matched line
+`P_clock=I-(T+a^2 I)/(tr T+2a^2)`; tidal invariance then follows automatically. Parallelism remains
+`[T,D_lambda T]=0`, global descent remains branch-dependent, and varying clock rate prevents
+pointwise similarity from automatically becoming a path cocycle. The current narrow-density
+bootstrap is after-solution admissibility, while the required anisotropic native mass variation
+and boundary/global response are absent. Zero of 28 equation families and zero of 12 completions
+provides a complete simultaneous bootstrap. After the hiatus: audit post-July candidates for that
+off-shell response interface before any density sweep. No action, carrier, source, boundary,
+density value, matter/time-live/GPU work, canonization, or reorganization is authorized.
 
 **➤ SUPPORTING HISTORICAL `PHI`-EQUATION SALVAGE:**
 `udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md`, then its

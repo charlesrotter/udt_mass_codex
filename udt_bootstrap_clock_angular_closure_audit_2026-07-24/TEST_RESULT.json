@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "-m",
+    "pytest",
+    "tests"
+  ],
+  "exit_code": 0,
+  "passed": 70,
+  "schema": "udt-bootstrap-clock-angular-tests-1.0",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "18d8eb0daa417a43a7aac289c4b2451201134c2e5dfc13b7993ef52893a10ae9",
+  "xfailed": 1
+}

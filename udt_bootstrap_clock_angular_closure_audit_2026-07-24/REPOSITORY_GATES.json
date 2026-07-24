@@ -1,0 +1,168 @@
+{
+  "authority_boundary": {
+    "action_source_carrier_boundary_selected": false,
+    "canon_changed": false,
+    "complete_bootstrap_claimed": false,
+    "density_value_or_response_invented": false,
+    "gpu_or_time_live_work": false,
+    "intrinsic_solder_promoted": false,
+    "pointwise_match_promoted_to_path_cocycle": false,
+    "repository_reorganization": false,
+    "startup_navigation_changed": true
+  },
+  "base": "4a6f72fc6d15ca19d3b97936b7332604655f4513",
+  "catch_proofs": {
+    "current_paths": "PASS",
+    "dirty": "PASS_REJECTED",
+    "frontier": "PASS",
+    "frozen": "PASS",
+    "package": "PASS_REJECTED",
+    "science_catches": "PASS_REJECTED",
+    "science_checks": "PASS_REJECTED",
+    "science_completions": "PASS_REJECTED",
+    "science_connection": "PASS_REJECTED",
+    "science_equations": "PASS_REJECTED",
+    "science_negative": "PASS_REJECTED",
+    "science_path": "PASS_REJECTED",
+    "science_projectors": "PASS_REJECTED",
+    "science_routes": "PASS_REJECTED",
+    "science_solder": "PASS_REJECTED",
+    "science_sources": "PASS_REJECTED",
+    "science_witnesses": "PASS_REJECTED",
+    "scope": "PASS_REJECTED"
+  },
+  "dirty_checkout": {
+    "branch": "grok",
+    "contents_read": false,
+    "head": "adf8f92d95c387cc647f04b16f1f3b17e1e670d2",
+    "metadata_sha256": "345d297e0ad849cd38f1d817c915922de653ca2d2befcf923af6f9d097b483e4",
+    "note": "Only separately authorized phiequations.md content was read before this audit.",
+    "paths": 55,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 35,
+    "manifest_sha256": "d47f7c21182324b2edf649db54b4f64bfda6950ece353f6b797dcf3780d36d2c",
+    "result": "PASS"
+  },
+  "result": "PASS",
+  "schema": "udt-bootstrap-clock-angular-repository-gates-1.0",
+  "science": {
+    "catches": 23,
+    "checks": 33,
+    "completions": 12,
+    "connection": 3,
+    "deterministic_replay": "BYTE_IDENTICAL",
+    "equations": 28,
+    "independent_sha256": "c1789bcdf8a3cfa27f78f0fe84de9429a3181aa576d580039fa5c1e0433a413d",
+    "negative": "FAILURES_REMAIN_EXACT_IN_THEIR_SCOPES_NOT_UNIVERSAL_MATTER_FILLED_NO_GOS",
+    "path": "POINTWISE_MATCH_IS_NOT_FULL_COCYCLE_EQUIVALENCE;VARYING_CLOCK_RATE_REQUIRES_A_DERIVED_CONNECTION_TERM_OR_CONSTANT_RATE",
+    "production_sha256": "e5029087b0e5ca1ba595c629080db922a54dd1b76f1f6d8bc84a16db4b8dc314",
+    "projectors": 9,
+    "result": "PASS",
+    "routes": 8,
+    "solder": "OPEN_BOOTSTRAP_COULD_ADDRESS_BUT_DOES_NOT_CURRENTLY_DERIVE",
+    "sources": 35,
+    "witnesses": 0
+  },
+  "scope_paths": [
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "README.md",
+    "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
+    "research/README.md",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/ADVERSARIAL_REVIEW.md",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/BOOTSTRAP_ROUTE_LEDGER.tsv",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/COMMANDS.txt",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/COMPLETENESS_SCOPE.tsv",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/COMPLETION_BOOTSTRAP_ATLAS.tsv",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/DERIVATION_RESULT.json",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/EQUATION_FAMILY_GATE_MATRIX.tsv",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/EXACT_DERIVATION.md",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/FALSIFICATION_CONTRACT.tsv",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/FOUR_GATES.md",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/INDEPENDENT_STDERR.txt",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/INDEPENDENT_STDOUT.txt",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/INDEPENDENT_VERIFICATION.json",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/LAY_REPORT.md",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/NEXT_STEP.md",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/POST_PREREG_CONNECTION_SCOPE_CLARIFICATION.md",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/PREMISE_LEDGER.tsv",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/PREREGISTRATION.md",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/PRODUCTION_STDERR.txt",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/PRODUCTION_STDOUT.txt",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/REPOSITORY_GATES.json",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/RUN_ENVIRONMENT.json",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/SHA256SUMS.txt",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/SOURCE_LINEAGE.tsv",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/SOURCE_SCOPE.tsv",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/STATUS_LEDGER.tsv",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/TEST_RESULT.json",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/TEST_STDERR.txt",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/TEST_STDOUT.txt",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/build_manifest.py",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/capture_tests.py",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/derive_bootstrap_closure.py",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/replay_and_capture.py",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/requirements.txt",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/verify_bootstrap_closure_independent.py",
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/verify_repository_gates.py"
+  ],
+  "tests": {
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "xfailed": 1
+  }
+}

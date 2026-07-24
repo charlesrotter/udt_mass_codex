@@ -1,0 +1,29 @@
+{
+  "commands": [
+    {
+      "command": [
+        "/usr/bin/python3",
+        "derive_bootstrap_closure.py"
+      ],
+      "exit_code": 0,
+      "label": "production",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "e5029087b0e5ca1ba595c629080db922a54dd1b76f1f6d8bc84a16db4b8dc314"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "verify_bootstrap_closure_independent.py"
+      ],
+      "exit_code": 0,
+      "label": "independent",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "c1789bcdf8a3cfa27f78f0fe84de9429a3181aa576d580039fa5c1e0433a413d"
+    }
+  ],
+  "isolated_target": "/tmp/udt_bootstrap_closure_sympy_114",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "schema": "udt-bootstrap-clock-angular-replay-environment-1.0",
+  "sympy": "1.14.0"
+}

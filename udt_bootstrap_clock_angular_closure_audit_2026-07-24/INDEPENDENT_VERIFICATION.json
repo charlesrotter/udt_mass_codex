@@ -1,0 +1,53 @@
+{
+  "catch_proofs": {
+    "B19_match_promoted": "PASS_REJECTED",
+    "WRL_failure_erased": "PASS_REJECTED",
+    "after_solution_promoted_to_local_response": "PASS_REJECTED",
+    "after_solution_promoted_to_variation": "PASS_REJECTED",
+    "bootstrap_operator_invented": "PASS_REJECTED",
+    "carrier_promoted_native": "PASS_REJECTED",
+    "complete_bootstrap_marked_registered": "PASS_REJECTED",
+    "completion_density_invented": "PASS_REJECTED",
+    "completion_missing": "PASS_REJECTED",
+    "completion_witness_invented": "PASS_REJECTED",
+    "duplicate_equation_family": "PASS_REJECTED",
+    "family_promoted_complete": "PASS_REJECTED",
+    "firewall_breached": "PASS_REJECTED",
+    "intrinsic_projector_gate_erased": "PASS_REJECTED",
+    "missing_equation_family": "PASS_REJECTED",
+    "native_mass_marked_present": "PASS_REJECTED",
+    "negative_scope_promoted": "PASS_REJECTED",
+    "pointwise_promoted_to_path_cocycle": "PASS_REJECTED",
+    "registered_witness_invented": "PASS_REJECTED",
+    "solder_promoted": "PASS_REJECTED",
+    "source_hash_corrupted": "PASS_REJECTED",
+    "source_removed": "PASS_REJECTED",
+    "volume_only_selects_screen": "PASS_REJECTED"
+  },
+  "checks": {
+    "fraction_connection_samples": 3,
+    "fraction_density_samples": 27,
+    "fraction_matched_projector_samples": 9,
+    "fraction_parallel_samples": 9,
+    "fraction_screen_samples": 27,
+    "source_hash_replay": "PASS",
+    "table_semantics": "PASS",
+    "tracefree_volume_response": "PASS"
+  },
+  "counts": {
+    "catch_proofs": 23,
+    "completions": 12,
+    "equation_families": 28,
+    "fraction_connection_samples": 3,
+    "fraction_density_samples": 27,
+    "fraction_matched_projector_samples": 9,
+    "fraction_parallel_samples": 9,
+    "fraction_screen_samples": 27,
+    "routes": 8,
+    "sources": 35
+  },
+  "method": "stdlib_Fraction_reconstruction_without_importing_production_module",
+  "production_schema": "udt-bootstrap-clock-angular-closure-1.0",
+  "result": "PASS",
+  "schema": "udt-bootstrap-clock-angular-closure-independent-1.0"
+}

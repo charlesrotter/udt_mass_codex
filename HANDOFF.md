@@ -7,48 +7,54 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-24).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-24 — intrinsic clock/transverse solder)
+## CURRENT (2026-07-24 — bootstrap-aware clock/angular closure)
 
 Read `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` top/current overlay, then
-`udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md` and its
-`STATUS_LEDGER.tsv`, `SOLDER_TYPE_LEDGER.tsv`, `GENERATOR_MATCH_ATLAS.tsv`,
-`BRANCH_SOLDER_ATLAS.tsv`, `CAUSAL_SOLDER_ATLAS.tsv`, `COMPLETION_SOLDER_ATLAS.tsv`,
-`EXACT_DERIVATION.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`. Use the prior relational-depth and
-observer-cocycle packages only for their exact premise stamps.
+`udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md` and its
+`STATUS_LEDGER.tsv`, `BOOTSTRAP_ROUTE_LEDGER.tsv`, `EQUATION_FAMILY_GATE_MATRIX.tsv`,
+`COMPLETION_BOOTSTRAP_ATLAS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+Use the parent intrinsic-solder and observer-cocycle packages only for their exact pointwise/path
+premise stamps.
 
 Current ruling:
 
-- Hodge duality exactly relates oriented longitudinal and screen areas but loses reciprocal depth
-  and is type-distinct from Jacobi phase transport;
-- without a selected screen reduction, endpoint `SO(2)` gauge forces every linear
-  clock-to-phase map to zero;
-- a screen phase mode is invariant iff its line is parallel and tidal-invariant;
-- a nontrivial pointwise natural-frame match to the reciprocal generator exists iff
-  `K_screen=-(d delta/d lambda)^2`;
-- B19 has positive curvature and a trivial clock; WR-L has the exact scalar identity
-  `R=X(1-Q^-2)` but positive radial curvature and therefore no pointwise generator similarity;
-- arbitrary path-dependent basis changes are not excluded, but are not intrinsic selections;
-- the prior `dphi` `3+3` and matched-angular intertwiner remain conditional reductions, not the
-  missing rank-two clock/Jacobi solder;
-- the intrinsic irreducible solder remains `OPEN_NO_REGISTERED_WITNESS`; the reducible same-path
-  direct sum remains the strongest current assembly;
+- B19 and WR-L remain exact failures only in their tested source-free/conditional scopes;
+- a complete matter response could change the screen tidal operator, so those failures are not
+  universal matter-filled no-go theorems;
+- if `Delta=(tr T)^2-4det T>0` and `det(T+a^2 I)=0`, the metric itself selects the unique
+  clock-matched screen line:
+  `P_clock=I-(T+a^2 I)/(tr T+2a^2)`;
+- that line is automatically tidal-invariant; parallelism remains the independent invariant
+  condition `[T,D_lambda T]=0`;
+- local pointwise similarity is not a full path cocycle. A varying clock rate requires a derived
+  connection/normalization term or a constant-rate branch;
+- the owner-stated density window is currently after-solution admissibility and supplies no local
+  Euler equation;
+- `delta rho_tot=(delta M_native-rho_tot delta V_proper)/V_proper`; the volume term is trace-only,
+  while the native anisotropic mass/matter variation is absent;
+- zero of 28 equation families and zero of 12 completions supplies a complete simultaneous
+  metric-matter-boundary bootstrap;
+- the intrinsic irreducible solder remains
+  `OPEN_BOOTSTRAP_COULD_ADDRESS_BUT_DOES_NOT_CURRENTLY_DERIVE`; the reducible same-path direct sum
+  remains the strongest current assembly;
 - null versus co-present/rest path selection, physical `X_max`, mass, density, CMB interpretation,
   action, source, carrier, boundary, scale, and time-live persistence remain open.
 
-Evidence: 80 exact production checks, 60 independent exact checks, 15 exercised catches; 12
-candidate types, five generator controls, six branches, five causal classes, twelve completions,
-twenty-eight equation families, and twenty-one frozen source identities; CPU only; hash-manifested;
-tests 70 passed/1 xfailed; all six frozen packages, current navigation, frontier targets, and the
-original dirty checkout's 55 metadata-only paths unchanged. Grade `VERIFIED-WITH-CAVEATS`.
+Evidence: 33 pinned-SymPy exact checks; independent Fraction reconstruction of 27 screen cases,
+nine matched projectors, nine parallel cases, three connection cases, and 27 density variations;
+23 exercised catches; 35 frozen source identities; eight bootstrap routes; 28 equation families;
+12 completion families; CPU only; hash-manifested; tests 70 passed/1 xfailed; all six frozen
+packages, current navigation, frontier targets, and the original dirty checkout's 55 metadata-only
+paths unchanged. Grade `VERIFIED-WITH-CAVEATS`.
 
-Next bounded seam:
+Next bounded seam after the hiatus:
 
-> Determine whether any already registered native equation or admissibility condition can enforce
-> the parallel-line, tidal-invariance, negative-curvature clock-match, and global-descent gates.
+> Audit post-July candidates for the missing native off-shell mass/matter response functional,
+> complete metric variation, and differentiable finite-cell boundary/global variation.
 
-Do not turn the condition into a new postulate, solve backward for a desired profile, select a
-screen line by hand, splice branches, insert density, launch matter/time-live/GPU work, select an
-action or carrier, canonize, or reorganize.
+Do not run a density sweep until a same-solution response equation exists. Do not promote a
+conditional carrier energy, GR charge, observed density, or supplied boundary normalization. Do
+not launch matter/time-live/GPU work, select an action or carrier, canonize, or reorganize.
 
 Historical `phi`-equation guard: read
 `udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md` when a scalar equation,

@@ -1,0 +1,7 @@
+UDT_SYMPY_TARGET=/tmp/udt_bootstrap_closure_sympy_114 python3 replay_and_capture.py
+python3 derive_bootstrap_closure.py
+python3 verify_bootstrap_closure_independent.py
+python3 capture_tests.py
+python3 build_manifest.py
+python3 verify_repository_gates.py
+sha256sum --check SHA256SUMS.txt
