@@ -7,11 +7,13 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-23).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-23 — Hopf–transport–bootstrap dependency audit)
+## CURRENT (2026-07-23 — Hopf-realization deformation audit)
 
-Read `udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/AUDIT_REPORT.md`, then its
-`STATUS_LEDGER.tsv`, `DEPENDENCY_MATRIX.tsv`, `BOOTSTRAP_ADJUDICATION.tsv`, `LAY_READOUT.md`, and
-`NEXT_STEP.md`. Next read
+Read `udt_hopf_realization_deformation_audit_2026-07-23/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `DEFORMATION_OUTCOMES.tsv`, `GLOBAL_COMPLETION_OUTCOMES.tsv`, `LAY_REPORT.md`,
+and `NEXT_STEP.md`. Next read
+`udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/AUDIT_REPORT.md` and its
+`STATUS_LEDGER.tsv` and `DEPENDENCY_MATRIX.tsv`, then
 `udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md` and its
 `STATUS_LEDGER.tsv`, then the parent
 `udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md` and `STATUS_LEDGER.tsv`.
@@ -36,6 +38,19 @@ Current honest structure:
   on-shell `(g,phi)` finite-cell branch is supplied or selected;
 - physical affine transport remains `OPEN_SELECTOR`; the `Gamma_f`, derivative-only, projected,
   and stabilizer families retain their exact prior statuses;
+- the supplied round-`S2` map has a rank-two tangent plane if reciprocal depth `phi` and an
+  independent phase `delta` are both supplied;
+- the actually established aligned complete-coframe bridge has rank one: it supplies latitude,
+  not a full carrier deformation space;
+- angular shear supplies a local spin-two eigenaxis angle away from isotropy, but it is chart
+  dependent, undefined at the isotropic zero, and not descended to a physical phase section;
+- the four shifts supply a phase connection: its curvature and global holonomy are invariant data,
+  but the connection does not choose a scalar phase;
+- the intrinsic sphere has rank-two vertical tangent spaces but remains a fiber, not a selected
+  carrier section;
+- none of the twelve registered finite-cell completion classes supplies a native full carrier
+  deformation space. `FC04_TWO_CAP_P1` supplies the exact conditional seed only after its caps,
+  quotient, orientation, full range, and phase are provided;
 - for a supplied `n:M3->S2` and declared global data, pullback `F`, true exterior closure, primitive
   gauge class, and the Hopf integral require no affine tangent connection;
 - torsion-free transport gives the familiar covariant closure rewrite; projected/Kato torsionful
@@ -61,17 +76,19 @@ Current honest structure:
 
 Current bounded seam:
 
-> Determine whether variations of the complete UDT coframe and conditional reciprocal-toric
-> quotient induce a genuine globally compatible Hopf-carrier deformation space, only the known
-> conditional latitude/phase seed, or no carrier deformation space.
+> Determine whether the angular spin-two eigenaxis and shift-sector phase connection have
+> compatible transition laws that define a global associated-bundle section without choosing an
+> angular chart, torus gauge, carrier, action, or boundary framing.
 
-The dependency audit closes with
-`TOPOLOGICAL_CORE_TRANSPORT_INDEPENDENT_IN_DECLARED_CARRIER_DOMAIN`,
-`EMERGENT_HOPF_REALIZATION_DEPENDS_ON_OPEN_SECTION_TRANSPORT_BOUNDARY_OR_DYNAMICS`, and
-`CURRENT_BOOTSTRAP_IS_OUTER_ADMISSIBILITY_ONLY`. The proposed deformation audit is not authority to
-adopt the round `S2`, identify a fiber with a section, choose an action, launch dynamics, or scan
-density. No solve, GPU work, carrier/action adoption, canonization, repository reorganization, or
-artifact relocation follows automatically. R0--R1H remains paused.
+The deformation audit closes with
+`RESTRICTED_CONDITIONAL_SEED_DEFORMATION_ONLY` and
+`GLOBAL_REALIZATION_REMAINS_COMPLETION_AND_SECTION_DEPENDENT`. Production 15/15, independent exact
+11/11, adversarial catch 15/15, and cross-implementation agreement 6/6 checks pass. No fresh
+zero-context model review was authorized, so the grade remains `VERIFIED-WITH-CAVEATS`.
+Bootstrap was retained only as future global admissibility; no density scan was run. This is not
+authority to adopt the round `S2`, identify a fiber with a section, choose an action, launch
+dynamics, or scan density. No solve, GPU work, carrier/action adoption, canonization, repository
+reorganization, or artifact relocation follows automatically. R0--R1H remains paused.
 
 <!-- STARTUP_CURRENT_END -->
 

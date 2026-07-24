@@ -3,28 +3,28 @@
 **⚠ BRANCH: `grok` (2026-07-23)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
 **➤ CURRENT SCIENTIFIC FRONTIER:**
+`udt_hopf_realization_deformation_audit_2026-07-23/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `DEFORMATION_OUTCOMES.tsv`, `GLOBAL_COMPLETION_OUTCOMES.tsv`, `LAY_REPORT.md`,
+and `NEXT_STEP.md`; next read
 `udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/AUDIT_REPORT.md`, then its
-`STATUS_LEDGER.tsv`, `DEPENDENCY_MATRIX.tsv`, `BOOTSTRAP_ADJUDICATION.tsv`, `LAY_READOUT.md`, and
-`NEXT_STEP.md`; next read
+`STATUS_LEDGER.tsv` and `DEPENDENCY_MATRIX.tsv`; next read
 `udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md` and its
 `STATUS_LEDGER.tsv`; next read
 `udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md` and `STATUS_LEDGER.tsv`; retain
 `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
 `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and `REGRESSION_GUARD_LEDGER.tsv`.
 The consolidation checkpoint is navigation, not new physics authority. Current exact structure:
-for a supplied smooth `n:M3->S2` and declared map/domain/orientation/normalization/boundary data, the
-pullback form, true exterior closure, primitive gauge class, and Hopf integral are independent of
-the unresolved affine-transport selector. Torsionful covariant rewrites require the exact torsion
-correction. A Hodge-selected primitive remains metric/boundary/gauge dependent, and the Hopf
-principal connection is not an affine tangent connection. The supplied internal-target `L2+L4`
-energy has no direct affine input but is metric dependent: in three dimensions its exact conformal
-weights are `q` and `q^-1`. Static finite-box stability does not export to another metric or
-physical time. The round carrier remains `POSIT`; the intrinsic `S2` remains a fiber, not a selected
-section. Current bootstrap is outer after-solution admissibility and may later bracket complete
-topological branches by total proper density only after action, source, mass, volume, boundary, and
-global solutions exist. Physical transport remains `OPEN_SELECTOR`; native Hopf realization
-remains an open join. The next bounded seam is whether complete-metric/coframe variations induce a
-global carrier deformation space or only the known conditional latitude/phase seed.
+the supplied `(phi,delta)` round-`S2` seed has local rank two, but the established aligned
+complete-coframe bridge has only a rank-one latitude image. Angular shear supplies a local
+spin-two eigenaxis angle, while the four shifts supply a phase connection with invariant curvature
+and holonomy. Neither currently selects a globally descended phase section. The intrinsic `S2`
+remains a fiber rather than the round carrier. None of the twelve registered completion classes
+supplies a native full carrier deformation space; FC04 supplies only the exact conditional seed
+after its global premises and phase are supplied. The supplied Hopf topological core remains
+affine-transport independent in its declared carrier/domain, while energy and stability remain
+metric and premise dependent. Current bootstrap is outer after-solution admissibility, not a local
+assembly rule, and no density scan was run. The next bounded seam is whether the shear eigenaxis
+and shift connection have compatible transition laws defining a global associated-bundle section.
 Complete action, source, boundary charge, scale, bridge, carrier emergence, time-live matter, and
 unconditional mass remain open. Repository reorganization remains paused.
 

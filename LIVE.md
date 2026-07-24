@@ -8,42 +8,49 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
 
-## ============ CURRENT STATE (2026-07-23 — HOPF–TRANSPORT–BOOTSTRAP DEPENDENCY AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. FOR A SUPPLIED SMOOTH MAP n:M3->S2, TARGET AREA-FORM NORMALIZATION, ORIENTED DOMAIN, AND CLOSED OR FIXED BOUNDARY CLASS, THE PULLBACK F, TRUE EXTERIOR CLOSURE dF=0, PRIMITIVE GAUGE CLASS, AND HOPF INTEGRAL ARE AFFINE-TRANSPORT INDEPENDENT. TORSION-FREE CONNECTIONS GIVE THE FAMILIAR COVARIANT REWRITE; PROJECTED/KATO TORSIONFUL TRANSPORT REQUIRES THE EXACT TORSION CORRECTION. A HODGE/COULOMB PRIMITIVE REMAINS METRIC/BOUNDARY/GAUGE DEPENDENT, AND THE CONDITIONAL HOPF PRINCIPAL U(1) CONNECTION IS NOT THE SAME TYPED OBJECT AS AN AFFINE TANGENT CONNECTION. THE EXISTING INTERNAL-TARGET L2+L4 ACTION HAS NO DIRECT AFFINE-CONNECTION INPUT BUT IS NOT METRIC INDEPENDENT: UNDER h->q^2 h IN THREE SPATIAL DIMENSIONS, E2->q E2 AND E4->q^-1 E4. STATIC FINITE-BOX STABILITY RETAINS ITS EXACT CARRIER/ACTION/METRIC/BOX/OPERATOR PREMISES; TIME-LIVE PERSISTENCE REMAINS OPEN. THE ROUND S2 CARRIER REMAINS POSIT, THE INTRINSIC S2 REMAINS A FIBER RATHER THAN A SELECTED SECTION, AND EMERGENT NATIVE HOPF REALIZATION REMAINS AN OPEN JOIN. CURRENT BOOTSTRAP IS OUTER AFTER-SOLUTION ADMISSIBILITY ONLY: IT MAY LATER BRACKET COMPLETE MATTER-BEARING TOPOLOGICAL BRANCHES BY TOTAL PROPER DENSITY, BUT IT DOES NOT DEFINE Q OR SUPPLY A LOCAL SECTION, CONNECTION, ACTION, OR BOUNDARY. THE NEXT BOUNDED QUESTION IS WHETHER COMPLETE-METRIC/COFRAME VARIATIONS INDUCE A GENUINE GLOBAL HOPF-CARRIER DEFORMATION SPACE OR ONLY THE KNOWN CONDITIONAL LATITUDE/PHASE SEED. NO ACTION, CARRIER, SOURCE, BOUNDARY, DENSITY SCAN, TIME-LIVE SOLVE, GPU WORK, CANONIZATION, ARTIFACT MOVE, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-23 — HOPF-REALIZATION DEFORMATION AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. THE SUPPLIED ROUND-S2 MAP HAS A RANK-TWO TANGENT PLANE WHEN BOTH RECIPROCAL DEPTH AND AN INDEPENDENT PHASE ARE SUPPLIED. THE ACTUALLY ESTABLISHED ALIGNED COFRAME BRIDGE HAS ONLY A RANK-ONE LATITUDE IMAGE. ANGULAR SHEAR SUPPLIES A LOCAL SPIN-TWO EIGENAXIS ANGLE AWAY FROM ISOTROPY, BUT IT IS CHART DEPENDENT, UNDEFINED AT THE ISOTROPIC ZERO, AND NOT A DESCENDED PHYSICAL PHASE. THE FOUR BASE-ANGULAR SHIFTS SUPPLY A PHASE CONNECTION WITH GAUGE-INVARIANT CURVATURE AND GLOBAL HOLONOMY, BUT A CONNECTION DOES NOT SELECT A PHASE SECTION. THE INTRINSIC S2 HAS A TWO-DIMENSIONAL VERTICAL TANGENT SPACE BUT REMAINS A FIBER, NOT A METRIC-SELECTED CARRIER. NONE OF THE TWELVE REGISTERED FINITE-CELL COMPLETION CLASSES SUPPLIES A NATIVE FULL CARRIER DEFORMATION SPACE; FC04 SUPPLIES ONLY THE EXACT CONDITIONAL SEED AFTER CAPS, QUOTIENT, ORIENTATION, FULL RANGE, AND PHASE ARE PROVIDED. CURRENT BOOTSTRAP REMAINS OUTER AFTER-SOLUTION ADMISSIBILITY; NO DENSITY SCAN WAS RUN. THE NARROW NEXT QUESTION IS WHETHER THE SPIN-TWO ANGULAR EIGENAXIS AND SHIFT PHASE CONNECTION HAVE COMPATIBLE TRANSITION LAWS THAT DEFINE A GLOBAL ASSOCIATED-BUNDLE SECTION WITHOUT CHOOSING A CHART, GAUGE, CARRIER, ACTION, OR BOUNDARY FRAMING. NO ACTION, CARRIER, SECTION, SOURCE, BOUNDARY, DENSITY SCAN, TIME-LIVE SOLVE, GPU WORK, CANONIZATION, ARTIFACT MOVE, OR REORGANIZATION IS AUTHORIZED.) ============
 
 **READ NEXT, IN ORDER:**
 
 1. `HANDOFF.md` current marked block.
-2. `udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/AUDIT_REPORT.md`, then its
-   `STATUS_LEDGER.tsv`, `DEPENDENCY_MATRIX.tsv`, `LAY_READOUT.md`, and `NEXT_STEP.md`.
-3. `udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
+2. `udt_hopf_realization_deformation_audit_2026-07-23/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `DEFORMATION_OUTCOMES.tsv`, `GLOBAL_COMPLETION_OUTCOMES.tsv`,
+   `LAY_REPORT.md`, and `NEXT_STEP.md`.
+3. `udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `DEPENDENCY_MATRIX.tsv`, and `NEXT_STEP.md`.
+4. `udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv` and `NEXT_STEP.md`.
-4. `udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
+5. `udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv` and `NEXT_STEP.md`.
-5. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
+6. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
    `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and
    `REGRESSION_GUARD_LEDGER.tsv`.
-6. The exact immutable evidence cited by those packages only when the active task makes it
+7. The exact immutable evidence cited by those packages only when the active task makes it
    load-bearing.
 
 **CURRENT HONEST CLAIM:**
 
 - reciprocal kinematics and the complete-metric local `3+3`/causal-stratum results retain their
   exact premise stamps;
-- physical affine transport remains `OPEN_SELECTOR`; this does not obstruct the differential-form
-  definition of the Hopf class once a carrier map and its domain data are supplied;
-- true exterior closure is connection independent; a torsionful covariant component rewrite must
-  include the exact torsion terms;
-- the Hopf principal connection and affine tangent connection are typed differently and cannot be
-  merged by name;
-- a Hodge-selected primitive and the conditional `L2+L4` energy remain metric dependent; exact
-  spatial conformal weights are `q` and `q^-1`;
+- the supplied `(phi,delta)` round-`S2` seed has local rank two only when both fields are supplied;
+  the established aligned metric/coframe bridge has rank one;
+- angular shear supplies a local spin-two phase candidate, while the shifts supply a phase
+  connection with curvature and holonomy; neither currently selects a global physical phase;
+- the intrinsic `S2` fiber and its rank-two vertical tangent space do not derive a section or the
+  round internal carrier;
+- all twelve registered completion classes retain their boundary, quotient, monodromy,
+  orientation, regularity, or chart dependencies; FC04 is an exact conditional seed, not native
+  carrier emergence;
+- physical affine transport remains `OPEN_SELECTOR`; the supplied Hopf topological core remains
+  transport independent in its declared carrier and domain;
+- a Hodge-selected primitive and the conditional `L2+L4` energy remain metric dependent;
 - static stability remains settled only in its existing finite-box carrier/action/operator branch,
   while time-live persistence remains open;
 - the round internal `S2` is still `POSIT`; the metric-derived sphere fiber does not select a
   section or derive carrier emergence;
-- current bootstrap is after-solution global admissibility, not a local operator. A density bracket
-  becomes operational only after complete action, source, mass, volume, boundary, and global
-  solutions exist;
+- current bootstrap is after-solution global admissibility, not a local section or assembly rule.
+  A density bracket becomes operational only after complete action, source, mass, volume, boundary,
+  and global solutions exist;
 - no complete action, source, carrier, boundary, scale, matter law, or finite-cell solution is
   selected.
 
@@ -56,7 +63,9 @@ turn comparison-group composition into a local additive `phi` gauge, and do not 
 the connection family strict physical invariance. Do not make a torsionful covariant
 antisymmetrization equal to `d` without its torsion correction, identify a principal Hopf
 connection with affine transport, export the static Hessian to another metric or to physical time,
-or turn bootstrap's future density bracket into a present local mechanism.
+turn bootstrap's future density bracket into a present local mechanism, count fiber dimension as
+metric-induced image rank, call the shear eigenaxis a descended phase, or identify the shift
+connection with a selected scalar phase.
 
 **REORGANIZATION:** R0--R1H remains paused. This checkpoint changes navigation and synthesis only;
 all evidence packages and historical records remain immutable.

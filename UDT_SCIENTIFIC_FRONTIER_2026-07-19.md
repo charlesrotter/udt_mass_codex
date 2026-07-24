@@ -4,6 +4,51 @@ Date: 2026-07-20
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## July 23 Hopf-realization deformation overlay — current authority
+
+Read `udt_hopf_realization_deformation_audit_2026-07-23/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `DEFORMATION_OUTCOMES.tsv`, `GLOBAL_COMPLETION_OUTCOMES.tsv`, `LAY_REPORT.md`,
+and `NEXT_STEP.md` before the earlier July 23 layers below.
+
+For the supplied map
+
+```text
+n(phi,delta)=(sech(2phi)cos(delta),sech(2phi)sin(delta),-tanh(2phi)),
+```
+
+the target tangent Gram matrix is
+`diag(4 sech(2phi)^2,sech(2phi)^2)`. It is locally rank two for finite `phi` only when both
+`phi` and an independent phase `delta` are supplied. The actually established aligned
+complete-coframe bridge has a rank-one latitude image: one nonzero direction from angular
+reciprocal depth, or one from the separate scalar if that conditional identification is chosen.
+
+The complete angular block contains additional phase-related structure. Its normalized traceless
+pair transforms as spin two and gives a local eigenaxis angle away from isotropy. That angle is
+chart dependent, is undefined at the isotropic zero, and has no current soldering law to the target
+phase. The four base-angular shifts form a phase connection: its curvature and global holonomy are
+invariant, but a connection does not select a scalar phase or global section.
+
+The intrinsic `S2` has rank-two vertical tangent spaces, but fiber dimension is not the rank of a
+metric-induced map. Across all twelve registered completion classes, no class supplies a native
+full carrier deformation space. `FC04_TWO_CAP_P1` supplies the exact conditional `S3` seed only
+after caps, integral quotient, orientation, full range, and phase are provided; the overlapping
+FC12 class inherits that result only in its FC04-like subcase.
+
+Current bootstrap remains outer after-solution admissibility. No density scan was run, because
+total proper density is not operational before a complete action, source, mass, proper volume,
+boundary, and global solutions exist.
+
+Status: `RESTRICTED_CONDITIONAL_SEED_DEFORMATION_ONLY`;
+`GLOBAL_REALIZATION_REMAINS_COMPLETION_AND_SECTION_DEPENDENT`; `VERIFIED-WITH-CAVEATS`.
+Production 15/15, independent exact 11/11, adversarial catch 15/15, and cross-implementation 6/6
+checks pass. No fresh zero-context model review was authorized, and that caveat is retained.
+
+The next bounded question is whether the angular spin-two eigenaxis and shift-sector phase
+connection have compatible transition laws defining a global associated-bundle section without
+choosing a chart, torus gauge, carrier, action, or boundary framing. This is not authority to adopt
+a carrier or phase, launch dynamics or a density scan, use the GPU, canonize, move artifacts, or
+resume repository reorganization.
+
 ## July 23 Hopf–transport–bootstrap dependency overlay — current authority
 
 Read `udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/AUDIT_REPORT.md`, then its
