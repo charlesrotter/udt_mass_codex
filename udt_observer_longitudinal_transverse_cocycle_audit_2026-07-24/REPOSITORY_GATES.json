@@ -1,0 +1,171 @@
+{
+  "authority_boundary": {
+    "action_source_carrier_density_selected": false,
+    "canon_changed": false,
+    "cross_branch_splice": false,
+    "founding_reciprocal_solder_promoted": false,
+    "gpu_or_time_live_work": false,
+    "irreducible_native_operator_claimed": false,
+    "path_type_selected": false,
+    "physical_Xmax_promoted": false,
+    "repository_reorganization": false,
+    "startup_navigation_changed": true
+  },
+  "base": "dc81c489b9e27bd86b2d58d93fbacf4a4fd01496",
+  "catch_proofs": {
+    "current_paths": "PASS",
+    "dirty": "PASS_REJECTED",
+    "frontier": "PASS",
+    "frozen": "PASS",
+    "package": "PASS_REJECTED",
+    "science_b19": "PASS_REJECTED",
+    "science_branches": "PASS_REJECTED",
+    "science_combined": "PASS_REJECTED",
+    "science_completions": "PASS_REJECTED",
+    "science_derived": "PASS_REJECTED",
+    "science_equations": "PASS_REJECTED",
+    "science_irreducible": "PASS_REJECTED",
+    "science_path": "PASS_REJECTED",
+    "science_solder": "PASS_REJECTED",
+    "science_sources": "PASS_REJECTED",
+    "science_splice": "PASS_REJECTED",
+    "science_types": "PASS_REJECTED",
+    "science_universal": "PASS_REJECTED",
+    "science_vertex": "PASS_REJECTED",
+    "science_wrl": "PASS_REJECTED",
+    "science_xmax": "PASS_REJECTED",
+    "scope": "PASS_REJECTED"
+  },
+  "dirty_checkout": {
+    "branch": "grok",
+    "contents_read": false,
+    "head": "adf8f92d95c387cc647f04b16f1f3b17e1e670d2",
+    "metadata_sha256": "345d297e0ad849cd38f1d817c915922de653ca2d2befcf923af6f9d097b483e4",
+    "note": "Only separately authorized phiequations.md content was read before this audit.",
+    "paths": 55,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 32,
+    "manifest_sha256": "fb1f805b96e4bd8c8a0ce51ade80f553b56c0d765fa24f3ec18862d91ff573ab",
+    "result": "PASS"
+  },
+  "result": "PASS",
+  "schema": "udt-observer-longitudinal-transverse-cocycle-gates-1.0",
+  "science": {
+    "branches": 6,
+    "combined_object": "REDUCIBLE_DIRECT_SUM_S_LOG_Q_PLUS_M",
+    "derived_object": "METRIC_GEODESIC_DEVIATION_PATH_COCYCLE",
+    "deterministic_replay": "BYTE_IDENTICAL",
+    "equation_families": 28,
+    "finite_cell_completions": 12,
+    "founding_solder": "CONDITIONAL",
+    "independent_catches": 13,
+    "independent_checks": 52,
+    "independent_sha256": "c290726c81e9ca387c2c0ab6bdab613b577b869b35dc9a5a10f56d14c1480ad8",
+    "production_checks": 69,
+    "production_sha256": "b740d7af3175846f026c92eb4a2c480b3c08e4237ad690d2aec9a45e3abda9ce",
+    "result": "PASS",
+    "source_identities": 18,
+    "types": 6,
+    "universal_operator": "OPEN"
+  },
+  "scope_paths": [
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "README.md",
+    "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
+    "research/README.md",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/ADVERSARIAL_REVIEW.md",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/AUDIT_REPORT.md",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/BRANCH_COCYCLE_ATLAS.tsv",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/COCYCLE_TYPE_LEDGER.tsv",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/COMMANDS.txt",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/DERIVATION_RESULT.json",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/EXACT_DERIVATION.md",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/FALSIFICATION_CONTRACT.tsv",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/FOUR_GATES.md",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/INDEPENDENT_STDERR.txt",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/INDEPENDENT_STDOUT.txt",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/INDEPENDENT_VERIFICATION.json",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/LAY_REPORT.md",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/NEXT_STEP.md",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/POST_PREREG_RATIO_CONVENTION_CLARIFICATION.md",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/PREMISE_LEDGER.tsv",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/PREREGISTRATION.md",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/PRODUCTION_STDERR.txt",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/PRODUCTION_STDOUT.txt",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/RUN_ENVIRONMENT.json",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/SHA256SUMS.txt",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/SOURCE_LINEAGE.tsv",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/SOURCE_NAVIGATION_CLARIFICATION.md",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/STATUS_LEDGER.tsv",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/TEST_STDERR.txt",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/TEST_STDOUT.txt",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/build_manifest.py",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/capture_tests.py",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/derive_observer_cocycle.py",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/replay_and_capture.py",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/requirements.txt",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/verify_observer_cocycle_independent.py",
+    "udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/verify_repository_gates.py"
+  ],
+  "tests": {
+    "failed": 0,
+    "passed": 70,
+    "recorded_stdout_sha256": "43c95b72dc8925927f52b3083ce65ae8e7c053bcb51959a747cea986a00e4c68",
+    "result": "PASS",
+    "stdout_sha256": "f13460578141fdc251baa9dd023d9bb304aabdbeb7c0b1bd93c741b3a5e90249",
+    "xfailed": 1
+  }
+}

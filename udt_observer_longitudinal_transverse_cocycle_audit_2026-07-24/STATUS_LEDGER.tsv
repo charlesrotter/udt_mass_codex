@@ -1,0 +1,11 @@
+claim	status	scope
+metric Jacobi phase-space path cocycle	DERIVED_GIVEN_METRIC_PATH	complete first-order transverse deviation state
+vertex Jacobi matrix is a path cocycle	REJECTED_GENERICALLY	projected angular-area block alone
+endpoint clock ratio cocycle	DERIVED_GIVEN_OBSERVERS_PATH_AND_EVENTS	matched intermediate frequency or static lapse readout
+direct-sum longitudinal/transverse path cocycle	DERIVED_REDUCIBLE_GIVEN_COMMON_PATH_DATA	S(log Q) direct sum M
+founding reciprocal depth equals log endpoint clock ratio	CONDITIONAL	true in centered WRL control; no all-observer theorem
+one irreducible native UDT observer representation	OPEN	direct sum does not prove intrinsic solder or mixing law
+null versus co-present/rest path selection	OPEN	metric permits typed candidates but does not choose physical interpretation
+complete nontrivial universal observer cocycle	OPEN	no registered branch has completeness recentering and nontrivial clock together
+physical Xmax	OPEN	no local horizon caustic or diameter promoted
+action source carrier density bootstrap	OPEN_EXCLUDED	not used or derived

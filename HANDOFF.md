@@ -7,53 +7,45 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-24).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-24 — observer-pair operator and relational depth type)
+## CURRENT (2026-07-24 — observer longitudinal/transverse path cocycle)
 
-Read `udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md`, then its
-`STATUS_LEDGER.tsv`, `OWNER_FRAME_LEDGER.tsv`, `EXACT_DERIVATION.md`,
-`DEPTH_TYPE_RULING_LEDGER.tsv`, `COMPOSITION_DOMAIN_LEDGER.tsv`, `LAY_REPORT.md`, and
-`NEXT_STEP.md`. Then read the parent
-`udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md` and its
-`STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `TRANSPORT_TYPE_LEDGER.tsv`,
-`CLOCK_READOUT_LEDGER.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+Read `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` top/current overlay, then
+`udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/AUDIT_REPORT.md` and its
+`STATUS_LEDGER.tsv`, `BRANCH_COCYCLE_ATLAS.tsv`, `COCYCLE_TYPE_LEDGER.tsv`,
+`EXACT_DERIVATION.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`. Use the prior relational-depth and
+observer-clock packages only for their exact premise stamps.
 
 Current ruling:
 
-- the two founding postulates and registered composition derive the abstract ordered reciprocal
-  operator `S(delta)=diag(exp(-delta),exp(delta))`;
-- its balanced representation is an exact algebraic `O(1,1)` boost, not an imported SR/GR
-  mechanism;
-- the named temporal channel `exp(-rho)` remains the multiplicative clock channel;
-- observer-frame dilation is relational only: every observer has `rho_p(p)=0`, and local physics
-  in each observer's own frame is unchanged;
-- the three-observer round control does not invalidate pairwise dilation. It refutes only the use
-  of differences of one observer-independent global scalar as a universal strictly positive
-  isotropic pair-depth encoding;
-- the smallest surviving metric-native type is the observer-indexed bilocal family
-  `rho_p(q)=F(d_h(p,q))`, conditional on the still-open `F`, signed ordered lift, and chart
-  transitions;
-- angular data is required for non-collinear observer composition;
-- a universal continuous `F` preserving ordinary minimizing-geodesic subsegment addition must be
-  linear. Infinite depth at finite proper diameter therefore needs a different derived join rather
-  than silently identifying depth with ordinary proper length;
-- scalar antipodal distance can remain unique while complete frame transport is a path family;
-- endpoint observer/event pairing, physical mutual-clock readout, the full coframe transition law,
-  physical `X_max`, mass, density, CMB interpretation, action, source, carrier, boundary, scale,
-  and time-live persistence remain open.
+- the projected vertex Jacobi/angular-area matrix is not a composable observer transition;
+- the complete transverse separation-plus-direction state has a metric-derived symplectic
+  path-groupoid cocycle that composes and survives caustics;
+- the endpoint clock/frequency ratio also composes for supplied observers, events, and one matched
+  path;
+- their direct sum `S(log Q) direct sum M` is
+  `DERIVED_REDUCIBLE_GIVEN_COMMON_PATH_DATA`;
+- equating `log Q` with founding reciprocal depth remains `CONDITIONAL`; an intrinsic irreducible
+  solder remains `OPEN`;
+- B19 is complete and center-free with nontrivial transverse transport but a trivial clock block;
+  WR-L carries both blocks exactly only as a local centered residual;
+- no cross-branch assembly is admissible, and no registered branch yet gives a complete
+  nontrivial arbitrary-observer realization;
+- null versus co-present/rest path selection, physical `X_max`, mass, density, CMB interpretation,
+  action, source, carrier, boundary, scale, and time-live persistence remain open.
 
-Evidence: operator audit 62 exact/74 independent checks with 12 exercised catches; depth audit
-76 exact/68 independent checks with 14 exercised catches; CPU only; both hash-manifested; tests
-70 passed/1 xfailed; six frozen packages, current navigation, frontier targets, and the original
-54-path dirty checkout unchanged. Grade `VERIFIED-WITH-CAVEATS`.
+Evidence: 69 exact production checks, 52 independent checks, 13 exercised catches; fresh
+pure-Python RK4 WR-L composition error `7.549516567451064e-15`; CPU only; hash-manifested; tests
+70 passed/1 xfailed; all six frozen packages, current navigation, frontier targets, and the
+original dirty checkout's 55 metadata-only paths unchanged. Grade `VERIFIED-WITH-CAVEATS`.
 
 Next bounded seam:
 
-> Determine whether founding observer reciprocity plus the complete coframe derives a coherent
-> transition law between observer-indexed depth-and-angle charts, retaining a neutral local
-> identity at each observer.
+> Determine whether the complete UDT metric supplies an intrinsic reduction or mixing law that
+> solders the founding reciprocal channel to the endpoint clock and full transverse propagator on
+> one typed path.
 
-Do not select `F`, import SR/GR observer mechanics, promote a projective display, insert density,
-launch matter/time-live/GPU work, select an action or carrier, canonize, or reorganize.
+Do not splice branches, select a path ontology or profile, import SR/GR observer mechanics, insert
+density, launch matter/time-live/GPU work, select an action or carrier, canonize, or reorganize.
 
 Historical `phi`-equation guard: read
 `udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md` when a scalar equation,

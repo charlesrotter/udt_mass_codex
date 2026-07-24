@@ -1,0 +1,7 @@
+python3 replay_and_capture.py
+python3 derive_observer_cocycle.py
+python3 verify_observer_cocycle_independent.py
+python3 capture_tests.py
+python3 build_manifest.py
+python3 verify_repository_gates.py
+sha256sum --check SHA256SUMS.txt

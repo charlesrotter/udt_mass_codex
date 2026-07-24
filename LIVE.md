@@ -8,59 +8,54 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's topmost CURRENT STATE block, that block wins.**
 
-## ============ CURRENT STATE (2026-07-24 — OBSERVER-PAIR CLOCK OPERATOR AND RELATIONAL DEPTH-TYPE AUDITS COMPLETE, VERIFIED-WITH-CAVEATS. THE TWO FOUNDING POSTULATES PLUS REGISTERED COMPOSITION DERIVE THE ABSTRACT ORDERED RECIPROCAL OPERATOR S(DELTA)=DIAG(EXP(-DELTA),EXP(DELTA)); ITS BALANCED FORM IS AN EXACT O(1,1) BOOST. DILATION IS ONLY AN INTER-FRAME COMPARISON: EVERY OBSERVER HAS NEUTRAL SELF-DEPTH AND UNCHANGED LOCAL PHYSICS. THE THREE-OBSERVER CONTROL DOES NOT REFUTE PAIR DILATION; IT REFUTES ONLY ONE OBSERVER-INDEPENDENT GLOBAL SCALAR DIFFERENCE AS A UNIVERSAL POSITIVE ISOTROPIC PAIR-DEPTH ENCODING ON THE COMPLETE ROUND BRANCH. THE SMALLEST SURVIVING METRIC-NATIVE TYPE IS AN OBSERVER-INDEXED BILOCAL FAMILY RHO_P(Q)=F(D_H(P,Q)), WITH F, SIGNED LIFT, CHART TRANSITIONS, AND PHYSICAL READOUT OPEN. ANGULAR DATA IS REQUIRED FOR NONCOLLINEAR COMPOSITION. ORDINARY GEODESIC ADDITIVITY FORCES A UNIVERSAL CONTINUOUS F TO BE LINEAR, SO FINITE PROPER DIAMETER AND INFINITE DEPTH CANNOT BE THE SAME LINEAR-ADDITIVE OBJECT. PHYSICAL X_MAX, MASS, DENSITY, CMB INTERPRETATION, ACTION, SOURCE, CARRIER, BOUNDARY, AND TIME-LIVE DYNAMICS REMAIN OPEN. NEXT: TEST WHETHER FOUNDING OBSERVER RECIPROCITY PLUS THE COMPLETE COFRAME DERIVES THE TRANSITION LAW BETWEEN OBSERVER-INDEXED DEPTH-AND-ANGLE CHARTS. NO ACTION SELECTION, DENSITY INSERTION, MATTER/TIME-LIVE SOLVE, GPU WORK, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-24 — OBSERVER LONGITUDINAL/TRANSVERSE COCYCLE AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. THE VERTEX JACOBI/ANGULAR-AREA MAP IS NOT A STANDALONE TRANSITION LAW. THE COMPLETE TRANSVERSE DEVIATION STATE—SEPARATION PLUS DIRECTION—HAS A METRIC-DERIVED SYMPLECTIC PATH COCYCLE THAT COMPOSES, REVERSES, IS ENDPOINT-SCREEN COVARIANT, AND REMAINS INVERTIBLE THROUGH CAUSTICS. THE ENDPOINT CLOCK/FREQUENCY RATIO ALSO COMPOSES GIVEN TYPED OBSERVERS, EVENTS, AND THE SAME PATH. THEIR DIRECT SUM S(LOG Q)⊕M IS THEREFORE DERIVED AS A REDUCIBLE COMMON-PATH COCYCLE. IDENTIFYING LOG Q WITH THE FOUNDING RECIPROCAL DEPTH REMAINS CONDITIONAL; AN INTRINSIC IRREDUCIBLE SOLDER, NULL-VERSUS-CO-PRESENT/REST SELECTION, AND A COMPLETE NONTRIVIAL ALL-OBSERVER REALIZATION REMAIN OPEN. B19 IS COMPLETE WITH NONTRIVIAL TRANSVERSE TRANSPORT BUT TRIVIAL CLOCK; WR-L HAS AN EXACT LOCAL CENTERED COMMON-PATH WITNESS BUT NO GLOBAL RECENTERING. NO CROSS-BRANCH SPLICE IS ALLOWED. PHYSICAL X_MAX, ACTION, SOURCE, CARRIER, BOUNDARY, MASS, DENSITY, BOOTSTRAP, AND TIME-LIVE DYNAMICS REMAIN OPEN. NEXT: TEST WHETHER THE COMPLETE UDT METRIC SUPPLIES AN INTRINSIC SOLDER/REDUCTION BETWEEN THE FOUNDING RECIPROCAL CHANNEL AND THE SAME-PATH CLOCK/TRANSVERSE COCYCLE. NO PROFILE SELECTION, DENSITY INSERTION, ACTION OR MATTER SOLVE, GPU WORK, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
 
 **READ NEXT, IN ORDER:**
 
 1. `HANDOFF.md` current marked block.
-2. `udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md`, then its
-   `STATUS_LEDGER.tsv`, `OWNER_FRAME_LEDGER.tsv`, `EXACT_DERIVATION.md`,
-   `DEPTH_TYPE_RULING_LEDGER.tsv`, `COMPOSITION_DOMAIN_LEDGER.tsv`, `LAY_REPORT.md`, and
-   `NEXT_STEP.md`.
-3. `udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md`, then its
-   `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `TRANSPORT_TYPE_LEDGER.tsv`,
-   `CLOCK_READOUT_LEDGER.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
-4. The complete-metric observer-separation and angular/coframe packages named in those audits only
-   when their exact geometry is load-bearing.
+2. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` top/current overlay.
+3. `udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/AUDIT_REPORT.md`, then
+   `STATUS_LEDGER.tsv`, `BRANCH_COCYCLE_ATLAS.tsv`, `COCYCLE_TYPE_LEDGER.tsv`,
+   `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+4. `udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md` and
+   `udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md` only when their
+   founding-depth or clock-type premises are load-bearing.
 
 **CURRENT HONEST CLAIM:**
 
-- the abstract ordered reciprocal observer-pair operator is
-  `DERIVED_CONDITIONAL_WITH_FOUNDING_PREMISE_STAMPS`;
-- its determinant, composition, inverse, and balanced `O(1,1)` form are exact;
-- the named temporal channel `exp(-rho)` remains the derived multiplicative channel character;
-- metric coordinate-covector transport reproduces the reciprocal operator in the exact static
-  diagonal control, while orthonormal spatial-frame transport is identity; neither fact alone
-  supplies a measured mutual-clock readout;
-- dilation compares observer frames and does not modify either observer's local physics:
-  `rho_p(p)=0` for every observer;
-- one observer-independent global scalar difference cannot encode every strictly positive
-  isotropic pair depth on the complete round centerless branch; this is a type obstruction, not a
-  refutation of pairwise dilation, local signed `phi`, local chains, or anisotropic fields;
-- the smallest surviving metric-native type is
-  `OBSERVER_INDEXED_BILOCAL_METRIC_FAMILY_GIVEN_F`;
-- angular data is `DERIVED_REQUIRED` for non-collinear composition, while scalar cut-locus
-  distance can remain single-valued and complete frame transport can be a path family;
-- a universal continuous depth profile preserving ordinary minimizing-geodesic subsegment
-  addition is linear, so a finite metric diameter and infinite depth require a distinct nonlinear
-  display, location-dependent accumulation, infinite proper length, or another derived join;
-- `F`, its signed ordered lift, observer-chart transitions, endpoint frame/event pairing, the
-  physical clock solder, and physical `X_max` remain `OPEN`;
+- the complete transverse Jacobi phase-space propagator is
+  `DERIVED_GIVEN_METRIC_PATH`; it is symplectic, composable, reversible, endpoint-screen
+  covariant, and caustic-safe;
+- the projected vertex Jacobi/angular-area map is `REJECTED_GENERICALLY` as a standalone cocycle;
+- the endpoint clock/frequency ratio is
+  `DERIVED_GIVEN_OBSERVERS_PATH_AND_EVENTS` and composes with matched intermediate data;
+- `S(log Q) direct sum M` is
+  `DERIVED_REDUCIBLE_GIVEN_COMMON_PATH_DATA`;
+- identifying `log Q` with the founding reciprocal pair depth is `CONDITIONAL`; the centered WR-L
+  control realizes it locally, not as an all-observer theorem;
+- an irreducible native solder and a complete, nontrivial, arbitrary-observer realization are
+  `OPEN`;
+- B19 supplies complete pathwise transverse transport with `Q=1`; WR-L supplies exact local
+  nontrivial clock and radial transverse blocks but no global recentering; combining them would be
+  a forbidden cross-branch splice;
+- null versus co-present/rest event/path selection remains `OPEN`;
+- the prior observer-indexed bilocal depth family, neutral self-depth, angular necessity, and
+  absolute-scalar obstruction retain their exact premise stamps;
 - the existing static Hopfion remains `SETTLED_STATIC_FINITE_BOX_CONDITIONAL`;
 - complete action, native source, physical boundary, carrier emergence, mass, density, CMB
   interpretation, scale, and time-live persistence remain `OPEN`.
 
-**NEXT:** determine whether founding observer reciprocity plus the complete coframe derives a
-coherent transition law between observer-indexed depth-and-angle charts. Test the exact round
-control, reciprocal radial operator, angular direction law, complete-coframe `3+3` structure,
-homogeneous squashed control, reversal/composition, and cut-locus path family. Every chart must
-retain a neutral local identity. Do not select `F`, import SR/GR observer mechanics, or promote a
-projective display to physics.
+**NEXT:** determine whether the complete metric supplies an intrinsic reduction or mixing law
+that solders the founding reciprocal representation to the endpoint clock block and full
+transverse propagator on one typed path. Compare invariant subbundles, connection preservation,
+holonomy, causal-type transitions, and finite-cell completion branch by branch. Do not splice
+branches, select a path ontology, insert a profile, or infer physics from a direct sum alone.
 
-**EVIDENCE:** parent operator audit: 62 exact checks, 74 independent checks, and 12 exercised
-catches. Relational-depth audit: 76 exact checks, 68 independent checks, and 14 exercised catches.
-Both are CPU-only and hash-manifested. Tests remain 70 passed/1 xfailed; six frozen packages, 1,114
-current paths, frontier targets, and the original 54-path dirty checkout remain unchanged. Grade
+**EVIDENCE:** 69/69 production checks, 52/52 independent checks, and 13/13 exercised catches.
+Fresh pure-Python RK4 reproduces WR-L variable-curvature composition to
+`7.549516567451064e-15`; the full 12-completion/28-equation-family registry is retained. CPU only,
+hash-manifested. Tests remain 70 passed/1 xfailed; six frozen packages, 1,114 current paths,
+frontier targets, and the original dirty checkout's 55 metadata-only paths remain unchanged. Grade
 `VERIFIED-WITH-CAVEATS`; no fresh external-model semantic review was authorized.
 
 **REORGANIZATION:** R0--R1H remains paused. This checkpoint changes navigation only.

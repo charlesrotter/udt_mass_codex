@@ -4,22 +4,18 @@
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
 **➤ CURRENT SCIENTIFIC FRONTIER:**
-`udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md`, then its
-`STATUS_LEDGER.tsv`, `OWNER_FRAME_LEDGER.tsv`, `EXACT_DERIVATION.md`,
-`DEPTH_TYPE_RULING_LEDGER.tsv`, `COMPOSITION_DOMAIN_LEDGER.tsv`, `LAY_REPORT.md`, and
-`NEXT_STEP.md`; then read the parent
-`udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md` and its
-`STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `TRANSPORT_TYPE_LEDGER.tsv`,
-`CLOCK_READOUT_LEDGER.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+`udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `BRANCH_COCYCLE_ATLAS.tsv`, `COCYCLE_TYPE_LEDGER.tsv`,
+`EXACT_DERIVATION.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
 
-The founding reciprocal channels and composition derive the abstract ordered pair operator, whose
-balanced form is an exact algebraic `O(1,1)` boost. Dilation is an inter-frame comparison and does
-not modify either observer's local physics. The three-observer control rejects only a universal
-absolute-scalar-difference encoding, not pairwise dilation. The smallest surviving metric-native
-type is an observer-indexed bilocal depth family `rho_p(q)=F(d_h(p,q))`; `F`, its signed lift,
-chart transitions, endpoint readout, and physical `X_max` remain open. Angular data is required for
-non-collinear composition. Next: determine whether founding observer reciprocity plus the complete
-coframe derives the transition law between observer-indexed depth-and-angle charts. No action,
+The angular-area/Jacobi map is not itself composable, but the complete transverse
+separation-plus-direction state has an exact metric-derived symplectic path cocycle that remains
+invertible through caustics. The typed endpoint clock ratio also composes. Their direct sum is a
+derived reducible common-path cocycle. Identifying its clock log-ratio with founding reciprocal
+depth is conditional; an intrinsic irreducible solder and a complete nontrivial all-observer
+realization remain open. B19 supplies complete transverse transport with trivial clock; WR-L
+supplies both locally without global recentering, and they may not be spliced. Next: test whether
+the complete metric supplies the missing intrinsic solder. No profile, path ontology, action,
 density, matter/time-live/GPU work, canonization, or reorganization is authorized.
 
 **➤ SUPPORTING HISTORICAL `PHI`-EQUATION SALVAGE:**

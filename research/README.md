@@ -5,29 +5,21 @@ This directory is an additions-only navigation layer. It points to artifacts at 
 ## Current scientific spine — July 24
 
 Start with the
-[relational observer-pair depth audit](../udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md),
+[observer longitudinal/transverse cocycle audit](../udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/AUDIT_REPORT.md),
 then its
-[status ledger](../udt_relational_pair_depth_realization_audit_2026-07-24/STATUS_LEDGER.tsv),
-[owner-frame ledger](../udt_relational_pair_depth_realization_audit_2026-07-24/OWNER_FRAME_LEDGER.tsv),
-[exact derivation](../udt_relational_pair_depth_realization_audit_2026-07-24/EXACT_DERIVATION.md),
-[lay report](../udt_relational_pair_depth_realization_audit_2026-07-24/LAY_REPORT.md), and
-[next step](../udt_relational_pair_depth_realization_audit_2026-07-24/NEXT_STEP.md).
-Then read the parent
-[reciprocal observer-pair operator audit](../udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md),
-its
-[status ledger](../udt_observer_pair_clock_operator_audit_2026-07-24/STATUS_LEDGER.tsv),
-[exact derivation](../udt_observer_pair_clock_operator_audit_2026-07-24/EXACT_DERIVATION.md),
-[lay report](../udt_observer_pair_clock_operator_audit_2026-07-24/LAY_REPORT.md), and
-[next step](../udt_observer_pair_clock_operator_audit_2026-07-24/NEXT_STEP.md).
+[status ledger](../udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/STATUS_LEDGER.tsv),
+[branch atlas](../udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/BRANCH_COCYCLE_ATLAS.tsv),
+[type ledger](../udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/COCYCLE_TYPE_LEDGER.tsv),
+[exact derivation](../udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/EXACT_DERIVATION.md),
+[lay report](../udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/LAY_REPORT.md), and
+[next step](../udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/NEXT_STEP.md).
 
-The abstract ordered reciprocal observer-pair operator is derived with founding-premise stamps,
-and its balanced form is an exact algebraic `O(1,1)` boost. Dilation is an inter-frame comparison
-that leaves every observer's local physics neutral. The three-observer round control rejects only
-a universal absolute-scalar-difference encoding, not pairwise dilation. The smallest surviving
-metric-native type is an observer-indexed bilocal family conditional on the still-open profile,
-signed lift, chart transitions, and physical readout. Angular data is required for non-collinear
-composition. The next bounded question is whether founding observer reciprocity plus the complete
-coframe derives the transition law between those depth-and-angle charts.
+The complete transverse separation-plus-direction state is the metric-native composable object;
+the reduced angular-area map is not. The endpoint clock ratio also composes on one typed path, so
+their direct sum is a derived reducible common-path cocycle. The founding reciprocal-depth solder,
+an irreducible native representation, null-versus-rest path selection, and a complete nontrivial
+all-observer realization remain open. The next bounded question is whether the complete metric
+supplies the missing intrinsic solder without a cross-branch splice.
 
 Supporting historical guard: the
 [phi-equation salvage audit](../udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md)
@@ -86,6 +78,10 @@ The complete frozen root universe has 1,114 paths. Each has exactly one fixed-ba
 - Ordered reciprocal observer-pair operator:
   `DERIVED_CONDITIONAL_WITH_FOUNDING_PREMISE_STAMPS`; balanced `O(1,1)` form:
   `DERIVED_ALGEBRAIC`.
+- Complete transverse deviation-state path cocycle: `DERIVED_GIVEN_METRIC_PATH`; projected
+  vertex Jacobi map as standalone cocycle: `REJECTED_GENERICALLY`; same-path clock/transverse
+  direct sum: `DERIVED_REDUCIBLE_GIVEN_COMMON_PATH_DATA`; founding-depth solder and irreducible
+  universal realization: `CONDITIONAL` / `OPEN`.
 - Observer-frame dilation: `RELATIONAL_ONLY_LOCAL_NEUTRAL`; universal absolute-scalar-difference
   encoding: `REFUTED_AS_ABSOLUTE_REPRESENTATION_IN_COMPLETE_ROUND_CONTROL`; observer-indexed
   bilocal depth family: `SMALLEST_SURVIVING_TYPE_GIVEN_F`.

@@ -4,7 +4,49 @@ Date: 2026-07-24
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
-## July 24 observer-pair clock and relational-depth overlay — current authority
+## July 24 observer longitudinal/transverse cocycle overlay — current authority
+
+Read
+`udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `BRANCH_COCYCLE_ATLAS.tsv`, `COCYCLE_TYPE_LEDGER.tsv`,
+`EXACT_DERIVATION.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+
+The projected vertex Jacobi map gives angular area but does not compose as a standalone
+observer-to-observer transition. The complete first-order transverse state
+`(separation,direction)` has a metric-derived symplectic fundamental matrix `M_gamma` satisfying
+identity, reversal, path concatenation, endpoint screen covariance, and invertible continuation
+through caustics.
+
+Given typed endpoint observers, events, and the same path, the frequency/clock ratio
+`Q_gamma=omega_end/omega_start` also composes. Therefore
+
+```text
+C_gamma=S(log Q_gamma) direct_sum M_gamma
+```
+
+is `DERIVED_REDUCIBLE_GIVEN_COMMON_PATH_DATA`.
+
+This does not prove that `log Q_gamma` is the founding reciprocal observer-pair depth, nor that
+the direct sum is one irreducible native UDT representation. Those statuses are `CONDITIONAL` and
+`OPEN`. B19 supplies complete pathwise transverse transport with `Q=1`. WR-L supplies an exact
+local centered common-path witness with `Q=exp(phi)` and vertex solution `J=R`, but no complete
+all-observer recentering. Combining B19 completeness with WR-L dilation would be a forbidden
+cross-branch splice.
+
+Status: `METRIC_TRANSVERSE_PHASE_SPACE_PATH_COCYCLE_DERIVED`;
+`ENDPOINT_CLOCK_RATIO_COCYCLE_DERIVED_GIVEN_TYPED_DATA`;
+`COMMON_PATH_DIRECT_SUM_DERIVED_REDUCIBLE`;
+`FOUNDING_RECIPROCAL_SOLDER_CONDITIONAL`;
+`IRREDUCIBLE_NATIVE_AND_COMPLETE_NONTRIVIAL_ALL_OBSERVER_REALIZATION_OPEN`;
+`VERIFIED-WITH-CAVEATS`.
+
+The next bounded question is whether the complete UDT metric supplies an intrinsic reduction or
+mixing law between the founding reciprocal channel, the endpoint clock block, and the full
+transverse propagator on one typed path. This is not authority to select a path ontology or
+profile, splice branches, insert density, launch action/matter/time-live/GPU work, calculate
+physical `X_max`, canonize, move artifacts, or resume repository reorganization.
+
+## July 24 observer-pair clock and relational-depth overlay — parent authority
 
 Read `udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `OWNER_FRAME_LEDGER.tsv`, `EXACT_DERIVATION.md`,

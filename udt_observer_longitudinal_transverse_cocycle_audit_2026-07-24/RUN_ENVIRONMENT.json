@@ -1,0 +1,10 @@
+{
+  "compute": "CPU_ONLY",
+  "cuda_visible_devices": "",
+  "independent_command": "/usr/bin/python3 verify_observer_cocycle_independent.py",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "production_command": "/usr/bin/python3 derive_observer_cocycle.py",
+  "python": "3.10.12",
+  "python_executable": "/usr/bin/python3",
+  "sympy": "1.13.1"
+}

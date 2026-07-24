@@ -3,10 +3,8 @@
 This root is the control and navigation surface for the UDT research record.
 After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
-the [current relational observer-pair depth audit](udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md)
-→ the
-[parent reciprocal observer-pair operator audit](udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md)
-→ the
+[`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md) →
+the [current observer longitudinal/transverse cocycle audit](udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/AUDIT_REPORT.md) →
 exact evidence named by those files only when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
 `MEMORY.md` top/current pointer. `AGENTS.md`
@@ -14,14 +12,12 @@ supplies operational instructions and binding research discipline, but it
 cannot overrule the topmost current-state block in `LIVE.md`.
 
 The latest bounded scientific result is the
-[relational observer-pair depth audit](udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md).
-It keeps every observer's local frame neutral, rejects only a universal absolute-scalar encoding
-of all positive isotropic pair depths, and narrows the surviving metric-native type to an
-observer-indexed bilocal family conditional on its still-open profile and transition law. Its
-[parent operator audit](udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md) derives
-the abstract ordered reciprocal pair operator and its exact balanced `O(1,1)` representation.
-Neither audit selects a physical mutual-clock readout, `X_max`, action, source, carrier, mass,
-density law, or time-live dynamics.
+[observer longitudinal/transverse cocycle audit](udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/AUDIT_REPORT.md).
+It derives the complete transverse deviation-state path cocycle, rejects the reduced angular-area
+map as a standalone cocycle, and derives a reducible same-path assembly with the endpoint clock
+ratio. The founding-depth solder, an irreducible native observer representation, and a complete
+nontrivial all-observer realization remain open. It does not select a path ontology, profile,
+physical `X_max`, action, source, carrier, mass, density law, or time-live dynamics.
 
 When a scalar `phi` equation or profile is proposed, consult the
 [historical phi-equation salvage audit](udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md).
