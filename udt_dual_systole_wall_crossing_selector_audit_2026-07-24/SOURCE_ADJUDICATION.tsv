@@ -1,0 +1,36 @@
+path	role	affirmative_wall_rule_found	disposition
+udt_dual_systole_global_transport_audit_2026-07-24/SHA256SUMS.txt	parent exact chamber/set/transport evidence	NO	IDENTITY_ANCHOR
+udt_dual_systole_global_transport_audit_2026-07-24/AUDIT_REPORT.md	parent exact chamber/set/transport evidence	NO	LOAD_BEARING
+udt_dual_systole_global_transport_audit_2026-07-24/STATUS_LEDGER.tsv	parent exact chamber/set/transport evidence	NO	LOAD_BEARING
+udt_dual_systole_global_transport_audit_2026-07-24/EXACT_DERIVATION.md	parent exact chamber/set/transport evidence	NO	LOAD_BEARING
+udt_dual_systole_global_transport_audit_2026-07-24/GLOBAL_TRANSPORT_ATLAS.tsv	parent exact chamber/set/transport evidence	NO	LOAD_BEARING
+udt_dual_systole_global_transport_audit_2026-07-24/NEXT_STEP.md	parent exact chamber/set/transport evidence	NO	LOAD_BEARING
+udt_pre_density_substrate_response_atlas_2026-07-24/SHA256SUMS.txt	parent metric-lattice and completion evidence	NO	IDENTITY_ANCHOR
+udt_pre_density_substrate_response_atlas_2026-07-24/AUDIT_REPORT.md	parent metric-lattice and completion evidence	NO	LOAD_BEARING
+udt_pre_density_substrate_response_atlas_2026-07-24/STATUS_LEDGER.tsv	parent metric-lattice and completion evidence	NO	LOAD_BEARING
+udt_pre_density_substrate_response_atlas_2026-07-24/GLOBAL_DESCENT_ATLAS.tsv	parent metric-lattice and completion evidence	NO	LOAD_BEARING
+UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md	owner bootstrap authority	NO	LOAD_BEARING
+bootstrap_variation_selector_2026-07-18/SHA256SUMS.txt	bootstrap placement and CSN selector authority	NO	IDENTITY_ANCHOR
+bootstrap_variation_selector_2026-07-18/STATUS_LEDGER.tsv	bootstrap placement and CSN selector authority	NO	LOAD_BEARING
+bootstrap_csn_phi_angular_selector_2026-07-19/SHA256SUMS.txt	bootstrap placement and CSN selector authority	NO	IDENTITY_ANCHOR
+bootstrap_csn_phi_angular_selector_2026-07-19/AUDIT_REPORT.md	bootstrap placement and CSN selector authority	NO	LOAD_BEARING
+bootstrap_csn_phi_angular_selector_2026-07-19/STATUS_LEDGER.tsv	bootstrap placement and CSN selector authority	NO	LOAD_BEARING
+udt_native_coframe_composition_law_audit_2026-07-23/MANIFEST.sha256	complete coframe group and physical-composition limit	NO	IDENTITY_ANCHOR
+udt_native_coframe_composition_law_audit_2026-07-23/AUDIT_REPORT.md	complete coframe group and physical-composition limit	NO	LOAD_BEARING
+udt_native_coframe_composition_law_audit_2026-07-23/STATUS_LEDGER.tsv	complete coframe group and physical-composition limit	NO	LOAD_BEARING
+udt_finite_cell_cartan_transport_atlas_2026-07-23/MANIFEST.sha256	finite-cell transport and selection limit	NO	IDENTITY_ANCHOR
+udt_finite_cell_cartan_transport_atlas_2026-07-23/AUDIT_REPORT.md	finite-cell transport and selection limit	NO	LOAD_BEARING
+udt_global_metric_assembly_atlas_2026-07-22/SHA256SUMS.txt	twelve completion source	NO	IDENTITY_ANCHOR
+udt_hopf_realization_deformation_audit_2026-07-23/SHA256SUMS.txt	conditional topology/carrier boundary	NO	IDENTITY_ANCHOR
+udt_hopf_realization_deformation_audit_2026-07-23/GLOBAL_COMPLETION_OUTCOMES.tsv	conditional topology/carrier boundary	NO	LOAD_BEARING
+udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/SHA256SUMS.txt	conditional topology/carrier boundary	NO	IDENTITY_ANCHOR
+matter_bootstrap_dimensional_inventory_2026-07-20/SHA256SUMS.txt	dimensional and density-operation limit	NO	IDENTITY_ANCHOR
+native_hopfion_topology_audit_2026-07-19/SHA256SUMS.txt	conditional topology/carrier boundary	NO	IDENTITY_ANCHOR
+UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md	direct CSN authority	NO	LOAD_BEARING
+UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md	synchronized foundation and authority boundary	NO	LOAD_BEARING
+udt_three_reciprocity_delta_k_audit_2026-07-23/MANIFEST.sha256	direct three-reciprocity distinction	NO	IDENTITY_ANCHOR
+udt_three_reciprocity_delta_k_audit_2026-07-23/AUDIT_REPORT.md	direct three-reciprocity distinction	NO	LOAD_BEARING
+udt_three_reciprocity_delta_k_audit_2026-07-23/STATUS_LEDGER.tsv	direct three-reciprocity distinction	NO	LOAD_BEARING
+udt_three_reciprocity_delta_k_audit_2026-07-23/THREE_RECIPROCITY_ROLE_MAP.tsv	direct three-reciprocity distinction	NO	LOAD_BEARING
+UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md	exact C0/C1 founding and finite-cell authority	NO	LOAD_BEARING
+UDT_NATIVE_ACTION_COLD_PACKET.md	exact C0/C1 founding and finite-cell authority	NO	LOAD_BEARING

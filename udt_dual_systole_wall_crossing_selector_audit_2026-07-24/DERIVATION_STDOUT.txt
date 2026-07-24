@@ -1,0 +1,233 @@
+{
+  "base": "bcd1692e8a2bdf2300c7e7f13f5d0f4f34d490f9",
+  "checks": [
+    {
+      "detail": [
+        [
+          1,
+          0
+        ]
+      ],
+      "name": "reciprocal_left_shortest",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "name": "reciprocal_seal_tie",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        [
+          0,
+          1
+        ]
+      ],
+      "name": "reciprocal_right_shortest",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "name": "whole_tied_set_exchange_invariant",
+      "status": "PASS"
+    },
+    {
+      "detail": [],
+      "name": "no_exchange_fixed_shortest_line",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        0,
+        1
+      ],
+      "name": "swap_gluing_maps_left_to_right",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        1,
+        0
+      ],
+      "name": "identity_gluing_does_not_map_left_to_right",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "chosen_after": [
+          0,
+          1
+        ],
+        "covariant_image": [
+          1,
+          0
+        ]
+      },
+      "name": "lexicographic_tie_break_not_GL2Z_covariant",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "(1, -1)": 2,
+        "(1, 1)": 2
+      },
+      "name": "exchange_fixed_diagonals_not_shortest",
+      "status": "PASS"
+    },
+    {
+      "detail": "7/3",
+      "name": "CSN_common_factor_preserves_tie",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "v": [
+          1,
+          0
+        ],
+        "w": [
+          0,
+          1
+        ]
+      },
+      "name": "cap_annihilator_positive_control",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "v": [
+          1,
+          0
+        ],
+        "w": [
+          1,
+          0
+        ]
+      },
+      "name": "cap_annihilator_negative_control",
+      "status": "PASS"
+    },
+    {
+      "detail": "1",
+      "name": "nonzero_curvature_blocks_parallel_phase",
+      "status": "PASS"
+    },
+    {
+      "detail": "1/2",
+      "name": "nonintegral_holonomy_blocks_single_valued_parallel_phase",
+      "status": "PASS"
+    },
+    {
+      "detail": 32,
+      "name": "candidate_coverage",
+      "status": "PASS"
+    },
+    {
+      "detail": 15,
+      "name": "principle_coverage",
+      "status": "PASS"
+    },
+    {
+      "detail": 12,
+      "name": "completion_coverage",
+      "status": "PASS"
+    },
+    {
+      "detail": 35,
+      "name": "source_coverage",
+      "status": "PASS"
+    },
+    {
+      "detail": 12,
+      "name": "no_completion_privileged",
+      "status": "PASS"
+    },
+    {
+      "detail": 32,
+      "name": "no_physical_promotion",
+      "status": "PASS"
+    }
+  ],
+  "counts": {
+    "candidates": 32,
+    "checks": 20,
+    "completions": 12,
+    "conditional_swap_gluings": 1,
+    "native_single_line_selectors": 0,
+    "principles": 15,
+    "sources": 35
+  },
+  "maximum_ruling": "RECIPROCAL_TIE_SET_CONTINUATION_DERIVED__NO_EQUIVARIANT_SINGLE_SHORTEST_LINE_AT_SYMMETRIC_SEAL__SWAP_GLUE_CONDITIONAL_ON_UNSELECTED_GLOBAL_LIFT__REGISTERED_UDT_WALL_CROSSING_SELECTOR_NOT_FOUND",
+  "mode": "CPU_ONLY_METRIC_LED_WALL_CROSSING_SELECTOR_AUDIT",
+  "preregistration_commits": [
+    "393de99",
+    "c42580c",
+    "dc50f70"
+  ],
+  "reciprocal_control": {
+    "exchange_matrix": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "fixed_shortest_lines_at_seal": [],
+    "identity_gluing_continues_shortest": false,
+    "left": [
+      [
+        1,
+        0
+      ]
+    ],
+    "right": [
+      [
+        0,
+        1
+      ]
+    ],
+    "seal": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "swap_gluing_continues_shortest": true,
+    "swap_gluing_selected": false
+  },
+  "scientific_scope": {
+    "carrier_action_source_mass": "OPEN_OR_CONDITIONAL_UNCHANGED",
+    "density_scan": "NOT_RUN",
+    "gpu": "NOT_USED",
+    "matter_solve": "NOT_RUN",
+    "physical_shortest_character": "OPEN",
+    "reciprocal_swap_gluing": "CONDITIONAL_ON_EXTRA_LIFT",
+    "single_line_at_reciprocal_tie": "NO_EQUIVARIANT_SELECTOR",
+    "whole_set": "DERIVED_GLOBAL_WHERE_TORIC"
+  }
+}

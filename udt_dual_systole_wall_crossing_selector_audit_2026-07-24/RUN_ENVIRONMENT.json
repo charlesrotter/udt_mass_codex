@@ -1,0 +1,16 @@
+{
+  "independent": {
+    "command": "/usr/bin/python3 /tmp/udt_phi_ontology_XvSL3D/repo/udt_dual_systole_wall_crossing_selector_audit_2026-07-24/verify_wall_crossing_independent.py",
+    "returncode": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "0050e79e50cf4449bcd23ecb5e9589186501361d9d47ae79405c19993b1ffd8a"
+  },
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "production": {
+    "command": "/usr/bin/python3 /tmp/udt_phi_ontology_XvSL3D/repo/udt_dual_systole_wall_crossing_selector_audit_2026-07-24/derive_wall_crossing_selector.py",
+    "returncode": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "d9d2bbb5c8b1b24353da0bc70beeee418473a07955a514eb6cf91fd139266b9d"
+  },
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]"
+}

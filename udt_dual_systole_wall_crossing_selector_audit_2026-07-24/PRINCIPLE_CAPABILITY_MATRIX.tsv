@@ -1,0 +1,16 @@
+id	principle	registered_content	supplies_rule	reason
+U01	Reciprocal-c	clock/ruler determinant-one pair	NO	Different tensor/object type from angular character selection.
+U02	observer-frame Reciprocity	covariance and no preferred ordinary-regime observer	NO	Covariance preserves the tie set and does not force one covariant tensor to vanish or one line to win.
+U03	Xmax reciprocity	working signed bounded composition/reversal	NO	Absolute-phi and finite-cell joins remain open; no angular action.
+U04	angular reciprocal exchange	e1/e2 exchange under phi reversal	SET_ONLY	It canonically exchanges the two members but has no fixed member at the seal.
+U05	CSN	common conformal calibration quotient	NO	All norms receive the same positive factor.
+U06	static seal	phi=0 with partial parity/value data	NO	It locates the symmetric tie but gives no lattice lift or boundary phase.
+U07	finite-cell taxonomy	twelve possible completion/gluing classes	CONDITIONAL	Several lifts can support different continuations; no class/lift is selected.
+U08	coframe composition	exact group law in chosen trivialization	NO	Physical representative, weighting, and phi rule remain open.
+U09	Cartan/Kato transport	transport of a supplied smooth subbundle	NO	Transport does not choose a subbundle from a degenerate pair.
+U10	shift connection	projected connection after character supplied	NO	Curvature and holonomy obstruct sections but do not choose the character.
+U11	co-presence	whole-solution event-domain interpretation	NO	No local/gluing character content.
+U12	bootstrap primary	after-solution global admissibility	NO	No local or boundary operator.
+U13	bootstrap stronger fork	possible local matter-existence window	OPEN	Could discriminate completed branches only after native operator, source, and density map exist.
+U14	total proper density	future total mass/proper volume output	NO	Not operational and cannot be inserted locally.
+U15	boundary framing	future phase/gluing datum	COULD_SELECT	Precisely the kind of missing extra datum; presently open.

@@ -1,0 +1,8 @@
+python3 udt_dual_systole_wall_crossing_selector_audit_2026-07-24/freeze_preregistered_sources.py
+python3 udt_dual_systole_wall_crossing_selector_audit_2026-07-24/derive_wall_crossing_selector.py
+python3 udt_dual_systole_wall_crossing_selector_audit_2026-07-24/verify_wall_crossing_independent.py
+python3 udt_dual_systole_wall_crossing_selector_audit_2026-07-24/replay_and_capture.py
+python3 udt_dual_systole_wall_crossing_selector_audit_2026-07-24/verify_repository_gates.py
+python3 udt_dual_systole_wall_crossing_selector_audit_2026-07-24/build_manifest.py
+sha256sum --check SHA256SUMS.txt
+

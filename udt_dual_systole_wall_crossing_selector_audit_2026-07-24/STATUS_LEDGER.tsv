@@ -1,0 +1,24 @@
+id	object	status	exact_scope	remaining_open
+S01	whole dual-systole set	DERIVED_GLOBAL_WHERE_TORIC	GL2Z local system with positive angular metric and integral lattice	physical use and nontoric branches
+S02	reciprocal diagonal wall crossing	DERIVED	phi<0 e1; phi=0 tied e1/e2; phi>0 e2	complete on-shell branch selection
+S03	reciprocal action on tied set	DERIVED_SET_EQUIVARIANCE	J swaps e1 and e2 and preserves the set	no member fixed
+S04	single-valued reciprocal-equivariant shortest selector	REFUTED_AT_SYMMETRIC_SEAL	exact two-way reciprocal tie	does not rule out extra seam or boundary data
+S05	fixed-lattice continuous shortest line	OBSTRUCTED	transverse wall crossing in discrete primitive-line set	set-valued or patched continuation remains
+S06	lexicographic tie-break	NOT_GL2Z_COVARIANT	basis-swap control	no coordinate convention promoted
+S07	reciprocal-swap gluing	CONDITIONAL_CONSTRUCTION	J maps left shortest line to right shortest line	finite-cell angular lift not selected
+S08	identity gluing	CONDITIONAL_NOT_SHORTEST_ACROSS_CONTROL	I preserves e1 while right chamber minimizes e2	other gluing/topology data
+S09	exchange-fixed diagonal line	REFUTED_AS_WMIN_MEMBER	norm two at isotropic seal versus minimum one	could be another nonshortest object only with extra law
+S10	Common-Scale Neutrality	TIE_PRESERVING_NOT_SELECTING	common factor multiplies every character norm	physical representative and scale
+S11	static finite-cell seal	LOCATES_PHI_ZERO_ONLY	C1 odd scalar phi and free normal derivative	transverse lift boundary functional other fields
+S12	three UDT reciprocities	MUTUALLY_COMPATIBLE_NO_CHARACTER_SELECTOR	direct three-role authority and exact controls	angular source equality absolute-phi join and seam lift
+S13	projected connection/holonomy	COMPATIBILITY_AFTER_LINE_SUPPLIED	b_w=w^T S; curvature and holonomy gates	line sign phase section framing
+S14	cap regularity	COMPATIBILITY_ONLY	w(v)=0 or separately supplied vanishing amplitude	selected cap carrier amplitude and patching
+S15	twelve completions	CLASSIFIED_NONE_SELECTED	bounded registered taxonomy	not all possible global four-geometries
+S16	bootstrap primary role	AFTER_SOLUTION_NOT_WALL_RULE	owner-stated complete-universe admissibility	local or boundary selector
+S17	bootstrap stronger fork	WORKING_DEPENDENCE_OPEN	possible matter-existence dependence	operator source density map and stability theorem
+S18	total proper density	NOT_OPERATIONAL_FOR_TIE_BREAK	native total mass and proper volume absent	density-to-H,S law and fixed point
+S19	physical shortest character	OPEN	canonical geometric candidate only	selection sign phase action and source
+S20	full reciprocal pair/set as building block	DERIVED_GEOMETRIC_OBJECT_PHYSICAL_ROLE_OPEN	symmetry-respecting object survives tie	carrier or matter interpretation
+S21	overall selector verdict	REGISTERED_UDT_WALL_CROSSING_SELECTOR_NOT_FOUND	32 candidates 15 principles 12 completions 35 sources	future boundary/action/bootstrap completion
+S22	carrier action source boundary mass	OPEN_OR_CONDITIONAL_UNCHANGED	outside selector audit	no mass closure claimed
+

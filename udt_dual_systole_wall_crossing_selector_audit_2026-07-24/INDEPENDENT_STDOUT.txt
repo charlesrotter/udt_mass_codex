@@ -1,0 +1,13 @@
+{
+  "candidate_rows": 32,
+  "catch_proofs": 20,
+  "completion_rows": 12,
+  "conditional_swap_gluing": true,
+  "fixed_shortest_lines_at_reciprocal_seal": 0,
+  "mode": "INDEPENDENT_STANDARD_LIBRARY_NO_PRODUCTION_IMPORT",
+  "native_single_line_selectors": 0,
+  "principle_rows": 15,
+  "result": "PASS",
+  "source_identities": 35,
+  "swap_gluing_selected": false
+}

@@ -1,0 +1,27 @@
+id	preregistered_status	final_use	disposition
+P01	REGISTERED_EXACT_INPUT	define H and shifts	RETAINED
+P02	CONDITIONAL	toric branches only	RETAINED_CONDITIONAL
+P03	DERIVED_PRIOR	define W_min walls and vertices	REPRODUCED
+P04	DERIVED_CONTROL	test mandatory two-way tie	REPRODUCED
+P05	DERIVED_ALGEBRAIC_CONTROL	test equivariance	REPRODUCED_NO_FIXED_MEMBER
+P06	FOUNDING	test common-scale discrimination	TIE_PRESERVING
+P07	REGISTERED_PARTIAL	place phi=0 control	NO_ANGULAR_LIFT
+P08	BOUNDED_REGISTERED	classify all twelve families	12_OF_12
+P09	FOUNDING	test exchange covariance	SET_EQUIVARIANCE_ONLY
+P10	WORKING_INTERPRETATION	test logical type	TYPE_MISMATCH
+P11	WORKING_GLOBAL_SCHEMA	test scale/position relevance	TYPE_MISMATCH
+P12	OWNER_STATED_WORKING	test after-solution admissibility	NO_LOCAL_RULE
+P13	OWNER_STATED_WORKING_SEPARATE_FORK	test possible matter-existence role	DEPENDENCE_OPEN
+P14	WORKING_TYPED_OUTPUT	excluded until mass and volume exist	NOT_OPERATIONAL
+P15	DERIVED_CONDITIONAL	test phase-section obstruction	COMPATIBILITY_ONLY
+P16	DERIVED_CONDITIONAL	test extension compatibility	COMPATIBILITY_ONLY
+P17	POSIT	excluded as selector	NOT_USED
+P18	CONDITIONAL	excluded as selector	NOT_USED
+P19	OPEN	no dynamics inferred	NOT_PRESENT
+P20	OPEN	no phase framing inferred	SMALLEST_EXTRA_DATUM
+P21	OPEN	do not identify w~-w lift	NOT_SELECTED
+P22	NOT_AUTHORIZED	grade caveat	NO_FRESH_EXTERNAL_MODEL
+P23	FOUNDING_PLUS_DERIVED_PAIR_CHARACTER	distinguish clock/ruler from angular tie	NO_ANGULAR_SELECTION
+P24	OWNER_LOCKED_ORDINARY_REGIME	test covariance/no preferred observer	COVARIANCE_NOT_SELECTION
+P25	WORKING_POSIT_PLUS_CHOSE_CONDITIONAL_GROUP	test global reversal type	NO_ABSOLUTE_PHI_OR_SEAL_JOIN
+

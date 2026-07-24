@@ -1,0 +1,13 @@
+completion_id	wall_crossing_requirement	outcome	selected_by_current_udt
+FC01_BOUNDARY_BOUNDARY	boundary framing required	OPEN	NO
+FC02_ONE_CAP_BOUNDARY	cap annihilator or amplitude zero plus boundary framing	CONDITIONAL	NO
+FC03_TWO_CAP_P0	residual line and holonomy depend on cap cycle	CONDITIONAL	NO
+FC04_TWO_CAP_P1	no nonzero character annihilates both caps; patching/amplitude needed	OBSTRUCTED_FOR_PHASE_ALONE	NO
+FC05_TWO_CAP_P_GT1	quotient congruence and lens holonomy required	CONDITIONAL	NO
+FC06_NONPRIMITIVE_CAP	orbifold stabilizer representation required	CONDITIONAL	NO
+FC07_PERIODIC_TORUS_BUNDLE	tie avoidance and monodromy-preserved line required	CONDITIONAL	NO
+FC08_MIRROR_DOUBLE	identity/swap/conjugate lift must be supplied	LIFT_DEPENDENT	NO
+FC09_NONORIENTABLE_GLUE	unoriented line may descend; phase needs real/conjugate structure	CONDITIONAL	NO
+FC10_STRATIFIED_PROJECTOR	rank change terminates or makes set valued	STRATUM_DEPENDENT	NO
+FC11_NONINTEGRABLE_DISTRIBUTION	no global integral torus lattice	NOT_AVAILABLE	NO
+FC12_RECIPROCAL_TORIC_DIAGONAL	mandatory e1/e2 tie; swap gluing possible but unselected	SET_VALUED_OR_EXTRA_LIFT	NO

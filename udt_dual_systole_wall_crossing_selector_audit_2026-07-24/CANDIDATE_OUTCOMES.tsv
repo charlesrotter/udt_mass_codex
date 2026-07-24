@@ -1,0 +1,33 @@
+id	candidate	origin	type_to_test	outcome	reason	physical_selection
+C01	whole set-valued W_min continuation	dual-systole geometry	set_continuation	DERIVED_SET_VALUED_CONTINUATION	The full shortest set is GL2Z covariant and remains defined at the tie.	NO
+C02	single shortest line at every point	shortestness	line_selection	REFUTED_AT_TIE	W_min has two members at phi=0; shortestness alone is not single valued.	NO
+C03	fixed-lattice continuous shortest line	continuity	line_continuation	OBSTRUCTED_IN_FIXED_LATTICE	A discrete shortest line changes from e1 to e2, so a continuous single line cannot remain shortest through the wall.	NO
+C04	reciprocity-equivariant single line	Reciprocity	line_selection	NO_EQUIVARIANT_SINGLE_SELECTOR	The reciprocal exchange swaps both members of W_min(0) and fixes neither.	NO
+C05	reciprocal-swap seam gluing	finite-cell mirror candidate	gluing_transition	CONDITIONAL_ON_UNSELECTED_SWAP_LIFT	A swap transition maps the left shortest line to the right one, but the transition is extra global data.	NO
+C06	identity seam gluing	fixed lattice candidate	gluing_transition	CONDITIONAL_AND_INCOMPATIBLE_WITH_SHORTEST_JOIN	Identity gluing preserves e1 while the right chamber uniquely minimizes e2.	NO
+C07	lexicographic primitive tie-break	coordinate convention	line_selection	NOT_GL2Z_COVARIANT	A basis swap leaves the tied set invariant but changes the covariant image of the lexicographic choice.	NO
+C08	choose incoming line by hysteresis	path history	line_selection	CONDITIONAL_ON_UNREGISTERED_HISTORY	Hysteresis adds path history and can retain a nonshortest line after crossing.	NO
+C09	choose exchange-invariant diagonal line	reciprocal symmetry	line_selection	REFUTED_AS_SHORTEST_SELECTOR	The swap-fixed diagonal lines have squared norm 2 at the isotropic seal, while the minimum is 1.	NO
+C10	sign or orientation lift	orientation/chirality	signed_character	OPEN_EXTRA_LIFT	An unoriented line does not select a sign, orientation, or chirality.	NO
+C11	parallel phase from projected connection	shift connection	phase_section	CONDITIONAL_ON_FLAT_TRIVIAL_HOLONOMY_AND_FRAMING	A projected connection does not supply a global parallel phase by itself.	NO
+C12	connection-curvature tie-break	shift curvature	line_selection	COMPATIBILITY_DATA_NOT_SELECTOR	Connection curvature can obstruct a parallel phase but does not choose between tied character lines.	NO
+C13	holonomy-minimizing tie-break	global connection	line_selection	COMPATIBILITY_DATA_NOT_SELECTOR	Holonomy constrains a supplied line/section; no minimizing functional is registered.	NO
+C14	cap-annihilating character	cap regularity	extension_compatibility	COMPATIBILITY_ONLY	A character can extend alone across a cap only when it annihilates the collapsed cycle.	NO
+C15	vanishing amplitude at tie or cap	section regularity	amplitude_completion	CONDITIONAL_ON_UNSUPPLIED_AMPLITUDE	Vanishing amplitude can regularize phase loss, but no native carrier amplitude is present.	NO
+C16	smoothness alone	differential regularity	line_selection	NOT_SUFFICIENT	Smooth set-valued, identity-glued, and swap-glued alternatives remain mathematically distinct.	NO
+C17	static phi=0 seal	finite-cell seal	line_selection	LOCATES_CONTROL_TIE_ONLY	The phi=0 seal places the reciprocal symmetric point but supplies no angular lift or phase datum.	NO
+C18	mirror or quotient seam	finite-cell topology	gluing_transition	CONDITIONAL_ON_UNSELECTED_LIFT	Mirror/quotient continuation depends on the chosen lattice automorphism and orientation lift.	NO
+C19	periodic monodromy preservation	torus bundle	globally_unique_line	CONDITIONAL	A unique global line requires a tie-free path and monodromy preservation.	NO
+C20	nonorientation or conjugation	mirror/nonorientable completion	sign_lift	CONDITIONAL_SIGN_OR_REAL_STRUCTURE	Nonorientation can preserve an unoriented line while reversing sign or conjugating phase.	NO
+C21	Common-Scale Neutrality	CSN	line_selection	TYPE_NEUTRAL	Common scale rescales all character norms together and cannot split a tie.	NO
+C22	complete coframe group law	coframe composition	line_selection	CHART_GROUP_NOT_PHYSICAL_SELECTOR	The coframe group law needs a chosen trivialization/section and no weighted physical composition is selected.	NO
+C23	co-presence	whole-solution ontology	line_selection	TYPE_MISMATCH	Co-presence is whole-solution membership, not a character, gluing, or phase equation.	NO
+C24	X_max reciprocity/global diameter	global positional structure	line_selection	TYPE_MISMATCH	X_max concerns global observer-pair separation/scale and supplies no angular lattice tie-break.	NO
+C25	bootstrap primary admissibility	owner principle	physical_selection	AFTER_SOLUTION_NOT_LOCAL_SELECTOR	The primary bootstrap reading filters completed matter-bearing universes after equations exist.	NO
+C26	bootstrap stronger local fork	owner principle	physical_selection	WORKING_DEPENDENCE_OPEN	The stronger fork could make branch viability relevant but supplies neither operator nor wall rule.	NO
+C27	total-density or curvature value	global output	line_selection	NOT_OPERATIONAL_NO_MAP	No native mass/volume density or density-to-H,S law exists; direct insertion is forbidden.	NO
+C28	action/energy minimization	future dynamics	physical_selection	NOT_PRESENT	No native action or energy functional selects one tied character.	NO
+C29	time-live bifurcation or Landau-Zener rule	future dynamics	line_continuation	NOT_PRESENT	No time-live law or bifurcation equation is registered.	NO
+C30	set-valued physical alternative	no forced single line	physical_interpretation	MATHEMATICALLY_COHERENT_PHYSICAL_ROLE_OPEN	Retaining the whole tied set is the unique rule needing no extra choice, but physical set-valued matter is not derived.	OPEN
+C31	rank-loss termination	nontoric stratum	object_existence	DERIVED_TERMINATION	Where toric rank/lattice is lost, the character object ceases to exist rather than choosing a continuation.	NO
+C32	boundary phase framing	future boundary data	phase_section	OPEN_EXTRA_DATA	Boundary phase framing could lift a line to a phase, but it is not supplied by the current seal.	NO
