@@ -3,30 +3,28 @@
 **⚠ BRANCH: `grok` (2026-07-23)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).  
 **➤ CURRENT SCIENTIFIC FRONTIER:**
-`udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
-`STATUS_LEDGER.tsv`, `LAY_READOUT.md`, and `NEXT_STEP.md`; next read
+`udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `DEPENDENCY_MATRIX.tsv`, `BOOTSTRAP_ADJUDICATION.tsv`, `LAY_READOUT.md`, and
+`NEXT_STEP.md`; next read
+`udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md` and its
+`STATUS_LEDGER.tsv`; next read
 `udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md` and `STATUS_LEDGER.tsv`; retain
 `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
 `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and `REGRESSION_GUARD_LEDGER.tsv`.
 The consolidation checkpoint is navigation, not new physics authority. Current exact structure:
-on each smooth nonnull-`dphi` region the intrinsic metric
-`h0=|g^{-1}(dphi,dphi)|g` and `LC(h0)` are CSN-invariant geometric candidates. Bootstrap is not
-needed for local connection existence, but neither candidate is adopted as physical. Every
-`Gamma_f=LC(exp(2f(phi))h0)` is CSN invariant; reciprocal reversal leaves every even `f`, and the
-static seal cannot distinguish those bulk connections. Comparison composition is not a derived
-local shift gauge. Adding local-shift invariance plus strict reversal invariance selects `Gamma0`
-only conditionally in that family. The derivative-only family survives reversal covariance, and
-the projector alone does not determine `A0`. Torsion-free split preservation is unique iff the orthogonal
-screen is umbilical; projected split transport is generally torsionful and retains stabilizer
-freedom. Null/zero continuation and global finite-cell closure remain open. The parent structure
-remains: reciprocal kinematics is derived with premise stamps; timelike nonzero `dphi` gives the local Lorentz
-boost/rotation `3+3`; the full connection has exact within-sector and mixing blocks; spacelike
-nonnull `dphi` retains a non-observer `SO+(1,2)` `3+3`; null `dphi` gives a nilpotent filtration;
-zero `dphi` gives no intrinsic reduction. The 12 registered completion families have been crossed
-with five causal classes, but zero complete on-shell `(g,phi)` branches are supplied and none is
-selected. Physical transport remains `OPEN_SELECTOR`. The next bounded seam is whether the already
-verified Hopf/topology objects are independent of this transport choice or require a selected
-section, carrier, connection, or dynamics.
+for a supplied smooth `n:M3->S2` and declared map/domain/orientation/normalization/boundary data, the
+pullback form, true exterior closure, primitive gauge class, and Hopf integral are independent of
+the unresolved affine-transport selector. Torsionful covariant rewrites require the exact torsion
+correction. A Hodge-selected primitive remains metric/boundary/gauge dependent, and the Hopf
+principal connection is not an affine tangent connection. The supplied internal-target `L2+L4`
+energy has no direct affine input but is metric dependent: in three dimensions its exact conformal
+weights are `q` and `q^-1`. Static finite-box stability does not export to another metric or
+physical time. The round carrier remains `POSIT`; the intrinsic `S2` remains a fiber, not a selected
+section. Current bootstrap is outer after-solution admissibility and may later bracket complete
+topological branches by total proper density only after action, source, mass, volume, boundary, and
+global solutions exist. Physical transport remains `OPEN_SELECTOR`; native Hopf realization
+remains an open join. The next bounded seam is whether complete-metric/coframe variations induce a
+global carrier deformation space or only the known conditional latitude/phase seed.
 Complete action, source, boundary charge, scale, bridge, carrier emergence, time-live matter, and
 unconditional mass remain open. Repository reorganization remains paused.
 
@@ -168,31 +166,34 @@ Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`,
 
 1. **`LIVE.md`** CURRENT STATE
 2. **`HANDOFF.md`** CURRENT block
-3. **`udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md`**,
-   **`STATUS_LEDGER.tsv`**, **`LAY_READOUT.md`**, and **`NEXT_STEP.md`**
-4. **`udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md`** and
+3. **`udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/AUDIT_REPORT.md`**,
+   **`STATUS_LEDGER.tsv`**, **`DEPENDENCY_MATRIX.tsv`**, **`LAY_READOUT.md`**, and
+   **`NEXT_STEP.md`**
+4. **`udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md`** and
    **`STATUS_LEDGER.tsv`**
-5. **`udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`** and its
+5. **`udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md`** and
+   **`STATUS_LEDGER.tsv`**
+6. **`udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`** and its
    current status, metric-to-frontier, and regression-guard ledgers
-6. **`matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`**,
+7. **`matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`**,
    **`STATUS_LEDGER.tsv`**, **`LAY_DECISION_TREE.md`**, and **`NEXT_SCIENTIFIC_DECISION.md`**
-7. **`scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md`**,
+8. **`scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md`**,
    **`STATUS_LEDGER.tsv`**, **`LAY_DECISION_TREE.md`**, and **`NEXT_SCIENTIFIC_DECISION.md`**
-8. **`native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`**,
+9. **`native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`**,
    **`STATUS_LEDGER.tsv`**, **`LAY_DECISION_TREE.md`**, and **`NEXT_DERIVATION.md`**
-9. **`asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`**,
+10. **`asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`**,
    **`STATUS_LEDGER.tsv`**, **`LAY_DECISION_TREE.md`**, and **`GLOBAL_CLOSURE_EQUATION_LEDGER.tsv`**
-10. **`udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`**, **`OWNER_MEANING_LEDGER.tsv`**,
+11. **`udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`**, **`OWNER_MEANING_LEDGER.tsv`**,
    **`PACKAGE_REGRADE.tsv`**, and **`RERUN_PRIORITY.md`**
-11. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** through all current overlays only
-12. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
+12. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** through all current overlays only
+13. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
    **`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`**
-12. The exact frozen evidence named by that frontier only for the active question
-13. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
-14. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
-15. Only the task-triggered protocol under **`.claude/skills/`**
-16. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
-17. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
+14. The exact frozen evidence named by that frontier only for the active question
+15. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
+16. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
+17. Only the task-triggered protocol under **`.claude/skills/`**
+18. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
+19. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
 
 ---
 

@@ -7,10 +7,13 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-23).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-23 — reciprocal-transport naturality selector)
+## CURRENT (2026-07-23 — Hopf–transport–bootstrap dependency audit)
 
-Read `udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
-`STATUS_LEDGER.tsv`, `LAY_READOUT.md`, and `NEXT_STEP.md`. Next read the parent
+Read `udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `DEPENDENCY_MATRIX.tsv`, `BOOTSTRAP_ADJUDICATION.tsv`, `LAY_READOUT.md`, and
+`NEXT_STEP.md`. Next read
+`udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md` and its
+`STATUS_LEDGER.tsv`, then the parent
 `udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md` and `STATUS_LEDGER.tsv`.
 Retain the consolidated context from
 `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
@@ -31,25 +34,26 @@ Current honest structure:
 - Kato transport follows the moving subbundles geometrically and is not physical time evolution;
 - all 12 registered completion families are crossed with all five causal classes, but no complete
   on-shell `(g,phi)` finite-cell branch is supplied or selected;
-- on smooth nonnull-`dphi` regions,
-  `h0=|g^{-1}(dphi,dphi)|g` is exactly CSN invariant, makes `dphi` unit, and supplies a local
-  pre-scale Levi-Civita/Weyl connection;
-- this is a `DERIVED_GEOMETRIC_CANDIDATE`, not a physical connection: the exact
-  `h_f=exp(2f(phi))h0` family survives, including nontrivial reversal-even, seal-normalized members;
-- every `Gamma_f=LC(h_f)` is CSN invariant; strict reciprocal reversal still leaves every even
-  `f`, including `lambda*phi^2`, and those members agree at the static seal while differing in the
-  bulk;
-- comparison-group composition does not derive a local additive shift gauge for `phi(x)`;
-- adding local-shift invariance and strict connection invariance under reversal selects `Gamma0`
-  only conditionally within the declared `Gamma_f` family;
-- the derivative-only `A0+lambda*dphi` family remains covariant under reversal, and the
-  line/projector alone cannot determine `A0`;
-- torsion-free split preservation is `UNIQUE_CONDITIONAL` exactly on umbilical screens; generic
-  trace-free shear obstructs it;
-- projected metric split transport exists on every smooth nonnull region but is generally
-  torsionful and retains twelve pointwise stabilizer-connection components;
-- `h0` degenerates at null `dphi` and vanishes at zero `dphi`; interface/global continuation is
-  open;
+- physical affine transport remains `OPEN_SELECTOR`; the `Gamma_f`, derivative-only, projected,
+  and stabilizer families retain their exact prior statuses;
+- for a supplied `n:M3->S2` and declared global data, pullback `F`, true exterior closure, primitive
+  gauge class, and the Hopf integral require no affine tangent connection;
+- torsion-free transport gives the familiar covariant closure rewrite; projected/Kato torsionful
+  transport needs the exact torsion correction;
+- a Hodge/Coulomb primitive is metric, gauge, and boundary dependent even when the exact Hopf class
+  is not;
+- the conditional Hopf principal `U(1)` connection and affine tangent connection live on different
+  bundles and have different roles;
+- the existing internal-target `L2+L4` action has no direct affine input, but under
+  `h->q^2 h`, `E2->q E2` and `E4->q^-1 E4`; energy and stability are therefore not transport- or
+  metric-free consequences of topology;
+- static stability retains only its existing carrier/action/metric/finite-box/operator scope;
+  time-live persistence remains `OPEN`;
+- the round carrier remains `POSIT`, and the intrinsic sphere fiber still does not select a
+  carrier section;
+- current bootstrap is an outer after-solution admissibility bracket. It may later admit or reject
+  complete global topological sectors by total proper density, but cannot presently create a local
+  section, connection, action, or boundary;
 - `C2`/Bach remains `UNIQUE-CONDITIONAL`; EH and all present mass routes remain `CONDITIONAL`; the
   carrier remains `POSIT`;
 - complete action, source, boundary charge, physical representative, absolute scale, bridge,
@@ -57,15 +61,17 @@ Current honest structure:
 
 Current bounded seam:
 
-> Determine which load-bearing objects in the already completed native Hopfion topology audit are
-> independent of the unresolved affine-transport choice, and which require a selected section,
-> carrier, connection, or dynamical completion.
+> Determine whether variations of the complete UDT coframe and conditional reciprocal-toric
+> quotient induce a genuine globally compatible Hopf-carrier deformation space, only the known
+> conditional latitude/phase seed, or no carrier deformation space.
 
-The transport audit closes with `OPEN_SELECTOR`, not with an adopted connection. The proposed Hopf
-interface audit is a dependency audit, not authority to adopt the round `S2` carrier, identify the
-celestial fiber with a section, launch a relaxation, or infer matter emergence. No solve, GPU work,
-carrier/action adoption, canonization, repository reorganization, or artifact relocation follows
-automatically. R0--R1H remains paused.
+The dependency audit closes with
+`TOPOLOGICAL_CORE_TRANSPORT_INDEPENDENT_IN_DECLARED_CARRIER_DOMAIN`,
+`EMERGENT_HOPF_REALIZATION_DEPENDS_ON_OPEN_SECTION_TRANSPORT_BOUNDARY_OR_DYNAMICS`, and
+`CURRENT_BOOTSTRAP_IS_OUTER_ADMISSIBILITY_ONLY`. The proposed deformation audit is not authority to
+adopt the round `S2`, identify a fiber with a section, choose an action, launch dynamics, or scan
+density. No solve, GPU work, carrier/action adoption, canonization, repository reorganization, or
+artifact relocation follows automatically. R0--R1H remains paused.
 
 <!-- STARTUP_CURRENT_END -->
 

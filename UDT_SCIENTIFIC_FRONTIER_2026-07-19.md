@@ -4,6 +4,54 @@ Date: 2026-07-20
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## July 23 Hopf–transport–bootstrap dependency overlay — current authority
+
+Read `udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `DEPENDENCY_MATRIX.tsv`, `BOOTSTRAP_ADJUDICATION.tsv`, `LAY_READOUT.md`, and
+`NEXT_STEP.md` before the earlier July 23 layers below.
+
+For a supplied smooth map `n:M3->S2`, target area-form normalization, oriented domain, and closed or
+fixed boundary class, the pullback two-form, true exterior closure, primitive gauge class, and Hopf
+integral are affine-transport independent. The general covariant rewrite is
+
+```text
+dF_abc =
+  3 nabla_[a F_bc]
+  + T^d_ab F_dc
+  + T^d_bc F_da
+  + T^d_ca F_db.
+```
+
+Torsion-free `Gamma_f` and derivative-only connections give the familiar antisymmetrization.
+Projected/Kato transport is generically torsionful, so omitting the torsion terms is incorrect.
+Exact symbolic algebra and an independent 17-case rational implementation verify the identity.
+
+A Hodge/Coulomb primitive remains metric, boundary, and gauge dependent. The conditional Hopf
+principal `U(1)` connection is a different typed bundle object from affine tangent transport. The
+existing internal-target `L2+L4` energy has no direct affine-connection input, but under
+`h->q^2 h` in three dimensions its terms scale as `E2->q E2` and `E4->q^-1 E4`; topology's
+connection independence therefore does not extend to energy or stability.
+
+Static finite-box stability retains its exact carrier/action/metric/box/operator premises.
+Time-live persistence remains open. The round `S2` carrier remains `POSIT`, and the intrinsic
+celestial/screen sphere remains a fiber rather than a selected section.
+
+Current bootstrap is outer after-solution admissibility only. It may eventually bracket complete
+matter-bearing topological branches by total proper density, but it cannot presently define the
+Hopf class or supply a local section, affine connection, action, or boundary. The density bracket
+is not operational before complete action, source, total mass, proper volume, boundary, and global
+solutions exist.
+
+Status: `TOPOLOGICAL_CORE_TRANSPORT_INDEPENDENT_IN_DECLARED_CARRIER_DOMAIN`;
+`EMERGENT_HOPF_REALIZATION_DEPENDS_ON_OPEN_SECTION_TRANSPORT_BOUNDARY_OR_DYNAMICS`;
+`CURRENT_BOOTSTRAP_IS_OUTER_ADMISSIBILITY_ONLY`; `VERIFIED-WITH-CAVEATS`. Production 12/12,
+independent exact 9/9, catch-proof 13/13, and cross-result 5/5 checks pass.
+
+The next bounded question is whether complete-metric/coframe variations and the conditional
+reciprocal-toric quotient induce a genuine global Hopf-carrier deformation space, only the known
+latitude/phase seed, or none. This is not authority to adopt a carrier or action, launch dynamics,
+scan density, use the GPU, canonize, move artifacts, or resume repository reorganization.
+
 ## July 23 reciprocal-transport naturality overlay — current authority
 
 Read `udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its

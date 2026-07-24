@@ -8,40 +8,44 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's CURRENT STATE block, the CURRENT STATE block wins.**
 
-## ============ CURRENT STATE (2026-07-23 — RECIPROCAL-TRANSPORT NATURALITY SELECTOR AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. THE REGISTERED UDT PREMISES DO NOT SELECT A UNIQUE PHYSICAL AFFINE CONNECTION. h0=|g^-1(dphi,dphi)|g AND Gamma0=LC(h0) REMAIN EXACT CSN-INVARIANT GEOMETRIC CANDIDATES ON SMOOTH NONNULL-DPHI REGIONS. HOWEVER EVERY Gamma_f=LC(exp(2f(phi))h0) IS CSN-INVARIANT; STRICT RECIPROCAL REVERSAL LEAVES EVERY EVEN f, INCLUDING f=lambda*phi^2, AND THESE COUNTERMODELS AGREE WITH Gamma0 AT THE STATIC phi=0 SEAL WHILE DIFFERING IN THE BULK. POSITIONAL COMPOSITION DERIVES THE ADDITIVE COMPARISON GROUP BUT NOT A LOCAL phi(x)->phi(x)+a GAUGE. ADDING THAT SHIFT INVARIANCE AND STRICT CONNECTION INVARIANCE UNDER REVERSAL WOULD SELECT Gamma0 ONLY WITHIN THE DECLARED Gamma_f FAMILY: UNIQUE-CONDITIONAL. THE DERIVATIVE-ONLY FAMILY A_lambda=A0+lambda*dphi ALSO SURVIVES UNDER REVERSAL COVARIANCE, AND THE ORIENTED OR UNORIENTED DPHI PROJECTOR ALONE DOES NOT DETERMINE A0. TORSION FREEDOM, ZERO STABILIZER ADDITION, AND A BOOTSTRAP LOCAL CONNECTION OPERATOR ARE NOT REGISTERED UDT LAWS. PHYSICAL TRANSPORT IS OPEN_SELECTOR; NULL/ZERO-DPHI AND GLOBAL INTERFACE CLOSURE REMAIN OPEN. STOP CONNECTION DRILLING. THE NEXT BOUNDED SCIENTIFIC QUESTION IS WHETHER THE ALREADY VERIFIED HOPF/TOPOLOGY OBJECTS ARE INDEPENDENT OF THIS OPEN TRANSPORT CHOICE OR REQUIRE A SELECTED SECTION, CARRIER, CONNECTION, OR DYNAMICAL COMPLETION. NO HOPFION RESULT, ACTION, CARRIER, SOURCE, SCALE, OR PHYSICAL TIME LAW IS PROMOTED. NO FOLLOW-ON SOLVE, GPU WORK, CANONIZATION, ARTIFACT MOVE, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-23 — HOPF–TRANSPORT–BOOTSTRAP DEPENDENCY AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. FOR A SUPPLIED SMOOTH MAP n:M3->S2, TARGET AREA-FORM NORMALIZATION, ORIENTED DOMAIN, AND CLOSED OR FIXED BOUNDARY CLASS, THE PULLBACK F, TRUE EXTERIOR CLOSURE dF=0, PRIMITIVE GAUGE CLASS, AND HOPF INTEGRAL ARE AFFINE-TRANSPORT INDEPENDENT. TORSION-FREE CONNECTIONS GIVE THE FAMILIAR COVARIANT REWRITE; PROJECTED/KATO TORSIONFUL TRANSPORT REQUIRES THE EXACT TORSION CORRECTION. A HODGE/COULOMB PRIMITIVE REMAINS METRIC/BOUNDARY/GAUGE DEPENDENT, AND THE CONDITIONAL HOPF PRINCIPAL U(1) CONNECTION IS NOT THE SAME TYPED OBJECT AS AN AFFINE TANGENT CONNECTION. THE EXISTING INTERNAL-TARGET L2+L4 ACTION HAS NO DIRECT AFFINE-CONNECTION INPUT BUT IS NOT METRIC INDEPENDENT: UNDER h->q^2 h IN THREE SPATIAL DIMENSIONS, E2->q E2 AND E4->q^-1 E4. STATIC FINITE-BOX STABILITY RETAINS ITS EXACT CARRIER/ACTION/METRIC/BOX/OPERATOR PREMISES; TIME-LIVE PERSISTENCE REMAINS OPEN. THE ROUND S2 CARRIER REMAINS POSIT, THE INTRINSIC S2 REMAINS A FIBER RATHER THAN A SELECTED SECTION, AND EMERGENT NATIVE HOPF REALIZATION REMAINS AN OPEN JOIN. CURRENT BOOTSTRAP IS OUTER AFTER-SOLUTION ADMISSIBILITY ONLY: IT MAY LATER BRACKET COMPLETE MATTER-BEARING TOPOLOGICAL BRANCHES BY TOTAL PROPER DENSITY, BUT IT DOES NOT DEFINE Q OR SUPPLY A LOCAL SECTION, CONNECTION, ACTION, OR BOUNDARY. THE NEXT BOUNDED QUESTION IS WHETHER COMPLETE-METRIC/COFRAME VARIATIONS INDUCE A GENUINE GLOBAL HOPF-CARRIER DEFORMATION SPACE OR ONLY THE KNOWN CONDITIONAL LATITUDE/PHASE SEED. NO ACTION, CARRIER, SOURCE, BOUNDARY, DENSITY SCAN, TIME-LIVE SOLVE, GPU WORK, CANONIZATION, ARTIFACT MOVE, OR REORGANIZATION IS AUTHORIZED.) ============
 
 **READ NEXT, IN ORDER:**
 
 1. `HANDOFF.md` current marked block.
-2. `udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
-   `STATUS_LEDGER.tsv`, `LAY_READOUT.md`, and `NEXT_STEP.md`.
-3. `udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
+2. `udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `DEPENDENCY_MATRIX.tsv`, `LAY_READOUT.md`, and `NEXT_STEP.md`.
+3. `udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv` and `NEXT_STEP.md`.
-4. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
+4. `udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv` and `NEXT_STEP.md`.
+5. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
    `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and
    `REGRESSION_GUARD_LEDGER.tsv`.
-5. The exact immutable evidence cited by those packages only when the active task makes it
+6. The exact immutable evidence cited by those packages only when the active task makes it
    load-bearing.
 
 **CURRENT HONEST CLAIM:**
 
-- the complete-metric local frame rederivation, Cartan `3+3`, and causal degeneration rules retain
-  their exact premise stamps;
-- `h0=|g^{-1}(dphi,dphi)|g` and `LC(h0)` are derived geometric candidates only on smooth nonnull
-  `dphi` configuration branches; they are not an adopted physical metric or connection;
-- CSN, reciprocal reversal, and the static seal leave an exact infinite even-`f` bulk connection
-  family; positional composition does not supply the missing local-shift gauge;
-- `Gamma0` is unique only conditionally within the declared `Gamma_f` family if both local-shift
-  invariance and strict reversal invariance of the connection are added;
-- derivative-only and projector-only naturality do not close the selector, and neither torsion
-  freedom nor zero stabilizer addition is present UDT authority;
-- torsion-free split preservation is unique only when the orthogonal screen is umbilical, while
-  projected split transport is geometric, generally torsionful, and nonunique;
-- the finite-cell result is a complete cross of the registered taxonomy, not a set of solved
-  universes;
-- the prior arbitrary-representative mixing problem has a local CSN-invariant candidate, but the
-  `h_f` and stabilizer families leave physical selection and null/zero continuation open;
-- no action, source, carrier, boundary, scale, matter, or finite-cell branch is selected.
+- reciprocal kinematics and the complete-metric local `3+3`/causal-stratum results retain their
+  exact premise stamps;
+- physical affine transport remains `OPEN_SELECTOR`; this does not obstruct the differential-form
+  definition of the Hopf class once a carrier map and its domain data are supplied;
+- true exterior closure is connection independent; a torsionful covariant component rewrite must
+  include the exact torsion terms;
+- the Hopf principal connection and affine tangent connection are typed differently and cannot be
+  merged by name;
+- a Hodge-selected primitive and the conditional `L2+L4` energy remain metric dependent; exact
+  spatial conformal weights are `q` and `q^-1`;
+- static stability remains settled only in its existing finite-box carrier/action/operator branch,
+  while time-live persistence remains open;
+- the round internal `S2` is still `POSIT`; the metric-derived sphere fiber does not select a
+  section or derive carrier emergence;
+- current bootstrap is after-solution global admissibility, not a local operator. A density bracket
+  becomes operational only after complete action, source, mass, volume, boundary, and global
+  solutions exist;
+- no complete action, source, carrier, boundary, scale, matter law, or finite-cell solution is
+  selected.
 
 **REGRESSION GUARD:** do not restore negative physical distance, identify `phi` with observer
 rapidity, treat WR-L as the complete frame metric, call co-presence instantaneous signaling, call
@@ -49,7 +53,10 @@ Kato transport physical evolution, turn the celestial `S2` fiber into the carrie
 completion family to an on-shell universe. Do not promote `h0`, its Levi-Civita connection, or the
 minimal projected connection to physical authority merely because the formulas are natural. Do not
 turn comparison-group composition into a local additive `phi` gauge, and do not call covariance of
-the connection family strict physical invariance.
+the connection family strict physical invariance. Do not make a torsionful covariant
+antisymmetrization equal to `d` without its torsion correction, identify a principal Hopf
+connection with affine transport, export the static Hessian to another metric or to physical time,
+or turn bootstrap's future density bracket into a present local mechanism.
 
 **REORGANIZATION:** R0--R1H remains paused. This checkpoint changes navigation and synthesis only;
 all evidence packages and historical records remain immutable.
