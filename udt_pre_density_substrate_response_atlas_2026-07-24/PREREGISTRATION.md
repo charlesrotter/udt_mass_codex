@@ -101,8 +101,9 @@ carrier, action, source, background, or stable solution.
 
 Every physical or geometric choice is registered in
 `PREMISE_LEDGER.tsv`. Every sampled substrate axis is registered in
-`SUBSTRATE_AXIS_REGISTRY.tsv`. No outcome-dependent axis or sample may be
-added to the primary atlas. A later exploratory appendix would require a new
+`SUBSTRATE_AXIS_REGISTRY.tsv`, and every finite anchor value is frozen in
+`SAMPLE_GRID.tsv`. No outcome-dependent axis or sample may be added to the
+primary atlas. A later exploratory appendix would require a new
 preregistration.
 
 ## Falsification and certification contract
@@ -146,4 +147,3 @@ It may identify a metric-derived join if the full transition-law contract
 passes. It may not claim a selected carrier, action, source, boundary,
 physical scale, density window, matter solution, stability theorem, mass, or
 bootstrap closure.
-

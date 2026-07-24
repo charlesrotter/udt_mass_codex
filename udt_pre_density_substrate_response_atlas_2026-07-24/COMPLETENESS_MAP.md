@@ -42,6 +42,7 @@ The Cartesian product to be covered is:
 - 12 completion rows, each represented exactly once in the completion
   coverage and global descent summary;
 - 10 conditional probes, each represented exactly once;
+- 12 frozen sample definitions, with all finite Cartesian products retained;
 - no primary axis or output field named density;
 - no supplied target section, phase/eigenaxis identification, action
   selection, or preferred completion.
@@ -53,4 +54,3 @@ four-manifolds, all coframe gauges, all boundary functionals, or all matter
 fields. Its completeness is the registered complete-coframe axis set and the
 twelve inherited finite-cell completion classes, not the unrestricted
 mathematical universe.
-
