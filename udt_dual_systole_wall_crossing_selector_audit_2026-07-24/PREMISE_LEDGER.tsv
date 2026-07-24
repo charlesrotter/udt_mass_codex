@@ -1,0 +1,24 @@
+id	object	status	use_in_audit	not_supplied
+P01	complete metric angular coframe	REGISTERED_EXACT_INPUT	define H and shifts	complete on-shell universe
+P02	integral torus character lattice	CONDITIONAL	toric branches only	torus structure on nontoric branches
+P03	dual-systole chamber complex	DERIVED_PRIOR	define W_min walls and vertices	physical selection
+P04	reciprocal diagonal H(phi)	DERIVED_CONTROL	test mandatory two-way tie	global physical branch
+P05	reciprocal exchange e1<->e2	DERIVED_ALGEBRAIC_CONTROL	test equivariance	physical seam gluing
+P06	Common-Scale Neutrality	FOUNDING	test common-scale discrimination	representative or phase selector
+P07	finite-cell static phi seal	REGISTERED_PARTIAL	place phi=0 control	value of full angular gluing data
+P08	finite-cell completion taxonomy	BOUNDED_REGISTERED	classify all twelve families	selected completion
+P09	Reciprocity	FOUNDING	test exchange covariance	dynamical continuation
+P10	co-presence	WORKING_INTERPRETATION	test logical type	phase or boundary equation
+P11	X_max observer-pair diameter	WORKING_GLOBAL_SCHEMA	test scale/position relevance	angular character tie-break
+P12	bootstrap primary reading	OWNER_STATED_WORKING	test after-solution admissibility	local wall equation
+P13	bootstrap stronger local fork	OWNER_STATED_WORKING_SEPARATE_FORK	test possible matter-existence role	native operator or density map
+P14	total proper density	WORKING_TYPED_OUTPUT	excluded until mass and volume exist	local insertion
+P15	shift connection and holonomy	DERIVED_CONDITIONAL	test phase-section obstruction	selected line or phase
+P16	cap annihilator condition	DERIVED_CONDITIONAL	test extension compatibility	selected cap or amplitude
+P17	round S2 carrier	POSIT	excluded as selector	native emergence
+P18	L2+L4 action	CONDITIONAL	excluded as selector	native action or coefficient
+P19	time-live matter law	OPEN	no dynamics inferred	branch evolution
+P20	physical boundary framing	OPEN	no phase framing inferred	section lift
+P21	sign or chirality	OPEN	do not identify w~-w lift	orientation selector
+P22	fresh external model review	NOT_AUTHORIZED	grade caveat	independent semantic arm
+

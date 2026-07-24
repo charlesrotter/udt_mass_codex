@@ -1,0 +1,22 @@
+id	injected_or_real_failure	required_detection
+F01	missing candidate row	candidate completeness fails
+F02	duplicate candidate row	candidate uniqueness fails
+F03	reciprocal exchange falsely given a fixed member	equivariance proof fails
+F04	tie silently collapsed to one line	set-versus-line type gate fails
+F05	lexicographic rule called GL2Z covariant	basis-swap catch fails
+F06	identity gluing equated with swap gluing	transition-data gate fails
+F07	unoriented line promoted to signed character	sign-lift gate fails
+F08	projected connection promoted to phase section	section gate fails
+F09	curved connection called globally parallel	curvature gate fails
+F10	nontrivial holonomy ignored	holonomy gate fails
+F11	cap extension asserted without annihilator or amplitude zero	cap gate fails
+F12	torus character asserted after rank loss	toric-existence gate fails
+F13	CSN used as a line discriminator	scale-type gate fails
+F14	seal phi value used as angular gluing data	seal-type gate fails
+F15	bootstrap outer admissibility used as local equation	bootstrap-placement gate fails
+F16	density inserted as local tie-breaking coupling	no-nonlocal-insertion gate fails
+F17	conditional carrier/action used as native selector	carrier-action firewall fails
+F18	one completion privileged for desired Hopf result	solution-space gate fails
+F19	physical matter claimed from geometric character	scientific-scope gate fails
+F20	source hash or base identity altered	source-freeze gate fails
+

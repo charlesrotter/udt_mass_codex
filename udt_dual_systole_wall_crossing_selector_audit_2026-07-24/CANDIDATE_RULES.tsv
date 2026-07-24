@@ -1,0 +1,34 @@
+id	candidate	origin	type_to_test
+C01	whole set-valued W_min continuation	dual-systole geometry	set_continuation
+C02	single shortest line at every point	shortestness	line_selection
+C03	fixed-lattice continuous shortest line	continuity	line_continuation
+C04	reciprocity-equivariant single line	Reciprocity	line_selection
+C05	reciprocal-swap seam gluing	finite-cell mirror candidate	gluing_transition
+C06	identity seam gluing	fixed lattice candidate	gluing_transition
+C07	lexicographic primitive tie-break	coordinate convention	line_selection
+C08	choose incoming line by hysteresis	path history	line_selection
+C09	choose exchange-invariant diagonal line	reciprocal symmetry	line_selection
+C10	sign or orientation lift	orientation/chirality	signed_character
+C11	parallel phase from projected connection	shift connection	phase_section
+C12	connection-curvature tie-break	shift curvature	line_selection
+C13	holonomy-minimizing tie-break	global connection	line_selection
+C14	cap-annihilating character	cap regularity	extension_compatibility
+C15	vanishing amplitude at tie or cap	section regularity	amplitude_completion
+C16	smoothness alone	differential regularity	line_selection
+C17	static phi=0 seal	finite-cell seal	line_selection
+C18	mirror or quotient seam	finite-cell topology	gluing_transition
+C19	periodic monodromy preservation	torus bundle	globally_unique_line
+C20	nonorientation or conjugation	mirror/nonorientable completion	sign_lift
+C21	Common-Scale Neutrality	CSN	line_selection
+C22	complete coframe group law	coframe composition	line_selection
+C23	co-presence	whole-solution ontology	line_selection
+C24	X_max reciprocity/global diameter	global positional structure	line_selection
+C25	bootstrap primary admissibility	owner principle	physical_selection
+C26	bootstrap stronger local fork	owner principle	physical_selection
+C27	total-density or curvature value	global output	line_selection
+C28	action/energy minimization	future dynamics	physical_selection
+C29	time-live bifurcation or Landau-Zener rule	future dynamics	line_continuation
+C30	set-valued physical alternative	no forced single line	physical_interpretation
+C31	rank-loss termination	nontoric stratum	object_existence
+C32	boundary phase framing	future boundary data	phase_section
+
