@@ -1,0 +1,6 @@
+object	result	status	limit
+reciprocal positive ray after CSN	ratio r=v/u	DERIVED_IN_DECLARED_DUAL_REPRESENTATION	projective position interpretation separate
+three-anchor projective coordinate	xi=(r-1)/(r+1)=tanh(rho)	UNIQUE_GIVEN_ANCHORED_PROJECTIVE_INTERPRETATION	axes/neutral anchors plus projective role required
+observer recenter	xi'=(xi-alpha)/(1-alpha*xi)	DERIVED_ON_RECIPROCAL_PROJECTIVE_RAY	alpha=tanh(beta); oriented chart coordinate
+same-direction composition	xi12=(xi1+xi2)/(1+xi1*xi2)	DERIVED_ON_ONE_PARAMETER_DOMAIN	not general nonnegative three-observer distance addition
+physical radial magnitude	abs(xi) with direction stored separately	TYPE_CORRECT_AVAILABLE	does not derive D=Xmax*abs(xi)

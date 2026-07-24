@@ -1,0 +1,5 @@
+profile	D_of_rho	required_B	endpoint_gap	registered_match	status
+PROJECTIVE_TANH	Dmax*tanh(rho)	cosh(rho)^4/Dmax^2	~2*Dmax*exp(-2rho)	projective display only	AVAILABLE_NOT_PHYSICAL_DISTANCE_SELECTED
+EXPONENTIAL_SATURATION	Dmax*(1-exp(-rho))	exp(2rho)/Dmax^2	Dmax*exp(-rho)	WR-L radial proper distance with Dmax=2X	DERIVED_CONDITIONAL_IN_WRL_SLICE_NOT_GLOBAL
+LINEAR_UNBOUNDED	L*rho	1/L^2	none	same-anchor countercontrol	ADMISSIBLE_CONTROL
+FULLFRAME_RADIAL_CONTROL	L*(exp(rho)-1)	exp(-2rho)/L^2	none	conditional CSN-homothetic full-frame radial coframe	DERIVED_CONDITIONAL_CONTROL_NOT_SELECTED

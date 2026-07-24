@@ -1,0 +1,6 @@
+candidate	positive_evidence	blocking_evidence	ruling
+projective xi to physical distance	unique anchored CSN projective coordinate	metric B must equal cosh^4(rho)/Dmax^2; no selected branch supplies it	OPEN_PROJECTIVE_POSITION_SOLDER
+WR-L exponential proper profile	exact D=2X*(1-exp(-rho)) in supplied slice	local radial slice lacks global observer-pair diameter and complete clock/event pairing	CONDITIONAL_LOCAL_PROFILE_NOT_GLOBAL_XMAX
+local Lorentz 3+3 solder	boost-boost commutator generates angular rotation	reciprocal weighting is not Lorentz bracket automorphism; rho-to-rapidity map absent	NOT_DERIVED_TYPE_BLOCKED
+triangular coframe product solder	exact chart group closure	does not descend through independent coframe gauge representatives	CHOSE_IF_USED_AS_PHYSICAL_COMPOSITION
+c-only physical normalization	founding clock-length conversion	dimensionless rho per length needs another length/time normalization	NOT_DERIVED_FROM_C_ALONE
