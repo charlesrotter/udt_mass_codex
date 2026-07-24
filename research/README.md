@@ -23,6 +23,12 @@ equation families and zero of 12 completions supplies a complete simultaneous bo
 The intrinsic irreducible solder remains open and the reducible same-path direct sum remains the
 strongest current assembly.
 
+Next, after the hiatus, perform only the bounded post-July off-shell matter/mass response
+availability audit in the linked `NEXT_STEP.md`. Require a complete variation domain and
+differentiable finite-cell boundary/global term; stop if every candidate is only a conditional
+carrier energy, GR charge, observed density, or supplied normalization. A density sweep and GPU
+work remain unauthorized until a same-solution feedback equation exists.
+
 Supporting historical guard: the
 [phi-equation salvage audit](../udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md)
 retains the exact static reciprocal-metric scalar operator and the

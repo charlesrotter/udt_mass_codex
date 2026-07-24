@@ -21,6 +21,13 @@ operator, but the current after-solution density admissibility supplies no off-s
 response. No path ontology, physical `X_max`, action, source, carrier, boundary, density window,
 mass, or time-live dynamics is selected.
 
+The [next bounded work](udt_bootstrap_clock_angular_closure_audit_2026-07-24/NEXT_STEP.md), after
+the hiatus, is an availability audit of every post-July candidate for a native off-shell
+`M[g,fields]` or equivalent matter/metric response, including its complete variation domain and
+finite-cell boundary/global term. It stops if the candidates are only conditional carrier energies,
+GR charges, observed densities, or supplied normalizations. No density sweep or GPU solve comes
+before a genuine same-solution feedback equation.
+
 When a scalar `phi` equation or profile is proposed, consult the
 [historical phi-equation salvage audit](udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md).
 It retains the old document's exact static metric identities and conditional probe mathematics,

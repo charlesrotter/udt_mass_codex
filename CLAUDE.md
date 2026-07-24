@@ -303,18 +303,21 @@ redirect (nonstationary weld sector / transfer ladder / ensembles).
 
 ## Orientation
 
-- **⚠ WORK IS ON THE `grok` BRANCH (as of 2026-07-10).** If the working tree isn't on grok, `git checkout grok`.
+- **⚠ WORK IS ON THE `grok` BRANCH (as of 2026-07-24).** If the working tree isn't on grok, `git checkout grok`.
   LIVE.md / HANDOFF.md / MEMORY.md / INDEX.md **on grok** are the current orientation; `main` is stale for this arc.
 - **`LIVE.md` (on grok) IS THE FIRST READ — the only guaranteed-current file** (frontier + next action). If
-  anything else disagrees with it, LIVE.md wins. Read order: **LIVE.md → CLAUDE.md "How we work" + "DRIVER TRIGGERS"
-  + the `.claude/skills/` discipline skills → HANDOFF.md TOP (detailed record) → INDEX.md (repo map).** (No current
-  `PURSUIT_CHARTER_*.md` — the latest is SUPERSEDED; skip it.)
+  anything else disagrees with it, LIVE.md wins. Follow the bounded startup order in **`AGENTS.md`**:
+  current blocks in **LIVE → HANDOFF → scientific frontier → the current audit**, then only the
+  task-triggered **CLAUDE.md** method sections, protocol, and load-bearing evidence. Use
+  **INDEX/MEMORY** last as pointer checks. (No current `PURSUIT_CHARTER_*.md` — the latest is
+  SUPERSEDED; skip it.)
 - **Current state / frontier / pending decision: DO NOT TRACK IT HERE — this file goes stale (a 2026-07-04
   dress rehearsal caught exactly this bullet describing an already-superseded "stability arc" frontier).**
-  The ONLY current sources are `LIVE.md` TOPMOST + `HANDOFF.md` TOP (LIVE names the current arc's read-chain; there is
-  NO current `PURSUIT_CHARTER_*.md` — the latest, 07-04, is SUPERSEDED). CLAUDE.md is the BINDING METHOD (principles 1-7, how-we-work,
-  DRIVER TRIGGERS, repo discipline) — NOT the frontier. If you want to know what's done / what's next, read LIVE +
-  HANDOFF TOP, never this bullet. **pytest on grok: 70 passed / 1 xfailed / 0 failed** — 37
+  The ONLY current sources are `LIVE.md` TOPMOST + `HANDOFF.md` TOP and the exact current
+  frontier/audit they name (there is NO current `PURSUIT_CHARTER_*.md` — the latest, 07-04, is
+  SUPERSEDED). CLAUDE.md is the BINDING METHOD (principles 1-7, how-we-work, DRIVER TRIGGERS, repo
+  discipline) — NOT the frontier. If you want to know what's done / what's next, follow the
+  bounded `AGENTS.md` order, never this bullet. **pytest on grok: 70 passed / 1 xfailed / 0 failed** — 37
   byte-identical legacy `simple_metric_*` documents and their exact 88 hygiene omissions are guarded
   by `hygiene_baseline_correction_2026-07-23/HYGIENE_LEGACY_BACKLOG.tsv`; new omissions remain hard
   failures. Run `python3 -m pytest tests/` and trust the live count.

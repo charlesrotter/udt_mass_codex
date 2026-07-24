@@ -29,54 +29,43 @@ after the user's actual task makes them load-bearing.
    `CURRENT STATE` overrides every other status description. Do not read the remaining historical
    layers at startup.
 2. `HANDOFF.md` — read only its `STARTUP_CURRENT_BEGIN` / `STARTUP_CURRENT_END` range.
-3. `udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md`, then its
-   `STATUS_LEDGER.tsv`, `OWNER_FRAME_LEDGER.tsv`, `EXACT_DERIVATION.md`,
-   `DEPTH_TYPE_RULING_LEDGER.tsv`, `COMPOSITION_DOMAIN_LEDGER.tsv`, `LAY_REPORT.md`, and
-   `NEXT_STEP.md`. This is the current bounded result: dilation is an inter-frame relation with
-   neutral local self-depth; one absolute scalar-difference encoding fails in the complete round
-   control; the observer-indexed bilocal type survives with its profile and transitions open.
-4. `udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md`, then its
-   `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `TRANSPORT_TYPE_LEDGER.tsv`,
-   `CLOCK_READOUT_LEDGER.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`. This parent result derives the
-   abstract ordered reciprocal operator and exact balanced `O(1,1)` form while leaving physical
-   mutual-clock readout and the complete metric solder open.
-5. `udt_two_observer_separation_selector_audit_2026-07-24/AUDIT_REPORT.md` and
-   `udt_xmax_observer_separation_audit_2026-07-24/AUDIT_REPORT.md` only when the preceding
-   complete-metric distance candidates or the controlling global-pair-diameter meaning of
-   `X_max` is load-bearing.
-6. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
-   `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and `REGRESSION_GUARD_LEDGER.tsv`.
-   This is a prior evidence-linked routing layer, not authority over its cited evidence.
-7. `udt_finite_cell_cartan_transport_atlas_2026-07-23/AUDIT_REPORT.md`, then its
-   `STATUS_LEDGER.tsv`, `FINITE_CELL_CARTAN_TRANSPORT_ATLAS.tsv`, and
-   `COMPLETION_CAUSAL_CROSS.tsv` when the causal `dphi` structure or current open seam is relevant.
-   Read the frame/bivector and metric-pure parent reports only when their exact algebra or lineage
-   becomes load-bearing.
+3. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay.
+4. `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `BOOTSTRAP_ROUTE_LEDGER.tsv`, `EQUATION_FAMILY_GATE_MATRIX.tsv`,
+   `COMPLETION_BOOTSTRAP_ATLAS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and
+   `NEXT_STEP.md`. This is the current bounded result: a simple screen tidal spectrum plus
+   `det(T+a^2 I)=0` selects a conditional intrinsic clock-matched line, while parallelism, global
+   descent, path-cocycle completion, and the native matter response remain separate open gates.
+5. `udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md` only when the parent
+   pointwise generator, screen-line, or path-cocycle premises become load-bearing.
+6. The observer longitudinal/transverse cocycle, relational-depth, clock-operator,
+   complete-metric separation, and `X_max` packages named by the frontier only when their exact
+   path, bilocal, local-neutrality, or global-diameter premises become load-bearing.
+7. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
+   `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and `REGRESSION_GUARD_LEDGER.tsv`
+   only when a prior complete-metric, bootstrap, or regression-guard claim is load-bearing. This
+   is a prior evidence-linked routing layer, not authority over its cited evidence.
 8. `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
    `CLAIM_DEPENDENCY_LEDGER.tsv` and `OPEN_JOIN_LEDGER.tsv`, then
    `REFERENCE_CORRECTION_LAYER.md`, `REVIEW_AGREEMENT_DISAGREEMENT.tsv`, and `PONDER_READOUT.md`.
    The frozen reference plus append-only cold-review layer is a prior dependency spine, not
    authority over its cited evidence.
-9. `udt_global_metric_assembly_atlas_2026-07-22/LAY_REPORT.md`, then `AUDIT_REPORT.md`,
-   `STATUS_LEDGER.tsv`, and `NEXT_DECISION.md` when the map or proposed next question is relevant.
-10. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` and the July 19/20 source package named by the reference
-   only when the task requires that layer's derivation or provenance.
-11. `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`, then
+9. `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`, then
    `angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv` when the conditional global Hopf
    theorem is relevant.
-12. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` only when the exact reciprocal
+10. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` only when the exact reciprocal
    Hopf-orbit witness or its provenance becomes load-bearing, then
    `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` for the preceding carrier/topology
    classification only when that layer is relevant.
-13. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task; none are
+11. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task; none are
    part of generic startup orientation.
-14. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
+12. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
    is durable lane evidence, not the global frontier.
-15. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline only; do not dump the
+13. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline only; do not dump the
    whole charter at startup.
-16. Only the specific full protocol under `.claude/skills/*/SKILL.md` triggered by the actual task;
+14. Only the specific full protocol under `.claude/skills/*/SKILL.md` triggered by the actual task;
    do not preload every skill.
-17. The top/current summary in `INDEX.md` and `MEMORY.md`'s `TOP — CURRENT POINTER` for pointers only;
+15. The top/current summary in `INDEX.md` and `MEMORY.md`'s `TOP — CURRENT POINTER` for pointers only;
     neither can overrule `LIVE.md`.
 
 For the 1,114 fixed-base artifact identities, use
@@ -91,15 +80,25 @@ Then give Charles a short orientation report: actual HEAD and dirt, the current 
 premise stamps, the open gate, and the proposed bounded next action. Do not mutate files or launch a
 long solve until that orientation is complete.
 
-The bootstrap/stable-matter interpretation remains a working hypothesis. The current bounded chain
-derives the abstract ordered reciprocal observer-pair operator with founding-premise stamps and
-narrows its global input to an observer-indexed bilocal depth type, conditional on an open profile,
-signed lift, and chart-transition law. Dilation is an inter-frame comparison: every observer has
-neutral self-depth and unchanged local physics. The three-observer theorem rejects only a universal
-absolute-scalar-difference encoding; it does not reject pairwise dilation. Angular data is required
-for non-collinear composition. Do not silently turn the surviving type, a projective display, the
-balanced `O(1,1)` representation, coordinate-covector transport, or `sech` diagnostic into a
-physical mutual-clock law, signal law, or selected `X_max`.
+The bootstrap/stable-matter interpretation remains a working hypothesis. The current bounded audit
+derives a conditional intrinsic clock-matched screen projector when the screen tidal spectrum is
+simple and `det(T+a^2 I)=0`. Tidal invariance then follows; parallelism, global descent, and
+path-cocycle completion remain separate gates. The prior B19 and WR-L failures remain exact in their
+source-free or conditional scopes, not universal matter-filled no-go results. The present density
+principle is after-solution admissibility: no registered post-July result yet supplies the native
+off-shell mass/source variation and differentiable finite-cell boundary/global response needed for
+a same-solution bootstrap. The next bounded task after the hiatus is the post-July source-availability
+audit specified in `udt_bootstrap_clock_angular_closure_audit_2026-07-24/NEXT_STEP.md`. Do not launch
+a density sweep before that response interface exists.
+
+The prior observer-pair chain derives the abstract ordered reciprocal operator with founding-premise
+stamps and narrows its global input to an observer-indexed bilocal depth type, conditional on an open
+profile, signed lift, and chart-transition law. Dilation is an inter-frame comparison: every
+observer has neutral self-depth and unchanged local physics. The three-observer theorem rejects only
+a universal absolute-scalar-difference encoding; it does not reject pairwise dilation. Angular data
+is required for non-collinear composition. Do not silently turn the surviving type, a projective
+display, the balanced `O(1,1)` representation, coordinate-covector transport, or `sech` diagnostic
+into a physical mutual-clock law, signal law, or selected `X_max`.
 
 The prior complete-metric chain supplies the exact timelike boost/rotation `3+3`, full connection
 mixing, spacelike/null/zero causal classification, and the 12-by-5 completion-family cross. It also

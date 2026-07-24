@@ -7,32 +7,30 @@
 ## TOP — CURRENT POINTER (2026-07-24)
 
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block,
-then the marked current block in `HANDOFF.md`, then
-`udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md`
-and its compact status/exact/lay/next-step records, then the parent
-`udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md`.
+then the marked current block in `HANDOFF.md`, then the top/current overlay in
+`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
+`udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`
+and its compact status/bootstrap-route/equation-family/completion/exact/lay/next-step records.
+Read the parent intrinsic-solder and observer-pair packages only when their exact premises become
+load-bearing.
 Expand only to the exact cited evidence made load-bearing by the active task.
 
-Current honest status: the abstract ordered reciprocal observer-pair operator
-is derived with founding-premise stamps and has an exact balanced `O(1,1)`
-representation. Dilation compares frames and leaves each observer's local
-physics neutral. The complete-round three-observer control rejects only a
-universal observer-independent scalar-difference encoding, not pairwise
-dilation. The smallest surviving metric-native type is an observer-indexed
-bilocal family conditional on its open profile, signed lift, chart transitions,
-and physical readout; angular data is required for non-collinear composition.
-`C2`/Bach remains
-`UNIQUE-CONDITIONAL`; EH is `CONDITIONAL`; the round `S2` carrier is `POSIT`;
-particle stability is `SETTLED_STATIC_FINITE_BOX_CONDITIONAL`. Complete
-action, native source, boundary charge, physical representative, absolute
-scale, physical `X_max`, mass/density/CMB interpretation, bridge, carrier
-emergence, time-live matter law, and unconditional mass remain `OPEN`.
+Current honest status: the source-free B19 and conditional/local WR-L failures remain exact in
+their tested scopes but are not universal no-go results for a self-consistent matter-filled
+universe. For a symmetric screen tidal operator `T`, a simple spectrum together with
+`det(T+a^2 I)=0` selects the unique clock-matched line through
+`P_clock=I-(T+a^2 I)/(tr T+2a^2)`. Tidal invariance is automatic; parallelism is the separate
+condition `[T,D_lambda T]=0`; global descent and path-cocycle completion remain open. The current
+density bootstrap is after-solution admissibility and supplies no native off-shell mass/source
+response. Zero of 28 equation families and zero of 12 completions supplies a complete simultaneous
+metric-matter-boundary bootstrap.
 
-The current bounded seam is whether founding observer reciprocity plus the
-complete coframe derives a transition law between observer-indexed depth-and-angle
-charts while retaining a neutral local identity at each observer. This pointer
-authorizes no action or profile selection, density insertion, matter/time-live
-solve, GPU work, canonization, artifact move, or repository reorganization.
+The current bounded seam, after the hiatus, is a source-availability audit of post-July candidates:
+does any candidate supply a native off-shell `M[g,fields]` or equivalent matter/metric response,
+including its full variation domain and differentiable finite-cell boundary/global term? Do not run
+a density sweep until an actual same-solution response equation exists. This pointer authorizes no
+action, carrier, source, boundary, density value, matter/time-live/GPU solve, canonization, artifact
+move, or repository reorganization.
 
 ## DURABLE PRIOR MACRO FRONTIER (2026-07-09 simple metric + WR-L canon)
 
