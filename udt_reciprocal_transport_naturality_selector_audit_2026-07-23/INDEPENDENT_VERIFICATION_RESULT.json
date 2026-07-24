@@ -1,0 +1,45 @@
+{
+  "agreement": {
+    "production_all_checks_pass": true,
+    "production_conclusion_open_selector": true,
+    "production_counterfamily_bulk_nonzero": true,
+    "production_projector_result_matches": true,
+    "production_shift_reversal_conditional_only": true
+  },
+  "all_checks_pass": true,
+  "catches": {
+    "reject_Hopfion_inference": true,
+    "reject_bootstrap_as_local_connection_operator": true,
+    "reject_local_shift_as_registered_CSN_gauge": true,
+    "reject_missing_even_counterfamily": true,
+    "reject_mutated_source_hash": true,
+    "reject_null_extension": true,
+    "reject_physical_transport_promotion": true,
+    "reject_projector_unique_A0": true,
+    "reject_seal_as_bulk_selector": true,
+    "reject_torsion_free_as_registered_law": true,
+    "reject_unscoped_unique_claim": true,
+    "reject_zero_stabilizer_as_registered_law": true
+  },
+  "counts": {
+    "agreement_passed": 5,
+    "agreement_total": 5,
+    "catches_passed": 12,
+    "catches_total": 12,
+    "exact_checks_passed": 9,
+    "exact_checks_total": 9
+  },
+  "exact_checks": {
+    "constant_derivative_family_flips_under_reversal": true,
+    "even_f_bulk_connection_distinct": true,
+    "even_f_connection_reversal": true,
+    "even_f_seal_derivative_zero": true,
+    "even_f_value_reversal": true,
+    "linear_rescaling_A0_shift_zero": true,
+    "nonlinear_same_projector_A0_shift_nonzero": true,
+    "projector_exactly_rescaling_invariant": true,
+    "sources_match_frozen_manifest": true
+  },
+  "method": "Python stdlib and exact Fraction arithmetic; no SymPy and no controller import",
+  "schema": "udt-reciprocal-transport-naturality-independent-v1"
+}

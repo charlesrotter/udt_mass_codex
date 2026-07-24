@@ -1,0 +1,196 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "CSN_Weyl_connection_invariant": true,
+    "CSN_h0_invariant": true,
+    "derivative_family_reversal_is_covariant_lambda_flip": true,
+    "derivative_family_strict_reversal_selects_lambda_zero": true,
+    "even_f_bulk_connection_distinct": true,
+    "even_f_matches_Gamma0_at_static_seal": true,
+    "even_f_strict_reversal_invariant": true,
+    "linear_group_coordinate_rescaling_leaves_A0": true,
+    "local_shift_leaves_only_affine_f": true,
+    "nonlinear_reparameterization_changes_A0_by_kappa_dphi": true,
+    "regular_character_leaves_only_affine_f": true,
+    "same_projector_under_nonzero_rescaling": true,
+    "shift_and_reversal_leave_constant_f": true,
+    "source_authority_checks_pass": true,
+    "source_manifest_matches": true,
+    "strict_reversal_leaves_only_even_nonconstant_terms": true
+  },
+  "conditional_theorem": {
+    "does_not_remove_independent_stabilizer_connection_data": true,
+    "extra_assumptions": [
+      "local phi-shift invariance",
+      "strict affine-connection invariance under reciprocal reversal"
+    ],
+    "result": "Gamma_f=Gamma0",
+    "scope": "Gamma_f Levi-Civita/Weyl counterfamily only",
+    "status": "UNIQUE_CONDITIONAL"
+  },
+  "csn": {
+    "A0_transformation": "A0bar=A0-dlogOmega",
+    "Gamma_f_invariant_for_every_smooth_f": true,
+    "h0_transformation": "h0bar=h0",
+    "s_transformation": "sbar=Omega^-2 s"
+  },
+  "derivative_only_family": {
+    "current_authority_for_strict_invariance": "NOT_DERIVED",
+    "family": "A_lambda=A0+lambda*dphi",
+    "strict_reversal_invariance": "lambda=0",
+    "under_reversal_covariance": "lambda maps to -lambda"
+  },
+  "full_phi_family": {
+    "bulk_witness_nonzero_connection_components": 40,
+    "counterfamily": "f(phi)=lambda*phi^2+mu*phi^4",
+    "counterfamily_matches_Gamma0_at_static_seal": true,
+    "family": "Gamma_f=LC(exp(2f(phi))*h0)",
+    "strict_reversal_condition": "f'(-phi)=-f'(phi), equivalently f even up to a constant"
+  },
+  "group_coordinate": {
+    "A0_change": "zero",
+    "additive_automorphism": "phibar=a*phi with constant nonzero a",
+    "composition_is_not_local_shift_gauge": true,
+    "nonlinear_monotone_reparameterization_preserves_group_law": false
+  },
+  "polynomial_classification": {
+    "checks": {
+      "local_shift_leaves_only_affine_f": true,
+      "regular_character_leaves_only_affine_f": true,
+      "shift_and_reversal_leave_constant_f": true,
+      "strict_reversal_leaves_only_even_nonconstant_terms": true
+    },
+    "degree": 5,
+    "local_shift_free_coefficients": [
+      "a0",
+      "a1"
+    ],
+    "local_shift_solution": [
+      "{a2: 0, a3: 0, a4: 0, a5: 0}"
+    ],
+    "regular_character_free_coefficients": [
+      "a0",
+      "a1"
+    ],
+    "regular_character_solution": [
+      "{a2: 0, a3: 0, a4: 0, a5: 0}"
+    ],
+    "shift_plus_strict_reversal_connection": "Gamma0",
+    "shift_plus_strict_reversal_solution": [
+      "{a1: 0, a2: 0, a3: 0, a4: 0, a5: 0}"
+    ],
+    "strict_reversal_free_coefficients": [
+      "a0",
+      "a2",
+      "a4"
+    ],
+    "strict_reversal_solution": [
+      "{a1: 0, a3: 0, a5: 0}"
+    ]
+  },
+  "projector_only": {
+    "A0_change": "A0bar-A0=kappa*dphi",
+    "P_under_dphi_to_q_dphi": "unchanged",
+    "conclusion": "the oriented or unoriented line/projector alone does not determine A0",
+    "reparameterization": "F'(phi)=exp(kappa*phi)>0"
+  },
+  "schema": "udt-reciprocal-transport-naturality-v1",
+  "scope_exclusions": [
+    "null dphi",
+    "zero dphi",
+    "global branch continuation",
+    "action",
+    "carrier or Hopfion",
+    "source",
+    "boundary charge",
+    "physical time evolution"
+  ],
+  "selector_adjudication": {
+    "exact_surviving_counterfamily": "all smooth even f with f'(0)=0, including lambda*phi^2",
+    "registered_sources_select_Gamma0": false,
+    "registered_sources_select_projected_connection": false,
+    "remaining_smallest_datum": "a typed native transport/naturality law specifying which phi data and which reversal action are physical",
+    "status": "OPEN_SELECTOR"
+  },
+  "source_authority": {
+    "all_checks_pass": true,
+    "checks": {
+      "bootstrap_explicitly_not_local_equation": true,
+      "bootstrap_no_realization_operator": true,
+      "complete_native_equation_open": true,
+      "group_depth_local_field_map_open": true,
+      "local_phi_shift_not_CSN_gauge": true,
+      "physical_connection_selector_parent_open": true,
+      "reversal_and_seal_counterfamily_parent_verified": true,
+      "split_connection_uniqueness_parent_refuted": true,
+      "static_seal_no_eom": true,
+      "static_seal_scope_only": true,
+      "universal_phi_transformation_not_derived": true
+    },
+    "not_registered_as_local_selector": {
+      "bootstrap_local_connection_operator": true,
+      "local_phi_shift_gauge": true,
+      "seal_bulk_connection_rule": true,
+      "strict_affine_connection_invariance_under_reversal": true,
+      "torsion_free_transport": true,
+      "zero_stabilizer_addition": true
+    },
+    "registered": {
+      "CSN": true,
+      "reciprocal_group_reversal": true,
+      "relative_composition": true,
+      "static_seal_phi_zero": true
+    }
+  },
+  "source_manifest": [
+    {
+      "actual_sha256": "c3d7cf1d0b24d83958b23ae55624259dba0a46c8bebd3308caadda873b67b5ac",
+      "expected_sha256": "c3d7cf1d0b24d83958b23ae55624259dba0a46c8bebd3308caadda873b67b5ac",
+      "match": true,
+      "path": "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md"
+    },
+    {
+      "actual_sha256": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003",
+      "expected_sha256": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003",
+      "match": true,
+      "path": "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md"
+    },
+    {
+      "actual_sha256": "4bb0da9098da0a9970602e2449615eef151796b0d7fe7a9978f4b66145748a34",
+      "expected_sha256": "4bb0da9098da0a9970602e2449615eef151796b0d7fe7a9978f4b66145748a34",
+      "match": true,
+      "path": "UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md"
+    },
+    {
+      "actual_sha256": "d38232792ac78188687db433a3f60a08c775c46e9ecf5fc42ad7953dc89fadb0",
+      "expected_sha256": "d38232792ac78188687db433a3f60a08c775c46e9ecf5fc42ad7953dc89fadb0",
+      "match": true,
+      "path": "UDT_NATIVE_ACTION_COLD_PACKET.md"
+    },
+    {
+      "actual_sha256": "1b0be4a14eec3729beb617aab0748cd4b7f0bb7dc4ded777aa636360fe291924",
+      "expected_sha256": "1b0be4a14eec3729beb617aab0748cd4b7f0bb7dc4ded777aa636360fe291924",
+      "match": true,
+      "path": "udt_phi_metric_ontology_audit_2026-07-22/PHI_ONTOLOGY_LEDGER.tsv"
+    },
+    {
+      "actual_sha256": "4f9a5cf443944bb3b764f2c67986bf3e3e4d659b57df6011f2bd33647ba322b9",
+      "expected_sha256": "4f9a5cf443944bb3b764f2c67986bf3e3e4d659b57df6011f2bd33647ba322b9",
+      "match": true,
+      "path": "udt_phi_metric_ontology_audit_2026-07-22/SEMANTIC_CONFLICT_LEDGER.tsv"
+    },
+    {
+      "actual_sha256": "393889c25975e8c9bded1f9e5aac90b285273c80e40914f1492159b61ae093d5",
+      "expected_sha256": "393889c25975e8c9bded1f9e5aac90b285273c80e40914f1492159b61ae093d5",
+      "match": true,
+      "path": "udt_premise_reset_audit_2026-07-19/OWNER_MEANING_LEDGER.tsv"
+    },
+    {
+      "actual_sha256": "6b5111ad16ba4bdab982cce0305430757b0d4e4bc6a255ef747cf639570f77a9",
+      "expected_sha256": "6b5111ad16ba4bdab982cce0305430757b0d4e4bc6a255ef747cf639570f77a9",
+      "match": true,
+      "path": "udt_csn_dphi_transport_selector_audit_2026-07-23/STATUS_LEDGER.tsv"
+    }
+  ],
+  "sympy_version": "1.13.1"
+}
