@@ -1,0 +1,174 @@
+{
+  "authority_boundary": {
+    "action_source_carrier_density_selected": false,
+    "canon_changed": false,
+    "cross_branch_splice": false,
+    "generator_condition_made_field_equation": false,
+    "gpu_or_time_live_work": false,
+    "intrinsic_solder_promoted": false,
+    "path_type_selected": false,
+    "physical_Xmax_promoted": false,
+    "repository_reorganization": false,
+    "screen_direction_selected": false,
+    "startup_navigation_changed": true
+  },
+  "base": "2e98f4cc91a0accbfe8a5e96d180ef3f297d8da0",
+  "catch_proofs": {
+    "current_paths": "PASS",
+    "dirty": "PASS_REJECTED",
+    "frontier": "PASS",
+    "frozen": "PASS",
+    "package": "PASS_REJECTED",
+    "science_branches": "PASS_REJECTED",
+    "science_causal": "PASS_REJECTED",
+    "science_completions": "PASS_REJECTED",
+    "science_direct_sum": "PASS_REJECTED",
+    "science_equations": "PASS_REJECTED",
+    "science_generators": "PASS_REJECTED",
+    "science_hodge": "PASS_REJECTED",
+    "science_screen": "PASS_REJECTED",
+    "science_solder": "PASS_REJECTED",
+    "science_sources": "PASS_REJECTED",
+    "science_splice": "PASS_REJECTED",
+    "science_types": "PASS_REJECTED",
+    "science_universal": "PASS_REJECTED",
+    "science_wrl": "PASS_REJECTED",
+    "science_xmax": "PASS_REJECTED",
+    "scope": "PASS_REJECTED"
+  },
+  "dirty_checkout": {
+    "branch": "grok",
+    "contents_read": false,
+    "head": "adf8f92d95c387cc647f04b16f1f3b17e1e670d2",
+    "metadata_sha256": "345d297e0ad849cd38f1d817c915922de653ca2d2befcf923af6f9d097b483e4",
+    "note": "Only separately authorized phiequations.md content was read before this audit.",
+    "paths": 55,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 35,
+    "manifest_sha256": "cb82d6178b8c420962c127c30fb880072ac15ddf0f4da43d73402b9c372bd33d",
+    "result": "PASS"
+  },
+  "result": "PASS",
+  "schema": "udt-intrinsic-clock-transverse-solder-gates-1.0",
+  "science": {
+    "branches": 6,
+    "candidate_types": 12,
+    "causal_classes": 5,
+    "deterministic_replay": "BYTE_IDENTICAL",
+    "direct_sum": "DERIVED_REMAINS_STRONGEST_CURRENT_ASSEMBLY",
+    "equation_families": 28,
+    "finite_cell_completions": 12,
+    "generator_controls": 5,
+    "independent_catches": 15,
+    "independent_checks": 60,
+    "independent_sha256": "d6c816dede3c7371193f01e3d97c18ec57c42624d0f46ad07a23d35d3afe1571",
+    "intrinsic_solder": "OPEN_NO_REGISTERED_WITNESS",
+    "production_checks": 80,
+    "production_sha256": "661330b7d40415c44eee07cac87b26c4f2dc579b0f60f605694f775e5468ef2c",
+    "result": "PASS",
+    "source_identities": 21
+  },
+  "scope_paths": [
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "README.md",
+    "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
+    "research/README.md",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/ADVERSARIAL_REVIEW.md",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/BRANCH_SOLDER_ATLAS.tsv",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/CAUSAL_SOLDER_ATLAS.tsv",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/COMMANDS.txt",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/COMPLETION_SOLDER_ATLAS.tsv",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/DERIVATION_RESULT.json",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/EXACT_DERIVATION.md",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/FALSIFICATION_CONTRACT.tsv",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/FOUR_GATES.md",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/GENERATOR_MATCH_ATLAS.tsv",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/INDEPENDENT_STDERR.txt",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/INDEPENDENT_STDOUT.txt",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/INDEPENDENT_VERIFICATION.json",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/LAY_REPORT.md",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/NEXT_STEP.md",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/POST_PREREG_GENERATOR_SCOPE_CLARIFICATION.md",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/PREMISE_LEDGER.tsv",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/PREREGISTRATION.md",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/PRODUCTION_STDERR.txt",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/PRODUCTION_STDOUT.txt",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/RUN_ENVIRONMENT.json",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/SHA256SUMS.txt",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/SOLDER_TYPE_LEDGER.tsv",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/SOURCE_LINEAGE.tsv",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/SOURCE_NAVIGATION_CLARIFICATION.md",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/STATUS_LEDGER.tsv",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/TEST_STDERR.txt",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/TEST_STDOUT.txt",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/build_manifest.py",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/capture_tests.py",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/derive_intrinsic_solder.py",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/replay_and_capture.py",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/requirements.txt",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/verify_intrinsic_solder_independent.py",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/verify_repository_gates.py"
+  ],
+  "tests": {
+    "failed": 0,
+    "passed": 70,
+    "recorded_stdout_sha256": "8bddcda61dbe4e9c9fa4e793249781a6e3dd7a6f7ec8bc5b73caaa000219f068",
+    "result": "PASS",
+    "stdout_sha256": "c23f7adf1839529c0276bfad3406ca321f681211429a0c98c7592269e9a31b01",
+    "xfailed": 1
+  }
+}

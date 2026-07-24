@@ -4,19 +4,21 @@
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
 **➤ CURRENT SCIENTIFIC FRONTIER:**
-`udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/AUDIT_REPORT.md`, then its
-`STATUS_LEDGER.tsv`, `BRANCH_COCYCLE_ATLAS.tsv`, `COCYCLE_TYPE_LEDGER.tsv`,
+`udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `SOLDER_TYPE_LEDGER.tsv`, `GENERATOR_MATCH_ATLAS.tsv`,
+`BRANCH_SOLDER_ATLAS.tsv`, `CAUSAL_SOLDER_ATLAS.tsv`, `COMPLETION_SOLDER_ATLAS.tsv`,
 `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
 
-The angular-area/Jacobi map is not itself composable, but the complete transverse
-separation-plus-direction state has an exact metric-derived symplectic path cocycle that remains
-invertible through caustics. The typed endpoint clock ratio also composes. Their direct sum is a
-derived reducible common-path cocycle. Identifying its clock log-ratio with founding reciprocal
-depth is conditional; an intrinsic irreducible solder and a complete nontrivial all-observer
-realization remain open. B19 supplies complete transverse transport with trivial clock; WR-L
-supplies both locally without global recentering, and they may not be spliced. Next: test whether
-the complete metric supplies the missing intrinsic solder. No profile, path ontology, action,
-density, matter/time-live/GPU work, canonization, or reorganization is authorized.
+Hodge exactly relates oriented longitudinal and screen areas but is not a clock/Jacobi solder: it
+loses reciprocal depth and maps the wrong bundle. Endpoint screen gauge blocks every nonzero
+linear clock-to-phase map until a screen reduction is supplied. A preserved scalar phase mode
+requires a parallel tidal-invariant screen line; its pointwise natural-frame generator matches
+the reciprocal clock only when `K_screen=-(d delta/d lambda)^2`. Neither B19 nor WR-L passes;
+WR-L does retain `R=X(1-Q^-2)` as a local scalar profile identity. No complete branch supplies the
+intrinsic irreducible solder, so the reducible same-path direct sum remains the strongest current
+assembly. Next: audit whether existing native equations can enforce the exact four solder gates.
+No new postulate, profile, screen direction, action, density, matter/time-live/GPU work,
+canonization, or reorganization is authorized.
 
 **➤ SUPPORTING HISTORICAL `PHI`-EQUATION SALVAGE:**
 `udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md`, then its

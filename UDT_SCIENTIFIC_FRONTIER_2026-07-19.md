@@ -4,7 +4,53 @@ Date: 2026-07-24
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
-## July 24 observer longitudinal/transverse cocycle overlay — current authority
+## July 24 intrinsic clock/transverse solder overlay — current authority
+
+Read `udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `SOLDER_TYPE_LEDGER.tsv`, `GENERATOR_MATCH_ATLAS.tsv`,
+`BRANCH_SOLDER_ATLAS.tsv`, `CAUSAL_SOLDER_ATLAS.tsv`, `COMPLETION_SOLDER_ATLAS.tsv`,
+`EXACT_DERIVATION.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+
+Given an oriented typed observer/path `2+2` split, Hodge duality exactly maps longitudinal area to
+screen area and is preserved by Levi-Civita transport. It does not carry reciprocal depth:
+reciprocal boosts and screen rotations both have determinant one, and spacetime area bivectors
+are type-distinct from Jacobi phase states.
+
+Without a metric-selected screen reduction, endpoint `SO(2)` gauge forces every linear
+clock-to-phase map to zero. Once a screen line is supplied, its phase subbundle is preserved iff
+the line is parallel and the tidal operator preserves it. For nonzero clock rate, its scalar
+Jacobi generator is pointwise real-similar to the reciprocal generator exactly when
+
+```text
+K_screen=-(d delta/d lambda)^2.
+```
+
+This is a characterized condition, not a new UDT field equation. B19 has positive screen
+curvature and trivial clock. WR-L has the exact centered scalar identity
+`R=X(1-Q^-2)`, but its positive radial screen curvature prevents pointwise natural-frame
+generator similarity to its nonzero clock rate. An arbitrary path-dependent basis can be
+manufactured but is not intrinsically selected.
+
+The field-assisted nonnull-`dphi` `3+3` and prior matched-angular intertwiner remain exact
+conditional reductions; neither selects the missing rank-two Jacobi phase subbundle. No complete
+registered branch supplies an intrinsic irreducible solder. The reducible common-path direct sum
+from the parent audit remains the strongest current assembly.
+
+Status: `NORMAL_SCREEN_AREA_HODGE_DUALITY_DERIVED`;
+`LINEAR_CLOCK_TO_PHASE_MAP_OBSTRUCTED_WITHOUT_SCREEN_REDUCTION`;
+`PARALLEL_TIDAL_LINE_CRITERION_DERIVED_IFF`;
+`POINTWISE_GENERATOR_MATCH_UNIQUE_CONDITION_CHARACTERIZED`;
+`WRL_SCALAR_PROFILE_RELATION_DERIVED_LOCAL`;
+`INTRINSIC_IRREDUCIBLE_SOLDER_OPEN_NO_REGISTERED_WITNESS`;
+`VERIFIED-WITH-CAVEATS`.
+
+The next bounded question is whether any already registered native equation or admissibility
+condition can enforce the parallel-line, tidal-invariance, negative-curvature clock-match, and
+global-descent gates. This is not authority to invent a field equation, solve backward for a
+profile, choose a screen direction, splice branches, insert density, launch matter/time-live/GPU
+work, calculate physical `X_max`, canonize, move artifacts, or resume repository reorganization.
+
+## July 24 observer longitudinal/transverse cocycle overlay — parent authority
 
 Read
 `udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/AUDIT_REPORT.md`, then its

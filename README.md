@@ -4,7 +4,7 @@ This root is the control and navigation surface for the UDT research record.
 After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md) →
-the [current observer longitudinal/transverse cocycle audit](udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/AUDIT_REPORT.md) →
+the [current intrinsic clock/transverse solder audit](udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md) →
 exact evidence named by those files only when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
 `MEMORY.md` top/current pointer. `AGENTS.md`
@@ -12,12 +12,13 @@ supplies operational instructions and binding research discipline, but it
 cannot overrule the topmost current-state block in `LIVE.md`.
 
 The latest bounded scientific result is the
-[observer longitudinal/transverse cocycle audit](udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/AUDIT_REPORT.md).
-It derives the complete transverse deviation-state path cocycle, rejects the reduced angular-area
-map as a standalone cocycle, and derives a reducible same-path assembly with the endpoint clock
-ratio. The founding-depth solder, an irreducible native observer representation, and a complete
-nontrivial all-observer realization remain open. It does not select a path ontology, profile,
-physical `X_max`, action, source, carrier, mass, density law, or time-live dynamics.
+[intrinsic clock/transverse solder audit](udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md).
+It derives the oriented normal/screen area duality and exact conditions for a preserved screen
+mode and pointwise reciprocal generator match. It also shows why Hodge duality, B19, WR-L, the
+nonnull-`dphi` `3+3`, and the prior conditional angular intertwiner do not yet supply the intrinsic
+rank-two clock/Jacobi solder. The reducible same-path direct sum remains the strongest current
+assembly. No path ontology, profile, physical `X_max`, action, source, carrier, mass, density law,
+or time-live dynamics is selected.
 
 When a scalar `phi` equation or profile is proposed, consult the
 [historical phi-equation salvage audit](udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md).

@@ -8,36 +8,39 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's topmost CURRENT STATE block, that block wins.**
 
-## ============ CURRENT STATE (2026-07-24 — OBSERVER LONGITUDINAL/TRANSVERSE COCYCLE AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. THE VERTEX JACOBI/ANGULAR-AREA MAP IS NOT A STANDALONE TRANSITION LAW. THE COMPLETE TRANSVERSE DEVIATION STATE—SEPARATION PLUS DIRECTION—HAS A METRIC-DERIVED SYMPLECTIC PATH COCYCLE THAT COMPOSES, REVERSES, IS ENDPOINT-SCREEN COVARIANT, AND REMAINS INVERTIBLE THROUGH CAUSTICS. THE ENDPOINT CLOCK/FREQUENCY RATIO ALSO COMPOSES GIVEN TYPED OBSERVERS, EVENTS, AND THE SAME PATH. THEIR DIRECT SUM S(LOG Q)⊕M IS THEREFORE DERIVED AS A REDUCIBLE COMMON-PATH COCYCLE. IDENTIFYING LOG Q WITH THE FOUNDING RECIPROCAL DEPTH REMAINS CONDITIONAL; AN INTRINSIC IRREDUCIBLE SOLDER, NULL-VERSUS-CO-PRESENT/REST SELECTION, AND A COMPLETE NONTRIVIAL ALL-OBSERVER REALIZATION REMAIN OPEN. B19 IS COMPLETE WITH NONTRIVIAL TRANSVERSE TRANSPORT BUT TRIVIAL CLOCK; WR-L HAS AN EXACT LOCAL CENTERED COMMON-PATH WITNESS BUT NO GLOBAL RECENTERING. NO CROSS-BRANCH SPLICE IS ALLOWED. PHYSICAL X_MAX, ACTION, SOURCE, CARRIER, BOUNDARY, MASS, DENSITY, BOOTSTRAP, AND TIME-LIVE DYNAMICS REMAIN OPEN. NEXT: TEST WHETHER THE COMPLETE UDT METRIC SUPPLIES AN INTRINSIC SOLDER/REDUCTION BETWEEN THE FOUNDING RECIPROCAL CHANNEL AND THE SAME-PATH CLOCK/TRANSVERSE COCYCLE. NO PROFILE SELECTION, DENSITY INSERTION, ACTION OR MATTER SOLVE, GPU WORK, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-24 — INTRINSIC CLOCK/TRANSVERSE SOLDER AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. THE METRIC DERIVES AN ORIENTED LONGITUDINAL–SCREEN AREA HODGE DUALITY GIVEN A TYPED 2+2 OBSERVER/PATH SPLIT, BUT THIS IS NOT THE CLOCK/JACOBI SOLDER: IT ERASES RECIPROCAL DEPTH BECAUSE BOTH PLANE-AREA CHARACTERS HAVE DETERMINANT ONE, AND IT MAPS SPACETIME TWO-FORMS RATHER THAN JACOBI PHASE STATES. WITHOUT A METRIC-SELECTED SCREEN REDUCTION, INDEPENDENT SO(2) SCREEN GAUGE FORCES EVERY LINEAR CLOCK-TO-PHASE MAP TO ZERO. AFTER A SCREEN LINE IS SUPPLIED, ITS PHASE SUBBUNDLE IS PRESERVED IFF THE LINE IS PARALLEL AND TIDAL-INVARIANT. A NONTRIVIAL POINTWISE NATURAL-FRAME MATCH TO THE RECIPROCAL CLOCK GENERATOR EXISTS IFF K_SCREEN=-(D DELTA/D LAMBDA)^2. THIS IS AN EXACT CANDIDATE CONDITION, NOT A FIELD EQUATION. B19 FAILS WITH TRIVIAL CLOCK AND POSITIVE CURVATURE. WR-L RETAINS THE EXACT LOCAL SCALAR RELATION R=X(1-Q^-2), BUT ITS POSITIVE RADIAL SCREEN CURVATURE PREVENTS POINTWISE GENERATOR SIMILARITY; ARBITRARY PATH-DEPENDENT BASIS CHANGES ARE NOT EXCLUDED OR SELECTED. THE NONNULL DPHI 3+3 AND PRIOR MATCHED-ANGULAR INTERTWINER REMAIN REAL CONDITIONAL REDUCTIONS, NOT THE MISSING RANK-TWO CLOCK/JACOBI SOLDER. NO REGISTERED COMPLETE BRANCH SUPPLIES AN INTRINSIC IRREDUCIBLE SOLDER; THE REDUCIBLE SAME-PATH DIRECT SUM REMAINS THE STRONGEST CURRENT ASSEMBLY. NEXT: AUDIT WHETHER ANY ALREADY REGISTERED NATIVE EQUATION OR ADMISSIBILITY CONDITION CAN ENFORCE THE PARALLEL-LINE, TIDAL-INVARIANCE, NEGATIVE-CURVATURE CLOCK-MATCH, AND GLOBAL-DESCENT GATES. NO NEW PROFILE, SCREEN DIRECTION, FIELD EQUATION, ACTION, DENSITY, MATTER/GPU SOLVE, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
 
 **READ NEXT, IN ORDER:**
 
 1. `HANDOFF.md` current marked block.
 2. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` top/current overlay.
-3. `udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/AUDIT_REPORT.md`, then
-   `STATUS_LEDGER.tsv`, `BRANCH_COCYCLE_ATLAS.tsv`, `COCYCLE_TYPE_LEDGER.tsv`,
+3. `udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md`, then
+   `STATUS_LEDGER.tsv`, `SOLDER_TYPE_LEDGER.tsv`, `GENERATOR_MATCH_ATLAS.tsv`,
+   `BRANCH_SOLDER_ATLAS.tsv`, `CAUSAL_SOLDER_ATLAS.tsv`, `COMPLETION_SOLDER_ATLAS.tsv`,
    `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
-4. `udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md` and
-   `udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md` only when their
-   founding-depth or clock-type premises are load-bearing.
+4. `udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/AUDIT_REPORT.md` and its
+   parent observer-pair packages only when their path-cocycle, depth, or clock-type premises are
+   load-bearing.
 
 **CURRENT HONEST CLAIM:**
 
-- the complete transverse Jacobi phase-space propagator is
-  `DERIVED_GIVEN_METRIC_PATH`; it is symplectic, composable, reversible, endpoint-screen
-  covariant, and caustic-safe;
-- the projected vertex Jacobi/angular-area map is `REJECTED_GENERICALLY` as a standalone cocycle;
-- the endpoint clock/frequency ratio is
-  `DERIVED_GIVEN_OBSERVERS_PATH_AND_EVENTS` and composes with matched intermediate data;
-- `S(log Q) direct sum M` is
-  `DERIVED_REDUCIBLE_GIVEN_COMMON_PATH_DATA`;
-- identifying `log Q` with the founding reciprocal pair depth is `CONDITIONAL`; the centered WR-L
-  control realizes it locally, not as an all-observer theorem;
-- an irreducible native solder and a complete, nontrivial, arbitrary-observer realization are
-  `OPEN`;
-- B19 supplies complete pathwise transverse transport with `Q=1`; WR-L supplies exact local
-  nontrivial clock and radial transverse blocks but no global recentering; combining them would be
-  a forbidden cross-branch splice;
+- oriented longitudinal/screen area Hodge duality is
+  `DERIVED_GIVEN_TYPED_2PLUS2_SPLIT`, but is `FALSE_TYPE` as a clock/Jacobi phase solder;
+- a screen-gauge-equivariant linear clock-to-phase map is
+  `OBSTRUCTED_WITHOUT_SCREEN_REDUCTION`;
+- a rank-two screen phase subbundle is invariant iff its screen line is parallel and the tidal
+  operator preserves it;
+- for nonzero clock rate, pointwise natural-frame Jacobi/reciprocal generator similarity is
+  `UNIQUE_CONDITION_CHARACTERIZED` by
+  `K_screen=-(d delta/d lambda)^2`;
+- WR-L has the exact local scalar relation `R=X(1-Q^-2)`, but no pointwise natural-frame generator
+  similarity because both its radial screen curvature and squared clock rate are positive;
+- the nonnull-`dphi` `3+3` reduction and prior matched-angular intertwiner retain their conditional
+  statuses and do not select the missing rank-two screen phase subbundle;
+- an intrinsic irreducible solder is `OPEN_NO_REGISTERED_WITNESS`;
+- the reducible same-path cocycle `S(log Q) direct sum M` remains
+  `DERIVED_REMAINS_STRONGEST_CURRENT_ASSEMBLY`;
+- no B19/WR-L cross-branch splice is admissible;
 - null versus co-present/rest event/path selection remains `OPEN`;
 - the prior observer-indexed bilocal depth family, neutral self-depth, angular necessity, and
   absolute-scalar obstruction retain their exact premise stamps;
@@ -45,17 +48,17 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 - complete action, native source, physical boundary, carrier emergence, mass, density, CMB
   interpretation, scale, and time-live persistence remain `OPEN`.
 
-**NEXT:** determine whether the complete metric supplies an intrinsic reduction or mixing law
-that solders the founding reciprocal representation to the endpoint clock block and full
-transverse propagator on one typed path. Compare invariant subbundles, connection preservation,
-holonomy, causal-type transitions, and finite-cell completion branch by branch. Do not splice
-branches, select a path ontology, insert a profile, or infer physics from a direct sum alone.
+**NEXT:** audit whether any already registered native complete-metric equation or admissibility
+condition can enforce a parallel screen line, tidal invariance, the negative-curvature clock-rate
+match, and global finite-cell descent. Classify only existing sources as enforcing, forbidding,
+permitting, or unable to address each gate. Do not solve backward for a desired profile or promote
+the condition to a postulate.
 
-**EVIDENCE:** 69/69 production checks, 52/52 independent checks, and 13/13 exercised catches.
-Fresh pure-Python RK4 reproduces WR-L variable-curvature composition to
-`7.549516567451064e-15`; the full 12-completion/28-equation-family registry is retained. CPU only,
-hash-manifested. Tests remain 70 passed/1 xfailed; six frozen packages, 1,114 current paths,
-frontier targets, and the original dirty checkout's 55 metadata-only paths remain unchanged. Grade
+**EVIDENCE:** 80/80 production checks, 60/60 independent exact checks, and 15/15 exercised catches;
+12/12 solder candidates, 5/5 generator controls, 6/6 branches, 5/5 causal classes, 12/12
+completions, 28/28 equation families, and 21/21 source identities. CPU only and hash-manifested.
+Tests remain 70 passed/1 xfailed; six frozen packages, 1,114 current paths, frontier targets, and
+the original dirty checkout's 55 metadata-only paths remain unchanged. Grade
 `VERIFIED-WITH-CAVEATS`; no fresh external-model semantic review was authorized.
 
 **REORGANIZATION:** R0--R1H remains paused. This checkpoint changes navigation only.
