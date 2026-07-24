@@ -1,0 +1,15 @@
+id	claim_or_guard	falsifier	required_response
+F01	projective and WRL profiles are distinct	exact functional identity under allowed positive constant scales	report identity and withdraw distinction
+F02	B19 supplies a third normalized profile	exact equality to projective or WRL for some finite positive kappa	report equality and its unique kappa
+F03	endpoint exponent alone selects a profile	two distinct exact profiles share that exponent	reject endpoint-only selection
+F04	origin linear coefficient selects a profile	two profiles share it	reject first-order selection
+F05	free kappa cannot hide equivalence	matching all scale-invariant origin jets for some positive kappa	report possible equivalence and test globally
+F06	FC12 compatibility is not selection	source supplies an equation selecting A	reclassify from choice-compatible to derived
+F07	complete registry has no clock_soldered witness	a prior row contains full clock phi angular metric event pairing and global diameter	report missed witness and stop
+F08	no cross_family splice used	one result combines fields from different evidence families as one branch	remove result and fail audit
+F09	angular data retained	B19 or FC12 B computed after deleting load-bearing angular relation	fail audit
+F10	physical Xmax remains open	one coherent branch passes all global pair gates	report exact branch and rerun global gates
+F11	source identities frozen	any source SHA256 mismatch	stop before interpretation
+F12	independent verification	independent implementation disagrees with a load-bearing identity	bank disagreement not verdict
+F13	scope purity	any file outside the new audit package changes	fail scope
+F14	repository preservation	frozen manifest current path frontier test or dirty metadata gate changes	stop before commit

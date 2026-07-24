@@ -1,0 +1,10 @@
+id	object	form	status_before_test	test
+C01	projective tanh normalized profile	tanh(phi)	AVAILABLE_PROJECTIVE_NOT_PHYSICAL_SELECTED	exact jets endpoint and B comparison
+C02	WRL exponential normalized profile	1-exp(-phi)	DERIVED_CONDITIONAL_LOCAL_CLOCK_DEPTH	exact jets endpoint and B comparison
+C03	B19 round normalized angular profile	2_over_pi_times_atan_sinh_2phi	DERIVED_CONDITIONAL_ANGULAR_DEPTH	exact jets endpoint and B comparison
+C04	B19 positive-kappa family	2_over_pi_times_atan_sinh_2kappa_phi	FREE_AND_EXPLORED_RELATIVE_UNIT	test all positive kappa for exact equality
+C05	FC12 open transnormal profile	integral_A_dphi	ARBITRARY_UNSELECTED_PROFILE	classify compatibility by choice versus derivation
+C06	linear unbounded control	L_phi	ADMISSIBLE_CONTROL	exact B and endpoint comparison
+C07	fullframe unbounded radial control	L_times_exp_phi_minus_one	CONDITIONAL_CONTROL	exact B and endpoint comparison
+C08	twelve finite_cell rows	FC01_through_FC12	FROZEN_COMPLETE_CENSUS	account every row without re-adjudication
+C09	twenty_eight equation_families	B01_through_B28	FROZEN_COMPLETE_CENSUS	account every family without re-adjudication
