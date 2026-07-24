@@ -1,0 +1,278 @@
+{
+  "all_checks_pass": true,
+  "angular_shear_phase": {
+    "anisotropy_squared": "4*shear**2*exp(-2*phi) + (shear**2 + 2*sinh(2*phi))**2",
+    "eigenaxis_undefined_at_isotropy": true,
+    "existing_bridge_shear_extension": "not supplied",
+    "fixed_chart_phase_derivative_at_aligned_anisotropic_point": "-exp(-phi)/sinh(2*phi)",
+    "isotropic_metric": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "normalized_metric": [
+      [
+        "exp(-2*phi)",
+        "shear*exp(-phi)"
+      ],
+      [
+        "shear*exp(-phi)",
+        "shear**2 + exp(2*phi)"
+      ]
+    ],
+    "spin2_norm_basis_invariant": true,
+    "spin2_pair_basis_dependent": true,
+    "traceless_pair": [
+      "-shear**2 - 2*sinh(2*phi)",
+      "2*shear*exp(-phi)"
+    ],
+    "typed_ruling": "LOCAL_CHART_EIGENAXIS_PHASE_CANDIDATE_NOT_GLOBAL_DESCENDED_SECTION"
+  },
+  "bootstrap_adjudication": {
+    "B0": "local deformation algebra uses no bootstrap",
+    "B1": "current bootstrap can only filter complete matter-bearing global solutions after they exist",
+    "B2": "future Sigma could select a section or representative if explicitly derived",
+    "B3": "future varied B could alter equations if explicitly derived with variation and boundary data",
+    "density_scan": "not run and not currently operational"
+  },
+  "candidate_counts": {
+    "conditional_latitude": 2,
+    "connection_not_section": 5,
+    "supplied_or_posit_rank_two": 2,
+    "total": 20
+  },
+  "checks": {
+    "candidate_census_complete": true,
+    "completion_census_complete": true,
+    "nonexact_shift_blocks_phase": true,
+    "only_depth_column_nonzero": true,
+    "only_scalar_column_nonzero": true,
+    "restricted_bridge_rank_one": true,
+    "seed_finite_rank_two": true,
+    "seed_gram_exact": true,
+    "seed_tangents_orthogonal_to_n": true,
+    "seed_unit_norm": true,
+    "shear_isotropic_degeneracy": true,
+    "shear_spin2_norm_invariant": true,
+    "shift_curvature_gauge_invariant": true,
+    "source_authority": true,
+    "sources_and_manifests": true
+  },
+  "global_counts": {
+    "conditional_exact_seed_classes": 1,
+    "native_full_deformation": 0,
+    "total": 12
+  },
+  "not_claimed": [
+    "native carrier",
+    "full metric-induced Map(S3,S2)",
+    "physical phase section",
+    "physical affine transport",
+    "native action",
+    "physical boundary",
+    "time-live persistence",
+    "density window",
+    "mass or scale"
+  ],
+  "python": "3.10.12",
+  "rulings": {
+    "angular_shear": "LOCAL_CHART_PHASE_CANDIDATE_NOT_DESCENDED_AND_DEGENERATE_AT_ISOTROPY",
+    "complete_coframe_bridge": "NO_WELL_DEFINED_DIFFERENTIAL_OFF_ALIGNED_SUBMANIFOLD",
+    "conditional_seed_target_tangent": "FULL_RANK_TWO_IF_PHI_AND_AN_INDEPENDENT_PHASE_FIELD_ARE_SUPPLIED",
+    "established_aligned_coframe_bridge": "RANK_ONE_LATITUDE_IMAGE_ON_FINITE_PHI_STRATUM",
+    "global_realization": "NO_REGISTERED_COMPLETION_SUPPLIES_NATIVE_FULL_CARRIER_DEFORMATION_SPACE",
+    "intrinsic_S2": "FIBER_VERTICAL_TANGENT_EXISTS_BUT_SECTION_NOT_SELECTED",
+    "maximum": "RESTRICTED_CONDITIONAL_SEED_DEFORMATION_ONLY__GLOBAL_REALIZATION_REMAINS_COMPLETION_AND_SECTION_DEPENDENT",
+    "shift_sector": "PHASE_CONNECTION_WITH_CURVATURE_AND_HOLONOMY_NOT_SELECTED_PHASE_SECTION"
+  },
+  "schema": "udt-hopf-realization-deformation-v1",
+  "seed_tangent_algebra": {
+    "angular_route_nonzero_columns": [
+      4
+    ],
+    "angular_shear_direction": "outside established aligned bridge domain, not a zero column",
+    "complete_field_order": [
+      "A_scale",
+      "A_depth",
+      "A_shear",
+      "D_scale",
+      "D_depth",
+      "D_shear",
+      "S10",
+      "S11",
+      "S20",
+      "S21",
+      "scalar_phi"
+    ],
+    "finite_phi_rank": 2,
+    "full_chart_differential": "undefined until a shear-compatible descended bridge is supplied",
+    "gram": [
+      [
+        "8/(cosh(4*phi) + 1)",
+        "0"
+      ],
+      [
+        "0",
+        "sech(2*phi)**2"
+      ]
+    ],
+    "gram_determinant": "64*exp(8*phi)/((exp(4*phi) + 2)*exp(4*phi) + 1)**2",
+    "gram_expected": [
+      [
+        "4*sech(2*phi)**2",
+        "0"
+      ],
+      [
+        "0",
+        "sech(2*phi)**2"
+      ]
+    ],
+    "gram_residual_zero": true,
+    "map": [
+      "cos(delta)*sech(2*phi)",
+      "sin(delta)*sech(2*phi)",
+      "-tanh(2*phi)"
+    ],
+    "n_dot_n_delta_zero": true,
+    "n_dot_n_phi_zero": true,
+    "polar_chart_rank": "2 for 0<eta<pi/2; delta coordinate degenerates at poles",
+    "polar_gram": [
+      [
+        "4",
+        "0"
+      ],
+      [
+        "0",
+        "sin(2*eta)**2"
+      ]
+    ],
+    "restricted_angular_bridge_rank": 1,
+    "restricted_scalar_bridge_rank": 1,
+    "scalar_route_nonzero_columns": [
+      10
+    ],
+    "target_tangent_plane_at_poles": "two-dimensional but requires a second smooth chart",
+    "unit_norm": true
+  },
+  "shift_phase_connection": {
+    "angular_one_forms": "theta_ang=D(dxi+S dx)",
+    "curvature": "-Derivative(s10(x0, x1), x1) + Derivative(s11(x0, x1), x0) + Derivative(s20(x0, x1), x1) - Derivative(s21(x0, x1), x0)",
+    "curvature_gauge_invariant": true,
+    "exact_part_status": "torus-coordinate gauge without derived section or boundary framing",
+    "exact_witness_curvature": "0",
+    "gauge_rule": "xi_i'=xi_i+lambda_i(x); S_i'=S_i-dlambda_i",
+    "nonexact_witness_curvature": "1",
+    "nonzero_curvature_blocks_scalar_phase": true,
+    "one_dimensional_base": "locally exact; on an interval globally exact after a gauge/basepoint choice",
+    "period_symbol": "2*pi*k",
+    "periodic_base_holonomy": "integral b=2*pi*k for b=k dtheta; exact only when the period vanishes",
+    "row_difference_connection": [
+      "s10-s20",
+      "s11-s21"
+    ],
+    "typed_ruling": "SHIFT_SECTOR_SUPPLIES_PHASE_CONNECTION_NOT_SELECTED_PHASE_SECTION"
+  },
+  "source_authority": {
+    "all_checks_pass": true,
+    "checks": {
+      "S3_only_conditional": true,
+      "bootstrap_no_topology_ranking": true,
+      "chart_group_not_physical": true,
+      "fiber_not_section": true,
+      "native_bridge_open": true,
+      "native_global_Hopf_open": true,
+      "parent_bootstrap_outer": true,
+      "parent_emergent_join_open": true,
+      "phase_open": true,
+      "scalar_not_composed": true
+    }
+  },
+  "source_manifest": [
+    {
+      "actual_sha256": "95b69c6400aa60923126b1be4e84511876475791b49ba47a08d57db115078360",
+      "entries": 20,
+      "expected_sha256": "95b69c6400aa60923126b1be4e84511876475791b49ba47a08d57db115078360",
+      "hash_match": true,
+      "manifest_replay": true,
+      "path": "udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/SHA256SUMS.txt"
+    },
+    {
+      "actual_sha256": "ee35787b41fbca774031080c1c12a4c0fe01dc820abdeb444e1977d58bbb0b1b",
+      "entries": 36,
+      "expected_sha256": "ee35787b41fbca774031080c1c12a4c0fe01dc820abdeb444e1977d58bbb0b1b",
+      "hash_match": true,
+      "manifest_replay": true,
+      "path": "udt_coframe_hopf_bridge_audit_2026-07-23/MANIFEST.sha256"
+    },
+    {
+      "actual_sha256": "1857bde1fff72829487f56ddd9fb461a2d9cad7b777a51baa125529713c8bfd4",
+      "entries": 37,
+      "expected_sha256": "1857bde1fff72829487f56ddd9fb461a2d9cad7b777a51baa125529713c8bfd4",
+      "hash_match": true,
+      "manifest_replay": true,
+      "path": "udt_complete_metric_intrinsic_object_audit_2026-07-23/MANIFEST.sha256"
+    },
+    {
+      "actual_sha256": "3b9508709ca78c214ce2d07c651ab827d3431a96aa7096347a9420ba6d29c42c",
+      "entries": 36,
+      "expected_sha256": "3b9508709ca78c214ce2d07c651ab827d3431a96aa7096347a9420ba6d29c42c",
+      "hash_match": true,
+      "manifest_replay": true,
+      "path": "udt_native_coframe_composition_law_audit_2026-07-23/MANIFEST.sha256"
+    },
+    {
+      "actual_sha256": "d4c7e7e16e38496343bbfbc8ef0867de45657ea2e25a724b44b653ff1b276374",
+      "entries": 53,
+      "expected_sha256": "d4c7e7e16e38496343bbfbc8ef0867de45657ea2e25a724b44b653ff1b276374",
+      "hash_match": true,
+      "manifest_replay": true,
+      "path": "udt_global_metric_assembly_atlas_2026-07-22/SHA256SUMS.txt"
+    },
+    {
+      "actual_sha256": "b9dca9e1baca68b82118e1a008829196d9bb834dae69cfa5d82f0ae771902164",
+      "entries": 77,
+      "expected_sha256": "b9dca9e1baca68b82118e1a008829196d9bb834dae69cfa5d82f0ae771902164",
+      "hash_match": true,
+      "manifest_replay": true,
+      "path": "udt_motif_hopf_correspondence_audit_2026-07-22/SHA256SUMS.txt"
+    },
+    {
+      "actual_sha256": "64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50",
+      "entries": 18,
+      "expected_sha256": "64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50",
+      "hash_match": true,
+      "manifest_replay": true,
+      "path": "angular_toric_closure_selector_2026-07-19/SHA256SUMS.txt"
+    },
+    {
+      "actual_sha256": "f70ec5f8bad2fc648ff4d9d983628bd7a450374db2fd3fc766a88c6ae67e7c5e",
+      "entries": 25,
+      "expected_sha256": "f70ec5f8bad2fc648ff4d9d983628bd7a450374db2fd3fc766a88c6ae67e7c5e",
+      "hash_match": true,
+      "manifest_replay": true,
+      "path": "udt_finite_cell_cartan_transport_atlas_2026-07-23/MANIFEST.sha256"
+    },
+    {
+      "actual_sha256": "6f03f82d485d4a20c2d2bfc13dc8979c1b229bf92c53f0eb36831abf3d75febc",
+      "entries": 14,
+      "expected_sha256": "6f03f82d485d4a20c2d2bfc13dc8979c1b229bf92c53f0eb36831abf3d75febc",
+      "hash_match": true,
+      "manifest_replay": true,
+      "path": "native_hopfion_topology_audit_2026-07-19/SHA256SUMS.txt"
+    },
+    {
+      "actual_sha256": "1a48e574835ee3838514294a7badd2415a74cdb0d10cf0545c30d3698ab022d2",
+      "entries": 20,
+      "expected_sha256": "1a48e574835ee3838514294a7badd2415a74cdb0d10cf0545c30d3698ab022d2",
+      "hash_match": true,
+      "manifest_replay": true,
+      "path": "bootstrap_csn_phi_angular_selector_2026-07-19/SHA256SUMS.txt"
+    }
+  ],
+  "sympy": "1.13.1"
+}

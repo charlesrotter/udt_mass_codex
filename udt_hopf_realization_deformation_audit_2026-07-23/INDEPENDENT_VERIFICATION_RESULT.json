@@ -1,0 +1,66 @@
+{
+  "agreement": {
+    "bootstrap_outer_only": true,
+    "full_bridge_not_defined": true,
+    "global_native_full_count_zero": true,
+    "production_all_checks": true,
+    "restricted_bridge_rank_one": true,
+    "shift_is_connection_not_section": true
+  },
+  "all_checks_pass": true,
+  "catches": {
+    "reject_FC04_privilege": true,
+    "reject_action_stability_mass_promotion": true,
+    "reject_bootstrap_local_selector": true,
+    "reject_constant_phase_as_local_field": true,
+    "reject_density_scan": true,
+    "reject_eigenaxis_at_isotropy": true,
+    "reject_exact_shift_as_physical_motion": true,
+    "reject_fiber_to_section": true,
+    "reject_full_chart_rank_from_restricted_bridge": true,
+    "reject_ignored_holonomy": true,
+    "reject_nonzero_curvature_as_phase_scalar": true,
+    "reject_null_zero_extension": true,
+    "reject_shear_without_descent": true,
+    "reject_supplied_phase_as_coframe_field": true,
+    "reject_target_dimension_as_induced_rank": true
+  },
+  "counts": {
+    "agreement_passed": 6,
+    "agreement_total": 6,
+    "catches_passed": 15,
+    "catches_total": 15,
+    "exact_passed": 11,
+    "exact_total": 11
+  },
+  "exact_checks": {
+    "candidate_count_twenty": true,
+    "completion_count_twelve": true,
+    "exact_shift_is_locally_integrable": true,
+    "nonexact_shift_not_scalar_phase": true,
+    "seed_four_rational_samples": true,
+    "seed_rank_two_when_two_inputs_supplied": true,
+    "shear_axis_degenerates_at_isotropy": true,
+    "shear_components_basis_dependent": true,
+    "shear_spin2_norm_invariant": true,
+    "shift_curvature_gauge_invariant": true,
+    "source_hashes_match": true
+  },
+  "method": "stdlib Fraction and direct frozen-table parsing; no SymPy or controller import",
+  "schema": "udt-hopf-realization-deformation-independent-v1",
+  "seed": {
+    "all_exact": true,
+    "all_rank_two": true,
+    "samples": 4
+  },
+  "shear": {
+    "axis_undefined_at_isotropy": true,
+    "components_basis_dependent": true,
+    "spin2_norm_preserved": true
+  },
+  "shift": {
+    "exact_curl_zero": true,
+    "gauge_curvature_invariant": true,
+    "nonexact_curl_nonzero": true
+  }
+}
