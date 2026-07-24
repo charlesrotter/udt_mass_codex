@@ -1,0 +1,4 @@
+udt_timelive_spherical_areal_polarization_audit_2026-07-22/MANIFEST.sha256
+udt_timelive_spherical_areal_polarization_audit_2026-07-22/AUDIT_REPORT.md
+udt_timelive_spherical_areal_polarization_audit_2026-07-22/STATUS_LEDGER.tsv
+udt_timelive_spherical_areal_polarization_audit_2026-07-22/TIME_LIVE_ASSEMBLY_LEDGER.tsv
