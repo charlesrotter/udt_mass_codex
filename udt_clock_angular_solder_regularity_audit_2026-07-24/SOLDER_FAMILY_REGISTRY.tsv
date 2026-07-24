@@ -1,0 +1,7 @@
+family_id	family_name	clock_leg	depth_leg	angular_legs	completion	status_before_test
+F01	isolated_clock_round	exp(-phi)	round_radial	round_with_tan_eta_exp_2kphi	two_round_caps	OPEN
+F02	fixed_pairing_double_reciprocal	C_exp(-phi)	l_C_exp(phi)	R_exp(-kphi);R_exp(kphi)	two_caps_or_open	OPEN
+F03	physical_common_factor_round	Omega_exp(-phi)	Omega_round_radial	Omega_round_angular	two_original_round_caps	OPEN
+F04	open_asymptotic_fixed_pairing	C_exp(-phi)	l_C_exp(phi)	R_exp(-kphi);R_exp(kphi)	open_or_excluded_endpoint	OPEN
+F05	separated_role_round_control	constant_lapse	round_radial	angular_phi_only	two_round_caps	CONDITIONAL_CONTROL
+F06	outside_bounded_class	not_fixed	not_fixed	not_fixed	patchwise_shifted_time_live_nonintegrable_pair_space	OPEN_OUTSIDE_BOUNDED_CLASS
