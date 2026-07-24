@@ -1,0 +1,109 @@
+{
+  "agreement": {
+    "conditional_abs_c1": true,
+    "density_or_mass_solves": true,
+    "exchange_index": true,
+    "native_carrier_sections": true,
+    "signed_permutation_group": true,
+    "vertex_pair_count": true,
+    "wall_pair_full_span": true
+  },
+  "base": "a93f928f66d260bee1df1a9c5156269afa1952b7",
+  "catch_proofs": 26,
+  "imports_production_module": false,
+  "imports_sympy": false,
+  "reconstructed": {
+    "anti_J": [
+      1,
+      -1
+    ],
+    "chern_values": [
+      -1,
+      1
+    ],
+    "exchange_index": 2,
+    "fixed_J": [
+      1,
+      1
+    ],
+    "rational_spinor_controls": 4,
+    "signed_permutation_group": [
+      [
+        -1,
+        0,
+        0,
+        -1
+      ],
+      [
+        -1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        -1,
+        -1,
+        0
+      ],
+      [
+        0,
+        -1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        -1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        -1
+      ],
+      [
+        1,
+        0,
+        0,
+        1
+      ]
+    ],
+    "vertex_pair_count": 3,
+    "wall_minimizers": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "wall_minimum": "13/12"
+  },
+  "result": "PASS",
+  "schema": "udt-reciprocal-pair-global-module-independent-v1",
+  "source_identities": 44,
+  "table_counts": {
+    "checks": 36,
+    "completions": 12,
+    "hopf": 14,
+    "invariants": 18,
+    "local": 30,
+    "statuses": 22,
+    "transitions": 16
+  },
+  "versions": {
+    "implementation": "stdlib/Fraction",
+    "python": "3.10.12"
+  }
+}

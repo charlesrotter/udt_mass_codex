@@ -1,0 +1,132 @@
+{
+  "algebra": {
+    "c1_classes": {
+      "-1,-1": {
+        "Q": 1,
+        "abs_Q": 1,
+        "free": true
+      },
+      "-1,1": {
+        "Q": -1,
+        "abs_Q": 1,
+        "free": true
+      },
+      "1,-1": {
+        "Q": -1,
+        "abs_Q": 1,
+        "free": true
+      },
+      "1,1": {
+        "Q": 1,
+        "abs_Q": 1,
+        "free": true
+      }
+    },
+    "exchange_index": 2,
+    "signed_permutation_group": [
+      [
+        -1,
+        0,
+        0,
+        -1
+      ],
+      [
+        -1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        -1,
+        -1,
+        0
+      ],
+      [
+        0,
+        -1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        -1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        -1
+      ],
+      [
+        1,
+        0,
+        0,
+        1
+      ]
+    ],
+    "vertex_pair_count": 3,
+    "wall_Q": [
+      [
+        "13/12",
+        "5/12"
+      ],
+      [
+        "5/12",
+        "13/12"
+      ]
+    ],
+    "wall_minimizers": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  },
+  "authority_boundary": {
+    "action_selected": false,
+    "canon_changed": false,
+    "carrier_selected": false,
+    "completion_selected": false,
+    "density_inserted": false,
+    "exchange_lift_selected": false,
+    "gpu_used": false,
+    "mass_derived": false,
+    "pair_member_selected": false
+  },
+  "base": "a93f928f66d260bee1df1a9c5156269afa1952b7",
+  "counts": {
+    "completions": 12,
+    "density_or_mass_solves": 0,
+    "exact_checks": 36,
+    "hopf_steps": 14,
+    "invariants": 18,
+    "local_objects": 30,
+    "native_actions": 0,
+    "native_carrier_sections": 0,
+    "signed_permutation_group": 8,
+    "sources": 44,
+    "statuses": 22,
+    "transitions": 16
+  },
+  "maximum_ruling": "FULL_TORIC_CHARACTER_MODULE_DERIVED__TWO_WAY_SHORTEST_PAIR_IS_A_WALL_LOCAL_UNIMODULAR_BASIS_NOT_A_SMALLER_MODULE__GLOBAL_UNORDERED_SPLITTING_REQUIRES_AN_EVERYWHERE_TWO_WAY_WALL_AND_SIGNED_PERMUTATION_MONODROMY__INVOLUTIVE_EXCHANGE_FIXED_CIRCLE_AND_ABS_C1_ONE_ARE_CONDITIONAL_ON_UNSELECTED_GLOBAL_LIFT_AND_FC04__CARRIER_ACTION_SOURCE_MASS_OPEN",
+  "preregistration_commit": "1758199",
+  "result": "PASS",
+  "schema": "udt-reciprocal-pair-global-module-v1",
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  }
+}

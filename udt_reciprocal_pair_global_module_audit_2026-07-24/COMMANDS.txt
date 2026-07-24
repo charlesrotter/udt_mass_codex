@@ -1,0 +1,6 @@
+python3 derive_pair_global_module.py
+python3 verify_pair_global_module_independent.py
+python3 replay_and_capture.py
+python3 build_manifest.py
+python3 verify_repository_gates.py
+sha256sum --check SHA256SUMS.txt

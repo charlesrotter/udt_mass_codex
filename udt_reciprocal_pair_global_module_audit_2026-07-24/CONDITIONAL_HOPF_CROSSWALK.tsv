@@ -1,0 +1,15 @@
+step_id	input	operation	output	status	missing
+H01	two-way shortest pair	integral span	full Lambda*	DERIVED	not a carrier reduction
+H02	unordered pair	structure-group reduction	signed-permutation cocycle	CONDITIONAL_GLOBAL	generic GL2Z monodromy need not reduce
+H03	unordered pair only	choose exchange lift	J,-J,or order-four	NOT_SELECTED	sign/order lift data
+H04	global involutive J	take fixed subgroup	primitive circle U1_fixed	DERIVED_CONDITIONAL	global J lift
+H05	global involutive J	take annihilator	relative character up to sign	DERIVED_CONDITIONAL	phase section
+H06	exchange eigensublattices	integral sum	index-two sublattice	DERIVED_CONDITIONAL	not an integral direct splitting
+H07	reciprocal weights	positive normalization	a1,a2 with ratio exp(2phi)	EXACT_CONDITIONAL	amplitude interpretation and global phases
+H08	a1,a2 and two phases	form complex pair	unit S3 spinor coordinate	EXACT_CONDITIONAL	torus periods,caps,global chart
+H09	FC04 primitive independent caps	toric completion	S3	UNIQUE_CONDITIONAL_IN_SUPPLIED_CLASS	FC04 not selected
+H10	FC04 plus involutive fixed circle	isotropy test	free weight-(1,plus/minus1) action	DERIVED_CONDITIONAL	lift and orientation
+H11	free fixed circle on S3	quotient	smooth S2 with abs c1=1	EXACT_CONDITIONAL_GLOBAL	global premises unselected
+H12	S2 quotient base	identify physical field	carrier section	OPEN_TYPE_GAP	section,transport,boundary,field law
+H13	conditional carrier section	select L2+L4	matter action	OPEN	native variational selector
+H14	conditional static Hopfion	infer source,mass,density closure	unconditional matter	OPEN	native source,boundary,scale,bootstrap map

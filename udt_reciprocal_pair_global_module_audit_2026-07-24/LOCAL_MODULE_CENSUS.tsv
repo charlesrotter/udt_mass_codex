@@ -1,0 +1,31 @@
+object_id	object	domain	required_test	required_disposition	outcome	basis
+M01	full_dual_character_local_system	toric_rank_two_region	GL2Z_cocycle	GLOBAL_LOCAL_SYSTEM_OR_OBSTRUCTED	GLOBAL_WHERE_TORIC	The full rank-two character lattice is a GL2Z local system wherever the integral torus exists.
+M02	generic_two_way_shortest_set	wall_interior	enumerate_and_prove_unimodularity	PAIR_SET_AND_SPAN	UNORDERED_UNORIENTED_UNIMODULAR_BASIS_AT_GENERIC_WALL	Every independent co-shortest pair is unimodular.
+M03	span_of_two_way_pair	wall_interior	Smith_normal_form	FULL_OR_PROPER_SUBMODULE	SPAN_EQUALS_FULL_LAMBDA_STAR	Determinant magnitude one gives index one, not a proper submodule.
+M04	pair_coshortest_status	neighboring_chambers	one_parameter_control	PERSISTS_OR_WALL_ONLY	COSHORTEST_ONLY_ON_WALL	The two members cease to be simultaneously shortest in either adjacent chamber.
+M05	pair_uniqueness	three_way_vertex	all_two_subsets	UNIQUE_OR_MULTIPLE	NOT_UNIQUE_AT_THREE_WAY_VERTEX	A vertex supplies three shortest lines and three unimodular pair choices.
+M06	unordered_unoriented_basis_reduction	toric_bundle	structure_group_stabilizer	REDUCTION_CONDITION	CONDITIONAL_STRUCTURE_GROUP_REDUCTION	A metric-derived co-shortest pair requires the branch to remain on a two-way wall and its cocycles to preserve the unordered splitting; otherwise only a supplied continuation exists.
+M07	signed_permutation_stabilizer	integral_basis	exhaust_GL2Z_bound	EXACT_GROUP	SIGNED_PERMUTATION_GROUP_ORDER_8	The stabilizer consists exactly of signed permutation matrices.
+M08	pair_Gram_matrix	wall_interior	exact_Q_basis	INVARIANTS_AND_TRANSFORM	PAIR_COVARIANT_GRAM_DATA	Ordering/sign changes conjugate the Gram matrix; trace, determinant, and absolute angle survive.
+M09	unordered_pair_tensor_K	wall_interior	sign_order_mutations	DESCENDS_OR_NOT	PAIR_REDUCTION_TENSOR	K=w1 tensor w1+w2 tensor w2 is sign/order independent once the pair reduction exists.
+M10	pair_projected_connection_doublet	pair_reduced_region	gauge_and_lattice_change	COVARIANT_OR_NOT	COVARIANT_CONNECTION_DOUBLET	b=W^T S transforms as the pair representation; it is not a phase section.
+M11	pair_curvature_doublet	pair_reduced_region	exterior_derivative_transform	COVARIANT_OR_NOT	COVARIANT_CURVATURE_DOUBLET	db transforms in the same pair representation on locally constant lattice charts.
+M12	generic_GL2Z_monodromy	periodic_torus_bundle	stabilizer_membership	PRESERVES_MODULE_OR_SPLITTING	FULL_MODULE_PERSISTS_SPLITTING_USUALLY_NOT	Generic GL2Z monodromy preserves Lambda* but not the unordered pair.
+M13	local_exchange_J	symmetric_control	eigenlattices_and_fixed_subgroup	EXACT_LOCAL_OBJECT	LOCAL_INVOLUTIVE_EXCHANGE_AVAILABLE	J swaps the pair and has diagonal/anti-diagonal eigenlattices.
+M14	negative_exchange_minus_J	symmetric_control	eigenlattices_and_conjugacy	DISTINCT_LIFT_OR_EQUIVALENT	SIGN_CONJUGATE_INVOLUTIVE_LIFT	-J swaps the same unoriented pair and is conjugate to J by a sign basis change.
+M15	order_four_exchange_lifts	symmetric_control	square_and_fixed_lattice	FIXED_CIRCLE_OR_NONE	NO_FIXED_CIRCLE	Order-four swap lifts square to -I and have no nonzero fixed lattice.
+M16	exchange_fixed_sublattice	global_J_lift	integer_kernel	PRIMITIVE_RANK	PRIMITIVE_RANK_ONE_IF_GLOBAL_J_SUPPLIED	The fixed lattice of J is Z(1,1).
+M17	exchange_antifixed_sublattice	global_J_lift	integer_kernel	PRIMITIVE_RANK	PRIMITIVE_RANK_ONE_IF_GLOBAL_J_SUPPLIED	The anti-fixed lattice is Z(1,-1).
+M18	eigenlattice_sum	global_J_lift	Smith_normal_form	INDEX	INDEX_TWO_NOT_INTEGRAL_DIRECT_SUM	Fixed plus anti-fixed eigenlattices span an index-two sublattice.
+M19	fixed_diagonal_subtorus	global_J_lift	exponentiation_and_primitivity	ASSOCIATED_CIRCLE	CONDITIONAL_FIXED_CIRCLE	A global involutive exchange exponentiates its primitive fixed lattice to a circle.
+M20	relative_quotient_character	global_J_lift	annihilator_test	ASSOCIATED_CHARACTER	CONDITIONAL_RELATIVE_QUOTIENT_CHARACTER	(1,-1) annihilates the J-fixed diagonal circle, up to sign/basis conjugacy.
+M21	normalized_reciprocal_amplitude_pair	aligned_reciprocal_chart	exact_normalization	CONDITIONAL_SPINOR_COORDINATE_OR_NATIVE	EXACT_CONDITIONAL_NORMALIZED_TORIC_SPINOR	Normalized reciprocal coframe weights give amplitudes with ratio exp(2phi), but the amplitude interpretation and phases remain supplied.
+M22	toric_S3_completion	FC04_like_caps	determinant_and_smooth_action	CONDITIONAL_GLOBAL_OBJECT	FC04_CONDITIONAL_S3	Independent primitive caps give the known determinant-one toric S3 only in the supplied completion.
+M23	fixed_circle_action_on_S3	FC04_plus_J	isotropy_at_caps	FREE_OR_EXCEPTIONAL	FREE_FOR_INVOLUTIVE_FIXED_WEIGHT_MAGNITUDES_ONE	J and -J fixed circles have weights (1,1) or (1,-1), free on supplied S3.
+M24	quotient_S2	FC04_plus_free_circle	orbit_space_and_Chern	CONDITIONAL_BUNDLE_BASE	CONDITIONAL_SMOOTH_S2_QUOTIENT	The free fixed-circle action gives a smooth quotient only after FC04 global data.
+M25	Hopf_first_Chern_class	FC04_plus_orientation_normalization	connection_integral	ABSOLUTE_OR_SIGNED_CLASS	ABS_C1_ONE_SIGN_ORIENTATION_OPEN	Diagonal and anti-diagonal actions give opposite signs and the same absolute unit class.
+M26	Hopf_carrier_section	quotient_bundle	section_map_type	SELECTED_OR_OPEN	OPEN_NOT_A_SECTION	A principal-circle quotient or S2 base is not a selected S2-valued field.
+M27	rank_loss_cap_extension	cap_stratum	isotropy_quotient	FULL_MODULE_OR_STRATIFIED	STRATIFIED_RANK_DROP	The rank-two orbit lattice exists off a cap; at the cap an isotropy quotient replaces it.
+M28	nontoric_anholonomy	FC11	Frobenius_and_lattice_existence	AVAILABLE_OR_UNAVAILABLE	UNAVAILABLE_WITHOUT_INTEGRAL_TORUS	A nonintegrable plane field has no global character module.
+M29	CSN_response	all_defined_objects	common_rescaling	INVARIANT_COVARIANT_OR_DEPENDENT	PAIR_ORDER_AND_TIE_CSN_INVARIANT	Common positive scale does not choose a pair member, lift, cap, or quotient.
+M30	action_source_mass_consequence	all	authority_audit	DERIVED_CONDITIONAL_OR_OPEN	OPEN_NO_DYNAMICAL_CONSEQUENCE	No action, source, density law, mass, scale, or time evolution follows.

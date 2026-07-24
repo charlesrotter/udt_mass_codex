@@ -1,0 +1,23 @@
+{
+  "cpu_only": true,
+  "cuda_visible_devices": "",
+  "implementation": "CPython",
+  "independent": {
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 verify_pair_global_module_independent.py",
+    "exit_code": 0,
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_bytes": 1665,
+    "stdout_sha256": "fe3a94fd4dab616416ca6fdfee97bdf3e03ed9f3cc0ca49f237fb507ce819202"
+  },
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "production": {
+    "command": "CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 derive_pair_global_module.py",
+    "exit_code": 0,
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_bytes": 2414,
+    "stdout_sha256": "be6e3cf0309e1506134ed6dc6a463631a54c142b433785cb0f2c297b728174c8"
+  },
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]"
+}

@@ -1,0 +1,37 @@
+check_id	result	detail
+A01	PASS	signed permutation stabilizer has order 8
+A02	PASS	all signed permutations preserve the unordered line pair
+A03	PASS	(1, 1, 0, 1) does not preserve the pair splitting
+A04	PASS	(2, 1, 1, 1) does not preserve the pair splitting
+A05	PASS	(1, 1, 0, -1) does not preserve the pair splitting
+A06	PASS	exact wall Gram determinant one
+A07	PASS	wall basis vectors are tied
+A08	PASS	wall interior has exact two-way tie
+A09	PASS	pair is unimodular
+A10	PASS	unimodular pair spans the full Z2 lattice
+A11	PASS	left chamber has only e1 shortest
+A12	PASS	right chamber has only e2 shortest
+A13	PASS	vertex has three tied lines
+A14	PASS	vertex has three distinct unimodular pair choices
+A15	PASS	two involutive swap lifts
+A16	PASS	two order-four swap lifts
+A17	PASS	J fixed lattice is diagonal
+A18	PASS	J anti-fixed lattice is anti-diagonal
+A19	PASS	minus-J fixed lattice is anti-diagonal
+A20	PASS	order-four exchange has no fixed circle lattice
+A21	PASS	exchange eigenlattices have index two
+A22	PASS	J and minus-J are sign-basis conjugate
+A23	PASS	relative character annihilates fixed diagonal circle
+A24	PASS	fixed diagonal circle is primitive
+A25	PASS	full projected connection doublet covariant for (0, 1, 1, 0)
+A26	PASS	full projected connection doublet covariant for (0, -1, -1, 0)
+A27	PASS	full projected connection doublet covariant for (0, 1, -1, 0)
+A28	PASS	full projected connection doublet covariant for (1, 1, 0, 1)
+A29	PASS	normalized reciprocal amplitudes lie on S1
+A30	PASS	amplitude ratio is reciprocal exponential
+A31	PASS	reciprocity swaps normalized amplitudes
+A32	PASS	conditional quotient lands on S2
+A33	PASS	normalized A wedge dA radial integral
+A34	PASS	all four sign actions are free
+A35	PASS	conditional absolute Chern class is one
+A36	PASS	orientation/chirality sign remains two-valued

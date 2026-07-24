@@ -1,0 +1,23 @@
+status_id	object	status	scope
+S01	full toric dual character module	DERIVED_WHERE_TORIC	rank-two GL2Z local system
+S02	generic wall shortest pair	DERIVED_UNIMODULAR_UNORDERED_BASIS	two-way wall interior
+S03	pair span	DERIVED_EQUALS_FULL_MODULE	not a smaller carrier
+S04	co-shortest pair away from wall	NOT_AVAILABLE	only one line remains shortest
+S05	unique pair at three-way vertex	REFUTED	three pair choices
+S06	global metric-derived unordered shortest splitting	CONDITIONAL_ON_EVERYWHERE_TWO_WAY_WALL_AND_SIGNED_PERMUTATION_MONODROMY	generic metric branches leave the wall and generic GL2Z does not preserve
+S07	pair tensor and doublet connection	DERIVED_ON_PAIR_REDUCED_BRANCH	geometric covariants, not section
+S08	global exchange lift	OPEN_SELECTOR	C1 scalar seal does not select angular lift
+S09	involutive exchange fixed circle	DERIVED_CONDITIONAL	requires global J or minus-J
+S10	order-four exchange fixed circle	UNAVAILABLE	fixed lattice rank zero
+S11	exchange eigenlattice splitting	INDEX_TWO_NOT_DIRECT_OVER_Z	real split exists; integral parity remains
+S12	normalized reciprocal spinor coordinate	EXACT_CONDITIONAL	aligned reciprocal toric amplitude interpretation
+S13	FC04 S3 completion	UNIQUE_CONDITIONAL	periods and primitive opposing caps supplied
+S14	fixed-circle Hopf quotient	ABS_C1_ONE_CONDITIONAL	FC04 plus global involutive exchange and normalization
+S15	Hopf sign	OPEN_ORIENTATION_CONVENTION	J and minus-J are sign-basis conjugate
+S16	S2 carrier section	OPEN	bundle base is not a field section
+S17	existing static Hopfion	SETTLED_STATIC_FINITE_BOX_CONDITIONAL	unchanged supplied carrier/action/operator premises
+S18	native action and source	OPEN	not implied by module topology
+S19	density feedback and bootstrap fixed point	OPEN	no density-to-geometry map inserted
+S20	unconditional mass and scale	OPEN	no scale-breaking equation
+S21	time-live persistence	OPEN	no dynamics run
+S22	overall	FULL_MODULE_DERIVED__PAIR_REDUCTION_WALL_AND_MONODROMY_CONDITIONAL__HOPF_BUNDLE_ABS_UNIT_ONLY_CONDITIONAL__CARRIER_OPEN	no canonization

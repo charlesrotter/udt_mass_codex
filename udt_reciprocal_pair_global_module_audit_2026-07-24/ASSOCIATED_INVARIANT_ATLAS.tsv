@@ -1,0 +1,19 @@
+invariant_id	object	definition	requirements	descent	physical_status
+I01	rank	rank Lambda*=2	toric region	GL2Z	DERIVED_GEOMETRIC
+I02	pair determinant	abs det(w1,w2)=1	two-way shortest wall	sign/order invariant	DERIVED
+I03	pair span	Zw1+Zw2=Lambda*	I02	full module	DERIVED_NOT_NEW_SUBMODULE
+I04	pair Gram determinant	det(W^T Q W)=1	unimodular Q and W	signed permutation	DERIVED
+I05	pair Gram trace	tr(W^T Q W)	pair reduction	signed permutation	DERIVED_GEOMETRIC
+I06	absolute pair angle	abs(G12)/sqrt(G11 G22)	pair reduction	sign/order invariant	DERIVED_GEOMETRIC
+I07	pair tensor K	w1 tensor w1+w2 tensor w2	unordered pair	covariant	DERIVED_REDUCTION_DATA
+I08	connection doublet	b=W^T S	pair reduction and torus connection	signed permutation plus torus gauge	DERIVED_CONNECTION_NOT_SECTION
+I09	curvature doublet	f=W^T dS	local toric charts	signed permutation	DERIVED_OBSTRUCTION_DATA
+I10	exchange trace/determinant	tr J=0, det J=-1	supplied involutive exchange	conjugacy	CONDITIONAL
+I11	exchange fixed line	ker(J-I)	global J lift	conjugacy	CONDITIONAL_ASSOCIATED_CIRCLE
+I12	exchange anti-fixed line	ker(J+I)	global J lift	conjugacy	CONDITIONAL_RELATIVE_DIRECTION
+I13	integral parity index	[Lambda*:Lambda_+ plus Lambda_-]=2	involutive exchange	conjugacy	DERIVED_CONDITIONAL
+I14	fixed-circle quotient character	w_-(Lambda_+)=0	global involutive exchange	up to sign	CONDITIONAL
+I15	normalized reciprocal amplitude norm	a1^2+a2^2=1	aligned reciprocal chart	swap covariant only	EXACT_CONDITIONAL
+I16	conditional Chern magnitude	abs c1=1	FC04, global involution, free fixed circle, orientation normalization	absolute sign survives	EXACT_CONDITIONAL_GLOBAL
+I17	Hopf sign	c1=plus or minus 1	orientation and lift convention	sign can reverse	OPEN_SIGN
+I18	carrier section	map from physical 3-domain to quotient S2	section, domain, boundary, transport	not supplied	OPEN

@@ -1,0 +1,17 @@
+transition_id	matrix_or_operation	type	test	outcome	note
+T01	[[1,0],[0,1]]	identity	pair_stabilizer	PRESERVES_PAIR	identity
+T02	[[-1,0],[0,1]]	first_sign_flip	pair_stabilizer	PRESERVES_UNORIENTED_PAIR	sign is forgotten but a physical phase is not selected
+T03	[[1,0],[0,-1]]	second_sign_flip	pair_stabilizer	PRESERVES_UNORIENTED_PAIR	sign is forgotten but a physical phase is not selected
+T04	[[-1,0],[0,-1]]	central_sign	pair_stabilizer	PRESERVES_UNORIENTED_PAIR	central sign
+T05	[[0,1],[1,0]]	positive_involutive_swap	fixed_and_antifixed_lattices	INVOLUTIVE_SWAP_FIXED_DIAGONAL	J squared is identity
+T06	[[0,-1],[-1,0]]	negative_involutive_swap	fixed_and_antifixed_lattices	INVOLUTIVE_SWAP_FIXED_ANTIDIAGONAL	minus J is sign-basis conjugate
+T07	[[0,1],[-1,0]]	order_four_swap	square_and_fixed_lattice	ORDER_FOUR_SWAP_NO_FIXED_CIRCLE	square equals minus identity
+T08	[[0,-1],[1,0]]	inverse_order_four_swap	square_and_fixed_lattice	ORDER_FOUR_SWAP_NO_FIXED_CIRCLE	square equals minus identity
+T09	[[1,1],[0,1]]	unipotent_shear	splitting_failure	FULL_MODULE_ONLY_SPLITTING_LOST	shear sends one coordinate line to a diagonal line
+T10	[[2,1],[1,1]]	hyperbolic_det_one	splitting_failure	FULL_MODULE_ONLY_SPLITTING_LOST	hyperbolic monodromy preserves no finite coordinate pair
+T11	[[1,1],[0,-1]]	det_minus_one_shear	splitting_failure	FULL_MODULE_ONLY_SPLITTING_LOST	orientation reversal does not rescue the splitting
+T12	M_in_GL2Z	general_lattice_cocycle	full_module_covariance	FULL_GL2Z_LOCAL_SYSTEM_COVARIANCE	the rank-two module descends without a preferred basis
+T13	R_in_signed_permutation	general_pair_reduction_cocycle	unordered_splitting_descent	UNORDERED_PAIR_REDUCTION_DESCENDS	cocycle is restricted to the order-eight stabilizer
+T14	cap_cycle_v	primitive_rank_drop	stratified_module	RANK_TWO_ORBIT_MODULE_TERMINATES_AT_CAP	a primitive isotropy cycle collapses
+T15	nonprimitive_cap_cycle	orbifold_rank_drop	stabilizer_and_effectiveness	ORBIFOLD_OR_INEFFECTIVE_STRATUM	nonprimitive isotropy has exceptional stabilizer
+T16	no_integral_torus_lattice	nonintegrable_termination	object_unavailable	NO_CHARACTER_MODULE	there is no integral torus local system
