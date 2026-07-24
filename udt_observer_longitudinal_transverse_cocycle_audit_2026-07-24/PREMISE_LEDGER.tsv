@@ -1,0 +1,26 @@
+id	item	status	use_or_limit
+P01	c_E	OBSERVED_FOUNDING	calibrated clock-length conversion
+P02	complete Lorentzian metric	CONDITIONAL_SUPPLIED_BRANCH	required for spacetime path curvature and endpoint clock readout
+P03	Levi-Civita connection and curvature	DERIVED_FROM_SUPPLIED_METRIC	no field equation imported
+P04	endpoint observers and unit tangents	FREE_INPUT	metric fixes causal type but no native matter law selects physical observers
+P05	event pairing	FREE_INPUT	null or observer-rest pairing remains unselected
+P06	path type	FREE_CANDIDATE	null and rest constructions remain separate
+P07	path family	FREE_AND_ALL_RETAINED	cut-locus and lensing multiplicity not discarded
+P08	affine normalization	GAUGE	consistent normalization required at concatenation
+P09	screen basis	GAUGE	endpoint covariance required
+P10	vertex Jacobi map	DERIVED_GIVEN_PATH	projected angular-area object tested for composition
+P11	full transverse deviation propagator	DERIVED_GIVEN_PATH	first-order completion tested for composition and caustic continuation
+P12	endpoint clock ratio	DERIVED_GIVEN_OBSERVERS_PATH_AND_EVENTS	positive frequency or static lapse ratio
+P13	delta_equals_log_clock_ratio	CONDITIONAL_SOLDER_TO_TEST	not silently identified with founding pair depth
+P14	reciprocal_matrix_S	DERIVED_FOUNDING_KINEMATICS	its physical depth argument remains the open join
+P15	full_coframe_parallel_transport	DERIVED_GIVEN_PATH	type control not automatically clock or Jacobi transport
+P16	round_b	POSITIVE_FREE_SYMBOL	conditional B19 branch scale
+P17	WRL_X	POSITIVE_FREE_SYMBOL	local residual scale not promoted to physical Xmax
+P18	all_12_completions	FIXED_REGISTRY	no completion chosen
+P19	all_28_equation_families	FIXED_REGISTRY	no family omitted or promoted
+P20	co_presence	WORKING_INTERPRETATION	does not select path or propagation equation
+P21	action_source_carrier_topology_boundary	OPEN_EXCLUDED	cannot select the cocycle
+P22	density_mass_bootstrap	OPEN_EXCLUDED	no feedback law or value
+P23	physical_Xmax	OPEN_OUTPUT	not inferred from a local horizon or caustic
+P24	observational_data	EXCLUDED	no profile or branch fit
+P25	GPU_or_time_live	EXCLUDED	not authorized or needed

@@ -1,0 +1,20 @@
+id	claim	falsifier	required_response
+F01	projected vertex Jacobi map is not generally composable	a correct universal concatenation law J21_times_J10_equals_J20 exists	reject need for first-order completion
+F02	full first-order transverse propagator composes	fundamental matrices fail M21_times_M10_equals_M20 under matched intermediate data	reject cocycle
+F03	full transverse propagator is symplectic	metric Jacobi generator fails the canonical symplectic condition	reject conservation and determinant claims
+F04	full propagator survives a caustic	round antipodal full matrix is singular	reject caustic-continuation claim
+F05	projected angular map can be singular at a caustic	round antipodal vertex block is nonzero	reject block distinction
+F06	clock ratios compose	positive endpoint ratio fails Q02_equals_Q01_times_Q12 under one intermediate observer/event	reject clock cocycle
+F07	reciprocal matrices compose	additive log ratio fails S02_equals_S12_times_S01	reject reciprocal block
+F08	combined block composes	either constituent fails under exactly matched path and endpoint data	reject combined cocycle
+F09	screen covariance is endpoint based	intermediate screen gauge fails to cancel under concatenation	reject geometric interpretation
+F10	WRL R solves its radial Jacobi equation	R_double_prime_plus_Krad_times_R is nonzero	reject WRL transverse control
+F11	WRL clock block equals exp(phi) only in centered control	the registered local relations do not give N_inverse_equals_exp_phi	reject control
+F12	round B19 has transverse transport but trivial clock	registered branch yields nonunit clock ratio	regrade branch
+F13	WRL has a local combined witness	a local endpoint fundamental matrix or clock ratio fails away from center and lapse zero	regrade branch
+F14	no cross_branch_splice	transverse and clock blocks from different metrics are used together	invalidate assembly
+F15	founding reciprocal solder remains conditional	log clock ratio is proved identical to native observer pair depth for arbitrary observers and paths	promote only with proof
+F16	null_vs_rest selection remains open	metric premises uniquely select one path type	report theorem
+F17	universal global observer cocycle remains open	a complete nontrivial all_observer recenterable registered branch satisfies all gates	report witness
+F18	complete registry coverage	any fixed branch 12 completion or 28 equation-family disposition is omitted	stop
+F19	repository evidence gates hold	any source hash manifest current path navigation test or dirty metadata gate fails	stop
