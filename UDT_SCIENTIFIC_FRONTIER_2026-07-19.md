@@ -4,7 +4,74 @@ Date: 2026-07-24
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
-## July 24 dual-systole global transport overlay — current authority
+## July 24 observer-pair clock and relational-depth overlay — current authority
+
+Read `udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `OWNER_FRAME_LEDGER.tsv`, `EXACT_DERIVATION.md`,
+`DEPTH_TYPE_RULING_LEDGER.tsv`, `COMPOSITION_DOMAIN_LEDGER.tsv`, `LAY_REPORT.md`, and
+`NEXT_STEP.md`. Then read
+`udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md` and its
+`STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `TRANSPORT_TYPE_LEDGER.tsv`,
+`CLOCK_READOUT_LEDGER.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md` before the earlier overlays below.
+
+The two founding reciprocal channels plus duality, regular composition, reversal, and
+nontriviality derive the abstract ordered pair operator
+
+```text
+S(delta)=diag(exp(-delta),exp(delta)).
+```
+
+Its determinant, composition, and inverse are exact. In the balanced basis it is exactly an
+algebraic `O(1,1)` boost. This is internal reciprocal algebra, not an import of SR or GR observer
+mechanics. The named time-per-length channel remains `exp(-rho)`. A `cosh` half-trace and
+conditional `sech` inverse are diagnostics/readout candidates; they do not replace the named
+multiplicative channel or select a physical mutual-clock measurement.
+
+Observer-frame dilation is relational and leaves every observer's local physics neutral:
+
+```text
+rho_p(p)=0.
+```
+
+The complete-round three-direction theorem does not refute pairwise dilation. It proves that
+differences of one observer-independent global scalar cannot encode every strictly positive
+isotropic pair depth on the complete round centerless branch. Local signed `phi`, local ordered
+chains, anisotropic fields, and relational pair comparisons are not excluded.
+
+The smallest surviving metric-native type is
+
+```text
+rho_p(q)=F(d_h(p,q)),
+```
+
+an observer-indexed bilocal family conditional on the still-open profile `F`, signed ordered lift,
+and chart-transition law. General non-collinear observer composition requires angular data. Along
+ordinary minimizing-geodesic subsegments, a universal continuous additive `F` must be linear.
+Consequently a finite proper diameter cannot also be infinite additive depth under the same linear
+object identification; a nonlinear display, location-dependent accumulated rate, infinite proper
+length, or another metric-derived join would have to be established separately.
+
+At the round antipode, scalar distance is unique while complete frame transport is a path family.
+The reciprocal current integrates to an endpoint local-field difference if a global exact section
+is supplied, but it inherits the absolute-scalar obstruction and does not close the pair problem.
+The founding `c` converts clock and length units but does not by itself select a dimensionless
+depth-per-length normalization.
+
+Status:
+`ORDERED_RECIPROCAL_PAIR_OPERATOR_DERIVED_CONDITIONAL_WITH_FOUNDING_PREMISE_STAMPS`;
+`OBSERVER_FRAME_DILATION_RELATIONAL_ONLY_LOCAL_NEUTRAL`;
+`ABSOLUTE_GLOBAL_SCALAR_DIFFERENCE_REFUTED_AS_UNIVERSAL_ROUND_PAIR_ENCODING`;
+`OBSERVER_INDEXED_BILOCAL_METRIC_FAMILY_SMALLEST_SURVIVING_TYPE_GIVEN_F`;
+`ANGULAR_DATA_DERIVED_REQUIRED_FOR_NONCOLLINEAR_COMPOSITION`;
+`F_CHART_TRANSITIONS_PHYSICAL_READOUT_AND_XMAX_OPEN`; `VERIFIED-WITH-CAVEATS`.
+
+The next bounded question is whether founding observer reciprocity plus the complete coframe
+derives a coherent transition law between observer-indexed depth-and-angle charts, with a neutral
+local identity at every observer. This is not authority to select `F`, import SR/GR observer
+mechanics, promote a projective display, insert density, launch matter/time-live/GPU work, select
+an action or carrier, canonize, move artifacts, or resume repository reorganization.
+
+## July 24 dual-systole global transport overlay — prior authority
 
 Read `udt_dual_systole_global_transport_audit_2026-07-24/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `CONTINUOUS_WALL_ATLAS.tsv`, `GLOBAL_TRANSPORT_ATLAS.tsv`,
@@ -46,7 +113,7 @@ bootstrap structure supplies a native wall-crossing rule. This is not authority 
 adopt a carrier or action, scan density, launch a matter/time-live/GPU solve, canonize, move
 artifacts, or resume repository reorganization.
 
-## July 24 pre-density substrate-response atlas — current authority
+## July 24 pre-density substrate-response atlas — prior authority
 
 Read `udt_pre_density_substrate_response_atlas_2026-07-24/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `TORUS_LATTICE_SELECTOR_ATLAS.tsv`, `GLOBAL_DESCENT_ATLAS.tsv`,
@@ -99,7 +166,7 @@ package remains immutable evidence and does not authorize a physical sign or rol
 action, density scan, time-live/GPU work, canonization, artifact move, or repository
 reorganization.
 
-## July 23 bootstrap substrate-to-micro closure overlay — current authority
+## July 23 bootstrap substrate-to-micro closure overlay — prior authority
 
 Read `udt_bootstrap_substrate_micro_closure_audit_2026-07-23/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `CHANNEL_OUTCOMES.tsv`, `PRIOR_RESULT_REGRADE.tsv`,
@@ -167,7 +234,7 @@ only as a conditional diagnostic. This is not authority to call geometric bracke
 select a carrier/action/completion, launch time-live or GPU work, canonize, move artifacts, or
 resume repository reorganization.
 
-## July 23 Hopf-realization deformation overlay — current authority
+## July 23 Hopf-realization deformation overlay — prior authority
 
 Read `udt_hopf_realization_deformation_audit_2026-07-23/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `DEFORMATION_OUTCOMES.tsv`, `GLOBAL_COMPLETION_OUTCOMES.tsv`, `LAY_REPORT.md`,
@@ -212,7 +279,7 @@ choosing a chart, torus gauge, carrier, action, or boundary framing. This is not
 a carrier or phase, launch dynamics or a density scan, use the GPU, canonize, move artifacts, or
 resume repository reorganization.
 
-## July 23 Hopf–transport–bootstrap dependency overlay — current authority
+## July 23 Hopf–transport–bootstrap dependency overlay — prior authority
 
 Read `udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `DEPENDENCY_MATRIX.tsv`, `BOOTSTRAP_ADJUDICATION.tsv`, `LAY_READOUT.md`, and
@@ -260,7 +327,7 @@ reciprocal-toric quotient induce a genuine global Hopf-carrier deformation space
 latitude/phase seed, or none. This is not authority to adopt a carrier or action, launch dynamics,
 scan density, use the GPU, canonize, move artifacts, or resume repository reorganization.
 
-## July 23 reciprocal-transport naturality overlay — current authority
+## July 23 reciprocal-transport naturality overlay — prior authority
 
 Read `udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `LAY_READOUT.md`, and `NEXT_STEP.md` before the earlier July 23 layers below.
@@ -301,7 +368,7 @@ transport-independent and which require the still-open section/carrier/connectio
 No action, carrier, Hopfion physics, source, boundary charge, scale, time-live law, GPU work,
 canonization, artifact move, or reorganization follows.
 
-## July 23 scientific-consolidation overlay — current authority
+## July 23 scientific-consolidation overlay — prior authority
 
 Read `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
 `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and
@@ -333,7 +400,7 @@ boundary charge, physical representative, absolute scale, bridge, carrier emerge
 matter law, and unconditional mass remain `OPEN`. No solve, GPU work, canonization, carrier/action
 adoption, artifact move, or repository reorganization follows.
 
-## July 20 matter/bootstrap dimensional-inventory overlay — current authority
+## July 20 matter/bootstrap dimensional-inventory overlay — prior authority
 
 Read `matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, `DIMENSIONAL_OBJECT_LEDGER.tsv`, and
@@ -373,7 +440,7 @@ Exact 31/31 algebra and an independent eight-group/25-catch verifier pass. Statu
 absolute `Xmax`, and time-live persistence remain open. No follow-on derivation, GPU work,
 canonization, or reorganization follows.
 
-## July 20 scale-breaking whole-closure overlay — current authority
+## July 20 scale-breaking whole-closure overlay — prior authority
 
 Read `scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
 `LAY_DECISION_TREE.md`, `SCALE_WEIGHT_LEDGER.tsv`, and `NEXT_SCIENTIFIC_DECISION.md` before the older
@@ -526,7 +593,7 @@ and archived/frozen 55/55, 23/23, and 5/5 replays pass. Fresh-context external r
 unperformed without specific disclosure authorization. No action, source, carrier, conserved
 charge, numerical scale, GPU work, canonization, or reorganization follows.
 
-## July 19 asymptotic-boundary lineage overlay — current authority
+## July 19 asymptotic-boundary lineage overlay — prior authority
 
 Read `asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `LAY_DECISION_TREE.md`, and `GLOBAL_CLOSURE_EQUATION_LEDGER.tsv` before the
@@ -558,7 +625,7 @@ without explicit external-disclosure authorization. No boundary-generator follow
 canonization, or reorganization is launched. The lower "current open discriminator" is superseded
 as the global next task; it remains durable angular-lane evidence only.
 
-## July 19 premise-reset overlay — current authority
+## July 19 premise-reset overlay — prior authority
 
 Read `udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`, then its
 `OWNER_MEANING_LEDGER.tsv`, `PACKAGE_REGRADE.tsv`, and `RERUN_PRIORITY.md` before using any result

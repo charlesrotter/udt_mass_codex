@@ -7,7 +7,57 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-24).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-24 — reciprocal-pair global-module audit)
+## CURRENT (2026-07-24 — observer-pair operator and relational depth type)
+
+Read `udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `OWNER_FRAME_LEDGER.tsv`, `EXACT_DERIVATION.md`,
+`DEPTH_TYPE_RULING_LEDGER.tsv`, `COMPOSITION_DOMAIN_LEDGER.tsv`, `LAY_REPORT.md`, and
+`NEXT_STEP.md`. Then read the parent
+`udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md` and its
+`STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `TRANSPORT_TYPE_LEDGER.tsv`,
+`CLOCK_READOUT_LEDGER.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+
+Current ruling:
+
+- the two founding postulates and registered composition derive the abstract ordered reciprocal
+  operator `S(delta)=diag(exp(-delta),exp(delta))`;
+- its balanced representation is an exact algebraic `O(1,1)` boost, not an imported SR/GR
+  mechanism;
+- the named temporal channel `exp(-rho)` remains the multiplicative clock channel;
+- observer-frame dilation is relational only: every observer has `rho_p(p)=0`, and local physics
+  in each observer's own frame is unchanged;
+- the three-observer round control does not invalidate pairwise dilation. It refutes only the use
+  of differences of one observer-independent global scalar as a universal strictly positive
+  isotropic pair-depth encoding;
+- the smallest surviving metric-native type is the observer-indexed bilocal family
+  `rho_p(q)=F(d_h(p,q))`, conditional on the still-open `F`, signed ordered lift, and chart
+  transitions;
+- angular data is required for non-collinear observer composition;
+- a universal continuous `F` preserving ordinary minimizing-geodesic subsegment addition must be
+  linear. Infinite depth at finite proper diameter therefore needs a different derived join rather
+  than silently identifying depth with ordinary proper length;
+- scalar antipodal distance can remain unique while complete frame transport is a path family;
+- endpoint observer/event pairing, physical mutual-clock readout, the full coframe transition law,
+  physical `X_max`, mass, density, CMB interpretation, action, source, carrier, boundary, scale,
+  and time-live persistence remain open.
+
+Evidence: operator audit 62 exact/74 independent checks with 12 exercised catches; depth audit
+76 exact/68 independent checks with 14 exercised catches; CPU only; both hash-manifested; tests
+70 passed/1 xfailed; six frozen packages, current navigation, frontier targets, and the original
+54-path dirty checkout unchanged. Grade `VERIFIED-WITH-CAVEATS`.
+
+Next bounded seam:
+
+> Determine whether founding observer reciprocity plus the complete coframe derives a coherent
+> transition law between observer-indexed depth-and-angle charts, retaining a neutral local
+> identity at each observer.
+
+Do not select `F`, import SR/GR observer mechanics, promote a projective display, insert density,
+launch matter/time-live/GPU work, select an action or carrier, canonize, or reorganize.
+
+<!-- STARTUP_CURRENT_END -->
+
+## PRIOR CURRENT (2026-07-24 — reciprocal-pair global-module audit)
 
 Read `udt_reciprocal_pair_global_module_audit_2026-07-24/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `LOCAL_MODULE_CENSUS.tsv`,
@@ -300,8 +350,6 @@ external model review was performed, so the package grade remains `VERIFIED-WITH
 No density value, density-to-geometry law, carrier, action, physical phase, or matter solution was
 supplied. No GPU work, time-live solve, canonization, repository reorganization, or artifact
 relocation follows automatically. R0--R1H remains paused.
-
-<!-- STARTUP_CURRENT_END -->
 
 ## PRIOR CURRENT (2026-07-22 — metric-to-frontier synthesis externally audited; four PASS-WITH-CAVEATS)
 

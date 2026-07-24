@@ -4,6 +4,25 @@
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
 **➤ CURRENT SCIENTIFIC FRONTIER:**
+`udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `OWNER_FRAME_LEDGER.tsv`, `EXACT_DERIVATION.md`,
+`DEPTH_TYPE_RULING_LEDGER.tsv`, `COMPOSITION_DOMAIN_LEDGER.tsv`, `LAY_REPORT.md`, and
+`NEXT_STEP.md`; then read the parent
+`udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md` and its
+`STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `TRANSPORT_TYPE_LEDGER.tsv`,
+`CLOCK_READOUT_LEDGER.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+
+The founding reciprocal channels and composition derive the abstract ordered pair operator, whose
+balanced form is an exact algebraic `O(1,1)` boost. Dilation is an inter-frame comparison and does
+not modify either observer's local physics. The three-observer control rejects only a universal
+absolute-scalar-difference encoding, not pairwise dilation. The smallest surviving metric-native
+type is an observer-indexed bilocal depth family `rho_p(q)=F(d_h(p,q))`; `F`, its signed lift,
+chart transitions, endpoint readout, and physical `X_max` remain open. Angular data is required for
+non-collinear composition. Next: determine whether founding observer reciprocity plus the complete
+coframe derives the transition law between observer-indexed depth-and-angle charts. No action,
+density, matter/time-live/GPU work, canonization, or reorganization is authorized.
+
+**➤ PRIOR JULY 24 RECIPROCAL-PAIR GLOBAL-MODULE FRONTIER:**
 `udt_reciprocal_pair_global_module_audit_2026-07-24/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `LOCAL_MODULE_CENSUS.tsv`,
 `TRANSITION_GROUP_ATLAS.tsv`, `ASSOCIATED_INVARIANT_ATLAS.tsv`,
@@ -252,34 +271,44 @@ Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`,
 
 1. **`LIVE.md`** CURRENT STATE
 2. **`HANDOFF.md`** CURRENT block
-3. **`udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/AUDIT_REPORT.md`**,
+3. **`udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md`**,
+   **`STATUS_LEDGER.tsv`**, **`OWNER_FRAME_LEDGER.tsv`**, **`EXACT_DERIVATION.md`**,
+   **`LAY_REPORT.md`**, and **`NEXT_STEP.md`**
+4. **`udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md`**,
+   **`STATUS_LEDGER.tsv`**, **`EXACT_DERIVATION.md`**, **`TRANSPORT_TYPE_LEDGER.tsv`**,
+   **`CLOCK_READOUT_LEDGER.tsv`**, **`LAY_REPORT.md`**, and **`NEXT_STEP.md`**
+5. **`udt_two_observer_separation_selector_audit_2026-07-24/AUDIT_REPORT.md`** and
+   **`udt_xmax_observer_separation_audit_2026-07-24/AUDIT_REPORT.md`** only when their
+   complete-metric distance or global-pair-diameter results are load-bearing
+6. **`udt_hopf_transport_bootstrap_dependency_audit_2026-07-23/AUDIT_REPORT.md`**,
    **`STATUS_LEDGER.tsv`**, **`DEPENDENCY_MATRIX.tsv`**, **`LAY_READOUT.md`**, and
    **`NEXT_STEP.md`**
-4. **`udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md`** and
+7. **`udt_reciprocal_transport_naturality_selector_audit_2026-07-23/AUDIT_REPORT.md`** and
    **`STATUS_LEDGER.tsv`**
-5. **`udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md`** and
+8. **`udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md`** and
    **`STATUS_LEDGER.tsv`**
-6. **`udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`** and its
-   current status, metric-to-frontier, and regression-guard ledgers
-7. **`matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`**,
+9. **`udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`** and its
+   status, metric-to-frontier, and regression-guard ledgers
+10. **`matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`**,
    **`STATUS_LEDGER.tsv`**, **`LAY_DECISION_TREE.md`**, and **`NEXT_SCIENTIFIC_DECISION.md`**
-8. **`scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md`**,
+11. **`scale_breaking_closure_census_2026-07-20/AUDIT_REPORT.md`**,
    **`STATUS_LEDGER.tsv`**, **`LAY_DECISION_TREE.md`**, and **`NEXT_SCIENTIFIC_DECISION.md`**
-9. **`native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`**,
+12. **`native_boundary_generator_scale_audit_2026-07-19/AUDIT_REPORT.md`**,
    **`STATUS_LEDGER.tsv`**, **`LAY_DECISION_TREE.md`**, and **`NEXT_DERIVATION.md`**
-10. **`asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`**,
+13. **`asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md`**,
    **`STATUS_LEDGER.tsv`**, **`LAY_DECISION_TREE.md`**, and **`GLOBAL_CLOSURE_EQUATION_LEDGER.tsv`**
-11. **`udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`**, **`OWNER_MEANING_LEDGER.tsv`**,
+14. **`udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md`**, **`OWNER_MEANING_LEDGER.tsv`**,
    **`PACKAGE_REGRADE.tsv`**, and **`RERUN_PRIORITY.md`**
-12. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** through all current overlays only
-13. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
+15. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** through its top current overlay; older overlays
+   only when relevant
+16. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
    **`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`**
-14. The exact frozen evidence named by that frontier only for the active question
-15. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
-16. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
-17. Only the task-triggered protocol under **`.claude/skills/`**
-18. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
-19. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
+17. The exact frozen evidence named by that frontier only for the active question
+18. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
+19. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
+20. Only the task-triggered protocol under **`.claude/skills/`**
+21. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
+22. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
 
 ---
 

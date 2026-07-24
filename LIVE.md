@@ -8,57 +8,71 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's topmost CURRENT STATE block, that block wins.**
 
-## ============ CURRENT STATE (2026-07-24 — RECIPROCAL-PAIR GLOBAL-MODULE AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. A GENERIC TWO-WAY CO-SHORTEST PAIR IS UNIMODULAR, SO ITS INTEGRAL SPAN IS EXACTLY THE COMPLETE RANK-TWO TORUS CHARACTER MODULE, NOT A NEW SMALLER CARRIER. THE FULL MODULE DESCENDS UNDER GL2Z WHEREVER AN INTEGRAL TORUS EXISTS. THE SPECIAL SHORTEST PAIR IS WALL-LOCAL: IT DISAPPEARS AS A TWO-ELEMENT MINIMUM IN ADJACENT CHAMBERS, IS NONUNIQUE AT THREE-WAY VERTICES, AND GLOBALLY REQUIRES AN EVERYWHERE TWO-WAY-WALL BRANCH PLUS SIGNED-PERMUTATION MONODROMY. ITS EXACT STABILIZER HAS ORDER EIGHT. FOUR INTEGRAL LIFTS EXCHANGE THE UNORIENTED PAIR: TWO INVOLUTIONS HAVE A PRIMITIVE FIXED CIRCLE; TWO ORDER-FOUR LIFTS HAVE NONE. THE PAIR DOES NOT SELECT AMONG THEM. AN INVOLUTIVE LIFT HAS FIXED/ANTI-FIXED EIGENLATTICES OF INDEX TWO. WITH A SEPARATELY SUPPLIED GLOBAL INVOLUTION, PERIODIC PHASES, FULL RANGE, AND FC04 OPPOSING PRIMITIVE CAPS, THE FIXED CIRCLE ACTS FREELY ON THE CONDITIONAL S3 AND GIVES A SMOOTH S2 QUOTIENT WITH |C1|=1; NO INDIVIDUAL SHORTEST CHARACTER IS REQUIRED. THOSE GLOBAL INPUTS AND THE CARRIER SECTION REMAIN UNSELECTED. ACTION, SOURCE, BOUNDARY, DENSITY FEEDBACK, MASS, SCALE, AND TIME-LIVE PERSISTENCE REMAIN OPEN. NEXT: A SOURCE/BRANCH-AVAILABILITY AUDIT FOR AN ACTUAL COMPLETE FINITE-CELL INVOLUTIVE ANGULAR EXCHANGE AND COMPATIBLE CAP DATA. IF NO NATIVE BRANCH/EQUATION SUPPLIES THEM, STOP THE GEOMETRIC SELECTOR SEARCH. NO DENSITY, MATTER/GPU SOLVE, ACTION SELECTION, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-24 — OBSERVER-PAIR CLOCK OPERATOR AND RELATIONAL DEPTH-TYPE AUDITS COMPLETE, VERIFIED-WITH-CAVEATS. THE TWO FOUNDING POSTULATES PLUS REGISTERED COMPOSITION DERIVE THE ABSTRACT ORDERED RECIPROCAL OPERATOR S(DELTA)=DIAG(EXP(-DELTA),EXP(DELTA)); ITS BALANCED FORM IS AN EXACT O(1,1) BOOST. DILATION IS ONLY AN INTER-FRAME COMPARISON: EVERY OBSERVER HAS NEUTRAL SELF-DEPTH AND UNCHANGED LOCAL PHYSICS. THE THREE-OBSERVER CONTROL DOES NOT REFUTE PAIR DILATION; IT REFUTES ONLY ONE OBSERVER-INDEPENDENT GLOBAL SCALAR DIFFERENCE AS A UNIVERSAL POSITIVE ISOTROPIC PAIR-DEPTH ENCODING ON THE COMPLETE ROUND BRANCH. THE SMALLEST SURVIVING METRIC-NATIVE TYPE IS AN OBSERVER-INDEXED BILOCAL FAMILY RHO_P(Q)=F(D_H(P,Q)), WITH F, SIGNED LIFT, CHART TRANSITIONS, AND PHYSICAL READOUT OPEN. ANGULAR DATA IS REQUIRED FOR NONCOLLINEAR COMPOSITION. ORDINARY GEODESIC ADDITIVITY FORCES A UNIVERSAL CONTINUOUS F TO BE LINEAR, SO FINITE PROPER DIAMETER AND INFINITE DEPTH CANNOT BE THE SAME LINEAR-ADDITIVE OBJECT. PHYSICAL X_MAX, MASS, DENSITY, CMB INTERPRETATION, ACTION, SOURCE, CARRIER, BOUNDARY, AND TIME-LIVE DYNAMICS REMAIN OPEN. NEXT: TEST WHETHER FOUNDING OBSERVER RECIPROCITY PLUS THE COMPLETE COFRAME DERIVES THE TRANSITION LAW BETWEEN OBSERVER-INDEXED DEPTH-AND-ANGLE CHARTS. NO ACTION SELECTION, DENSITY INSERTION, MATTER/TIME-LIVE SOLVE, GPU WORK, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
 
 **READ NEXT, IN ORDER:**
 
 1. `HANDOFF.md` current marked block.
-2. `udt_reciprocal_pair_global_module_audit_2026-07-24/AUDIT_REPORT.md`, then its
-   `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `LOCAL_MODULE_CENSUS.tsv`,
-   `TRANSITION_GROUP_ATLAS.tsv`, `ASSOCIATED_INVARIANT_ATLAS.tsv`,
-   `COMPLETION_MODULE_ATLAS.tsv`, `CONDITIONAL_HOPF_CROSSWALK.tsv`, `LAY_REPORT.md`, and
+2. `udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `OWNER_FRAME_LEDGER.tsv`, `EXACT_DERIVATION.md`,
+   `DEPTH_TYPE_RULING_LEDGER.tsv`, `COMPOSITION_DOMAIN_LEDGER.tsv`, `LAY_REPORT.md`, and
    `NEXT_STEP.md`.
-3. `udt_dual_systole_wall_crossing_selector_audit_2026-07-24/AUDIT_REPORT.md` for the parent
-   single-line obstruction.
-4. `angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md` and
-   `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` only when the conditional global
-   crosswalk is load-bearing.
+3. `udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `TRANSPORT_TYPE_LEDGER.tsv`,
+   `CLOCK_READOUT_LEDGER.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+4. The complete-metric observer-separation and angular/coframe packages named in those audits only
+   when their exact geometry is load-bearing.
 
 **CURRENT HONEST CLAIM:**
 
-- the complete rank-two integral character module is `DERIVED_WHERE_TORIC`;
-- a two-way co-shortest pair is a wall-local unordered unimodular basis whose span equals that full
-  module;
-- its co-shortest-pair status does not persist into adjacent chambers and is nonunique at a
-  three-way vertex;
-- a global metric-derived unordered shortest splitting requires an everywhere two-way-wall branch
-  and monodromy in the exact order-eight signed-permutation subgroup;
-- pair Gram/tensor and connection/curvature doublets are derived on such a reduced branch, but they
-  do not supply a phase section;
-- the unordered pair does not select its angular exchange lift: `J` and `-J` are involutions with
-  fixed circles, while the other two swap lifts are order four and have no fixed circle;
-- for an involutive exchange, the fixed and anti-fixed primitive lattices sum to an index-two
-  sublattice; this is exact integral geometry, not a particle-parity claim;
-- normalized reciprocal weights plus supplied phases reproduce the conditional toric `S3`
-  coordinate; supplied `FC04` plus a global involutive exchange gives the already conditional
-  smooth `S2` quotient with `|c1|=1`;
-- no preferred shortest member is needed for that conditional bundle, but the lift, periods,
-  phases, full range, caps, orientation, and carrier section remain unselected;
+- the abstract ordered reciprocal observer-pair operator is
+  `DERIVED_CONDITIONAL_WITH_FOUNDING_PREMISE_STAMPS`;
+- its determinant, composition, inverse, and balanced `O(1,1)` form are exact;
+- the named temporal channel `exp(-rho)` remains the derived multiplicative channel character;
+- metric coordinate-covector transport reproduces the reciprocal operator in the exact static
+  diagonal control, while orthonormal spatial-frame transport is identity; neither fact alone
+  supplies a measured mutual-clock readout;
+- dilation compares observer frames and does not modify either observer's local physics:
+  `rho_p(p)=0` for every observer;
+- one observer-independent global scalar difference cannot encode every strictly positive
+  isotropic pair depth on the complete round centerless branch; this is a type obstruction, not a
+  refutation of pairwise dilation, local signed `phi`, local chains, or anisotropic fields;
+- the smallest surviving metric-native type is
+  `OBSERVER_INDEXED_BILOCAL_METRIC_FAMILY_GIVEN_F`;
+- angular data is `DERIVED_REQUIRED` for non-collinear composition, while scalar cut-locus
+  distance can remain single-valued and complete frame transport can be a path family;
+- a universal continuous depth profile preserving ordinary minimizing-geodesic subsegment
+  addition is linear, so a finite metric diameter and infinite depth require a distinct nonlinear
+  display, location-dependent accumulation, infinite proper length, or another derived join;
+- `F`, its signed ordered lift, observer-chart transitions, endpoint frame/event pairing, the
+  physical clock solder, and physical `X_max` remain `OPEN`;
 - the existing static Hopfion remains `SETTLED_STATIC_FINITE_BOX_CONDITIONAL`;
-- complete action, native source, physical boundary, carrier emergence, density feedback,
-  unconditional mass, scale, and time-live persistence remain `OPEN`.
+- complete action, native source, physical boundary, carrier emergence, mass, density, CMB
+  interpretation, scale, and time-live persistence remain `OPEN`.
 
-**NEXT:** inspect registered complete branches and their actual equations only. Determine whether any
-already supplies a global involutive angular exchange compatible with real cap/isotropy data.
-Do not perform another free mirror-matrix census. If no native branch/equation supplies those data,
-bank the selector boundary and return to the action/bootstrap decision rather than inventing a
-completion.
+**NEXT:** determine whether founding observer reciprocity plus the complete coframe derives a
+coherent transition law between observer-indexed depth-and-angle charts. Test the exact round
+control, reciprocal radial operator, angular direction law, complete-coframe `3+3` structure,
+homogeneous squashed control, reversal/composition, and cut-locus path family. Every chart must
+retain a neutral local identity. Do not select `F`, import SR/GR observer mechanics, or promote a
+projective display to physics.
 
-**EVIDENCE:** exact 44-source freeze; 36/36 production checks; 30/30 local objects, 16/16
-transitions, 18/18 invariants, 12/12 completions, and 14/14 Hopf-crosswalk steps classified;
-independent stdlib/Fraction reconstruction; 26/26 catches; tests 70 passed/1 xfailed; six frozen
-packages, 1,114 current paths, frontier targets, and the original 54-path dirty checkout unchanged.
-Grade `VERIFIED-WITH-CAVEATS` because no fresh external model context was used.
+**EVIDENCE:** parent operator audit: 62 exact checks, 74 independent checks, and 12 exercised
+catches. Relational-depth audit: 76 exact checks, 68 independent checks, and 14 exercised catches.
+Both are CPU-only and hash-manifested. Tests remain 70 passed/1 xfailed; six frozen packages, 1,114
+current paths, frontier targets, and the original 54-path dirty checkout remain unchanged. Grade
+`VERIFIED-WITH-CAVEATS`; no fresh external-model semantic review was authorized.
+
+**REORGANIZATION:** R0--R1H remains paused. This checkpoint changes navigation only.
+
+<!-- STARTUP_CURRENT_END -->
+
+## PRIOR CURRENT (2026-07-24 — reciprocal-pair global-module audit)
+
+Read `udt_reciprocal_pair_global_module_audit_2026-07-24/AUDIT_REPORT.md` and its compact ledgers
+for the prior exact rank-two torus-character-module result. Its global involution, cap, phase,
+carrier-section, and physical-role gates remain conditional/open; the observer-pair audits above
+do not erase or strengthen them.
 
 ## PRIOR CURRENT (2026-07-24 — dual-systole wall-crossing selector audit)
 
@@ -309,10 +323,8 @@ or assume every completion has a global torus lattice. The continuous theorem su
 earlier 22/3 count only as local-moduli classification; the sampled count remains its bounded
 control.
 
-**REORGANIZATION:** R0--R1H remains paused. This checkpoint changes navigation and synthesis only;
-all evidence packages and historical records remain immutable.
-
-<!-- STARTUP_CURRENT_END -->
+**REORGANIZATION:** R0--R1H remains paused. This historical checkpoint changed navigation and
+synthesis only; all evidence packages and historical records remain immutable.
 
 **⚠ CURRENT SCIENTIFIC FRONTIER (2026-07-22):** read
 `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its

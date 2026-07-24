@@ -3,12 +3,9 @@
 This root is the control and navigation surface for the UDT research record.
 After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
-the [current CSN–`dphi` transport audit](udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md)
-→
-the [current scientific checkpoint](udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md)
-→ its [`status ledger`](udt_scientific_consolidation_checkpoint_2026-07-23/CURRENT_STATUS_LEDGER.tsv),
-[`metric-to-frontier map`](udt_scientific_consolidation_checkpoint_2026-07-23/METRIC_TO_FRONTIER_MAP.tsv),
-and [`regression guards`](udt_scientific_consolidation_checkpoint_2026-07-23/REGRESSION_GUARD_LEDGER.tsv)
+the [current relational observer-pair depth audit](udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md)
+→ the
+[parent reciprocal observer-pair operator audit](udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md)
 → the
 exact evidence named by those files only when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
@@ -17,11 +14,14 @@ supplies operational instructions and binding research discipline, but it
 cannot overrule the topmost current-state block in `LIVE.md`.
 
 The latest bounded scientific result is the
-[CSN–`dphi` transport-selector audit](udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md).
-Read its `STATUS_LEDGER.tsv`, `LAY_READOUT.md`, and `NEXT_STEP.md` before the consolidation
-checkpoint when connection, transport, bootstrap, or the current open seam is relevant. It derives
-a local CSN-invariant nonnull-`dphi` connection candidate, not a physical connection or global
-finite-cell law.
+[relational observer-pair depth audit](udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md).
+It keeps every observer's local frame neutral, rejects only a universal absolute-scalar encoding
+of all positive isotropic pair depths, and narrows the surviving metric-native type to an
+observer-indexed bilocal family conditional on its still-open profile and transition law. Its
+[parent operator audit](udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md) derives
+the abstract ordered reciprocal pair operator and its exact balanced `O(1,1)` representation.
+Neither audit selects a physical mutual-clock readout, `X_max`, action, source, carrier, mass,
+density law, or time-live dynamics.
 
 For particle operator history after current orientation, consult
 [`stability_branch_follow_256_DECISION.md`](stability_branch_follow_256_DECISION.md). It is durable
@@ -31,18 +31,18 @@ particle-lane evidence, not the global scientific frontier.
 [`NEGATIVES_REGISTRY.md`](NEGATIVES_REGISTRY.md), and
 [`PROVENANCE.md`](PROVENANCE.md) are the main status and evidence ledgers.
 
-## Scientific checkpoint — July 23, 2026
+## Prior scientific checkpoint — July 23, 2026
 
-The [current scientific checkpoint](udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md)
+The [July 23 scientific checkpoint](udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md)
 is the lean evidence-linked spine. It records the exact complete-metric frame rederivation,
 timelike boost/rotation `3+3`, general connection mixing, spacelike/null/zero causal changes, and
 the 12-by-5 finite-cell completion/causal cross. It also records the decisive limitation: no
 complete on-shell `(g,phi)` finite-cell branch has been supplied or selected.
 
 Common-Scale rescaling preserves the intrinsic `dphi` split but not its Levi-Civita mixing profile.
-The subsequent transport audit finds that a local CSN-invariant connection exists on nonnull
+The subsequent transport audit found that a local CSN-invariant connection exists on nonnull
 `dphi`, while exact natural and stabilizer families prevent physical uniqueness and the
-construction degenerates at null/zero strata. The current bounded seam is therefore whether
+construction degenerates at null/zero strata. Its then-bounded seam was whether
 registered reciprocal/reversal/seal naturality selects one connection without an invented
 minimality premise. Complete action, source, boundary charge,
 representative, scale, bridge, carrier emergence, time-live matter law, and unconditional mass

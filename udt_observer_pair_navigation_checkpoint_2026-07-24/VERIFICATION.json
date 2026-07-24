@@ -1,0 +1,145 @@
+{
+  "authority_boundary": {
+    "action_or_carrier_selected": false,
+    "canon_changed": false,
+    "density_or_Xmax_promoted": false,
+    "fixed_registry_changed": false,
+    "frozen_evidence_changed": false,
+    "gpu_work": false,
+    "navigation_only": true,
+    "new_scientific_result": false,
+    "repository_reorganization": false,
+    "research_artifact_changed": false
+  },
+  "base": "f1c6cb4",
+  "catch_proofs": {
+    "current_path_loss_rejected": "PASS",
+    "dirty_metadata_mutation_rejected": "PASS",
+    "duplicate_startup_marker_rejected": "PASS",
+    "frontier_target_loss_rejected": "PASS",
+    "frozen_manifest_mutation_rejected": "PASS",
+    "local_physics_mutation_rejected": "PASS",
+    "missing_link_target_rejected": "PASS",
+    "missing_operator_route_rejected": "PASS",
+    "missing_relational_route_rejected": "PASS",
+    "source_manifest_mutation_rejected": "PASS",
+    "three_observer_overstatement_rejected": "PASS",
+    "unexpected_scope_rejected": "PASS",
+    "wrong_next_seam_rejected": "PASS"
+  },
+  "dirty_checkout": {
+    "branch": "grok",
+    "contents_read": false,
+    "head": "adf8f92d95c387cc647f04b16f1f3b17e1e670d2",
+    "metadata_sha256": "4bc96070c841a14c497b642ee7b93dcf9061372f770aee065d6b495ee4996f4c",
+    "paths": 54,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "links": {
+    "markdown_links": 81,
+    "required_targets": 15,
+    "result": "PASS"
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "result": "PASS",
+  "schema": "udt-observer-pair-navigation-checkpoint-1.0",
+  "scope_paths": [
+    "AGENTS.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "README.md",
+    "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
+    "research/README.md",
+    "udt_observer_pair_navigation_checkpoint_2026-07-24/AUDIT_REPORT.md",
+    "udt_observer_pair_navigation_checkpoint_2026-07-24/COMMANDS.txt",
+    "udt_observer_pair_navigation_checkpoint_2026-07-24/FOUR_GATES.md",
+    "udt_observer_pair_navigation_checkpoint_2026-07-24/INDEPENDENT_VERIFICATION.json",
+    "udt_observer_pair_navigation_checkpoint_2026-07-24/TEST_STDERR.txt",
+    "udt_observer_pair_navigation_checkpoint_2026-07-24/TEST_STDOUT.txt",
+    "udt_observer_pair_navigation_checkpoint_2026-07-24/VERIFICATION.json",
+    "udt_observer_pair_navigation_checkpoint_2026-07-24/build_manifest.py",
+    "udt_observer_pair_navigation_checkpoint_2026-07-24/verify_navigation_checkpoint.py",
+    "udt_observer_pair_navigation_checkpoint_2026-07-24/verify_startup_independent.py"
+  ],
+  "source_packages": {
+    "packages": [
+      {
+        "entries": 34,
+        "manifest_sha256": "588f49b51101406144ea3c747ecb10cc24e80fb647feb356499e96624158f1c4",
+        "package": "udt_observer_pair_clock_operator_audit_2026-07-24",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "3d6668d1beb524628358bcb3a372209013ed2cdb10b1f1cbdb1752598de70af6",
+        "package": "udt_relational_pair_depth_realization_audit_2026-07-24",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS"
+  },
+  "startup": {
+    "control_files": 8,
+    "handoff_current_lines": 55,
+    "live_current_lines": 65,
+    "result": "PASS"
+  },
+  "tests": {
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "69889d8fe6812cf9d4f5b560e10fd85c1fc79aa058f4f54ee4f555fd375df6ae",
+    "xfailed": 1
+  }
+}

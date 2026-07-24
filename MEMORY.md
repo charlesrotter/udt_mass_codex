@@ -4,28 +4,35 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-07-23)
+## TOP — CURRENT POINTER (2026-07-24)
 
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block,
 then the marked current block in `HANDOFF.md`, then
-`udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`
-and its three compact ledgers. Expand only to the exact cited evidence made
-load-bearing by the active task.
+`udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md`
+and its compact status/exact/lay/next-step records, then the parent
+`udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md`.
+Expand only to the exact cited evidence made load-bearing by the active task.
 
-Current honest status: reciprocal kinematics and the scoped local
-nonzero-`dphi` structures are derived with their premises; the 12-by-5
-finite-cell cross is verified with caveats but supplies zero complete on-shell
-`(g,phi)` branches and selects none. `C2`/Bach remains
+Current honest status: the abstract ordered reciprocal observer-pair operator
+is derived with founding-premise stamps and has an exact balanced `O(1,1)`
+representation. Dilation compares frames and leaves each observer's local
+physics neutral. The complete-round three-observer control rejects only a
+universal observer-independent scalar-difference encoding, not pairwise
+dilation. The smallest surviving metric-native type is an observer-indexed
+bilocal family conditional on its open profile, signed lift, chart transitions,
+and physical readout; angular data is required for non-collinear composition.
+`C2`/Bach remains
 `UNIQUE-CONDITIONAL`; EH is `CONDITIONAL`; the round `S2` carrier is `POSIT`;
 particle stability is `SETTLED_STATIC_FINITE_BOX_CONDITIONAL`. Complete
 action, native source, boundary charge, physical representative, absolute
-scale, bridge, carrier emergence, time-live matter law, and unconditional
-mass remain `OPEN`.
+scale, physical `X_max`, mass/density/CMB interpretation, bridge, carrier
+emergence, time-live matter law, and unconditional mass remain `OPEN`.
 
-The current bounded seam is conformally natural pre-scale transport versus
-bootstrap selection of a physical metric representative. This pointer
-authorizes no follow-on solve, GPU work, canonization, artifact move, or
-repository reorganization.
+The current bounded seam is whether founding observer reciprocity plus the
+complete coframe derives a transition law between observer-indexed depth-and-angle
+charts while retaining a neutral local identity at each observer. This pointer
+authorizes no action or profile selection, density insertion, matter/time-live
+solve, GPU work, canonization, artifact move, or repository reorganization.
 
 ## DURABLE PRIOR MACRO FRONTIER (2026-07-09 simple metric + WR-L canon)
 

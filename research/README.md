@@ -2,7 +2,34 @@
 
 This directory is an additions-only navigation layer. It points to artifacts at their existing repository paths; it contains no copied research artifact and creates no new scientific authority. [`LIVE.md`](../LIVE.md) remains the current-frontier authority, followed by [`HANDOFF.md`](../HANDOFF.md). Claim labels below are reproduced from those current records and the accepted final native-action ledger.
 
-## Current scientific spine — July 23
+## Current scientific spine — July 24
+
+Start with the
+[relational observer-pair depth audit](../udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md),
+then its
+[status ledger](../udt_relational_pair_depth_realization_audit_2026-07-24/STATUS_LEDGER.tsv),
+[owner-frame ledger](../udt_relational_pair_depth_realization_audit_2026-07-24/OWNER_FRAME_LEDGER.tsv),
+[exact derivation](../udt_relational_pair_depth_realization_audit_2026-07-24/EXACT_DERIVATION.md),
+[lay report](../udt_relational_pair_depth_realization_audit_2026-07-24/LAY_REPORT.md), and
+[next step](../udt_relational_pair_depth_realization_audit_2026-07-24/NEXT_STEP.md).
+Then read the parent
+[reciprocal observer-pair operator audit](../udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md),
+its
+[status ledger](../udt_observer_pair_clock_operator_audit_2026-07-24/STATUS_LEDGER.tsv),
+[exact derivation](../udt_observer_pair_clock_operator_audit_2026-07-24/EXACT_DERIVATION.md),
+[lay report](../udt_observer_pair_clock_operator_audit_2026-07-24/LAY_REPORT.md), and
+[next step](../udt_observer_pair_clock_operator_audit_2026-07-24/NEXT_STEP.md).
+
+The abstract ordered reciprocal observer-pair operator is derived with founding-premise stamps,
+and its balanced form is an exact algebraic `O(1,1)` boost. Dilation is an inter-frame comparison
+that leaves every observer's local physics neutral. The three-observer round control rejects only
+a universal absolute-scalar-difference encoding, not pairwise dilation. The smallest surviving
+metric-native type is an observer-indexed bilocal family conditional on the still-open profile,
+signed lift, chart transitions, and physical readout. Angular data is required for non-collinear
+composition. The next bounded question is whether founding observer reciprocity plus the complete
+coframe derives the transition law between those depth-and-angle charts.
+
+## Prior scientific spine — July 23
 
 Start with the
 [CSN–`dphi` transport-selector audit](../udt_csn_dphi_transport_selector_audit_2026-07-23/AUDIT_REPORT.md),
@@ -21,8 +48,8 @@ then its
 and
 [regression guards](../udt_scientific_consolidation_checkpoint_2026-07-23/REGRESSION_GUARD_LEDGER.tsv).
 This is an evidence-linked routing layer. It moves no artifact, changes no evidence, and creates no
-new physics authority. The current open seam is conformally natural pre-scale transport versus
-bootstrap selection of a physical metric representative; the newer audit refines that seam to
+new physics authority. Its then-open seam was conformally natural pre-scale transport versus
+bootstrap selection of a physical metric representative, refined by the transport audit to
 selection among already available local candidates and their null/zero global completion.
 
 ## Prior scientific spine — July 22
@@ -49,6 +76,12 @@ The complete frozen root universe has 1,114 paths. Each has exactly one fixed-ba
 ## Existing top-level status labels
 
 - Reciprocal kinematics: `DERIVED`.
+- Ordered reciprocal observer-pair operator:
+  `DERIVED_CONDITIONAL_WITH_FOUNDING_PREMISE_STAMPS`; balanced `O(1,1)` form:
+  `DERIVED_ALGEBRAIC`.
+- Observer-frame dilation: `RELATIONAL_ONLY_LOCAL_NEUTRAL`; universal absolute-scalar-difference
+  encoding: `REFUTED_AS_ABSOLUTE_REPRESENTATION_IN_COMPLETE_ROUND_CONTROL`; observer-indexed
+  bilocal depth family: `SMALLEST_SURVIVING_TYPE_GIVEN_F`.
 - C-squared/Bach bulk: `UNIQUE-CONDITIONAL`.
 - EH, S2, and every present mass statement: `CONDITIONAL`.
 - Existing H3/no-null representation: `FULL_3D_HOPF_CAPABLE`; banked configuration:
@@ -65,6 +98,8 @@ The complete frozen root universe has 1,114 paths. Each has exactly one fixed-ba
 - Macro L form: `DERIVED under WR-L`; the native package remains `OPEN`.
 
 Sources: [`FINAL_STATUS_LEDGER.tsv`](../native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv),
+[`relational observer-pair depth audit`](../udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md),
+[`reciprocal observer-pair operator audit`](../udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md),
 [`native Hopfion topology audit`](../native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md),
 [`reciprocal Hopf metric audit`](../null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md),
 [`angular–toric closure audit`](../angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md),

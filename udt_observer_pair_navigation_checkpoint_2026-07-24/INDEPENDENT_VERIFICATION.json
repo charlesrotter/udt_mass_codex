@@ -1,0 +1,28 @@
+{
+  "catch_count": 4,
+  "catches": {
+    "local_neutrality_loss": true,
+    "operator_route_loss": true,
+    "relational_route_loss": true,
+    "three_observer_overstatement": true
+  },
+  "check_count": 13,
+  "checks": {
+    "all_controls_route_operator": true,
+    "all_controls_route_relational": true,
+    "frontier_current": true,
+    "handoff_local_neutral": true,
+    "handoff_next_transition": true,
+    "handoff_three_observer_scoped": true,
+    "live_bilocal_type": true,
+    "live_next_transition": true,
+    "live_relational_only": true,
+    "live_three_observer_scoped": true,
+    "memory_current": true,
+    "required_targets_exist": true,
+    "research_current": true
+  },
+  "control_files": 8,
+  "result": "PASS",
+  "schema": "udt-observer-pair-startup-independent-1.0"
+}
