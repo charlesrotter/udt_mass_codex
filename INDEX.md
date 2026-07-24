@@ -4,6 +4,22 @@
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
 **➤ CURRENT SCIENTIFIC FRONTIER:**
+`udt_reciprocal_pair_global_module_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `LOCAL_MODULE_CENSUS.tsv`,
+`TRANSITION_GROUP_ATLAS.tsv`, `ASSOCIATED_INVARIANT_ATLAS.tsv`,
+`COMPLETION_MODULE_ATLAS.tsv`, `CONDITIONAL_HOPF_CROSSWALK.tsv`, `LAY_REPORT.md`, and
+`NEXT_STEP.md`. A generic two-way co-shortest pair is an unordered unimodular basis of the full
+torus character module, not a smaller carrier. Its special pair status is wall-local and globally
+requires an everywhere-wall branch plus order-eight signed-permutation monodromy. Four exchange
+lifts exist; only the two involutions have fixed circles, and the pair does not select among them.
+With a separately supplied global involution and `FC04`, the fixed circle gives the known
+conditional smooth `S2` quotient with `|c1|=1` without choosing one shortest member. The lift,
+caps, periods, section, action, source, density, mass, and scale remain open. Next: audit whether an
+actual registered complete branch/equation supplies the involution and compatible cap data; stop
+the geometric selector search if none does. No density, matter/GPU work, reorganization, or
+canonization is authorized.
+
+**➤ PRIOR JULY 24 WALL-CROSSING FRONTIER:**
 `udt_dual_systole_wall_crossing_selector_audit_2026-07-24/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `CANDIDATE_OUTCOMES.tsv`,
 `PRINCIPLE_CAPABILITY_MATRIX.tsv`, `COMPLETION_WALL_CROSSING_ATLAS.tsv`, `LAY_REPORT.md`, and

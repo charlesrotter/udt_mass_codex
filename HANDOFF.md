@@ -7,7 +7,52 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-24).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-24 — dual-systole wall-crossing selector audit)
+## CURRENT (2026-07-24 — reciprocal-pair global-module audit)
+
+Read `udt_reciprocal_pair_global_module_audit_2026-07-24/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `LOCAL_MODULE_CENSUS.tsv`,
+`TRANSITION_GROUP_ATLAS.tsv`, `ASSOCIATED_INVARIANT_ATLAS.tsv`,
+`COMPLETION_MODULE_ATLAS.tsv`, `CONDITIONAL_HOPF_CROSSWALK.tsv`, `LAY_REPORT.md`, and
+`NEXT_STEP.md`.
+
+Current ruling:
+
+- a generic two-way co-shortest pair is unimodular, so its span is the complete rank-two torus
+  character module rather than a smaller carrier;
+- the full module descends under arbitrary `GL(2,Z)` cocycles wherever an integral torus exists;
+- the special co-shortest pair exists only on a wall, is lost as a pair of minima in adjacent
+  chambers, and has three possible pair choices at a three-way vertex;
+- a global metric-derived pair splitting requires an everywhere two-way-wall branch and monodromy
+  in the exact order-eight signed-permutation subgroup;
+- four integral lifts exchange the unoriented pair. `J` and `-J` are involutions with primitive
+  fixed circles; the other two are order four and have no fixed circle. The pair does not select a
+  lift;
+- involutive fixed and anti-fixed eigenlattices have index two in the full lattice;
+- normalized reciprocal weights and two supplied phases reproduce the conditional toric `S3`
+  coordinate;
+- supplied `FC04` plus a global involutive exchange gives a free fixed-circle action and the
+  already conditional smooth `S2` quotient with `|c1|=1`, without choosing one shortest member;
+- the lift, phases, periods, full range, caps, orientation, carrier section, and physical role
+  remain unselected;
+- static Hopfion stability retains its exact conditional finite-box scope;
+- action, source, boundary, carrier emergence, density feedback, mass, scale, and time-live
+  persistence remain open.
+
+Evidence: exact 44-source freeze; 36 exact checks; 30 local objects, 16 transitions, 18 invariants,
+12 completions, and 14 Hopf steps classified; independent stdlib/Fraction replay; 26/26 catches;
+70 tests passed/1 xfailed; six frozen packages, current navigation, and the original 54-path dirty
+checkout unchanged. Grade `VERIFIED-WITH-CAVEATS`.
+
+Next bounded seam:
+
+> Perform a source/branch-availability audit: does any already registered complete finite-cell
+> branch and its actual equations supply a global involutive angular exchange compatible with its
+> cap/isotropy data? If not, report that geometry has reached its current selector boundary.
+
+Do not repeat free mirror algebra, choose a completion, insert density, launch matter/GPU work,
+select an action or carrier, canonize, or reorganize.
+
+## PRIOR CURRENT (2026-07-24 — dual-systole wall-crossing selector audit)
 
 Read `udt_dual_systole_wall_crossing_selector_audit_2026-07-24/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `CANDIDATE_OUTCOMES.tsv`,

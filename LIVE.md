@@ -8,7 +8,61 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's topmost CURRENT STATE block, that block wins.**
 
-## ============ CURRENT STATE (2026-07-24 — DUAL-SYSTOLE WALL-CROSSING SELECTOR AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. AT THE RECIPROCAL PHI=0 TIE, THE METRIC AND TORUS LATTICE DERIVE THE FULL EXCHANGED PAIR OF SHORTEST PRIMITIVE CHARACTER LINES. RECIPROCITY PRESERVES THAT PAIR BUT FIXES NEITHER MEMBER, SO NO SINGLE-VALUED SHORTEST-LINE SELECTOR CAN BOTH EXIST AT THE SYMMETRIC SEAL AND BE RECIPROCITY-EQUIVARIANT. IDENTITY GLUING FAILS SHORTESTNESS; RECIPROCAL-SWAP GLUING CAN CONTINUE A LINE ONLY CONDITIONAL ON AN UNSELECTED GLOBAL ANGULAR LIFT. EXACT C1 FIXES THE ODD SCALAR-PHI SEAL, NOT THE TRANSVERSE ANGULAR LIFT. ALL 32 REGISTERED RULES, 15 PRINCIPLE/OBJECT TYPES, AND 12 COMPLETION FAMILIES WERE CLASSIFIED. THE SYMMETRY-RESPECTING TWO-CHARACTER OBJECT IS DERIVED GEOMETRY BUT IS NOT YET A CARRIER, PHASE SECTION, MATTER SOURCE, OR MASS LAW. NEXT BOUNDED QUESTION: WHETHER THE FULL RECIPROCAL TWO-CHARACTER MODULE HAS A METRIC-NATIVE GLOBAL REALIZATION AND WHETHER, ONLY AFTER THAT, IT HAS A CONDITIONAL RELATION TO THE EXISTING HOPF BRANCH. NO SINGLE-CHARACTER TIE-BREAK, DENSITY INSERTION, MATTER/GPU SOLVE, ACTION SELECTION, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-24 — RECIPROCAL-PAIR GLOBAL-MODULE AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. A GENERIC TWO-WAY CO-SHORTEST PAIR IS UNIMODULAR, SO ITS INTEGRAL SPAN IS EXACTLY THE COMPLETE RANK-TWO TORUS CHARACTER MODULE, NOT A NEW SMALLER CARRIER. THE FULL MODULE DESCENDS UNDER GL2Z WHEREVER AN INTEGRAL TORUS EXISTS. THE SPECIAL SHORTEST PAIR IS WALL-LOCAL: IT DISAPPEARS AS A TWO-ELEMENT MINIMUM IN ADJACENT CHAMBERS, IS NONUNIQUE AT THREE-WAY VERTICES, AND GLOBALLY REQUIRES AN EVERYWHERE TWO-WAY-WALL BRANCH PLUS SIGNED-PERMUTATION MONODROMY. ITS EXACT STABILIZER HAS ORDER EIGHT. FOUR INTEGRAL LIFTS EXCHANGE THE UNORIENTED PAIR: TWO INVOLUTIONS HAVE A PRIMITIVE FIXED CIRCLE; TWO ORDER-FOUR LIFTS HAVE NONE. THE PAIR DOES NOT SELECT AMONG THEM. AN INVOLUTIVE LIFT HAS FIXED/ANTI-FIXED EIGENLATTICES OF INDEX TWO. WITH A SEPARATELY SUPPLIED GLOBAL INVOLUTION, PERIODIC PHASES, FULL RANGE, AND FC04 OPPOSING PRIMITIVE CAPS, THE FIXED CIRCLE ACTS FREELY ON THE CONDITIONAL S3 AND GIVES A SMOOTH S2 QUOTIENT WITH |C1|=1; NO INDIVIDUAL SHORTEST CHARACTER IS REQUIRED. THOSE GLOBAL INPUTS AND THE CARRIER SECTION REMAIN UNSELECTED. ACTION, SOURCE, BOUNDARY, DENSITY FEEDBACK, MASS, SCALE, AND TIME-LIVE PERSISTENCE REMAIN OPEN. NEXT: A SOURCE/BRANCH-AVAILABILITY AUDIT FOR AN ACTUAL COMPLETE FINITE-CELL INVOLUTIVE ANGULAR EXCHANGE AND COMPATIBLE CAP DATA. IF NO NATIVE BRANCH/EQUATION SUPPLIES THEM, STOP THE GEOMETRIC SELECTOR SEARCH. NO DENSITY, MATTER/GPU SOLVE, ACTION SELECTION, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+
+**READ NEXT, IN ORDER:**
+
+1. `HANDOFF.md` current marked block.
+2. `udt_reciprocal_pair_global_module_audit_2026-07-24/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `LOCAL_MODULE_CENSUS.tsv`,
+   `TRANSITION_GROUP_ATLAS.tsv`, `ASSOCIATED_INVARIANT_ATLAS.tsv`,
+   `COMPLETION_MODULE_ATLAS.tsv`, `CONDITIONAL_HOPF_CROSSWALK.tsv`, `LAY_REPORT.md`, and
+   `NEXT_STEP.md`.
+3. `udt_dual_systole_wall_crossing_selector_audit_2026-07-24/AUDIT_REPORT.md` for the parent
+   single-line obstruction.
+4. `angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md` and
+   `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` only when the conditional global
+   crosswalk is load-bearing.
+
+**CURRENT HONEST CLAIM:**
+
+- the complete rank-two integral character module is `DERIVED_WHERE_TORIC`;
+- a two-way co-shortest pair is a wall-local unordered unimodular basis whose span equals that full
+  module;
+- its co-shortest-pair status does not persist into adjacent chambers and is nonunique at a
+  three-way vertex;
+- a global metric-derived unordered shortest splitting requires an everywhere two-way-wall branch
+  and monodromy in the exact order-eight signed-permutation subgroup;
+- pair Gram/tensor and connection/curvature doublets are derived on such a reduced branch, but they
+  do not supply a phase section;
+- the unordered pair does not select its angular exchange lift: `J` and `-J` are involutions with
+  fixed circles, while the other two swap lifts are order four and have no fixed circle;
+- for an involutive exchange, the fixed and anti-fixed primitive lattices sum to an index-two
+  sublattice; this is exact integral geometry, not a particle-parity claim;
+- normalized reciprocal weights plus supplied phases reproduce the conditional toric `S3`
+  coordinate; supplied `FC04` plus a global involutive exchange gives the already conditional
+  smooth `S2` quotient with `|c1|=1`;
+- no preferred shortest member is needed for that conditional bundle, but the lift, periods,
+  phases, full range, caps, orientation, and carrier section remain unselected;
+- the existing static Hopfion remains `SETTLED_STATIC_FINITE_BOX_CONDITIONAL`;
+- complete action, native source, physical boundary, carrier emergence, density feedback,
+  unconditional mass, scale, and time-live persistence remain `OPEN`.
+
+**NEXT:** inspect registered complete branches and their actual equations only. Determine whether any
+already supplies a global involutive angular exchange compatible with real cap/isotropy data.
+Do not perform another free mirror-matrix census. If no native branch/equation supplies those data,
+bank the selector boundary and return to the action/bootstrap decision rather than inventing a
+completion.
+
+**EVIDENCE:** exact 44-source freeze; 36/36 production checks; 30/30 local objects, 16/16
+transitions, 18/18 invariants, 12/12 completions, and 14/14 Hopf-crosswalk steps classified;
+independent stdlib/Fraction reconstruction; 26/26 catches; tests 70 passed/1 xfailed; six frozen
+packages, 1,114 current paths, frontier targets, and the original 54-path dirty checkout unchanged.
+Grade `VERIFIED-WITH-CAVEATS` because no fresh external model context was used.
+
+## PRIOR CURRENT (2026-07-24 — dual-systole wall-crossing selector audit)
+
+## ============ PRIOR CURRENT STATE (2026-07-24 — DUAL-SYSTOLE WALL-CROSSING SELECTOR AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. AT THE RECIPROCAL PHI=0 TIE, THE METRIC AND TORUS LATTICE DERIVE THE FULL EXCHANGED PAIR OF SHORTEST PRIMITIVE CHARACTER LINES. RECIPROCITY PRESERVES THAT PAIR BUT FIXES NEITHER MEMBER, SO NO SINGLE-VALUED SHORTEST-LINE SELECTOR CAN BOTH EXIST AT THE SYMMETRIC SEAL AND BE RECIPROCITY-EQUIVARIANT. IDENTITY GLUING FAILS SHORTESTNESS; RECIPROCAL-SWAP GLUING CAN CONTINUE A LINE ONLY CONDITIONAL ON AN UNSELECTED GLOBAL ANGULAR LIFT. EXACT C1 FIXES THE ODD SCALAR-PHI SEAL, NOT THE TRANSVERSE ANGULAR LIFT. ALL 32 REGISTERED RULES, 15 PRINCIPLE/OBJECT TYPES, AND 12 COMPLETION FAMILIES WERE CLASSIFIED. THE SYMMETRY-RESPECTING TWO-CHARACTER OBJECT IS DERIVED GEOMETRY BUT IS NOT YET A CARRIER, PHASE SECTION, MATTER SOURCE, OR MASS LAW. NEXT BOUNDED QUESTION: WHETHER THE FULL RECIPROCAL TWO-CHARACTER MODULE HAS A METRIC-NATIVE GLOBAL REALIZATION AND WHETHER, ONLY AFTER THAT, IT HAS A CONDITIONAL RELATION TO THE EXISTING HOPF BRANCH. NO SINGLE-CHARACTER TIE-BREAK, DENSITY INSERTION, MATTER/GPU SOLVE, ACTION SELECTION, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
 
 **READ NEXT, IN ORDER:**
 
