@@ -31,3 +31,5 @@ udt_three_reciprocity_delta_k_audit_2026-07-23/MANIFEST.sha256
 udt_three_reciprocity_delta_k_audit_2026-07-23/AUDIT_REPORT.md
 udt_three_reciprocity_delta_k_audit_2026-07-23/STATUS_LEDGER.tsv
 udt_three_reciprocity_delta_k_audit_2026-07-23/THREE_RECIPROCITY_ROLE_MAP.tsv
+UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md
+UDT_NATIVE_ACTION_COLD_PACKET.md
