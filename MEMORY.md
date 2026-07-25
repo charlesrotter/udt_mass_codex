@@ -4,32 +4,29 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-07-24)
+## TOP — CURRENT POINTER (2026-07-25)
 
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block,
 then the marked current block in `HANDOFF.md`, then the top/current overlay in
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`
-and its compact status/bootstrap-route/equation-family/completion/exact/lay/next-step records.
-Read the parent intrinsic-solder and observer-pair packages only when their exact premises become
-load-bearing.
+`udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md`
+and its compact status/dependency/lay/next-step records. Read the parent bootstrap, intrinsic-solder,
+and observer-pair packages only when their exact premises become load-bearing.
 Expand only to the exact cited evidence made load-bearing by the active task.
 
-Current honest status: the source-free B19 and conditional/local WR-L failures remain exact in
-their tested scopes but are not universal no-go results for a self-consistent matter-filled
-universe. For a symmetric screen tidal operator `T`, a simple spectrum together with
-`det(T+a^2 I)=0` selects the unique clock-matched line through
-`P_clock=I-(T+a^2 I)/(tr T+2a^2)`. Tidal invariance is automatic; parallelism is the separate
-condition `[T,D_lambda T]=0`; global descent and path-cocycle completion remain open. The current
-density bootstrap is after-solution admissibility and supplies no native off-shell mass/source
-response. Zero of 28 equation families and zero of 12 completions supplies a complete simultaneous
-metric-matter-boundary bootstrap.
+Current honest status: reciprocal depth and conditional angular topology form a coherent
+global-local architecture, not a derived physical closure. Depth is contractible and cannot wind
+alone. With supplied angular phases, full `phi` range, periods, and opposite primitive caps, the
+exact reciprocal weights give the conditional `S3`/unit-Hopf prototype. The physical angular
+slots, completion, carrier, response, source, and boundary remain unselected. The current
+clock/transverse cocycle is reducible; local linear soldering is screen-gauge obstructed without
+ruling out a global nonlinear shared-solution join. Topology alone is not matter. An action can be
+downstream only after UDT derives a complete off-shell response one-form and it passes local
+Helmholtz, gauge, boundary/corner, and global-period gates.
 
-The current bounded seam, after the hiatus, is a source-availability audit of post-July candidates:
-does any candidate supply a native off-shell `M[g,fields]` or equivalent matter/metric response,
-including its full variation domain and differentiable finite-cell boundary/global term? Do not run
-a density sweep until an actual same-solution response equation exists. This pointer authorizes no
-action, carrier, source, boundary, density value, matter/time-live/GPU solve, canonization, artifact
+The current bounded seam is the post-July availability audit for that native off-shell global-local
+response. If no candidate survives, derive the bootstrap-to-local response map. Do not substitute a
+density sweep, action ansatz, carrier adoption, matter/time-live/GPU solve, canonization, artifact
 move, or repository reorganization.
 
 ## DURABLE PRIOR MACRO FRONTIER (2026-07-09 simple metric + WR-L canon)

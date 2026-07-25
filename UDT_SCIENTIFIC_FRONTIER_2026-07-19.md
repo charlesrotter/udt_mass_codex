@@ -1,10 +1,52 @@
 # UDT Scientific Frontier — Co-Presence, Bootstrap, and Angular–Toric Hopf Closure
 
-Date: 2026-07-24
+Date: 2026-07-25
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
-## July 24 bootstrap-aware clock/angular closure overlay — current authority
+## July 25 global-local relational-closure overlay — current authority
+
+Read `udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `DEPENDENCY_ARCHITECTURE.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+
+The two conceptual leads form one coherent testable architecture, but not a derived native
+closure. Reciprocal depth is contractible and can organize the relative weights of angular
+orbits; it cannot carry winding by itself. Compact angular phases can carry topology. With two
+supplied periodic phases, full `phi` range, and primitive opposite caps, the exact weights
+
+```text
+w1=exp(-2phi)/(2 cosh(2phi)),
+w2=exp( 2phi)/(2 cosh(2phi))
+```
+
+give the conditional Hopf-coordinate pattern, `S3` completion, and unit Hopf class. The physical
+angular slots, lift, periods, caps, quotient, carrier section, and physical role remain
+unselected.
+
+The current clock/transverse cocycle is the exact reducible direct sum
+`S(log Q) direct_sum M`. Independent screen `SO(2)` gauge obstructs a nonzero local linear
+clock-to-screen solder without a screen reduction. That local obstruction does not forbid a
+global nonlinear shared-solution join.
+
+Topology alone supplies neither a localized matter representative nor energy, scale, metric
+response, persistence, boundary charge, or mass. An action can be downstream only of a
+first-derived native off-shell response one-form on the complete field and finite-cell boundary
+configuration space. That response must pass local Helmholtz/formal-self-adjointness, gauge,
+boundary/corner differentiability, and global-period tests. An on-shell density predicate or root
+set is insufficient.
+
+Status: `OPEN_COHERENT_ARCHITECTURE`;
+`KINEMATIC_AND_CONDITIONAL_TOPOLOGICAL_COMPONENTS_EXACT`;
+`JOINED_NATIVE_CLOSURE_AND_DOWNSTREAM_ACTION_NOT_DERIVED`;
+`VERIFIED-WITH-CAVEATS`.
+
+The smallest missing native object is the complete metric-native off-shell global-local response
+one-form. The next bounded task remains the post-July response-availability audit. If no candidate
+survives, derive the bootstrap-to-local response map. Do not substitute a density sweep, action
+ansatz, carrier adoption, matter/time-live/GPU solve, canonization, artifact move, or repository
+reorganization.
+
+## July 24 bootstrap-aware clock/angular closure overlay — parent authority
 
 Read `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `BOOTSTRAP_ROUTE_LEDGER.tsv`, `EQUATION_FAMILY_GATE_MATRIX.tsv`,

@@ -1,0 +1,18 @@
+{
+  "actual_derived_promotions": {
+    "downstream_native_action": false,
+    "native_relational_matter": false
+  },
+  "catch_count": 7,
+  "catch_proofs": {
+    "action_without_response": "PASS_REJECTED",
+    "clock_alone_as_hopf": "PASS_REJECTED",
+    "global_topology_without_local_response_as_matter": "PASS_REJECTED",
+    "local_helmholtz_as_global_action": "PASS_REJECTED",
+    "matter_from_conditional_hopf_only": "PASS_REJECTED",
+    "response_without_boundary_as_action": "PASS_REJECTED",
+    "topology_as_source": "PASS_REJECTED"
+  },
+  "result": "PASS",
+  "schema": "udt-sandbox-global-local-relational-closure-adversarial-1.0"
+}

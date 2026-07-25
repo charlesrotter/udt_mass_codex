@@ -30,42 +30,47 @@ after the user's actual task makes them load-bearing.
    layers at startup.
 2. `HANDOFF.md` — read only its `STARTUP_CURRENT_BEGIN` / `STARTUP_CURRENT_END` range.
 3. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay.
-4. `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`, then its
+4. `udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `DEPENDENCY_ARCHITECTURE.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+   This is the current bounded result: reciprocal depth and conditional angular topology form a
+   coherent architecture, but topology is not yet matter and an action can be downstream only of a
+   first-derived complete off-shell global-local response.
+5. `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `BOOTSTRAP_ROUTE_LEDGER.tsv`, `EQUATION_FAMILY_GATE_MATRIX.tsv`,
    `COMPLETION_BOOTSTRAP_ATLAS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and
-   `NEXT_STEP.md`. This is the current bounded result: a simple screen tidal spectrum plus
+   `NEXT_STEP.md` only when its parent evidence is load-bearing. A simple screen tidal spectrum plus
    `det(T+a^2 I)=0` selects a conditional intrinsic clock-matched line, while parallelism, global
    descent, path-cocycle completion, and the native matter response remain separate open gates.
-5. `udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md` only when the parent
+6. `udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md` only when the parent
    pointwise generator, screen-line, or path-cocycle premises become load-bearing.
-6. The observer longitudinal/transverse cocycle, relational-depth, clock-operator,
+7. The observer longitudinal/transverse cocycle, relational-depth, clock-operator,
    complete-metric separation, and `X_max` packages named by the frontier only when their exact
    path, bilocal, local-neutrality, or global-diameter premises become load-bearing.
-7. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
+8. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
    `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and `REGRESSION_GUARD_LEDGER.tsv`
    only when a prior complete-metric, bootstrap, or regression-guard claim is load-bearing. This
    is a prior evidence-linked routing layer, not authority over its cited evidence.
-8. `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
+9. `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
    `CLAIM_DEPENDENCY_LEDGER.tsv` and `OPEN_JOIN_LEDGER.tsv`, then
    `REFERENCE_CORRECTION_LAYER.md`, `REVIEW_AGREEMENT_DISAGREEMENT.tsv`, and `PONDER_READOUT.md`.
    The frozen reference plus append-only cold-review layer is a prior dependency spine, not
    authority over its cited evidence.
-9. `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`, then
+10. `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`, then
    `angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv` when the conditional global Hopf
    theorem is relevant.
-10. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` only when the exact reciprocal
+11. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` only when the exact reciprocal
    Hopf-orbit witness or its provenance becomes load-bearing, then
    `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` for the preceding carrier/topology
    classification only when that layer is relevant.
-11. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task; none are
+12. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task; none are
    part of generic startup orientation.
-12. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
+13. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
    is durable lane evidence, not the global frontier.
-13. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline only; do not dump the
+14. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline only; do not dump the
    whole charter at startup.
-14. Only the specific full protocol under `.claude/skills/*/SKILL.md` triggered by the actual task;
+15. Only the specific full protocol under `.claude/skills/*/SKILL.md` triggered by the actual task;
    do not preload every skill.
-15. The top/current summary in `INDEX.md` and `MEMORY.md`'s `TOP — CURRENT POINTER` for pointers only;
+16. The top/current summary in `INDEX.md` and `MEMORY.md`'s `TOP — CURRENT POINTER` for pointers only;
     neither can overrule `LIVE.md`.
 
 For the 1,114 fixed-base artifact identities, use
@@ -81,15 +86,19 @@ premise stamps, the open gate, and the proposed bounded next action. Do not muta
 long solve until that orientation is complete.
 
 The bootstrap/stable-matter interpretation remains a working hypothesis. The current bounded audit
-derives a conditional intrinsic clock-matched screen projector when the screen tidal spectrum is
-simple and `det(T+a^2 I)=0`. Tidal invariance then follows; parallelism, global descent, and
-path-cocycle completion remain separate gates. The prior B19 and WR-L failures remain exact in their
-source-free or conditional scopes, not universal matter-filled no-go results. The present density
-principle is after-solution admissibility: no registered post-July result yet supplies the native
-off-shell mass/source variation and differentiable finite-cell boundary/global response needed for
-a same-solution bootstrap. The next bounded task after the hiatus is the post-July source-availability
-audit specified in `udt_bootstrap_clock_angular_closure_audit_2026-07-24/NEXT_STEP.md`. Do not launch
-a density sweep before that response interface exists.
+shows that reciprocal depth and conditional angular Hopf topology form a coherent global-local
+architecture, but not a derived matter closure. Reciprocal depth is contractible and cannot wind
+alone; with supplied phases, full range, periods, and opposite primitive caps it gives an exact
+conditional `S3`/unit-Hopf prototype. The physical angular slots, global completion, carrier,
+response, source, and boundary remain unselected. The present clock/transverse cocycle is a
+reducible direct sum; its local linear solder is screen-gauge obstructed, without ruling out a
+global nonlinear shared-solution join. Topology alone is not matter. An action can be downstream
+only after UDT derives a complete off-shell global-local response one-form and that response passes
+local Helmholtz, gauge, finite-cell boundary/corner, and global-period gates. The next bounded task
+is the post-July response-availability audit specified in
+`udt_global_local_relational_closure_audit_2026-07-25/NEXT_STEP.md`; if none survives, derive the
+bootstrap-to-local response map. Do not launch a density sweep or guess an action before that
+response interface exists.
 
 The prior observer-pair chain derives the abstract ordered reciprocal operator with founding-premise
 stamps and narrows its global input to an observer-indexed bilocal depth type, conditional on an open

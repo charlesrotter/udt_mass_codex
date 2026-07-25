@@ -5,56 +5,59 @@
 > **READ `LIVE.md` FIRST** — only guaranteed-current frontier + next action.
 > If this file disagrees with LIVE.md, **LIVE.md wins.**
 >
-> **⚠ BRANCH: work is on `grok` (2026-07-24).** If not on it: `git checkout grok`. `main` is stale for this arc.
+> **⚠ BRANCH: work is on `grok` (2026-07-25).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-24 — bootstrap-aware clock/angular closure)
+## CURRENT (2026-07-25 — global-local relational closure)
 
 Read `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` top/current overlay, then
-`udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md` and its
-`STATUS_LEDGER.tsv`, `BOOTSTRAP_ROUTE_LEDGER.tsv`, `EQUATION_FAMILY_GATE_MATRIX.tsv`,
-`COMPLETION_BOOTSTRAP_ATLAS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
-Use the parent intrinsic-solder and observer-cocycle packages only for their exact pointwise/path
-premise stamps.
+`udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md` and its
+`STATUS_LEDGER.tsv`, `DEPENDENCY_ARCHITECTURE.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+Use the July 24 bootstrap audit only when its screen-projector, density-response, equation-family,
+or completion-family evidence is load-bearing.
 
 Current ruling:
 
-- B19 and WR-L remain exact failures only in their tested source-free/conditional scopes;
-- a complete matter response could change the screen tidal operator, so those failures are not
-  universal matter-filled no-go theorems;
-- if `Delta=(tr T)^2-4det T>0` and `det(T+a^2 I)=0`, the metric itself selects the unique
-  clock-matched screen line:
-  `P_clock=I-(T+a^2 I)/(tr T+2a^2)`;
-- that line is automatically tidal-invariant; parallelism remains the independent invariant
-  condition `[T,D_lambda T]=0`;
-- local pointwise similarity is not a full path cocycle. A varying clock rate requires a derived
-  connection/normalization term or a constant-rate branch;
-- the owner-stated density window is currently after-solution admissibility and supplies no local
-  Euler equation;
-- `delta rho_tot=(delta M_native-rho_tot delta V_proper)/V_proper`; the volume term is trace-only,
-  while the native anisotropic mass/matter variation is absent;
-- zero of 28 equation families and zero of 12 completions supplies a complete simultaneous
-  metric-matter-boundary bootstrap;
-- the intrinsic irreducible solder remains
-  `OPEN_BOOTSTRAP_COULD_ADDRESS_BUT_DOES_NOT_CURRENTLY_DERIVE`; the reducible same-path direct sum
-  remains the strongest current assembly;
-- null versus co-present/rest path selection, physical `X_max`, mass, density, CMB interpretation,
-  action, source, carrier, boundary, scale, and time-live persistence remain open.
+- the exact ruling is `OPEN_COHERENT_ARCHITECTURE`; the components fit, but the joined native
+  closure is not derived;
+- reciprocal depth is contractible: it supplies continuous weighting/dilation but cannot wind
+  alone;
+- compact angular phases can carry winding. With two supplied phases, full `phi` range, periods,
+  and primitive opposite caps, the reciprocal weights give an exact conditional `S3` completion
+  and unit Hopf class;
+- UDT has not selected the physical angular slots, lift, caps, quotient, carrier, action, source,
+  or boundary;
+- the present clock/transverse assembly is an exact reducible direct sum; local linear soldering
+  is `SO(2)`-obstructed without screen reduction, but a global nonlinear shared-solution join is
+  not ruled out;
+- topology alone is insufficient for matter, source, localization, energy, scale, persistence,
+  boundary charge, or mass;
+- an action may be downstream only of a first-derived off-shell response one-form that passes
+  local Helmholtz, gauge, boundary/corner, and global-period tests—not downstream of an on-shell
+  density window or root set;
+- the smallest missing native object is the complete metric-native off-shell global-local
+  response one-form;
+- zero of 28 equation families and zero of 12 completions supplies the complete same-solution
+  metric-matter-boundary witness;
+- the July 24 clock-projector and density-variation results retain their parent scopes;
+- complete action, source, carrier, boundary, scale, density closure, mass, and time-live
+  persistence remain open.
 
-Evidence: 33 pinned-SymPy exact checks; independent Fraction reconstruction of 27 screen cases,
-nine matched projectors, nine parallel cases, three connection cases, and 27 density variations;
-23 exercised catches; 35 frozen source identities; eight bootstrap routes; 28 equation families;
-12 completion families; CPU only; hash-manifested; tests 70 passed/1 xfailed; all six frozen
-packages, current navigation, frontier targets, and the original dirty checkout's 55 metadata-only
-paths unchanged. Grade `VERIFIED-WITH-CAVEATS`.
+Evidence: 43 pinned-SymPy exact checks; 18 independently structured standard-library/Fraction
+checks; seven of seven exercised false promotions rejected; eight bootstrap routes; 28 equation
+families; 12 completion families; CPU only; hash-manifested; tests 70 passed/1 xfailed; all six
+frozen packages, current navigation, frontier targets, and the original dirty checkout's 55
+metadata-only paths unchanged. Grade `VERIFIED-WITH-CAVEATS`; no fresh external-model semantic
+review was used.
 
-Next bounded seam after the hiatus:
+Next bounded seam:
 
-> Audit post-July candidates for the missing native off-shell mass/matter response functional,
-> complete metric variation, and differentiable finite-cell boundary/global variation.
+> Audit post-July candidates for the complete native off-shell global-local response interface.
+> If none survives, derive the bootstrap-to-local response map.
 
-Do not run a density sweep until a same-solution response equation exists. Do not promote a
-conditional carrier energy, GR charge, observed density, or supplied boundary normalization. Do
-not launch matter/time-live/GPU work, select an action or carrier, canonize, or reorganize.
+Require a complete variation domain, trace-free angular response, same-solution
+mass-volume-density dependence, and differentiable finite-cell boundary/global variation. Do not
+substitute a density sweep, action ansatz, carrier adoption, or GPU solve. Do not launch
+matter/time-live work, canonize, or reorganize.
 
 Historical `phi`-equation guard: read
 `udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md` when a scalar equation,
@@ -66,6 +69,14 @@ linear `sinh` profile, and claimed universal status are not incorporated. It sup
 observer transition and does not alter the next bounded seam.
 
 <!-- STARTUP_CURRENT_END -->
+
+## PRIOR CURRENT (2026-07-24 — bootstrap-aware clock/angular closure)
+
+The parent package is
+`udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`. Its conditional intrinsic
+clock-projector theorem, scoped B19/WR-L regrades, density-variation identity, and incomplete
+28-equation/12-completion census remain unchanged. The July 25 audit sharpens the missing response
+interface without promoting those results.
 
 ## PRIOR CURRENT (2026-07-24 — reciprocal-pair global-module audit)
 

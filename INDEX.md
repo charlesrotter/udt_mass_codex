@@ -1,26 +1,31 @@
-# INDEX — Repo Map (2026-07-24 lean)
+# INDEX — Repo Map (2026-07-25 lean)
 
-**⚠ BRANCH: `grok` (2026-07-24)** — `main` is stale for this arc; `git checkout grok`.
+**⚠ BRANCH: `grok` (2026-07-25)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
 **➤ CURRENT SCIENTIFIC FRONTIER:**
-`udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`, then its
-`STATUS_LEDGER.tsv`, `BOOTSTRAP_ROUTE_LEDGER.tsv`, `EQUATION_FAMILY_GATE_MATRIX.tsv`,
-`COMPLETION_BOOTSTRAP_ATLAS.tsv`,
-`EXACT_DERIVATION.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+`udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `DEPENDENCY_ARCHITECTURE.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
 
-The source-free B19 and local WR-L failures remain exact in scope but are not universal
-matter-filled no-go results. A complete native matter variation could change the screen tidal
-operator. If its discriminant is positive and `det(T+a^2 I)=0`, the metric itself selects the
-unique clock-matched line
-`P_clock=I-(T+a^2 I)/(tr T+2a^2)`; tidal invariance then follows automatically. Parallelism remains
-`[T,D_lambda T]=0`, global descent remains branch-dependent, and varying clock rate prevents
-pointwise similarity from automatically becoming a path cocycle. The current narrow-density
-bootstrap is after-solution admissibility, while the required anisotropic native mass variation
-and boundary/global response are absent. Zero of 28 equation families and zero of 12 completions
-provides a complete simultaneous bootstrap. After the hiatus: audit post-July candidates for that
-off-shell response interface before any density sweep. No action, carrier, source, boundary,
-density value, matter/time-live/GPU work, canonization, or reorganization is authorized.
+Reciprocal depth and conditional angular topology form a coherent, testable global-local
+architecture, not a derived matter closure. Depth is contractible and cannot wind alone; compact
+angular phases can. With supplied phases, full `phi` range, periods, and opposite primitive caps,
+the exact reciprocal weights yield the conditional `S3`/unit-Hopf prototype. UDT has not selected
+the physical angular slots, lift, caps, quotient, carrier, response, source, or boundary. The
+present clock/transverse cocycle is reducible and local linear soldering is screen-gauge
+obstructed, without ruling out a global nonlinear shared-solution join. Topology alone is not
+matter. An action can be downstream only of a first-derived complete off-shell response that
+passes local Helmholtz, gauge, finite-cell boundary/corner, and global-period gates.
+
+The smallest missing native object is that metric-native off-shell global-local response one-form.
+Next: audit post-July candidates for it; if none survives, derive the bootstrap-to-local response
+map. No density sweep, action guess, carrier adoption, matter/time-live/GPU work, canonization, or
+reorganization is authorized.
+
+**➤ PARENT JULY 24 BOOTSTRAP FRONTIER:**
+`udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`. Its exact conditional
+clock-projector theorem, scoped B19/WR-L regrades, density-variation identity, and zero-complete
+28-equation/12-completion census remain unchanged.
 
 **➤ SUPPORTING HISTORICAL `PHI`-EQUATION SALVAGE:**
 `udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md`, then its
@@ -281,28 +286,30 @@ Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`,
 1. **`LIVE.md`** CURRENT STATE
 2. **`HANDOFF.md`** CURRENT block
 3. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** through its top/current overlay only
-4. **`udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`**,
-   **`STATUS_LEDGER.tsv`**, **`BOOTSTRAP_ROUTE_LEDGER.tsv`**,
-   **`EQUATION_FAMILY_GATE_MATRIX.tsv`**, **`COMPLETION_BOOTSTRAP_ATLAS.tsv`**,
-   **`EXACT_DERIVATION.md`**, **`LAY_REPORT.md`**, and **`NEXT_STEP.md`**
-5. **`udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md`** only when its
+4. **`udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md`**,
+   **`STATUS_LEDGER.tsv`**, **`DEPENDENCY_ARCHITECTURE.tsv`**, **`LAY_REPORT.md`**, and
+   **`NEXT_STEP.md`**
+5. **`udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`** only when its
+   parent screen-projector, density-response, equation-family, or completion evidence is
+   load-bearing
+6. **`udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md`** only when its
    pointwise generator, screen-line, or path-cocycle premises are load-bearing
-6. The observer cocycle, relational-depth, clock-operator, complete-metric separation, and
+7. The observer cocycle, relational-depth, clock-operator, complete-metric separation, and
    `X_max` packages named by the frontier only when their exact path/bilocal/diameter premises are
    load-bearing
-7. **`udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`** and its
+8. **`udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`** and its
    status, metric-to-frontier, and regression-guard ledgers
-8. **`matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`** and the other
+9. **`matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`** and the other
    bootstrap/boundary source packages named by the current frontier only when lineage is
    load-bearing
-9. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
+10. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
    **`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`**
-10. The exact frozen evidence named by that frontier only for the active question
-11. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
-12. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
-13. Only the task-triggered protocol under **`.claude/skills/`**
-14. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
-15. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
+11. The exact frozen evidence named by that frontier only for the active question
+12. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
+13. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
+14. Only the task-triggered protocol under **`.claude/skills/`**
+15. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
+16. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
 
 ---
 

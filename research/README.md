@@ -2,32 +2,34 @@
 
 This directory is an additions-only navigation layer. It points to artifacts at their existing repository paths; it contains no copied research artifact and creates no new scientific authority. [`LIVE.md`](../LIVE.md) remains the current-frontier authority, followed by [`HANDOFF.md`](../HANDOFF.md). Claim labels below are reproduced from those current records and the accepted final native-action ledger.
 
-## Current scientific spine — July 24
+## Current scientific spine — July 25
 
 Start with the
-[bootstrap-aware clock/angular closure audit](../udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md),
+[global-local relational-closure audit](../udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md),
 then its
-[status ledger](../udt_bootstrap_clock_angular_closure_audit_2026-07-24/STATUS_LEDGER.tsv),
-[bootstrap-route ledger](../udt_bootstrap_clock_angular_closure_audit_2026-07-24/BOOTSTRAP_ROUTE_LEDGER.tsv),
-[equation-family matrix](../udt_bootstrap_clock_angular_closure_audit_2026-07-24/EQUATION_FAMILY_GATE_MATRIX.tsv),
-[completion atlas](../udt_bootstrap_clock_angular_closure_audit_2026-07-24/COMPLETION_BOOTSTRAP_ATLAS.tsv),
-[exact derivation](../udt_bootstrap_clock_angular_closure_audit_2026-07-24/EXACT_DERIVATION.md),
-[lay report](../udt_bootstrap_clock_angular_closure_audit_2026-07-24/LAY_REPORT.md), and
-[next step](../udt_bootstrap_clock_angular_closure_audit_2026-07-24/NEXT_STEP.md).
+[status ledger](../udt_global_local_relational_closure_audit_2026-07-25/STATUS_LEDGER.tsv),
+[dependency architecture](../udt_global_local_relational_closure_audit_2026-07-25/DEPENDENCY_ARCHITECTURE.tsv),
+[lay report](../udt_global_local_relational_closure_audit_2026-07-25/LAY_REPORT.md), and
+[next step](../udt_global_local_relational_closure_audit_2026-07-25/NEXT_STEP.md).
 
-Simple screen tidal spectrum plus `det(T+a^2 I)=0` intrinsically selects the clock-matched line;
-parallelism, global descent, and path-connection compatibility remain separate. Matter-filled
-bootstrap can in principle change the source-free curvature, but the current density principle is
-after-solution admissibility and supplies no native off-shell mass/source response. Zero of 28
-equation families and zero of 12 completions supplies a complete simultaneous bootstrap witness.
-The intrinsic irreducible solder remains open and the reducible same-path direct sum remains the
-strongest current assembly.
+Reciprocal depth and conditional angular topology form a coherent global-local architecture, not a
+derived matter closure. Depth can weight the compact angular phases but cannot wind alone. With
+supplied phases, full `phi` range, periods, and opposite primitive caps, the exact reciprocal
+weights give the conditional `S3`/unit-Hopf prototype. The physical angular slots, global
+completion, carrier, response, source, and boundary remain unselected. The clock/transverse
+assembly remains reducible; local linear soldering is screen-gauge obstructed without ruling out
+a global nonlinear shared-solution join. Topology alone is not matter.
 
-Next, after the hiatus, perform only the bounded post-July off-shell matter/mass response
-availability audit in the linked `NEXT_STEP.md`. Require a complete variation domain and
-differentiable finite-cell boundary/global term; stop if every candidate is only a conditional
-carrier energy, GR charge, observed density, or supplied normalization. A density sweep and GPU
-work remain unauthorized until a same-solution feedback equation exists.
+An action can be downstream only after UDT derives a complete off-shell global-local response and
+that response passes local Helmholtz, gauge, finite-cell boundary/corner, and global-period gates.
+Next perform only the bounded post-July response-availability audit in the linked `NEXT_STEP.md`.
+If no candidate survives, derive the bootstrap-to-local response map. A density sweep, action
+ansatz, carrier adoption, and GPU work remain unauthorized.
+
+Parent evidence: the
+[bootstrap-aware clock/angular closure audit](../udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md)
+retains its exact conditional clock-projector, density-variation, and incomplete
+28-equation/12-completion results.
 
 Supporting historical guard: the
 [phi-equation salvage audit](../udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md)

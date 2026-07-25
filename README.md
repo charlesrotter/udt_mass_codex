@@ -4,7 +4,7 @@ This root is the control and navigation surface for the UDT research record.
 After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md) →
-the [current bootstrap-aware clock/angular closure audit](udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md) →
+the [current global-local relational-closure audit](udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md) →
 exact evidence named by those files only when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
 `MEMORY.md` top/current pointer. `AGENTS.md`
@@ -12,21 +12,24 @@ supplies operational instructions and binding research discipline, but it
 cannot overrule the topmost current-state block in `LIVE.md`.
 
 The latest bounded scientific result is the
-[bootstrap-aware clock/angular closure audit](udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md).
-It shows that a simple screen tidal spectrum plus `det(T+a^2 I)=0` intrinsically selects the
-clock-matched screen line, while parallelism, global descent, and path-connection compatibility
-remain separate gates. It also regrades B19 and WR-L as exact scoped failures rather than
-universal matter-filled no-go results. A complete native matter variation could change the tidal
-operator, but the current after-solution density admissibility supplies no off-shell mass/source
-response. No path ontology, physical `X_max`, action, source, carrier, boundary, density window,
-mass, or time-live dynamics is selected.
+[global-local relational-closure audit](udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md).
+It finds a coherent architecture, not a derived matter closure: reciprocal depth can weight
+compact angular phases but cannot wind itself; with supplied phases, periods, full range, and
+opposite primitive caps, the exact reciprocal weights give the conditional `S3`/unit-Hopf
+prototype. UDT has not selected those physical angular slots or their completion. Topology alone
+is not matter, and the present clock/transverse assembly remains reducible.
 
-The [next bounded work](udt_bootstrap_clock_angular_closure_audit_2026-07-24/NEXT_STEP.md), after
-the hiatus, is an availability audit of every post-July candidate for a native off-shell
-`M[g,fields]` or equivalent matter/metric response, including its complete variation domain and
-finite-cell boundary/global term. It stops if the candidates are only conditional carrier energies,
-GR charges, observed densities, or supplied normalizations. No density sweep or GPU solve comes
-before a genuine same-solution feedback equation.
+An action could be downstream only of a first-derived complete off-shell global-local response
+that passes local Helmholtz, gauge, finite-cell boundary/corner, and global-period tests. The
+[next bounded work](udt_global_local_relational_closure_audit_2026-07-25/NEXT_STEP.md) is the
+post-July availability audit for exactly that response interface. If none survives, derive the
+bootstrap-to-local response map. Do not substitute a density sweep, action ansatz, carrier
+adoption, or GPU solve.
+
+The parent
+[bootstrap-aware clock/angular closure audit](udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md)
+retains its exact conditional clock-projector, density-variation, and incomplete
+28-equation/12-completion results.
 
 When a scalar `phi` equation or profile is proposed, consult the
 [historical phi-equation salvage audit](udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md).

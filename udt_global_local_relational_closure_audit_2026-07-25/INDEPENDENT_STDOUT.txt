@@ -1,0 +1,33 @@
+{
+  "check_count": 18,
+  "checks": {
+    "action_source_boundary_mass_open": true,
+    "completion_census_12_zero_complete": true,
+    "completion_family_not_unique": true,
+    "conditional_unit_hopf_integral": true,
+    "density_variation": true,
+    "equation_census_28_zero_complete": true,
+    "global_period_obstruction": true,
+    "hopf_open_chain": true,
+    "integrable_control": true,
+    "isotropic_tracefree_zero": true,
+    "nonintegrable_path_dependence": true,
+    "reciprocal_det_one": true,
+    "reciprocal_inverse": true,
+    "reciprocal_weight_endpoint_order": true,
+    "reducible_rec_projector": true,
+    "reducible_trans_projector": true,
+    "screen_gauge_generator_invertible": true,
+    "transverse_symplectic": true
+  },
+  "cross_implementation_consistency": {
+    "production_action_open": true,
+    "production_hopf_conditional": true,
+    "production_no_complete_closure": true,
+    "production_pass": true,
+    "production_reducible": true
+  },
+  "production_sha256": "161c246280ab59efd2eeeaa81177d6d7a74b01ab8ab32b1a37432be16fa3daf5",
+  "result": "PASS",
+  "schema": "udt-sandbox-global-local-relational-closure-independent-1.0"
+}

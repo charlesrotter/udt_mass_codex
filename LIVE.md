@@ -2,72 +2,75 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-**⚠ BRANCH: work is on `grok` (2026-07-24).** If not on it: `git checkout grok`. `main` is stale for this arc.
+**⚠ BRANCH: work is on `grok` (2026-07-25).** If not on it: `git checkout grok`. `main` is stale for this arc.
 **The topmost CURRENT STATE block below is the only current frontier** — read it and stop.
 Stale historical frontier layers live under `archive/LIVE_historical_frontier_through_2026-07-08.md`
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's topmost CURRENT STATE block, that block wins.**
 
-## ============ CURRENT STATE (2026-07-24 — BOOTSTRAP-AWARE CLOCK/ANGULAR CLOSURE AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. THE PRIOR B19 AND WR-L FAILURES REMAIN EXACT IN THEIR SOURCE-FREE OR CONDITIONAL SCOPES BUT ARE NOT UNIVERSAL NO-GO RESULTS FOR A SELF-CONSISTENT MATTER-FILLED UDT UNIVERSE. A COMPLETE NATIVE MATTER VARIATION COULD CHANGE THE SCREEN TIDAL OPERATOR. THE AUDIT DERIVES A SHARPER INTRINSIC GATE: IF THE SCREEN TIDAL DISCRIMINANT IS POSITIVE AND DET(T+A^2 I)=0, WITH A=D DELTA/D LAMBDA, THEN THE METRIC ITSELF SELECTS THE UNIQUE CLOCK-MATCHED SCREEN LINE THROUGH P_CLOCK=I-(T+A^2 I)/(TR T+2A^2); TIDAL INVARIANCE IS AUTOMATIC. PARALLELISM IS THE INDEPENDENT CONDITION [T,D_LAMBDA T]=0, AND GLOBAL DESCENT REMAINS BRANCH/HOLONOMY DEPENDENT. POINTWISE GENERATOR SIMILARITY IS NOT A FULL PATH COCYCLE: VARYING A REQUIRES A DERIVED CONNECTION/NORMALIZATION TERM OR CONSTANT RATE. THE OWNER-STATED NARROW-DENSITY BOOTSTRAP IS CURRENTLY AFTER-SOLUTION ADMISSIBILITY AND SUPPLIES NO LOCAL EOM. DELTA RHO_TOT=(DELTA M_NATIVE-RHO_TOT DELTA V_PROPER)/V_PROPER SHOWS THAT VOLUME ALONE IS TRACE-ONLY; AN ANISOTROPIC NATIVE DELTA M COULD SUPPLY THE RESPONSE, BUT NO OFF-SHELL NATIVE MASS FUNCTIONAL, LOCAL SOURCE VARIATION, OR COMPLETE BOUNDARY/GLOBAL VARIATION IS REGISTERED. ZERO OF 28 EQUATION FAMILIES AND ZERO OF 12 COMPLETION FAMILIES SUPPLIES A COMPLETE SIMULTANEOUS BOOTSTRAP WITNESS. THE INTRINSIC SOLDER REMAINS OPEN, BUT BOOTSTRAP IS NOW A PRECISE POSSIBLE RESOLVER RATHER THAN A GENERIC DENSITY SLOGAN. NEXT AFTER THE HIATUS: AUDIT POST-JULY CANDIDATES FOR THE MISSING OFF-SHELL MATTER/MASS RESPONSE INTERFACE BEFORE ANY DENSITY SWEEP. NO ACTION, CARRIER, SOURCE, BOUNDARY, DENSITY VALUE, MATTER/GPU SOLVE, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-25 — GLOBAL-LOCAL RELATIONAL-CLOSURE AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. THE TWO CONCEPTUAL LEADS JOIN INTO ONE COHERENT TESTABLE ARCHITECTURE, NOT A DERIVED PHYSICAL CLOSURE. RECIPROCAL DEPTH IS A CONTRACTIBLE NONCOMPACT WEIGHTING COORDINATE AND CANNOT WIND BY ITSELF; COMPACT ANGULAR PHASES CAN CARRY WINDING. WITH TWO SUPPLIED PERIODIC PHASES, FULL PHI RANGE, AND PRIMITIVE OPPOSITE CAPS, THE EXACT NORMALIZED WEIGHTS W1=EXP(-2PHI)/(2COSH(2PHI)) AND W2=EXP(2PHI)/(2COSH(2PHI)) GIVE THE CONDITIONAL HOPF COORDINATE PATTERN, S3 COMPLETION, AND UNIT HOPF CLASS. UDT HAS NOT SELECTED THE PHYSICAL ANGULAR SLOTS, LIFT, CAPS, QUOTIENT, CARRIER, ACTION, SOURCE, OR BOUNDARY. THE CURRENT CLOCK/TRANSVERSE COCYCLE IS A REDUCIBLE DIRECT SUM; LOCAL LINEAR CLOCK-TO-SCREEN SOLDERING IS SO(2)-OBSTRUCTED WITHOUT A SCREEN REDUCTION, BUT THIS DOES NOT FORBID A GLOBAL NONLINEAR SHARED-SOLUTION JOIN. TOPOLOGY ALONE IS NOT MATTER OR A SOURCE. AN ACTION MAY BE DOWNSTREAM ONLY OF A FIRST-DERIVED OFF-SHELL GLOBAL-LOCAL RESPONSE ONE-FORM THAT PASSES LOCAL HELMHOLTZ, GAUGE, FINITE-CELL BOUNDARY/CORNER, AND GLOBAL-PERIOD TESTS; IT CANNOT BE RECONSTRUCTED FROM AN ON-SHELL DENSITY WINDOW OR ROOT SET. THE SMALLEST MISSING NATIVE OBJECT IS THAT COMPLETE RESPONSE ONE-FORM. ZERO OF 28 EQUATION FAMILIES AND ZERO OF 12 COMPLETION FAMILIES SUPPLIES A COMPLETE SAME-SOLUTION WITNESS. NEXT: AUDIT POST-JULY CANDIDATES FOR THE MISSING OFF-SHELL RESPONSE INTERFACE; IF NONE SURVIVES, DERIVE THE BOOTSTRAP-TO-LOCAL RESPONSE MAP. NO DENSITY SWEEP, ACTION GUESS, CARRIER ADOPTION, MATTER/TIME-LIVE/GPU SOLVE, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
 
 **READ NEXT, IN ORDER:**
 
 1. `HANDOFF.md` current marked block.
 2. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` top/current overlay.
-3. `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`, then
-   `STATUS_LEDGER.tsv`, `BOOTSTRAP_ROUTE_LEDGER.tsv`, `EQUATION_FAMILY_GATE_MATRIX.tsv`,
-   `COMPLETION_BOOTSTRAP_ATLAS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
-4. `udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md` only when the
-   parent pointwise generator and path-cocycle premises are load-bearing.
+3. `udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md`, then
+   `STATUS_LEDGER.tsv`, `DEPENDENCY_ARCHITECTURE.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+4. `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md` only when the parent
+   screen-projector, density-response, equation-family, or completion-family evidence is
+   load-bearing.
 
 **CURRENT HONEST CLAIM:**
 
-- the prior B19 and WR-L failures are `EXACT_BRANCH_SCOPED_NOT_UNIVERSAL`;
-- for the complete symmetric screen tidal operator `T`,
-  `Delta=(tr T)^2-4det T>0` gives a simple intrinsic eigenline pair;
-- `det(T+a^2 I)=0` then selects the unique clock-matched line and yields the exact projector
-  `P_clock=I-(T+a^2 I)/(tr T+2a^2)`;
-- the matched line is automatically tidal-invariant, while its parallelism is independently
-  characterized by `[T,D_lambda T]=0`;
-- global projector descent and full path-connection equivalence remain `OPEN`; a varying clock
-  rate needs a derived connection/normalization term or constant-rate branch;
-- the owner-stated narrow-density bootstrap remains `OWNER_STATED_WORKING` and
-  `AFTER_SOLUTION_ADMISSIBILITY_ONLY`;
-- the exact density variation is
-  `delta rho_tot=(delta M_native-rho_tot delta V_proper)/V_proper`; volume response alone is
-  trace-only, while native anisotropic `delta M_native` is absent;
-- zero of 28 registered equation families and zero of 12 registered completions supplies a
-  complete simultaneous metric-matter-boundary bootstrap;
-- an intrinsic irreducible solder is `OPEN_BOOTSTRAP_COULD_ADDRESS_BUT_DOES_NOT_CURRENTLY_DERIVE`;
-- the reducible same-path cocycle `S(log Q) direct sum M` remains
-  `DERIVED_REMAINS_STRONGEST_CURRENT_ASSEMBLY`;
-- no B19/WR-L cross-branch splice is admissible;
-- null versus co-present/rest event/path selection remains `OPEN`;
-- the prior observer-indexed bilocal depth family, neutral self-depth, angular necessity, and
-  absolute-scalar obstruction retain their exact premise stamps;
+- `OPEN_COHERENT_ARCHITECTURE` is the overall ruling; it is not matter emergence or action closure;
+- reciprocal depth is `DERIVED_CONTRACTIBLE` and can weight the angular orbit, but cannot carry
+  winding or Hopf charge by itself;
+- the normalized reciprocal weights, supplied two phases, full range, periods, and primitive
+  opposite caps yield an exact `UNIQUE_CONDITIONAL` `S3`/unit-Hopf prototype;
+- the physical transverse slots, global lift, periods, caps, quotient, carrier section, and
+  physical role remain unselected;
+- the current clock/transverse assembly is a `DERIVED_REDUCIBLE_DIRECT_SUM`; a local linear solder
+  is obstructed without a screen reduction, while a global nonlinear shared-solution join remains
+  open;
+- topology is insufficient by itself to produce localized matter, energy, scale, metric response,
+  persistence, boundary charge, or mass;
+- an action is downstream only `CONDITIONAL` on a native off-shell response that is locally
+  variational, gauge-compatible, boundary-integrable, and globally exact or period-controlled;
+- an on-shell admissibility window or a set of realized roots does not determine an action;
+- the smallest missing native object is a metric-native off-shell global-local response one-form
+  on the complete field and finite-cell boundary configuration space;
+- zero of 28 equation families and zero of 12 completion families closes the same
+  metric-matter-boundary solution;
+- the prior clock-projector and density-variation results retain their exact parent scopes;
 - the existing static Hopfion remains `SETTLED_STATIC_FINITE_BOX_CONDITIONAL`;
-- complete action, native source, physical boundary, carrier emergence, mass, density, CMB
-  interpretation, scale, and time-live persistence remain `OPEN`.
+- complete action, native source, physical boundary, carrier emergence, mass, density closure,
+  scale, and time-live persistence remain `OPEN`.
 
-**NEXT AFTER THE HIATUS:** audit every post-July candidate for a native off-shell
-`M[g,fields]` or equivalent matter/metric response functional, including its full variation domain
-and finite-cell boundary term. Test whether its trace-free screen variation can create
-`Delta>0`, enforce `det(T+a^2 I)=0`, and preserve `[T,D_lambda T]=0`. Stop if every candidate is
-only a conditional carrier energy, GR charge, observed density, or supplied normalization. Do not
-run a density sweep until an actual same-solution feedback equation exists.
+**NEXT:** perform the preregistered post-July off-shell response availability audit. Require a
+complete varied-field domain, metric/matter response, trace-free angular response, same-solution
+mass-volume-density dependence, differentiable finite-cell boundary/global variation, and native
+provenance. If no candidate survives, derive the bootstrap-to-local response map. Do not replace
+the missing response with a density sweep, action ansatz, carrier adoption, or GPU solve.
 
-**EVIDENCE:** pinned SymPy 1.14.0 production replay passed 33 exact checks; independent
-standard-library/Fraction reconstruction covered 27 screen cases, nine matched projectors, nine
-parallel cases, three connection cases, and 27 density variations; 23/23 exercised corruptions
-were rejected. All 35 source identities, eight bootstrap routes, 28 equation families, and 12
-completion families were replayed. CPU only and hash-manifested. Tests remain 70 passed/1 xfailed;
-six frozen packages, 1,114 current paths, frontier targets, and the original dirty checkout's 55
-metadata-only paths remain unchanged. Grade `VERIFIED-WITH-CAVEATS`; no fresh external-model
-semantic review was used.
+**EVIDENCE:** pinned SymPy 1.14.0 production replay passed 43 exact checks; an independently
+structured standard-library/Fraction replay passed 18 checks; seven of seven exercised false
+promotions were rejected. The registered scope covers eight bootstrap routes, 28 equation
+families, and 12 completion families. CPU only and hash-manifested. Tests remain 70 passed/1
+xfailed; six frozen packages, 1,114 current paths, frontier targets, and the original dirty
+checkout's 55 metadata-only paths remain unchanged. Grade `VERIFIED-WITH-CAVEATS`; no fresh
+external-model semantic review was used.
 
 **REORGANIZATION:** R0--R1H remains paused. This checkpoint changes navigation only.
 
 <!-- STARTUP_CURRENT_END -->
+
+## PRIOR CURRENT (2026-07-24 — bootstrap-aware clock/angular closure audit)
+
+Read `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md` for the parent
+screen-projector and density-response result. Its exact `P_clock` construction, scoped B19/WR-L
+regrades, 28-equation/12-completion census, and absence of a same-solution native response remain
+unchanged. The July 25 audit refines the missing object; it does not erase or strengthen those
+parent results.
 
 ## PRIOR CURRENT (2026-07-24 — reciprocal-pair global-module audit)
 

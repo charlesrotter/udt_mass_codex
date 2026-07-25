@@ -1,0 +1,7 @@
+UDT_REPO=.. PYTHONPATH=/tmp/udt_bootstrap_closure_sympy_114 PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 audit_closure.py
+UDT_REPO=.. PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 verify_independent.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 verify_adversarial.py
+CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest -q tests/
+python3 verify_package.py
+python3 build_manifest.py
+sha256sum --check SHA256SUMS.txt

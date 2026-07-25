@@ -1,0 +1,9 @@
+{
+  "cpu_only": true,
+  "gpu_used": false,
+  "independent_verifier": "Python standard library and fractions.Fraction",
+  "production_python": "CPython 3",
+  "production_sympy": "1.14.0",
+  "repository_source_tip": "99a8dec7443ec6814aa29020a6e372259947cd3c",
+  "sandbox_directory": "/tmp/udt_global_local_closure_audit.9pKXdu"
+}
