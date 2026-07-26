@@ -1,0 +1,18 @@
+id	false_promotion_or_corruption	required_result
+F01	missing_candidate	REJECT
+F02	duplicate_candidate	REJECT
+F03	generated_candidate	REJECT
+F04	nonpass_gate_complete_survivor	REJECT
+F05	window_inequality_called_Euler_equation	REJECT
+F06	on_shell_set_called_off_shell_response	REJECT
+F07	volume_trace_called_tracefree_angular_response	REJECT
+F08	external_or_supplied_mass_called_native	REJECT
+F09	density_number_called_functional_derivative	REJECT
+F10	gluing_or_seal_value_called_boundary_variation	REJECT
+F11	strong_CSN_called_derived	REJECT
+F12	observed_anchor_called_functional_selector	REJECT
+F13	unregistered_pairing_called_unique	REJECT
+F14	cross_branch_splice	REJECT
+F15	preregistered_source_hash_drift	REJECT
+F16	out_of_scope_repository_mutation	REJECT
+

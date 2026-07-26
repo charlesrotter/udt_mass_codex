@@ -1,0 +1,22 @@
+premise_id	object	status	use_in_audit	not_supplied
+P01	Reciprocal_c_and_dual_Reciprocity	FOUNDING_PINNED_BY_THEORY	Constrain covariance and pair structure	Complete coframe dynamics or source
+P02	Reciprocal_exponential_pair_depth	DERIVED_CONDITIONAL	Exact kinematic input within its regularity and sign convention	Physical profile or global observer path
+P03	Observer_frame_reciprocity	OWNER_STATED_FRAME_RULE	No preferred observational frame in macro regime	Micro extension or accelerated-frame dynamics
+P04	Finite_mirrored_cell	FOUNDING_GLOBAL_SETTING	Require finite seal corner gluing and global variables	Complete topology or boundary functional
+P05	Static_phi_seal_parity	CANONIZED_BINDING_SCOPED	Phi vanishes and normal derivative is free on the static seal	Other-field boundary data or moving-seal functional
+P06	Global_bootstrap_self_consistency	OWNER_STATED_WORKING	Realized universe is one globally closed solution	Off-shell residual or variation
+P07	Narrow_total_proper_density_window	OWNER_STATED_WORKING	Matter-bearing complete solutions occupy a narrow window	Center width equality or local coupling
+P08	Total_density_M_over_V	WORKING_DEFINITION	Use native full-ledger mass and same-solution proper volume only	Native mass functional or time-live slice
+P09	Measured_c_E	OBSERVED_ANCHOR	Calibrates ordinary clock-length conversion	Response functional or Xmax
+P10	Measured_G_obs	OBSERVED_ANCHOR	Allows gravitational dimensional calibration	Native action source or response normalization
+P11	Strong_local_CSN	CHALLENGED_OWNER_POSTULATE_NOT_DERIVED	Retain conformal-class branch without choosing it	Physical equivalence or representative map
+P12	Calibrated_metric_primary	OPEN_ONTOLOGY_BRANCH	Retain physical-metric branch without choosing it	Native exclusion of conformal branch
+P13	Complete_metric_or_coframe_domain	OPEN_FREE_AND_EXPLORED	Must be typed by any survivor	Selected variables gauge and topology
+P14	Native_matter_and_mass_functional	OPEN_FREE_AND_EXPLORED	Required for mass and trace-free response	Carrier action or source
+P15	Boundary_corner_gluing_functional	OPEN_FREE_AND_EXPLORED	Required for finite-cell differentiability	Polarization charge or normalization
+P16	Density_center_and_width	OPEN_NO_VALUE	Never assigned or fitted	Numerical window
+P17	Response_pairing_multiplier_or_configuration_metric	OPEN_FREE_AND_EXPLORED	Inventory rather than assume	Normalization or unique conormal representative
+P18	Action	OPEN_NOT_INPUT	Only a downstream target after response integrability	C2 EH or carrier adoption
+P19	Carrier_and_topology	OPEN_NOT_INPUT	No matter template or preferred sector	S2 section Hopf quotient or boundary
+P20	CPU_and_exact_symbolic_controls	CATEGORY_A_METHOD	Finite-dimensional exact controls only	PDE solution or GPU exploration
+

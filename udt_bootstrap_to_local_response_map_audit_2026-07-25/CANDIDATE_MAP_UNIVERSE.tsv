@@ -1,0 +1,11 @@
+candidate_id	map_type	registered_semantic_role	selection_basis
+R01	AFTER_SOLUTION_WINDOW	Filter completed matter-bearing solutions by a narrow total proper-density window	OWNER_WORKING_PRIMARY_READING
+R02	DENSITY_LEVEL_SET_CONORMAL	Treat an exact density value as a smooth constraint hypersurface and use its conormal	STRONGER_MATHEMATICAL_COMPLETION
+R03	VARIED_SCALAR_DENSITY_CONSTRAINT	Vary a multiplier times a scalar functional of total proper density	REGISTERED_FUTURE_PLACEMENT
+R04	VECTOR_COMPLETE_CLOSURE_SECTION	Use a vector-valued residual for local boundary corner gluing and global closure	MINIMUM_COMPLETE_RESPONSE_TYPE
+R05	REPRESENTATIVE_SELECTION_MAP	Select a physical metric representative before post-scale variation	REGISTERED_FUTURE_PLACEMENT
+R06	GLOBAL_FIXED_POINT_SELF_MAP	Define a complete universe as a fixed point of a global field-boundary map	SELF_CONSISTENCY_REALIZATION_TYPE
+R07	GEOMETRY_BOUNDARY_MEDIATED_RESPONSE	Let global influence arrive through solved geometry and physical boundary data	OWNER_ALLOWED_INFLUENCE_ROUTE
+R08	PURE_METRIC_GLOBAL_INVARIANT_RESPONSE	Differentiate native global metric invariants such as volume diameter curvature or holonomy	METRIC_LED_CANDIDATE_FAMILY
+R09	ACTION_GRADIENT_RESPONSE	Define response as the first variation of a complete action	DOWNSTREAM_INVERSE_VARIATIONAL_TARGET
+
