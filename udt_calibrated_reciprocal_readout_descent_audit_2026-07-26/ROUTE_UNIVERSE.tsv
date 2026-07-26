@@ -1,0 +1,13 @@
+route_id	route	input_data	premise_status	question
+R01	founding_aligned_diagonal_readout	c_E;clock_eigenline;ruler_eigenline	DERIVED_GIVEN_DECLARED_LOCAL_READOUT	What causal and adjoint structure is fixed in the founding slice?
+R02	general_symmetric_pair_readout	A;B;C	FREE_EXPLORED_COMPLETE_2X2_CLASS	What Lorentzian readouts exist?
+R03	self_adjoint_reciprocal_dilation	H;X	FREE_EXPLORED_WITH_ALIGNED_CONTROL	Which readouts make reciprocal channels orthogonal strain eigendirections?
+R04	reciprocal_inversion_isometry	H;F_b	OPEN_CANDIDATE	Which Lorentzian readouts make the inversion metric-preserving?
+R05	reciprocal_inversion_positive_conformal_isometry	H;F_b;Omega_squared_positive	FREE_EXPLORED	Can positive conformal freedom repair causal mismatch?
+R06	simultaneous_self_adjoint_and_inverting_physical_readout	H;X;F_b	TARGET_INTERSECTION	Does a Lorentzian solution exist?
+R07	mixed_inverting_readout	A;B;b	CONDITIONAL_EXISTENCE_CLASS	Where is the physical clock relative to reciprocal eigenchannels?
+R08	complete_4D_self_adjoint_extension	G;X_lambda	FREE_EXPLORED_BY_LAMBDA_STRATUM	Which metric blocks and causal assignments survive?
+R09	calibration_without_alignment	Lorentzian_H;c_E	OBSERVED_SCALE_PLUS_OPEN_SOLDER	Does scale calibration select reciprocal-channel alignment?
+R10	ordinary_holonomy_survivors	lambda_plus_one;lambda_minus_one;lambda_zero_screen	BRANCH_CONDITIONAL	What remains after the physical twisted-isometry test?
+R11	internal_twisted_reciprocal_bundle	F_X_F_inverse_equals_minus_X	CONDITIONAL_INTERNAL_CAPABILITY	Can internal descent survive without being physical metric holonomy?
+R12	scalar_anchor_selection	c_E;G_obs;provisional_hbar	OBSERVED_OR_PROVISIONAL_SCALARS	Can scalars select readout orientation or solder?
