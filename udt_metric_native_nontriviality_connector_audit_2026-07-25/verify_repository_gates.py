@@ -62,10 +62,12 @@ def validate_tests() -> dict[str, object]:
     match = re.search(r"(\d+) passed, (\d+) xfailed", result.stdout)
     if result.returncode or match is None or tuple(map(int, match.groups())) != (70, 1):
         raise AssertionError(result.stdout)
+    normalized = re.sub(r"in \d+(?:\.\d+)?s", "in <elapsed>s", result.stdout)
     return {
         "command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 -m pytest -q tests/",
         "passed": 70, "failed": 0, "xfailed": 1,
-        "stdout_sha256": hashlib.sha256(result.stdout.encode()).hexdigest(), "result": "PASS",
+        "normalized_stdout_sha256": hashlib.sha256(normalized.encode()).hexdigest(),
+        "normalization": "pytest elapsed time replaced by <elapsed>", "result": "PASS",
     }
 
 

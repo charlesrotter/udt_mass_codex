@@ -78,7 +78,7 @@
   },
   "package_manifest": {
     "entries": 33,
-    "manifest_sha256": "d8421db0dd107ca40f2a1b5b05e59ae9b70b0baf25ec4e514d713c835524bd4b",
+    "manifest_sha256": "db0a95d57e547af4a5ebe096b58f341c7571c4751ac17d63ba618714d6d941e3",
     "result": "PASS"
   },
   "result": "PASS",
@@ -105,6 +105,7 @@
     "udt_metric_native_nontriviality_connector_audit_2026-07-25/OWNER_HYPOTHESIS.md",
     "udt_metric_native_nontriviality_connector_audit_2026-07-25/PREMISE_LEDGER.tsv",
     "udt_metric_native_nontriviality_connector_audit_2026-07-25/PREREGISTRATION.md",
+    "udt_metric_native_nontriviality_connector_audit_2026-07-25/REPOSITORY_GATES.json",
     "udt_metric_native_nontriviality_connector_audit_2026-07-25/RUN_ENVIRONMENT.json",
     "udt_metric_native_nontriviality_connector_audit_2026-07-25/SHA256SUMS.txt",
     "udt_metric_native_nontriviality_connector_audit_2026-07-25/SOURCE_MANIFEST.tsv",
@@ -122,9 +123,10 @@
   "tests": {
     "command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 -m pytest -q tests/",
     "failed": 0,
+    "normalization": "pytest elapsed time replaced by <elapsed>",
+    "normalized_stdout_sha256": "8efe07955b7ef4451d0aa5c2d8b00985bf22d640764c8614ff7070828d4ffa18",
     "passed": 70,
     "result": "PASS",
-    "stdout_sha256": "1e18d746920886f39d4f9a26dca73addf8b6d27991da7974b567be449fef8fe5",
     "xfailed": 1
   }
 }
