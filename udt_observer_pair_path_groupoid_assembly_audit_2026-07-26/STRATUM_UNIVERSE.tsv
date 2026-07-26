@@ -1,0 +1,10 @@
+stratum_id	axis	cases	status_before_compute
+S01	pair_type	ordered_orthonormal_u_n;unoriented_plane;bare_event	PREREGISTERED
+S02	screen_response	all_real_lambda;lambda_minus1;lambda0;lambda_plus1	PREREGISTERED
+S03	path	one_regular_path;two_paths;closed_loop;cut_locus_family	PREREGISTERED
+S04	intermediate_object	same_pair_frame;different_pair_frames_same_event;different_observers	PREREGISTERED
+S05	depth_type	additive_path_cocycle;endpoint_only;one_form_integral;nonadditive_distance_magnitude	PREREGISTERED
+S06	depth_period	zero;nonzero_real	PREREGISTERED
+S07	holonomy	trivial;centralizing;noncentralizing	PREREGISTERED
+S08	global_semantics	path_labelled_relational;endpoint_section;bare_event	PREREGISTERED
+
