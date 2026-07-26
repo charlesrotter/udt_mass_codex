@@ -1,0 +1,16 @@
+catch	result
+all_six_count	PASS
+clock_ratio_founding_promotion	PASS
+duplicate_candidate	PASS
+false_Levi_Civita_depth	PASS
+false_bilocal_cocycle	PASS
+general_log_additivity	PASS
+independent_replay	PASS
+invariant_formula_promotion	PASS
+missing_candidate	PASS
+one_form_selection_promotion	PASS
+phi_demotion	PASS
+physics_promotion	PASS
+reference_invariance_deleted	PASS
+section_selection_promotion	PASS
+source_identity	PASS

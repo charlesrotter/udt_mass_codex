@@ -1,0 +1,10 @@
+{
+  "branch": "grok",
+  "compute": "CPU_ONLY_EXACT_SYMBOLIC_AND_STDLIB",
+  "cuda_visible_devices": "",
+  "head_at_capture": "06543189700c00afa9bfaf21d5f1c31e5b11d860",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "schema": "udt-metric-native-signed-depth-environment-1.0",
+  "sympy": "1.13.1"
+}

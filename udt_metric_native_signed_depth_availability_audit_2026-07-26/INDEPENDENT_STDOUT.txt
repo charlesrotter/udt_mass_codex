@@ -1,0 +1,27 @@
+{
+  "census_check_count": 973,
+  "checks": {
+    "Euclidean_noncollinear_triangle_defect": "PASS",
+    "basepoint_reconstructs_all_arrows": "PASS",
+    "collinear_triangle_adds": "PASS",
+    "faithful_positive_character_only_unit": "PASS",
+    "independent_log_projection_nonadditive": "PASS",
+    "invariant_formulas_are_distinct": "PASS",
+    "noncommuting_maps_are_distinct": "PASS",
+    "spectral_log_projectors_reconstruct_product": "PASS",
+    "symmetric_nonnegative_and_odd_only_zero": "PASS"
+  },
+  "counts": {
+    "clock_ratio_compositions": 27,
+    "endpoint_reversals": 125,
+    "endpoint_triangles": 125,
+    "identity_character_factors": 1,
+    "invariant_cocycles": 375,
+    "metric_skew_samples": 135,
+    "reciprocal_subgroup_compositions": 25,
+    "reference_change_samples": 25
+  },
+  "result": "PASS",
+  "schema": "udt-metric-native-signed-depth-independent-1.0",
+  "summary_check_count": 9
+}

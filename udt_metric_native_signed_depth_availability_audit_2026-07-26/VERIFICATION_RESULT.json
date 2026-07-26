@@ -1,0 +1,32 @@
+{
+  "candidate_types": 8,
+  "catch_count": 15,
+  "catch_proofs": {
+    "all_six_count": "PASS",
+    "clock_ratio_founding_promotion": "PASS",
+    "duplicate_candidate": "PASS",
+    "false_Levi_Civita_depth": "PASS",
+    "false_bilocal_cocycle": "PASS",
+    "general_log_additivity": "PASS",
+    "independent_replay": "PASS",
+    "invariant_formula_promotion": "PASS",
+    "missing_candidate": "PASS",
+    "one_form_selection_promotion": "PASS",
+    "phi_demotion": "PASS",
+    "physics_promotion": "PASS",
+    "reference_invariance_deleted": "PASS",
+    "section_selection_promotion": "PASS",
+    "source_identity": "PASS"
+  },
+  "grade": "VERIFIED_WITH_CAVEATS_BOUNDED_AVAILABILITY_CLASSIFICATION",
+  "independent_checks": 982,
+  "outcome_rows": 8,
+  "production_checks": 121,
+  "property_rows": 8,
+  "reference_rows": 12,
+  "result": "PASS",
+  "routes_passing_all_six_requirements": 0,
+  "schema": "udt-metric-native-signed-depth-verification-1.0",
+  "source_identities": 18,
+  "status_rows": 18
+}
