@@ -1,0 +1,28 @@
+{
+  "catch_proofs": {
+    "action_promotion": "PASS",
+    "duplicate_data_row": "PASS",
+    "generic_Lie_span_corruption": "PASS",
+    "hbar_direction_promotion": "PASS",
+    "lambda_one_collapse_corruption": "PASS",
+    "metric_only_fake_lift": "PASS",
+    "missing_data_row": "PASS",
+    "missing_stratum": "PASS",
+    "null_projector_promotion": "PASS",
+    "one_line_fake_pair": "PASS",
+    "ontology_fork_promotion": "PASS",
+    "rotation_physics_promotion": "PASS",
+    "screen_dilation_gauge_error": "PASS",
+    "source_identity_corruption": "PASS",
+    "spectator_false_selection": "PASS",
+    "universal_lift_promotion": "PASS"
+  },
+  "data_type_count": 15,
+  "independent_checks": 35,
+  "production_checks": 62,
+  "result": "PASS",
+  "ruling": "LOCAL_LIFT_ATLAS_AND_DIRECTIONAL_ALGEBRA_VERIFIED_WITH_UNIVERSAL_CODOMAIN_OPEN",
+  "schema": "udt-covariant-reciprocal-coframe-lift-verification-1.0",
+  "source_count": 16,
+  "stratum_count": 16
+}

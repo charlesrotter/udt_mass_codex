@@ -1,0 +1,7 @@
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 derive_covariant_lift_atlas.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 verify_covariant_lift_independent.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 verify_lift_atlas.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 -m pytest -q tests/
+python3 build_manifest.py
+python3 verify_repository_gates.py
+sha256sum --check SHA256SUMS.txt

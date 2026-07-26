@@ -1,0 +1,33 @@
+{
+  "check_count": 62,
+  "counts": {
+    "fixed_observer_directional_Lie_span_generic": 9,
+    "fixed_observer_directional_Lie_span_lambda_one": 1,
+    "fixed_observer_directional_generator_span_generic": 6,
+    "fixed_observer_directional_rotation_span_generic": 3,
+    "full_Lorentz_commutant_dimension": 1,
+    "nonnull_one_line_commutant_dimension": 2,
+    "nonnull_one_line_invariant_projector_ranks": [0, 1, 3, 4],
+    "null_line_commutant_dimension": 2,
+    "null_nontrivial_idempotents": 0,
+    "ordered_pair_commutant_dimension": 6,
+    "ordered_pair_fixed_base_lift_parameters": 2,
+    "ordered_pair_physical_screen_moduli": 1,
+    "oriented_plane_commutant_dimension": 4,
+    "simple_spectrum_Lorentzian_pair_choices": 3
+  },
+  "result": "PASS",
+  "rulings": {
+    "directional_family": "LAMBDA_NOT_ONE_GENERATES_NINE_DIMENSIONAL_FIXED_OBSERVER_ALGEBRA_WITH_ALL_THREE_SPATIAL_ROTATIONS; LAMBDA_ONE_COLLAPSES_TO_DIRECTION_INDEPENDENT_1PLUS3_LIFT",
+    "metric_and_scalars": "NO_COVARIANT_NONTRIVIAL_PAIR_SOLDER",
+    "nonnull_one_direction": "UNIQUE_DEMOCRATIC_1PLUS3_INVOLUTION_AFTER_CHANNEL_SIGN_CHOICE_BUT_NO_ORDERED_PAIR",
+    "null_or_zero_direction": "NO_REGULAR_NONSEMISCALAR_RECIPROCAL_INVOLUTION",
+    "ordered_observer_separation_pair": "CONDITIONAL_ONE_PHYSICAL_SCREEN_DILATION_MODULUS_PLUS_SCREEN_ROTATION_GAUGE",
+    "scalar_anchors": "NO_CHANGE_TO_DIRECTIONAL_STABILIZER_OR_LIFT_RANK",
+    "second_jet_eigendata": "CHOICE_DEPENDENT_AND_DEGENERACY_SENSITIVE",
+    "simple_bivector_plane": "PLANE_WITHOUT_AXES; CANONICAL_BOOST_IS_METRIC_GAUGE_NOT_FOUNDED_PHYSICAL_RESPONSE",
+    "universal_lift": "OPEN_NOT_SELECTED"
+  },
+  "schema": "udt-covariant-reciprocal-coframe-lift-atlas-1.0",
+  "sympy_version": "1.13.1"
+}

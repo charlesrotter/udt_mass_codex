@@ -1,0 +1,17 @@
+{
+  "check_count": 35,
+  "counts": {
+    "full_Lorentz_commutant_dimension": 1,
+    "generic_directional_Lie_span": 9,
+    "lambda_one_directional_Lie_span": 1,
+    "nonnull_one_line_commutant_dimension": 2,
+    "null_line_commutant_dimension": 2,
+    "ordered_pair_commutant_dimension": 6,
+    "ordered_pair_physical_screen_moduli": 1,
+    "oriented_plane_commutant_dimension": 4,
+    "simple_spectrum_pair_choices": 3
+  },
+  "implementation": "python_stdlib_fraction_no_production_import",
+  "result": "PASS",
+  "schema": "udt-covariant-reciprocal-coframe-lift-independent-1.0"
+}

@@ -1,0 +1,60 @@
+{
+  "authority_boundary": {
+    "canon_changed": false,
+    "frozen_or_historical_changed": false,
+    "global_transport_selected": false,
+    "gpu_work": false,
+    "hbar_activated": false,
+    "lambda_selected": false,
+    "physical_codomain_selected": false,
+    "repository_reorganization": false,
+    "source_results_changed": false,
+    "startup_controls_changed": false,
+    "variation_action_source_carrier_selected": false
+  },
+  "base": "8d23146",
+  "catch_proofs": {
+    "current_paths": "PASS",
+    "dirty": "PASS",
+    "frontier": "PASS",
+    "frozen": "PASS",
+    "package": "PASS",
+    "scope": "PASS"
+  },
+  "dirty_checkout": {
+    "branch": "grok",
+    "contents_read": false,
+    "head": "8b13104a4f1af45af617d2aa50cd5fdacf4082af",
+    "metadata_sha256": "345d297e0ad849cd38f1d817c915922de653ca2d2befcf923af6f9d097b483e4",
+    "paths": 55,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": 6,
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 26,
+    "manifest_sha256": "765dec5b6a0e23dbb4cf387d9237a8a3aa1277e27f812dcc370c91cf13def588",
+    "result": "PASS"
+  },
+  "result": "PASS",
+  "schema": "udt-covariant-reciprocal-coframe-lift-repository-gates-1.0",
+  "scope_path_count": 21,
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 -m pytest -q tests/",
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "stdout_sha256": "c23f7adf1839529c0276bfad3406ca321f681211429a0c98c7592269e9a31b01",
+    "xfailed": 1
+  }
+}
