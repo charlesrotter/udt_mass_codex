@@ -1,0 +1,22 @@
+id	constraint_or_equivalence	domain	status	candidate_rank_effect	independence_gate
+K01	coordinate_diffeomorphism_presentation	LOCAL_BULK	STANDARD_TENSOR_EQUIVALENCE	G4[4]	generic free local action only
+K02	local_Lorentz_coframe_presentation	LOCAL_BULK	STANDARD_COFRAME_EQUIVALENCE	G4[6]	coframe presentation only
+K03	regular_Lorentz_signature_and_positivity	LOCAL_BULK	REGISTERED_CONDITIONAL_ARENA	RANK_ZERO_OPEN_CONDITION	no equality constraint
+K04	reciprocal_duality_uv_equals_one	ABSTRACT_INTERNAL	DERIVED_EXACT	2_channels_to_1_character	no spacetime rank before soldering
+K05	reciprocal_additive_composition	ABSTRACT_INTERNAL	DERIVED_EXACT	selects_exponential_character	no pointwise phi or metric equation
+K06	observer_frame_reciprocity	RELATIONAL	FOUNDATIONAL	UNCOUNTED_UNTIL_PAIR_OPERATOR_SOLDERED	no preferred frame but no complete slot map
+K07	strong_local_CSN	LOCAL_BULK	CHALLENGED_OPEN	CONDITIONAL_G4[1]	must not be subtracted in primary count
+K08	constant_common_rescaling	GLOBAL	WORKING_PRESENTATION_POSSIBILITY	AT_MOST_C[1]	not a local functional quotient
+K09	finite_cell_no_spatial_infinity	GLOBAL_DOMAIN	FOUNDATIONAL	ZERO_POINT_LOCAL_RANK	domain ontology only
+K10	static_seal_phi_trace_zero	BOUNDARY	STATIC_BRANCH_CONDITIONAL	F3[1]_TRACE	bulk phi remains free
+K11	static_seal_delta_phi_zero	BOUNDARY_TANGENT	STATIC_BRANCH_CONDITIONAL	F3[1]_VARIATION_TRACE	normal derivative and other data remain free
+K12	completion_regularity_and_gluing	GLOBAL_BOUNDARY	REGISTERED_ALTERNATIVES	U[branch_dependent]	no universal rank before completion data
+K13	measured_c_anchor	CALIBRATION	OBSERVED	ZERO_LOCAL_FUNCTIONAL_RANK	sets units/clock-distance calibration only
+K14	measured_G_anchor	CALIBRATION	OBSERVED	ZERO_LOCAL_FUNCTIONAL_RANK	sets mass-length conversion only
+K15	bootstrap_admissibility	COMPLETE_SOLUTION	WORKING	ZERO_PRESENT_LOCAL_RANK	native mass volume stability and response absent
+K16	F_equals_dS	DERIVED_DEFINITION	CONDITIONAL_TORIC	ZERO_ADDITIONAL_FIELD_IF_F_DERIVED	must not count F independently
+K17	dF_equals_zero	DIFFERENTIAL_IDENTITY	DERIVED_FROM_K16	ZERO_DYNAMICAL_RANK	identity not inhomogeneous Maxwell equation
+K18	Levi_Civita_connection	DERIVED_EVALUATOR	CONDITIONAL_REGULAR_METRIC	ZERO_ADDITIONAL_FIELD	independent connection C07 remains separate
+K19	projector_idempotence_and_orthogonality	DERIVED_OR_SUPPLIED	BRANCH_DEPENDENT	ZERO_IF_SPECTRAL_DERIVED	extra data if projector supplied
+K20	complete_native_response_or_EOM	CONFIGURATION_SPACE	OPEN	NO_CURRENT_RANK	cannot be invented from desired closure
+

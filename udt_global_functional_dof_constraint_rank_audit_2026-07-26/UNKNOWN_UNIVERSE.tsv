@@ -1,0 +1,17 @@
+id	object	domain	baseline_inventory	independence_question	forbidden_assumption
+U01	regular_symmetric_metric	LOCAL_BULK	F4[10]	quotient by coordinate presentation only	Do not call the quotient propagating modes.
+U02	regular_coframe_presentation	LOCAL_BULK	F4[16]	local Lorentz and coordinate presentation gauges	Do not add coframe and metric inventories.
+U03	signed_phi	LOCAL_BULK	F4[1]_IF_INDEPENDENT	C01-C07 relationship to metric	Do not assume independence or derivation universally.
+U04	base_screen_shift_chart	LOCAL_BULK	F4[3+3+4]	complete chart with supplied 2+2 split	Do not treat the split as intrinsically selected.
+U05	reciprocal_comparison_pair	ABSTRACT_INTERNAL	2_positive_channels	one relative character after exact duality	Do not solder it to spacetime by notation.
+U06	metric_projectors_and_motifs	LOCAL_DERIVED_OR_SUPPLIED	U[branch_dependent]	derived from metric when spectral; extra when supplied	Do not double-count derived projectors.
+U07	toric_connection_S_and_curvature_F	LOCAL_GLOBAL_DERIVED	U[conditional_toric_branch]	derived from metric plus supplied integral torus data	Do not import U1 selection Maxwell action or current.
+U08	constraint_multiplier_fields	LOCAL_BULK	U[unspecified]	C05 field content not supplied	Do not invent multiplier number or rank.
+U09	two_stage_bridge_and_representative	LOCAL_GLOBAL	U[map_and_section]	C06 bridge and scale map absent	Do not infer post-scale dynamics.
+U10	independent_connection_or_torsion	LOCAL_GLOBAL	U[connection_bundle]	C07 connection type and relation absent	Do not assume Levi-Civita or 64 independent physical modes.
+U11	boundary_embedding_polarization_and_jets	BOUNDARY_INTERFACE	U[functional_boundary_data]	completion dependent	Do not reduce bulk counts with an unselected boundary law.
+U12	cover_transition_and_topology	GLOBAL	Z[cover_cocycle_caps_glue_topology]+C[moduli]	completion dependent	Do not assign a finite exhaustive dimension.
+U13	physical_representative_and_common_scale	GLOBAL_LOCAL	U[section_or_scale]	strong local CSN challenged; scale selection open	Do not subtract local conformal freedom unconditionally.
+U14	Xmax_mass_volume_density_bootstrap	GLOBAL_OUTPUT	O[not_evaluable]	complete same-solution metric and native source absent	Do not use output as input constraint.
+U15	off_shell_response_action_and_source	CONFIGURATION_SPACE	U[missing_response_interface]	no complete native response currently available	Do not infer a functional from on-shell roots.
+

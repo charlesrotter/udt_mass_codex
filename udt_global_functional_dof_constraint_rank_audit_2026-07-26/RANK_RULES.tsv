@@ -1,0 +1,17 @@
+rule_id	rule	failure_if_violated
+R01	Keep F4 F3 F1 C Z G4 U and O types separate.	False scalar total.
+R02	Subtract a gauge rank only from the presentation on which that gauge acts.	Gauge double subtraction.
+R03	Do not call configuration quotient freedom propagating physical modes.	Actionless mode claim.
+R04	Count only explicit equality constraints with sourced independent differential rank.	Inequality or prose promoted to equation.
+R05	Do not double-count a derived reparameterization readout curvature or holonomy.	Inflated field inventory.
+R06	A supplied extra projector connection multiplier or bridge is branch data not generic metric content.	Conditional branch promoted.
+R07	Boundary trace rank is typed F3 and does not remove a bulk F4 function.	Boundary/bulk conflation.
+R08	Strong local CSN appears only in a conditional sensitivity count.	Challenged premise treated as settled.
+R09	Abstract reciprocal character has zero spacetime metric rank before a soldering law.	Internal/spacetime conflation.
+R10	Finite-cell ontology c G and bootstrap have zero current point-local rank absent an equation.	Calibration/ontology promoted to EOM.
+R11	F=dS defines F and dF=0 is an identity; neither is a Maxwell source equation.	Identity promoted or double-counted.
+R12	Uncounted global function spaces and topology retain U/Z notation.	Invented finite global dimension.
+R13	Completion conditions restrict admissible global sections only after their embeddings and gluing data are supplied.	Universal completion rank invented.
+R14	FC12 profile counts apply only inside its supplied reciprocal-toric ansatz.	Control generalized.
+R15	Every result carries field inventory domain constraint source rank status and open remainder.	Untraceable count.
+

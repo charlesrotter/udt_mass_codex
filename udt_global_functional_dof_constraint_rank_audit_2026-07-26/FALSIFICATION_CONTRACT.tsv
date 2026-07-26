@@ -1,0 +1,20 @@
+catch_id	forbidden_promotion	required_catch
+X01	configuration_quotient_called_propagating_modes	verifier rejects PHYSICAL_MODE status
+X02	strong_local_CSN_subtracted_unconditionally	verifier rejects primary metric count below F4[6]
+X03	reciprocity_counted_as_metric_equation_without_solder	verifier rejects nonzero local rank for K04-K06
+X04	regularity_inequality_counted_as_equation	verifier rejects nonzero equality rank for K03
+X05	finite_cell_c_G_or_bootstrap_counted_locally	verifier rejects nonzero local rank for K09 K13 K14 K15
+X06	static_seal_removes_bulk_phi	verifier rejects loss of F4[1] from K10-K11 alone
+X07	derived_objects_double_counted	verifier rejects additive metric projector LC curvature or holonomy fields
+X08	F_definition_and_Bianchi_identity_counted_twice	verifier rejects any dynamical-rank contribution from K16-K17
+X09	Maxwell_action_or_current_imported	verifier rejects native U1 action current or charge row
+X10	FC12_promoted_to_generic	verifier rejects generic metric signature F1[2]
+X11	uncounted_global_modulus_given_finite_integer	verifier rejects numeric rank for U11-U15 global objects
+X12	completion_omitted_or_duplicated	verifier requires exact 12-row completion set
+X13	realization_branch_omitted_or_duplicated	verifier requires exact C01-C07 set
+X14	unlike_types_summed	verifier rejects single TOTAL_DOF scalar
+X15	constraint_without_source_or_domain	verifier rejects incomplete rank ledger row
+X16	same_code_called_independent	verifier requires distinct implementation and no production imports
+X17	branch_preference_inserted	verifier rejects SELECTED or PREFERRED completion status
+X18	global_solution_count_claimed_from_local_rank	verifier rejects COMPLETE_SOLUTION_COUNT conclusion
+
