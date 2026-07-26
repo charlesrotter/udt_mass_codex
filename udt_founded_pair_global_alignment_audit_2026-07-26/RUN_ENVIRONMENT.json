@@ -1,0 +1,21 @@
+{
+  "cpu_only": true,
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "runs": {
+    "independent": {
+      "command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 udt_founded_pair_global_alignment_audit_2026-07-26/verify_alignment_independent.py",
+      "exit_code": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "365a761a765056c567a41e2de85a594b58bd3a2ad48959093afe3aeda66a3b06"
+    },
+    "production": {
+      "command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 udt_founded_pair_global_alignment_audit_2026-07-26/derive_founded_pair_alignment.py",
+      "exit_code": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "f0401c8fdecd8bba6482db07d330e9482d6e87f758e0d55465106e5bc8b6d1a0"
+    }
+  },
+  "schema": "udt-founded-pair-global-alignment-run-environment-1.0",
+  "sympy": "1.13.1"
+}

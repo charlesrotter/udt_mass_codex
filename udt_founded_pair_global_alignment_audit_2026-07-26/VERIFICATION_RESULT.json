@@ -1,0 +1,38 @@
+{
+  "catch_count": 13,
+  "catch_proofs": {
+    "causal_line_exchange": "PASS",
+    "compression_as_invariance": "PASS",
+    "cross_term_pair_change": "PASS",
+    "duplicate_class": "PASS",
+    "global_promotion": "PASS",
+    "invariant_pair_mixing": "PASS",
+    "lambda_selection": "PASS",
+    "metric_only_basis_change": "PASS",
+    "missing_route": "PASS",
+    "orthogonal_complement": "PASS",
+    "pair_offdiagonal": "PASS",
+    "source_identity": "PASS",
+    "source_precedence": "PASS"
+  },
+  "extension_classes": 12,
+  "grade": "VERIFIED_WITH_CAVEATS_BOUNDED_LOCAL_AUTHORITY_AND_EXTENSION_CLASS",
+  "independent_counts": {
+    "bounded_pair_nonself_adjoint_Lorentzian": 238,
+    "bounded_pair_self_adjoint_Lorentzian": 18,
+    "lower_shift_blocks_tested": 81,
+    "lower_shift_pair_metric_preserving": 1,
+    "pair_invariant_compression_blocks": 1,
+    "screen_rotation_equivariant_responses": 3,
+    "self_adjoint_compression_blocks_tested": 81,
+    "small_symmetric_screen_responses_tested": 27
+  },
+  "independent_summary_checks": 18,
+  "production_checks": 50,
+  "result": "PASS",
+  "routes": 10,
+  "schema": "udt-founded-pair-global-alignment-verification-1.0",
+  "source_identities": 10,
+  "source_precedence_rows": 12,
+  "status_rows": 13
+}
