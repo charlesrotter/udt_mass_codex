@@ -1,0 +1,17 @@
+contract_id	promotion_or_failure_to_reject	required_ruling
+F01	A candidate called complete with any non-PASS gate	REJECT
+F02	A singular reduced tuning operator called matter emergence	REJECT
+F03	A pure gauge zero mode counted as physical nontriviality	REJECT
+F04	A local kernel lacking finite-cell boundary compatibility counted globally	REJECT
+F05	Local transport promoted to global holonomy or descent	REJECT
+F06	Conditional topology promoted to native matter response	REJECT
+F07	A mathematically available curvature functional promoted to selected UDT closure	REJECT
+F08	Trace-only volume response promoted to tracefree angular response	REJECT
+F09	Named energy or mass promoted despite absent native functional	REJECT
+F10	A realized fixed point or root used to determine its linearization	REJECT
+F11	Different source branches spliced into one complete witness	REJECT
+F12	The A arrow and R arrow conflated or one silently omitted	REJECT
+F13	The finite-cell boundary fixed without a declared restricted domain	REJECT
+F14	Owner mutual tuning conflated with scalar extremization	REJECT
+F15	Kernel necessity promoted to nonlinear sufficiency or stability	REJECT
+F16	Observed c_E or G_obs promoted to a closure selector	REJECT

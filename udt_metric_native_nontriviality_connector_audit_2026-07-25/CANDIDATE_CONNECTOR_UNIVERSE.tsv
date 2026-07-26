@@ -1,0 +1,13 @@
+candidate_id	connector_family	preregistered_role
+C01	COUPLED_CLOSURE_SCHUR_OPERATOR	General two-arrow nontriviality and response skeleton
+C02	CLOCK_SCREEN_TIDAL_KERNEL	Local reciprocal-clock and angular-curvature matching condition
+C03	INTEGRATED_CURVATURE_RESPONSE	Metric curvature functional with local tracefree and global integral/boundary roles
+C04	PROPER_VOLUME_DENSITY_RESPONSE	Local trace response and global proper-volume/density role
+C05	ANGULAR_DUAL_SYSTOLE_WALL	Metric-lattice character selection and reciprocal tie transition
+C06	TORIC_CONNECTION_HOLONOMY	Local projected connection and global monodromy/descent
+C07	RECIPROCAL_HOPF_WEIGHT_CAP_CHAIN	Depth-organized angular weights and conditional global topological completion
+C08	NONNULL_DPHI_RECIPROCAL_3PLUS3	Local reciprocal subbundle with global survival and null-degeneration conditions
+C09	PROJECTOR_KATO_TRANSPORT	Metric-compatible local motif transport and possible global bundle persistence
+C10	FINITE_CELL_SEAL_BOUNDARY_RESPONSE	Moving-boundary local flux and global finite-cell closure role
+C11	OBSERVER_PAIR_DIAMETER_XMAX	Complete-metric global observer separation and local clock-depth embedding
+C12	NATIVE_ENERGY_MASS_RESPONSE	Required local-to-global energy/mass and backreaction channel
