@@ -1,0 +1,17 @@
+catch	result
+B19_axis_promotion	PASS
+WRL_splice	PASS
+duplicate_configuration	PASS
+global_vector_as_selection	PASS
+higher_jet_escape	PASS
+independent_recomputation	PASS
+missing_branch	PASS
+missing_completion	PASS
+nonclosed_as_exact	PASS
+orientation_hidden	PASS
+physics_promotion	PASS
+ruler_sign_hidden	PASS
+source_identity	PASS
+squashed_on_shell_promotion	PASS
+taxonomy_as_metric	PASS
+time_as_founded_depth	PASS

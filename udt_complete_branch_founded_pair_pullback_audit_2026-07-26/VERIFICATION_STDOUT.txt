@@ -1,0 +1,33 @@
+{
+  "branch_rows": 6,
+  "catch_count": 16,
+  "catch_proofs": {
+    "B19_axis_promotion": "PASS",
+    "WRL_splice": "PASS",
+    "duplicate_configuration": "PASS",
+    "global_vector_as_selection": "PASS",
+    "higher_jet_escape": "PASS",
+    "independent_recomputation": "PASS",
+    "missing_branch": "PASS",
+    "missing_completion": "PASS",
+    "nonclosed_as_exact": "PASS",
+    "orientation_hidden": "PASS",
+    "physics_promotion": "PASS",
+    "ruler_sign_hidden": "PASS",
+    "source_identity": "PASS",
+    "squashed_on_shell_promotion": "PASS",
+    "taxonomy_as_metric": "PASS",
+    "time_as_founded_depth": "PASS"
+  },
+  "completion_rows": 12,
+  "concrete_rows": 4,
+  "full_witnesses": 0,
+  "gate_rows": 4,
+  "grade": "VERIFIED_WITH_CAVEATS_REGISTERED_COMPLETE_BRANCH_PULLBACK",
+  "independent_checks": 59,
+  "maximum_conclusion": "REGISTERED_COMPLETION_AND_REPRESENTATIVE_UNIVERSE_CENSUSED;COMPLETE_BRANCH_FIRST_JET_PULLBACKS_DERIVED_WITHIN_EXPLICIT_HOMOGENEOUS_CONTROLS;NO_REGISTERED_COMPLETE_PULLBACK_WITNESS",
+  "motif_rows": 22,
+  "production_checks": 40,
+  "result": "PASS",
+  "schema": "udt-complete-branch-founded-pair-pullback-verification-1.0"
+}

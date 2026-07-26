@@ -1,0 +1,8 @@
+{
+  "cpu_only": true,
+  "cuda_visible_devices": "",
+  "git_head": "956f897955344d0c7ed4645601ef1497b2161f03",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "sympy": "1.13.1"
+}

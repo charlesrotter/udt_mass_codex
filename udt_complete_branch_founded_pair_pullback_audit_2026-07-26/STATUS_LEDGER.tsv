@@ -1,0 +1,17 @@
+object	status	evidence	open_scope
+registered_completion_classes	CENSUSED_12	COMPLETION_PULLBACK_ATLAS.tsv	arbitrary unregistered topologies
+classes_with_concrete_complete_metrics	ONE_FC04	COMPLETION_PULLBACK_ATLAS.tsv	new representatives in other classes
+round_B19_metric	CONDITIONAL_COMPLETE_ON_SHELL_SPATIAL_ULTRASTATIC	CONCRETE_REPRESENTATIVE_ATLAS.tsv	complete native action and clock solder
+round_B19_Hopf_line	GLOBAL_FIELDS_EXIST_NOT_METRIC_SELECTED	Ricci gap zero at p=q	additional selection forbidden
+squashed_S3_metric	COMPLETE_HOMOGENEOUS_OFF_SHELL_CONTROL	CONCRETE_REPRESENTATIVE_ATLAS.tsv	on-shell selection
+squashed_S3_Hopf_line	METRIC_SELECTED_UNORIENTED_IF_NONROUND	Ricci gap q(q-p)	sign orientation and founded identity
+homogeneous_pair_motif_rank	TWO_CONDITIONAL_ORIENTED	N07 and N08	nonhomogeneous complete branches
+homogeneous_orientation_free_rank	ZERO	HOMOGENEOUS_MOTIF_PULLBACK.tsv	orientation supplied by a future branch
+homogeneous_exterior_rank	ONE	dN08 nonzero	field-equation-restricted other branches
+closed_N07_line	EXACT_COORDINATE_TIME_NOT_FOUNDED_DEPTH	N07=-q dt	reciprocal clock solder absent
+N08_fiber_line	NOT_CLOSED	dN08=q^2 e1 wedge e2	period and nonlinear functionals not promoted
+WRL	LOCAL_INCOMPLETE_NONTRIVIAL_CLOCK	BRANCH_PULLBACK_ATLAS.tsv	all-observer global completion
+FC12	PARAMETRIC_ANSATZ_NOT_COMPLETE_REPRESENTATIVE	COMPLETION_PULLBACK_ATLAS.tsv	profile endpoint and selection open
+full_founded_pullback_witness	NO_REGISTERED_COMPLETE_PULLBACK_WITNESS	EIGHT_GATE_MATRIX.tsv	future complete coupled branch
+complete_branch_selection	OPEN_NOT_SELECTED	zero eight-gate passes	global equations and premises
+action_carrier_source_density_bootstrap_Xmax_dynamics	OPEN_UNCHANGED	authority boundary	not tested
