@@ -1,0 +1,37 @@
+{
+  "cpu_only": true,
+  "gpu_process_launched": false,
+  "pinned_pythonpath": "/tmp/udt_bootstrap_response_sympy_114_target",
+  "python": "3.10.12",
+  "result": "PASS",
+  "schema": "udt-metric-orchestra-run-1.0",
+  "stages": [
+    {
+      "command": "PYTHONPATH=/tmp/udt_bootstrap_response_sympy_114_target CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 udt_metric_orchestra_rehearsal_2026-07-25/derive_orchestra_rehearsal.py",
+      "exit_code": 0,
+      "stage": "production",
+      "stderr": "PRODUCTION_STDERR.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout": "PRODUCTION_STDOUT.txt",
+      "stdout_sha256": "5fb913247e32776bb615528473f139f5681d837e62fdc40e191869d1a8ba589b"
+    },
+    {
+      "command": "PYTHONPATH=/tmp/udt_bootstrap_response_sympy_114_target CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 udt_metric_orchestra_rehearsal_2026-07-25/verify_orchestra_independent.py",
+      "exit_code": 0,
+      "stage": "independent",
+      "stderr": "INDEPENDENT_STDERR.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout": "INDEPENDENT_STDOUT.txt",
+      "stdout_sha256": "f8fa162d6427e4cdf92138b5ca5e7741d3712cd42fbccabf531b8a934f5407a2"
+    },
+    {
+      "command": "PYTHONPATH=/tmp/udt_bootstrap_response_sympy_114_target CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 udt_metric_orchestra_rehearsal_2026-07-25/verify_orchestra_audit.py",
+      "exit_code": 0,
+      "stage": "audit",
+      "stderr": "AUDIT_STDERR.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout": "AUDIT_STDOUT.txt",
+      "stdout_sha256": "89163be1122d8e4b431283d2840031bc4372ed79443202321385e5bad5a27a34"
+    }
+  ]
+}

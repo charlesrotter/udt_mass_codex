@@ -1,0 +1,56 @@
+{
+  "artifact_integrity_checks": 2,
+  "check_count": 20,
+  "checks": {
+    "I01_hessian_shape": "PASS",
+    "I02_numeric_hessian_coarse": "PASS",
+    "I03_numeric_hessian_refined": "PASS",
+    "I04_numeric_hessian_refines": "PASS",
+    "I05_ricci_hessian_59_nonzero_pairs": "PASS",
+    "I06_numeric_ricci_hessians_coarse": "PASS",
+    "I07_numeric_ricci_hessians_refined": "PASS",
+    "I08_numeric_ricci_hessians_refine": "PASS",
+    "I09_all_24_second_jets": "PASS",
+    "I10_numeric_second_jets_coarse": "PASS",
+    "I11_numeric_second_jets_refined": "PASS",
+    "I12_numeric_second_jets_refine": "PASS",
+    "I13_numeric_ricci_second_jets_coarse": "PASS",
+    "I14_numeric_ricci_second_jets_refined": "PASS",
+    "I15_numeric_ricci_second_jets_refine": "PASS",
+    "I16_metric_determinant": "PASS",
+    "I17_pure_gauge_connection_zero_curvature": "PASS",
+    "I18_connection_field_strength_half_square": "PASS",
+    "I19_source_identities": "PASS",
+    "I20_production_integrity": "PASS"
+  },
+  "curvature_hessian_reconstruction": {
+    "coarse_h": "0.002",
+    "coarse_max_abs_error": "2.453346986618958e-10",
+    "entries": 256,
+    "fine_h": "0.001",
+    "fine_max_abs_error": "1.533335466664803e-11"
+  },
+  "method": "mpmath_70_digit_direct_coframe_finite_difference_metric_jets_no_production_import",
+  "mpmath_version": "1.3.0",
+  "result": "PASS",
+  "ricci_hessian_reconstruction": {
+    "coarse_max_abs_error": "2.133341297789481e-5",
+    "components": 10,
+    "entries": 2560,
+    "fine_max_abs_error": "5.33333831111294e-6",
+    "nonzero_upper_triangle_pairs": 59
+  },
+  "ricci_second_jet_reconstruction": {
+    "coarse_max_abs_error": "1.06667200001792e-11",
+    "components": 10,
+    "entries": 240,
+    "fine_max_abs_error": "6.666675000007e-13"
+  },
+  "schema": "udt-metric-orchestra-independent-1.0",
+  "scientific_checks": 18,
+  "second_jet_reconstruction": {
+    "coarse_max_abs_error": "2.13334400003584e-11",
+    "controls": 24,
+    "fine_max_abs_error": "1.3333350000014e-12"
+  }
+}

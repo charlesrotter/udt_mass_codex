@@ -1,0 +1,9 @@
+instrument	status	direct_role	scalar_rate_neighbors	Ricci_rate_neighbors	nonzero_scalar_second_jets	nonzero_Ricci_second_jets	maximum_conclusion
+phi	FOUNDED_PAIR_SCALAR_PROFILE_OPEN	reciprocal_clock_ruler	phi;sigma	phi;sigma;alpha;k	d00;d11	d00;d11	metric_response_only
+sigma	COMPLETE_COFRAME_DIRECTION_UNSELECTED	angular_common_log_area	phi;sigma	phi;sigma;alpha;k;S10;S11;S20;S21	d00;d11	d00;d01;d11	metric_response_only
+alpha	COMPLETE_COFRAME_DIRECTION_UNSELECTED	angular_det1_anisotropy	alpha	phi;sigma;alpha;k;S10;S11;S20;S21	-	d00;d11	metric_response_only
+k	COMPLETE_COFRAME_DIRECTION_UNSELECTED	angular_triangular_shear	k	phi;sigma;alpha;k;S10;S11;S20;S21	-	d00;d11	metric_response_only
+S10	COMPLETE_COFRAME_MIXING_UNSELECTED	first_connection_time_component	S10;S11	sigma;alpha;k;S10;S11;S20;S21	-	d01;d11	metric_response_only
+S11	COMPLETE_COFRAME_MIXING_UNSELECTED	first_connection_space_component	S10;S11	sigma;alpha;k;S10;S11;S20;S21	-	d00;d01	metric_response_only
+S20	COMPLETE_COFRAME_MIXING_UNSELECTED	second_connection_time_component	S20;S21	sigma;alpha;k;S10;S11;S20;S21	-	d01;d11	metric_response_only
+S21	COMPLETE_COFRAME_MIXING_UNSELECTED	second_connection_space_component	S20;S21	sigma;alpha;k;S10;S11;S20;S21	-	d00;d01	metric_response_only

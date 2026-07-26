@@ -1,0 +1,11 @@
+{
+  "base_commit": "40371ed59e2ecb7e71be1c50da543187090c2b1d",
+  "cpu_only": true,
+  "git": "2.34.1",
+  "gpu_process_launched": false,
+  "kernel": "Linux 6.8.0-124-generic x86_64",
+  "preregistration_commit": "2b5a2e2",
+  "python": "3.10.12",
+  "sympy": "1.14.0",
+  "mpmath": "1.3.0"
+}

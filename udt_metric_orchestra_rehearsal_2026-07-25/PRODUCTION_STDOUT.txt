@@ -1,0 +1,72 @@
+stage=kinematic_identities
+stage=metric_field_jets
+stage=curvature_rate_form
+stage=curvature_rate_hessian
+stage=curvature_second_jets
+stage=write_results
+{
+  "check_count": 22,
+  "checks": {
+    "H_sigma_independent": "PASS",
+    "all_16_outputs_covered": "PASS",
+    "all_24_second_jets_covered": "PASS",
+    "coframe_determinant": "PASS",
+    "coframe_taylor_matches_all_72_exact_field_jets": "PASS",
+    "connection_curvature_gauge_invariant": "PASS",
+    "curvature_rate_Ricci_symmetric": "PASS",
+    "curvature_rate_Ricci_trace_matches_scalar": "PASS",
+    "curvature_rate_form_no_constant_or_linear": "PASS",
+    "curvature_rate_form_quadratic": "PASS",
+    "curvature_rate_hessian_symmetric": "PASS",
+    "curvature_second_Ricci_symmetric": "PASS",
+    "curvature_second_Ricci_trace_matches_scalar": "PASS",
+    "curvature_second_jet_form_linear": "PASS",
+    "dual_character_common_scale_factor": "PASS",
+    "general_covector_coframe_components": "PASS",
+    "general_depth_norm": "PASS",
+    "metric_determinant": "PASS",
+    "normalized_angular_metric": "PASS",
+    "observer_rest_spatial_volume": "PASS",
+    "torus_invariant_dphi_norm": "PASS",
+    "x_boundary_induced_volume": "PASS"
+  },
+  "counts": {
+    "Ricci_nonzero_upper_triangle_couplings": 59,
+    "Ricci_second_jet_nonzero": 17,
+    "curvature_hessian_entries": 256,
+    "curvature_nonzero_upper_triangle_couplings": 16,
+    "curvature_second_jet_controls": 24,
+    "curvature_second_jet_nonzero": 4,
+    "instruments": 8,
+    "outputs": 16,
+    "rate_variables": 16
+  },
+  "exact_objects": {
+    "coframe_determinant": "exp(sigma)",
+    "four_volume_density_t_coordinate": "c_E*exp(sigma)",
+    "four_volume_density_x0_coordinate": "exp(sigma)",
+    "general_depth_norm": "-(S10**2*p2**2*exp(4*phi) + 2*S10*S20*p2*p3*exp(4*phi) - 2*S10*p0*p2*exp(4*phi) - S11**2*p2**2 - 2*S11*S21*p2*p3 + 2*S11*p1*p2 + S20**2*p3**2*exp(4*phi) - 2*S20*p0*p3*exp(4*phi) - S21**2*p3**2 + 2*S21*p1*p3 - k**2*p2**2*exp(-2*alpha)*exp(2*phi)*exp(-sigma) + 2*k*p2*p3*exp(-2*alpha)*exp(2*phi)*exp(-sigma) + p0**2*exp(4*phi) - p1**2 - p2**2*exp(2*alpha)*exp(2*phi)*exp(-sigma) - p3**2*exp(-2*alpha)*exp(2*phi)*exp(-sigma))*exp(-2*phi)",
+    "metric_determinant": "-exp(2*sigma)",
+    "normalized_angular_metric": [
+      [
+        "exp(-2*alpha)",
+        "k*exp(-2*alpha)"
+      ],
+      [
+        "k*exp(-2*alpha)",
+        "(k**2 + exp(4*alpha))*exp(-2*alpha)"
+      ]
+    ],
+    "scalar_curvature_rate_form": "d0_S11**2/2 - d0_S11*d1_S10 + d0_S21**2/2 - d0_S21*d1_S20 + 2*d0_alpha**2 + d0_k**2/2 + 4*d0_phi**2 + 4*d0_phi*d0_sigma + 3*d0_sigma**2/2 + d1_S10**2/2 + d1_S20**2/2 - 2*d1_alpha**2 - d1_k**2/2 - 4*d1_phi**2 + 4*d1_phi*d1_sigma - 3*d1_sigma**2/2",
+    "spatial_volume_density": "exp(phi)*exp(sigma)",
+    "torus_curvature": [
+      "d0S11 - d1S10",
+      "d0S21 - d1S20"
+    ],
+    "torus_invariant_dphi_norm": "-(p0*exp(2*phi) - p1)*(p0*exp(2*phi) + p1)*exp(-2*phi)",
+    "x_boundary_volume_density": "exp(-phi)*exp(sigma)"
+  },
+  "maximum_conclusion": "EXACT_TYPED_PARTIAL_R_GEOM_AND_COMMON_DOMAIN_CROSS_RESPONSE_ATLAS_ONLY",
+  "schema": "udt-metric-orchestra-rehearsal-algebra-1.0",
+  "sympy_version": "1.14.0"
+}

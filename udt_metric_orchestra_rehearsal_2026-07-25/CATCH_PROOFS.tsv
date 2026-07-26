@@ -1,0 +1,22 @@
+catch_id	mutation	expected	observed	result
+C01_missing_instrument	instrument_count=7	REJECT	REJECT	PASS
+C02_duplicate_instrument	instrument_unique=False	REJECT	REJECT	PASS
+C03_missing_output	output_count=15	REJECT	REJECT	PASS
+C04_duplicate_output	output_unique=False	REJECT	REJECT	PASS
+C05_phi_inserted_into_four_volume	four_volume_phi_free=False	REJECT	REJECT	PASS
+C06_sigma_inserted_into_H	H_sigma_free=False	REJECT	REJECT	PASS
+C07_connection_component_promoted_invariant	connection_components_gauge_invariant=True	REJECT	REJECT	PASS
+C08_scalar_pair_dropped	scalar_rate_pairs=15	REJECT	REJECT	PASS
+C09_Ricci_pair_dropped	ricci_rate_pairs=58	REJECT	REJECT	PASS
+C10_scalar_second_jet_promoted	scalar_second_nonzero=5	REJECT	REJECT	PASS
+C11_Ricci_second_jet_dropped	ricci_second_nonzero=16	REJECT	REJECT	PASS
+C12_connected_graph_split	ricci_graph_connected=False	REJECT	REJECT	PASS
+C13_false_phi_S_edge	phi_direct_neighbors=frozenset({'phi', 'sigma', 'k', 'alpha', 'S10'})	REJECT	REJECT	PASS
+C14_unselected_S_promoted_founded	founded_instruments=frozenset({'phi', 'S10'})	REJECT	REJECT	PASS
+C15_action_promoted_selected	selected_action=True	REJECT	REJECT	PASS
+C16_density_promoted_selected	selected_density=True	REJECT	REJECT	PASS
+C17_branch_promoted_selected	selected_physical_branch=True	REJECT	REJECT	PASS
+C18_bootstrap_promoted_closed	bootstrap_closed=True	REJECT	REJECT	PASS
+C19_source_tamper	source_integrity=False	REJECT	REJECT	PASS
+C20_independent_failure_ignored	independent_result=FAIL	REJECT	REJECT	PASS
+C21_partial_map_promoted_complete	maximum_conclusion=COMPLETE_BOOTSTRAP	REJECT	REJECT	PASS
