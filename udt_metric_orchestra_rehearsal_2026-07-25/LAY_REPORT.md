@@ -16,6 +16,12 @@ together, all eight instruments belong to one connected response network in
 this chart and local regime.  This was reproduced by a second calculation that
 did not use the symbolic derivation code.
 
+There is one important cleanup behind that statement: the four raw connection
+controls contain coordinate freedom.  After removing that freedom, they become
+two genuine connection-curl channels.  The reduced six-part network is still
+connected.  So the orchestra effect is not being manufactured merely by
+counting gauge knobs as separate instruments.
+
 That is a real advance, but it is not yet the finished symphony.  We have found
 the metric's wiring diagram, not the law that chooses what each instrument
 plays.  Nothing in this audit selects the universe's profiles, matter, density,

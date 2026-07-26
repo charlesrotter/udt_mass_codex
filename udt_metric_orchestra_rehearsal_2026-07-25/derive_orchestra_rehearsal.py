@@ -369,6 +369,62 @@ def main() -> None:
               ["left_rate", "right_rate", "relation", *ricci_component_names],
               ricci_coupling_rows)
 
+    # Exact gauge reduction of connection first jets.  The Ricci tensor may
+    # depend on the two gauge-invariant curvatures F1,F2, but not on the six
+    # remaining connection-rate directions.
+    f1_rate, f2_rate = sp.symbols("F1_rate F2_rate", real=True)
+    gauge_substitution = {
+        rates0[5]: f1_rate + rates1[4],
+        rates0[7]: f2_rate + rates1[6],
+    }
+    connection_rates = set(rates0[4:]) | set(rates1[4:])
+    ricci_reduced = ricci_rate.applyfunc(
+        lambda value: sp.expand(value.subs(gauge_substitution))
+    )
+    require("curvature_rate_Ricci_connection_gauge_reduced",
+            all(not (entry.free_symbols & connection_rates) for entry in ricci_reduced), checks)
+    reduced_variables = tuple(rates0[:4]) + tuple(rates1[:4]) + (f1_rate, f2_rate)
+    reduced_names = tuple(f"d0_{name}" for name in FIELDS[:4]) + tuple(
+        f"d1_{name}" for name in FIELDS[:4]
+    ) + ("F1", "F2")
+    node_of = {
+        **{name: name[3:] for name in reduced_names if name.startswith(("d0_", "d1_"))},
+        "F1": "F1", "F2": "F2",
+    }
+    reduced_hessians = {
+        component: sp.hessian(ricci_reduced[component[0], component[1]], reduced_variables)
+        for component in ricci_components
+    }
+    reduced_edges: set[tuple[str, str]] = set()
+    node_order = {name: index for index, name in enumerate(("phi", "sigma", "alpha", "k", "F1", "F2"))}
+    for i, left in enumerate(reduced_names):
+        for j in range(i, len(reduced_names)):
+            if any(reduced_hessians[component][i, j] != 0 for component in ricci_components):
+                a, b = node_of[left], node_of[reduced_names[j]]
+                if node_order[a] > node_order[b]:
+                    a, b = b, a
+                reduced_edges.add((a, b))
+    reduced_nodes = tuple(node_order)
+    adjacency = {node: set() for node in reduced_nodes}
+    for left, right in reduced_edges:
+        adjacency[left].add(right)
+        adjacency[right].add(left)
+    seen, frontier = set(), ["phi"]
+    while frontier:
+        node = frontier.pop()
+        if node not in seen:
+            seen.add(node)
+            frontier.extend(adjacency[node] - seen)
+    require("gauge_reduced_Ricci_graph_connected", seen == set(reduced_nodes), checks)
+    require("gauge_reduced_phi_has_no_direct_F_edge",
+            not (adjacency["phi"] & {"F1", "F2"}), checks)
+    reduced_rows = [{
+        "left_node": left, "right_node": right,
+        "relation": "SELF" if left == right else "CROSS",
+    } for left, right in sorted(reduced_edges, key=lambda pair: (node_order[pair[0]], node_order[pair[1]]))]
+    write_tsv("GAUGE_REDUCED_RICCI_GRAPH.tsv",
+              ["left_node", "right_node", "relation"], reduced_rows)
+
     # Every pure second base jet, with first jets held zero. Linearity of the
     # metric two-jet chain rule permits one exact joint contraction.
     print("stage=curvature_second_jets", flush=True)
@@ -449,6 +505,8 @@ def main() -> None:
             "curvature_second_jet_controls": len(second_rows),
             "curvature_second_jet_nonzero": second_nonzero,
             "Ricci_second_jet_nonzero": ricci_second_nonzero,
+            "gauge_reduced_Ricci_nodes": len(reduced_nodes),
+            "gauge_reduced_Ricci_edges_including_self": len(reduced_edges),
         },
         "exact_objects": {
             "coframe_determinant": str(det_E),

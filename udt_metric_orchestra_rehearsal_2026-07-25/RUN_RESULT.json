@@ -13,7 +13,7 @@
       "stderr": "PRODUCTION_STDERR.txt",
       "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "stdout": "PRODUCTION_STDOUT.txt",
-      "stdout_sha256": "5fb913247e32776bb615528473f139f5681d837e62fdc40e191869d1a8ba589b"
+      "stdout_sha256": "2e9cf8625aae41ce474a33552cd6d22d300f66a0d1ed1341c3b65d69623615d5"
     },
     {
       "command": "PYTHONPATH=/tmp/udt_bootstrap_response_sympy_114_target CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 udt_metric_orchestra_rehearsal_2026-07-25/verify_orchestra_independent.py",
@@ -25,13 +25,22 @@
       "stdout_sha256": "6d757ddf220b11089095933edaec1ccd04d4c78942fa796f8e3aa6671b4cd210"
     },
     {
+      "command": "PYTHONPATH=/tmp/udt_bootstrap_response_sympy_114_target CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 udt_metric_orchestra_rehearsal_2026-07-25/verify_orchestra_diffgeom.py",
+      "exit_code": 0,
+      "stage": "diffgeom",
+      "stderr": "DIFFGEOM_STDERR.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout": "DIFFGEOM_STDOUT.txt",
+      "stdout_sha256": "f85dcbe73e0112ed461a241d6f2e78783a3a7601c94fc6eb9d4de9a34ded9cb7"
+    },
+    {
       "command": "PYTHONPATH=/tmp/udt_bootstrap_response_sympy_114_target CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 udt_metric_orchestra_rehearsal_2026-07-25/verify_orchestra_audit.py",
       "exit_code": 0,
       "stage": "audit",
       "stderr": "AUDIT_STDERR.txt",
       "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "stdout": "AUDIT_STDOUT.txt",
-      "stdout_sha256": "89163be1122d8e4b431283d2840031bc4372ed79443202321385e5bad5a27a34"
+      "stdout_sha256": "fd672e1b242ec2643afba337dca6ff4af4c3955c693cb494ef410eaf45eded71"
     }
   ]
 }

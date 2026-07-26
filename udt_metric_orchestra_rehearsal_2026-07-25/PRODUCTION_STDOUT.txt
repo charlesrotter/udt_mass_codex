@@ -5,7 +5,7 @@ stage=curvature_rate_hessian
 stage=curvature_second_jets
 stage=write_results
 {
-  "check_count": 22,
+  "check_count": 25,
   "checks": {
     "H_sigma_independent": "PASS",
     "all_16_outputs_covered": "PASS",
@@ -13,6 +13,7 @@ stage=write_results
     "coframe_determinant": "PASS",
     "coframe_taylor_matches_all_72_exact_field_jets": "PASS",
     "connection_curvature_gauge_invariant": "PASS",
+    "curvature_rate_Ricci_connection_gauge_reduced": "PASS",
     "curvature_rate_Ricci_symmetric": "PASS",
     "curvature_rate_Ricci_trace_matches_scalar": "PASS",
     "curvature_rate_form_no_constant_or_linear": "PASS",
@@ -22,6 +23,8 @@ stage=write_results
     "curvature_second_Ricci_trace_matches_scalar": "PASS",
     "curvature_second_jet_form_linear": "PASS",
     "dual_character_common_scale_factor": "PASS",
+    "gauge_reduced_Ricci_graph_connected": "PASS",
+    "gauge_reduced_phi_has_no_direct_F_edge": "PASS",
     "general_covector_coframe_components": "PASS",
     "general_depth_norm": "PASS",
     "metric_determinant": "PASS",
@@ -37,6 +40,8 @@ stage=write_results
     "curvature_nonzero_upper_triangle_couplings": 16,
     "curvature_second_jet_controls": 24,
     "curvature_second_jet_nonzero": 4,
+    "gauge_reduced_Ricci_edges_including_self": 19,
+    "gauge_reduced_Ricci_nodes": 6,
     "instruments": 8,
     "outputs": 16,
     "rate_variables": 16

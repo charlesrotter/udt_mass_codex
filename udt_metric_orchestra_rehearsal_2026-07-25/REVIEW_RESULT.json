@@ -1,0 +1,12 @@
+{
+  "adversarial_preruling_bytes": 8934,
+  "adversarial_preruling_sha256": "36a02a336120397f4092c1199ca53e59c2de9795ea5ac78b1b14595152ea6a49",
+  "diffgeom_first_rate_controls": 8,
+  "diffgeom_pure_second_jet_entries": 240,
+  "frozen_source_identities": 10,
+  "gauge_reduced_nodes": 6,
+  "maximum_conclusion": "EXACT_TYPED_PARTIAL_R_GEOM_AND_COMMON_DOMAIN_CROSS_RESPONSE_ATLAS_ONLY",
+  "original_diffgeom_scratch_sha256": "ce417c0e73ec4c671bea7b14d4cc5aafff0b01b9c3e2f4e431ba907016850440",
+  "result": "PASS_WITH_CAVEATS",
+  "schema": "udt-metric-orchestra-adversarial-review-1.0"
+}

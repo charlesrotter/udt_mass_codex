@@ -1,7 +1,7 @@
 # UDT metric-orchestra common-domain rehearsal
 
 Date: 2026-07-25  
-Grade: `VERIFIED-WITH-CAVEATS` pending frozen fresh-context review  
+Grade: `VERIFIED-WITH-CAVEATS`
 Maximum conclusion: `EXACT_TYPED_PARTIAL_R_GEOM_AND_COMMON_DOMAIN_CROSS_RESPONSE_ATLAS_ONLY`
 
 ## Result first
@@ -83,7 +83,7 @@ amplitudes enter its components at one regular point.
 
 ## Independent verification
 
-Production used exact SymPy 1.14.0 metric two-jets and passed 22 algebraic
+Production used exact SymPy 1.14.0 metric two-jets and passed 25 algebraic
 checks.  A separately implemented mpmath 1.3.0 route evaluated the full
 coframe metric directly at 70 digits, constructed fourth-order finite-
 difference metric jets, and reconstructed:
@@ -104,6 +104,16 @@ gave scalar curvature `1/2`.
 The independent result's 20 checks comprise 15 numerical reconstruction or
 geometric controls and five schema/source/artifact-integrity checks.  The
 latter are regression guards, not additional independent physics evidence.
+
+A fresh source-first reviewer froze expectations before seeing any production
+artifact (`ADVERSARIAL_PRERULING.md`, SHA-256
+`36a02a336120397f4092c1199ca53e59c2de9795ea5ac78b1b14595152ea6a49`).
+A separate SymPy `diffgeom` library route then reproduced eight load-bearing
+first-rate Ricci controls and all 240 pure-second-jet Ricci entries exactly.
+After exact connection-gauge reduction, the raw four `S` amplitudes collapse
+to the two curvature channels `(F1,F2)`.  The resulting six-node graph
+`{phi,sigma,alpha,k,F1,F2}` remains connected and retains no direct `phi-F`
+edge.  See `INDEPENDENT_REVIEW.md` and `GAUGE_REDUCED_RICCI_GRAPH.tsv`.
 
 ## Reverse-arrow audit
 
@@ -133,6 +143,11 @@ branch, or dynamics.
 No action, field equation, carrier, source, density, mass, energy, boundary
 charge, or topology is selected.  No GPU work or numerical solution search
 was run.  The result cannot be called matter emergence or bootstrap closure.
+
+Repository preservation gates pass: six frozen manifests retain 127 entries
+and 133 tracked paths; all 1,114 current artifact paths and 306 frontier rows
+resolve; tests remain 70 passed and one expected xfail; and the protected
+55-path dirty checkout retains its recorded metadata with contents unread.
 
 ## Next justified step
 

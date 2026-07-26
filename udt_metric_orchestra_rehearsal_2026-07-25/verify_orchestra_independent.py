@@ -296,7 +296,7 @@ def main() -> None:
 
     algebra = json.loads((HERE / "ALGEBRA_RESULT.json").read_text(encoding="utf-8"))
     require("I20_production_integrity", algebra["sympy_version"] == "1.14.0"
-            and algebra["check_count"] == 22
+            and algebra["check_count"] == 25
             and set(algebra["checks"].values()) == {"PASS"}, checks)
     result = {
         "schema": "udt-metric-orchestra-independent-1.0",

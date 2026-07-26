@@ -1,6 +1,6 @@
 {
   "catch_proofs": 21,
-  "check_count": 40,
+  "check_count": 44,
   "checks": {
     "V01_exact_instrument_universe": "PASS",
     "V02_exact_output_universe": "PASS",
@@ -13,6 +13,8 @@
     "V09_phi_exact_direct_neighbors": "PASS",
     "V10_phi_has_no_direct_S_edge_at_neutral_point": "PASS",
     "V11_angular_bridge_reaches_all_S": "PASS",
+    "V11a_gauge_reduced_six_node_graph_connected": "PASS",
+    "V11b_gauge_reduced_phi_F_edge_absent": "PASS",
     "V12_instrument_ledger_coverage": "PASS",
     "V13_only_phi_founded": "PASS",
     "V14_ensemble_coverage": "PASS",
@@ -20,6 +22,8 @@
     "V16_open_claims_preserved": "PASS",
     "V17_independent_all_entries": "PASS",
     "V18_source_integrity": "PASS",
+    "V18a_adversarial_preruling_frozen": "PASS",
+    "V18b_adversarial_scratch_frozen": "PASS",
     "V19_base_state_valid": "PASS",
     "V_C01_missing_instrument": "PASS",
     "V_C02_duplicate_instrument": "PASS",

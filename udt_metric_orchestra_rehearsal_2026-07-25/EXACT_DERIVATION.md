@@ -93,9 +93,8 @@ R = 4(phi0+sigma0/2)^2 + sigma0^2/2
     -2 alpha1^2 - k1^2/2.
 ```
 
-where the last two terms are already included when the unexpanded `F` form
-is interpreted carefully; the exact unambiguous polynomial is frozen in
-`ALGEBRA_RESULT.json` and `CURVATURE_RATE_HESSIAN.tsv`:
+Equivalently, the exact expanded polynomial frozen in `ALGEBRA_RESULT.json`
+and `CURVATURE_RATE_HESSIAN.tsv` is
 
 ```text
 R = S11_0^2/2-S11_0 S10_1+S21_0^2/2-S21_0 S20_1
@@ -127,6 +126,13 @@ The full symmetric Ricci tensor retains much more information:
 - tracing the Ricci tensor cancels the `phi-alpha`, `phi-k`, shape-connection,
   and many connection-connection responses.
 
+After exact connection-gauge reduction, the four chart amplitudes `S10,S11,
+S20,S21` contribute through the two curvature channels `F1,F2`.  The reduced
+six-node chart-family graph `{phi,sigma,alpha,k,F1,F2}` has 19 edges including
+self-edges and remains connected.  `phi` has no direct `F1` or `F2` edge;
+`sigma`, `alpha`, and `k` supply the bridge.  The exact edge list is
+`GAUGE_REDUCED_RICCI_GRAPH.tsv`.
+
 The second-jet channels separate cleanly:
 
 ```text
@@ -145,9 +151,9 @@ difference calculation reconstructed all 2,560 Ricci-Hessian entries and all
 
 ## What is and is not derived
 
-The metric supplies a genuine coupling grammar in this domain: volume, angular shape,
-connection curvature, causal depth, boundary geometry, and the full curvature
-tensor can coexist and respond jointly on one domain.  The tensor response is
+The metric supplies a genuine coupling grammar in this domain: volume,
+angular shape, connection curvature, causal depth, boundary geometry, and
+Ricci curvature can coexist and respond jointly on one domain.  The tensor response is
 an orchestra in a precise limited sense: its chosen-chart instrument-family
 graph is connected even though its scalar trace sounds like several isolated
 sections.  Connectivity of this component graph is not itself asserted as a

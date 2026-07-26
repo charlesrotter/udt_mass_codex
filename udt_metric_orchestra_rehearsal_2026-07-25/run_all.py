@@ -17,6 +17,7 @@ PINNED = "/tmp/udt_bootstrap_response_sympy_114_target"
 STAGES = (
     ("production", "derive_orchestra_rehearsal.py"),
     ("independent", "verify_orchestra_independent.py"),
+    ("diffgeom", "verify_orchestra_diffgeom.py"),
     ("audit", "verify_orchestra_audit.py"),
 )
 

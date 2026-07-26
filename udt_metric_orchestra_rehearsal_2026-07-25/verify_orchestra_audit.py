@@ -107,7 +107,7 @@ def main() -> None:
             and {row["output_id"] for row in outputs} == {f"O{i:02d}" for i in range(1, 17)}, checks)
     require("V03_direct_matrix_complete", len(direct) == 16
             and all(set(row) == {"output_id", *FIELDS} for row in direct), checks)
-    require("V04_algebra_checks", algebra["check_count"] == 22
+    require("V04_algebra_checks", algebra["check_count"] == 25
             and set(algebra["checks"].values()) == {"PASS"}, checks)
     counts = algebra["counts"]
     require("V05_scalar_rate_census", len(scalar_rate) == counts["curvature_nonzero_upper_triangle_couplings"] == 16, checks)
@@ -123,6 +123,21 @@ def main() -> None:
             not (graph["phi"] & {"S10", "S11", "S20", "S21"}), checks)
     require("V11_angular_bridge_reaches_all_S",
             all(graph[s] & {"sigma", "alpha", "k"} for s in ("S10", "S11", "S20", "S21")), checks)
+    gauge_rows = rows("GAUGE_REDUCED_RICCI_GRAPH.tsv")
+    gauge_graph = {node: set() for node in ("phi", "sigma", "alpha", "k", "F1", "F2")}
+    for row in gauge_rows:
+        gauge_graph[row["left_node"]].add(row["right_node"])
+        gauge_graph[row["right_node"]].add(row["left_node"])
+    gauge_seen, gauge_queue = set(), deque(["phi"])
+    while gauge_queue:
+        node = gauge_queue.popleft()
+        if node not in gauge_seen:
+            gauge_seen.add(node)
+            gauge_queue.extend(gauge_graph[node] - gauge_seen)
+    require("V11a_gauge_reduced_six_node_graph_connected",
+            gauge_seen == set(gauge_graph) and algebra["counts"]["gauge_reduced_Ricci_nodes"] == 6, checks)
+    require("V11b_gauge_reduced_phi_F_edge_absent",
+            not (gauge_graph["phi"] & {"F1", "F2"}), checks)
     require("V12_instrument_ledger_coverage", len(ledger) == 8
             and tuple(row["instrument"] for row in ledger) == FIELDS, checks)
     require("V13_only_phi_founded", [row["instrument"] for row in ledger
@@ -149,6 +164,12 @@ def main() -> None:
         path = HERE.parent / row["path"]
         source_ok &= path.is_file() and hashlib.sha256(path.read_bytes()).hexdigest() == row["sha256"]
     require("V18_source_integrity", source_ok, checks)
+    require("V18a_adversarial_preruling_frozen",
+            hashlib.sha256((HERE / "ADVERSARIAL_PRERULING.md").read_bytes()).hexdigest()
+            == "36a02a336120397f4092c1199ca53e59c2de9795ea5ac78b1b14595152ea6a49", checks)
+    require("V18b_adversarial_scratch_frozen",
+            hashlib.sha256((HERE / "ADVERSARIAL_DIFFGEOM_SCRATCH.py").read_bytes()).hexdigest()
+            == "ce417c0e73ec4c671bea7b14d4cc5aafff0b01b9c3e2f4e431ba907016850440", checks)
 
     base_state: dict[str, object] = {
         "instrument_count": 8,
