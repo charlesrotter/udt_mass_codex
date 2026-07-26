@@ -1,0 +1,21 @@
+{
+  "cpu_only": true,
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "runs": {
+    "independent": {
+      "command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 udt_observer_pair_triangle_consistency_audit_2026-07-26/verify_triangle_independent.py",
+      "exit_code": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "208ca8d2c0cea6b2ffdda36e35fcdff1d4cafb1ee10cb42bdae22784e54f2e2d"
+    },
+    "production": {
+      "command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 udt_observer_pair_triangle_consistency_audit_2026-07-26/derive_triangle_consistency.py",
+      "exit_code": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "eb50fb524bf13d4ab6b84796558b617cbb4d5ca1250efd82a755e9688396256f"
+    }
+  },
+  "schema": "udt-observer-pair-triangle-run-environment-1.0",
+  "sympy": "1.13.1"
+}

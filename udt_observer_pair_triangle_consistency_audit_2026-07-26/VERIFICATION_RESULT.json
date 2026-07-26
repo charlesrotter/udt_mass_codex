@@ -1,0 +1,28 @@
+{
+  "catch_count": 15,
+  "catch_proofs": {
+    "duplicate_route": "PASS",
+    "exception_removed": "PASS",
+    "fixed_observer_promoted": "PASS",
+    "global_promoted": "PASS",
+    "groupoid_selects": "PASS",
+    "independent_check": "PASS",
+    "lambda_unconditional": "PASS",
+    "loop_as_inconsistency": "PASS",
+    "middle_transition_cancelled": "PASS",
+    "missing_route": "PASS",
+    "missing_stratum": "PASS",
+    "physics_imported": "PASS",
+    "production_check": "PASS",
+    "scalar_selects": "PASS",
+    "source_identity": "PASS"
+  },
+  "grade": "VERIFIED_WITH_CAVEATS",
+  "independent_checks": 17,
+  "production_checks": 32,
+  "result": "PASS",
+  "routes": 8,
+  "schema": "udt-observer-pair-triangle-verification-1.0",
+  "source_identities": 17,
+  "strata": 16
+}

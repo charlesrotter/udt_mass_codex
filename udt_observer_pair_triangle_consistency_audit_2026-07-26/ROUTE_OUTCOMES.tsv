@@ -1,0 +1,9 @@
+route_id	outcome	status	decisive_reason	remaining_open
+R01	ABSTRACT_ADDITIVE_PAIR_COCYCLE	DERIVED	P(phi_C-phi_B)P(phi_B-phi_A)=P(phi_C-phi_A)	physical endpoint/path assignment
+R02	LAMBDA_ONE_ONLY_FOR_UNIVERSAL_GENERIC_COMMON_FRAME_PATH_INDEPENDENCE	UNIQUE_CONDITIONAL	commutator=(q-q^lambda)(r-r^lambda)[P_n,P_m]	whether flat common-frame path independence is a UDT premise
+R03	EXACT_TYPED_ENDPOINT_GROUPOID_FOR_EVERY_LAMBDA	DERIVED_GIVEN_ONE_COFRAME_PER_ENDPOINT	F_B^-1 F_B cancels and additive characters compose	derivation of the endpoint coframe section
+R04	EXPLICIT_MIDDLE_TRANSITION_REQUIRED	OPEN_SECTION_OR_CONNECTION	pair-dependent frames leave F_(B|C)^-1 F_(B|A)	whether metric supplies transition or transport
+R05	NONIDENTITY_LOCAL_LOOP_IS_INCONCLUSIVE	OPEN_HOLONOMY	curved/path-transported geometry may carry nontrivial holonomy	selected connection path and complete branch
+R06	LAMBDA_ONE_IS_FIXED_OBSERVER_ONLY	OBSTRUCTION_TO_FULL_PROMOTION	noncollinear timelike projectors yield noncommuting clock-democratic maps	full arbitrary-observer composition law
+R07	LOCAL_TRIANGLE_ALGEBRA_DOES_NOT_DERIVE_GLOBAL_DESCENT	OPEN_GLOBAL	cover seams cut loci and complete branches remain unsupplied	complete finite-cell realization
+R08	SCALAR_ANCHORS_DO_NOT_SELECT_FRAME_OR_CONNECTION	NO_TYPED_SELECTOR	c_E G_obs and provisional hbar have directional rank zero	native placement of dimensional anchors

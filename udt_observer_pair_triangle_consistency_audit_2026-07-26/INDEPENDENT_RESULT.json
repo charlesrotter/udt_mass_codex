@@ -1,0 +1,25 @@
+{
+  "check_count": 17,
+  "checks": {
+    "independent_changing_observer_maps_noncommute": "PASS",
+    "independent_endpoint_groupoid_lambda_two": "PASS",
+    "independent_endpoint_reversal_lambda_two": "PASS",
+    "independent_finite_factorization_lambda_zero": "PASS",
+    "independent_generic_loop_nonidentity": "PASS",
+    "independent_generic_projectors_noncommute": "PASS",
+    "independent_lambda_one_direction_independent": "PASS",
+    "independent_lambda_one_loop_identity": "PASS",
+    "independent_lambda_one_spatially_isotropic": "PASS",
+    "independent_lambda_zero_direction_sensitive": "PASS",
+    "independent_observer_projectors_noncommute": "PASS",
+    "independent_orthogonal_commutes": "PASS",
+    "independent_pair_frame_mismatch_nonidentity": "PASS",
+    "independent_parallel_commutes": "PASS",
+    "independent_same_observer_maps_commute": "PASS",
+    "independent_transition_not_deleted": "PASS",
+    "independent_zero_depth_identity": "PASS"
+  },
+  "implementation": "python_stdlib_fraction_no_sympy_no_production_import",
+  "result": "PASS",
+  "schema": "udt-observer-pair-triangle-independent-1.0"
+}
