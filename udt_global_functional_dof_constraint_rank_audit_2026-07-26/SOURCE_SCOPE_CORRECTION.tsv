@@ -1,0 +1,5 @@
+source_id	path	role
+CX01	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/AUDIT_REPORT.md	controlling founded-phi identity and active-result impact
+CX02	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/EXTENSION_CLASS_LEDGER.tsv	exact complete-coframe extension class
+CX03	udt_common_scale_neutrality_provenance_audit_2026-07-24/AUDIT_REPORT.md	controlling CSN provenance and physical-metric branch
+CX04	udt_common_scale_neutrality_provenance_audit_2026-07-24/STATUS_LEDGER.tsv	current CSN action and scale status

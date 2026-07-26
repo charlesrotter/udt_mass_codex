@@ -5,9 +5,39 @@
 > **READ `LIVE.md` FIRST** — only guaranteed-current frontier + next action.
 > If this file disagrees with LIVE.md, **LIVE.md wins.**
 >
-> **⚠ BRANCH: work is on `grok` (2026-07-25).** If not on it: `git checkout grok`. `main` is stale for this arc.
+> **⚠ BRANCH: work is on `grok` (2026-07-26).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-25 — global-local relational closure)
+## CURRENT (2026-07-26 — foundational semantic correction over global-local frontier)
+
+After `LIVE.md`, read `CURRENT_SCIENTIFIC_PREMISES.md` and
+`CURRENT_SCIENTIFIC_PREMISES.tsv`, then
+`udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md`. The registry is
+an operational source-precedence index, not canon. If it, `LIVE.md`, and its cited source disagree,
+stop rather than choosing a convenient older result.
+
+Correction ruling:
+
+- founded `phi` is the `DERIVED` additive logarithmic depth of the reciprocal clock/ruler pair and
+  acts as `diag(exp(-phi),exp(phi))`;
+- physical observer/path assignment, realized profile, unique complete 4D angular/mixing extension,
+  variation, dynamics, boundary, and global completion remain `OPEN`;
+- independently varied scalar atlases are `CHOSE_COMPARISON_CONFIGURATION`, not native field
+  ownership;
+- `F4[6]` is the generic four-dimensional metric configuration arena, not a selected UDT field
+  count or propagating-mode count; the native reduced rank remains `OPEN`;
+- strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` and inactive unless Charles
+  explicitly reauthorizes it; common-factor cancellation is algebra only, and measured `c_E` and
+  `G_obs` remain observational anchors;
+- carrier, action, bootstrap, Maxwell-like, `X_max`, Hopfion, source, boundary, and mass statuses are
+  guarded exactly in the registry and have not been promoted.
+
+The generic rank algebra and no-double-count conclusions of `b4d16fb` survive. Its native
+six-versus-seven interpretation does not. The correct first gate is selection of the complete
+founded coframe extension and variation domain; response/action/source/boundary work is downstream.
+No new derivation, density solve, carrier adoption, GPU work, canonization, or reorganization is
+authorized by this correction.
+
+### Parent current architecture (2026-07-25)
 
 Read `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` top/current overlay, then
 `udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md` and its
@@ -49,15 +79,12 @@ frozen packages, current navigation, frontier targets, and the original dirty ch
 metadata-only paths unchanged. Grade `VERIFIED-WITH-CAVEATS`; no fresh external-model semantic
 review was used.
 
-Next bounded seam:
-
-> Audit post-July candidates for the complete native off-shell global-local response interface.
-> If none survives, derive the bootstrap-to-local response map.
-
-Require a complete variation domain, trace-free angular response, same-solution
-mass-volume-density dependence, and differentiable finite-cell boundary/global variation. Do not
-substitute a density sweep, action ansatz, carrier adoption, or GPU solve. Do not launch
-matter/time-live work, canonize, or reorganize.
+Historical next seam from that parent package: the post-July response census and bootstrap-map work
+was subsequently performed and remains scoped evidence; it did not close the response. The current
+source-precedence correction moves the dependency gate earlier: first select the complete founded
+coframe extension and variation domain. Do not substitute a generic metric count, independent
+scalar, strong local CSN, density sweep, action ansatz, carrier adoption, or GPU solve. Do not
+launch matter/time-live work, canonize, or reorganize.
 
 Historical `phi`-equation guard: read
 `udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md` when a scalar equation,

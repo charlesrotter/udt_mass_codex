@@ -80,16 +80,20 @@ def validate(tables: dict[str, object], require_independent: bool = True) -> Non
     require(p["P01"]["quotient_signature"] == "F4[6]", "primary metric count must be F4[6]")
     require(p["P02"]["quotient_signature"] == "F4[6]", "coframe cross-check must be F4[6]")
     require(p["P03"]["raw_signature"].endswith("=F4[10]"), "2+2 chart must total ten")
-    require(p["P04"]["quotient_signature"] == "F4[7]", "independent phi total")
-    require(p["P05"]["quotient_signature"] == "F4[6]", "derived phi total")
-    require(p["P06"]["status"] == "CONDITIONAL_SENSITIVITY_ONLY", "local CSN must remain conditional")
+    require(p["P04"]["quotient_signature"] == "F4[7]", "chosen independent scalar comparison total")
+    require(p["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "comparison scalar promoted to native")
+    require(p["P05"]["quotient_signature"] == "F4[6]_GENERIC_ARENA__UDT_REDUCED_RANK_OPEN", "founded phi/native-rank distinction")
+    require(p["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "founded phi demoted")
+    require(p["P06"]["status"] == "INACTIVE_COUNTERFACTUAL_REQUIRES_EXPLICIT_REAUTHORIZATION", "local CSN activated")
     require(p["P08"]["quotient_signature"] == "F4[10]", "supplied projector count")
     require("not the generic metric" in p["P09"]["scope"], "FC12 generic promotion")
 
     require(k["K03"]["audited_rank_effect"] == "ZERO", "regularity cannot have equation rank")
-    require("ZERO_SPACETIME_RANK" in k["K04"]["audited_rank_effect"], "reciprocity solder missing")
-    require(k["K05"]["audited_rank_effect"] == "ZERO_POINTWISE_FIELD_RANK", "character is not field equation")
-    require(k["K07"]["rank_status"] == "CHALLENGED_OPEN", "CSN status")
+    require(k["K04"]["rank_status"] == "DERIVED_FOUNDED_PAIR", "founded pair demoted")
+    require(k["K04"]["audited_rank_effect"] == "ONE_INTERNAL_CHANNEL_RELATION__ZERO_EXTRA_PHI_FIELD", "founded pair field-count promotion")
+    require(k["K05"]["rank_status"] == "DERIVED_FOUNDED_ACTION", "founded exponential action demoted")
+    require(k["K07"]["rank_status"] == "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED", "CSN status")
+    require(k["K07"]["audited_rank_effect"] == "INACTIVE_NO_RANK_SUBTRACTION", "CSN rank subtraction")
     for kid in ["K09", "K13", "K14", "K15"]:
         require("ZERO" in k[kid]["audited_rank_effect"], f"{kid} local rank")
     require(k["K10"]["audited_rank_effect"].startswith("F3[1]"), "seal trace must be boundary typed")
@@ -112,12 +116,16 @@ def validate(tables: dict[str, object], require_independent: bool = True) -> Non
             require(row["closure_status"] == "CONDITIONAL_CONTROL_NOT_GENERIC", "FC12 status")
 
     require(len(r) == 10, "response coverage rows")
-    require(r["R01"]["current_response_status"] == "ABSENT_COMPLETE_NATIVE_RESPONSE", "metric response")
-    require(s["S13"]["status"] == "COMPLETE_RESPONSE_INTERFACE_PLUS_GLOBAL_BOUNDARY_DATA", "closure type")
+    require(r["R01"]["current_response_status"] == "OPEN_NOT_SELECTED", "complete extension gate")
+    require(s["S03"]["status"] == "CHOSE_COMPARISON_F4_7_TOTAL", "comparison scalar status")
+    require(s["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "founded phi status")
+    require(s["S13"]["status"] == "FOUNDED_COMPLETE_EXTENSION_AND_VARIATION_DOMAIN_THEN_RESPONSE_AND_GLOBAL_BOUNDARY", "closure order")
     require(s["S14"]["status"] == "NOT_EVALUABLE", "physical mode promotion")
     require(result["propagating_modes"] == "NOT_EVALUABLE", "result physical mode promotion")
     require("total_dof" not in result, "unlike rank types collapsed")
-    require(result["status"] == "REGISTERED_CONFIGURATION_FREEDOM_AND_CONSTRAINT_RANK_CHARACTERIZED", "global solution promotion")
+    require(result["status"] == "CORRECTED_GENERIC_ARENA_RANK_CHARACTERIZED__NATIVE_FOUNDED_EXTENSION_RANK_OPEN", "global solution promotion")
+    require(result["founded_phi_additional_native_field_count"] == 0, "founded phi double counted")
+    require(result["native_founded_complete_extension_rank"] == "OPEN", "native rank invented")
 
     for row in tables["constraints"]:
         require(row["domain"] and row["registered_status"] and row["audited_rank_effect"], "incomplete constraint row")
@@ -134,12 +142,13 @@ def validate(tables: dict[str, object], require_independent: bool = True) -> Non
 
 def source_checks() -> int:
     count = 0
-    for row in read_tsv(HERE / "SOURCE_MANIFEST.tsv"):
-        path = ROOT / row["path"]
-        require(path.is_file(), f"missing source {row['path']}")
-        require(str(path.stat().st_size) == row["bytes"], f"source size {row['path']}")
-        require(sha256(path) == row["sha256"], f"source hash {row['path']}")
-        count += 1
+    for manifest in ("SOURCE_MANIFEST.tsv", "SOURCE_MANIFEST_CORRECTION.tsv"):
+        for row in read_tsv(HERE / manifest):
+            path = ROOT / row["path"]
+            require(path.is_file(), f"missing source {row['path']}")
+            require(str(path.stat().st_size) == row["bytes"], f"source size {row['path']}")
+            require(sha256(path) == row["sha256"], f"source hash {row['path']}")
+            count += 1
     return count
 
 
@@ -158,7 +167,7 @@ def main() -> None:
     add("X03", "reciprocity promoted to spacetime equation", lambda t: keyed(t["constraints"], "id")["K04"].update(audited_rank_effect="F4[1]_SPACETIME"))
     add("X04", "regularity counted as equality", lambda t: keyed(t["constraints"], "id")["K03"].update(audited_rank_effect="F4[1]"))
     add("X05", "finite-cell ontology counted locally", lambda t: keyed(t["constraints"], "id")["K09"].update(audited_rank_effect="F4[1]"))
-    add("X06", "seal trace removes bulk phi", lambda t: keyed(t["presentations"], "id")["P04"].update(quotient_signature="F4[6]"))
+    add("X06", "seal trace changes chosen comparison count", lambda t: keyed(t["presentations"], "id")["P04"].update(quotient_signature="F4[6]"))
     add("X07", "derived curvature double counted", lambda t: keyed(t["derived"], "id")["D03"].update(additional_continuous_field_signature="F4[20]"))
     add("X08", "dF identity counted dynamically", lambda t: keyed(t["constraints"], "id")["K17"].update(audited_rank_effect="F4[4]"))
     add("X09", "Maxwell field imported", lambda t: keyed(t["derived"], "id")["D11"].update(additional_continuous_field_signature="F4[1]"))
@@ -171,6 +180,10 @@ def main() -> None:
     add("X16", "same code labeled independent", lambda t: None)
     add("X17", "completion preferred", lambda t: keyed(t["completions"], "completion_id")["FC04_TWO_CAP_P1"].update(selected="YES"))
     add("X18", "local rank promoted to global solution count", lambda t: t["result"].update(status="COMPLETE_SOLUTION_COUNT"))
+    add("X19", "chosen independent scalar promoted to native field", lambda t: keyed(t["presentations"], "id")["P04"].update(status="NATIVE_FIELD"))
+    add("X20", "founded phi demoted to conditional readout", lambda t: keyed(t["presentations"], "id")["P05"].update(status="CONDITIONAL_DERIVATION_MAP_OPEN"))
+    add("X21", "strong local CSN activated", lambda t: keyed(t["presentations"], "id")["P06"].update(status="ACTIVE_GAUGE"))
+    add("X22", "native UDT rank invented from generic arena", lambda t: t["result"].update(native_founded_complete_extension_rank="F4[6]"))
 
     catch_rows = []
     for cid, description, mutate in catches:
@@ -194,7 +207,7 @@ def main() -> None:
     result = {
         "status": "PASS",
         "source_hashes": source_count,
-        "production_checks": 35,
+        "production_checks": 45,
         "catch_proofs": len(catch_rows),
         "branches": len(tables["branches"]),
         "completions": len(tables["completions"]),

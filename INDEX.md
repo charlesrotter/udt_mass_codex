@@ -1,7 +1,20 @@
-# INDEX — Repo Map (2026-07-25 lean)
+# INDEX — Repo Map (2026-07-26 lean)
 
-**⚠ BRANCH: `grok` (2026-07-25)** — `main` is stale for this arc; `git checkout grok`.
+**⚠ BRANCH: `grok` (2026-07-26)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
+
+**➤ CURRENT FOUNDATIONAL PREMISE PRECEDENCE:**
+`CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`, followed by
+`udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md`.
+
+Founded `phi` is the derived additive logarithmic depth of the reciprocal clock/ruler pair, not an
+extra independent native scalar. Independent-scalar atlases are chosen comparison controls.
+`F4[6]` is the generic four-dimensional metric arena, not a selected UDT field or mode count; the
+complete founded angular/mixing extension and native reduced rank remain open. Strong local CSN is
+challenged/not-derived and inactive without explicit owner reauthorization; measured `c_E` and
+`G_obs` remain observational anchors. The registry also guards the current carrier, action,
+bootstrap, Maxwell-like, `X_max`, Hopfion, source, boundary, and mass scopes. Conflict means stop;
+older files do not override the registry's cited controlling evidence.
 
 **➤ CURRENT SCIENTIFIC FRONTIER:**
 `udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md`, then its
@@ -17,10 +30,12 @@ obstructed, without ruling out a global nonlinear shared-solution join. Topology
 matter. An action can be downstream only of a first-derived complete off-shell response that
 passes local Helmholtz, gauge, finite-cell boundary/corner, and global-period gates.
 
-The smallest missing native object is that metric-native off-shell global-local response one-form.
-Next: audit post-July candidates for it; if none survives, derive the bootstrap-to-local response
-map. No density sweep, action guess, carrier adoption, matter/time-live/GPU work, canonization, or
-reorganization is authorized.
+The response census and bootstrap-map work subsequently confirmed that the complete interface is
+still absent. The source-precedence correction identifies an earlier configuration gate: select the
+complete founded coframe extension and variation domain before assigning native response rank.
+This is a candidate next scientific question, not automatic authorization. No density sweep,
+action guess, carrier adoption, matter/time-live/GPU work, canonization, or reorganization is
+authorized.
 
 **➤ PARENT JULY 24 BOOTSTRAP FRONTIER:**
 `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`. Its exact conditional

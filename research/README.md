@@ -1,6 +1,15 @@
 # Research lane navigation overlay
 
-This directory is an additions-only navigation layer. It points to artifacts at their existing repository paths; it contains no copied research artifact and creates no new scientific authority. [`LIVE.md`](../LIVE.md) remains the current-frontier authority, followed by [`HANDOFF.md`](../HANDOFF.md). Claim labels below are reproduced from those current records and the accepted final native-action ledger.
+This directory is an additions-only navigation layer. It points to artifacts at their existing repository paths; it contains no copied research artifact and creates no new scientific authority. [`LIVE.md`](../LIVE.md) remains the current-frontier authority, followed by [`HANDOFF.md`](../HANDOFF.md) and the [current scientific premise index](../CURRENT_SCIENTIFIC_PREMISES.md) with its [machine-readable registry](../CURRENT_SCIENTIFIC_PREMISES.tsv). Claim labels below are reproduced from those current records and the accepted final native-action ledger. A conflict between those controls and a cited source is a stop, not permission to select a convenient older atlas.
+
+## Current foundational correction — July 26
+
+Founded `phi` is the derived additive logarithmic depth of the reciprocal clock/ruler pair; an
+independently varied scalar is a chosen comparison configuration. The generic `F4[6]` metric
+quotient is an arena count, not a selected native UDT field or mode count. The complete founded
+angular/mixing extension and variation domain remain open. Strong local CSN is challenged/not
+derived and inactive unless Charles explicitly reauthorizes it; `c_E` and `G_obs` remain observed
+anchors. See the [DOF correction layer](../udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md).
 
 ## Current scientific spine — July 25
 
@@ -22,9 +31,11 @@ a global nonlinear shared-solution join. Topology alone is not matter.
 
 An action can be downstream only after UDT derives a complete off-shell global-local response and
 that response passes local Helmholtz, gauge, finite-cell boundary/corner, and global-period gates.
-Next perform only the bounded post-July response-availability audit in the linked `NEXT_STEP.md`.
-If no candidate survives, derive the bootstrap-to-local response map. A density sweep, action
-ansatz, carrier adoption, and GPU work remain unauthorized.
+The later response census and bootstrap-map work did not close it. The corrected dependency order
+first requires a complete founded coframe extension and variation domain. This is a candidate
+scientific gate, not automatic authorization. A generic metric count, independent scalar, strong
+local CSN, density sweep, action ansatz, carrier adoption, and GPU work remain unauthorized
+substitutes.
 
 Parent evidence: the
 [bootstrap-aware clock/angular closure audit](../udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md)
@@ -90,8 +101,9 @@ The complete frozen root universe has 1,114 paths. Each has exactly one fixed-ba
   `DERIVED_ALGEBRAIC`.
 - Complete transverse deviation-state path cocycle: `DERIVED_GIVEN_METRIC_PATH`; projected
   vertex Jacobi map as standalone cocycle: `REJECTED_GENERICALLY`; same-path clock/transverse
-  direct sum: `DERIVED_REDUCIBLE_GIVEN_COMMON_PATH_DATA`; founding-depth solder and irreducible
-  universal realization: `CONDITIONAL` / `OPEN`.
+  direct sum: `DERIVED_REDUCIBLE_GIVEN_COMMON_PATH_DATA`; physical
+  observer/path-to-founded-depth assignment and irreducible universal realization:
+  `CONDITIONAL` / `OPEN`.
 - Oriented normal/screen area Hodge duality: `DERIVED_GIVEN_TYPED_2PLUS2_SPLIT` but
   `FALSE_TYPE` as clock/Jacobi solder; parallel tidal-line and pointwise generator-match
   conditions: `DERIVED_IFF` / `UNIQUE_CONDITION_CHARACTERIZED`; intrinsic irreducible solder:

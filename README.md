@@ -3,7 +3,10 @@
 This root is the control and navigation surface for the UDT research record.
 After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
+[`CURRENT_SCIENTIFIC_PREMISES.md`](CURRENT_SCIENTIFIC_PREMISES.md) and its
+[`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
 [`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md) →
+the [foundational semantic correction](udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md) →
 the [current global-local relational-closure audit](udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md) →
 exact evidence named by those files only when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
@@ -11,9 +14,19 @@ method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/c
 supplies operational instructions and binding research discipline, but it
 cannot overrule the topmost current-state block in `LIVE.md`.
 
-The latest bounded scientific result is the
+The current premise registry prevents older comparison atlases from silently becoming present UDT
+ontology. Founded `phi` is the derived additive log depth of the reciprocal pair; an independently
+varied scalar remains a chosen comparison control. The generic `F4[6]` metric quotient is an arena
+count, not the native UDT field or mode count. Strong local CSN is challenged/not-derived and
+inactive without explicit owner reauthorization; `c_E` and `G_obs` remain observational anchors.
+If the registry, `LIVE.md`, and a cited source disagree, stop.
+
+The latest repository result is the
+[foundational semantic-regression correction](udt_foundational_semantic_regression_correction_2026-07-26/AUDIT_REPORT.md).
+It adds no physics; it corrects source precedence and guards the current meanings of 16 high-risk
+terms. The parent bounded scientific architecture remains the
 [global-local relational-closure audit](udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md).
-It finds a coherent architecture, not a derived matter closure: reciprocal depth can weight
+That audit finds a coherent architecture, not a derived matter closure: reciprocal depth can weight
 compact angular phases but cannot wind itself; with supplied phases, periods, full range, and
 opposite primitive caps, the exact reciprocal weights give the conditional `S3`/unit-Hopf
 prototype. UDT has not selected those physical angular slots or their completion. Topology alone
@@ -21,10 +34,11 @@ is not matter, and the present clock/transverse assembly remains reducible.
 
 An action could be downstream only of a first-derived complete off-shell global-local response
 that passes local Helmholtz, gauge, finite-cell boundary/corner, and global-period tests. The
-[next bounded work](udt_global_local_relational_closure_audit_2026-07-25/NEXT_STEP.md) is the
-post-July availability audit for exactly that response interface. If none survives, derive the
-bootstrap-to-local response map. Do not substitute a density sweep, action ansatz, carrier
-adoption, or GPU solve.
+response census and bootstrap-map work did not close that interface. The corrected dependency
+order first requires a complete four-dimensional founded coframe extension and variation domain.
+This is a candidate next scientific gate, not automatic authorization. Do not substitute a generic
+metric count, independent scalar, strong local CSN, density sweep, action ansatz, carrier adoption,
+or GPU solve.
 
 The parent
 [bootstrap-aware clock/angular closure audit](udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md)

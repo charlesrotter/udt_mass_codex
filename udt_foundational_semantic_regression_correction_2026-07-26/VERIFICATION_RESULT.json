@@ -1,0 +1,12 @@
+{
+  "base_source_hashes": 20,
+  "candidate_paths": 754,
+  "catch_proofs": 28,
+  "original_dof_hashes": 18,
+  "premise_guards": 16,
+  "preserved_historical_dof_records": 17,
+  "preserved_prereg_inputs": 8,
+  "startup_controls": 9,
+  "status": "PASS",
+  "supersessions": 6
+}

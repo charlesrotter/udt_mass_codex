@@ -1,5 +1,5 @@
 {
-  "checks": 44,
+  "checks": 52,
   "details": [
     {
       "check": "source_S01",
@@ -127,6 +127,26 @@
       "pass": true
     },
     {
+      "check": "source_CX01",
+      "detail": "udt_founded_phi_complete_coframe_extension_audit_2026-07-25/AUDIT_REPORT.md",
+      "pass": true
+    },
+    {
+      "check": "source_CX02",
+      "detail": "udt_founded_phi_complete_coframe_extension_audit_2026-07-25/EXTENSION_CLASS_LEDGER.tsv",
+      "pass": true
+    },
+    {
+      "check": "source_CX03",
+      "detail": "udt_common_scale_neutrality_provenance_audit_2026-07-24/AUDIT_REPORT.md",
+      "pass": true
+    },
+    {
+      "check": "source_CX04",
+      "detail": "udt_common_scale_neutrality_provenance_audit_2026-07-24/STATUS_LEDGER.tsv",
+      "pass": true
+    },
+    {
       "check": "symmetric_metric_nullity",
       "detail": "10",
       "pass": true
@@ -152,12 +172,12 @@
       "pass": true
     },
     {
-      "check": "independent_phi_total",
+      "check": "chosen_comparison_scalar_total",
       "detail": "7",
       "pass": true
     },
     {
-      "check": "conditional_local_csn_metric",
+      "check": "counterfactual_local_csn_arithmetic",
       "detail": "5",
       "pass": true
     },
@@ -177,8 +197,23 @@
       "pass": true
     },
     {
-      "check": "presentation_phi",
+      "check": "comparison_scalar_count",
       "detail": "F4[7]",
+      "pass": true
+    },
+    {
+      "check": "comparison_scalar_scope",
+      "detail": "CHOSE_COMPARISON_CONFIGURATION",
+      "pass": true
+    },
+    {
+      "check": "founded_phi_scope",
+      "detail": "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN",
+      "pass": true
+    },
+    {
+      "check": "csn_inactive",
+      "detail": "INACTIVE_COUNTERFACTUAL_REQUIRES_EXPLICIT_REAUTHORIZATION",
       "pass": true
     },
     {
@@ -218,16 +253,21 @@
     },
     {
       "check": "closure_type",
-      "detail": "COMPLETE_RESPONSE_INTERFACE_PLUS_GLOBAL_BOUNDARY_DATA",
+      "detail": "FOUNDED_COMPLETE_EXTENSION_AND_VARIATION_DOMAIN_THEN_RESPONSE_AND_GLOBAL_BOUNDARY",
+      "pass": true
+    },
+    {
+      "check": "native_rank_open",
+      "detail": "CORRECTED_GENERIC_ARENA_RANK_CHARACTERIZED__NATIVE_FOUNDED_EXTENSION_RANK_OPEN",
       "pass": true
     }
   ],
   "failed": [],
   "implementation": "independent_fraction_linear_constraints_no_production_import",
   "reconstructed": {
+    "chosen_comparison_scalar_total": 7,
     "coframe_quotient": 6,
-    "conditional_local_csn_metric": 5,
-    "independent_phi_total": 7,
+    "counterfactual_local_csn_arithmetic": 5,
     "local_lorentz": 6,
     "metric_quotient": 6,
     "rank_two_projector": 4,

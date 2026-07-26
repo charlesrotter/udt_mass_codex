@@ -67,10 +67,11 @@ def exact_dimensions() -> dict[str, int]:
 
 
 def verify_frozen_sources() -> None:
-    for row in read_tsv(HERE / "SOURCE_MANIFEST.tsv"):
-        path = ROOT / row["path"]
-        if not path.is_file() or str(path.stat().st_size) != row["bytes"] or sha256(path) != row["sha256"]:
-            raise SystemExit(f"source manifest mismatch: {row['path']}")
+    for manifest in ("SOURCE_MANIFEST.tsv", "SOURCE_MANIFEST_CORRECTION.tsv"):
+        for row in read_tsv(HERE / manifest):
+            path = ROOT / row["path"]
+            if not path.is_file() or str(path.stat().st_size) != row["bytes"] or sha256(path) != row["sha256"]:
+                raise SystemExit(f"source manifest mismatch: {row['path']}")
 
 
 def main() -> None:
@@ -118,39 +119,39 @@ def main() -> None:
         },
         {
             "id": "P04",
-            "presentation": "metric_plus_independent_phi",
+            "presentation": "generic_metric_plus_chosen_independent_scalar_control",
             "raw_signature": "F4[11]",
             "gauge_signature": "G4[4]_DIFFEOMORPHISM_PRESENTATION",
             "quotient_signature": "F4[7]",
-            "status": "EXACT_ON_INDEPENDENT_PHI_BRANCH",
-            "scope": "scalar equation and metric-phi response remain absent",
+            "status": "CHOSE_COMPARISON_CONFIGURATION",
+            "scope": "exact enlarged-atlas count only; not native UDT field ownership",
         },
         {
             "id": "P05",
-            "presentation": "metric_plus_metric_derived_phi",
-            "raw_signature": "F4[10]+F4[0]_DERIVED_PHI",
+            "presentation": "generic_metric_arena_with_founded_reciprocal_phi_subgroup",
+            "raw_signature": "F4[10]+F4[0]_FOUNDED_PHI",
             "gauge_signature": "G4[4]_DIFFEOMORPHISM_PRESENTATION",
-            "quotient_signature": "F4[6]",
-            "status": "COUNT_EXACT__DERIVATION_MAP_OPEN",
-            "scope": "phi adds no field only if a covariant metric-derived readout is supplied",
+            "quotient_signature": "F4[6]_GENERIC_ARENA__UDT_REDUCED_RANK_OPEN",
+            "status": "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN",
+            "scope": "phi identity and pair action are derived; unique 4D extension and native reduced field rank remain open",
         },
         {
             "id": "P06",
-            "presentation": "conditional_local_conformal_metric_class",
+            "presentation": "counterfactual_local_conformal_metric_class",
             "raw_signature": "F4[10]",
             "gauge_signature": "G4[4]_DIFFEOMORPHISM+G4[1]_LOCAL_CSN",
             "quotient_signature": "F4[5]",
-            "status": "CONDITIONAL_SENSITIVITY_ONLY",
-            "scope": "strong local CSN is CHALLENGED_OPEN and not subtracted in the primary count",
+            "status": "INACTIVE_COUNTERFACTUAL_REQUIRES_EXPLICIT_REAUTHORIZATION",
+            "scope": "strong local CSN is CHALLENGED_OWNER_POSTULATE_NOT_DERIVED and cannot enter an active count",
         },
         {
             "id": "P07",
-            "presentation": "conditional_conformal_metric_plus_independent_phi",
+            "presentation": "counterfactual_conformal_metric_plus_chosen_scalar_control",
             "raw_signature": "F4[11]",
             "gauge_signature": "G4[4]_DIFFEOMORPHISM+G4[1]_LOCAL_CSN",
             "quotient_signature": "F4[6]",
-            "status": "CONDITIONAL_SENSITIVITY_ONLY",
-            "scope": "independent phi is not removed by common metric scale",
+            "status": "INACTIVE_COUNTERFACTUAL_PLUS_CHOSEN_COMPARISON",
+            "scope": "neither strong local CSN nor independent native phi is current authority",
         },
         {
             "id": "P08",
@@ -181,49 +182,58 @@ def main() -> None:
 
     branch_templates = {
         "C01": (
-            "F4[6]",
-            "F4[5]",
-            "phi_derived_adds_F4[0]",
-            "metric_to_phi_readout; representative handling; global smoothness",
+            "GENERIC_ARENA_F4[6]__NATIVE_RANK_OPEN",
+            "INACTIVE_COUNTERFACTUAL_F4[5]",
+            "founded_phi_adds_F4[0]__conformal_class_only_is_not_currently_selected",
+            "complete founded extension; physical representative; variation domain; global smoothness",
         ),
         "C02": (
-            "F4[7]",
-            "F4[6]",
-            "independent_phi_adds_F4[1]",
-            "metric-phi relation; scalar response; constraint propagation; boundary data",
+            "CHOSE_COMPARISON_F4[7]",
+            "INACTIVE_COUNTERFACTUAL_COMPARISON_F4[6]",
+            "chosen_independent_scalar_adds_F4[1]_only_in_enlarged_atlas",
+            "not a candidate native ownership branch; retain only as comparison control",
         ),
         "C03": (
-            "F4[6]+U[RECIPROCAL_REDUCTION_AND_SOLDERING]",
-            "F4[5]+U[RECIPROCAL_REDUCTION_AND_SOLDERING]",
-            "no_extra_phi_count_until_character_independence_is_specified",
-            "physical soldering; reduction field status; Lorentz quotient; global lift",
+            "GENERIC_ARENA_F4[6]+U[FOUNDED_COMPLETE_EXTENSION]",
+            "INACTIVE_COUNTERFACTUAL",
+            "founded_pair_generator_fixed__triangular_extension_has_7_then_6_parameters_under_det1",
+            "angular generator; mixing; Lorentz-independent descent; physical assignment; global lift",
         ),
         "C04": (
-            "F4[10]+U[PHI_WITHIN_PLANE_STATUS]",
-            "F4[9]+U[PHI_WITHIN_PLANE_STATUS]",
-            "supplied_nondegenerate_rank2_plane_adds_F4[4]; phi_adds_0_or_1_pending_relation",
-            "projector selection; phi relation; integrability; type change; transport authority",
+            "GENERIC_ARENA_F4[10]+U[FOUNDED_EXTENSION_THROUGH_SUPPLIED_PLANE]",
+            "INACTIVE_COUNTERFACTUAL_F4[9]+U[FOUNDED_EXTENSION_THROUGH_SUPPLIED_PLANE]",
+            "supplied_nondegenerate_rank2_plane_adds_F4[4]; founded_phi_adds_F4[0]",
+            "projector selection; founded extension through plane; integrability; type change; transport authority",
         ),
         "C05": (
             "F4[6]+U[MULTIPLIERS_AND_CONSTRAINT_RANK]",
-            "F4[5]+U[MULTIPLIERS_AND_CONSTRAINT_RANK]",
+            "INACTIVE_COUNTERFACTUAL_F4[5]+U[MULTIPLIERS_AND_CONSTRAINT_RANK]",
             "field_and_constraint_count_not_supplied",
             "multiplier census; independent constraint rank; unrestricted variation; boundary terms",
         ),
         "C06": (
             "F4[6]+U[TWO_STAGE_MAP]",
-            "F4[5]+U[REPRESENTATIVE_SECTION_AND_BRIDGE]",
+            "INACTIVE_COUNTERFACTUAL_F4[5]+U[REPRESENTATIVE_SECTION_AND_BRIDGE]",
             "pre_scale_and_post_scale_counts_cannot_be_collapsed",
             "native representative map; scale origin; bridge; boundary variation",
         ),
         "C07": (
             "F4[6]+U[CONNECTION_OR_TORSION_BUNDLE]",
-            "F4[5]+U[CONNECTION_OR_TORSION_BUNDLE]",
+            "INACTIVE_COUNTERFACTUAL_F4[5]+U[CONNECTION_OR_TORSION_BUNDLE]",
             "connection_type_and_relation_to_metric_not_supplied",
             "field census; transition law; metric compatibility; torsion; response; boundary data",
         ),
     }
     branch_rows = []
+    branch_roles = {
+        "C01": "HISTORICAL_CONFIGURATION_CONTROL__CONFORMAL_CLASS_NOT_SELECTED",
+        "C02": "CHOSE_COMPARISON_CONFIGURATION__NOT_NATIVE_OWNERSHIP",
+        "C03": "CURRENT_FOUNDED_EXTENSION_CLASS__SELECTION_OPEN",
+        "C04": "CONDITIONAL_DIAGNOSTIC_SUPPLIED_PROJECTOR",
+        "C05": "OPEN_PROPOSED_MULTIPLIER_IMPLEMENTATION",
+        "C06": "OPEN_PROPOSED_TWO_STAGE_IMPLEMENTATION",
+        "C07": "OPEN_PROPOSED_CONNECTION_IMPLEMENTATION",
+    }
     for source in source_branches:
         primary, conditional, addition, missing = branch_templates[source["branch_id"]]
         branch_rows.append(
@@ -233,7 +243,7 @@ def main() -> None:
                 "anchored_primary_signature": primary,
                 "conditional_strong_local_CSN_signature": conditional,
                 "branch_specific_addition": addition,
-                "exact_status": source["current_status"],
+                "exact_status": branch_roles[source["branch_id"]],
                 "missing_for_complete_rank": missing,
                 "selected": "NO",
             }
@@ -257,10 +267,10 @@ def main() -> None:
         "K01": ("G4[4]", "PRESENTATION_GAUGE_EXACT", "removes coordinate descriptions not geometry"),
         "K02": ("G4[6]", "PRESENTATION_GAUGE_EXACT", "removes coframe Lorentz presentations only"),
         "K03": ("ZERO", "OPEN_CONDITION", "signature/positivity selects an open stratum"),
-        "K04": ("ONE_INTERNAL_CHANNEL_RELATION__ZERO_SPACETIME_RANK", "EXACT_INTERNAL_ONLY", "one reciprocal character remains"),
-        "K05": ("ZERO_POINTWISE_FIELD_RANK", "EXACT_CHARACTER_FORM", "selects exponential law in abstract comparison argument"),
-        "K06": ("U[PAIR_OPERATOR_SOLDER]", "OPEN_SPACETIME_RANK", "frame equivalence supplies no complete metric slot map"),
-        "K07": ("CONDITIONAL_G4[1]", "CHALLENGED_OPEN", "sensitivity branch only"),
+        "K04": ("ONE_INTERNAL_CHANNEL_RELATION__ZERO_EXTRA_PHI_FIELD", "DERIVED_FOUNDED_PAIR", "reciprocal pair has one additive logarithmic depth"),
+        "K05": ("ZERO_ADDITIONAL_FIELD", "DERIVED_FOUNDED_ACTION", "phi acts as diag(exp(-phi),exp(phi)) on the founding pair"),
+        "K06": ("U[PHYSICAL_PAIR_ASSIGNMENT_AND_COMPLETE_EXTENSION]", "OPEN_DOWNSTREAM_JOIN", "frame equivalence leaves physical observer/path assignment and 4D extension open without reopening phi identity"),
+        "K07": ("INACTIVE_NO_RANK_SUBTRACTION", "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED", "counterfactual use requires explicit owner reauthorization"),
         "K08": ("AT_MOST_C[1]", "GLOBAL_ONLY", "constant rescaling is not a local gauge function"),
         "K09": ("ZERO_LOCAL+U[GLOBAL_DOMAIN]", "ONTOLOGY_NOT_EQUATION", "finite domain supplies no point-local field relation"),
         "K10": ("F3[1]_TRACE", "STATIC_BOUNDARY_ONLY", "does not remove bulk phi"),
@@ -323,7 +333,7 @@ def main() -> None:
         completion_rows.append(
             {
                 "completion_id": row["completion_id"],
-                "bulk_signature": "F1[2]_INSIDE_SUPPLIED_ANSATZ" if fc12 else "F4[6]_GENERIC_METRIC_OR_F4[7]_IF_INDEPENDENT_PHI",
+                "bulk_signature": "F1[2]_INSIDE_SUPPLIED_ANSATZ" if fc12 else "GENERIC_ARENA_F4[6]__FOUNDED_EXTENSION_NATIVE_RANK_OPEN",
                 "global_freedom_signature": completion_global[row["completion_id"]],
                 "local_rank_reduction_from_completion_alone": "NOT_APPLICABLE__SEPARATELY_SUPPLIED_ANSATZ" if fc12 else "ZERO",
                 "selected": "NO",
@@ -357,7 +367,7 @@ def main() -> None:
         ("D11", "Maxwell_action_current_charge", "not_derived", "O[OPEN]", "historical/imported equations have zero native authority here"),
         ("D12", "Levi_Civita_Kato_torus_holonomies", "nonlocal_readouts", "F4[0]", "distinct readouts; none is independent field data"),
         ("D13", "Hopf_or_Chern_class", "conditional_global_invariant", "Z[class]_DERIVED_AFTER_GLOBAL_INPUTS", "not a carrier section action or source"),
-        ("D14", "observer_pair_clock_cocycle", "metric_plus_typed_path_readout", "F4[0]", "physical path and founding depth solder remain open"),
+        ("D14", "observer_pair_clock_cocycle", "founded_pair_plus_typed_path_readout", "F4[0]", "founded depth is derived; physical observer/path assignment and complete extension remain open"),
     ]
     write_tsv(
         "DERIVED_OBJECT_NO_DOUBLE_COUNT.tsv",
@@ -366,9 +376,9 @@ def main() -> None:
     )
 
     response_rows = [
-        ("R01", "metric_variations", "F4[10]_RAW__F4[6]_MOD_COORDINATES", "ABSENT_COMPLETE_NATIVE_RESPONSE", "response must pair with every allowed symmetric metric variation and obey gauge identities"),
-        ("R02", "independent_phi_variations_C02", "F4[1]", "ABSENT", "needed only if phi is an independent field"),
-        ("R03", "reciprocal_reduction_solder_variations_C03", "U[REDUCTION_FIELD]", "FIELD_DOMAIN_UNSPECIFIED", "must first decide whether reduction is derived or varied"),
+        ("R01", "complete_founded_coframe_extension_and_variation_domain", "U[ANGULAR_GENERATOR+MIXING+DESCENT]", "OPEN_NOT_SELECTED", "select the full 4D realization of the derived founded pair before assigning native response rank"),
+        ("R02", "generic_metric_comparison_variations", "F4[10]_RAW__F4[6]_MOD_COORDINATES", "ARENA_DEFINED__NATIVE_RESPONSE_ABSENT", "generic symmetric variations are a comparison arena, not yet the selected UDT variation domain"),
+        ("R03", "chosen_independent_scalar_control_variations", "F4[1]", "COMPARISON_ONLY", "may test the enlarged atlas but cannot establish native scalar ownership"),
         ("R04", "supplied_projector_variations_C04", "F4[4]", "ABSENT", "conditional diagnostic branch cannot select its own projector"),
         ("R05", "multiplier_and_constraint_variations_C05", "U[MULTIPLIERS]", "FIELD_CENSUS_UNSPECIFIED", "constraint number and independence remain open"),
         ("R06", "representative_and_bridge_variations_C06", "U[SECTION_AND_MAP]", "ABSENT", "pre/post-scale bridge needs its own response"),
@@ -386,19 +396,19 @@ def main() -> None:
     status_rows = [
         ("S01", "generic_metric_local_configuration_quotient", "DERIVED_F4_6", "four-dimensional regular metric modulo coordinate presentation; not dynamics"),
         ("S02", "coframe_metric_rank_agreement", "DERIVED_EXACT", "16 minus 6 local Lorentz minus 4 coordinate functions equals 10 minus 4 equals 6"),
-        ("S03", "independent_phi_branch", "DERIVED_F4_7_TOTAL", "generic metric quotient plus one scalar; only C02-like independence branch"),
-        ("S04", "metric_derived_phi_branch", "CONDITIONAL_F4_6_TOTAL", "adds no field if and only if a covariant derivation map exists; map remains open"),
-        ("S05", "strong_local_CSN_sensitivity", "CONDITIONAL_F4_5_METRIC", "one fewer local function only on challenged local conformal quotient"),
+        ("S03", "chosen_independent_scalar_control", "CHOSE_COMPARISON_F4_7_TOTAL", "exact enlarged-atlas count; not native UDT field ownership"),
+        ("S04", "founded_phi_native_status", "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "identity and pair action are derived; physical assignment and unique 4D extension remain open"),
+        ("S05", "strong_local_CSN_counterfactual", "INACTIVE_CHALLENGED_OWNER_POSTULATE_NOT_DERIVED", "F4[5] is arithmetic for a separately reauthorized counterfactual, not a current UDT count"),
         ("S06", "metric_native_instrument_count", "MOSTLY_DERIVED_NOT_ADDITIVE", "curvature projectors connections holonomies clock and toric readouts do not enlarge field inventory"),
-        ("S07", "supplied_rank2_projector_branch", "CONDITIONAL_ADDS_F4_4_BEFORE_PHI_STATUS", "nondegenerate two-plane Grassmannian dimension four; phi relation inside C04 remains uncounted"),
+        ("S07", "supplied_rank2_projector_branch", "CONDITIONAL_ADDS_F4_4__FOUNDED_PHI_ADDS_ZERO", "nondegenerate two-plane Grassmannian dimension four; its relation to the founded complete extension remains open"),
         ("S08", "C05_C06_C07_extra_fields", "UNCOUNTED_OPEN", "multiplier bridge and independent-connection field censuses are not specified"),
-        ("S09", "founded_bulk_constraint_rank", "ZERO_CURRENT_METRIC_PHI_EOM_RANK", "Reciprocity finite cell c G and bootstrap do not supply a bulk field equation"),
+        ("S09", "founded_bulk_constraint_rank", "ZERO_COMPLETE_NATIVE_COFRAME_RESPONSE_RANK", "founded phi kinematics do not by themselves select the complete extension variation domain or response"),
         ("S10", "static_seal_rank", "BOUNDARY_F3_1_ONLY", "phi trace and allowed variation fixed; normal jet and bulk scalar remain free"),
         ("S11", "completion_freedom", "TWELVE_CLASSES_ALL_GLOBAL_DATA_OPEN", "FC01-FC11 retain generic bulk freedom; FC12 is a separate two-profile control"),
         ("S12", "metric_native_Maxwell_content", "F_EQUALS_dS_AND_dF_EQUALS_ZERO_ONLY_CONDITIONAL_TORIC", "U1 selection action current charge and inhomogeneous equation remain open"),
-        ("S13", "smallest_missing_closure_type", "COMPLETE_RESPONSE_INTERFACE_PLUS_GLOBAL_BOUNDARY_DATA", "not one scalar relation and not merely several boundary conditions"),
+        ("S13", "smallest_missing_closure_type", "FOUNDED_COMPLETE_EXTENSION_AND_VARIATION_DOMAIN_THEN_RESPONSE_AND_GLOBAL_BOUNDARY", "the response question is downstream of the still-unselected complete 4D realization"),
         ("S14", "propagating_physical_modes", "NOT_EVALUABLE", "requires selected response action constraints gauge evolution and initial-value problem"),
-        ("S15", "overall", "REGISTERED_CONFIGURATION_FREEDOM_AND_CONSTRAINT_RANK_CHARACTERIZED", "bounded source universe; no global solution count or physics selection"),
+        ("S15", "overall", "CORRECTED_GENERIC_ARENA_RANK_CHARACTERIZED__NATIVE_FOUNDED_EXTENSION_RANK_OPEN", "generic algebra survives; native UDT field rank is neither six nor seven from this audit"),
     ]
     write_tsv(
         "STATUS_LEDGER.tsv",
@@ -407,7 +417,7 @@ def main() -> None:
     )
 
     result = {
-        "status": "REGISTERED_CONFIGURATION_FREEDOM_AND_CONSTRAINT_RANK_CHARACTERIZED",
+        "status": "CORRECTED_GENERIC_ARENA_RANK_CHARACTERIZED__NATIVE_FOUNDED_EXTENSION_RANK_OPEN",
         "dimensions": d,
         "presentation_rows": len(presentation_rows),
         "realization_branches": len(branch_rows),
@@ -416,10 +426,12 @@ def main() -> None:
         "derived_no_double_count_rows": len(derived_rows),
         "response_sectors": len(response_rows),
         "generic_metric_quotient": "F4[6]",
-        "generic_metric_plus_independent_phi": "F4[7]",
-        "conditional_strong_local_CSN_metric": "F4[5]",
+        "chosen_comparison_metric_plus_independent_scalar": "F4[7]_NOT_NATIVE_OWNERSHIP",
+        "founded_phi_additional_native_field_count": 0,
+        "native_founded_complete_extension_rank": "OPEN",
+        "counterfactual_strong_local_CSN_metric": "F4[5]_INACTIVE_WITHOUT_EXPLICIT_REAUTHORIZATION",
         "complete_native_bulk_response": "ABSENT",
-        "smallest_missing_closure_type": "COMPLETE_RESPONSE_INTERFACE_PLUS_GLOBAL_BOUNDARY_DATA",
+        "smallest_missing_closure_type": "FOUNDED_COMPLETE_EXTENSION_AND_VARIATION_DOMAIN_THEN_RESPONSE_AND_GLOBAL_BOUNDARY",
         "propagating_modes": "NOT_EVALUABLE",
         "selected_completion": None,
     }

@@ -1,7 +1,7 @@
 id	variation_sector	variation_signature	current_response_status	coverage_requirement
-R01	metric_variations	F4[10]_RAW__F4[6]_MOD_COORDINATES	ABSENT_COMPLETE_NATIVE_RESPONSE	response must pair with every allowed symmetric metric variation and obey gauge identities
-R02	independent_phi_variations_C02	F4[1]	ABSENT	needed only if phi is an independent field
-R03	reciprocal_reduction_solder_variations_C03	U[REDUCTION_FIELD]	FIELD_DOMAIN_UNSPECIFIED	must first decide whether reduction is derived or varied
+R01	complete_founded_coframe_extension_and_variation_domain	U[ANGULAR_GENERATOR+MIXING+DESCENT]	OPEN_NOT_SELECTED	select the full 4D realization of the derived founded pair before assigning native response rank
+R02	generic_metric_comparison_variations	F4[10]_RAW__F4[6]_MOD_COORDINATES	ARENA_DEFINED__NATIVE_RESPONSE_ABSENT	generic symmetric variations are a comparison arena, not yet the selected UDT variation domain
+R03	chosen_independent_scalar_control_variations	F4[1]	COMPARISON_ONLY	may test the enlarged atlas but cannot establish native scalar ownership
 R04	supplied_projector_variations_C04	F4[4]	ABSENT	conditional diagnostic branch cannot select its own projector
 R05	multiplier_and_constraint_variations_C05	U[MULTIPLIERS]	FIELD_CENSUS_UNSPECIFIED	constraint number and independence remain open
 R06	representative_and_bridge_variations_C06	U[SECTION_AND_MAP]	ABSENT	pre/post-scale bridge needs its own response

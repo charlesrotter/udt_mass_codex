@@ -1,8 +1,32 @@
 # UDT Scientific Frontier — Co-Presence, Bootstrap, and Angular–Toric Hopf Closure
 
-Date: 2026-07-25
+Date: 2026-07-26
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
+
+## July 26 foundational semantic-precedence overlay — current authority
+
+Read `CURRENT_SCIENTIFIC_PREMISES.md`, `CURRENT_SCIENTIFIC_PREMISES.tsv`, and
+`udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md` before using an
+older configuration atlas or field-count result.
+
+Founded `phi` is `DERIVED` as the additive logarithmic depth of the reciprocal clock/ruler pair,
+with pair action `diag(exp(-phi),exp(phi))`. Its physical observer/path assignment, profile, unique
+complete 4D angular/mixing extension, variation, dynamics, boundary, and global completion remain
+`OPEN`; that open scope does not make `phi` a placeholder or independent native field. The
+independent-scalar atlases are `CHOSE_COMPARISON_CONFIGURATION`.
+
+The exact generic metric quotient `F4[6]` survives only as a configuration-arena count. It is not a
+selected native UDT field count or physical-mode count. The native reduced functional rank remains
+open until the complete founded extension and variation domain are selected. Strong local CSN is
+`CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` and inactive unless Charles explicitly reauthorizes it;
+common-factor cancellation is algebra only, and measured `c_E` and `G_obs` remain observational
+anchors. All carrier, action, bootstrap, Maxwell-like, `X_max`, Hopfion, source, boundary, and mass
+statuses retain the exact premise levels in the registry.
+
+This is a correction and regression guard, not a new physics result. The July 25 global-local
+architecture below remains scoped evidence. The correct next scientific gate is the complete
+founded coframe extension and variation domain; no follow-on derivation is automatically authorized.
 
 ## July 25 global-local relational-closure overlay — current authority
 
@@ -40,11 +64,12 @@ Status: `OPEN_COHERENT_ARCHITECTURE`;
 `JOINED_NATIVE_CLOSURE_AND_DOWNSTREAM_ACTION_NOT_DERIVED`;
 `VERIFIED-WITH-CAVEATS`.
 
-The smallest missing native object is the complete metric-native off-shell global-local response
-one-form. The next bounded task remains the post-July response-availability audit. If no candidate
-survives, derive the bootstrap-to-local response map. Do not substitute a density sweep, action
-ansatz, carrier adoption, matter/time-live/GPU solve, canonization, artifact move, or repository
-reorganization.
+At this parent layer, the smallest missing native object was typed as the complete metric-native
+off-shell global-local response one-form. The later response census and bootstrap-map work did not
+close it. Under the July 26 correction, the dependency order first requires the complete founded
+coframe extension and variation domain. Do not substitute a generic metric count, independent
+scalar, strong local CSN, density sweep, action ansatz, carrier adoption, matter/time-live/GPU
+solve, canonization, artifact move, or repository reorganization.
 
 ## July 24 bootstrap-aware clock/angular closure overlay — parent authority
 

@@ -1,0 +1,29 @@
+catch_id	forbidden_regression	result
+C01	G01 semantic promotion	PASS_REJECTED
+C02	G02 semantic promotion	PASS_REJECTED
+C03	G03 semantic promotion	PASS_REJECTED
+C04	G04 semantic promotion	PASS_REJECTED
+C05	G05 semantic promotion	PASS_REJECTED
+C06	G06 semantic promotion	PASS_REJECTED
+C07	G07 semantic promotion	PASS_REJECTED
+C08	G08 semantic promotion	PASS_REJECTED
+C09	G09 semantic promotion	PASS_REJECTED
+C10	G10 semantic promotion	PASS_REJECTED
+C11	G11 semantic promotion	PASS_REJECTED
+C12	G12 semantic promotion	PASS_REJECTED
+C13	G13 semantic promotion	PASS_REJECTED
+C14	G14 semantic promotion	PASS_REJECTED
+C15	G15 semantic promotion	PASS_REJECTED
+C16	G16 semantic promotion	PASS_REJECTED
+C17	candidate missing	PASS_REJECTED
+C18	candidate duplicated	PASS_REJECTED
+C19	candidate unadjudicated	PASS_REJECTED
+C20	startup control loses registry pointer	PASS_REJECTED
+C21	known ambiguity loses supersession	PASS_REJECTED
+C22	DOF comparison scalar promoted	PASS_REJECTED
+C23	DOF founded phi demoted	PASS_REJECTED
+C24	generic arena promoted to native rank	PASS_REJECTED
+C25	controlling source priority replaced by old atlas	PASS_REJECTED
+C26	candidate identity detached from frozen base blob	PASS_REJECTED
+C27	preregistered correction universe rewritten	PASS_REJECTED
+C28	historical DOF preregistration rewritten	PASS_REJECTED

@@ -4,15 +4,24 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-07-25)
+## TOP — CURRENT POINTER (2026-07-26)
 
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block,
-then the marked current block in `HANDOFF.md`, then the top/current overlay in
+then the marked current block in `HANDOFF.md`, then `CURRENT_SCIENTIFIC_PREMISES.md` and
+`CURRENT_SCIENTIFIC_PREMISES.tsv`, then the top/current overlay in
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
 `udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md`
 and its compact status/dependency/lay/next-step records. Read the parent bootstrap, intrinsic-solder,
 and observer-pair packages only when their exact premises become load-bearing.
 Expand only to the exact cited evidence made load-bearing by the active task.
+
+Foundational correction: founded `phi` is the derived additive logarithmic depth of the reciprocal
+clock/ruler pair and is not an extra native scalar. The `F4[7]` scalar branch is a chosen comparison
+configuration; `F4[6]` is only the generic metric arena, not the native UDT rank. The unique full
+angular/mixing extension and variation domain remain open. Strong local CSN is
+`CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` and inactive; `c_E` and `G_obs` remain observed anchors.
+See the DOF package's `CORRECTION_LAYER.md`. If a lower-priority result disagrees with the current
+premise registry or its cited source, stop.
 
 Current honest status: reciprocal depth and conditional angular topology form a coherent
 global-local architecture, not a derived physical closure. Depth is contractible and cannot wind
@@ -24,10 +33,11 @@ ruling out a global nonlinear shared-solution join. Topology alone is not matter
 downstream only after UDT derives a complete off-shell response one-form and it passes local
 Helmholtz, gauge, boundary/corner, and global-period gates.
 
-The current bounded seam is the post-July availability audit for that native off-shell global-local
-response. If no candidate survives, derive the bootstrap-to-local response map. Do not substitute a
-density sweep, action ansatz, carrier adoption, matter/time-live/GPU solve, canonization, artifact
-move, or repository reorganization.
+The post-July availability census and bootstrap-map work did not close that response. The corrected
+dependency order first requires the complete founded coframe extension and variation domain. This
+is a candidate next scientific gate, not automatic authorization. Do not substitute a generic
+metric count, independent scalar, strong local CSN, density sweep, action ansatz, carrier adoption,
+matter/time-live/GPU solve, canonization, artifact move, or repository reorganization.
 
 ## DURABLE PRIOR MACRO FRONTIER (2026-07-09 simple metric + WR-L canon)
 

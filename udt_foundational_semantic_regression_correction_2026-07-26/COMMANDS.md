@@ -1,0 +1,19 @@
+# Replay commands
+
+Run from repository root with CPU-only environment:
+
+```bash
+python3 udt_foundational_semantic_regression_correction_2026-07-26/build_semantic_correction.py
+python3 udt_global_functional_dof_constraint_rank_audit_2026-07-26/build_dof_audit.py
+python3 udt_global_functional_dof_constraint_rank_audit_2026-07-26/verify_dof_audit_independent.py
+python3 udt_global_functional_dof_constraint_rank_audit_2026-07-26/verify_dof_audit.py
+python3 verify_current_scientific_premises.py
+python3 udt_foundational_semantic_regression_correction_2026-07-26/verify_semantic_correction_independent.py
+python3 udt_foundational_semantic_regression_correction_2026-07-26/verify_semantic_correction.py
+python3 udt_global_functional_dof_constraint_rank_audit_2026-07-26/build_manifest.py
+python3 udt_foundational_semantic_regression_correction_2026-07-26/build_manifest.py
+python3 udt_foundational_semantic_regression_correction_2026-07-26/verify_repository_gates.py
+```
+
+The last command replays `python3 -m pytest -q tests/` with `CUDA_VISIBLE_DEVICES` empty and
+`PYTHONDONTWRITEBYTECODE=1`.

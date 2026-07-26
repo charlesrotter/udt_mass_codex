@@ -12,4 +12,4 @@ D10	selected_circle_A_equals_wT_S	S_plus_supplied_integral_character	F4[0]+Z[w]	
 D11	Maxwell_action_current_charge	not_derived	O[OPEN]	historical/imported equations have zero native authority here
 D12	Levi_Civita_Kato_torus_holonomies	nonlocal_readouts	F4[0]	distinct readouts; none is independent field data
 D13	Hopf_or_Chern_class	conditional_global_invariant	Z[class]_DERIVED_AFTER_GLOBAL_INPUTS	not a carrier section action or source
-D14	observer_pair_clock_cocycle	metric_plus_typed_path_readout	F4[0]	physical path and founding depth solder remain open
+D14	observer_pair_clock_cocycle	founded_pair_plus_typed_path_readout	F4[0]	founded depth is derived; physical observer/path assignment and complete extension remain open

@@ -1,0 +1,263 @@
+{
+  "checks": 51,
+  "details": [
+    {
+      "check": "registry_16_unique",
+      "detail": "16",
+      "pass": true
+    },
+    {
+      "check": "status_G01",
+      "detail": "DERIVED_ADDITIVE_LOG_DEPTH_OF_RECIPROCAL_PAIR",
+      "pass": true
+    },
+    {
+      "check": "status_G03",
+      "detail": "CHOSE_COMPARISON_CONFIGURATION",
+      "pass": true
+    },
+    {
+      "check": "status_G04",
+      "detail": "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED",
+      "pass": true
+    },
+    {
+      "check": "status_G06",
+      "detail": "OBSERVED_ANCHORS_RETAINED",
+      "pass": true
+    },
+    {
+      "check": "status_G08",
+      "detail": "OPEN_SELECTION_WITH_EXACT_EXTENSION_CLASS",
+      "pass": true
+    },
+    {
+      "check": "status_G09",
+      "detail": "POSIT",
+      "pass": true
+    },
+    {
+      "check": "status_G11",
+      "detail": "CONDITIONAL_NOT_SELECTED",
+      "pass": true
+    },
+    {
+      "check": "status_G12",
+      "detail": "WORKING_ON_SHELL_ADMISSIBILITY",
+      "pass": true
+    },
+    {
+      "check": "status_G14",
+      "detail": "WORKING_GLOBAL_OBSERVER_PAIR_MAXIMUM_SEPARATION",
+      "pass": true
+    },
+    {
+      "check": "status_G16",
+      "detail": "OPEN",
+      "pass": true
+    },
+    {
+      "check": "source_founded_phi",
+      "detail": "udt_founded_phi_complete_coframe_extension_audit_2026-07-25/AUDIT_REPORT.md",
+      "pass": true
+    },
+    {
+      "check": "source_csn_challenged",
+      "detail": "udt_common_scale_neutrality_provenance_audit_2026-07-24/STATUS_LEDGER.tsv",
+      "pass": true
+    },
+    {
+      "check": "candidate_754",
+      "detail": "754",
+      "pass": true
+    },
+    {
+      "check": "adjudication_754",
+      "detail": "754",
+      "pass": true
+    },
+    {
+      "check": "candidate_exact_coverage",
+      "detail": "754",
+      "pass": true
+    },
+    {
+      "check": "no_empty_disposition",
+      "detail": "all populated",
+      "pass": true
+    },
+    {
+      "check": "supersession_6",
+      "detail": "6",
+      "pass": true
+    },
+    {
+      "check": "control_AGENTS.md",
+      "detail": "AGENTS.md",
+      "pass": true
+    },
+    {
+      "check": "control_LIVE.md",
+      "detail": "LIVE.md",
+      "pass": true
+    },
+    {
+      "check": "control_HANDOFF.md",
+      "detail": "HANDOFF.md",
+      "pass": true
+    },
+    {
+      "check": "control_INDEX.md",
+      "detail": "INDEX.md",
+      "pass": true
+    },
+    {
+      "check": "control_README.md",
+      "detail": "README.md",
+      "pass": true
+    },
+    {
+      "check": "control_research/README.md",
+      "detail": "research/README.md",
+      "pass": true
+    },
+    {
+      "check": "control_research/_registry/README.md",
+      "detail": "research/_registry/README.md",
+      "pass": true
+    },
+    {
+      "check": "control_MEMORY.md",
+      "detail": "MEMORY.md",
+      "pass": true
+    },
+    {
+      "check": "control_UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
+      "detail": "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
+      "pass": true
+    },
+    {
+      "check": "generic_metric_rank",
+      "detail": "F4[6]",
+      "pass": true
+    },
+    {
+      "check": "comparison_scalar_typed",
+      "detail": "CHOSE_COMPARISON_CONFIGURATION",
+      "pass": true
+    },
+    {
+      "check": "founded_phi_typed",
+      "detail": "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN",
+      "pass": true
+    },
+    {
+      "check": "csn_inactive",
+      "detail": "INACTIVE_COUNTERFACTUAL_REQUIRES_EXPLICIT_REAUTHORIZATION",
+      "pass": true
+    },
+    {
+      "check": "native_rank_open",
+      "detail": "OPEN",
+      "pass": true
+    },
+    {
+      "check": "modes_open",
+      "detail": "NOT_EVALUABLE",
+      "pass": true
+    },
+    {
+      "check": "original_AUDIT_REPORT.md",
+      "detail": "ec200f5e9a5d9880fe9d3a0c51e00729645b3448",
+      "pass": true
+    },
+    {
+      "check": "original_AUDIT_RESULT.json",
+      "detail": "191d13e047214739efe1ac1f3db860b2165ef56c",
+      "pass": true
+    },
+    {
+      "check": "original_CATCH_PROOF_RESULTS.tsv",
+      "detail": "413b6426aefc0e813203eb3d9f3808945a1f6a21",
+      "pass": true
+    },
+    {
+      "check": "original_COMPLETION_DOF_ATLAS.tsv",
+      "detail": "e3c68fd6bd2b459ec96f9785b3d9d2c6127c01a2",
+      "pass": true
+    },
+    {
+      "check": "original_CONSTRAINT_RANK_LEDGER.tsv",
+      "detail": "a7ab4cf92319c8c0627b778e286626a40bbc40e6",
+      "pass": true
+    },
+    {
+      "check": "original_DERIVED_OBJECT_NO_DOUBLE_COUNT.tsv",
+      "detail": "671e6d994cc2c0a47a62f55a3a04129770bda4de",
+      "pass": true
+    },
+    {
+      "check": "original_EXACT_DERIVATION.md",
+      "detail": "6cfecce436c807acb3b428ff7c545a251e09aab9",
+      "pass": true
+    },
+    {
+      "check": "original_INDEPENDENT_VERIFICATION_RESULT.json",
+      "detail": "ff2f2a2c8cfe4c637e1fd5b4f622feb972ebeef8",
+      "pass": true
+    },
+    {
+      "check": "original_LAY_REPORT.md",
+      "detail": "bfe3c04689751e9a21d7e978ce2d4973a2bc35de",
+      "pass": true
+    },
+    {
+      "check": "original_LOCAL_PRESENTATION_RANK.tsv",
+      "detail": "1d3e2efb12e192ea0b4be8fc0548145d74be93ea",
+      "pass": true
+    },
+    {
+      "check": "original_NEXT_STEP.md",
+      "detail": "6b4efb1991db06255279dac95ef097c28be31ee6",
+      "pass": true
+    },
+    {
+      "check": "original_REALIZATION_BRANCH_RANK.tsv",
+      "detail": "a52986c96166b9851f43f7a30a9bef93a7c7aa62",
+      "pass": true
+    },
+    {
+      "check": "original_RESPONSE_COVERAGE_TARGET.tsv",
+      "detail": "90d34cff9f8118fc8c9f877dd7d17708de10e8f9",
+      "pass": true
+    },
+    {
+      "check": "original_STATUS_LEDGER.tsv",
+      "detail": "4c3c759d07196ef91f49c30aaa24d9852ab4a8ac",
+      "pass": true
+    },
+    {
+      "check": "original_VERIFICATION_RESULT.json",
+      "detail": "dc991333502c1a05f71d834bbd3513e4c7533aae",
+      "pass": true
+    },
+    {
+      "check": "original_build_dof_audit.py",
+      "detail": "2c544722ef494a082a31148fde1654f4740f921d",
+      "pass": true
+    },
+    {
+      "check": "original_verify_dof_audit.py",
+      "detail": "16d3954567dbfc3825ff7c156c4321346a035427",
+      "pass": true
+    },
+    {
+      "check": "original_verify_dof_audit_independent.py",
+      "detail": "3dcb080ea724e47bf484bd118696867adbb1d29f",
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "implementation": "independent_stdlib_source_and_git_blob_check_no_production_import",
+  "status": "PASS"
+}

@@ -95,15 +95,16 @@ def projector_tangent_nullity() -> int:
 def main() -> None:
     checks: list[tuple[str, bool, str]] = []
 
-    for row in read_tsv(HERE / "SOURCE_MANIFEST.tsv"):
-        path = ROOT / row["path"]
-        checks.append(
-            (
-                f"source_{row['source_id']}",
-                path.is_file() and str(path.stat().st_size) == row["bytes"] and sha256(path) == row["sha256"],
-                row["path"],
+    for manifest in ("SOURCE_MANIFEST.tsv", "SOURCE_MANIFEST_CORRECTION.tsv"):
+        for row in read_tsv(HERE / manifest):
+            path = ROOT / row["path"]
+            checks.append(
+                (
+                    f"source_{row['source_id']}",
+                    path.is_file() and str(path.stat().st_size) == row["bytes"] and sha256(path) == row["sha256"],
+                    row["path"],
+                )
             )
-        )
 
     symmetric = symmetric_matrix_nullity()
     lorentz = lorentz_lie_algebra_nullity()
@@ -119,8 +120,8 @@ def main() -> None:
             ("metric_quotient", metric_quotient == 6, str(metric_quotient)),
             ("coframe_quotient", coframe_quotient == 6, str(coframe_quotient)),
             ("two_plus_two_chart", split == 10, str(split)),
-            ("independent_phi_total", metric_quotient + 1 == 7, str(metric_quotient + 1)),
-            ("conditional_local_csn_metric", metric_quotient - 1 == 5, str(metric_quotient - 1)),
+            ("chosen_comparison_scalar_total", metric_quotient + 1 == 7, str(metric_quotient + 1)),
+            ("counterfactual_local_csn_arithmetic", metric_quotient - 1 == 5, str(metric_quotient - 1)),
             ("rank_two_projector_tangent", projector == 4, str(projector)),
         ]
     )
@@ -135,7 +136,10 @@ def main() -> None:
         [
             ("presentation_metric", presentations["P01"]["quotient_signature"] == "F4[6]", presentations["P01"]["quotient_signature"]),
             ("presentation_coframe", presentations["P02"]["quotient_signature"] == "F4[6]", presentations["P02"]["quotient_signature"]),
-            ("presentation_phi", presentations["P04"]["quotient_signature"] == "F4[7]", presentations["P04"]["quotient_signature"]),
+            ("comparison_scalar_count", presentations["P04"]["quotient_signature"] == "F4[7]", presentations["P04"]["quotient_signature"]),
+            ("comparison_scalar_scope", presentations["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", presentations["P04"]["status"]),
+            ("founded_phi_scope", presentations["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", presentations["P05"]["status"]),
+            ("csn_inactive", presentations["P06"]["status"] == "INACTIVE_COUNTERFACTUAL_REQUIRES_EXPLICIT_REAUTHORIZATION", presentations["P06"]["status"]),
             ("presentation_projector", presentations["P08"]["quotient_signature"] == "F4[10]", presentations["P08"]["quotient_signature"]),
             ("seven_branches", [row["branch_id"] for row in branches] == [f"C0{i}" for i in range(1, 8)], str(len(branches))),
             ("twelve_completions", len(completions) == 12 and len({row["completion_id"] for row in completions}) == 12, str(len(completions))),
@@ -143,7 +147,8 @@ def main() -> None:
             ("derived_inventory", len(derived) == 14, str(len(derived))),
             ("maxwell_scoped", status["S12"]["status"] == "F_EQUALS_dS_AND_dF_EQUALS_ZERO_ONLY_CONDITIONAL_TORIC", status["S12"]["status"]),
             ("modes_not_evaluable", status["S14"]["status"] == "NOT_EVALUABLE", status["S14"]["status"]),
-            ("closure_type", status["S13"]["status"] == "COMPLETE_RESPONSE_INTERFACE_PLUS_GLOBAL_BOUNDARY_DATA", status["S13"]["status"]),
+            ("closure_type", status["S13"]["status"] == "FOUNDED_COMPLETE_EXTENSION_AND_VARIATION_DOMAIN_THEN_RESPONSE_AND_GLOBAL_BOUNDARY", status["S13"]["status"]),
+            ("native_rank_open", status["S15"]["status"] == "CORRECTED_GENERIC_ARENA_RANK_CHARACTERIZED__NATIVE_FOUNDED_EXTENSION_RANK_OPEN", status["S15"]["status"]),
         ]
     )
 
@@ -159,8 +164,8 @@ def main() -> None:
             "metric_quotient": metric_quotient,
             "coframe_quotient": coframe_quotient,
             "rank_two_projector": projector,
-            "independent_phi_total": metric_quotient + 1,
-            "conditional_local_csn_metric": metric_quotient - 1,
+            "chosen_comparison_scalar_total": metric_quotient + 1,
+            "counterfactual_local_csn_arithmetic": metric_quotient - 1,
         },
         "details": [{"check": name, "pass": ok, "detail": detail} for name, ok, detail in checks],
     }

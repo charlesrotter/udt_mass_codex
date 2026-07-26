@@ -1,32 +1,26 @@
-# Lay report
+# Lay report — corrected
 
-We found that the “orchestra” is real, but it does not contain dozens of independent instruments.
+We correctly counted the size of the large mathematical room in which a general four-dimensional
+metric can live. We then made a conceptual mistake: we treated one old exploratory setup as though
+it were still a possible statement of what UDT fundamentally contains.
 
-The full metric has ten adjustable entries at every point. Four of those merely describe how we
-label the same geometry with coordinates. That leaves six genuinely different local ways for the
-metric's shape to vary. Describing the metric with a coframe gives the same answer by a completely
-different count. The base, angular, and shift sectors are therefore sections of one six-voice
-geometric instrument, not separate new substances.
+`phi` is not an extra mystery knob waiting beside the metric. UDT's founding reciprocal relation
+already tells us what it is at its core: the amount by which the clock and ruler channels change in
+opposite exponential directions. What we still do not know is how that known two-channel rule is
+woven through every angular and mixed part of the full four-dimensional metric, or what physical
+observer/path profile realizes it.
 
-`phi` is the one unresolved fork. If `phi` is an independent field, it is a seventh voice. If the
-metric itself determines `phi`, it is a reading on the six existing voices and adds nothing—but we
-still have to derive that reading rule rather than assume it.
+So “six versus seven fields” was the wrong UDT question. Six is the size of a generic metric arena.
+Seven is the size of that arena after we deliberately add a separate test scalar. Neither number is
+yet the native UDT field count. The complete weaving of the founded reciprocal pair has to be
+selected before that count can be made honestly.
 
-Most of the interesting objects we have found are like harmonics and chords: curvature, projectors,
-holonomy, the observer clock, and the toric Maxwell-like curvature all reveal what the metric is
-doing, but they are not extra instruments that must each receive a new equation.
+We also tightened the scale language. Strong local Common-Scale Neutrality is an old challenged
+postulate, not something the current derivation proved. It cannot quietly remove a degree of freedom
+or erase the measured `c` and `G` anchors.
 
-The bad news is also clarifying. The founding principles have not yet supplied the score. They tell
-us important things about reciprocity, calibration, the finite stage, and one seal condition, but
-they do not yet tell the six—or possibly seven—local voices how to respond together. Nor do they
-specify all the stage edges, seams, caps, and boundary motions.
-
-So the missing object is not likely to be one clever scalar equation. It is a complete response rule
-for the metric and whichever additional fields are genuinely independent, together with the
-finite-cell boundary rule. Once that exists, we can finally count dynamical modes and solve rather
-than merely map configurations.
-
-The Maxwell reminder fits this picture neatly. A toric metric can produce a connection `S` and a
-curvature `F=dS`; `dF=0` then follows automatically. That is a real geometric chord, but it is not yet
-the whole electromagnetic score: the selected circle, source/current equation, action, charge, and
-normalization remain open.
+The useful parts of the audit survive: many apparent “instruments” are different views of the same
+metric rather than new independent things, boundary conditions are not bulk equations, and the
+conditional Maxwell-like identities do not yet give a full electromagnetic theory. But the next
+gate is now ordered correctly: finish the full founded coframe and its allowed variations, then ask
+for the native response, action, source, and global boundary closure.

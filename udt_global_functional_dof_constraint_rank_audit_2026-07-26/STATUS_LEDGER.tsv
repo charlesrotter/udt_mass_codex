@@ -1,16 +1,16 @@
 id	object	status	scope_or_limit
 S01	generic_metric_local_configuration_quotient	DERIVED_F4_6	four-dimensional regular metric modulo coordinate presentation; not dynamics
 S02	coframe_metric_rank_agreement	DERIVED_EXACT	16 minus 6 local Lorentz minus 4 coordinate functions equals 10 minus 4 equals 6
-S03	independent_phi_branch	DERIVED_F4_7_TOTAL	generic metric quotient plus one scalar; only C02-like independence branch
-S04	metric_derived_phi_branch	CONDITIONAL_F4_6_TOTAL	adds no field if and only if a covariant derivation map exists; map remains open
-S05	strong_local_CSN_sensitivity	CONDITIONAL_F4_5_METRIC	one fewer local function only on challenged local conformal quotient
+S03	chosen_independent_scalar_control	CHOSE_COMPARISON_F4_7_TOTAL	exact enlarged-atlas count; not native UDT field ownership
+S04	founded_phi_native_status	DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN	identity and pair action are derived; physical assignment and unique 4D extension remain open
+S05	strong_local_CSN_counterfactual	INACTIVE_CHALLENGED_OWNER_POSTULATE_NOT_DERIVED	F4[5] is arithmetic for a separately reauthorized counterfactual, not a current UDT count
 S06	metric_native_instrument_count	MOSTLY_DERIVED_NOT_ADDITIVE	curvature projectors connections holonomies clock and toric readouts do not enlarge field inventory
-S07	supplied_rank2_projector_branch	CONDITIONAL_ADDS_F4_4_BEFORE_PHI_STATUS	nondegenerate two-plane Grassmannian dimension four; phi relation inside C04 remains uncounted
+S07	supplied_rank2_projector_branch	CONDITIONAL_ADDS_F4_4__FOUNDED_PHI_ADDS_ZERO	nondegenerate two-plane Grassmannian dimension four; its relation to the founded complete extension remains open
 S08	C05_C06_C07_extra_fields	UNCOUNTED_OPEN	multiplier bridge and independent-connection field censuses are not specified
-S09	founded_bulk_constraint_rank	ZERO_CURRENT_METRIC_PHI_EOM_RANK	Reciprocity finite cell c G and bootstrap do not supply a bulk field equation
+S09	founded_bulk_constraint_rank	ZERO_COMPLETE_NATIVE_COFRAME_RESPONSE_RANK	founded phi kinematics do not by themselves select the complete extension variation domain or response
 S10	static_seal_rank	BOUNDARY_F3_1_ONLY	phi trace and allowed variation fixed; normal jet and bulk scalar remain free
 S11	completion_freedom	TWELVE_CLASSES_ALL_GLOBAL_DATA_OPEN	FC01-FC11 retain generic bulk freedom; FC12 is a separate two-profile control
 S12	metric_native_Maxwell_content	F_EQUALS_dS_AND_dF_EQUALS_ZERO_ONLY_CONDITIONAL_TORIC	U1 selection action current charge and inhomogeneous equation remain open
-S13	smallest_missing_closure_type	COMPLETE_RESPONSE_INTERFACE_PLUS_GLOBAL_BOUNDARY_DATA	not one scalar relation and not merely several boundary conditions
+S13	smallest_missing_closure_type	FOUNDED_COMPLETE_EXTENSION_AND_VARIATION_DOMAIN_THEN_RESPONSE_AND_GLOBAL_BOUNDARY	the response question is downstream of the still-unselected complete 4D realization
 S14	propagating_physical_modes	NOT_EVALUABLE	requires selected response action constraints gauge evolution and initial-value problem
-S15	overall	REGISTERED_CONFIGURATION_FREEDOM_AND_CONSTRAINT_RANK_CHARACTERIZED	bounded source universe; no global solution count or physics selection
+S15	overall	CORRECTED_GENERIC_ARENA_RANK_CHARACTERIZED__NATIVE_FOUNDED_EXTENSION_RANK_OPEN	generic algebra survives; native UDT field rank is neither six nor seven from this audit

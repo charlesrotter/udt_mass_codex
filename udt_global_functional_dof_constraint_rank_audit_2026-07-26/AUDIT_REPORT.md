@@ -1,84 +1,94 @@
-# Global Functional-Degree-of-Freedom and Constraint-Rank Audit
+# Global functional-degree-of-freedom and constraint-rank audit — corrected
 
 Date: 2026-07-26
 
-Base: `bb5949a5a2bce59a10e5f8227ceeef8615f3d8af`
+Original preregistration: `ccd3334`
 
-Preregistration: `ccd3334`
+Correction preregistration: `b6397a3`
 
-## Result
+## Corrected result
 
-`REGISTERED_CONFIGURATION_FREEDOM_AND_CONSTRAINT_RANK_CHARACTERIZED`
+`CORRECTED_GENERIC_ARENA_RANK_CHARACTERIZED__NATIVE_FOUNDED_EXTENSION_RANK_OPEN`
 
-The apparent orchestra is substantially smaller than the growing vocabulary made it look.
-
-A generic regular four-dimensional UDT metric has ten component functions. After the four-function
-coordinate redundancy, it has a local configuration signature of `F4[6]`. The independent coframe
-count agrees exactly: `16 - 6` local-Lorentz presentation functions `- 4` coordinate functions gives
-the same `F4[6]`. The supplied `2+2` chart also accounts for exactly ten metric functions as
+The generic linear algebra survives. A regular four-dimensional symmetric metric has ten component
+functions, and quotienting coordinate presentation gives the generic configuration-arena signature
+`F4[6]`. The coframe count agrees: `16 - 6` local-Lorentz presentation functions `- 4` coordinate
+functions also gives `F4[6]`. The supplied `2+2` chart accounts for the ten raw metric functions as
 `3 base + 3 angular-screen + 4 shifts`.
 
-An independently varied `phi` adds one function, giving `F4[7]`. A genuinely metric-derived `phi`
-adds none, but its covariant derivation map remains open. Strong local CSN would conditionally reduce
-the metric signature to `F4[5]`; because that premise is challenged, it is not used in the primary
-count.
+The scientific interpretation at `b4d16fb` was wrong. It omitted the controlling July 25 audit and
+treated an independently varied scalar as a coequal native UDT possibility. Current UDT foundation
+already derives `phi` as the additive logarithmic depth of the reciprocal clock/ruler subgroup,
 
-Curvature, Cartan data, spectral projectors, Kato transport, normalized angular geometry, observer
-clock readouts, toric connection/curvature, holonomies, and conditional Hopf classes are mostly
-derived views of the same metric. They do not add independent continuous fields. The important
-exceptions are explicitly supplied branch data: a nondegenerate rank-two projector adds `F4[4]` on
-`C04`, while the status of `phi` inside that plane remains uncounted; the multiplier, bridge, and
-independent-connection inventories of `C05`--`C07` remain uncounted because their field types were
-never supplied.
+```text
+P(phi) = diag(exp(-phi), exp(phi)).
+```
 
-The founded structure presently supplies zero complete bulk metric/`phi` equation rank. Reciprocity
-reduces two abstract comparison channels to one exponential character, but does not constrain the
-spacetime metric until the physical solder is derived. Finite-cell ontology, measured `c` and `G`,
-and bootstrap admissibility are not point-local equations. The static seal removes one boundary
-trace of `phi`, not the bulk scalar or its normal derivative.
+Founded `phi` therefore adds zero independent field directions. An `F4[7]` metric-plus-scalar count
+is exact only for a deliberately enlarged `CHOSE_COMPARISON_CONFIGURATION`; it is not evidence that
+UDT owns a seventh native field.
 
-All twelve completion classes remain distinct global data problems. `FC01`--`FC11` do not reduce the
-generic local metric count merely by naming a topology or boundary mechanism. `FC12` has exactly two
-one-dimensional profiles inside its supplied reciprocal-toric ansatz, but that control is neither
-generic nor selected.
+This correction does not make the native UDT field rank six. The exact complete-coframe audit shows
+that fixing the founded base generator leaves a nonunique extension class: seven pointwise
+triangular extension parameters, six after determinant one, four after transverse-metric
+invariance, three after no-mixing, and zero only after both extra spectator premises. Until UDT
+selects the angular generator, mixing, Lorentz-independent descent, and variation domain, the
+reduced native functional rank is `OPEN`. The generic `F4[6]` arena is neither that selected count
+nor a physical-mode count.
 
-The missing closure is therefore not one scalar relation and not merely several boundary
-conditions. It is the already-identified complete off-shell response interface, plus finite-cell
-boundary/global data. Only after a branch and complete response are supplied can UDT's differential
-constraint rank, solution freedom, and propagating physical modes be computed.
+Strong local Common-Scale Neutrality is
+`CHALLENGED_OWNER_POSTULATE_NOT_DERIVED`. The arithmetic `F4[5]` quotient is retained only as an
+inactive counterfactual requiring Charles's explicit reauthorization; it does not enter the current
+count. Common-factor cancellation is algebra, not a local conformal gauge theorem, and measured
+`c_E` and `G_obs` remain active observational anchors in the calibrated physical-metric reading.
 
-## Maxwell reminder
+## What survives unchanged
 
-The post-July metric-native content is retained exactly. On a supplied toric branch, the metric gives
-a connection `S`, its curvature `F=dS`, and hence the identity `dF=0`. These add no independent field.
-They do not derive a preferred `U(1)`, Maxwell action, current, charge, normalization, or
-inhomogeneous equation. The historical full-Maxwell claim remains provenance-firewall evidence only.
+- the generic metric/coframe/`2+2` presentation counts;
+- the four-dimensional tangent count for a separately supplied nondegenerate rank-two projector;
+- the distinction between boundary trace data and bulk response;
+- the fact that curvature, Cartan data, metric-derived projectors, Kato transport, normalized
+  angular geometry, holonomies, and clock readouts are not automatically extra fields;
+- the conditional toric geometry `F=dS` and identity `dF=0`, without a derived `U(1)`, Maxwell
+  action, current, source, charge, normalization, or inhomogeneous equation; and
+- the conclusion that physical modes cannot be counted before a response, constraints, gauge
+  evolution, boundary data, and an initial-value problem are selected.
+
+## Correct closure order
+
+The first unresolved configuration gate is the complete four-dimensional extension and variation
+domain of the already-founded reciprocal pair. A complete off-shell response interface and
+finite-cell boundary/global data are downstream of that gate. Bootstrap remains a working
+same-solution admissibility hypothesis, not a local equation or optimizer. The complete action,
+native matter source, carrier emergence, boundary charge, unconditional mass, density closure, and
+selected completion all remain open.
 
 ## Evidence
 
-- 25 preregistered source paths are byte/size/SHA-256 frozen;
-- all seven realization branches and all twelve completion classes are represented exactly once;
-- nine local presentation counts, 20 constraint rows, 14 no-double-count objects, and ten response
-  sectors are recorded;
-- production verification passes 35 structural checks and all 18 exercised catch-proofs;
-- an independent standard-library implementation solves the symmetric-matrix, Lorentz-algebra, and
-  projector-tangent linear systems over exact rational arithmetic and passes 44 checks;
-- no production module is imported by the independent implementation.
+- the original 25-source freeze and preregistration remain unchanged historical evidence;
+- a four-source correction manifest adds the controlling founded-`phi` and CSN audits;
+- the original current-output hashes are preserved in `ORIGINAL_RESULT_HASHES.tsv`;
+- all seven historical realization/configuration branches and twelve completion classes remain
+  represented, but their present roles are explicitly typed;
+- production verification rejects promotions of the chosen scalar, founded `phi`, strong local
+  CSN, generic arena rank, Maxwell-like geometry, and physical modes;
+- the independent standard-library implementation reconstructs the generic rank arithmetic without
+  importing the production builder and separately checks the corrected scope labels.
 
-Repository gates and fresh adversarial review are recorded separately. The maximum conclusion is a
-bounded configuration/rank characterization, not an action, selected completion, physical mode
-count, matter emergence, scale law, or bootstrap theorem.
+Maximum conclusion: a corrected bounded configuration/rank characterization. It is not a native
+field count, action, selected completion, dynamics, matter emergence, scale law, or bootstrap
+theorem.
 
 ## Four evidence gates
 
-1. **Preregistered:** yes, commit `ccd3334` before outcome generation.
-2. **Full or bounded scope:** complete for the frozen seven-branch/twelve-completion registry;
-   arbitrary global manifolds and unsupplied field inventories remain explicitly uncounted.
-3. **Independent load-bearing verification:** yes, exact rational reconstruction independent of the
-   production builder.
-4. **Premise audited:** yes, including challenged local CSN, boundary-versus-bulk typing, derived
-   readouts, conditional toric data, and absent action/source.
+1. **Preregistered:** original audit yes at `ccd3334`; append-only correction yes at `b6397a3`.
+2. **Full or bounded:** complete for the frozen generic-rank arithmetic and registered
+   branch/completion universe; native complete-coframe selection remains open.
+3. **Independent:** exact rational reconstruction of the generic linear algebra; semantic source
+   precedence is mechanically checked against separate controlling artifacts. No external-model
+   semantic review was authorized, so that optional review remains open.
+4. **Premises:** founded `phi`, chosen comparison scalar, inactive strong local CSN, measured
+   anchors, carrier, action, bootstrap, Maxwell-like geometry, `X_max`, Hopfion, boundary, source,
+   and mass scopes are explicitly guarded by `../CURRENT_SCIENTIFIC_PREMISES.tsv`.
 
-Grade: `VERIFIED-WITH-CAVEATS`. The repository gates pass. A separate external semantic review was
-not authorized by the execution environment, so the fresh-context gate remains explicitly open;
-no repository content was transmitted.
+Grade: `VERIFIED-WITH-CAVEATS_CORRECTED` after repository-gate replay.

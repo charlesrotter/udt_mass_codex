@@ -1,5 +1,12 @@
 # Research registry semantics
 
+This directory's tables govern artifact navigation and reorganization classification. They do not
+govern scientific premise meanings. For current scientific source precedence use
+[`CURRENT_SCIENTIFIC_PREMISES.tsv`](../../CURRENT_SCIENTIFIC_PREMISES.tsv), after reading
+[`LIVE.md`](../../LIVE.md) and [`HANDOFF.md`](../../HANDOFF.md). Its human-readable explanation is
+[`CURRENT_SCIENTIFIC_PREMISES.md`](../../CURRENT_SCIENTIFIC_PREMISES.md). A conflict is a mandatory
+stop. The scientific registry does not rewrite any fixed reorganization snapshot.
+
 `ROOT_OWNERSHIP.tsv` and `MIGRATION_READINESS.tsv` are fixed-base R1C audit snapshots. Their
 `current_path` field names the path that existed at the R1C fixed base; it is not rewritten after a
 later authorized migration. The R1C recommendation and verification records are likewise historical

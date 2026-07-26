@@ -2,26 +2,43 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-**⚠ BRANCH: work is on `grok` (2026-07-25).** If not on it: `git checkout grok`. `main` is stale for this arc.
+**⚠ BRANCH: work is on `grok` (2026-07-26).** If not on it: `git checkout grok`. `main` is stale for this arc.
 **The topmost CURRENT STATE block below is the only current frontier** — read it and stop.
 Stale historical frontier layers live under `archive/LIVE_historical_frontier_through_2026-07-08.md`
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's topmost CURRENT STATE block, that block wins.**
 
-## ============ CURRENT STATE (2026-07-25 — GLOBAL-LOCAL RELATIONAL-CLOSURE AUDIT COMPLETE, VERIFIED-WITH-CAVEATS. THE TWO CONCEPTUAL LEADS JOIN INTO ONE COHERENT TESTABLE ARCHITECTURE, NOT A DERIVED PHYSICAL CLOSURE. RECIPROCAL DEPTH IS A CONTRACTIBLE NONCOMPACT WEIGHTING COORDINATE AND CANNOT WIND BY ITSELF; COMPACT ANGULAR PHASES CAN CARRY WINDING. WITH TWO SUPPLIED PERIODIC PHASES, FULL PHI RANGE, AND PRIMITIVE OPPOSITE CAPS, THE EXACT NORMALIZED WEIGHTS W1=EXP(-2PHI)/(2COSH(2PHI)) AND W2=EXP(2PHI)/(2COSH(2PHI)) GIVE THE CONDITIONAL HOPF COORDINATE PATTERN, S3 COMPLETION, AND UNIT HOPF CLASS. UDT HAS NOT SELECTED THE PHYSICAL ANGULAR SLOTS, LIFT, CAPS, QUOTIENT, CARRIER, ACTION, SOURCE, OR BOUNDARY. THE CURRENT CLOCK/TRANSVERSE COCYCLE IS A REDUCIBLE DIRECT SUM; LOCAL LINEAR CLOCK-TO-SCREEN SOLDERING IS SO(2)-OBSTRUCTED WITHOUT A SCREEN REDUCTION, BUT THIS DOES NOT FORBID A GLOBAL NONLINEAR SHARED-SOLUTION JOIN. TOPOLOGY ALONE IS NOT MATTER OR A SOURCE. AN ACTION MAY BE DOWNSTREAM ONLY OF A FIRST-DERIVED OFF-SHELL GLOBAL-LOCAL RESPONSE ONE-FORM THAT PASSES LOCAL HELMHOLTZ, GAUGE, FINITE-CELL BOUNDARY/CORNER, AND GLOBAL-PERIOD TESTS; IT CANNOT BE RECONSTRUCTED FROM AN ON-SHELL DENSITY WINDOW OR ROOT SET. THE SMALLEST MISSING NATIVE OBJECT IS THAT COMPLETE RESPONSE ONE-FORM. ZERO OF 28 EQUATION FAMILIES AND ZERO OF 12 COMPLETION FAMILIES SUPPLIES A COMPLETE SAME-SOLUTION WITNESS. NEXT: AUDIT POST-JULY CANDIDATES FOR THE MISSING OFF-SHELL RESPONSE INTERFACE; IF NONE SURVIVES, DERIVE THE BOOTSTRAP-TO-LOCAL RESPONSE MAP. NO DENSITY SWEEP, ACTION GUESS, CARRIER ADOPTION, MATTER/TIME-LIVE/GPU SOLVE, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-26 — FOUNDATIONAL SEMANTIC REGRESSION CORRECTED AND GUARDED. THE JULY-25 GLOBAL-LOCAL ARCHITECTURE REMAINS, BUT THE LATER DOF AUDIT'S NATIVE INTERPRETATION IS SUPERSEDED: PHI IS THE DERIVED ADDITIVE LOG DEPTH OF THE FOUNDED RECIPROCAL CLOCK/RULER PAIR AND IS NOT AN EXTRA INDEPENDENT NATIVE SCALAR. THE F4[6] RESULT IS ONLY THE GENERIC FOUR-DIMENSIONAL METRIC CONFIGURATION ARENA, NOT A SELECTED UDT FIELD OR MODE COUNT. THE FULL ANGULAR/MIXING EXTENSION OF THE FOUNDED PAIR AND ITS VARIATION DOMAIN REMAIN OPEN. STRONG LOCAL CSN IS CHALLENGED_OWNER_POSTULATE_NOT_DERIVED AND INACTIVE WITHOUT EXPLICIT OWNER REAUTHORIZATION; C_E AND G_OBS REMAIN OBSERVATIONAL ANCHORS. ALL CARRIER, ACTION, BOOTSTRAP, MAXWELL-LIKE, X_MAX, HOPFION, SOURCE, BOUNDARY, AND MASS PREMISE LEVELS ARE NOW MACHINE-INDEXED. NO NEW PHYSICS OR DERIVATION IS AUTHORIZED BY THIS CORRECTION.) ============
+
+**FOUNDATIONAL PRECEDENCE CORRECTION:** read `CURRENT_SCIENTIFIC_PREMISES.md` and its TSV before
+reusing an older atlas or result. If `LIVE.md`, that registry, and its cited evidence conflict,
+stop. Do not select the source that makes a desired result easiest. The correction package is
+`udt_foundational_semantic_regression_correction_2026-07-26/`; the append-only correction to the
+DOF audit is in `udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md`.
 
 **READ NEXT, IN ORDER:**
 
 1. `HANDOFF.md` current marked block.
-2. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` top/current overlay.
-3. `udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md`, then
+2. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+3. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` top/current overlay.
+4. `udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md`, then its
+   corrected `AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`, and `NEXT_STEP.md`.
+5. `udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md`, then
    `STATUS_LEDGER.tsv`, `DEPENDENCY_ARCHITECTURE.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
-4. `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md` only when the parent
+6. `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md` only when the parent
    screen-projector, density-response, equation-family, or completion-family evidence is
    load-bearing.
 
 **CURRENT HONEST CLAIM:**
 
+- founded `phi` identity and inverse-exponential pair action are `DERIVED`; physical pair/path
+  assignment, realized profile, unique full 4D extension, variation, dynamics, and completion are
+  `OPEN`;
+- an independent scalar is a `CHOSE_COMPARISON_CONFIGURATION`, not native field ownership;
+- `F4[6]` is the generic metric arena modulo coordinate presentation; native UDT reduced rank and
+  propagating modes remain `OPEN`;
+- strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` and inactive; measured `c_E` and
+  `G_obs` remain active observational anchors;
 - `OPEN_COHERENT_ARCHITECTURE` is the overall ruling; it is not matter emergence or action closure;
 - reciprocal depth is `DERIVED_CONTRACTIBLE` and can weight the angular orbit, but cannot carry
   winding or Hopf charge by itself;
@@ -37,8 +54,9 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 - an action is downstream only `CONDITIONAL` on a native off-shell response that is locally
   variational, gauge-compatible, boundary-integrable, and globally exact or period-controlled;
 - an on-shell admissibility window or a set of realized roots does not determine an action;
-- the smallest missing native object is a metric-native off-shell global-local response one-form
-  on the complete field and finite-cell boundary configuration space;
+- once the complete founded extension and variation domain are selected, the next missing object is
+  a metric-native off-shell global-local response one-form on that complete field and finite-cell
+  boundary configuration space;
 - zero of 28 equation families and zero of 12 completion families closes the same
   metric-matter-boundary solution;
 - the prior clock-projector and density-variation results retain their exact parent scopes;
@@ -46,19 +64,20 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 - complete action, native source, physical boundary, carrier emergence, mass, density closure,
   scale, and time-live persistence remain `OPEN`.
 
-**NEXT:** perform the preregistered post-July off-shell response availability audit. Require a
-complete varied-field domain, metric/matter response, trace-free angular response, same-solution
-mass-volume-density dependence, differentiable finite-cell boundary/global variation, and native
-provenance. If no candidate survives, derive the bootstrap-to-local response map. Do not replace
-the missing response with a density sweep, action ansatz, carrier adoption, or GPU solve.
+**NEXT SCIENTIFIC GATE, NOT AUTOMATICALLY AUTHORIZED:** determine whether registered UDT structure
+selects a complete four-dimensional angular/mixing extension and variation domain for the already
+founded reciprocal pair. The complete off-shell response, action, source, and boundary chain is
+downstream. Do not replace the missing extension with a generic metric count, independent scalar,
+strong local CSN, density sweep, action ansatz, carrier adoption, or GPU solve.
 
-**EVIDENCE:** pinned SymPy 1.14.0 production replay passed 43 exact checks; an independently
-structured standard-library/Fraction replay passed 18 checks; seven of seven exercised false
-promotions were rejected. The registered scope covers eight bootstrap routes, 28 equation
-families, and 12 completion families. CPU only and hash-manifested. Tests remain 70 passed/1
-xfailed; six frozen packages, 1,114 current paths, frontier targets, and the original dirty
-checkout's 55 metadata-only paths remain unchanged. Grade `VERIFIED-WITH-CAVEATS`; no fresh
-external-model semantic review was used.
+**EVIDENCE:** the correction covers 16 premise guards, 754 frozen candidate paths, six exact
+supersessions, 28 production catches, and 51 independent standard-library checks. The corrected DOF
+package passes 45 production checks, 22 catches, and 52 independently reconstructed checks. The
+parent global-local result retains its 43 exact and 18 independent checks. CPU only and
+hash-manifested. Tests remain 70 passed/1 xfailed; six frozen packages (127 entries/133 paths),
+1,114 current paths, 101 frontier targets, and the original dirty checkout's 55 metadata-only paths
+remain unchanged. Grade `VERIFIED-WITH-CAVEATS_CORRECTED`; no fresh external-model semantic review
+was used.
 
 **REORGANIZATION:** R0--R1H remains paused. This checkpoint changes navigation only.
 

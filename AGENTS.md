@@ -29,48 +29,51 @@ after the user's actual task makes them load-bearing.
    `CURRENT STATE` overrides every other status description. Do not read the remaining historical
    layers at startup.
 2. `HANDOFF.md` — read only its `STARTUP_CURRENT_BEGIN` / `STARTUP_CURRENT_END` range.
-3. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay.
-4. `udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md`, then its
+3. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`. This is the current
+   source-precedence index for high-risk foundational terms. It is not canon and cannot overrule
+   `LIVE.md`; any disagreement between it, `LIVE.md`, and its cited source is a mandatory stop.
+4. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay.
+5. `udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `DEPENDENCY_ARCHITECTURE.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
    This is the current bounded result: reciprocal depth and conditional angular topology form a
    coherent architecture, but topology is not yet matter and an action can be downstream only of a
    first-derived complete off-shell global-local response.
-5. `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`, then its
+6. `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `BOOTSTRAP_ROUTE_LEDGER.tsv`, `EQUATION_FAMILY_GATE_MATRIX.tsv`,
    `COMPLETION_BOOTSTRAP_ATLAS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and
    `NEXT_STEP.md` only when its parent evidence is load-bearing. A simple screen tidal spectrum plus
    `det(T+a^2 I)=0` selects a conditional intrinsic clock-matched line, while parallelism, global
    descent, path-cocycle completion, and the native matter response remain separate open gates.
-6. `udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md` only when the parent
+7. `udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md` only when the parent
    pointwise generator, screen-line, or path-cocycle premises become load-bearing.
-7. The observer longitudinal/transverse cocycle, relational-depth, clock-operator,
+8. The observer longitudinal/transverse cocycle, relational-depth, clock-operator,
    complete-metric separation, and `X_max` packages named by the frontier only when their exact
    path, bilocal, local-neutrality, or global-diameter premises become load-bearing.
-8. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
+9. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
    `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and `REGRESSION_GUARD_LEDGER.tsv`
    only when a prior complete-metric, bootstrap, or regression-guard claim is load-bearing. This
    is a prior evidence-linked routing layer, not authority over its cited evidence.
-9. `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
+10. `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
    `CLAIM_DEPENDENCY_LEDGER.tsv` and `OPEN_JOIN_LEDGER.tsv`, then
    `REFERENCE_CORRECTION_LAYER.md`, `REVIEW_AGREEMENT_DISAGREEMENT.tsv`, and `PONDER_READOUT.md`.
    The frozen reference plus append-only cold-review layer is a prior dependency spine, not
    authority over its cited evidence.
-10. `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`, then
+11. `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`, then
    `angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv` when the conditional global Hopf
    theorem is relevant.
-11. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` only when the exact reciprocal
+12. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` only when the exact reciprocal
    Hopf-orbit witness or its provenance becomes load-bearing, then
    `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` for the preceding carrier/topology
    classification only when that layer is relevant.
-12. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task; none are
+13. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task; none are
    part of generic startup orientation.
-13. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
+14. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
    is durable lane evidence, not the global frontier.
-14. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline only; do not dump the
+15. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline only; do not dump the
    whole charter at startup.
-15. Only the specific full protocol under `.claude/skills/*/SKILL.md` triggered by the actual task;
+16. Only the specific full protocol under `.claude/skills/*/SKILL.md` triggered by the actual task;
    do not preload every skill.
-16. The top/current summary in `INDEX.md` and `MEMORY.md`'s `TOP — CURRENT POINTER` for pointers only;
+17. The top/current summary in `INDEX.md` and `MEMORY.md`'s `TOP — CURRENT POINTER` for pointers only;
     neither can overrule `LIVE.md`.
 
 For the 1,114 fixed-base artifact identities, use
@@ -94,11 +97,11 @@ response, source, and boundary remain unselected. The present clock/transverse c
 reducible direct sum; its local linear solder is screen-gauge obstructed, without ruling out a
 global nonlinear shared-solution join. Topology alone is not matter. An action can be downstream
 only after UDT derives a complete off-shell global-local response one-form and that response passes
-local Helmholtz, gauge, finite-cell boundary/corner, and global-period gates. The next bounded task
-is the post-July response-availability audit specified in
-`udt_global_local_relational_closure_audit_2026-07-25/NEXT_STEP.md`; if none survives, derive the
-bootstrap-to-local response map. Do not launch a density sweep or guess an action before that
-response interface exists.
+local Helmholtz, gauge, finite-cell boundary/corner, and global-period gates. The later post-July
+response census and bootstrap-map work did not close that interface. The current correction moves
+the dependency gate earlier: first determine whether UDT selects the complete founded coframe
+extension and variation domain. Do not infer that selection from the generic metric arena, a chosen
+independent scalar, strong local CSN, a density sweep, or an action guess.
 
 The prior observer-pair chain derives the abstract ordered reciprocal operator with founding-premise
 stamps and narrows its global input to an observer-indexed bilocal depth type, conditional on an open
@@ -140,6 +143,20 @@ Do not rely on conversational memory. Disk evidence wins.
 ## Binding UDT research rules
 
 - Remain pure to UDT: **the metric is the theory**.
+- Founded `phi` is the **derived additive logarithmic depth** of the reciprocal clock/ruler pair,
+  acting as `diag(exp(-phi),exp(phi))`. Its physical observer/path assignment, profile, complete 4D
+  extension, variation, dynamics, boundary, and global completion remain open; those open joins may
+  not demote its identity to a placeholder or promote it to an extra native scalar.
+- Independently varying a scalar in an older atlas is `CHOSE_COMPARISON_CONFIGURATION`, not native
+  field ownership. A generic `F4[6]` metric quotient is a **generic configuration-arena count**, not
+  a UDT propagating-mode count or selected native field census.
+- Strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` and inactive unless Charles explicitly
+  reauthorizes that counterfactual premise. Common-factor cancellation is algebra, not a local Weyl
+  gauge theorem. Measured `c_E` and `G_obs` remain observational anchors in the calibrated
+  physical-metric reading.
+- Before banking any field census, action selector, scale argument, bootstrap claim, Maxwell-like
+  claim, carrier result, `X_max` result, or mass/source/boundary claim, run
+  `python3 verify_current_scientific_premises.py` and cite the controlling registry row.
 - Trace every claimed result explicitly to the UDT metric and the stated matter carrier.
 - Keep the macro WR-L lane separate from the particle-mass/carrier lane.
 - Do not import Lambda-CDM, Standard Model physics, quantum mechanics, QED, GR field equations,

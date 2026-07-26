@@ -4,7 +4,7 @@ X02	strong local CSN subtracted in primary count	PASS_REJECTED
 X03	reciprocity promoted to spacetime equation	PASS_REJECTED
 X04	regularity counted as equality	PASS_REJECTED
 X05	finite-cell ontology counted locally	PASS_REJECTED
-X06	seal trace removes bulk phi	PASS_REJECTED
+X06	seal trace changes chosen comparison count	PASS_REJECTED
 X07	derived curvature double counted	PASS_REJECTED
 X08	dF identity counted dynamically	PASS_REJECTED
 X09	Maxwell field imported	PASS_REJECTED
@@ -17,3 +17,7 @@ X15	constraint domain erased	PASS_REJECTED
 X16	same code labeled independent	PASS_REJECTED
 X17	completion preferred	PASS_REJECTED
 X18	local rank promoted to global solution count	PASS_REJECTED
+X19	chosen independent scalar promoted to native field	PASS_REJECTED
+X20	founded phi demoted to conditional readout	PASS_REJECTED
+X21	strong local CSN activated	PASS_REJECTED
+X22	native UDT rank invented from generic arena	PASS_REJECTED

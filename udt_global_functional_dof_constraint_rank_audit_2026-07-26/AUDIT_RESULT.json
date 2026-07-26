@@ -1,8 +1,9 @@
 {
+  "chosen_comparison_metric_plus_independent_scalar": "F4[7]_NOT_NATIVE_OWNERSHIP",
   "complete_native_bulk_response": "ABSENT",
   "completion_rows": 12,
-  "conditional_strong_local_CSN_metric": "F4[5]",
   "constraint_rows": 20,
+  "counterfactual_strong_local_CSN_metric": "F4[5]_INACTIVE_WITHOUT_EXPLICIT_REAUTHORIZATION",
   "derived_no_double_count_rows": 14,
   "dimensions": {
     "coframe_components": 16,
@@ -19,13 +20,14 @@
     "symmetric_metric_components": 10,
     "symmetric_screen_block": 3
   },
-  "generic_metric_plus_independent_phi": "F4[7]",
+  "founded_phi_additional_native_field_count": 0,
   "generic_metric_quotient": "F4[6]",
+  "native_founded_complete_extension_rank": "OPEN",
   "presentation_rows": 9,
   "propagating_modes": "NOT_EVALUABLE",
   "realization_branches": 7,
   "response_sectors": 10,
   "selected_completion": null,
-  "smallest_missing_closure_type": "COMPLETE_RESPONSE_INTERFACE_PLUS_GLOBAL_BOUNDARY_DATA",
-  "status": "REGISTERED_CONFIGURATION_FREEDOM_AND_CONSTRAINT_RANK_CHARACTERIZED"
+  "smallest_missing_closure_type": "FOUNDED_COMPLETE_EXTENSION_AND_VARIATION_DOMAIN_THEN_RESPONSE_AND_GLOBAL_BOUNDARY",
+  "status": "CORRECTED_GENERIC_ARENA_RANK_CHARACTERIZED__NATIVE_FOUNDED_EXTENSION_RANK_OPEN"
 }
