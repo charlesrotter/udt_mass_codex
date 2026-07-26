@@ -1,0 +1,17 @@
+id	protected_claim	failure_condition	disposition
+F01	candidate_universe_complete	any FC01-FC12 completion row omitted or duplicated	invalidate census
+F02	configuration_universe_complete	any corrected Q01-Q04 configuration omitted or duplicated	invalidate census
+F03	branch_universe_complete	any registered branch-cocycle row omitted or duplicated	invalidate census
+F04	taxonomy_not_metric_witness	parametric completion rule counted as solved metric without profile/domain/joins	reject witness
+F05	B19_line_not_intrinsic	one chosen Hopf axis promoted despite round-isometry degeneracy	reject witness
+F06	squashed_status_retained	off-shell squashed control promoted on shell	reject witness
+F07	WRL_not_spliced	WRL lapse or phi profile attached to a complete S3 branch	invalidate audit
+F08	coordinate_time_not_founded_depth	closed dt line labeled founded reciprocal depth without solder/normalization	reject witness
+F09	nonclosed_line_not_exact	nonzero exterior derivative labeled exact	reject witness
+F10	orientation_disclosed	orientation-dependent motif retained after orientation is removed	reject reduction
+F11	ruler_sign_disclosed	n-sign-odd motif retained under unoriented ruler axis	reject reduction
+F12	global_vector_not_metric_selection	existence of a smooth vector field used as proof of intrinsic selection	reject witness
+F13	independent_recomputation_required	production result accepted without independent reconstruction	downgrade to lead
+F14	no_higher_jet_escape	failure of first-jet pullback triggers invented higher-jet rule	invalidate scope
+F15	no_physics_promotion	result selects action carrier source density bootstrap Xmax or dynamics	invalidate scope
+F16	frozen_and_navigation_gates	frozen packages current paths links frontier tests or dirty metadata change	invalidate banking

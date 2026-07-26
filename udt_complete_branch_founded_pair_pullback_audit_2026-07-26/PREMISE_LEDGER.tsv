@@ -1,0 +1,19 @@
+id	premise	status	scope
+P01	metric_is_the_theory	PINNED_BY_THEORY	binding UDT method
+P02	c_observational_calibration	PINNED_BY_THEORY	registered clock calibration; no branch selection
+P03	founded_phi_real_additive_reciprocal_coordinate	DERIVED	group coordinate; spacetime assignment still open
+P04	supplied_pair_first_jet_basis_22	DERIVED_BOUNDED	linear in first derivatives and SO2 equivariant
+P05	global_pair_selection	OPEN	must be tested branch by branch
+P06	screen_orientation	FREE_AND_EXPLORED	orientation-dependent motifs separately disclosed
+P07	ruler_axis_sign	FREE_AND_EXPLORED	n-sign parity separately disclosed
+P08	FC01_FC12_completion_taxonomy	PINNED_BY_SOURCE	parametric classes not automatically metric witnesses
+P09	B19_round_S3	CONDITIONAL_COMPLETE_ON_SHELL_SPATIAL_ULTRASTATIC	conditional C2/Bach provenance retained
+P10	squashed_S3	COMPLETE_OFF_SHELL_CONTROL	not observed as a root
+P11	WRL	LOCAL_INCOMPLETE	no global all-observer recentering
+P12	temporal_phi_family	CONDITIONAL_INCOMPLETE	no complete branch
+P13	complete_action	OPEN	not selected
+P14	carrier_and_source	OPEN	not selected
+P15	boundary_and_scale_closure	OPEN	unless supplied by a concrete representative
+P16	density_and_bootstrap	OPEN_EXCLUDED	no sweep or optimizer
+P17	Xmax	OPEN_EXCLUDED	no calculation
+P18	cross_branch_splicing	FORBIDDEN	B19 completeness and WRL clock stay separate
