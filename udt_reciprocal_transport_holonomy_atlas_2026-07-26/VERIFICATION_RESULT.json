@@ -1,0 +1,33 @@
+{
+  "catch_count": 19,
+  "catch_proofs": {
+    "Kato_selector": "PASS",
+    "duplicate_route": "PASS",
+    "independent": "PASS",
+    "minus_one_unconditional": "PASS",
+    "missing_cell": "PASS",
+    "missing_holonomy": "PASS",
+    "missing_route": "PASS",
+    "on_shell_cell": "PASS",
+    "ordinary_twisted_conflation": "PASS",
+    "pathwise_as_path_independent": "PASS",
+    "phi_zero_vacuity": "PASS",
+    "physics_import": "PASS",
+    "plus_one_unconditional": "PASS",
+    "production": "PASS",
+    "scalar_selector": "PASS",
+    "simple_connectivity": "PASS",
+    "singular_promotion": "PASS",
+    "source": "PASS",
+    "zero_as_LC": "PASS"
+  },
+  "finite_cell_families": 12,
+  "grade": "VERIFIED_WITH_CAVEATS",
+  "holonomy_strata": 15,
+  "independent_checks": 35,
+  "production_checks": 50,
+  "result": "PASS",
+  "routes": 12,
+  "schema": "udt-reciprocal-transport-holonomy-verification-1.0",
+  "source_identities": 18
+}

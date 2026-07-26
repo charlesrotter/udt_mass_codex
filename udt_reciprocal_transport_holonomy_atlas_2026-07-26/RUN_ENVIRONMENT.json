@@ -1,0 +1,21 @@
+{
+  "cpu_only": true,
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "runs": {
+    "independent": {
+      "command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 udt_reciprocal_transport_holonomy_atlas_2026-07-26/verify_transport_independent.py",
+      "exit_code": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "c8ff5f42059b0a178543ec7fc770627e0d7a4685d8d8e0e476e88a75495a8d01"
+    },
+    "production": {
+      "command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 udt_reciprocal_transport_holonomy_atlas_2026-07-26/derive_transport_holonomy.py",
+      "exit_code": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "16cdbdb7d9061c77fc1713eb3cf8fdfb9127525258744ff7e4790129fa0296ce"
+    }
+  },
+  "schema": "udt-reciprocal-transport-holonomy-run-environment-1.0",
+  "sympy": "1.13.1"
+}
