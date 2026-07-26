@@ -1,0 +1,11 @@
+id	variation_sector	variation_signature	current_response_status	coverage_requirement
+R01	metric_variations	F4[10]_RAW__F4[6]_MOD_COORDINATES	ABSENT_COMPLETE_NATIVE_RESPONSE	response must pair with every allowed symmetric metric variation and obey gauge identities
+R02	independent_phi_variations_C02	F4[1]	ABSENT	needed only if phi is an independent field
+R03	reciprocal_reduction_solder_variations_C03	U[REDUCTION_FIELD]	FIELD_DOMAIN_UNSPECIFIED	must first decide whether reduction is derived or varied
+R04	supplied_projector_variations_C04	F4[4]	ABSENT	conditional diagnostic branch cannot select its own projector
+R05	multiplier_and_constraint_variations_C05	U[MULTIPLIERS]	FIELD_CENSUS_UNSPECIFIED	constraint number and independence remain open
+R06	representative_and_bridge_variations_C06	U[SECTION_AND_MAP]	ABSENT	pre/post-scale bridge needs its own response
+R07	independent_connection_variations_C07	U[CONNECTION_BUNDLE]	FIELD_CENSUS_UNSPECIFIED	connection type metric relation and boundary response absent
+R08	finite_cell_boundary_and_corner_variations	U[BOUNDARY_COVECTORS]	ABSENT	static phi trace is not complete boundary polarization
+R09	global_moduli_topology_and_period_variations	Z+U[GLOBAL_MODULI]	ABSENT_OR_DISCRETE	global exactness and periods remain uncontrolled
+R10	same_solution_mass_volume_density_feedback	O[NOT_EVALUABLE]	ABSENT	native source and complete solution are prerequisites

@@ -1,0 +1,15 @@
+id	object	parent	additional_continuous_field_signature	scope
+D01	base_screen_shift_h_q_A	metric_reparameterization	F4[0]	ten chart functions already equal the metric inventory
+D02	Levi_Civita_connection	metric_first_derivative	F4[0]	derived evaluator on regular metric branch
+D03	Riemann_Ricci_Weyl_Cartan_curvature	metric_two_jet	F4[0]	curvature is a readout not an extra field
+D04	spectral_projectors_and_motifs	metric_or_curvature_readout	F4[0]	adds F4[4] only on separately supplied C04 plane branch
+D05	Kato_projector_transport	metric_plus_projector_path_readout	F4[0]	transport law does not select projector or metric
+D06	normalized_angular_metric_H	angular_metric_block_readout	F4[0]	common normalization does not select physical scale
+D07	torus_shift_connection_S	metric_block_plus_supplied_torus_split	F4[0]	conditional connection schema not new matter field
+D08	torus_curvature_F_equals_dS	derived_from_S	F4[0]	F is not independent
+D09	homogeneous_identity_dF_equals_zero	exterior_calculus_identity	F4[0]	not the inhomogeneous Maxwell equation
+D10	selected_circle_A_equals_wT_S	S_plus_supplied_integral_character	F4[0]+Z[w]	U1 character selection remains conditional
+D11	Maxwell_action_current_charge	not_derived	O[OPEN]	historical/imported equations have zero native authority here
+D12	Levi_Civita_Kato_torus_holonomies	nonlocal_readouts	F4[0]	distinct readouts; none is independent field data
+D13	Hopf_or_Chern_class	conditional_global_invariant	Z[class]_DERIVED_AFTER_GLOBAL_INPUTS	not a carrier section action or source
+D14	observer_pair_clock_cocycle	metric_plus_typed_path_readout	F4[0]	physical path and founding depth solder remain open

@@ -1,0 +1,31 @@
+{
+  "complete_native_bulk_response": "ABSENT",
+  "completion_rows": 12,
+  "conditional_strong_local_CSN_metric": "F4[5]",
+  "constraint_rows": 20,
+  "derived_no_double_count_rows": 14,
+  "dimensions": {
+    "coframe_components": 16,
+    "coframe_configuration_quotient": 6,
+    "conditional_local_conformal_generator": 1,
+    "coordinate_presentation_functions": 4,
+    "independent_scalar_components": 1,
+    "local_lorentz_generators": 6,
+    "metric_configuration_quotient": 6,
+    "rank_two_plane_components": 4,
+    "shift_block": 4,
+    "spacetime_dimension": 4,
+    "symmetric_base_block": 3,
+    "symmetric_metric_components": 10,
+    "symmetric_screen_block": 3
+  },
+  "generic_metric_plus_independent_phi": "F4[7]",
+  "generic_metric_quotient": "F4[6]",
+  "presentation_rows": 9,
+  "propagating_modes": "NOT_EVALUABLE",
+  "realization_branches": 7,
+  "response_sectors": 10,
+  "selected_completion": null,
+  "smallest_missing_closure_type": "COMPLETE_RESPONSE_INTERFACE_PLUS_GLOBAL_BOUNDARY_DATA",
+  "status": "REGISTERED_CONFIGURATION_FREEDOM_AND_CONSTRAINT_RANK_CHARACTERIZED"
+}

@@ -1,0 +1,9 @@
+{
+  "branches": 7,
+  "catch_proofs": 18,
+  "completions": 12,
+  "independent_status": "PASS",
+  "production_checks": 35,
+  "source_hashes": 25,
+  "status": "PASS"
+}
