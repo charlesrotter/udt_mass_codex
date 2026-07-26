@@ -1,0 +1,21 @@
+contract_id	forbidden_promotion_or_failure	required_result
+F01	Any unregistered structural channel or output silently added	REJECT
+F02	Neutral_point expansion or linearization substituted for full nonlinear expressions	REJECT
+F03	A torsion or curvature residual survives exact simplification	REJECT
+F04	Maurer_Cartan sign agrees only by circular reuse of the production formula	REJECT
+F05	First Bianchi checked without coframe integrability being explicit	REJECT
+F06	Second Bianchi asserted from numerical samples only	REJECT
+F07	Differential identity called a physical field equation or selector	REJECT
+F08	Levi_Civita choice called a UDT action	REJECT
+F09	Local chart coefficient called a global invariant without descent proof	REJECT
+F10	Individual triangular angular channels called frame independent	REJECT
+F11	Any of the 12 completion classes omitted duplicated or silently selected	REJECT
+F12	FC11 nonintegrable distribution claimed globally covered by a toric fibration chart	REJECT
+F13	Cap orbifold mirror or gluing behavior inferred from interior algebra alone	REJECT
+F14	Nonzero curvature coupling called matter force source or emergence	REJECT
+F15	Zero coupling promoted outside the torus_invariant regular chart	REJECT
+F16	Observed c_E or G promoted from calibration to bootstrap selector	REJECT
+F17	Lambda_CDM density called UDT-derived or used before a native response law	REJECT
+F18	Density sweep PDE solve time evolution or GPU launched	REJECT
+F19	Prior dphi 3plus3 transport result represented as the new full_coframe atlas	REJECT
+F20	Off_shell coframe family called a realized universe or on_shell branch	REJECT

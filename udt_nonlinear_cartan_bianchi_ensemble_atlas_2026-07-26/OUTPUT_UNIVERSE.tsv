@@ -1,0 +1,12 @@
+output_id	object	expected_representation	maximum_status
+O01	coframe_structure	4 exact two-form rows	DERIVED_IN_DOMAIN
+O02	coframe_integrability	3 right-Maurer-Cartan component identities plus scalar commutator	DERIVED_IDENTITY
+O03	levi_civita_connection	24 exact coefficients	DERIVED_IN_DOMAIN
+O04	curvature_two_forms	36 exact coefficients	DERIVED_IN_DOMAIN
+O05	torsion_and_metric_controls	exact zero residuals	VERIFICATION_CONTROL
+O06	first_bianchi	4 exact three-form zero residuals	DERIVED_IDENTITY
+O07	second_bianchi	graded-algebra exact cancellation	DERIVED_IDENTITY
+O08	nonlinear_family_graph	complete derivative and quadratic family census	OBSERVED_EXACT_ATLAS
+O09	completion_applicability	12 one-row classifications	OBSERVED_SCOPED_ATLAS
+O10	response_one_form_test	identity-versus-dynamics classification	OPEN_OR_NEGATIVE_IN_SCOPE
+O11	density_future_protocol	deferred imported-anchor and broad-bracket rule	WORKING_PROTOCOL_ONLY
