@@ -1,0 +1,13 @@
+route_id	route	input_data	premise_status	question
+R01	pathwise_Levi_Civita_transport	complete_metric;initial_X;one_curve	DERIVED_GIVEN_INPUTS	Does transport exist and preserve the lift type for every lambda?
+R02	ordinary_path_independent_section	holonomy;X_lambda	CHOSE_TEST_PREMISE	Which lambda lie in the holonomy centralizer?
+R03	full_Lorentz_holonomy	SOplus_1_3	FREE_EXPLORED_STRATUM	Can any founded nontrivial lift be globally parallel?
+R04	timelike_line_reduced_holonomy	SO3_preserving_u	FREE_EXPLORED_STRATUM	Does ordinary descent restrict lambda?
+R05	spacelike_line_reduced_holonomy	SOplus_1_2_preserving_n	FREE_EXPLORED_STRATUM	Does ordinary descent restrict lambda?
+R06	ordered_pair_screen_holonomy	SO2_preserving_u_n	FREE_EXPLORED_STRATUM	Does ordinary descent leave the family free?
+R07	boost_screen_product_holonomy	SOplus_1_1_times_SO2	FREE_EXPLORED_STRATUM	Can the founded physical pair response commute with base boosts?
+R08	null_line_holonomy	null_stabilizer	FREE_EXPLORED_STRATUM	Can a regular semisimple pair lift survive?
+R09	reciprocal_inverting_twisted_descent	Z2_inverting_transition;phi_sign	CHOSE_CANDIDATE_ON_DERIVED_NORMALIZER_CAPABILITY	Which complete lifts transform as X_to_minus_X and D(phi)_to_D(-phi)?
+R10	Kato_or_projected_transport	moving_projector;metric_connection	CONDITIONAL_MATHEMATICAL_CONTROL	Does a corrected preserving connection select lambda or physics?
+R11	finite_cell_global_descent	complete_cell;restricted_holonomy;global_monodromy;seams	OPEN_OR_BRANCH_CONDITIONAL	Which additional gates occur in each completion family?
+R12	scalar_anchor_selection	c_E;G_obs;provisional_hbar	OBSERVED_OR_PROVISIONAL_SCALARS	Can scalar calibration select holonomy or bundle ontology?

@@ -1,0 +1,16 @@
+stratum_id	holonomy_or_transition	preserved_data	lambda_class	must_test
+H01	TRIVIAL	complete_frame	lambda_arbitrary	yes
+H02	SO2_SCREEN	ordered_u_n	lambda_arbitrary	yes
+H03	SO3_TIMELIKE_LINE	u	lambda_generic	yes
+H04	SO3_TIMELIKE_LINE	u	lambda_plus_1	yes
+H05	SO_PLUS_1_2_SPACELIKE_LINE	n	lambda_generic	yes
+H06	SO_PLUS_1_2_SPACELIKE_LINE	n	lambda_minus_1	yes
+H07	SO_PLUS_1_1_TIMES_SO2	base_plane_and_screen	lambda_arbitrary	yes
+H08	SO_PLUS_1_3_FULL	metric_only	lambda_arbitrary	yes
+H09	NULL_STABILIZER	null_line	lambda_arbitrary	yes
+H10	RECIPROCAL_Z2_INVERSION	reciprocal_pair_line	lambda_zero	yes
+H11	RECIPROCAL_Z2_INVERSION	reciprocal_pair_line	lambda_plus_1	yes
+H12	RECIPROCAL_Z2_INVERSION	reciprocal_pair_line	lambda_minus_1	yes
+H13	RECIPROCAL_Z2_INVERSION	reciprocal_pair_line	lambda_generic	yes
+H14	UNKNOWN_PROPER_SUBGROUP	branch_specific	lambda_arbitrary	yes_source_audit
+H15	SINGULAR_OR_TYPE_CHANGING	regular_complement_only	lambda_arbitrary	yes_source_audit
