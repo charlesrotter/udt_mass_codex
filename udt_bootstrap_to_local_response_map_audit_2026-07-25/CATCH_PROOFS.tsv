@@ -1,0 +1,27 @@
+catch_id	mutation	expected_rejection	result
+C01	Delete one preregistered candidate	candidate universe mismatch	PASS
+C02	Duplicate one preregistered candidate	candidate universe mismatch	PASS
+C03	Add an unregistered candidate	candidate universe mismatch	PASS
+C04	Call R04 complete while a gate is not PASS	complete-survivor equivalence	PASS
+C05	Promote the density window to an Euler equation	window promoted off shell	PASS
+C06	Call an on-shell filter a response map	window promoted off shell	PASS
+C07	Call proper-volume trace a native angular response	volume trace promoted	PASS
+C08	Call an unsupplied mass functional native	unsupplied mass promoted	PASS
+C09	Replace a density number with its functional derivative	algebra ruling mismatch	PASS
+C10	Call static seal data a differentiable boundary response	boundary data promoted	PASS
+C11	Promote challenged strong CSN	strong CSN promoted	PASS
+C12	Promote observed c_E or G_obs to a response selector	observed anchor promoted	PASS
+C13	Call an unregistered dual pairing unique	multiobservable possibility promoted	PASS
+C14	Splice away the ontology fork	ontology fork removed	PASS
+C15	Change a source hash	source hash mismatch	PASS
+C16	Reduce bootstrap to density alone	multiobservable channel universe mismatch	PASS
+C17	Promote energy possibility to selected law	energy channel lost or promoted	PASS
+C18	Promote curvature possibility to selected law	curvature channel lost or promoted	PASS
+C19	Delete the multiobservable Jacobian structure	algebra ruling mismatch	PASS
+C20	Promote the density-channel obstruction to all channels	algebra ruling mismatch	PASS
+C21	Promote the incomplete global-to-local arrow to derived	global-to-local arrow promoted	PASS
+C22	Promote scalar extremization without a native objective	scalar extremization promoted without objective	PASS
+C23	Lose the owner's mutual-tuning meaning of optimization	owner tuning hypothesis lost	PASS
+C24	Conflate mutual tuning with scalar extremization	scalar extremization promoted	PASS
+C25	Call the density window ontology-independent	density window ontology promoted	PASS
+C26	Regress scalar extremization to ambiguous optimization label	scalar extremization label regressed	PASS

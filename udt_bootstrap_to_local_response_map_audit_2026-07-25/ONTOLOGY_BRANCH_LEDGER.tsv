@@ -1,0 +1,5 @@
+branch_id	physical_object	proper_volume_status	density_status	response_consequence	selection_status
+O01	CALIBRATED_METRIC_PRIMARY	Defined from the physical spatial metric and finite slice once the slice and boundary exist	Defined only after native M_total exists	Avoids a representative-selection stage but still lacks mass closure residual and boundary response	OPEN_BRANCH_NOT_SELECTED
+O02	CONFORMAL_CLASS_PRIMARY	Not physical on the class because h_to_Omega2h gives dV_to_Omega3dV in three spatial dimensions	Not class-invariant unless native mass has a compensating law or a physical representative is selected	Requires a derived section or a class-invariant replacement before density can enter the response	OPEN_BRANCH_CONDITIONAL_ON_CHALLENGED_CSN
+O03	BOTH_BRANCHES_COVERED_BY_ONE_MAP	Would require a native descent/equivalence theorem	Would require matched mass and volume weights plus response equivalence	No current theorem identifies the two response domains	ABSENT
+

@@ -1,0 +1,9 @@
+channel_id	parameter_family	available_exact_structure	possible_local_response	current_status	missing_data
+C01	NATIVE_TOTAL_ENERGY	A differentiable native E_total[X] would contribute D E_total[delta X]	May contain trace and tracefree metric matter and boundary channels	CONDITIONAL_FORM_ONLY	Native functional relation to mass fields normalization and boundary terms
+C02	TOTAL_PROPER_DENSITY	delta rho=(delta M-rho delta V)/V	Tracefree angular response equals delta M_TF/V up to the closure derivative and multiplier	DERIVED_CONDITIONAL_SKELETON	Native M functional center width equality placement and multiplier
+C03	SPACETIME_CURVATURE_DATA	Metric curvature scalars tensors spectra and integrals have differentiable candidates	Can contain tracefree angular response and higher-derivative boundary flux	CANDIDATE_FAMILY_NOT_SELECTED	Which local or global invariant averaging derivative order target and boundary completion
+C04	FINITE_CELL_BOUNDARY_AND_GLOBAL_DATA	Moving-domain volume has bulk and normal-shape channels	Can contribute seal corner gluing and modulus response	REQUIRED_TYPE_OPEN_FUNCTIONAL	Complete boundary functional polarization corners charge and gluing variation
+C05	OBSERVER_PAIR_DIAMETER_OR_XMAX	A complete metric can conditionally define diameter or supremum data	Could constrain a global modulus after distance and differentiability are supplied	OPEN_OUTPUT_NOT_RESPONSE	Native observer-pair distance attainment variation and coupling to other channels
+C06	HOLONOMY_TOPOLOGY_AND_ANGULAR_DATA	Continuous holonomy data may vary; a fixed discrete topology label has no within-sector infinitesimal	May constrain angular transport or separate sectors	MIXED_CONTINUOUS_AND_DISCRETE_OPEN	Selected connection sector transition and response pairing
+C07	OTHER_NATIVE_PARAMETERS	General observable derivative D O^I[delta X]	Unknown until the parameter is derived	OPEN_WILDCARD_NO_AFFIRMATIVE_CONTENT	Identity domain functional target and response
+

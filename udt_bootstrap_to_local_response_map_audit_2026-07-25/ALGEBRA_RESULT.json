@@ -1,0 +1,107 @@
+{
+  "check_count": 38,
+  "checks": {
+    "both_counterfamily_responses_integrable": "PASS",
+    "bulk_volume_first_variation": "PASS",
+    "c_and_G_do_not_select_density": "PASS",
+    "c_and_G_do_not_select_length": "PASS",
+    "conormal_normalization_free": "PASS",
+    "counterfamily_one_unique_root": "PASS",
+    "counterfamily_two_unique_root": "PASS",
+    "coupled_closure_full_differential": "PASS",
+    "coupled_closure_reduced_derivative": "PASS",
+    "curvature_integral_candidate_has_tracefree_bulk_response": "PASS",
+    "density_constraint_response": "PASS",
+    "density_quotient_rule": "PASS",
+    "diagonal_angular_direction_tracefree": "PASS",
+    "diagonal_tracefree_volume_blind": "PASS",
+    "dual_covector_changes_response": "PASS",
+    "fixed_boundary_drops_shape_channel": "PASS",
+    "fixed_point_counterfamily_different_response": "PASS",
+    "fixed_point_counterfamily_same_root": "PASS",
+    "invertible_remix_same_zero_set": "PASS",
+    "local_sensitivity_conditional_on_branch_invertibility": "PASS",
+    "moving_cell_volume_response": "PASS",
+    "multiobservable_chain_rule_weights": "PASS",
+    "multiobservable_cross_jacobian_nontrivial": "PASS",
+    "named_dual_response_depends_on_residual_basis": "PASS",
+    "no_mass_variation_no_angular_response": "PASS",
+    "non_density_component_can_carry_angular_response": "PASS",
+    "observable_only_skeleton_omits_direct_local_arrow": "PASS",
+    "offshell_extension_response_differs": "PASS",
+    "positive_offshell_extension_same_real_zero": "PASS",
+    "same_level_set_conormal_line": "PASS",
+    "same_root_different_offshell_responses": "PASS",
+    "shear_angular_direction_tracefree": "PASS",
+    "shear_tracefree_volume_blind": "PASS",
+    "three_volume_conformal_weight_three": "PASS",
+    "tracefree_density_response_mass_only": "PASS",
+    "vector_closure_jacobian_full_rank": "PASS",
+    "window_has_noncentral_interior_point": "PASS",
+    "window_interior_not_root_equation": "PASS"
+  },
+  "exact_objects": {
+    "bulk_volume_variation_density": "(a*b*dc + a*c*db + b*c*da)/(2*sqrt(a)*sqrt(b)*sqrt(c))",
+    "conformal_volume_ratio": "Omega**3",
+    "coupled_closure_full_differentials": [
+      "A_O*delta_O + A_X*delta_X",
+      "-R_X*delta_X + delta_O"
+    ],
+    "coupled_closure_reduced_response": "A_O*R_X*delta_X*lambda_A + A_X*delta_X*lambda_A",
+    "curvature_integral_TF_bulk_candidate": "-r1 + r2",
+    "curvature_integral_boundary_flux": "n^i(nabla^j H_ij - nabla_i tr(H))",
+    "density_variation": "(-M*dV + V*dM)/V**2",
+    "fixed_point_responses": [
+      "1",
+      "1/2"
+    ],
+    "level_set_conormal_1": [
+      "1",
+      "0"
+    ],
+    "level_set_conormal_2": [
+      "u**2 + 1",
+      "0"
+    ],
+    "local_branch_sensitivity": "-A_O/A_X",
+    "moving_cell_volume_variation": "A*dL + L*dA",
+    "multiobservable_angular_response": [
+      "e1*lambda_E + k1*lambda_K",
+      "e2*lambda_E + k2*lambda_K"
+    ],
+    "multiobservable_weights": [
+      "lambda_E + lambda_K",
+      "lambda_E + lambda_rho",
+      "lambda_K + lambda_rho"
+    ],
+    "observable_only_missing_term": "A_X*delta_X*lambda_A",
+    "offshell_counterfamily_alpha_1": [
+      "q",
+      "s"
+    ],
+    "offshell_counterfamily_alpha_2": [
+      "q + s/2",
+      "q/2 + s"
+    ],
+    "tracefree_density_response": "Fprime*dM_TF*eta/V",
+    "vector_closure_response_family": [
+      "lambda1 + lambda2",
+      "lambda1 - lambda2"
+    ]
+  },
+  "schema": "udt-bootstrap-to-local-response-algebra-1.0",
+  "structural_rulings": {
+    "curvature_candidate": "TRACEFREE_BULK_RESPONSE_MATHEMATICALLY_AVAILABLE_BUT_NOT_SELECTED_NATIVE_CLOSURE_COMPONENT",
+    "density_level_set": "CONDITIONAL_CONORMAL_LINE_NOT_SELECTED_ONE_FORM",
+    "density_window": "ON_SHELL_ADMISSIBILITY_NO_INTERIOR_RESPONSE",
+    "finite_cell": "VOLUME_HAS_SHAPE_CHANNEL_BUT_COMPLETE_MASS_BOUNDARY_RESPONSE_ABSENT",
+    "metric_ontology": "CALIBRATED_METRIC_AND_CONFORMAL_CLASS_BRANCHES_INEQUIVALENT",
+    "minimum_missing_object": "DIFFERENTIABLE_COUPLED_GLOBAL_LOCAL_CLOSURE_SECTION_PLUS_NATIVE_DUAL_PAIRING_AND_BRANCH_REGULARITY",
+    "multiobservable_bootstrap": "EXACT_COUPLED_TWO_ARROW_SKELETON_WITH_UNSELECTED_BRANCH_MAP_RECOMPUTATION_MAP_JACOBIAN_AND_DUAL_COVECTOR",
+    "observed_anchors": "c_E_AND_G_obs_CALIBRATE_BUT_DO_NOT_SELECT_RESPONSE_FUNCTIONAL",
+    "root_set": "DOES_NOT_SELECT_OFF_SHELL_RESPONSE_EVEN_WITH_INTEGRABILITY",
+    "self_consistency": "DOES_NOT_SELECT_FIXED_POINT_OPERATOR_OR_LINEARIZATION",
+    "tracefree_angular_channel": "NATIVE_MASS_VARIATION_OR_OTHER_CLOSURE_COMPONENT_REQUIRED"
+  },
+  "sympy_version": "1.14.0"
+}

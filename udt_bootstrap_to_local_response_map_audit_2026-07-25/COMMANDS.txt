@@ -1,0 +1,14 @@
+git checkout grok
+git fetch origin
+git pull --ff-only origin grok
+git status --short --branch
+git log -8 --oneline
+python3 -m pip install --target /tmp/udt_bootstrap_response_sympy_114_target sympy==1.14.0
+PYTHONPATH=/tmp/udt_bootstrap_response_sympy_114_target python3 udt_bootstrap_to_local_response_map_audit_2026-07-25/derive_response_map.py
+python3 udt_bootstrap_to_local_response_map_audit_2026-07-25/verify_independent.py
+python3 udt_bootstrap_to_local_response_map_audit_2026-07-25/verify_response_map.py
+python3 udt_bootstrap_to_local_response_map_audit_2026-07-25/build_source_manifest.py
+python3 udt_bootstrap_to_local_response_map_audit_2026-07-25/build_manifest.py
+python3 udt_bootstrap_to_local_response_map_audit_2026-07-25/verify_repository_gates.py
+sha256sum --check udt_bootstrap_to_local_response_map_audit_2026-07-25/SHA256SUMS.txt
+git diff --check

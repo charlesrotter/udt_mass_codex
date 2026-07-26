@@ -1,0 +1,142 @@
+{
+  "candidate_count": 9,
+  "catch_proofs": [
+    {
+      "first_error": "candidate universe mismatch",
+      "name": "missing_candidate",
+      "rejected": true
+    },
+    {
+      "first_error": "candidate universe mismatch",
+      "name": "duplicate_candidate",
+      "rejected": true
+    },
+    {
+      "first_error": "candidate universe mismatch",
+      "name": "generated_candidate",
+      "rejected": true
+    },
+    {
+      "first_error": "complete-survivor equivalence: R04",
+      "name": "nonpass_complete_survivor",
+      "rejected": true
+    },
+    {
+      "first_error": "window promoted off shell",
+      "name": "window_called_Euler",
+      "rejected": true
+    },
+    {
+      "first_error": "window promoted off shell",
+      "name": "on_shell_called_response",
+      "rejected": true
+    },
+    {
+      "first_error": "density window ontology promoted",
+      "name": "density_window_ontology_promoted",
+      "rejected": true
+    },
+    {
+      "first_error": "volume trace promoted to native angular response",
+      "name": "volume_called_angular",
+      "rejected": true
+    },
+    {
+      "first_error": "unsupplied mass promoted native",
+      "name": "external_mass_called_native",
+      "rejected": true
+    },
+    {
+      "first_error": "algebra ruling mismatch: tracefree_angular_channel",
+      "name": "density_number_called_derivative",
+      "rejected": true
+    },
+    {
+      "first_error": "boundary data promoted to differentiable response",
+      "name": "seal_called_boundary_response",
+      "rejected": true
+    },
+    {
+      "first_error": "strong CSN promoted",
+      "name": "strong_CSN_called_derived",
+      "rejected": true
+    },
+    {
+      "first_error": "observed anchor promoted selector",
+      "name": "anchor_called_selector",
+      "rejected": true
+    },
+    {
+      "first_error": "multiobservable possibility promoted selected",
+      "name": "unregistered_pairing_called_unique",
+      "rejected": true
+    },
+    {
+      "first_error": "ontology fork removed",
+      "name": "ontology_cross_splice",
+      "rejected": true
+    },
+    {
+      "first_error": "source hash mismatch: S01",
+      "name": "source_hash_drift",
+      "rejected": true
+    },
+    {
+      "first_error": "multiobservable channel universe mismatch",
+      "name": "density_only_bootstrap",
+      "rejected": true
+    },
+    {
+      "first_error": "energy channel lost or promoted",
+      "name": "energy_promoted_selected",
+      "rejected": true
+    },
+    {
+      "first_error": "curvature channel lost or promoted",
+      "name": "curvature_promoted_selected",
+      "rejected": true
+    },
+    {
+      "first_error": "algebra ruling mismatch: multiobservable_bootstrap",
+      "name": "multiobservable_jacobian_lost",
+      "rejected": true
+    },
+    {
+      "first_error": "algebra ruling mismatch: tracefree_angular_channel",
+      "name": "density_obstruction_promoted_universal",
+      "rejected": true
+    },
+    {
+      "first_error": "global-to-local arrow promoted",
+      "name": "global_to_local_arrow_promoted",
+      "rejected": true
+    },
+    {
+      "first_error": "scalar extremization promoted without objective",
+      "name": "scalar_extremization_without_objective",
+      "rejected": true
+    },
+    {
+      "first_error": "owner tuning hypothesis lost",
+      "name": "owner_tuning_semantics_lost",
+      "rejected": true
+    },
+    {
+      "first_error": "scalar extremization promoted",
+      "name": "scalar_extremization_conflated",
+      "rejected": true
+    },
+    {
+      "first_error": "scalar extremization label regressed",
+      "name": "scalar_extremization_label_regressed",
+      "rejected": true
+    }
+  ],
+  "errors": [],
+  "global_local_arrow_count": 5,
+  "maximum_conclusion": "NO_DERIVED_COMPLETE_MAP__CONDITIONAL_RESPONSE_SKELETON_AND_MINIMUM_MISSING_OBJECT_IDENTIFIED",
+  "parameter_channel_count": 7,
+  "result": "PASS",
+  "schema": "udt-bootstrap-to-local-response-verification-1.0",
+  "survivors": []
+}
