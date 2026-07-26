@@ -1,0 +1,18 @@
+id	object_or_choice	status	provenance_or_reason	dropped_scope
+P01	founded_phi_identity	pinned-by-THEORY	CURRENT_SCIENTIFIC_PREMISES_G01	spacetime_assignment_open
+P02	founded_pair_action	pinned-by-THEORY	CURRENT_SCIENTIFIC_PREMISES_G02	complete_screen_response_open
+P03	local_pair_alignment	pinned-by-THEORY	founded_pair_global_alignment audit	global_pair field open
+P04	smooth_orthonormal_pair_field	supplied-conditional-input	required_to_ask_first_jet question	physical_global selection not assumed
+P05	Lorentzian_metric	free-and-explored_as_background class	no_complete_branch selected	field_equations not solved
+P06	Levi_Civita_derivative	pinned-by-THEORY_given_metric	metric_compatible_torsion_free mathematical connection	UDT physical connection not separately selected
+P07	screen_SO2_orientation	free-and-classified	SO2 and O2 outputs both retained	neither selected
+P08	ruler_axis_sign	free-and-classified	n_to_minus_n parity recorded	oriented_path meaning not selected
+P09	candidate_coefficients	free-and-explored	complete_linear_combination space	no fitting or merit filter
+P10	closure	CHARACTERIZER	nonclosed forms retained in atlas	no solution discarded
+P11	flat Taylor witness	pinned-by-METHOD	valid local counterexample class for universal identities	not a selected physical branch
+P12	c_E	pinned-by-THEORY_as_observed_anchor	CURRENT_SCIENTIFIC_PREMISES_G06	no coefficient selection assumed
+P13	G_obs	pinned-by-THEORY_as_observed_anchor	CURRENT_SCIENTIFIC_PREMISES_G06	not used in first_jet kinematics
+P14	strong_local_CSN	excluded_inactive	CURRENT_SCIENTIFIC_PREMISES_G04	historical route retained conditional only
+P15	boost_rapidity_equals_founded_phi	excluded_not_derived	clock_operator_and_readout audits	conditional equality may be classified only
+P16	action_carrier_source_boundary_density_bootstrap_Xmax_mass_dynamics	excluded	CURRENT_SCIENTIFIC_PREMISES_G09_G12_G14_G16	all remain open
+P17	acceptance_criterion	CHARACTERIZER	full_basis_rank_parity_closure census	no target answer
