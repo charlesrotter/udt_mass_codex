@@ -1,0 +1,9 @@
+instrument_id	component	geometric_role	status_before_test
+I01	phi	founded reciprocal clock-ruler depth	FOUNDED_PAIR_SCALAR_PROFILE_OPEN
+I02	sigma	angular common log-area scale	COMPLETE_COFRAME_DIRECTION_UNSELECTED
+I03	alpha	angular reciprocal anisotropy	COMPLETE_COFRAME_DIRECTION_UNSELECTED
+I04	k	angular triangular shear	COMPLETE_COFRAME_DIRECTION_UNSELECTED
+I05	S10	first torus connection component along x0	COMPLETE_COFRAME_MIXING_UNSELECTED
+I06	S11	first torus connection component along x	COMPLETE_COFRAME_MIXING_UNSELECTED
+I07	S20	second torus connection component along x0	COMPLETE_COFRAME_MIXING_UNSELECTED
+I08	S21	second torus connection component along x	COMPLETE_COFRAME_MIXING_UNSELECTED

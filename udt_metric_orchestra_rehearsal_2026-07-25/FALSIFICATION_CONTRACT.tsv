@@ -1,0 +1,19 @@
+contract_id	forbidden_promotion_or_failure	required_result
+F01	Any unregistered instrument or output silently added	REJECT
+F02	Conditional toric chart called selected UDT universe	REJECT
+F03	Off_shell common domain called a solution branch	REJECT
+F04	Four_volume given phi dependence contrary to exact determinant	REJECT
+F05	Normalized angular H given sigma dependence	REJECT
+F06	Connection component called gauge invariant	REJECT
+F07	Local open_path transport called global holonomy	REJECT
+F08	Curvature jet Hessian called field equation action or physical force	REJECT
+F09	Linear response called nonlinear closure	REJECT
+F10	Pointwise Ricci trace called integrated selected curvature functional	REJECT
+F11	Topology or tie_wall inserted as ordinary differentiable coordinate	REJECT
+F12	Boundary induced metric used to invent boundary functional or charge	REJECT
+F13	Observer_pair diameter claimed from incomplete variable profile	REJECT
+F14	Partial R_geom called complete while energy mass boundary or A arrow absent	REJECT
+F15	One zero cross_response promoted to universal decoupling outside domain	REJECT
+F16	One nonzero cross_response promoted to matter emergence	REJECT
+F17	Observed c_E or G promoted to selector	REJECT
+F18	Density value sweep kernel solve PDE time evolution or GPU launched	REJECT
