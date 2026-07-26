@@ -1,0 +1,17 @@
+id	stratum	must_test
+T01	no_directional_tensor	YES
+T02	timelike_nonzero_dphi	YES
+T03	spacelike_nonzero_dphi	YES
+T04	null_nonzero_dphi	YES
+T05	zero_dphi	YES
+T06	dphi_causal_type_change	YES
+T07	supplied_observer_without_separation_axis	YES
+T08	supplied_observer_and_nonzero_orthogonal_separation_axis	YES
+T09	coincident_or_collinear_observer_pair	YES
+T10	two_direction_Gram_nondegenerate_Lorentzian	YES
+T11	two_direction_Gram_degenerate_or_wrong_signature	YES
+T12	second_jet_simple_spectrum	YES
+T13	second_jet_degenerate_or_eigenvalue_crossing	YES
+T14	boundary_normal_only	YES
+T15	conditional_screen_bundle_without_pair_solder	YES
+T16	global_transport_or_cut_locus_required	YES
