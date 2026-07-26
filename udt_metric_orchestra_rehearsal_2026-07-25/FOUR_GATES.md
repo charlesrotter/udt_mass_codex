@@ -9,12 +9,13 @@
    scalar-Hessian entries, all ten Ricci-component Hessians (2,560 entries),
    and all 24 pure second jets in both scalar and Ricci form (240 tensor
    entries).  It is not a nonlinear, arbitrary-angular, global-solution, or
-   all-coframe census.
+   all-coframe/Riemann/Weyl census.
 3. **Independently verified — PASS, FRESH ADVERSARIAL REVIEW PENDING.** A
    separately implemented 70-digit finite-difference metric-jet route
-   reconstructs every load-bearing scalar and Ricci entry and passes 20
-   checks.  A frozen source-first adversarial review is still required before
-   final banking.
+   reconstructs every load-bearing scalar and Ricci entry.  Its 20 checks are
+   explicitly split into 15 numerical/control checks and five schema/source/
+   artifact-integrity checks.  A frozen source-first adversarial review is
+   still required before final banking.
 4. **Every premise audited — PASS FOR THE BOUNDED DOMAIN.** `PREMISE_LEDGER.tsv`
    distinguishes founded `phi`, observed `c_E`, conditional toric/finite-cell
    choices, unselected coframe directions, and absent action/source/carrier/

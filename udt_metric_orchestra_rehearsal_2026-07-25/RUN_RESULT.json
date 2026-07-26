@@ -22,7 +22,7 @@
       "stderr": "INDEPENDENT_STDERR.txt",
       "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "stdout": "INDEPENDENT_STDOUT.txt",
-      "stdout_sha256": "f8fa162d6427e4cdf92138b5ca5e7741d3712cd42fbccabf531b8a934f5407a2"
+      "stdout_sha256": "6d757ddf220b11089095933edaec1ccd04d4c78942fa796f8e3aa6671b4cd210"
     },
     {
       "command": "PYTHONPATH=/tmp/udt_bootstrap_response_sympy_114_target CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 udt_metric_orchestra_rehearsal_2026-07-25/verify_orchestra_audit.py",

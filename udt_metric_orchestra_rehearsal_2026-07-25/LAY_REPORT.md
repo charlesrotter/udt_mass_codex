@@ -8,7 +8,7 @@ the hall.  It hears the clock/ruler field, angular size, angular shape, and two
 connection curls, but many contributions cancel in that single mixed signal.
 That made earlier work look more disconnected than the metric actually is.
 
-When we retain all ten components of the curvature tensor in the declared
+When we retain all ten components of the Ricci curvature tensor in the declared
 coframe chart—more like using ten directional microphones—the hidden ensemble
 appears.  The clock/ruler field talks directly to angular area and shape.
 Angular area and shape talk directly to the four connection components.  Taken

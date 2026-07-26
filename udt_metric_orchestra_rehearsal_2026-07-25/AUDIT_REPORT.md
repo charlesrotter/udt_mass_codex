@@ -96,9 +96,14 @@ difference metric jets, and reconstructed:
 At step `h=0.001`, maximum absolute errors were approximately
 `1.53e-11` for the scalar Hessian, `5.34e-6` for the Ricci Hessians,
 `1.34e-12` for scalar second jets, and `6.67e-13` for Ricci second jets.
-All errors refined by more than the preregistered factor.  Pure-gauge
+All errors decreased by more than the verifier's required factor of three.
+Pure-gauge
 connection jets gave zero curvature, while one unit field-strength control
 gave scalar curvature `1/2`.
+
+The independent result's 20 checks comprise 15 numerical reconstruction or
+geometric controls and five schema/source/artifact-integrity checks.  The
+latter are regression guards, not additional independent physics evidence.
 
 ## Reverse-arrow audit
 
@@ -122,7 +127,8 @@ The audit is exhaustive only for the preregistered eight-amplitude,
 torus-invariant, neutral-point first/two-jet census plus the exact general
 local covector norm.  It does not cover arbitrary angular dependence of the
 curvature, non-neutral nonlinear profiles, all four-dimensional coframes,
-global cap/quotient descent, an on-shell branch, or dynamics.
+the complete Riemann/Weyl response, global cap/quotient descent, an on-shell
+branch, or dynamics.
 
 No action, field equation, carrier, source, density, mass, energy, boundary
 charge, or topology is selected.  No GPU work or numerical solution search

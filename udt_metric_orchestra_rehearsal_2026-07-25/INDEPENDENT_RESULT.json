@@ -1,5 +1,4 @@
 {
-  "artifact_integrity_checks": 2,
   "check_count": 20,
   "checks": {
     "I01_hessian_shape": "PASS",
@@ -30,6 +29,7 @@
     "fine_h": "0.001",
     "fine_max_abs_error": "1.533335466664803e-11"
   },
+  "independent_numeric_and_control_checks": 15,
   "method": "mpmath_70_digit_direct_coframe_finite_difference_metric_jets_no_production_import",
   "mpmath_version": "1.3.0",
   "result": "PASS",
@@ -47,7 +47,7 @@
     "fine_max_abs_error": "6.666675000007e-13"
   },
   "schema": "udt-metric-orchestra-independent-1.0",
-  "scientific_checks": 18,
+  "schema_and_artifact_integrity_checks": 5,
   "second_jet_reconstruction": {
     "coarse_max_abs_error": "2.13334400003584e-11",
     "controls": 24,

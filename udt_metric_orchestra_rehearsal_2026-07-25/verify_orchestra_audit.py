@@ -79,6 +79,12 @@ def validate_state(state: dict[str, object]) -> bool:
     )
 
 
+def display(value: object) -> str:
+    if isinstance(value, frozenset):
+        return "frozenset(" + ",".join(sorted(value)) + ")"
+    return str(value)
+
+
 def main() -> None:
     checks: dict[str, str] = {}
     algebra = json.loads((HERE / "ALGEBRA_RESULT.json").read_text(encoding="utf-8"))
@@ -197,7 +203,7 @@ def main() -> None:
         mutated[key] = value
         rejected = not validate_state(mutated)
         require(f"V_{catch_id}", rejected, checks)
-        catch_rows.append({"catch_id": catch_id, "mutation": f"{key}={value}",
+        catch_rows.append({"catch_id": catch_id, "mutation": f"{key}={display(value)}",
                            "expected": "REJECT", "observed": "REJECT" if rejected else "ACCEPT",
                            "result": "PASS" if rejected else "FAIL"})
     with (HERE / "CATCH_PROOFS.tsv").open("w", newline="", encoding="utf-8") as handle:

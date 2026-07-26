@@ -323,8 +323,8 @@ def main() -> None:
             "coarse_max_abs_error": mp.nstr(ricci_second_coarse, 16),
             "fine_max_abs_error": mp.nstr(ricci_second_fine, 16),
         },
-        "scientific_checks": 18,
-        "artifact_integrity_checks": 2,
+        "independent_numeric_and_control_checks": 15,
+        "schema_and_artifact_integrity_checks": 5,
         "result": "PASS",
     }
     (HERE / "INDEPENDENT_RESULT.json").write_text(
