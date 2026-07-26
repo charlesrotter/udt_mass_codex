@@ -1,0 +1,15 @@
+object	status	ruling	remaining_open_scope
+coupled_tuning_operator	DERIVED_CONDITIONAL_NONTRIVIALITY_SKELETON	S=A_X+A_O R_X follows exactly from the owner two-arrow closure hypothesis	Complete physical A R domains and placement are absent
+feedback_effect_on_kernel	DERIVED_CONDITIONAL	A_O R_X can create or remove an infinitesimal kernel	No native feedback maps are instantiated
+kernel_as_matter	OPEN_NOT_SUFFICIENT	A kernel is only a necessary infinitesimal condition	Gauge boundary descent nonlinear continuation persistence and stability
+clock_screen_kernel	CONDITIONAL	Simple det(T+a^2 I)=0 selects one local screen projector	Complete branch parallelism descent feedback and source
+curvature_connector	DERIVED_PARTIAL_CONNECTOR	Curvature has tracefree local response and global integral type	Selected invariant target coefficient boundary completion and closure role
+scalar_density_curvature_closure	INSUFFICIENT_GENERAL_TYPE	Density volume and an unstructured scalar curvature trace do not determine pointwise tracefree Ricci response	Same-branch realization law structured observables or native energy mass response
+angular_systole_holonomy	CONDITIONAL_CONNECTOR	Metric lattice walls connections and monodromy conditions exist on toric branches	Selected branch character section caps and physical response
+conditional_Hopf_chain	CONDITIONAL_TOPOLOGY_ONLY	Reciprocal weights and supplied angular completion yield a nontrivial topological prototype	Native section action source energy boundary and dynamics
+nonnull_dphi_3plus3	DERIVED_PARTIAL_CONNECTOR	Metric-native split and null degeneration condition	Complete global solution feedback and physical interpretation
+finite_cell_boundary_response	TYPE_INCOMPLETE_PROVENANCE_BLOCKED_A_ARROW	Moving boundary has conditional shape and flux response types	Native boundary functional polarization corners gluing variation and complete global closure
+observer_pair_Xmax	GLOBAL_ONLY_CONDITIONAL	Complete metric can conditionally define diameter and angular modulation	Physical pair comparison local response and selected branch
+native_energy_mass_response	ABSENT_REQUIRED_CONNECTOR	Required for complete recomputation and density feedback	Native functional source aggregation and variation
+levi_civita_curvature_holonomy	LOCAL_ONLY	Bounded local curvature-algebra reducibility atlas	Closed-loop holonomy realization law and bootstrap arrows
+complete_bootstrap_connector	OPEN	Zero of thirteen candidates passes all nine gates	Complete same-branch A and R with full domains

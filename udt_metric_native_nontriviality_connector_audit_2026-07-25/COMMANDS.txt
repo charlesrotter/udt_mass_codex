@@ -1,0 +1,10 @@
+PYTHONPATH=/tmp/udt_bootstrap_response_sympy_114_target python3 udt_metric_native_nontriviality_connector_audit_2026-07-25/derive_nontriviality_connector.py
+python3 udt_metric_native_nontriviality_connector_audit_2026-07-25/build_source_manifest.py
+python3 udt_metric_native_nontriviality_connector_audit_2026-07-25/verify_independent.py
+python3 udt_metric_native_nontriviality_connector_audit_2026-07-25/verify_connector_audit.py
+python3 udt_metric_native_nontriviality_connector_audit_2026-07-25/build_manifest.py
+python3 udt_metric_native_nontriviality_connector_audit_2026-07-25/verify_repository_gates.py
+cd udt_metric_native_nontriviality_connector_audit_2026-07-25
+sha256sum --check SHA256SUMS.txt
+cd ..
+git diff --check

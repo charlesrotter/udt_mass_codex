@@ -1,0 +1,132 @@
+{
+  "candidate_count": 13,
+  "catch_proofs": [
+    {
+      "first_error": "candidate universe mismatch",
+      "name": "missing_candidate",
+      "rejected": true
+    },
+    {
+      "first_error": "candidate universe mismatch",
+      "name": "duplicate_candidate",
+      "rejected": true
+    },
+    {
+      "first_error": "candidate universe mismatch",
+      "name": "generated_candidate",
+      "rejected": true
+    },
+    {
+      "first_error": "complete connector equivalence: C01",
+      "name": "nonpass_complete_connector",
+      "rejected": true
+    },
+    {
+      "first_error": "same-branch witness invented",
+      "name": "same_branch_splice",
+      "rejected": true
+    },
+    {
+      "first_error": "local clock kernel promoted globally",
+      "name": "local_kernel_called_global",
+      "rejected": true
+    },
+    {
+      "first_error": "curvature candidate promoted selected",
+      "name": "curvature_called_selected",
+      "rejected": true
+    },
+    {
+      "first_error": "density response invented",
+      "name": "density_called_A_arrow",
+      "rejected": true
+    },
+    {
+      "first_error": "topology promoted to response",
+      "name": "topology_called_response",
+      "rejected": true
+    },
+    {
+      "first_error": "local transport promoted to holonomy",
+      "name": "transport_called_holonomy",
+      "rejected": true
+    },
+    {
+      "first_error": "missing boundary functional bypassed",
+      "name": "boundary_arrow_unblocked",
+      "rejected": true
+    },
+    {
+      "first_error": "boundary functional invented",
+      "name": "boundary_called_complete",
+      "rejected": true
+    },
+    {
+      "first_error": "diameter promoted to local response",
+      "name": "diameter_called_local_response",
+      "rejected": true
+    },
+    {
+      "first_error": "native energy or mass invented",
+      "name": "energy_called_native",
+      "rejected": true
+    },
+    {
+      "first_error": "owner tuning promoted or lost",
+      "name": "tuning_promoted",
+      "rejected": true
+    },
+    {
+      "first_error": "scalar extremization conflated",
+      "name": "scalar_extremization_conflated",
+      "rejected": true
+    },
+    {
+      "first_error": "kernel sufficiency promoted",
+      "name": "gauge_check_removed",
+      "rejected": true
+    },
+    {
+      "first_error": "kernel sufficiency promoted",
+      "name": "nonlinear_sufficiency_promoted",
+      "rejected": true
+    },
+    {
+      "first_error": "observed anchor promoted",
+      "name": "anchor_promoted",
+      "rejected": true
+    },
+    {
+      "first_error": "algebra ruling mismatch: root_scope",
+      "name": "root_determines_linearization",
+      "rejected": true
+    },
+    {
+      "first_error": "algebra ruling mismatch: kernel_scope",
+      "name": "kernel_called_matter",
+      "rejected": true
+    },
+    {
+      "first_error": "critical stratum promoted physical",
+      "name": "critical_stratum_promoted",
+      "rejected": true
+    },
+    {
+      "first_error": "feedback loop promoted complete",
+      "name": "feedback_loop_promoted",
+      "rejected": true
+    },
+    {
+      "first_error": "source hash mismatch: S01",
+      "name": "source_hash_drift",
+      "rejected": true
+    }
+  ],
+  "complete_survivors": [],
+  "critical_stratum_count": 6,
+  "errors": [],
+  "feedback_loop_count": 4,
+  "maximum_conclusion": "EXACT_COUPLED_NONTRIVIALITY_SKELETON__NO_COMPLETE_METRIC_NATIVE_BOOTSTRAP_CONNECTOR",
+  "result": "PASS",
+  "schema": "udt-metric-native-nontriviality-connector-verification-1.0"
+}

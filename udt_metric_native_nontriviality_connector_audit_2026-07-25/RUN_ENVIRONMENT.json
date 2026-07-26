@@ -1,0 +1,10 @@
+{
+  "cpu_only": true,
+  "gpu_process_launched": false,
+  "kernel": "Linux 6.8.0-124-generic x86_64",
+  "python": "3.10.12",
+  "sympy": "1.14.0",
+  "git": "2.34.1",
+  "base_commit": "b4264a89da5759a78a458e14dea62d84aa6fb7a0",
+  "preregistration_commit": "91e5bde13bcd7e84c5be05a7067b488822c8019c"
+}

@@ -1,0 +1,7 @@
+stratum_id	metric_structure	exact_condition	mathematical_effect	global_status	physical_status
+K01	COUPLED_TUNING_KERNEL	ker(A_X+A_O R_X) nonzero	Infinitesimal coupled closure loses regularity or gains a tangent mode	TYPE_ONLY_NO_COMPLETE_MAP	OPEN_NOT_MATTER
+K02	CLOCK_TIDAL_KERNEL	det(T+a^2 I)=0 with simple spectrum	Selects one local screen eigenline matching reciprocal clock rate	NO_COMPLETE_DESCENDING_BRANCH	CONDITIONAL_LOCAL_CANDIDATE
+K03	ANGULAR_SYSTOLE_WALL	Two primitive dual characters have equal shortest norm	Metric selector becomes a unimodular two-line set and swaps across wall	CONDITIONAL_TORIC_MONODROMY	OPEN_NO_PHYSICAL_TIE_RULE
+K04	DPHI_NULL_STRATUM	g_inverse(dphi,dphi)=0 with dphi nonzero	Semisimple reciprocal split becomes rank-one nilpotent	GLOBAL_SURVIVAL_BRANCH_DEPENDENT	OPEN_NO_REGIME_LABEL
+K05	CURVATURE_REDUCIBILITY_STRATUM	Curvature-generated algebra has a proper invariant block	Local projector motif becomes available instead of full irreducible weave	GENERIC_COMPLETE_ORCHESTRA_IRREDUCIBLE	OPEN_NO_GLOBAL_SELECTION
+K06	CAP_LATTICE_DETERMINANT	absolute determinant of primitive cap cycles equals one	Conditional two-cap completion has S3 topology rather than lens or singular class	CAP_DATA_UNSELECTED	CONDITIONAL_TOPOLOGY_ONLY

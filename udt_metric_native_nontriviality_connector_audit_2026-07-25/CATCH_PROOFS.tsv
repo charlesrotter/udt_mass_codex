@@ -1,0 +1,25 @@
+catch_id	mutation	expected_rejection	result
+K01	Delete one candidate	candidate universe mismatch	PASS
+K02	Duplicate one candidate	candidate universe mismatch	PASS
+K03	Invent a thirteenth candidate	candidate universe mismatch	PASS
+K04	Call C01 complete with nonpassing gates	complete connector equivalence	PASS
+K05	Invent a same-branch co-location witness	same-branch witness invented	PASS
+K06	Promote the local clock kernel to global descent	local clock kernel promoted globally	PASS
+K07	Promote a curvature candidate to selected bootstrap law	curvature candidate promoted selected	PASS
+K08	Call density a derived global-to-local arrow	density response invented	PASS
+K09	Promote conditional topology to a response map	topology promoted to response	PASS
+K10	Promote local Kato transport to holonomy	local transport promoted to holonomy	PASS
+K11	Bypass the absent native boundary functional in the A arrow	missing boundary functional bypassed	PASS
+K12	Invent a complete boundary functional	boundary functional invented	PASS
+K13	Promote diameter to local nontriviality response	diameter promoted to local response	PASS
+K14	Invent native energy or mass	native energy or mass invented	PASS
+K15	Promote owner tuning from WORKING to DERIVED	owner tuning promoted or lost	PASS
+K16	Conflate mutual tuning with scalar extremization	scalar extremization conflated	PASS
+K17	Remove the gauge-kernel check	kernel sufficiency promoted	PASS
+K18	Promote a kernel to nonlinear sufficiency	kernel sufficiency promoted	PASS
+K19	Promote observed c_E to a selector	observed anchor promoted	PASS
+K20	Make the realized root determine its linearization	algebra ruling mismatch	PASS
+K21	Call any kernel matter	algebra ruling mismatch	PASS
+K22	Give a critical stratum a physical matter label	critical stratum promoted physical	PASS
+K23	Call a feedback-loop candidate complete	feedback loop promoted complete	PASS
+K24	Drift one source hash	source hash mismatch	PASS

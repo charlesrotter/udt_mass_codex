@@ -1,0 +1,91 @@
+{
+  "check_count": 31,
+  "checks": {
+    "c_G_do_not_select_density": "PASS",
+    "c_G_do_not_select_length": "PASS",
+    "clock_screen_kernel_determinant": "PASS",
+    "clock_screen_simple_kernel_projector": "PASS",
+    "clock_screen_simple_spectrum_required": "PASS",
+    "curvature_candidate_tracefree_bulk_response": "PASS",
+    "density_variation_exact": "PASS",
+    "feedback_can_create_kernel_from_regular_local_operator": "PASS",
+    "feedback_can_remove_local_kernel": "PASS",
+    "gauge_kernel_exists_but_physical_coordinate_fixed": "PASS",
+    "holonomy_fixed_vector_condition": "PASS",
+    "isolated_versus_crossing_real_branch_control": "PASS",
+    "kernel_graph_isomorphic_to_reduced_kernel": "PASS",
+    "local_kernel_removed_by_boundary_domain": "PASS",
+    "local_transport_not_global_fixed_section": "PASS",
+    "matrix_schur_determinant_agrees": "PASS",
+    "matrix_schur_reduction_exact": "PASS",
+    "moving_boundary_volume_has_shape_channel": "PASS",
+    "proper_volume_tracefree_bulk_blind": "PASS",
+    "regular_feedback_full_rank": "PASS",
+    "same_ricci_trace_counterfamily": "PASS",
+    "same_ricci_trace_different_tracefree_response": "PASS",
+    "same_root_different_linearization": "PASS",
+    "same_singular_linearization_different_nonlinear_models": "PASS",
+    "same_unique_root_counterfamily": "PASS",
+    "scalar_block_determinant_is_reduced_tuning_operator": "PASS",
+    "singular_feedback_kernel_reconstructs": "PASS",
+    "singular_feedback_rank_one": "PASS",
+    "singular_linearization_not_nonlinear_branch_sufficiency": "PASS",
+    "toric_exchange_preserves_module_not_line": "PASS",
+    "vector_tuning_closure_full_rank_nongradient": "PASS"
+  },
+  "exact_objects": {
+    "clock_projector": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "clock_tidal_determinant": "(a**2 + k1)*(a**2 + k2)",
+    "coupled_linearization": "[[A_X,A_O],[-R_X,I]]",
+    "crossing_quadratic_control": "-lambda**2 + x**2",
+    "curvature_TF_response": "-r1 + r2",
+    "density_variation": "(-M*dV + V*dM)/V**2",
+    "holonomy_fixed_determinant": "2 - 2*cos(theta)",
+    "isolated_quadratic_control": "lambda**2 + x**2",
+    "matrix_schur_control": [
+      [
+        "3",
+        "2"
+      ],
+      [
+        "0",
+        "5"
+      ]
+    ],
+    "moving_volume_variation": "area*delta_length + delta_area*length",
+    "reduced_tuning_operator": "A_O*R_X + A_X",
+    "regular_reduced_root": "x",
+    "same_ricci_trace_response_pair": [
+      "1",
+      "3"
+    ],
+    "singular_kernel_control": [
+      "3",
+      "-2"
+    ],
+    "singular_reduced_root": "x**3"
+  },
+  "schema": "udt-metric-native-nontriviality-connector-algebra-1.0",
+  "structural_rulings": {
+    "clock_curvature": "EXACT_LOCAL_KERNEL_CANDIDATE_WITH_GLOBAL_BRANCH_AND_FEEDBACK_OPEN",
+    "curvature": "TRACEFREE_LOCAL_AND_GLOBAL_INTEGRAL_CANDIDATE_NOT_SELECTED_CLOSURE",
+    "density": "VOLUME_CHANNEL_TRACE_ONLY_AND_NATIVE_MASS_RESPONSE_MISSING",
+    "feedback": "GLOBAL_LOCAL_FEEDBACK_CAN_CREATE_OR_REMOVE_AN_INFINITESIMAL_KERNEL",
+    "holonomy": "LOCAL_TRANSPORT_DOES_NOT_IMPLY_GLOBAL_DESCENDING_SECTION",
+    "kernel_scope": "KERNEL_IS_NOT_MATTER_WITHOUT_GAUGE_BOUNDARY_DESCENT_AND_NONLINEAR_CONTINUATION",
+    "minimum_missing_object": "COMPLETE_SAME_BRANCH_A_AND_R_MAPS_WITH_GAUGE_BOUNDARY_DESCENT_AND_NONLINEAR_DOMAIN",
+    "root_scope": "REALIZED_ROOT_DOES_NOT_SELECT_REGULAR_OR_SINGULAR_LINEARIZATION",
+    "scalar_bootstrap_insufficiency": "DENSITY_AND_SCALAR_CURVATURE_TRACE_DO_NOT_DETERMINE_POINTWISE_TRACEFREE_RICCI_RESPONSE",
+    "two_arrow_nontriviality": "KERNEL_OF_A_X_PLUS_A_O_R_X_IS_EXACT_NECESSARY_INFINITESIMAL_CONDITION"
+  },
+  "sympy_version": "1.14.0"
+}
