@@ -1,0 +1,9 @@
+route_id	route	input_data	premise_status	question
+R01	abstract_scalar_pair_cocycle	phi_A;phi_B;phi_C;H_pair	FOUNDED	Does additive phi compose on the abstract reciprocal pair?
+R02	common_frame_endpoint_only	fixed_u;pair_directions;lambda;finite_depths	CHOSE_STRONGER_PREMISE	Does universal path independence in one frame restrict lambda?
+R03	endpoint_factorized_groupoid	one_full_coframe_per_endpoint;diagonal_character	CHOSE_UNLESS_SECTION_DERIVED	Does typed composition work for every lambda?
+R04	pair_dependent_frame_groupoid	one_full_coframe_per_ordered_pair;diagonal_character	PAIR_DATA_AVAILABLE_SECTION_OPEN	What transition mismatch remains at the middle observer?
+R05	connection_holonomy	connection;path_family;complete_metric_branch	OPEN_OR_BRANCH_CONDITIONAL	Can a nonidentity loop be admissible holonomy rather than contradiction?
+R06	changing_observer_axes	noncollinear_timelike_observers;finite_depths	SUPPLIED_RELATIONAL_DATA	Does a fixed-observer exceptional value solve full frame composition?
+R07	finite_cell_global_descent	complete_cell;seams;cut_locus;transition_data	OPEN_OR_BRANCH_CONDITIONAL	Does local composition descend globally?
+R08	scalar_anchor_selection	c_E;G_obs;provisional_hbar	OBSERVED_OR_PROVISIONAL_SCALARS	Can scalar calibration select the missing section or connection?

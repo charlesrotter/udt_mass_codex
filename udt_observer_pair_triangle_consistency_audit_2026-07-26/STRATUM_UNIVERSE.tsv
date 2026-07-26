@@ -1,0 +1,17 @@
+stratum_id	observer_relation	direction_relation	depth_relation	lambda_class	must_test
+S01	fixed_same_u	generic_nonorthogonal	both_nonzero	lambda_generic	yes
+S02	fixed_same_u	parallel	both_nonzero	lambda_generic	yes
+S03	fixed_same_u	orthogonal	both_nonzero	lambda_generic	yes
+S04	fixed_same_u	generic_nonorthogonal	first_zero	lambda_generic	yes
+S05	fixed_same_u	generic_nonorthogonal	second_zero	lambda_generic	yes
+S06	fixed_same_u	generic_nonorthogonal	both_nonzero	lambda_1	yes
+S07	fixed_same_u	generic_nonorthogonal	both_nonzero	lambda_0	yes
+S08	fixed_same_u	generic_nonorthogonal	both_nonzero	lambda_minus_1	yes
+S09	fixed_same_u	generic_nonorthogonal	both_nonzero	lambda_minus_half	yes
+S10	changing_noncollinear_u	generic	both_nonzero	lambda_1	yes
+S11	changing_collinear_u	not_applicable	both_nonzero	lambda_1	yes
+S12	endpoint_single_frames	arbitrary	additive_depths	lambda_arbitrary	yes
+S13	pair_dependent_frames	generic_mismatch	additive_depths	lambda_arbitrary	yes
+S14	pair_dependent_frames	spatial_rotation_mismatch	additive_depths	lambda_1	yes
+S15	pair_dependent_frames	spatial_rotation_mismatch	additive_depths	lambda_not_1	yes
+S16	global_complete_cell	multiple_or_cut_paths	arbitrary	lambda_arbitrary	yes_source_audit
