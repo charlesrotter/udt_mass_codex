@@ -1,0 +1,26 @@
+{
+  "check_count": 18,
+  "checks": {
+    "angular_composition": true,
+    "angular_counterfamily_nontrivial": true,
+    "angular_determinant_one": true,
+    "angular_projects_founded_pair": true,
+    "nonzero_C_creates_metric_mixing": true,
+    "nonzero_triangular_generator_changes_angular_metric": true,
+    "seven_extension_tangent_rank": true,
+    "shift_composition": true,
+    "shift_counterfamily_cross_term": true,
+    "shift_determinant_one": true,
+    "shift_projects_founded_pair": true,
+    "six_det_one_extension_tangent_rank": true,
+    "spectator_composition": true,
+    "spectator_determinant_one": true,
+    "spectator_metric": true,
+    "spectator_reversal": true,
+    "zero_C_removes_metric_mixing": true,
+    "zero_triangular_generator_preserves_angular_metric": true
+  },
+  "implementation": "Python standard library fractions.Fraction",
+  "result": "PASS",
+  "schema": "udt-founded-phi-complete-coframe-extension-independent-1.0"
+}

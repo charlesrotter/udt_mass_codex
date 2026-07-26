@@ -1,0 +1,22 @@
+{
+  "catch_count": 10,
+  "counts": {
+    "active_result_candidates": 399,
+    "affected_result_files": 5,
+    "extension_classes": 12,
+    "forensic_phi_files": 4018,
+    "input_sources": 12,
+    "non_result_companion_clarifications": 1
+  },
+  "hashes": {
+    "ACTIVE_RESULT_CANDIDATES.tsv": "cccb3091a0e276da33c1ae9b212c96d38f90deee97f3071e45cb080bcdef90d1",
+    "ACTIVE_RESULT_IMPACT_LEDGER.tsv": "91426ba18a13e5ceb27c844c5e56092eb274862ecc82626789cc0cad9e14693d",
+    "AFFECTED_RESULT_CORRECTION_PLAN.tsv": "2b685b2fc36f40c7b5e40e60e0bfd0b13b262322ec1f5a291fed227ead977e32",
+    "FORENSIC_PHI_CENSUS.tsv": "f8958a405b74944c10cd303c8cae901ab698cafd0bd104f00fdaab294348532f",
+    "INPUT_SOURCE_MANIFEST.tsv": "b81e89d8fd8cddb704cc3a2e913443b60e2ea17330fab00374b8d7035fcc0fad"
+  },
+  "independent_checks": 18,
+  "production_checks": 27,
+  "result": "PASS",
+  "schema": "udt-founded-phi-complete-coframe-audit-verification-1.0"
+}

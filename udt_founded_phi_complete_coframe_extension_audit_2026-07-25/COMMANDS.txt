@@ -1,0 +1,9 @@
+python3 freeze_candidate_universe.py
+python3 classify_active_results.py
+PYTHONPATH=/tmp/udt_bootstrap_closure_sympy_114 PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 derive_extension_class.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 verify_extension_independent.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 verify_audit.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 -m pytest -q tests/
+python3 verify_repository_gates.py
+python3 build_manifest.py
+sha256sum --check SHA256SUMS.txt

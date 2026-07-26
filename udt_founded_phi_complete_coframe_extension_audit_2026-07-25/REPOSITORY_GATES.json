@@ -1,0 +1,56 @@
+{
+  "authority_boundary": {
+    "action_source_carrier_selected": false,
+    "canon_changed": false,
+    "frozen_or_historical_changed": false,
+    "gpu_work": false,
+    "physical_extension_selected": false,
+    "repository_reorganization": false,
+    "source_results_changed": false,
+    "startup_controls_changed": false
+  },
+  "base": "bc7713f",
+  "catch_proofs": {
+    "current_paths": "PASS",
+    "dirty": "PASS",
+    "frontier": "PASS",
+    "frozen": "PASS",
+    "package": "PASS",
+    "scope": "PASS"
+  },
+  "dirty_checkout": {
+    "branch": "grok",
+    "contents_read": false,
+    "head": "adf8f92d95c387cc647f04b16f1f3b17e1e670d2",
+    "metadata_sha256": "345d297e0ad849cd38f1d817c915922de653ca2d2befcf923af6f9d097b483e4",
+    "paths": 55,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": 6,
+    "tracked_paths": 133,
+    "result": "PASS"
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 24,
+    "manifest_sha256": "b9c09d4b661303fd091ecc6995ad62da3b81799f2e7771b43fb172725efc63d7",
+    "result": "PASS"
+  },
+  "result": "PASS",
+  "schema": "udt-founded-phi-complete-coframe-repository-gates-1.0",
+  "scope_path_count": 25,
+  "tests": {
+    "failed": 0,
+    "passed": 70,
+    "stdout_sha256": "7a2d1c7cf276d154545220ec9bb5691ce255e0c2fd462deefc5f9752a0c06545",
+    "xfailed": 1,
+    "result": "PASS"
+  }
+}

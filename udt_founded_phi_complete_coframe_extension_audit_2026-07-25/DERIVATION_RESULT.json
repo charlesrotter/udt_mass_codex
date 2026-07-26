@@ -1,0 +1,50 @@
+{
+  "check_count": 27,
+  "checks": {
+    "angular_base_metric_tangent_is_C": "PASS",
+    "angular_counterfamily_changes_transverse_metric": "PASS",
+    "angular_counterfamily_composition": "PASS",
+    "angular_counterfamily_determinant_one": "PASS",
+    "angular_counterfamily_nontrivial_for_k_nonzero": "PASS",
+    "angular_counterfamily_projects_founded_pair": "PASS",
+    "angular_metric_tangent": "PASS",
+    "base_angular_metric_tangent_is_C_transpose": "PASS",
+    "determinant_character": "PASS",
+    "founded_base_generator_fixed": "PASS",
+    "full_generator_trace_is_angular_trace": "PASS",
+    "no_metric_mixing_forces_zero_shift_generator": "PASS",
+    "seven_extension_parameters": "PASS",
+    "seven_extension_tangent_rank": "PASS",
+    "shift_counterfamily_composition": "PASS",
+    "shift_counterfamily_determinant_one": "PASS",
+    "shift_counterfamily_has_metric_cross_term": "PASS",
+    "shift_counterfamily_nontrivial": "PASS",
+    "shift_counterfamily_projects_founded_pair": "PASS",
+    "six_det_one_extension_directions": "PASS",
+    "spectator_composition": "PASS",
+    "spectator_determinant_one": "PASS",
+    "spectator_metric_readout": "PASS",
+    "spectator_reversal": "PASS",
+    "spectator_unique_given_transverse_invariance_and_no_mixing": "PASS",
+    "triangular_angular_invariance_forces_zero_generator": "PASS",
+    "upper_block_zero": "PASS"
+  },
+  "counts": {
+    "complete_triangular_metric_modes": 10,
+    "determinant_one_extension_parameters": 6,
+    "fixed_founded_base_generator_modes": 3,
+    "free_extension_generator_parameters": 7,
+    "spectator_extension_parameters": 0
+  },
+  "result": "PASS",
+  "rulings": {
+    "extension_existence": "DERIVED_EXACT_DIRECT_SUM_WITNESS",
+    "founded_phi_role": "ADDITIVE_PARAMETER_OF_FIXED_RECIPROCAL_BASE_SUBGROUP",
+    "physical_selection": "OPEN_NOT_SELECTED_BY_FOUNDED_TWO_CHANNEL_POSTULATES",
+    "scope": "POINTWISE_CONTINUOUS_ONE_PARAMETER_EXTENSIONS_IN_REGISTERED_TRIANGULAR_COFRAME_CHART",
+    "spectator_uniqueness": "UNIQUE_ONLY_GIVEN_TRANSVERSE_METRIC_INVARIANCE_AND_NO_BASE_ANGULAR_MIXING_IN_SUPPLIED_TRIANGULAR_SECTION",
+    "unrestricted_uniqueness": "REFUTED_BY_ANGULAR_AND_SHIFT_COUNTERFAMILIES"
+  },
+  "schema": "udt-founded-phi-complete-coframe-extension-1.0",
+  "sympy_version": "1.14.0"
+}
