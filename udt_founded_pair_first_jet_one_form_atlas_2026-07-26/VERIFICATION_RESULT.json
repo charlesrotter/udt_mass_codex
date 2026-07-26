@@ -1,0 +1,33 @@
+{
+  "basis_rows": 22,
+  "catch_count": 15,
+  "catch_proofs": {
+    "CSN_reactivation": "PASS",
+    "bad_O2_rank": "PASS",
+    "bad_basis_rank": "PASS",
+    "bad_parity": "PASS",
+    "boost_promotion": "PASS",
+    "closure_rank": "PASS",
+    "coefficient_selection": "PASS",
+    "duplicate_basis": "PASS",
+    "false_closure": "PASS",
+    "independent_witness": "PASS",
+    "missing_basis": "PASS",
+    "phi_demotion": "PASS",
+    "physics_promotion": "PASS",
+    "production_witness": "PASS",
+    "source_identity": "PASS"
+  },
+  "grade": "VERIFIED_WITH_CAVEATS_BOUNDED_FIRST_JET_ATLAS",
+  "independent_checks": 29,
+  "independent_closure_rank": 22,
+  "outcome_rows": 22,
+  "production_census_checks": 180,
+  "production_closure_rank": 22,
+  "production_summary_checks": 42,
+  "reduction_rows": 12,
+  "result": "PASS",
+  "schema": "udt-founded-pair-first-jet-verification-1.0",
+  "source_identities": 18,
+  "status_rows": 17
+}

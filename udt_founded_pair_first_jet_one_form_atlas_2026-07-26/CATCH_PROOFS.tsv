@@ -1,0 +1,16 @@
+catch	result
+CSN_reactivation	PASS
+bad_O2_rank	PASS
+bad_basis_rank	PASS
+bad_parity	PASS
+boost_promotion	PASS
+closure_rank	PASS
+coefficient_selection	PASS
+duplicate_basis	PASS
+false_closure	PASS
+independent_witness	PASS
+missing_basis	PASS
+phi_demotion	PASS
+physics_promotion	PASS
+production_witness	PASS
+source_identity	PASS

@@ -1,0 +1,21 @@
+git checkout grok
+git fetch origin
+git pull --ff-only origin grok
+git status --short --branch
+git log -8 --oneline
+python3 verify_current_scientific_premises.py
+python3 udt_founded_pair_first_jet_one_form_atlas_2026-07-26/build_source_manifest.py
+git commit -m "Preregister founded-pair first-jet atlas"
+git push origin grok
+python3 udt_founded_pair_first_jet_one_form_atlas_2026-07-26/run_and_capture.py udt_founded_pair_first_jet_one_form_atlas_2026-07-26/DERIVATION_STDOUT.txt udt_founded_pair_first_jet_one_form_atlas_2026-07-26/DERIVATION_STDERR.txt python3 udt_founded_pair_first_jet_one_form_atlas_2026-07-26/derive_first_jet_atlas.py
+cp udt_founded_pair_first_jet_one_form_atlas_2026-07-26/DERIVATION_STDOUT.txt udt_founded_pair_first_jet_one_form_atlas_2026-07-26/DERIVATION_RESULT.json
+python3 udt_founded_pair_first_jet_one_form_atlas_2026-07-26/run_and_capture.py udt_founded_pair_first_jet_one_form_atlas_2026-07-26/INDEPENDENT_STDOUT.txt udt_founded_pair_first_jet_one_form_atlas_2026-07-26/INDEPENDENT_STDERR.txt python3 udt_founded_pair_first_jet_one_form_atlas_2026-07-26/verify_first_jet_independent.py
+cp udt_founded_pair_first_jet_one_form_atlas_2026-07-26/INDEPENDENT_STDOUT.txt udt_founded_pair_first_jet_one_form_atlas_2026-07-26/INDEPENDENT_RESULT.json
+python3 udt_founded_pair_first_jet_one_form_atlas_2026-07-26/run_and_capture.py udt_founded_pair_first_jet_one_form_atlas_2026-07-26/ENVIRONMENT_STDOUT.txt udt_founded_pair_first_jet_one_form_atlas_2026-07-26/ENVIRONMENT_STDERR.txt python3 udt_founded_pair_first_jet_one_form_atlas_2026-07-26/capture_environment.py
+cp udt_founded_pair_first_jet_one_form_atlas_2026-07-26/ENVIRONMENT_STDOUT.txt udt_founded_pair_first_jet_one_form_atlas_2026-07-26/RUN_ENVIRONMENT.json
+python3 udt_founded_pair_first_jet_one_form_atlas_2026-07-26/run_and_capture.py udt_founded_pair_first_jet_one_form_atlas_2026-07-26/VERIFICATION_STDOUT.txt udt_founded_pair_first_jet_one_form_atlas_2026-07-26/VERIFICATION_STDERR.txt python3 udt_founded_pair_first_jet_one_form_atlas_2026-07-26/verify_audit.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 -m pytest -q tests/
+python3 udt_founded_pair_first_jet_one_form_atlas_2026-07-26/build_manifest.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 udt_founded_pair_first_jet_one_form_atlas_2026-07-26/verify_repository_gates.py
+git commit -m "Map founded-pair first-jet one-forms"
+git push origin grok

@@ -1,0 +1,10 @@
+{
+  "branch": "grok",
+  "compute": "CPU_ONLY_EXACT_SYMBOLIC_AND_FRACTION",
+  "cuda_visible_devices": "",
+  "head_at_capture": "b64b92417109b874f308a0f99b9ea7175924bf09",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "schema": "udt-founded-pair-first-jet-environment-1.0",
+  "sympy": "1.13.1"
+}
