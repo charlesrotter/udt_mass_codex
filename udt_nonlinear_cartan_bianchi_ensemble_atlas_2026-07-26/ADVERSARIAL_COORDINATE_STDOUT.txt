@@ -1,0 +1,27 @@
+{
+  "comparison_point": "all amplitude values zero; all first/second base jets nonzero rational controls",
+  "coordinate_scalar": "13650311/27518400",
+  "curvature_components_compared": 36,
+  "curvature_mismatches": 0,
+  "metric_at_point": "[[-1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]",
+  "production_scalar": "13650311/27518400",
+  "scalar_delta": "0",
+  "selected_exact_components": [
+    {
+      "component": "R0101",
+      "value": "-4196539/15724800"
+    },
+    {
+      "component": "R0203",
+      "value": "-7037/30240"
+    },
+    {
+      "component": "R0212",
+      "value": "581/1200"
+    },
+    {
+      "component": "R2323",
+      "value": "-768389/25401600"
+    }
+  ]
+}

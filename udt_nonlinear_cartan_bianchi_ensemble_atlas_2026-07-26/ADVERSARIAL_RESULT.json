@@ -1,0 +1,23 @@
+{
+  "coordinate_metric": {
+    "exit_code": 0,
+    "script": "verify_adversarial_coordinate_metric.py",
+    "script_sha256": "95b0c4ad927da622f70dde09173d5b5dd6494e6f462f88460beda5348c73d196",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "8b557712b4e117fda92703c7777e272e7f96103de04d175d491286b7e1074eed"
+  },
+  "koszul_frame": {
+    "exit_code": 0,
+    "script": "verify_adversarial_koszul.py",
+    "script_sha256": "90e8999e14b7040e9d17eed51fe765902b0e1217e21f52e4a2c8e034a15b906f",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "2b3e71f18e16391f3b27460592a92b726cc0f646264158159c52318fcdb73723"
+  },
+  "original_fresh_context_hashes": {
+    "coordinate_script": "104c2f65b55d0211bce049921fb588b989cf34f1528fbc9e28892fca4340c123",
+    "expectation": "6e197767abf3e4efc8da01fe9eba6d237effd036c246c6c1c9118405008b6569",
+    "koszul_script": "3b5377d3a6e0d62802bc2d4b837d70390f4e90be4279b426cb1359a456dbef48"
+  },
+  "status": "PASS",
+  "sympy": "1.13.1"
+}

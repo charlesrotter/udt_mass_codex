@@ -1,0 +1,37 @@
+lower_pair	two_form_leg	coefficient	zero_status
+01	01	-(4*E0_u0 + 4*E1_u1 + 3*f2**2 + 3*f3**2 + 4*u0**2 - 4*u1**2)/4	NONZERO_EXACT
+01	02	-(2*E0_f2 - 4*a0*f2 + 2*f2*s0 + f3*h0)/4	NONZERO_EXACT
+01	03	-(2*E0_f3 + 4*a0*f3 + 3*f2*h0 + 2*f3*s0)/4	NONZERO_EXACT
+01	12	-(2*E1_f2 - 4*a1*f2 + 2*f2*s1 + f3*h1)/4	NONZERO_EXACT
+01	13	-(2*E1_f3 + 4*a1*f3 + 3*f2*h1 + 2*f3*s1)/4	NONZERO_EXACT
+01	23	a0*h1 - a1*h0	NONZERO_EXACT
+02	01	-(2*E0_f2 - 4*a0*f2 + 2*f2*s0 + f3*h0)/4	NONZERO_EXACT
+02	02	-(-4*E0_a0 + 2*E0_s0 + 4*a0**2 - 4*a0*s0 - 4*a1*u1 - f2**2 - h0**2 + s0**2 + 2*s1*u1)/4	NONZERO_EXACT
+02	03	-(2*E0_h0 - 4*a0*h0 - f2*f3 + 2*h0*s0 + 2*h1*u1)/4	NONZERO_EXACT
+02	12	-(-4*E1_a0 + 2*E1_s0 + 4*a0*a1 - 2*a0*s1 - 2*a1*s0 + 4*a1*u0 - h0*h1 + s0*s1 - 2*s1*u0)/4	NONZERO_EXACT
+02	13	-(2*E1_h0 - 6*a0*h1 + 2*a1*h0 + h0*s1 + h1*s0 - 2*h1*u0)/4	NONZERO_EXACT
+02	23	-(-2*a1*f3 - f2*h1 + f3*s1)/4	NONZERO_EXACT
+03	01	-(2*E0_f3 + 4*a0*f3 + 3*f2*h0 + 2*f3*s0)/4	NONZERO_EXACT
+03	02	-(2*E0_h0 - 4*a0*h0 - f2*f3 + 2*h0*s0 + 2*h1*u1)/4	NONZERO_EXACT
+03	03	-(4*E0_a0 + 2*E0_s0 + 4*a0**2 + 4*a0*s0 + 4*a1*u1 - f3**2 + 3*h0**2 + s0**2 + 2*s1*u1)/4	NONZERO_EXACT
+03	12	-(2*E1_h0 - 2*a0*h1 - 2*a1*h0 + h0*s1 + h1*s0 - 2*h1*u0)/4	NONZERO_EXACT
+03	13	-(4*E1_a0 + 2*E1_s0 + 4*a0*a1 + 2*a0*s1 + 2*a1*s0 - 4*a1*u0 + 3*h0*h1 + s0*s1 - 2*s1*u0)/4	NONZERO_EXACT
+03	23	(2*a1*f2 + f2*s1 - f3*h1)/4	NONZERO_EXACT
+12	01	-(2*E1_f2 - 4*a1*f2 + 2*f2*s1 + f3*h1)/4	NONZERO_EXACT
+12	02	-(-4*E1_a0 + 2*E1_s0 + 4*a0*a1 - 2*a0*s1 - 2*a1*s0 + 4*a1*u0 - h0*h1 + s0*s1 - 2*s1*u0)/4	NONZERO_EXACT
+12	03	-(2*E1_h0 - 2*a0*h1 - 2*a1*h0 + h0*s1 + h1*s0 - 2*h1*u0)/4	NONZERO_EXACT
+12	12	(4*E1_a1 - 2*E1_s1 - 4*a0*u0 - 4*a1**2 + 4*a1*s1 - f2**2 + h1**2 + 2*s0*u0 - s1**2)/4	NONZERO_EXACT
+12	13	-(2*E1_h1 - 4*a1*h1 + f2*f3 - 2*h0*u0 + 2*h1*s1)/4	NONZERO_EXACT
+12	23	-(-2*a0*f3 - f2*h0 + f3*s0)/4	NONZERO_EXACT
+13	01	-(2*E1_f3 + 4*a1*f3 + 3*f2*h1 + 2*f3*s1)/4	NONZERO_EXACT
+13	02	-(2*E1_h0 - 6*a0*h1 + 2*a1*h0 + h0*s1 + h1*s0 - 2*h1*u0)/4	NONZERO_EXACT
+13	03	-(4*E1_a0 + 2*E1_s0 + 4*a0*a1 + 2*a0*s1 + 2*a1*s0 - 4*a1*u0 + 3*h0*h1 + s0*s1 - 2*s1*u0)/4	NONZERO_EXACT
+13	12	-(2*E1_h1 - 4*a1*h1 + f2*f3 - 2*h0*u0 + 2*h1*s1)/4	NONZERO_EXACT
+13	13	(-4*E1_a1 - 2*E1_s1 + 4*a0*u0 - 4*a1**2 - 4*a1*s1 - f3**2 - 3*h1**2 + 2*s0*u0 - s1**2)/4	NONZERO_EXACT
+13	23	(2*a0*f2 + f2*s0 - f3*h0)/4	NONZERO_EXACT
+23	01	a0*h1 - a1*h0	NONZERO_EXACT
+23	02	-(-2*a1*f3 - f2*h1 + f3*s1)/4	NONZERO_EXACT
+23	03	(2*a1*f2 + f2*s1 - f3*h1)/4	NONZERO_EXACT
+23	12	-(-2*a0*f3 - f2*h0 + f3*s0)/4	NONZERO_EXACT
+23	13	(2*a0*f2 + f2*s0 - f3*h0)/4	NONZERO_EXACT
+23	23	(-4*a0**2 + 4*a1**2 - h0**2 + h1**2 + s0**2 - s1**2)/4	NONZERO_EXACT

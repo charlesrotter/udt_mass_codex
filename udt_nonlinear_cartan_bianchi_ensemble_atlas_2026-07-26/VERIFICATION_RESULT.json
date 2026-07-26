@@ -1,0 +1,11 @@
+{
+  "catch_proofs_passed": 12,
+  "deterministic_generated_files": 9,
+  "preregistration_commit": "c5e343a",
+  "preregistration_files_unchanged": 10,
+  "python": "3.10.12",
+  "semantic_and_integrity_errors": [],
+  "source_manifest_rows_verified": 10,
+  "status": "PASS",
+  "sympy": "1.13.1"
+}

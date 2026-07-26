@@ -1,0 +1,27 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "-I",
+    "-S",
+    "-c",
+    "import runpy,sys;sys.path.insert(0,'<PINNED_SITE>');runpy.run_path('<PACKAGE>/verify_package.py',run_name='__main__')"
+  ],
+  "command_note": "temporary dependency path normalized; public replay command is in COMMANDS.md",
+  "dependency_trees": {
+    "mpmath": {
+      "copied_tree_sha256": "37702ee13422e6e4081284b50c3466279ca074645f1886e0baf2ef043cf4593d",
+      "source_tree_sha256": "37702ee13422e6e4081284b50c3466279ca074645f1886e0baf2ef043cf4593d"
+    },
+    "sympy": {
+      "copied_tree_sha256": "96bbdee039d3eb3e4839d34ffeb830ff8ed7afc2de6e56b88aeb5822b492db17",
+      "source_tree_sha256": "96bbdee039d3eb3e4839d34ffeb830ff8ed7afc2de6e56b88aeb5822b492db17"
+    }
+  },
+  "exit_code": 0,
+  "implementation": "CPython",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "status": "PASS",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "991a49ebe8c627f900297ea7d99e95662b7a3370796e90da12f8f267963e11bb"
+}

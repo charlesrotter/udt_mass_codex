@@ -1,0 +1,8 @@
+object	status	meaning	does_not_supply
+coframe_structure	DERIVED_IN_REGISTERED_DOMAIN	exact exterior derivatives of the complete coframe	on_shell_profile
+right_Maurer_Cartan	DERIVED_IDENTITY	integrability of D and its structural channels	field_equation
+Levi_Civita_connection	DERIVED_GIVEN_METRIC	unique torsion_free metric_compatible connection	action_or_source
+Riemann_curvature	DERIVED_GIVEN_METRIC	nonlinear geometric response of arbitrary off_shell amplitudes	physical_response_law
+first_and_second_Bianchi	DERIVED_IDENTITIES	geometric consistency of curvature and torsion	dynamics_or_selector
+global_local_response_one_form	OPEN_NOT_DERIVED	required directional response linking inventory to geometry	not_available
+density_to_geometry_map	OPEN_NOT_DERIVED	required before any density bracket	not_available

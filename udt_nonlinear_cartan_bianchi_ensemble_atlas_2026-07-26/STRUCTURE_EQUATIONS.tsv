@@ -1,0 +1,5 @@
+coframe_leg	dtheta
+theta0	(u1) theta01
+theta1	(u0) theta01
+theta2	(f2) theta01 + (-a0 + s0/2) theta02 + (h0) theta03 + (-a1 + s1/2) theta12 + (h1) theta13
+theta3	(f3) theta01 + (a0 + s0/2) theta03 + (a1 + s1/2) theta13

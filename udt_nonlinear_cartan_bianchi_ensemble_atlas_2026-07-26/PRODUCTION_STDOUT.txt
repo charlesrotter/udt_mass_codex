@@ -1,0 +1,51 @@
+stage=structure_and_integrability
+stage=levi_civita_connection
+stage=curvature
+{
+  "checks": {
+    "FC11_general_non_toric_scope_preserved": "PASS",
+    "coframe_integrability_after_right_maurer_cartan": "PASS",
+    "connection_24_slots_uniquely_solved": "PASS",
+    "connection_metric_antisymmetry": "PASS",
+    "curvature_metric_antisymmetry": "PASS",
+    "first_bianchi_exact": "PASS",
+    "neutral_scalar_curvature_matches_banked_orchestra": "PASS",
+    "no_direct_phi_connection_curvature_quadratic_edge": "PASS",
+    "registered_channel_universe_exact": "PASS",
+    "registered_output_universe_exact": "PASS",
+    "ricci_symmetry": "PASS",
+    "riemann_pair_exchange_symmetry": "PASS",
+    "second_bianchi_graded_algebra_exact": "PASS",
+    "six_family_quadratic_graph_connected": "PASS",
+    "three_maurer_cartan_components_exposed": "PASS",
+    "torsion_zero_exact": "PASS",
+    "twelve_completion_classes_exactly_once": "PASS"
+  },
+  "counts": {
+    "channel_families": 6,
+    "completion_classes": 12,
+    "connection_pair_labeled_slots": 24,
+    "curvature_contraction_summaries": 11,
+    "curvature_pair_labeled_slots": 36,
+    "direct_quadratic_family_pairs_absent": [
+      "PHI_ANHOLONOMY--CONNECTION_CURVATURE_1",
+      "PHI_ANHOLONOMY--CONNECTION_CURVATURE_2"
+    ],
+    "generic_four_dimensional_Riemann_algebraic_slots": 20,
+    "nonlinear_graph_rows": 25,
+    "nonzero_connection_slots": 18,
+    "nonzero_curvature_coefficients": 36,
+    "quadratic_family_pairs_possible_with_self": 21,
+    "quadratic_family_pairs_present": 19,
+    "registered_channels": 10,
+    "registered_outputs": 11
+  },
+  "interpretation": {
+    "action_source_boundary_density": "OPEN_NOT_INPUT",
+    "cartan_and_bianchi": "DERIVED_GEOMETRIC_IDENTITIES_IN_REGISTERED_DOMAIN",
+    "density_sweep": "DEFERRED",
+    "physical_response_one_form": "NOT_SUPPLIED_BY_IDENTITIES"
+  },
+  "scope": "exact nonlinear regular toric coframe; arbitrary smooth x0,x amplitudes; off shell",
+  "status": "PASS"
+}
