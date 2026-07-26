@@ -1,0 +1,10 @@
+claim	status	basis	remaining
+metric_local_geometric_primitives	DERIVED_SCOPED	N08,N09,N13,N24	physical global state and response law
+conditional_metric_measures	DERIVED_CONDITIONAL	N02,N03,N04 with V01-V03	domain, representative, moving boundary and completion
+integrated_curvature_variation	DERIVED_MATHEMATICAL_COMPARISON	N10 and V05	native selection and boundary completion
+set_valued_angular_systole	DERIVED_CONDITIONAL_TORIC	N16 and V08	physical selection, global transport and phase
+native_total_mass_energy_density	OPEN	N05-N07	native functional and same-solution variation
+universal_observer_separation_and_Xmax	OPEN_TYPE_ONLY	N19,N20	D_g, complete branch and extremum regularity
+complete_global_observable_vector	NOT_DERIVED_IN_FROZEN_UNIVERSE	no coherent component assembly survives B01-B05	one coherent domain and ontology plus native global definitions
+complete_bootstrap_closure_section	NOT_DERIVED_IN_FROZEN_UNIVERSE	no coherent component assembly survives B01-B06 and neither complete arrow passes	R[X], A(X,O), targets, normalizations, pairing, boundary and regularity
+future_density_bracket	DEFERRED_IMPORTED_COMPARISON_ANCHOR_ONLY	L17 and preregistration stop	native mass/energy and density-to-geometry response first

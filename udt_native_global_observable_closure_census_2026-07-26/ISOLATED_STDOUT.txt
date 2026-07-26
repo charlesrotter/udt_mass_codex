@@ -1,0 +1,13 @@
+{
+  "deterministic_production_files": 8,
+  "exercised_catch_proofs": 22,
+  "independent_checks": 46,
+  "maximum_supported_conclusion": "NO_DERIVED_COMPLETE_OBSERVABLE_VECTOR_OR_CLOSURE_SECTION__EXACT_METRIC_PRIMITIVE_AND_VARIATION_ATLAS",
+  "preregistration_files_unchanged": 9,
+  "production_checks": 39,
+  "python": "3.10.12",
+  "result": "PASS",
+  "schema": "udt-native-global-observable-package-verification-1.0",
+  "source_manifest_rows_verified_at_base": 19,
+  "sympy": "1.14.0"
+}

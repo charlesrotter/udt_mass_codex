@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "-I",
+    "-S",
+    "-c",
+    "<BOOTSTRAP_WITH_PINNED_SITE>"
+  ],
+  "cpu_only": true,
+  "exit_code": 0,
+  "implementation": "CPython",
+  "pinned_dependency": "sympy==1.14.0",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "result": "PASS",
+  "schema": "udt-native-global-observable-run-environment-1.0",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "4d4f60f7f4d7b1ed92201e1a0bd4c6fb962d013e64d65e72e13732508e4b65c0"
+}
