@@ -1,0 +1,37 @@
+{
+  "census_check_count": 145,
+  "checks": {
+    "independent_125_potential_triangles": "PASS",
+    "independent_all_five_screen_gauges": "PASS",
+    "independent_all_five_typed_compositions": "PASS",
+    "independent_all_five_vertical_compositions": "PASS",
+    "independent_base_holonomy_different": "PASS",
+    "independent_basepoint_reconstruction": "PASS",
+    "independent_direction_reset_only_lambda_one": "PASS",
+    "independent_direction_rotation_Lorentz": "PASS",
+    "independent_holonomy_reversal": "PASS",
+    "independent_lambda_one_observer_dependence": "PASS",
+    "independent_no_tested_lambda_bare_event": "PASS",
+    "independent_observer_boost_Lorentz": "PASS",
+    "independent_only_unit_character_period": "PASS",
+    "independent_only_zero_depth_character_is_Lorentz": "PASS",
+    "independent_path_maps_Lorentz": "PASS",
+    "independent_screen_holonomy_equal": "PASS",
+    "independent_screen_rotation_Lorentz": "PASS",
+    "independent_symmetric_odd_only_zero": "PASS"
+  },
+  "counts": {
+    "bare_event_independent_lambda_values": 0,
+    "direction_reset_matches": 1,
+    "identity_character_factors": 1,
+    "lambda_values_tested": 5,
+    "positive_character_factors_tested": 5,
+    "potential_triangles_tested": 125,
+    "screen_gauge_passes": 5,
+    "typed_composition_passes": 5,
+    "vertical_composition_passes": 5
+  },
+  "result": "PASS",
+  "schema": "udt-observer-pair-path-groupoid-independent-1.0",
+  "summary_check_count": 18
+}

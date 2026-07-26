@@ -1,0 +1,42 @@
+{
+  "catch_count": 15,
+  "catch_proofs": {
+    "bare_event": "PASS",
+    "endpoint_potential": "PASS",
+    "flatness_promotion": "PASS",
+    "holonomy_identity": "PASS",
+    "independent": "PASS",
+    "inserted_depth": "PASS",
+    "lambda_selection": "PASS",
+    "missing_route": "PASS",
+    "omitted_vertical": "PASS",
+    "period_erasure": "PASS",
+    "physics": "PASS",
+    "screen_gauge": "PASS",
+    "source_identity": "PASS",
+    "symmetric_distance_as_signed": "PASS",
+    "transport_as_depth": "PASS"
+  },
+  "grade": "VERIFIED_WITH_CAVEATS_BOUNDED_PAIR_FRAME_PATH_GROUPOID_CLASSIFICATION",
+  "independent_counts": {
+    "bare_event_independent_lambda_values": 0,
+    "direction_reset_matches": 1,
+    "identity_character_factors": 1,
+    "lambda_values_tested": 5,
+    "positive_character_factors_tested": 5,
+    "potential_triangles_tested": 125,
+    "screen_gauge_passes": 5,
+    "typed_composition_passes": 5,
+    "vertical_composition_passes": 5
+  },
+  "independent_summary_checks": 18,
+  "object_types": 11,
+  "production_checks": 51,
+  "result": "PASS",
+  "routes": 12,
+  "schema": "udt-observer-pair-path-groupoid-verification-1.0",
+  "source_identities": 10,
+  "status_rows": 16,
+  "stratum_rows": 26,
+  "transition_reinterpretations": 6
+}

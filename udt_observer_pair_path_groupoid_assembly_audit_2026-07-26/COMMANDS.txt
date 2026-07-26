@@ -1,0 +1,10 @@
+git status --short --branch
+python3 verify_current_scientific_premises.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 udt_observer_pair_path_groupoid_assembly_audit_2026-07-26/run_and_capture.py
+PYTHONDONTWRITEBYTECODE=1 python3 udt_observer_pair_path_groupoid_assembly_audit_2026-07-26/build_source_manifest.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 udt_observer_pair_path_groupoid_assembly_audit_2026-07-26/verify_audit.py
+PYTHONDONTWRITEBYTECODE=1 python3 udt_observer_pair_path_groupoid_assembly_audit_2026-07-26/build_manifest.py
+sha256sum --check SHA256SUMS.txt
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 verify_repository_gates.py
+git diff --check
+

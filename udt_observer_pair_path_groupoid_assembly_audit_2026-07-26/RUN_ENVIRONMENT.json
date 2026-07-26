@@ -1,0 +1,21 @@
+{
+  "cpu_only": true,
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "runs": {
+    "independent": {
+      "command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 udt_observer_pair_path_groupoid_assembly_audit_2026-07-26/verify_groupoid_independent.py",
+      "exit_code": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "738870d84aa8652444389ad9b64a9f10876ce7e9a559b0c663a9ec84791cac4d"
+    },
+    "production": {
+      "command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 udt_observer_pair_path_groupoid_assembly_audit_2026-07-26/derive_pair_frame_groupoid.py",
+      "exit_code": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "005f8004c14acac5d46910a628da66e40b3ba574bc5936b8e920b9feb941a4e9"
+    }
+  },
+  "schema": "udt-observer-pair-path-groupoid-run-environment-1.0",
+  "sympy": "1.13.1"
+}
