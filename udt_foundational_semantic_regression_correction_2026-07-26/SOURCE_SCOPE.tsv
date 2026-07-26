@@ -1,0 +1,21 @@
+source_id	path	role
+S01	UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md	founding reciprocal-c derivation
+S02	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/AUDIT_REPORT.md	controlling founded-phi correction
+S03	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/EXTENSION_CLASS_LEDGER.tsv	exact complete-coframe extension class
+S04	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/AFFECTED_RESULT_CORRECTION_PLAN.tsv	known active ambiguity set
+S05	udt_common_scale_neutrality_provenance_audit_2026-07-24/AUDIT_REPORT.md	controlling CSN provenance
+S06	udt_common_scale_neutrality_provenance_audit_2026-07-24/STATUS_LEDGER.tsv	current CSN and scale statuses
+S07	udt_global_local_relational_closure_audit_2026-07-25/STATUS_LEDGER.tsv	current response and bootstrap status
+S08	udt_xmax_observer_separation_audit_2026-07-24/STATUS_LEDGER.tsv	current Xmax status
+S09	native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md	carrier and Hopfion status
+S10	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv	action source boundary mass status
+S11	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	conditional toric and Maxwell-like geometry
+S12	udt_global_functional_dof_constraint_rank_audit_2026-07-26/AUDIT_REPORT.md	faulty current result to correct
+S13	udt_global_functional_dof_constraint_rank_audit_2026-07-26/STATUS_LEDGER.tsv	faulty status rows to correct
+S14	udt_global_functional_dof_constraint_rank_audit_2026-07-26/REALIZATION_BRANCH_RANK.tsv	faulty branch framing to correct
+S15	udt_complete_metric_solution_space_map_2026-07-21/OFFSHELL_CONFIGURATION_BRANCHES.tsv	older branch census requiring override
+S16	AGENTS.md	binding startup instructions
+S17	LIVE.md	current authoritative frontier
+S18	HANDOFF.md	current resume control
+S19	INDEX.md	current navigation
+S20	UDT_SCIENTIFIC_FRONTIER_2026-07-19.md	current scientific overlay

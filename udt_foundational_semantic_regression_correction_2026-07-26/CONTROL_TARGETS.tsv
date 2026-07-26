@@ -1,0 +1,10 @@
+path	role	minimum_required_update
+AGENTS.md	binding_startup_and_method	premise precedence and founded-phi/CSN guards
+LIVE.md	authoritative_current_state	correction overlay above current frontier
+HANDOFF.md	lean_resume	correction overlay and reading order
+INDEX.md	startup_navigation	current premise registry pointer
+README.md	root_orientation	one current premise-registry pointer without changing startup order
+research/README.md	research_navigation	current semantic precedence pointer
+research/_registry/README.md	registry_semantics	distinguish scientific premise registry from reorganization registries
+MEMORY.md	startup_pointer_only	current correction pointer
+UDT_SCIENTIFIC_FRONTIER_2026-07-19.md	scientific_frontier_overlay	founded-phi and inactive-CSN correction at top
