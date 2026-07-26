@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "aligned_exact_samples": 6,
+    "angular_fixed_level_difference": "1/25",
+    "general_B_exact_samples": 6,
+    "product_diameter_pi_squared_coefficient_difference": "3",
+    "shift_fixed_level_difference": "-3/80"
+  },
+  "implementation": "python_standard_library_fraction_gauss_jordan",
+  "result": "PASS",
+  "rulings": {
+    "aligned_depth_invariance": "PASS",
+    "global_distance_channel_distinct": "PASS",
+    "nonaligned_modulation_exists": "PASS"
+  },
+  "schema": "udt-macro-phi-angular-xmax-independent-1.0"
+}

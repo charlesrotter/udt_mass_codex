@@ -1,0 +1,13 @@
+Base: 3ff555b4a48a70067313afef0cf10eba2e17fd49
+Preregistration: a618524
+Preregistration correction: f64826b
+
+python3 -m pip install --target /tmp/udt_phi_angular_xmax_pinned -r udt_macro_phi_angular_xmax_extension_atlas_2026-07-25/requirements.txt
+PYTHONPATH=/tmp/udt_phi_angular_xmax_pinned python3 udt_macro_phi_angular_xmax_extension_atlas_2026-07-25/build_atlas.py
+python3 udt_macro_phi_angular_xmax_extension_atlas_2026-07-25/verify_independent.py
+python3 udt_macro_phi_angular_xmax_extension_atlas_2026-07-25/verify_atlas.py
+python3 udt_macro_phi_angular_xmax_extension_atlas_2026-07-25/run_replay.py
+python3 udt_macro_phi_angular_xmax_extension_atlas_2026-07-25/build_manifest.py
+python3 udt_macro_phi_angular_xmax_extension_atlas_2026-07-25/verify_repository_gates.py
+
+CPU only. No GPU process was launched.

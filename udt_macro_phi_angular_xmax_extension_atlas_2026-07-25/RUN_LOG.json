@@ -1,0 +1,56 @@
+{
+  "cpu_only": true,
+  "records": [
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-c",
+        "import sys,sympy; print(sys.version.split()[0]); print(sympy.__version__)"
+      ],
+      "exit_code": 0,
+      "name": "pinned_versions",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout": "3.10.12\n1.14.0\n",
+      "stdout_sha256": "7913dd6cff8c6c5c41d609cd219b2a0aa0e5919292707468d761a25557e3928c"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/udt_phi_ontology_XvSL3D/repo/udt_macro_phi_angular_xmax_extension_atlas_2026-07-25/build_atlas.py"
+      ],
+      "exit_code": 0,
+      "name": "production_build",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout": "{\"atlas_rows\": 84, \"completions\": 12, \"directions\": 7, \"result\": \"PASS\", \"sympy\": \"1.14.0\"}\n",
+      "stdout_sha256": "afdccb9b87fd252ea8b86c73db5a91c122006e34e3f79eba562ea9392bd970ea"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/udt_phi_ontology_XvSL3D/repo/udt_macro_phi_angular_xmax_extension_atlas_2026-07-25/verify_independent.py"
+      ],
+      "exit_code": 0,
+      "name": "independent_fraction_replay",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout": "{\"checks\": {\"aligned_exact_samples\": 6, \"angular_fixed_level_difference\": \"1/25\", \"general_B_exact_samples\": 6, \"product_diameter_pi_squared_coefficient_difference\": \"3\", \"shift_fixed_level_difference\": \"-3/80\"}, \"implementation\": \"python_standard_library_fraction_gauss_jordan\", \"result\": \"PASS\", \"rulings\": {\"aligned_depth_invariance\": \"PASS\", \"global_distance_channel_distinct\": \"PASS\", \"nonaligned_modulation_exists\": \"PASS\"}, \"schema\": \"udt-macro-phi-angular-xmax-independent-1.0\"}\n",
+      "stdout_sha256": "33ccae32274d575ae0f2e8b1a2fdf6de76ce1ce8ffb3d148b931f116a064c17f"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/udt_phi_ontology_XvSL3D/repo/udt_macro_phi_angular_xmax_extension_atlas_2026-07-25/verify_atlas.py"
+      ],
+      "exit_code": 0,
+      "name": "fail_closed_verifier",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout": "{\"checks\": {\"aligned_depth_identity\": \"PASS\", \"channel_separation\": \"PASS\", \"exact_cross_product\": \"PASS\", \"independent_fraction_replay\": \"PASS\", \"no_selection_promotion\": \"PASS\", \"no_xmax_promotion\": \"PASS\", \"pinned_sympy\": \"1.14.0\", \"source_manifest\": \"PASS\"}, \"counts\": {\"atlas_rows\": 84, \"catch_proofs\": 12, \"completions\": 12, \"directions\": 7, \"modulation_channels\": 5, \"source_files\": 11}, \"result\": \"PASS\", \"schema\": \"udt-macro-phi-angular-xmax-verification-1.0\"}\n",
+      "stdout_sha256": "0f220ce35f36471abbbf3406e8fcdb02c47eba770f58400226f3fe2fd807edb2"
+    }
+  ],
+  "result": "PASS",
+  "schema": "udt-macro-phi-angular-xmax-run-log-1.0"
+}

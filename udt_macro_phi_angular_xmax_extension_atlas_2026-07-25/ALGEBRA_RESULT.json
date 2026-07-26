@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "aligned_B": "p**2/w**2",
+    "angular_fixed_level_B_y0": "29/100",
+    "angular_fixed_level_B_ypi2": "1/4",
+    "angular_fixed_level_difference": "1/25",
+    "general_B": "(e**2*ell3**2*p2**2 + e**2*p2**2*w**2 - 2*e*ell2*ell3*p2**2*t - 2*e*ell3**2*p2*p3*r + 2*e*ell3*p1*p2*r*t - 2*e*p2*p3*r*w**2 + ell2**2*p2**2*t**2 + 2*ell2*ell3*p2*p3*r*t - 2*ell2*p1*p2*r*t**2 + ell3**2*p3**2*r**2 - 2*ell3*p1*p3*r**2*t + p1**2*r**2*t**2 + p2**2*t**2*w**2 + p3**2*r**2*w**2)/(r**2*t**2*w**2)",
+    "general_coframe_components": [
+      "(-ell3*p3*r + p1*r*t + p2*(e*ell3 - ell2*t))/(r*t*w)",
+      "p2/r",
+      "(-e*p2 + p3*r)/(r*t)"
+    ],
+    "product_diameter_squared_difference": "3*pi**2",
+    "shift_fixed_level_B_y0": "17/80",
+    "shift_fixed_level_B_ypi2": "1/4",
+    "shift_fixed_level_difference": "-3/80",
+    "spatial_metric_positive_chart_determinant": "r**2*t**2*w**2"
+  },
+  "result": "PASS",
+  "rulings": {
+    "aligned_depth": "ANGULAR_AND_LOWER_MIXING_DIRECTIONS_DO_NOT_CHANGE_LOCAL_B",
+    "clock_angular_mix": "NO_EFFECT_ON_FIXED_FOUNDED_CLOCK_HORIZONTAL_SPATIAL_METRIC",
+    "global_distance": "ANGULAR_GEOMETRY_CAN_CHANGE_COMPLETE_CELL_DIAMETER_WITHOUT_CHANGING_ALIGNED_LOCAL_B",
+    "nonaligned_depth": "ANGULAR_AND_DEPTH_ANGULAR_DIRECTIONS_CAN_CHANGE_B_AND_BREAK_LEVEL_SET_CONSTANCY",
+    "selection": "NO_EXTENSION_OR_COMPLETION_SELECTED",
+    "xmax": "NOT_DERIVED"
+  },
+  "schema": "udt-macro-phi-angular-xmax-algebra-1.0",
+  "sympy_version": "1.14.0"
+}

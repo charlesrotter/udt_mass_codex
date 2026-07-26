@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "aligned_depth_identity": "PASS",
+    "channel_separation": "PASS",
+    "exact_cross_product": "PASS",
+    "independent_fraction_replay": "PASS",
+    "no_selection_promotion": "PASS",
+    "no_xmax_promotion": "PASS",
+    "pinned_sympy": "1.14.0",
+    "source_manifest": "PASS"
+  },
+  "counts": {
+    "atlas_rows": 84,
+    "catch_proofs": 12,
+    "completions": 12,
+    "directions": 7,
+    "modulation_channels": 5,
+    "source_files": 11
+  },
+  "result": "PASS",
+  "schema": "udt-macro-phi-angular-xmax-verification-1.0"
+}
