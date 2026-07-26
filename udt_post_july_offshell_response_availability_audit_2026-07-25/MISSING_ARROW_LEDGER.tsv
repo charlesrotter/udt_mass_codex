@@ -1,0 +1,9 @@
+arrow_id	from_object	to_object	status	families_showing_gap	why_load_bearing
+A01	Founded reciprocal and complete-coframe geometry	Complete varied field and configuration domain	OPEN	B01;B03-B07;B11-B18;B24-B31	Without the varied domain no response one-form has a defined cotangent space.
+A02	Global finite-cell completion and topology	Local trace-free angular metric response	OPEN	B11-B18;B24;B27-B29	Topology and gluing do not determine how an admissible local angular variation changes the global solution.
+A03	On-shell bootstrap self-consistency	Off-shell global-to-local response	OPEN	B23;B29	A predicate evaluated after solving cannot generate the equations whose solutions it filters.
+A04	Native geometry	Native same-solution mass functional and variation	OPEN	B02;B08-B10;B19-B23;B29-B31	External density or supplied-carrier energy cannot close the bootstrap on the same metric solution.
+A05	Bulk response	Differentiable seal boundary corner and global variation	OPEN	B08-B10;B19;B20;B22	A bulk equation alone does not define a finite-cell variational problem or boundary charge.
+A06	Founded pair depth	Selected complete four-dimensional coframe extension	OPEN	B30;B31	The exact two-channel subgroup leaves angular and mixing extension directions unselected.
+A07	Conditional local response candidates	Native operator provenance	OPEN	B08-B10;B19;B20;B22	C2 EH and supplied-carrier functionals are conditional rather than derived native closure.
+A08	Complete off-shell response one-form	Locally and globally integrable action	NOT_YET_TESTABLE	B29	Helmholtz boundary and global-period tests require the response object first.

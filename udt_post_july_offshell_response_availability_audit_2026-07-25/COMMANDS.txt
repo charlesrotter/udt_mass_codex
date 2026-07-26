@@ -1,0 +1,9 @@
+git checkout grok
+git fetch origin
+git merge --ff-only origin/grok
+git status --short --branch
+git log -8 --oneline
+python3 udt_post_july_offshell_response_availability_audit_2026-07-25/build_source_closure.py
+python3 udt_post_july_offshell_response_availability_audit_2026-07-25/verify_response_availability.py --output udt_post_july_offshell_response_availability_audit_2026-07-25/RESULT.json
+python3 udt_post_july_offshell_response_availability_audit_2026-07-25/build_manifest.py
+python3 udt_post_july_offshell_response_availability_audit_2026-07-25/verify_repository_gates.py

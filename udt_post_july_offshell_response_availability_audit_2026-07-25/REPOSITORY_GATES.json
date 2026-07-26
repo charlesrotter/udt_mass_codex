@@ -1,0 +1,120 @@
+{
+  "authority_boundary": {
+    "action_source_carrier_selected": false,
+    "canon_changed": false,
+    "density_sweep": false,
+    "frozen_or_historical_changed": false,
+    "gpu_work": false,
+    "repository_reorganization": false,
+    "response_derived": false,
+    "source_results_changed": false,
+    "startup_controls_changed": false
+  },
+  "base": "b5edb0744ee9c94223ed0b0c090b82c3994341e8",
+  "catch_proofs": {
+    "current_paths": "PASS",
+    "dirty": "PASS",
+    "frontier": "PASS",
+    "frozen": "PASS",
+    "package": "PASS",
+    "scope": "PASS"
+  },
+  "dirty_checkout": {
+    "branch": "grok",
+    "contents_read": false,
+    "head": "adf8f92d95c387cc647f04b16f1f3b17e1e670d2",
+    "metadata_sha256": "345d297e0ad849cd38f1d817c915922de653ca2d2befcf923af6f9d097b483e4",
+    "paths": 55,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 22,
+    "manifest_sha256": "aa7028492336131e8fbe24fa44216c2e9162dbd56c4ed024f3ae4bd4dd417a5a",
+    "result": "PASS"
+  },
+  "result": "PASS",
+  "schema": "udt-post-july-response-availability-repository-gates-1.0",
+  "scope_paths": [
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/AUDIT_REPORT.md",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/CANDIDATE_RESPONSE_GATE_MATRIX.tsv",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/CATCH_PROOFS.tsv",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/COMMANDS.txt",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/FAMILY_SOURCE_CLOSURE.tsv",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/FOUR_GATES.md",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/INDEPENDENT_REVIEW.md",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/LAY_REPORT.md",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/MISSING_ARROW_LEDGER.tsv",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/NEXT_STEP.md",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/PARTIAL_INTERFACE_LEDGER.tsv",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/PREREGISTERED_CANDIDATE_UNIVERSE.tsv",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/PREREGISTERED_NEGATIVE_CONTROL.tsv",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/PREREGISTRATION.md",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/REPOSITORY_GATES.json",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/RESULT.json",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/RUN_ENVIRONMENT.json",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/SHA256SUMS.txt",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/STATUS_LEDGER.tsv",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/build_manifest.py",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/build_source_closure.py",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/requirements.txt",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/verify_repository_gates.py",
+    "udt_post_july_offshell_response_availability_audit_2026-07-25/verify_response_availability.py"
+  ],
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 -m pytest -q tests/",
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "stdout_sha256": "4b2adcf0449d1b6d7bdea2aa15b566474f634070c63419f0399899ca46adfaaa",
+    "xfailed": 1
+  }
+}

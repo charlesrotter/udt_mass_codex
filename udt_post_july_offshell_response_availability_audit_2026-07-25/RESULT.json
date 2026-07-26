@@ -1,0 +1,112 @@
+{
+  "candidate_count": 30,
+  "candidate_identity_sha256": "c64994ea2a76d6cb2e74a7d8fd820ccc62783de3f60e3295f50572d589fd8ac6",
+  "catch_proofs": [
+    {
+      "first_error": "candidate order/set mismatch: ['B01', 'B02', 'B03', 'B04', 'B05', 'B06', 'B07', 'B08', 'B09', 'B10', 'B11', 'B12', 'B13', 'B14', 'B15', 'B16', 'B17', 'B18', 'B19', 'B20', 'B21', 'B22', 'B23', 'B24', 'B25', 'B27', 'B28', 'B29', 'B30']",
+      "name": "missing_candidate",
+      "rejected": true
+    },
+    {
+      "first_error": "candidate order/set mismatch: ['B01', 'B02', 'B03', 'B04', 'B05', 'B06', 'B07', 'B08', 'B09', 'B10', 'B11', 'B12', 'B13', 'B14', 'B15', 'B16', 'B17', 'B18', 'B19', 'B20', 'B21', 'B22', 'B23', 'B24', 'B25', 'B27', 'B28', 'B29', 'B30', 'B31', 'B01']",
+      "name": "duplicate_candidate",
+      "rejected": true
+    },
+    {
+      "first_error": "candidate order/set mismatch: ['B26', 'B02', 'B03', 'B04', 'B05', 'B06', 'B07', 'B08', 'B09', 'B10', 'B11', 'B12', 'B13', 'B14', 'B15', 'B16', 'B17', 'B18', 'B19', 'B20', 'B21', 'B22', 'B23', 'B24', 'B25', 'B27', 'B28', 'B29', 'B30', 'B31']",
+      "name": "legacy_control_promoted",
+      "rejected": true
+    },
+    {
+      "first_error": "survivor equivalence violation: B19",
+      "name": "partial_family_called_survivor",
+      "rejected": true
+    },
+    {
+      "first_error": "non-response family promoted to off-shell response: B23",
+      "name": "on_shell_called_off_shell",
+      "rejected": true
+    },
+    {
+      "first_error": "angular response credited without an off-shell response: B23",
+      "name": "volume_called_angular_response",
+      "rejected": true
+    },
+    {
+      "first_error": "unregistered native same-solution mass promotion: B22",
+      "name": "external_mass_called_native",
+      "rejected": true
+    },
+    {
+      "first_error": "boundary geometry credited as response variation: B16",
+      "name": "gluing_called_boundary_variation",
+      "rejected": true
+    },
+    {
+      "first_error": "conditional/imported family has invalid provenance grade: B20",
+      "name": "imported_route_called_native",
+      "rejected": true
+    },
+    {
+      "first_error": "vacuous response-provenance ruling: B25",
+      "name": "vacuous_native_provenance_pass",
+      "rejected": true
+    },
+    {
+      "first_error": "candidate order/set mismatch: ['B32', 'B02', 'B03', 'B04', 'B05', 'B06', 'B07', 'B08', 'B09', 'B10', 'B11', 'B12', 'B13', 'B14', 'B15', 'B16', 'B17', 'B18', 'B19', 'B20', 'B21', 'B22', 'B23', 'B24', 'B25', 'B27', 'B28', 'B29', 'B30', 'B31']",
+      "name": "generated_candidate",
+      "rejected": true
+    },
+    {
+      "first_error": "missing cited source: B01: missing.md",
+      "name": "missing_source_citation",
+      "rejected": true
+    },
+    {
+      "first_error": "source-closure SHA-256 mismatch: B01",
+      "name": "source_closure_hash_corruption",
+      "rejected": true
+    }
+  ],
+  "disposition_counts": {
+    "CONDITIONAL_IMPORTED_OR_POSITED": 7,
+    "GEOMETRY_ONLY": 18,
+    "NO_RESPONSE_ROLE": 3,
+    "ON_SHELL_ONLY": 2
+  },
+  "errors": [],
+  "gate_counts": {
+    "G1_complete_variation_domain": {
+      "ABSENT": 30
+    },
+    "G2_off_shell_local_response": {
+      "ABSENT": 23,
+      "PASS": 7
+    },
+    "G3_tracefree_angular_response": {
+      "ABSENT": 24,
+      "CONDITIONAL": 5,
+      "PASS": 1
+    },
+    "G4_same_solution_mass_volume_density": {
+      "ABSENT": 29,
+      "CONDITIONAL": 1
+    },
+    "G5_finite_cell_boundary_global_variation": {
+      "ABSENT": 30
+    },
+    "G6_native_provenance": {
+      "CONDITIONAL": 7,
+      "OUT_OF_SCOPE": 23
+    }
+  },
+  "maximum_conclusion": "NO_COMPLETE_RESPONSE_IN_FROZEN_30_FAMILY_UNIVERSE",
+  "pinned_hashes": {
+    "udt_bootstrap_clock_angular_closure_audit_2026-07-24/EQUATION_FAMILY_GATE_MATRIX.tsv": "9ff6b8d1005964ee0721440779e07a78165b47a52a0bcac275b221733ce4fac1",
+    "udt_founded_phi_complete_coframe_extension_audit_2026-07-25/SHA256SUMS.txt": "b9c09d4b661303fd091ecc6995ad62da3b81799f2e7771b43fb172725efc63d7",
+    "udt_global_local_relational_closure_audit_2026-07-25/SHA256SUMS.txt": "7571a85c60da8edb7f5160063538d0f1261acb29380428eb2e46515530cc4872",
+    "udt_macro_phi_angular_xmax_extension_atlas_2026-07-25/SHA256SUMS.txt": "c4cd2aee0db110d2f15aa56a1c14fa5a589cb2dc555b3003d8d179fc625c8342"
+  },
+  "status": "PASS",
+  "survivors": []
+}

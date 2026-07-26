@@ -1,0 +1,14 @@
+id	mutation	expected	result
+C01	remove one primary candidate	REJECT	PASS
+C02	duplicate one primary candidate	REJECT	PASS
+C03	promote pre-July B26 into primary universe	REJECT	PASS
+C04	label partial B19 a complete survivor	REJECT	PASS
+C05	label on-shell B23 an off-shell response	REJECT	PASS
+C06	label trace-volume B23 a trace-free angular response	REJECT	PASS
+C07	label supplied-carrier energy native same-solution mass	REJECT	PASS
+C08	label B16 gluing geometry conditional boundary response	REJECT	PASS
+C09	label conditional EH response native	REJECT	PASS
+C10	give no-response B25 a vacuous native-provenance pass	REJECT	PASS
+C11	insert generated B32 candidate	REJECT	PASS
+C12	remove a load-bearing source citation	REJECT	PASS
+C13	corrupt a frozen family source SHA-256	REJECT	PASS
