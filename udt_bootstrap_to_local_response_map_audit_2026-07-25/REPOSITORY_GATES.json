@@ -78,7 +78,7 @@
   },
   "package_manifest": {
     "entries": 35,
-    "manifest_sha256": "24c53a9e627dda55c8a0462935f3bc16cd133bac62c7a1d9fce5de325b7a82f0",
+    "manifest_sha256": "345210a1b2cd2893e8a9a26bfa198cc8c27b4a33a6581fe7d86190046805aa6f",
     "result": "PASS"
   },
   "result": "PASS",
@@ -107,6 +107,7 @@
     "udt_bootstrap_to_local_response_map_audit_2026-07-25/PREREGISTRATION_CORRECTION_01.md",
     "udt_bootstrap_to_local_response_map_audit_2026-07-25/PREREGISTRATION_CORRECTION_02.md",
     "udt_bootstrap_to_local_response_map_audit_2026-07-25/PREREGISTRATION_CORRECTION_03.md",
+    "udt_bootstrap_to_local_response_map_audit_2026-07-25/REPOSITORY_GATES.json",
     "udt_bootstrap_to_local_response_map_audit_2026-07-25/RUN_ENVIRONMENT.json",
     "udt_bootstrap_to_local_response_map_audit_2026-07-25/SHA256SUMS.txt",
     "udt_bootstrap_to_local_response_map_audit_2026-07-25/SOURCE_MANIFEST.tsv",
@@ -126,7 +127,7 @@
     "failed": 0,
     "passed": 70,
     "result": "PASS",
-    "stdout_sha256": "4b2adcf0449d1b6d7bdea2aa15b566474f634070c63419f0399899ca46adfaaa",
+    "stdout_sha256": "c36690151961996b703ac1948f436672a99f1cb6fcc54f067e684744f11be9a3",
     "xfailed": 1
   }
 }
