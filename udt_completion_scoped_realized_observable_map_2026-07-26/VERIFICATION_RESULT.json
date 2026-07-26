@@ -1,0 +1,13 @@
+{
+  "dependencies": "stdlib_only",
+  "deterministic_production_files": 6,
+  "exercised_catch_proofs": 22,
+  "independent_checks": 31,
+  "maximum_supported_conclusion": "COMPLETION_SCOPED_REDUNDANT_READOUT_SCHEMA_DERIVED__NO_REALIZED_COMPLETE_R_GEOM_OR_NONIDENTITY_PHYSICAL_CLOSURE",
+  "preregistration_files_unchanged": 10,
+  "production_checks": 29,
+  "python": "3.10.12",
+  "result": "PASS",
+  "schema": "udt-completion-scoped-map-package-verification-1.0",
+  "source_manifest_rows_verified_at_base": 21
+}

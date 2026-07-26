@@ -1,0 +1,277 @@
+{
+  "edges": [
+    {
+      "from": "complete_metric_or_coframe_profile",
+      "status": "PROFILE_ABSENT_IN_ALL_12_CLASSES",
+      "to": "R01",
+      "type": "REQUIRED_FOR_COMPLETE_REALIZATION"
+    },
+    {
+      "from": "complete_metric_or_coframe_profile",
+      "status": "PROFILE_ABSENT_IN_ALL_12_CLASSES",
+      "to": "R02",
+      "type": "REQUIRED_FOR_COMPLETE_REALIZATION"
+    },
+    {
+      "from": "complete_metric_or_coframe_profile",
+      "status": "PROFILE_ABSENT_IN_ALL_12_CLASSES",
+      "to": "R03",
+      "type": "REQUIRED_FOR_COMPLETE_REALIZATION"
+    },
+    {
+      "from": "complete_metric_or_coframe_profile",
+      "status": "PROFILE_ABSENT_IN_ALL_12_CLASSES",
+      "to": "R04",
+      "type": "REQUIRED_FOR_COMPLETE_REALIZATION"
+    },
+    {
+      "from": "complete_metric_or_coframe_profile",
+      "status": "PROFILE_ABSENT_IN_ALL_12_CLASSES",
+      "to": "R05",
+      "type": "REQUIRED_FOR_COMPLETE_REALIZATION"
+    },
+    {
+      "from": "complete_metric_or_coframe_profile",
+      "status": "PROFILE_ABSENT_IN_ALL_12_CLASSES",
+      "to": "R06",
+      "type": "REQUIRED_FOR_COMPLETE_REALIZATION"
+    },
+    {
+      "from": "complete_metric_or_coframe_profile",
+      "status": "PROFILE_ABSENT_IN_ALL_12_CLASSES",
+      "to": "R07",
+      "type": "REQUIRED_FOR_COMPLETE_REALIZATION"
+    },
+    {
+      "from": "complete_metric_or_coframe_profile",
+      "status": "PROFILE_ABSENT_IN_ALL_12_CLASSES",
+      "to": "R09",
+      "type": "REQUIRED_FOR_COMPLETE_REALIZATION"
+    },
+    {
+      "from": "complete_metric_or_coframe_profile",
+      "status": "PROFILE_ABSENT_IN_ALL_12_CLASSES",
+      "to": "R10",
+      "type": "REQUIRED_FOR_COMPLETE_REALIZATION"
+    },
+    {
+      "from": "complete_metric_or_coframe_profile",
+      "status": "PROFILE_ABSENT_IN_ALL_12_CLASSES",
+      "to": "R12",
+      "type": "REQUIRED_FOR_COMPLETE_REALIZATION"
+    },
+    {
+      "from": "complete_metric_or_coframe_profile",
+      "status": "PROFILE_ABSENT_IN_ALL_12_CLASSES",
+      "to": "R13",
+      "type": "REQUIRED_FOR_COMPLETE_REALIZATION"
+    },
+    {
+      "from": "complete_metric_or_coframe_profile",
+      "status": "PROFILE_ABSENT_IN_ALL_12_CLASSES",
+      "to": "R14",
+      "type": "REQUIRED_FOR_COMPLETE_REALIZATION"
+    },
+    {
+      "from": "complete_metric_or_coframe_profile",
+      "status": "PROFILE_ABSENT_IN_ALL_12_CLASSES",
+      "to": "R15",
+      "type": "REQUIRED_FOR_COMPLETE_REALIZATION"
+    },
+    {
+      "from": "boundary_cap_glue_and_moduli",
+      "status": "TYPE_DATA_PRESENT__COMPLETE_GEOMETRY_AND_VARIATION_ABSENT",
+      "to": "R02",
+      "type": "DOMAIN_DESCENT_AND_MOVING_VARIATION"
+    },
+    {
+      "from": "boundary_cap_glue_and_moduli",
+      "status": "TYPE_DATA_PRESENT__COMPLETE_GEOMETRY_AND_VARIATION_ABSENT",
+      "to": "R03",
+      "type": "DOMAIN_DESCENT_AND_MOVING_VARIATION"
+    },
+    {
+      "from": "boundary_cap_glue_and_moduli",
+      "status": "TYPE_DATA_PRESENT__COMPLETE_GEOMETRY_AND_VARIATION_ABSENT",
+      "to": "R04",
+      "type": "DOMAIN_DESCENT_AND_MOVING_VARIATION"
+    },
+    {
+      "from": "boundary_cap_glue_and_moduli",
+      "status": "TYPE_DATA_PRESENT__COMPLETE_GEOMETRY_AND_VARIATION_ABSENT",
+      "to": "R05",
+      "type": "DOMAIN_DESCENT_AND_MOVING_VARIATION"
+    },
+    {
+      "from": "boundary_cap_glue_and_moduli",
+      "status": "TYPE_DATA_PRESENT__COMPLETE_GEOMETRY_AND_VARIATION_ABSENT",
+      "to": "R06",
+      "type": "DOMAIN_DESCENT_AND_MOVING_VARIATION"
+    },
+    {
+      "from": "boundary_cap_glue_and_moduli",
+      "status": "TYPE_DATA_PRESENT__COMPLETE_GEOMETRY_AND_VARIATION_ABSENT",
+      "to": "R07",
+      "type": "DOMAIN_DESCENT_AND_MOVING_VARIATION"
+    },
+    {
+      "from": "boundary_cap_glue_and_moduli",
+      "status": "TYPE_DATA_PRESENT__COMPLETE_GEOMETRY_AND_VARIATION_ABSENT",
+      "to": "R08",
+      "type": "DOMAIN_DESCENT_AND_MOVING_VARIATION"
+    },
+    {
+      "from": "boundary_cap_glue_and_moduli",
+      "status": "TYPE_DATA_PRESENT__COMPLETE_GEOMETRY_AND_VARIATION_ABSENT",
+      "to": "R13",
+      "type": "DOMAIN_DESCENT_AND_MOVING_VARIATION"
+    },
+    {
+      "from": "boundary_cap_glue_and_moduli",
+      "status": "TYPE_DATA_PRESENT__COMPLETE_GEOMETRY_AND_VARIATION_ABSENT",
+      "to": "R16",
+      "type": "DOMAIN_DESCENT_AND_MOVING_VARIATION"
+    },
+    {
+      "from": "boundary_cap_glue_and_moduli",
+      "status": "TYPE_DATA_PRESENT__COMPLETE_GEOMETRY_AND_VARIATION_ABSENT",
+      "to": "R17",
+      "type": "DOMAIN_DESCENT_AND_MOVING_VARIATION"
+    },
+    {
+      "from": "smooth_projector_bundle_and_metric",
+      "status": "CONDITIONAL_EXACT_ON_SMOOTH_FIXED_RANK_PATHS",
+      "to": "R08",
+      "type": "PATH_TRANSPORT"
+    },
+    {
+      "from": "integral_torus_bundle_and_lattice",
+      "status": "COMPLETION_DEPENDENT__ABSENT_GLOBALLY_IN_FC11",
+      "to": "R09",
+      "type": "TORIC_GLOBAL_DOMAIN"
+    },
+    {
+      "from": "integral_torus_bundle_and_lattice",
+      "status": "COMPLETION_DEPENDENT__ABSENT_GLOBALLY_IN_FC11",
+      "to": "R10",
+      "type": "TORIC_GLOBAL_DOMAIN"
+    },
+    {
+      "from": "integral_torus_bundle_and_lattice",
+      "status": "COMPLETION_DEPENDENT__ABSENT_GLOBALLY_IN_FC11",
+      "to": "R11",
+      "type": "TORIC_GLOBAL_DOMAIN"
+    },
+    {
+      "from": "integral_torus_bundle_and_lattice",
+      "status": "COMPLETION_DEPENDENT__ABSENT_GLOBALLY_IN_FC11",
+      "to": "R12",
+      "type": "TORIC_GLOBAL_DOMAIN"
+    },
+    {
+      "from": "cap_cycles_or_GL2Z_glue",
+      "status": "DISCRETE_RULES_AVAILABLE__NO_SELECTION",
+      "to": "R10",
+      "type": "GLOBAL_CONSTRAINT"
+    },
+    {
+      "from": "cap_cycles_or_GL2Z_glue",
+      "status": "DISCRETE_RULES_AVAILABLE__NO_SELECTION",
+      "to": "R11",
+      "type": "GLOBAL_CONSTRAINT"
+    },
+    {
+      "from": "cap_cycles_or_GL2Z_glue",
+      "status": "DISCRETE_RULES_AVAILABLE__NO_SELECTION",
+      "to": "R12",
+      "type": "GLOBAL_CONSTRAINT"
+    },
+    {
+      "from": "cap_cycles_or_GL2Z_glue",
+      "status": "DISCRETE_RULES_AVAILABLE__NO_SELECTION",
+      "to": "R16",
+      "type": "GLOBAL_CONSTRAINT"
+    },
+    {
+      "from": "cap_cycles_or_GL2Z_glue",
+      "status": "DISCRETE_RULES_AVAILABLE__NO_SELECTION",
+      "to": "R17",
+      "type": "GLOBAL_CONSTRAINT"
+    },
+    {
+      "from": "torus_connection_S",
+      "status": "LOCAL_SCHEMA_PRESENT__COMPLETE_PROFILE_AND_GLOBAL_LIFT_ABSENT",
+      "to": "R09",
+      "type": "CONTINUOUS_CONNECTION_DATA"
+    },
+    {
+      "from": "torus_connection_S",
+      "status": "LOCAL_SCHEMA_PRESENT__COMPLETE_PROFILE_AND_GLOBAL_LIFT_ABSENT",
+      "to": "R10",
+      "type": "CONTINUOUS_CONNECTION_DATA"
+    },
+    {
+      "from": "normalized_angular_metric_H",
+      "status": "CONDITIONAL_PROFILE__PHYSICAL_SCALE_OPEN",
+      "to": "R12",
+      "type": "ANGULAR_NORM_DATA"
+    },
+    {
+      "from": "metric_phi_timelike_nonzero_dphi_and_complete_levels",
+      "status": "CONDITIONAL_DEFINITION__NO_COMPLETE_BRANCH",
+      "to": "R14",
+      "type": "CAUSAL_BRANCH_CONDITION"
+    },
+    {
+      "from": "observer_domain_event_pairing_and_native_Dg",
+      "status": "OPEN_TYPE_GAP",
+      "to": "R15",
+      "type": "RELATIONAL_PROTOCOL"
+    },
+    {
+      "from": "carrier_or_bundle_map_and_boundary_class",
+      "status": "POSIT_OR_SUPPLIED_ONLY",
+      "to": "R17",
+      "type": "CONDITIONAL_TOPOLOGICAL_DATA"
+    },
+    {
+      "from": "complete_R_geom_A_of_X_O_target_normalization_and_pairing",
+      "status": "NOT_DERIVED_BY_ANY_REGISTERED_LINKAGE",
+      "to": "physical_bootstrap_closure",
+      "type": "MISSING_CLOSURE_INPUTS_AND_OPERATOR"
+    }
+  ],
+  "nodes": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R14",
+    "R15",
+    "R16",
+    "R17",
+    "boundary_cap_glue_and_moduli",
+    "cap_cycles_or_GL2Z_glue",
+    "carrier_or_bundle_map_and_boundary_class",
+    "complete_R_geom_A_of_X_O_target_normalization_and_pairing",
+    "complete_metric_or_coframe_profile",
+    "integral_torus_bundle_and_lattice",
+    "metric_phi_timelike_nonzero_dphi_and_complete_levels",
+    "normalized_angular_metric_H",
+    "observer_domain_event_pairing_and_native_Dg",
+    "physical_bootstrap_closure",
+    "smooth_projector_bundle_and_metric",
+    "torus_connection_S"
+  ],
+  "physical_closure_edges": 0,
+  "schema": "udt-completion-readout-dependency-graph-1.0"
+}

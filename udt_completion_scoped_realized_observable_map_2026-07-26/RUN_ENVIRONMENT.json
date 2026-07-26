@@ -1,0 +1,15 @@
+{
+  "cpu_only": true,
+  "dependencies": "python_standard_library_only",
+  "implementation": "CPython",
+  "independent_exit_code": 0,
+  "independent_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "independent_stdout_sha256": "439c3f3b8ce85a293fca9cad99a21228ddd9de6600b0d6a7365885f7829032f6",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "production_exit_code": 0,
+  "production_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "production_stdout_sha256": "ea18e3753b76d6b4d105f671f79820e3dd41f31a5d56d42cb4270566ac0ac417",
+  "python": "3.10.12",
+  "result": "PASS",
+  "schema": "udt-completion-scoped-map-run-environment-1.0"
+}
