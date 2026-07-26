@@ -1,0 +1,58 @@
+{
+  "authority_boundary": {
+    "action_source_carrier_selected": false,
+    "canon_changed": false,
+    "frozen_or_historical_changed": false,
+    "gpu_work": false,
+    "physical_extension_selected": false,
+    "repository_reorganization": false,
+    "source_results_changed": false,
+    "startup_controls_changed": false,
+    "variation_domain_selected": false
+  },
+  "base": "eac3186",
+  "catch_proofs": {
+    "current_paths": "PASS",
+    "dirty": "PASS",
+    "frontier": "PASS",
+    "frozen": "PASS",
+    "package": "PASS",
+    "scope": "PASS"
+  },
+  "dirty_checkout": {
+    "branch": "grok",
+    "contents_read": false,
+    "head": "8b13104a4f1af45af617d2aa50cd5fdacf4082af",
+    "metadata_sha256": "345d297e0ad849cd38f1d817c915922de653ca2d2befcf923af6f9d097b483e4",
+    "paths": 55,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": 6,
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 22,
+    "manifest_sha256": "0eacdff06bdb0d4eaeb6c35701f50dd3790edba6c7d0f4150ed4c763c950598f",
+    "result": "PASS"
+  },
+  "result": "PASS",
+  "schema": "udt-complete-coframe-native-selector-repository-gates-1.0",
+  "scope_path_count": 19,
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 -m pytest -q tests/",
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "stdout_sha256": "f13460578141fdc251baa9dd023d9bb304aabdbeb7c0b1bd93c741b3a5e90249",
+    "xfailed": 1
+  }
+}

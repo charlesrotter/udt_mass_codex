@@ -1,0 +1,27 @@
+{
+  "catch_proofs": {
+    "Lorentz_quotient_fake_reduction": "PASS",
+    "bootstrap_offshell_promotion": "PASS",
+    "c_anchor_fake_selector": "PASS",
+    "common_factor_gauge_promotion": "PASS",
+    "duplicate_premise": "PASS",
+    "finite_cell_fake_selector": "PASS",
+    "global_completion_promotion": "PASS",
+    "missing_extension_family": "PASS",
+    "missing_premise": "PASS",
+    "physical_direction_lost": "PASS",
+    "source_identity_corruption": "PASS",
+    "spectator_false_uniqueness": "PASS",
+    "spectator_rank_corruption": "PASS",
+    "strong_CSN_promotion": "PASS",
+    "variation_domain_promotion": "PASS"
+  },
+  "extension_family_count": 7,
+  "independent_checks": 11,
+  "premise_count": 18,
+  "production_checks": 39,
+  "result": "PASS",
+  "ruling": "ACTIVE_SELECTOR_RANK_ZERO_SEVEN_PHYSICAL_DIRECTIONS_SURVIVE_IN_BOUNDED_CLASS",
+  "schema": "udt-complete-coframe-native-selector-verification-1.0",
+  "source_count": 21
+}

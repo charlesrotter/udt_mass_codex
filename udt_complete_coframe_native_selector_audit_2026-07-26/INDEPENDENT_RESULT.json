@@ -1,0 +1,14 @@
+{
+  "check_count": 11,
+  "counts": {
+    "Lorentz_kernel_dimension": 6,
+    "active_selector_rank": 0,
+    "extension_rank": 7,
+    "full_frame_centralizer_dimension": 1,
+    "physical_tangent_rank": 7,
+    "survivor_dimension": 7
+  },
+  "implementation": "python_stdlib_fraction_no_production_import",
+  "result": "PASS",
+  "schema": "udt-complete-coframe-native-selector-independent-1.0"
+}

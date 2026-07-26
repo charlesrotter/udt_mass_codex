@@ -1,0 +1,28 @@
+{
+  "check_count": 39,
+  "conditional_ranks_not_active": {
+    "complete_determinant_one": 1,
+    "no_base_angular_mixing": 4,
+    "transverse_invariance_plus_no_mixing": 7,
+    "transverse_metric_invariance": 3
+  },
+  "counts": {
+    "active_physical_survivor_dimension": 7,
+    "active_selector_rank": 0,
+    "extension_intersection_with_Lorentz_kernel": 0,
+    "extension_parameters": 7,
+    "full_Lorentz_centralizer_dimension": 1,
+    "local_Lorentz_presentation_kernel_dimension": 6,
+    "physical_metric_tangent_rank": 7
+  },
+  "result": "PASS",
+  "rulings": {
+    "bounded_active_outcome": "UNREDUCED_ACTIVE_FAMILY",
+    "full_frame_rule": "FIXED_INVARIANCE_INCOMPATIBLE; EQUIVARIANT_GENERATOR_OR_SLOT_FAMILY_REQUIRED",
+    "global_completion": "OPEN",
+    "local_Lorentz_quotient": "REMOVES_NO_DIRECTION_FROM_THE_REGISTERED_TRIANGULAR_EXTENSION_TANGENT",
+    "variation_domain": "NOT_SELECTED_BY_POINTWISE_EXTENSION_KINEMATICS"
+  },
+  "schema": "udt-complete-coframe-native-selector-1.0",
+  "sympy_version": "1.13.1"
+}
