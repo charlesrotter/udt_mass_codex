@@ -1,0 +1,6 @@
+arrow_id	direction	working_role	current_status	minimum_missing_content
+GL01	global_observables_to_local_matter_geometry	Energy density curvature and global geometry condition the admissible matter-bearing local branches	WORKING_TYPE_NOT_DERIVED	Native branch equation complete domain boundary conditions and dependence on every global observable
+GL02	local_matter_geometry_to_global_observables	The realized local and macro configuration recomputes total energy mass density curvature and global data	CONDITIONAL_TYPE_NOT_COMPLETE	Native energy and mass functionals proper volume curvature observables boundary terms and aggregation rule
+GL03	coupled_fixed_point	Both directions agree on one complete finite-cell configuration and its global observables	WORKING_BOOTSTRAP_HYPOTHESIS	Both arrows existence fixed-point domain uniqueness or branch census and differentiable linearization
+GL04	optimization_realization	A native objective selects among coupled fixed points	OPEN_STRONGER_PREMISE	Metric-derived objective ordering sign weights domain and proof that extremization is required
+GL05	response_linearization	The derivative of the coupled closure transmits global changes into local metric and angular response	DERIVED_CONDITIONAL_SKELETON	Complete closure Jacobian and native dual pairing
