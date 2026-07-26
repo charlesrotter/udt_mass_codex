@@ -1,0 +1,40 @@
+{
+  "catch_count": 18,
+  "catch_proofs": {
+    "c_cross_selector": "PASS",
+    "calibration_as_alignment": "PASS",
+    "conformal_repair": "PASS",
+    "duplicate_route": "PASS",
+    "independent": "PASS",
+    "internal_as_LC": "PASS",
+    "missing_route": "PASS",
+    "missing_stratum": "PASS",
+    "mixed_promoted": "PASS",
+    "mixed_self_adjoint": "PASS",
+    "ordinary_removed": "PASS",
+    "physics": "PASS",
+    "plus_minus_forced": "PASS",
+    "production": "PASS",
+    "scalar_selector": "PASS",
+    "simultaneous_solution": "PASS",
+    "source": "PASS",
+    "zero_depth": "PASS"
+  },
+  "grade": "VERIFIED_WITH_CAVEATS",
+  "independent_census": {
+    "inverting_isometric_Lorentzian": 18,
+    "range": [
+      -3,
+      3
+    ],
+    "self_adjoint_Lorentzian": 18,
+    "simultaneous": 0
+  },
+  "independent_checks": 23,
+  "production_checks": 43,
+  "readout_strata": 17,
+  "result": "PASS",
+  "routes": 12,
+  "schema": "udt-calibrated-reciprocal-readout-verification-1.0",
+  "source_identities": 16
+}

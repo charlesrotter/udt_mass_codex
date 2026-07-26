@@ -1,0 +1,40 @@
+{
+  "bounded_integer_census": {
+    "inverting_isometric_Lorentzian": 18,
+    "range": [
+      -3,
+      3
+    ],
+    "self_adjoint_Lorentzian": 18,
+    "simultaneous": 0
+  },
+  "check_count": 23,
+  "checks": {
+    "independent_aligned_self_adjoint": "PASS",
+    "independent_aligned_swap_anti_isometry": "PASS",
+    "independent_complete_mixed_not_self_adjoint": "PASS",
+    "independent_complete_mixed_swap_isometry": "PASS",
+    "independent_complete_swap_not_aligned_isometry": "PASS",
+    "independent_complete_swap_odd": "PASS",
+    "independent_generic_block_self_adjoint": "PASS",
+    "independent_isometric_census_has_C_equal_A": "PASS",
+    "independent_minus_block_self_adjoint": "PASS",
+    "independent_mixed_eigenline_norms_same": "PASS",
+    "independent_mixed_isometry_requires_nonzero_B": "PASS",
+    "independent_mixed_witness_Lorentzian": "PASS",
+    "independent_mixed_witness_isometric": "PASS",
+    "independent_mixed_witness_not_self_adjoint": "PASS",
+    "independent_null_channels_both_null": "PASS",
+    "independent_null_witness_Lorentzian": "PASS",
+    "independent_plus_block_self_adjoint": "PASS",
+    "independent_positive_nonunit_conformal_rejected_1/2": "PASS",
+    "independent_positive_nonunit_conformal_rejected_2": "PASS",
+    "independent_positive_nonunit_conformal_rejected_3": "PASS",
+    "independent_reciprocal_swap_involutive": "PASS",
+    "independent_self_adjoint_census_has_B_zero": "PASS",
+    "independent_simultaneous_Lorentzian_empty": "PASS"
+  },
+  "implementation": "python_stdlib_fraction_no_sympy_no_production_import",
+  "result": "PASS",
+  "schema": "udt-calibrated-reciprocal-readout-independent-1.0"
+}

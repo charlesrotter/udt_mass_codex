@@ -1,0 +1,21 @@
+{
+  "cpu_only": true,
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "runs": {
+    "independent": {
+      "command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 udt_calibrated_reciprocal_readout_descent_audit_2026-07-26/verify_readout_independent.py",
+      "exit_code": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "db6dcdaa7171a01252ae38d3e775378a11a304d19d45862ada254acb479135a6"
+    },
+    "production": {
+      "command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 udt_calibrated_reciprocal_readout_descent_audit_2026-07-26/derive_calibrated_readout.py",
+      "exit_code": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "da764b8e39bf8c4bde0df64ebbc3a1abeff949a1f190531e9557ba5bb2f960ac"
+    }
+  },
+  "schema": "udt-calibrated-reciprocal-readout-run-environment-1.0",
+  "sympy": "1.13.1"
+}
