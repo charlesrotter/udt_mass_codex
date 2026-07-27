@@ -1,0 +1,22 @@
+premise_id	object	provenance_tag	registered_status	use
+P01	UDT_metric_is_the_theory	pinned-by-THEORY	BINDING	metric equality is the physical-data comparison gate
+P02	phi_additive_log_depth	pinned-by-THEORY	DERIVED	founded pair parameter and composition
+P03	reciprocal_pair_finite_action	pinned-by-THEORY	DERIVED	B(phi)=diag(exp(-phi),exp(+phi))
+P04	ordered_pair_first_metric_response_constraints	pinned-by-THEORY	DERIVED	three fixed response components
+P05	seven_dimensional_first_metric_response_query_bundle	pinned-by-THEORY	DERIVED_CLASSIFICATION_SELECTION_OPEN	fixed-response arena
+P06	exact_complete_quotient_extension	free-and-explored	OPEN	must be tested not silently assumed
+P07	complete_lift_additive_group_law	free-and-explored	OPEN	separate stronger candidate
+P08	smooth_invertible_lifts	pinned-by-MATHEMATICAL_DEFINITION	REGULARITY_CLASS	bounded algebraic arena
+P09	supplied_ordered_pair_and_screen_kernel	free-and-explored	QUERY_INPUT_NOT_GLOBAL_PHYSICAL_SECTION	local decomposition only
+P10	screen_orientation_basis_flag	pinned-by-HABIT	NOT_SELECTED	triangular representatives remain conditional
+P11	metric_self_adjoint_generator	pinned-by-HABIT	NOT_SELECTED	canonical algebraic representative candidate only
+P12	local_Lorentz_coframe_equivalence	pinned-by-MATHEMATICAL_DEFINITION	FIXED_METRIC_REPRESENTATIVE_FREEDOM	must also audit group-law compatibility
+P13	global_invariant_screen_subbundle	free-and-explored	OPEN	global quotient prerequisite
+P14	physical_observer_path_section	free-and-explored	OPEN	excluded downstream selector
+P15	strong_local_CSN	pinned-by-THEORY	INACTIVE_CHALLENGED_NOT_DERIVED	excluded
+P16	c_E_and_G_obs	pinned-by-THEORY	OBSERVED_ANCHORS_RETAINED	numerically unused status preserved
+P17	S2_carrier	pinned-by-THEORY	POSIT	excluded
+P18	bootstrap	pinned-by-THEORY	WORKING_ON_SHELL_ADMISSIBILITY	excluded as selector
+P19	Xmax	pinned-by-THEORY	WORKING_GLOBAL_OBSERVER_PAIR_SCHEMA	excluded downstream object
+P20	action_source_boundary_mass_dynamics	free-and-explored	OPEN	excluded downstream objects
+P21	GR_or_SR_observer_mechanics	pinned-by-HABIT	EXCLUDED_FROM_AFFIRMATIVE_UDT_ROLE	may not supply the lift law

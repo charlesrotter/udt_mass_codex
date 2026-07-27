@@ -1,0 +1,11 @@
+source_id	path	registered_role	authority
+S01	CURRENT_SCIENTIFIC_PREMISES.tsv	current premise stamps and regression guards	CONTROLLING
+S02	udt_native_reciprocal_comparison_bundle_audit_2026-07-27/EXACT_DERIVATION.md	first metric response bundle and finite-lift obstruction	CONTROLLING_PARENT
+S03	udt_native_reciprocal_comparison_bundle_audit_2026-07-27/DERIVATION_RESULT.json	exact parent ranks and obstruction outputs	CONTROLLING_EVIDENCE
+S04	udt_native_reciprocal_comparison_bundle_audit_2026-07-27/NEXT_STEP.md	bounded question authorized by current proceed	CONTROLLING_DISPATCH
+S05	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/AUDIT_REPORT.md	founded pair and complete first-jet extension class	CONTROLLING_DERIVATION
+S06	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/EXTENSION_CLASS_LEDGER.tsv	seven-parameter chart and status distinctions	CONTROLLING_EVIDENCE
+S07	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/derive_extension_class.py	exact parent algebra	CONTROLLING_ALGEBRA
+S08	udt_complete_coframe_physical_comparison_functor_audit_2026-07-27/EXACT_DERIVATION.md	conditional path composition and reversal controls	SCOPED_PARENT
+S09	udt_global_reciprocal_bundle_assembly_audit_2026-07-26/EXACT_DERIVATION.md	global transition and holonomy prerequisites	SCOPED_PARENT
+S10	udt_metric_natural_complete_extension_selector_audit_2026-07-27/EXACT_DERIVATION.md	self-adjoint and triangular selector controls	CONTROLLING_BOUNDARY

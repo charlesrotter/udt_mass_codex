@@ -1,0 +1,16 @@
+gate_id	claim_or_risk	pass_condition	failure_condition	maximum_status
+G01	quotient_normal_form	Exact quotient preservation is proved equivalent to the registered block condition	Triangularity is asserted from a convenient chart	VERIFIED_SCOPED
+G02	group_law_separation	Quotient-only functional freedom remains distinct from complete one-parameter representations	Complete group law is silently inherited from the pair	FAIL_AUDIT
+G03	constant_generator	Regular complete representations are constructed from one constant block generator	A phi-dependent generator is called a representation without composition proof	VERIFIED_SCOPED
+G04	fixed_response_fiber	Kernel dimension over one first metric response is derived exactly	The self-adjoint or triangular representative is called unique without kernel analysis	VERIFIED_SCOPED
+G05	flag_dependence	Upper and lower flag choices are both classified and their extra premise named	One flag is privileged by coordinates	VERIFIED_SCOPED
+G06	second_jet	Screen rotation is tested at second order on isotropic anisotropic and mixed strata	First-jet equality is promoted to finite metric equality	FAIL_AUDIT
+G07	finite_metric_equivalence	Every claimed gauge stratum is checked by exact finite metric equality	Metric equality is inferred only from generator decomposition	VERIFIED_SCOPED
+G08	phi_dependent_frame_change	Fixed-metric coframe freedom is separated from preservation of the complete group law	All local Lorentz paths are called equivalent quotient representations	VERIFIED_SCOPED
+G09	reversal_composition	Reversal and composition are checked for every relevant class	Pair reversal is silently extended to arbitrary complete lifts	VERIFIED_SCOPED
+G10	globalization	Invariant screen transitions and monodromy prerequisites remain explicit	Pointwise block form is called a global quotient bundle	FAIL_AUDIT
+G11	seal	The phi=0 identity is tested for selector rank	Identity matching is promoted to derivative or flag selection	VERIFIED_SCOPED
+G12	physical_role	Exact quotient and group-law premises retain conditional physical status	Mathematical classification is called selected UDT physics	FAIL_AUDIT
+G13	candidate_completeness	All 12 registered candidates receive outcomes	Only the triangular winner is reported	FAIL_AUDIT
+G14	independence	Independent implementation reconstructs ranks jets finite controls and catches	Verifier reads production verdicts or outputs	VERIFIED_WITH_CAVEATS_CEILING
+G15	repository	Premises tests frozen packages navigation and dirty metadata retain baseline	Unrelated or frozen state changes	FAIL_AUDIT

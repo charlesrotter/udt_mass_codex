@@ -1,0 +1,13 @@
+candidate_id	candidate	registered_question	predeclared_scope
+Q01	arbitrary_smooth_exact_quotient_lift	Does exact quotient preservation alone force a constant or triangular complete lift?	QUOTIENT_ONLY
+Q02	continuous_one_parameter_quotient_representation	Does the complete additive group law force a constant block generator?	QUOTIENT_GROUP
+Q03	fixed_first_metric_response_lifts	How many quotient-group generators share one complete first metric jet?	FIXED_RESPONSE
+Q04	metric_self_adjoint_lift	Does choosing the metric-self-adjoint representative supply a unique finite lift?	FIXED_RESPONSE
+Q05	upper_triangular_screen_flag_lift	Does a chosen upper flag remove the screen-rotation freedom?	FLAG_REPRESENTATIVES
+Q06	lower_triangular_screen_flag_lift	Does the opposite flag give a distinct equally admissible lift?	FLAG_REPRESENTATIVES
+Q07	isotropic_unmixed_screen_rotation	Is screen rotation metric-invisible for an isotropic screen without pair-screen mixing?	METRIC_EQUIVALENCE
+Q08	anisotropic_unmixed_screen_rotation	Does screen rotation change the finite metric path for an anisotropic screen?	METRIC_EQUIVALENCE
+Q09	isotropic_mixed_screen_rotation	Does pair-screen mixing make screen rotation observable in the finite metric path even with isotropic screen response?	METRIC_EQUIVALENCE
+Q10	phi_dependent_fixed_metric_frame_change	Can a phi-dependent Lorentz coframe change preserve the metric yet fail the complete group law?	METRIC_EQUIVALENCE
+Q11	reciprocal_reversal_and_composition	Which registered lift classes obey exact reversal and composition?	QUOTIENT_GROUP
+Q12	finite_cell_global_quotient_extension	What invariant screen subbundle transition and seal data are required globally?	GLOBALIZATION
