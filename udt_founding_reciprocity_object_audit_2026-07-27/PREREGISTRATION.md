@@ -121,3 +121,13 @@ reduced-holonomy result.
 
 Dropped: reinterpretation of pre-July physics, all empirical fits, time-live equations, action and
 matter closure, other observer ontologies, and canonization.
+
+## Preregistration correction before outcome work
+
+The controlling prior founding-semantics audit was discovered during the line-addressed source
+inventory.  It predates this audit's base but was accidentally omitted from `SOURCE_SCOPE.tsv`.
+Before calculating or writing any object outcome, add its `AUDIT_REPORT.md` and
+`EXACT_ADJUDICATION.md` as two explicit controls.  They do not change the frozen object universe or
+maximum conclusion.  This audit must reproduce or falsify their `SEMANTICS_OPEN` distinction and
+adds the preregistered founding-level nonparallel countermodel that the prior semantic audit did not
+use as its primary logical control.
