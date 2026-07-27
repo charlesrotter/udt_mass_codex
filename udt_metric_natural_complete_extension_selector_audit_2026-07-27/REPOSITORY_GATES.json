@@ -134,6 +134,7 @@
     "udt_metric_natural_complete_extension_selector_audit_2026-07-27/INDEPENDENT_STDOUT.txt",
     "udt_metric_natural_complete_extension_selector_audit_2026-07-27/LAY_REPORT.md",
     "udt_metric_natural_complete_extension_selector_audit_2026-07-27/NEXT_STEP.md",
+    "udt_metric_natural_complete_extension_selector_audit_2026-07-27/REPOSITORY_GATES.json",
     "udt_metric_natural_complete_extension_selector_audit_2026-07-27/RUN_ENVIRONMENT.json",
     "udt_metric_natural_complete_extension_selector_audit_2026-07-27/SELECTOR_GATE_MATRIX.tsv",
     "udt_metric_natural_complete_extension_selector_audit_2026-07-27/SELECTOR_OUTCOMES.tsv",
@@ -156,7 +157,7 @@
     "failed": 0,
     "passed": 70,
     "result": "PASS",
-    "stdout_sha256": "6eb17954a6ae1e2369915220378fe001b9443e3ffffb892353c099359117b153",
+    "stdout_sha256": "04e4b9a37d6eacfa08393f10b908f3a4d9415faa061cf0f228a1987f1107a0ef",
     "xfailed": 1
   }
 }
