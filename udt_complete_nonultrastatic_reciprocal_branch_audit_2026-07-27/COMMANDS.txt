@@ -1,0 +1,6 @@
+python3 udt_complete_nonultrastatic_reciprocal_branch_audit_2026-07-27/build_source_manifest.py
+python3 udt_complete_nonultrastatic_reciprocal_branch_audit_2026-07-27/derive_nonultrastatic_branch.py
+python3 udt_complete_nonultrastatic_reciprocal_branch_audit_2026-07-27/verify_nonultrastatic_independent.py
+python3 udt_complete_nonultrastatic_reciprocal_branch_audit_2026-07-27/verify_audit.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 -m pytest -q tests/
+python3 udt_complete_nonultrastatic_reciprocal_branch_audit_2026-07-27/verify_repository_gates.py

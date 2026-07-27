@@ -1,0 +1,11 @@
+{
+  "catch_proofs": 18,
+  "depth_triangles": 64,
+  "generic_spatial_stabilizer_dimension": 0,
+  "implementation": "stdlib_fraction_no_production_import",
+  "lambda_strata_replayed": 6,
+  "primary_ruling_reproduced": "COMPLETE_NONULTRASTATIC_CONFIGURATIONS_EXIST__INTRINSIC_STATIONARY_DEPTH_EXISTS_IN_BOUNDED_STATIC_CONTROL__FULL_INTRINSIC_PAIR_REMAINS_CONDITIONAL",
+  "slice_controls": 4,
+  "so4_generators_tested": 6,
+  "status": "PASS"
+}

@@ -1,0 +1,201 @@
+# Exact complete non-ultrastatic configuration derivation
+
+## 1. General law-neutral stationary class
+
+On a supplied finite spatial cell and time-oriented product presentation, every stationary metric
+can be written in ADM form
+
+```text
+g=-N^2 dt^2+h_ij(dx^i+beta^i dt)(dx^j+beta^j dt).
+```
+
+This is a ten-function configuration parameterization: one lapse, six spatial-metric components,
+and three shift components. It is not an equation of motion and does not select stationarity.
+
+The exact complete `S3` witness class uses global Maurer-Cartan forms. With
+
+```text
+d sigma_3=kappa sigma_1 wedge sigma_2,
+tau=c_E dt+a sigma_3,
+```
+
+define
+
+```text
+theta_0=exp(-phi) tau,
+theta_1=R exp(+phi) sigma_3,
+theta_2=R exp(lambda phi) sigma_1,
+theta_3=R exp(lambda phi) sigma_2,
+g=-theta_0^2+theta_1^2+theta_2^2+theta_3^2.
+```
+
+All forms are global on `R x S3`. The coframe determinant relative to
+`(c_E dt,sigma_3,sigma_1,sigma_2)` is
+
+```text
+det E=R^3 exp(2 lambda phi),
+det g=-R^6 exp(4 lambda phi).
+```
+
+It is therefore nondegenerate and Lorentzian for every smooth finite `phi`, every real `lambda`, and
+positive `R`. This proves that the shifted/twisted class left open by the static diagonal cap audit
+is nonempty. It does not prove the class is on shell.
+
+On `t=constant`, the `sigma_3` coefficient is
+
+```text
+R^2 exp(2phi)-a^2 exp(-2phi).
+```
+
+The displayed slicing is spacelike exactly when this is positive. Equality is a retained causal
+stratum boundary, not silently crossed.
+
+## 2. Stationary clock depth
+
+Let `K=partial_t`. Since every coefficient is independent of `t`, `K` is Killing and
+
+```text
+g(K,K)=-c_E^2 exp(-2phi).
+```
+
+For stationary observers on its orbits,
+
+```text
+Q=sqrt(-g(K,K))=c_E exp(-phi).
+```
+
+The norm-ratio depth is
+
+```text
+delta_K(p,q)=log[Q(p)/Q(q)]=phi(q)-phi(p).
+```
+
+It reverses and composes exactly:
+
+```text
+delta_K(q,p)=-delta_K(p,q),
+delta_K(p,q)+delta_K(q,r)=delta_K(p,r).
+```
+
+If the generator is rescaled by any nonzero constant, both endpoint norms acquire the same factor
+and the ratio is unchanged. Thus an intrinsic Killing **line** is sufficient; no normalization of a
+particular Killing vector is needed.
+
+This is exactly the founded temporal channel under the recorded local readout. It is not a universal
+observer law: it applies to stationary observers in a branch whose timelike Killing line is
+intrinsic.
+
+## 3. The angular twist produces the ruler line
+
+The Killing covector is
+
+```text
+K_flat=-c_E exp(-2phi) tau.
+```
+
+Terms containing `dphi wedge tau` disappear from `K_flat wedge dK_flat`. The remainder is
+
+```text
+K_flat wedge dK_flat
+ =c_E^2 a kappa exp(-4phi)
+  tau wedge sigma_1 wedge sigma_2.
+```
+
+In the orthonormal coframe,
+
+```text
+omega_K=star(K_flat wedge dK_flat)
+       =plus_or_minus [c_E^2 a kappa/R^2]
+        exp[-(3+2lambda)phi] theta_1.
+```
+
+Therefore, when `a*kappa` is nonzero, the metric-derived twist is spacelike, orthogonal to `K`, and
+its unoriented line is exactly the reciprocal ruler line. The sign depends on orientation and does
+not select an ordered ruler direction. The ordered sign remains relational query data.
+
+The ruler coframe weight is already
+
+```text
+theta_1 proportional_to exp(+phi),
+```
+
+so the clock and twist-selected ruler carry the founded inverse weights. The transverse screen
+weight `lambda` remains arbitrary.
+
+If `a=0`, the twist vanishes while the norm depth may remain nontrivial. This exact control proves
+that signed depth and a complete intrinsic ruler line are separate gates.
+
+## 4. A complete metric-native time-line control
+
+The twisted family supplies a stationary line, but its uniqueness in the full isometry algebra is
+not inferred merely from the coordinate presentation. To prove that metric-intrinsic stationary
+depth is a nonempty possibility, use the separate static control
+
+```text
+g=-N(x)^2 dt^2+R^2 h_round,
+N=c_E exp[-epsilon f(x)],
+f(x)=sum_i d_i x_i^2,
+sum_i x_i^2=1,
+```
+
+with nonzero `epsilon` and four distinct `d_i`.
+
+For a general Killing field
+
+```text
+X=A(t,x) partial_t+Y(t,x),
+```
+
+the static Killing equations give
+
+```text
+L_Y h_round=0,
+h_round(partial_t Y,.)=N^2 dA,
+partial_t A=-Y(log N).
+```
+
+Set `Z=partial_t Y`. It is a round-sphere Killing field and hence divergence free. The second
+equation says `Z=N^2 grad A`. Compactness gives
+
+```text
+0=integral div(AZ)
+ =integral N^2 |grad A|^2,
+```
+
+so `dA=0` and `partial_t Y=0`. The last equation is a constant on space and time. A nonzero constant
+would make bounded `log N` grow linearly along the complete flow of `Y` on compact `S3`; hence it is
+zero. Thus `A` is constant and `Y(N)=0`.
+
+Every round-sphere Killing field is `Y_A(x)=A x` for `A` in `so(4)`. With
+`D=diag(d_0,d_1,d_2,d_3)`,
+
+```text
+Y_A f=x^T[D,A]x.
+```
+
+If this vanishes on the sphere, `[D,A]=0`. Distinct `d_i` force all six components of `A` to zero.
+The full continuous Killing algebra is therefore one-dimensional, generated by `partial_t`.
+
+This complete configuration supplies an intrinsic Killing line and a nontrivial metric-native depth
+`epsilon[f(q)-f(p)]`. It does not supply the founded global ruler leg and therefore is a depth-only
+witness, not a full-pair witness.
+
+## 5. Exact remaining join
+
+Two positive results must not be spliced:
+
+- W02 proves that a complete finite-cell metric can intrinsically select a timelike line and its
+  reciprocal norm depth.
+- W01 proves that a complete globally twisted reciprocal coframe can use the Killing twist to select
+  the ruler line and can carry every real `lambda`.
+
+The audit has not proved that W01's stationary line is the unique intrinsic timelike line of that
+same metric. Consequently the all-gate complete intrinsic pair witness remains open.
+
+The exact conditional theorem is nevertheless established:
+
+> Any complete stationary branch with an intrinsic unique timelike Killing line, nonconstant
+> positive norm, nonzero Killing twist, the founded reciprocal ruler weight, and valid global descent
+> supplies a metric-native stationary depth and an intrinsic unoriented ruler line.
+
+No field equation, path ontology, or physical selection follows from this theorem.

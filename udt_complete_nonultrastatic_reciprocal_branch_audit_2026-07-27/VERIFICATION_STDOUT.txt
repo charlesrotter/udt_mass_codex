@@ -1,0 +1,13 @@
+{
+  "audit_report_sha256": "1e007a15b7071ebe2be45ad2f81a19c4d39a3c0617fe5cf65064ab6e076a976d",
+  "catch_proofs": 18,
+  "independent_replay": "PASS",
+  "primary_ruling": "COMPLETE_NONULTRASTATIC_CONFIGURATIONS_EXIST__INTRINSIC_STATIONARY_DEPTH_EXISTS_IN_BOUNDED_STATIC_CONTROL__FULL_INTRINSIC_PAIR_REMAINS_CONDITIONAL",
+  "production_replay": "PASS",
+  "property_gates": 16,
+  "sources": 19,
+  "status": "PASS",
+  "status_ledger_sha256": "27cfba2fff04b761c041b2e9c2a6bc38b560c97262262ea81a4144365a0e8944",
+  "strata": 12,
+  "witnesses": 6
+}

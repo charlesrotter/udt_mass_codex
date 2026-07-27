@@ -1,0 +1,18 @@
+{
+  "catch_contracts": 18,
+  "exact_lambda_samples": 15,
+  "global_endpoint_path_semantics_selected": false,
+  "gpu_used": false,
+  "lambda_selected": false,
+  "on_shell_solution_claimed": false,
+  "primary_ruling": "COMPLETE_NONULTRASTATIC_CONFIGURATIONS_EXIST__INTRINSIC_STATIONARY_DEPTH_EXISTS_IN_BOUNDED_STATIC_CONTROL__FULL_INTRINSIC_PAIR_REMAINS_CONDITIONAL",
+  "property_gates": 16,
+  "schema_version": 1,
+  "single_all_gate_intrinsic_pair_witness": "OPEN",
+  "static_S3_intrinsic_Killing_depth_witness": "DERIVED_CONDITIONAL_BRANCH",
+  "strata": 12,
+  "sympy_version": "1.13.1",
+  "twisted_S3_complete_configuration_family": "DERIVED_EXISTENCE_CLASS",
+  "twisted_S3_ruler_line_given_stationary_line": "DERIVED_EXACT",
+  "witnesses": 6
+}
