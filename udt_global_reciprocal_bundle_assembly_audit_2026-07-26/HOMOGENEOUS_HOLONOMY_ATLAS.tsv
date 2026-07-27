@@ -1,0 +1,4 @@
+control	parameters	K12	K13	K23	spatial_holonomy_lie_rank	parallel_X_lambda
+Q01	p=q=1	1/4	1/4	1/4	3	lambda=1
+Q02	p=2,q=1	5/4	1/4	1/4	3	lambda=1
+GENERIC_HOMOGENEOUS	p>0,q>0	q*(4*p - 3*q)/4	q**2/4	q**2/4	3	lambda=1

@@ -1,0 +1,84 @@
+{
+  "algebra": {
+    "K12": "q*(4*p - 3*q)/4",
+    "K13": "q**2/4",
+    "K23": "q**2/4",
+    "centralizer_dimensions": {
+      "L01": 1,
+      "L02": 3,
+      "L03": 1,
+      "L04": 3
+    },
+    "parallel_lambda": 1,
+    "round_holonomy_rank": 3,
+    "squashed_holonomy_rank": 3
+  },
+  "authority_boundary": {
+    "action_carrier_source_density_bootstrap_mass_Xmax_dynamics_selected": false,
+    "branch_pair_path_depth_boundary_selected": false,
+    "endpoint_only_semantics_selected": false,
+    "lambda_selected": false,
+    "variation_domain_selected": false
+  },
+  "checks": {
+    "K12_formula": "PASS",
+    "K13_formula": "PASS",
+    "K23_formula": "PASS",
+    "X_metric_self_adjoint": "PASS",
+    "X_projector_formula": "PASS",
+    "all_completion_rows": "PASS",
+    "all_gate_rows": "PASS",
+    "all_strata_rows": "PASS",
+    "centralizer_generic_one": "PASS",
+    "centralizer_minus_one_three": "PASS",
+    "centralizer_plus_one_three": "PASS",
+    "centralizer_zero_one": "PASS",
+    "connection_A": "PASS",
+    "connection_B": "PASS",
+    "connection_C": "PASS",
+    "dX_factor_one_minus_lambda": "PASS",
+    "generic_holonomy_generated_by_J13_J23": "PASS",
+    "lambda_minus_one_ruler_collapse": "PASS",
+    "lambda_one_clock_collapse": "PASS",
+    "no_completion_depth": "PASS",
+    "only_FC04_concrete": "PASS",
+    "parallel_solution_lambda_one": "PASS",
+    "round_holonomy_rank_three": "PASS",
+    "squashed_holonomy_rank_three": "PASS",
+    "trace_two_lambda": "PASS",
+    "variation_domain_open": "PASS"
+  },
+  "counts": {
+    "assembly_gates": 12,
+    "completion_classes": 12,
+    "completion_pair_bundle_statuses": {
+      "CONDITIONAL_ON_REGULAR_DOUBLE": 1,
+      "CONDITIONAL_ON_REGULAR_LORENTZ_METRIC": 2,
+      "CONDITIONAL_ON_REGULAR_MAPPING_TORUS_METRIC": 1,
+      "CONDITIONAL_ON_REGULAR_QUOTIENT_METRIC": 1,
+      "CONDITIONAL_ON_SMOOTH_CAP_METRIC": 2,
+      "CONDITIONAL_PARAMETRIC_ANSATZ": 1,
+      "PAIR_FRAME_BUNDLE_DOES_NOT_REQUIRE_ORBIT_SURFACE": 1,
+      "PASS_FOR_Q01_Q02_PAIR_FRAME_BUNDLE": 1,
+      "REGULAR_STRATA_PAIR_BUNDLE_ONLY": 1,
+      "REGULAR_STRATUM_ONLY": 1
+    },
+    "concrete_controls": 4,
+    "lambda_strata": 4,
+    "production_checks": 26,
+    "variation_rows": 8
+  },
+  "grade": "VERIFIED_WITH_CAVEATS_REGISTERED_GLOBAL_BUNDLE_ASSEMBLY",
+  "maximum_conclusion": "GLOBAL_PAIR_FRAME_BUNDLE_ASSEMBLY_CLASSIFIED;ALL_REAL_CONSTANT_LAMBDA_TYPED_PATHWISE;LAMBDA_ONE_ONLY_PARALLEL_ENDPOINT_STRATUM_ON_REGISTERED_COMPLETE_S3_CONTROLS_CONDITIONAL_ON_ENDPOINT_ONLY_REQUIREMENT;SIGNED_DEPTH_AND_VARIATION_DOMAIN_REMAIN_OPEN",
+  "result": "PASS",
+  "rulings": {
+    "endpoint_parallelism": "LAMBDA_ONE_ONLY_ON_Q01_Q02_CONDITIONAL_CONTROLS",
+    "endpoint_premise": "OPEN_NOT_FOUNDED",
+    "metric_naturality": "Q01_LAMBDA_ONE_ONLY;Q02_ALL_LAMBDA_VALUES_UNSELECTED",
+    "query_bundle": "ALL_REAL_CONSTANT_LAMBDA_TENSORIAL_AND_TYPED_PATHWISE_ON_REGULAR_PAIR_FRAME_BUNDLE",
+    "signed_depth": "NO_REGISTERED_COMPLETE_METRIC_NATIVE_FOUNDED_ASSIGNMENT",
+    "variation_domain": "OPEN_UNSELECTED"
+  },
+  "schema": "udt-global-reciprocal-bundle-assembly-1.0",
+  "sympy_version": "1.13.1"
+}

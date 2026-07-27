@@ -1,0 +1,9 @@
+variation_id	candidate	status	ruling
+V01	full_bulk_delta_g	RETAIN_OPEN_CANDIDATE	Bundle naturality is tensorial and imposes no field equation.
+V02	delta_of_metric_natural_X	CONDITIONAL_INDUCED	If X is constructed from metric projectors its variation follows delta g and eigenspace regularity.
+V03	delta_lambda_x	NOT_AUTHORIZED	The audit treats constant strata; no local field is derived.
+V04	change_pair_or_path	QUERY_CHANGE	Changes relational arguments rather than the physical configuration.
+V05	impose_nabla_X_zero	CONDITIONAL_EXTRA_RESTRICTION	Would select lambda=1 on Q01/Q02 but endpoint-only parallelism is not a founded premise.
+V06	boundary_embedding_or_data	OPEN	No completion-wide boundary rule is supplied.
+V07	topology_or_completion_change	GLOBAL_SECTOR_CHANGE	Not an ordinary infinitesimal bulk tangent.
+V08	signed_depth_variation	OPEN_ABSENT	No arrow-depth functional exists to vary.

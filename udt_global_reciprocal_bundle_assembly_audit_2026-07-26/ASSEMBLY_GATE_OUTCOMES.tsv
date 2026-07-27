@@ -1,0 +1,13 @@
+gate_id	scope	status	ruling
+G01	ALL_LAMBDA	DERIVED_GIVEN_REGULAR_ORDERED_PAIR	Projectors define X_lambda.
+G02	ALL_LAMBDA	DERIVED	Simultaneous frame change gives X_to_Lambda_X_Lambda_inverse.
+G03	ALL_LAMBDA	DERIVED_GIVEN_TYPED_PATH_AND_VERTICAL_RESETS	Path groupoid composition retains path labels.
+G04	ALL_LAMBDA	DERIVED_AS_ASSOCIATED_QUERY_BUNDLE_ON_REGULAR_METRIC	No global pair section is needed for bundle existence.
+G05	Q01_Q02	OBSERVED_CONSTRUCTIVE_SECTIONS	S3 is parallelizable and the registered Hopf fields are smooth; Q01 does not select one.
+G06	Q01_L04;Q02_ALL_LAMBDA	DERIVED_CONDITIONAL_CONTROL_NATURALITY	Round isotropy selects only u-based X1; squashing also distinguishes an unoriented Ricci line.
+G07	Q01_Q02_L04_ONLY	DERIVED_CONDITIONAL_ENDPOINT_PARALLELISM	Full spatial holonomy centralizes only the clock-versus-all-space stratum.
+G08	FC04_CONCRETE;OTHERS_OPEN	BOUNDED_CLASSIFICATION	Other completion rows lack actual metrics or selected glue data.
+G09	ALL_LAMBDA_PATH_GROUPOID;L04_ENDPOINT_ON_Q01_Q02	DERIVED_CONDITIONAL	Cut loci give multiple arrows, not bundle failure.
+G10	TYPED_PAIR_ALL_LAMBDA	NOT_APPLICABLE_UNLESS_PAIR_DERIVED_FROM_DPHI	Gradient projector failure is a separate unselected route.
+G11	NONE	OPEN_ABSENT	Transport and endomorphism assembly do not assign founded signed depth.
+G12	NONE	OPEN_UNSELECTED	Endpoint parallelism would be an extra constraint; it is not current variation authority.

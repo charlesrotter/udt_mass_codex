@@ -1,0 +1,15 @@
+status_id	object	status	exact_scope
+S01	X_lambda_chart_overlap	DERIVED	all real constant lambda for supplied regular ordered pair
+S02	typed_path_groupoid_assembly	DERIVED	all real constant lambda with retained paths and vertical resets
+S03	global_pair_frame_bundle	DERIVED	associated query bundle on regular Lorentzian metric; no section implied
+S04	lambda_plus1_clock_collapse	DERIVED	fiberwise X=I-2P_u
+S05	lambda_minus1_ruler_collapse	DERIVED	fiberwise X=2P_n-I
+S06	Q01_Q02_spatial_holonomy	DERIVED	full so3 in homogeneous controls
+S07	Q01_Q02_parallel_endpoint_X	DERIVED	lambda_one only within concrete controls
+S08	endpoint_only_requirement	OPEN	not supplied by founding observer-pair semantics
+S09	Q01_metric_naturality	DERIVED	lambda_one only without chosen ruler; conditional branch scope
+S10	Q02_metric_naturality	DERIVED	all supplied lambda via unoriented Ricci line; off-shell branch
+S11	other_completion_descent	OPEN	no actual complete metrics or selected join data
+S12	physical_signed_depth	OPEN	no registered complete founded assignment
+S13	variation_domain	OPEN	parallelism not authorized as restriction
+S14	action_carrier_source_density_dynamics	OPEN	downstream or conditional and excluded

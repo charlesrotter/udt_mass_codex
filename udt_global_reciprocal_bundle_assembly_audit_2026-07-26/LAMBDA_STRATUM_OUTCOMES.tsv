@@ -1,0 +1,5 @@
+stratum_id	lambda	connected_lorentz_centralizer_dimension	connected_stabilizer	pair_bundle_overlap	typed_path_groupoid	section_data	parallel_endpoint_on_concrete_S3_controls	signed_depth
+L01	lambda not in {-1,0,+1}	1	SO2_screen	YES	YES	requires_u_and_n	NO_ON_Q01_Q02	NO_FOUNDED_DEPTH
+L02	lambda=-1	3	SO+(1,2)_ruler_complement	YES	YES	requires_n_only_fiberwise_but_not_selected	NO_ON_Q01_Q02	NO_FOUNDED_DEPTH
+L03	lambda=0	1	SO2_screen	YES	YES	requires_u_and_n	NO_ON_Q01_Q02	NO_FOUNDED_DEPTH
+L04	lambda=+1	3	SO3_spatial	YES	YES	requires_u_only_fiberwise	YES_ON_Q01_Q02	NO_FOUNDED_DEPTH
