@@ -1,0 +1,63 @@
+{
+  "all_pair_clock_cocycle_linearization": "INFINITE_DIMENSIONAL_MOD_CONSTANTS_IF_A_PHYSICAL_PAIR_DOMAIN_IS_SUPPLIED",
+  "bootstrap_status": "WORKING_ON_SHELL_ADMISSIBILITY_ONLY_UNCHANGED",
+  "c_E_G_obs_scale_closure": "NOT_DERIVED_SUFFICIENT_FOR_LENGTH_OR_DENSITY",
+  "candidate_count": 5,
+  "candidate_outcomes": {
+    "C01": "DERIVED_EXECUTABLE_BRANCHWISE_GEOMETRIC_DIAMETER_NOT_OPERATIONAL_PHYSICAL_XMAX_BRIDGE",
+    "C02": "DERIVED_BRANCHWISE_CLOCK_COCYCLE_NOT_COMPLETE_DISTANCE_OR_XMAX_BRIDGE",
+    "C03": "DERIVED_BRANCHWISE_DIRECTED_NULL_PATH_GEOMETRY_NOT_PHYSICAL_XMAX_OR_BOOTSTRAP_BRIDGE",
+    "C04": "UNIQUE_CONDITIONAL_1D_DISPLAY_NOT_METRIC_DERIVATION_OF_XMAX",
+    "C05": "WORKING_SCHEMA_MISSING_OPERATIONAL_ARROW_FUNCTIONAL"
+  },
+  "compact_smooth_stationary_ruling": {
+    "clock_depth_range": "FINITE_ATTAINED",
+    "q_diameter": "FINITE_ATTAINED",
+    "strongly_convex_optical_distance": "FINITE_ATTAINED",
+    "unattained_finite_limit_requires": [
+      "noncompact_or_open_observer_domain",
+      "excluded_limit_points",
+      "singular_or_unbounded_profile_or_weight",
+      "projective_display_with_independently_supplied_scale",
+      "or_an_unregistered_noncontinuous_functional"
+    ]
+  },
+  "complete_4D_extension_status": "OPEN_UNCHANGED",
+  "cross_branch_splice_used": false,
+  "derived_relations": {
+    "clock_first_variation": "delta rho_AB=delta phi(B)-delta phi(A)",
+    "clock_range_first_variation": "Range(phi)'[h]=max_(Argmax phi) h-min_(Argmin phi) h for the right derivative",
+    "clock_ratio": "N_B/N_A=exp[-(phi_B-phi_A)]",
+    "conditional_phi_from_q_anisotropy": "phi=log(C/A)/(2(1-lambda)), if lambda!=1 and the registered eigenvalue slots are identified",
+    "diameter_first_variation": "D'_q[h]=max_(p,r in ArgDiam) min_(gamma in Min(p,r)) (1/2) integral_gamma h(v,v) ds for the right derivative",
+    "future_null_path": "c_E dt=exp(phi) ds_q-a sigma3",
+    "lapse": "N=sqrt(-g(K,K))=c_E exp(-phi) for registered K=partial_t",
+    "orbit_metric": "q=R^2 exp(2 lambda phi)(sigma1^2+sigma2^2)+R^2 exp(2 phi)sigma3^2",
+    "projective_first_variation": "delta d=tanh(rho) delta L+L sech^2(rho) delta rho",
+    "reverse_null_path": "c_E dt_reverse=exp(phi) ds_q+a sigma3",
+    "reversible_optical_element": "(F(v)+F(-v))/2=exp(phi) ds_q/c_E",
+    "strong_convexity": "a^2<R^2 exp(4phi), pointwise",
+    "twist_odd_element": "(F(v)-F(-v))/2=-a sigma3/c_E"
+  },
+  "exact_control": {
+    "forward": "4/3",
+    "lapse_ratio_K_rescaling_invariant": true,
+    "null_substitution_exact": true,
+    "phi_level_tangent_obstruction_exact": true,
+    "projective_1d_identity_exact": true,
+    "randers_slice_positivity_equivalent": true,
+    "reverse": "8/3",
+    "round_trip_sum": "4",
+    "twist_antisymmetry": "-4/3"
+  },
+  "field_valued_global_to_local_return_equation_status": "NOT_SELECTED_IN_FROZEN_FIVE_CANDIDATES",
+  "maximum_conclusion": "BRANCHWISE_DIRECTED_NULL_PATH_GEOMETRY_DERIVED;_FIVE_TYPES_CLASSIFIED;_NO_OPERATIONAL_XMAX_OR_FIELD_VALUED_RETURN_SELECTED",
+  "operational_Xmax_bridge_status": "NOT_SELECTED_IN_FROZEN_FIVE_CANDIDATES",
+  "phi_native_field_ownership": "FOUNDED_PAIR_DEPTH_NOT_SELECTED_INDEPENDENT_NATIVE_SCALAR",
+  "physical_null_signal_interpretation": "OPEN_UNDER_COPRESENCE",
+  "positive_nondegenerate_scalar_distance_equal_to_signed_clock_cocycle": "OBSTRUCTED_ON_FULL_ANGULAR_SPACE_BY_NONZERO_TANGENTS_IN_KERNEL_OF_DPHI",
+  "schema": "udt.observer_pair_xmax_bridge.derivation.v1",
+  "scope_beyond_frozen_five": "OPEN_NOT_CLASSIFIED",
+  "status": "PASS_CLASSIFIED_NO_COMPLETE_BRIDGE",
+  "strong_local_CSN_status": "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED_INACTIVE"
+}

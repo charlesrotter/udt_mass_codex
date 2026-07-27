@@ -1,0 +1,14 @@
+{
+  "bilocal_rank_controls": "N=2_THROUGH_8_ALL_RANK_N_MINUS_1",
+  "candidate_coverage": "5/5",
+  "catch_proofs": "20/20_ACTUAL_OUTPUT_MUTATIONS",
+  "field_valued_return_equation_status": "NOT_SELECTED_IN_FROZEN_FIVE_CANDIDATES_NOT_REFUTED",
+  "independent": "PASS_NO_PRODUCTION_READ_STDLIB_FRACTION_AND_SEMANTIC_RECONSTRUCTION",
+  "operational_Xmax_bridge_status": "NOT_SELECTED_IN_FROZEN_FIVE_CANDIDATES",
+  "premise_guards": "16/16",
+  "production": "PASS_EXACT_STATIONARY_NULL_PATH_AND_TYPE_CLASSIFICATION",
+  "required_properties_per_candidate": 10,
+  "schema": "udt.observer_pair_xmax_bridge.verification.v2",
+  "sources": "18/18",
+  "status": "PASS"
+}

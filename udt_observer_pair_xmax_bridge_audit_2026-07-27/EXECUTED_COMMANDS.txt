@@ -1,0 +1,11 @@
+git checkout grok
+git fetch origin
+git pull --ff-only origin grok
+python3 verify_current_scientific_premises.py
+python3 verify_source_manifest.py
+python3 derive_observer_pair_xmax_bridge.py
+python3 verify_observer_pair_xmax_bridge_independent.py
+python3 verify_audit.py
+python3 -m pytest -q tests/
+python3 build_manifest.py
+python3 verify_repository_gates.py

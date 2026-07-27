@@ -1,0 +1,30 @@
+{
+  "angular_kernel_dimension": 2,
+  "bilocal_incidence_ranks": {
+    "2": 1,
+    "3": 2,
+    "4": 3,
+    "5": 4,
+    "6": 5,
+    "7": 6,
+    "8": 7
+  },
+  "bilocal_kernel": "CONSTANTS",
+  "candidate_count": 5,
+  "compact_attainment_type": "FINITE_ATTAINED_FOR_CONTINUOUS_BRANCH_FUNCTIONALS",
+  "field_valued_return_equation_status": "NOT_SELECTED_IN_FROZEN_FIVE_CANDIDATES",
+  "independent_outcomes": {
+    "C01": "DERIVED_EXECUTABLE_BRANCHWISE_GEOMETRIC_DIAMETER_NOT_OPERATIONAL_PHYSICAL_XMAX_BRIDGE",
+    "C02": "DERIVED_BRANCHWISE_CLOCK_COCYCLE_NOT_COMPLETE_DISTANCE_OR_XMAX_BRIDGE",
+    "C03": "DERIVED_BRANCHWISE_DIRECTED_NULL_PATH_GEOMETRY_NOT_PHYSICAL_XMAX_OR_BOOTSTRAP_BRIDGE",
+    "C04": "UNIQUE_CONDITIONAL_1D_DISPLAY_NOT_METRIC_DERIVATION_OF_XMAX",
+    "C05": "WORKING_SCHEMA_MISSING_OPERATIONAL_ARROW_FUNCTIONAL"
+  },
+  "null_path_exact": true,
+  "operational_Xmax_bridge_status": "NOT_SELECTED_IN_FROZEN_FIVE_CANDIDATES",
+  "production_outputs_read": false,
+  "schema": "udt.observer_pair_xmax_bridge.independent.v2",
+  "status": "PASS_INDEPENDENT_STDLIB_FRACTION_AND_SEMANTIC_RECONSTRUCTION",
+  "strong_convexity_equivalence_exact": true,
+  "twist_reversal_exact": true
+}

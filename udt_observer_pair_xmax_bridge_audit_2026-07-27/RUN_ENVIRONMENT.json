@@ -1,0 +1,9 @@
+{
+  "cpu_only": true,
+  "gpu_used": false,
+  "kernel": "Linux 6.8.0-124-generic x86_64",
+  "platform": "GNU/Linux",
+  "python": "3.10.12",
+  "third_party_dependencies": [],
+  "working_tree": "/tmp/udt_phi_ontology_XvSL3D/repo"
+}

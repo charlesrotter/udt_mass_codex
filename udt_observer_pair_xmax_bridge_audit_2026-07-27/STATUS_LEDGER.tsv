@@ -1,0 +1,21 @@
+object	status	scope_or_reason
+founded_reciprocal_pair_and_phi_identity	DERIVED	unchanged active foundation
+stationary_orbit_metric_q	DERIVED_CONDITIONAL	unique-K stationary R_x_S3 comparison branch
+quotient_geodesic_diameter	DERIVED_EXECUTABLE_BRANCHWISE_GEOMETRY	finite attained; physical Xmax identity not selected
+Killing_lapse_endpoint_ratio	DERIVED_CONDITIONAL	stationary normalized K endpoints; invariant under constant K rescaling
+signed_endpoint_clock_depth	DERIVED_CONDITIONAL_ADDITIVE_COCYCLE	not a symmetric nonnegative complete distance
+stationary_directed_null_path_functional	DERIVED_CONDITIONAL_GEOMETRY	full q plus twist; strict slice positivity
+physical_signal_interpretation_of_null_path	OPEN	working copresence does not authorize signal ontology
+local_reversible_optical_norm_and_metric	DERIVED_CONDITIONAL	exp(2phi)q on same stationary branch; same-path reversal, not equality of separately optimized paths
+twist_odd_path_term	DERIVED_CONDITIONAL	-a sigma3/c_E; section-gauge endpoint dependence retained
+signed_clock_cocycle_equals_positive_nondegenerate_complete_path_length	OBSTRUCTED_ON_FULL_ANGULAR_BRANCH	ker(dphi) contains positive-q tangents
+all_pairs_signed_clock_cocycle	INFINITE_FUNCTIONAL_RANK_MOD_CONSTANTS_GIVEN_PAIR_DOMAIN	native physical pair domain and target remain unselected
+projective_tanh_display	UNIQUE_CONDITIONAL	one-dimensional oriented class with supplied scale and depth
+projective_scale_equals_Xmax	OPEN_CIRCULAR_IF_INSERTED	no metric derivation of L
+ordered_pair_supremum_Xmax	WORKING_SCHEMA	observer domain pairing and arrow functional missing
+unattained_Xmax_on_smooth_compact_stationary_branch	NOT_REALIZED_BY_FROZEN_CONTINUOUS_CANDIDATES	branch discriminator only
+complete_4D_phi_extension	OPEN	unchanged controlling gate
+operational_physical_comparison_functor	OPEN	observer/event arrows ruler/coframe and path identification unselected
+field_valued_global_to_local_return_equation	OPEN_NOT_SELECTED_IN_FROZEN_CENSUS	all-pairs cocycle could carry field rank but no native target or equality is selected
+bootstrap	WORKING_ON_SHELL_ADMISSIBILITY_ONLY	unchanged; no local optimizer or return map
+complete_action_source_boundary_mass	OPEN	unchanged

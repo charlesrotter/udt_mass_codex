@@ -1,0 +1,110 @@
+{
+  "authority_boundary": {
+    "Xmax_identified_or_assigned": false,
+    "action_source_carrier_boundary_selected": false,
+    "canon_changed": false,
+    "frozen_or_historical_changed": false,
+    "gpu_work": false,
+    "mass_density_or_bootstrap_map_derived": false,
+    "physical_phi_profile_selected": false,
+    "physical_signal_ontology_selected": false,
+    "reorganization": false,
+    "source_results_changed": false,
+    "startup_controls_changed": false
+  },
+  "base": "8abc0f2",
+  "calculation_replays": {
+    "catches": "20/20",
+    "fresh_adversarial": "VERIFIED_WITH_CAVEATS",
+    "independent": "PASS_NO_PRODUCTION_READ_STDLIB_FRACTION_AND_SEMANTIC_RECONSTRUCTION",
+    "production": "PASS_EXACT_STATIONARY_NULL_PATH_AND_TYPE_CLASSIFICATION",
+    "sources": "18/18",
+    "stdout_hashes": {
+      "verify_audit.py": "5dba3893870cb2f799ea6136098da2fd568c789e24d269f33580849b7f2acb17",
+      "verify_observer_pair_xmax_bridge_independent.py": "e8f77b1693b243a8fc0e2b5634c8b8871f58ba63253bea2bdbe57a70f5216105",
+      "verify_source_manifest.py": "f43aeaec5233a0eface8a73e7a8883b34946a044d833804c14477ad30d9b3bde"
+    }
+  },
+  "catch_proofs": {
+    "calculation": "PASS",
+    "current_paths": "PASS",
+    "dirty": "PASS",
+    "frontier": "PASS",
+    "frozen": "PASS",
+    "package": "PASS",
+    "scope": "PASS"
+  },
+  "dirty_checkout": {
+    "branch": "grok",
+    "contents_read": false,
+    "head": "8b13104a4f1af45af617d2aa50cd5fdacf4082af",
+    "metadata_sha256": "345d297e0ad849cd38f1d817c915922de653ca2d2befcf923af6f9d097b483e4",
+    "paths": 55,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 38,
+    "manifest_sha256": "4d4e4c1de07f337622a70d4b105fd2d33f7c20a80b15087f72839e08aae2d307",
+    "result": "PASS"
+  },
+  "preregistration_ancestor": true,
+  "result": "PASS",
+  "schema": "udt.observer_pair_xmax_bridge.repository_gates.v1",
+  "scope_path_count": 30,
+  "tests": {
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "stdout_sha256": "cc6d2bc7559e0f131ad870ae227303a811b8ad7119d2114954917c1f8ace8435",
+    "xfailed": 1
+  }
+}
