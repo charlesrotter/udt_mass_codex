@@ -1,0 +1,15 @@
+gate_id	gate	pass_meaning
+G01	mathematical_observable_definition	object is well typed without physical interpretation
+G02	metric_screen_bundle	complete metric supplies the needed screen geometry given declared observers and paths
+G03	metric_transport_or_holonomy	Levi_Civita_or_registered_geometric transport can act on the object
+G04	selected_complete_coframe_extension	one active UDT rule fixes angular and mixing action
+G05	physical_observer_path_screen	objects events paths and screen bases are physically selected
+G06	physical_polarization_carrier	geometric screen data is identified with a native physical polarization field
+G07	native_source_interaction	native matter interaction creates the polarization initial data
+G08	global_sky_completion	whole observer sky topology boundary patches and transitions are supplied
+G09	gauge_and_basis_independence	readout descends from local screen basis choices
+G10	statistical_ensemble_or_single_sky_rule	correlation or spectrum prediction has a native meaning
+G11	foreground_instrument_separation	comparison to observation is not silently source_or_instrument dominated
+G12	unique_metric_sensitive_signature	active UDT chain predicts a signature not shared by unresolved extensions
+G13	directional_information_retained	readout preserves path direction or holonomy information when needed
+G14	active_UDT_prediction	all required prior physical gates close in one same branch

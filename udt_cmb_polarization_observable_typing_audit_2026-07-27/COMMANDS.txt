@@ -1,0 +1,7 @@
+python3 verify_local_source_manifest.py
+python3 derive_cmb_observable_typing.py
+python3 verify_cmb_typing_independent.py
+python3 verify_audit.py
+python3 -m pytest -q tests/
+python3 build_manifest.py
+python3 verify_repository_gates.py

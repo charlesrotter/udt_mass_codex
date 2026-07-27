@@ -1,0 +1,15 @@
+source_id	source_type	path_or_query	role
+S01	LOCAL	LIVE.md	controlling frontier
+S02	LOCAL	CURRENT_SCIENTIFIC_PREMISES.md	premise precedence
+S03	LOCAL	CURRENT_SCIENTIFIC_PREMISES.tsv	machine premise guards
+S04	LOCAL	udt_complete_coframe_physical_comparison_functor_audit_2026-07-27/AUDIT_REPORT.md	current extension and functor result
+S05	LOCAL	udt_complete_coframe_physical_comparison_functor_audit_2026-07-27/CLASS_GATE_MATRIX.tsv	frozen extension capability base
+S06	LOCAL	udt_complete_coframe_physical_comparison_functor_audit_2026-07-27/STATUS_LEDGER.tsv	current statuses
+S07	LOCAL	udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/AUDIT_REPORT.md	conditional screen path transport
+S08	LOCAL	udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/EXACT_DERIVATION.md	transport typing algebra
+S09	LOCAL	udt_intrinsic_reciprocal_holonomy_audit_2026-07-27/AUDIT_REPORT.md	full holonomy stress control
+S10	LOCAL	udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md	global_local dependency ordering
+S11	EXTERNAL_PRIMARY	Planck_2018_CMB_power_spectra_and_likelihoods	observed TT_TE_EE and likelihood provenance
+S12	EXTERNAL_PRIMARY	Planck_2018_polarization_maps_and_systematics	map screen calibration and systematics provenance
+S13	EXTERNAL_PRIMARY	BICEP_Keck_latest_public_B_mode_analysis	BB foreground_lensing_source degeneracy provenance
+S14	EXTERNAL_PRIMARY	current_public_CMB_polarization_data_archive	machine accessible observed product provenance
