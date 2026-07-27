@@ -1,0 +1,8 @@
+python3 verify_local_source_manifest.py
+python3 verify_external_source_registry.py
+python3 derive_cmb_observable_typing.py > DERIVATION_STDOUT.txt 2> DERIVATION_STDERR.txt
+python3 verify_cmb_typing_independent.py > INDEPENDENT_STDOUT.txt 2> INDEPENDENT_STDERR.txt
+python3 verify_audit.py > VERIFICATION_STDOUT.txt 2> VERIFICATION_STDERR.txt
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 -m pytest -q tests/
+python3 build_manifest.py > SHA256SUMS.txt
+python3 verify_repository_gates.py > REPOSITORY_GATES.json

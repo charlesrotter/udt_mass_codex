@@ -1,0 +1,83 @@
+{
+  "BB_unique_holonomy_signature": false,
+  "CMB_polarization_guidepost_status": "PROMISING_FUTURE_GUIDEPOST_ONLY_AFTER_NATIVE_EXTENSION_DOMAIN_CARRIER_SOURCE_PROPAGATION_GLOBAL_SKY_STATISTICAL_RULE_AND_EXTERNAL_CALIBRATION_FOREGROUND_CONTROLS",
+  "E_B_are_local_basis_components": false,
+  "Maxwell_Thomson_imported_as_native": false,
+  "Xmax_bootstrap_action_source_boundary_mass_changed": false,
+  "capability_status_counts": {
+    "DESCENT_LAYER_OPEN": 12,
+    "DOWNSTREAM_SOURCE_AND_COMPRESSION_BLOCKED": 40,
+    "GLOBAL_LAYER_OPEN": 12,
+    "INACTIVE_PREMISE": 12,
+    "INCOMPLETE_BASE": 12,
+    "POINTWISE_COUNTERFAMILY_CONTROL_ONLY": 14,
+    "POINTWISE_SPECTATOR_CONTROL_ONLY": 7,
+    "POINTWISE_UPSTREAM_GEOMETRIC_POTENTIAL_ONLY": 35
+  },
+  "cross_branch_splice_used": false,
+  "current_UDT_CMB_prediction": "ABSENT_OPEN_CHAIN",
+  "exact_controls": {
+    "calibration_rotation_degeneracy_witness": true,
+    "power_spectrum_noninjective_witness": true,
+    "power_spectrum_witness_C_l": "1/5",
+    "schematic_B_component_sum_nonuniqueness_sanity_check": true,
+    "spin2_rotation_composition_exact": true,
+    "spin2_rotation_reversal_exact": true,
+    "uniform_rotation_EB_matrix": [
+      [
+        "cos(2a)",
+        "-sin(2a)"
+      ],
+      [
+        "sin(2a)",
+        "cos(2a)"
+      ]
+    ]
+  },
+  "extension_observable_cells": 144,
+  "extension_rows": 12,
+  "fit_performed": false,
+  "highest_priority_future_guideposts": [
+    "O09",
+    "O10",
+    "O11"
+  ],
+  "map_level_anomaly_equated_to_power_spectrum": false,
+  "maximum_conclusion": "CMB_POLARIZATION_CHAIN_CLASSIFIED;_MAP_OFFDIAGONAL_AND_REAL_SPACE_GUIDEPOSTS_RANKED_CONDITIONALLY;_NO_NATIVE_PREDICTION_OR_VALIDATION",
+  "native_polarization_source_derived": false,
+  "observable_gate_cells": 168,
+  "observable_gate_status_counts": {
+    "AVAILABLE_CONDITIONAL_GEOMETRIC_ACTION": 12,
+    "AVAILABLE_CONDITIONAL_GIVEN_TYPED_SCREEN": 12,
+    "AVAILABLE_CONDITIONAL_GLOBAL_DECOMPOSITION": 8,
+    "AVAILABLE_CONDITIONAL_PARALLEL_BASIS": 1,
+    "BASIS_COVARIANT_NOT_INVARIANT": 2,
+    "DEFINED_EXTERNAL_MATHEMATICAL_TYPE": 12,
+    "DIRECTIONAL_INFORMATION_COMPRESSED": 5,
+    "DIRECTIONAL_INFORMATION_RETAINED": 7,
+    "EXTERNAL_SEPARATION_REQUIRED": 12,
+    "NOT_AVAILABLE_UDT_PREDICTION": 12,
+    "NOT_SELECTED_UNIQUE_SIGNATURE": 12,
+    "OPEN_GLOBAL_SKY": 12,
+    "OPEN_NATIVE_SOURCE": 12,
+    "OPEN_NATIVE_STATISTICAL_OR_SINGLE_SKY_RULE": 12,
+    "OPEN_PHYSICAL_CARRIER": 12,
+    "OPEN_PHYSICAL_DOMAIN": 12,
+    "OPEN_REFERENCE_AND_CALIBRATION": 1,
+    "OPEN_UNSELECTED_EXTENSION": 12
+  },
+  "observable_gates": 14,
+  "observable_types": 12,
+  "physical_path_selected": false,
+  "physical_polarization_carrier_derived": false,
+  "power_spectra_alone_for_directional_holonomy": "INSUFFICIENT_NONINJECTIVE_COMPRESSION",
+  "rotation_unique_without_calibration_control": false,
+  "schema": "udt.cmb_polarization_observable_typing.derivation.v1",
+  "source_peak_phase_amplitude_derived_from_metric_only": false,
+  "standard_cosmology_imported_as_UDT": false,
+  "statistical_isotropy_UDT_theorem": false,
+  "status": "PASS_GUIDEPOST_CONDITIONAL_NO_NATIVE_PREDICTION",
+  "strong_local_CSN_activated": false,
+  "unique_extension_selected": false,
+  "zero_TB_EB_metric_only_prediction": false
+}

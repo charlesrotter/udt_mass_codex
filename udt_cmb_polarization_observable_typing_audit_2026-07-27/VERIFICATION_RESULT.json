@@ -1,0 +1,19 @@
+{
+  "audit_report_sha256": "f7fa43d5341ea8735c7c16d5bf16e95782af12b7d5e5d5c323d1ec9ca63102c3",
+  "capability_matrix_sha256": "b198c5d2da58a8a099611fbd6f44244b114c70440288c2d36d53bc399d86398c",
+  "catch_proofs": 24,
+  "current_UDT_CMB_prediction": "ABSENT_OPEN_CHAIN",
+  "extension_observable_cells": 144,
+  "external_primary_or_official_sources": 10,
+  "fresh_adversarial_review": "VERIFIED_WITH_CAVEATS",
+  "independent_no_production_read_replay": "PASS",
+  "local_sources": 10,
+  "observable_gate_cells": 168,
+  "observable_gates": 14,
+  "observable_matrix_sha256": "e75a565f22bd12a5ab8a8878a80f388a482853b35e24393d6eb887df5209203f",
+  "observables": 12,
+  "production_replay": "PASS",
+  "schema": "udt.cmb_polarization_observable_typing.verification.v1",
+  "status": "PASS_VERIFIED_WITH_CAVEATS",
+  "status_ledger_sha256": "a4cd7517a5c8812dc2e024242fb5c4a48ab8a361a8726bf888b772f79a35c9d7"
+}
