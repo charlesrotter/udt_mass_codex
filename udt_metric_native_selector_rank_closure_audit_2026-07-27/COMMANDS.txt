@@ -1,0 +1,5 @@
+# Preregistered command families; exact executions are recorded separately.
+python3 udt_metric_native_selector_rank_closure_audit_2026-07-27/derive_selector_rank.py
+python3 udt_metric_native_selector_rank_closure_audit_2026-07-27/verify_selector_rank_independent.py
+python3 udt_metric_native_selector_rank_closure_audit_2026-07-27/verify_audit.py
+python3 -m pytest -q tests/
