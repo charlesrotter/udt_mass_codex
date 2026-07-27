@@ -1,0 +1,13 @@
+{
+  "audit_report_sha256": "f5b048e1e3055e91933293037f9f3755068d4400ac01bd61ae19e008ebf9a730",
+  "catch_proofs": 16,
+  "claims": 36,
+  "independent_replay": "PASS",
+  "primary_ruling": "SEMANTICS_OPEN",
+  "production_replay": "PASS",
+  "requirements": 18,
+  "routes": 8,
+  "sources": 21,
+  "status": "PASS",
+  "status_ledger_sha256": "a2fa970ddfc080a411d635dfb20cce58e83c1fbe3a60bd571f2bbeda5f7ce4aa"
+}

@@ -1,0 +1,9 @@
+{
+  "claims_replayed": 36,
+  "forbidden_primary_rulings_rejected": 2,
+  "implementation": "stdlib_independent_no_production_import",
+  "primary_ruling_reproduced": "SEMANTICS_OPEN",
+  "requirements_replayed": 18,
+  "routes_replayed": 8,
+  "status": "PASS"
+}

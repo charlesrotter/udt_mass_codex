@@ -1,0 +1,6 @@
+python3 udt_founding_observer_comparison_semantics_audit_2026-07-27/build_source_manifest.py
+python3 udt_founding_observer_comparison_semantics_audit_2026-07-27/derive_founding_semantics.py
+python3 udt_founding_observer_comparison_semantics_audit_2026-07-27/verify_semantics_independent.py
+python3 udt_founding_observer_comparison_semantics_audit_2026-07-27/verify_audit.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 -m pytest -q tests/
+python3 udt_founding_observer_comparison_semantics_audit_2026-07-27/verify_repository_gates.py

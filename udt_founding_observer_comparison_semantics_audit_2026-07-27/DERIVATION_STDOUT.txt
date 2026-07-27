@@ -1,0 +1,32 @@
+{
+  "catch_ids": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16"
+  ],
+  "catch_proofs_passed": 16,
+  "claim_count": 36,
+  "downstream_physics_activated": false,
+  "endpoint_physical_forcing_claims": 0,
+  "lambda_consequence": "NO_SELECTION__ALL_REAL_PATHWISE__LAMBDA_ONE_ONLY_IF_ENDPOINT_REQUIREMENT_LATER_DERIVED_OR_CHOSEN",
+  "path_physical_forcing_claims": 0,
+  "primary_ruling": "SEMANTICS_OPEN",
+  "requirement_count": 18,
+  "route_count": 8,
+  "schema_version": 1,
+  "secondary_ruling": "ORDERED_RELATIONAL_ABSTRACT_COMPARISON_DERIVED__COMPLETE_PATH_VS_ENDPOINT_REALIZATION_OPEN",
+  "source_count": 21
+}

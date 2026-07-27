@@ -1,0 +1,9 @@
+{
+  "compute": "CPU_ONLY",
+  "executable": "/usr/bin/python3",
+  "implementation": "CPython",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "third_party_dependencies": [],
+  "preregistration_commit": "4b1ecbce67abd95317af0ff820cb9275b5910da5"
+}
