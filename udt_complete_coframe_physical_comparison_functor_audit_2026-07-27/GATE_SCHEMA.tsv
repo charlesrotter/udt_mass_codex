@@ -1,0 +1,13 @@
+gate_id	gate	pass_meaning
+G01	complete_pointwise_coframe_action	one complete four-slot action or fully classified family exists
+G02	member_uniqueness	one member selected rather than residual free parameters
+G03	physical_metric_Lorentz_descent	operation is independent of triangular representative or descends covariantly
+G04	same_branch_intrinsic_clock_and_founded_ruler	clock and ruler are realized by one complete metric branch
+G05	physical_observer_event_arrow_domain	objects and compared events are selected
+G06	signed_depth_assignment	additive signed depth is metric-native on those arrows
+G07	exact_path_composition	comparison composes and reverses on its declared arrow category
+G08	same_endpoint_path_holonomy_semantics	retain collapse or quotient rule is supplied
+G09	global_finite_cell_boundary_completion	global descent and completion are supplied
+G10	asymptotic_Xmax_meaning	global limiting pair functional is supplied
+G11	field_valued_response_target	all-pairs or local compatibility equality is selected
+G12	active_UDT_selection	all prior gates are selected by active premises in one same class

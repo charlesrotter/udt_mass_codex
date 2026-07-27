@@ -1,0 +1,21 @@
+source_id	path	role
+S01	LIVE.md	controlling frontier
+S02	CURRENT_SCIENTIFIC_PREMISES.md	premise precedence narrative
+S03	CURRENT_SCIENTIFIC_PREMISES.tsv	machine premise guards
+S04	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/AUDIT_REPORT.md	controlling extension classification
+S05	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/EXTENSION_CLASS_LEDGER.tsv	frozen twelve-class universe
+S06	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/DERIVATION_RESULT.json	extension algebra result
+S07	udt_observer_pair_path_groupoid_assembly_audit_2026-07-26/AUDIT_REPORT.md	typed path groupoid result
+S08	udt_observer_pair_path_groupoid_assembly_audit_2026-07-26/EXACT_DERIVATION.md	path composition algebra
+S09	udt_global_reciprocal_bundle_assembly_audit_2026-07-26/AUDIT_REPORT.md	global path versus endpoint meanings
+S10	udt_global_reciprocal_bundle_assembly_audit_2026-07-26/EXACT_DERIVATION.md	holonomy centralizer algebra
+S11	udt_intrinsic_reciprocal_holonomy_audit_2026-07-27/AUDIT_REPORT.md	actual twisted full-holonomy control
+S12	udt_intrinsic_reciprocal_holonomy_audit_2026-07-27/EXACT_DERIVATION.md	full holonomy endpoint obstruction
+S13	udt_intrinsic_reciprocal_holonomy_audit_2026-07-27/DERIVATION_RESULT.json	holonomy machine result
+S14	udt_complete_physical_comparison_map_audit_2026-07-27/AUDIT_REPORT.md	hybrid comparison map
+S15	udt_complete_physical_comparison_map_audit_2026-07-27/EXACT_DERIVATION.md	comparison functor types
+S16	udt_complete_physical_comparison_map_audit_2026-07-27/STATUS_LEDGER.tsv	comparison statuses
+S17	udt_observer_pair_xmax_bridge_audit_2026-07-27/AUDIT_REPORT.md	latest path and all-pairs result
+S18	udt_observer_pair_xmax_bridge_audit_2026-07-27/EXACT_DERIVATION.md	metric null path algebra
+S19	udt_observer_pair_xmax_bridge_audit_2026-07-27/STATUS_LEDGER.tsv	latest statuses
+S20	udt_observer_pair_xmax_bridge_audit_2026-07-27/RESPONSE_TYPE_LEDGER.tsv	response types
