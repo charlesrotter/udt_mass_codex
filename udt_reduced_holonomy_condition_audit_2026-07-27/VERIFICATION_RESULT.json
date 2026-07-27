@@ -1,0 +1,13 @@
+{
+  "case_strata": 3,
+  "catch_proofs": "24/24",
+  "connection_components": 30,
+  "coordinate_curvature_holdouts": 3,
+  "independent_case_holdouts": 4,
+  "intrinsic_pair_survivors": 0,
+  "parallelism_components": 46,
+  "regular_complete_survivors": 1,
+  "schema": "udt-reduced-holonomy-condition-verification-1.0",
+  "status": "PASS",
+  "survivor_curvature_rank": 3
+}

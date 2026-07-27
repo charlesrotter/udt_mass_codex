@@ -1,0 +1,4 @@
+case	connected_stabilizer	pointwise_iff	metric_implication	regular_S3_compatible	reason	complete_regular_survivor	ruler_metric_intrinsic
+GENERIC_NOT_PLUS_MINUS_ONE	so(2)_screen	p1=p2=p3=A=B=0	dphi=0;a=0;B=0	NO	B=kappa*exp((1-2lambda)*phi)!=0	NONE	N/A
+LAMBDA_PLUS_ONE	so(3)_spatial	p1=p2=p3=A=0	dphi=0;a=0	YES	B=C=kappa*exp(-phi0)!=0_allowed	R_t_times_round_S3_phi0_constant	NO_spatial_isotropy_and_zero_twist
+LAMBDA_MINUS_ONE	so(1,2)_clock_screen	p1=p2=p3=B=0	dphi=0;B=0	NO	B=kappa*exp(3phi)!=0	NONE	N/A

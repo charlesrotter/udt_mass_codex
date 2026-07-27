@@ -1,0 +1,30 @@
+{
+  "all_configurations_off_shell": true,
+  "case_count": 3,
+  "connection_nonzero_components": 30,
+  "generic_blocked_by_nonzero_B": true,
+  "intrinsic_clock_ruler_pair_survivor_count": 0,
+  "lambda_minus_one_blocked_by_nonzero_B": true,
+  "nonconstant_regular_survivor_count": 0,
+  "nontrivial_twist_regular_survivor_count": 0,
+  "parallelism_nonzero_components": {
+    "generic_symbolic": 22,
+    "lambda_minus_one": 14,
+    "lambda_plus_one": 10
+  },
+  "path_groupoid_remains_valid": true,
+  "physical_lambda_selected": false,
+  "regular_complete_survivor_count": 1,
+  "schema": "udt-reduced-holonomy-condition-1.0",
+  "status": "COMPUTED",
+  "survivor": {
+    "X_parallel": true,
+    "curvature_holonomy_rank": 3,
+    "holonomy_algebra": "so(3)_spatial",
+    "lambda": 1,
+    "metric": "R_t_times_round_S3",
+    "metric_intrinsic_ruler_retained": false,
+    "phi": "constant_phi0",
+    "twist_a": 0
+  }
+}

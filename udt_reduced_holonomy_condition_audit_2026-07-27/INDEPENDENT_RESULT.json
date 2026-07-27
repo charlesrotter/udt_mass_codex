@@ -1,0 +1,16 @@
+{
+  "all_case_iff_probes": "PASS",
+  "case_holdouts": 4,
+  "coordinate_curvature_holdouts": 3,
+  "cpu_only": true,
+  "imports_primary_solver": false,
+  "independent_Koszul_connection_components": 30,
+  "independent_survivor_curvature_ranks": [
+    3
+  ],
+  "maximum_coordinate_curvature_scaled_error": 1.4432899320127035e-15,
+  "schema": "udt-reduced-holonomy-condition-independent-1.0",
+  "status": "PASS",
+  "survivor_metrics_nondegenerate": true,
+  "torch_version": "2.5.1+cu121"
+}

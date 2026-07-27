@@ -1,0 +1,6 @@
+escape	regular_S3	effect
+B=0_via_kappa=0	NO	removes_Maurer_Cartan_contact_geometry
+B=0_via_finite_exponential	IMPOSSIBLE	real_exponential_never_zero
+B_to_zero_at_infinite_phi_limit	NO	not_a_finite_regular_point
+A=0_via_a=0	YES	kills_clock_twist_and_parent_ruler_selector
+lambda_plus_one_spatial_eigenvalue_degeneracy	YES	X_keeps_clock_line_but_no_distinguished_ruler

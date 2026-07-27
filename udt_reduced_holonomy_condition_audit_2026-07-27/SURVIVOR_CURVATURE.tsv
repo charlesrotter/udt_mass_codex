@@ -1,0 +1,4 @@
+plane	nonzero_entries	commutator_with_X
+12	R12=k**2/4;R21=-k**2/4	ZERO
+13	R13=k**2/4;R31=-k**2/4	ZERO
+23	R23=k**2/4;R32=-k**2/4	ZERO

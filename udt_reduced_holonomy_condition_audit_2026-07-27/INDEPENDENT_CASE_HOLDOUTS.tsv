@@ -1,0 +1,5 @@
+case	nabla_component_count	required_zero	sufficiency_exact	each_required_variable_detected
+GENERIC_LAMBDA_ZERO_PROBE	18	p1;p2;p3;A;B	PASS	PASS
+GENERIC_LAMBDA_TWO_PROBE	22	p1;p2;p3;A;B	PASS	PASS
+LAMBDA_PLUS_ONE	10	p1;p2;p3;A	PASS	PASS
+LAMBDA_MINUS_ONE	14	p1;p2;p3;B	PASS	PASS
