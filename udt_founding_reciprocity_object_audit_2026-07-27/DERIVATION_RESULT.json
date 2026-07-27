@@ -1,0 +1,39 @@
+{
+  "algebraic_not_selected_objects": [
+    "O08"
+  ],
+  "authority_boundary": "NO_ACTION_SOURCE_CARRIER_BOUNDARY_DENSITY_BOOTSTRAP_MASS_XMAX_DYNAMICS_OR_SIGNALLING_INFERENCE",
+  "complete_physical_semantics": "OPEN",
+  "downstream_regrades": 10,
+  "endpoint_only_selected_as_physics": false,
+  "founding_derived_objects": [
+    "O01",
+    "O02"
+  ],
+  "founding_requires_global_parallelism": false,
+  "lambda_selected": false,
+  "local_countermodel": {
+    "complete_exact_anchor": "-3/25",
+    "complete_holonomy_rank": 6,
+    "complete_nonclosing_loops": 36,
+    "local_Gamma_t_t_x_at_x0": "-1",
+    "local_X": "diag(-1,1)",
+    "local_metric": "diag(-exp(-2(r-1)),exp(2(r-1)),r^2,r^2 sin(theta)^2)_near_r=1",
+    "local_nabla_dt_X_t_r_at_r1": "-2",
+    "local_phi": "r-1"
+  },
+  "metric_conditional_objects": [
+    "O03",
+    "O04",
+    "O05"
+  ],
+  "not_founding_derived_objects": [
+    "O06",
+    "O07"
+  ],
+  "objects": 8,
+  "path_groupoid_selected_as_physics": false,
+  "schema": "udt-founding-reciprocity-object-entailment-1.0",
+  "source_propositions": 19,
+  "status": "COMPUTED"
+}

@@ -1,0 +1,13 @@
+edge_id	source	target	added_premise	status
+E01	FOUNDING_PACKET	O01	NONE	DERIVED
+E02	O01	O02	ordered additive depth supplied	DERIVED_ABSTRACT
+E03	O02	O03	stationary common exact scalar section plus endpoint identification	CONDITIONAL
+E04	O01	O04	complete metric plus ordered observer/ruler selector	CONDITIONAL_NONUNIQUE
+E05	O04	O05	Levi-Civita connection plus specified path	CONDITIONAL_EXACT
+E06	O05	O06	all relevant holonomy centralizes X or endpoint trivialization selected	NOT_CURRENTLY_DERIVED
+E07	O04	O07	nabla X=0 imposed and global compatibility proved	EXTRA_RESTRICTION
+E08	O06	O07	smooth connected all-path transport construction	MATHEMATICAL_IF_GLOBAL_HYPOTHESES_HOLD_NOT_PHYSICAL_SELECTION
+E09	O01	O08	external swap normalizer F	ALGEBRAIC_ONLY
+N01	OBSERVER_FRAME_COVARIANCE	O06	NONE	NON_EDGE_COUNTERMODEL
+N02	FOUNDING_PACKET	O07	NONE	NON_EDGE_COUNTERMODEL
+N03	O08	ORDINARY_HOLONOMY	NONE	NON_EDGE_ACTUAL_WITNESS

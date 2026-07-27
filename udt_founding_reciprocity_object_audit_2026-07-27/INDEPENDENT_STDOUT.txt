@@ -1,0 +1,10 @@
+{
+  "Gamma_t_t_x_at_origin": "-1",
+  "founding_character_composes": true,
+  "founding_character_preserves_pairing": true,
+  "founding_packet_entails_parallelism": false,
+  "method": "stdlib_fraction_coordinate_connection_plus_finite_character",
+  "nabla_dt_X_t_x_at_origin": "-2",
+  "schema": "udt-founding-reciprocity-object-independent-1.0",
+  "status": "PASS"
+}

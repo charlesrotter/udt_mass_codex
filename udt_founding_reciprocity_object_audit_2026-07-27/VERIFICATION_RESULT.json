@@ -1,0 +1,14 @@
+{
+  "catch_proofs": "24/24",
+  "complete_physical_semantics": "OPEN",
+  "complete_witness_anchor": "-3/25",
+  "countermodels": "2/2",
+  "downstream_regrades": "10/10",
+  "founding_requires_global_parallelism": false,
+  "implication_edges_and_nonedges": "12/12",
+  "independent_local_anchor": "-2",
+  "objects": "8/8",
+  "schema": "udt-founding-reciprocity-object-verification-1.0",
+  "source_propositions": "19/19",
+  "status": "PASS"
+}

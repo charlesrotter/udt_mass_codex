@@ -1,0 +1,11 @@
+regrade_id	prior_statement_class	effective_ruling	required_object	reason
+R01	abstract reciprocal operator missing	SUPERSEDED_CLOSED	O02	founded character already supplies the abstract ordered comparison
+R02	shortest path must create scalar clock operator	SUPERSEDED_TOO_STRONG	O02	paths enter only after abstract depth is supplied
+R03	complete coframe solder missing	REMAINS_OPEN_CONDITIONAL	O04	metric/scalars alone do not uniquely select observer/ruler embedding
+R04	global reciprocal closure missing	SPLIT_REQUIRED	O05_O06_O07	typed path transport exists conditionally; endpoint independence and parallelism are separate extra questions
+R05	global parallel reciprocal frame required by Reciprocity	REJECTED_AS_FOUNDING_REQUIREMENT	O07	explicit local countermodel satisfies founding packet with nonzero nabla X
+R06	path groupoid is UDT physical ontology	NOT_AUTHORIZED	O05	mathematical consistency given inputs does not select physical semantics
+R07	endpoint-only complete semantics is derived	NOT_DERIVED	O06	requires depth/event/global trivialization and holonomy conditions
+R08	lambda one selected by observer Reciprocity	NOT_DERIVED	O07	lambda one follows only after the unrequired endpoint-parallel restriction on bounded controls
+R09	physical observer-pair depth/event/readout open	UNCHANGED_OPEN	O03_O04	abstract kinematics does not supply complete physical comparison data
+R10	action source carrier boundary density mass Xmax dynamics open	UNCHANGED_OPEN	DOWNSTREAM	object semantics audit supplies none of these
