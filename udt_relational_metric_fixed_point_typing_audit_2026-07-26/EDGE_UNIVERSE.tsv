@@ -1,0 +1,19 @@
+edge_id	source_object	target_object	candidate_map	question
+E01	O01+O02	O03	metric_path_geometry	derived given complete metric and typed path
+E02	FOUNDING_POSTULATES	O04	additive_reciprocal_group_coordinate	derived abstract coordinate
+E03	O02	O05	ordered_pair_covariant_lift	family or unique lift
+E04	O04+O05+O06	O07	reciprocal_dilation_comparison	composition given depth
+E05	O01+O02+O03+O13	O06	metric_to_signed_depth_assignment	missing profile and normalization
+E06	O03+O07	O08	path_loops_holonomy_and_global_completion	conditional global data
+E07	O01	O09	variation_domain_assignment	complete founded extension and varied fields
+E08	O01+O08+O09+O14	O10	metric_native_global_local_response	offshell response
+E09	O10	O11	response_zero_or_update_map	same_solution closure
+E10	O11	O01	fixed_point_realization	feedback to same complete configuration
+E11	O10	O12	inverse_variational_integration	Helmholtz boundary gauge and periods
+E12	O01+O14	O14	native_mass_density_same_solution	mass numerator and volume
+E13	O13	O05	scalar_anchor_to_direction_or_lambda	can scalars select tensor direction
+E14	O13	O06	scalar_anchor_to_dimensionless_depth_profile	calibration versus profile
+E15	O06	O10	identify_path_cocycle_with_configuration_response	are the two one-forms the same type
+E16	O07	O01	comparison_to_metric_reconstruction	is there a reverse relational reconstruction
+E17	O08	O14	topology_to_matter_source_mass	does topology alone source matter
+E18	O11+O14	O06	global_closure_selects_depth	could future same-solution closure couple depth

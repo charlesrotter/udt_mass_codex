@@ -1,0 +1,15 @@
+object_id	object_name	type_signature	locality	question
+O01	complete_configuration	C_complete	GLOBAL_CONFIGURATION	is the complete founded extension and variation domain selected
+O02	typed_pair_path_arrow	gamma:(p,u,n)->(q,v,m)	PATH_RELATIONAL	is the physical arrow supplied
+O03	metric_pair_geometry	G_gamma=(distance,tangents,U_gamma,M_gamma,holonomy)	PATH_RELATIONAL	what does a supplied metric and path derive
+O04	abstract_reciprocal_coordinate	delta_in_R	ALGEBRAIC	what is founded independently of spacetime assignment
+O05	reciprocal_lift_family	X_lambda(u,n)	POINT_RELATIONAL	is lambda and complete angular mixing selected
+O06	signed_depth_cocycle	delta:Arrows_to_R	PATH_RELATIONAL	is a metric-native normalized assignment supplied
+O07	full_pair_comparison	T_gamma=U_gamma_exp(delta_gamma_X_lambda)_with_vertical_resets	PATH_RELATIONAL	does typed composition close
+O08	angular_global_data	holonomy_module_caps_quotient_topological_sector	GLOBAL_RELATIONAL	what global compact data survives
+O09	configuration_variation	delta_X_in_T_X_C_complete	GLOBAL_OFF_SHELL	is the variation domain selected
+O10	offshell_response_one_form	alpha_X:T_X_C_complete_to_R	GLOBAL_LOCAL_OFF_SHELL	is native response supplied
+O11	same_solution_feedback	B:C_complete_to_C_complete_or_equivalent_zero_map	GLOBAL_CLOSURE	is an actual bootstrap map supplied
+O12	sectorwise_action	S:C_sector_to_R	GLOBAL_VARIATIONAL	can response be integrated
+O13	observational_anchors	c_E_G_obs	SCALAR_CALIBRATION	what can calibration select
+O14	native_matter_mass_density	M_native_rho_tot	GLOBAL_LOCAL_PHYSICAL	is numerator/source defined

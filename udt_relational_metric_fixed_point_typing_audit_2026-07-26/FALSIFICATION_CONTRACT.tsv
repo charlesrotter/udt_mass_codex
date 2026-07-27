@@ -1,0 +1,17 @@
+id	protected_claim	failure_condition	disposition
+F01	object_universe_complete	missing or duplicate O01-O14	invalidate census
+F02	edge_universe_complete	missing or duplicate E01-E18	invalidate census
+F03	founded_phi_retained	abstract reciprocal coordinate demoted to placeholder	invalidate premise use
+F04	physical_depth_not_promoted	metric-native arrow assignment claimed without source	invalidate conclusion
+F05	lambda_not_selected	groupoid composition used to select lambda	invalidate conclusion
+F06	one_form_types_distinct	path cocycle identified with configuration response without domain isomorphism	invalidate conclusion
+F07	fixed_point_requires_reverse_map	fixed point declared while E09 E10 or E16 is absent	invalidate conclusion
+F08	variation_precedes_response	response declared before complete extension and variation domain	invalidate dependency order
+F09	no_cross_branch_splice	B19 squashed WRL or Hopf capabilities combined into one witness	invalidate countermodel audit
+F10	topology_not_matter	conditional topology promoted to source mass or response	invalidate conclusion
+F11	anchors_not_tensor_selectors	c_E or G_obs used to select pair direction lambda or feedback	invalidate conclusion
+F12	bootstrap_not_existing_map	on-shell admissibility called an off-shell update operator	invalidate conclusion
+F13	independent_graph_rebuild	production graph accepted without independent reconstruction	downgrade to lead
+F14	current_scope_not_universal	registered absence promoted to universal UDT no-go	invalidate conclusion
+F15	no_action_or_density_escape	missing feedback repaired by action ansatz or density insertion	invalidate scope
+F16	repository_gates	frozen navigation tests dirty metadata or source identities change	invalidate banking
