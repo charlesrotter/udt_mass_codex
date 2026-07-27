@@ -1,0 +1,19 @@
+source_id	family	year	authors	title	stable_locator	registered_role
+S01	FOUNDATION	1916	Albert Einstein	The Foundation of the General Theory of Relativity	doi:10.1002/andp.19163540702	original metric-field formulation and covariance baseline
+S02	TWO_POINT	1931	J. L. Synge	A characteristic function in Riemannian space	MathProcCambPhilSoc_27_1_43	original world-function/characteristic-function construction
+S03	OPTICAL_RECIPROCITY	1933	I. M. H. Etherington	On the Definition of Distance in General Relativity	doi:10.1080/14786443309462220	source-observer distance reciprocity
+S04	GEODESIC_DEVIATION	1956	F. A. E. Pirani	On the physical significance of the Riemann tensor	ActaPhysPol_15_389	geodesic-deviation operational reading of curvature
+S05	HOLONOMY	1953	W. Ambrose; I. M. Singer	A theorem on holonomy	doi:10.1090/S0002-9947-1953-0063739-1	curvature-holonomy relation and invariant reductions
+S06	NULL_OPTICS	1961	R. K. Sachs	Gravitational waves in general relativity VI. The outgoing radiation condition	doi:10.1098/rspa.1961.0202	null congruence optical/Jacobi transport
+S07	CONSTRUCTIVE_AXIOMATICS	1972	J. Ehlers; F. A. E. Pirani; A. Schild	The geometry of free fall and light propagation	doi:10.1007/s10714-012-1353-4	operational conformal/projective/metric reconstruction
+S08	CAUSAL_RECONSTRUCTION	1977	David Malament	The class of continuous timelike curves determines the topology of spacetime	doi:10.1063/1.523436	causal relation reconstruction scope
+S09	GLOBAL_CAUCHY	1969	Yvonne Choquet-Bruhat; Robert Geroch	Global aspects of the Cauchy problem in general relativity	doi:10.1007/BF01645389	dynamics plus initial-data/global-development layer
+S10	HOLONOMY_PATH	1991	John W. Barrett	Holonomy and path structures in general relativity and Yang-Mills theory	doi:10.1007/BF00671007	path/holonomy reconstruction architecture
+S11	RELATIONAL_OBSERVABLES	1991	Carlo Rovelli	What is observable in classical and quantum gravity?	doi:10.1088/0264-9381/8/2/011	relational/partial-observable architecture
+S12	TWO_POINT_ASTROMETRY	2007	Christophe Le Poncin-Lafitte; Pierre Teyssandier	Relativistic astrometry and Synge's world function	arxiv:astro-ph/0610462	two-point observer readout using world function
+S13	TIME_FREQUENCY_TRANSFER	2008	Pierre Teyssandier; Christophe Le Poncin-Lafitte	A universal tool for determining the time delay and frequency shift of light: Synge's world function	arxiv:0711.0034	time/frequency comparison and domain inputs
+S14	PARALLEL_TRANSPORT_FUNCTOR	2009	Urs Schreiber; Konrad Waldorf	Parallel transport and functors	arxiv:0705.0452	path-groupoid/functor equivalence architecture
+S15	OBSERVER_SPACE	2013	Steffen Gielen; Derek K. Wise	Lifting General Relativity to Observer Space	arxiv:1210.0019	observer-space foundation and spacetime-recovery conditions
+S16	OBSERVER_REDUCTION	2013	Derek K. Wise	Geometrodynamics and Lorentz symmetry	arxiv:1310.1088	observer field as Lorentz-group reduction without preferred global physics
+S17	COMPLETE_OBSERVABLES	2006	Bianca Dittrich	Partial and complete observables for canonical general relativity	arxiv:gr-qc/0507106	gauge-invariant relational observable construction
+S18	GLOBAL_CAUSAL	2003	Antonio N. Bernal; Miguel Sanchez	On smooth Cauchy hypersurfaces and Geroch's splitting theorem	arxiv:gr-qc/0306108	global-hyperbolic splitting hypotheses

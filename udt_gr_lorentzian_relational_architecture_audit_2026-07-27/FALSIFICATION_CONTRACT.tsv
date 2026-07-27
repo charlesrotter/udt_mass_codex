@@ -1,0 +1,15 @@
+gate_id	claim_id	pass_condition	failure_condition	maximum_status
+G01	H01	primary sources distinguish orthonormal-frame gauge from metric data	metric alone canonically selects a complete tetrad generically	VERIFIED_SCOPED
+G02	H02	separated comparison is explicitly curve/path and connection dependent	generic curved comparison is canonical endpoint-only	VERIFIED_SCOPED
+G03	H03	curvature/holonomy controls path dependence and invariant subspaces	holonomy is irrelevant to frame comparison or always trivial	VERIFIED_SCOPED
+G04	H04	world-function claims expose uniqueness/domain restrictions	world function is globally single-valued through arbitrary cut/conjugate loci	VERIFIED_SCOPED
+G05	H05	null optics and reciprocity expose observer/path/congruence hypotheses	reciprocity supplies a path-free universal frame law	VERIFIED_SCOPED
+G06	H06	constructive spacetime layers list operational primitives and compatibilities	metric structure follows without the registered primitives	VERIFIED_SCOPED
+G07	H07	observer-space spacetime recovery has integrability/quotient gates	spacetime recovery is automatic for arbitrary observer space	VERIFIED_SCOPED
+G08	H08	bundle/connection formalism is complete without a preferred section in stated scope	a preferred global section is required for all physical comparison	VERIFIED_SCOPED
+G09	H09	field equations plus data select metric equivalence classes not canonical tetrads	generic dynamics canonically fixes tetrad gauge	VERIFIED_SCOPED
+G10	H10	UDT crosswalk preserves current status and produces only a typed derive-or-fail lead	GR structure is adopted as UDT authority or any open object is promoted	LEAD_ONLY
+G11	ALL	all primary claims have stable locators and exact source-scoped wording	secondary summary is used as sole authority for a load-bearing claim	FAIL_AUDIT
+G12	ALL	all architecture rows keep metric observer path connection gauge global dynamics separate	inputs are collapsed into an unqualified GR analogy	FAIL_AUDIT
+G13	ALL	independent adversary reconstructs claims and exercises anti-import mutations	verifier reads final verdict first or shares production result table	FAIL_AUDIT
+G14	ALL	repository and premise gates retain baseline and dirty metadata only	unrelated dirty path changes or premise regression	FAIL_AUDIT
