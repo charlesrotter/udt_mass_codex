@@ -1,0 +1,5 @@
+{
+  "result": "PASS",
+  "rows": 18,
+  "schema": "udt.selector_rank.sources.v1"
+}

@@ -1,0 +1,59 @@
+{
+  "bootstrap_return_map_available": false,
+  "branchwise_orbit_volume_available": true,
+  "cG_density_solution": [],
+  "cG_length_solution": [],
+  "explicit_weighted_mean_zero_control": {
+    "perturbation": [
+      "w_2",
+      "-w_1"
+    ],
+    "weighted_derivative": "0"
+  },
+  "finite_differentiable_scalar_family_derivative_has_infinite_kernel": true,
+  "finite_scalar_derivative_kernel_proof": "m_by_m_plus_1_disjoint_bump_matrix_has_nonzero_null_vector_repeated_on_disjoint_groups",
+  "independent_profile_selector_rank_from_active_premises": 0,
+  "maximum_interpretation": "same_branch_output_and_rank_classification_no_physical_selection",
+  "native_mass_available": false,
+  "normalized_volume_first_variation": "2*delta_lambda*phi + 2*delta_phi*lambda + delta_phi + 3*delta_R/R",
+  "quotient_determinant": "R**6*exp(2*phi)*exp(4*lambda*phi)",
+  "quotient_metric_basis": [
+    [
+      "R**2*exp(2*lambda*phi)",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "R**2*exp(2*lambda*phi)",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "R**2*exp(2*phi)"
+    ]
+  ],
+  "quotient_metric_shift_a_cancels": true,
+  "quotient_volume_density": "R**3*exp(phi*(2*lambda + 1))",
+  "residual_phi_function_space": "INFINITE_DIMENSIONAL_OPEN_NEIGHBORHOOD",
+  "same_solution_density_executable": false,
+  "schema": "udt.metric_native_selector_rank.derivation.v1",
+  "slice_to_quotient_volume_ratio_squared": "-(-R*exp(2*phi) + a)*(R*exp(2*phi) + a)*exp(-4*phi)/R**2",
+  "stationary_connection_basis_dt_sigma1_sigma2_sigma3": [
+    "1",
+    "0",
+    "0",
+    "a/c_E"
+  ],
+  "stationary_connection_curvature_sigma1_wedge_sigma2": "a*kappa/c_E",
+  "t_constant_slice_determinant": "-R**4*(-R*exp(2*phi) + a)*(R*exp(2*phi) + a)*exp(-2*phi)*exp(4*lambda*phi)",
+  "unique_K_witness_conditions_are_open_nonzero_conditions": true,
+  "volume_phi_derivative_rank_generic": 1,
+  "volume_phi_derivative_rank_lambda_minus_half": 0,
+  "volume_phi_response_at_lambda_minus_half": "0",
+  "witness_a_kappa": "-1/5",
+  "witness_phi_gradient_squared": "7/80000",
+  "witness_rank_determinant": "330801319823081673814309577/159252480000000000000000000000",
+  "working_Xmax_identified_with_quotient_diameter": false
+}

@@ -1,0 +1,12 @@
+{
+  "active_profile_selector_rank": 0,
+  "bootstrap_return_map_derived": false,
+  "catch_proofs": "24/24",
+  "constraints": "14_PLUS_TOTAL",
+  "independent": "PASS_STDLIB_FRACTION",
+  "orbit_geometry": "PASS",
+  "physical_profile_selected": false,
+  "schema": "udt.metric_native_selector_rank.verification.v1",
+  "selectors": "16/16",
+  "status": "PASS"
+}

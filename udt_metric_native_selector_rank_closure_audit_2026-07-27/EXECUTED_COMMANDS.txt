@@ -1,0 +1,9 @@
+python3 --version
+python3 -c "import platform,sympy; print(platform.platform()); print(sympy.__version__)"
+python3 udt_metric_native_selector_rank_closure_audit_2026-07-27/derive_selector_rank.py
+python3 udt_metric_native_selector_rank_closure_audit_2026-07-27/verify_selector_rank_independent.py
+python3 udt_metric_native_selector_rank_closure_audit_2026-07-27/verify_source_manifest.py
+python3 udt_metric_native_selector_rank_closure_audit_2026-07-27/verify_audit.py
+python3 udt_metric_native_selector_rank_closure_audit_2026-07-27/build_manifest.py
+python3 udt_metric_native_selector_rank_closure_audit_2026-07-27/verify_repository_gates.py
+python3 -m pytest -q tests/

@@ -1,0 +1,8 @@
+{
+  "cpu_only": true,
+  "cuda_used": false,
+  "head_at_calculation": "8b295c7",
+  "os": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "sympy": "1.13.1"
+}

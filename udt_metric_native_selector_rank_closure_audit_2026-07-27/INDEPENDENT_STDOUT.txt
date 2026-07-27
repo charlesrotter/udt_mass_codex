@@ -1,0 +1,86 @@
+{
+  "dimensional_controls": {
+    "density_candidate_from_M_T": {
+      "actual_L": -1,
+      "alpha": 2,
+      "beta": -1,
+      "required_L": -3
+    },
+    "length_candidate_from_M_T": {
+      "actual_L": 0,
+      "alpha": 0,
+      "beta": 0,
+      "required_L": 1
+    }
+  },
+  "generic_volume_phi_coefficient": "7/3",
+  "lambda_minus_half_phi_coefficient": "0",
+  "method": "stdlib_Fraction_Schur_complement_dimension_and_kernel_controls",
+  "primary_semantic_promotions_accepted": false,
+  "quotient_shift_cancellation_controls": [
+    {
+      "a": "0",
+      "quotient_diagonal": [
+        "845",
+        "845",
+        "507"
+      ],
+      "slice_to_quotient_det_ratio": "1"
+    },
+    {
+      "a": "2/5",
+      "quotient_diagonal": [
+        "845",
+        "845",
+        "507"
+      ],
+      "slice_to_quotient_det_ratio": "12667/12675"
+    },
+    {
+      "a": "11",
+      "quotient_diagonal": [
+        "845",
+        "845",
+        "507"
+      ],
+      "slice_to_quotient_det_ratio": "265/507"
+    }
+  ],
+  "schema": "udt.metric_native_selector_rank.independent.v1",
+  "status": "PASS",
+  "weighted_kernel_controls": [
+    {
+      "derivative": "0",
+      "perturbation": [
+        "3",
+        "-2"
+      ],
+      "weights": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "derivative": "0",
+      "perturbation": [
+        "7",
+        "-5"
+      ],
+      "weights": [
+        "5",
+        "7"
+      ]
+    },
+    {
+      "derivative": "0",
+      "perturbation": [
+        "13",
+        "-11"
+      ],
+      "weights": [
+        "11",
+        "13"
+      ]
+    }
+  ]
+}
