@@ -1,0 +1,15 @@
+gate_id	claim_or_risk	pass_condition	failure_condition	maximum_status
+G01	fixed_metric_frame_equivalence	Exact coframe transformations leave the same metric while metric-changing extension tangents are separated	Seven metric-changing directions are called frame gauge	VERIFIED_SCOPED
+G02	seven_direction_classification	All seven registered tangents are independently tested against delta-g rank and equivalence action	Any direction is promoted to representative freedom by analogy	VERIFIED_SCOPED
+G03	metric_canonical_connection	Levi-Civita existence/uniqueness is labeled mathematical and its physical UDT use remains separately gated	Mathematical uniqueness is promoted to physical observer law	VERIFIED_SCOPED
+G04	path_domain	All-path and geodesic/path-branch candidates remain distinct and composition is checked	A geodesic or minimizing path is silently selected	VERIFIED_SCOPED
+G05	transport_covariance	Connection and transport transformations compose exactly under representative changes	A representative-dependent connection coefficient is called physical	VERIFIED_SCOPED
+G06	reciprocal_fiber_descent	Globalization requires explicit preservation/conjugacy and transition cocycles	A local generator is assumed to define a global subbundle	VERIFIED_SCOPED
+G07	centralizer_reduction	Stabilizer/centralizer data are distinguished from an actual global reduction section	Existence of a subgroup is called a selected reduction	VERIFIED_SCOPED
+G08	holonomy	Full and reduced holonomy consequences are classified without assuming path independence	Curved transport is treated as endpoint-only	VERIFIED_SCOPED
+G09	finite_cell	Seal and finite-cell transitions are audited without inventing gluing	Boundary topology is used as an unregistered transition law	VERIFIED_SCOPED
+G10	physical_role	Every mathematical layer carries a separate physical-role status	Availability is promoted to physical realization	VERIFIED_SCOPED
+G11	open_objects	Observer ontology complete section variation action carrier bootstrap Xmax source boundary mass dynamics remain at registered levels	Any open object is promoted	FAIL_AUDIT
+G12	independence	Separate implementation reconstructs ranks covariance composition centralizers and catches	Verifier reads only final verdict or shares production outputs	VERIFIED_WITH_CAVEATS_CEILING
+G13	completeness	All 24 candidates and all ten layers receive outcomes	Positive witnesses are reported without negative/conditional branches	FAIL_AUDIT
+G14	repository	Premises tests frozen packages navigation and dirty metadata retain baseline	Unrelated or frozen state changes	FAIL_AUDIT

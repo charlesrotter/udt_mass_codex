@@ -1,0 +1,25 @@
+candidate_id	candidate	construction_layer	input_status	question
+C01	manifold_event_base	EVENT_BASE	SUPPLIED_BY_METRIC_DOMAIN	Are events canonical base objects independent of observer interpretation?
+C02	time_oriented_unit_timelike_bundle	OBSERVER_BASE	METRIC_PLUS_UNSELECTED_ORIENTATION	Does this supply mathematical observer directions but not physical owners?
+C03	owner_frame_or_worldline_base	OBSERVER_BASE	OPEN_PHYSICAL_ASSIGNMENT	Does current UDT select owners or worldlines beyond timelike candidates?
+C04	full_piecewise_smooth_path_groupoid	ARROW_DOMAIN	MATHEMATICALLY_AVAILABLE	Does the complete path family compose without being physically selected?
+C05	geodesic_path_family	ARROW_DOMAIN	METRIC_CANONICAL_GIVEN_CONNECTION_AND_ENDPOINT_BRANCH	Is geodesic restriction unique globally or only branch/set-valued?
+C06	owner_projector_or_common_path_family	ARROW_DOMAIN	PRIOR_CONDITIONAL	Does prior UDT structure select a physical comparison domain?
+C07	general_linear_frame_bundle	FRAME_BUNDLE	MANIFOLD_CANONICAL	What is presentation freedom before a metric reduction?
+C08	orthonormal_coframe_bundle	FRAME_BUNDLE	METRIC_CANONICAL	Does fixed-metric local Lorentz freedom leave the metric invariant?
+C09	founded_reciprocal_rank_two_fiber	RECIPROCAL_FIBER	UDT_DERIVED_LOCALLY	Does the founded pair globalize under the complete transition group?
+C10	seven_parameter_complete_extension_class	RECIPROCAL_FIBER	DERIVED_CLASSIFICATION_SELECTION_OPEN	Which directions are representative freedom versus inequivalent metric data?
+C11	coordinate_pullback_equivalence	TRANSITION_EQUIVALENCE	METRIC_PRESENTATION_CANONICAL	Does diffeomorphic presentation preserve the geometric metric while leaving physical quotient scope open?
+C12	local_Lorentz_coframe_equivalence	TRANSITION_EQUIVALENCE	FIXED_METRIC_CANONICAL	Can this equivalence act on the founded pair without selecting an extension?
+C13	reciprocal_swap_involution	TRANSITION_EQUIVALENCE	FOUNDED_SCOPED_SYMMETRY	Does the discrete swap define a global transition or only a supplied involution?
+C14	generator_conjugacy_orbit	TRANSITION_EQUIVALENCE	CONDITIONAL_ON_STRUCTURE_GROUP	Is conjugation covariance enough for an associated orbit bundle?
+C15	generator_centralizer_reduction	TRANSITION_EQUIVALENCE	CONDITIONAL_ON_GLOBAL_REDUCTION	Does a stabilizer define a possible reduced bundle without deriving its section?
+C16	Levi_Civita_connection	CONNECTION_TRANSPORT	METRIC_CANONICAL_MATHEMATICS	Is the unique torsion-free metric-compatible connection mathematical structure but physical role open?
+C17	coframe_spin_connection	CONNECTION_TRANSPORT	FIXED_METRIC_REPRESENTATIVE_DEPENDENT	Does it transform covariantly under coframe changes and add no selector?
+C18	conditional_reciprocal_functor	CONNECTION_TRANSPORT	PRIOR_CONDITIONAL	Does existing composition become physical without a derived path/reduction?
+C19	full_holonomy_action	HOLONOMY_DESCENT	METRIC_CONNECTION_CONDITIONAL_PHYSICAL_ROLE	Does generic holonomy preserve only scalar/central data rather than the founded generator?
+C20	reduced_holonomy_subbundles	HOLONOMY_DESCENT	CONDITIONAL_ON_INVARIANT_REDUCTION	Which reductions are constructive possibilities and which are selected?
+C21	finite_cell_seal_transition	HOLONOMY_DESCENT	PRIOR_OPEN_OR_CONDITIONAL	Does finite-cell structure close descent or leave transition data open?
+C22	global_reciprocal_section	ADMISSIBLE_SECTIONS	OPEN	Does current UDT derive an everywhere admissible complete extension section?
+C23	section_class_mod_derived_equivalence	ADMISSIBLE_SECTIONS	TO_BE_CLASSIFIED	Can a quotient be formed without inventing a physical selector?
+C24	physical_variation_domain	PHYSICAL_VARIATION_DOMAIN	OPEN	Does any mathematical bundle layer decide which variables vary physically?

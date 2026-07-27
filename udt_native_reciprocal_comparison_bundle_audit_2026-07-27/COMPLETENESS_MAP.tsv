@@ -1,0 +1,11 @@
+layer_id	layer	candidate_ids	not_covered_by_this_layer
+L01	EVENT_BASE	C01	physical event ontology or global topology selection
+L02	OBSERVER_BASE	C02;C03	physical observer assignment and accelerated/worldline dynamics
+L03	ARROW_DOMAIN	C04;C05;C06	physical signal ontology or preferred path family
+L04	FRAME_BUNDLE	C07;C08	complete UDT extension selection
+L05	RECIPROCAL_FIBER	C09;C10	global reduction and realized profile
+L06	TRANSITION_EQUIVALENCE	C11;C12;C13;C14;C15	physical quotient unless UDT derives it
+L07	CONNECTION_TRANSPORT	C16;C17;C18	physical comparison rule and observer mechanics
+L08	HOLONOMY_DESCENT	C19;C20;C21	global finite-cell completion and boundary law
+L09	ADMISSIBLE_SECTIONS	C22;C23	preferred/realized section
+L10	PHYSICAL_VARIATION_DOMAIN	C24	action source carrier boundary bootstrap mass dynamics

@@ -1,0 +1,20 @@
+premise_id	object	provenance_tag	registered_status	use
+P01	UDT_metric_is_the_theory	pinned-by-THEORY	BINDING	controls derivation
+P02	phi_additive_log_depth	pinned-by-THEORY	DERIVED	active foundation
+P03	reciprocal_pair_action_diag_exp_minus_plus_phi	pinned-by-THEORY	DERIVED	active foundation
+P04	complete_extension_class	pinned-by-THEORY	DERIVED_CLASSIFICATION_SELECTION_OPEN	full candidate arena
+P05	observer_event_path_assignment	free-and-explored	OPEN	must not be silently selected
+P06	time_orientation	free-and-explored	NOT_REGISTERED_AS_UNIVERSAL_PHYSICAL_CHOICE	conditional mathematical branch
+P07	piecewise_smooth_paths	pinned-by-MATHEMATICAL_DEFINITION	ALL_PATHS_CONTROL	comparison arena not physical selection
+P08	geodesic_paths	pinned-by-HABIT	NOT_PHYSICALLY_SELECTED	must remain candidate only
+P09	metric_compatible_torsion_free_connection	pinned-by-MATHEMATICAL_DEFINITION	LEVI_CIVITA_CANDIDATE	canonical mathematics not automatically physical law
+P10	local_Lorentz_equivalence	pinned-by-MATHEMATICAL_DEFINITION	FIXED_METRIC_FRAME_EQUIVALENCE	cannot gauge metric-changing extensions
+P11	global_reciprocal_reduction	free-and-explored	OPEN	derive or fail
+P12	physical_comparison_functor	free-and-explored	OPEN	derive or fail
+P13	strong_local_CSN	pinned-by-THEORY	INACTIVE_CHALLENGED_NOT_DERIVED	excluded
+P14	c_E_and_G_obs	pinned-by-THEORY	OBSERVED_ANCHORS_RETAINED	status preserved numerically unused
+P15	S2_carrier	pinned-by-THEORY	POSIT	excluded downstream object
+P16	bootstrap	pinned-by-THEORY	WORKING_ON_SHELL_ADMISSIBILITY	excluded as selector
+P17	Xmax	pinned-by-THEORY	WORKING_GLOBAL_OBSERVER_PAIR_SCHEMA	status only
+P18	action_source_boundary_mass_dynamics	free-and-explored	OPEN	excluded downstream objects
+P19	GR_field_equations_observer_mechanics_signal_ontology	pinned-by-HABIT	EXCLUDED_FROM_AFFIRMATIVE_UDT_ROLE	comparison/counterexample only
