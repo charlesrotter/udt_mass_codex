@@ -1,0 +1,53 @@
+## Verdict
+
+**VERIFIED-WITH-CAVEATS for a narrower maximum claim; REFUTED as a fail-closed/self-certifying package.**
+
+The core bounded scientific result survives. The package’s literal maximum is not fully warranted because it calls the conditional holonomy solutions “sections” while the extension bundle and descent law remain open. They are uniquely forced **pointwise full-chart generators/members**, not yet global sections.
+
+### Exact maximum warranted claim
+
+> Within the twelve preregistered candidate families and fifteen frozen source records, no candidate is evidenced to supply an active UDT-authoritative, local-Lorentz-equivariant complete-extension section. In the registered seven-parameter positive-triangular pointwise generator class, supplied `SO(3)` or `SO+(1,2)` centralizer conditions uniquely force the `+1` or `-1` diagonal member. The supplied reciprocal swap is non-Lorentz; it fixes `lambda=0` only in the additional diagonal subfamily and leaves two mixing freedoms in the full class. Candidate constructions outside the frozen universe, the global equivariant extension bundle and transition law, admissible sections, physical variation domain, response, action, and matter remain open.
+
+## Confirmed results
+
+- Exact ranks reproduced: extension tangent `7`; determinant `1`; transverse `3`; mixing `4`; joint spectator `7`; Lorentz commutant rank/dimension `15/1`.
+- Full seven-parameter systems reproduced:
+  - screen `SO(2)`: one-dimensional diagonal family;
+  - spatial `SO(3)`: unique `(0,0,0,0,+1,0,+1)`;
+  - `SO+(1,2)`: unique `(0,0,0,0,-1,0,-1)`;
+  - base boost and full Lorentz: inconsistent;
+  - reciprocal-odd twist: two-dimensional mixing remainder and non-Lorentz.
+- Ricci correction is valid: the control is `eta`-self-adjoint with characteristic polynomial `(z²+1)(z−2)(z−3)`. Thus simple Lorentz-self-adjoint spectrum need not give four real eigenlines. The three-pairing statement is valid only on the real orthogonally diagonalizable Segre `{1,111}` stratum.
+- Matrix is exactly `12×16=192` unique cells. All outcome labels are preregistered; counts are `6 AVAILABLE_CONDITIONAL`, `4 SET_VALUED_ONLY`, `2 PARTIAL_CONSTRAINT`, `0 SELECTED_DERIVED`.
+- All 15 current manifest records match their SHA-256, byte count, working-tree Git blob, and `HEAD` blob. Their normalized paths are currently unique, non-symlink repository paths.
+- Static read inspection found no root-source reads outside manifest-resolved paths; package-local inputs and reports are also read.
+- All 22 recorded catch-proofs were rerun and rejected their stated mutations.
+- Current premise verifier passed: `16 premise guards, 9 startup controls, 754 candidate dispositions`.
+- Reports now preserve the twelve-family boundary, Ricci scope, non-Lorentz twist, unbounded `S05/D14` remainder, and derive-or-fail bundle ordering.
+
+## Blocking certification defects
+
+Before banking the package’s claimed verifier/independence grade:
+
+- The independent outcome classification remains hard-coded by candidate groups in [verify_metric_natural_selector_independent.py](/tmp/udt_phi_ontology_XvSL3D/repo/udt_metric_natural_complete_extension_selector_audit_2026-07-27/verify_metric_natural_selector_independent.py:276). Its algebra is independently reconstructed; its twelve semantic outcomes are not.
+- Its projector flags are asserted, and its seal check compares an identity matrix with itself. The corresponding production algebra is valid, but the independent checks are overstated.
+- Six stronger mutations escaped [verify_audit.py](/tmp/udt_phi_ontology_XvSL3D/repo/udt_metric_natural_complete_extension_selector_audit_2026-07-27/verify_audit.py:60):
+  - arbitrary bogus `PASS_*` gate status;
+  - coordinated agreed bogus outcome swap preserving counts;
+  - normalized duplicate manifest path (`LIVE.md`/`./LIVE.md`);
+  - coordinated candidate-family relabel;
+  - arbitrary unchecked premise status;
+  - downstream action/mass overclaim injected into reports.
+- Matrix statuses and outcomes are production constants, while source verification is mostly token presence. Therefore the claim that every cell and outcome was independently derived from source evidence is too strong.
+- Replace “holonomy conditionally forces … section” with “conditionally forces a pointwise full-chart generator/member” unless bundle existence and descent are separately derived.
+
+## Nonblocking caveats
+
+- This is not candidate exhaustion: higher jets, combined tensors, global functionals, and unknown constructions remain unclassified.
+- The holonomy calculation covers the supplied algebras, not every proper Lorentz subgroup.
+- The global extension bundle, transition law, admissible sections, and physical variation domain remain genuinely open; the reports’ derive-or-fail next step is appropriate.
+- Rerun environment was Python `3.10.12`, SymPy `1.13.1`, while `requirements.txt` pins `1.14.0`; exact saved results still matched.
+- Network was forbidden, so remote freshness and historical push timing were not independently confirmed. Local `grok` is `d2c1efb`, with unchanged tracked preregistration files.
+- No full repository test suite was run because it exceeded the authorized source boundary. No files were edited, and no GPU or network work occurred.
+
+Principal checks run included `git status/log/show/diff`; the 15-record `sha256sum`/byte/Git-blob loop; in-memory `exact_controls()`, Fraction rank/holonomy/Ricci reconstruction, matrix/vocabulary/count checks, manifest verification, all 22 recorded mutations plus six stronger mutations; static `rg` read-path inspection; and `python3 verify_current_scientific_premises.py`.

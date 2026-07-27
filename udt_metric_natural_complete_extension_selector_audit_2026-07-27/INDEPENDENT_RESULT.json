@@ -1,0 +1,168 @@
+{
+  "candidate_count": 12,
+  "extension_ranks": {
+    "determinant": 1,
+    "joint": 7,
+    "mixing": 4,
+    "physical": 7,
+    "transverse": 3
+  },
+  "full_extension_holonomy": {
+    "base_boost": {
+      "consistent": false,
+      "dimension": null,
+      "rank": 4
+    },
+    "full_lorentz": {
+      "consistent": false,
+      "dimension": null,
+      "rank": 7
+    },
+    "lorentz_SOplus12": {
+      "consistent": true,
+      "dimension": 0,
+      "null_basis": [],
+      "particular": [
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        -1
+      ],
+      "rank": 7
+    },
+    "screen_SO2": {
+      "consistent": true,
+      "dimension": 1,
+      "null_basis": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      "particular": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rank": 6
+    },
+    "spatial_SO3": {
+      "consistent": true,
+      "dimension": 0,
+      "null_basis": [],
+      "particular": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "rank": 7
+    },
+    "twisted_reciprocal_swap_odd": {
+      "consistent": true,
+      "dimension": 2,
+      "null_basis": [
+        [
+          -1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "particular": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rank": 5
+    }
+  },
+  "gate_count": 16,
+  "hex_shortest_count": 3,
+  "hex_shortest_lines": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "independent_matrix_cell_count": 192,
+  "independent_matrix_sha256": "ec55c57925ad7f72fb75fbbbddaea47a12c46cd6d6049706aa5b66dd20fe0fd3",
+  "lorentz_commutant_dimension": 1,
+  "lorentz_commutant_rank": 15,
+  "native_selected_count": 0,
+  "nonnull_projector_idempotent": true,
+  "null_projector_undefined": true,
+  "outcome_counts": {
+    "AVAILABLE_CONDITIONAL": 6,
+    "PARTIAL_CONSTRAINT": 2,
+    "SET_VALUED_ONLY": 4
+  },
+  "reciprocal_swap_is_lorentz": false,
+  "ricci_scope_control": {
+    "charpoly_descending": [
+      1,
+      -5,
+      7,
+      -5,
+      6
+    ],
+    "complex_block_discriminant": -4,
+    "eta_self_adjoint": true,
+    "has_nonreal_simple_pair": true,
+    "real_Segre_1_111_clock_spatial_pairings": 3
+  },
+  "round_shortest_count": 2,
+  "round_shortest_lines": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "seal_identity_independent_of_generator": true,
+  "source_manifest_count": 15,
+  "verdict": "INDEPENDENT_RECONSTRUCTION_PASS",
+  "zero_bivector_operator_eigenspace_dimension": 6
+}

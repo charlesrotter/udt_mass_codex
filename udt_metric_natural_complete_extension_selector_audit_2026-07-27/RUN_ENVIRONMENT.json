@@ -1,0 +1,62 @@
+{
+  "compute": "CPU_ONLY",
+  "cuda_visible_devices": "",
+  "dependency_specification": "requirements.txt: sympy==1.14.0",
+  "exact_algebra_sha256": "720e24dad2d613f0c2ddf18c4651e752c87b79a1eb41f07b5300d9e12e632d39",
+  "executable": "/usr/bin/python3",
+  "executions": {
+    "derivation": {
+      "command": [
+        "/usr/bin/python3",
+        "-S",
+        "/tmp/udt_phi_ontology_XvSL3D/repo/udt_metric_natural_complete_extension_selector_audit_2026-07-27/derive_metric_natural_selector.py"
+      ],
+      "exit_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 5050,
+      "stdout_sha256": "cceb12f751de51b58ec354f3e5f51a068c72a135f61b6274250995af6fe5437b"
+    },
+    "independent": {
+      "command": [
+        "/usr/bin/python3",
+        "-S",
+        "/tmp/udt_phi_ontology_XvSL3D/repo/udt_metric_natural_complete_extension_selector_audit_2026-07-27/verify_metric_natural_selector_independent.py"
+      ],
+      "exit_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 2840,
+      "stdout_sha256": "784be343ca1515b66627ebace969a6de0e0f13a613075bec3fa26ee3ba57cc64"
+    },
+    "verification": {
+      "command": [
+        "/usr/bin/python3",
+        "-S",
+        "/tmp/udt_phi_ontology_XvSL3D/repo/udt_metric_natural_complete_extension_selector_audit_2026-07-27/verify_audit.py"
+      ],
+      "exit_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 252,
+      "stdout_sha256": "63e66a1c68b740fafff0331dc4d2fa5cf4c0445f1d276d601ad54fa471f85e91"
+    }
+  },
+  "external_review_sessions": [
+    "019fa59c-947a-7290-8a9f-0c7bcf05da27",
+    "019fa5aa-8dcb-72d3-b48a-56870842a3bf",
+    "019fa5b7-cdbc-7271-b312-c5edceffb96a",
+    "019fa5c3-00e1-79f3-95b0-9ec5ee31d49b"
+  ],
+  "implementation": "CPython",
+  "installation_command": "python3 -m pip install --target /tmp/udt_metric_selector_sympy_114 sympy==1.14.0",
+  "pinned_target": "/tmp/udt_metric_selector_sympy_114",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "preregistration_commit": "d2c1efbb1870b0d8da7bbe5b713603c0e3ebf622",
+  "python": "3.10.12",
+  "result": "PASS",
+  "schema": "udt-metric-natural-selector-clean-environment-1.0",
+  "site_packages": "DISABLED_WITH_-S",
+  "sympy": "1.14.0",
+  "sympy_path": "/tmp/udt_metric_selector_sympy_114/sympy/__init__.py"
+}

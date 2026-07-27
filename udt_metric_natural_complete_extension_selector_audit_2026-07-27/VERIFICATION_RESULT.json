@@ -1,0 +1,10 @@
+{
+  "candidate_count": 12,
+  "candidate_outcome_agreement_count": 12,
+  "catch_proofs_passed": 33,
+  "gate_count": 16,
+  "matrix_cell_count": 192,
+  "native_selected_count": 0,
+  "source_manifest_count": 15,
+  "verdict": "PASS_VERIFIED_WITH_CAVEATS"
+}

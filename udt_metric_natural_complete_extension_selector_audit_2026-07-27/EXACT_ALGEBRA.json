@@ -1,0 +1,126 @@
+{
+  "determinant_one_constraint_rank": 1,
+  "extension_physical_tangent_rank": 7,
+  "full_extension_holonomy_solutions": {
+    "base_boost_L01": [],
+    "full_lorentz": [],
+    "lorentz_SOplus12_L02_L03_L23": [
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1",
+        "0",
+        "-1"
+      ]
+    ],
+    "screen_SO2_L23": [
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "k11",
+        "0",
+        "k11"
+      ]
+    ],
+    "spatial_SO3_L12_L13_L23": [
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "1"
+      ]
+    ],
+    "twisted_reciprocal_swap_odd": [
+      [
+        "-c01",
+        "c01",
+        "-c11",
+        "c11",
+        "0",
+        "0",
+        "0"
+      ]
+    ]
+  },
+  "full_extension_variable_order": [
+    "c00",
+    "c01",
+    "c10",
+    "c11",
+    "k00",
+    "k10",
+    "k11"
+  ],
+  "full_lorentz_commutant_constraint_rank": 15,
+  "full_lorentz_commutant_dimension": 1,
+  "hexagonal_torus_shortest_unoriented_lines": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "holonomy_lambda_solutions": {
+    "base_boost_L01": [],
+    "boost_mix_L02": [
+      "-1"
+    ],
+    "boost_mix_L03": [
+      "-1"
+    ],
+    "screen_rotation_L23": [
+      "ALL"
+    ],
+    "spatial_mix_L12": [
+      "1"
+    ],
+    "spatial_mix_L13": [
+      "1"
+    ]
+  },
+  "joint_spectator_constraint_rank": 7,
+  "no_mixing_constraint_rank": 4,
+  "nonnull_projector_idempotent": true,
+  "null_projector_undefined": true,
+  "reciprocal_swap_is_lorentz": false,
+  "reciprocal_swap_odd_lambda_solutions": [
+    "0"
+  ],
+  "repeated_ricci_pairing_status": "UNSELECTED_CONTINUUM",
+  "ricci_complex_control_charpoly": "(lambda - 3)*(lambda - 2)*(lambda**2 + 1)",
+  "ricci_complex_control_eigenvalues": [
+    "-I",
+    "2",
+    "3",
+    "I"
+  ],
+  "ricci_complex_control_is_eta_self_adjoint": true,
+  "round_torus_shortest_unoriented_lines": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "seal_exp_zero_is_identity_for_all_extensions": true,
+  "simple_ricci_clock_spatial_pairings_on_real_Segre_1_111_stratum": 3,
+  "transverse_metric_constraint_rank": 3,
+  "zero_weyl_or_riemann_bivector_eigenspace_dimension": 6
+}

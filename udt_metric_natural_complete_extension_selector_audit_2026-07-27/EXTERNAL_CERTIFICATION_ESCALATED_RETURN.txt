@@ -1,0 +1,62 @@
+## Verdict
+
+**VERIFIED-WITH-CAVEATS; bankable after the outer integrity step, but not yet banked in the current checkout.**
+
+F15 is satisfied as written:
+
+- 192/192 unique production cells;
+- separately emitted standard-library matrix;
+- byte-for-byte equality;
+- SHA-256 `ec55c57925ad7f72fb75fbbbddaea47a12c46cd6d6049706aa5b66dd20fe0fd3`;
+- twelve outcome agreements and zero `SELECTED_DERIVED`.
+
+The package remains untracked, so it must first be committed, fully package-manifested, and identified by a trusted commit hash before its final banking claim is true.
+
+## Maximum warranted claim
+
+```text
+TWELVE_PREREGISTERED_CANDIDATE_FAMILY_BOUNDARY;
+NO_ACTIVE_UDT_AUTHORITATIVE_LOCAL_LORENTZ_EQUIVARIANT_COMPLETE_EXTENSION_SECTION_EVIDENCED;
+SUPPLIED_REDUCED_HOLONOMY_CONDITIONALLY_FORCES_POINTWISE_FULL_CHART_PLUS_OR_MINUS_MEMBER;
+NON_LORENTZ_TWISTED_ZERO_REMAINS_PARTIAL_IN_FULL_CLASS;
+GLOBAL_BUNDLE_TRANSITION_LAW_ADMISSIBLE_SECTIONS_AND_PHYSICAL_VARIATION_DOMAIN_REMAIN_OPEN
+```
+
+This is not a universal no-go, global-section theorem, action derivation, or matter/mass result.
+
+## Checks passed
+
+- `python3 verify_current_scientific_premises.py`:
+  `PASS: 16 premise guards, 9 startup controls, 754 candidate dispositions`.
+- Fifteen source records: exact path, byte count, SHA-256, and `HEAD` Git blob match.
+- Candidate-keyed facts: all twelve exact source/family/token/feature joins match.
+- Production and independent matrices: exact byte equality, 192 unique cells.
+- In-memory fail-closed validation: PASS.
+- All 33 `F/A/B/C` mutations rejected.
+- Fresh Fraction reconstruction:
+
+  - extension ranks `(7,1,3,4,7)`;
+  - Lorentz-commutant rank/dimension `(15,1)`;
+  - full-class `SO(3)` solution `(0,0,0,0,+1,0,+1)`;
+  - full-class `SO+(1,2)` solution `(0,0,0,0,-1,0,-1)`;
+  - base boost and full Lorentz: inconsistent;
+  - reciprocal twist: rank five, two mixing freedoms, non-Lorentz;
+  - Ricci control: η-self-adjoint, characteristic polynomial `(z²+1)(z−2)(z−3)`;
+  - projector, null obstruction, two-/three-way lattice ties, bivector dimension six, and seal identity all pass.
+
+- All nine report hashes match the constants in [verify_audit.py](/tmp/udt_phi_ontology_XvSL3D/repo/udt_metric_natural_complete_extension_selector_audit_2026-07-27/verify_audit.py).
+- Preregistration is present in commit `d2c1efb`; the inspected source commits precede it.
+- No `EXTERNAL_*` content was read. No network, GPU, or tracked-file mutation occurred.
+
+Principal evidence: [AUDIT_REPORT.md](/tmp/udt_phi_ontology_XvSL3D/repo/udt_metric_natural_complete_extension_selector_audit_2026-07-27/AUDIT_REPORT.md), [SOURCE_MANIFEST.tsv](/tmp/udt_phi_ontology_XvSL3D/repo/udt_metric_natural_complete_extension_selector_audit_2026-07-27/SOURCE_MANIFEST.tsv), [INDEPENDENT_GATE_MATRIX.tsv](/tmp/udt_phi_ontology_XvSL3D/repo/udt_metric_natural_complete_extension_selector_audit_2026-07-27/INDEPENDENT_GATE_MATRIX.tsv), and [EXACT_DERIVATION.md](/tmp/udt_phi_ontology_XvSL3D/repo/udt_metric_natural_complete_extension_selector_audit_2026-07-27/EXACT_DERIVATION.md).
+
+## Caveats and blockers
+
+- The package is currently untracked. That is the immediate banking blocker.
+- The independent matrix is independently transcribed and emitted, not derived cell-by-cell from the twelve source facts. F15’s exact-agreement contract passes, but this remains implementation independence rather than a proof of semantic completeness.
+- Coordinated mutation of artifacts plus verifier-owned constants can still self-validate before an external anchor. I reproduced escapes for matrix, source-fact, and report mutations when their in-code anchors were changed too.
+- Therefore Git plus a package manifest is sufficient for post-review content integrity only if the expected commit/manifest identity is trusted externally. A regenerated manifest inside an untrusted replacement package cannot authenticate itself.
+- “Conditional global reductions” in [EXACT_DERIVATION.md](/tmp/udt_phi_ontology_XvSL3D/repo/udt_metric_natural_complete_extension_selector_audit_2026-07-27/EXACT_DERIVATION.md) must mean globally supplied holonomy conditions producing pointwise constraints—not derived global sections.
+- No fetch/pull or remote-push verification was possible under the no-network instruction.
+
+Once the complete package is committed, its final manifest is verified, and that commit identity is externally anchored, **banking as `VERIFIED-WITH-CAVEATS` is warranted**.
