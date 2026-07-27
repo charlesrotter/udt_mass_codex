@@ -1,0 +1,14 @@
+{
+  "WRL_nonconflation_exact": true,
+  "area_identity_exact": true,
+  "candidate_rows": 8,
+  "connection_fraction_samples": 5,
+  "contact_obstruction_exact": true,
+  "depth_triangles": 64,
+  "null_alignment_formula_exact": true,
+  "production_module_imported": false,
+  "projector_exact": true,
+  "schema": "udt-twisted-s3-intrinsic-screen-cocycle-independent-1.0",
+  "status": "PASS",
+  "symplectic_controls": 3
+}

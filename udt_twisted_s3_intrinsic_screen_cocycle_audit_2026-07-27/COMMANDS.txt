@@ -1,0 +1,18 @@
+git status --short --branch
+git rev-parse HEAD
+git rev-parse origin/grok
+git commit -m "Preregister intrinsic screen cocycle audit"
+git push origin grok
+git commit -m "Correct screen audit control lambdas"
+git push origin grok
+python3 -m pip install --target /tmp/udt_screen_cocycle_sympy_114_pkgs -r udt_twisted_s3_intrinsic_screen_cocycle_audit_2026-07-27/requirements.txt
+PYTHONPATH=/tmp/udt_screen_cocycle_sympy_114_pkgs PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 -S udt_twisted_s3_intrinsic_screen_cocycle_audit_2026-07-27/derive_intrinsic_screen_cocycle.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 -S udt_twisted_s3_intrinsic_screen_cocycle_audit_2026-07-27/verify_screen_cocycle_independent.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 udt_twisted_s3_intrinsic_screen_cocycle_audit_2026-07-27/run_and_capture.py
+PYTHONDONTWRITEBYTECODE=1 python3 udt_twisted_s3_intrinsic_screen_cocycle_audit_2026-07-27/build_source_manifest.py
+PYTHONDONTWRITEBYTECODE=1 python3 udt_twisted_s3_intrinsic_screen_cocycle_audit_2026-07-27/verify_source_manifest.py
+PYTHONDONTWRITEBYTECODE=1 python3 udt_twisted_s3_intrinsic_screen_cocycle_audit_2026-07-27/capture_verification.py
+PYTHONDONTWRITEBYTECODE=1 python3 udt_twisted_s3_intrinsic_screen_cocycle_audit_2026-07-27/build_manifest.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 udt_twisted_s3_intrinsic_screen_cocycle_audit_2026-07-27/capture_repository_gates.py
+git diff --check
+git status --short --branch

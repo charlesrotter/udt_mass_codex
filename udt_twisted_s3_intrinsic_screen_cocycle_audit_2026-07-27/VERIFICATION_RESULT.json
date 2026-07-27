@@ -1,0 +1,13 @@
+{
+  "WRL_SNe_nonconflation": "PASS_EXACT",
+  "branch_join": "PASS_C01_TO_C06",
+  "candidate_rows": 8,
+  "catch_proofs": "24/24",
+  "connection_rows": 16,
+  "global_alignment_obstruction": "PASS_EXACT",
+  "independent_method": "stdlib_Fraction_no_production_import",
+  "production_sympy": "1.14.0",
+  "schema": "udt-twisted-s3-intrinsic-screen-cocycle-verification-1.0",
+  "status": "PASS",
+  "status_rows": 18
+}

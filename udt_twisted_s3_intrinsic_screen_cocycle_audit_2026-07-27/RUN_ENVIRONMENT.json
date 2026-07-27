@@ -1,0 +1,10 @@
+{
+  "cpu_only": true,
+  "implementation": "CPython",
+  "independent_command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 -S udt_twisted_s3_intrinsic_screen_cocycle_audit_2026-07-27/verify_screen_cocycle_independent.py",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "production_command": "PYTHONPATH=/tmp/udt_screen_cocycle_sympy_114_pkgs PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 -S udt_twisted_s3_intrinsic_screen_cocycle_audit_2026-07-27/derive_intrinsic_screen_cocycle.py",
+  "python": "3.10.12",
+  "sympy": "1.14.0",
+  "sympy_dependency_path": "/tmp/udt_screen_cocycle_sympy_114_pkgs"
+}

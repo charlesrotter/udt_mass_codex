@@ -1,0 +1,181 @@
+{
+  "WRL_SNe_nonconflation": {
+    "SNe_result_changed": false,
+    "WRL_vertex_DA_over_X": "1-exp(-2*phi)",
+    "implication": "local_coframe_area_is_not_vertex_Jacobi_area",
+    "local_screen_length_family": "A*exp(lambda*phi)",
+    "open_interval_identity_for_constant_lambda": false,
+    "proof": "value_at_zero_forces_A_zero_then_derivative_mismatch_minus_2"
+  },
+  "authority_boundary": {
+    "SNe_fit_performed": false,
+    "action_or_source_selected": false,
+    "irreducible_solder_claimed": false,
+    "lambda_selected": false,
+    "on_shell": false,
+    "operational_access_derived": false,
+    "path_selected": false
+  },
+  "candidate_count": 8,
+  "candidate_outcomes": [
+    {
+      "aligned_null_congruence": "FAIL_GENERIC_NORTH_SCREEN_GRADIENT_NONZERO",
+      "candidate": "C01",
+      "endpoint_depth_join": "PASS_NONTRIVIAL",
+      "intrinsic_screen": "PASS_INTRINSIC_RANK_TWO",
+      "lambda": "-2",
+      "north_E1phi": "3/50",
+      "north_E2phi": "1/50",
+      "north_E3phi": "1/25",
+      "raw_local_area_equals_WRL_DA": "NO",
+      "same_metric_reducible_cocycle": "PASS_PATH_SCREEN_NOT_GLOBALLY_INTRINSIC_ALIGNED",
+      "status": "PASS_BOUNDED_SAME_METRIC_JOIN_WITH_ALIGNMENT_OBSTRUCTION"
+    },
+    {
+      "aligned_null_congruence": "FAIL_GENERIC_NORTH_SCREEN_GRADIENT_NONZERO",
+      "candidate": "C02",
+      "endpoint_depth_join": "PASS_NONTRIVIAL",
+      "intrinsic_screen": "PASS_INTRINSIC_RANK_TWO",
+      "lambda": "-1",
+      "north_E1phi": "3/50",
+      "north_E2phi": "1/50",
+      "north_E3phi": "1/25",
+      "raw_local_area_equals_WRL_DA": "NO",
+      "same_metric_reducible_cocycle": "PASS_PATH_SCREEN_NOT_GLOBALLY_INTRINSIC_ALIGNED",
+      "status": "PASS_BOUNDED_SAME_METRIC_JOIN_WITH_ALIGNMENT_OBSTRUCTION"
+    },
+    {
+      "aligned_null_congruence": "FAIL_GENERIC_NORTH_SCREEN_GRADIENT_NONZERO",
+      "candidate": "C03",
+      "endpoint_depth_join": "PASS_NONTRIVIAL",
+      "intrinsic_screen": "PASS_INTRINSIC_RANK_TWO",
+      "lambda": "0",
+      "north_E1phi": "3/50",
+      "north_E2phi": "1/50",
+      "north_E3phi": "1/25",
+      "raw_local_area_equals_WRL_DA": "NO",
+      "same_metric_reducible_cocycle": "PASS_PATH_SCREEN_NOT_GLOBALLY_INTRINSIC_ALIGNED",
+      "status": "PASS_BOUNDED_SAME_METRIC_JOIN_WITH_ALIGNMENT_OBSTRUCTION"
+    },
+    {
+      "aligned_null_congruence": "FAIL_GENERIC_NORTH_SCREEN_GRADIENT_NONZERO",
+      "candidate": "C04",
+      "endpoint_depth_join": "PASS_NONTRIVIAL",
+      "intrinsic_screen": "PASS_INTRINSIC_RANK_TWO",
+      "lambda": "1/2",
+      "north_E1phi": "3/50",
+      "north_E2phi": "1/50",
+      "north_E3phi": "1/25",
+      "raw_local_area_equals_WRL_DA": "NO",
+      "same_metric_reducible_cocycle": "PASS_PATH_SCREEN_NOT_GLOBALLY_INTRINSIC_ALIGNED",
+      "status": "PASS_BOUNDED_SAME_METRIC_JOIN_WITH_ALIGNMENT_OBSTRUCTION"
+    },
+    {
+      "aligned_null_congruence": "FAIL_GENERIC_NORTH_SCREEN_GRADIENT_NONZERO",
+      "candidate": "C05",
+      "endpoint_depth_join": "PASS_NONTRIVIAL",
+      "intrinsic_screen": "PASS_INTRINSIC_RANK_TWO",
+      "lambda": "1",
+      "north_E1phi": "3/50",
+      "north_E2phi": "1/50",
+      "north_E3phi": "1/25",
+      "raw_local_area_equals_WRL_DA": "NO",
+      "same_metric_reducible_cocycle": "PASS_PATH_SCREEN_NOT_GLOBALLY_INTRINSIC_ALIGNED",
+      "status": "PASS_BOUNDED_SAME_METRIC_JOIN_WITH_ALIGNMENT_OBSTRUCTION"
+    },
+    {
+      "aligned_null_congruence": "FAIL_GENERIC_NORTH_SCREEN_GRADIENT_NONZERO",
+      "candidate": "C06",
+      "endpoint_depth_join": "PASS_NONTRIVIAL",
+      "intrinsic_screen": "PASS_INTRINSIC_RANK_TWO",
+      "lambda": "2",
+      "north_E1phi": "3/50",
+      "north_E2phi": "1/50",
+      "north_E3phi": "1/25",
+      "raw_local_area_equals_WRL_DA": "NO",
+      "same_metric_reducible_cocycle": "PASS_PATH_SCREEN_NOT_GLOBALLY_INTRINSIC_ALIGNED",
+      "status": "PASS_BOUNDED_SAME_METRIC_JOIN_WITH_ALIGNMENT_OBSTRUCTION"
+    },
+    {
+      "aligned_null_congruence": "FAIL_GENERIC_NORTH_SCREEN_GRADIENT_NONZERO",
+      "candidate": "C07",
+      "endpoint_depth_join": "PASS_NONTRIVIAL",
+      "intrinsic_screen": "FAIL_NO_TWIST_SELECTED_RULER",
+      "lambda": "0",
+      "north_E1phi": "3/50",
+      "north_E2phi": "1/50",
+      "north_E3phi": "1/25",
+      "raw_local_area_equals_WRL_DA": "NO",
+      "same_metric_reducible_cocycle": "FAIL_FULL_INTRINSIC_PAIR_GATE",
+      "status": "FAIL_AS_EXPECTED_TWIST_OFF"
+    },
+    {
+      "aligned_null_congruence": "TRIVIAL_CONSTANT_DEPTH_ONLY",
+      "candidate": "C08",
+      "endpoint_depth_join": "TRIVIAL_Q_ONE",
+      "intrinsic_screen": "FAIL_NO_PARENT_INTRINSIC_PAIR",
+      "lambda": "0",
+      "north_E1phi": "0",
+      "north_E2phi": "0",
+      "north_E3phi": "0",
+      "raw_local_area_equals_WRL_DA": "NO",
+      "same_metric_reducible_cocycle": "FAIL_FULL_INTRINSIC_PAIR_GATE",
+      "status": "FAIL_AS_EXPECTED_DEPTH_OFF"
+    }
+  ],
+  "clock_and_jacobi": {
+    "Q_pq": "exp(phi_q-phi_p)",
+    "frequency": "E*exp(phi)",
+    "full_propagator_symplectic_composable_invertible": true,
+    "irreducible_solder": false,
+    "jacobi_generator_hamiltonian": true,
+    "killing_energy_conserved_on_affine_geodesic": true,
+    "log_Q": "phi_q-phi_p",
+    "same_branch_direct_sum": "DERIVED_GIVEN_SUPPLIED_GEODESIC_AND_STATIONARY_ENDPOINTS",
+    "stationary_norm": "exp(-phi)",
+    "triangle_composition": true,
+    "vertex_B_block_standalone_cocycle": false
+  },
+  "coframe_and_connection": {
+    "area_exterior_derivative": "2*lambda*dphi^theta2^theta3",
+    "area_form": "theta2^theta3_up_to_orientation",
+    "area_lie_n": "2*lambda*n(phi)*area",
+    "area_lie_u": "0_for_stationary_phi",
+    "contact_coefficient_C1_23": "-kappa*exp(-phi*(2*lambda - 1))",
+    "global_alignment_implication": "E2phi=E3phi=0 => E1phi=0 => dphi=0",
+    "null_acceleration_minus": [
+      "p1",
+      "-p1",
+      "-2*p2",
+      "-2*p3"
+    ],
+    "null_acceleration_plus": [
+      "-p1",
+      "-p1",
+      "-2*p2",
+      "-2*p3"
+    ],
+    "pregeodesic_condition": "E2(phi)=E3(phi)=0",
+    "screen_rotation_coefficients": {
+      "minus": "kappa*(-a - exp(2*phi) + 2*exp(2*lambda*phi))*exp(-phi*(2*lambda + 1))/2",
+      "plus": "kappa*(-a + exp(2*phi) - 2*exp(2*lambda*phi))*exp(-phi*(2*lambda + 1))/2"
+    },
+    "screen_transport_when_aligned": "SO2_rotation_only"
+  },
+  "maximum_conclusion": "COMPLETE_TWISTED_S3_INTRINSIC_CLOCK_RULER_SCREEN_SPLIT_AND_BRANCH_SPECIFIC_FOUNDED_CLOCK_JOIN_DERIVED;NONTRIVIAL_SAME_METRIC_REDUCIBLE_PATH_COCYCLE_DERIVED_GIVEN_PATH;NONTRIVIAL_DEPTH_FORCES_INTRINSIC_NULL_SCREEN_MIXING_IN_THIS_CONTACT_BRANCH;LOCAL_SCREEN_AREA_NOT_WRL_VERTEX_JACOBI_AREA;NO_PHYSICAL_SELECTION",
+  "projector": {
+    "annihilates_clock_and_ruler": true,
+    "idempotent": true,
+    "mixed_projector": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "rank": 2,
+    "screen_metric_signature": "++"
+  },
+  "schema": "udt-twisted-s3-intrinsic-screen-cocycle-1.0",
+  "status": "PASS",
+  "sympy_version": "1.14.0"
+}
