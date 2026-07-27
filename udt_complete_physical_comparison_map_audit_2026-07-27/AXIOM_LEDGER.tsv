@@ -1,0 +1,13 @@
+axiom_id	property	required_for	failure_interpretation
+A01	type_correct_real_dimensionless_signed_depth	all scalar depth maps	candidate is a different observable or needs scale/orientation
+A02	neutral_self_comparison_delta_pp_zero	all physical comparisons	fails observer identity
+A03	observer_order_reversal_delta_qp_equals_minus_delta_pq	signed scalar channel	candidate is unsigned or needs orientation
+A04	exact_composition_on_declared_arrow_category	comparison law	category must be restricted or augmented
+A05	observer_frame_covariance	all physical routes	coordinate artifact or preferred law frame
+A06	registered_stationary_reduction_to_phi_difference	universal candidate	candidate does not reproduce founded control
+A07	cut_locus_and_multiple_path_behavior_explicit	global candidate	domain incomplete
+A08	all_extra_inputs_and_normalizations_disclosed	all candidates	provenance failure
+A09	full_reciprocal_readout_composes_with_D_and_transport	complete maps	scalar-only candidate
+A10	comparison_does_not_modify_local_physics	observer interpretation	local dynamics imported
+A11	scalar_depth_distinguished_from_full_frame_transport	complete maps	category conflation
+A12	global_domain_or_transition_law_supplied	global candidate	local realization only
