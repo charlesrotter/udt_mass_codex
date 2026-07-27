@@ -1,0 +1,16 @@
+{
+  "check_count": 27,
+  "finite_lift_same_first_different_second": true,
+  "maximum_conclusion": "INDEPENDENT_EXACT_RECONSTRUCTION_ONLY",
+  "ranks": {
+    "Lorentz_kernel": 6,
+    "founded_affine_response_fiber": 7,
+    "full_Lorentz_affine_system_consistent": false,
+    "metric_response": 10,
+    "observer_SO3_invariant_dimension": 0,
+    "pair_SO2_invariant_dimension": 1,
+    "ruler_SO12_invariant_dimension": 0
+  },
+  "result": "PASS",
+  "schema": "udt.native_reciprocal_comparison_bundle.independent.v1"
+}

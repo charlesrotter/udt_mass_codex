@@ -1,0 +1,8 @@
+{
+  "compute": "CPU_ONLY",
+  "independent_python_mode": "python3 -S; standard library Fraction only",
+  "platform": "Linux 6.8.0-124-generic x86_64",
+  "production_python": "3.10.12",
+  "production_sympy": "1.13.1",
+  "result": "PASS"
+}

@@ -1,0 +1,25 @@
+candidate_id	outcome	exact_scope	remaining_gate
+C01	METRIC_CANONICAL_MATHEMATICS	Manifold event base of supplied metric	Physical event ontology and pairing
+C02	METRIC_CANONICAL_QUERY_BUNDLE_GIVEN_ORIENTATION_SCOPE	Unit timelike directions and orthogonal spacelike rulers	Physical observer/ruler section
+C03	NOT_DERIVED	No owner worldline or frame field selected	Observer dynamics and realized owners
+C04	MATHEMATICALLY_AVAILABLE	All piecewise-smooth paths with identity reversal composition	Physical path/equivalence selection
+C05	SET_VALUED_OR_BRANCH_DEPENDENT	Locally unique before cut loci; globally multiple or absent by branch	No preferred geodesic promoted
+C06	CONDITIONAL_PRIOR_OBJECT	Owner-projector/common-path constructions require supplied owners and paths	Physical comparison domain
+C07	MANIFOLD_CANONICAL_REPRESENTATIVE_BUNDLE	General frames before metric reduction	No physical UDT content by itself
+C08	METRIC_CANONICAL_REPRESENTATIVE_FREEDOM	Orthonormal coframes related by local Lorentz transformations	Does not identify metric-changing extensions
+C09	UDT_DERIVED_LOCAL_PAIR_ACTION_AND_ASSOCIATED_QUERY_OBJECT	Founded -1/+1 action over regular ordered pair queries	Physical pair section and global finite lift
+C10	UDT_DERIVED_AFFINE_RESPONSE_QUERY_BUNDLE	Seven metric-response directions over ordered pair bundle	Finite complete extension and physical selection
+C11	REPRESENTATIVE_FREEDOM	Coordinate pullback changes presentation of geometric tensors	Physical diffeomorphism/observable quotient beyond scope
+C12	REPRESENTATIVE_FREEDOM_AT_FIXED_METRIC	Local Lorentz coframe changes lie in six-dimensional response kernel	Seven response directions remain metric data
+C13	CONDITIONAL_TWISTED_TRANSITION_NOT_LORENTZ	Clock/ruler swap fails F^T_eta_F=eta	Global twisted lift and authority
+C14	AVAILABLE_ASSOCIATED_ORBIT_CONSTRUCTION	Conjugation covariance given a supplied structure group	Does not select group reduction or physical orbit member
+C15	CONDITIONAL_ON_OPEN_REDUCTION	Centralizer defines possible reduced structure groups	Subgroup existence is not a global reduction section
+C16	METRIC_CANONICAL_MATHEMATICS_PHYSICAL_ROLE_OPEN	Unique torsion-free metric-compatible connection of supplied metric	UDT physical comparison identification
+C17	REPRESENTATIVE_DEPENDENT_COEFFICIENTS_COVARIANT_OBJECT	Spin/coframe connection transforms inhomogeneously; transport covariantly	No extension selector follows
+C18	AVAILABLE_CONDITIONAL_EXACT	Supplied generator depth typed path and metric transport compose	Physical inputs remain unselected
+C19	SET_VALUED_PATH_LABELLED	Holonomy transports query fibers and obstructs generic endpoint collapse	Physical endpoint/path semantics
+C20	CONDITIONAL_ON_INVARIANT_REDUCTION	SO2 leaves one parameter; SO3 gives +1; SO12 gives -1	No active reduction chosen
+C21	OPEN_CONSTRAINS_ONLY	Finite-cell seal has no extension rank and gluing remains multiple	Global transition/boundary law
+C22	NOT_DERIVED	No everywhere realized complete reciprocal extension section	Finite lift reduction holonomy and boundary
+C23	PARTIAL_TANGENT_QUOTIENT_DERIVED	Infinitesimal coframe quotient is symmetric metric response; finite quotient path open	Finite integration and global sections
+C24	NOT_DERIVED	Bundle mathematics supplies no physical variation authority	Off-shell response and complete physics

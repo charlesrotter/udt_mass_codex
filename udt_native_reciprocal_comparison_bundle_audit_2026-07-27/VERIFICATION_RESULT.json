@@ -1,0 +1,15 @@
+{
+  "catch_proofs": 15,
+  "counts": {
+    "candidates": 24,
+    "directions": 7,
+    "layers": 10,
+    "sources": 16,
+    "statuses": 15
+  },
+  "grade_ceiling": "VERIFIED_WITH_CAVEATS_NO_FRESH_MODEL_CONTEXT",
+  "independent_checks": 27,
+  "production_checks": 31,
+  "result": "PASS",
+  "schema": "udt.native_reciprocal_comparison_bundle.verification.v1"
+}

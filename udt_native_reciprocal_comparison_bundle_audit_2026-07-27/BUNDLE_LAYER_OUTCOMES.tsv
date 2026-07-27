@@ -1,0 +1,11 @@
+layer_id	layer	mathematical_status	physical_UDT_status	ruling
+L01	EVENT_BASE	METRIC_DOMAIN_SUPPLIES_MANIFOLD_EVENTS	OPEN_OPERATIONAL_ROLE	Events are base objects; physical event-pairing rule is not selected.
+L02	OBSERVER_BASE	ORDERED_TIMELIKE_SPACELIKE_PAIR_QUERY_BUNDLE_AVAILABLE_GIVEN_REGULAR_LORENTZ_METRIC_AND_ORIENTATION_SCOPE	OPEN_PHYSICAL_SECTION	Query fibers exist without one realized observer/ruler field.
+L03	ARROW_DOMAIN	FULL_PATH_GROUPOID_AVAILABLE;GEODESICS_LOCAL_OR_BRANCH_VALUED	OPEN_PHYSICAL_PATH_FAMILY	No path class is promoted to signal or observer law.
+L04	FRAME_BUNDLE	ORTHONORMAL_COFRAME_BUNDLE_METRIC_CANONICAL	REPRESENTATIVE_FREEDOM_ONLY	Fixed-metric Lorentz changes are presentation changes.
+L05	RECIPROCAL_FIBER	SEVEN_DIMENSIONAL_AFFINE_METRIC_RESPONSE_QUERY_BUNDLE_DERIVED	FINITE_COMPLETE_EXTENSION_OPEN	The founded pair fixes three of ten symmetric response components.
+L06	TRANSITION_EQUIVALENCE	TENSOR_AND_COFRAME_TRANSITIONS_DERIVED;PAIR_QUERY_CONJUGATION_DERIVED	PHYSICAL_QUOTIENT_OPEN	Passive frame covariance does not identify different physical response tensors.
+L07	CONNECTION_TRANSPORT	LEVI_CIVITA_INDUCED_BUNDLE_TRANSPORT_METRIC_CANONICAL	OPEN_PHYSICAL_COMPARISON_ROLE	Every supplied path transports exactly; UDT has not selected that as its observer law.
+L08	HOLONOMY_DESCENT	PATH_LABELLED_HOLONOMY_DERIVED;STABILIZER_STRATA_CLASSIFIED	GLOBAL_REDUCTION_OPEN	SO2 leaves lambda free; SO3 and SO12 force different conditional members; full Lorentz is incompatible.
+L09	ADMISSIBLE_SECTIONS	QUERY_BUNDLE_SECTIONS_WELL_TYPED	PHYSICAL_GLOBAL_SECTION_OPEN	No complete finite-cell reduction or realized extension section is selected.
+L10	PHYSICAL_VARIATION_DOMAIN	NO_MATHEMATICAL_BUNDLE_LAYER_DECIDES_VARIATION	OPEN	Action response source boundary carrier bootstrap Xmax mass and dynamics remain downstream.

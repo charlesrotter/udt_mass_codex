@@ -1,0 +1,45 @@
+{
+  "check_count": 31,
+  "derived_objects": {
+    "Levi_Civita_induced_transport": "METRIC_CANONICAL_MATHEMATICS_PHYSICAL_ROLE_OPEN",
+    "fixed_metric_coframe_equivalence": "REPRESENTATIVE_FREEDOM",
+    "ordered_pair_query_bundle": "METRIC_CANONICAL_MATHEMATICS_GIVEN_REGULAR_LORENTZ_METRIC_AND_ORIENTATION_SCOPE",
+    "path_labelled_transport": "EXACT_FOR_EVERY_SUPPLIED_PATH",
+    "seven_dimensional_affine_metric_response_bundle": "UDT_DERIVED_OVER_ORDERED_PAIR_QUERY_BUNDLE_AT_INFINITESIMAL_LEVEL"
+  },
+  "finite_lift_control": {
+    "different_second_metric_jet_for_nonzero_mixing": true,
+    "ruling": "INFINITESIMAL_RESPONSE_BUNDLE_DOES_NOT_SELECT_FINITE_COMPLETE_COFRAME_LIFT",
+    "same_first_metric_jet": true,
+    "second_jet_difference": "Matrix([[q**2, 0, q, 0], [0, 0, 0, 0], [q, 0, q**2, 0], [0, 0, 0, 0]])"
+  },
+  "invariant_strata": {
+    "full_Lorentz": "NO_RESPONSE_COMPATIBLE_WITH_FIXED_FOUNDED_MINUS_PLUS_PAIR",
+    "observer_only_SO3": "UNIQUE_PLUS_ONE_RESPONSE_GIVEN_THIS_REDUCTION",
+    "ordered_pair_SO2": "ONE_PARAMETER_SCREEN_TRACE_FAMILY_LAMBDA_UNSELECTED",
+    "ruler_only_SO12": "UNIQUE_MINUS_ONE_RESPONSE_GIVEN_THIS_REDUCTION"
+  },
+  "maximum_conclusion": "NATIVE_AFFINE_RECIPROCAL_METRIC_RESPONSE_QUERY_BUNDLE_AND_METRIC_CANONICAL_TRANSPORT_DERIVED;_FINITE_LIFT_PHYSICAL_BASE_PATH_SECTION_AND_VARIATION_REMAIN_OPEN",
+  "open_objects": {
+    "complete_extension_section": true,
+    "finite_constant_generator_lift": true,
+    "physical_comparison_functor": true,
+    "physical_observer_pair_section": true,
+    "physical_path_family": true,
+    "variation_domain": true
+  },
+  "ranks": {
+    "Lorentz_kernel": 6,
+    "endomorphism_space": 16,
+    "founded_affine_response_fiber": 7,
+    "founded_pair_plane_constraints": 3,
+    "metric_response": 10,
+    "observer_SO3_invariant_subfamily": 0,
+    "ordered_pair_SO2_invariant_subfamily": 1,
+    "registered_extension_response": 7,
+    "ruler_SO12_invariant_subfamily": 0
+  },
+  "result": "PASS",
+  "schema": "udt.native_reciprocal_comparison_bundle.derivation.v1",
+  "sympy_version": "1.13.1"
+}
