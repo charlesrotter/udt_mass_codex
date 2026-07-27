@@ -1,0 +1,15 @@
+{
+  "assemblies": "6/6",
+  "axioms": "12/12",
+  "bounded_stationary_scalar_map": true,
+  "candidates": "12/12",
+  "catch_proofs": "28/28",
+  "conditional_hybrid_map": true,
+  "fresh_adversarial_review": "VERIFIED-WITH-CAVEATS",
+  "independent": "PASS",
+  "property_cells": "144/144",
+  "schema": "udt-complete-physical-comparison-map-verification-1.0",
+  "sources": "20/20",
+  "status": "PASS",
+  "universal_complete_physical_map": false
+}

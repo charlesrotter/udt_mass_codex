@@ -1,0 +1,17 @@
+claim_id	claim	status	scope	remaining_open
+C01	founded abstract reciprocal character	DERIVED	founding packet	physical assignment
+C02	endpoint additive depth is a potential difference	DERIVED	real endpoint pair groupoid	physical potential selection
+C03	path additive depth is a one-form cocycle	DERIVED_CONDITIONAL	supplied global one-form	metric-native one-form and periods
+C04	intrinsic Killing-norm endpoint depth	DERIVED_BOUNDED	complete stationary control with intrinsic timelike line	branch selection and arbitrary observers
+C05	alpha_K=-d log sqrt(-g(K,K))	DERIVED_BOUNDED	same stationary control	nonstationary replacement
+C06	reducible comparison C_gamma=(D(delta_K),U_gamma)	AVAILABLE_CONDITIONAL_EXACT	stationary control plus typed pair and path	physical path semantics and branch selection
+C07	hybrid endpoint scalar plus path frame is coherent	DERIVED_CONDITIONAL	registered cut-locus and holonomy controls	universal physical semantics
+C08	symmetric metric distance is signed depth	NOT_DERIVED_TYPE_MISMATCH	nontrivial symmetric magnitude	signed lift scale and composition
+C09	physical-frame rapidity is universal positional depth	NOT_DERIVED_CONTROL_FAIL	static spatial control	other observer regimes
+C10	coordinate reciprocal transport is a physical observable	NOT_DERIVED_REFERENCE_DEPENDENT	static coordinate control	covariant reference law
+C11	transport conjugacy data retains signed depth	NOT_DERIVED_SIGN_LOSS	pair-swap conjugacy	ordered eigenspace data
+C12	one-branch fully intrinsic clock-ruler map	OPEN	separate positive witnesses	joined witness
+C13	universal arbitrary-observer comparison	OPEN	stationary bounded result	nonstationary extension and selection
+C14	endpoint-only physical semantics	OPEN	conditional route	selection
+C15	path-labelled physical semantics	OPEN	conditional route	selection
+C16	action source carrier boundary density bootstrap mass Xmax dynamics	OPEN	unaffected	native closure

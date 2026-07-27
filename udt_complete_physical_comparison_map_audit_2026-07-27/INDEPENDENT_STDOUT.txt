@@ -1,0 +1,16 @@
+{
+  "endpoint_triangles": 1,
+  "method": "stdlib_fraction_independent",
+  "pair_swap_sign_loss": "PASS",
+  "schema": "udt-complete-physical-comparison-map-independent-1.0",
+  "stationary_norm_ratio_normalization": "ALGEBRAICALLY_CANCELS",
+  "status": "PASS",
+  "symmetric_odd_controls": 3,
+  "typed_path_lambda_controls": [
+    -1,
+    0,
+    1,
+    2
+  ],
+  "verdict": "BOUNDED_SCALAR_AND_CONDITIONAL_REDUCIBLE_MAP_SURVIVE__UNIVERSAL_PHYSICAL_SELECTION_OPEN"
+}
