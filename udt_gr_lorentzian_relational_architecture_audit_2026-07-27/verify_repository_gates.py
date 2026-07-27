@@ -42,6 +42,7 @@ def generic_module():
     assert spec.loader is not None
     sys.modules[spec.name] = module
     spec.loader.exec_module(module)
+    module.PACKAGE = PACKAGE
     return module
 
 
