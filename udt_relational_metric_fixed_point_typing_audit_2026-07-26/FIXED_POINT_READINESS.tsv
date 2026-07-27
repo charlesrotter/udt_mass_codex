@@ -1,0 +1,13 @@
+gate_id	gate	ready	basis
+R01	complete founded configuration domain	NO	O01 open
+R02	metric to pair-path geometry	CONDITIONAL_YES	E01 given metric and path
+R03	complete reciprocal lift and lambda	NO	O05 family unselected
+R04	metric-native signed depth	NO	E05 absent
+R05	typed comparison composition	CONDITIONAL_YES	E04 given depth and lift
+R06	global completion and sector	NO	O08 partial conditional
+R07	variation domain	NO	E07 absent
+R08	off-shell response	NO	E08 absent
+R09	comparison-to-metric or response feedback	NO	E16 absent
+R10	same-solution self-map or zero problem	NO	O11 absent
+R11	native mass/source and finite-cell boundary	NO	O14 absent
+R12	action integrability	DOWNSTREAM_NOT_READY	O10 absent

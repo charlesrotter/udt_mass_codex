@@ -1,0 +1,17 @@
+catch	result
+action_escape	PASS
+anchors_as_selector	PASS
+bootstrap_as_map	PASS
+cross_branch_splice	PASS
+depth_promotion	PASS
+duplicate_edge	PASS
+fixed_point_without_return	PASS
+independent_graph	PASS
+lambda_selection	PASS
+missing_object	PASS
+one_form_identification	PASS
+phi_demotion	PASS
+response_before_variation	PASS
+source_identity	PASS
+topology_as_response	PASS
+universal_scope_promotion	PASS

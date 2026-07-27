@@ -1,0 +1,6 @@
+python3 udt_relational_metric_fixed_point_typing_audit_2026-07-26/build_source_manifest.py
+python3 udt_relational_metric_fixed_point_typing_audit_2026-07-26/run_and_capture.py
+python3 udt_relational_metric_fixed_point_typing_audit_2026-07-26/capture_environment.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 -m pytest -q tests/
+python3 udt_relational_metric_fixed_point_typing_audit_2026-07-26/verify_repository_gates.py
+sha256sum --check SHA256SUMS.txt

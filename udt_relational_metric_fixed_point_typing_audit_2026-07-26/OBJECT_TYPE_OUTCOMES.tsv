@@ -1,0 +1,15 @@
+object_id	object_name	type_signature	locality	current_status	evidence_ruling
+O01	complete_configuration	C_complete	GLOBAL_CONFIGURATION	OPEN_UNSELECTED	complete founded extension and variation domain not selected
+O02	typed_pair_path_arrow	gamma:(p,u,n)->(q,v,m)	PATH_RELATIONAL	CONDITIONAL_TYPED_INPUT	pair path arrows are valid inputs; physical arrow not selected
+O03	metric_pair_geometry	G_gamma=(distance,tangents,U_gamma,M_gamma,holonomy)	PATH_RELATIONAL	DERIVED_GIVEN_O01_O02	distance tangents transport Jacobi and holonomy follow from supplied metric path
+O04	abstract_reciprocal_coordinate	delta_in_R	ALGEBRAIC	DERIVED	real additive coordinate of founded reciprocal pair
+O05	reciprocal_lift_family	X_lambda(u,n)	POINT_RELATIONAL	CONDITIONAL_FAMILY_LAMBDA_OPEN	ordered pair supplies X_lambda family but composition does not select lambda
+O06	signed_depth_cocycle	delta:Arrows_to_R	PATH_RELATIONAL	OPEN_ABSENT	zero registered metric-native normalized signed-depth assignments
+O07	full_pair_comparison	T_gamma=U_gamma_exp(delta_gamma_X_lambda)_with_vertical_resets	PATH_RELATIONAL	DERIVED_GIVEN_O02_O05_O06	typed path groupoid composes with explicit vertical resets
+O08	angular_global_data	holonomy_module_caps_quotient_topological_sector	GLOBAL_RELATIONAL	CONDITIONAL_PARTIAL	holonomy and conditional angular topology exist with supplied global data
+O09	configuration_variation	delta_X_in_T_X_C_complete	GLOBAL_OFF_SHELL	OPEN_UNSELECTED	complete founded variation domain not selected
+O10	offshell_response_one_form	alpha_X:T_X_C_complete_to_R	GLOBAL_LOCAL_OFF_SHELL	OPEN_ABSENT	no metric-native complete offshell response one-form
+O11	same_solution_feedback	B:C_complete_to_C_complete_or_equivalent_zero_map	GLOBAL_CLOSURE	OPEN_ABSENT	current bootstrap is on-shell admissibility not a self-map
+O12	sectorwise_action	S:C_sector_to_R	GLOBAL_VARIATIONAL	OPEN_DOWNSTREAM	requires integrable response boundary gauge and global periods
+O13	observational_anchors	c_E_G_obs	SCALAR_CALIBRATION	OBSERVED_SCALAR_ANCHORS	c_E and G_obs calibrate but do not select tensor structure
+O14	native_matter_mass_density	M_native_rho_tot	GLOBAL_LOCAL_PHYSICAL	OPEN_ABSENT	native source mass numerator and same-solution density unavailable

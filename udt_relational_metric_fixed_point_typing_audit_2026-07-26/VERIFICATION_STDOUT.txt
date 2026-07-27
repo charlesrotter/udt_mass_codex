@@ -1,0 +1,33 @@
+{
+  "catch_count": 16,
+  "catch_proofs": {
+    "action_escape": "PASS",
+    "anchors_as_selector": "PASS",
+    "bootstrap_as_map": "PASS",
+    "cross_branch_splice": "PASS",
+    "depth_promotion": "PASS",
+    "duplicate_edge": "PASS",
+    "fixed_point_without_return": "PASS",
+    "independent_graph": "PASS",
+    "lambda_selection": "PASS",
+    "missing_object": "PASS",
+    "one_form_identification": "PASS",
+    "phi_demotion": "PASS",
+    "response_before_variation": "PASS",
+    "source_identity": "PASS",
+    "topology_as_response": "PASS",
+    "universal_scope_promotion": "PASS"
+  },
+  "countermodels": 5,
+  "edges": 18,
+  "fixed_point_cycles": 0,
+  "grade": "VERIFIED_WITH_CAVEATS_RELATIONAL_FIXED_POINT_TYPING",
+  "independent_checks": 46,
+  "maximum_conclusion": "CURRENT_RELATIONAL_ARCHITECTURE_TYPED_AND_DEPENDENCY_CLOSED;NO_CURRENT_RELATIONAL_FIXED_POINT_OPERATOR;SIGNED_DEPTH_COCYCLE_AND_CONFIGURATION_RESPONSE_TYPE_DISTINCT;FUTURE_GLOBAL_CLOSURE_MAY_COUPLE_BUT_NOT_IDENTIFY_THEM",
+  "objects": 14,
+  "one_form_axes": 6,
+  "production_checks": 30,
+  "readiness_gates": 12,
+  "result": "PASS",
+  "schema": "udt-relational-fixed-point-typing-verification-1.0"
+}

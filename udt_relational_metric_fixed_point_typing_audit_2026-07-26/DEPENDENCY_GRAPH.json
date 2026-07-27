@@ -1,0 +1,306 @@
+{
+  "active_edge_ids": [
+    "E02"
+  ],
+  "candidate_return_edge_ids": [
+    "E10",
+    "E16"
+  ],
+  "capability_edge_ids": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E06",
+    "E09",
+    "E10",
+    "E11",
+    "E18"
+  ],
+  "current_fixed_point_cycle": false,
+  "edges": [
+    {
+      "candidate_map": "metric_path_geometry",
+      "current_availability": "GIVEN_UNSELECTED_INPUT",
+      "edge_id": "E01",
+      "ruling": "metric supplies path geometry once complete metric and typed path are supplied",
+      "source_object": "O01+O02",
+      "status": "DERIVED_GIVEN_INPUT",
+      "target_object": "O03"
+    },
+    {
+      "candidate_map": "additive_reciprocal_group_coordinate",
+      "current_availability": "ACTIVE",
+      "edge_id": "E02",
+      "ruling": "founding postulates supply abstract additive reciprocal coordinate",
+      "source_object": "FOUNDING_POSTULATES",
+      "status": "DERIVED",
+      "target_object": "O04"
+    },
+    {
+      "candidate_map": "ordered_pair_covariant_lift",
+      "current_availability": "GIVEN_UNSELECTED_INPUT",
+      "edge_id": "E03",
+      "ruling": "ordered pair supplies X_lambda family; lambda remains open",
+      "source_object": "O02",
+      "status": "CONDITIONAL",
+      "target_object": "O05"
+    },
+    {
+      "candidate_map": "reciprocal_dilation_comparison",
+      "current_availability": "GIVEN_ABSENT_DEPTH",
+      "edge_id": "E04",
+      "ruling": "full comparison composes if signed depth and lift are supplied",
+      "source_object": "O04+O05+O06",
+      "status": "DERIVED_GIVEN_INPUT",
+      "target_object": "O07"
+    },
+    {
+      "candidate_map": "metric_to_signed_depth_assignment",
+      "current_availability": "ABSENT",
+      "edge_id": "E05",
+      "ruling": "metric does not currently assign normalized signed reciprocal depth",
+      "source_object": "O01+O02+O03+O13",
+      "status": "OPEN_ABSENT",
+      "target_object": "O06"
+    },
+    {
+      "candidate_map": "path_loops_holonomy_and_global_completion",
+      "current_availability": "GIVEN_UNSELECTED_GLOBAL_DATA",
+      "edge_id": "E06",
+      "ruling": "path holonomy is metric-derived but global module caps quotient and sector need supplied completion",
+      "source_object": "O03+O07",
+      "status": "CONDITIONAL",
+      "target_object": "O08"
+    },
+    {
+      "candidate_map": "variation_domain_assignment",
+      "current_availability": "ABSENT",
+      "edge_id": "E07",
+      "ruling": "complete founded extension and varied field domain not selected",
+      "source_object": "O01",
+      "status": "OPEN_ABSENT",
+      "target_object": "O09"
+    },
+    {
+      "candidate_map": "metric_native_global_local_response",
+      "current_availability": "ABSENT",
+      "edge_id": "E08",
+      "ruling": "no native global-local offshell response",
+      "source_object": "O01+O08+O09+O14",
+      "status": "OPEN_ABSENT",
+      "target_object": "O10"
+    },
+    {
+      "candidate_map": "response_zero_or_update_map",
+      "current_availability": "GIVEN_ABSENT_RESPONSE",
+      "edge_id": "E09",
+      "ruling": "a supplied response defines a zero problem but not automatically an update self-map",
+      "source_object": "O10",
+      "status": "DERIVED_GIVEN_INPUT",
+      "target_object": "O11"
+    },
+    {
+      "candidate_map": "fixed_point_realization",
+      "current_availability": "GIVEN_ABSENT_FEEDBACK",
+      "edge_id": "E10",
+      "ruling": "a supplied self-map or equivalent zero problem can define a fixed point",
+      "source_object": "O11",
+      "status": "CONDITIONAL",
+      "target_object": "O01"
+    },
+    {
+      "candidate_map": "inverse_variational_integration",
+      "current_availability": "GIVEN_ABSENT_RESPONSE",
+      "edge_id": "E11",
+      "ruling": "action requires Helmholtz boundary gauge and global-period gates",
+      "source_object": "O10",
+      "status": "CONDITIONAL",
+      "target_object": "O12"
+    },
+    {
+      "candidate_map": "native_mass_density_same_solution",
+      "current_availability": "ABSENT",
+      "edge_id": "E12",
+      "ruling": "native mass numerator and response are missing",
+      "source_object": "O01+O14",
+      "status": "OPEN_ABSENT",
+      "target_object": "O14"
+    },
+    {
+      "candidate_map": "scalar_anchor_to_direction_or_lambda",
+      "current_availability": "ZERO_SELECTOR_RANK",
+      "edge_id": "E13",
+      "ruling": "scalar anchors cannot select direction or lambda",
+      "source_object": "O13",
+      "status": "OBSTRUCTED",
+      "target_object": "O05"
+    },
+    {
+      "candidate_map": "scalar_anchor_to_dimensionless_depth_profile",
+      "current_availability": "CALIBRATION_INSUFFICIENT",
+      "edge_id": "E14",
+      "ruling": "anchors calibrate units but not a dimensionless depth profile",
+      "source_object": "O13",
+      "status": "OPEN_ABSENT",
+      "target_object": "O06"
+    },
+    {
+      "candidate_map": "identify_path_cocycle_with_configuration_response",
+      "current_availability": "NO_CANONICAL_DOMAIN_ISOMORPHISM",
+      "edge_id": "E15",
+      "ruling": "path-arrow cocycle and configuration cotangent one-form have different domains arguments and laws",
+      "source_object": "O06",
+      "status": "TYPE_ERROR",
+      "target_object": "O10"
+    },
+    {
+      "candidate_map": "comparison_to_metric_reconstruction",
+      "current_availability": "ABSENT",
+      "edge_id": "E16",
+      "ruling": "no comparison-to-metric reconstruction or response map is registered",
+      "source_object": "O07",
+      "status": "OPEN_ABSENT",
+      "target_object": "O01"
+    },
+    {
+      "candidate_map": "topology_to_matter_source_mass",
+      "current_availability": "IMPLICATION_REFUTED",
+      "edge_id": "E17",
+      "ruling": "topology alone does not supply source response mass or persistence",
+      "source_object": "O08",
+      "status": "OBSTRUCTED",
+      "target_object": "O14"
+    },
+    {
+      "candidate_map": "global_closure_selects_depth",
+      "current_availability": "FUTURE_COUPLING_ONLY",
+      "edge_id": "E18",
+      "ruling": "a future same-solution closure could couple depth selection but no such map exists",
+      "source_object": "O11+O14",
+      "status": "CONDITIONAL",
+      "target_object": "O06"
+    }
+  ],
+  "minimum_explicit_missing_arrows": [
+    "E05",
+    "E07",
+    "E08",
+    "E16"
+  ],
+  "nodes": [
+    {
+      "current_status": "OPEN_UNSELECTED",
+      "evidence_ruling": "complete founded extension and variation domain not selected",
+      "locality": "GLOBAL_CONFIGURATION",
+      "object_id": "O01",
+      "object_name": "complete_configuration",
+      "type_signature": "C_complete"
+    },
+    {
+      "current_status": "CONDITIONAL_TYPED_INPUT",
+      "evidence_ruling": "pair path arrows are valid inputs; physical arrow not selected",
+      "locality": "PATH_RELATIONAL",
+      "object_id": "O02",
+      "object_name": "typed_pair_path_arrow",
+      "type_signature": "gamma:(p,u,n)->(q,v,m)"
+    },
+    {
+      "current_status": "DERIVED_GIVEN_O01_O02",
+      "evidence_ruling": "distance tangents transport Jacobi and holonomy follow from supplied metric path",
+      "locality": "PATH_RELATIONAL",
+      "object_id": "O03",
+      "object_name": "metric_pair_geometry",
+      "type_signature": "G_gamma=(distance,tangents,U_gamma,M_gamma,holonomy)"
+    },
+    {
+      "current_status": "DERIVED",
+      "evidence_ruling": "real additive coordinate of founded reciprocal pair",
+      "locality": "ALGEBRAIC",
+      "object_id": "O04",
+      "object_name": "abstract_reciprocal_coordinate",
+      "type_signature": "delta_in_R"
+    },
+    {
+      "current_status": "CONDITIONAL_FAMILY_LAMBDA_OPEN",
+      "evidence_ruling": "ordered pair supplies X_lambda family but composition does not select lambda",
+      "locality": "POINT_RELATIONAL",
+      "object_id": "O05",
+      "object_name": "reciprocal_lift_family",
+      "type_signature": "X_lambda(u,n)"
+    },
+    {
+      "current_status": "OPEN_ABSENT",
+      "evidence_ruling": "zero registered metric-native normalized signed-depth assignments",
+      "locality": "PATH_RELATIONAL",
+      "object_id": "O06",
+      "object_name": "signed_depth_cocycle",
+      "type_signature": "delta:Arrows_to_R"
+    },
+    {
+      "current_status": "DERIVED_GIVEN_O02_O05_O06",
+      "evidence_ruling": "typed path groupoid composes with explicit vertical resets",
+      "locality": "PATH_RELATIONAL",
+      "object_id": "O07",
+      "object_name": "full_pair_comparison",
+      "type_signature": "T_gamma=U_gamma_exp(delta_gamma_X_lambda)_with_vertical_resets"
+    },
+    {
+      "current_status": "CONDITIONAL_PARTIAL",
+      "evidence_ruling": "holonomy and conditional angular topology exist with supplied global data",
+      "locality": "GLOBAL_RELATIONAL",
+      "object_id": "O08",
+      "object_name": "angular_global_data",
+      "type_signature": "holonomy_module_caps_quotient_topological_sector"
+    },
+    {
+      "current_status": "OPEN_UNSELECTED",
+      "evidence_ruling": "complete founded variation domain not selected",
+      "locality": "GLOBAL_OFF_SHELL",
+      "object_id": "O09",
+      "object_name": "configuration_variation",
+      "type_signature": "delta_X_in_T_X_C_complete"
+    },
+    {
+      "current_status": "OPEN_ABSENT",
+      "evidence_ruling": "no metric-native complete offshell response one-form",
+      "locality": "GLOBAL_LOCAL_OFF_SHELL",
+      "object_id": "O10",
+      "object_name": "offshell_response_one_form",
+      "type_signature": "alpha_X:T_X_C_complete_to_R"
+    },
+    {
+      "current_status": "OPEN_ABSENT",
+      "evidence_ruling": "current bootstrap is on-shell admissibility not a self-map",
+      "locality": "GLOBAL_CLOSURE",
+      "object_id": "O11",
+      "object_name": "same_solution_feedback",
+      "type_signature": "B:C_complete_to_C_complete_or_equivalent_zero_map"
+    },
+    {
+      "current_status": "OPEN_DOWNSTREAM",
+      "evidence_ruling": "requires integrable response boundary gauge and global periods",
+      "locality": "GLOBAL_VARIATIONAL",
+      "object_id": "O12",
+      "object_name": "sectorwise_action",
+      "type_signature": "S:C_sector_to_R"
+    },
+    {
+      "current_status": "OBSERVED_SCALAR_ANCHORS",
+      "evidence_ruling": "c_E and G_obs calibrate but do not select tensor structure",
+      "locality": "SCALAR_CALIBRATION",
+      "object_id": "O13",
+      "object_name": "observational_anchors",
+      "type_signature": "c_E_G_obs"
+    },
+    {
+      "current_status": "OPEN_ABSENT",
+      "evidence_ruling": "native source mass numerator and same-solution density unavailable",
+      "locality": "GLOBAL_LOCAL_PHYSICAL",
+      "object_id": "O14",
+      "object_name": "native_matter_mass_density",
+      "type_signature": "M_native_rho_tot"
+    }
+  ],
+  "schema": "udt-relational-fixed-point-dependency-graph-1.0"
+}

@@ -1,0 +1,19 @@
+edge_id	source_object	target_object	candidate_map	status	current_availability	ruling
+E01	O01+O02	O03	metric_path_geometry	DERIVED_GIVEN_INPUT	GIVEN_UNSELECTED_INPUT	metric supplies path geometry once complete metric and typed path are supplied
+E02	FOUNDING_POSTULATES	O04	additive_reciprocal_group_coordinate	DERIVED	ACTIVE	founding postulates supply abstract additive reciprocal coordinate
+E03	O02	O05	ordered_pair_covariant_lift	CONDITIONAL	GIVEN_UNSELECTED_INPUT	ordered pair supplies X_lambda family; lambda remains open
+E04	O04+O05+O06	O07	reciprocal_dilation_comparison	DERIVED_GIVEN_INPUT	GIVEN_ABSENT_DEPTH	full comparison composes if signed depth and lift are supplied
+E05	O01+O02+O03+O13	O06	metric_to_signed_depth_assignment	OPEN_ABSENT	ABSENT	metric does not currently assign normalized signed reciprocal depth
+E06	O03+O07	O08	path_loops_holonomy_and_global_completion	CONDITIONAL	GIVEN_UNSELECTED_GLOBAL_DATA	path holonomy is metric-derived but global module caps quotient and sector need supplied completion
+E07	O01	O09	variation_domain_assignment	OPEN_ABSENT	ABSENT	complete founded extension and varied field domain not selected
+E08	O01+O08+O09+O14	O10	metric_native_global_local_response	OPEN_ABSENT	ABSENT	no native global-local offshell response
+E09	O10	O11	response_zero_or_update_map	DERIVED_GIVEN_INPUT	GIVEN_ABSENT_RESPONSE	a supplied response defines a zero problem but not automatically an update self-map
+E10	O11	O01	fixed_point_realization	CONDITIONAL	GIVEN_ABSENT_FEEDBACK	a supplied self-map or equivalent zero problem can define a fixed point
+E11	O10	O12	inverse_variational_integration	CONDITIONAL	GIVEN_ABSENT_RESPONSE	action requires Helmholtz boundary gauge and global-period gates
+E12	O01+O14	O14	native_mass_density_same_solution	OPEN_ABSENT	ABSENT	native mass numerator and response are missing
+E13	O13	O05	scalar_anchor_to_direction_or_lambda	OBSTRUCTED	ZERO_SELECTOR_RANK	scalar anchors cannot select direction or lambda
+E14	O13	O06	scalar_anchor_to_dimensionless_depth_profile	OPEN_ABSENT	CALIBRATION_INSUFFICIENT	anchors calibrate units but not a dimensionless depth profile
+E15	O06	O10	identify_path_cocycle_with_configuration_response	TYPE_ERROR	NO_CANONICAL_DOMAIN_ISOMORPHISM	path-arrow cocycle and configuration cotangent one-form have different domains arguments and laws
+E16	O07	O01	comparison_to_metric_reconstruction	OPEN_ABSENT	ABSENT	no comparison-to-metric reconstruction or response map is registered
+E17	O08	O14	topology_to_matter_source_mass	OBSTRUCTED	IMPLICATION_REFUTED	topology alone does not supply source response mass or persistence
+E18	O11+O14	O06	global_closure_selects_depth	CONDITIONAL	FUTURE_COUPLING_ONLY	a future same-solution closure could couple depth selection but no such map exists

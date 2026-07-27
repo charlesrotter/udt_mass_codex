@@ -1,0 +1,16 @@
+object	status	evidence	open_scope
+founded_reciprocal_coordinate	DERIVED	O04 E02	physical arrow assignment
+global_single_ruler_field	NOT_REQUIRED_FOR_TYPED_PATH_GROUPOID	pair-frame path groupoid	global coframe section only if endpoint collapse desired
+complete_pair_path_kinematics	DERIVED_GIVEN_INPUTS	O07 E04	depth lift branch and path selection
+complete_coframe_lift	CONDITIONAL_LAMBDA_FAMILY	O05 E03	lambda and angular mixing selection
+metric_native_signed_depth	OPEN_ABSENT	O06 E05	profile normalization and path type
+complete_founded_variation_domain	OPEN_UNSELECTED	O01 O09 E07	field boundary and relational-label census
+offshell_response	OPEN_ABSENT	O10 E08	global-local response
+signed_depth_vs_response	TYPE_DISTINCT_NO_DERIVED_ISOMORPHISM	E15 ONE_FORM_TYPE_COMPARISON.tsv	future coupling possible
+comparison_to_metric_feedback	OPEN_ABSENT	E16	reconstruction or response map
+bootstrap_fixed_point	NO_CURRENT_RELATIONAL_FIXED_POINT_OPERATOR	FIXED_POINT_READINESS.tsv	after-solution admissibility only
+future_global_closure	POSSIBLE_COUPLING_NOT_CURRENT_IDENTITY	E18	actual equations absent
+scalar_anchors	CALIBRATION_ONLY	E13 E14	no tensor or profile selection
+topology_to_matter	IMPLICATION_OBSTRUCTED	E17	native response source and persistence
+action	CONDITIONAL_DOWNSTREAM	E11	response Helmholtz boundary gauge and periods
+overall	OPEN_COHERENT_RELATIONAL_ARCHITECTURE_WITH_TYPED_MISSING_ARROWS	DEPENDENCY_GRAPH.json	not physical closure

@@ -1,0 +1,7 @@
+axis	signed_depth_cocycle_O06	configuration_response_O10	same
+domain	typed observer-pair path arrows	tangent vectors to complete field-plus-boundary configuration space	NO
+arguments	one arrow gamma	configuration X and admissible variation delta_X	NO
+linearity_or_composition	additive under path concatenation and odd under reversal	linear in delta_X at fixed X	NO
+role	kinematic clock-ruler comparison coordinate	off-shell equation and possible action differential	NO
+shared_fact	real-valued and sometimes represented by a one-form integral	real-valued cotangent one-form	INSUFFICIENT_FOR_IDENTIFICATION
+current_bridge	none	none	NO_DERIVED_ISOMORPHISM_OR_PAIRING
