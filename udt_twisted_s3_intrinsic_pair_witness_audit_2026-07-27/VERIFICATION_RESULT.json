@@ -1,0 +1,16 @@
+{
+  "all_gate_candidates": 6,
+  "audit_report_sha256": "150c98e46d666b58a573d194d4b2a60a228d29d3925e6fe27e1d5650e28efc25",
+  "candidates": 8,
+  "catch_proofs": 22,
+  "coframe_replay": "PASS",
+  "exact_gradient_entries": 72,
+  "fresh_external_model_review": false,
+  "independent_replay": "PASS",
+  "primary_ruling": "ONE_COMPLETE_TWISTED_S3_CONFIGURATION_HAS_A_METRIC_INTRINSIC_CLOCK_LINE__ITS_CLOCK_TWIST_SELECTS_THE_RECIPROCAL_RULER_LINE__ALL_GATE_CONFIGURATION_EXISTENCE_DERIVED_IN_THE_FROZEN_FAMILY__NO_ON_SHELL_SELECTION_OR_PHYSICAL_LAW_DERIVED",
+  "production_replay": "PASS",
+  "property_gates": 20,
+  "sources": 17,
+  "status": "PASS",
+  "status_ledger_sha256": "83d3976967fd9117d47fa04751a984b021d686aa096e7e1c822f301f9bf048fc"
+}

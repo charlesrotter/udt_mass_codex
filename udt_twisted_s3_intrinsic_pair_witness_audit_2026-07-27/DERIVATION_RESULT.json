@@ -1,0 +1,46 @@
+{
+  "candidate_outcomes_sha256": "03c25628018f17f5a0465c4cf80229fe4c7e62cc7697e365fc5d810205daa3a1",
+  "candidates": 8,
+  "complete_whole_solution_law": "OPEN",
+  "compute": "CPU_ONLY_EXACT_RATIONAL_JETS",
+  "copresence_status": "WORKING_INTERPRETIVE_FRAME",
+  "depth_off_control": "RANK_ZERO_NOT_ALL_GATE",
+  "determinant_census_sha256": "af8f7fbd0eaf14993147098acb217da5c22c0687493f81d983c2a23a6c0a5839",
+  "endpoint_or_path_semantics_selected": false,
+  "exact_gradient_entries": 72,
+  "instantaneous_operational_access_derived": false,
+  "intrinsic_clock_line": "DERIVED_EXACT_IN_C01_TO_C07",
+  "lambda_selected": false,
+  "on_shell_solution_claimed": false,
+  "passing_all_gate_candidates": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06"
+  ],
+  "passing_lambda_values": [
+    "-2",
+    "-1",
+    "0",
+    "1/2",
+    "1",
+    "2"
+  ],
+  "primary_ruling": "ONE_COMPLETE_TWISTED_S3_CONFIGURATION_HAS_A_METRIC_INTRINSIC_CLOCK_LINE__ITS_CLOCK_TWIST_SELECTS_THE_RECIPROCAL_RULER_LINE__ALL_GATE_CONFIGURATION_EXISTENCE_DERIVED_IN_THE_FROZEN_FAMILY__NO_ON_SHELL_SELECTION_OR_PHYSICAL_LAW_DERIVED",
+  "profile_selected": false,
+  "rank_three_candidates": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06",
+    "C07"
+  ],
+  "schema_version": 1,
+  "single_all_gate_configuration_witness": "DERIVED_EXISTENCE_IN_C01_TO_C06",
+  "twist_off_control": "RANK_THREE_BUT_NOT_ALL_GATE",
+  "twist_selected_reciprocal_ruler": "DERIVED_EXACT_IN_C01_TO_C06"
+}

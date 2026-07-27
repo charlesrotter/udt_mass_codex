@@ -1,0 +1,27 @@
+{
+  "all_gate_isotropy_constraint_ranks": [
+    16,
+    16,
+    16,
+    16,
+    16,
+    16
+  ],
+  "all_gate_value_ranks": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "candidates_replayed": 8,
+  "catch_proofs": 22,
+  "controls": "PASS",
+  "implementation": "TORCH_AUTODIFF_FULL_RIEMANN_CONTRACTION_NO_PRODUCTION_IMPORT",
+  "maximum_determinant_absolute_error": 2.2737367544323206e-13,
+  "maximum_gradient_absolute_error": 1.2434497875801753e-14,
+  "primary_ruling_reproduced": "ONE_COMPLETE_TWISTED_S3_CONFIGURATION_HAS_A_METRIC_INTRINSIC_CLOCK_LINE__ITS_CLOCK_TWIST_SELECTS_THE_RECIPROCAL_RULER_LINE__ALL_GATE_CONFIGURATION_EXISTENCE_DERIVED_IN_THE_FROZEN_FAMILY__NO_ON_SHELL_SELECTION_OR_PHYSICAL_LAW_DERIVED",
+  "status": "PASS",
+  "torch_version": "2.5.1+cu121"
+}

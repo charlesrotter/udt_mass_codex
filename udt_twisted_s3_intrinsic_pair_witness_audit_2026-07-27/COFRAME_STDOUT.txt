@@ -1,0 +1,9 @@
+{
+  "coordinate_two_form_components_checked": 9,
+  "forms_checked": 3,
+  "maurer_cartan_kappa": -2,
+  "quaternion_unit_norm": "EXACT",
+  "status": "PASS",
+  "stereographic_coframe_determinant": "8/(1+r^2)^3",
+  "sympy_version": "1.13.1"
+}

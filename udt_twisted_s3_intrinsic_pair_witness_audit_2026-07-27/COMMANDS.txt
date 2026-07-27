@@ -1,0 +1,7 @@
+python3 udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27/build_source_manifest.py
+python3 udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27/derive_intrinsic_pair_witness.py
+python3 udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27/verify_intrinsic_pair_independent.py
+python3 udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27/verify_global_coframe.py
+python3 udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27/verify_audit.py
+PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 -m pytest -q tests/
+python3 udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27/verify_repository_gates.py
