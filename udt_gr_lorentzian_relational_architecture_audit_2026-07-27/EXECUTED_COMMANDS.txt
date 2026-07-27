@@ -4,3 +4,7 @@ git pull --ff-only origin grok
 git status --short --branch
 git log -8 --oneline
 python3 udt_gr_lorentzian_relational_architecture_audit_2026-07-27/verify_relational_architecture.py
+sha256sum --check SHA256SUMS.txt
+python3 verify_current_scientific_premises.py
+python3 -m pytest -q tests/
+python3 udt_gr_lorentzian_relational_architecture_audit_2026-07-27/verify_repository_gates.py
