@@ -1,0 +1,116 @@
+{
+  "all_gate_open_neighborhoods": true,
+  "all_six_centers_certified": true,
+  "axis_count": 6,
+  "axis_ids": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A06"
+  ],
+  "base_commit": "ec5a241927b51b047d8bdbb3742cdaa5e464c880",
+  "base_count": 6,
+  "base_evidence": [
+    {
+      "candidate_id": "C01",
+      "exact_format": "RATIONAL_FRACTION",
+      "gradient_determinant": "-2586419255942132452232013/12800000000000000000000",
+      "nonzero": true
+    },
+    {
+      "candidate_id": "C02",
+      "exact_format": "RATIONAL_FRACTION",
+      "gradient_determinant": "-237144354459533365609333/6400000000000000000000",
+      "nonzero": true
+    },
+    {
+      "candidate_id": "C03",
+      "exact_format": "RATIONAL_FRACTION",
+      "gradient_determinant": "-37996364156600104637/102400000000000000000",
+      "nonzero": true
+    },
+    {
+      "candidate_id": "C04",
+      "exact_format": "RATIONAL_FRACTION",
+      "gradient_determinant": "-1549513423740537836689/6400000000000000000000",
+      "nonzero": true
+    },
+    {
+      "candidate_id": "C05",
+      "exact_format": "RATIONAL_FRACTION",
+      "gradient_determinant": "-188002280036397326727/128000000000000000000",
+      "nonzero": true
+    },
+    {
+      "candidate_id": "C06",
+      "exact_format": "RATIONAL_FRACTION",
+      "gradient_determinant": "4296761486911167086447/2560000000000000000000",
+      "nonzero": true
+    }
+  ],
+  "configuration_topology": {
+    "parameters": "R_a x R_lambda x R_positive",
+    "profile": "C3(S3)",
+    "reason": "first_gradients_of_curvature_scalars_depend_on_metric_three_jet"
+  },
+  "continuity_certificates": {
+    "coframe": "OPEN_FOR_FINITE_SMOOTH_phi_AND_POSITIVE_R",
+    "curvature_rank": "CONTINUOUS_IN_C3",
+    "depth": "CONTINUOUS_IN_C0",
+    "joint": "FINITE_INTERSECTION_OPEN",
+    "slice": "CONTINUOUS_IN_C0_X_a_X_POSITIVE_R",
+    "twist": "CONTINUOUS_IN_a"
+  },
+  "curvature_rank_radius_certified": false,
+  "degeneration_semantics": {
+    "D_zero_proves_clock_absent": false,
+    "D_zero_proves_extra_symmetry": false,
+    "slice_boundary_proves_spacetime_singularity": false
+  },
+  "endpoint_or_path_selected": false,
+  "exact_margins": {
+    "absolute_a_kappa": "1/32",
+    "depth_oscillation_lower_bound": "3/25",
+    "slice_margin_lower_bound": "4015/331776"
+  },
+  "explicit_joint_radius_certified": false,
+  "generic_dense_or_measure_claim": false,
+  "instantaneous_access_claim": false,
+  "lambda_selected": false,
+  "maximum_scope": "LOCAL_OPENNESS_IN_FIXED_OFF_SHELL_COMPLETE_S3_CONFIGURATION_FAMILY",
+  "on_shell_claim": false,
+  "physical_selection_claim": false,
+  "physics_inferences": {
+    "X_max": false,
+    "action": false,
+    "bootstrap": false,
+    "carrier": false,
+    "density": false,
+    "dynamics": false,
+    "mass": false,
+    "source": false
+  },
+  "premise_stamps": {
+    "COMPLETE_WHOLE_SOLUTION_LAW": "OPEN",
+    "COPRESENCE": "WORKING_INTERPRETIVE_FRAME",
+    "INSTANTANEOUS_OPERATIONAL_ACCESS": "NOT_DERIVED",
+    "METRIC_CAUSAL_STRUCTURE": "DERIVED_CONDITIONAL"
+  },
+  "preregistration_commit": "1eb609b",
+  "preregistration_correction_commit": "0162ba7",
+  "primary_conclusion": "ALL_GATE_INTRINSIC_PAIR_CONFIGURATIONS_CONTAIN_OPEN_C3_NEIGHBORHOODS_AROUND_C01_TO_C06_IN_THE_FIXED_COMPLETE_S3_FAMILY__STRUCTURAL_AVAILABILITY_IS_NOT_FINE_TUNED_WITHIN_THIS_CONFIGURATION_TOPOLOGY__NO_EXPLICIT_RADIUS_OR_PHYSICAL_SELECTION_IS_DERIVED",
+  "profile_selected": false,
+  "question_type": "METRIC_LED_LOCAL_CONFIGURATION_SPACE",
+  "stratum_count": 7,
+  "stratum_ids": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07"
+  ]
+}

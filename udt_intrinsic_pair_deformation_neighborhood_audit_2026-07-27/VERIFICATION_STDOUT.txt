@@ -1,0 +1,8 @@
+PASS source_manifest 17/17
+PASS deterministic_production_replay
+PASS independent_replay
+PASS all_gate_open_centers 6/6
+PASS deformation_axes 6/6
+PASS degeneration_strata 7/7
+PASS catch_proofs 22/22
+DERIVATION_RESULT_SHA256 8cf662829b1a34d41acedc3f721182d2a4d29e655792a5676c0b7a6514bb08aa

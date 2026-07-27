@@ -1,0 +1,13 @@
+{
+  "all_gate_open_centers": 6,
+  "catch_proofs_passed": 22,
+  "catch_proofs_total": 22,
+  "deformation_axes_covered": 6,
+  "degeneration_strata_reported": 7,
+  "derivation_result_sha256": "8cf662829b1a34d41acedc3f721182d2a4d29e655792a5676c0b7a6514bb08aa",
+  "deterministic_production_replay": "PASS",
+  "external_model_verifier": false,
+  "grade": "VERIFIED_WITH_CAVEATS_LOCAL_CONFIGURATION_TOPOLOGY",
+  "independent_replay": "PASS",
+  "source_manifest": "17/17 PASS"
+}

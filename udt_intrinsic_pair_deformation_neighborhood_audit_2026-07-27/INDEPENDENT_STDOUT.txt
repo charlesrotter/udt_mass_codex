@@ -1,0 +1,5 @@
+PASS independent_parent_determinants 6/6
+PASS independent_exact_margins 3/3
+PASS production_payload_validation
+PASS catch_proofs 22/22
+CAVEAT no_fresh_external_model_verifier

@@ -1,0 +1,8 @@
+{
+  "cpu_only": true,
+  "external_dependencies": [],
+  "gpu_used": false,
+  "production_arithmetic": "exact rational parent evidence plus continuity proof",
+  "python": "3.10+ standard library",
+  "verification_arithmetic": "independent exact Fraction reparse"
+}

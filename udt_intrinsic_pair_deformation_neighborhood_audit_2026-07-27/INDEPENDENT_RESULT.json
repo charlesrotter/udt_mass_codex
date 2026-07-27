@@ -1,0 +1,12 @@
+{
+  "catch_proofs_passed": 22,
+  "catch_proofs_total": 22,
+  "exact_depth_margin": "3/25",
+  "exact_slice_margin_lower_bound": "4015/331776",
+  "exact_twist_margin": "1/32",
+  "external_model_verifier": false,
+  "grade_ceiling": "VERIFIED_WITH_CAVEATS",
+  "independent_method": "stdlib_exact_reparse_without_production_import",
+  "parent_determinants_nonzero": 6,
+  "production_payload_valid": true
+}
