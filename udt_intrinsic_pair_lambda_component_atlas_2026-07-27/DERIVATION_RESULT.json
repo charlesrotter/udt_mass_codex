@@ -1,0 +1,99 @@
+{
+  "D_zero_proves_clock_absent": false,
+  "D_zero_proves_extra_symmetry": false,
+  "D_zero_proves_metric_singular": false,
+  "actual_degree": 7,
+  "base_commit": "de1125fded1155b1a4020360b0ebb9c07b46ca8d",
+  "center_assignments": [
+    {
+      "all_other_gates": "PASS_INDEPENDENT_OF_LAMBDA",
+      "candidate_id": "C01",
+      "determinant_sign": "NEGATIVE",
+      "interval_id": "I03",
+      "lambda": "-2"
+    },
+    {
+      "all_other_gates": "PASS_INDEPENDENT_OF_LAMBDA",
+      "candidate_id": "C02",
+      "determinant_sign": "NEGATIVE",
+      "interval_id": "I03",
+      "lambda": "-1"
+    },
+    {
+      "all_other_gates": "PASS_INDEPENDENT_OF_LAMBDA",
+      "candidate_id": "C03",
+      "determinant_sign": "NEGATIVE",
+      "interval_id": "I03",
+      "lambda": "0"
+    },
+    {
+      "all_other_gates": "PASS_INDEPENDENT_OF_LAMBDA",
+      "candidate_id": "C04",
+      "determinant_sign": "NEGATIVE",
+      "interval_id": "I05",
+      "lambda": "1/2"
+    },
+    {
+      "all_other_gates": "PASS_INDEPENDENT_OF_LAMBDA",
+      "candidate_id": "C05",
+      "determinant_sign": "NEGATIVE",
+      "interval_id": "I05",
+      "lambda": "1"
+    },
+    {
+      "all_other_gates": "PASS_INDEPENDENT_OF_LAMBDA",
+      "candidate_id": "C06",
+      "determinant_sign": "POSITIVE",
+      "interval_id": "I06",
+      "lambda": "2"
+    }
+  ],
+  "certificate_intervals": 8,
+  "coefficients_ascending": [
+    "-37996364156600104637/102400000000000000000",
+    "38026165098194299250221/6400000000000000000000",
+    "-107906388734081131951913/6400000000000000000000",
+    "30852886595380837542733/2560000000000000000000",
+    "-3251016253775668952807/1600000000000000000000",
+    "-643266445506463993713/3200000000000000000000",
+    "6343885886083169/3125000000000000000",
+    "132584581681893/3125000000000000000"
+  ],
+  "compute": "CPU_ONLY_EXACT_RATIONAL_JETS_AND_EXACT_POLYNOMIAL",
+  "degree_bound": 9,
+  "distinct_real_roots": 7,
+  "exact_holdouts": 7,
+  "exact_holdouts_passed": 7,
+  "factorization": "(543066446569033728*lambda**7 + 25984556589396660224*lambda**6 - 2573065782025855974852*lambda**5 - 26008130030205351622456*lambda**4 + 154264432976904187713665*lambda**3 - 215812777468162263903826*lambda**2 + 76052330196388598500442*lambda - 4749545519575013079625)/12800000000000000000000",
+  "frozen_axis": {
+    "R": "1",
+    "a": "1/64",
+    "event": "north_stereographic",
+    "invariants": [
+      "scalar_curvature",
+      "Ricci_squared",
+      "Kretschmann"
+    ],
+    "phi": "f/50"
+  },
+  "full_configuration_component_claim": false,
+  "instantaneous_access_claim": false,
+  "lambda_selected": false,
+  "other_gates_lambda_independent": true,
+  "physical_phase_claim": false,
+  "physics_inferences": false,
+  "premise_stamps": {
+    "COMPLETE_WHOLE_SOLUTION_LAW": "OPEN",
+    "COPRESENCE": "WORKING_INTERPRETIVE_FRAME",
+    "INSTANTANEOUS_OPERATIONAL_ACCESS": "NOT_DERIVED",
+    "METRIC_CAUSAL_STRUCTURE": "DERIVED_CONDITIONAL"
+  },
+  "preregistration_commit": "6df7f07",
+  "preregistration_correction_commit": "2ec7a4b",
+  "primary_conclusion": "THE_FROZEN_COMPLETE_S3_LAMBDA_SLICE_IS_PARTITIONED_INTO_EXACT_CERTIFICATE_COMPONENT_INTERVALS__C01_TO_C06_HAVE_EXACT_INTERVAL_ASSIGNMENTS__CERTIFICATE_DEGENERATION_POINTS_ARE_MAPPED__NO_FULL_CONFIGURATION_COMPONENT_OR_PHYSICAL_LAMBDA_SELECTION_IS_DERIVED",
+  "production_nodes": 10,
+  "production_nodes_reproduced_exactly": true,
+  "real_roots_with_multiplicity": 7,
+  "schema_version": 1,
+  "torch_tolerance": "2e-9*max(1,abs(D_exact))"
+}

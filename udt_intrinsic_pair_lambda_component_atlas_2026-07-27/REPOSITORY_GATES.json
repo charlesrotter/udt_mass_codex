@@ -1,0 +1,72 @@
+{
+  "audit_replay": {
+    "result": "PASS",
+    "stdout_sha256": "e33ac8a9a8f1dcbb7822b962020011b1aa1f6e27c70041c4f37b3a1e58ecdf3a"
+  },
+  "authority_boundary": {
+    "action_carrier_source_density_mass_Xmax_dynamics_selected": false,
+    "canon_changed": false,
+    "certificate_root_called_clock_loss_or_physical_phase": false,
+    "copresence_promoted_beyond_working_interpretation": false,
+    "frozen_or_historical_changed": false,
+    "full_configuration_component_claimed": false,
+    "gpu_work": false,
+    "instantaneous_operational_access_derived": false,
+    "lambda_selected": false,
+    "repository_reorganization": false,
+    "source_results_changed": false,
+    "startup_controls_changed": false
+  },
+  "base": "6df7f07",
+  "catch_proofs": {
+    "current_paths": "PASS",
+    "dirty": "PASS",
+    "frontier": "PASS",
+    "frozen": "PASS",
+    "package": "PASS",
+    "scope": "PASS"
+  },
+  "correction": "2ec7a4b",
+  "correction_ancestor": true,
+  "current_premises": {
+    "result": "PASS",
+    "stdout_sha256": "3a5bf9b325ca86ce5cde8b93b9c86e60bfa5a730bff1748773cb5f45286e1329"
+  },
+  "dirty_checkout": {
+    "branch": "grok",
+    "contents_read": false,
+    "head": "8b13104a4f1af45af617d2aa50cd5fdacf4082af",
+    "metadata_sha256": "345d297e0ad849cd38f1d817c915922de653ca2d2befcf923af6f9d097b483e4",
+    "paths": 55,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": 6,
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 43,
+    "manifest_sha256": "e06f63d02b68668aecc460631d9adae1ffd6300b782037676fe85806489141e5",
+    "result": "PASS"
+  },
+  "preregistration_ancestor": true,
+  "result": "PASS",
+  "schema": "udt-intrinsic-pair-lambda-component-atlas-gates-1.0",
+  "scope_path_count": 37,
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 -m pytest -q tests/",
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "stdout_sha256": "8bddcda61dbe4e9c9fa4e793249781a6e3dd7a6f7ec8bc5b73caaa000219f068",
+    "xfailed": 1
+  }
+}

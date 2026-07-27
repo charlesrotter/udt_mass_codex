@@ -1,0 +1,5 @@
+PASS stdlib_sturm_distinct_real_roots 7
+PASS simple_root_brackets 7/7
+PASS interval_signs 8/8
+PASS center_assignments 6/6
+PASS catch_proofs 22/22

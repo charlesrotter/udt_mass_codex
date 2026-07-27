@@ -1,0 +1,14 @@
+{
+  "catch_proofs_passed": 22,
+  "catch_proofs_total": 22,
+  "center_assignments": 6,
+  "certificate_intervals": 8,
+  "derivation_result_sha256": "60ef21e490d7cb31656fd99b2fd5b76f4b0eb31332b200d6c4e1d56464cf2e4d",
+  "exact_polynomial_replay": "PASS",
+  "external_model_verifier": false,
+  "grade": "VERIFIED_WITH_CAVEATS_EXACT_ONE_AXIS_CERTIFICATE_ATLAS",
+  "real_roots": 7,
+  "source_manifest": "17/17 PASS",
+  "stdlib_sturm_replay": "PASS",
+  "torch_holdouts": "5/5 PASS"
+}

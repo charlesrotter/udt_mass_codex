@@ -1,0 +1,10 @@
+{
+  "actual_degree": 7,
+  "catch_proofs_passed": 22,
+  "catch_proofs_total": 22,
+  "distinct_real_roots": 7,
+  "interval_signs_reproduced": 8,
+  "method": "STANDARD_LIBRARY_FRACTION_STURM_NO_SYMPY_IMPORT",
+  "polynomial_squarefree": true,
+  "root_brackets_one_each": 7
+}

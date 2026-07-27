@@ -1,0 +1,2 @@
+sympy==1.13.1
+torch (existing independently recorded environment; no installation performed)

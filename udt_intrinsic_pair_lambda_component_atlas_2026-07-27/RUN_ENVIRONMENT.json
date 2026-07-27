@@ -1,0 +1,10 @@
+{
+  "cpu_only": true,
+  "gpu_used": false,
+  "python": "3.10+",
+  "sympy": "1.13.1",
+  "torch": "2.5.1+cu121",
+  "production": "exact rational metric jets and exact polynomial interpolation",
+  "independent_root_method": "standard-library Fraction Sturm sequence",
+  "independent_geometry_method": "Torch autodiff full Riemann contraction"
+}
