@@ -1,0 +1,26 @@
+object	status	scope
+founded_two_channel_generator	DERIVED	H=diag(-1,+1)
+general_complete_extension_fiber	DERIVED_CLASSIFICATION	seven pointwise angular/mixing parameters in registered triangular chart
+extension_metric_response_rank	DERIVED_INFINITESIMAL_RANK_SEVEN	at identity in registered triangular chart; not global nonlinear or physical DOF count
+determinant_one_reduction	DERIVED_RANK_SIX	does not select complete extension
+transverse_invariant_reduction	DERIVED_RANK_FOUR	mixing remains
+no_mixing_reduction	DERIVED_RANK_THREE	angular response remains
+spectator_extension	DERIVED_EXACT_WITNESS_UNIQUE_CONDITIONAL	requires transverse invariance and no mixing
+angular_counterfamily	DERIVED_EXACT_COUNTERMODEL	one-parameter non-spectator determinant-one family
+shift_counterfamily	DERIVED_EXACT_COUNTERMODEL	one-parameter non-spectator determinant-one family
+arbitrary_extension_typed_path_functor	AVAILABLE_CONDITIONAL_EXACT	supplied X additive depth typed path and transported middle-object generator
+composition_as_extension_selector	REFUTED_WITHIN_REGISTERED_CONSTANT_EXTENSION_FIBER	all supplied members compose
+endpoint_collapse_of_inserted_X_on_full_holonomy_twisted_control	OBSTRUCTED_ON_CONTROL_ONLY	full so(1,3) centralizer is scalar identity; not path-independence of U or same-class branch existence
+endpoint_collapse_on_other_branches	OPEN	reduced holonomy may centralize non-scalar extension
+path_labelled_associated_bundle_functor	AVAILABLE_CONDITIONAL_EXACT	physical path semantics unselected
+physical_metric_reading	OPEN_SELECTION_SEVEN_PARAMETERS	active scale reading does not choose angular/mixing extension
+conformal_class_reading	INACTIVE_AND_OPEN_SIX_PARAMETERS	strong local CSN inactive and insufficient
+local_Lorentz_physical_descent	OPEN	E11
+global_profile_path_boundary_completion	OPEN	E12
+active_UDT_complete_extension_selector	OPEN_SMALLEST_EXTENSION_SPECIFIC_OBJECT	must be Lorentz equivariant globally typed and premise-authorized
+observer_event_variation_domain	OPEN_REQUIRED_BEFORE_RESPONSE	physical objects events and admissible arrows remain unselected
+physical_comparison_functor	OPEN_NOT_SELECTED_IN_TWELVE_CLASS_UNIVERSE	requires extension plus arrows depth semantics completion and target
+all_pairs_field_valued_response	OPEN_NOT_SELECTED_NOT_REFUTED	continuum network has functional rank; finite n rank n-1; fiber typing and target/equality missing
+Xmax	WORKING_SCHEMA_UNCHANGED	no operational join
+bootstrap	WORKING_ON_SHELL_ADMISSIBILITY_ONLY	no return equation selected
+complete_action_source_boundary_mass	OPEN	unchanged

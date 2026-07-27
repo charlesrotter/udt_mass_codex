@@ -1,0 +1,16 @@
+{
+  "audit_report_sha256": "b2cb8ca000964e4a42a30f575ce3db7a2c7dfe0bedbbf45fff1e6f739ceb09e0",
+  "catch_proofs": 24,
+  "cells": 144,
+  "class_gate_matrix_sha256": "aa55696a7dc96457bdefbf7a9c567a5652575b4072fa2f73a36fc3784f7d2e5a",
+  "classes": 12,
+  "fresh_adversarial_review": "VERIFIED_WITH_CAVEATS",
+  "gates": 12,
+  "independent_no_production_read_replay": "PASS",
+  "physical_functor": "OPEN_NOT_SELECTED",
+  "production_replay": "PASS",
+  "schema": "udt.complete_coframe_physical_comparison_functor.verification.v1",
+  "sources": 20,
+  "status": "PASS_VERIFIED_WITH_CAVEATS",
+  "status_ledger_sha256": "437187d97362adfae16139d4e7fbaba2fc6d70d0ba161a9d492206ff3bbfc3fa"
+}

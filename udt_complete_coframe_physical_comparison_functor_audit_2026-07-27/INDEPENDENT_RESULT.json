@@ -1,0 +1,36 @@
+{
+  "cells": 144,
+  "classes": 12,
+  "composition_selects_extension_parameters": false,
+  "control_obstruction_scope": "FULL_HOLONOMY_TWISTED_CONTROL_ONLY",
+  "endpoint_collapse_requires_holonomy_centralization": true,
+  "extension_generator_rank": 7,
+  "founded_base_in_full_centralizer": false,
+  "full_Lorentz_centralizer_dimension": 1,
+  "full_Lorentz_commutator_constraint_rank": 15,
+  "full_centralizer": "SCALAR_IDENTITY_ONLY",
+  "gates": 12,
+  "independent_path_functor_holdout": true,
+  "metric_response_rank": 7,
+  "physical_functor_status": "OPEN_NOT_SELECTED_IN_TWELVE_CLASS_UNIVERSE",
+  "physical_path_ontology_selected": false,
+  "production_outputs_read": false,
+  "registered_residual_metric_response_ranks": {
+    "determinant_one": 6,
+    "general": 7,
+    "no_mixing": 3,
+    "spectator_given_both": 0,
+    "transverse_invariant": 4
+  },
+  "registered_residual_ranks": {
+    "determinant_one": 6,
+    "general": 7,
+    "no_mixing": 3,
+    "spectator_given_both": 0,
+    "transverse_invariant": 4
+  },
+  "schema": "udt.complete_coframe_physical_comparison_functor.independent.v1",
+  "spatial_rotation_centralizer_dimension": 2,
+  "spatial_rotation_commutator_constraint_rank": 14,
+  "status": "PASS_NO_PRODUCTION_READ_FRACTION_AND_SEMANTIC_RECONSTRUCTION"
+}
