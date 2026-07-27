@@ -1,0 +1,5 @@
+control_id	configuration	completion_class	metric_status	allowed_role
+Q01	B19_round_ultrastatic_S3	FC04_TWO_CAP_P1	CONDITIONAL_COMPLETE_ON_SHELL_SPATIAL_ULTRASTATIC	complete round control only
+Q02	homogeneous_squashed_ultrastatic_S3	FC04_TWO_CAP_P1	COMPLETE_HOMOGENEOUS_OFF_SHELL_CONTROL	complete nonround control only
+Q03	WRL_local_static_spherical	-	LOCAL_INCOMPLETE_NO_ALL_OBSERVER_RECENTERING	local countercontrol only
+Q04	physical_Xmax_join	-	ABSENT	absence control only

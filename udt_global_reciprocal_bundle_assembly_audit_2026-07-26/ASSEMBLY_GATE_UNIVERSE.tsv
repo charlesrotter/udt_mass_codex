@@ -1,0 +1,13 @@
+gate_id	gate	exact_question
+G01	local_definition	is X_lambda regular for supplied orthonormal u,n
+G02	chart_overlap_equivariance	do tensorial representatives conjugate consistently
+G03	typed_path_composition	does retained-path transport plus vertical resets compose
+G04	global_pair_frame_bundle	does the family exist without one global pair section
+G05	chosen_global_section	does a smooth u,n choice exist on a concrete control
+G06	metric_natural_field	does the metric distinguish enough projectors to define X_lambda
+G07	parallel_endpoint_collapse	is nabla X zero so transported endpoint value is path independent
+G08	cap_seam_quotient_descent	does the object survive the registered global join
+G09	cut_locus_behavior	does multiple-geodesic transport remain well typed
+G10	causal_type_change	does a typed pair fail or only a gradient-derived pair ansatz fail
+G11	physical_signed_depth	does the metric assign founded normalized depth to arrows
+G12	variation_domain_consequence	does assembly alone select bulk and boundary variations

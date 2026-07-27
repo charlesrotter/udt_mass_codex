@@ -1,0 +1,27 @@
+catch_id	corruption_that_must_fail
+C01	missing completion row
+C02	duplicate lambda stratum
+C03	completion taxonomy treated as concrete metric
+C04	all-lambda pair-frame bundle gluing denied despite tensor equivariance
+C05	query-bundle existence promoted to a global selected pair section
+C06	metric-natural field confused with parallel field
+C07	path-groupoid composition confused with endpoint path independence
+C08	lambda_plus1 selected merely because it is parallel on concrete controls
+C09	lambda_minus1 collapse omitted
+C10	generic stabilizer dimension misstated
+C11	lambda_plus1 stabilizer dimension misstated
+C12	lambda_minus1 stabilizer dimension misstated
+C13	round or squashed spatial holonomy rank understated
+C14	nabla_X_parallel_for_generic_lambda_on_S3
+C15	round branch claimed to metric-select a Hopf ruler
+C16	squashed Ricci line claimed to select ruler orientation
+C17	squashed metric-natural family claimed on shell
+C18	antipodal cut locus treated as bundle failure
+C19	cap coordinate collapse treated as tangent-metric degeneration
+C20	causal dphi transition imposed on typed pair family
+C21	physical signed depth invented from transport
+C22	variation domain selected from assembly alone
+C23	WRL spliced onto a complete S3 control
+C24	missing or unresolved completion row promoted to pass
+C25	production and independent algebra mismatch
+C26	source identity corruption
