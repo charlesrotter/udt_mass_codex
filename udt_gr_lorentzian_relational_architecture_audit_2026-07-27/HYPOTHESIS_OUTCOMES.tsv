@@ -1,0 +1,11 @@
+hypothesis_id	outcome	exact_conclusion	source_ids
+H01	SUPPORTED_SCOPED	A supplied Lorentzian metric fixes an orthonormal-frame gauge class but does not generally choose a unique observer-adapted tetrad or global section	S04;S16
+H02	SUPPORTED_SCOPED	Separated direction/frame comparison is path-labelled connection transport; endpoint-only metric comparison does not identify directions at distinct points	S10;S14
+H03	SUPPORTED_SCOPED	Curvature generates holonomy in the theorem's scope; nontrivial holonomy obstructs generic path independence while invariant subspaces may remain	S05;S10;S14
+H04	SUPPORTED_EXACT_LOCAL_SCOPE	World-function transfer formulas assume a normal convex neighborhood with one connecting geodesic; no arbitrary-global single-valued claim survives	S02;S13
+H05	SUPPORTED_SCOPED	Optical comparison requires source/observer events and a null connection or congruence; reciprocity is geometrical and hypothesis-bearing rather than a universal path-free frame law	S03;S06;S12;S13
+H06	SUPPORTED_EXACT_LOCAL_SCOPE	EPS obtains conformal/projective/Weyl/metric layers only from registered light/free-fall primitives and compatibility/integrability conditions	S07
+H07	SUPPORTED_EXACT	Observer-space recovery of spacetime has explicit integrability, completeness, and quotient gates	S15
+H08	SUPPORTED_MATHEMATICAL_ARCHITECTURE	Bundle plus connection is equivalent to a smooth path-transport functor without selection of a preferred global section	S14
+H09	SUPPORTED_SCOPED_INFERENCE	Initial data and field equations select a maximal metric development up to the stated equivalence; local Lorentz covariance still does not canonically fix an observer tetrad	S09;S16;S18
+H10	LEAD_ONLY_CONSISTENT	UDT should derive or fail an equivariant bundle/descent/transport structure before demanding a preferred complete extension; this is a dependency-order lead only	S10;S14;S15;S16

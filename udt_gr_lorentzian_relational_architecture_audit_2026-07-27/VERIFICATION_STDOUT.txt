@@ -1,0 +1,36 @@
+{
+  "catch_proofs": [
+    {"catch": "missing_source", "result": "REJECTED_AS_REQUIRED"},
+    {"catch": "duplicate_source", "result": "REJECTED_AS_REQUIRED"},
+    {"catch": "bad_primary_locator", "result": "REJECTED_AS_REQUIRED"},
+    {"catch": "promote_metadata_only_source", "result": "REJECTED_AS_REQUIRED"},
+    {"catch": "drop_path_from_transport", "result": "REJECTED_AS_REQUIRED"},
+    {"catch": "drop_global_gate_from_world_function", "result": "REJECTED_AS_REQUIRED"},
+    {"catch": "drop_observer_from_frequency_transfer", "result": "REJECTED_AS_REQUIRED"},
+    {"catch": "automatic_observer_space_quotient", "result": "REJECTED_AS_REQUIRED"},
+    {"catch": "promote_H10_to_derived", "result": "REJECTED_AS_REQUIRED"},
+    {"catch": "gauge_away_seven_UDT_directions", "result": "REJECTED_AS_REQUIRED"},
+    {"catch": "remove_seven_direction_disclosure", "result": "REJECTED_AS_REQUIRED"},
+    {"catch": "import_Einstein_equations", "result": "REJECTED_AS_REQUIRED"},
+    {"catch": "remove_GR_dynamics_disclosure", "result": "REJECTED_AS_REQUIRED"},
+    {"catch": "promote_open_UDT_status", "result": "REJECTED_AS_REQUIRED"},
+    {"catch": "lose_independent_fact", "result": "REJECTED_AS_REQUIRED"}
+  ],
+  "counts": {
+    "architecture_rows": 15,
+    "crosswalk_rows": 10,
+    "dependency_cells": 150,
+    "hypothesis_rows": 10,
+    "independent_fact_rows": 12,
+    "source_rows": 18
+  },
+  "grade_ceiling": "VERIFIED_WITH_CAVEATS_NO_FRESH_MODEL_CONTEXT",
+  "hashes": {
+    "HYPOTHESIS_OUTCOMES.tsv": "e19a3526c98007862c189af7933a8a02df3bf32683ba1e7f63a029205af20898",
+    "INDEPENDENT_SOURCE_FACTS.tsv": "e37f4ac1bcff351ce73f8c0a05c0ea3cec366f496abc14e18963bc2dbabf0f05",
+    "RELATIONAL_ARCHITECTURE_MATRIX.tsv": "70d710e4f2905208d877534a685d51723de7082cf44edccb82c13c8b2d5ce15e",
+    "SOURCE_VERIFICATION.tsv": "4be070911b3547a706d342e296487b2a6f62017cb9bbfd7e470d91dd5ce5afbb",
+    "UDT_CROSSWALK.tsv": "e8a0bc7e9e32714bd00693eb811a929267249c03e4d2da249d98ea9dabc847f4"
+  },
+  "verdict": "PASS"
+}

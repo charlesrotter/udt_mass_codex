@@ -1,0 +1,8 @@
+{
+  "compute": "CPU_ONLY_DOCUMENT_AND_STANDARD_LIBRARY",
+  "network_role": "PRIMARY_SOURCE_RETRIEVAL_ONLY",
+  "platform": "Linux 6.8.0-124-generic x86_64",
+  "python": "3.10.12",
+  "third_party_runtime_dependencies": [],
+  "result": "PASS"
+}

@@ -1,0 +1,6 @@
+git checkout grok
+git fetch origin
+git pull --ff-only origin grok
+git status --short --branch
+git log -8 --oneline
+python3 udt_gr_lorentzian_relational_architecture_audit_2026-07-27/verify_relational_architecture.py
