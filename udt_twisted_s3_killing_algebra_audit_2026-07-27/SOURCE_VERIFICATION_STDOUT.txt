@@ -1,0 +1,5 @@
+{
+  "result": "PASS",
+  "rows": 16,
+  "schema": "udt.twisted_s3_killing.sources.v1"
+}

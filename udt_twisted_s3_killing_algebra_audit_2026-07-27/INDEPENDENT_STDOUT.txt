@@ -1,0 +1,36 @@
+{
+  "agreement_pass": true,
+  "determinant_relative_error": 1.0069467326020493e-12,
+  "device": "cpu",
+  "dtype": "float64",
+  "invariant_gradient_determinant": 0.002077212987976167,
+  "invariant_gradient_matrix": [
+    [
+      -0.41218274999999993,
+      -0.4706571666666665,
+      -0.3355482499999999
+    ],
+    [
+      -2.5477620192480903,
+      -2.9564742325239566,
+      -2.7383038564942703
+    ],
+    [
+      -7.469680553248204,
+      -8.686195582139767,
+      -8.177840162578997
+    ]
+  ],
+  "invariants_at_origin": [
+    5.856529166666666,
+    10.850941469600691,
+    20.574681047195583
+  ],
+  "max_gradient_absolute_error": 3.552713678800501e-15,
+  "max_gradient_relative_error": 6.008362325159738e-16,
+  "method": "full_sqrt_exp_metric_cpu_torch_nested_automatic_differentiation",
+  "primary_exact_determinant_float": 0.0020772129879740755,
+  "rank_three": true,
+  "schema": "udt.twisted_s3_killing_algebra.independent.v1",
+  "torch_version": "2.5.1+cu121"
+}

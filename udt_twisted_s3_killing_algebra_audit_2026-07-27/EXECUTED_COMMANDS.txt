@@ -1,0 +1,14 @@
+python3 --version
+python3 -c "import platform,sympy,torch; print(platform.platform()); print('sympy',sympy.__version__); print('torch',torch.__version__); print('cuda_used',False)"
+python3 udt_twisted_s3_killing_algebra_audit_2026-07-27/derive_killing_algebra.py
+python3 udt_twisted_s3_killing_algebra_audit_2026-07-27/derive_killing_algebra.py --lambda-value 0 --output CONTROL_LAMBDA_0.json
+python3 udt_twisted_s3_killing_algebra_audit_2026-07-27/derive_killing_algebra.py --lambda-value 1 --output CONTROL_LAMBDA_1.json
+python3 udt_twisted_s3_killing_algebra_audit_2026-07-27/derive_killing_algebra.py --a 0 --output CONTROL_A_0.json
+python3 udt_twisted_s3_killing_algebra_audit_2026-07-27/derive_killing_algebra.py --lambda-value symbolic --output SYMBOLIC_LAMBDA_RESULT.json
+python3 udt_twisted_s3_killing_algebra_audit_2026-07-27/classify_symbolic_lambda_roots.py
+python3 udt_twisted_s3_killing_algebra_audit_2026-07-27/verify_killing_algebra_independent.py
+python3 udt_twisted_s3_killing_algebra_audit_2026-07-27/verify_source_manifest.py
+python3 udt_twisted_s3_killing_algebra_audit_2026-07-27/verify_audit.py
+python3 udt_twisted_s3_killing_algebra_audit_2026-07-27/build_manifest.py
+python3 udt_twisted_s3_killing_algebra_audit_2026-07-27/verify_repository_gates.py
+python3 -m pytest -q tests/

@@ -1,0 +1,12 @@
+{
+  "all_parameter_function_space_classified": false,
+  "catch_proofs": "20/20",
+  "exact_rank_determinant_nonzero": true,
+  "full_unrestricted_killing_algebra": "ONE_DIMENSIONAL_FOR_EXPLICIT_COMPLETE_WITNESS",
+  "independent_full_expression_check": "PASS",
+  "physical_branch_selected": false,
+  "same_branch_depth_twist": "PASS",
+  "schema": "udt.twisted_s3_killing_algebra.verification.v1",
+  "status": "PASS",
+  "strata": "12/12"
+}

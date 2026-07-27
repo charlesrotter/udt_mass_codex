@@ -1,0 +1,47 @@
+{
+  "determinant_polynomial_not_identically_zero": true,
+  "global_phi_absolute_bound": "7/20",
+  "global_profile": "19*x**3/400 + 7*x**2/400 + 17*x*y*z/400 + x*y/100 + 3*x*z/200 + x/400 + 23*y**3/400 + 11*y**2/400 + y*z/80 + y/200 + 29*z**3/400 + 13*z**2/400 + 3*z/400",
+  "global_profile_smooth": true,
+  "global_spatial_completion": "unit_quaternion_S3",
+  "invariant_gradient_determinant": "-2185100635688874153/320000000000000000000000",
+  "invariant_gradient_determinant_nonzero": true,
+  "invariant_gradient_matrix": [
+    [
+      "-4677993/8000000",
+      "-2876293/4000000",
+      "-7308779/8000000"
+    ],
+    [
+      "-500248130849/160000000000",
+      "-304284582749/80000000000",
+      "-769193788947/160000000000"
+    ],
+    [
+      "-114011120450070771/12800000000000000",
+      "-69306507835520871/6400000000000000",
+      "-175142158369127913/12800000000000000"
+    ]
+  ],
+  "invariants_at_origin": [
+    "228393/40000",
+    "16476866849/1600000000",
+    "1217103897250257/64000000000000"
+  ],
+  "inverse_jet_identity": true,
+  "maximum_interpretation": "configuration_existence_only_no_profile_or_dynamics_selection",
+  "method": "exact_total_degree_3_metric_jet_and_intrinsic_Ricci_power_invariants",
+  "metric_origin_determinant": "-1",
+  "open_set_rank_three": true,
+  "parameters": {
+    "R": "1",
+    "a": "1/10",
+    "c_E": "1",
+    "lambda": "1"
+  },
+  "real_exceptional_lambda_approximations_for_this_profile": [],
+  "schema": "udt.twisted_s3_killing_algebra.derivation.v1",
+  "stationary_norm_nonconstant": true,
+  "strict_slice_globally_certified": true,
+  "twist_nonzero_for_nonzero_kappa": true
+}

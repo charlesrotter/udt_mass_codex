@@ -1,0 +1,46 @@
+{
+  "determinant_polynomial_not_identically_zero": true,
+  "global_phi_absolute_bound": "7/20",
+  "global_profile": "19*x**3/400 + 7*x**2/400 + 17*x*y*z/400 + x*y/100 + 3*x*z/200 + x/400 + 23*y**3/400 + 11*y**2/400 + y*z/80 + y/200 + 29*z**3/400 + 13*z**2/400 + 3*z/400",
+  "global_profile_smooth": true,
+  "global_spatial_completion": "unit_quaternion_S3",
+  "invariant_gradient_determinant": "-3*(1656889344000*lambda**9 - 10003991355582480*lambda**8 + 2125162735833716754*lambda**7 + 4559074844480773461609*lambda**6 + 177710894654809598788376*lambda**5 - 6762622943718740220315087*lambda**4 + 54134505194224133829860790*lambda**3 - 125098324337900448009633657*lambda**2 + 116847218972701424875012000*lambda - 39295590493129577524210065)/3276800000000000000000000000",
+  "invariant_gradient_determinant_nonzero": null,
+  "invariant_gradient_matrix": [
+    [
+      "9*(3*lambda**2 - 920359*lambda - 119198)/16000000",
+      "(3627*lambda**2 - 5968031*lambda + 211818)/8000000",
+      "-(50319*lambda**2 + 27662493*lambda - 13095254)/16000000"
+    ],
+    [
+      "-(243*lambda**4 - 60823641*lambda**3 - 111935803914*lambda**2 + 1297962571301*lambda + 815026579407)/640000000000",
+      "-(32643*lambda**4 + 2231559*lambda**3 - 73608073314*lambda**2 + 935875062301*lambda + 354869077807)/320000000000",
+      "(452871*lambda**4 + 798843723*lambda**3 + 308126878142*lambda**2 - 4488014397903*lambda + 1102313067379)/640000000000"
+    ],
+    [
+      "3*(2187*lambda**6 - 423603756*lambda**5 - 1711048122852*lambda**4 - 1473291006362445*lambda**3 + 35935524398765956*lambda**2 - 203971814305746839*lambda - 134518362148454307)/102400000000000000",
+      "3*(293787*lambda**6 + 523761444*lambda**5 - 517176870252*lambda**4 - 904568418306845*lambda**3 + 23384855153367356*lambda**2 - 146782719338650439*lambda - 60514404971650707)/51200000000000000",
+      "-3*(4075839*lambda**6 + 12136324068*lambda**5 + 11695032646956*lambda**4 + 3437324712461735*lambda**3 - 100663665443832268*lambda**2 + 724214449317926117*lambda - 159954060108594679)/102400000000000000"
+    ]
+  ],
+  "invariants_at_origin": [
+    "-(27*lambda**2 + 35164*lambda - 491977)/80000",
+    "(243*lambda**4 + 633114*lambda**3 + 411489376*lambda**2 - 11302826814*lambda + 76798171477)/6400000000",
+    "-(2187*lambda**6 + 8547039*lambda**5 + 11227355163*lambda**4 + 4796384646280*lambda**3 - 200759331289119*lambda**2 + 2716662687959721*lambda - 12257542155223327)/512000000000000"
+  ],
+  "inverse_jet_identity": true,
+  "maximum_interpretation": "configuration_existence_only_no_profile_or_dynamics_selection",
+  "method": "exact_total_degree_3_metric_jet_and_intrinsic_Ricci_power_invariants",
+  "metric_origin_determinant": "-1",
+  "open_set_rank_three": null,
+  "parameters": {
+    "R": "1",
+    "a": "1/10",
+    "c_E": "1",
+    "lambda": "lambda"
+  },
+  "schema": "udt.twisted_s3_killing_algebra.derivation.v1",
+  "stationary_norm_nonconstant": true,
+  "strict_slice_globally_certified": true,
+  "twist_nonzero_for_nonzero_kappa": true
+}

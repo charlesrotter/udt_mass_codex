@@ -1,0 +1,16 @@
+{
+  "denominator": "3276800000000000000000000000",
+  "polynomial_degree": 9,
+  "real_root_approximations": [
+    -531.2074945592605,
+    -66.7100688395209,
+    0.9974486472543619,
+    7.908995903464854,
+    14.840958675145949,
+    880.3834288376955,
+    5729.570126460059
+  ],
+  "real_root_count": 7,
+  "schema": "udt.twisted_s3_killing_algebra.symbolic_lambda_roots.v1",
+  "semantics": "certificate_inconclusive_at_roots_not_extra_symmetry"
+}
