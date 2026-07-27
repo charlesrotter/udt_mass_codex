@@ -1,0 +1,19 @@
+object	status	evidence	open_scope
+path_universe	CENSUSED_36_PATHS_144_CHECKPOINTS	PATH_UNIVERSE.tsv;CHECKPOINT_ATLAS.tsv	longer/all-direction/global paths
+local_mixing_anchor	DERIVED_EXACT	P00 dv2=0.04 dv3=0.08	other profiles
+coordinate_frame_curvature_agreement	VERIFIED_144_OF_144	maximum scaled error 2.114538917956446e-10	arbitrary points
+geodesic_and_parallel_transport	OBSERVED_CERTIFIED_BOUNDED	all residual gates pass	global completeness
+endpoint_clock_law	DERIVED_AND_NUMERICALLY_REPLAYED_BRANCH_SPECIFIC	maximum residual 6.661338147750939e-16	arbitrary observers/nonstationary branches
+screen_mixing	OBSERVED_ALL_36_ENDPOINTS_NONZERO	leakage range 1.6557e-4 to 6.1125e-3	full path/profile space
+full_Jacobi_M	OBSERVED_SYMPLECTIC_COMPOSABLE_BOUNDED	max symplectic 7.5298e-11 composition 4.9960e-16	long paths
+projected_caustic	NOT_OBSERVED_IN_BOUNDED_PATHS	detB positive 144/144	longer paths/cut loci
+RK4_independent_holdout	VERIFIED_6_OF_6	max difference 2.9621e-13	remaining paths use convergence/composition gates
+WRL_raw_scale_comparison	NONPHYSICAL_WITHOUT_MACRO_CALIBRATION	R=1 off-shell family	selected macro scale
+WRL_normalized_shape	OBSERVED_NO_EXACT_MATCH	rms 0.02438 to 0.13924	on-shell branches and longer paths
+lambda_minus_two_complement	TAUTOLOGICAL_ALGEBRA_NOT_JACOBI_RESULT	24/24 exact by definition	physical optical bridge
+lambda_ranking	CONFLICTS_BY_PATH_NO_SELECTION	plus/minus group rankings; endpoints win	complete candidate axis and physical selector
+copresence	WORKING_INTERPRETIVE_FRAME	carried only	operational consequence
+metric_causal_structure	DERIVED_CONDITIONAL	Lorentzian metric	matter signal response
+instantaneous_operational_access	NOT_DERIVED	authority boundary	signalling theorem
+complete_whole_solution_law	OPEN	authority boundary	on-shell selector
+action_source_carrier_boundary_density_bootstrap_mass_Xmax_dynamics	OPEN_OR_CONDITIONAL_UNCHANGED	authority boundary	complete physics

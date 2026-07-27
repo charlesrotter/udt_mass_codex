@@ -1,0 +1,12 @@
+{
+  "CUDA_VISIBLE_DEVICES": "",
+  "cpu_only": true,
+  "dtype": "float64",
+  "independent_command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 udt_intrinsic_optical_transport_atlas_2026-07-27/verify_transport_independent.py",
+  "numpy": "2.2.6",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "production_command": "PYTHONDONTWRITEBYTECODE=1 CUDA_VISIBLE_DEVICES= python3 udt_intrinsic_optical_transport_atlas_2026-07-27/integrate_transport_atlas.py",
+  "python": "3.10.12",
+  "scipy": "1.15.3",
+  "torch": "2.5.1+cu121"
+}

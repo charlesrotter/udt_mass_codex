@@ -1,0 +1,17 @@
+{
+  "RK4_holdouts": 6,
+  "all_endpoint_screens_mixed": true,
+  "catch_proofs": "24/24",
+  "checkpoints": 144,
+  "geometry_holdouts": 144,
+  "lambda_selected": false,
+  "numerical_gates": "10/10",
+  "paths": 36,
+  "projected_caustics": 0,
+  "schema": "udt-intrinsic-optical-transport-verification-1.0",
+  "status": "PASS",
+  "winner_counts": {
+    "lambda_-2": 2,
+    "lambda_2": 4
+  }
+}

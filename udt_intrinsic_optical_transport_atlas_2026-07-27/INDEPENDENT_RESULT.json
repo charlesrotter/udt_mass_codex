@@ -1,0 +1,19 @@
+{
+  "RK4_holdouts": 6,
+  "RK4_uses_same_geometry_different_integrator": true,
+  "coordinate_geometry_holdouts": 144,
+  "coordinate_geometry_implementation_uses_production_geometry": false,
+  "cpu_only": true,
+  "maximum_RK4_DOP853_difference": 2.9620750296999176e-13,
+  "maximum_coordinate_frame_scaled_error": 2.114538917956446e-10,
+  "north_local_anchor": {
+    "E1phi": 0.06,
+    "E2phi": 0.02,
+    "E3phi": 0.04,
+    "geodesic_dv2": 0.04,
+    "geodesic_dv3": 0.08
+  },
+  "schema": "udt-intrinsic-optical-transport-independent-1.0",
+  "status": "PASS",
+  "torch_version": "2.5.1+cu121"
+}

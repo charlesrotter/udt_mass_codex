@@ -1,0 +1,74 @@
+{
+  "SNe_fit_performed": false,
+  "checkpoints": 144,
+  "cpu_only": true,
+  "dtype": "float64",
+  "endpoint_screen_leakage_max": 0.006112492570157176,
+  "endpoint_screen_leakage_min": 0.00016557276449080205,
+  "lambda_selected": false,
+  "lambda_summary": {
+    "-1": {
+      "paths": 6,
+      "screen_leakage_max": 0.005638066418573856,
+      "screen_leakage_min": 0.00016875397288630667,
+      "shape_rms_max": 0.13475819506075157,
+      "shape_rms_min": 0.028386246785820843
+    },
+    "-2": {
+      "paths": 6,
+      "screen_leakage_max": 0.006112492570157176,
+      "screen_leakage_min": 0.00016557276449080205,
+      "shape_rms_max": 0.13924125182995242,
+      "shape_rms_min": 0.029840539151648533
+    },
+    "0": {
+      "paths": 6,
+      "screen_leakage_max": 0.005202555201428005,
+      "screen_leakage_min": 0.0001720023457875412,
+      "shape_rms_max": 0.13062096587739858,
+      "shape_rms_min": 0.027003093873995226
+    },
+    "0.5": {
+      "paths": 6,
+      "screen_leakage_max": 0.0049983001669558725,
+      "screen_leakage_min": 0.00017365215487870215,
+      "shape_rms_max": 0.1286716975138189,
+      "shape_rms_min": 0.0263325022032093
+    },
+    "1": {
+      "paths": 6,
+      "screen_leakage_max": 0.0048025065836730515,
+      "screen_leakage_min": 0.0001753192817277963,
+      "shape_rms_max": 0.12679697783609004,
+      "shape_rms_min": 0.025673203336172443
+    },
+    "2": {
+      "paths": 6,
+      "screen_leakage_max": 0.004434806718677281,
+      "screen_leakage_min": 0.00017870620732382238,
+      "shape_rms_max": 0.12325746643696502,
+      "shape_rms_min": 0.024381290173091336
+    }
+  },
+  "normalized_shape_rms_max": 0.13924125182995242,
+  "normalized_shape_rms_min": 0.024381290173091336,
+  "numerical_maxima": {
+    "anchor_error": 0.0,
+    "composition_residual": 4.996003610813204e-16,
+    "convergence_difference": 1.1102230246251565e-15,
+    "max_clock_law_residual": 6.661338147750939e-16,
+    "max_curvature_asymmetry": 3.438948431577771e-10,
+    "max_detM_residual": 6.661338147750939e-16,
+    "max_k_screen_residual": 6.938893903907228e-17,
+    "max_killing_energy_drift": 6.661338147750939e-16,
+    "max_null_residual": 2.0928354535487692e-15,
+    "max_screen_gram_residual": 1.4432899320127035e-15,
+    "max_symplectic_residual": 7.529826947025403e-11
+  },
+  "numpy_version": "2.2.6",
+  "on_shell_claimed": false,
+  "paths": 36,
+  "schema": "udt-intrinsic-optical-transport-atlas-1.0",
+  "scipy_version": "1.15.3",
+  "status": "PASS"
+}
