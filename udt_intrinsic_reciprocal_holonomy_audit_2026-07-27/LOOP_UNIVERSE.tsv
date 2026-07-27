@@ -1,0 +1,7 @@
+loop_id	kind	parameterization	interval	purpose
+G1	global_great_circle	q=(cos(s),sin(s),0,0)	0..2pi	left_invariant_sigma1
+G2	global_great_circle	q=(cos(s),0,sin(s),0)	0..2pi	left_invariant_sigma2
+G3	global_great_circle	q=(cos(s),0,0,sin(s))	0..2pi	left_invariant_sigma3_Hopf_fiber
+L12	chart_contractible	x=(rho*cos(s),rho*sin(s),0);rho=1/5	0..2pi	coordinate_plane_12
+L23	chart_contractible	x=(0,rho*cos(s),rho*sin(s));rho=1/5	0..2pi	coordinate_plane_23
+L31	chart_contractible	x=(rho*sin(s),0,rho*cos(s));rho=1/5	0..2pi	coordinate_plane_31
