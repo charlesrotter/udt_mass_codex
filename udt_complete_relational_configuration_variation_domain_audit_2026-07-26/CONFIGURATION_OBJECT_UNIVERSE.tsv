@@ -1,0 +1,21 @@
+object_id	object	candidate_role	central_question
+O01	complete_Lorentzian_metric_g	physical_configuration	is the full metric the current physical arena
+O02	complete_finite_cell_domain_boundary_topology	global_configuration	which global completion and boundary data are selected
+O03	coordinate_chart	presentation	is a chart physical or gauge
+O04	orthonormal_coframe	presentation	is a coframe physical or gauge
+O05	angular_and_pair_screen_metric_components	physical_configuration	are angular and mixing slots retained
+O06	abstract_founded_phi	reciprocal_group_coordinate	is founded phi an independent field
+O07	physical_signed_depth_assignment_delta	derived_relational_candidate	what maps a typed arrow to founded depth
+O08	ordered_observer_ruler_pair_u_n	relational_query	field or label
+O09	comparison_path_gamma	relational_query	field or label
+O10	metric_path_geometry_U_M_holonomy	derived_relational	what follows from g and gamma
+O11	reciprocal_family_X_lambda_u_n	conditional_relational_representation	field or derived family
+O12	screen_weight_lambda	unselected_parameter	field branch parameter or representation modulus
+O13	screen_rotation_omega_or_oriented_screen_basis	presentation_gauge	physical or gauge
+O14	democratic_1plus3_lift_X_1	conditional_special_lift	rival ontology or special stratum
+O15	complete_branch_label	global_sector	continuous field or sector label
+O16	boundary_embedding_and_boundary_data	global_boundary	fixed varied or selected
+O17	observational_anchors_c_E_G_obs	calibration	configuration or fixed anchors
+O18	carrier_source_mass_density_fields	absent_conditional_physics	present in current founded domain or not
+O19	offshell_response_or_action	absent_dynamical_structure	configuration input or downstream law
+O20	independent_atlas_scalar_phi_slot	comparison_configuration	is the old expanded scalar native

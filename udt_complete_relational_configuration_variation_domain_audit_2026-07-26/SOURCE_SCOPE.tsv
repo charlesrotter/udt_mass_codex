@@ -1,0 +1,22 @@
+source_path	role	allowed_use
+LIVE.md	current_authority	current status and dependency order
+CURRENT_SCIENTIFIC_PREMISES.md	premise_precedence	founded phi inactive CSN and anchors
+CURRENT_SCIENTIFIC_PREMISES.tsv	premise_registry	exact current premise rows
+udt_founded_phi_complete_coframe_extension_audit_2026-07-25/AUDIT_REPORT.md	founded_phi_extension	derived phi and open complete extension
+udt_founded_phi_complete_coframe_extension_audit_2026-07-25/EXTENSION_CLASS_LEDGER.tsv	extension_counts	bounded extension classes
+udt_complete_coframe_native_selector_audit_2026-07-26/AUDIT_REPORT.md	selector_rank	zero active selector rank in registered class
+udt_complete_coframe_native_selector_audit_2026-07-26/EXACT_DERIVATION.md	selector_algebra	physical metric tangent and variation consequence
+udt_founded_pair_global_alignment_audit_2026-07-26/AUDIT_REPORT.md	pair_alignment	local physical pair and global remainder
+udt_founded_pair_global_alignment_audit_2026-07-26/EXACT_DERIVATION.md	alignment_algebra	invariant pair and screen complement
+udt_covariant_reciprocal_coframe_lift_atlas_2026-07-26/AUDIT_REPORT.md	lift_atlas	lambda family and democratic collapse
+udt_covariant_reciprocal_coframe_lift_atlas_2026-07-26/EXACT_DERIVATION.md	lift_algebra	exact X_lambda and commutator relations
+udt_observer_pair_path_groupoid_assembly_audit_2026-07-26/AUDIT_REPORT.md	groupoid	ordered pair path objects and depth gap
+udt_observer_pair_path_groupoid_assembly_audit_2026-07-26/EXACT_DERIVATION.md	groupoid_algebra	typed composition and screen gauge
+udt_metric_native_signed_depth_availability_audit_2026-07-26/AUDIT_REPORT.md	depth_gap	zero registered complete depth routes
+udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md	dof_precedence	generic metric arena versus native field count
+udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md	response_order	offshell response and action dependency
+udt_relational_metric_fixed_point_typing_audit_2026-07-26/AUDIT_REPORT.md	architecture	one-form typing and absent fixed point
+udt_relational_metric_fixed_point_typing_audit_2026-07-26/EXACT_ARCHITECTURE.md	architecture_detail	type-correct dependency ordering
+udt_complete_branch_founded_pair_pullback_audit_2026-07-26/AUDIT_REPORT.md	global_controls	complete branch pullback witnesses and countermodels
+UDT_SCIENTIFIC_FRONTIER_2026-07-19.md	frontier	historical/current scope distinctions
+AGENTS.md	method	binding evidence and claim discipline

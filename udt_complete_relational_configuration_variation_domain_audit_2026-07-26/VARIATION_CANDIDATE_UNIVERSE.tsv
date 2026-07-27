@@ -1,0 +1,19 @@
+variation_id	candidate_change	candidate_domain	question
+V01	full_delta_g_including_angular_and_mixing_slots	bulk_metric	must all metric directions remain available
+V02	infinitesimal_diffeomorphism	bulk_presentation	gauge or physical variation
+V03	local_Lorentz_coframe_change	coframe_presentation	gauge or physical variation
+V04	independent_delta_phi	bulk_scalar	legitimate independent native variation or double count
+V05	induced_delta_of_signed_depth_from_delta_g	derived_relational	available only after a depth functional exists
+V06	change_of_observer_pair_u_n	query_fiber	physical field variation or changed relational question
+V07	change_of_path_gamma	query_path_space	physical field variation or changed relational question
+V08	local_delta_lambda_x	bulk_parameter	is lambda authorized as spacetime field
+V09	constant_delta_lambda_between_representation_strata	family_parameter	is scanning distinct lambda values a field variation
+V10	screen_SO2_rotation_delta_omega	presentation_gauge	physical or gauge
+V11	change_of_complete_topology_or_quotient	global_sector	tangent variation or sector change
+V12	boundary_embedding_variation	global_boundary	selected fixed or open
+V13	boundary_data_variation	global_boundary	selected fixed or open
+V14	variation_of_c_E_or_G_obs	calibration	fixed anchors or varied fields
+V15	carrier_source_density_variation	conditional_field	available in current founded domain
+V16	response_or_action_variation	variational_law	can it precede selected domain
+V17	branch_selection_or_switch	global_sector	infinitesimal variation or discrete choice
+V18	full_pair_screen_extension_coefficients	pointwise_extension	fields modes or unselected lift data
