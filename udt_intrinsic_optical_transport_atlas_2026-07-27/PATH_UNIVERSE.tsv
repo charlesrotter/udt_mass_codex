@@ -1,0 +1,4 @@
+event_id	x	y	z	directions	lambda_values	affine_length	checkpoints
+P00	0	0	0	plus;minus	-2;-1;0;1/2;1;2	1/4	1/16;1/8;3/16;1/4
+P01	1/4	-1/5	1/6	plus;minus	-2;-1;0;1/2;1;2	1/4	1/16;1/8;3/16;1/4
+P02	-1/3	1/7	1/5	plus;minus	-2;-1;0;1/2;1;2	1/4	1/16;1/8;3/16;1/4
