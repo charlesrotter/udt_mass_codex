@@ -1,0 +1,9 @@
+gate_id	gate	status	dependency
+G01	complete founded metric extension and global branch	OPEN	needed to instantiate L01+L02 physically
+G02	screen response lambda or more general lift	OPEN	needed to select O11 member
+G03	metric-native signed depth assignment	OPEN_ABSENT	needed to join abstract phi to typed arrows
+G04	physical pair/path/event-pairing rule	OPEN	needed to identify realized relational arrows
+G05	boundary embedding data and allowed variations	OPEN	needed for complete global domain
+G06	admissible bulk plus boundary variation domain	OPEN	needed before response or action
+G07	native offshell response and integrability	OPEN_ABSENT	downstream of G01-G06
+G08	native matter carrier source and density	OPEN_OR_CONDITIONAL	not part of current geometry-only domain

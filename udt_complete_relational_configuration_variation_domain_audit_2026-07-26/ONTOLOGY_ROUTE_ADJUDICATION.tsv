@@ -1,0 +1,9 @@
+route_id	route	status	ruling
+R01	metric_only_bare_events	INSUFFICIENT_FOR_FOUNDED_COMPARISON	Bare events do not select ordered clock/ruler data or signed depth.
+R02	single_global_rank_two_pair_subbundle	OPEN_NOT_SELECTED	No universal rank-two reciprocal subbundle is currently derived.
+R03	democratic_global_1plus3_lift	EXACT_SPECIAL_STRATUM_UNSELECTED	This is the lambda=1 collapse of R04 after a timelike observer line is supplied; global selection remains absent.
+R04	pair_indexed_X_lambda_family	CONDITIONAL_GENERAL_RELATIONAL_CONTAINER	Given g, typed pair/path inputs, and lambda, the family is covariant and composes on the path groupoid.
+R05	relational_configuration_stack	TYPE_SCAFFOLD_SUPPORTED_NOT_PHYSICALLY_SELECTED	Physical metric, query groupoid, and conditional derived readouts coexist as layers without becoming extra fields.
+R06	independent_scalar_field_phi	COMPARISON_ONLY_NOT_NATIVE	A free scalar is an enlarged comparison ontology and cannot replace founded phi precedence.
+R07	physical_coframe_as_extra_field	UNAUTHORIZED_GAUGE_PROMOTION	A coframe is not an extra physical field under the metric-is-the-theory rule.
+R08	full_dynamical_pair_frame_field	UNAUTHORIZED_QUERY_PROMOTION	No law makes every observer/ruler query label a dynamical field.

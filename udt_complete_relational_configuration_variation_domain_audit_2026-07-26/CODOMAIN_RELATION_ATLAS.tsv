@@ -1,0 +1,9 @@
+relation_id	source	target	relation	exact_meaning
+K01	R03	R04	EXACT_SUBSTRATUM	Set lambda=1: X_1(u,n)=-P_u+P_space, independent of n for fixed u.
+K02	R04	R03	NO_REVERSE_INCLUSION	For lambda not equal to 1, X_lambda generally depends on ruler direction n.
+K03	R04	O08+O09	FIBERED_OVER_QUERY_DATA	Pair and path labels are arguments of the relational family, not physical fields.
+K04	O13	O11	GAUGE_DROPS_OUT	Screen SO(2) changes commute with scalar-screen X_lambda.
+K05	R05	R04	CONDITIONAL_LAYER_INCLUDED	The stack can contain the pair-indexed readout layer without promoting it to physical configuration.
+K06	O06	O07	ABSTRACT_TO_PHYSICAL_MAP_OPEN	Founded phi does not itself assign depth to spacetime arrows.
+K07	O01	O11	NO_METRIC_ONLY_SELECTOR	Metric and scalar anchors alone have scalar Lorentz commutant and do not select the lift.
+K08	R05	O19	NO_DYNAMICAL_CLOSURE	Layering supplies no response, action, or fixed-point feedback.

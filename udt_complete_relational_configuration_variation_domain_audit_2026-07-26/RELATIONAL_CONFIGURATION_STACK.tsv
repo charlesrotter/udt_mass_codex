@@ -1,0 +1,9 @@
+layer_id	layer	objects	content	current_status
+L01	PHYSICAL_ARENA	O01+O05	complete metric with all angular and mixing content	SUPPORTED_ARENA_GLOBAL_REALIZATION_OPEN
+L02	GLOBAL_COMPLETION	O02+O15+O16	finite-cell domain topology sector and boundary data	OPEN
+L03	PRESENTATION_GAUGE	O03+O04+O13	charts coframes and screen orientation	QUOTIENT_NOT_EXTRA_FIELDS
+L04	RELATIONAL_QUERY	O08+O09	ordered observer/ruler pair and path arrow	SUPPLIED_INPUT_NOT_FIELD
+L05	METRIC_DERIVED_RELATIONAL	O10	distance transport Jacobi and holonomy	DERIVED_GIVEN_L01_L04
+L06	RECIPROCAL_REPRESENTATION	O06+O11+O12+O14	founded coordinate and conditional X_lambda family	PHI_DERIVED_LAMBDA_OPEN
+L07	PHYSICAL_DEPTH_READOUT	O07	metric-native signed arrow depth	OPEN_ABSENT
+L08	DOWNSTREAM_PHYSICS	O18+O19	matter source response action and closure	OPEN_OR_CONDITIONAL_EXCLUDED

@@ -1,0 +1,7 @@
+{
+  "cpu_only": true,
+  "external_dependencies": [],
+  "git_head": "34e94a147a0f67c9c16d9905d399c691e5be74d1",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]"
+}

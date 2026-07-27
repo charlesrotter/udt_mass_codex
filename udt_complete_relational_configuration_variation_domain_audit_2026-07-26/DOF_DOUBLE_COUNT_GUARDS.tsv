@@ -1,0 +1,11 @@
+guard_id	objects	item	rule	purpose
+D01	O06	founded phi	not an independent scalar field	prevents phi double count
+D02	O03+O04+O13	presentation data	quotient gauge directions	prevents chart/coframe/screen count
+D03	O08+O09	query labels	separate relational arguments	prevents observer/path field promotion
+D04	O10+O11	derived readouts	functions of supplied geometry/query/parameter	prevents readout-as-field count
+D05	O12	lambda	open representation parameter not lambda(x)	prevents invented scalar field
+D06	O15	global branch	sector label not local tangent	prevents topology-as-mode count
+D07	V18	extension tangents	available metric responses not propagating modes	prevents seven-field inference
+D08	O17	c_E and G_obs	fixed calibration anchors	prevents anchor variations
+D09	O18	matter/source	absent from current founded domain	prevents bootstrap import
+D10	O19	response/action	downstream operation	prevents action selecting domain circularly

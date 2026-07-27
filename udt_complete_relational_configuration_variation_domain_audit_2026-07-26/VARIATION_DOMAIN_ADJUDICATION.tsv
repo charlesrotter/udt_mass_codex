@@ -1,0 +1,19 @@
+variation_id	candidate_change	classification	domain_action	ruling
+V01	full_delta_g_including_angular_and_mixing_slots	OPEN_CANDIDATE_PHYSICAL_VARIATION	RETAIN	Full delta g, including angular and mixing slots, remains the honest candidate until a native restriction is derived.
+V02	infinitesimal_diffeomorphism	GAUGE_ORBIT_DIRECTION	QUOTIENT	Diffeomorphism presentation directions are not independent physical content.
+V03	local_Lorentz_coframe_change	GAUGE_ORBIT_DIRECTION	QUOTIENT	Local Lorentz coframe changes preserve the metric readout.
+V04	independent_delta_phi	FORBIDDEN_NATIVE_DOUBLE_COUNT	REJECT	Founded phi adds no independent field direction absent an arrow-to-depth field assignment.
+V05	induced_delta_of_signed_depth_from_delta_g	CONDITIONAL_INDUCED_VARIATION	OPEN	Delta of depth can be induced from delta g only after the depth functional exists.
+V06	change_of_observer_pair_u_n	RELATIONAL_QUERY_CHANGE	SEPARATE	Changing u,n changes the comparison question, not the physical solution.
+V07	change_of_path_gamma	RELATIONAL_QUERY_CHANGE	SEPARATE	Changing gamma changes the path-labelled arrow, not automatically the metric.
+V08	local_delta_lambda_x	UNAUTHORIZED_FIELD_PROMOTION	REJECT	No source licenses local lambda(x) or its gradients.
+V09	constant_delta_lambda_between_representation_strata	PARAMETER_STRATUM_SCAN	SEPARATE	Comparing constant lambda strata is an atlas scan, not an off-shell field variation.
+V10	screen_SO2_rotation_delta_omega	GAUGE_ORBIT_DIRECTION	QUOTIENT	Screen SO(2) orientation is presentation gauge for scalar-screen X_lambda.
+V11	change_of_complete_topology_or_quotient	GLOBAL_SECTOR_CHANGE	SEPARATE	Topology or quotient changes are not ordinary infinitesimal bulk tangents.
+V12	boundary_embedding_variation	OPEN_BOUNDARY_VARIATION	OPEN	Whether the boundary embedding moves is not selected.
+V13	boundary_data_variation	OPEN_BOUNDARY_VARIATION	OPEN	Which boundary data vary is not selected.
+V14	variation_of_c_E_or_G_obs	FIXED_CALIBRATION_CHANGE	REJECT	Observed anchors are held fixed in the configuration problem.
+V15	carrier_source_density_variation	ABSENT_CONDITIONAL_FIELD_VARIATION	REJECT_CURRENTLY	Matter/source/density fields are not yet native members of the founded domain.
+V16	response_or_action_variation	DOWNSTREAM_VARIATIONAL_OPERATION	REJECT_AS_DOMAIN_INPUT	A response/action cannot define its own domain without an additional selector premise.
+V17	branch_selection_or_switch	GLOBAL_SECTOR_SELECTION	SEPARATE	Choosing a branch is discrete/global selection, not a local bulk variation.
+V18	full_pair_screen_extension_coefficients	UNRESOLVED_LIFT_TIE_DATA	DO_NOT_COUNT_AS_FIELDS	Seven bounded lift tangents show available metric responses, not seven new propagating fields.
