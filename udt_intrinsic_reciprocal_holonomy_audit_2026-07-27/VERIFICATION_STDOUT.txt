@@ -1,0 +1,15 @@
+{
+  "Lorentz_inversion_conjugate_count": 0,
+  "RK4_holdouts": 12,
+  "catch_proofs": "24/24",
+  "coordinate_holdouts": 18,
+  "curvature_rows": 18,
+  "curvature_span_rank": 6,
+  "exact_nonparallel_anchor": "-3/25",
+  "local_rows": 18,
+  "loop_transports": 36,
+  "numerical_gates": "7/7",
+  "ordinary_loop_nonclosure_count": 36,
+  "schema": "udt-intrinsic-reciprocal-holonomy-verification-1.0",
+  "status": "PASS"
+}

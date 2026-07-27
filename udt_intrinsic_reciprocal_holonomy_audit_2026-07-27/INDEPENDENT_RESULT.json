@@ -1,0 +1,18 @@
+{
+  "RK4_holdouts": 12,
+  "RK4_uses_same_geometry_different_integrator": true,
+  "coordinate_curvature_holdouts": 18,
+  "coordinate_geometry_implementation_uses_production_geometry": false,
+  "cpu_only": true,
+  "exact_P00_nabla_E0_X_0_1": "-3/25",
+  "independent_curvature_span_ranks": [
+    6
+  ],
+  "inversion_signature_rows": 6,
+  "maximum_RK4_DOP853_difference": 4.428124533717437e-13,
+  "maximum_coordinate_frame_scaled_error": 2.0532409106266414e-10,
+  "sampled_X_and_minus_X_Lorentz_conjugate_count": 0,
+  "schema": "udt-intrinsic-reciprocal-holonomy-independent-1.0",
+  "status": "PASS",
+  "torch_version": "2.5.1+cu121"
+}

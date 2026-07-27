@@ -1,0 +1,41 @@
+{
+  "all_configurations_off_shell": true,
+  "centralizer_dimensions": [
+    1,
+    3
+  ],
+  "cpu_only": true,
+  "curvature_span_ranks": [
+    6
+  ],
+  "events": 3,
+  "exact_P00_anchor_independent_of_lambda": true,
+  "exact_P00_nabla_E0_X_0_1": "-3/25",
+  "float64": true,
+  "lambda_values": [
+    -2.0,
+    -1.0,
+    0.0,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "lie_closure_ranks": [
+    6
+  ],
+  "loop_transports": 36,
+  "loops_per_branch": 6,
+  "loops_with_nonzero_ordinary_closure_residual": 36,
+  "maximum_curvature_lorentz_residual": 2.220446049250313e-16,
+  "maximum_global_chart_coframe_scaled_error": 0.0,
+  "maximum_global_chart_connection_scaled_error": 8.247252591551378e-17,
+  "maximum_loop_composition_residual": 2.886579864025407e-15,
+  "maximum_loop_convergence_residual": 7.327471962526033e-15,
+  "maximum_loop_lorentz_residual": 7.549516567451064e-15,
+  "minimum_loop_nonidentity": 0.13071754167344443,
+  "minimum_odd_closure_residual": 2.000000022251438,
+  "minimum_ordinary_closure_residual": 0.006996391463313088,
+  "ordinary_holonomy_is_not_reciprocal_inversion": true,
+  "schema": "udt-intrinsic-reciprocal-holonomy-1.0",
+  "status": "COMPUTED"
+}
