@@ -1,0 +1,19 @@
+source_id	path	role
+S01	LIVE.md	current controlling frontier
+S02	CURRENT_SCIENTIFIC_PREMISES.md	premise precedence narrative
+S03	CURRENT_SCIENTIFIC_PREMISES.tsv	machine premise registry
+S04	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/AUDIT_REPORT.md	founded phi and open extension
+S05	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/EXTENSION_CLASS_LEDGER.tsv	exact extension class
+S06	udt_xmax_observer_separation_audit_2026-07-24/AUDIT_REPORT.md	working Xmax type
+S07	udt_xmax_observer_separation_audit_2026-07-24/EXACT_DERIVATION.md	diameter radius angular controls
+S08	udt_xmax_observer_separation_audit_2026-07-24/STATUS_LEDGER.tsv	Xmax statuses
+S09	udt_two_observer_separation_selector_audit_2026-07-24/AUDIT_REPORT.md	complete metric distance candidates
+S10	udt_two_observer_separation_selector_audit_2026-07-24/EXACT_DERIVATION.md	causal type and metric construction
+S11	udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md	bilocal depth and scalar obstruction
+S12	udt_relational_pair_depth_realization_audit_2026-07-24/EXACT_DERIVATION.md	pair depth algebra
+S13	udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md	clock operator type
+S14	udt_observer_pair_clock_operator_audit_2026-07-24/EXACT_DERIVATION.md	clock operator algebra
+S15	udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24/AUDIT_REPORT.md	path cocycle scope
+S16	udt_metric_native_selector_rank_closure_audit_2026-07-27/AUDIT_REPORT.md	stationary orbit geometry and rank
+S17	udt_metric_native_selector_rank_closure_audit_2026-07-27/EXACT_DERIVATION.md	quotient metric and response derivation
+S18	udt_twisted_s3_killing_algebra_audit_2026-07-27/AUDIT_REPORT.md	unique K branch scope

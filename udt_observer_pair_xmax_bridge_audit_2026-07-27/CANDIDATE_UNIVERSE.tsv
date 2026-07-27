@@ -1,0 +1,6 @@
+candidate_id	candidate_family	registered_form	whole_question_role
+C01	quotient_geodesic_diameter	diam(S3,q)	attained metric-orbit diameter candidate
+C02	Killing_norm_clock_depth	log(N_A/N_B) or reciprocal endpoint operator	endpoint clock-depth candidate
+C03	optical_or_connection_weighted_path_depth	metric-null stationary path functional and its reversible/directed parts	path-sensitive complete-coframe candidate
+C04	projective_reciprocal_display	D=L*tanh(rho) and one-dimensional fractional composition	finite-display infinite-depth candidate
+C05	supremum_over_ordered_observer_pair_arrows	sup of a supplied comparison-arrow functional	working X_max schema candidate

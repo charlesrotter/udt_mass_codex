@@ -1,0 +1,5 @@
+python3 verify_source_manifest.py
+python3 derive_observer_pair_xmax_bridge.py
+python3 verify_observer_pair_xmax_bridge_independent.py
+python3 verify_audit.py
+python3 -m pytest -q tests/
