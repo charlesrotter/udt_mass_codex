@@ -5,5 +5,5 @@ C03	0	1/50	1/64	PASS	PASS	all_gate_witness
 C04	1/2	1/50	1/64	PASS	PASS	all_gate_witness
 C05	1	1/50	1/64	PASS	PASS	all_gate_witness
 C06	2	1/50	1/64	PASS	PASS	all_gate_witness
-C07	1	1/50	0	PASS	FAIL_AS_EXPECTED	twist_off_control
-C08	1	0	1/64	FAIL_AS_EXPECTED	FAIL_AS_EXPECTED	constant_depth_control
+C07	0	1/50	0	PASS	FAIL_AS_EXPECTED	twist_off_control
+C08	0	0	1/64	FAIL_AS_EXPECTED	FAIL_AS_EXPECTED	constant_depth_control
