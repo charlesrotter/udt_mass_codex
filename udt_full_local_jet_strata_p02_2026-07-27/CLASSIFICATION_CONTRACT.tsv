@@ -1,0 +1,11 @@
+quantity	classification_rule	status
+metric_determinant	abs(det_g+exp(2sigma))/(1+exp(2sigma))<=1e-10	preregistered_numeric
+causal_target	abs(observed-target)<=1e-10*(1+abs(target))	preregistered_numeric
+matrix_rank	singular_value>1e-10*max(1,largest_singular_value)	preregistered_numeric
+tidal_repeated	discriminant<=1e-10*(1+T22^2+2*T23^2+T33^2)	preregistered_numeric
+pair_screen_zero	mixing_frobenius<=1e-10	preregistered_numeric
+curvature_operator_rank	singular_value>1e-10*max(1,largest_singular_value)	preregistered_numeric
+numerically_finite	all_registered metric inverse curvature and feature values finite	preregistered_numeric
+CPU_metric	max_absolute_error<=5e-12	preregistered_numeric
+CPU_dphi_norm	scaled_absolute_error<=2e-8	preregistered_numeric
+CPU_scalar_curvature	scaled_absolute_error<=2e-4	preregistered_numeric
