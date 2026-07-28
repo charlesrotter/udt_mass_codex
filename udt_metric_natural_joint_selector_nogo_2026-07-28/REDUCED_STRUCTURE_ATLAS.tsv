@@ -1,0 +1,6 @@
+reduction	supplied_or_derived	generator_family	founded_pair_compatible	residual
+NONE_FULL_SO13	NONE	a I only	NO	pointwise non-scalar selector obstructed
+OBSERVER_LINE_SO3	SUPPLIED_OR_BRANCH_DERIVED	diag(-1,a,a,a)	YES_ONLY_a_PLUS_ONE	depth and global observer congruence
+RULER_LINE_SO12	SUPPLIED_OR_BRANCH_DERIVED	diag(a,+1,a,a)	YES_ONLY_a_MINUS_ONE	clock depth and global ruler reduction
+ORDERED_PAIR_SO2	SUPPLIED_OR_BRANCH_DERIVED	diag(-1,+1,lambda,lambda)	YES_ALL_REAL_LAMBDA	lambda depth path and global descent
+FULL_PATH_GROUPOID	PATH_DEPTH_FRAMES_SUPPLIED	transported conjugacy family	YES_CONDITIONAL	physical semantics and endpoint collapse

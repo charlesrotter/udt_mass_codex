@@ -1,0 +1,131 @@
+{
+  "audit": {
+    "catch_proofs": 32,
+    "grade": "VERIFIED_WITH_CAVEATS_SAME_SESSION_INDEPENDENT_STANDARD_LIBRARY",
+    "primary_outcome": "NO_GO_PREMISES_INSUFFICIENT_STOP",
+    "sources": 13,
+    "stdout_sha256": "be0c394d28829d45c9881739f9ba34450e964b987cfcde677bb03b15ed1f74a5"
+  },
+  "authority_boundary": {
+    "action_source_carrier_boundary_density_bootstrap_selected": false,
+    "canon_changed": false,
+    "gpu_launched": false,
+    "ode_pde_time_live_launched": false,
+    "physical_global_branch_selected": false,
+    "repository_reorganization_performed": false
+  },
+  "current_premises": {
+    "result": "PASS",
+    "stdout_sha256": "3a5bf9b325ca86ce5cde8b93b9c86e60bfa5a730bff1748773cb5f45286e1329"
+  },
+  "dirty_checkout": {
+    "contents_read": false,
+    "metadata_sha256": "345d297e0ad849cd38f1d817c915922de653ca2d2befcf923af6f9d097b483e4",
+    "paths": 55,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 36,
+    "result": "PASS",
+    "sha256": "382efeeeb22db672d499882d847b8ee3feb2eaa6c706315cc9ad7c8e7f5ec740"
+  },
+  "schema": "udt-metric-natural-joint-selector-nogo-repository-gates-1.0",
+  "scope_base": "e7ea5936eaecbab626db0f30e12a8be4630b5dd7",
+  "scope_paths": [
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/CATCH_PROOFS.tsv",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/CHARACTER_AND_COCYCLE_RESULTS.tsv",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/COMPLETENESS_MAP.md",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/CONTROL_UNIVERSE.tsv",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/DEPENDENCY_REORDERING.tsv",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/DERIVATION_RESULT.json",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/DERIVATION_STDERR.txt",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/DERIVATION_STDOUT.txt",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/ESCAPE_ROUTE_LEDGER.tsv",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/EXACT_DERIVATION.md",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/FALSIFICATION_CONTRACT.tsv",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/HOLONOMY_CENTRALIZER_ATLAS.tsv",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/INPUT_CATEGORY_OUTCOMES.tsv",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/LAY_REPORT.md",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/NEXT_STEP.md",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/PREMISE_LEDGER.tsv",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/PREREGISTRATION.md",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/README.md",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/REDUCED_STRUCTURE_ATLAS.tsv",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/RUN_ENVIRONMENT.json",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/RUN_LOG.md",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/SHA256SUMS.txt",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/SOURCE_MANIFEST.tsv",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/SOURCE_PATHS.txt",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/STATUS_LEDGER.tsv",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/SYMMETRY_RANKS.tsv",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/THEOREM_OBLIGATIONS.tsv",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/VERIFICATION_RESULT.json",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/VERIFICATION_STDERR.txt",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/VERIFICATION_STDOUT.txt",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/derive_nogo.py",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/finalize_package.py",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/freeze_sources.py",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/requirements.txt",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/verify_nogo.py",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/verify_repository_gates.py"
+  ],
+  "status": "PASS",
+  "tests": {
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "stdout_sha256": "345b41275166d93b468b33b3f18dc421f68c70865b0279874f55fcc408a73441",
+    "xfailed": 1
+  },
+  "verified_head": "d6d69d1d4b64485176b7459c4b43c391c516ab95"
+}

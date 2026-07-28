@@ -1,0 +1,33 @@
+catch_id	result	exercised_rejection
+F01	PASS	wrong base/tree substitution rejected
+F02	PASS	merged or missing input category rejected
+F03	PASS	no-preferred-frame misread as no query law rejected
+F04	PASS	nonzero Lorentz-to-real character rejected
+F05	PASS	zero character promoted to nontrivial depth rejected
+F06	PASS	frame-only assumption for every depth rejected
+F07	PASS	arbitrary endpoint potential promoted to metric selection rejected
+F08	PASS	invariant interval promoted to additive signed depth rejected
+F09	PASS	full-isotropy preferred vector rejected
+F10	PASS	non-scalar full commutant element rejected
+F11	PASS	full-isotropy result incorrectly reused after observer reduction rejected
+F12	PASS	missed lambda-plus-one survivor rejected
+F13	PASS	supplied observer called metric-derived rejected
+F14	PASS	SO2 pair claimed to select lambda rejected
+F15	PASS	untested screen-mixing assumption rejected
+F16	PASS	lambda-plus-one universal promotion rejected
+F17	PASS	lambda-minus-one universal promotion rejected
+F18	PASS	stationary depth arbitrary-observer promotion rejected
+F19	PASS	metric transport identified with reciprocal dilation rejected
+F20	PASS	supplied path called path selector rejected
+F21	PASS	pointwise reduction called global section rejected
+F22	PASS	trivial holonomy imposed by fiat rejected
+F23	PASS	silent crossing of symmetry/tie strata rejected
+F24	PASS	cross-branch stationary/ruler splice rejected
+F25	PASS	coframe presentation promoted to physical reduction rejected
+F26	PASS	anchors used as generator selector rejected
+F27	PASS	inactive strong CSN used as selector rejected
+F28	PASS	co-presence/bootstrap wording promoted to operation rejected
+F29	PASS	out-of-scope numerical/physics launch rejected
+F30	PASS	claim that every future UDT law is impossible rejected
+F31	PASS	one datum claimed to close every layer rejected
+F32	PASS	complete UDT closure claim rejected

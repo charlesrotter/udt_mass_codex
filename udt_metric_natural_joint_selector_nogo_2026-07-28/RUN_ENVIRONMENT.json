@@ -1,0 +1,13 @@
+{
+  "backend": "CPU_EXACT_SYMBOLIC_PLUS_INDEPENDENT_RATIONAL_LINEAR_ALGEBRA",
+  "commands": [
+    "python3 udt_metric_natural_joint_selector_nogo_2026-07-28/derive_nogo.py",
+    "python3 udt_metric_natural_joint_selector_nogo_2026-07-28/verify_nogo.py"
+  ],
+  "gpu_processes_launched": 0,
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "processor": "x86_64",
+  "python": "3.10.12",
+  "schema": "udt-metric-natural-joint-selector-nogo-environment-1.0",
+  "sympy": "1.13.1"
+}

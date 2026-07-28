@@ -1,0 +1,6 @@
+category	supplied_data	exact_result	depth_result	lift_result	global_result	joint_result
+I0	metric/coframe plus orientations	full-isotropy forbids a metric-only non-scalar pointwise reciprocal generator	frame-only character unavailable; base/higher-jet/nonlocal route not exhausted	POINTWISE_NO_GO_ON_FULL_CLASS	OPEN	NO_UNIVERSAL_DERIVATION
+I1	all observer endpoint queries	query law is allowed but full Lorentz comparison has no nontrivial real additive character	FRAME_ONLY_SCALAR_NO_GO; BASE_COCYCLE_OPEN	nonabelian full-frame comparison retains angular data	path/groupoid semantics open	NO_SCALAR_ONLY_JOINT
+I2	timelike observer line or congruence	SO3 equivariance gives diag(-1,a,a,a); founded spatial +1 fixes a=+1	not supplied by observer line alone	UNIQUE_CONDITIONAL_LAMBDA_PLUS_ONE	reduction/descent open	CONDITIONAL_PARTIAL
+I3	ordered observer/ruler pair	SO2 equivariance gives diag(-1,+1,lambda,lambda)	not supplied by pair alone	REAL_LAMBDA_FAMILY	reduction/descent open	CONDITIONAL_FAMILY
+I4	path signed depth complete frames	typed path-groupoid comparison composes exactly	SUPPLIED	SUPPLIED_OR_FAMILY	path-labelled; endpoint collapse conditional	EXACT_GIVEN_INPUTS_NOT_SELECTOR

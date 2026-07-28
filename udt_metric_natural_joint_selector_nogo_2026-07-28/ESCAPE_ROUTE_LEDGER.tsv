@@ -1,0 +1,8 @@
+route	candidate_escape	blocked_by_current_theorem	current_grade	required_datum
+E01	base-dependent natural scalar or one-form	NO	OPEN_FAMILY_NOT_SELECTED	metric-derived dimensionless potential/one-form and physical meaning
+E02	stationary intrinsic Killing norm	NO	DERIVED_BOUNDED	selected stationary branch and arbitrary-observer extension
+E03	observer-line SO3 reduction	NO	UNIQUE_CONDITIONAL_LAMBDA_PLUS_ONE	supplied or metric-derived observer congruence plus depth/global descent
+E04	ordered pair SO2 reduction	NO	CONDITIONAL_REAL_LAMBDA_FAMILY	pair section lambda depth and descent
+E05	path-labelled nonabelian comparison	NO	EXACT_GIVEN_INPUTS	physical path/groupoid semantics and signed cocycle
+E06	set-valued selector at symmetry/tie strata	NO	OPEN_NOT_SINGLE_VALUED	physical ontology and transition law
+E07	higher-jet or nonlocal whole-solution natural construction	NO	UNCLASSIFIED	explicit operation and all theorem gates

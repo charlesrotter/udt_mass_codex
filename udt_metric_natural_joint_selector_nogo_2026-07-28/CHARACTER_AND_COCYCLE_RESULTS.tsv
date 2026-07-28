@@ -1,0 +1,7 @@
+object	result	evidence	scope
+continuous_full_Lorentz_to_R_character	TRIVIAL_ONLY	perfect Lie algebra rank 6 character nullity 0	connected full-frame comparison
+noncollinear_boost_composition	ANGULAR_COMPONENT_FORCED	[K01,K02] proportional to J12 nonzero	infinitesimal/BCH full-frame comparison
+endpoint_additive_depth	POTENTIAL_DIFFERENCE_FAMILY	delta=f(q)-f(p)	endpoint pair groupoid
+homogeneous_isometry_invariant_endpoint_depth	TRIVIAL_UNDER_CONTINUOUS_POINCARE_INVARIANCE	translation additivity gives fixed covector; Lorentz fixed-covector nullity 0	flat homogeneous metric-only control
+metric_interval	NOT_SIGNED_ADDITIVE_GENERICALLY	2+sqrt(3)-sqrt(15)=-sqrt(15) + sqrt(3) + 2	noncollinear timelike triple
+stationary_Killing_norm_depth	DERIVED_BOUNDED_BASE_COCYCLE	delta_K=log(Q_p/Q_q)	stationary observers intrinsic K line

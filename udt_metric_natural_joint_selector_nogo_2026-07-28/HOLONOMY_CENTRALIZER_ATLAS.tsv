@@ -1,0 +1,5 @@
+stratum	lambda	centralizer_rank_constraints	centralizer_dimension_in_so13	full_holonomy_descent
+GENERIC_LAMBDA_2	2	5	1	FAIL
+LAMBDA_PLUS_ONE	1	3	3	FAIL
+LAMBDA_MINUS_ONE	-1	3	3	FAIL
+LAMBDA_ZERO	0	5	1	FAIL
