@@ -1,0 +1,10 @@
+{
+  "base": "e098338b2a24cc85796ea8ab651378925b825dfb",
+  "families": 174,
+  "identity_sha256": "cc13ea000ae94261fa2432b17d113b5c2c47de21832d0c14787b0d756eea259b",
+  "matching_sources": 1039,
+  "primary_claim_sources": 248,
+  "schema": "udt-general-screen-dependency-discovery-1.0",
+  "status": "PASS",
+  "tracked_text_sources_scanned": 6043
+}

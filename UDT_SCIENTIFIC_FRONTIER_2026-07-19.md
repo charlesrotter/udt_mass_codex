@@ -4,7 +4,37 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
-## July 28 general-screen complete-S3 overlay — current authority
+## July 28 general-screen dependency regrade — current authority
+
+Read `udt_general_screen_dependency_regrade_2026-07-28/AUDIT_REPORT.md`, then its
+`CORRECTION_LAYER.md`, `STATUS_LEDGER.tsv`, `FAMILY_IMPACT_SUMMARY.tsv`,
+`CURRENT_LOAD_BEARING_CLAIM_REGRADING.tsv`, `PRIMARY_CLAIM_AUTHORITY_ROUTING.tsv`,
+`FAMILY_AUTHORITY_ROUTING.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+
+The general-screen construction requires a surgical scope correction, not a restart. The scalar
+`lambda` is the exact isotropic trace response, and the old zero-shear rows remain exact inside the
+frozen equal-weight family. The complete screen additionally has two shear modes. Availability of
+those modes supplies no selector.
+
+All 390 current-owner rows are explicitly adjudicated: 287 are independent, 85 survive with scope
+corrections, 13 gain stronger nonuniqueness or obstruction evidence, three availability statements
+are superseded, and exactly two route-level rows—null/Hopf `N22` and angular/toric `T18`—require a
+full-screen rederivation before privileged selection. Their existing conditional witnesses remain.
+
+Founded `phi`, the observer-pair operator, Lorentz character/commutant results, registered SNe
+evidence, `Xmax` status, dimensional results, conditional static finite-box Hopfion stability,
+`C2`/Bach, EH, and the open complete action/source/boundary/mass remain unchanged. The twisted-`S3`
+parallel-split no-go stays bounded to the stationary, off-shell, invertible block-screen family.
+
+Status: `SURGICAL_SCOPE_REGRADE__NO_WHOLESALE_REDO`; `VERIFIED-WITH-CAVEATS`. An initial fresh
+review failed incomplete authority routing; the corrected 1,039-source/248-primary/174-family map
+and 34-source manifest passed a second fresh review and 28/28 mutation catches.
+
+The proposed next task is a separately authorized static/global full-screen Hopf/toric selector
+rederivation. No `E0(P)` release, action, source, carrier, density/bootstrap, boundary,
+time-live/ODE/PDE/GPU work, canonization, or reorganization follows from this checkpoint.
+
+## July 28 general-screen complete-S3 overlay — parent authority
 
 Read `udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, `COMPLETENESS_MAP.md`,

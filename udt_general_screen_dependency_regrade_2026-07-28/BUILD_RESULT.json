@@ -1,0 +1,28 @@
+{
+  "base": "e098338b2a24cc85796ea8ab651378925b825dfb",
+  "claim_rows": 390,
+  "dependency_counts": {
+    "D0_NONE": 287,
+    "D1_EQUAL_WEIGHT_OR_LAMBDA_ONLY": 29,
+    "D2_FIXED_DIAGONAL_ROUND_SCREEN": 40,
+    "D3_SHEAR_ZERO_PROMOTION": 1,
+    "D4_PARALLEL_PAIR_SCREEN": 7,
+    "D6_MULTIPLE": 26
+  },
+  "discovered_families_dispositioned": 174,
+  "discovered_sources_dispositioned": 1039,
+  "explicit_decision_rows": 390,
+  "family_summary_rows": 15,
+  "primary_claim_sources_routed": 248,
+  "regrade_counts": {
+    "REQUIRES_FULL_SCREEN_REDERIVATION": 2,
+    "SUPERSEDED_BY_GENERAL_SCREEN_RESULT": 3,
+    "SURVIVES_AND_NONUNIQUENESS_IS_STRONGER": 13,
+    "SURVIVES_WITH_EXPLICIT_SCOPE_CORRECTION": 85,
+    "UNAFFECTED_LOGICALLY_INDEPENDENT": 287
+  },
+  "rerun_rows": 5,
+  "schema": "udt-general-screen-dependency-regrade-1.0",
+  "sources": 34,
+  "status": "PASS"
+}

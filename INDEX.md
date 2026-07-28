@@ -17,23 +17,27 @@ bootstrap, Maxwell-like, `X_max`, Hopfion, source, boundary, and mass scopes. Co
 older files do not override the registry's cited controlling evidence.
 
 **➤ CURRENT SCIENTIFIC FRONTIER:**
-`udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md`, then its
-`STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, `COMPLETENESS_MAP.md`,
-`BLOCK_PRESERVATION_CONDITIONS.tsv`, and `NEXT_STEP.md`.
+`udt_general_screen_dependency_regrade_2026-07-28/AUDIT_REPORT.md`, then its
+`CORRECTION_LAYER.md`, `STATUS_LEDGER.tsv`, `FAMILY_IMPACT_SUMMARY.tsv`,
+`CURRENT_LOAD_BEARING_CLAIM_REGRADING.tsv`, authority-routing tables, and `NEXT_STEP.md`.
 
-The general invertible angular screen on the chosen stationary complete `S3` control has three
-metric responses—area and two shears—plus one local coframe-gauge rotation. Both shear tangents
-survive at isotropy, so the prior equal-weight zero was ansatz-scoped. Anisotropy makes the
-inherited angular generator display rotation and both shears.
+The general-screen result requires a surgical regrade, not a wholesale redo. `lambda` remains an
+exact isotropic trace response and the old zero-shear rows remain exact only in their frozen
+equal-weight family. The full screen adds two shape modes but no selector.
 
-The full spatial first-jet Cartan connection is exact. Explicit connection blocks and an independent
-Frobenius proof agree that the twisted contact screen cannot form an all-direction parallel split
-from the reciprocal pair for any invertible `P` on this bounded family. This does not select a
-physical screen or rule out other complete coframes, direct metric off-blocks, or nonstationarity.
+Of 390 explicit effective-owner decisions, 287 are independent, 85 are scope-corrected, 13 have
+stronger nonuniqueness/obstruction support, three availability rows are superseded, and only Hopf
+`N22` plus toric `T18` require full-screen rederivation before privileged selection. Founded `phi`,
+SNe, `Xmax`, dimensional results, conditional static Hopfion stability, and action statuses remain.
 
-No branch, action, source, carrier, density/bootstrap, boundary, dynamics, force, particle, or
-Lorentzian geodesic completeness is selected. The proposed `E0(P)` first-jet release requires new
-authorization; no GPU, matter/time-live, canonization, or reorganization is authorized.
+No branch, action, source, carrier, density/bootstrap, boundary, dynamics, force, or particle is
+selected. The proposed full-screen Hopf/toric rederivation and the separate `E0(P)` release both
+require new authorization; no GPU, matter/time-live, canonization, or reorganization is authorized.
+
+**➤ PARENT JULY 28 GENERAL-SCREEN ATLAS:**
+`udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md`. It supplies the exact full
+screen, Cartan connection, and bounded twisted-`S3` nonparallel theorem that triggered the current
+regrade.
 
 **➤ PARENT JULY 28 HISTORICAL METHOD FRONTIER:**
 `udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md`. It restores no historical

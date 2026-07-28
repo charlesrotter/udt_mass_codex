@@ -8,7 +8,57 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's topmost CURRENT STATE block, that block wins.**
 
-## ============ CURRENT STATE (2026-07-28 — GENERAL-SCREEN COMPLETE-S3 EXISTENCE ATLAS COMPLETE. THE FULL INVERTIBLE 2x2 ANGULAR SCREEN HAS THREE METRIC MODES—AREA AND TWO SHEARS—PLUS ONE LOCAL COFRAME-GAUGE ROTATION. BOTH SHEAR TANGENTS SURVIVE AT THE ROUND SCREEN; THEIR EARLIER ABSENCE WAS AN EQUAL-WEIGHT ANSATZ FREEZE, NOT A LAW. SCREEN ANISOTROPY MAKES THE INHERITED S3 ANGULAR GENERATOR DISPLAY ROTATION AND BOTH SHEARS. THE FULL STATIONARY SPATIAL FIRST-JET CARTAN CONNECTION IS EXACT. NO GENERAL SCREEN P CAN MAKE THE RECIPROCAL PAIR AND ANGULAR SCREEN AN ALL-DIRECTION LEVI-CIVITA-PARALLEL SPLIT ON THIS TWISTED S3 CONTROL: THE NONZERO CONTACT COEFFICIENT t1=kappa exp(phi)/det(P) OBSTRUCTS IT, INDEPENDENTLY CONFIRMED BY FROBENIUS. THIS IS A STATIONARY, OFF-SHELL, CHOSEN BLOCK-SCREEN S3 RESULT; NO PHYSICAL BRANCH, ACTION, SOURCE, CARRIER, DENSITY/BOOTSTRAP, BOUNDARY, DYNAMICS, MATTER, OR LORENTZIAN GEODESIC COMPLETENESS IS SELECTED. VERIFIED-WITH-CAVEATS.) ============
+## ============ CURRENT STATE (2026-07-28 — GENERAL-SCREEN DEPENDENCY REGRADE COMPLETE. NO WHOLESALE REDO IS REQUIRED. THE OLD SCALAR lambda AND ZERO-SHEAR RESULTS REMAIN EXACT ONLY IN THEIR ISOTROPIC/EQUAL-WEIGHT SUBFAMILIES; THE COMPLETE SCREEN HAS AREA PLUS TWO SHEARS. OF 390 EXPLICIT CURRENT-OWNER DECISIONS, 287 ARE INDEPENDENT, 85 SURVIVE WITH SCOPE CORRECTIONS, 13 HAVE STRONGER NONUNIQUENESS/OBSTRUCTION SUPPORT, THREE AVAILABILITY CLAIMS ARE SUPERSEDED, AND ONLY THE OVERALL HOPF/TORIC ROUTE ROWS N22/T18 REQUIRE FULL-SCREEN REDERIVATION BEFORE PRIVILEGED SELECTION. FOUNDED phi, LORENTZ ALGEBRA, WR-L/SNe, Xmax STATUS, DIMENSIONAL RESULTS, CONDITIONAL STATIC HOPFION STABILITY, C2/BACH, EH, AND COMPLETE-ACTION STATUS ARE UNCHANGED. VERIFIED-WITH-CAVEATS AFTER AN INITIAL FRESH COMPLETENESS FAIL, CORRECTION, AND SECOND FRESH PASS.) ============
+
+**READ NEXT, IN ORDER:**
+
+1. `HANDOFF.md` current marked block.
+2. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+3. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` top/current overlay.
+4. `udt_general_screen_dependency_regrade_2026-07-28/AUDIT_REPORT.md`, then its
+   `CORRECTION_LAYER.md`, `STATUS_LEDGER.tsv`, `FAMILY_IMPACT_SUMMARY.tsv`,
+   `CURRENT_LOAD_BEARING_CLAIM_REGRADING.tsv`, `PRIMARY_CLAIM_AUTHORITY_ROUTING.tsv`,
+   `FAMILY_AUTHORITY_ROUTING.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+5. `udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md` when the correction source
+   itself is load-bearing.
+
+**CURRENT HONEST CLAIM:**
+
+- the prior algebra is not broadly invalid: 287/390 effective-owner rows are logically independent
+  of the screen correction;
+- `lambda` remains the exact isotropic trace response, not the full angular response; all 29
+  affected `lambda` rows retain their stated subfamily scope;
+- the old zero-shear observation remains exact in its 30 frozen equal-weight rows and is not a
+  metric-wide no-go;
+- general-screen availability supersedes three old availability statements but selects no screen,
+  branch, toric reduction, Hopf quotient, carrier, or physics;
+- the twisted-`S3` parallel-split obstruction is stronger but remains confined to the stationary,
+  off-shell, invertible block-screen family;
+- exactly `N22` and `T18` need full-screen rederivation before the Hopf/toric route can be used to
+  privilege a branch; their existing conditional witnesses are not erased;
+- founded reciprocal `phi`, the observer-pair operator, Lorentz no-go, SNe evidence, `Xmax`, scale
+  and matter dimensional theorems, conditional static finite-box Hopfion stability, and current
+  action/source/boundary/mass statuses remain unchanged.
+
+**NEXT SCIENTIFIC GATE — NOT AUTOMATICALLY AUTHORIZED:** the highest-priority proposed continuation
+is a preregistered static/global full-screen Hopf/toric compatibility and selector rederivation,
+keeping area and both shears free and stopping before carrier emergence, action, source, density,
+boundary, time-live, ODE/PDE, or GPU work. The separate `E0(P)` nonstationary release remains
+unapproved and is not required for this first regrade.
+
+**EVIDENCE:** fixed-base discovery routes all 1,039 sources, 248 primary-claim sources, and 174
+families. All 390 claim rows have explicit decisions; 34 current-authority sources are frozen and
+replayed; 28/28 mutation catches pass. The first zero-context review failed incomplete authority
+routing and is preserved; the corrected package passed a second fresh review. Tests, frozen
+manifests, navigation, and dirty-metadata gates pass. The 33-entry package manifest SHA-256 is
+`18a5799e874d1c9a6c140fa25ad2ef54b89008f9f651e59dd280e6d742ce9076`.
+
+**AUTHORITY BOUNDARY:** this is a dependency/scope regrade only. Do not execute the proposed
+Hopf/toric rederivation, release `E0(P)`, add metric off-blocks, select physics, adopt an action,
+source, carrier, density/bootstrap or boundary law, launch matter/time-live/GPU work, alter
+`CANON.md`, or resume repository reorganization without a new dispatch.
+
+## PRIOR CURRENT STATE (2026-07-28 — GENERAL-SCREEN COMPLETE-S3 EXISTENCE ATLAS COMPLETE)
 
 **READ NEXT, IN ORDER:**
 

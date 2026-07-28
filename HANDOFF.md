@@ -7,7 +7,38 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-28).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-28 — general-screen complete-S3 atlas complete)
+## CURRENT (2026-07-28 — general-screen dependency regrade complete)
+
+After `LIVE.md`, read the current premise registry and top frontier overlay, then
+`udt_general_screen_dependency_regrade_2026-07-28/AUDIT_REPORT.md`, `CORRECTION_LAYER.md`,
+`STATUS_LEDGER.tsv`, `FAMILY_IMPACT_SUMMARY.tsv`, `CURRENT_LOAD_BEARING_CLAIM_REGRADING.tsv`,
+`PRIMARY_CLAIM_AUTHORITY_ROUTING.tsv`, `FAMILY_AUTHORITY_ROUTING.tsv`, `LAY_REPORT.md`, and
+`NEXT_STEP.md`.
+
+Current ruling:
+
+- no wholesale redo: 287 of 390 effective-owner rows are independent of the general-screen
+  correction;
+- the old scalar `lambda` and zero-shear results remain exact in their isotropic/equal-weight
+  subfamilies and may not be promoted to the complete screen;
+- 85 rows need explicit scope corrections, 13 gain stronger nonuniqueness/obstruction support,
+  and three old availability statements are superseded;
+- only null/Hopf `N22` and angular/toric `T18` require a full-screen rederivation before either
+  route can support privileged physical selection;
+- founded `phi`, observer-pair and Lorentz algebra, SNe, `Xmax`, dimensional results, conditional
+  static finite-box Hopfion stability, `C2`/Bach, EH, and complete-action status are unchanged;
+- the twisted-`S3` no-parallel-split theorem remains bounded to the stationary invertible
+  block-screen family.
+
+Evidence: 1,039 sources, 248 primary routes, 174 family routes, 390 explicit decisions, 34 frozen
+authority sources, 28/28 mutation catches, preserved initial adversarial `FAIL`, and corrected
+fresh `PASS`. Package manifest: 33 entries,
+`18a5799e874d1c9a6c140fa25ad2ef54b89008f9f651e59dd280e6d742ce9076`. The proposed
+static/global full-screen Hopf/toric rederivation is not automatically
+authorized. No nonstationary release, action, source, carrier, density/bootstrap, boundary,
+matter/time-live/GPU work, canonization, or reorganization is authorized.
+
+## PRIOR CURRENT (2026-07-28 — general-screen complete-S3 atlas complete)
 
 After `LIVE.md`, read the current premise registry and top frontier overlay, then
 `udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,

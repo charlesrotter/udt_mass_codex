@@ -1,0 +1,20 @@
+{
+  "base": "e098338b2a24cc85796ea8ab651378925b825dfb",
+  "catch_proofs_passed": 28,
+  "catch_proofs_total": 28,
+  "claim_rows": 390,
+  "dirty_path_count": 57,
+  "dirty_status_sha256": "bf85b6db00083cfa0d19e4ba9cc09766423cc2d5e224954f12ceda74aeab9c96",
+  "errors": [],
+  "family_authority_routes": 174,
+  "family_rows": 174,
+  "manifest_sources": 34,
+  "primary_claim_sources_routed": 248,
+  "rederivation_claims": [
+    "N22",
+    "T18"
+  ],
+  "schema": "udt-general-screen-dependency-regrade-verification-1.0",
+  "source_rows": 1039,
+  "status": "PASS"
+}
