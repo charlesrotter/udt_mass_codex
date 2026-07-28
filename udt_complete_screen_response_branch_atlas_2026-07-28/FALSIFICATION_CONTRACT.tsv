@@ -1,0 +1,29 @@
+id	reject_if
+F01	base commit tree or unrelated dirty metadata differs from preregistration
+F02	a seed satisfying the fixed discovery rule is omitted
+F03	a transitive load-bearing reference is selectively omitted
+F04	a branch identifier is dropped or merged by filename similarity
+F05	an incomplete template is reported as a complete representative
+F06	a complete off-shell representative is reported as selected or on shell
+F07	a missing metric coframe path derivative or screen is silently supplied
+F08	lambda I is substituted for the complete four-component response
+F09	a metric deformation alone is reported to determine skew rotation
+F10	a displayed rotation coefficient is called frame-independent without transition or holonomy data
+F11	trace-free shear is hidden by a basis rotation or isotropy assumption
+F12	pair-screen mixing is omitted where the complete metric contains it
+F13	loss of positive-screen rank or signature is discarded as solver failure
+F14	one path or chart is reported as the whole branch without an explicit scope stamp
+F15	a pointwise generator is confused with the algebra generated along a path or branch
+F16	a generic gl2 or sl2 identity is promoted to a gauge group force or particle structure
+F17	a common subalgebra is claimed without exact intersection across every included representative
+F18	an accidental numerical zero is called exact without symbolic or convergence control
+F19	a branch is preferred because it resembles Hopf particle force smooth cap or desired physics
+F20	an action source carrier density boundary scale or new field equation is introduced
+F21	a pre-July claim supplies affirmative UDT physics
+F22	a result exceeds the registered complete-branch universe
+F23	any of the ten completeness criteria is left unstamped
+F24	a missing or duplicate branch/path row passes verification
+F25	production and independent implementations share load-bearing algebra code
+F26	CANON frozen packages current paths frontier targets or unrelated dirty metadata change
+F27	GPU PDE time-live matter bootstrap or repository-reorganization work is launched
+F28	a result is called selected native matter or settled without a fresh adversarial verifier
