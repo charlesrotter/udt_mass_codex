@@ -7,46 +7,41 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-27).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-27 — P01/P02 complete; P03 authorized)
+## CURRENT (2026-07-27 — P03-A complete; P03-B stopped)
 
 After `LIVE.md`, read `CURRENT_SCIENTIFIC_PREMISES.md` and its TSV, then the top overlay in
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`udt_full_local_jet_strata_p02_2026-07-27/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`, `LAY_REPORT.md`,
-`P02B_CENSUS.json`, and `NEXT_STEP.md`.
+`udt_global_coframe_compatibility_p03_2026-07-27/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
+`P03A_CENSUS.json`, `P03B_GATE_LEDGER.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
 
 Current ruling:
 
-- P01's complete-coframe telescope observes rich, mixed, radially organized local geometry; a
-  lightlike `dphi` branch and repeated screen tide are not generic identities in that bounded
-  family;
-- P02-A maps 11,520 exact local strata and 23,040 attempts, with 15,459 finite constructions,
-  2,973 sampled coordinate-static causal no-witnesses, and 4,608 exact static rank
-  incompatibilities;
-- P02-A did not construct the repeated-tidal seam and its accidental-count interpretation is
-  superseded by the preregistered P02-B correction;
-- P02-B freezes 4,198 constructed zero-Hessian bases, releases all allowed Hessian components,
-  and constructs all 12,594 negative/zero/positive repeated-tidal targets;
-- all 12,594 screen-tidal response maps have numerical row rank three; all 2,406 null and 2,412
-  timelike target candidates construct;
-- this is local off-shell constructibility, not a selected repeated direction, causal class,
-  extension, global branch, equation, or physics;
-- the useful negative is methodological: an unconstrained local two-jet curvature target is too
-  freely prescribable to be the missing UDT selector.
+- P01/P02 remain bounded local off-shell evidence: releasing all allowed Hessians constructs all
+  12,594 repeated-tidal targets, so local curvature existence is compatible but nonselecting;
+- P03-A audits all 57 frozen sources and 713 named candidate/cross/obligation occurrences;
+- twelve global completion classes remain registered, but only `FC04` has concrete complete metric
+  controls: conditional round `S3` and complete off-shell squashed `S3`;
+- both controls are ultrastatic and lack founded observer-pair depth; WR-L has a nontrivial local
+  clock but no complete recentered finite cell;
+- cross-splicing those rows would invent the required global object, so zero candidates pass P03-B;
+- the P03 freeze also omits the detailed P02 `STRATUM_LEDGER.tsv` and
+  `P02B_CANDIDATE_LEDGER.tsv`, preventing a lossless 7,897-stratum projection without retroactive
+  source expansion;
+- the exact scoped status is `OPEN_MISSING_GLOBAL_DEFINITION`, not a universal geometric no-go.
 
-P03 is explicitly authorized. It must begin with a preregistered design/source-availability audit
-for a global coframe compatibility and completion atlas. It should carry all P02 motif families
-through every completely defined registered finite-cell completion without privileging a desired
-universe. If registered sources do not define a complete global candidate universe, stop with
-`OPEN_MISSING_GLOBAL_DEFINITION` rather than inventing one.
+P03-A is complete. P03-B was not launched and is not authorized by the failed gate. The next
+defensible question would require a separate preregistration: does current UDT structure already
+contain a construction law for one complete joined `(g,phi)` coframe? If P02 motif projection is
+in scope, freeze its two detailed ledgers before inspection. If no construction law exists, name
+the smallest missing selector instead of guessing a profile or completion.
 
-P03 does not authorize an action, source, carrier, density insertion, bootstrap equation,
-boundary functional, physical time evolution, canonization, repository reorganization, or GPU
-production before the global design and resource contract are frozen.
+No P03-B, action, source, carrier, density insertion, bootstrap equation, boundary functional,
+physical time evolution, canonization, repository reorganization, or GPU work is authorized.
 
-Evidence: P02 33/33 package checks, 15/15 catches, independent CPU curvature verification, 70
-tests passed/1 xfailed, all six frozen packages and current navigation intact, and the preserved
-55-path dirty checkout unchanged. Grade `VERIFIED-WITH-CAVEATS`; no fresh external-model semantic
-review was available.
+Evidence: P03 replays 57 source hashes, 713 occurrence-row hashes, 14 global gate rows, and 20/20
+catch-proofs. The package manifest covers 23 files. Tests pass 70/1 xfailed; all six frozen packages,
+current navigation, and the preserved 55-path dirty checkout remain unchanged. Grade
+`VERIFIED-WITH-CAVEATS`; verification is separate-code but same-session.
 
 <!-- STARTUP_CURRENT_END -->
 

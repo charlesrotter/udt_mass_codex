@@ -4,34 +4,38 @@ Date: 2026-07-27
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
-## July 27 complete-coframe local-strata overlay — current authority
+## July 27 global coframe source-availability overlay — current authority
 
-Read `udt_full_local_jet_strata_p02_2026-07-27/AUDIT_REPORT.md`, then its
-`STATUS_LEDGER.tsv`, `LAY_REPORT.md`, `P02B_CENSUS.json`, and `NEXT_STEP.md`. Use
-`udt_complete_coframe_metric_telescope_p01_2026-07-27/AUDIT_REPORT.md` for the parent generic
-atlas only when its exact scope is load-bearing.
+Read `udt_global_coframe_compatibility_p03_2026-07-27/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `P03A_CENSUS.json`, `P03B_GATE_LEDGER.tsv`, `LAY_REPORT.md`, and
+`NEXT_STEP.md`. Use the P02 and P01 packages only when their exact local-atlas scope becomes
+load-bearing.
 
-P01 observes a rich, mixed generic off-shell coframe arena, while lightlike `dphi` and repeated
-screen tides are not generic identities. P02-A maps 23,040 exact local two-jet attempts across
-11,520 causal/rank strata. Its initial repeated-tidal observation did not construct that seam and
-is superseded by the preregistered P02-B scope correction.
+P03-A freezes and audits 57 exact sources and 713 named candidate/cross/obligation occurrences.
+Twelve completion classes are registered. Eleven have no actual complete metric representative;
+`FC04` has two complete `S3` controls. The round control is conditional/on shell in its recorded
+scope and the squashed control is complete/off shell. Both are ultrastatic and neither supplies
+the founded observer-pair depth or a complete `dphi` history.
 
-P02-B freezes 4,198 constructed zero-Hessian bases and releases all 80 dynamic or 48
-coordinate-static Hessian components. Every numerical screen-tidal response has row rank three,
-and all 12,594 negative, zero, and positive repeated targets construct. This includes every null
-and timelike base. Therefore repeated screen tides and null `dphi` are locally compatible, but
-local two-jet existence cannot select them: the unconstrained Hessian arena can prescribe the
-complete symmetric screen-tidal matrix.
+WR-L retains its nontrivial local clock profile, but it lacks a complete all-observer recentered
+finite cell. Joining it to either `S3` control would be a forbidden cross-branch splice rather than
+a metric-derived construction. Consequently zero registered candidates pass the P03-B gate.
 
-Status: `OBSERVED_BOUNDED_LOCAL_OFF_SHELL_ATLAS`; `LOCAL_REPEATED_TIDAL_CONSTRUCTIBILITY_COMPLETE`
-in the exact frozen base universe; `PHYSICAL_SELECTION_GLOBAL_REALIZATION_AND_EQUATIONS_OPEN`;
-`VERIFIED-WITH-CAVEATS`.
+P03's frozen inputs also contain only the aggregate P02 census, not the detailed
+`STRATUM_LEDGER.tsv` and `P02B_CANDIDATE_LEDGER.tsv` required to project the 7,897 constructive
+strata losslessly. Those disk files were not retroactively added after inspection. This independent
+procedural stop and the missing complete founded object each block P03-B.
 
-P03 is authorized: a metric-led global coframe compatibility and completion atlas, beginning with
-a design/source-availability audit. It must freeze the complete extension/completion/transition
-universe before construction, carry all local motifs as readouts, and stop rather than invent
-missing global definitions. No action, source, carrier, density, bootstrap equation, boundary
-functional, physical time evolution, canonization, or repository reorganization follows.
+Status: `REGISTERED_GLOBAL_DEFINITION_UNIVERSE_AUDITED`;
+`TWO_CONDITIONAL_COMPLETE_METRIC_CONTROLS_BUT_ZERO_COMPLETE_FOUNDED_(g,phi)_OBJECTS`;
+`LOSSLESS_P02_PROJECTION_BLOCKED_BY_PREREGISTERED_SOURCE_OMISSION`;
+`P03_B_NOT_LAUNCHED`; `OPEN_MISSING_GLOBAL_DEFINITION`; `VERIFIED-WITH-CAVEATS`.
+
+The next possible question is not automatic authority to solve. A new preregistered
+global-definition audit would ask whether registered UDT structure already supplies a native
+construction law for one complete joined `(g,phi)` coframe. It must not splice existing branches,
+guess a profile or completion, or import an action, source, carrier, density/bootstrap equation,
+boundary functional, physical time evolution, GPU solve, canonization, or reorganization.
 
 ## July 26 foundational semantic-precedence overlay — current authority
 

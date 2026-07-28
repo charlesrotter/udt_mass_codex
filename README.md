@@ -7,7 +7,7 @@ order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
 [`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md) →
 the [foundational semantic correction](udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md) →
-the [current P02 full-local-jet audit](udt_full_local_jet_strata_p02_2026-07-27/AUDIT_REPORT.md) →
+the [current P03 global source gate](udt_global_coframe_compatibility_p03_2026-07-27/AUDIT_REPORT.md) →
 exact evidence named by those files only when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
 `MEMORY.md` top/current pointer. `AGENTS.md`
@@ -21,18 +21,17 @@ count, not the native UDT field or mode count. Strong local CSN is challenged/no
 inactive without explicit owner reauthorization; `c_E` and `G_obs` remain observational anchors.
 If the registry, `LIVE.md`, and a cited source disagree, stop.
 
-The latest repository result is the [P02 full-local-jet strata
-audit](udt_full_local_jet_strata_p02_2026-07-27/AUDIT_REPORT.md). It maps 23,040 exact local
-two-jet attempts and then releases all allowed Hessians on 4,198 frozen bases. All 12,594
-negative/zero/positive repeated-tidal targets construct, including every null and timelike base.
-The correct conclusion is local compatibility, not selection: an unconstrained local Hessian arena
-can prescribe the complete symmetric screen-tidal matrix.
+The latest repository result is the [P03 global coframe source-availability
+audit](udt_global_coframe_compatibility_p03_2026-07-27/AUDIT_REPORT.md). It adjudicates 57 frozen
+sources and 713 named evidence occurrences. The only two complete metric controls are ultrastatic
+`S3` geometries without founded observer-pair depth; WR-L has a nontrivial local clock without a
+complete recentered cell. Cross-splicing them would invent the missing construction.
 
-P03 global coframe compatibility and completion mapping is authorized, beginning with a
-preregistered design/source-availability audit. It must carry all local motifs without demanding a
-desired universe and must stop if the registered global definitions are incomplete. It does not
-authorize an action, source, carrier, density, bootstrap equation, boundary functional, physical
-time evolution, canonization, reorganization, or GPU production before the global design is frozen.
+The P03 freeze also omitted the detailed P02 ledgers needed for a lossless 7,897-stratum projection.
+P03 therefore stops at `OPEN_MISSING_GLOBAL_DEFINITION`; P03-B was not launched. Any new
+global-definition audit requires separate authorization and preregistration. No action, source,
+carrier, density, bootstrap equation, boundary functional, physical time evolution, canonization,
+reorganization, or GPU work is authorized by this checkpoint.
 
 The parent
 [bootstrap-aware clock/angular closure audit](udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md)

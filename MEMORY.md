@@ -10,8 +10,8 @@
 then the marked current block in `HANDOFF.md`, then `CURRENT_SCIENTIFIC_PREMISES.md` and
 `CURRENT_SCIENTIFIC_PREMISES.tsv`, then the top/current overlay in
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`udt_full_local_jet_strata_p02_2026-07-27/AUDIT_REPORT.md`
-and its status/lay/census/next-step records. Read the parent P01, bootstrap, intrinsic-solder,
+`udt_global_coframe_compatibility_p03_2026-07-27/AUDIT_REPORT.md`
+and its status/census/gate/lay/next-step records. Read the parent P02/P01, bootstrap, intrinsic-solder,
 and observer-pair packages only when their exact premises become load-bearing.
 Expand only to the exact cited evidence made load-bearing by the active task.
 
@@ -23,18 +23,17 @@ angular/mixing extension and variation domain remain open. Strong local CSN is
 See the DOF package's `CORRECTION_LAYER.md`. If a lower-priority result disagrees with the current
 premise registry or its cited source, stop.
 
-Current honest status: P01 observes a rich mixed generic complete-coframe geometry. P02 maps 23,040
-exact local two-jet attempts and constructs all 12,594 repeated-tidal targets on 4,198 frozen
-bases after releasing every allowed Hessian. Null `dphi` and repeated tides are locally compatible,
-but the full rank-three response shows that local curvature existence is too freely prescribable to
-select a physical branch. Complete extension selection, global realization, equations, action,
-source, carrier, boundary, bootstrap feedback, density closure, mass, and time-live persistence
-remain open.
+Current honest status: P03-A audits 57 frozen sources and 713 named occurrences. Only two complete
+metric controls exist, both ultrastatic `S3` geometries without founded observer-pair depth. WR-L's
+nontrivial clock remains local and incomplete; it may not be spliced into those controls. The P03
+freeze also lacks the two detailed P02 ledgers needed for a lossless 7,897-stratum projection.
+Complete joined `(g,phi)` realization, equations, action, source, carrier, boundary, bootstrap
+feedback, density closure, mass, and time-live persistence remain open.
 
-P03 global coframe compatibility/completion mapping is authorized. It begins with a preregistered
-design/source audit and must stop if registered global definitions are incomplete. No imported
-completion, action, density, matter/time-live solve, canonization, artifact move, repository
-reorganization, or pre-contract GPU production is authorized.
+P03-A is complete with `OPEN_MISSING_GLOBAL_DEFINITION`; P03-B was not launched and is not
+authorized. A new global-definition audit requires separate preregistration and authorization. No
+imported completion, action, density, matter/time-live solve, canonization, artifact move,
+repository reorganization, or GPU work is authorized.
 
 ## DURABLE PRIOR MACRO FRONTIER (2026-07-09 simple metric + WR-L canon)
 

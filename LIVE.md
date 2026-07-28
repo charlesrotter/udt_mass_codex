@@ -8,59 +8,64 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's topmost CURRENT STATE block, that block wins.**
 
-## ============ CURRENT STATE (2026-07-27 — COMPLETE-COFRAME METRIC TELESCOPE P01 AND FULL-LOCAL-JET STRATA P02 COMPLETE. P01 OBSERVES A RADIALLY ORDERED BUT MIXED GENERIC OFF-SHELL GEOMETRY; LIGHTLIKE DPHI AND REPEATED SCREEN TIDES ARE NOT GENERIC IDENTITIES. P02 MAPS 23,040 EXACT LOCAL TWO-JET ATTEMPTS AND THEN RELEASES ALL ALLOWED HESSIANS ON 4,198 FROZEN BASES. ALL 12,594 NEGATIVE/ZERO/POSITIVE REPEATED-TIDAL TARGETS CONSTRUCT, INCLUDING EVERY NULL AND TIMELIKE BASE. LOCAL HESSIAN FREEDOM IS THEREFORE TOO LARGE FOR REPEATED TIDES TO SELECT A PHYSICAL BRANCH. P03 GLOBAL COFRAME COMPATIBILITY AND COMPLETION MAPPING IS AUTHORIZED, BEGINNING WITH A DESIGN/SOURCE-AVAILABILITY AUDIT. NO ACTION, SOURCE, CARRIER, DENSITY, BOOTSTRAP EQUATION, BOUNDARY FUNCTIONAL, PHYSICAL TIME EVOLUTION, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-27 — P03-A GLOBAL COFRAME SOURCE-AVAILABILITY AUDIT COMPLETE; P03-B NOT LAUNCHED. ALL 57 FROZEN SOURCES AND 713 NAMED CANDIDATE OCCURRENCES WERE ADJUDICATED. THE REGISTERED UNIVERSE CONTAINS TWO CONDITIONAL COMPLETE S3 METRIC CONTROLS BUT ZERO COMPLETE FOUNDED (G,PHI) FINITE-CELL OBJECTS: BOTH COMPLETE CONTROLS ARE ULTRASTATIC AND LACK FOUNDED OBSERVER-PAIR DEPTH, WHILE WR-L HAS A NONTRIVIAL LOCAL CLOCK BUT NO COMPLETE RECENTERED CELL. THE P03 FREEZE ALSO OMITTED THE TWO DETAILED P02 LEDGERS REQUIRED FOR A LOSSLESS 7,897-STRATUM FAMILY PROJECTION. CROSS-SPLICING OR POST-INSPECTION SOURCE EXPANSION WAS REJECTED. STATUS OPEN_MISSING_GLOBAL_DEFINITION. NO P03-B, GPU, ACTION, SOURCE, CARRIER, DENSITY, BOOTSTRAP EQUATION, BOUNDARY FUNCTIONAL, PHYSICAL TIME EVOLUTION, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
 
 **READ NEXT, IN ORDER:**
 
 1. `HANDOFF.md` current marked block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 3. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` top/current overlay.
-4. `udt_full_local_jet_strata_p02_2026-07-27/AUDIT_REPORT.md`, then its
-   `STATUS_LEDGER.tsv`, `LAY_REPORT.md`, `P02B_CENSUS.json`, and `NEXT_STEP.md`.
-5. `udt_complete_coframe_metric_telescope_p01_2026-07-27/AUDIT_REPORT.md` only when the generic
-   complete-coframe atlas and its `(t,x)`/transport scope are load-bearing.
-6. Exact P02 scripts, raw NPZ files, and verification records only when the active task requires
-   them.
+4. `udt_global_coframe_compatibility_p03_2026-07-27/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `P03A_CENSUS.json`, `P03B_GATE_LEDGER.tsv`, `LAY_REPORT.md`, and
+   `NEXT_STEP.md`.
+5. `udt_full_local_jet_strata_p02_2026-07-27/AUDIT_REPORT.md` and its exact evidence only when the
+   parent local-atlas scope or the omitted projection inputs are load-bearing.
+6. Exact P03 source adjudications, scripts, and verification records only when the active task
+   requires them.
 
 **CURRENT HONEST CLAIM:**
 
 - founded `phi` identity and reciprocal pair action remain `DERIVED`; the unique physical complete
   four-dimensional extension, variation domain, profile, equations, and global completion remain
   `OPEN`;
-- P01 is an `OBSERVED` bounded generic complete-coframe atlas, not a physical solution family;
-- P02-A is an `OBSERVED` bounded local off-shell two-jet atlas: 15,459 of 23,040 attempts construct,
-  2,973 are sampled coordinate-static causal no-witnesses, and 4,608 are exact static rank
-  incompatibilities;
-- P02-A's accidental repeated-tidal count is scope-incomplete and superseded by its preregistered
-  P02-B correction;
-- P02-B observes full numerical rank three for the screen-tidal Hessian response at all 4,198
-  frozen bases and constructs all 12,594 registered repeated targets;
-- null `dphi` and repeated screen tides are locally compatible, but neither causal class, target
-  sign, repeated direction, coframe extension, or physical branch is selected;
-- the local two-jet arena is too flexible for existence of a curvature target to supply the
-  missing selector; global compatibility is the next distinct scale of question;
+- P01/P02 remain `OBSERVED` bounded local off-shell atlases: all 12,594 registered repeated-tidal
+  targets construct after releasing allowed Hessians, so local existence is compatible but
+  nonselecting;
+- P03-A is `VERIFIED-WITH-CAVEATS` for its exact registered source universe: 57 frozen sources and
+  713 named source-row occurrences are individually adjudicated;
+- twelve completion classes are registered, but eleven have no actual complete metric
+  representative and the twelfth contains only two complete `S3` controls;
+- the round and squashed `S3` controls are complete only with their explicit conditional/on- or
+  off-shell stamps; both are ultrastatic and neither supplies founded observer-pair depth;
+- WR-L supplies a nontrivial local clock profile but not a complete all-observer finite cell;
+  combining it with an `S3` control would be an invented cross-branch splice;
+- therefore zero registered objects pass the P03-B join gate and the exact result is
+  `OPEN_MISSING_GLOBAL_DEFINITION`, not a universal no-go;
+- the frozen P03 inputs cannot generate the preregistered lossless 7,897-stratum projection because
+  `STRATUM_LEDGER.tsv` and `P02B_CANDIDATE_LEDGER.tsv` were not included; no post-inspection source
+  expansion was made;
 - strong local CSN remains inactive; `c_E` and `G_obs` remain observational anchors;
 - carrier, action, source, boundary, bootstrap feedback, density closure, `X_max`, mass, physical
   scale, and time-live persistence retain their prior exact `OPEN`/`CONDITIONAL`/`WORKING` stamps.
 
-**AUTHORIZED NEXT SCIENTIFIC ACTION — P03:** preregister and perform a metric-led global coframe
-compatibility and completion atlas. First audit whether the registered extension classes,
-finite-cell completions, transitions, caps, seams, and chart domains define a complete unbiased
-candidate universe. Then determine which P02 motif families admit smooth complete finite-cell
-representatives and which face genuine global compatibility obstructions. Carry repeated tides,
-causal type, rank changes, mixing, curvature, and holonomy as readouts, not filters. If the sources
-do not pose the atlas without new physical choices, return `OPEN_MISSING_GLOBAL_DEFINITION`.
+**NEXT SCIENTIFIC GATE — NOT AUTOMATICALLY AUTHORIZED:** a new, separately preregistered
+global-definition audit asking whether the current complete metric, founded reciprocal subgroup,
+frame reciprocity, finite-cell structure, and observational anchors already supply a construction
+law for one complete joined `(g,phi)` coframe. If it intends to project P02 motifs, its source freeze
+must include the exact detailed P02 ledgers before inspection. If no native construction law is
+present, return the smallest missing selector rather than add an ansatz.
 
-**EVIDENCE:** P02 passes 33/33 package checks and 15/15 exercised corruption catches; its
-independent 32-anchor CPU Riemann reconstruction agrees with GPU tides to `2.51e-7` scaled error.
-Tests remain 70 passed/1 xfailed; six frozen packages (127 entries/133 paths), 1,114 current paths,
-101 frontier targets, and the original dirty checkout's 55 metadata-only paths remain unchanged.
-Grade `VERIFIED-WITH-CAVEATS` because no fresh external-model semantic review was available.
+**EVIDENCE:** P03 independently replays all 57 source hashes, 713 named-object row hashes, 14
+global gate rows, both conditional complete controls, both missing projection inputs, and all 20
+fail-closed catches. Its package manifest covers 23 files. Tests remain 70 passed/1 xfailed; six
+frozen packages (127 entries/133 paths), 1,114 current paths, 101 frontier targets, and the original
+dirty checkout's 55 metadata-only paths remain unchanged. Grade `VERIFIED-WITH-CAVEATS` because
+verification is independently implemented but same-session, not a fresh external-model review.
 
-**AUTHORITY BOUNDARY:** P03 is authorized. P03 is not authority to choose a completion, import a
-field equation, adopt a carrier or action, insert density, run matter/time-live physics, alter
-`CANON.md`, resume repository reorganization, or launch GPU production before its global design
-and resource contract are frozen.
+**AUTHORITY BOUNDARY:** P03-A is complete. P03-B is blocked by its preregistered gate and is not
+authorized. Do not choose or splice a completion, expand the frozen source universe retroactively,
+import a field equation, adopt a carrier/action, insert density, run matter/time-live physics,
+alter `CANON.md`, resume repository reorganization, or launch GPU work.
 
 <!-- STARTUP_CURRENT_END -->
 

@@ -17,20 +17,21 @@ bootstrap, Maxwell-like, `X_max`, Hopfion, source, boundary, and mass scopes. Co
 older files do not override the registry's cited controlling evidence.
 
 **➤ CURRENT SCIENTIFIC FRONTIER:**
-`udt_full_local_jet_strata_p02_2026-07-27/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
-`LAY_REPORT.md`, `P02B_CENSUS.json`, and `NEXT_STEP.md`.
+`udt_global_coframe_compatibility_p03_2026-07-27/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
+`P03A_CENSUS.json`, `P03B_GATE_LEDGER.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
 
-P01 observes a rich mixed generic coframe arena. P02 maps 23,040 exact local two-jet attempts and
-then correctly constructs the previously missed repeated-tidal seam: all 12,594 negative, zero,
-and positive targets construct on 4,198 frozen bases, including every null and timelike base. Full
-numerical row rank three at every base means the unrestricted local Hessians can prescribe all
-three screen-tidal components. This proves local compatibility only; it does not select repetition,
-a causal class, extension, global branch, equation, or physics.
+P03-A audits all 57 frozen sources and 713 named evidence-row occurrences. Of twelve registered
+completion classes, only `FC04` has complete metric controls: conditional round `S3` and complete
+off-shell squashed `S3`. Both are ultrastatic and lack founded observer-pair depth. WR-L has the
+nontrivial local clock but no complete recentered cell, and cross-splicing those sources is
+forbidden. Zero candidates pass P03-B.
 
-P03 global coframe compatibility/completion mapping is authorized, starting with a design and
-source-availability audit. No action, source, carrier, density, bootstrap equation, boundary
-functional, physical time evolution, canonization, reorganization, or pre-contract GPU production
-is authorized.
+The P03 freeze also omitted the two detailed P02 ledgers needed for a lossless 7,897-stratum family
+projection, so no post-inspection projection was manufactured. Status is
+`OPEN_MISSING_GLOBAL_DEFINITION`; P03-B was not launched. A new global-definition audit would need
+separate authorization and preregistration. No branch splice, action, source, carrier, density,
+bootstrap equation, boundary functional, physical time evolution, canonization, reorganization, or
+GPU work is authorized.
 
 **➤ PARENT JULY 24 BOOTSTRAP FRONTIER:**
 `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`. Its exact conditional
