@@ -1,0 +1,31 @@
+catch_id	result	exercised_rejection
+F01	PASS	substituted base tree is rejected
+F02	PASS	one omitted tracked path is rejected
+F03	PASS	dirty-worktree-read=true mutation is rejected
+F04	PASS	changed search-rule hash is rejected
+F05	PASS	self-qualifying generated group is rejected
+F06	PASS	four-bucket group is rejected
+F07	PASS	two root files cannot be merged into one source group
+F08	PASS	unrelated historical directories cannot be merged
+F09	PASS	omitting an evidence-named companion is rejected
+F10	PASS	wrong source SHA is rejected
+F11	PASS	affirmative promotion of a firewalled group is rejected
+F12	PASS	cross-package splice lacking one lineage is rejected
+F13	PASS	abstract founded pair promoted to physical arrows is rejected
+F14	PASS	arbitrary endpoint f promoted to metric-native depth is rejected
+F15	PASS	covariant real-lambda family promoted to selected lambda is rejected
+F16	PASS	infinitesimal block data promoted to complete finite screen is rejected
+F17	PASS	unstated trace/isotropy selector is rejected
+F18	PASS	anchors promoted to representation selector are rejected
+F19	PASS	co-presence wording promoted to executable equation is rejected
+F20	PASS	bootstrap wording promoted to joint selector is rejected
+F21	PASS	path-independence assumed by fiat is rejected
+F22	PASS	local lift called globally complete is rejected
+F23	PASS	completion catalogue promoted to selected completion is rejected
+F24	PASS	clock and ruler witnesses cross-spliced across branches are rejected
+F25	PASS	off-shell configuration promoted to realized equation is rejected
+F26	PASS	strongest two-layer partial promoted to three-layer closure is rejected
+F27	PASS	candidate with residual family promoted to unique joint is rejected
+F28	PASS	merit-filtered candidate promotion is rejected
+F29	PASS	GPU/numerical artifact launch is rejected by package scope
+F30	PASS	complete-UDT closure wording is rejected

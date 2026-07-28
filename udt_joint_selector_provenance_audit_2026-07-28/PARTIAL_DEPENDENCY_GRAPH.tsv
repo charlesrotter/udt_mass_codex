@@ -1,0 +1,10 @@
+edge_id	from	to	grade	missing
+E01	founding_reciprocal_pair	additive_pair_character	DERIVED	physical arrows and metric-native depth assignment
+E02	complete_stationary_metric_plus_intrinsic_K	delta_K	DERIVED_BRANCH_SCOPED	arbitrary observer/path and nonstationary extension
+E03	complete_metric_plus_supplied_path	Levi_Civita_coframe_transport	DERIVED_MATHEMATICS	physical path and reciprocal lift selection
+E04	delta_K_plus_Levi_Civita_transport	stationary_hybrid_comparison	CONDITIONAL_EXACT_REDUCIBLE	single full reciprocal lift lambda and global completion
+E05	ordered_pair_plus_real_lambda	finite_projector_lift	DERIVED_GIVEN_INPUTS	pair section and lambda selector
+E06	complete_RxS3_configuration	intrinsic_K_n_screen_and_branch_depth	DERIVED_CONFIGURATION	realized equations profile lambda semantics
+E07	registered_global_catalogues	completion_families	DERIVED_CLASSIFICATION	selection descent and interface theorem
+E08	bootstrap_wording	joint_selector	OPEN_NO_TYPED_EDGE	domain codomain operation and return map
+E09	complete_metric	realized_equations	OPEN_NO_TYPED_EDGE	native response law

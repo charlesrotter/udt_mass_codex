@@ -1,0 +1,13 @@
+{
+  "algebra_independently_recomputed": true,
+  "all_pass": true,
+  "candidate_rows_rechecked": 16,
+  "catch_proofs_passed": 30,
+  "complete_joint_operations": 0,
+  "fixed_tree": "c0c9b44bb0d99751f5711f4a8c8807aee981035b",
+  "grade": "VERIFIED_WITH_CAVEATS_SAME_SESSION_INDEPENDENT_IMPLEMENTATION",
+  "groups_reconciled": 80,
+  "outcome_reproduced": "NO_REGISTERED_JOINT_OPERATION_THREE_GAPS_RETAINED",
+  "schema": "udt-joint-selector-independent-verification-1.0",
+  "source_files_rehashed": 3044
+}

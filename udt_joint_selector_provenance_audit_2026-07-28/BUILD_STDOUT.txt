@@ -1,0 +1,31 @@
+{
+  "candidate_constructions_tested": 16,
+  "complete_joint_operations": 0,
+  "counterfamilies_undiscriminated": 6,
+  "dirty_worktree_contents_read": false,
+  "fixed_base": "bb70833d1e28cfcd7a62073860223f3b26e715ad",
+  "group_category_counts": {
+    "CONDITIONAL_CONFIGURATION_OR_MULTI_LAYER": 8,
+    "CONTROL_NAVIGATION_OR_UNRELATED": 8,
+    "GLOBAL_OR_COMPLETION_PARTIAL": 10,
+    "HISTORICAL_OR_FIREWALLED": 9,
+    "LIFT_OR_TRANSPORT_PARTIAL": 13,
+    "NO_SELECTOR_OR_TYPING_RESULT": 14,
+    "OUT_OF_SCOPE_PARTICLE_OR_ACTION": 4,
+    "PAIR_OR_DEPTH_PARTIAL": 14
+  },
+  "obligations_per_candidate": 15,
+  "outcome": "NO_REGISTERED_JOINT_OPERATION_THREE_GAPS_RETAINED",
+  "proposition_line_counts": {
+    "affirmative_terms": 9776,
+    "conditional_terms": 5895,
+    "joint_terms": 4225,
+    "open_terms": 9094
+  },
+  "qualified_groups_adjudicated": 80,
+  "schema": "udt-joint-selector-provenance-audit-result-1.0",
+  "source_files_verified": 3044,
+  "strongest_partial_candidate": "C07_stationary_hybrid_comparison",
+  "strongest_partial_grade": "CONDITIONAL_EXACT_REDUCIBLE_ON_SUPPLIED_STATIONARY_BRANCH_AND_PATH",
+  "verification_grade": "PENDING_INDEPENDENT_REPLAY"
+}

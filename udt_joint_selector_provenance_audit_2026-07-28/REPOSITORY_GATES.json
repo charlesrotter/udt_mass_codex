@@ -1,0 +1,137 @@
+{
+  "audit": {
+    "candidate_constructions": 16,
+    "catch_proofs": 30,
+    "complete_joint_operations": 0,
+    "counterfamilies": 6,
+    "groups": 80,
+    "obligations": 15,
+    "source_files": 3044,
+    "status": "PASS_VERIFIED_WITH_CAVEATS_SAME_SESSION",
+    "stdout_sha256": "c701f038952d8998cbaf1c1391794ce27db1fc3faa7b30f42fa5cab06b04b86e"
+  },
+  "authority_boundary": {
+    "GPU_launched": false,
+    "ODE_PDE_time_live_launched": false,
+    "P03B_launched": false,
+    "action_source_carrier_boundary_density_bootstrap_selected": false,
+    "canon_changed": false,
+    "physical_global_branch_selected": false,
+    "repository_reorganization_performed": false
+  },
+  "current_premises": {
+    "result": "PASS",
+    "stdout_sha256": "3a5bf9b325ca86ce5cde8b93b9c86e60bfa5a730bff1748773cb5f45286e1329"
+  },
+  "dirty_checkout": {
+    "contents_read": false,
+    "metadata_sha256": "345d297e0ad849cd38f1d817c915922de653ca2d2befcf923af6f9d097b483e4",
+    "paths": 55,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 43,
+    "result": "PASS",
+    "sha256": "8ff61af3950c216c1a5a75ab220b2a71acfef7fc406bdceac47153fcc250efd1"
+  },
+  "schema": "udt-joint-selector-repository-gates-1.0",
+  "scope_base": "5372ae9",
+  "scope_paths": [
+    "udt_joint_selector_provenance_audit_2026-07-28/ALGEBRA_RESULTS.json",
+    "udt_joint_selector_provenance_audit_2026-07-28/ALGEBRA_STDERR.txt",
+    "udt_joint_selector_provenance_audit_2026-07-28/ALGEBRA_STDOUT.txt",
+    "udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md",
+    "udt_joint_selector_provenance_audit_2026-07-28/AUDIT_RESULT.json",
+    "udt_joint_selector_provenance_audit_2026-07-28/BUILD_STDERR.txt",
+    "udt_joint_selector_provenance_audit_2026-07-28/BUILD_STDOUT.txt",
+    "udt_joint_selector_provenance_audit_2026-07-28/CATCH_PROOFS.tsv",
+    "udt_joint_selector_provenance_audit_2026-07-28/COMPLETENESS_MAP.md",
+    "udt_joint_selector_provenance_audit_2026-07-28/COUNTERFAMILY_RESULTS.tsv",
+    "udt_joint_selector_provenance_audit_2026-07-28/DISCOVERY_FILE_HITS.tsv",
+    "udt_joint_selector_provenance_audit_2026-07-28/DISCOVERY_GROUP_OUTCOMES.tsv",
+    "udt_joint_selector_provenance_audit_2026-07-28/EXACT_DERIVATION.md",
+    "udt_joint_selector_provenance_audit_2026-07-28/GROUP_ADJUDICATION.tsv",
+    "udt_joint_selector_provenance_audit_2026-07-28/INDEPENDENT_VERIFICATION.json",
+    "udt_joint_selector_provenance_audit_2026-07-28/JOINT_CANDIDATE_LEDGER.tsv",
+    "udt_joint_selector_provenance_audit_2026-07-28/JOINT_GATE_MATRIX.tsv",
+    "udt_joint_selector_provenance_audit_2026-07-28/LAY_REPORT.md",
+    "udt_joint_selector_provenance_audit_2026-07-28/NEXT_STEP.md",
+    "udt_joint_selector_provenance_audit_2026-07-28/PARTIAL_DEPENDENCY_GRAPH.tsv",
+    "udt_joint_selector_provenance_audit_2026-07-28/PREMISE_AUDIT.tsv",
+    "udt_joint_selector_provenance_audit_2026-07-28/PROPOSITION_CENSUS.tsv",
+    "udt_joint_selector_provenance_audit_2026-07-28/README.md",
+    "udt_joint_selector_provenance_audit_2026-07-28/REPOSITORY_SNAPSHOT.json",
+    "udt_joint_selector_provenance_audit_2026-07-28/RUN_ENVIRONMENT.json",
+    "udt_joint_selector_provenance_audit_2026-07-28/RUN_LOG.md",
+    "udt_joint_selector_provenance_audit_2026-07-28/SHA256SUMS.txt",
+    "udt_joint_selector_provenance_audit_2026-07-28/SOURCE_CANDIDATES.txt",
+    "udt_joint_selector_provenance_audit_2026-07-28/SOURCE_MANIFEST.tsv",
+    "udt_joint_selector_provenance_audit_2026-07-28/STATUS_LEDGER.tsv",
+    "udt_joint_selector_provenance_audit_2026-07-28/VERIFICATION_STDERR.txt",
+    "udt_joint_selector_provenance_audit_2026-07-28/VERIFICATION_STDOUT.txt",
+    "udt_joint_selector_provenance_audit_2026-07-28/build_audit.py",
+    "udt_joint_selector_provenance_audit_2026-07-28/finalize_package.py",
+    "udt_joint_selector_provenance_audit_2026-07-28/requirements.txt",
+    "udt_joint_selector_provenance_audit_2026-07-28/run_algebra.py",
+    "udt_joint_selector_provenance_audit_2026-07-28/verify_audit.py",
+    "udt_joint_selector_provenance_audit_2026-07-28/verify_repository_gates.py"
+  ],
+  "status": "PASS",
+  "tests": {
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "stdout_sha256": "9ac74c50a54223731fb1fbb406bfb597cc013ca3441b5c0c9722f69ed3cdd4fe",
+    "xfailed": 1
+  },
+  "verified_head": "dd96cb858f20337b6f4fb50b09d81921b2ad489b"
+}

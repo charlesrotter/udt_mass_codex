@@ -1,0 +1,23 @@
+{
+  "all_pass": true,
+  "check_count": 13,
+  "checks": {
+    "arbitrary_endpoint_cocycle_composition": true,
+    "complete_RxS3_metric_determinant": true,
+    "complete_RxS3_sampled_nondegeneracy": true,
+    "connection_metric_skew": true,
+    "connection_reciprocal_trace_pairing_zero": true,
+    "distinct_real_lambda_witnesses": true,
+    "extension_generator": true,
+    "hybrid_depth_composition": true,
+    "hybrid_transport_composition": true,
+    "pair_composition": true,
+    "pair_reversal": true,
+    "reciprocal_generator_metric_self_adjoint": true,
+    "stationary_Killing_norm_depth": true
+  },
+  "interpretive_limit": "Algebra certifies exact families and type separation; it does not select a physical joint operation.",
+  "python": "3.10.12",
+  "schema": "udt-joint-selector-algebra-1.0",
+  "sympy": "1.13.1"
+}

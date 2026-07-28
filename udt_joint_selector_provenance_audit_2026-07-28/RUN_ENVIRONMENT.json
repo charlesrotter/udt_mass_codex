@@ -1,0 +1,14 @@
+{
+  "backend": "CPU_SYMBOLIC_AND_FIXED_GIT_BLOB_CENSUS",
+  "commands": [
+    "python3 udt_joint_selector_provenance_audit_2026-07-28/build_audit.py",
+    "python3 udt_joint_selector_provenance_audit_2026-07-28/run_algebra.py",
+    "python3 udt_joint_selector_provenance_audit_2026-07-28/verify_audit.py"
+  ],
+  "gpu_processes_launched": 0,
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "processor": "x86_64",
+  "python": "3.10.12",
+  "schema": "udt-joint-selector-run-environment-1.0",
+  "sympy": "1.13.1"
+}
