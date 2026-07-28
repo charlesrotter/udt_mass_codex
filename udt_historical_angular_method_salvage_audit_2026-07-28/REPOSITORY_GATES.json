@@ -83,6 +83,13 @@
   "schema": "udt-historical-angular-method-salvage-repository-gates-1.0",
   "scope_base": "fa77ce28c8b5b83e7a6d5a92df2e684b62bb60e6",
   "scope_paths": [
+    "AGENTS.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "README.md",
+    "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
     "udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md",
     "udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_SEMANTIC_GATES.tsv",
     "udt_historical_angular_method_salvage_audit_2026-07-28/CATCH_PROOFS.tsv",
@@ -132,8 +139,8 @@
     "failed": 0,
     "passed": 70,
     "result": "PASS",
-    "stdout_sha256": "345b41275166d93b468b33b3f18dc421f68c70865b0279874f55fcc408a73441",
+    "stdout_sha256": "6eb17954a6ae1e2369915220378fe001b9443e3ffffb892353c099359117b153",
     "xfailed": 1
   },
-  "verified_head": "570e5aa9017b32f9184d237bcd5df6a1449ae44d"
+  "verified_head": "cc675ee5ef9324eeba4a0f78a38b7753511ac8d0"
 }
