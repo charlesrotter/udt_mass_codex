@@ -1,0 +1,137 @@
+{
+  "audit": {
+    "result": "PASS",
+    "stdout_sha256": "9b4808f64d100dcb7706b37557dbb049f2fb474ef664c3a7653ff20141390025"
+  },
+  "authority_boundary": {
+    "GPU_work": false,
+    "GR_or_SR_physics_imported": false,
+    "action_carrier_source_boundary_bootstrap_density_Xmax_mass_changed": false,
+    "canon_changed": false,
+    "frozen_sources_changed": false,
+    "physical_quotient_branch_lambda_flag_connection_or_path_selected": false,
+    "repository_reorganization": false,
+    "startup_controls_changed": false
+  },
+  "base": "12b4a42",
+  "catch_proofs": {
+    "current_paths": "PASS",
+    "dirty": "PASS",
+    "frontier": "PASS",
+    "frozen": "PASS",
+    "package": "PASS",
+    "scope": "PASS"
+  },
+  "current_premises": {
+    "result": "PASS",
+    "stdout_sha256": "3a5bf9b325ca86ce5cde8b93b9c86e60bfa5a730bff1748773cb5f45286e1329"
+  },
+  "dirty_checkout": {
+    "contents_read": false,
+    "metadata_sha256": "345d297e0ad849cd38f1d817c915922de653ca2d2befcf923af6f9d097b483e4",
+    "paths": 55,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "head": "8a3bd13db4a4088e342618848b8e253987ecd90c",
+  "independent": {
+    "result": "PASS",
+    "stdout_sha256": "0b9c3cb303b951e52cbf48d04fb02b08105388ad15a980281078e7297035c71c"
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package": {
+    "entries": 30,
+    "manifest_sha256": "e1ca8ae0f49840f0f4813d90c78b065b364cad375b79a7b1b1dda5b230043c9e",
+    "result": "PASS"
+  },
+  "production": {
+    "result": "PASS",
+    "stdout_sha256": "657565d49b92a0d084e14b5382fde16a2f4bb77eeb6a2780974d7574535bf2f1"
+  },
+  "result": "PASS",
+  "schema": "udt-finite-cell-reciprocal-quotient-reduction-repository-gates-1.0",
+  "scope_paths": [
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/AUDIT_REPORT.md",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/BRANCH_OUTCOMES.tsv",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/BRANCH_UNIVERSE.tsv",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/CATCH_PROOFS.tsv",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/COMPLETION_OUTCOMES.tsv",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/DERIVATION_RESULT.json",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/DERIVATION_STDERR.txt",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/EXACT_DERIVATION.md",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/EXECUTED_COMMANDS.txt",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/FALSIFICATION_CONTRACT.tsv",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/INDEPENDENT_RESULT.json",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/INDEPENDENT_STDERR.txt",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/LAYER_OUTCOMES.tsv",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/LAY_REPORT.md",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/NEXT_STEP.md",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/PREREGISTRATION.md",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/PREREGISTRATION_CORRECTION.md",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/RUN_ENVIRONMENT.json",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/SHA256SUMS.txt",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/SOURCE_MANIFEST.tsv",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/STATUS_LEDGER.tsv",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/VERIFICATION_RESULT.json",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/VERIFICATION_STDERR.txt",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/derive_finite_cell_reduction.py",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/requirements.txt",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/verify_audit.py",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/verify_finite_cell_reduction_independent.py",
+    "udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/verify_repository_gates.py"
+  ],
+  "tests": {
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "stdout_sha256": "04e4b9a37d6eacfa08393f10b908f3a4d9415faa061cf0f228a1987f1107a0ef",
+    "xfailed": 1
+  }
+}
