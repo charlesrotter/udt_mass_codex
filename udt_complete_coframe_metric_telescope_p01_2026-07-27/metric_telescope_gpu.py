@@ -288,7 +288,7 @@ def evaluate_grid(coefficients: torch.Tensor, shell: float, t: torch.Tensor, x: 
         torch.sum(zero, dim=1) / count,
         torch.sum(repeated, dim=1) / count,
         torch.amin(torch.nan_to_num(discr, nan=0.0, posinf=1e300, neginf=0.0), dim=1),
-        1 - torch.sum(finite, dim=1) / count,
+        torch.sum(~finite, dim=1) / count,
     ), dim=-1)
     return features.detach().cpu().numpy()
 
