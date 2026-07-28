@@ -1,0 +1,140 @@
+{
+  "authority_boundary": {
+    "action_source_carrier_density_boundary_or_bootstrap_selected": false,
+    "background_equation_or_physical_time_evolution_derived": false,
+    "live_or_canon_changed": false,
+    "p02_or_further_gpu_work_authorized": false
+  },
+  "current_premises": {
+    "result": "PASS",
+    "stdout_sha256": "3a5bf9b325ca86ce5cde8b93b9c86e60bfa5a730bff1748773cb5f45286e1329"
+  },
+  "dirty_checkout": {
+    "contents_read": false,
+    "metadata_sha256": "345d297e0ad849cd38f1d817c915922de653ca2d2befcf923af6f9d097b483e4",
+    "paths": 55,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "head": "390d0bd25b9e64771bca78e2f48deb04ef413aea",
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 2
+  },
+  "package": {
+    "checks_passed": 65,
+    "checks_total": 65,
+    "result": "PASS",
+    "stdout_sha256": "d9fe3fef5a78e65e1973b99bfedd7fb41b5fa8b89f33d96a9538d9c9d3d4d192"
+  },
+  "schema": "udt-complete-coframe-metric-telescope-p01-repository-gates-1.0",
+  "scope_base": "401805c",
+  "scope_paths": [
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/ATLAS_RESULT.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/ATLAS_shell_0030_N1024_T17_X33_MEXP64.npz",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/ATLAS_shell_0030_SUMMARY.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/ATLAS_shell_0100_N1024_T17_X33_MEXP64.npz",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/ATLAS_shell_0100_SUMMARY.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/ATLAS_shell_0300_N1024_T17_X33_MEXP64.npz",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/ATLAS_shell_0300_SUMMARY.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/ATLAS_shell_1000_N1024_T17_X33_MEXP64.npz",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/ATLAS_shell_1000_SUMMARY.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/ATLAS_shell_2500_N1024_T17_X33_MEXP64.npz",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/ATLAS_shell_2500_SUMMARY.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/AUDIT_REPORT.md",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/CPU_ANCHOR_GPU.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/CPU_ANCHOR_VERIFICATION.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/FALSIFICATION_CONTRACT.tsv",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/LAY_REPORT.md",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/NEXT_STEP.md",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/PREFLIGHT_NUMERICAL_REFINEMENT.md",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/PREMISE_LEDGER.tsv",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/PREREGISTRATION.md",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/PRIMARY_PRODUCTION_RESOURCE_NOTE.md",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/PRODUCTION_ATTEMPT_01_FAILURE.md",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/README.md",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/RESOURCE_REPLAY_COMPARISON_SCOPE_CORRECTION.md",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/RESOURCE_REPLAY_SCOPED_VERIFICATION.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/RESOURCE_REPLAY_VERIFICATION.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/RUN_LOG.md",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/SAMPLING_CONTRACT.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/SOURCE_MANIFEST.tsv",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/STRUCTURE_CENSUS.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/TRANSPORT_CONVERGENCE.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/VERIFICATION_RESULT.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/analyze_metric_telescope.py",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/failed_production_attempt_01/ATLAS_shell_0030_N1024_T17_X33_MEXP64.npz",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/failed_production_attempt_01/ATLAS_shell_0030_SUMMARY.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/metric_telescope_gpu.py",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/resource_replay_batch16/ATLAS_RESULT.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/resource_replay_batch16/ATLAS_shell_0030_N1024_T17_X33_MEXP64.npz",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/resource_replay_batch16/ATLAS_shell_0030_SUMMARY.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/resource_replay_batch16/ATLAS_shell_0100_N1024_T17_X33_MEXP64.npz",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/resource_replay_batch16/ATLAS_shell_0100_SUMMARY.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/resource_replay_batch16/ATLAS_shell_0300_N1024_T17_X33_MEXP64.npz",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/resource_replay_batch16/ATLAS_shell_0300_SUMMARY.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/resource_replay_batch16/ATLAS_shell_1000_N1024_T17_X33_MEXP64.npz",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/resource_replay_batch16/ATLAS_shell_1000_SUMMARY.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/resource_replay_batch16/ATLAS_shell_2500_N1024_T17_X33_MEXP64.npz",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/resource_replay_batch16/ATLAS_shell_2500_SUMMARY.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/resource_replay_batch16/CPU_ANCHOR_GPU.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/resource_replay_batch16/TRANSPORT_CONVERGENCE.json",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/verify_metric_telescope_cpu.py",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/verify_package.py",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/verify_repository_gates.py",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/verify_resource_replay.py",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/verify_resource_replay_scoped.py"
+  ],
+  "status": "PASS",
+  "tests": {
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "stdout_sha256": "1e18d746920886f39d4f9a26dca73addf8b6d27991da7974b567be449fef8fe5",
+    "xfailed": 1
+  }
+}
