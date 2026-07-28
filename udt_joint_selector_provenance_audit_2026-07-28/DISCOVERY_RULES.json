@@ -1,0 +1,31 @@
+{
+  "base_commit": "bb70833d1e28cfcd7a62073860223f3b26e715ad",
+  "base_tree": "c0c9b44bb0d99751f5711f4a8c8807aee981035b",
+  "bucket_patterns": {
+    "B1_FOUNDING": "founding|postulate|observer[ _-]frame|frame[ _-]reciproc|reciprocal|reciprocity|clock.{0,24}ruler|ruler.{0,24}clock",
+    "B2_DEPTH": "signed[ _-]depth|logarithmic[ _-]depth|observer[ _-]pair[ _-]depth|physical.{0,24}depth|depth.{0,24}physical|delta[_ ]?f|phi\\(q\\)[ _-]*-[ _-]*phi\\(p\\)|Killing[ _-]norm|norm[ _-]depth",
+    "B3_LIFT": "full[ _-]frame|complete[ _-]coframe|four[ _-]dimensional[ _-]extension|4D[ _-]extension|angular.{0,32}mix|mixing.{0,32}angular|X[_ ]?lambda|lambda|transverse[ _-]response|screen[ _-]response|finite[ _-]lift|coframe[ _-]lift",
+    "B4_GLOBAL": "global[ _-]descent|global[ _-]join|completion|chart[ _-]overlap|transition[ _-]law|cocycle|holonomy|cap|seam|quotient|finite[ _-]cell|loop[ _-]consisten|path[ _-]independen|causal[ _-]interface|type[ _-]chang",
+    "B5_JOINT": "joint|simultaneous|whole[ _-]solution|same[ _-]solution|select|derive|force|unique|closure|compatible|compatibility|consistency"
+  },
+  "text_suffixes": [
+    ".md",
+    ".tsv",
+    ".txt",
+    ".json",
+    ".py",
+    ".yaml",
+    ".yml",
+    ".toml",
+    ".tex"
+  ],
+  "evidence_companion_pattern": "(^|/)(AUDIT_REPORT|EXACT_DERIVATION|DERIVATION_REPORT|STATUS_LEDGER|PREMISE_LEDGER|PREMISE_AUDIT|SOURCE_PROPOSITIONS|SOURCE_SCOPE|SOURCE_LINEAGE|IMPLICATION_GRAPH|DEPENDENCY_ARCHITECTURE|COMPLETENESS_MAP|NEXT_STEP|NEXT_DECISION|LAY_REPORT|PREREGISTRATION|.*OUTCOMES|.*LEDGER|.*ATLAS|.*UNIVERSE)\\.(md|tsv|txt|json)$",
+  "historical_group_prefixes": [
+    "archive",
+    "legacy",
+    "rescued_workspaces",
+    "grok"
+  ],
+  "qualification": "one_or_more_files_in_group_hit_every_B1_through_B5_bucket",
+  "candidate_inclusion": "all_hit_bearing_text_files_plus_all_evidence_named_text_companions_in_each_qualified_group"
+}
