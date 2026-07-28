@@ -1,0 +1,24 @@
+method_id	historical_section	operation	native_or_mathematical_input	import_or_free_join	classification	rationale
+M01	13.2	S2 average <cos^2>=1/3	round S2 measure	none	PURE_MATH_REUSABLE_CONDITIONAL	valid identity; carrier and physical role supplied
+M02	13.2	multiply S2 average by angular half-period pi to define mu^2	M01	choice of half-period and mass interpretation	EMPIRICAL_NUMEROLOGY	product is not forced by the average
+M03	13.3	rank-1 tensor matrix elements between spinor harmonics	round S2 plus spinor harmonics	Dirac/spinor carrier	PURE_MATH_REUSABLE_CONDITIONAL	Wigner-Eckart selection rule is mathematical; UDT carrier is not derived
+M04	13.4	multiply coupling by j-ratio and set equal to 4	M03	universal constant 4 and equality criterion	EMPIRICAL_NUMEROLOGY	selection equation is imposed rather than metric-selected
+M05	13.5	build A_n from closure number 5 and multiplicities	small integer labels	closure-channel assignment	EMPIRICAL_NUMEROLOGY	coefficient prescription lacks an operator
+M06	13.6	Gaussian complex-mode measure gives pi^d	complex amplitudes	Fock/Gaussian quantization	IMPORTED_COMPARISON_ONLY	document itself retracts this as a smuggled import
+M07	13.7-13.10	assign particle-dependent pi powers and coefficients	M05-M06	particle labels and exponent assignment	EMPIRICAL_NUMEROLOGY	labels choose different rules; computation sources absent
+M08	13.10	symmetric occupation count binomial(9,3)=84	finite-dimensional combinatorics	bosonic occupation and physical 7-orbit	PURE_MATH_REUSABLE_CONDITIONAL	count is exact but no native operator produces it
+M09	13.10;26	Diophantine equality of two dimension counts	multiplicity dimensions	equality/self-consistency criterion	NATIVE_METHOD_LEAD_REQUIRES_REDERIVATION	Pell arithmetic is exact; representation decompositions are not isomorphic
+M10	13.11	Brannen/Koide Z3 orbit parametrization	three-component mass vector	imported empirical parametrization; phase choice	IMPORTED_COMPARISON_ONLY	l=1 degeneracy does not select a unique Z3 orbit or phase
+M11	14	match radial eigenvalue ladders to named hadrons	chosen Dirac cavity spectrum	PDG labels; two domains; Neumann boundary	HISTORICAL_RESULT_ONLY	document admits density/look-elsewhere and underived mapping
+M12	14.9;16.4	interpret kappa magnitude/sign/step as color/charge/flavor	Dirac kappa label	Standard Model role assignment	IMPORTED_COMPARISON_ONLY	analogy is not an operator derivation
+M13	18.6	close rank-1 rotations plus rank-2 traceless tensors	finite-dimensional angular operator space	complex/Hermitian structure for compact real form	PURE_MATH_REUSABLE_CONDITIONAL	exact generated-algebra method; physical gauge interpretation imported
+M14	19.1-19.2	use exterior powers and Hodge duality on R9	exterior algebra	9d base; EM and particle channel assignments	PURE_MATH_REUSABLE_CONDITIONAL	identities exact; physical channels not derived
+M15	19.3-19.5	recognize numerical radial outputs as simple rational/pi bridge values	computed eigenvalues and sources	target algebraic forms	HISTORICAL_RESULT_ONLY	near-matches are not established identities; scripts absent
+M16	19.5b;19.7-19.8a	form bilinear and vertex partition fractions	small multiplicity dimensions	field-count powers and physical mixing labels	EMPIRICAL_NUMEROLOGY	dimension partitions are assigned to desired observables
+M17	19.8b	generate quark ratios from 2pi^2 times rotating sector factors	small integers and pi	quark labels and searched prescription	EMPIRICAL_NUMEROLOGY	document states coefficients were found by search; Gaussian factor is imported
+M18	19.8	map small rational fractions to CP phases and hierarchy parameters	M16 fractions	trigonometric mapping and empirical labels	EMPIRICAL_NUMEROLOGY	mapping function is selected after the observable
+M19	19.9	insert angular formulas into nuclear/Goldberger-Treiman/CVC machinery	historical angular coefficients	imported nuclear relations and potentials	IMPORTED_COMPARISON_ONLY	external dynamics are load-bearing
+M20	19.10	interpret partial radial integral as QCD running and cavity boundary as confinement	radial integral and boundary	QCD scale/running interpretation	IMPORTED_COMPARISON_ONLY	monotone accumulation is not a beta function
+M21	20	reuse multiplicities 2,3,5,7 across many named observables	small integer vocabulary	large target and formula choice space	EMPIRICAL_NUMEROLOGY	multiplicity web has severe look-elsewhere exposure
+M22	26	V2+V4+V7 dimension/representation/orbit translation cluster	endomorphism dimensions and combinatorics	GR matter substrate and unproved joins	MIXED_MULTIPLE_METHOD_CLASSES	valid algebra is combined with open dimension-equality and physical maps
+M23	current cross-map	decompose complete screen endomorphism into trace rotation and shear	current metric-derived screen plus coframe response	no physical coefficient or dynamics	NATIVE_EXACT_REDERIVED_BOUNDED	current owner reports supply the object; exact algebra below supplies the method

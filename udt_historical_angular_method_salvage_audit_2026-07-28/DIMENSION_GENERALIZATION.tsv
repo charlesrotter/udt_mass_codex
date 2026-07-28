@@ -1,0 +1,6 @@
+n	rotation_dim	symmetric_traceless_dim	total_traceless_dim	n_squared_minus_one	real_algebra
+2	1	2	3	3	sl(2,R)
+3	3	5	8	8	sl(3,R)
+4	6	9	15	15	sl(4,R)
+5	10	14	24	24	sl(5,R)
+6	15	20	35	35	sl(6,R)

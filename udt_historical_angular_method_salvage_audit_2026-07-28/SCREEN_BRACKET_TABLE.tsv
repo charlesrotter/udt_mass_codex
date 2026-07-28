@@ -1,0 +1,4 @@
+left	right	coefficient_R	coefficient_S1	coefficient_S2
+R	S1	0	0	2
+R	S2	0	-2	0
+S1	S2	-2	0	0

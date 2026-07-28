@@ -1,0 +1,28 @@
+id	status	evidence
+F01	PASS	SOURCE_MANIFEST.tsv and SUPPLEMENTAL_SOURCE_MANIFEST.tsv replay exact base blobs
+F02	PASS	TRANSITIVE_REFERENCE_CENSUS.tsv equals independent fixed-range parser output
+F03	PASS	HISTORICAL_METHOD_CENSUS.tsv contains exactly M01 through M23 including failures and retractions
+F04	PASS	DERIVATION_RESULT historical_physics_restored=false and STATUS_LEDGER marks old physics NOT_RESTORED
+F05	PASS	all target-bearing historical methods remain numerology comparison historical or conditional math
+F06	PASS	FORMULA_REPLAY labels every row arithmetic reproduced not native validation
+F07	PASS	M06 M10 M12 M19 M20 are imported comparison and M13 discloses complex Hermitian input
+F08	PASS	every method records its mathematical input and import or free join
+F09	PASS	response coefficients remain OPEN and no parameter family is promoted to a unique prediction
+F10	PASS	look-elsewhere target visibility and absent perturbation controls are explicit
+F11	PASS	DIMENSION_GENERALIZATION covers n=2 through 6 and proves the old n=3 count generic
+F12	PASS	only M23 is current bounded exact and its historical_section is current cross-map
+F13	PASS	EXACT_DERIVATION defines the decomposition metric-invariantly before choosing a basis
+F14	PASS	STATUS_LEDGER leaves carrier and matter map OPEN
+F15	PASS	no Hopf-compatible object is promoted to matter emergence
+F16	PASS	M13 is PURE_MATH_REUSABLE_CONDITIONAL not UDT physics
+F17	PASS	invalidated Gaussian import searched prescriptions and absent operators remain visible
+F18	PASS	all 45 absent filename references are marked MISSING_FROM_ALL_GIT_HISTORY
+F19	PASS	lambda branch action source carrier boundary and density remain unchosen
+F20	PASS	headline ratios are arithmetic replay only and do not determine the ruling
+F21	PASS	all 17 fixed current and historical source blobs replay unchanged
+F22	PASS	OWNERSHIP_CROSSWALK traces every current operation to its owner and status
+F23	PASS	COMPLETENESS_MAP states the exact bounded universe and exclusions
+F24	PASS	DERIVATION_RESULT authority boundary records CPU algebra only and no forbidden launch
+F25	PASS	CANON blob equals the fixed base and all frozen source blobs replay
+F26	PASS	55 unrelated dirty paths retain the registered short-status metadata hash and contents remain unread
+F27	PASS	result grade is VERIFIED-WITH-CAVEATS_SAME_CONTEXT_INDEPENDENT_IMPLEMENTATION

@@ -1,0 +1,13 @@
+item	status	scope	reason
+historical_mass_ratio_arithmetic	OBSERVED	document formulas only	arithmetic replayed without validating physical provenance
+historical_lepton_quark_qcd_claims	NOT_RESTORED	pre-July material	imports searched rules target visibility and missing sources are load-bearing
+old_3_plus_5_dimension_count	DERIVED	pure finite-dimensional algebra	3+5=8 exactly
+old_3_plus_5_as_unique_QCD_structure	REJECTED	pure real geometry	general n construction gives n^2-1 and real closure sl(3,R)
+compact_su3_interpretation	CONDITIONAL	complex anti-Hermitian convention	requires extra complex/Hermitian input
+current_positive_screen_decomposition	DERIVED	registered local positive two-screen	End(S)=R I plus so(2) plus Sym0(2)
+current_traceless_screen_closure	DERIVED	registered local positive two-screen	exact commutators close sl(2,R)
+lambda_as_complete_screen_response	REJECTED	generic current screen	lambda is only isotropic trace after extra equivariance
+complete_screen_operator_method	LEAD	metric-led next mapping object	current reports independently contain area shape rotation and mixing objects
+screen_response_coefficients	OPEN	complete metric realization	algebra type does not select values
+global_screen_bundle_and_transport	OPEN	complete finite cells	local decomposition does not choose global completion
+action_source_carrier_matter_map	OPEN	downstream physics	operator closure supplies no dynamics or physical labels

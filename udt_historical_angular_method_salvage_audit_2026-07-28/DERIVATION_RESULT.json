@@ -1,0 +1,58 @@
+{
+  "authority_boundary": {
+    "action_source_carrier_boundary_or_density_selected": false,
+    "canon_changed": false,
+    "historical_particle_or_gauge_claim_restored": false,
+    "lambda_or_branch_selected": false,
+    "ode_pde_time_live_or_gpu_work_launched": false,
+    "repository_reorganization_performed": false
+  },
+  "compute": {
+    "backend": "CPU_SYMBOLIC",
+    "gpu_work_performed": false
+  },
+  "fixed_sources_replayed": 13,
+  "historical_document_sha256": "8e4f27a4e15a4ab608661ea49a5fdbc9339de0a6ea2eb9f713192a2980c705a7",
+  "historical_methods": 23,
+  "historical_physics_restored": false,
+  "lambda_is_complete_screen_response": false,
+  "maximum_conclusion": "OPERATOR_ALGEBRA_METHOD_SALVAGED;_CURRENT_SCREEN_DECOMPOSITION_SHARPENS_OWNERSHIP;_NO_HISTORICAL_PARTICLE_OR_GAUGE_CLAIM_RESTORED",
+  "method_class_counts": {
+    "EMPIRICAL_NUMEROLOGY": 8,
+    "HISTORICAL_RESULT_ONLY": 2,
+    "IMPORTED_COMPARISON_ONLY": 5,
+    "MIXED_MULTIPLE_METHOD_CLASSES": 1,
+    "NATIVE_EXACT_REDERIVED_BOUNDED": 1,
+    "NATIVE_METHOD_LEAD_REQUIRES_REDERIVATION": 1,
+    "PURE_MATH_REUSABLE_CONDITIONAL": 5
+  },
+  "method_lead": "CURRENT_SCREEN_OPERATOR_METHOD_LEAD",
+  "missing_transitive_references": 45,
+  "old_3_plus_5_unique": false,
+  "primary_outcome": "MIXED_MULTIPLE_METHOD_CLASSES",
+  "schema": "udt-historical-angular-method-salvage-1.0",
+  "screen_endomorphism_dimension": 4,
+  "screen_trace_form_inertia": [
+    2,
+    1,
+    0
+  ],
+  "screen_traceless_algebra": "sl(2,R)",
+  "supplemental_sources_replayed": 4,
+  "three_dimensional_compact_algebra": "su(3)_ONLY_AFTER_COMPLEX_HERMITIAN_CHOICE",
+  "three_dimensional_compact_form_inertia": [
+    8,
+    0,
+    0
+  ],
+  "three_dimensional_real_algebra": "sl(3,R)",
+  "three_dimensional_real_trace_form_inertia": [
+    5,
+    3,
+    0
+  ],
+  "transitive_reference_status_counts": {
+    "MISSING_FROM_ALL_GIT_HISTORY": 45
+  },
+  "transitive_references": 45
+}
