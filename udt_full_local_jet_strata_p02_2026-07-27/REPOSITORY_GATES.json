@@ -1,0 +1,133 @@
+{
+  "authority_boundary": {
+    "P03_or_further_GPU_work_authorized": false,
+    "action_source_carrier_density_boundary_bootstrap_or_physics_selected": false,
+    "global_finite_cell_or_background_equation_derived": false,
+    "live_handoff_index_canon_changed": false
+  },
+  "current_premises": {
+    "result": "PASS",
+    "stdout_sha256": "3a5bf9b325ca86ce5cde8b93b9c86e60bfa5a730bff1748773cb5f45286e1329"
+  },
+  "dirty_checkout": {
+    "contents_read": false,
+    "metadata_sha256": "345d297e0ad849cd38f1d817c915922de653ca2d2befcf923af6f9d097b483e4",
+    "paths": 55,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "head": "49bbdbe018e6b62c83104c24dc81a83a8202212f",
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package": {
+    "P02B_catches_passed": 15,
+    "checks_passed": 33,
+    "checks_total": 33,
+    "result": "PASS",
+    "stdout_sha256": "f4e116d5a50fd9175cf7fa61d95f7f195b8812bd85c12c90ee562a179e48bc50"
+  },
+  "schema": "udt-full-local-jet-strata-p02-repository-gates-1.0",
+  "scope_base": "eee9051",
+  "scope_paths": [
+    "udt_full_local_jet_strata_p02_2026-07-27/ATLAS_RESULT.json",
+    "udt_full_local_jet_strata_p02_2026-07-27/AUDIT_REPORT.md",
+    "udt_full_local_jet_strata_p02_2026-07-27/AXIS_CENSUS.tsv",
+    "udt_full_local_jet_strata_p02_2026-07-27/AXIS_CONTRACT.tsv",
+    "udt_full_local_jet_strata_p02_2026-07-27/CLASSIFICATION_CONTRACT.tsv",
+    "udt_full_local_jet_strata_p02_2026-07-27/CPU_ANCHOR_GPU.json",
+    "udt_full_local_jet_strata_p02_2026-07-27/CPU_ANCHOR_VERIFICATION.json",
+    "udt_full_local_jet_strata_p02_2026-07-27/FALSIFICATION_CONTRACT.tsv",
+    "udt_full_local_jet_strata_p02_2026-07-27/JET_ATLAS.npz",
+    "udt_full_local_jet_strata_p02_2026-07-27/LAY_REPORT.md",
+    "udt_full_local_jet_strata_p02_2026-07-27/NEXT_STEP.md",
+    "udt_full_local_jet_strata_p02_2026-07-27/P02A_INTERIM_SCOPE_CORRECTION.md",
+    "udt_full_local_jet_strata_p02_2026-07-27/P02B_AXIS_CENSUS.tsv",
+    "udt_full_local_jet_strata_p02_2026-07-27/P02B_CANDIDATE_LEDGER.tsv",
+    "udt_full_local_jet_strata_p02_2026-07-27/P02B_CAUSAL_TARGET_CENSUS.tsv",
+    "udt_full_local_jet_strata_p02_2026-07-27/P02B_CENSUS.json",
+    "udt_full_local_jet_strata_p02_2026-07-27/P02B_CPU_ANCHOR_GPU.json",
+    "udt_full_local_jet_strata_p02_2026-07-27/P02B_CPU_ANCHOR_VERIFICATION.json",
+    "udt_full_local_jet_strata_p02_2026-07-27/P02B_PACKAGE_VERIFICATION.json",
+    "udt_full_local_jet_strata_p02_2026-07-27/P02B_REPEATED_TIDAL_PREREGISTRATION.md",
+    "udt_full_local_jet_strata_p02_2026-07-27/P02B_RESULT.json",
+    "udt_full_local_jet_strata_p02_2026-07-27/PREMISE_LEDGER.tsv",
+    "udt_full_local_jet_strata_p02_2026-07-27/PREREGISTRATION.md",
+    "udt_full_local_jet_strata_p02_2026-07-27/README.md",
+    "udt_full_local_jet_strata_p02_2026-07-27/REPEATED_TIDAL_ATLAS.npz",
+    "udt_full_local_jet_strata_p02_2026-07-27/REPEATED_TIDAL_TARGET_CONTRACT.json",
+    "udt_full_local_jet_strata_p02_2026-07-27/RUN_LOG.md",
+    "udt_full_local_jet_strata_p02_2026-07-27/SAMPLING_CONTRACT.json",
+    "udt_full_local_jet_strata_p02_2026-07-27/SOURCE_MANIFEST.tsv",
+    "udt_full_local_jet_strata_p02_2026-07-27/STATUS_LEDGER.tsv",
+    "udt_full_local_jet_strata_p02_2026-07-27/STRATUM_CENSUS.json",
+    "udt_full_local_jet_strata_p02_2026-07-27/STRATUM_LEDGER.tsv",
+    "udt_full_local_jet_strata_p02_2026-07-27/STRATUM_UNIVERSE.tsv",
+    "udt_full_local_jet_strata_p02_2026-07-27/STRATUM_UNIVERSE_RESULT.json",
+    "udt_full_local_jet_strata_p02_2026-07-27/VERIFICATION_RESULT.json",
+    "udt_full_local_jet_strata_p02_2026-07-27/analyze_repeated_tidal.py",
+    "udt_full_local_jet_strata_p02_2026-07-27/analyze_strata.py",
+    "udt_full_local_jet_strata_p02_2026-07-27/build_manifest.py",
+    "udt_full_local_jet_strata_p02_2026-07-27/build_stratum_universe.py",
+    "udt_full_local_jet_strata_p02_2026-07-27/full_local_jet_atlas_gpu.py",
+    "udt_full_local_jet_strata_p02_2026-07-27/solve_repeated_tidal_gpu.py",
+    "udt_full_local_jet_strata_p02_2026-07-27/verify_full_local_jet_cpu.py",
+    "udt_full_local_jet_strata_p02_2026-07-27/verify_p02b_package.py",
+    "udt_full_local_jet_strata_p02_2026-07-27/verify_package.py",
+    "udt_full_local_jet_strata_p02_2026-07-27/verify_repeated_tidal_cpu.py",
+    "udt_full_local_jet_strata_p02_2026-07-27/verify_repository_gates.py"
+  ],
+  "status": "PASS",
+  "tests": {
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "stdout_sha256": "04e4b9a37d6eacfa08393f10b908f3a4d9415faa061cf0f228a1987f1107a0ef",
+    "xfailed": 1
+  }
+}
