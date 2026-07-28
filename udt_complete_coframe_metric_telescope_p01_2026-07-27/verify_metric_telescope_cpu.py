@@ -168,7 +168,7 @@ def main() -> None:
         "dphi_norm_scaled": max(dphi_scaled_errors),
     }
     tolerances = {"metric_absolute": 5.0e-13, "scalar_scaled": 5.0e-5, "dphi_norm_scaled": 2.0e-9}
-    checks = {name: maxima[name] <= tolerance for name, tolerance in tolerances.items()}
+    checks = {name: bool(maxima[name] <= tolerance) for name, tolerance in tolerances.items()}
     result = {
         "schema": "udt-p01-independent-cpu-anchor-verification-1.0",
         "status": "PASS" if all(checks.values()) else "FAIL",
