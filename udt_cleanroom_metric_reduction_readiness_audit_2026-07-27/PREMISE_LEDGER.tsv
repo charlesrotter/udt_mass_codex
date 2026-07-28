@@ -1,0 +1,19 @@
+premise_id	object	provenance_tag	status	use_in_audit	open_or_excluded_scope
+P01	founded_phi_identity	pinned-by-THEORY	DERIVED	phi is reciprocal-pair additive log depth	observer/path assignment; realized profile
+P02	founded_pair_action	pinned-by-THEORY	DERIVED	diag(exp(-phi),exp(+phi)) on founded pair	unique complete 4D extension
+P03	complete_triangular_chart	free-and-explored	CHOSE_BOUNDED_CONFIGURATION_ARENA	eight-amplitude completeness control	native field ownership; physical selection
+P04	seven_extension_directions	free-and-explored	OPEN_SELECTION	kept live in closure rank	physical extension and variation domain
+P05	c_E	pinned-by-THEORY	OBSERVED_ANCHOR	coordinate clock/distance calibration	native scale closure
+P06	G_obs	pinned-by-THEORY	OBSERVED_ANCHOR_NOT_USED	no role in kinematic closure audit	native dynamical placement
+P07	strong_local_CSN	pinned-by-THEORY	INACTIVE_CHALLENGED_OWNER_POSTULATE	excluded	counterfactual only with new owner authorization
+P08	cohomogeneity_one	pinned-by-HABIT	CHOSE_REDUCTION_CONTROL	readiness diagnostic only	generic angular and spacetime dependence
+P09	one_plus_one_time_dependence	pinned-by-HABIT	CHOSE_REDUCTION_CONTROL	readiness diagnostic only	full 3+1 dependence
+P10	stationary_twisted_S3	free-and-explored	CONDITIONAL_REGISTERED_CONFIGURATION	closure control only	on-shell or selected-universe status
+P11	constant_depth_reduced_product	free-and-explored	CONDITIONAL_REGISTERED_CONTROL	closure control only	nontrivial founded-pair status
+P12	action_or_field_equation	pinned-by-THEORY	OPEN_NOT_SUPPLIED	excluded	complete native dynamics
+P13	native_source_or_carrier	pinned-by-THEORY	OPEN_OR_POSIT_NOT_ACTIVE	excluded	matter emergence and source
+P14	bootstrap	pinned-by-THEORY	WORKING_ON_SHELL_ADMISSIBILITY_ONLY	excluded as local/evolution equation	mass-volume-density feedback and fixed point
+P15	boundary_data	free-and-explored	UNSELECTED	classified as needed inputs	physical finite-cell boundary law
+P16	path_and_initial_data	free-and-explored	SUPPLIED_QUERY_DATA	allowed only for conditional kinematic ODEs	physical path-selection ontology
+P17	legacy_solver_equations	pinned-by-THEORY	QUARANTINED_HISTORY	excluded until clean-room verdict	post-verdict provenance comparison only
+P18	numerical_acceptance	free-and-explored	CHARACTERIZE_NOT_FILTER	branch/singularity/caustic labels only	no desired-shape merit gate

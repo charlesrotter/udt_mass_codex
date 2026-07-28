@@ -1,0 +1,19 @@
+catch_id	false_promotion_or_bug	must_fail_because
+F01	count_de_equals_omega_wedge_e_as_background_equations	first Cartan equation defines the torsion-free connection for a supplied coframe
+F02	count_domega_plus_omega_wedge_omega_as_background_equations	second Cartan equation defines curvature for a supplied connection
+F03	count_Bianchi_identity_as_missing_evolution_law	Bianchi is an identity after the connection and curvature definitions
+F04	freeze_any_of_seven_extension_directions_without_current_selector	bounded chart directions remain open rather than absent
+F05	treat_phi_as_extra_independent_native_scalar	phi is the founded reciprocal-pair depth readout
+F06	use_strong_local_CSN_to_remove_a_direction	strong local CSN is inactive
+F07	call_geodesic_or_parallel_transport_background_dynamics	path ODEs require a supplied metric and do not determine it
+F08	call_projected_screen_transport_universal	H exists only on the appropriate intrinsic-pair stratum and physical role is open
+F09	call_Jacobi_equation_metric_evolution	Jacobi evolves separation on a supplied curvature background
+F10	insert_Ricci_zero_Einstein_or_Bach_as_metric_native_equation	no such complete current equation is selected
+F11	insert_bootstrap_density_as_local_source_or_optimizer	current bootstrap is on-shell admissibility only
+F12	inherit_legacy_solver_equation_before_cleanroom_verdict	legacy equations are quarantined history
+F13	call_method_of_lines_a_continuum_closure	spatial discretization cannot create absent evolution equations
+F14	use_regular_cap_mirror_or_periodicity_as_a_variational_boundary_law	completion compatibility is not boundary dynamics
+F15	filter_singular_caustic_or_horizon_branches_as_solver_failure	outcomes must be characterized rather than removed for merit
+F16	promote_stationary_or_cohomogeneity_one_control_to_selected_universe	symmetry reduction is a chosen diagnostic restriction
+F17	cross_splice_twisted_S3_and_parallel_product_controls	they are different registered configurations
+F18	run_background_numeric_solve_when_principal_closure_rank_is_deficient	a solver would fill missing equations with hidden choices
