@@ -1,0 +1,13 @@
+udt_canonical_geometry.md
+CURRENT_SCIENTIFIC_PREMISES.md
+CURRENT_SCIENTIFIC_PREMISES.tsv
+udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md
+udt_metric_natural_joint_selector_nogo_2026-07-28/EXACT_DERIVATION.md
+udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md
+udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md
+udt_joint_invariant_subspace_atlas_2026-07-21/AUDIT_REPORT.md
+udt_joint_invariant_subspace_atlas_2026-07-21/BIVECTOR_EIGENPLANE_ATLAS.tsv
+udt_instrument_motif_atlas_2026-07-21/AUDIT_REPORT.md
+udt_motif_hopf_correspondence_audit_2026-07-22/AUDIT_REPORT.md
+angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md
+native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md

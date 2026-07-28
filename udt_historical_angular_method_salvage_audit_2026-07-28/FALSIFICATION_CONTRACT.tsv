@@ -1,0 +1,28 @@
+id	reject_if
+F01	primary artifact blob or base tree differs from preregistration
+F02	a referenced calculation artifact is selectively omitted under the deterministic discovery rule
+F03	a successful-looking historical example is catalogued while a failure or variant is omitted
+F04	pre-July material is used as affirmative UDT physics
+F05	particle or gauge labels enter before the mathematical output but are reported as derived
+F06	an observed mass or ratio both calibrates and validates the operation
+F07	an SU3 QCD Standard-Model GR QM or other imported representation enters load-bearing algebra without comparison-only tagging
+F08	an integer power sign normalization generator or basis is fixed without provenance
+F09	a parameterized family is reported as a unique prediction
+F10	a numerical near-match is reported without look-elsewhere and perturbation controls
+F11	an N-specific arithmetic coincidence is reported as a general identity
+F12	a historical formula is called metric-native without current-metric rederivation
+F13	an angular coordinate convention is confused with an invariant
+F14	a coframe or bivector object is confused with a selected physical carrier
+F15	a Hopf-compatible object is promoted to matter emergence
+F16	a generic pure-math tool is promoted to UDT physics
+F17	a dependency on a superseded or invalidated premise is hidden
+F18	a missing source or ambiguous lineage is guessed rather than marked blocked
+F19	the audit chooses lambda a branch an action a source a carrier a boundary or density
+F20	a candidate is judged only by agreement with named masses or QCD data
+F21	the current reciprocal-cocycle plus angular-transport result is rewritten to fit the old method
+F22	a comparison-versus-realization ownership claim is made without tracing the operation to founding inputs
+F23	a negative about the entire historical method space is inferred from a partial sample
+F24	GPU ODE PDE time-live matter bootstrap or repository-reorganization work is launched
+F25	CANON.md or frozen evidence changes
+F26	unrelated dirty path contents are read or their metadata changes
+F27	a positive native-vs-import ruling is called settled without fresh adversarial context
