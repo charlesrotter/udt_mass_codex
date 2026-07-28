@@ -1,0 +1,21 @@
+catch_id	false_promotion_or_bug	must_be_rejected_because
+F01	omit_or_duplicate_source_candidate	exact path universe is frozen
+F02	accept_changed_source_hash	P03 evidence must match preregistered bytes
+F03	let_generated_P03_record_become_source	generated audit output cannot create evidence
+F04	merge_distinct_completion_meanings_by_label	operator provenance and global construction differ
+F05	call_schema_row_a_global_metric	a name or slot does not supply a coframe
+F06	call_local_witness_global	pointwise algebra does not define overlaps or completion
+F07	invent_missing_chart_or_transition	undefined global data are a stop condition
+F08	invent_cap_seam_or_boundary_choice	P03 cannot select a physical completion
+F09	filter_branch_for_not_looking_physical	atlas characterizes rather than imposes merit
+F10	privilege_repeated_tidal_or_null_branch	P03 carries readouts without targeting
+F11	promote_conditional_supplied_data_to_derived	premise stamps must survive the crosswalk
+F12	cross_splice_incompatible_source_branches	one global witness must use one coherent construction
+F13	ignore_dphi_type_change_interface	causal transition data are load-bearing
+F14	ignore_determinant_or_coframe_degeneracy	complete metric must remain defined or be classified degenerate
+F15	call_coordinate_static_invariant	P02 staticity is a chart stratum
+F16	infer_field_equations_from_constructibility	off-shell global geometry is not dynamics
+F17	import_action_source_carrier_density_or_bootstrap	all downstream physics objects are excluded
+F18	launch_GPU_before_resource_contract	P03-A is source and exact-table work
+F19	claim_all_7897_strata_are_physical_branches	local chart strata require a lossless family projection
+F20	claim_complete_solution_space	registered global candidates remain a bounded evidence universe
