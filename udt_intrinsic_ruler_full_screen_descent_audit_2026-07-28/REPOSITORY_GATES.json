@@ -104,6 +104,7 @@
     "udt_intrinsic_ruler_full_screen_descent_audit_2026-07-28/PREMISE_LEDGER.tsv",
     "udt_intrinsic_ruler_full_screen_descent_audit_2026-07-28/PREREGISTRATION.md",
     "udt_intrinsic_ruler_full_screen_descent_audit_2026-07-28/README.md",
+    "udt_intrinsic_ruler_full_screen_descent_audit_2026-07-28/REPOSITORY_GATES.json",
     "udt_intrinsic_ruler_full_screen_descent_audit_2026-07-28/RUN_ENVIRONMENT.json",
     "udt_intrinsic_ruler_full_screen_descent_audit_2026-07-28/SCOPE_CLARIFICATION.md",
     "udt_intrinsic_ruler_full_screen_descent_audit_2026-07-28/SHA256SUMS.txt",
@@ -127,5 +128,5 @@
     "stdout_sha256": "345b41275166d93b468b33b3f18dc421f68c70865b0279874f55fcc408a73441",
     "xfailed": 1
   },
-  "verified_head": "f362970de6cc01ae210e34b32c0b76646506120e"
+  "verified_head": "b777bcdfa663f39b4210a683f17af62d03652247"
 }
