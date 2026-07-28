@@ -1,0 +1,98 @@
+{
+  "attempt_status_counts": {
+    "CONSTRUCTED": 15459,
+    "NO_CAUSAL_WITNESS_AT_SAMPLED_VALUE": 2973,
+    "STRUCTURALLY_INCOMPATIBLE_HESSIAN_RANK": 2304,
+    "STRUCTURALLY_INCOMPATIBLE_SHIFT_RANK": 2304
+  },
+  "constructed": 15459,
+  "coordinate_time_by_phi_class": {
+    "COORDINATE_STATIC": {
+      "NULL": {
+        "attempts": 2880,
+        "constructed": 239,
+        "no_causal_witness": 1489,
+        "structural_rank_incompatible": 1152
+      },
+      "SPACELIKE": {
+        "attempts": 2880,
+        "constructed": 1728,
+        "no_causal_witness": 0,
+        "structural_rank_incompatible": 1152
+      },
+      "TIMELIKE": {
+        "attempts": 2880,
+        "constructed": 244,
+        "no_causal_witness": 1484,
+        "structural_rank_incompatible": 1152
+      },
+      "ZERO": {
+        "attempts": 2880,
+        "constructed": 1728,
+        "no_causal_witness": 0,
+        "structural_rank_incompatible": 1152
+      }
+    },
+    "DYNAMIC_4D": {
+      "NULL": {
+        "attempts": 2880,
+        "constructed": 2880,
+        "no_causal_witness": 0,
+        "structural_rank_incompatible": 0
+      },
+      "SPACELIKE": {
+        "attempts": 2880,
+        "constructed": 2880,
+        "no_causal_witness": 0,
+        "structural_rank_incompatible": 0
+      },
+      "TIMELIKE": {
+        "attempts": 2880,
+        "constructed": 2880,
+        "no_causal_witness": 0,
+        "structural_rank_incompatible": 0
+      },
+      "ZERO": {
+        "attempts": 2880,
+        "constructed": 2880,
+        "no_causal_witness": 0,
+        "structural_rank_incompatible": 0
+      }
+    }
+  },
+  "curvature_operator_rank_distribution": {
+    "0": 72,
+    "1": 2,
+    "3": 251,
+    "6": 15134
+  },
+  "flat_constructed": 72,
+  "null_and_tidal_repeated": 0,
+  "null_and_tidal_repeated_nonzero": 0,
+  "null_constructed": 3119,
+  "null_requested_attempts": 5760,
+  "numerically_finite_constructed": 15459,
+  "pair_screen_zero_constructed": 86,
+  "schema": "udt-p02-stratified-local-jet-census-1.0",
+  "scope_warning": "Counts describe the exact preregistered Cartesian atlas, not physical frequencies, global solutions, or selected branches.",
+  "status": "OBSERVED_BOUNDED_LOCAL_OFF_SHELL_ATLAS",
+  "stratum_classification_counts": {
+    "CONSTRUCTIVE_BOTH": 7562,
+    "CONSTRUCTIVE_ONE": 335,
+    "NO_CAUSAL_WITNESS_BOTH": 1319,
+    "STRUCTURALLY_INCOMPATIBLE_HESSIAN_RANK": 1152,
+    "STRUCTURALLY_INCOMPATIBLE_SHIFT_RANK": 1152
+  },
+  "tidal_norm_repeated_range": {
+    "maximum": 3.995641525244644e-06,
+    "median": 0.0,
+    "minimum": 0.0
+  },
+  "tidal_repeated_constructed": 111,
+  "tidal_repeated_nonzero_constructed": 1,
+  "tidal_trace_repeated_range": {
+    "maximum": 0.0,
+    "median": 0.0,
+    "minimum": -2.5814119582375355e-06
+  }
+}

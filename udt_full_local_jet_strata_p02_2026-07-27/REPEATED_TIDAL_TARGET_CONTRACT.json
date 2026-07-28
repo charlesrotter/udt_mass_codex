@@ -1,0 +1,29 @@
+{
+  "schema": "udt-p02b-repeated-tidal-target-contract-1.0",
+  "base_filter": {
+    "status": "CONSTRUCTED",
+    "requested_collective_Hessian_rank": 0,
+    "expected_bases": 4198,
+    "expected_dynamic_bases": 2880,
+    "expected_coordinate_static_bases": 1318
+  },
+  "targets": [
+    {"label": "NEGATIVE", "lambda": "-shell^2"},
+    {"label": "ZERO", "lambda": "0"},
+    {"label": "POSITIVE", "lambda": "+shell^2"}
+  ],
+  "expected_candidates": 12594,
+  "response_components": ["R_2020", "R_2030", "R_3030"],
+  "dynamic_Hessian_components": 80,
+  "coordinate_static_Hessian_components": 48,
+  "svd_rcond": 1e-12,
+  "accepted_scaled_residual": 1e-8,
+  "affine_control_scaled_tolerance": 1e-10,
+  "large_Hessian_frobenius": 1000000.0,
+  "device": "cuda:0",
+  "dtype": "float64",
+  "response_base_batch": 8,
+  "evaluation_batch": 512,
+  "estimated_peak_gib": 2.0,
+  "hard_timeout_minutes": 15
+}
