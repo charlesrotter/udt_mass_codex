@@ -1,0 +1,31 @@
+{
+  "anchor_sha256": "9d9e96dc95ce0ede7f46232c8749ac2772f6733b1af13bd5f0b83fd14de12756",
+  "checks": {
+    "dphi_norm_scaled": true,
+    "metric_absolute": true,
+    "scalar_scaled": true
+  },
+  "configurations": 32,
+  "environment": {
+    "device": "CPU",
+    "dtype": "float64",
+    "numpy": "2.2.6",
+    "python": "3.10.12"
+  },
+  "finite_difference_step": 0.0002,
+  "implementation": "NUMPY_DIRECT_COFRAME_PLUS_FOURTH_ORDER_FINITE_DIFFERENCES",
+  "maxima": {
+    "dphi_norm_scaled": 1.5176978675374783e-13,
+    "metric_absolute": 6.661338147750939e-16,
+    "scalar_scaled": 2.118468746559635e-08
+  },
+  "points_per_configuration": 3,
+  "production_module_imported": false,
+  "schema": "udt-p01-independent-cpu-anchor-verification-1.0",
+  "status": "PASS",
+  "tolerances_preregistered_in_verifier": {
+    "dphi_norm_scaled": 2e-09,
+    "metric_absolute": 5e-13,
+    "scalar_scaled": 5e-05
+  }
+}
