@@ -1,0 +1,128 @@
+{
+  "atlas_npz_sha256": "9e0b101d53f35913dc95c6f03ef68ea3d3d1de108398453b41fac6e9479e3d59",
+  "attempts": 23040,
+  "constructed": 15459,
+  "constructed_feature_ranges": {
+    "angular_section_R2323": {
+      "maximum": 135.41892773974288,
+      "median": -0.09483964489830068,
+      "minimum": -223.61298586584502
+    },
+    "base_section_R0101": {
+      "maximum": 21.503308406261308,
+      "median": -0.21915372688273774,
+      "minimum": -1805.8971056949795
+    },
+    "curvature_operator_rank": {
+      "maximum": 6.0,
+      "median": 6.0,
+      "minimum": 0.0
+    },
+    "curvature_operator_smallest_largest_ratio": {
+      "maximum": 0.4899343464881977,
+      "median": 0.04338927155085163,
+      "minimum": 0.0
+    },
+    "det_relative_error": {
+      "maximum": 2.110387942229882e-14,
+      "median": 1.046854111889237e-16,
+      "minimum": 0.0
+    },
+    "dphi_norm": {
+      "maximum": 1.0000000000000167,
+      "median": 0.0,
+      "minimum": -1.00000000000053
+    },
+    "dphi_target_residual": {
+      "maximum": 4.1849856913245276e-13,
+      "median": 1.2731915420013262e-17,
+      "minimum": 0.0
+    },
+    "kretschmann": {
+      "maximum": 4678983.55642443,
+      "median": 2.799119332782988,
+      "minimum": -17260.63869356821
+    },
+    "numerically_finite": {
+      "maximum": 1.0,
+      "median": 1.0,
+      "minimum": 1.0
+    },
+    "pair_screen_ricci_mixing": {
+      "maximum": 1682.2192063034215,
+      "median": 1.172123349163674,
+      "minimum": 0.0
+    },
+    "ricci_frame_frobenius": {
+      "maximum": 2683.763737133487,
+      "median": 2.431169261958898,
+      "minimum": 0.0
+    },
+    "scalar_curvature": {
+      "maximum": 1214.2378043870247,
+      "median": -0.18096214987704412,
+      "minimum": -293.1572180843414
+    },
+    "tidal_discriminant": {
+      "maximum": 839496.1999815587,
+      "median": 0.44830552417738734,
+      "minimum": 0.0
+    },
+    "tidal_repeated": {
+      "maximum": 1.0,
+      "median": 0.0,
+      "minimum": 0.0
+    }
+  },
+  "controls": {
+    "constant_det_error": 1.4336449943326177e-16,
+    "constant_kretschmann": 0.0,
+    "constant_lorentz_coframe_metric_error": 2.220446049250313e-16,
+    "constant_scalar": 0.0,
+    "pass": true,
+    "zero_det_error": 0.0,
+    "zero_kretschmann": 0.0,
+    "zero_scalar": 0.0
+  },
+  "controls_consumed_sha256": "eb652fae060c38d4be682ed080a40eaace84c20528c93d2523a86165feed7066",
+  "environment": {
+    "batch": 512,
+    "device": "Tesla V100-PCIE-32GB",
+    "dtype": "float64",
+    "numpy": "2.2.6",
+    "peak_memory_bytes": 304521216,
+    "pid": 4174848,
+    "python": "3.10.12",
+    "scipy": "1.15.3",
+    "torch": "2.5.1+cu121",
+    "wall_seconds": 2.874912977218628
+  },
+  "epistemic_scope": "BOUNDED_LOCAL_OFF_SHELL_TWO_JET_STRATA_NOT_SOLUTIONS",
+  "feature_names": [
+    "det_relative_error",
+    "dphi_norm",
+    "dphi_target_residual",
+    "scalar_curvature",
+    "kretschmann",
+    "ricci_frame_frobenius",
+    "pair_screen_ricci_mixing",
+    "tidal_discriminant",
+    "tidal_repeated",
+    "base_section_R0101",
+    "angular_section_R2323",
+    "curvature_operator_rank",
+    "curvature_operator_smallest_largest_ratio",
+    "numerically_finite"
+  ],
+  "maximum_conclusion": "CONSTRUCTIVE_AND_NO_WITNESS_CENSUS_IN_THE_EXACT_PREREGISTERED_LOCAL_JET_UNIVERSE_WITHOUT_GLOBAL_REALIZATION_OR_PHYSICAL_SELECTION",
+  "schema": "udt-full-local-jet-strata-p02-result-1.0",
+  "status": "PASS",
+  "status_counts": {
+    "CONSTRUCTED": 15459,
+    "NO_CAUSAL_WITNESS_AT_SAMPLED_VALUE": 2973,
+    "STRUCTURALLY_INCOMPATIBLE_HESSIAN_RANK": 2304,
+    "STRUCTURALLY_INCOMPATIBLE_SHIFT_RANK": 2304
+  },
+  "strata": 11520,
+  "stratum_universe_sha256": "831cb23bc1970ed220c8f0fa53ce5b3cc5bb866a866f8859fd07176e6d1d5495"
+}
