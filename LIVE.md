@@ -8,7 +8,62 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's topmost CURRENT STATE block, that block wins.**
 
-## ============ CURRENT STATE (2026-07-28 — HISTORICAL ANGULAR-METHOD SALVAGE AUDIT COMPLETE. NO PRE-JULY LEPTON, QUARK, QCD, GAUGE, FORCE, OR MASS CLAIM IS RESTORED. THE REUSABLE METHOD IS TO RETAIN AND CLOSE THE COMPLETE ANGULAR RESPONSE ALGEBRA BEFORE ASSIGNING PHYSICAL LABELS. ON THE CURRENT METRIC-DERIVED POSITIVE TWO-SCREEN, END(S)=R I + so(2) + Sym_0(2): ONE AREA MODE, ONE ROTATION, AND TWO SHEAR/SHAPE MODES. THE TRACELESS SECTOR CLOSES EXACTLY AS sl(2,R). THE OLD 3+5=8 CONSTRUCTION IS THE GENERIC n=3 INSTANCE OF n^2-1 AND CLOSES sl(3,R); su(3) REQUIRES AN EXTRA COMPLEX/HERMITIAN CHOICE, SO THE OLD QCD INTERPRETATION DOES NOT SURVIVE. LAMBDA IS ONLY THE ISOTROPIC TRACE RESPONSE AFTER EXTRA SCREEN-ROTATION EQUIVARIANCE, NOT THE COMPLETE ANGULAR RESPONSE. VERIFIED-WITH-CAVEATS. CHARLES AUTHORIZED THE NEXT CPU-ONLY MAP: CARRY THE FULL FOUR-COMPONENT SCREEN RESPONSE THROUGH THE EXISTING COMPLETE FINITE-CELL BRANCH UNIVERSE WITHOUT CHOOSING A BRANCH, COEFFICIENT, ACTION, SOURCE, CARRIER, DENSITY, BOUNDARY, OR PHYSICAL LABEL.) ============
+## ============ CURRENT STATE (2026-07-28 — COMPLETE SCREEN-RESPONSE FINITE-CELL BRANCH ATLAS COMPLETE. THE HISTORICAL METHOD LEAD SURVIVES: THE AMBIENT POSITIVE-SCREEN RESPONSE HAS AREA, ROTATION, AND TWO SHEARS. ACROSS THE FIXED REGISTERED COMPLETE-BRANCH LIBRARY, THE EXPLICITLY EVALUABLE LOCAL RESPONSES REALIZE AREA/TRACE AND ROTATION; NONCONSTANT TWISTED DEPTH ALSO FORCES PAIR-SCREEN MIXING SOMEWHERE. NEITHER SHEAR OCCURS IN THE 30 EXACTLY EVALUATED RESPONSE ROWS, BUT THIS IS NOT A NO-GO: THE CURRENT TWISTED COFRAME ASSIGNS BOTH ANGULAR LEGS THE SAME EXP(LAMBDA PHI) WEIGHT, WHICH FREEZES SHEAR IN THE PHI RESPONSE, WHILE THREE GENERIC JACOBI SHEAR ROWS REMAIN OPEN. CONGRUENCE VORTICITY AND PATH-FRAME ROTATION ARE DISTINCT AND ARE NOW SEPARATELY RECORDED. NO BRANCH, LAMBDA, ACTION, SOURCE, CARRIER, DENSITY, BOUNDARY, SCALE, OR PHYSICAL LABEL IS SELECTED. VERIFIED-WITH-CAVEATS.) ============
+
+**READ NEXT, IN ORDER:**
+
+1. `HANDOFF.md` current marked block.
+2. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+3. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` top/current overlay.
+4. `udt_complete_screen_response_branch_atlas_2026-07-28/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `BRANCH_PATH_RESPONSE_ATLAS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`,
+   `COMPLETENESS_MAP.md`, and `NEXT_STEP.md`.
+5. `udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md` only when the source of
+   the complete-screen method is relevant; then exact owner evidence named by the current atlas.
+
+**CURRENT HONEST CLAIM:**
+
+- the fixed source universe contains 5,939 forensic records routed to 16 direct load-bearing
+  sources, 12 completion taxonomies, four Q configurations, six W witnesses/controls, and eight C
+  parameter strata;
+- the twelve `FC` rows remain completion types, not twelve solved metrics; every incomplete,
+  absent, conditional, and off-shell stamp is preserved;
+- `End(S)=R I+so(2)+Sym_0(2)` remains the exact four-dimensional ambient response algebra, with
+  traceless algebra `sl(2,R)`; this generic identity is not a force or gauge-group derivation;
+- Q01/Q02 conditionally realize pure screen rotation for a supplied Hopf pair; Q01 does not
+  metric-select that pair and Q02 remains off shell and unoriented;
+- the complete twisted reciprocal `S3` configuration realizes isotropic trace plus displayed-frame
+  rotation, and nonconstant depth forces pair-screen mixing somewhere on that contact branch;
+- neither shear is present in 30 exact evaluable registered responses, but the equal-angular-weight
+  ansatz freezes shear in the `phi` response and the three arbitrary-geodesic Jacobi rows remain
+  `OPEN`, not zero;
+- congruence vorticity and coframe rotation along a path are distinct geometric objects; neither
+  may be promoted to a frame-independent observable without the missing transition/holonomy data;
+- founded `phi`, reciprocal comparison, historical-claim quarantine, and all action, source,
+  carrier, boundary, density/bootstrap, `X_max`, mass, scale, and dynamics stamps remain unchanged.
+
+**NEXT SCIENTIFIC GATE — NOT AUTOMATICALLY AUTHORIZED:** a preregistered metric-led existence atlas
+for a complete finite-cell coframe with a general positive `GL(2,R)` screen matrix. Map which
+trace, two-shear, rotation, mixing, regularity, and holonomy structures survive without selecting a
+particle, force, action, source, carrier, density, boundary, or desired topology. Do not begin this
+construction from the present checkpoint alone.
+
+**EVIDENCE:** 5,939/5,939 source rows and 16/16 direct source blobs replay; 52/52 unique branch/path
+records; 30 exact-zero shear rows; three generic Jacobi shear rows explicitly open; seven exact
+pair-screen-mixing rows plus one generic optical-screen mismatch disclosure; ten completeness
+criteria; 28/28 catch-proofs; all generator outputs replay byte-identically. Package manifest
+covers 58 files with SHA-256 `e0311d4a3ffa482fad38c2677e4c95592bc0188cf8b2c48743d7b752db46d83f`.
+Tests are 70 passed/1 xfailed; six frozen packages (127 entries/133 paths), 1,114 current paths, 101
+frontier targets, and the preserved dirty checkout's 55 metadata-only paths are unchanged. Grade
+`VERIFIED-WITH-CAVEATS` because the independent implementation was same-context, not a fresh
+adversarial model.
+
+**AUTHORITY BOUNDARY:** the bounded screen-response atlas is complete. Do not construct the general
+screen branch, select physics, revive historical particle/QCD claims, adopt an action/source/
+carrier/boundary/density law, launch matter/time-live/GPU work, alter `CANON.md`, or resume
+repository reorganization without a new dispatch.
+
+## PRIOR CURRENT STATE (2026-07-28 — HISTORICAL ANGULAR-METHOD SALVAGE AUDIT COMPLETE)
 
 **READ NEXT, IN ORDER:**
 

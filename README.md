@@ -7,7 +7,7 @@ order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
 [`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md) →
 the [foundational semantic correction](udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md) →
-the [current historical angular-method salvage audit](udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md) →
+the [current complete screen-response branch atlas](udt_complete_screen_response_branch_atlas_2026-07-28/AUDIT_REPORT.md) →
 exact evidence named by those files only when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
 `MEMORY.md` top/current pointer. `AGENTS.md`
@@ -21,16 +21,16 @@ count, not the native UDT field or mode count. Strong local CSN is challenged/no
 inactive without explicit owner reauthorization; `c_E` and `G_obs` remain observational anchors.
 If the registry, `LIVE.md`, and a cited source disagree, stop.
 
-The latest repository result is the [historical angular-method salvage
-audit](udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md). It restores no old
-particle or QCD physics. It does salvage one exact method: retain the complete angular operator
-space before assigning labels. On the current positive two-screen that space consists of area,
-rotation, and two shear modes; its traceless sector closes `sl(2,R)`. The old `3+5=8` construction
-is generic `sl(3,R)`, while `su(3)` needs an extra complex/Hermitian assumption.
+The latest repository result is the [complete screen-response branch
+atlas](udt_complete_screen_response_branch_atlas_2026-07-28/AUDIT_REPORT.md). Across 52 registered
+branch/path rows, exact evaluated responses realize area/trace and rotation, while nonconstant
+twisted depth also forces pair-screen mixing somewhere. Neither shear appears in the 30 exact
+response rows, but equal angular weights freeze shear in that ansatz and generic Jacobi shear
+remains open. No branch or physical interpretation is selected.
 
-This reveals that scalar `lambda` is only the isotropic trace response, not the full angular
-sector. Charles authorized a CPU-first atlas carrying all four screen responses through the
-existing admitted complete finite-cell branches, without choosing a desired physical outcome.
+The parent [historical angular-method salvage
+audit](udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md) remains the method
+source and restores no old particle or QCD physics.
 
 The parent [native global coframe-definition audit](udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md)
 also supplies an append-only correction to the frozen P03 result. P03's internal

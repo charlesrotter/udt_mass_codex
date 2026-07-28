@@ -4,6 +4,34 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## July 28 complete screen-response branch overlay — current authority
+
+Read `udt_complete_screen_response_branch_atlas_2026-07-28/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `BRANCH_PATH_RESPONSE_ATLAS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`,
+`COMPLETENESS_MAP.md`, and `NEXT_STEP.md`.
+
+The complete local positive-screen response remains
+
+```text
+K_screen=a I+wR+s1S1+s2S2.
+```
+
+The fixed registered branch map has 52 unique path/response rows. The homogeneous complete
+controls realize pure rotation after their stated conditional pair choices. The complete twisted
+reciprocal `S3` configuration realizes isotropic trace and displayed-frame rotation; nonconstant
+depth forces pair-screen mixing somewhere through the exact transverse acceleration.
+
+Neither shear component occurs in the 30 explicitly evaluable response rows. This is not a no-go:
+the twisted coframe assigns the same `exp(lambda phi)` weight to both angular legs, which forces its
+`phi`-response to be proportional to the identity. Three arbitrary-geodesic Jacobi shear rows
+remain open, and a general positive screen matrix has not been constructed. Congruence vorticity
+and screen-frame rotation along a path are separate objects and now have separate provenance.
+
+Status: `MIXED_MULTIPLE_OUTCOMES`; bounded registered-branch atlas;
+`VERIFIED-WITH-CAVEATS`. No branch or physics is selected. A future general-screen complete-cell
+existence atlas requires a new authorization and preregistration. No GPU, time-live, action,
+source, carrier, density/bootstrap, boundary, canonization, or reorganization is authorized.
+
 ## July 28 historical angular-method salvage overlay — current authority
 
 Read `udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md`, then its

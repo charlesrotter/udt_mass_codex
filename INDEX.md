@@ -17,20 +17,24 @@ bootstrap, Maxwell-like, `X_max`, Hopfion, source, boundary, and mass scopes. Co
 older files do not override the registry's cited controlling evidence.
 
 **➤ CURRENT SCIENTIFIC FRONTIER:**
-`udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md`, then its
-`STATUS_LEDGER.tsv`, `HISTORICAL_METHOD_CENSUS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and
-`NEXT_STEP.md`.
+`udt_complete_screen_response_branch_atlas_2026-07-28/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `BRANCH_PATH_RESPONSE_ATLAS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`,
+`COMPLETENESS_MAP.md`, and `NEXT_STEP.md`.
 
-No historical particle or QCD claim is restored. The surviving method is to keep the complete
-angular response visible before assigning physical labels. On the current metric-derived positive
-two-screen, the exact four-part response is area, rotation, and two shear modes; its traceless
-sector closes `sl(2,R)`. The old `3+5=8` count is generic real `sl(3,R)`, not unique QCD evidence;
-`su(3)` requires an extra complex/Hermitian input.
+The fixed registered atlas contains 52 unique branch/path responses. The explicitly evaluable
+complete controls realize area/trace and rotation; nonconstant depth on the twisted reciprocal
+`S3` branch also forces pair-screen mixing somewhere. Neither shear appears in 30 exact response
+rows, but this is not a no-go: equal angular weights freeze shear in the `phi` response and three
+generic Jacobi shear rows remain open. Congruence vorticity and path-frame rotation are distinct.
 
-Thus `lambda` is only the isotropic trace response after extra screen-rotation equivariance, not
-the complete angular sector. Charles authorized a CPU-first complete-screen branch atlas across
-the existing admitted finite-cell branches. It must map all four components without selecting a
-branch, coefficient, particle, force, carrier, action, source, density, or boundary.
+No branch, coefficient, action, source, carrier, density, boundary, scale, force, or particle is
+selected. The proposed general-positive-screen complete-cell existence atlas requires new
+authorization; no GPU, matter/time-live, canonization, or reorganization is authorized.
+
+**➤ PARENT JULY 28 HISTORICAL METHOD FRONTIER:**
+`udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md`. It restores no historical
+particle/QCD physics. Its surviving method—retain the complete area, rotation, and two-shear
+operator space before physical labels—is now applied in the current atlas.
 
 **➤ PARENT JULY 28 METRIC-NATURAL SELECTOR FRONTIER:**
 `udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md`. Its exact partial obstruction

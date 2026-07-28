@@ -19,6 +19,7 @@ BASE = "bd8649ae31aab31435fbe986427d7f4e84d58e6d"
 EXPECTED_TREE = "b0ec58d2f956eb942592c965858876f7d932149a"
 EXPECTED_DIRTY_COUNT = 55
 EXPECTED_DIRTY_HASH = "345d297e0ad849cd38f1d817c915922de653ca2d2befcf923af6f9d097b483e4"
+NAVIGATION_CONTROLS = {"LIVE.md", "HANDOFF.md", "INDEX.md", "README.md", "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md"}
 
 
 def table(name: str) -> list[dict[str, str]]:
@@ -172,7 +173,10 @@ def twisted_formula_checks() -> dict[str, object]:
 
 def dirty_check() -> dict[str, object]:
     raw = git("status", "--short").decode().splitlines()
-    unrelated = [line for line in raw if not line[3:].startswith(HERE.name + "/")]
+    unrelated = [
+        line for line in raw
+        if not line[3:].startswith(HERE.name + "/") and line[3:] not in NAVIGATION_CONTROLS
+    ]
     payload = "".join(line+"\n" for line in unrelated).encode()
     digest = hashlib.sha256(payload).hexdigest()
     require(len(unrelated) == EXPECTED_DIRTY_COUNT and digest == EXPECTED_DIRTY_HASH, "unrelated dirty metadata")
