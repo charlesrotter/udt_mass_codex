@@ -132,8 +132,8 @@
     "failed": 0,
     "passed": 70,
     "result": "PASS",
-    "stdout_sha256": "04e4b9a37d6eacfa08393f10b908f3a4d9415faa061cf0f228a1987f1107a0ef",
+    "stdout_sha256": "6eb17954a6ae1e2369915220378fe001b9443e3ffffb892353c099359117b153",
     "xfailed": 1
   },
-  "verified_head": "64742758af120724400a791cc3c8006083fd9db9"
+  "verified_head": "3237cddd8e138773527919a34ad406abe0d62738"
 }
