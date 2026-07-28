@@ -7,7 +7,7 @@ order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
 [`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md) →
 the [foundational semantic correction](udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md) →
-the [current global-local relational-closure audit](udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md) →
+the [current P02 full-local-jet audit](udt_full_local_jet_strata_p02_2026-07-27/AUDIT_REPORT.md) →
 exact evidence named by those files only when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
 `MEMORY.md` top/current pointer. `AGENTS.md`
@@ -21,24 +21,18 @@ count, not the native UDT field or mode count. Strong local CSN is challenged/no
 inactive without explicit owner reauthorization; `c_E` and `G_obs` remain observational anchors.
 If the registry, `LIVE.md`, and a cited source disagree, stop.
 
-The latest repository result is the
-[foundational semantic-regression correction](udt_foundational_semantic_regression_correction_2026-07-26/AUDIT_REPORT.md).
-It adds no physics; it corrects source precedence and guards the current meanings of 16 high-risk
-terms. The parent bounded scientific architecture remains the
-[global-local relational-closure audit](udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md).
-That audit finds a coherent architecture, not a derived matter closure: reciprocal depth can weight
-compact angular phases but cannot wind itself; with supplied phases, periods, full range, and
-opposite primitive caps, the exact reciprocal weights give the conditional `S3`/unit-Hopf
-prototype. UDT has not selected those physical angular slots or their completion. Topology alone
-is not matter, and the present clock/transverse assembly remains reducible.
+The latest repository result is the [P02 full-local-jet strata
+audit](udt_full_local_jet_strata_p02_2026-07-27/AUDIT_REPORT.md). It maps 23,040 exact local
+two-jet attempts and then releases all allowed Hessians on 4,198 frozen bases. All 12,594
+negative/zero/positive repeated-tidal targets construct, including every null and timelike base.
+The correct conclusion is local compatibility, not selection: an unconstrained local Hessian arena
+can prescribe the complete symmetric screen-tidal matrix.
 
-An action could be downstream only of a first-derived complete off-shell global-local response
-that passes local Helmholtz, gauge, finite-cell boundary/corner, and global-period tests. The
-response census and bootstrap-map work did not close that interface. The corrected dependency
-order first requires a complete four-dimensional founded coframe extension and variation domain.
-This is a candidate next scientific gate, not automatic authorization. Do not substitute a generic
-metric count, independent scalar, strong local CSN, density sweep, action ansatz, carrier adoption,
-or GPU solve.
+P03 global coframe compatibility and completion mapping is authorized, beginning with a
+preregistered design/source-availability audit. It must carry all local motifs without demanding a
+desired universe and must stop if the registered global definitions are incomplete. It does not
+authorize an action, source, carrier, density, bootstrap equation, boundary functional, physical
+time evolution, canonization, reorganization, or GPU production before the global design is frozen.
 
 The parent
 [bootstrap-aware clock/angular closure audit](udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md)

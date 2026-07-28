@@ -2,13 +2,69 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-**⚠ BRANCH: work is on `grok` (2026-07-26).** If not on it: `git checkout grok`. `main` is stale for this arc.
+**⚠ BRANCH: work is on `grok` (2026-07-27).** If not on it: `git checkout grok`. `main` is stale for this arc.
 **The topmost CURRENT STATE block below is the only current frontier** — read it and stop.
 Stale historical frontier layers live under `archive/LIVE_historical_frontier_through_2026-07-08.md`
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's topmost CURRENT STATE block, that block wins.**
 
-## ============ CURRENT STATE (2026-07-26 — FOUNDATIONAL SEMANTIC REGRESSION CORRECTED AND GUARDED. THE JULY-25 GLOBAL-LOCAL ARCHITECTURE REMAINS, BUT THE LATER DOF AUDIT'S NATIVE INTERPRETATION IS SUPERSEDED: PHI IS THE DERIVED ADDITIVE LOG DEPTH OF THE FOUNDED RECIPROCAL CLOCK/RULER PAIR AND IS NOT AN EXTRA INDEPENDENT NATIVE SCALAR. THE F4[6] RESULT IS ONLY THE GENERIC FOUR-DIMENSIONAL METRIC CONFIGURATION ARENA, NOT A SELECTED UDT FIELD OR MODE COUNT. THE FULL ANGULAR/MIXING EXTENSION OF THE FOUNDED PAIR AND ITS VARIATION DOMAIN REMAIN OPEN. STRONG LOCAL CSN IS CHALLENGED_OWNER_POSTULATE_NOT_DERIVED AND INACTIVE WITHOUT EXPLICIT OWNER REAUTHORIZATION; C_E AND G_OBS REMAIN OBSERVATIONAL ANCHORS. ALL CARRIER, ACTION, BOOTSTRAP, MAXWELL-LIKE, X_MAX, HOPFION, SOURCE, BOUNDARY, AND MASS PREMISE LEVELS ARE NOW MACHINE-INDEXED. NO NEW PHYSICS OR DERIVATION IS AUTHORIZED BY THIS CORRECTION.) ============
+## ============ CURRENT STATE (2026-07-27 — COMPLETE-COFRAME METRIC TELESCOPE P01 AND FULL-LOCAL-JET STRATA P02 COMPLETE. P01 OBSERVES A RADIALLY ORDERED BUT MIXED GENERIC OFF-SHELL GEOMETRY; LIGHTLIKE DPHI AND REPEATED SCREEN TIDES ARE NOT GENERIC IDENTITIES. P02 MAPS 23,040 EXACT LOCAL TWO-JET ATTEMPTS AND THEN RELEASES ALL ALLOWED HESSIANS ON 4,198 FROZEN BASES. ALL 12,594 NEGATIVE/ZERO/POSITIVE REPEATED-TIDAL TARGETS CONSTRUCT, INCLUDING EVERY NULL AND TIMELIKE BASE. LOCAL HESSIAN FREEDOM IS THEREFORE TOO LARGE FOR REPEATED TIDES TO SELECT A PHYSICAL BRANCH. P03 GLOBAL COFRAME COMPATIBILITY AND COMPLETION MAPPING IS AUTHORIZED, BEGINNING WITH A DESIGN/SOURCE-AVAILABILITY AUDIT. NO ACTION, SOURCE, CARRIER, DENSITY, BOOTSTRAP EQUATION, BOUNDARY FUNCTIONAL, PHYSICAL TIME EVOLUTION, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+
+**READ NEXT, IN ORDER:**
+
+1. `HANDOFF.md` current marked block.
+2. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+3. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` top/current overlay.
+4. `udt_full_local_jet_strata_p02_2026-07-27/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `LAY_REPORT.md`, `P02B_CENSUS.json`, and `NEXT_STEP.md`.
+5. `udt_complete_coframe_metric_telescope_p01_2026-07-27/AUDIT_REPORT.md` only when the generic
+   complete-coframe atlas and its `(t,x)`/transport scope are load-bearing.
+6. Exact P02 scripts, raw NPZ files, and verification records only when the active task requires
+   them.
+
+**CURRENT HONEST CLAIM:**
+
+- founded `phi` identity and reciprocal pair action remain `DERIVED`; the unique physical complete
+  four-dimensional extension, variation domain, profile, equations, and global completion remain
+  `OPEN`;
+- P01 is an `OBSERVED` bounded generic complete-coframe atlas, not a physical solution family;
+- P02-A is an `OBSERVED` bounded local off-shell two-jet atlas: 15,459 of 23,040 attempts construct,
+  2,973 are sampled coordinate-static causal no-witnesses, and 4,608 are exact static rank
+  incompatibilities;
+- P02-A's accidental repeated-tidal count is scope-incomplete and superseded by its preregistered
+  P02-B correction;
+- P02-B observes full numerical rank three for the screen-tidal Hessian response at all 4,198
+  frozen bases and constructs all 12,594 registered repeated targets;
+- null `dphi` and repeated screen tides are locally compatible, but neither causal class, target
+  sign, repeated direction, coframe extension, or physical branch is selected;
+- the local two-jet arena is too flexible for existence of a curvature target to supply the
+  missing selector; global compatibility is the next distinct scale of question;
+- strong local CSN remains inactive; `c_E` and `G_obs` remain observational anchors;
+- carrier, action, source, boundary, bootstrap feedback, density closure, `X_max`, mass, physical
+  scale, and time-live persistence retain their prior exact `OPEN`/`CONDITIONAL`/`WORKING` stamps.
+
+**AUTHORIZED NEXT SCIENTIFIC ACTION — P03:** preregister and perform a metric-led global coframe
+compatibility and completion atlas. First audit whether the registered extension classes,
+finite-cell completions, transitions, caps, seams, and chart domains define a complete unbiased
+candidate universe. Then determine which P02 motif families admit smooth complete finite-cell
+representatives and which face genuine global compatibility obstructions. Carry repeated tides,
+causal type, rank changes, mixing, curvature, and holonomy as readouts, not filters. If the sources
+do not pose the atlas without new physical choices, return `OPEN_MISSING_GLOBAL_DEFINITION`.
+
+**EVIDENCE:** P02 passes 33/33 package checks and 15/15 exercised corruption catches; its
+independent 32-anchor CPU Riemann reconstruction agrees with GPU tides to `2.51e-7` scaled error.
+Tests remain 70 passed/1 xfailed; six frozen packages (127 entries/133 paths), 1,114 current paths,
+101 frontier targets, and the original dirty checkout's 55 metadata-only paths remain unchanged.
+Grade `VERIFIED-WITH-CAVEATS` because no fresh external-model semantic review was available.
+
+**AUTHORITY BOUNDARY:** P03 is authorized. P03 is not authority to choose a completion, import a
+field equation, adopt a carrier or action, insert density, run matter/time-live physics, alter
+`CANON.md`, resume repository reorganization, or launch GPU production before its global design
+and resource contract are frozen.
+
+<!-- STARTUP_CURRENT_END -->
+
+## PRIOR CURRENT STATE (2026-07-26 — FOUNDATIONAL SEMANTIC REGRESSION CORRECTED AND GUARDED)
 
 **FOUNDATIONAL PRECEDENCE CORRECTION:** read `CURRENT_SCIENTIFIC_PREMISES.md` and its TSV before
 reusing an older atlas or result. If `LIVE.md`, that registry, and its cited evidence conflict,
@@ -80,8 +136,6 @@ remain unchanged. Grade `VERIFIED-WITH-CAVEATS_CORRECTED`; no fresh external-mod
 was used.
 
 **REORGANIZATION:** R0--R1H remains paused. This checkpoint changes navigation only.
-
-<!-- STARTUP_CURRENT_END -->
 
 ## PRIOR CURRENT (2026-07-24 — bootstrap-aware clock/angular closure audit)
 

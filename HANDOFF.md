@@ -5,9 +5,52 @@
 > **READ `LIVE.md` FIRST** — only guaranteed-current frontier + next action.
 > If this file disagrees with LIVE.md, **LIVE.md wins.**
 >
-> **⚠ BRANCH: work is on `grok` (2026-07-26).** If not on it: `git checkout grok`. `main` is stale for this arc.
+> **⚠ BRANCH: work is on `grok` (2026-07-27).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-26 — foundational semantic correction over global-local frontier)
+## CURRENT (2026-07-27 — P01/P02 complete; P03 authorized)
+
+After `LIVE.md`, read `CURRENT_SCIENTIFIC_PREMISES.md` and its TSV, then the top overlay in
+`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
+`udt_full_local_jet_strata_p02_2026-07-27/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`, `LAY_REPORT.md`,
+`P02B_CENSUS.json`, and `NEXT_STEP.md`.
+
+Current ruling:
+
+- P01's complete-coframe telescope observes rich, mixed, radially organized local geometry; a
+  lightlike `dphi` branch and repeated screen tide are not generic identities in that bounded
+  family;
+- P02-A maps 11,520 exact local strata and 23,040 attempts, with 15,459 finite constructions,
+  2,973 sampled coordinate-static causal no-witnesses, and 4,608 exact static rank
+  incompatibilities;
+- P02-A did not construct the repeated-tidal seam and its accidental-count interpretation is
+  superseded by the preregistered P02-B correction;
+- P02-B freezes 4,198 constructed zero-Hessian bases, releases all allowed Hessian components,
+  and constructs all 12,594 negative/zero/positive repeated-tidal targets;
+- all 12,594 screen-tidal response maps have numerical row rank three; all 2,406 null and 2,412
+  timelike target candidates construct;
+- this is local off-shell constructibility, not a selected repeated direction, causal class,
+  extension, global branch, equation, or physics;
+- the useful negative is methodological: an unconstrained local two-jet curvature target is too
+  freely prescribable to be the missing UDT selector.
+
+P03 is explicitly authorized. It must begin with a preregistered design/source-availability audit
+for a global coframe compatibility and completion atlas. It should carry all P02 motif families
+through every completely defined registered finite-cell completion without privileging a desired
+universe. If registered sources do not define a complete global candidate universe, stop with
+`OPEN_MISSING_GLOBAL_DEFINITION` rather than inventing one.
+
+P03 does not authorize an action, source, carrier, density insertion, bootstrap equation,
+boundary functional, physical time evolution, canonization, repository reorganization, or GPU
+production before the global design and resource contract are frozen.
+
+Evidence: P02 33/33 package checks, 15/15 catches, independent CPU curvature verification, 70
+tests passed/1 xfailed, all six frozen packages and current navigation intact, and the preserved
+55-path dirty checkout unchanged. Grade `VERIFIED-WITH-CAVEATS`; no fresh external-model semantic
+review was available.
+
+<!-- STARTUP_CURRENT_END -->
+
+## PRIOR CURRENT (2026-07-26 — foundational semantic correction over global-local frontier)
 
 After `LIVE.md`, read `CURRENT_SCIENTIFIC_PREMISES.md` and
 `CURRENT_SCIENTIFIC_PREMISES.tsv`, then
@@ -94,8 +137,6 @@ radial scalar d'Alembertian, and `Box_g phi=-G^theta_theta` are exact controls. 
 `phi` inside `g[phi]` changes the operator by `exp(-2phi)(phi')^2`. Its action, `mu`, source,
 linear `sinh` profile, and claimed universal status are not incorporated. It supplies no bilocal
 observer transition and does not alter the next bounded seam.
-
-<!-- STARTUP_CURRENT_END -->
 
 ## PRIOR CURRENT (2026-07-24 — bootstrap-aware clock/angular closure)
 

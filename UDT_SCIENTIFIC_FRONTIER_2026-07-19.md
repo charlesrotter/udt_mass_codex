@@ -1,8 +1,37 @@
 # UDT Scientific Frontier — Co-Presence, Bootstrap, and Angular–Toric Hopf Closure
 
-Date: 2026-07-26
+Date: 2026-07-27
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
+
+## July 27 complete-coframe local-strata overlay — current authority
+
+Read `udt_full_local_jet_strata_p02_2026-07-27/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `LAY_REPORT.md`, `P02B_CENSUS.json`, and `NEXT_STEP.md`. Use
+`udt_complete_coframe_metric_telescope_p01_2026-07-27/AUDIT_REPORT.md` for the parent generic
+atlas only when its exact scope is load-bearing.
+
+P01 observes a rich, mixed generic off-shell coframe arena, while lightlike `dphi` and repeated
+screen tides are not generic identities. P02-A maps 23,040 exact local two-jet attempts across
+11,520 causal/rank strata. Its initial repeated-tidal observation did not construct that seam and
+is superseded by the preregistered P02-B scope correction.
+
+P02-B freezes 4,198 constructed zero-Hessian bases and releases all 80 dynamic or 48
+coordinate-static Hessian components. Every numerical screen-tidal response has row rank three,
+and all 12,594 negative, zero, and positive repeated targets construct. This includes every null
+and timelike base. Therefore repeated screen tides and null `dphi` are locally compatible, but
+local two-jet existence cannot select them: the unconstrained Hessian arena can prescribe the
+complete symmetric screen-tidal matrix.
+
+Status: `OBSERVED_BOUNDED_LOCAL_OFF_SHELL_ATLAS`; `LOCAL_REPEATED_TIDAL_CONSTRUCTIBILITY_COMPLETE`
+in the exact frozen base universe; `PHYSICAL_SELECTION_GLOBAL_REALIZATION_AND_EQUATIONS_OPEN`;
+`VERIFIED-WITH-CAVEATS`.
+
+P03 is authorized: a metric-led global coframe compatibility and completion atlas, beginning with
+a design/source-availability audit. It must freeze the complete extension/completion/transition
+universe before construction, carry all local motifs as readouts, and stop rather than invent
+missing global definitions. No action, source, carrier, density, bootstrap equation, boundary
+functional, physical time evolution, canonization, or repository reorganization follows.
 
 ## July 26 foundational semantic-precedence overlay — current authority
 

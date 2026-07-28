@@ -4,14 +4,14 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-07-26)
+## TOP — CURRENT POINTER (2026-07-27)
 
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block,
 then the marked current block in `HANDOFF.md`, then `CURRENT_SCIENTIFIC_PREMISES.md` and
 `CURRENT_SCIENTIFIC_PREMISES.tsv`, then the top/current overlay in
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md`
-and its compact status/dependency/lay/next-step records. Read the parent bootstrap, intrinsic-solder,
+`udt_full_local_jet_strata_p02_2026-07-27/AUDIT_REPORT.md`
+and its status/lay/census/next-step records. Read the parent P01, bootstrap, intrinsic-solder,
 and observer-pair packages only when their exact premises become load-bearing.
 Expand only to the exact cited evidence made load-bearing by the active task.
 
@@ -23,21 +23,18 @@ angular/mixing extension and variation domain remain open. Strong local CSN is
 See the DOF package's `CORRECTION_LAYER.md`. If a lower-priority result disagrees with the current
 premise registry or its cited source, stop.
 
-Current honest status: reciprocal depth and conditional angular topology form a coherent
-global-local architecture, not a derived physical closure. Depth is contractible and cannot wind
-alone. With supplied angular phases, full `phi` range, periods, and opposite primitive caps, the
-exact reciprocal weights give the conditional `S3`/unit-Hopf prototype. The physical angular
-slots, completion, carrier, response, source, and boundary remain unselected. The current
-clock/transverse cocycle is reducible; local linear soldering is screen-gauge obstructed without
-ruling out a global nonlinear shared-solution join. Topology alone is not matter. An action can be
-downstream only after UDT derives a complete off-shell response one-form and it passes local
-Helmholtz, gauge, boundary/corner, and global-period gates.
+Current honest status: P01 observes a rich mixed generic complete-coframe geometry. P02 maps 23,040
+exact local two-jet attempts and constructs all 12,594 repeated-tidal targets on 4,198 frozen
+bases after releasing every allowed Hessian. Null `dphi` and repeated tides are locally compatible,
+but the full rank-three response shows that local curvature existence is too freely prescribable to
+select a physical branch. Complete extension selection, global realization, equations, action,
+source, carrier, boundary, bootstrap feedback, density closure, mass, and time-live persistence
+remain open.
 
-The post-July availability census and bootstrap-map work did not close that response. The corrected
-dependency order first requires the complete founded coframe extension and variation domain. This
-is a candidate next scientific gate, not automatic authorization. Do not substitute a generic
-metric count, independent scalar, strong local CSN, density sweep, action ansatz, carrier adoption,
-matter/time-live/GPU solve, canonization, artifact move, or repository reorganization.
+P03 global coframe compatibility/completion mapping is authorized. It begins with a preregistered
+design/source audit and must stop if registered global definitions are incomplete. No imported
+completion, action, density, matter/time-live solve, canonization, artifact move, repository
+reorganization, or pre-contract GPU production is authorized.
 
 ## DURABLE PRIOR MACRO FRONTIER (2026-07-09 simple metric + WR-L canon)
 

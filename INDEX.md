@@ -1,6 +1,6 @@
-# INDEX — Repo Map (2026-07-26 lean)
+# INDEX — Repo Map (2026-07-27 lean)
 
-**⚠ BRANCH: `grok` (2026-07-26)** — `main` is stale for this arc; `git checkout grok`.
+**⚠ BRANCH: `grok` (2026-07-27)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
 **➤ CURRENT FOUNDATIONAL PREMISE PRECEDENCE:**
@@ -17,25 +17,20 @@ bootstrap, Maxwell-like, `X_max`, Hopfion, source, boundary, and mass scopes. Co
 older files do not override the registry's cited controlling evidence.
 
 **➤ CURRENT SCIENTIFIC FRONTIER:**
-`udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md`, then its
-`STATUS_LEDGER.tsv`, `DEPENDENCY_ARCHITECTURE.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+`udt_full_local_jet_strata_p02_2026-07-27/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
+`LAY_REPORT.md`, `P02B_CENSUS.json`, and `NEXT_STEP.md`.
 
-Reciprocal depth and conditional angular topology form a coherent, testable global-local
-architecture, not a derived matter closure. Depth is contractible and cannot wind alone; compact
-angular phases can. With supplied phases, full `phi` range, periods, and opposite primitive caps,
-the exact reciprocal weights yield the conditional `S3`/unit-Hopf prototype. UDT has not selected
-the physical angular slots, lift, caps, quotient, carrier, response, source, or boundary. The
-present clock/transverse cocycle is reducible and local linear soldering is screen-gauge
-obstructed, without ruling out a global nonlinear shared-solution join. Topology alone is not
-matter. An action can be downstream only of a first-derived complete off-shell response that
-passes local Helmholtz, gauge, finite-cell boundary/corner, and global-period gates.
+P01 observes a rich mixed generic coframe arena. P02 maps 23,040 exact local two-jet attempts and
+then correctly constructs the previously missed repeated-tidal seam: all 12,594 negative, zero,
+and positive targets construct on 4,198 frozen bases, including every null and timelike base. Full
+numerical row rank three at every base means the unrestricted local Hessians can prescribe all
+three screen-tidal components. This proves local compatibility only; it does not select repetition,
+a causal class, extension, global branch, equation, or physics.
 
-The response census and bootstrap-map work subsequently confirmed that the complete interface is
-still absent. The source-precedence correction identifies an earlier configuration gate: select the
-complete founded coframe extension and variation domain before assigning native response rank.
-This is a candidate next scientific question, not automatic authorization. No density sweep,
-action guess, carrier adoption, matter/time-live/GPU work, canonization, or reorganization is
-authorized.
+P03 global coframe compatibility/completion mapping is authorized, starting with a design and
+source-availability audit. No action, source, carrier, density, bootstrap equation, boundary
+functional, physical time evolution, canonization, reorganization, or pre-contract GPU production
+is authorized.
 
 **➤ PARENT JULY 24 BOOTSTRAP FRONTIER:**
 `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`. Its exact conditional
