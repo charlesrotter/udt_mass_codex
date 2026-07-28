@@ -1,0 +1,132 @@
+{
+  "audit": {
+    "catch_proofs": 32,
+    "independent_checks": 11197,
+    "production_checks": 34,
+    "status": "PASS",
+    "stdout_sha256": "0b8ce450e1459cfff5e3b6b93aeb6e6ee9e08d2f226a6b2e6abd902159a02c17"
+  },
+  "authority_boundary": {
+    "GPU_ODE_PDE_time_live": false,
+    "action_source_carrier_density_bootstrap_boundary_scale": false,
+    "canon_changed": false,
+    "historical_packages_rewritten": false,
+    "navigation_controls_changed": false,
+    "physical_selection": false
+  },
+  "current_premises": {
+    "result": "PASS",
+    "stdout_sha256": "3a5bf9b325ca86ce5cde8b93b9c86e60bfa5a730bff1748773cb5f45286e1329"
+  },
+  "dirty_checkout": {
+    "contents_read": false,
+    "metadata_sha256": "bf85b6db00083cfa0d19e4ba9cc09766423cc2d5e224954f12ceda74aeab9c96",
+    "paths": 57,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 37,
+    "result": "PASS",
+    "sha256": "973d281bece372daec17e6632d8dae7054914ac7ae7de1a2e6ce8a2e5a20c4fd"
+  },
+  "schema": "udt-full-screen-hopf-toric-repository-gates-1.0",
+  "scope_base": "ace0699fc145c935c16cd283f393c18e654d5b74",
+  "scope_paths": [
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/ADVERSARIAL_REVIEW.md",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/AUDIT_REPORT.md",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/CATCH_PROOFS.tsv",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/COMMANDS.txt",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/COMPLETENESS_MAP.md",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/COMPLETENESS_PLAN.tsv",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/CONTACT_REEB_ATLAS.tsv",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/DERIVATION_RESULT.json",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/DERIVATION_STDERR.txt",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/DERIVATION_STDOUT.txt",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/EXACT_DERIVATION.md",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/FALSIFICATION_CONTRACT.tsv",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/FULL_SCREEN_DESCENT_ATLAS.tsv",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/INDEPENDENT_RESULT.json",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/INDEPENDENT_STDERR.txt",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/INDEPENDENT_STDOUT.txt",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/LAY_REPORT.md",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/N22_T18_REGRADING.tsv",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/NEXT_STEP.md",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/PREMISE_LEDGER.tsv",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/PREREGISTRATION.md",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/PREREGISTRATION_CLARIFICATION.md",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/README.md",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/ROUTE_CLASSIFICATION.tsv",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/RUN_ENVIRONMENT.json",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/SHA256SUMS.txt",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/SOURCE_MANIFEST.tsv",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/STATUS_LEDGER.tsv",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/TORIC_LATTICE_ATLAS.tsv",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/VERIFICATION_RESULT.json",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/derive_full_screen_hopf_toric.py",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/finalize_package.py",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/freeze_sources.py",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/requirements.txt",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/run_and_capture.py",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/verify_audit.py",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/verify_full_screen_hopf_toric_independent.py",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/verify_repository_gates.py"
+  ],
+  "status": "PASS",
+  "tests": {
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "stdout_sha256": "b987580927306ac9c9ebe125c9ff3d40ff1e1a8e43c79fccb1b85d337efa3e53",
+    "xfailed": 1
+  },
+  "verified_head": "137ce6f2e8ce9fc4cec2b90f596bb326a7e07181"
+}

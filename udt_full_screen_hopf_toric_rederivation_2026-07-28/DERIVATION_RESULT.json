@@ -1,0 +1,186 @@
+{
+  "check_count": 34,
+  "checks": [
+    {
+      "id": "A01_screen_metric_determinant",
+      "status": "PASS"
+    },
+    {
+      "id": "A02_oriented_screen_J_squares_minus_identity",
+      "status": "PASS"
+    },
+    {
+      "id": "A03_oriented_screen_J_is_metric_compatible",
+      "status": "PASS"
+    },
+    {
+      "id": "A04_J_has_no_real_line_eigenvalue",
+      "status": "PASS"
+    },
+    {
+      "id": "A05_common_positive_scale_cancels_from_connection",
+      "status": "PASS"
+    },
+    {
+      "id": "A06_connection_normalization",
+      "status": "PASS"
+    },
+    {
+      "id": "A07_quotient_metric_Schur_formula",
+      "status": "PASS"
+    },
+    {
+      "id": "A08_general_theta1_Reeb_contraction",
+      "status": "PASS"
+    },
+    {
+      "id": "A09_general_theta1_Reeb_normalization",
+      "status": "PASS"
+    },
+    {
+      "id": "A10_scaled_Hopf_Reeb_a",
+      "status": "PASS"
+    },
+    {
+      "id": "A11_scaled_Hopf_Reeb_b",
+      "status": "PASS"
+    },
+    {
+      "id": "A12_contact_does_not_force_periodic_Reeb",
+      "status": "PASS"
+    },
+    {
+      "id": "A13_constant_generator_scale_gives_m",
+      "status": "PASS"
+    },
+    {
+      "id": "A14_constant_generator_scale_gives_n",
+      "status": "PASS"
+    },
+    {
+      "id": "A15_depth_normalized_contact_has_standard_Reeb",
+      "status": "PASS"
+    },
+    {
+      "id": "A15b_founded_depth_normalization",
+      "status": "PASS"
+    },
+    {
+      "id": "A15c_positive_slice_metric_dual_normalizes_to_sigma3",
+      "status": "PASS"
+    },
+    {
+      "id": "A15d_sigma3_normalizes_diagonal_fiber",
+      "status": "PASS"
+    },
+    {
+      "id": "A15e_sigma3_fiber_period_is_2pi",
+      "status": "PASS"
+    },
+    {
+      "id": "A15f_sigma3_Chern_flux_is_minus_one",
+      "status": "PASS"
+    },
+    {
+      "id": "A16_sheared_screen_determinant",
+      "status": "PASS"
+    },
+    {
+      "id": "A17_sheared_connection_normalized",
+      "status": "PASS"
+    },
+    {
+      "id": "A18_shear_changes_local_connection",
+      "status": "PASS"
+    },
+    {
+      "id": "A19_sheared_S3_endpoint_connection_values",
+      "status": "PASS"
+    },
+    {
+      "id": "A20_sheared_Chern_Simons_reduces_to_endpoint",
+      "status": "PASS"
+    },
+    {
+      "id": "A21_sheared_unit_class_independent_of_eps",
+      "status": "PASS"
+    },
+    {
+      "id": "A22_standard_S3_free_unit",
+      "status": "PASS"
+    },
+    {
+      "id": "A23_mirror_p3_is_free_not_unit",
+      "status": "PASS"
+    },
+    {
+      "id": "A24_lens_p4_free_family_exists",
+      "status": "PASS"
+    },
+    {
+      "id": "A25_p8_mirror_action_not_free",
+      "status": "PASS"
+    },
+    {
+      "id": "A26_nonprimitive_cap_rejected_as_smooth",
+      "status": "PASS"
+    },
+    {
+      "id": "A27_infinite_mirror_lens_family",
+      "status": "PASS"
+    },
+    {
+      "id": "A27b_free_cap_Chern_difference_equals_cap_determinant",
+      "status": "PASS"
+    },
+    {
+      "id": "A28_general_screen_not_automatically_toric",
+      "status": "PASS"
+    }
+  ],
+  "contact": {
+    "contact_implies_periodic": false,
+    "counterexample_slope": "3 - 2*sqrt(2)",
+    "depth_normalized_form": "exp(-phi)*theta1=sigma3",
+    "metric_intrinsic_across_all_full_screens": false,
+    "metric_intrinsic_overlap": "positive_slice_plus_metric_identified_ruler_line",
+    "normalized_form_regular_Hopf_on_registered_S3": true,
+    "strong_local_CSN_used": false,
+    "theta1_Reeb": "E1+(p3/t1)E2-(p2/t1)E3",
+    "theta1_contact_for_all_invertible_P_on_control": true
+  },
+  "fixed_base": "ace0699fc145c935c16cd283f393c18e654d5b74",
+  "maximum_conclusion": "FULL_SCREEN_ROBUST_CONDITIONAL_HOPF_BUNDLE_ON_CHOSEN_NORMALIZED_S3_COFRAME__GENERAL_SCREEN_DOES_NOT_SELECT_TORIC_SYMMETRY_CAP_CLASS_FIBER_DESCENT_CARRIER_OR_ACTION",
+  "quotient": {
+    "carrier_configuration_space_derived": false,
+    "metric_coefficient_for_unimodular_base_vector": "det(h)/h(w,w)",
+    "roundness_selected": false
+  },
+  "regraded_rows": {
+    "N22": "STRONGER_CONDITIONAL_DEPTH_NORMALIZED_CONTACT_HOPF_BUNDLE_ROUTE__NATIVE_CARRIER_OPEN",
+    "T18": "REFINED_CONTACT_OR_TORIC_GLOBAL_REGULARITY_AND_DESCENT_GATE_CHAIN__NO_SELECTION"
+  },
+  "schema": "udt-full-screen-hopf-toric-rederivation-1.0",
+  "screen": {
+    "arbitrary_screen_automatically_toric": false,
+    "canonical_oriented_complex_structure": true,
+    "canonical_real_line": false,
+    "coframe_gauge_dof": 1,
+    "metric_dof": 3
+  },
+  "toric": {
+    "abs_c1_if_free": "abs(det(v_minus,v_plus))",
+    "chern_formula_scope": "effective_T2_cohomogeneity_one_two_smooth_caps_no_extra_exceptional_orbit",
+    "common_scale_independent": true,
+    "connection": [
+      "(A*m + B*n)/(A*m**2 + 2*B*m*n + C*n**2)",
+      "(B*m + C*n)/(A*m**2 + 2*B*m*n + C*n**2)"
+    ],
+    "connection_scope": "torus_orbit_block_or_orthogonal_interval_gauge;radial_basic_term_does_not_change_cap_Euler_class",
+    "fixed_bundle_class_changes_with_screen": false,
+    "free_action_condition": "abs(det(v_minus,w))=abs(det(v_plus,w))=1",
+    "lens_counterfamily": "v_minus=(k+1,k);v_plus=(k,k+1);w=(1,1);abs_c1=2k+1",
+    "local_shear_changes_connection": true,
+    "two_shear_response": "offdiagonal_mode_changes_connection;complementary_shape_mode_can_change_base_metric_without_changing_connection"
+  }
+}

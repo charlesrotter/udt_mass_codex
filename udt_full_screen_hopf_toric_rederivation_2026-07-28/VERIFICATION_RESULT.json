@@ -1,0 +1,16 @@
+{
+  "catch_proofs": 32,
+  "dirty_paths": 57,
+  "dirty_status_sha256": "bf85b6db00083cfa0d19e4ba9cc09766423cc2d5e224954f12ceda74aeab9c96",
+  "errors": [],
+  "independent_checks": 11197,
+  "production_checks": 34,
+  "regraded_claims": [
+    "N22",
+    "T18"
+  ],
+  "schema": "udt-full-screen-hopf-toric-verification-1.0",
+  "source_count": 38,
+  "source_identity_sha256": "5c9b9d0e6ca284513ab85afacda01c948f087f979fee5f5362fd1300961ba11f",
+  "status": "PASS"
+}

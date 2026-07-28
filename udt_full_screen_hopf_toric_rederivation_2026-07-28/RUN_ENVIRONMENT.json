@@ -1,0 +1,18 @@
+{
+  "device": "CPU_ONLY",
+  "independent": {
+    "command": "/usr/bin/python3 udt_full_screen_hopf_toric_rederivation_2026-07-28/verify_full_screen_hopf_toric_independent.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "908da71ae0eba883cd53ec90ed8764645cd610d006f6cc6efb4b91ec4d5404ab"
+  },
+  "production": {
+    "command": "/usr/bin/python3 udt_full_screen_hopf_toric_rederivation_2026-07-28/derive_full_screen_hopf_toric.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "6a611b4d707058477a87bb0fa1fe090fa811625df26613421e3048eba2e856f1"
+  },
+  "python": "3.10.12",
+  "schema": "udt-full-screen-hopf-toric-run-environment-1.0",
+  "sympy": "1.13.1"
+}

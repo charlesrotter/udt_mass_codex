@@ -1,0 +1,5 @@
+python3 udt_full_screen_hopf_toric_rederivation_2026-07-28/freeze_sources.py
+python3 udt_full_screen_hopf_toric_rederivation_2026-07-28/derive_full_screen_hopf_toric.py
+python3 udt_full_screen_hopf_toric_rederivation_2026-07-28/verify_full_screen_hopf_toric_independent.py
+python3 udt_full_screen_hopf_toric_rederivation_2026-07-28/verify_audit.py
+python3 udt_full_screen_hopf_toric_rederivation_2026-07-28/verify_repository_gates.py

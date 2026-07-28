@@ -1,0 +1,12 @@
+{
+  "catch_proofs": 32,
+  "checks_passed": 11197,
+  "dirty_paths": 57,
+  "dirty_status_sha256": "bf85b6db00083cfa0d19e4ba9cc09766423cc2d5e224954f12ceda74aeab9c96",
+  "method": "stdlib_Fraction_exact_matrix_exterior_lattice_reconstruction_without_production_import",
+  "production_agreement": true,
+  "schema": "udt-full-screen-hopf-toric-independent-1.0",
+  "source_count": 38,
+  "source_identity_sha256": "5c9b9d0e6ca284513ab85afacda01c948f087f979fee5f5362fd1300961ba11f",
+  "status": "PASS"
+}
