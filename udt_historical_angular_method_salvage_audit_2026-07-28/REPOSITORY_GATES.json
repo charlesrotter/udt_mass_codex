@@ -103,6 +103,7 @@
     "udt_historical_angular_method_salvage_audit_2026-07-28/PREMISE_LEDGER.tsv",
     "udt_historical_angular_method_salvage_audit_2026-07-28/PREREGISTRATION.md",
     "udt_historical_angular_method_salvage_audit_2026-07-28/README.md",
+    "udt_historical_angular_method_salvage_audit_2026-07-28/REPOSITORY_GATES.json",
     "udt_historical_angular_method_salvage_audit_2026-07-28/RUN_ENVIRONMENT.json",
     "udt_historical_angular_method_salvage_audit_2026-07-28/RUN_LOG.md",
     "udt_historical_angular_method_salvage_audit_2026-07-28/SCREEN_BRACKET_TABLE.tsv",
@@ -131,8 +132,8 @@
     "failed": 0,
     "passed": 70,
     "result": "PASS",
-    "stdout_sha256": "9ac74c50a54223731fb1fbb406bfb597cc013ca3441b5c0c9722f69ed3cdd4fe",
+    "stdout_sha256": "345b41275166d93b468b33b3f18dc421f68c70865b0279874f55fcc408a73441",
     "xfailed": 1
   },
-  "verified_head": "00039f1ff0ca69ef6ace3d607a0b5aba0f4ba136"
+  "verified_head": "570e5aa9017b32f9184d237bcd5df6a1449ae44d"
 }
