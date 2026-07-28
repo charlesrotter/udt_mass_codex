@@ -33,11 +33,15 @@ after the user's actual task makes them load-bearing.
    source-precedence index for high-risk foundational terms. It is not canon and cannot overrule
    `LIVE.md`; any disagreement between it, `LIVE.md`, and its cited source is a mandatory stop.
 4. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay.
-5. `udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md`, then its
-   `STATUS_LEDGER.tsv`, `HISTORICAL_METHOD_CENSUS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and
-   `NEXT_STEP.md`. This is the current bounded result: old particle/QCD claims are not restored,
-   while the complete-screen operator method reveals area, rotation, and two shear modes. The
-   authorized next work is a CPU-first full-screen response atlas across existing complete branches.
+5. `udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, `COMPLETENESS_MAP.md`,
+   `BLOCK_PRESERVATION_CONDITIONS.tsv`, and `NEXT_STEP.md`. This is the current bounded result: the
+   full invertible angular screen has area and two metric shears plus local coframe-gauge rotation;
+   both shears survive at isotropy; and the twisted `S3` contact structure forbids an all-direction
+   parallel pair/screen split within the chosen stationary off-shell family. The proposed
+   nonstationary first-jet release is not authorized automatically. Read the parent complete-screen
+   branch atlas and historical-method salvage only when their branch census or provenance becomes
+   load-bearing; no old particle/QCD claim is restored.
 6. `udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `COMPLETENESS_MAP.md`, `LAY_REPORT.md`, and
    `NEXT_STEP.md`. This is the current bounded result: full-frame additive scalar comparison and
@@ -101,12 +105,13 @@ Then give Charles a short orientation report: actual HEAD and dirt, the current 
 premise stamps, the open gate, and the proposed bounded next action. Do not mutate files or launch a
 long solve until that orientation is complete.
 
-The bootstrap/stable-matter interpretation remains a working hypothesis. The current historical
-method audit restores no particle or QCD claims. It does derive the bounded complete positive-screen
-operator decomposition: one area, one rotation, and two shear modes, with traceless closure
-`sl(2,R)`. Scalar `lambda` is only the isotropic trace response. Charles authorized a CPU-first
-complete-screen atlas across the existing admitted finite-cell branches; it must characterize all
-four components without selecting a desired physical outcome.
+The bootstrap/stable-matter interpretation remains a working hypothesis. The current general-screen
+atlas closes the bounded stationary `S3` angular configuration vocabulary: one area and two metric
+shears plus local coframe-gauge rotation. Both shears survive at isotropy, and the inherited angular
+twist couples to anisotropy. The exact contact/Frobenius obstruction rules out only an all-direction
+parallel pair/screen split inside this chosen off-shell block-screen family. It does not select a
+physical screen, dynamics, action, source, carrier, density/bootstrap law, boundary, or matter. The
+proposed `E0(P)` first-jet release requires a new dispatch.
 
 The parent exact partial
 no-go says a continuous full-Lorentz additive scalar character is trivial, non-collinear comparison

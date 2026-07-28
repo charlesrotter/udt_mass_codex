@@ -10,9 +10,9 @@
 then the marked current block in `HANDOFF.md`, then `CURRENT_SCIENTIFIC_PREMISES.md` and
 `CURRENT_SCIENTIFIC_PREMISES.tsv`, then the top/current overlay in
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md`
-and its status/method/exact/lay/next-step records. Read the parent metric-natural selector,
-joint-selector, and
+`udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md`
+and its status/exact/lay/completeness/block-condition/next-step records. Read the parent complete
+screen-response, historical-method, metric-natural selector, joint-selector, and
 global-definition packages, then P03, P02/P01,
 bootstrap, intrinsic-solder, and observer-pair packages only when their exact premises become
 load-bearing.
@@ -26,12 +26,15 @@ angular/mixing extension and variation domain remain open. Strong local CSN is
 See the DOF package's `CORRECTION_LAYER.md`. If a lower-priority result disagrees with the current
 premise registry or its cited source, stop.
 
-Current honest status: the pre-July particle/QCD claims remain quarantined, but their complete-
-operator method exposes the correct next object. The current positive screen has one area, one
-rotation, and two shear modes; the traceless sector closes `sl(2,R)`. The old `3+5=8` count is
-generic `sl(3,R)`, not a QCD derivation. Scalar `lambda` is only the isotropic trace response.
-Charles authorized a CPU-first complete-screen response atlas over the existing finite-cell branch
-universe; response values, physical selection, dynamics, and interpretation remain open.
+Current honest status: the full invertible screen on the chosen stationary complete `S3` control
+has one area and two independent metric shears plus local coframe-gauge rotation. Both shear
+tangents survive at isotropy; their earlier absence was an equal-weight ansatz freeze. Anisotropy
+makes the inherited angular generator display rotation plus both shears. Exact connection blocks
+and independent Frobenius reasoning show that the twisted contact screen cannot be an
+all-direction parallel complement to the reciprocal pair for any invertible `P` in this bounded
+off-shell family. No physical screen, branch, dynamics, action, source, carrier, density/bootstrap,
+boundary, matter, or Lorentzian geodesic completeness is selected. A nonstationary `E0(P)`
+first-jet release is proposed but not authorized.
 
 P03 is retained only inside its frozen source scope; its repository-wide ultrastatic-only statement
 is superseded by the preexisting family it omitted. P03-B remains stopped. No imported completion,

@@ -4,7 +4,40 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
-## July 28 complete screen-response branch overlay — current authority
+## July 28 general-screen complete-S3 overlay — current authority
+
+Read `udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, `COMPLETENESS_MAP.md`,
+`BLOCK_PRESERVATION_CONDITIONS.tsv`, and `NEXT_STEP.md`.
+
+The full smooth invertible angular screen
+
+```text
+(theta2,theta3)^T=P(x)(sigma1,sigma2)^T,  P:S3->GL(2,R)
+```
+
+has four coframe-response components: area, two shears, and local screen-frame rotation. The metric
+`h=P^T P` retains the three symmetric components; the rotation is `O(2)` coframe gauge. Regular
+`log(H)` coordinates restore both shear tangents at the isotropic screen, proving that the parent's
+zero-shear rows were ansatz-frozen rather than a family-wide no-go.
+
+The complete coframe also exposes a direct angular interaction. The inherited Maurer–Cartan
+generator becomes `C=P R P^-1`; it still obeys `C^2=-I`, but anisotropy gives it rotation and both
+displayed shear components. The full stationary spatial first-jet Cartan connection is exact,
+torsion-free, and metric-compatible.
+
+One bounded no-go follows. On the twisted `S3` control,
+`dtheta1(E2,E3)=t1=kappa exp(phi)/det(P)` cannot vanish for invertible `P`. The two connection-block
+conditions require opposite signs of the same `t1`; independently, Frobenius says the resulting
+contact screen cannot be parallel. Thus generalizing the screen cannot produce an all-direction
+parallel reciprocal-pair/angular-screen split on this chosen cell.
+
+Status: `MIXED_BRANCH_AND_DEGENERACY_ATLAS`; stationary, off-shell, block-screen `S3` scope;
+`VERIFIED-WITH-CAVEATS` with fresh adversarial `PASS`. No physical screen, branch, action, source,
+carrier, density/bootstrap, boundary, dynamics, matter, or Lorentzian geodesic completeness is
+selected. A nonstationary first-jet release is proposed but not authorized.
+
+## July 28 complete screen-response branch overlay — parent authority
 
 Read `udt_complete_screen_response_branch_atlas_2026-07-28/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `BRANCH_PATH_RESPONSE_ATLAS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`,

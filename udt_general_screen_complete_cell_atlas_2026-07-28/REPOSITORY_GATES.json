@@ -1,0 +1,150 @@
+{
+  "audit": {
+    "catch_proofs": 24,
+    "status": "PASS",
+    "stdout_sha256": "54d015777d36bf91149fc27ca06c33cd8e8c34e1815b47205dcd401dd6e07d99"
+  },
+  "authority_boundary": {
+    "GPU_ODE_PDE_time_live": false,
+    "action_source_carrier_density_bootstrap_boundary_scale": false,
+    "canon_changed": false,
+    "physical_selection": false,
+    "repository_reorganization": false
+  },
+  "current_premises": {
+    "result": "PASS",
+    "stdout_sha256": "3a5bf9b325ca86ce5cde8b93b9c86e60bfa5a730bff1748773cb5f45286e1329"
+  },
+  "dirty_checkout": {
+    "contents_read": false,
+    "metadata_sha256": "345d297e0ad849cd38f1d817c915922de653ca2d2befcf923af6f9d097b483e4",
+    "paths": 55,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 50,
+    "result": "PASS",
+    "sha256": "b7d177d0ad0ddcb6631652e1d800ab34249c66acdabd3d815317092967a2bc9c"
+  },
+  "schema": "udt-general-screen-repository-gates-1.0",
+  "scope_base": "73833fa4e75152e51d24f8056b6856dd835785f7",
+  "scope_paths": [
+    "AGENTS.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "README.md",
+    "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/BLOCK_PRESERVATION_CONDITIONS.tsv",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/CANDIDATE_STRATA.tsv",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/CARTAN_RESPONSE_ATLAS.tsv",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/CATCH_PROOFS.tsv",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/COMMANDS.txt",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/COMPLETENESS_MAP.md",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/COMPLETENESS_PLAN.tsv",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/COMPLETE_S3_WITNESS_ATLAS.tsv",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/COMPLETION_DESCENT_ATLAS.tsv",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/DERIVATION_RESULT.json",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/DERIVATION_STDERR.txt",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/DERIVATION_STDOUT.txt",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/EXACT_DERIVATION.md",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/FALSIFICATION_CONTRACT.tsv",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/FRESH_ADVERSARIAL_REVIEW.md",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/GAUGE_INVARIANT_ATLAS.tsv",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/GENERAL_CARTAN_RESULT.json",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/GLOBAL_EXISTENCE_ATLAS.tsv",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/INDEPENDENT_RESULT.json",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/INDEPENDENT_STDERR.txt",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/INDEPENDENT_STDOUT.txt",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/LAY_REPORT.md",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/NEXT_STEP.md",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/ORIENTATION_DEGENERACY_ATLAS.tsv",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/PAIR_SCREEN_MIXING_ATLAS.tsv",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/POLAR_RESPONSE_ATLAS.tsv",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/PREMISE_LEDGER.tsv",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/PREREGISTRATION.md",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/PREREGISTRATION_CLARIFICATION.md",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/README.md",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/REPOSITORY_GATES.json",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/RESPONSE_RANK_ATLAS.tsv",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/RUN_ENVIRONMENT.json",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/RUN_LOG.md",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/SHA256SUMS.txt",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/SOURCE_FREEZE_STDERR.txt",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/SOURCE_FREEZE_STDOUT.txt",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/SOURCE_MANIFEST.tsv",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/SOURCE_SCOPE.tsv",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/STATUS_LEDGER.tsv",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/TEN_CRITERION_COVERAGE.tsv",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/VERIFICATION_RESULT.json",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/VERIFICATION_STDERR.txt",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/VERIFICATION_STDOUT.txt",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/derive_general_screen.py",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/finalize_package.py",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/freeze_sources.py",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/requirements.txt",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/verify_audit.py",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/verify_general_screen_independent.py",
+    "udt_general_screen_complete_cell_atlas_2026-07-28/verify_repository_gates.py"
+  ],
+  "status": "PASS",
+  "tests": {
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "stdout_sha256": "c36690151961996b703ac1948f436672a99f1cb6fcc54f067e684744f11be9a3",
+    "xfailed": 1
+  },
+  "verified_head": "e5528bbba16a349739f7ff2d501271ba61e8f856"
+}

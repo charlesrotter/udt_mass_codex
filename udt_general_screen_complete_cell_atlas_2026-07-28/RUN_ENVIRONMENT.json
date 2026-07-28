@@ -7,7 +7,7 @@
     "python3 udt_general_screen_complete_cell_atlas_2026-07-28/verify_audit.py"
   ],
   "cpu_only": true,
-  "fresh_external_complete": false,
+  "fresh_external_complete": true,
   "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
   "python": "3.10.12",
   "schema": "udt-general-screen-run-environment-1.0",

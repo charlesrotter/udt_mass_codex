@@ -17,18 +17,22 @@ bootstrap, Maxwell-like, `X_max`, Hopfion, source, boundary, and mass scopes. Co
 older files do not override the registry's cited controlling evidence.
 
 **➤ CURRENT SCIENTIFIC FRONTIER:**
-`udt_complete_screen_response_branch_atlas_2026-07-28/AUDIT_REPORT.md`, then its
-`STATUS_LEDGER.tsv`, `BRANCH_PATH_RESPONSE_ATLAS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`,
-`COMPLETENESS_MAP.md`, and `NEXT_STEP.md`.
+`udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, `COMPLETENESS_MAP.md`,
+`BLOCK_PRESERVATION_CONDITIONS.tsv`, and `NEXT_STEP.md`.
 
-The fixed registered atlas contains 52 unique branch/path responses. The explicitly evaluable
-complete controls realize area/trace and rotation; nonconstant depth on the twisted reciprocal
-`S3` branch also forces pair-screen mixing somewhere. Neither shear appears in 30 exact response
-rows, but this is not a no-go: equal angular weights freeze shear in the `phi` response and three
-generic Jacobi shear rows remain open. Congruence vorticity and path-frame rotation are distinct.
+The general invertible angular screen on the chosen stationary complete `S3` control has three
+metric responses—area and two shears—plus one local coframe-gauge rotation. Both shear tangents
+survive at isotropy, so the prior equal-weight zero was ansatz-scoped. Anisotropy makes the
+inherited angular generator display rotation and both shears.
 
-No branch, coefficient, action, source, carrier, density, boundary, scale, force, or particle is
-selected. The proposed general-positive-screen complete-cell existence atlas requires new
+The full spatial first-jet Cartan connection is exact. Explicit connection blocks and an independent
+Frobenius proof agree that the twisted contact screen cannot form an all-direction parallel split
+from the reciprocal pair for any invertible `P` on this bounded family. This does not select a
+physical screen or rule out other complete coframes, direct metric off-blocks, or nonstationarity.
+
+No branch, action, source, carrier, density/bootstrap, boundary, dynamics, force, particle, or
+Lorentzian geodesic completeness is selected. The proposed `E0(P)` first-jet release requires new
 authorization; no GPU, matter/time-live, canonization, or reorganization is authorized.
 
 **➤ PARENT JULY 28 HISTORICAL METHOD FRONTIER:**

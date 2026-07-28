@@ -28,7 +28,7 @@ def capture(script: str, label: str) -> None:
 
 
 def write_manifest() -> None:
-    excluded = {"SHA256SUMS.txt"}
+    excluded = {"SHA256SUMS.txt", "REPOSITORY_GATES.json"}
     rows = []
     for path in sorted(HERE.iterdir(), key=lambda p: p.name):
         if path.is_file() and path.name not in excluded and "__pycache__" not in path.parts:

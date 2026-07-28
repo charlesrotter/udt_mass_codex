@@ -85,8 +85,9 @@ def main() -> int:
 
     fresh = (HERE / "FRESH_ADVERSARIAL_REVIEW.md").read_text()
     require("VERDICT: PASS" in fresh, "fresh review did not pass")
+    fresh_normalized = " ".join(fresh.lower().split())
     for token in ("stationary", "off-shell", "Frobenius", "not selected"):
-        require(token.lower() in fresh.lower(), f"fresh review missing scope token: {token}")
+        require(token.lower() in fresh_normalized, f"fresh review missing scope token: {token}")
 
     result = {
         "schema": "udt-general-screen-audit-verification-1.0",

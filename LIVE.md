@@ -8,7 +8,57 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's topmost CURRENT STATE block, that block wins.**
 
-## ============ CURRENT STATE (2026-07-28 — COMPLETE SCREEN-RESPONSE FINITE-CELL BRANCH ATLAS COMPLETE. THE HISTORICAL METHOD LEAD SURVIVES: THE AMBIENT POSITIVE-SCREEN RESPONSE HAS AREA, ROTATION, AND TWO SHEARS. ACROSS THE FIXED REGISTERED COMPLETE-BRANCH LIBRARY, THE EXPLICITLY EVALUABLE LOCAL RESPONSES REALIZE AREA/TRACE AND ROTATION; NONCONSTANT TWISTED DEPTH ALSO FORCES PAIR-SCREEN MIXING SOMEWHERE. NEITHER SHEAR OCCURS IN THE 30 EXACTLY EVALUATED RESPONSE ROWS, BUT THIS IS NOT A NO-GO: THE CURRENT TWISTED COFRAME ASSIGNS BOTH ANGULAR LEGS THE SAME EXP(LAMBDA PHI) WEIGHT, WHICH FREEZES SHEAR IN THE PHI RESPONSE, WHILE THREE GENERIC JACOBI SHEAR ROWS REMAIN OPEN. CONGRUENCE VORTICITY AND PATH-FRAME ROTATION ARE DISTINCT AND ARE NOW SEPARATELY RECORDED. NO BRANCH, LAMBDA, ACTION, SOURCE, CARRIER, DENSITY, BOUNDARY, SCALE, OR PHYSICAL LABEL IS SELECTED. VERIFIED-WITH-CAVEATS.) ============
+## ============ CURRENT STATE (2026-07-28 — GENERAL-SCREEN COMPLETE-S3 EXISTENCE ATLAS COMPLETE. THE FULL INVERTIBLE 2x2 ANGULAR SCREEN HAS THREE METRIC MODES—AREA AND TWO SHEARS—PLUS ONE LOCAL COFRAME-GAUGE ROTATION. BOTH SHEAR TANGENTS SURVIVE AT THE ROUND SCREEN; THEIR EARLIER ABSENCE WAS AN EQUAL-WEIGHT ANSATZ FREEZE, NOT A LAW. SCREEN ANISOTROPY MAKES THE INHERITED S3 ANGULAR GENERATOR DISPLAY ROTATION AND BOTH SHEARS. THE FULL STATIONARY SPATIAL FIRST-JET CARTAN CONNECTION IS EXACT. NO GENERAL SCREEN P CAN MAKE THE RECIPROCAL PAIR AND ANGULAR SCREEN AN ALL-DIRECTION LEVI-CIVITA-PARALLEL SPLIT ON THIS TWISTED S3 CONTROL: THE NONZERO CONTACT COEFFICIENT t1=kappa exp(phi)/det(P) OBSTRUCTS IT, INDEPENDENTLY CONFIRMED BY FROBENIUS. THIS IS A STATIONARY, OFF-SHELL, CHOSEN BLOCK-SCREEN S3 RESULT; NO PHYSICAL BRANCH, ACTION, SOURCE, CARRIER, DENSITY/BOOTSTRAP, BOUNDARY, DYNAMICS, MATTER, OR LORENTZIAN GEODESIC COMPLETENESS IS SELECTED. VERIFIED-WITH-CAVEATS.) ============
+
+**READ NEXT, IN ORDER:**
+
+1. `HANDOFF.md` current marked block.
+2. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+3. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` top/current overlay.
+4. `udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, `COMPLETENESS_MAP.md`,
+   `BLOCK_PRESERVATION_CONDITIONS.tsv`, and `NEXT_STEP.md`.
+5. `udt_complete_screen_response_branch_atlas_2026-07-28/AUDIT_REPORT.md` only when the parent
+   registered branch census or frozen-shear diagnosis is load-bearing.
+
+**CURRENT HONEST CLAIM:**
+
+- every smooth invertible screen `P:S3->GL(2,R)` is characterized on the chosen complete stationary
+  control; direct pair-screen metric off-blocks and `E0(P)` remain dropped and open;
+- the coframe response rank is four, while `h=P^T P` has three metric degrees of freedom; the local
+  `O(2)` angle is gauge, not another physical mode;
+- regular `log(H)` coordinates prove that the isotropic screen retains both independent shear
+  tangents even though the polar `(v,beta)` chart loses its axis at `v=0`;
+- the transported angular generator `C=P R P^-1` obeys `C^2=-I`, `tr(C)=0`, `det(C)=1`; anisotropy
+  gives it exact displayed shear components with invariant squared norm `sinh(2v)^2`;
+- the full four connection matrices are torsion-free and metric-compatible and reduce exactly to
+  the earlier equal-screen result;
+- the registered twisted `S3` screen is contact/nonintegrable. Opposite connection equations and
+  an independent Frobenius proof both show that no invertible `P` makes the pair/screen split
+  parallel in all directions within this family;
+- this no-go does not forbid pathwise screens, other complete coframes/topologies, direct metric
+  off-blocks, or nonstationary geometry, and it selects no physics.
+
+**NEXT SCIENTIFIC GATE — NOT AUTOMATICALLY AUTHORIZED:** the smallest proposed continuation is a
+preregistered nonstationary first-jet release on the same exact complete control: free and map
+`E0(P)` before choosing any evolution equation or launching an ODE/PDE solve. Releasing direct
+pair-screen metric off-blocks is a separate, larger family. Do not conflate either with selected
+dynamics.
+
+**EVIDENCE:** 15/15 fixed source blobs; eight response strata; nine complete-cell witnesses and
+controls; all 12 FC rows retained; four exact connection matrices; 24/24 exercised catches; a
+non-importing implementation and a fresh zero-context adversary both pass, with the latter also
+solving the 24 Cartan equations independently. Package manifest covers 50 files with SHA-256
+`b7d177d0ad0ddcb6631652e1d800ab34249c66acdabd3d815317092967a2bc9c`. Tests are 70 passed/1
+xfailed; six frozen packages (127 entries/133 paths), 1,114 current paths, 101 frontier targets,
+and the preserved dirty checkout's 55 metadata-only paths are unchanged.
+
+**AUTHORITY BOUNDARY:** the stationary general-screen `S3` atlas is complete. Do not release
+`E0(P)`, add direct pair-screen metric off-blocks, select a physical screen/branch, adopt an action,
+source, carrier, density/bootstrap or boundary law, launch time-live/GPU/matter work, alter
+`CANON.md`, or resume repository reorganization without a new dispatch.
+
+## PRIOR CURRENT STATE (2026-07-28 — COMPLETE SCREEN-RESPONSE FINITE-CELL BRANCH ATLAS COMPLETE)
 
 **READ NEXT, IN ORDER:**
 

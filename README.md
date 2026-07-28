@@ -7,7 +7,7 @@ order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
 [`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md) →
 the [foundational semantic correction](udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md) →
-the [current complete screen-response branch atlas](udt_complete_screen_response_branch_atlas_2026-07-28/AUDIT_REPORT.md) →
+the [current general-screen complete-cell atlas](udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md) →
 exact evidence named by those files only when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
 `MEMORY.md` top/current pointer. `AGENTS.md`
@@ -21,12 +21,18 @@ count, not the native UDT field or mode count. Strong local CSN is challenged/no
 inactive without explicit owner reauthorization; `c_E` and `G_obs` remain observational anchors.
 If the registry, `LIVE.md`, and a cited source disagree, stop.
 
-The latest repository result is the [complete screen-response branch
-atlas](udt_complete_screen_response_branch_atlas_2026-07-28/AUDIT_REPORT.md). Across 52 registered
-branch/path rows, exact evaluated responses realize area/trace and rotation, while nonconstant
-twisted depth also forces pair-screen mixing somewhere. Neither shear appears in the 30 exact
-response rows, but equal angular weights freeze shear in that ansatz and generic Jacobi shear
-remains open. No branch or physical interpretation is selected.
+The latest repository result is the [general-screen complete-cell
+atlas](udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md). On the chosen stationary
+complete `S3` control, the full invertible angular screen has area and two independent metric shears
+plus local coframe-gauge rotation. The earlier shear absence was an equal-weight ansatz freeze.
+Anisotropy also makes the inherited angular generator display both shears. Exact connection blocks
+and an independent Frobenius proof show that no such screen can make the reciprocal pair and
+angular screen an all-direction parallel split on this contact `S3` family. This is off shell and
+selects no physical branch or interpretation.
+
+The parent [complete screen-response branch
+atlas](udt_complete_screen_response_branch_atlas_2026-07-28/AUDIT_REPORT.md) remains the registered
+branch census and owner of the prior frozen-shear diagnosis.
 
 The parent [historical angular-method salvage
 audit](udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md) remains the method

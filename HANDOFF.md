@@ -7,7 +7,44 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-28).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-28 — complete screen-response branch atlas complete)
+## CURRENT (2026-07-28 — general-screen complete-S3 atlas complete)
+
+After `LIVE.md`, read the current premise registry and top frontier overlay, then
+`udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
+`EXACT_DERIVATION.md`, `LAY_REPORT.md`, `COMPLETENESS_MAP.md`,
+`BLOCK_PRESERVATION_CONDITIONS.tsv`, and `NEXT_STEP.md`.
+
+Current ruling:
+
+- the full smooth invertible `2 x 2` angular screen exists globally on the chosen stationary
+  `R x S3` complete-cell control;
+- its coframe response has area, two shears, and one local frame rotation; the metric has the first
+  three, while the rotation is `O(2)` coframe gauge;
+- both shear tangents remain regular at the round screen, so the parent's exact shear absence was
+  an equal-angular-weight ansatz freeze;
+- anisotropy conjugates the inherited angular generator into a precise rotation-plus-two-shear
+  mixture without adding a mechanism;
+- all four stationary first-jet connection matrices are exact, torsion-free, metric-compatible,
+  and regression-match the equal-screen subfamily;
+- the nonzero `S3` contact coefficient forbids an all-direction Levi-Civita-parallel pair/screen
+  split for every invertible `P`; explicit connection equations and a fresh independent Frobenius
+  derivation agree;
+- this is stationary, off-shell, and block-screen bounded. Other completions, direct metric
+  off-blocks, `E0(P)`, Lorentzian geodesic completeness, and all physical selection remain open.
+
+Evidence: 15 source blobs, eight response strata, nine witnesses/controls, 12 completion rows, four
+connection matrices, 24/24 catches, non-importing verification, and fresh zero-context adversarial
+`PASS`. Package manifest: 50 files,
+`b7d177d0ad0ddcb6631652e1d800ab34249c66acdabd3d815317092967a2bc9c`. Repository gates retain
+70 passed/1 xfailed, six frozen packages, 1,114 current paths, 101 frontier targets, and 55 unrelated
+dirty metadata paths.
+
+The proposed nonstationary first-jet release (`E0(P)` free but no evolution equation) is **not
+automatically authorized**. No direct pair-screen metric off-block release, branch selection,
+action, source, carrier, density/bootstrap, boundary, matter/time-live/GPU work, canonization, or
+reorganization is authorized.
+
+## PRIOR CURRENT (2026-07-28 — complete screen-response branch atlas complete)
 
 After `LIVE.md`, read the current premise registry and top frontier overlay, then
 `udt_complete_screen_response_branch_atlas_2026-07-28/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
