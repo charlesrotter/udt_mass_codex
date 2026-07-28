@@ -7,7 +7,43 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-28).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-28 — joint-selector provenance audit complete)
+## CURRENT (2026-07-28 — metric-natural selector possibility/no-go audit complete)
+
+After `LIVE.md`, read the current premise registry, the top frontier overlay, then
+`udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
+`EXACT_DERIVATION.md`, `COMPLETENESS_MAP.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+
+Current ruling:
+
+- founded `phi` remains the derived additive reciprocal depth channel;
+- a continuous additive real character of connected full Lorentz frame comparison is necessarily
+  trivial, while two non-collinear boosts generate a nonzero angular rotation;
+- a pointwise metric with full Lorentz isotropy selects only scalar endomorphisms, not a preferred
+  non-scalar reciprocal generator;
+- a covariant law may act on all observer queries without selecting a preferred observer, but a
+  physical base/depth and reduced structure are still required;
+- an observer line conditionally gives `lambda=+1`, a ruler line gives `lambda=-1`, and an ordered
+  pair leaves `lambda` arbitrary;
+- supplied path transport plus a reciprocal cocycle is the exact surviving comparison type;
+  physical arrows, path semantics, transverse metric response, global descent, and realization are
+  open;
+- stationary Killing-norm depth is a positive base-dependent counterexample to any universal
+  impossibility claim, and higher-jet/nonlocal/set-valued/whole-solution routes were not exhausted.
+
+The exact partial obstruction is verified, but the preregistered primary result is
+`NO_GO_PREMISES_INSUFFICIENT_STOP`, not a universal no-go. The next bounded question is an ownership
+audit: does `X_lambda` belong in observer-comparison kinematics, or only in realized metric response?
+It requires separate authorization and may not select `lambda`.
+
+Evidence: 13 source blobs, exact rank/commutant/reduction/holonomy algebra, 32/32 catch-proofs, and a
+36-file hash manifest. Tests are 70 passed/1 xfailed; six frozen packages, current navigation, and
+55 unrelated dirty metadata paths remain unchanged. Grade `VERIFIED-WITH-CAVEATS` for same-session
+independent verification and deliberately bounded theorem scope.
+
+No GPU, ODE/PDE, time-live, action, source, carrier, density/bootstrap equation, boundary,
+prediction, canonization, or repository reorganization is authorized.
+
+## PRIOR CURRENT (2026-07-28 — joint-selector provenance audit complete)
 
 After `LIVE.md`, read `CURRENT_SCIENTIFIC_PREMISES.md` and its TSV, then the top overlay in
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then

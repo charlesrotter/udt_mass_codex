@@ -4,7 +4,42 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
-## July 28 joint-selector provenance overlay — current authority
+## July 28 metric-natural selector possibility/no-go overlay — current authority
+
+Read `udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `COMPLETENESS_MAP.md`, `LAY_REPORT.md`, and
+`NEXT_STEP.md`.
+
+The exact Lorentz algebra supplies a real obstruction and a type correction. Its commutators span
+all six generators, so every continuous full-frame additive real character is trivial. In
+particular, founded reciprocal depth cannot by itself encode generic non-collinear frame comparison:
+two differently directed boosts produce an angular generator. Pointwise metric covariance on the
+unrestricted full-isotropy class also permits only scalar multiples of the identity, so it cannot
+naturally select a fixed non-scalar reciprocal generator.
+
+Reduced structures give sharp conditional results. A supplied timelike observer line and the
+founded spatial response leave the unique `lambda=+1` lift; a supplied spacelike ruler line and the
+founded clock response leave `lambda=-1`; a supplied ordered observer/ruler pair retains
+`diag(-1,+1,lambda,lambda)` for every real `lambda`. Full-holonomy centralizer controls do not turn
+these pointwise reductions into a six-dimensional endpoint-only comparison.
+
+The surviving natural architecture is a reciprocal additive cocycle together with nonabelian
+angular/coframe groupoid transport. This is a type-level result, not a selected physical law. The
+stationary Killing-norm depth is a positive bounded base-dependent cocycle, so the audit cannot
+claim that every metric-natural construction is impossible. Higher-jet, bilocal/nonlocal,
+set-valued, and whole-solution routes remain unclassified.
+
+Status: exact partial no-go plus required reducible type;
+`NO_GO_PREMISES_INSUFFICIENT_STOP`; `VERIFIED-WITH-CAVEATS`. Thirteen fixed sources and all exact
+ranks replay; 32/32 independent catch-proofs pass.
+
+The next bounded question is an ownership audit: whether the founding postulates place transverse
+response `X_lambda` inside observer-comparison kinematics or leave it to downstream realized metric
+response. It is not automatically authorized and must not choose `lambda`, an action, source,
+carrier, density, boundary, branch, or dynamics. No GPU, ODE/PDE, time-live, prediction,
+canonization, or repository reorganization is authorized.
+
+## July 28 joint-selector provenance overlay — parent authority
 
 Read `udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `JOINT_CANDIDATE_LEDGER.tsv`, `JOINT_GATE_MATRIX.tsv`,

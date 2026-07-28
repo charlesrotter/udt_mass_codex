@@ -7,7 +7,7 @@ order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
 [`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md) →
 the [foundational semantic correction](udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md) →
-the [current joint-selector provenance audit](udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md) →
+the [current metric-natural selector audit](udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md) →
 exact evidence named by those files only when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
 `MEMORY.md` top/current pointer. `AGENTS.md`
@@ -21,25 +21,25 @@ count, not the native UDT field or mode count. Strong local CSN is challenged/no
 inactive without explicit owner reauthorization; `c_E` and `G_obs` remain observational anchors.
 If the registry, `LIVE.md`, and a cited source disagree, stop.
 
-The latest repository result is the [joint-selector provenance
-audit](udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md). It rehashes 3,044 fixed-base
-candidate sources, adjudicates 80 qualifying groups, and tests 16 registered constructions against
-15 typed obligations. No registered operation jointly derives physical comparison/depth, a finite
-full-frame reciprocal response, and global completion/interfaces.
+The latest repository result is the [metric-natural selector possibility/no-go
+audit](udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md). It proves two exact scoped
+obstructions: full Lorentz frame comparison has no nontrivial continuous additive real character,
+and pointwise metric covariance with full isotropy cannot select a non-scalar reciprocal generator.
+Non-collinear comparisons force angular transport. Reduced structures give exact conditional
+families, but an ordered observer/ruler pair still leaves real `lambda` free.
 
-The strongest partial result is positive and exact on its stated domain: a complete stationary
-metric with an intrinsic timelike Killing line derives endpoint clock depth, and metric coframe
-transport on a supplied path combines with it as a reducible hybrid comparison. The hybrid does not
-select physical path semantics, arbitrary-observer depth, an irreducible reciprocal full-frame
-lift, `lambda`/mixing, global completion, or a realized branch. Status is
-`NO_REGISTERED_JOINT_OPERATION_THREE_GAPS_RETAINED`.
+The surviving mathematical type is a reciprocal cocycle plus angular/coframe groupoid transport.
+This does not yet select physical arrows, path semantics, transverse metric response, global
+descent, or a realized branch. Stationary Killing-norm depth remains a positive base-dependent
+witness, and higher-jet/nonlocal/set-valued/whole-solution routes were not classified. The honest
+primary outcome is therefore `NO_GO_PREMISES_INSUFFICIENT_STOP`, not a universal no-go.
 
 The parent [native global coframe-definition audit](udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md)
 also supplies an append-only correction to the frozen P03 result. P03's internal
 57-source counts remain exact, but its repository-wide “only ultrastatic controls” statement is
 superseded because its freeze omitted the preexisting nonultrastatic family. P03-B remains stopped.
-The next metric-natural selector existence/no-go question requires separate authorization and
-preregistration. No ODE/PDE, action, source, carrier, density/bootstrap equation, boundary
+The next comparison-versus-metric-realization ownership question requires separate authorization
+and preregistration. No ODE/PDE, action, source, carrier, density/bootstrap equation, boundary
 functional, physical time evolution, canonization, reorganization, or GPU work is authorized by
 this checkpoint.
 

@@ -81,6 +81,13 @@
   "schema": "udt-metric-natural-joint-selector-nogo-repository-gates-1.0",
   "scope_base": "e7ea5936eaecbab626db0f30e12a8be4630b5dd7",
   "scope_paths": [
+    "AGENTS.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "README.md",
+    "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
     "udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md",
     "udt_metric_natural_joint_selector_nogo_2026-07-28/CATCH_PROOFS.tsv",
     "udt_metric_natural_joint_selector_nogo_2026-07-28/CHARACTER_AND_COCYCLE_RESULTS.tsv",
@@ -101,6 +108,7 @@
     "udt_metric_natural_joint_selector_nogo_2026-07-28/PREREGISTRATION.md",
     "udt_metric_natural_joint_selector_nogo_2026-07-28/README.md",
     "udt_metric_natural_joint_selector_nogo_2026-07-28/REDUCED_STRUCTURE_ATLAS.tsv",
+    "udt_metric_natural_joint_selector_nogo_2026-07-28/REPOSITORY_GATES.json",
     "udt_metric_natural_joint_selector_nogo_2026-07-28/RUN_ENVIRONMENT.json",
     "udt_metric_natural_joint_selector_nogo_2026-07-28/RUN_LOG.md",
     "udt_metric_natural_joint_selector_nogo_2026-07-28/SHA256SUMS.txt",
@@ -124,8 +132,8 @@
     "failed": 0,
     "passed": 70,
     "result": "PASS",
-    "stdout_sha256": "345b41275166d93b468b33b3f18dc421f68c70865b0279874f55fcc408a73441",
+    "stdout_sha256": "04e4b9a37d6eacfa08393f10b908f3a4d9415faa061cf0f228a1987f1107a0ef",
     "xfailed": 1
   },
-  "verified_head": "d6d69d1d4b64485176b7459c4b43c391c516ab95"
+  "verified_head": "64742758af120724400a791cc3c8006083fd9db9"
 }

@@ -10,9 +10,9 @@
 then the marked current block in `HANDOFF.md`, then `CURRENT_SCIENTIFIC_PREMISES.md` and
 `CURRENT_SCIENTIFIC_PREMISES.tsv`, then the top/current overlay in
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md`
-and its status/candidate/gate/dependency/lay/next-step records. Read the parent global-definition
-package, then P03, P02/P01,
+`udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md`
+and its status/exact/completeness/lay/next-step records. Read the parent joint-selector and
+global-definition packages, then P03, P02/P01,
 bootstrap, intrinsic-solder, and observer-pair packages only when their exact premises become
 load-bearing.
 Expand only to the exact cited evidence made load-bearing by the active task.
@@ -25,18 +25,19 @@ angular/mixing extension and variation domain remain open. Strong local CSN is
 See the DOF package's `CORRECTION_LAYER.md`. If a lower-priority result disagrees with the current
 premise registry or its cited source, stop.
 
-Current honest status: zero of 16 registered constructions passes all 15 joint-operation gates in
-the 3,044-source/80-group fixed-base audit. The strongest partial chain is exact: a stationary
-intrinsic Killing norm gives bounded endpoint depth, and metric coframe transport on a supplied
-path forms a reducible hybrid comparison with it. The hybrid does not select physical path
-semantics, arbitrary-observer depth, an irreducible full-frame reciprocal lift, `lambda`/mixing,
-global completion, or an on-shell branch. The three kinematic gaps remain; realized equations and
-absolute scale remain downstream.
+Current honest status: full Lorentz comparison has no nontrivial continuous additive real
+character, non-collinear comparison forces angular transport, and full pointwise metric isotropy
+cannot select a non-scalar reciprocal generator. Reduced structures yield conditional
+`lambda=+1`, `lambda=-1`, or the full real-`lambda` family. The surviving exact type is reciprocal
+cocycle plus angular/coframe transport; physical base, arrows, path semantics, transverse metric
+response, descent, and realization remain open. Base-dependent and higher-jet/nonlocal/whole-
+solution routes prevent a universal no-go. Status is `NO_GO_PREMISES_INSUFFICIENT_STOP`, verified
+with same-session caveats.
 
 P03 is retained only inside its frozen source scope; its repository-wide ultrastatic-only statement
-is superseded by the preexisting family it omitted. P03-B remains stopped. Overall status is
-`NO_REGISTERED_JOINT_OPERATION_THREE_GAPS_RETAINED`. A metric-natural selector existence/no-go
-audit requires separate authorization. No imported completion, ODE/PDE, action, density,
+is superseded by the preexisting family it omitted. P03-B remains stopped. A comparison-versus-
+metric-realization ownership audit requires separate authorization. No imported completion,
+ODE/PDE, action, density,
 matter/time-live solve, canonization, artifact move, repository reorganization, or GPU work is
 authorized.
 

@@ -8,7 +8,62 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's topmost CURRENT STATE block, that block wins.**
 
-## ============ CURRENT STATE (2026-07-28 — JOINT-SELECTOR PROVENANCE AUDIT COMPLETE. THE FIXED REPOSITORY CONTAINS NO REGISTERED OPERATION THAT JOINTLY DERIVES PHYSICAL COMPARISON/SIGNED DEPTH, THE FINITE FULL-FRAME RECIPROCAL RESPONSE, AND GLOBAL COMPLETION/INTERFACE DATA. A REAL PARTIAL JOIN WAS SHARPENED: ON A SUPPLIED COMPLETE STATIONARY BRANCH WITH AN INTRINSIC TIMELIKE KILLING LINE, THE METRIC DERIVES ENDPOINT CLOCK DEPTH; WITH A SUPPLIED PATH, METRIC COFRAME TRANSPORT COMBINES WITH IT AS AN EXACT REDUCIBLE HYBRID COMPARISON. IT DOES NOT SELECT PHYSICAL PATH SEMANTICS, LAMBDA/MIXING, GLOBAL COMPLETION, OR AN ON-SHELL BRANCH. STATUS NO_REGISTERED_JOINT_OPERATION_THREE_GAPS_RETAINED; VERIFIED-WITH-CAVEATS. NEXT BOUNDED LEAD IS A METRIC-NATURAL SELECTOR EXISTENCE/NO-GO AUDIT. NO FOLLOW-ON, P03-B, GPU, ODE/PDE, TIME-LIVE, ACTION, SOURCE, CARRIER, DENSITY, BOOTSTRAP EQUATION, BOUNDARY FUNCTIONAL, PHYSICS PREDICTION, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-28 — METRIC-NATURAL JOINT-SELECTOR POSSIBILITY/NO-GO AUDIT COMPLETE. EXACT PARTIAL NO-GO: A CONTINUOUS FULL-LORENTZ FRAME-ONLY ADDITIVE REAL CHARACTER IS TRIVIAL; NON-COLLINEAR COMPARISON FORCES ANGULAR TRANSPORT; AND POINTWISE METRIC DATA WITH FULL ISOTROPY CANNOT SELECT A NON-SCALAR RECIPROCAL GENERATOR. THE SURVIVING NATURAL TYPE IS A REDUCED RECIPROCAL COCYCLE PLUS ANGULAR/COFRAME GROUPOID TRANSPORT. A SUPPLIED OBSERVER LINE CONDITIONALLY FIXES LAMBDA=+1, A SUPPLIED RULER LINE FIXES LAMBDA=-1, AND A SUPPLIED ORDERED PAIR RETAINS THE FULL REAL-LAMBDA FAMILY. BASE-DEPENDENT, HIGHER-JET, NONLOCAL, SET-VALUED, AND WHOLE-SOLUTION ROUTES ARE NOT CLASSIFIED, SO THE PRIMARY OUTCOME IS NO_GO_PREMISES_INSUFFICIENT_STOP, NOT A UNIVERSAL NO-GO. VERIFIED-WITH-CAVEATS. NEXT BOUNDED QUESTION IS WHETHER TRANSVERSE RESPONSE BELONGS TO OBSERVER-COMPARISON KINEMATICS OR DOWNSTREAM WHOLE-METRIC REALIZATION. NO FOLLOW-ON, GPU, ODE/PDE, TIME-LIVE, ACTION, SOURCE, CARRIER, DENSITY, BOOTSTRAP EQUATION, BOUNDARY FUNCTIONAL, PHYSICS PREDICTION, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+
+**READ NEXT, IN ORDER:**
+
+1. `HANDOFF.md` current marked block.
+2. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+3. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` top/current overlay.
+4. `udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `COMPLETENESS_MAP.md`, `LAY_REPORT.md`, and
+   `NEXT_STEP.md`.
+5. `udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md` only when the parent fixed-tree
+   census, three-gap decomposition, or stationary hybrid is load-bearing.
+
+**CURRENT HONEST CLAIM:**
+
+- founded `phi` remains `DERIVED` as the additive reciprocal clock/ruler depth channel; this audit
+  narrows what that scalar can encode but does not demote its identity;
+- a generic non-collinear complete-frame comparison cannot be compressed into one additive real
+  Lorentz character: exact commutators span all six Lorentz generators and force an angular part;
+- full pointwise Lorentz isotropy leaves only scalar multiples of the identity as natural
+  endomorphisms, so the metric at one point alone cannot select the non-scalar reciprocal lift;
+- “no preferred observer” still permits one covariant law acting on every observer query; it does
+  not supply the missing depth or reduction by itself;
+- supplied reduced structure gives exact conditional families: observer line `lambda=+1`, ruler
+  line `lambda=-1`, and ordered clock/ruler pair arbitrary real `lambda`;
+- endpoint-additive depth is necessarily a potential difference on its domain; a homogeneous
+  Lorentz-invariant frame-only depth is trivial, while the stationary Killing-norm depth remains
+  a positive metric-derived base-dependent witness;
+- the mathematically required surviving architecture is therefore reducible: reciprocal cocycle
+  plus angular/coframe path transport. Physical arrows, path semantics, reduction, transverse
+  response, global descent, and realized branch remain `OPEN`;
+- the current theorem does not exhaust higher jets, bilocal/nonlocal whole-solution operations,
+  set-valued constructions, or base-dependent potentials. A universal no-go is not established;
+- action, carrier, source, boundary, density/bootstrap closure, `X_max`, mass, scale, and dynamics
+  retain their prior exact `OPEN`/`CONDITIONAL`/`WORKING` stamps.
+
+**NEXT SCIENTIFIC GATE — NOT AUTOMATICALLY AUTHORIZED:** audit object ownership only: determine
+whether the two founding postulates require the observer-comparison law itself to contain the
+four-dimensional transverse response `X_lambda`, or whether comparison closes at reciprocal depth
+plus angular transport while `lambda` belongs to downstream whole-metric realization. Do not choose
+`lambda` or invent a reduction.
+
+**EVIDENCE:** 13/13 fixed source blobs replay; exact Lorentz bracket rank 6, character dimension 0,
+fixed vector/covector dimensions 0/0, and pointwise commutant dimension 1; four exact holonomy
+centralizer controls; 32/32 independent catch-proofs. Package manifest covers 36 files. Tests are
+70 passed/1 xfailed; six frozen packages (127 entries/133 paths), 1,114 current paths, 101 frontier
+targets, and the preserved dirty checkout's 55 metadata-only paths are unchanged. Grade
+`VERIFIED-WITH-CAVEATS` because verification is independent-code but same-session and the theorem
+is deliberately premise-bounded.
+
+**AUTHORITY BOUNDARY:** the possibility/no-go audit is complete; its ownership follow-on is not
+authorized. Do not promote the partial obstruction to a universal theorem, choose a physical
+comparison, `lambda`, branch, profile, completion, action, source, carrier, density, boundary, or
+dynamics; run ODE/PDE, time-live, matter, or GPU work; alter `CANON.md`; or resume reorganization.
+
+## PRIOR CURRENT STATE (2026-07-28 — JOINT-SELECTOR PROVENANCE AUDIT)
 
 **READ NEXT, IN ORDER:**
 

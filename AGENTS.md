@@ -33,14 +33,16 @@ after the user's actual task makes them load-bearing.
    source-precedence index for high-risk foundational terms. It is not canon and cannot overrule
    `LIVE.md`; any disagreement between it, `LIVE.md`, and its cited source is a mandatory stop.
 4. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay.
-5. `udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md`, then its
-   `STATUS_LEDGER.tsv`, `JOINT_CANDIDATE_LEDGER.tsv`, `JOINT_GATE_MATRIX.tsv`,
-   `PARTIAL_DEPENDENCY_GRAPH.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`. This is the current bounded
-   result: no registered operation jointly closes physical depth, complete reciprocal lift, and
-   global completion; a stationary metric-depth plus supplied-path transport hybrid is the
-   strongest exact partial construction. The proposed metric-natural existence/no-go follow-on is
+5. `udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `COMPLETENESS_MAP.md`, `LAY_REPORT.md`, and
+   `NEXT_STEP.md`. This is the current bounded result: full-frame additive scalar comparison and
+   pointwise metric-only non-scalar selection are obstructed; the surviving type is reciprocal
+   cocycle plus angular/coframe transport. Higher-jet/nonlocal/whole-solution routes remain open,
+   so this is not a universal no-go. The proposed comparison-versus-realization ownership audit is
    not authorized automatically.
-6. `udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md` only when its parent
+6. `udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md` only when its fixed-tree census,
+   three-gap decomposition, or stationary hybrid is load-bearing. Then read
+   `udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md` only when its parent
    three-gap decomposition or complete nonultrastatic counterfamily becomes load-bearing. Read P03
    only when its frozen scoped result is load-bearing and apply the July 28 correction layer. Read
    P02/P01 only when their exact local-atlas or transport scope is required.
@@ -94,16 +96,15 @@ Then give Charles a short orientation report: actual HEAD and dirt, the current 
 premise stamps, the open gate, and the proposed bounded next action. Do not mutate files or launch a
 long solve until that orientation is complete.
 
-The bootstrap/stable-matter interpretation remains a working hypothesis. The fixed-base
-joint-selector provenance audit finds zero complete joint operations among 16 registered
-constructions. It also preserves a real positive scaffold: on a supplied stationary branch with an
-intrinsic timelike Killing line, the metric derives bounded endpoint depth; on a supplied path,
-metric coframe transport combines with it as an exact reducible hybrid. This does not select
-physical path semantics, arbitrary-observer depth, a single full reciprocal lift, `lambda`/mixing,
-global completion, or a realized branch. The three kinematic gaps and downstream equations/scale
-closure remain open. P03-B was not launched and is not authorized. Do not turn the hybrid into a
-complete physical law or use it to choose a profile, completion, action, density sweep,
-matter/time-live solve, or GPU run.
+The bootstrap/stable-matter interpretation remains a working hypothesis. The current exact partial
+no-go says a continuous full-Lorentz additive scalar character is trivial, non-collinear comparison
+forces angular transport, and pointwise full-isotropy metric data cannot select a non-scalar
+reciprocal generator. A supplied observer line conditionally gives `lambda=+1`, a supplied ruler
+line gives `lambda=-1`, and a supplied ordered pair leaves real `lambda` free. The surviving type is
+reciprocal cocycle plus angular/coframe groupoid transport, not a selected physical law. Stationary
+base-dependent depth and unclassified higher-jet/nonlocal/whole-solution routes prevent a universal
+no-go. P03-B was not launched and is not authorized. Do not choose `lambda`, a reduction, profile,
+completion, action, density sweep, matter/time-live solve, or GPU run from this result.
 
 The prior observer-pair chain derives the abstract ordered reciprocal operator with founding-premise
 stamps and narrows its global input to an observer-indexed bilocal depth type, conditional on an open
