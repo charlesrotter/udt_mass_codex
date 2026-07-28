@@ -1,0 +1,33 @@
+{
+  "anchor_sha256": "3400c5226a2afe62412fc81fb1739305c4c42b4b2cd3d7722e09647febd47431",
+  "anchors": 32,
+  "checks": {
+    "dphi_norm_scaled": true,
+    "metric_absolute": true,
+    "scalar_scaled": true,
+    "tidal_components_scaled": true
+  },
+  "environment": {
+    "device": "CPU",
+    "dtype": "float64",
+    "numpy": "2.2.6",
+    "python": "3.10.12"
+  },
+  "finite_difference_step": 0.0002,
+  "maxima": {
+    "dphi_norm_scaled": 8.881784197001244e-16,
+    "metric_absolute": 6.661338147750939e-16,
+    "scalar_scaled": 1.1128991961786164e-07,
+    "tidal_components_scaled": 2.508690251090693e-07
+  },
+  "method": "NUMPY_DIRECT_LOCAL_TAYLOR_METRIC_PLUS_FOURTH_ORDER_4D_FINITE_DIFFERENCE_RIEMANN",
+  "production_module_imported": false,
+  "schema": "udt-p02b-independent-repeated-tidal-cpu-anchor-1.0",
+  "status": "PASS",
+  "tolerances": {
+    "dphi_norm_scaled": 2e-08,
+    "metric_absolute": 5e-12,
+    "scalar_scaled": 0.0002,
+    "tidal_components_scaled": 0.0002
+  }
+}

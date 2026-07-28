@@ -1,0 +1,30 @@
+{
+  "accepted_hessian_norm_range": {
+    "maximum": 662.467262503194,
+    "median": 0.2729022339482454,
+    "minimum": 0.0
+  },
+  "accepted_max_reevaluated_residual": 8.37303559819702e-11,
+  "affine_control_max_scaled_error": 2.0747004417412652e-16,
+  "atlas_sha256": "4d91131519f4da3979949d5ba13626337bcf2e71cda4c877cc31c417d8832515",
+  "bases": 4198,
+  "candidates": 12594,
+  "environment": {
+    "device": "Tesla V100-PCIE-32GB",
+    "dtype": "float64",
+    "numpy": "2.2.6",
+    "peak_memory_bytes": 383059968,
+    "pid": 4181535,
+    "python": "3.10.12",
+    "torch": "2.5.1+cu121",
+    "wall_seconds": 9.087408065795898
+  },
+  "epistemic_scope": "LOCAL_AFFINE_HESSIAN_RESPONSE_WITNESSES_NOT_SELECTED_OR_GLOBAL_SOLUTIONS",
+  "maximum_conclusion": "LOCAL_CONSTRUCTIBILITY_OR_RESPONSE_OBSTRUCTION_FOR_THREE_NORMALIZED_REPEATED_TIDAL_TARGETS_ON_THE_EXACT_FROZEN_BASES",
+  "schema": "udt-p02b-repeated-tidal-result-1.0",
+  "source_p02a_atlas_sha256": "9e0b101d53f35913dc95c6f03ef68ea3d3d1de108398453b41fac6e9479e3d59",
+  "status": "PASS",
+  "status_counts": {
+    "CONSTRUCTED_REPEATED_TIDAL": 12594
+  }
+}
