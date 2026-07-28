@@ -102,9 +102,11 @@ def history(repo: Path, path: str) -> tuple[str, str, str, str]:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output-dir", type=Path, required=True)
+    parser.add_argument("--repo", type=Path, default=Path(__file__).resolve().parent.parent)
     args = parser.parse_args()
     outdir = args.output_dir.resolve()
-    repo = outdir.parent
+    outdir.mkdir(parents=True, exist_ok=True)
+    repo = args.repo.resolve()
     expected = set().union(*(row["paths"] for row in FAMILIES.values()))
     tracked = set(run(repo, "git", "ls-files", "*.py").splitlines())
     named = {path for path in tracked if any(token in Path(path).name.lower() for token in ("time_live", "timelive", "evol"))}

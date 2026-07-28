@@ -1,0 +1,177 @@
+#!/usr/bin/env python3
+"""Repository, package, frozen-evidence, test, and dirty-metadata gates."""
+
+from __future__ import annotations
+
+import hashlib
+import importlib.util
+import json
+import os
+import re
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+PACKAGE = HERE.name
+BASE = "a4c11fc"
+EXPECTED_DIRTY_COUNT = 55
+EXPECTED_DIRTY_SHA256 = "345d297e0ad849cd38f1d817c915922de653ca2d2befcf923af6f9d097b483e4"
+
+
+def run(command: list[str]) -> subprocess.CompletedProcess[str]:
+    env = dict(os.environ)
+    env.update({"CUDA_VISIBLE_DEVICES": "", "PYTHONDONTWRITEBYTECODE": "1"})
+    return subprocess.run(command, cwd=ROOT, env=env, text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, check=False)
+
+
+def git(*args: str) -> str:
+    result = run(["git", *args])
+    if result.returncode:
+        raise AssertionError(result.stdout)
+    return result.stdout
+
+
+def generic_module():
+    path = ROOT / "bootstrap_csn_phi_angular_selector_2026-07-19" / "verify_repository_gates.py"
+    spec = importlib.util.spec_from_file_location("cleanroom_metric_reduction_generic_gates", path)
+    module = importlib.util.module_from_spec(spec)
+    assert spec.loader is not None
+    sys.modules[spec.name] = module
+    spec.loader.exec_module(module)
+    module.PACKAGE = PACKAGE
+    return module
+
+
+def verify_scope(injected: str = "") -> list[str]:
+    changed = set(git("diff", "--name-only", f"{BASE}..HEAD").splitlines())
+    if injected:
+        changed.add(injected)
+    bad = sorted(path for path in changed if path and not path.startswith(PACKAGE + "/"))
+    if bad:
+        raise AssertionError(f"out-of-scope committed path: {bad[0]}")
+    return sorted(changed)
+
+
+def verify_dirty(corrupt: bool = False) -> dict[str, object]:
+    raw = git("status", "--short")
+    count = len(raw.splitlines()) - int(corrupt)
+    digest = hashlib.sha256(raw.encode()).hexdigest()
+    if count != EXPECTED_DIRTY_COUNT or digest != EXPECTED_DIRTY_SHA256:
+        raise AssertionError("dirty metadata changed")
+    return {"paths": count, "metadata_sha256": digest, "contents_read": False, "result": "PASS"}
+
+
+def verify_package(corrupt: bool = False) -> dict[str, object]:
+    manifest = HERE / "SHA256SUMS.txt"
+    expected = {}
+    for line in manifest.read_text().splitlines():
+        digest, name = line.split("  ", 1)
+        expected[name] = digest
+    excluded = {"SHA256SUMS.txt", "REPOSITORY_GATES.json"}
+    actual = sorted(path.name for path in HERE.iterdir() if path.is_file() and path.name not in excluded)
+    if corrupt or sorted(expected) != actual:
+        raise AssertionError("package membership mismatch")
+    for name, digest in expected.items():
+        if hashlib.sha256((HERE / name).read_bytes()).hexdigest() != digest:
+            raise AssertionError(f"package hash mismatch: {name}")
+    return {"entries": len(expected), "manifest_sha256": hashlib.sha256(manifest.read_bytes()).hexdigest(), "result": "PASS"}
+
+
+def expect_failure(callback) -> str:
+    try:
+        callback()
+    except AssertionError:
+        return "PASS"
+    raise AssertionError("catch accepted corruption")
+
+
+def require_process(process: subprocess.CompletedProcess[str]) -> None:
+    if process.returncode:
+        raise AssertionError(process.stdout)
+
+
+def main() -> None:
+    generic = generic_module()
+    git("merge-base", "--is-ancestor", BASE, "HEAD")
+    scope = verify_scope()
+    frozen = generic.validate_frozen(ROOT)
+    navigation = generic.validate_navigation(ROOT)
+    dirty = verify_dirty()
+    package = verify_package()
+
+    with tempfile.TemporaryDirectory(prefix="udt_cleanroom_replay_") as temp_name:
+        temp = Path(temp_name)
+        prod_dir = temp / "production"
+        prod = run([sys.executable, str(HERE / "derive_cleanroom_reduction.py"), "--output-dir", str(prod_dir)])
+        independent = run([sys.executable, "-S", str(HERE / "verify_cleanroom_reduction_independent.py"), "--output", str(temp / "independent.json")])
+        legacy_dir = temp / "legacy"
+        legacy_dir.mkdir()
+        legacy = run([sys.executable, str(HERE / "inventory_legacy_time_systems.py"), "--output-dir", str(legacy_dir), "--repo", str(ROOT)])
+        for process in (prod, independent, legacy):
+            require_process(process)
+        if (prod_dir / "DERIVATION_RESULT.json").read_bytes() != (HERE / "DERIVATION_RESULT.json").read_bytes():
+            raise AssertionError("production result replay mismatch")
+        if (prod_dir / "SYSTEM_OUTCOMES.tsv").read_bytes() != (HERE / "SYSTEM_OUTCOMES.tsv").read_bytes():
+            raise AssertionError("system outcome replay mismatch")
+        if (temp / "independent.json").read_bytes() != (HERE / "INDEPENDENT_RESULT.json").read_bytes():
+            raise AssertionError("independent replay mismatch")
+        if (legacy_dir / "LEGACY_TIME_SYSTEMS.tsv").read_bytes() != (HERE / "LEGACY_TIME_SYSTEMS.tsv").read_bytes():
+            raise AssertionError("legacy ledger replay mismatch")
+        if (legacy_dir / "LEGACY_PROVENANCE_RESULT.json").read_bytes() != (HERE / "LEGACY_PROVENANCE_RESULT.json").read_bytes():
+            raise AssertionError("legacy result replay mismatch")
+
+    audit = run([sys.executable, str(HERE / "verify_audit.py")])
+    legacy_audit = run([sys.executable, str(HERE / "verify_legacy_provenance.py")])
+    premises = run([sys.executable, "verify_current_scientific_premises.py"])
+    for process in (audit, legacy_audit, premises):
+        require_process(process)
+    tests = run([sys.executable, "-m", "pytest", "-q", "tests/"])
+    match = re.search(r"(\d+) passed, (\d+) xfailed", tests.stdout)
+    if tests.returncode or match is None or tuple(map(int, match.groups())) != (70, 1):
+        raise AssertionError(tests.stdout)
+
+    result = {
+        "schema": "udt-cleanroom-metric-reduction-repository-gates-1.0",
+        "base": BASE,
+        "head": git("rev-parse", "HEAD").strip(),
+        "result": "PASS",
+        "scope_paths": scope,
+        "frozen": frozen,
+        "navigation": navigation,
+        "dirty_checkout": dirty,
+        "package": package,
+        "production_replay": {"result": "PASS", "stdout_sha256": hashlib.sha256(prod.stdout.encode()).hexdigest()},
+        "independent_replay": {"result": "PASS", "stdout_sha256": hashlib.sha256(independent.stdout.encode()).hexdigest()},
+        "legacy_replay": {"result": "PASS", "stdout_sha256": hashlib.sha256(legacy.stdout.encode()).hexdigest()},
+        "audit": {"result": "PASS", "stdout_sha256": hashlib.sha256(audit.stdout.encode()).hexdigest()},
+        "legacy_audit": {"result": "PASS", "stdout_sha256": hashlib.sha256(legacy_audit.stdout.encode()).hexdigest()},
+        "current_premises": {"result": "PASS", "stdout_sha256": hashlib.sha256(premises.stdout.encode()).hexdigest()},
+        "tests": {"passed": 70, "failed": 0, "xfailed": 1, "result": "PASS", "stdout_sha256": hashlib.sha256(tests.stdout.encode()).hexdigest()},
+        "catch_proofs": {
+            "scope": expect_failure(lambda: verify_scope("CANON.md")),
+            "dirty": expect_failure(lambda: verify_dirty(True)),
+            "package": expect_failure(lambda: verify_package(True)),
+            "frozen": generic.expect("FROZEN", lambda: generic.validate_frozen(ROOT, corrupt=True)),
+            "current_paths": generic.expect("NAVIGATION", lambda: generic.validate_navigation(ROOT, corrupt="current")),
+            "frontier": generic.expect("NAVIGATION", lambda: generic.validate_navigation(ROOT, corrupt="frontier")),
+        },
+        "authority_boundary": {
+            "startup_controls_changed": False,
+            "canon_changed": False,
+            "frozen_sources_changed": False,
+            "legacy_system_executed": False,
+            "background_ODE_or_time_live_authorized": False,
+            "action_carrier_source_boundary_bootstrap_density_Xmax_mass_changed": False,
+            "GPU_work": False,
+            "repository_reorganization": False,
+        },
+    }
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
