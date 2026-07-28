@@ -2,26 +2,25 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-**⚠ BRANCH: work is on `grok` (2026-07-27).** If not on it: `git checkout grok`. `main` is stale for this arc.
+**⚠ BRANCH: work is on `grok` (2026-07-28).** If not on it: `git checkout grok`. `main` is stale for this arc.
 **The topmost CURRENT STATE block below is the only current frontier** — read it and stop.
 Stale historical frontier layers live under `archive/LIVE_historical_frontier_through_2026-07-08.md`
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's topmost CURRENT STATE block, that block wins.**
 
-## ============ CURRENT STATE (2026-07-27 — P03-A GLOBAL COFRAME SOURCE-AVAILABILITY AUDIT COMPLETE; P03-B NOT LAUNCHED. ALL 57 FROZEN SOURCES AND 713 NAMED CANDIDATE OCCURRENCES WERE ADJUDICATED. THE REGISTERED UNIVERSE CONTAINS TWO CONDITIONAL COMPLETE S3 METRIC CONTROLS BUT ZERO COMPLETE FOUNDED (G,PHI) FINITE-CELL OBJECTS: BOTH COMPLETE CONTROLS ARE ULTRASTATIC AND LACK FOUNDED OBSERVER-PAIR DEPTH, WHILE WR-L HAS A NONTRIVIAL LOCAL CLOCK BUT NO COMPLETE RECENTERED CELL. THE P03 FREEZE ALSO OMITTED THE TWO DETAILED P02 LEDGERS REQUIRED FOR A LOSSLESS 7,897-STRATUM FAMILY PROJECTION. CROSS-SPLICING OR POST-INSPECTION SOURCE EXPANSION WAS REJECTED. STATUS OPEN_MISSING_GLOBAL_DEFINITION. NO P03-B, GPU, ACTION, SOURCE, CARRIER, DENSITY, BOOTSTRAP EQUATION, BOUNDARY FUNCTIONAL, PHYSICAL TIME EVOLUTION, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-28 — NATIVE GLOBAL COFRAME-DEFINITION AUDIT COMPLETE. THE FOUNDED RECIPROCAL PAIR AND COVARIANT RESPONSE ARCHITECTURE ARE DERIVED, AND A PREEXISTING COMPLETE NONULTRASTATIC R×S3 RECIPROCAL CONFIGURATION FAMILY PROVES THAT CLOCK AND ANGULAR STRUCTURE CAN COEXIST. IT DOES NOT SELECT THE PHYSICAL DEPTH, THE TRANSVERSE/MIXING RESPONSE, OR THE GLOBAL JOIN: THREE INDEPENDENT KINEMATIC SELECTOR GAPS REMAIN. REALIZED EQUATIONS AND ABSOLUTE-SCALE CLOSURE ARE SEPARATE DOWNSTREAM GAPS. P03'S 57-SOURCE RESULT IS RETAINED ONLY INSIDE ITS FREEZE; ITS REPOSITORY-WIDE “ONLY ULTRASTATIC CONTROLS” CLAIM IS SUPERSEDED BECAUSE IT OMITTED THE PREEXISTING NONULTRASTATIC PACKAGE. STATUS OPEN_MULTIPLE_INDEPENDENT_SELECTOR_GAPS; VERIFIED-WITH-CAVEATS. NO JOINT-SELECTOR FOLLOW-ON, P03-B, GPU, ACTION, SOURCE, CARRIER, DENSITY, BOOTSTRAP EQUATION, BOUNDARY FUNCTIONAL, PHYSICAL TIME EVOLUTION, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
 
 **READ NEXT, IN ORDER:**
 
 1. `HANDOFF.md` current marked block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 3. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` top/current overlay.
-4. `udt_global_coframe_compatibility_p03_2026-07-27/AUDIT_REPORT.md`, then its
-   `STATUS_LEDGER.tsv`, `P03A_CENSUS.json`, `P03B_GATE_LEDGER.tsv`, `LAY_REPORT.md`, and
-   `NEXT_STEP.md`.
-5. `udt_full_local_jet_strata_p02_2026-07-27/AUDIT_REPORT.md` and its exact evidence only when the
-   parent local-atlas scope or the omitted projection inputs are load-bearing.
-6. Exact P03 source adjudications, scripts, and verification records only when the active task
-   requires them.
+4. `udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `MINIMAL_SELECTOR_SET.tsv`, `COUNTERFAMILY_ATLAS.tsv`,
+   `P03_CORRECTION_LAYER.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+5. `udt_global_coframe_compatibility_p03_2026-07-27/AUDIT_REPORT.md` only for its now-scoped frozen
+   57-source result; apply the July 28 correction layer above.
+6. P02/P01 and other exact source evidence only when the active task makes it load-bearing.
 
 **CURRENT HONEST CLAIM:**
 
@@ -31,41 +30,46 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 - P01/P02 remain `OBSERVED` bounded local off-shell atlases: all 12,594 registered repeated-tidal
   targets construct after releasing allowed Hessians, so local existence is compatible but
   nonselecting;
-- P03-A is `VERIFIED-WITH-CAVEATS` for its exact registered source universe: 57 frozen sources and
-  713 named source-row occurrences are individually adjudicated;
-- twelve completion classes are registered, but eleven have no actual complete metric
-  representative and the twelfth contains only two complete `S3` controls;
-- the round and squashed `S3` controls are complete only with their explicit conditional/on- or
-  off-shell stamps; both are ultrastatic and neither supplies founded observer-pair depth;
-- WR-L supplies a nontrivial local clock profile but not a complete all-observer finite cell;
-  combining it with an `S3` control would be an invented cross-branch splice;
-- therefore zero registered objects pass the P03-B join gate and the exact result is
-  `OPEN_MISSING_GLOBAL_DEFINITION`, not a universal no-go;
-- the frozen P03 inputs cannot generate the preregistered lossless 7,897-stratum projection because
-  `STRATUM_LEDGER.tsv` and `P02B_CANDIDATE_LEDGER.tsv` were not included; no post-inspection source
-  expansion was made;
+- the July 28 audit freezes 99 sources and maps 17 active premise rows against 12 construction
+  obligations; exact independent algebra and 27/27 catches pass;
+- the ordered physical-pair, metric-self-adjoint, screen-rotation-covariant lift is the explicit
+  family `X_lambda=diag(-1,1,lambda,lambda)`; covariance and composition do not choose `lambda`;
+- a complete globally regular nonultrastatic reciprocal configuration family exists on the stated
+  `R x S3` domain for every smooth finite `phi` and real `lambda`, subject to its explicit
+  spacelike-slice inequality; it is an off-shell existence class, not a selected UDT universe;
+- physical observer/event/path assignment and metric-native signed depth, transverse/mixing
+  response, and actual global completion/descent/interfaces are three independent `OPEN` joints;
+- native realized equations or whole-solution closure and absolute scale placement are separate
+  downstream gaps; `c_E` is explicitly placed, while `c_E` and `G_obs` alone select neither
+  dimensionless shape nor an absolute length;
+- P03's frozen 57-source counts remain exact internally, but its repository-wide “only ultrastatic
+  complete controls” statement is superseded: it omitted the preexisting complete nonultrastatic
+  package even though that package's introducing commit is an ancestor of the P03 base;
+- P03's detailed-P02-ledger procedural defect and its P03-B stop remain valid; no frozen P03 bytes
+  were changed and no projection was launched;
 - strong local CSN remains inactive; `c_E` and `G_obs` remain observational anchors;
 - carrier, action, source, boundary, bootstrap feedback, density closure, `X_max`, mass, physical
   scale, and time-live persistence retain their prior exact `OPEN`/`CONDITIONAL`/`WORKING` stamps.
 
-**NEXT SCIENTIFIC GATE — NOT AUTOMATICALLY AUTHORIZED:** a new, separately preregistered
-global-definition audit asking whether the current complete metric, founded reciprocal subgroup,
-frame reciprocity, finite-cell structure, and observational anchors already supply a construction
-law for one complete joined `(g,phi)` coframe. If it intends to project P02 motifs, its source freeze
-must include the exact detailed P02 ledgers before inspection. If no native construction law is
-present, return the smallest missing selector rather than add an ansatz.
+**NEXT SCIENTIFIC GATE — NOT AUTOMATICALLY AUTHORIZED:** a separately preregistered CPU-only
+joint-selector provenance audit asking whether the two founding postulates and the complete metric
+already contain one typed whole-solution operation that jointly fixes physical signed depth,
+transverse/mixing response, and global descent. Test any candidate against the exact `lambda`,
+depth-cocycle, twist-on/off, and completion counterfamilies. If no operation is sourced, retain the
+three-joint decomposition; do not invent one.
 
-**EVIDENCE:** P03 independently replays all 57 source hashes, 713 named-object row hashes, 14
-global gate rows, both conditional complete controls, both missing projection inputs, and all 20
-fail-closed catches. Its package manifest covers 23 files. Tests remain 70 passed/1 xfailed; six
-frozen packages (127 entries/133 paths), 1,114 current paths, 101 frontier targets, and the original
-dirty checkout's 55 metadata-only paths remain unchanged. Grade `VERIFIED-WITH-CAVEATS` because
-verification is independently implemented but same-session, not a fresh external-model review.
+**EVIDENCE:** the July 28 package replays all 99 frozen source hashes, the full 204-row
+premise/obligation matrix, seven countercontrols, exact full-frame and complete-coframe algebra, the
+P03 ancestry/omission proof, and all 27 fail-closed catches. Package manifest covers 35 files. Tests
+remain 70 passed/1 xfailed; six frozen packages (127 entries/133 paths), 1,114 current paths, 101
+frontier targets, and the original dirty checkout's 55 metadata-only paths remain unchanged. Grade
+`VERIFIED-WITH-CAVEATS` because verification is independently implemented but same-session, not a
+fresh external-model review.
 
-**AUTHORITY BOUNDARY:** P03-A is complete. P03-B is blocked by its preregistered gate and is not
-authorized. Do not choose or splice a completion, expand the frozen source universe retroactively,
-import a field equation, adopt a carrier/action, insert density, run matter/time-live physics,
-alter `CANON.md`, resume repository reorganization, or launch GPU work.
+**AUTHORITY BOUNDARY:** the global-definition audit is complete. Its next-step lead is not
+authorized. P03-B remains stopped. Do not choose `lambda`, depth, profile, observer semantics,
+completion, or equations; import a field equation; adopt a carrier/action; insert density; run
+matter/time-live physics; alter `CANON.md`; resume repository reorganization; or launch GPU work.
 
 <!-- STARTUP_CURRENT_END -->
 

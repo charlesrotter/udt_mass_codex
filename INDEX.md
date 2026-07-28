@@ -1,6 +1,6 @@
-# INDEX — Repo Map (2026-07-27 lean)
+# INDEX — Repo Map (2026-07-28 lean)
 
-**⚠ BRANCH: `grok` (2026-07-27)** — `main` is stale for this arc; `git checkout grok`.
+**⚠ BRANCH: `grok` (2026-07-28)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
 **➤ CURRENT FOUNDATIONAL PREMISE PRECEDENCE:**
@@ -17,21 +17,27 @@ bootstrap, Maxwell-like, `X_max`, Hopfion, source, boundary, and mass scopes. Co
 older files do not override the registry's cited controlling evidence.
 
 **➤ CURRENT SCIENTIFIC FRONTIER:**
-`udt_global_coframe_compatibility_p03_2026-07-27/AUDIT_REPORT.md`, then its `STATUS_LEDGER.tsv`,
-`P03A_CENSUS.json`, `P03B_GATE_LEDGER.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+`udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `MINIMAL_SELECTOR_SET.tsv`, `COUNTERFAMILY_ATLAS.tsv`,
+`P03_CORRECTION_LAYER.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
 
-P03-A audits all 57 frozen sources and 713 named evidence-row occurrences. Of twelve registered
-completion classes, only `FC04` has complete metric controls: conditional round `S3` and complete
-off-shell squashed `S3`. Both are ultrastatic and lack founded observer-pair depth. WR-L has the
-nontrivial local clock but no complete recentered cell, and cross-splicing those sources is
-forbidden. Zero candidates pass P03-B.
+The 99-source audit derives the founded reciprocal pair and covariant response architecture. The
+sharp ordered-pair/self-adjoint/screen-covariant lift is the one-modulus family
+`X_lambda=diag(-1,1,lambda,lambda)`. A preexisting complete nonultrastatic reciprocal `R x S3`
+family proves that nontrivial clock and angular geometry can coexist, but all smooth admissible
+`phi` and real `lambda` remain off-shell configurations rather than a selected universe.
 
-The P03 freeze also omitted the two detailed P02 ledgers needed for a lossless 7,897-stratum family
-projection, so no post-inspection projection was manufactured. Status is
-`OPEN_MISSING_GLOBAL_DEFINITION`; P03-B was not launched. A new global-definition audit would need
-separate authorization and preregistration. No branch splice, action, source, carrier, density,
-bootstrap equation, boundary functional, physical time evolution, canonization, reorganization, or
-GPU work is authorized.
+Three independent kinematic joints remain open: physical comparison and signed depth;
+transverse/mixing response; and global completion/descent/interfaces. Native realized equations and
+absolute scale are distinct downstream gaps. P03 remains exact inside its frozen 57-source scope,
+but its repository-wide “only ultrastatic controls” claim is superseded because it omitted that
+preexisting family. Its detailed-P02-ledger defect and P03-B stop remain valid.
+
+Status is `OPEN_MULTIPLE_INDEPENDENT_SELECTOR_GAPS`, verified with same-session caveats by exact
+independent algebra and 27/27 catches. A future joint-selector provenance audit would require new
+authorization and preregistration. No P03-B, action, source, carrier, density/bootstrap solve,
+boundary functional, physical time evolution, canonization, reorganization, or GPU work is
+authorized.
 
 **➤ PARENT JULY 24 BOOTSTRAP FRONTIER:**
 `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`. Its exact conditional

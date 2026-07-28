@@ -7,7 +7,7 @@ order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
 [`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md) →
 the [foundational semantic correction](udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md) →
-the [current P03 global source gate](udt_global_coframe_compatibility_p03_2026-07-27/AUDIT_REPORT.md) →
+the [current native global coframe-definition audit](udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md) →
 exact evidence named by those files only when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
 `MEMORY.md` top/current pointer. `AGENTS.md`
@@ -21,17 +21,20 @@ count, not the native UDT field or mode count. Strong local CSN is challenged/no
 inactive without explicit owner reauthorization; `c_E` and `G_obs` remain observational anchors.
 If the registry, `LIVE.md`, and a cited source disagree, stop.
 
-The latest repository result is the [P03 global coframe source-availability
-audit](udt_global_coframe_compatibility_p03_2026-07-27/AUDIT_REPORT.md). It adjudicates 57 frozen
-sources and 713 named evidence occurrences. The only two complete metric controls are ultrastatic
-`S3` geometries without founded observer-pair depth; WR-L has a nontrivial local clock without a
-complete recentered cell. Cross-splicing them would invent the missing construction.
+The latest repository result is the [native global coframe-definition
+audit](udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md). It freezes 99 sources
+and proves both a positive existence result and a sharp limitation. The founded reciprocal pair and
+covariant response architecture are derived, and a complete nonultrastatic reciprocal `R x S3`
+configuration family shows that clock and angular structure can coexist. But the physical signed
+depth, transverse/mixing response, and global join remain three independent open kinematic joints;
+realized equations and absolute scale are separate downstream gaps.
 
-The P03 freeze also omitted the detailed P02 ledgers needed for a lossless 7,897-stratum projection.
-P03 therefore stops at `OPEN_MISSING_GLOBAL_DEFINITION`; P03-B was not launched. Any new
-global-definition audit requires separate authorization and preregistration. No action, source,
-carrier, density, bootstrap equation, boundary functional, physical time evolution, canonization,
-reorganization, or GPU work is authorized by this checkpoint.
+The audit also supplies an append-only correction to the frozen P03 result. P03's internal
+57-source counts remain exact, but its repository-wide “only ultrastatic controls” statement is
+superseded because its freeze omitted the preexisting nonultrastatic family. P03-B remains stopped.
+The next joint-selector provenance question requires separate authorization and preregistration. No
+action, source, carrier, density/bootstrap equation, boundary functional, physical time evolution,
+canonization, reorganization, or GPU work is authorized by this checkpoint.
 
 The parent
 [bootstrap-aware clock/angular closure audit](udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md)

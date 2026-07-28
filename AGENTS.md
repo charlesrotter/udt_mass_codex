@@ -33,14 +33,16 @@ after the user's actual task makes them load-bearing.
    source-precedence index for high-risk foundational terms. It is not canon and cannot overrule
    `LIVE.md`; any disagreement between it, `LIVE.md`, and its cited source is a mandatory stop.
 4. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay.
-5. `udt_global_coframe_compatibility_p03_2026-07-27/AUDIT_REPORT.md`, then its
-   `STATUS_LEDGER.tsv`, `P03A_CENSUS.json`, `P03B_GATE_LEDGER.tsv`, `LAY_REPORT.md`, and
-   `NEXT_STEP.md`. This is the current bounded result: the registered universe contains two
-   conditional complete metric controls but zero complete founded `(g,phi)` finite-cell objects;
-   P03-B was not launched. The frozen P03 inputs also cannot generate the lossless P02 projection.
-6. `udt_full_local_jet_strata_p02_2026-07-27/AUDIT_REPORT.md` only when its parent local atlas or
-   omitted detailed ledgers are load-bearing; use the P01 telescope only when the generic
-   `(t,x)`/transport scope is then required.
+5. `udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `MINIMAL_SELECTOR_SET.tsv`, `COUNTERFAMILY_ATLAS.tsv`,
+   `P03_CORRECTION_LAYER.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`. This is the current bounded
+   result: founded reciprocal architecture and a complete nonultrastatic configuration existence
+   class are derived, while three independent kinematic selector gaps remain. P03-B was not
+   launched.
+6. `udt_global_coframe_compatibility_p03_2026-07-27/AUDIT_REPORT.md` only when its frozen scoped
+   result is load-bearing; apply the July 28 correction layer. Read P02 only when its parent local
+   atlas or detailed ledgers are load-bearing; use P01 only when the generic `(t,x)`/transport scope
+   is then required.
 7. `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `BOOTSTRAP_ROUTE_LEDGER.tsv`, `EQUATION_FAMILY_GATE_MATRIX.tsv`,
    `COMPLETION_BOOTSTRAP_ATLAS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and
@@ -91,14 +93,16 @@ Then give Charles a short orientation report: actual HEAD and dirt, the current 
 premise stamps, the open gate, and the proposed bounded next action. Do not mutate files or launch a
 long solve until that orientation is complete.
 
-The bootstrap/stable-matter interpretation remains a working hypothesis. P03-A audited all 57
-frozen sources and 713 named candidate occurrences. The only complete metric controls are
-ultrastatic round/squashed `S3` geometries without founded observer-pair depth; WR-L has the
-nontrivial local clock but no complete recentered finite cell. Cross-splicing these rows is
-forbidden. The P03 freeze also omitted the detailed P02 ledgers required for a lossless 7,897-row
-projection. The exact status is `OPEN_MISSING_GLOBAL_DEFINITION`; P03-B was not launched and is not
-authorized. Do not turn this stop into an imported completion, action ansatz, density sweep,
-matter/time-live solve, retroactive source expansion, or GPU run.
+The bootstrap/stable-matter interpretation remains a working hypothesis. The 99-source native
+global coframe-definition audit derives the founded reciprocal pair and covariant response
+architecture and recovers a complete nonultrastatic reciprocal configuration family already on
+disk. That family proves clock/angular coexistence but remains off shell and contains arbitrary
+admissible `phi` and real `lambda`. Physical comparison/signed depth, transverse/mixing response,
+and global completion/descent/interfaces are three independent open kinematic joints; realized
+equations and scale closure remain downstream. P03's frozen counts remain scoped evidence, but its
+repository-wide ultrastatic-only statement is superseded by the omitted preexisting family. P03-B
+was not launched and is not authorized. Do not turn this result into a chosen `lambda`, profile,
+completion, imported action, density sweep, matter/time-live solve, or GPU run.
 
 The prior observer-pair chain derives the abstract ordered reciprocal operator with founding-premise
 stamps and narrows its global input to an observer-indexed bilocal depth type, conditional on an open

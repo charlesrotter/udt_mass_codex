@@ -53,7 +53,7 @@ def main() -> None:
 
     entries = []
     for path in sorted(HERE.iterdir(), key=lambda item: item.name):
-        if path.is_file() and path.name != "SHA256SUMS.txt":
+        if path.is_file() and path.name not in {"SHA256SUMS.txt", "REPOSITORY_GATES.json"}:
             entries.append(f"{sha256(path)}  {path.name}")
     (HERE / "SHA256SUMS.txt").write_text("\n".join(entries) + "\n")
     print(json.dumps({"status": "PASS", "hashed_files": len(entries)}, sort_keys=True))

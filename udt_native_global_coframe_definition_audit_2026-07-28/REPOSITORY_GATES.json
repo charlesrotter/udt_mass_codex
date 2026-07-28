@@ -1,0 +1,134 @@
+{
+  "audit": {
+    "catch_proofs": 27,
+    "counterfamilies": 7,
+    "kinematic_selector_gaps": 3,
+    "principle_obligation_rows": 204,
+    "source_count": 99,
+    "status": "PASS_VERIFIED_WITH_CAVEATS_SAME_SESSION",
+    "stdout_sha256": "9012462dfeaf7ee11fe44a9aa225e02cd670c2ee3172f9f92e9b2abffe79d8ab"
+  },
+  "authority_boundary": {
+    "GPU_launched": false,
+    "P03B_launched": false,
+    "action_source_carrier_density_bootstrap_boundary_selected": false,
+    "canon_changed": false,
+    "joint_selector_audit_launched": false,
+    "physical_global_branch_selected": false,
+    "repository_reorganization_performed": false
+  },
+  "current_premises": {
+    "result": "PASS",
+    "stdout_sha256": "3a5bf9b325ca86ce5cde8b93b9c86e60bfa5a730bff1748773cb5f45286e1329"
+  },
+  "dirty_checkout": {
+    "contents_read": false,
+    "metadata_sha256": "345d297e0ad849cd38f1d817c915922de653ca2d2befcf923af6f9d097b483e4",
+    "paths": 55,
+    "result": "PASS"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0
+  },
+  "package_manifest": {
+    "entries": 35,
+    "result": "PASS",
+    "sha256": "8a783b881248ff039c42b5b204b2fe5ae6109eb8f6a6b62c849291626e8e18e5"
+  },
+  "schema": "udt-native-global-coframe-definition-repository-gates-1.0",
+  "scope_base": "9322060",
+  "scope_paths": [
+    "AGENTS.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "README.md",
+    "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
+    "udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md",
+    "udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_RESULT.json",
+    "udt_native_global_coframe_definition_audit_2026-07-28/CATCH_PROOF_RESULTS.tsv",
+    "udt_native_global_coframe_definition_audit_2026-07-28/COMPLETENESS_MAP.md",
+    "udt_native_global_coframe_definition_audit_2026-07-28/COUNTERFAMILY_ATLAS.tsv",
+    "udt_native_global_coframe_definition_audit_2026-07-28/DERIVATION_RESULT.json",
+    "udt_native_global_coframe_definition_audit_2026-07-28/DERIVATION_STDERR.txt",
+    "udt_native_global_coframe_definition_audit_2026-07-28/DERIVATION_STDOUT.txt",
+    "udt_native_global_coframe_definition_audit_2026-07-28/EXACT_DERIVATION.md",
+    "udt_native_global_coframe_definition_audit_2026-07-28/LAY_REPORT.md",
+    "udt_native_global_coframe_definition_audit_2026-07-28/MINIMAL_SELECTOR_SET.tsv",
+    "udt_native_global_coframe_definition_audit_2026-07-28/NEXT_STEP.md",
+    "udt_native_global_coframe_definition_audit_2026-07-28/P03_CORRECTION_LAYER.md",
+    "udt_native_global_coframe_definition_audit_2026-07-28/P03_SCOPE_CORRECTION.tsv",
+    "udt_native_global_coframe_definition_audit_2026-07-28/PRINCIPLE_CAPABILITY_MATRIX.tsv",
+    "udt_native_global_coframe_definition_audit_2026-07-28/README.md",
+    "udt_native_global_coframe_definition_audit_2026-07-28/REPOSITORY_GATES.json",
+    "udt_native_global_coframe_definition_audit_2026-07-28/RUN_ENVIRONMENT.json",
+    "udt_native_global_coframe_definition_audit_2026-07-28/RUN_LOG.md",
+    "udt_native_global_coframe_definition_audit_2026-07-28/SHA256SUMS.txt",
+    "udt_native_global_coframe_definition_audit_2026-07-28/SOURCE_ADJUDICATION.tsv",
+    "udt_native_global_coframe_definition_audit_2026-07-28/STATUS_LEDGER.tsv",
+    "udt_native_global_coframe_definition_audit_2026-07-28/VERIFICATION_RESULT.json",
+    "udt_native_global_coframe_definition_audit_2026-07-28/VERIFICATION_STDERR.txt",
+    "udt_native_global_coframe_definition_audit_2026-07-28/VERIFICATION_STDOUT.txt",
+    "udt_native_global_coframe_definition_audit_2026-07-28/derive_global_definition.py",
+    "udt_native_global_coframe_definition_audit_2026-07-28/finalize_package.py",
+    "udt_native_global_coframe_definition_audit_2026-07-28/requirements.txt",
+    "udt_native_global_coframe_definition_audit_2026-07-28/verify_global_definition.py",
+    "udt_native_global_coframe_definition_audit_2026-07-28/verify_repository_gates.py"
+  ],
+  "status": "PASS",
+  "tests": {
+    "failed": 0,
+    "passed": 70,
+    "result": "PASS",
+    "stdout_sha256": "04e4b9a37d6eacfa08393f10b908f3a4d9415faa061cf0f228a1987f1107a0ef",
+    "xfailed": 1
+  },
+  "verified_parent_head": "d977684b91c9a9b5a5a583c2a4537c50360c1260"
+}

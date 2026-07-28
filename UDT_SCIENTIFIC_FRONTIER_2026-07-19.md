@@ -1,10 +1,58 @@
 # UDT Scientific Frontier — Co-Presence, Bootstrap, and Angular–Toric Hopf Closure
 
-Date: 2026-07-27
+Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
-## July 27 global coframe source-availability overlay — current authority
+## July 28 native global coframe-definition overlay — current authority
+
+Read `udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `MINIMAL_SELECTOR_SET.tsv`, `COUNTERFAMILY_ATLAS.tsv`,
+`P03_CORRECTION_LAYER.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+
+The audit freezes 99 sources and classifies 17 active premise rows against twelve separate
+construction obligations. The founded clock/ruler generator and covariant response architecture
+remain derived. In the ordered-pair, metric-self-adjoint, screen-rotation-covariant class, the
+sharp full-frame lift is
+
+`X_lambda = diag(-1,+1,lambda,lambda)`.
+
+Exactly one real pointwise modulus survives; observer covariance and one-parameter composition do
+not select it.
+
+A source omitted from P03 already supplied a complete globally regular nonultrastatic reciprocal
+configuration family on `R x S3`. For all smooth finite `phi`, all real `lambda`, positive `R`, and
+the explicit spacelike-slice inequality, its coframe and metric determinants stay nonzero with
+Lorentzian signature. Its stationary norm realizes the founded depth once the stationary line is
+supplied, and nonzero Killing twist aligns with the reciprocal ruler. The configuration remains off
+shell; full stationary-line uniqueness, profile, `lambda`, completion selection, and physical
+observer/path semantics are not derived.
+
+Three independent kinematic selector gaps remain:
+
+1. physical comparison base and metric-native signed depth;
+2. finite full-frame lift and transverse/mixing response; and
+3. global completion, descent, and causal-interface law.
+
+Native realized equations or equivalent whole-solution closure are a separate downstream gap.
+Absolute-scale closure is also separate: `c_E` is placed as the observed local clock/ruler anchor,
+while `c_E` and `G_obs` alone do not select dimensionless response data or form an absolute length.
+One future native law could close several gaps together; none currently registered does.
+
+P03's 57-source/713-occurrence result remains exact inside its frozen universe. Its repository-wide
+claim that only ultrastatic complete controls were registered is superseded because it omitted the
+preexisting nonultrastatic audit introduced at `cacfaa1`, an ancestor of the P03 base. P03's
+detailed-P02-ledger procedural stop and its prohibition on P03-B remain valid. Frozen P03 evidence
+is unchanged.
+
+Status: `OPEN_MULTIPLE_INDEPENDENT_SELECTOR_GAPS`; `VERIFIED-WITH-CAVEATS` by independent
+same-session algebra and 27/27 catches. The next conceptual lead is a separately preregistered
+joint-selector provenance audit of whether whole-solution observer-loop consistency supplies all
+three missing operations. It is not authorized automatically. No P03-B, GPU, density/bootstrap
+sweep, action, source, carrier, boundary functional, time-live solve, canonization, or repository
+reorganization is authorized.
+
+## July 27 global coframe source-availability overlay — prior scoped authority
 
 Read `udt_global_coframe_compatibility_p03_2026-07-27/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `P03A_CENSUS.json`, `P03B_GATE_LEDGER.tsv`, `LAY_REPORT.md`, and

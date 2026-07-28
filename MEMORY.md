@@ -4,15 +4,16 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-07-27)
+## TOP — CURRENT POINTER (2026-07-28)
 
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block,
 then the marked current block in `HANDOFF.md`, then `CURRENT_SCIENTIFIC_PREMISES.md` and
 `CURRENT_SCIENTIFIC_PREMISES.tsv`, then the top/current overlay in
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`udt_global_coframe_compatibility_p03_2026-07-27/AUDIT_REPORT.md`
-and its status/census/gate/lay/next-step records. Read the parent P02/P01, bootstrap, intrinsic-solder,
-and observer-pair packages only when their exact premises become load-bearing.
+`udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md`
+and its status/selector/counterfamily/P03-correction/lay/next-step records. Read P03, P02/P01,
+bootstrap, intrinsic-solder, and observer-pair packages only when their exact premises become
+load-bearing.
 Expand only to the exact cited evidence made load-bearing by the active task.
 
 Foundational correction: founded `phi` is the derived additive logarithmic depth of the reciprocal
@@ -23,17 +24,18 @@ angular/mixing extension and variation domain remain open. Strong local CSN is
 See the DOF package's `CORRECTION_LAYER.md`. If a lower-priority result disagrees with the current
 premise registry or its cited source, stop.
 
-Current honest status: P03-A audits 57 frozen sources and 713 named occurrences. Only two complete
-metric controls exist, both ultrastatic `S3` geometries without founded observer-pair depth. WR-L's
-nontrivial clock remains local and incomplete; it may not be spliced into those controls. The P03
-freeze also lacks the two detailed P02 ledgers needed for a lossless 7,897-stratum projection.
-Complete joined `(g,phi)` realization, equations, action, source, carrier, boundary, bootstrap
-feedback, density closure, mass, and time-live persistence remain open.
+Current honest status: the 99-source audit derives the reciprocal pair and covariant response
+architecture. The sharp registered full-frame lift retains one real `lambda`. A complete
+nonultrastatic reciprocal `R x S3` family proves clock/angular coexistence but is off shell and
+nonselecting. Physical comparison/signed depth, transverse/mixing response, and global
+completion/descent/interfaces are three independent open kinematic joints. Realized equations and
+absolute scale are separate downstream gaps.
 
-P03-A is complete with `OPEN_MISSING_GLOBAL_DEFINITION`; P03-B was not launched and is not
-authorized. A new global-definition audit requires separate preregistration and authorization. No
-imported completion, action, density, matter/time-live solve, canonization, artifact move,
-repository reorganization, or GPU work is authorized.
+P03 is retained only inside its frozen source scope; its repository-wide ultrastatic-only statement
+is superseded by the preexisting family it omitted. P03-B remains stopped. Overall status is
+`OPEN_MULTIPLE_INDEPENDENT_SELECTOR_GAPS`. A joint-selector provenance audit requires separate
+authorization. No imported completion, action, density, matter/time-live solve, canonization,
+artifact move, repository reorganization, or GPU work is authorized.
 
 ## DURABLE PRIOR MACRO FRONTIER (2026-07-09 simple metric + WR-L canon)
 

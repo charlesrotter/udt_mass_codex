@@ -5,43 +5,46 @@
 > **READ `LIVE.md` FIRST** — only guaranteed-current frontier + next action.
 > If this file disagrees with LIVE.md, **LIVE.md wins.**
 >
-> **⚠ BRANCH: work is on `grok` (2026-07-27).** If not on it: `git checkout grok`. `main` is stale for this arc.
+> **⚠ BRANCH: work is on `grok` (2026-07-28).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-27 — P03-A complete; P03-B stopped)
+## CURRENT (2026-07-28 — global coframe-definition audit complete)
 
 After `LIVE.md`, read `CURRENT_SCIENTIFIC_PREMISES.md` and its TSV, then the top overlay in
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`udt_global_coframe_compatibility_p03_2026-07-27/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
-`P03A_CENSUS.json`, `P03B_GATE_LEDGER.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+`udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
+`MINIMAL_SELECTOR_SET.tsv`, `COUNTERFAMILY_ATLAS.tsv`, `P03_CORRECTION_LAYER.md`, `LAY_REPORT.md`,
+and `NEXT_STEP.md`.
 
 Current ruling:
 
 - P01/P02 remain bounded local off-shell evidence: releasing all allowed Hessians constructs all
   12,594 repeated-tidal targets, so local curvature existence is compatible but nonselecting;
-- P03-A audits all 57 frozen sources and 713 named candidate/cross/obligation occurrences;
-- twelve global completion classes remain registered, but only `FC04` has concrete complete metric
-  controls: conditional round `S3` and complete off-shell squashed `S3`;
-- both controls are ultrastatic and lack founded observer-pair depth; WR-L has a nontrivial local
-  clock but no complete recentered finite cell;
-- cross-splicing those rows would invent the required global object, so zero candidates pass P03-B;
-- the P03 freeze also omits the detailed P02 `STRATUM_LEDGER.tsv` and
-  `P02B_CANDIDATE_LEDGER.tsv`, preventing a lossless 7,897-stratum projection without retroactive
-  source expansion;
-- the exact scoped status is `OPEN_MISSING_GLOBAL_DEFINITION`, not a universal geometric no-go.
+- the 99-source audit derives the founded reciprocal pair and covariant response architecture;
+- the sharp registered pointwise lift is the one-modulus family
+  `X_lambda=diag(-1,1,lambda,lambda)`; no current principle chooses `lambda`;
+- a preexisting complete globally regular nonultrastatic reciprocal `R x S3` configuration family
+  proves the clock and angular sectors can coexist, for every smooth admissible `phi` and real
+  `lambda`; it is off shell and not a selected universe;
+- three independent kinematic joints remain open: physical comparison/signed depth,
+  transverse/mixing response, and global completion/descent/interfaces;
+- realized equations and absolute-scale closure remain separate downstream gaps;
+- P03 remains exact only inside its 57-source freeze. Its repository-wide “only ultrastatic
+  controls” statement is superseded because it omitted the preexisting nonultrastatic package;
+  its detailed-P02-ledger defect and P03-B stop remain valid.
 
-P03-A is complete. P03-B was not launched and is not authorized by the failed gate. The next
-defensible question would require a separate preregistration: does current UDT structure already
-contain a construction law for one complete joined `(g,phi)` coframe? If P02 motif projection is
-in scope, freeze its two detailed ledgers before inspection. If no construction law exists, name
-the smallest missing selector instead of guessing a profile or completion.
+The audit is complete with `OPEN_MULTIPLE_INDEPENDENT_SELECTOR_GAPS`. The next defensible question
+would require separate authorization and preregistration: does the founding metric contain one
+whole-solution relational operation that closes all three kinematic joints together? Existing
+composition and holonomy results are controls, not that law.
 
 No P03-B, action, source, carrier, density insertion, bootstrap equation, boundary functional,
 physical time evolution, canonization, repository reorganization, or GPU work is authorized.
 
-Evidence: P03 replays 57 source hashes, 713 occurrence-row hashes, 14 global gate rows, and 20/20
-catch-proofs. The package manifest covers 23 files. Tests pass 70/1 xfailed; all six frozen packages,
-current navigation, and the preserved 55-path dirty checkout remain unchanged. Grade
-`VERIFIED-WITH-CAVEATS`; verification is separate-code but same-session.
+Evidence: 99 source hashes, 204 premise/obligation rows, seven countercontrols, exact symbolic
+coframe algebra, P03 ancestry/omission proof, and 27/27 catches replay. The package manifest covers
+35 files. Tests pass 70/1 xfailed; all six frozen packages, current navigation, and the preserved
+55-path dirty checkout remain unchanged. Grade `VERIFIED-WITH-CAVEATS`; verification is
+separate-code but same-session.
 
 <!-- STARTUP_CURRENT_END -->
 
