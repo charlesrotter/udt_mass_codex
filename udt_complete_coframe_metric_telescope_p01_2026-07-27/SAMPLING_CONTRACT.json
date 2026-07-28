@@ -1,0 +1,36 @@
+{
+  "schema": "udt-complete-coframe-metric-telescope-p01-sampling-1.0",
+  "basis": [
+    "1",
+    "x",
+    "(3*x^2-1)/2",
+    "sin(pi*x)",
+    "sin(pi*t)",
+    "cos(pi*t)",
+    "sin(pi*t)*cos(pi*x)",
+    "cos(2*pi*t)*sin(pi*x)"
+  ],
+  "batch_size": 64,
+  "coefficient_dimension": 64,
+  "configurations_per_shell": 1024,
+  "device": "cuda:0",
+  "dtype": "float64",
+  "evaluation_grid": {
+    "t_count": 17,
+    "t_max": 1.0,
+    "t_min": -1.0,
+    "x_count": 33,
+    "x_max": 1.0,
+    "x_min": -1.0
+  },
+  "estimated_peak_gib": 6.0,
+  "gpu": "Tesla V100-PCIE-32GB",
+  "hard_timeout_minutes": 30,
+  "normalization": "shell/sqrt(8)",
+  "rk4_steps_per_side": 64,
+  "seed": 20260727,
+  "shells": [0.03, 0.1, 0.3, 1.0, 2.5],
+  "sobol_scramble": true,
+  "total_production_configurations": 5120,
+  "transport_loop": [[-0.5, -0.5], [-0.5, 0.5], [0.5, 0.5], [0.5, -0.5], [-0.5, -0.5]]
+}

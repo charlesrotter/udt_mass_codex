@@ -1,0 +1,21 @@
+catch_id	false_promotion_or_numerical_bug	must_be_rejected_because
+F01	call_sampled_configuration_a_solution	no background equation is imposed
+F02	call_t_coordinate_physical_evolution	time dependence is off-shell configuration dependence
+F03	freeze_any_of_eight_amplitudes	P01 asks for the complete bounded chart
+F04	count_phi_as_an_extra_native_scalar	phi is the founded pair depth
+F05	call_assigned_pair_screen_metric_selected	this atlas supplies the triangular chart reduction
+F06	activate_strong_local_CSN	current premise is inactive
+F07	insert_EH_Bach_or_other_curvature_equation	curvature is evaluated not constrained
+F08	insert_carrier_source_or_density	no such current native response is selected
+F09	filter_flat_or_trivial_holonomy_samples	atlas characterizes rather than targets nontriviality
+F10	filter_singular_or_unresolved_samples	they must remain labeled in the census
+F11	interpret_Sobol_density_as_physical_measure	sequence is a numerical coverage control only
+F12	claim_function_space_completeness	bounded eight-basis family is finite-dimensional
+F13	accept_wrong_metric_determinant	coframe gives exact det(g)=-exp(2sigma)
+F14	accept_flat_control_curvature	constant coframe must be flat
+F15	accept_non_Lorentz_preserving_loop_transport	Levi-Civita transport must preserve the base metric within error
+F16	accept_reverse_loop_not_inverting_holonomy	path reversal must give inverse transport within convergence error
+F17	retune_shell_or_basis_after_results	preregistered bounded universe is frozen
+F18	launch_multiple_GPU_processes	one-process GPU rule is binding
+F19	overwrite_shell_checkpoint	grid-tagged evidence must remain immutable
+F20	promote_correlations_to_physical_selector	P01 has no realized-distribution or dynamics measure

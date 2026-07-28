@@ -1,0 +1,16 @@
+premise_id	object	provenance_tag	status	use	open_or_excluded_scope
+P01	founded_phi_pair	pinned-by-THEORY	DERIVED	clock/ruler weights exp(-phi),exp(+phi)	profile and physical assignment
+P02	complete_eight_amplitude_chart	free-and-explored	CHOSE_BOUNDED_CONFIGURATION_ARENA	all amplitudes live	selected extension or native field count
+P03	c_E	pinned-by-THEORY	OBSERVED_ANCHOR	x0=c_E t coordinate calibration	physical evolution and scale closure
+P04	strong_local_CSN	pinned-by-THEORY	INACTIVE_CHALLENGED_OWNER_POSTULATE	excluded	counterfactual only
+P05	basis_family	pinned-by-HABIT	BOUNDED_NUMERICAL_EXPLORATION_CONTROL	eight smooth basis functions	full functional space
+P06	Sobol_seed_and_shells	pinned-by-HABIT	BOUNDED_NUMERICAL_EXPLORATION_CONTROL	deterministic broad coefficient atlas	physical measure or prior
+P07	torus_coordinate_chart	pinned-by-HABIT	CHOSE_LOCAL_GLOBAL_PRODUCT_CONTROL	complete chart evaluation on finite coordinate square	all topologies and completions
+P08	assigned_pair_screen_split	pinned-by-HABIT	CHART_SUPPLIED_NOT_UNIVERSALLY_INTRINSIC	conditional block diagnostics	metric-selected physical reduction
+P09	coordinate_transport_loop	pinned-by-HABIT	SUPPLIED_QUERY_PATH	holonomy diagnostic	physical path ontology
+P10	metric_connection_curvature	pinned-by-THEORY	DERIVED_EVALUATORS	configuration characterization	field equations
+P11	action_source_carrier	pinned-by-THEORY	OPEN_OR_CONDITIONAL_INACTIVE	excluded	physical dynamics and matter
+P12	bootstrap_density	pinned-by-THEORY	WORKING_ON_SHELL_ONLY	excluded	local feedback equation
+P13	time_dependence	free-and-explored	OFF_SHELL_CONFIGURATION_DEPENDENCE	map mixed jets and geometry	physical temporal history
+P14	GPU_float64	pinned-by-HABIT	NUMERICAL_METHOD	batched evaluation and transport	physics premise
+P15	classification_rules	free-and-explored	CHARACTERIZE_NOT_FILTER	retain every sampled stratum	merit or preferred-universe ranking
