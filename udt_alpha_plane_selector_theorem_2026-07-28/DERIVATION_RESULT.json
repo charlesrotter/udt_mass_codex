@@ -1,0 +1,356 @@
+{
+  "package": "udt_alpha_plane_selector_theorem_2026-07-28",
+  "script": "derive_alpha_plane_selector.py",
+  "date": "2026-07-28",
+  "conventions": "basis (K,W) columns; D = G^-1 X(G) acts left; K eigenvector iff D[1,0] = 0; X-rules X(u)=-2*chi*u, X(f)=df, X(b)=db, X(chi)=dchi (unused), X(alpha)=X(c_E)=X(m)=X(n)=0",
+  "checks": [
+    {
+      "name": "T1_det_GKV",
+      "pass": true,
+      "note": "det G_KV = -c_E**2 exactly (constant; all alpha, all metrics)"
+    },
+    {
+      "name": "T1_K_eigenvector",
+      "pass": true,
+      "note": "D_KV[1,0] = 0: K=(1,0) is an eigenvector of D_KV for symbolic alpha"
+    },
+    {
+      "name": "T1_K_rate",
+      "pass": true,
+      "note": "K-eigenvalue = -2*chi exactly"
+    },
+    {
+      "name": "T1_trace_zero",
+      "pass": true,
+      "note": "tr D_KV = 0 exactly"
+    },
+    {
+      "name": "T1_second_rate",
+      "pass": true,
+      "note": "second eigenvalue = +2*chi (upper-triangular => diagonal entries)"
+    },
+    {
+      "name": "T1_offdiag_parent_D1",
+      "pass": true,
+      "note": "D_KV[0,1] = -4*alpha*chi/c_E: matches parent D1 sec.3 exactly"
+    },
+    {
+      "name": "T2_det_GKY",
+      "pass": true,
+      "note": "det G_KY = -c_E**2*(b*u + f**2) exactly"
+    },
+    {
+      "name": "T2_off_entry_formula",
+      "pass": true,
+      "note": "(D_KY)[1,0] = -alpha*c_E*df*u**2/(b*u+f**2) exactly [convention: row 1 = Y-component of D_KY(K); K eigenvector iff = 0]"
+    },
+    {
+      "name": "T2_off_cleared",
+      "pass": true,
+      "note": "cleared form: (D_KY)[1,0]*(b*u+f**2) + alpha*c_E*df*u**2 = 0"
+    },
+    {
+      "name": "T2_denominator_positive",
+      "pass": true,
+      "note": "b*u + f**2 > 0 on principal orbits (u>0, b>0) -- with c_E != 0 and u > 0 this gives: K eigenvector of D_KY at a point IFF alpha*df = 0 there"
+    },
+    {
+      "name": "T3_XS_formula",
+      "pass": true,
+      "note": "X(b*u+f**2) = db*u - 2*chi*u*b + 2*f*df exactly"
+    },
+    {
+      "name": "T3_trace_is_dlogdet",
+      "pass": true,
+      "note": "tr D_KY = X(b*u+f**2)/(b*u+f**2) = X(log|det G_KY|)"
+    },
+    {
+      "name": "T3_jacobi",
+      "pass": true,
+      "note": "X(det G_KY)/det G_KY = X(S)/S (Jacobi/consistency)"
+    },
+    {
+      "name": "T3_Xdet",
+      "pass": true,
+      "note": "X(det G_KY) = -c_E**2 * X(S): |det G_KY| constant iff X(b*u+f**2)=0"
+    },
+    {
+      "name": "T5a0_diagonal",
+      "pass": true,
+      "note": "alpha=0: D_KY is diagonal, so the K-eigenline leg passes trivially"
+    },
+    {
+      "name": "T5a0_K_rate",
+      "pass": true,
+      "note": "alpha=0: K-eigenvalue = -2*chi always"
+    },
+    {
+      "name": "T5a0_E_identity",
+      "pass": true,
+      "note": "f**2/u + b = (b*u+f**2)/u exactly"
+    },
+    {
+      "name": "T5a0_second_rate_log",
+      "pass": true,
+      "note": "alpha=0: second eigenvalue = X(ln(f**2/u + b))"
+    },
+    {
+      "name": "T5a0_rate_decomposition",
+      "pass": true,
+      "note": "X(ln(f**2/u+b)) = X(ln(b*u+f**2)) + 2*chi exactly"
+    },
+    {
+      "name": "T5a0_founded_iff",
+      "pass": true,
+      "note": "second eigenvalue - 2*chi = X(S)/S: founded rate +2*chi IFF X(b*u+f**2)=0 -- the SAME exceptional condition governs the area leg (T3) and the rate leg at alpha=0 (coincidence noted explicitly)"
+    },
+    {
+      "name": "T5_branch_alpha_nonzero",
+      "pass": true,
+      "note": "alpha != 0: span(K,V) passes C everywhere (T1); span(K,Y) violates leg (ii) at every principal point with df != 0 -- nonempty open set by T4 (Cartan, prose deliverable) -- hence C selects span(K,V) uniquely.  [Implication assembled from T1_*, T2_*; u>0, c_E!=0, S>0]"
+    },
+    {
+      "name": "T5_branch_alpha_zero",
+      "pass": true,
+      "note": "alpha = 0: span(K,Y) passes C iff X(b*u+f**2) == 0 on the connected principal region (legs (i) and (iii) both reduce to it; leg (ii) automatic).  Exceptional stratum = {alpha=0 and b*u+f**2 constant}; there BOTH planes satisfy C and the certificate is silent."
+    },
+    {
+      "name": "W_df_convention",
+      "pass": true,
+      "note": "witness df = -2*sin(2*eta) (X = d/deta)"
+    },
+    {
+      "name": "W_on_stratum",
+      "pass": true,
+      "note": "witness: b*u + f**2 = 1 EXACTLY -- the witness lies on the exceptional stratum (alpha=0, S constant)"
+    },
+    {
+      "name": "W_KV_full_certificate",
+      "pass": true,
+      "note": "witness span(K,V): det = -c_E**2 const, K eigenvector, rates (-2chi, +2chi) -- full certificate PASSES (direct d/deta)"
+    },
+    {
+      "name": "W_KY_full_certificate",
+      "pass": true,
+      "note": "witness span(K,Y): det = -c_E**2*(b*u+f**2) = -c_E**2 const, K eigenvector, rates (-2chi, +2chi) -- full certificate PASSES: both planes satisfy C on the witness (certificate silent, as frozen)"
+    },
+    {
+      "name": "W_formalism_consistency",
+      "pass": true,
+      "note": "general jet-symbol D_KY specialized to the witness equals the direct d/deta computation (internal consistency of the derivation operator)"
+    },
+    {
+      "name": "parent6_identity_general_stratum",
+      "pass": true,
+      "note": "on X(b*u+f**2)=0: det D_KY + 4*chi**2 = alpha**2*u**2*df**2/(b*u+f**2) exactly (general form; reduces to parent sec.6 when b*u+f**2 = 1; for alpha*df != 0 the rates leave the founded pair even where the area stays constant)"
+    },
+    {
+      "name": "parent6_identity_on_witness",
+      "pass": true,
+      "note": "on the parent sec.6 witness profile with SYMBOLIC alpha (where b*u+f**2 = 1): det D_KY + 4*chi**2 = alpha**2*u**2*df**2 exactly, confirming the parent's stated identity verbatim"
+    },
+    {
+      "name": "T6_det_formula",
+      "pass": true,
+      "note": "det G(K, m*V+n*Y) = -c_E**2*((m+n*f)**2 + n**2*b*u) exactly (alpha drops out)"
+    },
+    {
+      "name": "T6_parent4_crosscheck",
+      "pass": true,
+      "note": "matches parent sec.4 det G(T,Z) at T=K (r=s=0, Delta=0)"
+    },
+    {
+      "name": "T6_Xdet_record",
+      "pass": true,
+      "note": "X(det) = -c_E**2*(2*m*n*df + n**2*X(b*u+f**2)).  RECORD ONLY: vanishes iff n = 0 (the registered plane, always) or n != 0 with 2*m*df + n*X(b*u+f**2) = 0 pointwise; alpha and c_E play no role.  On the exceptional stratum (df relevant): with X(S)=0 the condition is m*n*df = 0.  NO claim beyond this record."
+    },
+    {
+      "name": "FD_basis_det",
+      "pass": true,
+      "note": "in-plane basis change (K fixed, W -> sigma*K + lam*W): det scales by the constant lam**2 -- constancy of |det| is invariant"
+    },
+    {
+      "name": "FD_basis_similarity",
+      "pass": true,
+      "note": "D transforms by constant similarity D -> S^-1 D S: eigenvalues invariant, K-eigenline condition invariant (D'[1,0] = D[1,0]/lam)"
+    },
+    {
+      "name": "FD_offentry_scaling",
+      "pass": true,
+      "note": "explicit: D'[1,0] = D[1,0]/lam, zero iff D[1,0] zero"
+    },
+    {
+      "name": "FD_X_rescaling",
+      "pass": true,
+      "note": "X -> c*X rescales D linearly (chi, df, db -> c*(...)): eigenvector conditions and the rate-pair condition (eigenvalues = -+2*chi) are X-normalization covariant"
+    },
+    {
+      "name": "NUMERIC_spot_checks",
+      "pass": true,
+      "note": "7 random admissible jet points (4 with alpha*df != 0: K-eigenline of span(K,Y) numerically broken, T2 formula confirmed; 3 with alpha=0, X(S) != 0: K-eigenline holds but area nonconstant and second rate off the founded value) -- all symbolic verdicts confirmed numerically; residuals < 1e-12, nonzero flags > 1e-6"
+    }
+  ],
+  "numeric_points": [
+    {
+      "point": {
+        "u": "23/25",
+        "b": "263/100",
+        "f": "31/100",
+        "df": "-147/100",
+        "db": "63/50",
+        "chi": "-121/100",
+        "alpha": "99/100",
+        "c_E": "291/100"
+      },
+      "set": "A (alpha!=0, df!=0)",
+      "T1_det_resid": 0.0,
+      "T1_eigvec_resid": 0.0,
+      "T1_rates_resid": 0.0,
+      "T2_formula_resid": 0.0,
+      "T2_K_eigvec_of_DKY_broken": true,
+      "T2_offvalue": 1.4248276134674245,
+      "T3_trace_resid": 0.0,
+      "T3_XdetGKY": -51.6827788992,
+      "T3_area_nonconstant_flag": true,
+      "XS_value": 6.103232,
+      "pass": true
+    },
+    {
+      "point": {
+        "u": "129/50",
+        "b": "53/20",
+        "f": "51/50",
+        "df": "199/100",
+        "db": "-27/100",
+        "chi": "191/100",
+        "alpha": "-143/100",
+        "c_E": "149/100"
+      },
+      "set": "A (alpha!=0, df!=0)",
+      "T1_det_resid": 0.0,
+      "T1_eigvec_resid": 0.0,
+      "T1_rates_resid": 0.0,
+      "T2_formula_resid": 0.0,
+      "T2_K_eigvec_of_DKY_broken": true,
+      "T2_offvalue": 3.5828769702186,
+      "T3_trace_resid": 0.0,
+      "T3_XdetGKY": 50.516910234,
+      "T3_area_nonconstant_flag": true,
+      "XS_value": -22.75434,
+      "pass": true
+    },
+    {
+      "point": {
+        "u": "43/100",
+        "b": "47/50",
+        "f": "-61/100",
+        "df": "-79/100",
+        "db": "-13/25",
+        "chi": "-143/100",
+        "alpha": "-103/100",
+        "c_E": "289/100"
+      },
+      "set": "A (alpha!=0, df!=0)",
+      "T1_det_resid": 0.0,
+      "T1_eigvec_resid": 0.0,
+      "T1_rates_resid": 0.0,
+      "T2_formula_resid": 0.0,
+      "T2_K_eigvec_of_DKY_broken": true,
+      "T2_offvalue": -0.5601050440551333,
+      "T3_trace_resid": 0.0,
+      "T3_XdetGKY": -15.8373522452,
+      "T3_area_nonconstant_flag": true,
+      "XS_value": 1.896212,
+      "pass": true
+    },
+    {
+      "point": {
+        "u": "7/5",
+        "b": "11/50",
+        "f": "4/5",
+        "df": "89/50",
+        "db": "87/50",
+        "chi": "-147/100",
+        "alpha": "-67/100",
+        "c_E": "31/25"
+      },
+      "set": "A (alpha!=0, df!=0)",
+      "T1_det_resid": 0.0,
+      "T1_eigvec_resid": 0.0,
+      "T1_rates_resid": 0.0,
+      "T2_formula_resid": 0.0,
+      "T2_K_eigvec_of_DKY_broken": true,
+      "T2_offvalue": 3.057484219409283,
+      "T3_trace_resid": 0.0,
+      "T3_XdetGKY": -9.517005952,
+      "T3_area_nonconstant_flag": true,
+      "XS_value": 6.18952,
+      "pass": true
+    },
+    {
+      "point": {
+        "u": "189/100",
+        "b": "97/100",
+        "f": "-48/25",
+        "df": "-151/100",
+        "db": "-9/5",
+        "chi": "-49/100",
+        "alpha": "0",
+        "c_E": "187/100"
+      },
+      "set": "B (alpha=0, X(S)!=0)",
+      "T5a0_offdiag_resid": 0.0,
+      "T5a0_K_eigvec_of_DKY_holds": true,
+      "T5a0_lam2_vs_2chi_plus_XSoverS_resid": 0.0,
+      "T5a0_rate_not_founded_flag": true,
+      "T3_XdetGKY": -14.6626205946,
+      "T3_area_nonconstant_flag": true,
+      "XS_value": 4.193034,
+      "pass": true
+    },
+    {
+      "point": {
+        "u": "9/10",
+        "b": "71/25",
+        "f": "151/100",
+        "df": "1/10",
+        "db": "-43/50",
+        "chi": "-43/50",
+        "alpha": "0",
+        "c_E": "179/100"
+      },
+      "set": "B (alpha=0, X(S)!=0)",
+      "T5a0_offdiag_resid": 0.0,
+      "T5a0_K_eigvec_of_DKY_holds": true,
+      "T5a0_lam2_vs_2chi_plus_XSoverS_resid": 0.0,
+      "T5a0_rate_not_founded_flag": true,
+      "T3_XdetGKY": -12.573913712,
+      "T3_area_nonconstant_flag": true,
+      "XS_value": 3.92432,
+      "pass": true
+    },
+    {
+      "point": {
+        "u": "21/25",
+        "b": "241/100",
+        "f": "97/100",
+        "df": "127/100",
+        "db": "11/100",
+        "chi": "11/10",
+        "alpha": "0",
+        "c_E": "17/20"
+      },
+      "set": "B (alpha=0, X(S)!=0)",
+      "T5a0_offdiag_resid": 0.0,
+      "T5a0_K_eigvec_of_DKY_holds": true,
+      "T5a0_lam2_vs_2chi_plus_XSoverS_resid": 0.0,
+      "T5a0_rate_not_founded_flag": true,
+      "T3_XdetGKY": 1.3709293,
+      "T3_area_nonconstant_flag": true,
+      "XS_value": -1.89748,
+      "pass": true
+    }
+  ],
+  "all_pass": true,
+  "falsifier_FC_fired": false
+}
