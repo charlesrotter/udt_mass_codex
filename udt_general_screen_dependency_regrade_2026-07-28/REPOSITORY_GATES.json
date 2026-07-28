@@ -123,8 +123,8 @@
     "failed": 0,
     "passed": 70,
     "result": "PASS",
-    "stdout_sha256": "04e4b9a37d6eacfa08393f10b908f3a4d9415faa061cf0f228a1987f1107a0ef",
+    "stdout_sha256": "9ac74c50a54223731fb1fbb406bfb597cc013ca3441b5c0c9722f69ed3cdd4fe",
     "xfailed": 1
   },
-  "verified_head": "a818aed81a7ea687ab2a8b9096cb7abc5300b28e"
+  "verified_head": "f1238905f469899cc7e0f83be47fb59795d7565e"
 }
