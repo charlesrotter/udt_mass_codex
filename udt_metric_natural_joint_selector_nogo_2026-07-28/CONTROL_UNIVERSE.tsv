@@ -1,0 +1,11 @@
+control_id	input_category	control	purpose	status_before_test
+K01	I0	Minkowski_or_pointwise_full_Lorentz_isotropy	full isotropy commutant and preferred-frame obstruction	FREE_CONTROL
+K02	I1	all_observer_queries_with_full_connected_Lorentz_comparison	classify additive scalar characters without choosing observer	FREE_CONTROL
+K03	I0-I1	Poincare_invariant_pair_cocycle	classify base-dependent additive depth on homogeneous control	FREE_CONTROL
+K04	I2	supplied_timelike_observer_line	compute SO3 reduced commutant and isotropic extension	SUPPLIED_CONTROL
+K05	I3	supplied_ordered_clock_ruler_pair	compute SO2 reduced family and lambda modulus	SUPPLIED_CONTROL
+K06	I4	supplied_path_depth_and_frames	retain exact conditional path-groupoid construction	POSITIVE_CONDITIONAL_CONTROL
+K07	I0	stationary_intrinsic_Killing_line_and_norm	retain metric-native bounded depth	POSITIVE_BOUNDED_CONTROL
+K08	I0	complete_twisted_RxS3_family_arbitrary_lambda	block full-frame uniqueness on one coherent domain	NEGATIVE_CONTROL
+K09	I0	full_or_reduced_holonomy	separate pointwise reduction from global section	NEGATIVE_CONTROL
+K10	I0	null_zero_and_symmetry_restoration_strata	test continuous single-valued extension	NEGATIVE_CONTROL

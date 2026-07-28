@@ -1,0 +1,16 @@
+obligation_id	layer	requirement	certification_condition
+T01	domain	input-category separation	I0-I4 never silently exchange supplied and derived data
+T02	naturality	diffeomorphism/isometry covariance	output commutes with every admitted automorphism of the input
+T03	observer_semantics	query law versus preferred-frame selection	both routes are tested separately
+T04	depth	nontrivial signed additive depth	identity reversal composition and nontriviality on a founded nonzero branch
+T05	depth	full-frame comparison character route	continuous character of the full comparison group is classified
+T06	depth	base-dependent cocycle route	metric-selected potential or one-form is explicitly required or derived
+T07	lift	founded reciprocal restriction	clock/ruler eigenactions are exactly minus/plus one
+T08	lift	full Lorentz equivariance	commutant and isotropy obstruction are computed
+T09	lift	observer-line reduction	SO3-equivariant extension and residual assumptions are computed
+T10	lift	ordered-pair reduction	SO2-equivariant screen family and lambda freedom are computed
+T11	lift	finite integration	infinitesimal generators exponentiate on their exact domain
+T12	global	local-to-global reduction	holonomy transition section and descent requirements are explicit
+T13	strata	symmetric null zero and type-changing behavior	continuation set-valuedness or exclusion is stated
+T14	joint	one common-input operation	no cross-category or cross-branch splice
+T15	status	no-go and escape-route scope	what is ruled out and what survives are both explicit

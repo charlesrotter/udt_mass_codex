@@ -1,0 +1,33 @@
+catch_id	false_promotion_or_bug	must_be_rejected_because
+F01	base commit or tree mismatch	preregistered theorem context is fixed
+F02	merge I0-I4 input categories	supplied data cannot become derived
+F03	interpret no preferred observer as no observer-query law	covariant laws may act on all queries
+F04	accept a nonzero Lorentz-to-real Lie algebra character	so(1,3) is perfect
+F05	accept the zero character as nontrivial founded depth	nontriviality is a separate gate
+F06	assume every depth is frame-only	base-dependent cocycles must be tested separately
+F07	accept arbitrary f(q)-f(p) as metric-selected	composition does not select f
+F08	accept invariant interval as additive signed depth	it is symmetric or nonadditive for generic triples
+F09	select a vector under full Lorentz isotropy	no nonzero fixed vector exists
+F10	select a non-scalar generator from the full Lorentz commutant	the commutant is scalar identity
+F11	apply full-isotropy no-go after an observer line is supplied	reduced SO3 commutant must be recomputed
+F12	miss the SO3 isotropic lambda=plus-one conditional extension	observer-line route is a real survivor
+F13	call observer-line input metric-derived	input-output provenance must remain explicit
+F14	claim ordered pair plus SO2 selects lambda	real screen modulus remains
+F15	assume no screen mixing without testing SO2 equivariance	reduced invariant maps must be solved
+F16	promote lambda plus one to full-class result	it is conditional on observer-line reduction and isotropic complement
+F17	promote lambda minus one to full-class result	it is conditional on ruler-line reduction
+F18	promote stationary Killing depth to arbitrary observers	stationary domain is bounded
+F19	identify Levi-Civita transport with reciprocal dilation	metric-skew and metric-self-adjoint types differ
+F20	call supplied-path groupoid a path selector	path is an input
+F21	call pointwise reduction a global section	holonomy and topology remain separate
+F22	demand trivial holonomy by fiat	consistency cannot be invented
+F23	silently cross null zero or symmetry-restoration strata	normalized reductions can degenerate
+F24	cross-splice stationary depth and a ruler from another metric	jointness requires one branch
+F25	use full coframe presentation as physical selection	local Lorentz representative is not a selected observer structure
+F26	use c_E or G_obs to select a dimensionless generator	anchors do not break isotropy
+F27	use strong local CSN as active	it is inactive and challenged/not derived
+F28	promote co-presence or bootstrap wording to an equation	no typed operation follows
+F29	launch ODE PDE GPU action density matter or physics work	outside authorized scope
+F30	claim no possible future UDT law	the theorem is limited to continuous single-valued natural constructions on the full class
+F31	claim one smallest datum closes all layers	partial minima may remain independent
+F32	claim complete UDT closure	maximum conclusion is kinematic existence/no-go only
