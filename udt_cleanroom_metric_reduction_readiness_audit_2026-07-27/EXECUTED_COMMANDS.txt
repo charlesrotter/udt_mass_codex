@@ -1,0 +1,3 @@
+python3 udt_cleanroom_metric_reduction_readiness_audit_2026-07-27/derive_cleanroom_reduction.py --output-dir udt_cleanroom_metric_reduction_readiness_audit_2026-07-27
+python3 udt_cleanroom_metric_reduction_readiness_audit_2026-07-27/verify_cleanroom_reduction_independent.py --output udt_cleanroom_metric_reduction_readiness_audit_2026-07-27/INDEPENDENT_RESULT.json
+python3 udt_cleanroom_metric_reduction_readiness_audit_2026-07-27/verify_audit.py

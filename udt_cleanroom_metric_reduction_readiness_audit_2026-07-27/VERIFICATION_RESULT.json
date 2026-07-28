@@ -1,0 +1,93 @@
+{
+  "catch_proofs": [
+    {
+      "catch_id": "F01",
+      "result": "PASS"
+    },
+    {
+      "catch_id": "F02",
+      "result": "PASS"
+    },
+    {
+      "catch_id": "F03",
+      "result": "PASS"
+    },
+    {
+      "catch_id": "F04",
+      "result": "PASS"
+    },
+    {
+      "catch_id": "F05",
+      "result": "PASS"
+    },
+    {
+      "catch_id": "F06",
+      "result": "PASS"
+    },
+    {
+      "catch_id": "F07",
+      "result": "PASS"
+    },
+    {
+      "catch_id": "F08",
+      "result": "PASS"
+    },
+    {
+      "catch_id": "F09",
+      "result": "PASS"
+    },
+    {
+      "catch_id": "F10",
+      "result": "PASS"
+    },
+    {
+      "catch_id": "F11",
+      "result": "PASS"
+    },
+    {
+      "catch_id": "F12",
+      "result": "PASS"
+    },
+    {
+      "catch_id": "F13",
+      "result": "PASS"
+    },
+    {
+      "catch_id": "F14",
+      "result": "PASS"
+    },
+    {
+      "catch_id": "F15",
+      "result": "PASS"
+    },
+    {
+      "catch_id": "F16",
+      "result": "PASS"
+    },
+    {
+      "catch_id": "F17",
+      "result": "PASS"
+    },
+    {
+      "catch_id": "F18",
+      "result": "PASS"
+    }
+  ],
+  "checks": {
+    "candidate_systems": 15,
+    "catch_proofs": 18,
+    "catch_proofs_passed": 18,
+    "independent_reconstruction": "PASS",
+    "legacy_solver_content_used": false,
+    "production_semantic_and_rank": "PASS",
+    "source_hashes": 10
+  },
+  "errors": [],
+  "hashes": {
+    "independent": "13c7731193895ab0c3116eac59309da44d0edbaecfea1411c8cc37467037cc86",
+    "production": "323684180f547edfa956f8ab6ee5a84bee4ad9ce19c8c4da0caaa8f51d19c8c5",
+    "system_outcomes": "17c0c41e634aaec4f59655a571a12172ca65ae3c3dc02f40827f1d0209d149e1"
+  },
+  "result": "PASS",
+  "schema": "udt-cleanroom-metric-reduction-verification-1.0"
+}

@@ -1,0 +1,9 @@
+{
+  "base_commit": "a4c11fcc31607381c906c9c532609d159c0e9b67",
+  "cpu_only": true,
+  "gpu_used": false,
+  "kernel": "Linux 6.8.0-124-generic x86_64 GNU/Linux",
+  "legacy_solver_content_used": false,
+  "python": "3.10.12",
+  "sympy": "1.13.1"
+}

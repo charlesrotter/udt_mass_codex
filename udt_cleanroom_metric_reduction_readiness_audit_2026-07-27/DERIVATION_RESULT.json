@@ -1,0 +1,262 @@
+{
+  "acceptance_filters": [],
+  "amplitudes": [
+    "phi",
+    "sigma",
+    "alpha",
+    "k",
+    "S10",
+    "S11",
+    "S20",
+    "S21"
+  ],
+  "authorization": {
+    "conditional_kinematic_path_ode_atlas": true,
+    "gpu": false,
+    "legacy_solver_execution": false,
+    "metric_background_ode": false,
+    "metric_time_live": false,
+    "next_clean_metric_step": "OFF_SHELL_COMPLETE_COFRAME_VARIATION_DOMAIN_AND_STRATIFICATION_ATLAS"
+  },
+  "background_reductions": {
+    "cohomogeneity_one": {
+      "closed": false,
+      "closure_deficit": 8,
+      "live_profile_directions": 8,
+      "metric_supplied_profile_equation_rank": 0
+    },
+    "one_plus_one": {
+      "closed": false,
+      "evolution_closure_deficit": 8,
+      "first_base_jet_directions": 16,
+      "live_configuration_amplitudes": 8,
+      "metric_supplied_evolution_principal_rank": 0,
+      "time_principal_directions": 8
+    }
+  },
+  "bianchi": {
+    "background_equation_rank": 0,
+    "interpretation": "IDENTITY_AFTER_CONNECTION_AND_CURVATURE_DEFINITIONS"
+  },
+  "cartan_first_equation": {
+    "background_equation_rank": 0,
+    "connection_unknowns": 24,
+    "interpretation": "UNIQUELY_DEFINES_TORSION_FREE_METRIC_CONNECTION_FROM_COFRAME_JETS",
+    "linear_rank": 24
+  },
+  "cartan_second_equation": {
+    "background_equation_rank": 0,
+    "interpretation": "DEFINES_CURVATURE_FROM_CONNECTION_AND_ITS_DERIVATIVES"
+  },
+  "cleanroom": {
+    "legacy_equation_files_opened": false,
+    "legacy_solver_imports": [],
+    "old_solver_results_used": false
+  },
+  "cross_spliced_controls": false,
+  "environment": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "inactive_inputs": {
+    "GR_field_equation": false,
+    "action": false,
+    "bootstrap_local_equation": false,
+    "carrier": false,
+    "source": false,
+    "strong_local_CSN": false
+  },
+  "maurer_cartan": {
+    "determinant": "1",
+    "interpretation": "IDENTITY_FOR_ARBITRARY_INVERTIBLE_COFRAME_NOT_BACKGROUND_EVOLUTION",
+    "right_maurer_cartan_residual": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "test_matrix": [
+      [
+        "t*x + 1",
+        "t"
+      ],
+      [
+        "x",
+        "1"
+      ]
+    ],
+    "zero": true
+  },
+  "maximum_conclusion": "REGISTERED_CURRENT_METRIC_KINEMATICS_CLOSE_PATHWISE_TRANSPORT_ON_SUPPLIED_CONFIGURATIONS_BUT_DO_NOT_CLOSE_A_BACKGROUND_PROFILE_OR_TIME_LIVE_SYSTEM",
+  "neutral_chart": {
+    "coframe_tangent_rank": 8,
+    "configuration_directions": 8,
+    "founded_phi_is_extra_scalar": false,
+    "interpretation": "EIGHT_LIVE_CHART_DIRECTIONS_WITH_PHI_EMBEDDED_AS_FOUNDED_PAIR_DEPTH",
+    "metric_tangent_rank": 8
+  },
+  "path_systems": {
+    "ambient_parallel": {
+      "closed_given_metric_path_and_initial_data": true,
+      "equation_rank": 4,
+      "state_dimension": 4
+    },
+    "geodesic": {
+      "closed_given_metric_and_initial_data": true,
+      "equation_rank": 8,
+      "state_dimension": 8
+    },
+    "jacobi": {
+      "closed_given_metric_geodesic_and_initial_data": true,
+      "equation_rank": 8,
+      "state_dimension": 8
+    },
+    "projected_screen": {
+      "closed_given_metric_screen_path_and_initial_data": true,
+      "equation_rank": 2,
+      "state_dimension": 2
+    }
+  },
+  "schema": "udt-cleanroom-metric-reduction-readiness-1.0",
+  "systems": [
+    {
+      "candidate_id": "C01",
+      "classification": "OPEN_UNDERDETERMINED_CONFIGURATION",
+      "closure_deficit": 8,
+      "conditionally_executable": false,
+      "state_directions": 8,
+      "supplied_equation_rank": 0,
+      "system_class": "COHOMOGENEITY_ONE_BACKGROUND"
+    },
+    {
+      "candidate_id": "C02",
+      "classification": "OPEN_UNDERDETERMINED_EVOLUTION",
+      "closure_deficit": 8,
+      "conditionally_executable": false,
+      "state_directions": 8,
+      "supplied_equation_rank": 0,
+      "system_class": "ONE_PLUS_ONE_TIME_LIVE_BACKGROUND"
+    },
+    {
+      "candidate_id": "C03",
+      "classification": "CONFIGURATION_FAMILY_NOT_PROFILE_EQUATION",
+      "closure_deficit": -1,
+      "conditionally_executable": false,
+      "state_directions": -1,
+      "supplied_equation_rank": 0,
+      "system_class": "STATIONARY_TWISTED_S3_PROFILE"
+    },
+    {
+      "candidate_id": "C04",
+      "classification": "REGISTERED_FIXED_CONTROL_NO_NONTRIVIAL_EVOLUTION",
+      "closure_deficit": 0,
+      "conditionally_executable": false,
+      "state_directions": 0,
+      "supplied_equation_rank": 0,
+      "system_class": "REDUCED_CONSTANT_DEPTH_PRODUCT"
+    },
+    {
+      "candidate_id": "C05",
+      "classification": "CLOSED_KINEMATIC_ON_SUPPLIED_CONFIGURATION",
+      "closure_deficit": 0,
+      "conditionally_executable": true,
+      "state_directions": 8,
+      "supplied_equation_rank": 8,
+      "system_class": "GEODESIC_PATH"
+    },
+    {
+      "candidate_id": "C06",
+      "classification": "CLOSED_KINEMATIC_ON_SUPPLIED_CONFIGURATION",
+      "closure_deficit": 0,
+      "conditionally_executable": true,
+      "state_directions": 4,
+      "supplied_equation_rank": 4,
+      "system_class": "AMBIENT_PARALLEL_TRANSPORT"
+    },
+    {
+      "candidate_id": "C07",
+      "classification": "CLOSED_KINEMATIC_ON_SUPPLIED_CONFIGURATION_AND_SCREEN_STRATUM",
+      "closure_deficit": 0,
+      "conditionally_executable": true,
+      "state_directions": 2,
+      "supplied_equation_rank": 2,
+      "system_class": "PROJECTED_SCREEN_TRANSPORT"
+    },
+    {
+      "candidate_id": "C08",
+      "classification": "CLOSED_KINEMATIC_ON_SUPPLIED_CONFIGURATION_AND_GEODESIC",
+      "closure_deficit": 0,
+      "conditionally_executable": true,
+      "state_directions": 8,
+      "supplied_equation_rank": 8,
+      "system_class": "JACOBI_TRANSPORT"
+    },
+    {
+      "candidate_id": "C09",
+      "classification": "OPEN_NO_SELECTED_CURVATURE_RESPONSE",
+      "closure_deficit": 8,
+      "conditionally_executable": false,
+      "state_directions": 8,
+      "supplied_equation_rank": 0,
+      "system_class": "CURVATURE_PRESCRIPTION_BACKGROUND"
+    },
+    {
+      "candidate_id": "C10",
+      "classification": "OPEN_ON_SHELL_ADMISSIBILITY_NOT_EVOLUTION",
+      "closure_deficit": -1,
+      "conditionally_executable": false,
+      "state_directions": -1,
+      "supplied_equation_rank": 0,
+      "system_class": "BOOTSTRAP_DENSITY_BACKGROUND"
+    },
+    {
+      "candidate_id": "C11",
+      "classification": "OPEN_CARRIER_AND_ACTION_UNSELECTED",
+      "closure_deficit": -1,
+      "conditionally_executable": false,
+      "state_directions": -1,
+      "supplied_equation_rank": 0,
+      "system_class": "CARRIER_TIME_LIVE"
+    },
+    {
+      "candidate_id": "C12",
+      "classification": "OPEN_COMPATIBILITY_NOT_BOUNDARY_EVOLUTION",
+      "closure_deficit": -1,
+      "conditionally_executable": false,
+      "state_directions": -1,
+      "supplied_equation_rank": 0,
+      "system_class": "FINITE_CELL_FREE_BOUNDARY"
+    },
+    {
+      "candidate_id": "C13",
+      "classification": "DERIVED_EVALUATOR_NOT_BACKGROUND_EQUATION",
+      "closure_deficit": 0,
+      "conditionally_executable": false,
+      "state_directions": 24,
+      "supplied_equation_rank": 24,
+      "system_class": "CONNECTION_OR_CURVATURE_DEFINITION"
+    },
+    {
+      "candidate_id": "C14",
+      "classification": "DERIVED_IDENTITY_NOT_BACKGROUND_EQUATION",
+      "closure_deficit": 0,
+      "conditionally_executable": false,
+      "state_directions": 0,
+      "supplied_equation_rank": 0,
+      "system_class": "Bianchi_IDENTITY"
+    },
+    {
+      "candidate_id": "C15",
+      "classification": "QUARANTINED_PENDING_POSTVERDICT_PROVENANCE",
+      "closure_deficit": -1,
+      "conditionally_executable": false,
+      "state_directions": -1,
+      "supplied_equation_rank": 0,
+      "system_class": "LEGACY_ODE_OR_TIME_LIVE"
+    }
+  ]
+}

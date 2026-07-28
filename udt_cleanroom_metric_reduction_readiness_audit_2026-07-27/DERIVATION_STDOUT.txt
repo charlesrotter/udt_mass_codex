@@ -1,0 +1,1 @@
+{"background_ode_closed": false, "cartan_connection_rank": 24, "coframe_tangent_rank": 8, "conditionally_closed_path_systems": 4, "metric_tangent_rank": 8, "result": "PASS", "result_sha256": "323684180f547edfa956f8ab6ee5a84bee4ad9ce19c8c4da0caaa8f51d19c8c5", "time_live_closed": false}

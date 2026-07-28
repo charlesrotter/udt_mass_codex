@@ -1,0 +1,14 @@
+status_id	object	status	exact_scope	open_scope
+S01	founded_phi	DERIVED_LOG_DEPTH_NOT_EXTRA_SCALAR	current reciprocal pair	profile; observer/path realization
+S02	bounded_complete_coframe_chart	EIGHT_INDEPENDENT_METRIC_TANGENT_DIRECTIONS	regular neutral chart	native field ownership and selected extension
+S03	first_Cartan_equation	DERIVED_CONNECTION_DEFINITION_RANK_24_BACKGROUND_RANK_0	torsion-free metric connection	independent response equation
+S04	second_Cartan_and_Bianchi	DERIVED_CURVATURE_DEFINITION_AND_IDENTITIES	metric geometry	physical field equation
+S05	cohomogeneity_one_background	OPEN_UNDERDETERMINED_DEFICIT_8	current eight-amplitude chart	future native response
+S06	one_plus_one_time_live_background	OPEN_UNDERDETERMINED_PRINCIPAL_DEFICIT_8	current eight-amplitude chart	future native response and boundary domain
+S07	geodesic_ODE	CLOSED_KINEMATIC_ON_SUPPLIED_CONFIGURATION	smooth supplied metric and initial data	physical path selection
+S08	ambient_parallel_ODE	CLOSED_KINEMATIC_ON_SUPPLIED_CONFIGURATION	smooth supplied metric/path/initial vector	endpoint-only descent
+S09	projected_screen_ODE	CLOSED_KINEMATIC_ON_SUPPLIED_SCREEN_STRATUM	intrinsic H plus metric/path/initial screen vector	universal screen and physical role
+S10	Jacobi_ODE	CLOSED_KINEMATIC_ON_SUPPLIED_GEODESIC	metric/curvature/geodesic/initial data	background dynamics
+S11	legacy_ODE_time_live	QUARANTINED_PENDING_POSTVERDICT_PROVENANCE	no equation content used in clean derivation	termwise current-premise audit
+S12	background_numeric_authority	NOT_AUTHORIZED_NO_CLOSED_SYSTEM	ODE and 1+1 background reductions	conditional path atlas only
+S13	overall	METRIC_PATH_KINEMATICS_CLOSED_BACKGROUND_DYNAMICS_OPEN	registered current premises and bounded reductions	higher-jet/global/variational closure
