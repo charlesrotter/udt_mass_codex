@@ -1,0 +1,9 @@
+stratum	area	rotation	shear1	shear2	rank	ruling
+A00_FULL_GL2_PLUS	du	dchi+dbeta*(1-cosh(2v))	dv*cos(2gamma)-dbeta*sinh(2v)*sin(2gamma)	dv*sin(2gamma)+dbeta*sinh(2v)*cos(2gamma)	4_COFAME;3_METRIC	FULL_LOCAL_RESPONSE
+A01_ISOTROPIC_POLAR_CHART	du	dchi	dv*cos(2gamma)	dv*sin(2gamma)	POLAR_CHART_RANK3_AT_v0	BETA_UNDEFINED_CHART_NOT_GEOMETRY
+A01_ISOTROPIC_REGULAR_q_COORDINATES	du	dchi	dq1	dq2	4_COFAME;3_METRIC	BOTH_SHEAR_TANGENTS_PRESENT_AT_ISOTROPY
+A02_FIXED_AXIS	du	dchi	dv*cos(2gamma)	dv*sin(2gamma)	3_COFAME_FOR_FIXED_AXIS	ONE_SHEAR_DIRECTION_PER_FIXED_AXIS
+A03_ROTATING_AXIS	du	dchi+dbeta*(1-cosh(2v))	dv*cos(2gamma)-dbeta*sinh(2v)*sin(2gamma)	dv*sin(2gamma)+dbeta*sinh(2v)*cos(2gamma)	4_IF_v_NONZERO	TWO_SHEARS_PLUS_GAUGE_ROTATION
+A04_PURE_GAUGE	0	dchi	0	0	1_COFAME;0_METRIC	METRIC_UNCHANGED
+A06_GL2_MINUS	same_as_plus	reflection_conjugated	reflection_conjugated	reflection_conjugated	SAME_METRIC_RANK	ORIENTATION_COMPONENT_NOT_NEW_METRIC
+A07_DET_ZERO	UNDEFINED_LOG_RESPONSE	UNDEFINED	UNDEFINED	UNDEFINED	LESS_THAN2	SCREEN_AND_FOUR_METRIC_DEGENERATE

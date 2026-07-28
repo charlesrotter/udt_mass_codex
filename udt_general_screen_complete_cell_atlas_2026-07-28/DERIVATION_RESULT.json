@@ -1,0 +1,91 @@
+{
+  "all_direction_pair_screen_parallel_split": false,
+  "block_preservation_rows": 6,
+  "both_shear_tangents_at_isotropy": true,
+  "cartan_rows": 8,
+  "coframe_response_rank": 4,
+  "complete_S3_full_symmetric_witness": true,
+  "completion_rows": 12,
+  "coverage_rows": 10,
+  "full_4D_metric_family": false,
+  "global_rows": 9,
+  "maximum_conclusion": "COMPLETE_OFF_SHELL_S3_GENERAL_SCREEN_EXISTENCE_AND_FIRST_JET_RESPONSE_ONLY",
+  "metric_screen_response_rank": 3,
+  "mixing_rows": 5,
+  "on_shell_or_selected": false,
+  "outcome_class": "MIXED_BRANCH_AND_DEGENERACY_ATLAS",
+  "parallel_split_obstruction": "t1=kappa*exp(phi)/detP_nonzero_on_registered_S3_GL2_family",
+  "polar": {
+    "P": [
+      [
+        "(exp(v)*cos(beta)*cos(beta + chi) + exp(-v)*sin(beta)*sin(beta + chi))*exp(u)",
+        "(exp(v)*sin(beta)*cos(beta + chi) - exp(-v)*sin(beta + chi)*cos(beta))*exp(u)"
+      ],
+      [
+        "(exp(v)*sin(beta + chi)*cos(beta) - exp(-v)*sin(beta)*cos(beta + chi))*exp(u)",
+        "(exp(v)*sin(beta)*sin(beta + chi) + exp(-v)*cos(beta)*cos(beta + chi))*exp(u)"
+      ]
+    ],
+    "angular_complex_structure": [
+      [
+        "sin(2*beta + 2*chi)*sinh(2*v)",
+        "-exp(2*v)*cos(beta + chi)**2 - exp(-2*v)*sin(beta + chi)**2"
+      ],
+      [
+        "exp(2*v)*sin(beta + chi)**2 + exp(-2*v)*cos(beta + chi)**2",
+        "-sin(2*beta + 2*chi)*sinh(2*v)"
+      ]
+    ],
+    "angular_components": {
+      "area": 0,
+      "rotation": "cosh(2*v)",
+      "shear1": "sin(2*beta + 2*chi)*sinh(2*v)",
+      "shear2": "-cos(2*beta + 2*chi)*sinh(2*v)"
+    },
+    "components": {
+      "area": "du",
+      "rotation": "-2*dbeta*sinh(v)**2 + dchi",
+      "shear1": "-dbeta*sin(2*beta + 2*chi)*sinh(2*v) + dv*cos(2*beta + 2*chi)",
+      "shear2": "dbeta*cos(2*beta + 2*chi)*sinh(2*v) + dv*sin(2*beta + 2*chi)"
+    },
+    "determinant": "exp(2*u)",
+    "h": [
+      [
+        "(exp(4*v)*cos(beta)**2 + sin(beta)**2)*exp(2*u - 2*v)",
+        "(-exp(2*u - 2*v) + exp(2*u + 2*v))*sin(2*beta)/2"
+      ],
+      [
+        "(-exp(2*u - 2*v) + exp(2*u + 2*v))*sin(2*beta)/2",
+        "(exp(4*v)*sin(beta)**2 + cos(beta)**2)*exp(2*u - 2*v)"
+      ]
+    ],
+    "isotropic_regular_tangent": [
+      [
+        "dq1 + du",
+        "-dchi + dq2"
+      ],
+      [
+        "dchi + dq2",
+        "-dq1 + du"
+      ]
+    ],
+    "logarithmic": [
+      [
+        "-dbeta*sin(2*beta + 2*chi)*sinh(2*v) + du*sin(beta + chi)**2 + du*cos(beta + chi)**2 - dv*sin(beta + chi)**2 + dv*cos(beta + chi)**2",
+        "-((du - dv)*sin(beta + chi) + (-dbeta*exp(2*v) + dbeta + dchi)*cos(beta + chi))*cos(beta + chi) + ((du + dv)*cos(beta + chi) - (dbeta*sinh(2*v) - dbeta*cosh(2*v) + dbeta + dchi)*sin(beta + chi))*sin(beta + chi)"
+      ],
+      [
+        "-((du - dv)*cos(beta + chi) - (-dbeta*exp(2*v) + dbeta + dchi)*sin(beta + chi))*sin(beta + chi) + ((du + dv)*sin(beta + chi) + (dbeta - dbeta*exp(-2*v) + dchi)*cos(beta + chi))*cos(beta + chi)",
+        "dbeta*sin(2*beta + 2*chi)*sinh(2*v) + du*sin(beta + chi)**2 + du*cos(beta + chi)**2 + dv*sin(beta + chi)**2 - dv*cos(beta + chi)**2"
+      ]
+    ],
+    "shear_norm": "dbeta**2*(cosh(4*v) - 1)/2 + dv**2"
+  },
+  "rank_rows": 5,
+  "response_rows": 8,
+  "rotation_is_extra_metric_DOF": false,
+  "schema": "udt-general-screen-complete-cell-atlas-1.0",
+  "status": "PASS",
+  "sympy_version": "1.13.1",
+  "witnesses": 9
+}

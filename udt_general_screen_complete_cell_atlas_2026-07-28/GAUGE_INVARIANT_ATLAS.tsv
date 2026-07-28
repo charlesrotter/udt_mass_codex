@@ -1,0 +1,10 @@
+object	formula	gauge	status
+screen_metric	h=P^T P	O2_LEFT_INVARIANT	METRIC
+metric_DOF	u,q1,q2	3_DIMENSIONAL_SPD2	EXACT
+coframe_gauge	O_chi	1_DIMENSIONAL_O2	NOT_EXTRA_METRIC_DOF
+area_rate	du	INVARIANT	EXACT
+shear_norm	dv^2+sinh(2v)^2_dbeta^2	INVARIANT	EXACT
+shear_eigenrates	du_plus_or_minus_sqrt(shear_norm)	INVARIANT	EXACT
+displayed_rotation	dchi+dbeta*(1-cosh(2v))	SHIFTS_UNDER_LOCAL_O2	COFRAME_CONNECTION
+angular_structure_C	P_R_P_inverse;C^2=-I;trC=0;detC=1	CONJUGACY_CLASS	EXACT
+angular_structure_shear_norm	sinh(2v)^2	INVARIANT	ANISOTROPY_COUPLES_TO_MAURER_CARTAN

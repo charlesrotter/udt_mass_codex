@@ -1,0 +1,9 @@
+object	plus	minus	invariant_or_condition	status
+angular_complex_structure	C=P_R_P_inverse	same	C^2=-I;trC=0;detC=1	EXACT
+null_acceleration	(-p1,-p1,-2p2,-2p3)	(+p1,-p1,-2p2,-2p3)	pregeodesic_iff_p2=p3=0	EXACT_FIRST_JET
+congruence_area	+tr(L1)/2	-tr(L1)/2	trC=0_removes_Maurer_Cartan_area	EXACT
+congruence_shear1	+(L111-L122+(c11-c22)m)/2	negative_of_plus	screen_basis_components_spin2	EXACT
+congruence_shear2	+(L112+L121+(c12+c21)m)/2	negative_of_plus	screen_basis_components_spin2	EXACT
+congruence_rotation	(-t0+t1)/2	-(t0+t1)/2	distinct_from_path_frame_rotation	DISPLAYED_FRAME_COMPONENT
+path_screen_connection	pure_skew	pure_skew	area=shear1=shear2=0_by_metric_compatibility	EXACT
+path_frame_rotation	(L112-L121+(c12-c21)m-t0+t1)/2	(-L112+L121-(c12-c21)m-t0-t1)/2	changes_under_path_dependent_O2_gauge	COFRAME_CONNECTION

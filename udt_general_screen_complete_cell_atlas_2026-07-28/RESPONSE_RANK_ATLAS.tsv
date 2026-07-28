@@ -1,0 +1,6 @@
+chart	inputs	outputs	rank	determinant	ruling
+polar_v_nonzero	du;dv;dbeta;dchi	area;shear1;shear2;rotation	4	sinh(2v)	FULL_COFAME_RESPONSE
+polar_v_zero	du;dv;dbeta;dchi	area;shear1;shear2;rotation	3	0	POLAR_AXIS_CHART_LOSS_ONLY
+regular_logH_at_isotropy	du;dq1;dq2;dchi	area;shear1;shear2;rotation	4	1	BOTH_SHEAR_TANGENTS_RECOVERED
+metric_polar_v_nonzero	du;dv;dbeta	area;shear1;shear2	3	sinh(2v)	FULL_SPD2_RESPONSE
+metric_regular_at_isotropy	du;dq1;dq2	area;shear1;shear2	3	1	THREE_METRIC_DOF

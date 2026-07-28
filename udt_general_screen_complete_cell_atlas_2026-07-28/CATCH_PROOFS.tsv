@@ -1,0 +1,25 @@
+id	mutation	expected	observed	status
+C01	coframe rank reduced	REJECT	REJECT	PASS
+C02	gauge rotation promoted to metric DOF	REJECT	REJECT	PASS
+C03	one isotropic shear tangent removed	REJECT	REJECT	PASS
+C04	block-screen family promoted to full metric	REJECT	REJECT	PASS
+C05	off-shell witness promoted to selected	REJECT	REJECT	PASS
+C06	parallel split promoted despite contact obstruction	REJECT	REJECT	PASS
+C07	t1 obstruction disclosure deleted	REJECT	REJECT	PASS
+C08	regular isotropic chart mislabeled	REJECT	REJECT	PASS
+C09	detP zero promoted to configuration	REJECT	REJECT	PASS
+C10	pure gauge counted as metric rank one	REJECT	REJECT	PASS
+C11	rotating-axis second shear deleted	REJECT	REJECT	PASS
+C12	two-shear witness removed	REJECT	REJECT	PASS
+C13	witness promoted to Lorentzian geodesic completeness	REJECT	REJECT	PASS
+C14	Lorentzian scope guard deleted	REJECT	REJECT	PASS
+C15	v=0 called geometric degeneration	REJECT	REJECT	PASS
+C16	one FC row deleted	REJECT	REJECT	PASS
+C17	one FC selected physically	REJECT	REJECT	PASS
+C18	contact completion overlap lost	REJECT	REJECT	PASS
+C19	one completeness criterion deleted	REJECT	REJECT	PASS
+C20	stability silently promoted	REJECT	REJECT	PASS
+C21	block obstruction ruling removed	REJECT	REJECT	PASS
+C22	opposite-sign t1 consequence removed	REJECT	REJECT	PASS
+C23	source row deleted	REJECT	REJECT	PASS
+C24	source path duplicated	REJECT	REJECT	PASS

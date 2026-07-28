@@ -1,0 +1,7 @@
+condition_id	source_blocks	required	actual_S3_consequence	status
+BP01	D0;D1	p2=0;p3=0	dphi_has_no_screen_components	NECESSARY_NOT_SUFFICIENT
+BP02	D2;D3	t0=0	alpha*kappa*exp(-phi)/detP=0	NECESSARY_NOT_SUFFICIENT
+BP03	D2;D3_diagonal	L111+c11*m=0;L122+c22*m=0	screen_diagonal_jets_must_cancel_angular_structure	NECESSARY_NOT_SUFFICIENT
+BP04	D2;D3_offdiagonal	S+t1=0;S-t1=0_where_S=L112+L121+(c12+c21)*m	t1=0;S=0	NECESSARY_NOT_SUFFICIENT
+BP05	ALL	t1=0	contradicts_t1=kappa*exp(phi)/detP_for_kappa_nonzero_finite_phi_detP_nonzero	NO_PARALLEL_PAIR_SCREEN_SPLIT_WITHIN_REGISTERED_S3_FAMILY
+BP06	NULL_ACCELERATIONS_ONLY	p2=0;p3=0	aligned_null_pregeodesic_condition_only;does_not_imply_parallel_split	WEAKER_PATHWISE_CONDITION

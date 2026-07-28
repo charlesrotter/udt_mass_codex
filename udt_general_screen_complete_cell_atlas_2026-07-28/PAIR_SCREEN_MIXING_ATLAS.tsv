@@ -1,0 +1,6 @@
+object	formula	zero_condition	status
+null_plus_acceleration	-p1;-p1;-2*p2;-2*p3	screen_components_equal_zero	EXACT_FIRST_JET
+null_minus_acceleration	p1;-p1;-2*p2;-2*p3	screen_components_equal_zero	EXACT_FIRST_JET
+null_plus_congruence	Matrix([[L111 + c11*m, L112/2 + L121/2 + c12*m/2 + c21*m/2 + t0/2 - t1/2], [L112/2 + L121/2 + c12*m/2 + c21*m/2 - t0/2 + t1/2, L122 + c22*m]])	componentwise	FULL_SCREEN_MATRIX
+null_minus_congruence	Matrix([[-L111 - c11*m, -L112/2 - L121/2 - c12*m/2 - c21*m/2 + t0/2 + t1/2], [-L112/2 - L121/2 - c12*m/2 - c21*m/2 - t0/2 - t1/2, -L122 - c22*m]])	componentwise	FULL_SCREEN_MATRIX
+pair_to_screen_connection	four_direction_blocks_in_GENERAL_CARTAN_RESULT.json	all_block_entries_zero	GENERICALLY_MIXED_NOT_PHYSICAL_COUPLING
