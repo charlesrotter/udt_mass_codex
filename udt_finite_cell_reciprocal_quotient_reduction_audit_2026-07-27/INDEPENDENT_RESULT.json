@@ -1,0 +1,37 @@
+{
+  "check_count": 21,
+  "checks": {
+    "independent_ambient_leakage_control": "PASS",
+    "independent_anisotropic_same_first_response": "PASS",
+    "independent_anisotropic_second_jet_differs": "PASS",
+    "independent_check_count_before_count_check": "PASS",
+    "independent_connection_leakage_nonzero_control": "PASS",
+    "independent_full_Lorentz_centralizer_rank_fifteen": "PASS",
+    "independent_isotropic_generator_commutes_rotation": "PASS",
+    "independent_isotropic_w_metric_series_equal_order_six": "PASS",
+    "independent_lambda_plus1_boost_not_centralized": "PASS",
+    "independent_lambda_plus1_spatial_so3_centralized": "PASS",
+    "independent_mixed_same_first_response": "PASS",
+    "independent_mixed_second_jet_differs": "PASS",
+    "independent_nabla_X_control": "PASS",
+    "independent_projected_connection_closes": "PASS",
+    "independent_projected_connection_metric_compatible": "PASS",
+    "independent_reciprocal_generator_not_scalar": "PASS",
+    "independent_response_isotropic_unmixed": "PASS",
+    "independent_screen_connection_gauge_shift": "PASS",
+    "independent_screen_idempotent": "PASS",
+    "independent_screen_rank_two": "PASS",
+    "independent_screen_rotation_orthogonal": "PASS"
+  },
+  "controls": {
+    "anisotropic_w": "SECOND_JET_DIFFERENT",
+    "full_Lorentz_centralizer_dimension": 1,
+    "isotropic_w_metric_series": "EQUAL_THROUGH_ORDER_6",
+    "lambda_plus1_reduced_so3": "COMMUTES_BUT_BOOST_DOES_NOT",
+    "mixed_w": "SECOND_JET_DIFFERENT",
+    "screen_rank": 2
+  },
+  "implementation": "stdlib_Fraction_no_sympy_no_production_import",
+  "result": "PASS",
+  "schema": "udt.finite_cell_reciprocal_quotient_reduction.independent.v1"
+}

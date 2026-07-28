@@ -158,6 +158,35 @@ def main() -> None:
     check("aligned_null_pregeodesic_requires_zero_screen_gradient", leakage_solution == [{p2: 0, p3: 0}])
     check("contact_bracket_forces_ruler_gradient", sp.solve([contact_b * p1], p1, dict=True) == [{p1: 0}])
 
+    # Once H is intrinsic, D=H o nabla is a canonical metric screen
+    # connection.  It closes by projection even though ambient Levi-Civita
+    # transport has a generally nonzero second-fundamental/leakage block.
+    boost02, boost03, rot12, rot13, rot23, boost01 = sp.symbols(
+        "boost02 boost03 rot12 rot13 rot23 boost01", real=True
+    )
+    generators = lorentz_generators()
+    gamma = (
+        boost01 * generators["K01"]
+        + boost02 * generators["K02"]
+        + boost03 * generators["K03"]
+        + rot12 * generators["J12"]
+        + rot13 * generators["J13"]
+        + rot23 * generators["J23"]
+    )
+    projected_connection = sp.simplify(screen * gamma * screen)
+    ambient_leakage = sp.simplify((sp.eye(4) - screen) * gamma * screen)
+    check("projected_connection_closes_on_screen", zero(screen * projected_connection - projected_connection) and zero(projected_connection * screen - projected_connection))
+    check("projected_connection_metric_compatible", zero(projected_connection.T * eta + eta * projected_connection))
+    check("projected_connection_is_screen_so2", projected_connection[2:, 2:] == rot23 * j)
+    check("ambient_connection_has_generic_pair_screen_leakage", not zero(ambient_leakage.subs({boost02: 1, boost03: 0, rot12: 0, rot13: 0})))
+
+    screen_rate, alpha_rate = sp.symbols("screen_rate alpha_rate", real=True)
+    local_a = screen_rate * j
+    r_alpha = rotation(alpha)
+    dr_alpha = alpha_rate * j * r_alpha
+    transformed_a = sp.trigsimp(r_alpha.T * local_a * r_alpha + r_alpha.T * dr_alpha)
+    check("screen_connection_SO2_gauge_law", zero(transformed_a - (screen_rate + alpha_rate) * j))
+
     # The exact north-event covariant derivative control is independent of lambda.
     gamma_001 = -sp.Rational(3, 50)
     nabla_x_01 = sp.simplify(gamma_001 * (1 - (-1)))
@@ -165,7 +194,6 @@ def main() -> None:
     check("no_lambda_repairs_frozen_nonparallel_component", lam not in nabla_x_01.free_symbols and nabla_x_01 != 0)
 
     # Full Lorentz holonomy has scalar centralizer only.
-    generators = lorentz_generators()
     zvars = sp.symbols("z0:16", real=True)
     z = sp.Matrix(4, 4, zvars)
     commutator_equations = []
@@ -191,7 +219,7 @@ def main() -> None:
     check("registered_branch_count_sixteen", row_count("BRANCH_UNIVERSE.tsv") == 16)
     check("registered_completion_count_twelve", row_count("COMPLETION_UNIVERSE.tsv") == 12)
 
-    expected_check_count = 37
+    expected_check_count = 42
     check("registered_check_count_before_count_check", len(checks) == expected_check_count - 1)
     if len(checks) != expected_check_count:
         raise AssertionError(f"unexpected check count {len(checks)}")
@@ -214,10 +242,12 @@ def main() -> None:
             "basis_free_finite_lift": "F_lambda(phi)=exp(-phi)P_u+exp(phi)P_n+exp(lambda phi)H",
             "screen_rotation_descent": "FINITE_METRIC_REPRESENTATIVE_FREEDOM_BECAUSE_C_ZERO_AND_S_ISOTROPIC",
             "global_screen_bundle": "DERIVED_GIVEN_INTRINSIC_GLOBAL_PAIR",
+            "projected_screen_connection": "METRIC_CANONICAL_O2_CONNECTION_GIVEN_INTRINSIC_PAIR_PHYSICAL_ROLE_OPEN",
         },
         "global_obstructions": {
             "metric_selected_screen_flag": "NOT_DERIVED_BY_REGISTERED_ZERO_JET_OR_GLOBAL_SOURCES",
-            "projected_screen_transport": "DOES_NOT_CLOSE_GLOBALLY_FOR_NONCONSTANT_TWISTED_S3_DEPTH",
+            "ambient_Levi_Civita_screen_restriction": "DOES_NOT_CLOSE_GLOBALLY_FOR_NONCONSTANT_TWISTED_S3_DEPTH",
+            "screen_rotation_law": "PROJECTED_CONNECTION_D_EQUALS_H_NABLA_DERIVED_PATH_DEPENDENT_NO_FLAG",
             "parallel_reciprocal_grading": "REFUTED_ON_FROZEN_NONCONSTANT_PROFILE_AND_FULL_HOLONOMY_CONTROLS",
             "endpoint_descent": "PATH_LABELLED_ONLY_ON_FULL_HOLONOMY_BRANCH",
             "reduced_survivor": "LAMBDA_PLUS1_CONSTANT_PHI_TWIST_ZERO_CLOCK_VS_ALL_SPACE_NOT_FULL_PAIR",
@@ -229,7 +259,7 @@ def main() -> None:
             "observer_path_section": "OPEN_NOT_SELECTED",
             "other_completion_metrics": "STRUCTURAL_NO_CONCRETE_METRIC",
         },
-        "maximum_conclusion": "TWISTED_S3_BRANCH_HAS_INTRINSIC_GLOBAL_SCREEN_AND_BASIS_FREE_FINITE_METRIC_QUOTIENT_LIFT;_SCREEN_ROTATION_IS_METRIC_GAUGE_POINTWISE;_FULL_CONNECTION_HOLONOMY_PREVENTS_PARALLEL_OR_ENDPOINT_QUOTIENT_DESCENT;_PHYSICAL_SELECTION_OPEN",
+        "maximum_conclusion": "TWISTED_S3_BRANCH_HAS_INTRINSIC_GLOBAL_SCREEN_BASIS_FREE_FINITE_METRIC_QUOTIENT_LIFT_AND_PROJECTED_SCREEN_ROTATION_CONNECTION;_SCREEN_ROTATION_IS_METRIC_GAUGE_POINTWISE;_AMBIENT_CONNECTION_HOLONOMY_PREVENTS_PARALLEL_OR_ENDPOINT_QUOTIENT_DESCENT;_PHYSICAL_SELECTION_OPEN",
     }
     print(json.dumps(result, indent=2, sort_keys=True))
 
