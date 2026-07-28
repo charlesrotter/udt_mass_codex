@@ -1,7 +1,7 @@
 id	reject_if
 F01	base commit tree or unrelated 55-path dirty metadata differs
 F02	a registered direct source is omitted or its fixed-base hash differs
-F03	P is called general while an invertible 2x2 component or first-jet direction is silently removed
+F03	P is called general while an invertible 2x2 component or registered spatial first-jet direction is silently removed
 F04	the polar chart is treated as primary at v=0
 F05	v=0 shear-axis nonuniqueness is called a metric singularity
 F06	detP=0 is discarded rather than classified as screen degeneracy
