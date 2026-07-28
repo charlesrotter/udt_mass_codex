@@ -58,7 +58,7 @@
     "result": "PASS",
     "tracked_paths": 133
   },
-  "head": "390d0bd25b9e64771bca78e2f48deb04ef413aea",
+  "head": "fab0f3ddc78bcf76c12787b37929344a708ff643",
   "navigation": {
     "current_paths": 1114,
     "frontier_rows": 306,
@@ -97,6 +97,7 @@
     "udt_complete_coframe_metric_telescope_p01_2026-07-27/PRIMARY_PRODUCTION_RESOURCE_NOTE.md",
     "udt_complete_coframe_metric_telescope_p01_2026-07-27/PRODUCTION_ATTEMPT_01_FAILURE.md",
     "udt_complete_coframe_metric_telescope_p01_2026-07-27/README.md",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/REPOSITORY_GATES.json",
     "udt_complete_coframe_metric_telescope_p01_2026-07-27/RESOURCE_REPLAY_COMPARISON_SCOPE_CORRECTION.md",
     "udt_complete_coframe_metric_telescope_p01_2026-07-27/RESOURCE_REPLAY_SCOPED_VERIFICATION.json",
     "udt_complete_coframe_metric_telescope_p01_2026-07-27/RESOURCE_REPLAY_VERIFICATION.json",
@@ -107,6 +108,7 @@
     "udt_complete_coframe_metric_telescope_p01_2026-07-27/TRANSPORT_CONVERGENCE.json",
     "udt_complete_coframe_metric_telescope_p01_2026-07-27/VERIFICATION_RESULT.json",
     "udt_complete_coframe_metric_telescope_p01_2026-07-27/analyze_metric_telescope.py",
+    "udt_complete_coframe_metric_telescope_p01_2026-07-27/build_manifest.py",
     "udt_complete_coframe_metric_telescope_p01_2026-07-27/failed_production_attempt_01/ATLAS_shell_0030_N1024_T17_X33_MEXP64.npz",
     "udt_complete_coframe_metric_telescope_p01_2026-07-27/failed_production_attempt_01/ATLAS_shell_0030_SUMMARY.json",
     "udt_complete_coframe_metric_telescope_p01_2026-07-27/metric_telescope_gpu.py",
@@ -134,7 +136,7 @@
     "failed": 0,
     "passed": 70,
     "result": "PASS",
-    "stdout_sha256": "1e18d746920886f39d4f9a26dca73addf8b6d27991da7974b567be449fef8fe5",
+    "stdout_sha256": "b987580927306ac9c9ebe125c9ff3d40ff1e1a8e43c79fccb1b85d337efa3e53",
     "xfailed": 1
   }
 }
