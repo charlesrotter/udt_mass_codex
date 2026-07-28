@@ -1,0 +1,62 @@
+{
+  "P03B_eligible_global_objects": 0,
+  "catch_count": 20,
+  "check_count": 10,
+  "checks": [
+    {
+      "check": "package_sha256_manifest",
+      "count": 22,
+      "status": "PASS"
+    },
+    {
+      "check": "source_manifest_bytes",
+      "count": 57,
+      "status": "PASS"
+    },
+    {
+      "check": "one_adjudication_per_source_and_nine_fields",
+      "count": 57,
+      "status": "PASS"
+    },
+    {
+      "check": "candidate_occurrence_coverage_and_row_hashes",
+      "count": 713,
+      "status": "PASS"
+    },
+    {
+      "check": "conditional_complete_controls_and_zero_global_founded_objects",
+      "count": 2,
+      "status": "PASS"
+    },
+    {
+      "check": "p03b_gate_all_fail_closed",
+      "count": 14,
+      "status": "PASS"
+    },
+    {
+      "check": "lossless_projection_fail_closed_on_unfrozen_detail",
+      "count": 2,
+      "status": "PASS"
+    },
+    {
+      "check": "aggregate_census_reconstruction",
+      "count": 4,
+      "status": "PASS"
+    },
+    {
+      "check": "load_bearing_source_anchor_statements",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "check": "fail_closed_catch_proofs",
+      "count": 20,
+      "status": "PASS"
+    }
+  ],
+  "maximum_conclusion": "OPEN_MISSING_GLOBAL_DEFINITION",
+  "named_object_occurrence_count": 713,
+  "schema": "udt-p03a-independent-verification-1.0",
+  "source_count": 57,
+  "status": "PASS_WITH_SAME_SESSION_CAVEAT"
+}

@@ -1,0 +1,3 @@
+required_path	present_on_disk	frozen_in_P03_source_manifest	permitted_as_P03_input	ruling
+udt_full_local_jet_strata_p02_2026-07-27/STRATUM_LEDGER.tsv	YES	NO	NO	BLOCKED_UNREGISTERED_SOURCE
+udt_full_local_jet_strata_p02_2026-07-27/P02B_CANDIDATE_LEDGER.tsv	YES	NO	NO	BLOCKED_UNREGISTERED_SOURCE

@@ -1,0 +1,107 @@
+{
+  "count": 20,
+  "proofs": [
+    {
+      "catch_id": "F01",
+      "mutation": "source_unique=False",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch_id": "F02",
+      "mutation": "source_hashes_valid=False",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch_id": "F03",
+      "mutation": "generated_source_in_freeze=True",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch_id": "F04",
+      "mutation": "completion_meanings_preserved=False",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch_id": "F05",
+      "mutation": "schema_promoted_to_metric=True",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch_id": "F06",
+      "mutation": "local_promoted_to_global=True",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch_id": "F07",
+      "mutation": "invented_transition=True",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch_id": "F08",
+      "mutation": "invented_cap_or_boundary=True",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch_id": "F09",
+      "mutation": "all_named_occurrences_retained=False",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch_id": "F10",
+      "mutation": "target_privileged=True",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch_id": "F11",
+      "mutation": "conditional_promoted=True",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch_id": "F12",
+      "mutation": "cross_splice=True",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch_id": "F13",
+      "mutation": "causal_transition_rows=7",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch_id": "F14",
+      "mutation": "degeneracy_disclosed=False",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch_id": "F15",
+      "mutation": "coordinate_static_called_invariant=True",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch_id": "F16",
+      "mutation": "field_equation_inferred=True",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch_id": "F17",
+      "mutation": "downstream_physics_imported=True",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch_id": "F18",
+      "mutation": "gpu_launched=True",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch_id": "F19",
+      "mutation": "local_strata_called_physical=True",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch_id": "F20",
+      "mutation": "complete_solution_space_claimed=True",
+      "result": "PASS_REJECTED"
+    }
+  ],
+  "schema": "udt-p03a-catch-proofs-1.0",
+  "status": "PASS"
+}
