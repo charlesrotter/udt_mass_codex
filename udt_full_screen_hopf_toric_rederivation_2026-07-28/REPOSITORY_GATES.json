@@ -104,6 +104,7 @@
     "udt_full_screen_hopf_toric_rederivation_2026-07-28/PREREGISTRATION.md",
     "udt_full_screen_hopf_toric_rederivation_2026-07-28/PREREGISTRATION_CLARIFICATION.md",
     "udt_full_screen_hopf_toric_rederivation_2026-07-28/README.md",
+    "udt_full_screen_hopf_toric_rederivation_2026-07-28/REPOSITORY_GATES.json",
     "udt_full_screen_hopf_toric_rederivation_2026-07-28/ROUTE_CLASSIFICATION.tsv",
     "udt_full_screen_hopf_toric_rederivation_2026-07-28/RUN_ENVIRONMENT.json",
     "udt_full_screen_hopf_toric_rederivation_2026-07-28/SHA256SUMS.txt",
@@ -125,8 +126,8 @@
     "failed": 0,
     "passed": 70,
     "result": "PASS",
-    "stdout_sha256": "b987580927306ac9c9ebe125c9ff3d40ff1e1a8e43c79fccb1b85d337efa3e53",
+    "stdout_sha256": "cc6d2bc7559e0f131ad870ae227303a811b8ad7119d2114954917c1f8ace8435",
     "xfailed": 1
   },
-  "verified_head": "137ce6f2e8ce9fc4cec2b90f596bb326a7e07181"
+  "verified_head": "f528d8b1e358a99f9b98de473957ec6b6cc4d25f"
 }
