@@ -1,0 +1,57 @@
+{
+  "Hessian_frobenius_range": {
+    "maximum": 662.467262503194,
+    "median": 0.2729022339482454,
+    "minimum": 0.0
+  },
+  "affine_linear_residual_maximum": 3.268496584496461e-13,
+  "bases": 4198,
+  "candidates": 12594,
+  "coordinate_time_base_counts": {
+    "COORDINATE_STATIC": 1318,
+    "DYNAMIC_4D": 2880
+  },
+  "curvature_operator_rank_distribution": {
+    "0": 72,
+    "1": 2,
+    "2": 10,
+    "3": 36,
+    "4": 94,
+    "5": 278,
+    "6": 12102
+  },
+  "null_candidates": 2406,
+  "null_constructed_repeated_tidal": 2406,
+  "numerically_finite": 12594,
+  "pair_screen_zero": 156,
+  "phi_gradient_base_counts": {
+    "NULL": 802,
+    "SPACELIKE": 1296,
+    "TIMELIKE": 804,
+    "ZERO": 1296
+  },
+  "reevaluated_residual_maximum": 8.37303559819702e-11,
+  "response_rank_distribution": {
+    "3": 12594
+  },
+  "schema": "udt-p02b-repeated-tidal-census-1.0",
+  "scope_warning": "The exact frozen local two-jet chart admits the targets; no target, extension, global branch, equation, or physical role is selected.",
+  "solved_collective_Hessian_rank_distribution": {
+    "0": 110,
+    "1": 1102,
+    "3": 2778,
+    "4": 8604
+  },
+  "status": "OBSERVED_BOUNDED_LOCAL_OFF_SHELL_CONSTRUCTIBILITY_ATLAS",
+  "status_counts": {
+    "CONSTRUCTED_REPEATED_TIDAL": 12594
+  },
+  "target_counts": {
+    "NEGATIVE": 4198,
+    "POSITIVE": 4198,
+    "ZERO": 4198
+  },
+  "tidal_repeated_by_registered_tolerance": 12594,
+  "timelike_candidates": 2412,
+  "timelike_constructed_repeated_tidal": 2412
+}

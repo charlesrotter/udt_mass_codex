@@ -1,0 +1,19 @@
+claim_id	object	status	epistemic_label	exact_scope	open_or_forbidden_extension
+P02S01	P02-A Cartesian local-jet universe	COMPLETE_11520_STRATA_23040_ATTEMPTS	OBSERVED	frozen two-attempt Cartesian stratum universe	not infinite-dimensional completeness
+P02S02	P02-A constructed local witnesses	15459_FINITE_CONSTRUCTED	OBSERVED	registered complete triangular coframe local two-jets	not equations or global solutions
+P02S03	coordinate-static shift rank four	STRUCTURALLY_INCOMPATIBLE	DERIVED	three live derivative columns in the registered chart	not an invariant no-go outside this static chart stratum
+P02S04	coordinate-static collective Hessian rank eight	STRUCTURALLY_INCOMPATIBLE	DERIVED	six live symmetric spatial component columns	not an invariant no-go outside this static chart stratum
+P02S05	coordinate-static causal no-witness rows	2973_SAMPLED_NO_WITNESS	OBSERVED	frozen point values and chart-static dphi construction	not global causal-class exclusion
+P02S06	P02-A accidental repeated-tidal count	SCOPE_INCOMPLETE_SUPERSEDED_BY_P02B	OPEN	observation without imposed repeated-tidal construction	must not support an obstruction claim
+P02S07	P02-B frozen base universe	4198_BASES	OBSERVED	P02-A constructed rows with requested Hessian rank zero	other P02-A point/first-jet samples not covered
+P02S08	P02-B screen-tidal Hessian response	FULL_NUMERICAL_ROW_RANK_3_AT_ALL_BASES	OBSERVED	80 dynamic or 48 static Hessian variables to three chart-screen components	not physical degrees of freedom or symbolic universal theorem
+P02S09	negative repeated-tidal target	4198_OF_4198_CONSTRUCTED	OBSERVED	lambda=-shell^2 local affine Hessian response	not selected sign or global branch
+P02S10	zero repeated-tidal target	4198_OF_4198_CONSTRUCTED	OBSERVED	lambda=0 local affine Hessian response	not selected sign or global branch
+P02S11	positive repeated-tidal target	4198_OF_4198_CONSTRUCTED	OBSERVED	lambda=+shell^2 local affine Hessian response	not selected sign or global branch
+P02S12	null-dphi plus repeated tide	2406_OF_2406_CONSTRUCTED	OBSERVED	802 null bases times three targets	local compatibility only
+P02S13	timelike-dphi plus repeated tide	2412_OF_2412_CONSTRUCTED	OBSERVED	804 timelike bases times three targets	local compatibility only
+P02S14	repeated-tidal physical selector	NOT_SELECTED_BY_LOCAL_TWO_JET_EXISTENCE	OPEN	unconstrained local Hessian arena	global/equation/variation/boundary selection remains open
+P02S15	complete triangular extension	EXACT_CLASS_REPRESENTATIVE_NOT_PHYSICALLY_SELECTED	CONDITIONAL	registered coframe chart	unique founded complete extension remains open
+P02S16	global finite-cell realization	NOT_TESTED	OPEN	local pointwise jets only	global integrability completion and holonomy open
+P02S17	action source carrier density bootstrap boundary mass	NOT_USED	OPEN	excluded from P02	no downstream physics promotion
+P02S18	P02 verification	32_OF_32_PACKAGE_CHECKS_AND_15_OF_15_CATCHES_PASS	VERIFIED-WITH-CAVEATS	GPU production plus independent CPU reconstruction	fresh external-model semantic review absent

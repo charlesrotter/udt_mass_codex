@@ -1,0 +1,91 @@
+{
+  "catch_proofs": {
+    "asymmetric_Hessian_rejected": true,
+    "duplicate_candidate_rejected": true,
+    "failed_CPU_record_rejected": true,
+    "missing_candidate_rejected": true,
+    "mutated_tidal_component_rejected": true,
+    "nonfinite_Hessian_rejected": true,
+    "stale_atlas_hash_rejected": true,
+    "static_time_Hessian_rejected": true,
+    "unrepeated_promotion_rejected": true,
+    "wrong_Hessian_norm_rejected": true,
+    "wrong_base_filter_rejected": true,
+    "wrong_census_count_rejected": true,
+    "wrong_response_rank_rejected": true,
+    "wrong_target_code_rejected": true,
+    "wrong_target_lambda_rejected": true
+  },
+  "checks": {
+    "Hessian_norm_recomputed": true,
+    "accepted_status_gate_valid": true,
+    "all_Hessians_symmetric": true,
+    "all_base_filters_preserved": true,
+    "all_numeric_features_finite": true,
+    "atlas_hash_matches_result": true,
+    "axis_census_complete": true,
+    "candidate_base_order_exact": true,
+    "candidate_count_12594": true,
+    "candidate_ledger_complete": true,
+    "candidate_ledger_identity_exact": true,
+    "candidate_target_order_exact": true,
+    "causal_census_complete": true,
+    "census_Hessian_rank_distribution": true,
+    "census_base_and_candidate_counts": true,
+    "census_null_intersection": true,
+    "cpu_verification_pass": true,
+    "linear_residual_within_gate": true,
+    "registered_repeated_flag_recomputed": true,
+    "response_rank_all_three": true,
+    "response_rank_recomputed": true,
+    "source_base_count_4198": true,
+    "source_dynamic_base_count_2880": true,
+    "source_hash_matches_result": true,
+    "source_static_base_count_1318": true,
+    "static_time_Hessians_zero": true,
+    "status_counts_match_census": true,
+    "status_counts_match_result": true,
+    "stored_residual_matches_components": true,
+    "target_components_within_gate": true,
+    "target_label_order_exact": true,
+    "target_lambda_exact": true
+  },
+  "counts": {
+    "catches_passed": 15,
+    "catches_total": 15,
+    "checks_passed": 32,
+    "checks_total": 32
+  },
+  "environment": {
+    "device": "CPU",
+    "numpy": "2.2.6",
+    "python": "3.10.12"
+  },
+  "identity_hashes": {
+    "JET_ATLAS.npz": "9e0b101d53f35913dc95c6f03ef68ea3d3d1de108398453b41fac6e9479e3d59",
+    "P02B_AXIS_CENSUS.tsv": "b5afdf7c3e2acd9f144e3b0bf61b40e514c32e08ef8c7c9b861e01a7d36e353b",
+    "P02B_CANDIDATE_LEDGER.tsv": "c18d40142787cee1914734a4c897d30ff85d5ce669aeb38b9631a9d0bc36c529",
+    "P02B_CAUSAL_TARGET_CENSUS.tsv": "5026e78f874b9a59db696c4da054f80d2162259eac384f9f7f3db6349ab513e9",
+    "P02B_CENSUS.json": "31fe6f8f7eb300c88d90ea38dd52ca0986a757d359d09057eeb546150e7ebffd",
+    "P02B_CPU_ANCHOR_GPU.json": "3400c5226a2afe62412fc81fb1739305c4c42b4b2cd3d7722e09647febd47431",
+    "P02B_CPU_ANCHOR_VERIFICATION.json": "ed04d9e89b566211ec0097ed974b349cce81c8e4d9805b956ac4faca3d63b658",
+    "P02B_RESULT.json": "7fc0d1312563e02effbb881e9c8b862cf2bc3dc3731d101289150b9205d40158",
+    "REPEATED_TIDAL_ATLAS.npz": "4d91131519f4da3979949d5ba13626337bcf2e71cda4c877cc31c417d8832515"
+  },
+  "production_or_analysis_module_imported": false,
+  "recomputed": {
+    "Hessian_rank_distribution": {
+      "0": 110,
+      "1": 1102,
+      "3": 2778,
+      "4": 8604
+    },
+    "maximum_linear_residual": 3.268496584496461e-13,
+    "maximum_target_residual": 8.37303559819702e-11,
+    "status_counts": {
+      "CONSTRUCTED_REPEATED_TIDAL": 12594
+    }
+  },
+  "schema": "udt-p02b-independent-package-verification-1.0",
+  "status": "PASS"
+}
