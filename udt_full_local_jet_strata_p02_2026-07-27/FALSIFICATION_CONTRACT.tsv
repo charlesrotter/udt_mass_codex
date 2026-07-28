@@ -1,0 +1,26 @@
+catch_id	false_promotion_or_bug	must_be_rejected_because
+F01	call_local_jet_a_solution	no background equation is imposed
+F02	call_coordinate_static_invariant_or_physical	staticity is a chosen coordinate-jet stratum
+F03	call_120_jet_components_physical_dof	local Taylor data are not a mode census
+F04	call_triangular_extension_selected	the current complete extension remains OPEN
+F05	omit_any_cartesian_stratum	all 11520 combinations are frozen
+F06	omit_failed_construction	no-witness rows are atlas evidence
+F07	repair_incompatible_rank_by_retuning	registered axes must remain exact
+F08	accept_wrong_phi_causal_norm	construction label must replay from g inverse
+F09	accept_wrong_angular_first_rank	SVD rank must match the row
+F10	accept_wrong_shift_first_rank	SVD rank must match the row
+F11	accept_wrong_Hessian_rank	SVD rank must match the row
+F12	allow_static_time_derivative	static first and time-containing second jets are exactly zero
+F13	allow_static_shift_rank4	three nonzero derivative columns cannot have rank four
+F14	allow_static_Hessian_rank8	six spatial Hessian columns cannot have rank eight
+F15	accept_wrong_metric_determinant	coframe requires det(g)=-exp(2sigma)
+F16	accept_constant_jet_curvature	constant coframe must be flat
+F17	filter_zero_or_flat_curvature	atlas maps rather than targets structure
+F18	filter_nonfinite_result	numerical failures remain labeled
+F19	call_repeated_tidal_metric_selected	pair/screen split is chart-supplied
+F20	interpret_Sobol_counts_as_physical_frequency	Sobol is a coverage control
+F21	import_action_source_carrier_or_density	P02 is metric-only local geometry
+F22	claim_global_finite_cell_realization	a local two-jet need not integrate globally
+F23	claim_lightlike_or_repeated_stratum_selected	constructive witness is existence not selection
+F24	claim_full_solution_space_completeness	finite stratified local arena remains bounded
+

@@ -1,0 +1,47 @@
+{
+  "schema": "udt-full-local-jet-strata-p02-sampling-1.0",
+  "axis_order": [
+    "shell",
+    "coordinate_time",
+    "phi_gradient",
+    "angular_shape",
+    "shift_value_rank",
+    "angular_first_rank",
+    "shift_first_rank",
+    "collective_Hessian_rank"
+  ],
+  "axes": {
+    "shell": [0.3, 1.0],
+    "coordinate_time": ["DYNAMIC_4D", "COORDINATE_STATIC"],
+    "phi_gradient": ["ZERO", "TIMELIKE", "NULL", "SPACELIKE"],
+    "angular_shape": ["ISOTROPIC", "DIAGONAL_ANISOTROPIC", "SHEARED"],
+    "shift_value_rank": [0, 1, 2],
+    "angular_first_rank": [0, 1, 2, 3],
+    "shift_first_rank": [0, 1, 2, 3, 4],
+    "collective_Hessian_rank": [0, 1, 4, 8]
+  },
+  "strata": 11520,
+  "replicates_per_stratum": 2,
+  "attempts": 23040,
+  "stratum_order": "lexicographic_cartesian_product_in_axis_order_then_replicate_0_1",
+  "sobol": {
+    "dimension": 256,
+    "scramble": true,
+    "seed": 20260728,
+    "draw_power": 15,
+    "draw_count": 32768,
+    "consumed_prefix": 23040,
+    "mapping": "2*u-1"
+  },
+  "rank_relative_tolerance": 1e-10,
+  "causal_scaled_tolerance": 1e-10,
+  "determinant_relative_tolerance": 1e-10,
+  "device": "cuda:0",
+  "gpu": "Tesla V100-PCIE-32GB",
+  "dtype": "float64",
+  "batch_size": 512,
+  "estimated_peak_gib": 2.0,
+  "hard_timeout_minutes": 15,
+  "cpu_anchor_attempts": 64
+}
+

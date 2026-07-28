@@ -1,0 +1,8 @@
+{
+  "attempts": 23040,
+  "first_id": "P02S00000",
+  "last_id": "P02S11519",
+  "schema": "udt-full-local-jet-strata-p02-universe-1.0",
+  "strata": 11520,
+  "stratum_tsv_sha256": "831cb23bc1970ed220c8f0fa53ce5b3cc5bb866a866f8859fd07176e6d1d5495"
+}

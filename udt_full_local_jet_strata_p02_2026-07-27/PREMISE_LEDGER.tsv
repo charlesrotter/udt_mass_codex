@@ -1,0 +1,16 @@
+premise_id	object	provenance_tag	status	use	open_or_excluded_scope
+P01	founded_phi_pair	pinned-by-THEORY	DERIVED	clock/ruler exp(-phi),exp(+phi)	observer/path assignment and realized profile
+P02	general_triangular_extension	pinned-by-THEORY	DERIVED_CLASSIFICATION	seven-parameter complete coframe chart	physical extension selection remains OPEN
+P03	local_two_jet_arena	free-and-explored	CHOSE	all 120 values/jets available	not physical field or mode census
+P04	four_coordinate_dependence	free-and-explored	CHOSE	release P01 t/x restriction	global integrability not inferred
+P05	coordinate_static	free-and-explored	CHOSE_CHART_STRATUM	exact x0 derivative zeros	not invariant staticity
+P06	phi_causal_class	free-and-explored	CHOSE_STRATIFICATION	exact zero/timelike/null/spacelike witnesses	no class selected physically
+P07	rank_axes	free-and-explored	CHOSE_STRATIFICATION	map measure-zero seams	chart labels not invariants
+P08	shells_and_Sobol	pinned-by-HABIT	CHOSE_NUMERICAL_CONTROL	bounded coverage	not a physical measure or scale
+P09	c_E	pinned-by-THEORY	OBSERVED_ANCHOR	x0=c_E t coordinate orientation	no physical evolution inferred
+P10	strong_local_CSN	pinned-by-THEORY	INACTIVE	excluded	no gauge subtraction or C2 selector
+P11	pair_screen_split	pinned-by-HABIT	CONDITIONAL_TRIANGULAR_CHART	component readouts	not metric-selected physics
+P12	action_source_carrier_density_boundary	pinned-by-THEORY	OPEN	excluded	no equations or selection
+P13	bootstrap	pinned-by-THEORY	WORKING_ON_SHELL_ONLY	excluded from P02	no fixed point or optimizer
+P14	global_finite_cell	pinned-by-THEORY	OPEN_NOT_TESTED	local witnesses only	no global completion
+

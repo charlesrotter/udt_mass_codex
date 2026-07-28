@@ -1,0 +1,10 @@
+axis	order	values	meaning	status
+shell	1	0.30;1.00	common bounded magnitude for values and jets	pinned-by-HABIT
+coordinate_time	2	DYNAMIC_4D;COORDINATE_STATIC	all four coordinate jets versus exact zero x0 jets	CHOSE chart stratum
+phi_gradient	3	ZERO;TIMELIKE;NULL;SPACELIKE	exact founded-depth covector causal class	CHOSE stratum
+angular_shape	4	ISOTROPIC;DIAGONAL_ANISOTROPIC;SHEARED	pointwise alpha/k shape class	CHOSE chart stratum
+shift_value_rank	5	0;1;2	pointwise rank of 2x2 shift matrix	CHOSE chart stratum
+angular_first_rank	6	0;1;2;3	rank of 3x4 angular-amplitude first-jet matrix	CHOSE chart stratum
+shift_first_rank	7	0;1;2;3;4	rank of 4x4 shift-amplitude first-jet matrix	CHOSE chart stratum
+collective_Hessian_rank	8	0;1;4;8	rank of 8x10 flattened symmetric Hessians	CHOSE chart stratum
+
