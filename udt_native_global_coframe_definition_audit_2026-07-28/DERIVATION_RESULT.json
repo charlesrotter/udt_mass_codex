@@ -1,0 +1,41 @@
+{
+  "c_G_dimension_matrix_rank": 2,
+  "c_G_dimensionless_monomial_nullity": 0,
+  "complete_RxS3_coframe_determinant": "R^3*exp(2*lambda*phi)",
+  "complete_RxS3_metric_determinant": "-R^6*exp(4*lambda*phi)",
+  "endpoint_depth_telescoping": "0",
+  "generator_trace": "2*lambda",
+  "lorentz_centralizer_nullity": 1,
+  "ordered_pair_SO2_self_adjoint_physical_moduli": 1,
+  "ordered_pair_generator": "diag(-1,1,lambda,lambda)",
+  "sample_lambda_spectra": {
+    "-1": [
+      "-1",
+      "1",
+      "-1",
+      "-1"
+    ],
+    "0": [
+      "-1",
+      "1",
+      "0",
+      "0"
+    ],
+    "1": [
+      "-1",
+      "1",
+      "1",
+      "1"
+    ],
+    "2": [
+      "-1",
+      "1",
+      "2",
+      "2"
+    ]
+  },
+  "schema": "udt-native-global-coframe-definition-algebra-1.0",
+  "spacelike_slice_sigma3_coefficient": "R^2*exp(2*phi)-a^2*exp(-2*phi)",
+  "stationary_clock_norm": "-c_E^2*exp(-2*phi)",
+  "status": "PASS"
+}

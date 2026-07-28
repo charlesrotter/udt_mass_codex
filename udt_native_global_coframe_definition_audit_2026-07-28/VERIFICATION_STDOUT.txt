@@ -1,0 +1,21 @@
+{
+  "P03_omission_reproduced": true,
+  "P03_omitted_source_introducing_commit": "cacfaa178d2199ecb13d5196545ff36797c82177",
+  "catch_proofs_passed": 27,
+  "caveat": "System instructions did not authorize subagent delegation; independent code was run in the same session.",
+  "counterfamily_count": 7,
+  "fresh_adversarial_context": false,
+  "independent_algebra": {
+    "coframe_determinant": "radius^3*exp(2*ell*p)",
+    "dimension_matrix_rank": 2,
+    "dimensionless_nullity": 0,
+    "full_lorentz_centralizer_nullity": 1,
+    "metric_determinant": "-radius^6*exp(4*ell*p)",
+    "ordered_pair_moduli": 1
+  },
+  "kinematic_selector_count": 3,
+  "principle_obligation_rows": 204,
+  "schema": "udt-native-global-coframe-definition-verification-1.0",
+  "source_count": 99,
+  "status": "PASS_VERIFIED_WITH_CAVEATS_SAME_SESSION"
+}

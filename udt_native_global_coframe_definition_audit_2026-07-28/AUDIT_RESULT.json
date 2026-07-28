@@ -1,0 +1,52 @@
+{
+  "GPU_launched": false,
+  "P02_detailed_ledgers_frozen": [
+    "udt_full_local_jet_strata_p02_2026-07-27/P02B_CANDIDATE_LEDGER.tsv",
+    "udt_full_local_jet_strata_p02_2026-07-27/STRATUM_LEDGER.tsv"
+  ],
+  "P02_projection_activated": false,
+  "P03B_launched": false,
+  "P03_nonultrastatic_source_ancestor_of_base": true,
+  "P03_nonultrastatic_source_introducing_commit": "cacfaa178d2199ecb13d5196545ff36797c82177",
+  "P03_nonultrastatic_source_omission": true,
+  "absolute_scale_additional_open_count": 1,
+  "complete_coherent_counterfamilies": 7,
+  "kinematic_minimal_selector_count": 3,
+  "maximum_conclusion": "ACTIVE_UDT_FOUNDATION_DERIVES_RECIPROCAL_PAIR_AND_COVARIANT_RESPONSE_ARCHITECTURE_BUT_NOT_A_UNIQUE_GLOBAL_COFRAME_CONSTRUCTION;THREE_INDEPENDENT_KINEMATIC_SELECTOR_GAPS_REMAIN;REALIZATION_EQUATIONS_AND_ABSOLUTE_SCALE_ARE_SEPARATE_DOWNSTREAM_GAPS",
+  "principle_capability_counts": {
+    "CALIBRATES_ONLY": 2,
+    "CONFLICTING_OR_SUPERSEDED": 12,
+    "CONSTRAINS_ONLY": 22,
+    "COVARIANCE_ONLY": 5,
+    "DOES_NOT_ADDRESS": 160,
+    "SUPPLIES": 3
+  },
+  "principle_obligation_rows": 204,
+  "schema": "udt-native-global-coframe-definition-audit-1.0",
+  "selected_realized_branch_additional_selector_count": 1,
+  "source_count": 99,
+  "source_role_counts": {
+    "CAUSAL_AND_CARTAN_TRANSITION_ATLAS": 3,
+    "CLOCK_AND_SCALE_CALIBRATION": 5,
+    "COMPLETE_BRANCH_PULLBACK": 5,
+    "COMPLETE_NONULTRASTATIC_CONFIGURATION_FAMILY": 7,
+    "COMPLETION_TAXONOMY": 3,
+    "COVARIANT_LOCAL_LIFT_ATLAS": 5,
+    "CSN_PRECEDENCE_CORRECTION": 3,
+    "CURRENT_PREMISE_CONTROL": 2,
+    "DORMANT_P02_AGGREGATE": 3,
+    "DORMANT_P02_DETAIL": 2,
+    "FINITE_PATH_FUNCTOR_AND_DESCENT_GATES": 6,
+    "FOUNDED_PAIR_AND_EXTENSION_CLASS": 4,
+    "FOUNDING_SEMANTICS": 6,
+    "GLOBAL_PAIR_BUNDLE": 8,
+    "HOLONOMY_COUNTERCONTROL": 4,
+    "LOCAL_PHYSICAL_PAIR_ALIGNMENT": 6,
+    "PAIR_PATH_GROUPOID": 5,
+    "POINTWISE_SELECTOR_RANK": 6,
+    "PRIOR_BOUNDED_SOURCE_GATE": 5,
+    "RECIPROCAL_RESPONSE_QUERY_BUNDLE": 6,
+    "SEAL_LIFT_FAMILY": 5
+  },
+  "status": "OPEN_MULTIPLE_INDEPENDENT_SELECTOR_GAPS"
+}

@@ -1,0 +1,205 @@
+premise_id	obligation_id	capability	basis	selection_closed
+N01	O01	SUPPLIES	exact active source operation supplies this bounded obligation	YES
+N01	O02	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N01	O03	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N01	O04	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N01	O05	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N01	O06	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N01	O07	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N01	O08	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N01	O09	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N01	O10	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N01	O11	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N01	O12	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N02	O01	SUPPLIES	exact active source operation supplies this bounded obligation	YES
+N02	O02	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N02	O03	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N02	O04	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N02	O05	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N02	O06	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N02	O07	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N02	O08	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N02	O09	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N02	O10	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N02	O11	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N02	O12	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N03	O01	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N03	O02	COVARIANCE_ONLY	transforms candidate families consistently but selects no member	NO
+N03	O03	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N03	O04	SUPPLIES	exact active source operation supplies this bounded obligation	YES
+N03	O05	COVARIANCE_ONLY	transforms candidate families consistently but selects no member	NO
+N03	O06	COVARIANCE_ONLY	transforms candidate families consistently but selects no member	NO
+N03	O07	COVARIANCE_ONLY	transforms candidate families consistently but selects no member	NO
+N03	O08	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N03	O09	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N03	O10	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N03	O11	COVARIANCE_ONLY	transforms candidate families consistently but selects no member	NO
+N03	O12	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N04	O01	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N04	O02	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N04	O03	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N04	O04	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N04	O05	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N04	O06	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N04	O07	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N04	O08	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N04	O09	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N04	O10	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N04	O11	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N04	O12	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N05	O01	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N05	O02	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N05	O03	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N05	O04	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N05	O05	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N05	O06	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N05	O07	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N05	O08	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N05	O09	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N05	O10	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N05	O11	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N05	O12	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N06	O01	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N06	O02	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N06	O03	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N06	O04	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N06	O05	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N06	O06	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N06	O07	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N06	O08	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N06	O09	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N06	O10	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N06	O11	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N06	O12	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N07	O01	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N07	O02	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N07	O03	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N07	O04	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N07	O05	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N07	O06	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N07	O07	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N07	O08	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N07	O09	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N07	O10	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N07	O11	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N07	O12	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N08	O01	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N08	O02	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N08	O03	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N08	O04	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N08	O05	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N08	O06	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N08	O07	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N08	O08	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N08	O09	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N08	O10	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N08	O11	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N08	O12	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N09	O01	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N09	O02	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N09	O03	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N09	O04	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N09	O05	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N09	O06	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N09	O07	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N09	O08	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N09	O09	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N09	O10	CALIBRATES_ONLY	sets dimensions or local conversion but no dimensionless representation data	NO
+N09	O11	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N09	O12	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N10	O01	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N10	O02	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N10	O03	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N10	O04	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N10	O05	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N10	O06	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N10	O07	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N10	O08	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N10	O09	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N10	O10	CALIBRATES_ONLY	sets dimensions or local conversion but no dimensionless representation data	NO
+N10	O11	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N10	O12	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N11	O01	CONFLICTING_OR_SUPERSEDED	inactive strong-CSN premise cannot be used in current physics	NO
+N11	O02	CONFLICTING_OR_SUPERSEDED	inactive strong-CSN premise cannot be used in current physics	NO
+N11	O03	CONFLICTING_OR_SUPERSEDED	inactive strong-CSN premise cannot be used in current physics	NO
+N11	O04	CONFLICTING_OR_SUPERSEDED	inactive strong-CSN premise cannot be used in current physics	NO
+N11	O05	CONFLICTING_OR_SUPERSEDED	inactive strong-CSN premise cannot be used in current physics	NO
+N11	O06	CONFLICTING_OR_SUPERSEDED	inactive strong-CSN premise cannot be used in current physics	NO
+N11	O07	CONFLICTING_OR_SUPERSEDED	inactive strong-CSN premise cannot be used in current physics	NO
+N11	O08	CONFLICTING_OR_SUPERSEDED	inactive strong-CSN premise cannot be used in current physics	NO
+N11	O09	CONFLICTING_OR_SUPERSEDED	inactive strong-CSN premise cannot be used in current physics	NO
+N11	O10	CONFLICTING_OR_SUPERSEDED	inactive strong-CSN premise cannot be used in current physics	NO
+N11	O11	CONFLICTING_OR_SUPERSEDED	inactive strong-CSN premise cannot be used in current physics	NO
+N11	O12	CONFLICTING_OR_SUPERSEDED	inactive strong-CSN premise cannot be used in current physics	NO
+N12	O01	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N12	O02	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N12	O03	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N12	O04	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N12	O05	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N12	O06	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N12	O07	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N12	O08	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N12	O09	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N12	O10	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N12	O11	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N12	O12	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N13	O01	DOES_NOT_ADDRESS	working co-presence interpretation supplies no registered mathematical construction map	NO
+N13	O02	DOES_NOT_ADDRESS	working co-presence interpretation supplies no registered mathematical construction map	NO
+N13	O03	DOES_NOT_ADDRESS	working co-presence interpretation supplies no registered mathematical construction map	NO
+N13	O04	DOES_NOT_ADDRESS	working co-presence interpretation supplies no registered mathematical construction map	NO
+N13	O05	DOES_NOT_ADDRESS	working co-presence interpretation supplies no registered mathematical construction map	NO
+N13	O06	DOES_NOT_ADDRESS	working co-presence interpretation supplies no registered mathematical construction map	NO
+N13	O07	DOES_NOT_ADDRESS	working co-presence interpretation supplies no registered mathematical construction map	NO
+N13	O08	DOES_NOT_ADDRESS	working co-presence interpretation supplies no registered mathematical construction map	NO
+N13	O09	DOES_NOT_ADDRESS	working co-presence interpretation supplies no registered mathematical construction map	NO
+N13	O10	DOES_NOT_ADDRESS	working co-presence interpretation supplies no registered mathematical construction map	NO
+N13	O11	DOES_NOT_ADDRESS	working co-presence interpretation supplies no registered mathematical construction map	NO
+N13	O12	DOES_NOT_ADDRESS	working co-presence interpretation supplies no registered mathematical construction map	NO
+N14	O01	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N14	O02	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N14	O03	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N14	O04	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N14	O05	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N14	O06	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N14	O07	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N14	O08	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N14	O09	CONSTRAINS_ONLY	narrows or classifies the obligation without closing it	NO
+N14	O10	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N14	O11	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N14	O12	DOES_NOT_ADDRESS	no registered typed operation from this premise to this obligation	NO
+N15	O01	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N15	O02	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N15	O03	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N15	O04	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N15	O05	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N15	O06	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N15	O07	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N15	O08	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N15	O09	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N15	O10	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N15	O11	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N15	O12	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N16	O01	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N16	O02	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N16	O03	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N16	O04	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N16	O05	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N16	O06	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N16	O07	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N16	O08	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N16	O09	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N16	O10	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N16	O11	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N16	O12	DOES_NOT_ADDRESS	object is excluded from this audit	NO
+N17	O01	DOES_NOT_ADDRESS	external/GR material is comparison-only	NO
+N17	O02	DOES_NOT_ADDRESS	external/GR material is comparison-only	NO
+N17	O03	DOES_NOT_ADDRESS	external/GR material is comparison-only	NO
+N17	O04	DOES_NOT_ADDRESS	external/GR material is comparison-only	NO
+N17	O05	DOES_NOT_ADDRESS	external/GR material is comparison-only	NO
+N17	O06	DOES_NOT_ADDRESS	external/GR material is comparison-only	NO
+N17	O07	DOES_NOT_ADDRESS	external/GR material is comparison-only	NO
+N17	O08	DOES_NOT_ADDRESS	external/GR material is comparison-only	NO
+N17	O09	DOES_NOT_ADDRESS	external/GR material is comparison-only	NO
+N17	O10	DOES_NOT_ADDRESS	external/GR material is comparison-only	NO
+N17	O11	DOES_NOT_ADDRESS	external/GR material is comparison-only	NO
+N17	O12	DOES_NOT_ADDRESS	external/GR material is comparison-only	NO
