@@ -1,0 +1,23 @@
+premise_id	object	provenance_tag	registered_status	use
+P01	UDT_metric_is_the_theory	pinned-by-THEORY	BINDING	metric-intrinsic comparison gate
+P02	phi_additive_log_depth	pinned-by-THEORY	DERIVED	founded pair parameter
+P03	founded_reciprocal_pair_action	pinned-by-THEORY	DERIVED	local pair weights
+P04	exact_complete_quotient_semantics	free-and-explored	OPEN	conditional query not physical premise
+P05	complete_lift_group_law	free-and-explored	OPEN	conditional query not inherited silently
+P06	intrinsic_clock_ruler_screen_on_twisted_S3	pinned-by-THEORY	DERIVED_GIVEN_REGISTERED_CONFIGURATION	branchwise input
+P07	twisted_S3_configuration_on_shell	free-and-explored	NOT_SELECTED	must remain configuration
+P08	lambda	free-and-explored	UNSELECTED_REAL_PARAMETER	all registered nodes retained
+P09	global_Maurer_Cartan_coframe	pinned-by-CONFIGURATION	SUPPLIED_GLOBAL_TRIVIALIZATION	not automatically metric-selected flag
+P10	metric_screen_projector	pinned-by-THEORY	DERIVED_GIVEN_INTRINSIC_PAIR	basis-free screen
+P11	Levi_Civita_transport	pinned-by-MATHEMATICAL_DEFINITION	METRIC_CANONICAL_PHYSICAL_ROLE_OPEN	connection and holonomy control
+P12	global_screen_orientation_or_flag	free-and-explored	OPEN	derive or fail
+P13	full_sampled_holonomy_on_twisted_S3	pinned-by-THEORY	DERIVED_BOUNDED_WITNESS	loop/parallel control
+P14	reduced_lambda_plus1_product	pinned-by-THEORY	DERIVED_CONDITIONAL_CONTROL	loses nontrivial pair data
+P15	completion_classes	free-and-explored	REGISTERED_STRUCTURAL_UNIVERSE	must not imply concrete metrics
+P16	physical_observer_path_section	free-and-explored	OPEN	excluded downstream selection
+P17	strong_local_CSN	pinned-by-THEORY	INACTIVE_CHALLENGED_NOT_DERIVED	excluded
+P18	c_E_and_G_obs	pinned-by-THEORY	OBSERVED_ANCHORS_RETAINED	numerically unused
+P19	S2_carrier	pinned-by-THEORY	POSIT	excluded
+P20	bootstrap	pinned-by-THEORY	WORKING_ON_SHELL_ADMISSIBILITY	excluded as local selector
+P21	Xmax	pinned-by-THEORY	WORKING_GLOBAL_OBSERVER_PAIR_SCHEMA	excluded
+P22	action_source_boundary_mass_density_dynamics	free-and-explored	OPEN	excluded downstream objects

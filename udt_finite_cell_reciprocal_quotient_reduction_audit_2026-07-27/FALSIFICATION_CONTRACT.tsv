@@ -1,0 +1,16 @@
+gate_id	claim_or_risk	pass_condition	failure_condition	maximum_status
+G01	branch_completeness	All 15 frozen branch rows and 12 completion rows classified exactly once	Developed S3 witnesses replace the full universe	FAIL_AUDIT
+G02	quotient_semantics	Every quotient result remains conditional on P04	Pointwise algebra is promoted to founding physical semantics	FAIL_AUDIT
+G03	screen_vs_flag	Basis-free screen projector is separated from orientation line basis and rotation law	A global coframe is called a metric-selected flag	FAIL_AUDIT
+G04	finite_metric_descent	Parent w fiber is tested using actual branch C and S strata	First-response equality alone is called finite equality	VERIFIED_SCOPED
+G05	isotropic_unmixed	Exact finite equality is proved on the registered isotropic unmixed branch	w is called physical on the special gauge stratum	VERIFIED_SCOPED
+G06	anisotropic_or_mixed	Every available anisotropic/mixed control retains second-jet consequences	w is called gauge on all branches	VERIFIED_SCOPED
+G07	global_bundle	Existence of a global screen subbundle is proved independently of parallelism	Full holonomy is used to deny the pointwise/global projector	VERIFIED_SCOPED
+G08	connection_closure	Projected screen transport and pair-screen leakage are classified	Metric connection is assumed to preserve the reduction	VERIFIED_SCOPED
+G09	holonomy	Loop preservation and path-labelled conjugation are separated	Path-labelled composition is promoted to endpoint descent	FAIL_AUDIT
+G10	reduced_survivor	lambda=+1 product is recorded with constant depth and ruler loss	Reduced holonomy control is called full reciprocal closure	FAIL_AUDIT
+G11	completion_scope	Structural completions without concrete metrics remain structural	Topology labels are treated as computed transition laws	FAIL_AUDIT
+G12	cross_branch	No clock ruler screen or lapse is spliced across representatives	Best properties from different branches are combined	FAIL_AUDIT
+G13	physical_selection	Configuration existence remains distinct from on-shell selection	A branch or lambda is promoted	FAIL_AUDIT
+G14	independence	Separate implementation reconstructs projectors finite descent and holonomy controls	Verifier reads production output as its premise	VERIFIED_WITH_CAVEATS_CEILING
+G15	repository	Premises tests frozen packages navigation and dirty metadata retain baseline	Unrelated or frozen state changes	FAIL_AUDIT
