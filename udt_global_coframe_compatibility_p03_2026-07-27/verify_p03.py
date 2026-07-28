@@ -107,9 +107,10 @@ def main() -> None:
             checksum, name = line.split("  ", 1)
             assert name not in recorded
             recorded[name] = checksum
+        excluded = {manifest_path.name, "REPOSITORY_GATES.json"}
         actual_files = {
             path.name for path in PKG.iterdir()
-            if path.is_file() and path.name != manifest_path.name and not path.name.endswith(".pyc")
+            if path.is_file() and path.name not in excluded and not path.name.endswith(".pyc")
         }
         assert set(recorded) == actual_files
         assert all(digest(PKG / name) == checksum for name, checksum in recorded.items())

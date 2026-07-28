@@ -20,9 +20,10 @@ def digest(path: Path) -> str:
 
 
 def main() -> None:
+    excluded = {OUTPUT.name, "REPOSITORY_GATES.json"}
     files = sorted(
         path for path in HERE.iterdir()
-        if path.is_file() and path.name != OUTPUT.name and not path.name.endswith(".pyc")
+        if path.is_file() and path.name not in excluded and not path.name.endswith(".pyc")
     )
     OUTPUT.write_text("".join(f"{digest(path)}  {path.name}\n" for path in files))
 

@@ -5,7 +5,7 @@
   "checks": [
     {
       "check": "package_sha256_manifest",
-      "count": 22,
+      "count": 23,
       "status": "PASS"
     },
     {
