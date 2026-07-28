@@ -1,0 +1,31 @@
+{
+  "background_solve_authorized": 0,
+  "catch_proofs": {
+    "background_promotion_rejected": true,
+    "conditional_action_promotion_rejected": true,
+    "duplicate_path_rejected": true,
+    "hash_mutation_rejected": true,
+    "kinematic_promotion_rejected": true,
+    "missing_path_rejected": true
+  },
+  "cleanroom_result_blob_unchanged": true,
+  "errors": [],
+  "family_counts": {
+    "F01_GR_S2_COUPLED": 3,
+    "F02_LEGACY_SCALAR_SOURCE": 5,
+    "F03_S2_STRESS_PROBE": 1,
+    "F04_NONROUND_SL_PROXY": 5,
+    "F05_W_CHANNEL_ACTION": 2,
+    "F06_SIMPLE_L_SPECTRUM": 1,
+    "F07_C2_EH_FLUX": 2,
+    "F08_SPHERICAL_AREAL_KINEMATICS": 2
+  },
+  "historical_or_blocked_scripts": 16,
+  "ledger_sha256": "86d060264f174e0a38e10238c82c31b7fac501777320ed5e29b1abbc0337cb80",
+  "post_july_scripts": 5,
+  "pre_july_scripts": 16,
+  "result": "PASS",
+  "retained_conditional_nonbackground_scripts": 5,
+  "schema": "udt-cleanroom-legacy-provenance-verification-1.0",
+  "scripts": 21
+}

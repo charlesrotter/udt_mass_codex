@@ -1,0 +1,4 @@
+python3 udt_cleanroom_metric_reduction_readiness_audit_2026-07-27/inventory_legacy_time_systems.py --output-dir udt_cleanroom_metric_reduction_readiness_audit_2026-07-27
+python3 udt_cleanroom_metric_reduction_readiness_audit_2026-07-27/verify_legacy_provenance.py
+
+No inventoried legacy ODE/time-live/evolution script was executed.
