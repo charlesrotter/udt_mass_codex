@@ -1,0 +1,5 @@
+python3 udt_finite_reciprocal_quotient_lift_audit_2026-07-27/derive_finite_quotient_lifts.py
+python3 -S udt_finite_reciprocal_quotient_lift_audit_2026-07-27/verify_finite_quotient_lifts_independent.py
+python3 udt_finite_reciprocal_quotient_lift_audit_2026-07-27/verify_audit.py
+python3 verify_current_scientific_premises.py
+python3 -m pytest -q tests/

@@ -1,0 +1,38 @@
+{
+  "check_count": 18,
+  "checks": {
+    "independent_anisotropic_second_jet_differs": "PASS",
+    "independent_check_count_before_count_check": "PASS",
+    "independent_fixed_response_same": "PASS",
+    "independent_flags_distinct": "PASS",
+    "independent_flags_same_response": "PASS",
+    "independent_generator_rank_eight": "PASS",
+    "independent_isotropic_mixed_second_jet_differs": "PASS",
+    "independent_isotropic_unmixed_metric_series_equal_through_order_eight": "PASS",
+    "independent_isotropic_unmixed_second_jet_same": "PASS",
+    "independent_lower_flag": "PASS",
+    "independent_mixed_difference_location": "PASS",
+    "independent_nonlinear_path_fails_group": "PASS",
+    "independent_nonlinear_path_fails_reversal": "PASS",
+    "independent_quotient_constraint_rank_eight": "PASS",
+    "independent_rational_rotations_orthogonal": "PASS",
+    "independent_response_rank_seven": "PASS",
+    "independent_screen_rotation_is_response_kernel": "PASS",
+    "independent_upper_flag": "PASS"
+  },
+  "controls": {
+    "anisotropic_unmixed_rotation": "SECOND_JET_DIFFERENT",
+    "isotropic_mixed_rotation": "SECOND_JET_DIFFERENT",
+    "isotropic_unmixed_rotation": "METRIC_SERIES_EQUAL_THROUGH_ORDER_8",
+    "nonlinear_fixed_metric_screen_path": "QUOTIENT_YES_GROUP_NO_REVERSAL_NO"
+  },
+  "implementation": "stdlib_Fraction_no_sympy_no_production_import",
+  "ranks": {
+    "first_metric_response": 7,
+    "fixed_response_kernel": 1,
+    "quotient_constraints": 8,
+    "quotient_group_generators": 8
+  },
+  "result": "PASS",
+  "schema": "udt.finite_reciprocal_quotient_lift.independent.v1"
+}

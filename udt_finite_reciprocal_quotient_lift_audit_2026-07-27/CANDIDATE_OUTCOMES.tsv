@@ -1,0 +1,13 @@
+candidate_id	candidate	outcome	parameter_or_function_count	decisive_reason	physical_status
+Q01	arbitrary_smooth_exact_quotient_lift	FUNCTIONALLY_UNDERDETERMINED	8_function_components	F=[[B,0],[L,Q]] with arbitrary smooth L and invertible Q	OPEN_NOT_SELECTED
+Q02	continuous_one_parameter_quotient_representation	DERIVED_IF_COMPLETE_GROUP_LAW	8_constants	regular representation is exp(phi X) with X=[[H,0],[C,K]]	CONDITIONAL_PREMISE
+Q03	fixed_first_metric_response_lifts	SET_VALUED	1_constant	response fixes C and symmetric S but leaves K=S+wJ	OPEN_SCREEN_ROTATION
+Q04	metric_self_adjoint_lift	CONDITIONAL_ON_ZERO_MIXING	0_when_C_zero	full eta-self-adjoint representative violates quotient for nonzero C	NOT_GENERAL_SELECTOR
+Q05	upper_triangular_screen_flag_lift	CONDITIONAL_ON_SCREEN_FLAG	0_given_response_and_flag	upper flag fixes w=+b	FLAG_NOT_SELECTED
+Q06	lower_triangular_screen_flag_lift	CONDITIONAL_ON_SCREEN_FLAG	0_given_response_and_flag	lower flag fixes w=-b	FLAG_NOT_SELECTED
+Q07	isotropic_unmixed_screen_rotation	REPRESENTATIVE_ONLY_ON_STATED_STRATUM	1_metric_invisible_constant	C=0 and S=lambda I gives exact finite metric equality for every w	PHYSICAL_ROLE_OPEN
+Q08	anisotropic_unmixed_screen_rotation	INEQUIVALENT_FINITE_METRIC_DATA	1_constant	anisotropy makes second metric jet depend on w	NOT_GAUGE_GENERICALLY
+Q09	isotropic_mixed_screen_rotation	INEQUIVALENT_FINITE_METRIC_DATA	1_constant	nonzero C makes cross second metric jet depend on w	NOT_GAUGE_GENERICALLY
+Q10	phi_dependent_fixed_metric_frame_change	QUOTIENT_METRIC_EQUIVALENT_BUT_NOT_GROUP	functional	R(phi^2) screen path preserves metric and quotient but fails composition and reversal	NOT_COMPLETE_REPRESENTATION
+Q11	reciprocal_reversal_and_composition	DERIVED_IF_COMPLETE_GROUP_LAW	all_8_generator_parameters	constant-generator representations compose and reverse; quotient-only lifts need not	NONSELECTOR
+Q12	finite_cell_global_quotient_extension	OPEN_PHYSICAL_ROLE	unbounded_global_data	invariant screen subbundle transitions flag and gluing are not supplied	OPEN_NOT_SELECTED

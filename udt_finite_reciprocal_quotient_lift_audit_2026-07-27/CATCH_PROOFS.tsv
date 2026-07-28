@@ -1,0 +1,12 @@
+catch_id	mutation	failure_reason	result
+promote_quotient_to_physical	Change exact quotient physical status from OPEN to DERIVED	Exact quotient was a registered query premise not a founded physical law	PASS
+inherit_complete_group_law_silently	Call complete group law derived from pair law	Pair composition does not constrain arbitrary L(phi) and Q(phi)	PASS
+drop_eighth_generator	Report seven rather than eight quotient-group generator constants	General K has four entries before a screen flag is chosen	PASS
+claim_unique_fixed_response_lift	Set fixed-response fiber dimension to zero	Exact response-map kernel is one-dimensional screen so(2)	PASS
+select_triangular_flag	Promote the upper screen flag to derived	Upper and lower flags have the same response and rotate into one another	PASS
+call_rotation_always_gauge	Call screen rotation representative freedom on every stratum	Anisotropy or mixing changes the second metric jet	PASS
+call_rotation_always_physical	Call screen rotation inequivalent on every stratum	Isotropic unmixed screen rotations give the same exact finite metric	PASS
+broaden_gauge_stratum	Omit the no-mixing condition from the gauge stratum	General symbolic mixed second jet vanishes only when C is zero	PASS
+call_self_adjoint_general_quotient	Use full eta-self-adjoint response representative for arbitrary C	Its upper-right block violates exact screen invariance when C is nonzero	PASS
+let_seal_select_extension	Give phi=0 identity nonzero selector rank	Every regular group lift equals identity at the seal	PASS
+promote_global_section	Call the pointwise block form a global physical section	Invariant subbundle transition flag and monodromy data remain open	PASS
