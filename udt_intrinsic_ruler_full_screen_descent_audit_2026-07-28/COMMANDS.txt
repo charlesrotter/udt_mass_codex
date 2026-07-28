@@ -1,0 +1,4 @@
+python3 udt_intrinsic_ruler_full_screen_descent_audit_2026-07-28/freeze_sources.py
+python3 udt_intrinsic_ruler_full_screen_descent_audit_2026-07-28/run_and_capture.py
+python3 udt_intrinsic_ruler_full_screen_descent_audit_2026-07-28/verify_audit.py
+python3 udt_intrinsic_ruler_full_screen_descent_audit_2026-07-28/verify_repository_gates.py

@@ -1,0 +1,12 @@
+{
+  "catch_proofs": 28,
+  "dirty_paths": 57,
+  "dirty_status_sha256": "bf85b6db00083cfa0d19e4ba9cc09766423cc2d5e224954f12ceda74aeab9c96",
+  "errors": [],
+  "independent_checks": 139,
+  "production_checks": 23,
+  "schema": "udt-intrinsic-ruler-full-screen-descent-verification-1.0",
+  "source_count": 23,
+  "source_identity_sha256": "340944872577f6c885ac2bd7aeedd05618ea39b0c04d0a774f5d943d4599a440",
+  "status": "PASS"
+}

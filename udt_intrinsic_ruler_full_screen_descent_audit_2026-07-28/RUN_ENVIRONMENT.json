@@ -1,0 +1,18 @@
+{
+  "device": "CPU_ONLY",
+  "independent": {
+    "command": "/usr/bin/python3 udt_intrinsic_ruler_full_screen_descent_audit_2026-07-28/verify_intrinsic_ruler_descent_independent.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "8c71dd77d048541c6bf5b04aab1fc6c88cd2b68601f2c8c999ac083af964d5d5"
+  },
+  "production": {
+    "command": "/usr/bin/python3 udt_intrinsic_ruler_full_screen_descent_audit_2026-07-28/derive_intrinsic_ruler_descent.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "cfb571a398bde1d24f178510014eda83e7157e55d61fe793197cd541557e1abe"
+  },
+  "python": "3.10.12",
+  "schema": "udt-intrinsic-ruler-full-screen-descent-run-1.0",
+  "sympy": "1.13.1"
+}

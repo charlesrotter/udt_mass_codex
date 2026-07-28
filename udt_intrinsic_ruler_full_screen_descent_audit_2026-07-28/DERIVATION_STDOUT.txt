@@ -1,0 +1,142 @@
+{
+  "check_count": 23,
+  "checks": [
+    {
+      "id": "A01_general_P_clock_twist_coefficient",
+      "status": "PASS"
+    },
+    {
+      "id": "A02_twist_has_only_ruler_Hodge_line",
+      "status": "PASS"
+    },
+    {
+      "id": "A03_both_screen_shears_enter_only_through_detP_in_twist",
+      "status": "PASS"
+    },
+    {
+      "id": "A04_exact_E0_E1_in_K_V_basis",
+      "status": "PASS"
+    },
+    {
+      "id": "A05_orbit_projection_of_E1_is_Hopf_line",
+      "status": "PASS"
+    },
+    {
+      "id": "A06_founded_depth_normalization",
+      "status": "PASS"
+    },
+    {
+      "id": "A07_sigma3_normalizes_V",
+      "status": "PASS"
+    },
+    {
+      "id": "A08_Hopf_fiber_period",
+      "status": "PASS"
+    },
+    {
+      "id": "A09_Hopf_curvature_flux_unit_magnitude",
+      "status": "PASS"
+    },
+    {
+      "id": "A10_screen_Lie_derivative_is_equivariant_tensor",
+      "status": "PASS"
+    },
+    {
+      "id": "A11_full_metric_invariance_forces_Vphi_zero",
+      "status": "PASS"
+    },
+    {
+      "id": "A12_rotating_anisotropic_screen_is_fiber_invariant",
+      "status": "PASS"
+    },
+    {
+      "id": "A13_rotating_screen_preserves_trace_and_determinant",
+      "status": "PASS"
+    },
+    {
+      "id": "A14_kappa_minus_two_solution_is_2pi_periodic",
+      "status": "PASS"
+    },
+    {
+      "id": "A15_registered_Hopf_generator_at_certificate",
+      "status": "PASS"
+    },
+    {
+      "id": "A16_old_profile_is_fiber_dependent",
+      "status": "PASS"
+    },
+    {
+      "id": "A17_old_C01_C06_Vphi_is_3_over_50",
+      "status": "PASS"
+    },
+    {
+      "id": "A18_all_six_old_rank_determinants_nonzero",
+      "status": "PASS"
+    },
+    {
+      "id": "A19_rank_three_is_C3_open",
+      "status": "PASS"
+    },
+    {
+      "id": "A20_two_Killing_directions_force_spatial_gradient_det_zero",
+      "status": "PASS"
+    },
+    {
+      "id": "A21_rank_upper_bound_is_two",
+      "status": "PASS"
+    },
+    {
+      "id": "A22_helical_family_contains_K",
+      "status": "PASS"
+    },
+    {
+      "id": "A23_K_norm_is_negative_positive_square",
+      "status": "PASS"
+    }
+  ],
+  "compatibility": {
+    "all_metric_intrinsic_clock_selectors_ruled_out": false,
+    "fiber_descent_implies_second_Killing": true,
+    "old_rank3_unique_K_can_coexist_with_descent": false,
+    "remaining_seam": "metric_intrinsic_clock_selector_inside_K_V_symmetry_plane_or_other_global_rule"
+  },
+  "descent": {
+    "anisotropic_two_shear_witness": true,
+    "global_two_shear_witness": "pullback_generic_positive_S2_metric_then_P=positive_sqrt(h)",
+    "old_C01_C06_descend": false,
+    "phi_condition": "V(phi)=0",
+    "screen_condition": "V(h)+kappa*(hR-Rh)=0"
+  },
+  "fixed_base": "97d85edb7da351e6a96bb8c55b4e969ea8e3a749",
+  "general_P_twist": {
+    "coefficient_up_to_orientation": "alpha*c_E**2*kappa*exp(-3*phi)/detP",
+    "line": "theta1",
+    "requires": "supplied_or_metric_selected_K;alpha*kappa_nonzero;detP_nonzero",
+    "screen_shear_dependence": "coefficient_only_through_detP;line_independent"
+  },
+  "maximum_conclusion": "GENERAL_P_TWIST_RULER_ALIGNMENT_AND_OPEN_INTRINSIC_PAIR_NEIGHBORHOODS_DERIVED;FULL_HOPF_METRIC_DESCENT_FORCES_A_SECOND_KILLING_DIRECTION_AND_IS_INCOMPATIBLE_WITH_THE_OLD_RANK3_UNIQUE_CLOCK_CERTIFICATE;NATIVE_CLOCK_SELECTOR_CARRIER_ACTION_AND_PHYSICAL_BRANCH_REMAIN_OPEN",
+  "method_boundary": {
+    "action_or_dynamics_derived": false,
+    "coframe_P_invariance_required_for_metric_descent": false,
+    "constant_alpha_control": true,
+    "counterbranches_retained_without_filter": true,
+    "orientation_selects_ordered_ruler_sign": false,
+    "round_carrier_derived": false,
+    "stationarity_alone_selects_K": false,
+    "strong_local_CSN_used": false
+  },
+  "rank_persistence": {
+    "both_shear_tangents_released": true,
+    "old_nonzero_certificates": 6,
+    "topology": "C3_open_neighborhoods_in_general_screen_configuration_space",
+    "universal_all_P": false
+  },
+  "ruler_Hopf_type_distinction": {
+    "normalized_orbit_form": "exp(-phi)*theta1=sigma3",
+    "orbit_projection": "pi_*E1=exp(-phi)*V",
+    "same_vector": false,
+    "spacetime_ruler_vector": "E1=exp(-phi)*(V-alpha/c_E*K)"
+  },
+  "schema": "udt-intrinsic-ruler-full-screen-descent-1.0",
+  "screen_metric_dof": 3
+}
