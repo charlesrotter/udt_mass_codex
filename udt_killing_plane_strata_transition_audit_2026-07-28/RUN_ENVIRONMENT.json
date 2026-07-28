@@ -1,0 +1,18 @@
+{
+  "device": "CPU_ONLY",
+  "independent": {
+    "command": "/usr/bin/python3 udt_killing_plane_strata_transition_audit_2026-07-28/verify_killing_plane_transition_independent.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "fa7523ecd3e1a9162f7bab56665712a2166ffc94e3a24202d56d18d483cbb8ec"
+  },
+  "production": {
+    "command": "/usr/bin/python3 udt_killing_plane_strata_transition_audit_2026-07-28/derive_killing_plane_transition.py",
+    "exit_code": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "ff27f00e0e7dec40eb9f61d4a26a0c0f0ab667d7388b3c16ecc2bc7a3ad53ceb"
+  },
+  "python": "3.10.12",
+  "schema": "udt-killing-plane-strata-transition-run-1.0",
+  "sympy": "1.13.1"
+}

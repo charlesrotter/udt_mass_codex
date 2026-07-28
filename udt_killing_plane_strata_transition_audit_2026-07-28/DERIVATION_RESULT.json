@@ -1,0 +1,220 @@
+{
+  "base": "b9cf86b878ae8b0d23928d9a855c9d7748e02435",
+  "check_count": 31,
+  "checks": [
+    {
+      "id": "A01_Gram_determinant_is_minus_cE_squared",
+      "status": "PASS"
+    },
+    {
+      "id": "A02_Gram_plane_is_Lorentzian_for_cE_nonzero",
+      "status": "PASS"
+    },
+    {
+      "id": "A03_all_constant_helical_norms",
+      "status": "PASS"
+    },
+    {
+      "id": "A04_causal_norm_factorization",
+      "status": "PASS"
+    },
+    {
+      "id": "A05_first_null_slope",
+      "status": "PASS"
+    },
+    {
+      "id": "A06_second_null_slope",
+      "status": "PASS"
+    },
+    {
+      "id": "A07_K_is_everywhere_timelike",
+      "status": "PASS"
+    },
+    {
+      "id": "A08_exact_Gram_response_endomorphism",
+      "status": "PASS"
+    },
+    {
+      "id": "A09_response_trace_zero",
+      "status": "PASS"
+    },
+    {
+      "id": "A10_response_square",
+      "status": "PASS"
+    },
+    {
+      "id": "A11_response_is_Gram_self_adjoint",
+      "status": "PASS"
+    },
+    {
+      "id": "A12_clock_eigenline_is_K",
+      "status": "PASS"
+    },
+    {
+      "id": "A13_ruler_eigenline_is_V_minus_alpha_over_c_K",
+      "status": "PASS"
+    },
+    {
+      "id": "A14_clock_eigenline_timelike",
+      "status": "PASS"
+    },
+    {
+      "id": "A15_ruler_eigenline_spacelike",
+      "status": "PASS"
+    },
+    {
+      "id": "A16_reciprocal_eigenlines_Gram_orthogonal",
+      "status": "PASS"
+    },
+    {
+      "id": "A17_Gram_response_basis_covariance",
+      "status": "PASS"
+    },
+    {
+      "id": "A18_clock_norm_reciprocal_response_residual",
+      "status": "PASS"
+    },
+    {
+      "id": "A19_full_twist_mixed_sigma1_coefficient",
+      "status": "PASS"
+    },
+    {
+      "id": "A20_full_twist_mixed_sigma2_coefficient",
+      "status": "PASS"
+    },
+    {
+      "id": "A21_full_twist_contact_dt_coefficient",
+      "status": "PASS"
+    },
+    {
+      "id": "A22_full_twist_contact_sigma3_coefficient",
+      "status": "PASS"
+    },
+    {
+      "id": "A23_K_has_no_depth_mixed_twist",
+      "status": "PASS"
+    },
+    {
+      "id": "A24_K_generically_retains_contact_twist",
+      "status": "PASS"
+    },
+    {
+      "id": "A25_other_zero_mixed_line_is_spacelike_ruler",
+      "status": "PASS"
+    },
+    {
+      "id": "A26_constant_depth_V_orthogonal_slope",
+      "status": "PASS"
+    },
+    {
+      "id": "A27_constant_depth_perp_differs_from_K_when_alpha_nonzero",
+      "status": "PASS"
+    },
+    {
+      "id": "A28_constant_depth_kappa_zero_all_twists_vanish",
+      "status": "PASS"
+    },
+    {
+      "id": "A29_lattice_automorphism_epsilon_-1",
+      "status": "PASS"
+    },
+    {
+      "id": "A29_lattice_automorphism_epsilon_+1",
+      "status": "PASS"
+    },
+    {
+      "id": "A30_six_exact_nonzero_unique_clock_endpoints",
+      "status": "PASS"
+    }
+  ],
+  "constant_depth_classification": "FOUNDED_K_NOT_METRIC_SELECTED_GENERICALLY;METRIC_ORTHOGONAL_CLOCK_DIFFERS_OR_CAUSAL_DEGENERACY",
+  "gram": {
+    "causality_selects_K": false,
+    "determinant": "-c_E**2",
+    "helical_norm": "-(Omega*alpha*u - Omega + c_E*u)*(Omega*alpha*u + Omega + c_E*u)/u",
+    "matrix_basis_K_V": [
+      [
+        "-c_E**2*u",
+        "-alpha*c_E*u"
+      ],
+      [
+        "-alpha*c_E*u",
+        "-alpha**2*u + 1/u"
+      ]
+    ],
+    "null_slopes": [
+      "c_E/(exp(2phi)-alpha)",
+      "-c_E/(exp(2phi)+alpha)"
+    ]
+  },
+  "gram_response": {
+    "basis_covariant": true,
+    "clock_eigenline": "K",
+    "clock_eigenvalue": "-2*X(phi)",
+    "clock_norm": "-c_E^2*exp(-2phi)",
+    "critical_point_handling": "global_constant_Lie_algebra_lines_extend_from_any_regular_point_on_connected_base",
+    "endomorphism": [
+      [
+        "-2*chi",
+        "-4*alpha*chi/c_E"
+      ],
+      [
+        "0",
+        "2*chi"
+      ]
+    ],
+    "requires": "Gram_map_nonconstant_equivalently_phi_nonconstant_in_constant_alpha_family",
+    "ruler_eigenline": "V-alpha/c_E*K",
+    "ruler_eigenvalue": "+2*X(phi)",
+    "ruler_norm": "exp(2phi)"
+  },
+  "macro_micro_assignment": "OPEN_NOT_TESTED",
+  "maximum_conclusion": "ON_THE_DESCENDED_NONCONSTANT_DEPTH_STRATUM_THE_COMPLETE_METRIC_GRAM_RESPONSE_UNIQUELY_RECOVERS_THE_FOUNDED_CLOCK_K_AND_RULER_V_MINUS_ALPHA_OVER_CE_K;CONSTANT_DEPTH_REMAINS_A_DISTINCT_DEGENERATE_OR_FRAMING_MISMATCH_STRATUM;THE_DESCENDED_AND_OLD_RANK3_UNIQUE_CLOCK_STRATA_ARE_CONTINUOUSLY_ADJACENT_AND_HAND_OFF_THE_SAME_K_LINE;NO_MACRO_MICRO_OR_MASS_EMERGENCE_ASSIGNMENT_IS_DERIVED",
+  "method_boundary": {
+    "action_used": false,
+    "all_real_projective_directions_classified": true,
+    "block_screen": true,
+    "bootstrap_loaded": false,
+    "carrier_derived": false,
+    "constant_alpha": true,
+    "exceptional_strata_retained": true,
+    "higher_isometry_metrics_exhausted": false,
+    "off_shell": true,
+    "physical_regime_selected": false,
+    "registered_K_V_plane_conditional": true,
+    "source_used": false,
+    "stationary": true,
+    "strong_local_CSN_used": false
+  },
+  "primary_classification": "MIXED_PARAMETER_STRATA",
+  "schema": "udt-killing-plane-strata-transition-1.0",
+  "selector_handoff": "DESCENDED_GRAM_RESPONSE_K_TO_NEARBY_RANK3_K",
+  "strata_relation": "CONTINUOUSLY_ADJACENT_WITHIN_REGISTERED_STATIONARY_FAMILY",
+  "topology": {
+    "compact_action": "free_S1_on_chosen_S3",
+    "compact_line": "registered_V_up_to_sign_inside_tested_plane",
+    "fixed_points": "none_in_chosen_control",
+    "higher_isometry_plane_selection": "OPEN",
+    "lattice_preserving_automorphisms": "K_to_rK_plus_bV;V_to_epsilonV;r_nonzero;b_real;epsilon_plus_or_minus_one",
+    "noncompact_helical_lines": "all_K+Omega*V_have_free_R_orbits",
+    "topology_alone_selects_K_among_helices": false
+  },
+  "twist": {
+    "K_full_twist_generically_zero": false,
+    "a_Omega": "-c_E*(c_E+alpha*Omega)*exp(-2phi)",
+    "b_Omega": "Omega*exp(2phi)-alpha*(c_E+alpha*Omega)*exp(-2phi)",
+    "constant_depth_kappa_zero": "ALL_CONSTANT_KILLING_DIRECTIONS_TWIST_FREE",
+    "contact_coefficients": [
+      "kappa*a_Omega*b_Omega",
+      "kappa*b_Omega^2"
+    ],
+    "mixed_coefficients": [
+      "4*c_E*Omega*(c_E+alpha*Omega)*X1(phi)",
+      "4*c_E*Omega*(c_E+alpha*Omega)*X2(phi)"
+    ],
+    "other_no_depth_mixed_line": "V-alpha/c_E*K_is_spacelike",
+    "twist_free_constant_depth_line": "V_orthogonal_when_finite_and_kappa_nonzero",
+    "unique_timelike_no_depth_mixed_line_if_dphi_nonzero": "K"
+  },
+  "variable_depth_descended_classification": "UNIQUE_METRIC_FOUNDED_CLOCK_AND_RULER_LINES"
+}
