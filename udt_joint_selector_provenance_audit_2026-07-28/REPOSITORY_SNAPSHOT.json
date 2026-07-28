@@ -1,0 +1,21 @@
+{
+  "base_commit": "bb70833d1e28cfcd7a62073860223f3b26e715ad",
+  "base_tree": "c0c9b44bb0d99751f5711f4a8c8807aee981035b",
+  "bucket_file_counts": {
+    "B1_FOUNDING": 3313,
+    "B2_DEPTH": 396,
+    "B3_LIFT": 2982,
+    "B4_GLOBAL": 4259,
+    "B5_JOINT": 6502
+  },
+  "candidate_files": 3044,
+  "dirty_worktree_read": false,
+  "generated_sources_eligible": false,
+  "hit_files": 7486,
+  "qualifying_groups": 80,
+  "schema": "udt-joint-selector-source-discovery-1.0",
+  "source_groups": 1294,
+  "status": "PASS",
+  "text_paths": 9688,
+  "tracked_paths": 9926
+}

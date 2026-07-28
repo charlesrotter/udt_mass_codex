@@ -1,0 +1,1295 @@
+group	text_files	hit_files	buckets	bucket_count	qualifies	candidate_files
+.claude	7	6	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::AGENTS.md	1	1	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	1
+ROOT::ANGULAR_TORIC_HANDOFF_UPDATE_PREREG_2026-07-19.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::AUDIT.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::CANON.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::CLAUDE.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::CODEX_STARTUP_REHEARSAL_2026-07-17.md	1	1	B5_JOINT	1	NO	0
+ROOT::CODEX_ZERO_CONTEXT_STARTUP_REHEARSAL_2026-07-19.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::CODEX_ZERO_CONTEXT_STARTUP_REHEARSAL_PREREG_2026-07-19.md	1	1	B5_JOINT	1	NO	0
+ROOT::COGNITIVE_CORRAL_TRIGGERS_SETUP.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::CROSS_MODEL_VERIFY.md	1	1	B5_JOINT	1	NO	0
+ROOT::CURRENT_SCIENTIFIC_PREMISES.md	1	1	B1_FOUNDING;B2_DEPTH;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::CURRENT_SCIENTIFIC_PREMISES.tsv	1	1	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::D1_FIX_DESIGN.md	1	0		0	NO	0
+ROOT::F0_SYSTEMATIC_AUDIT_results.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::F2_closure_results.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::F2_matter_action_forcedness_results.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::F4_seal_boundary_MAP.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::F5_critical_universe_closure_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::F6_postulate_A_ledger_results.md	1	1	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::F7_scale_bridge_native_results.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::F8_metric_choices_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::FOUNDATIONAL_ASSUMPTIONS_LEDGER.md	1	1	B1_FOUNDING;B2_DEPTH;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::GR_NUMERICS_RESEARCH_2026-06-29.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::H3_hopfion_solve_preregistration.md	1	1	B5_JOINT	1	NO	0
+ROOT::H4_GP_switch_hopfion_MAP.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::H4_N1_offround_transverse_equation_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::H4_N2_farfield_reduction_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::H4_N4_backreaction_solve_preregistration.md	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::H4_N4_backreaction_solve_results.md	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::H4_N4a_source_background_audit_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::H4_N4rev_conditional_mass_response_results.md	1	1	B2_DEPTH;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::H4_N4rev_sign_certification_results.md	1	1	B2_DEPTH;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::H4_N5_whole_cell_criticality_MAP.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::H4_N5a_whole_cell_criticality_rederivation_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::H4_N5b_flux_budget_closure_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::H4_backreaction_mass_MAP.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::H4_screening_taxonomy_MAP.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::HANDOFF.md	1	1	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	1
+ROOT::HANDOFF_ARCHIVE.md	1	1	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::HYGIENE_HEADER_TEMPLATE.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::INDEX.md	1	1	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	1
+ROOT::J_of_s_light_deflection_confrontation_MAP.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::LIVE.md	1	1	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	1
+ROOT::MATTER_SECTOR_MAP_new_foundation.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::MEMORY.md	1	1	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	1
+ROOT::N5d_solver_build_plan.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::NEGATIVES_REGISTRY.md	1	1	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	1
+ROOT::P1_PURITY_HARNESS_MAP.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::P5e_proper_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::PROBLEM_STATEMENT.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::PROVENANCE.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::PURSUIT_CHARTER_2026-07-04.md	1	1	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::QUANTIZATION_MAP.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::README.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::REORGANIZATION_R0_PREREG_2026-07-18.md	1	0		0	NO	0
+ROOT::SIMPLE_METRIC_MACRO.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::SOLVER_INTEGRITY_UPGRADES_SPEC.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::STATE.md	1	1	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::STRUCTURE_HYGIENE.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::TRACTABILITY_ROUTES.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::UDT_DOTTED_LINE.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::UDT_ELEGANCE_UNCOVER.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::UDT_ELEGANT_FRAME.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::UDT_F_POSTRETURN_AUDIT_AND_CODEX_TRANSITION_DISPATCH.md	1	1	B5_JOINT	1	NO	0
+ROOT::UDT_GLOBAL_BOOTSTRAP_PRINCIPLE_2026-07-15.md	1	1	B5_JOINT	1	NO	0
+ROOT::UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md	1	1	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::UDT_GR_TO_UDT_SELECTOR_AUDIT_PREREG_2026-07-18.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::UDT_H3_BOUNDARY_AUDIT_PATCH_THEN_F_DISPATCH.md	1	1	B5_JOINT	1	NO	0
+ROOT::UDT_H3_BOUNDARY_VIRIAL_CLOSURE_BEFORE_F_DISPATCH.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::UDT_H3_CORRECTED_G_THEN_F_SEQUENCING_DISPATCH.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::UDT_H3_STATIC_MASS_BACKREACTION_DISPATCH.md	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::UDT_METHOD_MUSIC.md	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::UDT_NATIVE_ACTION_ARM_C_INPUT_SHA256SUMS_2026-07-18.txt	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::UDT_NATIVE_ACTION_ARM_C_LAUNCH_RECORD_2026-07-18.md	1	1	B5_JOINT	1	NO	0
+ROOT::UDT_NATIVE_ACTION_ARM_C_RETURN_2026-07-18.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::UDT_NATIVE_ACTION_COLD_ARM_DISPATCH.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::UDT_NATIVE_ACTION_COLD_PACKET.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::UDT_NATIVE_ACTION_DERIVATION_DISPATCH.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::UDT_NATIVE_ACTION_FINAL_ADJUDICATION_PREREG_2026-07-18.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::UDT_NATIVE_ACTION_FINAL_ADJUDICATION_RETURN_2026-07-18.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::UDT_NATIVE_ACTION_STAGE1_LAUNCH_RECORD_2026-07-17.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::UDT_NATIVE_ACTION_STAGE1_RETURN_2026-07-18.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::UDT_NATIVE_ACTION_STAGE2_A1_A6_SHA256SUMS_2026-07-18.txt	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::UDT_NATIVE_ACTION_STAGE2_LAUNCH_RECORD_2026-07-18.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::UDT_NATIVE_ACTION_STAGE2_RETURN_2026-07-18.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::UDT_NATIVE_ACTION_WORKSTATION_SYNC_AUDIT_2026-07-17.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::UDT_NATIVE_ACTION_WORKSTATION_SYNC_DISPATCH.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::UDT_NATIVE_HOPFION_STARTUP_INTEGRATION_PREREG_2026-07-19.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::UDT_NATURE_LEAN_FRAME.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::UDT_RECIPROCAL_C_FOUNDING_POSTULATE_VERIFY_DISPATCH.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::UDT_S2_CARRIER_STATUS_CLARIFICATION_2026-07-15.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::UDT_SCIENTIFIC_CHECKPOINT_INTEGRATION_PREREG_2026-07-19.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::UDT_SCIENTIFIC_FRONTIER_2026-07-19.md	1	1	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	1
+ROOT::UDT_WORKSTATION_TRANSFER_MANIFEST_2026-07-17.md	1	1	B1_FOUNDING	1	NO	0
+ROOT::UDT_XMAX_STATUS_CLARIFICATION_2026-07-15.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::angular_completeness_results.md	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::angular_lagrangian_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::angular_lagrangian_verifier_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::artifact_manifest.json	1	0		0	NO	0
+ROOT::b1prime_3d_offround_residual.py	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::basin_audit_manifest.json	1	0		0	NO	0
+ROOT::branchP_solver_floor_xcontinuation_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::branch_operator.py	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::branch_operator_contamination_ledger.md	1	1	B5_JOINT	1	NO	0
+ROOT::cascade_bv10_E2_period.py	1	0		0	NO	0
+ROOT::cascade_bv10_E2_symbolic.py	1	0		0	NO	0
+ROOT::cascade_bv10_E3_bottom.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_bv10_assembly.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::cascade_bv10_cas.py	1	1	B5_JOINT	1	NO	0
+ROOT::cascade_bv10_reshoot.py	1	0		0	NO	0
+ROOT::cascade_bv11_lib.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::cascade_bv11_v1_root.py	1	1	B4_GLOBAL	1	NO	0
+ROOT::cascade_bv11_v1_scan.py	1	0		0	NO	0
+ROOT::cascade_bv11_v1_tolcheck.py	1	0		0	NO	0
+ROOT::cascade_bv11_v2_desert.py	1	0		0	NO	0
+ROOT::cascade_bv11_v3_cap.py	1	1	B4_GLOBAL	1	NO	0
+ROOT::cascade_bv11_v4_cas.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::cascade_bv11_v5_product.py	1	0		0	NO	0
+ROOT::cascade_bv13_backgrounds.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_bv13_matrices.py	1	1	B5_JOINT	1	NO	0
+ROOT::cascade_bv13_matrices2.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_bv13_su_trans.py	1	0		0	NO	0
+ROOT::cascade_bv13_vhat_probe.py	1	1	B5_JOINT	1	NO	0
+ROOT::cascade_bv13_w1_classes.py	1	1	B5_JOINT	1	NO	0
+ROOT::cascade_bv13_w1_machinery.py	1	1	B5_JOINT	1	NO	0
+ROOT::cascade_bv13_w2_w3cas.py	1	1	B5_JOINT	1	NO	0
+ROOT::cascade_bv13_w5_homothety.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_bv14_counts.py	1	0		0	NO	0
+ROOT::cascade_bv14_lib.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_bv14_shoot.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::cascade_bv14_spare_a_sens.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_bv14_su.py	1	0		0	NO	0
+ROOT::cascade_bv14_summary.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::cascade_bv14_tolsweep.py	1	0		0	NO	0
+ROOT::cascade_bv14_validate.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::cascade_bv15_asm.py	1	0		0	NO	0
+ROOT::cascade_bv15_bg.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_bv15_x1_ladder.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_bv15_x1_validate.py	1	0		0	NO	0
+ROOT::cascade_bv15_x2_anatomy.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::cascade_bv15_x3_c2.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_bv15_x3_ray.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_bv16_cas.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_bv16_rungs.py	1	1	B5_JOINT	1	NO	0
+ROOT::cascade_bv5_c1_scan.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_bv5_c1c2c3_roots.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_bv5_c4_bigN.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_bv5_c4_floor_audit.py	1	0		0	NO	0
+ROOT::cascade_bv5_c4_refine.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_bv5_c5_stuck.py	1	0		0	NO	0
+ROOT::cascade_bv5_common.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_bv6_c1_refine.py	1	0		0	NO	0
+ROOT::cascade_bv6_c1_sweep.py	1	0		0	NO	0
+ROOT::cascade_bv6_c2.py	1	0		0	NO	0
+ROOT::cascade_bv6_c4.py	1	0		0	NO	0
+ROOT::cascade_bv6_lib.py	1	1	B4_GLOBAL	1	NO	0
+ROOT::cascade_bv6_probe.py	1	0		0	NO	0
+ROOT::cascade_bv6_xcheck.py	1	0		0	NO	0
+ROOT::cascade_bv7_core.py	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::cascade_bv7_t1_refine.py	1	0		0	NO	0
+ROOT::cascade_bv7_t1_sweep.py	1	0		0	NO	0
+ROOT::cascade_bv7_t2.py	1	0		0	NO	0
+ROOT::cascade_bv7_t3.py	1	0		0	NO	0
+ROOT::cascade_bv7_validate.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::cascade_bv8_cas_ABC.py	1	0		0	NO	0
+ROOT::cascade_bv8_falsifiers.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_bv8_falsifiers_out.txt	1	0		0	NO	0
+ROOT::cascade_bv9_cas.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::cascade_bv9_fluxlaw_char.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_bv9_reshoot.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_bv9_reshoot_Z1.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_bv9_tables.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::cascade_characterization_miniMAP.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::cascade_lemD_bessel.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::cascade_lemD_cas.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::cascade_lemD_final.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::cascade_lemD_reshoot.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_lemD_table.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::cascade_lemD_universal.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::cascade_or_energy_cas.py	1	1	B5_JOINT	1	NO	0
+ROOT::cascade_or_energy_numeric.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::cascade_or_energy_rung1_and_alignment.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_s2_aggregate.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::cascade_s2_core.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::cascade_s2_final_table.json	1	0		0	NO	0
+ROOT::cascade_s2_validate.py	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::cascade_s3_lib.py	1	0		0	NO	0
+ROOT::cascade_s3_predictions.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::cascade_s3_t1_t4.py	1	0		0	NO	0
+ROOT::cascade_s3_t2_t3.py	1	0		0	NO	0
+ROOT::cascade_s3_t5.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::cascade_s3_validate.py	1	0		0	NO	0
+ROOT::cascade_sf_cas1_bulk.py	1	1	B5_JOINT	1	NO	0
+ROOT::cascade_sf_cas2_endpoint.py	1	0		0	NO	0
+ROOT::cascade_sf_cas4_zeromodes.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::cascade_sf_d5_spotcheck.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::cascade_sf_d5b_extra.py	1	0		0	NO	0
+ROOT::cascade_stageA_extra.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_stageA_lib.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_stageA_results.json	1	0		0	NO	0
+ROOT::cascade_stageA_results.md	1	0		0	NO	0
+ROOT::cascade_stageA_run.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_stageA_sanity.py	1	1	B5_JOINT	1	NO	0
+ROOT::cascade_stageB_above.py	1	0		0	NO	0
+ROOT::cascade_stageB_analysis.py	1	1	B2_DEPTH;B3_LIFT	2	NO	0
+ROOT::cascade_stageB_bisect.py	1	1	B2_DEPTH;B3_LIFT	2	NO	0
+ROOT::cascade_stageB_common.py	1	1	B2_DEPTH;B3_LIFT	2	NO	0
+ROOT::cascade_stageB_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::cascade_stageB_rungs.json	1	1	B2_DEPTH	1	NO	0
+ROOT::cascade_stageB_sanity.py	1	0		0	NO	0
+ROOT::cascade_stageB_sweep.json	1	0		0	NO	0
+ROOT::cascade_stageB_sweep.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_stageB_twomethod.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::cascade_stageC_c1_A1m2_Z8.json	1	1	B2_DEPTH	1	NO	0
+ROOT::cascade_stageC_c2_A1m3_Z1.json	1	1	B2_DEPTH	1	NO	0
+ROOT::cascade_stageC_c3_A2k3_Z8.json	1	1	B2_DEPTH	1	NO	0
+ROOT::cascade_stageC_c4_A3_Z8.json	1	1	B2_DEPTH	1	NO	0
+ROOT::cascade_stageC_c5_A1m4_Z8.json	1	1	B2_DEPTH	1	NO	0
+ROOT::cascade_stageC_lib.py	1	1	B2_DEPTH;B3_LIFT	2	NO	0
+ROOT::cascade_stageC_primary_table.json	1	0		0	NO	0
+ROOT::cascade_stageC_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::cascade_stageC_run.py	1	0		0	NO	0
+ROOT::cascade_stageC_twomethod.json	1	0		0	NO	0
+ROOT::cascade_stageD_prereg.md	1	1	B5_JOINT	1	NO	0
+ROOT::cascade_stageD_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::cascade_stageD_sweep_refine.py	1	1	B2_DEPTH;B3_LIFT;B4_GLOBAL	3	NO	0
+ROOT::cascade_stageD_sweep_scan.py	1	0		0	NO	0
+ROOT::cascade_th2_bottom_beta.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::cascade_th2_bottom_system.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_th2_cas_checks.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_th2_cas_kappa.py	1	0		0	NO	0
+ROOT::cascade_th2_final_table.json	1	0		0	NO	0
+ROOT::cascade_th2_final_table.py	1	0		0	NO	0
+ROOT::cascade_th2_launch.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_th2_nodewise.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_th2_predict_measure.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_tw_cas.py	1	1	B5_JOINT	1	NO	0
+ROOT::cascade_tw_confirm.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_tw_n1twin.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_tw_pred.py	1	1	B5_JOINT	1	NO	0
+ROOT::cascade_tw_probe.py	1	1	B3_LIFT	1	NO	0
+ROOT::cascade_tw_reshoot.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::cell_solver_composite.py	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::cell_solver_f2d.py	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::cell_solver_f2d_BUILDNOTES.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::cell_solver_f2d_N2.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::cell_solver_f2d_N2_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::cell_solver_f2d_classB_run.py	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::cell_solver_f2d_classB_run_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::cell_solver_f2d_embedded_run.py	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::cell_solver_f2d_embedded_run_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::cell_solver_f2d_embedded_scan.py	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::cell_solver_f2d_first_build.py	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::cell_solver_f2d_first_build_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::cell_solver_round.py	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::cell_solver_universe_T3.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::check_winding_survival.py	1	0		0	NO	0
+ROOT::classB_embedded_rung_gatecheck_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::classB_rung_resonance_classification_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::classB_rung_resonance_owed_first_adjudication.md	1	1	B5_JOINT	1	NO	0
+ROOT::classB_rung_resonance_prebuild_test_DESIGN.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::classify_rung_resonance.py	1	0		0	NO	0
+ROOT::codex_rehearsal_final.md	1	1	B5_JOINT	1	NO	0
+ROOT::codex_rehearsal_transcript.txt	1	1	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::cognitive_corral_triggers_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::complete_metric_sweep_stageB_data.json	1	0		0	NO	0
+ROOT::controlled_relax_hessian.py	1	0		0	NO	0
+ROOT::controlled_relax_hessian_out.json	1	0		0	NO	0
+ROOT::cosine_native_reconciliation_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::cosine_reconciliation_check.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::d1_angular_constants_native_rederivation.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::d1_bv_n3_attack.py	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::d1_bv_q13_steelman.py	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::d1_charge_channel_projection_MAP.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::d1_charge_channel_projection_cas.py	1	1	B5_JOINT	1	NO	0
+ROOT::d1_rederive_eta18.py	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::d1_rederive_n3.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::d1_rederive_q13.py	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::d2_bv_algebra.py	1	1	B5_JOINT	1	NO	0
+ROOT::d2_bv_e0_numeric.py	1	0		0	NO	0
+ROOT::d2a_switch_criterion_interior.md	1	1	B5_JOINT	1	NO	0
+ROOT::d2a_switch_criterion_interior.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::d2b_closure_endcases_cas.py	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::d2b_matter_escape_cas.py	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::d2b_no_structure_in_G.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::d2b_reduction_flux_cas.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::d2b_routeB_mixing_cas.py	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::d2c_gp_composite_conditions.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::d2c_part1_mixing.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::d2c_part2_gp_conditions.py	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::derive_universe_einstein_d3.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::derive_universe_fold_d1.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::derive_universe_sigma_d3.py	1	1	B5_JOINT	1	NO	0
+ROOT::derive_xmax_boost.py	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::derived_background_and_phi_coupling_DESIGN.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::dimension_ladder_null_audit.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::discreteness_preregistration.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::e2c_bv_gauge.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::e2c_bv_gauntlet.py	1	1	B3_LIFT	1	NO	0
+ROOT::e2c_mms_certification.py	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::e2d_bv_cert.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::e2d_bv_checks.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::e2d_continuation_driver.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::e2d_gridhomotopy_probe.json	1	0		0	NO	0
+ROOT::e2d_gridhomotopy_probe.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::e2d_mms_fieldaxis_certification.json	1	0		0	NO	0
+ROOT::e2d_mms_fieldaxis_certification.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::e2e_bv_null_and_stiffness.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::e2e_mms_combinedcell_certification.json	1	1	B5_JOINT	1	NO	0
+ROOT::e2e_mms_combinedcell_certification.py	1	1	B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::e2e_physinformed_seed.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::e2e_physinformed_sweep.json	1	0		0	NO	0
+ROOT::e2e_physinformed_sweep.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::einstein_3d_eval.py	1	0		0	NO	0
+ROOT::einstein_3d_general_eval.py	1	0		0	NO	0
+ROOT::einstein_3d_general_gen.py	1	0		0	NO	0
+ROOT::einstein_3d_weyl_gen.py	1	0		0	NO	0
+ROOT::embedded_cell_closure_H_amb_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::embedded_cell_scan_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::embedded_classB_mini_MAP.md	1	1	B5_JOINT	1	NO	0
+ROOT::embedded_run_gate_rulings.md	1	1	B5_JOINT	1	NO	0
+ROOT::embedded_run_mini_MAP.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::energy_min_m2_18_out.json	1	0		0	NO	0
+ROOT::explore_universe_T3_risefall_scan.py	1	0		0	NO	0
+ROOT::export_for_local_llm.py	1	1	B5_JOINT	1	NO	0
+ROOT::exterior_cavity_results.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::external.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::external_input_notes.md	1	1	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::f2d_virial_step0_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::f_rtheta_free_field_MAP.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::fermion_forcing2_dump.txt	1	0		0	NO	0
+ROOT::flux_sealed_universe_cell_miniMAP.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::free_s2_matter.py	1	1	B2_DEPTH;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::full3d_newton.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::full3d_spectral.py	1	0		0	NO	0
+ROOT::galerkin_basis.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::gp_switch_criterion_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::homog_alpha_test.py	1	0		0	NO	0
+ROOT::homog_universe_numeric.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::homog_universe_solve.py	1	1	B3_LIFT	1	NO	0
+ROOT::hopfion_GP_exterior_NEXT_CHARTER.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::hopfion_GP_exterior_probe_MAP.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::hopfion_GP_exterior_probe_results.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::hopfion_GP_switch_apply_MAP.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::hopfion_GP_switch_apply_out.json	1	1	B4_GLOBAL	1	NO	0
+ROOT::hopfion_GP_switch_apply_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::hopfion_WORKSTATION_DISPATCH_GP_switch.md	1	1	B5_JOINT	1	NO	0
+ROOT::hopfion_WORKSTATION_DISPATCH_phase2_metric.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::hopfion_fixedQ_collective_phase0.py	1	0		0	NO	0
+ROOT::hopfion_fixedQ_collective_phase0_out.json	1	0		0	NO	0
+ROOT::hopfion_fixedQ_collective_phase0_results.md	1	0		0	NO	0
+ROOT::hopfion_fixedQ_isorotation_MAP.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::hopfion_fixedQ_phase1_isorotation.py	1	1	B4_GLOBAL	1	NO	0
+ROOT::hopfion_fixedQ_phase1_isorotation_out.json	1	0		0	NO	0
+ROOT::hopfion_fixedQ_phase1_isorotation_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::hopfion_fixedQ_phase1b_production.py	1	0		0	NO	0
+ROOT::hopfion_fixedQ_phase1b_production_out.json	1	0		0	NO	0
+ROOT::hopfion_fixedQ_phase1b_production_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::hopfion_mass_background_coupling_MAP.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::hopfion_phase2_metric_backreaction_out.json	1	0		0	NO	0
+ROOT::hopfion_phase2_metric_backreaction_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::hopfion_static_mass_common.py	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::hopfion_static_mass_hessian.py	1	1	B3_LIFT	1	NO	0
+ROOT::hopfion_static_mass_hessian_256driver.py	1	1	B3_LIFT	1	NO	0
+ROOT::hopfion_static_mass_hessian_out.json	1	0		0	NO	0
+ROOT::hopfion_static_mass_linear_metric.py	1	0		0	NO	0
+ROOT::hopfion_static_mass_out.json	1	0		0	NO	0
+ROOT::hopfion_static_mass_phaseC_redo.py	1	0		0	NO	0
+ROOT::hopfion_static_mass_phaseC_redo_out.json	1	0		0	NO	0
+ROOT::hopfion_static_mass_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::i_flow_hbar_clock_MAP.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::kap8_characterization_complete_solver_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::ladder_energy_orientation_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::ladder_lemmaD_sealing_amplitude_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::ladder_softmode_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::ladder_theorems_AB_C_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::ladder_theta0_accumulation_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::large_grid_gates_out.json	1	0		0	NO	0
+ROOT::large_grid_solver_out.json	1	0		0	NO	0
+ROOT::legacy_hadron_survivor_filter.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::lepton_ladder_falsification_contract.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::long_relax_256.py	1	1	B4_GLOBAL	1	NO	0
+ROOT::lorentz_light_clue_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::luminosity_distance_n2_optics_results.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::macro_Q1_source_posture.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::macro_alpha_continuation.py	1	1	B3_LIFT	1	NO	0
+ROOT::macro_alpha_continuation_CONTRACT.md	1	0		0	NO	0
+ROOT::macro_alpha_continuation_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::macro_alpha_jet_outward.py	1	1	B5_JOINT	1	NO	0
+ROOT::macro_alpha_jet_outward_CONTRACT.md	1	1	B5_JOINT	1	NO	0
+ROOT::macro_alpha_jet_outward_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::macro_bulk_completion_limit_edge_MAP.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::macro_clean_core_derive_observe.py	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::macro_clean_core_first_observe_CONTRACT.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::macro_clean_core_first_observe_results.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::macro_clean_restart_from_metric_MAP.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::macro_edge_closure_MAP.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::macro_edge_phi_inf_CONTRACT.md	1	1	B5_JOINT	1	NO	0
+ROOT::macro_edge_phi_inf_probe.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::macro_edge_phi_inf_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::macro_hard_edge_asymptotics_HE1.py	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::macro_hard_edge_asymptotics_HE1_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::macro_matter_dilation_edge_FRAME.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::macro_native_edge_HARD_MAP.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::macro_native_matter_after_vacuum_MAP.md	1	1	B5_JOINT	1	NO	0
+ROOT::macro_native_matter_edge_MAP.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::macro_no_GP_framing.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::macro_pathB_dilated_dust_observe.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::macro_pathB_dilated_dust_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::macro_pathB_dilated_softclose.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::macro_pathB_dilated_softclose_CONTRACT.md	1	0		0	NO	0
+ROOT::macro_pathB_dilated_softclose_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::macro_pathB_dust_EL.py	1	1	B5_JOINT	1	NO	0
+ROOT::macro_pathB_dust_WP1_results.md	1	0		0	NO	0
+ROOT::macro_pathB_dust_WP2_observe.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::macro_pathB_dust_WP2_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::macro_pathB_dust_closure_window.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::macro_pathB_dust_closure_window_CONTRACT.md	1	1	B5_JOINT	1	NO	0
+ROOT::macro_pathB_dust_closure_window_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::macro_pathB_dust_vacuum_match.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::macro_pathB_dust_vacuum_match_CONTRACT.md	1	1	B5_JOINT	1	NO	0
+ROOT::macro_pathB_dust_vacuum_match_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::macro_pathB_phi_ceiling.py	1	1	B4_GLOBAL	1	NO	0
+ROOT::macro_pathB_phi_ceiling_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::macro_pathB_vacuum_characterize.py	1	1	B3_LIFT	1	NO	0
+ROOT::macro_pathB_vacuum_characterize_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::macro_pathB_vacuum_continue_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::macro_pathB_vacuum_edge_shoot_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::macro_pathB_vacuum_integrals_edge.py	1	0		0	NO	0
+ROOT::macro_phase1_metric_only.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::macro_phase2_fe_from_metric.py	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::macro_phase2_fe_from_metric_results.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::macro_phase3_pathA_areal.py	1	0		0	NO	0
+ROOT::macro_phase3_pathA_areal_results.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::macro_phase3_pathB_freeDA_EH.py	1	0		0	NO	0
+ROOT::macro_phase3_pathB_freeDA_EH_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::macro_phi_blindness_reaudit.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::macro_sector_MAP.md	1	1	B5_JOINT	1	NO	0
+ROOT::macro_spine_provenance_2026-07-06.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::macro_universe_clean_core_MAP.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::macro_universe_native_MAP.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::macro_xmax_limit_FRAME.md	1	1	B5_JOINT	1	NO	0
+ROOT::mass_emergence_canonical_geometry.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::matter_amplitude_native_MAP_2026-06-29.md	1	1	B5_JOINT	1	NO	0
+ROOT::matter_carrier_provenance_audit_results.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::matter_el_3d_gen.py	1	0		0	NO	0
+ROOT::matter_filled_background_closure_DESIGN.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::matter_regrade_derived_operator_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::measure_fork_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::micro_mass_shape_data.json	1	0		0	NO	0
+ROOT::microphysics_D2_two_regime_MAP.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::microphysics_E0_ambient_tables.json	1	1	B5_JOINT	1	NO	0
+ROOT::microphysics_E0_ambient_tables.md	1	1	B5_JOINT	1	NO	0
+ROOT::microphysics_E0_bv_H_adversarial.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::microphysics_E0_bv_reshoot.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::microphysics_E0_extract.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::microphysics_E1_bv_cas1.py	1	1	B5_JOINT	1	NO	0
+ROOT::microphysics_E1_bv_cas2_exotic.py	1	1	B5_JOINT	1	NO	0
+ROOT::microphysics_E1_bv_probe.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::microphysics_E1_composite_closure_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::microphysics_E1_composite_conditions.py	1	1	B2_DEPTH;B5_JOINT	2	NO	0
+ROOT::microphysics_E1_probe_pass.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::microphysics_E1_probe_results.json	1	0		0	NO	0
+ROOT::microphysics_E2_battle_plan.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::microphysics_E2_bv_c1c.py	1	1	B3_LIFT	1	NO	0
+ROOT::microphysics_E2_bv_mms.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::microphysics_E2_bv_mms2.py	1	1	B3_LIFT	1	NO	0
+ROOT::microphysics_E2_bv_rs_soft.py	1	1	B3_LIFT	1	NO	0
+ROOT::microphysics_E2_bv_runaway.py	1	1	B3_LIFT	1	NO	0
+ROOT::microphysics_E2_coupled_solve_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::microphysics_E2b_A1Z1_anatomy.json	1	0		0	NO	0
+ROOT::microphysics_E2b_A1Z1_extfloor.json	1	0		0	NO	0
+ROOT::microphysics_E2b_A1Z1_gridcheck.json	1	1	B4_GLOBAL	1	NO	0
+ROOT::microphysics_E2b_A1Z1_phase2.json	1	1	B4_GLOBAL	1	NO	0
+ROOT::microphysics_E2b_A1Z1_results.json	1	1	B4_GLOBAL	1	NO	0
+ROOT::microphysics_E2b_A1Z1_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::microphysics_E2b_A1Z8_anatomy.json	1	0		0	NO	0
+ROOT::microphysics_E2b_A1Z8_gridcheck.json	1	1	B4_GLOBAL	1	NO	0
+ROOT::microphysics_E2b_A1Z8_phase2.json	1	1	B4_GLOBAL	1	NO	0
+ROOT::microphysics_E2b_A1Z8_results.json	1	1	B4_GLOBAL	1	NO	0
+ROOT::microphysics_E2b_A1Z8_results.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::microphysics_E2b_A3Z1_anatomy.json	1	0		0	NO	0
+ROOT::microphysics_E2b_A3Z1_extfloor.json	1	1	B4_GLOBAL	1	NO	0
+ROOT::microphysics_E2b_A3Z1_gridcheck.json	1	1	B4_GLOBAL	1	NO	0
+ROOT::microphysics_E2b_A3Z1_phase2.json	1	1	B4_GLOBAL	1	NO	0
+ROOT::microphysics_E2b_A3Z1_results.json	1	1	B4_GLOBAL	1	NO	0
+ROOT::microphysics_E2b_A3Z1_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::microphysics_E2b_A3Z1_wideguard_cont.json	1	1	B4_GLOBAL	1	NO	0
+ROOT::microphysics_E2b_A3Z8_anatomy.json	1	0		0	NO	0
+ROOT::microphysics_E2b_A3Z8_extfloor.json	1	1	B4_GLOBAL	1	NO	0
+ROOT::microphysics_E2b_A3Z8_gridcheck.json	1	1	B4_GLOBAL	1	NO	0
+ROOT::microphysics_E2b_A3Z8_phase2.json	1	1	B4_GLOBAL	1	NO	0
+ROOT::microphysics_E2b_A3Z8_results.json	1	1	B4_GLOBAL	1	NO	0
+ROOT::microphysics_E2b_A3Z8_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::microphysics_E2c_optimizer_hardening_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::microphysics_E2d_resweep_A1Z8_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::microphysics_E2e_physinformed_seed_results.md	1	1	B1_FOUNDING;B2_DEPTH;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::microphysics_after_concentric_failure_MAP.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::microphysics_reentry_miniMAP.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::microphysics_reentry_omega_reframe_MAP.md	1	1	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::migration_convergence_guard.py	1	1	B5_JOINT	1	NO	0
+ROOT::n4rev_response_TURNKEY.py	1	1	B3_LIFT	1	NO	0
+ROOT::n5d_conditioning_diag.py	1	1	B3_LIFT	1	NO	0
+ROOT::n5d_conditioning_diag2.py	1	1	B3_LIFT	1	NO	0
+ROOT::n5d_conditioning_diag3.py	1	1	B3_LIFT	1	NO	0
+ROOT::n5d_embedding_audit.py	1	0		0	NO	0
+ROOT::n5d_fix1_beforeafter.py	1	1	B3_LIFT	1	NO	0
+ROOT::n5d_frame_factor_cas.py	1	1	B5_JOINT	1	NO	0
+ROOT::n5d_pilot.py	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::n5d_pilot_SDir.json	1	0		0	NO	0
+ROOT::n5d_pilot_SJC2.json	1	0		0	NO	0
+ROOT::n5d_pilot_fix3.py	1	1	B3_LIFT	1	NO	0
+ROOT::n5d_pilot_report.txt	1	0		0	NO	0
+ROOT::n5d_pilot_smoke.json	1	0		0	NO	0
+ROOT::n5d_pilot_stage1_results.md	1	0		0	NO	0
+ROOT::n5d_pullback_audit.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::n5d_shear.py	1	1	B5_JOINT	1	NO	0
+ROOT::n5d_shear_forcing_audit.py	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::n5d_shear_forcing_audit2.py	1	1	B4_GLOBAL	1	NO	0
+ROOT::n5d_stage1_conditioning_diagnosis.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::n5d_stage2_Lselection_audit_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::n5d_stage2_MS_boundary_selector_audit_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::n5d_stage2_classB_diagnostic.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::n5d_stage2_classB_diagnostic_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::n5d_stage2_collapse_audit.py	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::n5d_stage2_collapse_audit_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::n5d_stage2_collapse_reconcile.py	1	1	B3_LIFT	1	NO	0
+ROOT::n5d_stage2_corelaxed_matter_DESIGN.md	1	1	B5_JOINT	1	NO	0
+ROOT::n5d_stage2_gauge_audit.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::n5d_stage2_gauge_audit_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::n5d_stage2_pilot_preflight.py	1	1	B3_LIFT	1	NO	0
+ROOT::n5d_stage2_pilot_preflight_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::n5d_stage2_sdir_pilot.json	1	0		0	NO	0
+ROOT::n5d_stage2_sdir_pilot.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::n5d_stage2_sdir_pilot_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::n5d_stage2a_cas_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::n5d_stage2b_gate05_report.md	1	1	B5_JOINT	1	NO	0
+ROOT::n5d_stage2b_gate0_report.md	1	1	B5_JOINT	1	NO	0
+ROOT::n_derivation_results.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::native_dilation_weight_derivation_results.md	1	1	B1_FOUNDING;B2_DEPTH;B3_LIFT;B5_JOINT	4	NO	0
+ROOT::native_field_equations_constrained_two_player_results.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::native_geometric_action_results.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::native_hopfion_route_MAP.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::native_readout_map_depth_size_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::native_readout_map_selector_audit_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::native_stabilizer_results.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::native_stabilizer_verifier_results.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::negative_phi_native_geometry.md	1	1	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	1
+ROOT::negatives_premise_sweep_2026-07-03.md	1	1	B5_JOINT	1	NO	0
+ROOT::noNull_F_catchproof.json	1	0		0	NO	0
+ROOT::noNull_F_control_N128.json	1	0		0	NO	0
+ROOT::noNull_F_control_N192.json	1	0		0	NO	0
+ROOT::noNull_F_control_N256.json	1	0		0	NO	0
+ROOT::noNull_F_dirs.json	1	0		0	NO	0
+ROOT::noNull_F_endpoint_hashes.json	1	0		0	NO	0
+ROOT::noNull_F_fine_N192.json	1	0		0	NO	0
+ROOT::noNull_F_fine_N256.json	1	0		0	NO	0
+ROOT::noNull_F_gate.json	1	0		0	NO	0
+ROOT::noNull_F_ladder_N128.json	1	0		0	NO	0
+ROOT::noNull_F_postreturn_audit.json	1	0		0	NO	0
+ROOT::noNull_F_verify.json	1	0		0	NO	0
+ROOT::noNull_artifact_manifest.py	1	1	B4_GLOBAL	1	NO	0
+ROOT::noNull_behavioral_F.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::noNull_behavioral_F_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::noNull_boundary_virial.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::noNull_boundary_virial_ALL.json	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::noNull_boundary_virial_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::noNull_boundary_virial_verify.json	1	0		0	NO	0
+ROOT::noNull_boxscout_build.json	1	0		0	NO	0
+ROOT::noNull_boxscout_build.py	1	1	B3_LIFT	1	NO	0
+ROOT::noNull_boxscout_observables.json	1	0		0	NO	0
+ROOT::noNull_curvature_check.py	1	0		0	NO	0
+ROOT::noNull_curvature_check_out.json	1	0		0	NO	0
+ROOT::noNull_downsample.py	1	0		0	NO	0
+ROOT::noNull_energy.py	1	1	B5_JOINT	1	NO	0
+ROOT::noNull_evidence_checker.py	1	1	B5_JOINT	1	NO	0
+ROOT::noNull_evidence_checker_output.txt	1	0		0	NO	0
+ROOT::noNull_evidence_seal.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::noNull_hess_256_bs8_run_log.txt	1	1	B4_GLOBAL	1	NO	0
+ROOT::noNull_hess_bw2_N128_out.json	1	0		0	NO	0
+ROOT::noNull_hess_bw2_N192_out.json	1	0		0	NO	0
+ROOT::noNull_hess_bw2_out.json	1	0		0	NO	0
+ROOT::noNull_hess_h2fit_log.txt	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::noNull_hess_refine.py	1	1	B3_LIFT	1	NO	0
+ROOT::noNull_hess_refine_192_log.txt	1	0		0	NO	0
+ROOT::noNull_hess_refine_256_log.txt	1	0		0	NO	0
+ROOT::noNull_hess_refine_N128_out.json	1	0		0	NO	0
+ROOT::noNull_hess_residual_diag.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::noNull_nk_converged_out.json	1	0		0	NO	0
+ROOT::noNull_nk_out.json	1	0		0	NO	0
+ROOT::noNull_nk_traj.json	1	0		0	NO	0
+ROOT::noNull_phaseG_mass.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::noNull_phaseG_mass_ALL.json	1	1	B5_JOINT	1	NO	0
+ROOT::noNull_phaseG_mass_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::noNull_phaseG_mass_verify.json	1	0		0	NO	0
+ROOT::noNull_precond.py	1	0		0	NO	0
+ROOT::noNull_relax_lbfgs_out.json	1	0		0	NO	0
+ROOT::noNull_relax_lbfgs_traj.json	1	0		0	NO	0
+ROOT::noNull_residual_decomp.py	1	1	B3_LIFT	1	NO	0
+ROOT::noNull_residual_modes.py	1	1	B3_LIFT	1	NO	0
+ROOT::noNull_resolve.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::noNull_resolve_U1deflated_out.json	1	0		0	NO	0
+ROOT::noNull_resolve_out.json	1	0		0	NO	0
+ROOT::noNull_resolve_undeflated_out.json	1	0		0	NO	0
+ROOT::noNull_schur_inertia.json	1	1	B3_LIFT	1	NO	0
+ROOT::noNull_schur_inertia.py	1	1	B3_LIFT	1	NO	0
+ROOT::noNull_schur_inertia_ALL.json	1	1	B3_LIFT	1	NO	0
+ROOT::noNull_schur_inertia_N128.json	1	1	B3_LIFT	1	NO	0
+ROOT::noNull_schur_inertia_N192.json	1	1	B3_LIFT	1	NO	0
+ROOT::noNull_schur_inertia_N256.json	1	1	B3_LIFT	1	NO	0
+ROOT::noNull_schur_verify.json	1	0		0	NO	0
+ROOT::noNull_schur_verify.py	1	1	B3_LIFT	1	NO	0
+ROOT::noNull_schur_verify_output.txt	1	0		0	NO	0
+ROOT::noNull_stability_evidence.json	1	1	B4_GLOBAL	1	NO	0
+ROOT::noNull_virial_identity_derivation.md	1	1	B5_JOINT	1	NO	0
+ROOT::no_selector_audit_cas.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::no_selector_audit_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::node05_seal_parity_regrade_results.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::node1_seal_spin_verdict_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::node23_precompute_map.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::node3_f4_test_results.md	1	1	B4_GLOBAL	1	NO	0
+ROOT::node_H1_hopfion_compactification_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::node_H2_charge_ledger_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::node_H3_hopfion_solve_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::node_R0_defect_coherence_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::nonstationary_opener_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::ns_scan_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::ns_scan_verifier_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::one_body_null_deflection_cas.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::one_body_null_deflection_results.md	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::one_body_shapiro_delay_results.md	1	1	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::open_domain_discreteness_results.md	1	1	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::p16_native_derivation_contract.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::p16_phi_sourcing_decision_note.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::p1_VERIFIER.md	1	0		0	NO	0
+ROOT::p1_purity_harness_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::p1_residual_general_einstein.py	1	1	B2_DEPTH;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::p2_VERIFIER.md	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::p2_matter_fullmetric_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::p2_operator_from_action_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::p3_VERIFIER.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::p3_aphi_FIX_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::p3_aphi_coupling_results.md	1	1	B1_FOUNDING;B2_DEPTH;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::p3_discipline_skills_results.md	1	0		0	NO	0
+ROOT::p4_cross_model_verify_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::p4_time_live_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::p5_live_state_shrink_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::p5_solver_survey_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::p_domain_closure_attempt_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::particle_spectrum_native_geometry.md	1	1	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	1
+ROOT::pde_p1_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::phase1_geon_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::phase2a_rotation_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::phase2b_ensemble_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::phase3b_descend_m2_out.json	1	0		0	NO	0
+ROOT::phase3b_descend_m3_out.json	1	0		0	NO	0
+ROOT::phase3b_grid_converge_out.json	1	0		0	NO	0
+ROOT::phase3b_hessian_out.json	1	0		0	NO	0
+ROOT::phase3b_multistart_out.json	1	0		0	NO	0
+ROOT::phase3b_richardson_out.json	1	0		0	NO	0
+ROOT::phase3b_step1_out.json	1	0		0	NO	0
+ROOT::phase3b_symmetry_out.json	1	0		0	NO	0
+ROOT::phi_source_derivation.py	1	1	B3_LIFT	1	NO	0
+ROOT::ponder_emergence_directions_2026-07-04.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::pre_native_era_census.md	1	1	B5_JOINT	1	NO	0
+ROOT::r1_bv_inventory.py	1	1	B3_LIFT	1	NO	0
+ROOT::r1_bv_main.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::r1_route_fork_cas.py	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::r1_route_fork_native_derivation.md	1	1	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	1
+ROOT::r2_bv_verify.py	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::r2_final_cas.py	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::r2_prereg_s_cas.py	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::r2_prereg_s_dependence.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::r2_prereg_s_dependence_LEAD.md	1	1	B5_JOINT	1	NO	0
+ROOT::regrade_S2_defect_2026-07-04.md	1	1	B5_JOINT	1	NO	0
+ROOT::relativistic_metric_rederivation_results.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::relay_claudeai_2026-07-02.md	1	1	B5_JOINT	1	NO	0
+ROOT::round_matter_reduction_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::scale_symmetry_bootstrap_analysis_results.md	1	1	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::seal_junction_condition_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::seal_matching_junction_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::sector_weight_spectral_probe_results.md	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::shapiro_delay_cas.py	1	1	B3_LIFT	1	NO	0
+ROOT::simple_metric_Charles_rulings_center_dS_2026-07-09.md	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::simple_metric_DA_native_derive.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_EOS_power_window_dS_results.md	1	1	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::simple_metric_F1_F2_dual_explore.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::simple_metric_F1_complete.md	1	0		0	NO	0
+ROOT::simple_metric_F2_completeness.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::simple_metric_FE_rederive.py	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_GR_corpus_mine_MAP.md	1	1	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::simple_metric_GR_mine_embedding_fork_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_HL_unification.py	1	0		0	NO	0
+ROOT::simple_metric_HL_unification_out.json	1	0		0	NO	0
+ROOT::simple_metric_HL_unification_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_J1_R2_characterize.py	1	0		0	NO	0
+ROOT::simple_metric_J1_R2_characterize_out.json	1	0		0	NO	0
+ROOT::simple_metric_J1_alt_sphere_ceiling_MAP.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_J1_build_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_J1_honesty_skeleton.py	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::simple_metric_J1_honesty_skeleton_out.json	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_J1_honesty_skeleton_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_KA_develop.md	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::simple_metric_KA_outer_and_matter.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_L_P_selection_derive.py	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_L_P_selection_derive_out.json	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_L_P_selection_derive_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_L_equivalence_principle_GAP.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_L_native_optical_derive.py	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_L_native_optical_derive_out.json	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_L_native_optical_derive_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_L_principle_closure_attack_out.json	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_L_principle_closure_attack_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_L_wall_regularity_closure_out.json	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_L_wall_regularity_closure_results.md	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::simple_metric_Pell_mass_lock_derive.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_R1_path_ops_observe.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::simple_metric_R1_path_ops_out.json	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_R1_path_proper_MAP.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_R1_path_proper_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_S1_vacuum_space.py	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_S1_vacuum_space_out.json	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_S1_vacuum_space_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_S2_sourced_space.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::simple_metric_S2_sourced_space_out.json	1	0		0	NO	0
+ROOT::simple_metric_S2_sourced_space_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_S3_native_dust_ceiling.py	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_S3_native_dust_ceiling_out.json	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_S3_native_dust_ceiling_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_S4_action_multiprobe_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_S4_reconcile_critical.py	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_S4_reconcile_critical_out.json	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_S4_reconcile_critical_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_S5_reopened_space.py	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::simple_metric_S5_reopened_space_out.json	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_S5_reopened_space_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_S6_deeper_census.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::simple_metric_S6_deeper_census_out.json	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_S6_deeper_census_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_S7_Aprimary_space.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::simple_metric_S7_Aprimary_space_out.json	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_S7_Aprimary_space_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_S9_native_action_honesty.py	1	0		0	NO	0
+ROOT::simple_metric_S9_native_action_honesty_out.json	1	0		0	NO	0
+ROOT::simple_metric_S9_native_action_honesty_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_SNe_shape_clue_out.json	1	0		0	NO	0
+ROOT::simple_metric_SNe_shape_clue_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_WR_L_center_invariants_second_pass_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_WR_L_center_nogo_atlas_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_WR_L_center_recenter_exclusion_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_WR_L_external_triple_blind_audit_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_alpha_restoring_probe_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_angular_on_L_multipole.py	1	0		0	NO	0
+ROOT::simple_metric_angular_on_L_multipole_out.json	1	0		0	NO	0
+ROOT::simple_metric_angular_on_L_multipole_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_angular_on_solution_space_MAP.md	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::simple_metric_angular_timelive_L.py	1	0		0	NO	0
+ROOT::simple_metric_angular_timelive_L_out.json	1	0		0	NO	0
+ROOT::simple_metric_angular_timelive_L_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_asymptotics.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::simple_metric_asymptotics_data.json	1	1	B4_GLOBAL	1	NO	0
+ROOT::simple_metric_asymptotics_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::simple_metric_bao_cf_process_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_bao_disk_inventory_out.json	1	0		0	NO	0
+ROOT::simple_metric_bao_disk_inventory_results.md	1	0		0	NO	0
+ROOT::simple_metric_bao_lya_cf_peaks_out.json	1	0		0	NO	0
+ROOT::simple_metric_bao_lya_constrained_fit_out.json	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_bao_lya_fullfit_out.json	1	0		0	NO	0
+ROOT::simple_metric_bao_process_out.json	1	0		0	NO	0
+ROOT::simple_metric_bao_proper_pass_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::simple_metric_bao_pure_AP_character_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_bao_pure_AP_eboss_out.json	1	0		0	NO	0
+ROOT::simple_metric_bao_pure_AP_out.json	1	0		0	NO	0
+ROOT::simple_metric_c_analogy_MAP.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_c_analogy_rederive_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_cascade_C2_C5_J1.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_center_dS_external_verify_pass_results.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::simple_metric_continue_hard_out.json	1	0		0	NO	0
+ROOT::simple_metric_cross_sector_root_check.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_dS_native_any_alpha_closed_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_distance_profile_dimensional_MAP.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_dotted_line.py	1	0		0	NO	0
+ROOT::simple_metric_dotted_line_out.json	1	0		0	NO	0
+ROOT::simple_metric_elegance_SNe_character_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_elegance_uncover.py	1	0		0	NO	0
+ROOT::simple_metric_elegance_uncover_out.json	1	0		0	NO	0
+ROOT::simple_metric_freeDA_lowz_observe.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::simple_metric_freeDA_lowz_observe_out.json	1	0		0	NO	0
+ROOT::simple_metric_freeDA_lowz_observe_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_freeDA_unquarantine_HUNT.md	1	0		0	NO	0
+ROOT::simple_metric_hard_explore_out.json	1	0		0	NO	0
+ROOT::simple_metric_hard_explore_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_hyperbolic_J1.py	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_hyperbolic_derive.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_hyperbolic_refine_AGENDA.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_kaleidoscope_K1_out.json	1	0		0	NO	0
+ROOT::simple_metric_kaleidoscope_K1_results.md	1	0		0	NO	0
+ROOT::simple_metric_kaleidoscope_K2_out.json	1	0		0	NO	0
+ROOT::simple_metric_kaleidoscope_K2_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_kaleidoscope_K2b_out.json	1	0		0	NO	0
+ROOT::simple_metric_kaleidoscope_K3_out.json	1	1	B1_FOUNDING	1	NO	0
+ROOT::simple_metric_kaleidoscope_K3_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_kaleidoscope_K4_out.json	1	1	B4_GLOBAL	1	NO	0
+ROOT::simple_metric_kaleidoscope_K4_results.md	1	0		0	NO	0
+ROOT::simple_metric_kaleidoscope_MAP.md	1	0		0	NO	0
+ROOT::simple_metric_kaleidoscope_MINE_out.json	1	0		0	NO	0
+ROOT::simple_metric_kaleidoscope_MINE_results.md	1	0		0	NO	0
+ROOT::simple_metric_kinetic_ledger.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_legacy_double_fix_side_excursion.md	1	0		0	NO	0
+ROOT::simple_metric_local_cavity_HG_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_lowz_linear_native_derive.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::simple_metric_macro_elegance_ZOOM.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_mass_xmax_cascade.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_matter_asymptotics.py	1	1	B4_GLOBAL	1	NO	0
+ROOT::simple_metric_matter_asymptotics_data.json	1	0		0	NO	0
+ROOT::simple_metric_matter_asymptotics_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::simple_metric_mine_EH_constraint.py	1	1	B1_FOUNDING	1	NO	0
+ROOT::simple_metric_mine_EH_constraint_out.json	1	1	B1_FOUNDING	1	NO	0
+ROOT::simple_metric_mine_EH_constraint_results.md	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::simple_metric_mine_SSS_Einstein.py	1	1	B1_FOUNDING	1	NO	0
+ROOT::simple_metric_mine_SSS_Einstein_out.json	1	1	B1_FOUNDING	1	NO	0
+ROOT::simple_metric_mine_SSS_Einstein_results.md	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::simple_metric_mine_junction.py	1	1	B1_FOUNDING	1	NO	0
+ROOT::simple_metric_mine_junction_out.json	1	0		0	NO	0
+ROOT::simple_metric_mine_junction_results.md	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::simple_metric_near_miss_explore_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_operator_inspiration_SEARCH.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::simple_metric_operator_inventory.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_pantheon_xmax_fit.py	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_pantheon_xmax_fit_fullcov.py	1	0		0	NO	0
+ROOT::simple_metric_pantheon_xmax_fit_fullcov_out.json	1	0		0	NO	0
+ROOT::simple_metric_pantheon_xmax_fit_out.json	1	0		0	NO	0
+ROOT::simple_metric_pantheon_xmax_fit_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_path_areal_split_observe.py	1	1	B3_LIFT	1	NO	0
+ROOT::simple_metric_path_areal_split_out.json	1	0		0	NO	0
+ROOT::simple_metric_path_areal_split_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_promising_candidates_ZOOM.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_promising_candidates_zoom.py	1	1	B3_LIFT	1	NO	0
+ROOT::simple_metric_promising_candidates_zoom_out.json	1	0		0	NO	0
+ROOT::simple_metric_relational_rooms_continue.py	1	0		0	NO	0
+ROOT::simple_metric_relational_rooms_continue_out.json	1	0		0	NO	0
+ROOT::simple_metric_relational_rooms_continue_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_rooms_filled_local.py	1	1	B1_FOUNDING	1	NO	0
+ROOT::simple_metric_rooms_filled_local_out.json	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_rooms_filled_local_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_root_upstream_MAP.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::simple_metric_session_self_audit_2026-07-09.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_skeleton_reach_closure.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::simple_metric_skeleton_reach_closure_out.json	1	0		0	NO	0
+ROOT::simple_metric_skeleton_reach_closure_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_sne_validator_reconstruct_MAP.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_solution_space_MAP.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_solution_space_ZOOM.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_sourced_profile_observe.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::simple_metric_sourced_profile_observe_out.json	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_sourced_profile_observe_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_sphere_ceiling.py	1	0		0	NO	0
+ROOT::simple_metric_sphere_ceiling_build.py	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_sphere_ceiling_build_out.json	1	0		0	NO	0
+ROOT::simple_metric_sphere_ceiling_build_results.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::simple_metric_sphere_ceiling_select_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_third_path_derive.md	1	1	B1_FOUNDING;B2_DEPTH;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::simple_metric_timelive_AP_exact_derive_results.md	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::simple_metric_timelive_AP_intermediate_out.json	1	0		0	NO	0
+ROOT::simple_metric_timelive_AP_intermediate_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::simple_metric_timelive_AP_out.json	1	0		0	NO	0
+ROOT::simple_metric_timelive_AP_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::simple_metric_timelive_residual_appearance_MAP.md	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::simple_metric_xmax_POSTULATE.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::smoke_composite_E2a.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::sne_native_background_n2.py	1	1	B5_JOINT	1	NO	0
+ROOT::sne_test_derived_law.py	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::sne_test_derived_n.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::sne_test_transverse_geometry.py	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::solar_light_sector_confrontation_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::solution_space_map.md	1	1	B5_JOINT	1	NO	0
+ROOT::solver_action.py	1	1	B5_JOINT	1	NO	0
+ROOT::solver_build_MAP.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::solver_pack.py	1	0		0	NO	0
+ROOT::sourced_second_jet_results.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::spectral_cheb.py	1	0		0	NO	0
+ROOT::spectral_radial_soliton.py	1	1	B5_JOINT	1	NO	0
+ROOT::spectral_sph.py	1	0		0	NO	0
+ROOT::spectral_sph_exact.py	1	0		0	NO	0
+ROOT::stability_branch_follow_256.py	1	0		0	NO	0
+ROOT::stability_branch_follow_256_DECISION.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::stability_branch_follow_256_out.json	1	0		0	NO	0
+ROOT::stability_checkerboard_audit.py	1	0		0	NO	0
+ROOT::stability_checkerboard_audit_out.json	1	0		0	NO	0
+ROOT::stability_eigenmode_256.py	1	0		0	NO	0
+ROOT::stability_eigenmode_256_out.json	1	0		0	NO	0
+ROOT::stability_filter_miniMAP.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::stability_operator_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::stability_stage2_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::stage1_edge_scan.py	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::stageD_bv_compare.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::stageD_bv_forecast_check.py	1	1	B5_JOINT	1	NO	0
+ROOT::stageD_bv_reshoot.py	1	0		0	NO	0
+ROOT::stageD_bv_reshoot_results.json	1	0		0	NO	0
+ROOT::stageD_compare.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::stageD_comparison.json	1	1	B5_JOINT	1	NO	0
+ROOT::stageD_forecast_gen.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::stageD_frozen_forecast.json	1	0		0	NO	0
+ROOT::stageD_frozen_forecast.md	1	1	B5_JOINT	1	NO	0
+ROOT::stageD_refine_pass2.json	1	1	B2_DEPTH	1	NO	0
+ROOT::stageD_scan_pass1.json	1	0		0	NO	0
+ROOT::stageD_sweep_results_raw.json	1	1	B2_DEPTH;B4_GLOBAL	2	NO	0
+ROOT::stageD_sweep_results_raw.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::sweep_E2b_A1Z1.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::sweep_E2b_A1Z1_anatomy.py	1	0		0	NO	0
+ROOT::sweep_E2b_A1Z1_gridcheck.py	1	0		0	NO	0
+ROOT::sweep_E2b_A1Z1_phase2.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::sweep_E2b_A1Z8.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::sweep_E2b_A1Z8_anatomy.py	1	0		0	NO	0
+ROOT::sweep_E2b_A1Z8_gridcheck.py	1	0		0	NO	0
+ROOT::sweep_E2b_A1Z8_phase2.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::sweep_E2b_A3Z1.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::sweep_E2b_A3Z1_anatomy.py	1	0		0	NO	0
+ROOT::sweep_E2b_A3Z1_extfloor.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::sweep_E2b_A3Z1_gridcheck.py	1	1	B4_GLOBAL	1	NO	0
+ROOT::sweep_E2b_A3Z1_phase2.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::sweep_E2b_A3Z8.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::sweep_E2b_A3Z8_anatomy.py	1	0		0	NO	0
+ROOT::sweep_E2b_A3Z8_extfloor.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::sweep_E2b_A3Z8_gridcheck.py	1	1	B4_GLOBAL	1	NO	0
+ROOT::sweep_E2b_A3Z8_phase2.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::switch_criterion_derivation.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::threadB_WORKSTATION_DISPATCH.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::threadB_WORKSTATION_DISPATCH_mirror_vs_wall.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::threadB_coupled_cell_flatness_Lselector_CHARTER.md	1	1	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::threadB_coupled_cell_flatness_Lselector_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::threadB_f2d_drain_solver_first_MAP.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::threadB_f2d_mirror_vs_wall_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::threadB_f2d_nonround_topological_audit_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::threadB_timelive_linear_nogo_and_finite_amp_MAP.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::tier_d_round2_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::tier_d_round3_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::twin_ladder_involution_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::u_plat_m1_18x8x8.json	1	0		0	NO	0
+ROOT::u_plat_m2_18x8x8.json	1	0		0	NO	0
+ROOT::u_plat_m3_18x8x8.json	1	0		0	NO	0
+ROOT::udt_canonical_geometry.md	1	1	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	1
+ROOT::udt_field_equations_derivation_results.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::udt_gravity_sector_rederivation_results.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::udt_no_homogeneous_universe_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::udt_phi_blindness_relaxation_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::universe_cell_T2_identities_results.md	1	1	B5_JOINT	1	NO	0
+ROOT::universe_cell_T3_closure_results.md	1	1	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::universe_cell_fold_jc_sigma_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::universe_cell_vacuum_impossibility_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::verify_TAB_transverse_stress.py	1	1	B5_JOINT	1	NO	0
+ROOT::verify_alpha_coeff_ANCHORED.py	1	1	B5_JOINT	1	NO	0
+ROOT::verify_alpha_source_coeff.py	1	1	B5_JOINT	1	NO	0
+ROOT::verify_classB_derivations.py	1	1	B5_JOINT	1	NO	0
+ROOT::verify_composite_reduction.py	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::verify_cosine_reconciliation.py	1	1	B5_JOINT	1	NO	0
+ROOT::verify_current_scientific_premises.py	1	1	B1_FOUNDING;B2_DEPTH;B3_LIFT;B5_JOINT	4	NO	0
+ROOT::verify_embedded_closure.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::verify_embedded_rulings.py	1	1	B5_JOINT	1	NO	0
+ROOT::verify_f2d_reduction.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::verify_f2d_virial_step0.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::verify_lorentz_light_clue.py	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::verify_luminosity_distance_n2.py	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::verify_matter_reduction.py	1	0		0	NO	0
+ROOT::verify_native_fieldeq.py	1	1	B3_LIFT;B4_GLOBAL	2	NO	0
+ROOT::verify_native_geo_action.py	1	1	B3_LIFT	1	NO	0
+ROOT::verify_noNull_behavioral_F.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::verify_noNull_boundary_virial.py	1	1	B3_LIFT	1	NO	0
+ROOT::verify_noNull_phaseG_mass.py	1	1	B4_GLOBAL	1	NO	0
+ROOT::verify_offround_uniqueness.py	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::verify_redshift_profile_derivation.py	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::verify_seal_matching.py	1	0		0	NO	0
+ROOT::verify_sne_adversarial.py	1	1	B5_JOINT	1	NO	0
+ROOT::verify_udt_reciprocal_c_postulate.py	1	1	B1_FOUNDING;B3_LIFT;B5_JOINT	3	NO	0
+ROOT::verify_udt_reciprocal_c_postulate_out.txt	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::verify_universe_bv2_a_reduction.py	1	0		0	NO	0
+ROOT::verify_universe_bv2_b_ident.py	1	1	B5_JOINT	1	NO	0
+ROOT::verify_universe_bv2_c_folds.py	1	1	B5_JOINT	1	NO	0
+ROOT::verify_universe_bv2_d_budget.py	1	1	B5_JOINT	1	NO	0
+ROOT::verify_universe_bv2_e_sigma.py	1	1	B5_JOINT	1	NO	0
+ROOT::verify_universe_bv2_f_einstein.py	1	0		0	NO	0
+ROOT::verify_universe_bv2_g_transv_toy.py	1	1	B5_JOINT	1	NO	0
+ROOT::verify_universe_bv3_q1_q4_cas.py	1	1	B3_LIFT	1	NO	0
+ROOT::verify_universe_bv3_q4a_nonmonotone.py	1	0		0	NO	0
+ROOT::verify_universe_bv3_q5_numeric.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::verify_universe_bv4_q1_validate.py	1	0		0	NO	0
+ROOT::verify_universe_bv4_q2_powers.py	1	0		0	NO	0
+ROOT::verify_universe_bv4_q3_bisect.py	1	0		0	NO	0
+ROOT::verify_universe_bv4_q3_roots.py	1	0		0	NO	0
+ROOT::verify_universe_bv4_q3_scan.py	1	0		0	NO	0
+ROOT::verify_universe_bv4_q4_q5.py	1	0		0	NO	0
+ROOT::verify_universe_bv4_shoot.py	1	1	B3_LIFT	1	NO	0
+ROOT::verify_universe_rigidity_cas_attack.py	1	1	B5_JOINT	1	NO	0
+ROOT::verify_universe_rigidity_numeric_probe.py	1	1	B3_LIFT	1	NO	0
+ROOT::verify_universe_vacuum_numeric_q4.py	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::verify_universe_vacuum_orbits.py	1	0		0	NO	0
+ROOT::verify_universe_vacuum_q1q4.py	1	0		0	NO	0
+ROOT::verify_universe_vacuum_q5q6.py	1	0		0	NO	0
+ROOT::verify_virial_identity_cas.py	1	0		0	NO	0
+ROOT::verify_virial_identity_cas_output.txt	1	0		0	NO	0
+ROOT::verify_xmax_mass_optics.py	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::w2_uncovering_results.md	1	1	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::w3_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::w4_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::w5_results.md	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+ROOT::w6_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::w7_results.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::w8_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::w_alg_results.md	1	1	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+ROOT::w_stiffness_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::w_whole_results.md	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::weld_interface_mode_results.md	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::weld_status_results.md	1	1	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+ROOT::weld_two_sided_results.md	1	1	B3_LIFT;B5_JOINT	2	NO	0
+ROOT::whole_metric_3d_core.py	1	0		0	NO	0
+ROOT::whole_metric_3d_matter.py	1	1	B5_JOINT	1	NO	0
+ROOT::winding_amplitude_gauge_derivation_results.md	1	1	B4_GLOBAL;B5_JOINT	2	NO	0
+ROOT::winding_catalog_out.json	1	0		0	NO	0
+angular_derivative_weight_selector_2026-07-20	34	27	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+angular_toric_closure_selector_2026-07-19	19	16	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+archive	185	182	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	182
+archive/native_action_chat_2026-07-14_15	125	120	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	120
+archive/pre_2026-07-01	19	11	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	11
+archive/pre_native_coupled	11	10	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+archive/scratch_f2d_2026-07-02	4	2	B5_JOINT	1	NO	0
+asymptotic_boundary_lineage_audit_2026-07-19	39	29	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+bootstrap_csn_phi_angular_selector_2026-07-19	22	19	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+bootstrap_variation_selector_2026-07-18	12	11	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+boundary_bootstrap_representative_selector_audit_2026-07-19	27	23	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+boundary_virial_evidence_2026-07-16	2	0		0	NO	0
+c2_angular_reduction_selector_2026-07-20	34	27	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+c2_coupled_reciprocal_twist_onshell_2026-07-20	23	19	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+c2_failed_basin_homotopy_2026-07-20	45	30	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	31
+c2_finite_cell_boundary_variation_2026-07-20	36	29	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+c2_intrinsic_angular_product_selector_2026-07-20	28	20	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+c2_nonlinear_stationary_solution_space_2026-07-20	41	20	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+c2_open_path_checkpoint_continuation_2026-07-20	39	19	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	22
+c2_reciprocal_transverse_twist_jacobi_2026-07-20	24	18	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+c2_rigidity_three_route_zoomout_2026-07-20	36	29	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+c2_time_fiber_shift_jacobi_2026-07-20	34	24	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+c2_transverse_coframe_closure_2026-07-20	31	24	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	24
+c2_variable_lapse_selector_2026-07-20	34	22	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+clock_curvature_selector_audit_2026-07-19	23	20	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+complete_coframe_seal_involution_2026-07-20	37	29	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+copresence_causal_accessibility_selector_2026-07-19	19	18	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+copresence_gr_constraint_regrade_2026-07-19	21	20	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+finite_cell_seal_boundary_phase_join_2026-07-20	37	31	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+gr_constraint_paired_trial_2026-07-18	12	11	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+grok	1	1	B1_FOUNDING;B5_JOINT	2	NO	0
+grok/quarantine_free_DA	16	14	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+grok/quarantine_free_DA/explore_2026-07-08	27	17	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+h4_scripts	28	13	B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+hopfion_arc_scripts_2026-07-05	22	9	B3_LIFT;B5_JOINT	2	NO	0
+hygiene_baseline_correction_2026-07-23	17	6	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+infinite_c_reciprocity_adjudication_2026-07-18	17	16	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+invariant_reciprocal_causal_flow_2026-07-18	16	15	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	15
+legacy	5	5	B2_DEPTH;B5_JOINT	2	NO	0
+legacy/root_oneoffs_2026-07-01	1085	814	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	814
+matter_bootstrap_dimensional_inventory_2026-07-20	33	22	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+metric_cartan_holonomy_audit_2026-07-19	22	19	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+native_action_arm_c_2026-07-18	21	17	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+native_action_external_verifier_2026-07-18	6	3	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+native_action_final_adjudication_2026-07-18	37	19	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+native_action_stage1_2026-07-18	46	22	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+native_action_stage2_2026-07-18	26	20	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+native_action_sync_audit_2026-07-17	19	19	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+native_boundary_generator_scale_audit_2026-07-19	33	25	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+native_hopfion_topology_audit_2026-07-19	15	14	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+null_section_hopfion_metric_audit_2026-07-19	17	13	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+phaseG_evidence_2026-07-16	4	0		0	NO	0
+projective_position_direction_magnitude_correction_2026-07-19	21	18	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	18
+projective_position_join_audit_2026-07-19	21	18	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	18
+projective_transport_section_selector_2026-07-19	19	16	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+prototype	14	14	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+raw_outputs	3	0		0	NO	0
+reciprocal_c_clock_channel_correction_2026-07-19	21	18	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	18
+reciprocal_clock_optical_scale_selector_2026-07-19	16	14	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	14
+reciprocal_line_realization_selector_2026-07-18	15	14	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+reciprocal_metric_null_line_selector_2026-07-19	19	16	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+reciprocity_offshell_constraint_selector_2026-07-18	12	11	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	11
+reorganization_r0	16	8	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+reorganization_r1_checkpoint	6	4	B5_JOINT	1	NO	0
+reorganization_r1_checkpoint/final_validation	2	1	B5_JOINT	1	NO	0
+reorganization_r1a	23	16	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+reorganization_r1a/correction_2026-07-18	18	11	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+reorganization_r1a/postmove_census	7	3	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+reorganization_r1b	22	19	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+reorganization_r1b/adjudication	10	4	B1_FOUNDING;B4_GLOBAL;B5_JOINT	3	NO	0
+reorganization_r1b/base_census	7	6	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+reorganization_r1b/base_forensic_census	4	2	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+reorganization_r1b/final_validation	2	1	B5_JOINT	1	NO	0
+reorganization_r1b/migration	7	1	B5_JOINT	1	NO	0
+reorganization_r1b/postmove_forensic_census	4	2	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+reorganization_r1b/postmove_operational_census	2	2	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+reorganization_r1c	9	9	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+reorganization_r1c/correction	8	8	B4_GLOBAL;B5_JOINT	2	NO	0
+reorganization_r1c/correction/final_validation	2	1	B5_JOINT	1	NO	0
+reorganization_r1c/final_validation	2	1	B5_JOINT	1	NO	0
+reorganization_r1d	12	6	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+reorganization_r1d/final_validation	2	1	B5_JOINT	1	NO	0
+reorganization_r1e	19	16	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+reorganization_r1e/final_validation	2	1	B5_JOINT	1	NO	0
+reorganization_r1f	18	13	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+reorganization_r1f/final_validation	2	1	B5_JOINT	1	NO	0
+reorganization_r1f/post_move	10	4	B4_GLOBAL;B5_JOINT	2	NO	0
+reorganization_r1f/pre_move	10	4	B4_GLOBAL;B5_JOINT	2	NO	0
+reorganization_r1f_checkpoint	5	4	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+reorganization_r1f_checkpoint/behavioral_replay	9	4	B4_GLOBAL;B5_JOINT	2	NO	0
+reorganization_r1f_checkpoint/final_validation	2	1	B5_JOINT	1	NO	0
+reorganization_r1g	24	16	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+reorganization_r1g/final_validation	2	1	B5_JOINT	1	NO	0
+reorganization_r1g_checkpoint	4	4	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+reorganization_r1g_checkpoint/final_validation	2	1	B5_JOINT	1	NO	0
+reorganization_r1h	11	11	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+reorganization_r1h/final_validation	2	2	B5_JOINT	1	NO	0
+rescued_workspaces/2026-06-11	1	1	B5_JOINT	1	NO	0
+rescued_workspaces/2026-06-11/nonstat_n1	12	6	B2_DEPTH;B4_GLOBAL;B5_JOINT	3	NO	0
+rescued_workspaces/2026-06-11/nonstat_n2	4	4	B3_LIFT;B5_JOINT	2	NO	0
+rescued_workspaces/2026-06-11/pde_p1	14	11	B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+rescued_workspaces/2026-06-11/tmp_loose_scripts	287	157	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	157
+rescued_workspaces/2026-06-11/verify_angular	5	4	B3_LIFT;B5_JOINT	2	NO	0
+rescued_workspaces/2026-06-11/verify_blind	7	6	B3_LIFT;B5_JOINT	2	NO	0
+rescued_workspaces/2026-06-11/verify_ens	6	6	B2_DEPTH;B3_LIFT;B5_JOINT	3	NO	0
+rescued_workspaces/2026-06-11/verify_mass	7	3	B3_LIFT;B5_JOINT	2	NO	0
+rescued_workspaces/2026-06-11/verify_mf	9	9	B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+rescued_workspaces/2026-06-11/verify_n_adjudication	8	8	B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+rescued_workspaces/2026-06-11/verify_nonstat	8	6	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+rescued_workspaces/2026-06-11/verify_pde	3	2	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+rescued_workspaces/2026-06-11/verify_s2	13	6	B3_LIFT;B5_JOINT	2	NO	0
+rescued_workspaces/2026-06-11/verify_x1	14	7	B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+rescued_workspaces/scratch_2026-06-13	9	8	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+rescued_workspaces/w_whole_2026-06-13	2	2	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+research	25	24	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	24
+rung2_weld_postjuly_regrade_2026-07-19	22	19	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+scale_breaking_closure_census_2026-07-20	30	24	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+scratchpad	13	4	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+tests	11	8	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+transverse_reciprocal_realization_selector_2026-07-19	19	16	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	16
+udt_amplitude_volume_metric_atlas_2026-07-21	32	15	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_angular_bulk_jacobi_selector_audit_2026-07-23	40	32	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_angular_generator_branch_census_2026-07-23	36	27	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_bank_simplex_interior_atlas_2026-07-23	37	20	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_bootstrap_clock_angular_closure_audit_2026-07-24	37	31	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_bootstrap_substrate_micro_closure_audit_2026-07-23	27	27	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_bootstrap_to_local_response_map_audit_2026-07-25	37	35	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_calibrated_reciprocal_readout_descent_audit_2026-07-26	37	33	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_canonical_geometry_evaluator_p01_2026-07-21	26	20	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_center_free_observer_optical_correspondence_audit_2026-07-24	37	30	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_century_adjacent_mathematics_survey_2026-07-22	21	16	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_chart_coframe_invariance_atlas_2026-07-21	68	23	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_cleanroom_metric_reduction_readiness_audit_2026-07-27	42	23	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	23
+udt_clock_anchor_scale_threading_audit_2026-07-22	25	23	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	23
+udt_clock_angular_solder_regularity_audit_2026-07-24	36	29	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_clock_ruler_soldering_selector_audit_2026-07-20	22	20	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_cmb_polarization_observable_typing_audit_2026-07-27	48	38	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_coframe_hopf_bridge_audit_2026-07-23	36	24	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	24
+udt_common_scale_neutrality_provenance_audit_2026-07-24	35	28	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_complete_branch_founded_pair_pullback_audit_2026-07-26	38	32	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	32
+udt_complete_coframe_metric_telescope_p01_2026-07-27	46	37	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	37
+udt_complete_coframe_native_selector_audit_2026-07-26	24	23	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_complete_coframe_physical_comparison_functor_audit_2026-07-27	40	32	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	32
+udt_complete_connector_assembly_audit_2026-07-22	33	27	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_complete_lift_mu_closure_audit_2026-07-20	21	17	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_complete_metric_intrinsic_object_audit_2026-07-23	37	30	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_complete_metric_realization_zoomout_2026-07-23	38	32	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	32
+udt_complete_metric_solution_space_map_2026-07-21	27	24	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_complete_nonultrastatic_reciprocal_branch_audit_2026-07-27	37	28	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	28
+udt_complete_physical_comparison_map_audit_2026-07-27	42	32	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	32
+udt_complete_relational_configuration_variation_domain_audit_2026-07-26	43	36	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	36
+udt_complete_seal_fixed_set_selector_audit_2026-07-21	23	18	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_completion_scoped_realized_observable_map_2026-07-26	44	39	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_configuration_space_adjacency_atlas_2026-07-22	39	30	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_constructive_metric_family_atlas_2026-07-21	34	25	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_covariant_reciprocal_coframe_lift_atlas_2026-07-26	28	27	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_csn_dphi_transport_selector_audit_2026-07-23	17	16	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_directional_observer_pair_distance_audit_2026-07-24	43	32	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_dual_systole_global_transport_audit_2026-07-24	35	30	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_dual_systole_wall_crossing_selector_audit_2026-07-24	38	33	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_dynamics_branch_ruling_p04_2026-07-21	23	21	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_finite_cell_cartan_transport_atlas_2026-07-23	26	23	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	23
+udt_finite_cell_completion_atlas_2026-07-21	37	32	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27	32	27	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_finite_cell_reciprocal_survival_density_audit_2026-07-23	27	23	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_finite_cell_transnormal_asymptote_branch_audit_2026-07-24	33	25	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_finite_reciprocal_quotient_lift_audit_2026-07-27	30	25	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_foundational_semantic_regression_correction_2026-07-26	28	19	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	19
+udt_founded_constraint_atlas_p03_2026-07-21	32	26	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_founded_pair_first_jet_one_form_atlas_2026-07-26	39	32	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	32
+udt_founded_pair_global_alignment_audit_2026-07-26	34	28	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_founded_phi_complete_coframe_extension_audit_2026-07-25	26	24	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	24
+udt_founding_observer_comparison_semantics_audit_2026-07-27	39	29	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	29
+udt_founding_reciprocity_object_audit_2026-07-27	41	34	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	34
+udt_frame_bivector_equivariance_audit_2026-07-23	23	18	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_free_global_seal_transversality_audit_2026-07-21	30	25	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	25
+udt_full_equation_variation_p05_2026-07-21	34	30	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_full_local_jet_strata_p02_2026-07-27	46	32	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	33
+udt_global_coframe_cocycle_audit_2026-07-20	19	17	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_global_coframe_compatibility_p03_2026-07-27	25	21	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	21
+udt_global_functional_dof_constraint_rank_audit_2026-07-26	41	36	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	36
+udt_global_kinematic_assembly_p03g_2026-07-21	30	26	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_global_local_relational_closure_audit_2026-07-25	21	19	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	19
+udt_global_metric_assembly_atlas_2026-07-22	54	42	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_global_reciprocal_bundle_assembly_audit_2026-07-26	43	36	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	36
+udt_global_reciprocal_closure_audit_2026-07-20	20	19	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_global_reciprocal_persistence_selector_audit_2026-07-23	33	25	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	26
+udt_gr_lorentzian_relational_architecture_audit_2026-07-27	27	21	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	21
+udt_gr_subtraction_reciprocal_connection_audit_2026-07-21	23	21	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_historical_phi_equation_salvage_audit_2026-07-24	25	15	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_hopf_realization_deformation_audit_2026-07-23	25	25	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_hopf_transport_bootstrap_dependency_audit_2026-07-23	22	20	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_independent_amplitude_metric_atlas_2026-07-21	33	17	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_instrument_motif_atlas_2026-07-21	66	29	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_intrinsic_clock_transverse_solder_audit_2026-07-24	37	30	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_intrinsic_optical_transport_atlas_2026-07-27	43	33	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	33
+udt_intrinsic_pair_deformation_neighborhood_audit_2026-07-27	38	26	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_intrinsic_pair_lambda_component_atlas_2026-07-27	45	27	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_intrinsic_reciprocal_holonomy_audit_2026-07-27	42	34	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	35
+udt_invariant_xmax_asymptotic_boundary_audit_2026-07-23	36	29	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_involutive_exchange_branch_availability_audit_2026-07-24	49	43	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_joint_invariant_subspace_atlas_2026-07-21	66	55	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_local_jet_atlas_p02_2026-07-21	35	23	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_local_selector_holonomy_closure_2026-07-22	29	26	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_macro_phi_angular_xmax_extension_atlas_2026-07-25	25	19	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	19
+udt_metric_native_nontriviality_connector_audit_2026-07-25	35	32	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	32
+udt_metric_native_observer_separation_asymptote_audit_2026-07-24	30	23	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_metric_native_selector_rank_closure_audit_2026-07-27	39	33	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	33
+udt_metric_native_signed_depth_availability_audit_2026-07-26	40	34	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	34
+udt_metric_native_two_pair_selector_audit_2026-07-21	23	21	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_metric_natural_complete_extension_selector_audit_2026-07-27	54	44	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	44
+udt_metric_orchestra_rehearsal_2026-07-25	54	36	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_metric_pure_frame_rederivation_2026-07-23	24	19	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_metric_to_frontier_reference_2026-07-22	38	30	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	30
+udt_mixed_readout_anchor_soldering_audit_2026-07-20	20	16	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_motif_hopf_correspondence_audit_2026-07-22	76	57	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_native_coframe_composition_law_audit_2026-07-23	36	28	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_native_global_coframe_definition_audit_2026-07-28	37	33	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	33
+udt_native_global_observable_closure_census_2026-07-26	44	38	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_native_reciprocal_comparison_bundle_audit_2026-07-27	34	29	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	29
+udt_nonlinear_cartan_bianchi_ensemble_atlas_2026-07-26	53	38	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_observer_centered_xmax_frame_correction_2026-07-23	23	18	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_observer_depth_angle_transition_audit_2026-07-24	35	28	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	28
+udt_observer_longitudinal_transverse_cocycle_audit_2026-07-24	34	26	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	26
+udt_observer_pair_clock_operator_audit_2026-07-24	36	29	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	29
+udt_observer_pair_navigation_checkpoint_2026-07-24	13	6	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_observer_pair_path_groupoid_assembly_audit_2026-07-26	35	31	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	31
+udt_observer_pair_triangle_consistency_audit_2026-07-26	34	30	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_observer_pair_xmax_bridge_audit_2026-07-27	40	30	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	30
+udt_pair_space_metric_transform_sne_readout_audit_2026-07-24	40	28	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+udt_phi_causal_interface_atlas_2026-07-22	36	28	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	29
+udt_phi_metric_ontology_audit_2026-07-22	27	25	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_post_july_offshell_response_availability_audit_2026-07-25	24	22	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_pre_density_substrate_response_atlas_2026-07-24	40	34	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_pre_p06_boundary_selector_audit_2026-07-21	27	26	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	26
+udt_premise_reset_audit_2026-07-19	24	19	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	20
+udt_reciprocal_angular_intertwiner_audit_2026-07-23	40	33	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_reciprocal_c_metric_meaning_audit_2026-07-22	24	22	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_reciprocal_pair_global_module_audit_2026-07-24	41	37	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_reciprocal_plane_projector_audit_2026-07-21	22	20	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_reciprocal_seam_descent_audit_2026-07-23	34	27	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	27
+udt_reciprocal_subbundle_ownership_audit_2026-07-22	22	21	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	21
+udt_reciprocal_transport_holonomy_atlas_2026-07-26	36	32	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_reciprocal_transport_naturality_selector_audit_2026-07-23	19	18	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_reciprocity_regime_angular_center_audit_2026-07-22	24	21	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_reduced_holonomy_condition_audit_2026-07-27	42	33	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_registered_branch_distance_profile_compatibility_audit_2026-07-24	35	26	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_relational_metric_fixed_point_typing_audit_2026-07-26	41	35	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	35
+udt_relational_pair_depth_realization_audit_2026-07-24	38	30	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	30
+udt_relative_angular_area_shape_selector_audit_2026-07-23	34	28	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_scientific_consolidation_checkpoint_2026-07-23	33	26	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_structural_ensemble_metric_atlas_2026-07-21	36	19	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_temporal_soldering_atlas_2026-07-22	62	45	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	45
+udt_three_reciprocity_delta_k_audit_2026-07-23	35	30	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	30
+udt_time_extendability_constraint_audit_2026-07-20	22	18	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_time_live_characteristic_flux_audit_2026-07-21	29	26	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_timelive_spherical_areal_polarization_audit_2026-07-22	24	21	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27	40	28	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	29
+udt_twisted_s3_intrinsic_screen_cocycle_audit_2026-07-27	39	32	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	32
+udt_twisted_s3_killing_algebra_audit_2026-07-27	46	34	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	34
+udt_two_frame_regime_metric_limit_audit_2026-07-22	29	25	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_two_observer_separation_selector_audit_2026-07-24	35	33	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_wrl_xmax_lightcone_frame_audit_2026-07-23	24	19	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	19
+udt_xmax_dilation_asymptote_correction_2026-07-23	23	18	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+udt_xmax_observer_separation_audit_2026-07-24	37	32	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+verifier_evidence_2026-07-14	7	3	B3_LIFT;B5_JOINT	2	NO	0
+verifier_scripts_coupled_cell	8	6	B3_LIFT;B4_GLOBAL;B5_JOINT	3	NO	0
+w_alg_verifier_scripts	7	5	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+xmax_accelerating_finite_cell_cartan_2026-07-19	21	18	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+xmax_dynamic_observer_frame_2026-07-19	21	18	B1_FOUNDING;B2_DEPTH;B3_LIFT;B4_GLOBAL;B5_JOINT	5	YES	18
+xmax_full_frame_realization_2026-07-19	22	19	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
+xmax_reciprocity_audit_2026-07-19	22	19	B1_FOUNDING;B3_LIFT;B4_GLOBAL;B5_JOINT	4	NO	0
