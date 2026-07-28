@@ -1,0 +1,806 @@
+{
+  "coefficient_universe_sha256": "c381c8b87183d8e771e13ad02a68637465d446cd29ca9488d49bcde5303b390e",
+  "complete_amplitude_norm_correlation_tables": {
+    "0.03": {
+      "column_response": [
+        "log1p_scalar_rms",
+        "log1p_kretschmann_max",
+        "log1p_pair_screen_ricci_mix",
+        "log1p_dphi_norm_span"
+      ],
+      "row_amplitude_coefficient_rms": [
+        "phi",
+        "sigma",
+        "alpha",
+        "k",
+        "S10",
+        "S11",
+        "S20",
+        "S21"
+      ],
+      "scope": "DESCRIPTIVE_COEFFICIENT_NORM_ASSOCIATION_NOT_CAUSAL_SENSITIVITY",
+      "spearman_matrix": [
+        [
+          0.297793299835491,
+          0.26586433150346894,
+          0.007874962002002717,
+          0.668913782544167
+        ],
+        [
+          0.07667150954867319,
+          0.04452899247192618,
+          -0.00024370127315642657,
+          0.016459860703812317
+        ],
+        [
+          -0.012923498855589726,
+          0.30337342867105355,
+          -0.031431339854087685,
+          -0.007803682229454259
+        ],
+        [
+          0.0018905009477147557,
+          0.06674500214576926,
+          0.000567120109434232,
+          0.010617948018739717
+        ],
+        [
+          0.020463128531578566,
+          0.0006869926149774693,
+          0.06709736651527072,
+          0.016117431693011944
+        ],
+        [
+          -0.0002296531900436306,
+          0.05703270286460195,
+          0.27537467142908234,
+          -0.003798581557113225
+        ],
+        [
+          0.022344599366998067,
+          -0.00671255856161934,
+          0.0644266884521851,
+          -0.02480688076675488
+        ],
+        [
+          -0.0056831257599599455,
+          0.0709683342572062,
+          0.2936363859881267,
+          -0.0069861664938130315
+        ]
+      ]
+    },
+    "0.1": {
+      "column_response": [
+        "log1p_scalar_rms",
+        "log1p_kretschmann_max",
+        "log1p_pair_screen_ricci_mix",
+        "log1p_dphi_norm_span"
+      ],
+      "row_amplitude_coefficient_rms": [
+        "phi",
+        "sigma",
+        "alpha",
+        "k",
+        "S10",
+        "S11",
+        "S20",
+        "S21"
+      ],
+      "scope": "DESCRIPTIVE_COEFFICIENT_NORM_ASSOCIATION_NOT_CAUSAL_SENSITIVITY",
+      "spearman_matrix": [
+        [
+          0.30033552231600025,
+          0.2887427692046348,
+          0.011510219226092553,
+          0.671509883949646
+        ],
+        [
+          0.07867991604677776,
+          0.04333401133681425,
+          0.0009598405872255202,
+          0.014710242918961445
+        ],
+        [
+          -0.014628893677133251,
+          0.2823883529432801,
+          -0.030339221532794503,
+          -0.0077556929940633705
+        ],
+        [
+          0.001477619179600887,
+          0.06331522467992275,
+          0.0070598937844217145,
+          0.011524166726271368
+        ],
+        [
+          0.020655297814891636,
+          -0.007495216722695085,
+          0.059364036460195974,
+          0.015955683159287602
+        ],
+        [
+          0.0005412926471640083,
+          0.048379161898290536,
+          0.2723924880194549,
+          -0.004529540090122308
+        ],
+        [
+          0.023745194370931977,
+          -0.0013999356269222515,
+          0.05950668541234532,
+          -0.02308382805235677
+        ],
+        [
+          -0.0037792584579071594,
+          0.06569992310993492,
+          0.29542885210285386,
+          -0.0059932788248337025
+        ]
+      ]
+    },
+    "0.3": {
+      "column_response": [
+        "log1p_scalar_rms",
+        "log1p_kretschmann_max",
+        "log1p_pair_screen_ricci_mix",
+        "log1p_dphi_norm_span"
+      ],
+      "row_amplitude_coefficient_rms": [
+        "phi",
+        "sigma",
+        "alpha",
+        "k",
+        "S10",
+        "S11",
+        "S20",
+        "S21"
+      ],
+      "scope": "DESCRIPTIVE_COEFFICIENT_NORM_ASSOCIATION_NOT_CAUSAL_SENSITIVITY",
+      "spearman_matrix": [
+        [
+          0.32393569844789355,
+          0.34495651464487515,
+          0.038839328821257416,
+          0.6864227232494098
+        ],
+        [
+          0.0889901920463486,
+          0.0333431867355697,
+          0.012678221783134254,
+          0.009316125455975967
+        ],
+        [
+          -0.017723729972820255,
+          0.22203748614190685,
+          0.0026285449896287817,
+          -0.00832722757671125
+        ],
+        [
+          0.00019061583577712607,
+          0.06089882027394321,
+          0.032439437897861384,
+          0.011344279736785636
+        ],
+        [
+          0.019471380802517698,
+          -0.02101529531149417,
+          0.04688500241399041,
+          0.01636455278592375
+        ],
+        [
+          0.0029989360560761028,
+          0.03520711143695014,
+          0.2602668688756169,
+          -0.008149922215864386
+        ],
+        [
+          0.023243643158572344,
+          0.00990290394106287,
+          0.05091803161433373,
+          -0.01886101003147128
+        ],
+        [
+          -0.0012965251949073743,
+          0.05284315544310134,
+          0.26791037837064585,
+          -0.005627928080967026
+        ]
+      ]
+    },
+    "1.0": {
+      "column_response": [
+        "log1p_scalar_rms",
+        "log1p_kretschmann_max",
+        "log1p_pair_screen_ricci_mix",
+        "log1p_dphi_norm_span"
+      ],
+      "row_amplitude_coefficient_rms": [
+        "phi",
+        "sigma",
+        "alpha",
+        "k",
+        "S10",
+        "S11",
+        "S20",
+        "S21"
+      ],
+      "scope": "DESCRIPTIVE_COEFFICIENT_NORM_ASSOCIATION_NOT_CAUSAL_SENSITIVITY",
+      "spearman_matrix": [
+        [
+          0.5241980075638365,
+          0.3845628442171518,
+          0.17926800211000643,
+          0.7482167539875544
+        ],
+        [
+          0.14364599724626276,
+          0.03636981662613547,
+          0.10639392300264644,
+          0.012527325030398396
+        ],
+        [
+          0.078638006490952,
+          0.3165303693405335,
+          0.3014378218653887,
+          -0.012748540429869107
+        ],
+        [
+          0.051355366211286745,
+          0.1846747483191474,
+          0.1548409783813747,
+          0.014965734747156853
+        ],
+        [
+          -0.016176373292325297,
+          -0.010257816411558544,
+          0.043024919980688074,
+          0.00043851924039768256
+        ],
+        [
+          0.014230551730920535,
+          0.0035818588620270364,
+          0.10934928429654531,
+          -0.016363368142479077
+        ],
+        [
+          0.022278583434661325,
+          0.018360129372004864,
+          0.08925094771475572,
+          -0.008191887651097917
+        ],
+        [
+          0.01794552651813175,
+          0.017382284439596593,
+          0.11553793988269793,
+          -0.004399151080037193
+        ]
+      ]
+    },
+    "2.5": {
+      "column_response": [
+        "log1p_scalar_rms",
+        "log1p_kretschmann_max",
+        "log1p_pair_screen_ricci_mix",
+        "log1p_dphi_norm_span"
+      ],
+      "row_amplitude_coefficient_rms": [
+        "phi",
+        "sigma",
+        "alpha",
+        "k",
+        "S10",
+        "S11",
+        "S20",
+        "S21"
+      ],
+      "scope": "DESCRIPTIVE_COEFFICIENT_NORM_ASSOCIATION_NOT_CAUSAL_SENSITIVITY",
+      "spearman_matrix": [
+        [
+          0.2720077247693298,
+          0.17975662282740862,
+          0.1035768632429726,
+          0.789505813693584
+        ],
+        [
+          0.032392029808311275,
+          0.02267613189328374,
+          0.030647463521922602,
+          0.018605898183248693
+        ],
+        [
+          0.3557012195121951,
+          0.38105641137972956,
+          0.41514027966525996,
+          -0.015731550854731418
+        ],
+        [
+          0.13426973437164721,
+          0.13529921187683283,
+          0.12322281131535655,
+          0.013655530273227951
+        ],
+        [
+          -0.015971072348186822,
+          -0.020574909698877045,
+          0.00018101575352263784,
+          -0.016491555503898147
+        ],
+        [
+          0.011759161987697588,
+          0.0130084132036335,
+          0.022651578481510618,
+          -0.023938078910664472
+        ],
+        [
+          -0.003766629711751662,
+          -0.0010385858486517416,
+          0.029573461304627707,
+          -0.003673422859595165
+        ],
+        [
+          0.024911744063371717,
+          0.02924230875831485,
+          0.04941080752449753,
+          -0.012194384343036976
+        ]
+      ]
+    }
+  },
+  "same_configuration_shell_transitions": {
+    "kretschmann_abs_max": {
+      "not_strictly_increasing": 0,
+      "strictly_increasing_across_all_five_shells": 1024
+    },
+    "pair_screen_ricci_mix_max": {
+      "not_strictly_increasing": 0,
+      "strictly_increasing_across_all_five_shells": 1024
+    },
+    "scalar_rms": {
+      "not_strictly_increasing": 0,
+      "strictly_increasing_across_all_five_shells": 1024
+    }
+  },
+  "schema": "udt-p01-descriptive-structure-census-1.0",
+  "scope_warning": "Sobol frequency and correlations are numerical coverage descriptions, not a physical measure, selector, dynamics, or prediction.",
+  "shells": [
+    {
+      "causal_presence": {
+        "null_present": 2,
+        "spacelike_present": 1024,
+        "timelike_and_spacelike_present": 1024,
+        "timelike_present": 1024,
+        "zero_gradient_present": 0
+      },
+      "checkpoint_sha256": "1e1db615677d6bdba04000a10b5242b07007e11fb5fae7115dde3b068b617b1e",
+      "configurations": 1024,
+      "grid_points_per_configuration": 561,
+      "grid_resolved_configurations": 1024,
+      "local_feature_ranges": {
+        "det_relative_error_max": {
+          "finite_count": 1024,
+          "maximum": 6.644538977666522e-16,
+          "median": 4.443629518096582e-16,
+          "minimum": 3.3439964322493836e-16
+        },
+        "dphi_norm_max": {
+          "finite_count": 1024,
+          "maximum": 0.008443156756781752,
+          "median": 0.002424101433935744,
+          "minimum": 8.128832134048943e-05
+        },
+        "dphi_norm_min": {
+          "finite_count": 1024,
+          "maximum": -4.166874549881021e-05,
+          "median": -0.0035590395536771327,
+          "minimum": -0.01176151949751051
+        },
+        "kretschmann_abs_max": {
+          "finite_count": 1024,
+          "maximum": 4.389877467688859,
+          "median": 1.8684249192257059,
+          "minimum": 0.314141208292151
+        },
+        "pair_screen_ricci_mix_max": {
+          "finite_count": 1024,
+          "maximum": 0.5467633633501866,
+          "median": 0.3346884698840291,
+          "minimum": 0.14400374774633948
+        },
+        "scalar_rms": {
+          "finite_count": 1024,
+          "maximum": 0.8869940429845923,
+          "median": 0.37827919426499035,
+          "minimum": 0.07690786951403794
+        },
+        "tidal_discriminant_min": {
+          "finite_count": 1024,
+          "maximum": 0.004651175185293115,
+          "median": 0.0001601139782460257,
+          "minimum": 2.7781433403511807e-08
+        }
+      },
+      "local_point_evaluations": 574464,
+      "mean_grid_fractions": {
+        "null": 3.48150623885918e-06,
+        "spacelike": 0.425088430258467,
+        "timelike": 0.574908088235294,
+        "zero_gradient": 0.0
+      },
+      "repeated_screen_tidal": {
+        "configurations_with_any_registered_repetition": 0,
+        "registered_repeated_grid_points": 0
+      },
+      "shell": 0.03,
+      "transport": {
+        "deviation_among_resolved": {
+          "finite_count": 1024,
+          "maximum": 0.14244614007150183,
+          "median": 0.06499122696674395,
+          "minimum": 0.015115190052095311
+        },
+        "nontrivial_among_resolved": 1024,
+        "pair_screen_mixing_among_resolved": {
+          "finite_count": 1024,
+          "maximum": 0.06610129326986432,
+          "median": 0.040904664456668835,
+          "minimum": 0.0061689854336567
+        },
+        "resolved": 1024,
+        "trivial_among_resolved": 0,
+        "unresolved": 0
+      }
+    },
+    {
+      "causal_presence": {
+        "null_present": 0,
+        "spacelike_present": 1024,
+        "timelike_and_spacelike_present": 1024,
+        "timelike_present": 1024,
+        "zero_gradient_present": 0
+      },
+      "checkpoint_sha256": "240236f4ffbeae36afe36a1f0b10b5baa5ea145b9b806c9052313fc7d9302b2b",
+      "configurations": 1024,
+      "grid_points_per_configuration": 561,
+      "grid_resolved_configurations": 1024,
+      "local_feature_ranges": {
+        "det_relative_error_max": {
+          "finite_count": 1024,
+          "maximum": 7.332096106907624e-16,
+          "median": 4.454204770400907e-16,
+          "minimum": 3.3481348483853474e-16
+        },
+        "dphi_norm_max": {
+          "finite_count": 1024,
+          "maximum": 0.1067500241033063,
+          "median": 0.027485156400322716,
+          "minimum": 0.0009945622075346577
+        },
+        "dphi_norm_min": {
+          "finite_count": 1024,
+          "maximum": -0.0004703506184933834,
+          "median": -0.03986673307988328,
+          "minimum": -0.14347045244702608
+        },
+        "kretschmann_abs_max": {
+          "finite_count": 1024,
+          "maximum": 60.99340911585632,
+          "median": 22.10927289507707,
+          "minimum": 3.657641768488838
+        },
+        "pair_screen_ricci_mix_max": {
+          "finite_count": 1024,
+          "maximum": 1.9102613541470828,
+          "median": 1.1315022145115026,
+          "minimum": 0.48683791998756965
+        },
+        "scalar_rms": {
+          "finite_count": 1024,
+          "maximum": 3.1059741925490636,
+          "median": 1.2640741519940122,
+          "minimum": 0.2555256101910862
+        },
+        "tidal_discriminant_min": {
+          "finite_count": 1024,
+          "maximum": 0.05323924876208643,
+          "median": 0.001041291830944296,
+          "minimum": 1.6725397787731617e-06
+        }
+      },
+      "local_point_evaluations": 574464,
+      "mean_grid_fractions": {
+        "null": 0.0,
+        "spacelike": 0.4252137644830659,
+        "timelike": 0.574786235516934,
+        "zero_gradient": 0.0
+      },
+      "repeated_screen_tidal": {
+        "configurations_with_any_registered_repetition": 0,
+        "registered_repeated_grid_points": 0
+      },
+      "shell": 0.1,
+      "transport": {
+        "deviation_among_resolved": {
+          "finite_count": 1024,
+          "maximum": 0.4956804048372613,
+          "median": 0.22102282849301905,
+          "minimum": 0.04315414342593118
+        },
+        "nontrivial_among_resolved": 1024,
+        "pair_screen_mixing_among_resolved": {
+          "finite_count": 1024,
+          "maximum": 0.23322167684398287,
+          "median": 0.13867974797117544,
+          "minimum": 0.018450347139917996
+        },
+        "resolved": 1024,
+        "trivial_among_resolved": 0,
+        "unresolved": 0
+      }
+    },
+    {
+      "causal_presence": {
+        "null_present": 0,
+        "spacelike_present": 1024,
+        "timelike_and_spacelike_present": 1024,
+        "timelike_present": 1024,
+        "zero_gradient_present": 0
+      },
+      "checkpoint_sha256": "ae378b39385f28a63f3af3a5191d30773162f86c660d81bdc0656582040f5b79",
+      "configurations": 1024,
+      "grid_points_per_configuration": 561,
+      "grid_resolved_configurations": 1024,
+      "local_feature_ranges": {
+        "det_relative_error_max": {
+          "finite_count": 1024,
+          "maximum": 7.909848935234631e-16,
+          "median": 4.731167039155125e-16,
+          "minimum": 3.324089682592054e-16
+        },
+        "dphi_norm_max": {
+          "finite_count": 1024,
+          "maximum": 1.440274372766132,
+          "median": 0.27171797560497074,
+          "minimum": 0.012233776784621885
+        },
+        "dphi_norm_min": {
+          "finite_count": 1024,
+          "maximum": -0.004427970383137751,
+          "median": -0.3913563753428717,
+          "minimum": -1.6851922352399513
+        },
+        "kretschmann_abs_max": {
+          "finite_count": 1024,
+          "maximum": 1173.5777770264667,
+          "median": 264.61114418880464,
+          "minimum": 36.58840852319524
+        },
+        "pair_screen_ricci_mix_max": {
+          "finite_count": 1024,
+          "maximum": 6.896520502593499,
+          "median": 3.7021935037100704,
+          "minimum": 1.627487209104077
+        },
+        "scalar_rms": {
+          "finite_count": 1024,
+          "maximum": 11.621608767497403,
+          "median": 3.9671122436641646,
+          "minimum": 0.8552410104765051
+        },
+        "tidal_discriminant_min": {
+          "finite_count": 1024,
+          "maximum": 0.4895740516870321,
+          "median": 0.007275718277417719,
+          "minimum": 7.243582452332358e-06
+        }
+      },
+      "local_point_evaluations": 574464,
+      "mean_grid_fractions": {
+        "null": 0.0,
+        "spacelike": 0.42667425635026734,
+        "timelike": 0.5733257436497325,
+        "zero_gradient": 0.0
+      },
+      "repeated_screen_tidal": {
+        "configurations_with_any_registered_repetition": 0,
+        "registered_repeated_grid_points": 0
+      },
+      "shell": 0.3,
+      "transport": {
+        "deviation_among_resolved": {
+          "finite_count": 1024,
+          "maximum": 2.3576325189684666,
+          "median": 0.7370705714481617,
+          "minimum": 0.11055075062617184
+        },
+        "nontrivial_among_resolved": 1024,
+        "pair_screen_mixing_among_resolved": {
+          "finite_count": 1024,
+          "maximum": 1.1561358809640172,
+          "median": 0.4786689472630371,
+          "minimum": 0.047583972083776106
+        },
+        "resolved": 1024,
+        "trivial_among_resolved": 0,
+        "unresolved": 0
+      }
+    },
+    {
+      "causal_presence": {
+        "null_present": 0,
+        "spacelike_present": 1024,
+        "timelike_and_spacelike_present": 1024,
+        "timelike_present": 1024,
+        "zero_gradient_present": 0
+      },
+      "checkpoint_sha256": "2cc1e06d702474ad2030ad8f6e59222d45ad1cfe803bddeb2d6b7bef4bd3268c",
+      "configurations": 1024,
+      "grid_points_per_configuration": 561,
+      "grid_resolved_configurations": 1024,
+      "local_feature_ranges": {
+        "det_relative_error_max": {
+          "finite_count": 1024,
+          "maximum": 2.5685332870878363e-14,
+          "median": 1.2442275229029767e-15,
+          "minimum": 3.296888665511769e-16
+        },
+        "dphi_norm_max": {
+          "finite_count": 1024,
+          "maximum": 78.71120676430156,
+          "median": 5.221383264378517,
+          "minimum": 0.13206018655408971
+        },
+        "dphi_norm_min": {
+          "finite_count": 1024,
+          "maximum": -0.057534786662689366,
+          "median": -6.503650109177183,
+          "minimum": -67.08052475422002
+        },
+        "kretschmann_abs_max": {
+          "finite_count": 1024,
+          "maximum": 23062513.870473534,
+          "median": 31905.523171996694,
+          "minimum": 1791.6695364059228
+        },
+        "pair_screen_ricci_mix_max": {
+          "finite_count": 1024,
+          "maximum": 266.40264689885555,
+          "median": 30.615778733289346,
+          "minimum": 9.816936345895142
+        },
+        "scalar_rms": {
+          "finite_count": 1024,
+          "maximum": 157.44729730394658,
+          "median": 24.682697655803864,
+          "minimum": 6.113371289203135
+        },
+        "tidal_discriminant_min": {
+          "finite_count": 1024,
+          "maximum": 11.203332937545055,
+          "median": 0.09558734333190735,
+          "minimum": 8.370745331834548e-06
+        }
+      },
+      "local_point_evaluations": 574464,
+      "mean_grid_fractions": {
+        "null": 0.0,
+        "spacelike": 0.4371988497103386,
+        "timelike": 0.5628011502896613,
+        "zero_gradient": 0.0
+      },
+      "repeated_screen_tidal": {
+        "configurations_with_any_registered_repetition": 0,
+        "registered_repeated_grid_points": 0
+      },
+      "shell": 1.0,
+      "transport": {
+        "deviation_among_resolved": {
+          "finite_count": 1021,
+          "maximum": 26199.743055128183,
+          "median": 13.183727780606542,
+          "minimum": 0.5043402378307165
+        },
+        "nontrivial_among_resolved": 1021,
+        "pair_screen_mixing_among_resolved": {
+          "finite_count": 1021,
+          "maximum": 17418.350119362683,
+          "median": 8.233695181126828,
+          "minimum": 0.2988799446475491
+        },
+        "resolved": 1021,
+        "trivial_among_resolved": 0,
+        "unresolved": 3
+      }
+    },
+    {
+      "causal_presence": {
+        "null_present": 0,
+        "spacelike_present": 1024,
+        "timelike_and_spacelike_present": 1024,
+        "timelike_present": 1024,
+        "zero_gradient_present": 0
+      },
+      "checkpoint_sha256": "29227e99f0b65a667af1819cd28b7ea176ffea221494045c114c97ae1136eb1a",
+      "configurations": 1024,
+      "grid_points_per_configuration": 561,
+      "grid_resolved_configurations": 1024,
+      "local_feature_ranges": {
+        "det_relative_error_max": {
+          "finite_count": 1024,
+          "maximum": 2.2967524198070672e-10,
+          "median": 4.830093545700885e-13,
+          "minimum": 6.4237878271235155e-15
+        },
+        "dphi_norm_max": {
+          "finite_count": 1024,
+          "maximum": 29750.90694514708,
+          "median": 146.67450731013201,
+          "minimum": 0.7629054131040482
+        },
+        "dphi_norm_min": {
+          "finite_count": 1024,
+          "maximum": -0.5010467892530881,
+          "median": -160.81996473516017,
+          "minimum": -17504.498632589737
+        },
+        "kretschmann_abs_max": {
+          "finite_count": 1024,
+          "maximum": 3.0748474252093734e+17,
+          "median": 4528192405.628192,
+          "minimum": 248866.30436704875
+        },
+        "pair_screen_ricci_mix_max": {
+          "finite_count": 1024,
+          "maximum": 2026747.5160042136,
+          "median": 3098.4144699915905,
+          "minimum": 128.3762257047809
+        },
+        "scalar_rms": {
+          "finite_count": 1024,
+          "maximum": 12353387.214837123,
+          "median": 2614.2497383811624,
+          "minimum": 101.87660469763046
+        },
+        "tidal_discriminant_min": {
+          "finite_count": 1024,
+          "maximum": 523.4169579070231,
+          "median": 1.4373630468402372,
+          "minimum": 0.0008808754942138341
+        }
+      },
+      "local_point_evaluations": 574464,
+      "mean_grid_fractions": {
+        "null": 0.0,
+        "spacelike": 0.45881204044117646,
+        "timelike": 0.5411879595588235,
+        "zero_gradient": 0.0
+      },
+      "repeated_screen_tidal": {
+        "configurations_with_any_registered_repetition": 0,
+        "registered_repeated_grid_points": 0
+      },
+      "shell": 2.5,
+      "transport": {
+        "deviation_among_resolved": {
+          "finite_count": 9,
+          "maximum": 12277.179426451092,
+          "median": 1825.1182977166736,
+          "minimum": 15.102782990070299
+        },
+        "nontrivial_among_resolved": 9,
+        "pair_screen_mixing_among_resolved": {
+          "finite_count": 9,
+          "maximum": 8576.291198584218,
+          "median": 990.1009383023325,
+          "minimum": 11.010551682260852
+        },
+        "resolved": 9,
+        "trivial_among_resolved": 0,
+        "unresolved": 1015
+      }
+    }
+  ],
+  "status": "OBSERVED_BOUNDED_OFF_SHELL_ATLAS",
+  "total_configurations": 5120,
+  "total_local_point_evaluations": 2872320
+}
