@@ -1,0 +1,13 @@
+obligation_id	object	exact_question	pass_condition	failure_or_open_condition
+O01	founded_reciprocal_subgroup	Is the two-channel one-parameter action fixed?	exact group law and generator supplied	identity or action ambiguous
+O02	complete_pointwise_coframe_lift	Does the foundation map the pair into all four coframe slots?	all transverse and mixing blocks fixed covariantly	free representation generator function or mixing block remains
+O03	Lorentzian_nondegenerate_metric	Does the lift define a nondegenerate Lorentzian metric on its domain?	signature and determinant controlled throughout	undefined degenerate or conditional domain remains
+O04	observer_frame_equivalence	Does the construction transform consistently for all observational frames?	equivariant law with no preferred observer	chart-only or preferred-frame object
+O05	physical_depth_assignment	Does the metric assign founded phi to observer/path/event data?	global assignment and normalization supplied	arbitrary scalar profile coordinate time or path label remains
+O06	angular_mixing_generator	Are angular response and clock-angular mixing fixed?	unique covariant generator or proof of forced class	free transverse representation line screen or mixing function remains
+O07	chart_transition_law	Are all overlaps and reset/composition laws supplied?	complete cocycle/transition data	local coframe only or conditional path reset
+O08	finite_cell_global_completion	Are endpoints caps seams quotients and descent fixed?	complete global representative and joins	completion taxonomy or unselected boundary data only
+O09	causal_interface_completion	Does the law cross null zero and type-changing dphi strata?	regular or explicitly classified complete interface rule	separate local strata without join
+O10	observational_scale_placement	Do c_E and G_obs enter with correct dimensions and roles?	exact calibrated placement	anchors retained but placement open
+O11	uniqueness_moduli	Are all residual functions representations lifts and moduli removed by active premises?	unique up to declared presentation gauge	two inequivalent coherent constructions survive
+O12	realized_branch_selection	Does kinematics also select a realized complete solution?	native equations or equivalent closure derived	construction family remains off shell or equations absent

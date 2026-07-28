@@ -1,0 +1,28 @@
+catch_id	false_promotion_or_bug	must_be_rejected_because
+F01	omit_or_duplicate_frozen_source	exact source universe is preregistered
+F02	accept_changed_source_hash	all evidence bytes must match the preregistration
+F03	omit_either_detailed_P02_ledger	the prior projection-source defect must not recur
+F04	use_generated_audit_output_as_source	generated records cannot create evidence
+F05	cross_splice_WRL_and_S3_controls	one witness must be one coherent construction
+F06	assume_block_diagonal_extension	mixing slots are open and must be audited
+F07	assume_spectator_or_isotropic_angular_block	no such selector is active
+F08	assume_torus_S3_Hopf_or_carrier	global topology and carrier are unselected
+F09	reactivate_strong_local_CSN	owner correction makes it inactive
+F10	claim_c_E_or_G_obs_selects_dimensionless_shape	dimensional anchors do not by themselves fix representation data
+F11	confuse_covariance_with_uniqueness	an equivariant family need not select a member
+F12	confuse_pair_bundle_with_global_section	bundle existence does not choose observer ruler or depth
+F13	call_local_coframe_global	charts overlaps and completion remain separate obligations
+F14	identify_coordinate_time_or_radius_with_founded_phi	physical depth assignment is open
+F15	promote_co_presence_to_an_equation	it is a working interpretation unless a mathematical law is sourced
+F16	turn_Xmax_into_edge_radius_or_value	Xmax remains a working observer-pair schema outside scope
+F17	import_GR_field_equation_connection_or_completion	comparison cannot supply affirmative UDT physics
+F18	import_action_source_carrier_or_density_feedback	all downstream physics is excluded
+F19	invent_cap_seam_boundary_or_interface	global joins require sourced data
+F20	accept_counterfamily_without_one_coherent_global_domain	countermodels must satisfy their stated complete construction scope
+F21	claim_uniqueness_while_free_moduli_survive	residual inequivalent family refutes uniqueness
+F22	compress_independent_missing_obligations_into_one_selector	minimal selector set must respect logical independence
+F23	filter_candidates_by_physical_merit	this audit characterizes rather than targets a universe
+F24	launch_P03B_or_project_motifs_before_definition_gate	P03B is separately unauthorized
+F25	launch_GPU_or_time_live_work	this is CPU exact algebra and source typing only
+F26	infer_realized_equations_from_kinematic_constructibility	off-shell coframes are not selected solutions
+F27	claim_complete_UDT_action_or_matter_closure	maximum conclusion is the construction law or missing selector set
