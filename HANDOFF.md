@@ -7,7 +7,45 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-28).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-28 — general-screen dependency regrade complete)
+## CURRENT (2026-07-28 — higher-isometry reciprocal-plane audit complete)
+
+After `LIVE.md`, read the current premise registry and top frontier overlay, then
+`UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md`. For the latest exact result follow
+`udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md` in its stated correction-first
+order.
+
+Current ruling:
+
+- universal unique reciprocal-plane selection is `REFUTED_BOUNDED` inside the admitted stationary
+  descended `R x T2` family by an exact smooth complete nonconstant-depth two-plane control;
+- `span(K,V)` is uniquely robust only under independent variation across the whole free `(u,f,b)`
+  configuration family; generic fixed-metric uniqueness remains `OPEN` because a fixed
+  cohomogeneity-one profile permits derivative cancellations;
+- the exact `3 x 3` response is principal-orbit only (`b>0`) and can mix the registered plane when
+  the extra circle moment varies;
+- smooth unimodular two-cap toric `S3` topology has exactly two free unoriented primitive circle
+  lines and supplies no unique-plane selector;
+- the complete response-degeneracy atlas and regular cap gluing are unfinished;
+- no physical branch, macro/micro interpretation, action, source, carrier, density/bootstrap law,
+  boundary, dynamics, or mass emergence is selected.
+
+Evidence: preregistration `3e3eecc`, corrected result `ba2261a`, gates `a27a983`; 135 production
+checks, 292 independent checks, 32/32 catches, 26 frozen sources, and a 50-entry package manifest
+with SHA-256 `6afdb167ca86bf894c872d60bfd4c3e80cc89be6ced9688b5435819fafb47c26`.
+The first hosted review returned `REFUTED` on a quantifier error; the corrected review returned
+`PASS_WITH_CAVEATS`, and its three bookkeeping caveats are closed. Repository gates retain 70
+passed/1 xfailed, six frozen packages/133 paths, 1,114 current paths, 101 frontier targets, and 57
+unrelated dirty metadata paths.
+
+The proposed next bounded derivation is a fixed-profile necessary-and-sufficient plane/response
+classification within the present constant-`alpha` family. It is **not automatically authorized**.
+A fresh AI may first review P1–P8 in `UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md`. No variable
+`alpha`, metric off-block, nonstationarity, action, source, carrier, density/bootstrap, boundary,
+matter/time-live/GPU work, canonization, or reorganization is authorized.
+
+<!-- STARTUP_CURRENT_END -->
+
+## PRIOR CURRENT (2026-07-28 — general-screen dependency regrade complete)
 
 After `LIVE.md`, read the current premise registry and top frontier overlay, then
 `udt_general_screen_dependency_regrade_2026-07-28/AUDIT_REPORT.md`, `CORRECTION_LAYER.md`,
@@ -195,8 +233,6 @@ counterfamilies, 13 exact symbolic checks, and 30/30 catches replay. The package
 hashed files. Tests pass 70/1 xfailed; all six frozen packages, current navigation, and the
 preserved 55-path dirty checkout remain unchanged. Grade `VERIFIED-WITH-CAVEATS`; verification is
 separate-code but same-session.
-
-<!-- STARTUP_CURRENT_END -->
 
 ## PRIOR CURRENT (2026-07-26 — foundational semantic correction over global-local frontier)
 

@@ -7,7 +7,8 @@ order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
 [`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md) →
 the [foundational semantic correction](udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md) →
-the [current general-screen complete-cell atlas](udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md) →
+the [external-AI review brief](UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md) →
+the [current higher-isometry reciprocal-plane audit](udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md) →
 exact evidence named by those files only when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
 `MEMORY.md` top/current pointer. `AGENTS.md`
@@ -21,14 +22,20 @@ count, not the native UDT field or mode count. Strong local CSN is challenged/no
 inactive without explicit owner reauthorization; `c_E` and `G_obs` remain observational anchors.
 If the registry, `LIVE.md`, and a cited source disagree, stop.
 
-The latest repository result is the [general-screen complete-cell
-atlas](udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md). On the chosen stationary
-complete `S3` control, the full invertible angular screen has area and two independent metric shears
-plus local coframe-gauge rotation. The earlier shear absence was an equal-weight ansatz freeze.
-Anisotropy also makes the inherited angular generator display both shears. Exact connection blocks
-and an independent Frobenius proof show that no such screen can make the reciprocal pair and
-angular screen an all-direction parallel split on this contact `S3` family. This is off shell and
-selects no physical branch or interpretation.
+The latest repository result is the [higher-isometry reciprocal-plane ownership
+audit](udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md). Universal unique-plane
+selection is refuted within its bounded stationary descended `R x T2` family by an exact smooth
+complete nonconstant-depth metric with two isometry-equivalent reciprocal planes. `span(K,V)` is
+uniquely robust only as an identity under independent variation across the whole free `(u,f,b)`
+family; generic fixed-profile uniqueness remains open. The exact principal-orbit response can mix
+that plane, and toric `S3` topology supplies two free circle lines rather than a selector. No
+physical branch or interpretation is selected. The [external-AI review
+brief](UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md) summarizes the live structure and eight open
+problem classes without authorizing a derivation.
+
+The parent [general-screen complete-cell
+atlas](udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md) remains the source for the
+one-area/two-shear angular vocabulary and the bounded twisted-`S3` nonparallel result.
 
 The parent [complete screen-response branch
 atlas](udt_complete_screen_response_branch_atlas_2026-07-28/AUDIT_REPORT.md) remains the registered

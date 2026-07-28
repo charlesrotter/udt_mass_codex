@@ -8,7 +8,58 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's topmost CURRENT STATE block, that block wins.**
 
-## ============ CURRENT STATE (2026-07-28 — GENERAL-SCREEN DEPENDENCY REGRADE COMPLETE. NO WHOLESALE REDO IS REQUIRED. THE OLD SCALAR lambda AND ZERO-SHEAR RESULTS REMAIN EXACT ONLY IN THEIR ISOTROPIC/EQUAL-WEIGHT SUBFAMILIES; THE COMPLETE SCREEN HAS AREA PLUS TWO SHEARS. OF 390 EXPLICIT CURRENT-OWNER DECISIONS, 287 ARE INDEPENDENT, 85 SURVIVE WITH SCOPE CORRECTIONS, 13 HAVE STRONGER NONUNIQUENESS/OBSTRUCTION SUPPORT, THREE AVAILABILITY CLAIMS ARE SUPERSEDED, AND ONLY THE OVERALL HOPF/TORIC ROUTE ROWS N22/T18 REQUIRE FULL-SCREEN REDERIVATION BEFORE PRIVILEGED SELECTION. FOUNDED phi, LORENTZ ALGEBRA, WR-L/SNe, Xmax STATUS, DIMENSIONAL RESULTS, CONDITIONAL STATIC HOPFION STABILITY, C2/BACH, EH, AND COMPLETE-ACTION STATUS ARE UNCHANGED. VERIFIED-WITH-CAVEATS AFTER AN INITIAL FRESH COMPLETENESS FAIL, CORRECTION, AND SECOND FRESH PASS.) ============
+## ============ CURRENT STATE (2026-07-28 — HIGHER-ISOMETRY RECIPROCAL-PLANE OWNERSHIP AUDIT COMPLETE. UNIVERSAL UNIQUE-PLANE SELECTION IS REFUTED WITHIN THE BOUNDED STATIONARY DESCENDED R×T2 FAMILY BY AN EXACT SMOOTH COMPLETE NONCONSTANT-DEPTH METRIC WITH TWO ISOMETRY-EQUIVALENT RECIPROCAL PLANES. span(K,V) IS THE ONLY PLANE ROBUST UNDER INDEPENDENT VARIATION ACROSS THE WHOLE FREE (u,f,b) CONFIGURATION FAMILY, BUT THIS IDENTITY-LEVEL RESULT DOES NOT PROVE UNIQUENESS FOR A TYPICAL FIXED COHOMOGENEITY-ONE METRIC. GENERIC FIXED-PROFILE SELECTION, THE COMPLETE RESPONSE-DEGENERACY ATLAS, AND REGULAR CAP GLUING REMAIN OPEN. TORIC S3 TOPOLOGY SUPPLIES EXACTLY TWO UNORIENTED PRIMITIVE FREE CIRCLE LINES AND DOES NOT SELECT THE REGISTERED ONE. NO PHYSICAL BRANCH, MACRO/MICRO ASSIGNMENT, ACTION, SOURCE, CARRIER, DENSITY/BOOTSTRAP LAW, DYNAMICS, OR MASS EMERGENCE IS DERIVED. AN INITIAL HOSTED REVIEW REFUTED THE OVERGRADED GENERICITY CLAIM; THE CORRECTED PACKAGE PASSED WITH CAVEATS, AND ALL THREE BOOKKEEPING CAVEATS ARE CLOSED.) ============
+
+**READ NEXT, IN ORDER:**
+
+1. `HANDOFF.md` current marked block.
+2. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+3. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` top/current overlay.
+4. `UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md` for a whole-project adversarial problem map.
+5. `udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md`, then its preserved
+   `FRESH_ADVERSARIAL_REVIEW.md`, `CORRECTION_LAYER.md`, corrected review, caveat resolution,
+   `AUDIT_REPORT.md`, status/strata ledgers, exact derivation, lay report, completeness map, and
+   `NEXT_STEP.md`.
+6. The full-screen toric, intrinsic-ruler/descent, Killing-plane, and general-screen parents only
+   when their exact premise becomes load-bearing.
+
+**CURRENT HONEST CLAIM:**
+
+- founded `phi`, the reciprocal observer-pair structure, complete angular-screen vocabulary, and
+  the earlier general-screen dependency regrade remain intact with their exact premise stamps;
+- the principal-orbit higher-isometry Gram algebra and response are exact for `b>0`; the response
+  inverse is not extended through rank-dropping toric caps;
+- `span(K,V)` is uniquely robust only as a coefficientwise identity across the freely varied
+  family, not as a theorem about a generic fixed metric;
+- universal plane ownership fails on an exact smooth nonconstant-depth double-plane control;
+- smooth unimodular two-cap toric `S3` topology supplies two free unoriented circle lines, not a
+  selector;
+- the exhaustive fixed-profile and response-degeneracy classifications remain open;
+- founded `phi`, WR-L/SNe, `Xmax`, dimensional results, conditional static finite-box Hopfion
+  stability, `C2`/Bach, EH, and complete-action/source/boundary/mass statuses are unchanged.
+
+**NEXT SCIENTIFIC GATE — NOT AUTOMATICALLY AUTHORIZED:** finish the present constant-`alpha`
+family before releasing another coframe freedom: derive necessary-and-sufficient fixed-profile
+plane/rate conditions, test any claimed genericity in an explicit function-space topology,
+classify all principal-orbit response degeneracies, and join them to regular cap limits. Before
+launching that work, a fresh AI may use `UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md` to challenge
+whether unique local plane selection is itself the correct demand.
+
+**EVIDENCE:** preregistration `3e3eecc`; result `ba2261a`; gates `a27a983`; 135 production checks,
+292 independent checks, 32/32 mutation catches, and 26/26 frozen sources. The initial fresh review
+returned `REFUTED`; the corrected review returned `PASS_WITH_CAVEATS`, with all three stated
+bookkeeping caveats closed. Tests are 70 passed/1 xfailed; six frozen packages retain 127 entries
+and 133 paths; 1,114 current paths and 101 frontier targets resolve. The 50-entry package manifest
+SHA-256 is `6afdb167ca86bf894c872d60bfd4c3e80cc89be6ced9688b5435819fafb47c26`.
+
+**AUTHORITY BOUNDARY:** no fixed-profile derivation, variable `alpha`, direct metric off-block,
+nonstationarity, action, source, carrier, density/bootstrap or boundary law, matter/time-live/GPU
+work, canonization, or repository reorganization follows automatically. The external-AI brief is
+review-only until Charles authorizes a returned recommendation.
+
+<!-- STARTUP_CURRENT_END -->
+
+## PRIOR CURRENT STATE (2026-07-28 — GENERAL-SCREEN DEPENDENCY REGRADE COMPLETE. NO WHOLESALE REDO IS REQUIRED. THE OLD SCALAR lambda AND ZERO-SHEAR RESULTS REMAIN EXACT ONLY IN THEIR ISOTROPIC/EQUAL-WEIGHT SUBFAMILIES; THE COMPLETE SCREEN HAS AREA PLUS TWO SHEARS. OF 390 EXPLICIT CURRENT-OWNER DECISIONS, 287 ARE INDEPENDENT, 85 SURVIVE WITH SCOPE CORRECTIONS, 13 HAVE STRONGER NONUNIQUENESS/OBSTRUCTION SUPPORT, THREE AVAILABILITY CLAIMS ARE SUPERSEDED, AND ONLY THE OVERALL HOPF/TORIC ROUTE ROWS N22/T18 REQUIRE FULL-SCREEN REDERIVATION BEFORE PRIVILEGED SELECTION. FOUNDED phi, LORENTZ ALGEBRA, WR-L/SNe, Xmax STATUS, DIMENSIONAL RESULTS, CONDITIONAL STATIC HOPFION STABILITY, C2/BACH, EH, AND COMPLETE-ACTION STATUS ARE UNCHANGED. VERIFIED-WITH-CAVEATS AFTER AN INITIAL FRESH COMPLETENESS FAIL, CORRECTION, AND SECOND FRESH PASS.) ============
 
 **READ NEXT, IN ORDER:**
 
@@ -338,8 +389,6 @@ not authorized. P03-B remains stopped. Do not choose `lambda`, depth, path seman
 completion, or equations; import a field equation; adopt a carrier/action; insert density; run
 ODE/PDE, matter, or time-live physics; alter `CANON.md`; resume repository reorganization; or launch
 GPU work.
-
-<!-- STARTUP_CURRENT_END -->
 
 ## PRIOR CURRENT STATE (2026-07-26 — FOUNDATIONAL SEMANTIC REGRESSION CORRECTED AND GUARDED)
 

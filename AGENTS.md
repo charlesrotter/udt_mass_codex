@@ -33,64 +33,74 @@ after the user's actual task makes them load-bearing.
    source-precedence index for high-risk foundational terms. It is not canon and cannot overrule
    `LIVE.md`; any disagreement between it, `LIVE.md`, and its cited source is a mandatory stop.
 4. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay.
-5. `udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md`, then its
+5. `UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md` when the task is whole-project review, problem
+   selection, or zero-context scientific resumption. It is a navigation/review dispatch, not
+   scientific authority or permission to launch its proposed work.
+6. `udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md`, following its preserved
+   failed-review, correction, corrected-review, caveat-resolution, and final-evidence order. This
+   is the latest bounded result: universal unique-plane selection fails within the stationary
+   descended `R x T2` family; `span(K,V)` has family-wide identity robustness only; fixed-profile
+   generic uniqueness, complete response degeneracies, and cap gluing remain open. Read its parent
+   full-screen Hopf/toric, intrinsic-ruler/descent, Killing-plane, and general-screen packages only
+   when their exact premises become load-bearing.
+7. `udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, `COMPLETENESS_MAP.md`,
-   `BLOCK_PRESERVATION_CONDITIONS.tsv`, and `NEXT_STEP.md`. This is the current bounded result: the
+   `BLOCK_PRESERVATION_CONDITIONS.tsv`, and `NEXT_STEP.md`. This parent bounded result says the
    full invertible angular screen has area and two metric shears plus local coframe-gauge rotation;
    both shears survive at isotropy; and the twisted `S3` contact structure forbids an all-direction
    parallel pair/screen split within the chosen stationary off-shell family. The proposed
    nonstationary first-jet release is not authorized automatically. Read the parent complete-screen
    branch atlas and historical-method salvage only when their branch census or provenance becomes
    load-bearing; no old particle/QCD claim is restored.
-6. `udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md`, then its
+8. `udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `COMPLETENESS_MAP.md`, `LAY_REPORT.md`, and
-   `NEXT_STEP.md`. This is the current bounded result: full-frame additive scalar comparison and
+   `NEXT_STEP.md`. This parent bounded result says full-frame additive scalar comparison and
    pointwise metric-only non-scalar selection are obstructed; the surviving type is reciprocal
    cocycle plus angular/coframe transport. Higher-jet/nonlocal/whole-solution routes remain open,
    so this is not a universal no-go. The proposed comparison-versus-realization ownership audit is
    not authorized automatically.
-7. `udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md` only when its fixed-tree census,
+9. `udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md` only when its fixed-tree census,
    three-gap decomposition, or stationary hybrid is load-bearing. Then read
    `udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md` only when its parent
    three-gap decomposition or complete nonultrastatic counterfamily becomes load-bearing. Read P03
    only when its frozen scoped result is load-bearing and apply the July 28 correction layer. Read
    P02/P01 only when their exact local-atlas or transport scope is required.
-8. `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`, then its
+10. `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `BOOTSTRAP_ROUTE_LEDGER.tsv`, `EQUATION_FAMILY_GATE_MATRIX.tsv`,
    `COMPLETION_BOOTSTRAP_ATLAS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and
    `NEXT_STEP.md` only when its parent evidence is load-bearing. A simple screen tidal spectrum plus
    `det(T+a^2 I)=0` selects a conditional intrinsic clock-matched line, while parallelism, global
    descent, path-cocycle completion, and the native matter response remain separate open gates.
-9. `udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md` only when the parent
+11. `udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md` only when the parent
    pointwise generator, screen-line, or path-cocycle premises become load-bearing.
-10. The observer longitudinal/transverse cocycle, relational-depth, clock-operator,
+12. The observer longitudinal/transverse cocycle, relational-depth, clock-operator,
    complete-metric separation, and `X_max` packages named by the frontier only when their exact
    path, bilocal, local-neutrality, or global-diameter premises become load-bearing.
-11. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
+13. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
    `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and `REGRESSION_GUARD_LEDGER.tsv`
    only when a prior complete-metric, bootstrap, or regression-guard claim is load-bearing. This
    is a prior evidence-linked routing layer, not authority over its cited evidence.
-12. `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
+14. `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
    `CLAIM_DEPENDENCY_LEDGER.tsv` and `OPEN_JOIN_LEDGER.tsv`, then
    `REFERENCE_CORRECTION_LAYER.md`, `REVIEW_AGREEMENT_DISAGREEMENT.tsv`, and `PONDER_READOUT.md`.
    The frozen reference plus append-only cold-review layer is a prior dependency spine, not
    authority over its cited evidence.
-13. `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`, then
+15. `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`, then
    `angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv` when the conditional global Hopf
    theorem is relevant.
-14. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` only when the exact reciprocal
+16. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` only when the exact reciprocal
    Hopf-orbit witness or its provenance becomes load-bearing, then
    `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` for the preceding carrier/topology
    classification only when that layer is relevant.
-15. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task; none are
+17. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task; none are
    part of generic startup orientation.
-16. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
+18. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
    is durable lane evidence, not the global frontier.
-17. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline only; do not dump the
+19. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline only; do not dump the
    whole charter at startup.
-18. Only the specific full protocol under `.claude/skills/*/SKILL.md` triggered by the actual task;
+20. Only the specific full protocol under `.claude/skills/*/SKILL.md` triggered by the actual task;
    do not preload every skill.
-19. The top/current summary in `INDEX.md` and `MEMORY.md`'s `TOP — CURRENT POINTER` for pointers only;
+21. The top/current summary in `INDEX.md` and `MEMORY.md`'s `TOP — CURRENT POINTER` for pointers only;
     neither can overrule `LIVE.md`.
 
 For the 1,114 fixed-base artifact identities, use
@@ -105,7 +115,14 @@ Then give Charles a short orientation report: actual HEAD and dirt, the current 
 premise stamps, the open gate, and the proposed bounded next action. Do not mutate files or launch a
 long solve until that orientation is complete.
 
-The bootstrap/stable-matter interpretation remains a working hypothesis. The current general-screen
+The bootstrap/stable-matter interpretation remains a working hypothesis. The latest
+higher-isometry audit refutes universal unique reciprocal-plane ownership within its bounded
+stationary descended `R x T2` family. It derives family-wide identity robustness of `span(K,V)`,
+not uniqueness for a typical fixed metric. The full response-degeneracy atlas and regular cap
+gluing remain open, and the toric `S3` control supplies two free primitive circle lines rather than
+a selector. No fixed-profile classification or further science is authorized automatically.
+
+The parent general-screen
 atlas closes the bounded stationary `S3` angular configuration vocabulary: one area and two metric
 shears plus local coframe-gauge rotation. Both shears survive at isotropy, and the inherited angular
 twist couples to anisotropy. The exact contact/Frobenius obstruction rules out only an all-direction

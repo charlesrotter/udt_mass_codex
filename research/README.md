@@ -11,7 +11,29 @@ angular/mixing extension and variation domain remain open. Strong local CSN is c
 derived and inactive unless Charles explicitly reauthorizes it; `c_E` and `G_obs` remain observed
 anchors. See the [DOF correction layer](../udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md).
 
-## Current scientific spine — July 25
+## Current scientific spine — July 28
+
+After the root controls and current premise registry, use the
+[external-AI review brief](../UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md) for a self-contained map
+of the present structure and eight open problem classes. It is review navigation only. The exact
+latest evidence is the [higher-isometry reciprocal-plane ownership
+audit](../udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md), read in its stated
+correction-first order.
+
+That audit refutes universal unique-plane selection inside the bounded stationary descended
+`R x T2` family. It derives only family-wide identity robustness of `span(K,V)`; fixed-profile
+genericity remains open because one realized metric can contain derivative cancellations. The
+principal-orbit response can mix the registered plane, while toric two-cap `S3` topology supplies
+two free unoriented primitive circle lines and no selector. Response degeneracies and regular cap
+gluing remain incomplete. No action, source, carrier, density/bootstrap law, branch, dynamics, or
+mass follows. Fixed-profile work is proposed but requires a separate authorization after review of
+whether unique local plane ownership is the correct mathematical demand.
+
+The relevant parent chain is the full-screen Hopf/toric rederivation, intrinsic-ruler/descent audit,
+Killing-plane strata audit, general-screen complete-cell atlas and dependency regrade. Expand into
+those packages only when a premise becomes load-bearing.
+
+## Prior scientific spine — July 25
 
 Start with the
 [global-local relational-closure audit](../udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md),

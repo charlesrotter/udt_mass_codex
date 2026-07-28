@@ -10,9 +10,10 @@
 then the marked current block in `HANDOFF.md`, then `CURRENT_SCIENTIFIC_PREMISES.md` and
 `CURRENT_SCIENTIFIC_PREMISES.tsv`, then the top/current overlay in
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md`
-and its status/exact/lay/completeness/block-condition/next-step records. Read the parent complete
-screen-response, historical-method, metric-natural selector, joint-selector, and
+`UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md` for a fresh whole-project review, then
+`udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md` in its correction-first order.
+Read the parent full-screen Hopf/toric, intrinsic-ruler/descent, Killing-plane, general-screen,
+complete-screen-response, historical-method, metric-natural selector, joint-selector, and
 global-definition packages, then P03, P02/P01,
 bootstrap, intrinsic-solder, and observer-pair packages only when their exact premises become
 load-bearing.
@@ -26,15 +27,17 @@ angular/mixing extension and variation domain remain open. Strong local CSN is
 See the DOF package's `CORRECTION_LAYER.md`. If a lower-priority result disagrees with the current
 premise registry or its cited source, stop.
 
-Current honest status: the full invertible screen on the chosen stationary complete `S3` control
-has one area and two independent metric shears plus local coframe-gauge rotation. Both shear
-tangents survive at isotropy; their earlier absence was an equal-weight ansatz freeze. Anisotropy
-makes the inherited angular generator display rotation plus both shears. Exact connection blocks
-and independent Frobenius reasoning show that the twisted contact screen cannot be an
-all-direction parallel complement to the reciprocal pair for any invertible `P` in this bounded
-off-shell family. No physical screen, branch, dynamics, action, source, carrier, density/bootstrap,
-boundary, matter, or Lorentzian geodesic completeness is selected. A nonstationary `E0(P)`
-first-jet release is proposed but not authorized.
+Current honest status: universal unique reciprocal-plane selection is refuted within the bounded
+stationary descended `R x T2` family by an exact smooth complete nonconstant-depth metric with two
+isometry-equivalent reciprocal planes. `span(K,V)` is the only plane robust as a coefficientwise
+identity under independent variation across the whole free `(u,f,b)` family, but this is not a
+generic fixed-metric theorem; fixed-profile cancellations remain possible. The principal-orbit
+response can mix the registered plane, and smooth unimodular two-cap toric `S3` topology supplies
+two free unoriented primitive circle lines rather than a selector. The full response-degeneracy
+atlas and regular cap gluing remain open. No physical screen, branch, dynamics, action, source,
+carrier, density/bootstrap law, boundary, matter, or mass is selected. Fixed-profile
+classification is proposed but not authorized automatically; a fresh reviewer should also test
+whether unique local plane selection is the right type of demand.
 
 P03 is retained only inside its frozen source scope; its repository-wide ultrastatic-only statement
 is superseded by the preexisting family it omitted. P03-B remains stopped. No imported completion,

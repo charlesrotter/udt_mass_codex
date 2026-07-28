@@ -17,6 +17,26 @@ bootstrap, Maxwell-like, `X_max`, Hopfion, source, boundary, and mass scopes. Co
 older files do not override the registry's cited controlling evidence.
 
 **➤ CURRENT SCIENTIFIC FRONTIER:**
+`udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md`, followed in its stated
+correction-first order. For a self-contained adversarial handoff, use
+`UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md`; it is review navigation, not scientific authority or
+permission to continue.
+
+Within the bounded stationary descended `R x T2` family, universal unique reciprocal-plane
+selection is refuted by an exact smooth complete nonconstant-depth metric with two
+isometry-equivalent reciprocal planes. `span(K,V)` is uniquely robust only as a coefficientwise
+identity under independent variation across the whole free `(u,f,b)` family. A typical fixed
+cohomogeneity-one metric follows one curve in that space and may admit derivative cancellations,
+so fixed-profile generic uniqueness remains open.
+
+The exact principal-orbit response can mix the registered plane, and smooth unimodular two-cap
+toric `S3` topology supplies exactly two free unoriented primitive circle lines rather than one.
+The exhaustive response-degeneracy atlas and regular cap gluing remain open. No physical branch,
+macro/micro interpretation, action, source, carrier, density/bootstrap law, boundary, dynamics,
+or mass is selected. A fixed-profile classification is proposed but not automatically authorized;
+the external review brief first asks whether unique local plane selection is the correct demand.
+
+**➤ PARENT JULY 28 GENERAL-SCREEN DEPENDENCY REGRADE:**
 `udt_general_screen_dependency_regrade_2026-07-28/AUDIT_REPORT.md`, then its
 `CORRECTION_LAYER.md`, `STATUS_LEDGER.tsv`, `FAMILY_IMPACT_SUMMARY.tsv`,
 `CURRENT_LOAD_BEARING_CLAIM_REGRADING.tsv`, authority-routing tables, and `NEXT_STEP.md`.

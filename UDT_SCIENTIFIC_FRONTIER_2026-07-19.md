@@ -4,7 +4,45 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
-## July 28 general-screen dependency regrade — current authority
+## July 28 higher-isometry reciprocal-plane ownership — current authority
+
+For whole-project external review, read `UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md`. For the exact
+latest evidence, follow `udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md` through the
+preserved failed review, correction, corrected review, caveat resolution, final audit, ledgers,
+exact derivation, and next-step boundary.
+
+The stationary descended higher-isometry family has exact principal-orbit Gram algebra on
+`(K,V,Y)`. Its determinant is `-b c_E^2`, and its full response can mix the registered plane when
+the extra circle moment varies. Scanning every subgroup `span(K+rV+sY,mV+nY)` gives one exact
+family-level result: only `span(K,V)` has reciprocal area constant under independent variation
+across the entire free `(u,f,b)` configuration family.
+
+That is not a generic fixed-metric theorem. A fixed cohomogeneity-one metric traces one curve in
+`(u,f,b)` space and can admit cancellations. The first draft made this quantifier error and was
+`REFUTED` by a fresh hosted reviewer. The corrected status is:
+
+```text
+UNIVERSAL_SELECTION_REFUTED__FAMILY_IDENTITY_ROBUSTNESS_DERIVED__
+GENERIC_FIXED_METRIC_SELECTION_OPEN
+```
+
+An exact smooth complete nonconstant-depth control has two isometry-equivalent reciprocal planes,
+so universal unique-plane ownership fails within the bounded family. Independently, smooth
+unimodular two-cap toric `S3` topology has exactly two free unoriented primitive circle lines and
+does not select the registered one. The complete response-degeneracy atlas and regular cap gluing
+remain open.
+
+Status: `VERIFIED-WITH-CAVEATS_BOUNDED_UNIVERSAL_NONSELECTION_AND_IDENTITY_ROBUSTNESS`. The
+corrected hosted review returned `PASS_WITH_CAVEATS`; all three bookkeeping caveats are closed by
+hash, wording, and raw-stream verifier gates. No physical branch, macro/micro assignment, action,
+source, carrier, density/bootstrap law, boundary, dynamics, or mass emergence is selected.
+
+The proposed next work is a fixed-profile necessary-and-sufficient plane/response classification
+inside the present constant-`alpha` family, but it is not automatically authorized. The external
+review brief explicitly asks whether unique local plane selection is the correct demand before
+another derivation is launched.
+
+## July 28 general-screen dependency regrade — parent authority
 
 Read `udt_general_screen_dependency_regrade_2026-07-28/AUDIT_REPORT.md`, then its
 `CORRECTION_LAYER.md`, `STATUS_LEDGER.tsv`, `FAMILY_IMPACT_SUMMARY.tsv`,
