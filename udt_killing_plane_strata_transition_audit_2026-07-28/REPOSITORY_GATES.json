@@ -1,0 +1,197 @@
+{
+  "audit": {
+    "catch_proofs": 24,
+    "checks_passed": 18,
+    "final_review_resolution": "SOLE_MISSING_SELF_OUTPUT_PATH_EXISTS_AND_NAVIGATION_REPLAY_PASSES",
+    "fresh_reviews": [
+      "PASS_WITH_REQUIRED_CORRECTIONS",
+      "PASS_WITH_REQUIRED_CORRECTIONS",
+      "PASS_WITH_REQUIRED_CORRECTIONS"
+    ],
+    "independent_checks": 209,
+    "maximum_conclusion": "ON_THE_DESCENDED_NONCONSTANT_DEPTH_STRATUM_THE_COMPLETE_METRIC_GRAM_RESPONSE_UNIQUELY_RECOVERS_THE_FOUNDED_CLOCK_K_AND_RULER_V_MINUS_ALPHA_OVER_CE_K;CONSTANT_DEPTH_REMAINS_A_DISTINCT_DEGENERATE_OR_FRAMING_MISMATCH_STRATUM;THE_DESCENDED_AND_OLD_RANK3_UNIQUE_CLOCK_STRATA_ARE_CONTINUOUSLY_ADJACENT_AND_HAND_OFF_THE_SAME_K_LINE;NO_MACRO_MICRO_OR_MASS_EMERGENCE_ASSIGNMENT_IS_DERIVED",
+    "production_checks": 31,
+    "schema": "udt-killing-plane-strata-transition-verification-1.0",
+    "source_identity_sha256": "f68c93d740c3b5e337237bebc196810c1c537564109793507e30f53967e1ac0a",
+    "status": "PASS"
+  },
+  "authority_boundary": {
+    "action_carrier_source_density_or_dynamics_added": false,
+    "canon_changed": false,
+    "physical_branch_selected": false,
+    "startup_controls_changed": false
+  },
+  "base": "0d6d83b357285da68e90198570ede07468e900a8",
+  "compute": {
+    "cpu_only": true,
+    "gpu_work_performed": false
+  },
+  "controls_unchanged": [
+    "LIVE.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "README.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "CANON.md",
+    "MEMORY.md"
+  ],
+  "dirty": {
+    "contents_read": false,
+    "count": 57,
+    "sha256": "bf85b6db00083cfa0d19e4ba9cc09766423cc2d5e224954f12ceda74aeab9c96"
+  },
+  "frozen": {
+    "entries": 127,
+    "packages": [
+      {
+        "entries": 29,
+        "manifest_sha256": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+        "package": "native_action_stage1_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 15,
+        "manifest_sha256": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+        "package": "native_action_stage1_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+        "package": "native_action_stage2_2026-07-18/arm_A",
+        "result": "PASS"
+      },
+      {
+        "entries": 13,
+        "manifest_sha256": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45",
+        "package": "native_action_stage2_2026-07-18/arm_B",
+        "result": "PASS"
+      },
+      {
+        "entries": 21,
+        "manifest_sha256": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+        "package": "native_action_arm_c_2026-07-18",
+        "result": "PASS"
+      },
+      {
+        "entries": 36,
+        "manifest_sha256": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+        "package": "native_action_final_adjudication_2026-07-18",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS",
+    "tracked_paths": 133
+  },
+  "head": "2a484180378f74be6f63d7a0d94505f3df211755",
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 14
+  },
+  "package_manifest": {
+    "entries": 43,
+    "result": "PASS",
+    "sha256": "120182b5e063ca1822e8bcc06bf0bdab1a064c7bc02950fae5c27b81d7663fa9"
+  },
+  "premises": {
+    "result": "PASS",
+    "stdout_sha256": "3a5bf9b325ca86ce5cde8b93b9c86e60bfa5a730bff1748773cb5f45286e1329"
+  },
+  "prior_scientific_packages": {
+    "entries": 102,
+    "packages": [
+      {
+        "entries": 14,
+        "manifest_sha256": "6f03f82d485d4a20c2d2bfc13dc8979c1b229bf92c53f0eb36831abf3d75febc",
+        "package": "native_hopfion_topology_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 16,
+        "manifest_sha256": "e195d14349407c23e4a050628ec84298d3d35e23e2c25b5cf285a5c81f8e989b",
+        "package": "null_section_hopfion_metric_audit_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest_sha256": "64d664a76a28c170cdc293626cd6a5011755ee4eeaa414a303ace7b6eec9ec50",
+        "package": "angular_toric_closure_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest_sha256": "9c074cc83b0815607c1a4a36f8dffeac09bf79c9d0f5aee74a356b21e87bf470",
+        "package": "transverse_reciprocal_realization_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest_sha256": "32e523d44142cd36904a66f385890c5c417d9b827d0ac3cf956bdb48a838004b",
+        "package": "projective_transport_section_selector_2026-07-19",
+        "result": "PASS"
+      },
+      {
+        "entries": 18,
+        "manifest_sha256": "01ed5557bb94a1df99209d37b1eb5e4eefae4486978be34ab09dafb73aeac17b",
+        "package": "reciprocal_metric_null_line_selector_2026-07-19",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS"
+  },
+  "schema": "udt-killing-plane-strata-transition-repository-gates-1.0",
+  "scope_paths": [
+    "udt_killing_plane_strata_transition_audit_2026-07-28/ADVERSARIAL_CORRECTED_TRANSCRIPT.txt",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/ADVERSARIAL_FINAL_TRANSCRIPT.txt",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/ADVERSARIAL_REVIEW_PROMPT.md",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/ADVERSARIAL_TRANSCRIPT.txt",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/AUDIT_REPORT.md",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/CATCH_PROOFS.tsv",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/COMPLETENESS_MAP.md",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/CORRECTED_ADVERSARIAL_REVIEW_PROMPT.md",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/CORRECTION_LAYER.md",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/DERIVATION_RESULT.json",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/DERIVATION_STDERR.txt",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/DERIVATION_STDOUT.txt",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/EXACT_DERIVATION.md",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/FALSIFICATION_CONTRACT.tsv",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/FINAL_ADVERSARIAL_REVIEW_PROMPT.md",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/FRESH_ADVERSARIAL_REVIEW.md",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/FRESH_ADVERSARIAL_REVIEW_CORRECTED.md",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/FRESH_ADVERSARIAL_REVIEW_FINAL.md",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/INDEPENDENT_RESULT.json",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/INDEPENDENT_STDERR.txt",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/INDEPENDENT_STDOUT.txt",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/KILLING_BASIS_AUTOMORPHISMS.tsv",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/KILLING_DIRECTION_ATLAS.tsv",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/LAY_REPORT.md",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/NEXT_STEP.md",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/PREMISE_LEDGER.tsv",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/README.md",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/RUN_ENVIRONMENT.json",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/SELECTOR_STRATA.tsv",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/SHA256SUMS.txt",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/SOURCE_MANIFEST.tsv",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/SOURCE_SCOPE.tsv",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/STATUS_LEDGER.tsv",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/TRANSITION_ATLAS.tsv",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/VERIFICATION_RESULT.json",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/derive_killing_plane_transition.py",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/finalize_package.py",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/freeze_sources.py",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/requirements.txt",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/run_and_capture.py",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/verify_audit.py",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/verify_killing_plane_transition_independent.py",
+    "udt_killing_plane_strata_transition_audit_2026-07-28/verify_repository_gates.py"
+  ],
+  "status": "PASS",
+  "tests": {
+    "passed": 70,
+    "returncode": 0,
+    "xfailed": 1
+  }
+}
