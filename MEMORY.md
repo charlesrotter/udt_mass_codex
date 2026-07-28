@@ -10,8 +10,9 @@
 then the marked current block in `HANDOFF.md`, then `CURRENT_SCIENTIFIC_PREMISES.md` and
 `CURRENT_SCIENTIFIC_PREMISES.tsv`, then the top/current overlay in
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md`
-and its status/exact/completeness/lay/next-step records. Read the parent joint-selector and
+`udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md`
+and its status/method/exact/lay/next-step records. Read the parent metric-natural selector,
+joint-selector, and
 global-definition packages, then P03, P02/P01,
 bootstrap, intrinsic-solder, and observer-pair packages only when their exact premises become
 load-bearing.
@@ -25,19 +26,16 @@ angular/mixing extension and variation domain remain open. Strong local CSN is
 See the DOF package's `CORRECTION_LAYER.md`. If a lower-priority result disagrees with the current
 premise registry or its cited source, stop.
 
-Current honest status: full Lorentz comparison has no nontrivial continuous additive real
-character, non-collinear comparison forces angular transport, and full pointwise metric isotropy
-cannot select a non-scalar reciprocal generator. Reduced structures yield conditional
-`lambda=+1`, `lambda=-1`, or the full real-`lambda` family. The surviving exact type is reciprocal
-cocycle plus angular/coframe transport; physical base, arrows, path semantics, transverse metric
-response, descent, and realization remain open. Base-dependent and higher-jet/nonlocal/whole-
-solution routes prevent a universal no-go. Status is `NO_GO_PREMISES_INSUFFICIENT_STOP`, verified
-with same-session caveats.
+Current honest status: the pre-July particle/QCD claims remain quarantined, but their complete-
+operator method exposes the correct next object. The current positive screen has one area, one
+rotation, and two shear modes; the traceless sector closes `sl(2,R)`. The old `3+5=8` count is
+generic `sl(3,R)`, not a QCD derivation. Scalar `lambda` is only the isotropic trace response.
+Charles authorized a CPU-first complete-screen response atlas over the existing finite-cell branch
+universe; response values, physical selection, dynamics, and interpretation remain open.
 
 P03 is retained only inside its frozen source scope; its repository-wide ultrastatic-only statement
-is superseded by the preexisting family it omitted. P03-B remains stopped. A comparison-versus-
-metric-realization ownership audit requires separate authorization. No imported completion,
-ODE/PDE, action, density,
+is superseded by the preexisting family it omitted. P03-B remains stopped. No imported completion,
+action, density,
 matter/time-live solve, canonization, artifact move, repository reorganization, or GPU work is
 authorized.
 

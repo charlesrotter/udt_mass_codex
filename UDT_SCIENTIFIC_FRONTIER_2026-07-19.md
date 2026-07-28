@@ -4,6 +4,40 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## July 28 historical angular-method salvage overlay — current authority
+
+Read `udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `HISTORICAL_METHOD_CENSUS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and
+`NEXT_STEP.md`.
+
+The pre-July particle and QCD claims are not restored. Their chains depend on imported carrier and
+theory structure, searched integers and powers, empirical labels visible before rules were fixed,
+and 45 cited computation/evidence files absent from all Git history. Their arithmetic is historical
+observation only.
+
+One method survives: retain the complete angular operator space and close its algebra before
+assigning physical labels. Current post-July metric reports independently supply the matching
+positive-screen object:
+
+```text
+End(S) = R I + so(2) + Sym_0(2),      dimensions 4 = 1+1+2.
+```
+
+The modes are area, rotation, and two shears; the traceless sector closes exactly `sl(2,R)`. The
+old real `3+5=8` construction is the generic `n=3` instance of `n^2-1` and closes `sl(3,R)`.
+Calling it `su(3)` requires an extra complex/Hermitian convention, so no QCD conclusion follows.
+
+This sharpens the open ownership seam: `lambda` is only the isotropic trace response after extra
+screen-rotation equivariance. It is not the complete angular response. Its value, the other
+response coefficients, global transport, dynamics, action, source, carrier, and physical labels
+remain open.
+
+Status: `OPERATOR_ALGEBRA_METHOD_SALVAGED`; `CURRENT_SCREEN_OPERATOR_METHOD_LEAD`;
+`VERIFIED-WITH-CAVEATS`. Charles authorized a CPU-first full-screen response atlas across the
+existing admitted complete finite-cell branch universe. It must keep all four components free and
+characterize branches without selecting a desired physical outcome. No GPU, matter/time-live,
+action, source, carrier, density, boundary, canonization, or reorganization is authorized.
+
 ## July 28 metric-natural selector possibility/no-go overlay — current authority
 
 Read `udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md`, then its

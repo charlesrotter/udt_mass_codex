@@ -8,7 +8,56 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's topmost CURRENT STATE block, that block wins.**
 
-## ============ CURRENT STATE (2026-07-28 — METRIC-NATURAL JOINT-SELECTOR POSSIBILITY/NO-GO AUDIT COMPLETE. EXACT PARTIAL NO-GO: A CONTINUOUS FULL-LORENTZ FRAME-ONLY ADDITIVE REAL CHARACTER IS TRIVIAL; NON-COLLINEAR COMPARISON FORCES ANGULAR TRANSPORT; AND POINTWISE METRIC DATA WITH FULL ISOTROPY CANNOT SELECT A NON-SCALAR RECIPROCAL GENERATOR. THE SURVIVING NATURAL TYPE IS A REDUCED RECIPROCAL COCYCLE PLUS ANGULAR/COFRAME GROUPOID TRANSPORT. A SUPPLIED OBSERVER LINE CONDITIONALLY FIXES LAMBDA=+1, A SUPPLIED RULER LINE FIXES LAMBDA=-1, AND A SUPPLIED ORDERED PAIR RETAINS THE FULL REAL-LAMBDA FAMILY. BASE-DEPENDENT, HIGHER-JET, NONLOCAL, SET-VALUED, AND WHOLE-SOLUTION ROUTES ARE NOT CLASSIFIED, SO THE PRIMARY OUTCOME IS NO_GO_PREMISES_INSUFFICIENT_STOP, NOT A UNIVERSAL NO-GO. VERIFIED-WITH-CAVEATS. NEXT BOUNDED QUESTION IS WHETHER TRANSVERSE RESPONSE BELONGS TO OBSERVER-COMPARISON KINEMATICS OR DOWNSTREAM WHOLE-METRIC REALIZATION. NO FOLLOW-ON, GPU, ODE/PDE, TIME-LIVE, ACTION, SOURCE, CARRIER, DENSITY, BOOTSTRAP EQUATION, BOUNDARY FUNCTIONAL, PHYSICS PREDICTION, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-28 — HISTORICAL ANGULAR-METHOD SALVAGE AUDIT COMPLETE. NO PRE-JULY LEPTON, QUARK, QCD, GAUGE, FORCE, OR MASS CLAIM IS RESTORED. THE REUSABLE METHOD IS TO RETAIN AND CLOSE THE COMPLETE ANGULAR RESPONSE ALGEBRA BEFORE ASSIGNING PHYSICAL LABELS. ON THE CURRENT METRIC-DERIVED POSITIVE TWO-SCREEN, END(S)=R I + so(2) + Sym_0(2): ONE AREA MODE, ONE ROTATION, AND TWO SHEAR/SHAPE MODES. THE TRACELESS SECTOR CLOSES EXACTLY AS sl(2,R). THE OLD 3+5=8 CONSTRUCTION IS THE GENERIC n=3 INSTANCE OF n^2-1 AND CLOSES sl(3,R); su(3) REQUIRES AN EXTRA COMPLEX/HERMITIAN CHOICE, SO THE OLD QCD INTERPRETATION DOES NOT SURVIVE. LAMBDA IS ONLY THE ISOTROPIC TRACE RESPONSE AFTER EXTRA SCREEN-ROTATION EQUIVARIANCE, NOT THE COMPLETE ANGULAR RESPONSE. VERIFIED-WITH-CAVEATS. CHARLES AUTHORIZED THE NEXT CPU-ONLY MAP: CARRY THE FULL FOUR-COMPONENT SCREEN RESPONSE THROUGH THE EXISTING COMPLETE FINITE-CELL BRANCH UNIVERSE WITHOUT CHOOSING A BRANCH, COEFFICIENT, ACTION, SOURCE, CARRIER, DENSITY, BOUNDARY, OR PHYSICAL LABEL.) ============
+
+**READ NEXT, IN ORDER:**
+
+1. `HANDOFF.md` current marked block.
+2. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+3. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` top/current overlay.
+4. `udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `HISTORICAL_METHOD_CENSUS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and
+   `NEXT_STEP.md`.
+5. The four current owner reports named in that audit only when the complete-screen map makes them
+   load-bearing; then the exact complete-branch ledgers selected by the preregistration.
+
+**CURRENT HONEST CLAIM:**
+
+- the historical numerical formulas remain quarantined: their imported carriers/theories, searched
+  rules, target visibility, and missing computation sources prohibit affirmative UDT physics;
+- the registered historical scope contains 23 method families and 45 named computation/evidence
+  files, none of whose paths or basenames occurs anywhere in this repository's Git history;
+- the complete local positive-screen response decomposes exactly into area, rotation, and two
+  independent trace-free shape modes; its traceless commutator algebra is `sl(2,R)`;
+- the old `3+5=8` observation is generic operator-space algebra, not unique QCD evidence; a compact
+  `su(3)` interpretation is conditional on additional complex/Hermitian structure;
+- the current founded-pair, Jacobi, finite-lift, and ensemble reports independently contain the
+  corresponding trace, rotation, shear, and mixing objects;
+- `lambda` is therefore only a restricted isotropic trace response. Its value, the other response
+  coefficients, their global transport, and every physical interpretation remain `OPEN`;
+- founded `phi`, reciprocal comparison, the partial Lorentz no-go, and all prior action, source,
+  carrier, boundary, density/bootstrap, `X_max`, mass, scale, and dynamics stamps remain unchanged.
+
+**NEXT SCIENTIFIC GATE — AUTHORIZED:** preregister and execute a CPU-first, metric-led complete
+screen-response branch atlas. Freeze the existing admitted complete finite-cell branch universe and
+carry `K_screen=a I+wR+s1S1+s2S2` through every branch/path class. Characterize realized ranks,
+mixing, commutator subalgebras, degeneracies, holonomy, and failure of the positive-screen split.
+Do not filter for particles, forces, smooth caps, Hopf structure, or a desired answer.
+
+**EVIDENCE:** 17/17 fixed source blobs replay; 23 historical methods classified; 45/45 transitive
+references independently confirmed absent from all Git history; exact dimensions and commutators
+replayed by separate SymPy and standard-library implementations; 27/27 catch-proofs. Package
+manifest covers 41 files. Tests are 70 passed/1 xfailed; six frozen packages (127 entries/133
+paths), 1,114 current paths, 101 frontier targets, and the preserved dirty checkout's 55
+metadata-only paths are unchanged. Grade `VERIFIED-WITH-CAVEATS` because the independent
+implementation was same-session, not a fresh adversarial model.
+
+**AUTHORITY BOUNDARY:** the historical-method audit is complete and the full-screen branch atlas is
+authorized. Do not restore old particle/QCD claims, choose a physical screen response or branch,
+adopt a carrier/action/source/boundary/density law, launch matter/time-live/GPU work, alter
+`CANON.md`, or resume repository reorganization.
+
+## PRIOR CURRENT STATE (2026-07-28 — METRIC-NATURAL JOINT-SELECTOR POSSIBILITY/NO-GO AUDIT COMPLETE)
 
 **READ NEXT, IN ORDER:**
 

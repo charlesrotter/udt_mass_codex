@@ -7,7 +7,7 @@ order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
 [`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md) →
 the [foundational semantic correction](udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md) →
-the [current metric-natural selector audit](udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md) →
+the [current historical angular-method salvage audit](udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md) →
 exact evidence named by those files only when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
 `MEMORY.md` top/current pointer. `AGENTS.md`
@@ -21,27 +21,24 @@ count, not the native UDT field or mode count. Strong local CSN is challenged/no
 inactive without explicit owner reauthorization; `c_E` and `G_obs` remain observational anchors.
 If the registry, `LIVE.md`, and a cited source disagree, stop.
 
-The latest repository result is the [metric-natural selector possibility/no-go
-audit](udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md). It proves two exact scoped
-obstructions: full Lorentz frame comparison has no nontrivial continuous additive real character,
-and pointwise metric covariance with full isotropy cannot select a non-scalar reciprocal generator.
-Non-collinear comparisons force angular transport. Reduced structures give exact conditional
-families, but an ordered observer/ruler pair still leaves real `lambda` free.
+The latest repository result is the [historical angular-method salvage
+audit](udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md). It restores no old
+particle or QCD physics. It does salvage one exact method: retain the complete angular operator
+space before assigning labels. On the current positive two-screen that space consists of area,
+rotation, and two shear modes; its traceless sector closes `sl(2,R)`. The old `3+5=8` construction
+is generic `sl(3,R)`, while `su(3)` needs an extra complex/Hermitian assumption.
 
-The surviving mathematical type is a reciprocal cocycle plus angular/coframe groupoid transport.
-This does not yet select physical arrows, path semantics, transverse metric response, global
-descent, or a realized branch. Stationary Killing-norm depth remains a positive base-dependent
-witness, and higher-jet/nonlocal/set-valued/whole-solution routes were not classified. The honest
-primary outcome is therefore `NO_GO_PREMISES_INSUFFICIENT_STOP`, not a universal no-go.
+This reveals that scalar `lambda` is only the isotropic trace response, not the full angular
+sector. Charles authorized a CPU-first atlas carrying all four screen responses through the
+existing admitted complete finite-cell branches, without choosing a desired physical outcome.
 
 The parent [native global coframe-definition audit](udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md)
 also supplies an append-only correction to the frozen P03 result. P03's internal
 57-source counts remain exact, but its repository-wide “only ultrastatic controls” statement is
 superseded because its freeze omitted the preexisting nonultrastatic family. P03-B remains stopped.
-The next comparison-versus-metric-realization ownership question requires separate authorization
-and preregistration. No ODE/PDE, action, source, carrier, density/bootstrap equation, boundary
-functional, physical time evolution, canonization, reorganization, or GPU work is authorized by
-this checkpoint.
+The parent metric-natural selector audit remains controlling evidence for its exact partial no-go.
+No action, source, carrier, density/bootstrap equation, boundary functional, physical time
+evolution, canonization, reorganization, or GPU work is authorized by this checkpoint.
 
 The parent
 [bootstrap-aware clock/angular closure audit](udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md)

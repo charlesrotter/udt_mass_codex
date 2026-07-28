@@ -7,7 +7,39 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-28).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-28 — metric-natural selector possibility/no-go audit complete)
+## CURRENT (2026-07-28 — historical angular-method salvage complete; full-screen atlas authorized)
+
+After `LIVE.md`, read the current premise registry and top frontier overlay, then
+`udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
+`HISTORICAL_METHOD_CENSUS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+
+Current ruling:
+
+- no historical lepton, quark, QCD, gauge, force, or mass claim is restored;
+- 23 historical method families were classified, and all 45 named calculation/evidence files in
+  the registered spans are absent from every Git object in this repository;
+- the reusable method is complete operator-algebra closure before physical labeling;
+- on the current positive two-screen, the exact response is one area mode, one rotation, and two
+  trace-free shape/shear modes;
+- the traceless sector closes `sl(2,R)`. The old real `3+5=8` closes `sl(3,R)` generically, while
+  `su(3)` requires an extra complex/Hermitian choice;
+- `lambda` is only the isotropic trace response after an extra equivariance restriction, not the
+  complete angular response;
+- response values, global transport, dynamics, and physical roles remain open.
+
+Charles authorized the next bounded step: preregister and execute a CPU-first complete
+screen-response atlas across the existing admitted complete finite-cell branches. Keep all four
+components free and characterize every branch without selecting for particles, forces, Hopf
+structure, or a preferred completion.
+
+Evidence: 17 source blobs, 23 methods, 45 missing historical references, exact general-dimension
+and screen-commutator controls, 27/27 catches, 70 tests passed/1 xfailed, and all repository gates
+pass. Grade `VERIFIED-WITH-CAVEATS` because the independent implementation is same-session.
+
+No old-claim restoration, physical branch/response selection, action, source, carrier, density,
+boundary, matter/time-live/GPU work, canonization, or reorganization is authorized.
+
+## PRIOR CURRENT (2026-07-28 — metric-natural selector possibility/no-go audit complete)
 
 After `LIVE.md`, read the current premise registry, the top frontier overlay, then
 `udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,

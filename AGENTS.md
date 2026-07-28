@@ -33,55 +33,60 @@ after the user's actual task makes them load-bearing.
    source-precedence index for high-risk foundational terms. It is not canon and cannot overrule
    `LIVE.md`; any disagreement between it, `LIVE.md`, and its cited source is a mandatory stop.
 4. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay.
-5. `udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md`, then its
+5. `udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `HISTORICAL_METHOD_CENSUS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and
+   `NEXT_STEP.md`. This is the current bounded result: old particle/QCD claims are not restored,
+   while the complete-screen operator method reveals area, rotation, and two shear modes. The
+   authorized next work is a CPU-first full-screen response atlas across existing complete branches.
+6. `udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `COMPLETENESS_MAP.md`, `LAY_REPORT.md`, and
    `NEXT_STEP.md`. This is the current bounded result: full-frame additive scalar comparison and
    pointwise metric-only non-scalar selection are obstructed; the surviving type is reciprocal
    cocycle plus angular/coframe transport. Higher-jet/nonlocal/whole-solution routes remain open,
    so this is not a universal no-go. The proposed comparison-versus-realization ownership audit is
    not authorized automatically.
-6. `udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md` only when its fixed-tree census,
+7. `udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md` only when its fixed-tree census,
    three-gap decomposition, or stationary hybrid is load-bearing. Then read
    `udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md` only when its parent
    three-gap decomposition or complete nonultrastatic counterfamily becomes load-bearing. Read P03
    only when its frozen scoped result is load-bearing and apply the July 28 correction layer. Read
    P02/P01 only when their exact local-atlas or transport scope is required.
-7. `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`, then its
+8. `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `BOOTSTRAP_ROUTE_LEDGER.tsv`, `EQUATION_FAMILY_GATE_MATRIX.tsv`,
    `COMPLETION_BOOTSTRAP_ATLAS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and
    `NEXT_STEP.md` only when its parent evidence is load-bearing. A simple screen tidal spectrum plus
    `det(T+a^2 I)=0` selects a conditional intrinsic clock-matched line, while parallelism, global
    descent, path-cocycle completion, and the native matter response remain separate open gates.
-8. `udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md` only when the parent
+9. `udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md` only when the parent
    pointwise generator, screen-line, or path-cocycle premises become load-bearing.
-9. The observer longitudinal/transverse cocycle, relational-depth, clock-operator,
+10. The observer longitudinal/transverse cocycle, relational-depth, clock-operator,
    complete-metric separation, and `X_max` packages named by the frontier only when their exact
    path, bilocal, local-neutrality, or global-diameter premises become load-bearing.
-10. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
+11. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
    `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and `REGRESSION_GUARD_LEDGER.tsv`
    only when a prior complete-metric, bootstrap, or regression-guard claim is load-bearing. This
    is a prior evidence-linked routing layer, not authority over its cited evidence.
-11. `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
+12. `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
    `CLAIM_DEPENDENCY_LEDGER.tsv` and `OPEN_JOIN_LEDGER.tsv`, then
    `REFERENCE_CORRECTION_LAYER.md`, `REVIEW_AGREEMENT_DISAGREEMENT.tsv`, and `PONDER_READOUT.md`.
    The frozen reference plus append-only cold-review layer is a prior dependency spine, not
    authority over its cited evidence.
-12. `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`, then
+13. `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`, then
    `angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv` when the conditional global Hopf
    theorem is relevant.
-13. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` only when the exact reciprocal
+14. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` only when the exact reciprocal
    Hopf-orbit witness or its provenance becomes load-bearing, then
    `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` for the preceding carrier/topology
    classification only when that layer is relevant.
-14. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task; none are
+15. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task; none are
    part of generic startup orientation.
-15. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
+16. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
    is durable lane evidence, not the global frontier.
-16. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline only; do not dump the
+17. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline only; do not dump the
    whole charter at startup.
-17. Only the specific full protocol under `.claude/skills/*/SKILL.md` triggered by the actual task;
+18. Only the specific full protocol under `.claude/skills/*/SKILL.md` triggered by the actual task;
    do not preload every skill.
-18. The top/current summary in `INDEX.md` and `MEMORY.md`'s `TOP — CURRENT POINTER` for pointers only;
+19. The top/current summary in `INDEX.md` and `MEMORY.md`'s `TOP — CURRENT POINTER` for pointers only;
     neither can overrule `LIVE.md`.
 
 For the 1,114 fixed-base artifact identities, use
@@ -96,7 +101,14 @@ Then give Charles a short orientation report: actual HEAD and dirt, the current 
 premise stamps, the open gate, and the proposed bounded next action. Do not mutate files or launch a
 long solve until that orientation is complete.
 
-The bootstrap/stable-matter interpretation remains a working hypothesis. The current exact partial
+The bootstrap/stable-matter interpretation remains a working hypothesis. The current historical
+method audit restores no particle or QCD claims. It does derive the bounded complete positive-screen
+operator decomposition: one area, one rotation, and two shear modes, with traceless closure
+`sl(2,R)`. Scalar `lambda` is only the isotropic trace response. Charles authorized a CPU-first
+complete-screen atlas across the existing admitted finite-cell branches; it must characterize all
+four components without selecting a desired physical outcome.
+
+The parent exact partial
 no-go says a continuous full-Lorentz additive scalar character is trivial, non-collinear comparison
 forces angular transport, and pointwise full-isotropy metric data cannot select a non-scalar
 reciprocal generator. A supplied observer line conditionally gives `lambda=+1`, a supplied ruler

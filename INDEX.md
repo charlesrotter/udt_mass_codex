@@ -17,23 +17,25 @@ bootstrap, Maxwell-like, `X_max`, Hopfion, source, boundary, and mass scopes. Co
 older files do not override the registry's cited controlling evidence.
 
 **➤ CURRENT SCIENTIFIC FRONTIER:**
-`udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md`, then its
-`STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `COMPLETENESS_MAP.md`, `LAY_REPORT.md`, and
+`udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `HISTORICAL_METHOD_CENSUS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and
 `NEXT_STEP.md`.
 
-Exact Lorentz algebra proves that a continuous full-frame additive real character is trivial and
-that non-collinear comparison necessarily produces angular transport. Full pointwise metric
-isotropy permits only scalar endomorphisms, so it cannot select a non-scalar reciprocal generator.
-Reduced input gives conditional lifts: observer line `lambda=+1`, ruler line `lambda=-1`, ordered
-pair arbitrary real `lambda`. The surviving exact type is reciprocal cocycle plus angular/coframe
-groupoid transport, with physical arrows, base, path semantics, transverse metric response, global
-descent, and realization still open.
+No historical particle or QCD claim is restored. The surviving method is to keep the complete
+angular response visible before assigning physical labels. On the current metric-derived positive
+two-screen, the exact four-part response is area, rotation, and two shear modes; its traceless
+sector closes `sl(2,R)`. The old `3+5=8` count is generic real `sl(3,R)`, not unique QCD evidence;
+`su(3)` requires an extra complex/Hermitian input.
 
-Because stationary Killing-norm depth supplies a positive base-dependent witness and higher-jet,
-nonlocal, set-valued, and whole-solution routes remain unclassified, the primary outcome is
-`NO_GO_PREMISES_INSUFFICIENT_STOP`, not a universal no-go. Verification is same-session independent
-with 13 source rehashes and 32/32 catches. The next possible ownership audit requires separate
-authorization. No downstream physics, GPU work, or reorganization follows.
+Thus `lambda` is only the isotropic trace response after extra screen-rotation equivariance, not
+the complete angular sector. Charles authorized a CPU-first complete-screen branch atlas across
+the existing admitted finite-cell branches. It must map all four components without selecting a
+branch, coefficient, particle, force, carrier, action, source, density, or boundary.
+
+**➤ PARENT JULY 28 METRIC-NATURAL SELECTOR FRONTIER:**
+`udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md`. Its exact partial obstruction
+and reciprocal-cocycle plus angular-transport type remain unchanged; the historical-method result
+changes the next mapping object from scalar `lambda` alone to the complete screen response.
 
 **➤ PARENT JULY 28 JOINT-SELECTOR PROVENANCE FRONTIER:**
 `udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md`, then its
