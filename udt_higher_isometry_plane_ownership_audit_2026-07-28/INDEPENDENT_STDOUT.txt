@@ -1,0 +1,19 @@
+{
+  "checks_passed": 292,
+  "free_line_histogram": {
+    "2": 232
+  },
+  "independent_cap_pair_count": 232,
+  "method": "stdlib_Fraction_direct_matrix_algebra_no_production_import_no_sympy",
+  "rational_orbit_samples": 4,
+  "schema": "udt-higher-isometry-plane-ownership-independent-1.0",
+  "status": "PASS",
+  "verified": [
+    "full_3x3_Gram_and_response",
+    "characteristic_coefficients_and_reciprocal_rate_obstructions",
+    "all_plane_determinant_formula",
+    "all_direction_clock_response_formula",
+    "nonconstant_depth_double_reciprocal_plane_witness",
+    "two_free_unoriented_circle_theorem_on_larger_cap_census"
+  ]
+}

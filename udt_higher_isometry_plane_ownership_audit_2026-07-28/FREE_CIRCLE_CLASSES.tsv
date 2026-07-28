@@ -1,0 +1,5 @@
+id	cap_basis	circle	primitive	free_at_both_caps	orientation	metric_selection
+L01	v_minus,v_plus_with_abs_det_1	v_minus+v_plus	YES	YES	UNORIENTED_LINE_1	NOT_FROM_TOPOLOGY
+L02	v_minus,v_plus_with_abs_det_1	v_minus-v_plus	YES	YES	UNORIENTED_LINE_2	NOT_FROM_TOPOLOGY
+L03	standard_(1,0),(0,1)	(1,1)	YES	YES	HOPF_LABEL_CONDITIONAL	REGISTERED_BY_CHOSEN_A
+L04	standard_(1,0),(0,1)	(1,-1)	YES	YES	ANTI_HOPF_LABEL_CONDITIONAL	EQUIVALENT_IN_DOUBLE_WITNESS

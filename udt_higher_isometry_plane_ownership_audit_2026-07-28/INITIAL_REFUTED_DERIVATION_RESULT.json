@@ -1,0 +1,595 @@
+{
+  "base": "99cbec700add7f72f3ff9e67f3bdfaa89cfd1724",
+  "check_count": 135,
+  "checks": [
+    {
+      "id": "A01_full_orbit_Gram_determinant",
+      "status": "PASS"
+    },
+    {
+      "id": "A02_horizontal_congruence_block",
+      "status": "PASS"
+    },
+    {
+      "id": "A03_orbit_inertia_is_one_minus_two_plus",
+      "status": "PASS"
+    },
+    {
+      "id": "A04_exact_full_orbit_Gram_response",
+      "status": "PASS"
+    },
+    {
+      "id": "A05_response_trace_is_horizontal_log_rate",
+      "status": "PASS"
+    },
+    {
+      "id": "A06_response_is_Gram_self_adjoint",
+      "status": "PASS"
+    },
+    {
+      "id": "A07_exact_response_characteristic_polynomial",
+      "status": "PASS"
+    },
+    {
+      "id": "A08_minus_reciprocal_rate_obstruction",
+      "status": "PASS"
+    },
+    {
+      "id": "A09_plus_reciprocal_rate_obstruction",
+      "status": "PASS"
+    },
+    {
+      "id": "A10_df_zero_response_factorization",
+      "status": "PASS"
+    },
+    {
+      "id": "A11_K_leakage_from_variable_moment",
+      "status": "PASS"
+    },
+    {
+      "id": "A12_V_leakage_from_variable_moment",
+      "status": "PASS"
+    },
+    {
+      "id": "A13_registered_plane_invariant_when_df_zero",
+      "status": "PASS"
+    },
+    {
+      "id": "A14_no_simultaneous_leakage_cancellation_for_df_nonzero",
+      "status": "PASS"
+    },
+    {
+      "id": "A15_all_symmetry_plane_Gram_determinants",
+      "status": "PASS"
+    },
+    {
+      "id": "A16_generic_f_derivative_forces_vertical_compact_line",
+      "status": "PASS"
+    },
+    {
+      "id": "A16b_generic_f_identity_has_n_squared_leading_coefficient",
+      "status": "PASS"
+    },
+    {
+      "id": "A17_after_vertical_line_horizontal_helix_term",
+      "status": "PASS"
+    },
+    {
+      "id": "A17b_generic_b_identity_after_n_zero_forces_s_zero",
+      "status": "PASS"
+    },
+    {
+      "id": "A18_registered_plane_has_constant_reciprocal_area",
+      "status": "PASS"
+    },
+    {
+      "id": "A19_all_projective_clock_response_residual",
+      "status": "PASS"
+    },
+    {
+      "id": "A20_founded_K_always_has_clock_response",
+      "status": "PASS"
+    },
+    {
+      "id": "A21_generic_db_coefficient_forces_no_horizontal_component",
+      "status": "PASS"
+    },
+    {
+      "id": "A22_after_q_zero_nonconstant_depth_forces_no_vertical_helix",
+      "status": "PASS"
+    },
+    {
+      "id": "A23_registered_Hopf_plane_exact_in_double_witness",
+      "status": "PASS"
+    },
+    {
+      "id": "A24_anti_Hopf_plane_exact_in_double_witness",
+      "status": "PASS"
+    },
+    {
+      "id": "A25_double_witness_positive_horizontal_interior",
+      "status": "PASS"
+    },
+    {
+      "id": "A26_twisted_anti_Hopf_plane_constant_area",
+      "status": "PASS"
+    },
+    {
+      "id": "A27_twisted_anti_Hopf_rate_shift",
+      "status": "PASS"
+    },
+    {
+      "id": "T0001_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0002_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0003_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0004_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0005_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0006_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0007_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0008_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0009_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0010_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0011_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0012_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0013_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0014_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0015_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0016_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0017_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0018_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0019_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0020_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0021_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0022_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0023_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0024_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0025_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0026_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0027_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0028_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0029_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0030_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0031_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0032_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0033_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0034_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0035_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0036_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0037_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0038_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0039_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0040_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0041_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0042_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0043_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0044_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0045_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0046_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0047_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0048_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0049_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0050_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0051_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0052_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0053_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0054_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0055_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0056_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0057_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0058_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0059_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0060_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0061_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0062_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0063_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0064_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0065_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0066_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0067_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0068_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0069_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0070_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0071_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0072_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0073_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0074_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0075_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0076_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0077_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0078_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0079_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0080_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0081_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0082_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0083_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0084_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0085_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0086_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0087_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0088_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0089_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0090_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0091_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0092_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0093_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0094_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0095_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0096_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0097_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0098_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0099_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0100_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0101_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0102_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0103_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "T0104_two_free_lines",
+      "status": "PASS"
+    },
+    {
+      "id": "A28_cap_enumeration_nonempty",
+      "status": "PASS"
+    },
+    {
+      "id": "A29_standard_S3_has_Hopf_and_anti_Hopf_free_lines",
+      "status": "PASS"
+    }
+  ],
+  "countercontrol": {
+    "V_and_Y": "Hopf_and_anti_Hopf_primitive_free_circles",
+    "alpha": 0,
+    "b": "(1-f^2)/u",
+    "phi_nonconstant": true,
+    "reciprocal_planes": [
+      "span(K,V)",
+      "span(K,Y)"
+    ],
+    "u": "1+epsilon*(1-f^2)"
+  },
+  "full_response": {
+    "important_distinction": "full_orbit_D_eigenplane_is_not_the_restricted_two_plane_scan",
+    "minus_2chi_eigenvalue_when_chi_df_alpha_nonzero": false,
+    "plus_2chi_eigenvalue_when_chi_df_nonzero": false,
+    "registered_plane_invariant_iff_within_nonzero_df_analysis": "df=0",
+    "trace": "X(b)/b"
+  },
+  "generic_registered_plane_selection": "DERIVED_FOR_OPEN_INDEPENDENT_FIRST_JET_STRATUM_BY_RESTRICTED_PLANE_SCAN",
+  "macro_micro_assignment": "OPEN_NOT_TESTED",
+  "maximum_conclusion": "THE_REGISTERED_RECIPROCAL_PLANE_IS_UNIQUE_UNDER_THE_RESTRICTED_CONSTANT_AREA_AND_RATE_SCAN_ON_THE_JET_GENERIC_DESCENDED_RxT2_STRATUM_BUT_NOT_UNIVERSALLY;SMOOTH_NONCONSTANT_DEPTH_TWIST_OFF_AND_ROUND_HIGHER_ISOMETRY_CONTROLS_HAVE_MULTIPLE_FREE_RECIPROCAL_PLANES;THE_FULL_3x3_GRAM_RESPONSE_MIXES_THE_REGISTERED_PLANE_WHERE_THE_EXTRA_CIRCLE_MOMENT_VARIES;NO_PHYSICAL_BRANCH_OR_MACRO_MICRO_ASSIGNMENT_IS_DERIVED",
+  "orbit_gram": {
+    "basis": [
+      "K",
+      "V",
+      "Y"
+    ],
+    "connection_moment": "f=A(Y)",
+    "determinant": "-b*c_E^2",
+    "horizontal_norm": "b=q_B(Y-fV,Y-fV)",
+    "inertia": "one_negative_two_positive"
+  },
+  "plane_scan": {
+    "exceptional_locus": "functional_relations_among_u_f_b_can_create_additional_constant_area_or_reciprocal_planes",
+    "general_plane": "span(K+rV+sY,mV+nY)",
+    "gram_determinant": "-(alpha**2*b*m**2*s**2*u**2 - 2*alpha**2*b*m*n*r*s*u**2 + alpha**2*b*n**2*r**2*u**2 - 2*alpha*b*c_E*m*n*s*u**2 + 2*alpha*b*c_E*n**2*r*u**2 + b*c_E**2*n**2*u**2 - b*m**2*s**2 + 2*b*m*n*r*s - b*n**2*r**2 + c_E**2*f**2*n**2*u + 2*c_E**2*f*m*n*u + c_E**2*m**2*u)/u",
+    "jet_generic_unique_constant_area_plane": "span(K,V)"
+  },
+  "preregistration_commit": "3e3eecc",
+  "primary_classification": "GENERIC_SELECTION_WITH_EXACT_EXCEPTIONAL_MULTIPLE_PLANE_STRATA",
+  "schema": "udt-higher-isometry-plane-ownership-1.0",
+  "symbolic_check_count": 31,
+  "topology": {
+    "smooth_S3_unimodular_caps_free_unoriented_circle_count": 2,
+    "topology_selects_registered_V": false
+  },
+  "toric_cap_pair_count": 104,
+  "toric_enumeration_check_count": 104,
+  "universal_registered_plane_selection": "REFUTED_WITHIN_BOUNDED_FAMILY"
+}

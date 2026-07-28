@@ -1,0 +1,19 @@
+{
+  "catch_proofs": 32,
+  "checks_passed": 17,
+  "corrected_review_verdict": "PASS_WITH_CAVEATS",
+  "independent_checks": 292,
+  "initial_review_verdict": "REFUTED",
+  "maximum_conclusion": "UNIVERSAL_PLANE_SELECTION_IS_REFUTED_BY_AN_EXACT_SMOOTH_NONCONSTANT_DEPTH_COUNTERCONTROL;THE_ORBIT_ALGEBRA_TOPOLOGY_THEOREM_AND_FAMILY_IDENTITY_ROBUSTNESS_OF_span_KV_ARE_DERIVED;GENERIC_FIXED_METRIC_SELECTION_AND_THE_COMPLETE_RESPONSE_DEGENERACY_ATLAS_REMAIN_OPEN;NO_PHYSICAL_BRANCH_OR_MACRO_MICRO_ASSIGNMENT_IS_DERIVED",
+  "production_checks": 135,
+  "raw_stream_hashes": {
+    "independent_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "independent_stdout_sha256": "a3808e1a41a27c6a3235c8d0b919f9714219d04b46f44691c63e383b787d580b",
+    "production_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "production_stdout_sha256": "1d65b56d5e9511bc349a9ae8bb1e1d54f9ab52349e4fca3b0d38b889bd72d30d"
+  },
+  "schema": "udt-higher-isometry-plane-ownership-verification-1.0",
+  "source_count": 26,
+  "source_identity_sha256": "e85ad7db71c6041a1690973ba932a59db973253fdfedc3e40dd1a60b5977a482",
+  "status": "PASS"
+}

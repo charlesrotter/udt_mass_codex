@@ -1,0 +1,12 @@
+{
+  "cpu_only": true,
+  "cuda_visible_devices": "",
+  "implementation": "CPython",
+  "independent_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "independent_stdout_sha256": "a3808e1a41a27c6a3235c8d0b919f9714219d04b46f44691c63e383b787d580b",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "production_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "production_stdout_sha256": "1d65b56d5e9511bc349a9ae8bb1e1d54f9ab52349e4fca3b0d38b889bd72d30d",
+  "python": "3.10.12",
+  "sympy": "1.13.1"
+}
