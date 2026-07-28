@@ -1,0 +1,35 @@
+id	reject_if
+F01	base commit tree or unrelated 55-path dirty metadata differs
+F02	a registered direct source is omitted or its fixed-base hash differs
+F03	P is called general while an invertible 2x2 component or first-jet direction is silently removed
+F04	the polar chart is treated as primary at v=0
+F05	v=0 shear-axis nonuniqueness is called a metric singularity
+F06	detP=0 is discarded rather than classified as screen degeneracy
+F07	detP negative is called a distinct metric without the orientation/gauge stamp
+F08	local O2 coframe angle chi is counted as an additional metric degree of freedom
+F09	a displayed skew connection coefficient is called frame-independent
+F10	one shear axis is hidden by diagonalizing P without retaining the shear-axis field
+F11	a constant-axis slice is reported as the full general-screen family
+F12	an algebraic GL2 identity is promoted to a force gauge group particle or matter structure
+F13	an off-shell complete configuration is called a selected or on-shell UDT solution
+F14	compact S3 metric completeness is claimed without smoothness positivity and nondegeneracy
+F15	spacelike-slice failure is confused with four-metric degeneracy
+F16	a zero or negative slice stratum is filtered out as solver failure
+F17	an FC completion taxonomy is reported as an actual metric without a supplied coframe and joins
+F18	quotient or cap descent is assumed from filename or topology
+F19	pair-screen connection mixing is omitted from the full Cartan first-jet calculation
+F20	connection mixing is called a new physical coupling or source
+F21	the screen block family is reported as the generic ten-component spacetime metric
+F22	a pointwise response is confused with path holonomy or global descent
+F23	a coframe-gauge rotation is confused with metric shear-axis transport
+F24	an exact zero in one witness is promoted to a family-wide no-go
+F25	a numerical sample is used to establish an exact identity
+F26	any of the ten completeness criteria is unstamped
+F27	production and independent implementations share load-bearing algebra code
+F28	a catch-proof is recorded without exercising the corresponding mutation
+F29	a pre-July imported construction supplies affirmative UDT physics
+F30	a branch is preferred because it resembles Hopf matter a force a smooth cap or observation
+F31	a new action source carrier density boundary law scale or field equation is introduced
+F32	GPU ODE PDE time-live matter bootstrap or repository reorganization work is launched
+F33	CANON frozen packages current paths frontier targets or unrelated dirty metadata change
+F34	a result is called selected native matter or settled beyond its stationary off-shell scope
