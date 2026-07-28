@@ -1,0 +1,107 @@
+{
+  "blocked_or_open_rows": 20,
+  "branch_parent_rows": 30,
+  "branch_path_rows": 52,
+  "complete_screen_basis": "End(S)=R*I+so(2)+Sym0(2);dim=1+1+2=4",
+  "completion_taxonomy_rows": 12,
+  "critical_caveat": "EXPLICIT_GENERIC_JACOBI_SHEAR_IS_OPEN_NOT_ZERO;CURRENT_EQUAL_WEIGHT_COFAME_FREEZES_SHEAR_ONLY_IN_THE_PHI_PARAMETER_RESPONSE",
+  "degeneracy_rows": 33,
+  "exact_or_conditional_response_rows": 29,
+  "maximum_conclusion": "BOUNDED_REGISTERED_BRANCH_ATLAS_NO_PHYSICAL_SELECTION",
+  "mixing_or_mismatch_rows": 8,
+  "observed_common_structure": "REGISTERED_EXPLICIT_RESPONSE_ROWS_USE_ONLY_TRACE_AND_ROTATION_INSIDE_EndS;PAIR_SCREEN_MIXING_OCCURS_ON_GENERIC_NONCONSTANT_TWISTED_DEPTH",
+  "outcome_class": "MIXED_MULTIPLE_OUTCOMES",
+  "pair_screen_mixing_rows": 7,
+  "schema": "udt-complete-screen-response-atlas-1.0",
+  "status": "PASS",
+  "sympy_version": "1.13.1",
+  "twisted_exact": {
+    "omega_minus": "-kappa*(alpha + exp(2*phi) - 2*exp(2*lambda*phi))*exp(-phi*(2*lambda + 1))/2",
+    "omega_n": "kappa*exp(-2*lambda*phi + phi)/2 - kappa*exp(-phi)",
+    "omega_plus": "-kappa*(alpha - exp(2*phi) + 2*exp(2*lambda*phi))*exp(-phi*(2*lambda + 1))/2",
+    "omega_u": "-alpha*kappa*exp(-phi*(2*lambda + 1))/2",
+    "ray_response": {
+      "minus": {
+        "acceleration": [
+          "p1",
+          "-p1",
+          "-2*p2",
+          "-2*p3"
+        ],
+        "congruence_decomposition": {
+          "a": "-lambda*p1",
+          "s1": "0",
+          "s2": "0",
+          "w": "-kappa*(alpha + exp(2*phi))*exp(-phi*(2*lambda + 1))/2"
+        },
+        "congruence_matrix": [
+          [
+            "-lambda*p1",
+            "kappa*(alpha + exp(2*phi))*exp(-phi*(2*lambda + 1))/2"
+          ],
+          [
+            "-kappa*(alpha + exp(2*phi))*exp(-phi*(2*lambda + 1))/2",
+            "-lambda*p1"
+          ]
+        ],
+        "path_connection_decomposition": {
+          "a": "0",
+          "s1": "0",
+          "s2": "0",
+          "w": "-kappa*(alpha + exp(2*phi) - 2*exp(2*lambda*phi))*exp(-phi*(2*lambda + 1))/2"
+        },
+        "path_connection_matrix": [
+          [
+            "0",
+            "kappa*(alpha + exp(2*phi) - 2*exp(2*lambda*phi))*exp(-phi*(2*lambda + 1))/2"
+          ],
+          [
+            "-kappa*(alpha + exp(2*phi) - 2*exp(2*lambda*phi))*exp(-phi*(2*lambda + 1))/2",
+            "0"
+          ]
+        ]
+      },
+      "plus": {
+        "acceleration": [
+          "-p1",
+          "-p1",
+          "-2*p2",
+          "-2*p3"
+        ],
+        "congruence_decomposition": {
+          "a": "lambda*p1",
+          "s1": "0",
+          "s2": "0",
+          "w": "-kappa*(alpha - exp(2*phi))*exp(-phi*(2*lambda + 1))/2"
+        },
+        "congruence_matrix": [
+          [
+            "lambda*p1",
+            "kappa*(alpha - exp(2*phi))*exp(-phi*(2*lambda + 1))/2"
+          ],
+          [
+            "-kappa*(alpha - exp(2*phi))*exp(-phi*(2*lambda + 1))/2",
+            "lambda*p1"
+          ]
+        ],
+        "path_connection_decomposition": {
+          "a": "0",
+          "s1": "0",
+          "s2": "0",
+          "w": "-kappa*(alpha - exp(2*phi) + 2*exp(2*lambda*phi))*exp(-phi*(2*lambda + 1))/2"
+        },
+        "path_connection_matrix": [
+          [
+            "0",
+            "kappa*(alpha - exp(2*phi) + 2*exp(2*lambda*phi))*exp(-phi*(2*lambda + 1))/2"
+          ],
+          [
+            "-kappa*(alpha - exp(2*phi) + 2*exp(2*lambda*phi))*exp(-phi*(2*lambda + 1))/2",
+            "0"
+          ]
+        ]
+      }
+    }
+  },
+  "unique_record_ids": 52
+}

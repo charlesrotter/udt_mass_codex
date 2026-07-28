@@ -1,0 +1,5 @@
+scope	intersection	reason	allowed_claim
+ALL_52_ROWS	UNDEFINED	contains taxonomy-only, absent, incomplete, and blocked rows	NO_NONZERO_COMMON_SUBALGEBRA
+ALL_EVALUATED_POINTWISE_RESPONSES	ZERO	explicit zero-response rows are included	TRIVIAL_INTERSECTION_ONLY
+UNION_OF_EVALUATED_EndS_COMPONENTS	NOT_AN_INTERSECTION	nonzero union spans I and R only in current explicit records	OBSERVED_BOUNDED_VOCABULARY_NOT_SELECTION
+GENERIC_SCREEN_ALGEBRA	EndS_EQUALS_gl2R	mathematical ambient space includes I,R,S1,S2	AMBIENT_IDENTITY_NOT_BRANCH_REALIZATION

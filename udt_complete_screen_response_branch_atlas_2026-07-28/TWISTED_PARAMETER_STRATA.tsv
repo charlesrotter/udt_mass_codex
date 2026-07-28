@@ -1,0 +1,9 @@
+candidate	lambda	epsilon	a	parent_intrinsic_clock	parent_twist_ruler	role	parent_witness	source_path
+C01	-2	1/50	1/64	PASS	PASS	all_gate_witness	W01_TWISTED_RECIPROCAL_S3	udt_twisted_s3_intrinsic_screen_cocycle_audit_2026-07-27/CANDIDATE_UNIVERSE.tsv
+C02	-1	1/50	1/64	PASS	PASS	all_gate_witness	W01_TWISTED_RECIPROCAL_S3	udt_twisted_s3_intrinsic_screen_cocycle_audit_2026-07-27/CANDIDATE_UNIVERSE.tsv
+C03	0	1/50	1/64	PASS	PASS	all_gate_witness	W01_TWISTED_RECIPROCAL_S3	udt_twisted_s3_intrinsic_screen_cocycle_audit_2026-07-27/CANDIDATE_UNIVERSE.tsv
+C04	1/2	1/50	1/64	PASS	PASS	all_gate_witness	W01_TWISTED_RECIPROCAL_S3	udt_twisted_s3_intrinsic_screen_cocycle_audit_2026-07-27/CANDIDATE_UNIVERSE.tsv
+C05	1	1/50	1/64	PASS	PASS	all_gate_witness	W01_TWISTED_RECIPROCAL_S3	udt_twisted_s3_intrinsic_screen_cocycle_audit_2026-07-27/CANDIDATE_UNIVERSE.tsv
+C06	2	1/50	1/64	PASS	PASS	all_gate_witness	W01_TWISTED_RECIPROCAL_S3	udt_twisted_s3_intrinsic_screen_cocycle_audit_2026-07-27/CANDIDATE_UNIVERSE.tsv
+C07	0	1/50	0	PASS	FAIL_AS_EXPECTED	twist_off_control	W01_TWISTED_RECIPROCAL_S3	udt_twisted_s3_intrinsic_screen_cocycle_audit_2026-07-27/CANDIDATE_UNIVERSE.tsv
+C08	0	0	1/64	FAIL_AS_EXPECTED	FAIL_AS_EXPECTED	constant_depth_control	W01_TWISTED_RECIPROCAL_S3	udt_twisted_s3_intrinsic_screen_cocycle_audit_2026-07-27/CANDIDATE_UNIVERSE.tsv

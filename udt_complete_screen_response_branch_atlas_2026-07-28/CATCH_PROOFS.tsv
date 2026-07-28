@@ -1,0 +1,29 @@
+id	mutation	result
+F01	wrong base tree/dirty stamp	PASS_REJECTED
+F02	one source removed	PASS_REJECTED
+F03	one direct source removed	PASS_REJECTED
+F04	one branch/path identity removed	PASS_REJECTED
+F05	taxonomy promoted	PASS_REJECTED
+F06	off-shell control promoted	PASS_REJECTED
+F07	missing path silently supplied	PASS_REJECTED
+F08	lambda I substituted for End(S)	PASS_REJECTED
+F09	metric deformation owns rotation	PASS_REJECTED
+F10	rotation overclaim	PASS_REJECTED
+F11	open Jacobi shear hidden	PASS_REJECTED
+F12	mixing rows omitted	PASS_REJECTED
+F13	degeneracy discarded	PASS_REJECTED
+F14	local path overclaim	PASS_REJECTED
+F15	span/closure conflation	PASS_REJECTED
+F16	generic algebra physicalized	PASS_REJECTED
+F17	false common intersection	PASS_REJECTED
+F18	numeric zero overclaim	PASS_REJECTED
+F19	target filtering	PASS_REJECTED
+F20	scope escape	PASS_REJECTED
+F21	firewall violation	PASS_REJECTED
+F22	universal overclaim	PASS_REJECTED
+F23	one completeness stamp omitted	PASS_REJECTED
+F24	missing/duplicate response row	PASS_REJECTED
+F25	shared implementation	PASS_REJECTED
+F26	repository gate violation	PASS_REJECTED
+F27	compute scope escape	PASS_REJECTED
+F28	evidence-grade overclaim	PASS_REJECTED

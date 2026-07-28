@@ -1,0 +1,6 @@
+family_path	congruence_vorticity	path_frame_connection	path_minus_congruence	status
+Q01_Q02:RULER_CONGRUENCE	q/2	NOT_THE_SAME_OBJECT	N/A	EXACT_CONDITIONAL_PAIR
+Q01_Q02:HOPF_PATH	NOT_THE_SAME_OBJECT	p-q/2	N/A	EXACT_CONDITIONAL_PAIR
+W01:U_PLUS_N	-kappa*(alpha - exp(2*phi))*exp(-phi*(2*lambda + 1))/2	-kappa*(alpha - exp(2*phi) + 2*exp(2*lambda*phi))*exp(-phi*(2*lambda + 1))/2	-kappa*exp(-phi)	EXACT_DISTINCT_ROTATION_OWNERS
+W01:U_MINUS_N	-kappa*(alpha + exp(2*phi))*exp(-phi*(2*lambda + 1))/2	-kappa*(alpha + exp(2*phi) - 2*exp(2*lambda*phi))*exp(-phi*(2*lambda + 1))/2	+kappa*exp(-phi)	EXACT_DISTINCT_ROTATION_OWNERS
+ALL	projected_nabla_of_ray_field	screen_basis_parallel_transport_along_path	OBJECTS_NEED_NOT_AGREE	DO_NOT_CONFLATE

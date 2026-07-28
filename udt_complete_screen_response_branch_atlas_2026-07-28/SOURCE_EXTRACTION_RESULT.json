@@ -1,0 +1,16 @@
+{
+  "base_commit": "bd8649ae31aab31435fbe986427d7f4e84d58e6d",
+  "base_tree": "b0ec58d2f956eb942592c965858876f7d932149a",
+  "completion_classes": 12,
+  "configuration_rows": 4,
+  "direct_source_rows": 16,
+  "discovered_source_rows": 5939,
+  "nonultrastatic_witness_rows": 6,
+  "source_role_counts": {
+    "BRANCH_OR_SCREEN_FAMILY_SUPPORT": 310,
+    "BROAD_SEED_NO_DIRECT_BRANCH_ROLE": 1261,
+    "LOAD_BEARING_DIRECT": 16,
+    "TRANSITIVE_FORENSIC_SUPPORT": 4352
+  },
+  "twisted_parameter_rows": 8
+}

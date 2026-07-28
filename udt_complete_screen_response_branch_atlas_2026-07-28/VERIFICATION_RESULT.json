@@ -1,0 +1,51 @@
+{
+  "authority_boundary": {
+    "CANON_changed": false,
+    "GPU_ODE_PDE_time_live": false,
+    "action_source_carrier_density_bootstrap_boundary_scale": false,
+    "physical_selection": false,
+    "repository_reorganization": false
+  },
+  "branch_path_rows": 52,
+  "catch_proofs": 28,
+  "completion_taxonomy_rows": 12,
+  "exact_pair_screen_mixing_rows": 7,
+  "exact_zero_shear_rows": 30,
+  "fresh_adversarial_model": false,
+  "maximum_grade": "VERIFIED_WITH_CAVEATS",
+  "mixing_or_mismatch_rows": 8,
+  "open_generic_jacobi_shear_rows": 3,
+  "replay_groups": [
+    {
+      "outputs": 2,
+      "result": "BYTE_IDENTICAL",
+      "script": "discover_and_freeze_sources.py",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "ce5bc9d2708c95d36763af646ed3572d19de4e9a7a21c2f294da1907e2812a7e"
+    },
+    {
+      "outputs": 8,
+      "result": "BYTE_IDENTICAL",
+      "script": "extract_branch_universe.py",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "512ad4f7091305f1d335066392c3d9b484187d1f8672f269cb84c52fa0a5766c"
+    },
+    {
+      "outputs": 14,
+      "result": "BYTE_IDENTICAL",
+      "script": "derive_screen_response_atlas.py",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "3042f78c744cb716719a55ee66b89360e13e6b55ec453fb54d222cb5eeb61825"
+    },
+    {
+      "outputs": 2,
+      "result": "BYTE_IDENTICAL",
+      "script": "verify_screen_response_independent.py",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "9c8e51b12fbce95e274297d213f706301fd8d95b404bf36edfb0c4b498ce4858"
+    }
+  ],
+  "schema": "udt-complete-screen-response-audit-verification-1.0",
+  "status": "PASS_VERIFIED_WITH_CAVEATS",
+  "ten_completeness_stamps": 10
+}

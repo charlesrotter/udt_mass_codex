@@ -1,0 +1,8 @@
+python3 udt_complete_screen_response_branch_atlas_2026-07-28/discover_and_freeze_sources.py
+python3 udt_complete_screen_response_branch_atlas_2026-07-28/extract_branch_universe.py
+python3 udt_complete_screen_response_branch_atlas_2026-07-28/derive_screen_response_atlas.py
+python3 udt_complete_screen_response_branch_atlas_2026-07-28/verify_screen_response_independent.py
+python3 udt_complete_screen_response_branch_atlas_2026-07-28/verify_audit.py
+python3 udt_complete_screen_response_branch_atlas_2026-07-28/finalize_package.py
+CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 verify_current_scientific_premises.py
+CUDA_VISIBLE_DEVICES= PYTHONDONTWRITEBYTECODE=1 python3 -m pytest -q tests/

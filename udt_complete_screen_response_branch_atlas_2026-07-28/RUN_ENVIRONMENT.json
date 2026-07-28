@@ -1,0 +1,15 @@
+{
+  "CUDA_VISIBLE_DEVICES": "empty",
+  "backend": "CPU_SYMBOLIC_ONLY",
+  "commands": [
+    "python3 udt_complete_screen_response_branch_atlas_2026-07-28/extract_branch_universe.py",
+    "python3 udt_complete_screen_response_branch_atlas_2026-07-28/derive_screen_response_atlas.py",
+    "python3 udt_complete_screen_response_branch_atlas_2026-07-28/verify_screen_response_independent.py",
+    "python3 udt_complete_screen_response_branch_atlas_2026-07-28/verify_audit.py"
+  ],
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "processor": "x86_64",
+  "python": "3.10.12",
+  "schema": "udt-complete-screen-response-environment-1.0",
+  "sympy": "1.13.1"
+}

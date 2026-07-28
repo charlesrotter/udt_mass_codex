@@ -1,0 +1,50 @@
+{
+  "algebra_checks": {
+    "decomposition_dim": 4,
+    "equal_weight_shear": 0,
+    "trace_central": true,
+    "traceless_algebra": "sl2R"
+  },
+  "allowed_grade": "VERIFIED_WITH_CAVEATS",
+  "branch_checks": {
+    "jacobi_shear_open": 3,
+    "parents": 30,
+    "rows": 52,
+    "zero_shear_exact": 30
+  },
+  "catch_proofs": 28,
+  "dirty_checkout": {
+    "contents_read": false,
+    "metadata_sha256": "345d297e0ad849cd38f1d817c915922de653ca2d2befcf923af6f9d097b483e4",
+    "paths": 55
+  },
+  "fresh_adversarial_model": false,
+  "physical_selection": false,
+  "schema": "udt-complete-screen-response-independent-verification-1.0",
+  "source_checks": {
+    "direct": 16,
+    "discovered": 5939,
+    "role_counts": {
+      "BRANCH_OR_SCREEN_FAMILY_SUPPORT": 310,
+      "BROAD_SEED_NO_DIRECT_BRANCH_ROLE": 1261,
+      "LOAD_BEARING_DIRECT": 16,
+      "TRANSITIVE_FORENSIC_SUPPORT": 4352
+    }
+  },
+  "status": "PASS_VERIFIED_WITH_CAVEATS_SAME_CONTEXT_INDEPENDENT_IMPLEMENTATION",
+  "sympy_version": "1.13.1",
+  "ten_criterion_rows": 10,
+  "twisted_formula_checks": {
+    "north_mixing_norm": "1/125",
+    "omega_minus": "-kappa*(alpha + exp(2*phi) - 2*exp(2*lambda*phi))*exp(-phi*(2*lambda + 1))/2",
+    "omega_n": "kappa*exp(-2*lambda*phi + phi)/2 - kappa*exp(-phi)",
+    "omega_plus": "-kappa*(alpha - exp(2*phi) + 2*exp(2*lambda*phi))*exp(-phi*(2*lambda + 1))/2",
+    "omega_u": "-alpha*kappa*exp(-phi*(2*lambda + 1))/2"
+  },
+  "universe_checks": {
+    "C": 8,
+    "FC": 12,
+    "Q": 4,
+    "W": 6
+  }
+}

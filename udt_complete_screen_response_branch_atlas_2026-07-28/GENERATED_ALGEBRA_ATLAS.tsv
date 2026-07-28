@@ -1,0 +1,12 @@
+generator_set	pointwise_span_dim	generated_lie_dim	generated_algebra	exact_reason
+NONE	0	0	ZERO	empty
+I	1	1	R_I_ABELIAN	I_central
+R	1	1	so2_ABELIAN	single_generator
+I;R	2	2	R_I_DIRECT_SUM_so2_ABELIAN	[I,R]=0
+R;S1	2	3	sl2R	[R,S1]=2S2
+R;S2	2	3	sl2R	[R,S2]=-2S1
+S1;S2	2	3	sl2R	[S1,S2]=-2R
+I;R;S1	3	4	gl2R	I_central_plus_sl2R
+I;S1;S2	3	4	gl2R	I_central_plus_[S1,S2]
+I;R;S1;S2	4	4	gl2R	complete_End_screen
+PAIR_SCREEN_MIXING	OUTSIDE_EndS	NOT_EVALUATED	SCREEN_BLOCK_NOT_CLOSED	off_diagonal_pair_screen_blocks_present
