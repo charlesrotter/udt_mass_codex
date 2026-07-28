@@ -1,0 +1,91 @@
+{
+  "checks": {
+    "amplitudes_equal": true,
+    "coefficient_universe_hash_equal": true,
+    "feature_names_equal": true,
+    "replay_peak_below_6_gib": true,
+    "same_dtype": true,
+    "same_gpu": true,
+    "shell_0030_continuous_tolerance": true,
+    "shell_0030_structural": true,
+    "shell_0100_continuous_tolerance": true,
+    "shell_0100_structural": true,
+    "shell_0300_continuous_tolerance": true,
+    "shell_0300_structural": true,
+    "shell_1000_continuous_tolerance": true,
+    "shell_1000_structural": true,
+    "shell_2500_continuous_tolerance": false,
+    "shell_2500_structural": false,
+    "totals_equal": false
+  },
+  "continuous_scaled_tolerance": 2e-10,
+  "maximum_continuous_scaled_error": 243.32881808221282,
+  "primary_peak_memory_bytes": 20687226368,
+  "primary_result_sha256": "4a33a7a5e25aea850301fbc45988d2bb01907d6f9f84c7001307ade61a6b241a",
+  "replay_peak_memory_bytes": 5183212032,
+  "replay_result_sha256": "846abe7116deff9ba3afc2c66fb3a6c4e28ffb20989bf83f13ef06c77c2c73e2",
+  "schema": "udt-p01-resource-replay-verification-1.0",
+  "shells": [
+    {
+      "coefficients_exact": true,
+      "continuous_max_scaled_error": 0.0,
+      "discrete_features_exact": true,
+      "feature_names_exact": true,
+      "finite_class_exact": true,
+      "infinite_sign_exact": true,
+      "primary_sha256": "1e1db615677d6bdba04000a10b5242b07007e11fb5fae7115dde3b068b617b1e",
+      "replay_sha256": "1e1db615677d6bdba04000a10b5242b07007e11fb5fae7115dde3b068b617b1e",
+      "shape_exact": true,
+      "shell_tag": "0030"
+    },
+    {
+      "coefficients_exact": true,
+      "continuous_max_scaled_error": 0.0,
+      "discrete_features_exact": true,
+      "feature_names_exact": true,
+      "finite_class_exact": true,
+      "infinite_sign_exact": true,
+      "primary_sha256": "240236f4ffbeae36afe36a1f0b10b5baa5ea145b9b806c9052313fc7d9302b2b",
+      "replay_sha256": "240236f4ffbeae36afe36a1f0b10b5baa5ea145b9b806c9052313fc7d9302b2b",
+      "shape_exact": true,
+      "shell_tag": "0100"
+    },
+    {
+      "coefficients_exact": true,
+      "continuous_max_scaled_error": 0.0,
+      "discrete_features_exact": true,
+      "feature_names_exact": true,
+      "finite_class_exact": true,
+      "infinite_sign_exact": true,
+      "primary_sha256": "ae378b39385f28a63f3af3a5191d30773162f86c660d81bdc0656582040f5b79",
+      "replay_sha256": "ae378b39385f28a63f3af3a5191d30773162f86c660d81bdc0656582040f5b79",
+      "shape_exact": true,
+      "shell_tag": "0300"
+    },
+    {
+      "coefficients_exact": true,
+      "continuous_max_scaled_error": 0.0,
+      "discrete_features_exact": true,
+      "feature_names_exact": true,
+      "finite_class_exact": true,
+      "infinite_sign_exact": true,
+      "primary_sha256": "2cc1e06d702474ad2030ad8f6e59222d45ad1cfe803bddeb2d6b7bef4bd3268c",
+      "replay_sha256": "2cc1e06d702474ad2030ad8f6e59222d45ad1cfe803bddeb2d6b7bef4bd3268c",
+      "shape_exact": true,
+      "shell_tag": "1000"
+    },
+    {
+      "coefficients_exact": true,
+      "continuous_max_scaled_error": 243.32881808221282,
+      "discrete_features_exact": false,
+      "feature_names_exact": true,
+      "finite_class_exact": false,
+      "infinite_sign_exact": false,
+      "primary_sha256": "29227e99f0b65a667af1819cd28b7ea176ffea221494045c114c97ae1136eb1a",
+      "replay_sha256": "acffad05b53f7b26c0f87ba49b993135d9c5e1589d1667d90210e83bc9398a8a",
+      "shape_exact": true,
+      "shell_tag": "2500"
+    }
+  ],
+  "status": "FAIL"
+}
