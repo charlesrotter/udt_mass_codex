@@ -75,7 +75,7 @@ or dynamics.
 
 ## Evidence gates
 
-1. one-row coverage of the frozen branch and completion universes;
+1. one-row coverage of the corrected 16-branch and twelve-completion frozen universes;
 2. exact projector, quotient, finite-metric, connection, and holonomy algebra;
 3. explicit separation of supplied global coframe from metric-intrinsic data;
 4. exact treatment of isotropic/unmixed, anisotropic, mixed, degenerate, and topology-open strata;

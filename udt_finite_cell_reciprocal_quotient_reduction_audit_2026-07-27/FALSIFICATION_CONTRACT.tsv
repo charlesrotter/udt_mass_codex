@@ -1,5 +1,5 @@
 gate_id	claim_or_risk	pass_condition	failure_condition	maximum_status
-G01	branch_completeness	All 15 frozen branch rows and 12 completion rows classified exactly once	Developed S3 witnesses replace the full universe	FAIL_AUDIT
+G01	branch_completeness	All 16 corrected frozen branch rows and 12 completion rows classified exactly once	Developed S3 witnesses replace the full universe	FAIL_AUDIT
 G02	quotient_semantics	Every quotient result remains conditional on P04	Pointwise algebra is promoted to founding physical semantics	FAIL_AUDIT
 G03	screen_vs_flag	Basis-free screen projector is separated from orientation line basis and rotation law	A global coframe is called a metric-selected flag	FAIL_AUDIT
 G04	finite_metric_descent	Parent w fiber is tested using actual branch C and S strata	First-response equality alone is called finite equality	VERIFIED_SCOPED
