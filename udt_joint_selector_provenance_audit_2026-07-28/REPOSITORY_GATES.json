@@ -86,6 +86,13 @@
   "schema": "udt-joint-selector-repository-gates-1.0",
   "scope_base": "5372ae9",
   "scope_paths": [
+    "AGENTS.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "README.md",
+    "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
     "udt_joint_selector_provenance_audit_2026-07-28/ALGEBRA_RESULTS.json",
     "udt_joint_selector_provenance_audit_2026-07-28/ALGEBRA_STDERR.txt",
     "udt_joint_selector_provenance_audit_2026-07-28/ALGEBRA_STDOUT.txt",
@@ -109,6 +116,7 @@
     "udt_joint_selector_provenance_audit_2026-07-28/PREMISE_AUDIT.tsv",
     "udt_joint_selector_provenance_audit_2026-07-28/PROPOSITION_CENSUS.tsv",
     "udt_joint_selector_provenance_audit_2026-07-28/README.md",
+    "udt_joint_selector_provenance_audit_2026-07-28/REPOSITORY_GATES.json",
     "udt_joint_selector_provenance_audit_2026-07-28/REPOSITORY_SNAPSHOT.json",
     "udt_joint_selector_provenance_audit_2026-07-28/RUN_ENVIRONMENT.json",
     "udt_joint_selector_provenance_audit_2026-07-28/RUN_LOG.md",
@@ -130,8 +138,8 @@
     "failed": 0,
     "passed": 70,
     "result": "PASS",
-    "stdout_sha256": "9ac74c50a54223731fb1fbb406bfb597cc013ca3441b5c0c9722f69ed3cdd4fe",
+    "stdout_sha256": "345b41275166d93b468b33b3f18dc421f68c70865b0279874f55fcc408a73441",
     "xfailed": 1
   },
-  "verified_head": "dd96cb858f20337b6f4fb50b09d81921b2ad489b"
+  "verified_head": "fa9cc090888805490570526b66aaaebab429b3e8"
 }

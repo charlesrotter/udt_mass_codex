@@ -10,8 +10,9 @@
 then the marked current block in `HANDOFF.md`, then `CURRENT_SCIENTIFIC_PREMISES.md` and
 `CURRENT_SCIENTIFIC_PREMISES.tsv`, then the top/current overlay in
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md`
-and its status/selector/counterfamily/P03-correction/lay/next-step records. Read P03, P02/P01,
+`udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md`
+and its status/candidate/gate/dependency/lay/next-step records. Read the parent global-definition
+package, then P03, P02/P01,
 bootstrap, intrinsic-solder, and observer-pair packages only when their exact premises become
 load-bearing.
 Expand only to the exact cited evidence made load-bearing by the active task.
@@ -24,18 +25,20 @@ angular/mixing extension and variation domain remain open. Strong local CSN is
 See the DOF package's `CORRECTION_LAYER.md`. If a lower-priority result disagrees with the current
 premise registry or its cited source, stop.
 
-Current honest status: the 99-source audit derives the reciprocal pair and covariant response
-architecture. The sharp registered full-frame lift retains one real `lambda`. A complete
-nonultrastatic reciprocal `R x S3` family proves clock/angular coexistence but is off shell and
-nonselecting. Physical comparison/signed depth, transverse/mixing response, and global
-completion/descent/interfaces are three independent open kinematic joints. Realized equations and
-absolute scale are separate downstream gaps.
+Current honest status: zero of 16 registered constructions passes all 15 joint-operation gates in
+the 3,044-source/80-group fixed-base audit. The strongest partial chain is exact: a stationary
+intrinsic Killing norm gives bounded endpoint depth, and metric coframe transport on a supplied
+path forms a reducible hybrid comparison with it. The hybrid does not select physical path
+semantics, arbitrary-observer depth, an irreducible full-frame reciprocal lift, `lambda`/mixing,
+global completion, or an on-shell branch. The three kinematic gaps remain; realized equations and
+absolute scale remain downstream.
 
 P03 is retained only inside its frozen source scope; its repository-wide ultrastatic-only statement
 is superseded by the preexisting family it omitted. P03-B remains stopped. Overall status is
-`OPEN_MULTIPLE_INDEPENDENT_SELECTOR_GAPS`. A joint-selector provenance audit requires separate
-authorization. No imported completion, action, density, matter/time-live solve, canonization,
-artifact move, repository reorganization, or GPU work is authorized.
+`NO_REGISTERED_JOINT_OPERATION_THREE_GAPS_RETAINED`. A metric-natural selector existence/no-go
+audit requires separate authorization. No imported completion, ODE/PDE, action, density,
+matter/time-live solve, canonization, artifact move, repository reorganization, or GPU work is
+authorized.
 
 ## DURABLE PRIOR MACRO FRONTIER (2026-07-09 simple metric + WR-L canon)
 

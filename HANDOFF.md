@@ -7,43 +7,50 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-28).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-28 — global coframe-definition audit complete)
+## CURRENT (2026-07-28 — joint-selector provenance audit complete)
 
 After `LIVE.md`, read `CURRENT_SCIENTIFIC_PREMISES.md` and its TSV, then the top overlay in
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
-`MINIMAL_SELECTOR_SET.tsv`, `COUNTERFAMILY_ATLAS.tsv`, `P03_CORRECTION_LAYER.md`, `LAY_REPORT.md`,
-and `NEXT_STEP.md`.
+`udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md`, `STATUS_LEDGER.tsv`,
+`JOINT_CANDIDATE_LEDGER.tsv`, `JOINT_GATE_MATRIX.tsv`, `PARTIAL_DEPENDENCY_GRAPH.tsv`,
+`LAY_REPORT.md`, and `NEXT_STEP.md`.
 
 Current ruling:
 
-- P01/P02 remain bounded local off-shell evidence: releasing all allowed Hessians constructs all
-  12,594 repeated-tidal targets, so local curvature existence is compatible but nonselecting;
-- the 99-source audit derives the founded reciprocal pair and covariant response architecture;
+- the fixed repository scan covers 9,926 tracked paths, 3,044 frozen candidate files, and 80
+  qualifying source groups; every group was adjudicated and zero of 16 candidate constructions
+  passes all 15 joint-operation obligations;
+- the founded reciprocal pair and covariant response architecture remain derived;
 - the sharp registered pointwise lift is the one-modulus family
   `X_lambda=diag(-1,1,lambda,lambda)`; no current principle chooses `lambda`;
 - a preexisting complete globally regular nonultrastatic reciprocal `R x S3` configuration family
   proves the clock and angular sectors can coexist, for every smooth admissible `phi` and real
   `lambda`; it is off shell and not a selected universe;
-- three independent kinematic joints remain open: physical comparison/signed depth,
-  transverse/mixing response, and global completion/descent/interfaces;
+- the strongest positive partial join is exact on its bounded domain: an intrinsic timelike
+  Killing-line norm gives stationary signed depth, and metric coframe transport on a supplied path
+  combines with it as a reducible hybrid comparison;
+- the hybrid does not select physical path/endpoint semantics, arbitrary-observer depth, one
+  reciprocal full-frame response, `lambda`/mixing, global completion, or an on-shell branch;
+- the three kinematic layers therefore remain open as a joint operation: physical
+  comparison/depth, complete reciprocal lift, and global completion/interfaces;
 - realized equations and absolute-scale closure remain separate downstream gaps;
 - P03 remains exact only inside its 57-source freeze. Its repository-wide “only ultrastatic
   controls” statement is superseded because it omitted the preexisting nonultrastatic package;
   its detailed-P02-ledger defect and P03-B stop remain valid.
 
-The audit is complete with `OPEN_MULTIPLE_INDEPENDENT_SELECTOR_GAPS`. The next defensible question
-would require separate authorization and preregistration: does the founding metric contain one
-whole-solution relational operation that closes all three kinematic joints together? Existing
-composition and holonomy results are controls, not that law.
+The audit is complete with `NO_REGISTERED_JOINT_OPERATION_THREE_GAPS_RETAINED`. The next defensible
+question requires separate authorization and preregistration: can a metric-natural universal joint
+selector exist on the full admitted class, or do symmetry controls prove that a restricted branch
+or additional relational datum is necessary? The stationary hybrid is the positive control; it is
+not itself the missing law.
 
 No P03-B, action, source, carrier, density insertion, bootstrap equation, boundary functional,
 physical time evolution, canonization, repository reorganization, or GPU work is authorized.
 
-Evidence: 99 source hashes, 204 premise/obligation rows, seven countercontrols, exact symbolic
-coframe algebra, P03 ancestry/omission proof, and 27/27 catches replay. The package manifest covers
-35 files. Tests pass 70/1 xfailed; all six frozen packages, current navigation, and the preserved
-55-path dirty checkout remain unchanged. Grade `VERIFIED-WITH-CAVEATS`; verification is
+Evidence: 3,044 source hashes, 80 group rulings, 16-by-15 candidate/gate checks, six
+counterfamilies, 13 exact symbolic checks, and 30/30 catches replay. The package manifest covers 43
+hashed files. Tests pass 70/1 xfailed; all six frozen packages, current navigation, and the
+preserved 55-path dirty checkout remain unchanged. Grade `VERIFIED-WITH-CAVEATS`; verification is
 separate-code but same-session.
 
 <!-- STARTUP_CURRENT_END -->

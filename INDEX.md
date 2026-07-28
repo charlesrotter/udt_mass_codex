@@ -17,27 +17,27 @@ bootstrap, Maxwell-like, `X_max`, Hopfion, source, boundary, and mass scopes. Co
 older files do not override the registry's cited controlling evidence.
 
 **➤ CURRENT SCIENTIFIC FRONTIER:**
-`udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md`, then its
-`STATUS_LEDGER.tsv`, `MINIMAL_SELECTOR_SET.tsv`, `COUNTERFAMILY_ATLAS.tsv`,
-`P03_CORRECTION_LAYER.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+`udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `JOINT_CANDIDATE_LEDGER.tsv`, `JOINT_GATE_MATRIX.tsv`,
+`PARTIAL_DEPENDENCY_GRAPH.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
 
-The 99-source audit derives the founded reciprocal pair and covariant response architecture. The
-sharp ordered-pair/self-adjoint/screen-covariant lift is the one-modulus family
-`X_lambda=diag(-1,1,lambda,lambda)`. A preexisting complete nonultrastatic reciprocal `R x S3`
-family proves that nontrivial clock and angular geometry can coexist, but all smooth admissible
-`phi` and real `lambda` remain off-shell configurations rather than a selected universe.
+The fixed-base provenance audit rehashes 3,044 candidate sources across 80 qualifying groups and
+tests 16 registered constructions against 15 typed obligations. Zero supplies one operation that
+jointly selects physical comparison/depth, a finite full-frame reciprocal lift, and global
+completion/interfaces.
 
-Three independent kinematic joints remain open: physical comparison and signed depth;
-transverse/mixing response; and global completion/descent/interfaces. Native realized equations and
-absolute scale are distinct downstream gaps. P03 remains exact inside its frozen 57-source scope,
-but its repository-wide “only ultrastatic controls” claim is superseded because it omitted that
-preexisting family. Its detailed-P02-ledger defect and P03-B stop remain valid.
+A real partial scaffold is exact: on a supplied complete stationary branch with an intrinsic
+timelike Killing line, the metric derives endpoint signed depth; on a supplied path it gives
+complete coframe transport; their reducible hybrid comparison composes. It does not select
+physical path semantics, arbitrary-observer depth, an irreducible reciprocal full-frame response,
+`lambda`/mixing, global completion, or an on-shell branch. The complete `R x S3`, arbitrary-depth,
+twist, and completion counterfamilies preserve the three-gap decomposition.
 
-Status is `OPEN_MULTIPLE_INDEPENDENT_SELECTOR_GAPS`, verified with same-session caveats by exact
-independent algebra and 27/27 catches. A future joint-selector provenance audit would require new
-authorization and preregistration. No P03-B, action, source, carrier, density/bootstrap solve,
-boundary functional, physical time evolution, canonization, reorganization, or GPU work is
-authorized.
+Status is `NO_REGISTERED_JOINT_OPERATION_THREE_GAPS_RETAINED`, verified with same-session caveats by
+3,044 source rehashes, 13 exact algebra checks, and 30/30 catches. A future metric-natural selector
+existence/no-go audit requires new authorization and preregistration. No P03-B, ODE/PDE, action,
+source, carrier, density/bootstrap solve, boundary functional, physical time evolution,
+canonization, reorganization, or GPU work is authorized.
 
 **➤ PARENT JULY 24 BOOTSTRAP FRONTIER:**
 `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`. Its exact conditional

@@ -33,16 +33,17 @@ after the user's actual task makes them load-bearing.
    source-precedence index for high-risk foundational terms. It is not canon and cannot overrule
    `LIVE.md`; any disagreement between it, `LIVE.md`, and its cited source is a mandatory stop.
 4. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay.
-5. `udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md`, then its
-   `STATUS_LEDGER.tsv`, `MINIMAL_SELECTOR_SET.tsv`, `COUNTERFAMILY_ATLAS.tsv`,
-   `P03_CORRECTION_LAYER.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`. This is the current bounded
-   result: founded reciprocal architecture and a complete nonultrastatic configuration existence
-   class are derived, while three independent kinematic selector gaps remain. P03-B was not
-   launched.
-6. `udt_global_coframe_compatibility_p03_2026-07-27/AUDIT_REPORT.md` only when its frozen scoped
-   result is load-bearing; apply the July 28 correction layer. Read P02 only when its parent local
-   atlas or detailed ledgers are load-bearing; use P01 only when the generic `(t,x)`/transport scope
-   is then required.
+5. `udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `JOINT_CANDIDATE_LEDGER.tsv`, `JOINT_GATE_MATRIX.tsv`,
+   `PARTIAL_DEPENDENCY_GRAPH.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`. This is the current bounded
+   result: no registered operation jointly closes physical depth, complete reciprocal lift, and
+   global completion; a stationary metric-depth plus supplied-path transport hybrid is the
+   strongest exact partial construction. The proposed metric-natural existence/no-go follow-on is
+   not authorized automatically.
+6. `udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md` only when its parent
+   three-gap decomposition or complete nonultrastatic counterfamily becomes load-bearing. Read P03
+   only when its frozen scoped result is load-bearing and apply the July 28 correction layer. Read
+   P02/P01 only when their exact local-atlas or transport scope is required.
 7. `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `BOOTSTRAP_ROUTE_LEDGER.tsv`, `EQUATION_FAMILY_GATE_MATRIX.tsv`,
    `COMPLETION_BOOTSTRAP_ATLAS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and
@@ -93,16 +94,16 @@ Then give Charles a short orientation report: actual HEAD and dirt, the current 
 premise stamps, the open gate, and the proposed bounded next action. Do not mutate files or launch a
 long solve until that orientation is complete.
 
-The bootstrap/stable-matter interpretation remains a working hypothesis. The 99-source native
-global coframe-definition audit derives the founded reciprocal pair and covariant response
-architecture and recovers a complete nonultrastatic reciprocal configuration family already on
-disk. That family proves clock/angular coexistence but remains off shell and contains arbitrary
-admissible `phi` and real `lambda`. Physical comparison/signed depth, transverse/mixing response,
-and global completion/descent/interfaces are three independent open kinematic joints; realized
-equations and scale closure remain downstream. P03's frozen counts remain scoped evidence, but its
-repository-wide ultrastatic-only statement is superseded by the omitted preexisting family. P03-B
-was not launched and is not authorized. Do not turn this result into a chosen `lambda`, profile,
-completion, imported action, density sweep, matter/time-live solve, or GPU run.
+The bootstrap/stable-matter interpretation remains a working hypothesis. The fixed-base
+joint-selector provenance audit finds zero complete joint operations among 16 registered
+constructions. It also preserves a real positive scaffold: on a supplied stationary branch with an
+intrinsic timelike Killing line, the metric derives bounded endpoint depth; on a supplied path,
+metric coframe transport combines with it as an exact reducible hybrid. This does not select
+physical path semantics, arbitrary-observer depth, a single full reciprocal lift, `lambda`/mixing,
+global completion, or a realized branch. The three kinematic gaps and downstream equations/scale
+closure remain open. P03-B was not launched and is not authorized. Do not turn the hybrid into a
+complete physical law or use it to choose a profile, completion, action, density sweep,
+matter/time-live solve, or GPU run.
 
 The prior observer-pair chain derives the abstract ordered reciprocal operator with founding-premise
 stamps and narrows its global input to an observer-indexed bilocal depth type, conditional on an open

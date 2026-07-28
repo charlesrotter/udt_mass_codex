@@ -8,19 +8,19 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 (and older `archive/LIVE_*.md`). `HANDOFF.md` is lean; older session detail is in `HANDOFF_ARCHIVE.md`.
 **If anything disagrees with this file's topmost CURRENT STATE block, that block wins.**
 
-## ============ CURRENT STATE (2026-07-28 — NATIVE GLOBAL COFRAME-DEFINITION AUDIT COMPLETE. THE FOUNDED RECIPROCAL PAIR AND COVARIANT RESPONSE ARCHITECTURE ARE DERIVED, AND A PREEXISTING COMPLETE NONULTRASTATIC R×S3 RECIPROCAL CONFIGURATION FAMILY PROVES THAT CLOCK AND ANGULAR STRUCTURE CAN COEXIST. IT DOES NOT SELECT THE PHYSICAL DEPTH, THE TRANSVERSE/MIXING RESPONSE, OR THE GLOBAL JOIN: THREE INDEPENDENT KINEMATIC SELECTOR GAPS REMAIN. REALIZED EQUATIONS AND ABSOLUTE-SCALE CLOSURE ARE SEPARATE DOWNSTREAM GAPS. P03'S 57-SOURCE RESULT IS RETAINED ONLY INSIDE ITS FREEZE; ITS REPOSITORY-WIDE “ONLY ULTRASTATIC CONTROLS” CLAIM IS SUPERSEDED BECAUSE IT OMITTED THE PREEXISTING NONULTRASTATIC PACKAGE. STATUS OPEN_MULTIPLE_INDEPENDENT_SELECTOR_GAPS; VERIFIED-WITH-CAVEATS. NO JOINT-SELECTOR FOLLOW-ON, P03-B, GPU, ACTION, SOURCE, CARRIER, DENSITY, BOOTSTRAP EQUATION, BOUNDARY FUNCTIONAL, PHYSICAL TIME EVOLUTION, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
+## ============ CURRENT STATE (2026-07-28 — JOINT-SELECTOR PROVENANCE AUDIT COMPLETE. THE FIXED REPOSITORY CONTAINS NO REGISTERED OPERATION THAT JOINTLY DERIVES PHYSICAL COMPARISON/SIGNED DEPTH, THE FINITE FULL-FRAME RECIPROCAL RESPONSE, AND GLOBAL COMPLETION/INTERFACE DATA. A REAL PARTIAL JOIN WAS SHARPENED: ON A SUPPLIED COMPLETE STATIONARY BRANCH WITH AN INTRINSIC TIMELIKE KILLING LINE, THE METRIC DERIVES ENDPOINT CLOCK DEPTH; WITH A SUPPLIED PATH, METRIC COFRAME TRANSPORT COMBINES WITH IT AS AN EXACT REDUCIBLE HYBRID COMPARISON. IT DOES NOT SELECT PHYSICAL PATH SEMANTICS, LAMBDA/MIXING, GLOBAL COMPLETION, OR AN ON-SHELL BRANCH. STATUS NO_REGISTERED_JOINT_OPERATION_THREE_GAPS_RETAINED; VERIFIED-WITH-CAVEATS. NEXT BOUNDED LEAD IS A METRIC-NATURAL SELECTOR EXISTENCE/NO-GO AUDIT. NO FOLLOW-ON, P03-B, GPU, ODE/PDE, TIME-LIVE, ACTION, SOURCE, CARRIER, DENSITY, BOOTSTRAP EQUATION, BOUNDARY FUNCTIONAL, PHYSICS PREDICTION, CANONIZATION, OR REORGANIZATION IS AUTHORIZED.) ============
 
 **READ NEXT, IN ORDER:**
 
 1. `HANDOFF.md` current marked block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 3. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` top/current overlay.
-4. `udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md`, then its
-   `STATUS_LEDGER.tsv`, `MINIMAL_SELECTOR_SET.tsv`, `COUNTERFAMILY_ATLAS.tsv`,
-   `P03_CORRECTION_LAYER.md`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
-5. `udt_global_coframe_compatibility_p03_2026-07-27/AUDIT_REPORT.md` only for its now-scoped frozen
-   57-source result; apply the July 28 correction layer above.
-6. P02/P01 and other exact source evidence only when the active task makes it load-bearing.
+4. `udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md`, then its
+   `STATUS_LEDGER.tsv`, `JOINT_CANDIDATE_LEDGER.tsv`, `JOINT_GATE_MATRIX.tsv`,
+   `PARTIAL_DEPENDENCY_GRAPH.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+5. `udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md` only when the parent
+   three-gap decomposition or complete nonultrastatic counterfamily is load-bearing.
+6. P03/P02/P01 and other exact source evidence only when the active task makes it load-bearing.
 
 **CURRENT HONEST CLAIM:**
 
@@ -30,15 +30,22 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 - P01/P02 remain `OBSERVED` bounded local off-shell atlases: all 12,594 registered repeated-tidal
   targets construct after releasing allowed Hessians, so local existence is compatible but
   nonselecting;
-- the July 28 audit freezes 99 sources and maps 17 active premise rows against 12 construction
-  obligations; exact independent algebra and 27/27 catches pass;
+- the joint-selector audit freezes a fixed 9,926-path repository tree, rehashes 3,044 candidate
+  sources in 80 qualifying source groups, and tests 16 coherent constructions against 15 typed
+  obligations; zero complete joint operations survive;
 - the ordered physical-pair, metric-self-adjoint, screen-rotation-covariant lift is the explicit
   family `X_lambda=diag(-1,1,lambda,lambda)`; covariance and composition do not choose `lambda`;
 - a complete globally regular nonultrastatic reciprocal configuration family exists on the stated
   `R x S3` domain for every smooth finite `phi` and real `lambda`, subject to its explicit
   spacelike-slice inequality; it is an off-shell existence class, not a selected UDT universe;
-- physical observer/event/path assignment and metric-native signed depth, transverse/mixing
-  response, and actual global completion/descent/interfaces are three independent `OPEN` joints;
+- on a complete stationary branch with an intrinsic timelike Killing line, the metric-native norm
+  ratio derives a bounded endpoint signed depth; Levi-Civita transport carries the coframe on a
+  supplied path, and their reducible hybrid comparison composes exactly;
+- that hybrid remains `AVAILABLE_CONDITIONAL_EXACT`, not a selected physical comparison: arbitrary
+  observer/nonstationary depth, physical path semantics, a single reciprocal full-frame lift,
+  transverse/mixing response, and global completion/interfaces remain `OPEN`;
+- the physical comparison/depth, complete reciprocal lift, and global completion layers remain
+  independent because all six frozen counterfamilies retain at least one free choice;
 - native realized equations or whole-solution closure and absolute scale placement are separate
   downstream gaps; `c_E` is explicitly placed, while `c_E` and `G_obs` alone select neither
   dimensionless shape nor an absolute length;
@@ -52,24 +59,26 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
   scale, and time-live persistence retain their prior exact `OPEN`/`CONDITIONAL`/`WORKING` stamps.
 
 **NEXT SCIENTIFIC GATE — NOT AUTOMATICALLY AUTHORIZED:** a separately preregistered CPU-only
-joint-selector provenance audit asking whether the two founding postulates and the complete metric
-already contain one typed whole-solution operation that jointly fixes physical signed depth,
-transverse/mixing response, and global descent. Test any candidate against the exact `lambda`,
-depth-cocycle, twist-on/off, and completion counterfamilies. If no operation is sourced, retain the
-three-joint decomposition; do not invent one.
+metric-natural joint-selector possibility/no-go audit. Determine whether observer covariance and
+the symmetry of the full admitted complete-metric/coframe class permit any natural construction to
+select physical arrows/depth and a finite reciprocal full-frame lift, or whether a universal
+selector is impossible without a restricted branch or one additional relational datum. Use the
+stationary hybrid as the positive control and symmetry-enhanced metrics plus the real-`lambda`
+family as no-go controls. Do not invent the missing datum.
 
-**EVIDENCE:** the July 28 package replays all 99 frozen source hashes, the full 204-row
-premise/obligation matrix, seven countercontrols, exact full-frame and complete-coframe algebra, the
-P03 ancestry/omission proof, and all 27 fail-closed catches. Package manifest covers 35 files. Tests
-remain 70 passed/1 xfailed; six frozen packages (127 entries/133 paths), 1,114 current paths, 101
-frontier targets, and the original dirty checkout's 55 metadata-only paths remain unchanged. Grade
+**EVIDENCE:** 3,044/3,044 fixed-base source blobs rehashed; 80/80 qualifying groups adjudicated;
+16 candidates by 15 obligations; six counterfamilies undiscriminated; 13/13 exact algebra checks;
+30/30 fail-closed catches. Package manifest covers 43 hashed files. Tests remain 70 passed/1
+xfailed; six frozen packages (127 entries/133 paths), 1,114 current paths, 101 frontier targets, and
+the original dirty checkout's 55 metadata-only paths remain unchanged. Grade
 `VERIFIED-WITH-CAVEATS` because verification is independently implemented but same-session, not a
-fresh external-model review.
+fresh adversarial context.
 
-**AUTHORITY BOUNDARY:** the global-definition audit is complete. Its next-step lead is not
-authorized. P03-B remains stopped. Do not choose `lambda`, depth, profile, observer semantics,
+**AUTHORITY BOUNDARY:** the joint-selector provenance audit is complete. Its no-go/existence lead is
+not authorized. P03-B remains stopped. Do not choose `lambda`, depth, path semantics, profile,
 completion, or equations; import a field equation; adopt a carrier/action; insert density; run
-matter/time-live physics; alter `CANON.md`; resume repository reorganization; or launch GPU work.
+ODE/PDE, matter, or time-live physics; alter `CANON.md`; resume repository reorganization; or launch
+GPU work.
 
 <!-- STARTUP_CURRENT_END -->
 

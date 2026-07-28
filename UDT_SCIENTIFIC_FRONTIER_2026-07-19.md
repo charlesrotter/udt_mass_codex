@@ -4,7 +4,47 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
-## July 28 native global coframe-definition overlay — current authority
+## July 28 joint-selector provenance overlay — current authority
+
+Read `udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md`, then its
+`STATUS_LEDGER.tsv`, `JOINT_CANDIDATE_LEDGER.tsv`, `JOINT_GATE_MATRIX.tsv`,
+`PARTIAL_DEPENDENCY_GRAPH.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+
+The preregistered scan freezes a 9,926-path tree, 3,044 candidate source blobs, and 80 coherent
+source groups hitting every founding/depth/lift/global/joint discovery bucket. All source hashes
+replay, every group is adjudicated, and zero of 16 registered constructions passes all 15 typed
+joint-operation obligations.
+
+The audit nevertheless sharpens a positive internal chain. On a supplied complete stationary
+branch with an intrinsic timelike Killing line `K`,
+
+```text
+delta_K(p,q)=log[sqrt(-g(K,K))_p/sqrt(-g(K,K))_q]
+```
+
+is a metric-native endpoint signed depth for stationary observers. A complete metric also supplies
+Levi-Civita coframe transport `U_gamma` on a supplied path. Their direct product
+`(D(delta_K),U_gamma)` is an exact reducible hybrid comparison on that common domain.
+
+This hybrid does not select stationary geometry as on shell, arbitrary-observer or nonstationary
+depth, physical path/endpoint semantics, one irreducible four-dimensional reciprocal lift,
+`lambda` or mixing response, a global section, completion, descent, or causal-interface law. The
+complete `R x S3` family still admits arbitrary admissible `phi` and real `lambda`; arbitrary
+endpoint cocycles still compose; twist-off retains clock depth while losing the ruler; and several
+global completions remain. All six counterfamilies therefore retain an undiscriminated choice.
+
+Status: `NO_REGISTERED_JOINT_OPERATION_THREE_GAPS_RETAINED`; `VERIFIED-WITH-CAVEATS` by a
+non-importing same-session verifier, 3,044 source rehashes, 13 exact algebra checks, and 30/30
+catch-proofs.
+
+The next bounded lead is a separately preregistered metric-natural selector existence/no-go audit.
+It should test whether covariance and symmetry forbid a unique joint construction on the full
+admitted metric/coframe class, using the stationary hybrid as a positive partial control and
+symmetry-enhanced/real-`lambda` families as no-go controls. It is not automatically authorized.
+No P03-B, ODE/PDE, GPU, density/bootstrap equation, action, source, carrier, boundary functional,
+time-live solve, physics prediction, canonization, or repository reorganization is authorized.
+
+## July 28 native global coframe-definition overlay — parent authority
 
 Read `udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md`, then its
 `STATUS_LEDGER.tsv`, `MINIMAL_SELECTOR_SET.tsv`, `COUNTERFAMILY_ATLAS.tsv`,
