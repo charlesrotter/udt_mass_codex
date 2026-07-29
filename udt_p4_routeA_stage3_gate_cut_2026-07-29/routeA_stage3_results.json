@@ -1,0 +1,428 @@
+{
+  "package": "udt_p4_routeA_stage3_gate_cut_2026-07-29",
+  "stage": "Route A Stage 3 Slice 1 (TC1-TC5 computations; TC6 in SLICE2_SURFACE.md)",
+  "date": "2026-07-29",
+  "contract": "PREREGISTRATION.md (frozen before derivation)",
+  "n_checks": 52,
+  "n_passed": 52,
+  "all_passed": true,
+  "check_split": {
+    "n_substantive": 33,
+    "n_substantive_passed": 33,
+    "n_citation_guards": 19,
+    "n_citation_guards_passed": 19,
+    "citation_guard_names": [
+      "TC1_both_volumes_same_dlambda",
+      "TC1_no_empty_adjudicated_cell",
+      "TC1_weight_map_preserves_characters",
+      "TC2_LE_symbol_symmetry_restatement",
+      "TC2_counts_determined_type",
+      "TC2_kmod0_identity_is_row_dependency",
+      "TC2_resonance_census_required",
+      "TC3_NV_cell_no_forced_slots",
+      "TC3_corner_census_typed_only",
+      "TC3_mirror_canon_parity_instance",
+      "TC3_routeC_TC5_anchor_reproduced",
+      "TC3_slot_survival_table",
+      "TC3_wall_grade_availability_jet2",
+      "TC4_FS7_flag_carried",
+      "TC4_completion_cycles_need_data",
+      "TC4_torsion_period_vacuous",
+      "TC4_typing_table_assembled",
+      "TC5_known_object_rows_are_observations",
+      "TC5_ledger_coverage_counts"
+    ],
+    "note": "guards = bookkeeping/typing-table/citation checks, honestly labeled, never counted as zero-residual computations in a headline; A4 (verifier): TC4_torsion_period_vacuous, TC1_no_empty_adjudicated_cell, and TC2_kmod0_identity_is_row_dependency reclassified substantive -> guard (guard-grade computational content; load-bearing content = detail strings or verified Stage-2 citations)"
+  },
+  "amendments": {
+    "A1": "the anchored-log forcing quantifier corrected (F-S3-class; verifier counterexample V10b adopted zero-residual as A1_V10b_counterexample_LE_zero_lambda_slot, with the exact iff condition A1_anchored_log_iff_condition and the lambda-independent sub-case A1_lambda_independent_sector_forcing_real): the LE cell's lambda-slot is forced nonzero (log-carrying via a_F' p0) IFF d(WF R_a)/dlam != 0 for some field slot a \u2014 NOT 'whenever the field sector is nonzero'; restated at every occurrence (script details, this JSON, EXACT_DERIVATION 1.2.6, SLICE2_SURFACE echo, ledger H4 text)",
+    "A4": "check-split honesty: three guard-grade checks reclassified substantive -> guard (see check_split.note)"
+  },
+  "TC1_helmholtz_partition": {
+    "condition_system": {
+      "field_field": "(i) dR_a/du_b'' = dR_b/du_a'' [pairing-independent across the anchored family]; (ii) dR_a/du_b' + dR_b/du_a' = 2 Dx(dR_b/du_a'') + 2 a_F p1 dR_b/du_a''; (iii) recorded shift (see condition_iii_shift_sample_pf)",
+      "field_moduli_H4": "d(WF R_a)/dm_mu = E_a(WM R_mu); at lambda-dependent a_F the lambda-row carries the anchored-log term a_F' p0 WF R_a; A1: the lambda-slot is forced nonzero iff d(WF R_a)/dlam != 0 for some a",
+      "moduli_moduli_H5": "antisymmetrized d(WM R_mu)/dm_nu in im(Dx) (Euler-certificate criterion)",
+      "derivation": "conditions proven = Frechet self-adjointness (adjoint-comparison on generic components) + necessity on the generic EL image; sufficiency = banked bicomplex/Vainberg statement (Category-A, cited) instantiated on witnesses"
+    },
+    "condition_iii_shift_sample_pf": "-2*f1*p1*a_F(lam)*Derivative(Rf(p0, f0, h0, p1, f1, h1, p2, f2, h2, lam, k_mod, k10, c00, c01, c10, c11), f0, p2) - 2*f2*p1*a_F(lam)*Derivative(Rf(p0, f0, h0, p1, f1, h1, p2, f2, h2, lam, k_mod, k10, c00, c01, c10, c11), f1, p2) - 2*f3*p1*a_F(lam)*Derivative(Rf(p0, f0, h0, p1, f1, h1, p2, f2, h2, lam, k_mod, k10, c00, c01, c10, c11), f2, p2) - 2*h1*p1*a_F(lam)*Derivative(Rf(p0, f0, h0, p1, f1, h1, p2, f2, h2, lam, k_mod, k10, c00, c01, c10, c11), h0, p2) - 2*h2*p1*a_F(lam)*Derivative(Rf(p0, f0, h0, p1, f1, h1, p2, f2, h2, lam, k_mod, k10, c00, c01, c10, c11), h1, p2) - 2*h3*p1*a_F(lam)*Derivative(Rf(p0, f0, h0, p1, f1, h1, p2, f2, h2, lam, k_mod, k10, c00, c01, c10, c11), h2, p2) - p1**2*a_F(lam)**2*Derivative(Rf(p0, f0, h0, p1, f1, h1, p2, f2, h2, lam, k_mod, k10, c00, c01, c10, c11), p2) - 2*p1**2*a_F(lam)*Derivative(Rf(p0, f0, h0, p1, f1, h1, p2, f2, h2, lam, k_mod, k10, c00, c01, c10, c11), p0, p2) - 2*p1*p2*a_F(lam)*Derivative(Rf(p0, f0, h0, p1, f1, h1, p2, f2, h2, lam, k_mod, k10, c00, c01, c10, c11), p1, p2) - 2*p1*p3*a_F(lam)*Derivative(Rf(p0, f0, h0, p1, f1, h1, p2, f2, h2, lam, k_mod, k10, c00, c01, c10, c11), (p2, 2)) + p1*a_F(lam)*Derivative(Rf(p0, f0, h0, p1, f1, h1, p2, f2, h2, lam, k_mod, k10, c00, c01, c10, c11), p1) - p2*a_F(lam)*Derivative(Rf(p0, f0, h0, p1, f1, h1, p2, f2, h2, lam, k_mod, k10, c00, c01, c10, c11), p2) - Rf(p0, f0, h0, p1, f1, h1, p2, f2, h2, lam, k_mod, k10, c00, c01, c10, c11)*a_F(lam)",
+    "pairing_dependence_map": [
+      "condition (i) identical across all anchored-weight branches (scope: enumerated family)",
+      "conditions (ii)/(iii)/H4/H5 shift by exact a_F/a_M terms; a_F = a_M = 0 recovers P2",
+      "multiplication by e^{-a_F p0} is a K4-inert parametrization-preserving bijection intertwining the P1-instance and P2 partitions: isomorphic-but-distinct cuts; cell membership of a FIXED tuple is pairing-relative (witnesses W1, W2, W3, omega)",
+      "T4 blindness loci recomputed: P1-4D = P2 at lam = 0; P1-triad = P2 at lam = -1/2",
+      "P3 bulk conditions = declared bulk choice's (interior defects wall-immune, computed); wall blocks add typed symmetry conditions (per declared N; Slice 2)",
+      "anchored-log structure (A1-AMENDED, verifier): under the two ENUMERATED lambda-dependent P1 volumes (both da_F/dlam = 2) the LE cell's lambda-slot is forced nonzero \u2014 with log(c_E/Q) dependence via the a_F' p0 term \u2014 IFF d(WF R_a)/dlam != 0 for some field slot a, in particular for every lambda-INDEPENDENT nonzero field sector; NOT 'whenever the field sector is nonzero' (in-family counterexample A1_V10b: R_a = e^{-2 lam p0}(p2,f2,h2), zero moduli slots, LE under P1-4D, zero lambda-slot, no log); computed observation, not an obstruction \u2014 the log is alphabet-legal at supplied c_E, anchored (supplied-c_E) exactly as Stage-2's (c_E/Q)^a alphabet entries are (no bare-phi readmission; Stage-2 anchoring rule cited); SCOPE: jet <= 2, stationary presentation, BASE branch"
+    ],
+    "stratum_layer": "conditions are stratum-uniform jet-level identities; the KMOD0 cut enters through the family (banked identity); Helmholtz cut and stratum cut TRANSVERSE at witness level (four corners populated, P2, on-stratum); RES-CNEQ0: CENSUS-REQUIRED",
+    "empty_cells": "NONE adjudicated-empty (OS2 not triggered); scope: witness-level, enumerated branches, GENERIC+KMOD0"
+  },
+  "TC2_integrability_typing": {
+    "GENERIC": "DETERMINED-TYPE (3+7 vs 3+7; no pointwise identity \u2014 recomputed; no Bianchi-type identity assumed); gate-1 on-shell = explicit integrability on ONE solution (R5) \u2014 Slice 2; F-S6: no existence claim",
+    "KMOD0": "CONSTRAINED-TYPE: one algebraic row dependency = the banked identity, matched by the one gauge direction L23 (balanced); algebraic NOT differential; gate 1 carries the orbit quotient",
+    "RES-CNEQ0": "CENSUS-REQUIRED (resonance rule); banked shear example cited",
+    "LE_cell_extra": "principal symbol symmetric (condition i) \u2014 pairing-independent across the anchored family"
+  },
+  "TC3_boundary_census": {
+    "N2": "theta slots = 0-jet traces; momenta = 1-jet functions; available at wall grade <= 2 -> LE-cell 2nd-order sub-families SELF-PAIRABLE-TYPED (parity-surviving slots)",
+    "N4": "slots = {0-jet, 1-jet} traces; momenta contain 3rd jets -> STRUCTURALLY UNABLE at jet <= 2; typed extension required (NOT-EXHAUSTED)",
+    "N3": "odd-order components: typed by the same enumeration; not run (stamp)",
+    "parity": "mirror wall kills u^{(j)} traces with (-1)^j eps = -1: parity-halving exhibited; parity assignments = SUPPLIED wall structure (canon instance eps_phi = -1 spatial mirror, THEORY-cite)",
+    "NV_cell": "NO-BULK-FORCED-SLOTS (source form); R_wall/R_corner admissibility + wall-equation closure = Slice 2",
+    "anchored_wall_rule": "p = q Q-power condition recomputed at the wall (V8 cited)",
+    "corners": "TYPED-ONLY (codim-2 absent from the one-parameter presentation; Route C TC5 examples cited)",
+    "counterterms": "NOT available (Category-B; banked) \u2014 differentiability must live inside the candidate"
+  },
+  "TC4_period_typing": {
+    "LE_cell": "K4 cycles VANISHING-BY-TORSION (closed forms; banked V8_clash2 recomputed); completion cycles NEEDS-COMPLETION-DATA (L4 open); J07/J11 loops: mixing CLASSIFICATION-REQUIRED [F-S7], non-mixing NO-TRANSITION-DATA-OBLIGATION",
+    "NV_cell": "holonomy of closure data CLASSIFICATION-REQUIRED [F-S7] + NEEDS-COMPLETION-DATA; torsion vacuity not auto-transferred (closed-form scope)",
+    "F_S7": "twisted-H1 machinery = MODEL-KNOWLEDGE; typing only; no banked G6 claim rests on it"
+  },
+  "TC5_joint_map": {
+    "composite_rows": 30,
+    "adjudicated_nonempty": 20,
+    "census_required": 10,
+    "outcome_class": "OS1",
+    "structure": "5 pairing branches x 3 strata x 2 G3-cells; per-row G1/G5/G6 types, witnesses, forks, Slice-2 duties; 4 known-object OBSERVATION rows"
+  },
+  "known_object_locations_observations": [
+    "omega-shape: LE(P2/P3-bulkP2/P1 with lambda-independent a_M); NV(P1 with a_M = 2 lam) \u2014 computed; stratum stamps banked (off RES-CNEQ0; on-stratum witness for KMOD0)",
+    "EH-form (stationary restriction): variational w.r.t. its metric-volume pairing BY CONSTRUCTION (Route C banked, GR-as-reference lane); restricted-system G3 status under enumerated pairings NOT adjudicated (R12 restrict-vs-vary caveat; Slice-2 cost)",
+    "Bach-form: typed jet-3/4 class; G5 EXTENSION-REQUIRED at jet <= 2 (derived); order-4 condition machinery anchored (2-field instance)",
+    "CM0-C-type members: the NV cell is their home class (banked; none instantiated)"
+  ],
+  "checks": [
+    {
+      "name": "S0_K4_and_X_recomputed",
+      "passed": true,
+      "detail": "K4 exact (proper orthochronous, closed) and the registered E02 footing X = [[H,0],[C,K]] (banked Route B / Stage-2 conventions recomputed)",
+      "kind": "substantive"
+    },
+    {
+      "name": "S0_generic_pointwise_stabilizer_trivial",
+      "passed": true,
+      "detail": "GENERIC-stratum scope stamp: at generic moduli the per-member tangency stabilizer is trivial (rank 6, empty nullspace) \u2014 NO pointwise Noether identity there (Stage-2 PW2_R7b recomputed as consistency; the k_mod = 0 and resonance strata carry identities)",
+      "kind": "substantive"
+    },
+    {
+      "name": "S0_kmod0_identity_recomputed",
+      "passed": true,
+      "detail": "on k_mod = 0 the tangency nullspace is 1-dim (screen rotation L23) and the exact pointwise R7(b) identity is -2 k10 r_tf + m00c10 + m01c11 - m10c00 - m11c01 = 0 (Stage-2 A1 recomputed as consistency; r_tr, r_sh, r_nl drop out)",
+      "kind": "substantive"
+    },
+    {
+      "name": "J0_anchored_relabeling",
+      "passed": true,
+      "detail": "log(c_E/Q) = p0 exactly (Q = c_E e^{-p0}): at supplied c_E the grade-0 argument p0 is an exact relabeling of the anchored Q (Category-A); the anchored-depth log is alphabet-legal (a smooth function of Q at supplied c_E) \u2014 J04 provenance carried, not altered",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_conditions_are_selfadjointness",
+      "passed": true,
+      "detail": "for the GENERAL jet<=2 component triple the adjoint-minus-operator coefficients are exactly -(Hi2, Hi1, Hi0): the recorded condition families ARE Frechet self-adjointness w.r.t. the reference measure (weights absorbed into Delta) \u2014 derived, not imported",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_helmholtz_necessity_generic_L",
+      "passed": true,
+      "detail": "Delta = E(L) for the GENERIC order-1 Lagrangian (all field/jet/moduli args) satisfies all three condition families identically: the conditions are NECESSARY for local exactness (sufficiency = the banked bicomplex/Vainberg statement, Category-A cited, witness-instantiated below)",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_weight_top_condition_invariant",
+      "passed": true,
+      "detail": "condition family (i) [principal-symbol symmetry dR_a/du_b'' = dR_b/du_a''] is IDENTICAL across the whole anchored-weight family e^{a_F(m) p0} \u2014 SCOPE STAMP: pairing-independence holds across the enumerated anchored bulk family (P1 instances/P2/P3-bulk) at jet <= 2 on the registered stationary presentation, NOT for arbitrary unenumerated pairings",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_weight_shift_condition_ii",
+      "passed": true,
+      "detail": "condition family (ii) shifts EXACTLY by -2 a_F p1 (dR_b/du_a''): Hi1(W R)/W = Hi1(R) - 2 a_F(lam) p1 dR_b/du_a'' \u2014 the derived pairing-dependence of the first-order Helmholtz layer (a_F = 0 recovers P2)",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_weight_shift_condition_iii_vanishes_at_aF0",
+      "passed": true,
+      "detail": "the condition-(iii) weight shift vanishes identically at a_F = 0 (P2 recovered); the exact (p,f) shift expression is recorded in the JSON (contains the asymmetric p0-column a_F terms and the a_F p1 transport terms)",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_H4_generated_witness",
+      "passed": true,
+      "detail": "H4 [d(WF R_a)/dm_mu = E_a(WM R_mu)] holds identically on the generated family R_a = WF^{-1} E_a(WF Ltil), R_mu = WM^{-1} d(WF Ltil)/dm_mu, for the GENERIC order-1 Ltil and every modulus (parameter-derivative/Euler-operator commutation, exact)",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_H4_byparts_identity",
+      "passed": true,
+      "detail": "the mu-row pairing transfer sum_k dG/du^{(k)} v^{(k)} - E_u(G) v = Dx(Xi) with the explicit certificate Xi: the mixed-block adjoint used in H4 is exactly the Euler operator (derived; boundary residue Xi routed to the gate-5/TC3 wall census under P3)",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_H4_lambda_anchored_log_term",
+      "passed": true,
+      "detail": "d(WF R_a)/dlam = WF [dR_a/dlam + a_F'(lam) p0 R_a] exactly: under lambda-dependent anchored weights the mixed (field, lambda) condition carries the additive anchored-depth term a_F' p0 WF R_a (p0 = log(c_E/Q), alphabet-legal at supplied c_E) \u2014 a computed structural fact of the P1-instance branches, NOT an emptiness obstruction",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_H4_witness_lambda_slot_contains_log",
+      "passed": true,
+      "detail": "generated witness at the enumerated instance (a_F = a_M = 2 lam, Ltil = -(sum jets^2)/2): the lambda-slot is R_lam = 2 p0 Ltil \u2014 A1-AMENDED (verifier): the LE cell's lambda-slot is forced nonzero (log(c_E/Q)-carrying via the a_F' p0 term) IFF d/dlam (WF R_a) != 0 for some field slot a \u2014 in particular for every lambda-INDEPENDENT nonzero field sector (this witness's class); NOT 'whenever the field sector is nonzero' (in-family counterexample banked as A1_V10b_counterexample_LE_zero_lambda_slot); SCOPE STAMP: the two ENUMERATED P1 volume instances (both have da_F/dlam = 2), jet <= 2, stationary presentation, BASE branch",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_both_volumes_same_dlambda",
+      "passed": true,
+      "detail": "both enumerated P1 volume exponents (4D-coframe a_F = 2 lam; ruler+screen triad a_F = 1 + 2 lam) have da_F/dlam = 2: the anchored-log forcing coefficient is the same across the two ENUMERATED instances (scope: these two instances, not all volumes)",
+      "kind": "citation-guard"
+    },
+    {
+      "name": "A1_V10b_counterexample_LE_zero_lambda_slot",
+      "passed": true,
+      "detail": "the verifier's V10b counterexample, zero-residual: R_a = e^{-2 lam p0}(p2, f2, h2) (generated by the anchored formal-in-lam Ltil = e^{-2 lam p0} Ltil0, inside the banked alphabet class), ALL moduli slots ZERO, satisfies every LE condition under P1-4D ((i)-(iii) field-field + H4 for every modulus [d(WF R_a)/dm = 0 = E_a(WM 0)] + H5 trivially) with a NONZERO, genuinely lambda- and p0-dependent field sector and a ZERO lambda-slot \u2014 NO log(c_E/Q) anywhere: the 'whenever the field sector is nonzero' quantifier is REFUTED in-family; SCOPE: P1-4D instance, jet <= 2, stationary presentation, BASE branch",
+      "kind": "substantive"
+    },
+    {
+      "name": "A1_anchored_log_iff_condition",
+      "passed": true,
+      "detail": "the corrected statement, exact: with a zero lambda-slot the H4(lambda) residual is exactly d(WF R_a)/dlam = WF [dR_a/dlam + a_F' p0 R_a] (E_a(WM 0) = 0 identically, symbolic a_F) \u2014 the LE cell's lambda-slot is forced nonzero IFF d(WF R_a)/dlam != 0 for some field slot a; both directions instantiated (counterexample: d(WF R_a)/dlam = 0 for all a, zero slot admissible; W1's p-row: d(WF p2)/dlam != 0, slot forced); SCOPE: enumerated lambda-dependent P1 instances, jet <= 2, stationary presentation, BASE branch",
+      "kind": "substantive"
+    },
+    {
+      "name": "A1_lambda_independent_sector_forcing_real",
+      "passed": true,
+      "detail": "the positive side of the corrected statement: for a lambda-INDEPENDENT nonzero field sector (e.g. W1's p-row R_p = p2) the lambda-row is d(WF R_p)/dlam = 2 p0 WF R_p != 0 with the explicit anchored-log factor p0 = log(c_E/Q) \u2014 the forcing and the generated witness R_lam = 2 p0 Ltil0 are REAL on this subclass (the amendment is a scope restriction, not a demolition); SCOPE: the two enumerated lambda-dependent P1 instances (da_F/dlam = 2), jet <= 2, stationary presentation, BASE branch",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_H5_generated_witness",
+      "passed": true,
+      "detail": "H5 [antisymmetrized d(WM R_mu)/dm_nu in im(Dx)] holds (with zero antisymmetrization) on the generated family for the generic Ltil: mixed moduli partials commute exactly",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_H5_NV_witness_moduli",
+      "passed": true,
+      "detail": "the member R_lam = k_mod (all else 0) FAILS H5 under every enumerated moduli-slot weight a_M in {0, 2 lam, 1+2 lam}: antisym defect = WM with an explicit non-total-derivative certificate (constant 1 at a_M = 0; nonzero field-Euler at the lambda-dependent instances) \u2014 a NONVARIATIONAL-cell witness in the moduli sector; SCOPE: enumerated branches, BASE branch, jet-blind (moduli sector)",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_W1_LE_P2_NV_P1_4D",
+      "passed": true,
+      "detail": "the tuple (p2, f2, h2) [= EL of -(sum jets^2)/2] is LOCALLY-EXACT under P2 and NONVARIATIONAL under the P1 4D-coframe instance with defect Hi1 = -4 lam p1 e^{2 lam p0} \u2014 SCOPE STAMP: nonzero exactly off the T4 blindness locus lam = 0 (at lam = 0 the 4D volume is blind and P1-4D coincides with P2, Route B T4 cited); pairing-dependence of cell membership is REAL and computed",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_W2_LE_P1_NV_P2",
+      "passed": true,
+      "detail": "the field sector R_a = e^{-2 lam p0} E_a(e^{2 lam p0} Ltil0) passes ALL field-field conditions (i)-(iii) under the P1 4D-coframe instance; the FULL locally-exact P1 member is the generated tuple W2' = this field sector + the lambda-slot R_lam = 2 p0 Ltil0 (H4/H5 discharged by TC1_H4_generated_witness / TC1_H5_generated_witness \u2014 the field-only tuple with zero moduli slots FAILS H4(lambda), which is exactly the anchored-log forcing: its d(WF R_a)/dlam != 0, the A1 iff condition); under P2 the SAME field sector is NONVARIATIONAL (nonzero Hi1 defect, sample-point certificate) \u2014 the reverse pairing-dependence witness; SCOPE: off lam = 0 (T4 blindness)",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_W3_allbranch_NV",
+      "passed": true,
+      "detail": "the member R_p = p1 (rest 0) has Hi1(p,p) = 2 e^{a_F p0} != 0 for EVERY anchored weight (exponential nonvanishing): NONVARIATIONAL with PROVEN branch-independence across the entire enumerated anchored family (F-S2 discharged by proof for this adjudication); SCOPE: enumerated anchored bulk family, jet <= 2, stationary presentation",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_omega_moduli_LE_P2_NV_P1_lamdep",
+      "passed": true,
+      "detail": "OBSERVATION (not selection): the omega-shape (R_k10 = k10, rest 0) is closed and exact (= d(k10^2/2)) under P2 \u2014 LOCALLY-EXACT there; under P1 instances with lambda-DEPENDENT moduli-slot weight (a_M = 2 lam) the (lam, k10) antisym defect 2 p0 e^{2 lam p0} k10 is nonzero with a nonzero field-Euler certificate \u2014 NONVARIATIONAL there; under a_M = 0 P1-instances it remains LOCALLY-EXACT. SCOPE: per-instance stamps as stated; stratum stamps travel (member of R_PW off the C != 0 resonance sub-varieties; on-stratum witness for k_mod = 0 \u2014 banked Stage-2, cited)",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_weight_map_K4_inert_and_invertible",
+      "passed": true,
+      "detail": "e^{-a_F(lam) p0} is K4-inert (the K4 substitutions touch only {k10, C}; lam, p0 inert) and exactly inverts the weight: multiplication by it is a bijection of the component space; with Hi_k(WF R) = WF-times-shifted-conditions (checked above) it intertwines the P1-instance and P2 partitions \u2014 the partitions are isomorphic-but-distinct cuts",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_weight_map_preserves_characters",
+      "passed": true,
+      "detail": "multiplication by a trivial-character alphabet function (an anchored power/log-free exponential of p0, lam) preserves each character module (chi_a/b/c generators x invariant coefficients stay in-module) \u2014 Stage-2 module structure cited; K4-inertness computed in TC1_weight_map_K4_inert_and_invertible",
+      "kind": "citation-guard"
+    },
+    {
+      "name": "TC1_T4_blindness_consistency",
+      "passed": true,
+      "detail": "at lam = 0 the 4D-coframe weight is 1 and its condition shifts vanish (P1-4D = P2 there); at lam = -1/2 likewise for the triad instance: the partition's pairing-dependence degenerates exactly on the Route B T4 blindness loci (banked, recomputed as consistency)",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_P3_interior_defect_wall_immune",
+      "passed": true,
+      "detail": "for the NV member R_p = p1 the two-form defect on interior-supported variations (vanishing with derivatives at both walls) integrates to -1/630 != 0: wall/corner densities CANNOT repair a bulk self-adjointness defect \u2014 P3's bulk Helmholtz conditions coincide with its declared bulk choice's (P1-type or P2-type); the wall block adds its own symmetry conditions (typed to TC3/gate 5, per-declared-N \u2014 Slice 2)",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_kmod0_fourcorner_transversality",
+      "passed": true,
+      "detail": "on the k_mod = 0 stratum (P2 pairing, moduli sector, jet-blind) all four corners of (G3-cell x identity-cut) are populated: omega (LE, identity-satisfying); R_kmod = 2 (LE, identity-VIOLATING on {k_mod = 0, k10 != 0} \u2014 banked off-stratum witness, cited); R_lam = k_mod (NV, identity-satisfying); their sum (NV, identity-violating): the Helmholtz cut and the stratum Noether cut are TRANSVERSE at witness level \u2014 SCOPE: witness-level transversality on KMOD0 under P2 at jet <= 2, NOT a full-cell census",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC1_no_empty_adjudicated_cell",
+      "passed": true,
+      "detail": "OS2 watch: no adjudicated (pairing x stratum x G3-cell) composite cell is empty \u2014 LE and NV witnesses exist under every enumerated pairing branch on GENERIC and KMOD0 (witness table in the ledger); SCOPE: witness-level nonemptiness at jet <= 2, BASE branch, enumerated branches; RES-CNEQ0 rows are CENSUS-REQUIRED, not adjudicated",
+      "kind": "citation-guard"
+    },
+    {
+      "name": "TC2_counts_determined_type",
+      "passed": true,
+      "detail": "GENERIC stratum: 3 field equations + 7 moduli relations vs 3 field unknowns + 7 moduli \u2014 a formally DETERMINED count with NO pointwise Noether identity (S0_generic_pointwise_stabilizer_trivial) and NO Bianchi-type differential identity ASSUMED (banked input; the stratum identities are algebraic, not differential): the compatibility complex is the DETERMINED regime; gate 1's on-shell leg there = explicit integrability of the joint system on ONE solution (R5 closure) \u2014 Slice 2; existence of solutions NOT claimed (F-S6)",
+      "kind": "citation-guard"
+    },
+    {
+      "name": "TC2_kmod0_identity_is_row_dependency",
+      "passed": true,
+      "detail": "KMOD0 stratum: the banked identity is exactly the statement that the moduli-equation rows satisfy ONE linear dependency -k10 R_kmod + c10 R_c00 + c11 R_c01 - c00 R_c10 - c01 R_c11 = 0 for every on-stratum member, matched by exactly ONE tangent gauge direction (L23, nullspace dim 1): identity count = gauge dimension = 1 \u2014 the CONSTRAINED (gauge-type) regime, balanced; the identity is a POINTWISE ALGEBRAIC relation, NOT a Bianchi-type differential identity (handoff warning carried): gate 1 must still resolve overdetermination by explicit integrability, and must carry the L23-orbit quotient",
+      "kind": "citation-guard"
+    },
+    {
+      "name": "TC2_LE_symbol_symmetry_restatement",
+      "passed": true,
+      "detail": "on the LOCALLY-EXACT cell the principal symbol (second-jet coefficient block) is SYMMETRIC \u2014 this is exactly condition family (i), which is pairing-independent across the anchored family (TC1_weight_top_condition_invariant): gate 1's on-shell leg on the LE cell starts from a symmetric-symbol system; the NV cell carries no symmetry constraint \u2014 per-candidate symbol nondegeneracy is Slice-2 business",
+      "kind": "citation-guard"
+    },
+    {
+      "name": "TC2_resonance_census_required",
+      "passed": true,
+      "detail": "RES-CNEQ0 (C != 0 sub-varieties of lam -+ k_mod in {+-1}): the banked shear identity -c10 r_sh - k10 m10 = 0 on {lam - k_mod = -1, c00 = c01 = 0} is CITED (Stage-2 A1R2); per the inherited resonance rule ALL sub-family integrability adjudications there are DEFERRED \u2014 CENSUS-REQUIRED (deeper stratification TYPED-NOT-EXHAUSTED, banked)",
+      "kind": "citation-guard"
+    },
+    {
+      "name": "TC3_byparts_N2_identity",
+      "passed": true,
+      "detail": "N = 2 (order-1 L): delta L = sum E_a(L) v_a + Dx(Theta), Theta = sum (dL/du_a') v_a \u2014 the wall slots are exactly the 0-jet traces {v_a}, with momenta dL/du_a' = functions of 1-jet traces (derived exactly, generic L, all three fields)",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC3_byparts_N4_identity",
+      "passed": true,
+      "detail": "N = 4 (order-2 L): delta L = sum E_a(L) v_a + Dx(Theta4), Theta4 pairing BOTH the 0-jet and 1-jet traces {v_a, v_a'} (derived exactly, generic L)",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC3_N4_momentum_contains_3rd_jet",
+      "passed": true,
+      "detail": "the N = 4 v_a-momentum dL/du' - Dx(dL/du'') contains THIRD jets (coefficient -d2L/du''du'' != 0 for generic L): 4th-order candidates need 3rd-normal-derivative wall momenta (derived; matches the Route C TC5 instance)",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC3_parity_jet_kill",
+      "passed": true,
+      "detail": "at a mirror wall a field of parity eps has u^{(j)}(wall) = 0 exactly for (-1)^j eps = -1 (generic even/odd Taylor data): parity KILLS half the jet-trace tower per field \u2014 the parity-halving of wall data (the recon TG3#5 soundness item, exhibited on the one-parameter mirrored model)",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC3_slot_survival_table",
+      "passed": true,
+      "detail": "slot survival at a mirror wall (from TC3_parity_jet_kill): N = 2 slot {v_a} survives iff eps_a = +1 (odd fields self-pair by parity \u2014 zero slots); N = 4 slots: {v_a} iff eps_a = +1, {v_a'} iff eps_a = -1 (exactly half per field, either parity); parity assignments per field are SUPPLIED wall structure (sector split; see the canon instance guard), tagged not derived",
+      "kind": "citation-guard"
+    },
+    {
+      "name": "TC3_wall_grade_availability_jet2",
+      "passed": true,
+      "detail": "Stage-2 wall-alphabet rule (cited): R_wall of grade g may use trace jets <= g-1. N = 2 momenta are functions of 1-jet traces -> available at wall grade 2 (INSIDE the jet <= 2 exhaustive layer): LE-cell 2nd-order sub-families CAN self-pair every parity-surviving slot from their own R_wall. N = 4 momenta need 3-jet traces -> wall grade 4 (OUTSIDE jet <= 2): 4th-order sub-families are STRUCTURALLY UNABLE to self-pair within the exhaustive layer \u2014 typed jet-3/4 extension REQUIRED (NOT-EXHAUSTED stamp travels); counterterms are NOT available (Category-B, banked)",
+      "kind": "citation-guard"
+    },
+    {
+      "name": "TC3_routeC_TC5_anchor_reproduced",
+      "passed": true,
+      "detail": "the derived census reproduces the Route C TC5 instances as special cases: 2nd-order -> 1-jet wall data with K-type momenta (TC3_byparts_N2_identity); 4th-order -> 2-jet wall data + 3rd-normal-derivative momenta (TC3_byparts_N4_identity, TC3_N4_momentum_contains_3rd_jet) \u2014 the recon TG3#2 soundness duty discharged",
+      "kind": "citation-guard"
+    },
+    {
+      "name": "TC3_anchored_wall_rule",
+      "passed": true,
+      "detail": "wall-slot coefficients c_E^p e^{-q phi_wall} are shift-orbit invariant iff p = q (a Q_wall-power): the anchored-phi rule holds at the wall exactly as in the bulk \u2014 anchored-phi wall dependence only through supplied-structure slots (Stage-1 V8, recomputed as consistency)",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC3_NV_cell_no_forced_slots",
+      "passed": true,
+      "detail": "NONVARIATIONAL cell: the pairing int sum WF R_a v_a dx is already in source form \u2014 no integration by parts occurs, so the BULK forces ZERO unpaired wall jets (definitional at jet level); gate 5's live content for NV members = parity/sector-split + anchored-phi admissibility of their OWN R_wall/R_corner and (varied fork) wall-equation closure \u2014 Slice 2; SCOPE: statement of slot OBLIGATIONS only, no differentiability verdict on any member",
+      "kind": "citation-guard"
+    },
+    {
+      "name": "TC3_mirror_canon_parity_instance",
+      "passed": true,
+      "detail": "supplied-structure instance (THEORY-cite, not derived here): the static-sector spatial mirror phi -> -phi (CANON C-2026-06-10-2) makes eps_phi = -1 at the spatial mirror wall; the temporal mirror governs time-on sectors (C-2026-07-04-1); parities of f, bh wall data = supplied mirrored-parity wall structure (Stage-2 census rows 16-17), tagged SUPPLIED",
+      "kind": "citation-guard"
+    },
+    {
+      "name": "TC3_corner_census_typed_only",
+      "passed": true,
+      "detail": "corners are codimension-2: absent from the one-parameter presentation \u2014 the corner slot census is TYPED ONLY here (Route C TC5 examples: Hayward-type vs trace-free-Weyl corner structure, cited); deriving the general-arena corner census is a Slice-2 cost item; NOT-EXHAUSTED stamp travels",
+      "kind": "citation-guard"
+    },
+    {
+      "name": "TC4_K4_all_torsion",
+      "passed": true,
+      "detail": "every K4 element squares to the identity (recomputed): all K4-orbifold cycles are torsion (order <= 2)",
+      "kind": "substantive"
+    },
+    {
+      "name": "TC4_torsion_period_vacuous",
+      "passed": true,
+      "detail": "for a CLOSED one-form the period map is additive on loop composition: P(gamma^2) = 2P and gamma^2 is trivial for torsion gamma, so 2P = 0 forces P = 0 \u2014 the K4-orbifold period obligation on the LOCALLY-EXACT cell is VANISHING-BY-TORSION; SCOPE STAMP (banked, carried): vacuous FOR CLOSED FORMS on the K4-torsion cycles ONLY \u2014 non-torsion cycles (completion classes, J07/J11 loops) remain live (V8_clash2 banked note recomputed as consistency)",
+      "kind": "citation-guard"
+    },
+    {
+      "name": "TC4_completion_cycles_need_data",
+      "passed": true,
+      "detail": "completion-class cycles (fork L4 over-the-class; 12 FC families; the discrete label c-frak): period/holonomy obligations are NEEDS-COMPLETION-DATA on BOTH G3 cells \u2014 no completion class is chosen (Slice-1 boundary); BR-C is pointwise branch-independent (banked) so the obligation TYPE is branch-uniform, the obligation CONTENT awaits the L4 fork",
+      "kind": "citation-guard"
+    },
+    {
+      "name": "TC4_FS7_flag_carried",
+      "passed": true,
+      "detail": "F-S7 FLAG (carried on every J07/J11 row): the twisted-cocycle holonomy machinery (twisted-H1 analog row) is MODEL-KNOWLEDGE \u2014 it may guide the METHOD of classification but underpins NO banked G6 claim here; the typing below only states WHICH obligation class each sub-family carries, using the banked two-sided cocycle TYPE L(g2 g1) = Q(g2)L(g1) + L(g2)rho(g1) (Route B T3, cited)",
+      "kind": "citation-guard"
+    },
+    {
+      "name": "TC4_typing_table_assembled",
+      "passed": true,
+      "detail": "gate-6 obligation typing per cell (type-level; no period computed on any solution): LE cell: K4 cycles VANISHING-BY-TORSION (closed forms); completion cycles NEEDS-COMPLETION-DATA; J07/J11 loops \u2014 mixing sub-families (M !== 0 or r_sh !== 0 across charts) CLASSIFICATION-REQUIRED [F-S7], non-mixing single-chart sub-families NO-TRANSITION-DATA-OBLIGATION (handoff section-4 typing, cited). NV cell: gate-6 step 3 holonomy of the closure data CLASSIFICATION-REQUIRED [F-S7] + NEEDS-COMPLETION-DATA; K4-torsion vacuity does NOT automatically transfer (it is a closed-form statement \u2014 scope stamp)",
+      "kind": "citation-guard"
+    },
+    {
+      "name": "TC5_ledger_coverage_counts",
+      "passed": true,
+      "detail": "30 composite (pairing x stratum x G3-cell) rows: 5 pairing branches x 3 strata x 2 cells; 10 resonance rows CENSUS-REQUIRED (resonance rule), 20 adjudicated rows all witness-nonempty \u2014 OUTCOME CLASS OS1 (populated partition; no gate empties R_PW at the declared scope; no rigid collapse) \u2014 SCOPE: jet <= 2, BASE branch (+BR-A same theorem), registered stationary presentation, enumerated pairing branches",
+      "kind": "citation-guard"
+    },
+    {
+      "name": "TC5_known_object_rows_are_observations",
+      "passed": true,
+      "detail": "known-object cell locations are recorded as OBSERVATIONS carrying no precedence (F-S1/TB5 recording rule); nothing selected, nothing ranked",
+      "kind": "citation-guard"
+    },
+    {
+      "name": "TC_jet34_order4_selfadjointness_anchor",
+      "passed": true,
+      "detail": "the generic order-2 Lagrangian's EL system (order-4 source form) is exactly self-adjoint under the same adjoint machinery extended to k <= 4 (2-field instance, field-jet arguments): the typed jet-3/4 G3 layer uses the SAME condition structure \u2014 SCOPE STAMP: an ANCHOR instance, the jet-3/4 layer remains TYPED-NOT-EXHAUSTED (F-B3 inherited); the Bach-side class lives here (Route C, cited)",
+      "kind": "substantive"
+    }
+  ],
+  "scope_stamps": [
+    "jet <= 2 exhaustive layer; registered positive triangular chart; registered stationary one-parameter presentation; polynomial/formal in (k10, C) moduli; BASE branch (moduli constant; BR-A same theorem; BR-M/BR-CE typed NOT-EXHAUSTED)",
+    "pairing branches: the banked 1.5 enumeration carried as the anchored-weight family; NONE adopted (F-S2); P1's volume/per-slot weights and P2's distributional class are OPEN supplied structure",
+    "nonemptiness of cells: WITNESS-LEVEL (not a full-cell census)",
+    "RES-CNEQ0 stratum: CENSUS-REQUIRED throughout (resonance rule); deeper stratification TYPED-NOT-EXHAUSTED (banked)",
+    "jet-3/4: typed via the order-4 self-adjointness anchor (2-field instance); NOT-EXHAUSTED",
+    "corners: typed only; sufficiency of Helmholtz conditions: banked bicomplex statement (Category-A, cited) + witness instantiation",
+    "WS/GC solution-dependent legs (R5, R14, gate-1 on-shell, gate-4 currents, gate 2) NOT touched \u2014 Slice 2 (F-S6)"
+  ],
+  "falsifier_record": {
+    "F-S1": "clean \u2014 no member selected/ranked; known-object rows are observations (TC5_known_object_rows_are_observations)",
+    "F-S2": "clean \u2014 every G3 statement carries its pairing-branch label; W3's NV adjudication carries a PROOF of branch-independence across the enumerated anchored family; no pairing adopted",
+    "F-S3": "TWO instances of the named error class, both caught and cured: (1) derivation-side SELF-CATCH \u2014 the W2 'LE under P1' field-sector-only gloss, corrected pre-verifier to the full W2' tuple statement; (2) VERIFIER CATCH (A1) \u2014 the anchored-log 'whenever the field sector is nonzero' quantifier, refuted by the in-family V10b counterexample and restated as the exact iff condition at every occurrence (three new A1_* zero-residual checks); all other only/all/none/empty statements carry stratum + scope stamps; partition claims scoped to the enumerated branches, jet <= 2, witness-level",
+    "F-S4": "clean \u2014 banked facts recomputed as consistency (K4, stabilizer ranks, kmod0 identity, T4 blindness, TC5 instances); no contradiction found",
+    "F-S5": "see all_passed / exit code",
+    "F-S6": "clean \u2014 no solution computed, no existence/closure/current claim; TC2 is typing only",
+    "F-S7": "carried \u2014 every J07/J11 classification row flags the twisted-H1 machinery as MODEL-KNOWLEDGE; no banked G6 claim rests on it"
+  },
+  "outcome_class": "OS1 \u2014 the joint gate-cut map is a populated partition (20 adjudicated composite cells, all witness-nonempty; 10 CENSUS-REQUIRED resonance cells; forks carried); no gate empties R_PW at the declared scope (OS2 not triggered); no rigid low-parameter collapse (OS3 not triggered); ceiling respected \u2014 no member selected, no existence/uniqueness verdict on full R, no action, no physics",
+  "throughput": "FULL DECLARED SCOPE (no scope reduction taken; jet-3/4 typing retained as the order-4 anchor); single CPU process, exact SymPy"
+}
