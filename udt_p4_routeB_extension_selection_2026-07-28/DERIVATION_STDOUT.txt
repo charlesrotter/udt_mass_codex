@@ -1,0 +1,133 @@
+==============================================================================
+SECTION 0 - banked input facts recomputed as zero-residual consistency checks
+==============================================================================
+PASS S0_physical_tangent_rank_7
+PASS S0_physical_tangent_block_form
+PASS S0_so13_dimension_6
+PASS S0_extension_plus_so13_rank_13
+PASS S0_full_lorentz_commutant_rank_15
+PASS S0_centralizer_is_scalar_identity
+PASS S0_E08_det_one
+PASS S0_E08_generator_matches
+PASS S0_seal_zero_rank_identity
+
+==============================================================================
+SECTION 1 - T1: transformation law of (K,C); covariance typing per stratum
+==============================================================================
+PASS T1_registered_chart_infinitesimal_stabilizer_trivial
+PASS T1_blockform_infinitesimal_stabilizer_dim_1
+PASS T1_blockform_stabilizer_is_screen_rotation_L23
+PASS T1_R23_is_lorentz
+PASS T1_R23_tangent_is_L23
+PASS T1_R_pi_closed_form
+PASS T1_R_pi_action_K_fixed_C_negated
+PASS T1_residual_probe_forces_upper_right_block_zero
+PASS T1_residual_lorentz_blockform_identities
+PASS T1_residual_offdiag_coefficient_det_is_detS_squared
+PASS T1_residual_A_commutes_H_iff_diagonal
+PASS T1_residual_A_signs_pm1
+PASS T1_residual_S_triangularity_forces_q_zero
+PASS T1_residual_S_orthogonality_forces_signed_diag
+PASS T1_residual_exhaustive_enumeration_klein_four
+PASS T1_residual_klein_elements_preserve_class_and_fix_X0
+PASS T1_residual_klein_group_closure_involutions
+PASS T1_R_pi_is_klein_R23pi
+PASS T1_R12pi_action_flips_k10_c00_c11
+PASS T1_R13pi_action_flips_k10_c01_c10
+PASS T1_strata_invariant_under_klein_group
+PASS T1_screen_rotation_preserves_H_block
+PASS T1_screen_rotation_upper_right_stays_zero
+PASS T1_screen_rotation_K_conjugation_C_left_action
+PASS T1_K_triangularity_not_preserved_probe
+PASS T1_strata_invariant_under_screen_action
+PASS T1_E03_trace_conjugation_invariant
+PASS T1_lower_triangular_diagonal_multiplicative
+PASS T1_det_lower_triangular_is_diag_product
+PASS T1_R12_is_lorentz
+PASS T1_R12_tangent_is_L12
+PASS T1_E04_orbit_leaves_chart_class_probe
+PASS T1_tangent_transports_as_bilinear_form
+PASS T1_anchored_class_complement_dim_3
+PASS T1_E04_orbit_obstruction_nonzero_probe
+PASS T1_E06_spectator_orbit_also_leaves_class_probe
+PASS T1_E06_topleft_anchor_moves_probe
+PASS T1_E06_eta_symmetrization_is_H4
+PASS T1_E06_condition_transports_by_conjugacy_of_H4
+
+==============================================================================
+SECTION 2 - T2: bracket/subalgebra and finite composition closure
+==============================================================================
+PASS T2_E02_bracket_lands_in_V
+PASS T2_bracket_always_traceless_lands_in_E03_linear_part
+PASS T2_E04_bracket_exact_form
+PASS T2_E04_nonabelian
+PASS T2_E05_bracket_block_diagonal_lower_tri
+PASS T2_E04_closed_form_solves_ODE
+PASS T2_E04_closed_form_initial_condition
+PASS T2_E04_det_one_family
+PASS T2_E04_same_member_additive
+PASS T2_E04_cross_member_product_equals_effective_member
+PASS T2_E04_effective_member_constant_iff_same_member
+PASS T2_E04_member_drift_nonzero_for_distinct_members
+PASS T2_E07_cross_member_closure_iff_equal_members
+PASS T2_diagonal_members_commute
+PASS T2_affine_effective_member_H_block_preserved
+PASS T2_affine_effective_member_phi_dependent_iff_distinct
+
+==============================================================================
+SECTION 3 - T3: mixing cocycle law
+==============================================================================
+PASS T3_E08_cocycle_u12
+PASS T3_E08_composed_map_in_class_with_drifted_s
+PASS T3_E08_cocycle_identity_associativity
+PASS T3_E08_residual_symmetry_flips_s
+PASS T3_E08_klein_orbit_is_s_mod_sign
+PASS T3_duhamel_lower_left_ODE
+PASS T3_duhamel_initial_condition
+PASS T3_full_map_solves_ODE
+PASS T3_two_sided_twisted_cocycle_law
+
+==============================================================================
+SECTION 4 - T4: the diagonal (a,d)-plane; volume forms; the honest L2 modulus
+==============================================================================
+PASS T4_E07_axis_is_traceless_line
+PASS T4_axes_intersect_only_at_spectator
+PASS T4_screen_rotation_forces_isotropic_axis
+PASS T4_SO3_forces_plus_one_point
+PASS T4_SO12_forces_minus_one_point
+PASS T4_banked_swap_forces_origin_on_plane
+PASS T4_banked_swap_not_lorentz
+PASS T4_banked_swap_full_class_two_mixing_freedoms
+PASS T4_screen_rotation_full_class_forces_isotropic_diag
+PASS T4_base_boost_centralizer_empty
+PASS T4_centralizer_dims_generic_pm1_zero
+PASS T4_vol4_scaling
+PASS T4_vol4_blind_locus_is_traceless_line
+PASS T4_vol4_blind_isotropic_point_lam0
+PASS T4_triad_blind_locus_line
+PASS T4_triad_blind_isotropic_point_is_lam_minus_half
+PASS T4_witness_det_matches_banked
+PASS T4_witness_4D_blind_iff_lam0
+PASS T4_witness_slice_blind_iff_lam_minus_half_and_zero_shift
+PASS T4_witness_slice_monomial_representation_exact
+
+==============================================================================
+SECTION 5 - T5: stratum x supplied-reduction forcing table (assembly only)
+==============================================================================
+PASS T5_SO3_cell_matches_banked_point
+PASS T5_SO3_forced_member_is_X_plus1
+PASS T5_SO12_forced_member_is_X_minus1
+PASS T5_forcing_table_key_cells
+PASS T5_joint_spectator_rank_7
+PASS T5_F-A_guard_every_forcing_column_is_supplied
+
+==============================================================================
+SECTION 6 - T6: L1/L2 re-tag (Stage-1 evidence only)
+==============================================================================
+PASS F-B_no_pointwise_selection_claimed
+
+==============================================================================
+CHECK SUMMARY: 100/100 passed, 0 failed
+FALSIFIERS: {'F-A': False, 'F-B': False, 'F-C': False, 'F-D': False, 'F-E': False}
+==============================================================================
+wrote /home/udt-admin/udt_mass_codex/udt_p4_routeB_extension_selection_2026-07-28/routeB_stage1_results.json

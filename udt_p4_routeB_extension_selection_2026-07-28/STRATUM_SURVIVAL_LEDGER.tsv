@@ -1,0 +1,32 @@
+stratum	constraint_layer	verdict	detail	source
+E02	C1_local_lorentz	SURVIVES-WITH-MODULI(c00,c01,c10,c11,k00,k10,k11 mod Klein-four quotient)	presentation orbits singleton (rank 13); class frame-anchored: equivariant family X->Lam X Lam^-1, not invariant; residual chart symmetry = EXACTLY the Klein four-group {I,diag(1,1,-1,-1),diag(1,-1,-1,1),diag(1,-1,1,-1)} (exhaustiveness proven, A1) acting (K,C)->(K,-C) and k10->-k10 with signed C-flips; carried moduli k10 and C read modulo this quotient	this package T1 (A1-amended); 07-26 equivariance correction
+E02	C2_composition	SURVIVES-WITH-MODULI(same)	span+RH is a solvable subalgebra; class group closed; one-parameter closure per member only; cross-member products drift the member (exact law)	this package T2
+E02	C3_conditional_gates	CONDITIONAL(cite)	SO3->X_{+1}; SO+(1,2)->X_{-1}; banked swap F->2-param mixing family; screen SO(2) alone->isotropic axis (lam free); each conditional on its supplied structure; cross-branch splices forbidden	07-27 s4; this package T5
+E02	C4_J_typing	SURVIVES-WITH-MODULI(same)	J05 ok; J06 satisfied via retained moduli; J07/J11 open (twisted-cocycle transition data required, stated not filled); J10 ok equivariantly; J13/J15 satisfied	07-28 J-obligations; this package T3
+E03	C1_local_lorentz	SURVIVES-WITH-MODULI(6: c00,c01,c10,c11,k_mod,k10)	COVARIANTLY DEFINED: tr X=0 is conjugation-invariant; det e^{phi X}=e^{phi tr X}	this package T1
+E03	C2_composition	SURVIVES-WITH-MODULI(same)	traceless triangular subalgebra; det multiplicative; every E02 bracket already lands in the E03 linear part	this package T2
+E03	C3_conditional_gates	CONDITIONAL(cite)	incompatible with supplied SO3 (tr K forced +2 vs 0) and SO+(1,2) (-2 vs 0); compatible with banked swap F (2-param family); screen SO(2) alone -> spectator	07-27 s4; this package T5
+E03	C4_J_typing	CONDITIONAL(imposition-flag)	imposing det-one without derivation = J06 named false pass ('trace zero assumed'); otherwise satisfiable; J13 discriminators retained (E07,E08 live here)	07-28 J06
+E04	C1_local_lorentz	SURVIVES-WITH-MODULI(4: C)	SPLIT-RELATIVE: condition on (T,split) pair; exact orbit witness exits the anchored class (obstruction functionals nonzero)	this package T1
+E04	C2_composition	SURVIVES-WITH-MODULI(same)	exact closed form M=[[e^{phi H},0],[CH(e^{phi H}-I),I]]; nonabelian shift algebra [X1,X2]=[[0,0],[(C1-C2)H,0]]; exact member-drift law	this package T2
+E04	C3_conditional_gates	CONDITIONAL(cite)	incompatible with supplied SO3/SO+(1,2) (K forced +-I vs 0); banked swap F lands inside E04 (2-param mixing family)	07-27 s4; this package T5
+E04	C4_J_typing	CONDITIONAL(imposition-flag)	imposing transverse invariance = J06 false pass (screen isotropy assumed); J10 fixed-plane conflict unless split supplied; J07 cocycle obligation open	07-28 J06/J10
+E05	C1_local_lorentz	SURVIVES-WITH-MODULI(3: lam,k_mod,k10 mod sign)	SPLIT-RELATIVE: C=0 references the supplied base/screen split; same orbit-witness class; k10 read mod the Klein-four residual sign (A1)	this package T1 (A1-amended)
+E05	C2_composition	SURVIVES-WITH-MODULI(same)	block-diagonal subalgebra; K-block lower-triangular group; closed	this package T2
+E05	C3_conditional_gates	CONDITIONAL(cite)	SO3 forces the single member X_{+1}; SO+(1,2) forces X_{-1} (both lie in E05); swap F intersects E05 only at the spectator	07-27 s4; this package T5
+E05	C4_J_typing	CONDITIONAL(imposition-flag)	imposing no-mixing erases the E08 cocycle discriminator (J13) and is a J06 false pass; otherwise satisfiable	07-28 J06/J13
+E06	C1_local_lorentz	SURVIVES-WITH-MODULI(none)	SPLIT-RELATIVE as fixed condition; equivariant content = conjugacy class of H4; spectator orbit exits the anchored class under rotation	this package T1; 07-26
+E06	C2_composition	SURVIVES-WITH-MODULI(none)	the founded E01 one-parameter abelian group; trivially closed	this package T2; 07-25 E01
+E06	C3_conditional_gates	CONDITIONAL(cite)	unique ONLY in the joint stronger class (transverse-invariance + no-mixing, joint rank 7); also = swap-F cap of E05; incompatible with SO3/SO+(1,2)	07-26; 07-25 E06; this package T5
+E06	C4_J_typing	CONDITIONAL(imposition-flag)	imposing E06 = J06's named false pass verbatim; erases both E07 and E08 discriminators (J13)	07-28 J06/J13
+E07	C1_local_lorentz	SURVIVES-WITH-MODULI(1: k_mod)	lies on the covariant det-one line lam=0; the reciprocal-anisotropy axis of the diagonal plane; split-relative beyond the trace condition	this package T1/T4; 07-25 E07
+E07	C2_composition	SURVIVES-WITH-MODULI(same)	per-member closed (abelian diagonal); cross-member k!=k' products leave the one-parameter class (exact failure)	this package T2
+E07	C3_conditional_gates	CONDITIONAL(cite)	screen SO(2) alone forces k_mod=0 (spectator); banked swap F forces k_mod=0; SO3/SO+(1,2) incompatible (tr K +-2 vs 0)	07-27 s4 gates evaluated here; this package T5
+E07	C4_J_typing	SURVIVES-WITH-MODULI(k_mod)	E07 IS the J13 lambda/anisotropy discriminator content; retaining it satisfies J13; 4D-volume-blind along its whole axis (derived)	07-28 J13; this package T4
+E08	C1_local_lorentz	SURVIVES-WITH-MODULI(1: s mod sign under the exact Klein-four residual)	chart-honest; the K4-orbit of s is {s,-s} (R23pi and R12pi flip s, R13pi fixes it), so the invariant modulus is s mod sign (A1: conclusion unchanged, group corrected from the understated Z2)	this package T1/T3 (A1-amended)
+E08	C2_composition	SURVIVES-WITH-MODULI(same)	exact cocycle composition: s12=[s1(1-e^{-phi1})+s2 e^{-phi1}(1-e^{-phi2})]/(1-e^{-phi1-phi2}); associative	this package T3
+E08	C3_conditional_gates	CONDITIONAL(cite)	banked swap F forces s=0 (spectator); SO3/SO+(1,2) incompatible; det-one automatic (E08 in E03 and E04)	07-27 s4; this package T5
+E08	C4_J_typing	SURVIVES-WITH-MODULI(s)	E08 IS the J07/J11 cocycle discriminator content; its composition law is the required transition-data type (stated, not filled)	07-28 J07/J11; this package T3
+ALL	18_family_active_set	UNCONSTRAINED	zero pointwise selector rank on all 7 directions; NO cell above cites this set as forcing (F-A guard)	07-26
+ALL	seal_phi0	UNCONSTRAINED	exp(0 X)=I for every X: zero extension-selector rank	07-27 s5
+ALL	strong_CSN_E10	UNCONSTRAINED-INACTIVE	conditional: would remove the angular trace only if supplied; inactive	07-25 E10; 07-26

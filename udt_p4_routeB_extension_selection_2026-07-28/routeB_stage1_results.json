@@ -1,0 +1,564 @@
+{
+ "package": "udt_p4_routeB_extension_selection_2026-07-28",
+ "stage": "Route B Stage 1 (constraint layers C1-C4)",
+ "n_checks": 100,
+ "n_failed": 0,
+ "checks": [
+  {
+   "name": "S0_physical_tangent_rank_7",
+   "passed": true
+  },
+  {
+   "name": "S0_physical_tangent_block_form",
+   "passed": true
+  },
+  {
+   "name": "S0_so13_dimension_6",
+   "passed": true
+  },
+  {
+   "name": "S0_extension_plus_so13_rank_13",
+   "passed": true
+  },
+  {
+   "name": "S0_full_lorentz_commutant_rank_15",
+   "passed": true
+  },
+  {
+   "name": "S0_centralizer_is_scalar_identity",
+   "passed": true
+  },
+  {
+   "name": "S0_E08_det_one",
+   "passed": true
+  },
+  {
+   "name": "S0_E08_generator_matches",
+   "passed": true
+  },
+  {
+   "name": "S0_seal_zero_rank_identity",
+   "passed": true
+  },
+  {
+   "name": "T1_registered_chart_infinitesimal_stabilizer_trivial",
+   "passed": true
+  },
+  {
+   "name": "T1_blockform_infinitesimal_stabilizer_dim_1",
+   "passed": true
+  },
+  {
+   "name": "T1_blockform_stabilizer_is_screen_rotation_L23",
+   "passed": true
+  },
+  {
+   "name": "T1_R23_is_lorentz",
+   "passed": true
+  },
+  {
+   "name": "T1_R23_tangent_is_L23",
+   "passed": true
+  },
+  {
+   "name": "T1_R_pi_closed_form",
+   "passed": true
+  },
+  {
+   "name": "T1_R_pi_action_K_fixed_C_negated",
+   "passed": true
+  },
+  {
+   "name": "T1_residual_probe_forces_upper_right_block_zero",
+   "passed": true
+  },
+  {
+   "name": "T1_residual_lorentz_blockform_identities",
+   "passed": true
+  },
+  {
+   "name": "T1_residual_offdiag_coefficient_det_is_detS_squared",
+   "passed": true
+  },
+  {
+   "name": "T1_residual_A_commutes_H_iff_diagonal",
+   "passed": true
+  },
+  {
+   "name": "T1_residual_A_signs_pm1",
+   "passed": true
+  },
+  {
+   "name": "T1_residual_S_triangularity_forces_q_zero",
+   "passed": true
+  },
+  {
+   "name": "T1_residual_S_orthogonality_forces_signed_diag",
+   "passed": true
+  },
+  {
+   "name": "T1_residual_exhaustive_enumeration_klein_four",
+   "passed": true
+  },
+  {
+   "name": "T1_residual_klein_elements_preserve_class_and_fix_X0",
+   "passed": true
+  },
+  {
+   "name": "T1_residual_klein_group_closure_involutions",
+   "passed": true
+  },
+  {
+   "name": "T1_R_pi_is_klein_R23pi",
+   "passed": true
+  },
+  {
+   "name": "T1_R12pi_action_flips_k10_c00_c11",
+   "passed": true
+  },
+  {
+   "name": "T1_R13pi_action_flips_k10_c01_c10",
+   "passed": true
+  },
+  {
+   "name": "T1_strata_invariant_under_klein_group",
+   "passed": true
+  },
+  {
+   "name": "T1_screen_rotation_preserves_H_block",
+   "passed": true
+  },
+  {
+   "name": "T1_screen_rotation_upper_right_stays_zero",
+   "passed": true
+  },
+  {
+   "name": "T1_screen_rotation_K_conjugation_C_left_action",
+   "passed": true
+  },
+  {
+   "name": "T1_K_triangularity_not_preserved_probe",
+   "passed": true
+  },
+  {
+   "name": "T1_strata_invariant_under_screen_action",
+   "passed": true
+  },
+  {
+   "name": "T1_E03_trace_conjugation_invariant",
+   "passed": true
+  },
+  {
+   "name": "T1_lower_triangular_diagonal_multiplicative",
+   "passed": true
+  },
+  {
+   "name": "T1_det_lower_triangular_is_diag_product",
+   "passed": true
+  },
+  {
+   "name": "T1_R12_is_lorentz",
+   "passed": true
+  },
+  {
+   "name": "T1_R12_tangent_is_L12",
+   "passed": true
+  },
+  {
+   "name": "T1_E04_orbit_leaves_chart_class_probe",
+   "passed": true
+  },
+  {
+   "name": "T1_tangent_transports_as_bilinear_form",
+   "passed": true
+  },
+  {
+   "name": "T1_anchored_class_complement_dim_3",
+   "passed": true
+  },
+  {
+   "name": "T1_E04_orbit_obstruction_nonzero_probe",
+   "passed": true
+  },
+  {
+   "name": "T1_E06_spectator_orbit_also_leaves_class_probe",
+   "passed": true
+  },
+  {
+   "name": "T1_E06_topleft_anchor_moves_probe",
+   "passed": true
+  },
+  {
+   "name": "T1_E06_eta_symmetrization_is_H4",
+   "passed": true
+  },
+  {
+   "name": "T1_E06_condition_transports_by_conjugacy_of_H4",
+   "passed": true
+  },
+  {
+   "name": "T2_E02_bracket_lands_in_V",
+   "passed": true
+  },
+  {
+   "name": "T2_bracket_always_traceless_lands_in_E03_linear_part",
+   "passed": true
+  },
+  {
+   "name": "T2_E04_bracket_exact_form",
+   "passed": true
+  },
+  {
+   "name": "T2_E04_nonabelian",
+   "passed": true
+  },
+  {
+   "name": "T2_E05_bracket_block_diagonal_lower_tri",
+   "passed": true
+  },
+  {
+   "name": "T2_E04_closed_form_solves_ODE",
+   "passed": true
+  },
+  {
+   "name": "T2_E04_closed_form_initial_condition",
+   "passed": true
+  },
+  {
+   "name": "T2_E04_det_one_family",
+   "passed": true
+  },
+  {
+   "name": "T2_E04_same_member_additive",
+   "passed": true
+  },
+  {
+   "name": "T2_E04_cross_member_product_equals_effective_member",
+   "passed": true
+  },
+  {
+   "name": "T2_E04_effective_member_constant_iff_same_member",
+   "passed": true
+  },
+  {
+   "name": "T2_E04_member_drift_nonzero_for_distinct_members",
+   "passed": true
+  },
+  {
+   "name": "T2_E07_cross_member_closure_iff_equal_members",
+   "passed": true
+  },
+  {
+   "name": "T2_diagonal_members_commute",
+   "passed": true
+  },
+  {
+   "name": "T2_affine_effective_member_H_block_preserved",
+   "passed": true
+  },
+  {
+   "name": "T2_affine_effective_member_phi_dependent_iff_distinct",
+   "passed": true
+  },
+  {
+   "name": "T3_E08_cocycle_u12",
+   "passed": true
+  },
+  {
+   "name": "T3_E08_composed_map_in_class_with_drifted_s",
+   "passed": true
+  },
+  {
+   "name": "T3_E08_cocycle_identity_associativity",
+   "passed": true
+  },
+  {
+   "name": "T3_E08_residual_symmetry_flips_s",
+   "passed": true
+  },
+  {
+   "name": "T3_E08_klein_orbit_is_s_mod_sign",
+   "passed": true
+  },
+  {
+   "name": "T3_duhamel_lower_left_ODE",
+   "passed": true
+  },
+  {
+   "name": "T3_duhamel_initial_condition",
+   "passed": true
+  },
+  {
+   "name": "T3_full_map_solves_ODE",
+   "passed": true
+  },
+  {
+   "name": "T3_two_sided_twisted_cocycle_law",
+   "passed": true
+  },
+  {
+   "name": "T4_E07_axis_is_traceless_line",
+   "passed": true
+  },
+  {
+   "name": "T4_axes_intersect_only_at_spectator",
+   "passed": true
+  },
+  {
+   "name": "T4_screen_rotation_forces_isotropic_axis",
+   "passed": true
+  },
+  {
+   "name": "T4_SO3_forces_plus_one_point",
+   "passed": true
+  },
+  {
+   "name": "T4_SO12_forces_minus_one_point",
+   "passed": true
+  },
+  {
+   "name": "T4_banked_swap_forces_origin_on_plane",
+   "passed": true
+  },
+  {
+   "name": "T4_banked_swap_not_lorentz",
+   "passed": true
+  },
+  {
+   "name": "T4_banked_swap_full_class_two_mixing_freedoms",
+   "passed": true
+  },
+  {
+   "name": "T4_screen_rotation_full_class_forces_isotropic_diag",
+   "passed": true
+  },
+  {
+   "name": "T4_base_boost_centralizer_empty",
+   "passed": true
+  },
+  {
+   "name": "T4_centralizer_dims_generic_pm1_zero",
+   "passed": true
+  },
+  {
+   "name": "T4_vol4_scaling",
+   "passed": true
+  },
+  {
+   "name": "T4_vol4_blind_locus_is_traceless_line",
+   "passed": true
+  },
+  {
+   "name": "T4_vol4_blind_isotropic_point_lam0",
+   "passed": true
+  },
+  {
+   "name": "T4_triad_blind_locus_line",
+   "passed": true
+  },
+  {
+   "name": "T4_triad_blind_isotropic_point_is_lam_minus_half",
+   "passed": true
+  },
+  {
+   "name": "T4_witness_det_matches_banked",
+   "passed": true
+  },
+  {
+   "name": "T4_witness_4D_blind_iff_lam0",
+   "passed": true
+  },
+  {
+   "name": "T4_witness_slice_blind_iff_lam_minus_half_and_zero_shift",
+   "passed": true
+  },
+  {
+   "name": "T4_witness_slice_monomial_representation_exact",
+   "passed": true
+  },
+  {
+   "name": "T5_SO3_cell_matches_banked_point",
+   "passed": true
+  },
+  {
+   "name": "T5_SO3_forced_member_is_X_plus1",
+   "passed": true
+  },
+  {
+   "name": "T5_SO12_forced_member_is_X_minus1",
+   "passed": true
+  },
+  {
+   "name": "T5_forcing_table_key_cells",
+   "passed": true
+  },
+  {
+   "name": "T5_joint_spectator_rank_7",
+   "passed": true
+  },
+  {
+   "name": "T5_F-A_guard_every_forcing_column_is_supplied",
+   "passed": true
+  },
+  {
+   "name": "F-B_no_pointwise_selection_claimed",
+   "passed": true
+  }
+ ],
+ "results": {
+  "presentation_kernel_intersection_dim": 0,
+  "residual_finite_chart_symmetry": "EXACT (exhaustiveness PROVEN, A1 amendment): the Klein four-group {I, diag(1,1,-1,-1), diag(1,-1,-1,1), diag(1,-1,1,-1)} in SO+(1,3). Actions: R23pi: (K,C)->(K,-C); R12pi: k10->-k10, (c00,c11)->(-c00,-c11); R13pi: k10->-k10, (c01,c10)->(-c01,-c10). Proof chain: probe mixing member forces the upper-right Lam block to vanish; eta-preservation then forces block-diagonality; the fixed-H condition forces the base block signed-diagonal (orthochronous: clock sign +1); K-triangularity preservation forces the screen block signed-diagonal; det=+1 enumerates exactly the four elements (checks T1_residual_*). Carried moduli k10 and C are read modulo this quotient (k10 mod sign; C mod the signed-flip action).",
+  "T1": {
+   "presentation_law": "X'~X iff X'-X in so(1,3); intersection with the 7 directions = 0 (rank 13): strata are honest quotient conditions, none is a presentation artifact",
+   "equivariance_law": "X -> Lam X Lam^{-1}; connected structure-preserving stabilizer of the registered chart class is trivial; finite residual = EXACTLY the Klein four-group {I, diag(1,1,-1,-1), diag(1,-1,-1,1), diag(1,-1,1,-1)} (exhaustiveness proven, A1): R23pi acts (K,C)->(K,-C), R12pi/R13pi act k10->-k10 with signed C-flips; block-form residual = screen SO(2): (K,C)->(S K S^{-1}, S C)",
+   "E03": "COVARIANT (tr X = 0 is conjugation-invariant; det exp = e^{phi tr X})",
+   "E04": "SPLIT-RELATIVE (condition on (T,Pi) pair; exact orbit exits the anchored class)",
+   "E05": "SPLIT-RELATIVE (same witness class)",
+   "E06": "SPLIT-RELATIVE as a fixed condition; equivariant content = conjugacy class of H4 (banked equivariance correction instantiated)"
+  },
+  "T2": {
+   "subalgebra": "every stratum span is a Lie subalgebra; every bracket of members is traceless and lands in the E03 linear part; E04 bracket = [[0,0],[(C1-C2)H,0]] (nonabelian shift algebra); E05 block-diagonal",
+   "finite_closure": "class group (triangular, upper block e^{phi H}) closed under products for all strata; same-member one-parameter families exactly additive",
+   "exact_failure": "cross-member composition drifts the member: effective member is a (phi1,phi2)-dependent affine mixture (exact drift law banked for E04; exact k!=k' failure for E07); one-parameter anchored closure holds ONLY per member"
+  },
+  "E08_composition_law": "-(s1*exp(phi2) - s1*exp(phi1 + phi2) - s2*exp(phi2) + s2)/(exp(phi1 + phi2) - 1)",
+  "T3": {
+   "E08_law": "u=s*(1-e^{-phi}) composes as u12 = u1 + e^{-phi1} u2; s12 = [s1(1-e^{-phi1}) + s2 e^{-phi1}(1-e^{-phi2})]/(1-e^{-phi1-phi2})",
+   "E08_residual_orbit": "orbit of s under the exact Klein-four residual is {s,-s} (R23pi and R12pi flip s, R13pi fixes it); the chart-honest invariant modulus remains s mod sign (A1: conclusion unchanged, group corrected from the understated Z2)",
+   "general_law": "L(gamma2 o gamma1) = Q(gamma2) L(gamma1) + L(gamma2) rho(gamma1), Q=e^{phi K}, rho=e^{phi H}: a two-sided twisted 1-cocycle (crossed homomorphism) over the concatenation groupoid; exact on the diagonal-K subfamily, Duhamel form for general K",
+   "J07_typed_requirements": [
+    "J07: a global assignment requires overlap transition data (phi-anchor, member) satisfying the twisted cocycle law tensorially on every chart overlap - NOT filled in here",
+    "J11: loop consistency requires the cocycle holonomy around every loop to be trivial (or classified) - NOT filled in here"
+   ]
+  },
+  "T4": {
+   "plane_coordinates": "lam=(a+d)/2 (isotropic/trace modulus), kmod=(d-a)/2 (E07/reciprocal-anisotropy modulus); E07 axis = {lam=0} = det-one line; isotropic axis = {kmod=0}; intersection = E06 spectator origin",
+   "MAP_seat_equation_corrected": "'E07's k = joint-audit lambda' is FALSE at matrix level: they are orthogonal axes of the plane meeting only at the spectator point",
+   "banked_pins": {
+    "det_one_E03": "lam=0 (whole E07 axis), kmod free",
+    "supplied_SO3": "(lam,kmod)=(+1,0)",
+    "supplied_SO+(1,2)": "(lam,kmod)=(-1,0)",
+    "supplied_banked_swap_F": "(lam,kmod)=(0,0) on the plane; two mixing freedoms in full class",
+    "supplied_screen_SO2_alone": "kmod=0, C=0, k10=0 (the isotropic axis, lam free) - full-class solve, this package"
+   },
+   "volume_blind_loci_DERIVED": {
+    "full_4D_coframe_volume": "a+d=0 (lam=0): the E07/det-one axis; witness: lam=0",
+    "spatial_triad_volume_slots123": "1+a+d=0 (lam=-1/2 line); isotropic point lam=-1/2 reproduces the previously unsourced '1+2lam=0' ONLY as the spatial-triad reading",
+    "witness_slice_volume": "lam=-1/2 AND zero twist shift a=0; with shift a!=0 no lambda is volume-blind"
+   },
+   "honest_L2_modulus": "the diagonal subfamily carries TWO scalars (lam, kmod); the full class adds k10 and the four mixing parameters C, read modulo the exact Klein-four residual chart quotient (k10 mod sign; C mod the signed-flip action; lam and kmod are Klein-invariant); all pins above are CONDITIONAL on their cited supplied structures; no active premise selects any of them"
+  },
+  "T5_table": [
+   {
+    "stratum": "E02",
+    "stratum_dim": 7,
+    "det_one[E03 registration 07-25]": "dim=6",
+    "transverse_invariance[E04 registration 07-25]": "dim=4",
+    "no_mixing[E05 registration 07-25]": "dim=3",
+    "SO3_holonomy[07-27 s4]": "dim=0",
+    "SO12_holonomy[07-27 s4]": "dim=0",
+    "swap_F[07-27 s4]": "dim=2",
+    "screen_SO2_alone[banked gate 07-27; full-class solve this package]": "dim=1"
+   },
+   {
+    "stratum": "E03",
+    "stratum_dim": 6,
+    "det_one[E03 registration 07-25]": "dim=6",
+    "transverse_invariance[E04 registration 07-25]": "dim=4",
+    "no_mixing[E05 registration 07-25]": "dim=2",
+    "SO3_holonomy[07-27 s4]": "EMPTY",
+    "SO12_holonomy[07-27 s4]": "EMPTY",
+    "swap_F[07-27 s4]": "dim=2",
+    "screen_SO2_alone[banked gate 07-27; full-class solve this package]": "dim=0"
+   },
+   {
+    "stratum": "E04",
+    "stratum_dim": 4,
+    "det_one[E03 registration 07-25]": "dim=4",
+    "transverse_invariance[E04 registration 07-25]": "dim=4",
+    "no_mixing[E05 registration 07-25]": "dim=0",
+    "SO3_holonomy[07-27 s4]": "EMPTY",
+    "SO12_holonomy[07-27 s4]": "EMPTY",
+    "swap_F[07-27 s4]": "dim=2",
+    "screen_SO2_alone[banked gate 07-27; full-class solve this package]": "dim=0"
+   },
+   {
+    "stratum": "E05",
+    "stratum_dim": 3,
+    "det_one[E03 registration 07-25]": "dim=2",
+    "transverse_invariance[E04 registration 07-25]": "dim=0",
+    "no_mixing[E05 registration 07-25]": "dim=3",
+    "SO3_holonomy[07-27 s4]": "dim=0",
+    "SO12_holonomy[07-27 s4]": "dim=0",
+    "swap_F[07-27 s4]": "dim=0",
+    "screen_SO2_alone[banked gate 07-27; full-class solve this package]": "dim=1"
+   },
+   {
+    "stratum": "E06",
+    "stratum_dim": 0,
+    "det_one[E03 registration 07-25]": "dim=0",
+    "transverse_invariance[E04 registration 07-25]": "dim=0",
+    "no_mixing[E05 registration 07-25]": "dim=0",
+    "SO3_holonomy[07-27 s4]": "EMPTY",
+    "SO12_holonomy[07-27 s4]": "EMPTY",
+    "swap_F[07-27 s4]": "dim=0",
+    "screen_SO2_alone[banked gate 07-27; full-class solve this package]": "dim=0"
+   },
+   {
+    "stratum": "E07",
+    "stratum_dim": 1,
+    "det_one[E03 registration 07-25]": "dim=1",
+    "transverse_invariance[E04 registration 07-25]": "dim=0",
+    "no_mixing[E05 registration 07-25]": "dim=1",
+    "SO3_holonomy[07-27 s4]": "EMPTY",
+    "SO12_holonomy[07-27 s4]": "EMPTY",
+    "swap_F[07-27 s4]": "dim=0",
+    "screen_SO2_alone[banked gate 07-27; full-class solve this package]": "dim=0"
+   },
+   {
+    "stratum": "E08",
+    "stratum_dim": 1,
+    "det_one[E03 registration 07-25]": "dim=1",
+    "transverse_invariance[E04 registration 07-25]": "dim=1",
+    "no_mixing[E05 registration 07-25]": "dim=0",
+    "SO3_holonomy[07-27 s4]": "EMPTY",
+    "SO12_holonomy[07-27 s4]": "EMPTY",
+    "swap_F[07-27 s4]": "dim=0",
+    "screen_SO2_alone[banked gate 07-27; full-class solve this package]": "dim=0"
+   }
+  ],
+  "T5_unconstrained_columns": {
+   "active_18_family[07-26]": "UNCONSTRAINED for every stratum (zero selector rank; F-A guard: no elimination may cite this set)",
+   "seal_phi0[07-27 s5]": "UNCONSTRAINED (exp(0 X)=I for every X: zero extension-selector rank)",
+   "strong_CSN[E10, 07-25/26]": "INACTIVE (conditional; removes angular trace only if supplied)"
+  },
+  "T6": {
+   "L1_stratum": "MODULUS-CARRIED. No constraint layer C1-C4 unconditionally eliminates any stratum: C1 types covariance (E03 DERIVED-covariant via tr X=0; E04/E05/E06 split-relative, i.e. CONDITIONAL on the supplied base/screen split for their very definition); C2 closes every stratum (no composition elimination); C3 reductions are all CONDITIONAL(cite 07-27 s4: SO3->X_{+1}, SO+(1,2)->X_{-1}, swap_F->2-param mixing family); C4 violations occur only-if-imposed. The full 7-parameter family survives (moduli read modulo the exact Klein-four residual chart quotient, A1); outcome class O2/O3.",
+   "L2_transverse_modulus": "MODULUS-CARRIED and RESOLVED IN FORM: not one scalar. On the diagonal subfamily the modulus is the PAIR (lam, kmod)=((a+d)/2,(d-a)/2); the MAP's seat equation 'lambda (= E07's k)' is corrected - the axes are orthogonal and meet only at the spectator. Pins: det-one => lam=0 (kmod free) [CONDITIONAL, 07-25 E03]; SO3/SO+(1,2) => (+1,0)/(-1,0) [CONDITIONAL, 07-27]; banked swap F => (0,0) plus two mixing freedoms [CONDITIONAL, 07-27]; 4D-volume-blind <=> lam=0 [DERIVED here]; spatial-triad-volume-blind <=> lam=-1/2 [DERIVED here; this is the honest source of the previously unsourced '1+2lam=0', valid ONLY for the ruler+screen triad volume and, on the witness slice, only at zero twist shift]. Full class adds k10 and C (4 mixing) as carried moduli, read modulo the exact Klein-four residual chart quotient (k10 mod sign; C mod the signed-flip action; A1)."
+  },
+  "outcome_class": "O2/O3 mixed: stratified family survives with explicit moduli; all reductions conditional-on-supplied-structure",
+  "C4_typing": {
+   "J05": "satisfiable-in-principle for all strata (exp(phi X) integrates the pair action on every slot; E06 acts trivially on the screen - degenerate but not violated)",
+   "J06": "E02: satisfiable via retained moduli (this ledger). E03/E04/E05/E06 IMPOSED without derivation = J06's named false pass ('spectator screen isotropy or trace zero assumed') -> violated-only-if-imposed",
+   "J07": "all strata: satisfiable-in-principle pointwise; a global assignment requires the T3 twisted-cocycle transition data on overlaps - obligation open, not filled",
+   "J10": "E03: satisfies (no preferred plane needed). E04/E05/E06 as FIXED-plane conditions conflict with 'no preferred fixed plane'; the equivariant reading (plane = frame data, T1) satisfies -> violated-only-if-imposed(fixed plane)",
+   "J11": "identity/reversal/concatenation hold per member (T2); cross-member drift and loop consistency are exactly the open holonomy/cocycle obligations (T2/T3); satisfiable-in-principle, conditional",
+   "J13": "E02/E03 retain the lambda/cocycle/twist discriminators (E07/E08 live there); imposing E05 erases the cocycle discriminator, imposing E06 erases both -> violated-only-if-imposed",
+   "J15": "satisfied by this deliverable: the surviving moduli (lam, kmod, k10, C) are reported, no witness promoted to unique law"
+  }
+ },
+ "scope_stamps": [
+  "det exp(phi X) = e^{phi tr X} rides the exact triangular lemmas plus the standard series-limit argument; instantiated exactly on the diagonal subfamily, E08, and the E04 closed form below.",
+  "T3 diagonal-K closed form holds on the generic stratum kA != -1, kB != +1; on the resonant sub-strata k_i = h_j the integral degenerates to phi*e^{phi h_j} (same Duhamel/ODE characterization; not expanded here).",
+  "T3 general-K law is proven exactly on the diagonal-K subfamily (closed integrals); for k10 != 0 the same Duhamel/ODE characterization holds but the closed integral was not expanded (bounded scope).",
+  "generic-lambda centralizer dim computed with symbolic lam (rank over the rational-function field).",
+  "full-class spatial-triad volume: pure-triad coefficient scales as e^{(1+k00+k11)phi}; for C != 0 the transported triad additionally acquires theta0-components (mixing contamination), so strict triad volume-blindness requires tr K = -1 AND vanishing C-minors; on the diagonal plane this reduces to 1+a+d=0."
+ ],
+ "falsifier_flags": {
+  "F-A": false,
+  "F-B": false,
+  "F-C": false,
+  "F-D": false,
+  "F-E": false
+ }
+}
