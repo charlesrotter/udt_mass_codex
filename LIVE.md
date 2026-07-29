@@ -12,7 +12,15 @@ Stale historical frontier layers live under `archive/LIVE_historical_frontier_th
 
 **READ NEXT, IN ORDER:** 1. `udt_p4_routeA_response_inverse_problem_2026-07-29/AUDIT_REPORT.md` (+ POSED_INVERSE_PROBLEM.md — the Stage-2 attack document; CORRECTION_LAYER + VERIFIER_REPORT). 2. The Route B/C banks (below). 3. `udt_p4_variation_domain_map_2026-07-28/MAP.md` (the cleared frame).
 
-**ON CHARLES'S DESK:** (1) **ROUTE A STAGE 2 GO/SHAPE** — the existence/uniqueness/emptiness assault on the posed problem (the AUDIT_REPORT's NEXT-STAGE HANDLE; stated, not launched): is the response space satisfying the 15 formalized requirements empty / unique / a family? Recommended shape: staged like Stage 1 (pointwise-decidable requirements first as exact reductions, then the global gates), each stage preregistered+blind-verified; (2) PONDER items now three-deep on the twist/angular thread: selector-theorem α-decisiveness, the λ-seat-unfrozen Bach branch, and now the forced trace-free screen slot — the metric keeps pointing at the angular sector unprompted; (3) standing items unchanged (ownership-criterion + area-value adjudications; Lane-1 hopfion; CANON; registry current through #78).
+**QUEUED BY CHARLES (2026-07-29, timing his call):** a bounded GR-ANALOG RECONNAISSANCE tile —
+mine the GR corpus for analogs of the P4 problems (Lovelock/natural-tensor classification ↔ the
+Route A inverse problem; variational-multiplier problem ↔ L6/L7; GHY/Hayward/covariant phase
+space ↔ R6/gate 5; Wald charges + quantized periods ↔ R9/gates 4/6; Utiyama-type invariance
+theorems ↔ F-RA1). Method + failure-surface only, NEVER answers (Category-A lane clause travels
+verbatim); departure points where GR-specific structure breaks = the interesting output.
+Natural slot: alongside/after Stage 2 verification. NOT launched.
+
+**ON CHARLES'S DESK:** (1) ~~ROUTE A STAGE 2 GO~~ **LAUNCHED by Charles 2026-07-29** — Stage 2 = the pointwise reduction of the response space (contract frozen at b741add: TB1–TB6, jet≤2 exhaustive + order-independent structural, forks carried; derivation in flight; Stage 3 = the WS/GC gates on ℛ_PW, NOT yet authorized); (2) PONDER items now three-deep on the twist/angular thread: selector-theorem α-decisiveness, the λ-seat-unfrozen Bach branch, and now the forced trace-free screen slot — the metric keeps pointing at the angular sector unprompted; (3) standing items unchanged (ownership-criterion + area-value adjudications; Lane-1 hopfion; CANON; registry current through #78).
 
 **AUTHORITY BOUNDARY:** Route A Stage 2 requires Charles's go. Still closed: adopting any action/response as physics, any physical branch or alpha value, source/carrier/density/bootstrap/boundary-law adoption, matter/time-live/GPU work, canonization, reorganization.
 
