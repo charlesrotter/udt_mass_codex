@@ -72,8 +72,14 @@ that exhausted set:
   (a=−k, d=+k, reciprocal screen) and the isotropic seat (a=d=λ, the joint-audit lambda)
   are DISTINCT axes of the diagonal (a,d) plane. Map the (a,d)-plane (b=0, C=0 diagonal
   subfamily) completely: which banked results constrain which locus (det-one line
-  a+d=0; volume-blind locus 1+2λ=0 at the orbit-volume level; swap-forced λ=0; ±1
-  conditional points). Deliverable: the honest L2 modulus is identified exactly (which
+  a+d=0; swap-forced λ=0; ±1 conditional points). AMENDED PRE-DERIVATION (2026-07-28,
+  before any derivation ran): the previously listed "volume-blind locus 1+2λ=0 at the
+  orbit-volume level" is UNSOURCED in the main tree (recon found only
+  det E = R³·exp(2λφ) in the joint-audit witness; the spatial-volume reading depends on
+  which legs enter the spatial triad) — it is NOT a banked pin. T4 must DERIVE the
+  volume-blind locus (or loci) from the exact coframe volume forms itself, or DROP the
+  claim; citing it as banked would be an F-B-class bank contradiction. Deliverable: the
+  honest L2 modulus is identified exactly (which
   scalar(s), on which subfamily, with which banked pins) — resolving the MAP's "E07's k
   = the joint audit's lambda" seat-level equation into matrix-level precision.
 - **T5 (conditional-gate assembly).** The stratum × supplied-reduction forcing table
