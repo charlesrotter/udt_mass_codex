@@ -76,7 +76,14 @@ completion label 𝔠 indexes which of the 12 FC families closes the cell — su
 ### 1.4 What a tangent vector IS
 
 A tangent vector at a configuration is the equivalence class (mod infinitesimal gauge;
-on the registered chart, mod nothing continuous — the quotient is discrete K₄):
+on the registered chart the CLASS-WIDE continuous stabilizer is trivial, so at GENERIC
+members this is mod nothing continuous and the quotient is discrete K₄ — SCOPE NOTE
+(Stage-2 A1): per-MEMBER continuous gauge directions exist on the degeneration strata
+of the moduli (k_mod = 0: the screen rotation, with an exact pointwise Noether
+identity; the eigenvalue-resonance locus λ∓k_mod ∈ {±1}, whose sub-varieties —
+including C ≠ 0 ones — carry further exact identities; the named C = 0 strata do not
+exhaust the resonance content) — see
+`udt_p4_routeA_stage2_pointwise_reduction_2026-07-29/EXACT_DERIVATION.md` §2):
 
     δ𝒳 = ( δφ ; δ(base data) = (δf, δbh [, δα if active fork][, δc_E if promoted]) ;
             δm = (δλ, δk_mod, δk10, δC)  [ℝ⁷-vector, or field variations per fork] ;

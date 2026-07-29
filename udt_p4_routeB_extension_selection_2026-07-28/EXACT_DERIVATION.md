@@ -42,6 +42,11 @@ B = Σβᵢ Lᵢ with the two conditions [B, X₀] ∈ V and [B, V] ⊆ V:
 
 - Registered class (fixed H block, zero upper-right, K lower-triangular): infinitesimal
   stabilizer **trivial** (`T1_registered_chart_infinitesimal_stabilizer_trivial`).
+  SCOPE NOTE (Route A Stage-2 A1): this is the CLASS-WIDE stabilizer (tangency for
+  every class member); PER-MEMBER stabilizers jump on strata — on k_mod = 0 the screen
+  rotation span(L23) (the same L23 that survives on the relaxed block form, next
+  bullet) is tangent at the member, giving an exact pointwise Noether identity; see
+  `udt_p4_routeA_stage2_pointwise_reduction_2026-07-29/EXACT_DERIVATION.md` §2.
 - Relaxed block form (general K): stabilizer is exactly the screen rotation span(L23),
   dim 1 (`T1_blockform_infinitesimal_stabilizer_dim_1`,
   `T1_blockform_stabilizer_is_screen_rotation_L23`), acting as

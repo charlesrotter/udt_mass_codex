@@ -373,3 +373,22 @@ with Charles; nothing here is a drill target.
   "corpus result X was proved by machinery Y, which transforms up to step Z where it breaks
   on structure W." Nothing about what UDT's equations ARE; no candidate favored; no gate
   pre-judged.
+
+---
+
+## STAMP RESOLUTION (driver, 2026-07-29 — Stage 2 BANKED)
+
+Route A Stage 2 is banked at grok 2c0e7cc (VERIFIED-WITH-AMENDMENT, two closure rounds). Every
+`[PROVISIONAL-pending-Stage-2-bank]` stamp in this document is hereby RESOLVED to the banked
+statement, which matches the refined form carried above with ONE further deepening from the
+second closure round: the resonance rank-drop locus λ∓k_mod ∈ {±1} carries, beyond the four
+named C = 0 strata (identities auto-satisfied), higher-codimension **C ≠ 0 sub-varieties whose
+identities ARE further genuine cuts** (derived example: the shear-slot identity
+−c10·r_sh − k10·m10 = 0 on {λ−k_mod = −1, c00 = c01 = 0}); k_mod = 0 remains the only
+CODIMENSION-1 cut (Gröbner-exhaustive), and the full deeper stratification is
+TYPED-NOT-EXHAUSTED. Consequences for this map: the generic-stratum qualifications above stand
+unchanged; D2's "stratum-graded alternation between determined and constrained regimes" is
+STRENGTHENED (the alternation has depth — a graded tower of stratum cuts, still corpus-less);
+the gate-1/Fischer–Marsden shortlist item and the Wald-exclusion reasoning survive unchanged.
+Standing condition inherited from the bank: any Stage-3 candidate CONTACTING the resonance
+locus requires the queued deeper-census tile before adjudication.

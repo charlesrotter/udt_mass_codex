@@ -94,3 +94,9 @@ contradicting the qualified TG2 #1 it summarizes. Fixed with the auditor's pre-a
 wording: "generically vacuous identity set — stratum-local exceptions, see TG2 #1
 [PROVISIONAL]". Auditor's closure statement: "Upon that one edit, the package closes with
 no open items." No other change.
+
+## Stamp resolution (driver, 2026-07-29)
+
+Stage 2 banked (2c0e7cc): all PROVISIONAL-pending-Stage-2-bank stamps resolved via the STAMP
+RESOLUTION section appended to ANALOG_RECON_REPORT.md (generic-stratum qualifications stand;
+the C≠0 deeper-cut refinement recorded; D2 strengthened; shortlist unchanged).
