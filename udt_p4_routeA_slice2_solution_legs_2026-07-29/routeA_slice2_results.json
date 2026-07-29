@@ -1,0 +1,263 @@
+{
+ "package": "udt_p4_routeA_slice2_solution_legs_2026-07-29",
+ "contract": "PREREGISTRATION.md (frozen; bootstrap-lens frame binding)",
+ "outcome_class": "OD1 (survivors map populated; no elimination; no conditional-on-background find among representatives; bootstrap observations recorded)",
+ "amendments": {
+  "verdict": "PASS-WITH-REQUIRED-AMENDMENTS (VERIFIER_REPORT.md); both F-D3-class stamp repairs; no computation refuted, no falsifier fired",
+  "A1": "sign(aF) stamp on the depth-profile SHAPE: p0''(vertex) ~ sign(aF) \u2014 WELL (single minimum) for aF > 0, BUMP (single maximum) for aF < 0 (inside the explored range: P1-4D lam < 0, P1-triad lam < -1/2); 'symmetric' = about the vertex; E0 >= 0 / regularity / nodelessness / closed form are sign-free (verified at free real aF). New checks: A1_well_zero_residual_signfree, A1_vertex_curvature_sign_of_aF, A1_bump_instance_regular_nodeless. FOURTH instance of the named F-D3/F-S3 scope class (mechanism-caught).",
+  "A2": "proof-coverage repair on the locus-nonemptiness claim: TRUE at every aF != 0 background but previously exhibited only at (aF, ell) = (1, 1), and the 'w <= 5/8 => I_p < 0' leg flips for aF < 0. Verifier's general-(aF, ell) both-signs symbolic legs adopted: A2_locus_legs_general_sign_pos/_neg; witness stamp installed on the TD2 sentence; continuity leg stays Category-A.",
+  "dead_code": "verifier note N4: unused legA_ok/bound_A removed (cosmetic)."
+ },
+ "checks_total": 41,
+ "checks_substantive": 33,
+ "checks_guards": 8,
+ "checks_failed": 0,
+ "checks": [
+  {
+   "name": "S0_K4_and_X_recomputed",
+   "passed": true,
+   "detail": "K4 exact and the registered E02 footing X = [[H,0],[C,K]] (banked conventions recomputed)",
+   "kind": "substantive"
+  },
+  {
+   "name": "S0_kmod0_identity_recomputed",
+   "passed": true,
+   "detail": "the exact k_mod = 0 pointwise Noether identity -2 k10 r_tf + m00c10 + m01c11 - m10c00 - m11c01 = 0 recomputed from <slots, [L23,X]> (Stage-2 A1, consistency; r_tr/r_sh/r_nl drop out)",
+   "kind": "substantive"
+  },
+  {
+   "name": "T0_weight_invertibility_zero_set_theorem",
+   "passed": true,
+   "detail": "THEOREM (field sector, all READY cells): the anchored weight WF = e^{aF p0} has the exact inverse e^{-aF p0} and is positive, so WF*R_a = 0 iff R_a = 0 \u2014 the FIELD-sector zero set of a FIXED component tuple is IDENTICAL across the enumerated anchored pairing family (P1-4D/P1-triad/P2/P3-bulk). SCOPE: enumerated anchored branches, jet <= 2, registered stationary presentation, BASE branch. Pairing-branch dependence of R = 0 enters ONLY through (a) G3 cell MEMBERSHIP of the tuple (banked, pairing-relative) and (b) the WM-weighting of the integrated constant-moduli rows",
+   "kind": "substantive"
+  },
+  {
+   "name": "T0_base_branch_integrated_row",
+   "passed": true,
+   "detail": "[definitional unpacking, cited] the enumerated pairing <R,dX> = int [sum_a WF R_a dU_a + sum_mu WM R_mu dm_mu] dx (Stage-3 registration); on the BASE branch dm_mu is an x-CONSTANT direction, so its coefficient is the INTEGRATED scalar row int WM R_mu dx = 0 \u2014 one relation per cell per modulus. The pointwise row R_mu = 0 is the BR-M field-fork reading (typed NOT-EXHAUSTED upstream; OUT of READY scope, stamped)",
+   "kind": "citation-guard"
+  },
+  {
+   "name": "TD1_LE_generated_components_match",
+   "passed": true,
+   "detail": "GEN-QUAD components computed from the generated construction: R_p = aF(f1^2+h1^2-p1^2)/2 - p2, R_f = -(aF p1 f1 + f2), R_h = -(aF p1 h1 + h2) \u2014 one tuple, symbolic aF covering all five enumerated branches by substitution (2lam / 1+2lam / 0)",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD1_LE_rep_helmholtz_reinstantiated",
+   "passed": true,
+   "detail": "GEN-QUAD satisfies the field-field Helmholtz families (i)-(iii) identically at symbolic aF (re-instantiation of the banked Stage-3 generated-family theorem \u2014 consistency, not a new derivation); H4/H5 by the banked TC1_H4/H5_generated_witness (cited)",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD1_LE_energy_first_integral",
+   "passed": true,
+   "detail": "Dx(WF*Ltil0) = 0 on-shell: the anchored energy density E0 := e^{aF p0} Ltil0 is an exact first integral of the GEN-QUAD system (DERIVED from autonomy, not assumed; symbolic aF)",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD1_LE_shift_currents",
+   "passed": true,
+   "detail": "Dx(e^{aF p0} f1) = Dx(e^{aF p0} h1) = 0 on-shell: two more exact first integrals c_f, c_h (from the derived f/h shift symmetries \u2014 see TD4)",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD1_LE_well_solution_zero_residual",
+   "passed": true,
+   "detail": "EXACT SOLUTION FAMILY (GEN-QUAD, aF != 0): e^{aF p0} = w(x) = (aF^2 E0/2) x^2 + w1 x + w0; f' = c_f/w, h' = c_h/w; free parameters (w0>0, w1, c_f, c_h, f(0), h(0)) with E0 = (w1^2/aF^2 + c_f^2 + c_h^2)/(2 w0): all three field equations vanish IDENTICALLY (zero residual, symbolic aF, no constraint juggling; A1 re-verifies at FREE REAL aF of BOTH signs \u2014 the positivity declaration here is conditioning, not load-bearing)",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD1_LE_disc_E0_sign_structure",
+   "passed": true,
+   "detail": "disc(w) = w1^2 - 4Aw0 = -aF^2(c_f^2+c_h^2) <= 0 EXACTLY, and 2 w0 E0 = w1^2/aF^2 + c_f^2 + c_h^2 (a sum of squares): every real member with w0 > 0 has E0 >= 0, w has no real root for c != 0 (a globally regular, NODELESS depth profile \u2014 SIGN-STAMPED per A1: a single-MINIMUM well of p0 for aF > 0, a single-MAXIMUM bump for aF < 0, since p0''(vertex) has the sign of aF [A1_vertex_curvature_sign_of_aF]; 'symmetric' = about the vertex), and E0 = 0 iff w1 = c_f = c_h = 0 (constants). EMERGENT (observed, not imposed): anchored-weight positivity forces nonnegative energy on this family \u2014 SIGN-FREE, both signs of aF. SCOPE: GEN-QUAD representative, aF != 0 branches, BASE branch, GENERIC/KMOD0 strata, all backgrounds",
+   "kind": "substantive"
+  },
+  {
+   "name": "A1_well_zero_residual_signfree",
+   "passed": true,
+   "detail": "A1 (verifier's sign-free re-derivation adopted): the closed-form family solves all three GEN-QUAD field equations with aF a FREE REAL nonzero symbol (NEGATIVE included) and c_f, c_h real of any sign \u2014 the TD1 positive=True declaration is NOT load-bearing. SCOPE: GEN-QUAD representative, aF != 0 branches, BASE branch, all backgrounds",
+   "kind": "substantive"
+  },
+  {
+   "name": "A1_vertex_curvature_sign_of_aF",
+   "passed": true,
+   "detail": "A1 SIGN LAW (both ways, zero residual): p0''(vertex) = 8A^2/(aF^3 (c_f^2+c_h^2)) has the SIGN of aF \u2014 instantiated POSITIVE at aF = +1 (single-MINIMUM well) and NEGATIVE at aF = -1 (single-MAXIMUM bump). aF < 0 occurs INSIDE the explored background range (P1-4D aF = 2 lam: lam < 0; P1-triad aF = 1 + 2 lam: lam < -1/2). SCOPE: GEN-QUAD, aF != 0 branches, BASE branch",
+   "kind": "substantive"
+  },
+  {
+   "name": "A1_bump_instance_regular_nodeless",
+   "passed": true,
+   "detail": "A1 BUMP INSTANCE (aF = -1, w0 = 1, w1 = 0, c_f = c_h = 1, E0 = 1): zero residual in all three equations; w = x^2/2 + 1 with disc = -2 < 0 so w > 0 EVERYWHERE (globally regular, nodeless); p0''(0) < 0 \u2014 a single-MAXIMUM bump of the depth, regular and nodeless exactly as the aF > 0 well is. The sign-free structure (E0 >= 0, regularity, nodelessness) carries; only the SHAPE word flips. SCOPE: GEN-QUAD, aF < 0 side of the explored background range, BASE branch",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD1_LE_solution_space_rank6",
+   "passed": true,
+   "detail": "the parameter-to-initial-data map has rank 6 at a rational point: the closed-form family realizes generic initial data; with the system in solved form u'' = F(u,u') (Picard uniqueness, Category-A cited) the LOCAL field-sector solution space is EXACTLY the 6-dim initial-data manifold, covered by the family where it extends (w > 0). SCOPE: local-in-x exhaustiveness for the REPRESENTATIVE family; sign-symmetric in c_f, c_h (taken positive here; c=0/E0=0 edges enumerated separately)",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD1_LE_blindness_affine_case",
+   "passed": true,
+   "detail": "at aF = 0 the GEN-QUAD tuple degenerates EXACTLY to (-p2, -f2, -h2): solution space = AFFINE atlas u = u(0) + u'(0) x (6 params). aF = 0 is the whole P2/P3-bulkP2 branch AND the banked T4 blindness loci INSIDE the P1 branches (P1-4D at lam = 0; P1-triad at lam = -1/2): the solution-space SHAPE (well vs affine) is BACKGROUND-CONTROLLED through the pairing weight \u2014 an exact background-transition inside a single branch (observation)",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD1_LE_E0zero_constants_only",
+   "passed": true,
+   "detail": "E0 = 0 forces w1 = c_f = c_h = 0 (sum-of-squares, real class), hence w = w0 constant and p1 = f1 = h1 = 0: the E0 = 0 stratum of the family is EXACTLY the constant solutions (trivial atlas members, present at EVERY background). SCOPE: GEN-QUAD, real class, w0 > 0",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD1_quadrature_f_closed_form",
+   "passed": true,
+   "detail": "f(x) = f(0) + (2 c_f/s) [atan((2Ax+w1)/s) - atan(w1/s)], s = sqrt(4Aw0 - w1^2) = |aF| c: EXACT closed-form quadrature (verified by differentiation); h identical with c_h. SCOPE: c != 0, aF != 0; c = 0 gives f, h constant; aF = 0 gives f, h affine",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD1_quadrature_logw_closed_form",
+   "passed": true,
+   "detail": "int log(w) dx has the EXACT antiderivative G(x) = (x + w1/2A) log w - 2x + (s/A) atan((2Ax+w1)/s) (verified by differentiation): I_p := int_{-ell}^{ell} p0 dx = [G(ell) - G(-ell)]/aF in closed form. SCOPE: E0 != 0, c != 0",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD1_omega_zero_set_k10_stratum",
+   "passed": true,
+   "detail": "omega-shape (R_k10 = k10, all other slots 0; banked LE cells: P2/P3-bulkP2/P1 with lam-independent a_M): the only nonvacuous row of R = 0 is the integrated k10-row k10 * int WM dx = 0; the integrand is positive so int WM dx > 0 (Category-A positivity) and the EXACT solution space is the stratum {k10 = 0} x {ALL fields free} x {all other moduli retained} x {all backgrounds} \u2014 a_M-independent (pairing-supply branch-independence PROVEN for this row). SCOPE: omega representative, its banked LE cells, BASE branch, GENERIC+KMOD0 (off RES-CNEQ0, banked stamp)",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD1_W1_affine_atlas_and_NV_defect",
+   "passed": true,
+   "detail": "W1 = (p2, f2, h2): zero set = the AFFINE atlas u = u(0) + u'(0) x (6 params, all moduli retained, all backgrounds); its Helmholtz-(ii) defect is exactly -2 aF p1 e^{aF p0} \u2014 NONVARIATIONAL on the aF != 0 branches (P1-4D/P1-triad/P3-bulkP1) exactly OFF the blindness loci, LE at aF = 0 (P2-side) \u2014 re-instantiating the banked TC1_W1 adjudication with symbolic aF. The SAME zero set appears in the LE cell (P2) and the NV cell (P1-side): the T0 zero-set theorem in action",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD1_W2fs_same_zero_set_under_P2",
+   "passed": true,
+   "detail": "W2-fs (the W2' field sector with ALL moduli slots zero; banked NONVARIATIONAL under P2, TC1_W2_LE_P1_NV_P2 cited) is the IDENTICAL tuple to GEN-QUAD at aF = 2 lam: its zero set under P2 is the SAME well atlas (with lam a free background coordinate and NO integrated lam-row, since its moduli slots are zero) \u2014 the NV cell of P2/P3-bulkP2 carries the full well atlas with no background tie. SCOPE: W2-fs representative, P2-side NV cells, BASE branch",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD1_W3_underdetermined_member",
+   "passed": true,
+   "detail": "W3 = (p1, 0, 0) (banked all-branch NV, proof cited): zero set = {p0 = const} x {f, bh ARBITRARY functions} x {moduli retained} \u2014 this MEMBER's on-shell system is DEGENERATE/UNDERDETERMINED (its f/bh rows are identically zero), a per-member fact that does NOT contradict the banked DETERMINED-TYPE gate-1 count (which types the generic member). SCOPE: W3 representative, all enumerated branches, both READY strata, all backgrounds",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD1_kmod0_noether_residual_zero_reps",
+   "passed": true,
+   "detail": "on KMOD0 the banked stratum Noether identity is satisfied IDENTICALLY by every atlas representative (GEN-QUAD/W1/W2-fs/W3: field-sector members, r_tf = M = 0 \u2014 the banked all-strata carrier class; omega: r_sh does not enter the identity \u2014 banked on-stratum witness): the KMOD0 solution atlases are the GENERIC ones restricted to k_mod = 0, uncut by the identity. SCOPE: the named representatives, KMOD0, jet <= 2, BASE branch",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD1_kmod0_L23_quotient_reps",
+   "passed": true,
+   "detail": "the L23-orbit quotient carried on KMOD0 (gate-1 duty): the gauge tangent has chart reading (dlam, dk_mod, dk10, dC) = (0, k10, 0, J.C) with J the screen rotation; GEN-QUAD's components are (k10,C)-INDEPENDENT so its solution family is L23-invariant and the quotient acts only on the RETAINED moduli coordinates (well-defined orbit families); omega's zero set {k10 = 0} has dk10 = 0 (invariant) and on it dk_mod = 0 (stays on-stratum). SCOPE: named representatives, KMOD0, registered chart",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD2_R5_V_M_rho_closed_forms",
+   "passed": true,
+   "detail": "R5 triple on ONE GEN-QUAD solution (no splicing \u2014 F-D6): V = int_{-ell}^{ell} w dx = (2/3) A ell^3 + 2 w0 ell (the branch's own declared volume functional, THEORY-supplied by the pairing branch); M = int E0dens dx = 2 ell E0 (M-INSTANTIATION = the member's own first-integral energy \u2014 CHOSE-tagged, CONDITIONAL: the banked mass rows are CONDITIONAL/OPEN, stamp travels with every R5 number); rho = M/V exact closed form; the closure identity rho V = M holds on the same solution by construction. SCOPE: GEN-QUAD representative, aF != 0 branches, all backgrounds (aF = 0: V = 2 ell, M under the P2 dual class = typed L7 datum, recorded)",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD2_lambda_row_exact_form",
+   "passed": true,
+   "detail": "the generated lam-slot obeys WM R_lam = d(WF Ltil0)/dlam EXACTLY for BOTH enumerated P1 instances (aF' = 2) and for EVERY supplied a_M (the WM cancels: pairing-supply branch-independence of the integrated row PROVEN); on-shell the integrand is 2 p0 (WF Ltil0) = 2 p0 E0, so the BASE-branch lam-row is 2 E0 int p0 dx = 2 E0 I_p / with I_p in the TD1 closed form. Under P2 (aF' = 0) the row is IDENTICALLY ZERO. SCOPE: GEN-QUAD, BASE branch",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD2_selfconsistent_locus_nonempty",
+   "passed": true,
+   "detail": "SELF-CONSISTENT LOCUS (P1-side GEN-QUAD; reported per prereg 2c): {E0 = 0 (constants)} UNION {I_p = 0} with I_p = [G(ell)-G(-ell)]/aF exact (TD1 quadrature). NONTRIVIAL nonemptiness witnessed here at the SINGLE background point (aF, ell) = (1, 1), w1 = 0 [A2 witness stamp \u2014 the general-(aF, ell) BOTH-signs legs are the A2_* checks]: leg A (w0 = 1/2, c = 1/2) gives w = t^2/8 + 1/2 <= 5/8 < 1 on [-1,1] so log w <= log(5/8) < 0 and (at aF = 1 > 0) I_p < 0 \u2014 NOTE this implication is aF-SIGN-DEPENDENT (I_p = (int log w)/aF flips with aF; the A2 legs carry both signs); leg B (w0 = 2, c = 2*sqrt(2) -> c^2 = 8) gives w = t^2 + 2 >= 2 > 1 so I_p >= 2 log 2 > 0; continuity of the explicit closed form along any parameter path joining the legs (Category-A) yields an I_p = 0 root with E0 > 0. Monotonicity of log and integral positivity are the two Category-A calculus steps (stated, cited). SCOPE: GEN-QUAD, P1-4D/P1-triad/P3-bulkP1, BASE branch, GENERIC+KMOD0; this check's legs = the (aF, ell) = (1, 1) witness only",
+   "kind": "substantive"
+  },
+  {
+   "name": "A2_locus_legs_general_sign_pos",
+   "passed": true,
+   "detail": "A2 (verifier legs adopted; aF > 0 branch, SYMBOLIC (|aF|, ell)): leg A' realizes w = x^2/(8 ell^2) + 1/2 <= 5/8 < 1 on the whole cell and leg B' realizes w = x^2/ell^2 + 2 >= 2 > 1, BOTH with E0 > 0 (proven symbolically); int log w dx is negative on A' and positive on B' (Category-A: log monotone, integral sign), so I_p = (int log w dx)/aF CHANGES SIGN between the legs FOR THIS SIGN OF aF too; continuity of the closed form along the connecting parameter path (E0 > 0, w > 0, disc < 0 throughout) gives an I_p = 0 root with E0 > 0. With both A2 checks: nonconstant self-consistent solutions exist at EVERY aF != 0, ell background \u2014 the claim's proof coverage now matches its scope. SCOPE: GEN-QUAD, P1-4D/P1-triad/P3-bulkP1, BASE branch, GENERIC+KMOD0",
+   "kind": "substantive"
+  },
+  {
+   "name": "A2_locus_legs_general_sign_neg",
+   "passed": true,
+   "detail": "A2 (verifier legs adopted; aF < 0 branch, SYMBOLIC (|aF|, ell)): leg A' realizes w = x^2/(8 ell^2) + 1/2 <= 5/8 < 1 on the whole cell and leg B' realizes w = x^2/ell^2 + 2 >= 2 > 1, BOTH with E0 > 0 (proven symbolically); int log w dx is negative on A' and positive on B' (Category-A: log monotone, integral sign), so I_p = (int log w dx)/aF CHANGES SIGN between the legs FOR THIS SIGN OF aF too; continuity of the closed form along the connecting parameter path (E0 > 0, w > 0, disc < 0 throughout) gives an I_p = 0 root with E0 > 0. With both A2 checks: nonconstant self-consistent solutions exist at EVERY aF != 0, ell background \u2014 the claim's proof coverage now matches its scope. SCOPE: GEN-QUAD, P1-4D/P1-triad/P3-bulkP1, BASE branch, GENERIC+KMOD0",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD2_P2_no_background_tie",
+   "passed": true,
+   "detail": "under P2/P3-bulkP2 (aF = 0, aF' = 0) the lam-row is IDENTICALLY zero: NO background tie exists \u2014 the self-consistent locus is ALL backgrounds (degenerate, reported per F-D8, not suppressed); the P1-instance tie degenerates to this at the T4 blindness loci (lam = 0 / lam = -1/2). BOOTSTRAP OBSERVATION (recorded, not adopted): the bootstrap-SHAPED background tie (2 E0 I_p = 0) EMERGES on background-anchored pairings (aF' != 0) and is ABSENT on the weight-free pairing \u2014 the tie is pairing-branch-RELATIVE, not universal. SCOPE: GEN-QUAD family, enumerated branches, BASE branch",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD3_lens_classification_record",
+   "passed": true,
+   "detail": "[recording row] LENS TALLIES (per representative family, per \u00a72 \u2014 every entry scoped cell+branch+stratum+background): WORKS-GENERICALLY = GEN-QUAD (all 5 branches: solutions at EVERY admissible background \u2014 constants everywhere, nodeless quadratic-w profiles for aF != 0 (single-minimum WELL for aF > 0 / single-maximum BUMP for aF < 0 \u2014 A1 sign stamp), plus the I_p = 0 nontrivial locus), W1, W2-fs, W3, omega (zero set nonempty at every background). CONDITIONAL-ON-BACKGROUND: NONE FOUND among representatives (no \u00a72d instance at this slice). FAILS-BACKGROUND-ROBUSTLY: NONE (no elimination claimed; F-D2 never engaged). UNDETERMINED: the R5 leg of all NV-cell representatives (mass functional NOT-DERIVABLE at this slice \u2014 see TD5 record; reported, not suppressed \u2014 F-D8)",
+   "kind": "citation-guard"
+  },
+  {
+   "name": "TD4_gate1_onshell_record",
+   "passed": true,
+   "detail": "[recording row] GATE-1 ON-SHELL CLOSURE (per stratum): GENERIC \u2014 GEN-QUAD/W1/W2-fs are EXPLICITLY INTEGRATED determined systems (rank-6 initial-data manifold + closed forms; 0 or 1 active integrated moduli rows, rest retained/reported); W3 is per-member DEGENERATE (recorded). KMOD0 \u2014 same solutions restricted to k_mod = 0; the one banked algebraic row dependency is trivially consistent on the representatives (identity residual 0) and the L23-orbit quotient is carried (TD1_kmod0 checks). RES-CNEQ0: CENSUS-REQUIRED, untouched (resonance rule). No existence claim beyond the exhibited families; no uniqueness claim beyond Picard-local",
+   "kind": "citation-guard"
+  },
+  {
+   "name": "TD4_symmetries_derived_not_assumed",
+   "passed": true,
+   "detail": "gate-4 current leg (none assumed): the GEN-QUAD components are f0/h0-independent and x-autonomous (jet-built), so f-shift, h-shift, and x-translation are DERIVED continuous symmetries on the evaluated stratum; their currents e^{aF p0} f1, e^{aF p0} h1, E0dens are exactly conserved on-shell (TD1 first-integral checks). omega/W3: no continuous symmetry claimed (none assumed). SCOPE: named representatives, both READY strata, all enumerated branches",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD4_R14_diagnostic_column",
+   "passed": true,
+   "detail": "[diagnostic column ONLY \u2014 R14/G12: no bootstrap structure enters any definition] bootstrap-admissibility reading on the solution sets: ADMISSIBLE-AND-NONTRIVIAL on P1-side GEN-QUAD (the background seat lam appears as an explored family coordinate AND the member's own integrated lam-row is a bootstrap-shaped self-consistency equation 2 E0 I_p = 0 tying content to background \u2014 EMERGED from the pairing structure, not imposed); ADMISSIBLE-VACUOUS on P2-side members and on omega/W1/W3 (no background tie; background remains a free explored coordinate). Recorded for/against evidence: FOR \u2014 the tie emerges unforced on anchored pairings; AGAINST universality \u2014 the tie is absent on P2 (pairing-relative, so the response structure alone does not force a bootstrap)",
+   "kind": "citation-guard"
+  },
+  {
+   "name": "TD5_parity_admissible_witness",
+   "passed": true,
+   "detail": "gate-5 canon-parity leg (eps_phi = -1, THEORY-cite C-2026-06-10-2/C-2026-07-04-1; f/bh parities SUPPLIED, tagged): the trace conditions p0(+-ell) = 0, p2(+-ell) = 0 cut an EXACT admissible sub-locus of the GEN-QUAD family, NONEMPTY: witness E0 = 1/(aF ell)^2, c^2 = 1/(aF ell)^2 (c_f, c_h = 3/5, 4/5 of 1/(aF ell)), w = x^2/(2 ell^2) + 1/2 \u2014 w(+-ell) = 1, p2(+-ell) = 0, w > 0 on the whole cell (min 1/2): an exact, everywhere-regular, mirror-admissible nonconstant solution with both shift currents on. SCOPE: GEN-QUAD, aF != 0 branches, canon parity instance, BASE branch, all aF/ell backgrounds",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD5_NV_wall_duty_record",
+   "passed": true,
+   "detail": "[recording row] NV-cell gate-5/R_wall duty on solutions (banked NO-BULK-FORCED-SLOTS): the NV representatives (W1, W2-fs, W3) are declared with ZERO wall/corner components, so on the BR-B varied fork their wall equations are vacuous and on the held fork the consistency conditions are trivial \u2014 their gate-5 admissibility on solutions reduces to the parity/sector-split of the SOLUTIONS' own traces (for W1-affine: odd-parity p0-traces force p0(0-jet)(wall) = 0, i.e. a_p-intercept = 0 at each wall \u2014 exact, recorded; for W2-fs: the same trace loci as GEN-QUAD). Nonzero NV wall blocks = Slice-2b (typed). R5 for NV members: the branch VOLUME functional exists (V = int WM/WF dx per branch), but NO mass functional is DERIVABLE at this slice (no generated Lagrangian/first-integral energy for a nonvariational member; adopting one would be an import) \u2014 the self-consistent point is reported NOT-DERIVABLE-AT-SLICE-2 with this reason (F-D8 compliance by explicit report, not suppression); typed to Slice-2b",
+   "kind": "citation-guard"
+  },
+  {
+   "name": "TD5_gate2_J06_record",
+   "passed": true,
+   "detail": "[recording row] gate 2 in carrier-free typed form (no source rows touched \u2014 F-D7 clean): per-modulus J06 branches on the representatives: GEN-QUAD under P1-side branches \u2014 lam DETERMINED (nonzero integrated row 2 E0 I_p, active for E0 != 0), k_mod/k10/C RETAINED and reported (their slots are present with zero components \u2014 the explicit retained branch, not an omission); GEN-QUAD under P2-side \u2014 ALL moduli RETAINED; omega \u2014 k10 DETERMINED (row k10 V_M, forcing k10 = 0), rest RETAINED; W1/W2-fs/W3 \u2014 all RETAINED. Character-matching banked (Stage-2); no J13 discriminator slot deleted",
+   "kind": "citation-guard"
+  },
+  {
+   "name": "TD5_jet34_slice2b_requirements",
+   "passed": true,
+   "detail": "[typed row, cited] the 4th-order class's Slice-2b requirements (banked TC3, cited): (1) the jet-3/4 exhaustive parametrization (currently typed via the order-4 anchor only); (2) wall grade 4 slots \u2014 Theta_4 pairs {v_a, v_a'} and the v_a-momentum contains THIRD jets, so 4th-order sub-families CANNOT self-pair within the jet <= 2 wall alphabet (EXTENSION-REQUIRED, banked); (3) the Bach-side instance lives here (Route C cited); (4) per-candidate wall depth from the declared N. None run here (READY-bin scope)",
+   "kind": "citation-guard"
+  },
+  {
+   "name": "TD6_EH_crosscheck_exact_solution",
+   "passed": true,
+   "detail": "the Route C restricted EH+Lambda instance (known 2nd-order member; GR-as-reference lane; its CONDITIONAL stamps travel \u2014 post-scale branch, R12 restrict-vs-vary caveat banked): the exact family p0 = const, f = const, bh = (A x + B)^2, Lambda = 0 solves ALL SEVEN restricted rows identically for every (alpha, lam, c_E) background \u2014 an exact consistent sub-family of the overdetermined 7-row/3-field restricted system (regular where A x + B != 0; the root is a coframe-degeneracy locus, J01, excluded from the cell). OBSERVATION only; the restricted-EH G3 status under the enumerated pairings remains an un-run Slice-2b tile (stamped)",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD6_fork_branch_independence",
+   "passed": true,
+   "detail": "fork-branch independence PROVEN for the atlas rows (F-D3/F-B2 discipline): the representative components contain no alpha (L8/BR-A: frozen-vs-active branches give the SAME atlas \u2014 on BR-A the extra R_alpha slot is zero/retained, recorded), no completion label frak_c (L4/BR-C: the atlas is completion-independent; completion cycles/periods stay NEEDS-COMPLETION-DATA, banked), no c_E (the anchor drops out of the representative tuples; c_E remains an explicit background coordinate of the depth READOUT p0 = log(c_E/Q)); the integrated moduli row is a_M-independent (pairing-supply branch-independence, proven above); BR-B is role-only (banked PROVEN pointwise branch-independent; both roles recorded per row). SCOPE: the named representatives \u2014 NOT a cell-general claim",
+   "kind": "substantive"
+  },
+  {
+   "name": "TD6_ledger_coverage",
+   "passed": true,
+   "detail": "[recording row] SOLUTION_ATLAS_LEDGER.tsv written: 20 READY-bin composite cells (5 branches x {GENERIC, KMOD0} x {LE, NV}), each with representative families, fork stamps (independence PROVEN where claimed), exact solution spaces, R5 closure, self-consistent locus, lens class, gate-1/2/4/5 records, Slice-2b handle",
+   "kind": "citation-guard"
+  }
+ ]
+}
