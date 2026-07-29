@@ -1,0 +1,104 @@
+==============================================================================
+S0 — banked-input recomputations
+==============================================================================
+PASS [substantive] S0_minus_X_H_block_obstruction
+      -X has H-block -H = diag(1,-1) != H = diag(-1,1) (residual -2H != 0): the depth mirror is NOT represented in-class by bare generator negation. Recomputes the banked S3 obstruction (forcing package, TF2_parity_jet_kill_and_constant_lever).
+PASS [substantive] S0_swap_F_candidate_action
+      -F X F^-1 with F = diag(F2, I2): H-block FIXED, K -> -K (lambda, k_mod, k10 all ODD), C -> -C.F2 — zero residual. Recomputes the banked V5 candidate facts.
+PASS [substantive] S0_swap_F_eta_behavior
+      F2^T eta2 F2 = -eta2 (base-block ANTI-isometry, banked '07-27 F non-Lorentz'); full 4x4: F^T eta F = diag(1,-1,1,1) != +/-eta — F is neither an isometry nor a full anti-isometry of eta. Consistent with the 07-20 coframe-involution record (raw_swap_anti_isometry_in_eta).
+PASS [substantive] S0_class_commutant_is_scalars
+      Solve [Z, X] = 0 for all class members (X0 + 7-dim V basis): nullspace dim = 1, spanned by the identity. Hence any J with J^2 acting trivially on the class by conjugation has J^2 = mu*I (scalar).
+==============================================================================
+L0 — transcription lemma: phi -> -phi + linear dressing => X |-> -J X J^-1
+==============================================================================
+PASS [substantive] L0_E04_closed_form_recompute
+      Banked Route-B T2 closed form M(phi;C) solves M' = X M, M(0) = I — recomputed zero-residual (the exact exponential witness used below).
+PASS [substantive] L0_adjugate_cancellation_generic_J
+      adj(J).J = det(J).I for fully generic 4x4 J (16 symbols) — the cancellation that makes (J A J^-1)(J B J^-1) = J A B J^-1 an identity for EVERY invertible linear dressing, with no structure assumed on J.
+PASS [substantive] L0_dressed_family_solves_dressed_ODE
+      Y(phi) := J M(-phi;C) J^-1 satisfies Y' = (-J X J^-1) Y and Y(0) = I, verified zero-residual on the exact E04 exponential with a GENERIC block dressing J (P, S, R all fully symbolic 2x2). With Picard uniqueness (named Category-A, banked lane), the mirrored anchored family's generator IS -J X J^-1. The re-anchoring (right factor J^-1) is forced by the registration E(0) = I: J E(0) G = I => G = J^-1.
+PASS [guard] L0_transcription_assembly
+      ASSEMBLED LEMMA (premise P1, DERIVED): on the registered anchored one-parameter presentation, IF the seal's action on the coframe is a constant invertible linear map J, THEN the depth mirror phi -> -phi acts on generators as X |-> -J X J^-1. CHOSE-OR-DERIVED ledger: linearity + phi-independence of J = the registered constant-generator presentation's own footing (a phi-dependent dressing would leave the presentation — typed OUT OF SCOPE, not used); phi -> -phi = CANON (C-2026-06-10-2 wording, C-2026-07-04-1 static-sector localization).
+==============================================================================
+TC — dressing classification (the complete compatible set)
+==============================================================================
+PASS [guard] TC_VJ_top_rows_zero
+      For any u in V and any J: (u J) has zero top block-row. Hence the class condition J v J^-1 in V (<=> J v in V J) forces the top block-row of J v = 0.
+PASS [substantive] TC_Q_block_zero_forced
+      Probing all 7 V-basis directions: the vanishing of the top block-row of J v forces EXACTLY the four upper-right entries {j02, j03, j12, j13} = Q to zero and nothing else. Q = 0 NECESSARY; J is block-lower-triangular.
+PASS [substantive] TC_S_lower_triangular_forced
+      (S K adj(S))[0,1] = t00*t01*(k11-k00) - t01^2*k10: zero for all lower-tri K <=> t01 = 0 (necessity, exact solve); lower-tri S conjugation preserves K-lower-triangularity identically (sufficiency). S lower-triangular FORCED.
+PASS [substantive] TC_P_antidiagonal_forced
+      -P H P^-1 = H <=> P H + H P = 0 <=> P = antidiag(p, q), pq != 0 (both directions exact). The dressed H-block is restored ONLY by an anti-diagonal (clock<->ruler-exchanging) base action. NOTE: this reproduces, inside the registered class, the banked 07-20 base family F_b = [[0,b],[1/b,0]] (constant_real_classification.general_inverting_involution).
+PASS [substantive] TC_no_lorentz_dressing_exists
+      P^T eta2 P = diag(q^2, -p^2) for anti-diagonal P: equality with eta2 = diag(-1,1) needs q^2 = -1 — impossible over the reals. NO compatible dressing is an eta-isometry on the base block: every seal dressing is necessarily non-Lorentz (generalizes the banked 'F non-Lorentz' fact to the WHOLE compatible set; consistent with 07-20 no_positive_conformal_eta_solution).
+PASS [substantive] TC_R_unconstrained_and_blocks_exact
+      With Q=0, P anti-diagonal, S lower-tri and R ARBITRARY: -J X J^-1 is in-class for every member, with EXACT block laws K~ = -S K S^-1 (R-free) and C~ = -(R H + S C) P^-1 + S K S^-1 R P^-1 (an affine map: R gives a constant offset -R H P^-1 plus a K->C shear). Class-preservation alone does NOT cut R.
+PASS [substantive] TC_involution_and_realness
+      J^2 = [[pq I, 0],[RP+SR, S^2]]; centrality (S0 commutant) => S^2 = pq I and RP + SR = 0. Lower-tri S: s00^2 = s11^2 = pq, s10(s00+s11) = 0 => branch (a) s11 = s00, s10 = 0 (S = sigma I) or branch (b) s11 = -s00 (s10 free). REALNESS: pq = s00^2 > 0 (real square; named Category-A positivity) — the J^2 = -I complex-structure branch is EMPTY over the reals. Scale gauge J -> cJ leaves the action invariant (zero residual): normalize pq = 1.
+PASS [substantive] TC_R_solution_space_dim_2_per_branch
+      R P + S R = 0 solved exactly: nullity {'a_sigma_plus': 2, 'a_sigma_minus': 2, 'b_s0_plus': 2, 'b_s0_minus': 2} — TWO R-parameters in every branch (symbolic p, s1; exact-rational spot instance p=2, s1=3 confirms). Branch (a): rows of R proportional to (1, -sigma p).
+PASS [guard] TC_family_assembly
+      COMPLETE COMPATIBLE SET (the TP2 classification, normalized pq = 1): J = [[antidiag(p, 1/p), 0], [R, S]] with p != 0 free; S in branch (a) {+I, -I} or branch (b) {[[s0,0],[s1,-s0]]: s0 = +/-1, s1 free}; R in the 2-dim branch solution space of RP + SR = 0. A FAMILY, NOT unique and NOT empty — continuous parameters PER BRANCH (A4): branch (a): 3 (p + 2 R; sigma = +/-1 discrete); branch (b): 4 (p, s1 + 2 R; s0 = +/-1 discrete). The V5 swap F = member (p=1, S=+I, R=0). Conditions that cut it: class-preservation (Q=0, S lower-tri, P anti-diag), fold composition (J^2 scalar), realness (pq>0).
+PASS [substantive] TC_V5_adjudicated_inside_family
+      The banked V5 candidate F = diag(F2, I2) IS the family member (p=1, S=+I, R=0). A DISTINCT member (p=2, S=+I, R=0) is exhibited: involutive, in-class action, not equal to F. VERDICT: the swap premise is NOT forced by the banked seal conditions (F-P2 honored: F adjudicated, not adopted) — but see TP3: the lambda/k_mod parities V5 computed hold for EVERY family member.
+==============================================================================
+TP3 — parities per moduli sector
+==============================================================================
+PASS [substantive] TP3_trace_similarity_generic_J
+      tr(J X adj(J)) = det(J) tr(X) for FULLY GENERIC 4x4 J (16 symbols): trace is similarity-invariant, so tr(-J X J^-1) = -tr X for EVERY invertible linear dressing. With tr X = 2*lambda (tr H = 0): eps_lambda = -1 holds on the whole GL(4) dressing class — it does NOT depend on which dressing the seal supplies.
+PASS [substantive] TP3_lambda_kmod_odd_family_uniform
+      diag(S K S^-1) = diag(K) for every lower-tri S (triangular algebra), so K~ = -S K S^-1 gives lambda~ = -lambda and k_mod~ = -k_mod for EVERY member of the compatible family (any p, any S branch, any R). eps_lambda = eps_kmod = -1 DERIVED family-uniformly under premise P2 (chart-representability).
+PASS [substantive] TP3_k10_branch_split
+      k10~ = -k10 on branch (a) (S = +/-I): ODD. k10~ = +k10 + 2(s1/s0) k_mod on branch (b): EVEN up to a k_mod-shear (which vanishes on the k_mod = 0 fixed locus). eps_k10 is NOT family-uniform: it is decided by the S-branch — exactly the screen/angular completion the banked 07-20 record left NON-UNIQUE (angular +I / -I vs axis-reflection; 'selector: not supplied').
+PASS [substantive] TP3_C_signature_2odd_2even_forced
+      The linear C-action C |-> -S C P (R = 0) has characteristic polynomial (x-1)^2 (x+1)^2 in EVERY branch, for symbolic p (and s1): exactly TWO odd and TWO even C-combinations, family-uniformly. The parity SIGNATURE of the C sector is DERIVED; which combinations are odd is member-dependent.
+PASS [substantive] TP3_C_basis_p_dependent
+      At S = +I: the ODD combinations are mu_i+ = p c_i0 + c_i1 and the EVEN are mu_i- = p c_i0 - c_i1 (zero residual) — the basis depends explicitly on the family parameter p (and flips role under sigma -> -sigma, shifts under R). WHICH two C-combinations are odd = SUPPLIED (the completion calibration).
+PASS [substantive] TP3_R_affine_offset_and_triangularity
+      With R != 0 the C-action is AFFINE: constant offset -R H P^-1 (nonzero for generic R) + linear part + a K->C shear (block law verified in check TC_R_unconstrained_and_blocks_exact). The moduli map is block-triangular (K~ depends on K only), so the parity spectrum {(-1)^3 on K-diag... } is R-independent; R shifts WHERE the odd combinations are forced to sit (affine fixed values instead of 0). Map fact, stamped.
+PASS [substantive] TP3_chart_escape_witness_kmod
+      J_out = diag(F2, F2) satisfies J_out X J_out^-1 = -X for the member X = diag(-1,1,-k,k) (lambda = 0, k_mod = k != 0) — a fold-invariant member with k_mod != 0 EXISTS if the dressing may leave the registered chart (F2 on the screen violates S-lower-triangularity: (F2 K adj F2)[0,1] = -k10 != 0 generically; sign per amendment A4, now checked as an exact equality). The k_mod kill is therefore CHART-CONDITIONAL (premise P2). The lambda kill is NOT escapable this way (trace leg, check 16).
+PASS [guard] TP3_verdict_assembly
+      PARITY VERDICT (stamps: registered class; anchored presentation; premise ladder P0 = fold canon (CANON), P1 = transcription (DERIVED, L0), P2 = chart-representability (TYPED, chose-or-derived: NOT derived — its alternative is J07-type cross-chart transition data, banked-open)): lambda: eps = -1 DERIVED, dressing-independent (needs only P0+P1); k_mod: eps = -1 DERIVED under P2, family-uniform (escapable only by leaving the chart — witness above); k10: CONSTRAINED (branch (a) -1, branch (b) +1 with k_mod-shear) — missing datum = the screen/angular completion (07-20 MULTIPLE_COMPLETIONS residue); C: CONSTRAINED (signature 2 odd + 2 even FORCED; which combinations = supplied calibration p, branch, R).
+==============================================================================
+TP4 — fixed loci (mirror-invariant constant members) and landings
+==============================================================================
+PASS [substantive] TP4_fixed_locus_branch_a
+      Branch (a) (S = sigma I, symbolic p, R generic in its 2-dim space): the mirror-invariant locus is k00 = k11 = k10 = 0 (K = 0 entirely) with exactly two C-conditions (dim-2 locus; affine-shifted when R != 0). At the F member (p=1, sigma=1, R=0): K = 0 and (c00, c10) = (-c01, -c11) — EXACTLY the banked Route-B T5 swap column cell (E02 ∩ swap: dim 2). F-P5 consistency: the banked swap locus is recovered as this family member's fixed locus.
+PASS [substantive] TP4_fixed_locus_branch_b
+      Branch (b) (axis-type S, s1 symbolic, R = 0 representative): mirror-invariant locus is k00 = k11 = 0 with k10 FREE and two C-conditions (dim-3 locus). The k10 dial survives the fold exactly on the branch-(b) completions.
+PASS [substantive] TP4_aF_anchor_landing
+      On the forced locus lambda = k_mod = 0: P1-4D anchored pairing weight a_F = 2 lambda = 0 — the 4D-anchored branch lands ON a_F = 0. AT THAT LANDING (corrected per amendment A1): the banked massive-locus certificate's PREMISE ('nonempty at every a_F != 0 background') FAILS — massive-locus nonemptiness there is UNCERTIFIED on banked footing, NOT refuted (premise-failure, not a massless verdict: the quadratic atlas and the I_p sign-change certificate both presuppose a_F != 0). The banked 'no lambda-row either way' statement is the a_F' = 0 criterion (the P2 pairing, whose anchor weight is identically zero), NOT the weight VALUE a_F = 0: under P1-4D at lambda = 0, a_F' = 2 != 0 (check A1_aFprime_vs_aF_distinction), so the lambda-row does NOT vanish by banked pairing-relativity there — its status at an a_F = 0 background is UNDERIVED. P1-triad weight a_F = 1 + 2 lambda = 1 != 0: the triad-anchored branch's certificate premise is INTACT. T4 loci: the locus is lambda = 0 = the det-one/E07 axis (4D volume-blind: det e^{phi X} = 1, recomputed) and does NOT meet the triad-blind line lambda = -1/2. Map facts only; no pairing branch adopted.
+PASS [substantive] A1_aFprime_vs_aF_distinction
+      AMENDMENT A1 (verifier-caught, credited): under P1-4D at the forced landing lambda = 0 the anchor weight VALUE is a_F = 0 but its lambda-DERIVATIVE is a_F' = 2 != 0, computed against the banked pairing definitions (P1-4D a_F = 2 lambda; P1-triad a_F = 1 + 2 lambda; P2 a_F identically 0). The banked 'no lambda-row either way' statement is the a_F' = 0 criterion (the P2 pairing: forcing package Sec. 4; Slice-2b), which P1-4D at lambda = 0 does NOT satisfy — so the lambda-row form a_F'*Int(p0 W_F Ltilde) does not vanish by banked pairing-relativity at the landing, and the a_F = 0 background's lambda-row status is UNDERIVED on banked footing. Drift direction memorialized: the original prose was CUTTING-side inflation (anti-massive) — caught by the blind verifier.
+PASS [guard] TP4_kmod0_stratum_landing
+      k_mod = 0 places every mirror-invariant constant member ON the banked KMOD0 stratum: the banked stratum-identity bookkeeping (one integrated-row dependency on the constant census; pointwise dependency on the field census — forcing package S8) applies to the entire fixed locus. Branch (a) further forces K = 0 (the E04 stratum, C-carrying).
+PASS [guard] TP4_S3_lever_application
+      Applying the BANKED S3 lever (TF2_parity_jet_kill_and_constant_lever — reused, not re-derived) with the parities derived here: CONSTANT-census branch (BASE), under P0+P1+P2: the constant lambda and k_mod dials are parity-killed (forced to 0; the constant direction is fold-inadmissible) — the CUTTING outcome FIRES for the (lambda, k_mod) sector; k10 constant killed on branch (a) completions only; two C-combinations forced (to 0, or to R-shifted affine values). FIELD-census branch (BR-M): no collapse — lambda(x), k_mod(x) forced ODD about the wall (fields), k10/C per branch. BOTH census branches carried; neither adopted (F-P4). Ceiling: these are map facts; no massive-branch verdict language.
+PASS [substantive] TP4_K4_composition_honesty
+      R23(pi) o J stays in the family (it is the sigma -> -sigma member: C-parity roles swap — part of the family freedom already counted). R12(pi) o J has square diag(-1,-1,1,1) != scalar: NOT an involutive dressing — the K4 chart quotient CANNOT flip the k10-parity branch within the real family. The classification is K4-honest (moduli read modulo K4, banked A1).
+PASS [guard] X_0720_family_transport
+      F-P5 consistency with the banked 07-20 coframe-involution record: the derived base family antidiag(p, 1/p) IS the banked F_b = [[0,b],[1/b,0]] family (b = p) transported into the registered class; the S-branches {+I, -I, axis-type} realize exactly the banked non-unique angular extensions (conjugacy traces 2, -2, 0); MULTIPLE_COMPLETIONS is REFINED, not contradicted: this package adds the R-mixing freedom (base->screen), the involution/realness cut (pq > 0), and the family-uniform parity facts. No banked contradiction found (F-P5 not fired).
+PASS [guard] X_scope_and_falsifiers
+      F-P1: both directions audited — the cutting legs (lambda/k_mod kill) carry their premise ladder visibly (P2 typed, NOT derived; escape witness computed); the harmless legs (k10/C supplied) carry the exact missing datum. F-P2: no dressing adopted; V5 = adjudicated family member. F-P3: stamps on every claim (registered class, anchored presentation, premise ladder, census branch, branch (a)/(b), R). F-P4: no Route-D result cited; census fork open. F-P6: see exit code. SCOPE: full declared scope, no scope-ladder reduction; phi-dependent (non-constant) dressings are outside the registered constant-generator presentation and are TYPED out of scope, not classified.
+==============================================================================
+ADOPTED — verifier catch-proofs and completed legs (credited)
+==============================================================================
+PASS [substantive] ADOPTED_H_block_R_cannot_compensate
+      ADOPTED (verifier V2b, credited): for ANY block-lower-triangular J = [[P,0],[R,S]] with P, S, R fully generic 2x2, the image -J X J^-1 of a generic class member has H-block EXACTLY -P H P^-1 and upper-right block exactly 0 — the mixing block R cannot compensate the base action. This closes the compensation loophole the package's P-necessity step used implicitly.
+PASS [substantive] ADOPTED_catch_wrong_parity_kmod_even
+      ADOPTED mutation catch-proof (verifier V3_catch_kmod_even_is_false, credited): the WRONG-PARITY claim eps_kmod = +1 (k_mod EVEN) fails — the family image has k_mod~ = -k_mod, so k_mod~ - k_mod = -2 k_mod != 0. CAUGHT by the same machinery that passes the true claim.
+PASS [substantive] ADOPTED_catch_wrong_C_signature
+      ADOPTED mutation catch-proof (verifier V3_catch_wrong_signature_fails, credited): the WRONG-SIGNATURE claim charpoly = (x-1)^3 (x+1) (3 even + 1 odd) fails against the computed C-action charpoly (x-1)^2 (x+1)^2. CAUGHT.
+PASS [substantive] ADOPTED_catch_k10_odd_on_branch_b
+      ADOPTED mutation catch-proof (verifier V3_catch_k10_odd_on_branch_b_fails, credited): the claim k10~ = -k10 on branch (b) fails — there k10~ = +k10 + 2(s1/s0) k_mod, so k10~ + k10 = 2 k10 + 2 s1 k_mod != 0. CAUGHT: the branch split (check TP3_k10_branch_split) has teeth.
+PASS [substantive] ADOPTED_catch_screen_swap_in_class
+      ADOPTED mutation catch-proof (verifier V2f_attack_screen_swap_fails_class, credited): the dressing with S = F2 (screen swap) maps a generic member OUT of the registered class — the image K-block's upper entry is nonzero generically. CAUGHT: S-lower-triangularity (check TC_S_lower_triangular_forced) is genuinely cutting.
+PASS [substantive] ADOPTED_K4_R13_non_involutive
+      ADOPTED (verifier V7_R13_composition_not_involutive, credited): R13(pi) o J squares to diag(-1,-1,1,1) != scalar — like R12 o J, NOT an involutive dressing. With this leg all THREE nontrivial K4 elements are checked (R23 in-family; R12, R13 non-involutive): the K4 chart quotient cannot flip the k10-parity branch within the real family — the TP4_K4_composition_honesty claim is now complete, not sampled.
+==============================================================================
+TOTAL: 41/41 checks pass (33 substantive + 8 guard)
+==============================================================================
+WROTE routeP_results.json, DRESSING_CLASSIFICATION_LEDGER.tsv
