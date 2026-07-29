@@ -1,0 +1,412 @@
+{
+ "schema": "r09_certificate_adjudication_v1",
+ "contract": "udt_r09_certificate_adjudication_2026-07-28/PREREGISTRATION.md",
+ "parents": [
+  "udt_higher_isometry_plane_ownership_audit_2026-07-28/EXACT_DERIVATION.md",
+  "udt_alpha_plane_selector_theorem_2026-07-28/EXACT_DERIVATION.md"
+ ],
+ "falsifiers": {
+  "F_b1": "FIRED for the WITHOUT-founded-rates-leg variant (CONFLICT witness exhibited); NOT fired for the WITH-leg variant",
+  "F_b2": "NOT FIRED \u2014 parent D3 reproduced exactly (P00-P08, zero-residual)"
+ },
+ "T_b1": {
+  "invariance_formulation": "P=span(K,W), W=mV+nY, (m,n)!=(0,0); membership L(v)=n*v_V-m*v_Y; P D3-invariant at a point iff I1=L(D3 K)=0 and I2=L(D3 W)=0; on a region iff at every point (parent R02 usage, gated C03)",
+  "exact_conditions": {
+   "I1": "alpha*c_E*df*u*(m+n*f)/b",
+   "I2": "[alpha^2*df*u^2*(m+n*f)^2 + u*n*(m+n*f)*(2*b*chi-db) + df*(n^2*b*u-(m+n*f)^2)]/(b*u)"
+  },
+  "strata": {
+   "alpha_nonzero_df_nonzero": {
+    "invariant_planes": "NONE \u2014 empty even POINTWISE (I1=0 forces z=m+n*f=0; then I2=df*n^2!=0 unless n=0, and z=0,n=0 gives m=0)"
+   },
+   "alpha_nonzero_df_zero": {
+    "invariant_planes_db_free": "span(K,V) UNIQUELY (I2=n*z*(2*chi-db/b); identity in free db,f forces n=0)",
+    "pointwise_exceptions": "z=0 (plane span(K,H), rate db/b) or db=2*b*chi (EVERY plane invariant, founded rates)"
+   },
+   "alpha_zero_df_nonzero": {
+    "invariant_planes_db_free": "NONE (db-coefficient -n*z/b must vanish; n=0 gives I2=-m^2*df/(b*u)!=0; z=0 gives I2=df*n^2!=0)",
+    "fixed_member_locus": "db = 2*b*chi + df*(n^2*b*u-z^2)/(u*n*z) with n*z!=0 \u2014 realizable member-wise (T-b2 witness); rates (-2*chi, 2*chi+n*df/z)"
+   },
+   "alpha_zero_df_zero": {
+    "invariant_planes_db_free": "span(K,V) UNIQUELY (same factorization as alpha!=0, df=0)",
+    "pointwise_exceptions": "z=0 or db=2*b*chi (same as alpha!=0 stratum)"
+   }
+  }
+ },
+ "T_b2": {
+  "C_full_WITH_founded_rates_leg": {
+   "verdict": "NO-CONFLICT",
+   "basis": "C_full-with-rates is EMPTY on every admissible member: {df!=0} is a nonempty open set (parent T4, banked); at any such point alpha!=0 kills invariance outright (stratum A pointwise emptiness), and alpha=0 invariance forces n!=0, z!=0, db=locus, whereupon the second restricted rate is 2*chi+n*df/z != +2*chi \u2014 the rates leg fails there, hence region-wide"
+  },
+  "C_full_WITHOUT_founded_rates_leg": {
+   "verdict": "CONFLICT",
+   "falsifier_F_b1": "FIRED (first-class outcome, preregistered)",
+   "admissibility": "principal-orbit-region member (the parents' evaluation domain; premise ledger 'principal orbits only')",
+   "witness": {
+    "member": "alpha=0; Hopf chart; V=d_xi1+d_xi2, Y=d_xi1-d_xi2; f=cos(2*eta); u=2+f; b*u=6+f-f^2=(3-f)*(2+f)>0; X=d/d_eta; eta in (0,pi/2); c_E>0 arbitrary; q_B torus-invariant positive with q_B(H,H)=b",
+    "conflicting_plane": "P=span(K, 2V+Y) (and also span(K, -3V+Y)); complete list on this member: (m+3n)(m-2n)=0",
+    "C_full_status": "P is D3-invariant at EVERY principal point (W01/W02, zero-residual)",
+    "C_restricted_status": "b*u+f^2=6+f NONCONSTANT, so C_restricted crowns span(K,V) uniquely (selector branch (c)); P itself FAILS C_restricted leg (i): X(det G(K,W))=-5*c_E^2*df!=0",
+    "crowns": "the two criteria crown DIFFERENT planes on this member",
+    "K_eigenline_note": "at alpha=0, K is an exact D3 eigenvector (rate -2*chi), so adding a K-eigenline leg to C_full would NOT dissolve the conflict; only the founded-rates leg does"
+   }
+  },
+  "cap_closure_corollary_record": {
+   "statement": "if admissibility is strengthened to complete two-cap S3 members (b->0 at BOTH caps, forced since the base projection of Y vanishes at the poles) and df!=0 throughout the principal region, then region-wide invariance (alpha=0) forces s=b*u=z*(Ct-f/n) and cap closure forces (m,n) prop (1,1) or (1,-1) with b*u=1-f^2, hence b*u+f^2=1 CONSTANT: the member lies ON the selector's exceptional stratum, C_restricted is silent, and NO-CONFLICT is restored even without the rates leg. The parent Sec.6 witness realizes this: span(K,V+Y) and span(K,V-Y) (the two coordinate-circle planes) are D3-invariant on it (K09/K10)",
+   "status": "RECORD (conditional on the pointwise df!=0 strengthening / standard toric presentation)"
+  }
+ },
+ "T_b3": {
+  "df_zero_strata_crowning": {
+   "alpha_nonzero_db_neq_2bchi": "AGREE \u2014 both crown span(K,V) (C_full unique invariant with founded rates; C_restricted always selects at alpha!=0)",
+   "alpha_zero_db_neq_2bchi": "AGREE \u2014 both crown span(K,V) (at df=0, X(b*u+f^2)=u*(db-2*b*chi)!=0 so C_restricted selects)",
+   "alpha_zero_db_eq_2bchi": "AGREEMENT-IN-SILENCE \u2014 C_restricted silent (exceptional stratum) and C_full non-selective (every plane invariant, founded)",
+   "alpha_nonzero_db_eq_2bchi": "formal pointwise disagreement (C_full non-selective, all planes founded-invariant; C_restricted selects span(K,V)) \u2014 UNREALIZABLE region-wide on admissible members (Cartan/T4: {df!=0} nonempty open)",
+   "realizability_note": "df=0 strata are jet-level strata; under parent T4's pointwise strengthening they contain no admissible-member points at all"
+  }
+ },
+ "T_b4": {
+  "rate_spectra_record": [
+   {
+    "plane": "span(K,V)",
+    "locus": "df=0 (any alpha)",
+    "spectrum": "(-2*chi, +2*chi)",
+    "founded": true
+   },
+   {
+    "plane": "every span(K,W)",
+    "locus": "df=0 and db=2*b*chi (any alpha)",
+    "spectrum": "(-2*chi, +2*chi)",
+    "founded": true
+   },
+   {
+    "plane": "span(K,H) (z=0, pointwise)",
+    "locus": "df=0",
+    "spectrum": "(-2*chi, db/b)",
+    "founded": "only if db=2*b*chi"
+   },
+   {
+    "plane": "span(K,mV+nY), n*z!=0 on db-locus",
+    "locus": "alpha=0, df!=0, db=2*b*chi+df*(n^2*b*u-z^2)/(u*n*z)",
+    "spectrum": "(-2*chi, 2*chi+n*df/z)",
+    "founded": false
+   },
+   {
+    "plane": "witness P=span(K,2V+Y)",
+    "locus": "witness member",
+    "spectrum": "(-2*chi, 2*chi+df/(2+f))",
+    "founded": false
+   },
+   {
+    "plane": "parent-witness span(K,V+Y), span(K,V-Y)",
+    "locus": "b*u=1-f^2, alpha=0",
+    "spectrum": "(-2*chi, 2*chi+df/(f+1)) resp. (-2*chi, 2*chi+df/(f-1))",
+    "founded": false
+   }
+  ]
+ },
+ "check_count": 73,
+ "checks_passed": 73,
+ "numeric_spot_checks": {
+  "A": 5,
+  "B": 5,
+  "C": 5,
+  "D": 5,
+  "W": 6
+ },
+ "all_checks_pass": true,
+ "checks": [
+  {
+   "name": "P00_G3_det_matches_parent",
+   "ok": true
+  },
+  {
+   "name": "P01_trace_matches_parent",
+   "ok": true
+  },
+  {
+   "name": "P02_charpoly_matches_parent",
+   "ok": true
+  },
+  {
+   "name": "P03_p_minus_2chi_matches_parent",
+   "ok": true
+  },
+  {
+   "name": "P04_p_plus_2chi_matches_parent",
+   "ok": true
+  },
+  {
+   "name": "P05_D3_K_Ycomponent_matches_parent",
+   "ok": true
+  },
+  {
+   "name": "P06_D3_V_Ycomponent_matches_parent",
+   "ok": true
+  },
+  {
+   "name": "P07_df0_factorization_matches_parent",
+   "ok": true
+  },
+  {
+   "name": "P08_full_D3_matches_parent_machine_record",
+   "ok": true
+  },
+  {
+   "name": "C01_I1_closed_form",
+   "ok": true
+  },
+  {
+   "name": "C02_I2_closed_form",
+   "ok": true
+  },
+  {
+   "name": "C03_R02_correspondence_registered_plane",
+   "ok": true
+  },
+  {
+   "name": "SA1_I2_on_z_zero_slice",
+   "ok": true
+  },
+  {
+   "name": "SB1_I1_vanishes_at_df0",
+   "ok": true
+  },
+  {
+   "name": "SB2_I2_factored_at_df0",
+   "ok": true
+  },
+  {
+   "name": "SB3_registered_plane_rates_founded_at_df0",
+   "ok": true
+  },
+  {
+   "name": "SB4_degenerate_locus_D3_is_minus2chi_plus_2chi_block",
+   "ok": true
+  },
+  {
+   "name": "SB5_degenerate_locus_every_plane_founded",
+   "ok": true
+  },
+  {
+   "name": "SB6_pointwise_z0_plane_rate_db_over_b",
+   "ok": true
+  },
+  {
+   "name": "SC1_I1_vanishes_at_alpha0",
+   "ok": true
+  },
+  {
+   "name": "SC2_db_coefficient",
+   "ok": true
+  },
+  {
+   "name": "SC3_n0_obstruction",
+   "ok": true
+  },
+  {
+   "name": "SC4_locus_solves_invariance",
+   "ok": true
+  },
+  {
+   "name": "SC5_alpha0_K_exact_eigenvector",
+   "ok": true
+  },
+  {
+   "name": "SC6_locus_rate_mu",
+   "ok": true
+  },
+  {
+   "name": "SC7_rate_defect_exact",
+   "ok": true
+  },
+  {
+   "name": "W00_bu_positive_factorization",
+   "ok": true
+  },
+  {
+   "name": "W01_P_2V_plus_Y_invariant_everywhere",
+   "ok": true
+  },
+  {
+   "name": "W02_second_invariant_plane_minus3V_plus_Y",
+   "ok": true
+  },
+  {
+   "name": "W03_witness_complete_enumeration_quadratic",
+   "ok": true
+  },
+  {
+   "name": "W04_registered_and_other_planes_fail",
+   "ok": true
+  },
+  {
+   "name": "W05_bu_plus_f2_nonconstant",
+   "ok": true
+  },
+  {
+   "name": "W06_det_GKW_matches_selector_T6",
+   "ok": true
+  },
+  {
+   "name": "W07_Xdet_matches_selector_T6",
+   "ok": true
+  },
+  {
+   "name": "W08_P_fails_C_restricted_area_leg",
+   "ok": true
+  },
+  {
+   "name": "W09_registered_plane_keeps_constant_area",
+   "ok": true
+  },
+  {
+   "name": "W10_witness_rate",
+   "ok": true
+  },
+  {
+   "name": "K01_general_solution_of_invariance_ODE",
+   "ok": true
+  },
+  {
+   "name": "K02_homogeneous_solutions_are_multiples_of_z",
+   "ok": true
+  },
+  {
+   "name": "K03_cap_conditions_factor",
+   "ok": true
+  },
+  {
+   "name": "K04_cap_branch_m_eq_n_gives_1_minus_f2",
+   "ok": true
+  },
+  {
+   "name": "K05_cap_branch_m_eq_minus_n_gives_1_minus_f2",
+   "ok": true
+  },
+  {
+   "name": "K06_generic_mn_two_cap_contradiction",
+   "ok": true
+  },
+  {
+   "name": "K07_closing_branches_on_exceptional_stratum",
+   "ok": true
+  },
+  {
+   "name": "K08_db_of_parent_witness",
+   "ok": true
+  },
+  {
+   "name": "K09_parent_witness_V_plus_Y",
+   "ok": true
+  },
+  {
+   "name": "K10_parent_witness_V_minus_Y",
+   "ok": true
+  },
+  {
+   "name": "N_A_pt0",
+   "ok": true
+  },
+  {
+   "name": "N_B_pt0",
+   "ok": true
+  },
+  {
+   "name": "N_C_pt0",
+   "ok": true
+  },
+  {
+   "name": "N_D_pt0",
+   "ok": true
+  },
+  {
+   "name": "N_A_pt1",
+   "ok": true
+  },
+  {
+   "name": "N_B_pt1",
+   "ok": true
+  },
+  {
+   "name": "N_C_pt1",
+   "ok": true
+  },
+  {
+   "name": "N_D_pt1",
+   "ok": true
+  },
+  {
+   "name": "N_A_pt2",
+   "ok": true
+  },
+  {
+   "name": "N_B_pt2",
+   "ok": true
+  },
+  {
+   "name": "N_C_pt2",
+   "ok": true
+  },
+  {
+   "name": "N_D_pt2",
+   "ok": true
+  },
+  {
+   "name": "N_A_pt3",
+   "ok": true
+  },
+  {
+   "name": "N_B_pt3",
+   "ok": true
+  },
+  {
+   "name": "N_C_pt3",
+   "ok": true
+  },
+  {
+   "name": "N_D_pt3",
+   "ok": true
+  },
+  {
+   "name": "N_A_pt4",
+   "ok": true
+  },
+  {
+   "name": "N_B_pt4",
+   "ok": true
+  },
+  {
+   "name": "N_C_pt4",
+   "ok": true
+  },
+  {
+   "name": "N_D_pt4",
+   "ok": true
+  },
+  {
+   "name": "N_W_pt0",
+   "ok": true
+  },
+  {
+   "name": "N_W_pt1",
+   "ok": true
+  },
+  {
+   "name": "N_W_pt2",
+   "ok": true
+  },
+  {
+   "name": "N_W_pt3",
+   "ok": true
+  },
+  {
+   "name": "N_W_pt4",
+   "ok": true
+  },
+  {
+   "name": "N_W_pt5",
+   "ok": true
+  }
+ ]
+}
