@@ -1,0 +1,50 @@
+PASS  P0_G3_det_parent  :: det G3 = -b c_E^2 (P-OWN §2) reproduced from the family
+PASS  P0_GKV_alpha0  :: G_KV|a=0 = diag(-c_E^2 u, 1/u) — verified from the family
+PASS  P0_GKY_alpha0_stratum  :: G_KY|a=0,stratum = diag(-c_E^2 u, c/u) — verified from the family
+PASS  Td1_det_GKV_value  :: det G_KV = -c_E^2 exactly
+PASS  Td1_det_GKY_value  :: det G_KY = -c_E^2 c exactly
+PASS  Td1_pair_unit_det_phi_independence  :: u = e^{-2phi}: det G_KV = -c_E^2 with zero phi-derivative (G02 unit-det action)
+PASS  Td1_sign_irrelevance  :: V -> -V congruence: Gram (and det) unchanged; same for Y
+PASS  Td1_K_rescaling_scales_dets  :: K -> lam K: both dets scale by lam^2 (absolute value not clock-free)
+PASS  Td1_ratio_clock_free  :: det G_KY / det G_KV = c — invariant under K-rescaling and c_E; DERIVED core
+PASS  Td1_norm_ratio_form  :: g(Y,Y)/g(V,V) = c on the stratum — clock-free discriminator core
+PASS  Td1_relabel_map  :: relabel: u~=u/c, c_E~^2=c c_E^2, f~=f/c, b~=b/c, S~=1/c  (c -> 1/c)
+PASS  Td1_relabel_c1_fixed_point  :: at c = 1 the relabel fixes every presentation scalar (u,f,b,c_E,S)
+PASS  Td1_cap_cycle_inner_product  :: g(v-,v+) = (1-c)/(4u): the cap cycles are g-orthogonal exactly at c = 1
+PASS  Td2_b_forced_at_c1  :: S = b u + f^2 = 1  <=>  b = (1-f^2)/u — 'forced' identity at c = 1
+PASS  Td2_gram_and_jets_identical  :: G_KY - G_KV = 0 entrywise and all X-jets to order 5 = 0 (identically in u,f)
+PASS  Td2_response_identical  :: D_KV = D_KY identically at c = 1
+PASS  Td2_no_offdiagonal_asymmetry  :: g(K,V) = g(K,Y) = 0 at alpha = 0: correspondence has no hidden cross-term
+PASS  Td3_gVY_value  :: g(V,Y) = f/u at alpha = 0 — computed from the family G3
+PASS  Td3_gYY_stratum  :: g(Y,Y) = c/u on the stratum
+PASS  Td3_H_norm  :: g(H,H) = b (consistency)
+PASS  Td3_Htilde_norm  :: g(H~,H~) = b/c — equals b exactly at c = 1
+PASS  Td3_H_Htilde_pairing  :: g(H,H~) = -f b / c — a symmetric pair scalar (equal under relabel)
+PASS  Td3_D3_mixing_entries  :: (D3)_{V->Y} = c f'/(c - f^2), (D3)_{Y->V} = f'/(c - f^2)
+PASS  Td3_D3_mixing_ratio_is_c  :: ratio of the two mixing entries = c (normalization-free; = 1 at c = 1)
+PASS  Td3_D3_mixing_difference  :: difference = (c-1) f'/(c - f^2): vanishes identically at c = 1
+PASS  Td3_P_invariance_G3_c1  :: P^T G3 P = G3 identically at c = 1 (all profiles)
+PASS  Td3_P_invariance_G3_jets_c1  :: same for all s-jets of G3 (orders 1..4)
+PASS  Td3_P_invariance_D3_c1  :: P D3 P^{-1} = D3 at c = 1: no mixed-entry asymmetry survives
+PASS  Td3_P_defect_is_norm_gap  :: P-defect of G3 = diag(0, (c-1)/u, (1-c)/u): supported ONLY on the norm gap
+PASS  Td4_necessity_algebra  :: e1 => u_target = c u_source; then e2 => (1 - c^2)/(c u) = 0 => c^2 = 1
+PASS  Td4_necessity_solve  :: unique positive solution: c = 1 and u∘sigma = u  (swap => c = 1, depth-matching)
+PASS  Td4_normal_form_consistency  :: (K,v-,v+) normal-form block reproduces the family G3(K,V,Y) on the stratum
+PASS  Td4_sufficiency_congruence_c1  :: J^T g J = g identically at c = 1 for ARBITRARY profiles u(s), f(s), n(s)
+PASS  Td4_congruence_defect_generic  :: the only congruence defect is -2 g(v-,v+) = -(1-c)/(2u): zero iff c = 1
+PASS  Td4_J_swaps_planes  :: J: V <-> Y, K fixed; det J = -1 (cap-fixing, orientation-reversing)
+PASS  Td4_J_cap_cycles  :: J v- = v-, J v+ = -v+: both cap-closing cycle lines preserved (cap-fixing)
+PASS  Td4_swap_orientation_class  :: Gram-preserving lattice swaps at c=1 are exactly s1 s2 = +1 (det = -1), for f != 0: every swap is orientation-reversing
+PASS  Td4_witness_on_stratum  :: witness: S = 1 exactly (c = 1) — the swap construction applies
+PASS  Td4_witness_even_profile  :: witness u is even under eta -> pi/2 - eta (also admits cap-SWAPPING maps); evenness is sufficient-not-necessary for the plane swap (see control)
+PASS  Td4_control_on_stratum  :: control: S = 1 exactly (c = 1 member)
+PASS  Td4_control_asymmetric  :: u(pi/2 - eta) - u(eta) at eta = pi/6, pi/5: -0.0274519, -0.0200106 (nonzero => genuinely asymmetric; eta -> pi/2 - eta is NOT an isometry of this member)
+PASS  Td4_control_plane_data_identical  :: g(Y,Y) - g(V,V) = 0 and all eta-jets vanish for the asymmetric control
+PASS  Td4_control_ambient_symmetric  :: control ambient data: g(V,V)=g(Y,Y), D3 mixing entries equal, g(v-,v+)=0, while g(V,Y)=f/u is NONZERO — a pair scalar, not a discriminator; values: {"pi_over_6": {"g_VY": 0.3876113504324668, "g_VV": 0.7752227008649336, "g_YY": 0.7752227008649336, "D3_VY": -2.309401076758503, "D3_YV": -2.309401076758503, "g_vminus_vplus": 0.0}, "pi_over_5": {"g_VY": 0.22983292653902934, "g_VV": 0.7437549737480145, "g_YY": 0.7437549737480145, "D3_VY": -2.1029244484765344, "D3_YV": -2.1029244484765344, "g_vminus_vplus": 6.783321379043816e-167}}
+PASS  Td4_control_swap_isometry  :: asymmetric control: J^T g J - g = 0 exactly — the plane-swap isometry exists for this NON-symmetric profile (cap-fixing class; the cap-swapping class is excluded by the asymmetry check above)
+
+checks passed: 44 / 44
+T-d1 grade: DERIVED-WITHIN-REGISTRATION (ratio core DERIVED, clock-free)
+T-d2: PROVED — all-orders plane-restricted identity at c = 1 (F-d1 not fired)
+T-d3: no metric-native ambient discriminator at c = 1 (master P-invariance); tagged inventory recorded, nothing promoted
+T-d4: swap isometry exists <=> c = 1 (constructive; necessity topology-only)

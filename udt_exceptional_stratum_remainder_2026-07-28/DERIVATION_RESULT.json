@@ -1,0 +1,321 @@
+{
+ "package": "udt_exceptional_stratum_remainder_2026-07-28",
+ "script": "derive_stratum_remainder.py",
+ "date": "2026-07-28",
+ "contract": "PREREGISTRATION.md (T-d1..T-d4, F-d1..F-d3)",
+ "setting": "registered family (CHOSE), alpha = 0, S := b u + f^2 = c constant, principal orbits; clock = K conditional; c_E enters as the registered clock normalization",
+ "n_checks": 44,
+ "n_passed": 44,
+ "checks": [
+  {
+   "name": "P0_G3_det_parent",
+   "passed": true,
+   "detail": "det G3 = -b c_E^2 (P-OWN \u00a72) reproduced from the family"
+  },
+  {
+   "name": "P0_GKV_alpha0",
+   "passed": true,
+   "detail": "G_KV|a=0 = diag(-c_E^2 u, 1/u) \u2014 verified from the family"
+  },
+  {
+   "name": "P0_GKY_alpha0_stratum",
+   "passed": true,
+   "detail": "G_KY|a=0,stratum = diag(-c_E^2 u, c/u) \u2014 verified from the family"
+  },
+  {
+   "name": "Td1_det_GKV_value",
+   "passed": true,
+   "detail": "det G_KV = -c_E^2 exactly"
+  },
+  {
+   "name": "Td1_det_GKY_value",
+   "passed": true,
+   "detail": "det G_KY = -c_E^2 c exactly"
+  },
+  {
+   "name": "Td1_pair_unit_det_phi_independence",
+   "passed": true,
+   "detail": "u = e^{-2phi}: det G_KV = -c_E^2 with zero phi-derivative (G02 unit-det action)"
+  },
+  {
+   "name": "Td1_sign_irrelevance",
+   "passed": true,
+   "detail": "V -> -V congruence: Gram (and det) unchanged; same for Y"
+  },
+  {
+   "name": "Td1_K_rescaling_scales_dets",
+   "passed": true,
+   "detail": "K -> lam K: both dets scale by lam^2 (absolute value not clock-free)"
+  },
+  {
+   "name": "Td1_ratio_clock_free",
+   "passed": true,
+   "detail": "det G_KY / det G_KV = c \u2014 invariant under K-rescaling and c_E; DERIVED core"
+  },
+  {
+   "name": "Td1_norm_ratio_form",
+   "passed": true,
+   "detail": "g(Y,Y)/g(V,V) = c on the stratum \u2014 clock-free discriminator core"
+  },
+  {
+   "name": "Td1_relabel_map",
+   "passed": true,
+   "detail": "relabel: u~=u/c, c_E~^2=c c_E^2, f~=f/c, b~=b/c, S~=1/c  (c -> 1/c)"
+  },
+  {
+   "name": "Td1_relabel_c1_fixed_point",
+   "passed": true,
+   "detail": "at c = 1 the relabel fixes every presentation scalar (u,f,b,c_E,S)"
+  },
+  {
+   "name": "Td1_cap_cycle_inner_product",
+   "passed": true,
+   "detail": "g(v-,v+) = (1-c)/(4u): the cap cycles are g-orthogonal exactly at c = 1"
+  },
+  {
+   "name": "Td2_b_forced_at_c1",
+   "passed": true,
+   "detail": "S = b u + f^2 = 1  <=>  b = (1-f^2)/u \u2014 'forced' identity at c = 1"
+  },
+  {
+   "name": "Td2_gram_and_jets_identical",
+   "passed": true,
+   "detail": "G_KY - G_KV = 0 entrywise and all X-jets to order 5 = 0 (identically in u,f)"
+  },
+  {
+   "name": "Td2_response_identical",
+   "passed": true,
+   "detail": "D_KV = D_KY identically at c = 1"
+  },
+  {
+   "name": "Td2_no_offdiagonal_asymmetry",
+   "passed": true,
+   "detail": "g(K,V) = g(K,Y) = 0 at alpha = 0: correspondence has no hidden cross-term"
+  },
+  {
+   "name": "Td3_gVY_value",
+   "passed": true,
+   "detail": "g(V,Y) = f/u at alpha = 0 \u2014 computed from the family G3"
+  },
+  {
+   "name": "Td3_gYY_stratum",
+   "passed": true,
+   "detail": "g(Y,Y) = c/u on the stratum"
+  },
+  {
+   "name": "Td3_H_norm",
+   "passed": true,
+   "detail": "g(H,H) = b (consistency)"
+  },
+  {
+   "name": "Td3_Htilde_norm",
+   "passed": true,
+   "detail": "g(H~,H~) = b/c \u2014 equals b exactly at c = 1"
+  },
+  {
+   "name": "Td3_H_Htilde_pairing",
+   "passed": true,
+   "detail": "g(H,H~) = -f b / c \u2014 a symmetric pair scalar (equal under relabel)"
+  },
+  {
+   "name": "Td3_D3_mixing_entries",
+   "passed": true,
+   "detail": "(D3)_{V->Y} = c f'/(c - f^2), (D3)_{Y->V} = f'/(c - f^2)"
+  },
+  {
+   "name": "Td3_D3_mixing_ratio_is_c",
+   "passed": true,
+   "detail": "ratio of the two mixing entries = c (normalization-free; = 1 at c = 1)"
+  },
+  {
+   "name": "Td3_D3_mixing_difference",
+   "passed": true,
+   "detail": "difference = (c-1) f'/(c - f^2): vanishes identically at c = 1"
+  },
+  {
+   "name": "Td3_P_invariance_G3_c1",
+   "passed": true,
+   "detail": "P^T G3 P = G3 identically at c = 1 (all profiles)"
+  },
+  {
+   "name": "Td3_P_invariance_G3_jets_c1",
+   "passed": true,
+   "detail": "same for all s-jets of G3 (orders 1..4)"
+  },
+  {
+   "name": "Td3_P_invariance_D3_c1",
+   "passed": true,
+   "detail": "P D3 P^{-1} = D3 at c = 1: no mixed-entry asymmetry survives"
+  },
+  {
+   "name": "Td3_P_defect_is_norm_gap",
+   "passed": true,
+   "detail": "P-defect of G3 = diag(0, (c-1)/u, (1-c)/u): supported ONLY on the norm gap"
+  },
+  {
+   "name": "Td4_necessity_algebra",
+   "passed": true,
+   "detail": "e1 => u_target = c u_source; then e2 => (1 - c^2)/(c u) = 0 => c^2 = 1"
+  },
+  {
+   "name": "Td4_necessity_solve",
+   "passed": true,
+   "detail": "unique positive solution: c = 1 and u\u2218sigma = u  (swap => c = 1, depth-matching)"
+  },
+  {
+   "name": "Td4_normal_form_consistency",
+   "passed": true,
+   "detail": "(K,v-,v+) normal-form block reproduces the family G3(K,V,Y) on the stratum"
+  },
+  {
+   "name": "Td4_sufficiency_congruence_c1",
+   "passed": true,
+   "detail": "J^T g J = g identically at c = 1 for ARBITRARY profiles u(s), f(s), n(s)"
+  },
+  {
+   "name": "Td4_congruence_defect_generic",
+   "passed": true,
+   "detail": "the only congruence defect is -2 g(v-,v+) = -(1-c)/(2u): zero iff c = 1"
+  },
+  {
+   "name": "Td4_J_swaps_planes",
+   "passed": true,
+   "detail": "J: V <-> Y, K fixed; det J = -1 (cap-fixing, orientation-reversing)"
+  },
+  {
+   "name": "Td4_J_cap_cycles",
+   "passed": true,
+   "detail": "J v- = v-, J v+ = -v+: both cap-closing cycle lines preserved (cap-fixing)"
+  },
+  {
+   "name": "Td4_swap_orientation_class",
+   "passed": true,
+   "detail": "Gram-preserving lattice swaps at c=1 are exactly s1 s2 = +1 (det = -1), for f != 0: every swap is orientation-reversing"
+  },
+  {
+   "name": "Td4_witness_on_stratum",
+   "passed": true,
+   "detail": "witness: S = 1 exactly (c = 1) \u2014 the swap construction applies"
+  },
+  {
+   "name": "Td4_witness_even_profile",
+   "passed": true,
+   "detail": "witness u is even under eta -> pi/2 - eta (also admits cap-SWAPPING maps); evenness is sufficient-not-necessary for the plane swap (see control)"
+  },
+  {
+   "name": "Td4_control_on_stratum",
+   "passed": true,
+   "detail": "control: S = 1 exactly (c = 1 member)"
+  },
+  {
+   "name": "Td4_control_asymmetric",
+   "passed": true,
+   "detail": "u(pi/2 - eta) - u(eta) at eta = pi/6, pi/5: -0.0274519, -0.0200106 (nonzero => genuinely asymmetric; eta -> pi/2 - eta is NOT an isometry of this member)"
+  },
+  {
+   "name": "Td4_control_plane_data_identical",
+   "passed": true,
+   "detail": "g(Y,Y) - g(V,V) = 0 and all eta-jets vanish for the asymmetric control"
+  },
+  {
+   "name": "Td4_control_ambient_symmetric",
+   "passed": true,
+   "detail": "control ambient data: g(V,V)=g(Y,Y), D3 mixing entries equal, g(v-,v+)=0, while g(V,Y)=f/u is NONZERO \u2014 a pair scalar, not a discriminator; values: {\"pi_over_6\": {\"g_VY\": 0.3876113504324668, \"g_VV\": 0.7752227008649336, \"g_YY\": 0.7752227008649336, \"D3_VY\": -2.309401076758503, \"D3_YV\": -2.309401076758503, \"g_vminus_vplus\": 0.0}, \"pi_over_5\": {\"g_VY\": 0.22983292653902934, \"g_VV\": 0.7437549737480145, \"g_YY\": 0.7437549737480145, \"D3_VY\": -2.1029244484765344, \"D3_YV\": -2.1029244484765344, \"g_vminus_vplus\": 6.783321379043816e-167}}"
+  },
+  {
+   "name": "Td4_control_swap_isometry",
+   "passed": true,
+   "detail": "asymmetric control: J^T g J - g = 0 exactly \u2014 the plane-swap isometry exists for this NON-symmetric profile (cap-fixing class; the cap-swapping class is excluded by the asymmetry check above)"
+  }
+ ],
+ "targets": {
+  "T_d1": {
+   "grade": "DERIVED-WITHIN-REGISTRATION",
+   "derived_core": "det G_KY / det G_KV = c = g(Y,Y)/g(V,V): fixed by G02 unit-determinant pair action (u-cancellation) + P-OWN \u00a77 primitivity (no rescaling; sign irrelevant); invariant under K-rescaling; clock-free. c != 1 => the two planes are objectively distinguished (and isometrically inequivalent, by T-d4 necessity).",
+   "registration_residue": "the ABSOLUTE value -c_E^2 rides the registered clock normalization c_E (clock = K is a LINE result; no derived clock scale exists): K -> lam K rescales both dets. The leg 'det G_P = -c_E^2 exactly' is therefore legitimate only WITHIN the registered presentation; it is not a naked CHOSE (no NEW dial beyond the inherited registration) but it is the first certificate leg that load-bears on c_E.",
+   "no_2pi_dial": "the lattice normalization is the torus group structure itself (primitivity is scale-free); the only hidden dial is the c_E placement.",
+   "scope": "c != 1 members are NON-COMPLETE (principal-orbit-only): complete two-cap members have c = 1 exactly (P-CAP, banked, commit 5291b63 \u2014 cited, not assumed)."
+  },
+  "T_d2": {
+   "status": "PROVED (all-orders identity at c = 1)",
+   "statement": "under the correspondence (K,V) <-> (K,Y) (K shared; V |-> Y, both primitive, sign-irrelevant), G_KY = G_KV = diag(-c_E^2 u, 1/u) as matrix functions on the region; all X-jets of every entry agree identically; hence every plane-restricted certificate of every order evaluates equally on the two planes.",
+   "falsifier": "F-d1 NOT fired"
+  },
+  "T_d3": {
+   "inventory": [
+    {
+     "quantity": "g(V,Y) = f/u",
+     "nonzero_generic": true,
+     "relabel": "invariant pair scalar (symmetric)",
+     "certificate_grade": true,
+     "discriminates_unordered": false
+    },
+    {
+     "quantity": "norm ratio g(Y,Y)/g(V,V) = c",
+     "nonzero_generic": true,
+     "relabel": "c -> 1/c",
+     "certificate_grade": true,
+     "discriminates_unordered": "iff c != 1 (T-d1 core); = 1 at c = 1"
+    },
+    {
+     "quantity": "complement norms g(H,H) = b vs g(H~,H~) = b/c",
+     "relabel": "swap",
+     "certificate_grade": true,
+     "discriminates_unordered": "iff c != 1; equal at c = 1"
+    },
+    {
+     "quantity": "g(H,H~) = -f b/c",
+     "relabel": "invariant pair scalar",
+     "certificate_grade": true,
+     "discriminates_unordered": false
+    },
+    {
+     "quantity": "mixed D3 entries c f'/(c-f^2) vs f'/(c-f^2)",
+     "relabel": "swap (ratio c -> 1/c)",
+     "certificate_grade": true,
+     "discriminates_unordered": "iff c != 1; equal at c = 1"
+    },
+    {
+     "quantity": "orientation pairing (Hopf vs anti-Hopf Euler sign; sign of vol(K,X,V,Y); F-holonomy sign)",
+     "relabel": "sign flip",
+     "certificate_grade": false,
+     "reason": "requires a CHOSE orientation \u2014 a metric does not orient; not well-defined from (g, K, line, X)",
+     "discriminates_unordered": "only relative to a chosen orientation"
+    },
+    {
+     "quantity": "cap data: V = v- + v+ vs Y = v- - v+",
+     "relabel": "relative cap-cycle sign flip",
+     "certificate_grade": false,
+     "reason": "each cap cycle is canonical only up to sign; the relative sign is orientation-class data",
+     "discriminates_unordered": false
+    }
+   ],
+   "master_fact": "at c = 1 the ENTIRE ambient orbit Gram G3 and all its X-jets are invariant under the swap P (K fixed, V <-> Y): the P-defect of G3 is diag(0,(c-1)/u,(1-c)/u), supported only on the norm gap. By T-d4 the swap is realized by an actual isometry at c = 1, so NO metric-native datum of any construction distinguishes the planes there. No candidate is promoted to a selector."
+  },
+  "T_d4": {
+   "classification": "swap isometry exists  <=>  c = 1 (alpha = 0 stratum, registered family)",
+   "necessity": "Phi_* V = \u00b1Y, Phi_* Y = \u00b1V forced (two free lines, P-OWN \u00a77; compact primitive elements of span(K,Y) are \u00b1Y); norm matching across the induced orbit-space map gives u\u2218sigma = u and c = 1. No assumption on Phi's action on K and no restriction on the isometry algebra needed.",
+   "sufficiency": "constructive: in cap-cycle coordinates the lattice map J = diag(1,1,1,-1) (V <-> Y, K and t and s fixed) is an isometry for EVERY c = 1 profile \u2014 g(v-,v+) = (1-c)/(4u) = 0 is the entire obstruction. Cap-fixing, torus- and space-orientation-reversing (det = -1 forced for f != 0); extends to the metric completion of complete members (isometry of a dense region extends to the completion \u2014 Category-A standard).",
+   "witness": "P-OWN \u00a76 witness: on-stratum (S = 1) and even-profile; the general construction covers it; evenness is sufficient-not-necessary (asymmetric numeric control admits the swap).",
+   "cap_swapping_subclass": "isometries that also exchange the two caps additionally require the depth profile to be symmetric under the orbit-interval reflection (u\u2218sigma = u with sigma the reflection); the asymmetric control excludes them while still admitting the cap-fixing swap.",
+   "open_remainder": "structure of the FULL swap-isometry group (beyond existence) not classified; members whose isometry algebra strictly exceeds the registered R x T^2 are covered by the necessity argument (topology-only) and by the constructive sufficiency, but their extra isometries are not classified (P-OWN \u00a78 territory)."
+  }
+ },
+ "stratum_subclassification": {
+  "c_neq_1": "planes isometrically INEQUIVALENT (T-d4 necessity) and distinguished by the clock-free norm/det ratio (T-d1 core, DERIVED); selection of span(K,V) by the VALUE leg is DERIVED-WITHIN-REGISTRATION; occurs only on non-complete members (P-CAP).",
+  "c_eq_1": "selection PROVABLY IMPOSSIBLE: a plane-swapping isometry exists for every profile (complete or principal-only); the certificate-silent-but-possibly-selectable middle class is EMPTY on the stratum."
+ },
+ "falsifiers": {
+  "F_d1": "NOT FIRED \u2014 T-d2 proved: no jet distinguishes at c = 1",
+  "F_d2": "NOT FIRED as 'CHOSE and unusable' \u2014 the leg has a DERIVED clock-free core (the ratio/norm comparison) which breaks c != 1 silence unconditionally; the frozen ABSOLUTE-value form is honestly downgraded to DERIVED-WITHIN-REGISTRATION (c_E load-bearing).",
+  "F_d3": "NOT FIRED at this stage \u2014 all zero-residual gates pass; the independent-implementation adjudication belongs to the blind verifier pass (not this script)."
+ },
+ "limits": [
+  "family + registration CHOSE (P06/P07/P14-class); every conclusion scoped to it",
+  "clock = K conditional (P-OWN \u00a75 family-wide only)",
+  "no certificate leg is ADOPTED here \u2014 adoption is Charles's; the extended value/ratio leg is recorded, not adopted",
+  "cohomogeneity-one normal form (orbit-orthogonal transversal; adapted torus coordinates) and isometry-extension-to-completion are Category-A standard mathematics, machine-checked where expressible",
+  "no physics: no branch, no alpha value, no action, no source, no mass"
+ ],
+ "all_passed": true
+}

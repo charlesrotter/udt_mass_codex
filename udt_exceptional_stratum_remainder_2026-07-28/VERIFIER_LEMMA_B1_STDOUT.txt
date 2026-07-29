@@ -1,0 +1,6 @@
+PASS S1_db_phi_forced_zero  :: d1(b)=d2(b)=0 pointwise in every case (incl. f=+-c corners); likewise ds(b)=0 from the (s,±) pair (sum has coefficient 2c>0)
+PASS S1_ds_b  :: (s,-)+(s,+)*(-1): coefficient sum 2c != 0  => ds(b)=0
+PASS S2_separation_degenerate_iff_u_const  :: both coefficients constant  <=>  u^2 = 2c/(k1+k2) constant AND f constant: only constant-depth members escape separation
+PASS S3_periodicity  :: a(phi1+2pi)-a(phi1) = 2 pi lam: single-valued <=> lam=0 (same for mu) => dt(b)=0 => a,b constants on constant-depth members too
+
+lemma stages: 4/4
