@@ -1,0 +1,438 @@
+{
+  "contract": "udt_p4_routeC_shared_static_sector_2026-07-28/PREREGISTRATION.md",
+  "stamps": {
+    "domain": "CHOSE (registered stationary family + R x T^2 stratum, local toric chart; transverse gauge g_xx = e^{2 lambda phi} is a coordinate gauge, Category-A)",
+    "c2_side": "UNIQUE_CONDITIONAL_ONLY_IF_STRONG_CSN_RETAINED; strong CSN CHALLENGED_OWNER_POSTULATE_NOT_DERIVED (G04/G10); INACTIVE without Charles reauthorization",
+    "eh_side": "CONDITIONAL_NOT_SELECTED (G11); EH-H3 spatial-infinity normalization INADMISSIBLE for native finite cells and NOT used",
+    "lambda_seat": "kept symbolic (G08 OPEN; freezing lambda is the named scar)",
+    "ker_r": "KER-R bound (banked): 'Static restriction cannot determine all four-dimensional terms' - any agreement here would be scoped-only",
+    "bdy_td": "BDY-TD threat (banked): 'Bulk equation can remain while momentum and charge shift' - bulk verdicts are robust to total-derivative action shifts; condition-4 (boundary) data is typed separately (TC5)"
+  },
+  "scope": {
+    "domain": "registered stationary family, local toric chart of the R x T^2 stratum (locally contains the R_t x S^3 Hopf members); vacuum restricted equations only; lambda symbolic; alpha, c_E symbolic constants; witnesses are specific domain points",
+    "throughput": "FULL (u,f,bh,alpha;lambda) family computed - no fallback stratum reduction needed",
+    "asymmetry": "inequivalence on this subfamily refutes exact equation-sharing on ANY superset domain containing it (pair-scoped); agreement would have been scoped-only (KER-R)",
+    "containment_note": "the standard 4D fact 'Einstein => Bach-flat' is cited as Category-A mathematics and verified here only on slice members (flat); it is NOT re-proven on the full ansatz"
+  },
+  "tc4_outcome_class": "OC1 (exact inequivalence with witnesses)",
+  "jet_signatures": {
+    "bach": {
+      "tt(lapse)": [
+        "f1",
+        "f2",
+        "f3",
+        "h0",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "p0",
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "ty(momentum)": [
+        "f0",
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "h0",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "p0",
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "tz(momentum)": [
+        "f1",
+        "f2",
+        "f3",
+        "h0",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "p0",
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "xx(radial constraint)": [
+        "f1",
+        "f2",
+        "f3",
+        "h0",
+        "h1",
+        "h2",
+        "h3",
+        "p0",
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "yy": [
+        "f0",
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "h0",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "p0",
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "yz": [
+        "f0",
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "h0",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "p0",
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "zz": [
+        "f1",
+        "f2",
+        "f3",
+        "h0",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "p0",
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ]
+    },
+    "eh": {
+      "tt(lapse)": [
+        "f1",
+        "h0",
+        "h1",
+        "h2",
+        "p0",
+        "p1",
+        "p2"
+      ],
+      "ty(momentum)": [
+        "f0",
+        "f1",
+        "f2",
+        "h0",
+        "h1",
+        "h2",
+        "p0",
+        "p1",
+        "p2"
+      ],
+      "tz(momentum)": [
+        "f1",
+        "h0",
+        "h1",
+        "h2",
+        "p0",
+        "p1",
+        "p2"
+      ],
+      "xx(radial constraint)": [
+        "f1",
+        "h0",
+        "p0",
+        "p1"
+      ],
+      "yy": [
+        "f0",
+        "f1",
+        "f2",
+        "h0",
+        "h1",
+        "h2",
+        "p0",
+        "p1",
+        "p2"
+      ],
+      "yz": [
+        "f0",
+        "f1",
+        "f2",
+        "h0",
+        "h1",
+        "h2",
+        "p0",
+        "p1",
+        "p2"
+      ],
+      "zz": [
+        "f1",
+        "h0",
+        "h1",
+        "h2",
+        "p0",
+        "p1",
+        "p2"
+      ]
+    }
+  },
+  "witness_A": {
+    "tt(lapse)": [
+      "set1: p4=270045905584596356860291/312432812572926243369600; B=0; E=-Lambda - 106123967/144671472; exceptional Lambda*=-106123967/144671472",
+      "set2: p4=396660838236678515708734637/1734611634548479252081152000; B=0; E=-Lambda - 3401623811/9333464400; exceptional Lambda*=-3401623811/9333464400"
+    ],
+    "ty(momentum)": [
+      "set1: p4=10653774317605465071284411/12809745315489975978153600; B=0; E=-Lambda/14 - 242095121/3761458272; exceptional Lambda*=-1694665847/1880729136",
+      "set2: p4=-599028517673273445161464331/13162641226867871971674624000; B=0; E=-Lambda/15 - 59470926037/2380033422000; exceptional Lambda*=-59470926037/158668894800"
+    ],
+    "tz(momentum)": [
+      "set1: p4=273049832919346766522731/312432812572926243369600; B=0; E=-Lambda/2 - 106721783/289342944; exceptional Lambda*=-106721783/144671472",
+      "set2: p4=1360518407000885682811033/6002116382520689453568000; B=0; E=-Lambda/3 - 3415430711/28000393200; exceptional Lambda*=-3415430711/9333464400"
+    ],
+    "xx(radial constraint)": [
+      "set1: p3=641442865192011625889/1363945775002166790720; B=0; E=Lambda - 487/1936; exceptional Lambda*=487/1936",
+      "set2: p3=4787904776776568856421997/30117013983285633637833600; B=0; E=Lambda - 170/1521; exceptional Lambda*=170/1521"
+    ],
+    "yy": [
+      "set1: p4=186295835757803041082152619/555942946692264957451866240; B=0; E=199*Lambda/196 + 2509166357/11170391232; exceptional Lambda*=-2509166357/11341366608",
+      "set2: p4=479585800982244713243885449553/7286344584148046378320134048000; B=0; E=458*Lambda/225 + 441228971951/2231281333125; exceptional Lambda*=-441228971951/4541897113650"
+    ],
+    "yz": [
+      "set1: p4=150511150307090735376707/206133832663057084705920; B=0; E=3*Lambda/28 - 1638854057/17553471936; exceptional Lambda*=1638854057/1880729136",
+      "set2: p4=-650914988653786060462142029/14602305111056545468576536000; B=0; E=8*Lambda/45 - 29496723274/446256266625; exceptional Lambda*=14748361637/39667223700"
+    ],
+    "zz": [
+      "set1: p4=107317838757961974913607/145801979200698913572480; B=0; E=3*Lambda/4 - 26951273/192895296; exceptional Lambda*=26951273/144671472",
+      "set2: p4=414651315086606948339573/1796764502406367105768000; B=0; E=8*Lambda/9 - 430358147/5250073725; exceptional Lambda*=430358147/4666732200"
+    ]
+  },
+  "witness_B": {
+    "tt(lapse)": [
+      "set1: h2=-2*Lambda - 4477345/3145032; E=0; B=5*Lambda**2/6 + 10742411*Lambda/9435096 + 641359025269539058853/752816103955531799040",
+      "set2: h2=-4*Lambda - 114522859/80460900; E=0; B=5*Lambda**2/6 + 76561417*Lambda/120691350 + 142366039922303773088251/620448960685120758172800"
+    ],
+    "ty(momentum)": [
+      "set1: h2=-2*Lambda - 71903497/40885416; E=0; B=5*Lambda**2/84 + 35312819*Lambda/429296868 + 14440429333699366341977/250172677914485672586240",
+      "set2: h2=-4*Lambda - 2003554853/1367835300; E=0; B=Lambda**2/18 + 11619319687*Lambda/246210354000 + 5921499504371267586372797/800379159283805778042912000"
+    ],
+    "tz(momentum)": [
+      "set1: h2=-2*Lambda - 4503337/3145032; E=0; B=5*Lambda**2/12 + 10677431*Lambda/18870192 + 7054117446757042632823/16561954287021699578880",
+      "set2: h2=-4*Lambda - 114998959/80460900; E=0; B=5*Lambda**2/18 + 152527709*Lambda/724148100 + 61058694610437678527/805080831338824513200"
+    ],
+    "xx(radial constraint)": [
+      "w1: alpha=1/2,p1=0,h0=1,lambda=1/3,f-jets=0 except f1^2=16*Lambda/3; valid Lambda in (0, None); E=0 exactly; B numerator in Lambda: 2487392430197760*Lambda**2 - 505261642649040*Lambda + 17947857383908",
+      "w2: alpha=2,p1=1,h0=1,lambda=1/5,f-jets=0 except f1^2=4/3 - 4*Lambda/3; valid Lambda in (None, 1); E=0 exactly; B numerator in Lambda: 1634244575264000*Lambda**2 - 756154437354540*Lambda - 471683921636889",
+      "w3: alpha=3,p1=2,h0=2,lambda=1/7,f-jets=0 except f1^2=4 - Lambda; valid Lambda in (None, 4); E=0 exactly; B numerator in Lambda: 379189157136814080*Lambda**2 - 1171330197086096880*Lambda + 148579146776006767"
+    ],
+    "yy": [
+      "set1: h2=-398*Lambda/3 - 108932587/3716856; E=0; B=23087383*Lambda**2/3528 + 7672697068723*Lambda/2671180512 + 20976299580778000268392299527/66545932325253188907939840",
+      "set2: h2=-229*Lambda - 15191208769/683917650; E=0; B=21028841*Lambda**2/2160 + 13835162339662913*Lambda/7386310620000 + 5408009432946206525040321909961/60028436946285433353218400000"
+    ],
+    "yz": [
+      "set1: h2=73032151/40885416 - 2*Lambda; E=0; B=-5*Lambda**2/56 + 2864627*Lambda/31799768 + 5233374717170142479113/109270824836212132853760",
+      "set2: h2=520355878/341958825 - 4*Lambda; E=0; B=-4*Lambda**2/27 + 11696285911*Lambda/184657765500 - 30989039862103459344973001/3001421847314271667660920000"
+    ],
+    "zz": [
+      "set1: h2=1308535/3145032 - 2*Lambda; E=0; B=-5*Lambda**2/8 + 605817*Lambda/1397792 + 3914664632303993956393/11041302858014466385920",
+      "set2: h2=16227193/40230450 - 4*Lambda; E=0; B=-20*Lambda**2/27 + 649094933*Lambda/2172444300 + 10240132371663307781237/117311778280800143352000"
+    ]
+  },
+  "slice_bach_deweighted_polys": {
+    "t": "-(4*lambda*s + s**2 + 4)*(-lambda**2 - 4*lambda + s**2 + 2*s + 1)/6",
+    "x": "(4*lambda*s + s**2 + 4)*(lambda**2 + 2*lambda*s + s**2 + 3)/6",
+    "y": "(4*lambda*s + s**2 + 4)*(-3*lambda**2 - 2*lambda*s + s**2 - 1)/6",
+    "z": "-(4*lambda*s + s**2 + 4)*(-lambda**2 + 4*lambda + s**2 - 2*s + 1)/6"
+  },
+  "einstein_slice_roots_k1": [],
+  "checks": [
+    {
+      "id": "C01_metric_determinant",
+      "status": "PASS",
+      "detail": "det g = -c_E^2 bh e^{4 lambda phi} (matches plane-audit A01 with b = W*bh)"
+    },
+    {
+      "id": "C02_inverse_exact",
+      "status": "PASS",
+      "detail": "g.g^{-1} = 1 exactly"
+    },
+    {
+      "id": "C03_first_bianchi",
+      "status": "PASS",
+      "detail": "R_a[bcd] = 0 on the restriction"
+    },
+    {
+      "id": "C04_pair_symmetry",
+      "status": "PASS",
+      "detail": "R_abcd = R_cdab"
+    },
+    {
+      "id": "C05_ricci_symmetric",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "C06_weyl_tracefree",
+      "status": "PASS",
+      "detail": "all traces of C_abcd vanish on the restriction"
+    },
+    {
+      "id": "C07_contracted_bianchi",
+      "status": "PASS",
+      "detail": "nabla_a G^{ab} = 0 exactly on the restriction"
+    },
+    {
+      "id": "C08_bach_symmetric",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "C09_bach_tracefree",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "C10_mixed_transverse_rows_vanish",
+      "status": "PASS",
+      "detail": "B_ax = 0 and (G+Lambda g)_ax = 0 identically for a in {t,y,z}: 7 independent components each"
+    },
+    {
+      "id": "C11_jet_order_split",
+      "status": "PASS",
+      "detail": "every Bach component carries 3rd/4th jets; no EH component carries any jet above 2nd"
+    },
+    {
+      "id": "C12_constants_member_flat",
+      "status": "PASS",
+      "detail": "constants member has Riemann = 0"
+    },
+    {
+      "id": "C13_witness_W_FLAT",
+      "status": "PASS",
+      "detail": "W-FLAT: B_ab = 0 identically; (G+Lambda g)_ab = Lambda g_ab != 0 for every Lambda != 0 (g nondegenerate)"
+    },
+    {
+      "id": "C14_tt_witness_A",
+      "status": "PASS",
+      "detail": "tt(lapse): Bach comp = 0, EH comp != 0 for every Lambda (two witnesses, distinct Lambda*)"
+    },
+    {
+      "id": "C15_tt_witness_B",
+      "status": "PASS",
+      "detail": "tt(lapse): EH comp = 0 (symbolic Lambda), Bach comp != 0 for every Lambda (two witnesses, Lambda-numerators share no root)"
+    },
+    {
+      "id": "C14_ty_witness_A",
+      "status": "PASS",
+      "detail": "ty(momentum): Bach comp = 0, EH comp != 0 for every Lambda (two witnesses, distinct Lambda*)"
+    },
+    {
+      "id": "C15_ty_witness_B",
+      "status": "PASS",
+      "detail": "ty(momentum): EH comp = 0 (symbolic Lambda), Bach comp != 0 for every Lambda (two witnesses, Lambda-numerators share no root)"
+    },
+    {
+      "id": "C14_tz_witness_A",
+      "status": "PASS",
+      "detail": "tz(momentum): Bach comp = 0, EH comp != 0 for every Lambda (two witnesses, distinct Lambda*)"
+    },
+    {
+      "id": "C15_tz_witness_B",
+      "status": "PASS",
+      "detail": "tz(momentum): EH comp = 0 (symbolic Lambda), Bach comp != 0 for every Lambda (two witnesses, Lambda-numerators share no root)"
+    },
+    {
+      "id": "C14_xx_witness_A",
+      "status": "PASS",
+      "detail": "xx(radial constraint): Bach comp = 0, EH comp != 0 for every Lambda (two witnesses, distinct Lambda*)"
+    },
+    {
+      "id": "C15_xx_witness_B",
+      "status": "PASS",
+      "detail": "xx(radial constraint): EH comp = 0 (symbolic Lambda), Bach comp != 0 for every Lambda (three even-parity f1^2 witnesses; validity intervals cover R; roots cross-covered)"
+    },
+    {
+      "id": "C14_yy_witness_A",
+      "status": "PASS",
+      "detail": "yy: Bach comp = 0, EH comp != 0 for every Lambda (two witnesses, distinct Lambda*)"
+    },
+    {
+      "id": "C15_yy_witness_B",
+      "status": "PASS",
+      "detail": "yy: EH comp = 0 (symbolic Lambda), Bach comp != 0 for every Lambda (two witnesses, Lambda-numerators share no root)"
+    },
+    {
+      "id": "C14_yz_witness_A",
+      "status": "PASS",
+      "detail": "yz: Bach comp = 0, EH comp != 0 for every Lambda (two witnesses, distinct Lambda*)"
+    },
+    {
+      "id": "C15_yz_witness_B",
+      "status": "PASS",
+      "detail": "yz: EH comp = 0 (symbolic Lambda), Bach comp != 0 for every Lambda (two witnesses, Lambda-numerators share no root)"
+    },
+    {
+      "id": "C14_zz_witness_A",
+      "status": "PASS",
+      "detail": "zz: Bach comp = 0, EH comp != 0 for every Lambda (two witnesses, distinct Lambda*)"
+    },
+    {
+      "id": "C15_zz_witness_B",
+      "status": "PASS",
+      "detail": "zz: EH comp = 0 (symbolic Lambda), Bach comp != 0 for every Lambda (two witnesses, Lambda-numerators share no root)"
+    },
+    {
+      "id": "C16_witness_W_EXP",
+      "status": "PASS",
+      "detail": "W-EXP (phi=x, bh=e^{2x}, f=0, alpha=0, lambda=-5/4): B_ab = 0 identically, Weyl != 0 (NOT conformally flat), trace-free Ricci != 0 => (G+Lambda g)_ab != 0 for EVERY Lambda incl. 0"
+    },
+    {
+      "id": "C16b_slice_consistency",
+      "status": "PASS",
+      "detail": "slice pipeline agrees with direct substitution into the family tensors (B_tt, E_tt)"
+    },
+    {
+      "id": "C16c_witness_W_EXP_CF",
+      "status": "PASS",
+      "detail": "W-EXP-CF (phi=x, bh=e^{4x}, f=0, alpha=0, lambda=-1): conformally flat (Weyl = 0) non-Einstein member - Bach = 0 trivially, (G+Lambda g) != 0 for every Lambda"
+    },
+    {
+      "id": "C17_bach_flat_branch",
+      "status": "PASS",
+      "detail": "on the exponential slice (k=1) every deweighted Bach component is an x-free polynomial divisible by (4 lambda s + s^2 + 4): a ONE-PARAMETER Bach-flat branch; it requires lambda*s = -(s^2+4)/4 < 0, hence lambda != 0 (a frozen lambda = 0 seat admits no branch)"
+    },
+    {
+      "id": "C17b_pair_lies_on_branch",
+      "status": "PASS",
+      "detail": "the former 'discrete root pair' lambda = +/- 5 sqrt(21)/21, s = -/+ 2 sqrt(21)/7 satisfies 4 lambda s + s^2 + 4 = 0 exactly (both signs): it lies ON the one-parameter branch - the slice Bach-flat locus is the branch ALONE (A1 correction, check-backed)"
+    },
+    {
+      "id": "C18_einstein_slice_rigidity",
+      "status": "PASS",
+      "detail": "EH+Lambda on the exponential slice (k=1 nonflat gauge) has NO roots (roots=[]); the k=s=0 flat member solves it and only with Lambda=0 [SCOPED to the exponential subfamily]"
+    }
+  ],
+  "failures": [],
+  "n_checks": 33,
+  "n_pass": 33,
+  "elapsed_s": 48.0
+}

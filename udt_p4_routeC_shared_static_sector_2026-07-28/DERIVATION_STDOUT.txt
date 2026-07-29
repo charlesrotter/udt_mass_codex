@@ -1,0 +1,40 @@
+[    0.0s] PASS C01_metric_determinant :: det g = -c_E^2 bh e^{4 lambda phi} (matches plane-audit A01 with b = W*bh)
+[   32.6s] full-family restriction done (90 Riem, 72 Weyl nonzero entries)
+[   32.7s] PASS C02_inverse_exact :: g.g^{-1} = 1 exactly
+[   32.7s] PASS C03_first_bianchi :: R_a[bcd] = 0 on the restriction
+[   32.8s] PASS C04_pair_symmetry :: R_abcd = R_cdab
+[   32.8s] PASS C05_ricci_symmetric :: 
+[   32.9s] PASS C06_weyl_tracefree :: all traces of C_abcd vanish on the restriction
+[   33.5s] PASS C07_contracted_bianchi :: nabla_a G^{ab} = 0 exactly on the restriction
+[   33.5s] PASS C08_bach_symmetric :: 
+[   33.9s] PASS C09_bach_tracefree :: 
+[   33.9s] PASS C10_mixed_transverse_rows_vanish :: B_ax = 0 and (G+Lambda g)_ax = 0 identically for a in {t,y,z}: 7 independent components each
+[   38.6s] jetization done
+[   38.6s] PASS C11_jet_order_split :: every Bach component carries 3rd/4th jets; no EH component carries any jet above 2nd
+[   40.4s] PASS C12_constants_member_flat :: constants member has Riemann = 0
+[   40.8s] PASS C13_witness_W_FLAT :: W-FLAT: B_ab = 0 identically; (G+Lambda g)_ab = Lambda g_ab != 0 for every Lambda != 0 (g nondegenerate)
+[   41.3s] PASS C14_tt_witness_A :: tt(lapse): Bach comp = 0, EH comp != 0 for every Lambda (two witnesses, distinct Lambda*)
+[   41.3s] PASS C15_tt_witness_B :: tt(lapse): EH comp = 0 (symbolic Lambda), Bach comp != 0 for every Lambda (two witnesses, Lambda-numerators share no root)
+[   41.9s] PASS C14_ty_witness_A :: ty(momentum): Bach comp = 0, EH comp != 0 for every Lambda (two witnesses, distinct Lambda*)
+[   41.9s] PASS C15_ty_witness_B :: ty(momentum): EH comp = 0 (symbolic Lambda), Bach comp != 0 for every Lambda (two witnesses, Lambda-numerators share no root)
+[   42.4s] PASS C14_tz_witness_A :: tz(momentum): Bach comp = 0, EH comp != 0 for every Lambda (two witnesses, distinct Lambda*)
+[   42.4s] PASS C15_tz_witness_B :: tz(momentum): EH comp = 0 (symbolic Lambda), Bach comp != 0 for every Lambda (two witnesses, Lambda-numerators share no root)
+[   42.9s] PASS C14_xx_witness_A :: xx(radial constraint): Bach comp = 0, EH comp != 0 for every Lambda (two witnesses, distinct Lambda*)
+[   42.9s] PASS C15_xx_witness_B :: xx(radial constraint): EH comp = 0 (symbolic Lambda), Bach comp != 0 for every Lambda (three even-parity f1^2 witnesses; validity intervals cover R; roots cross-covered)
+[   44.4s] PASS C14_yy_witness_A :: yy: Bach comp = 0, EH comp != 0 for every Lambda (two witnesses, distinct Lambda*)
+[   44.4s] PASS C15_yy_witness_B :: yy: EH comp = 0 (symbolic Lambda), Bach comp != 0 for every Lambda (two witnesses, Lambda-numerators share no root)
+[   45.7s] PASS C14_yz_witness_A :: yz: Bach comp = 0, EH comp != 0 for every Lambda (two witnesses, distinct Lambda*)
+[   45.7s] PASS C15_yz_witness_B :: yz: EH comp = 0 (symbolic Lambda), Bach comp != 0 for every Lambda (two witnesses, Lambda-numerators share no root)
+[   46.5s] PASS C14_zz_witness_A :: zz: Bach comp = 0, EH comp != 0 for every Lambda (two witnesses, distinct Lambda*)
+[   46.5s] PASS C15_zz_witness_B :: zz: EH comp = 0 (symbolic Lambda), Bach comp != 0 for every Lambda (two witnesses, Lambda-numerators share no root)
+[   46.5s] per-component witnesses done
+[   46.6s] PASS C16_witness_W_EXP :: W-EXP (phi=x, bh=e^{2x}, f=0, alpha=0, lambda=-5/4): B_ab = 0 identically, Weyl != 0 (NOT conformally flat), trace-free Ricci != 0 => (G+Lambda g)_ab != 0 for EVERY Lambda incl. 0
+[   46.8s] PASS C16b_slice_consistency :: slice pipeline agrees with direct substitution into the family tensors (B_tt, E_tt)
+[   46.9s] PASS C16c_witness_W_EXP_CF :: W-EXP-CF (phi=x, bh=e^{4x}, f=0, alpha=0, lambda=-1): conformally flat (Weyl = 0) non-Einstein member - Bach = 0 trivially, (G+Lambda g) != 0 for every Lambda
+[   47.6s] PASS C17_bach_flat_branch :: on the exponential slice (k=1) every deweighted Bach component is an x-free polynomial divisible by (4 lambda s + s^2 + 4): a ONE-PARAMETER Bach-flat branch; it requires lambda*s = -(s^2+4)/4 < 0, hence lambda != 0 (a frozen lambda = 0 seat admits no branch)
+[   47.6s] PASS C17b_pair_lies_on_branch :: the former 'discrete root pair' lambda = +/- 5 sqrt(21)/21, s = -/+ 2 sqrt(21)/7 satisfies 4 lambda s + s^2 + 4 = 0 exactly (both signs): it lies ON the one-parameter branch - the slice Bach-flat locus is the branch ALONE (A1 correction, check-backed)
+[   47.7s] PASS C18_einstein_slice_rigidity :: EH+Lambda on the exponential slice (k=1 nonflat gauge) has NO roots (roots=[]); the k=s=0 flat member solves it and only with Lambda=0 [SCOPED to the exponential subfamily]
+[   47.7s] slice analysis done
+
+[   47.9s] SUMMARY: 33/33 checks passed; failures: none
+ROUTE C STAGE 1 DERIVATION: ALL CHECKS PASSED (outcome class OC1)

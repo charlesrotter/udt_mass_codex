@@ -1,0 +1,40 @@
+[    0.2s] PASS V01_schwarzschild :: Ricci=0, Weyl!=0, Bach=0 on Schwarzschild -> engine + relative-sign convention consistent
+[    0.3s] PASS V02_nontrivial_control :: control metric has Bach != 0 (implementation not trivially zero)
+[    0.4s] PASS V03a_flip_proportional :: opposite-Riemann-convention Bach (with its matching pairing sign) = -B exactly: same vanishing locus -> INEQUIVALENCE verdicts are convention-independent
+[    1.2s] PASS V03b_conformal_pins_sign :: conformal covariance B[O^2 g] = O^-2 B[g] holds for the +1/2 pairing and FAILS for the mixed -1/2 pairing; r^2*Schwarzschild (conformally-Einstein, non-Einstein) is Bach-flat only with the correct pairing -> the package's sign/normalization is the genuine Bach tensor
+[    1.2s] PASS V04a_det :: det g = -c_E^2 bh e^{4 lambda phi} (census A01 consistency)
+[   34.3s] full-family geometry done
+[   39.0s] PASS V05a_mixed_x_row :: B_ax = 0 and E_ax = 0 identically for a in {t,y,z} (7 independent components each)
+[   39.4s] PASS V05b_bach_sym_tracefree :: my Bach symmetric and trace-free on the family
+[   40.3s] PASS V04b_bach_system_match :: independently recomputed Bach restriction == package BACH_ODE_SYSTEM_FULL.txt (all 7 components, exact, same normalization)
+[   40.3s] PASS V04c_eh_system_match :: independently recomputed EH+Lambda restriction == package EH_ODE_SYSTEM_FULL.txt
+[   40.3s] system comparison done
+[   40.3s] PASS V06a_jet_orders :: every Bach component carries 3rd/4th jets; no EH component exceeds 2nd jets
+[   40.3s] PASS V06b_Exx_identity :: E_xx|_{p0=0} = [4 Lambda h0 + (alpha^2-1) f1^2 - 4 h0 p1^2]/(4 h0) exactly (lambda, h1, and all 2nd jets absent)
+[   40.7s] PASS V07_W_FLAT :: constants member: B == 0, E = Lambda*g with g nondegenerate -> fails EH for every Lambda != 0
+[   41.2s]   tt: dirA Lambda* pair distinct=True; dirB fresh-jet-order gcd-coprime=True
+[   41.9s]   ty: dirA Lambda* pair distinct=True; dirB fresh-jet-order gcd-coprime=True
+[   42.5s]   tz: dirA Lambda* pair distinct=True; dirB fresh-jet-order gcd-coprime=True
+[   42.7s]   xx: dirA Lambda* pair distinct=True
+[   44.2s]   yy: dirA Lambda* pair distinct=True; dirB fresh-jet-order gcd-coprime=True
+[   45.5s]   yz: dirA Lambda* pair distinct=True; dirB fresh-jet-order gcd-coprime=True
+[   46.3s]   zz: dirA Lambda* pair distinct=True; dirB fresh-jet-order gcd-coprime=True
+[   46.3s] PASS V08_direction_A_all7 :: all 7 components: B_comp = 0 with E_comp != 0; two witnesses with distinct exceptional Lambda* -> every real Lambda covered
+[   46.3s] PASS V09_direction_B_6comps :: 6 non-xx components: E_comp = 0 (symbolic Lambda, Lambda-free linear coefficient and denominators) with B_comp != 0; VERIFIER'S OWN low-jet order; Lambda-numerators gcd-coprime
+[   47.2s] PASS V08b_fresh_params :: verifier-chosen PARAMS3/JETVALS3 (not in package): direction-A and direction-B witnesses exist on tt and yz as well - inequivalence is not an artifact of the package's points
+[   47.2s] PASS V10a_Bxx_parity :: B_xx even under flipping all f-jets (exact discrete isometry y -> -y)
+[   47.4s] PASS V10b_xx_intervals :: three even-parity f1^2 witnesses: E_xx = 0 exactly for symbolic Lambda; derived validity intervals [0,inf), (-inf,1], (-inf,4] -> union covers all real Lambda
+[   47.4s] PASS V10c_xx_root_coverage :: every real root of a witness's Bach-numerator inside its validity interval is covered by another valid witness with gcd-coprime numerator (gcd over Q catches shared algebraic roots) -> for EVERY real Lambda some xx witness has E_xx = 0 != B_xx
+[   47.5s] PASS V10d_xx_lorentzian :: the alpha=2,3 xx witness points (g_zz = q < 0) are still Lorentzian (-,+,+,+): the (t,z) block det = -c_E^2 < 0 always - genuine domain members
+[   47.5s] witnesses done
+[   47.6s] PASS V11a_W_EXP :: W-EXP (own engine, own metric build): Bach == 0 identically, Weyl != 0 (genuinely non-conformally-flat), trace-free Ricci != 0 -> G_ab + Lambda g_ab != 0 for EVERY Lambda incl. 0 -- the load-bearing decisive witness CONFIRMED
+[   47.6s] PASS V11b_W_EXP_no_Lambda :: E_ii = 0 would need Lambda = [-7/4, -1, 1/4, 1] simultaneously - impossible: no Lambda rescues EH+Lambda
+[   47.9s] PASS V11c_family_slice_consistency :: the member's jets substituted into the family-restricted Bach system give 0 in all 7 components - restriction commutes with specialization (C16b, all components)
+[   47.9s] PASS V12_W_EXP_CF :: W-EXP-CF (lambda=-1, bh=e^{4x}): conformally flat (Weyl == 0), Bach == 0, non-Einstein -> fails EH+Lambda for every Lambda
+[   48.4s] PASS V13a_bach_flat_branch :: slice (phi=x, bh=e^{2sx}, f=0, alpha=0): Bach off-diagonals vanish; every deweighted diagonal component is x-free and divisible by (4 lambda s + s^2 + 4) - branch reproduced
+[   48.4s] PASS V13b_lambda0_no_member :: at lambda = 0: s^2 + 4 has no real root AND the quotient system has no common real root -> NO Bach-flat member on this slice at lambda = 0 [claim is SCOPED to the exponential subfamily in the package - correct scoping]
+[   48.4s] PASS V13c_discrete_pair_on_branch :: the claimed 'discrete root pair' LIES ON the branch (4 lambda s + s^2 + 4 = 0 at the pair) and the quotient system has no common real root -> the Bach-flat locus on the slice is exactly the one-parameter branch; the 'plus discrete roots' wording in the ledger/EXACT_DERIVATION is an amendment item (redundant, not an additional solution set)
+[   48.5s] PASS V15_eh_slice_rigidity :: EH+Lambda on the k=1 slice has NO roots (my independent solve agrees); the flat k=s=0 member gives E = Lambda*g, solvable only with Lambda = 0 [SCOPED to exponential subfamily]
+[   48.7s] PASS V14_containment_spot :: de Sitter static patch: solves EH with Lambda=3/L^2 AND is Bach-flat; with Schwarzschild (V01) and the flat member (V07): Einstein => Bach-flat spot-verified on 3 members; the package cites it as Category-A and flags it slice-verified-only - no over-claim
+
+[   48.7s] VERIFIER SUMMARY: ALL CHECKS PASSED
