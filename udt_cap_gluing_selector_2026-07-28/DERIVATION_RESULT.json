@@ -1,0 +1,378 @@
+{
+  "package": "udt_cap_gluing_selector_2026-07-28",
+  "script": "derive_cap_gluing.py",
+  "date": "2026-07-28",
+  "deterministic": true,
+  "sympy_version": "1.13.1",
+  "checks": [
+    {
+      "name": "A_G3_det_parent",
+      "pass": true,
+      "detail": "det G3 = -b c_E^2 (P-OWN \u00a72) reproduced"
+    },
+    {
+      "name": "Tc1_gww_formula",
+      "pass": true,
+      "detail": "g(w,w) = Q (x+y f)^2 + y^2 b for w = x V + y Y"
+    },
+    {
+      "name": "Tc1_cross_K_formula",
+      "pass": true,
+      "detail": "g(w,K) = -c_E alpha u (x + y f)  ->  0 exactly when A(w) = x + y f -> 0"
+    },
+    {
+      "name": "Tc1_cross_orbit_formula",
+      "pass": true,
+      "detail": "g(w,w') = Q (x+y f)(x'+y' f) + y y' b  ->  0 when A(w) -> 0 and b -> 0"
+    },
+    {
+      "name": "Tc1_fcap_formula",
+      "pass": true,
+      "detail": "A(w) -> 0 with y != 0  =>  f -> f_cap = -x/y at the cap"
+    },
+    {
+      "name": "Tc1_V_never_closes",
+      "pass": true,
+      "detail": "w = \u00b1V gives A(w) = \u00b11, constant and nonzero: V-closing is impossible"
+    },
+    {
+      "name": "Tc1_cap_cycle_coords",
+      "pass": true,
+      "detail": "every cap cycle has |x| = |y| = 1/2 in the free-line basis (V, Y)"
+    },
+    {
+      "name": "Tc1_fcap_registered",
+      "pass": true,
+      "detail": "registered completions: f_cap = \u00b11 exactly"
+    },
+    {
+      "name": "Tc1_fcap_opposite",
+      "pass": true,
+      "detail": "the two caps carry OPPOSITE f_cap values (+1 at one, -1 at the other)"
+    },
+    {
+      "name": "Tc1_Y_closing_record",
+      "pass": true,
+      "detail": "IF the second circle itself closed (non-registered), f_cap would be 0"
+    },
+    {
+      "name": "Tc1_H_is_w_over_y",
+      "pass": true,
+      "detail": "at f = f_cap: H = w/y, hence b = g(H,H) = g(w,w)/y^2 -> 0 at the cap"
+    },
+    {
+      "name": "Tc1_gww_leading",
+      "pass": true,
+      "detail": "g(w,w) = y^2 b2 rho^2 + O(rho^4): the Q-term enters only at O(rho^4)"
+    },
+    {
+      "name": "Tc1_b_rate",
+      "pass": true,
+      "detail": "unit closing rate (2pi period, no cone) forces b2 = 1/y^2 (registered |y| = 1/2  =>  b = 4 rho^2 (1+O(rho^2)))"
+    },
+    {
+      "name": "Tc1_b_gww_ratio",
+      "pass": true,
+      "detail": "y^2 b / g(w,w) -> 1: b -> 0 exactly as fast as the closing norm"
+    },
+    {
+      "name": "Tc1_chi_zero",
+      "pass": true,
+      "detail": "chi -> 0 at every regular cap (u even)"
+    },
+    {
+      "name": "Tc1_chi_rate",
+      "pass": true,
+      "detail": "chi = -(u2/u0) rho + O(rho^3)"
+    },
+    {
+      "name": "Tc2_df_zero",
+      "pass": true,
+      "detail": "df -> 0 at every regular cap (f even)"
+    },
+    {
+      "name": "Tc1_db_zero",
+      "pass": true,
+      "detail": "db -> 0 at every regular cap (b even)"
+    },
+    {
+      "name": "Tc1_df_rate_general",
+      "pass": true,
+      "detail": "df^2/b -> 4 f2^2/b2: df -> 0 at rate O(sqrt(b))"
+    },
+    {
+      "name": "Tc1_df_rate_unit",
+      "pass": true,
+      "detail": "with the unit rate: df^2/b -> 4 f2^2 y^2 (= f2^2 registered)"
+    },
+    {
+      "name": "Tc2_evenness_negative_control",
+      "pass": true,
+      "detail": "odd r-term => dF/dx1 jumps by 2 f1 at the core: smooth iff f1 = 0 (machine form of: invariant scalars are even in rho; df(0)=0 FORCED)"
+    },
+    {
+      "name": "Tc2_det_recompute",
+      "pass": true,
+      "detail": "det G_KY = -c_E^2 (b u + f^2) recomputed from the Gram matrix"
+    },
+    {
+      "name": "Tc2_off_recompute",
+      "pass": true,
+      "detail": "(D_KY)[1,0] = -alpha c_E df u^2/(b u + f^2) recomputed independently"
+    },
+    {
+      "name": "Tc2_trace_recompute",
+      "pass": true,
+      "detail": "tr D_KY = X(b u + f^2)/(b u + f^2) recomputed independently"
+    },
+    {
+      "name": "Tc2_detGKY_limit_general",
+      "pass": true,
+      "detail": "det G_KY -> -c_E^2 f_cap^2 = -c_E^2 x^2/y^2 at a regular cap"
+    },
+    {
+      "name": "Tc2_detGKY_limit_registered",
+      "pass": true,
+      "detail": "registered f_cap^2 = 1: det G_KY -> -c_E^2 = det G_KV exactly"
+    },
+    {
+      "name": "Tc2_off_limit",
+      "pass": true,
+      "detail": "off-term -> 0 at every regular cap (df -> 0, S -> f_cap^2 != 0)"
+    },
+    {
+      "name": "Tc2_off_rate",
+      "pass": true,
+      "detail": "off-term = -2 alpha c_E f2 u0^2 (y^2/x^2) rho + O(rho^3): O(rho) = O(sqrt(b))"
+    },
+    {
+      "name": "Tc2_trace_limit",
+      "pass": true,
+      "detail": "tr D_KY -> 0 at every regular cap"
+    },
+    {
+      "name": "Tc2_DKY_limit",
+      "pass": true,
+      "detail": "the whole restricted response D_KY -> 0 entrywise"
+    },
+    {
+      "name": "Tc2_DKV_limit",
+      "pass": true,
+      "detail": "D_KV -> 0 as well (chi -> 0 forced): rate pair (-2chi, +2chi) -> (0, 0)"
+    },
+    {
+      "name": "Tc3_S_limit_general",
+      "pass": true,
+      "detail": "S = b u + f^2 -> f_cap^2 = x^2/y^2 at a regular cap"
+    },
+    {
+      "name": "Tc3_c_forced_series",
+      "pass": true,
+      "detail": "S == c with a regular cap forces c = f_cap^2 exactly"
+    },
+    {
+      "name": "Tc3_both_caps_both_lines",
+      "pass": true,
+      "detail": "all four registered (x, y) sign cases give c = 1; the two caps agree"
+    },
+    {
+      "name": "Tc3_general_record",
+      "pass": true,
+      "detail": "record: a completion closing the second circle itself would force c = 0"
+    },
+    {
+      "name": "Tc3_stratum_rate_lock",
+      "pass": true,
+      "detail": "S == c forces f2 = -b2 u0/(2 f_cap) (with b2 = 1/y^2: f2 = -u0/(2 y^2 f_cap))"
+    },
+    {
+      "name": "Tc3_rate_lock_witness_value",
+      "pass": true,
+      "detail": "witness numbers (u0=1, b2=4, f_cap=+1): f2 = -2, matching f = cos 2 eta"
+    },
+    {
+      "name": "W_on_stratum",
+      "pass": true,
+      "detail": "witness: b u + f^2 = 1 exactly (P-SEL [W_on_stratum] reproduced)"
+    },
+    {
+      "name": "W_fcap_eta0",
+      "pass": true,
+      "detail": "f -> +1 at eta = 0"
+    },
+    {
+      "name": "W_fcap_etapi2",
+      "pass": true,
+      "detail": "f -> -1 at eta = pi/2"
+    },
+    {
+      "name": "W_unit_rate_eta0",
+      "pass": true,
+      "detail": "g(w,w)/eta^2 -> v(0) = 1: unit closing rate at eta = 0 (any eps, any alpha)"
+    },
+    {
+      "name": "W_unit_rate_etapi2",
+      "pass": true,
+      "detail": "g(w,w)/delta^2 -> v(pi/2) = 1: unit closing rate at eta = pi/2"
+    },
+    {
+      "name": "W_chi_eta0",
+      "pass": true,
+      "detail": "-> 0 at eta = 0"
+    },
+    {
+      "name": "W_df_eta0",
+      "pass": true,
+      "detail": "-> 0 at eta = 0"
+    },
+    {
+      "name": "W_off_eta0",
+      "pass": true,
+      "detail": "-> 0 at eta = 0"
+    },
+    {
+      "name": "W_trace_eta0",
+      "pass": true,
+      "detail": "-> 0 at eta = 0"
+    },
+    {
+      "name": "W_chi_etapi2",
+      "pass": true,
+      "detail": "-> 0 at eta = pi/2"
+    },
+    {
+      "name": "W_df_etapi2",
+      "pass": true,
+      "detail": "-> 0 at eta = pi/2"
+    },
+    {
+      "name": "W_off_etapi2",
+      "pass": true,
+      "detail": "-> 0 at eta = pi/2"
+    },
+    {
+      "name": "W_det_const",
+      "pass": true,
+      "detail": "det G_KY = -c_E^2 identically on the witness (= its own cap limit)"
+    },
+    {
+      "name": "W_df_rate",
+      "pass": true,
+      "detail": "df^2/b -> 4 = 4 f2^2 y^2 (f2 = -2, y = -1/2, u0 = 1): series model matched"
+    },
+    {
+      "name": "NW1_not_witness",
+      "pass": true,
+      "detail": "NW1 is OFF the exceptional stratum (b u + f^2 not constant) and non-witness"
+    },
+    {
+      "name": "NW1_fcap",
+      "pass": true,
+      "detail": "f -> +1 (eta=0), -1 (eta=pi/2)"
+    },
+    {
+      "name": "NW1_unit_rate_eta0",
+      "pass": true,
+      "detail": "g(w,w)/eta^2 -> v(0) = 1: cap-regular at eta = 0"
+    },
+    {
+      "name": "NW1_unit_rate_etapi2",
+      "pass": true,
+      "detail": "g(w,w)/delta^2 -> v(pi/2) = 1: cap-regular at eta = pi/2"
+    },
+    {
+      "name": "NW1_chi_caps",
+      "pass": true,
+      "detail": "chi -> 0 at both caps"
+    },
+    {
+      "name": "NW1_det_caps",
+      "pass": true,
+      "detail": "det G_KY -> -c_E^2 at both caps (S -> 1)"
+    },
+    {
+      "name": "NW1_off_caps",
+      "pass": true,
+      "detail": "off-term -> 0 at both caps despite alpha != 0"
+    },
+    {
+      "name": "NW1_trace_caps",
+      "pass": true,
+      "detail": "tr D_KY -> 0 at both caps"
+    },
+    {
+      "name": "NW1_df_rate",
+      "pass": true,
+      "detail": "df^2/b -> 81/25 at both caps: finite nonzero, df = O(sqrt(b))"
+    },
+    {
+      "name": "NW1_DKY_limit_eta0",
+      "pass": true,
+      "detail": "full D_KY -> 0 entrywise at eta = 0"
+    },
+    {
+      "name": "NW2_on_stratum",
+      "pass": true,
+      "detail": "NW2: b u + f^2 = 1 identically (exceptional stratum, c = 1)"
+    },
+    {
+      "name": "NW2_not_witness",
+      "pass": true,
+      "detail": "NW2 is not of the witness form u = 1 + eps(1 - f^2): (u-1)/(1-f^2) = 2/5 at eta=pi/4 but 3200/6237 at eta=pi/3"
+    },
+    {
+      "name": "NW2_b_positive_interior",
+      "pass": true,
+      "detail": "b > 0 sampled across the interior (eta = 0.1..1.4)"
+    },
+    {
+      "name": "NW2_v_exists",
+      "pass": true,
+      "detail": "smooth positive transverse coefficient exists: v0 = 9/10, vpi = 3/4"
+    },
+    {
+      "name": "NW2_unit_rate_eta0",
+      "pass": true,
+      "detail": "g(w,w)/eta^2 -> v(0): cap-regular at eta = 0"
+    },
+    {
+      "name": "NW2_unit_rate_etapi2",
+      "pass": true,
+      "detail": "g(w,w)/delta^2 -> v(pi/2): cap-regular at eta = pi/2"
+    },
+    {
+      "name": "NW2_corollary_instance",
+      "pass": true,
+      "detail": "NW2 is a complete two-cap exceptional member with c = 1: corollary instance"
+    },
+    {
+      "name": "NW3_c_gt1_fails",
+      "pass": true,
+      "detail": "b -> 1/5 != 0 at eta=0 (closing norm y^2 b -> 1/20 != 0): the circle does NOT close; no two-cap completion"
+    },
+    {
+      "name": "NW3_c_lt1_fails",
+      "pass": true,
+      "detail": "b -> -1/5 < 0 at eta=0: negative horizontal norm; inadmissible (q_B positive)"
+    },
+    {
+      "name": "Tc4_D3_trace_diverges",
+      "pass": true,
+      "detail": "tr D3 = db/b = 2/rho + O(rho): DIVERGES at a regular cap (rank drop; NOT a certificate quantity)"
+    },
+    {
+      "name": "Tc4_certificate_continuous",
+      "pass": true,
+      "detail": "every certificate leg extends continuously to the caps (limits above)"
+    }
+  ],
+  "verdicts": {
+    "T-c1": "Regular-cap conditions DERIVED (given the registered toric structure): the closing circle at each cap is a primitive cap cycle w = x V + y Y with |x| = |y| = 1/2 \u2014 i.e. (V\u00b1Y)/2 \u2014 NEVER V (impossible: A(V) = 1 constant) and never Y in the registered completion (Y is a free line). At a regular cap: f -> f_cap = -x/y = \u00b11 (opposite signs at the two caps), b -> 0 with b = rho^2/y^2 (1 + O(rho^2)) = 4 rho^2 (...) registered, u -> u0 > 0, and u, f, b are even in the transverse geodesic distance rho, so chi -> 0, df -> 0, db -> 0, each at rate O(rho) = O(sqrt(b)); df^2/b -> 4 f2^2 y^2 finite.",
+    "T-c2": "Cap limit atlas: det G_KY -> -c_E^2 f_cap^2 = -c_E^2 (equal to det G_KV); off-term -alpha c_E df u^2/(b u + f^2) -> 0 at rate O(rho); tr D_KY -> 0; the full restricted responses D_KY and D_KV -> 0 entrywise. df -> 0 at regular caps is FORCED by smoothness (evenness of the invariant scalar f), NOT witness-specific; the odd-jet negative control breaks C^1.",
+    "T-c3": "FORCED: a complete two-cap exceptional-stratum member (alpha = 0, b u + f^2 == c) has c = f_cap^2 = 1 EXACTLY, from either cap and for either possible closing cap cycle. Corollary: on complete two-cap exceptional members |det G_KY| = c_E^2 = |det G_KV| \u2014 the two silent planes carry the SAME constant area. Second lock: S == c also forces the moment jet f2 = -b2 u0/(2 f_cap) (witness: f2 = -2, matched). General toric record: c = x^2/y^2; a (non-registered) completion closing the second circle itself would force c = 0.",
+    "T-c4": "No certificate leg is singular or discontinuous at a regular cap: all extend continuously, with the rate pair (-2 chi, +2 chi) -> (0, 0) because chi -> 0 is forced (regular caps are depth-critical points). The cap value is degenerate exactly like interior chi = 0 points already covered by the theorem's quantifier discipline. The FULL response trace tr D3 = db/b diverges like 2/rho (rank drop) \u2014 a non-certificate quantity; the principal-orbit scope stamp is RETAINED with this atlas as its boundary annotation, and TIGHTENED on the exceptional stratum for complete members (c = 1).",
+    "falsifiers": "F-c1 does not fire (conditions derivable; the preregistration's V-closes/Y-closes dichotomy is corrected: neither free line closes \u2014 recorded, not papered). F-c2 does not fire for certificate quantities (the only divergent object, tr D3 = db/b, is not a certificate leg). F-c3 does not fire (off/trace/det formulas recomputed independently from the Gram matrix in this run; witness and two non-witness families agree)."
+  },
+  "n_checks": 72,
+  "n_failed": 0
+}
