@@ -1,0 +1,246 @@
+{
+ "TD_R1_verdict": "class coherence DERIVED: connection-type gauge law; chart stable (incl. positivity); trivial class-wide stabilizer (12-rank); anchored orbits singleton; finite residual = pointwise K4, exact and exhaustive (image-span -> block-diagonal -> signed screen -> connection-killed base -> K4); unanchored screen dressing flow = derived structure, anchor-killed",
+ "TD_R2_verdict": "J07 requirement fully typed: items (1)-(4) CLOSED by derivation (universal rho, in-class segment data, two-sided law with x-dependent K, associativity, reversal, trivial interval holonomy); item (5) mirror datum SUPPLIED (parity-conditional, F-R4; same status as constant branch); item (6) completion holonomy GC (same type as constant branch). NO DERIVED OBSTRUCTION",
+ "TD_R3_verdict": "REGISTRABLE-WITH-NEW-DECLARED-ENTRIES (both sectors): N1 moduli values, N2 m-jets per order, N3 wall m-jet slots; exclusions derived (nonlocal anchored integrals + absolute-point evaluations in bulk); shift/c_E interaction = co-translation only; characters extend pointwise",
+ "TD_R4_verdict": "extension typed: 7 delta-m(x) directions; J05 pointwise rows + wall m-jet slots; J06/slot theorem pointwise; A1-clause re-derivation seat DEFINED on the registered alphabet, NOT run",
+ "TD_R5_verdict": "REGISTERS (both sectors) at Route-B-Stage-1-analog grade; parity item conditional on SUPPLIED eps_m (same as constant branch); outcome class OR2 \u2014 both census branches on registered footing; the fork is real and goes to Charles",
+ "adopted_verifier_strengthenings": "ADOPTED_T2analog_bracket_pointwise (<- verifier V7: bracket layer extends verbatim pointwise; grade comparison airtight) + ADOPTED_finite_level_orbit_linear (<- verifier V2e: anchored-singleton claim holds at finite level, same Picard structure) \u2014 credited, adopted post-verifier per CORRECTION_LAYER.md; no pre-adoption claim changed",
+ "checks": [
+  {
+   "detail": "Extended-class DEFINITION is banked, not invented (F-R2): RESIDUAL_DECISION_SURFACE.md Route D spec verbatim ('define the extended class (E(x) solving E' = X(x)E with the founded H fixed), derive its presentation orbits, stabilizers, residual chart quotient, transition/cocycle structure, and the extended alphabet with moduli jets'); census rows 11-14 fork (ii) type the promotion; Stage-2 BR-M row types the jet slots. Conventions copied from the banked Route B registration (eta = diag(-1,1,1,1); X = [[H,0],[C,K]], H = diag(-1,1); L{ab} generator convention; concatenation M2*M1; K4 list). NOTHING here adopts a census branch; parity eps_m stays SUPPLIED (F-R4).",
+   "kind": "guard",
+   "name": "S0_conventions_and_banked_inputs",
+   "passed": true
+  },
+  {
+   "detail": "The linear system 'B in so(1,3) AND B in V' has rank 6 on 6 coefficients: so(1,3) intersects the class tangent V only at 0. Hence no so(1,3)-valued derivative term can lie inside V, and the connection term in the field-class gauge law is fully visible to the constrained entries.",
+   "kind": "substantive",
+   "name": "S0_so13_cap_V_zero",
+   "passed": true
+  },
+  {
+   "detail": "Route B T1 recomputed (consistency): [B, X] tangent to the registered class for every CONSTANT member forces B = 0 (rank 6, empty nullspace) \u2014 the class-wide continuous stabilizer of the constant class is trivial.",
+   "kind": "substantive",
+   "name": "S0_constant_class_stabilizer_trivial_recompute",
+   "passed": true
+  },
+  {
+   "detail": "(LE)^T eta (LE) - E^T eta E = E^T (L^T eta L - eta) E IDENTICALLY (generic 4x4, zero residual): two anchored field members present the same physical metric family g = E^T eta E iff the comparison L(x) = E~ E^-1 is Lorentz POINTWISE (with L(0) = I from the banked anchor: proper orthochronous). Differentiating E~ = L E with E' = X E gives E~' = (L X L^-1 + L' L^-1) E~ : the field-class presentation/gauge law is CONNECTION-TYPE, X ~-> L X L^-1 + L' L^-1 \u2014 DERIVED from the banked class definition and metric equality, not posited (F-R2). [Constant class: L' = 0 recovers the banked conjugation law.]",
+   "kind": "substantive",
+   "name": "R1_gauge_law_metric_equality_leg",
+   "passed": true
+  },
+  {
+   "detail": "For ANY field member X(x) = [[H,0],[C(x),K(x)]]: (X M)_upper-right = H*U and (X M)_upper-left = H*rho EXACTLY (zero residual, generic Function blocks). So M' = X(x)M gives the decoupled linear ODEs U' = H U (U(0)=0 => U == 0, Picard/linear-ODE uniqueness, named Category-A) and rho' = H rho (rho(0)=I => rho = e^{xH}, member-INDEPENDENT). The transport of every field member stays block-lower-triangular: the registered chart form is stable under promotion, and the base transport is universal (the founded H).",
+   "kind": "substantive",
+   "name": "R1_transport_chart_stability_upper_right",
+   "passed": true
+  },
+  {
+   "detail": "Closed-form transport of a genuinely x-dependent member with BOTH an x-dependent mixing block C(x) = C0 + C1 x (generic symbols) AND an x-dependent shear block K(x) = gam*x*E21: T(x) = [[e^{xH},0],[L(x), I + (gam x^2/2)E21]] with the Duhamel block L(x) = Int_0^x Q(x,u)C(u)e^{uH}du solves T' = X(x)T, T(0) = I, zero residual. Extends the banked ADOPTED Duhamel leg (which had K = 0) to x-dependent K.",
+   "kind": "substantive",
+   "name": "R1_instance_xdep_transport_solves_ODE",
+   "passed": true
+  },
+  {
+   "detail": "(lambda, k_mod) sector instance: K(x) = diag(lambda(x)-k_mod(x), lambda(x)+k_mod(x)) with affine lambda, k_mod: Q(x) = diag(exp Int k00, exp Int k11) solves Q' = K(x)Q exactly and its diagonal entries are exponentials of real quantities, hence POSITIVE: the positive triangular chart (positive diagonal, lower-triangular, zero upper-right) is preserved by the field-class transport. Chart stability holds in both moduli sectors.",
+   "kind": "substantive",
+   "name": "R1_instance_chart_positivity_diagonalK",
+   "passed": true
+  },
+  {
+   "detail": "The field-class class-wide gauge condition B'(x) + [B(x), X] tangent-to-class for EVERY member X (coefficients of all moduli monomials + constant part) is a homogeneous linear system in the 12 unknowns (B, B') of rank 12: the ONLY solution is B == 0, B' == 0. The connection term opens NO new class-wide continuous gauge: the field class has the SAME trivial class-wide infinitesimal stabilizer as the banked constant class. [The candidate loophole \u2014 the base boost L01, which alone satisfies [B,V] subset V \u2014 is killed exactly: its affine condition forces a' = 2a AND a' = -2a.]",
+   "kind": "substantive",
+   "name": "R1_classwide_stabilizer_trivial_field",
+   "passed": true
+  },
+  {
+   "detail": "FAILURE-LEG HUNT (F-R1 duty, success-direction attack): the base boost B = a*L01 preserves V under bracket ([L01, V] subset V, zero residual on all 7 basis directions) \u2014 the one candidate for a NEW field-class gauge freedom via derivative compensation. Its affine condition a'*A + a*(A H - H A) = 0 solves to EXACTLY a = 0, a' = 0 (A and [A,H] independent): the loophole is killed by derivation, not assumption.",
+   "kind": "substantive",
+   "name": "R1_L01_loophole_named_and_killed",
+   "passed": true
+  },
+  {
+   "detail": "S := sum of images of V = the screen plane span(e2, e3) exactly (stacked columns of all 7 basis directions: rank 2, first two rows zero, both screen directions realized). Since Im(Lam v Lam^-1) = Lam Im(v) and conjugation by any class-preserving Lam maps V ONTO V (linear iso), every such Lam preserves S. [The V-preservation condition comes from member DIFFERENCES, where the connection term L'L^-1 cancels \u2014 pointwise, derivative-free.]",
+   "kind": "substantive",
+   "name": "R1_GV_image_span_is_screen",
+   "passed": true
+  },
+  {
+   "detail": "With the screen plane preserved (upper-right block zero), the Lorentz condition block-decomposes EXACTLY: P^T eta2 P + W^T W = eta2; S2^T W = 0; S2^T S2 = I. Groebner reduction: det(S2)^2 - 1 lies in the ideal of S2^T S2 - I, so det S2 = +-1 != 0; with adj(S2^T) S2^T = det*I (zero residual) the off-block gives det(S2)*W = adj(S2^T)(S2^T W) = 0 => W = 0. Every screen-preserving Lorentz map is BLOCK-DIAGONAL diag(P, S2) with P in O(1,1) (then P^T eta2 P = eta2 exactly) and S2 in O(2).",
+   "kind": "substantive",
+   "name": "R1_GV_blockdiagonal_forced",
+   "passed": true
+  },
+  {
+   "detail": "S2 in O(2) with S2 K S2^-1 lower-triangular for the K basis {diag(1,0), diag(0,1), E21} solves EXACTLY to the four signed diagonals diag(+-1,+-1) (sp.solve, exhaustive: 4 solutions, all with q = r = 0). The screen block of any V-preserving Lorentz map is signed-diagonal \u2014 no screen rotation, no reflection survives triangularity.",
+   "kind": "substantive",
+   "name": "R1_GV_screen_signed_diagonal",
+   "passed": true
+  },
+  {
+   "detail": "The base block P(x) of a field-class gauge map must satisfy the affine condition WITH its connection term: P H P^-1 - H + y*A = 0 (y = the O(1,1) derivative coefficient P'P^-1 = y*A), i.e. P H - H P + y A P = 0, jointly with P in O(1,1). sp.solve: EXACTLY the four signed diagonals with y = 0 \u2014 every boost is killed (the connection term CANNOT compensate: the obstruction has independent components on H, N, A). Orthochronous filter p00 > 0 leaves P in {I, diag(1,-1)}. The base block is pointwise pinned to a DISCRETE set, and the connection coefficient is forced to zero.",
+   "kind": "substantive",
+   "name": "R1_GV_base_block_pinned_connection",
+   "passed": true
+  },
+  {
+   "detail": "Enumeration: base block in {I, diag(1,-1)} x screen block in the 4 signed diagonals = 8 candidates; det = +1 and orthochronous keep EXACTLY the banked Klein four-group K4. Each K4 element preserves the class of x-DEPENDENT members pointwise (H block fixed, upper-right zero, K lower-triangular preserved; X0 fixed) \u2014 zero residual on the generic Function-valued member. ASSEMBLY (with the pointwise-pinned discrete base/screen blocks): any continuous field-class gauge map Lam(x) takes values in a DISCRETE set, hence is locally constant (named Category-A), hence on a connected cell is a SINGLE GLOBAL K4 element. The field-class residual chart quotient is the SAME exact K4, acting POINTWISE \u2014 and NO patchwise sign-flip ambiguity exists (a flip at one point extends globally).",
+   "kind": "substantive",
+   "name": "R1_finite_residual_is_pointwise_K4",
+   "passed": true
+  },
+  {
+   "detail": "Per-member presentation-orbit system for a GENERAL field member (Function moduli), unknown B(x) in so(1,3) with B(0) = 0 (anchor L(0) = I): (i) upper-right conditions == U' + U K(x) - H U EXACTLY (zero residual) => U == 0 by Picard with U(0) = 0 (=> the four mixed generators vanish); (ii) upper-left conditions then solve to a = a' = 0 EXACTLY (base boost killed pointwise); (iii) the single remaining (2,3) condition is EXACTLY theta' + 2 k_mod(x) theta = 0, and theta(0) = 0 => theta == 0 (Picard). ANCHORED presentation orbits of the field class are SINGLETONS \u2014 no two distinct anchored field members present the same metric family. Same grade as the banked constant-class statement (Route B T1(a)).",
+   "kind": "substantive",
+   "name": "R1_anchored_orbits_singleton",
+   "passed": true
+  },
+  {
+   "detail": "DERIVED STRUCTURE (observation, unanchored comparison): every field member carries a 1-parameter screen-rotation presentation dressing theta(x) = theta0 * exp(-2 Int k_mod) (exact solution of the (2,3) condition), with induced chart flow (d_lambda, d_kmod, d_k10, dC) = theta*(0, -k10, 4 k_mod, J23*C). The banked ANCHOR E(0) = I kills it (theta0 = 0); on k_mod == 0 members it degenerates to the banked constant screen-rotation stratum jump (Stage-2 A1) \u2014 consistency with the banked stratum structure. The U-sector analog is GENERICALLY OBSTRUCTED (witness: U = E00 forces the upper-left trace condition tr(UC) = c00(x) != 0 generically); full unanchored classification TYPED-NOT-EXHAUSTED (the anchored statement is the registered one and is complete).",
+   "kind": "substantive",
+   "name": "R1_unanchored_screen_dressing_flow",
+   "passed": true
+  },
+  {
+   "detail": "K4 acts POINTWISE on field members exactly as banked (R23: C -> -C, K fixed; recomputed on Function entries), moduli JETS inherit the characters to 2nd order (d/dx commutes with the constant conjugation), and the conjugated transport g T g^-1 IS the anchored transport of the conjugated member (zero residual on the closed-form instance): the K4 quotient is coherent at the member, jet, AND transport levels. (Forcing S5 leg recomputed + extended.)",
+   "kind": "substantive",
+   "name": "R1_K4_pointwise_on_field_members_and_transport",
+   "passed": true
+  },
+  {
+   "detail": "On the diagonal-K instance: det T(x,0) = exp(2 Int_0^x lambda(u) du) EXACTLY (d/dx log det = 2 lambda(x), zero residual): the banked 4D volume-blind pin lambda = 0 (Route B T4) promotes to the POINTWISE locus lambda(x) == 0 \u2014 conditional pins become level-set/pointwise statements under promotion, as the reduction theorem's pointwise-bind reading requires. No pin is adopted.",
+   "kind": "substantive",
+   "name": "R1_T4analog_volume_scaling_pointwise",
+   "passed": true
+  },
+  {
+   "detail": "THE COMPLETE J07 REQUIREMENT for a global field-census assignment on the finite cell, enumerated (each item's status derived below or supplied): (1) per-overlap transition datum = the block triple (rho, Q, L) of the segment transport [rho universal = e^{Delta x H}: derived; Q = path-ordered K-transport, in-chart: derived; L = Duhamel block: derived]; (2) the two-sided twisted cocycle law on overlaps [closes: banked S2 + x-dependent-K instance below]; (3) associativity over triple concatenation [derived below, generic blocks]; (4) reversal/inverse data in-class + trivial back-and-forth holonomy [derived below \u2014 J11 on the interval]; (5) the mirror-interface datum [SUPPLIED seal dressing; parity-conditional, eps_m never assumed (F-R4); SAME supplied status as the constant branch (forcing S3) \u2014 no asymmetric obstruction]; (6) completion-class cycle holonomy [J11 classification obligation, GC \u2014 IDENTICAL in type to the constant branch (Route B C4: J07 open for all strata there too)]. NO DERIVED OBSTRUCTION appears at any item.",
+   "kind": "guard",
+   "name": "R2_transition_data_requirement_typed",
+   "passed": true
+  },
+  {
+   "detail": "The segment transition datum T(b,a) := T(b)T(a)^-1 (computed via the exact block inverse, zero residual) solves d/db T(b,a) = X(b) T(b,a) with T(a,a) = I on the x-dependent instance, and is IN-CLASS: upper-right block zero, Q(b,a) lower-triangular. Transition data exist canonically for every pair of anchor points and stay in the registered chart form.",
+   "kind": "substantive",
+   "name": "R2_segment_transport_wellposed_in_class",
+   "passed": true
+  },
+  {
+   "detail": "The banked two-sided twisted cocycle law L(b,0) = Q(b,a) L(a,0) + L(b,a) rho(a,0) holds EXACTLY on the x-dependent instance WITH x-dependent K (gam != 0) \u2014 extending the banked S2 legs (generic blocks; K = 0 Duhamel) to a continuous x-dependent-K promotion instance. The law supplies closure of the field-class transition data under composition.",
+   "kind": "substantive",
+   "name": "R2_two_sided_law_xdepK_instance",
+   "passed": true
+  },
+  {
+   "detail": "Associativity of the two-sided law over three concatenated segments, generic blocks: (g3.(g2.g1)) and ((g3.g2).g1) give IDENTICAL composite L (zero residual). The transition-data composition is associative for ARBITRARY (member-constant or x-dependent) transports \u2014 the J07 groupoid structure closes.",
+   "kind": "substantive",
+   "name": "R2_associativity_three_segments",
+   "passed": true
+  },
+  {
+   "detail": "Reversal: the inverse transition datum T(a,b) = T(b,a)^-1 = [[rho^-1, 0], [-Q^-1 L rho^-1, Q^-1]] is IN-CLASS (upper-right zero, lower-triangular Q^-1), and the back-and-forth loop T(b,a)T(a,b) = I EXACTLY: J11 loop holonomy on the interval concatenation groupoid is TRIVIAL. Nontrivial cycles enter only through the completion class (item 6, GC \u2014 same type as the constant branch).",
+   "kind": "substantive",
+   "name": "R2_reversal_inverse_in_class",
+   "passed": true
+  },
+  {
+   "detail": "The depth mirror x -> -x sends the anchored transport to Etil(x) = E(-x) with generator -X(-x) (zero residual on the instance), whose H block is -H != H (residual -2H): the reflected member is NOT in the extended class \u2014 EXACTLY the banked constant-branch statement (forcing S3) promoted pointwise. The mirror-interface transition datum therefore requires a SUPPLIED seal dressing, with the moduli parities eps_m SUPPLIED data (F-R4: no value assumed; the swap-dressing candidate stays a Route-P input). FAIRNESS (F-R1): the constant branch needs the SAME supplied datum \u2014 this is NOT a field-branch obstruction, it is a shared supplied slot. Parity-conditional consequences (eps_m = -1 forces odd fields / kills constants; +1 forces even fields) are the banked S3 lever, cited not re-derived.",
+   "kind": "substantive",
+   "name": "R2_mirror_interface_supplied_dressing_conditional",
+   "passed": true
+  },
+  {
+   "detail": "OBSERVATION (recorded two-sidedly, F-R1): the banked E04 cross-member EFFECTIVE-MEMBER reconstruction C3 carries denominators (e^{(phi1+phi2)h_j} - 1) (present, exact), while the field-class transition data themselves (L12 = L1 + L2 rho1) are DENOMINATOR-FREE. The banked drift law's denominators are an artifact of forcing a CONSTANT effective member onto a composite; the registered field class stores (rho, Q, L) directly. [Symmetric counter-note carried: the constant branch retains the S1 provenance seniority \u2014 the whole prior bank was built on it.]",
+   "kind": "substantive",
+   "name": "R2_no_effective_member_denominators",
+   "passed": true
+  },
+  {
+   "detail": "Anchor-shift law: T_s(x) := T(x+s) T(s)^-1 solves T_s' = X(x+s) T_s with T_s(0) = I (zero residual on the instance): re-anchoring maps the anchored transport of X(.) to the anchored transport of the TRANSLATED member X(.+s), through the banked transition data (two-sided law). The moduli functions co-translate m(.) -> m(.+s); the shift is absorbed by the transition structure exactly as the phi-shift is absorbed into c_E (banked D3). ANSWER to the contract's question: m(x) does NOT interact with the c_E absorption beyond co-translation by the same shift \u2014 the absorption stays confined to the (phi, c_E) pair.",
+   "kind": "substantive",
+   "name": "R3_shift_translation_covariance_transport",
+   "passed": true
+  },
+  {
+   "detail": "Alphabet legality of the m-jets: (i) K4 characters \u2014 m(x) AND its jets to 2nd order carry the banked characters pointwise (d/dx commutes with the constant conjugation; recomputed in R1k; forcing S5 extended); (ii) J04 anchoring \u2014 the banked anchored-exponent rule (c_E^p e^{-q phi} invariant on the shift-with-absorption orbit iff p = q, i.e. a Q-power) is UNCHANGED with m-entries spectating (residual e^{s(p-q)}, m-independent, solve p=q exact): m-blocks multiply Q-powers without touching the anchoring condition; (iii) shift status \u2014 m-jets carry no (phi, c_E) dependence, are inert under the absorption and co-translate with all other local blocks (R3a). NO alphabet obstruction.",
+   "kind": "substantive",
+   "name": "R3_mjet_alphabet_legality",
+   "passed": true
+  },
+  {
+   "detail": "The locality boundary, DERIVED: an anchored nonlocal entry Int_0^x m(u)du in a BULK component fails the co-translation test (witness m = u^2: residual s^3/3 != 0 \u2014 it pins the anchor point, the same defect as bare phi), while the local jets m(x), m'(x) pass exactly. CONSEQUENCE: bulk alphabet entries = the LOCAL m-jets only; transports/holonomies (which ARE anchored integrals) live in the J07 transition-data layer, and absolute-point evaluations m(x0) / wall values enter only through supplied-structure slots (the banked V8 resolution, extended to moduli). This also draws the R13 boundary: no integrated-moduli functional may appear as a pointwise coupling.",
+   "kind": "substantive",
+   "name": "R3_locality_boundary_nonlocal_excluded",
+   "passed": true
+  },
+  {
+   "detail": "ALPHABET CLASSIFICATION (TD-R3 verdict): REGISTRABLE-WITH-NEW-DECLARED-ENTRIES, both sectors; no obstruction derived; no dynamics invented (F-R2). DECLARED ENTRIES (each ledgered with provenance): N1 = the seven moduli values m_mu(x) as running-point bulk arguments [census rows 11-14 fork (ii), DERIVED-as-moduli upstream; promotion typed there]; N2 = the moduli jets m_mu'(x), m_mu''(x) per jet order [Stage-2 BR-M row: '+7 character-typed moduli-jet arguments per jet order'; characters recomputed here]; N3 = wall/corner m-jet slots on the varied-boundary fork [TD-R4 wall-term leg; supplied-structure slots per V8]. EXCLUSIONS (derived): absolute-point m-evaluations and anchored nonlocal m-integrals in bulk components (R3c); character-mismatched m-dependence (banked rule, pointwise). Transport blocks (rho, Q, L) are DERIVED transition-layer structure, not bulk alphabet entries.",
+   "kind": "guard",
+   "name": "R3_declared_entries_ledger",
+   "passed": true
+  },
+  {
+   "detail": "J05 instantiated on the extended census: for a component density carrying m-jets, the pairing with a field variation delta-m obeys Int(D_m v + D_m' v') = Int(D_m - d/dx D_m')v + [D_m' v]_walls EXACTLY (zero residual, exact witness): the response pairs every delta-m_mu(x) direction as a POINTWISE density row (the reduction theorem's field-fork form), and on the varied-boundary fork the m-jet WALL SLOTS (declared entry N3) are REQUIRED for differentiability (gate-5 type) \u2014 the P3 boundary-extended reading inherits moduli wall terms (banked forcing check 17, recomputed with the explicit variation).",
+   "kind": "substantive",
+   "name": "R4_J05_pairing_wall_slots",
+   "passed": true
+  },
+  {
+   "detail": "The banked slot theorem holds POINTWISE for x-dependent kernels: the screen pairing Gram of {I2, diag(-1,1), E21} is diag(2,2,1) (pointwise constants), R_kmod(x) = 2 r_tf(x), R_lambda(x) = 2 r_tr(x), and a pure-trace kernel has identically zero k_mod-pairing at every x; tr X(x) = k00(x) + k11(x) = 2 lambda(x) carries no k_mod(x) content pointwise. The J06 determined-vs-retained branches extend per-family as DENSITY branches (R_mu != 0 as a density vs == 0); the k_mod discriminator still routes exclusively through the trace-free slot, now pointwise.",
+   "kind": "substantive",
+   "name": "R4_J06_slot_theorem_pointwise",
+   "passed": true
+  },
+  {
+   "detail": "TD-R4 TYPING (no mass legs run; ceiling respected): the extended tangent adds 7 function-valued directions delta-m_mu(x) (character-typed; K4 pointwise). The registered BR-M response component space = the Stage-2 parametrization with the declared m-jet arguments added per grade (BR-M row instantiated on THIS package's registration). THE A1-CLAUSE SEAT, typed: the banked Slice-2b field-census massless statement is scoped to the NO-moduli-jet response alphabet (forcing sec.4/A1, cited as map fact); on the now-registered alphabet WITH m-jet entries, the pointwise moduli rows may carry jet terms (R4a wall/jet structure), i.e. the row becomes a differential condition in m(x) rather than an algebraic one \u2014 the massless re-derivation seat is hereby DEFINED (a Slice-2b-analog derivation on the extended alphabet), NOT run. No mass branch, census branch, or pairing is adopted (F-R1/F-K4-analog).",
+   "kind": "guard",
+   "name": "R4_response_extension_typed_A1_seat",
+   "passed": true
+  },
+  {
+   "detail": "The stratum obstruction promotes pointwise: [L23, X(x)](2,3) = k11(x) - k00(x) = 2 k_mod(x) EXACTLY (Function moduli): the per-member gauge direction exists exactly ON the level set {x : k_mod(x) = 0}, where the banked pointwise Noether identity binds AT those x (pointwise-bind, per the reduction theorem); generic zero-crossings make the locus a level set and add the banked J09-type continuation/exclusion obligations (forcing guard 15, inherited). The resonance loci lambda(x) -+ k_mod(x) in {+-1} promote identically; the deeper C != 0 sub-variety census stays TYPED-NOT-EXHAUSTED (inherited stamp).",
+   "kind": "substantive",
+   "name": "R5_stratum_level_set_pointwise_bind",
+   "passed": true
+  },
+  {
+   "detail": "VERDICT, (lambda, k_mod) sector: REGISTERS \u2014 (i) class coherence DERIVED (chart stability incl. positivity, trivial class-wide stabilizer, singleton anchored orbits, exact pointwise-K4 residual \u2014 trivial characters, sector untouched by K4); (ii) transition data closed (universal rho, in-class Q, two-sided law, associativity, reversal; diagonal instance exact); (iii) alphabet registrable with declared entries N1/N2 (trivial character); (iv) mirror compatibility PARITY-CONDITIONAL on supplied eps_lambda, eps_kmod (F-R4; same supplied status as the constant branch); (v) response extension typed, J05/J06 instantiated (pointwise slot theorem; trace-channel blindness pointwise); (vi) k_mod(x) = 0 a level set with pointwise-binding identity. STAMPS: registered positive triangular chart; stationary one-parameter presentation; anchored transport; off-shell; GENERIC + KMOD0-level-set strata (deeper resonance census TYPED-NOT-EXHAUSTED, inherited); registration grade = Route-B-Stage-1-analog (class/orbits/quotient/cocycle/alphabet/typing); the BR-M response-space EXHAUSTIVE parametrization (Stage-2-analog) remains a named further seat, NOT part of the registration definition (prereg sec.1 (i)-(vi)).",
+   "kind": "guard",
+   "name": "R5_verdict_lambda_kmod_sector",
+   "passed": true
+  },
+  {
+   "detail": "VERDICT, (k10, C) sector: REGISTERS \u2014 identically, with the chi_a/chi_b/chi_c character rule extending POINTWISE (members, jets to 2nd order, and transports \u2014 R1k), the mixing-block two-sided cocycle law closing with x-dependent K (R2b/R2c), and the E04-family instance exact. Mirror compatibility PARITY-CONDITIONAL on supplied eps_k10, eps_C (F-R4). Same stamps as the (lambda, k_mod) sector; the shear/mixing stratum identities (RES-CNEQ0 example) bind pointwise on their promoted loci, deeper stratification TYPED-NOT-EXHAUSTED (inherited).",
+   "kind": "guard",
+   "name": "R5_verdict_k10_C_sector",
+   "passed": true
+  },
+  {
+   "detail": "MAP-FACT RESTATEMENT (no promotion, no adoption): with this registration (pending verifier + Charles), the S1/S4 provenance asymmetry ('the field branch is typed but UNREGISTERED; the response is DEFINED only on the constant branch') is DISSOLVED AT THE CLASS LEVEL: both census branches now have a registered class footing of the same structural kind (orbits, quotient, cocycle, alphabet). The census fork (rows 11-14) therefore stands as a PURE domain-definition fork \u2014 Charles's choice or Route P's parity lever (the one derivable discriminator; eps_m SUPPLIED). What REMAINS asymmetric (honest residue): (a) the constant branch has the Stage-2 EXHAUSTIVE jet<=2 response parametrization; the field branch's response space is DEFINED + typed but not exhausted (the Stage-2-analog on the m-jet alphabet is a named further derivation); (b) the Slice-2b attachment, stamps intact (fiberwise-quadratic p-unmixed LE class, P1-side, jet<=2, BASE arena, definite sub-class): constant census => integrated rows => massive locus nonempty; field census => pointwise rows => {E0 = 0} massless AT THE BANKED NO-MODULI-JET ALPHABET, with the A1-clause re-derivation seat now DEFINED on the registered m-jet alphabet (typed, not run). Neither branch is adopted; no mass claim is made.",
+   "kind": "guard",
+   "name": "R5_census_fork_map_fact_restatement",
+   "passed": true
+  },
+  {
+   "detail": "ADOPTED (credited <- blind verifier V7; observation 1): the bracket [X1(x), X2(x)] of two GENERIC Function-valued field members satisfies all class-tangent constraints POINTWISE (rows 0,1 zero; (2,3) zero) AND is traceless \u2014 the Route-B T2 bracket/subalgebra layer extends VERBATIM to field members. This closes the one Route-B Stage-1 layer without an explicit Route-D check: the registration-grade comparison is airtight requirement-for-requirement (T1/T2/T3/T4-analogs all now on record; T5/T6 are Route-B-specific selection questions, out of grade).",
+   "kind": "substantive",
+   "name": "ADOPTED_T2analog_bracket_pointwise",
+   "passed": true
+  },
+  {
+   "detail": "ADOPTED (credited <- blind verifier V2e; observation 2): the FINITE-level per-member orbit ODE L' = Xt L - L X is LINEAR in L; its upper-right block reads EXACTLY Lu' = H Lu - Lu K(x), so Lu(0) = 0 => Lu == 0 (Picard); its upper-left block then reads Lp' = H Lp - Lp H - Lu Cs = [H, Lp], so Lp(0) = I => Lp == I; Lorentz forces block-diagonal pointwise and the screen condition's theta == 0 branch is the unique anchored solution (smooth RHS vanishing at theta = 0, Picard). The R1i anchored-singleton claim (infinitesimal, Route-B-T1(a) grade) HOLDS AT THE FINITE LEVEL \u2014 not a linearization artifact.",
+   "kind": "substantive",
+   "name": "ADOPTED_finite_level_orbit_linear",
+   "passed": true
+  }
+ ],
+ "checks_passed": 38,
+ "checks_total": 38,
+ "contract": "PREREGISTRATION.md (frozen before derivation)",
+ "guards": 7,
+ "outcome_class": "OR2",
+ "package": "udt_p4_routeD_field_registration_2026-07-29",
+ "substantive": 31,
+ "unanchored_dressing_chart_flow": "theta(x) = theta0*exp(-2 Int k_mod); (d_lam, d_kmod, d_k10, dC) = theta*(0, -k10, 4 k_mod, J23*C)"
+}
