@@ -1,0 +1,29 @@
+[VPASS] V_energy_first_integral_arbitrary_member -- Dx(E) = -sum u' E_a(S) identically for arbitrary Lt (own machinery)
+[VPASS] V_shift_current_exact_failure_law -- Dx(pi_f) = E_f(S) + dS/dF0 identically: on-shell conservation iff dLt/dF0 = 0 -- the non-extension claim is the exact failure law, scoped as stated (no counterterm can be member-universal since the defect dS/dF0 is member-arbitrary)
+[VPASS] V_leading_symbol_dichotomy -- dE_a/du_b'' = -WF Hess_{u'}(Lt): solved form iff det Hess != 0, pairing-independent (WF > 0)
+[VPASS] V_atlas_exhaustive_energy_ODE -- d/dx[energy ODE] = 2 w' (w'' - a^2 E0/gp): every nonconstant solution has w'' = a^2 E0/gp const, i.e. w EXACTLY quadratic with A = a^2 E0/(2 gp) -- the quadratic atlas is EXHAUSTIVE on the class (6 params match the Picard data count): the package's 'exactly' quantifiers are grounded
+[VPASS] V_quadclass_A_and_E0_derived -- the p-row FORCES A = a^2 E0/(2 gp), E0 = (gp w1^2/a^2 + c^T G^-1 c)/(2 w0) -- unique; own derivation (solve, not substitute)
+[VPASS] V_quadclass_closed_form_full_symbolic -- all three rows zero at fully symbolic (a both signs, gp, G, c, w0, w1); E(solution) = E0 exactly
+[VPASS] V_fullcell_subinstance_aneg -- own sub-instance gp=2, G=diag(1,3), a=-2 (negative branch): zero residual
+[VPASS] V_disc_identity -- disc(w) = -(a^2/gp) c^T G^-1 c exactly (own algebra)
+[VPASS] V_definite_sign_structure -- definite diagonal instance: E0 >= 0, disc <= 0 (nodeless); congruence extension to G > 0 is standard linear algebra (Category-A ok)
+[VPASS] V_definite_E0zero_constants_only -- definite: E0 = 0 iff w1 = c_f = c_h = 0 iff constant solution (exact)
+[VPASS] V_indefinite_noded_witness -- E0 = -2, w = 1 - x^2, nodes x = +-1: E0 >= 0/nodelessness FAILS on the indefinite sub-class (banked emergence is definiteness-scoped)
+[VPASS] V_indefinite_E0zero_nonconstant -- E0 = 0 with NONCONSTANT w = x + 2 on the indefinite sub-class: the pointwise survivor set is NOT only-constants at full cell
+[VPASS] V_lambda_row_arbitrary_member -- d(WF Lt)/dlam = aF'(lam) p0 (WF Lt) identically, arbitrary lam-independent Lt: tie pairing-relativity is full-cell general; both rows absent iff aF' = 0 (P2 side / blindness loci)
+[VPASS] V_integrated_row_is_2E0Ip -- LtQ is u'-homogeneous of degree 2 => E = WF LtQ = E0 on-shell => integrated lam-row = aF' E0 int p0 dx = 2 E0 I_p at the P1 instances (aF' = 2): the banked tie, INTEGRATED branch, g/G-independent
+[VPASS] V_pointwise_forces_E0zero -- p0 == 0 => A = 0 => E0 = 0 (a != 0, gp != 0); else E0 = 0 directly: POINTWISE survivors = {E0 = 0} EXACTLY on the quadratic class -- own re-derivation; with the atlas-exhaustiveness ODE above this is the FULL survivor set of the class, incl. the indefinite stratum
+[VPASS] V_massive_Ip0_member_exists -- I_p(c=1) = -0.858407 < 0 < I_p(c=6) = 2.77264 (both E0 > 0): continuity => a massive I_p = 0 member exists => inclusion STRICT on P1-side LE cells
+[VPASS] V_pslot_only_nonvacuous -- pi_f = c_f, pi_h = c_h exactly on the class: their wall differences vanish; the p-slot is the only nonvacuous wall-difference slot (derived)
+[VPASS] V_MWALL_eq_aF_MGEN -- [pi_p] = gp[w']/a = 4 A ell gp/a = 2 a ell E0 = a * M-GEN exactly (gp, G cancel) -- own derivation
+[VPASS] V_MWALL_P2_zero_derived -- aF = 0: Euler rows are -gp p2, -(G(f'',h''))_i => (det != 0) affine atlas u'' = 0 => p1 const => [pi_p] = 0 identically while M-GEN = 2 ell E0 free: maximal divergence, derived (not tautological)
+[VPASS] V_MDENS_proper_calibration -- int (E0/w) w dx = 2 ell E0 = M-GEN identically: calibration exact
+[VPASS] V_MDENS_coord_law -- M-DENS-coord - M-GEN = E0 (V - 2 ell), V = (2/3) A ell^3 + 2 w0 ell: the corrected law verified exact (the 2(w0-1) ell term present)
+[VPASS] V_allfour_consensus_witness -- w = (3/2)x^2 + 1/2 at a = 1, ell = 1: exact solution, all four readings = 6 (nonzero consensus point exists)
+[VPASS] V_consensus_off_survivor -- I_p(witness) = -0.195306 < 0 EXACTLY (closed form -4 + log(4) + 4*sqrt(3)*pi/9): 2 E0 I_p != 0 -- the witness is OFF the integrated survivor set (Jensen leg certified by direct exact quadrature, stronger than the citation); E0 = 3 != 0 puts it off the pointwise set too: no OE3 promotion available
+[VPASS] V_sign_divergence_bumpside -- a = -1 definite: M-WALL = -M-GEN <= 0: wall reading negative on the bump side (branch-labeled observation confirmed)
+[VPASS] V_W1_defect_and_conserved_jets -- Helmholtz-(ii) defect -2 a p1 WF != 0 (a != 0): no generator under the cell's own pairing; p1, f1, h1 (hence EVERY function of them, incl. Lt0) conserved on the affine atlas -- see report on the M-GEN-eq availability asymmetry
+[VPASS] V_W2fs_tuple_energy -- E0 = e^{2 lam p0} Lt0 conserved on the W2-fs zero set; the tuple IS the anchored generated tuple (banked identity), so the energy is the tuple's own -- M-GEN-eq is derived-typed, not invented (F-E2 clean for W2-fs); the member stays NV under P2 (pairing-relative)
+[VPASS] V_W1_is_weightfree_generated_tuple -- W1's zero set = zero set of the weight-free generated tuple (-p2,-f2,-h2) of Lt0, whose energy Lt0 is conserved there: the exact structural mirror of the W2-fs grant -- the package refuses M-GEN-eq here; see report (amendment: state the discriminator)
+
+VERIFIER: all independent checks passed
