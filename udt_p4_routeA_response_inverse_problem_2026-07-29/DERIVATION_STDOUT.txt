@@ -1,0 +1,43 @@
+[PASS] S0_generators_infinitesimal_lorentz -- all six L satisfy L^T.eta + eta.L = 0
+[PASS] S0_generator_count_6 -- so(1,3) basis size
+[PASS] A1_so13_commutant_rank_15 -- rank = 15
+[PASS] A1_so13_commutant_solution_is_scalar -- nullspace = span{I}: the only Lorentz-invariant generator is c*I (scalar-only centralizer, recomputes banked 07-26/07-28 fact)
+[PASS] A2_klein_elements_proper_orthochronous -- all four in SO+(1,3)
+[PASS] A2_klein_closure -- multiplication table closed
+[PASS] A2_klein_involutions -- every element an involution
+[PASS] A2_klein_R12_R13_product_is_R23 -- K4 = Z2 x Z2 structure
+[PASS] A3_R23_action_C_negated_K_fixed -- (K,C) -> (K,-C)
+[PASS] A3_R12_action_flips_k10_c00_c11 -- k10->-k10, (c00,c11)->-(c00,c11)
+[PASS] A3_R13_action_flips_k10_c01_c10 -- k10->-k10, (c01,c10)->-(c01,c10)
+[PASS] A3_lambda_kmod_K4_invariant -- k00,k11 (hence lambda=(k00+k11)/2, k_mod=(k11-k00)/2) fixed by all of K4 (banked)
+[PASS] A4_invariant_monomials_certified -- k10^2; quadratics within each C character class; the four mixed cubics k10*{c00,c11}*{c01,c10}
+[PASS] A4_noninvariant_monomials_certified -- each listed monomial is flipped by at least one K4 element: bare k10, bare C entries, k10*c-linear, cross-class quadratic are NOT chart-honest
+[PASS] A5_no_lorentz_invariant_generator_in_class -- commutant = c*I (A1) but the founded base block H=diag(-1,1) forces c=-1 AND c=+1: inconsistent -> no invariant member; the response must be an EQUIVARIANT family, not an invariant object
+[PASS] A6_counterexample_omega_k10_dk10_invariant_component_not_verbatim -- omega = k10*dk10 = (1/2)d(k10^2): K4-invariant AND exact as a one-form, yet its R_k10 component is bare k10-linear (flips together with dk10) -- refutes the original verbatim quantifier (verifier V3 counterexample recomputed)
+[PASS] A6_character_matching_rule_generic_component_set -- generic character-matched components (component character x direction character = trivial) are K4-invariant as one-form components in every character class -- the corrected forced rule holds
+[PASS] A6_character_mismatch_breaks_invariance_contrast -- a chi_b-character component on the dk10 (chi_a) direction is NOT K4-invariant as a one-form: character MISMATCH (not bare-linearity) is the failure mode
+[PASS] T2_tangent_block_form -- T = X^T.eta + eta.X = [[2I, C^T],[C, K+K^T]] (banked S0)
+[PASS] T2_boost_is_lorentz -- exp(t L01) in SO+(1,3), exact exp form
+[PASS] T2_tangent_transport_bilinear_boost -- T(Lam X Lam^-1) = Lam^-T T(X) Lam^-1 for a generic X under the exact boost
+[PASS] T2_tangent_transport_bilinear_klein -- same law under all nontrivial K4 elements
+[PASS] B1_seat_reconstruction -- a=lam-k_mod, d=lam+k_mod <=> lam=(a+d)/2, k_mod=(d-a)/2 (banked two-scalar seat)
+[PASS] B1_trace_channel_blind_to_kmod -- tr X_seat = 2*lam exactly; d(tr)/d(k_mod) = 0 identically
+[PASS] B2_screen_trace_tracefree_decomposition -- K_seat = lam*I2 + k_mod*diag(-1,1); the anisotropic slot is exactly the k_mod direction
+[PASS] B3_generic_trace_functional_zero_kmod_pairing -- ANY functional F(tr) has identically zero pairing with d/d(k_mod): the trace channel cannot select the transverse line (requirement 4 exact form)
+[PASS] B3_volume_density_channel_blind_to_kmod -- det e^{phi X_seat} = e^{2 lam phi}: every functional of the volume density det e^{phi X} is k_mod-blind (A3-amended class wording; matches banked T4_vol4_scaling)
+[PASS] B3_det_screen_channel_pairs_kmod_contrast -- contrast (characterize, not filter): det K = lam^2 - k_mod^2 DOES pair with k_mod generically -- the blindness is channel-specific, not universal
+[PASS] B4_axes_intersect_only_at_spectator -- E07 axis {lam=0} and isotropic axis {k_mod=0} meet only at the origin (banked T4; MAP 'k=lambda' REFUTED stands)
+[PASS] B5_counter_channel_trX2_pairs_with_kmod -- tr(X_seat^2) = 2 + 2*lam^2 + 2*k_mod^2 with d/d(k_mod) = 4*k_mod != 0: a trace-BUILT channel that is NOT k_mod-blind -- the proven blind class is functionals of tr X (first trace) and of det e^{phi X} only (verifier V4 counter-channel recomputed)
+[PASS] B5_slot_theorem_pure_trace_kernel_zero_kmod_pairing -- <r_tr*I2, diag(-1,1)> = 0 identically: a screen pairing kernel with ZERO trace-free part has identically zero k_mod-pairing -- the exact surviving form of F-RA2's forcing
+[PASS] B5_trX2_kmod_pairing_routes_through_tracefree_slot -- d(tr K^2) kernel = 2K = 2*lam*I2 + 2*k_mod*diag(-1,1): its k_mod-pairing (= 4*k_mod) routes PRECISELY through its trace-free part 2*k_mod*diag(-1,1) (the pure-trace part contributes 0) -- slot-presence forcing SURVIVES the counter-channel (verifier V4 slot theorem recomputed)
+[PASS] C1_restricted_stationarity_witness -- restrict {y=0} then vary: critical point x=0
+[PASS] C1_full_response_normal_residual_nonzero -- full response at the restricted critical point = (0, 1): the normal component is EXACTLY 1, not 0 -- restricted stationarity is not stationarity
+[PASS] C2_full_zero_set_disjoint_from_restricted_critical -- the full zero set {(0,-1/2)} never meets the stratum {y=0}: zero-set-after-definition (J14) and vary-then-restrict (req 12) are inequivalent to the forbidden order, witnessed exactly
+[PASS] D1_seat_same_member_additivity -- e^{phi2 X}e^{phi1 X} = e^{(phi1+phi2)X} per member (G01 composition realized)
+[PASS] D1_E04_closed_form_ODE_init_additive -- M' = X M, M(0)=I, same-member additivity exact (banked T2 closed form recomputed)
+[PASS] D2_every_scalar_f_depth_composition -- delta_f(p,q)=f(q)-f(p) satisfies reversal + 3-point composition for EVERY scalar f (joint audit sec.1 witness recomputed): additivity has zero selector rank on pointwise phi-dependence
+[PASS] D3_shift_is_left_group_translation -- e^{(phi+s)X} = e^{sX} e^{phi X}: a constant depth shift acts by left translation, not a new functional form
+[PASS] D3_anchor_absorption -- founded stationary readout Q = c_E e^{-phi}: the shift is absorbed into the anchor c_E (joint audit sec.3)
+
+40/40 zero-residual checks passed.
+Outcome class: OA1/OA2 MIXED: nontrivial candidate-free forced structure exists (F-RA1..F-RA3 = OA1 items); the G01 item is near-null pointwise (F-RA4 = OA2 item); no requirement clash surfaced (no OA3)

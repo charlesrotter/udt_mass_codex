@@ -1,0 +1,266 @@
+{
+  "package": "udt_p4_routeA_response_inverse_problem_2026-07-29",
+  "stage": "Route A Stage 1 (TA6 + TA2/TA4 identities)",
+  "date": "2026-07-29",
+  "contract": "PREREGISTRATION.md (frozen before derivation)",
+  "n_checks": 40,
+  "n_passed": 40,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "S0_generators_infinitesimal_lorentz",
+      "passed": true,
+      "detail": "all six L satisfy L^T.eta + eta.L = 0"
+    },
+    {
+      "name": "S0_generator_count_6",
+      "passed": true,
+      "detail": "so(1,3) basis size"
+    },
+    {
+      "name": "A1_so13_commutant_rank_15",
+      "passed": true,
+      "detail": "rank = 15"
+    },
+    {
+      "name": "A1_so13_commutant_solution_is_scalar",
+      "passed": true,
+      "detail": "nullspace = span{I}: the only Lorentz-invariant generator is c*I (scalar-only centralizer, recomputes banked 07-26/07-28 fact)"
+    },
+    {
+      "name": "A2_klein_elements_proper_orthochronous",
+      "passed": true,
+      "detail": "all four in SO+(1,3)"
+    },
+    {
+      "name": "A2_klein_closure",
+      "passed": true,
+      "detail": "multiplication table closed"
+    },
+    {
+      "name": "A2_klein_involutions",
+      "passed": true,
+      "detail": "every element an involution"
+    },
+    {
+      "name": "A2_klein_R12_R13_product_is_R23",
+      "passed": true,
+      "detail": "K4 = Z2 x Z2 structure"
+    },
+    {
+      "name": "A3_R23_action_C_negated_K_fixed",
+      "passed": true,
+      "detail": "(K,C) -> (K,-C)"
+    },
+    {
+      "name": "A3_R12_action_flips_k10_c00_c11",
+      "passed": true,
+      "detail": "k10->-k10, (c00,c11)->-(c00,c11)"
+    },
+    {
+      "name": "A3_R13_action_flips_k10_c01_c10",
+      "passed": true,
+      "detail": "k10->-k10, (c01,c10)->-(c01,c10)"
+    },
+    {
+      "name": "A3_lambda_kmod_K4_invariant",
+      "passed": true,
+      "detail": "k00,k11 (hence lambda=(k00+k11)/2, k_mod=(k11-k00)/2) fixed by all of K4 (banked)"
+    },
+    {
+      "name": "A4_invariant_monomials_certified",
+      "passed": true,
+      "detail": "k10^2; quadratics within each C character class; the four mixed cubics k10*{c00,c11}*{c01,c10}"
+    },
+    {
+      "name": "A4_noninvariant_monomials_certified",
+      "passed": true,
+      "detail": "each listed monomial is flipped by at least one K4 element: bare k10, bare C entries, k10*c-linear, cross-class quadratic are NOT chart-honest"
+    },
+    {
+      "name": "A5_no_lorentz_invariant_generator_in_class",
+      "passed": true,
+      "detail": "commutant = c*I (A1) but the founded base block H=diag(-1,1) forces c=-1 AND c=+1: inconsistent -> no invariant member; the response must be an EQUIVARIANT family, not an invariant object"
+    },
+    {
+      "name": "A6_counterexample_omega_k10_dk10_invariant_component_not_verbatim",
+      "passed": true,
+      "detail": "omega = k10*dk10 = (1/2)d(k10^2): K4-invariant AND exact as a one-form, yet its R_k10 component is bare k10-linear (flips together with dk10) -- refutes the original verbatim quantifier (verifier V3 counterexample recomputed)"
+    },
+    {
+      "name": "A6_character_matching_rule_generic_component_set",
+      "passed": true,
+      "detail": "generic character-matched components (component character x direction character = trivial) are K4-invariant as one-form components in every character class -- the corrected forced rule holds"
+    },
+    {
+      "name": "A6_character_mismatch_breaks_invariance_contrast",
+      "passed": true,
+      "detail": "a chi_b-character component on the dk10 (chi_a) direction is NOT K4-invariant as a one-form: character MISMATCH (not bare-linearity) is the failure mode"
+    },
+    {
+      "name": "T2_tangent_block_form",
+      "passed": true,
+      "detail": "T = X^T.eta + eta.X = [[2I, C^T],[C, K+K^T]] (banked S0)"
+    },
+    {
+      "name": "T2_boost_is_lorentz",
+      "passed": true,
+      "detail": "exp(t L01) in SO+(1,3), exact exp form"
+    },
+    {
+      "name": "T2_tangent_transport_bilinear_boost",
+      "passed": true,
+      "detail": "T(Lam X Lam^-1) = Lam^-T T(X) Lam^-1 for a generic X under the exact boost"
+    },
+    {
+      "name": "T2_tangent_transport_bilinear_klein",
+      "passed": true,
+      "detail": "same law under all nontrivial K4 elements"
+    },
+    {
+      "name": "B1_seat_reconstruction",
+      "passed": true,
+      "detail": "a=lam-k_mod, d=lam+k_mod <=> lam=(a+d)/2, k_mod=(d-a)/2 (banked two-scalar seat)"
+    },
+    {
+      "name": "B1_trace_channel_blind_to_kmod",
+      "passed": true,
+      "detail": "tr X_seat = 2*lam exactly; d(tr)/d(k_mod) = 0 identically"
+    },
+    {
+      "name": "B2_screen_trace_tracefree_decomposition",
+      "passed": true,
+      "detail": "K_seat = lam*I2 + k_mod*diag(-1,1); the anisotropic slot is exactly the k_mod direction"
+    },
+    {
+      "name": "B3_generic_trace_functional_zero_kmod_pairing",
+      "passed": true,
+      "detail": "ANY functional F(tr) has identically zero pairing with d/d(k_mod): the trace channel cannot select the transverse line (requirement 4 exact form)"
+    },
+    {
+      "name": "B3_volume_density_channel_blind_to_kmod",
+      "passed": true,
+      "detail": "det e^{phi X_seat} = e^{2 lam phi}: every functional of the volume density det e^{phi X} is k_mod-blind (A3-amended class wording; matches banked T4_vol4_scaling)"
+    },
+    {
+      "name": "B3_det_screen_channel_pairs_kmod_contrast",
+      "passed": true,
+      "detail": "contrast (characterize, not filter): det K = lam^2 - k_mod^2 DOES pair with k_mod generically -- the blindness is channel-specific, not universal"
+    },
+    {
+      "name": "B4_axes_intersect_only_at_spectator",
+      "passed": true,
+      "detail": "E07 axis {lam=0} and isotropic axis {k_mod=0} meet only at the origin (banked T4; MAP 'k=lambda' REFUTED stands)"
+    },
+    {
+      "name": "B5_counter_channel_trX2_pairs_with_kmod",
+      "passed": true,
+      "detail": "tr(X_seat^2) = 2 + 2*lam^2 + 2*k_mod^2 with d/d(k_mod) = 4*k_mod != 0: a trace-BUILT channel that is NOT k_mod-blind -- the proven blind class is functionals of tr X (first trace) and of det e^{phi X} only (verifier V4 counter-channel recomputed)"
+    },
+    {
+      "name": "B5_slot_theorem_pure_trace_kernel_zero_kmod_pairing",
+      "passed": true,
+      "detail": "<r_tr*I2, diag(-1,1)> = 0 identically: a screen pairing kernel with ZERO trace-free part has identically zero k_mod-pairing -- the exact surviving form of F-RA2's forcing"
+    },
+    {
+      "name": "B5_trX2_kmod_pairing_routes_through_tracefree_slot",
+      "passed": true,
+      "detail": "d(tr K^2) kernel = 2K = 2*lam*I2 + 2*k_mod*diag(-1,1): its k_mod-pairing (= 4*k_mod) routes PRECISELY through its trace-free part 2*k_mod*diag(-1,1) (the pure-trace part contributes 0) -- slot-presence forcing SURVIVES the counter-channel (verifier V4 slot theorem recomputed)"
+    },
+    {
+      "name": "C1_restricted_stationarity_witness",
+      "passed": true,
+      "detail": "restrict {y=0} then vary: critical point x=0"
+    },
+    {
+      "name": "C1_full_response_normal_residual_nonzero",
+      "passed": true,
+      "detail": "full response at the restricted critical point = (0, 1): the normal component is EXACTLY 1, not 0 -- restricted stationarity is not stationarity"
+    },
+    {
+      "name": "C2_full_zero_set_disjoint_from_restricted_critical",
+      "passed": true,
+      "detail": "the full zero set {(0,-1/2)} never meets the stratum {y=0}: zero-set-after-definition (J14) and vary-then-restrict (req 12) are inequivalent to the forbidden order, witnessed exactly"
+    },
+    {
+      "name": "D1_seat_same_member_additivity",
+      "passed": true,
+      "detail": "e^{phi2 X}e^{phi1 X} = e^{(phi1+phi2)X} per member (G01 composition realized)"
+    },
+    {
+      "name": "D1_E04_closed_form_ODE_init_additive",
+      "passed": true,
+      "detail": "M' = X M, M(0)=I, same-member additivity exact (banked T2 closed form recomputed)"
+    },
+    {
+      "name": "D2_every_scalar_f_depth_composition",
+      "passed": true,
+      "detail": "delta_f(p,q)=f(q)-f(p) satisfies reversal + 3-point composition for EVERY scalar f (joint audit sec.1 witness recomputed): additivity has zero selector rank on pointwise phi-dependence"
+    },
+    {
+      "name": "D3_shift_is_left_group_translation",
+      "passed": true,
+      "detail": "e^{(phi+s)X} = e^{sX} e^{phi X}: a constant depth shift acts by left translation, not a new functional form"
+    },
+    {
+      "name": "D3_anchor_absorption",
+      "passed": true,
+      "detail": "founded stationary readout Q = c_E e^{-phi}: the shift is absorbed into the anchor c_E (joint audit sec.3)"
+    }
+  ],
+  "forced_statements": [
+    {
+      "id": "F-RA1",
+      "target": "TA6(a)",
+      "statement": "J10 equivariance + the scalar-only so(1,3) centralizer (A1) + the founded non-scalar base block H (A5) force the response's covariance type: it CANNOT be a Lorentz-invariant object anchored on a fixed generator/plane (no such member exists in the class); it is forced to be an EQUIVARIANT family whose components transform contragradiently to the tangent transport T -> Lam^-T T Lam^-1 (T2 checks). On the registered chart the K4 quotient forces CHARACTER-MATCHED RELATIVE INVARIANCE per component (A1-AMENDED): a component R_v must transform with the K4 character of its paired direction dv (component character x direction character = trivial; A6 checks). Verbatim factoring through the exact K4-invariants (A4: k10^2, the C character-class quadratics, the four mixed cubics -- a GENERATING set of the full invariant ring, verifier-proven via character/parity + exhaustive degree<=6 factorization, VERIFIER_INDEPENDENT_CHECK.py V2) holds exactly for components along K4-invariant directions (dphi, base data, dlambda, dk_mod, boundary data); R_k10 must be chi_a-relative (e.g. k10*invariant or c_b*c_c*invariant), R_C components chi_b/chi_c-relative. Character MISMATCH (not bare-linearity) is the failure mode. Counterexample on record: omega = k10*dk10 = (1/2)d(k10^2) is K4-invariant and exact with a bare-k10-linear component (A6).",
+      "scope": "POINTWISE (registered chart, one-parameter, off-shell); global assignment J07/J11 untouched",
+      "checks": [
+        "A1_*",
+        "A2_*",
+        "A3_*",
+        "A4_*",
+        "A5_*",
+        "A6_*",
+        "T2_*"
+      ]
+    },
+    {
+      "id": "F-RA2",
+      "target": "TA6(b)",
+      "statement": "Requirement 4 + J06 on the banked two-scalar seat (A3-AMENDED): the trace channel is exactly 2*lam, and every functional of tr X (first trace) and of the volume density det e^{phi X} = e^{2 lam phi} has identically zero pairing with the k_mod direction (B1/B3) -- NOT every trace/volume/density-built functional (counter-channel on record: tr(X^2) = 2 + 2*lam^2 + 2*k_mod^2 pairs with d/d(k_mod) = 4*k_mod, B5). The exact surviving slot theorem: a screen pairing kernel with zero trace-free part has identically zero k_mod-pairing (<r_tr*I2, diag(-1,1)> = 0, B5), and d(tr X^2)'s k_mod-pairing routes precisely through its trace-free part 2*k_mod*diag(-1,1) (B5). Hence J06's 'determined' branch for k_mod is reachable ONLY by a response carrying the trace-free screen slot k_mod*diag(-1,1) (B2) (and/or the k10, C mixing slots); a candidate without that slot can pass J06 only via its explicit-residual-modulus branch; omitting the slot silently = J06's named false pass ('spectator screen isotropy or trace zero assumed'). No candidate value is demanded (F-A1 respected): this forces a SLOT in the general object, not a nonzero value.",
+      "scope": "POINTWISE on the (lam, k_mod) seat; whole-solution/global selection of the moduli untouched (07-26 rank zero respected)",
+      "checks": [
+        "B1_*",
+        "B2_*",
+        "B3_*",
+        "B4_*",
+        "B5_*"
+      ]
+    },
+    {
+      "id": "F-RA3",
+      "target": "TA6(c)",
+      "statement": "Requirement 12 + J14 force a DEFINITIONAL ordering property of the object itself: the response is a one-form on the FULL typed domain, with components along every census direction (fields, moduli under both fork options, boundary data); any stratum restriction is a pullback of the full object performed AFTER definition. Exact witness (C1/C2): a two-direction functional whose restricted stationarity set {(0,0)} is disjoint from its true zero set {(0,-1/2)}, with normal residual exactly 1 at the restricted critical point. J14's off-shell/on-shell separation is built in: the on-shell set is a DERIVED subset of the off-shell domain, never an input.",
+      "scope": "STRUCTURAL/DEFINITIONAL (pointwise-decidable on the object's definition); instantiated by an exact finite-dimensional witness",
+      "checks": [
+        "C1_*",
+        "C2_*"
+      ]
+    },
+    {
+      "id": "F-RA4",
+      "target": "TA6(d)",
+      "statement": "The additive-depth law (G01) forces, at the pointwise level, ONLY shift-equivariance: phi -> phi + s acts by left group translation e^{sX} (D1/D3), absorbable into the observed anchor c_E on the founded stationary readout (D3_anchor_absorption). It forces NOTHING further about the response's pointwise phi-dependence: the every-scalar-f composition witness (D2, recomputing the joint audit) shows additivity has zero selector rank on pointwise functional form. Reported as-is (near-null result on this item; OA2-flavored).",
+      "scope": "POINTWISE; the realized-profile/whole-solution content of G01 is untouched",
+      "checks": [
+        "D1_*",
+        "D2_*",
+        "D3_*"
+      ]
+    }
+  ],
+  "outcome_class": "OA1/OA2 MIXED: nontrivial candidate-free forced structure exists (F-RA1..F-RA3 = OA1 items); the G01 item is near-null pointwise (F-RA4 = OA2 item); no requirement clash surfaced (no OA3)",
+  "throughput": "FULL SCOPE (not throughput-limited); single CPU process, exact SymPy",
+  "no_candidate_no_gate_run": "no response candidate constructed, selected, or privileged; no gate executed (F-A1 clean by construction)",
+  "amendments": "A1-A4 applied 2026-07-29 per VERIFIER_REPORT.md: F-RA1 K4 clause restated as character-matched RELATIVE invariance (new A6 checks; verifier counterexample omega = k10*dk10 embodied); F-RA2 channel class narrowed to functionals of tr X and det e^{phi X} with the exact slot theorem (new B5 checks; verifier counter-channel tr(X^2) embodied); gate specs 2/4/6 corrected in SIX_GATE_SPECS.md; clash scan extended in POSED_INVERSE_PROBLEM.md sec.3.2. Pre-amendment run: 34/34, exit 0. See CORRECTION_LAYER.md."
+}
