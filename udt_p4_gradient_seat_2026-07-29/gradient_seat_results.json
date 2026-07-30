@@ -1,0 +1,181 @@
+{
+ "all_passed": true,
+ "amendment": "AM-1/AM-2 (required) + AM-3 (minor) applied 2026-07-30 per VERIFIER_REPORT.md (PASS-WITH-REQUIRED-AMENDMENTS) -- see CORRECTION_LAYER.md; no pre-amendment computed claim changed; both required amendments CUTTING-direction (the massive class's stated conditions narrowed/completed); 6 verifier-credited checks adopted (2 counter-witnesses + 4 strengthenings); F-G3 ONE FIRING = AM-2, the NINTH catch of the named scope class, memorialized",
+ "checks": [
+  {
+   "detail": "banked footing recomputed: (i) the no-jet lam-row is d(W_F Ltil)/dlam = a_F'(lam) p0 W_F Ltil identically (arbitrary Ltil, arbitrary a_F -- Slice-2b R2 general lam-row, now with lam = lam(x) a FIELD: the row is the same algebraic density, pointwise); (ii) the Route-P A1 distinction carried exactly: at the lam = 0 landing a_F(0) = 0 on P1-4D but a_F(0) = 1 on P1-triad, while a_F' = 2 != 0 on BOTH (the row does NOT vanish by pairing-relativity at the landing); (iii) P2 (aF = 0): lam-row identically zero (vacuous, banked). STAMPS: field census, registered alphabet, all P-branches",
+   "kind": "substantive",
+   "name": "G0_footing_recomputed",
+   "passed": true
+  },
+  {
+   "detail": "TG-1 GENERAL FORM (zero residual, arbitrary Function S(p0,p1,f0,f1,h0,h1,m,m',m'')): the variation integrand decomposes EXACTLY as deltaS = sum_a E_a(S) v_a + R_mu v_mu + Dx(Theta_ext) with the POINTWISE moduli row the full 2nd-order Euler operator R_mu = d_m S - Dx d_{m'} S + Dx^2 d_{m''} S (a DIFFERENTIAL condition in m(x) -- exactly the Route-D-typed A1-seat content), and the wall block Theta_ext = sum_a pi_a v_a + (d_{m'}S - Dx d_{m''}S) v_m + d_{m''}S v_m' -- the N3 wall m-jet slots DERIVED (J05 IBP leg extended to m''). Per-sector: same operator form for every modulus; (lam,k_mod) trivial character, (k10,C) chi-graded argument legality (Route D, cited). Jets beyond m'': TYPED (same commutation argument, banked). STAMPS: field census, registered m-jet alphabet, all branches, off-shell identity",
+   "kind": "substantive",
+   "name": "G1_jet_rows_and_wall_slots_identity",
+   "passed": true
+  },
+  {
+   "detail": "THE CONFIGURATION-DEPENDENT WEIGHT, exact (the named crux): with lam(x) a field the anchored weight W_F = e^{a_F(lam(x)) p0} makes the FIELD rows pick up exactly one new term each vs the constant-moduli rows: E_a(full) - E_a(const-form) = -W_F a_F'(lam) lam' p0 pi_a-density (p: g_p p1; f: g_f f1 + g_x h1; h: g_x f1 + g_h h1) -- zero residual; the lam-row on the no-jet generated member stays the ALGEBRAIC density a_F' p0 W_F Ltil (pointwise), and the k_mod row is IDENTICALLY VACUOUS (the generated member carries no k_mod dependence): k_mod(x) is a FREE direction of the no-jet generated class -- an honest degeneracy, reported. The T4 blindness loci become LEVEL SETS lam(x) = 0 of the volume row (banked promotion, consistent). STAMPS: field census, generated (LE) member class, quadratic-class density, no-m-jet response content, all P-branches (a_F symbolic)",
+   "kind": "substantive",
+   "name": "G1_configuration_dependent_weight_rows",
+   "passed": true
+  },
+  {
+   "credit": "VERIFIER_INDEPENDENT_CHECK.py V2_weight_single_new_term",
+   "detail": "GENERAL CONFIGURATION-DEPENDENT-WEIGHT RULE (zero residual, arbitrary Function S(u-jets, lam) with NO m-jet content): for EVERY such response the field rows obey E_a(full) - E_a(const-form) = -lam' d^2 S/(dlam du_a') identically -- one structural term, member-general; the package's single anchored-member term -W_F a_F' lam' p0 (momentum density) (G1b) is exactly this rule's anchored instance. It really is the ONLY new term on the no-m-jet class. STAMPS: field census, registered alphabet, no-m-jet responses, all branches",
+   "kind": "substantive",
+   "name": "ADOPTED_weight_general_rule",
+   "passed": true
+  },
+  {
+   "detail": "[recording row -- the TG-1 system, per pairing branch x sector, written to JET_ROWS_LEDGER.tsv] The jet-extended pointwise system on the field census = {3 field rows (with the derived lam'-weight terms)} + {7 moduli rows, each the 2nd-order Euler operator of G1a} + {N3 wall slots of G1a}. Per branch: P1-4D (aF = 2lam), P1-triad (aF = 1+2lam): lam-row nonvacuous (a_F' = 2); P2 (aF = 0): lam-row vacuous. Per stratum: k_mod(x) = 0 is a LEVEL SET carrying the banked pointwise identity -- on the field-sector sub-census used here it is IDENTICALLY VACUOUS (Slice-2b TE4_kmod0_identity_fullcell, cited): the mass-leg members below are uncut. (k10, C) sector: identical operator form, chi-graded legality, rows vacuous on the generated no-jet class (free directions, per-branch parity data supplied). RES-CNEQ0 and deeper strata: inherited TYPED-NOT-EXHAUSTED",
+   "kind": "citation-guard",
+   "name": "G1_row_system_per_branch_ledger",
+   "passed": true
+  },
+  {
+   "detail": "LOCK-REDUCTION THEOREM (zero residual, arbitrary Function coefficients incl. cross lam'-k_mod' terms): every response term whose m-jet dependence is QUADRATIC-OR-HIGHER at m' = m'' = 0 contributes ZERO to ALL rows (field and moduli) at the lock locus (m constant on the interior => all interior m-jets vanish). CONSEQUENCE: for the sub-class of registered responses with no term LINEAR in the m-jets, the interior-locking adjudication REDUCES EXACTLY to the no-m-jet-alphabet adjudication -- the jet extension changes nothing at the lock for that whole sub-class (it changes the NONCONSTANT sector instead, characterized below). STAMPS: field census, registered alphabet, all branches, both sectors, general theorem (no member instantiated)",
+   "kind": "substantive",
+   "name": "G2_quadratic_jet_terms_vanish_at_lock",
+   "passed": true
+  },
+  {
+   "credit": "VERIFIER_INDEPENDENT_CHECK.py V3_lock_reduction_extended_set",
+   "detail": "LOCK-REDUCTION, EXTENDED SET (zero residual, arbitrary Function coefficients): the verifier's LARGER quadratic set -- all nine lam/k_mod jet quadratics lam'^2, lam' lam'', lam''^2, k_mod'^2, k_mod' k_mod'', k_mod''^2, lam' k_mod', lam' k_mod'', lam'' k_mod' (including the k_mod''-carrying cross terms G2a's representative set omitted) -- ALSO contributes zero to every row at the lock: the lock-reduction theorem is sound as stated (each row term retains >= 1 m-jet factor). STAMPS: as G2a (general theorem)",
+   "kind": "substantive",
+   "name": "ADOPTED_lock_reduction_extended_set",
+   "passed": true
+  },
+  {
+   "detail": "THE LOCKED ROW, general closed form (zero residual): for the generated member with general linear m-jet response content S = W_F (Ltil_G + B m' + C m''), the lam-row AT the lock locus equals G_lam = a_F' p0 W_F Ltil_G - Dx(W_F B)|lock + Dx^2(W_F C)|lock, where the surviving Dx-content is the FIELD-chain part only (m-chain terms die with the lock): terms LINEAR in the m-jets DO reach the locked row through their field-argument dependence -- Dx(W_F B)|lock = W_F (a_F p1 B + B_{f0} f1 + B_{h0} h1 + B_{f1} f2 + B_{h1} h2). Coefficients depending ONLY on moduli give zero here (their lock-derivative dies): pure-moduli linear terms are lock-inert. Locking is therefore ADMITTED iff the coupled system {field rows, G_mu = 0} has solutions at constant m -- adjudicated per branch below. STAMPS: field census, registered alphabet, generated class + linear jet content, all branches, general form (off-shell)",
+   "kind": "substantive",
+   "name": "G2_locked_row_general_form",
+   "passed": true
+  },
+  {
+   "detail": "PARITY x LOCK (F-G4 carried with consequences, exact): a mirror-ODD field's wall value satisfies v = -v => v = 0 at every wall (solved: only 0); the cell interior (-ell, ell) is CONNECTED and its closure reaches the walls, so an interior-constant CONTINUOUS odd field is == 0 on the whole cell: for the (lam, k_mod) sector (forced odd, Route P P0+P1(+P2)) INTERIOR LOCKING IS LOCKING AT ZERO -- no other locked value exists on this cell topology (a lock at v != 0 would need an interior component not reaching a wall: none in the one-parameter presentation; mirrored-quotient reading identical -- continuity to the crease pins the constant). Also solved exactly (used below): an AFFINE field odd about both walls is killed entirely (f00 = f1 = 0); even about both walls kills its slope (f1 = 0). k10/C sector: the same forcing holds per SUPPLIED parity branch (k10 odd on branch (a), even+shear on (b); C 2-odd+2-even) -- branch-conditional, stamped. STAMPS: field census, mirrored cell (CANON), premise ladder P0+P1(+P2) for (lam,k_mod)",
+   "kind": "substantive",
+   "name": "G2_parity_lock_at_zero",
+   "passed": true
+  },
+  {
+   "detail": "P1-TRIAD LOCKED BRANCH (lam == 0 forced by parity+lock; a_F(0) = 1 != 0): the quadratic-class atlas applies on the locked interior (banked, exhaustive on the class) and the pointwise lam-row 2 E0 p0(x) = 0 forces E0 = 0 EXACTLY (either directly, or p0 == 0 => w == 1 => A = 0 => E0 = 0 via E0 = 2 g_p A/a_F^2 -- the banked Slice-2b leg re-derived at the locked value); the p0 == 0 escape route is ALSO independently killed by the p-row itself: at p == 0 (affine f,h) the p-row equals a_F * Ltil_fh = Ltil_fh, so Ltil_fh = 0 => E0 = 0 again. LOCKED SURVIVORS (P1-triad) = {E0 = 0}: MASSLESS under all four labeled branches (M-GEN = 2 ell E0, M-WALL = a_F M-GEN, M-DENS-coord = E0 V, M-DENS-proper = M-GEN -- all vanish at E0 = 0; banked tie-fate map, same-solution). Definite sub-class: constants; indefinite: nonconstant E0 = 0 members exist (banked witness w = x + 2 at a_F = 1, cited). The Slice-2b massless verdict PERSISTS on this branch at the extended alphabet for all quadratic-at-lock responses (G2a). STAMPS: field census, registered alphabet, P1-triad, locked class, quadratic-class density, no-linear-jet responses, GENERIC + KMOD0-level-set, all backgrounds",
+   "kind": "substantive",
+   "name": "G2_P1triad_lock_massless",
+   "passed": true
+  },
+  {
+   "credit": "VERIFIER_INDEPENDENT_CHECK.py V11_triad_prow_kill_and_E_density",
+   "detail": "E-DENSITY IDENTITY (zero residual): on the quadratic class the energy density sum_a u' dS/du' - S equals W_F Ltil_G exactly (checked on the locked P1-triad member AND on the general generated member with a_F symbolic), so the no-jet lam-row a_F' p0 W_F Ltil_G = a_F' p0 x (E-density) -- on P1-branches (a_F' = 2) the pointwise row IS '2 p0 E-density = 0': the G2d '2 E0 p0(x) = 0' reading is confirmed via the on-shell identity, independently of the atlas citation. STAMPS: field census, quadratic-class density, generated members, all branches",
+   "kind": "substantive",
+   "name": "ADOPTED_triad_E_density_identity",
+   "passed": true
+  },
+  {
+   "detail": "P1-4D LOCKED BRANCH -- THE LANDING (lam == 0 forced by parity+lock; a_F(0) = 0: exactly the slot Route P A1 stamped UNDERIVED -- the banked quadratic atlas and I_p certificate presuppose a_F != 0; now DERIVED): at the lock the weight is W_F == 1 and the field rows FORCE the affine atlas u'' = 0 (GENERIC unique solve, zero residual -- NONDEGENERACY STAMP [AM-2]: rides g_p != 0 AND Delta_G = g_f g_h - g_x^2 != 0, equivalently W3-degenerate members excluded; at Delta_G = 0 the forcing FAILS -- counter-computation AM2_VC1_degenerate_block_counterwitness); the pointwise lam-row is 2 p0 Ltil_G, and with p0 affine (= p00 + p1 x) the row's polynomial coefficients give the EXACT SPLIT: either Ltil_G = 0 (on the definite sub-class: constants, E0 = 0, massless) OR p == 0 identically (p00 = p1 = 0) with f, h affine FREE -- the second branch carries E0 = Ltil_fh(f1, h1) unconstrained: the landing admits a LOCKED class with E0 != 0 (adjudicated + massed below). STAMPS: field census, registered alphabet, P1-4D at the lam = 0 landing, locked class, quadratic-class density, no-linear-jet responses, GENERIC nondegeneracy g_p != 0 & Delta_G != 0 (W3-degenerate members excluded)",
+   "kind": "substantive",
+   "name": "G2_P14D_landing_affine_forced",
+   "passed": true
+  },
+  {
+   "credit": "VERIFIER_INDEPENDENT_CHECK.py VC1_degenerate_G_probe",
+   "detail": "AM-2 COUNTER-WITNESS, adopted (zero residual): at Delta_G = g_f g_h - g_x^2 = 0 (instance g_f = g_h = g_x = 1) the locked f/h rows are solved by the KERNEL direction f'' = 1, h'' = -1 -- the affine atlas is NOT forced there: the landing 'unique solve' (G2e) and everything riding it (G2f/G2g/G3c) are GENERIC, conditioned on g_p != 0 AND Delta_G != 0 (W3-degenerate members excluded). Direction: CUTTING -- the stamp narrows the massive landing class's stated scope; the NINTH catch of the named scope class (F-G3), memorialized in the falsifier record. STAMPS: P1-4D landing, quadratic-class density, degenerate (f,h) block instance",
+   "kind": "substantive",
+   "name": "AM2_VC1_degenerate_block_counterwitness",
+   "passed": true
+  },
+  {
+   "detail": "LOCK EMERGENCE (the F-G2 discharge, zero residual): on the p == 0 configuration class with lam(x) LEFT COMPLETELY FREE (a general field, nothing imposed), the p-row of the P1-4D generated member evaluates to 2 lam(x) Ltil_fh(f1, h1) -- so wherever Ltil_fh != 0 (the E0 != 0 leg) the field equations THEMSELVES force lam(x) == 0: the interior lock (constancy, at the parity-forced value 0) EMERGES as a consequence of the rows on this class; it is never assumed. The f/h rows force the affine atlas (G(f2,h2) = 0 with the NONDEGENERACY STAMP [AM-2]: det G = Delta_G = g_f g_h - g_x^2 != 0, GENERIC -- W3-degenerate members excluded; see AM2_VC1_degenerate_block_counterwitness); the lam-row is then automatically satisfied (2 p0 (...) with p0 == 0); the k_mod row is vacuous (k_mod(x) a free odd direction -- degeneracy, reported). STAMPS: field census, registered alphabet, P1-4D, p == 0 class, no-m-jet responses, all backgrounds, GENERIC nondegeneracy g_p != 0 & Delta_G != 0",
+   "kind": "substantive",
+   "name": "G2_lock_emergence_derived_not_imposed",
+   "passed": true
+  },
+  {
+   "credit": "VERIFIER_REPORT.md duty-1 (everywhere-or-nowhere leg)",
+   "detail": "EVERYWHERE-OR-NOWHERE SCOPING (zero residual): on the p == 0 / affine class Dx(Ltil_fh) = 0 exactly (f'' = h'' = 0) -- Ltil_fh is CONSTANT on the cell, so the G2f forcing 2 lam(x) Ltil_fh = 0 is everywhere-or-nowhere: either E0 = 0 (massless stratum, lam free) or E0 != 0 and lam(x) == 0 on the WHOLE cell. This CLOSES THE NONZERO-PLATEAU LOOPHOLE on the massive class: no partial-interior lock (sub-interval plateau at lam != 0) coexists with E0 != 0 -- the 'wherever E0 != 0' scoping in G2f is exact, not a per-point hedge. STAMPS: field census, P1-4D landing, p == 0 class, no-m-jet responses, GENERIC nondegeneracy",
+   "kind": "substantive",
+   "name": "ADOPTED_everywhere_or_nowhere_forcing",
+   "passed": true
+  },
+  {
+   "detail": "THE MASSIVE LOCKED WITNESS (exact, all five rows zero-residual): p == 0, f = f00 + f1 x, h = h00 + h1 x (affine), lam == 0 (EMERGED, G2f), k_mod = kappa sin(pi x/ell) (a free ODD direction -- odd about BOTH walls exactly, witnessing the vacuous-row degeneracy): every field row and every moduli row vanishes identically on the cell, with conserved energy E = Ltil_fh(f1, h1) = (g_f f1^2 + 2 g_x f1 h1 + g_h h1^2)/2 -- SYMBOLIC and generically NONZERO (sign per G_fh definiteness: positive on the definite sub-class). Honest degeneracy stamps: the depth field is IDENTICALLY at the seal value (p0 == 0 -- whether such a member is completion/canon-admissible is typed OPEN, not claimed); k_mod (and k10, C) are row-unconstrained free directions on this class. NONDEGENERACY STAMP [AM-2]: the class sits on the GENERIC affine atlas -- g_p != 0 AND Delta_G = g_f g_h - g_x^2 != 0 (W3-degenerate members excluded). STAMPS: field census, registered alphabet, P1-4D lam = 0 landing, locked class, quadratic-class density, no-linear-jet responses, background symbolic, GENERIC nondegeneracy",
+   "kind": "substantive",
+   "name": "G2_massive_locked_witness_all_rows",
+   "passed": true
+  },
+  {
+   "detail": "CUTTING CONDITIONALITY of the massive locked class (F-G1 duty -- the attack on the tempting leg, computed): the class's energy rides the AFFINE slopes f1, h1, and the f/bh wall parities are SUPPLIED (not derived, banked). Exact solves: if f (resp. bh) carries a SUPPLIED ODD parity at both walls, the affine profile is killed entirely (f00 = f1 = 0); if EVEN, the slope is killed (f1 = 0); EITHER definite supplied parity on both fields collapses E0 to 0 -- the massive locked class is NONEMPTY exactly when the supplied f/bh wall data leave at least one slope free (free/natural-BC-type wall data), and EMPTY under definite both-wall parities of either sign on both fields. The mass of the locked class is therefore CONDITIONED on the supplied wall structure -- stamped, first-class. STAMPS: as G2g + supplied-parity fork carried BOTH ways",
+   "kind": "substantive",
+   "name": "G2_witness_parity_conditionality",
+   "passed": true
+  },
+  {
+   "detail": "LINEAR m-jet responses -- the CONDITIONAL layer, witnesses BOTH directions (exact): on the massive locked class the locked lam-row gains -(B_{f0} f1 + B_{h0} h1) (G2b at p == 0, affine atlas). OBSTRUCTING witness B = f0 (alphabet-legal: local jet argument, no bare p0, trivial character): locked row = -f1 != 0 -- this member class CUTS the massive locked class down to f1 = 0 (its exact admit condition). ADMITTING witness B = h1 f0 - f1 h0 (legal local-jet arguments): the directional derivative (f1 d_{f0} + h1 d_{h0})B = f1 h1 - h1 f1 = 0 on the affine atlas -- ALL rows vanish on the SAME massive witness (zero residual, all five): registered members with genuinely linear m-jet response content ADMIT the massive locked class too. EXACT GENERAL CONDITION (restated per AM-1 -- FULL locked-row vanishing, from G2b): [a_F' p0 W_F Ltil_G - Dx(W_F B) + Dx^2(W_F C)]|lock = 0 along the locked solution (on the p == 0 landing the first term vanishes, leaving [-Dx(W_F B) + Dx^2(W_F C)]|lock = 0). For C-FREE members this reduces to the previously stated (f1 d_{f0} + h1 d_{h0} + f2 d_{f1} + h2 d_{h1}) B + a_F p1 B = 0 (on this class: B constant along the affine (f,h) line) -- that formula is COMPLETE ONLY for m'-linear content; field-coupled m'' content reaches the locked row through Dx^2(W_F C)|lock (counter-witness: AM1_VC2_field_coupled_mpp_counterwitness). Pure-moduli coefficients B(lam, k_mod): lock-inert (G2b); pure-moduli C: null-reducible (G2j). VERDICT SHAPE: at the extended alphabet the locking adjudication is MEMBER-CONDITIONAL on the linear m-jet content, with the exact condition = the full locked-row vanishing. STAMPS: field census, registered m-jet alphabet, P1-4D landing, locked class",
+   "kind": "substantive",
+   "name": "G2_linear_jet_conditional_layer",
+   "passed": true
+  },
+  {
+   "credit": "VERIFIER_INDEPENDENT_CHECK.py VC2_mpp_field_coupled_probe",
+   "detail": "AM-1 COUNTER-WITNESS, adopted (zero residual): the alphabet-legal member S = W_F (Ltil_G + (f0^2/2) m'') carries NO m'-linear term (B = 0 -- the pre-amendment B-only condition is VACUOUSLY satisfied), yet its locked lam-row on the massive witness is Dx^2(W_F f0^2/2)|lock = f1^2 != 0: it CUTS the massive locked class (to f1 = 0). Field-coupled m'' content reaches the locked row through Dx^2(W_F C)|lock exactly as G2b's closed form states -- the admit condition MUST be the full locked-row vanishing (G2i, restated). Direction: CUTTING -- the massive class's condition set is narrower than first stated. STAMPS: field census, registered m-jet alphabet, P1-4D landing, locked class, GENERIC nondegeneracy",
+   "kind": "substantive",
+   "name": "AM1_VC2_field_coupled_mpp_counterwitness",
+   "passed": true
+  },
+  {
+   "detail": "pure-moduli m'' terms are LOCK-INERT by null reduction (zero residual): c(m) m'' = Dx(c m') - c'(m) m'^2, the total derivative contributes ZERO to every row (identically -- checked), and the remainder is quadratic in m-jets (lock-inert by G2a): linear-m'' response content with pure-moduli coefficients cannot disturb any locking adjudication; FIELD-coupled m'' coefficients join the G2b/G2i conditional layer through the Dx^2(W_F C)|lock term (WITNESSED cutting: AM1_VC2_field_coupled_mpp_counterwitness). STAMPS: field census, registered alphabet, general theorem",
+   "kind": "substantive",
+   "name": "G2_mpp_null_reduction",
+   "passed": true
+  },
+  {
+   "detail": "THE CONVERSE -- nonconstant m(x) admitted behaviors, characterized (not filtered): (a) FREE-DIRECTION class: on constant-field backgrounds with Ltil0 = 0 the no-jet member's rows all vanish for ARBITRARY odd lam(x) (witness s sin(pi x/ell): all five rows zero) -- nonconstant moduli are ADMITTED with E = 0 (row-degenerate free directions; massless). (b) JET-QUADRATIC member S = W(Ltil_G + c lam'^2/2) on constant-field backgrounds: the p-row carries the exact factor lam (lam')^2 (zero residual after removing the nonzero prefactor c e^{2 lam p0}) -- combined with the lam-row, any interval with lam' != 0 forces lam = 0 there (contradiction): lam' == 0, and parity then pins lam == 0 -- for this member class the FULL system FORCES the lock on constant-field backgrounds (second emergence result, derived). (c) the p == 0 TUNED branch: lam = beta x (nonconstant) solves the lam-row identically (lam'' = 0) and the p-row iff 2 beta x (Ltil_fh + c beta^2/2) = 0, i.e. Ltil_fh = -c beta^2/2 (possible at c < 0 or indefinite G): that branch has EXTENDED energy E_ext = Ltil_fh + c beta^2/2 = 0 EXACTLY -- the tuned nonconstant-lam branch is MASSLESS under M-GEN(ext); and the in-cell parity (lam odd about both walls, affine) kills it anyway (beta = 0, G2c solve): on parity-legal configurations the member's admitted behaviors collapse to the locked ones. STAMPS: field census, registered alphabet, P1-4D, named background classes, member classes as stamped",
+   "kind": "substantive",
+   "name": "G2_nonconstant_admitted_characterized",
+   "passed": true
+  },
+  {
+   "detail": "M-GEN AVAILABILITY on the m-jet alphabet, DERIVED (zero residual, arbitrary Function S(u-jets, m, m', m'')): the extended (Ostrogradsky-form) energy E_ext = sum_a u' dS/du' + m'(d_{m'}S - Dx d_{m''}S) + m'' d_{m''}S - S obeys Dx(E_ext) = -sum_a u' E_a(S) - m' R_m(S) IDENTICALLY: on the FULL field-census shell (field rows + pointwise moduli rows) E_ext is an exact first integral -- the M-GEN generator EXISTS on the extended alphabet (LE cells), M-GEN = 2 ell E_ext, reducing to the banked E on locked solutions (m-jets = 0). NV cells: no generator (banked refusal inherited). STAMPS: field census, registered alphabet, LE cells, all branches, mass branch M-GEN",
+   "kind": "substantive",
+   "name": "G3_extended_energy_first_integral",
+   "passed": true
+  },
+  {
+   "detail": "M-WALL on the m-jet alphabet: the wall block (G1a, derived) carries the N3 moduli slots pi_m = d_{m'}S - Dx d_{m''}S (v_m slot) and d_{m''}S (v_m' slot) alongside the banked field slots. PARITY KILL (F-G4 consequence, derived): the (lam, k_mod) variation class inherits the forced ODD parity, so v_m(walls) = 0 (the same c = -c solve) -- the odd-sector N3 v_m-slots are PARITY-KILLED at the variation level (trace-functional status, exactly parallel to the banked v_p kill under eps_phi = -1); the v_m'-slot survives (m' odd => m'' even-jet content -- v_m' free at walls); k10/C slots per supplied branch. On the no-jet generated class all moduli slots are identically vacuous. M-WALL's p-slot reading persists: on the massive locked witness pi_p = W g_p p1 == 0 exactly => M-WALL = [pi_p] = 0. STAMPS: field census, registered alphabet, mass branch M-WALL, N3 slots, parity ladder P0+P1(+P2)",
+   "kind": "substantive",
+   "name": "G3_MWALL_N3_slots_parity",
+   "passed": true
+  },
+  {
+   "detail": "MASS STATUS per locked class, branch-labeled, same-solution (R1 labels, none promoted): (1) P1-TRIAD locked class {E0 = 0}: M-GEN = M-WALL = M-DENS-coord = M-DENS-proper = 0 -- MASSLESS under ALL FOUR labeled branches. (2) P1-4D locked landing class (p == 0, f/h affine, lam == 0 emerged): W_F == 1 so V = int W_F dx = 2 ell exactly; M-GEN = 2 ell E0 with E0 = Ltil_fh(f1,h1) generically NONZERO (sign per G_fh definiteness; positive-definite => E0 > 0 off the constants); M-DENS-coord = E0 V = 2 ell E0 = M-GEN; M-DENS-proper = M-GEN (both senses agree at W == 1); M-WALL = [pi_p] = 0 (p1 == 0): THREE of the four labeled branches read the SAME nonzero mass, M-WALL dissents at 0 -- consistent with the banked divergence law M-WALL = a_F M-GEN at a_F = 0. (3) P2: lam-row vacuous, lock trivially admitted, banked P2 column unchanged (M-GEN free, M-WALL = 0, cited). CONDITIONALITY STAMPS travel: (2) requires free f/bh wall data (G2h), is member-conditional under linear m-jet content with the FULL locked-row admit condition [AM-1] (G2i + AM1_VC2), and rides the GENERIC nondegeneracy [AM-2] g_p != 0 & Delta_G = g_f g_h - g_x^2 != 0 (W3-degenerate members excluded). STAMPS: field census, registered alphabet, per-branch as labeled, quadratic-class density, GENERIC + KMOD0-level-set, GENERIC nondegeneracy, backgrounds symbolic",
+   "kind": "substantive",
+   "name": "G3_masses_per_locked_class",
+   "passed": true
+  },
+  {
+   "detail": "[recording row -- the explicit Slice-2b comparison, alphabet-stamped] The banked Slice-2b POINTWISE/field-census massless theorem is stamped: BASE arena, NO-moduli-jet response alphabet, quadratic class, a_F != 0 (atlas premise), survivors {E0 = 0} massless under all four branches. THIS PUSH: (i) EXTENDS that theorem at the REGISTERED m-jet alphabet: for every response with no linear m-jet content (G2a) and every interior-locked configuration at a_F(lock) != 0 (P1-triad; any branch at a nonzero locked value -- parity-excluded for lam anyway) the massless verdict PERSISTS (G2d); linear-jet content makes it MEMBER-CONDITIONAL with the exact condition derived (G2i). (ii) POPULATES the premise-failure slot Slice-2b explicitly did NOT cover (a_F = 0 landing, Route P A1: UNDERIVED on banked footing): the P1-4D locked landing admits the p == 0 massive class (G2e/G2g) -- NOT a supersession (no banked statement is contradicted: the banked stamps excluded this slot) and NOT covered by the banked massless theorem (its a_F != 0 premise fails there BY the parity forcing). The banked INTEGRATED-branch results are untouched (constant census -- not this push's domain). F-G6: no contradiction anywhere; the stamps did their job",
+   "kind": "citation-guard",
+   "name": "G3_slice2b_comparison_record",
+   "passed": true
+  },
+  {
+   "detail": "[typing row -- TG-4, wall behavior under the odd forcing] (1) lam, k_mod vanish at both walls (derived values; even jets lam'', k_mod'' also wall-vanishing by oddness; odd jets lam', k_mod' free there). (2) WALL-LOCALIZED m-VARIATION: an interior plateau at value v != 0 with wall-vanishing transition layers is the generic shape of a nonzero odd profile; for NO-JET members the rows give such profiles NO dynamics on row-degenerate strata (free directions, G2k(a)) and FORBID them on the massive p == 0 class (lam == 0 forced everywhere, G2f -- no plateau at v != 0 coexists with that class); for JET-CARRYING members the transition layer obeys the derived row ODEs (G2k(b): lock forced on constant-field backgrounds; general layer profiles TYPED -- solution-level work beyond scope). (3) N3 wall slots: odd-sector v_m slots parity-killed (G3b); v_m' slots survive; k10/C per supplied branch; varied-boundary fork inherits the moduli wall terms (Route D J05 leg, cited). (4) corners/completion: inherited TYPED (J07/J08/J11 as banked). No interaction/force language (F-G5)",
+   "kind": "citation-guard",
+   "name": "G4_wall_behavior_typing",
+   "passed": true
+  },
+  {
+   "detail": "[recording row -- TG-5; full text in DECISION_SURFACE_UPDATE.md] CENSUS-FORK IMPLICATION MAP (map facts, nothing adopted): the field census with the registered jet alphabet is now DERIVED to be neither cleanly dissolution-shaped nor cleanly exclusivity-shaped: it is MIXED PER PAIRING BRANCH -- P1-triad locked sector massless (exclusivity-shaped leg); P1-4D locked landing carries a massive class under 3 of 4 labeled branches with the lock EMERGING from the rows (dissolution-shaped leg), conditioned on (a) supplied f/bh wall data leaving a slope free, (b) no obstructing linear m-jet response content (exact condition derived), (c) M-WALL dissenting at 0, (d) the class's p0 == 0 degeneracy (depth identically at the seal value) being completion-admissible -- typed OPEN. The Slice-2b constants-side massive locus {I_p = 0, E0 > 0} has NO locked-interior field-census correspondent on P1-branches at a_F != 0 (E0 = 0 forced there); its nearest correspondent is the P1-4D landing class (different mechanism-free locus, different M-WALL verdict). STOP-CLAUSE (honest): the finding is NOT merely confirmatory (a previously-underived slot is populated, and constancy EMERGES rather than being imposed) -- it is flagged to Charles; but no premise of step (2) (the angular completion) is invalidated, and step (2) supplies exactly the data this result is conditioned on (k10/C parity branch, wall/angular completion, the supplied f/bh parities): the assessment is CONTINUE-WITH-FLAG; the stop decision is Charles's",
+   "kind": "citation-guard",
+   "name": "G5_decision_map_and_stop_clause",
+   "passed": true
+  }
+ ],
+ "checks_guards": 4,
+ "checks_substantive": 23,
+ "checks_total": 27,
+ "checks_verifier_credited": 6,
+ "contract": "PREREGISTRATION.md (frozen)",
+ "outcome_class": "OG3 (mixed/conditional -- exact conditions delivered; contains an OG1-shaped leg [P1-4D landing massive locked class, M-WALL dissenting, wall-data-, member- (full locked-row condition, AM-1) and nondegeneracy- (GENERIC Delta_G != 0, AM-2) conditional] and an OG2-shaped leg [massless persists at the new alphabet for quadratic-at-lock responses at a_F(lock) != 0])",
+ "package": "udt_p4_gradient_seat_2026-07-29"
+}

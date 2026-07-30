@@ -1,0 +1,16 @@
+[VPASS] V1_ibp_rows_wall_slots -- R_mu = full 2nd-order Euler op; N3 slots as stated
+[VPASS] V2_weight_single_new_term -- general rule: E_full - E_const = -lam' d2S/(dlam du'); anchored member = the stated term; lam-row algebraic a_F' p0 W Ltil; k_mod row vacuous
+[VPASS] V3_lock_reduction_extended_set -- verifier's LARGER quadratic set (all lam/k_mod jet quadratics) also vanishes at lock
+[VPASS] V4_landing_affine_and_split -- affine atlas unique (GENERIC solve); lam-row 2 p0 LtG; poly split {LtG=0} U {p==0}
+[VPASS] VC1_degenerate_G_probe -- COUNTER-COMPUTATION: gf=gh=gx=1 (Delta_G=0): f''=1, h''=-1 solves the f/h rows -- affine atlas NOT forced at degenerate (f,h) block; landing claims need the nondegeneracy (Delta_G != 0 / W3-exclusion) stamp explicit
+[VPASS] V5_lock_emergence_functions_route -- on p==0, f/h affine, lam(x) ARBITRARY Function: delta_p S = 2 lam(x) Ltil_fh vp(x) exactly (no boundary piece: dS/dp1 prop p1 = 0) => lam(x) == 0 forced wherever Ltil_fh != 0 -- emergence confirmed on the general field, functions-of-x route
+[VPASS] V6_massive_witness_all_rows_energy -- p==0/affine/lam==0/k_mod=kappa sin: all five rows 0; E = Ltil_fh(f1,h1) generically nonzero, symbolic
+[VPASS] V7_parity_solves -- odd wall value = 0; both-wall-odd affine killed; sin witness exactly odd about BOTH walls (consistent w/ Route-P 'forced ODD about the wall' + CANON fold-at-seal)
+[VPASS] V8_linear_jet_witnesses -- B=f0 obstructs (locked row -f1); B=h1 f0 - f1 h0 admits (all rows 0 on the same massive witness); both pass Route-D exclusions: local jet arguments, no bare p0, no nonlocal/absolute-point entries; f0/h0 are banked Slice-2b response arguments
+[VPASS] VC2_mpp_field_coupled_probe -- COUNTER-COMPUTATION: S = W(LtG + (f0^2/2) m'') has locked lam-row = f1^2 != 0 on the massive witness while the package's stated 'EXACT GENERAL CONDITION' (B-terms only) is vacuously satisfied -- the condition as PHRASED is complete only for m'-linear content; m'' field-coupled content adds Dx^2(W_F C)|lock (present in G2b's closed form, typed in G2j, but absent from the 2.3/JR5/DSU(b) formula)
+[VPASS] V9_ostrogradsky_first_integral -- Dx(E_ext) = -sum u' E_a - m' R_m identically (M-GEN available on the jet alphabet)
+[VPASS] V10_jet_quadratic_and_tuned -- p-row factor lam lam'^2 (lock forced on constant-field bg, w/ continuity); tuned branch admitted iff Ltil_fh = -c beta^2/2 with E_ext = 0 exactly; parity kills beta
+[VPASS] V11_triad_prow_kill_and_E_density -- at p==0 affine the p-row = a_F Ltil_fh = Ltil_fh => E0 = 0 (escape killed); E-density = W Ltil on the quadratic class, so the locked lam-row a_F' p0 W Ltil = 2 p0 E-density -- the '2 E0 p0(x) = 0' reading confirmed independently
+[VPASS] V12_masses_landing -- V = 2 ell; M-DENS-proper = M-DENS-coord = M-GEN = 2 ell E0; M-WALL = a_F * M-GEN = 0 at a_F = 0 (banked divergence law, consistent) and [pi_p] = 0 at p1 == 0
+
+VERIFIER RESULT: all independent checks + counter-probes as labeled PASS
