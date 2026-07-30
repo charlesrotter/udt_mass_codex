@@ -1,0 +1,74 @@
+== S0: banked recomputes (Route P family; conventions verbatim) ==
+[PASS] [substantive] S0_P_antidiagonal_forced_recompute
+        PH+HP=0 kills the diagonal entries; the banked antidiag(p,1/p) satisfies it (07-29).
+[PASS] [substantive] S0_branch_involutions_and_dets
+        S_b^2 = s0^2 I (involution at s0=+/-1); det(+/-I)=+1 (branch a), det S_b=-s0^2=-1 (branch b): det S is the branch invariant.
+[PASS] [substantive] S0_R_space_dim2_recompute
+        RP+SR=0 leaves exactly a 2-parameter R per branch (banked TC_R_solution_space_dim_2).
+[PASS] [substantive] S0_K4_elements_recompute
+        Klein four-group as banked (Route B A1); R12*R13=R23.
+[PASS] [guard] TA1_banked_state_ledger
+        07-20: MULTIPLE_COMPLETIONS, angular selector 'not supplied' (X01/X02/X03). Route P: remaining freedom = branch {(a),(b)} x calibration (p, s0/sigma, s1) x R (2-dim). This package interrogates S-A..S-F for the selector.
+== S-B: toric realization interrogation (all steps conditional on R-A) ==
+[PASS] [substantive] SB1_closer_lattice_involutions_enumerated
+        Signed permutations of the closer lines with M^2=I: exactly 6 = {+-I, +-D, +-W} (antidiag(a,b) squares to ab*I, so only ab=+1 survives).
+[PASS] [substantive] SB2_in_family_lattice_actions
+        4 in-family lattice folds (V |-> +-V, Y |-> +-Y: M in {+-I, +-W} closer-basis); the 2 excluded are V |-> +-Y = the gate-(d) plane swap (ruler->screen mixing violates the forced Q=0 upper block — Route P TC_Q_block_zero_forced, cited).
+[PASS] [substantive] SB2b_in_family_actions_diagonal
+        In (V,Y) the four in-family folds are diag(eps_V, eps_Y), eps=+/-1.
+[PASS] [substantive] SB3_connection_parity_chain
+        iota*A = eps_A A with eps_A = eps_V forces f(iota(x)) = (eps_V/eps_Y) f(x) = eps_V*eps_Y*f(x) at eps = +-1: eps_f = eps_V*eps_Y — DERIVED per case.
+[PASS] [substantive] SB3b_curvature_pullback_consistency
+        d(iota*A) = iota*(dA): Route 1 (exterior derivative OF the pullback) and Route 2 (pullback OF the exterior derivative) computed independently agree in every case with f GENERIC (eps_f not substituted): the structure equations impose no further cut beyond eps_f = eps_V*eps_Y.  [A2: genuine two-sided computation]
+[PASS] [substantive] SB4_eps_bh_plus_one_all_cases
+        iota_*(Y - fV) = eps_Y (Y - fV) exactly in all four cases (uses eps_f = eps_V eps_Y and eps^2=1); norm quadratic + isometric identification (P0) => bh o iota = eps_Y^2 bh = bh: eps_bh = +1 for EVERY realized completion.
+[PASS] [substantive] SB5_cap_value_dichotomy
+        Two-cap c=1 members (f_cap = +1/-1 OPPOSITE, gate c): only the cap-EXCHANGING folds eps_f=-1 (M=+-W) are consistent; +-I contradict (+1 = -1). Same-closer doublings [A1: PACKAGE-INTRODUCED, UNREGISTERED class]: only eps_f=+1 (M=+-I) consistent. Exact dichotomy. [A4] the f_c != 0 assumption on the same-closer side is CLOSED by the f-free cap-cycle argument (AM4 below); independent alternative closure: banked Tc1_fcap_registered (f_cap = +-1 EXACTLY at genuine caps, so f_c != 0 is banked at any genuine cap).
+[PASS] [substantive] [verifier-credited] AM1_same_closer_unimodularity_failure
+        det(w, w) = 0 identically (ANY same-cycle cap pair fails the banked unimodular two-cap condition det = +-1 -> S3), while the banked two-cap closers (c1, c2) are unimodular (det = 1, Tc1_cap_cycle_coords recovered): the same-closer class is PACKAGE-INTRODUCED, UNREGISTERED, OUTSIDE the registered R_t x S3 arena (S2xS1-type completion). Zero-residual adoption of the verifier's demonstration.
+[PASS] [substantive] [verifier-credited] AM4_cap_cycle_dichotomy_f_free
+        Two-cap members: end-exchange forces closer-line-1 |-> closer-line-2 — among the in-family folds exactly M = +-W exchange the closer lines; +-I fix them: the two-cap half of SB5 with NO f condition. Same-closer doublings (both ends cap the SAME closer-type cycle): M must FIX that closer line — exactly M = +-I; +-W excluded: the same-closer half with NO f_c != 0 condition. The whole SB5 dichotomy reproduced f-free (verifier's argument, adopted).
+[PASS] [substantive] SB6_crease_codimension_per_case
+        Fixed-set dimensions in the 3-space: (+,+): 2 (codim-1 SURFACE — the canon crease); (+,-) and (-,+): 1 (codim-2 circle-type); (-,-): 0 (isolated points). CANON's pointwise-fixed SURFACE (R-C) selects M = I, i.e. (eps_V,eps_Y)=(+,+), UNIQUELY among realized folds.
+[PASS] [substantive] SB6b_orientation_codim_consistency
+        det(d iota)|spatial = (-1)^codim(fixed set) in every case — the S-D orientation datum and the crease codimension are one chain.
+[PASS] [substantive] SB7_realized_screen_blocks
+        S_real = diag(-1, eps_Y): eps_Y=+1 => diag(-1,1) = branch (b) (s0=-1, s1=0); eps_Y=-1 => -I = branch (a) sigma=-1. Both in-family (J^2=I with R=0 checked next).
+[PASS] [substantive] SB7b_J_real_involution_branch_b
+        J_real^2 = I exactly (R=0 solves RP+SR=0; realized folds are block-diagonal because Killing directions map to Killing directions under R-A — no base->screen mixing: R = 0 DERIVED under R-A).
+[PASS] [substantive] SB7b_J_real_involution_branch_a
+        J_real^2 = I exactly (R=0 solves RP+SR=0; realized folds are block-diagonal because Killing directions map to Killing directions under R-A — no base->screen mixing: R = 0 DERIVED under R-A).
+[PASS] [substantive] SB8_s1_zero_basis_robust
+        Conjugating diag(-1,1) by a screen rotation gives upper entry -sin(2 theta): lower-triangularity (in-family) forces sin(2 theta)=0, i.e. the realized S stays axis-diagonal (s1=0) in every admissible screen basis; det = -1 is basis-invariant, so the BRANCH verdict is basis-robust.
+[PASS] [substantive] SB8b_K4_flips_s0_not_branch
+        R23∘J maps the realized branch-(b) member diag(-1,1) to diag(1,-1) (still an involution, still branch (b), s1=0): s0's sign is K4-gauge; the branch is invariant (Route P K4-honesty cited for the no-branch-flip theorem: R12∘J, R13∘J square to non-scalar and are not involutions).
+[PASS] [substantive] [verifier-credited] AM3_RA_implies_P2_nesting
+        R-A ==> P2: both realized J_real are in-chart members of Route P's dressing family (S_real in the branch set; R=0 solves RP+SR=0; J_real^2=I) — under R-A the fold IS chart-representable member-to-member, i.e. P2 HOLDS. So R-A is strictly STRONGER than P2 (P2 does not imply R-A); not-P2 ==> not-R-A; granting R-A discharges eps_kmod's P2-conditionality (eps_kmod = -1 becomes R-A-unconditional); Route P's chart-escape witness doubles as a not-R-A escape witness. (Verifier's derivation, adopted as a check.)
+== TA-3: induced parities ==
+[PASS] [substantive] TA3_k10_parity_realized
+        Realized branch (b) (s1=0): k10~ = +k10 (eps_k10 = +1, EVEN — the branch-(b) shear term vanishes at s1=0); realized branch (a): k10~ = -k10 (ODD). Diagonal: lambda, k_mod odd in both (banked family-uniform facts recovered).
+[PASS] [substantive] TA3_C_action_realized_2even_2odd
+        C~ = -SCP^-1 at the realized member: per-row involutions with charpoly (x-1)(x+1) each => exactly 2 EVEN + 2 ODD combinations (banked signature recovered) — and the calibrated BASIS is now explicit: EVEN: {c01 = +p c00}, {c11 = -p c10}; ODD: {c01 = -p c00}, {c11 = +p c10}; p remains FREE (the base block is not point-realized — the eta-readout caveat travels).
+[PASS] [substantive] TA3_C_calibrated_basis_eigenvectors
+        Row-0 even eigenvector (1, p), odd eigenvector (1, -p): the p-dependent basis Route P called the missing calibration, now pinned up to the free p.
+[PASS] [substantive] TA3_E07_member_map_branch_b
+        E07 member k |-> -k (k_mod odd, family-uniform — banked fact recovered at the realized member).
+[PASS] [substantive] TA3_E07_member_map_branch_a
+        E07 member k |-> -k (k_mod odd, family-uniform — banked fact recovered at the realized member).
+[PASS] [substantive] TA3_E08_image_ruler_sourced
+        The realized fold maps the E08 member (clock-sourced screen shift c00=s) to the RULER-sourced shift c01 = p s: the E08 stratum is NOT fold-invariant — its image is the mirrored mixing member (consistent with the base-block clock/ruler swap and the C row-0 map).
+== TA-4: condition (a) per realized outcome ==
+[PASS] [substantive] TA4_affine_parity_lemmas
+        Affine field EVEN about both walls: slope f1=0 forced, value free; ODD about both walls: killed entirely (f0=f1=0) — the gradient-seat lemma recomputed.
+[PASS] [substantive] TA4_condition_a_E0_collapse_all_realized
+        In EVERY realized outcome both f and bh carry DEFINITE parities => f1 = h1 = 0 on the massive landing class's affine members => E0 = L~_fh(0,0) = 0 exactly: the gradient-seat cutting condition (a) FIRES conditional on R-A. The free-slope survival route is exactly ¬R-A (non-realization) — carried, not judged.
+[PASS] [substantive] TA4_SF_wall_slot_parity_table
+        Parity-killed slots: eps=-1 forces v=0 (odd-sector slots killed: the banked v_p kill and, on realized outcomes with eps_f=-1, the f-slot); eps=+1 leaves the slot free (even sector: f/bh VALUE slots survive at the wall, slopes die on the affine class). No contradiction with the banked N3 census (Route D).
+[PASS] [guard] FA2_silence_not_converted
+        The non-realized branch (¬R-A) is carried as SILENT: no selector claimed there; the 07-20 'selector not supplied' remainder stands, sharpened to the single typed premise R-A (strictly stronger than P2 — the A3 nesting).
+[PASS] [guard] FA4_per_class_statements
+        All consequences stated per completion class (two-cap c=1 BANKED vs same-closer PACKAGE-INTRODUCED/UNREGISTERED [A1]) and per census branch/pairing; none adopted; no step-(3) pre-emption.
+[PASS] [guard] FA3_stamps
+        Stamps on every claim: registered chart; banked stationary arena (R_t x S3 / R x T2 stratum); premise ladder P0 + R-A(TYPED; ==> P2 [A3]) + R-B(per-class; same-closer UNREGISTERED [A1]) + R-C(reading) + R-D(R_t x T2-identity-component scope; S08 corner banked-OPEN [A5])/R-E; K4 quotient; eta-readout caveat on any Lorentz statement; p free. [A1 was the verifier's F-A3 catch — the TENTH of the named scope class; now stamped at every site.]
+
+== SUMMARY: 34 checks = 30 substantive + 4 guards; failures: 0 ==

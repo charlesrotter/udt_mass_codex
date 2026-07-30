@@ -1,0 +1,83 @@
+{
+ "amendment": "A1-A5 applied per CORRECTION_LAYER.md (2026-07-30, post-verifier; verdict PASS-WITH-REQUIRED-AMENDMENTS). A1: the same-closer class is PACKAGE-INTRODUCED, UNREGISTERED, outside the registered R_t x S3 arena (AM1: det(w,w)=0 fails the banked unimodular two-cap condition); every claim riding it rescoped. A2: SB3b re-implemented genuinely (two independent routes). A3: R-A ==> P2 nesting (AM3). A4: f_c != 0 gap closed f-free (AM4; Tc1_fcap_registered cited as alternative). A5: R-D scoped to the registered R_t x T2 identity component; S08 corner banked-OPEN. No pre-amendment computed claim changed.",
+ "checks": {
+  "AM1_same_closer_unimodularity_failure": "PASS",
+  "AM3_RA_implies_P2_nesting": "PASS",
+  "AM4_cap_cycle_dichotomy_f_free": "PASS",
+  "FA2_silence_not_converted": "PASS",
+  "FA3_stamps": "PASS",
+  "FA4_per_class_statements": "PASS",
+  "S0_K4_elements_recompute": "PASS",
+  "S0_P_antidiagonal_forced_recompute": "PASS",
+  "S0_R_space_dim2_recompute": "PASS",
+  "S0_branch_involutions_and_dets": "PASS",
+  "SB1_closer_lattice_involutions_enumerated": "PASS",
+  "SB2_in_family_lattice_actions": "PASS",
+  "SB2b_in_family_actions_diagonal": "PASS",
+  "SB3_connection_parity_chain": "PASS",
+  "SB3b_curvature_pullback_consistency": "PASS",
+  "SB4_eps_bh_plus_one_all_cases": "PASS",
+  "SB5_cap_value_dichotomy": "PASS",
+  "SB6_crease_codimension_per_case": "PASS",
+  "SB6b_orientation_codim_consistency": "PASS",
+  "SB7_realized_screen_blocks": "PASS",
+  "SB7b_J_real_involution_branch_a": "PASS",
+  "SB7b_J_real_involution_branch_b": "PASS",
+  "SB8_s1_zero_basis_robust": "PASS",
+  "SB8b_K4_flips_s0_not_branch": "PASS",
+  "TA1_banked_state_ledger": "PASS",
+  "TA3_C_action_realized_2even_2odd": "PASS",
+  "TA3_C_calibrated_basis_eigenvectors": "PASS",
+  "TA3_E07_member_map_branch_a": "PASS",
+  "TA3_E07_member_map_branch_b": "PASS",
+  "TA3_E08_image_ruler_sourced": "PASS",
+  "TA3_k10_parity_realized": "PASS",
+  "TA4_SF_wall_slot_parity_table": "PASS",
+  "TA4_affine_parity_lemmas": "PASS",
+  "TA4_condition_a_E0_collapse_all_realized": "PASS"
+ },
+ "checks_verifier_credited": [
+  "AM1_same_closer_unimodularity_failure",
+  "AM4_cap_cycle_dichotomy_f_free",
+  "AM3_RA_implies_P2_nesting"
+ ],
+ "condition_a_adjudication": "DEFINITE (eps_f, eps_bh) in EVERY realized outcome => E0 = 0 on the massive landing class (computed); UNAFFECTED by A1 \u2014 fires in BOTH completion classes, banked and unregistered (verifier-confirmed: 'fires in every realized outcome, both classes'). Free slope survives EXACTLY on \u00acR-A. No census or pairing adopted; P1-triad constants-census certificate (a_F=1) untouched (typed).",
+ "counts": {
+  "failures": 0,
+  "guards": 4,
+  "substantive": 30,
+  "verifier_credited": 3
+ },
+ "induced_parities": {
+  "non_realized (\u00acR-A)": {
+   "C": "calibration open",
+   "eps_bh": "SUPPLIED-free",
+   "eps_f": "SUPPLIED-free",
+   "eps_k10": "branch-open (07-20 remainder)"
+  },
+  "realized_canon_crease (M=I; branch b, s0=-1 mod K4, s1=0, R=0, p free)": {
+   "C": "2 even {c01=+p c00, c11=-p c10} + 2 odd {c01=-p c00, c11=+p c10} [explicit D3 basis rides the UNREGISTERED class, A1]",
+   "completion_class": "same-closer doubling ONLY \u2014 PACKAGE-INTRODUCED, UNREGISTERED, outside the registered R_t x S3 arena (det(w,w)=0, AM1): NO banked complete member realizes this outcome [A1]",
+   "eps_bh": "+1 (even)",
+   "eps_f": "+1 (even)",
+   "eps_k10": "+1 (EVEN \u2014 constant k10 NOT parity-killed) [rides the UNREGISTERED class, A1]"
+  },
+  "realized_setwise_two_cap (M=+-W; branch a sigma=-1 [W] or b [minus W])": {
+   "completion_class": "two-cap c=1 (the BANKED complete class); crease only setwise (codim-2 fixed set \u2014 violates the R-C pointwise reading)",
+   "eps_bh": "+1 (even)",
+   "eps_f": "-1 (odd)",
+   "eps_k10": "-1 on (a) / +1 on (b)"
+  }
+ },
+ "outcome_class": "OA2 (constrained to an exact family) carrying a CONDITIONAL OA1 core under the typed realization premise R-A \u2014 the OA1 core's conditionality set post-A1: {R-A, R-C-pointwise, an UNREGISTERED same-closer completion class}; OA3 restatement on \u00acR-A (missing datum = R-A itself, sharpening 07-20's smallest missing object)",
+ "schema": "udt-p4-angular-completion-1.0",
+ "selector_verdicts": {
+  "S-A_canon": "CONSTRAINS \u2014 supplies the isometric-Z2 fold and the fixed-SURFACE crease datum (R-C); no branch selection alone",
+  "S-B_hopf_toric_caps": "DERIVES-(b) CONDITIONAL on R-A + R-C + [A1] an UNREGISTERED completion class: branch (b), s0=-1 (mod K4 R23 flip), s1=0, R=0, p free; per completion class: the BANKED c=1 two-cap class admits NO codim-1-crease in-family realization (only the codim-2 +-W class, eps_f=-1); the canon-crease fold (eps_f=+1) lives ONLY on the PACKAGE-INTRODUCED, UNREGISTERED same-closer class (outside the registered R_t x S3 arena, AM1). R-A ==> P2 (AM3). \u00acR-A: SILENT",
+  "S-C_SO2_K4_cocycle": "CONSTRAINS (no K4 branch flip \u2014 banked; s0 sign is gauge; s1=0 basis-robust); SILENT on branch selection",
+  "S-D_orientation": "CONSTRAINS \u2014 det(d iota) = (-1)^codim chain is the codim-1 => M=I forcing leg inside S-B; det J_real=+1 on realized branch (b); eta-readout caveat travels",
+  "S-E_E07_E08_composition": "SILENT on selection \u2014 E07 k|->-k both branches; E08 maps to the ruler-sourced mixing member (stratum not fold-invariant; consistent)",
+  "S-F_wall_slots": "SILENT on selection; parity slot table consistent with the banked N3 census"
+ },
+ "sharpened_tension": "{R-A, R-C-pointwise, banked-complete membership} jointly unsatisfiable \u2014 under R-A with the pointwise crease reading, NO banked complete member realizes the canon fold. Escape routes: not-R-A; the setwise crease reading (-> +-W, parities still definite); or registering a new completion class (none exists in the bank)."
+}
