@@ -512,3 +512,31 @@ core derivation CONFIRMED sound and honestly scoped.
 **Provenance:** `simple_metric_dS_native_any_alpha_closed_results.md`; banked dS negative in `udt_phi_blindness_relaxation_results.md` §2.
 **Banked 2026-07-09 (walk-back of prior Thread-B→dS wording).**
 
+
+## C-2026-07-30-1 — SPLIT reading of C-2026-06-10-2 (finiteness kept; mirror-closure re-tagged; ruled by Charles)
+
+**Statement:** C-2026-06-10-2 is henceforth read as THREE separable layers with distinct standing:
+1. **FINITENESS of cells — KEPT** (multiply-anchored: Charles's founding Prompt 2, the WR-L
+   finite-proper-room result, the 07-18 finite-cell gates; sharpest form per C-2026-07-09-1a:
+   a causal horizon with a trapped interior beyond, not a wall of space). Deriving x_max
+   itself remains on hold (G14).
+2. **The MIRROR-CLOSURE clause ("mirrored across φ→−φ" as cell closure) — re-tagged
+   OWNER-RATIFIED-PROPOSAL, working premise, NOT derived and NOT repealed.** Provenance:
+   `udt_mirror_canon_provenance_audit_2026-07-30/` — the derived content is the day-one
+   seam-BRIDGE (negative_phi_native_geometry §235); the promotion of that bridge into a
+   closure clause crossed the adoption-day record's own bridge-vs-closure line
+   (weld_two_sided_results :39-41) and was never separately surfaced. Conditionality
+   stamps travel to consumers via the banked CONSUMER_LEDGER (FALLS=2, DEGRADES=9+).
+3. **ε_φ = −1 is canon-DEFINITIONAL wording**, not a derived value.
+
+Owner clarifications recorded same day: Theory Rule 5's "STATIC" = non-expanding only (not
+finiteness); the Rule-5 input list is historical (current working anchors per Charles:
+m_proton, ħ, T_CMB or T_starlight; c and G may return, e.g. CMB work).
+
+**Authorized next: option (d) — derive what closure the seam actually forces** (candidates
+located in the provenance package; the banked angular-completion unsatisfiability is a
+standing falsifier; x_max must not be silently derived or adopted in that push).
+
+**Provenance:** `udt_mirror_canon_provenance_audit_2026-07-30/` (PROVENANCE_REPORT,
+CONSUMER_LEDGER, REGRADE_OPTIONS, CORRECTION_LAYER incl. the owner clarifications).
+**Ruled by Charles 2026-07-30 ("(c) now, (d) next").**

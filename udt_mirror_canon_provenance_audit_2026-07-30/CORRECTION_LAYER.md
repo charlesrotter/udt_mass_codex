@@ -85,3 +85,17 @@ same shape of gap, found independently at the origin (2026-06-10) and at the fro
   inverting to the survival branch).
 - The **four options' structure** (a/b/c/d; no recommendation; the owner rules) — option (d)
   only GAINS candidates.
+
+## Owner clarifications (Charles, 2026-07-30 — applied by the driver)
+
+1. **Theory Rule 5's "STATIC" means NON-EXPANDING only** — it is not a finiteness statement.
+   The report's use of Rule 5 as a finiteness leg (and the "no beyond" gloss) is WITHDRAWN.
+   Finiteness's anchor set is accordingly: Prompt 2 (owner-originated, 2025-08-12: the
+   asymptotic universe boundary), the WR-L finite-proper-room result (derived, mirror-free),
+   and the 07-18 finite-cell gates (mirror-free) — still multiply-anchored, one leg fewer.
+   Note: deriving x_max itself remains ON HOLD (G14 WORKING; value/pairing underived).
+2. **The Rule-5 input/anchor list is HISTORICAL** (era-specific). Owner's current working
+   set (2026-07-30): m_proton, ħ, T_CMB or T_starlight; c and G may return (e.g. CMB work).
+   No current P4 result rides the old list.
+3. With these clarifications Charles ruled: **option (c) SPLIT-AND-KEEP now, option (d)
+   DERIVE next.**
