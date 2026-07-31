@@ -46,14 +46,22 @@ finite time-cell: walls would be SPACELIKE); static ℛ_PW EMBEDS as the tangent
 restriction. **THE NEW LOAD-BEARING FORK (verifier-forced): LOCK-READING {coordinate,
 projected} — coordinate ⇒ the drift block N is an IRREDUCIBLE new DOF (T2's R_N slots =
 physical content); projected ⇒ N is pure gauge on the registered chart; canon is silent
-shift-on, nothing banked decides, BOTH branches travel.** **CHARLES: GO (2026-07-31) — STAGE T2 LAUNCHED** (contract
-`udt_p4_timelive_stage_T2_2026-07-31/PREREGISTRATION.md`): the pointwise reduction
-time-live — ℛ_PW^T parametrized per lock-reading branch (BOTH in full, neither
-abbreviated; fork resolution by convenience = a named falsifier), the static ℛ_PW's fate
-computed (embed/deform/lose members), the Noether identity strata re-derived, the
-φ-dependence forcing re-derived time-live; C-1 static recovery must hit the banked Stage-2
-parametrization exactly; no cycle content (T3's contract); resonance-locus contacts
-stamped OPEN-PENDING-CENSUS. BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
+shift-on, nothing banked decides, BOTH branches travel.** **STAGE T2 BANKED (fdae2dc; VERIFIED → single amendment → SAME-verifier CLOSED, upgraded
+to PASS; OU-1): THE TIME-LIVE POINTWISE LAYER CLOSES.** Headlines: the φ-forcing INTACT
+(shift-equivariance alone still forces Q=c_E·e^{−φ}; no new φ-channel; bare t excluded — a
+new derived gate); COORDINATE branch: ALL THREE R_N (drift) slots SURVIVE every re-posed
+pointwise requirement as physical content (K₄-trivial FORCED, T-odd — the EH-form's ti-row
+carries exactly this parity); PROJECTED branch: R_N pure chart-slack, same depth. **THE
+HEADLINE MAP FACT (verifier-stress-tested): ℛ_PW^T has the SAME module parametrization on
+both lock-reading branches — the fork changes the R_N sector's READING, not the pointwise
+shape ⇒ the fork's decision is safely deferrable past the pointwise layer** (stratum
+qualifier travels). Static ℛ_PW EMBEDS EXACTLY; the k_mod=0 Noether identity EXTENDS
+VERBATIM (still the only codim-1 cut, verifier re-ran the elimination); C-1 static recovery
+EXACT; resonance locus OPEN-PENDING-CENSUS. ON CHARLES'S DESK: **the Stage T3 go — THE
+CYCLE/COMPLETION CENSUS WITH TIME (the bridge hope's honest test: does the time direction
+create new cycles, and do any carry both integer conditions and the massive structure —
+maximum anti-targeting, the period-gate discipline; runs per topology branch × lock-reading
+branch)**; its contract drafts on his go. BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
 the R1 menu; the queued tiles (resonance census = verifier-required precondition;
 index-exactly-1 numeric; hopfion-bridge at driver discretion; the named unrun seats incl.
 the cycle+pin completion — the only named spatial road to marrying integers and mass).
