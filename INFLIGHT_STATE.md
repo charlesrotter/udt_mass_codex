@@ -35,10 +35,8 @@ is unstarted or in flight):**
 
 **NEXT MICRO-STEP — STAGE A2 PIPELINE (Charles: "A2 go"):**
 - A2-p1 DONE — prereg committed (`udt_p4_angular_stage_A2_2026-07-31/PREREGISTRATION.md`).
-- A2-p2 IN FLIGHT — derivation agent (chunked; TP2-stages banked to disk in order; if it
-  dies, resume from the first missing stage, same contract).
-- A2-p3 PENDING — blind adversarial verifier (φ-forcing + R_m survivals hardest; C-1 own
-  parser; findings banked incrementally).
+- A2-p2 DONE — derivation banked (OA2-1; 38/38 = 27S+11G; φ-forcing mode-uniform; both R_m slots survive (coordinate); reading-independence angular analog DERIVED; ℛ_PW^T embeds exactly at mode zero; identity verbatim; C-1/C-2 exact; NEW conditional finding P3b: the granted-mirror layer reaches mode zero, cuts R_f=Q where granted — a decision SEAT only).
+- A2-p3 IN FLIGHT — blind adversarial verifier (φ-forcing + R_m survivals + P3b hardest; C-1 own parser; findings banked incrementally to disk).
 - A2-p4 PENDING — amendments + SAME-verifier closure.
 - A2-p5 PENDING — driver four-check → pytest → bank commit+push → LIVE/arc-summary/memory
   close-outs. Then A3 needs Charles's go.
