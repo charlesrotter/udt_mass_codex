@@ -1,0 +1,238 @@
+{
+ "date": "2026-07-31",
+ "contract": "PREREGISTRATION.md",
+ "checks": [
+  {
+   "name": "SA1_second_variation_assembly",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "d^2/deps^2 of e^{aF(lam)p}Ltilde == hand-assembled joint quadratic form density (fields+lambda), generic base point, zero residual"
+  },
+  {
+   "name": "SA2_onshell_euler_rows",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "atlas member (w quadratic, f'=c/(g w)) solves the p-row and f/h-rows exactly (banked, recomputed)"
+  },
+  {
+   "name": "SA3_lambda_row_is_E0_Ip",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "on-shell dS/dlam integrand == a_F' * p * E0 exactly => first variation in lambda = a_F'*E0*I_p = 0 on {I_p=0} (banked tie, recomputed)"
+  },
+  {
+   "name": "SA4_WL_is_E0_onshell",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "W_F*Ltilde == E0 pointwise on-shell (banked identity, recomputed)"
+  },
+  {
+   "name": "SA5_fh_completion_identity",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "fh sector completes: destabilizing channel = f/h momentum coupling, potential -a_F^2*sigma*v^2/w; pure square remainder"
+  },
+  {
+   "name": "SA6_pure_depth_positive_Dirichlet",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "pure-depth cross+mass terms are an exact total derivative => Q_pp = bdy + int g_p w v'^2 >= 0: depth alone cannot destabilize"
+  },
+  {
+   "name": "SA7_exact_solution_v1",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "L v1 = 0 exactly, v1 = w'/w (x-translation zero mode of the reduced operator)"
+  },
+  {
+   "name": "SA8_exact_solution_v2",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "L v2 = 0 exactly, v2 = E0 - sigma/w (energy-modulus direction); Dirichlet spectrum decidable from (v1,v2)"
+  },
+  {
+   "name": "SA9_wronskian_constant",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "reduced Wronskian gp*w*(v1 v2' - v2 v1') is the constant E0**2*a_F**2 (nonzero iff E0 != 0): (v1,v2) a fundamental system on massive members"
+  },
+  {
+   "name": "SC1_control_constants_form",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "about the E0=0 constants member the joint form is EXACTLY W0*(gp vp'^2+gf vf'^2+gh vh'^2): PSD (SOS, definite class); kernel = all 0-jet shifts (p,f,h consts) + FULL moduli sector (mu and k_mod/k10/C absent from the form) = the banked flat directions. CONTROL PASS"
+  },
+  {
+   "name": "SC2_control_constants_lambda_flat",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "lambda direction exactly flat at E0=0 (tie vacuous there, banked) \u2014 reproduced; massive members have mu^2-coefficient aFp^2*p0^2*W*Lt >= 0"
+  },
+  {
+   "name": "SC3_lambda_diagonal",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "mu^2 coefficient == aFp^2*p0^2*W*Ltilde pointwise; on-shell = aFp^2*E0*pbar^2 => C = aFp^2*E0*int pbar^2 > 0 on nonconstant massive members (E0>0)"
+  },
+  {
+   "name": "SC4_B_identity_pointwise",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "B-integrand on the (v2, matched-fh) pair == aFp*(E0*v2 + aF*E0^2*pbar) POINTWISE => B = aFp*(E0*int v2 + aF*E0^2*I_p) = aFp*E0*int v2 dx on the massive locus {I_p=0} (exact; every 1/w and 1/w^2 log-weighted term cancels)"
+  },
+  {
+   "name": "SC5_intv2_sign_bound",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "h(t)=log t - 1 + 1/t has h(1)=0, h'(t)=(t-1)/t^2 (sign of t-1) => h>=0, strict off t=1 [Category-A calculus, named]. With crease normalization sigma=E0 (w(crease)=sigma/E0=1): int v2 = E0*int(1-1/w) <= E0*int log w = aF*E0^2*I_p = 0, STRICT for nonconstant w => B = aFp*E0*int v2 < 0 strictly on every nonconstant crease-normalized massive member (structure fact; instability implication requires kernel realization \u2014 posture-dependent, see Stage B)"
+  },
+  {
+   "name": "SB1_crease_condition_identity",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "2A*w - w'^2 == (aF^2/gp)*(sigma - E0*w) pointwise on-shell: crease condition {w=1, 2Aw=w'^2} <=> {w(crease)=1, sigma=E0} => v2(crease)=0 AUTOMATICALLY"
+  },
+  {
+   "name": "SB2_double_crease_empty",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "w(+-l)=1 both => w1=0 and w-1 = A(x^2-l^2) < 0 strictly inside for A>0 (definite class, E0>0) => log w sign-definite => I_p != 0 [integral positivity, Category-A named]: the massive locus {I_p=0,E0>0} on the DOUBLE-CREASE (pure quotient) posture is EMPTY. No contradiction with the period gate (its quotient UNTOUCHED row is about PERIODS; this is a wall-trace fact)"
+  },
+  {
+   "name": "SB3_branch_footing",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "branch: w(-1)=1; w-1=(s^2/2)(x+1)(x-x2) with x2=2/s-1; disc=-s^2<0 (nodeless). Certified massive roots: s in (1,3) (banked C6b interval, cited)"
+  },
+  {
+   "name": "SB4_x2_interior_and_v2_signs",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "1-x2 = 2q/(1+q) > 0 (interior, strict); w(1)-1 = 2s(s-1) > 0 => v2(1) != 0; between the roots w<1 => v2 = E0(1-1/w) < 0 sign-definite (factorized quadratic, only roots -1 and x2). => Dirichlet solution from the crease has EXACTLY ONE interior zero"
+  },
+  {
+   "name": "SB5_branch_solutions",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "v1=w'/w and vt2=1-1/w solve Lt v=0 on the branch (aF^2*sigma = aF^2*E0 = s^2 at gp=1; overall E0 scale dropped)"
+  },
+  {
+   "name": "SB6_unconstrained_Dirichlet_index",
+   "pass": true,
+   "kind": "GUARD",
+   "detail": "vt2 is a sign-definite Dirichlet zero mode of [-1,x2]; STRICT domain monotonicity of the ground state + oscillation [Category-A, named] => n-(Dirichlet[-1,1]) = 1 EXACTLY. VERDICT: under supplied f/bh wall data FREE (fh traces free) x germ-Hessian-flat realized wall response (the banked witness responses B=0 and (q/2)rho have ZERO second germ - exact), the massive crease cell has EXACTLY ONE negative direction IN THE REDUCED SECTOR: UNSTABLE (OS-2 on this branch-pair; joint-space statement: index >= 1 exact, exactly-1 pending the lambda-Schur sign); the negative mode carries angular wall flux (nonzero v_f trace)"
+  },
+  {
+   "name": "SB7_no_kernel",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "vt2(1)=2s(s-1)/w(1)>0 and T[vt2]=w'(1)=s(2s-1)>0: Lt invertible on Dirichlet AND on the free-end (Robin w'v^2) space; free-end harmonic-extension split: Q(e)=T[vt2]/vt2(1)>0 => n-(free-end)=n-(Dirichlet)=1 (exact algebraic split, cross term vanishes)"
+  },
+  {
+   "name": "SB8_antiderivatives",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "int v1/w = [-1/w] and int vt2/w = [-w'/(s^2 w)] exactly (uses the on-shell identity w'^2 = s^2(2w-1) on the crease branch): every criterion integral is elementary except J = int dx/w (kept symbolic, J>0 by positivity)"
+  },
+  {
+   "name": "SB9_phiD_solves",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "phi_D = -1/s^2 - (1/s^3) v1 + [1/(s(s-1))] vt2 solves Lt phi = 1/w with phi(-1)=phi(1)=0 (exact; beta = 1/(s(s-1)) closed form)"
+  },
+  {
+   "name": "SB10_criterion_D_closed_form",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "<g, Lt_D^{-1} g> = -J/s^2 - 2/(s^2(s-1)) EXACTLY (all w(1)-terms cancel): manifestly < 0 for every s>1"
+  },
+  {
+   "name": "SB11_rank_one_rule_toy",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "toy L=diag(-1,1), g=e1: eigenvalues {tau0-1, 1}: n-(L+tau g g*)=0 iff 1 + tau<g,L^{-1}g> = 1-tau <= 0 \u2014 the crossing rule verified exactly [rank-one/Birman-Schwinger monotone crossing, Category-A named]; PROPERLY VERIFIED beyond the toy by the blind verifier (8 random exact 5x5 matrices, rule exact each time, plus the analytic linear-crossing/interlacing argument \u2014 VERIFIER_INDEPENDENT_CHECK.py): the toy-verified caveat is RETIRED (credited check)"
+  },
+  {
+   "name": "SB12_penalized_reduction_algebra",
+   "pass": true,
+   "kind": "GUARD",
+   "detail": "zero-trace fh elimination: the constrained minimizer u* = -X + kappa/(g w) has pointwise w g (u*+X) delta-u == kappa*delta-u => cross term integrates to zero on zero-mean variations; residual value = g (int X)^2 / J per angular field => reduced form = Q_p + (aF^2 sigma / J) (int v_p/w)^2 EXACT rank-one penalty (tau = s^2/J on the branch). LABEL HONESTY (verifier amendment A2): the coded condition is an arithmetic identity true by construction; the substantive content (constrained minimization => penalty g (int X)^2 / J; tau = aF^2 sigma / J) was independently verified by the blind verifier (re-derivation + exact quadrature, VERIFIER_INDEPENDENT_CHECK.py) \u2014 relabeled GUARD"
+  },
+  {
+   "name": "SB13_penalized_index_D",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "1 + tau*<g,phi_D> = -2/(J(s-1)) < 0 MANIFESTLY (J cancels exactly): the penalized Dirichlet form has n- = 1-1 = 0 \u2014 the odd-parity fh pin EXACTLY ABSORBS the unique negative direction; the zero-trace core of the massive crease cell is POSITIVE"
+  },
+  {
+   "name": "SB14_criterion_R_closed_form",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "free-p-trace (germ-flat seam) version: phi_R exact; <g,phi_R> = -J/s^2 - 2(4s^2-3s+1)/(s^2(2s-1)w(1)); 1+tau<g,phi_R> = -2(4s^2-3s+1)/(J(2s-1)w(1)) < 0 manifestly => n- = 0 again: on the odd-pinned branch even the free-seam-trace core is POSITIVE"
+  },
+  {
+   "name": "SB15_odd_branch_verdict",
+   "pass": true,
+   "kind": "GUARD",
+   "detail": "ODD-PINNED f/bh branch verdict: field-sector core POSITIVE (both Dirichlet and free-p-trace, exact); remaining sectors = wall-germ curvature (FREE data at this layer) + the lambda(mu) Schur block (C>0; sup B^2/Q_f vs C involves dilogarithmic integrals at the transcendental massive root A*) => overall verdict on this branch OS-5 UNDECIDABLE-AT-THIS-LAYER with the obstruction NAMED; the germ-independent core carries NO instability"
+  },
+  {
+   "name": "SB16_germ_curvature_activation",
+   "pass": true,
+   "kind": "GUARD",
+   "detail": "STRUCTURE THEOREM (exact): at any trace-active wall the second variation gains Hess(B)|realized traces (for the seam: B_QQ (Q v_p)^2 - 2 B_Qrho Q v_p v_rho + B_rhorho v_rho^2; first germs pinned, SECOND germs UNPINNED by every banked requirement) => (i) NO stability certificate is possible at any trace-active posture at this layer (a sufficiently negative second germ defeats any candidate); (ii) zero-trace subspaces are germ-independent, so germ data can never VETO a zero-trace negative direction; (iii) the banked WITNESS wall responses (B=0 fold; (q/2)rho glue) are germ-Hessian-FLAT: under them the verdicts above are complete. The first-variation-inert higher germs ACTIVATE at the second variation \u2014 the delta^2 analog of the banked N=4 activation"
+  },
+  {
+   "name": "SB17_chain_monotonicity",
+   "pass": true,
+   "kind": "GUARD",
+   "detail": "CHAIN INHERITANCE (subspace monotonicity): any mixed-posture whole containing a certified massive crease cell inherits its zero-trace-core verdicts: free-fh branch => the whole is UNSTABLE (index >= 1) regardless of germ data and chain context; odd-pinned branch => no core instability contributed by this cell (whole-chain verdict rides seam-trace Schur + germ data: OS-5)"
+  },
+  {
+   "name": "SD1_Sii_assembly",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "joint second variation about the landing == gp vp'^2 + gf vf'^2 + gh vh'^2 + 4 E0 vlam vp EXACTLY (no vlam^2 or vlam'^2 term on the no-m-jet class: the lambda(x)-depth cross term is the ONLY moduli-field coupling; W==1 at the landing)"
+  },
+  {
+   "name": "SD2_Sii_negative_witness",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "witness v_p = sin(pi x/l), v_lam = -t sin(pi x/l), v_f=v_h=0 (exactly odd about both walls, all even jets vanish: banked-admissible; ALL traces zero => germ-independent): at t = gp pi^2/(2 E0 l^2), Q = -gp pi^2/l < 0 EXACT. VERDICT: every E0 != 0 member of the no-m-jet landing class is a SADDLE \u2014 UNSTABLE (OS-2), unconditionally on the banked perturbation space (sign(E0) handled by sign(t))"
+  },
+  {
+   "name": "SD3_Sii_jet_dichotomy",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "jet-quadratic member class (density + c_m lam'^2/2, c_m>0): per Dirichlet mode k_n = n pi/(2l) (n>=1; full basis sin(n pi (x+l)/(2l)), all admissible, Parseval Category-A named) the 2x2 block [[gp kn^2, 2E0],[2E0, cm kn^2]] has det = gp cm kn^4 - 4 E0^2, diagonal>0: PSD for ALL modes iff worst n=1 holds: STABLE-in-this-sector iff 64 E0^2 l^4 <= gp cm pi^4, UNSTABLE iff 64 E0^2 l^4 > gp cm pi^4 \u2014 an EXACT threshold tying member energy to cell size and jet stiffness. OS-4 (both regimes populated; e.g. E0 small/large at fixed cm)"
+  },
+  {
+   "name": "SD4_triad_control",
+   "pass": true,
+   "kind": "SUBSTANTIVE",
+   "detail": "triad-locked massless member (p==0, lambda==0, constants, E0=0): joint form == gp vp'^2 + gf vf'^2 + gh vh'^2 exactly \u2014 PSD with kernel = {constants} + ARBITRARY odd v_lam(x) and v_kmod(x) (absent from the form): the banked infinite-dimensional free directions of the massless stratum reappear EXACTLY as the zero-mode space. CONTROL PASS (F-S5)"
+  },
+  {
+   "name": "SD5_scope_typing",
+   "pass": true,
+   "kind": "GUARD",
+   "detail": "TYPED/OUT: NV-cell members UNDEFINED at this layer (no dynamics adopted \u2014 F-S4); S-ii massive-class conditionalities travel (free f/bh wall data; AM-1 full locked-row member condition; AM-2 nondegeneracy g_p!=0, DeltaG!=0; p0==0 completion admissibility OPEN); N=4 wall layer typed; corners, resonance cells, 4th-order class, carriers, time-live untouched; P2-side massive affine members not a prereg candidate (typed, not adjudicated)"
+  }
+ ],
+ "counts": {
+  "total": 36,
+  "substantive": 30,
+  "guards": 6,
+  "failures": 0
+ },
+ "verdicts": {
+  "S-i_double_crease": "EMPTY-DOMAIN (massive locus empty on pure quotient posture; wall-trace fact, exact)",
+  "S-i_crease_branch_free_fh_data": "UNSTABLE OS-2: n-=1 exact (reduced sector); on the JOINT space (fields+mu): index >= 1 exact, exactly-1 pending the lambda-Schur sign (the verifier's joint Galerkin hunt at the massive root s*~1.681 supports exactly-1 \u2014 corroboration, not banked); germ-Hessian-flat realized wall response; negative mode carries angular wall flux; UNSTABLE itself unconditional",
+  "S-i_crease_branch_odd_pinned_fh": "core POSITIVE (exact index absorption, J cancels); overall OS-5 (free germ curvature + dilogarithmic lambda-Schur at transcendental A*)",
+  "S-i_general_Ip0_member": "OS-5 member-conditional: exact criterion recorded (zeros of the (v1,v2)-combination); no certified witness off the crease branch",
+  "S-ii_nojet": "UNSTABLE OS-2 unconditional (exact witness; lambda(x)-depth cross term, vanishing lambda-diagonal)",
+  "S-ii_jet_quadratic": "OS-4 mixed: exact threshold 64 E0^2 l^4 vs gp c_m pi^4",
+  "controls": "PASS (constants member and triad-locked member: PSD with exactly the banked flat directions as kernel)",
+  "NV": "UNDEFINED-AT-LAYER (F-S4)"
+ }
+}
