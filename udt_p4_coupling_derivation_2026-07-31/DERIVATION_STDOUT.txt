@@ -1,0 +1,61 @@
+## P4 COUPLING DERIVATION -- staged run. All theta-content REGISTERED-POSIT;
+## every consequence IF-ADOPTED conditional. Contract: PREREGISTRATION.md.
+
+## ============ STAGE 1 / TC-1: the lawful coupling menu ============
+[PASS][SUBSTANTIVE] S1a_grade0_blocks_periodic_legal
+[PASS][SUBSTANTIVE] S1a_jets_lift_independent_legal
+[PASS][SUBSTANTIVE] S1b_nonlocal_lift_exclusion_travels
+[PASS][SUBSTANTIVE] S1c_theta_block_characters_computed
+[PASS][SUBSTANTIVE] S1d_character_group_Z2xZ2
+[PASS][SUBSTANTIVE] AM1_S1d2_block_grading_rule_uniform_and_regrade
+[PASS][SUBSTANTIVE] S1d_menu_assembly_grade_le2_exhaustive_by_character
+[PASS][SUBSTANTIVE] S1e_weight_coupling_anchor_orbit_invariant
+[PASS][SUBSTANTIVE] S1f_J05_theta_row_pointwise_plus_wall_slots
+[PASS][GUARD] S1g_banked_row_and_module_citations
+[PASS][SUBSTANTIVE] S1h_parity_wall_census_both_eps_branches
+
+## TC-1 MENU (the deliverable, parametrized family; NOTHING adopted):
+##  MB-P  potential class: grade-0 periodic blocks {cos, sin} x A_g / x module gens
+##  MB-J  moment/jet class: {theta', theta''} + even combos; canonical rep: the
+##        angular-moment kernel D_theta' = g_theta * w * theta' (lawful for EVERY chi_theta)
+##  MB-Xf field-sector cross members (theta-even blocks in R_p0/R_f/R_bh; odd blocks
+##        dressed by chi_theta-matching module generators)
+##  MB-Xm moduli-sector cross members (bare theta' in r_sh iff chi_theta = chi_a; 
+##        sin theta entrywise in the mixing rows iff matched; else module-dressed)
+##  MB-W  weight-structure members Q^a x F_per(theta) (anchor-invariant)
+##  MW-N  wall members: theta'-trace slot + periodic theta-trace arguments, cut by the
+##        S1h parity census per posture; seam jumps J_s supplied germ data
+##  EXCLUDED (proven): bare theta, the lift, anchored-nonlocal, absolute-point,
+##        aperiodic F(theta), character-mismatched terms, p != q anchor powers
+## STAGE 1 complete.
+
+## ============ STAGE 2 / TC-2: conditional integer cuts (ALL IF-ADOPTED) ============
+[PASS][SUBSTANTIVE] S2a_2pi_provenance_from_target
+[PASS][SUBSTANTIVE] S2b_MBJ_increment_on_banked_atlas
+[PASS][SUBSTANTIVE] S2c_MBJ_momentum_lattice_cut_cyclic
+[PASS][SUBSTANTIVE] S2d_lock_class_spacing_law
+[PASS][SUBSTANTIVE] S2e_sigma_additive_and_nsquared_share
+[PASS][GUARD] S2f_crease_pin_vs_cyclic_cut_disjoint
+[PASS][SUBSTANTIVE] S2g_mass_ring_law_theta_free
+[PASS][SUBSTANTIVE] S2h_crease_end_forks_MBJ
+[PASS][SUBSTANTIVE] AM2a_banked_crease_kill_applies_onshell
+[PASS][SUBSTANTIVE] AM2b_eps_minus1_jet2_forces_cth_zero_nonconstant
+[PASS][SUBSTANTIVE] AM2c_constant_stratum_kill_vacuous
+[PASS][SUBSTANTIVE] S2i_MBP_cut_form_typed_crease_sheets_exact
+[PASS][SUBSTANTIVE] AM3_two_pin_lattice_constant_stratum
+## STAGE 2 complete.
+
+## ============ STAGE 3 / TC-3: stability interplay (computed where banked machinery
+## reaches; TYPED with named seat where not) + TC-4 sector/catalog map ============
+[PASS][SUBSTANTIVE] S3a_three_moment_completion_only_through_sigma
+[PASS][GUARD] S3b_Si_verdicts_form_invariant_typed
+[PASS][SUBSTANTIVE] S3c_Sii_dichotomy_diagonal_extension_and_branch_fork
+[PASS][SUBSTANTIVE] S3d_MBP_crease_sheet_sign_split
+[PASS][SUBSTANTIVE] S4a_posture_integer_content_map
+[PASS][GUARD] S4b_catalog_map_assembled
+## STAGE 3 complete (TC-3 + TC-4).
+
+## RESULT: 30 checks = 26 SUBSTANTIVE + 4 GUARD; failures: 0
+## OUTCOME CLASS: OC-2 (menu = nonempty parametrized family; every cut IF-ADOPTED
+## conditional; no banked parameter unconditionally quantized; nothing adopted).
+## coupling_results.json written.
