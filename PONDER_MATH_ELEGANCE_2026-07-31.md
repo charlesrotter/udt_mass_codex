@@ -248,3 +248,14 @@ reconfiguration ~ a_F (fusion/fission) > shallow-φ shared closure ~ eV (chemist
 Status: LEAD, ponder-grade — driver-run SymPy only, no preregistration, no blind
 verifier, NOT a banked result; the a_F-pin and the forbidden-merger question are named
 candidate tiles behind A3.
+
+## 14b. Clarification (Charles's question): did §14 derive Planck's constant? NO — it derived its SEAT.
+What was derived: the FORM (M·ℓ = constant, exponent −1 — the Compton relation's shape)
+and WHERE the constant lives: ħ_geom = (π²/4)√(g_p·c_m)·c. What was NOT derived: the
+VALUE — g_p and c_m are still FREE stiffness parameters in the banked record. To derive
+ħ's number the program would need: (1) the particles-at-saturation identification
+confirmed; (2) g_p·c_m DERIVED from the metric (not free); (3) the absolute-scale anchor
+question resolved (ħ is currently IN Charles's anchor set — deriving it would PROMOTE it
+out of the anchors, leaving m_proton/T_CMB to carry scale: a major milestone, named). The
+honest claim: if the conjecture holds, ħ is DEMOTED from fundamental mystery to a
+geometric stiffness combination — explained in kind, not yet in number.
