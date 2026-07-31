@@ -46,9 +46,14 @@ finite time-cell: walls would be SPACELIKE); static ℛ_PW EMBEDS as the tangent
 restriction. **THE NEW LOAD-BEARING FORK (verifier-forced): LOCK-READING {coordinate,
 projected} — coordinate ⇒ the drift block N is an IRREDUCIBLE new DOF (T2's R_N slots =
 physical content); projected ⇒ N is pure gauge on the registered chart; canon is silent
-shift-on, nothing banked decides, BOTH branches travel.** ON CHARLES'S DESK: the Stage T2 go
-(the pointwise layer time-live — what response laws survive with time on; runs BOTH
-lock-reading branches; its contract drafts on his go). BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
+shift-on, nothing banked decides, BOTH branches travel.** **CHARLES: GO (2026-07-31) — STAGE T2 LAUNCHED** (contract
+`udt_p4_timelive_stage_T2_2026-07-31/PREREGISTRATION.md`): the pointwise reduction
+time-live — ℛ_PW^T parametrized per lock-reading branch (BOTH in full, neither
+abbreviated; fork resolution by convenience = a named falsifier), the static ℛ_PW's fate
+computed (embed/deform/lose members), the Noether identity strata re-derived, the
+φ-dependence forcing re-derived time-live; C-1 static recovery must hit the banked Stage-2
+parametrization exactly; no cycle content (T3's contract); resonance-locus contacts
+stamped OPEN-PENDING-CENSUS. BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
 the R1 menu; the queued tiles (resonance census = verifier-required precondition;
 index-exactly-1 numeric; hopfion-bridge at driver discretion; the named unrun seats incl.
 the cycle+pin completion — the only named spatial road to marrying integers and mass).
