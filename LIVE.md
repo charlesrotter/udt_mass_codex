@@ -107,7 +107,19 @@ EXACT. ON CHARLES'S DESK: **the Stage A3 go — THE LINE-BRANCH INTEGER TEST** (
 census with the angles playing: do the banked capped/torsion kills survive angular
 field-dependence, or do live winding seats open — native, no θ; on the certified massive
 carriers explicitly; maximum anti-targeting, integer findings PROVISIONAL; the T3-pattern
-contract). `INFLIGHT_STATE.md` = the live model-handoff ledger. BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
+contract). `INFLIGHT_STATE.md` = the live model-handoff ledger. **SESSION-CLOSE PONDER DOCS (banked
+2026-07-31, ON THE AGENDA after A3 — read as imagination-fuel + candidate future tiles,
+never as premises): (1) `PONDER_100KLY_VIEW_2026-07-31.md`** — the grand weave (disjointness-
+as-FEATURE: windings quantize the massless/radiative sector, mass discretizes by stability;
+EM = the unspent circle; SPARC/SNe/BAO/CMB as φ-space strands); **(2)
+`PONDER_MATH_ELEGANCE_2026-07-31.md`** — the elegant math (the disjointness IS ℝ-vs-S¹
+character theory — read any A3 verdict in this language first; the reciprocal lock as an
+area law; the dichotomy rewritten M·ℓ ≤ (π²/4)√(g_p·c_m) — uncertainty-shaped, saturation
+= a candidate ħ seat = a computable future tile; masses-as-residues from three banked sum
+rules; the solvable slack tower; §7 = Charles's taxonomized-stability spectrum picture:
+species = discrete labels × stable basin, ratios = the payoff); **(3) the roadmap's
+law-adoption CLARIFICATION** (derivation first, observation second, preference never).
+A3 STILL FIRST; these queue behind it for pondering/tile-drafting with Charles. BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
 the R1 menu; the queued tiles (resonance census = verifier-required precondition;
 index-exactly-1 numeric; hopfion-bridge at driver discretion; the named unrun seats incl.
 the cycle+pin completion — the only named spatial road to marrying integers and mass).
