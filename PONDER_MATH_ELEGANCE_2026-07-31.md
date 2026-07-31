@@ -85,3 +85,19 @@ one by a BOUND. Different label axes could shadow different quantum-number famil
 pure conjecture). Caveats: "grinding ODEs" becomes coupled PDEs with everything on; the
 enumeration is gated on ADOPTING a derived response law (the missing-law gate still
 stands); the payoff observable = scale-free mass RATIOS against the anchor set.
+
+## 8. Addendum (Charles's question): does NOT quantizing mass/force conflict with precision observation?
+NO — it matches it, with the burden landing elsewhere. Observation does NOT show
+integer-quantized rest masses (the real table is sparse/non-arithmetic) nor integer force
+STRENGTHS (α ≈ 1/137.036, continuous-valued couplings). What observation DOES demand as
+exactly discrete: CHARGE (integer to ~10⁻²¹ precision), spin, photon counting, flux — all
+compact/winding-side structure, exactly where this theory's integers already live (and
+topological windings are EXACT by nature, which the charge precision requires). What the
+stability-basin picture must instead deliver: (1) IDENTICALNESS — every electron exactly
+alike ⇒ basins are definite solutions, all instances identical: automatic; (2) a DISCRETE
+catalog ⇒ isolated basins: the mechanism; (3) the PRECISION RATIOS (m_p/m_e =
+1836.15267…) ⇒ the hard future test — a computable target, not a contradiction; (4)
+precision dynamics (g−2 class) ⇒ requires the quantum layer (Postulate A territory) —
+honestly beyond the current program's reach, the deep end named. Summary: nature herself
+quantizes the circle-side and NOT the mass/coupling-side; the theory's derived split
+mirrors observation rather than fighting it. The falsifiable pinch-point is (3).
