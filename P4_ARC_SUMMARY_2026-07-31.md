@@ -69,10 +69,11 @@ premise-stamped map fact.
 
 ## Open questions (the desk, in order)
 
-1. THREE SURFACES from banked T3 (a56c2ab): the time-topology question (line barren,
-   circle carries the structure); the θ-adoption stakes CHANGED (label-level marriage on
-   the IF-ADOPTED ε=+1 layer, PROVISIONAL; E0 still uncut); the Stage T4 go (massive
-   candidates under real dynamics — the on-shell test of the marriage's premises).
+1. **CHARLES RULED LINEAR-TIME FOCUS (2026-07-31)** — see `ROADMAP_LINEAR_TIME_2026-07-31.md`
+   (THE forward map, written for the next driver): Step 1 the ANGULAR UNMUTING (MAP → A1 →
+   A2 → A3 = the line-branch integer test); Step 2 T4-linear dynamics; Steps 3-5 standing
+   decisions/tiles/chairs. Loop-branch results stay banked/conditional (marriage rows
+   PROVISIONAL+IF-ADOPTED; twisted seat named). Next action: the ANGULAR MAP on his go.
    [T1+T2+T3 all BANKED 2026-07-31.]
 2. The posture question (quotient/two-sided/open; per-cell-type mixed chains typing-supported).
 3. The census ruling (constants vs fields — certified free; behind the posture).
