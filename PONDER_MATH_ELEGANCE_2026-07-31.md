@@ -259,3 +259,21 @@ question resolved (ħ is currently IN Charles's anchor set — deriving it would
 out of the anchors, leaving m_proton/T_CMB to carry scale: a major milestone, named). The
 honest claim: if the conjecture holds, ħ is DEMOTED from fundamental mystery to a
 geometric stiffness combination — explained in kind, not yet in number.
+
+## 15b. WORKED (driver-run SymPy): the fusion failure DIAGNOSED — wrong composition rule
+§15-A failed because it merged EDGE basins (M = k/ℓ: heavier = smaller). Nature's nuclei
+GROW — mass ∝ A with size — so composites are INTERIOR physics: each cell KEEPS its basin;
+only SEAMS adjust. Corrected chain rule (N equal cells, N−1 seams, each seam releasing
+a_F·M_c per the banked M-WALL scale):
+  **B/A = a_F·(1 − 1/N)** — and this reproduces the nuclear binding curve's shape:
+(i) RISES from a_F/2 at N=2 toward saturation (the light-nuclei climb; deuteron weakly
+bound relative to the asymptote — as observed);
+(ii) SATURATES at a_F = constant binding per nucleon — the liquid-drop VOLUME term,
+pinning **a_F ≈ 8.8/938.9 ≈ 0.0094** (refining §15's estimate);
+(iii) with accumulated winding (charge-label) repulsion ~ c·N per nucleon, the curve
+PEAKS at **N\* = √(a_F/c)** then falls — fusion favorable below the peak, fission above:
+the IRON-PEAK shape, exact, from one derivative.
+Bonus: WHY 75% basin-mergers are unobserved — composites never merge basins, they CHAIN
+them; the merger channel remains a named question (closure-forbidden?).
+Status: LEAD, ponder-grade (driver-run, no prereg/verifier); the a_F ≈ 0.0094 pin and the
+winding-repulsion coefficient c are named computable targets behind A3.
