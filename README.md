@@ -1,5 +1,13 @@
 # UDT repository
 
+**⚠ CURRENT ORIENTATION SPINE (2026-07-31 — READ THIS CHAIN, it supersedes the older
+chain below):** `LIVE.md` topmost block → `P4_ARC_SUMMARY_2026-07-31.md` (the current
+frontier: the P4 arc, 27 banked packages) → `ROADMAP_LINEAR_TIME_2026-07-31.md` →
+`INFLIGHT_STATE.md` (the live pipeline ledger + the A3 launch runbook). The orientation
+chain below this point is PRE-P4 (2026-07-28 morning and earlier) — historical context
+only; its "latest result" claims are superseded by the P4 arc.
+
+
 This root is the control and navigation surface for the UDT research record.
 After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →

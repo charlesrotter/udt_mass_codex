@@ -101,3 +101,24 @@ premise-stamped map fact.
 - HYPOTHESIS DISCIPLINE: Charles's pictures are direction, not evidence; verifiers attack
   owner-pleasing legs hardest. Two driver provenance-inversions this arc — check canon
   dates before attributing anything to Charles.
+
+
+## GLOSSARY (zero-context quick reference)
+- **φ (phi)**: the depth field — UDT's positional dilation; clocks tick at e^{−φ}.
+- **ℛ_PW / ℛ_PW^T / ℛ_PW^A**: the pointwise-surviving response-law space (static /
+  time-live / angular-live) — "which field-equation forms the metric's structure permits."
+- **K₄**: the Klein four-group — the derived residual chart symmetry (survives all layers).
+- **E0, ℓ**: the mass-slope and half-length parameters of the massive candidate family
+  (M-GEN = 2ℓE0); "E0 uncut" = no derived condition quantizes it yet.
+- **crease | glue | open**: the three banked wall/seam types of finite cells; the CERTIFIED
+  MASSIVE CHAIN = a mixed crease|glue chain of cells.
+- **θ (theta)**: the registered-NOT-adopted S¹(circle)-valued field — the "integer doorway"
+  dial; every θ consequence is stamped IF-ADOPTED.
+- **C-1 (in any stage)**: the mandatory recovery control — muting the stage's new
+  dimension must reproduce the previous banked layer EXACTLY.
+- **The forks**: LOCK-READING (drift N = real DOF vs gauge) and SPATIAL-READING
+  (angular-mix m = real content vs removable) — both proven pointwise-shape-neutral,
+  carried undecided.
+- **TB/TP/TA/F-* codes**: per-stage frozen targets and falsifiers — defined ONLY in that
+  stage's PREREGISTRATION.md (always read it first).
+- **The dichotomy**: 64E0²ℓ⁴ ≤ g_p·c_m·π⁴ — the derived mass–size–stiffness stability law.

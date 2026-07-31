@@ -12,7 +12,7 @@ is lean; older session detail is in `HANDOFF_ARCHIVE.md`. The P4 package index: 
 ## ============ CURRENT STATE (2026-07-31 — P4 ARC PAUSED AT TWO OWNER DECISIONS; CONSOLIDATION DONE FOR AI HANDOFF) ============
 
 **THE ARC:** the P4 response-framework program (2026-07-28 → 07-31) is BANKED — 22 packages,
-every one blind-adversarially verified. **THE NAVIGABLE INDEX = `P4_ARC_SUMMARY_2026-07-31.md`**
+every one blind-adversarially verified. **THE NAVIGABLE INDEX = `P4_ARC_SUMMARY_2026-07-31.md`** (its tail = the zero-context GLOSSARY)
 (package × commit × verdict ledger + standing rulings + open questions + operational rules —
 READ IT SECOND, right after this block). Headlines: the inverse problem posed and pointwise-
 solved (ℛ_PW nonempty, stratified); the massive candidates pruned to exact survival conditions

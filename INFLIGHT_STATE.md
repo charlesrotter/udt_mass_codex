@@ -69,13 +69,14 @@ following skeleton, verbatim structure (fill nothing else in):
   EXACT_DERIVATION.md + PERIOD_LEDGER.tsv = the C-1 recovery target, parse mechanically);
   the doorway (udt_p4_doorway_study_2026-07-31/ — the kill derivations you re-adjudicate);
   T3 (udt_p4_timelive_stage_T3_2026-07-31/ — the census-extension precedent); the mass
-  banks (udt_p4_routeA_slice2_solution_legs / slice2b — the massive carriers). FINAL
+  banks (udt_p4_routeA_slice2_solution_legs_2026-07-29/ and
+  udt_p4_routeA_slice2b_full_cell_2026-07-29/ — the massive carriers). FINAL
   REPORT: TB3-1 kill-by-kill verdicts; TB3-2 conditions + targets; TB3-3 THE VERDICT on
   the massive carriers (two-sided, PROVISIONAL stamps on any integer finding); C-1 result;
   counts + exit; outcome class; F-events."
 
 **R3. On the derivation report:** update this ledger (commit+push, message "A3 ledger:
-derivation done, verifier in flight"), then dispatch the BLIND VERIFIER (general-purpose,
+derivation done, verifier in flight"), (derive_angular_A3.py and all package artifacts are CREATED BY the derivation agent — their absence before launch is correct.) Then dispatch the BLIND VERIFIER (general-purpose,
 background, ZERO context — do not tell it the findings beyond the package location).
 Prompt skeleton: "You are a BLIND ADVERSARIAL VERIFIER with zero prior context in
 /home/udt-admin/udt_mass_codex (branch grok). Package: udt_p4_angular_stage_A3_2026-07-31/
@@ -110,7 +111,8 @@ push on commit).
 
 **R6. Close out:** update LIVE.md topmost block (the T3/A2 close-out pattern), add the
 arc-summary row, advance this ledger, append the memory topic file + MEMORY.md line 1
-(/home/udt-admin/.claude/projects/-home-udt-admin-udt-mass-codex/memory/), commit+push.
+(/home/udt-admin/.claude/projects/-home-udt-admin-udt-mass-codex/memory/ — HOST-LOCAL, may be
+absent for a different model/host; skip without worry if missing), commit+push.
 Then present THE VERDICT to Charles in LAY terms (his question verbatim: integers on the
 linear-time mass branches — found/not-found/mixed, with the honest premise stack) and
 HOLD for his next ruling.
