@@ -1,0 +1,550 @@
+{
+  "date": "2026-07-30",
+  "contract": "udt_p4_boundary_action_gate_2026-07-30/PREREGISTRATION.md",
+  "stamps": {
+    "arena_W1D": "round-static radial reduction (1D r-profiles; banked Branch G/P reduced Lagrangians); pairing = NONE (as the banked seam package); crease reading pointwise-in-r; screen/angular action NOT specified (banked 07-20 non-uniqueness stands)",
+    "arena_WREG": "registered positive triangular chart; stationary one-parameter presentation; jets <= 2; pairing branches P1-4D/P1-triad/P2/P3-bulkP2/P3-bulkP1 carried, none adopted; census BASE exhaustive, BR-M typed (J05 leg); corners TYPED-ONLY",
+    "jet_layer": "N=2 (banked 2nd-order self-pairing layer) EXHAUSTIVE; N=4 TYPED (2-jet wall + 3rd-derivative momenta), not run",
+    "parity": "eps_phi = -1 DEFINITIONAL (CANON C-2026-07-30-1 layer 3); rho evenness = banked fold-JC mirror-jet structure; f/bh parities SUPPLIED (definite per realized outcome under R-A \u2014 angular-completion bank \u2014 else free); moduli parities per Route P (P2-conditional; R-A discharges)",
+    "census_branch": "BASE exhaustive; BR-M typed (m-jet wall slots N3; same unpaired-jet cut at the moduli-jet layer)",
+    "pairing_relation_typing_FB5": "ONE-WAY: the bulk by-parts structure of the declared pairing SUPPLIES the wall slot census; B is an element of the resulting slot space; the pairing is never defined via B"
+  },
+  "TW1_census": {
+    "W1D_objects": [
+      "phi_s (0-jet trace; odd \u2014 killed at crease; essential slot)",
+      "rho_s (0-jet trace; even \u2014 survives; B-argument)",
+      "phi'_s (1-jet; enters pi_phi only; q-carrier; NOT a B-argument at N=2 \u2014 R6 cut)",
+      "rho'_s (1-jet; enters pi_rho only; the D-b datum; NOT a B-argument at N=2 \u2014 R6 cut)",
+      "q = Z rho_s^2 phi'_s (banked composite flux)",
+      "Q_s = c_E e^{-phi_s} (the ONLY legal phi_s-dependence \u2014 anchored rule p=q)",
+      "the seam functional Bfrak (THE 07-18 OPEN object D-a; parametrized, not invented)"
+    ],
+    "WREG_objects": [
+      "0-jet traces Q_w, f0_w, bh0_w (B-arguments; trivial character)",
+      "1-jet traces p1_w, f1_w, h1_w (momentum arguments; excluded from B at N=2 by the R6 cut)",
+      "moduli m + K4 invariants (BASE spectators; BR-M live wall arguments; N3 m-jet wall slots on the varied fork)",
+      "corner slots (TYPED-ONLY; absent from the one-parameter presentation)",
+      "completion label c-frak (discrete argument; additive c-dependence inert at N=2 \u2014 R15 note)",
+      "2-jet traces / 3rd-jet momenta (the 4th-order TYPED layer)"
+    ],
+    "topology_per_candidate": {
+      "fold": "single copy, mirrored crease (Z2 quotient)",
+      "partner": "two-sided seam, no surface term (= germ-flat stratum)",
+      "glue+B": "two-sided interface carrying Bfrak",
+      "open-end": "bare endpoint carrying Bfrak"
+    }
+  },
+  "TW2_parametrization": {
+    "general_B_at_N2": "per wall stratum ONE trivial-character smooth function of the parity-surviving 0-jet traces + (census-fork) moduli invariants; phi-dependence only through Q (anchored p=q); NO 1-jet dependence (R6 cut, weight-robust); corners typed-only",
+    "active_content": "EXACTLY the first germ at the realized seam point: (Bfrak_Q, Bfrak_rho)(c_E, rho_s) \u2014 all higher germ content variationally INERT AT THE REALIZED SEAM GERM (per realized configuration; germ-LOCAL \u2014 AMV2a/AMV2b: a (rho-rho_s)^3 perturbation has active content 3*(rho_1-rho_s)^2 at a different realized trace) [AM-V2]. Gloss: the inert germs are primitive-nonuniqueness-like (shift nothing at the realized point) \u2014 a looser analogy to, not the exact form of, the banked BDY-TD momentum-shifting total-derivative freedom",
+    "dimensions": {
+      "fold": "active moduli 0 (Q-germ inert by essential dphi=0; rho-germ FORCED 0 by R6+parity)",
+      "partner": "active moduli 0 (the germ-flat stratum, by candidate definition)",
+      "glue+B": "active moduli 0 free (first germ UNIQUELY pinned: Bfrak_rho = q/2 by the banked jump; Bfrak_Q = 0 by the banked flux seal)",
+      "open-end": "active moduli = 2 germ functions (Bfrak_Q, Bfrak_rho)(c_E, .) \u2014 FREE; outputs q = -c_E Bfrak_Q and rho'_s = -Bfrak_rho/4"
+    },
+    "N4_layer": "TYPED: Theta_4 pairs {v, v'}; wall grade 4; B may then carry 1-jet traces \u2014 the 1-jet germ content ACTIVATES; not run (EXTENSION-REQUIRED stamp travels)"
+  },
+  "TW3_cut": {
+    "R6": "no unpaired wall jets at N=2 => B is 0-jet-only (derived; weight-robust); at the mirror crease R6's C^1 reading + parity FORCES the active rho-germ to zero",
+    "R12_R13_R1": "definition-level: B carries a slot per stratum; arguments census-only; no global fitted couplings (the FUNCTION is the exactly-characterized freedom)",
+    "J07_J08": "per-stratum B with transition/completion data typed (GC; not run). NOTE (minor amendment): the contract's 'imposed exactly' is DISCHARGED BY TYPING for J07/J08 \u2014 their banked class is typing/GC requirements (the c-frak-argument + per-stratum typing), consistent with the bank; stamped, not a computation",
+    "mirror_wall_theorem": "for mirror-compatible members every even-field natural-BC momentum vanishes kinematically at the wall and the odd-field variation is essential-zero => the effective wall response at a mirror wall is FORCED TRIVIAL at N=2 (pairing-branch-independent: W_F(wall)=1). DOUBLY PROVEN: even-invariant construction (TW3_WREG_*) + the verifier's strictly-more-general SYMMETRIZATION proof adopted as credited checks AMV3a-AMV3d"
+  },
+  "TW4_verdict": {
+    "outcome_class": "OW2 \u2014 a FAMILY with exact wall-moduli",
+    "per_candidate": {
+      "fold": "required-B space NONEMPTY (witness B=0), effectively UNIQUE at the realized seam germ (per realized configuration) [AM-V2]: active germ FORCED trivial; D-b: rho'_s = 0 (reproduced); q = OUTPUT (unconstrained by B)",
+      "partner": "= the germ-flat stratum; WE continuity reproduced; D-b: rho'_s FREE (continuity only); q continuous, data-determined",
+      "glue+B": "required-B space NONEMPTY (witness (q/2)*rho), first germ UNIQUELY PINNED (Bfrak_rho = q/2 \u2014 K6c reproduced; flux seal <=> Bfrak_Q = 0 \u2014 NEW exact equivalence); higher content inert at the realized seam germ => effectively UNIQUE at N=2 per realized configuration [AM-V2]; D-b: jump q/2 carried by B",
+      "open-end": "required-B space = FREE 2-germ-function family (realizes ANY (q, rho'_s) output pair); the banked q=0 forcing = the germ-flat stratum ONLY \u2014 with a Q-active germ q is a wall-response output"
+    },
+    "selection": "the requirements EMPTY no candidate and UNIQUE-select none: B's active content at N=2 is candidate-RELATIVE data (forced-trivial at creases; pinned at the banked glue; free at open ends), NOT a candidate discriminator \u2014 the discriminating datum is the POSTURE (quotient / two-sided / open), which is not a B-value; deeper selective content (N=4, R9 periods, J07/J11 holonomy) TYPED OPEN",
+    "consistency_reproductions": [
+      "S1f handshake underdetermination (S0b)",
+      "K6c B'(rho_s) = q/2 (TW3_glue_reproduces_K6c)",
+      "K6d q=0 AND rho'=0 under no-choice (TW3_openend_consistency_*) \u2014 now exhibited as the germ-flat stratum of the general law",
+      "K4d fold rho'=0 (TW3_fold_consistency_K4d)",
+      "K4e-K4g partner WE continuity + rho' freedom",
+      "Slice-2b M-WALL = a_F*M-GEN (TW5a)"
+    ]
+  },
+  "TW5_consequences": {
+    "G18": "proposal updated (DECISION_SURFACE_UPDATE.md): the seam-closure reduction {D-a, D-b} REFINES \u2014 [AM-V1, posture-conditional form] the fold POSTURE is self-consistent: GIVEN the single-copy quotient posture, no ACTIVE wall action is admissible at N=2 (R6+parity), so WITHIN that posture the no-surface-term condition and rho'_s = 0 are automatic; the banked TWO-SIDED conditional-forces-fold theorem keeps ALL its premises (loses ZERO members \u2014 AMV1 note); the G18 reduction (posture AND Branch-G AND germ data) survives unchanged; under fold/open-end postures D-b is a FUNCTION of the B-germ; the closure question = 1 discrete posture datum + the germ data",
+    "massive_branch": "E0-collapse under realized parities is B-INDEPENDENT (parity kinematics precede natural BCs \u2014 TW5c); M-WALL = a_F*M-GEN reproduced; at free walls M-WALL becomes exactly a B-germ functional (TW5b); triad weight a_F = 1 at the Route-P forced locus lambda=0 (map fact)",
+    "census_pairing_surface": "UNCHANGED (both census branches carried; verdict pairing-branch-UNIFORM: mirror walls weight-free, non-mirror germ pins branch-weighted by (c_E/Q_w)^{a_F})"
+  },
+  "amendment": {
+    "date": "2026-07-30",
+    "verdict_amended_under": "VERIFIER_REPORT.md PASS-WITH-REQUIRED-AMENDMENTS (AM-V1, AM-V2 + minor notes); record = CORRECTION_LAYER.md; no pre-amendment computed claim changed",
+    "AM_V1": "crease no-active-action result restated POSTURE-CONDITIONAL; banked two-sided forcing theorem keeps ALL premises (loses ZERO members); G18 reduction (posture AND Branch-G AND germ data) unchanged (AMV1 note)",
+    "AM_V2": "inertness / effective-uniqueness scoped 'at the realized seam germ / per realized configuration'; germ-locality counter-computation credited (AMV2a/AMV2b); OW2 unaffected",
+    "minor": "BDY-TD gloss softened (primitive-nonuniqueness-like, not momentum-shifting total derivatives); J07/J08 discharge-by-typing noted; mirror-wall theorem doubly proven (symmetrization credited, AMV3a-AMV3d)"
+  },
+  "checks": [
+    {
+      "name": "S0a_pi_phi_form",
+      "kind": "GUARD",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "S0a_pi_rho_P_form",
+      "kind": "GUARD",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "S0a_pi_rho_G_form",
+      "kind": "GUARD",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "S0a_doubled_rho_momentum",
+      "kind": "GUARD",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "S0b_handshake_germB_on_seam_locus",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "S0b_handshake_germs_distinct_first_jet",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "nonzero:Derivative(phim(r_s), r_s) (vanishes only at phi_-'(rs)=0)",
+      "verifier_credited": false
+    },
+    {
+      "name": "S0c_byparts_N2_identity",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "S0d_parity_jet_kill_even",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "killed jets at wall: ['a1', 'a3', 'a5']",
+      "verifier_credited": false
+    },
+    {
+      "name": "S0d_parity_jet_kill_odd",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "killed jets at wall: ['a0', 'a2', 'a4']",
+      "verifier_credited": false
+    },
+    {
+      "name": "S0e_anchored_wall_rule_p_eq_q",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "invariance forces p -> [q_w]",
+      "verifier_credited": false
+    },
+    {
+      "name": "S0f_wall_directions_trivial_character",
+      "kind": "GUARD",
+      "passed": true,
+      "detail": "cited: Stage-2 PW1_K4_touches_only_k10_C + TB2 table (boundary directions trivial class, basis {1})",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW2a_anchored_variation_chain_rule",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW2b_deltaB_at_seam_is_first_germ",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW2c_higher_germ_inert_b_0",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW2c_higher_germ_inert_b_QQ",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW2c_higher_germ_inert_b_rr",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW2c_higher_germ_inert_b_Qr",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "AMV2a_higher_germ_active_at_other_trace_exact",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": true
+    },
+    {
+      "name": "AMV2b_locality_counterexample_nonzero_off_trace",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "nonzero:3*(rho_1 - rho_s)**2 (vanishes only at rho_1 = rho_s: inertness is germ-LOCAL)",
+      "verifier_credited": true
+    },
+    {
+      "name": "TW2d_R6_unpaired_jet_cut_N2",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "R6 at N=2 forces dB/drho' -> [0]",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW2e_cut_weight_robust",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "W_F*B_rp = 0 <=> B_rp -> [0] (W_F>0)",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW2f_J05_moduli_wall_slot_identity",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_fold_essential_dphi_zero",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "solve(v=-v) -> [0]",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_fold_Q_germ_inert",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_fold_natural_BC_with_B",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "rho'(r_s) -> [-B_r/8]",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_fold_R6_forces_rho_germ_zero",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "joint solve -> [{B_r: 0, rhop_s: 0}] (fold: active germ FORCED trivial)",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_fold_consistency_K4d",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "B=0 => rho'(r_s) -> [0]",
+      "verifier_credited": false
+    },
+    {
+      "name": "AMV1_cousin_premise_distinction_note",
+      "kind": "GUARD",
+      "passed": true,
+      "detail": "cited-argument: banked two-sided forcing premise != the posture-conditional crease no-active-action result; forcing theorem premise set loses ZERO members",
+      "verifier_credited": true
+    },
+    {
+      "name": "TW3_WREG_density_parity_even",
+      "kind": "GUARD",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_WREG_mirror_momentum_kill_f",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_WREG_mirror_momentum_kill_h",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_WREG_pi_p_wall_generic_nonzero",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "nonzero:Derivative(F(0, p1, f0, h0, 0, 0, 0, 0, 0), p1) (paired variation v_p essential-killed)",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_WREG_mirror_compat_load_bearing",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "nonzero:p1 (parity-odd term escapes the kill => stamp load-bearing)",
+      "verifier_credited": false
+    },
+    {
+      "name": "AMV3a_symmetrized_momentum_kill_f",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": true
+    },
+    {
+      "name": "AMV3b_symmetrized_momentum_kill_h",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": true
+    },
+    {
+      "name": "AMV3c_symmetrized_pi_p_generic_nonzero",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "pi_p at kill locus generically nonzero (20 surviving monomials; paired variation v_p essential-killed)",
+      "verifier_credited": true
+    },
+    {
+      "name": "AMV3d_unsymmetrized_density_fails_kill",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "un-symmetrized generic density: pi_f at kill locus nonzero (20 surviving monomials) => mirror-compatibility stamp load-bearing, re-proven",
+      "verifier_credited": true
+    },
+    {
+      "name": "TW3_twosided_jump_laws",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "[pi_phi], [pi_rho] -> [{Jphi: -B_Q*c_E, Jrho: B_r}]",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_glue_reproduces_K6c",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "Bfrak_rho -> [q/2]",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_glue_flux_seal_iff_Q_flat",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "[pi_phi]=0 <=> Bfrak_Q -> [0]",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_partner_WE_phi_continuity",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "phip_+ -> [phipm]",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_partner_WE_rho_continuity_PP",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "rhop_+ -> [rhopm]",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_partner_WE_rho_continuity_PG",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "rhop_+ -> [rhopm]",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_partner_rhop_free",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "nonzero:rhopm (rho'(r_s) undetermined on the partner stratum \u2014 banked K4g)",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_openend_germ_laws",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "phi'(r_s), rho'(r_s) -> [{phip_s: -B_Q*c_E/(Z*rho_s**2), rhop_s: -B_r/4}]",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_openend_q_is_Q_germ",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_openend_consistency_K6d_q0",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_openend_consistency_K6d_rhop0",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_openend_q_nonzero_off_germflat",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "nonzero:-B_Q*c_E (q = -c_E*B_Q: nonzero whenever the Q-germ is)",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_pairing_weight_drops_at_mirror_wall",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW3_pairing_weight_anchored_nonmirror",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW4_witness_fold_B0",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW4_witness_glue_rho_germ",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW4_witness_glue_Q_germ",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW4_openend_germ_plane_realizes_any_output",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "(beta1, beta2) -> [{beta1: -q/c_E, beta2: -4*rhop_s}]",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW4_nonuniqueness_inert_content_rho",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW4_nonuniqueness_inert_content_Q",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW4_nonuniqueness_members_distinct",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "nonzero:Qv**3 - 3*Qv**2*c_E + 3*Qv*c_E**2 - c_E**3 + 7*rho_s**2/3 - 14*rho_s*rho_v/3 + 7*rho_v**2/3 (distinct members, identical seam conditions => FAMILY)",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW5a_MWALL_eq_aF_MGEN_quadratic_class",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW5b_MWALL_is_germ_functional_free_walls",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW5c_affine_even_kills_slope",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "even about both walls -> [{beta: 0}]",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW5c_affine_odd_kills_field",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "detail": "odd about both walls -> [{alpha: 0, beta: 0}] (ell != 0)",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW5d_triad_weight_at_lambda0_is_1",
+      "kind": "GUARD",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    },
+    {
+      "name": "TW5d_4D_weight_at_lambda0_is_0",
+      "kind": "GUARD",
+      "passed": true,
+      "detail": "0",
+      "verifier_credited": false
+    }
+  ],
+  "checks_verifier_credited": [
+    "AMV2a_higher_germ_active_at_other_trace_exact",
+    "AMV2b_locality_counterexample_nonzero_off_trace",
+    "AMV1_cousin_premise_distinction_note",
+    "AMV3a_symmetrized_momentum_kill_f",
+    "AMV3b_symmetrized_momentum_kill_h",
+    "AMV3c_symmetrized_pi_p_generic_nonzero",
+    "AMV3d_unsymmetrized_density_fails_kill"
+  ],
+  "counts": {
+    "total": 64,
+    "substantive": 55,
+    "guard": 9,
+    "verifier_credited": 7,
+    "failed": 0
+  }
+}

@@ -1,0 +1,88 @@
+==============================================================================
+S0 — BANKED MACHINERY RE-RUN (Category-A soundness of this reading)
+==============================================================================
+[PASS][GUARD] S0a_pi_phi_form
+[PASS][GUARD] S0a_pi_rho_P_form
+[PASS][GUARD] S0a_pi_rho_G_form
+[PASS][GUARD] S0a_doubled_rho_momentum
+[PASS][SUBSTANTIVE] S0b_handshake_germB_on_seam_locus
+[PASS][SUBSTANTIVE] S0b_handshake_germs_distinct_first_jet  expr=Derivative(phim(r_s), r_s) (vanishes only at phi_-'(rs)=0)
+[PASS][SUBSTANTIVE] S0c_byparts_N2_identity
+[PASS][SUBSTANTIVE] S0d_parity_jet_kill_even  killed jets at wall: ['a1', 'a3', 'a5']
+[PASS][SUBSTANTIVE] S0d_parity_jet_kill_odd  killed jets at wall: ['a0', 'a2', 'a4']
+[PASS][SUBSTANTIVE] S0e_anchored_wall_rule_p_eq_q  invariance forces p -> [q_w]
+[PASS][GUARD] S0f_wall_directions_trivial_character  cited: Stage-2 PW1_K4_touches_only_k10_C + TB2 table (boundary directions trivial class, basis {1})
+
+==============================================================================
+TW2 — THE GENERAL WALL RESPONSE (anchored seam functional, exact)
+==============================================================================
+[PASS][SUBSTANTIVE] TW2a_anchored_variation_chain_rule
+[PASS][SUBSTANTIVE] TW2b_deltaB_at_seam_is_first_germ
+[PASS][SUBSTANTIVE] TW2c_higher_germ_inert_b_0
+[PASS][SUBSTANTIVE] TW2c_higher_germ_inert_b_QQ
+[PASS][SUBSTANTIVE] TW2c_higher_germ_inert_b_rr
+[PASS][SUBSTANTIVE] TW2c_higher_germ_inert_b_Qr
+[PASS][SUBSTANTIVE][verifier-credited] AMV2a_higher_germ_active_at_other_trace_exact
+[PASS][SUBSTANTIVE][verifier-credited] AMV2b_locality_counterexample_nonzero_off_trace  expr=3*(rho_1 - rho_s)**2 (vanishes only at rho_1 = rho_s: inertness is germ-LOCAL)
+[PASS][SUBSTANTIVE] TW2d_R6_unpaired_jet_cut_N2  R6 at N=2 forces dB/drho' -> [0]
+[PASS][SUBSTANTIVE] TW2e_cut_weight_robust  W_F*B_rp = 0 <=> B_rp -> [0] (W_F>0)
+[PASS][SUBSTANTIVE] TW2f_J05_moduli_wall_slot_identity
+
+==============================================================================
+TW3 — THE REQUIREMENT CUT, PER CLOSURE CANDIDATE (arena W-1D)
+==============================================================================
+[PASS][SUBSTANTIVE] TW3_fold_essential_dphi_zero  solve(v=-v) -> [0]
+[PASS][SUBSTANTIVE] TW3_fold_Q_germ_inert
+[PASS][SUBSTANTIVE] TW3_fold_natural_BC_with_B  rho'(r_s) -> [-B_r/8]
+[PASS][SUBSTANTIVE] TW3_fold_R6_forces_rho_germ_zero  joint solve -> [{B_r: 0, rhop_s: 0}] (fold: active germ FORCED trivial)
+[PASS][SUBSTANTIVE] TW3_fold_consistency_K4d  B=0 => rho'(r_s) -> [0]
+[PASS][GUARD][verifier-credited] AMV1_cousin_premise_distinction_note  cited-argument: banked two-sided forcing premise != the posture-conditional crease no-active-action result; forcing theorem premise set loses ZERO members
+[PASS][GUARD] TW3_WREG_density_parity_even
+[PASS][SUBSTANTIVE] TW3_WREG_mirror_momentum_kill_f
+[PASS][SUBSTANTIVE] TW3_WREG_mirror_momentum_kill_h
+[PASS][SUBSTANTIVE] TW3_WREG_pi_p_wall_generic_nonzero  expr=Derivative(F(0, p1, f0, h0, 0, 0, 0, 0, 0), p1) (paired variation v_p essential-killed)
+[PASS][SUBSTANTIVE] TW3_WREG_mirror_compat_load_bearing  expr=p1 (parity-odd term escapes the kill => stamp load-bearing)
+[PASS][SUBSTANTIVE][verifier-credited] AMV3a_symmetrized_momentum_kill_f
+[PASS][SUBSTANTIVE][verifier-credited] AMV3b_symmetrized_momentum_kill_h
+[PASS][SUBSTANTIVE][verifier-credited] AMV3c_symmetrized_pi_p_generic_nonzero  pi_p at kill locus generically nonzero (20 surviving monomials; paired variation v_p essential-killed)
+[PASS][SUBSTANTIVE][verifier-credited] AMV3d_unsymmetrized_density_fails_kill  un-symmetrized generic density: pi_f at kill locus nonzero (20 surviving monomials) => mirror-compatibility stamp load-bearing, re-proven
+[PASS][SUBSTANTIVE] TW3_twosided_jump_laws  [pi_phi], [pi_rho] -> [{Jphi: -B_Q*c_E, Jrho: B_r}]
+[PASS][SUBSTANTIVE] TW3_glue_reproduces_K6c  Bfrak_rho -> [q/2]
+[PASS][SUBSTANTIVE] TW3_glue_flux_seal_iff_Q_flat  [pi_phi]=0 <=> Bfrak_Q -> [0]
+[PASS][SUBSTANTIVE] TW3_partner_WE_phi_continuity  phip_+ -> [phipm]
+[PASS][SUBSTANTIVE] TW3_partner_WE_rho_continuity_PP  rhop_+ -> [rhopm]
+[PASS][SUBSTANTIVE] TW3_partner_WE_rho_continuity_PG  rhop_+ -> [rhopm]
+[PASS][SUBSTANTIVE] TW3_partner_rhop_free  expr=rhopm (rho'(r_s) undetermined on the partner stratum — banked K4g)
+[PASS][SUBSTANTIVE] TW3_openend_germ_laws  phi'(r_s), rho'(r_s) -> [{phip_s: -B_Q*c_E/(Z*rho_s**2), rhop_s: -B_r/4}]
+[PASS][SUBSTANTIVE] TW3_openend_q_is_Q_germ
+[PASS][SUBSTANTIVE] TW3_openend_consistency_K6d_q0
+[PASS][SUBSTANTIVE] TW3_openend_consistency_K6d_rhop0
+[PASS][SUBSTANTIVE] TW3_openend_q_nonzero_off_germflat  expr=-B_Q*c_E (q = -c_E*B_Q: nonzero whenever the Q-germ is)
+[PASS][SUBSTANTIVE] TW3_pairing_weight_drops_at_mirror_wall
+[PASS][SUBSTANTIVE] TW3_pairing_weight_anchored_nonmirror
+
+==============================================================================
+TW4 — SELECTION VERDICT: witnesses, non-uniqueness, non-emptiness
+==============================================================================
+[PASS][SUBSTANTIVE] TW4_witness_fold_B0
+[PASS][SUBSTANTIVE] TW4_witness_glue_rho_germ
+[PASS][SUBSTANTIVE] TW4_witness_glue_Q_germ
+[PASS][SUBSTANTIVE] TW4_openend_germ_plane_realizes_any_output  (beta1, beta2) -> [{beta1: -q/c_E, beta2: -4*rhop_s}]
+[PASS][SUBSTANTIVE] TW4_nonuniqueness_inert_content_rho
+[PASS][SUBSTANTIVE] TW4_nonuniqueness_inert_content_Q
+[PASS][SUBSTANTIVE] TW4_nonuniqueness_members_distinct  expr=Qv**3 - 3*Qv**2*c_E + 3*Qv*c_E**2 - c_E**3 + 7*rho_s**2/3 - 14*rho_s*rho_v/3 + 7*rho_v**2/3 (distinct members, identical seam conditions => FAMILY)
+
+==============================================================================
+TW5 — CONSEQUENCES (massive-branch wall conditions, where reachable)
+==============================================================================
+[PASS][SUBSTANTIVE] TW5a_MWALL_eq_aF_MGEN_quadratic_class
+[PASS][SUBSTANTIVE] TW5b_MWALL_is_germ_functional_free_walls
+[PASS][SUBSTANTIVE] TW5c_affine_even_kills_slope  even about both walls -> [{beta: 0}]
+[PASS][SUBSTANTIVE] TW5c_affine_odd_kills_field  odd about both walls -> [{alpha: 0, beta: 0}] (ell != 0)
+[PASS][GUARD] TW5d_triad_weight_at_lambda0_is_1
+[PASS][GUARD] TW5d_4D_weight_at_lambda0_is_0
+
+==============================================================================
+CHECKS: 64 total = 55 SUBSTANTIVE + 9 GUARD (7 verifier-credited); 64 passed, 0 failed
+==============================================================================
+results written: boundary_action_results.json
