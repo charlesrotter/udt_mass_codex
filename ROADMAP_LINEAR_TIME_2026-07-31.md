@@ -105,3 +105,19 @@ ADM/initial-value template stays the time-lane's named import hazard; solution-s
 imposition (gates check provenance/honesty, never merit); negatives are scoped (check
 NEGATIVES_REGISTRY.md at every push); always push on commit; nothing adopted as physics
 without Charles's explicit ruling.
+
+## CLARIFICATION (Charles, session close 2026-07-31): "adopting the response law"
+The missing-law gate has TWO legal resolution routes, in binding order:
+1. **DERIVATION-SELECTED (the default; Charles's standing "go where the derivations take
+   us" ALREADY AUTHORIZES this route):** the unrun narrowing gates (the global/whole-
+   solution requirements, the resonance census, uniqueness layers) may cut the permitted
+   response space to ONE member — then no adoption decision exists; the law is derived,
+   and Charles is informed, not asked. EXHAUST THIS ROUTE FIRST.
+2. **RESIDUAL-FAMILY ADOPTION (only if route 1 genuinely exhausts leaving several
+   permitted laws):** choosing among mathematically co-equal survivors is physics-adoption
+   = Charles's call — AND even then the preferred selector is OBSERVATION (run the
+   surviving candidates' basin/ratio catalogs in parallel; let data adjudicate — Principle
+   3), not taste. Bring Charles the residual family with the observational
+   discrimination plan, not a bare menu.
+The next driver must not read "adoption is Charles's" as "ask Charles to pick an
+equation": derivation first, observation second, preference never.
