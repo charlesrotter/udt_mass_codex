@@ -82,13 +82,22 @@ branches; not guaranteed"); Step 2 = T4-LINEAR (real dynamics for the massive ca
 parallel-eligible, own MAP first); Step 3 = the standing decisions (posture/census/G18/θ/
 lock-reading/R1 — none blocking); Step 4 = queued tiles (cycle+pin completion = the spatial
 integers-mass road, alive on the line branch; resonance census; N=4; etc.); Step 5 = later
-chairs (sphere carrier, sources, control-metric comparison). **THE ANGULAR MAP IS DELIVERED (1ab4884; `udt_p4_angular_map_2026-07-31/ANGULAR_MAP.md`;
-map-only, nothing launched) — AWAITING CHARLES'S CLEARANCE** (his catch-point A#1: accept
-the T²-stratum-first layer bound, or demand full-S³ from the start). Its core finding: NO
-banked kill covers angular FIELD-dependence — the kills constrain winding on the banked
-cycles and are silent on angular structure of the fields; A3 = the line-branch integer
-test. On clearance: Stage A1 prereg. `INFLIGHT_STATE.md` = the live model-handoff ledger
-(Fable near token limit; the next model closes out from it). BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
+chairs (sphere carrier, sources, control-metric comparison). **CHARLES CLEARED THE ANGULAR MAP ("Go, torus-first") → STAGE A1 BANKED (2fd4af3;
+VERIFIED → AM-A/B/C/D → SAME-verifier CLOSED, PASS (amended); OA1-1): THE ANGULAR-LIVE
+POSING CLOSES.** Headlines: the metric block opened NATIVELY (new angular-mix rows
+PERMITTED-not-forced, certified non-KK; the fiber leg rigidified by the lock; angular
+dependence a SPECTATOR of the lock-reading fork); K₄ SURVIVES VERBATIM; the residual
+symmetry derived WHOLE (verifier-completed twice: the missed ζ fiber-slack layer — the
+T1-AM-1 class transposed — and the AM-D tower correction); **THE NEW LOAD-BEARING
+SPATIAL-READING FORK (the T1 fork's spatial twin): angular-mix rows = irreducible content
+(coordinate reading, invariant mᵀB⁻¹m) vs fully removable (projected reading) — carried
+both ways, decided by nothing**; R1–R15 re-posed 0 breaks; periodicity derived
+alphabet-neutral; the T² mode layer = A2's organizing decomposition; C-1 (T1-census) and
+C-2 (static) recoveries EXACT; 17 registry entries flagged for driver premise-scope review
+(decision surface). ON CHARLES'S DESK: **the Stage A2 go** (the pointwise layer
+angular-live — which response laws survive with the angles playing; runs both spatial- and
+lock-reading branches; then A3 = the line-branch integer test needs its own go).
+`INFLIGHT_STATE.md` = the live model-handoff ledger. BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
 the R1 menu; the queued tiles (resonance census = verifier-required precondition;
 index-exactly-1 numeric; hopfion-bridge at driver discretion; the named unrun seats incl.
 the cycle+pin completion — the only named spatial road to marrying integers and mass).

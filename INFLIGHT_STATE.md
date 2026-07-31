@@ -33,17 +33,14 @@ is unstarted or in flight):**
 8. DONE — LIVE.md close-out + memory update.
 9. (Stretch, if tokens remain) T4-linear MAP skeleton, same pattern.
 
-**NEXT MICRO-STEP — STAGE A1 PIPELINE (Charles cleared: "Go, torus-first"):**
-- A1-p1 DONE — prereg committed (`udt_p4_angular_stage_A1_2026-07-31/PREREGISTRATION.md`).
-- A1-p2 DONE — derivation banked to disk (OA1-1; 40/40 = 31S+9G; NEW spatial-reading fork found, carried undecided; C-1/C-2 exact; 10 registry entries flagged) (chunked, TA-stages banked to disk in order;
-  if it dies, finished TA-stages survive in the package dir — a new agent resumes from the
-  first missing stage, same contract).
-- A1-p3 DONE — verifier: PASS-WITH-REQUIRED-AMENDMENTS (AM-A missed fiber-slack residual layer ζ(y)/ζ(x)/ζ(t), load-bearing for A3; AM-B conic orbit restate; AM-C registry-sweep under-coverage #17 + hyphen regex; 2 clarify-notes A1q/A2b; fork + controls CONFIRMED; OA1-1 survives).
-- A1-p4 IN FLIGHT — amendment agent running (AM-A/B/C + 2 notes); then SAME-verifier closure (SendMessage the round-1 verifier).
-- A1-p5 PENDING — driver four-check into AUDIT_REPORT.md → pytest → commit+push bank →
-  LIVE.md close-out + memory. Then A2 needs Charles's go.
-IF YOU ARE THE NEW MODEL: continue from the first PENDING step above; the contract binds;
-chunked-output rules for every agent (CLAUDE.md).
+**NEXT MICRO-STEP: none in flight — STAGE A1 IS BANKED (2fd4af3; pipeline complete:
+prereg → derivation → verifier round 1 → AM-A/B/C → closure → AM-D → CLOSED → four-check →
+bank+push). ON CHARLES'S DESK: the Stage A2 go (pointwise angular-live). DRIVER DEBT
+(post-bank, small): classify the 17 flagged registry entries (list in
+udt_p4_angular_stage_A1_2026-07-31/DECISION_SURFACE_UPDATE.md) — premise-scope notes per
+the #22 precedent; can be done any time. If you are the new model: present A1's results to
+Charles in LAY terms if not yet done, take his A2 ruling, draft the A2 prereg on his go
+(the T2/A1 contract patterns are the templates).**
 
 **CLOSEOUT DUTIES FOR THE NEW MODEL (when the list is done):** present the finished MAP to
 Charles in LAY terms (the time-live MAP walkthrough is the precedent — see the
