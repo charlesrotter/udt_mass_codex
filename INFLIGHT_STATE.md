@@ -33,7 +33,18 @@ is unstarted or in flight):**
 8. DONE — LIVE.md close-out + memory update.
 9. (Stretch, if tokens remain) T4-linear MAP skeleton, same pattern.
 
-**NEXT MICRO-STEP: none in flight — the ANGULAR MAP is DELIVERED (1ab4884) and awaits Charles's clearance (catch-point A#1). If you are the new model: read the MAP, present it to Charles in LAY terms (the time-live MAP walkthrough is the precedent), answer catch-point A#1 questions, HOLD for his ruling; Stage A1 prereg only after he clears. Increment 9 (T4-linear MAP skeleton) is optional stretch work if he authorizes.**
+**NEXT MICRO-STEP — STAGE A1 PIPELINE (Charles cleared: "Go, torus-first"):**
+- A1-p1 DONE — prereg committed (`udt_p4_angular_stage_A1_2026-07-31/PREREGISTRATION.md`).
+- A1-p2 IN FLIGHT — derivation agent running (chunked, TA-stages banked to disk in order;
+  if it dies, finished TA-stages survive in the package dir — a new agent resumes from the
+  first missing stage, same contract).
+- A1-p3 PENDING — blind adversarial verifier (zero-context; attack TA-1 metric-opening +
+  symmetry-fate hardest; C-1/C-2 independently).
+- A1-p4 PENDING — amendments + SAME-verifier closure (multi-round precedent).
+- A1-p5 PENDING — driver four-check into AUDIT_REPORT.md → pytest → commit+push bank →
+  LIVE.md close-out + memory. Then A2 needs Charles's go.
+IF YOU ARE THE NEW MODEL: continue from the first PENDING step above; the contract binds;
+chunked-output rules for every agent (CLAUDE.md).
 
 **CLOSEOUT DUTIES FOR THE NEW MODEL (when the list is done):** present the finished MAP to
 Charles in LAY terms (the time-live MAP walkthrough is the precedent — see the
