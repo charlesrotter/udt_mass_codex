@@ -211,3 +211,17 @@ Caveats: chemistry is QM's crown jewel (orbitals/Pauli) — the Postulate-A ladd
 (imports permitted, native re-derivation owed); all conjecture; but valence-as-deficit-
 count and fusion-as-merger need ZERO new mechanisms — the chain machinery already banked
 is their grammar.
+
+## 14. WORKED (exact, SymPy-verified in-session 2026-07-31): the Compton form on the saturation edge
+Inputs (both BANKED): M = 2ℓE0 (M-GEN); stability iff 64E0²ℓ⁴ ≤ g_p·c_m·π⁴ (the dichotomy).
+On the SATURATION locus (heaviest basin per size): E0 = π²√(g_p·c_m)/(8ℓ²) ⇒
+  **M = π²√(g_p·c_m)/(4ℓ)  ⇒  M·ℓ = (π²/4)·√(g_p·c_m) = CONSTANT**, d lnM/d lnℓ = −1 exactly.
+Off the locus M·ℓ = 2E0ℓ² is NOT constant — the constancy is the EDGE's property alone.
+Nature's one universal mass×size law is the COMPTON relation m·λ = ħ/c: same form, same
+exponent, one constant for every particle. CONJECTURE NOW EARNED BY ALGEBRA: if physical
+particles are basins AT saturation (marginally stable — as heavy as their size allows),
+the Compton relation's universality = the visible edge of the stability bound, and
+**ħ_geom = (π²/4)·√(g_p·c_m)·c** — a falsifiable seat for Planck's constant in the wall
+stiffnesses. Status: the algebra is EXACT (verified); the saturation-identification is
+conjecture; the ħ-seat tile (compute/refine the locus under the full machinery) is a
+named candidate contract for the next driver, behind A3.
