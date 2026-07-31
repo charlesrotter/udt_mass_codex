@@ -1,0 +1,255 @@
+{
+ "package": "udt_p4_timelive_stage_T2_2026-07-31",
+ "stage": "T2 (TU-1..TU-5; the pointwise reduction time-live, both lock-reading branches)",
+ "date": "2026-07-31",
+ "contract": "PREREGISTRATION.md (frozen before derivation)",
+ "TU1_verdict": "phi-dependence forcing INTACT time-live: shift-equivariance alone still forces Q = c_E e^{-phi} as the unique phi-channel; time-dependence opens NO new channel and closes none (new blocks shift-inert); t-leg factor = presentation-overlap datum with anchored combination c_E d_t phi; NEW derived alphabet gate: bare t excluded by T1-translations; psi-slack forces the invariant/frame alphabet split with D_x = d_x - (N/g_tt) d_t derived psi-invariant; layered character rule: K4 (t spectator) x T1 x metric-layer T-parity Z2 (conditional) x stratum N-parity Z2 (conditional)",
+ "TU2_verdict": "COORDINATE branch: all three R_N slots SURVIVE every re-posed pointwise requirement (K4-trivial FORCED; T-odd; witness R_N = N passes all gates; witness c_E d_t phi stratum-scoped); no new forced slot, no null slot in the N-sector; static trace-free forcing transfers verbatim. PROJECTED branch: same module space (reading-independent, derived \u2014 identical at the unconditional character layers; the stratum-conditional N-parity cut rides the coordinate reading: on psi-branch strata the projected branch carries the equivalent content in the slack-pairing typing, not as a pointwise cut [AMENDMENT 2026-07-31, verifier round 1]); R_N pairs chart-slack with exact legs a = -(sum R_A d_t A), b = R_N g_tt; the divergence identity between them is integration-layer, typed not imposed. Fork NOT resolved; both at same depth",
+ "TU3_verdict": "the banked static R_PW EMBEDS EXACTLY (no member lost, no deformation; all new cuts vanish on the static stratum); branch-independent (static stratum is diagonal where readings coincide); EH-form: field sector, trivial K4, bigrade <= (2,2), T-parity-matched (exact 2D witness: Ricci scalar even, ti-row odd); Bach: typed jets-3/4 class only (cited)",
+ "TU4_verdict": "the k_mod = 0 Noether identity EXTENDS VERBATIM (no time-components, no split; delta_gauge N = 0 and zero field sector derived); k_mod = 0 remains the only codim-1 cut (Groebner re-run); resonance locus typed + OPEN-PENDING-CENSUS (F-U8, not adjudicated); NEW stratum type: psi-branch chart-symmetry strata carry a discrete character cut (N-parity), no identity",
+ "TU5_verdict": "C-1 PASS (mechanical parse of the banked Stage-2 JSON: component table, module generators, stratum identities, alphabet dims all recovered EXACTLY; F-U7 not fired); C-2 diagonal-frozen control derived per branch (branch label degenerates on the stratum; stratum not chart-closed)",
+ "outcome_class": "OU-1: R_PW^T parametrized cleanly per branch \u2014 same character-matched module space on both lock-reading branches over the bigraded alphabet (identical at the unconditional character layers; the stratum-conditional N-parity cut rides the coordinate reading \u2014 on psi-branch strata the projected branch carries the equivalent content in the slack-pairing typing, not as a pointwise cut [AMENDMENT 2026-07-31, verifier round 1]), differing in the R_N sector's READING (physical vs chart-slack-paired), cut by the banked stratum identities (extended verbatim) plus the two derived conditional parity layers; static R_PW embeds exactly; controls pass",
+ "ceiling": "no response law selected; no fork decided; no solve; no cycle census; no spectrum; no physics \u2014 the ceiling binds regardless of what the algebra showed",
+ "falsifier_events": [],
+ "n_checks": 39,
+ "n_passed": 39,
+ "n_substantive": 28,
+ "n_guard": 11,
+ "all_passed": true,
+ "checks": [
+  {
+   "name": "S0_K4_and_generators_reused",
+   "kind": "GUARD",
+   "passed": true,
+   "note": "banked conventions re-run: K4 exact in SO+(1,3), six so(1,3) generators, closure (Route B / Stage-2 copy)"
+  },
+  {
+   "name": "TU1a_Q_forcing_timelive_p_eq_q",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "c_E^p e^{-q phi(x,t)} is shift-orbit-invariant iff p = q, i.e. iff it is a power of Q = c_E e^{-phi}: the STATIC forcing transfers verbatim with phi read at (x,t) \u2014 t is a spectator of the forcing; bare phi stays excluded (generic p != q witness nonzero)"
+  },
+  {
+   "name": "TU1b_bigraded_phi_jets_shift_invariant",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "d^{n}_x d^{m}_t (phi + s) = d^{n}_x d^{m}_t phi for all bigrades (n,m) <= (2,2) shown at (1,0),(0,1),(2,0),(1,1),(0,2): every bigraded phi-jet is a shift-invariant block \u2014 the time-jets enter the alphabet exactly as the banked spatial jets did"
+  },
+  {
+   "name": "TU1c_no_new_phi_channel_opened",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "for ANY shift-inert prefactor B (the shift row N, any bigraded field jet, f, bh, moduli): B * c_E^p e^{-q phi} has the same residual law exp((p-q)s) \u2014 invariance still holds iff p = q. TIME-DEPENDENCE OPENS NO NEW phi-CHANNEL AND CLOSES NONE: the phi-dependence forcing Q = c_E e^{-phi} (shift-equivariance alone) is INTACT time-live (TU-1 foundation verdict)"
+  },
+  {
+   "name": "TU1d_anchor_overlap_tleg_factor_derived",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "across anchor presentations (T1q map): d_t~ phi~ = e^{-s} d_t phi (the surfaced t-leg factor \u2014 a J07-type OVERLAP datum, not an on-chart channel); the anchored combination c_E * d_t phi is overlap-invariant; the radial shift N is overlap-invariant (e^{-s} * e^{s} = 1 on the (t,r) legs). On the registered chart (units pinned) the on-chart rule of TU1a/TU1b governs; this leg records the overlap law exactly"
+  },
+  {
+   "name": "TU1e_bare_t_excluded_by_time_translations",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "the residual chart symmetry contains t -> t + t0 (T1c): bare t shifts by t0 (residual = t0, not identically zero) so absolute-time dependence is NOT well defined on the residual quotient \u2014 bare t is excluded from the alphabet (NEW derived alphabet gate, the exact time analog of the banked bare-phi exclusion); field jets are translation-covariant (relabeled, not obstructed)"
+  },
+  {
+   "name": "TU1f_psi_invariant_derivative_derived",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "D_x = d_x - (N/g_tt) d_t is EXACTLY invariant under every slack map (zero-residual, symbolic in p1), while bare d_x shifts by p1 d_t: the psi-slack cocycle forces the bigraded jet layer to split into psi-INVARIANT blocks (d_t-jets, D_x-jets, gamma_xx, Q) and psi-FRAME blocks (d_x-jets, g_xx, N) \u2014 the derived content of J07's time-slack obligation at the pointwise layer"
+  },
+  {
+   "name": "TU1g_psi_invariant_alphabet_presentation_invertible",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "gamma_xx = g_xx + N^2 e^{2phi}/c^2 (the T1k split re-derived) and D_x phi = d_x phi + (N e^{2phi}/c^2) d_t phi: the map (d_x-jets, g_xx, N) <-> (D_x-jets, gamma_xx, N) is an invertible triangular reparametrization of the SAME bigraded alphabet \u2014 on the registered chart both presentations coexist; ACROSS charts only the invariant presentation transports trivially (the frame presentation carries the additive psi-cocycle, banked T2i)"
+  },
+  {
+   "name": "TU1h_T_parity_table_derived",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "on a generic degree-3 model: the mirror-composed fields (phi even, N odd \u2014 the DERIVED T2a parities) give bigraded-jet parities (d_t^m d_x^n phi)-block = (-1)^m, (d_t^m d_x^n N)-block = (-1)^{m+1}; AND the psi-invariant derivative D_x phi is T-EVEN (the N-flip and the d_t-flip cancel): T-parity of a block = (-1)^{(time-jet order) + (N-factor count)} \u2014 a derived Z2 grading of the whole alphabet. LAYER STAMP: imposed as a character rule at the METRIC layer only (coframe layer: the reflection is SO+-obstructed, T1g/T1i \u2014 admitting it there is a CHOSE)"
+  },
+  {
+   "name": "TU1i_stratum_Z2_is_pure_N_parity_in_invariant_alphabet",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "under psi' = -2N/g_tt (T1p3 branch, lawful where 2N e^{2phi}/c^2 is t-independent): N -> -N while the clock row, spatial row, BOTH lock readings, d_t, AND D_x are all exactly preserved \u2014 in the psi-invariant alphabet the stratum-conditional Z2 is PURE N-parity. It is DISCRETE: it imposes a stratum-conditional CHARACTER cut (components N-parity-matched to their paired directions on the lawful strata), and NO Noether identity (no continuous parameter \u2014 the exact analog of K4's status, banked)"
+  },
+  {
+   "name": "TU1j_layered_character_rule_assembled",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "layered rule: components must be (i) K4-character-matched (t spectator, banked), (ii) built without bare t (T1-translations), (iii) T-parity-matched to their paired direction AT THE METRIC LAYER (R_N odd since delta-N flips; field/moduli components even), (iv) N-parity-matched ON the psi-branch strata (coordinate reading). Table entries grounded on the TU1h model: parity(d_t phi) = odd, parity(d_t N) = even, parity(N) = odd. Layers (iii)/(iv) carry their conditionality stamps \u2014 they are CUTS only where their symmetry is granted/lawful"
+  },
+  {
+   "name": "TU1k_odd_module_generated_by_odd_blocks",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "exhaustive to degree 4 on a representative 3-odd/3-even block set: every odd-parity monomial = (one odd block) x (even-parity monomial) \u2014 the T-odd (and N-odd) component modules are generated over the even subring by the odd blocks (general degree: remove one odd factor, the remainder's odd-degree drops by one = even \u2014 the banked parity argument re-instantiated); so e.g. R_N (T-odd at the metric layer) = sum over odd blocks {N, d_t phi, d_t f, d_t bh, d_x d_t (fields), d_x N, ...} x even coefficients"
+  },
+  {
+   "name": "TU1l_K4_characters_t_spectator_rerun",
+   "kind": "GUARD",
+   "passed": true,
+   "note": "banked T1s re-run: with every moduli entry an arbitrary function of (x,t) the K4 characters hold unchanged (lam, k_mod invariant; k10 chi_a; C signed flips) \u2014 t spectator of the quotient"
+  },
+  {
+   "name": "TU2a_N_sector_no_forced_slot_no_null_slot",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "N-sector pairing Gram = I3 (nondegenerate, no annihilator): every delta-N_i direction is paired by exactly its own component \u2014 NO null slot, NO trace/trace-free split exists (a vector row, not a symmetric kernel), so NO new forced-slot theorem arises in the N-sector; the screen sector's structure (Gram diag(2,2,1), E12 null slot) is unchanged \u2014 the static trace-free slot FORCING transfers verbatim (its fate: INTACT)"
+  },
+  {
+   "name": "TU2b_delta_gauge_N_zero",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "g = E^T eta E is exactly invariant under E -> Lam E for the K4 elements AND a generic boost (symbolic 16-entry coframe): every metric component \u2014 the shift row N included \u2014 is a local-Lorentz INVARIANT, so delta_gauge N = 0 identically: the R_N slots pair NO gauge direction and drop out of every Noether pairing (feeds TU-4)"
+  },
+  {
+   "name": "TU2c_RN_K4_trivial_forced",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "delta-N is K4-inert (TU2b: K4 acts through the frame, the metric row is invariant), so character matching FORCES R_N to carry the trivial K4 character: witness k10*N (chi_a dependence) breaks equivariance, N itself is inert \u2014 R_N in (A^T)-trivial, exactly like the field components; NO chi-module dresses the N-row"
+  },
+  {
+   "name": "TU2d_RN_survives_all_PW_requirements_coordinate",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "COORDINATE-BRANCH R_N VERDICT: the witness R_N = N is shift-orbit-inert (J04), bare-t-free (TU1e), K4-trivial (R7a), T-parity ODD = the parity of delta-N (metric layer), N-parity ODD on the psi-branch strata, unconstrained by every stratum Noether identity (delta_gauge N = 0, TU2b), censused (R1/R2: O17), pointwise (R13), off-shell (R12/J14): ALL THREE R_N SLOTS SURVIVE the re-posed pointwise requirement set as PHYSICAL-CONTENT components \u2014 the coordinate branch's new pointwise content is REAL at this layer (fork not decided; status rides the lock reading)"
+  },
+  {
+   "name": "TU2e_RN_witness_dtphi_stratum_scoped",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "R_N = c_E d_t phi: T-odd (legal at the metric layer), anchor-overlap-invariant (TU1d), K4-trivial \u2014 but N-parity EVEN while delta-N is N-odd: on the strata where the Z2 psi-branch is lawful (2N e^{2phi}/c^2 t-independent, coordinate reading) it FAILS the stratum character cut \u2014 a member of R_PW^T OFF those strata only (per-witness stratum stamps, the exact time-live recurrence of the banked omega-witness discipline)"
+  },
+  {
+   "name": "TU2f_screen_slot_structure_t_spectator",
+   "kind": "GUARD",
+   "passed": true,
+   "note": "banked PW3 re-run with every symbol read at (x,t): R_lambda = 2 r_tr, R_kmod = 2 r_tf, R_k10 = r_sh \u2014 the slot decomposition is pointwise-algebraic, t spectator"
+  },
+  {
+   "name": "TU2g_tracefree_slot_theorem_timelive",
+   "kind": "GUARD",
+   "passed": true,
+   "note": "banked slot theorem re-run t-live: a kernel with zero trace-free slot has R_kmod = 0 identically \u2014 k_mod-sensitivity REQUIRES the trace-free slot; the static forced-slot theorem's fate = TRANSFERS VERBATIM (R4's exact conditions are t-blind, banked T2g/T2h)"
+  },
+  {
+   "name": "TU2h_projected_branch_slack_pairing_legs_exact",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "the pointwise pairing of the response with an infinitesimal slack map is EXACTLY a*psi + b*psi' with DRAG LEG a = -(R_phi d_t phi + R_f d_t f + R_bh d_t bh + R_N d_t N) [moduli drags join on the m(t)/m(x,t) readings \u2014 typed, carried] and SLOPE LEG b = R_N * g_tt: on the PROJECTED branch (slack = chart-gauge) the R_N slots pair PURE CHART-SLACK through b; the resulting Noether-SECOND-theorem divergence identity between a and b lives at the INTEGRATION layer (needs the declared pairing + time-domain datum) \u2014 POSED, typed, NOT imposed pointwise (no pointwise kill of R_N is derivable here); on the COORDINATE branch the same two legs are J07 overlap-transport data, no identity owed. F-U2 self-audit: derived from chart maps on covariant rows; no foliation/ADM object used"
+  },
+  {
+   "name": "TU2i_module_space_reading_independent",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "the two registered presentations (coordinate: d_x-jets, g_xx, N | projected: D_x-jets, gamma_xx, overlap data) are related by the invertible triangular alphabet map (TU1g) which PRESERVES every character layer (K4: both sides inert; T-parity: d_x phi even = (N odd)x(d_t phi odd) even \u2014 computed; shift-orbit: both sides inert): the character-matched module parametrization of R_PW^T is IDENTICAL on both lock-reading branches \u2014 the fork changes the READING of the R_N sector (physical-content components vs chart-slack pairings subject to the typed integration-layer identity), NOT the pointwise shape (a MAP FACT, not a fork resolution; F-U4 honored)"
+  },
+  {
+   "name": "TU2j_J06_N_family_both_branches_nonempty",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "N-family J06 branch structure: DETERMINED branch witness R_N = N (nonzero, all characters matched \u2014 TU2d); RETAINED branch witness R_N == 0 with N reported residual (the zero component is trivially character-matched): both are open sub-loci of R_PW^T; NO branch chosen. On the projected branch the same table reads: slack-pairing present vs absent \u2014 carried per reading"
+  },
+  {
+   "name": "TU3a_static_RPW_embeds_exactly_no_loss_no_deformation",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "every block of the banked static alphabet is T-even AND N-even (no static block carries a t-jet or an N factor), and every banked component pairs a T-even direction: the metric-layer T-parity cut and the stratum Z2 N-parity cut are AUTOMATICALLY satisfied by every banked member; the stratum Noether identities restrict to the banked ones identically (moduli-sector, TU4); delta_gauge N = 0 adds no new identity component (TU2b): the banked R_PW EMBEDS EXACTLY as the time-independent stratum of R_PW^T \u2014 NO member lost, NO deformation; the enrichment is purely TRANSVERSE (R_N row + t-jet dependence). BRANCH STAMP: identical on both lock-reading branches \u2014 the static stratum is diagonal (N = 0), where the two readings coincide IDENTICALLY (T1 C2a re-run below)"
+  },
+  {
+   "name": "TU3b_EH_parity_witness_exact_2d",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "exact 2D witness (generic degree-2 tt-profile E, N, G; LINK: phi even-composed <=> E = e^{-2phi} even-composed, checked exactly on the TU1h model): under the DERIVED temporal-mirror composition (phi even, N odd, spatial even \u2014 banked T2a) the Ricci scalar transforms EVEN (every Rsc summand adj*RicN has even parity over the even denominators \u2014 parity arithmetic on per-entry checked numerators) and the ti-component Ric_tx transforms ODD (RicN[0,1] odd over the even (2 det)^2): curvature-built (EH-form) responses are T-PARITY-MATCHED \u2014 scalar/spatial rows even (pairing delta phi etc.), ti-row odd (pairing delta N). EH PLACEMENT time-live: field sector, trivial K4 character, bigrade <= (2,2) (2nd derivatives \u2014 visible in this exact computation), T-parity-matched; on the coordinate branch its ti-row pairs the PHYSICAL delta N, on the projected branch the same expression pairs chart-slack (reading rides the fork). Bach-form: jets 3/4, typed class only (banked TC2, cited). 4D generality: tensor naturality under t -> -t (Category-A, cited); this 2D leg is the in-package exact instance"
+  },
+  {
+   "name": "TU3c_EH_time_jet_content_le2",
+   "kind": "GUARD",
+   "passed": true,
+   "note": "the exact 2D Ricci numerators depend on the t^2-coefficients of E and G (2nd time-jets genuinely enter), and the computation applies at most TWO derivatives by construction (one in GamN, one in RicN): the EH-form's time-jet content is <= 2 \u2014 inside the declared bigraded layer (in-package instance of the cited TC3 fact)"
+  },
+  {
+   "name": "TU4a_tangency_system_t_spectator_N_blind",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "the time-live pointwise tangency system's entries involve ONLY the seven moduli symbols (each read as an arbitrary function of (x,t)): no t-jet, no N, no field block enters \u2014 the R7(b) identity layer is t-SPECTATOR and N-BLIND; generic rank 6 / empty nullspace re-derived (R7(b) generically vacuous, time-live)"
+  },
+  {
+   "name": "TU4b_kmod0_identity_extends_verbatim",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "all 36 nonzero 6x6 minors divisible by (k00 - k11) [all-member proof, t-live symbols]; on k_mod = 0 the nullspace is span(L23); the FULL time-live pairing (screen + mixing + THE THREE R_N SLOTS + field slots) equals the banked identity EXACTLY: -2 k10 r_tf + m00 c10 + m01 c11 - m10 c00 - m11 c01 = 0 \u2014 the identity EXTENDS VERBATIM, GAINS NO TIME-COMPONENTS, DOES NOT SPLIT (delta_gauge N = 0 and zero field sector kill every candidate new term); BRANCH STAMP: identical on both lock-reading branches (the identity is moduli-sector; the branch difference lives in the N-sector, which drops out)"
+  },
+  {
+   "name": "TU4c_kmod0_only_codim1_cut_timelive",
+   "kind": "GUARD",
+   "passed": true,
+   "note": "banked confinement re-run on the t-live system: every rank-drop point lies in {k_mod = 0} UNION the eigenvalue resonances {lam -+ k_mod in {+-1}} \u2014 k_mod = 0 remains the only CODIMENSION-1 cut time-live (the codim-1 layer is exhaustive)"
+  },
+  {
+   "name": "TU4d_resonance_locus_typed_open_pending_census",
+   "kind": "GUARD",
+   "passed": true,
+   "note": "the banked resonance content (four named strata + the shear-identity example + the typed-not-exhausted stamp) travels as CITATION; its time-live fate is stamped OPEN-PENDING-CENSUS, not adjudicated \u2014 the t-spectator/N-blind facts of TU4a apply to the SYSTEM, and are recorded; per-stratum time-live identities await the queued census"
+  },
+  {
+   "name": "TU4e_psi_branch_strata_typed_character_not_identity",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "the time-live domain adds a NEW stratum TYPE: the chart-symmetry strata where the Z2 psi-branch is lawful (2N e^{2phi}/c^2 t-independent; coordinate reading) \u2014 on them the residual group enlarges DISCRETELY, so the new stratum carries a CHARACTER cut (N-parity, TU1i/TU1j) and NO Noether identity (no continuous parameter) \u2014 the exact analog of K4's banked status, and DISJOINT in kind from the moduli degeneration strata (which carry identities from CONTINUOUS tangent gauge directions)"
+  },
+  {
+   "name": "C1a_component_table_static_recovery_mechanical",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "killing the R_N and branch-(c) slots recovers the banked 12-component table EXACTLY, in order, character-for-character (banked JSON parsed mechanically: 12 rows). F-U7 NOT fired"
+  },
+  {
+   "name": "C1b_module_generators_static_recovery_mechanical",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "the banked chi_a/chi_b/chi_c module generator strings, parsed mechanically from the JSON, equal my time-live module generators EXACTLY as expressions (the K4 layer of R_PW^T restricts to the banked one; t was a spectator throughout). F-U7 NOT fired"
+  },
+  {
+   "name": "C1c_stratum_identities_static_recovery_mechanical",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "the banked k_mod = 0 identity and the banked shear identity, parsed mechanically from the JSON strings, equal my re-derived time-live expressions EXACTLY: the identity strata of R_PW^T restrict to the banked cuts identically. F-U7 NOT fired"
+  },
+  {
+   "name": "C1d_alphabet_dims_static_recovery",
+   "kind": "GUARD",
+   "passed": true,
+   "note": "the time-independent restriction of the bigraded alphabet (time-jet order 0, N-blocks killed) has functional dims 10/13/16 per spatial grade = the banked dims exactly (JSON parsed mechanically)"
+  },
+  {
+   "name": "C2a_diagonal_frozen_control_per_branch",
+   "kind": "SUBSTANTIVE",
+   "passed": true,
+   "note": "on N = 0 the two lock readings coincide IDENTICALLY (gamma_xx = g_xx), so the BRANCH LABEL DEGENERATES on the control stratum: the diagonal-frozen time-live space is the SAME on both branches = banked static component structure x the bigraded alphabet WITHOUT N-blocks (t-jets live, R_N slots present at N = 0 pairing transverse directions); the stratum is NOT chart-closed (a slack map regenerates N' = g_tt psi' != 0 \u2014 banked C2b re-run): shift-off remains a chart-conditional CONTROL, never a physics restriction; the branches differ off the stratum exactly as derived (TU2h/TU2i)"
+  },
+  {
+   "name": "R2_J05_component_coverage_timelive",
+   "kind": "GUARD",
+   "passed": true,
+   "note": "one component slot per 18-census direction (12 banked + 3 R_N + 2 branch-(c) TYPED slots; alpha/c_E forks enter on their labeled branches as banked): a missing R_N slot would be the static era's presentation-freeze made visible (coordinate reading) \u2014 R2 honored; J05 full tangent paired (delta-N and bigraded jet directions included); J13 discriminator slots (k_mod, C) retained; theta ABSENT; no cycle/completion content (F-U1 self-audit)"
+  },
+  {
+   "name": "G3_no_floats_numeric_solvers_or_rng",
+   "kind": "GUARD",
+   "passed": true,
+   "note": "source scan: no numeric solvers, no float-evaluation calls, no RNG, no array/GPU libraries, no float literals \u2014 exact and deterministic"
+  },
+  {
+   "name": "G1_results_json_written_and_roundtrips",
+   "kind": "GUARD",
+   "passed": true,
+   "note": "timelive_T2_results.json written and round-trips; G1 is counted in the tally and a G1 failure flips the exit code (T1 amendment precedent, wired)"
+  }
+ ]
+}
