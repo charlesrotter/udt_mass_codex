@@ -86,15 +86,26 @@ Per the recon, static-ness was never derived — it is a tagged CHOSE all the wa
   (a) time = infinite line (the silent inherited default — a HABIT if unexamined);
   (b) time = circle (imposed periodicity — an IMPOSITION if chosen to chase the bridge
       hope; legal only if DERIVED from completion requirements);
-  (c) time = finite time-cell with its own completion question (the native-consistency
-      candidate: does the finite-cell principle extend to the time direction? — the
-      time-analog of the spatial completion class L4, with time-walls, time-seams, and a
-      time-completion census).
+  (c) time = finite time-cell with its own completion question (the time-analog of the
+      spatial completion class L4, with time-walls, time-seams, and a time-completion
+      census).
   TAG: FREE-AND-EXPLORED — all three branches carried and typed; NONE adopted. The bridge
   hope lives exclusively on (b)/(c); that is exactly why (a) must be genuinely explored
-  too. [Charles catch-point #2 — the frame question: does "no spatial infinity" have a
-  temporal sibling, or is time genuinely different in this theory? This is a PONDER
-  question before it is a derivation question.]
+  too.
+  **OWNER-KERNEL CLARIFICATION (Charles, 2026-07-31, amending this ledger row and closing
+  the MAP's original catch-point #2):** the finite-cell principle is NOT owner bedrock —
+  Charles's owned kernel is exactly: (i) static universe = NON-EXPANDING, with time
+  FLOWING ("not that time doesn't flow"); (ii) x_max = a maximum allowable DISTANCE between
+  two observers (spatial; derivation held); (iii) very likely a FINITE total mass-energy.
+  The cell decomposition and the "no spatial infinity" principle (C-2026-06-10-2) are a
+  handover-day RATIFIED PROGRAM CONSTRUCTION on that kernel (same provenance class as the
+  mirror clause, G18). CONSEQUENCE FOR THIS FORK: the owner kernel is SILENT on time-extent
+  and affirmative that time FLOWS — branches (b) and (c) have NO owner-kernel standing and
+  no bedrock backstop; if either is to enter, it must be DERIVED from the metric/
+  requirements outright (or arrive as a tagged free exploration), never motivated by "the
+  finite-cell principle suggests it". Branch (a) is the least-imposed relative to the
+  kernel. The bridge hope thus loses its comfortable foundation story — which raises, not
+  lowers, the verification bar on any (b)/(c) finding.
 - **T-L4. The requirement set on the time-live domain.** R1–R15 were formalized on the
   static footing and are near-silent on time (recon Task 3). Each must be RE-POSED
   time-live, not assumed to transfer; new requirements may genuinely appear (R7's off-shell
