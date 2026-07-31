@@ -57,11 +57,14 @@ both lock-reading branches — the fork changes the R_N sector's READING, not th
 shape ⇒ the fork's decision is safely deferrable past the pointwise layer** (stratum
 qualifier travels). Static ℛ_PW EMBEDS EXACTLY; the k_mod=0 Noether identity EXTENDS
 VERBATIM (still the only codim-1 cut, verifier re-ran the elimination); C-1 static recovery
-EXACT; resonance locus OPEN-PENDING-CENSUS. ON CHARLES'S DESK: **the Stage T3 go — THE
-CYCLE/COMPLETION CENSUS WITH TIME (the bridge hope's honest test: does the time direction
-create new cycles, and do any carry both integer conditions and the massive structure —
-maximum anti-targeting, the period-gate discipline; runs per topology branch × lock-reading
-branch)**; its contract drafts on his go. BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
+EXACT; resonance locus OPEN-PENDING-CENSUS. **CHARLES: GO (2026-07-31) — STAGE T3 LAUNCHED** (contract
+`udt_p4_timelive_stage_T3_2026-07-31/PREREGISTRATION.md`): THE BRIDGE TEST — the cycle/
+completion census WITH TIME, per topology branch × spatial completion × integer layer
+(native AND IF-ADOPTED θ, separately stamped); the disjointness theorem re-examined with
+time-cycles present; the τ=e^{−φ}T depth-lock derived as the first time-period constraint;
+MAXIMUM anti-targeting (marriage legs get the arc's hardest verification; a marriage
+finding banks PROVISIONAL until verified); C-1 must recover the banked period-gate verdicts
+exactly; no topology adopted, no θ adopted, no spectrum. BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
 the R1 menu; the queued tiles (resonance census = verifier-required precondition;
 index-exactly-1 numeric; hopfion-bridge at driver discretion; the named unrun seats incl.
 the cycle+pin completion — the only named spatial road to marrying integers and mass).
