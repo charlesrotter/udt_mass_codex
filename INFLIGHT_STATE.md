@@ -16,7 +16,7 @@ staged program → tripwires).
 **INCREMENT LIST (mark each DONE as its commit lands; everything below NOT marked DONE
 is unstarted or in flight):**
 1. DONE — this state file created + LIVE.md pointer.
-2. PENDING — owed debt: NEGATIVES_REGISTRY #22 premise-scope annotation (T1 re-grade, cite
+2. DONE — owed debt: NEGATIVES_REGISTRY #22 premise-scope annotation (T1 re-grade, cite
    `udt_p4_timelive_stage_T1_2026-07-31/` — the re-grade verdict: #22's premise set
    (diagonal, C1-only, old-operator) does not cover the time-live P4 domain; scoped, no
    blocking authority there).
@@ -34,7 +34,7 @@ is unstarted or in flight):**
    Charles's clearance"); memory update.
 9. (Stretch, if tokens remain) T4-linear MAP skeleton, same pattern.
 
-**NEXT MICRO-STEP: increment 2 (the #22 registry annotation).**
+**NEXT MICRO-STEP: increment 3 (the angular-kills recon greps → MAP §2 material).**
 
 **CLOSEOUT DUTIES FOR THE NEW MODEL (when the list is done):** present the finished MAP to
 Charles in LAY terms (the time-live MAP walkthrough is the precedent — see the

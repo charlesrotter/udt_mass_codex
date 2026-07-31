@@ -459,6 +459,13 @@ banked negative as blocking.
     the native w-stiffness sector (now the program's forced object).
     The only T-bounded oscillatory sector: the attractive seal family
     h > h_c (the theta-dial). Same-minus upgraded premise -> theorem.
+    [PREMISE-SCOPE RE-GRADE, 2026-07-31 (Stage T1, f2343b7 —
+    verifier-adjudicated sound): #22's premise set (old-operator P1
+    class, C1-only, axisymmetric even sector) does NOT cover the
+    time-live P4 response domain (the native-operator, everything-on,
+    shift-live re-posing). SCOPED — #22 retains its verdict inside its
+    own premise set but carries NO blocking authority over the
+    time-live P4 lane. Cite: udt_p4_timelive_stage_T1_2026-07-31/.]
     *** CONDITIONS-CHANGED 2026-06-13 (solution_space_map.md; ns_scan_*;
     blind-verified a9cfcd85385bff920, ns_scan_verifier_results.md): the
     clause "NO SECTOR PROPAGATES HYPERBOLICALLY IN T" and "cells do not
