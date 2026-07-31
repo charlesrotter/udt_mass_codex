@@ -116,3 +116,21 @@ by conflict: a boundary, not a failure. Speculative native route (unexplored): i
 fluctuation role could have a geometric seat — the "later emergence" door Postulate A
 deliberately left open. Near-term falsifiable tier stays structural (ratios; exact charge
 integers); the precision-dynamics tier is the mountain after the mountain.
+
+## 10. CORRECTION (Charles, session close — supersedes §9's framing, binding)
+§9 made two errors Charles caught. (1) It stated QM's MECHANISM ("the anomaly comes from
+vacuum fluctuations") as if it were the observation. WRONG: the OBSERVATION is the number
+g = 2.00231930436…; "vacuum fluctuations/loops" is QM's IMPORTED EXPLANATION of it — one
+account, not a fact. UDT's obligation is to MATCH THE NUMBER (Principle 3), by whatever
+native account the metric provides — possibly the basin's own circle-sector geometry
+contributing to its magnetic response, possibly a fluctuating φ-medium, possibly something
+unimagined — and presuming QM's mechanism is exactly the import reflex the charter
+polices (see no-presumed-quantum-sector). (2) "Beyond reach by declared scope" hardened
+Postulate A into a fence. WRONG: Charles's ruling — "nothing is outside our scope. I've
+allowed the use of imported concepts to let us close work, IF NEEDED, with the caveat
+that after closure might be achieved, we can then see how those imports may have UDT
+native explanations." POSTULATE A IS A LADDER, NOT A WALL: imports are scaffolding
+permitted to reach closure, each carrying a standing debt of later native re-derivation.
+g−2 and every precision observable are IN SCOPE — the structural tier (ratios, charge
+integers) comes first by SEQUENCING (nearest rungs), not by boundary. No observation is
+fenced off, ever.
