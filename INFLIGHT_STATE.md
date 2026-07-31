@@ -51,6 +51,10 @@ ruling; the DRIVER TRIGGERS fire on your own outputs).
 **R1. Confirm the gate.** Charles's "A3 go" in your conversation. Without it: STOP after
 orientation, report readiness, wait.
 
+**NOTE: derive_angular_A3.py and all A3 package artifacts (beyond the PREREGISTRATION and
+REHEARSAL_VERDICT files) are CREATED BY the derivation agent — their absence before launch
+is correct.**
+
 **R2. Dispatch the DERIVATION agent** (general-purpose agent, background). Prompt = the
 following skeleton, verbatim structure (fill nothing else in):
   "You are the DERIVATION agent for Stage A3 in /home/udt-admin/udt_mass_codex (branch
@@ -76,7 +80,7 @@ following skeleton, verbatim structure (fill nothing else in):
   counts + exit; outcome class; F-events."
 
 **R3. On the derivation report:** update this ledger (commit+push, message "A3 ledger:
-derivation done, verifier in flight"), (derive_angular_A3.py and all package artifacts are CREATED BY the derivation agent — their absence before launch is correct.) Then dispatch the BLIND VERIFIER (general-purpose,
+derivation done, verifier in flight"), Then dispatch the BLIND VERIFIER (general-purpose,
 background, ZERO context — do not tell it the findings beyond the package location).
 Prompt skeleton: "You are a BLIND ADVERSARIAL VERIFIER with zero prior context in
 /home/udt-admin/udt_mass_codex (branch grok). Package: udt_p4_angular_stage_A3_2026-07-31/
