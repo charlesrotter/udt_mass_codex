@@ -222,6 +222,6 @@ exponent, one constant for every particle. CONJECTURE NOW EARNED BY ALGEBRA: if 
 particles are basins AT saturation (marginally stable — as heavy as their size allows),
 the Compton relation's universality = the visible edge of the stability bound, and
 **ħ_geom = (π²/4)·√(g_p·c_m)·c** — a falsifiable seat for Planck's constant in the wall
-stiffnesses. Status: the algebra is EXACT (verified); the saturation-identification is
+stiffnesses. Status: LEAD, ponder-grade — the algebra is exact per a DRIVER-RUN in-session SymPy check ONLY (no preregistration, no blind verifier — NOT a banked result; the four-check does not apply and is not claimed); the saturation-identification is
 conjecture; the ħ-seat tile (compute/refine the locus under the full machinery) is a
 named candidate contract for the next driver, behind A3.
