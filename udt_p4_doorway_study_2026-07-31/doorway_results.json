@@ -1,0 +1,232 @@
+{
+ "checks": [
+  {
+   "detail": "d(sigma3) = -sin(theta) dtheta^dphi != 0 exactly; a global function F with dF = sigma3 would force d(sigma3)=0 (d^2=0): the fiber phase is NOT a globally-defined field",
+   "kind": "SUBSTANTIVE",
+   "name": "C1a_hopf_connection_not_closed",
+   "ok": true
+  },
+  {
+   "detail": "integral of d(sigma3) over the base S2 = -4*pi != 0 exact (one fiber period 4*pi, Chern class +-1): the Hopf bundle admits NO global section -- promotion of the fiber phase to a single global field FAILS with this exact obstruction",
+   "kind": "SUBSTANTIVE",
+   "name": "C1a_chern_obstruction_integral",
+   "ok": true
+  },
+  {
+   "detail": "per-chart fiber phases exist (potentials regular at the respective poles): the fiber phase IS definable chart-locally",
+   "kind": "SUBSTANTIVE",
+   "name": "C1b_local_potentials_both_valid",
+   "ok": true
+  },
+  {
+   "detail": "chart mismatch of the fiber phase = -2*dphi; equatorial loop integral = -4*pi = (-1) x (fiber period 4*pi): the transition datum is CIRCLE-VALUED with winding -1 -- the theory OWNS a circle-valued transition law (delivered to C5), not a global field",
+   "kind": "SUBSTANTIVE",
+   "name": "C1b_transition_is_circle_valued_winding_one",
+   "ok": true
+  },
+  {
+   "detail": "CREDITED ADOPTION (verifier G1): the Chern obstruction -4*pi re-derived by a SECOND route -- Stokes via the two trivializations psi_N = psi + phi, psi_S = psi - phi (equatorial loop integral of aN - aS) agrees exactly with the direct S2 integration of d(sigma3): two independent routes, one integer -- the C1 obstruction is route-independent",
+   "kind": "SUBSTANTIVE",
+   "name": "C1a_chern_second_route_stokes_credited",
+   "ok": true
+  },
+  {
+   "detail": "the registered 1D presentation fields are (phi, f, bh), all REAL (banked arena record/period gate stamps); the fiber phase is NOT among them: C1 promotion would ADD a field = C5's registration question, with C1 delivering an OWNED target circle (period 4*pi) and an OWNED circle-valued transition datum (winding 1)",
+   "kind": "GUARD",
+   "name": "C1c_registered_fields_are_real_guard",
+   "ok": true
+  },
+  {
+   "detail": "all 104 banked two-cap pairs: det recomputed from the cap vectors, matches the banked column, |det| = 1 every row => pi1(capped arena) = Z/1 = TRIVIAL (re-instantiated)",
+   "kind": "SUBSTANTIVE",
+   "name": "C1d_cap_census_dets_recomputed_all_unit",
+   "ok": true
+  },
+  {
+   "detail": "winding of ANY circle-valued field is a hom pi1 -> Z; pi1 trivial => winding == 0 on every 1-cycle of the capped S3/toric sector: the arena's own angular cycles offer NO home for an integer (the banked capped/torsion obstruction, confronted)",
+   "kind": "SUBSTANTIVE",
+   "name": "C1d_no_winding_home_in_arena_cycles",
+   "ok": true
+  },
+  {
+   "detail": "the toric angle, read as a circle-valued map on a loop around its cap axis, has winding = 1 exactly",
+   "kind": "SUBSTANTIVE",
+   "name": "C2a_toric_angle_winding_one_at_cap",
+   "ok": true
+  },
+  {
+   "detail": "the only integer multiple of 2*pi with |.| < 2*pi is 0 (|+-2*pi| < 2*pi is False, exact): an arc-confined loop has winding 0; with winding's homotopy/radius invariance (NAMED Category-A step, banked precedent lane) the winding-1 angle map admits NO continuous extension over the cap: the toric angle is NOT a field on the capped arena. O4 note (verifier): the SymPy content here is deliberately thin (a period integral + a lattice-point fact); the load-bearing step is the NAMED Category-A winding-invariance -- banked convention, honest because named",
+   "kind": "SUBSTANTIVE",
+   "name": "C2a_arc_confined_loop_has_zero_winding",
+   "ok": true
+  },
+  {
+   "detail": "combining C1d (pi1 of the capped S3/toric sector TRIVIAL, recomputed) with the banked period-gate cycle census (CITED: the only live non-torsion cycles are the two-sided CYCLIC completion cycle (Z translation, x-direction) and J11 chart-transition loops): a winding built from the toric angles has NOWHERE to live -- an x-dependent phase on the completion cycle is not a toric angle but a NEW field = C5. C2 VERDICT: FAILS, by exactly the banked capped/torsion obstruction (confronted head-on)",
+   "kind": "GUARD",
+   "name": "C2b_no_live_home_for_toric_winding",
+   "ok": true
+  },
+  {
+   "detail": "R' = J R, R(0) = I (Picard-named uniqueness => R = exp(tJ)); R(2*pi) = I, R(pi) = -I != I: the banked screen SO(2) IS a genuine owned compact circle, period 2*pi -- the ONE compact group in the banked equivariance",
+   "kind": "SUBSTANTIVE",
+   "name": "C3a_screen_SO2_is_owned_circle",
+   "ok": true
+  },
+  {
+   "detail": "SO(2) intersect (signed diagonals = the K4-compatible screen forms in the registered triangular chart) <=> sin(t) = 0 <=> t in pi*Z: exactly {I, -I} = the 2-TORSION subgroup; the banked K4 screen characters +-1 are precisely the 2-torsion shadow of the owned circle -- the registered chart SPENDS the compactness as gauge fixing",
+   "kind": "SUBSTANTIVE",
+   "name": "C3b_chart_keeps_only_2torsion_of_circle",
+   "ok": true
+  },
+  {
+   "detail": "{z real, z^2 = 1} = {+-1} exactly: the banked REAL holonomy targets' +-1 characters are the real points of the owned circle -- the real-targets theorem and the owned SO(2) are the SAME structure seen through the chart. O3 nuance (verifier): the identification is of character VALUES {+-1} and of the chart-surviving subgroup {I, -I}; K4 itself (order 4) does NOT embed in the circle -- two of its four screen blocks (diag(-1,1), diag(1,-1)) are det = -1 non-circle members",
+   "kind": "SUBSTANTIVE",
+   "name": "C3b_K4_characters_are_real_points_of_U1",
+   "ok": true
+  },
+  {
+   "detail": "lower-triangular generators: diagonal part e^{T a} = 1 <=> T a = 0 (real exp point kernel, solveset over R = {0} at a != 0); strictly-lower part nilpotent, exp = I + T X = I <=> T X = 0: the chart's block group (rho = e^{dx H}, positive triangular Q, L) contains NO nontrivial compact subgroup -- no U(1) is OWNED there",
+   "kind": "SUBSTANTIVE",
+   "name": "C3b_triangular_chart_group_no_compact_subgroup",
+   "ok": true
+  },
+  {
+   "detail": "the banked unanchored screen-rotation dressing obeys theta' + 2 kmod(x) theta = 0; the anchor E(0) = I forces theta(0) = 0 => theta == 0 (exact dsolve; Route D 1.5 recomputed): on the anchored registered footing the SO(2) phase is PURE PRESENTATION -- anchored orbits are singletons; promoting the dressing to a field adds NO invariant content and leaves every banked holonomy target REAL (F-D5: no genuine change)",
+   "kind": "SUBSTANTIVE",
+   "name": "C3c_dressing_anchored_to_zero",
+   "ok": true
+  },
+  {
+   "detail": "e^{T diag(-k,k)} = diag(e^{-Tk}, e^{Tk}) = I <=> Tk = 0 <=> T = 0 at k != 0 (real spectrum, point kernel): the E07 one-parameter subgroup is a CLOSED R-embedding -- no compact factor at ANY parameter value; same form kills H = diag(-1,+1) (E-block)",
+   "kind": "SUBSTANTIVE",
+   "name": "C4a_E07_point_kernel",
+   "ok": true
+  },
+  {
+   "detail": "the banked E08 cocycle group (law u12 = u1 + e^{-phi1} u2; associativity recomputed, zero residual) is R semidirect R, simply-connected solvable: an n-th root of the identity forces n*phi = 0 => phi = 0, then u_n = n*u = 0 => u = 0 (n = 2, 3 instantiated exactly): NO nontrivial torsion, NO compact subgroup -- the expected FAIL, with the exact failure form = real spectrum / solvable simply-connected, i.e. the real-targets theorem at GROUP level",
+   "kind": "SUBSTANTIVE",
+   "name": "C4b_E08_solvable_no_torsion_no_compact",
+   "ok": true
+  },
+  {
+   "detail": "a bulk entry F(theta) is well-defined on the registered target R/2piZ iff F(theta+2pi) = F(theta): bare/linear theta FAILS (residual 2pi != 0, exact) -- EXCLUDED; cos(theta), sin(theta), e^{i theta} pass with zero residual -- LEGAL. This legality is DERIVED from target well-definedness (F-D2 honored), and it is exactly where the imaginary exponent enters the alphabet LEGALLY",
+   "kind": "SUBSTANTIVE",
+   "name": "C5a_periodicity_legality_rule",
+   "ok": true
+  },
+  {
+   "detail": "theta'(x), theta''(x): lifts differ by constants in 2piZ, d/dx kills them (zero residual): the JETS are well-defined REAL-valued local entries -- legal by the same co-translation status as the banked m-jets (N2-analog)",
+   "kind": "SUBSTANTIVE",
+   "name": "C5a_jets_are_real_and_lift_independent",
+   "ok": true
+  },
+  {
+   "detail": "the anchored nonlocal entry int_0^x theta' du (= the real LIFT theta~(x) - theta~(0)) FAILS the banked co-translation test: witness lift x^2 gives residual -s^2 != 0 -- the SAME anchor defect that excluded bare phi and nonlocal m-integrals (Route D R3, banked rule TRAVELING): the alphabet sees e^{i theta} and the jets, NEVER the lift",
+   "kind": "SUBSTANTIVE",
+   "name": "C5b_nonlocal_exclusion_travels",
+   "ok": true
+  },
+  {
+   "detail": "adjoining a U(1) slot u = e^{i psi} multiplicatively to the banked two-sided twisted law L(g2 o g1) = Q2 L1 + L2 rho1: associativity holds with zero residual on fully generic 2x2 blocks; the (rho, Q, L) blocks are UNTOUCHED by the adjunction; reversal u * conj(u) = 1 (real psi): the compact version of the banked law EXISTS -- the law ADMITS a central U(1) factor. Combined with C3b/C4 (no U(1) inside the banked block group): the factor is ADJOINED, not owned -- REGISTERED-POSIT status. O1 caveat (verifier): a central U(1) factor is direct-product-admissible for ANY associative law -- C5c ALONE has no discriminating power; the discriminating content is the base-law associativity re-proof plus the C3b/C4 owned-nowhere result, and the REGISTERED-POSIT tag hangs on exactly that adjoined-not-owned fact",
+   "kind": "SUBSTANTIVE",
+   "name": "C5c_two_sided_law_admits_central_U1_factor",
+   "ok": true
+  },
+  {
+   "detail": "theta -> -theta is well-defined mod 2pi (residual -2pi == 0 mod 2pi): BOTH K4 character assignments chi_theta = +-1 are circle-legal (chi_theta DECLARED, ledgered); mirror parity eps_theta SUPPLIED, never valued (F-R4-analog). NEW EXACT FACT (conditional on supplied eps_theta = -1): the crease fixed-point condition theta == -theta mod 2pi <=> 2 theta in 2piZ <=> theta in {0, pi}: the crease value of an odd circle-valued field is 2-TORSION QUANTIZED -- the arc's first discrete TARGET-side datum, derived not imposed; eps_theta = +1 branch: unconstrained",
+   "kind": "SUBSTANTIVE",
+   "name": "C5d_K4_parity_crease_2torsion_datum",
+   "ok": true
+  },
+  {
+   "detail": "int(D_theta v + D_theta' v') = int((D_theta - d/dx D_theta') v) + [D_theta' v]_walls with all 12 coefficients free (zero residual): delta-theta(x) pairs as a POINTWISE density row (the reduction theorem's field-fork form) and the varied-boundary fork REQUIRES wall theta-jet slots (N3-analog, supplied-structure per the banked V8 resolution): the J05 coupling slots for theta are DEFINED -- registered, NOT adopted",
+   "kind": "SUBSTANTIVE",
+   "name": "C5e_J05_pairing_pointwise_row_plus_wall_slots",
+   "ok": true
+  },
+  {
+   "detail": "real target: e^t = 1 over R has the point kernel {0} (solveset exact); circle target: e^{i t} = 1 <=> cos t = 1 (with sin t = 0 implied) <=> t in 2piZ -- a genuine LATTICE (2pi, 4pi members, pi excluded; direct certificates e^{2pi i} = 1, e^{pi i} = -1 per the banked period-gate route): the registered theta GENUINELY changes the banked holonomy-target situation -- F-D5 does NOT fire",
+   "kind": "SUBSTANTIVE",
+   "name": "C5f_FD5_lattice_vs_point_kernel",
+   "ok": true
+  },
+  {
+   "detail": "winding on the quotient posture = a hom D-infinity -> Z; torsion generators force 2h(r+-) = 0 => h(r+-) = 0 over Z (exact), generation => winding == 0: the banked Hom(D-infinity, R) = 0 theorem SURVIVES the circle target on the winding side; the quotient posture's integer content is instead the TARGET-side crease Z2 datum (C5d)",
+   "kind": "SUBSTANTIVE",
+   "name": "TD3a_quotient_posture_winding_still_zero",
+   "ok": true
+  },
+  {
+   "detail": "the CYCLIC completion cycle (the banked live non-torsion cycle): single-valuedness of e^{i theta} around it = the winding condition SUM_i c_i L_i + SUM_s J_s = 2 pi n_w, n_w in Z (N = 1 instance solved exactly; general N = the period gate's telescoping form with d theta in place of d pi_p): THE FIRST LIVE INTEGER CONDITION on the banked cycle census. Structure change, exact: real-valued fields gave ONE hyperplane (n forced 0); the circle target gives a Z-INDEXED FAMILY of parallel hyperplanes -- the configuration space acquires Z-labeled sheets",
+   "kind": "SUBSTANTIVE",
+   "name": "TD3b_cyclic_winding_condition_live",
+   "ok": true
+  },
+  {
+   "detail": "CREDITED ADOPTION (verifier G9): N = 2 telescoping re-derivation -- per-cell lifts theta = c_i x + b_i with seam jumps J_s telescope to increment = c1 L1 + c2 L2 + J1 + J2 exactly; the 2*pi enters ONLY through e^{i Delta} = 1 on the registered target (e^{2 pi i n} = 1, e^{i pi} = -1: genuine, not inserted); real-target contrast = the single hyperplane (n forced 0, the banked form); the circle target = the Z-indexed family; and slopes absorb ANY (L, n) pair -- the no-unconditional-cut scoping is REAL freedom, not an artifact",
+   "kind": "SUBSTANTIVE",
+   "name": "TD3b_telescoping_N2_rederivation_credited",
+   "ok": true
+  },
+  {
+   "detail": "WHICH parameters cut (honest, both directions): the condition couples the theta-sector data (slopes c_i, jumps J_s) JOINTLY with the cell lengths L_i; at FIXED slope c != 0 (witness c = 1, J = 0) the length is lattice-cut L in 2 pi Z (exact) -- a CONDITIONAL lattice; but the slopes are FREE data, so NO banked parameter (E0, l, moduli) is unconditionally quantized: absent adopted dynamics the winding cuts the JOINT (theta-data x geometry) space into Z-sheets only; the J05 slots (C5e) are exactly where an adopted coupling would tie c_i to E0_i -- registered, NOT adopted, no spectrum claimed (contract ceiling honored)",
+   "kind": "SUBSTANTIVE",
+   "name": "TD3b_parameter_cut_adjudication",
+   "ok": true
+  },
+  {
+   "detail": "the banked torsion-vacuity proofs are TARGET-DEPENDENT and the re-run flips exactly one leg: over R, nP = 0 => P = 0 (order-2 classes VACUOUS -- banked, reproduced); over U(1), hol^2 = 1 has TWO solutions {+1, -1} (exact): the K4-orbifold order-2 classes -- vacuous for every real target -- become LIVE Z2-valued holonomy data for the circle target; the cap classes stay empty (pi1 trivial, C1d recomputed): the revival is exactly the 2-torsion sector, nothing else",
+   "kind": "SUBSTANTIVE",
+   "name": "TD3c_torsion_classes_revive_over_U1",
+   "ok": true
+  },
+  {
+   "detail": "with the adjoined U(1) factor (C5c), J11 loop holonomy carries u(loop) = e^{i Theta}; triviality <=> Theta in 2piZ (C5f lattice) -- vs the banked real-block triviality locus = a codim-1 real hyperplane (period gate C3, CITED): the 'trivial or classified' classification gains a DISCRETE winding component; conditional on a loop-possessing completion (completion data; F-S7 flag travels, inherited)",
+   "kind": "GUARD",
+   "name": "TD3d_J11_loops_gain_lattice",
+   "ok": true
+  },
+  {
+   "detail": "DERIVES layer: NO. A map S2 -> S1 lifts to R (pi1(S2) trivial => monodromy hom == 0, exact; covering-lifting NAMED Category-A) and the straight-line homotopy s*lift (endpoints checked exactly: 0 and lift) null-homotopes it: pi2(S1) = 0 -- the registered circle-valued field CANNOT carry the carrier's pi2(S2) winding content, and nothing here derives an S2-valued field. The carrier posit is NOT derived",
+   "kind": "SUBSTANTIVE",
+   "name": "TD4a_pi2_content_not_carried",
+   "ok": true
+  },
+  {
+   "detail": "POSSESSES layer: PARTIAL-AS-STAGE. sigma1^2 + sigma2^2 = dtheta^2 + sin^2(theta) dphi^2 exactly, psi-INDEPENDENT => basic => descends to the Hopf base: the arena natively possesses a round S2 (and the fiber circle, C1) -- as DOMAIN/stage structure, never as a field TARGET; per the banked bedrock (metric derives the STAGE, not the ACTORS) this founds no actor",
+   "kind": "SUBSTANTIVE",
+   "name": "TD4b_S2_arises_natively_as_hopf_base",
+   "ok": true
+  },
+  {
+   "detail": "EMULATES layer: PARTIAL. the equatorial restriction of a unit-3-vector carrier field, n = (cos theta, sin theta, 0), |n| = 1 exactly, IS an S1-valued field: the registered theta carries exactly the structure of the carrier's U(1)/phase sector (the circle its equatorial windings wrap), with winding Z = pi1(S1); the pi2 sector (the polar direction) is NOT emulated (TD4a). One-way characterization; no result transferred from the hopfion lane (F-D4)",
+   "kind": "SUBSTANTIVE",
+   "name": "TD4c_emulates_equatorial_phase_sector",
+   "ok": true
+  },
+  {
+   "detail": "DERIVES: NO (no S2-valued field derived; pi2 not carried). EMULATES: PARTIAL (the U(1)/phase sector exactly; pi2/pi3 sectors not). POSSESSES: PARTIAL-AS-STAGE (Hopf fiber circle + round S2 base owned natively in the DOMAIN; identifying theta's target with the owned fiber circle = a further typed posit, not made). CARRIER POSIT STATUS: PARTIALLY FOUNDED at the circle/phase layer, UNTOUCHED at the pi2(S2)/pi3(S3) layers. Map facts only; one-way (F-D4 honored)",
+   "kind": "GUARD",
+   "name": "TD4_three_layer_verdict",
+   "ok": true
+  }
+ ],
+ "contract": "PREREGISTRATION.md (frozen)",
+ "counts": {
+  "failed": 0,
+  "guard": 4,
+  "substantive": 31,
+  "total": 35
+ },
+ "date": "2026-07-31",
+ "verdicts": {
+  "C1_hopf_fiber": "CONSTRAINED: no global promotion (Chern -4pi != 0); DELIVERS owned target circle + owned circle-valued transition datum to C5",
+  "C2_toric_angles": "FAILS: not globally definable (cap winding kill); winding has no home (pi1 trivial, 104/104 |det|=1 recomputed)",
+  "C3_screen_SO2": "FAILS-ON-BANKED-FOOTING: owned circle spent as gauge; chart keeps only its 2-torsion {+-1} = the K4 characters = real points of U(1); anchored dressing == 0",
+  "C4_E07_E08": "FAILS (expected, exact): real spectrum / solvable simply-connected -- the real-targets theorem at group level; compactness unreachable by parameter motion",
+  "C5_new_S1_field": "REGISTERS at Route-D-analog grade, REGISTERED-POSIT tag; eps_theta SUPPLIED, chi_theta DECLARED, U(1) factor ADJOINED; F-D5 passes",
+  "TD3_integer_content": "quotient winding == 0 (Hom(Dinf,Z)=0) but crease Z2 target datum at eps_theta=-1; CYCLIC cycle: winding condition = Z-indexed hyperplane family (first live integer condition); conditional lattice at fixed slope, NO unconditional parameter quantization; K4 2-torsion classes REVIVE as Z2 holonomy data; J11 triviality locus becomes a lattice",
+  "TD4_carrier": "DERIVES: NO; EMULATES: PARTIAL (U(1)/phase sector exactly); POSSESSES: PARTIAL-AS-STAGE (Hopf fiber + S2 base as domain); carrier posit PARTIALLY FOUNDED at circle layer, UNTOUCHED at pi2/pi3",
+  "outcome_class": "OD-4 (mixed): no owned structure promotes to a FIELD (C1-C4 exact failures, each informative) while the NEW field REGISTERS cleanly with REGISTERED-POSIT tag (OD-2 component) and C1 supplies owned target+transition ingredients (OD-1 flavor at target level only)"
+ }
+}

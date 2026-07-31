@@ -1,0 +1,28 @@
+candidate	requirement	verdict	basis	stamps
+C1_hopf_fiber	global_field_promotion	FAILS	dsigma3=-sin(theta)dth^dph!=0; S2-integral=-4pi!=0 (Chern +-1): no global section	arena=RxS3 via banked A=sigma3; Euler chart; exact; second Chern route (Stokes on trivializations) adopted+credited, verifier G1
+C1_hopf_fiber	chart_local_phase	EXISTS	potentials (cos(theta)-+1)dphi regular at poles; zero residual	same
+C1_hopf_fiber	transition_datum	OWNED-CIRCLE-VALUED	mismatch -2dphi; equatorial loop -4pi = (-1)x(fiber period 4pi): U(1) transition, winding 1	same; delivered to C5
+C1_hopf_fiber	live_R9_content_on_arena_cycles	NONE	104/104 cap dets recomputed |det|=1 => pi1 trivial => winding hom == 0	cap census re-instantiated
+C2_toric_angles	global_field_on_capped_arena	FAILS	winding 1 at cap axis vs arc-confined-loop winding 0 (exact) + Category-A invariance: no extension	cap model; Category-A named; O4: load on the NAMED winding-invariance, banked convention (SymPy content thin, honest because named)
+C2_toric_angles	where_would_winding_live	NOWHERE	pi1 trivial (recomputed); live non-torsion cycles = completion cycle + J11 loops only (CITED census)	period-gate census cited
+C3_screen_SO2	owned_compact_circle	EXISTS	R'=JR, R(0)=I, R(2pi)=I, R(pi)=-I: genuine circle, period 2pi	equivariance group; exact
+C3_screen_SO2	survives_registered_chart	FAILS(2-torsion-only)	SO(2)^(signed diag) <=> sin t=0 <=> {I,-I}; K4 chars +-1 = real points of U(1) (z^2=1 over R)	registered triangular chart; O3: identification = character VALUES + chart-surviving {I,-I}; K4 (order 4) does NOT embed in the circle (two det=-1 screen blocks)
+C3_screen_SO2	chart_group_owns_U1	NO	positive-triangular block group: real-exp point kernel + nilpotent exp: no compact subgroup	rho/Q/L blocks
+C3_screen_SO2	anchored_promotion_invariant_content	NONE	dressing theta'+2kmod theta=0, theta(0)=0 => theta==0 (Route D 1.5 recomputed): pure presentation	anchor E(0)=I; F-D5 would fire
+C4_E07_E08	compact_source	FAILS	E07: exp(T diag(-k,k))=I <=> T=0 (point kernel); E08: R:xR solvable, n-th roots force (0,0), n=2,3 exact	real-targets theorem at group level
+C5_new_S1_field	alphabet_legality	DERIVED	periodicity rule F(th+2pi)=F(th): bare theta EXCLUDED (resid 2pi), cos/sin/e^{i theta} LEGAL (resid 0); jets real, lift-independent	target R/2piZ; F-D2 honored
+C5_new_S1_field	exclusions_travel	YES	anchored nonlocal int theta' fails co-translation (witness resid -s^2) = the banked bare-phi/nonlocal-m defect	Route D R3 rule traveling
+C5_new_S1_field	cocycle_U1_factor	ADMITS-BY-ADJUNCTION	two-sided law + central u=e^{i psi}: assoc zero-residual generic blocks, (rho,Q,L) untouched, reversal exact; NOT owned (C3b/C4)	REGISTERED-POSIT basis; O1: U(1) adjunction admissible for ANY associative law -- C5c alone has no discriminating power; content = base-law assoc + C3b/C4 owned-nowhere
+C5_new_S1_field	K4_parity_wall	COMPATIBLE-CONDITIONAL	chi_theta=+-1 both circle-legal (DECLARED); eps_theta SUPPLIED; eps=-1 crease value 2-torsion quantized {0,pi} (exact)	first discrete target-side datum
+C5_new_S1_field	J05_coupling_slots	DEFINED	pointwise density row + wall theta-jet slots, IBP zero-residual 12 free coeffs	registered not adopted
+C5_new_S1_field	F-D5_genuine_change	PASSES	e^t=1 over R: {0} vs e^{it}=1: 2piZ lattice (exact both)	holonomy targets genuinely change
+C5_new_S1_field	overall	REGISTERS(REGISTERED-POSIT)	all five requirement rows pass; conditional slots honest (supplied/declared/adjoined)	Route-D-analog grade; O2: Route D's orbits/quotient leg vacuous-or-absorbed into C5d (K4/parity the only banked theta actions); re-opens if a coupling ties theta to screen data
+TD3_quotient	winding_content	ZERO	Hom(Dinf,Z)=0 (2h=0 over Z exact); integer content = target-side crease Z2 datum instead	quotient posture; eps_theta=-1 conditional
+TD3_cyclic	winding_condition	LIVE-INTEGER	SUM c_i L_i + SUM J_s = 2 pi n_w, n_w in Z: first live integer condition; Z-indexed hyperplane family vs banked single hyperplane	cyclic completion cycle; off-shell; N=2 telescoping re-derivation adopted+credited, verifier G9 (2pi genuinely from the target)
+TD3_cyclic	parameters_cut	CONDITIONAL-ONLY	fixed slope c!=0 => L in (2pi/c)Z (exact); slopes free => NO unconditional cut of E0/l/moduli; J05 slots = the coupling seat (not adopted)	ceiling honored; no spectrum
+TD3_torsion	K4_orbifold_classes	REVIVED-Z2	over R: 2P=0=>P=0 (banked, reproduced); over U(1): hol^2=1 => {+1,-1}: live Z2 holonomy data	target-dependent vacuity, exact flip
+TD3_J11	loop_classification	GAINS-LATTICE	adjoined-factor triviality = 2piZ lattice vs banked codim-1 hyperplane	conditional on loop-possessing completion; F-S7 travels
+TD4_carrier	derives	NO	pi2(S1)=0 (lift + null-homotopy exact); no S2-valued field derived	one-way; F-D4
+TD4_carrier	emulates	PARTIAL	equatorial sector n=(cos,sin,0), |n|=1 exact: theta = the carrier's U(1)/phase sector; pi2 polar sector NOT emulated	one-way; F-D4
+TD4_carrier	possesses	PARTIAL-AS-STAGE	sigma1^2+sigma2^2 = round S2 base metric exactly (psi-independent, basic); fiber circle owned (C1); stage not actors	bedrock honored
+OUTCOME	class	OD-4(mixed)	C1-C4 fail/constrained (each exact+informative); C5 REGISTERS (REGISTERED-POSIT); OD-1 flavor at target level only	35 checks = 31+4, exit 0 (finishing: +2 credited verifier-route adoptions; was 33=29+4 at verification)
