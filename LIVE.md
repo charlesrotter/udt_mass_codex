@@ -83,7 +83,9 @@ parallel-eligible, own MAP first); Step 3 = the standing decisions (posture/cens
 lock-reading/R1 — none blocking); Step 4 = queued tiles (cycle+pin completion = the spatial
 integers-mass road, alive on the line branch; resonance census; N=4; etc.); Step 5 = later
 chairs (sphere carrier, sources, control-metric comparison). NEXT ACTION: the ANGULAR MAP
-(map-only) on Charles's go — or his reordering. BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
+(map-only) — IN FLIGHT as incremental committed drafting (Fable tokens near limit;
+**`INFLIGHT_STATE.md` = the live handoff ledger — the next model reads it to close out
+seamlessly**). BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
 the R1 menu; the queued tiles (resonance census = verifier-required precondition;
 index-exactly-1 numeric; hopfion-bridge at driver discretion; the named unrun seats incl.
 the cycle+pin completion — the only named spatial road to marrying integers and mass).
