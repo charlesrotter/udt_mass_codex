@@ -108,3 +108,23 @@ recommendations Charles accepted — NOT owner exclusions ("I would not exclude 
 sphere or the fine angular detail"). Every A3 verdict is stamped conditional on these
 bounds; the full-S³ and finer-detail layers are OWNER-EXPECTED next contracts, not
 optional extras. A barren torus-layer verdict does not speak for the sphere layer.
+
+## SCOPE RE-FREEZE (2026-07-31, PRE-LAUNCH — supersedes §1's layer bounds; Charles's
+direction: the full sphere and fine angular detail are IN A3, not follow-ons)
+A3 is now STAGED INTERNALLY, all under the same targets/falsifiers/ceiling:
+- **TB3-α (the torus stage):** exactly the §1/§2 program — runs FIRST (it is also the
+  sphere stage's control layer).
+- **TB3-β (the SPHERE stage):** the census re-adjudication extended to the FULL S³ chart —
+  the Hopf structure live (fields on the sphere, the fiber circle and base S² playing;
+  the A1 metric-opening and symmetry derivations extended to the S³ presentation as the
+  stage's own foundation legs; the 104-pair cap census now confronted with genuine
+  sphere-dependent fields; the exotic-completion boundary stays a named seat).
+- **TB3-γ (the FINE-DETAIL stage):** the mode/jet layer lifted — higher angular
+  derivatives and modes beyond the α-layer bound, either exhaustively where closed-form
+  structure permits or with the residual honestly typed; no silent cutoff survives the
+  stage.
+Each stage banks to disk before the next begins (the standing staging rule); the verifier
+verifies per stage; a token/session wall between stages leaves a clean resume point. A
+BARREN verdict is bankable only with all three stages run (or the unrun stages stamped
+THROUGHPUT-LIMITED, never presented as the frame's verdict — whole-before-slice). The
+launching driver runs α → β → γ in order unless Charles re-orders.

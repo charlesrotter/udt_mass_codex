@@ -48,6 +48,13 @@ binding contract — its targets/falsifiers/ceiling override anything else you i
 CLAUDE.md's method sections bind (lay language with Charles; nothing adopted without his
 ruling; the DRIVER TRIGGERS fire on your own outputs).
 
+**R0a. SCOPE (re-frozen 2026-07-31): A3 = THREE INTERNAL STAGES α (torus) → β (FULL
+SPHERE) → γ (FINE DETAIL), all in-contract — see the PREREGISTRATION's SCOPE RE-FREEZE
+section. The R2 prompt below launches stage α; on its bank, the driver drafts the β and γ
+agent dispatches from the same skeleton (the re-freeze section defines their content). A
+barren verdict banks only with all three stages run or the remainder stamped
+THROUGHPUT-LIMITED.**
+
 **R0b. PROVENANCE NOTE (Charles, 2026-07-31, binding):** the A3 layer bounds
 (torus-first; bounded angular detail) were DRIVER BUDGET recommendations Charles accepted
 for sequencing — NOT his scientific exclusions ("I would not exclude the full sphere or
