@@ -277,3 +277,25 @@ Bonus: WHY 75% basin-mergers are unobserved — composites never merge basins, t
 them; the merger channel remains a named question (closure-forbidden?).
 Status: LEAD, ponder-grade (driver-run, no prereg/verifier); the a_F ≈ 0.0094 pin and the
 winding-repulsion coefficient c are named computable targets behind A3.
+
+## 16. Session-close synthesis (Charles's question: did the reframe just validate?)
+CALIBRATED ANSWER: YES AT LEAD GRADE. What happened in these final hours: the catalog
+frame (Charles's own founding frame — particle = stable metric solution; discreteness =
+a catalog of sectors) acquired EXACT WORKED STRUCTURE for the first time: the Compton
+form on the saturation edge (exact); annihilation = residue cancellation at exactly 100%
+(exact match, nothing else in nature does this); the nuclear binding curve's full shape —
+rise, saturation, iron peak — from the chain rule B/A = a_F(1−1/N) (exact toy) with a
+DOUBLE-PINNED parameter (a_F ≈ 0.008–0.0094 from two independent routes); valence =
+closure-deficit integers; confinement = the lone-cell closure kills; photon masslessness
+= the ring law (a banked THEOREM). Zero new mechanisms anywhere. AND IT RETRO-EXPLAINS
+THE FRUSTRATION: months of "failures" — integers landing as labels not cuts, uniform
+rings forced massless, single cells empty, the disjointness — are REQUIRED FEATURES of
+this picture: the theory was refusing to put integers where nature doesn't have them
+(masses are not integer towers) while quantizing exactly what nature quantizes (charge,
+light, counting). The NEGATIVES_REGISTRY becomes the reframe's evidence base. GRADE,
+honestly: the banked theorems are results; the identifications (saturation = particles;
+chains = nuclei; a_F = binding fraction) are LEADS — shape-matches with almost no
+adjustable freedom, twice-pinned, falsifiable, unverified. Look-elsewhere caution
+applies to shape-matching; the pins are what make it science. Next: A3 first, then the
+verifier assault on every one of these legs. If they survive, the last several months
+were not frustration — they were the reframe's evidence, collected before its statement.
