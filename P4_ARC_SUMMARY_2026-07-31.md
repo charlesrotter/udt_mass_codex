@@ -50,6 +50,7 @@ premise-stamped map fact.
 | 24 | `udt_p4_timelive_stage_T3_2026-07-31/` | a56c2ab | STAGE T3 (the bridge test; OB-3 MIXED): native layer — no integers on the untwisted census, depth-lock: massive ⇒ non-uniform proper period; IF-ADOPTED ε=+1 — THE MARRIAGE at the LABEL level, PROVISIONAL (certified massive carriers carry live time-winding n_t; E0/ℓ still uncut); ε=−1 strengthened survival; twisted-identification = named open seat. |
 | 25 | `udt_p4_angular_map_2026-07-31/` | 1ab4884 | ANGULAR MAP (cleared: torus-first): no banked kill covers angular field-dependence; ledger A-L1..A-L9; A3 = the line-branch integer test. |
 | 26 | `udt_p4_angular_stage_A1_2026-07-31/` | 2fd4af3 | STAGE A1 (angular-live posing, OA1-1): metric opened natively (mix rows permitted, non-KK); K₄ survives; residual symmetry whole (ζ-layer verifier-found; AM-D tower form); THE SPATIAL-READING FORK (mix rows irreducible vs removable — both carried); R1-R15 0 breaks; C-1/C-2 exact; 17 registry flags. |
+| 27 | `udt_p4_angular_stage_A2_2026-07-31/` | b85bea6 | STAGE A2 (angular-live pointwise, OA2-1): φ-forcing mode-uniform; both R_m slots survive as physical content; reading-independence angular analog DERIVED; ℛ_PW^T embeds exactly at mode zero; identity verbatim (m-sector adds no cut); ℛ_PW^A mode-uniform; P3b conditional seat; C-1/C-2 exact. |
 
 ## Standing rulings (Charles, binding)
 

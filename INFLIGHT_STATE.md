@@ -33,16 +33,14 @@ is unstarted or in flight):**
 8. DONE — LIVE.md close-out + memory update.
 9. (Stretch, if tokens remain) T4-linear MAP skeleton, same pattern.
 
-**NEXT MICRO-STEP — STAGE A2 PIPELINE (Charles: "A2 go"):**
-- A2-p1 DONE — prereg committed (`udt_p4_angular_stage_A2_2026-07-31/PREREGISTRATION.md`).
-- A2-p2 DONE — derivation banked (OA2-1; 38/38 = 27S+11G; φ-forcing mode-uniform; both R_m slots survive (coordinate); reading-independence angular analog DERIVED; ℛ_PW^T embeds exactly at mode zero; identity verbatim; C-1/C-2 exact; NEW conditional finding P3b: the granted-mirror layer reaches mode zero, cuts R_f=Q where granted — a decision SEAT only).
-- A2-p3 IN FLIGHT — blind adversarial verifier (φ-forcing + R_m survivals + P3b hardest; C-1 own parser; findings banked incrementally to disk).
-- A2-p4 PENDING — amendments + SAME-verifier closure.
-- A2-p5 PENDING — driver four-check → pytest → bank commit+push → LIVE/arc-summary/memory
-  close-outs. Then A3 needs Charles's go.
-DRIVER DEBT (any time): classify the 17 flagged registry entries (A1 decision surface).
-IF YOU ARE THE NEW MODEL: continue from the first PENDING/IN-FLIGHT step; contracts bind;
-chunked-output rules for every agent.
+**NEXT MICRO-STEP: none in flight — STAGE A2 IS BANKED (b85bea6; full pipeline:
+prereg → derivation → verifier → A-1/A-2 → two closure passes → CLOSED PASS → four-check →
+bank+push). ON CHARLES'S DESK: the Stage A3 go — THE LINE-BRANCH INTEGER TEST (the T3
+contract pattern at maximum anti-targeting: winding census with angles live, per completion
+census cell, massive carriers enumerated, integer findings PROVISIONAL; native layer — no
+θ). DRIVER DEBT (any time): classify the 17 flagged registry entries (A1 decision surface).
+IF YOU ARE THE NEW MODEL: present A2's results to Charles in LAY terms if not yet done,
+take his A3 ruling, draft the A3 prereg on his go (T3 + A2 contracts are the templates).**
 
 **CLOSEOUT DUTIES FOR THE NEW MODEL (when the list is done):** present the finished MAP to
 Charles in LAY terms (the time-live MAP walkthrough is the precedent — see the

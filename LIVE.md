@@ -94,10 +94,20 @@ SPATIAL-READING FORK (the T1 fork's spatial twin): angular-mix rows = irreducibl
 both ways, decided by nothing**; R1–R15 re-posed 0 breaks; periodicity derived
 alphabet-neutral; the T² mode layer = A2's organizing decomposition; C-1 (T1-census) and
 C-2 (static) recoveries EXACT; 17 registry entries flagged for driver premise-scope review
-(decision surface). ON CHARLES'S DESK: **the Stage A2 go** (the pointwise layer
-angular-live — which response laws survive with the angles playing; runs both spatial- and
-lock-reading branches; then A3 = the line-branch integer test needs its own go).
-`INFLIGHT_STATE.md` = the live model-handoff ledger. BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
+(decision surface). **STAGE A2 BANKED (b85bea6; VERIFIED → A-1/A-2 → two closure passes → CLOSED PASS;
+OA2-1): THE ANGULAR-LIVE POINTWISE LAYER CLOSES.** The φ-forcing INTACT and MODE-UNIFORM
+(Q=c_E·e^{−φ} forced at every T² mode — no angular φ-channel); BOTH R_m (angular-twist)
+slots SURVIVE as physical content (coordinate branch; projected = derived slack-coupled
+law, same depth); READING-INDEPENDENCE ANGULAR ANALOG DERIVED (both forks safely
+deferrable past the pointwise layer); ℛ_PW^T EMBEDS EXACTLY at mode zero; the k_mod=0
+identity EXTENDS VERBATIM (verifier's own elimination — the m-sector adds no cut); ℛ_PW^A
+MODE-UNIFORM (no per-mode kill); NEW conditional decision seat P3b (the granted-mirror
+layer reaches mode zero, cuts R_f=Q where granted — grant-stamped, not adopted); C-1/C-2
+EXACT. ON CHARLES'S DESK: **the Stage A3 go — THE LINE-BRANCH INTEGER TEST** (the winding
+census with the angles playing: do the banked capped/torsion kills survive angular
+field-dependence, or do live winding seats open — native, no θ; on the certified massive
+carriers explicitly; maximum anti-targeting, integer findings PROVISIONAL; the T3-pattern
+contract). `INFLIGHT_STATE.md` = the live model-handoff ledger. BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
 the R1 menu; the queued tiles (resonance census = verifier-required precondition;
 index-exactly-1 numeric; hopfion-bridge at driver discretion; the named unrun seats incl.
 the cycle+pin completion — the only named spatial road to marrying integers and mass).
