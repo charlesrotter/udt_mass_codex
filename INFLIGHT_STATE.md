@@ -30,11 +30,10 @@ is unstarted or in flight):**
 6. DONE — ANGULAR_MAP.md §3 (premise ledger, chose-or-derived tags; the mode/harmonic
    bounding question; the composition with time-live-line).
 7. DONE — ANGULAR_MAP.md §4-5 (staged program A1-A3 + tripwires).
-8. PENDING — final read-through; LIVE.md close-out ("ANGULAR MAP DELIVERED, awaiting
-   Charles's clearance"); memory update.
+8. DONE — LIVE.md close-out + memory update.
 9. (Stretch, if tokens remain) T4-linear MAP skeleton, same pattern.
 
-**NEXT MICRO-STEP: increment 8 (LIVE.md close-out + memory; then present the MAP to Charles in lay terms and hold).**
+**NEXT MICRO-STEP: none in flight — the ANGULAR MAP is DELIVERED (1ab4884) and awaits Charles's clearance (catch-point A#1). If you are the new model: read the MAP, present it to Charles in LAY terms (the time-live MAP walkthrough is the precedent), answer catch-point A#1 questions, HOLD for his ruling; Stage A1 prereg only after he clears. Increment 9 (T4-linear MAP skeleton) is optional stretch work if he authorizes.**
 
 **CLOSEOUT DUTIES FOR THE NEW MODEL (when the list is done):** present the finished MAP to
 Charles in LAY terms (the time-live MAP walkthrough is the precedent — see the

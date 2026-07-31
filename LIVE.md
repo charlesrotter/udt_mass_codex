@@ -82,10 +82,13 @@ branches; not guaranteed"); Step 2 = T4-LINEAR (real dynamics for the massive ca
 parallel-eligible, own MAP first); Step 3 = the standing decisions (posture/census/G18/θ/
 lock-reading/R1 — none blocking); Step 4 = queued tiles (cycle+pin completion = the spatial
 integers-mass road, alive on the line branch; resonance census; N=4; etc.); Step 5 = later
-chairs (sphere carrier, sources, control-metric comparison). NEXT ACTION: the ANGULAR MAP
-(map-only) — IN FLIGHT as incremental committed drafting (Fable tokens near limit;
-**`INFLIGHT_STATE.md` = the live handoff ledger — the next model reads it to close out
-seamlessly**). BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
+chairs (sphere carrier, sources, control-metric comparison). **THE ANGULAR MAP IS DELIVERED (1ab4884; `udt_p4_angular_map_2026-07-31/ANGULAR_MAP.md`;
+map-only, nothing launched) — AWAITING CHARLES'S CLEARANCE** (his catch-point A#1: accept
+the T²-stratum-first layer bound, or demand full-S³ from the start). Its core finding: NO
+banked kill covers angular FIELD-dependence — the kills constrain winding on the banked
+cycles and are silent on angular structure of the fields; A3 = the line-branch integer
+test. On clearance: Stage A1 prereg. `INFLIGHT_STATE.md` = the live model-handoff ledger
+(Fable near token limit; the next model closes out from it). BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
 the R1 menu; the queued tiles (resonance census = verifier-required precondition;
 index-exactly-1 numeric; hopfion-bridge at driver discretion; the named unrun seats incl.
 the cycle+pin completion — the only named spatial road to marrying integers and mass).
