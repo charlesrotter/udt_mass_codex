@@ -35,10 +35,10 @@ is unstarted or in flight):**
 
 **NEXT MICRO-STEP — STAGE A1 PIPELINE (Charles cleared: "Go, torus-first"):**
 - A1-p1 DONE — prereg committed (`udt_p4_angular_stage_A1_2026-07-31/PREREGISTRATION.md`).
-- A1-p2 IN FLIGHT — derivation agent running (chunked, TA-stages banked to disk in order;
+- A1-p2 DONE — derivation banked to disk (OA1-1; 40/40 = 31S+9G; NEW spatial-reading fork found, carried undecided; C-1/C-2 exact; 10 registry entries flagged) (chunked, TA-stages banked to disk in order;
   if it dies, finished TA-stages survive in the package dir — a new agent resumes from the
   first missing stage, same contract).
-- A1-p3 PENDING — blind adversarial verifier (zero-context; attack TA-1 metric-opening +
+- A1-p3 IN FLIGHT — blind adversarial verifier (zero-context; attack TA-1 metric-opening +
   symmetry-fate hardest; C-1/C-2 independently).
 - A1-p4 PENDING — amendments + SAME-verifier closure (multi-round precedent).
 - A1-p5 PENDING — driver four-check into AUDIT_REPORT.md → pytest → commit+push bank →
