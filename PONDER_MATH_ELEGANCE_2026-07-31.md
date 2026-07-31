@@ -156,3 +156,32 @@ longer admissible chains = exotic hadrons (tetra-/pentaquark-like states, observ
 out of the same combinatorics rather than needing new physics. All conjecture; the
 chain-composition census is a computable future program (the sector-map/typing machinery
 already banked is its seed).
+
+## 12. Addendum (Charles's question): the EM sector / light / native Maxwell under the reframe
+The mapping is startlingly complete in conjecture form, and every strand has a banked seed:
+- **THE PHOTON THEOREM (the elegant flip):** the ring law — uniform closed rings FORCED
+  massless — read as a negative for mass is a POSITIVE for light: the circle-sector's
+  free excitations are massless BY THEOREM, not assumption (nature's photon-mass bound
+  <10⁻¹⁸ eV vs our EXACT zero). "Rings = a ℤ² catalog of labels without mass" IS
+  photon-shaped: massless, countable, free.
+- **CHARGE = WINDING:** the circle-phase's winding number around a structure — exact
+  integers (the observed 10⁻²¹ charge precision NEEDS topological exactness), signs =
+  orientation, conservation = topology. The first live integer condition is
+  charge-quantization-shaped.
+- **NATIVE MAXWELL:** the banked G13 (Maxwell-like toric F = dS, conditional) + the
+  coupling menu's six lawful classes = the candidate native Maxwell sector; the J05 seats
+  = where charge sources couple. GAUGE INVARIANCE = the slack-tower pattern AGAIN: the
+  phase's chart slack is the gauge group, and the physics is its invariant (F = the
+  curvature is to the phase what mᵀB⁻¹m is to the mix rows) — "gauge = slack, physics =
+  Casimir" would then be ONE principle covering both EM and the metric sector.
+- **WHY EM DOESN'T CONFINE (one framework, both behaviors):** circle windings CAN close
+  on a lone free structure (massless rings exist solo) while massive-sector cells CANNOT
+  end alone (the closure theorem = confinement). Free charges and confined quarks =
+  which sector's closure conditions a lone object can satisfy.
+- **LIGHT IN THE φ-LANDSCAPE:** propagation = the derived hyperbolic character; bending/
+  redshift = null paths through depth gradients (the SPARC/SNe/lensing strands of
+  PONDER I).
+Gates, honest: this sector goes live only via θ-adoption or the Hopf/sphere layer (A3-β
+opens exactly that door); G13 and the menu carry conditional/IF-ADOPTED stamps; all
+conjecture until derived. But the reframe maps the EM sector without a single new
+mechanism — every piece is already a banked structure wearing its own name.
