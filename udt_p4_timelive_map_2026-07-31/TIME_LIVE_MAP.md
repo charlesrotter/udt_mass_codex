@@ -81,7 +81,11 @@ Per the recon, static-ness was never derived — it is a tagged CHOSE all the wa
   where we can see what UDT really does") the driver's standing recommendation moved to
   **EVERYTHING-ON, bounded by LAYER never by frozen sector** ("bound the domain, never
   freeze a DOF"), with diagonal-frozen runs demoted to in-package CONTROLS only; Charles
-  leans everything-on; HIS RULING IS THE OPEN ITEM. See LIVE.md topmost block.
+  leans everything-on. **RULED (Charles, 2026-07-31): "let's build the everything-on,
+  bounded by layer, frozen-slot versions only as in-package controls." T-L2 is RESOLVED:
+  the shift row is LIVE in the Stage T1 variation domain; diagonal-frozen and static
+  restrictions enter only as in-package calibration controls. THE MAP IS CLEARED; Stage T1
+  authorized.**
 - **T-L3. TIME TOPOLOGY — the load-bearing fork.** The banked arena has time = a line, R_t
   (routeC EXACT_DERIVATION.md:29) — but canon lists TOPOLOGY among the free choices, and
   the finite-cell canon (no spatial infinity; finite mirrored cells) is SPATIAL-scoped with

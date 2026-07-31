@@ -34,14 +34,18 @@ a handover-day RATIFIED PROGRAM CONSTRUCTION, not owner bedrock (G17 amended; tw
 provenance-inversions this arc — check canon dates before attributing ANYTHING to Charles).
 (4) **BOOTSTRAP IS A LENS**, never a filter. (5) CANON C-2026-07-30-1 (G17/G18 split).
 
-**FRONTIER / NEXT ACTION:** the **TIME-LIVE MAP is delivered and awaits Charles's clearance**
-(`udt_p4_timelive_map_2026-07-31/TIME_LIVE_MAP.md` — premise ledger T-L1..T-L8; the
-time-topology fork carried 3 ways with the owner-kernel consequence folded in; the ADM/
-initial-value template = the lane's named import hazard; the bridge hope = the named standing
-temptation). OPEN AT PAUSE: Charles's everything-on-vs-diagonal-frozen ruling for Stage T1
-(driver recommended EVERYTHING-ON bounded-by-layer, frozen-slot runs as in-package controls
-only — "bound the domain, never freeze a DOF"; Charles leans everything-on; NOT YET RULED).
-On his clearance: draft the Stage T1 preregistration (re-pose the inverse problem time-live).
+**FRONTIER / NEXT ACTION:** **THE TIME-LIVE MAP IS CLEARED — Charles RULED (2026-07-31):
+"let's build the everything-on, bounded by layer, frozen-slot versions only as in-package
+controls."** (`udt_p4_timelive_map_2026-07-31/TIME_LIVE_MAP.md` — T-L2 resolved
+everything-on; the time-topology fork carried 3 ways with the owner-kernel consequence folded
+in; the ADM/initial-value template = the lane's named import hazard; the bridge hope = the
+named standing temptation). **STAGE T1 LAUNCHED** (contract
+`udt_p4_timelive_stage_T1_2026-07-31/PREREGISTRATION.md`): re-pose the response inverse
+problem TIME-LIVE with EVERYTHING ON — the shift row LIVE, all field time-dependence LIVE,
+the derived clock law (g_tt=−e^{−2φ}c², B=1/A — no free lapse) doing its forced work, R1–R15
+re-posed (R6's temporal-mirror branch DERIVED not inherited), the three time-topology
+branches typed none adopted, θ ABSENT (owner ruling); static/diagonal-frozen = in-package
+calibration CONTROLS (the static limit must recover the banked Stage-1 posing exactly).
 BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
 the R1 menu; the queued tiles (resonance census = verifier-required precondition;
 index-exactly-1 numeric; hopfion-bridge at driver discretion; the named unrun seats incl.
