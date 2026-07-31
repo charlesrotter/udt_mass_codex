@@ -34,19 +34,21 @@ a handover-day RATIFIED PROGRAM CONSTRUCTION, not owner bedrock (G17 amended; tw
 provenance-inversions this arc — check canon dates before attributing ANYTHING to Charles).
 (4) **BOOTSTRAP IS A LENS**, never a filter. (5) CANON C-2026-07-30-1 (G17/G18 split).
 
-**FRONTIER / NEXT ACTION:** **THE TIME-LIVE MAP IS CLEARED — Charles RULED (2026-07-31):
-"let's build the everything-on, bounded by layer, frozen-slot versions only as in-package
-controls."** (`udt_p4_timelive_map_2026-07-31/TIME_LIVE_MAP.md` — T-L2 resolved
-everything-on; the time-topology fork carried 3 ways with the owner-kernel consequence folded
-in; the ADM/initial-value template = the lane's named import hazard; the bridge hope = the
-named standing temptation). **STAGE T1 LAUNCHED** (contract
-`udt_p4_timelive_stage_T1_2026-07-31/PREREGISTRATION.md`): re-pose the response inverse
-problem TIME-LIVE with EVERYTHING ON — the shift row LIVE, all field time-dependence LIVE,
-the derived clock law (g_tt=−e^{−2φ}c², B=1/A — no free lapse) doing its forced work, R1–R15
-re-posed (R6's temporal-mirror branch DERIVED not inherited), the three time-topology
-branches typed none adopted, θ ABSENT (owner ruling); static/diagonal-frozen = in-package
-calibration CONTROLS (the static limit must recover the banked Stage-1 posing exactly).
-BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
+**FRONTIER / NEXT ACTION:** **STAGE T1 BANKED (f2343b7; VERIFIED round 1 + amendments +
+SAME-verifier CLOSED; OT-1 conditional): THE TIME-LIVE POSING CLOSES — everything on, nothing
+breaks, and the static limit recovers the banked framework EXACTLY (the C-1 control,
+verifier-re-parsed).** Headlines: the shift row's NATIVE form derived (the ADM-lapse pin
+PROVEN physically distinct — it would break the canon clock rate wherever drift exists);
+no-free-lapse exact; K₄ survives + grows layered; R1–R15 re-posed (0 breaks; R6's temporal
+mirror DERIVED: φ EVEN forced by the exponential clock law, N ODD — no G18 echo); the
+topology fork typed 3 ways none adopted (circle: proper period depth-locks τ=e^{−φ}T;
+finite time-cell: walls would be SPACELIKE); static ℛ_PW EMBEDS as the tangential
+restriction. **THE NEW LOAD-BEARING FORK (verifier-forced): LOCK-READING {coordinate,
+projected} — coordinate ⇒ the drift block N is an IRREDUCIBLE new DOF (T2's R_N slots =
+physical content); projected ⇒ N is pure gauge on the registered chart; canon is silent
+shift-on, nothing banked decides, BOTH branches travel.** ON CHARLES'S DESK: the Stage T2 go
+(the pointwise layer time-live — what response laws survive with time on; runs BOTH
+lock-reading branches; its contract drafts on his go). BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
 the R1 menu; the queued tiles (resonance census = verifier-required precondition;
 index-exactly-1 numeric; hopfion-bridge at driver discretion; the named unrun seats incl.
 the cycle+pin completion — the only named spatial road to marrying integers and mass).

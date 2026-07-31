@@ -44,7 +44,8 @@ premise-stamped map fact.
 | 18 | `udt_p4_stability_slice_2026-07-30/` | cc8b872 | THE PRUNER: constants massive chain unstable with free wall data BUT the odd-parity pin ABSORBS the unique negative mode (absorption theorem); fields lock class stable iff 64E0²ℓ⁴ ≤ g_p·c_m·π⁴ (the first mass–size–stiffness law); double-crease massive EMPTY. |
 | 19 | `udt_p4_doorway_study_2026-07-31/` | f27b5ca | The theory OWNS the door's ingredients not the door (K₄ = real points of the gauge-spent screen U(1)); a NEW S¹ field REGISTERS legally (REGISTERED-POSIT); THE FIRST LIVE INTEGER Σcᵢ Lᵢ+ΣJₛ=2πn_w; carrier posit partially founded at the circle layer. |
 | 20 | `udt_p4_coupling_derivation_2026-07-31/` | 2541617 | Six lawful coupling classes; the c_θ lattice cut REAL; disjointness DERIVED both parity signs: the certified massive chain carries NO θ-momentum; every ℤ-lattice massless-confined; E0 UNCUT everywhere — integers label completion sheets, never states. |
-| 21 | `udt_p4_timelive_map_2026-07-31/` | a5cdf07 + 588eb0b | TIME-LIVE MAP (map-only, awaiting clearance): premise ledger T-L1..T-L8; time-topology fork carried 3 ways; owner-kernel correction folded in; staged T1–T4 program sketched. |
+| 21 | `udt_p4_timelive_map_2026-07-31/` | a5cdf07 + 588eb0b | TIME-LIVE MAP (CLEARED; Charles ruled everything-on/bounded-by-layer/controls-only): premise ledger T-L1..T-L8; time-topology fork carried 3 ways; owner-kernel correction folded in; staged T1–T4 program. |
+| 22 | `udt_p4_timelive_stage_T1_2026-07-31/` | f2343b7 | STAGE T1: the inverse problem re-posed time-live, everything on — shift row's native form DERIVED (ADM pin proven physically distinct); no-free-lapse; K₄ survives+grows; R1–R15 re-posed 0 breaks (temporal mirror derived); static ℛ_PW embeds; C-1 static-recovery EXACT; THE LOCK-READING FORK load-bearing, both branches to T2. |
 
 ## Standing rulings (Charles, binding)
 
@@ -66,7 +67,9 @@ premise-stamped map fact.
 
 ## Open questions (the desk, in order)
 
-1. TIME-LIVE MAP clearance + the everything-on ruling (gates Stage T1).
+1. The Stage T2 go (the pointwise layer time-live; runs BOTH lock-reading branches). [MAP
+   cleared + everything-on RULED + Stage T1 BANKED 2026-07-31 — this row supersedes the old
+   "MAP clearance" item.]
 2. The posture question (quotient/two-sided/open; per-cell-type mixed chains typing-supported).
 3. The census ruling (constants vs fields — certified free; behind the posture).
 4. The G18 re-grade proposal (closure = posture ∧ Branch-G ∧ germ data).
