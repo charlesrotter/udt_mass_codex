@@ -1,6 +1,6 @@
-# INDEX — Repo Map (2026-07-28 lean)
+# INDEX — Repo Map (2026-07-31 lean)
 
-**⚠ BRANCH: `grok` (2026-07-28)** — `main` is stale for this arc; `git checkout grok`.
+**⚠ BRANCH: `grok` (2026-07-31)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
 **➤ CURRENT FOUNDATIONAL PREMISE PRECEDENCE:**
@@ -16,11 +16,17 @@ challenged/not-derived and inactive without explicit owner reauthorization; meas
 bootstrap, Maxwell-like, `X_max`, Hopfion, source, boundary, and mass scopes. Conflict means stop;
 older files do not override the registry's cited controlling evidence.
 
-**➤ CURRENT SCIENTIFIC FRONTIER:**
-`udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md`, followed in its stated
-correction-first order. For a self-contained adversarial handoff, use
-`UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md`; it is review navigation, not scientific authority or
-permission to continue.
+**➤ CURRENT SCIENTIFIC FRONTIER (2026-07-31 — the P4 arc):**
+**`P4_ARC_SUMMARY_2026-07-31.md`** — the 2026-07-28→31 response-framework program: 22 banked
+packages (package × commit × verdict ledger), the standing owner rulings (θ-adoption DEFERRED;
+TIME FIRST; the owner-kernel provenance correction), the open questions, and the operational
+rules in force. Next action: `udt_p4_timelive_map_2026-07-31/TIME_LIVE_MAP.md` awaits owner
+clearance. All 22 package directories are named in the summary's ledger; each is
+self-contained (PREREGISTRATION → derivation → ledger → verifier record).
+
+SUPERSEDED-AS-FRONTIER (pre-P4, 2026-07-28 morning): `udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md`
+(the higher-isometry audit — still valid as banked evidence, no longer the frontier) and
+`UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md` (review navigation for the pre-P4 state).
 
 Within the bounded stationary descended `R x T2` family, universal unique reciprocal-plane
 selection is refuted by an exact smooth complete nonconstant-depth metric with two
@@ -355,31 +361,33 @@ Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`,
 
 1. **`LIVE.md`** CURRENT STATE
 2. **`HANDOFF.md`** CURRENT block
-3. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** through its top/current overlay only
-4. **`udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md`**,
+3. **`P4_ARC_SUMMARY_2026-07-31.md`** (the current arc's package index + rulings + open questions),
+   then `udt_p4_timelive_map_2026-07-31/TIME_LIVE_MAP.md` (the pending next step)
+4. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** through its top/current overlay only (pre-P4 overlay)
+5. **`udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md`**,
    **`STATUS_LEDGER.tsv`**, **`DEPENDENCY_ARCHITECTURE.tsv`**, **`LAY_REPORT.md`**, and
    **`NEXT_STEP.md`**
-5. **`udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`** only when its
+6. **`udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`** only when its
    parent screen-projector, density-response, equation-family, or completion evidence is
    load-bearing
-6. **`udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md`** only when its
+7. **`udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md`** only when its
    pointwise generator, screen-line, or path-cocycle premises are load-bearing
-7. The observer cocycle, relational-depth, clock-operator, complete-metric separation, and
+8. The observer cocycle, relational-depth, clock-operator, complete-metric separation, and
    `X_max` packages named by the frontier only when their exact path/bilocal/diameter premises are
    load-bearing
-8. **`udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`** and its
+9. **`udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`** and its
    status, metric-to-frontier, and regression-guard ledgers
-9. **`matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`** and the other
+10. **`matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`** and the other
    bootstrap/boundary source packages named by the current frontier only when lineage is
    load-bearing
-10. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
+11. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
    **`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`**
-11. The exact frozen evidence named by that frontier only for the active question
-12. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
-13. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
-14. Only the task-triggered protocol under **`.claude/skills/`**
-15. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
-16. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
+12. The exact frozen evidence named by that frontier only for the active question
+13. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
+14. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
+15. Only the task-triggered protocol under **`.claude/skills/`**
+16. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
+17. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
 
 ---
 

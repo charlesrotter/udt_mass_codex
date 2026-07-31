@@ -32,17 +32,20 @@ after the user's actual task makes them load-bearing.
 3. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`. This is the current
    source-precedence index for high-risk foundational terms. It is not canon and cannot overrule
    `LIVE.md`; any disagreement between it, `LIVE.md`, and its cited source is a mandatory stop.
-4. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay.
-5. `UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md` when the task is whole-project review, problem
-   selection, or zero-context scientific resumption. It is a navigation/review dispatch, not
-   scientific authority or permission to launch its proposed work.
-6. `udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md`, following its preserved
-   failed-review, correction, corrected-review, caveat-resolution, and final-evidence order. This
-   is the latest bounded result: universal unique-plane selection fails within the stationary
-   descended `R x T2` family; `span(K,V)` has family-wide identity robustness only; fixed-profile
-   generic uniqueness, complete response degeneracies, and cap gluing remain open. Read its parent
-   full-screen Hopf/toric, intrinsic-ruler/descent, Killing-plane, and general-screen packages only
-   when their exact premises become load-bearing.
+4. `P4_ARC_SUMMARY_2026-07-31.md` — **the current scientific frontier**: the 2026-07-28→31 P4
+   response-framework arc (22 banked packages × commit × verdict, the standing owner rulings —
+   θ-adoption DEFERRED, TIME FIRST, the owner-kernel provenance correction — the open questions,
+   and the P4-era operational rules: chunked agent outputs, the verifier pipeline). Then
+   `udt_p4_timelive_map_2026-07-31/TIME_LIVE_MAP.md` — the delivered next step, awaiting owner
+   clearance (the everything-on-vs-diagonal point is the owner's open ruling; nothing launches
+   without his go). Read individual `udt_p4_*` packages only when their exact result becomes
+   load-bearing (each is self-contained: PREREGISTRATION → derivation → ledger → verifier record).
+5. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay (pre-P4 overlay;
+   historical context only).
+6. PRE-P4 (2026-07-28 morning, superseded as frontier — read only when load-bearing):
+   `UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md` (zero-context review navigation for the PRE-P4
+   state) and `udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md` (the last pre-P4
+   bounded result, still valid as banked evidence).
 7. `udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, `COMPLETENESS_MAP.md`,
    `BLOCK_PRESERVATION_CONDITIONS.tsv`, and `NEXT_STEP.md`. This parent bounded result says the

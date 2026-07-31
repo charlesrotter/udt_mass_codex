@@ -240,6 +240,12 @@ Each: **TRIGGER** (the tokens/moment) → **STOP-AND-DO**.
   call it dynamics (a biased artifact — it cost a wrong headline); use unbiased
   kicks + NEB + a 3-cell persistence test (a 2-cell test throws look-elsewhere
   false positives).
+- **CHUNKED AGENT OUTPUTS (binding operational rule, 2026-07-31 — TWO agents died at the
+  64k output-token ceiling, work lost both times).** Every agent dispatch carries: no large
+  symbolic expressions in output/thinking; build files INCREMENTALLY (≤120-line appends,
+  every tool call under ~300 lines); stage banking so partial work survives; final reports
+  ≤50 lines. Timeout extensions are authorized when ceilings are genuinely hit (Charles
+  2026-07-30); chunking enables runtime estimation.
 
 ## Repo discipline (use git AS git — Charles 2026-06-24)
 
@@ -303,7 +309,7 @@ redirect (nonstationary weld sector / transfer ladder / ensembles).
 
 ## Orientation
 
-- **⚠ WORK IS ON THE `grok` BRANCH (as of 2026-07-24).** If the working tree isn't on grok, `git checkout grok`.
+- **⚠ WORK IS ON THE `grok` BRANCH (as of 2026-07-31).** If the working tree isn't on grok, `git checkout grok`.
   LIVE.md / HANDOFF.md / MEMORY.md / INDEX.md **on grok** are the current orientation; `main` is stale for this arc.
 - **`LIVE.md` (on grok) IS THE FIRST READ — the only guaranteed-current file** (frontier + next action). If
   anything else disagrees with it, LIVE.md wins. Follow the bounded startup order in **`AGENTS.md`**:

@@ -7,7 +7,49 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-07-28).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-28 — higher-isometry reciprocal-plane audit complete)
+## CURRENT (2026-07-31 — P4 arc paused at two owner decisions; consolidated for AI handoff)
+
+**Entry path for a fresh AI (bounded, in order):**
+1. `LIVE.md` topmost block — the frontier + next action (wins every disagreement).
+2. `P4_ARC_SUMMARY_2026-07-31.md` — the whole 2026-07-28→31 arc: 22 packages × commit ×
+   verdict, the standing rulings, the open questions, the operational rules in force.
+3. `udt_p4_timelive_map_2026-07-31/TIME_LIVE_MAP.md` — the delivered next-step MAP
+   (awaiting Charles's clearance; the everything-on-vs-diagonal point is HIS open ruling).
+4. `CURRENT_SCIENTIFIC_PREMISES.tsv` (esp. G17/G18) + `CANON.md` C-2026-07-30-1 — the
+   premise state incl. the owner-kernel provenance correction.
+5. CLAUDE.md method sections (binding, always) + `NEGATIVES_REGISTRY.md` (latest: #78).
+
+**Trajectory in one paragraph:** the P4 program derived UDT's missing law as an INVERSE
+PROBLEM (which response laws is the metric compatible with?) instead of guessing actions.
+Banked, all blind-verified: the pointwise response space (nonempty, stratified); the wall/
+seam structure (almost fully rigid; the closure question = ONE discrete posture datum); the
+period gate (NO integers without a circle-valued field — every banked holonomy target is
+real); the stability pruner (both massive candidates survive CONDITIONALLY: the absorption
+theorem; the dichotomy 64E0²ℓ⁴ ≤ g_p·c_m·π⁴); the doorway (a new S¹ field θ REGISTERS
+legally; the first live integer condition); the coupling menu (six lawful classes; the
+integer lattices are REAL but massless-confined; the certified massive chain carries NO
+θ-momentum; E0 uncut — "integers label completion sheets, never states").
+
+**Standing rulings (Charles):** θ-adoption DEFERRED ("premature before an unmuting
+exploration"); TIME FIRST for the unmuting; the OWNER KERNEL is exactly {static =
+non-expanding with time flowing; x_max = max distance between two observers; likely finite
+total mass-energy} — the finite-cell canon is a RATIFIED PROGRAM CONSTRUCTION, not owner
+bedrock. Two driver provenance-inversions were corrected this arc: NEVER attribute program
+constructions to Charles; check canon origin dates first.
+
+**Open on the desk (in order):** (1) TIME-LIVE MAP clearance + the everything-on ruling —
+gates Stage T1 (re-pose the inverse problem time-live); (2) posture; (3) census; (4) G18
+re-grade; (5) R1 menu; (6) queued tiles (see the arc summary §Open questions).
+
+**Operational rules in force:** chunked agent outputs (≤120-line appends; two 64k-ceiling
+agent deaths taught this); anti-hang (CLAUDE.md); the verifier pipeline
+(prereg-first → blind verifier → amendments → same-verifier closure → four-check →
+bank+push); pre-work discussion with Charles in LAY language (binding); hypothesis
+discipline (his pictures are direction, not evidence). pytest: 70 passed / 1 xfailed.
+
+<!-- STARTUP_CURRENT_END -->
+
+## PRIOR CURRENT (2026-07-28 — higher-isometry reciprocal-plane audit complete)
 
 After `LIVE.md`, read the current premise registry and top frontier overlay, then
 `UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md`. For the latest exact result follow
@@ -43,7 +85,6 @@ A fresh AI may first review P1–P8 in `UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.
 `alpha`, metric off-block, nonstationarity, action, source, carrier, density/bootstrap, boundary,
 matter/time-live/GPU work, canonization, or reorganization is authorized.
 
-<!-- STARTUP_CURRENT_END -->
 
 ## PRIOR CURRENT (2026-07-28 — general-screen dependency regrade complete)
 
