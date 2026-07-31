@@ -134,3 +134,25 @@ permitted to reach closure, each carrying a standing debt of later native re-der
 g−2 and every precision observable are IN SCOPE — the structural tier (ratios, charge
 integers) comes first by SEQUENCING (nearest rungs), not by boundary. No observation is
 fenced off, ever.
+
+## 11. Addendum (Charles's question): multi-quark particle classes under the stability reframe
+The banked record already contains the shape: the certified massive candidate is not a
+lone cell — it is a CHAIN (mixed crease|glue cells), and the banked theorems say lone
+configurations FAIL (single-cell cyclic massive EMPTY; uniform rings forced massless;
+mass wants heterogeneity = mass wants PARTNERS/structure). Conjectural mapping, SM names
+as labels only: "QUARKS" = the constituent cells/sub-sectors of a chain — REAL as
+constituents, but NEVER STABLE ALONE because the closure conditions (handshake, sum
+rules, parity pins) cannot be satisfied by a lone member of that sector ⇒ CONFINEMENT AS
+A CLOSURE THEOREM, not a force that grows with distance: you simply cannot END the
+structure there. "HADRON CLASSES" (baryon-like, meson-like multiplets) = TAXA of
+admissible chain compositions — which cell-type sequences can close, counted by the
+discrete label data (crease|glue patterns, parity sheets, winding labels); the multiplet
+combinatorics (why threes, why pairs, why the octet/decuplet counting) would be the
+chain-closure combinatorics of the taxonomy axes. STRONGEST OBSERVATIONAL ECHO: the
+proton's mass is ~95% NOT its quarks' rest masses — composite mass is non-additive in
+nature, and non-additive in the basin picture BY CONSTRUCTION (M-GEN = 2ℓE0 is a
+whole-chain property of the joint solution, not a sum over parts). Natural corollary:
+longer admissible chains = exotic hadrons (tetra-/pentaquark-like states, observed) fall
+out of the same combinatorics rather than needing new physics. All conjecture; the
+chain-composition census is a computable future program (the sector-map/typing machinery
+already banked is its seed).
