@@ -225,3 +225,26 @@ the Compton relation's universality = the visible edge of the stability bound, a
 stiffnesses. Status: LEAD, ponder-grade — the algebra is exact per a DRIVER-RUN in-session SymPy check ONLY (no preregistration, no blind verifier — NOT a banked result; the four-check does not apply and is not claimed); the saturation-identification is
 conjecture; the ħ-seat tile (compute/refine the locus under the full machinery) is a
 named candidate contract for the next driver, behind A3.
+
+## 15. WORKED (driver-run SymPy, in-session): fusion vs annihilation — the energy ladder sorts itself
+Three exact tests on the section-14 edge (M = k/ℓ) + banked structures:
+**(A) REJECTED — fusion is NOT saturated-basin merger:** merging two equal saturated
+basins with additive lengths gives defect fraction = 3/4 EXACTLY (75% of mass released).
+Nature's fusion defect ~0.7% (D+T ~0.35%). Off by two orders of magnitude ⇒ the naive
+edge-merger model is killed honestly.
+**(B) MATCHED — annihilation IS residue-pair cancellation:** opposite-residue pair
+(E0, −E0) merging under M-GEN = 2ℓE0 releases fraction = 1 EXACTLY (100% of mc²) —
+which is precisely what matter–antimatter annihilation does, and nothing else in nature
+does. The residue picture (§4) gets its first quantitative check: antimatter = the
+opposite-sign residue, annihilation = exact cancellation, 100% by construction.
+**(C) THE PREDICTION — fusion is SEAM-layer:** binding = wall/seam reconfiguration, and
+the banked split M-WALL = a_F·M-GEN makes the fusion defect scale = a_F (the wall/bulk
+ratio) exactly. Nuclear binding fractions (~0.007–0.009) would then be the FIRST
+EMPIRICAL PIN on a banked geometric parameter: **a_F ~ 0.008** — a falsifiable,
+computable target (does the derived wall structure produce a_F of that size?).
+LADDER SUMMARY: basin cancellation = 100% (annihilation) > basin merger = 75% (not
+observed — perhaps forbidden by the closure conditions: a named question) > seam
+reconfiguration ~ a_F (fusion/fission) > shallow-φ shared closure ~ eV (chemistry).
+Status: LEAD, ponder-grade — driver-run SymPy only, no preregistration, no blind
+verifier, NOT a banked result; the a_F-pin and the forbidden-merger question are named
+candidate tiles behind A3.
