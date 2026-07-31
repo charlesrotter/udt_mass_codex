@@ -1,0 +1,189 @@
+{
+ "QA_verdict": "NO posture selected: quotient identically satisfied; cyclic two-sided carries real conditions (satisfiable); open vacuous. No posture emptied or forced.",
+ "QB_verdict": "NO quantization: every derived condition has a continuum solution set; all banked holonomy targets are real (kernel {0}, no lattice); the only integers in the cycle content are torsion ORDERS, whose period conditions are vacuous. F-P2 clean: nothing imported, and the located absence is derived, not assumed.",
+ "QC_verdict": "map computed (typing facts only, F-P7): cyclic+all-definite massive FORBIDDEN; 1-cell cyclic nonconstant FORBIDDEN; crease|glue mixed chain PERMITTED-CONDITIONAL with massive family (i) realizable; open terminator PERMITTED; cross-census joins CONDITIONAL (weight match at seal-value seams).",
+ "checks": [
+  {
+   "detail": "R9 statement + J11-loop content + torsion note present in banked Stage-1 spec",
+   "kind": "guard",
+   "name": "S0a_R9_statement_cited",
+   "passed": true
+  },
+  {
+   "detail": "n*P=0, n!=0 => P=0 over R (solveset exact); K4 diag(\u00b11) reps all square to id (banked K4-torsion vacuity CITED, re-instantiated as arithmetic only)",
+   "kind": "substantive",
+   "name": "S0b_torsion_period_kill_arithmetic",
+   "passed": true
+  },
+  {
+   "detail": "banked cap enumeration: 104 two-cap pairs, all |det|=1 => pi_1 trivial (no live 1-cycle from caps/closers); general |det|=n>1 lens class is torsion Z_n => period vacuous by S0b.  STAMP: registered toric cap lattice (banked 07-28 enumeration); exotic non-Hopf-preserving families = banked open boundary, typed",
+   "kind": "substantive",
+   "name": "S0c_cap_cycle_census_all_torsion",
+   "passed": true
+  },
+  {
+   "detail": "r_-^2=r_+^2=id (torsion generators); gamma_T=r_+ r_- = translation by 4*ell (NON-torsion); r_- gamma_T r_-^(-1) = gamma_T^(-1) exactly (conjugacy reversal). STAMP: quotient posture, both walls mirrored (banked mirrored-cell canon), 1D cell",
+   "kind": "substantive",
+   "name": "C1a_Dinf_reps_and_conjugacy_reversal",
+   "passed": true
+  },
+  {
+   "detail": "Hom(D_inf,(R,+))=0: torsion generators force h(r_\u00b1)=0, generation forces h==0, so h(gamma_T)=h(r_+)+h(r_-)=0.  R9 exact-subcase is IDENTICALLY SATISFIED on the quotient posture \u2014 it imposes NOTHING on any candidate family there. STAMP: quotient posture, any census/pairing branch, any family, closed real forms",
+   "kind": "substantive",
+   "name": "C1b_quotient_all_periods_vanish",
+   "passed": true
+  },
+  {
+   "detail": "generic degree-5 cell profile: gamma_T period of the equivariant double extension = 0 identically (all six coefficients free).  Matches C1b. STAMP: quotient posture, arbitrary cell one-form data",
+   "kind": "substantive",
+   "name": "C1c_quotient_period_integral_corroboration",
+   "passed": true
+  },
+  {
+   "detail": "TP-1 census assembled: K4-orbifold classes -> NO (vacuous, closed forms) | toric cap / closer classes -> NO (vacuous, closed forms) | quotient-posture completion cycle gamma_T (D_inf translation) -> LIVE but IDENTICALLY SATISFIED (conjugacy reversal kills all periods) | two-sided CYCLIC completion cycle (Z translation) -> LIVE \u2014 carries real period conditions | two-sided ACYCLIC chain / crease- or open-terminated chain -> VACUOUS (no nontrivial cycle) | J11 chart-transition loops -> LIVE \u2014 twisted-cocycle holonomy (conditional on a multi-chart completion possessing a loop: completion data, typed) | open-end posture: cycles through the endpoint -> VACUOUS",
+   "kind": "guard",
+   "name": "C1d_cycle_census_table",
+   "passed": true
+  },
+  {
+   "detail": "Delta pi_p (cell) = aF*E0*L exactly on the quadratic-class atlas (g_p cancels: heterogeneous members allowed).  STAMP: quadratic class, jet<=2, stationary presentation, anchored branches aF symbolic",
+   "kind": "substantive",
+   "name": "C2a_percell_momentum_increment",
+   "passed": true
+  },
+  {
+   "detail": "oint d(pi_p) = aF*Sum_i E0_i*L_i + Sum_s J_s; single-valuedness => aF*Sum E0_i L_i = -Sum_s J_s.  Flux-sealed/partner seams (banked B_Q=0 pin, CITED) => J_s=0 => Sum_i E0_i L_i = 0 (aF != 0).  N=1,2,3 explicit; general N = identical finite telescoping (Category-A).  STAMP: two-sided CYCLIC completion, quadratic class, common pairing branch aF != 0; seam jumps as SUPPLIED germ data (W-1D jump laws cited; arena-transfer premise stamped)",
+   "kind": "substantive",
+   "name": "C2b_cyclic_period_law",
+   "passed": true
+  },
+  {
+   "detail": "positive-definite class (g_p>0, G pos-def): E0 = [g_p w1^2/aF^2 + SOS]/2w0 >= 0 (exact SOS identity); Sum E0_i L_i = 0 with L_i>0 => every E0_i = 0: an all-definite chain on a cyclic completion is ENTIRELY MASSLESS (E0_i=0). The massive escape REQUIRES an indefinite member somewhere in the chain. STAMP: cyclic completion, flux-sealed seams, quadratic class, positive-definite sub-class, common aF != 0, INTEGRATED (BASE) branch",
+   "kind": "substantive",
+   "name": "C2c_alldefinite_chain_forced_massless",
+   "passed": true
+  },
+  {
+   "detail": "N=1 self-glued cell: single-valuedness forces w1=0, E0=0 (aF,g_p != 0), then c^T G^-1 c = 0 => c=0 on the definite class: CONSTANTS ONLY.  The massive constants-census locus {I_p=0, E0>0} is EMPTY on the 1-cell cyclic completion. STAMP: as C2c, N=1; definite class for the c=0 leg (indefinite: c on the null cone survives, typed)",
+   "kind": "substantive",
+   "name": "C2d_onecell_cyclic_constants_only",
+   "passed": true
+  },
+  {
+   "detail": "Delta pi_p(cell i) = M-WALL_i = aF*M-GEN_i exactly (banked identities recomputed): the cyclic-completion period condition READS  Sum_i M-WALL_i = 0  <=>  Sum_i M-GEN_i = 0 (common aF != 0)  \u2014 the LABELED total chain mass vanishes (M-DENS-proper == M-GEN, banked calibration, so also that branch).  Branch labels carried; NO branch promoted (F-E1 inherited).  STAMP: as C2b; mass branches = banked labeled definitions only",
+   "kind": "substantive",
+   "name": "C2e_period_law_is_total_mass_zero",
+   "passed": true
+  },
+  {
+   "detail": "W_F*Ltilde = E0 on-shell (zero residual, quadratic class) => the completion-level INTEGRATED lambda-row is a_F' * Sum_i E0_i * I_p,i = 0: the banked per-cell tie 2*E0*I_p=0 is the SINGLE-CELL instance; a multi-cell whole admits massive members with per-cell I_p != 0 balanced across cells (Sum E0_i I_p,i = 0).  MAP FACT, nothing adopted.  STAMP: INTEGRATED/BASE branch, lambda a single whole-level constant, a_F' != 0 branches (P1-4D, P1-triad), quadratic class",
+   "kind": "substantive",
+   "name": "C2f_wholecompletion_integrated_tie",
+   "passed": true
+  },
+  {
+   "detail": "banked E08 law recomputed; associative over three segments (zero residual). STAMP: banked Route B T3 machinery, reused",
+   "kind": "substantive",
+   "name": "C3a_E08_cocycle_associativity",
+   "passed": true
+  },
+  {
+   "detail": "loop holonomy u_hol = u1 + e^{-phi1} u2 + e^{-phi1-phi2} u3: real-LINEAR in the segment data; trivial-holonomy locus = codim-1 real hyperplane (solved); value set = all of R (0 and 1 attained).  Classification = ONE real number; NO integer structure.  STAMP: E08 sector, 3-segment loop, conditional on a completion whose chart graph has a loop (completion data, typed); F-S7 twisted-H1 flag inherited",
+   "kind": "substantive",
+   "name": "C3b_J11_holonomy_real_hyperplane",
+   "passed": true
+  },
+  {
+   "detail": "e^t = 1 over R  <=>  t = 0 (unique; solveset exact): every banked multiplicative holonomy (K4 characters \u00b11, anchored weights e^{aF p0} in R+, E08/T3 twists e^{phi K}, e^{phi H} real) has a POINT kernel, not a lattice.  The 2*pi*Z lattice exists only for the imaginary exponent e^{i t} \u2014 outside the banked census (F-P2: no e^{iS}-type device used; shown only as the located absence). STAMP: all banked holonomy targets enumerated in C5b",
+   "kind": "substantive",
+   "name": "C3c_real_exponential_kernel_no_lattice",
+   "passed": true
+  },
+  {
+   "detail": "banked two-sided twisted law recomputed (associativity zero residual, diagonal-K subfamily); loop holonomy is REAL-AFFINE in the segment L-blocks with coefficient matrices e^{phi K}, e^{phi H} (real, invertible): obstruction space = a real matrix space \u2014 trivial-or-CLASSIFIED means one real matrix value; no lattice. STAMP: diagonal-K subfamily (banked generic stratum); resonant sub-strata carry the banked stamp; NV closure-data holonomy typed under the same law",
+   "kind": "substantive",
+   "name": "C3d_twisted_cocycle_loop_real_affine",
+   "passed": true
+  },
+  {
+   "detail": "witnesses: quotient \u2014 identically satisfied (C1b, any configuration); cyclic two-sided \u2014 the constant stratum satisfies every derived condition exactly; open \u2014 vacuous (no cycles).  NO posture is emptied and none is forced: R9 does NOT select a posture.  STAMP: full posture menu (banked seam package), matched constant configurations exist in every posture (banked atlases)",
+   "kind": "substantive",
+   "name": "C4a_no_posture_emptied",
+   "passed": true
+  },
+  {
+   "detail": "Q-A = NO SELECTION.  R9's per-posture STRENGTH differs (quotient: identically satisfied; cyclic two-sided: one real condition per cycle + field periods; open/acyclic: vacuous) \u2014 a typing DISTINCTION, not a selection (no posture emptied, none forced).  The comfortable outcome (T2) did NOT land; recorded per F-P1 with the distinction stated at full strength",
+   "kind": "guard",
+   "name": "C4b_QA_verdict",
+   "passed": true
+  },
+  {
+   "detail": "every derived period condition has a CONTINUUM solution set: Sum E0_i L_i = 0 is a real hyperplane (solved); no condition constrains ell alone (E0*L products only; at E0 != 0 the N=1 condition has NO positive-L solution \u2014 it forces E0=0, never a discrete L); moduli (k_mod, k10, C) absent from every condition; J11 holonomy = real hyperplane (C3b).  NO integer/discrete structure is forced on E0, ell, germs, or moduli.  Q-B = NO \u2014 with the exact reason per condition",
+   "kind": "substantive",
+   "name": "C5a_QB_solution_sets_are_continua",
+   "passed": true
+  },
+  {
+   "detail": "torsion orders (K4 order 2; cap |det|): integers PRESENT but they are DOMAIN data whose period conditions are VACUOUS (S0b/S0c) \u2014 they cut no family parameter || multiplicative holonomy kernels: all banked twists are REAL exponentials \u2014 kernel = {0}, not a lattice (C3c); no circle-valued/imaginary target in the banked census (fields (phi,f,bh) real; E08 s real; L-blocks real; K4 characters \u00b11) || atan quadrature multivaluedness: engages only for a circle-valued f \u2014 banked f is the real connection moment (higher-isometry audit), not an angle: no branch lattice || e^{iS}/GR-analog RED-class devices: FORBIDDEN imports, not used (F-P2 clean)",
+   "kind": "guard",
+   "name": "C5b_QB_provenance_audit",
+   "passed": true
+  },
+  {
+   "detail": "crease (quotient-wall) conditions on the quadratic class DERIVED from the banked mirror-jet kill (eps_phi=-1 DEFINITIONAL, CANON layer 3): w(-l)=1 AND 2*A*w(-l)=w'(-l)^2.  Exact witness w = x^2/2 + 1/2 (ell=1): both conditions zero-residual, E0 = g_p/aF^2 > 0 (g_p>0) \u2014 a MASSIVE quadratic-class member carrying a crease at one end EXISTS.  STAMP: quotient wall at x=-l, quadratic class, witness normalization ell=1 (CHOSE, scaling typed)",
+   "kind": "substantive",
+   "name": "C6a_crease_end_conditions_and_witness",
+   "passed": true
+  },
+  {
+   "detail": "crease-pinned branch (ell=1): w1=2A-sqrt(2A), w0=1+A-sqrt(2A); disc=-2A<0 (nodeless all A>0); I_p(1/2)*aF = pi-4 < 0 EXACT (Dalzell 22/7-pi = nonneg-integrand integral); I_p(9/2)*aF >= (2/3)log(5/2) > 0 by exact piecewise bounds (vertex/root arithmetic zero-residual, log monotonicity Category-A); continuity of A -> I_p (log of a nodeless polynomial family; Category-A) => a root A* in (1/2,9/2) with E0=2A*g_p/aF^2 > 0: family (i) {I_p=0, E0>0} IS REALIZABLE with a quotient crease at one end and a two-sided seam at the other. STAMP: mixed-posture chain (crease|two-sided), quadratic class, definite sub-class, INTEGRATED branch, ell=1 witness normalization (CHOSE, typed); root existence via IVT = the banked A2/sign-change pattern (nonconstructive, Category-A)",
+   "kind": "substantive",
+   "name": "C6b_massive_Ip0_locus_with_crease_nonempty",
+   "passed": true
+  },
+  {
+   "detail": "lock-emergence massive class (P1-4D landing, W_F==1, f/h affine): on a CYCLIC completion, field single-valuedness (oint df = f1*L = 0, L>0) forces f1=h1=0 => E0 = Ltilde_fh(0,0) = 0: the massive leg is CUT (forced massless) there.  On ACYCLIC chains (open/two-sided-terminated): no cycle => UNTOUCHED (its banked conditionalities travel unchanged).  Quotient posture: already excluded upstream by the banked parity collapse (CITED, not re-adjudicated).  STAMP: fields census BR-M, P1-4D branch, lock landing, GENERIC nondegeneracy stamps [AM-2] inherited",
+   "kind": "substantive",
+   "name": "C6c_lock_class_cut_on_cyclic_completion",
+   "passed": true
+  },
+  {
+   "detail": "the massless strata (P2-side constants, triad-locked {E0=0}, pointwise survivors {E0=0}) satisfy EVERY derived period condition identically (zero residual).  Nonconstant P2-affine / NV-affine (W1-class) members on a cyclic completion reduce to constants by field single-valuedness (slope*L=0); on quotient/acyclic completions they are untouched by R9.  STAMP: P2 branch aF=0 instance; NV closure-data reading typed under the same single-valuedness conditions (gate-6 nonvariational form)",
+   "kind": "substantive",
+   "name": "C6d_massless_strata_survive_everywhere",
+   "passed": true
+  },
+  {
+   "detail": "open-end germ family (B_Q, B_rho \u2014 the banked FREE 2-germ-function family): NO cycle passes through a free endpoint, so no period condition reaches it \u2014 UNTOUCHED/FREED by R9.  Banked-glue germs: pinned upstream (B_rho=q/2, B_Q=0); the flux-seal pin B_Q=0 is EXACTLY the condition under which the cyclic period law carries no seam sources (C2b) \u2014 a consistency observation, nothing adopted. Non-banked active-germ two-sided seams: enter the period law as supplied jumps J_s (C2b general form), typed",
+   "kind": "guard",
+   "name": "C6e_germ_data_unreached",
+   "passed": true
+  },
+  {
+   "detail": "W_F(p0=0) = e^{aF*0} = 1 for every enumerated branch (aF symbolic): two cells carried under DIFFERENT pairing branches present EQUAL weights at any seam locus sitting at the seal value p0=0 \u2014 cross-pairing joins are weight-consistent there (banked TW3_pairing_weight_drops_at_mirror_wall, seam-locus instance; at off-seal seams the weights differ by (c_E/Q_w)^{aF}: CONDITIONAL, weight-matching factor required).  STAMP: J08-type transition typing fact; no pairing adopted",
+   "kind": "substantive",
+   "name": "C6f_crosspairing_weight_match_at_seal",
+   "passed": true
+  },
+  {
+   "detail": "Q-C map (typing facts ONLY; the owner's sectors reading CHARACTERIZED, never adopted, never used to resolve any fork \u2014 F-P7): crease|crease (mirrored cell) -> PERMITTED | crease|two-sided glue (mixed chain) -> PERMITTED-CONDITIONAL | two-sided cyclic, all-definite members -> FORBIDDEN for massive members | two-sided cyclic, 1-cell -> FORBIDDEN for nonconstant members | open-end terminator + any chain -> PERMITTED | cross-census cells (constants-census | fields-census) in one whole -> CONDITIONAL",
+   "kind": "guard",
+   "name": "C6g_QC_map_assembled",
+   "passed": true
+  }
+ ],
+ "checks_failed": 0,
+ "checks_guard": 6,
+ "checks_substantive": 22,
+ "checks_total": 28,
+ "contract": "PREREGISTRATION.md (frozen)",
+ "headline_conditions": {
+  "J11_loop": "real-linear holonomy vanishing (hyperplane) or real classification value",
+  "crease_end_on_quadratic_class": "w(-l)=1 and 2 A w(-l) = w'(-l)^2",
+  "cyclic_field_periods": "Sum_i (G_i^-1 c)_a J_i = 0 per angular field a; c common (momentum continuity)",
+  "cyclic_momentum_period": "Sum_i E0_i L_i = 0  <=>  Sum_i M-WALL_i = 0 <=> Sum_i M-GEN_i = 0 (labeled branches; common aF!=0)",
+  "whole_completion_tie": "Sum_i E0_i I_p,i = 0 (INTEGRATED; generalizes the banked per-cell 2 E0 I_p = 0)"
+ },
+ "outcome_class": "MIXTURE: OQ3 (sector-compatibility map computed) + OQ4 on Q-B (no quantization \u2014 derived reasons) + Q-A NO-SELECTION (typing distinction only); TP-2 derived REAL period conditions are first-class content",
+ "package": "udt_p4_period_gate_2026-07-30"
+}
