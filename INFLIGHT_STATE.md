@@ -48,6 +48,12 @@ binding contract — its targets/falsifiers/ceiling override anything else you i
 CLAUDE.md's method sections bind (lay language with Charles; nothing adopted without his
 ruling; the DRIVER TRIGGERS fire on your own outputs).
 
+**R0b. PROVENANCE NOTE (Charles, 2026-07-31, binding):** the A3 layer bounds
+(torus-first; bounded angular detail) were DRIVER BUDGET recommendations Charles accepted
+for sequencing — NOT his scientific exclusions ("I would not exclude the full sphere or
+the fine angular detail"). The full-S³ and finer-detail layers are owner-expected
+follow-on contracts. Never present the bounds as his choice.
+
 **R1. Confirm the gate.** Charles's "A3 go" in your conversation. Without it: STOP after
 orientation, report readiness, wait.
 

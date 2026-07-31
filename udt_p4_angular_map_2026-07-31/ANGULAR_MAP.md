@@ -160,3 +160,16 @@ arc's highest bar.
 
 **STATUS: MAP COMPLETE — DELIVERED to Charles; NOTHING launched. Stage A1's
 preregistration is drafted only after Charles clears this MAP (catch-point A#1 is his).**
+
+## PROVENANCE CLARIFICATION ON THE LAYER BOUNDS (Charles, 2026-07-31 — binding on how
+A-L1/A-L2 are read)
+"Torus-first" and the bounded angular resolution are DRIVER BUDGET/SEQUENCING
+RECOMMENDATIONS that Charles ACCEPTED to stay within the session's token budget — they are
+NOT owner exclusions and must not be presented as his scientific choices. His stated
+position (verbatim intent): "I would not exclude the full sphere or the fine angular
+detail." READ THE TAGS ACCORDINGLY: A-L1's full-S³ layer and A-L2's finer mode/jet content
+are OWNER-EXPECTED CONTINUATIONS of the angular lane — sequencing, not scope; when budget
+permits, the fuller versions are the intended program. Any A3 verdict carries this
+stamp: its layer bounds are budget-sequencing artifacts, and its conclusions are
+conditional on them in the usual scoped-negative sense (a barren verdict at the torus
+layer says NOTHING about the sphere layer until run).

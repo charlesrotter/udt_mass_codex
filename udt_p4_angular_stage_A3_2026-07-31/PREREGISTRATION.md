@@ -101,3 +101,10 @@ its own parser; hunt F-B3 first, F-B2 on every integer step. (4) Amendments (in 
 SCRIPT for generated artifacts — the A2 lesson) + SAME-verifier closure. (5) Driver
 four-check into AUDIT_REPORT.md → pytest → bank commit+push → LIVE/arc-summary/
 INFLIGHT/memory close-outs → the verdict to Charles in LAY terms.
+
+## ADDENDUM (2026-07-31, pre-launch; owner provenance correction — binding)
+The §1 layer bounds (torus stratum; jets/modes ≤ layer) are DRIVER BUDGET-SEQUENCING
+recommendations Charles accepted — NOT owner exclusions ("I would not exclude the full
+sphere or the fine angular detail"). Every A3 verdict is stamped conditional on these
+bounds; the full-S³ and finer-detail layers are OWNER-EXPECTED next contracts, not
+optional extras. A barren torus-layer verdict does not speak for the sphere layer.
