@@ -52,10 +52,10 @@ premise-stamped map fact.
 - **θ-ADOPTION DEFERRED (2026-07-31):** "adopting the θ-field before it is fleshed out by an
   unmuting exploration seems premature." θ stays REGISTERED-NOT-ADOPTED; the menu/lattices
   stand as IF-ADOPTED conditionals.
-- **TIME FIRST (2026-07-31):** the unmuting exploration opens with the time chair. The
-  TIME-LIVE MAP is delivered; Charles's open point at pause: everything-on vs
-  diagonal-frozen for Stage T1 (driver recommended everything-on bounded-by-layer with
-  frozen-slot runs as in-package controls only; Charles leans everything-on; NOT yet ruled).
+- **TIME FIRST (2026-07-31):** the unmuting exploration opens with the time chair.
+  **RULED same day: "everything-on, bounded by layer, frozen-slot versions only as
+  in-package controls"** — the MAP cleared, Stage T1 built and banked on that footing
+  (row 22); no DOF frozen anywhere in the time-live lane.
 - **OWNER KERNEL (2026-07-31, provenance correction):** Charles's owned foundation is
   exactly: (i) static = NON-EXPANDING, time FLOWS; (ii) x_max = max allowable distance
   between two observers (spatial; derivation held); (iii) very likely finite total
