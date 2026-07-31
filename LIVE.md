@@ -57,14 +57,27 @@ both lock-reading branches — the fork changes the R_N sector's READING, not th
 shape ⇒ the fork's decision is safely deferrable past the pointwise layer** (stratum
 qualifier travels). Static ℛ_PW EMBEDS EXACTLY; the k_mod=0 Noether identity EXTENDS
 VERBATIM (still the only codim-1 cut, verifier re-ran the elimination); C-1 static recovery
-EXACT; resonance locus OPEN-PENDING-CENSUS. **CHARLES: GO (2026-07-31) — STAGE T3 LAUNCHED** (contract
-`udt_p4_timelive_stage_T3_2026-07-31/PREREGISTRATION.md`): THE BRIDGE TEST — the cycle/
-completion census WITH TIME, per topology branch × spatial completion × integer layer
-(native AND IF-ADOPTED θ, separately stamped); the disjointness theorem re-examined with
-time-cycles present; the τ=e^{−φ}T depth-lock derived as the first time-period constraint;
-MAXIMUM anti-targeting (marriage legs get the arc's hardest verification; a marriage
-finding banks PROVISIONAL until verified); C-1 must recover the banked period-gate verdicts
-exactly; no topology adopted, no θ adopted, no spectrum. BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
+EXACT; resonance locus OPEN-PENDING-CENSUS. **STAGE T3 BANKED (a56c2ab; VERIFIED → five amendments (both required = overclaim-TRIMS) →
+SAME-verifier CLOSED; OB-3 MIXED): THE BRIDGE TEST IS ANSWERED, TWO-SIDED.** NATIVE layer:
+NO integer time-live on the banked untwisted census (the real-targets theorem extends; the
+mapping-torus/twisted-identification class = the NAMED OPEN SEAT — the one place a native
+integer could still arise, unrun); THE DEPTH-LOCK = the first time-period constraint:
+**massive ⇒ NON-UNIFORM proper period** (general; full ⟺ on the crease-pinned branch only)
+— the temporal sibling of "mass wants heterogeneity". IF-ADOPTED θ layer: the crease kill
+travels (c_θ≡0 intact) and at ε=−1 EXTENDS (n_t=0 forced); **at ε=+1 THE MARRIAGE, AT THE
+LABEL LEVEL, PROVISIONAL: both certified-massive carriers (the mixed chain's cylinder AND
+the quotient family-(i) locus) carry live time-winding integers n_t — while E0/ℓ/moduli
+stay UNCUT (audited twice): even inside the marriage, integers LABEL sectors, they do not
+cut mass**; requires t-dependent θ; kinematic, no on-shell claim; premise stack travels.
+Branch (c): temporal pin-pin lattice at ε_T=−1 (new SUPPLIED datum). C-1 static recovery
+EXACT. ON CHARLES'S DESK (three surfaces, no recommendation): **(1) the TIME-TOPOLOGY
+question** (T3 = its first real data: the line branch is barren, the circle branch carries
+the whole structure — a branch ruling or a topology-derivation push are both legal moves);
+**(2) the θ-ADOPTION stakes, CHANGED** (the label-level marriage lives on the IF-ADOPTED
+layer at ε=+1 with t-dependent θ — adoption now buys conditional integer LABELS on the
+massive carriers, still no mass cuts; deferral still costs nothing banked); **(3) the
+STAGE T4 go** (the massive candidates under real time dynamics — where "t-dependent θ" and
+the on-shell coexistence question get their honest test). BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
 the R1 menu; the queued tiles (resonance census = verifier-required precondition;
 index-exactly-1 numeric; hopfion-bridge at driver discretion; the named unrun seats incl.
 the cycle+pin completion — the only named spatial road to marrying integers and mass).

@@ -47,6 +47,7 @@ premise-stamped map fact.
 | 21 | `udt_p4_timelive_map_2026-07-31/` | a5cdf07 + 588eb0b | TIME-LIVE MAP (CLEARED; Charles ruled everything-on/bounded-by-layer/controls-only): premise ledger T-L1..T-L8; time-topology fork carried 3 ways; owner-kernel correction folded in; staged T1–T4 program. |
 | 22 | `udt_p4_timelive_stage_T1_2026-07-31/` | f2343b7 | STAGE T1: the inverse problem re-posed time-live, everything on — shift row's native form DERIVED (ADM pin proven physically distinct); no-free-lapse; K₄ survives+grows; R1–R15 re-posed 0 breaks (temporal mirror derived); static ℛ_PW embeds; C-1 static-recovery EXACT; THE LOCK-READING FORK load-bearing, both branches to T2. |
 | 23 | `udt_p4_timelive_stage_T2_2026-07-31/` | fdae2dc | STAGE T2: the pointwise layer time-live — φ-forcing intact (Q=c_E·e^{−φ} still forced; bare-t excluded); all three R_N slots survive as physical content (coordinate branch); ℛ_PW^T READING-INDEPENDENT (the fork changes meaning, not shape — decision deferrable); static ℛ_PW embeds exactly; Noether identity extends verbatim; C-1 exact. |
+| 24 | `udt_p4_timelive_stage_T3_2026-07-31/` | a56c2ab | STAGE T3 (the bridge test; OB-3 MIXED): native layer — no integers on the untwisted census, depth-lock: massive ⇒ non-uniform proper period; IF-ADOPTED ε=+1 — THE MARRIAGE at the LABEL level, PROVISIONAL (certified massive carriers carry live time-winding n_t; E0/ℓ still uncut); ε=−1 strengthened survival; twisted-identification = named open seat. |
 
 ## Standing rulings (Charles, binding)
 
@@ -68,10 +69,11 @@ premise-stamped map fact.
 
 ## Open questions (the desk, in order)
 
-1. The Stage T3 go (the cycle/completion census with time — the bridge hope's honest test;
-   per topology branch × lock-reading branch; maximum anti-targeting). [T1 AND T2 both
-   BANKED 2026-07-31; the lock-reading fork proven pointwise-shape-neutral, decision
-   deferrable.]
+1. THREE SURFACES from banked T3 (a56c2ab): the time-topology question (line barren,
+   circle carries the structure); the θ-adoption stakes CHANGED (label-level marriage on
+   the IF-ADOPTED ε=+1 layer, PROVISIONAL; E0 still uncut); the Stage T4 go (massive
+   candidates under real dynamics — the on-shell test of the marriage's premises).
+   [T1+T2+T3 all BANKED 2026-07-31.]
 2. The posture question (quotient/two-sided/open; per-cell-type mixed chains typing-supported).
 3. The census ruling (constants vs fields — certified free; behind the posture).
 4. The G18 re-grade proposal (closure = posture ∧ Branch-G ∧ germ data).
