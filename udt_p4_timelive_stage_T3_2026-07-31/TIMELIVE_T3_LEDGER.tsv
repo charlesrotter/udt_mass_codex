@@ -1,0 +1,24 @@
+# IF-ADOPTED BANNER (coupling-bank AM-4 precedent): every row whose layer column says IF-ADOPTED is CONDITIONAL on adopting the doorway bank's REGISTERED-NOT-ADOPTED theta; eps_theta and eps_theta^T are SUPPLIED signs; NO topology branch is adopted (rows are per-branch CONDITIONAL structure); MARRIAGE rows are PROVISIONAL by contract until blind verification.
+# AMENDMENT 2026-07-31, verifier round 1 (PASS-WITH-REQUIRED-AMENDMENTS; no leg refuted): F1 -- the depth-lock biconditional is SCOPED (massive => non-uniform tau is general; tau-uniform <=> E0=0 on the crease-pinned branch ONLY; counterexample checked in B2h); F2 -- every native-sterility verdict is scoped to the banked UNTWISTED census (the mapping-torus/twisted time identification is a NAMED OPEN SEAT, unrun); the MARRIAGE rows remain PROVISIONAL exactly as scoped.
+cycle	branch	completion	layer	condition	verdict	stamps
+(all static spatial)	a	certified crease|glue chain (massive)	both	no new cycle (B1a)	static verdicts VERBATIM	C-2 control; B1a
+(all static spatial)	a	quotient-mirrored (family-(i) massive locus UNTOUCHED there, banked)	both	no new cycle (B1a)	static verdicts VERBATIM	C-2 control; B1a
+(all static spatial)	a	all-definite ring (massless, banked)	both	no new cycle (B1a)	static verdicts VERBATIM	C-2 control; B1a
+(all static spatial)	a	double-crease (massive EMPTY, banked SB2)	both	no new cycle (B1a)	static verdicts VERBATIM	C-2 control; B1a
+(all static spatial)	a	massive cyclic chain (CONDITIONAL existence, banked)	both	no new cycle (B1a)	static verdicts VERBATIM	C-2 control; B1a
+(all static spatial)	a	open chain	both	no new cycle (B1a)	static verdicts VERBATIM	C-2 control; B1a
+gamma_t	b	EVERY completion x S1_t	NATIVE	T-periodicity (auto on static, B2b); tau(x)=e^{-p0}T depth-lock (B2c/B2d/B2h); oint dt=T in R	REAL/continuum; binds NEW data (T, tau); E0/ell UNCUT; massive => tau NON-uniform (=> direction general; the full biconditional crease-pinned-branch ONLY, B2h -- AMENDED F1)	B2b-B2d,B2h; no native integer on the banked untwisted census (B2a; twisted seat OPEN -- F2)
+(m,n) products	b	ring x S1_t (torus)	NATIVE	m*(banked spatial condition) + n*0 (B2e)	NO new native condition	B2e
+gamma_t	b	certified crease|glue chain (massive)	IF-ADOPTED eps_theta=-1	crease line rigid: theta(crease,t) in {0,pi} const	n_t = 0 FORCED; c_theta = 0 per slice	B3b/B3d; kill EXTENDS, not dissolves
+gamma_t	b	certified crease|glue chain (massive)	IF-ADOPTED eps_theta=+1	omega T = 2 pi n_t LIVE (witness every n_t)	MARRIAGE (label-grade): massive completion carries live Z; binds (omega,T) only; E0/ell UNCUT; PROVISIONAL	B3c/B4a/B4b; off-stationary theta; no coupling to mass; no spectrum
+gamma_t	b	quotient-mirrored (family-(i) massive locus UNTOUCHED there, banked)	IF-ADOPTED eps_theta=-1	both crease lines rigid	n_t = 0 FORCED	B3b/B3f
+gamma_t	b	quotient-mirrored (family-(i) massive locus UNTOUCHED there, banked)	IF-ADOPTED eps_theta=+1	spatial winding hom == 0 (TD3a extends); time factor free	MARRIAGE (label-grade) on the quotient massive locus too; PROVISIONAL	B3f/B4b
+(gamma_x, gamma_t)	b	all-definite ring (massless, banked)	IF-ADOPTED	(n_w, n_t) in Z^2; (m,n) winding = m n_w + n n_t	Z^2-catalog of labels-without-mass (forced massless travels, B4c)	B3e/B4c
+(gamma_x, gamma_t)	b	massive cyclic chain (CONDITIONAL existence, banked)	IF-ADOPTED	n_w + c_theta lattice + n_t (no crease on a cycle)	CONDITIONAL (existence not certified, banked)	B3e; banked TP-5
+gamma_t	b	double-crease (massive EMPTY, banked SB2)	IF-ADOPTED	n_t (eps=+1) / killed (eps=-1); pin-pin lattice travels	massless-confined labels (SB2)	B3b/B3e/B4c
+temporal D_inf	c (fold-fold)	EVERY completion	NATIVE	Hom(D_inf,R)=0 transposed; t-wall pins d_t phi=0, N=0 auto-satisfied static	IDENTICALLY SATISFIED; imposes nothing on static banks	B1e/B2f; G18+SO+ CHOSE
+temporal increment	c (fold-fold)	certified crease|glue chain (massive)	IF-ADOPTED eps_theta^T=-1, eps_theta=+1	Delta theta = pi m (temporal PIN-PIN lattice)	MARRIAGE (label-grade): live Z on the massive completion; binds theta time-profile; E0/ell UNCUT; PROVISIONAL	B3h/B4b; TWO supplied signs; G18+SO+ CHOSE
+temporal increment	c (fold-fold)	certified crease|glue chain (massive)	IF-ADOPTED eps_theta^T=-1, eps_theta=-1	crease line frozen => Delta theta(crease)=0	m = 0 FORCED; disjointness survives	B3h
+t-wall value	c (fold)	any completion	IF-ADOPTED eps_theta^T=-1	theta(x, t-wall) in {0, pi}	Z2 LABEL (temporal analog of banked C5d)	B3g
+(time-glue)	c (glue)	any completion	both	collapses to branch (b)	see branch (b) rows	B1f
+J11 / slack loops	all	multi-chart completions	NATIVE	real classification unchanged; slack cocycle loop-trivial	NO discrete structure natively (banked untwisted census; twisted seat OPEN -- F2)	B1h/B2a; banked C3, T2i

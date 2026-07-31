@@ -1,0 +1,38 @@
+{
+ "TB1_census": {
+  "a": "NO new cycles (B1a); census == static (C-2).",
+  "b": "gamma_t NEW on every completion (B1b); chains -> cylinders (pi_1 = Z); rings -> tori (pi_1 = Z^2, (m,n) products, B1d); quotient -> D_inf x Z (B1c); torsion classes persist vacuous natively (B1g); J11 loops unchanged + slack-trivial (B1h).",
+  "c": "fold-fold: temporal D_inf, all time-periods identically vanish (B1e); glue: COLLAPSES to (b) (B1f); open/partner: no time-cycle.  Spacelike time-walls (T1 T3b) carry germ data, not cycles."
+ },
+ "TB2_if_adopted_verdict": "crease kill TRAVELS per slice (not dissolved) and EXTENDS to kill n_t at eps=-1 (value-pin rigidity); at eps=+1 the time-winding omega T = 2 pi n_t is LIVE on crease-ended cylinders; torus (n_w,n_t); temporal pin-pin Delta theta = pi m on branch (c) fold-fold at supplied eps^T=-1.",
+ "TB2_native_verdict": "real-targets theorem EXTENDS time-live (no native compact target from the time direction); depth-lock tau=e^{-p0}T binds NEW data only -- massive => NON-uniform proper period (general); tau-uniform <=> E0=0 ON the crease-pinned branch ONLY (B2h counterexample off it -- AMENDED F1); static members satisfy every time-period identically; product cycles reduce to banked conditions; NO native integer ON THE BANKED (UNTWISTED) CENSUS -- the mapping-torus/twisted-identification class is a NAMED OPEN SEAT, the one place a NATIVE integer could still arise; unrun, not adjudicated (AMENDED F2).",
+ "TB3_disjointness_verdict": {
+  "branch_a_both_layers": "SURVIVES VERBATIM (no new cycles; C-2).",
+  "branch_b_if_adopted_eps_minus": "SURVIVES-STRENGTHENED (crease rigidity kills n_t on every certified-massive-carrying completion).",
+  "branch_b_if_adopted_eps_plus": "DOES NOT EXTEND -- MARRIAGE at the LABEL level: the certified massive completions (mixed chain AND quotient locus) carry the live integer n_t; binds (omega, T) only; E0/ell/moduli UNCUT; requires t-dependent theta; PROVISIONAL.",
+  "branch_b_native": "SURVIVES on the banked (untwisted) census (vacuously at the integer layer: no native integer exists THERE; real conditions bind new data only); the mapping-torus/twisted seat is OPEN, unrun (AMENDED F2).",
+  "branch_c_if_adopted": "eps^T=+1 or open/partner: SURVIVES; eps^T=-1 & eps=+1: MARRIAGE at the LABEL level (temporal pin-pin Delta theta = pi m on the massive completion; E0/ell UNCUT; PROVISIONAL); eps^T=-1 & eps=-1: m=0, SURVIVES.",
+  "branch_c_native": "SURVIVES (temporal D_inf kill / no cycle; glue -> branch b)."
+ },
+ "amendments_2026_07_31_verifier_round_1": {
+  "F1": "depth-lock biconditional SCOPED: massive => non-uniform proper period (general); tau-uniform <=> E0=0 on the crease-pinned branch ONLY (counterexample E0=0, w=x+2 checked zero-residual, B2h).",
+  "F2": "native-sterility headlines carry the mapping-torus/twisted open-seat stamp (banked untwisted census only; seat unrun, not adjudicated).",
+  "F3": "B3c seam conjunct replaced: non-tautological one-sided values at seam abscissa with integer-lift offset + failing pi-offset contrast.",
+  "F4": "C1a stand-in-machinery scope (3 of 8 classes keyword-matched) and B4c SOS-tail e3=0 scope stated.",
+  "F5": "self-reported count fixed (see count_note_F5)."
+ },
+ "ceiling": "no branch adopted; theta not adopted; no spectrum; no mass value; no dynamics; marriage rows PROVISIONAL by contract.",
+ "checks_failed": 0,
+ "checks_guard": 9,
+ "checks_substantive": 29,
+ "checks_total": 38,
+ "contract": "PREREGISTRATION.md (frozen)",
+ "controls": {
+  "C1": "PASS (mechanical ledger recovery)",
+  "C2": "PASS (branch a)"
+ },
+ "count_note_F5": "counts INCLUDE the final G1 guard itself (AMENDED F5: shipped run self-reported 36=28S+8G, written pre-G1; true shipped total 37=28S+9G; this amended run reports the exact final tally, assert-certified).",
+ "failed_names": [],
+ "outcome_class": "OB-3 (MIXED per branch x layer x supplied sign)",
+ "package": "udt_p4_timelive_stage_T3_2026-07-31"
+}
