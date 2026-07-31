@@ -70,3 +70,18 @@ structure; the sentence is the conjecture.
 
 *(Do not steer A3 with this. But when its verdict lands, read it in §1's language first —
 that is where either outcome will make the most sense fastest.)*
+
+## 7. Addendum (Charles's sharpening, session close): the spectrum as taxonomized stability
+Charles's formulation, confirmed as the conjecture's operational form: particle spectra =
+several TAXONOMIES of stable minima. Refined: a "species" = (discrete label data) ×
+(stable basin) — the DISCRETE AXES are the theory's countable choices (completion class,
+parity/pin sheet, winding sector, posture), which taxonomize; STABILITY is the pruner
+selecting which basins exist per taxon; MASSES are properties of basins — pinned not by
+integers but by saturation of derived bounds (the M·ℓ dichotomy) and global sum rules
+(the residue-shaped constraints). The banked record already contains the first two
+catalog entries in exactly this form: one candidate stabilized by a DISCRETE parity pin,
+one by a BOUND. Different label axes could shadow different quantum-number families
+(charge-like = windings; sheet-like = parities; generation-like = completion classes? —
+pure conjecture). Caveats: "grinding ODEs" becomes coupled PDEs with everything on; the
+enumeration is gated on ADOPTING a derived response law (the missing-law gate still
+stands); the payoff observable = scale-free mass RATIOS against the anchor set.
