@@ -33,14 +33,18 @@ is unstarted or in flight):**
 8. DONE — LIVE.md close-out + memory update.
 9. (Stretch, if tokens remain) T4-linear MAP skeleton, same pattern.
 
-**NEXT MICRO-STEP: none in flight — STAGE A1 IS BANKED (2fd4af3; pipeline complete:
-prereg → derivation → verifier round 1 → AM-A/B/C → closure → AM-D → CLOSED → four-check →
-bank+push). ON CHARLES'S DESK: the Stage A2 go (pointwise angular-live). DRIVER DEBT
-(post-bank, small): classify the 17 flagged registry entries (list in
-udt_p4_angular_stage_A1_2026-07-31/DECISION_SURFACE_UPDATE.md) — premise-scope notes per
-the #22 precedent; can be done any time. If you are the new model: present A1's results to
-Charles in LAY terms if not yet done, take his A2 ruling, draft the A2 prereg on his go
-(the T2/A1 contract patterns are the templates).**
+**NEXT MICRO-STEP — STAGE A2 PIPELINE (Charles: "A2 go"):**
+- A2-p1 DONE — prereg committed (`udt_p4_angular_stage_A2_2026-07-31/PREREGISTRATION.md`).
+- A2-p2 IN FLIGHT — derivation agent (chunked; TP2-stages banked to disk in order; if it
+  dies, resume from the first missing stage, same contract).
+- A2-p3 PENDING — blind adversarial verifier (φ-forcing + R_m survivals hardest; C-1 own
+  parser; findings banked incrementally).
+- A2-p4 PENDING — amendments + SAME-verifier closure.
+- A2-p5 PENDING — driver four-check → pytest → bank commit+push → LIVE/arc-summary/memory
+  close-outs. Then A3 needs Charles's go.
+DRIVER DEBT (any time): classify the 17 flagged registry entries (A1 decision surface).
+IF YOU ARE THE NEW MODEL: continue from the first PENDING/IN-FLIGHT step; contracts bind;
+chunked-output rules for every agent.
 
 **CLOSEOUT DUTIES FOR THE NEW MODEL (when the list is done):** present the finished MAP to
 Charles in LAY terms (the time-live MAP walkthrough is the precedent — see the
