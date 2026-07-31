@@ -185,3 +185,29 @@ Gates, honest: this sector goes live only via θ-adoption or the Hopf/sphere lay
 opens exactly that door); G13 and the menu carry conditional/IF-ADOPTED stamps; all
 conjecture until derived. But the reframe maps the EM sector without a single new
 mechanism — every piece is already a banked structure wearing its own name.
+
+## 13. Addendum (Charles): fusion, chemical bonds, valences under the reframe
+- **FUSION = basin merger.** Two chains joining seams into one deeper joint basin; the
+  energy released = the basin-depth difference — and the observed MASS DEFECT is just the
+  banked non-additivity again (composite mass ≠ sum of parts), with E = mc² conversion
+  NATIVE because mass IS geometry here (no conversion needed — the "defect" is the
+  geometry relaxing). The barrier = the cost of meeting the handshake/closure conditions
+  before the merged basin exists (Coulomb-barrier-shaped: windings repel until the seams
+  can match). Charles: "almost intuitive" — confirmed, it is the chain picture verbatim.
+- **CHEMICAL BONDS = shared closure at shallow depth.** A bond = two structures
+  satisfying EACH OTHER'S unmet closure conditions through a shared seam (covalent-
+  shaped) or by label/winding transfer (ionic-shaped).
+- **VALENCE = the COUNT of unmet closure conditions** a structure carries — dangling
+  seams/pins — which is an INTEGER by construction: valence integers as closure-deficit
+  counting, the label-side arithmetic again (not mass quantization — deficit counting).
+  Noble-gas inertness = zero deficits (fully closed). The periodic table = the taxonomy
+  of closure-deficit patterns; BOND ANGLES/molecular shape = the ANGULAR sector's
+  closure geometry (the same angles A3 opens).
+- **ONE GRAMMAR, STRATIFIED BY DEPTH:** nuclear physics = closure combinatorics at deep
+  φ (the hadronic exp(−2φ)~5 regime), chemistry = the same combinatorics at shallow φ —
+  the nested-cell/recycling picture's stratification, with binding energies scaling with
+  depth exactly as observed (MeV nuclear vs eV chemical).
+Caveats: chemistry is QM's crown jewel (orbitals/Pauli) — the Postulate-A ladder applies
+(imports permitted, native re-derivation owed); all conjecture; but valence-as-deficit-
+count and fusion-as-merger need ZERO new mechanisms — the chain machinery already banked
+is their grammar.
