@@ -1,0 +1,85 @@
+# Stage A1 — correction layer (AMENDMENT 2026-07-31, verifier round 1)
+
+Verifier verdict: **PASS-WITH-REQUIRED-AMENDMENTS** (AUDIT_REPORT.md, blind section — three
+required amendments + two clarify-notes; NO leg refuted; OA1-1 survives). This file is the honest
+per-item record of what was WRONG or UNDERSTATED, why, and what changed. All amendment content is
+derivation-grade: every new claim is an exact zero-residual SymPy check in `derive_angular_A1.py`
+(checks `A1s`–`A1s5`, `A1i2`, `A1j3`; 40 → 47 checks, 38 SUBSTANTIVE + 9 GUARD, exit 0,
+re-run ×2 byte-identical). The verifier's V1b/V1c/V1e/V1e2/V1f constructions are authoritative
+for AM-A/AM-B and were ported, not paraphrased.
+
+## AM-A (MODERATE) — the missed fiber-slack residual layer
+
+**Error class: the exact T1-AM-1 slip transposed — an incomplete residual-symmetry census stated
+with an equality sign.** The package claimed residual symmetry "= K₄ × T₁ × [T² translations +
+mirrors] ⋉ {χ, y-reparam, ψ}". That equality was FALSE as stated: the fiber-translation slack
+z → z + ζ(y) is a lawful residual map of the registered family (f̃ = f + ζ′, all other fields
+argument-relabeled — `A1s`, the verifier's V1b), and its relatives ζ(x) / ζ(t) generate m_z /
+move N_z (`A1s2`/`A1s3`). The package's own hardest-target self-audit NAMED this hazard class
+(branch exhaustiveness of the slack derivation) and still missed the layer — the slip was hunting
+z-maps only in the reparametrization class z → k(z) (where the k′² = 1 rigidity is real and
+verifier-confirmed) and never posing z-translations with y/t-dependent displacement.
+**Consequences implemented:** the residual-group statement is RESTATED everywhere it appeared
+(EXACT_DERIVATION §1.2.6, ledger stamp 4, O16, J10 — the group is LARGER; the ζ-layer joins χ and
+ψ); A1e's rigidity is SCOPED to the z-only map class; O19's m_z leg is UPGRADED from analogy to
+DERIVED (`A1s2`); the ζ-layer's cocycle and composition were DERIVED, not asserted (additive
+abelian within itself `A1s4`; SEMIDIRECT under χ and ψ, which act on its y/t-arguments, `A1s5` —
+the slack group is the semidirect tower ζ-under-χ-under-ψ, × the y-reparam layer); rows
+O05/O17/J07 gained the ζ entries. A3-relevance is stamped in the decision surface only (one
+scope-note sentence, F-A1).
+
+## AM-B (MINOR-MODERATE) — the orbit understatement
+
+**Error class: a true statement about a slice presented as the orbit.** A1i's "{m, −m}" is
+correct for χ-maps alone (verifier-confirmed exhaustive in that class, V1d) but is only the y-leg
+SLICE: under the coordinate pin the JOINT (χ′, ζ′) slack branch set is a CONIC
+(2m·s + sᵀBs = 0) and the orbit of m = (g_xy, g_xz) is the full LEVEL SET of mᵀB⁻¹m (`A1i2`;
+witness (1,0) → (0,1)). **What survives, restated:** irreducibility survives as
+NON-REMOVABILITY — B pos-def keeps mᵀB⁻¹m ≠ 0, and the invariant mᵀB⁻¹m is the irreducible
+datum; the projected reading's full removal s = −B⁻¹m and the invariance of
+γ_xx = g_xx − mᵀB⁻¹m stand (`A1j3`). The spatial-reading fork itself is verifier-CONFIRMED both
+ways; the framing is unchanged. Restated at every rider (A1i/A1j2 notes, EXACT_DERIVATION
+§1.2.3/TA-4.3, ledger O16/O19/R02/J10, decision surface item 2).
+
+## AM-C (MINOR) — the C-3 sweep under-coverage
+
+**Error class: a mechanical sweep narrower than its prereg spec, reported without a remainder
+type.** The two-keyword regex (`axisym|one-parameter`) missed the digit form `1-PARAMETER` and,
+substantively, the entry-#17 "spherical-average interface reading" premise class (a STANDING
+entry carrying an angular-frozen presentation premise in different words). The sweep now runs
+BOTH vocabularies and reports honestly: **10 → 17 flagged anchors** (old strictly contained in
+new; widened set = axisym / one-param / 1-param / spherical / even-sector; the entry-#17 anchor
+is mechanically asserted present in `C3a`). The seven new rows are classified as driver-work
+notes in the decision surface. The registry itself remains NOT edited (A-L9).
+
+## NOTE-1 — A1q branch-scope (clarify-note, implemented)
+
+1/g^{xx} = γ_xx IS the projected spatial reading: the fork's projected branch pins exactly the
+functional A1q brands KK-type. Clarified in the A1q note, EXACT_DERIVATION §1.1.3 and ledger O19:
+the F-A2 hazard attaches to IMPORTING A PARAMETRIZATION, never to a derived reading functional;
+"this package pins the covariant row" is scoped to the coordinate-reading branch.
+
+## NOTE-2 — A2b inherited-premise split (clarify-note, implemented)
+
+A2b's "the angular directions add no wall strata" folded an inherited premise under a derived
+label. Split everywhere it appeared (A2b note, EXACT_DERIVATION TA-2 R6, ledger O12/R06):
+T²-closedness DERIVES the absence of angular BOUNDARY/completion strata and corner types; the
+absence of interior angular JUNCTION loci is INHERITED-PREMISE (the banked wall census:
+walls = x-loci, CANON), not derived.
+
+## Status
+
+All five items implemented 2026-07-31; artifacts regenerated by the script (stdout + JSON,
+re-run ×2 byte-identical, exit 0). OA1-1 and both controls (C-1/C-2) unaffected. Banking waits on
+same-verifier closure per contract §5(4). Nothing committed by this agent.
+
+## AM-D (verifier CLOSURE round, 2026-07-31; driver-applied)
+The verifier's closure hunt found the anticipated overclaim: the slack-group statement's
+"SEMIDIRECT TOWER × [y-reparametrization]" direct-factor form. Verified facts (verifier
+one-liners): h acts on ζ's y-argument (ζ-layer normal under h, conjugate ζ∘h); general h
+does not normalize the χ-layer (witness h = e^y). Corrected at all named loci (script JSON
+strings A1s5/A1m; EXACT_DERIVATION §1.2.6 item 4; ledger stamp-4, O16, J10): the slack
+group CONTAINS the tower (ζ◁χ◁ψ); h joins ABOVE it, not as a direct factor; only the
+field-fixing subclass h′=1 commutes in (still acting on ζ's argument); the full slack
+group = generated by {ψ, χ, ζ, h} under the derived relations. Content class: overclaim-
+trim (the T2-single-amendment precedent); no verdict changed.
