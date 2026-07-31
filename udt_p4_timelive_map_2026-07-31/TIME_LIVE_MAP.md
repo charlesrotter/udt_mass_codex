@@ -75,10 +75,13 @@ Per the recon, static-ness was never derived — it is a tagged CHOSE all the wa
   standing falsifier (J07-analog overlap laws owed in time as well).
 - **T-L2. Diagonal / no shift vector.** TAG: CHOSE-BY-CANON-LISTED-FREEDOM — canon names
   DIAGONAL one of the four independent choices. Carrying it frozen is a HABIT unless
-  tagged; the MAP's position: carry it as an explicit ledgered stand-in at Stage T1
-  (bounded first entry), with the off-diagonal (shift) row typed as a named seat — NOT
-  silently dropped. [Charles catch-point #1: is freezing the shift acceptable for the
-  first entry?]
+  tagged. **[SUPERSEDED RECOMMENDATION MARKER, 2026-07-31 — LIVE.md wins:]** this row's
+  original position (freeze the shift as a ledgered stand-in for Stage T1; Charles
+  catch-point #1) was OVERTAKEN the same day: on Charles's question ("everything-on is
+  where we can see what UDT really does") the driver's standing recommendation moved to
+  **EVERYTHING-ON, bounded by LAYER never by frozen sector** ("bound the domain, never
+  freeze a DOF"), with diagonal-frozen runs demoted to in-package CONTROLS only; Charles
+  leans everything-on; HIS RULING IS THE OPEN ITEM. See LIVE.md topmost block.
 - **T-L3. TIME TOPOLOGY — the load-bearing fork.** The banked arena has time = a line, R_t
   (routeC EXACT_DERIVATION.md:29) — but canon lists TOPOLOGY among the free choices, and
   the finite-cell canon (no spatial infinity; finite mirrored cells) is SPATIAL-scoped with

@@ -23,7 +23,11 @@ hopfion_arc_scripts_2026-07-05/prod_p1b*.npz
 # Refuted tautological mass pipeline (do not revive)
 hopfion_mass_Gmatch_TURNKEY.py
 
-# session/machine-local debris (consolidation 2026-07-31)
+# session/machine-local debris (consolidation 2026-07-31).
+# NOTE: 27 scratchpad/ files committed BEFORE this rule remain tracked (git ignores the
+# pattern for already-tracked paths) -- intentional, some are referenced by legacy results
+# docs. NEW files under scratchpad/ are deliberately not auto-added: session debris stays
+# local; anything bankable belongs in a result-package directory, committed per result.
 scratchpad/
 .claude/worktrees/
 *.zip

@@ -1222,7 +1222,13 @@ For modes with $\kappa_a \neq \kappa_b$, the spinor spherical harmonics $\Omega_
 
 ---
 
-**Derivation source:** `docs/phiequations.md` contains the full $\phi$ operator derivation with intermediate algebra.
+**Derivation source:** ~~`docs/phiequations.md`~~ **[DEAD POINTER — annotated 2026-07-31]:** no
+such file exists under `docs/`; a root-level `phiequations.md` copy was identified by Charles
+(2026-07-31) as a discarded artifact of earlier repos, brought over to be mined and ruled to have
+led nowhere — UNPROVENANCED, never banked, deleted (recoverable at commit 21eaf98 for archaeology
+only). Per the untrusted-import discipline it is NOT a derivation source; if this φ-operator claim
+ever becomes load-bearing, re-derive it natively. (This legacy doc is itself superseded — mine for
+structure only, per the Orientation notes.)
 
 ---
 
