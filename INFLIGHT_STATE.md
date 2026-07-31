@@ -20,21 +20,21 @@ is unstarted or in flight):**
    `udt_p4_timelive_stage_T1_2026-07-31/` — the re-grade verdict: #22's premise set
    (diagonal, C1-only, old-operator) does not cover the time-live P4 domain; scoped, no
    blocking authority there).
-3. PENDING — angular-kills recon (driver-level greps, bounded; NO agent): inventory the
+3. DONE — angular-kills recon (driver-level greps, bounded; NO agent): inventory the
    banked angular kills/structures (period gate's capped/torsion cycles; doorway C2 toric
    fail; the arena's Hopf/toric records; the angular-completion package; stability's
    angular wall-flux channel) — findings go straight into the MAP draft's §2.
-4. PENDING — ANGULAR_MAP.md §0-1 (frame + question whole; the muted-instrument statement;
+4. DONE — ANGULAR_MAP.md §0-1 (frame + question whole; the muted-instrument statement;
    Charles's "may still see integers, not guaranteed" as the frozen framing).
-5. PENDING — ANGULAR_MAP.md §2 (owned angular hardware, with citations from increment 3).
-6. PENDING — ANGULAR_MAP.md §3 (premise ledger, chose-or-derived tags; the mode/harmonic
+5. DONE — ANGULAR_MAP.md §2 (owned angular hardware, with citations from increment 3).
+6. DONE — ANGULAR_MAP.md §3 (premise ledger, chose-or-derived tags; the mode/harmonic
    bounding question; the composition with time-live-line).
-7. PENDING — ANGULAR_MAP.md §4-5 (staged program A1-A3 + tripwires).
+7. DONE — ANGULAR_MAP.md §4-5 (staged program A1-A3 + tripwires).
 8. PENDING — final read-through; LIVE.md close-out ("ANGULAR MAP DELIVERED, awaiting
    Charles's clearance"); memory update.
 9. (Stretch, if tokens remain) T4-linear MAP skeleton, same pattern.
 
-**NEXT MICRO-STEP: increment 3 (the angular-kills recon greps → MAP §2 material).**
+**NEXT MICRO-STEP: increment 8 (LIVE.md close-out + memory; then present the MAP to Charles in lay terms and hold).**
 
 **CLOSEOUT DUTIES FOR THE NEW MODEL (when the list is done):** present the finished MAP to
 Charles in LAY terms (the time-live MAP walkthrough is the precedent — see the
