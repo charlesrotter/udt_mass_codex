@@ -1,0 +1,363 @@
+{
+  "date": "2026-07-30",
+  "contract": "udt_p4_seam_closure_derivation_2026-07-30/PREREGISTRATION.md",
+  "stamps": {
+    "arena": "round-static radial reduction (1D r-profiles; Branch G/P reduced Lagrangians)",
+    "census_branch": "none used",
+    "pairing": "none used",
+    "crease_reading": "pointwise-in-r on the 1D reduction; screen/angular action NOT specified (banked 07-20 non-uniqueness stands)",
+    "stratum": "n/a"
+  },
+  "TS1_bridge_floor": {
+    "derived": "seam-data handshake at phi=0 only: shared angular geometry, shared flat radial weight f=1, shared phi-independent angular spectrum, ell=1 identity bridge",
+    "not_derived": "any profile relation in r beyond the seam; the gluing (weld :39-41 line, witnessed: two distinct germs pass the handshake)",
+    "residual_freedom": "closure type tau in {fold-quotient, partner(branch_+), glue+surface-term B, open-end(q=0)} + for glue: B with B'(rho_s)=Delta_Pi; partner continuation is DATA-DETERMINED (not arbitrary) once WE holds"
+  },
+  "TS2_verdicts": {
+    "K1": "BRIDGE-FLOOR (derived; five facts recomputed; banked section-235 script is a printer, no computation)",
+    "K2": "FLOOR-BOUNDARY (cited + underdetermination witnessed)",
+    "K3": "PERMITS-FOLD unconditionally (Branch G); FORCES-FOLD only conditionally on {no seam surface term (WE C^1), Branch G on BOTH sides of the seam (interior AND beyond), rho'(rs)=0} via data+Picard-uniqueness [A1: premise set restored \u2014 for a Branch-P interior the mirror fails the G phi-equation with exact residual -4e^{-2phi}rho'^2/(Z rho^2), credited check AM1, so the unique G continuation exists but is NOT the mirror]; FORBIDS a mirrored-P region (quotient-only for P interior); the rho'(rs)!=0 C^1-impossibility leg is branch-INDEPENDENT (kinematic jump -2rho'_s); F-C2 adjudicated: symmetry of equations forces nothing without the data locus",
+    "K4": "CONSTRAINS(exact): rho'(rs)=0 <=> fold-quotient/free-endpoint posture; partner reading leaves rho'(rs) free (WE gives continuity only); banked decider ABSENT (fold-JC ledger :104); banked matter-cell seam uses a NON-fold glue with jump q/2 (weld :30-32)",
+    "K5": "CONSTRAINS(premise-level, cross-arena, cited): WR-L wall is a DIFFERENT surface from the phi=0 seam in the recorded models; WR-L mirror-free; 'interior beyond' softens the closed-cell premise the fold leg rides; decides nothing at the seam",
+    "K6": "CONSTRAINS(exact): closure NECESSARY (no variationally neutral posture; bare-free endpoint is itself the q=0 closure) but NOT SELECTED (fold, partner, glue+B all well-posed); the selecting object = the underived boundary action (07-18 gate OPEN)",
+    "K7": "SILENT-as-decider (consistency holds both ways; phi=0 unique fixed point stays 'triviality or seed', undecided in-source)"
+  },
+  "TS3_composite": "OC2 \u2014 BRIDGE-ONLY derived; closure genuinely free on the banked record, partner-glue live (and banked-in-use at the matter-cell seam); SHARPENED: the freedom reduces to the named data {seam boundary action B (07-18 OPEN), the rho'(rs)-pin / beyond-ontology datum, branch beyond}; NEW conditional theorem [premise set per amendment A1]: on {no surface term, Branch G on BOTH sides of the seam (interior AND beyond), rho'(rs)=0} the fold is FORCED by data+uniqueness, and for rho'(rs)!=0 the fold is IMPOSSIBLE as a C^1 configuration (branch-independent)",
+  "standing_falsifier": "NOT FIRED \u2014 no unconditional fold was derived; the conditional fold names its arena (round-static radial reduction; screen/angular action unspecified) and asserts no point involution of the toric arena; the banked joint unsatisfiability is untouched",
+  "amendment": {
+    "date": "2026-07-30",
+    "verifier_verdict": "PASS-WITH-REQUIRED-AMENDMENTS (VERIFIER_REPORT.md; record = CORRECTION_LAYER.md)",
+    "A1": "REQUIRED premise restoration at all six loci: the conditional-forces-fold premise set is {no seam surface term (WE C^1), Branch G on BOTH sides of the seam (interior AND beyond), rho'(rs)=0}; counter-computation adopted as credited check AM1 (mirror of a P interior fails the G phi-equation, exact residual -4e^{-2phi}rho'^2/(Z rho^2)); the package body (K3d, P-interior quotient-only clause) knew the premise \u2014 the drop was headline-level only; the rho'_s!=0 impossibility leg is branch-independent and unaffected",
+    "verifier_credited_legs": "function-level F-C2 discharge adopted (AM2a-AM2g: banked EOMs verified as genuine Euler-Lagrange equations; mirror-of-G solves G and mirror-of-P fails P at function level with exact residuals) + AM1",
+    "relabels": "4 trivial-by-construction rows SUBSTANTIVE -> GUARD (S1f_handshake_germA_flat; S1f_handshake_germB_mirror_seam_value_identity; K3g phip/rho slots \u2014 identically zero even off-locus); witness-assembly steps, not computations; nothing hides behind them",
+    "other": "dead variable germB_val removed; K6a single/doubled-momentum note added (moot under dphi=0 essential)"
+  },
+  "checks": [
+    {
+      "name": "S1a_weight_swap_t_to_r",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "S1a_weight_swap_r_to_t",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "S1b_angular_block_phi_free",
+      "kind": "GUARD",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "S1c_seam_flat_value",
+      "kind": "GUARD",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "S1d_angular_eigenvalue_l1_m0",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "S1d_angular_eigenvalue_l1_m1c",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "S1d_angular_eigenvalue_l1_m1s",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "S1e_L1_identity_on_l1",
+      "kind": "GUARD",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "S1f_handshake_germA_flat",
+      "kind": "GUARD",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "S1f_handshake_germB_mirror_seam_value_identity",
+      "kind": "GUARD",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "S1f_handshake_germB_on_seam_locus",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "S1f_germs_distinct_first_jet",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "nonzero:Derivative(phim(r_s), r_s) (vanishes only at phi_-'(rs)=0)"
+    },
+    {
+      "name": "K3a_LG_invariant_odd_fold",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "K3b_LP_fold_residual_is_minus4sinh2phi_rhop2",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "K3c_mirror_solves_G_phi_eq",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "K3c_mirror_solves_G_rho_eq",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "K3d_mirror_violates_P_phi_residual",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "K3d_mirror_violates_P_rho_residual",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "K3e_flipped_weight_is_not_P",
+      "kind": "GUARD",
+      "passed": true,
+      "residual": "nonzero:-4*rhop**2*sinh(2*p) (vanishes only at phi=0 or rho'=0)"
+    },
+    {
+      "name": "K3e_flipped_weight_is_not_G",
+      "kind": "GUARD",
+      "passed": true,
+      "residual": "nonzero:2*rhop**2*(1 - exp(2*p)) (vanishes only at phi=0 or rho'=0)"
+    },
+    {
+      "name": "K3f_reflection_data_match_iff_phis0_rhops0",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "solve -> [{phi_s: 0, rhop_s: 0}]"
+    },
+    {
+      "name": "K3g_data_identity_on_locus_phi",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "K3g_data_identity_on_locus_phip",
+      "kind": "GUARD",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "K3g_data_identity_on_locus_rho",
+      "kind": "GUARD",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "K3g_data_identity_on_locus_rhop",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "K3h_off_locus_mirror_data_gap",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "nonzero:-2*rhop_s (vanishes only at rhop_s=0)"
+    },
+    {
+      "name": "K4a_pi_phi_form",
+      "kind": "GUARD",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "K4a_pi_rho_P_form",
+      "kind": "GUARD",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "K4a_pi_rho_G_form",
+      "kind": "GUARD",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "K4b_fold_variation_essential_delta_phi_zero",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "solve(v=-v) -> [0]"
+    },
+    {
+      "name": "K4c_doubled_rho_momentum_cosh_form",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "K4d_fold_natural_BC_pins_rhop_zero",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "solve -> [0]"
+    },
+    {
+      "name": "K4e_two_sided_WE_phi_continuity_only",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "phip_+ -> [phipm]"
+    },
+    {
+      "name": "K4f_two_sided_WE_rho_continuity_only_PP",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "rhop_+ -> [rhopm]"
+    },
+    {
+      "name": "K4f_two_sided_WE_rho_continuity_only_PG",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "rhop_+ -> [rhopm]"
+    },
+    {
+      "name": "K4g_partner_leaves_rhop_free",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "nonzero:rhopm (vanishes only at the fold/free-endpoint posture only)"
+    },
+    {
+      "name": "K6a_fold_boundary_terms_vanish",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "K6b_partner_boundary_terms_cancel",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "K6c_glue_requires_surface_term_Bprime_eq_DeltaPi",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "B' -> [q/2]"
+    },
+    {
+      "name": "K6c_glue_unclosed_without_B",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "nonzero:drho*q/2 (vanishes only at q=0 or drho=0)"
+    },
+    {
+      "name": "K6d_bare_free_endpoint_forces_q_zero",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "phi'(rs) -> [0] => q=0"
+    },
+    {
+      "name": "K7a_phi0_unique_fixed_point",
+      "kind": "GUARD",
+      "passed": true,
+      "residual": "-> [0]"
+    },
+    {
+      "name": "AM2a_banked_P_phi_EOM_is_EulerLagrange",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "phi'' from EL(L_P) == banked P phi-EOM",
+      "credit": "verifier-credited"
+    },
+    {
+      "name": "AM2b_banked_P_rho_EOM_is_EulerLagrange",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "rho'' from EL(L_P) == banked P rho-EOM",
+      "credit": "verifier-credited"
+    },
+    {
+      "name": "AM2c_banked_G_phi_EOM_is_EulerLagrange",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "phi'' from EL(L_G) == banked G phi-EOM",
+      "credit": "verifier-credited"
+    },
+    {
+      "name": "AM2d_banked_G_rho_EOM_is_EulerLagrange",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "rho'' from EL(L_G) == banked G rho-EOM",
+      "credit": "verifier-credited"
+    },
+    {
+      "name": "AM2e_mirror_of_G_solves_G_phi_function_level",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "residual 0 at function level",
+      "credit": "verifier-credited"
+    },
+    {
+      "name": "AM2f_mirror_of_G_solves_G_rho_function_level",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "residual 0 at function level",
+      "credit": "verifier-credited"
+    },
+    {
+      "name": "AM2g_mirror_of_P_violates_P_phi_function_level_exact_residual",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "exact residual -(4 rho'^2/(Z rho^2))(e^{-2phi}+e^{2phi})",
+      "credit": "verifier-credited"
+    },
+    {
+      "name": "AM1_mirror_of_P_interior_fails_G_phi_exact_residual",
+      "kind": "SUBSTANTIVE",
+      "passed": true,
+      "residual": "exact residual -4 e^{-2phi} rho'^2/(Z rho^2), nonzero for rho' != 0",
+      "credit": "verifier-credited"
+    }
+  ],
+  "checks_verifier_credited": [
+    "AM2a_banked_P_phi_EOM_is_EulerLagrange",
+    "AM2b_banked_P_rho_EOM_is_EulerLagrange",
+    "AM2c_banked_G_phi_EOM_is_EulerLagrange",
+    "AM2d_banked_G_rho_EOM_is_EulerLagrange",
+    "AM2e_mirror_of_G_solves_G_phi_function_level",
+    "AM2f_mirror_of_G_solves_G_rho_function_level",
+    "AM2g_mirror_of_P_violates_P_phi_function_level_exact_residual",
+    "AM1_mirror_of_P_interior_fails_G_phi_exact_residual"
+  ],
+  "counts": {
+    "total": 50,
+    "substantive": 37,
+    "substantive_original": 29,
+    "substantive_verifier_credited": 8,
+    "guard": 13,
+    "failed": 0
+  }
+}

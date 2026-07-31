@@ -1,0 +1,80 @@
+==============================================================================
+TS1 — THE BRIDGE FLOOR (K1 recomputed natively; K2 witnessed)
+==============================================================================
+[PASS][SUBSTANTIVE] S1a_weight_swap_t_to_r
+[PASS][SUBSTANTIVE] S1a_weight_swap_r_to_t
+[PASS][GUARD] S1b_angular_block_phi_free
+[PASS][GUARD] S1c_seam_flat_value
+[PASS][SUBSTANTIVE] S1d_angular_eigenvalue_l1_m0
+[PASS][SUBSTANTIVE] S1d_angular_eigenvalue_l1_m1c
+[PASS][SUBSTANTIVE] S1d_angular_eigenvalue_l1_m1s
+[PASS][GUARD] S1e_L1_identity_on_l1
+[PASS][GUARD] S1f_handshake_germA_flat
+[PASS][GUARD] S1f_handshake_germB_mirror_seam_value_identity
+[PASS][SUBSTANTIVE] S1f_handshake_germB_on_seam_locus
+[PASS][SUBSTANTIVE] S1f_germs_distinct_first_jet  expr=Derivative(phim(r_s), r_s) (vanishes only at phi_-'(rs)=0)
+
+==============================================================================
+TS2/K3 — BRANCH-G ODD-FOLD SYMMETRY: PERMITS vs FORCES (the F-C2 gap)
+==============================================================================
+[PASS][SUBSTANTIVE] K3a_LG_invariant_odd_fold
+[PASS][SUBSTANTIVE] K3b_LP_fold_residual_is_minus4sinh2phi_rhop2
+[PASS][SUBSTANTIVE] K3c_mirror_solves_G_phi_eq
+[PASS][SUBSTANTIVE] K3c_mirror_solves_G_rho_eq
+[PASS][SUBSTANTIVE] K3d_mirror_violates_P_phi_residual
+[PASS][SUBSTANTIVE] K3d_mirror_violates_P_rho_residual
+[PASS][GUARD] K3e_flipped_weight_is_not_P  expr=-4*rhop**2*sinh(2*p) (vanishes only at phi=0 or rho'=0)
+[PASS][GUARD] K3e_flipped_weight_is_not_G  expr=2*rhop**2*(1 - exp(2*p)) (vanishes only at phi=0 or rho'=0)
+[PASS][SUBSTANTIVE] K3f_reflection_data_match_iff_phis0_rhops0  solve -> [{phi_s: 0, rhop_s: 0}]
+[PASS][SUBSTANTIVE] K3g_data_identity_on_locus_phi
+[PASS][GUARD] K3g_data_identity_on_locus_phip
+[PASS][GUARD] K3g_data_identity_on_locus_rho
+[PASS][SUBSTANTIVE] K3g_data_identity_on_locus_rhop
+[PASS][SUBSTANTIVE] K3h_off_locus_mirror_data_gap  expr=-2*rhop_s (vanishes only at rhop_s=0)
+
+==============================================================================
+TS2/K4 — THE rho'(r_s)=0 DISCRIMINATOR, BOTH READINGS COMPUTED
+==============================================================================
+[PASS][GUARD] K4a_pi_phi_form
+[PASS][GUARD] K4a_pi_rho_P_form
+[PASS][GUARD] K4a_pi_rho_G_form
+[PASS][SUBSTANTIVE] K4b_fold_variation_essential_delta_phi_zero  solve(v=-v) -> [0]
+[PASS][SUBSTANTIVE] K4c_doubled_rho_momentum_cosh_form
+[PASS][SUBSTANTIVE] K4d_fold_natural_BC_pins_rhop_zero  solve -> [0]
+[PASS][SUBSTANTIVE] K4e_two_sided_WE_phi_continuity_only  phip_+ -> [phipm]
+[PASS][SUBSTANTIVE] K4f_two_sided_WE_rho_continuity_only_PP  rhop_+ -> [rhopm]
+[PASS][SUBSTANTIVE] K4f_two_sided_WE_rho_continuity_only_PG  rhop_+ -> [rhopm]
+[PASS][SUBSTANTIVE] K4g_partner_leaves_rhop_free  expr=rhopm (vanishes only at the fold/free-endpoint posture only)
+
+==============================================================================
+TS2/K6 — BOUNDARY-VARIATIONAL STRUCTURE PER CLOSURE CANDIDATE
+==============================================================================
+[PASS][SUBSTANTIVE] K6a_fold_boundary_terms_vanish
+[PASS][SUBSTANTIVE] K6b_partner_boundary_terms_cancel
+[PASS][SUBSTANTIVE] K6c_glue_requires_surface_term_Bprime_eq_DeltaPi  B' -> [q/2]
+[PASS][SUBSTANTIVE] K6c_glue_unclosed_without_B  expr=drho*q/2 (vanishes only at q=0 or drho=0)
+[PASS][SUBSTANTIVE] K6d_bare_free_endpoint_forces_q_zero  phi'(rs) -> [0] => q=0
+
+==============================================================================
+TS2/K7 — CONSISTENCY (cited; one exact guard)
+==============================================================================
+[PASS][GUARD] K7a_phi0_unique_fixed_point  -> [0]
+
+==============================================================================
+AMENDMENT 2026-07-30 — VERIFIER-CREDITED LEGS (adopted from
+VERIFIER_INDEPENDENT_CHECK.py: A1 counter-computation + function-level
+F-C2 discharge; see CORRECTION_LAYER.md)
+==============================================================================
+[PASS][SUBSTANTIVE][verifier-credited] AM2a_banked_P_phi_EOM_is_EulerLagrange  phi'' from EL(L_P) == banked P phi-EOM
+[PASS][SUBSTANTIVE][verifier-credited] AM2b_banked_P_rho_EOM_is_EulerLagrange  rho'' from EL(L_P) == banked P rho-EOM
+[PASS][SUBSTANTIVE][verifier-credited] AM2c_banked_G_phi_EOM_is_EulerLagrange  phi'' from EL(L_G) == banked G phi-EOM
+[PASS][SUBSTANTIVE][verifier-credited] AM2d_banked_G_rho_EOM_is_EulerLagrange  rho'' from EL(L_G) == banked G rho-EOM
+[PASS][SUBSTANTIVE][verifier-credited] AM2e_mirror_of_G_solves_G_phi_function_level  residual 0 at function level
+[PASS][SUBSTANTIVE][verifier-credited] AM2f_mirror_of_G_solves_G_rho_function_level  residual 0 at function level
+[PASS][SUBSTANTIVE][verifier-credited] AM2g_mirror_of_P_violates_P_phi_function_level_exact_residual  exact residual -(4 rho'^2/(Z rho^2))(e^{-2phi}+e^{2phi})
+[PASS][SUBSTANTIVE][verifier-credited] AM1_mirror_of_P_interior_fails_G_phi_exact_residual  exact residual -4 e^{-2phi} rho'^2/(Z rho^2), nonzero for rho' != 0
+
+==============================================================================
+CHECKS: 50 total = 37 SUBSTANTIVE (29 original + 8 verifier-credited) + 13 GUARD; 50 passed, 0 failed
+==============================================================================
+results written: seam_closure_results.json
