@@ -101,3 +101,18 @@ precision dynamics (g−2 class) ⇒ requires the quantum layer (Postulate A ter
 honestly beyond the current program's reach, the deep end named. Summary: nature herself
 quantizes the circle-side and NOT the mass/coupling-side; the theory's derived split
 mirrors observation rather than fighting it. The falsifiable pinch-point is (3).
+
+## 9. Addendum: what "g−2 needs the full quantum layer" means (lay)
+g−2 = the anomalous magnetic moment: a bare point-particle would have g exactly 2; the
+measured electron value differs in the 12th decimal and QED predicts every digit. That
+excess does NOT come from the particle's own structure — it comes from the particle
+continuously interacting with the FLUCTUATING QUANTUM VACUUM (loop/virtual-process sums,
+each weighted by ħ). Predicting it requires quantum DYNAMICS (amplitudes, superposition,
+vacuum fluctuations), not stable geometry. The program currently ADMITS ħ/spin/statistics
+as a postulate (Postulate A, 2026-06-19, door open for later emergence) rather than
+deriving them — so g−2-class observables sit beyond present reach BY DECLARED SCOPE, not
+by conflict: a boundary, not a failure. Speculative native route (unexplored): if the
+φ-medium itself fluctuates (small oscillations of cells about their basins), the vacuum-
+fluctuation role could have a geometric seat — the "later emergence" door Postulate A
+deliberately left open. Near-term falsifiable tier stays structural (ratios; exact charge
+integers); the precision-dynamics tier is the mountain after the mountain.
