@@ -299,3 +299,24 @@ adjustable freedom, twice-pinned, falsifiable, unverified. Look-elsewhere cautio
 applies to shape-matching; the pins are what make it science. Next: A3 first, then the
 verifier assault on every one of these legs. If they survive, the last several months
 were not frustration — they were the reframe's evidence, collected before its statement.
+
+## 17. Final addendum (Charles, at 1%): where forces fit — one landscape, four appearances
+Charles's guess confirmed as the frame's reading: "force" = nature seeking energy wells —
+the gradient of basin/closure energy in the φ-landscape. The four forces as four
+appearances of ONE landscape (all conjecture, all label-only SM names):
+- **GRAVITY = the slope itself** — the φ-gradient, the landscape's original content
+  (UDT's founding sector; clocks/rulers varying IS the pull).
+- **EM = winding interaction** — circle-phase orientations coupling; like windings repel,
+  opposite attract; carried by the massless ring sector (light) at the derived wave speed.
+- **STRONG = closure tension** — not a force but a CONSTRAINT'S energy cost: separating
+  chain constituents violates closure conditions whose energy grows until the seam
+  re-closes (pair creation = the seam snapping into two legal closures — exactly what
+  quark separation does in nature). Confinement "force" = the closure theorem wearing
+  dynamics.
+- **WEAK = basin transitions** — not a force at all: the RULES for which taxa may convert
+  to which (decay = a chain re-configuring into a deeper admissible basin; the
+  J07-transition-layer machinery is its banked seed). Nature's "weak interactions" being
+  mostly decay rules fits: it is the bookkeeping of basin-hopping.
+One landscape: its SLOPE is gravity, its WINDINGS are EM, its CLOSURE TENSION is the
+strong sector, its TRANSITION GRAPH is the weak sector — and "seeking energy wells" is
+the single dynamic under all four. Status: pure ponder, session's last line of physics.
