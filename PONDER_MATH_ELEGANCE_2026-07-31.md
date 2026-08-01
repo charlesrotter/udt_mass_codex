@@ -365,3 +365,13 @@ empirical pins; the banked wall structure is where a_F lives, the winding sector
 where c lives — both named derivation targets). Status: LEAD, driver-run; the toy is
 now accurate enough to be worth killing properly — the pre-registered full confrontation
 remains the next driver's contract, behind A3.
+
+## 15e. Clarification (Charles): what the tested formula actually computes
+YES, precisely: given a nucleon count N (protons+neutrons together — the toy does NOT yet
+distinguish them), the chain law predicts the BINDING LOSS fraction B/A = a_F(1−1/N) − cN,
+so the element's nuclear mass = N·m_nucleon·(1 − that fraction) — the mass defect from
+seam binding, i.e. why an iron nucleus weighs ~0.9% less than its parts. NOT yet in the
+toy: the proton/neutron split (Z vs N−Z — the charge should sit on Z, the asymmetry term
+is missing), pairing, shell structure. THE ENDGAME it points at: derive a_F and c from
+the metric and the mass of every element becomes a PREDICTION with no empirical inputs
+but the nucleon mass anchor.
