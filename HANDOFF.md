@@ -6,7 +6,7 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-01).** Synchronize it before orientation.
 
-## CURRENT — native parent arena and F01 local Schur tile verified
+## CURRENT — F01 action/boundary bridge audited; native variation law open
 
 **Fresh-entry path:**
 
@@ -16,11 +16,13 @@
    derivation, basin gate, and cold review.
 4. `udt_f01_lambda_schur_check_2026-08-01/AUDIT_REPORT.md`, then its lay report, ledgers,
    precision repair, certificates, and independent result.
-5. The stability-family ontology, derivation-closure, and global/local premise audits when their
+5. `udt_stability_action_boundary_bridge_audit_2026-08-01/AUDIT_REPORT.md`, then its lay report,
+   exact derivation, route/map/premise ledgers, repair registration, and cold review.
+6. The stability-family ontology, derivation-closure, and global/local premise audits when their
    family or bootstrap typing becomes load-bearing.
-6. `PONDER_MATH_ELEGANCE_2026-07-31.md` as conjectural framing only, especially §§1, 3–4, 7,
+7. `PONDER_MATH_ELEGANCE_2026-07-31.md` as conjectural framing only, especially §§1, 3–4, 7,
    14, and 20. It is not evidence or a premise.
-7. `P4_ARC_SUMMARY_2026-07-31.md` and exact P4 packages only when their algebra becomes
+8. `P4_ARC_SUMMARY_2026-07-31.md` and exact P4 packages only when their algebra becomes
    load-bearing; CLAUDE.md method sections and task-triggered protocols always apply.
 
 **Current honest result:** the complete metric defines a native typed off-shell coframe arena, but
@@ -39,11 +41,16 @@ them would be circular.
 candidate sectors; stability may prune them; mass may be a basin/global-closure property. The
 saturation/Compton reading is a lead. The nuclear ladder is consistency-demo/reimplementation.
 
-**Authorized bounded next action:** preregister a CPU-only compatibility audit of whether the
-conditional pre-scale `C2/Bach` or post-scale `EH` variation routes actually induce the missing F01
-tangent/boundary germ, including a possible two-stage bridge. It must stop on object/operator
-incompatibility and may not adopt an action, invent N4 data, or turn local conditional index into
-native/global stability.
+**Bridge result:** `PARTIAL_ANALOGIES_ONLY__F01_BOUNDARY_BRIDGE_OPEN`. C2/Bach, EH, and the
+two-stage ordering have derivative-order or ordering analogies but no exact map into F01's fields,
+background, tangent/trace domain, boundary one-form/Hessian, or second wall germ. Current G04/G10
+also make C2/Bach inactive without explicitly reauthorized strong local CSN. The bridge audit is
+verified after a transparent repair layer; it selects no action or boundary.
+
+**Proposed next bounded action:** compute the conditional inverse stability surface for the free
+second-wall Hessian on all four F01 domains. This would state what a future native closure law must
+supply, without choosing that response. Do not launch another family sweep or call a stabilized
+conditional branch native/global.
 
 **Operational baseline:** preregistration → bounded derivation → independent adversarial replay →
 premise audit → bank and push. Tests: 70 passed / 1 xfailed.

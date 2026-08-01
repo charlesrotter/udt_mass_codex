@@ -4,15 +4,18 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
-## August 1 native-parent and F01 precedence notice
+## August 1 native-parent, F01, and boundary-bridge precedence notice
 
 This file is pre-P4 context, not the current frontier. Current orientation is `LIVE.md` →
 `HANDOFF.md` → the current premise registry → the native stability configuration-space audit → the
 F01 lambda/mu Schur audit. The metric supplies a native typed off-shell arena but no selected
 variation/boundary law. F01's four owned conditional local domains all have joint index one; this is
-not native/global stability. The next bounded work is the conditional-action-to-F01
-variation/boundary compatibility audit. The older "current authority" headings below are retained
-only as historical layer labels.
+not native/global stability. The conditional-action compatibility audit is now complete: C2/Bach,
+EH, and the proposed two-stage route supply only partial analogies and no exact F01 boundary map;
+C2/Bach is currently inactive without strong local CSN. The proposed next bounded work is an
+inverse map of the free second-wall Hessian required to alter the F01 index, not a physical
+boundary selection. The older "current authority" headings below are retained only as historical
+layer labels.
 
 ## July 28 higher-isometry reciprocal-plane ownership — current authority
 

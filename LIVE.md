@@ -5,12 +5,15 @@
 **⚠ BRANCH: work is on `grok` (2026-08-01).** If not on it: `git checkout grok`.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-01 — NATIVE PARENT ARENA + F01 LOCAL SCHUR TILE VERIFIED; NATIVE VARIATION/BOUNDARY BRIDGE NEXT) ============
+## ============ CURRENT STATE (2026-08-01 — F01 ACTION/BOUNDARY BRIDGE AUDITED; NATIVE VARIATION LAW STILL OPEN) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
 `udt_native_stability_configuration_space_audit_2026-08-01/AUDIT_REPORT.md` and its cold review →
 `udt_f01_lambda_schur_check_2026-08-01/AUDIT_REPORT.md`, `LAY_REPORT.md`, status/premise ledgers,
-precision repair, and independent result → `udt_stability_family_ontology_audit_2026-08-01/AUDIT_REPORT.md`
+precision repair, and independent result →
+`udt_stability_action_boundary_bridge_audit_2026-08-01/AUDIT_REPORT.md`, `LAY_REPORT.md`,
+route/map/premise ledgers, repair registration, and cold review →
+`udt_stability_family_ontology_audit_2026-08-01/AUDIT_REPORT.md`
 and the closure/global-local parents → `PONDER_MATH_ELEGANCE_2026-07-31.md` only as conjectural
 framing, especially §§1, 3–4, 7, 14, and 20.
 
@@ -42,12 +45,20 @@ working interpretations only. The conditional Compton-form edge is a lead. The n
 `CONSISTENCY-DEMO / REIMPLEMENTATION`, chiefly standard SEMF/WKB structure, and supplies no native
 UDT physics. PONDER is never an input to a derivation.
 
-**AUTHORIZED NEXT ACTION:** no further blind family scan is justified. Preregister a CPU-only
-compatibility audit asking whether the already-adjudicated conditional pre-scale `C2/Bach` or
-post-scale `EH` variation domains induce the missing F01 tangent/boundary-germ object, and whether a
-two-stage bridge supplies a legitimate map. Carry P4/action incompatibility as a first-class stop.
-Do not adopt either action, invent N4 data, transfer a boundary operator across unrelated objects,
-or claim global stability. If no exact map exists, stop with the bridge open.
+**ACTION/BOUNDARY BRIDGE RESULT (commit `dc96fba`):**
+`PARTIAL_ANALOGIES_ONLY__F01_BOUNDARY_BRIDGE_OPEN`. Across 12 gates per route, neither the
+historical pre-scale `C2/Bach` class, post-scale `EH`, nor the proposed two-stage ordering supplies
+an exact F01 field/background/tangent/trace/boundary-Hessian map. `C2/Bach` is additionally
+`INACTIVE_WITHOUT_STRONG_CSN_PREMISE__COUNTERFACTUAL_ONLY` under current G04/G10. A computed
+total-derivative counterfamily proves that the same interior Euler equation can carry different
+boundary one-forms and Hessians. The cold rerun passes after three registered evidence repairs.
+
+**PROPOSED NEXT BOUNDED ACTION — NOT YET A NATIVE LAW:** map the exact sign and magnitude of the
+free second-wall Hessian needed to change F01's one-negative-direction result on each R05/R06 and
+Dirichlet/free-right domain. This is an inverse stability target for a future native closure law,
+not permission to select the germ, adopt an action, or claim a stable branch. No further blind
+family sweep is justified until the realized variation/boundary law is derived or separately
+authorized as a conditional premise.
 
 **AUTHORITY BOUNDARY:** complete native action, response/source law, differentiable physical
 boundary, carrier emergence, time persistence, bootstrap membership/return, unconditional mass,

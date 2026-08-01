@@ -4,11 +4,13 @@
 block → current premise registry →
 `udt_native_stability_configuration_space_audit_2026-08-01/AUDIT_REPORT.md` →
 `udt_f01_lambda_schur_check_2026-08-01/AUDIT_REPORT.md` and its lay/ledger/cold-review evidence →
+`udt_stability_action_boundary_bridge_audit_2026-08-01/AUDIT_REPORT.md` and its
+route/map/repair/cold-review evidence →
 the stability ontology/closure/global-local parents when load-bearing.
-`PONDER_MATH_ELEGANCE_2026-07-31.md` is conjectural framing, never authority. The next bounded work
-is a CPU-only compatibility audit of the existing conditional `C2/Bach`, `EH`, and possible
-two-stage variation routes against the missing F01 boundary/tangent object—not action adoption,
-T4, GPU work, or global stability.
+`PONDER_MATH_ELEGANCE_2026-07-31.md` is conjectural framing, never authority. The bridge audit finds
+only partial analogies and no exact action-route map into F01. The proposed next bounded work maps
+the second-wall Hessian required to alter F01's conditional local index, without selecting it—not
+action adoption, T4, GPU work, or global stability.
 
 
 This root is the control and navigation surface for the UDT research record.
