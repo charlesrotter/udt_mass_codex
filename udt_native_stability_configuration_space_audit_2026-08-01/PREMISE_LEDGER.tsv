@@ -1,0 +1,14 @@
+id	premise	entry_status	audit_treatment
+P01	Founded reciprocal phi and clock/ruler action	DERIVED	CARRIED_UNCHANGED
+P02	Observed c_E and G_obs	OBSERVED	CALIBRATION_ONLY
+P03	Four-dimensional complete extension	OPEN	NOT_PROMOTED
+P04	Constants versus fields census	OPEN	NOT_PROMOTED
+P05	P4 response families	CONDITIONAL	NOT_SELECTED
+P06	Round S2 carrier	POSIT	NOT_PROMOTED
+P07	L2+L4 Hopfion functional	CONDITIONAL	NOT_PROMOTED
+P08	Computational Hopfion boundary	CHOSE	NOT_PROMOTED
+P09	Finite-cell ownership split	MIXED_PROGRAM_STAMPS	CARRIED_EXACTLY
+P10	Observer Reciprocity	DERIVED_NATURALITY_IN_SCOPE	NOT_USED_AS_DYNAMICS
+P11	Bootstrap mutual determination	WORKING_POSIT	NO_OPERATION_INVENTED
+P12	Complete response/action/source/boundary/time/mass	OPEN	NOT_PROMOTED
+P13	Taxonomy times stable-basin interpretation	WORKING_LEAD	INTERPRETATION_ONLY

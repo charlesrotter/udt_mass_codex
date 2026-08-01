@@ -1,0 +1,6 @@
+id	control	construction	result	status
+C01	constant-section_pullback	C1=R2; C0=R; i(a)=(a,a); alpha1=dx-dy; alpha0=i*alpha1=da-da=0	alpha1=0 implies alpha0=0; alpha0=0 does not imply alpha1=0	PASS
+C02	formal_disjoint_union	A={0}; B={0}; tagged union={(A,0),(B,0)}	exists for arbitrary sets and therefore carries no selector content	PASS
+C03	same_set_different_flows	X=R; V1=x^2; V2=(x^2-1)^2	same X has one versus two stable minima	PASS
+C04	nonempty_modules_empty_live_join	M1={0,1}; M2={0,2}	both nonempty; common set is {0}; nonzero common live set is empty	PASS
+C05	fiber_labels_without_gluing	F0={a}; F1={b}; labels={0,1}	labels index fibers but specify no transition map between a and b	PASS

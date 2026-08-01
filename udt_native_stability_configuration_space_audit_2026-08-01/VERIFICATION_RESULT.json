@@ -1,0 +1,12 @@
+{
+  "authority_count": 21,
+  "base_commit": "095a2a5e093f21bfd68939f5874b359868a109d3",
+  "exact_controls_passed": 5,
+  "exact_controls_total": 5,
+  "native_realized_family_count": 0,
+  "primary_outcome": "NATIVE_OFFSHELL_PARENT_ARENA_DERIVED__REALIZATION_VARIATION_OPEN",
+  "semantic_catches_passed": 21,
+  "semantic_catches_total": 21,
+  "source_count": 11209,
+  "status": "PASS"
+}

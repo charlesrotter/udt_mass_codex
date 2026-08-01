@@ -1,0 +1,15 @@
+id	object	definition	status	belongs_to_native_parent_type	restriction
+O01	founded_reciprocal_pair	reciprocal clock/ruler group action with founded phi	NATIVE_DERIVED	yes	no independent delta-phi field
+O02	complete_metric_arena	complete metric retaining angular and mixing slots modulo presentation gauge	NATIVE_OFFSHELL_ARENA_DERIVED_AS_TYPE	yes	extension and realized member unselected
+O03	complete_coframe_existence_class	regular reciprocal R x S3 configurations for admitted phi and lambda	DERIVED_EXISTENCE_CLASS	yes	example completion; not a universal selected branch
+O04	presentation_gauge	chart, coframe Lorentz and screen-orientation descriptions	DERIVED_GAUGE_LAYER	yes	quotient directions, not physical variations
+O05	relational_query_layer	observer/ruler pairs, events and paths	DERIVED_TYPED_ARGUMENTS	yes	queries, not missing dynamical fields
+O06	completion_sector_layer	topology, quotient, seam and cap labels	DERIVED_AS_SECTOR_TYPE	yes	transition/gluing and realized completion open
+O07	p4_constant_moduli	seven constant P4 bookkeeping amplitudes	CONDITIONAL_PERMITTED	conditional_only	conditional response domain on registered BASE/positive-triangular coframe arena
+O08	p4_field_moduli	seven field-valued P4 bookkeeping amplitudes	CONDITIONAL_PERMITTED	conditional_only	conditional response domain on registered BASE/positive-triangular coframe arena
+O09	time_live_module	registered time-live formal module	FORMAL_TYPED_ONLY	no	native response and common realization open
+O10	angular_live_module	registered angular-live formal module	FORMAL_TYPED_ONLY	no	native response and common realization open
+O11	hopfion_model	round S2 carrier with conditional L2+L4 and finite box	CONDITIONAL_CARRIER_MODEL	no	no derived carrier map from founded metric
+O12	bootstrap_schema	global-local mutual-determination type diagram	WORKING_POSIT	no	membership and return operation open
+O13	stability_evidence_families	F01-F07 operational evidence buckets	WORKING_CATALOGUE	no	not solution partition or species
+O14	formal_family_coproduct	disjoint union of conditional family configuration sets	BOOKKEEPING_CONTROL_ONLY	no	not selected by metric

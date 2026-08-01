@@ -1,0 +1,18 @@
+{
+  "audit": "native_stability_configuration_space",
+  "authority_count": 21,
+  "base_commit": "095a2a5e093f21bfd68939f5874b359868a109d3",
+  "conditional_stability_scope_count": 1,
+  "configuration_object_count": 14,
+  "control_count": 5,
+  "date": "2026-08-01",
+  "gate_arena_count": 8,
+  "gpu_used": false,
+  "maximum_conclusion": "A native typed off-shell geometric parent arena is derived. One selected realized variation space containing the registered conditional families is not derived; stable-basin language is presently global only as a working hypothesis and is well posed solely inside separately declared conditional models.",
+  "native_realized_family_count": 0,
+  "premise_count": 13,
+  "primary_outcome": "NATIVE_OFFSHELL_PARENT_ARENA_DERIVED__REALIZATION_VARIATION_OPEN",
+  "relation_count": 20,
+  "smallest_missing_owned_object": "native realized variation structure: selected varied degrees of freedom plus tangent domain and persistence/response rule on the complete metric arena",
+  "source_count": 11209
+}

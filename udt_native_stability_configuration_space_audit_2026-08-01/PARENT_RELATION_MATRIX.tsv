@@ -1,0 +1,21 @@
+id	source_object	target_object	relation	status	exact_scope
+R01	founded_reciprocal_pair	complete_metric_arena	INCLUDED_AS_REQUIRED_STRUCTURE	DERIVED	The complete arena must realize the founded pair.
+R02	complete_coframe_existence_class	complete_metric_arena	SUBCLASS_WITNESS	DERIVED_AS_EXISTENCE	Nonempty off-shell witness class, not an on-shell selector.
+R03	presentation_gauge	complete_metric_arena	QUOTIENT_PRESENTATION	DERIVED	Gauge descriptions do not add physical configurations.
+R04	relational_query_layer	complete_metric_arena	ARGUMENT_OVER_ARENA	DERIVED_TYPED	Changing a query is not an off-shell field variation.
+R05	completion_sector_layer	complete_metric_arena	SECTOR_INDEX_WITHOUT_GLUING	OPEN	Labels exist; native transitions and realized completion do not.
+R06	p4_constant_moduli	p4_field_moduli	CONSTANT_SECTION_EMBEDDING	EXACT_CONDITIONAL	A constant field embeds into the field domain.
+R07	p4_field_moduli_response	p4_constant_moduli_response	PULLBACK_GIVES_INTEGRATED_ROWS	EXACT_CONDITIONAL	Pullback is one-way and does not equate stationary sets.
+R08	p4_constant_moduli_stationary_set	p4_field_moduli_stationary_set	NO_EQUIVALENCE_DERIVED	OPEN	Integrated zero need not imply pointwise zero.
+R09	time_live_module	p4_field_moduli	FORMAL_EXTENSION_RELATION	FORMAL_ONLY	No selected response or nonzero common witness.
+R10	angular_live_module	p4_field_moduli	FORMAL_EXTENSION_RELATION	FORMAL_ONLY	No selected response or nonzero common witness.
+R11	time_live_module	angular_live_module	COMMON_REALIZED_INTERSECTION	OPEN	Typing does not prove on-shell coexistence.
+R12	hopfion_model	complete_metric_arena	CARRIER_EMBEDDING	OPEN	The conditional celestial fiber is not a selected round target section.
+R13	bootstrap_schema	complete_metric_arena	MEMBERSHIP_MAP	OPEN	No native rule maps local configurations into the bootstrap domain.
+R14	bootstrap_schema	complete_metric_arena	RETURN_MAP	OPEN	No native global-to-local closure operation is registered.
+R15	whole_configuration_reciprocity	complete_metric_arena	NATURALITY_CONSTRAINT	DERIVED_IN_SCOPE	Equivariance constrains a law but does not supply it.
+R16	stability_evidence_families	complete_metric_arena	NATIVE_PARTITION	NOT_DERIVED	F01-F07 are operational buckets.
+R17	formal_family_coproduct	complete_metric_arena	NATIVE_PARENT_SELECTION	NOT_DERIVED	Every finite family admits a formal union; this is vacuous.
+R18	hopfion_model	stability_evidence_families	CONDITIONAL_REALIZED_ROW	CONDITIONAL	Only within carrier/action/boundary premises.
+R19	p4_constant_moduli	complete_metric_arena	CONDITIONAL_SUBDOMAIN	CONDITIONAL	Registered constant census on the BASE/positive-triangular coframe arena; not natively selected.
+R20	p4_field_moduli	complete_metric_arena	CONDITIONAL_SUBDOMAIN	CONDITIONAL	Registered field census on the BASE/positive-triangular coframe arena; typed not exhausted and not natively selected.

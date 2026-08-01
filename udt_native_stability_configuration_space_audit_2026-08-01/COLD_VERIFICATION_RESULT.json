@@ -1,0 +1,33 @@
+{
+  "agent_identity": "/root/native_config_space_cold_verifier",
+  "authority_semantic_checks_passed": 21,
+  "authority_semantic_checks_total": 21,
+  "base_commit": "095a2a5e093f21bfd68939f5874b359868a109d3",
+  "broad_candidate_count": 1914,
+  "date": "2026-08-01",
+  "derived_outcome": "NATIVE_OFFSHELL_PARENT_ARENA_DERIVED__REALIZATION_VARIATION_OPEN",
+  "exact_controls_passed": 5,
+  "exact_controls_total": 5,
+  "imports_or_executes_primary_builder_or_verifier": false,
+  "native_realized_family_count": 0,
+  "outcome_gate_results": {
+    "bootstrap_operation": false,
+    "hopfion_native_carrier_map": false,
+    "native_parent_type": true,
+    "native_realization_selected": false,
+    "native_variation_selected": false,
+    "nonvacuous_offshell_existence": true,
+    "p4_stationary_equivalence": false,
+    "ponder_is_authority": false,
+    "reciprocity_return_law": false,
+    "time_angular_common_live_witness": false
+  },
+  "primary_corrections_required_and_closed": 5,
+  "reviewer_remote_refresh": "BLOCKED_BY_READ_ONLY_GIT_FETCH_HEAD__FROZEN_BASE_VERIFIED_LOCALLY",
+  "semantic_mutations_rejected": 17,
+  "source_bytes_verified": 623806849,
+  "source_count_verified": 11209,
+  "source_mutations_rejected": 6,
+  "status": "PASS_AFTER_REQUIRED_CORRECTIONS",
+  "verdict_caveat": "The Hopfion supplies one premise-stamped conditional static finite-box stability/model scope in which the basin question is meaningful; it does not supply a certified native or global basin count, taxonomy, time persistence, or carrier emergence."
+}
