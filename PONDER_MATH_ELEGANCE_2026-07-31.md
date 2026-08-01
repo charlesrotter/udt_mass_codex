@@ -468,3 +468,22 @@ computational stratification (lattice-QCD-hard for one proton; effective algebra
 for everything built from it) — but here BOTH tiers descend from ONE object, the metric:
 the solves grind its basins, the algebra propagates its seams. Cost structure of the
 whole future program: expensive rarely (the catalog), cheap forever after (the world).
+
+## 15k. WORKED (the ladder's summit rung): the pairing layer — sub-1% across the table
+Five-term seam law (volume, surface, Z²-repulsion, asymmetry, pairing), FIVE pins
+(He-4, Al-27, Ca-48, Sn-120, Pb-208 — one odd-A, one off-stability), zero fits after.
+UNPINNED PREDICTIONS: **C-12 → 1.000, O-16 → 1.000, Ca-40 → 1.000, Fe-56 → 0.997,
+Ni-62 → 0.999, U-235 → 1.010, U-238 → 1.011.** The alpha-cluster anomaly VANISHED
+(1.08 → 1.000 — the pairing term was the missing layer, not shells). **The B/A peak
+lands at N = 58 — inside nature's 56–62 window** (the ladder's march: 30 → 37 → 46 →
+58). Fission 0.00082 (obs 0.00090). ALL FIVE emergent coefficients near the empirical
+liquid-drop set: volume 15.28 vs 15.8, surface 16.51 vs 17.8, **Coulomb 0.679 vs 0.711**,
+asymmetry 20.8 vs 23.7, pairing same order. Deuteron/triton remain off — the honest
+few-body boundary where every smooth law (including nature's own LD) fails: 2-3-body
+systems are the PDE tier's jurisdiction, not the algebra tier's — exactly the two-tier
+architecture (§18) predicting its own domain boundary. LADDER 15c→15k FINAL STATE: from
+the banked chain machinery + arithmetic + 5 pinned binding energies: the periodic
+table's binding fractions at the 0.1–1% level unpinned, the stability peak in the right
+window, and the liquid-drop coefficient set EMERGENT. Status: LEAD, driver-run
+throughout; the pre-registered verifier confrontation inherits the five-term law whole,
+behind A3. The night's arithmetic ends here.
