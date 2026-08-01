@@ -1,0 +1,9 @@
+{
+  "base": "5adeb59dde063770c0619d37b76b03f735d82038",
+  "maximum_conclusion": "premise-scoped stability-foundations architecture only",
+  "premise_rows": 13,
+  "source_inventory_sha256": "7fac171e72d4430a08a69fe039598845af20e49a6a504fcc2e385483a0d9fc61",
+  "source_manifest_sha256": "32389f254adf1bac339dea5b9cf65ddf2c95237315b07e26e90053efb7414949",
+  "source_paths": 94,
+  "source_paths_sha256": "dcc6d0e546589cd7fa22d89a9405dac5643db3fba7b85a4004405464b879572b"
+}
