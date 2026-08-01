@@ -375,3 +375,18 @@ toy: the proton/neutron split (Z vs N−Z — the charge should sit on Z, the as
 is missing), pairing, shell structure. THE ENDGAME it points at: derive a_F and c from
 the metric and the mass of every element becomes a PREDICTION with no empirical inputs
 but the nucleon mass anchor.
+
+## 15f. Clarification (Charles): what are the inputs, really?
+NOT YET only c and e — but the shape is exactly that, and it is worth stating precisely.
+The PURE NUMBERS in every derived formula of this arc are only **e and π**: e because the
+clock law's exponential character is FORCED (shift-equivariance theorem — the banked
+Q = c_E·e^{−φ} forcing), π because the circle/winding sector supplies it (2π windings,
+π² in the saturation constant, π⁴ in the dichotomy). The DIMENSIONAL inputs are the
+anchors (c; m_proton for scale). Everything else in the formulas — a_F, c_repulsion,
+g_p, c_m, g_θ, λ — are MODULI of the derived structure, not arbitrary knobs: e.g. a_F is
+banked as TIED TO THE λ MODULUS through the pairing branches (a_F = 2λ or 1+2λ) — so if
+the nuclear identification holds, the empirical pin a_F ≈ 0.0094 would MEASURE a metric
+modulus (λ ≈ 0.0047 on the P1-4D branch): a nuclear-physics number reaching into the
+metric's own parameter. THE FULL ENDGAME: derive/pin the moduli (each has a named seat in
+the banked record) and every formula reduces to {e, π, anchors} — Charles's instinct
+stated as the program's terminal condition.
