@@ -11,7 +11,24 @@ angular/mixing extension and variation domain remain open. Strong local CSN is c
 derived and inactive unless Charles explicitly reauthorizes it; `c_E` and `G_obs` remain observed
 anchors. See the [DOF correction layer](../udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md).
 
-## Current scientific spine — July 28
+## Current scientific spine — August 1
+
+Read the [P4 arc summary](../P4_ARC_SUMMARY_2026-07-31.md), then the
+[linear-time roadmap](../ROADMAP_LINEAR_TIME_2026-07-31.md), [in-flight resume
+ledger](../INFLIGHT_STATE.md), and frozen
+[A3 preregistration](../udt_p4_angular_stage_A3_2026-07-31/PREREGISTRATION.md). The 28-package
+index is current through time-live T1–T3 and angular-live A1–A2. A3 is next but requires an
+explicit current-session go. The proposed [post-A3 cold adversarial
+review](../P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md) is a quality gate, not an
+authorization or physics result.
+
+The P4 inverse problem derives a nonempty stratified permitted response-law space and exact
+conditional mass/stability structure. Time and angular unmuting preserve that architecture but
+do not select a unique law, action, source, carrier, or unconditional mass. The nuclear ladder is
+only a `CONSISTENCY-DEMO`; its one potentially discriminating `a_F`–`lambda` provenance test is
+parked behind A3.
+
+## Prior scientific spine — July 28
 
 After the root controls and current premise registry, use the
 [external-AI review brief](../UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md) for a self-contained map

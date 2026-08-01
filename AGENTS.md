@@ -32,14 +32,16 @@ after the user's actual task makes them load-bearing.
 3. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`. This is the current
    source-precedence index for high-risk foundational terms. It is not canon and cannot overrule
    `LIVE.md`; any disagreement between it, `LIVE.md`, and its cited source is a mandatory stop.
-4. `P4_ARC_SUMMARY_2026-07-31.md` — **the current scientific frontier**: the 2026-07-28→31 P4
-   response-framework arc (22 banked packages × commit × verdict, the standing owner rulings —
-   θ-adoption DEFERRED, TIME FIRST, the owner-kernel provenance correction — the open questions,
-   and the P4-era operational rules: chunked agent outputs, the verifier pipeline). Then
-   `udt_p4_timelive_map_2026-07-31/TIME_LIVE_MAP.md` — the delivered next step, awaiting owner
-   clearance (the everything-on-vs-diagonal point is the owner's open ruling; nothing launches
-   without his go). Read individual `udt_p4_*` packages only when their exact result becomes
+4. `P4_ARC_SUMMARY_2026-07-31.md` — **the current scientific frontier**: 28 indexed P4 packages
+   through time-live T1–T3 and angular-live A1–A2, with commit × verdict, standing owner rulings,
+   open questions, and P4-era operational rules. Then read `ROADMAP_LINEAR_TIME_2026-07-31.md`,
+   `INFLIGHT_STATE.md`, and `udt_p4_angular_stage_A3_2026-07-31/PREREGISTRATION.md`. A3 is the
+   next staged census (`alpha` torus → `beta` full `S3` → `gamma` fine detail), but the frozen
+   contract still requires Charles's explicit current-session `A3 go`; nothing launches from
+   startup orientation. Read individual `udt_p4_*` packages only when their exact result becomes
    load-bearing (each is self-contained: PREREGISTRATION → derivation → ledger → verifier record).
+   `P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` records a recommended clean-context
+   post-A3 review gate; it is not authorization and does not replace ordinary package verification.
 5. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay (pre-P4 overlay;
    historical context only).
 6. PRE-P4 (2026-07-28 morning, superseded as frontier — read only when load-bearing):
@@ -118,7 +120,15 @@ Then give Charles a short orientation report: actual HEAD and dirt, the current 
 premise stamps, the open gate, and the proposed bounded next action. Do not mutate files or launch a
 long solve until that orientation is complete.
 
-The bootstrap/stable-matter interpretation remains a working hypothesis. The latest
+The bootstrap/stable-matter interpretation remains a working hypothesis. The current P4 arc has
+derived a nonempty stratified response-law space and carried it through time-live and angular-live
+pointwise layers without selecting one physical law. Its massive families, stability pruners,
+integer/noninteger results, and θ consequences retain their complete conditional premise stacks.
+A3 is a native angular winding census, not a particle or quantization hunt; a barren result is
+first-class. After A3, a genuinely cold clean-context audit of the load-bearing P4 chain is
+recommended before T4 or any adoption.
+
+The pre-P4
 higher-isometry audit refutes universal unique reciprocal-plane ownership within its bounded
 stationary descended `R x T2` family. It derives family-wide identity robustness of `span(K,V)`,
 not uniqueness for a typical fixed metric. The full response-degeneracy atlas and regular cap

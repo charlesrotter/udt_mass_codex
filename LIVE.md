@@ -2,19 +2,23 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-**⚠ BRANCH: work is on `grok` (2026-07-28).** If not on it: `git checkout grok`. `main` is stale for this arc.
+**⚠ BRANCH: work is on `grok` (2026-08-01).** If not on it: `git checkout grok`. `main` is stale for this arc.
 **The topmost CURRENT STATE block below is the only current frontier** — read it and stop.
 Stale frontier layers: `archive/LIVE_prior_layers_through_2026-07-31.md` (07-20→07-29 blocks + the
 P4-arc running record) and `archive/LIVE_historical_frontier_through_2026-07-08.md` (older). `HANDOFF.md`
 is lean; older session detail is in `HANDOFF_ARCHIVE.md`. The P4 package index: `P4_ARC_SUMMARY_2026-07-31.md`.
 **If anything disagrees with this file's topmost CURRENT STATE block, that block wins.**
 
-## ============ CURRENT STATE (2026-07-31 — P4 ARC PAUSED AT TWO OWNER DECISIONS; CONSOLIDATION DONE FOR AI HANDOFF) ============
+## ============ CURRENT STATE (2026-08-01 — P4 RESPONSE ARC BANKED THROUGH ANGULAR STAGE A2; A3 IS NEXT BUT REQUIRES A FRESH EXPLICIT GO; STARTUP NAVIGATION RECONCILED) ============
 
-**THE ARC:** the P4 response-framework program (2026-07-28 → 07-31) is BANKED — 22 packages,
+**READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` →
+`CURRENT_SCIENTIFIC_PREMISES.tsv` → `P4_ARC_SUMMARY_2026-07-31.md` →
+`ROADMAP_LINEAR_TIME_2026-07-31.md` → `INFLIGHT_STATE.md` → the frozen A3 preregistration.
+
+**THE ARC:** the P4 response-framework program (2026-07-28 → 07-31) is BANKED — 28 indexed packages,
 every one blind-adversarially verified. **THE NAVIGABLE INDEX = `P4_ARC_SUMMARY_2026-07-31.md`** (its tail = the zero-context GLOSSARY)
 (package × commit × verdict ledger + standing rulings + open questions + operational rules —
-READ IT SECOND, right after this block). Headlines: the inverse problem posed and pointwise-
+READ IT after the current HANDOFF and premise registry). Headlines: the inverse problem posed and pointwise-
 solved (ℛ_PW nonempty, stratified); the massive candidates pruned to exact survival conditions
 (the ABSORPTION theorem; the DICHOTOMY 64E0²ℓ⁴ ≤ g_p·c_m·π⁴ — the first mass–size–stiffness
 law); NO quantization without a circle-valued field (all banked holonomy targets real) → a new
@@ -123,6 +127,12 @@ A3 STILL FIRST; these queue behind it for pondering/tile-drafting with Charles. 
 the R1 menu; the queued tiles (resonance census = verifier-required precondition;
 index-exactly-1 numeric; hopfion-bridge at driver discretion; the named unrun seats incl.
 the cycle+pin completion — the only named spatial road to marrying integers and mass).
+
+**RECOMMENDED QUALITY CHECKPOINT — NOT YET LAUNCHED:** after A3 is banked and its ordinary
+blind/same-verifier closure is complete, run the clean-context review described in
+`P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` before T4 or any physical adoption. This is
+a review/regrade gate, not permission to launch A3, derive new physics, or replace the in-package
+verifiers.
 
 **AUTHORITY BOUNDARY:** nothing launches without Charles's go. Still closed: adopting any
 action/response/field as physics, crowning any candidate, settling the census by anything but

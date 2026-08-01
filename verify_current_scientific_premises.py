@@ -22,9 +22,9 @@ def require(condition: bool, message: str) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 16, "premise registry must contain exactly 16 rows")
+    require(len(rows) == 18, "premise registry must contain exactly 18 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 16, "duplicate premise id")
+    require(len(by_id) == 18, "duplicate premise id")
     require(by_id["G01"]["current_status"] == "DERIVED_ADDITIVE_LOG_DEPTH_OF_RECIPROCAL_PAIR", "founded phi identity")
     require(by_id["G02"]["current_status"] == "DERIVED_PHI_MAPS_TO_DIAG_EXP_MINUS_PHI_EXP_PLUS_PHI", "founded phi action")
     require(by_id["G03"]["active_use"] == "COMPARISON_ONLY_NOT_NATIVE", "independent phi promoted")
@@ -42,14 +42,27 @@ def main() -> None:
     require(by_id["G14"]["active_use"] == "GLOBAL_OBSERVER_PAIR_SCHEMA", "Xmax mistyped")
     require(by_id["G15"]["active_use"] == "STATIC_FINITE_BOX_AND_CARRIER_CONDITIONAL", "Hopfion promoted")
     require(by_id["G16"]["current_status"] == "OPEN", "complete physics promoted")
+    require(
+        by_id["G17"]["current_status"] == "KEPT_MULTIPLY_ANCHORED_SPLIT_FROM_MIRROR_CLAUSE",
+        "finite-cell split reading changed",
+    )
+    require(by_id["G17"]["active_use"] == "ACTIVE_FOUNDATION_SPLIT_READING", "finite-cell split inactive")
+    require(
+        by_id["G18"]["current_status"] == "OWNER_RATIFIED_PROPOSAL_NOT_DERIVED_SPLIT_RULED_2026-07-30",
+        "mirror closure promoted or dropped",
+    )
+    require(
+        by_id["G18"]["active_use"] == "WORKING_PREMISE_ONLY_STAMPS_TRAVEL_VIA_CONSUMER_LEDGER",
+        "mirror closure use changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
     )
     require(len(guard_rows) == 16, "guard universe must contain exactly 16 rows")
     guard_sources = {row["guard_id"]: row["controlling_source"] for row in guard_rows}
-    for guard, row in by_id.items():
-        require(row["controlling_source"] == guard_sources[guard], f"source priority changed: {guard}")
+    for guard, source in guard_sources.items():
+        require(by_id[guard]["controlling_source"] == source, f"source priority changed: {guard}")
 
     expected_sources = {row["controlling_source"] for row in rows}
     for source in expected_sources:
@@ -94,7 +107,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 16 premise guards, 9 startup controls, 754 candidate dispositions, corrected DOF semantics")
+    print("PASS: 18 premise guards, 9 startup controls, 754 candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

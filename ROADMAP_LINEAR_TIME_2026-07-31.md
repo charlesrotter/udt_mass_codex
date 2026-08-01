@@ -58,6 +58,10 @@ sector is the ONE native place integers/discretization could still arise.
 - NOTE: angular-live × time-live compose (full 4D). The MAP must type the composition;
   likely A-stages run time-live-line (t-dependence on, no time cycles) so nothing is
   re-frozen.
+- **POST-A3 QUALITY GATE (recommended 2026-08-01; not launched):** after A3's normal blind
+  verification and same-verifier closure, run the clean-context audit specified in
+  `P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` before T4 or any physical adoption.
+  This regrades the accumulated P4 chain; it does not repeat A3 or authorize further work.
 
 ### STEP 2 — T4-LINEAR: REAL DYNAMICS FOR THE MASSIVE CANDIDATES (parallel-eligible)
 On the line branch, T4 = the genuine article the stability bank only shadowed: hyperbolic

@@ -1,17 +1,14 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-**PURPOSE:** the driving model (Fable) is near its session-token limit and may die mid-work
-with an API error. This file is updated and pushed at EVERY increment so the next model
-(likely Opus) can close out seamlessly. IF YOU ARE THE NEW MODEL: read LIVE.md topmost,
-then ROADMAP_LINEAR_TIME_2026-07-31.md, then THIS FILE — then finish the "NEXT MICRO-STEP"
-below and continue the increment list. Binding method: CLAUDE.md (MAP/OBSERVE/PONDER before
-DERIVE; lay language with Charles; nothing launches without his go).
+**PURPOSE:** live zero-context resume ledger. IF YOU ARE THE NEW MODEL: read LIVE.md topmost,
+then P4_ARC_SUMMARY_2026-07-31.md, ROADMAP_LINEAR_TIME_2026-07-31.md, this file, and the A3
+preregistration. Binding method: CLAUDE.md (MAP/OBSERVE/PONDER before DERIVE; lay language with
+Charles; nothing launches without his go).
 
-**THE IN-FLIGHT TASK:** drafting the ANGULAR MAP (`udt_p4_angular_map_2026-07-31/
-ANGULAR_MAP.md`) — Step 1a of the roadmap, map-only, NO compute, NO derivation. It is a
-document FOR Charles to clear; his clearance gates any Stage A1 work. Build it in committed
-sections (the TIME_LIVE_MAP.md pattern: frame whole → owned hardware → premise ledger →
-staged program → tripwires).
+**THE IN-FLIGHT TASK:** A1 and A2 are banked. A3 is preregistered but NOT launched. Its gate is
+Charles's explicit current-session `A3 go`; absent that exact gate, report readiness and stop.
+After A3 closes through its ordinary verifier pipeline, the clean-context audit in
+`P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` is recommended before T4/adoption.
 
 **INCREMENT LIST (mark each DONE as its commit lands; everything below NOT marked DONE
 is unstarted or in flight):**
@@ -137,9 +134,6 @@ HOLD for his next ruling.
 **DRIVER DEBT (any time):** classify the 17 flagged registry entries
 (udt_p4_angular_stage_A1_2026-07-31/DECISION_SURFACE_UPDATE.md).
 
-**CLOSEOUT DUTIES FOR THE NEW MODEL (when the list is done):** present the finished MAP to
-Charles in LAY terms (the time-live MAP walkthrough is the precedent — see the
-conversation-style summary duty in CLAUDE.md's how-we-work); hold for his clearance;
-Stage A1 preregistration only AFTER he clears. Do not launch anything else. The
-verifier-pipeline, chunked-output, and anti-hang rules bind (CLAUDE.md + the roadmap's
-standing constraints).
+**CLOSEOUT DUTY BEFORE A3:** if the current conversation lacks Charles's explicit `A3 go`, give a
+lay A2/A3 orientation and hold. Do not infer authorization from the frozen contract, the roadmap,
+or an earlier session. The verifier-pipeline, chunked-output, and anti-hang rules bind.

@@ -2,6 +2,7 @@
 
 THE navigable index of the P4 arc: every package, its commit, its one-line verdict, and the
 standing rulings. Written 2026-07-31 at the arc's pause point (consolidation for AI handoff).
+Navigation refreshed 2026-08-01 through A2; the package ledger and verdicts are unchanged.
 Detail lives in each package directory (standard shape: PREREGISTRATION.md, derive_*.py,
 ledger TSV, EXACT_DERIVATION.md, decision-surface doc, AUDIT_REPORT.md, VERIFIER_REPORT.md +
 preserved independent script). Every package below was blind-adversarially verified before
@@ -14,10 +15,10 @@ The program's question: derive UDT's missing law natively — posed as an INVERS
 actions. The arc posed that problem whole, solved its pointwise layer exactly, derived the
 wall/seam/closure structure, ran the period/integer machinery, pruned the massive
 candidates through stability, opened the integer doorway (a registered circle-valued
-field), and derived that field's lawful coupling menu — ending at two owner decisions
-(θ-adoption: DEFERRED; unmuting order: TIME FIRST) and a delivered time-live MAP awaiting
-clearance. Nothing was adopted as physics anywhere in the arc; everything is
-premise-stamped map fact.
+field), and derived that field's lawful coupling menu. The later unmuting program banked
+time-live T1–T3 and angular-live A1–A2. A3 is preregistered as the staged linear-time native
+angular winding census and awaits an explicit current-session go. Nothing was adopted as physics
+anywhere in the arc; everything is premise-stamped map fact.
 
 ## Package ledger (chronological; commit = the bank)
 
@@ -76,8 +77,8 @@ premise-stamped map fact.
    (THE forward map, written for the next driver): Step 1 the ANGULAR UNMUTING (MAP → A1 →
    A2 → A3 = the line-branch integer test); Step 2 T4-linear dynamics; Steps 3-5 standing
    decisions/tiles/chairs. Loop-branch results stay banked/conditional (marriage rows
-   PROVISIONAL+IF-ADOPTED; twisted seat named). Next action: the ANGULAR MAP on his go.
-   [T1+T2+T3 all BANKED 2026-07-31.]
+   PROVISIONAL+IF-ADOPTED; twisted seat named). The angular MAP, A1, and A2 are now banked;
+   next action is A3 on a fresh explicit go. [T1+T2+T3+A1+A2 all BANKED 2026-07-31.]
 2. The posture question (quotient/two-sided/open; per-cell-type mixed chains typing-supported).
 3. The census ruling (constants vs fields — certified free; behind the posture).
 4. The G18 re-grade proposal (closure = posture ∧ Branch-G ∧ germ data).
@@ -87,6 +88,13 @@ premise-stamped map fact.
    unrun seats (cycle+pin completion class — the only named spatial road to marrying
    integers and mass; MB-P transcendental cut; P1-triad cross channel; per-sheet spectra;
    N=4 wall layer; J07 transitions).
+
+## Recommended post-A3 cold review (quality gate; not launched)
+
+After A3 and its ordinary blind/same-verifier closure, run the independent clean-context audit in
+`P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` before T4 or any physical adoption. Its job
+is to regrade the load-bearing P4 chain, not to derive a new mechanism or amplify a promising
+interpretation. It does not authorize A3.
 
 ## Operational rules in force (P4-era, standing)
 

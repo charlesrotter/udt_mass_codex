@@ -4,46 +4,34 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-07-28)
+## TOP — CURRENT POINTER (2026-08-01)
 
-**LIVE.md CURRENT STATE is authoritative.** Read its marked current block,
-then the marked current block in `HANDOFF.md`, then `CURRENT_SCIENTIFIC_PREMISES.md` and
-`CURRENT_SCIENTIFIC_PREMISES.tsv`, then the top/current overlay in
-`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, then
-`UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md` for a fresh whole-project review, then
-`udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md` in its correction-first order.
-Read the parent full-screen Hopf/toric, intrinsic-ruler/descent, Killing-plane, general-screen,
-complete-screen-response, historical-method, metric-natural selector, joint-selector, and
-global-definition packages, then P03, P02/P01,
-bootstrap, intrinsic-solder, and observer-pair packages only when their exact premises become
-load-bearing.
-Expand only to the exact cited evidence made load-bearing by the active task.
+**LIVE.md CURRENT STATE is authoritative.** Read its marked current block, then the marked current
+block in `HANDOFF.md`, `CURRENT_SCIENTIFIC_PREMISES.md`, `CURRENT_SCIENTIFIC_PREMISES.tsv`,
+`P4_ARC_SUMMARY_2026-07-31.md`,
+`ROADMAP_LINEAR_TIME_2026-07-31.md`, `INFLIGHT_STATE.md`, and the frozen A3 preregistration. Expand
+only into the exact P4 package made load-bearing by the active task. The July 28 scientific frontier
+and external-review brief are pre-P4 context, not current navigation authority.
 
-Foundational correction: founded `phi` is the derived additive logarithmic depth of the reciprocal
-clock/ruler pair and is not an extra native scalar. The `F4[7]` scalar branch is a chosen comparison
-configuration; `F4[6]` is only the generic metric arena, not the native UDT rank. The unique full
-angular/mixing extension and variation domain remain open. Strong local CSN is
-`CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` and inactive; `c_E` and `G_obs` remain observed anchors.
-See the DOF package's `CORRECTION_LAYER.md`. If a lower-priority result disagrees with the current
-premise registry or its cited source, stop.
+Current honest status: 28 indexed P4 packages are banked through time-live T1–T3 and angular-live
+A1–A2. The inverse problem gives a nonempty stratified permitted response-law space; time and
+angular unmuting preserve its exact control embeddings but do not select one physical law. Two
+conditional massive families and exact stability pruners survive with full premise stacks. The
+native untwisted time census has no integer; θ remains registered-not-adopted; conditional loop/θ
+integers label sectors and do not quantize mass. The coordinate/projected reading forks remain
+undecided. Complete action, source, carrier emergence, boundary charge, and unconditional mass are
+open.
 
-Current honest status: universal unique reciprocal-plane selection is refuted within the bounded
-stationary descended `R x T2` family by an exact smooth complete nonconstant-depth metric with two
-isometry-equivalent reciprocal planes. `span(K,V)` is the only plane robust as a coefficientwise
-identity under independent variation across the whole free `(u,f,b)` family, but this is not a
-generic fixed-metric theorem; fixed-profile cancellations remain possible. The principal-orbit
-response can mix the registered plane, and smooth unimodular two-cap toric `S3` topology supplies
-two free unoriented primitive circle lines rather than a selector. The full response-degeneracy
-atlas and regular cap gluing remain open. No physical screen, branch, dynamics, action, source,
-carrier, density/bootstrap law, boundary, matter, or mass is selected. Fixed-profile
-classification is proposed but not authorized automatically; a fresh reviewer should also test
-whether unique local plane selection is the right type of demand.
+Next gate: A3, internally staged as torus `alpha` → full `S3` `beta` → fine detail `gamma`, on
+linear time and the native no-θ layer. Its contract is frozen but still requires Charles's explicit
+current-session go. The nuclear ladder is only `CONSISTENCY-DEMO`; its `a_F`–`lambda` branch audit
+is parked behind A3. After A3's ordinary verification, the clean-context regrade in
+`P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` is recommended before T4 or adoption.
 
-P03 is retained only inside its frozen source scope; its repository-wide ultrastatic-only statement
-is superseded by the preexisting family it omitted. P03-B remains stopped. No imported completion,
-action, density,
-matter/time-live solve, canonization, artifact move, repository reorganization, or GPU work is
-authorized.
+Premise guards remain: founded `phi` is derived reciprocal depth; strong local CSN is inactive;
+`c_E` and `G_obs` are observed anchors; bootstrap is a lens, not a filter; θ and the `S2` carrier
+are not adopted; G17/G18 retain the July 30–31 owner-provenance correction. Nothing launches from
+these pointers automatically.
 
 ## DURABLE PRIOR MACRO FRONTIER (2026-07-09 simple metric + WR-L canon)
 

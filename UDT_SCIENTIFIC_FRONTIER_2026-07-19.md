@@ -4,6 +4,15 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## August 1 P4 precedence notice
+
+This file is pre-P4 context, not the current frontier. Current orientation is `LIVE.md` →
+`HANDOFF.md` → the current premise registry → `P4_ARC_SUMMARY_2026-07-31.md` →
+`ROADMAP_LINEAR_TIME_2026-07-31.md` → `INFLIGHT_STATE.md`. The P4 arc is banked through A2;
+A3 is preregistered and still requires an explicit current-session go. A post-A3 clean-context
+review is recommended in `P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md`. The older
+"current authority" headings below are retained only as historical layer labels.
+
 ## July 28 higher-isometry reciprocal-plane ownership — current authority
 
 For whole-project external review, read `UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md`. For the exact

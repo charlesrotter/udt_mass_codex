@@ -17,12 +17,14 @@ bootstrap, Maxwell-like, `X_max`, Hopfion, source, boundary, and mass scopes. Co
 older files do not override the registry's cited controlling evidence.
 
 **➤ CURRENT SCIENTIFIC FRONTIER (2026-07-31 — the P4 arc):**
-**`P4_ARC_SUMMARY_2026-07-31.md`** — the 2026-07-28→31 response-framework program: 22 banked
+**`P4_ARC_SUMMARY_2026-07-31.md`** — the 2026-07-28→31 response-framework program: 28 indexed
 packages (package × commit × verdict ledger), the standing owner rulings (θ-adoption DEFERRED;
 TIME FIRST; the owner-kernel provenance correction), the open questions, and the operational
-rules in force. Next action: `udt_p4_timelive_map_2026-07-31/TIME_LIVE_MAP.md` awaits owner
-clearance. All 22 package directories are named in the summary's ledger; each is
-self-contained (PREREGISTRATION → derivation → ledger → verifier record).
+rules in force. T1–T3 and A1–A2 are banked. Next action: the frozen three-stage A3 angular
+winding census, requiring an explicit current-session go. All 28 package directories are named
+in the summary's ledger; each is self-contained (PREREGISTRATION → derivation → ledger → verifier
+record). A clean-context P4 review is recommended after A3 and before T4/adoption; see
+`P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md`.
 
 SUPERSEDED-AS-FRONTIER (pre-P4, 2026-07-28 morning): `udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md`
 (the higher-isometry audit — still valid as banked evidence, no longer the frontier) and

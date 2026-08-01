@@ -1,9 +1,11 @@
 # UDT repository
 
-**⚠ CURRENT ORIENTATION SPINE (2026-07-31 — READ THIS CHAIN, it supersedes the older
-chain below):** `LIVE.md` topmost block → `P4_ARC_SUMMARY_2026-07-31.md` (the current
-frontier: the P4 arc, 27 banked packages) → `ROADMAP_LINEAR_TIME_2026-07-31.md` →
-`INFLIGHT_STATE.md` (the live pipeline ledger + the A3 launch runbook). The orientation
+**⚠ CURRENT ORIENTATION SPINE (2026-08-01 — READ THIS CHAIN, it supersedes the older
+chain below):** `LIVE.md` topmost block → `HANDOFF.md` current block → current premise registry →
+`P4_ARC_SUMMARY_2026-07-31.md` (28 indexed packages through A2) →
+`ROADMAP_LINEAR_TIME_2026-07-31.md` → `INFLIGHT_STATE.md` → the frozen A3 preregistration.
+A3 still requires an explicit current-session go. The proposed post-A3 clean-context review is in
+`P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md`. The orientation
 chain below this point is PRE-P4 (2026-07-28 morning and earlier) — historical context
 only; its "latest result" claims are superseded by the P4 arc.
 
@@ -16,7 +18,7 @@ order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md) →
 the [foundational semantic correction](udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md) →
 the [external-AI review brief](UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md) →
-the [current higher-isometry reciprocal-plane audit](udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md) →
+the [pre-P4 higher-isometry reciprocal-plane audit](udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md) →
 exact evidence named by those files only when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
 `MEMORY.md` top/current pointer. `AGENTS.md`
@@ -30,7 +32,7 @@ count, not the native UDT field or mode count. Strong local CSN is challenged/no
 inactive without explicit owner reauthorization; `c_E` and `G_obs` remain observational anchors.
 If the registry, `LIVE.md`, and a cited source disagree, stop.
 
-The latest repository result is the [higher-isometry reciprocal-plane ownership
+The last pre-P4 result is the [higher-isometry reciprocal-plane ownership
 audit](udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md). Universal unique-plane
 selection is refuted within its bounded stationary descended `R x T2` family by an exact smooth
 complete nonconstant-depth metric with two isometry-equivalent reciprocal planes. `span(K,V)` is

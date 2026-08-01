@@ -5,19 +5,23 @@
 > **READ `LIVE.md` FIRST** — only guaranteed-current frontier + next action.
 > If this file disagrees with LIVE.md, **LIVE.md wins.**
 >
-> **⚠ BRANCH: work is on `grok` (2026-07-28).** If not on it: `git checkout grok`. `main` is stale for this arc.
+> **⚠ BRANCH: work is on `grok` (2026-08-01).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-07-31 — P4 arc paused at two owner decisions; consolidated for AI handoff)
+## CURRENT (2026-08-01 — P4 banked through A2; A3 is the gated next stage)
 
 **Entry path for a fresh AI (bounded, in order):**
 1. `LIVE.md` topmost block — the frontier + next action (wins every disagreement).
-2. `P4_ARC_SUMMARY_2026-07-31.md` — the whole 2026-07-28→31 arc: 22 packages × commit ×
-   verdict, the standing rulings, the open questions, the operational rules in force.
-3. `udt_p4_timelive_map_2026-07-31/TIME_LIVE_MAP.md` — the delivered next-step MAP
-   (awaiting Charles's clearance; the everything-on-vs-diagonal point is HIS open ruling).
-4. `CURRENT_SCIENTIFIC_PREMISES.tsv` (esp. G17/G18) + `CANON.md` C-2026-07-30-1 — the
+2. `P4_ARC_SUMMARY_2026-07-31.md` — all 28 indexed packages through A2, with commits,
+   verdicts, standing rulings, open questions, and operational rules.
+3. `ROADMAP_LINEAR_TIME_2026-07-31.md` → `INFLIGHT_STATE.md` →
+   `udt_p4_angular_stage_A3_2026-07-31/PREREGISTRATION.md`. The A3 contract is frozen; launch
+   still requires Charles's explicit current-session `A3 go`.
+4. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv` (especially G17/G18), plus `CANON.md`
+   C-2026-07-30-1 — the
    premise state incl. the owner-kernel provenance correction.
-5. CLAUDE.md method sections (binding, always) + `NEGATIVES_REGISTRY.md` (latest: #78).
+5. `P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` for the proposed post-A3 quality
+   checkpoint; it authorizes nothing.
+6. CLAUDE.md method sections (binding, always) + `NEGATIVES_REGISTRY.md` (latest: #78).
 
 **Trajectory in one paragraph:** the P4 program derived UDT's missing law as an INVERSE
 PROBLEM (which response laws is the metric compatible with?) instead of guessing actions.
@@ -37,9 +41,17 @@ total mass-energy} — the finite-cell canon is a RATIFIED PROGRAM CONSTRUCTION,
 bedrock. Two driver provenance-inversions were corrected this arc: NEVER attribute program
 constructions to Charles; check canon origin dates first.
 
-**Open on the desk (in order):** (1) TIME-LIVE MAP clearance + the everything-on ruling —
-gates Stage T1 (re-pose the inverse problem time-live); (2) posture; (3) census; (4) G18
-re-grade; (5) R1 menu; (6) queued tiles (see the arc summary §Open questions).
+**Current honest frontier:** T1–T3 and A1–A2 are banked. Time-live and angular-live unmuting
+preserve the pointwise response architecture and its exact static/mode-zero controls, but select
+no unique response law. The coordinate/projected reading forks remain undecided. The native
+untwisted time census supplies no integer; conditional loop/θ integers label sectors rather than
+cutting mass. The nuclear ladder is `CONSISTENCY-DEMO`, not prediction; its one potentially
+nontrivial `a_F`–`lambda` branch test is parked behind A3.
+
+**Open on the desk (in order):** (1) explicit A3 go; A3 runs internally as torus `alpha` → full
+`S3` `beta` → fine-detail `gamma`, linear time, native layer, no θ; (2) after A3, the proposed
+cold adversarial P4 review before T4/adoption; (3) posture; (4) census; (5) G18 re-grade;
+(6) R1 menu and queued tiles. No item launches automatically.
 
 **Operational rules in force:** chunked agent outputs (≤120-line appends; two 64k-ceiling
 agent deaths taught this); anti-hang (CLAUDE.md); the verifier pipeline
