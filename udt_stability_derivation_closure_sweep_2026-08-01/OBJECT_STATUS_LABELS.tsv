@@ -1,0 +1,8 @@
+status	meaning
+DERIVED_CONSTRUCTIVE	An explicit source-native object or equation is derived on the exact branch.
+DERIVED_SCOPED_OBSTRUCTION	An exact obstruction or nonuniqueness theorem is derived in a stated premise scope.
+PARTIAL_CONSTRAINT_ONLY	The sources constrain but do not uniquely define the missing object.
+UNDERDETERMINED_NO_NATIVE_OBJECT	The frozen premises admit inequivalent completions or supply no defining object.
+FORMAL_COMPATIBILITY_ONLY	Formal module compatibility exists without one realized/on-shell object.
+NOT_APPLICABLE_AFTER_UPSTREAM_RESULT	An upstream result makes the object inapplicable in the tested scope.
+SOURCE_CONFLICT_OR_SCOPE_BROKEN	The frozen source or branch contract cannot be reproduced.

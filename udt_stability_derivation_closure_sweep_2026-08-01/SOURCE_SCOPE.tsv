@@ -1,0 +1,4 @@
+layer	expected_paths	rule
+PARENT_SURVIVOR_SOURCE_UNIVERSE	1513	exact inherited freeze
+COMPLETE_PARENT_SURVIVOR_PACKAGE	45	all tracked parent-package files at base
+UNION	1558	sorted unique additions-only union

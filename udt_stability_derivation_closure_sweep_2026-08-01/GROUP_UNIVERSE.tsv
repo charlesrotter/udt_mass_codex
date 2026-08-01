@@ -1,0 +1,5 @@
+group_id	families	object	execution_order	dependency_status
+Q01	F02;F07	joint realized field/equation/boundary/variation domain	1	UPSTREAM_SHARED
+Q02	F01	second-wall-germ ownership	2	INDEPENDENT_OF_F01_LAMBDA_SIGN
+Q03	F05	native response and variation domain	3	NO_OPERATOR_TRANSFER
+Q04	F04	native time response and physical boundary	4	DOWNSTREAM

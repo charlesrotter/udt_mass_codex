@@ -1,0 +1,6 @@
+outcome	meaning
+DERIVATION_SWEEP_ADVANCES_READINESS	At least one family gains a fully closed later computation contract.
+DERIVATION_SWEEP_PARTIAL_CONSTRAINTS_ONLY	One or more objects are narrowed but no later computation becomes newly ready.
+DERIVATION_SWEEP_NO_READINESS_CHANGE	All missing objects remain at their parent open/underdetermined grade.
+DERIVATION_SWEEP_MIXED_WITH_SCOPED_OBSTRUCTION	The sweep derives one or more scoped obstructions alongside partial/open results without readiness promotion.
+SOURCE_CONFLICT_OR_SCOPE_BROKEN	The source freeze, object census, or branch scopes fail.
