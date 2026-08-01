@@ -1,0 +1,8 @@
+gate_id	gate	status	mechanical_finding	consequence	source_basis
+G01	DEFINED_CONFIGURATION_UNIVERSE	FAIL	F05 is a classifier, F06 is empty scope, and F07 is formal modules; the seven labels do not share one defined configuration universe	cannot interpret seven labels as seven solution families	A01-A13
+G02	OWNED_GOVERNING_EQUATION_OR_RESPONSE	FAIL	P4 owns conditional sector responses, F04 owns a different chosen functional, F05 has no response, and F07 lacks a complete equation	no common membership law partitions the labels	A01-A15
+G03	DISJOINTNESS_OR_EXPLICIT_OVERLAP	FAIL	F01/F02 have a formal constant-section pullback but no derived solution-set relation; F03/F06 are unions; F05 cross-cuts P4 completions	family counts are not counts of nonoverlapping physical types	A01-A05;A16-A18
+G04	COVERAGE_OF_PARENT_SOLUTION_SPACE	FAIL	no complete native UDT configuration/solution universe has been derived or exhaustively partitioned	the ledger is not a completeness theorem	A08-A15
+G05	COMMON_PREMISE_AND_BOUNDARY_STACK	FAIL	F01/F02 use an unresolved census-domain fork, while P4 and Hopfion use different conditional objects, functionals, carriers, and boundaries	cross-family stability comparison is premise-scoped only	A06-A17
+G06	REALIZED_OBJECTS_SEPARATED_FROM_FORMAL_AND_EMPTY_CLASSES	PASS_AFTER_CORRECTION	the present audit explicitly separates conditional realized objects, sectors, controls, constraints, empty scopes, and formal modules	the operational evidence map becomes honest and usable	A01-A15
+G07	NATIVE_UDT_REALIZATION	FAIL	neither P4 nor the Hopfion model supplies a carrier-independent native complete matter realization	zero native realized stability families are established	A08-A15

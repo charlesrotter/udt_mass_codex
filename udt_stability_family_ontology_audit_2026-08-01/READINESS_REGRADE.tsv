@@ -1,0 +1,8 @@
+family_id	inherited_readiness	ontology_corrected_readiness	promotion	reason
+F01	CPU_EXACT_CHECK_READY_LAMBDA_SCHUR_ONLY	UNCHANGED_CPU_EXACT_CHECK_READY_LAMBDA_SCHUR_ONLY	NO	bounded calculation remains valid for the S-i sector despite family relabeling
+F02	BLOCKED_MISSING_FIXED_REALIZATION	UNCHANGED_BLOCKED_MISSING_FIXED_REALIZATION	NO	sector identity does not supply the missing joint realization
+F03	CONTROL_ONLY	UNCHANGED_CONTROL_ONLY	NO	control stratum is not a candidate solve target
+F04	BLOCKED_MISSING_TIME_EQUATION	UNCHANGED_BLOCKED_MISSING_TIME_EQUATION	NO	conditional model identity does not derive physical time or boundary
+F05	BLOCKED_MISSING_NATIVE_RESPONSE	NOT_A_STABILITY_SOLVE_TARGET_WITHOUT_NEW_RESPONSE	NO	completion classifier cannot be tested as a stability family
+F06	NOT_APPLICABLE_EMPTY	UNCHANGED_NOT_APPLICABLE_EMPTY	NO	exact empty premise scopes contain no object to perturb
+F07	BLOCKED_MISSING_FIXED_REALIZATION	UNCHANGED_BLOCKED_MISSING_FIXED_REALIZATION	NO	formal modules do not supply their missing common object

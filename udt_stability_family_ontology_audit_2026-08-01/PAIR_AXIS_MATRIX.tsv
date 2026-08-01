@@ -1,0 +1,211 @@
+pair_id	left_family	right_family	axis_id	axis	comparison_status	finding	source_basis
+P02	F01	F02	A01	FIELD_CONFIGURATION_IDENTITY	FORMAL_CONFIGURATION_EMBEDDING	one registered domain or module embeds into the other only at the formal configuration level	A16-A17
+P02	F01	F02	A02	GOVERNING_EQUATION_RESPONSE	RESPONSE_RELATION_INCOMPLETE	pullback/restriction data do not prove equality of on-shell responses	A16-A17
+P02	F01	F02	A03	DOMAIN_CHART_COMPLETION	DOMAIN_MAP_PARTIAL	an exact domain/module map exists without a common realized global solution set	A16-A17
+P02	F01	F02	A04	BOUNDARY_POSTURE	BOUNDARY_JOIN_UNPROVED	no common physical boundary completion follows from the embedding	A16-A17
+P02	F01	F02	A05	TANGENT_VARIATION_DOMAIN	TANGENT_JOIN_UNPROVED	the embedding does not identify full stability tangent spaces	A16-A17
+P02	F01	F02	A06	CARRIER_TOPOLOGY	NO_CARRIER_COMPLETION	no carrier/topology identity follows	A16-A17
+P02	F01	F02	A07	DYNAMICAL_CHARACTER	NO_DYNAMICAL_IDENTITY	formal correspondence does not establish time persistence	A16-A17
+P02	F01	F02	A08	PREMISE_STACK	PREMISE_STACK_NOT_IDENTIFIED	conditional premises remain branch-specific	A16-A17
+P02	F01	F02	A09	SOURCE_COMMIT_LINEAGE	SOURCE_DERIVED_FORMAL_MAP	the named source derives a formal pullback or module embedding	A16-A17
+P02	F01	F02	A10	EXACT_RELATIONS	NO_SOLUTION_SET_RELATION	the exact relation stops before equality, inclusion, or overlap of realized solution sets	A16-A17
+P03	F01	F03	A01	FIELD_CONFIGURATION_IDENTITY	COMPONENT_LEVEL_ANALOGY	one component calibrates or resembles the other label without a whole-label set relation	A01-A03;A16-A17
+P03	F01	F03	A02	GOVERNING_EQUATION_RESPONSE	RESPONSE_CONTROL_ANALOGY	response forms are compared only under branch-specific conditional premises	A01-A03;A16-A17
+P03	F01	F03	A03	DOMAIN_CHART_COMPLETION	NO_WHOLE_DOMAIN_MAP	union-valued and candidate labels lack a common exact domain map	A01-A03;A16-A17
+P03	F01	F03	A04	BOUNDARY_POSTURE	BRANCH_SPECIFIC_BOUNDARY	boundary/posture comparisons do not lift to the whole labels	A01-A03;A16-A17
+P03	F01	F03	A05	TANGENT_VARIATION_DOMAIN	NO_TANGENT_IDENTITY	control and candidate perturbation spaces are not identified	A01-A03;A16-A17
+P03	F01	F03	A06	CARRIER_TOPOLOGY	NO_CARRIER_RELATION	no carrier/topology statement follows	A01-A03;A16-A17
+P03	F01	F03	A07	DYNAMICAL_CHARACTER	STATIONARY_ANALOGY_ONLY	no time-persistence relation follows	A01-A03;A16-A17
+P03	F01	F03	A08	PREMISE_STACK	CONDITIONAL_COMPONENT_PREMISES	the comparison depends on named census/control premises	A01-A03;A16-A17
+P03	F01	F03	A09	SOURCE_COMMIT_LINEAGE	RELATED_PROGRAM_LINEAGE	sources place the components in a shared P4 evidence program	A01-A03;A16-A17
+P03	F01	F03	A10	EXACT_RELATIONS	NO_CONTAINMENT_OR_IDENTITY	component-level calibration does not prove whole-label containment or identity	A01-A03;A16-A17
+P04	F01	F04	A01	FIELD_CONFIGURATION_IDENTITY	NO_COMMON_FIELD_MAP	no injection, projection, or common ambient physical field set is derived	A06-A11
+P04	F01	F04	A02	GOVERNING_EQUATION_RESPONSE	NO_OPERATOR_MAP	no response/action equivalence or transfer is derived	A06-A11
+P04	F01	F04	A03	DOMAIN_CHART_COMPLETION	NO_DOMAIN_MAP	no global completion map is established	A06-A11
+P04	F01	F04	A04	BOUNDARY_POSTURE	NO_BOUNDARY_MAP	no physical boundary correspondence is established	A06-A11
+P04	F01	F04	A05	TANGENT_VARIATION_DOMAIN	NO_TANGENT_MAP	no perturbation-space correspondence is established	A06-A11
+P04	F01	F04	A06	CARRIER_TOPOLOGY	NO_CARRIER_MAP	no carrier/topology identity is established	A06-A11
+P04	F01	F04	A07	DYNAMICAL_CHARACTER	NO_DYNAMICAL_MAP	no time-evolution correspondence is established	A06-A11
+P04	F01	F04	A08	PREMISE_STACK	INCOMPATIBLE_OR_UNJOINED_STACKS	premise stacks are not proven common	A06-A11
+P04	F01	F04	A09	SOURCE_COMMIT_LINEAGE	DISTINCT_SOURCE_LINEAGES	sources establish separate objects or logical roles	A06-A11
+P04	F01	F04	A10	EXACT_RELATIONS	RELATION_OPEN	absence of a derived relation is not a proof of physical disjointness	A06-A11
+P05	F01	F05	A01	FIELD_CONFIGURATION_IDENTITY	CLASSIFIER_VERSUS_CONFIGURATION	the structural side classifies admissibility of parent configurations	A01-A05
+P05	F01	F05	A02	GOVERNING_EQUATION_RESPONSE	NO_SHARED_RESPONSE	completion/period law constrains but does not supply a stability response	A01-A05
+P05	F01	F05	A03	DOMAIN_CHART_COMPLETION	COMPLETION_CONSTRAINT	cyclic/acyclic/quotient data restrict admissible global completion	A01-A05
+P05	F01	F05	A04	BOUNDARY_POSTURE	SEAM_CONSTRAINT	seam/posture conditions constrain boundary compatibility	A01-A05
+P05	F01	F05	A05	TANGENT_VARIATION_DOMAIN	NO_STRUCTURAL_TANGENT	the classifier has no independent perturbation space	A01-A05
+P05	F01	F05	A06	CARRIER_TOPOLOGY	NO_CARRIER_RELATION	no carrier/topology map follows	A01-A05
+P05	F01	F05	A07	DYNAMICAL_CHARACTER	NON_DYNAMICAL_CONSTRAINT	period/completion is structural, not time evolution	A01-A05
+P05	F01	F05	A08	PREMISE_STACK	INHERITED_P4_STACK	constraint applies only inside the registered P4 premises	A01-A05
+P05	F01	F05	A09	SOURCE_COMMIT_LINEAGE	RELATED_P4_LINEAGES	stability and period packages establish the relation	A01-A05
+P05	F01	F05	A10	EXACT_RELATIONS	EXACT_ONE_WAY_CONSTRAINT	constraint acts on the parent sector without becoming its subset	A01-A05
+P06	F01	F06	A01	FIELD_CONFIGURATION_IDENTITY	NO_COMMON_FIELD_MAP	no injection, projection, or common ambient physical field set is derived	A01-A05;A18
+P06	F01	F06	A02	GOVERNING_EQUATION_RESPONSE	NO_OPERATOR_MAP	no response/action equivalence or transfer is derived	A01-A05;A18
+P06	F01	F06	A03	DOMAIN_CHART_COMPLETION	NO_DOMAIN_MAP	no global completion map is established	A01-A05;A18
+P06	F01	F06	A04	BOUNDARY_POSTURE	NO_BOUNDARY_MAP	no physical boundary correspondence is established	A01-A05;A18
+P06	F01	F06	A05	TANGENT_VARIATION_DOMAIN	NO_TANGENT_MAP	no perturbation-space correspondence is established	A01-A05;A18
+P06	F01	F06	A06	CARRIER_TOPOLOGY	NO_CARRIER_MAP	no carrier/topology identity is established	A01-A05;A18
+P06	F01	F06	A07	DYNAMICAL_CHARACTER	NO_DYNAMICAL_MAP	no time-evolution correspondence is established	A01-A05;A18
+P06	F01	F06	A08	PREMISE_STACK	INCOMPATIBLE_OR_UNJOINED_STACKS	premise stacks are not proven common	A01-A05;A18
+P06	F01	F06	A09	SOURCE_COMMIT_LINEAGE	RELATED_P4_LINEAGES_NO_OBJECT_MAP	sources belong to related P4 audit lineages, but lineage proximity does not derive the missing whole-label object relation	A01-A05;A18
+P06	F01	F06	A10	EXACT_RELATIONS	RELATION_OPEN	absence of a derived relation is not a proof of physical disjointness	A01-A05;A18
+P07	F01	F07	A01	FIELD_CONFIGURATION_IDENTITY	NO_COMMON_FIELD_MAP	no injection, projection, or common ambient physical field set is derived	A08-A13
+P07	F01	F07	A02	GOVERNING_EQUATION_RESPONSE	NO_OPERATOR_MAP	no response/action equivalence or transfer is derived	A08-A13
+P07	F01	F07	A03	DOMAIN_CHART_COMPLETION	NO_DOMAIN_MAP	no global completion map is established	A08-A13
+P07	F01	F07	A04	BOUNDARY_POSTURE	NO_BOUNDARY_MAP	no physical boundary correspondence is established	A08-A13
+P07	F01	F07	A05	TANGENT_VARIATION_DOMAIN	NO_TANGENT_MAP	no perturbation-space correspondence is established	A08-A13
+P07	F01	F07	A06	CARRIER_TOPOLOGY	NO_CARRIER_MAP	no carrier/topology identity is established	A08-A13
+P07	F01	F07	A07	DYNAMICAL_CHARACTER	NO_DYNAMICAL_MAP	no time-evolution correspondence is established	A08-A13
+P07	F01	F07	A08	PREMISE_STACK	INCOMPATIBLE_OR_UNJOINED_STACKS	premise stacks are not proven common	A08-A13
+P07	F01	F07	A09	SOURCE_COMMIT_LINEAGE	RELATED_P4_LINEAGES_NO_OBJECT_MAP	sources belong to related P4 audit lineages, but lineage proximity does not derive the missing whole-label object relation	A08-A13
+P07	F01	F07	A10	EXACT_RELATIONS	RELATION_OPEN	absence of a derived relation is not a proof of physical disjointness	A08-A13
+P09	F02	F03	A01	FIELD_CONFIGURATION_IDENTITY	COMPONENT_LEVEL_ANALOGY	one component calibrates or resembles the other label without a whole-label set relation	A01-A03;A16-A17
+P09	F02	F03	A02	GOVERNING_EQUATION_RESPONSE	RESPONSE_CONTROL_ANALOGY	response forms are compared only under branch-specific conditional premises	A01-A03;A16-A17
+P09	F02	F03	A03	DOMAIN_CHART_COMPLETION	NO_WHOLE_DOMAIN_MAP	union-valued and candidate labels lack a common exact domain map	A01-A03;A16-A17
+P09	F02	F03	A04	BOUNDARY_POSTURE	BRANCH_SPECIFIC_BOUNDARY	boundary/posture comparisons do not lift to the whole labels	A01-A03;A16-A17
+P09	F02	F03	A05	TANGENT_VARIATION_DOMAIN	NO_TANGENT_IDENTITY	control and candidate perturbation spaces are not identified	A01-A03;A16-A17
+P09	F02	F03	A06	CARRIER_TOPOLOGY	NO_CARRIER_RELATION	no carrier/topology statement follows	A01-A03;A16-A17
+P09	F02	F03	A07	DYNAMICAL_CHARACTER	STATIONARY_ANALOGY_ONLY	no time-persistence relation follows	A01-A03;A16-A17
+P09	F02	F03	A08	PREMISE_STACK	CONDITIONAL_COMPONENT_PREMISES	the comparison depends on named census/control premises	A01-A03;A16-A17
+P09	F02	F03	A09	SOURCE_COMMIT_LINEAGE	RELATED_PROGRAM_LINEAGE	sources place the components in a shared P4 evidence program	A01-A03;A16-A17
+P09	F02	F03	A10	EXACT_RELATIONS	NO_CONTAINMENT_OR_IDENTITY	component-level calibration does not prove whole-label containment or identity	A01-A03;A16-A17
+P10	F02	F04	A01	FIELD_CONFIGURATION_IDENTITY	NO_COMMON_FIELD_MAP	no injection, projection, or common ambient physical field set is derived	A06-A11
+P10	F02	F04	A02	GOVERNING_EQUATION_RESPONSE	NO_OPERATOR_MAP	no response/action equivalence or transfer is derived	A06-A11
+P10	F02	F04	A03	DOMAIN_CHART_COMPLETION	NO_DOMAIN_MAP	no global completion map is established	A06-A11
+P10	F02	F04	A04	BOUNDARY_POSTURE	NO_BOUNDARY_MAP	no physical boundary correspondence is established	A06-A11
+P10	F02	F04	A05	TANGENT_VARIATION_DOMAIN	NO_TANGENT_MAP	no perturbation-space correspondence is established	A06-A11
+P10	F02	F04	A06	CARRIER_TOPOLOGY	NO_CARRIER_MAP	no carrier/topology identity is established	A06-A11
+P10	F02	F04	A07	DYNAMICAL_CHARACTER	NO_DYNAMICAL_MAP	no time-evolution correspondence is established	A06-A11
+P10	F02	F04	A08	PREMISE_STACK	INCOMPATIBLE_OR_UNJOINED_STACKS	premise stacks are not proven common	A06-A11
+P10	F02	F04	A09	SOURCE_COMMIT_LINEAGE	DISTINCT_SOURCE_LINEAGES	sources establish separate objects or logical roles	A06-A11
+P10	F02	F04	A10	EXACT_RELATIONS	RELATION_OPEN	absence of a derived relation is not a proof of physical disjointness	A06-A11
+P11	F02	F05	A01	FIELD_CONFIGURATION_IDENTITY	CLASSIFIER_VERSUS_CONFIGURATION	the structural side classifies admissibility of parent configurations	A01-A05
+P11	F02	F05	A02	GOVERNING_EQUATION_RESPONSE	NO_SHARED_RESPONSE	completion/period law constrains but does not supply a stability response	A01-A05
+P11	F02	F05	A03	DOMAIN_CHART_COMPLETION	COMPLETION_CONSTRAINT	cyclic/acyclic/quotient data restrict admissible global completion	A01-A05
+P11	F02	F05	A04	BOUNDARY_POSTURE	SEAM_CONSTRAINT	seam/posture conditions constrain boundary compatibility	A01-A05
+P11	F02	F05	A05	TANGENT_VARIATION_DOMAIN	NO_STRUCTURAL_TANGENT	the classifier has no independent perturbation space	A01-A05
+P11	F02	F05	A06	CARRIER_TOPOLOGY	NO_CARRIER_RELATION	no carrier/topology map follows	A01-A05
+P11	F02	F05	A07	DYNAMICAL_CHARACTER	NON_DYNAMICAL_CONSTRAINT	period/completion is structural, not time evolution	A01-A05
+P11	F02	F05	A08	PREMISE_STACK	INHERITED_P4_STACK	constraint applies only inside the registered P4 premises	A01-A05
+P11	F02	F05	A09	SOURCE_COMMIT_LINEAGE	RELATED_P4_LINEAGES	stability and period packages establish the relation	A01-A05
+P11	F02	F05	A10	EXACT_RELATIONS	EXACT_ONE_WAY_CONSTRAINT	constraint acts on the parent sector without becoming its subset	A01-A05
+P12	F02	F06	A01	FIELD_CONFIGURATION_IDENTITY	NO_COMMON_FIELD_MAP	no injection, projection, or common ambient physical field set is derived	A01-A05;A18
+P12	F02	F06	A02	GOVERNING_EQUATION_RESPONSE	NO_OPERATOR_MAP	no response/action equivalence or transfer is derived	A01-A05;A18
+P12	F02	F06	A03	DOMAIN_CHART_COMPLETION	NO_DOMAIN_MAP	no global completion map is established	A01-A05;A18
+P12	F02	F06	A04	BOUNDARY_POSTURE	NO_BOUNDARY_MAP	no physical boundary correspondence is established	A01-A05;A18
+P12	F02	F06	A05	TANGENT_VARIATION_DOMAIN	NO_TANGENT_MAP	no perturbation-space correspondence is established	A01-A05;A18
+P12	F02	F06	A06	CARRIER_TOPOLOGY	NO_CARRIER_MAP	no carrier/topology identity is established	A01-A05;A18
+P12	F02	F06	A07	DYNAMICAL_CHARACTER	NO_DYNAMICAL_MAP	no time-evolution correspondence is established	A01-A05;A18
+P12	F02	F06	A08	PREMISE_STACK	INCOMPATIBLE_OR_UNJOINED_STACKS	premise stacks are not proven common	A01-A05;A18
+P12	F02	F06	A09	SOURCE_COMMIT_LINEAGE	RELATED_P4_LINEAGES_NO_OBJECT_MAP	sources belong to related P4 audit lineages, but lineage proximity does not derive the missing whole-label object relation	A01-A05;A18
+P12	F02	F06	A10	EXACT_RELATIONS	RELATION_OPEN	absence of a derived relation is not a proof of physical disjointness	A01-A05;A18
+P13	F02	F07	A01	FIELD_CONFIGURATION_IDENTITY	FORMAL_CONFIGURATION_EMBEDDING	one registered domain or module embeds into the other only at the formal configuration level	A08-A13
+P13	F02	F07	A02	GOVERNING_EQUATION_RESPONSE	RESPONSE_RELATION_INCOMPLETE	pullback/restriction data do not prove equality of on-shell responses	A08-A13
+P13	F02	F07	A03	DOMAIN_CHART_COMPLETION	DOMAIN_MAP_PARTIAL	an exact domain/module map exists without a common realized global solution set	A08-A13
+P13	F02	F07	A04	BOUNDARY_POSTURE	BOUNDARY_JOIN_UNPROVED	no common physical boundary completion follows from the embedding	A08-A13
+P13	F02	F07	A05	TANGENT_VARIATION_DOMAIN	TANGENT_JOIN_UNPROVED	the embedding does not identify full stability tangent spaces	A08-A13
+P13	F02	F07	A06	CARRIER_TOPOLOGY	NO_CARRIER_COMPLETION	no carrier/topology identity follows	A08-A13
+P13	F02	F07	A07	DYNAMICAL_CHARACTER	NO_DYNAMICAL_IDENTITY	formal correspondence does not establish time persistence	A08-A13
+P13	F02	F07	A08	PREMISE_STACK	PREMISE_STACK_NOT_IDENTIFIED	conditional premises remain branch-specific	A08-A13
+P13	F02	F07	A09	SOURCE_COMMIT_LINEAGE	SOURCE_DERIVED_FORMAL_MAP	the named source derives a formal pullback or module embedding	A08-A13
+P13	F02	F07	A10	EXACT_RELATIONS	NO_SOLUTION_SET_RELATION	the exact relation stops before equality, inclusion, or overlap of realized solution sets	A08-A13
+P15	F03	F04	A01	FIELD_CONFIGURATION_IDENTITY	NO_COMMON_FIELD_MAP	no injection, projection, or common ambient physical field set is derived	A06-A11
+P15	F03	F04	A02	GOVERNING_EQUATION_RESPONSE	NO_OPERATOR_MAP	no response/action equivalence or transfer is derived	A06-A11
+P15	F03	F04	A03	DOMAIN_CHART_COMPLETION	NO_DOMAIN_MAP	no global completion map is established	A06-A11
+P15	F03	F04	A04	BOUNDARY_POSTURE	NO_BOUNDARY_MAP	no physical boundary correspondence is established	A06-A11
+P15	F03	F04	A05	TANGENT_VARIATION_DOMAIN	NO_TANGENT_MAP	no perturbation-space correspondence is established	A06-A11
+P15	F03	F04	A06	CARRIER_TOPOLOGY	NO_CARRIER_MAP	no carrier/topology identity is established	A06-A11
+P15	F03	F04	A07	DYNAMICAL_CHARACTER	NO_DYNAMICAL_MAP	no time-evolution correspondence is established	A06-A11
+P15	F03	F04	A08	PREMISE_STACK	INCOMPATIBLE_OR_UNJOINED_STACKS	premise stacks are not proven common	A06-A11
+P15	F03	F04	A09	SOURCE_COMMIT_LINEAGE	DISTINCT_SOURCE_LINEAGES	sources establish separate objects or logical roles	A06-A11
+P15	F03	F04	A10	EXACT_RELATIONS	RELATION_OPEN	absence of a derived relation is not a proof of physical disjointness	A06-A11
+P16	F03	F05	A01	FIELD_CONFIGURATION_IDENTITY	NO_COMMON_FIELD_MAP	no injection, projection, or common ambient physical field set is derived	A01-A05
+P16	F03	F05	A02	GOVERNING_EQUATION_RESPONSE	NO_OPERATOR_MAP	no response/action equivalence or transfer is derived	A01-A05
+P16	F03	F05	A03	DOMAIN_CHART_COMPLETION	NO_DOMAIN_MAP	no global completion map is established	A01-A05
+P16	F03	F05	A04	BOUNDARY_POSTURE	NO_BOUNDARY_MAP	no physical boundary correspondence is established	A01-A05
+P16	F03	F05	A05	TANGENT_VARIATION_DOMAIN	NO_TANGENT_MAP	no perturbation-space correspondence is established	A01-A05
+P16	F03	F05	A06	CARRIER_TOPOLOGY	NO_CARRIER_MAP	no carrier/topology identity is established	A01-A05
+P16	F03	F05	A07	DYNAMICAL_CHARACTER	NO_DYNAMICAL_MAP	no time-evolution correspondence is established	A01-A05
+P16	F03	F05	A08	PREMISE_STACK	INCOMPATIBLE_OR_UNJOINED_STACKS	premise stacks are not proven common	A01-A05
+P16	F03	F05	A09	SOURCE_COMMIT_LINEAGE	RELATED_P4_LINEAGES_NO_OBJECT_MAP	sources belong to related P4 audit lineages, but lineage proximity does not derive the missing whole-label object relation	A01-A05
+P16	F03	F05	A10	EXACT_RELATIONS	RELATION_OPEN	absence of a derived relation is not a proof of physical disjointness	A01-A05
+P17	F03	F06	A01	FIELD_CONFIGURATION_IDENTITY	PREMISE_DISJOINT	massless control and massive empty scopes use mutually exclusive registered premises	A01-A05
+P17	F03	F06	A02	GOVERNING_EQUATION_RESPONSE	NOT_COMPARABLE_RESPONSES	one side is a control response and the other an eliminated scope	A01-A05
+P17	F03	F06	A03	DOMAIN_CHART_COMPLETION	DISTINCT_SCOPES	registered domains do not overlap under the mass premise	A01-A05
+P17	F03	F06	A04	BOUNDARY_POSTURE	DISTINCT_CONTROL_NEGATIVE_ROLES	control and eliminating boundaries serve different logical roles	A01-A05
+P17	F03	F06	A05	TANGENT_VARIATION_DOMAIN	NOT_A_COMMON_TANGENT	no shared nonempty configuration set exists in scope	A01-A05
+P17	F03	F06	A06	CARRIER_TOPOLOGY	NO_CARRIER_RELATION	no carrier/topology follows	A01-A05
+P17	F03	F06	A07	DYNAMICAL_CHARACTER	NOT_APPLICABLE	neither relation establishes time persistence	A01-A05
+P17	F03	F06	A08	PREMISE_STACK	MASS_PREMISE_EXCLUSION	E0=0 and massive premises are mutually exclusive	A01-A05
+P17	F03	F06	A09	SOURCE_COMMIT_LINEAGE	RELATED_P4_LINEAGES	the same P4 program records both roles	A01-A05
+P17	F03	F06	A10	EXACT_RELATIONS	SCOPED_DISJOINTNESS_ONLY	disjointness is premise-scoped, not a global species theorem	A01-A05
+P18	F03	F07	A01	FIELD_CONFIGURATION_IDENTITY	NO_COMMON_FIELD_MAP	no injection, projection, or common ambient physical field set is derived	A08-A13
+P18	F03	F07	A02	GOVERNING_EQUATION_RESPONSE	NO_OPERATOR_MAP	no response/action equivalence or transfer is derived	A08-A13
+P18	F03	F07	A03	DOMAIN_CHART_COMPLETION	NO_DOMAIN_MAP	no global completion map is established	A08-A13
+P18	F03	F07	A04	BOUNDARY_POSTURE	NO_BOUNDARY_MAP	no physical boundary correspondence is established	A08-A13
+P18	F03	F07	A05	TANGENT_VARIATION_DOMAIN	NO_TANGENT_MAP	no perturbation-space correspondence is established	A08-A13
+P18	F03	F07	A06	CARRIER_TOPOLOGY	NO_CARRIER_MAP	no carrier/topology identity is established	A08-A13
+P18	F03	F07	A07	DYNAMICAL_CHARACTER	NO_DYNAMICAL_MAP	no time-evolution correspondence is established	A08-A13
+P18	F03	F07	A08	PREMISE_STACK	INCOMPATIBLE_OR_UNJOINED_STACKS	premise stacks are not proven common	A08-A13
+P18	F03	F07	A09	SOURCE_COMMIT_LINEAGE	RELATED_P4_LINEAGES_NO_OBJECT_MAP	sources belong to related P4 audit lineages, but lineage proximity does not derive the missing whole-label object relation	A08-A13
+P18	F03	F07	A10	EXACT_RELATIONS	RELATION_OPEN	absence of a derived relation is not a proof of physical disjointness	A08-A13
+P20	F04	F05	A01	FIELD_CONFIGURATION_IDENTITY	NO_COMMON_FIELD_MAP	no injection, projection, or common ambient physical field set is derived	A04-A08
+P20	F04	F05	A02	GOVERNING_EQUATION_RESPONSE	NO_OPERATOR_MAP	no response/action equivalence or transfer is derived	A04-A08
+P20	F04	F05	A03	DOMAIN_CHART_COMPLETION	NO_DOMAIN_MAP	no global completion map is established	A04-A08
+P20	F04	F05	A04	BOUNDARY_POSTURE	NO_BOUNDARY_MAP	no physical boundary correspondence is established	A04-A08
+P20	F04	F05	A05	TANGENT_VARIATION_DOMAIN	NO_TANGENT_MAP	no perturbation-space correspondence is established	A04-A08
+P20	F04	F05	A06	CARRIER_TOPOLOGY	NO_CARRIER_MAP	no carrier/topology identity is established	A04-A08
+P20	F04	F05	A07	DYNAMICAL_CHARACTER	NO_DYNAMICAL_MAP	no time-evolution correspondence is established	A04-A08
+P20	F04	F05	A08	PREMISE_STACK	INCOMPATIBLE_OR_UNJOINED_STACKS	premise stacks are not proven common	A04-A08
+P20	F04	F05	A09	SOURCE_COMMIT_LINEAGE	DISTINCT_SOURCE_LINEAGES	sources establish separate objects or logical roles	A04-A08
+P20	F04	F05	A10	EXACT_RELATIONS	RELATION_OPEN	absence of a derived relation is not a proof of physical disjointness	A04-A08
+P21	F04	F06	A01	FIELD_CONFIGURATION_IDENTITY	NO_COMMON_FIELD_MAP	no injection, projection, or common ambient physical field set is derived	A01-A08
+P21	F04	F06	A02	GOVERNING_EQUATION_RESPONSE	NO_OPERATOR_MAP	no response/action equivalence or transfer is derived	A01-A08
+P21	F04	F06	A03	DOMAIN_CHART_COMPLETION	NO_DOMAIN_MAP	no global completion map is established	A01-A08
+P21	F04	F06	A04	BOUNDARY_POSTURE	NO_BOUNDARY_MAP	no physical boundary correspondence is established	A01-A08
+P21	F04	F06	A05	TANGENT_VARIATION_DOMAIN	NO_TANGENT_MAP	no perturbation-space correspondence is established	A01-A08
+P21	F04	F06	A06	CARRIER_TOPOLOGY	NO_CARRIER_MAP	no carrier/topology identity is established	A01-A08
+P21	F04	F06	A07	DYNAMICAL_CHARACTER	NO_DYNAMICAL_MAP	no time-evolution correspondence is established	A01-A08
+P21	F04	F06	A08	PREMISE_STACK	INCOMPATIBLE_OR_UNJOINED_STACKS	premise stacks are not proven common	A01-A08
+P21	F04	F06	A09	SOURCE_COMMIT_LINEAGE	DISTINCT_SOURCE_LINEAGES	sources establish separate objects or logical roles	A01-A08
+P21	F04	F06	A10	EXACT_RELATIONS	RELATION_OPEN	absence of a derived relation is not a proof of physical disjointness	A01-A08
+P22	F04	F07	A01	FIELD_CONFIGURATION_IDENTITY	NO_COMMON_FIELD_MAP	no injection, projection, or common ambient physical field set is derived	A06-A11
+P22	F04	F07	A02	GOVERNING_EQUATION_RESPONSE	NO_OPERATOR_MAP	no response/action equivalence or transfer is derived	A06-A11
+P22	F04	F07	A03	DOMAIN_CHART_COMPLETION	NO_DOMAIN_MAP	no global completion map is established	A06-A11
+P22	F04	F07	A04	BOUNDARY_POSTURE	NO_BOUNDARY_MAP	no physical boundary correspondence is established	A06-A11
+P22	F04	F07	A05	TANGENT_VARIATION_DOMAIN	NO_TANGENT_MAP	no perturbation-space correspondence is established	A06-A11
+P22	F04	F07	A06	CARRIER_TOPOLOGY	NO_CARRIER_MAP	no carrier/topology identity is established	A06-A11
+P22	F04	F07	A07	DYNAMICAL_CHARACTER	NO_DYNAMICAL_MAP	no time-evolution correspondence is established	A06-A11
+P22	F04	F07	A08	PREMISE_STACK	INCOMPATIBLE_OR_UNJOINED_STACKS	premise stacks are not proven common	A06-A11
+P22	F04	F07	A09	SOURCE_COMMIT_LINEAGE	DISTINCT_SOURCE_LINEAGES	sources establish separate objects or logical roles	A06-A11
+P22	F04	F07	A10	EXACT_RELATIONS	RELATION_OPEN	absence of a derived relation is not a proof of physical disjointness	A06-A11
+P24	F05	F06	A01	FIELD_CONFIGURATION_IDENTITY	CLASSIFIER_VERSUS_CONFIGURATION	the structural side classifies admissibility of parent configurations	A01-A05
+P24	F05	F06	A02	GOVERNING_EQUATION_RESPONSE	NO_SHARED_RESPONSE	completion/period law constrains but does not supply a stability response	A01-A05
+P24	F05	F06	A03	DOMAIN_CHART_COMPLETION	COMPLETION_CONSTRAINT	cyclic/acyclic/quotient data restrict admissible global completion	A01-A05
+P24	F05	F06	A04	BOUNDARY_POSTURE	SEAM_CONSTRAINT	seam/posture conditions constrain boundary compatibility	A01-A05
+P24	F05	F06	A05	TANGENT_VARIATION_DOMAIN	NO_STRUCTURAL_TANGENT	the classifier has no independent perturbation space	A01-A05
+P24	F05	F06	A06	CARRIER_TOPOLOGY	NO_CARRIER_RELATION	no carrier/topology map follows	A01-A05
+P24	F05	F06	A07	DYNAMICAL_CHARACTER	NON_DYNAMICAL_CONSTRAINT	period/completion is structural, not time evolution	A01-A05
+P24	F05	F06	A08	PREMISE_STACK	INHERITED_P4_STACK	constraint applies only inside the registered P4 premises	A01-A05
+P24	F05	F06	A09	SOURCE_COMMIT_LINEAGE	RELATED_P4_LINEAGES	stability and period packages establish the relation	A01-A05
+P24	F05	F06	A10	EXACT_RELATIONS	EXACT_ONE_WAY_CONSTRAINT	constraint acts on the parent sector without becoming its subset	A01-A05
+P25	F05	F07	A01	FIELD_CONFIGURATION_IDENTITY	NO_COMMON_FIELD_MAP	no injection, projection, or common ambient physical field set is derived	A04-A13
+P25	F05	F07	A02	GOVERNING_EQUATION_RESPONSE	NO_OPERATOR_MAP	no response/action equivalence or transfer is derived	A04-A13
+P25	F05	F07	A03	DOMAIN_CHART_COMPLETION	NO_DOMAIN_MAP	no global completion map is established	A04-A13
+P25	F05	F07	A04	BOUNDARY_POSTURE	NO_BOUNDARY_MAP	no physical boundary correspondence is established	A04-A13
+P25	F05	F07	A05	TANGENT_VARIATION_DOMAIN	NO_TANGENT_MAP	no perturbation-space correspondence is established	A04-A13
+P25	F05	F07	A06	CARRIER_TOPOLOGY	NO_CARRIER_MAP	no carrier/topology identity is established	A04-A13
+P25	F05	F07	A07	DYNAMICAL_CHARACTER	NO_DYNAMICAL_MAP	no time-evolution correspondence is established	A04-A13
+P25	F05	F07	A08	PREMISE_STACK	INCOMPATIBLE_OR_UNJOINED_STACKS	premise stacks are not proven common	A04-A13
+P25	F05	F07	A09	SOURCE_COMMIT_LINEAGE	RELATED_P4_LINEAGES_NO_OBJECT_MAP	sources belong to related P4 audit lineages, but lineage proximity does not derive the missing whole-label object relation	A04-A13
+P25	F05	F07	A10	EXACT_RELATIONS	RELATION_OPEN	absence of a derived relation is not a proof of physical disjointness	A04-A13
+P27	F06	F07	A01	FIELD_CONFIGURATION_IDENTITY	NO_COMMON_FIELD_MAP	no injection, projection, or common ambient physical field set is derived	A01-A13
+P27	F06	F07	A02	GOVERNING_EQUATION_RESPONSE	NO_OPERATOR_MAP	no response/action equivalence or transfer is derived	A01-A13
+P27	F06	F07	A03	DOMAIN_CHART_COMPLETION	NO_DOMAIN_MAP	no global completion map is established	A01-A13
+P27	F06	F07	A04	BOUNDARY_POSTURE	NO_BOUNDARY_MAP	no physical boundary correspondence is established	A01-A13
+P27	F06	F07	A05	TANGENT_VARIATION_DOMAIN	NO_TANGENT_MAP	no perturbation-space correspondence is established	A01-A13
+P27	F06	F07	A06	CARRIER_TOPOLOGY	NO_CARRIER_MAP	no carrier/topology identity is established	A01-A13
+P27	F06	F07	A07	DYNAMICAL_CHARACTER	NO_DYNAMICAL_MAP	no time-evolution correspondence is established	A01-A13
+P27	F06	F07	A08	PREMISE_STACK	INCOMPATIBLE_OR_UNJOINED_STACKS	premise stacks are not proven common	A01-A13
+P27	F06	F07	A09	SOURCE_COMMIT_LINEAGE	RELATED_P4_LINEAGES_NO_OBJECT_MAP	sources belong to related P4 audit lineages, but lineage proximity does not derive the missing whole-label object relation	A01-A13
+P27	F06	F07	A10	EXACT_RELATIONS	RELATION_OPEN	absence of a derived relation is not a proof of physical disjointness	A01-A13

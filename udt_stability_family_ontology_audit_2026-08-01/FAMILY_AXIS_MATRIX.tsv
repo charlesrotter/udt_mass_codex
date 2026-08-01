@@ -1,0 +1,71 @@
+family_id	axis_id	axis	axis_status	finding	source_basis
+F01	A01	FIELD_CONFIGURATION_IDENTITY	DEFINED_CONDITIONAL	P4 S-i stationary quadratic fields/moduli; massive constants census	A01-A03;A16-A17
+F01	A02	GOVERNING_EQUATION_RESPONSE	CONDITIONAL_REDUCED	P4 reduced/joint second variation; no native complete action	A01-A03;A16-A17
+F01	A03	DOMAIN_CHART_COMPLETION	BOUNDED_SECTOR	jet<=2 cells and mixed crease-glue/open branches	A01-A03;A16-A17
+F01	A04	BOUNDARY_POSTURE	SUPPLIED_AND_OPEN	posture/parity supplied; higher wall-germ curvature unowned	A01-A03;A16-A17
+F01	A05	TANGENT_VARIATION_DOMAIN	DEFINED_BY_BRANCH	joint field/modulus variations with parity-specific traces	A01-A03;A16-A17
+F01	A06	CARRIER_TOPOLOGY	NONE_SELECTED	no carrier or Hopf topology is part of the P4 definition	A01-A03;A16-A17
+F01	A07	DYNAMICAL_CHARACTER	STATIONARY_ONLY	Hessian/response result; physical time remains open	A01-A03;A16-A17
+F01	A08	PREMISE_STACK	CONDITIONAL_MIXED	pairing census posture parity normalization and wall-response premises	A01-A03;A16-A17
+F01	A09	SOURCE_COMMIT_LINEAGE	LINEAGE_FIXED	constants census predates and conditions the banked P4 stability slice	A01-A03;A16-A17
+F01	A10	EXACT_RELATIONS	CENSUS_FORK_RELATION	constant-domain one-form is a pullback of the field-domain form; solution-set relation remains open	A01-A03;A16-A17
+F02	A01	FIELD_CONFIGURATION_IDENTITY	DEFINED_CONDITIONAL	P4 S-ii fields-census landing with live lambda subclasses	A01-A03;A16-A17
+F02	A02	GOVERNING_EQUATION_RESPONSE	CONDITIONAL_SECTOR	no-m-jet and jet-quadratic sector forms; no whole native equation	A01-A03;A16-A17
+F02	A03	DOMAIN_CHART_COMPLETION	BOUNDED_SECTOR	registered P1-4D landing and trace-zero witnesses	A01-A03;A16-A17
+F02	A04	BOUNDARY_POSTURE	PARTIAL	zero-trace witness is germ-independent; complete physical boundary open	A01-A03;A16-A17
+F02	A05	TANGENT_VARIATION_DOMAIN	DEFINED_BY_SUBCLASS	joint depth/angular/live-modulus sector variations	A01-A03;A16-A17
+F02	A06	CARRIER_TOPOLOGY	NONE_SELECTED	no carrier or topology is owned	A01-A03;A16-A17
+F02	A07	DYNAMICAL_CHARACTER	STATIONARY_ONLY	sector Hessian threshold is not time persistence	A01-A03;A16-A17
+F02	A08	PREMISE_STACK	CONDITIONAL_MIXED	census pairing jet stiffness and existence premises travel	A01-A03;A16-A17
+F02	A09	SOURCE_COMMIT_LINEAGE	LINEAGE_FIXED	field census was separately registered before the P4 stability slice	A01-A03;A16-A17
+F02	A10	EXACT_RELATIONS	CENSUS_FORK_RELATION	field domain contains constant sections but pointwise stationarity is stronger than pullback stationarity	A01-A03;A16-A17
+F03	A01	FIELD_CONFIGURATION_IDENTITY	DEFINED_CONTROL	E0=0 constant and triad-locked massless control members	A01-A03;A16-A17
+F03	A02	GOVERNING_EQUATION_RESPONSE	SAME_PARENT_RESPONSE	P4 quadratic control forms, not an independent equation	A01-A03;A16-A17
+F03	A03	DOMAIN_CHART_COMPLETION	CONTROL_DOMAINS	registered limiting/control branches	A01-A03;A16-A17
+F03	A04	BOUNDARY_POSTURE	REGISTERED_CONTROL	control trace/parity domains only	A01-A03;A16-A17
+F03	A05	TANGENT_VARIATION_DOMAIN	DEGENERATE_CONTROL	PSD form with exact flat zero-mode directions	A01-A03;A16-A17
+F03	A06	CARRIER_TOPOLOGY	NONE_SELECTED	no carrier/topology	A01-A03;A16-A17
+F03	A07	DYNAMICAL_CHARACTER	STATIONARY_CONTROL	run validation, not persistence	A01-A03;A16-A17
+F03	A08	PREMISE_STACK	E0_ZERO_CONTROL	massless/triad premises define the control	A01-A03;A16-A17
+F03	A09	SOURCE_COMMIT_LINEAGE	LINEAGE_FIXED	same P4 stability package as F01/F02	A01-A03;A16-A17
+F03	A10	EXACT_RELATIONS	CONTROL_UNION	components validate separate P4 response branches; no whole-label containment follows	A01-A03;A16-A17
+F04	A01	FIELD_CONFIGURATION_IDENTITY	OBSERVED_CONDITIONAL	full-3D finite-box map into a supplied round S2 carrier	A06-A08;A14-A15
+F04	A02	GOVERNING_EQUATION_RESPONSE	CHOSEN_CONDITIONAL	audited no-null L2+L4 static functional, not a native complete action	A06-A08;A14-A15
+F04	A03	DOMAIN_CHART_COMPLETION	COMPUTATIONAL_DOMAIN	finite box and compactified implementation; physical completion open	A06-A08;A14-A15
+F04	A04	BOUNDARY_POSTURE	COMPUTATIONAL_ONLY	solver boundary is owned but no UDT physical carrier boundary is selected	A06-A08;A14-A15
+F04	A05	TANGENT_VARIATION_DOMAIN	STATIC_DOMAIN_ONLY	corrected static perturbation domain; physical time domain absent	A06-A08;A14-A15
+F04	A06	CARRIER_TOPOLOGY	CARRIER_POSIT	round S2 and Hopf sector are conditional, not metric-derived carrier emergence	A06-A08;A14-A15
+F04	A07	DYNAMICAL_CHARACTER	STATIC_ONLY	relaxation and static Hessian evidence do not establish time persistence	A06-A08;A14-A15
+F04	A08	PREMISE_STACK	POSIT_AND_CONDITIONAL	carrier POSIT, L2+L4 conditional, finite-box boundary chosen, time open	A06-A08;A14-A15
+F04	A09	SOURCE_COMMIT_LINEAGE	LINEAGE_FIXED	banked native-Hopfion topology audit lineage	A06-A08;A14-A15
+F04	A10	EXACT_RELATIONS	SEPARATE_MODEL_STREAM	no derived injection or projection joins this model to the P4 field space	A06-A08;A14-A15
+F05	A01	FIELD_CONFIGURATION_IDENTITY	CROSS_CUTTING_CLASS	completion and period classes over P4 configurations, not an independent field set	A04-A05;A13
+F05	A02	GOVERNING_EQUATION_RESPONSE	STRUCTURAL_ONLY	period and holonomy constraints supply no response or stability functional	A04-A05;A13
+F05	A03	DOMAIN_CHART_COMPLETION	COMPLETION_TAXONOMY	acyclic, cyclic, and quotient completions with real-period tests	A04-A05;A13
+F05	A04	BOUNDARY_POSTURE	SEAM_DATA	closure/posture data classify completion but do not select a physical boundary	A04-A05;A13
+F05	A05	TANGENT_VARIATION_DOMAIN	ABSENT	no family-owned perturbation domain exists because this is not a response family	A04-A05;A13
+F05	A06	CARRIER_TOPOLOGY	NO_CARRIER	cycle and holonomy structure do not derive a matter carrier	A04-A05;A13
+F05	A07	DYNAMICAL_CHARACTER	NON_DYNAMICAL	global completion classifier only	A04-A05;A13
+F05	A08	PREMISE_STACK	CONDITIONAL_P4	inherits the conditional P4 construction and completion premises	A04-A05;A13
+F05	A09	SOURCE_COMMIT_LINEAGE	LINEAGE_FIXED	introduced by the P4 period-gate package	A04-A05;A13
+F05	A10	EXACT_RELATIONS	CONSTRAINT_ON_REGISTERED_BRANCHES	constrains F01/F02 completion branches and contributes scoped negatives collected in F06; no whole-label F03 map is derived	A04-A05;A13
+F06	A01	FIELD_CONFIGURATION_IDENTITY	EMPTY_SCOPES	no configurations survive in the registered massive cyclic-N1 and double-crease scopes	A01-A05;A18
+F06	A02	GOVERNING_EQUATION_RESPONSE	INHERITED_CONSTRAINTS	emptiness follows P4 closure and wall-trace equations, not a stability response	A01-A05;A18
+F06	A03	DOMAIN_CHART_COMPLETION	SCOPED_COMPLETIONS	massive cyclic N1 and double-crease premise domains only	A01-A05;A18
+F06	A04	BOUNDARY_POSTURE	ELIMINATING_TRACES	closure and wall traces eliminate the scoped candidate loci	A01-A05;A18
+F06	A05	TANGENT_VARIATION_DOMAIN	NOT_APPLICABLE	an empty configuration set has no stability tangent space	A01-A05;A18
+F06	A06	CARRIER_TOPOLOGY	NONE	no carrier or topology is selected	A01-A05;A18
+F06	A07	DYNAMICAL_CHARACTER	NOT_APPLICABLE	no solution exists in scope to evolve	A01-A05;A18
+F06	A08	PREMISE_STACK	PREMISE_SCOPED_NEGATIVE	exact only under the registered mass, closure, and crease premises	A01-A05;A18
+F06	A09	SOURCE_COMMIT_LINEAGE	LINEAGE_FIXED	P4 stability and period-gate lineages	A01-A05;A18
+F06	A10	EXACT_RELATIONS	EMPTY_SCOPE_UNION	separate exact negative scopes grouped operationally; no one-parent containment theorem	A01-A05;A18
+F07	A01	FIELD_CONFIGURATION_IDENTITY	PARTIAL_FORMAL_MODULES	static, time, and angular modules are separately written but no common field is owned	A08-A11;A13
+F07	A02	GOVERNING_EQUATION_RESPONSE	WHOLE_EQUATION_OPEN	restriction equations exist; a native complete equation does not	A08-A11;A13
+F07	A03	DOMAIN_CHART_COMPLETION	FORMAL_RESTRICTIONS	module domains are formal and a complete finite-cell realization remains open	A08-A11;A13
+F07	A04	BOUNDARY_POSTURE	OPEN	no compatible differentiable physical boundary has been derived	A08-A11;A13
+F07	A05	TANGENT_VARIATION_DOMAIN	UNDEFINED_FOR_REALIZED_SET	no base realization exists on which to define the full tangent space	A08-A11;A13
+F07	A06	CARRIER_TOPOLOGY	NO_COMPLETE_OWNERSHIP	formal angular structure does not select a carrier or topology	A08-A11;A13
+F07	A07	DYNAMICAL_CHARACTER	FORMAL_TIME_LABELS_ONLY	time labels are not physical persistence or a time-live solution	A08-A11;A13
+F07	A08	PREMISE_STACK	COMMON_STACK_PARTIAL	field equation, boundary, tangent domain, and common premise stack remain open	A08-A11;A13
+F07	A09	SOURCE_COMMIT_LINEAGE	LINEAGE_FIXED	stability-foundations and joint-realization audit lineages	A08-A11;A13
+F07	A10	EXACT_RELATIONS	FORMAL_EMBEDDINGS_ONLY	no constructive common nonzero on-shell object is established	A08-A11;A13

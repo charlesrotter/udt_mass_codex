@@ -1,0 +1,1 @@
+PASS ontology verification: families=7 axes=70 pair_axes=210 pairs=28 gates=7 authorities=18 catches=23/23 sources=1608 native=0 promotions=0

@@ -1,0 +1,11 @@
+{
+  "branch_level_premises": 29,
+  "catch_proofs_passed": 14,
+  "catch_proofs_total": 14,
+  "negative_crosswalk_rows": 8,
+  "non_solution_classes": 4,
+  "route": "raw-source field classification plus exact census-pullback and joint-realization anchors",
+  "source_artifacts": 1608,
+  "source_derived_family_classes": 7,
+  "verdict": "PASS"
+}

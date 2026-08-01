@@ -1,0 +1,32 @@
+{
+  "audit": "UDT stability family ontology audit",
+  "authority_count": 18,
+  "axis_cell_count": 70,
+  "conditional_realized_family_count": 3,
+  "conditional_research_program_count": 2,
+  "gpu_runs": 0,
+  "inherited_label_count": 7,
+  "maximum_conclusion": "Within the corrected 1,608-source freeze, the inherited F01-F07 ledger is an operational evidence map, not an exhaustive or disjoint physical solution-family partition. F01 and F02 are separate conditional P4 census families linked only by a formal constant-section pullback while their solution-set relation and physical census choice remain open; F03/F05/F06/F07 are control, structural, empty, and formal evidence classes; F04 is a separate conditional Hopfion model. No native UDT realized stability family or bootstrap-selected matter taxonomy is derived.",
+  "native_realized_family_count": 0,
+  "outcome": "OPERATIONAL_EVIDENCE_MAP_NOT_SOLUTION_PARTITION",
+  "pair_axis_cell_count": 210,
+  "pair_count": 28,
+  "pair_relation_counts": {
+    "CONDITIONAL_ANALOGY_ONLY": 2,
+    "DISJOINT_BY_FIELDS_OR_PREMISES": 1,
+    "FORMAL_EMBEDDING_ONLY": 2,
+    "NO_DERIVED_RELATION": 13,
+    "SELF": 7,
+    "STRUCTURAL_CONSTRAINT_ON": 3
+  },
+  "primary_ontology_counts": {
+    "CONDITIONAL_REALIZED_SOLUTION_FAMILY": 3,
+    "CONTROL_STRATUM": 1,
+    "EXACT_EMPTY_SCOPE": 1,
+    "FORMAL_MODULE_CLASS": 1,
+    "STRUCTURAL_COMPLETION_CLASS": 1
+  },
+  "readiness_promotions": 0,
+  "solves_run": 0,
+  "source_artifact_count": 1608
+}

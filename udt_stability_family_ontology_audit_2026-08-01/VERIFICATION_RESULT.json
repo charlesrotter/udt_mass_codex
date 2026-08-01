@@ -1,0 +1,15 @@
+{
+  "axis_cells": 70,
+  "catch_proofs_passed": 23,
+  "catch_proofs_total": 23,
+  "families": 7,
+  "independent_route": "set-theoretic necessary condition separating solution-bearing from control, structural, empty, and formal classes",
+  "native_realized_families": 0,
+  "pair_axis_cells": 210,
+  "pairs": 28,
+  "partition_gates": 7,
+  "readiness_promotions": 0,
+  "source_artifacts": 1608,
+  "source_authorities": 18,
+  "verdict": "PASS"
+}

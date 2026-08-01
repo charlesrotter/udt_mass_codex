@@ -1,0 +1,1 @@
+PASS source-derived ontology verification: sources=1608 classes=7 nonsolution=4 premises=29 crosswalk=8 catches=14/14
