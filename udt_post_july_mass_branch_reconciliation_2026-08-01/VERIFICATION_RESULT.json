@@ -1,0 +1,9 @@
+{
+  "catch_proofs_passed": 14,
+  "catch_proofs_total": 14,
+  "family_rows": 7,
+  "mechanism_rows": 16,
+  "outcome_checked": "MULTIPLE_CONDITIONAL_MASS_BEARING_ROUTES_RECONCILED__NO_NATIVE_STABLE_MASS",
+  "source_rows": 20,
+  "status": "PASS"
+}

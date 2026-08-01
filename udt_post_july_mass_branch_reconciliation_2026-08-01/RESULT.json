@@ -1,0 +1,19 @@
+{
+  "carrier_conditional_energy_routes": 1,
+  "conditional_realized_family_rows": 3,
+  "control_strata": 1,
+  "exact_empty_scopes": 1,
+  "external_cold_review": "PASS_AFTER_REQUIRED_PRIORITY_WORDING_REPAIR__CLOSED",
+  "family_rows": 7,
+  "formal_module_classes": 1,
+  "geometry_only_candidate_mass_routes": 2,
+  "maximum_conclusion": "VERIFIED_WITH_CAVEATS_BRANCH_AND_MECHANISM_RECONCILIATION_ONLY",
+  "mechanism_rows": 16,
+  "native_realized_stable_families": 0,
+  "new_physics_objects": 0,
+  "newly_selected_mass_definitions": 0,
+  "outcome": "MULTIPLE_CONDITIONAL_MASS_BEARING_ROUTES_RECONCILED__NO_NATIVE_STABLE_MASS",
+  "source_identity_sha256": "ff59b4e4c20b4cca8a5debec501dea0dc6b92265e5d794a15f947b1ed019d578",
+  "source_rows": 20,
+  "structural_completion_classes": 1
+}

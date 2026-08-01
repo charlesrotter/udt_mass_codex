@@ -1,0 +1,15 @@
+catch	result
+missing_family	PASS
+duplicate_family	PASS
+mass_definition_promotion	PASS
+f01_negative_overgeneralization	PASS
+formal_module_promoted_onshell	PASS
+hopfion_carrier_promoted_native	PASS
+integrated_pointwise_conflation	PASS
+unbounded_everything_on	PASS
+completion_class_promoted_family	PASS
+source_mutation	PASS
+stale_f01_positive_slice	PASS
+f02_sector_promoted_full_stability	PASS
+f04_energy_promoted_mass	PASS
+missing_wall_response_nonselection	PASS
