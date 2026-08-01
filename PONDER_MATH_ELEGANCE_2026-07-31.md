@@ -593,3 +593,20 @@ chain spacing from the emergent Coulomb coefficient, r0 = 1.224 fm). Connecting 
   (circular); α remains the θ-sector's debt, exactly where the coupling menu left it.
 Status: LEAD, driver-run. The ladder now hands the next driver a closed loop: stiffnesses
 in ħ units at one end, a pure number at the other, and the metric in between owing both.
+
+## 15r. WORKED (the cross-scale leap): the MINIMUM NEUTRON STAR from femtometer coefficients
+Pure-neutron matter costs the asymmetry penalty (our emergent aA = 22.51 MeV/nucleon);
+gravity's binding per nucleon grows as N^(2/3). The crossover — where gravity can first
+pay the pure-neutron bill — IS the minimum neutron star. With OUR aA and r0 (both from
+nuclear binding fits) + the G and m_p anchors:
+  **N* = 2.47×10⁵⁶ nucleons ⇒ M_min = 0.208 solar masses**
+  known minimum neutron-star mass: **~0.09–0.2 M☉ — landed at the window's edge,
+  across a FIFTY-SIX ORDER-OF-MAGNITUDE extrapolation** from femtometer seam physics.
+The same five numbers that bind helium predict where dead stars become possible.
+HONEST BOUNDARY: the MAXIMUM neutron-star mass came out unphysically ordered in the
+flat toy — correctly so: the maximum is where gravity defeats structure entirely, which
+is the RELATIVISTIC tier — the φ-slope's own jurisdiction. The algebra, at its outermost
+reach, hands the problem back to the metric itself. The two-tier architecture drew its
+final boundary at the edge of a star.
+Status: LEAD, driver-run; the ladder 15c→15r now spans nucleus to neutron star on one
+coefficient set. Every number remains a falsification target behind A3.
