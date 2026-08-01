@@ -1,0 +1,11 @@
+term_id	term	definition	does_not_mean
+D01	complete_metric_configuration	all declared fields charts sectors joins boundaries and moduli for one supplied branch are specified	physically realized unique or on shell
+D02	forward_readout	a map or relation assigning derived local or global data to a supplied configuration	feedback selection or dynamics
+D03	admissibility	membership in a stated nontrivial subset or relation	existence uniqueness persistence or evolution
+D04	existence	at least one member satisfies a stated relation	which member or why it is realized
+D05	selection	a rule distinguishes a proper subset orbit or branch	a readout graph containing every supplied input
+D06	return_operation	a nonidentity relation or map that makes global data constrain complete configurations	the forward recomputation map
+D07	fixed_point	a supplied return and forward map agree under a defined equality or zero	the assertion that agreement ought to occur
+D08	bootstrap_weak	realized configurations are globally and locally mutually admissible	an operational equation
+D09	bootstrap_operational	an observer-natural relation on independently varied complete-configuration and global-data arguments with nontrivial dependence on both and a nonempty proper intersection with Graph(R)	a unique action optimizer solution or theorem of deductive independence
+D10	metric_is_theory	physical structures claimed as UDT must trace to the UDT metric and stated premises	every needed physical law follows from the bare phrase

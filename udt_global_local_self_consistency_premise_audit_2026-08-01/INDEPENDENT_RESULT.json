@@ -1,0 +1,65 @@
+{
+  "checks_passed": 10,
+  "checks_total": 10,
+  "core_outcome_retained": true,
+  "deductive_independence_proved": false,
+  "failed_checks": [],
+  "failed_mutations": [],
+  "failed_source_rulings": [],
+  "gpu_used": false,
+  "logic": {
+    "complete_state_count": 4,
+    "distinct_section_image_count": 4,
+    "finite_admissibility_predicate_count": 16,
+    "nonempty_proper_observer_saturated_relation_count": 2,
+    "observer_orbit_count": 2,
+    "observer_saturated_relation_count": 4,
+    "orbit_count_is_control_local": true,
+    "proper_saturated_relation_sizes": [
+      2,
+      2
+    ],
+    "proper_saturated_relations_disjoint": true,
+    "readout_graph_configuration_survivors": 4,
+    "readout_graph_size": 4,
+    "readout_is_injective": false,
+    "readout_is_surjective": true,
+    "readout_state_count": 2,
+    "right_inverse_section_count": 4,
+    "section_fixed_set_sizes": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "transitive_equivariant_control_nonempty_proper_saturated_count": 0,
+    "transitive_equivariant_control_orbit_count": 1
+  },
+  "m02_graph_relation_encodes_nontrivial_admissibility": true,
+  "m02_graph_relation_encodes_return": false,
+  "m03_independent_xo_mutual_determination_type_passes": true,
+  "mutations_rejected": 15,
+  "mutations_total": 15,
+  "observer_saturation_count_is_control_local": true,
+  "producer_or_primary_verifier_imported": false,
+  "source_bytes_read": 22820225,
+  "source_layers": {
+    "PARENT_1384_SOURCE_UNIVERSE": 1384,
+    "WHOLE_RECIPROCITY_PARENT_PACKAGE": 40
+  },
+  "source_paths_read_and_hashed": 1424,
+  "source_rulings_passed": 12,
+  "source_rulings_total": 12,
+  "source_term_paths": {
+    "bootstrap": 320,
+    "fixed_point": 82,
+    "global_local": 63,
+    "metric_ontology": 86,
+    "mutual": 8,
+    "reciprocity": 461,
+    "return": 31,
+    "self_consistency": 72
+  },
+  "source_utf8_decoded": 1424,
+  "verdict": "PASS"
+}

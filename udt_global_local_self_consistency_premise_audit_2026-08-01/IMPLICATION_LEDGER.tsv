@@ -1,0 +1,13 @@
+implication_id	from_object	to_object	status	reason
+L01	metric_is_theory	native_provenance_requirement	DERIVED_METHOD_RULE	all affirmative UDT physics must trace to the metric and stated premises
+L02	metric_is_theory	global_local_consistency_relation	NONEDGE_NOT_DERIVED	provenance rule supplies no relation formula or subset
+L03	complete_metric_configuration	well_typed_full_domain	DERIVED_REQUIREMENT	completeness requires all active data and joins to be represented
+L04	complete_metric_configuration	physical_selection	NONEDGE_NOT_DERIVED	specification and solution selection are different quantifiers
+L05	forward_readout_R	readout_graph	DERIVED_PARTIAL	each supplied configuration has its derived scoped outputs
+L06	readout_graph	proper_consistency_relation	NONEDGE_EXACT_COUNTERMODEL	graph projects onto every input
+L07	finite_domain	boundary_or_admissibility_law	NONEDGE_NOT_DERIVED	finiteness supplies domain type but no predicate or differentiable boundary functional
+L08	observer_reciprocity	observer_saturation_of_supplied_relation	DERIVED_REQUIREMENT_GIVEN_RELATION	physical admissibility cannot favor an equivalent observer description
+L09	observer_reciprocity	unique_proper_relation	NONEDGE_EXACT_COUNTERMODEL	multiple disjoint saturated relations survive
+L10	weak_bootstrap_language	minimum_relation_type	TYPE_SHARPENED	mutual determination requires independent X and O arguments with nontrivial dependence on both before graph closure
+L11	minimum_relation_type	relation_definition	OPEN_NOT_DERIVED_IN_FROZEN_RECORD	current source record does not choose membership
+L12	proper_relation	action_dynamics_uniqueness	NONEDGE_STRONGER_STRUCTURE	admissibility need not be variational dynamic or unique

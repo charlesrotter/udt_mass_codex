@@ -1,0 +1,13 @@
+candidate_id	status	basis	ruling
+I01	NOT_DERIVED_ONTOLOGY_IS_TRACE_RULE	A01;A02;A11;D10	metric ownership rejects imports but supplies no nonidentity consistency relation
+I02	COMPLETE_SPECIFICATION_NOT_PHYSICAL_SELECTION	A03;A07;A10;D01-D05	a complete problem or field record can have zero one or many realized solutions
+I03	DERIVED_PARTIAL_READOUT_NO_SELECTED_SECTION	A05-A08;A12;finite restriction control	same readout admits multiple sections and return relations
+I04	GRAPH_IS_NONSELECTION_EXACT	A05;A12;graph control	the readout graph projects onto every supplied configuration
+I05	FINITE_DOMAIN_NOT_BOUNDARY_OR_RETURN	A08;A14;finite predicate control	finiteness supplies no preferred admissibility predicate or differentiable boundary law
+I06	NATURALITY_GATE_NOT_LAW_GENERATOR	A13;observer-orbit relation control	Reciprocity requires observer-saturated closure but permits inequivalent closures
+I07	PAIRING_SCOPED_NO_WHOLE_RELATION	A13;parent dual-pair control	the founded clock-ruler pairing supplies neither full response pairing nor selected level
+I08	OPEN_NO_SELECTED_VARIATIONAL_RULE	A03;A11;A15	action variation and boundary completion remain possible stronger realizations only
+I09	CONDITIONAL_STABILITY_IS_DOWNSTREAM	A09;A10;A15	persistence needs a supplied solution law topology or update and cannot create them
+I10	CALIBRATION_OR_DISCRIMINATION_NOT_DERIVATION	A01;A05;A07	observed anchors can calibrate or reject candidate closures but do not define one
+I11	WORKING_SEMANTIC_POSIT_OPERATIONALLY_INCOMPLETE	A01;A05;A06;A09;D08-D09	mutual tuning is coherent owner-guided architecture; operation requires a relation on independent X and O with both-argument dependence whose membership is absent
+I12	NO_OTHER_COMPLETE_ROUTE_IN_FROZEN_UNIVERSE	A01-A16;1424-source census	no current source passes all seven preregistered derivation gates

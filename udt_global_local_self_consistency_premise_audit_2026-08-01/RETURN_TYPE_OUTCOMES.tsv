@@ -1,0 +1,9 @@
+type_id	status	relative_strength	ruling
+T01	NOT_DERIVED_MULTIPLE_SECTIONS	STRONGER_THAN_RELATION	the forward readout does not select a right inverse
+T02	NOT_DERIVED_READOUT_NONINJECTIVE	STRONGER_THAN_RELATION	current partial readouts do not reconstruct a unique complete configuration
+T03	OPEN_STRONGER_REALIZATION	STRONGER_THAN_RELATION	fixed-point operator requires a selected endomorphism and equality
+T04	OPEN_REQUIRES_ACTION_AND_BOUNDARY	STRONGER_THAN_RELATION	no native variational Euler map is selected
+T05	OPEN_REQUIRES_BOUNDARY_EXTENSION_LAW	STRONGER_THAN_RELATION	finite-cell types do not choose bulk extension
+T06	OPEN_REQUIRES_OBSERVABLE_RESPONSE_PAIRING	STRONGER_THAN_RELATION	global geometric vocabulary does not select a physical response
+T07	MINIMUM_ADDITIONAL_LOGICAL_TYPE_NOT_DERIVED	MINIMAL_OPERATIONAL_MUTUAL_DETERMINATION_TYPE	an observer-natural relation on independent X and O with nontrivial dependence on both and nonempty proper Graph(R) intersection expresses mutual admissibility without assuming action dynamics or uniqueness
+T08	OPEN_STRONGER_SELECTION_SEMANTICS	STRONGER_THAN_RELATION	set-valued probability measure or ranking requires further physical semantics

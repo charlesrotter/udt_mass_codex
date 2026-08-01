@@ -1,0 +1,8 @@
+countermodel_id	tempting_implication	exact_witness	ruling
+C01	complete readout implies inverse	R fibers each have size 2; four right inverses exist	REFUTES_IMPLICATION
+C02	readout graph selects X	Graph(R) projects onto all four complete states	REFUTES_IMPLICATION
+C03	finite domain selects admissibility	four-state domain admits 16 Boolean predicates	REFUTES_IMPLICATION
+C04	Reciprocity selects one closure	two disjoint nonempty proper observer-saturated subrelations	REFUTES_IMPLICATION
+C05	existence selects realized branch	both disjoint proper closures are nonempty	REFUTES_IMPLICATION
+C06	section existence selects fixed-point law	four sections yield four distinct two-state fixed sets	REFUTES_IMPLICATION
+C07	Reciprocity guarantees a nonempty proper saturated closure	a transitive observer action has one orbit and zero nonempty proper saturated subsets	REFUTES_IMPLICATION_AND_SCOPES_CHOSEN_TWO_ORBIT_CONTROL

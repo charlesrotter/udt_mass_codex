@@ -1,0 +1,50 @@
+{
+  "complete_state_count": 4,
+  "conclusions": [
+    "a complete forward readout graph retains every supplied configuration",
+    "the same readout admits multiple sections and fixed sets",
+    "finiteness does not select an admissibility predicate",
+    "the chosen two-orbit observer action permits multiple disjoint proper saturated graph subrelations but does not model the complete UDT observer action",
+    "a subrelation of Graph(R) is only an X-admissibility predicate and does not make O load-bearing",
+    "mutual determination minimally requires an observer-natural relation on independent X and O with nontrivial dependence on both before imposing O=R(X)",
+    "the current frozen record supplies the type skeleton but no membership rule"
+  ],
+  "distinct_section_image_count": 4,
+  "finite_admissibility_predicate_count": 16,
+  "graph_subrelation_equivalent_to_X_predicate": true,
+  "nonempty_proper_observer_saturated_relation_count": 2,
+  "observer_orbit_count": 2,
+  "observer_saturated_relation_count": 4,
+  "operational_graph_intersection_sizes": [
+    2,
+    2
+  ],
+  "operational_independent_product_size": 8,
+  "operational_relation_count_tested": 2,
+  "operational_relations_depend_on_O": true,
+  "operational_relations_depend_on_X": true,
+  "proper_saturated_relation_sizes": [
+    2,
+    2
+  ],
+  "proper_saturated_relations_disjoint": true,
+  "readout_fiber_sizes": {
+    "0": 2,
+    "1": 2
+  },
+  "readout_graph_configuration_survivors": 4,
+  "readout_graph_size": 4,
+  "readout_is_injective": false,
+  "readout_is_surjective": true,
+  "readout_state_count": 2,
+  "right_inverse_section_count": 4,
+  "scope": "finite implication controls only; no candidate UDT closure law",
+  "section_fixed_set_sizes": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "transitive_control_nonempty_proper_saturated_relation_count": 0,
+  "transitive_control_observer_orbit_count": 1
+}

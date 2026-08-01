@@ -1,0 +1,18 @@
+{
+  "bootstrap_adopted_by_audit": false,
+  "candidate_formula_constructed": false,
+  "deductive_independence_proved": false,
+  "frozen_record_derivation_found": false,
+  "future_same_premise_metric_theorem_excluded": false,
+  "gpu_used": false,
+  "interpretations": 12,
+  "interpretations_passing_derived_mutual_determination": 0,
+  "minimum_extra_logical_type": "OBSERVER_NATURAL_RELATION_ON_INDEPENDENT_X_TIMES_O_WITH_NONTRIVIAL_DEPENDENCE_ON_BOTH_AND_NONEMPTY_PROPER_GRAPH_INTERSECTION",
+  "minimum_type_derived": false,
+  "outcome": "BOOTSTRAP_IS_DISTINCT_POSIT",
+  "premises": 18,
+  "return_types": 8,
+  "solve_authorized": false,
+  "source_anchors": 16,
+  "source_paths_verified": 1424
+}

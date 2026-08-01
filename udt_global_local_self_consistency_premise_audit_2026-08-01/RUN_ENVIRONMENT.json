@@ -1,0 +1,9 @@
+{
+  "base": "9d17940c5ab490b281b7818b46918ed378c96bf1",
+  "branch": "codex/global-local-self-consistency-premise-audit-2026-08-01",
+  "kernel": "Linux 6.8.0-124-generic x86_64",
+  "mode": "CPU-only exact finite logic and source-led premise audit",
+  "network_used_for_science": false,
+  "python": "3.10.12",
+  "pytest": "9.1.1"
+}
