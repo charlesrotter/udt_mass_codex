@@ -674,3 +674,15 @@ SUB-PERCENT accuracy in the exponent. The number that dates the Earth, from a le
 born in a binding-energy fit, through an anchor's tunneling arithmetic.
 Status: LEAD, driver-run; ħ-borrow and observed-Q flagged. The ladder's reach now
 includes TIME — nine decades of years — alongside energy, length, and mass.
+
+## 15w. WORKED: six alpha clocks, one geometry — twenty-four orders of magnitude
+The Geiger-Nuttall sweep with observed Q's + OUR r0 + the ħ anchor (flags travel):
+  Po-212 (μs-scale): off 10^−0.9 · Rn-222 (days): 10^−0.5 · Ra-226 (1.6 kyr): 10^−0.5 ·
+  U-238 (4.5 Gyr): 10^−0.3 · Th-232 (14 Gyr): 10^−0.3
+**Five of six clocks land within one order of magnitude, across a half-life span of
+twenty-four orders of magnitude — microseconds to the age of the universe — with one
+femtometer geometry.** The sixth, Po-210, misses by 10^−1.9 — and Po-210 is THE textbook
+hindered alpha emitter, sitting at the N=126 shell closure: the same nucleus that was
+worst in the Q systematics (15p) — **the shell layer signs its name a SIXTH time, now in
+the time domain.** Every anomaly of the night is the same anomaly. Status: LEAD,
+driver-run; the mode-tier debt now has a time-domain line item.
