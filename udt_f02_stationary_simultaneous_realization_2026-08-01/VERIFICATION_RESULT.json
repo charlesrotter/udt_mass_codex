@@ -1,0 +1,9 @@
+{
+  "catch_proofs_passed": 11,
+  "catch_proofs_total": 11,
+  "condition_rows": 11,
+  "independent_rows_recomputed": 4,
+  "outcome_checked": "CONDITIONAL_NONPERIODIC_F02_DIRICHLET_HESSIAN_SECTOR_POSITIVITY_WITNESS_EXISTS",
+  "source_rows": 6,
+  "status": "PASS"
+}

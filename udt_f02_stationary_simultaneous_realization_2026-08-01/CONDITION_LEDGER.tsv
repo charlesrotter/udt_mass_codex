@@ -1,0 +1,12 @@
+condition_id	condition	status	witness_or_scope	source_anchor
+C01	P1_4D_FIELDS_CENSUS	CONDITIONAL	a_F=2lambda; lambda=0 emerges on E0!=0 landing	gradient-seat:176-206
+C02	GENERIC_AFFINE_ATLAS	SATISFIED	g_p=1; Delta_G=1	gradient-seat:176-206
+C03	NONZERO_AFFINE_SLOPE	SATISFIED	f=x/2; h=0; E0=1/8	gradient-seat:199-212
+C04	FULL_LOCKED_ROW	SATISFIED	quadratic lambda-jet content vanishes at locked background	gradient-seat:129-146,213-230
+C05	SUPPLIED_WALL_DATA	CONDITIONAL_FREE	open endpoints leave the f slope free	gradient-seat:207-212
+C06	COMPLETION	CONDITIONAL_ACYCLIC	open/acyclic branch has no cycle and leaves F02 untouched	period-gate:42-47,209-214
+C07	R_A_FOLD_PREMISE	NOT_ASSUMED_OPEN	R-A would impose definite parities and collapse E0; no fold is selected	angular-completion:50-56,80-92
+C08	JET_SECTOR	SATISFIED	g_p=c_m=ell=1; 64E0^2ell^4=1<=pi^4	stability-slice:113-131
+C09	PHYSICAL_COMPLETION	OPEN	p=0 seal-valued background has no derived canon/physical completion	gradient-seat:199-206
+C10	MASS_STATUS	CANDIDATE_ONLY	three readings=1/4; wall reading=0; none physical	gradient-seat report mass table
+C11	TIME_AND_FULL_STABILITY	OPEN	stationary Dirichlet jet sector only	stability-slice:123-131

@@ -1,0 +1,12 @@
+catch	result
+missing_condition	PASS
+duplicate_condition	PASS
+source_mutation	PASS
+mass_promotion	PASS
+stability_promotion	PASS
+response_promotion	PASS
+wall_mass_conflation	PASS
+physical_completion_promotion	PASS
+fold_premise_smuggle	PASS
+inherited_as_adjudicated	PASS
+stationary_global_promotion	PASS

@@ -1,0 +1,69 @@
+{
+  "candidate_mass_density_coordinate": "1/4",
+  "candidate_mass_density_proper": "1/4",
+  "candidate_mass_gen": "1/4",
+  "candidate_mass_wall": "0",
+  "checks": [
+    {
+      "detail": "p=0, lambda=0, and affine f/h solve all four Euler rows including the jet-quadratic term",
+      "name": "D01_full_background_rows",
+      "result": "PASS"
+    },
+    {
+      "detail": "the landed constant density is E0=(g_f a^2+2g_xab+g_hb^2)/2",
+      "name": "D02_energy_reading",
+      "result": "PASS"
+    },
+    {
+      "detail": "the exact witness has g_p=1 and Delta_G=1, inside the generic positive-definite class",
+      "name": "D03_generic_nondegeneracy",
+      "result": "PASS"
+    },
+    {
+      "detail": "f=x/2, h=0 gives the exact nonzero candidate density E0=1/8",
+      "name": "D04_nonzero_landing",
+      "result": "PASS"
+    },
+    {
+      "detail": "c_m lambda'^2/2 is quadratic at the lock and the complete lambda Euler row vanishes",
+      "name": "D05_full_locked_row_with_jet_term",
+      "result": "PASS"
+    },
+    {
+      "detail": "the full landed Hessian is the angular positive block plus the exact p/lambda jet block",
+      "name": "D06_complete_joint_second_variation",
+      "result": "PASS"
+    },
+    {
+      "detail": "the p/lambda mode determinant reproduces the banked exact dichotomy",
+      "name": "D07_mode_determinant",
+      "result": "PASS"
+    },
+    {
+      "detail": "at ell=1 the exact condition is 1<=pi^4, strictly satisfied",
+      "name": "D08_sector_threshold_witness",
+      "result": "PASS"
+    },
+    {
+      "detail": "the affine witness belongs only to the open/acyclic branch; a one-cell cyclic identification would cut it",
+      "name": "D09_completion_branch_discrimination",
+      "result": "PASS"
+    },
+    {
+      "detail": "M_GEN=M_DENS_coord=M_DENS_proper=1/4 while the inherited M_WALL reading remains 0",
+      "name": "D10_candidate_mass_readings",
+      "result": "PASS"
+    }
+  ],
+  "completion": "OPEN_ACYCLIC_CONDITIONAL__NO_PHYSICAL_COMPLETION_CLAIM",
+  "e0": "1/8",
+  "external_cold_review": "PASS_AFTER_REQUIRED_SCOPE_NARROWING__CLOSED",
+  "jet_sector": "STRICTLY_INSIDE_NONNEGATIVE_REGION",
+  "native_mass": false,
+  "native_stability": false,
+  "outcome": "CONDITIONAL_NONPERIODIC_F02_DIRICHLET_HESSIAN_SECTOR_POSITIVITY_WITNESS_EXISTS",
+  "selected_response": false,
+  "sympy_version": "1.13.1",
+  "threshold_residual": "pi**4 - 1",
+  "time_live": false
+}

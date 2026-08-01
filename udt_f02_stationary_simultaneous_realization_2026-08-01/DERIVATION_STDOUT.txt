@@ -1,0 +1,11 @@
+[PASS] D01_full_background_rows: p=0, lambda=0, and affine f/h solve all four Euler rows including the jet-quadratic term
+[PASS] D02_energy_reading: the landed constant density is E0=(g_f a^2+2g_xab+g_hb^2)/2
+[PASS] D03_generic_nondegeneracy: the exact witness has g_p=1 and Delta_G=1, inside the generic positive-definite class
+[PASS] D04_nonzero_landing: f=x/2, h=0 gives the exact nonzero candidate density E0=1/8
+[PASS] D05_full_locked_row_with_jet_term: c_m lambda'^2/2 is quadratic at the lock and the complete lambda Euler row vanishes
+[PASS] D06_complete_joint_second_variation: the full landed Hessian is the angular positive block plus the exact p/lambda jet block
+[PASS] D07_mode_determinant: the p/lambda mode determinant reproduces the banked exact dichotomy
+[PASS] D08_sector_threshold_witness: at ell=1 the exact condition is 1<=pi^4, strictly satisfied
+[PASS] D09_completion_branch_discrimination: the affine witness belongs only to the open/acyclic branch; a one-cell cyclic identification would cut it
+[PASS] D10_candidate_mass_readings: M_GEN=M_DENS_coord=M_DENS_proper=1/4 while the inherited M_WALL reading remains 0
+PASS checks=10 outcome=CONDITIONAL_NONPERIODIC_F02_DIRICHLET_HESSIAN_SECTOR_POSITIVITY_WITNESS_EXISTS
