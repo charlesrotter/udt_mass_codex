@@ -1,0 +1,11 @@
+{
+  "base": "686336343878e8a9e39a4b72df08d23754243631",
+  "parent_package_files": 32,
+  "parent_source_files": 140,
+  "premise_rows": 20,
+  "route_rows": 14,
+  "source_inventory_sha256": "d1115314bdf8109a9ac889ef0ee6e50f95969722f72073ff450b27ee81afe9f9",
+  "source_manifest_sha256": "c5aed81834196c3cb74ec25437158bfeb31123520f19ce50aa208327ca61fc48",
+  "source_paths_sha256": "dad67c4a23a46e497ff499c45bff6fc321d0f54611f9ef8032bf924ed3d7a3be",
+  "source_union": 172
+}
