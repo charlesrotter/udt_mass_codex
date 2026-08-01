@@ -9,13 +9,13 @@ P4-arc running record) and `archive/LIVE_historical_frontier_through_2026-07-08.
 is lean; older session detail is in `HANDOFF_ARCHIVE.md`. The P4 package index: `P4_ARC_SUMMARY_2026-07-31.md`.
 **If anything disagrees with this file's topmost CURRENT STATE block, that block wins.**
 
-## ============ CURRENT STATE (2026-08-01 — P4 RESPONSE ARC BANKED THROUGH ANGULAR STAGE A2; A3 IS NEXT BUT REQUIRES A FRESH EXPLICIT GO; STARTUP NAVIGATION RECONCILED) ============
+## ============ CURRENT STATE (2026-08-01 — P4 RESPONSE ARC BANKED THROUGH ANGULAR STAGE A3; VERIFIED-WITH-CAVEATS; COLD REVIEW RECOMMENDED BUT NOT AUTHORIZED) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` →
 `CURRENT_SCIENTIFIC_PREMISES.tsv` → `P4_ARC_SUMMARY_2026-07-31.md` →
-`ROADMAP_LINEAR_TIME_2026-07-31.md` → `INFLIGHT_STATE.md` → the frozen A3 preregistration.
+`ROADMAP_LINEAR_TIME_2026-07-31.md` → `INFLIGHT_STATE.md` → the A3 audit report.
 
-**THE ARC:** the P4 response-framework program (2026-07-28 → 07-31) is BANKED — 28 indexed packages,
+**THE ARC:** the P4 response-framework program (2026-07-28 → 08-01) is BANKED — 29 indexed packages,
 every one blind-adversarially verified. **THE NAVIGABLE INDEX = `P4_ARC_SUMMARY_2026-07-31.md`** (its tail = the zero-context GLOSSARY)
 (package × commit × verdict ledger + standing rulings + open questions + operational rules —
 READ IT after the current HANDOFF and premise registry). Headlines: the inverse problem posed and pointwise-
@@ -107,12 +107,18 @@ deferrable past the pointwise layer); ℛ_PW^T EMBEDS EXACTLY at mode zero; the 
 identity EXTENDS VERBATIM (verifier's own elimination — the m-sector adds no cut); ℛ_PW^A
 MODE-UNIFORM (no per-mode kill); NEW conditional decision seat P3b (the granted-mirror
 layer reaches mode zero, cuts R_f=Q where granted — grant-stamped, not adopted); C-1/C-2
-EXACT. ON CHARLES'S DESK: **the Stage A3 go — THE LINE-BRANCH INTEGER TEST** (the winding
-census with the angles playing: do the banked capped/torsion kills survive angular
-field-dependence, or do live winding seats open — native, no θ; on the certified massive
-carriers explicitly; maximum anti-targeting, integer findings PROVISIONAL; the T3-pattern
-contract). `INFLIGHT_STATE.md` = the live model-handoff ledger. **SESSION-CLOSE PONDER DOCS (banked
-2026-07-31, ON THE AGENDA after A3 — read as imagination-fuel + candidate future tiles,
+EXACT. **STAGE A3 BANKED (e379098; blind PASS-WITH-REQUIRED-AMENDMENTS → all four amendments
+implemented → SAME-verifier CLOSED-PASS 30/30; VERIFIED-WITH-CAVEATS; OB3-3 MIXED-BY-KIND):
+THE ANGULAR-LIVE WINDING CENSUS CLOSES ACROSS TORUS → FULL REGISTERED TWO-CAP S3 → ALL SMOOTH
+DETAIL.** Exact discrete data survive as mode labels, torus/mirror/m/h presentation or character
+data, and fixed Hopf/base architecture (`c1=-1`, canonical Hopf representative `-1`, Euler `2`);
+the owned compact fiber also carries continuous shear-invariant holonomy. None is a
+solution-dependent native field winding. No condition cuts `E0`, `ell`, `k_mod`, `k10`, `C`, or
+response moduli on either conditional massive carrier. The carrier-to-two-cap-S3 joins and
+nonzero angular-live on-shell coexistence remain OPEN; singular/distributional fields and exotic
+non-Hopf completions remain outside the bounded theorem. No θ, carrier, completion, response law,
+action, source, spectrum, mass, or physics was adopted. `INFLIGHT_STATE.md` = the live
+model-handoff ledger. **SESSION-CLOSE PONDER DOCS (banked 2026-07-31, read as imagination-fuel + candidate future tiles,
 never as premises): (1) `PONDER_100KLY_VIEW_2026-07-31.md`** — the grand weave (disjointness-
 as-FEATURE: windings quantize the massless/radiative sector, mass discretizes by stability;
 EM = the unspent circle; SPARC/SNe/BAO/CMB as φ-space strands); **(2)
@@ -123,16 +129,16 @@ area law; the dichotomy rewritten M·ℓ ≤ (π²/4)√(g_p·c_m) — uncertain
 rules; the solvable slack tower; §7 = Charles's taxonomized-stability spectrum picture:
 species = discrete labels × stable basin, ratios = the payoff); **(3) the roadmap's
 law-adoption CLARIFICATION** (derivation first, observation second, preference never).
-A3 STILL FIRST; these queue behind it for pondering/tile-drafting with Charles. **(4) `SCOPING_MAP_seam_constants_from_metric_2026-07-31.md`** — the bounded 'is the nuclear reframe a curve fit?' test: it reduces to ONE banked relation (a_F = 2λ) and ONE question (which pairing branch the certified massive chain occupies, what λ there); three pre-committed outcomes (predicts-a_F / kills-the-identification / punts-to-A3); provenance sort included (Bin A banked / Bin B textbook / Bin C conditional). PARKED behind A3 (Charles withdrew 'set A3 aside' 2026-07-31); sequencing his call. BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
+These remain queued for later pondering/tile-drafting with Charles. **(4) `SCOPING_MAP_seam_constants_from_metric_2026-07-31.md`** — the bounded 'is the nuclear reframe a curve fit?' test: it reduces to ONE banked relation (a_F = 2λ) and ONE question (which pairing branch the certified massive chain occupies, what λ there); three pre-committed outcomes (predicts-a_F / kills-the-identification / punts-to-A3); provenance sort included (Bin A banked / Bin B textbook / Bin C conditional). It remains PARKED pending a later ruling. BEHIND THE COLD REVIEW GATE (the desk, in order): the posture question; the census ruling; the G18 re-grade;
 the R1 menu; the queued tiles (resonance census = verifier-required precondition;
 index-exactly-1 numeric; hopfion-bridge at driver discretion; the named unrun seats incl.
 the cycle+pin completion — the only named spatial road to marrying integers and mass).
 
-**RECOMMENDED QUALITY CHECKPOINT — NOT YET LAUNCHED:** after A3 is banked and its ordinary
-blind/same-verifier closure is complete, run the clean-context review described in
+**RECOMMENDED QUALITY CHECKPOINT — NOT YET LAUNCHED:** A3 and its ordinary blind/same-verifier
+closure are complete. The next recommended gate is the clean-context review described in
 `P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` before T4 or any physical adoption. This is
-a review/regrade gate, not permission to launch A3, derive new physics, or replace the in-package
-verifiers.
+a review/regrade gate, not permission to derive new physics or replace the in-package verifiers.
+It requires Charles's explicit go.
 
 **AUTHORITY BOUNDARY:** nothing launches without Charles's go. Still closed: adopting any
 action/response/field as physics, crowning any candidate, settling the census by anything but

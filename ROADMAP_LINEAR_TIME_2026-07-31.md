@@ -19,19 +19,25 @@ constructions to him — check canon origin dates; his owned kernel is exactly: 
 universe with time flowing, x_max = max distance between two observers, likely finite total
 mass-energy).
 
+**PROGRESS OVERLAY (2026-08-01): STEP 1 COMPLETE.** The angular MAP and A1–A3 are banked.
+A3 found fixed mode/presentation/Hopf/base integers and continuous fiber holonomy, but no
+solution-dependent native integer or mass/modulus cut on either conditional massive carrier.
+The two-cap-`S3` completion joins and angular-live on-shell coexistence remain OPEN. The next
+recommended gate is the separate cold review below; it is not authorized automatically.
+
 **WHERE THE PHYSICS STANDS (one paragraph, lay).** The theory's permitted-law space is
 derived and tightly structured; two conditional massive candidates survive with exact
 survival conditions; mass provably forces spatial heterogeneity AND non-uniform ticking in
 time; integers require a circle-valued structure — on looped time they marry the massive
-carriers at the label level (banked, conditional, deprioritized by this ruling); on LINEAR
-time no integers exist YET, but that verdict was reached with the ANGULAR sector muted, and
-the angular sector is where the theory's native circles live. The lock-reading fork (drift =
+carriers at the label level (banked, conditional, deprioritized by this ruling). On LINEAR
+time, A3's full smooth angular census found fixed architectural integers and continuous holonomy,
+but no solution-dependent native integer that cuts either massive carrier. The lock-reading fork (drift =
 real DOF vs bookkeeping) is proven pointwise-shape-neutral, undecided, deferrable to the
 integration layer.
 
 ## THE MAP (in order; each step gated by Charles's go; contract shapes named)
 
-### STEP 1 — THE ANGULAR UNMUTING (the next first chair)
+### STEP 1 — THE ANGULAR UNMUTING (**COMPLETE through A3**)
 The largest remaining silence, and the home of Charles's standing φ-angular hunch (the
 program's prime suspect for discreteness since 2026-06-10). Everything to date has fields
 varying along ONE spatial direction (+ time); the angles (sphere structure, toric angles,
@@ -58,8 +64,8 @@ sector is the ONE native place integers/discretization could still arise.
 - NOTE: angular-live × time-live compose (full 4D). The MAP must type the composition;
   likely A-stages run time-live-line (t-dependence on, no time cycles) so nothing is
   re-frozen.
-- **POST-A3 QUALITY GATE (recommended 2026-08-01; not launched):** after A3's normal blind
-  verification and same-verifier closure, run the clean-context audit specified in
+- **POST-A3 QUALITY GATE (recommended 2026-08-01; not launched):** with A3's normal blind
+  verification and same-verifier closure complete, the clean-context audit specified in
   `P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` before T4 or any physical adoption.
   This regrades the accumulated P4 chain; it does not repeat A3 or authorize further work.
 

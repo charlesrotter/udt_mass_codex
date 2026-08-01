@@ -2,7 +2,7 @@
 
 THE navigable index of the P4 arc: every package, its commit, its one-line verdict, and the
 standing rulings. Written 2026-07-31 at the arc's pause point (consolidation for AI handoff).
-Navigation refreshed 2026-08-01 through A2; the package ledger and verdicts are unchanged.
+Navigation refreshed 2026-08-01 through A3.
 Detail lives in each package directory (standard shape: PREREGISTRATION.md, derive_*.py,
 ledger TSV, EXACT_DERIVATION.md, decision-surface doc, AUDIT_REPORT.md, VERIFIER_REPORT.md +
 preserved independent script). Every package below was blind-adversarially verified before
@@ -16,9 +16,9 @@ actions. The arc posed that problem whole, solved its pointwise layer exactly, d
 wall/seam/closure structure, ran the period/integer machinery, pruned the massive
 candidates through stability, opened the integer doorway (a registered circle-valued
 field), and derived that field's lawful coupling menu. The later unmuting program banked
-time-live T1–T3 and angular-live A1–A2. A3 is preregistered as the staged linear-time native
-angular winding census and awaits an explicit current-session go. Nothing was adopted as physics
-anywhere in the arc; everything is premise-stamped map fact.
+time-live T1–T3 and angular-live A1–A3. A3's staged linear-time native angular winding census found
+fixed architecture and continuous holonomy but no solution-dependent native mass cut. Nothing was
+adopted as physics anywhere in the arc; everything is premise-stamped map fact.
 
 ## Package ledger (chronological; commit = the bank)
 
@@ -52,6 +52,7 @@ anywhere in the arc; everything is premise-stamped map fact.
 | 25 | `udt_p4_angular_map_2026-07-31/` | 1ab4884 | ANGULAR MAP (cleared: torus-first): no banked kill covers angular field-dependence; ledger A-L1..A-L9; A3 = the line-branch integer test. |
 | 26 | `udt_p4_angular_stage_A1_2026-07-31/` | 2fd4af3 | STAGE A1 (angular-live posing, OA1-1): metric opened natively (mix rows permitted, non-KK); K₄ survives; residual symmetry whole (ζ-layer verifier-found; AM-D tower form); THE SPATIAL-READING FORK (mix rows irreducible vs removable — both carried); R1-R15 0 breaks; C-1/C-2 exact; 17 registry flags. |
 | 27 | `udt_p4_angular_stage_A2_2026-07-31/` | b85bea6 | STAGE A2 (angular-live pointwise, OA2-1): φ-forcing mode-uniform; both R_m slots survive as physical content; reading-independence angular analog DERIVED; ℛ_PW^T embeds exactly at mode zero; identity verbatim (m-sector adds no cut); ℛ_PW^A mode-uniform; P3b conditional seat; C-1/C-2 exact. |
+| 28 | `udt_p4_angular_stage_A3_2026-07-31/` | e379098 | STAGE A3 (OB3-3 MIXED-BY-KIND; VERIFIED-WITH-CAVEATS): 126-row torus→full-S3→all-smooth-detail census; fixed mode/presentation/Hopf/base integers and continuous fiber holonomy survive, but no solution-dependent native integer cuts either conditional massive carrier; completion joins and angular-live on-shell coexistence remain OPEN. |
 
 ## Standing rulings (Charles, binding)
 
@@ -77,8 +78,8 @@ anywhere in the arc; everything is premise-stamped map fact.
    (THE forward map, written for the next driver): Step 1 the ANGULAR UNMUTING (MAP → A1 →
    A2 → A3 = the line-branch integer test); Step 2 T4-linear dynamics; Steps 3-5 standing
    decisions/tiles/chairs. Loop-branch results stay banked/conditional (marriage rows
-   PROVISIONAL+IF-ADOPTED; twisted seat named). The angular MAP, A1, and A2 are now banked;
-   next action is A3 on a fresh explicit go. [T1+T2+T3+A1+A2 all BANKED 2026-07-31.]
+   PROVISIONAL+IF-ADOPTED; twisted seat named). The angular MAP and A1–A3 are now banked.
+   The next recommended gate is the separate clean-context P4 review; it needs a fresh explicit go.
 2. The posture question (quotient/two-sided/open; per-cell-type mixed chains typing-supported).
 3. The census ruling (constants vs fields — certified free; behind the posture).
 4. The G18 re-grade proposal (closure = posture ∧ Branch-G ∧ germ data).
@@ -91,10 +92,10 @@ anywhere in the arc; everything is premise-stamped map fact.
 
 ## Recommended post-A3 cold review (quality gate; not launched)
 
-After A3 and its ordinary blind/same-verifier closure, run the independent clean-context audit in
+With A3 and its ordinary blind/same-verifier closure complete, the independent clean-context audit in
 `P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` before T4 or any physical adoption. Its job
 is to regrade the load-bearing P4 chain, not to derive a new mechanism or amplify a promising
-interpretation. It does not authorize A3.
+interpretation. This recommendation does not authorize the review.
 
 ## Operational rules in force (P4-era, standing)
 

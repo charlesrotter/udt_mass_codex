@@ -32,16 +32,15 @@ after the user's actual task makes them load-bearing.
 3. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`. This is the current
    source-precedence index for high-risk foundational terms. It is not canon and cannot overrule
    `LIVE.md`; any disagreement between it, `LIVE.md`, and its cited source is a mandatory stop.
-4. `P4_ARC_SUMMARY_2026-07-31.md` — **the current scientific frontier**: 28 indexed P4 packages
-   through time-live T1–T3 and angular-live A1–A2, with commit × verdict, standing owner rulings,
+4. `P4_ARC_SUMMARY_2026-07-31.md` — **the current scientific frontier**: 29 indexed P4 packages
+   through time-live T1–T3 and angular-live A1–A3, with commit × verdict, standing owner rulings,
    open questions, and P4-era operational rules. Then read `ROADMAP_LINEAR_TIME_2026-07-31.md`,
-   `INFLIGHT_STATE.md`, and `udt_p4_angular_stage_A3_2026-07-31/PREREGISTRATION.md`. A3 is the
-   next staged census (`alpha` torus → `beta` full `S3` → `gamma` fine detail), but the frozen
-   contract still requires Charles's explicit current-session `A3 go`; nothing launches from
-   startup orientation. Read individual `udt_p4_*` packages only when their exact result becomes
+   `INFLIGHT_STATE.md`, and `udt_p4_angular_stage_A3_2026-07-31/AUDIT_REPORT.md`. A3 is complete
+   and `VERIFIED-WITH-CAVEATS`; its exact result and correction layer are in that package. Read
+   individual `udt_p4_*` packages only when their exact result becomes
    load-bearing (each is self-contained: PREREGISTRATION → derivation → ledger → verifier record).
-   `P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` records a recommended clean-context
-   post-A3 review gate; it is not authorization and does not replace ordinary package verification.
+   `P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` records the recommended next
+   clean-context review gate; it is not authorization and does not replace package verification.
 5. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay (pre-P4 overlay;
    historical context only).
 6. PRE-P4 (2026-07-28 morning, superseded as frontier — read only when load-bearing):
@@ -124,9 +123,10 @@ The bootstrap/stable-matter interpretation remains a working hypothesis. The cur
 derived a nonempty stratified response-law space and carried it through time-live and angular-live
 pointwise layers without selecting one physical law. Its massive families, stability pruners,
 integer/noninteger results, and θ consequences retain their complete conditional premise stacks.
-A3 is a native angular winding census, not a particle or quantization hunt; a barren result is
-first-class. After A3, a genuinely cold clean-context audit of the load-bearing P4 chain is
-recommended before T4 or any adoption.
+A3's native angular winding census is complete: fixed architecture and continuous holonomy survive,
+but no solution-dependent native integer cuts either conditional massive carrier. The completion
+joins and on-shell coexistence remain open. A genuinely cold clean-context audit of the load-bearing
+P4 chain is recommended next, before T4 or any adoption; it requires Charles's explicit go.
 
 The pre-P4
 higher-isometry audit refutes universal unique reciprocal-plane ownership within its bounded

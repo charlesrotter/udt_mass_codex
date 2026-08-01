@@ -7,19 +7,19 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-08-01).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-08-01 — P4 banked through A2; A3 is the gated next stage)
+## CURRENT (2026-08-01 — P4 banked through A3; cold review recommended but not authorized)
 
 **Entry path for a fresh AI (bounded, in order):**
 1. `LIVE.md` topmost block — the frontier + next action (wins every disagreement).
-2. `P4_ARC_SUMMARY_2026-07-31.md` — all 28 indexed packages through A2, with commits,
+2. `P4_ARC_SUMMARY_2026-07-31.md` — all 29 indexed packages through A3, with commits,
    verdicts, standing rulings, open questions, and operational rules.
 3. `ROADMAP_LINEAR_TIME_2026-07-31.md` → `INFLIGHT_STATE.md` →
-   `udt_p4_angular_stage_A3_2026-07-31/PREREGISTRATION.md`. The A3 contract is frozen; launch
-   still requires Charles's explicit current-session `A3 go`.
+   `udt_p4_angular_stage_A3_2026-07-31/AUDIT_REPORT.md` → its exact derivation, correction layer,
+   and verifier report when load-bearing. A3 is complete and banked at `e379098`.
 4. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv` (especially G17/G18), plus `CANON.md`
    C-2026-07-30-1 — the
    premise state incl. the owner-kernel provenance correction.
-5. `P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` for the proposed post-A3 quality
+5. `P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` for the proposed next quality
    checkpoint; it authorizes nothing.
 6. CLAUDE.md method sections (binding, always) + `NEGATIVES_REGISTRY.md` (latest: #78).
 
@@ -41,17 +41,18 @@ total mass-energy} — the finite-cell canon is a RATIFIED PROGRAM CONSTRUCTION,
 bedrock. Two driver provenance-inversions were corrected this arc: NEVER attribute program
 constructions to Charles; check canon origin dates first.
 
-**Current honest frontier:** T1–T3 and A1–A2 are banked. Time-live and angular-live unmuting
+**Current honest frontier:** T1–T3 and A1–A3 are banked. Time-live and angular-live unmuting
 preserve the pointwise response architecture and its exact static/mode-zero controls, but select
 no unique response law. The coordinate/projected reading forks remain undecided. The native
 untwisted time census supplies no integer; conditional loop/θ integers label sectors rather than
-cutting mass. The nuclear ladder is `CONSISTENCY-DEMO`, not prediction; its one potentially
-nontrivial `a_F`–`lambda` branch test is parked behind A3.
+cutting mass. A3 found fixed domain/presentation integers and continuous holonomy, but no
+solution-dependent native integer that cuts either conditional massive carrier. Their two-cap
+`S3` completion joins and angular-live on-shell coexistence remain OPEN. The nuclear ladder is
+`CONSISTENCY-DEMO`, not prediction; its `a_F`–`lambda` branch test remains parked.
 
-**Open on the desk (in order):** (1) explicit A3 go; A3 runs internally as torus `alpha` → full
-`S3` `beta` → fine-detail `gamma`, linear time, native layer, no θ; (2) after A3, the proposed
-cold adversarial P4 review before T4/adoption; (3) posture; (4) census; (5) G18 re-grade;
-(6) R1 menu and queued tiles. No item launches automatically.
+**Open on the desk (in order):** (1) the proposed cold adversarial P4 review before T4/adoption,
+requiring a fresh explicit go; (2) posture; (3) census; (4) G18 re-grade; (5) R1 menu and queued
+tiles. No item launches automatically.
 
 **Operational rules in force:** chunked agent outputs (≤120-line appends; two 64k-ceiling
 agent deaths taught this); anti-hang (CLAUDE.md); the verifier pipeline

@@ -2,19 +2,19 @@
 
 **PURPOSE:** live zero-context resume ledger. IF YOU ARE THE NEW MODEL: read LIVE.md topmost,
 then P4_ARC_SUMMARY_2026-07-31.md, ROADMAP_LINEAR_TIME_2026-07-31.md, this file, and the A3
-preregistration. Binding method: CLAUDE.md (MAP/OBSERVE/PONDER before DERIVE; lay language with
+audit report. Binding method: CLAUDE.md (MAP/OBSERVE/PONDER before DERIVE; lay language with
 Charles; nothing launches without his go).
 
-**THE IN-FLIGHT TASK:** A1 and A2 are banked. A3 was explicitly authorized on 2026-08-01 and is
-now between derivation and blind verification. After A3 closes through its ordinary verifier
-pipeline, the clean-context audit in `P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` is
-recommended before T4/adoption.
+**THE IN-FLIGHT TASK:** none. A1–A3 are banked. The clean-context audit in
+`P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` is recommended before T4/adoption, but it is
+not authorized and nothing launches from this ledger.
 
-**A3 EXECUTION STATUS (2026-08-01):** Charles gave the explicit `A3 go`. The derivation agent has
-completed and disk-banked `alpha` → `beta` → `gamma`: 48/48 derivation-side checks pass (31
-substantive, 17 guard), deterministic exit 0. The package and its `OB3-3 MIXED-BY-KIND` outcome are
-UNCOMMITTED/PROVISIONAL pending the required zero-context blind adversarial verifier. Next action:
-dispatch that verifier exactly under R3; do not bank or narrate the result as verified yet.
+**A3 EXECUTION STATUS (2026-08-01): COMPLETE AND BANKED at `e379098`.** Charles gave the explicit
+`A3 go`; `alpha` → `beta` → `gamma` completed. Final derivation checks: 57/57 = 37 substantive +
+20 guard. The blind verifier required four amendments and then closed them 30/30. Package grade:
+`VERIFIED-WITH-CAVEATS`, outcome `OB3-3 MIXED-BY-KIND`. Fixed angular architecture survives, but
+no solution-dependent native integer or mass/modulus cut was derived on either conditional massive
+carrier. Completion joins and angular-live on-shell coexistence remain OPEN.
 
 **INCREMENT LIST (mark each DONE as its commit lands; everything below NOT marked DONE
 is unstarted or in flight):**
@@ -36,12 +36,10 @@ is unstarted or in flight):**
 8. DONE — LIVE.md close-out + memory update.
 9. (Stretch, if tokens remain) T4-linear MAP skeleton, same pattern.
 
-**NEXT MICRO-STEP: THE A3 LAUNCH (zero-context runbook below). A1+A2 are BANKED
-(2fd4af3, b85bea6); the A3 CONTRACT IS ALREADY FROZEN AND COMMITTED
-(`udt_p4_angular_stage_A3_2026-07-31/PREREGISTRATION.md` @ a5a2f0a). GATE: Charles's
-explicit "A3 go" must be in YOUR conversation record before you dispatch the derivation
-agent — if he has not said it to you, present A2's results in LAY terms first (see
-CLOSEOUT DUTIES) and ask for his ruling.**
+**COMPLETED A3 RUNBOOK (historical execution record; DO NOT RELAUNCH). A1–A3 are banked at
+`2fd4af3`, `b85bea6`, and `e379098`. The A3 contract was frozen at
+`udt_p4_angular_stage_A3_2026-07-31/PREREGISTRATION.md`. The runbook below records the completed
+verifier pipeline; it is not a current launch instruction.**
 
 ## A3 LAUNCH RUNBOOK (for a zero-context driver; follow in order)
 
@@ -64,7 +62,7 @@ for sequencing — NOT his scientific exclusions ("I would not exclude the full 
 the fine angular detail"). The full-S³ and finer-detail layers are owner-expected
 follow-on contracts. Never present the bounds as his choice.
 
-**R1. Confirm the gate.** Charles's "A3 go" in your conversation. Without it: STOP after
+**R1. [HISTORICAL EXECUTION] Confirm the gate.** Charles's "A3 go" in your conversation. Without it: STOP after
 orientation, report readiness, wait.
 
 **NOTE: derive_angular_A3.py and all A3 package artifacts (beyond the PREREGISTRATION and
@@ -140,6 +138,6 @@ HOLD for his next ruling.
 **DRIVER DEBT (any time):** classify the 17 flagged registry entries
 (udt_p4_angular_stage_A1_2026-07-31/DECISION_SURFACE_UPDATE.md).
 
-**CLOSEOUT DUTY BEFORE A3:** if the current conversation lacks Charles's explicit `A3 go`, give a
+**[HISTORICAL] CLOSEOUT DUTY BEFORE A3:** if the current conversation lacks Charles's explicit `A3 go`, give a
 lay A2/A3 orientation and hold. Do not infer authorization from the frozen contract, the roadmap,
 or an earlier session. The verifier-pipeline, chunked-output, and anti-hang rules bind.

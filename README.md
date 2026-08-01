@@ -2,10 +2,10 @@
 
 **⚠ CURRENT ORIENTATION SPINE (2026-08-01 — READ THIS CHAIN, it supersedes the older
 chain below):** `LIVE.md` topmost block → `HANDOFF.md` current block → current premise registry →
-`P4_ARC_SUMMARY_2026-07-31.md` (28 indexed packages through A2) →
-`ROADMAP_LINEAR_TIME_2026-07-31.md` → `INFLIGHT_STATE.md` → the frozen A3 preregistration.
-A3 still requires an explicit current-session go. The proposed post-A3 clean-context review is in
-`P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md`. The orientation
+`P4_ARC_SUMMARY_2026-07-31.md` (29 indexed packages through A3) →
+`ROADMAP_LINEAR_TIME_2026-07-31.md` → `INFLIGHT_STATE.md` → the A3 audit report.
+A3 is banked and verified with caveats. The proposed next clean-context review is in
+`P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` and requires an explicit go. The orientation
 chain below this point is PRE-P4 (2026-07-28 morning and earlier) — historical context
 only; its "latest result" claims are superseded by the P4 arc.
 

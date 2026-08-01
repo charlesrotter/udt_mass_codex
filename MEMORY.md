@@ -9,24 +9,25 @@
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block, then the marked current
 block in `HANDOFF.md`, `CURRENT_SCIENTIFIC_PREMISES.md`, `CURRENT_SCIENTIFIC_PREMISES.tsv`,
 `P4_ARC_SUMMARY_2026-07-31.md`,
-`ROADMAP_LINEAR_TIME_2026-07-31.md`, `INFLIGHT_STATE.md`, and the frozen A3 preregistration. Expand
+`ROADMAP_LINEAR_TIME_2026-07-31.md`, `INFLIGHT_STATE.md`, and the A3 audit report. Expand
 only into the exact P4 package made load-bearing by the active task. The July 28 scientific frontier
 and external-review brief are pre-P4 context, not current navigation authority.
 
-Current honest status: 28 indexed P4 packages are banked through time-live T1–T3 and angular-live
-A1–A2. The inverse problem gives a nonempty stratified permitted response-law space; time and
+Current honest status: 29 indexed P4 packages are banked through time-live T1–T3 and angular-live
+A1–A3. The inverse problem gives a nonempty stratified permitted response-law space; time and
 angular unmuting preserve its exact control embeddings but do not select one physical law. Two
 conditional massive families and exact stability pruners survive with full premise stacks. The
 native untwisted time census has no integer; θ remains registered-not-adopted; conditional loop/θ
 integers label sectors and do not quantize mass. The coordinate/projected reading forks remain
 undecided. Complete action, source, carrier emergence, boundary charge, and unconditional mass are
-open.
+open. A3 found fixed domain/presentation integers and continuous compact-fiber holonomy, but no
+solution-dependent native integer or mass/modulus cut on either conditional massive carrier;
+their two-cap-`S3` completion joins and angular-live on-shell coexistence remain open.
 
-Next gate: A3, internally staged as torus `alpha` → full `S3` `beta` → fine detail `gamma`, on
-linear time and the native no-θ layer. Its contract is frozen but still requires Charles's explicit
-current-session go. The nuclear ladder is only `CONSISTENCY-DEMO`; its `a_F`–`lambda` branch audit
-is parked behind A3. After A3's ordinary verification, the clean-context regrade in
-`P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` is recommended before T4 or adoption.
+Next recommended gate: the clean-context regrade in
+`P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md`, before T4 or adoption. It is not authorized
+without Charles's explicit go. The nuclear ladder remains only `CONSISTENCY-DEMO`; its
+`a_F`–`lambda` branch audit is still parked.
 
 Premise guards remain: founded `phi` is derived reciprocal depth; strong local CSN is inactive;
 `c_E` and `G_obs` are observed anchors; bootstrap is a lens, not a filter; θ and the `S2` carrier
