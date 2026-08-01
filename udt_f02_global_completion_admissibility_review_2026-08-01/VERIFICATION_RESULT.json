@@ -1,0 +1,50 @@
+{
+  "checks": [
+    {
+      "detail": "the frozen parent manifest file must remain byte-identical",
+      "name": "parent_manifest_file_identity",
+      "pass": true
+    },
+    {
+      "detail": "parent verifier exit=0",
+      "name": "parent_manifest_replay",
+      "pass": true
+    },
+    {
+      "detail": "registered Route-C toric-chart source must match the frozen bytes and SHA-256",
+      "name": "added_source_identity",
+      "pass": true
+    },
+    {
+      "detail": "banked final review must equal the external text with only one terminal newline added",
+      "name": "cold_review_identity",
+      "pass": true
+    },
+    {
+      "detail": "raw final-review output must be preserved byte-identically",
+      "name": "cold_review_raw_identity",
+      "pass": true
+    },
+    {
+      "detail": "raw external-review terminal transcript must be preserved byte-identically",
+      "name": "external_transcript_identity",
+      "pass": true
+    },
+    {
+      "detail": "correction must close only the normalization premise and preserve all open scopes",
+      "name": "correction_scope_and_derivation",
+      "pass": true
+    },
+    {
+      "detail": "the omitted registered source must be frozen in the append-only layer",
+      "name": "source_inventory_addition",
+      "pass": true
+    }
+  ],
+  "checks_passed": 8,
+  "checks_total": 8,
+  "maximum_conclusion": "OPEN_INCOMPLETE_REGISTERED_CLOSURE_DATA",
+  "repair_status": "CLOSED_APPEND_ONLY",
+  "review_verdict": "PASS-WITH-REQUIRED-REPAIRS",
+  "status": "PASS"
+}
