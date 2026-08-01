@@ -1,0 +1,12 @@
+candidate_id	interpretation	exact_question	forbidden_substitution
+I01	PASSIVE_FRAME_RELABELING	Does Reciprocity identify descriptions in a groupoid or quotient?	quotient equivalence called equation of motion
+I02	ACTIVE_RECIPROCAL_EXCHANGE	Does the exchange act on complete configurations and what does covariance require?	covariance replaced by pointwise fixedness
+I03	PAIRWISE_COMPARISON_COCYCLE	Do all observer-pair comparisons reconstruct a global relative-depth object?	reconstruction called selection
+I04	GLOBAL_FIXED_POINT	Does founded Reciprocity require X=S X for the reciprocal swap S?	new invariance premise smuggled into frame equivalence
+I05	ORBIT_OR_GROUP_AVERAGE	Does the orbit or its average canonically select a representative?	chosen measure average or projection
+I06	RECIPROCAL_DUAL_PAIRING	Does the clock/ruler dual pairing produce a covector or annihilator on full configuration space?	kinematic bilinear form called physical response
+I07	FINITE_CELL_INVOLUTION_AND_GLUE	Does global reciprocal descent plus finite-cell gluing impose a complete nonidentity return?	partial admissibility called whole-system law
+I08	BOOTSTRAP_JOIN	Does Reciprocity canonically join the typed R readout to A without another premise?	O=R(X) graph called feedback
+I09	P4_EQUIVARIANT_RESPONSE_SPACE	Do Reciprocity requirements reduce the permitted response family to one member?	allowed family called selected law
+I10	OTHER_FROZEN_INTERPRETATION	Does any other frozen source carry whole-configuration return content?	conditional splice across incompatible premises
+

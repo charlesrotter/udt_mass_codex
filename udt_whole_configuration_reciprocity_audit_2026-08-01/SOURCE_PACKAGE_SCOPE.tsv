@@ -1,0 +1,16 @@
+scope_id	package_path	reason
+S01	udt_founding_reciprocity_object_audit_2026-07-27	current source-first object and ownership audit
+S02	udt_founding_observer_comparison_semantics_audit_2026-07-27	observer comparison semantics
+S03	udt_native_reciprocal_comparison_bundle_audit_2026-07-27	native reciprocal comparison bundle
+S04	udt_global_reciprocal_bundle_assembly_audit_2026-07-26	global reciprocal bundle assembly
+S05	udt_global_reciprocal_closure_audit_2026-07-20	global reciprocal closure tests
+S06	udt_complete_coframe_native_selector_audit_2026-07-26	complete-coframe selector census
+S07	udt_global_functional_dof_constraint_rank_audit_2026-07-26	constraint-rank distinction
+S08	udt_complete_coframe_physical_comparison_functor_audit_2026-07-27	comparison functor audit
+S09	udt_native_global_coframe_definition_audit_2026-07-28	current global coframe definition
+S10	udt_native_coframe_composition_law_audit_2026-07-23	coframe composition law
+S11	udt_observer_pair_path_groupoid_assembly_audit_2026-07-26	observer-pair path groupoid
+S12	udt_observer_pair_triangle_consistency_audit_2026-07-26	triangle and cocycle consistency
+S13	udt_three_reciprocity_delta_k_audit_2026-07-23	three reciprocity notions separated
+S14	udt_metric_pure_frame_rederivation_2026-07-23	metric-pure frame derivation
+

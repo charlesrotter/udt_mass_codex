@@ -1,0 +1,26 @@
+{
+  "base": "9fe5202e86627aa47a5200ea776dcb468a6531f6",
+  "direct_files": 11,
+  "interpretations": 10,
+  "package_counts": {
+    "S01": 41,
+    "S02": 39,
+    "S03": 34,
+    "S04": 43,
+    "S05": 20,
+    "S06": 24,
+    "S07": 41,
+    "S08": 40,
+    "S09": 37,
+    "S10": 38,
+    "S11": 35,
+    "S12": 34,
+    "S13": 36,
+    "S14": 25
+  },
+  "package_scopes": 14,
+  "parent_package_paths": 40,
+  "parent_source_paths": 926,
+  "premises": 15,
+  "source_union": 1384
+}
