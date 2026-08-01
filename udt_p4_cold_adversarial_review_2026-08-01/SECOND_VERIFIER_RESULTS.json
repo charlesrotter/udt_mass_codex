@@ -1,0 +1,260 @@
+{
+  "catch_proofs": {
+    "primary_adequate": 3,
+    "primary_required": 7,
+    "second_passed": 7,
+    "second_required": 7
+  },
+  "completeness": {
+    "action_cell_rows_requiring_amendment": 26,
+    "cells_present_on_every_row": 10,
+    "package_rows_using_unit_level_premise_template": 172,
+    "package_units_using_one_premise_template": 29,
+    "primary_verifier_cells_actually_checked": 3,
+    "primary_verifier_cells_not_checked": 7,
+    "rows": 182
+  },
+  "date": "2026-08-01",
+  "execution_hygiene": {
+    "current_path_absent": true,
+    "effect_on_primary_evidence": "NONE",
+    "path": "/tmp/udt_p4_source_manifest_second_check.txt",
+    "repository_outside_package_changes": 0,
+    "strict_no_write_outside_package": "BREACHED_BY_TEMPORARY_SECOND_VERIFIER_SCRATCH_OUTPUT_THEN_CLEANED"
+  },
+  "headline_explosion": {
+    "cross_cutting_rows": 8,
+    "cross_cutting_units": 8,
+    "discovered_rows": 2,
+    "package_clause_rows": 172,
+    "package_units": 29,
+    "total_rows": 182
+  },
+  "independent_recomputations": {
+    "parser_or_regression_ids": [
+      "IR03",
+      "IR10",
+      "IR15",
+      "IR19",
+      "IR20"
+    ],
+    "passed": 21,
+    "primary_false_independent_labels": [
+      "IR10",
+      "IR20"
+    ],
+    "primary_label_counts_after_required_relabels_only": {
+      "GENUINELY_DIFFERENT_METHOD": 15,
+      "INDEPENDENT_PARSER_OR_REGRESSION": 6
+    },
+    "primary_label_counts_before": {
+      "GENUINELY_DIFFERENT_METHOD": 17,
+      "INDEPENDENT_PARSER_OR_REGRESSION": 4
+    },
+    "total": 21
+  },
+  "maximum_conclusion_compliance": "PASS: evidence regrade only; no new science, adoption, T4, GPU, or canonization.",
+  "premise_verifier": "PASS: 18 premise guards, 9 startup controls, 754 candidate dispositions, corrected DOF semantics",
+  "primary_replay": {
+    "classification": "SAME_CODE_DETERMINISTIC_REGRESSION_ONLY",
+    "exit_code": 0,
+    "passed": 21,
+    "records": 21
+  },
+  "recommended_next_step": "STOP_REPAIR_FIRST; amend the review package and return it to this same second verifier.",
+  "regrades": {
+    "CONTRADICTED": 1,
+    "NARROWED": 148,
+    "OPEN": 1,
+    "RETAINED": 32
+  },
+  "required_amendments": [
+    "Relabel IR10 and IR20 INDEPENDENT_PARSER_OR_REGRESSION and recompute the independence counts/report wording.",
+    "Either add a genuinely independent formal-module embedding derivation or state explicitly that Q2's formal embedding rests on banked package controls plus cold parser regression, not a cold different-method proof.",
+    "Make verify_cold_review.py validate all ten completeness columns and their allowed claim-specific content.",
+    "Replace the four inadequate primary catch-proofs with mutations that exercise duplicate frozen units, the real source-manifest checker, a concrete quantifier promotion, and parser/copy false-independence.",
+    "Replace package-wide premise templates with clause-specific source stamps for load-bearing claims; at minimum enumerate signs, positivity, normalization, branch, boundary/germ, pairing, posture, topology, and conditional action/field status where used.",
+    "Correct the 26 action-term cells in P4-07/P4-08/P4-16/P4-18/P4-20.",
+    "Preserve any transitive dependency expansion only as a dated post-outcome overlay; do not rewrite it as retroactive preregistration. Machine-record the joint-obligation hash as well as the cap hash.",
+    "Retain the primary K4 correction and STOP_REPAIR_FIRST ceiling; no T4/adoption follows.",
+    "Rerun the final verifier packaging/isolation check cleanly because this verifier briefly created and then deleted one temporary manifest-output file outside the authorized worktree/package."
+  ],
+  "review_base": "2e93a621aeeee0a0844543068363d0ba94094357",
+  "source_freeze": {
+    "all_297_tracked_package_files_in_inventory": true,
+    "all_preregistered_bytes_unchanged": true,
+    "explicit_existing_external_references": 13,
+    "overlay": [
+      {
+        "base_byte_identical": true,
+        "base_sha256": "db91efbcf8024a455ba8b5e1ef5692356b80e899892f06492d1399e9b29c65b4",
+        "cited_by": [
+          "udt_mirror_canon_provenance_audit_2026-07-30/AUDIT_VERIFIER_REPORT.md",
+          "udt_mirror_canon_provenance_audit_2026-07-30/CORRECTION_LAYER.md",
+          "udt_mirror_canon_provenance_audit_2026-07-30/PROVENANCE_REPORT.md",
+          "udt_mirror_canon_provenance_audit_2026-07-30/REGRADE_OPTIONS.md"
+        ],
+        "cited_by_count": 4,
+        "path": "archive/horizon_cmb_correspondence.md",
+        "sha256": "db91efbcf8024a455ba8b5e1ef5692356b80e899892f06492d1399e9b29c65b4",
+        "status": "POST_OUTCOME_OVERLAY_NOT_RETROACTIVE_PREREGISTRATION"
+      },
+      {
+        "base_byte_identical": true,
+        "base_sha256": "84c832d6cd612e3fc5af08a6a2033f45e7cfb2f7da2ff171f9ac4fed9f9c256a",
+        "cited_by": [
+          "udt_mirror_canon_provenance_audit_2026-07-30/AUDIT_VERIFIER_REPORT.md",
+          "udt_mirror_canon_provenance_audit_2026-07-30/PROVENANCE_REPORT.md"
+        ],
+        "cited_by_count": 2,
+        "path": "archive/udt_validated_results.md",
+        "sha256": "84c832d6cd612e3fc5af08a6a2033f45e7cfb2f7da2ff171f9ac4fed9f9c256a",
+        "status": "POST_OUTCOME_OVERLAY_NOT_RETROACTIVE_PREREGISTRATION"
+      },
+      {
+        "base_byte_identical": true,
+        "base_sha256": "6e9e21f806deb876e3fb63e815e0b0afd2434c8dc5c19686e8c6ab68dd9b8600",
+        "cited_by": [
+          "udt_p4_routeC_shared_static_sector_2026-07-28/EXACT_DERIVATION.md",
+          "udt_p4_routeC_shared_static_sector_2026-07-28/VERIFIER_REPORT.md",
+          "udt_p4_routeC_shared_static_sector_2026-07-28/derive_routeC_stage1.py"
+        ],
+        "cited_by_count": 3,
+        "path": "c2_finite_cell_boundary_variation_2026-07-20/AUDIT_REPORT.md",
+        "sha256": "6e9e21f806deb876e3fb63e815e0b0afd2434c8dc5c19686e8c6ab68dd9b8600",
+        "status": "POST_OUTCOME_OVERLAY_NOT_RETROACTIVE_PREREGISTRATION"
+      },
+      {
+        "base_byte_identical": true,
+        "base_sha256": "307a3a08dacf769c45416015d1c22436164fb679c6ff3f3d3f333de555eb4e72",
+        "cited_by": [
+          "udt_mirror_canon_provenance_audit_2026-07-30/PROVENANCE_REPORT.md"
+        ],
+        "cited_by_count": 1,
+        "path": "grok/quarantine_free_DA/macro_sector_fork_resolution.md",
+        "sha256": "307a3a08dacf769c45416015d1c22436164fb679c6ff3f3d3f333de555eb4e72",
+        "status": "POST_OUTCOME_OVERLAY_NOT_RETROACTIVE_PREREGISTRATION"
+      },
+      {
+        "base_byte_identical": true,
+        "base_sha256": "1d554a88637a8e7595c3cb546248d4dc1e6a0f131d314c0f6b12e6b79d12dbac",
+        "cited_by": [
+          "udt_p4_seam_closure_derivation_2026-07-30/EXACT_DERIVATION.md",
+          "udt_p4_seam_closure_derivation_2026-07-30/VERIFIER_REPORT.md",
+          "udt_p4_seam_closure_derivation_2026-07-30/derive_seam_closure.py"
+        ],
+        "cited_by_count": 3,
+        "path": "legacy/root_oneoffs_2026-07-01/native_phi_sign_mirror_bridge_audit.py",
+        "sha256": "1d554a88637a8e7595c3cb546248d4dc1e6a0f131d314c0f6b12e6b79d12dbac",
+        "status": "POST_OUTCOME_OVERLAY_NOT_RETROACTIVE_PREREGISTRATION"
+      },
+      {
+        "base_byte_identical": true,
+        "base_sha256": "71ed06c21c3ef683d0579f2a883584b4f612de4f1b09e16300702b204d437eda",
+        "cited_by": [
+          "udt_mirror_canon_provenance_audit_2026-07-30/PROVENANCE_REPORT.md",
+          "udt_p4_routeC_shared_static_sector_2026-07-28/PREREGISTRATION.md",
+          "udt_p4_seam_closure_derivation_2026-07-30/VERIFIER_REPORT.md"
+        ],
+        "cited_by_count": 3,
+        "path": "native_action_final_adjudication_2026-07-18/FINAL_ADJUDICATION_REPORT.md",
+        "sha256": "71ed06c21c3ef683d0579f2a883584b4f612de4f1b09e16300702b204d437eda",
+        "status": "POST_OUTCOME_OVERLAY_NOT_RETROACTIVE_PREREGISTRATION"
+      },
+      {
+        "base_byte_identical": true,
+        "base_sha256": "70cab9d5e10b03e0e3418129b67155e01d9f805c4397c69ef8795c4d2aaa5dfd",
+        "cited_by": [
+          "udt_p4_routeC_shared_static_sector_2026-07-28/VERIFIER_REPORT.md"
+        ],
+        "cited_by_count": 1,
+        "path": "native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv",
+        "sha256": "70cab9d5e10b03e0e3418129b67155e01d9f805c4397c69ef8795c4d2aaa5dfd",
+        "status": "POST_OUTCOME_OVERLAY_NOT_RETROACTIVE_PREREGISTRATION"
+      },
+      {
+        "base_byte_identical": true,
+        "base_sha256": "07f9519049d0993d35dbbc68f86ffe1f7da1339e1eb888dbdfe90a75ac34ba68",
+        "cited_by": [
+          "udt_mirror_canon_provenance_audit_2026-07-30/CONSUMER_LEDGER.tsv",
+          "udt_mirror_canon_provenance_audit_2026-07-30/PROVENANCE_REPORT.md"
+        ],
+        "cited_by_count": 2,
+        "path": "native_action_stage1_2026-07-18/arm_B/cold_output/D0_D5.md",
+        "sha256": "07f9519049d0993d35dbbc68f86ffe1f7da1339e1eb888dbdfe90a75ac34ba68",
+        "status": "POST_OUTCOME_OVERLAY_NOT_RETROACTIVE_PREREGISTRATION"
+      },
+      {
+        "base_byte_identical": true,
+        "base_sha256": "98e8fd166e8257e4ad4e40695d05b198c6fc4c1342e39bcfeb013c230a14321d",
+        "cited_by": [
+          "udt_mirror_canon_provenance_audit_2026-07-30/REGRADE_OPTIONS.md"
+        ],
+        "cited_by_count": 1,
+        "path": "udt_common_scale_neutrality_provenance_audit_2026-07-24/AUDIT_REPORT.md",
+        "sha256": "98e8fd166e8257e4ad4e40695d05b198c6fc4c1342e39bcfeb013c230a14321d",
+        "status": "POST_OUTCOME_OVERLAY_NOT_RETROACTIVE_PREREGISTRATION"
+      },
+      {
+        "base_byte_identical": true,
+        "base_sha256": "3c7fed27fae474c8718ffe8f09dad858c12b0aba068494e2a8248fe19f642783",
+        "cited_by": [
+          "udt_p4_bookkeeping_forcing_2026-07-29/CORRECTION_LAYER.md",
+          "udt_p4_routeA_response_inverse_problem_2026-07-29/VARIATION_DOMAIN_CENSUS.tsv"
+        ],
+        "cited_by_count": 2,
+        "path": "udt_founded_phi_complete_coframe_extension_audit_2026-07-25/AUDIT_REPORT.md",
+        "sha256": "3c7fed27fae474c8718ffe8f09dad858c12b0aba068494e2a8248fe19f642783",
+        "status": "POST_OUTCOME_OVERLAY_NOT_RETROACTIVE_PREREGISTRATION"
+      },
+      {
+        "base_byte_identical": true,
+        "base_sha256": "59253b8b976475840717c54ea6fc13a0d6e47f35c1c836807066cdecadb15b88",
+        "cited_by": [
+          "udt_p4_routeC_shared_static_sector_2026-07-28/EXACT_DERIVATION.md"
+        ],
+        "cited_by_count": 1,
+        "path": "udt_higher_isometry_plane_ownership_audit_2026-07-28/PREREGISTRATION.md",
+        "sha256": "59253b8b976475840717c54ea6fc13a0d6e47f35c1c836807066cdecadb15b88",
+        "status": "POST_OUTCOME_OVERLAY_NOT_RETROACTIVE_PREREGISTRATION"
+      },
+      {
+        "base_byte_identical": true,
+        "base_sha256": "ceecb5837ff8652c83c0ba72c67645182b1fd30f6e437026bd735c4d813bdfdf",
+        "cited_by": [
+          "udt_p4_angular_stage_A3_2026-07-31/VERIFIER_CLOSURE_CHECK.py",
+          "udt_p4_angular_stage_A3_2026-07-31/VERIFIER_INDEPENDENT_CHECK.py",
+          "udt_p4_angular_stage_A3_2026-07-31/angular_A3_results.json"
+        ],
+        "cited_by_count": 3,
+        "path": "udt_higher_isometry_plane_ownership_audit_2026-07-28/TORIC_CAP_ENUMERATION.tsv",
+        "sha256": "ceecb5837ff8652c83c0ba72c67645182b1fd30f6e437026bd735c4d813bdfdf",
+        "status": "POST_OUTCOME_OVERLAY_NOT_RETROACTIVE_PREREGISTRATION"
+      },
+      {
+        "base_byte_identical": true,
+        "base_sha256": "52bc430e16227cc60d73e312a916666e0d206c54dc90a0d7ca8914d6c01336e9",
+        "cited_by": [
+          "udt_p4_routeA_response_inverse_problem_2026-07-29/PREREGISTRATION.md",
+          "udt_p4_routeB_extension_selection_2026-07-28/PREREGISTRATION.md"
+        ],
+        "cited_by_count": 2,
+        "path": "udt_joint_selector_provenance_audit_2026-07-28/JOINT_OPERATION_OBLIGATIONS.tsv",
+        "sha256": "52bc430e16227cc60d73e312a916666e0d206c54dc90a0d7ca8914d6c01336e9",
+        "status": "POST_OUTCOME_OVERLAY_NOT_RETROACTIVE_PREREGISTRATION"
+      }
+    ],
+    "post_outcome_overlay_status": "NON_RETROACTIVE",
+    "preregistered_inventory_rows": 311
+  },
+  "substantive_disagreements": [
+    "IR10 and IR20 are parser/copy regressions, not genuinely different methods.",
+    "IR15 is only a T2/A2 ledger parser; it does not independently recompute the formal static/time/angular module embedding used in Q2.",
+    "The primary verifier checks only 3 of the 10 completeness cells despite its check name.",
+    "Only 3 of 7 primary synthetic catch-proofs exercise the named failure class adequately.",
+    "All 172 package clauses reuse 29 unit-level premise templates; exact clause-level premise stacks are not demonstrated.",
+    "Twenty-six action-term cells call action/energy/Hessian/coupling-bearing packages response/geometry-only.",
+    "The 311-row freeze is byte-sound but not transitively closed; 13 explicit existing external references are recorded only as this non-retroactive overlay."
+  ],
+  "verdict": "REFUTED-IN-PART"
+}

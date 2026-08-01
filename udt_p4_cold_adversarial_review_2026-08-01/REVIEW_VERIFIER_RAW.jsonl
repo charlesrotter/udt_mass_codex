@@ -1,0 +1,28 @@
+{"check": "frozen_unit_identity_and_uniqueness", "detail": "rows=37,bad=[]", "status": "PASS"}
+{"check": "package_and_cross_cutting_counts", "detail": "29+8", "status": "PASS"}
+{"check": "claim_row_count", "detail": "182", "status": "PASS"}
+{"check": "all_units_covered", "detail": "[]", "status": "PASS"}
+{"check": "claim_ids_unique", "detail": "[]", "status": "PASS"}
+{"check": "claim_specific_quantifier_guards", "detail": "[]", "status": "PASS"}
+{"check": "semantic_premise_profiles_no_row_id_uniqueness", "detail": "[]", "status": "PASS"}
+{"check": "source_local_anchor_ranges_hashes_tokens_and_admission", "detail": "bad=[],groups=83,semantic=100", "status": "PASS"}
+{"check": "all_ten_completeness_cells_and_action_content", "detail": "[]", "status": "PASS"}
+{"check": "regrades_and_k4_correction", "detail": "Counter({'NARROWED': 148, 'RETAINED': 32, 'CONTRADICTED': 1, 'OPEN': 1})", "status": "PASS"}
+{"check": "recompute_status_and_independence_classes", "detail": "[]", "status": "PASS"}
+{"check": "frozen_source_manifest", "detail": "rows=311,bad=[]", "status": "PASS"}
+{"check": "nonretroactive_dependency_overlay", "detail": "[]", "status": "PASS"}
+{"check": "immutable_second_verifier_artifacts_and_report_section", "detail": "[]", "status": "PASS"}
+{"check": "immutable_closure_verifier_artifacts_and_report_section", "detail": "[]", "status": "PASS"}
+{"check": "no_edit_outside_package", "detail": "[]", "status": "PASS"}
+{"check": "base_is_ancestor", "detail": "2e93a621...", "status": "PASS"}
+{"check": "stop_repair_first_preserved", "detail": "STOP_REPAIR_FIRST: freeze transitive load-bearing dependencies and replace the K4=real-points headline before any adoption/T4; then rerun the cold verifier on the repaired review package.", "status": "PASS"}
+{"check": "catch_missing_unit", "detail": "production unit-coverage checker", "status": "PASS"}
+{"check": "catch_duplicate_frozen_unit", "detail": "production frozen-unit identity checker", "status": "PASS"}
+{"check": "catch_production_source_manifest_mutation", "detail": "production source_manifest override", "status": "PASS"}
+{"check": "catch_concrete_quantifier_promotion", "detail": "equation-set inequivalence promoted to universal empty intersection", "status": "PASS"}
+{"check": "catch_actual_parser_false_independence", "detail": "IR10 parser mislabeled different-method", "status": "PASS"}
+{"check": "catch_missing_completeness_cell", "detail": "production ten-cell checker", "status": "PASS"}
+{"check": "catch_mutated_source_excerpt_hash", "detail": "production source-anchor checker", "status": "PASS"}
+{"check": "catch_default_or_fallback_anchor_token", "detail": "production source-anchor checker", "status": "PASS"}
+{"check": "catch_semantic_package_trigger_fallback", "detail": "production semantic-premise checker", "status": "PASS"}
+{"summary": {"checks": 27, "failed": 0, "passed": 27}}

@@ -1,0 +1,88 @@
+{
+  "amendment_status": "PRIMARY_SOURCE_LOCAL_ANCHOR_AMENDMENT_PENDING_SAME_SECOND_VERIFIER_CLOSURE",
+  "completeness_validation": {
+    "action_bearing_rows_corrected": 26,
+    "cells_per_claim": 10,
+    "claim_rows": 182
+  },
+  "cross_cutting_units_covered": 8,
+  "discovered_claims": 2,
+  "falsifier_events": {
+    "F1": 0,
+    "F10": 0,
+    "F2": 0,
+    "F3": "caught_scope_narrowings",
+    "F4": "formal_vs_realized_embedding_caught",
+    "F5": "parser/replay relabeled",
+    "F6": "mass definitions kept conditional",
+    "F7": "K4/U1 overstatement contradicted",
+    "F8": "all ten criteria mapped",
+    "F9": "nuclear remains CONSISTENCY-DEMO"
+  },
+  "independent_recomputations": {
+    "genuinely_different_method": 15,
+    "independent_parser_or_regression": 6,
+    "passed": 21,
+    "q2_footing": "banked package controls plus cold parser regression; not a cold different-method proof",
+    "total": 21
+  },
+  "maximum_conclusion": "Accumulated P4 algebra survives selected different-method checks, but the arc must be read as a premise-scoped formal response/census chain; one headline group-identification is contradicted and broad architecture/mass/embedding/completeness wording is narrowed.",
+  "mechanical_claim_rows": 182,
+  "package_claim_counts": {
+    "P4-00": 4,
+    "P4-01": 2,
+    "P4-02": 3,
+    "P4-03": 6,
+    "P4-04": 4,
+    "P4-05": 6,
+    "P4-06": 3,
+    "P4-07": 4,
+    "P4-08": 5,
+    "P4-09": 4,
+    "P4-10": 3,
+    "P4-11": 5,
+    "P4-12": 3,
+    "P4-13": 4,
+    "P4-14": 5,
+    "P4-15": 4,
+    "P4-16": 5,
+    "P4-17": 8,
+    "P4-18": 5,
+    "P4-19": 6,
+    "P4-20": 7,
+    "P4-21": 6,
+    "P4-22": 12,
+    "P4-23": 11,
+    "P4-24": 9,
+    "P4-25": 5,
+    "P4-26": 13,
+    "P4-27": 10,
+    "P4-28": 10
+  },
+  "regrades": {
+    "CONTRADICTED": 1,
+    "NARROWED": 148,
+    "OPEN": 1,
+    "RETAINED": 32
+  },
+  "review_base": "2e93a621aeeee0a0844543068363d0ba94094357",
+  "review_units": 37,
+  "smallest_next_step": "STOP_REPAIR_FIRST: freeze transitive load-bearing dependencies and replace the K4=real-points headline before any adoption/T4; then rerun the cold verifier on the repaired review package.",
+  "source_inventory_rows": 311,
+  "source_local_premise_anchors": {
+    "anchored_package_clause_rows": 172,
+    "legitimate_shared_anchor_groups": 46,
+    "note": "Counts are semantic/source-anchor counts; no uniqueness claim is manufactured from claim IDs or row indices.",
+    "package_clause_rows": 172,
+    "semantic_premise_profiles": 100,
+    "single_clause_anchor_groups": 37,
+    "source_anchor_groups": 83
+  },
+  "transitive_dependency_overlay": {
+    "date": "2026-08-01",
+    "load_bearing": 7,
+    "rows": 13,
+    "status": "NON_RETROACTIVE",
+    "supporting": 6
+  }
+}

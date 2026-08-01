@@ -1,0 +1,41 @@
+{
+  "checks": 19,
+  "exact_counts": {
+    "action_cells": 26,
+    "claims": 182,
+    "completeness_cells": 10,
+    "cross_cutting": 8,
+    "different_method": 15,
+    "discoveries": 2,
+    "frozen_units": 37,
+    "overlay_load_bearing": 7,
+    "overlay_rows": 13,
+    "overlay_supporting": 6,
+    "package_clauses": 172,
+    "parser_or_regression": 6,
+    "production_catches": 7,
+    "production_checks": 23,
+    "source_inventory": 311
+  },
+  "failed": [
+    "clause_specific_source_location_1_of_172"
+  ],
+  "hashes": {
+    "cap": "ceecb5837ff8652c83c0ba72c67645182b1fd30f6e437026bd735c4d813bdfdf",
+    "independence_ledger": "926f35a5b79c568a63445e7fba049929866bd3f42dfb962bb26304aced946caa",
+    "independent_raw": "a18519e244b64185a03af00ceeebb29e0f5e26581fa0ef8c146e8bd7de5714e7",
+    "joint": "52bc430e16227cc60d73e312a916666e0d206c54dc90a0d7ca8914d6c01336e9",
+    "mechanical_claim_regrades": "48eca616c875a3848d655ce35eb6ba3efb09b81a2625c866b914af692f82d9c6",
+    "overlay": "217b3146488b82d0135fa7bd5d4d7cf45063ac4a7d2f7e44796352b2ece55f90",
+    "premise_quantifier_audit": "2ac6bf5ceda4c255901d9077b75756e264f7a146ed504d5f20177e48a5dcbe0c",
+    "production_raw": "f42622cbc7c4737febdb6c3bbb9b527d67dd5963d175b7812625a0f1ba9de5b8",
+    "production_verifier": "b7f864f057040d344339491e5f0156b1dacc0a6bbc4d4319553445a6bab65358",
+    "review_manifest": "9c36372c47f12cb2f561f997edb943bb262c78ca270f64522d5b2c264707cbce",
+    "review_results": "567bf42dda6a200b90c590a526bc2249d0330f173de4f7a428b539823914e7e3",
+    "source_manifest": "f150650c940e2d942a455234726ad3e3ce72b20bd175573a65ca0aeea34e8d85"
+  },
+  "passed": 18,
+  "review_base": "2e93a621aeeee0a0844543068363d0ba94094357",
+  "scope": "evidence-review closure only; no producer-headline repair, transitive preregistration, T4, adoption, science, GPU, physics, or canon action",
+  "verdict": "FURTHER-AMENDMENTS"
+}
