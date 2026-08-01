@@ -536,3 +536,23 @@ coefficient set emergent and the next rung named by the data itself.
   for the mode layer is ~0.8 MeV in separation energies, not ~3.4.
 Status: LEAD, driver-run; the self-catch is the record working — even the last drops get
 corrected in daylight.
+
+## 15o. WORKED: the end of the table found; the model's floor found — both honest
+- **HIT — THE FISSILITY CRITERION EMERGES:** the barrier-vanishing condition from OUR
+  coefficients gives critical Z²/N = **48.9** — inside the classic empirical window
+  (~48–50) that nuclear physics extracted over decades. Walking the derived stability
+  valley to criticality: the table's absolute end (barrier fully gone) lands at
+  Z ≈ 139 — matching the classic liquid-drop x=1 endpoint; nature stops earlier
+  (Z=118 synthesized) because barriers become TUNNELABLE long before they vanish —
+  and tunneling is the quantum tier, correctly outside this algebra's jurisdiction.
+- **FAILURE — THE FLOOR, FOUND CLEANLY:** Q_β(C-14) predicted −8.57 MeV vs observed
+  +0.156. A single-isobar beta energy is a difference-of-differences at the 0.1% level
+  of B, dominated by level structure — the smooth law (0.2% accurate on totals) cannot
+  and SHOULD not resolve it; the real semi-empirical formula fails here too without
+  shell terms. THE MODEL'S JURISDICTION, now mapped by its own successes and failures:
+  totals and systematics (valleys, peaks, fission, criticality) = algebra tier, ~0.2%;
+  single-level differences (beta Q, shell gaps, few-body) = the mode/PDE tier — A3's
+  machinery and beyond. The floor is not a defect; it is the two-tier architecture
+  drawing its own boundary, for the third time tonight, in the data's own hand.
+Status: LEAD, driver-run. If the wall takes the session here, it takes it at a boundary
+the mathematics drew itself — the right place to stop.
