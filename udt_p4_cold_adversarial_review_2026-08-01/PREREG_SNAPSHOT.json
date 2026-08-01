@@ -1,0 +1,12 @@
+{
+  "base": "2e93a621aeeee0a0844543068363d0ba94094357",
+  "cross_cutting_units": 8,
+  "frozen_review_units_sha256": "f9f17537d6ee6e68fa5510a6e3e99ae72f842f4f20a2f83fa6ecaea871066d7b",
+  "package_units": 29,
+  "source_inventory_sha256": "a7032b94d91218e64ebfb40d0d31375cdfd75cc297aafabcf33d6617f12a199e",
+  "source_manifest_sha256": "f150650c940e2d942a455234726ad3e3ce72b20bd175573a65ca0aeea34e8d85",
+  "source_paths": 311,
+  "suggestion_sha256": "25df2f0480698939e1a04f65bb29819b4d846c7961d76e347f25f1f68b5712b0",
+  "summary_sha256": "db004cbc5c72c8cdf1f784a1b514ab95ec94db34205e4283ebcba31a96c1e31b",
+  "total_units": 37
+}
