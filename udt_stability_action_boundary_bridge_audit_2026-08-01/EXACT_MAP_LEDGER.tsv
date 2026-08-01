@@ -1,0 +1,5 @@
+id	route	domain	codomain	registered_formula	exact_map_exists	result
+M01	C2_BACH_PRE_SCALE	unrestricted metric variations modulo gauge	conditional P4 tangent variables p,f,h,lambda/mu	NONE_REGISTERED	NO	no field/background/tangent pullback; no F01 boundary image
+M02	EH_POST_SCALE	post-scale metric variations modulo gauge	conditional P4 tangent variables p,f,h,lambda/mu	NONE_REGISTERED	NO	representative and background absent; no field or boundary pullback
+M03	TWO_STAGE_BRIDGE	pre-scale conformal class	post-scale representative then F01 P4 realization	DIAGRAM_ONLY	NO	selection arrow, dynamic matching, tangent map, and boundary map all open
+M04	P4_INTERNAL	conditional P4 field/action posture	F01 joint Hessian on named trace domains	EXACT_WITHIN_CONDITIONAL_MODEL	YES_CONDITIONAL_ONLY	does not identify the P4 model with C2, EH, or a native bridge

@@ -1,0 +1,18 @@
+{
+  "audit": "stability_action_boundary_bridge",
+  "authority_count": 14,
+  "base_commit": "3d136a8",
+  "c2_bach_current_applicability": "INACTIVE_WITHOUT_STRONG_CSN_PREMISE__COUNTERFACTUAL_ONLY",
+  "conditional_internal_p4_map_count": 1,
+  "control_count": 5,
+  "date": "2026-08-01",
+  "exact_map_count_from_action_routes": 0,
+  "gate_count_per_route": 12,
+  "gpu_used": false,
+  "maximum_conclusion": "The registered C2/Bach, EH, and proposed two-stage routes provide derivative-order and ordering analogies but no exact field, tangent, background, trace-domain, or boundary-Hessian map into F01. The F01 second wall germ remains open; no action, carrier, source, bootstrap operation, physical boundary, or stable matter is selected.",
+  "next_scientific_gate": "derive or select a native realized variation/boundary law before another global stability-family sweep",
+  "primary_outcome": "PARTIAL_ANALOGIES_ONLY__F01_BOUNDARY_BRIDGE_OPEN",
+  "route_count": 3,
+  "second_wall_germ_owner": "OPEN",
+  "source_count": 275
+}

@@ -1,0 +1,33 @@
+{
+  "authority_count": 14,
+  "base_commit": "3d136a8",
+  "c2_bach_gate_counts": {
+    "block": 9,
+    "conditional_analogy_only": 1,
+    "conditional_premise": 2
+  },
+  "cold_grade": "PASS_AFTER_REGISTERED_REPAIRS",
+  "computed_controls_passed": 5,
+  "computed_controls_total": 5,
+  "eh_gate_counts": {
+    "block": 10,
+    "conditional_analogy_only": 1,
+    "conditional_premise": 1
+  },
+  "exact_action_route_map_count": 0,
+  "frozen_manifest_members": 127,
+  "frozen_package_paths": 133,
+  "primary_outcome": "PARTIAL_ANALOGIES_ONLY__F01_BOUNDARY_BRIDGE_OPEN",
+  "repository_tests": "70 passed, 1 xfailed",
+  "route_gate_count": 36,
+  "semantic_catches_passed": 16,
+  "semantic_catches_total": 16,
+  "source_count": 275,
+  "status": "PASS",
+  "two_stage_gate_counts": {
+    "block": 12,
+    "conditional_analogy_only": 0,
+    "conditional_premise": 0
+  }
+}
+

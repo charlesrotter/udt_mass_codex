@@ -1,0 +1,14 @@
+{
+  "action_route_exact_map_count": 0,
+  "authority_count": 14,
+  "base_commit": "3d136a8",
+  "exact_controls_passed": 5,
+  "gates_per_route": 12,
+  "primary_outcome": "PARTIAL_ANALOGIES_ONLY__F01_BOUNDARY_BRIDGE_OPEN",
+  "routes": 3,
+  "second_wall_germ_owner": "OPEN",
+  "semantic_catches_passed": 16,
+  "semantic_catches_total": 16,
+  "source_count": 275,
+  "status": "PASS"
+}

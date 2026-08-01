@@ -1,0 +1,9 @@
+{
+  "excluded_generated_files": [
+    "PACKAGE_MANIFEST.sha256",
+    "PACKAGE_VERIFICATION_RESULT.json"
+  ],
+  "manifest_sha256": "6170c68ce79bd2a3880263ed52a071dfacd34350d8e17eb4507206dcb83872d3",
+  "manifested_files": 30,
+  "status": "PASS"
+}

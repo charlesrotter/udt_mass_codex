@@ -1,0 +1,9 @@
+id	obstruction	source_fact	effect
+O01	FIELD_IDENTITY	metric/coframe variations are not mapped to p,f,h,lambda/mu	blocks all three routes
+O02	BACKGROUND	no common C2/EH on-shell realization is proved for the F01 background	blocks Hessian transfer
+O03	VARIATION_DOMAIN	hard, multiplier, unrestricted-then-restrict, and restrict-then-vary routes are inequivalent	blocks tangent transfer
+O04	BOUNDARY_COMPLETION	C2 fourth-order and EH finite-cell boundary/corner completions remain open	blocks differentiability and charge transfer
+O05	TOTAL_DERIVATIVE	equal bulk Euler equations allow distinct boundary one-forms and Hessians	bulk route cannot own F01 second germ
+O06	TRACE_DOMAIN	R05/R06 and Dirichlet/free-right forks have no image under any candidate route	blocks exact F01 preservation
+O07	SCALE_ORDERING	EH requires an unselected representative; the two-stage selection and dynamic match are open	blocks post-scale and bridge routes
+O08	P4_CONDITIONALITY	the P4 response itself is conditional and its N4 layer is typed without an equation	prevents reverse promotion to native action

@@ -1,0 +1,6 @@
+id	control	construction	result	status
+C01	second_order_boundary_type	delta integral(1/2 u_prime^2) = integral(-u_doubleprime v) + [u_prime v]	one boundary trace v; no F01 field map follows	PASS
+C02	fourth_order_boundary_type	delta integral(1/2 u_doubleprime^2) = integral(u_fourth v) + [u_doubleprime v_prime-u_tripleprime v]	two boundary traces v and v_prime; no F01 field map follows	PASS
+C03	total_derivative_counterfamily	L_tilde=L+d(kappa u^2/2)/dx	same bulk Euler equation; boundary one-form shifts by kappa u v	PASS
+C04	boundary_hessian_nonuniqueness	second variation of [kappa u^2/2] along v is [kappa v^2]	bulk identity leaves an arbitrary boundary Hessian coefficient	PASS
+C05	map_type_separation	bulk equation equality != action reduction != boundary one-form pullback != boundary Hessian identity	none of the first three may be inferred from derivative order	PASS

@@ -1,0 +1,17 @@
+mutation	caught
+invent_C2_map	PASS
+invent_EH_map	PASS
+invent_two_stage_map	PASS
+promote_derivative_order_to_map	PASS
+invent_C2_boundary	PASS
+invent_EH_representative	PASS
+erase_R05_R06_block	PASS
+assign_second_germ_owner	PASS
+promote_P4_response	PASS
+adopt_bootstrap_operation	PASS
+promote_PONDER	PASS
+drop_route_gate	PASS
+duplicate_map	PASS
+promote_primary_outcome	PASS
+activate_C2_without_strong_CSN	PASS
+mutate_control_to_false_identity	PASS
