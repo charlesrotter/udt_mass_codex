@@ -1,0 +1,13 @@
+cell_id	cell	question
+C01	CONFIGURATION_EXISTENCE	Does a member exist in the exact registered family scope?
+C02	FIXED_OR_REALIZED_BACKGROUND	Is a stationary or realized background owned for the tested claim?
+C03	RESPONSE_OR_FUNCTIONAL	Is the response, Hessian, or functional owned without transfer?
+C04	BOUNDARY_OR_COMPLETION	Is the relevant boundary/completion domain owned?
+C05	PERTURBATION_DOMAIN	Is the perturbation or variation domain complete for the claim?
+C06	EXISTENCE_PRUNING	What branches are excluded by exact existence or closure constraints?
+C07	STATIC_OR_SECTOR_STABILITY	What static, reduced, or sector stability is actually established?
+C08	FULL_CERTIFICATE	Is a complete energetic or spectral certificate established in scope?
+C09	TIME_PERSISTENCE	Is physical time-live persistence derived and tested?
+C10	PHYSICAL_FINITE_CELL_COMPLETION	Is the physical finite-cell boundary or global completion owned?
+C11	BOOTSTRAP_MEMBERSHIP	Does an operational global-local selector admit or reject the family?
+C12	COMPUTATION_READINESS	What later computation, if any, is honestly specified now?

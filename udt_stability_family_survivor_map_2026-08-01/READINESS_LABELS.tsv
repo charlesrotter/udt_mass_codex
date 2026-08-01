@@ -1,0 +1,12 @@
+label	requirement
+NOT_APPLICABLE_EMPTY	The exact registered family domain is empty for the proposed test.
+CONTROL_ONLY	The object is a validation or nonisolation control, not a survivor candidate.
+BLOCKED_MISSING_FIXED_REALIZATION	No common fixed or on-shell background exists for the requested test.
+BLOCKED_MISSING_NATIVE_RESPONSE	The required response, action, or whole equation is not owned.
+BLOCKED_MISSING_BOUNDARY	The relevant physical boundary or completion is not owned.
+BLOCKED_MISSING_PERTURBATION_DOMAIN	The full variation or perturbation domain is not owned.
+BLOCKED_MISSING_TIME_EQUATION	A static or sector result exists but no physical time equation is owned.
+CPU_EXACT_CHECK_READY	An exact bounded algebraic cell is fully specified; execution remains separately unauthorized.
+CPU_BOUNDED_SOLVE_READY	Equation, domain, boundary, residual gate, and bounded range are all owned; execution remains separately unauthorized.
+GPU_READY	All CPU-solve prerequisites, anchors, resource controls, and independent validation route are owned; execution remains separately unauthorized.
+NEEDS_MANUAL_ADJUDICATION	The frozen evidence conflicts or does not uniquely determine operational readiness.

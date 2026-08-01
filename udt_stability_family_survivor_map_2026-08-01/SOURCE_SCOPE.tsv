@@ -1,0 +1,4 @@
+layer	expected_paths	rule
+PARENT_EFFECTIVE_SOURCE_UNIVERSE	1469	exact inherited effective freeze
+COMPLETE_PARENT_ATLAS_PACKAGE	44	all tracked parent-package files at base
+UNION	1513	sorted unique additions-only union

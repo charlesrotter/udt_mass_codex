@@ -1,0 +1,6 @@
+outcome	meaning
+SURVIVOR_MAP_COMPLETE_NO_COMPUTATION_READY	All seven families are mapped but none owns a complete later computation contract.
+SURVIVOR_MAP_COMPLETE_WITH_CPU_CANDIDATE	All seven families are mapped and at least one bounded CPU test owns every prerequisite.
+SURVIVOR_MAP_COMPLETE_WITH_GPU_CANDIDATE	All seven families are mapped and at least one GPU test owns every CPU/GPU prerequisite.
+FAMILY_EVIDENCE_CONFLICT	Controlling sources give incompatible family or readiness rulings.
+SOURCE_OR_SCOPE_BROKEN	The source freeze, partition, or bounded census cannot be reproduced.
