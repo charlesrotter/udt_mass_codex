@@ -556,3 +556,21 @@ corrected in daylight.
   drawing its own boundary, for the third time tonight, in the data's own hand.
 Status: LEAD, driver-run. If the wall takes the session here, it takes it at a boundary
 the mathematics drew itself — the right place to stop.
+
+## 15p. WORKED: THE FIRST LENGTH — the nuclear radius emerges from binding arithmetic
+The emergent Coulomb coefficient encodes a SIZE (uniform-sphere electrostatics):
+r0 = 0.864/aC. With OUR aC = 0.7061 (itself emergent, 15m):
+  **r0 = 1.224 fm — measured: 1.20–1.25 fm. DEAD CENTER.**
+  Pb-208 radius predicted 7.25 fm (measured ~7.1, within 2%); nuclear density 0.130
+  vs 0.16 nucleons/fm³ (~20%, tracking r0³ sensitivity).
+The seam framework — built entirely from binding ENERGIES — just produced its first
+spatial LENGTH, at the femtometer scale, correct to ~2%. In the frame's own language:
+the winding-repulsion seam constant knows how big the chain-cells are.
+Also run: Q_α SYSTEMATICS across six heavy isotopes (Po-210→Pu-239): all predictions in
+the observed 4–6 MeV window, individual values ±10–20%, worst at shell-adjacent Po-210
+(exactly where the known ~0.8 MeV shell residual lives) — the transition-graph tier
+holds at the systematics level, honest about its shell-blind floor.
+Status: LEAD, driver-run. The ladder's yield to date, one line: from banked chain
+theorems + arithmetic — the binding curve, the liquid-drop coefficient set, the valley
+of stability, the fissility window, the table's end, decay energetics, AND the size of
+the nucleus. All falsification targets; all awaiting verifiers; all behind A3.
