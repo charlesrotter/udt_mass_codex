@@ -1,0 +1,4 @@
+layer	expected_paths	rule
+PARENT_PREMISE_AUDIT_SOURCE_UNIVERSE	1424	exact inherited frozen inventory
+GLOBAL_LOCAL_PREMISE_PARENT_PACKAGE	42	complete tracked parent package at base
+UNION	1466	sorted unique additions-only union; generated atlas records excluded
