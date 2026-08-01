@@ -1,0 +1,10 @@
+{
+  "base": "c9c8b3848a7ff85b7941e803bf87c0ff48b9f98c",
+  "cold_review_tree": "d1254e1e018d55ead4b57696629163c3d0006db5",
+  "summary_sha256": "db004cbc5c72c8cdf1f784a1b514ab95ec94db34205e4283ebcba31a96c1e31b",
+  "overlay_sha256": "217b3146488b82d0135fa7bd5d4d7cf45063ac4a7d2f7e44796352b2ece55f90",
+  "overlay_rows": 13,
+  "load_bearing": 7,
+  "supporting": 6,
+  "authorized_existing_target": "P4_ARC_SUMMARY_2026-07-31.md"
+}

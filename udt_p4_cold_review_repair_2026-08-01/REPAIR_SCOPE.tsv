@@ -1,0 +1,3 @@
+repair_id	target	pre_mutation_sha256	old_text	new_text	allowed_change
+R-HEADLINE	P4_ARC_SUMMARY_2026-07-31.md	db004cbc5c72c8cdf1f784a1b514ab95ec94db34205e4283ebcba31a96c1e31b	K₄ = real points of the gauge-spent screen U(1)	the screen-character image {+1,-1}, not K₄ itself, is the real two-torsion of the gauge-spent screen U(1)	exact phrase substitution only
+R-FREEZE	udt_p4_cold_adversarial_review_2026-08-01/TRANSITIVE_DEPENDENCY_OVERLAY.tsv	217b3146488b82d0135fa7bd5d4d7cf45063ac4a7d2f7e44796352b2ece55f90	NON_RETROACTIVE_POST_OUTCOME_DEPENDENCY_RECORD	FORWARD_CORRECTION_FREEZE	copy all 13 identities and hashes into a new forward freeze; original overlay unchanged
