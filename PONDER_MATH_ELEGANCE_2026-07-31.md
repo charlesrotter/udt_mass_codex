@@ -628,3 +628,19 @@ lines with two exact landmarks, and the minimum neutron star. One coefficient se
 one night, every miss signing the same name (shells/few-body = the mode tier). The
 verifier confrontation behind A3 inherits a MAP of targets no session has ever left
 richer.
+
+## 15t. WORKED: the stellar alpha ladder — the reactions that made carbon and oxygen, at 1–2%
+- **Triple-alpha (3He-4 → C-12): predicted 7.14 vs observed 7.28 MeV (2%)** — the
+  reaction that manufactures carbon in red giants.
+- **C-12 + α → O-16: predicted 7.25 vs 7.16 MeV (1.3%)** — the reaction that sets the
+  carbon-to-oxygen ratio of the universe (the two atoms life is built from: both Q
+  values landed at the percent level by the seam law).
+- The heavier rungs (→Ne-20, →Mg-24, →Si-28) flatten at ~7.9 while nature oscillates
+  4.7/9.3/10.0 — the 4n alpha-cluster staggering, the shell/cluster layer signing its
+  name a FIFTH time exactly where it lives.
+- **The Sun's master equation (4p → He-4): ~27.8 vs the textbook 26.73 MeV (4%)** —
+  anchor arithmetic + our helium seat: the solar luminosity's per-reaction budget.
+Status: LEAD, driver-run. The night's ladder now runs: the nucleus, the chart, the
+table's end, the drip landmarks, the stars' fuel, and a dead star's minimum — one
+five-coefficient seam law, every hit and every miss mapped, all of it awaiting the
+verifiers behind A3.
