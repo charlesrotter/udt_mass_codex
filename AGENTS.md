@@ -32,17 +32,16 @@ after the user's actual task makes them load-bearing.
 3. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`. This is the current
    source-precedence index for high-risk foundational terms. It is not canon and cannot overrule
    `LIVE.md`; any disagreement between it, `LIVE.md`, and its cited source is a mandatory stop.
-4. `P4_ARC_SUMMARY_2026-07-31.md` — **the current scientific frontier**: 29 indexed P4 packages
-   through time-live T1–T3 and angular-live A1–A3, with commit × verdict, standing owner rulings,
-   open questions, and P4-era operational rules. Then read `ROADMAP_LINEAR_TIME_2026-07-31.md`,
-   `INFLIGHT_STATE.md`, and `udt_p4_angular_stage_A3_2026-07-31/AUDIT_REPORT.md`. A3 is complete
-   and `VERIFIED-WITH-CAVEATS`; its exact result and correction layer are in that package. Read
-   individual `udt_p4_*` packages only when their exact result becomes
-   load-bearing (each is self-contained: PREREGISTRATION → derivation → ledger → verifier record).
-   Then read `udt_p4_cold_adversarial_review_2026-08-01/AUDIT_REPORT.md` and
-   `udt_p4_cold_review_repair_2026-08-01/CLOSURE_REPORT.md`. The old review suggestion is
-   historical provenance. The next authorized work is a separately preregistered CPU-only
-   stability-foundations audit, not T4 or a stability solve.
+4. `udt_stability_family_ontology_audit_2026-08-01/AUDIT_REPORT.md` — **the current scientific
+   frontier**. Then read its `LAY_READOUT.md`, `FAMILY_ONTOLOGY_LEDGER.tsv`, `PREMISE_LEDGER.tsv`,
+   and `COLD_ADVERSARIAL_REVIEW.md`, followed by
+   `udt_stability_derivation_closure_sweep_2026-08-01/AUDIT_REPORT.md` and
+   `udt_global_local_self_consistency_premise_audit_2026-08-01/AUDIT_REPORT.md`. Read
+   `PONDER_MATH_ELEGANCE_2026-07-31.md` only when the stability-hypothesis interpretation is
+   relevant; it is conjectural framing, never a premise. `P4_ARC_SUMMARY_2026-07-31.md` and the
+   individual P4 packages are parent evidence and should be opened only when their exact algebra
+   becomes load-bearing. The next authorized work is a separately preregistered CPU-only audit of
+   the native realized configuration/variation space—not T4 or a stability solve.
 5. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay (pre-P4 overlay;
    historical context only).
 6. PRE-P4 (2026-07-28 morning, superseded as frontier — read only when load-bearing):
@@ -121,17 +120,14 @@ Then give Charles a short orientation report: actual HEAD and dirt, the current 
 premise stamps, the open gate, and the proposed bounded next action. Do not mutate files or launch a
 long solve until that orientation is complete.
 
-The bootstrap/stable-matter interpretation remains a working hypothesis. The current P4 arc has
-derived a nonempty stratified response-law space and carried it through time-live and angular-live
-pointwise layers without selecting one physical law. Its massive families, stability pruners,
-integer/noninteger results, and θ consequences retain their complete conditional premise stacks.
-A3's native angular winding census is complete: fixed architecture and continuous holonomy survive,
-but no solution-dependent native integer cuts either conditional massive carrier. The completion
-joins and on-shell coexistence remain open. The genuinely cold clean-context audit and its forward
-repair are complete. Its exact 32/148/1/1 regrades and fixed-realized on-shell open gate control
-future reuse. Charles has authorized a CPU-only preregistered stability-foundations audit; no
-action, response law, carrier, source, boundary, mass, bootstrap equation, T4 solve, or physical
-branch is adopted.
+The bootstrap/stable-matter interpretation remains a working hypothesis. The current ontology audit
+shows that `F01–F07` are operational evidence buckets of different kinds, not seven physical
+families. Only `F01`, `F02`, and `F04` are conditional realized-family rows; zero native realized
+families are known. P4 and conditional Hopfion stability results retain their distinct complete
+premise stacks. Bootstrap is a coherent `WORKING POSIT`, while observer Reciprocity supplies a
+naturality gate and not the missing return law. The authorized next audit asks what native realized
+configuration/variation space could support the stable-basin hypothesis. No action, response law,
+carrier, source, boundary, mass, bootstrap equation, T4 solve, or physical branch is adopted.
 
 The pre-P4
 higher-isometry audit refutes universal unique reciprocal-plane ownership within its bounded

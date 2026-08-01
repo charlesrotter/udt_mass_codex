@@ -2,6 +2,64 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
+**⚠ BRANCH: work is on `grok` (2026-08-01).** If not on it: `git checkout grok`.
+**This topmost CURRENT STATE block overrides every older status description.**
+
+## ============ CURRENT STATE (2026-08-01 — STABILITY FOUNDATION/ONTOLOGY CHAIN INTEGRATED; PARENT CONFIGURATION-SPACE GATE NEXT) ============
+
+**READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
+`udt_stability_family_ontology_audit_2026-08-01/AUDIT_REPORT.md` → its `LAY_READOUT.md`,
+`FAMILY_ONTOLOGY_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and cold review →
+`udt_stability_derivation_closure_sweep_2026-08-01/AUDIT_REPORT.md` →
+`udt_global_local_self_consistency_premise_audit_2026-08-01/AUDIT_REPORT.md` →
+`PONDER_MATH_ELEGANCE_2026-07-31.md` (ponder only; especially §§1, 3–4, 7, 14, 20) →
+the older P4 summary and exact packages only when load-bearing.
+
+**INTEGRATED RESULT:** the complete 26-commit stability-foundation chain is banked through the
+family ontology audit. The seven inherited labels are an
+`OPERATIONAL_EVIDENCE_MAP_NOT_SOLUTION_PARTITION`, not seven physical families or species. There
+are exactly three conditional realized-family rows (`F01`, `F02`, `F04`) and zero native realized
+families. `F03` is a control union, `F05` a structural completion class, `F06` a union of exact
+empty scopes, and `F07` a formal module class. No readiness was promoted.
+
+**WHAT SURVIVES:** the exact P4 pruning results and the corrected full-3D Hopfion's static
+finite-box stability survive unchanged inside their distinct premise stacks. `F01` retains one
+narrow lambda-Schur CPU check, but that check cannot test the global stability hypothesis. The
+formal static/time/angular modules remain exact compatibility data; they are not one realized live
+solution. The round `S2` carrier remains `POSIT`; `L2+L4`, census, pairing, posture, parity,
+normalization, and computational boundary choices remain explicit conditions.
+
+**BOOTSTRAP RULING:** global/local self-consistency is a coherent `WORKING POSIT`, not a derived
+operation. Reciprocity derives the naturality/equivariance gate that any future closure law must
+pass, but it does not supply the law. Current geometric readouts do not determine their own
+nonidentity return relation. Repeating the same finiteness/readout/symmetry implication chain would
+be circular.
+
+**PONDER INTERPRETATION:** the durable conjectural picture is taxonomy × stable basin: compact
+geometry may supply discrete labels, stability may prune the catalog, and mass may be a property of
+isolated nonlinear basins and global closure. The saturation/Compton identification remains a
+`LEAD`; the nuclear ladder is `CONSISTENCY-DEMO / REIMPLEMENTATION`, not UDT validation. PONDER is
+imagination fuel and never a premise.
+
+**OPEN GATE / AUTHORIZED NEXT ACTION:** before a broad stability calculation, determine what native
+realized configuration and variation space the metric actually defines, and how stationary,
+completion, topological, and time-live structures sit inside it. The bounded next work is a
+preregistered CPU-only, metric-led ownership audit of that parent space. It must keep the
+constants-versus-fields census fork open unless derived, distinguish configuration existence from
+on-shell realization, and stop if existing evidence supplies no selector. It is not permission to
+invent a response law, adopt bootstrap as an equation, run T4/GPU work, or promote the F01 check to
+a hypothesis test.
+
+**AUTHORITY BOUNDARY:** complete native action, response/source law, differentiable physical
+boundary, carrier emergence, time persistence, bootstrap membership rule, unconditional mass, and
+physical family/species count remain `OPEN`. No canonization or repository reorganization.
+
+<!-- STARTUP_CURRENT_END -->
+
+## PRIOR CURRENT — P4 cold review and repair closed; stability-foundations audit authorized
+
+<!-- STARTUP_PRIOR_BEGIN -->
+
 **⚠ BRANCH: work is on `grok` (2026-08-01).** If not on it: `git checkout grok`. `main` is stale for this arc.
 **The topmost CURRENT STATE block below is the only current frontier** — read it and stop.
 Stale frontier layers: `archive/LIVE_prior_layers_through_2026-07-31.md` (07-20→07-29 blocks + the
@@ -159,7 +217,7 @@ bootstrap equation; it is not T4, a stability solve, adoption, GPU work, or cano
 action/response/field as physics, crowning any candidate, settling the census by anything but
 derivation-or-Charles, carrier/source/bootstrap adoption, canonization beyond his sign-offs.
 
-<!-- STARTUP_CURRENT_END -->
+<!-- STARTUP_PRIOR_END -->
 
 ## Binding method (never skip)
 - CLAUDE.md "How we work": MAP / OBSERVE / PONDER are primary, DERIVE is gated. Let structure

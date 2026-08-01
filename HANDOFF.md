@@ -2,6 +2,56 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
+> **READ `LIVE.md` FIRST.** It wins every disagreement.
+>
+> **⚠ BRANCH: `grok` (2026-08-01).** Synchronize it before orientation.
+
+## CURRENT — stability foundation/ontology chain integrated
+
+**Fresh-entry path:**
+
+1. `LIVE.md` topmost current block.
+2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+3. `udt_stability_family_ontology_audit_2026-08-01/AUDIT_REPORT.md`, then its lay readout,
+   ontology ledger, premise ledger, and cold review.
+4. `udt_stability_derivation_closure_sweep_2026-08-01/AUDIT_REPORT.md` and
+   `udt_global_local_self_consistency_premise_audit_2026-08-01/AUDIT_REPORT.md`.
+5. `PONDER_MATH_ELEGANCE_2026-07-31.md` as conjectural framing only, especially §§1, 3–4, 7,
+   14, and 20. It is not evidence or a premise.
+6. `P4_ARC_SUMMARY_2026-07-31.md` and exact P4 packages only when their algebra becomes
+   load-bearing; CLAUDE.md method sections and task-triggered protocols always apply.
+
+**Current honest result:** `F01–F07` are operational evidence buckets of different logical kinds,
+not a solution-space partition or species list. Only `F01`, `F02`, and `F04` are conditional
+realized-family rows; zero native realized families are known. The P4 pruning algebra and
+conditional static finite-box Hopfion result survive unchanged inside separate premise stacks. No
+common native stability operator, physical boundary, time-persistence law, or bootstrap selector is
+derived.
+
+**Bootstrap status:** global/local mutual determination is a coherent `WORKING POSIT`. Observer
+Reciprocity constrains a future law to be natural/equivariant, but does not create the missing
+nonidentity return law. The same frozen readout/finiteness/symmetry routes are exhausted; repeating
+them would be circular.
+
+**PONDER meaning:** the hypothesis is taxonomy × stable basin. Discrete structures may label
+candidate sectors; stability may prune them; mass may be a basin/global-closure property. The
+saturation/Compton reading is a lead. The nuclear ladder is consistency-demo/reimplementation.
+
+**Authorized bounded next action:** preregister a CPU-only, metric-led audit of the parent native
+realized configuration/variation space required to define a stable basin. It must adjudicate, not
+assume, the constants-versus-fields census and the relation among stationary, completion,
+topological, and time-live structures. It must stop at `OPEN` if no native selector exists. No
+response law, bootstrap equation, action, carrier, boundary, mass, T4, or GPU work is adopted.
+
+**Operational baseline:** preregistration → bounded derivation → independent adversarial replay →
+premise audit → bank and push. Tests: 70 passed / 1 xfailed.
+
+<!-- STARTUP_CURRENT_END -->
+
+## PRIOR CURRENT — P4 cold review and repair closed
+
+<!-- STARTUP_PRIOR_BEGIN -->
+
 > **READ `LIVE.md` FIRST** — only guaranteed-current frontier + next action.
 > If this file disagrees with LIVE.md, **LIVE.md wins.**
 >
@@ -68,7 +118,7 @@ agent deaths taught this); anti-hang (CLAUDE.md); the verifier pipeline
 bank+push); pre-work discussion with Charles in LAY language (binding); hypothesis
 discipline (his pictures are direction, not evidence). pytest: 70 passed / 1 xfailed.
 
-<!-- STARTUP_CURRENT_END -->
+<!-- STARTUP_PRIOR_END -->
 
 ## PRIOR CURRENT (2026-07-28 — higher-isometry reciprocal-plane audit complete)
 

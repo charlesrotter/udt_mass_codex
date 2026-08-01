@@ -1,15 +1,14 @@
 # UDT repository
 
-**⚠ CURRENT ORIENTATION SPINE (2026-08-01 — READ THIS CHAIN, it supersedes the older
-chain below):** `LIVE.md` topmost block → `HANDOFF.md` current block → current premise registry →
-`P4_ARC_SUMMARY_2026-07-31.md` (29 indexed packages through A3) →
-`ROADMAP_LINEAR_TIME_2026-07-31.md` → `INFLIGHT_STATE.md` → the A3 audit report.
-A3 is banked and verified with caveats. The clean-context review and repair are complete; read
-`udt_p4_cold_adversarial_review_2026-08-01/AUDIT_REPORT.md` and
-`udt_p4_cold_review_repair_2026-08-01/CLOSURE_REPORT.md`. The next authorized work is a
-preregistered CPU-only stability-foundations audit, not T4 or a stability solve. The orientation
-chain below this point is PRE-P4 (2026-07-28 morning and earlier) — historical context
-only; its "latest result" claims are superseded by the P4 arc.
+**⚠ CURRENT ORIENTATION SPINE (2026-08-01):** `LIVE.md` topmost block → `HANDOFF.md` current
+block → current premise registry →
+`udt_stability_family_ontology_audit_2026-08-01/AUDIT_REPORT.md` and its lay/ledger/cold-review
+evidence → `udt_stability_derivation_closure_sweep_2026-08-01/AUDIT_REPORT.md` →
+`udt_global_local_self_consistency_premise_audit_2026-08-01/AUDIT_REPORT.md`.
+`PONDER_MATH_ELEGANCE_2026-07-31.md` is conjectural framing, never authority. The older P4 arc and
+pre-P4 chain below are parent evidence only. The next bounded work is a CPU-only audit of the native
+realized configuration/variation space required by the stable-basin hypothesis—not T4 or a
+stability solve.
 
 
 This root is the control and navigation surface for the UDT research record.

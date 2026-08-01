@@ -3,6 +3,24 @@
 **⚠ BRANCH: `grok` (2026-08-01)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
+**➤ CURRENT SCIENTIFIC FRONTIER — STABILITY FOUNDATION/ONTOLOGY CHAIN:**
+`udt_stability_family_ontology_audit_2026-08-01/AUDIT_REPORT.md` is the current evidence-linked
+checkpoint. Read its lay readout, family ontology ledger, premise ledger, and cold review, then
+`udt_stability_derivation_closure_sweep_2026-08-01/AUDIT_REPORT.md` and
+`udt_global_local_self_consistency_premise_audit_2026-08-01/AUDIT_REPORT.md`.
+
+The inherited `F01–F07` labels are an operational evidence map, not seven solution families or
+species. `F01`, `F02`, and `F04` are three conditional realized-family rows; zero native realized
+families are known. P4 and conditional finite-box Hopfion stability results retain their separate
+premise stacks. Bootstrap is a coherent `WORKING POSIT`, while Reciprocity supplies only the
+naturality gate on a future law. The next authorized bounded audit asks what native realized
+configuration/variation space could support the stable-basin hypothesis. No T4/GPU solve, action,
+carrier, boundary, bootstrap equation, mass, or physical family count is adopted.
+
+`PONDER_MATH_ELEGANCE_2026-07-31.md` remains conjectural framing only. Its durable picture is
+taxonomy × stable basin; its saturation/Compton reading is a lead, and its nuclear ladder is a
+consistency-demo/reimplementation after §20's adversarial correction.
+
 **➤ CURRENT FOUNDATIONAL PREMISE PRECEDENCE:**
 `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`, followed by
 `udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md`.
@@ -16,7 +34,7 @@ challenged/not-derived and inactive without explicit owner reauthorization; meas
 bootstrap, Maxwell-like, `X_max`, Hopfion, source, boundary, and mass scopes. Conflict means stop;
 older files do not override the registry's cited controlling evidence.
 
-**➤ CURRENT SCIENTIFIC FRONTIER (2026-08-01 — P4 cold-reviewed and repaired):**
+**➤ PARENT P4 SCIENTIFIC FRONTIER (2026-08-01 — cold-reviewed and repaired):**
 **`P4_ARC_SUMMARY_2026-07-31.md`** — the 2026-07-28→08-01 response-framework program: 29 indexed
 packages (package × commit × verdict ledger), the standing owner rulings (θ-adoption DEFERRED;
 TIME FIRST; the owner-kernel provenance correction), the open questions, and the operational
@@ -27,8 +45,8 @@ record). The clean-context review is complete in
 `udt_p4_cold_adversarial_review_2026-08-01/` and its repair is closed in
 `udt_p4_cold_review_repair_2026-08-01/`: 32 retained, 148 narrowed, 1 contradicted, 1 open;
 the K4/U(1) headline is corrected and 13 transitive dependencies are forward-frozen without
-retroactive preregistration. The next authorized action is a preregistered CPU-only
-stability-foundations audit, not T4 or a stability solve.
+retroactive preregistration. Its former next-action wording is superseded by the integrated
+stability foundation/ontology checkpoint above.
 
 SUPERSEDED-AS-FRONTIER (pre-P4, 2026-07-28 morning): `udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md`
 (the higher-isometry audit — still valid as banked evidence, no longer the frontier) and

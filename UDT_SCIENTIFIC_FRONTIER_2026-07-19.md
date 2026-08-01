@@ -4,14 +4,14 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
-## August 1 P4 precedence notice
+## August 1 stability-ontology precedence notice
 
 This file is pre-P4 context, not the current frontier. Current orientation is `LIVE.md` →
-`HANDOFF.md` → the current premise registry → `P4_ARC_SUMMARY_2026-07-31.md` → the cold-review
-and repair reports → `ROADMAP_LINEAR_TIME_2026-07-31.md` → `INFLIGHT_STATE.md`. A3 and the
-post-A3 cold review are complete; the K4/U(1) wording and transitive-freeze defects are repaired.
-The authorized next work is a separately preregistered CPU-only stability-foundations audit. The older
-"current authority" headings below are retained only as historical layer labels.
+`HANDOFF.md` → the current premise registry → the stability-family ontology audit and its cited
+closure/premise parents. The integrated result is an operational evidence map, not a seven-family
+solution partition; only three rows are conditional realized families and zero are native. The next
+bounded work is the parent native realized configuration/variation-space audit. The older "current
+authority" headings below are retained only as historical layer labels.
 
 ## July 28 higher-isometry reciprocal-plane ownership — current authority
 
