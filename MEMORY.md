@@ -8,18 +8,20 @@
 
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block, then the marked current
 block in `HANDOFF.md`, `CURRENT_SCIENTIFIC_PREMISES.md`, `CURRENT_SCIENTIFIC_PREMISES.tsv`, and
-`udt_stability_family_ontology_audit_2026-08-01/AUDIT_REPORT.md` with its cited closure and
-global/local premise parents. Expand into P4 packages only when load-bearing. The July 28 frontier
-and external-review brief are pre-P4 context, not current navigation authority.
+`udt_native_stability_configuration_space_audit_2026-08-01/AUDIT_REPORT.md`, then
+`udt_f01_lambda_schur_check_2026-08-01/AUDIT_REPORT.md` with its lay report, ledgers, precision
+repair, and independent result. Expand into P4/action packages only when load-bearing. The July 28
+frontier and external-review brief are pre-P4 context, not current navigation authority.
 
-Current honest status: the stability foundation/ontology chain is integrated. `F01–F07` are
-operational evidence buckets, not a physical solution partition. Exactly three rows are conditional
-realized families and zero are native. The P4 pruning and conditional static finite-box Hopfion
-results survive with separate premise stacks. Bootstrap is a coherent working posit, not a derived
-operation; Reciprocity constrains a future law without supplying it. The next bounded work audits
-the native realized configuration/variation space required to define a stable basin. The nuclear
-ladder remains `CONSISTENCY-DEMO / REIMPLEMENTATION` and the saturation/Compton reading remains a
-lead.
+Current honest status: the metric supplies a native typed off-shell coframe arena but no selected
+realized variation/response/boundary. `F01–F07` remain operational evidence buckets; exactly three
+rows are conditional realized families and zero are native. F01 is locally closed under its
+conditional germ-flat premises: R05 Schur positive, R06 joint witness negative, all four joint
+indices one, hence no local joint-stable survivor. Bootstrap remains a working posit and PONDER a
+conjectural interpretation. The next bounded work tests whether existing conditional `C2/Bach`,
+`EH`, or two-stage variation routes legitimately supply the missing F01 tangent/boundary germ.
+The nuclear ladder remains `CONSISTENCY-DEMO / REIMPLEMENTATION` and the saturation/Compton reading
+remains a lead.
 
 Premise guards remain: founded `phi` is derived reciprocal depth; strong local CSN is inactive;
 `c_E` and `G_obs` are observed anchors; bootstrap is a lens, not a filter; θ and the `S2` carrier

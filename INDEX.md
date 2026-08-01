@@ -3,19 +3,22 @@
 **⚠ BRANCH: `grok` (2026-08-01)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — STABILITY FOUNDATION/ONTOLOGY CHAIN:**
-`udt_stability_family_ontology_audit_2026-08-01/AUDIT_REPORT.md` is the current evidence-linked
-checkpoint. Read its lay readout, family ontology ledger, premise ledger, and cold review, then
-`udt_stability_derivation_closure_sweep_2026-08-01/AUDIT_REPORT.md` and
-`udt_global_local_self_consistency_premise_audit_2026-08-01/AUDIT_REPORT.md`.
+**➤ CURRENT SCIENTIFIC FRONTIER — NATIVE PARENT ARENA + F01 SCHUR TILE:**
+Read `udt_native_stability_configuration_space_audit_2026-08-01/AUDIT_REPORT.md`, then
+`udt_f01_lambda_schur_check_2026-08-01/AUDIT_REPORT.md` and its lay report, ledgers, precision
+repair, and independent result.
 
-The inherited `F01–F07` labels are an operational evidence map, not seven solution families or
-species. `F01`, `F02`, and `F04` are three conditional realized-family rows; zero native realized
-families are known. P4 and conditional finite-box Hopfion stability results retain their separate
-premise stacks. Bootstrap is a coherent `WORKING POSIT`, while Reciprocity supplies only the
-naturality gate on a future law. The next authorized bounded audit asks what native realized
-configuration/variation space could support the stable-basin hypothesis. No T4/GPU solve, action,
-carrier, boundary, bootstrap equation, mass, or physical family count is adopted.
+The founded complete metric/coframe supplies a native typed off-shell arena, but no selected
+realized variation, response, persistence, or physical boundary. The inherited `F01–F07` labels
+remain an operational evidence map; three rows are conditional realized families and zero are
+native. The F01 local lambda/mu question is now closed across all four owned conditional domains:
+R05 Schur signs are positive, R06 has exact negative joint witnesses, and every joint index is one.
+There is no F01 local joint-stable survivor under the named P4/`ell=1`/trace/germ-flat premises.
+
+The next bounded audit asks whether the already-conditional pre-scale `C2/Bach` or post-scale `EH`
+variation domains legitimately induce the missing F01 tangent/boundary germ, including a possible
+two-stage bridge. No action adoption, invented N4 law, T4/GPU solve, carrier, bootstrap equation,
+mass, or physical family count is authorized.
 
 `PONDER_MATH_ELEGANCE_2026-07-31.md` remains conjectural framing only. Its durable picture is
 taxonomy × stable basin; its saturation/Compton reading is a lead, and its nuclear ladder is a

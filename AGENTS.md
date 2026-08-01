@@ -32,16 +32,16 @@ after the user's actual task makes them load-bearing.
 3. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`. This is the current
    source-precedence index for high-risk foundational terms. It is not canon and cannot overrule
    `LIVE.md`; any disagreement between it, `LIVE.md`, and its cited source is a mandatory stop.
-4. `udt_stability_family_ontology_audit_2026-08-01/AUDIT_REPORT.md` — **the current scientific
-   frontier**. Then read its `LAY_READOUT.md`, `FAMILY_ONTOLOGY_LEDGER.tsv`, `PREMISE_LEDGER.tsv`,
-   and `COLD_ADVERSARIAL_REVIEW.md`, followed by
-   `udt_stability_derivation_closure_sweep_2026-08-01/AUDIT_REPORT.md` and
-   `udt_global_local_self_consistency_premise_audit_2026-08-01/AUDIT_REPORT.md`. Read
+4. `udt_native_stability_configuration_space_audit_2026-08-01/AUDIT_REPORT.md` and
+   `udt_f01_lambda_schur_check_2026-08-01/AUDIT_REPORT.md` — **the current scientific frontier**.
+   Then read their named exact ledgers and cold review/results. Read the stability-family ontology,
+   derivation-closure, and global/local premise audits when their typing is load-bearing. Read
    `PONDER_MATH_ELEGANCE_2026-07-31.md` only when the stability-hypothesis interpretation is
    relevant; it is conjectural framing, never a premise. `P4_ARC_SUMMARY_2026-07-31.md` and the
-   individual P4 packages are parent evidence and should be opened only when their exact algebra
-   becomes load-bearing. The next authorized work is a separately preregistered CPU-only audit of
-   the native realized configuration/variation space—not T4 or a stability solve.
+   individual P4/action packages are parent evidence and should be opened only when their exact
+   algebra becomes load-bearing. The next authorized work is a separately preregistered CPU-only
+   compatibility audit of the conditional `C2/Bach`, `EH`, and possible two-stage variation routes
+   against the missing F01 boundary/tangent object—not action adoption, T4, or a stability solve.
 5. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay (pre-P4 overlay;
    historical context only).
 6. PRE-P4 (2026-07-28 morning, superseded as frontier — read only when load-bearing):
@@ -120,14 +120,13 @@ Then give Charles a short orientation report: actual HEAD and dirt, the current 
 premise stamps, the open gate, and the proposed bounded next action. Do not mutate files or launch a
 long solve until that orientation is complete.
 
-The bootstrap/stable-matter interpretation remains a working hypothesis. The current ontology audit
-shows that `F01–F07` are operational evidence buckets of different kinds, not seven physical
-families. Only `F01`, `F02`, and `F04` are conditional realized-family rows; zero native realized
-families are known. P4 and conditional Hopfion stability results retain their distinct complete
-premise stacks. Bootstrap is a coherent `WORKING POSIT`, while observer Reciprocity supplies a
-naturality gate and not the missing return law. The authorized next audit asks what native realized
-configuration/variation space could support the stable-basin hypothesis. No action, response law,
-carrier, source, boundary, mass, bootstrap equation, T4 solve, or physical branch is adopted.
+The bootstrap/stable-matter interpretation remains a working hypothesis. The native complete
+coframe supplies an off-shell parent arena but no selected variation/response/boundary law. The F01
+lambda/mu audit closes all four owned local domains at joint index one and removes the apparent
+odd-pinned positive survivor in that exact conditional germ-flat scope. This does not select a
+physical boundary or refute the larger hypothesis. The next audit may test whether existing
+conditional action routes map into that missing object; no action, response law, carrier, source,
+boundary, mass, bootstrap equation, T4 solve, or physical branch is adopted.
 
 The pre-P4
 higher-isometry audit refutes universal unique reciprocal-plane ownership within its bounded

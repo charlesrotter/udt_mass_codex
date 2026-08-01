@@ -5,54 +5,54 @@
 **⚠ BRANCH: work is on `grok` (2026-08-01).** If not on it: `git checkout grok`.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-01 — STABILITY FOUNDATION/ONTOLOGY CHAIN INTEGRATED; PARENT CONFIGURATION-SPACE GATE NEXT) ============
+## ============ CURRENT STATE (2026-08-01 — NATIVE PARENT ARENA + F01 LOCAL SCHUR TILE VERIFIED; NATIVE VARIATION/BOUNDARY BRIDGE NEXT) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_stability_family_ontology_audit_2026-08-01/AUDIT_REPORT.md` → its `LAY_READOUT.md`,
-`FAMILY_ONTOLOGY_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and cold review →
-`udt_stability_derivation_closure_sweep_2026-08-01/AUDIT_REPORT.md` →
-`udt_global_local_self_consistency_premise_audit_2026-08-01/AUDIT_REPORT.md` →
-`PONDER_MATH_ELEGANCE_2026-07-31.md` (ponder only; especially §§1, 3–4, 7, 14, 20) →
-the older P4 summary and exact packages only when load-bearing.
+`udt_native_stability_configuration_space_audit_2026-08-01/AUDIT_REPORT.md` and its cold review →
+`udt_f01_lambda_schur_check_2026-08-01/AUDIT_REPORT.md`, `LAY_REPORT.md`, status/premise ledgers,
+precision repair, and independent result → `udt_stability_family_ontology_audit_2026-08-01/AUDIT_REPORT.md`
+and the closure/global-local parents → `PONDER_MATH_ELEGANCE_2026-07-31.md` only as conjectural
+framing, especially §§1, 3–4, 7, 14, and 20.
 
-**INTEGRATED RESULT:** the complete 26-commit stability-foundation chain is banked through the
-family ontology audit. The seven inherited labels are an
-`OPERATIONAL_EVIDENCE_MAP_NOT_SOLUTION_PARTITION`, not seven physical families or species. There
-are exactly three conditional realized-family rows (`F01`, `F02`, `F04`) and zero native realized
-families. `F03` is a control union, `F05` a structural completion class, `F06` a union of exact
-empty scopes, and `F07` a formal module class. No readiness was promoted.
+**NATIVE PARENT RESULT:** `NATIVE_OFFSHELL_PARENT_ARENA_DERIVED__REALIZATION_VARIATION_OPEN`.
+The founded complete metric/coframe supplies a genuine nonempty typed off-shell arena with the
+reciprocal pair plus angular/mixing slots modulo presentation gauge. It does not select a realized
+variation/tangent domain, response or persistence flow, physical boundary, common on-shell object,
+carrier embedding, or bootstrap return. The three realized evidence rows remain conditional and
+zero native realized stability families are known.
 
-**WHAT SURVIVES:** the exact P4 pruning results and the corrected full-3D Hopfion's static
-finite-box stability survive unchanged inside their distinct premise stacks. `F01` retains one
-narrow lambda-Schur CPU check, but that check cannot test the global stability hypothesis. The
-formal static/time/angular modules remain exact compatibility data; they are not one realized live
-solution. The round `S2` carrier remains `POSIT`; `L2+L4`, census, pairing, posture, parity,
-normalization, and computational boundary choices remain explicit conditions.
+**F01 RESULT (commit `42aed84`):** the unique conditional massive crease root is
+`1.68102 < s* < 1.68103`. Across both owned `p` endpoint domains, R05/free angular traces have a
+strictly positive lambda/mu Schur scalar, while R06/supplied odd zero traces have exact strictly
+negative joint witnesses. All four full local conditional joint indices equal one. The apparent R06
+positive survivor was a reduced field slice with `mu` frozen. Outcome:
+`SCHUR_SIGN_MIXED_ACROSS_OWNED_BRANCHES`; verified with nested 80/100-digit primary intervals,
+independent 90/100-digit reconstruction, 14/14 cold catches, six frozen manifests, and the 70/1
+test baseline.
 
-**BOOTSTRAP RULING:** global/local self-consistency is a coherent `WORKING POSIT`, not a derived
-operation. Reciprocity derives the naturality/equivariance gate that any future closure law must
-pass, but it does not supply the law. Current geometric readouts do not determine their own
-nonidentity return relation. Repeating the same finiteness/readout/symmetry implication chain would
-be circular.
+**INTERPRETATION:** F01 has no local joint-stable survivor under the conditional P4 response,
+`ell=1`, the named supplied trace forks, and germ-Hessian-flat wall witnesses. This is a scoped
+negative, not a refutation of UDT matter or the global stability hypothesis. It demonstrates that
+stability cannot be inferred from a favorable slice while an allowed global coordinate is frozen.
+The free second wall germ and physical boundary remain unowned; the banked jet<=2 layer proves this
+nonownership, while N4 is typed but supplies no equation.
 
-**PONDER INTERPRETATION:** the durable conjectural picture is taxonomy × stable basin: compact
-geometry may supply discrete labels, stability may prune the catalog, and mass may be a property of
-isolated nonlinear basins and global closure. The saturation/Compton identification remains a
-`LEAD`; the nuclear ladder is `CONSISTENCY-DEMO / REIMPLEMENTATION`, not UDT validation. PONDER is
-imagination fuel and never a premise.
+**PONDER RULING:** taxonomy × stable basin and action-downstream-of-global/local-closure remain
+working interpretations only. The conditional Compton-form edge is a lead. The nuclear ladder is
+`CONSISTENCY-DEMO / REIMPLEMENTATION`, chiefly standard SEMF/WKB structure, and supplies no native
+UDT physics. PONDER is never an input to a derivation.
 
-**OPEN GATE / AUTHORIZED NEXT ACTION:** before a broad stability calculation, determine what native
-realized configuration and variation space the metric actually defines, and how stationary,
-completion, topological, and time-live structures sit inside it. The bounded next work is a
-preregistered CPU-only, metric-led ownership audit of that parent space. It must keep the
-constants-versus-fields census fork open unless derived, distinguish configuration existence from
-on-shell realization, and stop if existing evidence supplies no selector. It is not permission to
-invent a response law, adopt bootstrap as an equation, run T4/GPU work, or promote the F01 check to
-a hypothesis test.
+**AUTHORIZED NEXT ACTION:** no further blind family scan is justified. Preregister a CPU-only
+compatibility audit asking whether the already-adjudicated conditional pre-scale `C2/Bach` or
+post-scale `EH` variation domains induce the missing F01 tangent/boundary-germ object, and whether a
+two-stage bridge supplies a legitimate map. Carry P4/action incompatibility as a first-class stop.
+Do not adopt either action, invent N4 data, transfer a boundary operator across unrelated objects,
+or claim global stability. If no exact map exists, stop with the bridge open.
 
 **AUTHORITY BOUNDARY:** complete native action, response/source law, differentiable physical
-boundary, carrier emergence, time persistence, bootstrap membership rule, unconditional mass, and
-physical family/species count remain `OPEN`. No canonization or repository reorganization.
+boundary, carrier emergence, time persistence, bootstrap membership/return, unconditional mass,
+and physical family/species count remain `OPEN`. No GPU work, canonization, or repository
+reorganization.
 
 <!-- STARTUP_CURRENT_END -->
 

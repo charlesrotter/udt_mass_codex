@@ -4,14 +4,15 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
-## August 1 stability-ontology precedence notice
+## August 1 native-parent and F01 precedence notice
 
 This file is pre-P4 context, not the current frontier. Current orientation is `LIVE.md` →
-`HANDOFF.md` → the current premise registry → the stability-family ontology audit and its cited
-closure/premise parents. The integrated result is an operational evidence map, not a seven-family
-solution partition; only three rows are conditional realized families and zero are native. The next
-bounded work is the parent native realized configuration/variation-space audit. The older "current
-authority" headings below are retained only as historical layer labels.
+`HANDOFF.md` → the current premise registry → the native stability configuration-space audit → the
+F01 lambda/mu Schur audit. The metric supplies a native typed off-shell arena but no selected
+variation/boundary law. F01's four owned conditional local domains all have joint index one; this is
+not native/global stability. The next bounded work is the conditional-action-to-F01
+variation/boundary compatibility audit. The older "current authority" headings below are retained
+only as historical layer labels.
 
 ## July 28 higher-isometry reciprocal-plane ownership — current authority
 
