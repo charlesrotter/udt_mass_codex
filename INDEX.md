@@ -5,7 +5,8 @@
 
 **➤ CURRENT SCIENTIFIC FRONTIER — F02 COMPLETION GATE NARROWED; TRANSITION/JOIN DATA OPEN:**
 Read `udt_f02_global_completion_admissibility_2026-08-01/AUDIT_REPORT.md`, its lay report,
-exact derivation, completion census, and external-review status; then read
+exact derivation, and completion census, then its append-only external-review closure in
+`udt_f02_global_completion_admissibility_review_2026-08-01/`; then read
 `udt_f02_stationary_simultaneous_realization_2026-08-01/AUDIT_REPORT.md`, its lay report,
 exact derivation, condition ledger, and cold-review closure; then read
 `udt_post_july_mass_branch_reconciliation_2026-08-01/AUDIT_REPORT.md`, its lay report,
@@ -20,6 +21,11 @@ F01 form, conditionally stabilize an F02 sector, or remove F02 through completio
 physical mass or selects a family. The package passes 20 source hashes, 14/14 catches, and an
 external `CLOSED-PASS` after removing an unsupported priority ranking.
 
+This is explicitly a plural branch ecology, not a search for one winner. Different mathematical
+families may eventually map to massive, massless/force, interface, or macro sectors. Those physical
+identifications are conjectural until a common metric-native admissibility/completion/response
+grammar and family-specific realizations exist.
+
 F02 simultaneous realization, F01 full boundary/Hessian closure, F04 carrier-time-boundary
 closure, and F07 common realization remain separate open gates. No one is presently ranked above
 the others without an explicit criterion.
@@ -32,8 +38,10 @@ common-response cycles and regular caps kill the affine slopes (the cap result d
 transition/response and seam laws are not registered; mixed joins share that gap. The result is
 `OPEN_INCOMPLETE_REGISTERED_CLOSURE_DATA`: no complete nonzero witness and no exhaustive no-go.
 The package passes 10/10 primary checks, independent local verification, 13/13 catches, frozen
-manifests, premise guards, and tests. Its external cold semantic review remains owed after an
-environment privacy-gate rejection.
+manifests, premise guards, and tests. The later authorized gpt-5.4 semantic review returned
+`PASS-WITH-REQUIRED-REPAIRS`: it found one omitted source for the cap-coordinate normalization and
+no mathematical objection. The append-only repair at `c3f7740` freezes that source and preserves
+the parent package byte-identically; the maximum conclusion is unchanged.
 
 `PONDER_MATH_ELEGANCE_2026-07-31.md` remains conjectural framing only. Its durable picture is
 taxonomy × stable basin; its saturation/Compton reading is a lead, and its nuclear ladder is a

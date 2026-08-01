@@ -9,7 +9,8 @@
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
 `udt_f02_global_completion_admissibility_2026-08-01/AUDIT_REPORT.md`, `LAY_REPORT.md`,
-`EXACT_DERIVATION.md`, and `COMPLETION_CENSUS.tsv` →
+`EXACT_DERIVATION.md`, and `COMPLETION_CENSUS.tsv` → its append-only external-review closure in
+`udt_f02_global_completion_admissibility_review_2026-08-01/` →
 `udt_f02_stationary_simultaneous_realization_2026-08-01/AUDIT_REPORT.md`, `LAY_REPORT.md`,
 `EXACT_DERIVATION.md`, `CONDITION_LEDGER.tsv`, and cold-review closure →
 `udt_post_july_mass_branch_reconciliation_2026-08-01/AUDIT_REPORT.md`, `LAY_REPORT.md`,
@@ -24,6 +25,12 @@ energy-bearing Hopfion model (`F04`), and control/structural/empty/formal classe
 `F06`, `F07`). Exactly three rows are conditional realized families; zero are native realized
 stable-matter families. No candidate reading is promoted to physical mass and no species count is
 justified.
+
+**PLURAL-BRANCH RULING:** the program does not seek one winning branch. Distinct complete branches
+may eventually represent different massive families, massless/force sectors, interfaces, or macro
+geometry. The present labels are mathematical family labels, not particle/force identifications.
+The missing common object is a metric-native grammar for admissibility, completion, response, and
+coupling across the branch ecology—not one local configuration that must contain every sector.
 
 **F02 FOLLOW-ON RESULT (commit `df9f1cd`):**
 `CONDITIONAL_NONPERIODIC_F02_DIRICHLET_HESSIAN_SECTOR_POSITIVITY_WITNESS_EXISTS`.
@@ -67,16 +74,21 @@ test baseline pass.
 
 The F02 completion package separately passes 10/10 exact checks, a non-importing independent
 reconstruction, 13/13 catches, premise guards, six frozen manifests / 133 paths, and the same test
-baseline. Its external cold semantic review was blocked by the environment privacy gate despite
-prior general authorization and remains explicitly owed; therefore the completion result stays
-`OPEN` / `VERIFIED-WITH-CAVEATS` and cannot be strengthened.
+baseline. Its subsequently authorized read-only gpt-5.4 review returned
+`PASS-WITH-REQUIRED-REPAIRS`: no mathematical objection, but the frozen parent source inventory
+omitted the registered toric-chart source proving the `p=0` proper-distance normalization used by
+the cap rows. Commit `c3f7740` preserves the raw review/transcript and closes that source-freezing
+defect in a separate append-only layer; the parent package remains byte-identical. The strongest
+label remains `OPEN_INCOMPLETE_REGISTERED_CLOSURE_DATA`.
 
 **NEXT-WORK STATUS:** the F02 global-completion census is complete at the registered-data level.
-Before using it affirmatively, obtain the owed cold semantic review. The remaining mathematical
-joint is no longer “try another loop”: derive the complete F02 transformation/response and first-
-jet seam law for the already typed twisted and cross-family completion rows, or derive a boundary/
-completion selector that decides those data. Neither is currently authorized or supplied. F01,
-F04, and F07 remain separate live gates, not ruled out by F02.
+The remaining F02 joint is no longer “try another loop”: derive its complete transformation/
+response and first-jet seam law for the already typed twisted and cross-family completion rows, or
+derive a boundary/completion selector that decides those data. This is one family gate, not a hunt
+for the universal branch; F01, F04, and F07 remain separate live gates. A post-July reverse-selector
+audit asking whether an independently stated UDT premise forces a carrier section and the minimal
+`L2+L4` form is a legitimate conceptual proposal, but it is not launched and must fail if it merely
+restates `S2`, `L2+L4`, stability, or a desired particle.
 
 **PREMISE STAMPS:** founded `phi` and the native off-shell coframe arena remain `DERIVED`; the P4
 responses, variation censuses, completions, and F01/F02 branches remain `CONDITIONAL`; the `S2`

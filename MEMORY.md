@@ -10,6 +10,8 @@
 block in `HANDOFF.md`, `CURRENT_SCIENTIFIC_PREMISES.md`, `CURRENT_SCIENTIFIC_PREMISES.tsv`, and
 `udt_f02_global_completion_admissibility_2026-08-01/AUDIT_REPORT.md` with its exact derivation,
 completion census, and external-review status, then
+`udt_f02_global_completion_admissibility_review_2026-08-01/CORRECTION_LAYER.md` and
+`COLD_REVIEW.md`, then
 `udt_f02_stationary_simultaneous_realization_2026-08-01/AUDIT_REPORT.md` with its exact derivation,
 condition ledger, and cold-review closure, then
 `udt_post_july_mass_branch_reconciliation_2026-08-01/AUDIT_REPORT.md` with its two machine-readable
@@ -26,13 +28,21 @@ repair, or destroy different branches. No current result assigns physical mass. 
 and F07 have distinct open gates and no source-backed priority ordering yet. Bootstrap remains a
 working posit and PONDER a conjectural interpretation.
 
+The branch program is plural: no single winner is being sought. Different completed families may
+eventually describe matter, massless/force sectors, joins, or macro structure, but no current row
+has earned such a physical assignment. What is missing in common is the native grammar governing
+admissibility, completion, response, coupling, and coexistence.
+
 F02 has one exact conditional local coexistence witness: a nonperiodic affine landing with
 `E0=1/8`, three candidate readings `1/4`, wall reading `0`, and a positive registered Dirichlet
 Hessian sector. It is not a completed stationary/global object. The global census now excludes
 nonzero F02 on ordinary common-response cycles and at regular caps, independently of R-A for the
 cap leg. Transition-twisted and indefinite cross-member joins remain open because their complete
 F02 response/descent and seam laws are not registered; open/acyclic remains local only. The exact
-status is `OPEN_INCOMPLETE_REGISTERED_CLOSURE_DATA`, with external cold review owed.
+status is `OPEN_INCOMPLETE_REGISTERED_CLOSURE_DATA`.
+The authorized gpt-5.4 review is now closed `PASS-WITH-REQUIRED-REPAIRS`: the only defect was an
+omitted registered source for the `p=0` proper-distance normalization; the append-only layer at
+`c3f7740` closes it without changing the parent package. The maximum conclusion remains unchanged.
 
 Premise guards remain: founded `phi` is derived reciprocal depth; strong local CSN is inactive;
 `c_E` and `G_obs` are observed anchors; bootstrap is a lens, not a filter; θ and the `S2` carrier

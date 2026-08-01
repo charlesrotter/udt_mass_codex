@@ -13,7 +13,8 @@
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 3. `udt_f02_global_completion_admissibility_2026-08-01/AUDIT_REPORT.md`, then its lay report,
-   exact derivation, completion census, machine result, and external-review status.
+   exact derivation, completion census, and machine result; then the append-only gpt-5.4 review and
+   correction in `udt_f02_global_completion_admissibility_review_2026-08-01/`.
 4. `udt_f02_stationary_simultaneous_realization_2026-08-01/AUDIT_REPORT.md`, then its lay report,
    exact derivation, condition ledger, machine result, and cold-review closure.
 5. `udt_post_july_mass_branch_reconciliation_2026-08-01/AUDIT_REPORT.md`, then `LAY_REPORT.md`,
@@ -30,6 +31,9 @@ geometry-only candidate mass routes; F04 has conditional static energy through a
 and action. F05 classifies completions rather than supplying another matter family. F03 is a
 control, F06 contains exact empty scopes, and F07 is formal architecture. Three conditional
 realized rows exist, but zero native stable-matter families and zero physical mass assignments.
+This is a plural family atlas, not a winner-take-all branch search: different completed families
+may eventually represent matter, massless/force, interface, or macro sectors, but none has earned a
+physical name. The missing common object is a lawful branch/completion/response grammar.
 
 **F02 bounded advance:** one exact local F02 background carries the nonzero affine landing and the
 registered positive Dirichlet Hessian sector at once. With `E0=1/8`, its three agreeing candidate
@@ -60,17 +64,21 @@ nonnegative under an exact inequality, but other completions can remove the bran
 separate carrier/action-conditional energy landscape. “Everything on” was always bounded to a
 registered layer, never the complete UDT theory.
 
-**Next-work boundary:** first close the owed external semantic review (the launch was rejected by
-the environment privacy gate). After that, the precise unresolved F02 object is a complete
-transition/response and seam law for the already typed twisted/cross-family rows, not another raw
-loop trial. No such derivation, boundary selector, coefficient fitting, action/carrier adoption,
-GPU work, or native-mass claim is licensed. F01, F04, and F07 remain separate.
+**Next-work boundary:** the authorized gpt-5.4 semantic review is closed in the append-only review
+layer (`PASS-WITH-REQUIRED-REPAIRS`; one omitted proper-distance source frozen and cited; no
+mathematical objection). The precise unresolved F02 object is a complete transition/response and
+seam law for the already typed twisted/cross-family rows, not another raw loop trial. This does not
+rank F02 above F01, F04, or F07. A reverse-selector audit of possible independent premises leading
+to a carrier section and minimal `L2+L4` is only a proposal and must reject circular restatements.
+No such derivation, coefficient fitting, action/carrier adoption, GPU work, or native-mass claim is
+licensed.
 
 **Operational baseline:** preregistration → bounded derivation → independent adversarial replay →
 premise audit → bank and push. F02: 10/10 primary checks, 11/11 catches, external algebra passes and
 scope `CLOSED-PASS`. Reconciliation: 20 frozen sources, 7 object rows, 16 mechanism rows, 14/14
 catches. F02 completion: 10/10 primary checks, independent local PASS, 13/13 catches, external cold
-review owed. Tests: 70 passed / 1 xfailed; six frozen manifests / 133 paths unchanged.
+review `PASS-WITH-REQUIRED-REPAIRS`, append-only repair 8/8, parent package byte-identical. Tests:
+70 passed / 1 xfailed; six frozen manifests / 133 paths unchanged.
 
 <!-- STARTUP_CURRENT_END -->
 
