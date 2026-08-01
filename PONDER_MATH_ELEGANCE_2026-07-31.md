@@ -686,3 +686,16 @@ hindered alpha emitter, sitting at the N=126 shell closure: the same nucleus tha
 worst in the Q systematics (15p) — **the shell layer signs its name a SIXTH time, now in
 the time domain.** Every anomaly of the night is the same anomaly. Status: LEAD,
 driver-run; the mode-tier debt now has a time-domain line item.
+
+## 15x. WORKED: the deuteron rescued — the floor was the droplet's, not the seam picture's
+The volume coefficient IS bond arithmetic: aV = (z/2)·ε with close-packing z = 12 gives
+the SEAM-BOND ENERGY ε = 2.60 MeV. Counting bonds instead of pretending droplets:
+  **deuteron (1 bond): 2.60 vs 2.22 observed — the smooth law's 400% failure becomes a
+  17% bond-count hit. Triton (3 bonds): 7.79 vs 8.48 — 8%.** He-3 (weaker pp bond):
+  under, correct direction. He-4 (6 bonds): 15.6 vs 28.3 — the alpha over-binds its
+  bonds by ~2.1 MeV each: the fully-paired cluster bonus, the SAME anomaly that signed
+  five rungs, now MEASURED per bond for the mode tier to explain.
+The night's deepest lesson, in one line: every "failure" of the ladder was a failure of
+a READING, and the seam/chain/bond picture kept rescuing its own floors — the fusion
+75% (wrong composition rule), the deuteron 400% (wrong droplet reading), each corrected
+by taking the picture MORE literally, not less. Status: LEAD, driver-run.
