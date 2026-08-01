@@ -6,7 +6,7 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-01).** Synchronize it before orientation.
 
-## CURRENT — F01 action/boundary bridge audited; native variation law open
+## CURRENT — F01 conditional inverse wall-stability surface derived
 
 **Fresh-entry path:**
 
@@ -18,11 +18,13 @@
    precision repair, certificates, and independent result.
 5. `udt_stability_action_boundary_bridge_audit_2026-08-01/AUDIT_REPORT.md`, then its lay report,
    exact derivation, route/map/premise ledgers, repair registration, and cold review.
-6. The stability-family ontology, derivation-closure, and global/local premise audits when their
+6. `udt_f01_second_wall_inverse_stability_2026-08-01/AUDIT_REPORT.md`, then its lay report, exact
+   derivation, threshold/status/premise ledgers, repair registration/closure, and cold review.
+7. The stability-family ontology, derivation-closure, and global/local premise audits when their
    family or bootstrap typing becomes load-bearing.
-7. `PONDER_MATH_ELEGANCE_2026-07-31.md` as conjectural framing only, especially §§1, 3–4, 7,
+8. `PONDER_MATH_ELEGANCE_2026-07-31.md` as conjectural framing only, especially §§1, 3–4, 7,
    14, and 20. It is not evidence or a premise.
-8. `P4_ARC_SUMMARY_2026-07-31.md` and exact P4 packages only when their algebra becomes
+9. `P4_ARC_SUMMARY_2026-07-31.md` and exact P4 packages only when their algebra becomes
    load-bearing; CLAUDE.md method sections and task-triggered protocols always apply.
 
 **Current honest result:** the complete metric defines a native typed off-shell coframe arena, but
@@ -47,10 +49,18 @@ background, tangent/trace domain, boundary one-form/Hessian, or second wall germ
 also make C2/Bach inactive without explicitly reauthorized strong local CSN. The bridge audit is
 verified after a transparent repair layer; it selects no action or boundary.
 
-**Proposed next bounded action:** compute the conditional inverse stability surface for the free
-second-wall Hessian on all four F01 domains. This would state what a future native closure law must
-supply, without choosing that response. Do not launch another family sweep or call a stabilized
-conditional branch native/global.
+**Inverse result:** `TWO_PARAMETER_CONDITIONAL_STABILITY_THRESHOLD_SURFACE_DERIVED`, verified with
+historical caveats and cold mathematical `PASS` after the finite-`beta` repair. In the aligned
+trace-difference/direct-lambda slice, angular response must first pass a certified field crossing;
+below it no `eta` helps, at it no finite `eta` helps, and above it the exact threshold is
+`eta>=-S_nu(tau)`. At the R06 hard-pin endpoint the representative direct-`mu` thresholds are about
+`2.08` and `3.52` for the two `p` domains. The response coefficients are explored coordinates,
+not UDT-derived or selected, and the complete wall Hessian remains open.
+
+**Proposed next bounded action:** classify the full symmetry-permitted second-wall Hessian and its
+nonnegative cone on the frozen F01 domains before comparing any native selector. This is proposed,
+not authorized. Stop rather than fit coefficients or launch another family sweep if no realized
+variation/boundary premise supplies the missing law.
 
 **Operational baseline:** preregistration → bounded derivation → independent adversarial replay →
 premise audit → bank and push. Tests: 70 passed / 1 xfailed.

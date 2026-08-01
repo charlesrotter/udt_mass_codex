@@ -12,7 +12,9 @@ block in `HANDOFF.md`, `CURRENT_SCIENTIFIC_PREMISES.md`, `CURRENT_SCIENTIFIC_PRE
 `udt_f01_lambda_schur_check_2026-08-01/AUDIT_REPORT.md` with its lay report, ledgers, precision
 repair, and independent result, then
 `udt_stability_action_boundary_bridge_audit_2026-08-01/AUDIT_REPORT.md` with its route/map ledgers,
-repair registration, and cold review. Expand into older P4/action packages only when load-bearing. The July 28
+repair registration, and cold review, then
+`udt_f01_second_wall_inverse_stability_2026-08-01/AUDIT_REPORT.md` with its threshold ledger,
+registered repair, and cold DOP853/FEM review. Expand into older P4/action packages only when load-bearing. The July 28
 frontier and external-review brief are pre-P4 context, not current navigation authority.
 
 Current honest status: the metric supplies a native typed off-shell coframe arena but no selected
@@ -21,9 +23,11 @@ rows are conditional realized families and zero are native. F01 is locally close
 conditional germ-flat premises: R05 Schur positive, R06 joint witness negative, all four joint
 indices one, hence no local joint-stable survivor. The action bridge audit finds partial analogies
 but zero exact C2/Bach, EH, or two-stage maps into F01; the second wall germ remains open.
-Bootstrap remains a working posit and PONDER a conjectural interpretation. The proposed next
-bounded work maps the conditional wall-Hessian threshold needed to change each F01 local index,
-without selecting that wall response.
+The two-parameter inverse surface is now derived conditionally: a finite angular trace-difference
+response must pass a certified field crossing, then a positive direct lambda/mu wall curvature is
+required; neither is selected and the complete wall Hessian remains open. Bootstrap remains a
+working posit and PONDER a conjectural interpretation. The proposed next bounded work classifies
+the full symmetry-permitted second-wall Hessian cone before any selector comparison.
 The nuclear ladder remains `CONSISTENCY-DEMO / REIMPLEMENTATION` and the saturation/Compton reading
 remains a lead.
 

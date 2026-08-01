@@ -5,7 +5,7 @@
 **⚠ BRANCH: work is on `grok` (2026-08-01).** If not on it: `git checkout grok`.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-01 — F01 ACTION/BOUNDARY BRIDGE AUDITED; NATIVE VARIATION LAW STILL OPEN) ============
+## ============ CURRENT STATE (2026-08-01 — F01 INVERSE WALL-STABILITY SURFACE DERIVED CONDITIONALLY) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
 `udt_native_stability_configuration_space_audit_2026-08-01/AUDIT_REPORT.md` and its cold review →
@@ -13,6 +13,8 @@
 precision repair, and independent result →
 `udt_stability_action_boundary_bridge_audit_2026-08-01/AUDIT_REPORT.md`, `LAY_REPORT.md`,
 route/map/premise ledgers, repair registration, and cold review →
+`udt_f01_second_wall_inverse_stability_2026-08-01/AUDIT_REPORT.md`, `LAY_REPORT.md`, exact
+derivation, threshold/status/premise ledgers, registered repair, and cold review →
 `udt_stability_family_ontology_audit_2026-08-01/AUDIT_REPORT.md`
 and the closure/global-local parents → `PONDER_MATH_ELEGANCE_2026-07-31.md` only as conjectural
 framing, especially §§1, 3–4, 7, 14, and 20.
@@ -53,12 +55,30 @@ an exact F01 field/background/tangent/trace/boundary-Hessian map. `C2/Bach` is a
 total-derivative counterfamily proves that the same interior Euler equation can carry different
 boundary one-forms and Hessians. The cold rerun passes after three registered evidence repairs.
 
-**PROPOSED NEXT BOUNDED ACTION — NOT YET A NATIVE LAW:** map the exact sign and magnitude of the
-free second-wall Hessian needed to change F01's one-negative-direction result on each R05/R06 and
-Dirichlet/free-right domain. This is an inverse stability target for a future native closure law,
-not permission to select the germ, adopt an action, or claim a stable branch. No further blind
-family sweep is justified until the realized variation/boundary law is derived or separately
-authorized as a conditional premise.
+**F01 INVERSE WALL-STABILITY RESULT (commit `c765dbc`):**
+`TWO_PARAMETER_CONDITIONAL_STABILITY_THRESHOLD_SURFACE_DERIVED`, evidence grade
+`VERIFIED-WITH-CAVEATS`; cold mathematical status `PASS` after the registered finite-`beta`
+repair. A finite aligned angular trace-difference Hessian gives
+`tau(beta)=s^2 beta/(1+beta J)`: R05 is `beta=0`, and R06 is reached only as
+`beta->infinity`. The field crossing occurs at normalized `t=tau/tau_infinity` in
+`[0.441774,0.442347]` (Dirichlet) and `[0.554199,0.554983]` (free right). Below it no direct
+lambda/mu curvature can repair the field negative direction; at it no finite curvature can repair
+the coupled zero mode; above it the exact conditional threshold is `eta>=-S_nu(tau)`. At the R06
+endpoint the representative `mu^2` thresholds are `[2.06552,2.10393]` and
+`[3.49307,3.53778]`. Fifteen symbolic controls, 14 semantic/schema catches, a 135-source cold
+DOP853/FEM reconstruction, 25/25 independent comparisons, and the 32-file package manifest pass.
+
+**INTERPRETATION:** angular pinning alone moves the negative direction into the lambda/mu block;
+it does not remove it. In this restricted slice a future closure law must coordinate two wall
+responses. Neither `beta`, `tau`, nor `eta` is supplied, selected, native, or physical, and the
+complete wall Hessian is not covered. This is an inverse target, not a stable-matter result.
+
+**PROPOSED NEXT BOUNDED ACTION — NOT YET AUTHORIZED:** before testing a native selector against
+this partial target, classify the complete symmetry-permitted second-wall Hessian and its exact
+nonnegative cone on the same frozen F01 domains, including independent wall matrices and cross
+germs. If that full inverse classification remains nonselective, stop F01 until a realized
+variation/boundary premise is derived or Charles separately authorizes one. No blind family sweep
+or coefficient fitting is justified.
 
 **AUTHORITY BOUNDARY:** complete native action, response/source law, differentiable physical
 boundary, carrier emergence, time persistence, bootstrap membership/return, unconditional mass,

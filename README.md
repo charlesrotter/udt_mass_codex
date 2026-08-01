@@ -6,11 +6,14 @@ block → current premise registry →
 `udt_f01_lambda_schur_check_2026-08-01/AUDIT_REPORT.md` and its lay/ledger/cold-review evidence →
 `udt_stability_action_boundary_bridge_audit_2026-08-01/AUDIT_REPORT.md` and its
 route/map/repair/cold-review evidence →
+`udt_f01_second_wall_inverse_stability_2026-08-01/AUDIT_REPORT.md` and its
+threshold/repair/cold-review evidence →
 the stability ontology/closure/global-local parents when load-bearing.
 `PONDER_MATH_ELEGANCE_2026-07-31.md` is conjectural framing, never authority. The bridge audit finds
-only partial analogies and no exact action-route map into F01. The proposed next bounded work maps
-the second-wall Hessian required to alter F01's conditional local index, without selecting it—not
-action adoption, T4, GPU work, or global stability.
+only partial analogies and no exact action-route map into F01. The inverse audit derives a
+conditional two-coordinate threshold surface but selects no wall response; its proposed successor
+is the complete symmetry-permitted inverse wall-Hessian cone—not action adoption, coefficient
+fitting, T4, GPU work, or global stability.
 
 
 This root is the control and navigation surface for the UDT research record.
