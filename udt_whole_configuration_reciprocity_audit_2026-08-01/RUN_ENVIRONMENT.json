@@ -1,0 +1,10 @@
+{
+  "base": "9fe5202e86627aa47a5200ea776dcb468a6531f6",
+  "branch": "codex/whole-configuration-reciprocity-audit-2026-08-01",
+  "kernel": "Linux 6.8.0-124-generic x86_64",
+  "mode": "CPU-only exact rational and source-led audit",
+  "network_used_for_science": false,
+  "python": "3.10.12",
+  "pytest": "9.1.1",
+  "sympy_present_but_not_used_by_primary_derivation": "1.13.1"
+}

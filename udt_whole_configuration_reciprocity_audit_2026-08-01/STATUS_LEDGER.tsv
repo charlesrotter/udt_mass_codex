@@ -1,0 +1,11 @@
+claim	status	basis	remaining
+observer_frame_reciprocity	DERIVED_LAW_EQUIVARIANCE_REQUIREMENT	I01,I02,N04	complete physical observer/path/boundary action
+zero_set_orbit_saturation	DERIVED_GIVEN_FUTURE_A_COMPLETE_ACTION_AND_ZERO_PRESERVING_sigma	N05 and affine counterexample	formula, codomain, pairing, zero-preserving codomain action, and existence of A
+whole_configuration_fixedness	NOT_DERIVED	I04 and orbit control	would be a new invariance premise
+pairwise_depth_cocycle	DERIVED_ABSTRACT_RECONSTRUCTION_NOT_SELECTION	I03 and incidence control	physical arrow/depth assignment and realized profile
+internal_dual_pairing	DERIVED_ON_FOUNDED_2D_PAIR_ONLY	I06 and D^T K D control	complete configuration/boundary response pairing and selected invariant level
+finite_cell_reciprocal_descent	CONDITIONAL_PARTIAL	I07	selected completion and differentiable boundary law
+bootstrap_join_from_reciprocity	NOT_DERIVED	I08 and comparison graph control	independent nonidentity return map
+P4_law_selection_from_reciprocity	NOT_DERIVED_PERMITTED_EQUIVARIANT_FAMILY	I09	whole-solution/global selector
+complete_native_return_A	OPEN_NOT_DERIVED_IN_FROZEN_UNIVERSE	I01-I10	metric-native nonidentity relation on one complete domain
+overall	RECIPROCITY_DERIVES_EQUIVARIANT_QUOTIENT_ONLY	1384-source census plus exact controls	a law-generating principle beyond law covariance

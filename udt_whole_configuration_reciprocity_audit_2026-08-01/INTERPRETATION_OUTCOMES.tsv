@@ -1,0 +1,11 @@
+candidate_id	interpretation	status	whole_configuration_content	return_gate	source_anchor
+I01	PASSIVE_FRAME_RELABELING	DERIVED_DESCRIPTION_GROUPOID_EQUIVALENCE	laws and tensorial readouts must be natural under observer-description changes	FAIL_NO_ZERO_SET	A02;A03;A05
+I02	ACTIVE_RECIPROCAL_EXCHANGE	DERIVED_EQUIVARIANT_ACTION_NOT_FIXEDNESS	supplied complete objects transform covariantly under the exchange action	FAIL_EQUIVARIANCE_ONLY	A03;A04;A06
+I03	PAIRWISE_COMPARISON_COCYCLE	DERIVED_ABSTRACT_COCYCLE_RECONSTRUCTION_NOT_SELECTION	ordered depths compose reverse and reconstruct relative values modulo common offset when supplied	FAIL_ALL_DEPTH_CONFIGURATIONS_ADMITTED	A05;A07;A09
+I04	GLOBAL_FIXED_POINT	NOT_DERIVED_FIXEDNESS_IS_EXTRA_PREMISE	X=S X would select the fixed locus rather than express equivalence of frames	FAIL_FIXEDNESS_SMUGGLE	A03;A04;A06
+I05	ORBIT_OR_GROUP_AVERAGE	NOT_DERIVED_REQUIRES_MEASURE_OR_PROJECTION	orbit equivalence is available after an action; an average or representative is not	FAIL_UNSELECTED_PROJECTION	A05;A08
+I06	RECIPROCAL_DUAL_PAIRING	PAIRING_DERIVED_ON_2D_PAIR_NO_FULL_RESPONSE_COVECTOR	K pairs the clock/ruler representation and constrains its character	FAIL_NO_FULL_DOMAIN_PAIRING_OR_LEVEL	A02;A06;A14
+I07	FINITE_CELL_INVOLUTION_AND_GLUE	CONDITIONAL_PARTIAL_ADMISSIBILITY_NO_COMPLETE_RETURN	algebraic reversal and selected completions can constrain joins	FAIL_BOUNDARY_COMPLETION_NOT_FOUNDED_BY_RECIPROCITY	A03;A08;A10
+I08	BOOTSTRAP_JOIN	NO_JOIN_GRAPH_REMAINS_NONSELECTION	Reciprocity requires a future A and R to transform compatibly	FAIL_NO_MAP_FROM_EQUIVARIANCE_TO_A	A01;A11;A12
+I09	P4_EQUIVARIANT_RESPONSE_SPACE	CONSTRAINED_EQUIVARIANT_FAMILY_NOT_UNIQUE	Reciprocity restricts transformation type of candidate response laws	FAIL_PERMITTED_FAMILY_NOT_SELECTED_MEMBER	A06;A13
+I10	OTHER_FROZEN_INTERPRETATION	NO_OTHER_FOUNDED_RETURN_FOUND	bounded 1384-source census contains no additional founded zero-set operation	FAIL_BOUNDED_NEGATIVE	A01-A15

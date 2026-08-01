@@ -1,0 +1,58 @@
+{
+  "affine_sigma_equivariant": true,
+  "affine_sigma_fixes_zero": false,
+  "affine_sigma_invertible": true,
+  "affine_zero_set_orbit_saturated": false,
+  "comparison_graph_configuration_dimension": 4,
+  "comparison_graph_nullity": 4,
+  "comparison_graph_rank": 6,
+  "conclusions": [
+    "orbit equivalence does not imply fixedness",
+    "equivariance does not select a unique return operation or zero set",
+    "invertibility alone does not preserve a return-law zero set; sigma_g(0)=0 is additionally required",
+    "pairwise reciprocal cocycle reconstruction leaves the full supplied depth configuration free in its graph and only removes a common offset when comparisons are externally fixed",
+    "the internal dual pairing fixes representation structure but not an invariant level or full response covector"
+  ],
+  "dual_pairing_preservation_checks": 3,
+  "dual_pairing_preservation_failures": 0,
+  "equivariance_checks": 5,
+  "equivariance_failures": 0,
+  "equivariant_return_survivor_counts": {
+    "A_difference_zero_diagonal": 2,
+    "A_identity_zero_origin": 1,
+    "A_product_zero_axes": 3
+  },
+  "fixed_locus_constraint_rank": 1,
+  "incidence_nullity": 1,
+  "incidence_rank": 3,
+  "invariant_level_survivor_counts": {
+    "x1x2_four": 1,
+    "x1x2_one": 2,
+    "x1x2_zero": 1
+  },
+  "nonfixed_orbit_witness": [
+    1,
+    2
+  ],
+  "observer_count": 4,
+  "orbit_size": 2,
+  "pair_edge_count": 6,
+  "scope": "exact finite-dimensional logic and representation controls; not candidate UDT physics",
+  "sorted_triangle_witness_checks": 12,
+  "swap_matrix": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "swapped_witness": [
+    2,
+    1
+  ],
+  "triangle_failures": 0,
+  "witness_is_fixed": false
+}

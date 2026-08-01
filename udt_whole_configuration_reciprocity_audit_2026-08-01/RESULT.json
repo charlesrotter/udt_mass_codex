@@ -1,0 +1,15 @@
+{
+  "complete_action_on_U_full": false,
+  "complete_native_return_A": false,
+  "equivariance_requirement_derived": true,
+  "fixedness_entailed": false,
+  "gpu_used": false,
+  "interpretations": 10,
+  "naturality_obligations": 8,
+  "outcome": "RECIPROCITY_DERIVES_EQUIVARIANT_QUOTIENT_ONLY",
+  "passing_native_return_interpretations": 0,
+  "solve_authorized": false,
+  "source_anchors": 15,
+  "source_paths_verified": 1384,
+  "zero_set_orbit_saturation_derived_given_A_and_zero_preserving_codomain_action": true
+}

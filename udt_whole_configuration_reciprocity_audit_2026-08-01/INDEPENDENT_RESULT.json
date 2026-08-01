@@ -1,0 +1,52 @@
+{
+  "checks_passed": 15,
+  "checks_total": 15,
+  "closed_findings": [
+    {
+      "effect_on_main_result": "No change to the negative result that Reciprocity does not derive A; the conditional positive zero-set theorem is repaired.",
+      "finding": "Invertibility of sigma_g alone does not imply sigma_g(0)=0; equivariance plus invertibility therefore does not by itself orbit-saturate A=0.",
+      "id": "A1_ZERO_SECTION_PREMISE",
+      "repair": "Replace N05's premise by a zero-preserving codomain action (normally a linear/vector-bundle representation), and add sigma_g(0)=0 to the derivation and reports.",
+      "status": "CLOSED_IN_AMENDED_PRIMARY"
+    },
+    {
+      "effect_on_main_result": "No algebraic or scientific conclusion changes.",
+      "finding": "The saved 12 triangle checks are four sorted K4 triangles evaluated on three depth witnesses, not a full oriented-triangle census for one assignment.",
+      "id": "A2_TRIANGLE_COUNT_LABEL",
+      "repair": "Describe the 12 as witness checks, or report the independent 24 ordered-triple checks and cocycle-constraint rank 3.",
+      "status": "CLOSED_IN_AMENDED_PRIMARY"
+    }
+  ],
+  "failed": [],
+  "four_gates": {
+    "bounded_scope": "YES_exact_1384_source_universe_and_finite_logic_controls",
+    "independent_load_bearing_verification": "YES_fresh_nonimporting_reconstruction_and_amended_primary_closure",
+    "premises_audited": "YES_observer_dual_Xmax_finite_cell_P4_CSN_firewall_boundary_bootstrap_separated",
+    "preregistered": "YES_aad2ac4"
+  },
+  "independent_algebra": {
+    "cocycle_constraint_rank": 3,
+    "cocycle_space_dimension": 3,
+    "dual_pairing_preserved": true,
+    "equivariant_return_zero_counts_same_domain_codomain": {
+      "difference": 2,
+      "identity": 1,
+      "product_diagonal": 3
+    },
+    "fixed_locus_rank": 1,
+    "graph_nullity": 4,
+    "graph_rank": 6,
+    "incidence_nullity": 1,
+    "incidence_rank": 3,
+    "ordered_triangle_checks": 24,
+    "swap_orbit_size": 2
+  },
+  "primary_outcome_retained": "RECIPROCITY_DERIVES_EQUIVARIANT_QUOTIENT_ONLY",
+  "semantic_mutations_rejected": 17,
+  "semantic_mutations_total": 17,
+  "source_bytes_searched": 22074465,
+  "source_paths_verified_and_searched": 1384,
+  "stop_line": "No solve, GPU, physics adoption, commit, push, or navigation edit performed.",
+  "stronger_founded_return_found": false,
+  "verdict": "PASS"
+}

@@ -1,0 +1,9 @@
+obligation_id	object	status	consequence
+N01	observer_change_groupoid_on_descriptions	DERIVED_ABSTRACT_AND_CONDITIONAL_COMPLETE_ACTION	comparison laws have composition reversal and identity; complete physical arrows remain open
+N02	action_on_complete_U_full	PARTIAL_CONDITIONAL	local/coframe/path actions exist when data supplied; boundary and completion action not universal
+N03	action_on_global_readout_O	TYPED_BY_COMPONENT_NOT_ONE_COMPLETE_O	each valid readout must retain observer/path transformation arguments
+N04	future_return_equivariance	DERIVED_REQUIREMENT_GIVEN_A	A(gX,rho_g O)=sigma_g A(X,O)
+N05	future_zero_set_orbit_saturation	DERIVED_REQUIREMENT_GIVEN_ZERO_PRESERVING_sigma	if sigma_g(0)=0 then A=0 implies transformed A=0 throughout each observer orbit
+N06	fixed_configuration_requirement	NOT_DERIVED	equivalence or covariance does not imply X=gX
+N07	canonical_orbit_representative_or_average	NOT_DERIVED	requires a measure gauge section or projection
+N08	complete_nonidentity_return_A	OPEN_NOT_DERIVED	naturality constrains a supplied law but does not manufacture its formula or zero set
