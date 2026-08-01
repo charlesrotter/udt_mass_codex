@@ -1,0 +1,12 @@
+relation	meaning
+SELF	the diagonal identity row only
+SAME_OBJECT_DIFFERENT_SECTOR	two labels are exact sectors or strata of one defined parent object
+OVERLAPPING_CONFIGURATION_SETS	the frozen record proves a nonempty intersection without equality
+FORMAL_EMBEDDING_ONLY	an exact module or schema embedding exists without a shared realized solution
+STRUCTURAL_CONSTRAINT_ON	one label constrains completion or admissibility of the other but is not its solution subset
+CONTROL_STRATUM_OF	one label is a control or limiting stratum of the other parent system
+EMPTY_SUBSCOPE_OF	one label is an exact empty premise subdomain of the other parent system
+CONDITIONAL_ANALOGY_ONLY	objects share a stability or structural motif but no native identity map
+DISJOINT_BY_FIELDS_OR_PREMISES	exact field types or mutually exclusive premises prove disjointness
+NO_DERIVED_RELATION	no load-bearing exact relation is supplied
+SOURCE_CONFLICT_OR_SCOPE_BROKEN	the sources conflict or pair scope cannot be reproduced

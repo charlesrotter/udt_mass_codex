@@ -1,0 +1,11 @@
+axis_id	axis	deciding_question
+A01	FIELD_CONFIGURATION_IDENTITY	what complete field or configuration set is the object
+A02	GOVERNING_EQUATION_RESPONSE	what equation response or functional owns membership
+A03	DOMAIN_CHART_COMPLETION	what domain chart and global completion define the object
+A04	BOUNDARY_POSTURE	what physical or supplied boundary and posture apply
+A05	TANGENT_VARIATION_DOMAIN	what admissible perturbations make stability meaningful
+A06	CARRIER_TOPOLOGY	what carrier and topological sector are derived supplied or absent
+A07	DYNAMICAL_CHARACTER	static stationary time-live or merely formal
+A08	PREMISE_STACK	which derived conditional chosen posit and open premises control the object
+A09	SOURCE_COMMIT_LINEAGE	which sources and introducing lineages actually establish the object
+A10	EXACT_RELATIONS	what injections projections intersections exclusions or equivalences are proved

@@ -1,0 +1,10 @@
+status	meaning
+NATIVE_REALIZED_SOLUTION_FAMILY	a nonempty realized solution set with native owned equation domain and premise stack
+CONDITIONAL_REALIZED_SOLUTION_FAMILY	a nonempty realized solution set only under explicit supplied or conditional physical premises
+SHARED_PARENT_SOLUTION_SECTOR	a branch or stratum of a broader defined parent system rather than an independent family
+STRUCTURAL_COMPLETION_CLASS	a domain completion period holonomy or closure class without its own response-defined solution set
+FORMAL_MODULE_CLASS	formal compatible equations or modules without one common realized object
+CONTROL_STRATUM	a validation or limiting stratum used to check another system rather than a candidate family
+EXACT_EMPTY_SCOPE	a precisely stated premise scope whose candidate set is empty
+OPEN_IDENTITY_OR_RELATION	the frozen record does not determine whether the label is independent shared or realized
+SOURCE_CONFLICT_OR_SCOPE_BROKEN	the frozen sources conflict or the audit scope cannot be reproduced

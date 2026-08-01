@@ -1,0 +1,8 @@
+family_id	inherited_name	inherited_object_boundary	question_not_outcome
+F01	P4_SI_MASSIVE_CONSTANT_CENSUS	stationary quadratic jet<=2 cells and mixed crease-glue chains	independent family or sector of a parent P4 system
+F02	P4_SII_MASSIVE_LIVE_MODULUS	fields-census P1-4D landing with no-m-jet and jet-quadratic subclasses	independent family or another parent P4 sector
+F03	P4_MASSLESS_CONTROLS	E0=0 constant and triad-locked control members	solution family or validation/control stratum
+F04	FULL3D_NO_NULL_HOPFION	conditional round-S2 L2+L4 finite-box full-3D configurations	conditional model family or native UDT family
+F05	UNIFORM_CLOSED_RING_MASSLESS_CLOSURE	closed-ring completion and label/masslessness statements	solution family or structural completion class
+F06	EMPTY_MASSIVE_SINGLE_OR_CLOSED_POSTURES	single-cell cyclic and double-crease massive empty domains	family or exact empty subscope of another object
+F07	FORMAL_STATIC_TIME_ANGULAR_MODULES	formal exact P4 modules before a joint realized live solution	realized family or formal compatibility class

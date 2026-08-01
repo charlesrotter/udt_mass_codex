@@ -1,0 +1,4 @@
+layer	expected_paths	rule
+PARENT_SWEEP_SOURCE_UNIVERSE	1558	exact inherited freeze
+COMPLETE_PARENT_SWEEP_PACKAGE	47	all tracked parent-package files at base
+UNION	1605	sorted unique additions-only union
