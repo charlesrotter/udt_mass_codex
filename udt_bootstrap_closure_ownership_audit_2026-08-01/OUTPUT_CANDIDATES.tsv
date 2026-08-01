@@ -1,0 +1,12 @@
+candidate_id	family	whole_question	mandatory_distinction
+O01	PROPER_MEASURE_AND_VOLUME	Does the complete metric and declared slice/boundary define a globally descended measure and total volume?	definition versus selected physical slice/domain
+O02	CURVATURE_LOCAL_AND_INTEGRATED	Which curvature scalars tensors spectra or integrals are defined and on what domain?	mathematical invariant versus chosen contraction/weight/average
+O03	HOLONOMY_AND_TRANSPORT	Which path groupoid holonomies or global transport data are metric-canonical?	path-labelled map versus endpoint scalar
+O04	TOPOLOGY_AND_COMPLETION	Which topology gluing cap seam quotient or posture labels are supplied by a configuration?	configuration class versus returned observable
+O05	OBSERVER_CLOCK_DEPTH_AND_PAIRING	Which stationary clock depths observer comparisons separations or diameters are metric-derived?	bounded query versus universal intrinsic scalar
+O06	XMAX_DIAMETER	Does a complete configuration define the observer-pair maximum separation and its value?	working schema versus derived pairing functional/value
+O07	BOUNDARY_GEOMETRY_AND_FLUX	Which induced metric normal curvature flux or corner objects are defined?	raw geometric datum versus normalized charge/mass
+O08	COFRAME_SCREEN_AND_RECIPROCAL_RESPONSE	Which global reciprocal screen mixing and response data are read from a supplied coframe?	off-shell structure versus selected response law
+O09	P4_INTEGRATED_BRANCH_DATA	Which E0 ell I_p wall or full-cell quantities are defined on registered branches?	conditional response-law output versus metric-only output
+O10	NATIVE_MASS_ENERGY_DENSITY	Does the current metric foundation define normalized total energy mass and density?	physical functional versus dimensional/readout analogy
+O11	OTHER_REGISTERED_OUTPUT	Does any other frozen source supply a complete metric-native global output?	exact provenance and common domain required

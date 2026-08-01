@@ -1,0 +1,9 @@
+candidate_id	route	whole_question	forbidden_shortcut
+R01	RECIPROCITY_AND_FRAME_COMPOSITION	Does kinematic reciprocity return global outputs to local admissibility?	group law called dynamics
+R02	FINITE_CELL_REGULARITY_AND_GLUE	Do global smoothness and joins impose one complete local/global response?	regularity catalogue called selector
+R03	COFRAME_HOLONOMY_INTEGRABILITY	Does global transport impose a nonidentity whole-field restriction with complete descent?	Bianchi or holonomy identity called EOM
+R04	BOOTSTRAP_TWO_ARROW_ARCHITECTURE	Are A and R both defined with one common fixed-point domain?	type skeleton called equation
+R05	P4_RESPONSE_INVERSE_PROBLEM	Does the permitted response-law space select one law through whole-solution/global gates?	permitted family called selected law
+R06	BOUNDARY_SHAPE_TRANSVERSALITY	Does moving-boundary variation provide a native return condition?	fixing wall or choosing primitive
+R07	ACTION_MEDIATED_CONDITIONAL	Does any conditional action become native under current premises?	C2 Bach EH or carrier action promotion
+R08	OTHER_REGISTERED_RETURN	Does another frozen source supply the exact nonidentity return operation?	splicing partial clauses across branches
