@@ -502,3 +502,19 @@ Status: LEAD, driver-run; the night's true finale — the seam law now touches t
 of nuclides' SHAPE (the valley), its DECAYS (Q_α), and its BOUNDARIES (the alpha line),
 all unpinned. Every number above is a standing falsification target for the verifier
 confrontation behind A3.
+
+## 15m. WORKED (refined): least-squares over 14 nuclides — the coefficients CONVERGE ON
+NATURE'S SET, and the residuals READ AS SHELLS
+Over-determined fit (14 nuclides, 5 coefficients): **volume 15.59 (LD 15.8, 1.3%),
+surface 17.25 (17.8, 3%), COULOMB 0.7061 vs 0.711 — WITHIN 0.7% — asymmetry 22.51
+(23.7, 5%), pairing 22.4.** RMS residual = 18 keV/nucleon ≈ **0.2% typical accuracy**
+across the table. AND THE RESIDUALS ARE NOT NOISE — they read as the shell structure,
+OBSERVED not imposed: the largest binding-excess residual sits on **Pb-208, the doubly
+magic nucleus (−41 keV: nature binds it MORE than the smooth law — the shell-closure
+signature, correct sign)**; Zr-90 (magic n=50) next (−22); the uranium isotopes sit
++22/+32 on the other side (the known deformation region beyond the closed shell). The
+next layer names itself from the residual table exactly as pairing named itself from
+the alpha anomaly: SHELLS = the discrete level structure — which in this framework is
+the natural jurisdiction of the per-basin mode spectrum (the angular/mode machinery A3
+opens). Status: LEAD, driver-run; the ladder now stands at 0.2% with nature's
+coefficient set emergent and the next rung named by the data itself.
